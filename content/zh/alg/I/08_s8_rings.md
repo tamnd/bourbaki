@@ -62,16 +62,16 @@ subsections:
       pdf_page: 136
 statements: 32
 exercises: 16
-content_sha256: 1f094337b610cf8ee4592ae6dfca5c67b1e2c5a4bd510acf8e164b0bf76895cb
+content_sha256: e42f7ed69de4578198417c1b99ff73e7978ac58955d88817d40f2edc082d08fb
 translated_from: content/en/alg/I/08_s8_rings.md
 translation_method: google
 source_content_sha256: 9e2e678718b8b04bcfb806c30df7ec34dec70b897c7a14a41eee1a9ca40499a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 75e2174d60d6adf608583b457bd44cb153490ce77a18cfefbd61c9a5b09d7b2b
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 8。 环
@@ -84,7 +84,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 (AN I) *在加法* $\mathbf{A}$ *下是可交换的群*。
 (AN II) *乘法具有结合律并拥有单位元素*。
-(AN III) *乘法对于加法* 是可分配的。
+(AN III) *乘法相对于加法* 是可分配的。
 *环* $\mathbf{A}$ *如果其乘法是可交换的，则称其是可交换的*。
 
 其中，$(x, y) \mapsto x + y$表示加法，$(x, y) \mapsto xy$乘法； $0$ 表示加法的单位元素，$1$ 乘法。最后，$-x$表示加法下$x$的负数。因此，环的公理由以下恒等式表示：
@@ -204,7 +204,7 @@ $$
 
 #### 推论 2 {#alg-i-s8-prop-1-cor-2 .statement tag=05H5}
 
-*设A为A的交换环、X集合、$\mathbf{u} = (u_x)_{x \in X}$和$\mathbf{v} = (v_x)_{x \in X}$两个族元素。令$\mathbf{u} + \mathbf{v}$表示族$(u_x + v_x)_{x \in X}$。对于所有$\lambda \in \mathbf{N}^{(X)}$，我们写为$\lambda! = \prod_{x \in X} \lambda(x)!$。那么对于所有$\alpha \in \mathbf{N}^{(X)}$，在§ 7, no. 8的记号中，
+*设A为A的交换环、X、集合、$\mathbf{u} = (u_x)_{x \in X}$和$\mathbf{v} = (v_x)_{x \in X}$两个族元素。令$\mathbf{u} + \mathbf{v}$表示族$(u_x + v_x)_{x \in X}$。对于所有$\lambda \in \mathbf{N}^{(X)}$，我们写为$\lambda! = \prod_{x \in X} \lambda(x)!$。那么对于所有$\alpha \in \mathbf{N}^{(X)}$，在§ 7, no. 8的记号中，
 
 $$
 (\mathbf{u} + \mathbf{v})^\alpha = \sum_{\beta + \gamma = \alpha} \frac{\alpha!}{\beta! \gamma!} \mathbf{u}^\beta \mathbf{v}^\gamma.
@@ -232,7 +232,7 @@ $$
 (-1)^n n! x_1 x_2 \cdots x_n = \sum_{H \subset I} (-1)^{\mathrm{Card}\, H}(x_H)^n.
 $$
 
-设$C$为$I$的映射到$\{0, 1\}$的集合。如果将每个$H \subset I$映射到其特征函数，则将$\mathscr{P}(I)$映射到$C$，即可获得双射。因此，(16) 的右侧等于：
+设$C$为$I$的映射到$\{0, 1\}$的集合。如果将每个$H \subset I$映射到其特征函数，则将$\mathscr{P}(I)$映射到$C$即可获得双射。因此，(16) 的右侧等于：
 
 $$
 \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} \left( \sum_{i \in I} a(i) x_i \right)^n
@@ -250,7 +250,7 @@ $$
 c_{i_1 \ldots i_n} = \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} a(i_1) \ldots a(i_n).
 $$
 
-(1) 假设$(i_1, \ldots, i_n)$不是$I$的置换。存在与$i_1, \ldots, i_n$不同的$j \in I$。令 $C'$ 为 $a \in C$ 的集合，使得 $a(j) = 0$。对于所有$a \in C'$，令$a^*$为$a$的和以及$\{j\}$的特征函数。然后 $a^*(1) + \cdots + a^*(n) = a(1) + \cdots + a(n) + 1$ 因此
+(1) 假设$(i_1, \ldots, i_n)$不是$I$的置换。存在与$i_1, \ldots, i_n$不同的$j \in I$。令$C'$为$a \in C$的集合，使得$a(j) = 0$。对于所有$a \in C'$，令$a^*$为$a$的和以及$\{j\}$的特征函数。然后 $a^*(1) + \cdots + a^*(n) = a(1) + \cdots + a(n) + 1$ 因此
 
 $$
 c_{i_1 \ldots i_n} = \sum_{a \in C'} (-1)^{a(1)+\cdots+a(n)} a(i_1) \ldots a(i_n) + (-1)^{a^*(1)+\cdots+a^*(n)} a^*(i_1) \ldots a^*(i_n)
@@ -261,23 +261,23 @@ $$
 
 (2) 假设存在$\sigma \in S_n$使得$i_1 = \sigma(1), \ldots, i_n = \sigma(n)$。那么$a(i_1) \ldots a(i_n) = 0$除非$a$只需要值1。因此$c_{i_1 \ldots i_n} = (-1)^n$。
 
-### 3. 例环
+### 3.例环
 
-I.零环。设 A 为环。对于A中的$0 = 1$，A由单个元素组成是充分必要的。 条件显然已经足够了。另一方面，如果$0 = 1$，那么对于所有$x \in A$，$x = x.1 = x.0 = 0$。这样的环称为零环。
+I。 零环。设 A 为环。对于A中的$0 = 1$，A由单个元素组成是充分必要的。 条件显然已经足够了。另一方面，如果$0 = 1$，那么对于所有$x \in A$，$x = x.1 = x.0 = 0$。这样的环称为零环。
 
-有理整数的II.环。由于加法在§ 2, no. 5中定义，乘法在§ 2, no. 6中定义，$\mathbf{Z}$是交换环。 记号 0, 1, $-x$ 与之前介绍的记号一致。
+II。有理整数的环。由于§ 2, no. 5中定义了加法，§ 2, no. 6中定义了乘法，$\mathbf{Z}$为交换环。 记号 0, 1, $-x$ 与之前介绍的记号一致。
 
-*三。实值函数的环。令 I 为实数的集合 $\mathbf{R}$ 中的一个区间，并令 A 为在 I 上用实数值定义的连续函数的集合。两个函数 $f$ 和 $g$ 中的和 $f + g$ 和乘积 $f.g$ 定义为
+*III。实值函数的环。令I为实数的集合$\mathbf{R}$中的区间，令A为I上定义的连续函数与实值的集合。两个函数$f$和$g$中的和$f + g$和乘积$f.g$定义为
 $$(f + g)(t) = f(t) + g(t), \quad (fg)(t) = f(t)g(t) \quad (t \in I).$$
-得到交换环，其中单位元是常数1.*
+得到交换环，其中单位元是常数1。*
 
-*四。卷积伪环。令 E 为 $\mathbf{R}$ 上的实值连续函数的集合，其中零在有界区间之外。两个函数的和定义如 III 中，但乘积现在定义为
+*IV。卷积伪环。令 E 为 $\mathbf{R}$ 上的实值连续函数的集合，其中零在有界区间之外。两个函数的和的定义与 III 相同，但乘积现在定义为
 $$(fg)(t) = \int_{-\infty}^{\infty} f(s)g(t-s)\ ds$$
 （“卷积乘积”）。这样就得到了一个可交换的伪环，它不是环（cf.积分，VIII, §4）。*
 
-环 A 的 V. 逆环。设 A 为环。与 A 相同的加法和乘法 $(x, y) \mapsto yx$ 的集合 A 通常用$A^0$ 表示。它是环（称为A的逆环），与A具有相同的零和相同的单位，并且当且仅当A是可交换的时，它与A有重合。
+V。 环 A 的逆环。设 A 为环。与 A 相同的加法和乘法 $(x, y) \mapsto yx$ 的集合 A 通常用$A^0$ 表示。它是环（称为A的逆环），与A具有相同的零和相同的单位，并且当且仅当A是可交换的时，它与A有重合。
 
-交换律群的 VI. 自同态环。设 G 是可加写的交换律群。令E表示G的自同态的集合。给定E中的$f$和$g$，G到G的映射$f + g$和$fg$定义为
+VI。 群的交换律自同态环。设 G 是可加写的交换律群。令E表示G的自同态的集合。给定E中的$f$和$g$，G到G的映射$f + g$和$fg$定义为
 $$(f + g)(x) = f(x) + g(x), \quad (fg)(x) = f(g(x)) \quad (x \in G).$$
 通过 § 1, no. 5、命题 5，$f + g$ 是 G 的自同态，因此显然也是 $fg = f \circ g$。到§ 4, no. 8，E 是加法下的（可交换的）群。 乘法显然是结合律并且有单位元素 $\mathrm{Id}_G$。同样对于E中的$f, g$和$h$，我们写成$\phi = f.(g + h)$；对于所有$x \in G$，
 $$\phi(x) = f((g + h)(x)) = f(g(x) + h(x)) = f(g(x)) + f(h(x))$$
@@ -286,7 +286,7 @@ $$(g + h)f = gf + hf.$$
 
 因此 E 是一个（一般而言不可交换的）环，称为 G* 的 *自同态环。
 
-VII. *零平方的伪环。* 如果 $xy = 0$ 对于所有 $x, y \in A$，则称伪环 A 为零平方。设 G 是可交换的群。如果给集合 G 赋予群 G 的加法和乘法 $(x, y) \mapsto 0$，则获得零平方的伪环。如果 $G = \{0\}$，则仅为环，在这种情况下，它为零环。
+VII。 *零平方的伪环。* 如果 $xy = 0$ 对于所有 $x, y \in A$，则称伪环 A 为零平方。设 G 是可交换的群。如果给集合 G 赋予群 G 的加法和乘法 $(x, y) \mapsto 0$，则获得零平方的伪环。如果 $G = \{0\}$，则仅为环，在这种情况下，它为零环。
 
 ### 4.环同态
 
@@ -609,9 +609,9 @@ $$
 (d) $b_i + b_j = A$ 对应$i \neq j$，$\prod_{i \in I} b_i = \{0\}$对应$I$的总阶；
 (e) 存在 $A'$ 的直接分解 $(b'_i)_{i \in I}$，使得 $b_i = A b'_i$ 对应 $i \in I$。*
 
-(a) $\Rightarrow$ (b)。如果条件(a)成立，则$A$可以与环$\prod_{i \in I} (A/b_i)$等同，并且$b_i$可以与核等同于$\mathrm{pr}_i$。 $e_i$ 的存在性具有 (b) 中的属性，然后从 no. 10 得出。
+(a) $\Rightarrow$ (b)。如果条件(a)成立，则$A$可与环$\prod_{i \in I} (A/b_i)$等同，而$b_i$可与核等同于$\mathrm{pr}_i$。 $e_i$ 的存在性具有 (b) 中的属性，然后从 no. 10 得出。
 
-(b) $\Rightarrow$ (d)。假设 $e_i$ 存在且具有 (b) 中的性质。对于 $i \neq j$、$1 - e_i \in b_i, \ e_i = e_i(1 - e_j) \in b_j$，因此为 $1 \in b_i + b_j$ 和 $A = b_i + b_j$。另一方面，如果给 I 一个全序并且 $(x_i)_{i \in I}$ 是 A 的元素族，那么，由于 $e_i$ 是中心，
+(b) $\Rightarrow$ (d)。假设 $e_i$ 存在且具有 (b) 中的性质。对于 $i \neq j$、$1 - e_i \in b_i, \ e_i = e_i(1 - e_j) \in b_j$，因此为 $1 \in b_i + b_j$ 和 $A = b_i + b_j$。另一方面，如果 I 被赋予全序并且 $(x_i)_{i \in I}$ 是 A 的元素族，那么，由于 $e_i$ 是中心，
 
 $$
 \prod_{i \in I} x_i (1 - e_i) = \left( \prod_{i \in I} x_i \right) \left( \prod_{i \in I} (1 - e_i) \right) = \left( \prod_{i \in I} x_i \right) \left( 1 - \prod_{i \in I} e_i \right) = 0
@@ -623,17 +623,17 @@ $$
 
 (c) $\Rightarrow$ (a)。这是从命题 9 得出的。
 
-因此条件 (a), (b), (c) 和 (d) 是等价的。假设他们持有。到(b)$\Rightarrow$(a)，$b'_i = A'(1 - e_i)$的族是$A'$的直系分解。然后 $b_i = A(1 - e_i) = Ab'_i$ 对于所有 $i \in I$。因此条件(e)成立。
+因此条件 (a), (b), (c) 和 (d) 是等价的。假设他们持有。到 (b) $\Rightarrow$ (a) 时，$b'_i = A'(1 - e_i)$ 的族是 $A'$ 的直系分解。然后 $b_i = A(1 - e_i) = Ab'_i$ 对于所有 $i \in I$。因此条件(e)成立。
 
 最后，假设条件 (e) 成立。通过(a)$\Rightarrow$(b)，存在$A'$幂等族$(e_i)_{i \in I}$，使得$e_i e_j = 0$对应$i \neq j$，$1 = \sum_{i \in I} e_i$和$b'_i = A'(1 - e_i)$对应$i \in I$。那么 $b_i = Ab'_i = A(1 - e_i)$ 对应 $i \in I$，因此条件 (b) 成立。
 
 #### 注 {#alg-i-s8-n11-rem-1 .statement tag=05HT}
 
-设 A 为环。令$(a_i)_{i \in I}$是A的加法群$A^+$的子群的有限族，使得$A^+$是$a_i$的直和。假设$a_i a_i \subset ai$代表$i \in I$，$a_i a_j = \{0\}$代表$i \neq j$。那么$a_i$对于所有$i \in I$来说都是A的双面理想。通过A上的那些诱导出加法和乘法，$a_i$是环，而单位元是$1 \in A$在$a_i$中的分量。如果 $b_i = \sum_{j \neq i} a_j$，显然命题 10 的 $b_i$ 满足条件 (c)，因此 $(b_i)_{i \in I}$ 是 A 的直接分解，据说它是由* $(a_i)_{i \in I}$ *定义的。
+设 A 为环。令$(a_i)_{i \in I}$是A的加法群$A^+$的子群的有限族，使得$A^+$是$a_i$的直和。假设$a_i a_i \subset ai$代表$i \in I$，$a_i a_j = \{0\}$代表$i \neq j$。那么$a_i$对于所有$i \in I$来说都是A的双面理想。通过A上的那些诱导出加法和乘法，$a_i$是环，而单位元是$1 \in A$在$a_i$中的分量。如果 $b_i = \sum_{j \neq i} a_j$，显然是命题 10 的 $b_i$ 满足条件 (c)，因此 $(b_i)_{i \in I}$ 是 A 的直接分解，据说它是由* $(a_i)_{i \in I}$ *定义的。
 
 #### 例 {#alg-i-s8-n11-exa-1 .statement tag=05HU}
 
-*理想和* $\mathbf{Z}$的商环
+*理想和商环*$\mathbf{Z}$
 
 $\mathbf{Z}$的理想是$\mathbf{Z}$的子群的加法，因此形式$n.\mathbf{Z}$与$n \geqslant 0$的加法；相反，对于每个整数$n \geqslant 0$，集合$n.\mathbf{Z}$都是一个理想，即主理想$(n)$。因此，$\mathbf{Z}$的每个理想都是主要的，并且在形式$n\mathbf{Z}$和$n \geqslant 0$中唯一地表示。理想的$(1)$等于$\mathbf{Z}$，理想的$(0)$由0组成，与$\mathbf{Z}$和$\{0\}$不同的理想因此为形式$n\mathbf{Z}$和$n > 1$。如果$m \geqslant 1$和$n \geqslant 1$，$m\mathbf{Z} \supset n\mathbf{Z}$当且仅当$n \in m.\mathbf{Z}$，即$m$除$n$。因此，要使理想的$n\mathbf{Z}$极大，不存在不同于$n$并除以$n$的整数$m > 1$是充分必要的；在其他字中，*$\mathbf{Z}$的最大理想是形式*$p\mathbf{Z}$*其中*$p$*是素数数*（§ 4, no. 10，定义16）。
 

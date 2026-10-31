@@ -65,16 +65,16 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: 536e4ecab87d4aedd9e6ea48ff9bf91fd742ecf67641bffa4d23ac45db0c8aa4
+content_sha256: 3fb289c2bf32d665683856c07f0336daef7c6eff482b638340a053bb5a951429
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
 translation_method: google
 source_content_sha256: 0a34905c17ca45e9431cd3c4d11e11fd5e18faa0d9245992a206dca25aae5226
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 5bf385348ac2bb6809cc60d33c3ef4fa430a0dd0e2288f4aaa90cab963463e26
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 2。过滤后的环和模的一般结果
@@ -251,7 +251,7 @@ $$
 
 #### 例 3 {#ac-iii-s2-n3-exa-3 .statement tag=04DM}
 
-更一般地，令$A$为交换环，$b$为$A$的理想值，并且$A$被给予$b$-adic过滤。如果我们写$B=\operatorname{gr}_0(A)$，$F=\operatorname{gr}_1(A)=b/b^2$，我们知道（*代数，章 III*），$B$模块$F$的恒等映射可以从*对称的代数*唯一扩展到同态$u$ $F$的$S(F)$到$B$-代数$\operatorname{gr}(A)$；从 $\operatorname{gr}(A)$ 的定义可以得出，$u$ 是分级代数* 的 *满同态；对于$n\geq1$，$\operatorname{gr}_n(A)$的每元素是类和模形式$y=x_1x_2\cdots x_n$元素$b^{n+1}$，其中$x_i\in b$$(1\leq i\leq n)$；如果 $\xi_i$ 是类的 $x_i$ mod。 $b^2$，显然是 $y$ mod 的类。 $b^{n+1}$是元素$u(\xi_1)\cdots u(\xi_n)$，从而我们的断言。特别是，$B$模$F$的生成元的每个系统都是$B$代数$\operatorname{gr}(A)$的系统或生成元。
+更一般地，令 $A$ 为交换环，$b$ $A$ 的理想值，并且$A$ 被赋予$b$-adic 过滤。如果我们写$B=\operatorname{gr}_0(A)$，$F=\operatorname{gr}_1(A)=b/b^2$，我们知道（*代数，章III*），$B$模块$F$的恒等映射可以从*对称唯一地扩展到同态$u$ $F$ 的代数* $S(F)$ 到 $B$-代数 $\operatorname{gr}(A)$；从 $\operatorname{gr}(A)$ 的定义可以得出，$u$ 是分级代数* 的 *满同态；对于$n\geq1$，$\operatorname{gr}_n(A)$的每元素是类和模形式$y=x_1x_2\cdots x_n$元素$b^{n+1}$，其中$x_i\in b$$(1\leq i\leq n)$；如果 $\xi_i$ 是 $x_i$ mod 的类。 $b^2$，显然是 $y$ mod 的类。 $b^{n+1}$是元素$u(\xi_1)\cdots u(\xi_n)$，从而我们的断言。特别地，$B$-模$F$的生成元的每个系统是$B$-代数$\operatorname{gr}(A)$的系统或生成元。
 
 如果现在$E$是一个$A$模块，并且$E$被给予$b$-adic过滤，则可以类似地看到分级的$\operatorname{gr}(A)$模块$\operatorname{gr}(E)$是由$\operatorname{gr}_0(E)=E/bE$*生成*的。准确地说，$\operatorname{gr}(A)$-模块$\operatorname{gr}(E)$上外法则的限制$\phi$到$\operatorname{gr}(A)\times\operatorname{gr}_0(E)$是$\operatorname{gr}(A)\times\operatorname{gr}_0(E)$到$\operatorname{gr}(E)$的$\mathbf{Z}$双线性映射；此外，$\operatorname{gr}(A)$是$(\operatorname{gr}_0(A),\operatorname{gr}_0(A))$双模，$\operatorname{gr}_0(E)$是$\operatorname{gr}_0(A)$双模；立即验证，对于$a\in\operatorname{gr}(A)$，$\alpha_0\in\operatorname{gr}_0(A)$，$\xi\in\operatorname{gr}_0(E)$，
 
@@ -492,7 +492,7 @@ $$
 
 将刚刚所说的内容应用到案例$m = \{0\}$就足够了。
 
-### 7. 全滤波模的线性紧致性
+### 7.完全滤波模的线性紧致性
 
 回想一下，如果 E 是 A-模，E 的仿射子集（或仿射线性簇）是任何空的子集 F 或形式 $a + M$，其中 $a \in E$ 且 M 是 E 的子模，称为 F 的方向（代数， 章II, § 9，第 1 和第 3）。
 
@@ -500,17 +500,17 @@ $$
 
 设A为过滤后的环，E为过滤后的A-模，E为过滤后的$(E_n)$；假设$E_0 = E$，$E_n$是E的子模，A-模$E/E_n$是阿廷的，最后拓扑群E是Hausdorff且完备的。则E的非空闭仿射子集递减序列交非空。
 
-我们在no. 6中看到，由于E是豪斯多夫且完备的，所以它与$\tilde{E} = \lim_{\leftarrow} E/E_n$一致。令$(W_p)$为E的非空闭仿射子集的递减序列，并且对于所有$n \geq 0$，令$W_{p,n}$为$E/E_n$中$W_p$的典范像；我们将构造序列 $x = (x_n) \in \tilde{E}$ 使得 $x_n \in W_{p,n}$ 适合所有 $p$ 和所有 $n$；因此$x \in W_p + E_n$对于所有$p$和所有$n$，并且由于$W_p$是封闭的，$x \in W_p$对于所有$p$（no. 5），这将证明命题。
+我们在no. 6中看到，由于E是豪斯多夫且完备的，所以它与$\tilde{E} = \lim_{\leftarrow} E/E_n$一致。令$(W_p)$为E的非空闭仿射子集的递减序列，并且对于所有$n \geq 0$，令$W_{p,n}$为$E/E_n$中$W_p$的典范像；我们将构造序列 $x = (x_n) \in \tilde{E}$ 使得 $x_n \in W_{p,n}$ 对于所有 $p$ 和所有 $n$；因此$x \in W_p + E_n$对于所有$p$和所有$n$，并且由于$W_p$是封闭的，$x \in W_p$对于所有$p$（no. 5），这将证明命题。
 
-作为$E/E_0 = 0$，我们取$x_0 = 0$。假设为$0 \leq i \leq n - 1$定义了$x_i$，令$W'_{p,n}$为$W_{p,n}$的元素的集合，其中$E/E_{n-1}$中的典范像为$x_{n-1}$；由于$x_{n-1} \in W_{p,n-1}$和$W_{p,n-1}$是$W_{p,n}$的典范像，$W'_{p,n}$非空，显然是$E/E_n$的仿射子集；而且序列$(W'_{p,n})_{p \in \mathbf{N}}$是递减。由于$E/E_n$是阿廷的，所以这个序列是静止的（否则$E/E_n$的子模的序列，即$W'_{p,n}$的方向将是严格递减，这是荒谬的）。那么将$x_n$取为$\bigcap_{p \in \mathbf{N}} W'_{p,n}$的元素就足够了，然后可以通过归纳来执行$(x_n)$的构造。
+作为$E/E_0 = 0$，我们取$x_0 = 0$。假设为$0 \leq i \leq n - 1$定义了$x_i$，令$W'_{p,n}$为$W_{p,n}$的元素的集合，其中$E/E_{n-1}$中的典范像为$x_{n-1}$；由于$x_{n-1} \in W_{p,n-1}$和$W_{p,n-1}$是$W_{p,n}$的典范像，$W'_{p,n}$非空，显然是$E/E_n$的仿射子集；而且序列$(W'_{p,n})_{p \in \mathbf{N}}$是递减。由于$E/E_n$是阿廷的，所以这个序列是静止的（否则$E/E_n$的子模的序列（即$W'_{p,n}$的方向）将是严格递减，这是荒谬的）。那么将$x_n$取为$\bigcap_{p \in \mathbf{N}} W'_{p,n}$的元素就足够了，然后可以通过归纳来执行$(x_n)$的构造。
 
 #### 命题 8 {#ac-iii-s2-prop-8 .statement tag=04E2}
 
-假设 A 和 E 满足命题 7 的假设。令 $(F_p)$ 为 E 的闭子模的递减序列，使得 $\bigcap F_p = 0$。那么，对于E中0的每个邻域V，都存在$p$使得$F_p \subset V$（在其他字中，滤波器$(F_p)$的基收敛于0）。
+假设 A 和 E 满足命题 7 的假设。令 $(F_p)$ 为 E 的闭子模的递减序列，使得 $\bigcap F_p = 0$。那么，对于E中0的每个邻域V，存在$p$使得$F_p \subset V$（在其他字中，滤波器$(F_p)$的基收敛于0）。
 
-我们可以假设V是$E_n$之一，在这种情况下$E/V$是阿廷的。让我们写$F'_p = (F_p + V)/V$；作为$E/V$的子模的$F'_p$形式递减序列，存在整数$j$使得$F'_p = F'_j$对于所有$p > j$。我们将看到$F'_j = \{0\}$，它将完成证明。设$x \in F'_j$并设W，为F的元素集合，其$E/V$中的像为$x$($p \geq j$)；通过j（W）的定义，是E的非空闭仿射子集，显然$W_{p+1} \subset W$；
+我们可以假设V是$E_n$之一，在这种情况下$E/V$是阿廷的。让我们写$F'_p = (F_p + V)/V$；作为$E/V$的子模的$F'_p$形式递减序列，存在整数$j$使得对于所有$p > j$有$F'_p = F'_j$。我们将看到$F'_j = \{0\}$，它将完成证明。设$x \in F'_j$并设W，为F的元素集合，其$E/V$中的像为$x$($p \geq j$)；通过j（W）的定义，是E的非空闭仿射子集，显然$W_{p+1} \subset W$；
 
-那么从命题 7 出发，对于所有 W, 都存在元素 y 属于。作为W，$\subset F,$和$\bigcap_{p \in \mathbf{N}} F_p = \{0\}, y = 0$；因为在 E/V 中 x 是 y 的典范像，所以$x = 0$（cf. 习题 15 到 21）。
+那么从命题 7 出发，对于所有 W, 都存在元素 y 属于。作为W，$\subset F,$和$\bigcap_{p \in \mathbf{N}} F_p = \{0\}, y = 0$；因为 x 是 E/V 中 y 的典范像，$x = 0$（cf.习题 15 到 21）。
 
 ### 8. 相关分级模中的同态提升
 
@@ -520,7 +520,7 @@ $$
 
 (i) 假设过滤$(X_n)$ 是彻底的。为了使$\mathrm{gr}(u)$是单射的，$\bar{u}^{-1}(Y_n) = X_n$对于所有$n \in \mathbf{Z}$是必要且充分的。
 
-(ii) 假设以下假设之一成立： (α) X 是完备的且 Y 是豪斯多夫 (Hausdorff)； (β) Y 是离散的。那么，要使 $\mathrm{gr}(u)$ 成为满射，$Y_n = u(X_n)$ 对于所有 $n \in \mathbf{Z}$ 是充分必要的。
+(ii) 假设以下假设之一成立： (α) X 完备且 Y Hausdorff； (β) Y 是离散的。那么，要使 $\mathrm{gr}(u)$ 成为满射，$Y_n = u(X_n)$ 对于所有 $n \in \mathbf{Z}$ 是充分必要的。
 
 (i) 说映射 $\mathrm{gr}_n(u)$ 是单射意味着
 $$
@@ -536,24 +536,24 @@ $$
 $$
 Y_n = u(X_n)Y_{n+1}.
 $$
-如果 $Y_n = u(X_n)Y_{n+1}$ 对于所有$n \in \mathbf{Z}$，显然就是这种情况。令$n$为整数且$y$元素为$Y_n$；我们将$X_n$的元素中的定义序列$(x_k)_{k \geq 0}$使得所有$k \geq 0$都具有$x_k \in X_n$，$x_{k+1} \equiv x_k \pmod{X_{n+k}}$和$u(x_k) \equiv y \pmod{Y_{n+k}}$。我们取 X 的 $x_0$ 等于单位元素，这当然给出 $u(x_0) \equiv y \pmod{Y_n}$。假设已构造 $x_k \in X_n$ 使得 $u(x_k) \equiv y \pmod{Y_{n+k}}$；然后$(u(x_k))^{-1}y \in Y_{n+k}$； 假设意味着存在$t \in X_{n+k}$使得$u(t) \equiv (u(x_k))^{-1}y \pmod{Y_{n+k+1}}$因此存在$u(x_k t) \equiv y \pmod{Y_{n+k+1}}$；执行归纳需要$x_{k+1} = x_k t$就足够了。因此，如果 Y 是离散的，则存在 $k \geq 0$ 使得 $Y_{n+k} = \{e'\}$（Y 的单位元素）、从而 $u(x_k) = y$，因此在这种情况下，已经证明对于所有 $n$ 都有$u(X_n) = Y$。现在假设 X 是完备的且 Y 是豪斯多夫 (Hausdorff)。由于$x_h^{-1} x_k \in X_{n+k}$对于$h \geq k \geq 0$来说，$(x_k)$是$X_n$中的柯西序列；作为
+如果 $Y_n = u(X_n)Y_{n+1}$ 对于所有$n \in \mathbf{Z}$，显然就是这种情况。设$n$为整数且$y$元素为$Y_n$；我们将对 $X_n$ 的定义序列 $(x_k)_{k \geq 0}$ 进行元素的$x_k \in X_n$、$x_{k+1} \equiv x_k \pmod{X_{n+k}}$ 和 $u(x_k) \equiv y \pmod{Y_{n+k}}$ 对于所有$k \geq 0$。我们取$x_0$等于X的单位元素，这肯定会给出$u(x_0) \equiv y \pmod{Y_n}$。假设已构造 $x_k \in X_n$ 使得 $u(x_k) \equiv y \pmod{Y_{n+k}}$；然后$(u(x_k))^{-1}y \in Y_{n+k}$； 假设意味着存在$t \in X_{n+k}$使得$u(t) \equiv (u(x_k))^{-1}y \pmod{Y_{n+k+1}}$因此存在$u(x_k t) \equiv y \pmod{Y_{n+k+1}}$；执行归纳需要$x_{k+1} = x_k t$就足够了。因此，如果 Y 是离散的，则存在 $k \geq 0$ 使得 $Y_{n+k} = \{e'\}$（Y 的单位元素）、从而 $u(x_k) = y$，因此在这种情况下，已经证明对于所有 $n$ 都有$u(X_n) = Y$。现在假设 X 是完备的且 Y Hausdorff。由于$x_h^{-1} x_k \in X_{n+k}$对于$h \geq k \geq 0$来说，$(x_k)$是$X_n$中的柯西序列；作为
 
-X_n 在 X 中是闭的，因此是完备的，这个序列在 X_n 中至少有一个极限 x。由于u的连续性，u(x)是Y中序列(u(x_k))的唯一极限，Y为Hausdorff。但关系 u(x_k) \equiv y (\text{mod. } Y_{n+k+1}) 表明y 也是这个序列、从而 $u(x) = y$ 的极限并且也证明了$u(X_n) = Y_n$。
+X_n 在 X 中闭合，因此是完备的，这个序列在 X_n 中至少有一个极限 x。由于u的连续性，u(x)是Y中序列(u(x_k))唯一的极限，Y为Hausdorff。但关系 u(x_k) \equiv y (\text{mod. } Y_{n+k+1}) 表明y 也是这个序列、从而 $u(x) = y$ 的极限并且还证明了$u(X_n) = Y_n$。
 
 #### 推论 1 {#ac-iii-s2-thm-1-cor-1 .statement tag=04E4}
 
-*假设X是Hausdorff并且它的过滤是详尽的。那么，如果 gr(u) 是单射的，则 u 是单射的。*
+*假设 X 是 Hausdorff 并且其过滤是详尽的。那么，如果 gr(u) 是单射的，则 u 是单射的。*
 
 令 e、e' 分别为 X 和 Y 的单位元素。然后
 $$
 \bar{u}^{-1}(e') \subset \bigcap_n \bar{u}^{-1}(Y_n) = \bigcap_n X_n = \{e\}
 $$
-由假设、从而推论。
+由假设，从而推论。
 
 #### 推论 2 {#ac-iii-s2-thm-1-cor-2 .statement tag=04E5}
 
 *假设以下假设之一成立：*
-$(\alpha)$ *X 是完整的，Y 是 Hausdorff 并且其过滤是详尽的；*
+$(\alpha)$ *X 完整，Y 为 Hausdorff，其过滤是详尽的；*
 $(\beta)$ *Y 是离散的，其过滤是详尽的。*
 *那么，如果 gr(u) 是满射，则 u 是满射。*
 
@@ -561,7 +561,7 @@ $(\beta)$ *Y 是离散的，其过滤是详尽的。*
 
 #### 推论 3 {#ac-iii-s2-thm-1-cor-3 .statement tag=04E6}
 
-*假设X和Y是Hausdorff，X和Y的过滤是穷举的，X是完全的。那么，如果 gr(u) 是双射的，则 u 也是双射的。*
+*假设X和Y是Hausdorff，X和Y的过滤是穷举的，X是完整的。那么，如果 gr(u) 是双射的，则 u 也是双射的。*
 
 设A为局部环，m为最大理想，M为A-模；令 A 和 M 被赋予 *m-adic* 过滤，并令 gr(A) 和 gr(M) 为分级环以及与 A 和 M 相关的分级 gr(A) 模块。我们已经看到 (no. 3, 例 3) 典范映射 (11) 始终是*满射*；我们将考虑 M 的以下性质：
 *（GR）* *典范映射*
@@ -704,7 +704,7 @@ $$
 
 对于所有 $k \geq 0$ 都是双射的；因此 $\gamma_E$ 是双射的。 注证明的这个部分既不使用条件(a)也不使用条件(b)。
 
-相反，假设叙述的条件成立，并令$(x_i)_{i \in I}$是E的元素族，其类模。 $(A/m)$模块$E/mE$的$mE$形式基；令L为自由A-模$A_s^{(I)}$，$(f_i)_{i \in I}$其典范基和$u : L \to E$A-线性映射，使得$u(f_i) = x_i$对于所有$i \in I$。假设已经暗示 $u$ 是满射的（章 II, § 3, no. 2，推出 1 到命题 4），并且仍然需要证明 $u$ 是单射的。现在，每个假设 (a) 和 (b) 都意味着 A 是 Hausdorff，因此使用 m-adic 过滤 L 也是 Hausdorff，因为 $m^kL = (m^k)^{(I)}$ (代数, 章 II, § 3, no. 7, 注) 和 $\operatorname{gr}(L)$ 从一开始就被识别为 $\operatorname{gr}(A) \otimes_{A/m} (L/mL)$ 部分 / 证明； 同态 $u$ 与过滤兼容，并且可以将 $\operatorname{gr}(u) = \gamma_E \circ v$ 写入其中 $v$ 是 $\operatorname{gr}(L)$ 的双射到
+相反，假设叙述的条件成立，并令$(x_i)_{i \in I}$是E的元素族，其类模。 $(A/m)$模块$E/mE$的$mE$形式基；令L为自由A-模$A_s^{(I)}$，$(f_i)_{i \in I}$为典范基，$u : L \to E$A-线性映射，使得$u(f_i) = x_i$对于所有$i \in I$。假设已经暗示 $u$ 是满射（章 II, § 3, no. 2，推出 1 到命题 4），还需要证明 $u$ 是单射。现在，每个假设 (a) 和 (b) 都意味着 A 是 Hausdorff，因此使用 m-adic 过滤，L 也是 Hausdorff，因为 $m^kL = (m^k)^{(I)}$ (代数, 章 II, § 3, no. 7, 注) 和 $\operatorname{gr}(L)$ 被标识为从证明的第一个部分开始$\operatorname{gr}(A) \otimes_{A/m} (L/mL)$； 同态 $u$ 与过滤兼容，并且可以将 $\operatorname{gr}(u) = \gamma_E \circ v$ 写入其中 $v$ 是 $\operatorname{gr}(L)$ 的双射到
 $$
 \operatorname{gr}(A) \otimes_{A/m} (E/mE)
 $$
@@ -716,24 +716,24 @@ $$
 
 令A为型$\mathbf{Z}$的分级环，其分级$(A_n)$使得对于所有$n < 0$为$A_n = 0$或对于所有$n > 0$为$A_n = 0$。令 M 为型 $\mathbf{Z}$ 的分级 A-模。为了使M成为诺特A-模，M的每个分级子模是有限生成的充分必要。
 
-由于$n \mapsto -n$是群$\mathbf{Z}$中的自同构，我们可能会将注意力限制在所有$n > 0$的案例$A_n = 0$上。令 A' 和 M' 分别表示环 A 和模 M，以及与它们各自的分级（no. 1，例 1）相关的过滤，它们是详尽且分离的； A 上的假设意味着 A' 是离散的，因此是完整的。如果E是M的子A-模，则对E进行诱导过滤得到的过滤后的A'-模E'是Hausdorff，其过滤是穷举的；此外，$\operatorname{gr}(E')$由$M = \operatorname{gr}(M')$的分级子A模块识别，因此由假设有限生成。然后从推论1到no. 9的命题12得出结论。
+由于$n \mapsto -n$是群$\mathbf{Z}$中的自同构，我们可能会将注意力限制在所有$n > 0$的案例$A_n = 0$上。令 A' 和 M' 分别表示环 A 和模 M，以及与它们各自的等级（no. 1，例 1）相关的过滤，它们是详尽且分离的； A 上的假设意味着 A' 是离散的，因此是完整的。如果E是M的子A-模，则对E进行诱导过滤得到的过滤后的A'-模E'是Hausdorff，其过滤是穷举的；此外，$\operatorname{gr}(E')$ 与 $M = \operatorname{gr}(M')$ 的分级子 A 模块相同，因此由假设有限生成。然后从no. 9的推论1到命题12得出结论。
 
 #### 定理 2 {#ac-iii-s2-thm-2 .statement tag=04EH}
 
 令A为型$\mathbf{N}$的分级环，M为型$\mathbf{N}$的A-模分级，以及$(A_n)$和$(M_n)$各自的分级。假设存在元素 $a \in A_0$，使得所有 $n > 0$ 都存在 $A_n = A_0 a^n$ 和 $M_n = a^n M_0$。那么，如果M是诺特$A_0$模，则M是诺特A-模。
 
-凭借引理 1 足以证明M 的每个分级子模 N 都是有限生成的。对于所有$r \geq 0$，令$N_r = N \cap M_r$且令L_r为$m \in M_0$的集合，使得$a^r m \in N_r$。作为
+凭借引理 1 足以证明 M 的每个分级子模 N 都是有限生成的。对于所有$r \geq 0$，令$N_r = N \cap M_r$且令L_r为$m \in M_0$的集合，使得$a^r m \in N_r$。作为
 $$
 a^r A_0 \subset A_r = A_0 a^r, \quad a^r A_0 L_r \subset A_0 a^r L_r \subset A_0 N_r \subset N_r
 $$
 
-因此 L, 是 M, 的子 A, 模块；而且，
+因此 L, 是 M, 的子 A, 模块；此外，
 
 $$
 aN_r \subset N \cap aM_r = N \cap M_{r+1} = N_{r+1}
 $$
 
-因此序列$(L_r)_{r \geq 0}$是递增。 假设意味着存在整数$n \geq 0$使得$L_r = L_n$对应$r \geq n$。对于每个$r \leq n$，令$(m_{r,s})_{1 \leq s \leq k_r}$为A,-模$L_r$的生成元的系统。我们将证明$1 \leq s \leq k_r$的元素$a^r m_{r,s}$，A-模N的生成元的$0 \leq r \leq n$形式系统。对于所有的$M_r = a^r M_0$，对于所有的$r$，$N_r = a^r L_r$ $r$ 乘定义共 $L_r$。然后，对于$r \leq n$，
+因此序列$(L_r)_{r \geq 0}$是递增。 假设意味着存在整数$n \geq 0$使得$L_r = L_n$对应$r \geq n$。对于每个$r \leq n$，令$(m_{r,s})_{1 \leq s \leq k_r}$为A,-模$L_r$的生成元中的系统。我们将证明$1 \leq s \leq k_r$的元素$a^r m_{r,s}$，A-模N的生成元的$0 \leq r \leq n$形式系统。作为所有$r$的$M_r = a^r M_0$， $N_r = a^r L_r$ 为所有 $r$ 减定义共 $L_r$。那么，对于$r \leq n$，
 
 $$
 N_r = a^r L_r = \sum_{s=1}^{k_r} a^r A_0 m_{r,s} \subset \sum_{s=1}^{k_r} A_0 a^r m_{rs},
@@ -749,17 +749,17 @@ $$
 
 #### 推出 1（希尔伯特定理）{#ac-iii-s2-thm-2-cor-1 .statement tag=04EI}
 
-*对于每个可交换的诺特环 C，多项式环 C[X] 是诺特* (cf. 习题 10)。
+*对于每个交换律诺特环 C、多项式环 C[X] 都是诺特* (cf. 习题 10)。
 
 #### 推出 2 {#ac-iii-s2-thm-2-cor-2 .statement tag=04EJ}
 
-*对于每个可交换的诺特环 C 和每个整数 $n > 0$，多项式环 C[X_1, ..., X_n] 是诺特。*
+*对于每个交换律诺特环 C 和每个整数 $n > 0$、多项式环 C[X_1, ..., X_n] 都是诺特。*
 
-这是从归纳对 $n$ 的推论 1 得出的。
+这是从归纳在 $n$ 上得出的推论 1 得出的。
 
 #### 推出 3 {#ac-iii-s2-thm-2-cor-3 .statement tag=04EK}
 
-*如果 C 是交换律诺特环，则每个有限生成的交换 C 代数都是诺特环。*
+*如果 C 是交换律诺特环，则每个有限生成的交换律 C 代数都是诺特环。*
 
 这样的代数同构于多项式代数 C[X_1, ..., X_n] (§ 1, no. 1) 的商。
 
@@ -771,25 +771,25 @@ $$
 
 #### 推出 5 {#ac-iii-s2-thm-2-cor-5 .statement tag=04EM}
 
-*设 A 为交换环，m 为 A 的理想，使得 $A/m$ 为诺特，$m/m^2$ 为 ajinitely 生成的 $(A/m)$ 模，A 为 Hausdorff，并由 m 进数拓扑完成。那么 gr(A) 和 A 是诺特.*
+*设 A 为交换环，m 是 A 的一个理想，使得 $A/m$ 为诺特，$m/m^2$ 是 ajinitely 生成的 $(A/m)$ 模，A 是 Hausdorff，并由 m 进数拓扑完成。那么 gr(A) 和 A 是诺特。*
 
-gr(A) 是由 $m/m^2$ (no. 3, 例 3) 生成的 $(A/m)$ 模，因此根据推论 3，环 gr(A) 是诺特。 由此我们推断 A 本身是诺特（no. 9，推出 2 到命题） 12）。
+gr(A) 是由 $m/m^2$ (no. 3, 例 3) 生成的 $(A/m)$ 模，因此根据推论 3，环 gr(A) 是诺特。 由此我们推断 A 本身是诺特 (no. 9,推出 2 至命题 12)。
 
 #### 推出 6 {#ac-iii-s2-thm-2-cor-6 .statement tag=04EN}
 
 对于每个可交换的诺特环 C 和每个整数 n > 0，形式幂级数 $\mathbf{C}[[X_1, \ldots, X_n]]$ 的环是诺特。
 
-这是从推论 5 和 no. 6 得出的，推论到命题 6，因为如果 m 是形式幂级数的$A = \mathbf{C}[[X_1, \ldots, X_n]]$ 由……组成的理想值，没有常数项，$A/m$ 同构于 C，$m/m^2$ 同构于C-模$\mathbf{C}"$。
+这是从推论 5 和 no. 6 得出的，推论到命题 6，因为如果 m 是形式幂级数的理想$A = \mathbf{C}[[X_1, \ldots, X_n]]$ 由……组成，且没有常数项，$A/m$ 同构于C 和 $m/m^2$ 到C-模块$\mathbf{C}"$。
 
-Remarks
+注
 
-(1) 如果 C 为交换域，则推论 2、3 和 6 特别适用。
+(1) 如果 C 是交换域，则推论 2、3 和 6 特别适用。
 
-\* (2) 令 g 在可交换的诺特环 C 上为李代数，并假设 g 是有限生成的 C-模。令 g 的包络代数 U 给出递增过滤 $(U_n)$，定义在 no. 3、例 4 中。对于相应的拓扑，U 是离散的，因此是 Hausdorff 和完备的；相关的分级环 gr(U) 是有限生成的 C 代数，是对称代数 $\mathscr{S}(g)$ 的商，因此 gr(U) 是诺特环 （推出 3），我们推断出 U 是左且右诺特环 （no. 9，推出 2 至命题 12）。 \*
+\* (2) 设 g 在可交换的诺特环 C 上为李代数，并假设 g 是有限生成的 C 模。令 g 的包络代数 U 给出在 no. 3、例 4 中定义的递增过滤 $(U_n)$。 对于相应的拓扑，U 是离散的，因此是 Hausdorff 和完备的；关联的分级环 gr(U) 是有限生成的 C 代数，是对称代数 $\mathscr{S}(g)$ 的商，因此 gr(U) 是诺特环 （推出 3），我们推断出 U 是左且右诺特环（no. 9，推出 2 至命题 12）。 \*
 
 ### 11. 完整的 m-ADIC 环和逆极限
 
-我们在 no. 6 中看到，如果 A 是交换环并且 m 是 A 的理想，使得 A 是 Hausdorf 并且与 m 进数拓扑完成，则拓扑环 $A$ 规范地等同于离散环 $A_i = A/m^{i+1} \ (i \in \mathbf{N})$ 的逆极限典范映射
+我们在no. 6中看到，如果A是交换环并且m是A的理想，使得A是Hausdorf并且与m进数拓扑完成，则拓扑环$A$规范地等同于离散环的逆极限 $A_i = A/m^{i+1} \ (i \in \mathbf{N})$ 相对于典范映射
 
 $$
 h_{ij}: A/m^{j+1} \to A/m^{i+1} \quad (i \leq j);
@@ -801,11 +801,11 @@ $$
 n_{ij} = m^{i+1}/m^{j+1} = (m/m^{j+1})^{i+1} =
 $$
 
-特别是$(n_{0j})^{j+1} = 0$。反过来：
+特别是$(n_{0j})^{j+1} = 0$。反之：
 
 #### 命题 14 {#ac-iii-s2-prop-14 .statement tag=04EO}
 
-令$(A_i, h_{ij})$为离散交换环的逆系，其索引集合为$\mathbf{N}$，并令$(M_i, u_{ij})$为模的逆系超过环$(A_i, h_{ij})$的逆系。令$n_j$表示$h_{0j}: A \to A$的核，以及集合$A = \lim A_i$、$M = \lim M_i$。假设
+令$(A_i, h_{ij})$为离散交换环的逆系，其索引集合为$\mathbf{N}$，并令$(M_i, u_{ij})$为模的逆系超过环的逆系 $(A_i, h_{ij})$。让$n_j$表示$h_{0j}: A \to A$的核，并且集合$A = \lim A_i$，$M = \lim M_i$。假设
 
 (a) 对于所有 $i \in \mathbf{N}$，$h_{ii}$ 是 A 上的恒等映射，并且对于 $i \leq j$，$h_{ij}$ 和 $u_{ij}$ 是满射；
 (b) 对于$i \leq j$，$h_{ij}$和$u_{ij}$的核分别是$n_j^{i+1}$和$n_j^{i+1} M_j$。

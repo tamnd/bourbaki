@@ -26,16 +26,16 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: d1383e42b2ad50f5abfd74a499f1d3678423ccae5cd1a24008bbf6d32486182b
+content_sha256: 4134b720c21ebc0e44e3ec6ddecbbb61c1e00f308595e50fdd4ac09faf7fc6eb
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
 translation_method: google
 source_content_sha256: d496b7e9119afe9a64c71792995d77ced2c25e2dbf7df0912c545226ff6cffa2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 9d19881415a6ed27c3477d76f24a7e901a7b240231ce38b6d0d82dbcd273b438
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 3。评分代数
@@ -107,7 +107,7 @@ Similarly, if $a$ is a left (resp. right) ideal of $E$ which is a graded sub-$A$
 
 *Let $A$ be a graded 交换环 of 型 $\Delta$, $E$ a graded $A$-algebra of 型 $\Delta$ and $S$ 集合 of homogeneous 元素 of $E$。那么$S$生成的子$A$代数（分别为左理想、右理想、两侧理想）就是分级的子代数（分别为分级理想）。*。
 
-$S$生成的$E$的子代数是$S$的元素的有限乘积生成的子$A$模，它们是齐次的；类似地，$S$生成的左（或右）理想是形式$u_1(u_2(\ldots(u_n s))\ldots)$（或$(\ldots((s u_n) u_{n-1})\ldots) u_2$）$u_1$）的元素生成的子$A$模块，其中s ∈ S和u_j ∈ E是齐次的（n任意）并且这些乘积是齐次的，从而在这种情况下是根据II, § 11, no. 3、命题2)得出的结论；最终 S 生成的两侧理想为并或序列 (\mathfrak{I}_n)_{n \geq 1}，其中 \mathfrak{I}_1 是 S 生成的左理想，而 \mathfrak{I}_{2n} （分别为 \mathfrak{I}_{2n+1}）为由 S 生成的右（分别为左）理想\mathfrak{I}_{2n-1} （分别为 \mathfrak{I}_{2n}），完成证明。
+$S$生成的$E$的子代数是$S$的元素的有限乘积生成的子$A$模，它们是齐次的；类似地，$S$生成的左（或右）理想是形式$u_1(u_2(\ldots(u_n s))\ldots)$（或$(\ldots((s u_n) u_{n-1})\ldots) u_2$）$u_1$）的元素生成的子$A$模块，其中s ∈ S和u_j ∈ E是齐次的（n任意）并且这些乘积是齐次的，从而在这种情况下是根据II, § 11, no. 3、命题 2)得出的结论；最终 S 生成的两侧理想为并或序列 (\mathfrak{I}_n)_{n \geq 1}，其中 \mathfrak{I}_1 是 S 生成的左理想，而 \mathfrak{I}_{2n} （分别为\mathfrak{I}_{2n+1}）由 \mathfrak{I}_{2n-1} （或 \mathfrak{I}_{2n}）生成的右（或左）理想，完成证明。
 
 ### 3. 直极限评分代数
 

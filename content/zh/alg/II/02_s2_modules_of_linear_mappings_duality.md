@@ -46,16 +46,16 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 26
-content_sha256: 05ffa52ee5925c951f9d50dc433b7be8fe2efc61140b64600aa3639472a69d07
+content_sha256: cafe648a8a91fab04c2a70381c5dd49fc35e7d042fc4494e34ad929874f45c75
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
 translation_method: google
 source_content_sha256: b68d6b666aad78a9fe6c8ac80cb610da120336ed9a4c3178da2cb94e6cf08597
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 12d5a2ebfd417633baffc020d75b2bc66864efa07b13018a671891ffb4c5275a
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 2。 模线性映射。二元性
@@ -126,9 +126,9 @@ $$
 \bar{u}' = \operatorname{Hom}(u', 1_F) : \operatorname{Hom}(E', F) \to \operatorname{Hom}(E, F),
 $$
 
-$u' \circ u$ 是恒等式意味着 $\bar{u} \circ \bar{u}'$ 是恒等式 ($§ 1$, no. 2, 公式 (10))，因此第一个断言是从 $§ 1$, no. 9, 命题 15 得出的。相反，假设序列 (4) 与 $F = E'$ 完全相同。则存在元素$f \in \mathrm{Hom}(E, E')$使得$f \circ u = 1_{E'}$，由$§ 1$、no. 9、命题15得出结论。
+$u' \circ u$ 是恒等式意味着 $\bar{u} \circ \bar{u}'$ 是恒等式 ($§ 1$, no. 2, 公式 (10))，因此第一个断言由 $§ 1$, no. 9, 命题 15 得出。相反，假设序列 (4) 与 $F = E'$ 完全相同。则存在元素$f \in \mathrm{Hom}(E, E')$使得$f \circ u = 1_{E'}$，由$§ 1$、no. 9、命题15得出结论。
 
-注，命题 1 的第一个断言也可以被视为$§ 1$、no. 6的特例，推论 1 到命题 6，通过$\mathbf{Z}$线性映射将$\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$与$\mathrm{Hom}(E' \oplus E'', F)$规范地识别$\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$，其中$p': E' \oplus E'' \to E'$和$p'': E' \oplus E'' \to E''$是规范的投影。
+注命题 1 的第一个断言也可以被认为是 $§ 1$、no. 6 的特例，推论 1 到命题 6，通过 $\mathbf{Z}$ 线性映射将 $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ 与 $\mathrm{Hom}(E' \oplus E'', F)$ 规范地识别$\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$，其中$p': E' \oplus E'' \to E'$和$p'': E' \oplus E'' \to E''$是规范的投影。
 
 #### 定理 2 {#alg-ii-s2-thm-2 .statement tag=05MY}
 
@@ -152,7 +152,7 @@ $$
 \bar{v} \circ \bar{u} = \mathrm{Hom}(1_E, v \circ u) = 0
 $$
 
-（II、$§ 1$、no. 2、公式 (10)）自 $v \circ u = 0$ 起。因此，$\bar{u}$下的$\mathrm{Hom}(E, F')$的像包含在$\bar{v}$的核$N$中；令$f$为$\mathbf{Z}$模块$\mathrm{Hom}(E, F')$的同态进入$N$，其图等于$\bar{u}$的图；有必要证明$f$是*双射的*，因此定义映射$g: N \to \mathrm{Hom}(E, F')$使得$f \circ g$和$g \circ f$是恒等映射。为此，令$w$为$N$的元素，即线性映射$w: E \to F$使得$v \circ w = 0$。后者关系通过假设等价于$w(E) \subset \mathrm{Ker}(v) = u(F')$，因此，由于$u$是单射的，因此存在且仅有一个线性映射$w': E \to F'$，使得$w = u \circ w'$和我们取$g(w) = w'$；立即验证$g$满足所需的条件。
+(II、$§ 1$、no. 2、公式 (10)) 自 $v \circ u = 0$ 起。因此，$\bar{u}$下的$\mathrm{Hom}(E, F')$的像包含在$\bar{v}$的核$N$中；令$f$为$\mathbf{Z}$-模块$\mathrm{Hom}(E, F')$的同态进入$N$，其图等于$\bar{u}$的图；有必要证明$f$是*双射的*，因此定义映射$g: N \to \mathrm{Hom}(E, F')$使得$f \circ g$和$g \circ f$是恒等映射。为此，令$w$为$N$的元素，即线性映射$w: E \to F$使得$v \circ w = 0$。后者关系通过假设等价于$w(E) \subset \mathrm{Ker}(v) = u(F')$，因此，由于$u$是单射的，因此存在且仅有一个线性映射$w': E \to F'$，使得$w = u \circ w'$和我们取$g(w) = w'$；立即验证$g$满足所需的条件。
 
 相反，假设序列 (6) 对于每个 $A$-模块 $E$ 都是精确的。作为$\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$，那么对于每个同态$w: E \to F'$，$v \circ u \circ w = 0$。取$E = F'$和$w = 1_{F'}$，首先看到$v \circ u = 0$，因此$u(F') \subset \mathrm{Ker}(v)$。现在我们取 $E = \mathrm{Ker}(v)$ 并令 $\phi: E \to F$ 为典范嵌入。那么$\bar{v}(\phi) = v \circ \phi = 0$乘以定义，因此存在$\psi \in \mathrm{Hom}(E, F')$使得$\phi = \bar{u}(\psi) = u \circ \psi$，这显然意味着$\mathrm{Ker}(v) \subset u(F')$并且在$F$处完成了(5)的精确性的证明。最后，如果$\theta$是$\mathrm{Ker}\, u$的恒等映射，则$\bar{u}(\theta) = 0$，因此$\theta = 0$和$\mathrm{Ker}\, u = \{0\}$，这证明了（5）在$F'$处的正确性。
 
@@ -238,20 +238,20 @@ $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, F)
 $$
 
-被识别为$\prod_i \operatorname{Hom}(1_{M_i}, u)$（§ 1, no. 6，推论1到命题6）；由此得出定义 1 和§ 1, no. 5、命题 5 (ii) 的结论。
+被识别为$\prod_i \operatorname{Hom}(1_{M_i}, u)$（§ 1, no. 6，推论1至命题6）；由此可得出定义 1 和§ 1, no. 5、命题 5 (ii) 的结论。
 
 #### 推论{#alg-ii-s2-n2-cor-1 .statement tag=05N4}
 
 每个自由A-模都是投影。
 
-通过命题 3 就足以证明 A_s 是射影的，它紧随 § 1, no. 14 的图表 (50) 的交换律而来。
+通过命题 3 就足以证明 A_s 是射影的，它紧随交换律或图表 (50) 的 § 1, no. 14 而来。
 
 #### 命题 4 {#alg-ii-s2-prop-4 .statement tag=05N5}
 
-令 P 为 A-模。以下属性是等效的：
+设 P 为 A-模。以下属性是等效的：
 
 (a) P 是投影。
-(b) 对于 A-线性映射中的每个正合序列 0 → F' → F → F'' → 0，序列
+(b) 对于 A-线性映射、序列中的每个正合序列 0 → F' → F → F'' → 0
 
 $$
 0 \to \operatorname{Hom}(P, F') \to \operatorname{Hom}(P, F) \to \operatorname{Hom}(P, F'') \to 0
@@ -265,31 +265,31 @@ $$
 
 (e) P 同构于直因子或自由A-模。
 
-(a) 暗示(b) 是微不足道的。要看出 (b) 蕴含 (c)，只需将 (b) 应用于正合序列 0 → E' → E → E'' → 0，其中 E' = Ker(u)，因为 (c) 表达了以下事实：
+(a) 暗示(b) 是微不足道的。为了看出 (b) 蕴含 (c)，只需将 (b) 应用于正合序列 0 → E' → E → E'' → 0，其中 E' = Ker(u)，因为 (c) 表达了以下事实：
 
 $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, E'')
 $$
 
-是主观的。为了看出(c)蕴含(d)，只需将(c)应用于满同态$v : E \to P$和同态$l_P : P \to P$即可； 同态 $g : P \to E$ 的存在使得 $l_P = v \circ g$ 意味着序列
+是主观的。要看出(c)蕴含(d)，只需将(c)应用于满同态$v : E \to P$和同态$l_P : P \to P$即可； 同态 $g : P \to E$ 的存在使得 $l_P = v \circ g$ 意味着序列
 
 $$
 0 \longrightarrow E' \longrightarrow E \xrightarrow{v} P \longrightarrow 0
 $$
 
-分裂的（§ 1, no. 9，命题15）。对于每一个A-模 M，都存在自由A-模 L 和正合序列 $0 \to R \to L \to M \to 0$（§ 1, no. 11，命题 20），显然（d）蕴含（e）。最后，(e) 凭借命题 3 及其推论意味着 (a)。
+分裂的（§ 1, no. 9，命题15）。对于每一个A-模 M 都存在自由A-模 L 和正合序列 $0 \to R \to L \to M \to 0$ (§ 1, no. 11, 命题 20)，显然(d)蕴涵(e)。最后，(e) 凭借命题 3 及其推论意味着 (a)。
 
 #### 推论 1 {#alg-ii-s2-prop-4-cor-1 .statement tag=05N6}
 
 *为了使A-模是射影且有限生成的，它是自由A-模的直因子以及有限的基是必要且充分的。*
 
-条件显然就足够了；反之，有限生成射影模 E 同构于自由模 F 与有限基 (§ 1, no. 11) 的商，并且 E 通过命题 4 (d) 同构于 F 的直因子。
+条件显然就足够了；反之，有限生成射影模 E 同构于自由模 F 与有限基 (§ 1, no. 11) 的商，且 E 凭借命题 4 (d) 同构于 F 的直因子。
 
 #### 推论 2 {#alg-ii-s2-prop-4-cor-2 .statement tag=05N7}
 
-*设C为交换环，E、F为两个有限生成射影C-模；那么$\operatorname{Hom}_C(E, F)$是有限生成的射影C-模。*
+*设C为交换环，E、F为两个有限生成的射影C模；那么 $\operatorname{Hom}_C(E, F)$ 是有限生成的射影 C-模。*
 
-可以假设有两个有限生成的空闲C-模M，N使得$M = E \oplus E', N = F \oplus F'$；从 § 1, no. 6，推论 1 到命题 6，$\operatorname{Hom}_C(M, N)$ 是有限生成且自由的，另一方面，$\operatorname{Hom}_C(M, N)$ 同构于
+可以假设有两个有限生成的免费C-模块M、N，使得$M = E \oplus E', N = F \oplus F'$；从 § 1, no. 6，推论 1 到命题 6，$\operatorname{Hom}_C(M, N)$ 是有限生成且自由的，另一方面，$\operatorname{Hom}_C(M, N)$ 同构于
 
 $$
 \operatorname{Hom}_C(E, F) \oplus \operatorname{Hom}_C(E', F) \oplus \operatorname{Hom}_C(E, F') \oplus \operatorname{Hom}(E', F'),
@@ -297,7 +297,7 @@ $$
 
 从而推论。
 
-### 3.线性形式;双模
+### 3.线性形式；双模
 
 令 E 为 *左* A-模。由于 A 是 (A, A) 双模，$\operatorname{Hom}_A(E, A_s)$ 具有规范的*右* A-模结构 (§ 1, no. 14)。
 
@@ -307,15 +307,15 @@ $$
 
 如果 E 是 *右* A-模，则集合 $\operatorname{Hom}_A(E, A_d)$ 及其规范的 *左* A-模结构同样被称为 E 的 *对偶*，其元素被称为 E 上的 *线性形式*。
 
-† 在*拓扑向量空间*，IV 中，我们将定义，对于向量空间，以及“对偶空间”的*拓扑*、概念，这将取决于此拓扑，并且与此处定义的不同。读者必须小心地小心应用到“拓扑”对偶空间本段中建立的“代数”对偶的属性。
+† 在*拓扑向量空间*、IV中，我们将为向量空间使用定义，并使用“对偶空间”的*拓扑*、概念，这将取决于此拓扑，并且与此处定义的不同。读者必须小心地小心应用到“拓扑”对偶空间本段中建立的“代数”对偶的属性。
 
 在这个章中，$E^*$将用于表示（左或右）A-模$E$的对偶。
 
 #### 例 {#alg-ii-s2-n3-exa-1 .statement tag=05N9}
 
-*在向量空间（相对于域$\mathbf{R}$）连续实值函数上，$[a, b]$为$\mathbf{R}$，映射$x \mapsto \int_a^b x(t) dt$为线性形式。*
+*在向量空间（相对于域$\mathbf{R}$）连续实值函数上，区间$[a, b]$为$\mathbf{R}$，映射$x \mapsto \int_a^b x(t) dt$为线性形式。*
 
-设$E$为左A-模，$E^*$为它的对偶；对于元素$x \in E, x^* \in E^*$的每个有序对，A的元素$x^*(x)$用$\langle x, x^* \rangle$表示。然后关系
+设$E$为左A-模，$E^*$为它的对偶；对于元素$x \in E, x^* \in E^*$中的每个有序对，A的元素$x^*(x)$用$\langle x, x^* \rangle$表示。然后关系
 
 $$
 \begin{align*}
@@ -520,7 +520,7 @@ $$
 
 (23)
 
-对于所有 $x = \sum_{t \in T} \xi_t e_t \in E, \ e_t^*(x) = \xi_t$ 来说，这相当于说： $e_t^*$也称为指标$t$在$E$上的*坐标形式*。从(23)可知$(e_t^*)$是$E^*$中的*免费系统*。
+对于所有 $x = \sum_{t \in T} \xi_t e_t \in E, \ e_t^*(x) = \xi_t$ 来说，这相当于说： $e_t^*$也被称为指标$t$在$E$上的*坐标形式*。从(23)可知$(e_t^*)$是$E^*$中的*免费系统*。
 
 特别是，如果$T$是*有限*，则$E^*$的$e_t^*$形式a *基*，$f_t$则形成$A_d^T$的典范基。因此：
 
@@ -528,7 +528,7 @@ $$
 
 *n 元素的自由模和基的对偶是自由模和 n 元素的基。*
 
-注自由模与无限基的对偶不一定是自由模 (VII, § 3, 习题 10)。
+注自由模与无限基的对偶不一定是自由模（VII, § 3，习题 10）。
 
 #### 定义 7 {#alg-ii-s2-def-7 .statement tag=05NP}
 
@@ -558,12 +558,12 @@ $$
 
 *设 E 为 E 的 A-模且* $(a_t)_{t \in T}$ *生成的系统。以下条件是等效的：*
 (a) *E 是射影 A-模。*
-(b) *在 E 上存在一个族* $(a_t^*)_{t \in T}$ *线性形式，使得对于所有* $x \in E$，*族* $(\langle x, a_t^* \rangle)_{t \in T}$ *有有限支撑并且*
+(b) *E 上存在一个族* $(a_t^*)_{t \in T}$ * 线性形式，使得对于所有* $x \in E$，*族* $(\langle x, a_t^* \rangle)_{t \in T}$ *有有限支撑并且*
 $$
 x = \sum_{t \in T} \langle x, a_t^* \rangle a_t.
 $$
 
-存在满同态$u : L \to E$，其中$L = A_s^{(T)}$，使得如果$(e_t)_{t \in T}$是L的典范基，则$u(e_t) = a_t$(§ 1, no. 11，命题17)；要使 E 射影，存在线性映射 $v : E \to L$ 使得 $u \circ v = 1_E$ (no. 2, 命题 4 和 § 1, no. 9, 命题 15) 是充分必要的。如果这样的映射存在并且我们写${}^tv(e_t^*) = a_t^*$，那么$\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$，因此$(\langle x, a_t^* \rangle)$族对于所有$x \in E$有有限支撑和$x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$。相反，如果满足叙述的条件(b)，则为所有$x \in E$定义和$\sum_{t \in T} \langle x, a_t^* \rangle e_t$，并且$x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$为线性映射$v : E \to L$，使得$u \circ v = 1_E$。
+存在满同态$u : L \to E$，其中$L = A_s^{(T)}$，因此如果$(e_t)_{t \in T}$是L的典范基，则$u(e_t) = a_t$（§ 1, no. 11，命题17）；要使 E 射影，存在线性映射 $v : E \to L$ 使得 $u \circ v = 1_E$ (no. 2, 命题 4 和 § 1, no. 9, 命题 15) 是充分必要的。如果这样的映射存在并且我们写${}^tv(e_t^*) = a_t^*$，那么$\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$，因此$(\langle x, a_t^* \rangle)$族对于所有$x \in E$都有有限支撑和$x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$。相反，如果满足叙述的条件(b)，则为所有$x \in E$定义和$\sum_{t \in T} \langle x, a_t^* \rangle e_t$，并且$x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$为线性映射$v : E \to L$，使得$u \circ v = 1_E$。
 
 ### 7. 双向
 

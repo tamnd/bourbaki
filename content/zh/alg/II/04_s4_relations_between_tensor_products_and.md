@@ -30,16 +30,16 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: cfba060508eff0e88ab209ef9dca44f632974ae4fab116b664f24a979080de9c
+content_sha256: d7ad1bf03a98ac8771e4c2133d164adecd733b62e5f24f2ba584fd7cef6c7c71
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 translation_method: google
 source_content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 1aabfd97cdc0d75295047736cb0846f114c0911cdfbb7613ff380cc5244d9b93
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 4。 关系张量积和同态模之间
@@ -82,7 +82,7 @@ $$
 
 对于$x \in E, y \in F, \beta \in B$。
 
-类似地，假设 F 和 G 是左（右）C-模，并且 F 上的 A-模和 C-模结构是兼容的。那么，要使映射$f \in H$分别具有$\mathrm{Hom}_C(E \otimes_A F, G)$或$\mathrm{Hom}_A(E, \mathrm{Hom}_C(F, G))$的(2)或(3)元素下的像，则满足与条件相同是充分必要的
+类似地，假设 F 和 G 是左（右）C 模块，并且 F 上的 A-模和 C 模块结构是兼容的。那么，要使映射$f \in H$分别具有$\mathrm{Hom}_C(E \otimes_A F, G)$或$\mathrm{Hom}_A(E, \mathrm{Hom}_C(F, G))$的(2)或(3)元素下的像，则满足与条件相同是充分必要的
 
 $$
 f(x, \gamma y) = \gamma f(x, y)
@@ -102,14 +102,14 @@ $$
 \beta : \mathrm{Hom}_B(E \otimes_A F, G) \to \mathrm{Hom}_A(F, \mathrm{Hom}_B(E, G)).
 $$
 
-(b) *设 E 为右A-模，F 为 (A, C) 双模，G 为右C-模。对于每个映射$h \in \mathrm{Hom}_C(E \otimes_A F, G)$，令$h'$是E的映射进入由$(h'(x))(y) = h(x \otimes y)$为$x \in E, y \in F$定义的$\mathrm{Hom}_C(F, G)$。 映射 $h \mapsto h'$ 是同构*
+(b) *设 E 为右A-模，F 为 (A, C) 双模，G 为右 C 模。对于每个映射$h \in \mathrm{Hom}_C(E \otimes_A F, G)$，令$h'$是E的映射进入由$(h'(x))(y) = h(x \otimes y)$为$x \in E, y \in F$定义的$\mathrm{Hom}_C(F, G)$。 映射 $h \mapsto h'$ 是同构*
 
 (6)
 $$
 \gamma : \mathrm{Hom}_C(E \otimes_A F, G) \to \mathrm{Hom}_A(E, \mathrm{Hom}_C(F, G)).
 $$
 
-特别地，B和C可以被视为子环$\Gamma$或中心或环A；那么对于每个 $\Gamma$-模块 G，三个 $\Gamma$-模块
+特别地，B和C可以被认为是环A的中心中的子环$\Gamma$；那么对于每个 $\Gamma$-模块 G，三个 $\Gamma$-模块
 
 $$
 \mathrm{Hom}_\Gamma(E \otimes_A F, G), \quad \mathrm{Hom}_A(E, \mathrm{Hom}_\Gamma(F, G)), \quad \mathrm{Hom}_A(F, \mathrm{Hom}_\Gamma(E, G))
@@ -119,7 +119,7 @@ $$
 
 #### 推论{#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
 
-*如果C是交换环，E、F、G三个C-模，则C-模*
+*如果C为交换环且E、F、G为三个C模块，则C模块*
 $$
 \mathrm{Hom}_C(E \otimes_C F, G), \qquad \mathrm{Hom}_C(E, \mathrm{Hom}_C(F, G)),
 $$
@@ -130,7 +130,7 @@ $$
 
 ### 2.同态**$E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
 
-设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块$\mathrm{Hom}_A(E, G)$典型地具有*右*B-*模* 结构 (§ 1, no. 14)，使得$(u\beta)(x) = u(x)\beta$代表$\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
+设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块 $\mathrm{Hom}_A(E, G)$ 具有规范的*右* B-*模* 结构 (§ 1, no. 14)，使得 $(u\beta)(x) = u(x)\beta$ 对应 $\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
 
 $$
 \nu : \mathrm{Hom}_A(E, G) \otimes_B F \to \mathrm{Hom}_A(E, G \otimes_B F).
@@ -144,7 +144,7 @@ $$
 
 (i) *当 $F$ 是射影*（分别是*有限生成射影*）*B-模，典范同态 (7) 是单射*（分别是*双射的*）。
 
-(ii) *当$E$是有限生成射影$A$模时，典范同态(7)是双射*。
+(ii) *当 $E$ 是有限生成射影$A$-模时，典范同态 (7) 是双射*。
 
 (i) 修复$E$和$G$，对于*每个*剩下的$B$-模块$F$，我们写
 
@@ -351,11 +351,11 @@ $$
 \mathrm{Hom}_C(E, F) \times \mathrm{Hom}_C(F, E)
 $$
 
-到$C$是$C$*-双线性*；因此，当$u$为形式$x \mapsto \langle x, a^* \rangle b$且$v$为形式$y \mapsto \langle y, b^* \rangle a$且$a \in E, a^* \in E^*, b \in F, b^* \in F^*$时，只需验证(20)即可。但$v \circ u$是映射$x \mapsto \langle x, a^* \rangle \langle b, b^* \rangle a$和$u \circ v$映射$y \mapsto \langle y, b^* \rangle \langle a, a^* \rangle b$。 公式 (17) 表明(20) 两侧的值等于$\langle a, a^* \rangle \langle b, b^* \rangle$。
+到$C$是$C$*-双线性*；因此，当$u$为形式$x \mapsto \langle x, a^* \rangle b$且$v$为形式$y \mapsto \langle y, b^* \rangle a$且$a \in E, a^* \in E^*, b \in F, b^* \in F^*$时，足以验证(20)。但$v \circ u$是映射$x \mapsto \langle x, a^* \rangle \langle b, b^* \rangle a$和$u \circ v$映射$y \mapsto \langle y, b^* \rangle \langle a, a^* \rangle b$。 公式 (17) 表明(20) 两侧的值等于$\langle a, a^* \rangle \langle b, b^* \rangle$。
 
 #### 推论 {#alg-ii-s4-n3-cor-1 .statement tag=05PZ}
 
-*如果$u_1, \ldots, u_p$是自同态/$E$，那么*
+*如果$u_1, \ldots, u_p$是$E$中的自同态，那么*
 
 $$
 \mathrm{Tr}(u_1 \circ u_2 \circ \cdots \circ u_p) = \mathrm{Tr}(u_i \circ u_{i+1} \circ \cdots \circ u_p \circ u_1 \circ \cdots \circ u_{i-1})
@@ -375,17 +375,17 @@ $$\operatorname{Tr}(u \circ v \circ w) = \operatorname{Tr}(u \circ w \circ v)$$
 
 ### 4.同态$\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
 
-设 C 是一个*可交换的* 环和 $E_1, E_2, F_1, F_2$ 四个 C-模；在 § 3, no. 5, 公式 (13) 中，我们定义了一个规范的 C-模同态
+设C是一个*可交换的*环和$E_1, E_2, F_1, F_2$四个C模块；在 § 3, no. 5, 公式 (13) 中，我们定义了一个规范的 C-模块同态
 
 （21）$\lambda : \operatorname{Hom}(E_1, F_1) \otimes \operatorname{Hom}(E_2, F_2) \to \operatorname{Hom}(E_1 \otimes E_2, F_1 \otimes F_2)$。
 
 #### 命题 4 {#alg-ii-s4-prop-4 .statement tag=05Q0}
 
-*当有序对* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ *之一由有限生成的射影C-模组成时，典范同态* (21) *是双射的。*
+*当有序对* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ *之一由有限生成的射影C模组成时，典范同态* (21) *是双射的。*
 
 显然，对于有序对$(E_1, F_1)$和$(E_1, E_2)$执行证明就足够了。
 
-我们首先考虑有序对$(E_1, F_1)$的情况；我们修复$E_2, F_1, F_2$并为*每个*C-模$T(E) = \operatorname{Hom}(E, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$和$T'(E) = \operatorname{Hom}(E \otimes E_2, F_1 \otimes F_2)$编写，并且对于每个C同态$v : E \to E'$，
+我们首先考虑有序对$(E_1, F_1)$的情况；我们修复$E_2, F_1, F_2$并为*每个*C-模块$T(E) = \operatorname{Hom}(E, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$和$T'(E) = \operatorname{Hom}(E \otimes E_2, F_1 \otimes F_2)$编写，并且对于每个C-同态$v : E \to E'$，
 
 $$T(v) = \operatorname{Hom}(v, 1_{F_1}) \otimes 1_{\operatorname{Hom}(E_2, F_2)}$$
 
@@ -393,9 +393,9 @@ $$T(v) = \operatorname{Hom}(v, 1_{F_1}) \otimes 1_{\operatorname{Hom}(E_2, F_2)}
 
 $$T'(v) = \operatorname{Hom}(v \otimes 1_{E_2}, 1_{F_1 \otimes F_2}).$$
 
-那么*引理 4 和 5* (no. 2)（*其中 v* 被 $\lambda$ 替换）*有效*并且由完全类似的方法证明。
+那么*引理 4 和 5* (no. 2)（*其中 v* 被 $\lambda$ 代替）*有效*并且由完全类似的方法证明。
 
-接下来我们修复 $E_2$ 和 $F_2$，这次对每个 C-模 F 进行写入，
+接下来我们修复$E_2$和$F_2$，这次为每个C-模块F写入，
 
 $$T(F) = \operatorname{Hom}(C, F) \otimes_c \operatorname{Hom}(E_2, F_2)$$ 和 $T'(F) = \operatorname{Hom}(C \otimes E_2, F \otimes F_2)$，并且对于每个 C 同态 $u : F \to F'$，
 
@@ -407,7 +407,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 这次立即验证*引理 1 和 2* (no. 2)（*其中$\lambda$始终替换 v*）*有效*。
 
-既然如此，当$E_1 = C$和$F_1$是射影且有限生成时，我们首先显示命题。 no. 2的参数（基于引理 1和2），与上面的注、约化一起到证明命题，当也$F_1 = C$时；那么$\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$和$F_1 \otimes F_2$分别用C、$E_2$和$F_2$来标识（§ 3, no. 4、命题4）； (21) 的两侧
+既然如此，当$E_1 = C$和$F_1$是射影且有限生成时，我们首先显示命题。 no. 2的参数（基于引理 1和2），与上面的注、约化一起到证明命题，当也$F_1 = C$时；那么$\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$和$F_1 \otimes F_2$分别用C，$E_2$和$F_2$来识别（§ 3, no. 4，命题4）； (21) 的两侧
 
 同态$\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$
 
@@ -435,7 +435,7 @@ $$
 $$
 \mu : E^* \otimes F^* \to (E \otimes F)^*
 $$
-对于两个$C$-模块$E, F$；对于 $x^* \in E^*, y^* \in F^*$，典范同态 (23) 下 $x^* \otimes y^*$ 的像是 $E \otimes F$ 上的线性形式 $u$，使得
+对于两个$C$-模块$E, F$；对于$x^* \in E^*, y^* \in F^*$，$x^* \otimes y^*$在典范同态（23）下的像是线性形式$u$在$E \otimes F$上，这样
 $$
 u(x \otimes y) = \langle x, x^* \rangle \langle y, y^* \rangle.
 $$
@@ -455,13 +455,13 @@ $$
 
 #### 推论 2 {#alg-ii-s4-prop-4-cor-2 .statement tag=05Q2}
 
-*设E₁、E2为两个有限生成射影C-模，E₁的u₁自同态和E2的u2自同态；那么*
+*设E₁、E2为两个有限生成的射影C模，E₁的u₁自同态和E2的u2自同态；那么*
 
 $$
 \text{Tr}(u_1 \otimes u_2) = \text{Tr}(u_1)\text{Tr}(u_2).
 $$
 
-根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下的$x_1 \otimes x_2$的像是定义
+根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下$x_1 \otimes x_2$的像除以定义
 
 $$
 \langle x_1, x_1^* \rangle \langle x_2, x_2^* \rangle (y_1 \otimes y_2) = \langle x_1 \otimes x_2, x_1^* \otimes x_2^* \rangle (y_1 \otimes y_2)
@@ -471,7 +471,7 @@ $x_1^* \otimes x_2^*$ 被规范地标识为 $\mu$，元素为 $(E_1 \otimes E_2)
 
 #### 注 {#alg-ii-s4-n4-rem-1 .statement tag=05Q3}
 
-如果E、F、G是任意三个C-模，则立即验证图表
+如果E、F、G是任意三个C模，则立即验证图表
 
 $$
 \begin{array}{ccc}
@@ -483,7 +483,7 @@ $$
 
 凭借公式 (24) 是*可交换的*。
 
-我们注还指出，在C-模E、F上没有任何假设，有规范的*同构*
+我们注还指出，在C-模块E、F上没有任何假设，有规范的*同构*
 
 (28) $$(E \otimes F)^* \to \text{Hom}(E, F^*)$$
 (29) $$(E \otimes F)^* \to \text{Hom}(F, E^*)$$

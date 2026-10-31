@@ -21,16 +21,16 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: 0df2d81f227629f091b22bcfd7749a01f57ae1935c520fdcb8ed6fb3cbb05e4a
+content_sha256: 073f55ca472d68cec3af3765faa5a12d42263fbbb8df8b539da3985b7513b8be
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
 translation_method: google
 source_content_sha256: 556d7efab2e0c3d357dfbbd27923b000a4c0af8dc523529bed393394168a1056
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 1e14dd89f1564f36c4034ff4b327c085de2eae1bf7a9d9eadb761b831238efaf
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 1. 素理想
@@ -49,7 +49,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 $A$ 的最大理想 $m$ 是素数，因为 $A/m$ 是域；那么从克鲁尔的定理 (代数, 章 I, § 8, no. 7, 定理 2) 可以得出，每个理想
 
-(*) 除了位于两个星号之间的叙述：\* ... * 之外，章的结果仅取决于本书的 I 至 VI 和章 I, §§ 1–3。
+(*) 除了位于两个星号之间的叙述：\* ... *，此章的结果仅取决于本书的I至VI和章I, §§ 1–3。
 
 至少一个素理想中包含*不同于*$\mathbf{A}$。特别是，对于环$\mathbf{A}$中存在素理想，$\mathbf{A}$不减少到0是充分必要的。
 

@@ -38,27 +38,27 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: 3d28fa433a06aa2b8120633a18fd469f0f983647da5554d9c15e284517232bc8
+content_sha256: b4a04cec10ebe312d9cf93931e571ebb82d447453b97cc2efe90b422b81ec2b9
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
 translation_method: google
 source_content_sha256: d99f913e6231ffa43f0356d794c4b307be8a5cb9b275a18c87c2f41e23c6d2fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 49bb204824de13b60ca72d29222c0d1ea59bcba3b0d05096dbbdfeb3e2e025d5
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 5。 张量代数、张量
 
-### 1. 张量代数中的定义模
+### 1. 张量代数模中的定义
 
-设A为交换环，M为A-模。对于每个整数$n \geqslant 0$，$n$模的A-模张量积等于M（也称为M的第n个张量幂*）由$\bigotimes^n M$或$M^{\otimes n}$表示，或$T^n(M)$、或$T^n_A(M)$、或$\mathrm{Tens}^n(M)$；然后$T^1(M) = M$；我们也写$T^0(M) = A$。 A-模 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ 用$T(M)$ 或$\mathrm{Tens}(M)$ 表示。我们将在$T(M)$上对定义进行型$\mathbf{N}$的分级A-代数结构，通过定义整数$p \geqslant 0, q \geqslant 0$、A-线性映射的每个有序对
+设 A 为交换环，M A-模。对于每个整数$n \geqslant 0$，$n$模的A-模张量积等于M（也称为M的第n个张量幂*）由$\bigotimes^n M$或$M^{\otimes n}$表示，或$T^n(M)$、或$T^n_A(M)$、或$\mathrm{Tens}^n(M)$；然后$T^1(M) = M$；我们也写$T^0(M) = A$。 A-模 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ 用$T(M)$ 或$\mathrm{Tens}(M)$ 表示。我们将在$T(M)$上对型$\mathbf{N}$进行定义分级A-代数结构，通过定义整数$p \geqslant 0, q \geqslant 0$、A-线性映射的每个有序对
 $$
 m_{pq} : T^p(M) \otimes_A T^q(M) \to T^{p+q}(M)
 $$
-（$§ 3$、no. 1、*注*）。对于 $p > 0$ 和 $q > 0$，$m_{pq}$ 为结合性同构（II、$§ 3$、no. 9），当 $p = 0$（分别为 $q = 0$）时，$m_{0,q}$ 为$A \otimes_A T^q(M)$的典范同构到$T^q(M)$（$m_{p,0}$是$T^p(M) \otimes_A A$的典范同构到$T^p(M)$（II、$§ 3$、no. 4、命题 4））。然后，对于$x_i \in M$，$\alpha \in A$，
+（$§ 3$、no. 1、*注*）。对于 $p > 0$ 和 $q > 0$，$m_{pq}$ 为结合性同构（II、$§ 3$、no. 9），并且，当 $p = 0$（或 $q = 0$）时，$m_{0,q}$ 为$A \otimes_A T^q(M)$的典范同构到$T^q(M)$（分别为$m_{p,0}$是$T^p(M) \otimes_A A$的典范同构到$T^p(M)$（II、$§ 3$、no. 4、命题4））。然后，对于$x_i \in M$，$\alpha \in A$，
 $$
 \begin{align}
 (x_1 \otimes \cdots \otimes x_p) \cdot (x_{p+1} \otimes \cdots \otimes x_{p+q}) &= x_1 \otimes \cdots \otimes x_p \otimes x_{p+1} \otimes \cdots \otimes x_{p+q} \\
@@ -69,7 +69,7 @@ $$
 
 #### 定义 1 {#alg-iii-s5-def-1 .statement tag=061H}
 
-对于交换环 $A$、张量代数 $M$ 上的每个模 $M$，用 $T(M)$、或$\mathrm{Tens}(M)$、或$T_A(M)$ 表示，则为代数 $\bigoplus_{n \geq 0} T^n(M)$ 和乘法在 (1) 中定义。 典范嵌入 $\phi : T^1(M) \to T(M)$ (II, § 1, no. 12)（也用$\phi_M$表示）被称为$M$的典范嵌入到$T(M)$。
+对于$M$中超过交换环$A$、张量代数的每个模$M$，用$T(M)$、或$\mathrm{Tens}(M)$、或$T_A(M)$表示，则为代数 $\bigoplus_{n \geq 0} T^n(M)$ 与 (1) 中定义的乘法。 典范嵌入 $\phi : T^1(M) \to T(M)$ (II, § 1, no. 12)（也用$\phi_M$表示）被称为$M$的典范嵌入到$T(M)$。
 
 #### 命题 1 {#alg-iii-s5-prop-1 .statement tag=061I}
 
@@ -399,9 +399,9 @@ $M$ 是自由 $A$ 模块 $N$ (II, § 2, no. 2, 命题 4) 的直因子，因此 $
 
 #### 命题 7 {#alg-iii-s5-prop-7 .statement tag=061U}
 
-*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，以及$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$T^{\alpha, n}(M)$为$T^n(M)$的子模$M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$的（直接的）和，使得$\sum_{i=1}^n \alpha_i = \alpha$；那么 $(T^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一分级，与 $T(M)$ 上的代数结构兼容，并在 $M = T^1(M)$ 上引入给定的分级。*
+*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$T^{\alpha, n}(M)$为$T^n(M)$的子模$M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$的（直接的）和，使得$\sum_{i=1}^n \alpha_i = \alpha$；那么 $(T^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一分级，与 $T(M)$ 上的代数结构兼容，并在 $M = T^1(M)$ 上引入给定的分级。*
 
-在本号的开头已经看到了。 $T(M)$是$T^{\alpha, n}(M)$的直和，并且这是与代数结构兼容的毕业事实，紧随定义而来。如果$({T'}^{\alpha, n})$是型$\Delta \times \mathbf{N}$在$T(M)$上的另一个分级，与代数结构兼容，并且${T'}^{\alpha, 1}(M) = {T'}^{\alpha, 1}$对于$\alpha \in \Delta$，则立即从定义得出，对于所有$n \geq 1$ 以及所有 $\alpha \in \Delta$、$T^{\alpha, n}(M) \subset {T'}^{\alpha, n}$；但由于$T(M)$也是$T^{\alpha, n}(M)$的直和，这意味着${T'}^{\alpha, n} = T^{\alpha, n}(M)$（II, § 1, no. 8，*注*）。
+在本号的开头已经看到了。 $T(M)$是$T^{\alpha, n}(M)$的直和，并且这是与代数结构兼容的毕业事实，紧随定义而来。如果$({T'}^{\alpha, n})$是型$\Delta \times \mathbf{N}$在$T(M)$上的另一个分级，与代数结构兼容，并且${T'}^{\alpha, 1}(M) = {T'}^{\alpha, 1}$适用于$\alpha \in \Delta$，则立即从定义得出，对于所有$n \geq 1$ 以及所有 $\alpha \in \Delta$、$T^{\alpha, n}(M) \subset {T'}^{\alpha, n}$；但由于$T(M)$也是$T^{\alpha, n}(M)$的直和，这意味着${T'}^{\alpha, n} = T^{\alpha, n}(M)$（II, § 1, no. 8，*注*）。
 
 ### 6.张量和张量记号
 
@@ -415,9 +415,9 @@ $$
 T_J^I(M) \to T_{J'}^{I'}(M) \otimes_A T_{J''}^{I''}(M).
 $$
 
-考虑到张量代数 $T(M \oplus M^*)$，从 no. 5 可以得出，$T^n(M \oplus M^*)$ 与 $T_J^I(M)$ 的直和被规范地识别，其中我遍历区间 $\{1, n\}$ 的子集的集合 $\mathbf{N}$和$J$是$\{1, n\}$中I的补集。
+考虑到张量代数$T(M \oplus M^*)$，从no. 5可以得出$T^n(M \oplus M^*)$规范地与$T_J^I(M)$的直和相同，其中I贯穿区间子集的集合 $\mathbf{N}$和$J$的$\{1, n\}$是$\{1, n\}$中I的补集。
 
-当 $I = \{1, p\}$ 和 $J = \{p + 1, p + q\}$ 与整数 $p \geq 0,\ q \geq 0$ 时（其中替换 I（分别为 J）乘以 $\varnothing$，当 $p = 0$（分别为 $q = 0$））时，A-模 $T_J^I(M)$ 也表示为$T_q^p(M)$；因此，A-模$T_0^n(M)$和$T_n^0(M)$分别是定义A-模$T^n(M)$和$T^n(M^*)$。当 I 和 J 是基数 $p = \mathrm{Card}(I)$ 和 $q = \mathrm{Card}(J)$ 的任意有限集合时，我们给它们每个人一个全序；那么存在 I（或 J）的递增双射到 $\{1, p\}$（或 $\{p + 1, p + q\}$），并且这些双射因此定义同构
+当$I = \{1, p\}$和$J = \{p + 1, p + q\}$与整数$p \geq 0,\ q \geq 0$时（当$p = 0$（或$q = 0$）时，替换I（分别是J）乘以$\varnothing$）时，A-模$T_J^I(M)$也是用$T_q^p(M)$表示；因此，A-模$T_0^n(M)$和$T_n^0(M)$分别是定义A-模$T^n(M)$和$T^n(M^*)$。当I和J是基数$p = \mathrm{Card}(I)$和$q = \mathrm{Card}(J)$的任意有限集合时，我们给它们每个人一个全序；那么存在I（分别J）的递增双射到$\{1, p\}$（分别$\{p + 1, p + q\}$），并且这些双射因此定义同构
 
 $$
 T_J^I(M) \to T_q^p(M).
@@ -429,7 +429,7 @@ $$
 (T_J^I(M))^* \to T_I^J(M).
 $$
 
-现在假设 M 是一个*有限生成的自由*A-模，并让 $(e_\lambda)_{\lambda \in L}$ 是 M 的基（因此 L 是一个*有限*集合）。 $M^*$ *对偶* 到$(e_\lambda)$ (II, § 2, no. 6) 的基由$(e^\lambda)_{\lambda \in L}$ 表示。 M 和 $M^*$ 的基 $(e_\lambda)$ 和 $(e^\lambda)$ 分别为 $T_J^I(M)$ 的定义 (no. 5) 基，我们明确给出如下：给定两个映射 $f : I \to L$ 和$g : J \to L$，令 $e_f^g$ 为 $T_J^I(M)$ 的元素 $\bigotimes_{i \in I \cup J} x_i$ 定义为
+现在假设 M 是一个*有限生成的自由* A-模，并让 $(e_\lambda)_{\lambda \in L}$ 是 M 的基（L 因此是一个*有限* 集合）。 $M^*$ *对偶* 到$(e_\lambda)$ (II, § 2, no. 6) 的基由$(e^\lambda)_{\lambda \in L}$ 表示。 M 和 $M^*$ 的基 $(e_\lambda)$ 和 $(e^\lambda)$ 分别为 $T_J^I(M)$ 的定义 (no. 5) 基，我们明确给出如下：给定两个映射 $f : I \to L$ 和$g : J \to L$，令 $e_f^g$ 为 $T_J^I(M)$ 的元素 $\bigotimes_{i \in I \cup J} x_i$ 定义为
 
 $$
 x_i = e_{f(i)} \quad \text{if } i \in I, \qquad x_i = e_{g(i)} \quad \text{if } i \in J.
@@ -441,9 +441,9 @@ $$
 z = \sum_{(f, g)} \alpha_g^f(z) \cdot e_f^g
 $$
 
-其中$\alpha_g^f$是相对于基$(e_f^g)$的坐标形式；通过滥用语言，$\alpha_g^f(z)$被称为张量$z$*相对于模M的基*$(e_\lambda)$的坐标。$\alpha_g^f$构成$(e_f^g)$的对偶基，在其他字中它们被识别为$T_I^J(M)$ 的基的元素，与$(e_\lambda)$ *关联*。当 I 和 J 互补时，$\mathbf{N}$ 的区间 $\{1, n\}$ 的子集，$\alpha_g^f$（或$\alpha_g^f(z)$）表示如下：$i \in I$ 的每个元素 $f(i)$ 写为第 i 个位置的上指标，其中第 i 个位置的点为 $i \in J$；类似地，$i \in J$的$g(i)$在第i个位置写为较低的指标，并在第i个位置写一个点作为$i \in I$。对于例，对于$I = \{1, 4\}, J = \{2, 3\}$，我们写为$\alpha_{v\rho}^{\lambda\cdot\cdot\mu}$：如果$f(1) = \lambda, f(4) = \mu, g(2) = \nu, g(3) = \rho$。
+其中$\alpha_g^f$是相对于基$(e_f^g)$的坐标形式；通过滥用语言，$\alpha_g^f(z)$被称为张量$z$*相对于模M的基*$(e_\lambda)$的坐标。$\alpha_g^f$构成$(e_f^g)$的对偶基，在其他字中它们被识别为元素 / 基 / $T_I^J(M)$，与$(e_\lambda)$*相关*。当I和J是$\mathbf{N}$区间$\{1, n\}$的补子集时，$\alpha_g^f$（或$\alpha_g^f(z)$）表示如下：$i \in I$的每个元素$f(i)$被写为上位指标第 i 个位置有一个点，第 i 个位置为 $i \in J$；类似地，$i \in J$的$g(i)$在第i个位置写为较低的指标，在$i \in I$的第i个位置写一个点。对于例，对于$I = \{1, 4\}, J = \{2, 3\}$，我们写为$\alpha_{v\rho}^{\lambda\cdot\cdot\mu}$：如果$f(1) = \lambda, f(4) = \mu, g(2) = \nu, g(3) = \rho$。
 
-设$(\tilde{e}_{\lambda})_{\lambda \in L}$为M的另一个基，从$(e_{\lambda})$到$(\tilde{e}_{\lambda})$（II, § 10, no. 8），经过为P矩阵。那么从$(e^{\lambda})$到$(\tilde{e}^{\lambda})$（$(\tilde{e}_{\lambda})$的对偶基）的经过的矩阵就是P（II, § 10, no. 8，命题5）的同余$^tP^{-1}$。由此可知 (II, § 10, no. 10) 经过的矩阵从 $T^{I}_{J}(M)$ 的基 $(e^{g}_{f})$ 到基 $(\tilde{e}^{g}_{f})$（其中 $f$（分别为 $g$）穿过集合 I 到 L 的映射（分别是 J 到 L））是矩阵
+令$(\tilde{e}_{\lambda})_{\lambda \in L}$为M的另一个基，从$(e_{\lambda})$到$(\tilde{e}_{\lambda})$（II, § 10, no. 8），为经过的P矩阵。那么从$(e^{\lambda})$到$(\tilde{e}^{\lambda})$（$(\tilde{e}_{\lambda})$的对偶基）的经过的矩阵就是P（II, § 10, no. 8，命题5）的同余$^tP^{-1}$。由此可知 (II, § 10, no. 10) 经过的矩阵从 $T^{I}_{J}(M)$ 的基 $(e^{g}_{f})$ 到基 $(\tilde{e}^{g}_{f})$（其中 $f$（分别为 $g$）穿过集合 I到L的映射（分别是J到L））是矩阵
 
 $$
 \bigotimes_{i \in I \cup J} Q_{i}, \quad \text{where } Q_{i} = P \text{ if } i \in I, Q_{i} = {}^{t}P^{-1} \text{ if } i \in J.
@@ -455,7 +455,7 @@ $$
 \bigotimes_{i \in I \cup J} R_{i}, \quad \text{where } R_{i} = {}^{t}P^{-1} \text{ if } i \in I, R_{i} = P \text{ if } i \in J.
 $$
 
-现在假设 M 是任意模。设$i \in I, j \in J$并写出$I' = I - \{i\}, J' = J - \{j\}$；我们将定义规范的A-线性映射
+现在假设 M 是任意模。设$i \in I, j \in J$并写出$I' = I - \{i\}, J' = J - \{j\}$；我们将定义一个规范的A-线性映射
 
 $$
 c^{i}_{j}: T^{I}_{J}(M) \to T^{I'}_{J'}(M),
@@ -469,13 +469,13 @@ $$
 
 $T^{I'}_{J'}(M)$，是A-多重线性； $c^{i}_{j}$ 是相应的 A-线性映射。
 
-现在假设 M 是自由且有限生成的，并令 $(e_{\lambda})_{\lambda \in L}$ 为 M 的基。给定两个映射 $f: I \to L, g: J \to L$，令 $f_{i}$ 表示 $f$ 到 $I' = I - \{i\}$ 和 $g_{j}$ 的限制限制至 $g$ 至 $J' = J - \{j\}$；那么根据 (12)
+现在假设 M 是自由且有限生成的，并令 $(e_{\lambda})_{\lambda \in L}$ 为 M 的基。给定两个映射 $f: I \to L, g: J \to L$，令 $f_{i}$ 表示 $f$ 至 $I' = I - \{i\}$ 和 $g_{j}$ 的限制限制至 $g$ 至 $J' = J - \{j\}$；那么根据 (12)
 
 $$
 c^{i}_{j}(e^{g}_{f}) = \begin{cases} 0 & \text{if } f(i) \neq g(j) \\ e^{g_{j}}_{f_{i}} & \text{if } f(i) = g(j) \end{cases}
 $$
 
-得到$c^{i}_{j}(z)$坐标为z坐标函数的表达式；对于每个映射$f'$（分别$g'$）到L（或J'到L）和每个$\lambda \in L$，令$(f', \lambda)$（或$(g', \lambda)$）表示I到L（或J到L）的映射，其限制到I' (resp. J') 是 $f'$ (resp. $g'$) 并且在元素 i (resp. j) 处需要值 $\lambda$。那么，如果$T^{I'}_{J'}(M)$相对于基$(e^{g'}_{f'})$的坐标形式用$\beta^{f'}_{g'}$表示，
+得到$c^{i}_{j}(z)$坐标为z坐标函数的表达式；对于I'的每个映射$f'$（或$g'$）到L（或J'到L）和每个$\lambda \in L$，令$(f', \lambda)$（或$(g', \lambda)$）表示映射 I 到 L（分别从 J 到 L），其中限制到 I'（分别为 J'）为 $f'$（分别为 $g'$），并且在元素 i 处需要值 $\lambda$ （分别为j）。那么，若将$T^{I'}_{J'}(M)$相对于基$(e^{g'}_{f'})$的坐标形式记为$\beta^{f'}_{g'}$，
 
 $$
 \beta^{f'}_{g'}(c^{i}_{j}(z)) = \sum_{\lambda \in L} \alpha^{(f'; \lambda)}_{(g'; \lambda)}(z).
@@ -493,13 +493,13 @@ $$
 y \mapsto \langle y, x^*\rangle x.
 $$
 
-因此，通过$\theta_M$，$T^{(2)}_{\{1\}}(M)$（与$T^1_1(M)$同构的）可以与A-模$\operatorname{End}_A(M)$识别。假设M为自由模，令$(e_\lambda)_{\lambda \in L}$为M的基；那么张量$z \in M^* \otimes M$相对于这个模的基$(e^\mu \otimes e_\lambda)$的坐标就用$\zeta_{\mu \cdot \lambda}$来表示。由于$\theta_M(e^\mu \otimes e_\lambda)$为自同态$y \mapsto \langle y, e^\mu\rangle e_\lambda$，自同态$u = \theta_M(z) = \theta_M\left( \sum_{\lambda, \mu} \zeta_{\mu \cdot \lambda} e^\mu \otimes e_\lambda \right)$映射$y$至$\sum_{\lambda, \mu} \zeta_{\mu \cdot \lambda} \langle y, e^\mu\rangle e_\lambda$；写$y = e_\lambda$，我们得到关系
+因此，通过$\theta_M$，$T^{(2)}_{\{1\}}(M)$（与$T^1_1(M)$同构的）可以与A-模$\operatorname{End}_A(M)$识别。假设M是自由模，令$(e_\lambda)_{\lambda \in L}$是M的基；那么张量$z \in M^* \otimes M$相对于这个模的基$(e^\mu \otimes e_\lambda)$的坐标就记为$\zeta_{\mu \cdot \lambda}$。由于$\theta_M(e^\mu \otimes e_\lambda)$为自同态$y \mapsto \langle y, e^\mu\rangle e_\lambda$，自同态$u = \theta_M(z) = \theta_M\left( \sum_{\lambda, \mu} \zeta_{\mu \cdot \lambda} e^\mu \otimes e_\lambda \right)$映射$y$至$\sum_{\lambda, \mu} \zeta_{\mu \cdot \lambda} \langle y, e^\mu\rangle e_\lambda$；写$y = e_\lambda$，我们得到关系
 
 $$
 u(e_\lambda) = \sum_{\mu \in L} \zeta_{\lambda \cdot \mu} e_\mu
 $$
 
-其它字、线性映射*$u = \theta_M(z)$*的*矩阵是指标*$\mu$*和指标*$\lambda$*行中的元素和列* $\zeta_{\lambda \cdot \mu}$。
+其它字、线性映射*$u = \theta_M(z)$*的*矩阵是指标*$\mu$*和指标*$\lambda$*行中的元素和列*是* $\zeta_{\lambda \cdot \mu}$。
 
 $u$ (II, § 4, no. 3) 的*轨迹*的定义立即表明
 

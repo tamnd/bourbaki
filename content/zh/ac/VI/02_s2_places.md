@@ -33,16 +33,16 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: a48550e52488d6bde122315751657a80297a48e1d0b7611742ca883558b1dd1c
+content_sha256: d321ff5fe5073f57509ca06df45a494dc5c74f95f77911b16e14b76819c27a5f
 translated_from: content/en/ac/VI/02_s2_places.md
 translation_method: google
 source_content_sha256: 53c302660c61cd7fef1b70be1d4b1ffa083e7229208dbbe2c386c3d702cdbacb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 764574dc574d23ce551dbc8841cb4afe0a172112c47cd45cf804d8678c27b1f5
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 2. 地点
@@ -123,7 +123,7 @@ $$
 
 对于$x \in \tilde{K}$，如果$f(x) \neq \infty$，则$f$在$x$称为有限；这意味着 (6) $x \in K$。
 
-如果$f : K \to \tilde{L}$是一个地方，$f(K)$是$\tilde{L}$的子集，对于合成$(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$和$(x, y) \mapsto xy^{-1}$的律是稳定的，并且包含1。如果E是有限元素的集合 $f(\tilde{K})$，E 是 L 和 $f(\tilde{K}) = \tilde{E}$ 的子域。通过滥用语言 E 被称为“值域”。
+如果$f : K \to \tilde{L}$是一个地方，$f(K)$是$\tilde{L}$的子集，对于合成$(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$的律和$(x, y) \mapsto xy^{-1}$是稳定的，并且包含1。如果E是有限元素的集合 $f(\tilde{K})$，E是L和$f(\tilde{K}) = \tilde{E}$的子域。通过滥用语言 E 被称为“值域”。
 
 两个地方的*复合* 映射就是一个地方。
 
@@ -153,17 +153,17 @@ $$
 
 这就证明了命题1。
 
-如果$j$是$\kappa(\mathbf{A})$的同构到域L的子域，$j \circ h_{\mathbf{A}} : \tilde{K} \to \tilde{L}$就是K中的一个位置，值在L中。上面的过程实际上提供了K上的所有位置。准确地说：
+如果$j$是$\kappa(\mathbf{A})$的同构到域L的子域，则$j \circ h_{\mathbf{A}} : \tilde{K} \to \tilde{L}$是L中K与值的位置。上述过程实际上提供了K上的所有位置。准确地说：
 
 #### 命题 2 {#ac-vi-s2-prop-2 .statement tag=04SR}
 
-令 K 和 L 为两个域，f 为 K 的一个位置，L 中有值。则存在 K 的环 $\mathbf{A}$ 和 $\kappa(\mathbf{A})$ 的同构 $j$ 到 L 的子域上，使得 $f = j \circ h_{\mathbf{A}}$；这些条件确定 $\mathbf{A}$ 和 $j$ 是独一无二的。 环$\mathbf{A}$是$x \in K$的集合，使得$f(x) \neq \infty$和$m(\mathbf{A})$是$x \in K$的集合，使得$f(x) = 0$。
+令K和L为两个域，f为L中K与值的位置。那么存在对 K 的评估环 $\mathbf{A}$ 和对 L 的子域的同构 $j$ $\kappa(\mathbf{A})$ 的评估，使得 $f = j \circ h_{\mathbf{A}}$；这些条件确定 $\mathbf{A}$ 和 $j$ 是独一无二的。 环$\mathbf{A}$是$x \in K$的集合，使得$f(x) \neq \infty$和$m(\mathbf{A})$是$x \in K$的集合，使得$f(x) = 0$。
 
 如果$f = j \circ h_{\mathbf{A}}$，条件$f(x) \neq \infty$（或$f(x) = 0$）相当于条件$h_{\mathbf{A}}(x) \neq \infty$（或$h_{\mathbf{A}}(x) = 0$），因此相当于条件$x \in \mathbf{A}$（或$x \in m(\mathbf{A})$）。因此 $\mathbf{A}$ 是唯一确定的，并且由于 $h_{\mathbf{A}}$ 是满射，$j$ 也是唯一的。
 
-现在令 $f$ 为 K 中 L 中值的任意位置；让$\mathbf{A}$表示$x \in K$的集合，使得$f(x) \neq \infty$。如果定义了$x \in \mathbf{A}$和$y \in \mathbf{A}$、合成、$f(x) - f(y)$和$f(x)f(y)$以及$\neq \infty$，则表明$x - y \in \mathbf{A}$和$xy \in \mathbf{A}$；因此$\mathbf{A}$是K的子环。如果$x \notin \mathbf{A}$，那么$f(x) = \infty$，因此通过限制获得同态$f'$的$f(x^{-1}) = 0$和$x^{-1}$属于到核$m$ $f$至$\mathbf{A}$。反之，如果$y \in m$，则$y^{-1} \notin \mathbf{A}$。这表明$\mathbf{A}$是K的评估环，而$m$是其最大理想。令 $j$ 为单同态，从 $\kappa(\mathbf{A})$ 到 L，由 f' 通过经过得到商。那么 $f(x) = j(h_A(x))$ 对于所有 $x \in A$ 来说，这个方程对于 $x \notin A$ 仍然成立，那么两侧就等于 $\infty$。
+现在令$f$为K中L中任意有值的位置；让$\mathbf{A}$表示$x \in K$的集合，使得$f(x) \neq \infty$。如果定义了$x \in \mathbf{A}$和$y \in \mathbf{A}$、合成、$f(x) - f(y)$和$f(x)f(y)$以及$\neq \infty$，则表明$x - y \in \mathbf{A}$和$xy \in \mathbf{A}$；因此$\mathbf{A}$是K的子环。如果$x \notin \mathbf{A}$，则$f(x) = \infty$，因此通过限制获得同态$f'$的$f(x^{-1}) = 0$和$x^{-1}$属于到核$m$ $f$至$\mathbf{A}$。反之，如果$y \in m$，则$y^{-1} \notin \mathbf{A}$。这表明$\mathbf{A}$是K的评估环，而$m$是其最大理想。设 $j$ 为从 $\kappa(\mathbf{A})$ 到 L 的单同态，由 f' 除以经过的商得出。那么 $f(x) = j(h_A(x))$ 对于所有 $x \in A$ 来说，这个方程对于 $x \notin A$ 仍然成立，那么两侧就等于 $\infty$。
 
-分解 $f = j \circ h_A$ 被称为placef 的规范分解。 $A$称为环关，$m(A)$是$f$和$\kappa(A)$剩余类域关的理想值。对于两个地方$f : \mathbf{K} \to \mathbf{L}$和$f' : \mathbf{K} \to \mathbf{L}'$具有相同的环，有必要且充分的是，存在值域中的同构，使得$f' = s \circ f$；那么$f$和$f'$称为等价。可以看出，每个估价环的结果都可以转化为地点的结果，反之亦然；这就是我们在以下编号中要做的事情。
+分解 $f = j \circ h_A$ 被称为placef 的规范分解。 $A$称为环关，$m(A)$是$f$和$\kappa(A)$剩余类域关的理想值。对于两个地方$f : \mathbf{K} \to \mathbf{L}$和$f' : \mathbf{K} \to \mathbf{L}'$具有相同的环，充分必要的是，存在值域中的同构，使得$f' = s \circ f$；那么$f$和$f'$称为等价。可以看出，每一个估价环的结果都可以转化为地点的结果，反之亦然；这就是我们在以下编号中要做的事情。
 
 例地点
 (1) 设$K$为域。 $K$上的恒等映射是一个平凡的地方，有环$K$和理想的$(0)$。

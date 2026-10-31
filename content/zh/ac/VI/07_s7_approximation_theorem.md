@@ -31,10 +31,10 @@ translation_method: google
 source_content_sha256: b2cb895d1415aea075090da4a69834fe352e4f0135aedb112aadd7070f320371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 160b867de9826227e382f8c6bf999ca29ab09ef410650cb48dab4676d66b659a
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 7. 近似值定理

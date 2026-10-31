@@ -30,27 +30,27 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: 8906d8819ffcd1a676707c08b8bcc730b352302b7f09ac432e9448410cbd60e6
+content_sha256: e3751d238b4aec87e6a4a1366d92f8626f6bfc20484561e3153a8558af87cbba
 translated_from: content/en/alg/I/10_s10_inverse_and_direct_limits.md
 translation_method: google
 source_content_sha256: 3a49dcd1591d3ccd8d3da36eb91e210dee0ffea0f51202486e0a783d55ffe2f0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: e97ccb15c4ac6c8ad251873a057cb8cd5630523ce2ae6172f6774bc78e0f1f1a
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 10。逆与直极限
 
-在本段中，我将表示非空预排序集合，$\alpha \leq \beta$ I 上的预排序。概念相对于索引集合 I 的集合的逆（或直接）系统在 *集合理论*、III, § 7, no. 1（或直接）系统中定义。 *集合理论*，III, § 7, no. 5，在假设下，我的方向是正确的）。
+在本段中，I将表示非空预订集合，$\alpha \leq \beta$表示I上的预订。 The notion of inverse (resp. direct) system of sets relative to the indexing set I is defined in *Set Theory*, III, § 7, no. 1 (resp. *集合理论*，III, § 7, no. 5，在假设下I是右向的）。
 
 ### 1. 逆系岩浆
 
 #### 定义 1 {#alg-i-s10-def-1 .statement tag=05JH}
 
-*岩浆的逆系相对于索引集合I是集合*$(\mathbf{E}_\alpha, f_{\alpha\beta})$的逆系*相对于I，每个*$\mathbf{E}_\alpha$*有岩浆结构和每个*$f_{\alpha\beta}$*是岩浆同态。*
+*An inverse system of magmas relative to the indexing set I is an inverse system of sets* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *relative to I, each* $\mathbf{E}_\alpha$ *having a magma structure and each* $f_{\alpha\beta}$ *being a magma homomorphism.*
 
 令 $(\mathbf{E}_\alpha, f_{\alpha\beta})$ 为律乘法书写的岩浆的逆系。 逆极限集合$E = \lim_{\leftarrow} \mathbf{E}_\alpha$是$(x_\alpha)_{\alpha \in I}$家族的乘积岩浆$\prod_{\alpha \in I} \mathbf{E}_\alpha$由……组成的子集，使得$x_\alpha = f_{\alpha\beta}(x_\beta)$代表$\alpha \leq \beta$。如果$(x_\alpha)$和$(y_\alpha)$属于到E，那么对于$\alpha \leq \beta$，$x_\alpha = f_{\alpha\beta}(x_\beta)$和$y_\alpha = f_{\alpha\beta}(y_\beta)$，因此$x_\alpha y_\alpha = f_{\alpha\beta}(x_\beta) f_{\alpha\beta}(y_\beta) = f_{\alpha\beta}(x_\beta y_\beta)$；因此E是$\prod_{\alpha \in I} \mathbf{E}_\alpha$的次岩浆。 E 将得到由 $\prod_{\alpha \in I} \mathbf{E}_\alpha$ 引起的律；获得的岩浆称为
 
@@ -86,11 +86,11 @@ $$
 
 ### 3. 直接系统岩浆
 
-在这个没有。接下来我们假设我是*正确的方向*。
+在这个没有。接下来我们假设 I 是*右向的*。
 
 #### 定义 2 {#alg-i-s10-def-2 .statement tag=05JI}
 
-*岩浆的直接系统相对于索引集合I是集合*$(E_\alpha, f_{\beta\alpha})$的直接系统*相对于I，每个*$E_\alpha$*有岩浆结构和每个*$f_{\beta\alpha}$*是岩浆同态。*
+*A direct system of magmas relative to the indexing set I is a direct system of sets* $(E_\alpha, f_{\beta\alpha})$ *relative to I, each* $E_\alpha$ *having a magma structure and each* $f_{\beta\alpha}$ *being a magma homomorphism.*
 
 令$(E_\alpha, f_{\beta\alpha})$为岩浆的直接系统。 E 将把 $E_\alpha$ 的直极限集合 $\lim_{\longrightarrow} E_\alpha$ 和 $f_\alpha$ 典范映射表示为 E。回想一下
 
@@ -119,9 +119,9 @@ $$
 
 岩浆$E_\alpha$将被乘法写入。
 
-设$x, y$在E中。I中存在$\alpha$，$E_\alpha$中存在$x_\alpha, y_\alpha$，使得$x = f_\alpha(x_\alpha)$和$y = f_\alpha(y_\alpha)$。如果E上存在岩浆结构，其$f_\alpha$为同态，则$x.y = f_\alpha(x_\alpha y_\alpha)$、从而是该岩浆结构的*唯一性*。
+设$x, y$在E中。I中存在$\alpha$，$E_\alpha$中存在$x_\alpha, y_\alpha$，使得$x = f_\alpha(x_\alpha)$和$y = f_\alpha(y_\alpha)$。如果E上存在岩浆结构，其中$f_\alpha$为同态，则$x.y = f_\alpha(x_\alpha y_\alpha)$、从而是该岩浆结构的*唯一性*。
 
-为了证明存在性，我们必须证明对于I中的$\alpha, \beta$，$E_\alpha$中的$x_\alpha, y_\alpha$和$E_\beta$中的$x'_\beta, y'_\beta$，关系
+为了证明存在性，我们必须证明对于I中的$\alpha, \beta$，$E_\alpha$中的$x_\alpha, y_\alpha$以及$E_\beta$中的$x'_\beta, y'_\beta$，关系
 
 (5)
 $$
@@ -142,7 +142,7 @@ x(yz) = f_\alpha(x_\alpha(y_\alpha z_\alpha)),
 $$
 从而 $(xy)z = x(yz)$ $(x_\alpha y_\alpha)z_\alpha = x_\alpha(y_\alpha z_\alpha)$。交换岩浆的情况也可以类似地处理。
 
-最后假设每个岩浆$E_\alpha$都有单位元素$e_\alpha$，而$f_{\beta \alpha}(e_\alpha) = e_\beta$对应$\alpha \leq \beta$。对于$I$中的$\alpha, \beta$，$I$中存在$\gamma$以及$\gamma \geq \alpha$和$\gamma \geq \beta$、从而
+最后假设每个岩浆$E_\alpha$都有单位元素$e_\alpha$，而$f_{\beta \alpha}(e_\alpha) = e_\beta$对应$\alpha \leq \beta$。对于$I$中的$\alpha, \beta$，$I$中存在$\gamma$、$\gamma \geq \alpha$、$\gamma \geq \beta$、从而
 $$
 f_\alpha(e_\alpha) = f_\gamma(f_{\gamma \alpha}(e_\alpha)) = f_\gamma(e_\gamma) = f_\gamma(f_{\gamma \beta}(e_\beta)) = f_\beta(e_\beta)
 $$
@@ -171,7 +171,7 @@ $$
 
 类比岩浆的概念或直接系统，可以公式化幺半群的直接系统或群。 命题 1 表明幺半群$(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ 的直接系统中的极限岩浆E 是幺半群。我们证明，如果 $E_\alpha$ 是群，则 E 是群：令 $x \in E, \alpha \in I$ 和 $x_\alpha \in E_\alpha$ 使得 $x = f_\alpha(x_\alpha)$； E 的元素 $y = f_\alpha(x_\alpha^{-1})$ 是 x (§ 2, no. 3) 的倒数。当直接系统是幺半群或群时，命题2的泛性质立即结束。
 
-留给读者的是环的定义直接系统。令$(A_\alpha, f_{\beta\alpha})$为直接系统；让$A = \lim \overrightarrow{A_\alpha}$和$f_\alpha : A_\alpha \to A$典范同态。 A 上存在（命题 2），并且只有一个加法和乘法，其特征在于$A_\alpha$和$x = f_\alpha(x_\alpha), y = f_\alpha(y_\alpha)$中的$\alpha \in I, x_\alpha, y_\alpha$具有$x + y = f_\alpha(x_\alpha + y_\alpha), xy = f_\alpha(x_\alpha y_\alpha)$。在加法下，A是可交换的群，而乘法是结合律和单位的。最后，对于 A 中的 $x, y, z$、I 中的选择 $\alpha$ 以及 $A_\alpha$ 中的 $x_\alpha, y_\alpha$ 和 $z_\alpha$ ，
+留给读者的是环的定义直接系统。令$(A_\alpha, f_{\beta\alpha})$为直接系统；让$A = \lim \overrightarrow{A_\alpha}$和$f_\alpha : A_\alpha \to A$典范同态。 A 上存在（命题 2），并且只有一个加法和乘法，其特征在于$A_\alpha$和$x = f_\alpha(x_\alpha), y = f_\alpha(y_\alpha)$中的$\alpha \in I, x_\alpha, y_\alpha$具有$x + y = f_\alpha(x_\alpha + y_\alpha), xy = f_\alpha(x_\alpha y_\alpha)$。在加法下，A 是可交换的群，乘法是结合律和单位律。最后，对于A中的$x, y, z$，I中的选择$\alpha$和$x_\alpha, y_\alpha$以及$A_\alpha$中的$z_\alpha$，
 $$
 x = f_\alpha(x_\alpha), \quad y = f_\alpha(y_\alpha) \quad \text{and} \quad z = f_\alpha(z_\alpha).
 $$
@@ -187,8 +187,8 @@ $$
 #### 命题 3 {#alg-i-s10-prop-3 .statement tag=05JL}
 
 (a) *如果 $A_\alpha$ 非零，则 A 也非零。*
-(b) *如果$A_\alpha$是整环，则A是整环。*
-(c) *如果 $A_\alpha$ 为域，则 A 为域。*
+(b) *如果$A_\alpha$是整环，A就是整环。*
+(c) *如果$A_\alpha$是域，A就是域。*
 
 设$0_\alpha, 1_\alpha$为$A_\alpha$的零和单位以及A的0、1零和单位。存在$\alpha \in I$使得$f_\alpha(0_\alpha) = 0, f_\alpha(1_\alpha) = 1$。如果$0 = 1$，则存在$\beta \geq \alpha$使得$f_{\beta\alpha}(0_\alpha) = f_{\beta\alpha}(1_\alpha)$，即$0_\beta = 1_\beta$。这就证明了(a)。
 

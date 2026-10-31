@@ -29,16 +29,16 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: cb48bb68c8d4f83af777f61c1993387fd4bba6c96c1554366bbc8dd7c858883c
+content_sha256: c59c243c3d54b92dd071300751e8fcd267c314e807596480e93c6e0dc13d4369
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
 translation_method: google
 source_content_sha256: aa56aa107c641a6f533bca5b5920334a1f4dfec7d2788424e0037a9fcb53cc7b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: f29a86e1fb438b7f14c564e05c4fbcfbb681f8d63162cd20872fd8c28bc67d3b
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 4. 环的光谱和模的支持
@@ -143,7 +143,7 @@ $\overline{E}$ 是 $\overline{Q}_i$ 的并，它们是不可约的 (命题 2)；
 
 (i) 设$X$为诺特空间、$X$中的$A$子空间和$A$中的子集中的$(F_i)$递减序列，其闭合时间为$A$；然后是$F_i = \overline{F_n} \cap A$以及$X$形式递减序列中$F_i$的闭包$\overline{F_n}$，以及$X$的已关闭的子集。由于序列是静止的，所以序列 $(F_i)$ 也是静止的。
 
-(ii) 设$(G_n)_{n \geq 0}$为$X$的闭子集的递减序列；到假设时，序列 $(G_n \cap A_i)_{n \geq 0}$ 中的每一个都是静止的。由于$I$是有限的，因此存在整数$n_0$，使得对于$n \geq n_0$，$G_n \cap A_i = G_{n_0} \cap A_i$，对于所有$i \in I$。但是
+(ii) 令$(G_n)_{n \geq 0}$为$X$的闭子集的递减序列；到假设，序列 $(G_n \cap A_i)_{n \geq 0}$ 中的每一个都是静止的。由于$I$是有限的，因此存在整数$n_0$，使得对于$n \geq n_0$，$G_n \cap A_i = G_{n_0} \cap A_i$，对于所有$i \in I$。但是
 $$
 G_n = \bigcup_{i \in I} (G_n \cap A_i)
 $$
@@ -153,27 +153,27 @@ $$
 
 对于拓扑空间 $X$ 为诺特，$X$ 中的每个开集合是拟紧的是必要且充分的。
 
-为了证明条件是必要的，凭借命题8，证明每个诺特空间$X$是拟紧的就足够了。设$(U_i)_{i \in I}$是$X$的开覆盖； 集合 $U_i$ 的有限并的集合非空，因此承认极大元素 $V = \bigcup_{i \in H} U_i$，其中 $H$ 是 $I$ 的有限子集。 定义，$V \cup U_i = V$ 为所有$i \in I$，因此$V = X$。
+为了证明条件是必要的，凭借命题8，证明每个诺特空间$X$是拟紧的就足够了。设$(U_i)_{i \in I}$是$X$的开覆盖； 集合 $U_i$ 的有限并的集合是非空的，因此承认极大元素 $V = \bigcup_{i \in H} U_i$，其中 $H$ 是 $I$ 的有限子集。到定义，$V \cup U_i = V$ 对于所有 $i \in I$，因此$V = X$。
 
 相反，假设$X$的每个开集合都是拟紧的，并令$(U_i)$为$X$的开子集的递增序列。 $U_i$ 的并 $V$ 是开放的，因此是准紧凑的；由于$(U_i)$是$V$的开覆盖，因此存在$(U_i)$的有限子族，它是$V$的覆盖，因此对于某些指标$n$有$V = U_n$，这证明序列$(U_i)$是平稳的。
 
-#### 引理 1（“诺特归纳中的原理”）{#ac-ii-s4-lem-1 .statement tag=049N}
+#### 引理 1（“原理共诺特归纳”）{#ac-ii-s4-lem-1 .statement tag=049N}
 
-*令 E 为有序集合，每个非空子集都允许最小元素。令 F 为 E 的子集，并具有以下性质 ：如果 $a \in E$ 使得关系 $x < a$ 蕴含 $x \in F$，则$a \in F$。然后$F = E$.*
+*令 E 为有序集合每个非空子集，其中允许最小元素。令 F 为 E 的子集，并具有以下性质 ：如果 $a \in E$ 使得关系 $x < a$ 蕴含 $x \in F$，则$a \in F$。然后$F = E$.*
 
 假设$F \neq E$；那么$CF$将有一个最小的元素$b$。由定义，$x \in F$为所有$x < b$，这意味着$b \in F$，这是一个矛盾。
 
 #### 命题 10 {#ac-ii-s4-prop-10 .statement tag=049O}
 
-*如果 X 为诺特空间，则 X 的不可约分量集合（以及 X 的连通分量更不必说集合）是有限的。*
+*如果X是诺特空间，则X的不可约分量集合（以及X的连通分量更不必说集合）是有限的。*
 
-足以证明 X 是不可约闭子集的有限并（编号 **1**，命题 6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭子集的有限并的集合。设Y是X的闭子集，使得Y属于到F的每个闭子集$\neq Y$到F。如果Y是不可约的，则$Y \in F$乘以定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和$Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
+足以证明X是不可约闭子集的有限并（编号**1**，命题6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭的有限并的集合子集。令 Y 为 X 的闭子集，使得 Y 属于到 F 的每个闭子集 $\neq Y$ 到 F。如果 Y 不可约，则 $Y \in F$ 乘以定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和 $Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
 
-特别是，*Hausdorff* 诺特空间必然是“有限”。
+特别是，*Hausdorff* 诺特空间必然是*有限*。
 
 ### 3. 环的主光谱
 
-设A为A的素理想的环和X集合。对于A的每个子集M，我们用包含M的素理想$V(M)$集合来表示；显然，如果$a$是M生成的A的理想，则$V(M) = V(a)$；如果 M 由单个元素 f 组成，我们写 $V(f)$ 而不是 $V(\{f\})$，我们就有 $V(f) = V(Af)$。 映射$M \mapsto V(M)$关于包含在A和X中是*递减*。此外，以下公式成立：
+设A为A的素理想环和X集合。对于A的每个子集M，我们用包含M的素理想$V(M)$集合表示；显然，如果$a$是M生成的A的理想，则$V(M) = V(a)$；如果 M 由单个元素 f 组成，我们写 $V(f)$ 而不是 $V(\{f\})$，我们有 $V(f) = V(Af)$。 映射 $M \mapsto V(M)$ 相对于 A 和 X 中的包含而言是 *递减*。此外，以下公式成立：
 
 (1)
 $$
@@ -190,7 +190,7 @@ $$
 $$
 V(a \cap a') = V(aa') = V(a) \cup V(a')
 $$
-对于A中的每一个对理想$a,\ a'$。公式 (1)和(2)是明显的；另一方面，公式(3)意味着，对于A的素理想$p$到包含理想$a$或$a'$之一，它包含$aa'$或包含$a \cap a'$是充分必要的；那么它是§ 1, no. 1、命题 1 的推论。第二个公式 (1) 具有以下逆命题：如果$a$ 是$A$ 的理想，使得$V(a) = \varnothing$，则$a = A$，因为没有最大理想$A$包含$a$。最后，如果 $a$ 是 $A$ 的理想且 $r(a)$ 是它的*根式*（$§ 2$、no. 6、定义 4），那么
+对于A中的每一个对理想$a,\ a'$，公式 (1)和(2)是显而易见的；另一方面，公式(3)意味着，对于A的素理想$p$到包含理想$a$或$a'$之一，其充分必要为包含$aa'$或包含$a \cap a'$；那么它是 § 1, no. 1、命题 1 的推论。第二个公式 (1) 有以下逆命题：如果 $a$ 是 $A$ 的理想，使得 $V(a) = \varnothing$，则 $a = A$，因为不存在 的最大理想$A$包含$a$。最后，如果 $a$ 是 $A$ 的理想且 $r(a)$ 是它的*根式*（$§ 2$、no. 6、定义 4），那么
 
 $$
 V(a) = V(r(a))
@@ -198,7 +198,7 @@ $$
 
 如下从$§ 2$，no. 6，推论1到命题13。
 
-公式 (1) 到 (3) 表明 $X$ 满足的子集 $V(M)$ 拓扑的 * 闭集合* 公理 (*一般拓扑*, 章 I, $§ 1$, no. 4）。
+公式 (1) 到 (3) 表明 $X$ 满足的子集 $V(M)$ 拓扑的 * 闭集合* 公理 (*一般拓扑*, 章 I, $§ 1$、no. 4）。
 
 #### 定义 4 {#ac-ii-s4-def-4 .statement tag=049P}
 
@@ -206,7 +206,7 @@ $$
 
 显然关系$\mathrm{Spec}(A) = \varnothing$等价于$A = \{0\}$。
 
-设$X$为环$A$的素谱；对于所有$f \in A$，让我们用$X_f$集合表示$A$的素理想*而不是包含*$f$；那么$X_f = X - V(f)$和$X_f$因此是一个*开*集合。根据(2)，$X$的每个闭子集是形式$V(f)$的闭集合的交，因此谱拓扑的$X$，形式a *基* $X$。此外，从定义可以立即得出：
+设$X$为环$A$的素谱；对于所有$f \in A$，让我们用$X_f$集合表示$A$的素理想*而不是包含*$f$；那么$X_f = X - V(f)$和$X_f$因此是一个*开*集合。根据(2)，$X$的每个闭子集是形式$V(f)$的闭集合的交，因此谱拓扑的$X$、形式a *基* $X$。此外，从定义可以立即得出
 
 $$
 X_0 = O,\quad X_1 = X,
@@ -218,7 +218,7 @@ $$
 X_{g^{-1}} = X, nX, \quad \text{for all } f, g \text{ in } A.
 $$
 
-对于$X$的每个子集$Y$，让我们用$\mathfrak{J}(Y)$交表示$A$的素理想，其中属于到$Y$。显然，$\mathfrak{J}(Y)$是$A$的理想，映射$Y \mapsto \mathfrak{J}(Y)$是*递减*关于包含在$X$和$A$中。明显关系
+对于$X$的每个子集$Y$，让我们用$\mathfrak{J}(Y)$交表示$A$的素理想，其中属于到$Y$。显然，$\mathfrak{J}(Y)$是$A$和映射的理想，相对于包含在$X$和$A$中，$Y \mapsto \mathfrak{J}(Y)$是*递减*。显然关系
 
 $$
 \mathfrak{J}(\varnothing) = A
@@ -235,29 +235,29 @@ $$
 (i) $V(a)$ 在 $X$ 中闭合，$\mathfrak{J}(Y)$ 是 $A$ 的理想，等于其根式。
 (ii) $\mathfrak{J}(V(a))$ *是* $a$ *的根式，并且* $V(\mathfrak{J}(Y))$ *是* $Y$ *在* $X$中的闭包。
 
-(iii) 映射 3 和 V 定义递减双射，其中一个是另一个的逆，位于 X 的闭子集的集合和 A 的理想集合之间，且等于其根式。
+(iii) 映射 3 和 V 定义递减双射，其中一个是另一个的逆，位于 X 的闭子集的集合和 A 理想的集合之间，其中等于它们的根号。
 
-断言 (i) 和 (ii) 的第一个断言是从定义和 § 2, no. 6 得出的，推论 1 到命题 13。如果有一个封闭的集合 V(M)（对于某些 M ⊂ A）包含 Y，则对于每个素理想，M ⊂ p p ∈ Y, 从而 M ⊂ J(Y) 因而 V(M) ⊃ V(J(Y))；因为 Y ⊂ V(J(Y))，V(J(Y)) 是 X 包含 Y 的最小的闭集合，从而完成 (ii) 的证明。最后，从 (ii) 可以得出，如果 a 是等于其根式的素理想，则 J(V(a)) = a，如果 Y 闭于 X，则 V(J(Y)) = Y；这就证明了(iii)。
+断言 (i) 和 (ii) 的第一个断言由定义和 § 2, no. 6 推出，推论 1 到命题 13. 如果闭合集合 V(M)（对于某些 M ⊂ A） 包含 Y，则对于每个素理想 p ∈ Y，M ⊂ p，从而 M ⊂ J(Y)，因而 V(M) ⊃ V(J(Y))；因为 Y ⊂ V(J(Y))，V(J(Y)) 是 X 包含 Y 的最小的闭集合，从而完成 (ii) 的证明。最后，由 (ii) 得出，如果 a 是等于其根式的素理想，则 J(V(a)) = a，如果 Y 闭于 X，则 V(J(Y)) = Y；这就证明了(iii)。
 
-从命题 11 可以立即得出，如果 M 是 A 的任意子集并且 Y 是 X 的任意子集，则 V(M) = V(J(V(M))) 且 J(Y) = J(V(J(Y)))。
+从命题 11 可以立即得出，如果 M 是 A 中的任意子集并且 Y 是 X 中的任意子集，则 V(M) = V(J(V(M))) 且 J(Y) = J(V(J(Y)))。
 
 #### 推论 1 {#ac-ii-s4-prop-11-cor-1 .statement tag=049R}
 
-对于 X 的闭子集的每个族 (Y_λ)_{λ ∈ L}，J(∩_{λ ∈ L} Y_λ) 是理想 J(Y_λ) 的和的根式。
+对于X的闭子集的每个族(Y_λ)_{λ ∈ L}，J(∩_{λ ∈ L} Y_λ)是理想J(Y_λ)的和的根式。
 
-由命题 11 (iii) 可知 J(∩_{λ ∈ L} Y_λ) 是最小的理想，等于它的根式，且包含所有 J(Y_λ)；这个理想则包含 Σ_{λ ∈ L} J(Y_λ) ，因此也是 Σ_{λ ∈ L} J(Y_λ) 的根式（§ 2, no. 6，推论 2 到命题 13），从而推论。
+由命题 11 (iii) 可知，J(∩_{λ ∈ L} Y_λ) 是最小的理想值，等于其根式，且包含所有 J(Y_λ)；这个理想则包含 Σ_{λ ∈ L} J(Y_λ) ，因此也是 Σ_{λ ∈ L} J(Y_λ) 的根式（§ 2, no. 6，推论 2 到命题 13），从而推论。
 
 #### 推论 2 {#ac-ii-s4-prop-11-cor-2 .statement tag=049S}
 
-设 r(a) 表示 A 的理想 a 的根式；如果 a 和 b 是 A 的两个理想，则关系 V(a) ⊂ V(b) 等价于 b ⊂ r(a) 和 r(b) ⊂ r(a)。
+设 r(a) 表示 A 的理想 a 的根式；如果a和b是A的两个理想，关系V(a)⊂V(b)等价于b⊂r(a)和r(b)⊂r(a)。
 
-直接的关系 b ⊂ r(a) 和 r(b) ⊂ r(a) 是等价的，并且，当 V(a) = V(r(a)) 时，推论立即从命题 11, (iii) 得出。
+直接的关系 b ⊂ r(a) 和 r(b) ⊂ r(a) 是等价的，并且由于 V(a) = V(r(a))，推论立即从命题 11, (iii) 得出。
 
 #### 推论 3 {#ac-ii-s4-prop-11-cor-3 .statement tag=049T}
 
-令 (f_λ)_{λ ∈ L} 为 A 的元素族。对于元素 g ∈ A 到满足 X_g ⊂ ∪_{λ ∈ L} X_{f_λ}，存在整数 n > 0 且 g^n 是充分必要的属于为 f_λ 生成的理想值。
+令(f_λ)_{λ ε L}为A的元素族。对于元素 g ε A 至满足 X_g ⊂ ∪_{λ ε L} X_{f_λ}，存在整数 n 是充分必要的> 0 使得 g^n 属于达到 f_λ 生成的理想值。
 
-关系 X_g ⊂ ∪_{λ ε L} X_{f_λ} 等价于 V(g) ⊃ ∩_{λ ∈ L} V(f_λ) 并且应用推论 2 就足够了。
+关系 X_g ⊂ ∪_{λ ε L} X_{f_λ} 等价于 V(g) ⊃ ∩_{λ ε L} V(f_λ) 并且应用推论 2 就足够了。
 
 推论 4，对于 A 的两个元素 f, g 到满足 X_f = X_g，存在两个整数 m > 0, n > 0 使得 f^m ∈ Ag 且 g^n ∈ Af 是充分必要的。
 
@@ -279,7 +279,7 @@ $$
 
 对于所有$f \in A$，$X = \mathrm{Spec}(A)$中的开集合$X_f$是拟紧的；特别是，空间$X$是准紧的。
 
-作为拓扑的$X_g$形式基，足以证明，如果$(g_\lambda)_{\lambda \in L}$是$A$的元素的族，使得$X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$，则存在有限子族$(g_{\lambda_i})_{i \in I}$使得$X_f = \bigcup_{i \in I} X_{g_{\lambda_i}}$。但关系$X_f = \bigcup_{\lambda \in L} X_{g_\lambda}$意味着存在整数$n > 0$和有限子族$(g_{\lambda_i})_{i \in I}$，使得“f”属于达到该子族生成的理想（推论3至命题11）； 从而命题。
+作为拓扑的$X_g$形式基，足以证明，如果$(g_\lambda)_{\lambda \in L}$是$A$的元素的族，使得$X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$，则存在有限子族$(g_{\lambda_i})_{i \in I}$使得$X_f = \bigcup_{i \in I} X_{g_{\lambda_i}}$。但关系$X_f = \bigcup_{\lambda \in L} X_{g_\lambda}$意味着存在整数$n > 0$和一个有限子族$(g_{\lambda_i})_{i \in I}$，使得“f”属于达到该子族生成的理想（推论3到命题11）； 从而命题。
 
 #### 命题 13 {#ac-ii-s4-prop-13 .statement tag=049Y}
 
@@ -321,7 +321,7 @@ $$
 
 *The mapping $p \mapsto V(p)$ is a bijection of $X = \mathrm{Spec}(A)$ onto the set of irreducible closed subsets of $X$; in particular the irreducible components of a closed subset $Y$ of $X$ are the sets $V(p)$, where $p$ runs through the set of minimal elements of the set of prime ideals of $A$ which contain $\mathfrak{J}(Y)$.*
 
-对于$A$的每个素理想$p$和$Y = V(\mathfrak{J}(Y))$对于$X$的每个闭子集$Y$来说$\mathfrak{J}(V(p)) = p$，第一个断言是从命题14得出的； on the other hand, for $Y \supset V(p)$, it is necessary and sufficient that
+对于$A$的每个素理想$p$和$Y = V(\mathfrak{J}(Y))$对于$X$的每个闭子集$Y$来说$\mathfrak{J}(V(p)) = p$，第一个断言是从命题14得出的；另一方面，对于$Y \supset V(p)$，有必要且充分：
 $$
 p = \mathfrak{J}(V(p)) \supset \mathfrak{J}(Y)
 $$
@@ -329,15 +329,15 @@ $$
 
 #### 推论 3 {#ac-ii-s4-prop-14-cor-3 .statement tag=04A4}
 
-*集合 of minimal prime ideals of 诺特环 $A$ is finite.*
+*诺特环$A$的最小素理想的集合是有限的。*
 
 $X = \mathrm{Spec}(A)$只有有限的数不可约分量（推论7到命题11和no. 2，命题10），并且推论来自上面的推论2。
 
 #### 命题 15 {#ac-ii-s4-prop-15 .statement tag=04A5}
 
-令 $A$ 为环，$I$ $A$ 幂等$e_i \neq 0$ 的正交族$(e_i)_{i \in I}$ 的有限集合和$E$ 集合，使得$\sum_{i \in I} e_i = 1$。 For all $(e_i)_{i \in I} \in E$, we 集合 $\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$, $\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$. Then $\overline{\omega}$ is 双射 of $E$ onto 集合 $P$ of 划分 $(U_i)_{i \in I}$ of $X = \mathrm{Spec}(A)$ into open 集合 and $\sigma$ is 双射 of $E$ onto 集合 $S$ of families $(a_i)_{i \in I}$ of ideals $\neq 0$ of $A$ such that $A$ is 直和 of the $a_i$.
+令 $A$ 为环，$I$ $A$ 幂等$e_i \neq 0$ 的正交族$(e_i)_{i \in I}$ 的有限集合和$E$ 集合，使得$\sum_{i \in I} e_i = 1$。对于所有$(e_i)_{i \in I} \in E$，我们集合$\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$，$\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$。那么$\overline{\omega}$是$E$的双射到$X = \mathrm{Spec}(A)$的划分$(U_i)_{i \in I}$集合$P$开成集合并且$\sigma$是双射将$A$的理想$\neq 0$的家庭$(a_i)_{i \in I}$$E$转移到集合$S$，使得$A$是$a_i$的直和。
 
-Let $(e_i)_{i \in I}$ be 元素 of $E$ and 集合 $Y_i = \mathrm{V}(A(1 - e_i))$; if $i \neq j$, then $1 = 1 - e_i + e_i(1 - e_j) \in A(1 - e_i) + A(1 - e_j)$, 从而 $Y_i \cap Y_j = \varnothing$ (公式 (1) and (2)).另一方面，
+设$(e_i)_{i \in I}$为$E$和集合$Y_i = \mathrm{V}(A(1 - e_i))$中的元素；如果$i \neq j$，则$1 = 1 - e_i + e_i(1 - e_j) \in A(1 - e_i) + A(1 - e_j)$，从而$Y_i \cap Y_j = \varnothing$（公式（1）和（2））。另一方面，
 
 $$
 \bigcup_{i \in I} Y_i = \mathrm{V}\left( \prod_{i \in I} A(1 - e_i) \right)
@@ -345,7 +345,7 @@ $$
 
 (公式(3));
 
-by 假设 $\prod_{i \in I} (1 - e_i) = 1 - \sum_{i \in I} e_i = 0$, 从而 $\bigcup_{i \in I} Y_i = X$ (公式 (I)). As the $Y_i$ are closed, they are also open, 从而 $\overline{\omega}(E) \subset P$.另外，显然$A = \sum_{i \in I} Ae_i$； if $0 = \sum_{i \in I} a_i e_i$ where $a_i \in A$, we obtain, by multiplying by $e_i$, $O = a_i e_i^2 = a_i e_i$ for all $i$;这证明了$\sigma(E) \subset S$。
+由假设 $\prod_{i \in I} (1 - e_i) = 1 - \sum_{i \in I} e_i = 0$、从而 $\bigcup_{i \in I} Y_i = X$ (公式 (I))。由于$Y_i$关闭，从而$\overline{\omega}(E) \subset P$也开放。另外，显然$A = \sum_{i \in I} Ae_i$；如果$0 = \sum_{i \in I} a_i e_i$，其中$a_i \in A$，我们通过乘以$e_i$，得到所有$i$的$O = a_i e_i^2 = a_i e_i$；这证明了$\sigma(E) \subset S$。
 
 #### 引理 2 {#ac-ii-s4-lem-2 .statement tag=04A6}
 

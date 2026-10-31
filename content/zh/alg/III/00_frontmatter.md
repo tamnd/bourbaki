@@ -14,23 +14,23 @@ pdf_pages: 0451-0451
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 7901408099fbd8fff4bad3a039c2f6cca35576df33bbfc5945a2db4e539eb406
+content_sha256: ee75317ee304bbf5a389b0ea958230ea1c5420ea03d5b7665c5977fac6c3e1b0
 translated_from: content/en/alg/III/00_frontmatter.md
 translation_method: google
 source_content_sha256: 6265d61279faab9dcf08066eb99e498297b3d05106b7e1efab665fe26a7b784b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 63bd3e7c5b96449b2eea87f07709c7d2bbb434039200b331234aee3541d9de01
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 章 III
 
 # 张量代数，外部代数，对称代数
 
-回想一下章 I 中引入的指数记号，我们将经常使用它（I, § 7, no. 8）：
+回想一下在章I中引入的指数记号，我们将经常使用它（I, § 7, no. 8）：
 
 设$(x_\lambda)_{\lambda \in L}$是环$A$的成对可置换族元素；对于有限支撑的每一个映射$\alpha : L \to N$我们应该写
 

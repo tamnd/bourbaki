@@ -13,16 +13,16 @@ pdf_pages: 0005-0008
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: dcb2f266454d03b4565728ef8d36190ac2b5164c048f9a7e6c57289a942b2f52
+content_sha256: 4492693ab963c46e8393a6751a110e5226481df1195381603b13f5e9257157a4
 translated_from: content/en/alg/00_to_the_reader_viii.md
 translation_method: google
 source_content_sha256: 45c519005c823d57f7f33b57a1c790671b15643486bc9d05ac797484615076c1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 70d1235243a9010957938e4c39c6db4e7d3d6b79097bb19440e4c08658251ed7
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 致读者
@@ -45,7 +45,7 @@ Topologie générale（通用拓扑）— TG（通用顶部）
 
 （函数在一个实数变量中） — FVR (FRV)
 
-[^1]: 到目前为止，仅翻译了章 I 至 VIII。 v
+[^1]: 到目前为止，仅翻译了章 I 到 VIII。 v
 
 拓扑矢量空间
 
@@ -67,7 +67,7 @@ Topologie générale（通用拓扑）— TG（通用顶部）
 
 拓扑代数 — TA
 
-在前六本书中（在上面提到的阶中），文本中的每个叙述都假设只知道定义，并且结果已经在相同的章或前面的章中讨论过，在下面的阶中：集合理论； Alg.，章 I 至 III； Gen. Top.，章 I 至 III； Alg./A，从章 IV 开始； Gen. Top.，从章 IV 开始； FRV；顶部。向量。 Sp.；国际。从第七本书开始，如有必要，读者将在每本书或章的开头找到所使用的其他书籍或章的精确指示（前六本书始终假定已知）。
+在前六本书中（在上面提到的阶中），文本中的每个叙述都假设只知道定义，并且结果已经在相同的章或之前的章中讨论过，在下面的阶中：集合理论；阿尔格.，章I到III； Gen. Top.，章 I 至 III； Alg./A，从章 IV 开始； Gen. Top.，从章 IV 开始； FRV；顶部。向量。 Sp.；国际。从第七本书开始，如有必要，读者将在每本书或章的开头找到所使用的其他书籍或章的精确指示（前六本书始终假定已知）。
 
 4. However, certain passages do not follow the rules set out above. They are placed between two asterisks: $*$. . . . In some cases, this is done only to
 
@@ -81,7 +81,7 @@ $$
 
 6. The logical framework of each chapter consists of the chapter’s definitions, axioms, and theorems. These are the main parts to keep in mind for subsequent use. Less important results, and those that can be easily recovered from the theorems, are labeled as “propositions,” “lemmas,” “corollaries,” “remarks,” etc. Those that may be skipped at first reading are printed in a
 
-[^2]: 到目前为止，仅翻译了章 I 至 VII。
+[^2]: 到目前为止，仅翻译了章 I 到 VII。
 
 小字体。对基本定理的评论偶尔会以“scholium”的名义出现。
 
@@ -101,15 +101,15 @@ $$
 
 至于习题，我们认为表明其来源没有用，因为它们取自许多不同的来源（原始论文、教科书、习题的收藏）。
 
-12. 在新版本书的章中，对定理、公理、定义、注等的引用是通过依次指出本书（使用No. 3中列出的缩写）、章、截面、 小节，以及可以找到它们的页面。当该书与本书相同时，该书的参考文献将被省略。对于例，在书中代数，
+12. 在新版本书的章中，对定理、公理、定义、注等的引用，依次指出本书（使用No. 3中列出的缩写）、章、截面、 小节，以及可以找到它们的页面。当该书与本书相同时，该书的参考文献将被省略。对于例，在书代数中，
 
-集合理论，III, § 4, No. 2，p. 167，推论3
+集合理论，III, § 4, No. 2，p. 167，推论 3
 
-参见集合理论书章III第167页§ 4, No. 2推论3；
+参考集合理论书章III第167页§ 4, No. 2推论3；
 
-II, § 1, No. 11、p. 215、命题 17
+II, § 1, No. 11、p. 215、命题17
 
-指本书代数章II第215页§ 1, No. 11第命题17。
+指代数书章II第215页§ 1, No. 11第命题17。
 
 结果总结用字母R表示； 例，顶部。向量。 Sp.，R 指的是拓扑学向量空间一书的“结果摘要”。
 
@@ -121,4 +121,4 @@ II, § 1, No. 11、p. 215、命题 17
 
 TA、II, § 2、n$^o4$、p. 158、推论德拉命题 1
 
-指《拓扑代数》一书章 II第158页§ 2, No. 4的命题 1的推论。
+指《拓扑代数》一书章II第158页命题1 of § 2, No. 4的推论。

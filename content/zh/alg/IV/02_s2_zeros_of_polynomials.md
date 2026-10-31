@@ -26,23 +26,23 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: 9679836bca215496e4fc94993f16d8496afed56b349bcb2700e6dadd2e6e49d2
+content_sha256: 7b51ba95706df481df3da241acc9a00367de7e02f1e6a5d59ecd9aa5f82a917f
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 translation_method: google
 source_content_sha256: 581af5e1e6500b23403ced41ae2a03e6692f4156d4da25e5f960df6e8a7c1371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 0060e0ac2b9c483ea1d381f443facc4c61e8fb63aa73b7eae37b604d14bce85f
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
-## § 2。 零多项式
+## § 2。多项式的零
 
 ### 1. 一个不定多项式的根。 重数
 
-令 $g \in A[(X_i)_{i \in I}]$ 和$E$ 为单位结合律$A$-代数。设$x = (x_i)_{i \in I}$是$E$的成对可置换元素族。如果$g(x) = 0$，我们可以说$x$是$E^l$中$g$的零。如果$f$是一个不定式多项式，则$E$中$f$的零也称为$E$中$f$的根。
+令 $g \in A[(X_i)_{i \in I}]$ 和$E$ 为单位结合律$A$-代数。设$x = (x_i)_{i \in I}$是$E$的成对可置换元素族。如果$g(x) = 0$，我们可以说$x$是$E^l$中$g$的零。如果$f$是单不定多项式，则$E$中$f$的零也称为$E$中$f$的根。
 
 #### 命题 1 {#alg-iv-s2-prop-1 .statement tag=06AO}
 
@@ -56,7 +56,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 (i) $f$ 能被 $(X - \alpha)^h$整除，但不能被 $(X - \alpha)^{h-1}$整除；
 (ii) *存在$g \in \mathbf{A}[X]$使得$f = (X - \alpha)^h g$和$g(a) \neq 0$。
 (i) $\Rightarrow$ (ii) 立即由提案 1 得出。
-(ii) $\Rightarrow$ (i) ：假设$f = (X - \alpha)^h g$，其中$g$不承认$a$为根。那么$f$可以被$(X - \alpha)^h$整除；如果$g_1 \in \mathbf{A}[X]$存在使得$f = (X - \alpha)^{h+1} g_1$，那么由于$(X - \alpha)^n$不是$\mathbf{A}[X]$中零的除子（IV，p. 9，命题7），我们有$g = (X - a)\ g_1$，因此$g(\alpha) = 0$，这是荒谬的。
+(ii) $\Rightarrow$ (i) ：假设$f = (X - \alpha)^h g$，其中$g$不承认$a$为根。那么$f$可以被$(X - \alpha)^h$整除；如果$g_1 \in \mathbf{A}[X]$存在使得$f = (X - \alpha)^{h+1} g_1$，那么由于$(X - \alpha)^n$不是$\mathbf{A}[X]$中零的除子（IV，p. 9，命题7），我们有$g = (X - a)\ g_1$，所以$g(\alpha) = 0$，即荒谬的。
 
 #### 命题 3 {#alg-iv-s2-prop-3 .statement tag=06AQ}
 
@@ -175,17 +175,17 @@ a) 首先假设$I$是有限的，并放入$n = \mathrm{Card}\ I$。 命题对于
 $$
 h(X_{i_0}) = \sum_{k=0}^m g_k(x) X_{i_0}^k \in A[X_{i_0}]
 $$
-是非零的。由 Th. 1 (IV, p. 16) 集合 of $a \in H_{i_0}$ 使得 $h(\alpha) \neq 0$ 与 $H_{i_0}$ 从而等价
+是非零的。由 Th. 1 (IV, p. 16) 集合 of $a \in H_{i_0}$，使得 $h(\alpha) \neq 0$ 与 $H_{i_0}$ 从而等价
 $$
 \operatorname{Card} H \geq \operatorname{Card} H_f \geq (\operatorname{Card} K) \cdot (\operatorname{Card} H_{i_0}) = \operatorname{Card} H,
 $$
 所以$\operatorname{Card} H = \operatorname{Card} H_f$。
 
-b) 在一般情况下，I 存在有限子集$I'$，使得$f \in A[(X_i)_{i \in I'}]$。令$H'_f$为所有$x \in \prod_{i \in I'} H_i$中的集合，使得$f(x) \neq 0$。然后
+b) 在一般情况下，存在有限子集 $I'$ 或 I，使得 $f \in A[(X_i)_{i \in I'}]$。令$H'_f$为所有$x \in \prod_{i \in I'} H_i$中的集合，使得$f(x) \neq 0$。然后
 $$
 H_f = H'_f \times \left( \prod_{i \in I - I'} H_i \right),
 $$
-只需应用证明的第一个部分到$H'_f$即可。
+只需应用证明中的第一个部分到$H'_f$即可。
 
 #### 推论 1 {#alg-iv-s2-prop-9-cor-1 .statement tag=06B4}
 
@@ -199,16 +199,16 @@ $$
 
 当A是无限整环或当A是代数超过无限域时，我们通常将认同f与$\tilde{f}$。
 
-假设 A 是有限的，并且令 $f(X) = \prod_{a \in A} (X - a)$，然后$f \neq 0$，但是$\tilde{f} = 0$。对于其他例，请参见 IV、p. 88、习题 7 和 8。
+假设 A 是有限的，并且令 $f(X) = \prod_{a \in A} (X - a)$，然后$f \neq 0$，但是$\tilde{f} = 0$。对于其他例，请参阅IV、p. 88、习题 7 和 8。
 
-#### 定理 2（代数恒等式扩张的原理）{#alg-iv-s2-thm-2 .statement tag=06B6}
+#### 定理 2（代数恒等式扩张原理）{#alg-iv-s2-thm-2 .statement tag=06B6}
 
 — *假设 A 是无穷大整环。令 $g_1, \ldots, g_m, f$ 为元素 / $A[(X_i)_{i \in I}]$ 并假设以下假设：*
 
 a）$g_1 \neq 0, \ldots, g_m \neq 0$；
 b) *对于所有* $x \in \mathbf{A}^1$ *这样* $g_1(x) \neq 0, \ldots, g_m(x) \neq 0$，*我们有* $f(x) = 0$。 *然后*$f = 0$。
 
-因为如果$f \neq 0$，我们有$fg_1 \ldots g_m \neq 0$（IV，p. 9，命题8），因此存在$x \in \mathbf{A}^1$使得$f(x)g_1(x) \ldots g_m(x) \neq 0$（IV，p. 18，Cor.2），其中与……矛盾假设。
+对于如果$f \neq 0$，我们有$fg_1 \ldots g_m \neq 0$（IV，p. 9，命题8），因此存在$x \in \mathbf{A}^1$使得$f(x)g_1(x) \ldots g_m(x) \neq 0$（IV，p. 18，Cor.2），其中与……矛盾假设。
 
 #### 学院{#alg-iv-s2-n3-sch-1 .statement tag=06B7}
 

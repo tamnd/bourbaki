@@ -29,10 +29,10 @@ translation_method: google
 source_content_sha256: db883a717633a15e64137f982b71d8ce6f40a59783e9d1c7d5ac706248c39106
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 8921a4aff337285350099364662e7a83ca686bf058c815f86308834378d1719e
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 附录

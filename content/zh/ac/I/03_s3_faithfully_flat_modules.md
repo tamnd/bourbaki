@@ -41,16 +41,16 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: 679005083ef2694ac2fa8885f035bfc89749e49899616f58b8900a88fb88657f
+content_sha256: a91aad05db4837ef5b56fa36a00da7af68d4c746fda2fa9f4dbccf612607f41f
 translated_from: content/en/ac/I/03_s3_faithfully_flat_modules.md
 translation_method: google
 source_content_sha256: 0a1be9878f698d84733905bb7d0c759aa5a8adfb87dd8b4532795f408851fd36
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 1bdfd04fd3b264959263490dadc61894f935f1c4880059f7c6a614a08c8b4426
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 3. 忠实平坦模
@@ -196,23 +196,23 @@ $$
 
 由于$B$是忠实平坦的$A$模，因此$1_E \otimes \nu : E \otimes_A N' \to E \otimes_A N$是单射的（no. 1，命题2），这表明$E$是平坦的。
 
-(3) 最后假设 $E_{(B)}$ 是忠实平坦的。首先，$E$ 被 (2) 压扁。还令 $N$ 为 $A$ 模，使得 $E \otimes_A N = 0$。然后是$E \otimes_A N \otimes_A B = 0$、从而，因为$B$、重合、$E \otimes_A B \otimes_A N = 0$上的左右$A$模结构，也可以写成$(E \otimes_A B) \otimes_B (B \otimes_A N) = 0$。由于$E_{(B)}$是一个忠实平坦的$B$模块，这意味着$B \otimes_A N = 0$（no. 1，命题1），从而$N = 0$，因为$B$是一个忠实平坦的$A$模块（no. 1， 命题 1)。
+(3) 最后假设 $E_{(B)}$ 是忠实平坦的。首先，$E$ 被 (2) 压扁。还令 $N$ 为 $A$ 模，使得 $E \otimes_A N = 0$。然后是$E \otimes_A N \otimes_A B = 0$、从而，因为$B$、重合、$E \otimes_A B \otimes_A N = 0$上的左右$A$模结构，也可以写成$(E \otimes_A B) \otimes_B (B \otimes_A N) = 0$。由于$E_{(B)}$是一个忠实平坦的$B$模块，这意味着$B \otimes_A N = 0$（no. 1，命题1），从而$N = 0$，因为$B$是一个忠实平坦的$A$模块（no. 1， 命题1)。
 
-### 4. 限制标量
+### 4. 标量的限制
 
 #### 命题 7 {#ac-i-s3-prop-7 .statement tag=044E}
 
 *令$A, B$为$A$至$B$中的两个环和$\rho$同态。令 $E$ 成为忠实的扁平右$B$模。为了使 $\rho^*(E)$ 成为平坦（或忠实平坦）右 $A$ 模，$B$ 成为平坦（或忠实平坦）右 $A$ 模是必要且充分的。*
 
-no. 2的应用命题4个分别用$B, A, E, B$代替$R, S, E, F$，$B$上的右侧$A$模块结构由$\rho$定义，可见
+no. 2的应用命题 4 分别用$B, A, E, B$代替$R, S, E, F$，$B$上的右侧$A$模块结构由$\rho$定义，可见
 
-B 是平坦的（或忠实平坦的）A-模当且仅当 $E \otimes_B B = \rho^*(E)$ 是平坦的（或忠实平坦的）A-模。
+B 是平坦（或忠实平坦）A-模当且仅当 $E \otimes_B B = \rho^*(E)$ 是平坦（或忠实平坦）A-模。
 
 注
 (1) 命题 7 表明，要使 B 成为忠实平坦 A-模，只要存在一个忠实平坦 B-模且它也是忠实平坦 A-模就足够了。
-(2) 令A、B、C为三个环和$\rho : A \to B, \sigma : B \to C$两个环同态。 命题 7 表明，如果 C 是忠实平坦 B-模并且 B 是忠实平坦 A-模，则 C 是忠实平坦 A-模。如果 C 是忠实平坦的 B-模和忠实平坦的 A-模，则 B 是忠实平坦的 A-模（将模视为正确的模，以修正想法）。另一方面，B 和 C 可能是忠实平坦的 A-模，而 C 不是忠实平坦的 B-模 (习题 7)。
+(2) 设A、B、C为三个环，$\rho : A \to B, \sigma : B \to C$为两个环同态。 命题 7 表明，如果 C 是忠实平坦 B-模并且 B 是忠实平坦 A-模，则 C 是忠实平坦 A-模。如果C是忠实平坦的B-模和忠实平坦的A-模，则B是忠实平坦的A-模（将模视为正确的模，以修正想法）。另一方面，B 和 C 可能是忠实平坦的 A-模，而不是 C 是忠实平坦的 B-模 (习题 7)。
 
-### 5. 忠实平坦环
+### 5.忠实平坦环
 
 #### 命题 8 {#ac-i-s3-prop-8 .statement tag=044F}
 
@@ -222,7 +222,7 @@ B 是平坦的（或忠实平坦的）A-模当且仅当 $E \otimes_B B = \rho^*(
 (iii) 同态 $\rho$ 是单射的。
 (iv) 对于 A 的每个最大左理想 m，都存在 B 的最大左理想 n，使得 $\overline{\rho}^{-1}(n) = m$。
 
-我们证明（i）。我们知道（代数，章 11，§ 5, no. 2，命题 5 的推论），对于每个右B-模 M，由 $i(y) = y \otimes 1$ 定义的规范 A-同态 $i : M \to \rho_*(M) \otimes_A B = \rho^*(\rho_*(M))$ 是单射的，并且 A-模 $i(M)$ 是 $\rho_*(M) \otimes_A B$ 中的直因子。因此，对于每左A-模 F，
+我们证明（i）。我们知道（代数，章 11，§ 5, no. 2，命题 5 的推论），对于每个右B-模 M，由 $i(y) = y \otimes 1$ 定义的规范 A-同态 $i : M \to \rho_*(M) \otimes_A B = \rho^*(\rho_*(M))$ 是单射的，并且 A-模 $i(M)$ 是 $\rho_*(M) \otimes_A B$ 中的直因子。因此，对于每个左A-模 F，
 
 $$
 i \otimes 1_F : \rho_*(M) \otimes_A F \to \rho_*(M) \otimes_A B \otimes_A F
@@ -299,7 +299,7 @@ $$
 
 *设 B 为环，A 为 B 的中心的交换律子环，使得 B 是忠实平坦的 A-模。对于 A-模 F 是射影且有限生成的，$B \otimes_A F$ 是有限生成的射影左B-模是充分必要的。*
 
-在 A 或 B 上没有任何假设时，条件显然是必要的（*代数*、章 II, § 5, no. 1，命题 4 的推论）；我们证明这是足够的。如果有限生成射影模承认有限表示（§ 2, no. 8，引理8），假设意味着F凭借命题11承认有限表示，因而，对于每个A-模M，有典范同构
+在 A 或 B 上没有任何假设的情况下，条件显然是必要的（*代数*、章 II, § 5, no. 1，命题 4 的推论）；我们证明这是足够的。如果有限生成射影模承认有限表示（§ 2, no. 8，引理8），假设意味着F凭借命题11承认有限表示，因而，对于每个A-模M，有典范同构
 
 $$
 \omega : B \otimes_A \operatorname{Hom}_A(F, M) \to \operatorname{Hom}_B(B \otimes_A F, B \otimes_A M)
@@ -315,13 +315,13 @@ B \otimes_A \operatorname{Hom}_A(F, M'') & \xrightarrow{\omega} & \operatorname{
 \end{array}
 $$
 
-由于 $1_B \otimes v$ 是满射且 $B \otimes_A F$ 假定为射影，因而 $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ 是*满射* (*代数*, 章 II, § 2, no. 2, 命题 4)，因而 $1_B \otimes \operatorname{Hom}(1_F, v)$ 也是如此。但由于 B 是忠实平坦的 A-模，$\operatorname{Hom}(1_F, v)$ 本身是满射 (no. 1, 命题 2)，因而 F 是射影 A-模 (*代数*, 章 II, § 2, no. 2, 命题 4).
+由于 $1_B \otimes v$ 是满射且 $B \otimes_A F$ 假定为射影，因而 $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ 是*满射* (*代数*, 章 II, § 2, no. 2, 命题 4)，因而 $1_B \otimes \operatorname{Hom}(1_F, v)$ 也是如此。但由于 B 是忠实平坦的 A-模，$\operatorname{Hom}(1_F, v)$ 本身是满射 (no. 1, 命题 2)，因而 F 是射影 A-模 (*代数*, 章 II, § 2, no. 2, 命题 4）。
 
 ### 7. 忠实平面环上的线性方程
 
 设 B 为 B 的环，A 为 B 的子环。如果满足以下条件，我们可以说有序对 (A, B) 具有*线性扩张性质*：
 
-(E) 线性方程组$B$、系统、元素、解、$(y_k)_{1 \leq k \leq n}$、由……组成
+(E)线性方程组$B$、系统各解$(y_k)_{1 \leq k \leq n}$、元素、由……组成
 
 $$
 \sum_{k=1}^n y_k c_{ki} = d_i \quad (1 \leq i \leq m)
@@ -333,13 +333,13 @@ $$
 y_k = x_k + \sum_{j=1}^p b_j z_{jk} \quad (1 \leq k \leq n)
 $$
 
-其中$(x_k)$是$A$的元素的由……组成的解，$b_j$属于到$B$以及每个$(z_{jk})_{1 \leq k \leq n}$是齐次线性的解系统与(3)相关，$A$的元素的由……组成。
+其中$(x_k)$是$A$的元素的由……组成的解，$b_j$属于到$B$以及每个$(z_{jk})_{1 \leq k \leq n}$是齐次线性的解系统与(3)相关联，$A$的元素的由……组成。
 
 #### 命题 13 {#ac-i-s3-prop-13 .statement tag=044L}
 
 令$A$为环$B$中的子环。对于有序对$(A, B)$到满足线性扩张性质，$B$是忠实平坦的$A$模是必要且充分的。
 
-条件*足够*。因为，由于 $B$ 是一个平面 $A$ 模，因此与 (3) 相关的*齐次*线性系统的 $B$ 中的解和元素是线性组合，其中 $B$ 中的系数为解由……组成 / 元素 / $A$（§ 2, no. 11，推论 2，至命题 13）。 问题则约化到证明，(3)的解与$B$中的元素的存在意味着$A$中存在*一*解与元素。现在如果我们集合
+条件*足够*。因为，由于 $B$ 是一个平面 $A$ 模，因此与 (3) 相关的*齐次*线性系统的 $B$ 中的元素的每个解都是线性组合，其中 $B$ 中的系数为解由……组成 / 元素 / $A$（§ 2, no. 11，推论 2，到命题 13）。 问题然后约化到证明，(3)的解与$B$中的元素的存在意味着$A$中存在*一个*解与元素。现在如果我们集合
 
 $$
 c_k = (c_{ki})_{1 \leq i \leq m} \in A_s^m, \qquad d = (d_i) \in A_s^m,

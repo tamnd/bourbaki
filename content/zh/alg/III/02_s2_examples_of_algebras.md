@@ -58,16 +58,16 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 25
-content_sha256: fbbe0c59baeee276aaa480a6bc23861bf5d82dabf1a209abf39e243a5b8866de
+content_sha256: b16e919bb8f8ee39f89dbae0e84aac6c0a94f0e112ac75cdd5c92881ee8ba22c
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
 translation_method: google
 source_content_sha256: 523c00d5d47e83c328fe974b4b99f51c3c18998f5e378badbbbbd303ed1feec8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 1180c30008a694ff9a7fe7606211c20e01fa34e5c4e98f9eec1b7cefde1d1760
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 2。 例 / 代数
@@ -537,9 +537,9 @@ $$
 
 #### 例 {#alg-iii-s2-n6-exa-1 .statement tag=05Z6}
 
-设 V 为A-模，S 为对左侧 V 进行运算的幺半群；这意味着 (I, § 5, no. 1) 给定 S 的映射 $(s, x) \mapsto s.x$ 到 V 中，使得 S 中的 $s, t$ 具有$s.(x + y) = s.x + s.y, s.(\alpha x) = \alpha(s.x)$ 和 $s.(t.x) = (st).x$，V 中的 $x, y$ 和$\alpha \in A$，并且用 S 的 e 单位元素表示，e.x = x 对于 x ∈ V。 f(s)(x) = s.x，f 是 S 的同态到代数 End_A(V)（仅具有其乘法律），映射单位元素 e 到单位元 l_V。得到应用命题6，A-代数同态$\bar{f}: A^{(S)} \to \mathrm{End}_A(V)$，这给出了V左模结构在$A^{(S)}$上的基础群。
+令 V 为A-模，S 是一个作用于左侧 V 的幺半群；这意味着(I, § 5, no. 1)将S的映射$(s, x) \mapsto s.x$放入V中，使得$s.(x + y) = s.x + s.y, s.(\alpha x) = \alpha(s.x)$和$s.(t.x) = (st).x$用于S中的$s, t$，$x, y$用于V和$\alpha \in A$，并且用e表示S 的单位元素，e.x = x，对于 x ∈ V。将 f(s)(x) = s.x，f 是将 S 的同态写入代数 End_A(V)（仅包含其乘法律），映射单位元素 e 到单位元 l_V。得到应用命题 6、A-代数同态 $\bar{f}: A^{(S)} \to \mathrm{End}_A(V)$，这给出了 $A^{(S)}$ 上V 左模结构的底层群。
 
-这使我们能够通过约化研究群与运算符的交换模。让 M 是一个可交换的群，其运算符是加法编写的，所有外法则都是乘法编写的。令$\Omega$为M上各个外法则的算子域的和集合（集合理论，II, § 4, no. 8），这些域中的每一个都被规范地标识为$\Omega$的子集。令 Mo($\Omega$) 为在 $\Omega$ 上构造的自由幺半群 (I § 7, no. 2)； 律 / 作用
+这使我们能够通过约化研究群与运算符的交换模。让 M 是一个可交换的群，其运算符是加法编写的，所有的外法则都是乘法编写的。令$\Omega$为M上各个外法则的算子域的和集合（集合理论，II, § 4, no. 8），这些域中的每一个都被规范地标识为$\Omega$的子集。令Mo($\Omega$)为在$\Omega$上构造的自由幺半群(I § 7, no. 2)； 律共作用
 
 $$
 (s, x) \mapsto s.x
@@ -553,27 +553,27 @@ $$
 
 #### 定义 2 {#alg-iii-s2-def-2 .statement tag=05Z7}
 
-*让我成为集合；设 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）表示从 I 导出的自由岩浆（分别为自由幺半群、分别为自由交换幺半群）。 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）在 A 上的代数称为自由代数（分别为自由结合体） 代数，分别是集合 I 超过环 A 的自由交换联想代数（或者，滥用语言，自由交换代数））。
+*令I为集合；设 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）表示源自 I 的自由岩浆（分别为自由幺半群、自由交换幺半群）。 M(I)（或 Mo(I)、或 $\mathbf{N}^{(I)}$）在 A 上的代数被称为自由代数（或自由结合律代数、或自由交换结合律代数（或者，滥用语言，自由结合律代数，或自由交换结合律代数） 交换代数)) 的集合 I 超过环 A.*
 
-我们将用 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）来表示 I 在 A 上的自由代数（分别为自由结合代数、分别为自由交换代数）。通过将 I 的典范映射组合成 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）和 M(I) 的典范映射（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$) 为 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）， 典范映射由 I 获得到 Lib_A(I)（分别为 Libas_A(I) 和 Libasc_A(I)），如果 $A \neq \{0\}$ 则它是单射的。我们将在典范映射下用$X_i$表示元素$i \in I$的像，并且我们将说$X_i$是Lib_A（I）（分别是Libas_A（I），分别是Libasc_A（I））的指标i的不确定。
+我们将用 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）来表示 A 上的 I 的自由代数（分别为自由结合代数、分别为自由交换代数）。将 I 的典范映射组合成 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$) 和 M(I) 的典范映射（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$） Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)），将 I 转换为 Lib_A(I)（分别为 Libas_A(I)、分别为典范映射） Libasc_A(I))，如果 $A \neq \{0\}$ 则它是单射的。我们将在典范映射下用$X_i$表示元素$i \in I$的像，并且我们将说$X_i$是Lib_A（I）（或Libas_A（I））的指标i的不确定。 Libasc_A(I))。
 
-由于 Mo(I) 和 $\mathbf{N}^{(I)}$ 各有单位元素，因此 Libas_A(I) 和 Libasc_A(I) 是单位结合律代数，并且 Libasc_A(I) 是可交换的。如果 e 是 Libas_A(I)（分别为 Libasc_A(I)）的单位元，映射 $\alpha \mapsto \alpha e$ 是 A 的同构到 Libas_A(I)（分别为 Libasc_A(I)）的中心的子环，其用 A (no. 1) 标识。
+由于 Mo(I) 和 $\mathbf{N}^{(I)}$ 各有单位元素，因此 Libas_A(I) 和 Libasc_A(I) 是单位结合律代数，并且 Libasc_A(I) 是可交换的。 如果 e 是 Libas_A(I) 的单位元（分别为 Libasc_A(I))，映射$\alpha \mapsto \alpha e$是A的同构到Libas_A(I)的中心的子环（分别是） Libasc_A(I))，用A(no. 1)标识。
 
 #### 命题 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
-*设 I 为 A 上的集合和 F 代数（分别为单位结合律代数，分别为单位交换结合律代数）。对于每一个映射 $f : I \to F$，存在且仅有一个同态（分别为单位同态）将 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）的 $\bar{f}$ 转换为 F，使得 $\bar{f}(X_i) = f(i)$ 对于所有 $i \in I$。*
+*设 I 为集合，F 代数（分别为单位结合律代数，分别为单位交换结合律代数）。对于每一个映射 $f : I \to F$，存在且仅有一个同态（分别为单位结合律代数）。将 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）的同态) $\bar{f}$ 转换为 F，使得 $\bar{f}(X_i) = f(i)$ 对于所有 $i \in I$。*
 
-令 $F_m$ 为通过将集合 F 与合成相乘律获得的岩浆（或幺半群）。 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）在 $F_m$ 中存在且仅有一个同态（分别为单位同态）$g$，使得 $g(i) = f(i)$ 对于所有 $i \in I$（I, § 7，编号 1、2 和 7）；然后从 no. 6、命题 6 得出命题 7。
+令 $F_m$ 为通过将集合 F 与合成相乘得到的律所获得的岩浆（或幺半群）。在 $F_m$ 中存在且仅有一个 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）的同态（分别为单位同态）$g$，使得 $g(i) = f(i)$ 对于所有 $i \in I$（I, § 7， 1、2 和 7 号）；然后从 no. 6、命题 6 得出命题 7。
 
 #### 注 {#alg-iii-s2-n7-rem-1 .statement tag=05Z9}
 
-(1) 我们稍后将 Libas_A(I) 的定义同构放到自由模 $A^{(I)}$ (§ 5, no. 5) 的张量代数上，并将 Libasc_A(I) 的同构放到 $A^{(I)}$ 的对称代数上（§ 6, no. 6）。
+(1) 我们稍后将 Libas_A(I) 的定义同构放到自由模 $A^{(I)}$ (§ 5, no. 5) 的张量代数上，并将 Libasc_A(I) 的同构放到对称矩阵上代数共 $A^{(I)}$ (§ 6, no. 6)。
 
-(2) 设 $\rho$ 为 A 到交换环 B 的单位同态。正如已经看到的 (§ 2, no. 6)，同构 $\sigma$ 是从 Lib_B(I)（分别为 Libas_B(I)、分别为 Libasc_B(I)）的 $\rho$ 导出到通过$\rho$将标量扩展到B而获得代数$(\mathrm{Lib}_A(I))_{(B)}$（分别$(\mathrm{Libas}_A(I))_{(B)}$、$(\mathrm{Libasc}_A(I))_{(B)}$）；如果$X_i^A, X_i^B$分别是A和B的指标$i$相应的的不定式，则$\sigma(X_i^B) = X_i^A \otimes 1$。
+(2) 令$\rho$为A到交换环B的单位同态。 As has been seen (§ 2, no. 6), an isomorphism $\sigma$ is derived from $\rho$ of Lib_B(I) (resp. Libas_B(I)，分别。 Libasc_B(I)) 到代数 $(\mathrm{Lib}_A(I))_{(B)}$（分别为 $(\mathrm{Libas}_A(I))_{(B)}$、分别为 $(\mathrm{Libasc}_A(I))_{(B)}$），通过 $\rho$ 将标量扩展到 B 获得；如果$X_i^A, X_i^B$分别是A和B的指标、$i$、相应的的不定式，则$\sigma(X_i^B) = X_i^A \otimes 1$。
 
-(3) 令J为I的子集；我们知道 M(J) 与岩浆 M(I) 的稳定子集一致，因此 (no. 6) Lib_A(J) 与 Lib_A(I) 的子代数一致，由 $X_i$ 生成，使得 $i \in J$；据说 Lib_A(J) 的元素中仅出现指标属于到 J 的不定式。岩浆的代数的no. 6给出的定义表明，当J穿过I的*有限*子集的集合时，Lib_A(I)是子代数Lib_A(J)有向族的并。对于Libas_A(I)也有类似的结果和 Libasc_A(I)。
+(3) 令J为I中的子集；我们知道 M(J) 被岩浆 M(I) 的稳定子集识别，因此 (no. 6) Lib_A(J) 被规范地识别为 Lib_A(I) 的子代数，由 $X_i$ 生成，使得 $i \in J$；据说 Lib_A(J) 的元素中仅出现指标属于到 J 的不定式。岩浆的代数的no. 6中给出的定义表明，当J穿过I的*有限*子集的集合时，Lib_A(I)是子代数Lib_A(J)有向族的并。 Libas_A(I) 和 Libasc_A(I) 也有类似的结果。
 
-(4) 与 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$）的元素 s 关联其 *长度* $l(s)$，即整数 $\geqslant 1$（分别为 $\geqslant 0$），使得 $l(ss') = l(s) + l(s')$ (I, § 7， 1、2 和 7 号）。如果 $e_s$ 是 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）相应的到 s 的元素，则 *总计次数* （或简单地为元素 $x = \sum_s \alpha_s e_s \neq 0$ 的 *次数*当 s 穿过元素的（假设非空）集合使得 $\alpha_s \neq 0$ 时，Lib_A(I)（分别为 Libas_A(A) 和 Libasc_A(I)）为数 $l(s)$ 的最大的。 例，如果$i, j, k$是I的三个不同的元素，则元素$(X_i(X_jX_k))X_i - (X_iX_j)(X_kX_i)$是Lib_A(I)中总共次数4的元素$\neq 0$。
+(4) M(I)（分别为 Mo(I)、$\mathbf{N}^{(I)}$）的元素 s 与其 *长度* $l(s)$ 相关联，即整数 $\geqslant 1$（分别为 $\geqslant 0$），使得$l(ss') = l(s) + l(s')$（I, § 7，第 1、2 和 7 号）。如果 $e_s$ 是 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）相应的到 s 的元素，则*总计次数*（或简称为 *次数*）当 s 运行时，Lib_A(I)（分别为 Libas_A(A)、Libasc_A(I)）的元素 $x = \sum_s \alpha_s e_s \neq 0$ 为数 $l(s)$ 的最大的（假设非空） 元素中的集合，使得$\alpha_s \neq 0$对于例，如果$i, j, k$是I中的三个不同的元素，则元素$(X_i(X_jX_k))X_i - (X_iX_j)(X_kX_i)$是总数中的元素$\neq 0$。 Lib_A 中的次数 4（I）。
 
 ### 8. 生成元和关系的代数的定义
 
@@ -584,43 +584,43 @@ $$
 \lambda(U((x_i)_{i \in I})) = U((\lambda(x_i))_{i \in I}).
 $$
 
-特别考虑$F = \mathrm{Lib}_A(J)$的情况，其中J是另一个集合；对于$\mathrm{Lib}_A(J)$元素每个家庭$(H_i)_{i \in I}$和A-代数$F'$每个元素家庭$(y_j')_{j \in J}$，
+特别考虑$F = \mathrm{Lib}_A(J)$的情况，其中J是另一个集合；对于$\mathrm{Lib}_A(J)$元素每个家庭$(H_i)_{i \in I}$和A-代数$F'$元素每个家庭$(y_j')_{j \in J}$，
 $$
 U((H_i)_{i \in I}))((y_j')_{j \in J}) = U((H_i((y_j')_{j \in J})))_{i \in I}).
 $$
 (37)
 
-在上面的记号中，$\mathrm{Lib}_A(I)$的每个元素U，使得$U((x_i)_{i \in I}) = 0$，或者也使得$f(U) = 0$，被称为F中族$(x_i)_{i \in I}$的*关系子*。这些元素的双面理想$\mathrm{Ker}(f)$由……组成被称为*理想$(x_i)$ 的关系者*。
+在上面的记号中，$\mathrm{Lib}_A(I)$的每个元素U使得$U((x_i)_{i \in I}) = 0$，或者也使得$f(U) = 0$，被称为F中族$(x_i)_{i \in I}$的*关系子*。这些元素的双面理想$\mathrm{Ker}(f)$由……组成被称为*$(x_i)$的关系者的理想。
 
-设$(R_j)_{j \in J}$是$\mathrm{Lib}_A(I)$的元素的家庭。如果$(x_i)_{i \in I}$是F的生成的系统，并且由$R_j$生成的$\mathrm{Lib}_A(I)$的两侧理想等于$(x_i)_{i \in I}$族关系者的理想，则$((x_i)_{i \in I}, (R_j)_{j \in J})$被称为代数F的*表示*； $x_i$ 称为*生成元*，$R_j$ 称为演示文稿的*相关者*。
+设$(R_j)_{j \in J}$是元素和$\mathrm{Lib}_A(I)$的家庭。如果$(x_i)_{i \in I}$是F的生成的系统，并且由$R_j$生成的$\mathrm{Lib}_A(I)$的双面理想等于$(x_i)_{i \in I}$家族关系者的理想，则$((x_i)_{i \in I}, (R_j)_{j \in J})$被称为代数F的*呈现*； $x_i$ 称为演示文稿的 *生成元*，$R_j$ 称为演示文稿的*相关者*。
 
-现在考虑任何集合我和$\mathrm{Lib}_A(I)$的元素家庭$(R_j)_{j \in J}$。 $(R_j)$族生成的双边理想所得到的$\mathrm{Lib}_A(I)$的商代数E被称为由关系族*$(R_j)_{j \in J}$与生成的系统I定义的*通用代数。显然，如果$\overline{X}_i$表示E中$X_i$的像，
+现在考虑任何集合 I 和$(R_j)_{j \in J}$ 元素 $\mathrm{Lib}_A(I)$。 $(R_j)$族生成的双边理想与$\mathrm{Lib}_A(I)$的商代数E称为由关系族*$(R_j)_{j \in J}$相关的生成的系统I定义的*通用代数。显然，如果$\overline{X}_i$表示E中$X_i$的像，
 $$
 ((\overline{X}_i)_{i \in I}, (R_j)_{j \in J})
 $$
 此外，如果$(x_i)_{i \in I}$是代数F和$R_j((x_i)_{i \in I}) = 0$的元素族，对于所有$j \in J$，存在唯一同态$g : E \to F$，使得$g(\overline{X}_i) = x_i$对于所有$i \in I$；对于 $((x_i)_{i \in I}, (R_j)_{j \in J})$ 是 F 的表示，$g$ 是*双射的*是必要且充分的。
 
-这些注证明了以下滥用语言的合理性：而不是说“*$((x_i)_{i \in I}, (R_j)_{j \in J})$是F*的表示”，还说“*F是由生成元$x_i$生成的代数受制于关系$R_j((x_i)_{i \in I}) = 0$*”。当$R_j$为形式$P_j - Q_j$时，也称“*F是由$x_i$服从关系$P_j((x_i)) = Q_j((x_i))$*生成的代数”。
+这些注证明了以下滥用语言的合理性：而不是说“*$((x_i)_{i \in I}, (R_j)_{j \in J})$是F*的呈现”，还说“*F是由生成元$x_i$生成的代数受制于关系$R_j((x_i)_{i \in I}) = 0$*”。当$R_j$为形式$P_j - Q_j$时，也称“*F是由$x_i$服从关系$P_j((x_i)) = Q_j((x_i))$*生成的代数”。
 
-设H为集合；我们可以说，$\mathrm{Lib}_A(H)$的元素 S是A-代数的*通用*关系器，对于F的元素的*每个*系列$(x_h)_{h \in H}$，A-代数F是$S((x_h)_{h \in H}) = 0$，其中H作为索引集合。
+设H为集合；我们可以说，$\mathrm{Lib}_A(H)$的元素S是A-代数的*通用*关系器，对于F的元素的*每个*系列$(x_h)_{h \in H}$，F是$S((x_h)_{h \in H}) = 0$，其中H作为索引集合。
 
 #### 例 {#alg-iii-s2-n8-exa-1 .statement tag=05ZA}
 
-(1) 取$H = \{1, 2, 3\}$； 代数承认
+(1)取$H = \{1, 2, 3\}$； 代数承认
 $$
 (X_1 X_2) X_3 - X_1 (X_2 X_3)
 $$
-作为通用关系词的是联想词代数。承认$X_1 X_2 - X_2 X_1$为通用关系子的代数是交换代数。 *代数承认通用关系子 $X_1 X_1$ 和
+作为通用关系词的是联想词代数。承认$X_1 X_2 - X_2 X_1$为万能关系子的代数是交换代数。 *代数承认通用关系器 $X_1 X_1$ 并且
 $$
 (X_1 X_2) X_3 + (X_2 X_3) X_1 + (X_3 X_1) X_2
 $$
-因为通用关系器是李代数.*
+作为通用关系器是李代数.*
 
-让我集合；给定 Lib_A(H) 的元素的族 $(S_k)_{k \in K}$，并考虑形式 $S_k((U_h))_{h \in H}$ 的 Lib_A(I) 的元素的集合 T，其中 k 穿过 K，对于每个 k，$(U_h)_{h \in H}$ 穿过 的族的集合 Lib_A(I)的元素，以H为索引集合；考虑一个家庭 $(R_j)_{j \in J}$，其中 T 为集合或元素。然后设 F 为生成的系统 I 与$(R_j)_{j \in J}$相关的全称代数，并令$u : \mathrm{Lib}_A(I) \to F$为典范同态，这样对于所有$k \in K$和所有$(U_h)_{h \in H}$族，Ker(u)由元素$S_k((U_h)_{h \in H})$生成Lib_A(I) 的元素；显然，每个$S_k$（$k \in K$）都是F的*通用关系器*。现在让F'为代数，承认生成的系统$(x_i)_{i \in I}$，其中每个$S_k$都是一个通用关系器，并让$u' : \mathrm{Lib}_A(I) \to F'$为同态使得$u'(X_i) = x_i$对于所有$i \in I$；显然 Ker(u) $\subset$ Ker(u') ，因此 $u'$ 可以唯一地写成形式 $u' = h \circ u$，其中 $h : F \to F'$ 是同态，使得$h(\overline{X}_i) = x_i$ 对于所有$i \in I$。因此，F 被称为*通用代数，由生成的系统 I*、*相应的定义为通用关系器家族* $(S_k)_{k \in K}$。通过滥用语言，F 被有时称为由 I 生成的通用代数，并且服从于 F 的元素的每个家庭 $(u_h)_{h \in H}$ 的*身份* $S_k((u_h)) = 0$。
+令I为集合；给定 Lib_A(H) 的元素的族 $(S_k)_{k \in K}$，并考虑形式 $S_k((U_h))_{h \in H}$ 的 Lib_A(I) 的元素集合 T，其中 k 穿过 K，对于每个 k，$(U_h)_{h \in H}$ 穿过集合 Lib_A(I)的元素族，以H为索引集合；考虑一个家庭$(R_j)_{j \in J}$，其中T为集合或元素。然后设F为$(R_j)_{j \in J}$相关的生成的系统I定义的通用代数，并令$u : \mathrm{Lib}_A(I) \to F$为典范同态，这样Ker(u)由元素$S_k((U_h)_{h \in H})$为所有$k \in K$和所有家族生成Lib_A(I)元素$(U_h)_{h \in H}$；显然，每个$S_k$（$k \in K$）都是F的*通用关系器*。现在让F'为代数，承认生成的系统$(x_i)_{i \in I}$，其中每个$S_k$都是一个通用关系器，并让$u' : \mathrm{Lib}_A(I) \to F'$为同态使得$u'(X_i) = x_i$对于所有$i \in I$；显然 Ker(u) $\subset$ Ker(u') ，因此 $u'$ 可以唯一地写成形式 $u' = h \circ u$，其中 $h : F \to F'$ 是同态，使得 $h(\overline{X}_i) = x_i$ 对于所有 $i \in I$。因此，F 被称为*通用代数，由生成的系统 I*、*相应的定义为通用关系器* $(S_k)_{k \in K}$。通过滥用语言，F 被有时称为由 I 生成的通用代数，并服从于 F 的元素的每个家庭 $(u_h)_{h \in H}$ 的*身份* $S_k((u_h)) = 0$。
 
-*例* 2. 令L'为由I生成的全称代数，并服从L'的每一个三族元素的恒等式$(uv)w - u(vw) = 0$，并令L''为通过与L'邻接单位元获得的代数；那么 Libas_A(I) 上存在一个唯一的 L'' 同构 g ，使得对于所有 $i \in I$ 都有$g(\overline{X}_i) = X_i$。因为显然 L'' 是结合律，并且同态 g 的存在源自 L' 的定义和其前面的注；但显然 L'' 满足泛性质 (no. 7, 命题 7)，这表征了 Libas_A(I)，从而的结论。
+*例* 2. 设L'为I生成的通用代数，并服从于L'的每个三口之家元素的恒等式$(uv)w - u(vw) = 0$，并令L''为代数获得毗邻单位元至 L'；那么在 Libas_A(I) 上存在一个唯一的 L'' 同构 g，使得对于所有 $i \in I$ 都有 $g(\overline{X}_i) = X_i$。因为显然 L'' 是结合律，同态 g 的存在源自 L' 的定义和其前面的注；但显然L''满足泛性质（no. 7，命题7），这表征了Libas_A（I），从而结论。
 
-与上述类似的考虑可以应用于结合律代数（分别是交换结合律代数），同时考虑以下注。当上下文充分表明代数被认为是统一的代数时，通过滥用语言，元素$(x_i)_{i \in I}$的代数$F$的家族，使得子代数由$x_i$（$i \in I$）生成，并且单位元等于$F$，常称为$F$的生成的系统。然后令$F$是$A$上的统一结合律代数，并令$(x_i)_{i \in I}$是元素和$F$的族；由于no. 7、命题 7，存在唯一的单位同态$f : \mathrm{Libas}_A(I) \to F$，使得$f(X_i) = x_i$对于所有$i \in I$；如果$U \in \mathrm{Libas}_A(I)$，$f(U)$也称为$F$的元素，由$U$派生，用元素$x_i$代替不定式$X_i$，也用$U((x_i)_{i \in I})$表示。然后关系器、表示和通用关系器的概念立即转到联想代数；只需替换 $\mathrm{Lib}_A(I)$ 即可完成 $\mathrm{Libas}_A(I)$。 *通用单位结合律代数由生成的系统定义，由关系族相关*$(R_j)_{j \in J}$是由族$(R_j)$生成的双边理想对$\mathrm{Libas}_A(I)$的商代数。由生成的系统 $I$、相应的生成的全称单位结合律代数也有类似的定义。我们留给读者的任务是陈述相对于交换结合律代数的类似定义，并用$\mathrm{Libasc}_A(I)$替代$\mathrm{Libas}_A(I)$。
+与上述类似的考虑可以应用于结合律代数（分别是交换结合律代数），同时考虑以下注。当上下文充分表明代数被认为是统一的代数时，通过滥用语言，代数$F$的元素$(x_i)_{i \in I}$家族，使得子代数由$x_i$（$i \in I$）生成，并且单位元等于$F$，常称为$F$的生成的系统。然后令$F$是$A$上的统一结合律代数，并让$(x_i)_{i \in I}$是元素和$F$的族；凭借no. 7、命题 7，存在唯一的单位同态$f : \mathrm{Libas}_A(I) \to F$，使得$f(X_i) = x_i$对于所有$i \in I$；如果$U \in \mathrm{Libas}_A(I)$，$f(U)$也称为$F$的元素，由$U$派生，用元素$x_i$代替不定式$X_i$，也用$U((x_i)_{i \in I})$表示。然后关系器、表示和通用关系器的概念立即转到联想代数；只要替换$\mathrm{Lib}_A(I)$一直到$\mathrm{Libas}_A(I)$就足够了。 *由关系族相关的生成的系统 I 定义的通用单位结合律代数* $(R_j)_{j \in J}$ 是$(R_j)$ 族生成的双边理想对$\mathrm{Libas}_A(I)$ 的商代数。由生成的系统 $I$、相应的生成的全称单位结合律代数也有类似的定义。我们留给读者的任务是陈述相对于交换结合律代数的类似定义，并用$\mathrm{Libasc}_A(I)$替代$\mathrm{Libas}_A(I)$。
 
 #### 例 3 {#alg-iii-s2-n8-exa-3 .statement tag=05ZB}
 
@@ -644,26 +644,26 @@ $$
 
 对于每个*非零*多项式$u = \sum \alpha_\nu X^\nu$，$u$的*次数*（或*总计次数*）是多索引$\nu$的整数$|\nu|$的最大的，使得$\alpha_\nu \neq 0$。
 
-令$F$为单位结合$A$代数，并令$(x_i)_{i \in I}$为$F$的元素族，它们是*成对可置换*。由 $x_i$ 和单位元生成的 $F$ 的子代数 $F'$ 是可交换的 (§ 1, no. 7)，这使得我们可以定义用 $x_i$ 代替多项式 $u \in A[(X_i)_{i \in I}]$ 中的 $X_i$（尽管$F$不一定是可交换的）：$u((x_i)_{i \in I})$是$F'$的元素，因此$F$和$h: u \to u((x_i)_{i \in I})$是$A[(X_i)_{i \in I}]$到$F$的同态。 $h$的核的元素是$A[(X_i)_{i \in I}]$族$(x_i)$的关系因子，也称为$x_i$之间的*多项式关系因子*（系数在$A$）。 同态 $h$ 的像是子代数 $F'$，也用 $A[(x_i)_{i \in I}]$ 表示（即使$F$ 不可交换）；如果 $a$ 是 $x_i$ 之间的多项式关系器的理想，则存在正合序列个 $A$ 模
+令$F$为单位结合$A$代数，并令$(x_i)_{i \in I}$为$F$的元素族，它们是*成对可置换*。由 $x_i$ 和单位元生成的 $F$ 的子代数 $F'$ 是可交换的 (§ 1, no. 7)，这使得我们能够定义用 $x_i$ 代替多项式 $u \in A[(X_i)_{i \in I}]$ 中的 $X_i$（尽管$F$不一定是可交换的）：$u((x_i)_{i \in I})$是$F'$的元素，因此$F$和$h: u \to u((x_i)_{i \in I})$是$A[(X_i)_{i \in I}]$到$F$的同态。 $h$的核的元素是$A[(X_i)_{i \in I}]$族$(x_i)$的关系因子，也称为$x_i$之间的*多项式关系因子*（系数在$A$）。 同态 $h$ 的像是子代数 $F'$，也用 $A[(x_i)_{i \in I}]$ 表示（即使$F$ 不可交换）；如果 $a$ 是 $x_i$ 之间多项式关系器的理想，则有正合序列个 $A$ 模
 $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
 
 #### 命题 8 {#alg-iii-s2-prop-8 .statement tag=05ZC}
 
-*令$A[(X_i)_{i \in I}]$为$I$的多项式代数、$J$子集以及$K$$I$中$J$的补集。写$A' = A[(X_j)_{j \in J}]$并用$X'_k$ ($k \in K$)表示多项式代数 Libasc_{A'}(K) = A'[(X'_k)_{k \in K}]中的*不定式，则存在A'[(X'_k)_{k \in]唯一的环同构 K}] 到 A[(X_i)_{i \in I}] 上，其中重合具有 A' 上的恒等式，并且映射 X'_k 到 X_k 对于所有 k \in K。
+*令$A[(X_i)_{i \in I}]$为代数的多项式代数、$I$的$J$子集以及$K$$I$中$J$的补集。写 $A' = A[(X_j)_{j \in J}]$ 并用 $X'_k$ ($k \in K$) 表示多项式代数 Libasc_{A'}(K) = A'[(X'_k)_{k \in K}] 中的*不定式，则存在唯一的环同构 A'[(X'_k)_{k \in K}] 到 A[(X_i)_{i \in I}] 上，其中重合具有 A' 上的恒等式，并且映射 X'_k 到 X_k 对于所有 k \in K。
 
-显然，A[(X_i)_{i \in I}] 是由 X_k 对于 k \in K 生成的 A' 代数。另一方面，作为 X_k (k \in K) 与 A' 中系数之间的多项式关系器，可以唯一地写为 $\sum_v h_v((X_j)_{j \in J}) X^v$，其中 v 穿过 $\mathbf{N}^{(K)}$ 的有限子集，并且 h_v 是元素 A[(X_j)_{j \in J}]，h_v 必须是 X_j 与 A 中的系数之间的多项式关系器，因此都是零，从而证明命题。
+显然，A[(X_i)_{i \in I}] 是由 X_k 对于 k \in K 生成的 A' 代数。另一方面，作为 X_k (k \in K) 与 A' 中的系数之间的多项式关系器，可以唯一地写为 $\sum_v h_v((X_j)_{j \in J}) X^v$，其中 v 穿过 $\mathbf{N}^{(K)}$ 的有限子集，并且其中h_v 是 A[(X_j)_{j \in J}] 的元素，h_v 必须是 X_j 与 A 中的系数之间的多项式关系器，因此都是零，这证明了命题。
 
-命题 8 中描述的同构通常用于 A[(X_i)_{i \in I}] 的认同元素，其中多项式的系数为 A' = A[(X_j)_{j \in J}]。如果 u 是 A[(X_i)_{i \in I}] 的元素 $\neq 0$，则其总次数视为 A'[(X_k)_{k \in K}] 的元素，相对于指标 i \in K 的 X_i 也称为其次数。
+命题 8 中描述的同构通常用于 A[(X_i)_{i \in I}] 的认同元素，其中多项式的系数为 A' = A[(X_j)_{j \in J}]。如果 u 是 A[(X_i)_{i \in I}] 的元素 $\neq 0$，则其总计次数视为 A'[(X_k)_{k \in K}] 的元素，也称为其相对于指标的 X_i 的次数我\in K。
 
 #### 注 {#alg-iii-s2-n9-rem-1 .statement tag=05ZD}
 
-令 I 和 J 为两个集合且 (P_j)_{j \in J} 为 $\mathbf{Z}[(X_i)_{i \in I}]$ 的元素族；如果 Q 是 $\mathbf{Z}[(X_j)_{j \in J}]$ 的元素，使得 $Q((P_j)_{j \in J}) = 0$，则对于环 B 的成对可置换元素的每个族 $(b_i)_{i \in I}$，
+设I和J是两个集合，并且(P_j)_{j \in J}是$\mathbf{Z}[(X_i)_{i \in I}]$的元素族；如果 Q 是 $\mathbf{Z}[(X_j)_{j \in J}]$ 的元素，使得 $Q((P_j)_{j \in J}) = 0$，则对于环 B 的成对可置换元素的每个族 $(b_i)_{i \in I}$，
 $$
 Q((P_j((b_i)_{i \in I}))_{j \in J}) = 0.
 $$
-关系包含形式 $Q((P_j)_{j \in J}) = 0$ 有时称为多项式恒等式。 例
+关系包含形式 $Q((P_j)_{j \in J}) = 0$ 是有时称为多项式恒等式。对于例
 $$
 (X_1 + X_2)^2 - X_1^2 - X_2^2 - 2X_1X_2 = 0
 $$
@@ -683,32 +683,32 @@ P_3 = X_1^{n-1} + X_1^{n-2}X_2 + \cdots + X_2^{n-1}
 $$
 是多项式恒等式。
 
-### 10. 幺半群的总计代数
+### 10. 幺半群总数代数
 
-A 上幺半群 S 的代数（如 A-模）乘积 $A^S$ 由……组成有限支撑族$(\alpha_s)_{s \in S}$ 子模； 乘法在此代数由关系$(\alpha_s)(\beta_s) = (\gamma_s)$定义，其中，对于所有$s \in S$，
+A 上幺半群 S 的代数（如 A-模）是有限支撑族$(\alpha_s)_{s \in S}$ 的乘积 $A^S$ 由……组成子模； 乘法在此代数由关系$(\alpha_s)(\beta_s) = (\gamma_s)$定义，其中，对于所有$s \in S$，
 $$
 \gamma_s = \sum_{tu = s} \alpha_t \beta_u
 $$
 
-（cf.no. 6，公式（35））。 (38) 右侧的和是有意义的，因为$(\alpha_s)$ 和$(\beta_s)$ 是有限支撑的族，因此双族$(\alpha_t\beta_u)_{(t,u)\in S\times S}$ 也是如此。但是，当幺半群$S$满足以下条件时，(38)的右侧对于$A^S$的*任意*元素$(\alpha_s),\ \beta_s)$也有意义：
+（cf.no. 6，公式（35））。 (38) 右侧的和是有意义的，因为$(\alpha_s)$ 和$(\beta_s)$ 是有限支撑的族，因此双 $(\alpha_t\beta_u)_{(t,u)\in S\times S}$ 也是族。但是，当幺半群$S$满足以下条件时，(38)的右侧对于$A^S$的*任意*元素$(\alpha_s),\ \beta_s)$也有意义：
 
-(D) *对于所有* $s\in S$，*仅存在一个有限的数有序对* $(t,u)$ *在* $S\times S$ *使得* $tu=s$。
+(D) *对于所有* $s\in S$，*仅存在一个有限的数有序对* $(t,u)$ *在* $S\times S$ *这样* $tu=s$。
 
-假设$S$满足条件(D)；然后可以通过公式 (38) 在乘积 A-模 $A^S$ 上定义乘法律。这样在$A^S$上定义的乘法是A-双线性的，直接的；它也是*关联的*，因为对于 $A^S$ 中的 $\alpha,\beta,\gamma$，
+假设$S$满足条件(D)；然后可以通过公式 (38) 在乘积 A-模 $A^S$ 上定义乘法律。由此在$A^S$上定义的乘法是A-双线性的，即直接的；它也是*关联的*，因为对于 $A^S$ 中的 $\alpha,\beta,\gamma$，
 
 $$
 \sum_{uvw=t} \alpha_u\beta_v\gamma_w = \sum_{rw=t} \left( \left( \sum_{uv=r} \alpha_u\beta_v \right) \gamma_w \right) = \sum_{us=t} \left( \alpha_u \left( \sum_{vw=s} \beta_v\gamma_w \right) \right).
 $$
 
-乘法和 A-模结构在 $A^S$ 上，因此定义在 $A^S$ 上，是 A 上的统一*关联代数* 结构；我们可以说，集合$A^S$，加上这个结构，就是幺半群S在A上的*总代数*。
+乘法和 A-模结构在 $A^S$ 上，因此定义在 $A^S$ 上，是 A 上的统一*关联代数* 结构；我们可以说，集合$A^S$加上结构，就是幺半群S在A上的*总代数*。
 
-直接的，幺半群 S 在 A 上的 *代数* $A^{(S)}$（必要时也称为 S 的*受限代数*，以避免混淆）是 S 在 A 上的总代数* 的 *子代数*（当 S 有限时与后者相同）。 *通过滥用语言*，S 在 A 上的总代数中的每一个元素 $(\xi_s)_{s\in S}$ 也用与 S 的受限制代数的元素相同的记号 $\sum_{s\in S} \xi_s e_s$（甚至$\sum_{s\in S} \xi_s s$）表示；当然，这个记号对应中出现的求和符号没有代数运算，因为它一般是项$\neq 0$的*无穷大*。有了这个记号，S的总代数中的乘法也由no. 6的公式(35)给出。
+直接的，幺半群 S 在 A 上的 *代数* $A^{(S)}$（必要时也称为 S 的*受限代数*）是 S 在 A 上的总代数* 的 *子代数*（当 S 有限时与后者相同）。 *通过滥用语言*，S 在 A 上的总代数中的每一个元素 $(\xi_s)_{s\in S}$ 也用与 S 的受限制的代数的元素相同的记号 $\sum_{s\in S} \xi_s e_s$（甚至$\sum_{s\in S} \xi_s s$）表示；当然，这个记号对应中出现的求和符号没有代数运算，因为它一般是项$\neq 0$的*无穷大*。有了这个记号，S的总代数中的乘法也由no. 6的公式(35)给出。
 
-如果 S 是可交换的，那么它的总代数 $A^S$ 也是可交换的。如果 T 是 S 的子幺半群，则幺半群的总代数 $A^T$ 规范地与 S 的总代数中的子代数一致。如果 $\rho : A \to B$ 是环同态，则规范化扩张$\rho^S : A^S \to B^S$是A上S的总代数到B上S的总代数的A同态，其中扩展典范同态$A^{(S)} \to B^{(S)}$。
+如果 S 是可交换的，那么它的总代数 $A^S$ 也是可交换的。如果 T 是 S 的子幺半群，则幺半群的总代数 $A^T$ 被规范地识别为 S 的总代数中的子代数。如果 $\rho : A \to B$ 是环同态，则规范化扩张$\rho^S : A^S \to B^S$是A上S的总代数到B上S的总代数的A同态，其中扩展典范同态$A^{(S)} \to B^{(S)}$。
 
 ### 11. 正式幂级数超过交换环
 
-对于每个集合 I，加法幺半群$N^{(I)}$满足no. 10的条件 (D)；因为，如果 $s = (n_i)_{i\in I}$ 与 $n_i = 0$ 除了 I 的有限子集 H 中的指标 $i$，则关系 $s = t + u$ 与 $t = (p_i)_{i\in I}$ 和 $u = (q_i)_{i\in I}$ 等价于所有的 $p_i + q_i = n_i$ $i$；但这意味着 $i \notin H$ 为 $p_i = q_i = 0$，$p_i \leq n_i, q_i \leq n_i$ 为 $i \in H$；因此，$N^{(I)}$中有$\prod_{i\in H} (n_i + 1)$有序对$(t, u)$，使得$t + u = s$。
+对于每个集合 I，加法幺半群$N^{(I)}$满足条件 (D) of no. 10；例如，如果 I 的有限子集 H 中的 $s = (n_i)_{i\in I}$ 与 $n_i = 0$ 除指标 $i$ 之外，关系 $s = t + u$ 与 $t = (p_i)_{i\in I}$ 和 $u = (q_i)_{i\in I}$ 等价于 $p_i + q_i = n_i$对于所有$i$；但这意味着 $i \notin H$ 为 $p_i = q_i = 0$，$p_i \leq n_i, q_i \leq n_i$ 为 $i \in H$；因此，$N^{(I)}$中有$\prod_{i\in H} (n_i + 1)$有序对$(t, u)$，使得$t + u = s$。
 
 因此，我们可以考虑幺半群$\mathbf{N}^{(I)}$超过$A$的总代数，其中包含是该幺半群的（受限）代数$A[\mathbf{X}_i]_{i \in I}$。它是不定式$X_i \ (i \in I)$中形式幂级数的单位交换结合律代数，称为代数，系数在$A$中，并用$A[[\mathbf{X}_i]]_{i \in I}$表示；它的元素在不定式$X_i \ (i \in I)$中称为形式幂级数，系数为$A$。按照no. 10中制定的惯例，这样的元素$(\alpha_v)_{v \in \mathbf{N}^{(I)}}$也表示为$\sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$； $\alpha_v$是形式幂级数的系数，$\alpha_v X^v$是项的系数；因此，$X_i$ 中的多项式是形式的幂级数，只有有限的数项 $\neq 0$。
 
@@ -736,7 +736,7 @@ $$
 
 注 0 的阶 *未定义*。 By an abuse of language, it is a convention to say that "f is a formal power series of order $\geq p$ (resp. $> p$)" if the homogeneous part of f of degree n is zero for all $n < p$ (resp. $n \leq p$); 0 is therefore a "formal power series of order $> p$" for *every* integer $p \geq 0$.
 
-令 J 为 I 的子集，并令 $A[[X_i]]_{i \in I}$ 与上面的 $B[[X_k]]_{k \in K}$ 相同，其中 $K = I - J$ 和 $B = A[[X_j]]_{j \in J}$； 相应的对上述定义适用于$B[[X_k]]_{k \in K}$，正式幂级数$u \in A[[X_i]]_{i \in I}$新增了定义； 项$\alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$据说是指标的$X_i$中的次数p的*$i \in K$如果$\sum_{i \in K} n_i = p$和$B[[X_k]]_{k \in K}$的正式幂级数与相同的项次数$p$与$u$一样，其他零*被称为指标*$i \in K$的$X_i$中次数p的齐次部分。 如果$u \neq 0$，则指标$i \in K$相对于$X_i$的*阶*$\omega_K(u)$是整数$p \geq 0$的最小的，使得$u$的齐次部分为指标$i \in K$的$X_i$中的次数$p$是$\neq 0$。 当 $\omega$ 被 $\omega_K$ 替代时，不等式 (40) 和 (41) 仍然成立。
+令J为I的子集，并让$A[[X_i]]_{i \in I}$如上与$B[[X_k]]_{k \in K}$相同，其中$K = I - J$和$B = A[[X_j]]_{j \in J}$； 相应的对上述定义适用于$B[[X_k]]_{k \in K}$，新增定义用于正式幂级数$u \in A[[X_i]]_{i \in I}$； 项$\alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$据说是指标的$X_i$*$i \in K$中的*次数p如果$\sum_{i \in K} n_i = p$和$B[[X_k]]_{k \in K}$的正式幂级数与相同的项次数$p$与$u$一样，其他零*被称为指标*$i \in K$的$X_i$中次数p的齐次部分。如果$u \neq 0$，则指标$i \in K$相对于$X_i$的*阶*$\omega_K(u)$是整数$p \geq 0$的最小的，使得$u$的齐次部分为指标 $i \in K$ 的$X_i$ 中的次数 $p$ 是$\neq 0$。当 $\omega$ 被 $\omega_K$ 替代时，不等式 (40) 和 (41) 仍然成立。
 
 ### 习题{#alg-iii-s2-exercises}
 

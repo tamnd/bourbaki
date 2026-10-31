@@ -27,16 +27,16 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 58178019c23b2befa68bd1072bde3844f932055a0109105f010bd48600c9e2dc
+content_sha256: 22be02c5aa24afa3059ceb7b683120183bd1d85130025b7a82a14a540fb807b1
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
 translation_method: google
 source_content_sha256: ae041bbfaebb6710b823bdc0661c24a1124357966f753025f28bd48ab4086bed
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 65ebb810754dfe8d364f1a127adf81fe4c983ce534544a341df92de26cc39b55
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 附录
@@ -250,6 +250,6 @@ $$
 e'_\mu e'_\lambda = -e'_\lambda e'_\mu \quad \text{for } \lambda \neq 0, \mu \neq 0 \text{ and } \mu \neq \lambda.
 $$
 
-### 习题{#alg-iii-a0-exercises}
+### 习题 {#alg-iii-a0-exercises}
 
 请参阅[习题附录 0](exercises/a0/)。

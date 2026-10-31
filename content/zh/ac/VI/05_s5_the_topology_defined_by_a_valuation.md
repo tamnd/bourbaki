@@ -25,23 +25,23 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 10
-content_sha256: 1222353c4fbafa89cfeaa45230181946b23b914be91d8ff10ac050902b7e6423
+content_sha256: 64a81ae1399a35cc6a9725ed49ad4adae80cfd5a771741f2589c28062457f4ab
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
 translation_method: google
 source_content_sha256: f97824efc1e49c2f3f557cc487ce4e195405a030102d3750617c5a288f2ba3cd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 7c40e68f02edba739b3e87d1171f5b45057179dc99cb40c1b33ee1ba37acc422
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 5. 由估值定义的拓扑
 
-### 1. 由估值定义的拓扑
+### 1. 拓扑由估值定义
 
-令 K 不一定为交换域，v 为 K 和 G 的全序群 $v(K^*)$ 的估值。对于所有$a \in G$，令V为$x \in K$的集合，使得$v(x) > a$；这个集合是K（§ 3, no. 1）的添加剂子群。 K 上存在唯一的拓扑 $\mathscr{T}_v$，其中 V、形式邻域的基本系统为 0（*一般拓扑*、章 III, § 1, no. 2、例）。要使 v 不恰当，$\mathscr{T}_v$ 是离散的拓扑是充分必要的。
+令 K 不一定为交换域，v 为 K 和 G 的全序群 $v(K^*)$ 的估值。对于所有$a \in G$，令V为$x \in K$的集合，使得$v(x) > a$；这个集合是K（§ 3, no. 1）的添加剂子群。 K 上存在唯一的拓扑 $\mathscr{T}_v$，其中V、形式邻域的基本系统为 0（*一般拓扑*、章 III, § 1, no. 2、例）。要使 v 不恰当，$\mathscr{T}_v$ 是离散的拓扑是充分必要的。
 
 #### 引理 1 {#ac-vi-s5-lem-1 .statement tag=04UQ}
 
@@ -66,15 +66,15 @@ $$
 
 设$x \in K^*$和$a = v(x)$；然后$x \notin V_a$表明$\mathscr{T}_v$是Hausdorff。对于所有$x_0 \in K$和$a \in G$，存在$\beta \in G$使得$x_0 V_\beta \subset V_\alpha$和$V_\beta x_0 \subset V$，（取$\beta \geqslant a - v(x_0)$就足够了）。另一方面，如果$a \geqslant 0$，则$V_\alpha V_\alpha \subset V_v$。满足*通用拓扑*、章III, § 6, no. 3的公理(AV_I)和(AV_{II})，$\mathscr{T}_v$与$K$上的环结构兼容。让$x_0 \in K^*$；如果$x \in K^*$满足$v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$，则$v(x^{-1} - x_0^{-1}) > a$（引理1），这表明$x \mapsto x^{-1}$是连续的，因此$\mathscr{T}_v$与$K$上的域结构兼容。最后，单个条件$v(x - x_0) > v(x_0)$意味着$v(x) = v(x_0)$（$§ 3$，no. 1，命题1），因此如果$G$被赋予离散的拓扑，则映射$v : K^* \to G$是连续的。
 
-令$\alpha \in G$和$V'_\alpha$为$x \in K$的集合，使得$v(x) \geq \alpha$。如果$\beta < a$，则$V_\beta \supset V'_\alpha \supset V_v$。如果$v$不是不恰当的，那么可以看出，$V'_\alpha$形式对于$\mathscr{T}_v$来说邻域的基本系统为0。
+令$\alpha \in G$和$V'_\alpha$为$x \in K$的集合，使得$v(x) \geq \alpha$。如果$\beta < a$，则$V_\beta \supset V'_\alpha \supset V_v$。如果$v$不是不恰当的，那么可以看出，对于$\mathscr{T}_v$来说，$V'_\alpha$形式是邻域的基本系统为0。
 
 $V_v$和$V'_\alpha$是开加法子群，因此在$K$中是封闭的，因此拓扑域$K$是*完全断开的*。由于$v$包含和$V_v$的环的每个非零理想，它在$K$中是“开和闭”。因此，$v$ 与剩余类域的商拓扑是*离散*。
 
-令 $A$ 为 $u$ 的环。如果$v$是离散的，$§ 3$、no. 6的命题 8表明$\mathscr{T}_v$在$A$上诱导拓扑是$m(A)$进数拓扑。一般来说情况并非如此（习题4）。
+设$A$为$u$的环。如果$v$是离散的，$§ 3$、no. 6的命题 8表明$\mathscr{T}_v$在$A$上诱导拓扑是$m(A)$-adic拓扑。一般来说情况并非如此（习题4）。
 
 #### 命题 2 {#ac-vi-s5-prop-2 .statement tag=04US}
 
-*设$K$不一定是交换域，$v$是$v$的$K$，$A$环的非不当估值，$m$是$v$的理想值。为了使$K$和拓扑$\mathscr{T}_v$局部紧致，满足以下条件是必要且充分的：*
+*令$K$不一定为交换域，$v$为$v$的$K$、$A$环的非不当估值，$m$为$v$的理想值。为了使$K$和拓扑$\mathscr{T}_v$局部紧致，满足以下条件是必要且充分的：*
 
 (i) $K$ 已完成；
 (ii) $v$ 是离散的；
@@ -82,7 +82,7 @@ $V_v$和$V'_\alpha$是开加法子群，因此在$K$中是封闭的，因此拓�
 
 *如果是这样*，$A$ 是紧致的。
 
-假设 $K$ 是局部紧致的。那么就完成了（*一般拓扑*、章111、$§ 3$、no. 3、推论1到命题4）；进一步存在0的紧邻域，其中包含邻域$V'_a$，其中$v$的$a$属于到值群；在其他字中，$K^*$中存在$a \neq 0$，使得$A . a$是紧的，因此$A = (A . a)a^{-1}$是紧的。由于$A$的每个理想$b \neq (0)$都是开放的，$A/b$是紧凑且离散的（*一般拓扑*、章 III、$§ 2$、no. 5、命题 14），因此是有限的，特别是$\kappa(A) = A/m$是有限的。此外，对于$m$中的$y \neq 0$，环$A/Ay$是有限的，只有有限的数理想$A$包含$Ay$和集合$P$ 元素形式 $v(x)$ 使得
+假设 $K$ 是局部紧致的。那么就完成了（*一般拓扑*、章111、$§ 3$、no. 3、推论1到命题4）；进一步存在0的紧邻域，其中包含邻域$V'_a$，其中$v$的$a$属于到值群；在其他字中，$K^*$中存在$a \neq 0$，使得$A . a$是紧的，因此$A = (A . a)a^{-1}$是紧的。由于$A$的每个理想$b \neq (0)$都是开放的，$A/b$是紧凑和离散的（*一般拓扑*，章III，$§ 2$，no. 5，命题14），因此是有限的，特别是$\kappa(A) = A/m$ 是有限的。此外，对于$m$中的$y \neq 0$，环$A/Ay$是有限的，只有有限的数理想$A$包含$Ay$和集合$P$ 元素形式 $v(x)$ 这样
 
 $$
 0 < v(x) \leq v(y)

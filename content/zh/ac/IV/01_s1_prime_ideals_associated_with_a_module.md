@@ -29,16 +29,16 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: 0ef4bb35b07bf816c97e8ef49716ada18e4ec11ff94c669a78adfb256ccfc8fb
+content_sha256: adc0381ee4c2fa61d22dbcdd510f5d1b490f1125b1e15b7156e0621cc631fa99
 translated_from: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
 translation_method: google
 source_content_sha256: 41bc8b6bc73ee003f10c2b0789585e99cc74ba8b5cfcd5f713cf440dd2d53406
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 77fc82be215326fff5611639833d566f6d91ee56d1bdb276fcfbbe2dd487a39f
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 1. 与模相关的素理想
@@ -49,11 +49,11 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 令 M 为模大于环 A。如果存在 x ∈ M 使得 p 等于湮没子 & x，则称素理想 p 与 M 相关。与 M 相关的素理想的集合表示为 Ass_A(M)，或简称为 Ass(M)。
 
-\* 例。令 a 为多项式环 A = \mathbf{C}[X_1, ..., X_n], V 相应的仿射代数簇中的理想，V_1, ..., V_p 为 V 的不可约分量。如果 M 取为环 A/a of 函数，其在 V 上是正则的，则素理想的集合与M 由 V_1、...、V_p 的理想和一般其他素理想组成，其中每个包含 V_i 的理想之一。 \*
+\* 例。令 a 为多项式环 A = \mathbf{C}[X_1, ..., X_n], V 相应的仿射代数簇中的理想，V_1, ..., V_p 为 V 的不可约分量。如果M被取为函数的环A/a，其在V上是正则的，则与M相关的素理想集合由V_1，...，V_p的理想和一般其他素理想组成，其中每个包含V_i的理想之一。 \*
 
 由于 0 的湮没子是 A，元素 x ∈ M，其湮没子是素理想，则必然 ≠ 0。 说一个素思想 p 与 M 相关联
 
-(*) 本章的结果仅取决于本书的第I至VI和章I至III，不包括章I, § 4和章III, § 5。
+(*) 本章的结果仅取决于本书I至VI和章I至III，不包括章I, § 4和章III, § 5。
 
 amounts to saying that $M$ contains a submodule *isomorphic to* $A/p$ (namely $Ax$, for all $x \in M$ whose annihilator is $p$).
 

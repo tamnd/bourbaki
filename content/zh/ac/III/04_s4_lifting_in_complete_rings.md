@@ -37,16 +37,16 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 581192aea4704f3939630a3e3788c20a1fc1f1efa3e9cec46da9afc233dd486a
+content_sha256: f6aac2b6db7e526e665db0802f133afff49c34441a0691a0ef4182f989c19b6e
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
 translation_method: google
 source_content_sha256: e207aa232d5bd052ada28a852533dc7566c32021e210764a8b52a3fbf49d5170
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 19412e545b046dd1099c0c367d1a8e0a0d32097abd53ad1a6670080a9f32c86a
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 4. 完整提升环
@@ -126,7 +126,7 @@ $$
 
 并且，如果$P(a) = b^{-1}$，其中$b \in \mathbf{A}$，我们推论出$1 = bP - b(X - a)R$，这表明P和$X - a$是强互质的。
 
-令$\mathbf{A}$和$\mathbf{B}$为两个交换环和$f : \mathbf{A} \to \mathbf{B}$环同态。如果$P = \sum_{i \geq 0} a_i X^i$是$\mathbf{A}[[X]]$中的形式幂级数，则令$\bar{f}(P)$表示$\mathbf{B}[[X]]$中的形式幂级数$\sum_{i \geq 0} f(a_i) X^i$。如果 P 是多项式，则 $\bar{f}(P)$ 也是多项式，如果进一步 P 是多项式，则 $\bar{f}(P)$ 是与 P 相同的次数的多项式。最后，$P \mapsto \bar{f}(P)$ 显然是 $\mathbf{A}[[X]]$ 到 $\mathbf{B}[[X]]$ 的同态，其中扩展 $f$和映射 X 到 X。 *记号将在本段的其余部分中不断使用这种意义。*
+令$\mathbf{A}$和$\mathbf{B}$是两个交换环和$f : \mathbf{A} \to \mathbf{B}$环同态。如果$P = \sum_{i \geq 0} a_i X^i$是$\mathbf{A}[[X]]$中的形式幂级数，则令$\bar{f}(P)$表示$\mathbf{B}[[X]]$中的形式幂级数$\sum_{i \geq 0} f(a_i) X^i$。如果 P 是多项式，则 $\bar{f}(P)$ 也是，如果进一步 P 是多项式，则 $\bar{f}(P)$ 是与 P 相同的次数的多项式。最后，$P \mapsto \bar{f}(P)$ 显然是 $\mathbf{A}[[X]]$ 到 $\mathbf{B}[[X]]$ 的同态，其中扩展 $f$以及映射 X 至 X。 *记号将在本段的其余部分中不断地使用这种意义。*
 
 #### 命题 2 {#ac-iii-s4-prop-2 .statement tag=04HV}
 
@@ -273,7 +273,7 @@ $$
 
 证明分为四步。在前三个中，我们假设 $A$ 是离散的，在这种情况下 $R$ 和 $\overline{Q}$ 是多项式。
 
-（一）$m^2 = 0$
+(I)$m^2 = 0$
 令 $S, T$ 为 $A[X]$ 的两个多项式，使得 $S$ 为单调且$\bar{\varphi}(S) = \overline{P}$、$\bar{\varphi}(T) = \overline{Q}$； no. 1的命题2表明$S$和$T$强互质；因此 (no. 1, 命题 1) 存在$A[X]$多项式$(S', T')$的唯一有序对，使得
 (5)
 $$
@@ -418,7 +418,7 @@ $$
 
 如果$A$本身是线性拓扑的，$\tilde{u}$的限制到$A\{X_1, \ldots, X_r\}$重合，其中同态源自no. 2的命题4中的$u$。 这直接源于以下事实：如果给定环拓扑，且邻域的基数系统为 0，则理想$m^k \cap N_3$（在 no. 2 的记号中，该拓扑是最小的，则$A[X_1, \ldots, X_r]$ 在 $A\{X_1, \ldots, X_r\}$ 中是稠密的） $A\{X_1, \ldots, X_r\}$ 上的上界或拓扑由$A[[X_1, \ldots, X_n]]$ 和拓扑上定义的 m 进数拓扑在no. 2 中定义）。
 
-如果$B = A$和$u$是恒等映射，则对于每个正式的幂级数$f \in A[[X_1, \ldots, X_r]]$，我们都将元素$\tilde{u}(f)$写为$f(x_1, \ldots, x_r)$或$f(x)$；对于$A[[X_1, \ldots, X_r]]$的形式幂级数的每一个系统$\mathbf{f} = (f_1, \ldots, f_r)$，令$\mathbf{f}(x)$表示$A^r$的元素$(f_1(x), \ldots, f_r(x))$，则据说是通过用$x_i$代替来获得$X_i$在$\mathbf{f}$。如果$n \leq m$且F是$A[[X_1, \ldots, X_m]]$的形式幂级数，则可以将F视为$X_{n+1}, \ldots, X_m$中的形式幂级数，系数在$A[[X_1, \ldots, X_n]]$中；让
+如果$B = A$和$u$是恒等映射，则对于每个正式的幂级数$f \in A[[X_1, \ldots, X_r]]$，我们将元素$\tilde{u}(f)$写为$f(x_1, \ldots, x_r)$或$f(x)$；对于$A[[X_1, \ldots, X_r]]$的形式幂级数的每一个系统$\mathbf{f} = (f_1, \ldots, f_r)$，令$\mathbf{f}(x)$表示$A^r$的元素$(f_1(x), \ldots, f_r(x))$，则据说是通过用$x_i$代替来获得$X_i$在$\mathbf{f}$。如果$n \leq m$且F是$A[[X_1, \ldots, X_m]]$的形式幂级数，则可以将F视为$X_{n+1}, \ldots, X_m$中的形式幂级数，系数在$A[[X_1, \ldots, X_n]]$中；让
 
 $$
 F(x_1, \ldots, x_n, X_{n+1}, \ldots, X_m)
@@ -426,7 +426,7 @@ $$
 
 表示将F系数中的$x_i$替换为$X_i$而得到的$A[[X_{n+1}, \ldots, X_m]]$中的形式幂级数，替代$1 \leq i \leq n$。
 
-让我们取$B$为形式幂级数$A[[X_1, \ldots, X_r]]$的环，并让$n$为$B$中级数的理想，没有常数项，因此$(B, n)$满足Hensel 的条件（$§ 2$，no. 6，命题 6 的推论）。 命题 6 可以通过将$x_i \in B$取为级数而无需常数项来应用；那么，对于每个级数 $\mathbf{f} \in A[[X_1, \ldots, X_r]]$，$\tilde{u}(f)$ 只是在代数、章 IV、$§ 5$、no. 5 中定义的正式幂级数 $f(x_1, \ldots, x_n)$。如果 $f$ 是多项式，并且在一般情况下从命题得出，通过指出 $f \mapsto f(x_1, \ldots, x_n)$ 相对于 m 进数拓扑在 $A[[X_1, \ldots, X_n]]$ 上连续，这一点是显而易见的。
+让我们取$B$为形式幂级数$A[[X_1, \ldots, X_r]]$的环，并让$n$为$B$中级数的理想，没有常数项，因此$(B, n)$满足Hensel 的条件（$§ 2$，no. 6，命题 6 的推论）。 命题 6 可以通过将$x_i \in B$取为级数而无需常数项来应用；那么，对于每个级数$\mathbf{f} \in A[[X_1, \ldots, X_r]]$，$\tilde{u}(f)$只是在代数，章IV，$§ 5$，no. 5中定义的正式幂级数$f(x_1, \ldots, x_n)$。如果 $f$ 是多项式，并且在一般情况下从命题得出，通过指出 $f \mapsto f(x_1, \ldots, x_n)$ 相对于 m 进数拓扑在 $A[[X_1, \ldots, X_n]]$ 上连续，这是显而易见的。
 
 #### 推论{#ac-iii-s4-n5-cor-1 .statement tag=04I5}
 
@@ -442,7 +442,7 @@ $$
 A[[X_1, \ldots, X_q]] \quad \text{and} \quad A[[X_1, \ldots, X_n]]
 $$
 
-分别，显然关系$f \in {m'}^k$意味着$f(g_1, \ldots, g_q) \in {m'}^k$。因此，如果根据上述注和命题6，给$A[[X_1, \ldots, X_q]]$赋予$m$-进数拓扑，则（18）的两侧是$f$到$(A[[X_1, \ldots, X_q]])^p$连续的函数； 从而关系 (18)。
+分别，显然关系$f \in {m'}^k$意味着$f(g_1, \ldots, g_q) \in {m'}^k$。因此，如果根据上述注和命题 6 给 $A[[X_1, \ldots, X_q]]$ $m$-adic 拓扑，则 (18) 的两侧是 $f$ 到 $(A[[X_1, \ldots, X_q]])^p$ 的连续函数； 从而关系 (18)。
 
 接下来，对于环$A$和$A$的理想$m$，我们将在$A^n$中用$m^{x^n}$乘积集合$\prod_{i=1}^n m$表示，其中$m_i = m$代表$1 \leq i \leq n$，以避免歧义。
 

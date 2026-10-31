@@ -33,16 +33,16 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 4cd77c21e1ed1ad0b94cc03eca30299b49cdeb8b78d0c9f49e54147318c97b17
+content_sha256: edea06520931b2926e8ffb8e041c60a172ee07bfd955a0542bcee774f4b0dcde
 translated_from: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
 translation_method: google
 source_content_sha256: c4cced628ead73d8a7f7dea6021c8771973779a0bf6c280142bacc5c87e4b329
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 6f0b717ac2d38e6e7c34fcb2c208eac3996a0ddb4ca09b2881165c78436cac43
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 4. 估值的高度
@@ -193,7 +193,7 @@ h(G) = h(H) + h(H')
 $$
 （cf.no. 2，例2）；因此字典顺序乘积 $\mathbf{Z} \times \mathbf{Z}$ 的高度为 2。
 
-另一方面，通过嵌入到$\mathbf{R}$（cf.§ 3, no. 4，例6的末尾）排序的$\mathbf{Z} \times \mathbf{Z}$的高度等于1（下面的cf.命题8）。
+另一方面，通过嵌入$\mathbf{R}$（cf.§ 3, no. 4，例6的末尾）排序的$\mathbf{Z} \times \mathbf{Z}$的高度等于1（下面的cf.命题8）。
 
 #### 定义 3 {#ac-vi-s4-def-3 .statement tag=04U8}
 
@@ -209,16 +209,16 @@ $$
 
 #### 命题 6 {#ac-vi-s4-prop-6 .statement tag=04UA}
 
-*设$\mathbf{K}$为域，且$A$为$\mathbf{K}$的子环。假设$A$不是域。那么下面的条件是等价的：*
+*令$\mathbf{K}$为域且$A$为$\mathbf{K}$的子环。假设$A$不是域。那么下面的条件是等价的：*
 (a) $A$ 是$\mathbf{K}$ 上高度 1 的估值的环；
 (b) $A$是$\mathbf{K}$的估值环，除了$(O)$和$m(A)$之外没有其他素理想；
 (c) $A$是与$\mathbf{K}$不同的$\mathbf{K}$的子环中最大的。
 
-no. 4的命题 5表明(a)蕴涵(b)，而no. 1的命题 1表明(b)蕴涵(c)。仍有待证明 (c) 蕴涵 (a)。假设 A 是不同于 K 的 K 的子环中最大。设 m 是 A 和 V 的最大理想，K 支配 A_m 的估值环（§ 1, no. 2，定理 2 的推论）；因为 m(V) ∩ A = m 且 m ≠ (0)（因为 A 不是域），V ≠ K，从而 V = A，这证明 A 不是 K 上 v 的环。因此，v 的高度为 1 × 命题 1 (no. 1) 和 5 （no. 4）。
+no. 4中的命题5表明(a)蕴涵(b)，而no. 1中的命题1表明(b)蕴涵(c)。仍有待证明 (c) 蕴涵 (a)。假设 A 是不同于 K 的 K 的子环中最大。设 m 是 A 的最大理想，V 是 K 支配 A_m 的评估环（§ 1, no. 2，定理 2 的推论）；因为 m(V) ∩ A = m 且 m ≠ (0)（因为 A 不是域），V ≠ K，从而 V = A，这证明 A 不是 K 上 v 的估值的环。因此，v 的高度为 1 命题 1 (no. 1) 和 5 (no. 4)。
 
 #### 命题 7 {#ac-vi-s4-prop-7 .statement tag=04UB}
 
-为了使域的估值高度为1，其阶群同构于\mathbf{R}的非零有序子群是必要且充分的。
+对于域的估值高度为1，其阶群同构于\mathbf{R}的非零有序子群是必要且充分的。
 
 这实际上是从以下命题得出的：
 
@@ -231,7 +231,7 @@ no. 4的命题 5表明(a)蕴涵(b)，而no. 1的命题 1表明(b)蕴涵(c)。仍
 
 设 x 为 G 的正元素，并令 H 为 y ∈ G 的集合，使得存在整数 n ≥ 0 满足 |y| ≤ nx。很容易验证 H, 是 G 的孤立子群，并且 G 包含于 x 包含于 H, 的每个孤立子群。因此，条件 (a) 等价于“H, = G for all x > 0”，即条件 (b)。
 
-显然（c）意味着（b）。相反，假设条件(b)成立，并让Q表示G的元素>0的集合。首先假设Q有至少元素x；对于所有 y ∈ Q，令 n 为最小整数，使得 y ≤ nx；如果 y < nx，则 nx − y ≥ x，从而 y ≤ (n − 1)x 与 n 的选择相反；则 y = nx，这表明 G = \mathbf{Z}x 与 \mathbf{Z} ⊂ \mathbf{R} 同构的。现在假设 Q 至少有元素；我们应用于一般拓扑、章V, § 2的有序集合 P = Q ∪ (0) 命题 1 （这是可能的，因为条件 (b) 只是“阿基米德公理”）；可见 P 到 \mathbf{R}_+ 存在严格递增的映射 f 使得
+显然（c）意味着（b）。相反，假设条件 (b) 成立，并让 Q 表示 G 的元素 >0 的集合。首先假设 Q 具有至少元素 x；对于所有 y ∈ Q，令 n 为最小整数，使得 y ≤ nx；如果 y < nx，则 nx − y ≥ x，从而 y ≤ (n − 1)x，与 n 的选择相反；则 y = nx，这表明 G = \mathbf{Z}x 与 \mathbf{Z} ⊂ \mathbf{R} 同构的。现在假设 Q 至少有元素；我们应用到一般拓扑、章V, § 2的有序集合 P = Q ∪ (0) 命题 1 （这是可能的，因为条件 (b) 只是“阿基米德公理”）；可见 P 到 \mathbf{R}_+ 存在严格递增的映射 f 使得
 
 $$
 f(x + y) = f(x) + f(y)
@@ -241,7 +241,7 @@ $$
 
 #### 命题 9 {#ac-vi-s4-prop-9 .statement tag=04UD}
 
-设 K 为域，v 为 K 的非不当估值，v 的 A 环。要使 A 完全积分闭（章 V, § 1, no. 4，定义 5），v 的高度为 1 是充分必要的。
+令 K 为域，v 为 K 的非不当估值，v 的 A 环。为了使 A 完全积分闭合（章 V, § 1, no. 4，定义 5），v 的高度为 1 是充分必要的。
 
 假设 v 的高度为 1。令 x ∈ K 使得 x^n (n ≥ 0) 全部包含在 K 的有限生成的子 A 模块中。存在 d ∈ A − {0}，使得 dx^n ∈ A 对于所有 n ≥ 0。然后 v(d) + nv(x) ≥ 0，即对于所有 $n \geqslant 0$，n(−v(x)) ≤ v(d)， 从而$-v(x) \leqslant 0$（命题8（b））和$x \in A$。因此 A 是全闭的。
 
@@ -249,7 +249,7 @@ $$
 
 #### 推论{#ac-vi-s4-n5-cor-1 .statement tag=04UE}
 
-*设K为域，$(v_\alpha)_{\alpha \in I}$K上高度为1的估值族，以及v的环的A交。*则A是一个完全积分闭域。
+*设K为域，$(v_\alpha)_{\alpha \in I}$K上高度1的估值族，以及v的环的A交。*则A是一个完全积分闭域。
 
 完全积分闭域并不总是高度 1 (习题 6) 的估值环的交。
 

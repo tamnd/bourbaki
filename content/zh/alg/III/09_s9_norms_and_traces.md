@@ -34,16 +34,16 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: 4074dd703287061157ff204e9bfae0c05cb78b68b5c8c6f9ddd9e86f244feb60
+content_sha256: 9f9b765cbd620b401676d3dd596b64bbe0f0e2df6a9d063724cad8526d9c0711
 translated_from: content/en/alg/III/09_s9_norms_and_traces.md
 translation_method: google
 source_content_sha256: 35d7c75abeb9436ab650b86c4903e3125e8d6a5b2a7afd81b6be25b654009b6d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 02295e618b36bcdfdf21c33a01a5ff9185815fd1ce92289702e2a0da31fa923e
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 9。 范数和痕迹
@@ -301,7 +301,7 @@ $$
 \text{(25)} \quad X_{ji} D^{ki}(X_{11}, \ldots, X_{nn}) = \delta_{jk} D(X_{11}, \ldots, X_{nn})
 $$
 
-（§ 8, no. 6，公式（28））。我们写 $N'_{ij} = D^{ij}(N_{11}, \ldots, N_{nn})$，即阶 $m$ 与 $\mathbf{A}[Z]$ 的平方矩阵，并考虑乘积 $N . U$，其中
+（§ 8, no. 6，公式（28））。我们写 $N'_{ij} = D^{ij}(N_{11}, \ldots, N_{nn})$，即阶 $m$ 与 $\mathbf{A}[Z]$ 的平方矩阵并考虑乘积 $N . U$，其中
 
 $$
 U = \begin{pmatrix}
@@ -320,7 +320,7 @@ N_{n1} & N_{n2} & \cdots & N_{nn}
 \end{pmatrix}
 $$
 
-在块 (II, § 10, no. 5) 中执行乘积并使用公式 (25)，我们得到
+在块（II, § 10, no. 5）中执行乘积并使用公式（25），我们得到
 
 $$
 N . U = \begin{pmatrix}
@@ -341,13 +341,13 @@ N_{n2} & \cdots & N_{nn}
 \end{pmatrix}
 $$
 
-即矩阵 / 阶 $m(n-1)$；那么 (§ 8, no. 6, 公式 (31)) (det $N$) (det $U$) = (det $P$)(det $Q$) 和 det $U = \det N'_{11}$。但由归纳假设、$Q = \det(D^{11}(N_{11}, \ldots, N_{nn})) = \det N'_{11}$并凭借$N_{ij}$的定义，显然$Q$是次数$m(n-1)$的$\mathbf{A}[Z]$中的多项式，其项在$Z^{m(n-1)}$中具有系数1 ;紧接着，在分级的代数 $\mathbf{A}[Z]$ 中，det $Q$ 不是零的除子。因此，我们结论在$\mathbf{A}[Z]$中得到了$N = \det(D(N_{11}, \ldots, N_{nn}))$；如果我们用 0 代替这些多项式中的$Z$，则得到$M = \det(D(M_{11}, \ldots, M_{nn}))$。
+即阶 $m(n-1)$ 中的矩阵；那么 (§ 8, no. 6, 公式 (31)) (det $N$) (det $U$) = (det $P$)(det $Q$) 和 det $U = \det N'_{11}$。但根据归纳假设，det $Q = \det(D^{11}(N_{11}, \ldots, N_{nn})) = \det N'_{11}$，并借助$N_{ij}$的定义，显然，det $Q$是次数$m(n-1)$的$\mathbf{A}[Z]$中的多项式，其项在$Z^{m(n-1)}$中具有系数1 ;紧接着，在分级的代数 $\mathbf{A}[Z]$ 中，det $Q$ 不是零的除子。因此我们结论在$\mathbf{A}[Z]$中得到了$N = \det(D(N_{11}, \ldots, N_{nn}))$；如果我们用 0 代替这些多项式中的$Z$，则得到$M = \det(D(M_{11}, \ldots, M_{nn}))$。
 
-示出了这个引理，K-模V是K-模$Ae_j$($1 \leq j \leq n$)的直和；我们写$u(e_j) = \sum_{k=1}^n c_{jk} e_k$。对于每个元素$xe_j \in Ae_j$，对于$x \in A$，$u(xe_j)$在$Ae_k$中的分量是$xc_{jk} e_k$；由此可见，$u_k$的矩阵相对于K-模V的基$(a_i e_j)$可以用矩阵$(M_{jk})$的平方矩阵的形式来表示，其中$M_{jk}$是相对于这两个K-模（II, § 10, no. 5）的基$(a_i e_j)_{1 \leq i \leq m}$和$(a_i e_k)_{1 \leq i \leq m}$，将$Ae_j$的K-线性映射$xe_j \mapsto xc_{jk} e_k$的矩阵转换为$Ae_k$。如果对于所有$t \in A$，$M(t)$表示矩阵，相对于A在K上的基$(a_i)_{1 \leq i \leq m}$，A的自同态$x \mapsto xt$，则$M_{jk} = M(c_{jk})$；因为 $t \mapsto M(t)$ 是环同态矩阵 $M_{jk}$ *可与 1 个另一个* 置换。然后
+显示了这个引理，K-模V就是K-模$Ae_j$($1 \leq j \leq n$)的直和；我们写$u(e_j) = \sum_{k=1}^n c_{jk} e_k$。对于每个元素$xe_j \in Ae_j$，对于$x \in A$，$u(xe_j)$在$Ae_k$中的分量是$xc_{jk} e_k$；由此可见，$u_k$的矩阵相对于K-模V的基$(a_i e_j)$可以用矩阵$(M_{jk})$的平方矩阵的形式来表示，其中相对于这两个K-模(II, § 10, no. 5)的基$(a_i e_j)_{1 \leq i \leq m}$和$(a_i e_k)_{1 \leq i \leq m}$，$M_{jk}$是将$Ae_j$K-线性映射$xe_j \mapsto xc_{jk} e_k$矩阵转换成$Ae_k$。如果对于所有$t \in A$，$M(t)$表示矩阵，相对于A在K上的基$(a_i)_{1 \leq i \leq m}$，A的自同态$x \mapsto xt$，则$M_{jk} = M(c_{jk})$；因为 $t \mapsto M(t)$ 是环同态矩阵 $M_{jk}$ *可与 1 另一个* 置换。然后
 $$
 \det u_K = \det(D(M_{11}, \ldots, M_{nn}))
 $$
-引理 1。但由于$t \mapsto M(t)$是环同态，$D(M_{11}, \ldots, M_{nn})$是A相对于基$(a_i)$的K-自同态$x \mapsto x.\det(c_{jk})$的矩阵；因此，通过定义，它的行列式是$N_{A/K}(\det(u))$，这证明了（24）的第二个公式。另一方面，
+由引理 1。但由于$t \mapsto M(t)$是环同态，所以$D(M_{11}, \ldots, M_{nn})$是A相对于基$(a_i)$的K-自同态$x \mapsto x.\det(c_{jk})$的矩阵；因此，通过定义，它的行列式是$N_{A/K}(\det(u))$，这证明了（24）的第二个公式。另一方面，
 $$
 \operatorname{Tr}(u_K) = \sum_{j=1}^n \operatorname{Tr}(M_{jj}) = \sum_{j=1}^n \operatorname{Tr}_{A/K}(c_{jj}) = \operatorname{Tr}_{A/K}\left( \sum_{j=1}^n c_{jj} \right) = \operatorname{Tr}_{A/K}(\operatorname{Tr}(u))
 $$
@@ -388,7 +388,7 @@ $$
 $$
 D(a)e_i = \sum_{j=1}^n e_j v_{ji}
 $$
-$v_{ji} = D(\lambda_{ji}) + \sum_{k=1}^n (\mu_{jk}\lambda_{ki} - \lambda_{jk}\mu_{ki})$。由于$\sum_{i,k} (\mu_{ik}\lambda_{ki} - \lambda_{ik}\mu_{ki}) = 0$，因此$\operatorname{Tr}_{A/\mathbf{K}}(D(a)) = \sum_{i=1}^n D(\lambda_{ii})$，在其他字
+$v_{ji} = D(\lambda_{ji}) + \sum_{k=1}^n (\mu_{jk}\lambda_{ki} - \lambda_{jk}\mu_{ki})$。由于$\sum_{i,k} (\mu_{ik}\lambda_{ki} - \lambda_{ik}\mu_{ki}) = 0$，因此$\operatorname{Tr}_{A/\mathbf{K}}(D(a)) = \sum_{i=1}^n D(\lambda_{ii})$，其他字
 $$
 \operatorname{Tr}_{A/\mathbf{K}}(D(a)) = D(\operatorname{Tr}_{A/\mathbf{K}}(a)). *
 $$
@@ -422,11 +422,11 @@ $$
 D_{A/\mathbf{K}}(x_1, \ldots, x_n) = (\det M)^2 D_{A/\mathbf{K}}(x'_1, \ldots, x'_n).
 $$
 
-上述公式特别表明，A的两个基对K的判别式相差K的可逆元的平方，因此生成是K的相同（主要）理想。这个理想$\Delta_{A/K}$称为A对K的判别式理想；由公式 (32) A 的 n 个元素中的每个序列的判别式仅在项的阶不同，具有相同的判别式，因为置换矩阵的行列式等于$\pm 1$。
+上述公式特别表明，A的两个基对K的判别式相差K的可逆元的平方，因此生成是K的相同（主要）理想。这个理想$\Delta_{A/K}$称为A对K的判别理想；由公式 (32) A 的 n 个元素中的每个序列的判别式仅在项的阶不同，具有相同的判别式，因为置换矩阵的行列式等于$\pm 1$。
 
-#### 例{#alg-iii-s9-n5-exa-1 .statement tag=0665}
+#### 例 {#alg-iii-s9-n5-exa-1 .statement tag=0665}
 
-(1) 如果 A 在 K 上是型 $(\alpha, \beta)$ 的二次代数，则（在 § 2, no. 3 的记号中）$\operatorname{Tr}(e_1) = 2, \operatorname{Tr}(e_2) = \beta$，
+(1) 如果 A 是型 $(\alpha, \beta)$ 的二次代数超过 K，则（在 § 2, no. 3 的记号中）$\operatorname{Tr}(e_1) = 2, \operatorname{Tr}(e_2) = \beta$，
 
 $$
 \operatorname{Tr}(e_2^2) = \alpha \operatorname{Tr}(e_1) + \beta \operatorname{Tr}(e_2) = 2\alpha + \beta^2,
@@ -434,9 +434,9 @@ $$
 
 从而$D_{A/K}(e_1, e_2) = \beta^2 + 4\alpha$。
 
-(2) 令$A = K[X]/K[X]P$，其中$P(X) = X^3 + pX + q$，使得如果x是A中X的像，1，x，A在K上的$x^2$形式基和$x^3 = -px - q$。立即可以看出，$\operatorname{Tr}(1) = 3, \operatorname{Tr}(x) = 0, \operatorname{Tr}(x^2) = -2p$，考虑到关系$x^3 = -px - q, \operatorname{Tr}(x^3) = -3q$和$\operatorname{Tr}(x^4) = 2p^2$，从而很容易$D_{A/K}(1, x, x^2) = -4p^3 - 27q^2$。
+(2) 设$A = K[X]/K[X]P$，其中$P(X) = X^3 + pX + q$，使得如果x是A中X的像，1，x，A在K和$x^3 = -px - q$上的$x^2$形式基。立即可以看出，$\operatorname{Tr}(1) = 3, \operatorname{Tr}(x) = 0, \operatorname{Tr}(x^2) = -2p$，考虑到关系$x^3 = -px - q, \operatorname{Tr}(x^3) = -3q$和$\operatorname{Tr}(x^4) = 2p^2$，从而很容易$D_{A/K}(1, x, x^2) = -4p^3 - 27q^2$。
 
-(3) 令A为K上的型$(\alpha, \beta, \gamma)$的四元数代数和型$(\alpha, \beta, \gamma)$的A的$(1, i, j, k)$基；考虑§ 3, no. 5，公式(30)，很容易发现$\operatorname{Tr}(1) = 4, \operatorname{Tr}(i) = 2\beta, \operatorname{Tr}(j) = \operatorname{Tr}(k) = 0$，则
+(3) 令A为K上型$(\alpha, \beta, \gamma)$的四元数代数和型$(\alpha, \beta, \gamma)$的A的$(1, i, j, k)$基；考虑§ 3, no. 5，公式(30)，很容易发现$\operatorname{Tr}(1) = 4, \operatorname{Tr}(i) = 2\beta, \operatorname{Tr}(j) = \operatorname{Tr}(k) = 0$，则
 
 $$
 D_{A/K}(1, i, j, k) = -16\gamma^2(\beta^2 + 4\alpha)^2.

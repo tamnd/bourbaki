@@ -34,16 +34,16 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 61588f7f521e0d845856e4423b043ab47381a23fe4368e339359564441287e5b
+content_sha256: 102bfff51066216ec385725f3ac27b1a7ab9c16967f7b37f92dbb52499c41a6e
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
 translation_method: google
 source_content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 74c3527833fd50da04d044511b2c33f55246c1eeb31132caa20fb7c8c6365b20
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 5。标量的环的扩张
@@ -62,13 +62,13 @@ $B$可以通过$\rho$被视为$(B, A)$双模；那么有一个规范的 $\mathbf
 $$
 \operatorname{Hom}_B(B \otimes_A E, F) \to \operatorname{Hom}_A(E, \operatorname{Hom}_B(B_s, F))
 $$
-正如在 $§ 4$、no. 1、命题 1 中所见。但是左侧 $A$ 模块 $\operatorname{Hom}_B(B_s, F)$ 被规范地标识为 $\rho^*(F)$：对于，通过定义 ($§ 1$，no. 14)，有对应到元素$y \in F$同态$\theta(y) : B_s \to F$使得$(\theta(y))(1) = y$；对于所有$\lambda \in A$，因此$B_s$的对应到$\rho(\lambda)y \in F$同态$\mu \mapsto \mu \rho(\lambda)y$进入$F$，这只是$\operatorname{Hom}_B(B_s, F)$上左侧$A$模块结构的$\lambda \theta(y)$ （$§ 1$，no. 14）。使用此识别，我们获得*规范* $\mathbf{Z}$-模块*同构*，（1）的逆
+正如在 $§ 4$、no. 1、命题 1 中所见。但是左侧 $A$ 模块 $\operatorname{Hom}_B(B_s, F)$ 被规范地标识为 $\rho^*(F)$：对于，通过定义 ($§ 1$，no. 14)，有对应到元素$y \in F$同态$\theta(y) : B_s \to F$使得$(\theta(y))(1) = y$；对于所有$\lambda \in A$，因此$B_s$的对应到$\rho(\lambda)y \in F$同态$\mu \mapsto \mu \rho(\lambda)y$进入$F$，这只是$\operatorname{Hom}_B(B_s, F)$上左侧$A$模块结构的$\lambda \theta(y)$ （$§ 1$，no. 14）。使用这个识别，我们因此获得*规范* $\mathbf{Z}$-模块*同构*，（1）的逆
 
 (2)
 $$
 \delta : \operatorname{Hom}_A(E, \rho_*(F)) \to \operatorname{Hom}_B(\rho^*(E), F)
 $$
-从定义可以立即得出，如果 $\delta(f) = \bar{f}$，则对于所有 $x \in E$ 来说，$\bar{f}(1 \otimes x) = f(x)$。特别是，映射$\phi_E : x \mapsto 1 \otimes x$只是
+从定义可以立即得出，如果 $\delta(f) = \bar{f}$，则对于所有 $x \in E$，$\bar{f}(1 \otimes x) = f(x)$。特别是，映射$\phi_E : x \mapsto 1 \otimes x$只是
 (3)
 $$
 \phi_E = \delta^{-1}(1_{\rho^*(E)}).
@@ -78,11 +78,11 @@ $$
 
 #### 注 {#alg-ii-s5-n1-rem-1 .statement tag=05QE}
 
-(1) 命题 1 表明$E_{(B)}$和$\phi_E$的有序对由……组成是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是左B-模结构的类（态射是B-线性映射），$\alpha$映射是E到B-模的A-线性映射。
+(1) 命题 1 表明$E_{(B)}$和$\phi_E$的有序对由……组成是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是左B-模结构的类（态射是B-线性映射），$\alpha$-映射是E到B-模的A-线性映射。
 
-(2) 如果 E 是$(A, (C'_i); (D'_j))$-多模且 F 是$(B, (C''_h); (D''_k))$-多模，则同构 (2) 相对于两侧（$§ 1$、no. 14 和 $§ 3$、no. 4）的 $((D'_j, (C''_h); (C'_i), (D''_k))$-多模结构是线性的。
+(2) 如果 E 是$(A, (C'_i); (D'_j))$-多模且 F 是$(B, (C''_h); (D''_k))$-多模，则同构 (2) 相对于两侧的 $((D'_j, (C''_h); (C'_i), (D''_k))$-多模结构（$§ 1$、no. 14 和 $§ 3$、no. 4）是线性的。
 
-(3) 设E为左A-模，$a$A的双面理想和$\rho : A \to A/a$典范同态。在$§ 3$、no. 6的记号中，推论2到命题6，A-模$E/aE$被$a$湮灭，因此具有规范的左$(A/a)$模块结构（$§ 1$， no. 12); $§ 3$、no. 6中定义的典范映射$\pi : \rho^*(E) \to E/aE$是直接的，对于$(A/a)$模块结构，推论2到命题6是同构。
+(3) 设E为左A-模，$a$A的双面理想，$\rho : A \to A/a$典范同态。在$§ 3$、no. 6的记号中，推论2到命题6，A-模$E/aE$被$a$湮灭，因此具有规范的左$(A/a)$模块结构（$§ 1$， no. 12); $§ 3$、no. 6中定义的典范映射、$\pi : \rho^*(E) \to E/aE$是直接的，对于$(A/a)$模块结构，推论2到命题6是同构。
 
 #### 推论{#alg-ii-s5-n1-cor-1 .statement tag=05QF}
 
@@ -113,7 +113,7 @@ $$
 
 #### 命题 2 {#alg-ii-s5-prop-2 .statement tag=05QG}
 
-*令$\rho : A \to B,\ \sigma : B \to C$为环同态。对于每一个左A-模 E，存在且仅有一个 C 同态*
+*令$\rho : A \to B,\ \sigma : B \to C$为环同态。对于每一个左A-模 E，存在且仅有一个C-同态*
 
 $$(4)$$
 $$
@@ -121,21 +121,21 @@ $$
 $$
 *对于所有$x \in E$，映射$1 \otimes (1 \otimes x)$到$1 \otimes x$，并且这个同态是双射的。*
 
-$\sigma^*(\rho^*(E))$和$(\sigma \circ \rho)^*(E)$的底层$\mathbf{Z}$模块分别是$C \otimes_B (B \otimes_A E)$和$C \otimes_A E$。存在一个规范的$\mathbf{Z}$同构$C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E$（$§ 3$，no. 8，命题8），这也是左侧C-模结构两侧的C同构。此外，
+$\sigma^*(\rho^*(E))$和$(\sigma \circ \rho)^*(E)$的底层$\mathbf{Z}$模块分别是$C \otimes_B (B \otimes_A E)$和$C \otimes_A E$。存在一个规范的$\mathbf{Z}$同构$C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E$（$§ 3$，no. 8，命题8），这也是两侧左侧C模块结构的C同构。此外，
 
-C-模 $C \otimes_B B$ 在同构下被规范地标识为 C-模 $C_s$，其中映射 $\gamma \otimes \beta$ 到 $\gamma \sigma(\beta)$（§ 3, no. 4、命题 4），并且这个同构也是同构对于$\rho$定义的$C \otimes_B B$上的右A-模结构和$\sigma \circ \rho$定义的C上的右A-模结构。于是典范同构
+C-模块$C \otimes_B B$在同构下与C-模块$C_s$进行规范地标识，其中映射$\gamma \otimes \beta$到$\gamma \sigma(\beta)$（§ 3, no. 4，命题4）并且这个对于由 $\rho$ 定义的 $C \otimes_B B$ 上的右A-模结构，同构也是同构，对于由 $\sigma \circ \rho$ 定义的 C 上的右A-模结构。因此典范同构
 
 $$
 (C \otimes_B B) \otimes_A E \to C \otimes_A E
 $$
 
-得到，并与同构组合
+is obtained and, composing it with 同构
 
 $$
 C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E
 $$
 
-之前定义，就获得了所需的典范同构。
+之前定义，获得所需的典范同构。
 
 如果$\phi, \phi'$和$\phi''$分别表示典范映射、$E \to \rho^*(E), \rho^*(E \to) \sigma^*(\rho^*(E))$和$E \to (\sigma \circ \rho)^*(E)$，则$\phi' \circ \phi$与命题2的典范同构下的$\phi''$进行识别。
 
@@ -149,13 +149,13 @@ $$
 
 *映射* $(1 \otimes x) \otimes (1 \otimes x')$ *到* $1 \otimes (x \otimes x')$ *为* $x \in E, x' \in E'$，*这个同态是双射*。
 
-(5) 的左边可以写成 $(B \otimes_A E) \otimes_B (B \otimes_A E')$ 并用 $(E \otimes_A B) \otimes_B (B \otimes_A E')$ 来表示，因为 A 和 B 是可交换的；后者乘积依次用$E \otimes_A (B \otimes_B B) \otimes_A E'$、$E \otimes_A (B \otimes_A E')$、$E \otimes_A (E' \otimes_A B)$和$(E \otimes_A E') \otimes_A B$，使用张量积的结合性（§ 3, no. 8，命题8），命题4，§ 3, no. 4，和A 和 B 的交换律。所需的同构是连续典范同构的合成。
+(5) 的左边可以写成 $(B \otimes_A E) \otimes_B (B \otimes_A E')$ 并用 $(E \otimes_A B) \otimes_B (B \otimes_A E')$ 来表示，因为 A 和 B 是可交换的；后者乘积依次识别为$E \otimes_A (B \otimes_B B) \otimes_A E'$、$E \otimes_A (B \otimes_A E')$、$E \otimes_A (E' \otimes_A B)$，最后识别$(E \otimes_A E') \otimes_A B$，使用张量积的结合性（§ 3, no. 8、命题8）、命题4， A 和 B 的 § 3, no. 4 和交换律。所需的同构是连续的典范同构中的合成。
 
-显然，如果S是E的生成的系统，则典范映射$E \to E_{(B)}$下S的像是$E_{(B)}$的生成的系统；特别是，如果 E 为有限生成A-模，则 $E_{(B)}$ 是有限生成的 B-模。
+显然如果S是E的生成的系统，则典范映射$E \to E_{(B)}$下S的像是$E_{(B)}$的生成的系统；特别是，如果 E 为有限生成A-模，则 $E_{(B)}$ 是有限生成的 B-模。
 
 #### 命题 4 {#alg-ii-s5-prop-4 .statement tag=05QI}
 
-*设E为A-模，承认基* $(a_\lambda)_{\lambda \in L}$； *如果*$\phi : x \mapsto 1 \otimes x$*是E的典范映射到*$\rho^*(E)$，*那么*$(\phi(a_\lambda))_{\lambda \in L}$*是*$\rho^*(E)$的基。 *如果* $\rho$ *是单射的，那么* $\phi$ 也是单射的。
+*设E为A-模，承认基*$(a_\lambda)_{\lambda \in L}$； *如果*$\phi : x \mapsto 1 \otimes x$*是E的典范映射到*$\rho^*(E)$，*那么*$(\phi(a_\lambda))_{\lambda \in L}$*是*$\rho^*(E)$的基。 *如果* $\rho$ *是单射的，那么* $\phi$ 也是。
 
 第一个断言紧随§ 3, no. 7，推论1到命题7。此外，对于有限支撑A的元素的每个家庭$(\xi_\lambda)_{\lambda \in L}$，
 
@@ -177,7 +177,7 @@ $$
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-由于$\rho_*(B_s)$有右B-模结构，左B-模结构是在$\tilde{\rho}(E)$（§ 1, no. 14）上导出的，因此，如果$u \in \tilde{\rho}(E)$和$b' \in B$，则$b'u$是同态$b \mapsto u(bb')$ $\rho_*(B_s)$ 进入 E。我们进一步定义 A-线性映射，称为规范
+由于 $\rho_*(B_s)$ 有右B-模结构，左B-模结构是在 $\tilde{\rho}(E)$ (§ 1, no. 14) 上导出的，因此，如果 $u \in \tilde{\rho}(E)$ 和 $b' \in B$，$b'u$ 是同态 $b \mapsto u(bb')$ $\rho_*(B_s)$ 进入 E。我们进一步定义 A-线性映射，称为规范
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -334,7 +334,7 @@ $$
 
 这是从上面和 § 4, no. 2、命题 2 得出的。
 
-特别假设E是有限生成的自由A-模，并令$(e_i)_{1 \leq i \leq n}$是E的基和$(e_i^*)$对偶基；然后$(E^*)_{(B)}$的典范同构(19)映射基$(e_i^* \otimes 1)$到基$(1 \otimes e_i)$的对偶基$E_{(B)}$。
+特别假设 E 是有限生成的自由A-模，并令 $(e_i)_{1 \leq i \leq n}$ 为 E 的基和 $(e_i^*)$ 对偶基；然后$(E^*)_{(B)}$的典范同构（19）映射基$(e_i^* \otimes 1)$到$E_{(B)}$的基$(1 \otimes e_i)$的对偶基。
 
 ### 5. 有限性准则
 
@@ -342,7 +342,7 @@ $$
 
 设 B 为环，B 的 A 子环，P 为射影左A-模。那么，如果$P_{(B)}$是有限生成的B-模，则P本身就是有限生成A-模。
 
-我们知道（§ 2, no. 6，命题 12），存在 P 的元素的族$(a_\lambda)_{\lambda \in L}$ 和对偶 P* 的元素的$(a_\lambda^*)_{\lambda \in L}$族，使得对于所有$x \in P$，$\langle x, a_\lambda^* \rangle$族属于有限支撑并且$x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$。由于$P_{(B)}$是有限生成的，因此存在P的元素的有限族$(y_i)_{i \in I}$，使得$P_{(B)}$由元素$1 \otimes y_i$生成。对于每个指标 i，家庭 $\langle y_i, a_\lambda^* \rangle$ 有有限支撑。因此，存在 L 的有限子集 H，使得 $\langle y_i, a_\lambda^* \rangle = 0$ 对于 $i \in I$ 和 $\lambda \notin H$。自从
+我们知道（§ 2, no. 6，命题 12），存在 P 的元素的$(a_\lambda)_{\lambda \in L}$ 族和对偶 P* 的元素的$(a_\lambda^*)_{\lambda \in L}$族，使得对于所有$x \in P$，$\langle x, a_\lambda^* \rangle$族属于有限支撑并且$x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$。由于$P_{(B)}$是有限生成的，因此存在P的元素的有限族$(y_i)_{i \in I}$，使得$P_{(B)}$由元素$1 \otimes y_i$生成。对于每个指标 i，家庭 $\langle y_i, a_\lambda^* \rangle$ 有有限支撑。因此，存在L的有限子集 H，使得$\langle y_i, a_\lambda^* \rangle = 0$对于$i \in I$和$\lambda \notin H$。自从
 $$
 \langle 1 \otimes y_i, 1 d_B \otimes a_\lambda^* \rangle = \langle y_i, a_\lambda^* \rangle,
 $$
@@ -352,6 +352,6 @@ $$
 $$
 $\lambda \notin H$。这表明A-模 P 由$a_\lambda$ 生成，使得$\lambda \in H$。
 
-### 习题{#alg-ii-s5-exercises}
+### 习题 {#alg-ii-s5-exercises}
 
 § 5](exercises/s5/)参见[习题。

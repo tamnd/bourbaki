@@ -33,16 +33,16 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 8450d71bfb91ce63f5b341312e7f76fcb28318c58ff15c51b1c702c5329d28fb
+content_sha256: 823f95d8b57a0914d9bc2e91a9da38d17ddcbdb335b0b3fc36bef7565bbefa5c
 translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
 translation_method: google
 source_content_sha256: 5f8c454a02fa9609498046c6e41e498f87f8eae9c6d223e684879450c3339532
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 2abe3844bdc7e4624bd11affa77a1b252d98479c97be589329f2ef681d2b96cf
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 3.局部环。从本地走向全球
@@ -98,7 +98,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 设$A$为环，$p$为$A$和$S = A - p$的素理想。对于与$A_p$不同的$A_p$的每个理想$b'$，令$b$为$A$的理想$(i_A^S)^{-1}(b')$，以便$b' = bA_p$。
 
-(i) 设$f$为典范同态$A \to A/b$。从 $A$ 到 $(A/b)_{p/b}$ 与 $f$ ($§ 2$, no. 1, 命题 2) 相关的同态是满射，它的核是$b'$，其中定义通过求商， $A_p/b'$ 的典范同构到$(A/b)_{p/b}$。
+(i) 设$f$为典范同态$A \to A/b$。从 $A$ 到 $(A/b)_{p/b}$ 与 $f$ ($§ 2$, no. 1, 命题 2) 规范相关的同态是满射，它的核是$b'$，其中定义通过求商， $A_p/b'$ 的典范同构到$(A/b)_{p/b}$。
 
 (ii) 映射$b' \to b = (i_A^S)^{-1}(b')$，仅限于$A_p$素理想的集合，是同构（关于包含）这个集合到$p$中包含的$A$素理想的集合。如果$b'$在$A_p$中是素数，则环$A_b$存在同构到环$(A_p)_{b'}$，其中映射$a/s$到$(a/1)/(s/1)$对于所有$a \in A, s \in A - b$。
 
@@ -115,7 +115,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 令$A$为环，它不一定是可交换的，$m$包含在$A$的Jacobson根式中的$A$的右理想，而$M$是左$A$模。假设以下条件之一成立：
 (i) $M$ 是有限生成的；
 (ii) $m$ 幂零的。
-那么关系$(A_d/m) \otimes_A M = 0$就意味着$M = 0$。
+那么关系$(A_d/m) \otimes_A M = 0$意味着$M = 0$。
 
 断言相对于假设(i)恰好是代数、章VIII、$§ 6$、no. 3的推论3至命题6。另一方面，关系$(A_d/m) \otimes_A M = 0$等价于$M = mM$，因此对于每个整数$n > 0$意味着$M = m^nM$； 从而断言相对于假设(ii)。
 
@@ -138,7 +138,7 @@ $$
 
 *设$A$为环，它不一定是可交换的，$m$包含在$A$的Jacobson根中的$A$的双面理想，$M$左$A$模和$(x_i)_{i \in I}$元素的族$M$。如果 $M$ 是有限生成的或 $m$ 幂零且元素 $1 \otimes x_i$ ($i \in I$) 生成左侧 $(A/m)$-模 $(A/m) \otimes_A M$，则 $x_i$ 生成 $M$.*
 
-令$(e_i)_{i \in I}$为左侧$A$-模块$A_s^{(I)}$的典范基：将推论1应用于$A$线性映射$u : A_s^{(I)} \to M$，使得$u(e_i) = x_i$对于所有$i \in I$来说是足够的。
+令$(e_i)_{i \in I}$为左侧$A$模块$A_s^{(I)}$的典范基：将推论1应用于$A$线性映射$u : A_s^{(I)} \to M$，使得$u(e_i) = x_i$适用于所有$i \in I$。
 
 #### 命题 5 {#ac-ii-s3-prop-5 .statement tag=0480}
 
@@ -147,7 +147,7 @@ $$
 (ii) $m$ 幂零。
 那么，如果$(A/m) \otimes_A M = M/mM$是自由左$(A/m)$模，并且从$m \otimes_A M$到$M$的典范同态是单射的，则$M$是自由$A$模。准确地说，如果$(x_i)_{i \in I}$是$M$的元素族，使得$(1 \otimes x_i)$是$(A/m)$模块$M/mM$的基，则$(x_i)$是$M$的基。*
 
-如果$a \in A$、$x \in M$和$\bar{a}$是$A/m$中$a$的类，则$\bar{a} \otimes x = 1 \otimes (ax)$以及假设意味着存在$M$的元素的族$(x_i)_{i \in I}$这样$(1 \otimes x_i)$是$(A/m)$模块$(A/m) \otimes_A M$的基。我们已经知道$x_i$生成$M$（推论2到命题4）；我们将看到它们在$A$上是线性独立的。为此，让我们考虑免费的$A$-模块$L = A_s^{(I)}$；令$(e_i)$为其典范基，$u : A_s^{(I)} \to M$为$A$线性映射，使得$u(e_i) = x_i$对于所有$i \in I$；如果$R$是$u$的核，我们就证明$R = 0$。在假设 (i) 下，$(A/m) \otimes_A M$ 是一个有限生成的 $(A/m)$ 模，因而 $I$ 必然是有限的，$R$ 是由章 I, § 2, no. 8、引理 9 有限生成的 $A$ 模。然后由命题 4 足以证明（在假设下）$R = mR$。
+如果$a \in A$、$x \in M$和$\bar{a}$是$A/m$中$a$的类，则$\bar{a} \otimes x = 1 \otimes (ax)$以及假设意味着存在$M$的元素的族$(x_i)_{i \in I}$这样$(1 \otimes x_i)$是$(A/m)$-模块$(A/m) \otimes_A M$的基。我们已经知道 $x_i$ 生成 $M$（推出 2 至命题 4）；我们将看到它们在$A$上是线性独立的。为此，让我们考虑免费的$A$-模块$L = A_s^{(I)}$；设$(e_i)$为其典范基，$u : A_s^{(I)} \to M$为$A$线性映射，使得$u(e_i) = x_i$对于所有$i \in I$；如果$R$是$u$的核，我们就证明$R = 0$。在假设 (i) 下，$(A/m) \otimes_A M$ 是一个有限生成的 $(A/m)$ 模，因而 $I$ 必然是有限的，$R$ 是由章 I, § 2, no. 8、引理 9 有限生成的 $A$ 模。然后由命题 4 足以证明（在假设下）$R = mR$。
 
 设$j$为典范嵌入$R \to L$；那么有一个交换律图表
 
@@ -165,13 +165,13 @@ $$
 0 \xrightarrow{d} \mathrm{Coker}(a) \longrightarrow \mathrm{Coker}(b) \xrightarrow{v} \mathrm{Coker}(c)
 $$
 
-（章I, § 1, no. 4，命题2）；验证 v 是双射就足够了，因为然后我们推断 Coker(a) = 0，在其他字中 a 是满射，因而 R = mR。现在，Coker(b) = (A/m) \otimes_A L 和
+（章I, § 1, no. 4，命题2）；验证 v 是双射就足够了，因为然后我们推导出 Coker(a) = 0，在其他字中 a 是满射，因而 R = mR。现在，Coker(b) = (A/m) \otimes_A L 并且
 
 $$
 \mathrm{Coker}(c) = (A/m) \otimes_A M
 $$
 
-定义 v(1 \otimes e_i) = 1 \otimes x_i;由于 (1 \otimes e_i) 是 (A/m) \otimes_AL 的基，x_i 的定义表明 v 是双射的。
+并由定义 v(1 \otimes e_i) = 1 \otimes x_i;因为 (1 \otimes e_i) 是 (A/m) \otimes_A L 的基，x_i 的定义表明 v 是双射的。
 
 #### 推出 1 {#ac-ii-s3-prop-5-cor-1 .statement tag=0481}
 
@@ -181,7 +181,7 @@ $$
 
 #### 推出 2 {#ac-ii-s3-prop-5-cor-2 .statement tag=0482}
 
-设A不一定是交换环，m是A和M左A-模的雅各布森根式。假设 A/m 为域并且以下条件之一成立：
+设 A 不一定是交换环，m 是 A 和 M 左A-模的雅各布森根式。假设 A/m 为域并且以下条件之一成立：
 (i) M 是有限呈现的；
 (ii) m 是幂零的。
 那么下面的属性是等价的：
@@ -191,7 +191,7 @@ $$
 (d) 典范同态 m \otimes_A M \to M 是单射的；
 (e) Tor_1^A(A/m, M) = 0。
 
-含义 (a) \Rightarrow (b) \Rightarrow (c) \Rightarrow (d) 是直接的。由于 A/m 是域，(A/m) \otimes_A M 是自由 (A/m) 模，并且命题 5 表明 (d) 蕴涵 (a)。
+含义 (a) \Rightarrow (b) \Rightarrow (c) \Rightarrow (d) 是直接的。由于 A/m 是域，(A/m) \otimes_A M 是一个自由 (A/m) 模，命题 5 表明 (d) 蕴涵 (a)。
 
 最后，我们知道 Tor_1^A(A, M) = 0 并且从正合序列 0 \to m \to A \to A/m \to 0 我们得出正合序列
 
@@ -222,17 +222,17 @@ $$
 (b) $M$和$N$具有相同的秩（*代数*，章II, § 7, no. 2）并且$u$是满射；
 (c) $1 \otimes u: M/mM \to N/mN$ 是双射的。
 
-显然（a）意味着（b）； (b) 暗示 $1 \otimes u$ 是满射的；此外，假设 M 和 N 具有相同的秩意味着向量空间 $(A/m) \otimes_A M$ 和 $(A/m) \otimes_A N$ 超过 $A/m$，因此 $1 \otimes u$ 是双射 (*代数*, 章 II, , no. 4, 命题 9) 和 (b) 的推论意味着 (c)。最后，条件(c)通过命题6意味着N是$u(M)$的直和和自由的子模P，$u$是M到$u(M)$的同构；如果$P \neq 0$，则$(A/m) \otimes_A P \# 0$和$1 \otimes u$将不是满射；因此 (c) 意味着 (a)
+显然（a）意味着（b）； (b) 暗示 $1 \otimes u$ 是满射的；此外，假设 M 和 N 具有相同的秩意味着向量空间 $(A/m) \otimes_A M$ 和 $(A/m) \otimes_A N$ 超过 $A/m$，因此 $1 \otimes u$ 是双射 (*代数*, 章 II, , no. 4，命题 9) 和 (b) 的推论意味着 (c)。最后，条件(c)通过命题6意味着N是$u(M)$的直和和自由的子模P，并且$u$是M到$u(M)$的同构；如果$P \neq 0$，则$(A/m) \otimes_A P \# 0$和$1 \otimes u$将不是满射；因此 (c) 意味着 (a)
 
-命题已在本号中证明。通常当 $A$ 是 *局部环* 并且 $m$ 是其*极大理想*时应用。推论 2 到命题 5 然后由
+命题已在上面证明。通常当$A$是*局部环*并且$m$是*极大理想*时应用。推论 2 到命题 5 然后由
 
 #### 命题 7 {#ac-ii-s3-prop-7 .statement tag=0485}
 
-*设$A$为约化局部环、$m$其最大理想、$(p_i)_{i \in I}$$A/p_i$和$M$的分数、$A$、$K_i$域的最小素理想族生成$A$-模块。要使 $M$ 自由，满足以下条件是必要且充分的*
+*设$A$为约化局部环，$m$其最大理想，$(p_i)_{i \in I}$$A/p_i$和$M$的分数的$A$、$K_i$域的最小素理想族生成$A$-模块。要使 $M$ 自由，满足以下条件是必要且充分的*
 
 $$(1)\qquad [(A/m) \otimes_A M : (A/m)] = [K, \otimes_A M : K]\qquad \text{for all } i \in I.$$
 
-如果 M 是自由的，显然对于所有 $i \in I$，(1) 的两侧都等于 M 的秩。现在假设满足条件，用(1)两侧的$n$公共的值表示；根据推论 2 到命题 4 M 的系统为 $n$ 生成元 $x_j$ ($1 \leq j \leq n$)。首先假设 $A$ 是 *整环*，在这种情况下，$p_i = 0$ 对于所有 $i \in I$。 元素 $1 \otimes x_j$ ($1 \leq j \leq n$) 生成向量空间 $K \otimes M$ 超过 $A$ 分数 K 的域；但到假设时，空间是 K 上的维数 $n$，元素 $1 \otimes x_j$ 与 K 线性无关。因此 (*代数*, 章 II, § 1, no. 13, *注* 1) $x_j$ 与 $A$ 线性无关，因此 M 的形式基。
+如果 M 是自由的，显然对于所有 $i \in I$，(1) 的两侧都等于 M 的秩。现在假设满足条件，用(1)两侧的$n$公共的值表示；根据推论 2 到命题 4 M 的系统为 $n$ 生成元 $x_j$ ($1 \leq j \leq n$)。首先假设 $A$ 是 *整环*，在这种情况下，$p_i = 0$ 对于所有 $i \in I$。 元素 $1 \otimes x_j$ ($1 \leq j \leq n$) 生成向量空间 $K \otimes M$ $A$ 分数 K 域以上；但到假设时，空间是 K 上的维数 $n$，元素 $1 \otimes x_j$ 与 K 线性无关。因此 (*代数*, 章 II, § 1, no. 13, *注* 1) $x_j$ 与 $A$ 线性无关，因此 M 的形式基。
 
 经过对于一般情况，存在从 $L = A''$ 到 M 的满同态 $v$。考虑交换律图表
 
@@ -250,7 +250,7 @@ $$
 \phi_i : L \to (A/p_i) \otimes L
 $$
 
-（分别为$\psi_i : M \to (A/p_i) \otimes M$）是典范映射，$v'$是$1_{A/p_i} @ v_e$的乘积。然后$(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$，并且由于$A/p_i$是本地整环，因此从参数的第一个部分可以得出每个$1_{A/p_i} \otimes v$都是同构；那么$v'$也是如此。另一方面，随着$A$减少，$\bigcap_i p_i = (0)$（$§ 2$，no. 6，命题13），从而$\bigcap_i (p_i L) = 0$，因为$L$是免费的（*代数*，章II， $§ 3$、no. 7、*注*)；由于$p_i L$是$\phi_i$的核，这表明$u$是单射的。由此可见 $v' \circ u = u' \circ v$ 是单射的，因此 $v$ 是单射的，并且由于 $v$ 是定义的满射，这表明 $M$ 是自由的。
+（分别为$\psi_i : M \to (A/p_i) \otimes M$）为典范映射，$v'$为$1_{A/p_i} @ v_e$的乘积。然后$(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$，并且由于$A/p_i$是本地整环，因此从参数的第一个部分可以得出每个$1_{A/p_i} \otimes v$都是同构；那么$v'$也是如此。另一方面，随着$A$减少，$\bigcap_i p_i = (0)$（$§ 2$，no. 6，命题13），从而$\bigcap_i (p_i L) = 0$，因为$L$是免费的（*代数*，章 II、$§ 3$、no. 7、*注*)；由于$p_i L$是$\phi_i$的核，这表明$u$是单射的。由此可见 $v' \circ u = u' \circ v$ 是单射的，因此 $v$ 是单射的，并且由于 $v$ 是定义的满射，这表明 $M$ 是自由的。
 
 ### 3. 从本地走向全球
 

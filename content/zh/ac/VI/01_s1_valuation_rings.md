@@ -29,21 +29,21 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 9
-content_sha256: 2da6ca54d49d1bd27ff36d5d745dbf3614f86e50699de1a56c5d3f70770b0833
+content_sha256: 9c66139db14f29e82826ca8eee0c537651022a07511ee7e53fc15c198301183a
 translated_from: content/en/ac/VI/01_s1_valuation_rings.md
 translation_method: google
 source_content_sha256: 4be9d8f7039b4d494391e430e87dbd619d54a3c9a43b0816d5138e002b649b77
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: ab027268670076c9bc12605639fbdcc18ba582b920731bf2e79bec3c176b4109
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 1. 估值环
 
-### 1. 关系之间的统治局部环
+### 1. 局部环之间的统治关系
 
 #### 定义 1 {#ac-vi-s1-def-1 .statement tag=04RZ}
 
@@ -54,30 +54,30 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 令$A$和$B$为局部环，使得$A$为$B$的子环。以下条件是等效的：
 (a) $m(A) \subset m(B)$；
 (b) $B$ 支配 $A$；
-(c) $B$ 中$m(A)$ 生成的理想$Bm(A)$ 不等于包含 1。
+(c) $B$ 中$m(A)$ 生成的理想$Bm(A)$ 不为包含 1。
 
 如果$m(A) \subset m(B)$，$m(B) \cap A$是$A$的理想，它不等于包含1，并且包含是最大理想$m(A)$；因此它等于它并且 (a) 蕴涵 (b)。如果$B$支配$A$，则理想的$Bm(A)$包含在$m(B)$中，因此包含不为1；因此(b)意味着(c)。如果(c)成立，则$Bm(A)$包含在$B$、从而(a)的唯一最大理想$m(B)$中。
 
-注，如果$K$是环，关系“B支配A”是序关系在$K$的本地子环的集合上。
+Note that, if $K$ is a ring, the relation "B dominates A" is an order relation on the set of local subrings of $K$.
 
 令$A$和$B$为两个局部环，使得$B$支配$A$。 典范嵌入$A \to B$定义，将域$\kappa(A)$的商同构代入$\kappa(B)$的子域；这个同构允许我们认同$\kappa(A)$和子域为$\kappa(B)$。
 
 例
-(1) 设$A$为诺特局部环且$\hat{A}$其补全； 局部环 $\hat{A}$ 然后支配 $A$ (章 111, § 3, no. 5, 命题 9)。
-(2) 令$B$为整环，$B$的$A$子环，$p'$为$B$和$p = A \cap p'$的素理想。然后$pA_p \subset p'B_{p'}$，这样$B_{p'}$支配$A_p$。
+(1) 令$A$为诺特局部环且$\hat{A}$其补全； 局部环 $\hat{A}$ 然后支配$A$（章 111、§ 3, no. 5、命题 9）。
+(2) 令$B$为整环、$A$子环、$B$、$p'$为$B$和$p = A \cap p'$的素理想。 然后$pA_p \subset p'B_{p'}$，这样$B_{p'}$支配$A_p$。
 
 ### 2. 估值环
 
 #### 定理 1 {#ac-vi-s1-thm-1 .statement tag=04S1}
 
-*设 K 为 K 的域，V 子环。以下条件是等效的*：
-(a) *V 是 K 的局部子环的集合极大元素，这个集合在 A 和 B 之间按关系“B 支配 A”排序。*
-(b) *从 V 到 L 存在代数闭域 L 和同态 h，其在 K 到 L 的子环同态集合中最大，按 f 和 g 之间的关系“g 扩张 off”排序。*
+*令 K 为 K 的域和 V 子环。以下条件是等效的*：
+(a) *V是K的局部子环的集合的极大元素，这个集合在A和B之间按关系“B支配A”排序。*
+(b) *从V到L存在代数闭域L和同态 h，从K的子环到L，同态的集合最大，按关系排序“g是扩张 off” f 和 g 之间。*
 (c) *如果$x \in K - V$，则$x^{-1} \in V$。*
-(d) *V 的分数的域是 K，V 的主理想集合由包含的关系全序。*
-(e) *V 的分数的域是 K，V 的理想集合由包含的关系全序。*
+(d) *V的分数的域是K，并且V的主理想集合完全由包含的关系排序。*
+(e) *V的分数域是K，V的理想集合完全由包含的关系排序。*
 
-我们将通过证明来展示定理以下含义
+我们将通过证明来证明定理以下含义
 
 $$(a) \Rightarrow (b) \Rightarrow (c) \Rightarrow (d) \Rightarrow (e) \Rightarrow (a).$$
 
@@ -141,7 +141,7 @@ $$
 
 *设$A$为域$K$中的子环。 The integral closure $A'$ of $A$ in $K$ is the intersection of the valuation rings of $K$ which contain $A$; if $A$ is local, $A'$ is the intersection of the valuation rings of $K$ which dominate $A$.*
 
-设$x$为$A'$的元素，$V$为$K$包含$A$的估值环；由于$x$是$V$的积分，因此存在$V[x]$的素理想$p'$，使得$p' \cap V = m(V)$ (章 V, § 2, no. 1, 定理 1)；显然，局部环$(V[x])_{p'}$支配$V$，因此等于它； 从而 $x \in V$.反之，令 $y$ 为 $K$ 的元素，它不是 $A$ 的整数；则存在 $A[y^{-1}]$ 的最大理想 2.2，其中包含 $y^{-1}$ (no. 2, 引理 1)；还存在环$V$为$K$，它主导$(A[y^{-1}])_m$（no. 2，定理2的推论）； as $y^{-1} \in m(V)$, $y \notin V$.进一步$2.2 \cap A$是$A$的最大理想（no. 2，引理1）；因此，如果$A$是局部的，$2.2 \cap A = m(A)$和$V$支配$A$。
+设$x$为$A'$的元素，$V$为$K$包含$A$的估值环；由于$x$是$V$的积分，因此存在$V[x]$的素理想$p'$，使得$p' \cap V = m(V)$ (章 V, § 2, no. 1, 定理 1)；显然，局部环$(V[x])_{p'}$支配$V$，因此等于它； 从而$x \in V$。反之，令$y$为$K$的元素，它不是$A$的整数；则存在 $A[y^{-1}]$ 的最大理想 2.2，其中包含 $y^{-1}$ (no. 2, 引理 1)；还存在$K$的估值环$V$，它主导$(A[y^{-1}])_m$（no. 2，定理2的推论）；如$y^{-1} \in m(V)$、$y \notin V$。进一步$2.2 \cap A$是$A$的极大理想（no. 2，引理1）；因此，如果$A$是局部的，$2.2 \cap A = m(A)$和$V$支配$A$。
 
 #### 推论 1 {#ac-vi-s1-thm-3-cor-1 .statement tag=04S7}
 
@@ -157,13 +157,13 @@ $$
 
 令 K 为域，K 的 K' 扩张，A 为 K 的估值环。K' 中 A 的积分闭包是 K 的估值环 V' 的交，使得 V' $\cap K = A$。
 
-定理 1 (c) 表明，如果 V' 是 K' 的估值环，则 V' $\cap K$ 是 K 的估值环，并且 V' 支配 V' $\cap K$。对于 V' 支配 A，V' $\cap K$ 支配 A 因此等于它是充分必要的。
+定理 1 (c)表明，如果V'是K'的估值环，则V'$\cap K$是K的环估值，并且V'主导V'$\cap K$。对于V'支配A，V'$\cap K$支配A并因此等于它是充分必要的。
 
 ### 4. 例估值环
 
 (1) 每域是一个估价环。
 
-(2) 如果 V' 是域 K' 的估价环，K 是 K' 的子域，则 V' $\cap K$ 通过 no. 2，定理 1 (c)，是 K 的估价环。
+(2) 如果V'是域K'的估价环且K是K'的子域，则V'$\cap K$通过no. 2、定理1(c)得出估价环 K 的。
 
 (3) 以下命题提供了众多例的估价环：
 
@@ -177,7 +177,7 @@ $$
 \bigcap_{n=1}^{w} Ap^n = (0),
 $$
 
-关系$v(x) = +\infty$意味着$x = 0$。设a是A的理想$\neq (0)$和a的元素，此时v取最小值；让我们写 $v(a) = s$ ($s \neq +\infty$)。 Then $a \subset Ap^s$.特别地，存在$u \in A$使得$a = up^s$； as $a \notin Ap^{s+1}$, $u \notin Ap$;因此 u 是可逆的且 $p^s \in A$ $a \subset a$。接下来是$a = Ap^s$，从而我们的第一个断言。还可以看出，A 的每个元素 $a \neq 0$ 都可以写成形式 $a = up^{v(a)}$，其中 u 是可逆的。如果$a' = u'p^{v(a')}$（$u'$可逆）是A的另一个非零元素，则$aa' = uu'p^{v(a)+v(a')}$；因此，如果 p 不是幂零的，则 $aa' \neq 0$ 并且 A 为整环。那么，由于 A 的理想集合是通过包含完全排序的，我们结论认为A是一个估值环（定理I（e））。
+关系$v(x) = +\infty$意味着$x = 0$。设a是A的理想$\neq (0)$和a的元素，此时v取最小值；让我们写 $v(a) = s$ ($s \neq +\infty$)。然后$a \subset Ap^s$。特别地，存在$u \in A$使得$a = up^s$；如$a \notin Ap^{s+1}$、$u \notin Ap$；因此 u 是可逆的且 $p^s \in A$ $a \subset a$。接下来是$a = Ap^s$，从而我们的第一个断言。还可以看出，A 的每个元素 $a \neq 0$ 都可以写成形式 $a = up^{v(a)}$，其中 u 是可逆的。如果$a' = u'p^{v(a')}$（$u'$可逆）是A的另一个非零元素，则$aa' = uu'p^{v(a)+v(a')}$；因此，如果 p 不是幂零的，则 $aa' \neq 0$ 并且 A 为整环。那么，由于 A 的理想集合是通过包含完全排序的，所以我们结论 A 是一个估值环 (定理 I (e))。
 
 对于例，如果$p$是质数数，则局部环$\mathbf{Z}_{(p)}$是估价环。设$B = K[X_1, \ldots, X_n]$为多项式环，且$n$在域$K$上不定；理想的 $BX_1$ 是素数，因为 $B/BX_1$ 同构于 $K[X_2, \ldots, X_n]$；因此$B_{BX_1}$是估值环；它由有理数函数$PQ^{-1}$组成，其中$P$和$Q$是多项式，$Q(0, X_2, \ldots, X_n) \neq 0$。
 
@@ -205,10 +205,10 @@ $B_{BF}$ 是估价环 (cf. 章 VII, § 3, no. 5)。 \*
 
 #### 推论 2 {#ac-vi-s1-prop-3-cor-2 .statement tag=04SD}
 
-*令$K$为域，有理函数的$K(X)$域在$K$和$V$的一个不确定中，$K(X)$包含$K$的估值环并且不同于$K(X)$。若$X \in V$，则存在不可约多项式$P \in K[X]$使得$V = (K[X])_{(P)}$；否则$V$是素理想$X^{-1}K[X^{-1}]$处$K[X^{-1}]$的局部环（在其他字$V$由分数$A/B$组成，其中$A \in K[X]$和$B \in K[X]$，使得$\deg(A) \leq \deg(B)$）。
+*令$K$为域，$K(X)$域的有理函数在$K$和$V$的一个不确定中，$K(X)$包含$K$的估值环并且不同于$K(X)$。若$X \in V$，则存在不可约多项式$P \in K[X]$使得$V = (K[X])_{(P)}$；否则$V$是素理想$X^{-1}K[X^{-1}]$处$K[X^{-1}]$的局部环（在其他字$V$由分数$A/B$组成，其中$A \in K[X]$和$B \in K[X]$，使得$\deg(A) \leq \deg(B)$）。
 
 如果$X \in V$，则从命题得到$K[X] \subset V$和断言 3。如果$X \notin V$，则$X^{-1} \in V$，从而$K[X^{-1}] \subset V$；那么 $V$ 是 $K[X^{-1}]$ 的局部环在素理想 $p$ (命题 3) 处，并且这个理想包含 $X^{-1}$ 因为 $X^{-1}$ 在 V 中不可逆；那么 $p = X^{-1}K[X^{-1}]$ 因为后一个理想是最大的。最后让我们考虑一个有理数函数$A(X)/B(X)$，其中A和B分别是次数$a$和$b$的多项式；然后$A(X) = X^a A'(X^{-1})$和$B(X) = X^b B'(X^{-1})$，其中$A'$和$B'$是多项式，使得$A'(0) \neq 0$和$B'(0) \neq 0$；因此，对于$X^{-1}K[X^{-1}]$处的$K[X^{-1}]$的$A(X)/B(X)$到属于到局部环，$a \leq b$是充分必要的。
 
 ### 习题 {#ac-vi-s1-exercises}
 
-请参阅[习题了解§ 1](exercises/s1/)。
+§ 1](exercises/s1/)参见[习题。

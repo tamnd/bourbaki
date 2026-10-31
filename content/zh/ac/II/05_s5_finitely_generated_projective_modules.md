@@ -41,16 +41,16 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: f05d436461baacc3126e94d9942f051f4b46949870d01dc422cc1babad2eec47
+content_sha256: d1b56bcdd5f4871b3b6407c9ceb665683c26505758927b8a5107de91c50e6d8b
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
 translation_method: google
 source_content_sha256: 39903d36e71fd82b177991bd175a5a56543cc66eaadad8c82a42b81dab501389
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 8f3d55d61f7870ec5c3bd4b14a7cb65116cfdb7450e44c677c758fa0efe491e6
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 5.有限生成射影模。可逆分数理想
@@ -250,7 +250,7 @@ $$
 
 由于$(M/mM) \otimes_k (N/mN)$超过$k$的秩是$M/mM$和$N/mN$秩乘积，后者必然等于1，另外字$M/mM$是单生的。由此可见$M$是单生的（$§ 3$，no. 2，推论2至命题4）；另一方面，$M$的湮没子也湮灭了$M \otimes_A N$，因此是零，这证明$M$与$A$同构的。
 
-(ii) 足以证明，对于$A$的每个最大理想$m$，$u_m$是同构（$§ 3$，no. 3，定理1）。由于 $M$ 是有限呈现的 (章 I, $§ 2$, no. 8, 引理 8)，$(M^*)_m$ 被规范地等同于对偶 $(M_m)^*$ ($§ 2$, no. 7, 命题 19)，并且， $M_m$ 与它的对偶 $(M_m)^*$ 一样，不包含秩 1，显然典范同态 $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ 是双射，从而完成证明。
+(ii) 足以证明，对于$A$的每个最大理想$m$，$u_m$是同构（$§ 3$，no. 3，定理1）。由于 $M$ 是有限呈现的 (章 I, $§ 2$, no. 8, 引理 8)，$(M^*)_m$ 被规范地识别为对偶 $(M_m)^*$ ($§ 2$, no. 7, 命题) 19) 并且，由于 $M_m$ 与它的对偶 $(M_m)^*$ 一样没有秩 1，因此显然典范同态 $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ 是双射，从而完成证明。
 
 *注* (1)。如果 $M$ 是秩 1 的射影且 $N$ 使得 $M \otimes_A N$ 同构于 $A$，则 $N$ 同构于 $M^*$：有同构
 
@@ -286,15 +286,15 @@ N of 秩 1, cl(M \otimes_A N) 仅取决于 cl(M) 和 cl(N)；作为定义我们�
 
 两个 A-模 M, N 的方程 $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ 证明映射 $\phi$ 是可交换的群 *同态*。
 
-*注 (2).* 定理 1 的条件 (e)（相当于 P 是射影且有限生成的事实）也可以用说表示，模* $\tilde{P}$ 在$X = \mathrm{Spec}(A)$ *与 P 相关联(*) 上的*束是局部自由且有限的型*，因此可以解释为 X 上向量丛的截面束。相反，X 上的每个向量丛都源自有限生成射影模，其被确定为在唯一的同构内； 秩 $n$的投射模，因此对应到向量丛，所有纤维都具有维数$n$。特别是，秩 1 对应的向量丛到秩 1 的投射模。如果我们用$\mathscr{O}_X$结构捆$\tilde{A}$ 和$\mathscr{O}_X^*$ 表示单位* 的*捆， $\mathscr{O}_X$（其X的开集合U上的截面是U上的$\mathscr{O}_X$截面环可逆元），因此群$P(A)$与第一个上同调群同构$H^1(X, \mathscr{O}_X^*)$.*
+*注 (2).* 定理 1 的条件 (e)（相当于 P 是射影且有限生成的事实）也可以用说表示，模* $\tilde{P}$ 在$X = \mathrm{Spec}(A)$ *与 P 相关联(*) 上的*束是局部自由且有限的型*，因此可以解释为向量丛的截面束超过 X。相反，超过X的每个向量丛都来自有限生成射影模，它被确定在唯一的同构内； 秩 $n$的投射模，因此对应到向量丛，所有纤维都具有维数$n$。特别是，秩 1 对应的向量丛到秩 1的投射模。如果我们用$\mathscr{O}_X$结构捆$\tilde{A}$和$\mathscr{O}_X^*$表示单位*的*捆$\mathscr{O}_X$（其X开路集合U上的截面是U上$\mathscr{O}_X$截面环可逆元），因此群$P(A)$与第一个同构上同调群$H^1(X, \mathscr{O}_X^*)$.*
 
-（* 参见 A. Grothendieck，Éléments de géométrie algébrique，I (§ 1)（Publ. Math. I.H.E.S.，no. 4，1960）。
+(*参见 A. Grothendieck, Éléments de géométrie algébrique, I (§ 1) (Publ. Math. I.H.E.S., no. 4, 1960)。
 
 ### 5.非简并子模
 
-在这个没有。以及以下两个，$A$表示环，$S$是元素的$A$由……组成的乘法子集，它们不是$A$中零的除子，以及$B$环$S^{-1}A$； $A$ 与子环或 $B$ ($§ 2$、no. 1、注 3) 被规范地标识。因此，$S$的元素在$B$中是可逆的。
+在这个没有。以及以下两个，$A$表示环，$S$是$A$由……组成与元素的乘法子集，它们不是$A$中零的除子，和 $B$ 环 $S^{-1}A$； $A$ 与子环或 $B$ ($§ 2$、no. 1、注 3) 被规范地标识。因此，$S$的元素在$B$中是可逆的。
 
-对于应用来说，最重要的特殊情况之一是，其中$A$是整环，$S$是元素中的集合，$\neq 0$中$A$；那么$B$就是$A$的分数中的域。
+对于应用来说，最重要的特殊情况之一是，其中$A$是整环，而$S$是元素中的集合，$\neq 0$中$A$；那么$B$就是$A$的分数中的域。
 
 #### 定义 3 {#ac-ii-s5-def-3 .statement tag=04BW}
 
@@ -317,17 +317,17 @@ N of 秩 1, cl(M \otimes_A N) 仅取决于 cl(M) 和 cl(N)；作为定义我们�
 
 断言对于 $M + N$ 来说是微不足道的；另一方面，如果$s \in S \cap M$和$t \in S \cap N$，则$st \in S \cap (M.N)$和$st \in S \cap (M \cap N)$。
 
-给定$B$的两个子A模块$M$和$N$，让我们用$N : M$表示那些$b \in B$的$B$由……组成的子A模块，使得$bM \subset N$（章I，$§ 2$， no. 10、注）。如果将$M$到$N$的每个$b \in N : M$映射到同态$h_b : x \mapsto bx$，则从$N : M$到$\operatorname{Hom}_A(M, N)$得到典范同态$b \mapsto h_b$。
+给定$B$的两个子A模块$M$和$N$，让我们用$N : M$表示那些$b \in B$的$B$由……组成的子A模块，使得$bM \subset N$（章I， $§ 2$、no. 10、注）。如果将$M$到$N$的每个$b \in N : M$映射到同态$h_b : x \mapsto bx$，则从$N : M$到$\operatorname{Hom}_A(M, N)$得到典范同态$b \mapsto h_b$。
 
 #### 命题 9 {#ac-ii-s5-prop-9 .statement tag=04BZ}
 
-令$M, N$为$B$的两个子A模块。如果$M$是非简并的，则从$N : M$到$\operatorname{Hom}_A(M, N)$的典范同态是双射的。
+令$M, N$为$B$的两个子A模块。如果 $M$ 是非简并的，则从 $N : M$ 到 $\operatorname{Hom}_A(M, N)$ 的典范同态是双射的。
 
 让$s \in S \cap M$。如果对于所有 $x \in M$，$b \in N : M$ 使得 $bx = 0$，则 $bs = 0$、从而 $b = 0$，因为 $s$ 不是 $B$ 中 0 的除子。另一方面，令 $f \in \mathrm{Hom}_A(M, N)$ 和集合 $b = f(s)/s$；对于所有$x \in M$，存在$t \in S$使得$tx \in A$。然后
 $$
 f(x) = s^{-1}t^{-1}f(stx) = s^{-1}t^{-1}txf(s) = bx,
 $$
-从而$b \in N : M$和$f = h_b$，这就证明了命题。
+从而$b \in N : M$和$f = h_b$，证明命题。
 
 #### 注 {#ac-ii-s5-n5-rem-1 .statement tag=04C0}
 

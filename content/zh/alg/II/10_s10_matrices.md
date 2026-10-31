@@ -66,16 +66,16 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 17
-content_sha256: 1a3f8b4400b040ecb2d8f36e56348638db7ff0af158311d22dcf394bd2c547b2
+content_sha256: 676aa5f0238251bccc540aa94541ed6101e617753286f42b7bb25c84fdbcdde7
 translated_from: content/en/alg/II/10_s10_matrices.md
 translation_method: google
 source_content_sha256: 9f20d99617c7f5aad6362a5f7207c5eb84fe7bf5906f6a9107df6de45c2d511a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 9fed53bb226638760514ebeee60aa688de5c92f36ce6d7d224b91c0fddff0005
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 10。 矩阵
@@ -202,17 +202,17 @@ $$
 
 (a) 假设$H = \bigcup_{(\iota, \kappa) \in I \times K} G_{\iota \kappa}$，其中每个$G_{\iota \kappa}$是可加写的交换律群；那么对于每个有序对$(\iota, \kappa)$、$m_{\iota \kappa} \in G_{\iota \kappa}$和$m'_{\iota \kappa} \in G_{\iota \kappa}$，可以定义和$M + M'$。
 
-(b) 令 I、K、L 为三个集合，其中 K 假设为有限，并令$H' = \bigcup_{(i, k) \in I \times K} H'_{ik}$、$H'' = \bigcup_{(k, l) \in K \times L} H''_{kl}$、$H = \bigcup_{(i, l) \in I \times L} H_{il}$ 为三个集合；假设每个 $H_{il}$ 都是一个可加的交换律群，对于每个三元组 $(i, k, l)$ 让
+(b) 设I、K、L为三个集合，假设K是有限的，并令$H' = \bigcup_{(i, k) \in I \times K} H'_{ik}$、$H'' = \bigcup_{(k, l) \in K \times L} H''_{kl}$、$H = \bigcup_{(i, l) \in I \times L} H_{il}$为三个集合；假设每个 $H_{il}$ 都是一个可加的交换律群，并且对于每个三元组 $(i, k, l)$ 让
 $$
 f_{ikl}: H'_{ik} \times H''_{kl} \to H_{il}
 $$
-是映射。然后，如果$M' = (m'_{ik})_{(i, k) \in I \times K}$，$M'' = (m''_{kl})_{(k, l) \in K \times L}$是矩阵，使得$m'_{ik} \in H'_{ik}$和$m''_{kl} \in H''_{kl}$对于所有$i, k, l$，我们可以通过$f_{ikl}$得到定义乘积$M'M''$。我们留给读者写下与（4）、（5）和（6）类似的证明公式的任务。
+是映射。然后，如果$M' = (m'_{ik})_{(i, k) \in I \times K}$，$M'' = (m''_{kl})_{(k, l) \in K \times L}$是矩阵，使得$m'_{ik} \in H'_{ik}$和$m''_{kl} \in H''_{kl}$对于所有$i, k, l$，我们可以通过$f_{ikl}$得到定义乘积$M'M''$。我们留给读者写下类似于（4）、（5）和（6）的证明公式的任务。
 
 ### 3.矩阵超过环
 
-数学中最重要的矩阵是矩阵超过环A。集合$A^{I \times K}$超过矩阵超过相应的到索引集合I，K则典型地具有（A，A）双模结构（§ 1, no. 14）。
+数学中最重要的矩阵是矩阵超过环A。矩阵超过相应的的集合$A^{I \times K}$到索引集合I，K则具有规范的（A，A）双模结构（§ 1, no. 14）。
 
-对于每个有序对 $(i, k) \in I \times K$，令 $E_{ik}$ 为矩阵 $(a_{jl})$，使得 $a_{ik} = 1$ 和 $a_{jl} = 0$ 对于 $(j, l) \neq (i, k)$； $E_{ik}$在矩阵$A^{I \times K}$的集合中称为矩阵单位；如果 I 和 K 是有限的，则它们集合的左侧为形式典范基或右A-模结构 (§ 1, no. 11)。显然
+对于每个有序对$(i, k) \in I \times K$，令$E_{ik}$为矩阵$(a_{jl})$，使得$a_{ik} = 1$和$a_{jl} = 0$对应$(j, l) \neq (i, k)$； $E_{ik}$在矩阵$A^{I \times K}$的集合中称为矩阵单位；如果 I 和 K 是有限的，则它们集合的左侧为形式典范基或右A-模结构 (§ 1, no. 11)。显然
 $$
 tE_{ik} = E_{ki}.
 $$
@@ -229,9 +229,9 @@ X(Y + Z) = XY + XZ \\
 (X + Y)Z = XZ + YZ
 \end{cases}
 $$
-对于A上的三个矩阵X、Y、Z，每当和和乘积出现在这些公式中时都被定义。
+对于三个矩阵X，Y，Z在A上，每当和和乘积出现在这些公式中被定义。
 
-特别是，如果$E_{ik}$（或$E'_{kl}, E''_{il}$）分别在$A^{I \times K}$（或$A^{K \times L}, A^{I \times L}$）中为矩阵单位，加上$I = \{1, p\}, K = \{1, q\}, L = \{1, r\}$，我们得到公式
+特别是，如果$E_{ik}$（分别$E'_{kl}, E''_{il}$）在$A^{I \times K}$（分别$A^{K \times L}, A^{I \times L}$）中分别为矩阵单位，以及$I = \{1, p\}, K = \{1, q\}, L = \{1, r\}$，我们得到公式
 $$
 \begin{cases}
 E_{ik}E'_{jl} = 0 & \text{if } k \neq j \\
@@ -239,7 +239,7 @@ E_{ik}E'_{kl} = E''_{il}.
 \end{cases}
 $$
 
-令$A^0$为A的逆环，令$a * b \ (= ba)$表示$A^0$中a和b的乘积；那么，对于定义了乘积的 A 上的两个矩阵 X, Y，
+令$A^0$为A的逆环，令$a * b \ (= ba)$表示$A^0$中a和b的乘积；那么，对于两个矩阵 X，Y 在定义了乘积的 A 上，
 $$(10)$$
 $$
 t(XX) = tY * tX
@@ -258,13 +258,13 @@ $$
 $$
 M' = (m'_{ik})_{(i,k) \in I \times K}
 $$
-*两个矩阵，在* $(\mathbf{A}, \mathbf{B})$*-双模块* $G$上具有有限索引集合。 *假设对于每个矩阵单位* $L = (a_i)_{i \in I}$ *有一行和元素在* $\mathbf{A}$ *和每个矩阵单位* $C = (b_k)_{k \in K}$ *有一个列和元素在* $\mathbf{B}$, $L.M.C = L.M'.C$ （*乘积通过*$(\mathbf{A}, \mathbf{B})$*-模块*$G$的外法则计算）；然后* $M = M'$。
+*两个矩阵，在一个* $(\mathbf{A}, \mathbf{B})$*-双模块* $G$上具有有限索引集合。 *假设对于每个矩阵单位* $L = (a_i)_{i \in I}$ *有一行和元素在* $\mathbf{A}$ *和每个矩阵单位* $C = (b_k)_{k \in K}$ *有一个列和元素在* $\mathbf{B}$, $L.M.C = L.M'.C$ （*乘积通过*$(\mathbf{A}, \mathbf{B})$*-模块*$G$的外法则计算）；然后* $M = M'$。
 
 如果 $L$ 被视为矩阵单位 $(a_s)$，$s \neq i$ 为 $a_i = 1, a_s = 0$，$C$ 矩阵单位 $(b_t)$，$t \neq k$ 为 $b_k = 1, b_t = 0$，乘积 $L.M.C$和$L.M'.C$是矩阵，单个元素分别等于$m_{ik}$和$m'_{ik}$。
 
 令$\mathbf{A}, \mathbf{B}$为两个环和$\sigma : \mathbf{A} \to \mathbf{B}$同态。
 
-对于$\mathbf{A}$上的每一个矩阵$M = (m_{ik})$，我们将用$\mathbf{B}$上的$\sigma(M)$矩阵$(\sigma(m_{ik}))$来表示；显然$\sigma(aM) = \sigma(a)\sigma(M)$，$\sigma(Ma) = \sigma(M)\sigma(a)$代表$a \in \mathbf{A}$，还有$\sigma(^tM) = (^t(\sigma(M)))$和
+对于$\mathbf{A}$上的每个矩阵$M = (m_{ik})$，我们将用$\mathbf{B}$上的$\sigma(M)$矩阵$(\sigma(m_{ik}))$来表示；显然$\sigma(aM) = \sigma(a)\sigma(M)$，$\sigma(Ma) = \sigma(M)\sigma(a)$代表$a \in \mathbf{A}$，还有$\sigma(^tM) = (^t(\sigma(M)))$和
 
 $$(12)$$
 $$
@@ -331,7 +331,7 @@ $$
 
 #### 命题 2 {#alg-ii-s10-prop-2 .statement tag=05WM}
 
-*假设 I 和 K 是有限的。对于每个元素* $x \in E$，*矩阵* $M(u(x))$ *相对于基* $(f_k)$ *由公式* 给出
+*假设I和K是有限的。对于每个元素* $x \in E$，*矩阵* $M(u(x))$ *相对于基* $(f_k)$ *由公式* 给出
 
 (17D)
 $$
@@ -405,11 +405,11 @@ $$
 $$
 由于$c_i$是矩阵$A$中指标$i$的列，我们看到说系统（19）承认解等于说即矩阵 $b = (b_{k0})$和一个列是矩阵$A$列线性组合。
 
-我们留给读者的任务是为左线性方程的系统制定类似的定义和注。
+我们留给读者为左线性方程的系统制定类似的定义和注的任务。
 
 ### 5.块乘积
 
-no. 4的定义可以概括如下。设E是子模族$(E_i)_{i \in I}$的（右或左）A-模、直和。对于所有$x \in E$，让$x = \sum_{i \in I} x_i$和$x_i \in E_i$对于所有$i \in I$；我们可以说E中的列矩阵$M(x) = (x_i)_{i \in I}$和元素是x的*矩阵相对于E的分解$(E_i)_{i \in I}$作为直和*。
+no. 4的定义可以概括如下。设E是子模族$(E_i)_{i \in I}$的（右或左）A-模、直和。对于所有$x \in E$，让$x = \sum_{i \in I} x_i$和$x_i \in E_i$对于所有$i \in I$；我们可以说，E 中的列矩阵 $M(x) = (x_i)_{i \in I}$ 和元素是 x 的 *矩阵，而 E 的分解 $(E_i)_{i \in I}$ 是直和*。
 
 设F为另一个A-模（E和F都是右A-模或都是左A-模），并假设F是子模的$(F_k)_{k \in K}$族的直和。对于所有$u \in \mathrm{Hom}(E, F)$和所有$x_i \in E_i$，让$u(x_i) = \sum_k u_{ki}(x_i)$和$u_{ki}(x_i) \in F_k$对于所有$k \in K$；然后$u_{ki} \in \mathrm{Hom}(E_i, F_k)$；我们可以说，型$(K, I)$的矩阵$M(u) = (u_{ki})_{(k, i) \in K \times I}$和$\mathrm{Hom}(E_i, F_k)$的集合H和中的元素是u相对于分解的*矩阵 E和F的$(E_i)$和$(F_k)$为直和*。
 
@@ -419,7 +419,7 @@ $$
 M(u + v) = M(u) + M(v), \qquad M(\gamma u) = \gamma M(u)
 $$
 
-对于A的中心的每个元素$\gamma$（no. 2，*注*）。
+对于 A 的中心的每个元素 $\gamma$（no. 2，*注*）。
 
 此外，$u_{ki}$的定义表明，如果K是有限的，我们可以写
 
@@ -429,7 +429,7 @@ $$
 
 其中，$M(u(x))$是$u(x)$的矩阵，相对于分解$(F_k)$，(22)右侧的乘积将$\mathrm{Hom}(E_i, F_k) \times E_i$的映射$(t, z) \mapsto t(z)$计算为$F_k$ （no. 2，*注*）。
 
-令G为子模的$(G_l)_{l \in L}$家族的第三个A-模、直和，因此对于分解，每个A-线性映射$v : F \to G$矩阵$M(v) = (v_{lk})$都有对应 $(F_k)$ 和 $(G_l)$。如果 I、K 和 L 是*有限*，那么
+令 G 为子模中$(G_l)_{l \in L}$ 的第三个A-模、直和，因此对于分解，每个 A-线性映射 $v : F \to G$ 矩阵 $M(v) = (v_{lk})$ 都有对应 $(F_k)$ 和 $(G_l)$。如果 I、K 和 L 是*有限*，那么
 
 $$
 M(v \circ u) = M(v) . M(u)
@@ -439,13 +439,13 @@ $$
 
 最后，如果假设 I 和 K 是有限的，则 $E^*$（分别为 $F^*$）被规范地标识为模 $E_i^*$（分别为 $F_k^*$）（§ 2, no. 6、命题 10）的直和。那么立即验证$^t u$相对于分解$(F_k^*)$和$(E_i^*)$的矩阵正好是$(^t u_{ki})_{(k, i) \in K \times I}$。
 
-现在假设 I 和 K 是有限的，并且每个 E_i（分别为 F_k）都承认有限的基。这相当于说 E（分别为 F）承认基 (e_r)_{r \in R}（分别为 (f_s)_{s \in S}）并且 R（分别为 S）承认划分 (R_i)_{i \in I}（分别为 (S_k)_{k \in K}），这样对于所有 i \in I（分别为 k \in） K)，(e_r)_{r \in R_i} 是 E_i 的基（而 (f_s)_{s \in S_k} 是 F_k 的基）。那么，如果 X = M(u) 是 u 相对于基 (e_r)_{r \in R} 和 (f_s)_{s \in S} 的矩阵，则矩阵 X_{kt} = M(u_{kt}) 相对于基 (e_r)_{r \in R_i} 和 (f_s)_{s \in S_k} 只是通过抑制指标 s \notin S_k 和列的指标 r \notin R_i 的行而获得的 X 子矩阵。因此我们定义一对一对应
+现在假设I和K是有限的，并且每个E_i（分别是F_k）都承认有限的基。这相当于说 E（分别为 F）承认基 (e_r)_{r \in R}（分别为 (f_s)_{s \in S}），并且 R（分别为 S）承认划分 (R_i)_{i \in I}（分别为 (S_k)_{k \in K}），这样对于所有 i \in I（分别为 k \in K），(e_r)_{r \in R_i} 为 E_i 的基（分别为 (f_s)_{s \in S_k} 为 F_k 的基）。那么，如果 X = M(u) 是 u 相对于基 (e_r)_{r \in R} 和 (f_s)_{s \in S} 的矩阵，则矩阵 X_{kt} = M(u_{kt}) 相对于基 (e_r)_{r \in R_i} (f_s)_{s \in S_k} 只是通过抑制指标 s \notin S_k 和列的指标 r \notin R_i 的行而获得的 X 的子矩阵。因此我们定义一对一对应
 
 $$
 X \mapsto (X_{kt})_{(k, t) \in K \times I}
 $$
 
-between the set of matrices of type (S, R) with elements in A and the set of matrices of matrices $(X_{kt})_{(k, t) \in K \times I}$ of type K \times I, where each X_{kt} is a matrix over A of type (S_k, R_i). 假设进一步的 G 承认有限基 (g_t)_{t \in T} 并且 T = (T_l)_{l \in L} 是 T 的划分，这样，对于每个 l \in L，(g_t)_{t \in T_l} 是 G_l 的基；令 Y = M(v) 为 v 相对于基 (f_s)_{s \in S} 和 (g_t)_{t \in T} 的矩阵，Y_{lk} = M(v_{lk}) 为 v_{lk} 相对于基 (f_s)_{s \in S_k} 和 (g_t)_{t \in T_l}， w = v \circ u 的 Z = M(w) 矩阵相对于基 (e_r)_{r \in R} 和 (g_t)_{t \in T} 和 Z_{li} = M(w_{li}) w_{li} 相对于基 (e_r)_{r \in R_i} 和 (g_t)_{t \in T_l}；那么从 (23) 可以得出，Z = YX 的子矩阵 Z_{li} 由下式给出
+型 (S, R) 的矩阵集合与 A 中的元素和矩阵矩阵集合型 K 的 $(X_{kt})_{(k, t) \in K \times I}$ \times I，其中每个 X_{kt} 为矩阵超过型 (S_k, R_i) 的 A。 假设进一步 G 承认有限基 (g_t)_{t \in T} 并且 T = (T_l)_{l \in L} 是 T 的划分，这样，对于每个 l \in L，(g_t)_{t \in T_l} 是 G_l 的基；令 Y = M(v) 为 v 相对于基 (f_s)_{s \in S} 和 (g_t)_{t \in T} 的矩阵，Y_{lk} = M(v_{lk}) 为 v_{lk} 相对于基 (f_s)_{s \in S_k} 和 (g_t)_{t \in T_l}， w = v \circ u 的 Z = M(w) 矩阵相对于基 (e_r)_{r \in R} 和 (g_t)_{t \in T} 和 Z_{li} = M(w_{li}) w_{li} 相对于基 (e_r)_{r \in R_i} 和 (g_t)_{t \in T_l}；那么从 (23) 可以得出，Z = YX 的子矩阵 Z_{li} 由下式给出
 
 $$
 Z_{li} = \sum_k Y_{lk} X_{kt}
@@ -468,7 +468,7 @@ which is considered as a symbol denoting X when p and q are specific integers su
 
 ### 6. 半线性映射的矩阵
 
-设A，B为两个环，\sigma：A \to B 同态，A进入B，E为右（左）A-模与基（e_i）_{i \in I}，F为右（左）B-模与基 $(f_k)_{k \in K}$。令$u : E \to F$是相对于$\sigma$和$u(e_i) = \sum_{k \in K} f_k u_{ki}$（分别为$u(e_i) = \sum_{k \in K} u_{ki} f_k$）的*半线性*映射，其中$u_{ki}$因此是B的元素；由定义、型$K \times I$的矩阵$M(u) = (u_{ki})$相对于基*$(e_i)$和$(f_k)$也称为u的*矩阵。通过与no. 4的命题2相同的计算，立即验证对于所有$x \in E$，如果I和K是*有限*，
+设A，B为两个环，\sigma：A \to B 同态，A进入B，E为右（左）A-模与基（e_i）_{i \in I}，F为右（左）B-模与基 $(f_k)_{k \in K}$。令 $u : E \to F$ 为相对于 $\sigma$ 和 $u(e_i) = \sum_{k \in K} f_k u_{ki}$（分别为 $u(e_i) = \sum_{k \in K} u_{ki} f_k$）的*半线性* 映射，其中 $u_{ki}$ 因此是 B 的元素；由定义、型$K \times I$的矩阵$M(u) = (u_{ki})$相对于基*$(e_i)$和$(f_k)$也称为u的*矩阵。通过与no. 4的命题2相同的计算，立即验证对于所有$x \in E$，如果I和K是*有限*，
 
 (26D)
 $$
@@ -481,7 +481,7 @@ $$
 {}^t M(u(x)) = \sigma({}^t M(x)) \cdot {}^t M(u)).
 $$
 
-设 C 为第三个环、$\tau : B \to C$ 同态，G 为右（左）C-模，其中基 $(g_l)_{l \in L}$ 和 $v$ F 到 G 相对于 $\tau$ 的半线性映射；如果$M(v)$相对于$(f_k)$和$(g_l)$是$v$的矩阵，并且相对于$(e_i)$和$(g_l)$是$v \circ u$的$M(v \circ u)$矩阵，那么，如果I、K和L是有限的，
+令C为第三个环，$\tau : B \to C$同态，G为右（或左）C-模，其中基$(g_l)_{l \in L}$和$v$为F到G相对于$\tau$的半线性映射；如果$M(v)$相对于$(f_k)$和$(g_l)$是$v$的矩阵，并且相对于$(e_i)$和$(g_l)$是$v \circ u$的$M(v \circ u)$矩阵，那么，如果I，K和L 是有限的，
 
 (27D)
 $$
@@ -503,7 +503,7 @@ $$
 $$
 从而（27 天）由命题 1 个no. 3 完成。
 
-最后假设$\sigma : A \to B$是*同构*；然后回想一下${}^t u : F^* \to E^*$是相对于$\sigma^{-1}$（§ 2, no. 5）的半线性映射；当 I 和 K 有限时，关于对偶基 $(f_k^*)$ 和 $(e_i^*)$ 的矩阵 ${}^t u$ 由下式给出
+最后假设$\sigma : A \to B$是*同构*；然后回想一下${}^t u : F^* \to E^*$是相对于$\sigma^{-1}$（§ 2, no. 5）的半线性映射；当I和K是有限的时，矩阵${}^t u$相对于对偶基$(f_k^*)$和$(e_i^*)$由下式给出
 
 (28)
 $$
@@ -537,7 +537,7 @@ $$
 
 #### 定义 4 {#alg-ii-s10-def-4 .statement tag=05WR}
 
-*矩阵其行与列具有相同索引集合称为平方矩阵。*
+*与列具有相同索引集合的行称为矩阵平方矩阵。*
 
 具有 $n$ 行和 $n$ 列的平方矩阵称为阶* $n$ 的 *矩阵。
 
@@ -545,7 +545,7 @@ $$
 
 应该注意的是，矩阵的行索引集合和列具有*相同的基数*但*不相同*，不能被视为平方矩阵；特别是，两个这样的矩阵超过环的乘积*未定义*。
 
-显然，A 上的方阵的加法和乘法具有有限的集合作为行的索引集合，以及这些矩阵的集合上的列、定义 *环* 结构，因为公式 (7)、(8) 和 (9) (no. 3)； 矩阵$(\delta_{ij})$，其中$\delta_{ij}$是克罗内克指标（对于$i \in I, j \in I$），是这个环的单位元，并且当我有时用$I_n$或$l_n$表示$n$元素。当$I = \{1, n\}$时，如此定义的矩阵中的环简称为$\mathbf{M}_n(A)$； $\mathbf{M}_n(A)$的可逆元的群用$\mathbf{GL}_n(A)$或$\mathbf{GL}(n, A)$表示。
+显然，A 上的方阵的加法和乘法具有有限的集合作为行的索引集合，以及这些矩阵的集合上的列、定义 *环* 结构，因为公式 (7)、(8) 和 (9) (no. 3)； 矩阵$(\delta_{ij})$，其中$\delta_{ij}$是克罗内克指标（对于$i \in I, j \in I$），是环的单位元，当I时用$I_n$或$l_n$表示有 $n$ 元素。当$I = \{1, n\}$时，如此定义的矩阵中的环简称为$\mathbf{M}_n(A)$； $\mathbf{M}_n(A)$的可逆元的群用$\mathbf{GL}_n(A)$或$\mathbf{GL}(n, A)$表示。
 
 为了使 A 上的阶 $n$ 的平方矩阵 $U = (a_{ij})$ 是右（或左）可逆的，有必要且充分的是，对于 A 的元素的每个系统 $(b_i)_{1 \leq i \leq n}$，系统 $n$ 未知数中的 $n$ 方程组
 
@@ -557,11 +557,11 @@ $$
 
 A 中有*一个解* $(x_i)$。
 
-令 I 为有限索引集合，A 环和 E 为右（左）A-模和基 $(e_i)_{i \in I}$。对于E的每一个*自同态*$u$，$u$的矩阵$M(u)$相对于*基与*$(e_i)$相同，是平方矩阵；更简单地说，它被称为$u$*相对于基*$(e_i)$的矩阵。
+令 I 为有限索引集合，A 环和 E 为右（左）A-模和基 $(e_i)_{i \in I}$。对于E的每个*自同态*$u$，$u$的矩阵$M(u)$相对于*$(e_i)$相同的两个基为平方矩阵；更简单地说，它被称为$u$*相对于基*$(e_i)$的矩阵。
 
-假设$I = \{1, n\}$。 映射$u \mapsto M(u)$（或$u \mapsto {}^t M(u)$）是环$\mathrm{End}_A(E)$到$\mathbf{M}_n(A)$（或$\mathbf{M}_n(A)$的逆环）的*同构*，如下来自公式 （18 D）（分别为 18 G））（no. 4）。 环 $\mathbf{M}_n(\mathbf{A})$ 的可逆元称为*可逆矩阵*、对应在映射 $u \mapsto M(u)$（或 $u \mapsto {}^t M(u)$）下到 E 的 *自同构*；因此，群 $\mathbf{GL}(n, \mathbf{A})$ 被规范地标识为群 $\mathbf{GL}(\mathbf{A}_d^n)$。
+假设$I = \{1, n\}$。 映射$u \mapsto M(u)$（分别$u \mapsto {}^t M(u)$）是环$\mathrm{End}_A(E)$到$\mathbf{M}_n(A)$（分别到$\mathbf{M}_n(A)$的逆环的*同构*，如下来自公式 （18 D）（分别为 18 G））（no. 4）。 环 $\mathbf{M}_n(\mathbf{A})$ 的可逆元称为*可逆矩阵*、对应在映射 $u \mapsto M(u)$（或$u \mapsto {}^t M(u)$）下到 E 的 *自同构*；因此，群 $\mathbf{GL}(n, \mathbf{A})$ 被规范地标识为群 $\mathbf{GL}(\mathbf{A}_d^n)$。
 
-如果 $u$ 是 E 的自同构，则其*相反* $\check{u}$ 是左（右）A-模 $E^*$ 的自同构，使得 $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (§ 2, no. 5, 定义 6)；如果$M(\check{u})$相对于对偶基$(e_i^*)$是$\check{u}$的矩阵，则根据命题3（no. 4），
+如果 $u$ 是 E 的自同构，则其*相反* $\check{u}$ 是左（右）A-模 $E^*$ 的自同构，使得 $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (§ 2, no. 5, 定义 6)；如果$M(\check{u})$相对于对偶基$(e_i^*)$是$\check{u}$的矩阵，那么，凭借命题3（no. 4），
 
 $$
 M(\check{u}) = ({}^t M(u))^{-1} = {}^t M(u^{-1}).
@@ -583,15 +583,15 @@ $$
 
 相当于$k < i$的关系$u_{ki} = 0$。
 
-*例方阵。* I. *对角线矩阵*。 平方矩阵
+*例共方阵。*I。 *对角线矩阵*。在平方矩阵
 
 $$
 M = (m_{\iota \kappa})_{(\iota, \kappa) \in I \times I},
 $$
 
-指标相等的元素称为*对角线元素*，$(m_{\iota \iota})_{\iota \in I}$族称为$M$的*对角的*； 平方矩阵 $M = (m_{\iota \kappa})$超过环，其元素除对角线元素外均为零，称为*对角矩阵*。对于环$\mathbf{A}$、对角矩阵$(m_{\iota \kappa})$的元素的每个家庭$(a_\iota)_{\iota \in I}$，使得所有$\iota \in I$的$m_{\iota \iota} = a_\iota$由$\operatorname{diag}(a_\iota)_{\iota \in I}$表示（或$\operatorname{diag}(a_1, a_2, \ldots, a_n)$，当$I = \{1, n\}$）。 $\mathbf{A}$以上阶$n$方阵集合$\mathbf{M}_n(\mathbf{A})$，单位矩阵$I_n$为对角矩阵以及每倍数这个矩阵的$a I_n = I_n a$由标量$a$（对角矩阵（称为*标量*），其所有对角线元素等于$a$）。
+与指标相等的元素称为*对角线元素*，$(m_{\iota \iota})_{\iota \in I}$族称为$M$的*对角的*； 平方矩阵 $M = (m_{\iota \kappa})$超过环，其元素除对角线元素外均为零，称为*对角矩阵*。对于环$\mathbf{A}$、对角矩阵$(m_{\iota \kappa})$的元素的每个家庭$(a_\iota)_{\iota \in I}$，使得所有$\iota \in I$的$m_{\iota \iota} = a_\iota$由$\operatorname{diag}(a_\iota)_{\iota \in I}$表示（或$\operatorname{diag}(a_1, a_2, \ldots, a_n)$，当$I = \{1, n\}$）。 $\mathbf{A}$以上阶$n$方阵集合$\mathbf{M}_n(\mathbf{A})$，单位矩阵$I_n$为对角矩阵以及每倍数这个矩阵的$a I_n = I_n a$由标量$a$（对角矩阵（称为*标量*），其所有对角线元素等于$a$）。
 
-对于$\mathbf{A}$的元素的每个家庭$(d_i)_{1 \leq i \leq n}$以及型$(n, q)$（或$(p, n)$）超过$\mathbf{A}$的每个矩阵$X = (x_{ij})$，写下$D = \operatorname{diag}(d_i)$，
+对于$\mathbf{A}$的元素的每个家庭$(d_i)_{1 \leq i \leq n}$和型$(n, q)$（分别为$(p, n)$）超过$\mathbf{A}$的每个矩阵$X = (x_{ij})$，写下$D = \operatorname{diag}(d_i)$，
 
 $$
 \begin{cases}
@@ -612,15 +612,15 @@ $$
 
 The diagonal matrices therefore form a subring of $\mathbf{M}_n(\mathbf{A})$ isomorphic to the product ring $\mathbf{A}^n$; the scalar matrices form a subring isomorphic to $\mathbf{A}$.
 
-II. *置换矩阵；单项式矩阵。*令$\pi$为有限集合$\mathbf{I}$的任意*置换*，并令$(e_i)_{i \in \mathbf{I}}$为$\mathbf{A}$模$\mathbf{E} = \mathbf{A}_d^\mathbf{I}$的典范基； $\mathbf{E}$中存在且仅有一个自同态$u_\pi$，使得对于所有$i \in \mathbf{I}$，$u_\pi(e_i) = e_{\pi(i)}$（§ 1, no. 11，推论3到命题17）。对于所有$i \in \mathbf{I}$，矩阵$M(u_\pi)$中的指标$i$的列相对于基$(e_i)$拥有除指标行中的所有元素零之外的所有元素零 $\pi(i)$，等于 1。通过滥用语言，$M(u_\pi)$ 被称为置换* $\pi$ 的 *矩阵。 直接的，对于$\mathbf{I}$，$u_{\sigma \tau} = u_\sigma \circ u_\tau$中的任意两个置换$\sigma, \tau$，对于恒等式置换$\varepsilon$，$u_\varepsilon$是恒等式；因此，映射$\pi \mapsto M(u_\pi)$是群$\mathfrak{S}_\mathbf{I}$到置换矩阵的对称群的*同构的*。
+II。 *置换矩阵；单项式矩阵。*令$\pi$为有限集合$\mathbf{I}$的任意*置换*，并令$(e_i)_{i \in \mathbf{I}}$为$\mathbf{A}$模$\mathbf{E} = \mathbf{A}_d^\mathbf{I}$的典范基； $\mathbf{E}$中存在且仅有一个自同态$u_\pi$，使得对于所有$i \in \mathbf{I}$，$u_\pi(e_i) = e_{\pi(i)}$（§ 1, no. 11，推论3到命题17）。对于所有$i \in \mathbf{I}$，矩阵$M(u_\pi)$中的指标$i$的列相对于基$(e_i)$拥有除指标行中的所有元素零之外的所有元素零 $\pi(i)$，等于 1。通过滥用语言，$M(u_\pi)$ 被称为置换* $\pi$ 的 *矩阵。 直接的，对于$\mathbf{I}$，$u_{\sigma \tau} = u_\sigma \circ u_\tau$中的任意两个置换$\sigma, \tau$，对于恒等式置换$\varepsilon$，$u_\varepsilon$是恒等式；因此，映射$\pi \mapsto M(u_\pi)$是群$\mathfrak{S}_\mathbf{I}$到置换矩阵的对称群的*同构的*。
 
 每行和置换矩阵包含中的每个列只有一个元素$\neq 0$。非零环 $\mathbf{A}$ 上的有限平方矩阵 $R$，以及性质，称为*单项式矩阵*；令指标$i$的$R$列中的$r_i$为唯一元素$\neq 0$，并令$\pi(i)$为该元素所在行的指标；显然，$\pi$是索引集合$\mathbf{I}$和$R = M(u_\pi)D$的置换，其中$D = \text{diag}(r_i)$。
 
-III. *三角形矩阵。* 在阶 $n$ 方阵的环 $\mathbf{M}_n(\mathbf{A})$ 超过环 $\mathbf{A}$，任何矩阵 $(a_{ij})$ 使得$a_{ij} = 0$ 为$i > j$（或$i < j$）称为*上*（或*下*）*三角形矩阵*；也有人说这样的矩阵*只有零低于*（或*以上*）*其对角线*。立即确定，$\mathbf{M}_n(\mathbf{A})$的上（或下）三角形矩阵形式子环$S$（或$T$），$S \cap T$显然是对角线矩阵的环。
+III。 *三角形矩阵。*在阶$n$的方阵的环$\mathbf{M}_n(\mathbf{A})$超过环$\mathbf{A}$，任何矩阵$(a_{ij})$使得$a_{ij} = 0$对于$i > j$ （分别$i < j$）被称为*上*（分别*下*）*三角形矩阵*；也有人说这样的矩阵*只有零低于*（或*以上*）*其对角线*。立即确定，$\mathbf{M}_n(\mathbf{A})$的上（或下）三角形矩阵形式子环$S$（或$T$），$S \cap T$显然是对角线矩阵的环。
 
 The set $S'$ (resp. $T'$) of matrices in $S$ (resp. $T$) whose diagonal elements are *invertible* is a multiplicative *group* of matrices called the *upper* (resp. *下*）*总三角形群*，紧随§ 1, no. 11，*注* 5。 The set $S_1$ (resp. $T_1$) of matrices in $S$ (resp. $T$) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *upper* (resp. *下*) *严格的三角形群*，以及每个对角线为$(d_i)$的矩阵$M \in S'$（分别为$M \in T'$），可以写成$M = DM_1 = M'_1D$，其中$D = \text{diag}(d_i)$和$M_1$和$M'_1$矩阵属于至 $S_1$（分别为 $T_1$）。
 
-IV. *矩阵的对角线和三角形矩阵。*令$(I_k)_{1 \leq k \leq p}$为有限集合$\mathbf{I}$的划分； 平方矩阵超过环 $\mathbf{A}$ 且具有索引集合 $\mathbf{I}$ 都可以写在矩阵* 相应的的 *平方矩阵的形式中行索引集合的划分 $(\mathbf{I}_k)$ 以及列 (no. 5) 的索引集合
+IV。 *矩阵的对角线和三角形矩阵。*令$(I_k)_{1 \leq k \leq p}$为有限集合$\mathbf{I}$的划分； 平方矩阵超过环 $\mathbf{A}$ 且具有索引集合 $\mathbf{I}$ 都可以写在矩阵* 相应的的 *平方矩阵的形式中行索引集合的划分 $(\mathbf{I}_k)$ 以及列 (no. 5) 的索引集合
 
 $$
 (32)
@@ -634,7 +634,7 @@ $$
 
 其中每个$X_{kk}$是平方矩阵，其中$\mathbf{I}_k$作为行的索引集合和列。
 
-有了这个记号，（32）将被称为矩阵的对角线（分别是上三角，分别是下三角）矩阵，如果所有矩阵$X_{ij}$使得$i \neq j$（分别是$i > j$，分别是$i < j$） 零。 自同态 $u$ 的解释，其中矩阵分别是对角线。三角形，通过考虑线性映射的相应的矩阵 $M(u)$，之前已经看到了矩阵的矩阵。对于给定的划分$(\mathbf{I}_k)$，形式子环，环，矩阵$\mathbf{A}^{I \times I}$，下三角形（或上三角形，对角的）矩阵的矩阵。特别地，矩阵的对角线矩阵相对于划分$(\mathbf{I}_k)$的环与乘积$\prod_{k=1}^p \operatorname{End}_\mathbf{A}(E_k)$同构的。
+有了这个记号，如果所有矩阵$X_{ij}$使得$i \neq j$（$i > j$，$i < j$）都是零，则（32）将被称为矩阵的对角线（分别是上三角，分别是下三角）矩阵。 自同态 $u$ 的解释，其矩阵分别是对角线。三角形，通过考虑线性映射的相应的矩阵 $M(u)$，之前已经看到了矩阵的矩阵。 The lower triangular (resp. upper triangular, diagonal) matrices of matrices for a given partition $(\mathbf{I}_k)$ of I form subrings of the ring of matrices $\mathbf{A}^{I \times I}$. 特别地，矩阵的对角线矩阵相对于划分$(\mathbf{I}_k)$的环与乘积$\prod_{k=1}^p \operatorname{End}_\mathbf{A}(E_k)$同构的。
 
 ### 8. 变换的基
 
@@ -739,9 +739,9 @@ $$
 x_{i'}^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n).
 $$
 
-(3) 设A、B为A的两个环、$\sigma : A \to B$同态到B、E的右（左）A-模、$(e_i)$、$(e_i')$两个基与E、F的右（左）$n$元素 B-模、$(f_j)$、$(f_j')$ 两个基以及 F 的 $m$ 元素和 $P$（分别为 $Q$） 矩阵从 $(e_i)$ 到 $(e_i')$（分别从$(f_j)$至$(f_j')$）。
+(3) 设A、B为A的两个环、$\sigma : A \to B$同态到B、E的右（左）A-模、$(e_i)$、$(e_i')$两个基与E、F的右（左）$n$元素 B-模、$(f_j)$、$(f_j')$ 两个基以及 F 的 $m$ 元素和 $P$（分别为 $Q$）矩阵从 $(e_i)$ 到 $(e_i')$（分别从$(f_j)$至$(f_j')$）。
 
-对于每个半线性映射$u : E \to F$，相对于$\sigma$，令$M(u)$相对于$(e_i)$和$(f_j)$而言为$u$的矩阵，$M'(u)$相对于$(e_i')$为矩阵，并且$(f_j')$。然后
+对于每个半线性映射$u : E \to F$，相对于$\sigma$，令$M(u)$为$u$相对于$(e_i)$和$(f_j)$的矩阵，$M'(u)$相对于$(e_i')$的矩阵和$(f_j')$。然后
 
 （39D）
 $$
@@ -759,51 +759,51 @@ $$
 
 #### 定义 5 {#alg-ii-s10-def-5 .statement tag=05WZ}
 
-*如果存在阶 m 的可逆平方矩阵* $P$ *和一个可逆平方，则两个矩阵* $X, X'$ *具有 m 行和 n 列超过环被称为等效矩阵* $Q$ *阶 n 这样*
+*如果存在阶 m 的可逆平方矩阵* $P$ *和可逆平方，则两个矩阵* $X, X'$ *具有 m 行和 n 列超过环被称为等效矩阵* $Q$ *阶 n 这样*
 
 (40)
 $$
 X' = PXQ.
 $$
 
-显然，关系“X 和 X' 等价”是型 $(m, n)$ 的矩阵的集合 $A^{mn}$ 在 A 上的等价关系（集合理论，II, § 6, no. 1），这证明了术语。
+显然关系“X和X'是等价的”在A上型$(m, n)$的矩阵集合$A^{mn}$上等价关系（集合理论，II, § 6, no. 1），这证明术语是合理的。
 
-由此，定义、no. 8的命题 6 可以用说来表示，当将基改变为两个右A-模E、F（与有限的基）时，线性映射$u : E \to F$的矩阵相对新的基相当于$u$的矩阵相对于旧的基。
+由此，定义、no. 8的命题 6 可以用说来表示，当基改变为两个右A-模E、F（其中有限基）时，线性映射$u : E \to F$的矩阵新的基相当于$u$的矩阵相对于旧的基。
 
-相反，如果关系 (40) 成立且 $u : A_d^n \to A_d^m$ 为线性映射，其中矩阵为 $X$，相对于 $A_d^n$ 和 $A_d^m$ 各自的规范基 $(e_i)$ 和 $(f_j)$，则相对于基$(e'_i)$和$(f'_j)$，$X'$是$u$的矩阵，使得$Q$是从$(e_i)$到$(e'_i)$和$P^{-1}$的矩阵从$(f_j)$到$(f'_j)$的矩阵。
+相反，如果关系 (40) 成立且 $u : A_d^n \to A_d^m$ 为线性映射，其中矩阵为 $X$，相对于 $A_d^n$ 和 $A_d^m$ 各自的规范基 $(e_i)$ 和 $(f_j)$，则$X'$是$u$相对于基$(e'_i)$和$(f'_j)$的矩阵，使得$Q$是从$(e_i)$到$(e'_i)$和$P^{-1}$的矩阵从 $(f_j)$ 到 $(f'_j)$ 的矩阵。
 
-例相当于矩阵。 (1) 两个矩阵$X = (x_{ij})$和$X' = (x'_{ij})$，其中$m$行和$n$列“仅在阶行中不同”，如果$\mathbf{N}$的区间$[1, m]$存在置换$\sigma$，这样对于指标$(i, j)$的每个有序对，$x'_{ij} = x_{\sigma(i), j}$（我们也说$X'$是通过对$X$的行执行置换$\sigma^{-1}$获得的）。对于 $X' = PX$，矩阵 $X$ 和 $X'$ 是等价的，其中 $P$ 是置换 $\sigma^{-1}$ 的矩阵（cf. no. 7，例 II）。
+例相当于矩阵。 (1) 如果存在 $\mathbf{N}$ 的区间 $[1, m]$ 的置换 $\sigma$，则两个矩阵 $X = (x_{ij})$ 和 $X' = (x'_{ij})$ 具有 $m$ 行和 $n$ 列“仅在阶行中不同”，这样对于指标$(i, j)$的每个有序对，$x'_{ij} = x_{\sigma(i), j}$（我们也说$X'$是通过对$X$的行执行置换$\sigma^{-1}$获得的）。对于 $X' = PX$，矩阵 $X$ 和 $X'$ 是等价的，其中 $P$ 是置换 $\sigma^{-1}$ 的矩阵 (cf. no. 7, 例) II）。
 
-类似地，如果存在$[1, n]$的置换$\tau$，使得$x'_{ij} = x_{i, \tau(j)}$对于指标的每个有序对，则据说$X$和$X'$仅在列中的阶有所不同$(i, j)$、$X$ 和 $X'$ 也等效，对于 $X' = XQ$，其中 $Q$ 是置换 $\tau$ 的矩阵。
+类似地，如果存在$[1, n]$的置换$\tau$，使得$x'_{ij} = x_{i, \tau(j)}$对于指标的每个有序对，则据说$X$和$X'$仅在列的阶有所不同$(i, j)$、$X$ 和 $X'$ 也等效，对于 $X' = XQ$，其中 $Q$ 是置换 $\tau$ 的矩阵。
 
-注，上述中的记号$P$是从基$(f_j)_{1 \leq j \leq m}$到基$(f_{\sigma^{-1}(j)})_{1 \leq j \leq m}$的通道矩阵和基的通道$Q$矩阵 $(e_i)_{1 \leq i \leq n}$ 至基 $(e_{\tau(i)})_{1 \leq i \leq n}$。
+注上述中的记号 $P$ 是从基 $(f_j)_{1 \leq j \leq m}$ 到基 $(f_{\sigma^{-1}(j)})_{1 \leq j \leq m}$ 的通道矩阵以及从基的$Q$ 矩阵 $(e_i)_{1 \leq i \leq n}$ 至基 $(e_{\tau(i)})_{1 \leq i \leq n}$。
 
-(2) 令$j, k$与$[1, n]$不同元素，并令$a \in A$。
+(2) 令$j, k$不同于元素与$[1, n]$，并令$a \in A$。
 
-假设对于$1 \leq i \leq m$，$x'_{ij} = x_{ij} + x_{ik}a$和$x'_{il} = x_{il}$对于$j \neq l$和$1 \leq i \leq m$；据说$X'$是由$X$衍生而来，加上指标$j$列的$X$的列，指标$k$的右侧乘以$a$。在这种情况下，$X$和$X'$也是等价的：因为如果$Q = I_n + aE_{kj}$（可逆三角形矩阵，如no. 7所示），则$X' = XQ$。
+假设对于$1 \leq i \leq m$，$x'_{ij} = x_{ij} + x_{ik}a$和$x'_{il} = x_{il}$对于$j \neq l$和$1 \leq i \leq m$；据说$X'$是由$X$通过添加指标$j$列的$X$的列加上指标$k$的右侧乘以$a$而得。在这种情况下，$X$和$X'$也是等价的：因为如果$Q = I_n + aE_{kj}$（可倒三角形矩阵，如no. 7所示），则$X' = XQ$。
 
-类似地，令$h, i$为$[1, m]$的两个不同的元素和$A$的$a$元素；如果 $X'$ 是从 $X$ 导出的，通过将指标 $i$ 的$X$ 行添加到指标 $h$ 行左侧乘以 $a$，$X$ 和 $X'$ 是等价的，对于$X' = PX$，其中$P = I_m + aE_{ih}$。
+类似地，令$h, i$是$[1, m]$的两个不同的元素和$a$元素的$A$；如果 $X'$ 是从 $X$ 导出的，通过将指标 $i$ 的 $X$ 行添加到指标 $h$ 行左侧乘以 $a$，则 $X$ 和 $X'$ 是等价的，对于$X' = PX$，其中$P = I_m + aE_{ih}$。
 
-(3) 最后，如果对于给定的指标$j$，$x'_{ij} = x_{ij}c$对于$1 \leq i \leq m$，其中$c$是可逆的，$x'_{il} = x_{il}$对于$1 \leq i \leq m$和$l \neq j$，$X$和$X'$是等价的；对于$X' = XQ$，其中$Q$是矩阵$\operatorname{diag}(a_k)$，$a_j = c$，$a_k = 1$对于$k \neq j$。那么$X'$据说是由$X$通过将右侧的指标$j$的$X$的列乘以$a$得出。
+(3) 最后，如果对于给定的指标$j$，$x'_{ij} = x_{ij}c$对应于$1 \leq i \leq m$，其中$c$是可逆的，$x'_{il} = x_{il}$对应于$1 \leq i \leq m$和$l \neq j$，$X$和$X'$是等价的；对于$X' = XQ$，其中$Q$是矩阵$\operatorname{diag}(a_k)$，$a_j = c$，$a_k = 1$对于$k \neq j$。那么$X'$据说是由$X$通过将右侧的指标$j$的$X$的列乘以$a$得出。
 
-类似地，如果$X'$是从$X'$通过将左侧指标$i$的$X$行乘以可逆元$c \in A$得出，$X'$和$X$是等价的，对于$X' = PX$，其中$P$是矩阵$\operatorname{diag}(b_h)$搭配$b_i = c$，$b_h = 1$搭配$h \neq i$。
+类似地，如果$X'$是由$X'$通过将左侧指标$i$的$X$行乘以可逆元$c \in A$得出，$X'$和$X$是等价的，对于$X' = PX$，其中$P$ 是矩阵 $\operatorname{diag}(b_h)$ 与 $b_i = c$，$b_h = 1$ $h \neq i$。
 
 #### 定义 6 {#alg-ii-s10-def-6 .statement tag=05X0}
 
-*如果存在阶 n 的可逆平方矩阵 P，则环 A 上的阶 n 的两个方阵 X, X' 被称为相似，使得*
+*如果存在阶 n 的可逆平方矩阵 P，则环 A 上的阶 n 的两个方阵 X、X' 被称为相似*
 
 $$(41)$$
 $$X' = PXP^{-1}$$
 
-显然，关系“X 和 X' 相似”是 $M_n(A)$ 上的 *等价关系*，这意味着 X 和 X' 通过该环的 *内自同构* 转换为一个另一个。
+显然，关系“X和X'相似”是$M_n(A)$上的*等价关系*，这意味着X和X'通过这个环的*内自同构*转换为一个另一个。
 
-有了这个定义，no. 8的推论1到命题6可以用说来表示，当A-模E（具有有限的基）的基改变时，自同态u的矩阵相对于新的基为*类似于* u 的矩阵相对于旧的基。
+有了这个定义，no. 8的推论1到命题6可以用说来表示，当A-模E（具有有限的基）的基改变时，自同态u的矩阵新的基与旧的基相比，与u的矩阵*相似。
 
 #### 注 {#alg-ii-s10-n9-rem-1 .statement tag=05X1}
 
-(1) 两个仅在阶行（或列中的阶）不同的方阵是等价的，但通常*不相似*。 矩阵类似于平方矩阵 $X = (x_{ij})$ 可以通过对行和列执行*相同的置换* $\sigma^{-1}$来获得，即通过考虑矩阵$X' = (x'_{ij})$，其中$x'_{ij} = x_{\sigma(i), \sigma(j)}$对于每个有序对共指标；因为如果X相对于基$(e_i)_{1 \leq i \leq n}$是$A^n_d$的自同态u的矩阵，$X'$相对于基$(e_{\sigma(i)})_{1 \leq i \leq n}$是u的矩阵。
+(1) 两个仅在阶行（或列的阶）不同的方阵是等价的，但一般来说*不相似*。 矩阵类似于平方矩阵 $X = (x_{ij})$ 可以通过对行和列执行*相同的置换* $\sigma^{-1}$ 来获得，即考虑矩阵 $X' = (x'_{ij})$，其中每有序对指标 $x'_{ij} = x_{\sigma(i), \sigma(j)}$；因为如果相对于基$(e_i)_{1 \leq i \leq n}$，X是$A^n_d$的自同态u的矩阵，$X'$相对于基$(e_{\sigma(i)})_{1 \leq i \leq n}$是u的矩阵。
 
-(2) 令X和$X'$为阶n的两个方阵，可写成方阵的对角线矩阵的形式(no. 7，例IV)：
+(2) 设X和$X'$为阶n中的两个方阵，可写成方阵的对角线矩阵的形式(no. 7，例IV)：
 
 $$
 X = \begin{pmatrix}
@@ -841,9 +841,9 @@ $$
 
 计算“块”乘积（no. 6）如下。此外，如果$Q_i = P_i^{-1}$对于所有i，则$Q = P^{-1}$。
 
-### 10.张量积/矩阵超过交换环
+### 10.张量积矩阵超过交换环
 
-令 C 为交换环，E、F、U、V 为四个 C-模和 $\phi : E \to U$、$\psi : F \to V$ 两个 C 线性映射。假设E、F、U、V分别有有限基$(e_\lambda)_{\lambda \in L}, (f_\mu)_{\mu \in M}, (u_\rho)_{\rho \in R}, (v_\sigma)_{\sigma \in S}$；对于$(e_\lambda)$和$(u_\rho)$，令$A = (a_{\rho \lambda})$为$\phi$的矩阵，对于$(f_\mu)$和$(v_\sigma)$，$B = (b_{\sigma \mu})$为$\psi$。对于每个有序对 $(\lambda, \mu) \in L \times M = N$，令 $g_{\lambda \mu} = e_\lambda \otimes f_\mu$；对于每个有序对 $(\rho, \sigma) \in R \times S = T$ 让 $w_{\rho \sigma} = u_\rho \otimes v_\sigma$； $g_{\lambda \mu}$ 然后 $E \otimes F$ 的形式基以及 $U \otimes V$ 的 $w_{\rho \sigma}$ 基（§ 3, no. 6，推论 2 到命题 7）。 $A$ 与 $B$ 的 *张量积*（记为 $A \otimes B$）为矩阵 $X = (x_{\tau v})_{(\tau, v) \in T \times N}$，其元素由下式给出
+令C为交换环、E、F、U、V四个C-模块和$\phi : E \to U$、$\psi : F \to V$两个C-线性映射。假设E、F、U、V分别有有限基$(e_\lambda)_{\lambda \in L}, (f_\mu)_{\mu \in M}, (u_\rho)_{\rho \in R}, (v_\sigma)_{\sigma \in S}$；对于$(e_\lambda)$和$(u_\rho)$，令$A = (a_{\rho \lambda})$为$\phi$的矩阵，对于$(f_\mu)$和$(v_\sigma)$，$B = (b_{\sigma \mu})$为$\psi$。对于每个有序对 $(\lambda, \mu) \in L \times M = N$，令 $g_{\lambda \mu} = e_\lambda \otimes f_\mu$；对于每个有序对 $(\rho, \sigma) \in R \times S = T$ 让 $w_{\rho \sigma} = u_\rho \otimes v_\sigma$； $g_{\lambda \mu}$ 然后 $E \otimes F$ 的形式基以及 $U \otimes V$ 的 $w_{\rho \sigma}$ 基（§ 3, no. 6，推论 2 到命题 7）。 $A$ 与 $B$ 的 *张量积*（记为 $A \otimes B$）为矩阵 $X = (x_{\tau v})_{(\tau, v) \in T \times N}$，其中元素由下式给出
 
 $$
 x_{(\rho, \sigma), (\lambda, \mu)} = a_{\rho \lambda} b_{\sigma \mu}.
@@ -858,9 +858,9 @@ $$
 \end{align*}
 $$
 
-$A \otimes B$元素定义(42)表明，该矩阵对应与矩阵$(a_{\rho \lambda} B)_{(\rho, \lambda) \in R \times L}$的矩阵以及矩阵$(A b_{\sigma \mu})_{(\sigma, \mu) \in S \times M}$(no. 5)双射。
+$A \otimes B$的元素的定义(42)表明，该矩阵对应与矩阵$(a_{\rho \lambda} B)_{(\rho, \lambda) \in R \times L}$的矩阵以及矩阵$(A b_{\sigma \mu})_{(\sigma, \mu) \in S \times M}$(no. 5)双射。
 
-$(\phi, \psi) \mapsto \phi \otimes \psi$ 是 C 双线性映射，§ 3, no. 5 的公式 (9) 可以用恒等式表示
+事实上，$(\phi, \psi) \mapsto \phi \otimes \psi$是C双线性映射以及§ 3, no. 5的公式(9)，可以用恒等式来表示
 
 $$
 \begin{align*}
@@ -978,8 +978,8 @@ The finite matrices with $m$ rows and $n$ columns over a field $K$ are in one-to
 
 (a) *X 在 $\mathbf{M}_n(\mathbf{K})$ 中可逆。*
 (b) *X 在 $\mathbf{M}_n(\mathbf{K})$ 中是右可逆的。*
-(c) *X 在 $\mathbf{M}_n(\mathbf{K})$ 中是可逆的。*
-(d) *X 为秩 n。*
+(c) *X 在 $\mathbf{M}_n(\mathbf{K})$ 中可逆。*
+(d) *X 属于秩 n.*
 
 这只是 § 7, no. 4 的翻译，是命题 9 的推论。
 
@@ -1009,7 +1009,7 @@ $$
 
 K 上的型 $(m, n)$ 和秩 r 的每个矩阵相当于形式 (55) 的矩阵。*
 
-第二个断言与第一个基本等价。为了显示后者，让$\dim E = n$，$\dim F = m$。 核 $N = u^{-1}(0)$ 是维数 $n - r$ (§ 7, no. 4, 公式 (11))；设V是E中N的子空间和E的$(e_i)_{1 \leq i \leq n}$基，使得$(e_i)_{1 \leq i \leq r}$是V的基和N的$(e_i)_{r+1 \leq i \leq n}$基。然后$u(e_j)$$(1 \leq j \leq r)$形式基共$u(E)$；因此，存在 F 的基 $(f_j)_{1 \leq j \leq m}$，使得 $1 \leq j \leq r$ (§ 7, no. 1, 定理 2) 具有 $f_j = u(e_j)$，并且显然关于基 $(e_i)$ 和 $(f_j)$ 矩阵 $M(u)$由 (55) 给出。
+第二个断言与第一个基本等价。为了显示后者，让$\dim E = n$，$\dim F = m$。 核 $N = u^{-1}(0)$ 是维数 $n - r$ (§ 7, no. 4, 公式 (11))；令V为E中N的子空间和E中的$(e_i)_{1 \leq i \leq n}$基的补充，使得$(e_i)_{1 \leq i \leq r}$是V的基和N的$(e_i)_{r+1 \leq i \leq n}$基。则$u(e_j)$ $(1 \leq j \leq r)$形式基共$u(E)$；因此，存在 F 的基 $(f_j)_{1 \leq j \leq m}$，使得 $1 \leq j \leq r$ (§ 7, no. 1, 定理 2) 具有 $f_j = u(e_j)$，并且显然关于基 $(e_i)$ 和 $(f_j)$ 矩阵 $M(u)$由 (55) 给出。
 
 #### 推论{#alg-ii-s10-n13-cor-1 .statement tag=05XA}
 
@@ -1062,7 +1062,7 @@ $$
 P' \in \mathbf{M}_{m-1}(\mathbf{K}), \quad Q' \in \mathbf{M}_{n-1}(\mathbf{K})
 $$
 
-which are products of matrices of the form $B_{ij}(\lambda)$ of order $m - 1$ (resp. $n - 1$), such that $P'YQ'$ is of the form (58). 但是，如果 $B_{ij}(\lambda)$ 属于对于例到 $\mathbf{M}_{m-1}(\mathbf{K})$，则
+其中乘积 / 矩阵 / 形式 $B_{ij}(\lambda)$ / 阶 $m - 1$（分别为$n - 1$），使得$P'YQ'$为形式 (58)。但是，如果 $B_{ij}(\lambda)$ 属于对于例到 $\mathbf{M}_{m-1}(\mathbf{K})$，则
 
 $$
 \begin{pmatrix}
@@ -1071,7 +1071,7 @@ $$
 \end{pmatrix} = B_{i+1,\ j+1}(\lambda);
 $$
 
-公式 (58) 然后从公式进行块乘积写作
+公式 (58) 然后从公式开始块乘积写作
 
 $$
 P = \begin{pmatrix} 1 & 0 \\ 0 & P' \end{pmatrix} \text{ and } Q = \begin{pmatrix} 1 & 0 \\ 0 & Q' \end{pmatrix}.
@@ -1083,7 +1083,7 @@ $$
 
 #### 推论 1 {#alg-ii-s10-prop-14-cor-1 .statement tag=05XD}
 
-*如果$X$是阶$n$在域$\mathbf{K}$上的可逆平方矩阵，则存在阶$n$的三个可逆矩阵$P, Q, D$使得$X = PDQ$、$P$和$Q$为形式$B_{ij}(\lambda)$矩阵乘积和形式*$D$对角矩阵*
+*如果$X$是阶$n$的可逆平方矩阵超过域$\mathbf{K}$，则存在阶$n$的三个可逆矩阵$P, Q, D$这样$X = PDQ$、$P$ 和 $Q$ 分别为形式 $B_{ij}(\lambda)$ 矩阵乘积以及形式 $D$ 对角矩阵*
 
 $$
 D = \operatorname{diag}(1, 1, \ldots, \delta),
@@ -1095,13 +1095,13 @@ $$
 
 *对于每个域$\mathbf{K}$，可逆矩阵$\mathbf{GL}(n, \mathbf{K})$的群由置换矩阵（no. 7，例2）生成，对角线矩阵$\operatorname{diag}(a, 1, \ldots, 1)$ （$\mathbf{K}$中的$a \neq 0$）和矩阵$B_{12}(\lambda)$（$\lambda \in \mathbf{K}$）。*
 
-已经看出(no. 9)，适当转置的矩阵乘矩阵的右（或左）乘积交换任意两个列（或行）。那么矩阵$\operatorname{diag}(1, \ldots, 1, a)$等于$\operatorname{diag}(a, 1, \ldots, 1)$和置换矩阵的乘积，并且每个矩阵$B_{ij}(\lambda)$等于$B_{12}(\lambda)$和置换矩阵的乘积， 从而推论。
+已经看出(no. 9)，适当转置的矩阵的右(或左)乘积乘以矩阵交换任意两个列(或行)。那么矩阵$\operatorname{diag}(1, \ldots, 1, a)$等于$\operatorname{diag}(a, 1, \ldots, 1)$和置换矩阵的乘积，并且每个矩阵$B_{ij}(\lambda)$等于$B_{12}(\lambda)$和置换的乘积矩阵，从而推论。
 
 #### 注 {#alg-ii-s10-n13-rem-1 .statement tag=05XF}
 
-(1) 在章 III 中，我们将看到，如果$m = n = r$和$K$是*可交换的*，那么，对于$P$的所有选择和命题14的$Q$满足条件，元素 $\delta_r$ 始终相同且等于 $X$ (III, § 8, no. 6) 的*行列式*。
+(1) 在章III中，我们将看到，如果$m = n = r$和$K$是*可交换的*，那么，对于$P$和$Q$满足条件的所有选择命题 14、元素 $\delta_r$ 始终相同且等于 $X$ (III, § 8, no. 6) 的*行列式*。
 
-(2) 命题 14 的论证稍加修改，表明存在置换矩阵 $R$ 使得（$P$ 上有相同的条件）
+(2) 命题 14 的论证稍加修改，表明存在置换矩阵 $R$ 使得（与 $P$ 上的条件相同）
 
 $$
 PX R = \begin{pmatrix} I_r & N \\ 0 & 0 \end{pmatrix}

@@ -42,16 +42,16 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 41
-content_sha256: df1c7c3df8ffd270fbf9d0169c46e88e9e1b6721547a795c7baba69d0022ed83
+content_sha256: 44163cfe17f5abbf04b9c46e0770a74ba26d36856142adccc2e1da5811a83d86
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
 translation_method: google
 source_content_sha256: d821e97942b895b17be8ce1e792e14c608c04537847a1c472436cfaf015e5b24
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 334cb8eeb066d75e3f326be17a9a8c5c72d9f8a782c1dbade4c3a01cafcb66f1
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 6。 扩张，可溶解群，惰性群
@@ -444,9 +444,9 @@ $$
 
 #### 推论 2 {#alg-i-s6-prop-8-cor-2 .statement tag=05DG}
 
-*令 $G$ 为 $G$ 的幂零群和$H$ 子群。如果 $H$ 与 $G$ 不同，则存在 $G$、包含于 $H$ 的正常子群 $N$，与 $G$ 不同，并且 $G/N$ 是可交换的。*
+*令 $G$ 为 $G$ 的幂零群和 $H$ 子群。如果 $H$ 与 $G$ 不同，则存在 $G$、包含于 $H$ 的正常子群 $N$，与 $G$ 不同，并且 $G/N$ 是可交换的。*
 
-令 $k$ 是最小的指标，使得 $H^k \neq G$。 群$H^k$满足所需的条件。
+令 $k$ 是最小的指标，使得 $H^k \neq G$。 群$H^k$满足要求的条件。
 
 #### 推论 3 {#alg-i-s6-prop-8-cor-3 .statement tag=05DH}
 
@@ -454,11 +454,11 @@ $$
 
 G 的每个子群 N 其中包含 H 并且使得 G/N 是可交换的包含 H.(G, G)。因此，推论 3 由推论 2 得出。
 
-推论3也可以这样表述：设X为G的子集。对于X到生成G，G/D(G)中X的像生成G/D(G)是充分必要的。
+推论3也可以这样表述：设X为G的子集。对于X到生成G，X的像在G/D(G)生成G/D(G)中是充分必要的。
 
 #### 推论 4 {#alg-i-s6-prop-8-cor-4 .statement tag=05DI}
 
-*令 f: G' → G 为群同态。假设*
+*设 f: G' → G 为群同态。假设*
 (a) *G 是幂零的。*
 (b) *同态 f₁：G'/(G', G') → G/(G, G)，由 f 通过经过得到商，是满射。*
 *那么 f 是满射。*
@@ -505,7 +505,7 @@ $$
 
 然后$D^0(G) = C^1(G) = G,\ D^1(G) = C^2(G) = D(G) = (G, G)$。对于所有 n \in \mathbf{N}，D^n(G) \子集 C^{2^n}(G)，如使用 no. 3 的公式 (7) 在 n 上的归纳所示。
 
-令$f : G \to G'$为群同态。由 n 上的归纳可知 $f(D^n(G)) \subset D^n(G')$，并且如果 $f$ 是满射，则$f(D^n(G)) = D^n(G')$。特别是，对于所有$n \in \mathbf{N}$，$D^n(G)$是G的特征（因此正常）子群。对于所有$n \in \mathbf{N}$，群$D^n(G)/D^{n+1}(G)$是$G/D^{n+1}(G)$的交换范式（但不是一般中心）子群。
+设$f : G \to G'$为群同态。由 n 上的归纳可知 $f(D^n(G)) \subset D^n(G')$，并且如果 $f$ 是满射，则$f(D^n(G)) = D^n(G')$。特别是，对于所有 $n \in \mathbf{N}$，$D^n(G)$ 是 G 的特征（因此是正规）子群。对于所有 $n \in \mathbf{N}$，群 $D^n(G)/D^{n+1}(G)$ 是 $G/D^{n+1}(G)$ 的交换正规（但不是一般中心）子群。
 
 令 $(G_0, G_1, \ldots)$ 为 G 的子群的递减序列，使得： (1) $G_0 = G$； (2) 对于所有$i$，$G_{i+1}$在$G_i$中是正规的，$G_i/G_{i+1}$是可交换的。然后 $D^i(G) \subset G_i$ 对于所有 $i$，如$i$ 上的归纳所示。
 
@@ -573,9 +573,9 @@ In this number and the following, the letter $p$ denotes a prime number ($§ 4$,
 
 $p$-群的$p$-群的扩张是$p$-群。
 
-*例。 (1) 交换$p$群同构于循环群$\mathbf{Z}/p^n\mathbf{Z}$的乘积（cf.习题19以及VII，$§ 4$，no. 7，命题7）。
+*例。 (1) 交换$p$群同构于循环群$\mathbf{Z}/p^n\mathbf{Z}$的乘积（cf.习题19以及VII、$§ 4$、no. 7、命题7）。
 (2) 令$k$为特征$p$的有限域。严格三角形群$T_1(n, k)$是$p$群。
-(3) 四元数群 $\{ \pm 1, \pm i, \pm j, \pm k \}$ 是一个 2 群 (cf. 习题 4).*
+(3) 四元数群 $\{ \pm 1, \pm i, \pm j, \pm k \}$ 是 2 群 (cf. 习题 4).*
 
 #### 命题 11 {#alg-i-s6-prop-11 .statement tag=05DS}
 
@@ -608,7 +608,7 @@ $$
 
 *使得*$(G, G^k) \subset G^{k+1}, 1 \leq k \leq r,$和$G^k/G^{k+1}, 1 \leq k \leq r,$*是阶*$p$的循环。
 
-定理对于 $G = \{e\}$ 成立。我们通过$\operatorname{Card}(G)$上的归纳来证明。设Z为G的中心，Z的$x \neq e$元素（命题11的推论）和x的$p^s, s \neq 0,$阶。那么$x^{p^s - 1}$是阶$p$的元素，因此Z包含子群$G'$是阶$p$的循环。到归纳假设时，群 $G' = G/G'$ 具有级数或子群 $({G'}^k)_{1 \leq k \leq r}$ 且具有所需的属性。设$\pi : G \to G'$为典范同态。由$G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$定义的G的子群的序列对于$G^k/G^{k+1}$来说是解，与$1 \leq k \leq r$的${G'}^k/{G'}^{k+1}$同构的（§ 4, no. 7，定理4）。
+定理对于$G = \{e\}$ 成立。 我们通过$\operatorname{Card}(G)$上的归纳来证明。 设 Z 为 G 的中心、Z 的 $x \neq e$ 元素（命题 11 的推论）以及 x 的 $p^s, s \neq 0,$ 阶。 那么$x^{p^s - 1}$是阶$p$的元素，因此Z包含子群$G'$是阶$p$的循环。 到归纳假设时，群 $G' = G/G'$ 的级数子群 $({G'}^k)_{1 \leq k \leq r}$ 具有所需的属性。 设$\pi : G \to G'$为典范同态。 由$G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$定义的G的子群的序列对于$G^k/G^{k+1}$来说是解，与$1 \leq k \leq r$的${G'}^k/{G'}^{k+1}$同构的（§ 4, no. 7，定理4）。
 
 #### 推论{#alg-i-s6-n5-cor-2 .statement tag=05DV}
 
@@ -627,13 +627,13 @@ $$
 
 #### 推论{#alg-i-s6-n5-cor-3 .statement tag=05DX}
 
-*设 G 为 p 基团。 指标 p 的 G 的每子群都是正常的。*
+*设 G 为 p 基团。 指标 p 的 G 的每个子群都是正常的。*
 
 ### 6.西洛子群
 
 #### 定义 10 {#alg-i-s6-def-10 .statement tag=05DY}
 
-令 G 为有限群。 G 的 Sylow p 子群是 G 满足以下两个条件的任意子群 P：
+设G为有限群。 G 的 Sylow p 子群是 G 满足以下两个条件的任意子群 P：
 
 (a) P 是 p 基团。
 (b) (G : P) 不是 p 的倍数。
@@ -647,18 +647,18 @@ $$
 
 #### 定理 2 {#alg-i-s6-thm-2 .statement tag=05E0}
 
-每有限群包含一个Sylow$p$子群。
+每个有限群包含都有一个 Sylow $p$ 子群。
 
 证明取决于以下引理。
 
 #### 引理 {#alg-i-s6-n6-lem-1 .statement tag=05E1}
 
-令$n = p^r m$，其中m是整数，它不是$p$的倍数。然后
+设$n = p^r m$，其中m是整数，它不是$p$的倍数。然后
 $$
 \binom{n}{p^r} \not\equiv 0 \pmod{p}.
 $$
 
-令 S 为阶 $p^r$ 的群（对于例 $\mathbf{Z}/p^r \mathbf{Z}$），T 集合，m 元素。写出$X = S \times T$，令E为X的子集集合和$p^r$元素。然后$\mathrm{Card}(X) = n$，从而$\mathrm{Card}(E) = \binom{n}{p^r}$（集合理论，III, § 5, no. 8，推论1到命题11）。让S对X进行$s.(x, y) = (sx, y) (s, x \in S, y \in T)$操作，并考虑这个运算到E的规范扩张。在no. 5的记号，命题11，集合$E^S$是集合 X的轨道，即形式$S \times \{ t \}, t \in T$的子集$Y \subset X$集合，从而$\mathrm{Card}(E^S) = m$。 no. 5、命题 11 点之前，
+令 S 为阶 $p^r$ 的群（对于例 $\mathbf{Z}/p^r \mathbf{Z}$），T 集合，m 元素。写出$X = S \times T$并设E为X子集集合和$p^r$元素。然后$\mathrm{Card}(X) = n$，从而$\mathrm{Card}(E) = \binom{n}{p^r}$（集合理论，III, § 5, no. 8，推论1到命题11）。让S通过$s.(x, y) = (sx, y) (s, x \in S, y \in T)$对X进行操作，并考虑这个运算到E的规范扩张。在no. 5的记号中，命题11，集合$E^S$是集合 X中的轨道，即形式$S \times \{ t \}, t \in T$中的子集$Y \subset X$、从而$\mathrm{Card}(E^S) = m$中的集合。 no. 5、命题11 点之前，
 $$
 \binom{n}{p^r} = \mathrm{Card}(E) \equiv \mathrm{Card}(E^S) = m \not\equiv 0 \pmod{p},
 $$
@@ -668,7 +668,7 @@ $$
 $$
 \mathrm{Card}(E) = \binom{n}{p^r};
 $$
-从而，凭借引理、$\mathrm{Card}(E) \not\equiv 0 \pmod{p}$。通过左平移考虑 G 的运算的扩张到 E。存在 $X \in E$ ，其轨道具有非零基数模。 $p$。如果 $H_X$ 表示 X 的稳定子，则
+从而，凭借引理、$\mathrm{Card}(E) \not\equiv 0 \pmod{p}$。通过左平移考虑 G 的运算的扩张到 E。存在 $X \in E$ ，其轨道具有非零基数模。 $p$。如果 $H_X$ 表示 X 中的稳定子，则
 
 $(G:H_x) \not\equiv 0 \pmod{p}$，即$p^r$除$\mathrm{Card}(H_x)$。但是 $H_x$ 由 $s \in G$ 组成，使得 $sX = X$；如果$x \in X$，则$H_x \subset X.x^{-1}$，从而$\mathrm{Card}(H_x) \leqslant \mathrm{Card}(X) = p^r$。因此$\mathrm{Card}(H_x) = p^r$。
 
@@ -678,9 +678,9 @@ $(G:H_x) \not\equiv 0 \pmod{p}$，即$p^r$除$\mathrm{Card}(H_x)$。但是 $H_x$
 
 凭借定理 2，这被简化为G是$p$群$\neq \{e\}$的情况；如果$x \in G$与e不同，则x生成的循环群是阶$p^n$和$n \geqslant 1$，因此它是阶$p$的包含子群。
 
-#### 注 {#alg-i-s6-n6-rem-1 .statement tag=05E3}
+#### 注{#alg-i-s6-n6-rem-1 .statement tag=05E3}
 
-对于每个素数数 q 除Card(G)，令P_q 为G 的Sylow q 子群。则P_q 生成的G 的子群 H 为每个q 的Card(P_q) 的阶倍数以及Card(G) 的阶除子，因此它等于G。
+对于每个素数数 q 整除 Card(G)，令 P_q 为 G 的 Sylow q 子群。则 P_q 生成的 G 的子群 H 对于每个 q 来说是 Card(P_q) 的阶倍数以及 Card(G) 的阶除子，因此它等于 G。
 
 #### 定理 3 {#alg-i-s6-thm-3 .statement tag=05E4}
 
@@ -690,13 +690,13 @@ $(G:H_x) \not\equiv 0 \pmod{p}$，即$p^r$除$\mathrm{Card}(H_x)$。但是 $H_x$
 
 令 P 为 G (定理 2) 的 Sylow $p$ 子群，并令 H 为 G 的 $p$ 子群。令 E = G/P，并考虑 G/P 上 H 的运算。作为卡片(E) $\not\equiv 0$ mod。 $p$, 命题 11 of no. 5，表明存在$x \in G/P$，使得$hx = x$ 对于所有$h \in H$。如果g是G中x的代表，则意味着$H \subset gPg^{-1}$，从而断言(b)。
 
-如果 H 是 Sylow $p$ 子群，则 Card(H) = Card(P) = Card($gPg^{-1}$), 从而 $H = gPg^{-1}$，这就证明了(a)的第一个断言。
+如果 H 是 Sylow $p$ 子群，则 Card(H) = Card(P) = Card($gPg^{-1}$), 从而 $H = gPg^{-1}$，这就证明了 (a) 的第一个断言。
 
-我们现在证明(a)的第二个断言。令 $\mathscr{S}$ 为 G 的 Sylow $p$ 子群的集合，并令 P 通过内自同构对 $\mathscr{S}$ 进行运算。 元素$P \in \mathscr{S}$是这个运算下固定的点，我们证明它是唯一的。设$Q \in \mathscr{S}$为固定的点； Q 是由 P 归一化的 G 的 Sylow 子群，因此 P 包含在 Q 的归一化子 N 中。 群 P 和 Q 是 N 的 Sylow $p$ 子群；因此存在$n \in N$使得$P = nQn^{-1} = Q$。由 no. 5、命题 11、卡($\mathscr{S}^P$) $\equiv$ 卡($\mathscr{S}^{P^P}$) = 1 (mod. $p$)。
+我们现在证明(a)的第二个断言。令$\mathscr{S}$为G的Sylow$p$子群的集合，并令P通过内自同构对$\mathscr{S}$进行运算。 元素$P \in \mathscr{S}$是这个运算下固定的点，我们证明它是唯一的。设$Q \in \mathscr{S}$为固定的点； Q 是由 P 归一化的 G 的 Sylow 子群，因此 P 包含在 Q 的归一化子 N 中。 群 P 和 Q 是 N 的 Sylow $p$ 子群；因此存在$n \in N$使得$P = nQn^{-1} = Q$。由 no. 5、命题 11、卡($\mathscr{S}^P$) $\equiv$ 卡($\mathscr{S}^{P^P}$) = 1 (mod. $p$)。
 
 #### 推论 1 {#alg-i-s6-thm-3-cor-1 .statement tag=05E5}
 
-*设 P 为 G 的 Sylow p 子群，N 为 G 中的归一化子，M 为 G 包含于 N 的子群。G 中 M 的归一化子等于 M。*
+*设 P 为 G 的 Sylow p 子群，设 N 为其在 G 中的归一化子，令 M 为 G 包含于 N 的子群。M 在 G 中的归一化子等于 M。*
 
 令$s \in G$ 使得$sMs^{-1} = M$。 M 的子群 $sPs^{-1}$ 是 M 的 Sylow $p$ 子群。因此存在 $t \in M$ 使得 $sPs^{-1} = tPt^{-1}$；然后$t^{-1}s \in N$，从而$s \in tN \subset M$。
 
@@ -744,13 +744,13 @@ $(G:H_x) \not\equiv 0 \pmod{p}$，即$p^r$除$\mathrm{Card}(H_x)$。但是 $H_x$
 (ii) G 的每个 Sylow $p$ 子群都是正规的；
 (iii) G 只存在一个 Sylow $p$ 子群。
 
-(2) 设 G 为幂零有限群。设我是卡(G)的素数除子的集合。由定理 4 和注 1，$G = \prod_{p \in I} G_p$，其中 $G_p$ 是 G 中唯一的 Sylow $p$ 群。
+(2) 设 G 为幂零有限群。设I为卡(G)的素数除子的集合。由定理 4 和注 1，$G = \prod_{p \in I} G_p$，其中 $G_p$ 是 G 中唯一的 Sylow $p$ 群。
 
-（3）应用于交换律群，定理 4 给出分解，交换律有限群作为主要成分乘积，将在章七中从另一个点的角度进行研究。
+（3）应用于交换律群，定理 4 给出分解，交换律有限群作为主成分乘积，将从章VII的另一个点进行研究。
 
 #### 例 {#alg-i-s6-n7-exa-1 .statement tag=05EB}
 
-群 $\mathfrak{S}_3$ 是阶 6。包含阶 3 的正规 Sylow 3 子群：群 $A_3$。它包含阶2的三个Sylow 2子群：群$\{e, \tau\}$，其中$\tau$是转置。因此群$\mathfrak{S}_3$不是幂零的。
+群 $\mathfrak{S}_3$ 是阶 6。它包含阶 3 的正规 Sylow 3 子群：群 $A_3$。它包含阶2的三个Sylow 2子群：群$\{e, \tau\}$，其中$\tau$是转置。因此群$\mathfrak{S}_3$不是幂零的。
 
 ### 习题{#alg-i-s6-exercises}
 

@@ -38,16 +38,16 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 99f99b2de96fe1898e62273bc5d5b765bacb3b3bb19d72795cc0d9729d0889b3
+content_sha256: 69120fb98011a0708eac291a8fa47be33155d09a103d4e7bc7865b404108882a
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
 translation_method: google
 source_content_sha256: a716a1c3cf99e3d34241000d92ee39248d92a3c9503fa59066fb7f864e19044c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: e0a2c075987c842239e35bb77d26baba4c42bc5cfc396e06fd62bc6f5ef7565c
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 6。对称代数
@@ -167,7 +167,7 @@ N 称为 M 与 z *关联*的向量子空间。
 
 ### 3. 模的第 n 个对称幂和对称多线性映射
 
-令X、Y为两个集合和$n$整数$\geqslant 1$。 $X^n$ 到 Y 的*对称映射* 是任意映射 $f : X^n \to Y$，使得对于每个置换 $\sigma \in \mathscr{S}_n$ 和每个元素 $(x_i) \in X^n$，
+令X，Y为两个集合和$n$整数$\geqslant 1$。 $X^n$ 到 Y 的*对称映射* 是任意映射 $f : X^n \to Y$，使得对于每个置换 $\sigma \in \mathscr{S}_n$ 和每个元素 $(x_i) \in X^n$，
 
 $$
 f(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)}) = f(x_1, x_2, \ldots, x_n).

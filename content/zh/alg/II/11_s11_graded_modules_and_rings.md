@@ -38,16 +38,16 @@ subsections:
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: e8dbf7e870d6efc857a00de8c3a67954fabc76c9bdf5c93bd259705578a937a7
+content_sha256: 15b04d46e3a2cfa266a83c8901abd8938e4e1cd06c49771b4fef7f2b7743f62b
 translated_from: content/en/alg/II/11_s11_graded_modules_and_rings.md
 translation_method: google
 source_content_sha256: cee0143d544bc99c4e8496ec6bc7458982857f3f0ed4fb081e4de491d7e81dfd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 24e02255526574841732e11873427be0d5630db32712235ef1a41a18b07ee125
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 11。分级为模和环
@@ -120,11 +120,11 @@ $$
 
 类似地，如果$\Delta = \Delta_0^{(r)}$（其中$\Delta_0$是交换幺半群，单位元素用0表示），则型$\Delta_0$的*总毕业*（no. 1，例4）源自型的毕业$A$ 上的$\Delta$（或$M$）通过余对角线同态与$A$ 上的环结构兼容（或$M$ 上的模结构）。
 
-(3) 设$A$为型$\Delta$的分级环，$M$为型$\Delta$的分级$A$模，以及$\Delta$的$\lambda_0$元素；对于所有$\lambda \in \Delta$，令$M'_\lambda = M_{\lambda + \lambda_0}$和$M'$为$\mathbf{Z}$-模块$\bigoplus_{\lambda \in \Delta} M'_\lambda$。由于$A_\lambda M'_\mu \subset M_{\lambda + \mu + \lambda_0} = M'_{\lambda + \mu}$，$M'$是$A$模块，$M'$上的$M'_\lambda$形式具有型$\Delta$的刻度，与$M'$的$A$模块结构兼容；由此定义的型$\Delta$的分级$A$-模块$M'$据说是通过将$M$的分级移位$\lambda_0$获得的，并用$M(\lambda_0)$表示。当$\Delta$为群时，分级$A$模块$M'$的底层$A$模块被标识为$M$。
+(3) 令$A$为型$\Delta$的分级环，$M$为型$\Delta$的分级$A$模，以及$\Delta$的$\lambda_0$元素；对于所有$\lambda \in \Delta$，令$M'_\lambda = M_{\lambda + \lambda_0}$和$M'$为$\mathbf{Z}$-模块$\bigoplus_{\lambda \in \Delta} M'_\lambda$。由于$A_\lambda M'_\mu \subset M_{\lambda + \mu + \lambda_0} = M'_{\lambda + \mu}$，$M'$是$A$模块，$M'$上的$M'_\lambda$形式具有型$\Delta$的刻度，与$M'$的$A$模块结构兼容；由此定义的型$\Delta$的分级$A$-模块$M'$据说是通过将$M$的分级移位$\lambda_0$获得的，并用$M(\lambda_0)$表示。当$\Delta$为群时，分级$A$-模块$M'$的底层$A$-模块被标识为$M$。
 
 *(4) 设$B$为交换环。 多项式环 $B[X]$ 在一项不定中由子群 $BX^n$ ($n \geqslant 0$) (cf. III, § 2, no. 9 和 IV) 分级为型 $\mathbf{N}$。*
 
-*(5) 设$B$为交换环，$E$为$B$模，$Q$为$E$上的二次方形式以及$C(Q)$$Q$的克利福德代数 （cf.IX, § 9）。 $C(Q)$上的子$B$模块$C^+(Q)$和$C^-(Q)$形式，型$\mathbf{Z}/2\mathbf{Z}$的毕业与$C(Q)$上的环结构兼容。*
+*(5) 令$B$为交换环，$E$为$B$模，$Q$为$E$上的二次方形式以及$C(Q)$$Q$的克利福德代数 （cf.IX, § 9）。 $C(Q)$上的子$B$模块$C^+(Q)$和$C^-(Q)$形式，型$\mathbf{Z}/2\mathbf{Z}$的毕业与$C(Q)$上的环结构兼容。*
 
 #### 注 {#alg-ii-s11-n2-rem-1 .statement tag=05Y3}
 
@@ -358,7 +358,7 @@ $$
 
 因此，标准的分级 $\mathbf{Z}$ 模块结构为型 $\Delta$ (no. 3)。 Moreover (no. 3, Proposition 5), the *centre* $C$ of $A$ is a graded subring of $A$; the graduation which we have just defined on $M \otimes_A N$ is *compatible with its module structure over the graded ring* $C$. 对于 $M \otimes_{\mathbf{Z}} N$ 来说，具有规范的*两个* $C$ 模块结构，对于 $x \in M, y \in N, c \in C$ (§ 3, no. 3) 分别有 $c(x \otimes y) = (xc) \otimes y$ 和 $(x \otimes y)c = x \otimes (cy)$；如果$x \in M_\lambda, y \in N_\mu, c \in C \cap A_v$，则两个元素$c(x \otimes y)$和$(x \otimes y)c$属于到$(M \otimes_{\mathbf{Z}} N)_{\lambda + \mu + v}$以及它们的差属于到$Q$，因此它们在$M \otimes_A N$属于中的公共的像到$(M \otimes_A N)_{\lambda + \mu + v}$，这建立了我们的断言。 当我们将$M \otimes_A N$称为*分级*$C$-*模*时，我们总是指这样定义的结构，另外提到的除非。 注，$(M \otimes_A N)_\lambda$可以定义为由$x_\mu \otimes y_\nu$生成的$M \otimes_A N$的加法群，其中$x_\mu \in M_\mu, y_\nu \in N_\nu$和$\mu + \nu = \lambda$。
 
-令$M'$（分别$N'$）分别为次数、$\alpha$和$\beta$的另一个分级为右（分别为左）$A$模块，并且$u : M \to M', v : N \to N'$分级为同态。那么从上面的注可以立即得出$u \otimes v$是次数$\alpha + \beta$的*分级*（C-模）同态。
+让$M'$（分别$N'$）分别为次数、$\alpha$和$\beta$的另一个分级右（分别左）$A$-模块和$u : M \to M', v : N \to N'$分级同态。然后从上面的注可以立即得出$u \otimes v$是次数$\alpha + \beta$的*分级*（C-模块）同态。
 
 当$A$可交换时，在任何有限数分级$A$-模的张量积上类似地定义分级（与$A$-模结构兼容）；另外，$(M \otimes N) \otimes P \to M \otimes (N \otimes P)$($§ 3$、no. 8、命题8)等结合性同构、直接的、*分级*模的同构。
 

@@ -12,28 +12,28 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 3c028b14779c9077eac9ec236a952de6eeb3251b2374cc33a6a157552526343c
+content_sha256: 34cdd7c4a11d2923d23eae71a5a3eee5f96f3d51fafac159792fb359a6e63cda
 translated_from: content/en/ac/I/04_s4_flat_modules_and_tor_functors.md
 translation_method: google
 source_content_sha256: 2e67efa01c1410cffb73e90e94fea2974820179f25619519676ed3aa28003654
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: f8934e29f1c56fbc40cf232cf4d7d987edd6f7ddb3e6098adb4614f1aa7ca586
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 4. Flat 模和“TOR”函子
 
-For the benefit of readers conversant with Homological 代数 (*), we shall indicate quickly how the theory of flat 模 is related to that of Tor functors.
+为了方便熟悉同调代数 (*) 的读者，我们将快速指出平直模的理论与 Tor 函子理论的关系。
 
 #### 命题 1 {#ac-i-s4-prop-1 .statement tag=044W}
 
 令 E 为右A-模。以下四个属性是等效的：
 
 (a) E 是平的。
-(b) 对于每左A-模 F 和每整数 n $\geq 1$、$\mathrm{Tor}_n^A(E, F) = 0$。
+(b) 对于每个左A-模 F 和每个整数 n $\geq 1$，$\mathrm{Tor}_n^A(E, F) = 0$。
 (c) 对于每左A-模 F，$\mathrm{Tor}_1^A(E, F) = 0$。
 (d) 对于 A 的每个有限生成的左理想 $a$，
 $$
@@ -62,7 +62,7 @@ E \otimes_A a \to E \otimes_A A = E
 $$
 是单射的，这意味着 E 是平坦的 (§ 2, no. 3, 命题 1)。
 
-命题 1 提供了刻画的平面模，这在应用中通常很有用。我们将通过例来限制自己，以给予
+命题 1 提供了模的刻画，这在应用中通常很有用。我们将通过例来限制自己，以给予
 
 (*) 请参阅本论文的部分，专门讨论类别，特别是阿贝尔的类别（正在准备中）。在本文出版之前，读者可以查阅 H. CARTAN-S。 EILENBERG，同源代数，普林斯顿，1956 年，或 R. GODement，Théorie des Faisceaux，巴黎（赫尔曼），1958 年。
 
@@ -104,11 +104,11 @@ $$
 
 这证明$F_{(S)}$是平坦的。
 
-相反，如果 (b) 成立，则首先对于每个“自由”右 S 模 $L = S_d^{(I)}$，$\operatorname{Tor}_1^R(\rho_*(L), F) = (\operatorname{Tor}_1^R(\rho_*(S_d), F))^{(I)} = 0$。每个正确的S-模E都可以写成形式$E = L/H$，得到一个合适的自由S-模L；那么我们就有正合序列
+相反，如果 (b) 成立，则首先对于每个“自由”右 S 模 $L = S_d^{(I)}$，$\operatorname{Tor}_1^R(\rho_*(L), F) = (\operatorname{Tor}_1^R(\rho_*(S_d), F))^{(I)} = 0$。每个正确的 S 模块 E 都可以写成形式 $E = L/H$，以获得合适的自由 S 模块 L；那么我们就有正合序列
 
 (2) $0 = \operatorname{Tor}_1^R(\rho_*(L), F) \to \operatorname{Tor}_1^R(\rho_*(E), F) \to \rho_*(H) \otimes_R F \to \rho_*(L) \otimes_R F.$
 
-但由于 $F_{,,}$ 是平的，同态 $H \otimes_S F_{(S)} \to L \otimes_S F_{(S)}$ 是单射的，并且与同态相同
+但由于 $F_{,,}$ 是平的，同态 $H \otimes_S F_{(S)} \to L \otimes_S F_{(S)}$ 是单射的，并且与同态一致
 
 $$
 \rho_*(H) \otimes_R F \to \rho_*(L) \otimes_R F.

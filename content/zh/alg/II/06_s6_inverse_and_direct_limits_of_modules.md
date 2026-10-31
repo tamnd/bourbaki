@@ -26,21 +26,21 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 7c7990f575590f85e5b917aaeed17f43d078e206e632ba44d4bdf09b2db4ddbf
+content_sha256: 7db47d18384bc221402ef4ab236665dea381aa34a861cb4091ede25846383bca
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
 translation_method: google
 source_content_sha256: 2682c7eae62790237d64df767969f62d7aa7d61ceec717b4af26629c4a2f746a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: ed17704e4ad2bfc2ad14769e4c5a980050f85b0bd3114374f5e4f6729043a7cd
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 6。 模的逆与直极限
 
-在本段中，我将在 I 上表示非空预序集合和 $\alpha \leq \beta$ 预序关系。另外提到的除非，逆矩阵和直接系统具有索引集合 I。
+在本段中，I将表示非空预购集合，$\alpha \leq \beta$预序关系表示I。另外提到除非，其逆和直接系统具有索引集合I。
 
 ### 1. 逆极限的模
 
@@ -48,11 +48,11 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 $$
 f_{\alpha \beta}(\lambda_\beta x_\beta) = \phi_{\alpha \beta}(\lambda_\beta) f_{\alpha \beta}(x_\beta),
 $$
-对于$x_\beta \in E_\beta$、$\lambda_\beta \in A_\beta$；那么从I, § 10, no. 2可以得出$E = \lim \leftarrow E_\alpha$比$A = \lim \leftarrow A_\alpha$有左模结构。对于所有$\alpha \in I$，令$f : E \to E_\alpha$、$\phi_\alpha : A \to A_\alpha$为典范映射；那么$(f_\alpha, \phi_\alpha)$是E到$E_\alpha$的二态性。我们可以说，$(E_\alpha, f_{\alpha\beta})$是左$A_\alpha$模块*的*逆系，而$A$模块$E$是它的*逆极限*。
+对于 $x_\beta \in E_\beta$、$\lambda_\beta \in A_\beta$；那么从I, § 10, no. 2可以得出$E = \lim \leftarrow E_\alpha$比$A = \lim \leftarrow A_\alpha$有左模结构。对于所有$\alpha \in I$，令$f : E \to E_\alpha$、$\phi_\alpha : A \to A_\alpha$为典范映射；那么$(f_\alpha, \phi_\alpha)$是E到$E_\alpha$的二态性。我们可以说，$(E_\alpha, f_{\alpha\beta})$是左$A_\alpha$模块*的*逆系，而$A$模块$E$是它的*逆极限*。
 
-令$(E'_\alpha, f'_{\alpha\beta})$为左侧$A_\alpha$模块的另一个逆系，对于所有$\alpha$，令$u_\alpha : E'_\alpha \to E_\alpha$为*$A_\alpha$-线性*映射，这些映射形成*逆系*；那么 $u = \lim u_\alpha$ 是 $\lim E'_\alpha$ 到 $\lim E_\alpha$ 的 *$A$-线性* 映射。
+令$(E'_\alpha, f'_{\alpha\beta})$为左侧$A_\alpha$模块的另一个逆系，对于所有$\alpha$，令$u_\alpha : E'_\alpha \to E_\alpha$为*$A_\alpha$线性*映射，这些映射形成*逆系*；那么 $u = \lim u_\alpha$ 是 $\lim E'_\alpha$ 到 $\lim E_\alpha$ 的 *$A$-线性* 映射。
 
-而且：
+此外：
 
 #### 命题 1 {#alg-ii-s6-prop-1 .statement tag=05QX}
 
@@ -62,7 +62,7 @@ $$
 0 \longrightarrow E'_\alpha \xrightarrow{u_\alpha} E_\alpha \xrightarrow{v_\alpha} E''_\alpha
 $$
 
-*对于所有$\alpha$都是准确的。* *然后，写* $u = \lim u_\alpha,\ v = \lim v_\alpha$，*序列*
+*对于所有$\alpha$都是准确的。* *然后，写*$u = \lim u_\alpha,\ v = \lim v_\alpha$，*序列*
 
 $$
 0 \longrightarrow \lim E'_\alpha \xrightarrow{u} \lim E_\alpha \xrightarrow{v} \lim E''_\alpha
@@ -70,7 +70,7 @@ $$
 
 *准确*。
 
-*作为* $u_\alpha^{-1}(0) = \{0\}$ *对于所有$\alpha$，它从集合理论、III, § 7, no. 2、命题 2 得出* $u^{-1}(0) = \{0\}$，*因此* $u$ *是单射的；进一步地，*$E_\alpha$*的子集的*$u_\alpha(E'_\alpha)$*形式逆系以及因此*$u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$。 *作为* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *通过假设，* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$（*集合理论*，III, § 7, no. 2，命题 2），*完成证明*。
+*作为* $u_\alpha^{-1}(0) = \{0\}$ *对于所有$\alpha$，它从集合理论、III, § 7, no. 2、命题 2 得出* $u^{-1}(0) = \{0\}$，*因此* $u$ *是单射的；进一步地，*$E_\alpha$的子集的*$u_\alpha(E'_\alpha)$*形式逆系，因此*$u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$。 *作为* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *通过假设，* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$（*集合理论*，III, § 7, no. 2，命题 2），*完成证明*。
 
 #### 注 {#alg-ii-s6-n1-rem-1 .statement tag=05QY}
 
@@ -88,7 +88,7 @@ $$
 0 \longrightarrow \lim E'_\alpha \xrightarrow{u} \lim E_\alpha \xrightarrow{v} \lim E''_\alpha \longrightarrow 0
 $$
 
-*准确；在其他字中，满射线性映射的逆系的逆极限不一定是满射*（cf.习题1）。
+*准确；在其他字、满射线性映射的逆系、逆极限不一定是满射*（cf.习题1）。
 
 现在假设$A_\alpha$等于*相同的环*$A$，并且$\phi_{\alpha\beta}$等于$1_A$；那么对于 $A$ 模块中的每个逆系 $(E_\alpha, f_{\alpha\beta})$，$E = \lim E_\alpha$ 是一个 $A$ 模块。令$F$为$A$模，对于所有$\alpha$，令$u_\alpha : F \to E_\alpha$为$A$线性映射，使得$(u_\alpha)$为映射的逆系；那么$u = \lim u_\alpha$是$F$到$\lim E_\alpha$的$A$线性映射。 *相反*，对于每个$A$-线性映射$v : F \to \lim E_\alpha$，$v_\alpha = f_\alpha \circ v$族是$A$-线性映射的逆系，使得$v = \lim_{\leftarrow} v_\alpha$。另一方面，我们注对于$\alpha \leq \beta$映射
 
@@ -134,7 +134,7 @@ $$
 
 ### 2. 直极限的模
 
-*从此以后我被认为是正确的。*
+*从此以后 I 被假定为右向。*
 
 令$(A_\alpha, \phi_{\beta \alpha})$为环(I, § 10, no. 3)的直接系统，可交换的群(加法写)(I, § 10, no. 3)的$(E_\alpha, f_{\beta \alpha})$直接系统，并假设每个$E_\alpha$都有一个*左$A_\alpha$*-模块结构；此外，假设对于$\alpha \leq \beta$，$(f_{\beta \alpha}, \phi_{\beta \alpha})$是$E_\alpha$到$E_\beta$（§ 1, no. 13）的*二态*，在其他字中
 

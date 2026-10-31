@@ -49,16 +49,16 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 27
-content_sha256: b919f8fc018ab4ff7767c279d5ebb64291263f5a0c32af9cae27f96aaee7a63b
+content_sha256: d1f7d9f1879ffb6db7c7e7a42817b1fe1db8ec9c9c48c9e7b52da00e3122cee8
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
 translation_method: google
 source_content_sha256: 463e49262f632d4a137e725a82bdc25960c4aa1e43d83744037d89388a37100c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 6c2ed14f1d9ab1d3820379cfd045cd50a4653116fbeded2d8df50f391da4736f
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 2. 环和模的分数
@@ -227,7 +227,7 @@ $$
 h'(a/s) = h_a(h_s)^{-1};
 $$
 
-我们知道 (代数, 章 II, , no. 14) N 上的同态定义是一个$A[S^{-1}]$-模块结构，使得 $(a/s).y = h_s^{-1}(a.y)$； A-模结构通过同态 $i_A^S$ 从此$A[S^{-1}]$ 模块结构衍生而来，正是最初给出的结构
+我们知道 (代数, 章 II, , no. 14) N 上的同态定义是一个$A[S^{-1}]$模块结构，使得$(a/s).y = h_s^{-1}(a.y)$； A-模结构通过同态 $i_A^S$ 从此$A[S^{-1}]$ 模块结构衍生而来，正是最初给出的结构
 
 相反，如果 N 是$A[S^{-1}]$模，并且通过$i_A^S$将其视为A-模，则$s \in S$的同位$y \mapsto sy$是双射的，因为$y \mapsto (1/s)y$是$y \mapsto sy$的逆映射；而通过上述过程从其A-模结构导出的N上的$A[S^{-1}]$模结构就是最初给出的$A[S^{-1}]$模结构。因此，$A[S^{-1}]$模和A-模之间存在规范的一对一对应，其中由S的元素引发的同位是双射的；此外，如果N，N'是两个A-模，其中性质每A-模同态$u : N \to N'$也是N和N'的$A[S^{-1}]$模结构的同态，对于盟友$\in N$和所有$s \in S$，我们可以写$u(y) = u(s.((1/s)y)) = s.u((1/s)y)$、从而$u((1/s)y) = (1/s)u(y)$； 逆命题是显而易见的。
 
@@ -306,7 +306,7 @@ $$
 u'(m/s) = u(m)/f(s).
 $$
 
-同样的记号，令C为第三个环，U为C的乘法子集，从B到C的g同态，使得$g(T) \subset U$，P C-模，从N到P的v B-线性映射和$v'$$T^{-1}B$线性从 B 映射到与 v 相关的$U^{-1}P$。然后
+同样的记号，让C是第三个环，U是C的乘法子集，g 同态从B到C使得$g(T) \subset U$，P是C模，v B-线性映射从N到P并且$v'$ 从 B 到与 v 相关的 $U^{-1}P$ $T^{-1}B$ 线性映射。然后
 
 $$
 (v \circ u)' = v' \circ u'
@@ -324,21 +324,21 @@ $$
 
 #### 命题 6 {#ac-ii-s2-prop-6 .statement tag=0460}
 
-令$f$为同态，从环A到环B，S为A的乘法子集。存在从$(f(S))^{-1}B$到$S^{-1}B$的唯一映射j（其中B通过以下方式被视为A-模） $f$），使得$j(b|f(s)) = b|s$适用于所有$b \in B, s \in S$。如果 $f' : S^{-1}A \to (f(S))^{-1}B$ 是与 $f$ (no. 1, 命题 2) 关联的环同态，则$j \circ f' = S^{-1}f$。 映射 j 是$(f(S))^{-1}B$上的$S^{-1}A$模块结构的同构，由$f'$定义到$S^{-1}B$上的模块结构，也是$(f(S))^{-1}B$上的B-模结构定义到$S^{-1}B$上的B-模结构 （所得的从定义$S^{-1}B = (S^{-1}A) \otimes_A B$）。
+设$f$为从环A到环B的同态，S为A的乘法子集。从$(f(S))^{-1}B$到$S^{-1}B$存在唯一映射j（其中B通过$f$被视为A-模），这样$j(b|f(s)) = b|s$ 代表所有 $b \in B, s \in S$。如果 $f' : S^{-1}A \to (f(S))^{-1}B$ 是与 $f$ (no. 1, 命题 2) 关联的环同态，则$j \circ f' = S^{-1}f$。 映射 j 是$(f(S))^{-1}B$上的$S^{-1}A$模块结构的同构，由$f'$定义到$S^{-1}B$上，也是$(f(S))^{-1}B$上的B-模结构定义到$S^{-1}B$上（所得的从定义$S^{-1}B = (S^{-1}A) \otimes_A B$）。
 
-如果$b, b'$在B中，$s, s'$在S中，条件$b|s = b'|s'$和$b|f(s) = b'|f(s')$等价，由推论1到命题4，成立j的存在性，证明j是双射的； j 的唯一性是显而易见的。显然 j 是加法群同构。如果$a \in A, b \in B, s \in S, t \in S$，那么
+如果$b, b'$在B中，$s, s'$在S中，条件、$b|s = b'|s'$和$b|f(s) = b'|f(s')$等价，由推论1到命题4，成立j的存在性，证明j是双射的； j 的唯一性是显而易见的。显然 j 是加法群同构。如果$a \in A, b \in B, s \in S, t \in S$，那么
 
 $$
 (a|s).(b|f(t)) = f'(a|s)(b|f(t)) = f(a)|f(s)(b|f(t)) = (f(a)b)|f(st),
 $$
 
-由此可知 j 是 $(S^{-1}A)$ 线性的。显然$j \circ f^1 = S^{-1}f$。最后，如果$b \in B, b' \in B, s \in S$，则$j(b.(b'|f(s))) = j(bb'|f(s)) = bb'|s = b.(b'|s)$，这就证明了最后一个断言。
+由此可知 j 是 $(S^{-1}A)$ 线性的。显然$j \circ f^1 = S^{-1}f$。最后，如果$b \in B, b' \in B, s \in S$，则$j(b.(b'|f(s))) = j(bb'|f(s)) = bb'|s = b.(b'|s)$，从而证明最后一个断言。
 
-命题 6 的映射 j 称为$(fS)^{-1}B$ 的典范同构到$S^{-1}B$。这两个集合一般是通过$f'$来识别的；然后$f' = S^{-1}f, i_B^S = i_B^{f(S)}$。
+命题 6 的映射 j 称为$(fS)^{-1}B$ 的典范同构到$S^{-1}B$。这两个集合一般用$f'$来标识；然后$f' = S^{-1}f, i_B^S = i_B^{f(S)}$。
 
 ### 3. 乘法子集的变换
 
-设 A 为环，S 为 A 和 M A-模的乘法子集。如果 T 是包含 S 的乘法子集，则从 no. 2 的命题 5 得出，存在唯一的 $S^{-1}A$ 线性映射 $i_M^{T,S} : S^{-1}M \to T^{-1}M$，使得 i_M^T = i_M^{T,S} \circ i_M^S； S^{-1}M 的映射 i_M^{T,S} 映射元素 m/s 到 T^{-1}M 的元素 m/s。很容易验证 i_M^{T,S} = i_A^{T,S} \otimes 1_M。如果 U 是 A 的第三次乘法子集，且 T \子集 U，则 i_M^{U,S} = i_M^{U,T} \circ i_M^{T,S}；此外，如果 u: M \to N 是 A-模同态，图表
+设 A 为环，S 为 A 和 M A-模的乘法子集。如果 T 是包含 S 的乘法子集，则从 no. 2 的命题 5 可知，存在唯一的 $S^{-1}A$ 线性映射 $i_M^{T,S} : S^{-1}M \to T^{-1}M$，使得 i_M^T = i_M^{T,S} \circ i_M^S； S^{-1}M 的映射 i_M^{T,S} 映射元素 m/s 到 T^{-1}M 的元素 m/s。很容易验证 i_M^{T,S} = i_A^{T,S} \otimes 1_M。如果 U 是 A 的第三个乘法子集，且 T \子集 U，则 i_M^{U,S} = i_M^{U,T} \circ i_M^{T,S}；此外，如果 u: M \to N 是 A-模同态, 图表
 
 $$
 \begin{array}{ccc}
@@ -401,7 +401,7 @@ It follows from Proposition 8 that, amongst the multiplicative subsets T of A co
 
 #### 命题 9 {#ac-ii-s2-prop-9 .statement tag=0463}
 
-令 I 为环 A 和 $S = \bigcup_{\alpha \in I} S_\alpha$ 的乘法子集的右向预序集合、$(S_\alpha)_{\alpha \in I}$ 递增族。我们将$\alpha \leq \beta$、$\rho_\alpha = i^{S_\alpha, S_\alpha}$写为$\rho_{\beta \alpha} = i^{S_\beta, S_\alpha}_{A^{S_\beta, S_\alpha}}$。那么$(S_\alpha^{-1}A, \rho_{\beta \alpha})$是Zings的直接系统，并且，如果对于所有$\alpha \in I$，$\rho'_\alpha$是$S_\alpha^{-1}A$到$\lim \rightarrow S_\alpha^{-1}A$的典范映射，则存在从$\lim \rightarrow S_\alpha^{-1}A$到$S^{-1}A$唯一的同构$j$这样对于所有 $\alpha \in I$ 都有$j \circ \rho'_\alpha = \rho_\alpha$。
+设I是环A和$S = \bigcup_{\alpha \in I} S_\alpha$的乘法子集的右向预序集合、$(S_\alpha)_{\alpha \in I}$递增族。我们将$\alpha \leq \beta$、$\rho_\alpha = i^{S_\alpha, S_\alpha}$写为$\rho_{\beta \alpha} = i^{S_\beta, S_\alpha}_{A^{S_\beta, S_\alpha}}$。那么$(S_\alpha^{-1}A, \rho_{\beta \alpha})$是Zings的直接系统，并且，如果对于所有$\alpha \in I$，$\rho'_\alpha$是$S_\alpha^{-1}A$到$\lim \rightarrow S_\alpha^{-1}A$的典范映射，则存在从$\lim \rightarrow S_\alpha^{-1}A$到$S^{-1}A$唯一的同构$j$这样对于所有 $\alpha \in I$ 都有$j \circ \rho'_\alpha = \rho_\alpha$。
 
 对于$\alpha \leq \beta \leq \gamma$，$\rho_{\gamma \alpha} = \rho_{\gamma \beta} \circ \rho_{\beta \alpha}$（no. 1，推论3到命题2），因而$(S_\alpha^{-1}A, \rho_{\beta \alpha})$是直接系统。我们写$A' = \lim \rightarrow S_\alpha^{-1}A$；作为$\rho_\alpha = \rho_\beta \circ \rho_{\beta \alpha}$对于$\alpha \leq \beta$（no. 1，推论3到命题2），$(\rho_\alpha)$是同态的直接系统，$j = \lim \rightarrow \rho_\alpha$是从$A'$到$S^{-1}A$的唯一同态，使得$j \circ \rho'_\alpha = \rho_\alpha$ 对于所有$a \in I$。 同态 $\rho'_\alpha \circ i^{S}_{A^\alpha} : A \to A'$ 都相等，$\rho_{\beta \alpha} \circ i^{S}_{A^\alpha} = i^{S}_{A^\beta}$ $a \leq \beta$；让$u$成为他们的公共的值。显然，$u(S)$的元素在$A'$中是可逆的，这表明存在同态$h : S^{-1}A \to A'$使得$h \circ i^{S}_{A} = u$（no. 1，命题1）。然后
 
@@ -415,11 +415,11 @@ $$
 h \circ j \circ \rho'_\alpha \circ i^{S}_{A^\alpha} = h \circ \rho_\alpha \circ i^{S}_{A^\alpha} = h \circ i^{S}_{A} = u = \rho'_\alpha \circ i^{S}_{A^\alpha},
 $$
 
-从而 $h \circ j \circ \rho'_\alpha = \rho'_\alpha$ 全部$\alpha \in I$；由此可见，$h \circ j$是$A'$的恒等式自同构，因而$j$是同构。
+从而 $h \circ j \circ \rho'_\alpha = \rho'_\alpha$ 全部 $\alpha \in I$；由此可见，$h \circ j$ 是$A'$ 的恒等式自同构，因而$j$ 是同构。
 
 #### 推论{#ac-ii-s2-n3-cor-1 .statement tag=0464}
 
-*在命题 9的假设下，令M为A-模。我们将所有$\alpha \in I$的$\alpha \leq \beta, f_\alpha = i^{S, S_\alpha}_{M}$写为$f_{\beta \alpha} = i^{S_\beta, S_\alpha}_{M}$，并让$f'_\alpha$从$S_\alpha^{-1}M$到$\lim \rightarrow S_\alpha^{-1}M$为典范映射；则存在$S^{-1}M$到$\lim \rightarrow S_\alpha^{-1}M$的$S^{-1}A$同构$g$，使得$g \circ f_\alpha = f'_\alpha$对于所有$a \in I$。*
+*在命题9的假设下，令M为A-模。我们将所有$\alpha \in I$的$\alpha \leq \beta, f_\alpha = i^{S, S_\alpha}_{M}$写为$f_{\beta \alpha} = i^{S_\beta, S_\alpha}_{M}$，并让$f'_\alpha$从$S_\alpha^{-1}M$到$\lim \rightarrow S_\alpha^{-1}M$为典范映射；则存在$S^{-1}M$到$\lim \rightarrow S_\alpha^{-1}M$的$S^{-1}A$同构$g$，使得$g \circ f_\alpha = f'_\alpha$对于所有$a \in I$。*
 
 推论立即从定义 $S_\alpha^{-1}M = M \otimes_A S_\alpha^{-1}A$ 和 $S^{-1}M = M \otimes_A S^{-1}A$ 得出，并且事实上，乘坐直极限与张量积通勤 (*代数*, 章 11, § 6, no. 3, 命题 7)。
 
@@ -427,13 +427,13 @@ $$
 
 *在本编号中，A 表示环，S 表示 A 的乘法子集。*
 
-设$(M_\alpha, \phi_{\beta \alpha})$为A-模中的直接系统；那么 $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ 是 $S^{-1}A$ 模块中的直接系统，而使用直极限与张量积 (*代数*, 章 II, § 6, no. 3, 命题 7) 通勤的事实允许我们定义典范同构
+令$(M_\alpha, \phi_{\beta \alpha})$为A-模中的直接系统；那么 $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ 是 $S^{-1}A$ 模块中的直接系统，而使用直极限与张量积 (*代数*, 章 II, § 6, no. 3, 命题 7) 通勤的事实允许我们定义典范同构
 
 $$
 \lim \rightarrow (S^{-1}M_\alpha) \to S^{-1} \lim \rightarrow M_\alpha.
 $$
 
-同样，使用直和与张量积通勤（代数、章 II、、no. 7、命题 7）这一事实使我们能够为每个家庭 $(M_i)_{i \in I}$ 的 $A$ 模块提供定义典范同构
+同样，事实上，乘坐直和与张量积通勤（代数，章II，，no. 7，命题7）使我们能够为每个$(M_i)_{i \in I}$的家庭定义 $A$-模块典范同构
 
 $$
 \bigoplus_{i \in I} S^{-1} M_i \to S^{-1} \bigoplus_{i \in I} M_i.
@@ -445,16 +445,16 @@ $$
 
 *环$S^{-1}A$是一个扁平的$A$模块*（章I, § 2, no. 1，定义2）。
 
-如果$u : M' \to M$是$A$模的单同态，则需要证明$S^{-1}u : S^{-1}M' \to S^{-1}M$是单射的。现在，如果$m'/s$ ($m' \in M'$, $s \in S$) 使得$u(m')/s = 0$，这意味着存在$s' \in S$使得$s'u(m') = 0$ (no. 2, 命题 4) 或$u(s'm') = 0$；由于 $u$ 是单射，因此有 $s'm' = 0$、从而 $m'/s = 0$。
+如果$u : M' \to M$是$A$模的单同态，则需要证明$S^{-1}u : S^{-1}M' \to S^{-1}M$是单射的。现在，如果$m'/s$ ($m' \in M'$, $s \in S$) 使得$u(m')/s = 0$，这意味着存在$s' \in S$使得$s'u(m') = 0$ (no. 2, 命题 4) 或$u(s'm') = 0$；由于 $u$ 是单射的，因此有 $s'm' = 0$、从而 $m'/s = 0$。
 
-事实上，$S^{-1}A$是一个扁平的$A$模块，这使得我们可以将章I, § 2的结果应用于它。特别是：
-(1) 如果 $M$ 是 $A$ 模块，且 $N$ 子模为 $M$，则 $S^{-1}N$ 被规范地标识为由 $i_M^S(N)$ (章 I.) 生成的 $S^{-1}M$ *子模*。 § 2, no. 3,*注2*);通过此标识，$S^{-1}(M/N)$ 与 $(S^{-1}M)/(S^{-1}N)$ 进行标识，并且如果 $P$ 是 $M$ 的第二个子模，则
+事实上，$S^{-1}A$是一个扁平的$A$模块，我们可以将章I, § 2的结果应用于它。特别是：
+(1) 如果 $M$ 是 $A$ 模块且 $N$ 子模为 $M$，则 $S^{-1}N$ 被规范地标识为由 $i_M^S(N)$ (章生成的 $S^{-1}M$ *子模*) I，§ 2, no. 3，*注2*）；通过此标识，$S^{-1}(M/N)$ 与 $(S^{-1}M)/(S^{-1}N)$ 进行标识，并且，如果 $P$ 是 $M$ 的第二个子模，则
 
 $$
 S^{-1}(N + P) = S^{-1}N + S^{-1}P, \quad S^{-1}(N \cap P) = S^{-1}N \cap S^{-1}P
 $$
 
-（章I, § 2, no. 6，命题2）。
+（章I, § 2, no. 6、命题2）。
 (2) 如果 $M$ 是一个*有限生成* $A$-模块，那么
 
 $$
@@ -522,7 +522,7 @@ $$
 
 (no. 4, 定理 1) 其存在证明了 (i) 的第一个断言，同时考虑到 b' = S^{-1}b。由于 b 对于 S 是饱和的，条件 a \in A, s \in S，因为 \in b 意味着 a \in b； A/b 上的比率 s 位似是单射的，这证明了 (i) 的第二个断言。
 
-(ii) 我们首先注关系 b' = S^{-1}A 等价于关系 b \cap S \neq \varnothing，后者表达了 S^{-1}A 的 b' 包含可逆元的事实。从 no. 4, 命题 10 (iii) 可以看出，b' \mapsto b = (i_A^S)^{-1}(b') 是与 S^{-1}A 不同的 S^{-1}A 的理想的集合到集合 \mathscr{F} 的同构（关于包含） A 的理想不满足 S 和命题 10 的满足条件 (MS)。如果 b' 最大（或素数），则显然 b' 在 \mathscr{F}（或素数）中最大，反之亦然（通过 (i)）。另一方面，如果 r 是来自 S 的不相交的的理想，则其相对于 S 的饱和度 r_1 是来自 S 的包含 t 和不相交的的理想：对于某些 $s \in S$，没有元素 $a \in S$ 可以满足 $sa \in t$，因为它会遵循$sa \in t \cap S$。我们结论认为，如果$r$在$A$满足$S$的理想中最大，那么它在$\mathscr{F}$中最大。同样，如果$r$是不满足$S$的素理想，则它满足no. 4的条件（MS），命题10乘以定义的素理想，因此满足属于到$\mathscr{F}$。这就完成了 (ii) 的证明。
+(ii) 我们注首先关系 b' = S^{-1}A 等价于关系 b \cap S \neq \varnothing，后者表达了 S^{-1}A 的 b' 包含可逆元这一事实。 从 no. 4, 命题 10 (iii) 可以得出，b' \mapsto b = (i_A^S)^{-1}(b') 是不同于 S^{-1}A 的 S^{-1}A 理想的集合的同构（关于包含）到 A 理想的集合 \mathscr{F}不满足 S 和命题 10 的满足条件 (MS)。 如果 b' 是最大值（或素数），则显然 b' 在 \mathscr{F}（或素数）中是最大值，反之亦然（通过 (i)）。 另一方面，如果 r 是来自 S 的不相交的的理想，则其相对于 S 的饱和度 r_1 是来自 S 的包含 t 和不相交的的理想：对于某些 $s \in S$，没有元素 $a \in S$ 可以满足 $sa \in t$，因为它会遵循$sa \in t \cap S$。 我们结论认为，如果$r$在$A$满足$S$的理想中最大，则它在$\mathscr{F}$中最大。 类似地，如果$r$是不满足$S$的素理想，则它满足no. 4的条件（MS），命题10乘以定义素理想，因此满足属于到$\mathscr{F}$。 这就完成了(ii)的证明。
 
 (iii) 假设 $q'$ 是素数，并且 $q$ 也是素数。 集合$T = A - q$是$A$的乘法子集，其中包含$S$、从而$ST = T$。我们写$T' = i_A^S(T)$；从 no. 3, 命题 7 (i) 可以得出，$T^{-1}A = A$ 存在唯一的同构 $j$，到 ${T'}^{-1}(S^{-1}A)$ 使得
 
@@ -530,17 +530,17 @@ $$
 j(a/b) = (a/1)/(b/1),
 $$
 
-其中$a \in A$和$b \in T$。另一方面$T'$显然不满足$q'$；反之，设 $a/s \in S^{-1}A$；由于$1/s$在$S^{-1}A$中可逆，条件$a/s \notin q'$等价于$i_A^S(a) = a/1 \notin q'$，因此也等价于$a \notin q$；由此得出$S^{-1}A - q' = S^{-1}T'$，因此，通过no. 3的命题 8，得到${T'}^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$。
+其中$a \in A$和$b \in T$。另一方面$T'$显然不满足$q'$；反之，令 $a/s \in S^{-1}A$；由于$1/s$在$S^{-1}A$中可逆，条件$a/s \notin q'$等价于$i_A^S(a) = a/1 \notin q'$，因此也等价于$a \notin q$；由此可见，$S^{-1}A - q' = S^{-1}T'$，因此，通过no. 3中的命题 8，得到${T'}^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$。
 
-(iii) 中定义的同构被称为规范的。如果$A$是整环，$A$的典范同构，以及$A$的分数$K$域子环和$(S^{-1}A)_{q'}$具有相同的像。
+(iii) 中定义的同构被称为规范的。如果$A$是整环，则$A$的典范同构，以及$A$的分数$K$域子环和$(S^{-1}A)_{q'}$具有相同的像。
 
 #### 注 {#ac-ii-s2-n5-rem-1 .statement tag=046A}
 
-对于$A$到满足$S^{-1}a = S^{-1}A$的理想$a$（或者，no. 4、定理I、$S^{-1}(A/a) = 0$相当于同样的事情），$a \cap S \neq \varnothing$是必要且充分的，紧随定义。
+对于$A$到满足$S^{-1}a = S^{-1}A$的理想$a$（或者，no. 4，定理I，$S^{-1}(A/a) = 0$相当于同一件事），$a \cap S \neq \varnothing$是必要且充分的，紧随定义如下。
 
 #### 推论 1 {#ac-ii-s2-prop-11-cor-1 .statement tag=046B}
 
-令$A$为环，且$S$为$A$的乘法子集。 $A$ 的每个理想 $p$ 在不满足 $S$ 的那些中最大的是素数。
+令$A$为环，且$S$为$A$的乘法子集。 $A$ 的每个理想 $p$ 在不满足 $S$ 的那些中最大，是素数。
 
 通过命题 11，$p$上的假设意味着$p = (i_A^S)^{-1}(m')$，其中$m'$是$S^{-1}A$的极大理想；因为 $m'$ 是质数，$p$ 也是质数。
 

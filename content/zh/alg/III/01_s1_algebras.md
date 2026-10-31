@@ -42,16 +42,16 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: d4fb8cf12c4a433bc6f8736acb659c6266d23b25f254293e60714cbb85d7536f
+content_sha256: 681aafe37d788a837c177b3e83645c301d918a0a6da9f00fe0fae266cd9a3e4c
 translated_from: content/en/alg/III/01_s1_algebras.md
 translation_method: google
 source_content_sha256: 820912e8d5d630a54cb7380bd85e9cf6d35d1c95d761b599b7ec5d3af2010845
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 67a722628c0393ed7bc81e2ed9e16e791bfdefbf38459ee8fe9c38a9d01757d5
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 1。 代数
@@ -98,31 +98,31 @@ $$(x, y) \mapsto xy + yx$$
 
 #### 定义 2 {#alg-iii-s1-def-2 .statement tag=05YT}
 
-*给定两个代数* E, E' *超过交换环* A, *同态 of* E *进入* E' *是映射* $f : E \to E'$ *这样*
+*给定两个代数* E，E' *超过交换环* A，*同态* E *进入* E' *是映射* $f : E \to E'$ *这样*
 (1) *f 是一个* A*-模同态*；
 (2) $f(xy) = f(x)f(y)$ *对于所有* $x \in E$ *和* $y \in E$。
 
-显然，两个A-代数同态中的合成是A-代数同态。每个双射代数同态都是同构。因此A-代数同态可被视为A-代数结构的类*态射*（*集合理论*，IV，2，no. 1）。接下来我们总是假设态射中的选择已经制作完成。如果E、E'是两个A-代数，则令$\operatorname{Hom}_{A\text{-alg}}(E, E')$表示E的A-代数同态的集合到E'中。
+显然，两个A-代数同态中的合成是A-代数同态。每个双射代数同态都是同构。因此A-代数同态可以被视为A-代数结构类*态射*（*集合理论*，IV，2，no. 1）。接下来我们总是假设态射的这个选择已经被制作出来了。如果E、E'是两个A-代数，则令$\operatorname{Hom}_{A\text{-alg}}(E, E')$表示E的A-代数同态的集合到E'中。
 
-令 E、E' 为两个代数，每个单位元。 E 的同态到 E' 映射单位元到 E' 的单位元被称为*单位同态*（或*单位代数态射*）。
+令 E、E' 为两个代数，每个单位元。 E 的同态到 E' 映射单位元到 E' 的单位元称为*单位同态*（或*单位代数态射*）。
 
 ### 2.子代数。理想。商代数
 
-设 A 为交换环，E A-代数。如果F是W的子A模，在E上的乘法、限制到E定义的乘法的F×F（与F上的A-模结构）、F上的A-代数结构下稳定，因此结构，被称为 A-代数 E 的 *子代数*。E 的子代数的每个交都是 E 的子代数。对于 E 的元素的每个$(x_i)_{i \in I}$，E 包含的子代数交所有$x_i$ 被称为由$(x_i)_{i \in I}$族*生成*的E的子代数，$(x_i)_{i \in I}$被称为这个子代数的*生成的系统*（或*生成的族*）。如果$u : E \to E'$是A-代数同态，则E的每个子代数F的像$u(F)$是E'的子代数。
+设 A 为交换环，E A-代数。如果F是W的子A模，在E上乘法下稳定，限制到E定义的乘法的F×F（与F上的A-模结构）F上的A-代数结构，则结构，称为 A-代数 E 的 *子代数*。E 的子代数的每个交是 E 的子代数。对于 E 的元素的每个$(x_i)_{i \in I}$，E 的交 E 包含的子代数的所有 $x_i$ 被称为由 $(x_i)_{i \in I}$ 族*生成*的 E 的子代数，而 $(x_i)_{i \in I}$ 被称为该族的 *生成的系统*（或 *生成的族*） 子代数。如果$u : E \to E'$是A-代数同态，则E的每个子代数F的像$u(F)$是E'的子代数。
 
 令 E 为*结合* 代数。对于E的每个子集M，E的元素的集合$M'$可与M的所有元素置换，是E的子代数，称为E中M的*中心化器*子代数（I, § 1, no. 5）。 E 中$M'$ 的扶正器$M''$ 也称为 M 的*双扶正器*；显然$M \subset M''$。由此可见，$M'$包含在其双中心化器$M''$中，而它正是$M''$的中心化器；但关系$M \subset M''$隐含$M'' \subset M'$，因此$M' = M''$（cf.*集合理论*，III, § 1, no. 7，命题2）。如果F是E的子代数，则F的*中心*是F及其在E中的扶正器$F'$的交$F \cap F'$。注如果
 
 F 是*可交换的*，则$F \subset F'$，因此$F' \supset F''$；在这种情况下，F 的双中心化器 $F''$ 是 F 的 *中心*。
 
-对于某些非关联的代数（对于例李代数），子代数和中心的集中器概念定义不同（*李群和李代数*，I, § 1, no. 6）。
+对于某些非关联的代数（对于例李代数），子代数和中心的扶正器概念定义不同（*李群和李代数*，I, § 1, no. 6）。
 
-当$a$是E的子A模并且关系$x \in a,\ y \in E$暗示$yx \in a$（或$xy \in a$）时，A-代数E的子集$a$被称为E的*左理想*（或*右理想*）​​。这相当于说$a$是E的左理想或反代数$E^0$的右理想。 E 的*双边理想*是 E 的子集 $a$，它既是左理想又是右理想。当 E 是结合律并承认单位元 $e$ 时，对于 $\alpha \in A$ 和 $x \in E$，$\alpha x = (\alpha e)x = x(\alpha e)$ 凭借 (2) (no. 1)，因此 *环* E (I, § 8, no. 6) 的（右、左、两侧）理想与*代数* E 的（右、左、两侧）理想。代数 E 的左（右、两侧）理想的每个和和每个交都是左（右、两侧）理想。 E 的左（或右，或两侧）理想包含子集 X 的交被称为由 X *生成*的 E 的左（或右，或两侧）理想。
+当$a$是E的子A模且关系$x \in a,\ y \in E$暗示$yx \in a$（或$xy \in a$）时，A-代数E的子集$a$称为E的*左理想*（或*右理想*）​​。这相当于说$a$是E的左理想或反代数$E^0$的右理想。 E 的*双边理想*是 E 的子集 $a$，它既是左理想又是右理想。当 E 是结合律并承认单位元 $e$ 时，对于 $\alpha \in A$ 和 $x \in E$，$\alpha x = (\alpha e)x = x(\alpha e)$ 凭借 (2) (no. 1)，因此 *环* E (I, § 8, no. 6) 的（右、左、两侧）理想为与 *代数* E 的（右、左、两侧）理想相同。 代数 E 的左（右、两侧）理想的每个和和每个交都是左（右、两侧）理想。 E 的左（或右，或两侧）理想包含子集 X 的交被称为由 X *生成*的 E 的左（或右，或两侧）理想。
 
 令 $b$ 为 A-代数 E 的*双面*理想。如果 $x \equiv x' \pmod{b}$ 和 $y \equiv y' \pmod{b}$，则
 $$
 x(y - y') \in b \quad \text{and} \quad (x - x')y' \in b
 $$
-因此$xy \equiv x'y' \pmod{b}$。因此，可以在商A-模$E/b$上定义内部律，即E的乘法律$(x, y) \mapsto xy$除以等价关系$x \equiv x' \pmod{b}$（I, § 1, no. 6）的商。立即验证该商律是$(E/b) \times (E/b)$到$E/b$的A双线性映射；因此，定义与A-模结构在$E/b$A-代数结构在$E/b$。 $E/b$，加上代数结构，被称为双面理想$b$ 代数 E 的*商代数*。 典范映射$p : E \to E/b$是代数同态。
+因此$xy \equiv x'y' \pmod{b}$。因此，内部律可以定义在商 A-模 $E/b$ 上，即 E 的乘法律 $(x, y) \mapsto xy$ 除以等价关系 $x \equiv x' \pmod{b}$ (I, § 1, no. 6) 的商。立即验证该商律是$(E/b) \times (E/b)$到$E/b$的A双线性映射；因此，定义与$E/b$A-代数结构在$E/b$上A-模结构。 $E/b$，加上代数结构，被称为双面理想$b$ 代数 E 的*商代数*。 典范映射$p : E \to E/b$是代数同态。
 
 令E，$E'$为两个A-代数和$u : E \to E'$代数同态。 像$u(E)$是$E'$的子代数，核$b = u^{-1}(0)$是E的双面理想；此外，在 $u$ 的规范分解中：
 $$
@@ -305,7 +305,7 @@ $$
 \bar{w}_i = \mathrm{Hom}(w, 1_{E_i}) : \mathrm{Hom}_{A\text{-alg.}}(F', E_i) \to \mathrm{Hom}_{A\text{-alg.}}(F, E_i)
 $$
 
-映射和图表中的形式逆系
+形式逆系 / 映射和图表
 
 $$
 \begin{array}{ccc}
@@ -317,11 +317,11 @@ $$
 
 是可交换的。
 
-现在假设$I$是正确的*有向*。考虑交换环$(A_i, \phi_{ji})$的直接系统和$A_i$模块的直接系统$(E_i, f_{ji})$，其中$I$作为索引集合；假设每个$E_i$都有一个$A_i$代数结构，并且对于$i \leq j$，$f_{ji}$是代数的$A_i$同态（相对于$\phi_{ji}$）（no. 5）。令$A = \lim \to A_i$，$E = \lim \to E_i$； $E$具有$A$模块结构，$A_i$模块$E_i$（II, § 6, no. 2）中的结构的直极限；此外，E 上合成的律被视为E_i的直极限，被视为乘法（I, § 10, no. 3）下的岩浆，其中E上A-模结构，定义A-代数结构 E; (E_i, f_{ji}) 称为 A_i 代数的直接系统，A-代数 E 称为其直极限。如果 f_i : E_i \to E、\phi_i : A_i \to A 是典范映射，则 f_i 是代数的 A_i 同态（相对于 \phi_i）。如果 E_i 是关联的（或可交换的），则 E 也是如此；如果每个 E_i 对于 i \leq j 承认单位元 e_i 且 f_{ji}(e_i) = e_j，则 E 承认单位元 e，使得对于 I \in I 中的所有 i 来说 f_i(e_i) = e。
+现在假设$I$是正确的*有向*。考虑交换环$(A_i, \phi_{ji})$的直接系统和$A_i$模块的直接系统$(E_i, f_{ji})$，其中$I$作为索引集合；假设每个$E_i$都有一个$A_i$-代数结构，并且对于$i \leq j$，$f_{ji}$是代数的$A_i$同态（相对于$\phi_{ji}$）（no. 5）。令$A = \lim \to A_i$，$E = \lim \to E_i$； $E$具有$A$模块结构，$A_i$模块$E_i$的结构中的直极限 (II, § 6, no. 2)；此外，E上合成的律被视为E_i的直极限，被视为乘法（I, § 10, no. 3）下的岩浆，其中E上的A-模结构，定义A-代数结构在E上； (E_i, f_{ji}) 称为 A_i 代数的直接系统，A-代数 E 称为其直极限。如果 f_i : E_i \to E、\phi_i : A_i \to A 是典范映射，则 f_i 是代数的 A_i 同态（相对于 \phi_i）。如果 E_i 是关联的（或可交换的），则 E 也是如此；如果每个 E_i 对于 i \leq j 承认单位元 e_i 且 f_{ji}(e_i) = e_j，则 E 承认单位元 e，使得对于 I 中的所有 i，f_i(e_i) = e。
 
 设 (E'_i, f'_{ji}) 为 A_i 代数的另一个直接系统，对于所有 i 令 u_i : E_i \to E'_i 为 A_i 代数同态，这些映射形成直接系统；那么 u = \lim \to u_i 是 A-代数同态。
 
-现在假设所有环 A_i 都等于相同的环 A 以及 Id_A 的 \phi_{ji}，因此 E = \lim \to E_i 为 A-代数。设 F 为 A-代数，对于所有 i 令 u_i : E_i \to F A-代数同态，使得 (u_i) 为映射的直接系统；那么 u = \lim \to u_i 是代数 E 到代数 F 的同态。相反，对于每个 A-代数同态 v : E \to F， v_i = v \circ f_i 族是 A-代数的直接系统同态使得 v = \lim \to v_i。而且，写成 \vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F), (\mathrm{Hom}_{A\text{-alg.}}(E_i, F), \vec{f}_{ij}) 显然是集合的逆系，可见上面的注也可以用说表示典范映射 v \mapsto (v \circ f_i) 是双射
+现在假设所有环 A_i 都等于相同的环 A 以及 Id_A 的 \phi_{ji}，因此 E = \lim \to E_i 为 A-代数。设 F 为 A-代数，对于所有 i 令 u_i : E_i \to F A-代数同态，使得 (u_i) 为映射的直接系统；那么 u = \lim \to u_i 是代数 E 的同态到代数 F。相反，对于每个 A-代数同态 v : E \to F， v_i = v \circ f_i 族是 A-代数的直接系统同态使得 v = \lim \to v_i。而且，写成 \vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F), (\mathrm{Hom}_{A\text{-alg.}}(E_i, F), \vec{f}_{ij}) 显然是集合的逆系，可见上面的注也可以用说表示典范映射 v \mapsto (v \circ f_i) 是双射
 
 $$
 d_F : \mathrm{Hom}_{A\text{-alg.}}(\lim \to E_i, F) \to \lim \leftarrow \mathrm{Hom}_{A\text{-alg.}}(E_i, F).
@@ -333,7 +333,7 @@ $$
 \bar{w}_i = \mathrm{Hom}(1_{E_i}, w) : \mathrm{Hom}_{A\text{-alg.}}(E_i, F) \to \mathrm{Hom}_{A\text{-alg.}}(E_i, F')
 $$
 
-映射和图表中的形式逆系
+形式逆系共映射和图表
 
 $$
 \begin{array}{ccc}
@@ -347,13 +347,13 @@ $$
 
 ### 7. 基的代数。 乘法表
 
-通过定义，A-代数 E 的基等于 E 的 A-模结构的基。令 (a_i)_{i \in I} 为 E 的基；存在一个唯一族 (\gamma^k_{ij})_{(i, j, k) \in I \times I \times I} of 环 A 的元素使得对于每个有序对 (i, j) \in I \times I, 集合 of k \in I 使得 \gamma^j_{ij} \neq 0 是有限的并且
+通过定义，A-代数 E 的基等于 E 的 A-模结构的基。设 (a_i)_{i \in I} 为 E 的基； 环 A 的元素存在一个唯一族 (\gamma^k_{ij})_{(i, j, k) \in I \times I \times I}，使得对于每个有序对 (i, j) \in I \times k \in I 的 I, 集合使得 \gamma^j_{ij} \neq 0 是有限的并且
 
 $$
 a_i a_j = \sum_{k \in I} \gamma^k_{ij} a_k.
 $$
 
-$\gamma_{ij}^k$ 被称为代数 E 的结构* 相对于基 $(a_i)$ 的*常数，关系 (7) 构成代数 E 的 *乘法表*（相对于基$(a_i)$）。
+$\gamma_{ij}^k$ 被称为代数 E 的结构* 相对于基 $(a_i)$ 和关系 (7) 构成乘法表* 的代数 E（相对于基$(a_i)$）。
 
 关系 (7) 可以想象为在平方表中这些关系的右侧写下设定
 
@@ -369,7 +369,7 @@ a_i & & \sum_k \gamma_{ij}^k a_k & \\
 \end{array}
 $$
 
-可以理解，指标$j$中的指标$i$和列行中出现的元素等于乘积$a_i a_j$。
+可以理解，出现在指标$j$的指标$i$和列行中的元素等于乘积$a_i a_j$。
 
 相反，给定 E 的 *A-模* E、基 $(a_i)_{i \in I}$ 和 A 的元素族$(\gamma_{ij}^k)$，使得对于 $k \in I$ 的每个有序对 $(i, j) \in I \times I$ 集合，使得 $\gamma_{ij}^k \neq 0$ 是有限的，则在 E 上且只有一个A-代数结构，其中关系(7)成立，因为A-模$E \otimes_A E$是自由的并且承认为基$(a_i \otimes a_j)_{(i, j) \in I \times I}$（cf.II, § 3, no. 7，推论2至命题7）。
 

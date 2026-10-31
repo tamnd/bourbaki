@@ -42,16 +42,16 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 72a66888a6774560ccbf0dd66fe2250691ab2ccc62182ac4eef255625076569e
+content_sha256: f97b44b5bd49cd76ec21dcf3aa60feb6b71472a0be863c3840d1b839c2b4ed2c
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
 translation_method: google
 source_content_sha256: dfbb9d78abb1e74cb8df10a3c8d7099cfe102e2e7a75bb6d300412ab223621fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 47ae2aa73c86eb9a43c64fede365a1aa7f44b471de317253e9d06ef5b3d7b97b
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 5。 群运行于集合
@@ -108,43 +108,43 @@ $$
 
 称为 E 到 E' 的 $\phi$ 态射 (cf. $\S$ 3, no. 1)。
 
-* 运算律扩张。* 分别给定（对于例）三个集合 $F_1, F_2, F_3$、置换 $f_1, f_2, f_3$ $F_1, F_2, F_3$ 以及基集合的梯队F $F_1, F_2, F_3$ (*集合理论*, IV, $\S$ 1, no. 1)，我们可以将定义，逐级进行到梯队F的构造，F的置换称为$f_1, f_2, f_3$到F的*规范扩张* (*集合理论*, IV, $\S$ 1, no. 2);我们用$\phi_F(f_1, f_2, f_3)$来表示它。
+* 运算律扩张。* 分别给定（对于例）三个集合 $F_1, F_2, F_3$、置换 $f_1, f_2, f_3$ $F_1, F_2, F_3$ 以及基集合的梯队F $F_1, F_2, F_3$ (*集合理论*, IV, $\S$ 1, no. 1)，我们可以定义，逐级进行梯队F的构造，F的置换称为*规范的扩张* $f_1, f_2, f_3$ 至 F（*集合理论*、IV、$\S$ 1、no. 2）；我们用$\phi_F(f_1, f_2, f_3)$来表示它。
 
 然后将G的群和$h_i$同态转化为$F_i$（$i = 1, 2, 3$）的对称群，在$F_i$上G的其他字运算。 映射$x \mapsto x_F = \phi_F(h_1(x), h_2(x), h_3(x))$是G的同态到$\mathfrak{S}_F$，在F上G的其他字运算，称为$h_1, h_2, h_3$到F的*扩张*。令P是F的子集，使得对于所有$x \in G$， $x_F(P) = P$；令 $x_P$ 为 $x_F$ 中的限制至
 
 P;则映射$x \mapsto x_P$是G在P上的运算，也称为$h_1, h_2, h_3$对P的扩张。
 
-对于例，令K和L为$F_1, F_2, F_3$上的两个阶梯；取F为$K \times L$的子集集合，P为K的映射集合代入L，用它们的图来识别。如果$w \in P$和$x \in G$，则$x_P(w)$是K到L中的映射$k \mapsto x_L(w(x_K^{-1}(k)))$。
+对于例，令K和L为$F_1, F_2, F_3$上的两个阶梯；取F为$K \times L$的子集的集合，P为K的映射的集合，代入L，用它们的图来识别。如果$w \in P$和$x \in G$，则$x_P(w)$是K到L的映射$k \mapsto x_L(w(x_K^{-1}(k)))$。
 
 ### 2.稳定子，修复者
 
 #### 定义 3 {#alg-i-s5-def-3 .statement tag=05B4}
 
-*设 M 为在集合 E 和 A 以及 B 子集 E 上运行的幺半群。$\alpha \in M$ 的集合，使得 $\alpha A \subset B$（或 $\alpha A = B$）称为 A 到 B 的传输器（或严格传输器）。从 A 到 A 的传输器（或严格传输器）称为A 的稳定子（或严格的稳定子）。$\alpha \in M$的集合，使得所有$a \in A$的$\alpha a = a$被称为A的修复者。*
+*设 M 是在集合 E 和 A 和 B 子集 E 上运行的幺半群。$\alpha \in M$ 的集合，使得$\alpha A \subset B$（分别$\alpha A = B$）被称为 A 到 B 的传输器（分别是严格传输器）。A 到 A 的传输器（分别是严格传输器）被称为A 的稳定子（或严格的稳定子）。$\alpha \in M$的集合，使得所有$a \in A$的$\alpha a = a$被称为A的修复者。*
 
-M 的元素 $\alpha$ 被称为稳定（严格稳定，固定） E 的子集 A 如果 $\alpha$ 属于到 A 的稳定子（严格稳定子，固定）。 M 的子集 P 被称为稳定（分别严格稳定，分别固定）E 的子集 A，如果 P 的所有元素都稳定（分别严格稳定，分别固定）A。A 的固定器包含在 A 的严格稳定子中，而 A 的严格稳定子本身又包含在 A 的稳定子中。
+M 的元素 $\alpha$ 被认为是稳定的（严格稳定，固定） E 的子集 A，如果 A 的 $\alpha$ 属于到稳定子（严格稳定子，再固定）。 M 的子集 P 被认为是稳定的（分别严格稳定，分别修复）E 的子集 A，如果 P 的所有元素都稳定（分别严格稳定，分别修复）A。A 的固定器包含在 A 的严格稳定子中，而 A 的严格稳定子本身又包含在 A 的稳定子中。
 
 #### 命题 1 {#alg-i-s5-prop-1 .statement tag=05B5}
 
 *设 M 为在 E 的集合 E 和 E 的 A 子集上运行的幺半群。*
 (a) *A的稳定子、严格稳定子和固定者是M的子幺半群。*
-(b) *令$\alpha$为M的可逆元；如果 $\alpha$ 属于到 A 的严格稳定子（或固定器），$\alpha^{-1}$ 也是如此。*
+(b) *令$\alpha$为M的可逆元；如果 $\alpha$ 属于为 A 的严格稳定子（或固定器），$\alpha^{-1}$ 也是如此。*
 
 令 e 为 M 的单位元素；那么 $ea = a$ 对于每个元素 $a \in A$，因此 e 属于到 A 的固定器。令 $\alpha$ 和 $\beta$ 为稳定 A 的 E 的元素。然后 $(\alpha \beta)A = \alpha(\beta A) \subset \alpha A \subset A$ 以及因此 A 的稳定子为M 的子幺半群。类似地，对于 A 的严格稳定子和固定器，从而 (a)。如果$\alpha A = A$，则$A = \alpha^{-1}(\alpha A) = \alpha^{-1}A$。如果对于所有$a \in A$，$\alpha a = a$，则$a = \alpha^{-1}(\alpha a) = \alpha^{-1}a$，从而 (b)。
 
 #### 推论 {#alg-i-s5-n2-cor-1 .statement tag=05B6}
 
-*令G为群在集合E上运行，A为E的子集。A的严格稳定子S和固定器F是G的子群，F是S的正规子群。*
+*设G为集合E上的群，A为E的子集。A的严格稳定子S和固定器F为G的子群，F为S的正规子群。*
 
 第一个断言源自命题，F是S的同态的核进入与A上S的运算相关的$\mathfrak{S}_A$。
 
-群 G 忠实地在集合 E 上运行当且仅当 E 的固定器由 G 的单位元素组成。E 的固定器是将给定的 G 的同态的核放入$\mathfrak{S}_E$；这个同态是单射的当且仅当它的核由单位元素（§ 4, no. 5，定理3）组成。
+群 G 忠实地在集合 E 上运行当且仅当 E 的固定器由 G 的单位元素组成。E 的固定器是将给定的 G 同态的核放入$\mathfrak{S}_E$；这个同态是单射的当且仅当它的核由单位元素（§ 4, no. 5，定理3）组成。
 
-设 M 为幺半群，E 为 M 集，E 的 $a$ 元素。固定器、$\{a\}$ 的严格稳定子和稳定子相等；这个幺半群同样被称为 $a$ 的固定者或稳定子。 E 的子集 A 的固定器是 A 的元素的固定器的交。如果 $a$ 的固定器是幺半群 M，则$a$ 称为 E 的不变量元素。如果 E 的每元素，则称 M 对 E 进行平凡操作是不变的。
+令 M 为幺半群，E 为 M 集合，E 的 $a$ 元素。固定器、$\{a\}$ 的严格稳定子和稳定子相等；这个幺半群同样被称为 $a$ 的固定者或稳定子。 E 的子集 A 的固定器是 A 的元素的固定器的交。如果 $a$ 的固定器是幺半群 M，则$a$ 称为 E 的不变量元素。如果 E 的每元素，则称 M 对 E 进行平凡操作。是不变的。
 
 #### 命题 2 {#alg-i-s5-prop-2 .statement tag=05B7}
 
-*令 G 为群在集合 E 上运行，并且对于所有 $x \in E$，令 $S_x$ 为 x 的稳定子。对于所有 $\alpha \in G$、$S_{\alpha x} = \alpha S_x \alpha^{-1}$。*
+*令 G 为集合 E 上的群，对于所有 $x \in E$，令 $S_x$ 为 x 的稳定子。对于所有 $\alpha \in G$、$S_{\alpha x} = \alpha S_x \alpha^{-1}$。*
 
 如果$s \in S_x$，则$\alpha s \alpha^{-1}(\alpha x) = \alpha s x = \alpha x$，从而$\alpha S_x \alpha^{-1} \subset S_{\alpha x}$。如 $x = \alpha^{-1}(\alpha x)$、$\alpha^{-1} S_{\alpha x} \alpha \subset S_x$、从而 $S_{\alpha x} \subset \alpha S_x \alpha^{-1}$。
 
@@ -212,7 +212,7 @@ $g \in G$的集合对A进行归一化（或中心化），称为A的归一化器
 
 关系“y 是共轭到 x”是等价关系。对于$x = ex$；如果$y = \alpha x$，则$x = \alpha^{-1} y$；如果$y = \alpha x$和$z = \beta y$，则$z = \beta \alpha x$。在这个关系下有轨道是等价类。
 
-E 的子集 X 是稳定的当且仅当它相对于共轭关系是饱和的。
+E 的子集 X 是稳定的当且仅当它相对于共轭的关系是饱和的。
 
 G 到 E 的映射 $\alpha \mapsto \alpha x$ 有时称为由 x 定义的轨道映射。它是 G 的 G 态射（通过左翻译将 G 的运算置于自身上）到 E。在此映射下，G 的像 $G . x$ 是 x 的轨道。
 
@@ -370,11 +370,11 @@ $$
 
 ### 7. 有限集合的置换群
 
-如果 E 是有限集合且 $n$ 元素，则对称群 $\mathfrak{S}_E$ (§ 4, no. 1) 是阶 $n!$ 的有限群。当E为集合$\mathbf{N}$自然数的区间$\{1, n\}$时，相应的对称群记为$\mathfrak{S}_n$；任何集合与$n$元素的对称群与$\mathfrak{S}_n$同构的。
+如果 E 是有限集合且 $n$ 元素，则对称群 $\mathfrak{S}_E$ (§ 4, no. 1) 是阶 $n!$ 的有限群。当E为自然数的集合$\mathbf{N}$的区间$\{1, n\}$时，相应的对称的群记为$\mathfrak{S}_n$；任何集合与$n$元素的对称群与$\mathfrak{S}_n$同构的。
 
 #### 定义 8 {#alg-i-s5-def-8 .statement tag=05BN}
 
-令 E 为 E 的有限集合、$\zeta \in \mathfrak{S}_E$ 置换以及由 $\zeta$ 生成的 $\mathfrak{S}_E$ 的 $\bar{\zeta}$ 子群。如果在 E 上 $\bar{\zeta}$ 的运算下，存在且仅有一个轨道且不被简化为单个元素，则$\zeta$ 称为循环。这个轨道称为$\zeta$的支撑。
+令 E 为 E 的有限集合、$\zeta \in \mathfrak{S}_E$ 置换以及由 $\zeta$ 生成的 $\mathfrak{S}_E$ 的 $\bar{\zeta}$ 子群。如果在 E 上 $\bar{\zeta}$ 的运算下，存在且仅有一个轨道且不被简化为单个元素，则称$\zeta$ 为环。这个轨道称为$\zeta$的支撑。
 
 令$\zeta$为一个循环。 $\zeta$的支持度$\operatorname{supp}(\zeta)$是$x \in E$的集合，使得$\zeta(x) \neq x$。
 
@@ -382,7 +382,7 @@ $$
 
 #### 引理 1 {#alg-i-s5-lem-1 .statement tag=05BO}
 
-令 $(\zeta_i)_{i \in I}$ 为一个循环族，其支持度为成对不相交的。那么 $\zeta_i$ 是成对可置换的。令$\sigma = \prod_{i \in I} \zeta_i$和$\bar{\sigma}$为由$\sigma$生成的子群。然后$\sigma(x) = \zeta_i(x)$对应$x \in S_i, i \in I$，$\sigma(x) = x$对应$x \notin \bigcup_{i \in I} S_i$。 映射$i \mapsto S_i$是I的双射到$\bar{\sigma}$轨道的集合，而不是单个元素的由……组成。
+令 $(\zeta_i)_{i \in I}$ 为一个循环族，其支持度为成对不相交的。那么 $\zeta_i$ 是成对可置换的。令$\sigma = \prod_{i \in I} \zeta_i$和$\bar{\sigma}$为由$\sigma$生成的子群。然后$\sigma(x) = \zeta_i(x)$对应$x \in S_i, i \in I$，$\sigma(x) = x$对应$x \notin \bigcup_{i \in I} S_i$。 映射$i \mapsto S_i$是I的双射到$\bar{\sigma}$轨道的集合上，而不是单个元素的由……组成。
 
 设$\zeta$和$\zeta'$为两个环，其支持度为不相交的。 如果
 $$
@@ -392,11 +392,11 @@ $$
 
 #### 命题 7 {#alg-i-s5-prop-7 .statement tag=05BP}
 
-设 E 是 E 的有限集合和 $\sigma$ 置换。存在且仅有一个由循环满足和以下两个条件组成的有限集合 C：
+令 E 为 E 的有限集合和 $\sigma$ 置换。存在且仅有一个有限集合 C 周期满足以下两个条件：
 
-(a) C 的元素的支持是成对的不相交的；
+(a) C 的元素的支持度是成对的不相交的；
 
-(b) $\sigma = \prod_{\zeta \in C} \zeta$（C 的元素可通过引理 1 成对置换）。
+(b) $\sigma = \prod_{\zeta \in C} \zeta$（C的元素可通过引理1成对置换）。
 
 令$\bar{\sigma}$为$\sigma$生成的子群，并令S为$\bar{\sigma}$轨道的集合，而不是单个元素的由……组成。对于$s \in S$，如果$x \in s$则写$\zeta_s(x) = \sigma(x)$，如果$x \notin s$则写$\zeta_s(x) = x$。对于所有$s \in S$，$\zeta_s$是一个循环，其支持度为$s$和$\sigma = \prod_{s \in S} \zeta_s$，如应用所示，是E的任何元素的两侧。C的唯一性从引理1得出。
 
@@ -461,7 +461,7 @@ $$
 \sigma p(z_1, \ldots, z_n) = p(z_{\sigma(1)}, \ldots, z_{\sigma(n)}) = \prod_{i < j} (z_{\sigma(j)} - z_{\sigma(i)}).
 $$
 
-令 C 为有序对 $(i, j)$ 的集合，使得 $1 \leq i \leq n,\ 1 \leq j \leq n,\ i < j$。如果 $(i, j)$ 不是反转，置换 $\theta$ 在 C 上由设定 $\theta(i, j) = (\sigma(i), \sigma(j))$ 定义，如果 $(i, j)$ 是反转，则由 $\theta(i, j) = (\sigma(j), \sigma(i))$ 定义。这意味着$\sigma p = (-1)^{\nu(\sigma)} p$。
+令C为有序对$(i, j)$的集合，使得$1 \leq i \leq n,\ 1 \leq j \leq n,\ i < j$。如果 $(i, j)$ 不是反转，置换 $\theta$ 在 C 上由设定 $\theta(i, j) = (\sigma(i), \sigma(j))$ 定义，如果 $(i, j)$ 是反转，则由 $\theta(i, j) = (\sigma(j), \sigma(i))$ 定义。这意味着$\sigma p = (-1)^{\nu(\sigma)} p$。
 
 #### 定理 2 {#alg-i-s5-thm-2 .statement tag=05BU}
 
@@ -483,7 +483,7 @@ $$
 
 #### 定义 10 {#alg-i-s5-def-10 .statement tag=05BV}
 
-*在定理2的记号中，数$\varepsilon(\sigma)$（也记为$\varepsilon_\sigma$）称为置换$\sigma$的签名。 同态$\varepsilon$的核称为E的交错的群。*
+*在定理2的记号中，数$\varepsilon(\sigma)$（也记作$\varepsilon_\sigma$）称为置换$\sigma$的签名。 同态 $\varepsilon$ 的核称为 E 的交错的群。*
 
 如果$\varepsilon(\sigma) = 1$（或$\varepsilon(\sigma) = -1$），则$\sigma$ 称为*偶*（或*奇*）。 E的交错的群用$\mathfrak{A}_E$表示。这是正常的子群 $\mathfrak{S}_E$。当$E = \{1, n\}$时，简称为$\mathfrak{A}_n$。当E的基数$n$是$\geq 2$时，它是指标2的子群，因此是阶$n! / 2$。可以证明，对于$n = 3$或$n \geq 5$，群$\mathfrak{A}_n$是一个简单的群（*cf.习题16*）。
 

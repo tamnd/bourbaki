@@ -29,16 +29,16 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: f2908d1bad9df81edc2c5a978ed68401ef8929f4154d8ee2b952b1485be14b8e
+content_sha256: dc0f5728a664edc679de983f1d477052e40cea343b801d8026303843eb1d2f19
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
 translation_method: google
 source_content_sha256: 4ef8d10c43b0b3fc4352b08bd49dd75b1412e18ba3d610df64784225920b10c7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 8830fc613e4cf8f84f1697bdf1d91169e3f95b7eb9a199783e34f6221bf6e7a6
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 1. 有限生成分级代数
@@ -53,7 +53,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 这个定义概括了代数、章V, § 5, no. 1、定义1中给出的元素或交换域的家庭。
 
-(*) 除了§ 5使用了章I, § 4的结果并因此同源代数之外，章中没有使用除本书第I至VI以及章I和II之外的任何书籍。
+(*) 除了在§ 5中使用章I, § 4的结果并因此同源代数之外，在这章中没有使用除了本书I到VI和章I和II之外的任何书籍。
 
 说一个族$(x_i)_{i \in I}$在$A$上是代数自由的，相当于说，$x$中的单项式$\prod_i x_i^{n_i}$在$A$上“线性独立”；特别是 $x_i$ 与 $A$ 线性无关。
 

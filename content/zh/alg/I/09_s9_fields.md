@@ -36,10 +36,10 @@ translation_method: google
 source_content_sha256: 622420ff5a6f546db44026f2ba8fbe2960bad17825f8f2a2110f89182676f0dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: c476a0d370c209a17e22ffa0dc5bae95af1106293b372ecf591a42f60a53cdc7
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 9。 域

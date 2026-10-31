@@ -29,16 +29,16 @@ subsections:
       pdf_page: 425
 statements: 11
 exercises: 2
-content_sha256: 4053ac6f3cd1cae4788ff96c7a34c6188325a73dd8a6f1c4f4d0e1494082c73b
+content_sha256: 0066925781f94a7c07e38a7646b21e2dde8722f7869ea12273c53a3ee35684b9
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
 translation_method: google
 source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 934cddf20bd4feaa591eccccb7c1d23ff83c2f3017f7c02182ff346669e5245e
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 6.绝对值
@@ -282,14 +282,14 @@ $$
 \| nF(z) - \sum_{k=1}^{n-1} F(z + \omega_n^k t) \| \geq n \| F(z) \| - \sum_{k=1}^{n-1} \| F(z + \omega_n^k t) \| \geq n \alpha - (n-1)\alpha = \alpha.
 $$
 
-因而，根据 (8)，让 n 趋向于 $+\infty$，$\|F(z + t)\| \geq a$，并且趋向于 $a$ 定义，这意味着
+因而，根据 (8)，令 n 趋于 $+\infty$，$\|F(z + t)\| \geq a$，并趋于定义 $a$，这意味着
 $$
 \|F(z + t)\| = \alpha,
 $$
-其他字$z + t \in P$。这证明集合$P$在$\mathbf{C}$中*开*；由于它也是闭且非空的且$\mathbf{C}$是连通的，因而$P = \mathbf{C}$和$\|F\|$在$\mathbf{C}$上恒定；因为这个函数在无穷远的点趋于0，$\|F(z)\| = 0$在$\mathbf{C}$，尤其是$\|F(0)\| = \|x^{-1}\| = 0$，这是荒谬的。
+其他字$z + t \in P$。这证明集合$P$在$\mathbf{C}$中*开*；由于它也是闭且非空的且$\mathbf{C}$是连通的，因而$P = \mathbf{C}$和$\|F\|$在$\mathbf{C}$上恒定；因为这个函数在无穷远的点趋向于0，$\|F(z)\| = 0$在$\mathbf{C}$尤其是$\|F(0)\| = \|x^{-1}\| = 0$趋向于0，这是荒谬的。
 
 (B) *第二种情况； K 是可交换的并且* $-1$ *不是 K* 的元素平方
-令L为与$T^2 + 1$的K根j邻接而得到的交换域； L 是向量空间超过 K，承认 $(1, j)$ 为基，并且 L 显然是代数超过 $\mathbf{R}$。显然，函数$x + yj \to \|x\| + \|y\|$在L上是范数与其结构兼容，因为向量空间超过$\mathbf{R}$；另一方面，对于 L 中的 $z = x + yj, z' = x' + y'j$，
+令L为与$T^2 + 1$的K 根 j 邻接而得到的交换域； L 是向量空间超过 K，承认 $(1, j)$ 为基，L 显然是代数超过 $\mathbf{R}$。 显然，函数$x + yj \to \|x\| + \|y\|$在L上与范数兼容，与结构兼容，就像向量空间在$\mathbf{R}$上兼容；另一方面，对于L中的$z = x + yj, z' = x' + y'j$，
 $$
 \begin{align*}
 \|zz'\| &= \|xx' - yy'\| + \|xy' + x'y\| \\
@@ -297,25 +297,25 @@ $$
 &= (\|x\| + \|y\|)(\|x'\| + \|y'\|) = \|z\|.\|z'\|.
 \end{align*}
 $$
-由此定义的范数因此与L上的R-代数结构兼容。根据情况(A)，L是R-代数同构于$\mathbf{C}$；现在$\mathbf{C}$与$\mathbf{C}$不同的唯一子R代数是$\mathbf{R}$，因此K与$\mathbf{R}$同构的。
+由此定义的范数因此与L上的R-代数结构兼容。 通过情况 (A) L 与 $\mathbf{C}$ 同构于 R-代数；现在$\mathbf{C}$与$\mathbf{C}$不同的唯一子R代数是$\mathbf{R}$，因此K与$\mathbf{R}$同构的。
 
 (C) *第三种情况：K 不可交换*
-设 Z 为 K 的中心，并且 K 的 x 元素不在 Z 中； K 的子域 $Z(x)$ 是可交换的，并且由 K 上的范数与$Z(x)$ 上的R-代数结构兼容；由于根据(A)和(B)，$Z \neq Z(x)$和Z以及$Z(x)$与$\mathbf{R}$或$\mathbf{C}$同构于R-代数，因此Z必然与$\mathbf{R}$和$Z(x)$与$\mathbf{C}$同构的。因而，对于所有$x \in K, Z(x)$，秩$\leq 2$在Z上。现在我们有以下引理：
+设 Z 为 K 的中心，并且 K 的 x 元素不在 Z 中； K 的子域 $Z(x)$ 是可交换的，K 上的范数与$Z(x)$ 上的R-代数结构兼容；由于凭借(A)和(B)，$Z \neq Z(x)$和Z以及$Z(x)$与$\mathbf{R}$或$\mathbf{C}$同构于R-代数，因此Z必然与$\mathbf{R}$和$Z(x)$与$\mathbf{C}$同构的。因而，对于所有$x \in K, Z(x)$，秩$\leq 2$在Z上。现在我们有以下引理：
 
 #### 引理 1 {#ac-vi-s6-lem-1 .statement tag=04VI}
 
-*令 D 为域和中心 L，使得对于所有 $x \in D, L(x)$ 来说，次数 $\leq m$ 的 L 为扩张。那么 D 对 L 的秩是 $\leq m^2$。*
+*令 D 为域和中心 L，使得对于所有 $x \in D, L(x)$ 是次数 $\leq m$ L 的扩张。那么 D 的秩超过 L 就是 $\leq m^2$。*
 
-我们显然可以将注意力限制在$D \neq L$的情况。则 D 中存在次数 $> 1$ L 的有限*可分离*代数交换扩张 E (*代数*, 章 VIII, § 10, no. 3, 引理 1)；作为 $E = L(x)$ 对于 E 中一些合适的 x (*代数*, 章 V, § 7, no. 7, 命题 12 和章 VII, § 5, no. 7), 通过假设 $[E : L] \leq m$。假设可分扩张 E 的取值使得 $[E : L]$ 是有限且尽可能大的，并考虑 D 中 E 的*中心化器* $E' \supset E$，即中心 E 的域，使得
+我们显然可以将注意力限制在$D \neq L$的情况。则 D 中存在次数 $> 1$ L 的有限*可分离*代数交换扩张 E (*代数*, 章 VIII, § 10, no. 3, 引理 1)；作为$E = L(x)$对于E中的一些合适的x（*代数*，章V, § 7, no. 7，命题12和章VII, § 5, no. 7），通过假设$[E : L] \leq m$。假设可分扩张 E 的取值使得 $[E : L]$ 是有限且尽可能大的，并考虑 D 中 E 的 *集中器* $E' \supset E$，即中心 E 的域，使得
 $$
 [D : E'] = [E : L] \leq m
 $$
 
-（代数，章VIII, § 10, no. 2，定理2）。如果 E $\#$ E'，$\mathbf{E}'$ 中将存在次数 $> 1$ $\mathbf{E}$ 的有限可分代数扩张 F (代数, 章 VIII, § 10, no. 3， 引理1);因而，F 将是次数 $> [\mathrm{E}: \mathrm{L}]$ 的 L (代数、章 V, § 7, no. 4、命题 7) 的有限可分代数扩张，与 E 的定义相反；因而$\mathbf{E}' = \mathbf{E}$，从而$[\mathrm{D}: \mathrm{L}] = [\mathrm{D}: \mathrm{E}][\mathrm{E}: \mathrm{L}] \leq m^2$。
+（代数，章VIII, § 10, no. 2，定理2）。若 E $\#$ E'，$\mathbf{E}'$ 中存在次数 $> 1$ $\mathbf{E}$ 的有限可分代数扩张 F (代数, 章 VIII, § 10, no. 3, 引理 1)；因而，F 将是次数 $> [\mathrm{E}: \mathrm{L}]$ 的 L (代数、章 V, § 7, no. 4、命题 7) 的有限可分代数扩张，与 E 的定义相反；因而$\mathbf{E}' = \mathbf{E}$，从而$[\mathrm{D}: \mathrm{L}] = [\mathrm{D}: \mathrm{E}][\mathrm{E}: \mathrm{L}] \leq m^2$。
 
-将应用这个引理与$m = 2$对应到K，可以看出K是有限秩的R的非交换扩张域，因此同构于四元数$\mathbf{H}$的域 （代数，章VIII, § 11, no. 2，定理2）。
+将应用这个引理与$m = 2$对应到K，可以看出K是有限秩的R的非交换扩张域，因此同构于四元数$\mathbf{H}$的域（代数，章） VIII, § 11, no. 2、定理2)。
 
-注 (1) 我们将在章中给出范数代数的 Gelfand-Mazur 定理的较短证明，它对于 R 上的每个 Hausdorff 局部凸拓扑代数 K 有效，并且其原理如下：它被减少（如情况 (B)） (C)) 为 K 大于 $\mathbf{C}$ 交换代数的情况；如果$x \in \mathbf{K} - \mathbf{C}.1$，我们考虑如上$\mathbf{C}$到K的映射$z \mapsto (x - z.1)^{-1}$，它在$\mathbf{C}$上连续且可微。对于局部凸空间 K 的对偶 $\mathbf{K}'$ 的每个元素 $x'$，$z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ 是 $\mathbf{C}$ 上的有界积分函数，因此由刘维尔定理和我们结论恒定，如部分 (A) 定理 1 的证明，这对于所有$z \in \mathbf{C}$和所有$x' \in \mathbf{K}'$必然意味着$\langle (x - z.1)^{-1}, x' \rangle = 0$； Hahn-Banach定理表明这个结论是荒谬的，因为$(x - z.1)^{-1} \neq 0$。 注定理 1 的证明部分 (A) 中的论证仅在外观上与上述不同，因为该论证只是证明解析函数的最大原理的特例，即对根的求和单位元和经过到极限相当于计算沿中心0的圆的积分$\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$，并且由于函数F的特殊形式，这里避免使用柯西公式。
+注 (1) 我们将在章中给出范数代数的 Gelfand-Mazur 定理的较短证明，它对于 R 上的每个 Hausdorff 局部凸拓扑代数 K 有效，并且其原理如下：它被减少（如情况 (B)）和(C))对于K是交换代数大于$\mathbf{C}$的情况；如果$x \in \mathbf{K} - \mathbf{C}.1$，我们考虑如上$\mathbf{C}$到K的映射$z \mapsto (x - z.1)^{-1}$，它在$\mathbf{C}$上连续且可微。对于局部凸空间 K 的对偶 $\mathbf{K}'$ 的每个元素 $x'$，$z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ 是 $\mathbf{C}$ 上的有界积分函数，因此由刘维尔定理和我们结论恒定，如部分 (A) 定理 1 的证明，这对于所有$z \in \mathbf{C}$和所有$x' \in \mathbf{K}'$必然意味着$\langle (x - z.1)^{-1}, x' \rangle = 0$； Hahn-Banach 定理表明这个结论是荒谬的，因为$(x - z.1)^{-1} \neq 0$。 注定理 1 的证明部分 (A) 中的论证仅在外观上与上述不同，因为该论证只是用于证明解析函数的最大原理的特例，即对根的求和单位元和经过到极限相当于计算沿中心0的圆的积分$\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$，并且由于函数F的特殊形式，这里避免使用柯西公式。
 
 #### 定理 2（奥斯特洛夫斯基）{#ac-vi-s6-thm-2 .statement tag=04VJ}
 
@@ -325,17 +325,17 @@ $$
 
 (*) 在 $\mathbf{H}$ 上我们写 $|z|^2 = z.\bar{z} = \bar{z}.z$，$\bar{z}$ 是 $z$ 的共轭四元数。
 
-no. 2，命题 3。则对于所有 x ∈ Q，存在实数 s > 0 使得 h(x) = |x|^s，即 f(x.1) = |x|^s；我们写 g = f^{1/s}。那么对于每个整数 n，g ∈ V(K) 且 g(n.1) = n；因此，no. 1的命题2表明g是K上的绝对值。
+no. 2, 命题 3. 则存在实数 s > 0，对于所有 x ∈ Q，h(x) = |x|^s，即 f(x.1) = |x|^s；我们写 g = f^{1/s}。那么对于每个整数 n，g ∈ V(K) 且 g(n.1) = n；因此，no. 1的命题2表明g是K上的绝对值。
 
-对于 x ∈ Q 且 y ∈ K，g(xy) = |x|g(y)，因此 g 在 K 上是范数，与其 Q 代数结构兼容（在 Q 上通常是绝对值值）。因此，K 的完成 K 是 Q = R 上的范数代数（一般拓扑、章 IX, § 3, no. 7）；令 ĝ 为 K 上的范数，即 g 的连续扩张。由于g是K上的绝对值，K是域，ĝ是K上的绝对值（一般拓扑，章IX, § 3, no. 3，命题6）。到定理 1 时，存在 K̂ R-代数同构到域 R、C 或 H 之一，并且 g'(x) = |j(x)|因此是 K̂ 上的绝对值；因为 K̂ 在 R 和 g' 上是有限维的，并且 ĝ 重合在子域 R 上。 K̂ 中的 1，g' = ĝ 由以下引理得到：
+对于 x ∈ Q 且 y ∈ K，g(xy) = |x|g(y)，因此 g 在 K 上是范数，与其 Q 代数结构兼容（在 Q 上通常是绝对值）。因此，K 的完成 K 是 Q = R 上的范数代数（一般拓扑、章 IX, § 3, no. 7）；令 ĝ 为 K 上的范数，即 g 的连续扩张。由于g是K上的绝对值，K是域，ĝ是K上的绝对值（一般拓扑，章IX, § 3, no. 3，命题6）。到定理 1 时，存在 K̂ R-代数同构到域 R、C 或 H 之一，并且 g'(x) = |j(x)|因此是 K̂ 上的绝对值；因为 K̂ 在 R 和 g' 上是有限维的，并且 ĝ 重合在子域 R 上。 K̂ 中的 1，g' = ĝ 由以下引理得到：
 
 #### 引理 2 {#ac-vi-s6-lem-2 .statement tag=04VK}
 
-设 L 为 L 的 a（不一定可交换）域和 K 子域，使得 L 在 K 上是 ajinite 维左向量空间。设 g 为 L 上的绝对值，f 为 K 的限制。如果 K 是完备的且相对于 f 不是离散的，则 L 相对于 g 是完备的；如果进一步 g' 在 L 上是另一个绝对值，并且对 K 具有相同的限制，则 g' = g。
+设L为L的a（不一定可交换）域和K子域，使得L是K上的ajinite维左向量空间。设g为L上的绝对值，f其限制到K。如果K是完整的并且不离散对于 f，L 对于 g 是完备的；如果进一步 g' 在 L 上是另一个绝对值，并且对 K 具有相同的限制，则 g' = g。
 
-由于g定义的拓扑是Hausdorff并且与L上的左向量K空间结构兼容，因此第一个断言来自拓扑向量空间，章I, § 2, no. 3，定理2。此外，g和g'定义的L上的拓扑是相同的（loc.cit.） ;因此存在实数 s > 0 使得 g' = g^s （一般拓扑、章 IX, § 3, no. 2、命题 5）。令 x 为 K 的元素，使得 f(x) ≠ 1；方程 g'(x) = g(x) 证明 s = 1。
+由于g定义的拓扑是Hausdorff并且与L上的左向量K空间结构兼容，因此第一个断言来自拓扑向量空间，章I, § 2, no. 3，定理2。此外，L上的拓扑定义g 和 g' 是相同的（loc. cit.）；因此存在实数 s > 0 使得 g' = g^s （一般拓扑、章 IX, § 3, no. 2、命题 5）。令 x 为 K 的元素，使得 f(x) ≠ 1；方程 g'(x) = g(x) 证明 s = 1。
 
-返回定理 2 的证明，可以看出，如果j 表示f 到K 的限制，则j 是K 到R、C 或H 的处处稠密子域的同构，且g(x) = |j(x)|对于 x ∈ K，从而 f(x) = |j(x)|^s。
+返回定理 2 的证明，可以看出，如果j 表示f 到K 的限制，则j 是K 的同构到R、C 或H 的处处稠密子域，且g(x) = |j(x)|对于 x ∈ K，从而 f(x) = |j(x)|^s。
 
 最后注，iff是K上的绝对值，h是Q上的绝对值，且s ≤ 1 by no. 3，命题 4；反之，如果 s ≤ 1，则 f = g^s 是 K 上的绝对值，因为 g 是 (一般拓扑, 章 IX, § 3, no. 2)；这就证明了最后一个断言或叙述。
 
@@ -343,7 +343,7 @@ Remarks
 
 (2) 如果 K 是域并且 R 上的范数代数，范数不一定是 K 上的绝对值；对于例, Ψ + iη → | Ψ| + |η| C 上的范数与其 R-代数结构兼容。
 
-(3) 对于定理 1 的情况(C)的证明，不使用代数、章 VIII 的一般结果，参见习题 2。
+(3) 对于定理 1 的情况(C)的证明，不使用代数、章 VIII的一般结果，参见习题 2。
 
 ### 习题{#ac-vi-s6-exercises}
 

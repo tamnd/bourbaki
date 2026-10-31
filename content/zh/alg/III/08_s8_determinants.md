@@ -58,16 +58,16 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 1bda74a96c64409a114be597d2e61326d982b04c5b17882ef80ae749b245f7de
+content_sha256: 31569ae9228a4e4019a73d7a2933db908880a3b6947af30e8af47f49b7dc653b
 translated_from: content/en/alg/III/08_s8_determinants.md
 translation_method: google
 source_content_sha256: a8722fe29a021a8f3f62eb7c41ed5736542a85db99ded2b20167525ac22836eb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 842c553f12f6e257c7097d87f36a00a3280802058d0b07ab161f79aaa5bdf8f8
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 8。决定因素
@@ -255,7 +255,7 @@ $$
 \det(XY) = (\det X)(\det Y).
 $$
 
-要使 X 可逆，满足 X 是 A 的可逆元是充分必要的，然后
+为了使 X 可逆，det X 是 A 的可逆元是充分必要的，然后
 
 (9) $$
 \det(X^{-1}) = (\det X)^{-1}.
@@ -271,7 +271,7 @@ $$
 
 #### 命题 6 {#alg-iii-s8-prop-6 .statement tag=064D}
 
-*为了使有限阶的平方矩阵 X 的列线性无关，条件 X 不为 A 中的零除子是充分必要的。*
+*For the columns of a square matrix X of finite order to be linearly independent, it is necessary and sufficient that det X be not a divisor of zero in A.*
 
 这是从no. 2、命题 3 得出的。
 
@@ -319,7 +319,7 @@ $$
 
 #### 命题 7 {#alg-iii-s8-prop-7 .statement tag=064F}
 
-*令 $I$ 为交换环 $A$ 的型 (I, I) 的有限集合和 $X = (\xi_{ji})_{(j, i) \in I \times I}$ 平方矩阵。然后*
+*令$I$为交换环$A$上型（I，I）的有限集合和$X = (\xi_{ji})_{(j, i) \in I \times I}$平方矩阵。然后*
 
 $$
 \det X = \sum_{\sigma \in S_I} \varepsilon_\sigma \left( \prod_{i \in I} \xi_{\sigma(i), i} \right)
@@ -347,9 +347,9 @@ $$
 
 #### 命题 8 {#alg-iii-s8-prop-8 .statement tag=064G}
 
-*对于超过交换环的每个平方矩阵 $X$，转置矩阵 ${}^t X$的行列式等于$X$的行列式。*
+*对于超过交换环的每个平方矩阵 $X$，转置矩阵 ${}^t X$ 的行列式等于 $X$ 的行列式。*
 
-假设$X$等于型(I, I)。对于置换 $\sigma, \tau$ $S_I$ 的每个有序对，（因为乘法是可交换的）
+假设$X$等于型（I，I）。对于置换的每个有序对 $\sigma, \tau$ $S_I$，（因为乘法是可交换的）
 
 $$
 \prod_{i \in I} \xi_{\sigma(i), i} = \prod_{j \in I} \xi_{\sigma(\tau(j)), \tau(j)}.
@@ -365,7 +365,7 @@ $$
 
 #### 推论 1 {#alg-iii-s8-prop-8-cor-1 .statement tag=064H}
 
-对于$\mathbf{A}^n$的n向量$x_1, \ldots, x_n$，令$Y(x_1, \ldots, x_n)$表示第i行为$x_i$的阶n的平方矩阵，对于$1 \leq i \leq n$。然后映射
+对于 $\mathbf{A}^n$ 的 n 向量 $x_1, \ldots, x_n$，令 $Y(x_1, \ldots, x_n)$ 表示第 i 行为 $x_i$ 的阶 n 的平方矩阵，对于 $1 \leq i \leq n$。然后映射
 $$
 (x_1, \ldots, x_n) \mapsto \det(Y(x_1, \ldots, x_n))
 $$
@@ -386,46 +386,46 @@ $$
 $$
 \det(^t u) = \det(u).
 $$
-如果$X$相对于$M$的基是$u$的矩阵，则$^t X$相对于对偶基是$^t u$的矩阵（II, § 10, no. 4，命题） 3）；如$\det(u) = \det(X)$和$\det(^t u) = \det(^t X)$，由命题8得出结论。
+如果$X$相对于$M$的基是$u$的矩阵，则$^t X$相对于对偶基是$^t u$的矩阵（II, § 10, no. 4， 命题3);如$\det(u) = \det(X)$和$\det(^t u) = \det(^t X)$，由命题8得出结论。
 
 ### 5. 矩阵的未成年人
 
-令$X$为型(I, J)的矩形矩阵$(\xi_{ij})_{(i,j) \in I \times J}$，其索引集合I和J是全序的。如果$H \subset I$和$K \subset J$是有限子集且数$p$相同元素，则存在唯一的递增双射$\phi : H \to K$（集合理论，III, § 5, no. 3， 命题6);我们用型 (H, H) 中的$X_{H,K}$ 平方矩阵表示等于$(\xi_{i,\phi(j)})_{(i,j) \in H \times H}$。若$X$ 属于的元素到交换环$\mathbf{A}$，则行列式$\det(X_{H,K})$称为指标H、K的矩阵$X$的小数；这些行列式（对于 I 和 J 的子集的所有有序对 (H, K) 分别与 $p$ 元素）也称为阶 $p$ 的 $X$ 次要因素。有了这个记号：
+令$X$为型（I，J）的矩形矩阵$(\xi_{ij})_{(i,j) \in I \times J}$，其索引集合I和J是全序的。如果$H \subset I$和$K \subset J$是有限子集，数$p$与元素相同，则存在唯一的递增双射$\phi : H \to K$（集合理论，III, § 5, no. 3， 命题6);我们用型 (H, H) 中的$X_{H,K}$ 平方矩阵表示等于$(\xi_{i,\phi(j)})_{(i,j) \in H \times H}$。若$X$属于的元素到交换环$\mathbf{A}$，则行列式$\det(X_{H,K})$称为指标H、K的矩阵$X$的小数；这些行列式（对于I和J的子集的所有有序对（H，K）分别与$p$元素）也称为阶$p$的$X$的次要因素。有了这个记号：
 
 #### 命题 9 {#alg-iii-s8-prop-9 .statement tag=064K}
 
-令$M$为基$(e_i)_{i \in J}$（有限或其他）的$\mathbf{A}$模，其索引集合$J$是全序的。对于每个整数 $p > 0$，令 $(e_H)_{H \in \mathfrak{S}_p(J)}$ 为 $\wedge^p(M)$ (§ 7, no. 8) 的相应的基。设$(x_i)_{1 \leq i \leq p}$为$p$的序列，$M$的元素；让
+令 $M$ 为具有基 $(e_i)_{i \in J}$（有限或其他）的 $\mathbf{A}$ 模，其索引集合 $J$ 是全序的。对于每个整数 $p > 0$，令 $(e_H)_{H \in \mathfrak{S}_p(J)}$ 为 $\wedge^p(M)$ (§ 7, no. 8) 的相应的基。设$(x_i)_{1 \leq i \leq p}$为$p$序列$M$元素；让
 $$
 x_i = \sum_{j \in J} \xi_{ji} e_j \quad \text{for } i \in I = \{1, p\}
 $$
 
-令$X$表示型$(J, I)$中的矩阵$(\xi_{ji})$。然后
+并令 $X$ 表示型 $(J, I)$ 中的矩阵 $(\xi_{ji})$。然后
 
 $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathfrak{F}_p(J)} (\det X_{H,I}) e_H.
 $$
 
-其中$H$穿过$J$的子集的集合$\mathfrak{F}_p(J)$和$p$元素。
+其中$H$穿过$J$的子集的集合$\mathfrak{F}_p(J)$以及$p$元素。
 
-这紧随no. 4的公式(12)和no. 3的公式(6)。
+这紧接着是no. 4的公式(12)和no. 3的公式(6)。
 
 #### 命题 10 {#alg-iii-s8-prop-10 .statement tag=064L}
 
-令$M$和$N$分别为$u$的维数、$m$和$n$、$u : M \to N$、线性映射和$X$矩阵的两个自由$A$模块，其中尊重$M$的基$(e_i)_{1 \leq i \leq m}$和$N$的基$(f_j)_{1 \leq j \leq n}$。然后，对于每个整数$p \leq \inf(m, n)$，$\wedge^p(u)$的矩阵相对于$\wedge^p(M)$的基$(e_K)_{K \in \mathfrak{F}_p(I)}$和$\wedge^p(N)$的基$(f_H)_{H \in \mathfrak{F}_p(J)}$（我们写成$I = \{1, m\}$和$J = \{1, n\}$）是型$(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$的矩阵$(\det(X_{H,K}))$（因此有$\binom{n}{p}$行和$\binom{m}{p}$列）。
+令$M$和$N$分别为$u$的维数、$m$和$n$、$u : M \to N$、线性映射和$X$矩阵的两个自由$A$模块，其中尊重$M$的基$(e_i)_{1 \leq i \leq m}$和$N$的基$(f_j)_{1 \leq j \leq n}$。然后，对于每个整数$p \leq \inf(m, n)$，$\wedge^p(u)$的矩阵相对于$\wedge^p(M)$的基$(e_K)_{K \in \mathfrak{F}_p(I)}$和$\wedge^p(N)$的基$(f_H)_{H \in \mathfrak{F}_p(J)}$（我们已经写成$I = \{1, m\}$和$J = \{1, n\}$）是型$(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$的矩阵$(\det(X_{H,K}))$（因此有$\binom{n}{p}$行和$\binom{m}{p}$列）。
 
-对于子集$K \subset J$和$p$元素，设$(j_k)_{1 \leq k \leq p}$为递增阶排列的$K$元素序列； $\wedge^p(u)$ 定义、§ 7, no. 2、公式 (4)
+对于子集$K \subset J$和$p$元素，设$(j_k)_{1 \leq k \leq p}$为递增阶排列$K$元素序列； $\wedge^p(u)$ 定义、§ 7, no. 2、公式 (4)
 
 $$
 \wedge^p(u)(e_K) = u(e_{j_1}) \wedge u(e_{j_2}) \wedge \cdots \wedge u(e_{j_p}).
 $$
 
-因此指标$H$行中的$\wedge^p(u)$的矩阵元素和指标$K$的列是元素$u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p})$的指标$H$的分量；因此它等于$\det(X_{H,K})$乘命题9。
+因此，位于指标$H$行的$\wedge^p(u)$的矩阵的元素和指标$K$的列是元素的指标$H$的分量$u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p})$；因此它等于$\det(X_{H,K})$乘命题9。
 
-矩阵$(\det(X_{H,K}))$称为矩阵$X$的第$p$外部幂，记为$\wedge^p(X)$。当$p = m = n$、$\wedge^n(X)$为矩阵时，单个元素$\det(X)$。
+矩阵$(\det(X_{H,K}))$称为矩阵$X$的第$p$外部幂，记为$\wedge^p(X)$。当$p = m = n$时，$\wedge^n(X)$为矩阵，单个元素$\det(X)$。
 
 #### 命题 11 {#alg-iii-s8-prop-11 .statement tag=064M}
 
-设$M$为有限维$n$的自由$A$模块；对于$M$中的每自同态$u$和$A$中元素$\xi, \eta$中的每有序对，
+令$M$为有限维$n$的自由$A$模块；对于$M$中的每个自同态$u$和$A$中元素$\xi, \eta$中的每个有序对，
 
 $$
 \det(\xi 1_M + \eta u) = \sum_{k \geq 0} \operatorname{Tr}(\wedge^k(u)) \xi^{n-k} \eta^k.
@@ -437,19 +437,19 @@ $$
 (\xi e_1 + \eta u(e_1)) \wedge (\xi e_2 + \eta u(e_2)) \wedge \cdots \wedge (\xi e_n + \eta u(e_n))
 $$
 
-等于项 $\xi^{n-p} \eta^p z_K$ 的和，其中
+等于项 $\xi^{n-p} \eta^p z_K$ 中的和，其中
 
 $$
 z_K = x_1 \wedge x_2 \wedge \cdots \wedge x_n
 $$
 
-其中$x_i = u(e_i)$代表$i \in K$，$x_i = e_i$代表$i \in H = I - K$，其中整数$p$穿过区间$[0, n]$，并且对于每个$p$，$K$穿过I的子集的集合， $p$元素。如果$i_1 < i_2 < \cdots < i_{n-p}$（或$j_1 < j_2 < \cdots < j_p$）是H（或K）的元素排列在递增阶，我们可以写（$§ 7$，no. 8，推论1到定理1和公式（19））
+其中$x_i = u(e_i)$代表$i \in K$，$x_i = e_i$代表$i \in H = I - K$，其中整数$p$穿过区间$[0, n]$，并且对于每个$p$，$K$穿过集合子集 / I 与 $p$ 元素。如果$i_1 < i_2 < \cdots < i_{n-p}$（或$j_1 < j_2 < \cdots < j_p$）是排列在递增阶中的H（或K）的元素，我们可以写（$§ 7$，no. 8，推论1至定理1） 公式 (19))
 
 $$
 z_K = \rho_{H, K} e_{i_1} \wedge e_{i_2} \wedge \cdots \wedge e_{i_{n-p}} \wedge u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p}).
 $$
 
-但如果 $X$ 是 $u$ 的矩阵相对于基 $(e_i)$，则命题 10
+但如果$X$相对于基$(e_i)$是$u$的矩阵，那么命题10
 
 $$
 u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p}) = \sum_{L \in \mathfrak{F}_p(I)} (\det X_{L, K}) e_L
@@ -461,11 +461,11 @@ $$
 z_K = \rho_{H, K} \sum_{L \in \mathfrak{F}_p(I)} (\det X_{L, K}) e_H \wedge e_L.
 $$
 
-Now $H \cap L \neq \varnothing$ except for $L = K$; it therefore follows from $§ 7$, no. 8, formula (20) that $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ and formula (18) then follows from Proposition 10 and the definition of the trace of a matrix (II, $§ 10$, no. 11, formulae (49) and (50)).
+现在$H \cap L \neq \varnothing$除了$L = K$；因此，从 $§ 7$、no. 8、公式 (20) 得出，$z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ 和公式 (18) 然后从矩阵 (II) 迹线的命题 10 和定义得出， $§ 10$、no. 11、公式（49）和（50））。
 
 #### 推论{#alg-iii-s8-n5-cor-1 .statement tag=064N}
 
-*在与命题 11 相同的假设下，对于 A-模 $\bigwedge(M)$ 的自同态 $\bigwedge(u)$*
+*在与命题 11相同的假设下，对于自同态$\bigwedge(u)$ of A-模$\bigwedge(M)$*
 
 $$(19)$$
 $$
@@ -474,9 +474,9 @@ $$
 
 在(18)中，替换$\xi$和$\eta$乘以1就足够了，并且观察到$\bigwedge(u)$的矩阵相对于$e_H$($H \in \mathfrak{F}(I)$)的基是矩阵的对角矩阵 $\bigwedge^k(u)$ 对应 $\geq k$ 0（II、$§ 10$、no. 7、*例* IV）。
 
-### 6.行列式的展开
+### 6. 行列式的展开
 
-令 I 为全序有限索引集合。对于 I 的每个子集 H，令 H' 表示补集 I - H。令 $X = (\xi_{ij})$ 为型 (I, I) 的平方矩阵，可以将其视为自同态的矩阵 $M = A^I$ 的$u$ M 的典范基 $(e_i)_{i \in I}$。令 $n = \operatorname{Card}(I)$ 且令 H 为 I 与 $q \leq n$ 元素的子集以及 I 与 $n - q$ 元素的 K 子集；那么我们可以写(no. 5,命题10)
+令I为全序有限索引集合。对于I的每个子集 H，让H'表示补集I - H。令$X = (\xi_{ij})$为型的平方矩阵（I，I），可以将其视为矩阵 $M = A^I$的自同态$u$相对于M的典范基$(e_i)_{i \in I}$。令$n = \operatorname{Card}(I)$并令H为I的子集，$q \leq n$元素和K子集 I 与 $n - q$ 元素；那么我们可以写(no. 5,命题10)
 
 $$
 (\bigwedge^q(u))(e_H) = \sum_R \det(X_{R, H}) e_R
@@ -485,7 +485,7 @@ $$
 (\bigwedge^{n-q}(u))(e_K) = \sum_S \det(X_{S, K}) e_S
 $$
 
-其中 R（分别为 S）穿过 I 的子集的集合，其中 $q$（分别为 $n - q$）元素。由 $§ 7$, no. 8, 公式 (19) 和 (20) 得出
+其中 R（分别为 S) runs through the set of subsets of I with $q$ (resp. $n - q$) elements. 由 $§ 7$, no. 8, 公式 (19) 和 (20) 得出
 
 $$
 e_R \wedge e_S = 0
@@ -497,7 +497,7 @@ $$
 (20) \quad (\wedge^q(u)(e_H)) \wedge (\wedge^{n-q}(u)(e_K)) = \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) e_I
 $$
 
-其中$R$穿过$I$的子集的集合$\mathscr{F}_q(I)$和$q$元素。
+其中$R$穿过$I$的子集的集合$\mathscr{F}_q(I)$以及$q$元素。
 
 如果我们取$K = H'$，则从$\wedge^n(u)$（§ 7, no. 2，公式（4））和§ 7, no. 3的定义得出，推论1到命题5，（20）的右侧是$\rho_{H, H'} \wedge^n(u)(e_I)$。因此 (no. 1, 公式 (1) 和 § 7, no. 2, 公式 (4))
 
@@ -511,9 +511,9 @@ $$
 (22) \quad \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) = 0 \quad \text{for } K \neq H'.
 $$
 
-(21) 的右侧称为矩阵 $X$ 行列式的*拉普拉斯展开* *由q 列（其指标属于到H）和n - q 列（其指标） 属于到 H* 的补码 H'。次要的 $\det(X_{R, H})$ 和 $\det(X_{R', H'})$ 是有时称为*互补*。
+(21) 的右侧被称为矩阵 $X$ 行列式的 *拉普拉斯展开*，由 q 列（其指标属于到 H）和 n - q 列（其指标属于到 H* 的补码 H'）。次要的 $\det(X_{R, H})$ 和 $\det(X_{R', H'})$ 是有时称为*互补*。
 
-拉普拉斯展开的一个重要简单情况是，其中$I = \{1, n\}$和$q = 1$，因此$H = \{i\}$；对于$I$中的每一个子集$R = \{j\}$，其中一个元素然后是$\det X_{R, H} = \xi_{ji}$。 $\det X_{R', H'}$的小数是平方矩阵的行列式，从矩阵规范导出（no. 5），通过在$X$中抑制指标$j$和列的行获得指标$i$。我们用$X^{ji}$表示这个平方矩阵。显然$\rho_{H, H'} = (-1)^{i-1}$和$\rho_{R, R'} = (-1)^{j-1}$；因此（21）在这种情况下变成
+拉普拉斯展开的一个重要简单情况是，其中$I = \{1, n\}$和$q = 1$，因此$H = \{i\}$；对于$I$中的每一个子集$R = \{j\}$，其中一个元素，然后$\det X_{R, H} = \xi_{ji}$。 $\det X_{R', H'}$的小数是平方矩阵的行列式，从矩阵规范导出（no. 5），通过在$X$中抑制指标$j$和列的行指标获得$i$。我们用$X^{ji}$表示这个平方矩阵。显然$\rho_{H, H'} = (-1)^{i-1}$和$\rho_{R, R'} = (-1)^{j-1}$；因此（21）在这种情况下变成
 
 $$
 (23) \quad \det X = \sum_{j=1}^n (-1)^{i+j} \xi_{ji} \det(X^{ji})
@@ -525,7 +525,7 @@ $$
 (24) \quad \sum_{j=1}^n (-1)^{ji} \xi_{ji} \det(X^{jk}) = 0 \quad \text{for } k \neq i.
 $$
 
-公式 (23) 被称为指标 i* 的列的 X 行列式的 *展开。标量$(-1)^{i+j} \det(X^{ji})$被称为指标、$j$和$i$的*辅因子*（或者，滥用语言，$\xi^{ji}$的辅因子）在$X$中。
+公式 (23) 被称为指标 i* 的列 X 的行列式的*展开。标量 $(-1)^{i+j} \det(X^{ji})$ 被称为 $X$ 中指标 $j$ 和 $i$ 的*辅因子*（或者，滥用语言，$\xi^{ji}$ 的辅因子）。
 
 $X$的辅因子**矩阵是矩阵
 
@@ -613,7 +613,7 @@ $$
 
 由归纳成立 (29)。
 
-(2) 考虑阶$n$的平方矩阵，它在“矩阵的上三角矩阵”的形式中呈现（II, § 10, no. 7，例 IV）
+(2) 考虑阶$n$的平方矩阵，它在“矩阵的上三角形矩阵”的形式中呈现（II, § 10, no. 7，例IV）
 
 $$
 X = \begin{pmatrix} Y & T \\ 0 & Z \end{pmatrix}

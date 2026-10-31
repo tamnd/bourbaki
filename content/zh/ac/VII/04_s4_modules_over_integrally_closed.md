@@ -53,23 +53,23 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 288a932a06525664ea43060ba54e25769ed1508d8126a35ebbb30f4059fcc4b9
+content_sha256: 5b175d00dd298238cd430d71888e3d89b36eed84af1b9156b799f34fc16b793d
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 translation_method: google
 source_content_sha256: 72d54cdf6923d26d9507679e68c08eb8627c1c668375ce55e331655e15e45177
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 6c01c6d38dbf36816b7d6eb7d3a492643c505c1efe0cf9226ac74dbc24431228
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 4. 模过度封闭的诺特域
 
-在本段中，$\mathbf{A}$将是一个*可交换的整环*，其中域为分数$K$。从 no. 2 开始，$\mathbf{A}$ 将被进一步假定为 *诺特且整体闭合*（因此是一个 Krull 域（$\S$ 1、no. 3，定理 2 的推论））；那么$P(\mathbf{A})$、$D(\mathbf{A})$、$C(\mathbf{A})$分别表示高度为1的$\mathbf{A}$素理想的集合（$\S$1、no. 6）、$\mathbf{A}$（$\S$）的除子群 1, no. 3) 和 $\mathbf{A}$ ($\S$ 1, no. 10) 的除子类群，后者被写成*相加*。
+在本段中，$\mathbf{A}$将是一个*可交换的整环*，其中域为分数$K$。从 no. 2 开始，$\mathbf{A}$ 将进一步假定为 *诺特且整体闭合*（因此是一个 Krull 域（$\S$ 1，no. 3，定理 2 的推论））；那么$P(\mathbf{A})$、$D(\mathbf{A})$、$C(\mathbf{A})$分别表示高度为1的$\mathbf{A}$素理想的集合（$\S$1、no. 6）、$\mathbf{A}$的除子群 $\mathbf{A}$ ($\S$ 1, no. 10) 的 ($\S$ 1, no. 3) 和除子类群，后者被写成*相加*。
 
-在整体封闭的诺特域$\mathbf{A}$上研究有限生成模的一般方法由关于$\mathbf{A}$中*高度* 1的所有素理想$p \in P(\mathbf{A})$的“本地化”模组成；作为$\mathbf{A}$，那么是有限生成的$\mathbf{A}_p$模块的*离散评估环*（$\S$1，no. 6，定理4），结构是众所周知的（*代数*，章VII， $\S$ 4) 因此给出了关于有限生成的 $\mathbf{A}$ 模块的结构的信息。在$\mathbf{A}$是戴德金域的特殊情况下，我们可以得到与$\mathbf{A}$是主理想整环（no. 10）时一样完整的理论。
+在整体封闭的诺特域$\mathbf{A}$上研究有限生成模的一般方法由关于$\mathbf{A}$中*高度* 1的所有素理想$p \in P(\mathbf{A})$的“本地化”模组成；作为$\mathbf{A}$，那么有限生成的$\mathbf{A}_p$模块的*离散评估环*（$\S$1，no. 6，定理4），结构是众所周知的（*代数*，章 VII、$\S$ 4)，因此给出了有关有限生成的 $\mathbf{A}$ 模块的结构的信息。在$\mathbf{A}$是戴德金域的特殊情况下，我们可以得到与$\mathbf{A}$是主理想整环（no. 10）时一样完整的理论。
 
 ### 1. 格子
 
@@ -80,37 +80,37 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 $V$ 存在两个自由子$\mathbf{A}$ 模块$L_1,\ L_2$，例如$L_1 \subset M \subset L_2$ 和$\mathrm{rg}_{\mathbf{A}}(L_1) = \mathrm{rg}_K(V)$。
 
 例
-(1) 如果我们取$V = K$，$K$的格子就是$K$的*分数理想*$\neq (0)$（$\S$1，no. 1，定义1）。
+(1) 如果我们采用 $V = K$，$K$ 的格子只是 $K$ 的*分数理想* $\neq (0)$ ($\S$ 1, no. 1, 定义 1)。
 
-(2) 如果 $\mathrm{rg}_K(V) = n$，V 的每个“自由”子 A 模块 L 最多有基包含 n 元素，V 中在 A 上自由的每个子集在 K 上自由；要使 L 成为 V 的格子，L 的基的 n 元素是充分必要的（在其他字中，即 $\mathrm{rg}_A(L) = n$）。
+(2) 如果$\mathrm{rg}_K(V) = n$，V的每个*空闲*子A模块L最多有基包含至多n个元素，V的每个子集在A上空闲，在K上空闲；为了使L成为V的格子，L有基n个元素是充分必要的（在其他字中，即$\mathrm{rg}_A(L) = n$）。
 
-(3) 如果 A 是 *主理想整环*，V 的每个晶格 M 都是有限生成A-模（因为 A 是诺特），它是无扭转的，因此是*自由* A-模 (*代数*, 章 VII, § 4, no. 3，推论 2 定理2)。
+(3) 如果 A 是 *主理想整环*，V 的每个格子 M 都是有限生成A-模（因为 A 是诺特），它是无扭转的，因此是*自由* A-模 (*代数*, 章 VII, § 4, no. 3，推论2 至定理 2)。
 
 #### 命题 1 {#ac-vii-s4-prop-1 .statement tag=052Y}
 
-*为了使 V 的子 A 模 M 成为 V 的晶格，KM = V 并且 M 包含在 V 的有限生成的子 A 模中是必要且充分的。*
+*对于V的子A模M成为V的格，KM =V并且M包含在V的有限生成的子A模中是必要且充分的。*
 
-对于具有与 V 生成 V 相同的秩的 V 的自由子 A 模，条件显然是必要的。相反，如果 KM = V，则 V 的 M 包含基 $(a_i)_{1 \leq i \leq n}$ 超过 K，因此它是包含自由子 A 模 L，由$a_i$生成；另一方面，如果$M \subset M_1$（其中M）是由元素 b 的有限数生成的V的子A模，并且$(e_i)_{1 \leq i \leq n}$是V在K上的基，则存在A的元素 s $\neq 0$，使得每个b，是$s^{-1}e_i$ 的线性组合，系数*位于* A；如果L是$s^{-1}e_i$生成的V的自由子A模块，则$M \subset L_2$。
+条件显然是必要的，对于V 的免费子 A 模块，其秩与 V 生成 V 相同。相反，如果 KM = V，则 V 的 M 包含基 $(a_i)_{1 \leq i \leq n}$ 超过 K，因此它包含是由 $a_i$ 生成的自由子 A 模块 L；另一方面，如果$M \subset M_1$（其中M）是由元素 b 的有限数生成的V的子A模，并且$(e_i)_{1 \leq i \leq n}$是K上V的基，则存在元素 s A 的 $\neq 0$，使得每个 b 是 $s^{-1}e_i$ 的线性组合，系数 *in* A；如果L是$s^{-1}e_i$生成的V的免费子A模块，则$M \subset L_2$。
 
 #### 推论{#ac-vii-s4-n1-cor-1 .statement tag=052Z}
 
-*假设A为诺特；对于 V 的子 A 模 M 是 V 的晶格，KM = V 且 M 是有限生成的是必要且充分的。*
+*假设A为诺特；对于V的子A模M成为V的格子，KM = V且M是有限生成的是必要且充分的。*
 
 #### 注 (1) {#ac-vii-s4-n1-rem-1 .statement tag=0530}
 
-回想一下，对于 V 典范映射 $M \otimes_A K \to V$ 的每个子 A 模块 M 都是单射的，并且具有像 KM (*代数*, 章 II, § 7, no. 10, 命题 26)；因此，说 KM = V 意味着这个映射是*双射的*。
+回想一下，对于 V 典范映射 $M \otimes_A K \to V$ 的每个子 A 模块 M 都是单射的，并且具有像 KM (*代数*, 章 II, § 7, no. 10, 命题 26)；说 KM = V 意味着这个映射是*双射的*。
 
 #### 命题 2 {#ac-vii-s4-prop-2 .statement tag=0531}
 
-*设M是V和M的格，V的子A模。如果存在$K^*$的两个元素x，y，使得$xM \subset M_1 \subset yM$，$M_1$是V的格；相反，如果 $M_1$ 是 V 的格子，则 A 存在两个非零元素 a, b 使得 $aM \subset M, \subset b^{-1}M$.*
+*设M为V的格子，M为V的子A模。如果$K^*$存在两个元素 x，y，使得$xM \subset M_1 \subset yM$，$M_1$是V的格子；相反，如果$M_1$是V的格，则A存在两个非零元素 a, b，使得$aM \subset M, \subset b^{-1}M$。*
 
-如果$L_1, L_2$是V的两个自由格，使得$L, \subset M \subset L,$、关系$xM \subset M_1 \subset yM$意味着$xL_1 \subset M, \subset yL_2$、$xL_1$和$yL_2$是自由格；相反，如果 M, 是格且 L 的 $(e_i)_{1 \leq i \leq n}$ 基，在 A 上，关系 KM, = V 意味着$x = a/s \in K^*$ 的存在（其中 a 和 s 是 A 的非零元素），使得 $xe_i \in M,$ 对于所有 $i$、从而 $xM \subset xL_2 \subset M_1$ 和 *更不必说* $aM \subset M,$；交换M和M的角色，类似地可以证明A中存在$b \neq 0$使得$bM_1 \subset M$。
+如果$L_1, L_2$是V的两个自由格，那么$L, \subset M \subset L,$、关系$xM \subset M_1 \subset yM$意味着$xL_1 \subset M, \subset yL_2$、$xL_1$和$yL_2$是自由格；相反，如果 M, 是一个格，并且 L 的 $(e_i)_{1 \leq i \leq n}$ 基，在 A 上，关系 KM, = V 意味着存在 $x = a/s \in K^*$（其中 a 和 s 是 A 的非零元素），使得 $xe_i \in M,$ 对于所有$i$、从而 $xM \subset xL_2 \subset M_1$ 和 *更不必说* $aM \subset M,$；交换M和M的角色，类似地可以证明A中存在$b \neq 0$使得$bM_1 \subset M$。
 
 #### 命题 3 {#ac-vii-s4-prop-3 .statement tag=0532}
 
 (i) *如果$M_1$和$M_2$是V的格子，那么$M_1 \cap M,$和$M_1 + M_2$也是。
 
-(ii) *如果 W 是 V 的向量子空间并且 M 是 V 的晶格，则 $M \cap W$ 是 W 的晶格。*
+(ii) *如果W是V的向量子空间并且M是V的格子，则$M \cap W$是W的格子。*
 
 (iii) 令 $V, V_1, \ldots, V_k$ 为有限秩中的向量空间超过$K$，并让
 $$
@@ -118,7 +118,7 @@ f : V_1 \times \cdots \times V_k \to V
 $$
 是一个多线性映射，其像生成 $V$。 *如果$M_i$是$1 \leq i \leq k$的$V_i$的格，则$f$（$(M, x \ldots x M_k)$）生成的$V$的子A模是$V$的格。*
 
-(iv) 设$V$和$W$是$K$上有限秩的两个向量空间，$M$是$V$的格子，$N$是$W$的格子。 *子A模$N$：$\mathrm{Hom}_K(V, W)$的$M$，K-线性映射$f$的由……组成，使得$f(M) \subset N$是$\mathrm{Hom}_K(V, W)$的格子。*
+(iv) 设$V$和$W$是有限秩的两个向量空间超过$K$，$M$是$V$的格子，$N$是$W$的格子。 *子A模$N$：$\mathrm{Hom}_K(V, W)$的$M$，K-线性映射$f$的由……组成，使得$f(M) \subset N$是$\mathrm{Hom}_K(V, W)$的格子。*
 
 (i) 由于命题 2，$A$中存在非零$a$和$b$，使得$aM_1 \subset M_2 \subset b^{-1}M_1$；我们结论，$M_1 \cap M_2$和$M_1 + M_2$位于$aM_1$和$b^{-1}M_1$之间，因此根据命题2是格子。
 
@@ -135,24 +135,24 @@ $$
 $$
 N : M \to \mathrm{Hom}_A(M, N),
 $$
-其中映射从$M$到$N$的每个K-线性映射$f \in N : M$到A-线性映射与$f|_M$具有相同的图，是*双射的*，对于每个A-线性映射$g : M \to N$都可以嵌入K-线性映射
+其中映射从$M$到$N$的每个K-线性映射$f \in N : M$到A-线性映射，与$f|_M$具有相同的图，是*双射的*，对于每个A-线性映射$g : M \to N$都可以嵌入K-线性映射
 $$
 g \otimes 1 : M \otimes_A K \to N \otimes_A K
 $$
 
 可以看出，$M \otimes_A K$和$N \otimes_A K$分别与$V$和$W$进行标识。
 
-特别是，如果我们取 $W = K$、$N = A$、$\operatorname{Hom}_K(V, W)$ 只是 $V$ 和 $A$ 的*对偶向量 K 空间* $V^*$：$M$ 被识别为*对偶 A-模* $M^*$共$M$；今后我们将进行这种识别，我们将说$M^*$是$M$的*对偶格子*：因此它是*$x^* \in V^*$的*集合*使得*$\langle x, x^* \rangle \in A$*对于所有*$x \in M$。
+特别是，如果我们取 $W = K$、$N = A$、$\operatorname{Hom}_K(V, W)$ 只是 $V$ 和 $A$ 的*对偶向量 K 空间* $V^*$：$M$ 与*对偶 A-模* 进行标识$M^*$共$M$；今后我们将进行这种识别，我们将说$M^*$是$M$的*对偶格子*：因此它是*$x^* \in V^*$的*集合*使得*$\langle x, x^* \rangle \in A$*对于所有*$x \in M$。
 
 #### 推论{#ac-vii-s4-n1-cor-2 .statement tag=0533}
 
-*令 U、V、W 为 K 和 f 上有限秩的三个向量空间：U × V → W 左非简并 K 双线性映射* (代数、章 IX, § 1, no. 1、定义 3)。 *如果 M 是 V 的格子，N 是 W 的格子，集合 N: ,M of x ∈ U 使得 f (x, y) ε N for ally ε M 是 U* 的格子。
+*令 U、V、W 为 K 和 f 上有限秩的三个向量空间：U × V → W 左非简并 K 双线性映射* (代数、章 IX, § 1, no. 1、定义 3)。 *如果 M 是 V 的格子，N 是 W 的格子，集合 N: ,M of x ∈ U 使得 f (x, y) ε N for ally ∈ M 是 U* 的格子。
 
-令 $s_f: U \to \operatorname{Hom}_K(V, W)$ 为 K-线性映射与 $f$ (代数, 章 IX, *loc.cit.*) 关联，使得 $s_f(x)$ 为线性映射 $y \mapsto f(x, y)$；回想一下，说 $f$ 保持非退化意味着 $s_f$ 是*内射*。由命题 3 (iv)，$N: M$是$\operatorname{Hom}_K(V, W)$的格子；由于 $N: fM = s_f^{-1}(N: M)$ 和 $s_f$ 是单射的，因此推论来自命题 3 (ii)。
+令 $s_f: U \to \operatorname{Hom}_K(V, W)$ 为 K-线性映射与 $f$ (代数, 章 IX, *loc. cit.*) 关联，使得 $s_f(x)$ 为线性映射 $y \mapsto f(x, y)$；回想一下，说 $f$ 保持非退化意味着 $s_f$ 是*内射*。由命题 3 (iv)，$N: M$是$\operatorname{Hom}_K(V, W)$的格子；由于 $N: fM = s_f^{-1}(N: M)$ 和 $s_f$ 是单射的，因此推论来自命题 3 (ii)。
 
 *例*
 
-(4) 令$S$为有限秩与单位元的（不一定结合）K-代数；那么$S \times S$到$S$的双线性映射$(x, y) \mapsto xy$（左和右）是非退化的。如果 $M$ 和 $N$ 是 $S$ 相对于 $A$ 的格子，那么 $M.N$ (命题 3 (iii)) 和 $x \in S$ 的集合也如此，使得 $xM \subset N$ （命题 3 的推论）。 注存在$S$包含单位元的$S$的*子A代数*，它是$S$的*格子*；考虑$S$的基$(e_i)_{1 \leq i \leq n}$，使得$e_1$是$S$的单位元，并让$e_i e_j = \sum_k c_{ijk} e_k$是$S$（$1 \leq i \leq n, 1 \leq j \leq n$）的乘法表，*这样* $c_{1jk} = \delta_{jk}, c_{i1k} = \delta_{ik}$（克罗内克符号）。令 $s \in A$ 为非零，并且对于指标 $(i, j, k)$ 的所有三元组，$c'_{ijk} = s \cdot c_{ijk} \in A$；如果我们将 $i \geq 2$ 写为 $e'_i = s^{-1} e_i$，那么
+(4) 令$S$为有限秩与单位元的（不一定结合）K-代数；那么$S \times S$到$S$的双线性映射$(x, y) \mapsto xy$（左和右）是非退化的。 If $M$ and $N$ are lattices of $S$ with respect to $A$, so are $M.N$ (命题 3 (iii)) and 集合 of $x \in S$ such that $xM \subset N$ (Corollary to 命题 3). 注存在$S$包含单位元的$S$的*子A代数*，它是$S$的*格子*； for consider 基 $(e_i)_{1 \leq i \leq n}$ of $S$ such that $e_1$ is 单位元 of $S$ and let $e_i e_j = \sum_k c_{ijk} e_k$ be 乘法表 of $S$ ($1 \leq i \leq n, 1 \leq j \leq n$), *so that* $c_{1jk} = \delta_{jk}, c_{i1k} = \delta_{ik}$（克罗内克符号）。令 $s \in A$ 为非零，且$c'_{ijk} = s \cdot c_{ijk} \in A$ 对于指标 $(i, j, k)$ 的所有三元组；如果我们将 $i \geq 2$ 写为 $e'_i = s^{-1} e_i$，那么
 
 $$
 e'_i e'_j = s c'_{ij1} e'_1 + \sum_{k \geq 2} c'_{ijk} e'_k
@@ -160,13 +160,13 @@ $$
 
 对于 $i \geq 2$ 和 $j \geq 2$； $S$ 与基 $e_1$ 和 $e'_i$ ($2 \leq i \leq n$) 的格子是 $S$ 与单位元 $e_1$ 的亚 A 代数。
 
-(5) 设$V$是$K$上的有限维向量空间，并且$f$是$V$上的非简并双线性形式。如果 $M$ 是 $V$ 的格子，则从命题 3 的推论可以得出 $x \in V$ 的集合 $M^*_f$，使得盟友 $\in M$ 的 $f(x, y) \in A$ 也是 $V$ 的格子；如果 $s_f: V \to V^*$ 是线性映射与 $f$（双射的）相关联，则 $s_f(M^*_f)$ 只是 $M$ 的对偶晶格 $M^*$。
+(5) 令$V$是$K$上的有限维向量空间，并且$f$是$V$上的非简并双线性形式。 If $M$ is a lattice of $V$, it follows from the Corollary to 命题 3 that 集合 $M^*_f$ of $x \in V$ such that $f(x, y) \in A$ for ally $\in M$ is also a lattice of $V$;如果 $s_f: V \to V^*$ 是线性映射与 $f$（双射的）相关联，则 $s_f(M^*_f)$ 只是 $M$ 的对偶晶格 $M^*$。
 
 #### 命题 4 {#ac-vii-s4-prop-4 .statement tag=0534}
 
-*设 B 为 B 和 K 的整环，A 子环，L 分别为 A 和 B 的域和分数。设 V 为 K 上的有限维向量空间。*
+*设B为B和K的整环，A子环，以及L分别为A和B的域和分数。令V为K上的有限维向量空间。*
 
-(i) 对于$V$相对于$A$的每个格子$M$，$V_{(L)} = V \otimes_K L$中$M_{(B)} = M \otimes_A B$的像$BM$是$V_{(L)}$相对于$B$的格子。
+(i) For every lattice $M$ of $V$ with respect to $A$, 像 $BM$ of $M_{(B)} = M \otimes_A B$ in $V_{(L)} = V \otimes_K L$ is a lattice of $V_{(L)}$ with respect to $B$.
 
 (ii) 进一步假设 $B$ 是一个平面 $A$ 模。那么典范映射 $M_{(B)} \to BM$ 是双射的。如果进一步$B$是忠实平坦的，则映射其中映射$V$相对于$A$的每个格子$M$到$V_{(L)}$相对于$B$的格子$BM$都是单射的。
 
@@ -208,13 +208,13 @@ $$
 
 显然$M^*$包含在每个$M_p^*$中。相反，假设$x^* \in \bigcap M_p^*$；如果$x \in M$，则$\langle x, x^* \rangle \in \bigcap_{p \in P} A_p$，并且如$A = \bigcap_{p \in P} A_p$（§ 1, no. 6，定理 4），$x^* \in M^*$。
 
-定理 1 应用于$M^*$ 显示$M^{**} = \bigcap_{p \in P} M_p^{**}$。但由于 $A$ 是主理想整环（$§ 1$，编号 **6**，定理 **4**），$M$ 是有限生成的免费 $A$ 模块，因此 $M_p^{**}$ 被规范地标识为 $M$， （*代数*、章 II、$§ 2$、第 **7**、命题 **14**）、从而推论。
+定理 1 应用于 $M^*$ 显示$M^{**} = \bigcap_{p \in P} M_p^{**}$。但由于 $A$ 是主理想整环（$§ 1$，编号 **6**，定理 **4**），$M$ 是有限生成的免费 $A$ 模块，因此 $M_p^{**}$ 被规范地标识为 $M$， （*代数*、章II、$§ 2$、第 **7**、命题 **14**）、从而推论。
 
 对于任何格$M$相对于$A$，典范映射$c_M : M \to M^{**}$（*代数*，章11，$§ 2$，号**7**）将元素$x \in M$与其自身等同，因为$x$是唯一元素 $y$ / $V = V^{**}$，使得 $\langle x, x^* \rangle = \langle y, x^* \rangle$ 对于所有 $x^* \in M^*$，从 $M^*$ 生成 $V^*$ 开始。如果$M^{**} = M$（*loc.cit.*），我们可以说$M$是*自反*。正如我们上面的$M^* = (M^*)^{**}$，可以看出任何格子$M$的*对偶*总是*自反*。
 
 #### 注 (1) {#ac-vii-s4-n2-rem-1 .statement tag=0538}
 
-令 $M$ 为有限生成的 $A$ 模块； 直接的，$M$的对偶$M^*$，用$\operatorname{Hom}_A(M, K)$的子$A$模块标识，是向量$K$空间$\operatorname{Hom}_A(M, K)$的*格子*；特别是，每个有限生成的*自反* $A$-模块同构于合适的向量$K$-空间的格子。
+令 $M$ 为有限生成的 $A$ 模块； 直接的，$M$的对偶$M^*$，用$\operatorname{Hom}_A(M, K)$的子$A$模块标识，是向量$K$空间$\operatorname{Hom}_A(M, K)$的*格子*；特别是，每个有限生成的*自反*$A$-模块同构于合适的向量$K$-空间的格子。
 
 #### 定理 2 {#ac-vii-s4-thm-2 .statement tag=0539}
 
@@ -223,7 +223,7 @@ $$
 (b) $M = \bigcap_{p \in P} M_p$。
 (c) $\operatorname{Ass}(V/M) \subset P$。
 
-(a) 和 (b) 的等价由推论得出定理 1。如​​果 (b) 成立，$V/M$ 被规范地识别为乘积 $\prod_{p \in P} (V/M_p)$ 的子$A$ 模块；但实际上，它包含在 *直和* $\bigoplus_{p \in P} (V/M_p)$ 中：因为如果 $L \subset M$ 是一个自由格子，$L$ 的$(e_i)_{1 \leq i \leq n}$ 基，点 $x \in V$ 的每个坐标$x_i$ 相对于 $(e_i)$ 属于至 $A$，除了值的有限数或 $p \in P$。 关系 $V/M \subset \bigoplus_{p \in P} (V/M_p)$ 那么意味着：
+(a) 和 (b) 的等价由推论得出定理 1。如​​果 (b) 成立，则 $V/M$ 被规范地识别为乘积 $\prod_{p \in P} (V/M_p)$ 的子$A$ 模块；但实际上，它包含在 *直和* $\bigoplus_{p \in P} (V/M_p)$ 中：因为如果 $L \subset M$ 是自由格，$L$ 的$(e_i)_{1 \leq i \leq n}$ 基，点 $x \in V$ 的每个坐标$x_i$ 相对于 $(e_i)$ 属于至 $A$，除了值的有限数或 $p \in P$。 关系 $V/M \subset \bigoplus_{p \in P} (V/M_p)$ 那么意味着：
 
 $$
 \operatorname{Ass}(V/M) \subset \bigcap_{p \in P} \operatorname{Ass}(V/M_p).
@@ -237,11 +237,11 @@ $$
 \operatorname{Ass}(M^{**}/M) \subset \operatorname{Ass}(V/M) \subset P.
 $$
 
-另一方面，如果$p \in P$，则在定理1的推论的证明中可以看出，$M_p^{**} = M_p$，从而$p \notin \operatorname{Ass}(M^{**}/M)$（章IV，$§ 1$，no. 3，推论1到命题7)。我们结论 Ass(M**/M) = ∅，从而 M** = M（章 IV, § 1, no. 1，推论 1 到命题 2）。
+另一方面，如果$p \in P$，则在定理1的推论的证明中可以看出，$M_p^{**} = M_p$，从而$p \notin \operatorname{Ass}(M^{**}/M)$（章IV，$§ 1$，no. 3，推论 1 至命题 7)。我们结论 Ass(M**/M) = ∅，从而 M** = M（章 IV, § 1, no. 1，推论 1 到命题 2）。
 
 #### 推论{#ac-vii-s4-n2-cor-1 .statement tag=053A}
 
-令 M、N 为 V 相对于 A 的两个格，使得 N 是自反的。在阶中，M ⊂ N，对于所有 p ∈ P，M_p ⊂ N_p 是充分必要的。
+令 M、N 为关于 A 的两个V 格，使得 N 是自反的。在阶中，M ⊂ N，对于所有 p ∈ P，M_p ⊂ N_p 是充分必要的。
 
 条件显然是必要的，如果满足的话，那么
 
@@ -259,8 +259,8 @@ $$
 #### 命题 6 {#ac-vii-s4-prop-6 .statement tag=053B}
 
 (i) 如果 M_1 和 M 是 V 的自反格，则 M, n M 也是。
-(ii) 如果 W 是 V 的向量子空间并且 M 是 V 的自反格，则 M n W 是 W 的自反格。
-(iii) 令 V、W 为 K 上有限秩的两个向量空间，M（分别为 N）为 V（分别为 W）的晶格。如果 N 是自反的，则 Hom_K(V, W) (no. 1, 命题 3) 的格 N: M 是自反的。
+(ii) 如果 W 是 V 的向量子空间，并且 M 是 V 的自反格，则 M n W 是 W 的自反格。
+(iii) 令V，W 为有限秩的两个向量空间，在K 和M（分别为N）上，为V（分别为W）的格子。如果 N 是自反的，则 Hom_K(V, W) (no. 1, 命题 3) 的格 N: M 是自反的。
 
 (i) (M, n M_2)_p = (M_1)_p n (M_2)_p 对于所有 p ∈ P (章 II, § 2, no. 4, 定理 1)。如果 M_1 = \bigcap_{p \in P} (M_1)_p 且 M_2 = \bigcap_{p \in P} (M_2)_p，则
 
@@ -268,7 +268,7 @@ $$
 M, n M_2 = \bigcap_{p \in P} (M, n M_2)_p
 $$
 
-从而根据定理2得出结论。
+从而根据定理 2 得出结论。
 (ii) 类似地 (M n W)_p = M_p n W_p = M_p n W, 从而
 
 $$
@@ -318,7 +318,7 @@ $$
 \langle x \otimes 1, \omega_M(x^* \otimes 1) \rangle = \rho(\langle x, x^* \rangle)
 $$
 
-€或 x \in M，x^* \in M^*。由于 M 是有限生成的自由 R 模块 L 的商，因此 M* 同构于对偶 L* 的子 R 模块，并且 L* 是自由且有限生成的；由于 $\mathbf{R}$ 是诺特，因此 M* 也是有限生成的 R 模块，从而同构 $\omega_{M^*}: (M^{**})_{(S)} \to ((M^*)_{(S)})^*$ 使得
+€或 x \in M，x^* \in M^*。由于 M 是有限生成的自由 R 模 L 的商，因此 M* 同构于对偶 L* 的子 R 模，并且 L* 是自由且有限生成的；由于 $\mathbf{R}$ 是诺特，因此 M* 也是有限生成的 R 模块，从而同构 $\omega_{M^*}: (M^{**})_{(S)} \to ((M^*)_{(S)})^*$ 使得
 
 $$
 \langle x^* \otimes 1, \omega_{M^*}(x^{**} \otimes 1) \rangle = \rho(\langle x^*, x^{**} \rangle)
@@ -357,19 +357,19 @@ $$
 
 并且从事实来看，元素$\omega_M(x^* \otimes 1)$生成$(M_{(S)})^*$。既然如此，假设 M 是自反的，则意味着 $c_M$ 是双射的，因此 $c_M \otimes 1$ 也是双射的，因此 $\psi = c_{M_{(S)}}$ 是双射的，这表明命题。
 
-### 3. 反身模的局部构造
+### 3. 反身模的本地构造
 
 我们保留记号和no. 2的假设。我们可以说，如果 $p \in P$ 的集合不成立，那么性质 *对于几乎所有* $p \in P$ 都成立*是有限的*。
 
 #### 定理 3 {#ac-vii-s4-thm-3 .statement tag=053E}
 
-*设 V 为 K 上的向量空间或有限秩，M 为 V 相对于 A 的格子。*
+*设V为K和M上有限秩的向量空间，相对于A为V的格子。*
 
-(i) *令 N 为 V 相对于 A 的晶格；那么，对于 A 的每个素理想 p，$N_p$ 是 V 相对于 A 的格子，并且对于几乎所有* $p \in P, N_p = M_p$。
+(i) *令 N 为相对于 A V 的格子；那么，对于 A 的每个素理想 p，$N_p$ 是关于 A 的V 格，并且对于几乎所有* $p \in P, N_p = M_p$。
 
-(ii) *相反，假设对于所有* $p \in P$ *格子* $N(p)$ *V 相对于 A 给出，使得* $N(p) = M_p$ *对于几乎所有* $p \in P$。 *那么*$N = \bigcap N(p)$*是A相对于A的自反格子，并且它是V相对于A的唯一自反格子*$N'$*使得*$N'_p = N(p)$*对于所有*$p \in P$。
+(ii) *相反，假设对于 A 而言，给出所有* $p \in P$ *格子* $N(p)$ *的 V，使得* $N(p) = M_p$ *对于几乎所有* $p \in P$。 *那么*$N = \bigcap N(p)$*是A相对于A的自反格子，并且它是V关于A的唯一自反格子*$N'$*使得*$N'_p = N(p)$*对于所有*$p \in P$。
 
-(i) 第一个断言由no. 1，命题4得出。此外，$\mathbf{K}^*$中存在$x, y$，使得$xN \subset M \subset yN$(no. 1，命题2)；我们知道，对于几乎所有$p \in P, v_p(x) = v_p(y) = 0$（$§ 1$、no. 6、定理 4），这表明$x$和$y$在$A$中是可逆的，因此$M_p = N_p$。
+(i) 第一个断言由no. 1，命题4得出。此外，$\mathbf{K}^*$中存在$x, y$，使得$xN \subset M \subset yN$(no. 1，命题2)；我们知道，对于几乎所有$p \in P, v_p(x) = v_p(y) = 0$（$§ 1$，no. 6，定理 4），这表明$x$和$y$在$A$中是可逆的，因此$M_p = N_p$。
 
 (ii) 我们可以将替换$M$乘以$x^{-1}M$，其中$x \neq 0$在$A$中，并假设$N(p) \subset M$，对于所有$p \in P$。令$p_1, \ldots, p_h$为$P$的元素，使得$N(p) = M$，因为$p$不同于$p_i$（$1 \leq i \leq h$）；我们写：
 
@@ -383,15 +383,15 @@ $$
 
 *令$p$和$p'$为$A$的两个素理想，这样(0)是$p \cap p'$中包含的$A$的唯一素理想。然后，对于$V$的每个子A模块$E$，$(E_p)_{p'} = K.E.$*
 
-令$S$为子集$(A - p)(A - p')$与$A$的乘积；由章 II、$§ 2$、no. 3、命题 7、$(E_p)_{p'} = S^{-1}E$。此外，$A \subset S^{-1}A \subset K$； $S^{-1}A$ 对应的素理想到 $A$ 的素理想 $q$，使得 $q \cap S = \varnothing$ (章 II, $§ 2$, no. 5, 命题 11) 和假设 (0) 为$A$唯一不满足$S$的素理想；因此$S^{-1}A = K$和$S^{-1}E = K.E.$
+令$S$为$A$的乘法子集$(A - p)(A - p')$；由章 II、$§ 2$、no. 3、命题 7、$(E_p)_{p'} = S^{-1}E$。此外，$A \subset S^{-1}A \subset K$； $S^{-1}A$ 对应的素理想到 $A$ 的素理想 $q$，使得 $q \cap S = \varnothing$ (章 II, $§ 2$, no. 5, 命题 11) 并且假设(0)是$A$唯一不满足$S$的素理想；因此$S^{-1}A = K$和$S^{-1}E = K.E.$
 
-现在我们回到(ii)的证明。如果 $p \in P$ 与 $p_i$ ($1 \leq i \leq h$) 不同，则将引理 1 应用于 $N(p_i)$ 会得到 $((N(p_i))_{p_i})_p = (K.N(p_i))_p = V$，因为 $p_i$ 和 $p$ 的高度为 1。那么
+我们现在回到(ii)的证明。如果 $p \in P$ 与 $p_i$ ($1 \leq i \leq h$) 不同，则将引理 1 应用于 $N(p_i)$ 会得到 $((N(p_i))_{p_i})_p = (K.N(p_i))_p = V$，因为 $p_i$ 和 $p$ 的高度为 1。那么
 
 $$
 Q_p = M_p \cap (N(p_1))_p \cap \cdots \cap (N(p_h))_p = M_p = N(p)
 $$
 
-（章 II、$§ 2$、no. 4）。另一方面，如果 $p$ 等于 $p_i$ ($1 \leq i \leq h$)，则根据上述参数和 $(N(p_i))_{p_i} = N(p_i)$、从而，$(N(p_i))_{p_j} = V$ 等于 $i \neq j$
+（章II、$§ 2$、no. 4）。另一方面，如果 $p$ 等于 $p_i$ ($1 \leq i \leq h$)，则根据上述参数和 $(N(p_i))_{p_i} = N(p_i)$、从而，$(N(p_i))_{p_j} = V$ 等于 $i \neq j$
 
 $$
 Q_{p_i} = M_{p_i} \cap N(p_i) = N(p_i).
@@ -407,7 +407,7 @@ $$
 
 #### 注 {#ac-vii-s4-n3-rem-1 .statement tag=053G}
 
-令$L$为$V$相对于$A$的自由格。由于$A_p$对于$p \in P$来说是主理想整环，所以$N(p)$是与$L$相同的秩的自由$A$模块，并且存在$u(p) \in \mathbf{GL}(V)$使得$u(p)(L_p) = N(p)$；这个条件还有确定$u(p)$到乘法到$\mathbf{GL}(L_p)$的元素之内。 条件$N(p) = L_p$对于几乎所有$p \in P$意味着必然$u(p) \in \mathbf{GL}(L_p)$对于几乎所有$p \in P$。家庭$(u(p))_{p \in P}$满足后者性质形式乘法群$\mathbf{GL}_a(V)$包含为子群乘积$\prod_{p \in P} \mathbf{GL}(L_p)$。 定理 3 然后表明 V 的自反格的 *集合与齐次空间* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ 处于规范的一对一对应中。如果选择 L over A 的基 $(e_i)_{1 \leq i \leq n}$，$\mathbf{GL}(V)$（分别为 $\mathbf{GL}(L_p)$）可与可逆矩阵 $\mathbf{GL}(n, K)$（分别为 $\mathbf{GL}(n, A, )$）和群 $\mathbf{GL}_a(V)$ 的群识别， 阶$n$矩阵、$(U(p))_{p \in P}$系统群，使得$U(p) \in \mathbf{GL}(n, K)$对于所有$p \in P$以及$U(p) \in \mathbf{GL}(n, A_p)$对于几乎所有$p \in P$。如果 A 是 Dedekind 域，群 $\mathbf{GL}_a(V)$ 也可以用群 $\mathbf{GL}(n, A)$ 来标识，其中 A 是受限 adèles ($§ 2$, no. 4) 的环。
+令$L$为$V$相对于$A$的自由格。由于$A_p$对于$p \in P$来说是主理想整环，$N(p)$是与$L$相同的秩的自由$A$模块，并且存在$u(p) \in \mathbf{GL}(V)$使得$u(p)(L_p) = N(p)$；这个条件还有确定$u(p)$到乘法到$\mathbf{GL}(L_p)$的元素之内。 条件$N(p) = L_p$对于几乎所有$p \in P$意味着必然$u(p) \in \mathbf{GL}(L_p)$对于几乎所有$p \in P$。家庭$(u(p))_{p \in P}$满足后者性质形式乘法群$\mathbf{GL}_a(V)$包含为子群乘积$\prod_{p \in P} \mathbf{GL}(L_p)$。 定理 3 然后表明 V 自反格的 *集合与齐次空间* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ 处于规范的一对一对应中。如果选择 A 上的 L 的基 $(e_i)_{1 \leq i \leq n}$，则$\mathbf{GL}(V)$（分别为 $\mathbf{GL}(L_p)$）被识别为可逆矩阵 $\mathbf{GL}(n, K)$（分别为 $\mathbf{GL}(n, A, )$）和群的群 $\mathbf{GL}_a(V)$与阶$n$、$(U(p))_{p \in P}$的矩阵、系统群，使得$U(p) \in \mathbf{GL}(n, K)$对于所有$p \in P$以及$U(p) \in \mathbf{GL}(n, A_p)$对于几乎所有$p \in P$。如果 A 是 Dedekind 域，群 $\mathbf{GL}_a(V)$ 也可以用群 $\mathbf{GL}(n, A)$ 来标识，其中 A 是受限 adèles ($§ 2$, no. 4) 的环。
 
 ### 4. 伪同构
 
@@ -415,12 +415,12 @@ $$
 
 #### 命题 9 {#ac-vii-s4-prop-9 .statement tag=053H}
 
-*设 M 为有限生成A-模。以下条件是等效的*：
+*设M为有限生成A-模。以下条件是等效的*：
 
 (a) $M_p = 0$ 对于*每个素理想* $p$ 高度为 $\leq 1$。
 (b) *湮没子* $a \triangleleft M$ *是理想* $\neq (0)$ *和* $A : a = A$ (*A*: $a$ 表示，如$§ 1$、no. 1、*集合的* $x \in K$ *这样* $xa \in A$）。
 
-我们知道（章 II，$§ 2$，no. 2，推论 2 到命题 4）条件 $M_p = 0$ 等价于 $a + p$，因此也等价于 $aA_p = A$，（章 II，$§ 2$， no. 5,*注*);另一方面，对于A的每个积分理想$b \neq 0$，关系“*$bA_p = A$，对于所有$p \in P$*”相当于$D(A)$中的$\operatorname{div} b = \operatorname{div} A = 0$（$§ 1$，no. 4，命题7），或者也等于$\operatorname{div}(A : b) = 0$并且，由于$A : b$是除数（$§ 1$、no. 1、命题 1），因此关系也等于$A : b = A$。 命题然后注意到，说$a \notin p$ 代表$p = (0)$ 意味着$a \neq (0)$。
+我们知道（章II，$§ 2$，no. 2，推论2到命题4）条件$M_p = 0$等价于$a + p$，因此也等价于$aA_p = A$，（章） II、$§ 2$、no. 5、*注*)；另一方面，对于A的每个积分理想$b \neq 0$，关系“*$bA_p = A$，对于所有$p \in P$*”相当于$D(A)$中的$\operatorname{div} b = \operatorname{div} A = 0$（$§ 1$，no. 4，命题7），或者也等于$\operatorname{div}(A : b) = 0$并且，由于$A : b$是除数（$§ 1$、no. 1、命题 1），因此关系也等于$A : b = A$。 命题然后注意到，说$a \notin p$ 代表$p = (0)$ 意味着$a \neq (0)$。
 
 #### 注 (1) {#ac-vii-s4-n4-rem-1 .statement tag=053I}
 
@@ -430,12 +430,12 @@ $$
 
 *如果A-模 M 是有限生成的并且满足命题 9 的等价条件，则称为伪零。*
 
-这个定义和命题9表明伪零A-模是一个*挠元A-模*； 逆命题是假的。
+这个定义和命题9表明伪零A-模是*挠元A-模*； 逆命题是假的。
 
 *例*
 (1) 如果 A 是 Dedekind 域，则 A 的每个素理想的高度为 $\leq 1$；说 M 是伪零意味着 $\operatorname{Supp}(M) = \varnothing$，因此意味着 $M = 0$ (章 11, $§ 4$, no. 4)。
 
-(2) 设$k$为域且$A = k[X, Y]$多项式环超过$k$，有两个不定式；如果$m$是$A$的最大理想$AX + AY$，则$A$模$A/m$是伪零；因为它的湮没子$m$的高度不是$\leq 1$，因为它的包含是主要素理想$AX$和$AY$并且与它们不同；因此$A : m = A$（§ 1, no. 6，推论1至定理3）。
+(2) 设$k$为域且$A = k[X, Y]$多项式环超过$k$，有两个不定式；如果$m$是$A$的最大理想$AX + AY$，则$A$模$A/m$是伪零；因为它的湮没子$m$不是高度$\leq 1$，因为它包含是主要素理想$AX$和$AY$并且与它们不同；因此$A : m = A$（§ 1, no. 6，推论1至定理3）。
 
 #### 定义 3 {#ac-vii-s4-def-3 .statement tag=053K}
 
@@ -578,7 +578,7 @@ $$
 
 ### 6. 两个格的相对不变量
 
-我们保留记号和 no 的假设。 2 到 5. 令 V 为 $K$ 上有限秩 $n$ 的向量空间，M 为 V 相对于 A 的格子。令 W 为外部幂 $\bigwedge^n V$，即 $K$ 上 *秩 1* 的向量空间，并让$M_w$表示$M^n$的像在典范映射$V^n \to \bigwedge^n V$下生成的W晶格（no. 1，命题3（iii）；注，$M_w$不一定同构于$\bigwedge^n M$） （*代数*、章III, § 5、习题9））。如果$e$是W除以K的基，我们可以写成$M = a.e$，其中a是A的分数理想$\neq 0$。
+我们保留记号和 no 的假设。 2 到 5. 设 V 为 $K$ 上有限秩 $n$ 的向量空间，M 为关于 A 的 V 格子。设 W 为外部幂 $\bigwedge^n V$，即 *秩的向量空间 1* 在 $K$ 上，令 $M_w$ 表示在典范映射 $V^n \to \bigwedge^n V$ 下由 $M^n$ 的像生成的 W 晶格 (no. 1, 命题 3 (iii); 注，$M_w$ 不一定同构于$\bigwedge^n M$（*代数*、章III, § 5、习题9））。如果$e$是W除以K的基，我们可以写成$M = a.e$，其中a是A的分数理想$\neq 0$。
 
 令$M'$为V的另一个晶格，并记为$M'_w = a'.e$，其中$a'$是A的分数理想$\neq 0$； 除子 $\operatorname{div}(a) - \operatorname{div}(a')$ *不依赖于当基改变时，W、a和$a'$的基* $e$的选择乘以$K^*$的相同元素；我们将写成$\chi(M, M') = \operatorname{div}(a) - \operatorname{div}(a')$，并说这个除子是$M'$*相对于*M的*相对不变量*。显然，如果M、$M', M''$是V的三个格子，那么：
 
@@ -591,7 +591,7 @@ $$
 \chi(M, M') + \chi(M', M) = 0.
 $$
 
-对于所有$p \in P$，它紧随定义而来的是$(M_w)_p = (M_p)_w$；此外，由于M是*自由*A，-模，因为A是M的主理想整环，基，在A上，是V在K上的基，因此$(M_p)_w = \bigwedge^n (M_p)$（章II, § 2, no. 8），分数理想$a_p = aA_p$是主理想整环。如果我们集合$a_p = p^{n_p}A_p$，$a' = p^{n'_p}A_p$，那么：
+对于所有$p \in P$，它紧随定义而来的是$(M_w)_p = (M_p)_w$；此外，由于 M 是*自由* A，-模，因为 A 是 M 的主理想整环、基，在 A 上，是 K 上的 V 的基，因此 $(M_p)_w = \bigwedge^n (M_p)$ (章 II, § 2, no. 8)，分数理想 $a_p = aA_p$ 是主理想整环。如果我们集合$a_p = p^{n_p}A_p$，$a' = p^{n'_p}A_p$，那么：
 $$
 \chi(M, M') = \sum_{p \in P} (n_p - n'_p).p,
 $$
@@ -604,12 +604,12 @@ $$
 
 #### 命题 13 {#ac-vii-s4-prop-13 .statement tag=053V}
 
-*设 M 为 V 的晶格，u 为 V 的 K 自同构。则* ：
+*设 M 为 V 的格子，u 为 V 的 K-自同构。然后*：
 (6)
 $$
 -\chi(M, u(M)) = \operatorname{div}(\det(u)).
 $$
-对于所有$p \in P$，则$\bigwedge^n (u(M)_p) = \bigwedge^n (u(M_p))$；如果$(e_i)_{1 \leq i \leq n}$是$M_p$中的基，那么
+对于所有$p \in P$，则$\bigwedge^n (u(M)_p) = \bigwedge^n (u(M_p))$；如果 $(e_i)_{1 \leq i \leq n}$ 是 $M_p$ 中的基，则
 $$
 \bigwedge^n (M_p) = A_p \cdot e_1 \text{ } A \text{ } e_2 \text{ } A \ldots A \text{ } e_n,
 $$
@@ -618,7 +618,7 @@ $$
 
 #### 命题 14 {#ac-vii-s4-prop-14 .statement tag=053W}
 
-*如果 M, M' 是 V 的两个格，使得 M' \子集 M, M/M' 是有限生成的挠元 A-模并且：*
+*如果 M, M' 是 V 的两个格子，使得 M' \子集 M, M/M' 是有限生成的挠元 A-模并且：*
 
 $$
 \chi(M, M') = -\chi(M/M').
@@ -652,21 +652,21 @@ $$\operatorname{Coker}(f) = L_2/u(L_2),$$
 
 ### 7. 除子类附加到有限生成模
 
-我们保留记号和 no 的假设。 2 到 6. 回想一下，C(A)（或简称 C）表示 $A$ 的除子类群，$D(A)$ 除本金除子的子群的商。对于每个除子$d \in D$，我们将用$c(d)$表示它在C中的类。
+我们保留记号和 no 的假设。 2 到 6. 回想一下，C(A)（或简称为 C）表示 $A$ 的除子类群，$D(A)$ 与本金除子的子群的商。对于每个除子$d \in D$，我们将用$c(d)$表示其C中的类。
 
 #### 命题 15 {#ac-vii-s4-prop-15 .statement tag=053Z}
 
 *设M为有限生成A-模。存在 M 的自由子模 L，使得 M/L 为挠元模并且 C 的元素 $c(\chi(M/L))$ 不依赖于所选择的自由子模 L。*
 
-我们写 $S = A - \{0\}$ 并令 $V = S^{-1}M = M \otimes_A K$；如果$n$是V在K上的秩，则存在M的$n$元素$e_i$($1 \leq i \leq n$)，其典范像在V中V的形式基；这些元素显然在M中线性无关，因此生成是M的一个自由子模L，使得$S^{-1}(M/L) = S^{-1}M/S^{-1}L = 0$，因此M/L是挠元模。
+我们写 $S = A - \{0\}$ 并令 $V = S^{-1}M = M \otimes_A K$；如果$n$在K上是V的秩，则在V形式基中存在典范像的M的$n$元素$e_i$($1 \leq i \leq n$) V；这些元素显然在M中线性无关，因此生成是M的一个自由子模L，使得$S^{-1}(M/L) = S^{-1}M/S^{-1}L = 0$，因此M/L是挠元模。
 
-现在令L，秩$n$M另一个游离子模。由于$S^{-1}L = S^{-1}L_1$，存在$s \in S$使得$sL_1 \subset L$；因此，我们可以将极限自己推导为证明，如果$L_1 \subset L_2$是秩$n$的M中的两个自由的子模，那么
+现在让L，秩$n$M的另一个自由子模。由于$S^{-1}L = S^{-1}L_1$，存在$s \in S$使得$sL_1 \subset L$；因此，我们可以将极限自己推导为证明，如果$L_1 \subset L_2$是秩$n$中M的两个自由的子模，那么
 
 $$
 c(\chi(M/L_1)) = c(\chi(M/L_2)).
 $$
 
-现在，$\chi(M/L_1) = \chi(M/L_2) + \chi(L_2/L_1)$，从no. 6得出，推论到命题 14，$\chi(L_2/L_1)$是本金除子，因此
+现在，$\chi(M/L_1) = \chi(M/L_2) + \chi(L_2/L_1)$，从no. 6得出，推论到命题14，$\chi(L_2/L_1)$是本金除子，因此
 
 $$
 c(\chi(L_2/L_1)) = 0.
@@ -676,7 +676,7 @@ $$
 
 #### 命题 16 {#ac-vii-s4-prop-16 .statement tag=0540}
 
-(i) *令 $0 \to M_1 \xrightarrow{\alpha} M_2 \xrightarrow{g} M_3 \to 0$ 为有限生成A-模中的正合序列。然后*
+(i) *令 $0 \to M_1 \xrightarrow{\alpha} M_2 \xrightarrow{g} M_3 \to 0$ 为正合序列 / 有限生成A-模。然后*
 
 $$
 c(M_2) = c(M_1) + c(M_3).
@@ -692,7 +692,7 @@ $$
 c(a) = c(\operatorname{div}(a)).
 $$
 
-(v) *如果 L 为自由A-模，则$c(L) = 0$。
+(v) *如果 L 是自由A-模，则 $c(L) = 0$。
 
 为了证明 (i)，考虑 M 的自由子模块 $L_1$（分别为 $L_3$）（分别为 $M_3$），使得 $M_1/L_1$（分别为 $M_3/L_3$）为挠元模。由于 $L_3$ 是自由的，$g$ 是满射的，$g^{-1}(L_3)$ 中存在 $\operatorname{Ker}(g)$ 的自由补集 $L_{23}$，它与 $L_3$ 同构的 (*代数*, 章 II, § 1, no. 11, 命题 21）；但是 $\operatorname{Ker}(g) = f(M_1)$ 包含 $f(L_1) = L_{12}$ 是自由的，因为 $f$ 是单射的。 和 $L_2 = L_{12} + L_{23}$ 是直接的，因此 $L_2$ 是 $M$ 的*免费* 子模。此外还有交换律图表：
 
@@ -839,21 +839,21 @@ $$
 0 \longrightarrow A \xrightarrow{h_x} A \longrightarrow A/xA \longrightarrow 0
 $$
 
-其中$h_x$是x乘以乘法，我们得到$\phi(A/xA) = 0$，从而$\theta_0(\mathrm{div}(x)) = 0$。对每个挠元 A-模 T 取商，$\theta_0$ 因此定义同态 $\theta_1 : C \to G$ 和$\phi(T) = \theta_1(c(T))$。我们现在证明，由 $\theta(n, z) = n.\phi(A) + \theta_1(z)$ 定义的同态 $\theta$ 可以求解问题。为此，我们为每有限生成A-模 M 写 $\phi'(M) = \phi(M) - \theta(\gamma(M))$；显然，如果将$\phi$替换为$\phi'$，条件(1)仍然满足。此外，当M为挠元模或自由模时，$\phi'(M) = 0$；但对于每一个有限生成A-模 M，都存在 M 的一个自由子模 L，使得 M/L 为挠元模 (命题 15)，性质 (1) 表明对于每一个有限生成A-模 M，$\phi'(M) = 0$。
+其中$h_x$是x乘以乘法，我们得到$\phi(A/xA) = 0$，从而$\theta_0(\mathrm{div}(x)) = 0$。对每个挠元 A-模 T 取商，$\theta_0$ 因此定义同态 $\theta_1 : C \to G$ 和 $\phi(T) = \theta_1(c(T))$。我们现在证明，由 $\theta(n, z) = n.\phi(A) + \theta_1(z)$ 定义的同态 $\theta$ 可以求解问题。为此，我们为每有限生成A-模 M 写 $\phi'(M) = \phi(M) - \theta(\gamma(M))$；显然，如果将$\phi$替换为$\phi'$，条件(1)仍然满足。此外，当M为挠元模或自由模时，$\phi'(M) = 0$；但对于每一个有限生成A-模 M，都存在 M 的一个自由子模 L，使得 M/L 为挠元模 (命题 15)，性质 (1) 表明对于每有限生成A-模 M 都有 $\phi'(M) = 0$。
 
-\* 在阿贝尔的类别的语言中，命题17表明$\mathbf{Z} \times C(A)$与商类别$\mathscr{F}/\mathscr{F}'$的格罗滕迪克群规范同构，其中$\mathscr{F}$是有限生成A-模的类别，$\mathscr{F}'$是有限生成A-模的完整子类别伪零模的 $\mathscr{F}$ 由……组成。 \*
+\* 在阿贝尔的类别的语言中，命题17表明$\mathbf{Z} \times C(A)$与商类别$\mathscr{F}/\mathscr{F}'$的格罗滕迪克群规范同构，其中$\mathscr{F}$是有限生成A-模的类别，$\mathscr{F}'$是有限生成A-模的完整子类别伪零模的$\mathscr{F}$由……组成。 \*
 
 ### 8. 与标量环的有限扩张相关的性质
 
-在此式中，A和B表示两个整体封闭的诺特域，使得$A \subset B$和B分别为A和B的分数的有限生成A-模以及K和L域。对于A-模，我们将分别写为div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$，而不是div、$\chi$、c、y、r，并使用类似的记号来表示B-模。
+在此式中，A和B表示两个整体闭的诺特域，使得$A \subset B$和B分别为A和B的分数的有限生成A-模和K和L域。对于A-模，我们将分别写为div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$，而不是div、$\chi$、c、y、r，并使用类似的记号来表示B-模。
 
-我们知道(§ 1, no. 10)，对于B的素理想$\mathfrak{p}$的高度为1，$\mathfrak{p} = \mathfrak{P} \cap A$的高度为1是充分必要的；此外（前述，命题 14）对于$\mathfrak{p} \in P(A)$，只有有限的数素理想$\mathfrak{P} \in P(B)$位于$\mathfrak{p}$之上。简而言之，我们将用$\mathfrak{P}|_{\mathfrak{p}}$关系表示““$\mathfrak{P}$位于$\mathfrak{p}$之上”（即$\mathfrak{p} = \mathfrak{P} \cap A$）；然后我们将用$e_{\mathfrak{P}/\mathfrak{p}}$或$e(\mathfrak{P}/\mathfrak{p})$表示估值的分支指标$e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ $v_{\mathfrak{P}}$超过估价$v_{\mathfrak{p}}$（章VI, § 8, no. 1），并增加$f_{\mathfrak{P}/\mathfrak{p}}$或$f(\mathfrak{P}/\mathfrak{p})$剩余类类次数$f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$（前述离散估价）； $v_{\mathfrak{p}}$和$v_{\mathfrak{P}}$被规范，$f_{\mathfrak{P}/\mathfrak{p}}$是$B/\mathfrak{P}$分数域次数超过$A/\mathfrak{p}$分数域。 集合$n = r_A(B)$，其中 B 被视为A-模；因此，定义$n = [L:K]$，并且对于所有$\mathfrak{p} \in P(A)$，$n$ 也是自由 A 的秩，对于所有$\mathfrak{P}|_{\mathfrak{p}}$，则可以得出。 章 VI, § 8, no. 5、定理 2 对于所有 $\mathfrak{p} \in P(A)$：
+我们知道(§ 1, no. 10)，对于B的素理想$\mathfrak{p}$的高度为1，$\mathfrak{p} = \mathfrak{P} \cap A$的高度为1是充分必要的；此外（前述，命题 14）对于$\mathfrak{p} \in P(A)$，只有有限的数素理想$\mathfrak{P} \in P(B)$位于$\mathfrak{p}$之上。简而言之，我们将用$\mathfrak{P}|_{\mathfrak{p}}$关系表示““$\mathfrak{P}$位于$\mathfrak{p}$之上”（即$\mathfrak{p} = \mathfrak{P} \cap A$）；然后我们将用$e_{\mathfrak{P}/\mathfrak{p}}$或$e(\mathfrak{P}/\mathfrak{p})$表示指标$e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$的分支估值 $v_{\mathfrak{P}}$ 高于估值 $v_{\mathfrak{p}}$ (章 VI, § 8, no. 1) 以及 $f_{\mathfrak{P}/\mathfrak{p}}$ 或 $f(\mathfrak{P}/\mathfrak{p})$ 剩余类类次数 $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$（前述离散估值）； $v_{\mathfrak{p}}$和$v_{\mathfrak{P}}$被规范，$f_{\mathfrak{P}/\mathfrak{p}}$是$B/\mathfrak{P}$分数域次数超过$A/\mathfrak{p}$分数域。 集合 $n = r_A(B)$，其中 B 被视为 A-模；因此，定义 $n = [L:K]$，并且对于所有 $\mathfrak{p} \in P(A)$，$n$ 也是自由 A 的秩，对于所有 $\mathfrak{P}|_{\mathfrak{p}}$，则可以得出。 章 VI, § 8, no. 5、定理 2 对于所有 $\mathfrak{p} \in P(A)$：
 
 $$
 \sum_{\mathfrak{P}|_{\mathfrak{p}}} e_{\mathfrak{P}/\mathfrak{p}} f_{\mathfrak{P}/\mathfrak{p}} = n.
 $$
 
-既然如此，由于$D(A)$和$D(B)$是免费的$\mathbf{Z}$模块，我们对定义递增同态订购了群$N : D(B) \to D(A)$（也用$N_{B/A}$表示）， 条件：
+正是如此，由于$D(A)$和$D(B)$是免费的$\mathbf{Z}$模块，我们对定义递增同态订购群$N : D(B) \to D(A)$（也表示为$N_{B/A}$）， 条件：
 
 $$
 N(\mathfrak{P}) = f_{\mathfrak{P}/\mathfrak{p}} \cdot \mathfrak{p} \quad \text{for} \quad \mathfrak{P} \in P(B), \quad \text{where} \quad \mathfrak{p} = \mathfrak{P} \cap A.
@@ -925,7 +925,7 @@ $$
 \phi(R) = \chi_A(R_{[A]});
 $$
 
-显然（对于有限生成的挠元$B$模块）$\phi$满足no. 5的命题II的条件（1）和（2）（考虑到（i））。因此，对于每个有限生成的挠元$B$-模块$R$，存在同态$\theta : D(B) \to D(A)$，使得$\phi(R) = \theta(\chi_B(R))$。 同态 $\theta$ 由形式 $B/\mathfrak{p}$ 的每个 $B$ 模块的值确定，其中 $\mathfrak{p} \in P(B)$，从 $\chi_B(B/\mathfrak{p}) = \mathfrak{p}$ 开始。现在，对于$P(A)$、$p \notin q$以及$(B/\mathfrak{p})_q = 0$中的每个素理想$q \neq p = \mathfrak{p} \cap A$。另一方面，如果我们集合$S = A - p$，则$\mathfrak{p}.S^{-1}B$是$S^{-1}B$和$(B/\mathfrak{p})_p = S^{-1}B/\mathfrak{p}$的最大理想。 $S^{-1}B$同构于$B/\mathfrak{p}$分数域(章II, § 2, no. 5，命题11)，即$v_{\mathfrak{p}}$剩余类域；因此，作为 $A$ 模块，其长度为 $f_{\mathfrak{p}/p}$；这就证明了 $\theta = N$ (no. 5, 定义 4)。
+显然（对于有限生成的挠元$B$模块）$\phi$满足no. 5的命题II的条件（1）和（2）（考虑到（i））。因此，对于每个有限生成的挠元$B$-模块$R$，存在同态$\theta : D(B) \to D(A)$，使得$\phi(R) = \theta(\chi_B(R))$。 同态 $\theta$ 由形式 $B/\mathfrak{p}$ 的每个 $B$ 模块的值确定，其中 $\mathfrak{p} \in P(B)$，自 $\chi_B(B/\mathfrak{p}) = \mathfrak{p}$ 起。现在，对于$P(A)$、$p \notin q$以及$(B/\mathfrak{p})_q = 0$中的每个素理想$q \neq p = \mathfrak{p} \cap A$。另一方面，如果我们集合$S = A - p$，$\mathfrak{p}.S^{-1}B$是$S^{-1}B$和$(B/\mathfrak{p})_p = S^{-1}B/\mathfrak{p}$的最大理想。 $S^{-1}B$同构于$B/\mathfrak{p}$分数域(章II, § 2, no. 5，命题11)，即$v_{\mathfrak{p}}$剩余类域；因此，作为 $A$ 模块，其长度为 $f_{\mathfrak{p}/p}$；这就证明了 $\theta = N$ (no. 5, 定义 4)。
 
 (iii) 如果$T$是$R$中的挠元子模，则$T_{[A]}$是$R_{[A]}$和$(R/T)_{[A]} = R_{[A]}/T_{[A]}$中的挠元子模；因此，为了证明（21），我们可以将注意力集中在$R$无扭转的情况。 然后$R$被识别为$R_{(L)}$的子$B$模块和$L$上$R_{(L)}$的包含基$(e_i)_1 < < m$。 If $(b_j)_1 s < n$ is a basis of $L$ over $K$ consisting of elements of $B$, the $b_j e_i$ form a basis of $R_{(L)}$ over $K$ consisting of elements of $R$, whence (21). 另一方面，令$M$为$R$的自由子$B$模块，使得$R/M$为挠元$B$模块；因为 $M_{[A]}$ 是 $r_B(R)$ $A$ 的直和，与 $B$ 同构的，乘以命题 16 (i)
 
@@ -949,7 +949,7 @@ $$
 
 #### 引理 4 {#ac-vii-s4-lem-4 .statement tag=0547}
 
-*令 W 为 L 上有限秩的向量空间，并令 R 为 W 相对于 B 的格子。然后，对于所有 $p \in P(A)$，$(R_{[A]})_p = \bigcap_{\mathfrak{p}/p} R_{\mathfrak{p}}$。*
+*令W为有限秩在L上的向量空间，并令R为W相对于B的格子。那么，对于所有$p \in P(A)$，$(R_{[A]})_p = \bigcap_{\mathfrak{p}/p} R_{\mathfrak{p}}$。*
 
 如果$S = A - p$，环$S^{-1}B$的素理想是由B不满足S的素理想生成的，在其他字中，理想$\mathfrak{P}_i$（$1 \leq i \leq m$）位于p和理想（0）之上；这表明$S^{-1}B$是一个半局部环，其最大理想是m，$= \mathfrak{P}_i(S^{-1}B)$对于$1 \leq i \leq m$；此外，局部环$(S^{-1}B)_{\mathfrak{P}_i}$同构于$B_{\mathfrak{p}_i}$（章11、§ 2, no. 5、命题11），因此是离散估值环。因此，环$S^{-1}B$是戴德金域（§ 2, no. 2，定理1（f）），并且由于它是半局部的，所以它是主理想整环（§ 2, no. 2，命题1）。既然如此，$(R_{[A]})_p$等于$S^{-1}R$，视为A,-模；由上可知，$S^{-1}R$是W相对于$S^{-1}B$的自由格，因此可以将no. 2的2个定理应用于它，给出$S^{-1}R = \bigcap_i (S^{-1}R)_{m_i}$：但是$(S^{-1}R)_{m_i} = R_{\mathfrak{p}_i}$，这证明了引理。
 
@@ -1078,7 +1078,7 @@ $$
 
 如果 $M/L$ 是无扭转的，则对于所有 $p \in P$（no. 1，*例 6*），$(M/L)_p = M_p/L_p$ 也是无扭转的，并且，由于 $A_p$ 是主理想整环，$M_p/L_p$ 是自由的。因此$M$，是$L$的直和，以及秩$n - m$的免费$A$模​​块$E$；因此$M(p)$是$L(p)$的直和和向量$k(p)$空间$E/pE$秩$n - m$；因此 $L(p)$ 是秩 $m$，并且由于它是由 $x_i(p)$ ($1 \leq i \leq m$) 生成的，因此后者是线性无关的。
 
-相反，假设对于所有 $p \in P$，$x_i(p)$ ($1 \leq i \leq m$) 与 $k(p)$ 线性无关。那么，对于所有 $p$（章 II, § 3, no. 2，推论 1 到命题 5），$L$ 是 $M$ 的直因子，因此，对于所有 $p \in P$，$M_p/L_p = (M/L)_p$ 是无扭转的。我们结论通过章IV, § 1, no. 2得到$P \cap \operatorname{Ass}(M/L) = \varnothing$，推论到命题5。但由于L是自反的，所以从no. 2，命题7（i）可以得出唯一可以从属于到$\operatorname{Ass}(M/L)$的素理想是理想的（0）；因此 $M/L$ 是无扭转的。
+相反，假设对于所有 $p \in P$，$x_i(p)$ ($1 \leq i \leq m$) 与 $k(p)$ 线性无关。那么，对于所有 $p$（章 II, § 3, no. 2，推论 1 到命题 5），$L$ 是 $M$ 的直因子，因此对于所有 $p \in P$，$M_p/L_p = (M/L)_p$ 是无扭转的。我们结论通过章IV, § 1, no. 2得到$P \cap \operatorname{Ass}(M/L) = \varnothing$，推论到命题5。但是由于L是自反的，所以从no. 2，命题7（i）可以得出属于到的唯一素理想$\operatorname{Ass}(M/L)$ 是理想值（0）；因此 $M/L$ 是无扭转的。
 
 #### 引理 8 {#ac-vii-s4-lem-8 .statement tag=054E}
 

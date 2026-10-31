@@ -53,16 +53,16 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 73ffebc4cc1947821198d879a2413694d910f3f95dfdcb006c0521fdbea0efce
+content_sha256: 9ec9e67caedfbfa502e9164ecb35a63780dce74cfa2c1bfbee3ede60119c02a9
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 translation_method: google
 source_content_sha256: c7f552328385d94715aa4fc98b5c4522cc8ad73080a081dd41bebfb79b236ea5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 088572f3e8a86758a513bddfcb6432543910d0addc917e1ae9e9f73731b7ec57
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 1. 克鲁尔域
@@ -73,9 +73,9 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 令$A$为整环，$K$为分数的域。 $K$的每个子A模块$a$，使得$A$中存在元素$d \neq 0$，其中$da \subset A$被称为$A$的分数理想$\mathfrak{d}$（或$K$，滥用语言）。
 
-$K$的每个有限生成的子A模块$a$都是分数理想：因为如果$(a_i)_{1 \leq i \leq n}$是$a$的生成元的系统，我们可以写成$a_i = b_i/d_i$，其中$b_i \in A$，$d_i \in A$和$d, \neq 0$；如果$d = d_1 \ldots d_n$，显然是$da \subset A$。特别是 $K$ 的单生子 A 模是分数理想（回想一下，它们在代数、章 VI, § 1, no. 5 中被称为分数主理想）。如果 $A$ 是诺特，则每个分数理想都会无限生成 A-模。 $A$ 分数理想的每个子 A 模都是分数理想。 $A$ 的每个理想都是分数理想；为了避免混淆，这些也被称为$A$的积分理想。
+$K$的每个有限生成的子A模块$a$都是分数理想：因为如果$(a_i)_{1 \leq i \leq n}$是$a$的生成元的系统，我们可以写成$a_i = b_i/d_i$，其中$b_i \in A$，$d_i \in A$和$d, \neq 0$；如果$d = d_1 \ldots d_n$，显然是$da \subset A$。特别是 $K$ 的单生子 A 模是分数理想（回想一下，它们在代数、章 VI, § 1, no. 5 中被称为分数主理想）。如果 $A$ 是诺特，则每个分数理想都无限生成 A-模。 $A$ 分数理想的每个子 A 模都是分数理想。 $A$ 的每个理想都是分数理想；为了避免混淆，这些也被称为$A$的积分理想。
 
-我们用$I(A)$集合表示$A$的非零分数理想。给定$I(A)$的两个元素$a, b$，我们将为关系写$a \prec b$（或$b \succ a$）“每个分数主理想包含$a$也包含$b$”；显然这个关系是在$I(A)$上预购的。让$R$表示关联的等价关系“$a \prec b$和$b \prec a$”（集合理论，章III, § 1, no. 2）和$D(A)$商集$I(A)/R$；我们可以说，$D(A)$的元素是$A$的除子，并且对于每个分数理想$a \in I(A)$，我们将用$D(A)$中的$a$的$\operatorname{div} a$（或$\operatorname{div}, a$）典范像表示，并且我们应该说$\operatorname{div} a$是$a$的除子$\mathfrak{d}$；如果$a = Ax$是分数主理想，我们写div(x)而不是div(Ax)，div(x)被称为x的除子； 形式 div(x) 的 D(A) 的元素称为主除子。通过取商，I(A) 上的预排序$\prec$ D(A) 上的定义，我们将用$\leqslant$ 表示。
+我们用$I(A)$集合表示$A$的非零分数理想。给定$I(A)$的两个元素$a, b$，我们将为关系写$a \prec b$（或$b \succ a$）“每个分数主理想包含$a$也包含$b$”；显然这个关系是在$I(A)$上预购的。让$R$表示关联的等价关系“$a \prec b$和$b \prec a$”（集合理论，章III, § 1, no. 2）和$D(A)$商集$I(A)/R$；我们可以说，$D(A)$的元素是$A$的除子，并且对于每个分数理想$a \in I(A)$，我们将用$D(A)$中的$a$的$\operatorname{div} a$（或$\operatorname{div}, a$）典范像表示，并且我们应该说$\operatorname{div} a$是$a$的除子$\mathfrak{d}$；如果$a = Ax$是分数主理想，我们写div(x)而不是div(Ax)，div(x)被称为x的除子； 形式 div(x) 的 D(A) 的元素称为本金除子。通过取商，I(A) 上的预排序 $\prec$ 在 D(A) 上的定义，我们将用 $\leqslant$ 表示。
 
 对于所有$a \in I(A)$，A 中存在假设一些$d \neq 0$，使得$a \subset Ad - 1$；因此，分数主理想包含 a 的交 $\tilde{a}$ 是 I(A) 的元素。显然关系$a \prec b$等价于关系$\tilde{a} \supset 6$；因此关系$a \supset b$意味着$a \prec b$。为了使 I(A) 的两个元素 $a, b$ 等效于模 R，$\tilde{a} = 6$ 是充分必要的。
 
@@ -83,7 +83,7 @@ $K$的每个有限生成的子A模块$a$都是分数理想：因为如果$(a_i)_
 
 *I(A) 的每个元素 a 使得 $a = \tilde{a}$ 称为 A 的除数分数理想。*
 
-在其他字中，除数理想只是一个非空分数主理想族的非零交。每个非零交的除数理想都是除数理想。如果 a 是除数，则 ax 对于所有 $x \in K^*$，映射 $b \mapsto bx$ 是分数主理想的集合的双射到自身，对于所有 $a \in I(A)$，6 是最小除数理想包含 a 并且相当于模 R。此外，如果$b$ 是除数理想，相当于模 R，然后是 $\tilde{a} = 6 = b$。因此 5 是唯一的除数理想 $b$，使得 div $a =$ div $b$ （在除数理想的其他字中，映射 $a \mapsto$ div $a$ 到集合的限制是单射的）。
+在其他字中，除数理想只是一个非空分数主理想族的非零交。每个非零交的除数理想都是除数理想。如果 a 是除数，那么 ax 对于所有 $x \in K^*$，映射 $b \mapsto bx$ 是集合的分数主理想的双射到自身，对于所有 $a \in I(A)$，6 是最小除数理想包含 a 并且相当于模 R。此外，如果$b$ 是除数理想，相当于模 R，然后是 $\tilde{a} = 6 = b$。因此 5 是唯一的除数理想 $b$，使得 div $a =$ div $b$ （在其他除数理想的字中，映射 $a \mapsto$ div $a$ 到集合的限制是单射的）。
 
 令 a 和 b 为 K 的两个分数理想。回想一下 (章 I, § 2, no. 10)，$b : a$ 表示 $x \in K$ 的集合，使得 $xa \subset b$；这显然是A-模；如果 $b \in I(A)$ 和 $a \in I(A)$，则 $b : a \in I(A)$；因为如果$d$是A的非零元素，使得$db \subset A$和$da \subset A$以及$a$是$A \cap a$的非零元素，则$da(b : a) \subset A$；另一方面，如果$b \neq 0$属于到$b$，则$bda \subset b$，因此$bd \in b : a$和$b : a \neq 0$。
 
@@ -97,13 +97,13 @@ $$
 
 (a) *如果 b 是除数理想且 $a \in I(A)$，则 $b : a$ 是除数。*
 
-(b) *设a、b在I(A)中。在阶那个div$a =$div$b$中，$A : a = A : b$是必要且充分的。*
+(b) *令 a, b 在 I(A) 中。在阶那个div$a =$div$b$中，$A : a = A : b$是必要且充分的。*
 
 (c) *对于所有 $a \in I(A)$、$6 = A : (A : a)$。*
 
 断言 (a) 直接从等式 (1) 得出，因为如果 $b$ 是除数，则对于所有 $x \neq 0$，$b x^{-1}$ 也是除数。
 
-为了显示 (b)，令 $P(a)$ 表示分数主理想包含 a 的集合； 关系 $Ax \in P(a)$ 相当于$x^{-1} a \subset A$，因此也相当于$x^{-1} \in A : a$。由于关系 div $a =$ div $b$ 通过定义等价于 $P(a) = P(b)$，因此也等价于 $A : a = A : b$。
+为了显示 (b)，令 $P(a)$ 表示分数主理想包含 a 的集合； 关系 $Ax \in P(a)$ 相当于$x^{-1} a \subset A$，因此也相当于$x^{-1} \in A : a$。由于关系 div $a =$ div $b$乘以定义等价于$P(a) = P(b)$，因此也等价于$A : a = A : b$。
 
 最后为$a(A : a) \subset A, a \subset A : (A : a)$。在这个公式中，替换$a$乘以$A : a$，可见$A : a \subset A : (A : (A : a))$；另一方面，关系$a \subset A : (A : a)$意味着
 $$
@@ -403,7 +403,7 @@ $t \in I - \mathbf{J}$。 然后，对于所有$t \in I$，$m_t = \sup(n_t, v_t(
 (iii) 对于 A 中所有 x ≠ 0，仅存在有限数理想 p ∈ M 使得 x ∈ p。
 此外，对于 p ∈ M 的 A_p 的估值相应的是 A 的基本估值。
 
-条件就足够了。它们的必要性紧随no. 4的定理3，推论I到命题6，以及no. 3的定义3的满足条件的基本评估这一事实。
+条件就足够了。它们的必要性紧随no. 4的定理3，推论I到命题6，以及no. 3的定义3的满足条件的基本估值这一事实。
 
 #### 命题 10 {#ac-vii-s1-prop-10 .statement tag=04ZD}
 
@@ -524,17 +524,17 @@ $$
 
 条件 (PDE) 在以下两种情况下满足：
 
-(1) B 对 A 是积分；在这种情况下，*对于 B 的素理想 $\mathfrak{P}$ 的高度为 1，*$\mathfrak{p} = \mathfrak{P} \cap A$ 的高度为 1 是充分必要的。因为 (0) 是 B 的唯一素理想，位于 A 的理想 (0) 之上（章 V, § 2, no. 1，推论 I 到命题 1）；如果$\mathfrak{P}$的高度为1，则$\mathfrak{p} \neq 0$；如果 $\mathfrak{p}$ 的高度不是 1，则将存在 A 的素理想 $\mathfrak{p}'$ 与 (0) 和 $\mathfrak{p}$ 不同，并且 0 ⊂ p' ⊂ p；但是，由于 B 是整环并且 A 是一个积分闭域，因此 B 会有一个素理想 $\mathfrak{p}'$，使得 $\mathfrak{p}' \cap A = p'$ 和 $\mathfrak{p}' \subset \mathfrak{p}$ (章 V, § 2, no. 4，定理 3)，与假设相反。相反，如果 p 的高度为 1，则不存在不同于 0 和 $\mathfrak{p}$ 的 B 素理想$\mathfrak{p}'$，并且使得 $0 \subset \mathfrak{p}' \subset \mathfrak{p}$，否则 $0 \subset \mathfrak{p}' \cap A \subset p$ 和 $\mathfrak{p}' \cap A$ 将凭借章 V, § 2, no. 1 不同于 0 和 p，推论 1 命题1。
+(1) B 对 A 是积分；在这种情况下，*对于 B 的素理想 $\mathfrak{P}$ 的高度为 1，*$\mathfrak{p} = \mathfrak{P} \cap A$ 的高度为 1 是充分必要的。因为 (0) 是位于 A 的理想 (0) 之上的 B 的唯一素理想 (章 V, § 2, no. 1，推论 I 到命题) 1）；如果$\mathfrak{P}$的高度为1，则$\mathfrak{p} \neq 0$；如果 $\mathfrak{p}$ 的高度不是 1，则将存在 A 的素理想 $\mathfrak{p}'$ 与 (0) 和 $\mathfrak{p}$ 不同，并且 0 ⊂ p' ⊂ p；但是，由于 B 是整环并且 A 是一个积分闭域，因此 B 会有一个素理想 $\mathfrak{p}'$，使得 $\mathfrak{p}' \cap A = p'$ 和 $\mathfrak{p}' \subset \mathfrak{p}$ (章 V, § 2, no. 4，定理 3)，与假设相反。相反，如果 p 的高度为 1，则不存在不同于 0 和 $\mathfrak{p}$ 的 B 的素理想$\mathfrak{p}'$，并且使得 $0 \subset \mathfrak{p}' \subset \mathfrak{p}$，否则 $0 \subset \mathfrak{p}' \cap A \subset p$ 和 $\mathfrak{p}' \cap A$ 将凭借章 V, § 2, no. 1 不同于 0 和 p，推论 1 命题1。
 
 (2) B 是降平A-模。更准确地说：
 
 #### 命题 15 {#ac-vii-s1-prop-15 .statement tag=04ZK}
 
-令 A 和 B 为克鲁尔域，使得 B 包含 A 并且是平展A-模。然后：
+令 A 和 B 为 Krull 域，使得 B 包含 A 并且平坦 A-模。然后：
 (a) 满足命题 14 的条件 (PDE)；
 (b) 对于每个除数理想 $a \in A$，Ba 是 B 的除数理想，其中对应到除子 $i(\operatorname{div}_A(a))$。
 
-为了显示(a)，假设存在高度为1的B的素理想$\mathfrak{p}$，使得$\mathfrak{p} \cap A$既不为0也不为高度1。在$\mathfrak{p} \cap A$中取元素$x \neq 0$。高度为 1 的 A 的理想 $p_i$，其中包含 x 在数内有限，并且没有包含 $\mathfrak{p} \cap A$；因此，存在$\mathfrak{p} \cap A$的元素 y，使得$y \notin p_i$对于所有$i$（章II, § 2, no. 1，命题2）。因此$\operatorname{div}_A(x)$和$\operatorname{div}_A(y)$是有序群 P(A)的互质元素，因此$\sup(\operatorname{div}_A(x), \operatorname{div}_A(y)) = \operatorname{div}_A(x) + \operatorname{div}_A(y) = \operatorname{div}_A(xy)$；由于理想 $Ax \cap Ay$ 和 $Axy$ 是相除的，我们推断出 $Ax \cap Ay = Axy$。由于 B 是平的 A-模，$Bx \cap By = Bxy$ (章 I, § 2, no. 6，命题 6)。这意味着$\sup(v_{\mathfrak{p}}(x), v_{\mathfrak{p}}(y)) = v_{\mathfrak{p}}(xy) = v_{\mathfrak{p}}(x) + v_{\mathfrak{p}}(y)$，其中与……矛盾不等式$v_{\mathfrak{p}}(x) > 0, v_{\mathfrak{p}}(y) > 0$（由于x和y在$\mathfrak{p}$中所以成立）。因此(a)已经通过反证法得到了证明。
+为了显示(a)，假设存在高度为1的B的素理想$\mathfrak{p}$，使得$\mathfrak{p} \cap A$既不为0也不为高度1。在$\mathfrak{p} \cap A$中取元素$x \neq 0$。高度为 1 的 A 的理想 $p_i$ 其中包含 x 在数内是有限的，并且没有包含 $\mathfrak{p} \cap A$；因此，存在$\mathfrak{p} \cap A$的元素 y，使得$y \notin p_i$对于所有$i$（章II, § 2, no. 1，命题2）。因此$\operatorname{div}_A(x)$和$\operatorname{div}_A(y)$是有序群 P(A)的互质元素，因此$\sup(\operatorname{div}_A(x), \operatorname{div}_A(y)) = \operatorname{div}_A(x) + \operatorname{div}_A(y) = \operatorname{div}_A(xy)$；由于理想 $Ax \cap Ay$ 和 $Axy$ 是相除的，我们推断出 $Ax \cap Ay = Axy$。由于 B 是平的 A-模，$Bx \cap By = Bxy$ (章 I, § 2, no. 6，命题 6)。这意味着$\sup(v_{\mathfrak{p}}(x), v_{\mathfrak{p}}(y)) = v_{\mathfrak{p}}(xy) = v_{\mathfrak{p}}(x) + v_{\mathfrak{p}}(y)$，其中与……矛盾不等式$v_{\mathfrak{p}}(x) > 0, v_{\mathfrak{p}}(y) > 0$（由于x和y在$\mathfrak{p}$中所以成立）。因此(a)已经通过反证法得到了证明。
 
 我们现在展示(b)。如果$a$是A的除数理想，它是两个分数主理想的交（no. 5，推论2到命题9），比如说
 
@@ -561,15 +561,15 @@ $$
 
 #### 注 {#ac-vii-s1-n10-rem-1 .statement tag=04ZM}
 
-在上述两种情况的前一种中，映射$i : D(A) \to D(B)$是单射的：因为$D(B)$的$P(B)$形式基的元素和$P(A)$不能的两个不同理想是相同理想的A上的迹$P(B)$，相当于验证$i(p) \neq 0$对于所有$p \in P(A)$；现在，这是从章V, § 2, no. 1，定理1得出的。同样可以看出，如果B是忠实平坦的A-模，则$i$是单射的（章II, § 2, no. 5，推论4到命题11）。
+在上述两种情况的前一种情况下，映射$i : D(A) \to D(B)$是单射的：因为$D(B)$的$P(B)$形式基的元素和$P(A)$不能的两个不同理想是相同理想的A上的迹$P(B)$，相当于验证$i(p) \neq 0$对于所有$p \in P(A)$；现在，这是从章V, § 2, no. 1，定理1得出的。同样可以看出，如果B是忠实平坦的A-模，$i$是单射的（章II, § 2, no. 5，推论4到命题11）。
 
 接下来，我们建议针对克鲁尔域 A、B 的某些有序对，研究从$C(A)$到$C(B)$的典范同态$\tilde{i}$。
 
 #### 命题 16 {#ac-vii-s1-prop-16 .statement tag=04ZN}
 
-令 A 为 Zariski 环，使得其补全 $\hat{A}$ 为 Krull 域。那么A是一个Krull域，从$C(A)$到$C(\hat{A})$的典范同态$\tilde{i}$（这是因为A是平的A-模;cf.章III, § 3, no. 4，定理3）是单射的。
+设 A 为 Zariski 环，则其补全$\hat{A}$ 为 Krull 域。那么A是一个Krull域，从$C(A)$到$C(\hat{A})$的典范同态$\tilde{i}$（这是因为A是平的A-模;cf.章III, § 3, no. 4，定理3）是单射的。
 
-由于A是整环和$A \subset \hat{A}$，所以A是整环。令 L 为 $\hat{A}$ 的分数的域，K $\subset$ L 为 A 的 $A = \hat{A} \cap K$ (章 III, § 3, no. 5，推出 4 至命题 9)，A 是 Krull 域 (no. 3， 例4)。 $\tilde{i} : C(A) \to C(\hat{A})$ 是单射的事实是从命题 15 (b) 得出的，并且如果 $b \hat{A}$ 是本金，则 b 是本金（章 III, § 3, no. 5，推出 3 到命题 9）。
+由于A是整环和$A \subset \hat{A}$，所以A是整环。设L为$\hat{A}$的分数的域，K为A的$\subset$L。如$A = \hat{A} \cap K$（章III, § 3, no. 5，推论4至命题9），A是一个克鲁尔域（no. 3，例4）。 $\tilde{i} : C(A) \to C(\hat{A})$ 是单射的事实是从命题 15 (b) 得出的，并且如果 $b \hat{A}$ 是本金，则 b 是本金（章 III, § 3, no. 5，推出 3 到命题 9）。
 
 现在让 A 为克鲁尔域，S 为 A 的乘法子集，而不是包含 0。群 $D(A)$（分别为 $D(S^{-1}A)$）是群与 $\operatorname{div}(p)$（分别为集合）的自由交换律群和基集合。 $\operatorname{div}(S^{-1}p)$)，其中 p 穿过高度为 1 的 A 的素理想的集合（分别为高度为 1 的 A 的素理想的集合，使得 $p \cap S = \varnothing$）（no. 4，命题 6），并且，如果$p \cap S = \varnothing$，则$i(\operatorname{div}(p)) = \operatorname{div}(S^{-1}p)$。因此 $D(S^{-1}A)$ 与由元素 $\operatorname{div}(p)$ 生成的$D(A)$ 的直接因子等同，使得 $p \cap S = \varnothing$ 并承认 $D(A)$ 的自由交换子群与 $\operatorname{div}(p)$ 的基集合互补，使得$p \cap S \neq \varnothing$；我们用 G 来表示这个补集。由于 $i : D(A) \to D(S^{-1}A)$ 是满射，$i : C(A) \to C(S^{-1}A)$ 也是满射；以及：
 

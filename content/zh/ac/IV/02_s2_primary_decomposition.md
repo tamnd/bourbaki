@@ -37,16 +37,16 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 35
-content_sha256: 7e5e3c2c52ef6e3812228c941e1950d77cd066b9d4280d0652243ce8833e0286
+content_sha256: c53b9f9ccca2598757991b69ecea43d8f556a41942be749e6af89f063bfcf519
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
 translation_method: google
 source_content_sha256: 412a1eb43c414ef74369ccfcd275c3769490e226305405794c9a0f41eee4ebea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 32bc3b2b0d4af384fd2da527b3b21df4a1fd2d262d7db2a4f6d6a3d0a6b105a2
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 2.初等分解
@@ -55,10 +55,10 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 #### 命题 1 {#ac-iv-s2-prop-1 .statement tag=04KE}
 
-令$A$为诺特环且$M$为$A$模块。以下条件是等效的：
+令 $A$ 为诺特环且 $M$ 为 $A$ 模块。以下条件是等效的：
 (a) $\operatorname{Ass}(M)$ 减少为单个元素。
 
-(b) $M \neq 0$ 和 $M$ 的每个位似要么是单射的，要么是几乎幂零的（$§ 1$，no. 4）。 *如果*满足这些条件并且$p$是$a \in A$的集合使得位似$a_M$几乎为零，那么$\operatorname{Ass}(M) = \{p\}$。
+(b) $M \neq 0$ 和$M$ 的每个位似要么是单射的，要么是几乎幂零的（$§ 1$，no. 4）。 *如果*满足这些条件，并且$p$是$a \in A$的集合，使得位似$a_M$几乎为零，则$\operatorname{Ass}(M) = \{p\}$。
 
 这紧接着从$§ 1$、no. 4，推论到命题 9 和no. 1，推论 2 到命题 2。
 
@@ -68,9 +68,9 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 当没有歧义时，我们简单地说$Q$是“p-primary”或“primary”；显然，对于 $N$ 包含 $Q$ 中的每个子模 $N' \neq Q$，$Q$ 是 $N'$ 中的 p 主色。
 
-定义 1 特别适用于$N = A$的情况； $N$的子模是$A$的*理想*，因此如果$\operatorname{Ass}(A/q)$有一个元素，那么$A$的理想$q$被称为*主*，或者，如果$A \neq q$和每个除子环 $A/q$ 中的零 *幂幂*。如果 $q$ 是 p 基数，则从定义 1 可以得出，$p$ 是理想 $q$ 的*根式*（章 II、$§ 2$、no. 6）。
+定义 1 特别适用于$N = A$的情况； $N$的子模是$A$的*理想*，因此，如果$\operatorname{Ass}(A/q)$有一个元素，或者，如果$A \neq q$和每个除子，则$A$的理想$q$被称为*主要* 环 $A/q$ 中的零 *幂幂*。如果 $q$ 是 p 主色，则从定义 1 可以得出，$p$ 是理想 $q$ 的*根式*（章 II、$§ 2$、no. 6）。
 
-#### 注 {#ac-iv-s2-n1-rem-1 .statement tag=04KG}
+#### 注{#ac-iv-s2-n1-rem-1 .statement tag=04KG}
 
 令 $q$ 为 $A$-模块 $N$ 的 p-primary 子模。如果$N/Q$是*有限生成的*，则存在整数$k > 0$，使得$p^k N \subset Q$乘以$§ 1$、no. 4、命题9。
 
@@ -86,7 +86,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 #### 例 3 {#ac-iv-s2-n1-exa-3 .statement tag=04KJ}
 
-令 $m$ 为 $A$ 的*极大*理想； m-主理想则为 $A$ 的理想 $q$，其中存在整数 $n \geq 1$，使得 $m^n \subset q \subset m$。因为如果$m^n \subset q \subset m$，$m$是唯一的素理想包含$q$（章11，$§ 1$，no. 1，命题1的推论），结论来自*例2*；相反，如果$q$是m元，则$m$是$q$的根式，因此存在$n \geq 1$使得$m^n \subset q$（章II，$§ 2$，no. 6，命题15）。
+令 $m$ 为 $A$ 的*极大*理想； m-主理想则为 $A$ 的理想 $q$，其中存在整数 $n \geq 1$，使得 $m^n \subset q \subset m$。因为如果$m^n \subset q \subset m$，$m$是唯一的素理想包含$q$（章11，$§ 1$，no. 1，命题1的推论），结论来自*例2*；相反，如果 $q$ 是 m 初等，$m$ 是 $q$ 的根式，因此存在 $n \geq 1$ 使得 $m^n \subset q$ (章 II, $§ 2$, no. 6, 命题 15）。
 
 #### 例 4 {#ac-iv-s2-n1-exa-4 .statement tag=04KK}
 

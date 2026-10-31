@@ -13,16 +13,16 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c3b3405215163422631ac25442a69a353619140b3bfad6129cf332a84bd832c9
+content_sha256: f32596f7edec0432c971b33021fef90931675d3318234ec870c8a8fd525bce4b
 translated_from: content/en/alg/00_to_the_reader_iv_vii.md
 translation_method: google
 source_content_sha256: 7ae32c7a2f91836886d1e4186ba9e82a6fbb969333fe911258076c12664c41c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: dff81e76d257269b689169e36f8bcee54a168972daaa63c089bcf41afcb6e53b
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 致读者
@@ -45,12 +45,12 @@ Varittes Differentielles et Analytiques — VAR
 理论光谱 — TS
 
 (1) 到目前为止，仅翻译了章 I 至 VII。
-(2) 到目前为止，仅翻译了章I至VII。
+(2) 到目前为止，仅翻译了章 I 至 VII。
 (3) 到目前为止，仅翻译了章 I 至 III。
 
 ALGEBRA
 
-在前六本书中（根据上面的阶），文本中的每个叙述都假设仅已知那些在相同的章中或在之前的章中已经讨论过的结果，顺序如下：E; A、章I至III； TG，章I至III； A、从章 IV 开始； TG，从章 IV 开始；血流体积；事件发生； INT。
+在前六本书中（根据上述阶），文本中的每个叙述都假设仅已知那些在同一章中或在之前的章中已经讨论过的结果，顺序如下：E; A、章I至III； TG，章I至III； A、从章IV起； TG，从章 IV 开始；血流体积；事件发生； INT。
 
 从第七本书开始，读者通常会找到它与其他书籍的逻辑关系的精确指示（前六本书始终被假定为已知）。
 

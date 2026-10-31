@@ -25,16 +25,16 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: b463b8d48b460735a39c4c1162972ec52d47ba9d1d9d3e062821987b15c067f7
+content_sha256: 0de82b5592a1558ede2d3f2c9f92e309fff8937c8cfcdef072f56ad349ade05a
 translated_from: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
 translation_method: google
 source_content_sha256: d3545f7135c1b975d777e05ac5e9cc067935aed03dd234e1d2fffc43e8d3d49f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: f21bab5d2b31c6bd3eefb542dfebf6f7ccc578db9f64ecda7099ce11701f5ffe
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 10. 扩张对超越扩张的评价
@@ -122,13 +122,13 @@ $$
 
 不应该认为我们刚刚遇到的v到K(X)的两个型或扩张是唯一的；可能存在扩张的第三个型，其中$\Gamma'/\Gamma$是挠元群和$k'$$k$的（不一定是有限的）代数扩张。第三个型不一定由引理1中描述的过程提供（cf.§ 3，习题1）。
 
-### 2.交换式群的有理秩
+### 2.交换式群的有理数秩
 
 #### 定义 1 {#ac-vi-s10-def-1 .statement tag=04Y9}
 
 *交换群 G 的有理秩是向量 Q 空间* $G \otimes_{\mathbf{Z}} \mathbf{Q}$ 的维数。
 
-这个维数也可以定义为基数$r$的最小上界（有限或无限），使得G存在$r$元素，它们与$\mathbf{Z}$线性无关（*代数*，章II, § 7, no. 10， 命题26)。当且仅当 G 是挠元群时，G 的有理数秩是 *零*。对于加法群 $\mathbf{R}^n$ 的子群、有理数秩重合的概念，其定义见*一般拓扑*、章 VII, § 1。
+这个维数也可以被定义为基数$r$的最小上界（有限或无限），使得存在G的$r$元素，它们与$\mathbf{Z}$线性无关（*代数*，章II, § 7, no. 10， 命题26)。当且仅当 G 是挠元群时，G 的有理秩是 *零*。对于加法群 $\mathbf{R}^n$ 的子群、有理秩重合的概念，其定义见*一般拓扑*、章 VII, § 1。
 
 在本段的其余部分中，我们将用$r(G)$表示交换性群G的有理秩。如果$G'$是G的子群，那么（因为$\mathbf{Q}$是平$\mathbf{Z}$模）我们有加法方程
 
@@ -146,7 +146,7 @@ $$
 
 *持有*。
 
-事实上，令$G_0 \subset G_1 \subset \ldots \subset G_n$为G的孤立子群的严格递增的序列，则需要建立不等式
+事实上，令$G_0 \subset G_1 \subset \ldots \subset G_n$为G的孤立子群的严格递增的序列，需要建立不等式
 
 $$
 n \leq h(H) + r(G/H).
@@ -166,9 +166,9 @@ $$
 n \leq h(H) + r(G_{n-1}/H) + 1.
 $$
 
-现在$G/G_{n-1}$是一个完全有序的群，没有减少到0；因此它不是挠元群和 $r(G/G_{n-1}) \geq 1$。 (4) 从而，$r(G/H) \geq r(G_{n-1}/H) + 1$。代入(8)，我们当然得到所需的不等式(6)。
+现在$G/G_{n-1}$是一个全序的群，没有减少到0；因此它不是挠元群和 $r(G/G_{n-1}) \geq 1$。 从而（4），$r(G/H) \geq r(G_{n-1}/H) + 1$。代入(8)，我们当然得到所需的不等式(6)。
 
-(b) $H \cap G_{n-1} \neq H$。由于$H \cap G_{n-1}$是$H$的孤立子群，因此我们将结论视为$h(H) > h(H \cap G_{n-1}) + 1$。另一方面，显然$r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$。代入(7)，再次得到(6)。
+(b) $H \cap G_{n-1} \neq H$。由于$H \cap G_{n-1}$是$H$的一个孤立的子群，我们将结论视为$h(H) > h(H \cap G_{n-1}) + 1$。另一方面，显然$r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$。代入(7)，再次得到(6)。
 
 #### 推论{#ac-vi-s10-n2-cor-1 .statement tag=04YB}
 
@@ -176,11 +176,11 @@ $$
 
 #### 命题 4 {#ac-vi-s10-prop-4 .statement tag=04YC}
 
-*设 G 是全序交换律群。假设 G 是有限生成的且 $h(G) = r(G)$。那么 G 同构于按字典顺序排序的 $\mathbf{Z}^{r(G)}$。*
+*设 G 为全序交换律群。假设 G 是有限生成的且 $h(G) = r(G)$。那么 G 同构于按字典顺序排序的 $\mathbf{Z}^{r(G)}$。*
 
-让我们写$r = r(G) = h(G)$。如果$r = 0$，则$G = (0)$。如果有限生成交换式群的$r = 1$、结构表明G有同构$j$到Z上（*代数*、章VII, § 4, no. 6、定理3）。现在Z只有两种与其群结构兼容的总序，即通常的序及其相反。因此，按照通常的顺序，$j$或$-j$是有序的群G到Z上的同构。
+让我们写$r = r(G) = h(G)$。如果$r = 0$，则$G = (0)$。如果有限生成交换式群的$r = 1$、结构表明G有同构$j$到Z上（*代数*，章VII, § 4, no. 6，定理3）。现在Z只有两种与其群结构兼容的总序，即通常的序及其相反。因此，按照通常的顺序，$j$或$-j$是有序的群G到Z上的同构。
 
-现在假设$r \geq 2$，让我们用归纳对$r$进行争论。令 H 为高度为 $r - 1$ 的 G 的孤立子群。然后是 $r(H) + r(G/H) = r$ (公式 (4))、$r(H) \geq h(H) = r - 1$ 和 $r(G/H) \geq h(G/H) = 1$（命题 3 的推论）、从而 $r(H) = r - 1$ 和 $r(G/H) = 1$。 归纳假设表明H与按字典顺序排序的$\mathbf{Z}^{r-1}$同构的，而情况$r = 1$表明$G/H$与Z同构。由于Z是自由Z模，因此H是G的*直因子*（*代数*，章11， § 1, no. 11，命题21)。下面的引理则表明G与词典乘积$H \times (G/H)$同构的（非规范），从而完成了证明。
+现在假设$r \geq 2$，让我们用归纳对$r$进行争论。令 H 为高度为 $r - 1$ 的 G 的孤立子群。然后是 $r(H) + r(G/H) = r$ (公式 (4))、$r(H) \geq h(H) = r - 1$ 和 $r(G/H) \geq h(G/H) = 1$（命题 3 的推论）、从而 $r(H) = r - 1$ 和 $r(G/H) = 1$。 归纳假设表明H与按字典顺序排序的$\mathbf{Z}^{r-1}$同构的，而情况$r = 1$表明$G/H$与Z同构。由于Z是自由Z模，因此H是G的*直因子*（*代数*，章11， § 1, no. 11、命题21)。接下来的引理则表明G与词典乘积$H \times (G/H)$同构的（非规范），从而完成了证明。
 
 #### 引理 2 {#ac-vi-s10-lem-2 .statement tag=04YD}
 

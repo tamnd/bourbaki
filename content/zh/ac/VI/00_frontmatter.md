@@ -13,19 +13,19 @@ pdf_pages: 0393-0393
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: db543f285db7069106320b8837308e2f7f83d86e30ae4b56949306d6f9473e0c
+content_sha256: 62c7d71dc6ae5cc1fd099e04afeb32635426d7984880352e699dd9f5537277ee
 translated_from: content/en/ac/VI/00_frontmatter.md
 translation_method: google
 source_content_sha256: 1477d9d91b07f366e721336398e4589e1fca742a24748393b14cdaaa017b58b9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 234464f7d51aee77ccb10449db27ab1d92c45e882889cb4c7f85b7420f8e1a96
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
-## 章六
+## 章 VI
 
 # 估值
 

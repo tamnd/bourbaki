@@ -46,16 +46,16 @@ subsections:
       pdf_page: 47
 statements: 26
 exercises: 17
-content_sha256: 606271b4a0d53440b84e8a087f753d6ea167fcf8f3af70719433378b516dd727
+content_sha256: cd164eb049a877336000d5dfcea021595a703af78ac84c06f999b3a0e5a83714
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
 translation_method: google
 source_content_sha256: 4e4d1e772eb5f248a858ce2f9c1dbddee958a8fa5c19120df031143b30855c75
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: bc647597dd984860af355cc6acc5499bd8eb7afbea6526cc0f9e0aa381f4b83b
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 2。 单位元素；可取消元素； 可逆元
@@ -92,9 +92,9 @@ Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called a
 
 令$E$为单一岩浆，$e$为单位元素。 $E$的子岩浆$A$使得$e \in A$被称为$E$的单一子岩浆。显然 $e$ 是岩浆 $A$ 的单位元素。每交 $E$ 的单位子岩浆都是 $E$ 的单位子岩浆。如果$X$是$E$的子集，则存在$E$包含$X$的最小的单一子岩浆；称为$X$生成的$E$单一次岩浆；如果 $X$ 为空，则它等于 $\{e\}$。如果$E$是幺半群，则$E$的单位次岩浆称为$E$的子幺半群。
 
-如果$F$是没有单位元素的岩浆，则$F$的子岩浆可能拥有单位元素。对于例，如果 $F$ 是结合律，并且 $h$ 是 $F$ (I, § 1, no. 4) 的幂等元素，则 $h \uparrow x \uparrow h$ 的集合（其中 $x$ 穿过 $F$）是$F$的次岩浆，$h$为单位元素。
+如果$F$是没有单位元素的岩浆，则$F$的子岩浆可能拥有单位元素。对于例，如果 $F$ 是结合律且 $h$ 是 $F$ (I, § 1, no. 4) 的幂等元素，则 $h \uparrow x \uparrow h$ 的集合（其中 $x$ 穿过 $F$）是$F$的次岩浆，$h$为单位元素。
 
-如果$E$是具有单位元素$e$的岩浆，则$E$的子岩浆$A$使得$e \notin A$可能仍具有单位元素。
+如果 $E$ 是具有单位元素 $e$ 的岩浆，则 $E$ 的子岩浆 $A$ 使得 $e \notin A$ 可能仍拥有单位元素。
 
 #### 定义 3 {#alg-i-s2-def-3 .statement tag=056P}
 
@@ -104,28 +104,28 @@ Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called a
 $$
 \prod_{q \leq i \leq p} x_i = e
 $$
-当$p < q$（$p, q \in \mathbf{N}$）时。类似地，我们将任意 $x$ 写为 $\prod^0 x = e$。 *有了这些定义定理，§ 1的1和3保持为真，如果集合A和B_i非空的假设被抑制。*类似地，公式$\prod^{m+n} x = \left( \prod^m x \right) \prod^n \left( \prod^n x \right)$和$\prod^{mn} x = \prod^m \left( \prod^n x \right)$对于$m \geq 0, n \geq 0$也为真。
+当$p < q$（$p, q \in \mathbf{N}$）时。类似地，我们将任意 $x$ 写为 $\prod^0 x = e$。 *使用这些定义定理 1 和 3 § 1 保持为真，如果假设集合 A 和 B_i 非空被抑制。* 类似地，公式 $\prod^{m+n} x = \left( \prod^m x \right) \prod^n \left( \prod^n x \right)$ 和 $\prod^{mn} x = \prod^m \left( \prod^n x \right)$ 对于 $m \geq 0, n \geq 0$ 也为真。
 
-令 E 为单一岩浆，其律表示为 $\top$，$e$ 表示为单位元素。 E 的元素家庭$(x_i)_{i \in I}$ 的*支持*是指标 $i \in I$ 的集合，使得 $x_i \neq e$。令$(x_i)_{i \in I}$是E*与有限支撑*的元素的族。以下两种情况我们应定义合成$\prod_{i \in I} x_i$：
+令 E 为单一岩浆，其律表示为 $\top$，$e$ 表示为单位元素。 E 的元素家​​庭$(x_i)_{i \in I}$ 的*支持*是指标 $i \in I$ 的集合，使得$x_i \neq e$。令$(x_i)_{i \in I}$是E*与有限支撑*的元素的族。以下两种情况我们应定义合成$\prod_{i \in I} x_i$：
 
 (a) 集合 I 全序；
 (b) E 是结合律，并且 $x_i$ 是成对可置换的。
 
-在这两种情况下，令 S 为家庭的支持$(x_i)$。如果 J 是 I 包含 S 的有限子集，则$\prod_{i \in J} x_i = \prod_{i \in S} x_i$，如 J 中元素的数上的归纳所示，情况 (a) 中§ 1 的应用定理 1 和情况 (a) 中的定理 3 § 1（b）情况。对于 I 包含 S 的所有有限子集，令 $\prod_{i \in I} x_i$ 表示合成 $\prod_{i \in J} x_i$ 的公共的值。当 I 是 $\mathbf{N}$ 的区间 $[p, \to]$ 时，我们也写成 $\prod_{i = p}^\infty x_i$。
+在这两种情况下，令 S 为家庭的支持$(x_i)$。如果 J 是 I 包含 S 的有限子集，则 $\prod_{i \in J} x_i = \prod_{i \in S} x_i$，如 J 中元素的数上的归纳所示，在情况 (a) 中，应用定理 1 为 § 1，并且在情况 (b) 中，定理 3 / § 1。令$\prod_{i \in I} x_i$表示合成$\prod_{i \in J} x_i$的公共的值，对于I包含S的所有有限子集。当I是$\mathbf{N}$的区间$[p, \to]$时，我们也写$\prod_{i = p}^\infty x_i$。
 
-有了这些定义和记号，§ 1和注中的定理1和3，继定理3扩展之后，对于有有限支撑的家庭。
+有了这些定义和记号，§ 1和注中的定理 1和3，继定理 3 扩展之后，送给有限支撑的家庭。
 
-*加法*书写的律的单位元素通常用0表示，并称为*零*或*空元素*（或有时*原点*）。在律写作*乘法*时，通常用1表示并称为*单位元*（或*单位*）。
+*加法*书写的律的单位元素通常用0表示，称为*零*或*空元素*（或有时*原点*）。在律写作*乘法*时，通常用1表示并称为*单位元*（或*单位*）。
 
 ### 2.可取消元素
 
 #### 定义 4 {#alg-i-s2-def-4 .statement tag=056Q}
 
-*给定集合 E 上的合成 $\top$ 的律，E 的映射 $x \mapsto a \top x$（或 $x \mapsto x \top a$）自身被称为元素 $a \in E$ 的左翻译（或右翻译）。*
+*给定集合 E 上的合成 $\top$ 律，E 的映射 $x \mapsto a \top x$（或 $x \mapsto x \top a$）自身被称为元素 $a \in E$ 的左翻译（或右翻译）。*
 
 在经过到相反的律，左翻译变成右翻译，反之亦然。
 
-令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；那么
+令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；然后
 $$
 \gamma_a(x) = a \top x, \qquad \delta_a(x) = x \top a.
 $$
@@ -147,19 +147,19 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-其他字、映射$x \mapsto \gamma_x$是同态从$E$到$E$的映射的岩浆集合$E^E$和律$(f, g) \mapsto f \circ g$自身； 映射 $x \mapsto \delta_x$ 是 $E$ 的同态变成集合 $E^E$ 以及相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
+其他字、映射$x \mapsto \gamma_x$是同态从$E$到集合$E$的映射的$E^E$与律自身结合$(f, g) \mapsto f \circ g$； 映射 $x \mapsto \delta_x$ 是 $E$ 的同态变成集合 $E^E$ 与相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
 
 #### 定义 5 {#alg-i-s2-def-5 .statement tag=056S}
 
 *元素* $a$ *岩浆* $E$ *如果左（或右）平移* $a$ *是单射的，则称为左（或右）可取消（或常规）。左右可取消元素称为可取消（或常规）元素。*
 
-在其他字中，为了使$a$在律$\mathsf{T}$下可取消，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以取消a”）。如果律 $\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的平移就是$E$的恒等映射自身。
+在其他字中，为了使$a$在律$\mathsf{T}$下可消去，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以消去a”）。如果律$\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的翻译就是$E$的恒等映射自身。
 
 #### 例 {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
-(1) 每自然数均可在加法下取消；每个自然数$\neq 0$都可以在乘法下取消。
+(1) 每自然数可在加法下取消；每自然数$\neq 0$均可在乘法下取消。
 
-(2) 在一个格子中，除了单位元素（至少元素）之外，律sup下不能有可取消的元素（如果存在的话）；同样对于 inf。特别是集合$E$子集集合中，$\varnothing$是律$\cup$下唯一可取消的元素，$E$是律下唯一可取消的元素 $\cap$。
+(2) 在一个格子中，除了单位元素（至少元素）之外，律sup下不能有可取消的元素（如果存在的话）；同样对于 inf。特别是集合$E$子集集合，$\varnothing$是律$\cup$下唯一可取消的元素，而$E$是元素下唯一可取消的元素律$\cap$。
 
 #### 命题 2 {#alg-i-s2-prop-2 .statement tag=056U}
 
@@ -253,7 +253,7 @@ $$
 
 #### 推出 1 {#alg-i-s2-prop-5-cor-1 .statement tag=0573}
 
-设 E 为幺半群，E 的 X 子集，X' 为 X 的中心化子。X' 属于到 X' 的每个可逆元的逆。
+令 E 为幺半群，E 的 X 子集以及 X' X 的中心化器。 X' 属于到 X' 的每个可逆元的逆。
 
 #### 推出 2 {#alg-i-s2-prop-5-cor-2 .statement tag=0574}
 
@@ -331,7 +331,7 @@ $$
 $$
 g(e,e) = f(e)f(e)^* = e.
 $$
-令$(a,p)$和$(a',p')$为$E \times S'$之二元素；如$a'$和$p$在E通勤，$f(a')$和$f(p)$在F通勤，从而$f(a')f(p)^* = f(p)^*f(a')$经no. 3，命题5。此外$f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^*$经no. 3， 命题 4, 从而
+令$(a,p)$和$(a',p')$为$E \times S'$中的两个元素；如$a'$和$p$在E通勤，$f(a')$和$f(p)$在F通勤，从而$f(a')f(p)^* = f(p)^*f(a')$经no. 3，命题5。此外$f(pp')^* = f(p'p)^* = (f(p')f(p))^* = f(p)^*f(p')^*$经no. 3， 命题 4、从而
 $$
 g(aa',pp') = f(aa')f(pp')^* = f(a)f(a')f(p)^*f(p')^* = f(a)f(p)^*f(a')f(p')^*
 = g(a,p)g(a',p').
@@ -340,17 +340,17 @@ $$
 $$
 g(a',p') = f(a')f(p')^* = f(p)^*f(a) = f(a)f(p)^* = g(a,p).
 $$
-因此，F 中存在 $E_S$ 的同态 $\bar{f}$，使得 $\bar{f}(a/p) = g(a,p)$、从而 $\bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a)$。因此$\bar{f} \circ \varepsilon = f$。
+因此，F 中存在 $E_S$ 的同态 $\bar{f}$，使得 $\bar{f}(a/p) = g(a,p)$，从而 $\bar{f}(\varepsilon(a)) = \bar{f}(a/e) = f(a)f(e)^* = f(a)$。因此$\bar{f} \circ \varepsilon = f$。
 
 #### 推论 {#alg-i-s2-n4-cor-1 .statement tag=0579}
 
-*设E和F是两个可交换幺半群，S和T分别是E和F的子集，E的f同态变成F，使得$f(S) \subset T$和$\varepsilon : E \to E_S, \eta : F \to F_T$典范同态。存在且仅有一个同态 $g : E_S \to F_T$ 使得 $g \circ \varepsilon = \eta \circ f$.*
+*设E和F是两个可交换幺半群，S和T分别是E和F的子集，E的f同态进入F，使得$f(S) \subset T$和$\varepsilon : E \to E_S, \eta : F \to F_T$典范同态。存在且仅有一个同态 $g : E_S \to F_T$ 使得 $g \circ \varepsilon = \eta \circ f$。*
 
-E 的同态 $\eta \circ f$ 到 S 的每元素到$F_T$ 映射到 $F_T$ 的可逆元。
+E 的同态 $\eta \circ f$ 到 S 的每元素到 $F_T$ 的 $F_T$ 映射到可逆元。
 
 #### 注 {#alg-i-s2-n4-rem-1 .statement tag=057A}
 
-(1) 定理 1 也可以用说表示，对于 E，$(E_S, \varepsilon)$ 是普遍映射问题的解，相对于幺半群，E 的幺半群同态和同态转化为幺半群， S 的映射元素到可逆元（*集合理论*、IV、、no. 1）。由此可见 (*loc.cit.*)，这个问题中的所有其他解都以独特的方式同构于 $(E_S, \varepsilon)$
+(1) 定理 1 也可以用说表示，对于 E，$(E_S, \varepsilon)$ 是普遍映射问题的解，相对于幺半群，E 的幺半群同态和同态转化为幺半群， S 的映射元素到可逆元（*集合理论*、IV、、no. 1）。由此可见 (*loc.cit.*)，这个问题中的所有其他解以独特的方式同构于 $(E_S, \varepsilon)$
 
 (2) 对于解对于上述普遍映射问题的存在性，无需假设幺半群E是可交换的，由*集合理论*可知，IV, § 3, no. 2(cf.习题17)。
 
@@ -364,7 +364,7 @@ E 的同态 $\eta \circ f$ 到 S 的每元素到$F_T$ 映射到 $F_T$ 的可逆�
 
 如果E的每个元素都是可取消的，则$\Phi = \overline{E}$和E是交换性群$\Phi$的子幺半群。相反，如果E与群的子幺半群同构，则E的每个元素都是可取消的。
 
-### 5. 应用：I. 有理整数
+### 5. 应用：I。理性整数
 
 考虑自然数的交换幺半群 $\mathbf{N}$ 和律合成加法；在此律下，$\mathbf{N}$ 的所有元素均可取消（*集合理论*、III, § 5, no. 2、推论 3）。 $\mathbf{N}$之差群记为$\mathbf{Z}$；它的元素称为*有理整数*；它的律称为有理整数*的*加法，也用+表示。 从$\mathbf{N}$到$\mathbf{Z}$的典范同态是单射的，我们将$\mathbf{N}$的每个元素认同及其在$\mathbf{Z}$中的像。 $\mathbf{Z}$的元素由定义等价类确定，在$\mathbf{N} \times \mathbf{N}$中由关系在$(m_1, n_1)$和$(m_2, n_2)$之间确定，写为$m_1 + n_2 = m_2 + n_1$； $\mathbf{N}$的元素$m$与元素$(m + n, n)$的类由……组成进行识别，其中$n \in \mathbf{N}$；它承认元素$(n, m + n)$的$\mathbf{Z}$类为负。 $\mathbf{N} \times \mathbf{N}$的每个元素$(p, q)$如果$p \geq q$可以写在形式$(m + n, n)$中，如果$p \leq q$则可以写在形式$(n, m + n)$中；由此可见，$\mathbf{Z}$是$\mathbf{N}$的*并，以及集合是$\mathbf{N}$*的元素的负数。 The identity element 0 is the only element of $\mathbf{N}$ whose negative belongs to $\mathbf{N}$.
 
@@ -398,7 +398,7 @@ $$
 
 设$x$、$y$、$z$为三个有理数整数；那么 $x \leq y$ 当且仅当 x + z \leq y + z。对于 x - y = (x + z) - (y + z)。这个性质用说表示，$\mathbf{Z}$上的序关系在平移下是不变的。
 
-### 6. 应用：II。有理数的乘法整数
+### 6. 应用：II。有理数乘法整数
 
 #### 引理 2 {#alg-i-s2-lem-2 .statement tag=057B}
 
@@ -426,7 +426,7 @@ $$
     (7) $$ 1.x = x.1 = x $$
     (8) $$ (-1).x = x.(-1) = -x $$
 
-对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，并且$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$映射 1 到$-x$的自同态$y \mapsto -xy$，从而$(-x).y = -xy$因此
+对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$映射 1 到$-x$的自同态$y \mapsto -xy$，从而$(-x).y = -xy$因此
 $$
 (-x)(-y) = -(x(-y)) = -(-xy) = xy.
 $$
@@ -434,7 +434,7 @@ $$
 
 ### 7. 应用：III。广义幂
 
-令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；到引理 2 为止，此记号与之前介绍的 $n \in \mathbf{N}$ 和记号兼容。然后
+令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；到引理 2 为止，此记号与 $n \in \mathbf{N}$ 和之前介绍的记号兼容。然后
 $$
 \begin{align*}
 \text{(9)} \quad & \frac{m+n}{\top} x = \left( \frac{m}{\top} x \right) \top \left( \frac{n}{\top} x \right) \\

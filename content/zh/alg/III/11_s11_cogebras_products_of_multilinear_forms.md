@@ -66,28 +66,28 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 6c4e9d6e5ab5cf33417f3e68c92853e42e9a88d445b294d1a22d9c5077e25b9b
+content_sha256: 8a1cffffa8e232035f370193b044519ffc6556fd09461743af7f56e1dcee9b48
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
 translation_method: google
 source_content_sha256: d9e2a61c3971782f685be044252b3450406801250b05574efb54eb00ac04501c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: ec45d76afbea11a2dd0c700e246b2615566e5a5663d1b0f9da8bb234079a787f
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 11。 余代数、乘积多重线性形式、内部乘积和对偶
 
-在本段中，A 是交换环，具有平凡的毕业。对于型 N 的分级 A-模 M，M^{gr} 将表示型 N 的分级 A-模，其次数 n 的齐次元素是 A 线性形式，对于所有 k ≠ n，其在 M_k 上为零。
+在本段中，A 是交换环，其毕业程度很简单。对于型 N 的分级 A-模 M，M^{gr} 将表示型 N 的分级 A-模，其次数 n 的齐次元素是 A 线性形式，对于所有 k ≠ n，其在 M_k 上为零。
 
 ### 1.余代数
 
 #### 定义 1 {#alg-iii-s11-def-1 .statement tag=067H}
 
-A 上的余数 a（或 A-余数，或者如果不会引起混淆，则简称为余数 a）是集合 E，其中结构定义如下：
-(1) E 上的 A-模结构；
+A 上的余数 a（或 A-余数，如果不会引起混淆，则简称为余数 a）是集合 E，其中结构定义为：
+(1) E 上A-模结构；
 (2) A-线性映射 c: E → E ⊗_A E 称为 E 的余积。
 
 #### 定义 2 {#alg-iii-s11-def-2 .statement tag=067I}
@@ -103,19 +103,19 @@ E \otimes_A E & \xrightarrow{u \otimes u} & E' \otimes_A E'
 \end{array}
 $$
 
-立即验证恒等映射是态射，两个态射的合成是态射，并且每个双射态射是同构。
+立即验证恒等映射是态射，两个态射的合成是态射，并且每个双射态射都是同构。
 
 #### 例 {#alg-iii-s11-n1-exa-1 .statement tag=067J}
 
 (1) 典范同构 $A \to A \otimes_A A$ (II, § 3, no. 5) 定义 A 上的 A 代数结构。
 
-(2) 设 E 为余代数，$c$ 为余积，$\sigma$ A-模 $E \otimes_A E$ 的规范自同构，使得 $\sigma(x \otimes y) = y \otimes x$ 为 $x \in E, y \in E$； A-线性映射 $\sigma \circ c$ 定义 E 上的新余代数结构。这样结构 E 被称为给定余代数 E 的*相反* 余代数。
+(2) 令E为余代数，$c$其余积和$\sigma$A-模$E \otimes_A E$的规范自同构，使得$\sigma(x \otimes y) = y \otimes x$对应于$x \in E, y \in E$； A-线性映射 $\sigma \circ c$ 定义 E 上的新余代数结构。这样结构 E 就被称为给定余代数 E 的*相反* 余代数。
 
-(3) 令 B 为 A-*代数*，并令 $m : B \otimes_A B \to B$ 为 A-线性映射，在 B (§ 1, no. 3) 上定义乘法。那么转置$^t m$就是A-模B的对偶$B^*$到A-模$B \otimes_A B$的对偶$(B \otimes_A B)^*$的A-线性映射。如果 B 也是*有限生成射影* A-模，则典范映射 $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ 是 A-模同构 (II, § 4, no. 4)； 映射$c = \mu^{-1} \circ ^t m$则余积在A-模B的*对偶*$B^*$上定义*余代数*结构。
+(3) 令 B 为 A-*代数*，并令 $m : B \otimes_A B \to B$ 为 A-线性映射，在 B (§ 1, no. 3) 上定义乘法。 转置$^t m$则为A-模B的对偶$B^*$到A-模$B \otimes_A B$的对偶$(B \otimes_A B)^*$的A-线性映射。如果 B 也是*有限生成射影* A-模，则典范映射 $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ 是 A-模同构 (II, § 4, no. 4)； 映射$c = \mu^{-1} \circ ^t m$则余积在A-模的*对偶*$B^*$上定义*余代数*结构B。
 
-(4) 令X为X的形式线性组合或元素的集合、$A^{(X)}$A-模，系数在A(II, § 1, no. 11)和$A^{(X)}$的$(e_x)_{x \in X}$典范基。 A-线性映射$c : A^{(X)} \to A^{(X)} \otimes_A A^{(X)}$由条件$c(e_x) = e_x \otimes e_x$定义，因此在$A^{(X)}$上获得规范的余代数结构。
+(4) 设X为集合，X的元素的形式线性组合的$A^{(X)}$A-模，其系数为A(II, § 1, no. 11)和$(e_x)_{x \in X}$典范基 $A^{(X)}$。 A-线性映射$c : A^{(X)} \to A^{(X)} \otimes_A A^{(X)}$由条件$c(e_x) = e_x \otimes e_x$定义，因此在$A^{(X)}$上获得规范的余代数结构。
 
-(5) 令M为M(§ 5, no. 1)的A-模和$T(M)$张量代数； II, § 3, no. 9 A-模 $T(M)$ 中存在且仅有一个 A-线性映射 $c$ 进入A-模 $T(M) \otimes_A T(M)$，使得对于所有 $n \geq 0$，
+(5) 令M为M(§ 5, no. 1)的A-模和$T(M)$张量代数；到 II, § 3, no. 9 时，A-模 $T(M)$ 中存在且仅有一个 A-线性映射 $c$ 进入A-模 $T(M) \otimes_A T(M)$，使得对于所有 $n \geq 0$，
 
 $$
 c(x_1 x_2 \ldots x_n) = \sum_{0 \leq p \leq n} (x_1 x_2 \ldots x_p) \otimes (x_{p+1} \ldots x_n)
@@ -123,26 +123,26 @@ $$
 
 对于所有$x_i \in M$（$x_1 x_2 \ldots x_n$表示代数$T(M)$中的乘积）。因此 $T(M)$ 被赋予 *余代数* 结构。
 
-(6) 令M为A-模且$S(M)$为M的对称代数(§ 6, no. 1)； M 到 $M \times M$ 的对角线映射 $\Delta : x \mapsto (x, x)$ 是 A-线性映射，因此，A-代数 $S(M)$ 的对应同态 $S(\Delta)$ 到 A-代数 $S(M \times M)$ (§ 6, no. 2， 命题3）。 另一方面，在§ 6, no. 6中我们定义了规范分级代数同构$h : S(M \times M) \to S(M) \otimes_A S(M)$；因此，通过合成，我们得到 *A-代数* 同态
+(6) 令M为A-模且$S(M)$为M的对称代数(§ 6, no. 1)； M 到 $M \times M$ 的对角线映射 $\Delta : x \mapsto (x, x)$ 是 A-线性映射，因此 A-代数 $S(M)$ 的对应同态 $S(\Delta)$ 到 A-代数 $S(M \times M)$ （§ 6, no. 2，命题3）。另一方面，在§ 6, no. 6中，我们定义了规范分级代数同构$h : S(M \times M) \to S(M) \otimes_A S(M)$；因此，通过合成，我们得到 *A-代数* 同态
 
 $$
 c = h \circ S(\Delta) : S(M) \to S(M) \otimes_A S(M),
 $$
 
-从而在 $S(M)$ 上定义一个 *余代数* 结构。对于所有$x \in M$，通过§ 6, no. 6中给出的$h$的定义$S(\Delta)(x) = (x, x)$和定义表明
+因此在 $S(M)$ 上定义一个 *余代数* 结构。对于所有$x \in M$，通过§ 6, no. 6中给出的$h$的定义、$S(\Delta)(x) = (x, x)$和定义表明：
 
 $$
 h((x, x)) = x \otimes 1 + 1 \otimes x.
 $$
 
-由此可见 $c$ 是唯一代数同态，因此，对于所有 $x \in M$，
+由此可见，$c$ 是唯一代数同态，因此，对于所有 $x \in M$，
 
 (4)
 $$
 c(x) = x \otimes 1 + 1 \otimes x.
 $$
 
-由于$c$是代数同态，因此对于$n$元素或$M$的每个序列$(x_i)_{1 \leq i \leq n}$，
+由于$c$是代数同态，因此，对于$n$元素或$M$的每个序列$(x_i)_{1 \leq i \leq n}$，
 
 (5)
 $$
@@ -152,7 +152,7 @@ $$
 = \sum (x_{i_1} \ldots x_{i_p}) \otimes (x_{j_1} \ldots x_{j_{n-p}})
 $$
 
-(5) 右侧的求和覆盖严格递增的序列的所有有序对（在某些情况下为空）
+(5) 右侧的总和覆盖严格递增的序列的所有有序对（在某些情况下为空）
 
 $$
 i_1 < i_2 < \cdots < i_p, \quad j_1 < j_2 < \cdots < j_{n-p}
@@ -352,7 +352,7 @@ $$
 
 设B是$C = \mathrm{Hom}_A(E, B)$的可交换A-代数和$u, v$两个元素。
 
-由C中乘积的定义，$uv$和$vu$分别等于合数映射
+通过C中乘积的定义，$uv$和$vu$分别等于合成映射
 
 $$
 E \xrightarrow{c} E \otimes E \xrightarrow{u \otimes v} B \otimes B \xrightarrow{m} B
@@ -398,29 +398,29 @@ $h''$
 
 （II, § 3, no. 4，命题4）。 *Hom$_A$(E, B) 的 *单位 *则为线性映射* x $\mapsto$ $\gamma(x)1$（其中 1 表示 B 的单位元）。
 
-令 $\gamma$ 为线性形式，在 E 渲染图表 (16) 上可交换。设 B 是 A-代数 C = Hom$_A$(E, B) 的单位 A-代数，其中单位元 1、$\eta:A \to B$ 典范映射和 $v = \eta \circ \gamma$ 元素。对于每个元素 $u \in C$，$uv$ 是复合映射
+令 $\gamma$ 为线性形式，在 E 渲染图表 (16) 上可交换。设 B 为单位元 1、$\eta:A \to B$ 典范映射和 $v = \eta \circ \gamma$ 元素且 A-代数 C = Hom$_A$(E, B) 的单位A-代数。对于每个元素 $u \in C$，$uv$ 是复合映射
 
 $$
 \text{(17)} \quad E \xrightarrow{c} E \otimes E \xrightarrow{1_E \otimes \gamma} E \otimes A \xrightarrow{u \otimes \eta} B \otimes B \xrightarrow{m} B.
 $$
 
-然后$uv = m \circ (u \otimes \eta) \circ h'' = u$。类似地证明$vu = u$，因此$v$是C的单位元。相反，让A-模A$\oplus$E被赋予单位代数结构，使得$(a, x)(a', x') = (aa', ax' + a'x)$对于A中的$a, a'$和E中的$x, x'$。令B 表示由此定义的A-代数，并令 C 为A-代数 Hom$_A$(E, B)。假设 C 是单位的，并令 $e:x \mapsto (\gamma(x), \lambda(x))$ 为其单位元（其中 $\gamma(x) \in A$ 和 $\lambda(x) \in E$）。另一方面，令$f$为C的元素$x \mapsto (0, x)$。直接的计算表明$fe$为元素
+然后$uv = m \circ (u \otimes \eta) \circ h'' = u$。同样可以证明$vu = u$，因此$v$是C的单位元。相反，让A-模 A $\oplus$ E 被赋予单位代数结构，使得$(a, x)(a', x') = (aa', ax' + a'x)$代表A中的$a, a'$和E中的$x, x'$。令B表示由此定义的A-代数，并令C为A-代数坎$_A$（E，B）。假设C是单位的，并令$e:x \mapsto (\gamma(x), \lambda(x))$为其单位元（其中$\gamma(x) \in A$和$\lambda(x) \in E$）。另一方面，令 $f$ 为 C 的元素 $x \mapsto (0, x)$。 直接的计算可知$fe$为元素
 
 $$
 x \mapsto (0, (h'')^{-1}((1_E \otimes \gamma)(c(x))))
 $$
 
-C. 条件 $fe = f$ 蕴含 (16) 的第二个图表的交换律，同样可以看出，条件 $ef = f$ 蕴涵 (16) 的第一个图表的交换律。
+C。 条件$fe = f$蕴含(16)的第二个图表的交换律，类似地可以看出条件$ef = f$蕴涵(16)的第一个图表的交换律。
 
 线性形式$\gamma$在E渲染图表(16)上交换称为余代数E的*余单位*。余代数承认*至多一个*余单位：因为它是代数Hom$_A$(E，A)的单位元。 余代数与余单位称为 *counital*。
 
 #### 例 {#alg-iii-s11-n2-exa-4 .statement tag=067S}
 
-(6) 恒等映射是余代数A中的余单位；在余代数 A$^{(X)}$ (no. 1, *例 4*) 线性形式 $\gamma$ 上，使得所有 $x \in X$ 的 $\gamma(e_x) = 1$ 为余单位。在余代数 T(M)（分别为S(M)、$\Lambda(M)$）线性形式$\gamma$，使得$\gamma(1) = 1$和$\gamma(z) = 0$对于$z$在$T^n(M)$（分别为$S^n(M)$、$\Lambda^n(M)$） $n \geq 1$ 是余单位。最后，令 B 为 A-代数，它是有限生成的射影 A-模并且具有单位元 $e$；那么余代数 B* (no. 1, *例 3*) 线性形式 $\gamma: x^* \mapsto \langle e, x^* \rangle$ 是余单位，因为这个形式只是 A 的 A-线性映射 $\eta_e: \xi \mapsto \xi e$ 的转置到 B 并通过转置图表 (16) 的交换律源自图表，它表达（使用$\eta_e$）$e$是B (§ 1, no. 3)的单位元；同样的论点还表明，相反，如果余代数 B* 承认 B 的余单位 $\gamma$，则$\gamma$ 定义单位元 $e = t_\gamma(1)$ 的转置。
+(6) 恒等映射是余代数A中的余单位；在余代数 A$^{(X)}$ (no. 1, *例 4*) 线性形式 $\gamma$ 上，使得所有 $x \in X$ 的 $\gamma(e_x) = 1$ 为余单位。在余代数 T(M)（分别为 S(M)、$\Lambda(M)$）线性形式 $\gamma$，使得 $\gamma(1) = 1$ 和 $\gamma(z) = 0$ 对于 $z$ 在 $T^n(M)$（分别为 $S^n(M)$、$\Lambda^n(M)$） $n \geq 1$ 是余单位。最后，令 B 为 A-代数，它是有限生成的射影 A-模并且具有单位元 $e$；那么余代数 B* (no. 1, *例 3*) 线性形式 $\gamma: x^* \mapsto \langle e, x^* \rangle$ 是余单位，因为这个形式只是 A 的 A-线性映射 $\eta_e: \xi \mapsto \xi e$ 的转置到 B 并通过转置图表 (16) 的交换律源自图表，它表达（使用$\eta_e$）$e$是B (§ 1, no. 3)的单位元；同样的论点还表明，相反，如果余代数 B* 承认 B 的余单位 $\gamma$，则$\gamma$ 定义单位元 $e = t_\gamma(1)$ 的转置。
 
 #### 命题 4 {#alg-iii-s11-prop-4 .statement tag=067T}
 
-*设E为余代数，承认余单位$\gamma$，并假设E中存在元素 e，使得$\gamma(e) = 1$；那么 E 是子 A 模块 Ae 的直和和 $E_{\gamma} = \mathrm{Ker}(\gamma)$ 并且*
+*设E为余代数，承认余单位$\gamma$，并假设E中存在元素 e，使得$\gamma(e) = 1$；则 E 是子 A 模块 Ae 的直和和 $E_{\gamma} = \mathrm{Ker}(\gamma)$ 并且*
 
 $$
 \text{(18)} \quad \begin{cases}
@@ -447,17 +447,17 @@ $$
 
 #### 注 {#alg-iii-s11-n2-rem-2 .statement tag=067U}
 
-设 C 为单位共联想 A 余代数，B 为单位联想 A-代数，M 左B-模。 $B \times M$ 到 M 定义的 A 双线性映射 $(b, m) \mapsto bm$ A 双线性映射
+令 C 为单位共联想 A 余代数，B 为单位联想 A-代数，M 左B-模。 $B \times M$ 到 M 定义的 A 双线性映射 $(b, m) \mapsto bm$ A 双线性映射
 $$
 \operatorname{Hom}_A(C, B) \times \operatorname{Hom}_A(C, M) \to \operatorname{Hom}_A(C, M)
 $$
-通过本号开头描述的一般程序。立即验证，这个映射定义在$\operatorname{Hom}_A(C, M)$左模结构超过环$\operatorname{Hom}_A(C, B)$。
+通过本号开头描述的一般程序。立即验证，这个映射定义在$\operatorname{Hom}_A(C, M)$左模结构超过了环$\operatorname{Hom}_A(C, B)$。
 
 ### 3. 余代数型 N 分级的特性
 
 #### 命题 5 {#alg-iii-s11-prop-5 .statement tag=067V}
 
-(i) *令 E 为余代数承认余单位 $\gamma$；那么 $\gamma$ 是次数 0 的齐次线性形式。*
+(i) *令 E 为余代数录取余单位 $\gamma$；那么 $\gamma$ 是次数 0 的齐次线性形式。*
 
 (ii) *进一步假设存在元素$e \in E$使得$E_0 = Ae$和$\gamma(e) = 1$。那么$\gamma$的核$E_\gamma$等于$E_+ = \sum_{n \geq 1} E_n$、$c(e) = e \otimes e$并且*
 $$
@@ -1453,19 +1453,19 @@ $$
 
 #### 命题 12 {#alg-iii-s11-prop-12 .statement tag=068E}
 
-*设M为维数n中的自由A-模；令$e \in \wedge^n(M)$为元素，形成$\wedge^n(M)$的基，并令$e^*$为$\wedge^n(M^*)$的元素，使得$\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$为$(\wedge^n(M))^*$中$\{e\}$的对偶基。令$\phi : \wedge(M^*) \to \wedge(M)$为映射$z \mapsto z \wedge e^*$和$\phi' : \wedge(M^*) \to \wedge(M)$映射$z^* \mapsto z^* \wedge e$。令$\phi_p$（分别$\phi'_p$）为限制 / $\phi$（分别$\phi'$）到$\wedge^p(M)$（分别$\wedge^p(M^*)$）。然后：
+*设M为维数n中的自由A-模；令$e \in \wedge^n(M)$为元素，形成$\wedge^n(M)$的基，并令$e^*$为$\wedge^n(M^*)$的元素，使得$\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$为$(\wedge^n(M))^*$中$\{e\}$的对偶基。令$\phi : \wedge(M^*) \to \wedge(M)$为映射$z \mapsto z \wedge e^*$和$\phi' : \wedge(M^*) \to \wedge(M)$映射$z^* \mapsto z^* \wedge e$。令$\phi_p$（分别$\phi'_p$）为$\phi$（分别$\phi'$）到$\wedge^p(M)$（分别$\wedge^p(M^*)$）的限制。然后：
 
-(i) *映射$\phi$是左$\wedge(M)$-模块同构且映射$\phi'$是左$\wedge(M^*)$-模块同构；此外，映射 $\phi$ 和 $\phi'$ 是 1 另一个的倒数。*
+(i) *映射$\phi$是左$\wedge(M)$模块同构，映射$\phi'$是左$\wedge(M^*)$模块同构；此外，映射$\phi$和$\phi'$是1另一个的倒数。*
 
-(ii) *映射$\phi_p$是A-模$\wedge^p(M)$中的同构到A-模$\wedge^{n-p}(M^*)$，并且映射$\phi'_p$是A-模$\wedge^p(M^*)$中的同构到A-模$\wedge^{n-p}(M)$。
+(ii) *映射$\phi_p$是A-模$\wedge^p(M)$同构到A-模$\wedge^{n-p}(M^*)$且映射$\phi'_p$是A-模$\wedge^p(M^*)$同构到A-模$\wedge^{n-p}(M)$。
 
-(iii) *如果我们将$u \in \wedge(M)$和$v^* \in \wedge(M^*)$写为$B(u, v^*) = \langle u, \theta_{\wedge}(v^*) \rangle$，那么，对于$u^* \in \wedge^p(M^*)$和$v^* \in \wedge^{n-p}(M^*)$，
+(iii) *如果我们将$u \in \wedge(M)$和$v^* \in \wedge(M^*)$写成$B(u, v^*) = \langle u, \theta_{\wedge}(v^*) \rangle$，那么，对于$u^* \in \wedge^p(M^*)$和$v^* \in \wedge^{n-p}(M^*)$，
 
 $$
 B(\phi'_p(u^*), v^*) = (-1)^{p(n-p)} B(u^*, \phi'_{n-p}(v^*)).
 $$
 
-$\phi$ 是 $\wedge(M)$ 线性且 $\phi'$ 是 $\wedge(M^*)$ 线性这一事实是从公式 $(u \wedge v) \wedge e^* = u \wedge (v \wedge e^*)$ 和 $(u^* \wedge v^*) \wedge e = u^* \wedge (v^* \wedge e)$ (no. 6, 公式 (37)) 得出的，使用$\theta_{\wedge}$ 是$\wedge(M^*)$的同构到反代数到$\wedge(M)^*$。另一方面，M 存在基 $(e_i)_{1 \leq i \leq n}$，使得
+$\phi$ 是 $\wedge(M)$ 线性且 $\phi'$ 是 $\wedge(M^*)$ 线性这一事实是从公式 $(u \wedge v) \wedge e^* = u \wedge (v \wedge e^*)$ 和 $(u^* \wedge v^*) \wedge e = u^* \wedge (v^* \wedge e)$ (no. 6, 公式 (37)) 得出的，使用$\theta_{\wedge}$ 是同构的事实$\wedge(M^*)$到反代数到$\wedge(M)^*$。另一方面，M 存在基 $(e_i)_{1 \leq i \leq n}$，使得
 
 $$
 e = e_1 \wedge e_2 \wedge \cdots \wedge e_n \quad \text{and} \quad e^* = (-1)^{n(n-1)/2} e_1^* \wedge e_2^* \wedge \cdots \wedge e_n^*,
@@ -1480,7 +1480,7 @@ $$
 \end{cases}
 $$
 
-这就证明了$\phi$和$\phi'$是双射的；此外$\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$（§ 7, no. 8，公式（21））；如数
+这就证明了$\phi$和$\phi'$是双射的；此外$\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (§ 7, no. 8, 公式 (21));如数
 
 $$
 \frac{n(n-1)}{2} + \frac{p(p-1)}{2} + \frac{(n-p)(n-p-1)}{2} + p(n-p) = n(n-1)
@@ -1488,7 +1488,7 @@ $$
 
 是偶数，因此 $\phi$ 和 $\phi'$ 是 1 另一个的倒数。最后，要证明(77)，只需取$u^* = e_J^*$和$v^* = e_{I-J}^*$即可；验证也遵循$\theta_{\wedge}$、公式 (78) 和关系 $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (§ 7, no. 8、公式 (21)) 的定义。 注对于 $u^* \in \wedge^p(M^*)$ 和 $v^* \in \wedge^{n-p}(M^*)$，
 
-B(\phi_p'(u^*), v^*) 是 $u^* \wedge v^*$ 相对于 $\Lambda^n(M^*)$ 的基 $\{e^*\}$ 在符号范围内的系数。
+B(\phi_p'(u^*), v^*) 是 $u^* \wedge v^*$ 相对于$\Lambda^n(M^*)$ 基 $\{e^*\}$ 在符号范围内的系数。
 
 #### 命题 13 {#alg-iii-s11-prop-13 .statement tag=068F}
 
@@ -1520,18 +1520,18 @@ $$\Lambda^{(tg^{-1})} = (\det g)^{-1}\phi \circ (\Lambda(g)) \circ \phi^{-1}.$$
 
 (i) *$M_z$在$E^*$中的正交是$x^* \in E^*$的集合使得$x^* \perp z = 0$。*
 
-(ii) *与 z 相关的子空间 $M_z$ 是 $\Lambda^{p-1}(E^*)$ 的映射 $\lambda_z : u^* \mapsto u^* \perp z$ 下的 $\Lambda^{p-1}(E^*)$ 像进入 E。*
+(ii) *与z相关的子空间$M_z$是$\Lambda^{p-1}(E^*)$的映射$\lambda_z : u^* \mapsto u^* \perp z$下的$\Lambda^{p-1}(E^*)$的像进入E。*
 
 令 N 表示 $\lambda_z$ 的像。对于 $x^* \in E^*$ 和 $u^* \in \Lambda^{p-1}(E^*)$，
 $$
 \langle \theta_{\Lambda}(x^*), u^* \perp z \rangle = \langle \theta_{\Lambda}(u^* \wedge x^*), z \rangle = (-1)^{p-1} \langle \theta_{\Lambda}(x^* \wedge u^*), z \rangle \\
 = (-1)^{p-1} \langle \theta_{\Lambda}(u^*), x^* \perp z \rangle.
 $$
-因此，为了使$x^*$与N正交，$x^* \perp z$与$\theta_{\Lambda}(\Lambda(E^*))$正交是充分必要的。现在，后者条件相当于说即$x^* \perp z = 0$；令 $(e_{\lambda})_{\lambda \in L}$ 为 E 的基；给L一个全序，可以看出（§ 7, no. 8，定理1），对于J来说，$e_J$，经过L的有限子集的集合$\mathscr{F}(L)$，$\Lambda(E)$的形式基；然后从no. 5的公式(30)得出，元素$\theta_{\wedge}(e_J^*)$在一个符号内是$\wedge(E)$上相对于基$(e_J)$的坐标形式； 从而我们的断言。
+因此，为了使$x^*$与N正交，$x^* \perp z$与$\theta_{\Lambda}(\Lambda(E^*))$正交是充分必要的。现在，后者条件相当于说即$x^* \perp z = 0$；令 $(e_{\lambda})_{\lambda \in L}$ 为 E 的基；给L一个总排序，可以看出（§ 7, no. 8，定理 1），对于J来说，$e_J$经过L，形式的有限子集的集合$\mathscr{F}(L)$ 基共 $\Lambda(E)$；然后从no. 5的公式(30)得出，元素$\theta_{\wedge}(e_J^*)$在一个符号内是$\wedge(E)$上相对于基$(e_J)$的坐标形式； 从而我们的断言。
 
 因此，N 的正交由 $x^* \in E^*$ 组成，使得 $x^* \perp z = 0$ 并且 (i) 的结论将由 (ii) 得出。
 
-我们首先显示$N \subset M_z$。令 M 为 E 的向量子空间，使得 $z \in \wedge(M)$ 且令 $j : M \to E$ 为典范嵌入；设$\mu_z$将$\wedge^{p-1}(M^*)$的映射$v^* \mapsto v^* \perp z$代入M；从 no. 7 的公式 (60) 可以得出，存在规范因式分解
+我们首先显示$N \subset M_z$。令 M 为 E 的向量子空间，使得 $z \in \wedge(M)$ 且令 $j : M \to E$ 为典范嵌入；设$\mu_z$将$\wedge^{p-1}(M^*)$的映射$v^* \mapsto v^* \perp z$代入M；由公式 (60) of no. 7 可知存在正则因式分解
 
 $$
 \lambda_z : \wedge^{p-1}(E^*) \xrightarrow{\wedge^{p-1}(t_j)} \wedge^{p-1}(M^*) \xrightarrow{\mu_z} M \xrightarrow{j} E
@@ -1568,15 +1568,15 @@ $$
 (u^* \perp z) \wedge z = 0.
 $$
 
-情况$p = 0$很简单，我们假设$p \geq 1$。如果$z = x_1 \wedge \cdots \wedge x_p$、公式 (68) (no. 9) 与$n = p - 1$ 则表明$u^* \perp z$ 是$x_i$ ($1 \leq i \leq p$)、从而 (81) 的线性组合。另一方面，如果与$z$关联的子空间$M_z$是维数$> p$，则考虑该子空间的基$(e_j)_{1 \leq j \leq n}$与$n > p$。从no. 11、命题 13 可以得出，对于某些$u^* \in \bigwedge^{p-1}(E^*)$，每个$e_j$ 都是形式 $u^* \perp z$，而关系 (81) 因此意味着$1 \leq j \leq n$ 的$e_j \wedge z = 0$。由此可见，在表达式$z = \sum_H a_H e_H$中（其中H通过$\{1, n\}$的子集的集合与$p$元素），所有系数$a_H$为零、从而$z = 0$，与假设。
+情况$p = 0$很简单，我们假设$p \geq 1$。如果$z = x_1 \wedge \cdots \wedge x_p$、公式 (68) (no. 9) 和$n = p - 1$ 则表明$u^* \perp z$ 是$x_i$ ($1 \leq i \leq p$)、从而 (81) 的线性组合。另一方面，如果与$z$关联的子空间$M_z$是维数$> p$，则考虑该子空间与$n > p$的基$(e_j)_{1 \leq j \leq n}$。从no. 11、命题 13 可以得出，对于某些$u^* \in \bigwedge^{p-1}(E^*)$，每个$e_j$ 都是形式 $u^* \perp z$，而关系 (81) 因此意味着$1 \leq j \leq n$ 的$e_j \wedge z = 0$。由此可见，在表达式$z = \sum_H a_H e_H$中（其中H通过$\{1, n\}$的子集的集合与$p$元素），所有系数$a_H$为零、从而$z = 0$，与假设。
 
-当$u^*$穿过$\bigwedge^{p-1}(E^*)$的*基*时，命题16的标准相当于写出条件(81)。特别是，假设 E 为有限维 $n$，并令 $(e_i)_{1 \leq i \leq n}$ 为 E 的基。条件 (81) 等价于条件
+命题 16 的标准相当于当 $u^*$ 穿过 $\bigwedge^{p-1}(E^*)$ 的 *基* 时写成条件 (81)。特别是，假设 E 为有限维 $n$，并令 $(e_i)_{1 \leq i \leq n}$ 为 E 的基。条件 (81) 等价于条件
 
 $$(82-(J, H))$$
 $$
 \langle e_J^*, (e_H^* \perp e_I) \wedge z \rangle = 0
 $$
-对于$\{1, n\}$的所有子集 J、H，使得$\mathrm{Card}(J) = p + 1$和$\mathrm{Card}(H) = p - 1$。现在，如果我和我'是$\{1, n\}$的两个子集和$p$元素，no. 10的公式（76）和§ 7, no. 8的乘法表（20）表明
+对于$\{1, n\}$的所有子集 J、H，使得$\mathrm{Card}(J) = p + 1$和$\mathrm{Card}(H) = p - 1$。现在，如果I和I'是$\{1, n\}$的两个子集，其中$p$元素、no. 10的公式(76)和乘法表(20) § 7, no. 8表明
 
 $$
 \langle e_J^*, \langle e_H^* \perp e_I \rangle \wedge e_{I'} \rangle = 0
@@ -1589,13 +1589,13 @@ $$
 $$
 其中$\varepsilon_{i, J, H} = \rho_{\{i\}, H} \rho_{\{i\}, I'}$；那么可以说，对于$i \in J \cap C H$，$\varepsilon_{i, J, H}$等于$+1$，如果J的元素的数（$< i$）和H的元素的数（$< i$）具有*相同的奇偶性*，并且否则$-1$。
 
-紧接着，如果我们写$z = \sum_I a_I e_I$，其中我用$p$元素遍历$\{1, n\}$的子集的集合，关系（82–（J，H））相当于关系
+紧接着，如果我们写 $z = \sum_I a_I e_I$，其中 I 穿过 $\{1, n\}$ 的子集的集合和 $p$ 元素，关系 (82–(J, H)) 等价于关系
 
 $$
 \sum_{i \in J \cup C_H} \varepsilon_{i, J, H} a_{J-\{i\}} a_{H \cup \{i\}} = 0.
 $$
 
-关系（84）称为*草人的关系*；因此，这些条件是必要且充分的（当J描述子集的集合与$p + 1$元素以及子集的H集合与$p - 1$元素描述$\{1, n\}$时） 元素$z \neq 0$/$\bigwedge^p(E)$*纯净*。
+关系（84）称为*草人的关系*；因此，这些是必要且充分的条件（当 J 用 $p + 1$ 元素描述子集的集合以及子集的 H 集合以及 $p - 1$ 元素 $\{1, n\}$） 元素$z \neq 0$/$\bigwedge^p(E)$*纯净*。
 
 注关系 (84) 不是独立的。对于例、$n = 4$ 和 $p = 2$，Grassmann 的关系约化到单个关系
 

@@ -29,16 +29,16 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: 97d8014e417f1cedb89a6ffaa7453d4661cb7738842eb664aec4ce92a564e683
+content_sha256: 2f99f1d9cd566ebb0cfbd9abc96a4aebc514544ab43656248e36f8d07f63e3ad
 translated_from: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
 translation_method: google
 source_content_sha256: 40502ef62aacbf121ac1011abdbd0936abda1c04356f56a21967a20f392ffa93
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 392cc9231255dfbb3c8d2ccea0116f3c4f8a4b7624a69d6869d52f2fdf5de4b4
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 5. 过滤后的模的平整度特性
@@ -138,7 +138,7 @@ $$
 *此外，这些条件意味着*：
 (c) *典范同态* $\gamma_M : \operatorname{gr}(A) \otimes_{\operatorname{gr}_0(A)} \operatorname{gr}_r(M) \to \operatorname{gr}(M)$ *是双射*。 *相反，如果* $\mathfrak{g}$ *幂零，(c) 意味着 (a) 和 (b)*。
 
-(a) 和 (b) 的等价由正合序列得出
+(a)和(b)的等价由正合序列推出
 $$
 0 = \operatorname{Tor}_1^A(A, M) \to \operatorname{Tor}_1^A(A/\mathfrak{g}^n, M) \to \mathfrak{g}^n \otimes_A M \to M.
 $$
@@ -152,13 +152,13 @@ $$
 \end{array}
 $$
 
-其中注 $(\mathfrak{g}^n/\mathfrak{g}^{n+1}) \otimes_A (M/\mathfrak{g}M)$ 与 $(\mathfrak{g}^n/\mathfrak{g}^{n+1}) \otimes_{A/\mathfrak{g}} (M/\mathfrak{g}M)$ 被规范地识别。这个图表可以通过$\gamma_n$的定义交换，并且它的行是精确的。如果 (b) 成立，$0$ 和 $\theta_{n+1}$ 是双射的，因此是 $\gamma_n$ 乘以余核的定义，因此 (b) 蕴涵 (c)。相反，假设 $\mathfrak{g}$ 是幂零的，让我们证明 (c) 蕴涵 (b)；我们将通过从$n$下降归纳来论证，因为$\mathfrak{g}^n \otimes_A M = \mathfrak{g}^n M = 0$为$n$足够大。假设在图表 (1) 中，$\gamma_n$ 和 $\theta_{n+1}$ 是双射；那么$\theta_n$凭借章I, § 1, no. 4，推论1至命题2。
+其中注 $(\mathfrak{g}^n/\mathfrak{g}^{n+1}) \otimes_A (M/\mathfrak{g}M)$ 被规范地等同于 $(\mathfrak{g}^n/\mathfrak{g}^{n+1}) \otimes_{A/\mathfrak{g}} (M/\mathfrak{g}M)$。这个图表可以通过$\gamma_n$的定义交换，并且它的行是精确的。如果 (b) 成立，$0$ 和 $\theta_{n+1}$ 是双射的，因此是 $\gamma_n$ 乘以余核的定义，因此 (b) 蕴涵 (c)。相反，假设 $\mathfrak{g}$ 是幂零的，让我们证明 (c) 蕴涵 (b)；我们将通过从$n$下降归纳来论证，因为$\mathfrak{g}^n \otimes_A M = \mathfrak{g}^n M = 0$为$n$足够大。假设在图表 (1) 中，$\gamma_n$ 和 $\theta_{n+1}$ 是双射；那么$\theta_n$凭借章I, § 1, no. 4，推论1至命题2。
 
 (C) *含义* (ii) $\Rightarrow$ (iv)
 
 如果 (ii) 成立，则 (ii') 也成立 *注* 1； 命题 1 那么表明$\gamma_M$ 是同构。另一方面，我们已经知道 (ii) 蕴含 (iii)，因此 $M/\mathfrak{g}M$ 是一个扁平的 $(A/\mathfrak{g})$ 模块，它完成了 (ii) 蕴含 (iv) 的证明。
 
-*注* (2)。 命题 1 表明，如果 $\mathfrak{g}$ 幂零，(iv) 蕴含 (iii)；考虑到 *注* 1，我们因此在这种情况下证明了 (i)、(ii)、(iii) 和 (iv) 是等价的。
+*注* (2)。 命题 1 表明，如果 $\mathfrak{g}$ 幂零，(iv) 蕴含 (iii)；考虑到*注* 1，我们因此在这种情况下证明了(i)、(ii)、(iii)和(iv)是等价的。
 
 (D) *等价* (iv) $\Leftrightarrow$ (v)
 
@@ -218,8 +218,8 @@ $$
 (b) $\hat{M}$ 是扁平 $A$ 模块。
 (c) $\hat{M}$ 是一个扁平的 $\hat{A}$ 模块。*
 
-由于 $B$ 与 $2$-adic 拓扑是 Zariski 环，$\hat{B}$ 是一个忠实的扁平 $B$ 模块（$§ 3$、no. 5、命题 9），$M$ 是规范同构的至$M \otimes_B \hat{B}$（$§ 3$，**4**号，定理3）；立即验证该典范同构是$\hat{M}$上的$A$模块结构的同构到源自$M$上的$M \otimes_B \hat{B}$上的$A$模块结构。 应用命题 4，章 I、$§ 3$、no. 2，其中 $R$ 替换为 $B$，$S$ 替换为 $A$，$E$ 替换为 $\hat{B}$， $F$ 通过$M$，我们看到$M$ 是一个扁平的$A$ 模，$\hat{M}$ 是一个扁平的$A$ 模是充分必要的。此外，$\hat{M}$是有限生成的$\hat{B}$模，$\mathfrak{J} \hat{B}$包含在$\mathfrak{Q} = \mathfrak{Q} \hat{B}$中，因此包含在$\hat{B}$的Jacobson根式中（$§ 3$，编号**4**，命题8）；因此 $\hat{M}$ 是关于 $\mathfrak{J} \hat{A}$ (命题 2) 的理想 Hausdorff $A$ 模。因此，根据推论，条件 (b) 和 (c) 等价于命题 3。
+由于 $B$ 和 $2$-adic 拓扑是 Zariski 环，$\hat{B}$ 是一个忠实的扁平 $B$ 模块（$§ 3$、no. 5、命题 9），$M$ 是规范同构的至$M \otimes_B \hat{B}$（$§ 3$，第**4**，定理3）；立即验证该典范同构是$\hat{M}$上的$A$模块结构的同构到源自$M$上的$M \otimes_B \hat{B}$上的$A$模块结构。 应用命题 4 个章 I、$§ 3$、no. 2，其中 $R$ 替换为 $B$，$S$ 替换为 $A$，$E$ 替换为$\hat{B}$、$F$和$M$，我们看到$M$是一个扁平的$A$模，$\hat{M}$是一个扁平的$A$模是充分必要的。此外，$\hat{M}$是有限生成的$\hat{B}$模，$\mathfrak{J} \hat{B}$包含在$\mathfrak{Q} = \mathfrak{Q} \hat{B}$中，因此包含在$\hat{B}$的Jacobson根式中（$§ 3$，编号**4**，命题8）；因此 $\hat{M}$ 是关于 $\mathfrak{J} \hat{A}$ (命题 2) 的理想 Hausdorff $A$ 模。因此，根据推论，条件 (b) 和 (c) 等价于命题 3。
 
-### 习题{#ac-iii-s5-exercises}
+### 习题 {#ac-iii-s5-exercises}
 
 § 5](exercises/s5/)参见[习题。

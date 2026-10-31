@@ -29,16 +29,16 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: 2c05da9012494b735aa387b0fcae1e086b48546e65e424d4f900da8c006db376
+content_sha256: 8dd3920dfe5e9f928ad739bf619bef9ac5ae004dc3a115c9816956f1356d99e2
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
 translation_method: google
 source_content_sha256: 89a50149d078678d4ea98a688a9a6bd071b42b62e0d62c0a7d340a9d004553ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 9274221945b8b984a9c8d33027aa6ac65899ce1a5a5e6739678e4c3198fa39ad
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 2. 素理想的提升
@@ -161,11 +161,11 @@ $pA' \subset p'$ 和 $\bar{h}(p') = p$。
 
 令 $A$ 为环、$A'$ 环包含 $A$，并从 $A$ 到代数闭域对 $A$ 和 $f$ 同态进行积分$L$。那么$f$可以从$A'$扩展到$L$延伸到同态。
 
-令$\mathfrak{p}$为$f$的核，这是一个素理想，因为$f(A) \subset L$是整环；令 $\mathfrak{p}'$ 为$A'$ 的素理想，位于 $\mathfrak{p}$ (定理 1) 之上。那么 $A/\mathfrak{p}$ 与 $A'/\mathfrak{p}'$ 的子环被规范地等同，并且 $A'/\mathfrak{p}'$ 是 $A/\mathfrak{p}$ 上的积分（$§ 1$、no. 1、命题 2）。 同态 $f$ 定义，将$A/\mathfrak{p}$的同构除以$L$的子环$f(A)$，可推广至域的同构$g$ 分数 $K$ $A/\mathfrak{p}$ 到子域 $L$。由于分数 $K'$ $A'/\mathfrak{p}'$ 的域是$K$ 上的代数，$g$ 可以扩展到$K'$ 的同构 $g'$ 到$L$ 的子域 （代数、章 V、$§ 4$、no. 2，定理 1 的推论）；如果$\pi': A' \to A'/\mathfrak{p}'$是典范同态，则$g' \circ \pi'$是同态，从$A'$到$L$延伸$f$。
+令$\mathfrak{p}$为$f$的核，这是一个素理想，因为$f(A) \subset L$是整环；令 $\mathfrak{p}'$ 为$A'$ 的素理想，位于 $\mathfrak{p}$ (定理 1) 之上。那么 $A/\mathfrak{p}$ 与 $A'/\mathfrak{p}'$ 的子环被规范地等同，并且 $A'/\mathfrak{p}'$ 是 $A/\mathfrak{p}$ 的积分（$§ 1$、no. 1、命题 2）。 同态 $f$ 定义，将$A/\mathfrak{p}$的同构除以$L$的子环$f(A)$，可推广至域的同构$g$ 分数 $K$ $A/\mathfrak{p}$ 到子域 $L$。由于分数 $K'$ $A'/\mathfrak{p}'$ 的域是$K$ 上的代数，$g$ 可以扩展到$K'$ 的同构 $g'$ 到$L$ 的子域 （代数、章 V、$§ 4$、no. 2，定理 1 的推论）；如果$\pi': A' \to A'/\mathfrak{p}'$是典范同态，则$g' \circ \pi'$是同态，从$A'$到$L$延伸$f$。
 
 #### 注 (2) {#ac-v-s2-n1-rem-2 .statement tag=04PW}
 
-令$h : A \to A'$为环同态，使得$A'$是$A$的积分；那么关联的连续映射 $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ 是闭合的。对于$A'$的每个理想$a'$，$A'/a'$是$A'$上的积分，因此也超过$A$（$§ 1$，no. 1，命题6），并且$\mathrm{Spec}(A'/a')$用闭子空间标识$V(a')$ 共 $\mathrm{Spec}(A')$；为了证明 $^a h$ 是闭的，我们看到（替换 $A'$ by $A'/a'$）足以证明$^a h$下$\mathrm{Spec}(A)'$的像是$\mathrm{Spec}(A)$的闭子集；现在从定理 1 可以得出，这个像只是 $A$ 包含理想$\mathrm{Ker}(h)$ 的素理想的集合，而这个集合被$\mathrm{Spec}(A)$ 上拓扑的定义封闭。
+令$h : A \to A'$为环同态，使得$A'$是$A$的积分；那么关联的连续映射 $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ 是闭合的。对于$A'$的每个理想$a'$，$A'/a'$是$A'$上的积分，因此也超过$A$（$§ 1$，no. 1，命题6），并且$\mathrm{Spec}(A'/a')$用闭子空间标识$V(a')$ 共 $\mathrm{Spec}(A')$；为了证明 $^a h$ 是闭的，我们看到（替换 $A'$ by $A'/a'$）足以证明$^a h$下$\mathrm{Spec}(A)'$的像是$\mathrm{Spec}(A)$的闭子集；现在从定理 1 可以得出，这个像只是$A$包含理想$\mathrm{Ker}(h)$ 的素理想的集合，而这个集合被$\mathrm{Spec}(A)$ 上拓扑的定义封闭。
 
 #### 命题 2 {#ac-v-s2-prop-2 .statement tag=04PX}
 
@@ -177,13 +177,13 @@ $$
 h(S)^{-1}A' = S^{-1}A',
 $$
 
-凭借章 II、$§ 2$、no. 3、命题 8，足以证明，如果$A'$的素理想$q'$不满足$h(S)$，那么它也不满足$S'$。现在，假设 $q' \cap h(S) = \varnothing$ 并令 $q = h^{-1}(q')$；然后$q \cap S = \varnothing$，其他字$q \subset \mathfrak{p}$。由于$q'$位于$q$上方定义，因此从推论2到命题1，存在指标$c$，使得$q' \subset p'_c$进而$q' \cap S' = \varnothing$，从而完成证明。
+凭借章II、$§ 2$、no. 3、命题 8，足以证明，如果$A'$的素理想$q'$不满足$h(S)$，那么它也不满足$S'$。现在，假设 $q' \cap h(S) = \varnothing$ 并令 $q = h^{-1}(q')$；然后$q \cap S = \varnothing$，其他字$q \subset \mathfrak{p}$。由于$q'$位于$q$上方定义，因此从推论2到命题1，存在指标$c$，使得$q' \subset p'_c$进而$q' \cap S' = \varnothing$，从而完成证明。
 
 #### 命题 3 {#ac-v-s2-prop-3 .statement tag=04PY}
 
-令$h : A \to A'$为环同态，使得$A'$是有限生成的$A$模；那么，对于$A$的每个素理想$\mathfrak{p}$，位于$\mathfrak{p}$之上的$A'$的素理想集合是有限的。
+令$h : A \to A'$为环同态，使得$A'$是有限生成的$A$模；那么，对于$A$的每个素理想$\mathfrak{p}$，位于$\mathfrak{p}$之上的$A'$素理想的集合是有限的。
 
-让$S = A - p$；通过引理 1，我们可以通过$S^{-1}A$实现替换$A$，通过$S^{-1}A'$实现$A'$（这是一个有限生成的$S^{-1}A$模块），通过$S^{-1}p$实现$p$；在其他字中，我们可以假设$A$是局部环，$p$是它的最大理想。然后（通过本号开头的注），$A$可以用$A/p$替代，$A'$可以用$A'/pA'$替代，$p$可以用$(0)$替代，因为$A'/pA' = (A/p) \otimes_A A'$是有限生成的$(A/p)$模块。这样，当$A$为域和$p = (0)$时，我们最终将问题减少为证明命题；那么$A'$是有限秩的$A$代数，因此是阿廷的，我们知道在这样的代数中只有有限的数素理想（章IV, § 2, no. 5，命题9）。
+让$S = A - p$；通过引理 1，我们可以通过 $S^{-1}A$ 实现替换 $A$，通过 $S^{-1}A'$ 实现 $A'$（这是一个有限生成的 $S^{-1}A$ 模块），通过 $S^{-1}p$ 实现$p$；在其他字中，我们可以假设$A$是局部环，$p$是它的最大理想。然后（通过本号开头的注），$A$可以用$A/p$代替，$A'$可以用$A'/pA'$代替，$p$可以用$(0)$代替，因为$A'/pA' = (A/p) \otimes_A A'$是有限生成的$(A/p)$模块。这样，当$A$为域和$p = (0)$时，我们最终将问题减少为证明命题；那么$A'$是有限秩的$A$代数，因此是阿廷的，我们知道在这样的代数中只有有限的数素理想（章IV, § 2, no. 5，命题9）。
 
 ### 2. 分解群和惯性群
 
@@ -328,7 +328,7 @@ $$
 
 令$A'$为整环、$\mathscr{G}$有限群，对$\mathscr{G}$和$p'$的不变量$A'$、$A'$环进行运算，$A'$的素理想；令$K, K^\mathbf{Z}$和$K$分别为$A, A^\mathbf{Z}$和$A'$的分数域。那么$K'$是$K$的伽罗瓦扩张和$K$包含于$K$的子域$L$，这样$p'$是$A'$位于理想$p' \cap L$之上的唯一素理想的 $A' \cap L$ 正是那些包含 $K^\mathbf{Z}$。
 
-$\mathscr{G}$ operates on $K'$ and $K$ is the field of invariants of $\mathscr{G}$ in $K'$ (§ 1, no. 9, Proposition 23 applied to $S = A - \{0\}$) and similarly $K^\mathbf{Z}$ is the field of invariants of $\mathscr{G}^\mathbf{Z}$; by definition $K'$ is therefore a Galois extension of $K$. 如果那些$\sigma \in \mathscr{G}$的$\mathscr{G}$由……组成子群留下L的不变元素，则说L包含$K^{\mathbf{Z}}$意味着$\mathscr{H}$包含在$\mathscr{G}^{\mathbf{Z}}$（代数，章）中V, § 10, no. 5, 定理 3) 并且，由于 L 是 $K'$ 中$\mathscr{H}$ 不变量的域，$A' \cap L$ 是 $A'$ 中 $\mathscr{H}$ 不变量的环；第二个断言是从命题4(i)开始的。
+$\mathscr{G}$ operates on $K'$ and $K$ is the field of invariants of $\mathscr{G}$ in $K'$ (§ 1, no. 9, Proposition 23 applied to $S = A - \{0\}$) and similarly $K^\mathbf{Z}$ is the field of invariants of $\mathscr{G}^\mathbf{Z}$; by definition $K'$ is therefore a Galois extension of $K$. If is the subgroup of $\mathscr{G}$ consisting of those $\sigma \in \mathscr{G}$ leaving invariant the elements of L, to say that L contains $K^{\mathbf{Z}}$ means that $\mathscr{H}$ is contained in $\mathscr{G}^{\mathbf{Z}}$ (Algebra, Chapter V, § 10, no. 5, Theorem 3) and, as L is the field of invariants of $\mathscr{H}$ in $K'$, $A' \cap L$ is the ring of invariants of $\mathscr{H}$ in $A'$; the second assertion then follows from Proposition 4 (i).
 
 #### 定义 4 {#ac-v-s2-def-4 .statement tag=04Q7}
 
@@ -340,7 +340,7 @@ It amounts to the same to say that, for a prime ideal $\mathfrak{p}'$ of $A'$ ly
 
 *设$A'$为整环，$\mathscr{G}$是对$A'$，$A$环进行运算的有限交换群，$\mathscr{G}$的不变量，$\mathfrak{p}$是$A$和$K$的素理想，并且分别为$A$和$A'$分数$K'$域。 那么$\mathfrak{p}$之上的$A'$的素理想都有相同的分解环$A^{\mathbf{Z}}$，分数$K^{\mathbf{Z}}$的域和$A^{\mathbf{Z}}$的最大的中间域 $K$和$K'$，其中$\mathfrak{p}$完全分解。*
 
-如果$\mathfrak{p}'$是位于$\mathfrak{p}$之上的$A'$的素理想，则$\mathscr{G}^{\mathbf{Z}}(\sigma.\mathfrak{p}') = \mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$，因为$\mathscr{G}$是可交换的(公式 (2))，因此(定理 2 (i))位于$\mathfrak{p}$之上的$A'$的所有素理想具有相同的性质分解群 $\mathscr{G}^{\mathbf{Z}}$，因此相同的分解环 $A^{\mathbf{Z}}$；他们的数是$(\mathscr{G}:\mathscr{G}^{\mathbf{Z}})$。令L为K和$K'$之间的中间域，并令$\mathscr{H}$为$\mathscr{G}$的子群，留下L的不变式元素； $\mathfrak{p}'$相对于$\mathscr{H}$的分解群为$\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H}$；由于$A' \cap L$是$A'$中$\mathscr{H}$不变量的环，位于$\mathfrak{p}' \cap L$之上的$A'$素理想的数是$(\mathscr{H}:(\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H})) = (\mathscr{H}\mathscr{G}^{\mathbf{Z}}:\mathscr{G}^{\mathbf{Z}})$（因为$\mathscr{G}$是可交换的）。因此，位于$\mathfrak{p}$之上的$A' \cap L$素理想的数是$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}})$。为了使$\mathfrak{p}$在L中完全分解，$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}}) = [L:K] = (\mathscr{G}:\mathscr{H})$是必要且充分的，并且，作为$\mathscr{H} \subset \mathscr{H}\mathscr{G}^{\mathbf{Z}}$，这相当于$\mathscr{H}\mathscr{G}^{\mathbf{Z}} = \mathscr{H}$，或者还相当于$\mathscr{G}^{\mathbf{Z}} \subset \mathscr{H}$，最后相当于$L \subset K^{\mathbf{Z}}$。
+如果$\mathfrak{p}'$是位于$\mathfrak{p}$之上的$A'$的素理想，则$\mathscr{G}^{\mathbf{Z}}(\sigma.\mathfrak{p}') = \mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$，因为$\mathscr{G}$是可交换的(公式 (2))，因此(定理 2 (i))位于$\mathfrak{p}$之上的$A'$的所有素理想具有相同的性质分解群 $\mathscr{G}^{\mathbf{Z}}$，因此相同的分解环 $A^{\mathbf{Z}}$；他们的数是$(\mathscr{G}:\mathscr{G}^{\mathbf{Z}})$。令L为K与$K'$之间的中间域，并令$\mathscr{H}$为$\mathscr{G}$的子群，留下L的不变式元素； $\mathfrak{p}'$相对于$\mathscr{H}$的分解群为$\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H}$；由于$A' \cap L$是$A'$中$\mathscr{H}$不变量的环，位于$\mathfrak{p}' \cap L$之上的$A'$素理想的数是$(\mathscr{H}:(\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H})) = (\mathscr{H}\mathscr{G}^{\mathbf{Z}}:\mathscr{G}^{\mathbf{Z}})$（因为$\mathscr{G}$是可交换的）。因此，位于$\mathfrak{p}$之上的$A' \cap L$素理想的数是$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}})$。为了使$\mathfrak{p}$在L中完全分解，$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}}) = [L:K] = (\mathscr{G}:\mathscr{H})$是必要且充分的，并且，作为$\mathscr{H} \subset \mathscr{H}\mathscr{G}^{\mathbf{Z}}$，这相当于$\mathscr{H}\mathscr{G}^{\mathbf{Z}} = \mathscr{H}$，或者还相当于$\mathscr{G}^{\mathbf{Z}} \subset \mathscr{H}$，最后相当于$L \subset K^{\mathbf{Z}}$。
 
 #### 命题 5 {#ac-v-s2-prop-5 .statement tag=04Q9}
 
@@ -386,11 +386,11 @@ $p'$ 的存在源自no. 1、定理 1。如​​果$x \in p'$，则存在$m \geq
 
 (A) 首先假设$K'$是$K$的ajinite伽罗瓦扩张。那么$A = A \cap K$，因为$A$是积分闭的，因此$A$是$\mathscr{G}$在$A'$中的不变量的环。由于 $\mathscr{G}$ 是有限的，在这种情况下，命题由 no. 2、定理 2 得出。
 
-(B) 其次假设$K'$是$K$中的任意伽罗瓦扩张。 那么$K'$就是$K$的有限伽罗瓦扩张的右有向族$(K_\alpha)_{\alpha \in I}$的并。 为了证明 (i)，请考虑位于 $p$ 之上的 $A'$ 的两个素理想 $p', q'$。 对于所有$\alpha \in I$，$p' \cap K_\alpha$和$q' \cap K_\alpha$是$A \cap K_\alpha$的两个素理想，位于$p$之上。 由于$A' \cap K_\alpha$是$K_\alpha$中$A$的整体闭包，以及$\mathscr{G}$形式群的元素的限制到$K_\alpha$-$K$的$K$自同构，因此从case可以得出(A) 存在$\sigma \in \mathscr{G}$使得$(\sigma.(p' \cap K_\alpha)) = q' \cap K_\alpha$。 令$\mathscr{E}_\alpha$为具有上述性质的$\sigma \in \mathscr{G}$的集合。 设 $\sigma \in \mathscr{G} - 8$；那么，对于所有$\tau \in \mathscr{G}$，留下$K_\alpha$的不变元素，(QT) $(\sigma.(p' \cap K_\alpha)) = \varrho.(p' \cap K_\alpha) \neq q' \cap K_\alpha$，因此$\sigma \tau \in \mathscr{G} - b$。 由此可见，$\mathscr{E}_\alpha$ 在拓扑伽罗瓦群 $\mathscr{G}$（代数、章 V、附录 11、no. 1）中是闭的，并且显然族 $(\mathscr{E}_\alpha)_{\alpha \in I}$ 是左有向的。 由于 $\mathscr{G}$ 是紧致的（如前所述，no. 2、命题 3）且 $\mathscr{E}_\alpha$ 非空，因此 $(8,)$ 族的交 $\mathscr{E}$ 非空，$\sigma.p' = q'$ 对于所有 $\sigma \in \mathscr{E}$、从而 (一).
+(B) 其次假设$K'$是$K$中的任意伽罗瓦扩张。 那么$K'$就是$K$的有限伽罗瓦扩张的右有向族$(K_\alpha)_{\alpha \in I}$的并。 为了证明 (i)，请考虑位于 $p$ 之上的 $A'$ 的两个素理想 $p', q'$。 对于所有$\alpha \in I$，$p' \cap K_\alpha$和$q' \cap K_\alpha$是$A \cap K_\alpha$的两个素理想，位于$p$之上。 由于$A' \cap K_\alpha$是$K_\alpha$中$A$的整体闭包，以及$\mathscr{G}$形式群的元素的限制到$K_\alpha$-$K$的$K$自同构，因此从case可以得出(A) 存在$\sigma \in \mathscr{G}$使得$(\sigma.(p' \cap K_\alpha)) = q' \cap K_\alpha$。 令$\mathscr{E}_\alpha$为具有上述性质的$\sigma \in \mathscr{G}$的集合。 设 $\sigma \in \mathscr{G} - 8$；那么，对于所有$\tau \in \mathscr{G}$，留下$K_\alpha$的不变元素，(QT) $(\sigma.(p' \cap K_\alpha)) = \varrho.(p' \cap K_\alpha) \neq q' \cap K_\alpha$，因此$\sigma \tau \in \mathscr{G} - b$。 由此可见，$\mathscr{E}_\alpha$ 在拓扑伽罗瓦群 $\mathscr{G}$（代数、章 V、附录 11、no. 1）中是封闭的，并且显然族 $(\mathscr{E}_\alpha)_{\alpha \in I}$ 是左有向的。 由于 $\mathscr{G}$ 是紧致的（如前所述，no. 2、命题 3）且 $\mathscr{E}_\alpha$ 非空，因此 $(8,)$ 族的交 $\mathscr{E}$ 非空，$\sigma.p' = q'$ 对于所有 $\sigma \in \mathscr{E}$、从而 (一).
 
 为了证明(ii)，注$k'$是右有向族$(k_\alpha)_{\alpha \in I}$的并，其中$k_\alpha$是$(A' \cap K_\alpha)/(p' \cap K_\alpha)$的分数的域。由于每个 $k_\alpha$ 都是 $k$ 通过 (A) 的准伽罗瓦扩展，因此 $k'$ (代数, 章 V, § 6, no. 3, 命题 8)。另一方面，令$u$为$k'$的$k$自同构，并令$\pi': A' \to A'/p'$为典范同态。由于no. 2、定理 2 应用于$A' \cap K_\alpha$，对于所有$\alpha$，存在元素$\sigma \in \mathscr{G}$的非空集合$F_\alpha$，使得对于所有$x \in A' \cap K_\alpha$，$\sigma.(p' \cap K_\alpha) = p' \cap K_\alpha$和$u(\pi'(x)) = \pi'(\sigma.x)$。从上面可以看出，$\mathscr{F}_\alpha$在$\mathscr{G}$是闭的，并且由于$(\mathscr{F}_\alpha)$是左有向集合，所以它的交$\mathscr{F}$非空。显然，对于 $\alpha \in \mathscr{F}$、$\alpha \in \mathscr{G}^\mathbf{Z}(p')$ 和 $\tilde{\sigma} = u$，在本例中完成了 (ii) 的证明。
 
-(C) *一般护理*。 $\mathscr{G}$的不变量$K_1$的域是$K$的根式扩张 (*代数*, 章 V, § 10, no. 9, 命题 14);因此，存在一个位于$p$（引理 4）之上的$A_1 = A' \cap K_1$的单一素理想$p_1$。如果$p'$和$q'$是$A'$位于$p$之上的两个素理想，那么它们位于$p_1$之上；由于$K'$是$K$的伽罗瓦扩张，并且$A' \cap K$是积分闭的（§ 1, no. 2、命题7和命题8的推论），从(B)可以得出，存在$\sigma \in \mathscr{G}$使得$(1.p' = q'$； 从而（一）。另一方面，显然分数$k$、$A_1/p_1$的域是$k$的根扩张（A是全闭的）；因为$k'$是$k$的拟伽罗瓦扩展，由(B)可知，$k'$是$k$的拟伽罗瓦扩展，$k'$的$k'$到代数闭扩张的每个$k$同构是$k_1$-同构。最后的注还表明，考虑到(B)，$k'$的每个$k$自同构都是形式$\tilde{\sigma}$，其中$\alpha \in \mathscr{G}^\mathbf{Z}(p')$，这完成了(ii)的证明。
+(C) *一般护理*。 $\mathscr{G}$的不变量$K_1$的域是$K$的根式扩张 (*代数*, 章 V, § 10, no. 9, 命题 14);因此，存在一个位于$p$（引理 4）之上的$A_1 = A' \cap K_1$的单一素理想$p_1$。如果$p'$和$q'$是$A'$位于$p$之上的两个素理想，那么它们位于$p_1$之上；由于$K'$是$K$的伽罗瓦扩张，并且$A' \cap K$是积分闭的（§ 1, no. 2、命题7和命题8的推论），从(B)可以得出，存在$\sigma \in \mathscr{G}$使得$(1.p' = q'$； 从而（一）。另一方面，显然分数$k$、$A_1/p_1$的域是$k$的根扩张（A是整闭的）；因为$k'$是$k$的拟伽罗瓦扩展，由(B)可知，$k'$是$k$的拟伽罗瓦扩展，$k'$的$k'$到代数闭扩张的每个$k$同构是$k_1$-同构。最后的注还表明，考虑到(B)，$k'$的每个$k$自同构都是形式$\tilde{\sigma}$，其中$\alpha \in \mathscr{G}^\mathbf{Z}(p')$，它完成了(ii)的证明。
 
 *注*
 
@@ -500,9 +500,9 @@ $$
 
 位于$p$之上的$A'$的素理想在$\mathscr{E}$中是最小的，因为no. 1，推论1到命题1。相反，让$q'$是$\mathscr{E}$的最小元素。如$q' \cap A \supset p$、定理 3 所示，存在$A'$ 的素理想$p'$ 位于$p$ 之上，使得$q' \supset p'$。由于$p'$包含于$pA'$，假设在$q'$上生成意味着$q' = p'$，因此$q'$位于$p$之上。
 
-\* 令$V, V'$为两个仿射代数簇，且$V'$至$V$的$f$态射，使得$f(V')$在$V$中稠密。令$A$（或$A'$）为$V$（或$V'$）上常规函数的环；被赋予$f$后，我们可以确定$A$，子环为$A'$；假设$A'$是$A$的积分。 no. 1 的定理 1 表明，对于 V 的每个不可约子簇 W，都存在 V' 的不可约子簇 W'，使得 f(W') 是 W 的稠密子集；特别是，V 的每个点都是 V' 的不可约子簇的像，这表明 f 是满射的。类似地，f 的限制到 V' 的每个不可约子品种 W' 映射 W' 到 V 的不可约子品种。推论 2 到定理 1，no. 1 表明，如果 W 和 X 是 V 的两个不可约子品种，使得 W ⊃ X 并且如果 W' 是 V 的不可约子品种V' 使得 f(W') = W，则存在包含在 W' 中的 V' 的不可约子簇 X'，并且使得 f(X') = X。
+\* 令$V, V'$为两个仿射代数簇，且$V'$至$V$的$f$态射，使得$f(V')$在$V$中稠密。设$A$（或$A'$）为$V$（或$V'$）上正则的函数的环；给定 $f$ 后，我们得到可以确定 $A$，子环为 $A'$；假设$A'$是$A$的积分。 no. 1的定理 1表明，对于V的每个不可约子簇W，都存在V'的不可约子簇W'，使得f(W')是W的稠密子集；特别是，V的每个点都是V'的不可约子簇的像，这表明f是满射的。类似地，f 的限制到 V' 的每个不可约子品种 W' 映射 W' 到 V 的不可约子品种。推论 2 到定理 1，no. 1 表明，如果 W 和 X 是 V 的两个不可约子变体，使得 W ⊃ X 并且如果 W' 是 V' 的不可约子变体，使得 f(W') = W，则存在W' 中包含 V' 的不可约子变体 X'，且 f(X') = X。
 
-如果 A 是整闭的，则 V 称为正规的。 定理 3 表明，如果 V 是正规的，如果 W 和 X 是 V 的不可约子变体，使得 W ⊃ X 并且如果 X' 是 V' 的不可约子变体，使得 f(X') = X，则存在 V' 包含于 X' 的子变体 W'，并且使得 f(W') = W。最后，推论定理 3 表明，如果 V 是正规的并且 W 是 V 的不可约子簇，则 V' 的不可约子簇 W' 使得 f(W') = W 只是 $\overline{f}(W)$ 的不可约分量。
+如果 A 是整闭的，则 V 称为正规的。 定理 3 表明，如果 V 是正规的，如果 W 和 X 是 V 的不可约子变体，使得 W ⊃ X 且如果 X' 是 V' 的不可约子变体，使得f(X') = X，则存在 V' 包含于 X' 的子品种 W'，且 f(W') = W。最后，定理 3 的推论表明，如果 V 是正规子品种且 W 是不可约子品种V 的V' 的不可约子集 W' 使得 f(W') = W 只是 $\overline{f}(W)$ 的不可约分量。
 
 ### 习题{#ac-v-s2-exercises}
 

@@ -39,10 +39,10 @@ translation_method: google
 source_content_sha256: e4eba8899949967667773f570b755a00419ebfdad78b7c56f68274079332363d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 9c9ccda1c4a552673d6bdfe9e2b2f3a9be601166ea8f38f54246c2e7b50e5008
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## 3. 诺特环上的$\mathfrak{m}$-adic 拓扑

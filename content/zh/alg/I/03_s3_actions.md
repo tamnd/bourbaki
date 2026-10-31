@@ -34,16 +34,16 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: 0ddd33cd72d3684b68b6d8b44522002a4168866a686aa17dcb576ea26ea84add
+content_sha256: db487de2f3a584ed67375d2cb44db5800ad1a6358d10221851447a23c6c93159
 translated_from: content/en/alg/I/03_s3_actions.md
 translation_method: google
 source_content_sha256: 7e8fbe4c81b4a012c8fdf0810f23488766fe66b340393425e3d9b307319fe67d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-39653cda
+translation_run: translate-zh-0c690ed9
 glossary_version: 34
 glossary_terms_sha256: 5cc4d21303bb3640435f5f4a877080e9a2256ca792981d8f02aba9e30e3e2465
-prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
+prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 ---
 
 ## § 3。 作用
@@ -72,7 +72,7 @@ prompt_sha256: 7fdd4e0b5e6067ff04498ebe670ef3580d6ba9506bf4d0c582d73af15fd73ef3
 
 (4) 设$(\Omega_i)_{i \in I}$为集合的一个家庭。对于所有$i \in I$，令$f_i : \Omega_i \to E^E$为E上$\Omega_i$的作用。令$\Omega$为$\Omega_i$的和（*集合理论*，II, § 4, no. 8）。将$\Omega$的映射$f$延伸到$E^E$，延伸$f_i$，就是E上$\Omega$的作用。这使我们能够将约化对作用的家庭的研究转化为对单个家庭的研究作用。
 
-(5) 给定E上$\Omega$的作用，其中$\perp$表示律，$\Omega$的子集$\Xi$和E的子集X，$\Xi \perp X$表示$\alpha \perp x$的集合，其中$\alpha \in \Xi$和$x \in X$；当$\Xi$由单个元素$\alpha$组成时，我们通常写$\alpha \perp X$而不是$\{\alpha\} \perp X$。与 $\alpha \in \Omega$ 映射 $X \mapsto \alpha \perp X$ 关联的映射是$\mathscr{P}(E)$上$\Omega$的作用，据说它是从给定的作用通过扩张到集合*导出的子集。
+(5) 给定E上$\Omega$的作用，$\perp$表示律，$\Omega$的子集$\Xi$和E的子集X，$\Xi \perp X$表示E的集合 $\alpha \perp x$ 与 $\alpha \in \Xi$ 和 $x \in X$；当$\Xi$由单个元素$\alpha$组成时，我们通常写$\alpha \perp X$而不是$\{\alpha\} \perp X$。与 $\alpha \in \Omega$ 映射 $X \mapsto \alpha \perp X$ 关联的映射是$\mathscr{P}(E)$上$\Omega$的作用，据说它是从给定的作用通过扩张到集合*导出的子集。
 
 (6) 设$\alpha \mapsto f_\alpha$为E上$\Omega$的作用。设g为$\Omega$中$\Omega'$的映射。那么映射$\beta \mapsto f_{g(\beta)}$就是E上$\Omega'$的作用。
 
