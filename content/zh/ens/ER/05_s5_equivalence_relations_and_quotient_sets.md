@@ -19,10 +19,10 @@ translation_method: google
 source_content_sha256: de7dfd40c6cfa021011ad6534250a579d1efe1882e81ad993bcb4259f6eb1c68
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e4ed284e58b906f07b2b0b07337d8624f58f9c7607c88ade7d8cf660a8568982
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 5. 等价关系和商集

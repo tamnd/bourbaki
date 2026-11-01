@@ -49,27 +49,27 @@ subsections:
       pdf_page: 315
 statements: 49
 exercises: 15
-content_sha256: ccf3ffe2577e066b3d2b248270312d3c27bd478d59d5a347c2c75765b66af915
+content_sha256: 572cbbb906314c6b764e000fea81b424bd8d50bf37bc72f93a7a5dee2608e1fe
 translated_from: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
 translation_method: google
 source_content_sha256: cb9870367ecf6e5e9e4940666c860653cc61494e1c8cc7bf56a66fd20a2556ef
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 297e8d88ea944c6b820dce6a9cbc8786e6363917eac9bdf7b67903f554bd1d11
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。一些类希尔伯特空间运算符
 
 在本段中，$l_E$表示希尔伯特空间E的恒等映射。两个线性映射的合成$v \circ u$通常用$vu$或$v.u$表示。
 
-### 1.伴随
+### 1. 伴随
 
 #### 命题 1 {#evt-v-s4-prop-1 .statement tag=080X}
 
-— Let E and F be two hilbertian 空间.对于每个映射 $u \in \mathscr{L}(E; F)$，都存在唯一映射 $u^* \in \mathscr{L}(F; E)$ 使得
+— 令 E 和 F 为两个希尔伯特空间。对于每个映射 $u \in \mathscr{L}(E; F)$，都存在唯一映射 $u^* \in \mathscr{L}(F; E)$ 使得
 
 $$
 \langle u(x)|y \rangle_F = \langle x|u^*(y) \rangle_E
@@ -77,13 +77,13 @@ $$
 
 对于所有 $x \in E$ 和所有 $y \in F$。从$\mathscr{L}(E, F)$到$\mathscr{L}(F; E)$的映射$u \mapsto u^*$是双射、等距和半线性的（相对于K的自同构$\xi \mapsto \overline{\xi}$）。
 
-设$\mathscr{S}(E, F)$为$E \times F$上所有连续倍半线性形式的空间，赋予范数
+令$\mathscr{S}(E, F)$为$E \times F$上所有连续倍半线性形式的空间，赋予范数
 
 $$
 \| \Phi \| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
 $$
 
-We 定义空间 $\mathscr{S}(F, E)$ similarly.我们定义了（V，p. 16，cor.2）从$\mathscr{L}(E; F)$到$\mathscr{S}(F, E)$的Banach空间同构，用$u \mapsto \Phi_u$表示，其特征为
+我们定义空间$\mathscr{S}(F, E)$类似。我们定义了（V，p. 16，cor.2）从$\mathscr{L}(E; F)$到$\mathscr{S}(F, E)$的Banach空间同构，用$u \mapsto \Phi_u$表示，其特征为
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E, \ y \in F) .
@@ -99,7 +99,7 @@ $$
 
 #### 定义 1 {#evt-v-s4-def-1 .statement tag=080Y}
 
-— Let E and F be two hilbertian 空间.对于每一个连续线性映射$u : E \to F$，公式(1)定义的从F到E的连续线性映射称为u的伴随，记为$u^*$。
+— 令 E 和 F 为两个希尔伯特空间。对于每个连续线性映射$u : E \to F$，由公式(1)定义的从F到E的连续线性映射称为u的伴随，记为$u^*$。
 
 我们有
 
@@ -119,7 +119,7 @@ $$
 \langle w(u(x))|z\rangle = \langle u(x)|w^*(z)\rangle = \langle x|u^*(w^*(z))\rangle ,
 $$
 
-hence $u^*w^*$ is the adjoint of $wu$.
+因此$u^*w^*$是$wu$的伴随物。
 
 令$u : E \to F$为双射且连续的线性映射；那么它也是双连续的（I，p. 19，cor.1）。从 (8) 和 (9) 我们立即推断 $u^*$ 是双射且双连续的，并且
 
@@ -130,7 +130,7 @@ $$
 
 #### 命题 2 {#evt-v-s4-prop-2 .statement tag=080Z}
 
-*For every $u \in \mathscr{L}(E ; F)$, we have*
+*对于每$u \in \mathscr{L}(E ; F)$，我们有*
 
 (11)
 $$
@@ -203,7 +203,7 @@ $$
 
 与伴随的定义一致。我们观察到$yx^*$是E的自同态$z \mapsto y \langle x|z \rangle$，因为$yx^*z$可以通过结合性解释为$y(x^*z)$，或者解释为$y.\langle x|z \rangle$。
 
-继狄拉克$^1$之后，在大多数数学物理著作中，E的元素用符号$|x\rangle$表示，E'的$\langle t|$表示。标量乘积写为$\langle x|y \rangle = \langle x|.|y \rangle$，乘积中的第一条禁止规则排除了符号$|$和$|<$的组合，对于例$|x\rangle|y\rangle$。
+继狄拉克$^1$之后，在大多数数学物理著作中，E的元素用符号$|x\rangle$表示，E'的$\langle t|$表示。标量乘积写为$\langle x|y \rangle = \langle x|.|y \rangle$，乘积中的第一条禁止规则排除了$|$和$|<$的组合，对于例$|x\rangle|y\rangle$。
 
 #### 命题 3 {#evt-v-s4-prop-3 .statement tag=0811}
 
@@ -238,12 +238,12 @@ $$
 $$
 \langle u(x), y^*\rangle = \langle x, (u^*(y))^*\rangle .
 $$
-但我们也有$\langle u(x), y^*\rangle = \langle x, {}^t u(y^*)\rangle$，因此我们可以表达转置的项中的伴随，
+但我们也有$\langle u(x), y^*\rangle = \langle x, {}^t u(y^*)\rangle$，因此我们可以表达项中转置的伴随，
 $$
 (u^*(y))^* = {}^t u(y^*) .
 $$
 
-### 2. 部分等距线性映射
+### 2. 部分等轴测线性映射
 
 #### 定义 2 {#evt-v-s4-def-2 .statement tag=0814}
 
@@ -314,7 +314,7 @@ $$
 
 我们已经证明了(i)、(iii)和(v)的等价。 替换 $u$ 由$u^*$，可推导出(ii)、(iv)、(vi)的等价。这证明了。 6.
 
-### 3.正常自同态
+### 3. 正常自同态
 
 #### 定义 4 {#evt-v-s4-def-4 .statement tag=0819}
 
@@ -352,11 +352,11 @@ d) ** $u^*$ *主要子空间 *相对于* $\overline{\lambda}$。
 
 很明显，$w = u - \lambda.1_E$是E的正常自同态，因此E的自同态$w, w^* = u^* - \overline{\lambda}.1_E, w^n$和$(w^*)^n$通过prop具有相同的核。 8.
 
-### 4.厄米特自同态
+### 4. 厄米特自同态
 
 #### 定义 5 {#evt-v-s4-def-5 .statement tag=081D}
 
-*设 E 为希尔伯特空间，并设*$u \in \mathscr{L}(E)$。 *如果* $u^* = u$，我们说你是厄米特。
+*设 E 为希尔伯特空间，并设*$u \in \mathscr{L}(E)$。 *我们说如果* $u^* = u$，你就是厄米特。
 
 让$\mathscr{H}(E)$表示$\mathscr{L}(E)$的所有厄米特元素中的集合；这是向量子空间除以向量空间$\mathscr{L}(E)_{[\mathbf{R}]}$超过$\mathbf{R}$，这是通过限制标量从$\mathscr{L}(E)$推导出来的。
 
@@ -399,13 +399,13 @@ $$
 $$
 让$a = \Phi(x, y)$；存在复数 $\lambda$ 且绝对值 1 使得
 
-λa = |a|。 替换 y 除以前面不等式中的λy，我们得到$|\Phi(x, y)| \leq c$。根据 (15)，可得 $\|u\| \leq c$ 和命题。 Q.E.D.
+λa = |a|。 替换 y 除以前面不等式中的λy，我们得到$|\Phi(x, y)| \leq c$。根据 (15)，可得到 $\|u\| \leq c$ 和命题。 Q.E.D.
 
 显然每个厄米特自同态都是正常的。反之：
 
 #### 命题 10 {#evt-v-s4-prop-10 .statement tag=081F}
 
-— 假设 K 为 C。让$u \in \mathscr{L}(E)$。那么E的厄米特自同态存在唯一的对$(h_1, h_2)$，使得$u = h_1 + ih_2$。 u正常的阶中，$h_1$和$h_2$通勤是充分必要的。
+— 假设 K 为 C。让$u \in \mathscr{L}(E)$。那么E的厄米特自同态存在唯一的对$(h_1, h_2)$，使得$u = h_1 + ih_2$。 u正常的阶中，$h_1$与$h_2$通勤是充分必要的。
 
 对于，关系 « $u = h_1 + ih_2,\ h_1^* = h_1,\ h_2^* = h_2$ » 相当于
 
@@ -417,11 +417,11 @@ $$
 
 #### 命题 11 {#evt-v-s4-prop-11 .statement tag=081G}
 
-— 让$p \in \mathscr{L}(E)$。在阶中，p 是从 E 到 E 的闭向量子空间的正投影，$p^2 = p = p^*$ 是充分必要的。
+— 让$p \in \mathscr{L}(E)$。在阶中，p 是从 E 到 E 的闭向量子空间的正射投影，$p^2 = p = p^*$ 是充分必要的。
 
-假设$p^2 = p$。设 M 为 p 的像，N 为核。 E 是 M 和 N 的拓扑直和。在阶中，p 是正交投影，M 与 N 正交是充分必要的，也就是说，对于 E 中的所有 x、y，我们有 $\langle p(x)|y - p(y) \rangle = 0$。后者关系等价于 $p = p^*p$，并且意味着： $p^* = (p^*p)^* = p^*p = p$；相反，如果$p^* = p$，我们就有$p = p^2 = p^*p$。
+假设$p^2 = p$。设 M 为 p 的像，N 为核。 E 是 M 和 N 的拓扑直和。在阶中，p 是正交投影，M 与 N 正交是充分必要的，也就是说，对于 E 中的所有 x、y，我们有 $\langle p(x)|y - p(y) \rangle = 0$。后者关系相当于 $p = p^*p$，并且意味着： $p^* = (p^*p)^* = p^*p = p$；相反，如果$p^* = p$，我们就有$p = p^2 = p^*p$。
 
-### 5.积极自同态
+### 5. 积极自同态
 
 #### 定义 6 {#evt-v-s4-def-6 .statement tag=081H}
 
@@ -498,7 +498,7 @@ $$
 \end{align*}
 $$
 
-对于每个$x \in E$，从$\mathbf{R}$到映射$u \mapsto \Psi_u(x)$都是递增并且有界，因此相对于$\Sigma$有极限。由前面的公式、极限
+对于每个$x \in E$，从$\mathbf{R}$到映射$u \mapsto \Psi_u(x)$是递增并且有界，因此相对于$\Sigma$有极限。由前面的公式、极限
 $$
 \lim_{u,\Sigma} \Phi_u(x, y) = \Phi(x, y)
 $$
@@ -514,7 +514,7 @@ $$
 $$
 f_2 - f_1 = \Phi_{v_2} + \Phi_{v_1} - 2\Phi,
 $$
-我们结论知道$x \mapsto \Phi(x, x)$是$E$上的连续函数，并且通过公式（19）和（20），$\Phi$在$E \times E$上连续。因此存在$\mathscr{H}(E)$的(V,p. 16,cor.2)元素$u_0$使得$\Phi = \Phi_{u_0}$。显然满足公式(18)，因而$u_0$是$\mathscr{H}(E)$中$\mathscr{F}$的上界。这就证明了(i)。
+我们结论知道$x \mapsto \Phi(x, x)$是$E$上的连续函数，并且通过公式（19）和（20），$\Phi$在$E \times E$上连续。因而，存在$\mathscr{H}(E)$的(V，p. 16，cor.2)元素$u_0$使得$\Phi = \Phi_{u_0}$。显然满足公式(18)，因而$u_0$是$\mathscr{H}(E)$中$\mathscr{F}$的上界。这就证明了(i)。
 
 我们已经，到构造
 $$
@@ -528,15 +528,15 @@ $$
 &\leq \|u_0 - v_1\|^3 \|x\|^2 \langle x|v(x)\rangle,
 \end{align*}
 $$
-从 $\|v\| \leq \|u_0 - v_1\|$ 到 V、p. 44，道具。 9. 然后通过(21)我们得到所有$x \in E$的$\lim_{u,\Sigma} \|(u_0 - u)(x)\| = 0$；这就证明了断言(ii)。
+从 $\|v\| \leq \|u_0 - v_1\|$ 到 V、p. 44，道具。 9. 然后通过(21)我们得到所有$x \in E$的$\lim_{u,\Sigma} \|(u_0 - u)(x)\| = 0$；这就证明了断言 (ii)。
 
-特别是，道具。 13可以应用于递增并且以元素和$\mathscr{H}(E)$为界的序列$(u_n)_{n \in \mathbf{N}}$的情况。那么存在$\mathscr{H}(E)$的元素$v$，其特征为
+特别是，道具。 13可以应用于递增和$\mathscr{H}(E)$的元素有界序列$(u_n)_{n \in \mathbf{N}}$的情况。那么存在$\mathscr{H}(E)$的元素$v$，其特征为
 $$
 \langle x|v(x)\rangle = \lim_{n \to \infty} \langle x|u_n(x)\rangle = \sup_{n \in \mathbf{N}} \langle x|u_n(x)\rangle \quad (x \in E),
 $$
 我们为所有 $x \in E$ 提供了 $v(x) = \lim_{n \to \infty} u_n(x)$。另外，$v$是$\mathscr{H}(E)$中的$u_n$的集合上界。
 
-### 6. 自同态的踪迹
+### 6. 自同态的痕迹
 
 令 E 和 F 为两个希尔伯特空间。根据V、p. 40的约定，我们设$ba^*$，对于E中的$a$和F中的$b$，表示从E到F的连续线性映射$x \mapsto b \langle a|x \rangle$。
 
@@ -703,9 +703,9 @@ $$
 
 #### 注 2 {#evt-v-s4-n6-rem-2 .statement tag=081S}
 
-— 令$E$为希尔伯特空间，它是希尔伯特子空间的族$(E_i)_{i \in I}$的希尔伯特和。令$u$为$\mathscr{L}(E)$的元素，使得$u(E_i) \subset E_i$对于所有$i \in I$；令$u_i$为$\mathscr{L}(E_i)$的元素，其中重合与$u$在$E_i$上。那么当$u$为正时$\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$，或者属于到$\mathscr{L}^1(E)$；这个关系从V的公式（25）得出，p. 50应用于$E$的正交基，它是每个$E_i$的正交基的并。
+— 令$E$为希尔伯特空间，它是希尔伯特子空间的族$(E_i)_{i \in I}$的希尔伯特和。令$u$为$\mathscr{L}(E)$的元素，使得$u(E_i) \subset E_i$对于所有$i \in I$；令$u_i$为$\mathscr{L}(E_i)$的元素，其中重合与$u$在$E_i$上。那么当$u$为正时$\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$，或者属于到$\mathscr{L}^1(E)$；这个关系源自V的公式(25)，p. 50应用于$E$的正交基，它是每个$E_i$的正交基的并。
 
-### 7.希尔伯特-施密特映射
+### 7. 希尔伯特-施密特映射
 
 #### 定义 9 {#evt-v-s4-def-9 .statement tag=081T}
 
@@ -719,13 +719,13 @@ $$
 \|u\|_2^2 = \sup_{x_1, \ldots, x_m} \sum_{i=1}^m \|u(x_i)\|^2
 $$
 
-其中$(x_1, \ldots, x_m)$的范围超过$E$中有限正交序列的集合。特别是，将公式 (32) 中的 $m = 1$ 取入，我们有
+其中$(x_1, \ldots, x_m)$的范围超过$E$中有限正交序列的集合。特别是，在公式 (32) 中取 $m = 1$，我们有
 
 $$
 \|u\| \leq \|u\|_2 \quad (u \in \mathscr{L}(E; F)) .
 $$
 
-令 $(e_i)_{i \in I}$ 为 $E$ 的标准正交基，且 $(f_j)_{j \in J}$ 为 $F$ 的标准正交基。通过 V、p. 50 的公式 (25) 和 Parseval 的关系 (V、p. 22)，我们有
+令 $(e_i)_{i \in I}$ 为 $E$ 的标准正交基，并且 $(f_j)_{j \in J}$ 为 $F$ 的标准正交基。通过V、p. 50的公式(25)和帕塞瓦尔的关系(V、p. 22)，我们有
 
 $$
 \|u\|_2^2 = \sum_{i \in I} \|u(e_i)\|^2 = \sum_{i,j} |\langle f_j | u(e_i) \rangle|^2 .
@@ -805,7 +805,7 @@ $$
 $$
 通过线性和连续性，当$u = y_1 x_1^*$和$v = x_2 y_2^*$（E中$x_1, x_2$，F中$y_1, y_2$）时，足以验证这个公式；但$uv$是映射$y \mapsto y_1 \langle x_1 | x_2 \rangle \langle y_2 | y \rangle$和$vu$映射$x \mapsto x_2 \langle y_2 | y_1 \rangle \langle x_1 | x \rangle$，并且(41)由V、p. 48的公式(22)得出。
 
-因而，如果$u_1, u_2$是$\mathscr{L}^2(E; F)$的两个元素，则在希尔伯特空间$\mathscr{L}^2(F; E)$中，
+因而，如果$u_1, u_2$是$\mathscr{L}^2(E; F)$的两个元素，则在希尔伯特空间$\mathscr{L}^2(F; E)$中，我们有，
 $$
 \langle u_1^* | u_2^* \rangle = \operatorname{Tr}(u_1 u_2^*) = \operatorname{Tr}(u_2^* u_1) = \langle u_2 | u_1 \rangle = \overline{\langle u_1 | u_2 \rangle} ;
 $$
@@ -815,7 +815,7 @@ $$
 
 假设$K = \mathbf{R}$。我们留给读者验证公式（40）和（41）再次有效，并证明$\mathscr{L}^2(E; F)$可以通过双线性形式$(u, v) \mapsto \operatorname{Tr}(uv)$与$\mathscr{L}^2(F; E)$的对偶进行识别。
 
-### 8.希尔伯特-施密特映射的对角化
+### 8. 希尔伯特-施密特映射的对角化
 
 #### 定理 2 {#evt-v-s4-thm-2 .statement tag=081Z}
 
@@ -839,7 +839,7 @@ $$
 
 *设$E_1$为E的闭向量子空间，在$u^*u$下稳定。如果$E_1 \neq \{0\}$，则$E_1 \cap P$中存在范数 1 的向量。*
 
-由于 B 是弱紧致的，因而 B 的弱闭子空间 $B \cap E_1$ 也是如此。因而，$B \cap E_1$ 中存在 (GT, IV, § 6, No. 1, th. 1) 点 $x_0$，使得对于所有 $x \in B \cap E_1$ 都有 $Q(x_0) \geq Q(x)$。如果 $Q(x_0) = 0$，我们就有 $Q(x) = 0$，因此所有 $x \in B \cap E_1$ 都有 $u(x) = 0$。因而，在这种情况下，$E_1 \subset P$ 和引理 5 如下。
+由于 B 是弱紧的，所以 B 的弱闭子空间 $B \cap E_1$ 也是弱紧的。因而，在 $B \cap E_1$ 中存在 (GT, IV, § 6, No. 1, th. 1) 点 $x_0$，使得对于所有 $x \in B \cap E_1$ 都有 $Q(x_0) \geq Q(x)$。如果 $Q(x_0) = 0$，我们就有 $Q(x) = 0$，因此所有 $x \in B \cap E_1$ 都有 $u(x) = 0$。因而，在这种情况下，$E_1 \subset P$ 和引理 5 如下。
 
 现在假设$Q(x_0) > 0$，然​​后$x_0 \neq 0$。从向量$\|x_0\|^{-1} \cdot x_0$属于到$B \cap E_1$，我们有
 $$
@@ -875,7 +875,7 @@ $$
 \langle e_j|v(e_i)\rangle = \langle u(e_j)|u(e_i)\rangle = 0
 $$
 
-因此 $v(e_i)$ 与 $e_i$ 成比例，且为形式 $\lambda_i e_i$，其中 $\lambda_i = \langle e_i | v(e_i) \rangle$；然后
+因此 $v(e_i)$ 与 $e_i$ 成比例，且为形式 $\lambda_i e_i$，其中 $\lambda_i = \langle e_i | v(e_i) \rangle$；那么
 
 $$
 \lambda_i \geqslant 0 \quad \text{and} \quad \sum_{i \in I} \lambda_i = \operatorname{Tr}(v) < + \infty .
@@ -901,7 +901,7 @@ $$
 
 #### 注 {#evt-v-s4-n8-rem-1 .statement tag=0825}
 
-— 与记号的 th。 2、令J为所有$i \in I$中的集合，使得$u(e_i) \neq 0$。对于所有$i \in J$，令$\lambda_i = \| u(e_i) \|$和$f_i = \lambda_i^{-1} u(e_i)$。那么$(e_i)_{i \in J}$（或$(f_i)_{i \in J}$）是u的初始（或最终）子空间的正交基，我们对所有$i \in J$有$u(e_i) = \lambda_i f_i$，并且$\sum_{i \in J} \lambda_i^2 = \| u \|_2^2$是有限的。
+— 与记号的。 2、令J为所有$i \in I$中的集合，使得$u(e_i) \neq 0$。对于所有$i \in J$，令$\lambda_i = \| u(e_i) \|$和$f_i = \lambda_i^{-1} u(e_i)$。那么$(e_i)_{i \in J}$（或$(f_i)_{i \in J}$）是u的初始（或最终）子空间的正交基，我们对所有$i \in J$有$u(e_i) = \lambda_i f_i$，并且$\sum_{i \in J} \lambda_i^2 = \| u \|_2^2$是有限的。
 
 ### 9. 二次方形式相对于另一个的迹
 
@@ -913,7 +913,7 @@ $$
 
 对于所有$x \in E$。
 
-我们将 Q 相对于 H* 的迹称为 *trace，并写成 $\operatorname{Tr}(Q/H)$，一个实正数数，无论是否有限，定义如下：
+我们将 Q 相对于 H* 的迹称为 *trace，并写为 $\operatorname{Tr}(Q/H)$，一个实正数数，无论是否有限，定义如下：
 
 *a)* 如果存在$x \in E$、$H(x) = 0$和$Q(x) \neq 0$，我们放入$\operatorname{Tr}(Q/H) = + \infty$。
 
@@ -921,9 +921,9 @@ $$
 
 #### 注 {#evt-v-s4-n9-rem-1 .statement tag=0826}
 
-— 1) 对于 E 的每个子空间 F，让 $Q_F$ 表示 Q 到 F 的限制和 H 的 $H_F$。我们有 $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ 和 $\operatorname{Tr}(Q/H)$ 是所有数的集合的上界 $\operatorname{Tr}(Q_F/H_F)$，其中$F$涵盖$E$的所有有限维向量子空间族。
+— 1) 对于 E 的每个子空间 F，令 $Q_F$ 表示 Q 到 F 的限制和 H 的 $H_F$。我们有 $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ 和 $\operatorname{Tr}(Q/H)$ 是所有数的集合的上界 $\operatorname{Tr}(Q_F/H_F)$，其中$F$涵盖$E$的所有有限维向量子空间族。
 
-2) 令$E_1$为实向量空间，$Q_1$和$H_1$在$E_1$上的两个正二次形式和$\pi : E \to E_1$为满射线性映射。如果$Q = Q_1 \circ \pi$和$H = H_1 \circ \pi$，则$\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$。
+2) 令$E_1$为实向量空间、$Q_1$和$H_1$关于$E_1$的两个正二次形式和$\pi : E \to E_1$满射线性映射。如果$Q = Q_1 \circ \pi$和$H = H_1 \circ \pi$，则$\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$。
 
 #### 命题 15 {#evt-v-s4-prop-15 .statement tag=0827}
 
@@ -975,7 +975,7 @@ $$
 \text{Tr}(Q/H) = \text{Tr}(h^{-1} q) = \text{Tr}(qh^{-1}) .
 $$
 
-如果基 $(e_1, ..., e_n)$ 对于 H 是正交的，则$h$ 是阶 $n$ 的单位矩阵，我们得到
+如果基 $(e_1, ..., e_n)$ 对于 H 是正交的，则 $h$ 是阶 $n$ 的单位矩阵，我们得到
 
 $$
 \text{Tr}(Q/H) = \text{Tr}(q) = \sum_{i=1}^n Q(e_i) ;
@@ -983,7 +983,7 @@ $$
 
 这样在这种情况下我们就得到公式 (44)。
 
-现在假设二次形式 H 不可逆。令N为H的核，并令$\pi$为从E到E/N的典范映射。 E/N 上存在可逆二次方程形式 $H_1$，使得 $H = H_1 \circ \pi$。令 $(e_1, ..., e_n)$ 为 E 的元素的序列，使得序列 $(\pi(e_1), ..., \pi(e_m))$ 为 E/N 的基，它是 $H_1$ 的正交。令 $(e_1, ..., e_n)$ 为 N 的基。然后 $(e_1, ..., e_n)$ 为 E 的基，我们有
+现在假设二次形式 H 不可逆。令N为H的核，并令$\pi$为从E到E/N的典范映射。 E/N 上存在可逆二次方程形式 $H_1$，使得 $H = H_1 \circ \pi$。令 $(e_1, ..., e_n)$ 为 E 的元素的序列，使得序列 $(\pi(e_1), ..., \pi(e_m))$ 为 E/N 的基，它是 $H_1$ 的正交。令 $(e_1, ..., e_n)$ 为 N 的基。那么 $(e_1, ..., e_n)$ 为 E 的基，我们有
 
 $$
 H(\xi_1 e_1 + \cdots + \xi_n e_n) = \xi_1^2 + \cdots + \xi_m^2
@@ -991,7 +991,7 @@ $$
 
 对于所有实数 $\xi_1, ..., \xi_n$。
 
-假设对于所有$x \in E$，关系$H(x) = 0$意味着$Q(x) = 0$；在其他字中，假设E/N上存在二次形式$Q_1$使得$Q = Q_1 \circ \pi$。通过注 2 和道具。 15、我们有，
+假设对于所有$x \in E$，关系$H(x) = 0$蕴涵$Q(x) = 0$；在其他字中，假设E/N上存在二次形式$Q_1$使得$Q = Q_1 \circ \pi$。通过注 2 和道具。 15、我们有，
 
 $$
 \text{Tr}(Q/H) = Q(e_1) + \cdots + Q(e_m) .
@@ -999,6 +999,6 @@ $$
 
 习题
 
-### 习题{#evt-v-s4-exercises}
+### 习题 {#evt-v-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

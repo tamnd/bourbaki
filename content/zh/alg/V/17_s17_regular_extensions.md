@@ -38,16 +38,16 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 358a68ae37a73edfa59f33ed07d0a9f3ff489e463b3421d57cf1a3ac7c3f3efa
+content_sha256: 37c8b483cb90b36c263145cfeb12c03a534b6d449859c4750511af6f9bc97f9a
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
 translation_method: google
 source_content_sha256: c3f351f5e813a393d1fb207cf121c6dd2bc4e8303d881b9cf4b097b0c621cb53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a493264b83e29dc553be440d579517d8af8057f10b75f0ec8ddb0c34ee6e3e4b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 17。常规扩张
@@ -72,7 +72,7 @@ $$
 
 B) 现在假设 $E$ 在扩张域 $F$ 中是相对代数封闭的，并用 $p$ 表示 $E$ 的特征指数。令$u$为$F(X)$的元素，它是$E(X)$的代数。存在整数 $f \geq 0$，使得 $v = u^{p^f}$ 是 $E(X)$ 上的可分代数（V，p. 44，命题 13）。根据 A)，我们有 $v \in E(X)$。 形式 $P/Q$ 中存在唯一的 $u$ 表示，且$F[X]$ 和 $Q$ 摩尼式中存在互质多项式 $P$ 和 $Q$；我们有一个类似的分解$v = P_1/Q_1$，其中$P_1$和$Q_1$在$E[X]$和$Q_1$莫尼克中相对素数。由此可知$P_1/Q_1 = P^{p^f}/Q^{p^f}$；多项式 $P^{p^f}$ 和 $Q^{p^f}$ 在 $F[X]$ 中互质（IV、p. 13，Cor. 6），如 $P_1$ 和 $Q_1$，并且 $Q^{p^f}$ 是单调的。由此可见$P^{p^f} = P_1 \in E[X]$和$Q^{p^f} = Q_1 \in E[X]$。因此，$P$和$Q$的系数是$E$上的$p$根，因此属于到$E$，因为$E$在$F$中是相对代数封闭的。因此我们有$P \in E[X]$、$Q \in E[X]$，最后是$u \in E(X)$。这证明$E(X)$在$F(X)$中是相对代数封闭的。
 
-C) 我们使用定理的记号 1. 由于 $K_1$ 是 $K$ 的可分代数扩张，$K(X_i)_{i \in I}$ 的扩张 $K_1(X_i)_{i \in I}$ 是代数且可分的 (V, p. 39，提案 6）。此外，$L$的每个元素在$K$、属于到$K$上都是代数且可分的，（V、p. 44，命题13，a））。设$J$为$I$的有限子集；通过 $J$ 基数上的直接的归纳，我们从 A) 中推出$L(X_i)_{i \in I}$ 的每个元素，它是代数且可在 $K(X_i)_{i \in I}$、属于到 $K_1(X_i)_{i \in J}$ 上分离。最后令$u$为$L(X_i)_{i \in I}$的元素，在$K(X_i)_{i \in I}$上代数且可分；存在$I$的有限子集$J$使得$u$属于到$L(X_i)_{i \in I}$并且是代数且在$K(X_i)_{i \in J}$上可分；据所说，$u$属于到$K_1(X_i)_{i \in J}$，以及更不必说到$K_1(X_i)_{i \in I}$。
+C) 我们使用定理的记号 1. 由于 $K_1$ 是 $K$ 的可分代数扩张，$K(X_i)_{i \in I}$ 的扩张 $K_1(X_i)_{i \in I}$ 是代数且可分的 (V, p. 39，提案 6）。此外，$L$的每个元素在$K$、属于到$K$上都是代数且可分的，（V、p. 44，命题13，a））。设$J$为$I$的有限子集；通过 $J$ 基数上的直接的归纳，我们从 A) 中推出$L(X_i)_{i \in I}$ 的每个元素，它是代数且可在 $K(X_i)_{i \in I}$、属于到 $K_1(X_i)_{i \in J}$ 上分离。最后令$u$为$L(X_i)_{i \in I}$的元素，在$K(X_i)_{i \in I}$上代数且可分；存在 $I$ 的有限子集 $J$，使得 $u$ 属于到 $L(X_i)_{i \in I}$ 并且是代数且在 $K(X_i)_{i \in J}$ 上可分；据所说，$u$属于到$K_1(X_i)_{i \in J}$，以及更不必说到$K_1(X_i)_{i \in I}$。
 
 因此，我们从 A) 推出$K_1(X_i)_{i \in I}$ 是$L(X_i)_{i \in I}$ 中$K(X_i)_{i \in I}$ 的相对可分闭包；同样地，从 B) 可以得出，$K_2(X_i)_{i \in I}$ 是$L(X_i)_{i \in I}$ 中$K(X_i)_{i \in I}$ 的相对代数闭包。
 
@@ -80,7 +80,7 @@ C) 我们使用定理的记号 1. 由于 $K_1$ 是 $K$ 的可分代数扩张，$
 
 #### 命题 1 {#alg-v-s17-prop-1 .statement tag=06VQ}
 
-— 令 $\Omega$ 为域 $K$ 的扩张，并令 $L, M$ 为 $\Omega$ 的两个子扩展，它们在代数上是不相交的在 $K$ 上。假设$L$中$K$的相对可分代数闭包等于$K$^1。令$\varphi$为$L \otimes_K M$到$\Omega$映射$x \otimes y$到$xy$的$K$代数同态，对于$x \in L, y \in M$，令$p$为核 $\varphi$。那么$p$就是$L \otimes_K M$的幂零元集合，这是$L \otimes_K M$的最小的素理想。
+— 令 $\Omega$ 为域 $K$ 的扩张，并令 $L, M$ 为 $\Omega$ 的两个子扩展，它们在代数上是不相交的超过 $K$。假设$L$中$K$的相对可分代数闭包等于$K$^1。令$\varphi$为$L \otimes_K M$到$\Omega$映射$x \otimes y$到$xy$的$K$代数同态，对于$x \in L, y \in M$，令$p$为核 $\varphi$。那么$p$就是$L \otimes_K M$的幂零元集合，这是$L \otimes_K M$的最小的素理想。
 
 如果有必要的话，在替换 $\Omega$ 到代数闭包上，我们可以假设 $\Omega$ 是代数闭的。令$B$是$M$对$K$的超越基，$N$是$\Omega$和$N_r$（或$N_s$）集合中$K(B)$的相对代数闭包 $N$ 中的元素在 $K(B)$ 上可分离（分别为 p 根式）。我们注认为$M$是$K(B)$的代数，因此$N$是$\Omega$中$M$的相对代数闭包。
 
@@ -129,7 +129,7 @@ $$
 
 我们可以假设L和M在代数上是K的扩张$\Omega$的不相交的子扩展（V，p. 116，Th.5）；则根据命题 1，p 是素理想 (V, p. 139)。此外，如果L或M可通过K分离，则$L \otimes_K M$是环减去定义的可分扩张（V，p. 119，Def.1）；所以$p = 0$和$L \otimes_K M$是整环，因为p是素数。
 
-### 3.常规代数
+### 3. 普通代数
 
 #### 定义 1 {#alg-v-s17-def-1 .statement tag=06VS}
 
@@ -139,7 +139,7 @@ $$
 
 #### 命题 2 {#alg-v-s17-prop-2 .statement tag=06VT}
 
-— 令$A$和$B$等于代数除以域$K$。如果 $A$ 是整环并且 $B$ 是正则，则 $A \otimes_K B$ 是整环。
+— 令$A$和$B$为代数除以域$K$。如果 $A$ 是整环并且 $B$ 是正则，则 $A \otimes_K B$ 是整环。
 
 设$L$为$A$的分数中的域。由于$B$是正则$K$代数，$L \otimes_K B$是整环，因此$A \otimes_K B$也是，因为它与$L \otimes_K B$的子环同构。
 
@@ -148,13 +148,13 @@ $$
 — 令 $K$ 为域。
 a) 正则 $K$ 代数的每个子代数本身都是正则的。
 b) 两个正则 $K$ 代数的张量积又是正则的。
-c) 设$A$为$K$代数，且$K'$扩张为$K$。为了使 $A$ 是正则的，从 $A$ 通过扩张标量导出的 $K'$-代数 $A_{(K')}$ 应该是正则的，这是必要且充分的。
+c) 令 $A$ 为 $K$ 代数，且 $K'$ 扩张为 $K$。为了使 $A$ 是正则的，从 $A$ 通过扩张标量导出的 $K'$-代数 $A_{(K')}$ 应该是正则的，这是必要且充分的。
 
-a) (resp. c)) 的证明与第 3 号提案的部分 a) (resp. d)) 相同，V、p. 119、之后替换处处都通过 « 整环 » 和 « 减少了环 »可通过“常规代数”分离代数 »。让我们证明b)。
+a) (resp. c)) 的证明与第 3 号提案的部分 a) (resp. d)) 相同，V、p. 119、之后替换处处都通过 « 整环 » 减少了环 »和“常规代数”的“可分离代数”。让我们证明b)。
 
 令 $A$ 和 $B$ 为两个正则 $K$ 代数。令 $L$ 为 $K$ 的扩张。由于$A$是正则，环$L \otimes_K A$是整环。根据命题 2，环 $(L \otimes_K A) \otimes_K B$ 是整环，因为 $B$ 是正则。最后，环$L \otimes_K (A \otimes_K B)$与$(L \otimes_K A) \otimes_K B$同构的，因此是整环。这表明 $A \otimes_K B$ 是正则 $K$ 代数。
 
-### 4.常规扩张
+### 4. 常规扩张
 
 #### 定义 2 {#alg-v-s17-def-2 .statement tag=06VV}
 
@@ -162,7 +162,7 @@ a) (resp. c)) 的证明与第 3 号提案的部分 a) (resp. d)) 相同，V、p.
 
 #### 命题 4 {#alg-v-s17-prop-4 .statement tag=06VW}
 
-— 令 $A$ 为代数超过域 $K$，即整环，并且 $E$ 为分数的域。令$L$为$K$中的扩张；如果环$L \otimes_K A$是整环，$L \otimes_K E$也是如此。
+— 令$A$为代数除以域$K$，即整环，并且$E$为分数的域。设$L$为$K$中的扩张；如果环$L \otimes_K A$是整环，$L \otimes_K E$也是如此。
 
 如果$L \otimes_K A$是整环，则可以将其嵌入到分数$F$的域中。 将$x \in L$写成$u(x) = x \otimes 1$，并用$v$表示$E$到$F$的$K$同态，其中$A$的扩展单同态$y \mapsto 1 \otimes y$到$F$。 根据第 6 条命题 (V, p. 14) 子域 $u(L)$ 和 $v(E)$ 的$F$ 是线性不相交的超过$K$；因此，$L \otimes_K E$到$F$（V，p. 12）的同态$u * v$是单射的。 这表明 $L \otimes_K E$ 为整环。
 
@@ -202,7 +202,7 @@ b) 如果L和M是K的正则扩张，则$L \otimes_K M$的分数的域也是如�
 
 断言 a) 由命题 3, c) (V, p. 141) 和 Cor. 得出。 V、p. 141； 断言 b) 由命题 3, b) (V, p. 141) 和 Cor. 得出。 V、p. 141。
 
-### 5.常规扩张的刻画
+### 5. 常规扩张的刻画
 
 #### 命题 9 {#alg-v-s17-prop-9 .statement tag=06W2}
 
@@ -246,7 +246,7 @@ $d) \Rightarrow a)$：在d)的假设下，我们有$L \cap \bar{K} = K$，因此
 
 由科. 2、A和B是正则K-代数，只需应用命题2（V，p. 141）即可。
 
-### 6. 复合应用扩张
+### 6. 应用于复合材料扩张
 
 #### 命题 10 {#alg-v-s17-prop-10 .statement tag=06W6}
 
@@ -264,7 +264,7 @@ $d) \Rightarrow a)$：在d)的假设下，我们有$L \cap \bar{K} = K$，因此
 
 #### 推论 2 {#alg-v-s17-prop-10-cor-2 .statement tag=06W8}
 
-*令$\Omega$为域$K$和$L, M$两个$\Omega$的子扩展的扩张。假设$L$在$K$上可分，并且$M$中$K$的相对值可分闭包等于$K$。如果$L$和$M$在代数上是不相交的超过$K$，那么它们是线性不相交的超过$K$。*
+*令$\Omega$为域$K$和$L, M$两个$\Omega$的子扩展的扩张。假设$L$在$K$上可分，并且$M$中$K$的相对可分闭包等于$K$。如果$L$和$M$在代数上是不相交的超过$K$，那么它们是线性不相交的超过$K$。*
 
 根据第 10 号提案，注环 $L \otimes_K M$ 是整环（V，p. 140，Cor.）。
 
@@ -272,4 +272,4 @@ $d) \Rightarrow a)$：在d)的假设下，我们有$L \cap \bar{K} = K$，因此
 
 ### 习题 {#alg-v-s17-exercises}
 
-§ 17](exercises/s17/)参见[习题。
+参见[习题为 § 17](exercises/s17/)。

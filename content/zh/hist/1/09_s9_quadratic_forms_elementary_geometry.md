@@ -11,19 +11,19 @@ pdf_pages: 0128-0141
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c35caba6f172ece0b29c8c66ec9a4ff60b50091c7ec1a2fb1bbf2f9778745f91
+content_sha256: 44d5527532a27186a6fcfa7b9da278ba2c5022b51e85b014457b90242d7f19aa
 translated_from: content/en/hist/1/09_s9_quadratic_forms_elementary_geometry.md
 translation_method: google
 source_content_sha256: 3aef357b6f97b9fcb0b59c83dd3242fcc38d806c6b52436ba9ab2c799e4471c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 04282b8e0bd71d35dfaf32c9b333e1b17ec5e37d45243d775368d5eb60cce217
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 9.二次形式；基本几何。
+## 9. 二次形式；基本几何。
 
 二次形式的理论，从其现代角度来看，很难追溯到十八世纪下半叶的之前，而且，正如我们将看到的，它的发展主要是为了满足算术、数学分析和力学的需要。 但这个理论的基础概念实际上是从“欧氏”几何学开始就出现的，它们构成了几何学的框架。 因此，回顾它的历史，就不能不讲（至少以概括的方式）自古以来“初等几何”的发展。 Of course, we will only be able to link up with the evolution of a few general ideas, and the reader must not expect to find here precise information on the history of such or such a particular theorem, about which it will suffice to refer back to specialised historical or didactic works.$^1$ It goes without saying also, when we speak below of various possible interpretations of the same theorem in various algebraic or geometric languages, that we do not intend at all to say that these “translations” have at all times been as familiar as they are today; quite on the contrary, it is the principal goal of this Note to show how, very gradually, mathematicians have become conscious of these relationships between questions often of very different aspect; we will also have to show how, doing this, they have been led to put some coherence in the mass of theorems from geometry bequeathed by the ancients, and finally to try to delimit exactly what should be understood by “geometry”.
 

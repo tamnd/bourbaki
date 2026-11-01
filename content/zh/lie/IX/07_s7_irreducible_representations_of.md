@@ -37,25 +37,25 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: bfefc7376832dcb696fb4986fb7c4073c8d30367fb8c5b4f8fdb78df7a0bddb7
+content_sha256: d428196567e1e4c5cb4ef3b9b90cb400453c2b569d83b7e26a501985a1ded496
 translated_from: content/en/lie/IX/07_s7_irreducible_representations_of.md
 translation_method: google
 source_content_sha256: 375df81cdee840da6e0b458ac2f5db5264d7654fce07a342d3dce277a3f78519
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 426f6d8ab8ec6ef21236b8d9b0ba8f6fb4ef6480eb9c4d5c92aa39f0bfbb70c2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。 不可约表示已连接紧李群
 
-我们保留§6中的记号。 G 的表示是从 G 到群 $\mathbf{G}\mathbf{L}(V)$ 的连续（因此是解析的）同态，其中 V 是有限维复数向量空间。 G 的每个表示都是半单 (§1, no. 1)。
+我们保留 §6 中的记号。 G 的表示是从 G 到群 $\mathbf{G}\mathbf{L}(V)$ 的连续（因此是解析的）同态，其中 V 是有限维复数向量空间。 G 的每个表示都是半单 (§1, no. 1)。
 
 $\mathfrak{t}($§5, no. 2）的选择室C），并放入$\Gamma (T)_{++}=\overline{C}\cap \Gamma (T)$。
 
-### 1.优势特征
+### 1. 优势特征
 
 用X(T)的元素$\lambda$的$X_+$集合表示，使得$\langle \lambda , x\rangle  \geq 0$对于所有$x\in \Gamma (T)_{++}$，即线性形式$\delta (\lambda ) :\mathfrak{t}_{\mathbf{C}}\rightarrow \mathbf{C}$映射室C $\mathfrak{t}$至$i\mathbf{R}_+$。
 
@@ -69,7 +69,7 @@ $\mathfrak{t}($§5, no. 2）的选择室C），并放入$\Gamma (T)_{++}=\overli
 
 (ii) 对于所有$w\in W$，使得$w\not= 1,\lambda -w(\lambda )$是线性组合，且具有简单根的正系数（分别是正系数，并非全部零）；
 
-(iii) 对于每个正数根$\alpha$，$\langle \lambda , K_{\alpha}\rangle  \geq 0$（或$>0$）；
+(iii) 对于每个正根 $\alpha$，$\langle \lambda , K_{\alpha}\rangle  \geq 0$（或$>0$）；
 
 (iv) 对于每个简单的根 $\alpha$，$\langle \lambda , K_{\alpha}\rangle  \geq 0$（或 $>0$）。
 
@@ -85,9 +85,9 @@ $$
 2\rho =\sum_{\alpha\in R_+}\alpha
 $$
 
-对于每个简单的根 $\alpha$，我们都有 $\langle \rho , K_{\alpha}\rangle = 1$（第 VI, §1, no. 10 章，提案 29）。如果 G 是单连通的，$\rho$ 是基本显性权的和。
+对于每个简单的根 $\alpha$，我们都有$\langle \rho , K_{\alpha}\rangle = 1$（第 VI, §1, no. 10 章，第 29 条命题）。如果 G 是单连通的，$\rho$ 是基本显性权的和。
 
-### 2. 最高权的不可约表示
+### 2. 最高权不可约表示
 
 关联到从 $\mathbf{C}$-李代数 $\mathfrak{g}_{\mathbf{C}}$ 到 End(V) 的任何表示 $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ 同态 $L(\tau )_{(\mathbf{C})}$，在实向量空间基础上延伸 $\mathfrak{g}$ 的线性表示 $L(\tau )$ V（第III, §3, no. 11章）。根据§4, no. 3、映射 $\delta$的第7条规定，从X(T)到Hom$_{\mathbf{C}}(\mathfrak{t}_{\mathbf{C}},\mathbf{C}) =\mathfrak{t}^*_{\mathbf{C}}$ 诱导双射，从$\tau$的权集合相对于T到集合 of 权 of $L(\tau )_{(\mathbf{C})}$ relative to 嘉当子代数 $\mathfrak{t}_{\mathbf{C}}$ of $\mathfrak{g}_{\mathbf{C}}$.
 
@@ -173,9 +173,9 @@ $\Phi (\{\lambda ,-w_0(\lambda )\}) = E'_{\lambda}$如果$\lambda =-w_0(\lambda 
 
 其中$E'_{\lambda}$是G下$E_{\lambda}$不变量的$\mathbf{R}$结构。
 
-### 3.环R(G)
+### 3. 环 R(G)
 
-令 R(G) 为 G 的表示的环（连续，在有限维复数向量空间上）（代数，第 VIII, §10, no. 6）。如果$\tau$是G的表示，则用$[\tau ]$表示其在R(G)中的类；如果$\tau$和$\tau '$是G的两个表示，我们有，通过定义，
+令 R(G) 为 G 的表示的环（连续，在有限维复数向量空间上）（代数，第 VIII, §10, no. 6）。如果$\tau$是G的表示，则用$[\tau ]$表示其在R(G)中的类；如果$\tau$和$\tau '$是G的两个表示，则通过定义，我们有，
 
 $$
 [\tau ] + [\tau '] = [\tau \oplus \tau ']
@@ -185,13 +185,13 @@ $$
 [\tau ][\tau '] = [\tau \otimes \tau ']
 $$
 
-由于G的每一个表示都是半单，所以$\mathbf{Z}$模R(G)是自由的，并承认G的不可约表示、类、集合可以被Th与$X_{++}$识别为基、集合。 1. 映射$\tau  \rightarrow L(\tau )_{(\mathbf{C})}$诱导同态$l$从环R(G)到$\mathfrak{g}_{\mathbf{C}}$表示的环$\mathscr{R}(\mathfrak{g}_{\mathbf{C}})$（第VIII, §7, no. 6章）。
+由于G的每一个表示都是半单，所以$\mathbf{Z}$模R(G)是自由的，承认G的不可约表示类基集合，集合可以通过Th与$X_{++}$识别。 1. 映射$\tau  \rightarrow L(\tau )_{(\mathbf{C})}$诱导同态$l$从环R(G)到$\mathfrak{g}_{\mathbf{C}}$表示的环$\mathscr{R}(\mathfrak{g}_{\mathbf{C}})$（第VIII, §7, no. 6章）。
 
-设$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为G的表示；我们考虑$\mathbf{C}$向量空间V的渐变$(V_{\lambda}(T))_{\lambda\in X(T)}$。用Ch(V)表示，或者用Ch($\tau$)表示，分级的向量空间V(VIII, §7, no. 7)中的特征标；如果 $(e^{\lambda})_{\lambda\in X(T)}$ 表示代数 $\mathbf{Z}[X(T)] =\mathbf{Z}^{(X(T))}$ 中的典范基，则通过定义，我们有，
+令$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为G的表示；我们考虑$\mathbf{C}$向量空间V的渐变$(V_{\lambda}(T))_{\lambda\in X(T)}$。用Ch(V)表示，或者用Ch($\tau$)表示，分级的向量空间V(第VIII, §7, no. 7)中的特征标；如果 $(e^{\lambda})_{\lambda\in X(T)}$ 表示代数 $\mathbf{Z}[X(T)] =\mathbf{Z}^{(X(T))}$ 中的典范基，则通过定义，我们有，
 
 Ch($\tau$)$=\sum_{\lambda\in X(T)}$(暗淡$V_{\lambda}(T)$)$e^{\lambda}$。
 
-我们以同样的方式定义（前述）环的同态，也用Ch表示，从R(G)到$\mathbf{Z}[X(T)]$。如果 G 是半单，我们有交换律图表
+我们以同样的方式计算定义（见上文）环的同态，也用Ch表示，从R(G)到$\mathbf{Z}[X(T)]$。如果 G 是半单，我们有交换律图表
 
 R(G) $\longrightarrow^{Ch}\mathbf{Z}[X(T)]$
 
@@ -205,13 +205,13 @@ $$
 
 其中P表示$R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$的权和$\widetilde{\delta}$同态由$\delta$引起的群。
 
-Weyl 群 W 在群 X(T) 运行自同构，因此在环 $\mathbf{Z}[X(T)]$ 运行。根据§4, no. 3的命题5，Ch的像包含在W下元素不变量的子环$\mathbf{Z}[X(T)]^W$由……组成中。
+Weyl 群 W 在群 X(T) 上由自同构运营，因此在环 $\mathbf{Z}[X(T)]$ 运营。根据§4, no. 3的命题5，Ch的像包含在W下元素不变量的子环$\mathbf{Z}[X(T)]^W$由……组成中。
 
 #### 命题 2 {#lie-ix-s7-prop-2 .statement tag=01G8}
 
 同态 Ch 诱导同构从 R(G) 到 $Z[X(T)]^W$。
 
-对于$\lambda \in X_{++}$，用最高权$\lambda$的不可约表示的R(G)中的$[\lambda ]$类表示。由于$([\lambda ])_{\lambda\in X_{++}}$族是$\mathbf{Z}$模R(G)的基，因此只需证明以下断言：
+对于$\lambda \in X_{++}$，用最高权$\lambda$的不可约表示的R(G)中的$[\lambda ]$类表示。由于族$([\lambda ])_{\lambda\in X_{++}}$是$\mathbf{Z}$模R(G)的基，因此只需证明以下断言：
 
 系列 (Ch[$\lambda ]$)$_{\lambda\in X_{++}}$ 是 $\mathbf{Z}$ 模块 $\mathbf{Z}[X(T)]^W$ 的基。
 
@@ -221,9 +221,9 @@ Weyl 群 W 在群 X(T) 运行自同构，因此在环 $\mathbf{Z}[X(T)]$ 运行�
 
 对于每个$\lambda \in X_{++}$，令$C_{\lambda}$为$\mathbf{Z}[X(T)]^W$中的元素，具有唯一的最大值项$e^{\lambda}$。那么家庭$(C_{\lambda})_{\lambda\in X_{++}}$就是$\mathbf{Z}[X(T)]^W$的基。
 
-证明与第1章的第3条命题相同。 VI, §3, no. 4、替换 A 乘以 $\mathbf{Z}, P$ 乘以 X(T) 以及 $P\cap \overline{C}$ 乘以 $X_{++}$。
+证明与第 1 章的命题 3 相同。 VI, §3, no. 4、替换 A 乘以 $\mathbf{Z}, P$ 乘以 X(T) 以及 $P\cap \overline{C}$ 乘以 $X_{++}$。
 
-令$\Theta (G)$（或$\Theta (T)$）为G（或T）上连续代表函数的$\mathbf{C}$-代数，令$Z\Theta (G)$（或$\Theta (T)^W$）为中心的子代数由……组成（或W-不变式） 函数。 限制映射$\Theta (G)\rightarrow \Theta (T)$诱导同态共环$r: Z\Theta (G)\rightarrow \Theta (T)^W$。另一方面，与表示$\tau$关联的映射其特征标（即函数$g \rightarrow$Tr$\tau (g)$）$\mathbf{C}$-代数的扩展到同态 Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$，根据光谱理论，是同构。类似地，$\mathbf{C}$代数$\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T)的典范嵌入$X(T)\rightarrow \Theta (T)$诱导同构，其中诱导同构$\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$。 图表
+令$\Theta (G)$（或$\Theta (T)$）为G（或T）上连续代表函数的$\mathbf{C}$-代数，令$Z\Theta (G)$（或$\Theta (T)^W$）为中心的子代数由……组成（或W-不变式） 函数。 限制映射$\Theta (G)\rightarrow \Theta (T)$诱导同态共环$r: Z\Theta (G)\rightarrow \Theta (T)^W$。另一方面，与表示$\tau$关联的映射其特征标（即函数$g \rightarrow$Tr$\tau (g)$）$\mathbf{C}$-代数的扩展到同态 Tr$:\mathbf{C}\otimes_{\mathbf{Z}}R(G)\rightarrow Z\Theta (G)$，根据光谱理论，是同构。类似地，$\mathbf{C}$-代数$\iota :\mathbf{C}[X(T)]\rightarrow \Theta$(T)的典范嵌入$X(T)\rightarrow \Theta (T)$诱导同构，其中诱导同构$\iota :\mathbf{C}[X(T)]^W\rightarrow \Theta (T)^W$。 图表
 
 $$
 \mathbf{C}\otimes_{\mathbf{Z}}R(G)\overset{1\otimes Ch}{\longrightarrow}\mathbf{C}[X(T)]^W
@@ -243,13 +243,13 @@ Tr $\tau (t) =\sum_{\lambda\in X(T)}$(暗淡$V_{\lambda}(T)$)$\lambda (t) =\iota
 
 即$(r\circ$ Tr)[$\tau ] = (\iota \circ$ Ch)[$\tau ]$。
 
-现在我们可以从命题推出以下结果。
+我们现在可以从命题推出以下结果。
 
 #### 推论 {#lie-ix-s7-n3-cor-1 .statement tag=01GA}
 
 限制映射 $r: Z\Theta (G)\rightarrow \Theta (T)^W$ 是双射。
 
-### 4.特征标公式
+### 4. 特征标公式
 
 在这个数中，我们乘法写出群X(T)，并将其元素视为T上的复值函数。我们假设$X(T)\otimes \mathbf{Q}$属于的元素$\rho$为X(T)。
 
@@ -311,7 +311,7 @@ $$
 
 函数 $J(\rho ).\chi_{\lambda}|T$ 在 W 下是反对不变的，并且是线性组合，整数 X(T) 的元素系数。因此，由章。 VI, §3, no. 3，第 1 条，它可以写成 $\sum_\mu a_\mu J(\mu\rho )$，其中 $\mu$ 属于到 $X_{++}$，$a_\mu$ 是整数，几乎都是有限的，其中许多是零；从$\int_G|\chi_{\lambda}(g)|^2dg= 1$开始
 
-(Spectral Theories), it follows from Prop. 3 and Lemma 4 that $\sum_\mu(a_\mu)^2= 1$; thus, the $a_\mu$ are all zero, except one which must be equal to 1 or $-1$. 但$\chi_{\alpha}|T$中$\lambda$的系数等于1（Th.1），因此$J(\rho ).\chi_{\lambda}|T$中$\lambda \rho$的系数等于1（第1章）。 VI, §3, no. 3, 注 2)，这意味着$a_{\lambda \rho}= 1$，因此定理。
+(Spectral Theories), it follows from Prop. 3 and Lemma 4 that $\sum_\mu(a_\mu)^2= 1$; thus, the $a_\mu$ are all zero, except one which must be equal to 1 or $-1$. 但$\chi_{\alpha}|T$中$\lambda$的系数等于1（Th.1），因此$J(\rho ).\chi_{\lambda}|T$中$\lambda \rho$的系数等于1（VI, §3, no. 3，注2），这意味着$a_{\lambda \rho}= 1$，因此定理。
 
 #### 推论 1 {#lie-ix-s7-thm-2-cor-1 .statement tag=01GE}
 
@@ -391,7 +391,7 @@ $$
 
 我们可以推导出Th。 2 来自类似的无穷小叙述（第 VIII, §9, no. 1 章，第 1 章）； Th 也是如此。下一个数中的 3 个（与上文中的 Th. 2 no. 2 类似）。
 
-### 5. 次数的不可约表示
+### 5. 次数不可约表示
 
 现在我们回到群 X(T) 的加法记号，并且不再假设 $\rho$ 属于到 X(T)。
 
@@ -461,7 +461,7 @@ $$
 
 a）sup$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|^N<\infty$，其中$N = 1/$2（暗淡$G-$暗淡T）。
 
-b) 如果 G 是半单，则 inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$。
+b) 如果 G 为半单，则 inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$。
 
 a) 对于所有$\alpha \in R_+$，存在$A_{\alpha}>0$和$|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$，因此存在$d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$。
 
@@ -481,9 +481,9 @@ $d(\lambda )\geq$支持$_i|\langle \lambda +\rho , N_i\rangle |$。
 
 假设G为半单；设$d$为整数。 维数$\leq d$G表示类集合是有限的。
 
-科。 $1b)$ 意味着 $X_{++}$ 的元素 $\lambda$ 的集合 $X_d$，使得 $d(\lambda )\leq d$ 是有限的。对于$X_d$中的所有$\lambda$，令$V_{\lambda}$为最高权$\lambda$中的不可约表示； 维数 $\leq d$ 的每个表示都同构于直和 $\bigoplus_{\lambda\in X_d}V^{n_{\lambda}}_{\lambda}$，与 $n_{\lambda}\leq d$，因此是推论。
+科。 $1b)$ 意味着 $X_{++}$ 的元素 $\lambda$ 的集合 $X_d$，使得 $d(\lambda )\leq d$ 是有限的。对于$X_d$中的所有$\lambda$，令$V_{\lambda}$为最高权$\lambda$中的不可约表示； 维数 $\leq d$ 的每个表示都同构于直和 $\bigoplus_{\lambda\in X_d}V^{n_{\lambda}}_{\lambda}$，与 $n_{\lambda}\leq d$，因此有推论。
 
-### 6.卡西米尔元素
+### 6. 卡西米尔元素
 
 根据§1, no. 3的命题3，$\mathfrak{g}$上存在负对称双线性形式，在Ad(G)下分离且不变（若G为半单，则可取$\mathfrak{g}$的Killing形式，对于例）。令F为形式。回想一下（第 I, §3, no. 7 章），与 F 关联的卡西米尔元素是包络代数 $U(\mathfrak{g})$ 的中心的元素 $\Gamma$，这样，对于任何基 $(e_i)$ $\mathfrak{g}$满足$F(e_i, e_j) =-\delta_{ij}$，我们有$\Gamma =-\sum e^2_i$。
 
@@ -551,4 +551,4 @@ $$
 
 ### 习题 {#lie-ix-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

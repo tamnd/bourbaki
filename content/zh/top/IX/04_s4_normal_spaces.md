@@ -32,41 +32,41 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 30
-content_sha256: 0165e4667db8f9a93c68baeb19d7ab1df42230bcf266d6ba10bed08e15eaeffc
+content_sha256: 93dc5777d1ce87bda79cf473f7267f17bdaeb6cbff66962c2c299f78baf071e1
 translated_from: content/en/top/IX/04_s4_normal_spaces.md
 translation_method: google
 source_content_sha256: 9659cfc8beeaee4a3f7b73b432335f6ffd60e7f82a5d2d879d79d7ffdfda75df
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0c6d7f665532a0f5527d9f993c4aa2e37e1088fd4ca3b43196a3d09ef7107d7c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4.正常空间
+## 4. 正常空间
 
 ### 1. 定义正常空间
 
-可均匀化空间 ($§ 1$, no. 5) 的公理 ($O_{IV}$) 可以用以下形式表示： *给定任何闭集合* $A$ *和任何点* $x \in \mathbf{C}A$，*有一个连续* $X$ *到* $[0, 1]$ *的映射 *等于* 0 *在* $x$ *并且等于* 1 *在* $A$的每个点；这个性质可以再次用说来表达，在可统一的空间中，我们可以通过连续实值函数来分离点和封闭的集合（不是包含点）。
+可均匀化空间 ($§ 1$, no. 5) 的公理 ($O_{IV}$) 可以用以下形式表示： *给定任何闭集合* $A$ *和任何点* $x \in \mathbf{C}A$，*有一个连续* $X$ *到* $[0, 1]$ *的映射 *等于* 0 *在* $x$ *并且等于* 1 *在* $A$的每点；这个性质可以再次用说来表达，在可统一的空间中，我们可以通过连续实值函数来分离点和封闭的集合（不是包含点）。
 
-现在我们要研究空间，其中可以用相同的方式通过连续实值函数来分离两个闭不相交的闭集合：
+现在我们要研究空间，其中可以用相同的方式将两个不相交的封闭的集合通过连续实值函数分开：
 
 #### 定义 1 {#top-ix-s4-def-1 .statement tag=0C5F}
 
-*如果拓扑空间 $X$ 是豪斯多夫且满足以下公理，则称其为正规：*
+*如果拓扑空间$X$是豪斯多夫且满足以下公理，则称其为正规：*
 
 $(O_v)$ *如果$A$和$B$是$X$的任意两个不相交的闭子集，则存在$X$到$[0, 1]$的连续映射，每次都等于$0$ 点/$A$，每点/$B$前往$1$。*
 
 显然每个正态空间都是完全正则的；但也有完全规则的空间，但不规则（参见习题 9、10、13、26 和 § 5、习题 15 和 16）。
 
-Axiom $(O_v)$ 的叙述与 $(O_{IV})$ 一样，涉及实直线 $\mathbf{R}$ 作为辅助集合。但有条件等价于$(O_v)$，其中不涉及辅助集合：
+Axiom $(O_v)$ 的叙述与 $(O_{IV})$ 一样，涉及实直线 $\mathbf{R}$ 作为辅助集合。但有条件等价于 $(O_v)$，其中不涉及辅助集合：
 
 #### 定理 1（尤里索恩）{#top-ix-s4-thm-1 .statement tag=0C5G}
 
 *公理$(O_v)$等价于：*
 
-$(O'_v)$ *如果$A$和$B$是$X$的任意两个不相交的闭子集，则存在两个不相交的开集合$U, V$使得$A \subset U$和$B \subset V$.*
+$(O'_v)$ *如果$A$和$B$是$X$中任意两个不相交的闭子集，则存在两个不相交的开集合$U, V$使得$A \subset U$和$B \subset V$.*
 
 紧接着，$(O_v)$蕴含$(O'_v)$，因为如果$f$是$X$到$[0, 1]$的连续映射，等于$A$上的$0$和$B$上的$1$，则开分别为集合 $\overline{f}^{-1}([0, 1/2[)$ 和 $\overline{f}^{-1}(]1/2, 1])$ 包含 $A$ 和 $B$，且不相交。
 
@@ -142,7 +142,7 @@ $$
 
 最后我们记录两个正常的空间的*乘积*不一定是正常的（参见习题9和§ 5、习题16）。
 
-### 2.连续实值函数的扩张
+### 2. 连续实值函数的扩张
 
 令$X$和$Y$为两个拓扑空间，并令$A \neq X$为$X$的*封闭*子集。如果$f$是$A$到$Y$的连续映射，则并不总是可以*扩展*$f$到整个$X$到$Y$的连续映射。当$Y = \overline{\mathbf{R}}$时，这种扩张的可能性由以下定理决定：
 
@@ -254,19 +254,19 @@ f_i(x) = \frac{g_i(x)}{\sum_{i \in I} g_i(x)}
 $$
 对于所有$i \in I$和所有$x \in X$，则$f_i$形式是单位元的连续划分，从属于覆盖$(A_i)$。
 
-#### 推论 {#top-ix-s4-n3-cor-1 .statement tag=0C5U}
+#### 推论{#top-ix-s4-n3-cor-1 .statement tag=0C5U}
 
-*给定任何局部有限开覆盖* $(A_i)$ *闭合集合* $F$ *在正常空间* $X$，*存在一个连续实值族* $(f_i)$ *连续实值函数* $\geq 0$ * $X$，*从属于覆盖物*$(A_i)_{i \in I}$*并且使得*$\sum_{i \in I} f_i(x) = 1$*对于所有*$x \in F$*和*$\sum_{i \in I} f_i(x) \leq 1$*对于所有*$x \in X$。
+*给定任何局部有限开覆盖* $(A_i)$ *闭合集合* $F$ *在正常空间* $X$，*存在一个族* $(f_i)$ *连续实值函数* $\geq 0$ *在* $X$，*从属到覆盖物*$(A_i)_{i \in I}$*并且使得*$\sum_{i \in I} f_i(x) = 1$*对于所有*$x \in F$*和*$\sum_{i \in I} f_i(x) \leq 1$*对于所有*$x \in X$。
 
-$CF$和$A_i$的集合由……组成族是$X$的局部有限开覆盖​​。因此，有一个连续的单位元划分从属于这个覆盖，$(f_i)_{i \in I}$ 的家庭由……组成，使得每个$i \in I$有$\operatorname{Supp}(f_i) \subset A_i$，以及函数$g$，其支持包含在$F$的补码中。家庭$(f_i)$显然满足要求的条件。
+$CF$和$A_i$的集合由……组成族是$X$的局部有限开覆盖​​。因此，有一个连续的单位元的划分从属于这个覆盖，一个家庭$(f_i)_{i \in I}$的由……组成使得每个$i \in I$有$\operatorname{Supp}(f_i) \subset A_i$，以及函数$g$，其支持包含在$F$的补数中。家庭$(f_i)$显然满足要求的条件。
 
-### 4.超紧凑型空间
+### 4. 超紧凑型空间
 
-我们记得（章I, § 9, no. 10），如果拓扑空间$X$是豪斯多夫且$X$的每个开覆盖都具有局部有限开细化，则称其为“仿紧”。
+我们回想一下（章I, § 9, no. 10），如果拓扑空间$X$是豪斯多夫且$X$的每个开覆盖都具有局部有限开细化，则称其为“仿紧”。
 
 #### 命题 4 {#top-ix-s4-prop-4 .statement tag=0C5V}
 
-*每个 paracompact 空间都是正常的。*
+*每个副紧致空间都是正常的。*
 
 这是以下引理中的推论：
 
@@ -284,7 +284,7 @@ $CF$和$A_i$的集合由……组成族是$X$的局部有限开覆盖​​。�
 
 *给定副紧致空间$X$的任何开放覆盖$(A_i)_{i \in I}$，$x$上存在单位元$(f_i)_{i \in I}$的连续划分，从属于覆盖$(A_i)$。*
 
-令$(U_\lambda)_{\lambda \in L}$为$X$的局部有限开覆盖​​，它细化了覆盖$(A_i)_{i \in I}$；那么就有映射 $\varphi : L \to I$，这样每个$\lambda \in L$就有 $U_\lambda \subset A_{\varphi(\lambda)}$。到命题 3 和 4，存在从属于$(U_\lambda)$ 的连续划分单位元 $(g_\lambda)_{\lambda \in L}$。对于每个 $i \in I$，放入
+令$(U_\lambda)_{\lambda \in L}$为$X$的局部有限开覆盖​​，它细化了覆盖$(A_i)_{i \in I}$；那么就有映射$\varphi : L \to I$，这样每个$\lambda \in L$就有$U_\lambda \subset A_{\varphi(\lambda)}$。到命题 3 和 4，存在从属于 $(U_\lambda)$ 的连续划分单位元 $(g_\lambda)_{\lambda \in L}$。对于每个 $i \in I$，放入
 
 $$
 f_i = \sum_{\varphi(\lambda) = i} g_\lambda;
@@ -296,17 +296,17 @@ $$
 1 = \sum_{\lambda \in L} g_\lambda(x) = \sum_{i \in I} \left( \sum_{\varphi(\lambda) = i} g_\lambda(x) \right) = \sum_{i \in I} f_i(x),
 $$
 
-证明已完成。
+证明就完成了。
 
 #### 推论 2 {#top-ix-s4-lem-2-cor-2 .statement tag=0C5Y}
 
 *如果 F 是仿紧致空间 X 的闭子集，则 X 包含中 F 的每个邻域都是 F 的闭（因此是仿紧致）邻域。*
 
-到章 I, § 9, no. 10 的命题 16 时，X 的任何闭子空间都是仿紧的；因此，推论来自命题 4 和 Axiom $(O_v')$。
+到章I, § 9, no. 10的命题16，X的任何闭子空间都是仿紧的；因此，推论来自命题 4 和 Axiom $(O_v')$。
 
-### 5. Metrizable 空间的准紧性
+### 5. Metrizable 空间的仿紧性
 
-以下定理锐化 no. 1 的命题 2 的结果：
+以下定理锐化命题 2 of no. 1 的结果：
 
 #### 定理 4 {#top-ix-s4-thm-4 .statement tag=0C5Z}
 
@@ -348,8 +348,8 @@ $$
 
 *令 $X$ 为 Hausdorff 空间，这样，给定 $X$ 的任何开覆盖 $\mathfrak{R}$，都存在 $X$ 的局部有限闭覆盖 $\mathscr{F}$，它细化了 $\mathfrak{R}$。那么 $X$ 是仿紧的。*
 
-令$\mathfrak{R}$为$X$的任意开覆盖。我们必须证明$X$存在局部有限开覆盖​​，它细化了$\mathfrak{R}$。令 $\mathscr{A}$ 为 $X$ 的局部有限覆盖（封闭或非封闭），它细化了 $\mathfrak{R}$；对于每个$x \in X$，令$W_x$是$x$的开邻域，它仅​​满足$\mathscr{A}$的集合的有限数。 集合$W_x$的族$\mathscr{W}$是$X$的开覆盖。令 $\mathscr{F}$ 为 $X$ 的局部有限*封闭*覆盖，它细化了 $\mathscr{W}$。对于每个$A \in \mathscr{A}$，令$U_A$为$\mathfrak{R}$的集合，其中包含$A$，并令$C_A$为集合$F \in \mathscr{F}$的并，使得$A \cap F = \varnothing$。由于$\mathscr{F}$是局部有限的，$C_A$在$X$（章I, § 1, no. 6，命题4）中是闭的，因此$A' = U_A \cap (X - C_A)$是开的。由于我们有$A \cap C_A = \varnothing$和$A \subset U_A$，因此$A \subset A'$以及集合$A'$的族$\mathscr{A}'$，因为$A$贯穿$\mathscr{A}$，是$X$的开覆盖；此外，从$A' \subset U_A \in \mathfrak{R}$开始，$\mathscr{A}'$精炼了$\mathfrak{R}$。仍有待证明 $\mathscr{A}'$ 是*局部有限*。对于每个$x \in X$，$x$有邻域$T$，仅满足$\mathscr{F}$的集合的有限数，例如$F_1, \ldots, F_n$。由于每个$F_i$都包含在形式$W_{y_i}$的集合中，因此定义$F_i$仅满足$\mathscr{A}$的集合的有限数；让 $A_{ij}$ ($1 \leq j \leq s_i$) 成为集合。如果$A$是$\mathscr{A}$的集合，而不是$A_{ij}$（$1 \leq i \leq n,\ 1 \leq j \leq s_i$）之一，则从定义可以得出，$A'$不满足$F_i$中的任何一个，因此不满足$T \subset \bigcup_{i=1}^n F_i$。这样就完成了引理 6 和定理 4 的证明。
+令$\mathfrak{R}$为$X$的任意开覆盖。我们必须证明$X$存在局部有限开覆盖​​，它细化了$\mathfrak{R}$。令 $\mathscr{A}$ 为 $X$ 的局部有限覆盖（封闭或非封闭），它细化了 $\mathfrak{R}$；对于每个$x \in X$，令$W_x$是$x$的开邻域，它仅满足$\mathscr{A}$的集合的有限数。 集合$W_x$的族$\mathscr{W}$是$X$的开覆盖。令 $\mathscr{F}$ 为 $X$ 的局部有限*封闭*覆盖，它细化了 $\mathscr{W}$。对于每个$A \in \mathscr{A}$，令$U_A$为$\mathfrak{R}$的集合，其中包含$A$，并让$C_A$为集合$F \in \mathscr{F}$的并，使得$A \cap F = \varnothing$。由于$\mathscr{F}$是局部有限的，$C_A$在$X$（章I, § 1, no. 6，命题4）中是闭的，因此$A' = U_A \cap (X - C_A)$是开的。由于我们有$A \cap C_A = \varnothing$和$A \subset U_A$，因此$A \subset A'$以及集合$A'$的族$\mathscr{A}'$，因为$A$贯穿$\mathscr{A}$，是$X$的开覆盖；此外，从$A' \subset U_A \in \mathfrak{R}$开始，$\mathscr{A}'$精炼了$\mathfrak{R}$。仍有待证明 $\mathscr{A}'$ 是*局部有限*。对于每个$x \in X$，$x$有邻域$T$，仅满足$\mathscr{F}$的集合的有限数，例如$F_1, \ldots, F_n$。由于每个$F_i$都包含在形式$W_{y_i}$的集合中，因此定义$F_i$仅满足$\mathscr{A}$的集合的有限数；令 $A_{ij}$ ($1 \leq j \leq s_i$) 为集合。如果$A$是$\mathscr{A}$的集合，而不是$A_{ij}$（$1 \leq i \leq n,\ 1 \leq j \leq s_i$）之一，则从定义可以得出，$A'$不满足$F_i$中的任何一个，因此不满足$T \subset \bigcup_{i=1}^n F_i$。这样就完成了引理 6 和定理 4 的证明。
 
 ### 习题{#top-ix-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

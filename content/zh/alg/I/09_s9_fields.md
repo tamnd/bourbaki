@@ -30,34 +30,34 @@ subsections:
       pdf_page: 141
 statements: 17
 exercises: 21
-content_sha256: 2836a17c387ff868e38dbd0e8db94af345851e99314b0c44f13123ac7830ecd3
+content_sha256: 4ce7375d869c5fb7920dd8e5a262bb763b4be20733df2a2d1c293300bcd1aa24
 translated_from: content/en/alg/I/09_s9_fields.md
 translation_method: google
 source_content_sha256: 622420ff5a6f546db44026f2ba8fbe2960bad17825f8f2a2110f89182676f0dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c476a0d370c209a17e22ffa0dc5bae95af1106293b372ecf591a42f60a53cdc7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。 域
 
-### 1.域
+### 1. 域
 
 #### 定义 1 {#alg-i-s9-def-1 .statement tag=05IF}
 
 *如果环$K$不只由$0$组成，并且$K$的每个非零元素都是可逆的，则称为域。*
 
-域 $K$ 的非零元素与乘法的集合是群，正好是环 $K$ (§ 8, no. 1) 的乘法群 $K^*$。 域中的逆环是域。如果乘法是可交换的，则域称为*可交换的*；这样的域与它的对立面相同。非交换域是有时 ，称为*偏斜域*。
+域 $K$ 的非零元素与乘法的集合是群，正好是环 $K$ (§ 8, no. 1) 的乘法群 $K^*$。 域中的逆环是域。如果乘法是可交换的，则域称为*可交换的*；这样的域与它的对立面相同。非交换域是有时 ，称为*偏度域*。
 
-#### 例 {#alg-i-s9-n1-exa-1 .statement tag=05IG}
+#### 例{#alg-i-s9-n1-exa-1 .statement tag=05IG}
 
-*(1)* 我们将在*理性数*的no. 4域中定义；在 *General 拓扑* 域 of 实数将被定义 (*General 拓扑*, IV, § 1, no. 3), 域 of 复数 (*General 拓扑*, VIII, § 1, no. 1) 和域四元数（*常规拓扑*、VIII, § 1, no. 4）。除了四元数的域之外，这些域是可交换的。*
+*(1)* 我们将在*理性数*的no. 4域中定义；在 *General 拓扑* 域 of 实数中将被定义 (*General 拓扑*, IV, § 1, no. 3), 域 of 复数 (*General 拓扑*, VIII, § 1, no. 1) 和域四元数（*常规拓扑*，VIII, § 1, no. 4）。除了四元数的域之外，这些域是可交换的。*
 *(2)* 环 $\mathbf{Z}/2\mathbf{Z}$ 显然是域。
 
-设$K$为域。 $K$的每个子环$L$即域称为$K$的*子域*，$K$称为$L$的*扩张域*；相当于说，$L$是$K$的子环，并且对于$L$的每个非零元素$x$来说，$x^{-1} \in L$是相同的。如果$(L_i)_{i \in I}$是$K$的子域的家族，那么$\bigcap_{i \in I} L_i$就是$K$的子域；对于$K$的每个子集$X$，因此存在$K$包含$X$的最小的子域；据说它是由*$X$*生成的。
+设$K$为域。 $K$的每个子环$L$即域称为$K$的*子域*，$K$则称为$L$的*扩张域*；对于$L$的每个非零元素$x$来说，$L$是$K$的子环，并且$x^{-1} \in L$是相同的。如果$(L_i)_{i \in I}$是$K$的子域的家族，那么$\bigcap_{i \in I} L_i$就是$K$的子域；对于$K$的每个子集$X$，因此存在$K$包含$X$的最小的子域；据说它是由*$X$*生成的。
 
 #### 命题 1 {#alg-i-s9-prop-1 .statement tag=05IH}
 
@@ -67,11 +67,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 推论{#alg-i-s9-n1-cor-1 .statement tag=05II}
 
-*域 $K$ 的中心是 $K$ 的（可交换）子域。*
+*域$K$的中心是$K$的（可交换）子域。*
 
 #### 定理 1 {#alg-i-s9-thm-1 .statement tag=05IJ}
 
-设$\mathbf{A}$为环。以下条件是等效的：
+令$\mathbf{A}$为环。以下条件是等效的：
 
 (a) $\mathbf{A}$ 为域；
 (b) $\mathbf{A}$ 不会减少到 0，并且 $\mathbf{A}$ 的唯一左理想是 0 和 $\mathbf{A}$。
@@ -106,11 +106,11 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 
 #### 定理 2 {#alg-i-s9-thm-2 .statement tag=05IO}
 
-令$\mathbf{K}$为域且$\mathbf{A}$为非零环。如果$f$是$\mathbf{K}$的同态进入$\mathbf{A}$，那么$\mathbf{A}$的子环$f(\mathbf{K})$是域并且$f$定义同构进入$\mathbf{K}$ $f(\mathbf{K})$。
+令$\mathbf{K}$为域且$\mathbf{A}$为非零环。如果$f$是$\mathbf{K}$的同态到$\mathbf{A}$，那么$\mathbf{A}$的子环$f(\mathbf{K})$是域，$f$定义同构到$\mathbf{K}$ $f(\mathbf{K})$。
 
-设$a$为$f$的核。然后 $\mathbf{A}$ 中的 $f(1) = 1 \neq 0$ 为 $1 \notin a$，并且由于 $a$ 是 $\mathbf{K}$ 的左理想，$a = \{0\}$乘以定理 1。因此 $f$ 是单射的，因此 $\mathbf{K}$ 的同构到子环$f(\mathbf{K})$共$\mathbf{A}$；因此，后者环是域。
+设$a$为$f$的核。然后 $\mathbf{A}$ 中的 $f(1) = 1 \neq 0$ 为 $1 \notin a$，并且由于 $a$ 是 $\mathbf{K}$ 的左理想，因此 $a = \{0\}$ 定理 1。因此 $f$ 是内射的，因此 $\mathbf{K}$ 的同构到子环 $f(\mathbf{K})$ 共 $\mathbf{A}$；因此，后者环是域。
 
-### 2.整环
+### 2. 整环
 
 #### 定义 2 {#alg-i-s9-def-2 .statement tag=05IP}
 
@@ -118,7 +118,7 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 
 有理数整数的环$\mathbf{Z}$为整环；它是可交换的且非零的；两个整数 $> 0$ 中的乘积非零；每个非零整数都是形式$a$或$-a$，其中$a > 0$和$(-a)b = -ab,\ (-a)(-b) = ab$代表$a > 0,\ b > 0$，从而我们的断言。
 
-每个交换域就是整环。 整环中的子环是整环。特别地，交换域中的子环是整环。相反，我们将证明每个整环$\mathbf{A}$同构于交换域的子环。回想一下 (§ 8, no. 12)，$\mathbf{A}$ 已被识别为其总环分数中的子环。然后我们的断言由以下命题得出：
+每个交换域就是整环。 整环中的子环是整环。特别地，交换域中的子环是整环。相反，我们将证明每个整环$\mathbf{A}$同构于子环或交换域。回想一下 (§ 8, no. 12)，$\mathbf{A}$ 已被识别为其总环分数中的子环。我们的断言由以下命题得出：
 
 #### 命题 2 {#alg-i-s9-prop-2 .statement tag=05IQ}
 
@@ -126,7 +126,7 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 
 环 $\mathbf{K}$ 是可交换的。从 $\mathbf{A} \neq \{0\}$ 开始它就不为零。由于$\mathbf{A}$是整环，$\mathbf{A}$的每个非零元素都是可取消的，$\mathbf{K}$由分数$a/b$和$b \neq 0$组成。现在$a/b \neq 0$意味着$a \neq 0$，而分数$b/a$则为$a/b$的倒数。
 
-整环的分数之和环称为分数*的*域。这样的环与分数的域中的像进行识别。
+整环的分数之和环称为分数*的*域。这样的环被识别为分数的域中的像。
 
 #### 命题 3 {#alg-i-s9-prop-3 .statement tag=05IR}
 
@@ -137,7 +137,7 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 
 断言 (a) 是显而易见的。 The canonical injection of $\mathbf{A}$ into $\mathbf{B}$ extends uniquely to a homomorphism $f$ of $\mathbf{A}'$ into $\mathbf{B}$ (§ 8, no. 12, Theorem 5). 断言 (b) 然后从 no. 1, 定理 2 得出。 $\mathbf{A}'$中的元素是分数$x/y$以及$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$和$f(x/y) = xy^{-1}$、从而 (c)。
 
-### 3. 素理想
+### 3. 基本理想
 
 #### 命题 4 {#alg-i-s9-prop-4 .statement tag=05IS}
 
@@ -186,12 +186,12 @@ $$
 
 Q，从（5）得知，这个关系诱导是Z上通常的序关系。最后，从（1）得出关系$x \leq y$和$x' \leq y'$暗示$x + x' \leq y + y'$，从（2）得出关系$x \leq y$暗示$xz \leq yz$对于所有$z \geq 0$和$xz \geq yz$对于$z \leq 0$（cf.VI, § 2, no. 1）。
 
-设 $x$ 为有理数数。如果 $x \geq 0$，$x$ 被称为“正”，如果 $x > 0$，则“严格正”，如果 $x \leq 0$，则“负”，如果 $x < 0$.† 集合，正有理数为 $\mathbf{Q}_+$，负有理数是$-\mathbf{Q}_+$。如果$\mathbf{Q}^*$表示非零有理数数的集合，严格正数数的集合$\mathbf{Q}_+^*$等于$\mathbf{Q}^* \cap \mathbf{Q}_+$，$-\mathbf{Q}_+^*$是严格负数数的集合。
+设 $x$ 为有理数数。如果 $x \geq 0$，$x$ 被称为“正”，如果 $x > 0$，则“严格正”，如果 $x \leq 0$，则“负”，如果 $x < 0$.† 集合，正有理数为 $\mathbf{Q}_+$，负有理数是$-\mathbf{Q}_+$。如果$\mathbf{Q}^*$表示非零有理数数的集合，则严格正数数的集合$\mathbf{Q}_+^*$等于$\mathbf{Q}^* \cap \mathbf{Q}_+$，并且$-\mathbf{Q}_+^*$是严格负数数的集合。
 
-集合$\mathbf{Q}_+^*$和$\{1, -1\}$是乘法群$\mathbf{Q}^*$中的子群。每个有理数$x \neq 0$都可以在形式$1.y, (-1).y$中以一种且唯一的方式表达，其中$y > 0$;因此乘法群$\mathbf{Q}^*$是子群$\mathbf{Q}_+^*$和$\{1, -1\}$的乘积，$\mathbf{Q}_+^*$中$x$的分量称为$x$的*绝对值*，并表示为$|x|$； $\{-1, 1\}$中$x$的分量（如果$x > 0$则等于1，如果$x < 0$则等于$-1$）称为$x$的*符号*，并用$\operatorname{sgn}\, x$表示。
+集合 $\mathbf{Q}_+^*$ 和 $\{1, -1\}$ 是乘法群 $\mathbf{Q}^*$ 中的子群。每个有理数$x \neq 0$都可以在形式$1.y, (-1).y$中以一种且唯一的方式表达，其中$y > 0$;因此乘法群$\mathbf{Q}^*$是子群$\mathbf{Q}_+^*$和$\{1, -1\}$的乘积，$\mathbf{Q}_+^*$中$x$的分量称为$x$的*绝对值*，并表示为$|x|$； $\{-1, 1\}$中$x$的分量（如果$x > 0$则等于1，如果$x < 0$则等于$-1$）称为$x$的*符号*并用$\operatorname{sgn}\, x$表示。
 
 通常这两个函数通过设定$|0| = 0$和$\operatorname{sgn}\, 0 = 0$扩展到整个$\mathbf{Q}$。
 
 ### 习题 {#alg-i-s9-exercises}
 
-§ 9](exercises/s9/)参见[习题。
+参见[习题为 § 9](exercises/s9/)。

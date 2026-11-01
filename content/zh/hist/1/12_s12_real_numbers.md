@@ -11,19 +11,19 @@ pdf_pages: 0149-0158
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: bb4a63f876e071dbfa60536876de045ecc7c3e0b3fda57c7fc821d8be6829f43
+content_sha256: dfb693e167d55afabbc659a3082dcdcb222f62c82478282173cfe9e220932445
 translated_from: content/en/hist/1/12_s12_real_numbers.md
 translation_method: google
 source_content_sha256: ce41aaca3c43ea067e77e252e19c22092b9d9ad893d845a44a7763bc0118c4c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 68f73de085d8dd9f0f7342b6b101a139452c30bb50639f710b205b3c7fcfe8dd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 12.实数。
+## 12. 实数。
 
 每个尺寸测量都意味着概念实数。从点数学的角度来看，实数理论的起源必须追溯到巴比伦科学中系统的渐进形成，系统能够（在原理中）表示值尽可能接近每个实数的要求[232]。事实上，对这样的系统的拥有，以及由此而得出的对数值计算的信心，不可避免地终止于实数的“天真”概念，这与今天在基础教学或物理学家和工程师中再次发现的（与数字的小数系统相关）几乎没有什么不同；这个概念不允许自己被精确地定义，但可以用说来表示，数被认为是通过获得近似值并将其引入计算中的可能性来定义的：此外，这必然意味着经验给出的尺寸测量之间存在一定的次数混淆，经验给出的尺寸测量自然不易受到不定近似的影响，并且这样的“数”为$\sqrt{2}$（假设存在一个算法来无限逼近这个数）。
 

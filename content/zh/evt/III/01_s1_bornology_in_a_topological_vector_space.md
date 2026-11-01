@@ -40,16 +40,16 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 18
-content_sha256: 6df9c88a64a0d68e93c7fbb8f5f96b889d26fc34336c403a94dec4942fc9f0dc
+content_sha256: 3790a77d702a78671fe577fc4681fef51564ea3bce8c77fba5d0e842731c6b05
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
 translation_method: google
 source_content_sha256: 4e7875bd1f38c0a02c517e1a85849c5df0ef1b2158b71d579dbe784bbc3c6f54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c2c102164c1d043dce55ec395ea905a690768a50747a4e7ad1f2b9be6142cffd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。拓扑中的出生学向量空间
@@ -58,9 +58,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定义 1 {#evt-iii-s1-def-1 .statement tag=07KW}
 
-— *A bornology on a set* $E$ *is a subset* $\mathscr{B}$ *of the set of all subsets of* $E$ *satisfying the following conditions* (cf. GT，X, § 1.2，注2）。
-(B1) ** $\mathscr{B}$ *属于到* $\mathscr{B}$ 的每集合子集。
-(B2) ** $\mathscr{B}$ *属于到* $\mathscr{B}$ 的集合的每个有限并。
+— *A bornology on a set* $E$ *is a subset* $\mathscr{B}$ *of the set of all subsets of* $E$ *satisfying the following conditions* (cf. GT, X, § 1.2, Remark 2).
+(B1) *Every subset of a set of* $\mathscr{B}$ *belongs to* $\mathscr{B}$.
+(B2) *Every finite union of a set of* $\mathscr{B}$ *belongs to* $\mathscr{B}$.
 
 *我们说* $\mathscr{B}$ *正在覆盖，如果* $E$ *的每个元素都包含在集合中，其中属于到* $\mathscr{B}$，*或者，这是相同的，如果* $\mathscr{B}$ *是* $E$的覆盖。
 
@@ -186,7 +186,7 @@ $$
 
 — *令 E 为向量空间，(F_i)_{i \in I} 是从 E 到 F_i 的局部凸空间和 f_i 线性映射族（对于 i \in I）。假设 E 被分配最粗糙的拓扑（局部凸），其中所有 f_i 都是连续的（II，p. 26）。那么，对于 E 的子集 A 有界，对于所有 i \in I，f_i(A) 在 F_i 中有界是必要且充分的。*
 
-事实上，如果 A 有界，则 f_i(A) （cor. 1）也是有界的。相反，如果 f_i(A) 有界，并且 p 是 E 上的连续半范数，则存在 I 的有限子集 J 和族 $(q_j)_{j \in J}$，其中 $q_j$ 是 $F_j$ 上的连续半范数，使得 $p \leq \sup_{j \in J} (q_j \circ f_j)$ 因而 $p$ 有界$A$。
+事实上，如果 A 有界，则 f_i(A) （cor. 1）也是有界的。相反，如果 f_i(A) 有界且 p 是 E 上的连续半范数，则存在 I 的有限子集 J 和族 $(q_j)_{j \in J}$，其中 $q_j$ 是 $F_j$ 上的连续半范数，使得 $p \leq \sup_{j \in J} (q_j \circ f_j)$ 因而 $p$ 有界$A$。
 
 #### 推论 4 {#evt-iii-s1-prop-4-cor-4 .statement tag=07LD}
 
@@ -194,9 +194,9 @@ $$
 
 #### 推论 5 {#evt-iii-s1-prop-4-cor-5 .statement tag=07LE}
 
-*设$E$和$F$是两个局部凸空间，$u : E \to F$是连续多项式映射。如果 $A$ 是 $E$ 的有界子集，则 $u(A)$ 是有界的。*
+*设$E$和$F$为两个局部凸空间，$u : E \to F$为连续多项式映射。如果 $A$ 是 $E$ 的有界子集，则 $u(A)$ 是有界的。*
 
-### 4. 在某些归纳法极限中，有界子集
+### 4. 在某些归纳极限内有界子集
 
 #### 命题 5 {#evt-iii-s1-prop-5 .statement tag=07LF}
 
@@ -232,49 +232,49 @@ V_{n-1} = \sum_{n_0 \leq i \leq n-1} \varepsilon_i H_i.
 $$
 那么$V_{n-1}$在$E_n$中是紧致的，并且*更不必说*在$E_{n+1}$中是紧致的。 由于$U \cap E_{n+1}$在$E_{n+1}$中开，因此存在标量$\varepsilon_n > 0$，使得$x + V_n = x + V_{n-1} + \varepsilon_n H_n$包含在$U$中（GT，II, § 4, No. 3，cor.）。 让$V = \bigcup_{n \geq n_0} V_n$。 那么$V$是凸且平衡的；对于$n \geq n_0$，我们有$V \cap E_n \supset \varepsilon_n H_n \cap E_n \supset \varepsilon_n W_n$，因此$V \cap E_n$是$E_n$中0的邻域。 这样就完成了引理的证明。
 
-集合$U = E - \{0\}$使得集合$U \cap E_n = E_n - \{0\}$对于每个$n$在$E_n$中开，因此$U$在$E$中开，这证明$E$是Hausdorff（GT，III, § 1, No. 3，道具2）。显然，性质 (ii) 意味着 (iii)，(iii) 意味着 (i)。最后我们证明 (i) 蕴涵 (ii)。为此，只要证明，如果 $E$ 的子集 $A$ 不被集合 $\sum_{0 \leq i \leq n} H_i$ 中的任何一个吸收，则 $A$ 是无界的。但是，存在序列 $(x_n)_{n \geq 1}$ 或点或 $A$，这样，对于每个 $n$，我们就有 $x_n \notin n^2 \sum_{0 \leq i \leq n} H_i$。
+集合$U = E - \{0\}$使得集合$U \cap E_n = E_n - \{0\}$对于每个$n$在$E_n$中开，因此$U$在$E$中开，这证明$E$是Hausdorff（GT，III, § 1, No. 3，道具2）。显然，性质 (ii) 蕴含 (iii)，而 (iii) 蕴含 (i)。最后我们证明 (i) 蕴涵 (ii)。为此，足以证明，如果 $E$ 的子集 $A$ 不被集合 $\sum_{0 \leq i \leq n} H_i$ 中的任何一个吸收，则 $A$ 是无界的。但是，存在序列 $(x_n)_{n \geq 1}$ 或点或 $A$，这样，对于每个 $n$，我们就有 $x_n \notin n^2 \sum_{0 \leq i \leq n} H_i$。
 
 那么$x_n / n$的集合凭借引理1而闭合，因为它的交和$E_m$对于每个整数$m$都是离散的。 $x_n / n$ 的集合的补集是 0 的开邻域，它不吸收序列 $(x_n)$，因此 $A$ 是无界的。
 
 #### 注 1 {#evt-iii-s1-n4-rem-1 .statement tag=07LJ}
 
-有了上面的记号，让$F_n$是$H_n$生成的向量空间，范数等于$H_n$的规格。我们将看到（III，p. 8，cor.）$F_n$是Banach空间。从$F_n$到$E_{n+1}$的单射是紧凑的，因此*更不必说*也是从$F_n$到$F_{n+1}$的单射$w_n$。此外，$E$是Banach空间*的归纳法系统*$(F_n, w_n)$*的*归纳法极限。因为，$E$中凸平衡邻域$V$为0，使得$V \cap E_n$吸收所有$n \geq 1$的$H_{n-1}$，反之，如果$E$中凸平衡集合$W$使得$W \cap E_n$吸收$H_{n-1}$，则对于所有$n \geq 1$，$W \cap E_{n-1}$包含集合与$W_{n-1}$拟似，因此$W$是$E$中0的邻域。
+有了上面的记号，让$F_n$是$H_n$生成的向量空间，范数等于$H_n$的规格。我们将看到（III，p. 8，cor.）$F_n$是Banach空间。从$F_n$到$E_{n+1}$的单射是紧凑的，因此*更不必说*也是从$F_n$到$F_{n+1}$的单射$w_n$。此外，$E$是Banach空间*的归纳法系统*$(F_n, w_n)$*的*归纳法极限。例如，$E$ 中凸平衡邻域 $V$ 为 0，使得 $V \cap E_n$ 吸收所有 $n \geq 1$ 的 $H_{n-1}$，反之，如果 $E$ 中凸平衡集合 $W$ 使得$W \cap E_n$吸收$H_{n-1}$，则$W \cap E_{n-1}$包含集合对于所有$n \geq 1$与$W_{n-1}$拟似，因此$W$是$E$中0的邻域。
 
 #### 注 2 {#evt-iii-s1-n4-rem-2 .statement tag=07LK}
 
-令 $F$ 为局部凸空间，$k$ 整数 $\geq 0$，$f : E^k \to F$ 为多线性映射。为了使$f$连续，$f$到$E_n^k$中的限制对于每个$n$连续是必要且充分的。我们立即验证$E^k$对于线性映射$v_n \times \cdots \times v_n : E_n \times \cdots \times E_n \to E \times \cdots \times E$族具有最终的局部凸拓扑（II，p. 28，cor.2和p. 30，道具7），并且$u_n \times \cdots \times u_n$是紧单射线性映射从$(E_n)^k$变为$(E_{n+1})^k$。现在申请引理 1 就足够了。
+令 $F$ 为局部凸空间，$k$ 整数 $\geq 0$，$f : E^k \to F$ 为多线性映射。为了使$f$连续，$f$到$E_n^k$中的限制对于每个$n$连续是必要且充分的。我们立即验证$E^k$对于线性映射$v_n \times \cdots \times v_n : E_n \times \cdots \times E_n \to E \times \cdots \times E$族具有最终的局部凸拓扑（II，p. 28，cor.2和p. 30，道具7），并且$u_n \times \cdots \times u_n$是紧单射线性映射从$(E_n)^k$变为$(E_{n+1})^k$。现在应用引理 1 就足够了。
 
 ### 5. 空间 $E_A$（有界）
 
 令$E$为局部凸空间，$A$为$E$的凸平衡子集。我们记得$E_A$表示由$A$生成的向量空间，$p_A$是$A$的规范，作为半范数（II，p. 26，*例3*）。我们立即验证当且仅当$A$有界时，$E_A$到$E$的典范嵌入是连续的。如果在加法中，$E$ 是 Hausdorff，则有界集合 $A$ 不是包含一条线 (III, p. 2, *注 4*)，因此 $p_A$ 是范数（II，*loc.cit.*）。
 
-如果 $X$ 中的每个柯西序列收敛，我们可以说一致的空间 $X$ 是“半完备”的。完整的制服空间是半完整的；但逆命题并不总是正确的（GT，II, § 4，练习4）；然而，可度量的半完备空间是完备的（GT，IX, § 2, No. 6，道具9）。
+如果$X$中的每个柯西序列收敛，我们可以说一致空间$X$是“半完备”的。完整的制服空间是半完整的；但逆命题并不总是正确的（GT，II, § 4，练习4）；然而，可度量的半完备空间是完备的（GT，IX, § 2, No. 6，道具9）。
 
 #### 命题 8 {#evt-iii-s1-prop-8 .statement tag=07LL}
 
 *令$E$为Hausdorff局部凸空间，并令$A$为$E$的封闭、平衡、有界且凸子集。设$(x_n)$为$E_A$中的柯西序列。那么这个序列收敛于$E_A$当且仅当它收敛于$E$。*
 
-典范嵌入从$E_A$到$E$是连续的。因此，如果$(x_n)$收敛于$E_A$，它也收敛于$E$。相反，假设$(x_n)$在$E$中收敛到$y$。存在整数$(n_k)$的递增序列使得$p_A(x_m - x_n) \leq 2^{-k-1}$如果$m \geq n_k$和$n \geq n_k$。因此序列$(x_{n_k} + 2^{-k}A)$是递减。由于$A$在$E$中闭合，我们有$y \in \bigcap_k (x_{n_k} + 2^{-k}A)$，这证明了$(x_{n_k})$，因此$(x_n)$，在$E_A$中收敛到$y$。
+典范嵌入从$E_A$到$E$是连续的。因此，如果$(x_n)$收敛于$E_A$，它也收敛于$E$。相反，假设$(x_n)$在$E$中收敛到$y$。存在整数$(n_k)$的递增序列，使得$p_A(x_m - x_n) \leq 2^{-k-1}$如果$m \geq n_k$和$n \geq n_k$。因此序列$(x_{n_k} + 2^{-k}A)$是递减。由于$A$在$E$中闭合，我们有$y \in \bigcap_k (x_{n_k} + 2^{-k}A)$，这证明了$(x_{n_k})$，因此$(x_n)$，在$E_A$中收敛到$y$。
 
 #### 推论{#evt-iii-s1-n5-cor-1 .statement tag=07LM}
 
 — *如果 A 是半完备的（特别是完备的），则 E_A 是 Banach 空间。*
     事实上，E_A 中的柯西序列也是 E 的拓扑的柯西序列，并且包含在与 A 相似的集合中，因此收敛于 E。
 
-### 6.完全有界集合和准完全空间
+### 6. 完全有界集合和准完全空间
 
 #### 定义 6 {#evt-iii-s1-def-6 .statement tag=07LN}
 
 — *如果 E 的每个闭有界子集都是完备的，则称局部凸空间 E 是准完备的（对于由 E 导出的一致结构）。*
-    完全局部凸空间是准完备的，但逆命题并不总是正确的。 *对于例，如果 E 是无限维 Hilbert 空间，或者更一般地说，是无限维自反 Banach 空间，则 E 及其弱化拓扑是准完备但不完备（II，p. 51，道具 9）。*
-    准完备空间是半完备的，因为每个柯西序列都包含在一个封闭且有界的子集（III，p. 3，推论和道具1）中。特别是，局部凸可度量且准完备的空间是完备的。
+    完全局部凸空间是准完备的，但逆命题并不总是正确的。 *对于例，如果 E 是无限维 Hilbert 空间，或者更一般地说，是无限维自反 Banach 空间，则带有弱化拓扑的 E 是准完备但不完备（II，p. 51，道具 9）。*
+    准完备空间是半完备的，因为每个柯西序列都包含在一个封闭且有界的子集中（III，p. 3，推论和命题 1）。特别是，局部凸可度量且准完备的空间是完备的。
     在 Hausdorff 准完备空间中，预紧式子集的闭包和封闭凸平衡包络线是紧致的；事实上，它们是预紧的（II，p. 25，命题3），并且是完全闭集和有界的（III，p. 3，命题2）。
 
 #### 命题 9 {#evt-iii-s1-prop-9 .statement tag=07LO}
 
 — (i) *准完备局部凸空间的闭向量子空间是准完备的。*
-    (ii) *准完备局部凸空间的乘积是准完备的。*
-    (iii) *拟完全局部凸空间的拓扑直和是拟完全的。*
+    (ii) *准完全局部凸空间的乘积是准完全的。*
+    (iii) *拟完备局部凸空间的拓扑直和是准完备的。*
     (iv) *局部凸空间，闭拟完备子空间的序列的严格归纳极限是准完备的。*
     断言 (i) 源自 *注 2* (III, p. 2), (ii) 源自 III, p. 4，cor。 2，（iii）来自道具。 5 (III, p. 5) 和 (iv) 来自道具。 6（III，p. 5）。
 
@@ -282,12 +282,12 @@ $$
 
 #### 命题 10 {#evt-iii-s1-prop-10 .statement tag=07LP}
 
-— *令 E 为 E 的局部凸空间，M 向量子空间，使得 E 的每个点都在 M 的有界子集的闭包内。则从 M 开始的每个连续线性映射 f 变为 Hausdorff 拟完全局部凸空间 F 唯一扩展到从 E 到 F 的连续线性映射。*
-假设意味着 M 在 E 中是稠密的，因此 f 扩展唯一地从 E 到 F 的完成$\hat{F}$ 的连续线性映射 $\hat{f}$（GT，III, § 3, No. 4，推论）。但每个 $x \in F$ 都位于 M 的有界子集 B 的闭包中；因此$\hat{f}(x)$位于$\hat{F}$中$f(B)$的闭包中。但$f(B)$在F中有界，因此它在F中的闭包是完全的，而重合在$\hat{F}$中是完全闭包的。这就证明了$\hat{f}(x) \in F$。
+— *令 E 为 E 的局部凸空间，M 向量子空间，使得 E 的每个点都位于 M 的有界子集的闭包内。则从 M 开始的每个连续线性映射 f 变为 Hausdorff 拟完全局部凸空间 F 唯一扩展到从 E 到 F 的连续线性映射。*
+假设意味着 M 在 E 中是稠密的，因此 f 扩展唯一地从 E 到 F 的完成$\hat{F}$ 的连续线性映射 $\hat{f}$（GT，III, § 3, No. 4，推论）。但每个 $x \in F$ 都位于 M 的有界子集 B 的闭包中；因此$\hat{f}(x)$位于$\hat{F}$中$f(B)$的闭包中。但$f(B)$在F中有界，因此它在F中的闭包是完全的，重合在$\hat{F}$中是完全闭包的。这就证明了$\hat{f}(x) \in F$。
 
-### 7.例
+### 7. 例
 
-a) 设X为拓扑空间。让X上的数值（有限）函数的$\mathscr{R}(X)$，向量空间被分配为紧致收敛（GT，X, § 1, No. 3）的拓扑：这是最粗糙的拓扑，其中限制映射 $\mathscr{R}(X) \to \mathscr{R}(H)$ 是连续的（其中 H 贯穿 X 的紧子集族，并且$\mathscr{R}(H)$被指定为一致收敛的拓扑）。科。 III、p. 4 的 3 表明，子集 $\mathscr{R}(X)$ 的 A 是有界的当且仅当，对于每个紧致子集 H of X、集合 of 限制到 H of 函数属于到 A 是一致有界的。
+a) 设X为拓扑空间。让X上的数值（有限）函数的$\mathscr{R}(X)$，向量空间被分配为紧致收敛（GT，X, § 1, No. 3）的拓扑：这是最粗糙的拓扑，其中限制映射 $\mathscr{R}(X) \to \mathscr{R}(H)$ 是连续的（其中 H 贯穿 X 的紧子集族，并且其中$\mathscr{R}(H)$被指定一致收敛的拓扑）。科。 III、p. 4 的 3 表明，子集 $\mathscr{R}(X)$ 的 A 是有界的当且仅当，对于每个紧致子集 H of X、集合 of 限制到 H of 函数属于到 A 是一致有界的。
 
 *b) (无限可微函数的空间。)令$n \geqslant 1$为整数。对于 $\mathbf{R}^n$ 中的每个开集合 U，令 $\mathscr{C}^\infty(U)$ 表示 U 上无限可微函数的向量空间 (VAR, R, 2.3)。令 f 在 $\mathscr{C}^\infty(U)$ 中。对于$\mathbf{N}^n$中的每个多索引$\alpha = (\alpha_1, ..., \alpha_n)$，$\partial^\alpha f$表示偏导数$\partial^{|\alpha|} f / \partial x_1^{\alpha_1} ... \partial x_n^{\alpha_n}$；这是 U（VAR、R、2.3 和 2.4）上的连续函数。对于每个整数 $m \geqslant 0$，以及 U 的每个紧凑子集 H，集合
 
@@ -337,6 +337,6 @@ $$
 
 对于每个整数$m \geq 1$，令$U_m$为$\mathbf{C}^n$的点中的集合，其与L的距离为$< 1/m$。可以证明，从$\mathscr{H}(U_m)$到$\mathscr{H}(L)$的典范映射$\pi_{U_m}$是*单射的*，而从$\mathscr{H}(U_m)$到$\mathscr{H}(U_p)$的限制映射对于$p \geq m$来说是*紧致*。然后我们就可以应用 prop. 7（III，p. 6）。设 A 为 $\mathscr{H}(L)$ 有界子集；则存在整数$m \geq 1$，使得A由L的邻域中的函数的胚芽、属于到$\mathscr{H}(U_m)$中的有界集合B组成。此外，从$\mathscr{H}(L)$到拓扑空间T的映射$\phi$是连续的，当且仅当从$\mathscr{H}(U)$到T的映射$\phi \circ \pi_U$对于L的每个开邻域U是连续的。 \*
 
-### 习题{#evt-iii-s1-exercises}
+### 习题 {#evt-iii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

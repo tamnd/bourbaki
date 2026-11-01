@@ -21,25 +21,25 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 186937b728d0249eede1a69079dcbcaf9722878df79760ebf338cd65b7d89639
+content_sha256: 8e30353d8f396e9b0cde8ea49c650506585c76d878f18875d1b078b39b85e51a
 translated_from: content/en/int/I/00_frontmatter.md
 translation_method: google
 source_content_sha256: f9fb1f9ad9415bc967e08205858a5af5eecf03e7f2b0b9123eb6a2caf75a5af8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ac3540840cc1cb0421105095ec958e436783d536bf45fec779d6716c610d3236
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 章 I
 
 # 凸性不等式
 
-### 1.凸性的基本不等式
+### 1. 凸性的基本不等式
 
-令X为集合；在X上定义的所有有限数值函数$^1$的向量空间$\mathbf{R}^X$中，令P为X上所有正实值函数的集合。另一方面，令 $M$ 为数值函数，$^2$ 是否有限，且值 $\geqslant 0$，定义在 P 上，使得：
+设X为集合；在X上定义的所有有限数值函数$^1$的向量空间$\mathbf{R}^X$中，令P为X上所有正实值函数的集合。另一方面，令 $M$ 为数值函数，$^2$ 是否有限，且值 $\geqslant 0$，定义在 P 上，使得：
 
 $1^\circ$ $M(0) = 0$，且 $M$ 是正齐次的，即，对于每个实数 $\lambda > 0$.$^3$，$M(\lambda f) = \lambda M(f)$
 
@@ -53,11 +53,11 @@ M_1(\mathbf{x}) = \sum_{i=1}^n x_i \quad \text{and} \quad M_\infty(\mathbf{x}) =
 $$
 满足向量 $\mathbf{x}$ 的集合 P 中的前一个条件，坐标为 $\geqslant 0$。
 
-*注.* — 令 S 为 P 中包含的尖凸锥（即集合，使得 $S + S \subset S$ 和 $\lambda S \subset S$ 对于 $\lambda \geqslant 0$；cf. TVS，II, §2, No. 4）；令$M$为数值函数（有限或非有限），其中值$\geqslant 0$，在S上定义，并且在S中定义满足，即上述条件$1^\circ, 2^\circ$和$3^\circ$。然后$M$可以扩展到整个集合P，这样扩展的函数（我们再次用$M$表示）满足相同的条件：对于每个函数$f \in P$，到集合就足够了如果不存在满足$f \leqslant g$的函数$g \in S$，则为$M(f) = +\infty$，反之则为$M(f) = \inf_{g \in S, f \leqslant g} M(g)$。该程序将应用于第 1 章。 IV, §1 到定义正函数的*上积分*。
+*注.* — 令 S 为 P 中包含的尖凸圆锥体（即，集合，使得 $S + S \subset S$ 和 $\lambda S \subset S$ 对于 $\lambda \geqslant 0$；cf. TVS，II, §2, No. 4）；令 $M$ 为数值函数（有限或非有限），其中值 $\geqslant 0$，在 S 上定义，并在 S 中定义满足，即上述条件 $1^\circ, 2^\circ$ 和 $3^\circ$。然后$M$可以扩展到整个集合P，这样扩展的函数（我们再次用$M$表示）满足相同的条件：对于每个函数$f \in P$，到集合就足够了如果不存在满足$f \leqslant g$的函数$g \in S$，则为$M(f) = +\infty$，反之则为$M(f) = \inf_{g \in S, f \leqslant g} M(g)$。该程序将应用于第 1 章。 IV, §1 到定义正函数的*上积分*。
 
 (1) 数字函数 — $\mathbf{R}$ 中的函数和值 — 也可翻译为“实值函数”（cf. GT、IV, §5, No. 1）。
 
-(2) 数字函数——“数字函数”——表示$\overline{\mathbf{R}}$中的函数和值（TG、IV, §5, No. 1）。 有时添加短语“是否有限”，以提醒函数可能会呈现无限值。
+(2) 数字函数——“数字函数”——表示函数和$\overline{\mathbf{R}}$中的值（TG，IV, §5, No. 1）。 有时添加短语“是否有限”，以提醒函数可能会呈现无限值。
 
 (3) 回想一下，在$\overline{\mathbf{R}}$、乘积例如$0 \cdot (+\infty)$中没有定义（GT、IV, §4, No. 3）。
 
@@ -139,7 +139,7 @@ $$
 
 （*闵可夫斯基的不等式*）。
 
-我们可以将注意力限制在$M(f^p)$和$M(g^p)$有限的情况。根据命题 1，我们被简化为证明，由关系 $t_1 \geq 0,\ t_2 \geq 0,\ t_1^{1/p} + t_2^{1/p} \geq 1$ 定义的 $\mathbf{R}^2$ 中的集合是凸的，或者同样，函数 $u(t) = (1 - t^{1/p})^p$ 对于 $0 \leq t \leq 1$ 是凸的。现在，
+我们可以将注意力限制在$M(f^p)$和$M(g^p)$有限的情况。根据命题1，我们被简化为证明，由关系$t_1 \geq 0,\ t_2 \geq 0,\ t_1^{1/p} + t_2^{1/p} \geq 1$定义的$\mathbf{R}^2$中的集合是凸的，或者函数$u(t) = (1 - t^{1/p})^p$对于$0 \leq t \leq 1$来说是凸的。现在，
 
 $$
 D^2 u(t) = \left(1 - \frac{1}{p}\right)t^{1/p-2}(1-t^{1/p})^{p-2} \geq 0
@@ -147,9 +147,9 @@ $$
 
 $0 < t \leq 1$、从而命题。
 
-### 3.半范数$N_p$
+### 3. 半范数$N_p$
 
-令 $p$ 为实数 $\geq 1$，并令 $\mathscr{F}^p(X, M)$ 为集合，在$X$ 上定义有限数值函数 $f$，使得 $M(|f|^p)$ 是*有限*。显然，如果$g$是函数属于到$\mathscr{F}^p(X, M)$，并且如果$|f| \leq |g|$，那么$f$也是属于到$\mathscr{F}^p(X, M)$；这个注和Minkowski的不等式表明$\mathscr{F}^p(X, M)$中两个函数的和也属于到这个集合；考虑到$M$是正齐次的，因此我们可以看到$\mathscr{F}^p(X, M)$是$X$上定义的所有有限数值函数的空间$\mathbf{R}^X$的*线性子空间*。
+令 $p$ 为实数 $\geq 1$，并令 $\mathscr{F}^p(X, M)$ 为集合，在 $X$ 上定义有限数值函数 $f$，使得 $M(|f|^p)$ 是*有限*。显然，如果$g$是函数，属于到$\mathscr{F}^p(X, M)$，并且如果$|f| \leq |g|$，那么$f$也是属于到$\mathscr{F}^p(X, M)$；这个注和Minkowski的不等式表明$\mathscr{F}^p(X, M)$中的两个函数中的和也属于到这个集合；考虑到$M$是正齐次的，因此我们看到$\mathscr{F}^p(X, M)$是$X$上定义的所有有限数值函数的空间$\mathbf{R}^X$的*线性子空间*。
 
 对于每个数 $p > 0$ 以及在 $X$、集合上定义的每个有限数值函数 $f$
 

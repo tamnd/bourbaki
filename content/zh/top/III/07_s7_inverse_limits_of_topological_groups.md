@@ -29,25 +29,25 @@ subsections:
       pdf_page: 299
 statements: 15
 exercises: 6
-content_sha256: d4246ba08204c217cd2c3888b35eb56e690180aa34cf793b91f049735ce4468b
+content_sha256: 596572e4e1a40b70c6783ec42a29370e3cc2d7cf5c97a23cdce421fec26716d5
 translated_from: content/en/top/III/07_s7_inverse_limits_of_topological_groups.md
 translation_method: google
 source_content_sha256: 7ec501cdab64114d3db1a7a9418dc84f5a203ec2564d94a09a0b43191852ce4d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f58e6d93c6309a1afd7c0662f7397b1ea53c2e0488676dcd4dfe9bd0cbdad8fe
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 7. 拓扑群和环的逆极限
 
-在整个截面中，I表示非空有向集合（*），$\alpha \leq \beta$表示I中的部分序关系。 除非相反，明确指出，所有考虑的逆系均以I索引。
+在整个截面中，I表示非空有向集合（*），$\alpha \leq \beta$表示I中的部分序关系。 除非相反，明确指出，所有考虑的逆系均由I索引。
 
-### 1.代数逆极限结构
+### 1. 代数逆极限结构
 
-令$(X_\alpha, f_{\alpha \beta})$为集合的逆系，并假设每个$X_\alpha$都被赋予了合成的内部律，在任何地方都以乘法方式定义和书写。还假设 $f_{\alpha \beta}$ 相对于这些内部律是同态。自从
+令$(X_\alpha, f_{\alpha \beta})$为逆系或集合，并假设每个$X_\alpha$都被赋予一个内部律为合成，在任何地方都以乘法方式定义和书写。还假设 $f_{\alpha \beta}$ 相对于这些内部律是同态。自从
 
 $$
 f_{\alpha \beta}(x_\beta \cdot y_\beta) = f_{\alpha \beta}(x_\beta) \cdot f_{\alpha \beta}(y_\beta)
@@ -59,23 +59,23 @@ $$
 (x_\alpha) \cdot (y_\alpha) = (x_\alpha \cdot y_\alpha).
 $$
 
-令$(\Lambda_\alpha, \varphi_{\alpha \beta})$为集合的另一个逆系，由I索引，并假设每个$X_\alpha$携带合成的外法则，到处定义，乘法写成，并且$\Lambda_\alpha$为集合运算符，这样每当 $\alpha \leq \beta$ 我们有
+令$(\Lambda_\alpha, \varphi_{\alpha \beta})$为集合的另一个逆系，由I索引，并假设每个$X_\alpha$携带合成的外法则，到处定义、乘法书写，并且$\Lambda_\alpha$为集合运算符，这样每当 $\alpha \leq \beta$ 我们有
 
 $$
 f_{\alpha \beta}(\lambda_\beta \cdot x_\beta) = \varphi_{\alpha \beta}(\lambda_\beta) \cdot f_{\alpha \beta}(x_\beta)
 $$
 
-对于 $\lambda_\beta \in \Lambda_\beta$ 和 $x_\beta \in X_\beta$。然后我们可以在$\prod_\alpha X_\alpha$上实现定义外法则，将$\prod_\alpha \Lambda_\alpha$作为集合运算符，通过定义$(\lambda_\alpha) \cdot (x_\alpha) = (\lambda_\alpha \cdot x_\alpha)$；将运算符的集合限制为$\Lambda = \varprojlim \Lambda_\alpha$，我们在$\prod_\alpha X_\alpha$上有外法则，相对于$X$又是一个稳定的子集。因此在 $X$ 上定义的内部（或外部）律被称为 $X_\alpha$ 的内部（或外部）律的逆极限。在外法则的情况下，可能会发生所有$\Lambda_\alpha$与相同的集合$\Lambda_0$相同的情况，并且
+对于 $\lambda_\beta \in \Lambda_\beta$ 和 $x_\beta \in X_\beta$。然后我们可以在$\prod_\alpha X_\alpha$上得到定义外法则，将$\prod_\alpha \Lambda_\alpha$作为集合的运算符，通过定义$(\lambda_\alpha) \cdot (x_\alpha) = (\lambda_\alpha \cdot x_\alpha)$；将运算符的集合限制为$\Lambda = \varprojlim \Lambda_\alpha$，我们在$\prod_\alpha X_\alpha$上有外法则，相对于$X$又是一个稳定的子集。因此在 $X$ 上定义的内部（或外部）律被称为 $X_\alpha$ 的内部（或外部）律的逆极限。在外法则的情况下，可能会发生所有$\Lambda_\alpha$与相同的集合$\Lambda_0$相同的情况，并且
 
-(*) 如果I只是部分排序，读者可以轻松验证定义的大部分以及截面中命题 1之前的结果仍然有效。
+(*) 如果I只是部分排序，读者可以轻松验证截面中定义的大部分以及在命题 1之前的结果仍然有效。
 
-所有 $\varphi_{\alpha \beta}$ 都是恒等映射；那么，由于$I$是有向集合，所以$\Lambda$可以与$\Lambda_0$识别。
+所有$\varphi_{\alpha \beta}$都是恒等映射；那么，由于$I$是有向集合，所以$\Lambda$可以与$\Lambda_0$识别。
 
 立即验证了结合性，交换律的通常属性，内部律存在单位元素（前提是$f_{\alpha \beta}$映射单位元素到单位元素），分配律外法则相对于内部律等，在通向逆极限的过程中被保留。
 
 令$\Sigma$为代数结构的类，并让$\Sigma_0$为*贫困*结构相应的到$\Sigma$。每当我们谈到集合$(X_\alpha, f_{\alpha \beta})$的逆系赋予结构或类$\Sigma$时，我们总是会假设$f_{\alpha \beta}$对于这些结构来说是*同态*。如果我们赋予$X = \varprojlim X_\alpha$内部和外法则，分别是内部的逆极限和$X_\alpha$的外法则，那么$X$带有*类*$\Sigma_0$的代数结构。当然，这个结构是否属于类 $\Sigma$，还有待具体情况判断。
 
-对于例，如果$(G_\alpha, f_{\alpha \beta})$是群（或环）的逆系，则$\varprojlim G_\alpha$是$\prod_\alpha G_\alpha$的子群（或子环），称为*逆矩阵* 极限系统 $(G_\alpha, f_{\alpha \beta})$ 群（分别为环）。
+对于例，如果$(G_\alpha, f_{\alpha \beta})$是群（或环）的逆系，则$\varprojlim G_\alpha$是$\prod_\alpha G_\alpha$的子群（或子环），称为*逆矩阵* 极限系统 $(G_\alpha, f_{\alpha \beta})$ 群（或环）。
 
 令$(X_\alpha, g_{\alpha \beta})$为集合中的逆系，并令$(G_\alpha, f_{\alpha \beta})$为群中的逆系；假设每个 $X_\alpha$ 有 $G_\alpha$ 作为群的运算符，并且每当 $\alpha \leq \beta$ 我们有
 
@@ -95,13 +95,13 @@ $$
 
 令$(G_\alpha, f_{\alpha\beta})$为群的逆系，对于每个$\alpha$，令$H_\alpha$为$G_\alpha$的子群。如果$f_{\alpha\beta}(H_\beta) \subset H_\alpha$每当$\alpha \leq \beta$，则$G_\alpha$的子集$H_\alpha$的逆系相对于$f_{\alpha\beta}$的限制是群的逆系，并且$H = \varprojlim H_\alpha$是*子群* 共 $G = \varprojlim G_\alpha$。如果每个$H_\alpha$是$G_\alpha$的正常子群，则$H$是$G$的正常子群。如果$(G'_\alpha, f'_{\alpha\beta})$是群的另一个逆系，并且对于每个$\alpha$，$u_\alpha : G_\alpha \to G'_\alpha$是同态，使得映射的$u_\alpha$形式逆系，那么，如果$H_\alpha$是$u_\alpha$的核，每当$\alpha \leq \beta$我们就有$f_{\alpha\beta}(H_\beta) \subset H_\alpha$； $u = \varprojlim u_\alpha$是$G$的同态变成$G' = \varprojlim G'_\alpha$，$H = \varprojlim H_\alpha$是$u$的核。如果我们放入$K_\alpha = u_\alpha(G_\alpha)$，那么只要$\alpha \leq \beta$就有$f'_\alpha(K_\alpha) \subset K_\alpha$，这样$G'_\alpha$的子群就有$K_\alpha$形式逆系；但$K = \varprojlim K_\alpha$ *不一定是像于* $G$ *低于* $u$ [习题 1 c)]。
 
-我们通过“替换”“群”“环”“子群”“理想”（左或右）获得类似的结果；我们留给读者陈述模和代数的类似结果的任务。
+我们通过“替换”“群”“环”“子群”“理想”（左或右）获得类似的结果；我们将陈述模和代数的类似结果的任务留给读者。
 
-### 2. 拓扑群和空间与运算符的逆极限
+### 2. 逆极限拓扑群和空间与运算符
 
-如果$G_\alpha$是拓扑群并且$f_{\alpha\beta}$是*连续*同态，我们可以说逆系$(G_\alpha, f_{\alpha\beta})$是拓扑群*的*逆系。那么$G = \varprojlim G_\alpha$就是乘积群$\prod_\alpha G_\alpha$的子群；如果我们赋予$G$由$\prod_\alpha G_\alpha$导出的拓扑群结构，则这样得到的拓扑群称为拓扑群$(G_\alpha, f_{\alpha\beta})$的逆系的*逆极限*。如果 $G_\alpha$ 是 Hausdorff（分别是 Hausdorff 和完备），则 $G$ 是 Hausdorff 且在 $\prod_\alpha G_\alpha$（分别是 Hausdorff 和完备）内闭合（章 I, § 8, no. 2、命题 7、推论 2 和章 II, § 3, no. 5，命题 10 的推论）。
+如果$G_\alpha$是拓扑群并且$f_{\alpha\beta}$是*连续*同态，我们可以说逆系$(G_\alpha, f_{\alpha\beta})$是拓扑群*的*逆系。那么$G = \varprojlim G_\alpha$就是乘积群$\prod_\alpha G_\alpha$的子群；如果我们将$\prod_\alpha G_\alpha$的拓扑群结构赋予$G$，则这样得到的拓扑群称为拓扑群$(G_\alpha, f_{\alpha\beta})$的逆系的*逆极限*。如果 $G_\alpha$ 是 Hausdorff（分别为 Hausdorff 和完备），那么 $G$ 是 Hausdorff 并且在 $\prod_\alpha G_\alpha$（分别为 Hausdorff 和完备）闭合（章 I, § 8, no. 2、命题 7、推论 2 和章 II, § 3, no. 5，命题 10 的推论）。
 
-如果$(G'_\alpha, f'_{\alpha\beta})$是拓扑群的另一个逆系，并且如果对于每个$\alpha$，$u_\alpha : G_\alpha \to G'_\alpha$是连续的同态，使得映射的$u_\alpha$形式逆系，则$u = \varprojlim u_\alpha$ 是$G$ 到$G' = \varprojlim G'_\alpha$ 的连续同态 (章 I, § 4, no. 4)。将“拓扑群”替换为“拓扑环”，结果相同；我们留给读者的任务是陈述拓扑模 (§ 6, no. 6) 的类似结果。
+如果$(G'_\alpha, f'_{\alpha\beta})$是拓扑群的另一个逆系，并且如果对于每个$\alpha$，$u_\alpha : G_\alpha \to G'_\alpha$是连续的同态，使得$u_\alpha$形式逆系映射，则$u = \varprojlim u_\alpha$是$G$到$G' = \varprojlim G'_\alpha$的连续同态（章I, § 4, no. 4）。将“拓扑群”替换为“拓扑环”，结果相同；我们留给读者的任务是陈述拓扑模 (§ 6, no. 6) 的类似结果。
 
 令$(X_\alpha, g_{\alpha\beta})$为拓扑空间的逆系，令$(G_\alpha, f_{\alpha\beta})$为拓扑群的逆系。假设每个$G_\alpha$在$X_\alpha$（§ 2, no. 4）上连续运行，并且关系（i）对于所有$x_\beta \in X_\beta, s_\beta \in G_\beta$和$\alpha \leq \beta$成立。我们已经看到（no. 1）$X = \varprojlim X_\alpha$有$G = \varprojlim G_\alpha$作为群的运算符；此外，$G$在$X$上持续运行。因为如果$g_\alpha$（或$f_\alpha$）是典范映射$X \to X_\alpha$（或$G \to G_\alpha$），则定义
 $$
@@ -150,9 +150,9 @@ $$
 
 我们继续进行*归谬法*：对于每个$\beta \geq \alpha$，让$M_\beta$表示$K_\beta \cap G U_\beta$；由于$f_{\beta \gamma}^{-1}(U_\beta) = U_\gamma$如果$\alpha \leq \beta \leq \gamma$，$G_\beta$的紧凑子集的$M_\beta$形式逆系（对于$\beta \geq \alpha$）。如果它们都非空，那么它们的逆极限 $M$ 也将非空（章 I, § 9, no. 6，命题 8）。显然$M \subset K$和$f_\alpha(M) \subset M_\alpha$；但这是荒谬的，因为$f_\alpha(K) \subset U_\alpha$，因此证明是完整的。
 
-### 3. 拓扑群的近似
+### 3. 拓扑近似群
 
-令$G$为群，并令$(H_\alpha)_{\alpha \in I}$为$G$的正常子群的族，使得每当$\alpha \leq \beta$时$H_\alpha \supset H_\beta$。对于每个$\alpha \in I$让$G_\alpha = G / H_\alpha$，对于$\alpha \leq \beta$让$f_{\alpha \beta}$是典范同态$G / H_\beta \to G / H_\alpha$，因此映射是$G$中$H_\beta$的陪集$T$到陪集$G$ 中的$H_\alpha$ 的$TH_\alpha$。显然$(G_\alpha, f_{\alpha \beta})$是群中的逆系； $\tilde{G} = \varprojlim G_\alpha$中的元素是族$(T_\alpha)_{\alpha \in I}$，其中$T_\alpha$是每个$\alpha$的$G$中$H_\alpha$的陪集，每当$\alpha \leq \beta$时$T_\alpha \supset T_\beta$。 $G$的映射$i : s \mapsto (s H_\alpha)$到$\tilde{G}$是典范同态$G \to G / H_\alpha$的逆极限，因此是$G$的同态到$\tilde{G}$，以及逆像元素 $(T_\alpha) \in \tilde{G}$ 的$i$ 等于$\bigcap_{\alpha \in I} T_\alpha$。因此，$i$的核是$\bigcap_{\alpha \in I} H_\alpha$，$i$的像由交为*非空*的所有族$(T_\alpha) \in \tilde{G}$组成。
+令$G$为群，并令$(H_\alpha)_{\alpha \in I}$为$G$的正常子群族，使得每当$\alpha \leq \beta$时$H_\alpha \supset H_\beta$。对于每个$\alpha \in I$让$G_\alpha = G / H_\alpha$，对于$\alpha \leq \beta$让$f_{\alpha \beta}$是典范同态$G / H_\beta \to G / H_\alpha$，因此映射是$G$中$H_\beta$的陪集$T$到陪集$G$ 中的$H_\alpha$ 的$TH_\alpha$。显然$(G_\alpha, f_{\alpha \beta})$是群中的逆系； $\tilde{G} = \varprojlim G_\alpha$中的元素是族$(T_\alpha)_{\alpha \in I}$，其中$T_\alpha$是每个$\alpha$的$G$中$H_\alpha$的陪集，每当$\alpha \leq \beta$时$T_\alpha \supset T_\beta$。 $G$的映射$i : s \mapsto (s H_\alpha)$到$\tilde{G}$是典范同态$G \to G / H_\alpha$的逆极限，因此是$G$到$\tilde{G}$的同态，并且逆像在元素 $(T_\alpha) \in \tilde{G}$ 的$i$ 等于$\bigcap_{\alpha \in I} T_\alpha$。因此，$i$的核是$\bigcap_{\alpha \in I} H_\alpha$，$i$的像由所有交为*非空*的$(T_\alpha) \in \tilde{G}$族组成。
 
 现在假设$G$是一个*拓扑群*；如果我们给每个$G_\alpha = G / H_\alpha$商拓扑，很明显$(G_\alpha, f_{\alpha \beta})$是拓扑群的逆系，并且$i : G \to \tilde{G}$是连续的同态。
 
@@ -232,7 +232,7 @@ b) 设$f'_{\alpha \beta}$为$f_{\alpha \beta}$到$L_\beta$($\alpha \leq \beta$)�
 
 令$\mathfrak{M}$为$G$的闭子群$L$的集合，使得$LH = G$。 我们将证明按关系$\supset$排序的集合$\mathfrak{M}$是*归纳的*。 事实上，如果$\mathfrak{T}$是$\mathfrak{M}$的线性有序子集，那么对于集合$xH \cap L$和$L \in \mathfrak{T}$的每个$x \in G$集合来说，是一个由紧凑空间中封闭的集合形成的过滤器基 $xH$；因此这些集合中的交不为空，这表明子群$L \in \mathfrak{T}$属于到$\mathfrak{M}$中的交。 应用 Zorn 的引理，因此我们看到 $\mathfrak{M}$ 有一个*最小* 元素 $L_0$。 由于$H$是紧的，$G/H = L_0H/H$与$L_0/(L_0 \cap H)$同构的（§ 4, no. 1，命题 1，推论3）；由于 $L_0$ 是完全断开的，而 $L_0 \cap H$ 是紧致的，我们发现我们可以通过 $L_0$ 来实现替换 $G$；在其他字中，我们可以假设在加法中*不*存在闭合的子群$L \neq G$使得$LH = G$。
 
-现在让$F$是单位元素的邻域的交，它们在$G$中都是开闭的，并让我们证明$F$是$G$的闭子群。显然$F$在$G$是闭合的；因此只要证明$F^{-1}F \subset F$就足够了。但如果$x \in F$且$V$是$G$中$e$的开闭邻域，那么$xV$也是；否则，$e$将属于对$G$中$xV$的补$W$进行补充，这又是开闭的，我们应该有$x \notin W$；因此$x \notin F$，与假设相反。由此可见，集合$xV$的$xF$、交与$V$一样，贯穿$G$、包含$F$中$e$的开闭邻域；其他字、$x^{-1}F \subset F$，证明了我们的断言。由于 $G$ 与 $G \neq \{e\}$ 完全断开，因此我们有 $F \neq G$。但如果$V$是$G$中$e$的开闭邻域，那么$VH$在$G$中也是开闭的（§ 4, no. 1，推论1到命题1），因此$\varphi(V)$在$G/H$，这意味着$\varphi(V) = G/H$凭借假设。我们将从这个结论得到$FH = G$，这将给我们所需的矛盾并完成引理的证明。事实上，对于每个$x \in G$，$xH$满足$e$的每个邻域$V$，既开又闭，因此也满足这些邻域中的交$F$，因为集合$Vx \cap H$ 形式过滤器基由……组成封闭式集合位于紧凑型空间 $xH$ 中。
+现在让$F$是单位元素的邻域的交，它们在$G$中都是开闭的，并且让我们证明$F$是$G$的闭子群。显然$F$在$G$是闭合的；因此只要证明$F^{-1}F \subset F$就足够了。但如果$x \in F$且$V$是$G$中$e$的开闭邻域，那么$xV$也是；否则，$e$将属于对$G$中$xV$的补$W$进行补充，这又是开闭的，我们应该有$x \notin W$；因此$x \notin F$，与假设相反。由此可见，集合$xV$的$xF$、交与$V$一样，贯穿$G$、包含$F$中$e$的开闭邻域；另外字、$x^{-1}F \subset F$，这就证明了我们的断言。由于 $G$ 与 $G \neq \{e\}$ 完全断开，因此我们有 $F \neq G$。但如果$V$是$G$中$e$的开闭邻域，那么$VH$在$G$中也是开闭的（§ 4, no. 1，推论1到命题1），因此$\varphi(V)$在$G/H$，这意味着$\varphi(V) = G/H$凭借假设。我们将从这个$FH = G$得到结论，这将给我们所需的矛盾并完成引理的证明。事实上，对于每个$x \in G$，$xH$满足$e$的每个邻域$V$，既开又闭，因此也满足这些邻域中的交$F$，因为集合$Vx \cap H$ 形式过滤器基由……组成封闭式集合位于紧凑型空间 $xH$ 中。
 
 Q.E.D.
 
@@ -260,7 +260,7 @@ $$
 
 *设* $(G_\alpha, f_{\alpha \beta})$ *为拓扑群的逆系，满足命题 5的假设；让* $(G'_\alpha, f'_{\alpha \beta})$ *成为拓扑群的逆系，并且对于每个* $\alpha$ *让* $u_\alpha : G_\alpha \to G'_\alpha$ *成为具有紧凑核的满射严格态射，使得* $u_\alpha$ *从逆系映射。那么*$u = \varprojlim u_\alpha$*是*$G = \varprojlim G_\alpha$*到*$G' = \varprojlim G'_\alpha$的严格态射，*并且它的核是紧凑的*。
 
-设$N_\alpha$为$u_\alpha$的核。 $L_\alpha = f_\alpha^{-1}(N_\alpha)$ 则为满射严格态射 $v_\alpha = u_\alpha \circ f_\alpha : G \to G'_\alpha$ 的核；由于$L_\alpha / H_\alpha$与$N_\alpha$同构的（§ 2, no. 7，命题20），$L_\alpha$是$G$的*紧凑*正规子群（§ 4, no. 1，推论2到命题2）。 $u$的核$L$是$L_\alpha$的交。让$\varphi$表示典范映射$G \to G/L$；那么我们可以将$v_\alpha = w_\alpha \circ \varphi$（其中$w_\alpha$是$G/L$的严格态射）写到$G'_\alpha$上，核是$L_\alpha / L$。由于$L_\alpha / L$的交是$G/L$的单位元素，并且由于$L_\alpha / L$形式是滤波器基并且是紧致的，因此该滤波器基收敛到$G/L$的单位元素 （章I, § 9, no. 1，定理1 的推论）。 命题 2 of no. 3 则表明 $w = \varprojlim w_\alpha$ 是 $G/L$ 到 $G'$ 的 *同构的*；由此可见，$w \circ \varphi$ 是 $G$ 到 $G'$ 的严格态射，其中核 $L$。但显然$u = w \circ \varphi$，因而推论得证。
+设$N_\alpha$为$u_\alpha$的核。那么 $L_\alpha = f_\alpha^{-1}(N_\alpha)$ 就是满射严格态射 $v_\alpha = u_\alpha \circ f_\alpha : G \to G'_\alpha$ 的核；由于$L_\alpha / H_\alpha$同构于$N_\alpha$（§ 2, no. 7，命题20），$L_\alpha$是$G$的*紧凑*正规子群（§ 4, no. 1，推论2到命题2）。 $u$的核$L$是$L_\alpha$的交。让$\varphi$表示典范映射$G \to G/L$；那么我们可以将$v_\alpha = w_\alpha \circ \varphi$（其中$w_\alpha$是$G/L$的严格态射）写到$G'_\alpha$上，核是$L_\alpha / L$。由于$L_\alpha / L$的交是$G/L$的单位元素，并且由于$L_\alpha / L$形式是滤波器基并且是紧致的，因此该滤波器基收敛于$G/L$的单位元素 （章I, § 9, no. 1，定理1 的推论）。 命题 2 of no. 3 则表明 $w = \varprojlim w_\alpha$ 是 $G/L$ 到 $G'$ 的 *同构的*；由此可见，$w \circ \varphi$是$G$到$G'$的严格态射，其中核$L$。但显然$u = w \circ \varphi$，因而推论得证。
 
 #### 推论 2 {#top-iii-s7-prop-5-cor-2 .statement tag=0BOU}
 
@@ -270,4 +270,4 @@ $$
 
 ### 习题{#top-iii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+请参阅[习题为 § 7](exercises/s7/)。

@@ -34,25 +34,25 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 64e2a2f21b13a549bb934303352d828029af204421f9fa2da8a3d76d4b5ee959
+content_sha256: 468b9d093970c66703b4448d2936d61b07b0fad553ea0e61ab08105bbd338fd7
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
 translation_method: google
 source_content_sha256: b07b7ce28c5ec4cebf51e51a369145ff5f0d99cab971bd69c71b3b417b968e57
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a4059062375a279deb2d56011bf5ed0b00be8460e31d526b645325c871200707
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4.自然整数。有限集合
+## 4. 自然整数。有限集合
 
-### 1.整数的定义
+### 1. 整数的定义
 
 #### 定义 1 {#ens-iii-s4-def-1 .statement tag=03R9}
 
-*如果 $\alpha \ne \alpha + 1$，基数 $\alpha$ 被认为是有限的。有限基数也称为自然整数（如果不存在混淆风险，则简称为整数 [^1]）。如果 $\operatorname{Card}(E)$ 是有限基数，则集合 $E$ 被称为有限； $\operatorname{Card}(E)$则称为$E$的元素的数。*
+*如果 $\alpha \ne \alpha + 1$，基数 $\alpha$ 被认为是有限的。有限基数也称为自然整数（如果不存在混淆风险，则简称为整数 [^1]）。如果 $\operatorname{Card}(E)$ 是有限基数，则集合 $E$ 被称为有限；然后$\operatorname{Card}(E)$被称为$E$的元素的数。*
 
 如果一个家庭 (章 II, § 3, no. 4) 的指标集合是有限的，则称其为“有限”。
 
@@ -78,7 +78,7 @@ $$
 (\alpha + 1) + \mathfrak{b} \ne \alpha + \mathfrak{b}.
 $$
 
-因此$\alpha + 1 \ne \alpha$，这意味着$\alpha$是整数。如果$n \ne 0$，我们有$n \ge 1$（§ 3, no. 2），因此存在一个唯一的基数$m$，使得$n = m + 1$（§ 3, no. 6，命题13和no. 4，命题8）。从$m \leqslant n$开始，$m$就是整数，已经证明。最后，如果整数$a$使得$a < n$，我们有$n = a + b$，其中$b \neq 0$（§ 3, no. 6，命题13）；因为$b$是整数，所以我们有$b = c + 1$和$n = m + 1 = (a + c) + 1$。由此可见$m = a + c$ (§ 3, no. 4, 命题 8)，因此$a \leqslant m$。相反，如果$a \leqslant m$，我们有
+因此$\alpha + 1 \ne \alpha$，这意味着$\alpha$是整数。如果$n \ne 0$，我们有$n \ge 1$（§ 3, no. 2），因此存在一个唯一的基数$m$，使得$n = m + 1$（§ 3, no. 6，命题13和no. 4，命题8）。从$m \leqslant n$开始，$m$就是整数，已经证明。最后，如果整数$a$使得$a < n$，我们有$n = a + b$，$b \neq 0$（§ 3, no. 6，命题13）；因为$b$是整数，所以我们有$b = c + 1$和$n = m + 1 = (a + c) + 1$。由此可见$m = a + c$ (§ 3, no. 4, 命题 8)，因此$a \leqslant m$。相反，如果$a \leqslant m$，我们有
 
 $$a \leqslant m + 1 = n;$$
 
@@ -104,7 +104,7 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 #### 推论 3 {#ens-iii-s4-prop-2-cor-3 .statement tag=03RE}
 
-*如果* $f$ *是有限集合* E 的映射 *到集合* F，*则* $f(\mathrm{E})$ *是* F 的有限子集。
+*如果* $f$ *是有限集合* E *到集合* F 的映射，*则* $f(\mathrm{E})$ *是* F 的有限子集。
 
 对于 $\mathrm{Card}\ (f(\mathrm{E})) \leqslant \mathrm{Card}\ (\mathrm{E})$（§ 3, no. 2、命题 3）。
 
@@ -114,13 +114,13 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 (a) $f$ *为单射*；
 (b) $f$ *是一个满射*；
-(c) $f$ *为双射。*
+(c) $f$ *为双射.*
 
 只要证明(a)和(b)是等价的就足够了。如果$f$是单射的，则$\mathrm{Card}(f(\mathrm{E})) = \mathrm{Card}\,(\mathrm{E}) = \mathrm{Card}\,(\mathrm{F})$，从而$f(\mathrm{E}) = \mathrm{F}$（推论2）。如果$f$不是单射，则令$x$和$x'$是E的两个元素，使得$x \neq x'$和$f(x) = f(x')$。然后，代入$\mathrm{E}' = \mathrm{E} - \{x\}$，根据推论2，我们有$f(\mathrm{E}') = f(\mathrm{E})$，从而$\mathrm{Card}(f(\mathrm{E})) \leqslant \mathrm{Card}\,(\mathrm{E}') < \mathrm{Card}\,(\mathrm{E})$；但从$\mathrm{Card}\,(\mathrm{F}) = \mathrm{Card}\,(\mathrm{E})$开始，就得出$f(\mathrm{E}) \neq \mathrm{F}$。
 
-### 3.归纳原理
+### 3. 归纳原理
 
-C61（原理 / 归纳）。 *令* $R\{n\}$ *理论上为关系* $\mathscr{T}$ *（其中n不是* $\mathscr{T}$*的常量）。* *假设关系*
+C61（原理 / 归纳）。 *设* $R\{n\}$ *理论上为关系* $\mathscr{T}$ *（其中n不是* $\mathscr{T}$*的常量）。* *假设关系*
 
 $$R\{0\} \quad \text{and} \quad (\forall n)((n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\})$$
 
@@ -128,13 +128,13 @@ $$R\{0\} \quad \text{and} \quad (\forall n)((n \text{ is an integer and } R\{n\}
 
 $$(\forall n)((n \text{ is an integer}) \Rightarrow R\{n\})$$
 
-*是定理在*$\mathscr{T}$。
+* 定理等于* $\mathscr{T}$。
 
 我们将通过矛盾来论证。假设关系
 
 $$(\exists n)(n \text{ is an integer and } (\text{not } R\{n\}))$$
 
-是真的。令$q$为整数，使得“不是$R\{q\}$”（辅助常数的方法；cf.章I, § 3, no. 3和§ 4, no. 1）。 整数$n$，其中“$n \leqslant q$和（不是$R\{n\}$）”形式是一个良序非空集合（§ 3, no. 2，注），因此它至少有元素$s$。如果$s = 0$，则“不是$R\{0\}$”，与假设相反。如果 $s > 0$，则$s = s' + 1$，其中 $s'$ 是整数，使得 $s' < s$ (no. 2，命题 2)。通过$s$的定义，我们有$R\{s'\}$，但是假设意味着$R\{s\}$为真，这与$s$的定义相反。
+是真的。令$q$为整数，这样“不是$R\{q\}$”（辅助常数的方法；cf.章I, § 3, no. 3和§ 4, no. 1）。 整数$n$，其中“$n \leqslant q$和（不是$R\{n\}$）”形式是一个良序非空集合（§ 3, no. 2，注），因此它至少有元素$s$。如果$s = 0$，则“不是$R\{0\}$”，与假设相反。如果 $s > 0$，则$s = s' + 1$，其中 $s'$ 是整数，使得 $s' < s$ (no. 2，命题 2)。通过$s$的定义，我们有$R\{s'\}$，但是假设意味着$R\{s\}$为真，与$s$的定义相反。
 
 在序申请归纳原理特别需要证明关系
 
@@ -144,7 +144,7 @@ $$(n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 #### 注 {#ens-iii-s4-n3-rem-1 .statement tag=077T}
 
-有各种判据，经常以“归纳的原理”的名义使用。它们都可以很容易地从 C61 推导出来，我们在这里指出其中最重要的：
+有各种判据，经常以“归纳的原理”的名称使用。它们都可以很容易地从 C61 推导出来，我们在这里指出其中最重要的：
 
 (1) 设$S\{n\}$为关系
 
@@ -154,7 +154,7 @@ $$(\forall p)((n \text{ is an integer and } p \text{ is an integer and } p < n) 
 
 $$(\forall n)((n \text{ is an integer}) \Rightarrow R\{n\})$$
 
-是真的。对于关系$S\{0\}$为真，假设$S\{n\}$意味着$R\{n\}$；由于关系$m < n + 1$等价于$m \leqslant n$（no. 2，命题2），关系$S\{n + 1\}$等价于“$S\{n\}$和$R\{n\}$”，因而，$S\{n\}$意味着$S\{n + 1\}$。因而，标准 C61 证明关系
+是真的。对于关系$S\{0\}$为真，假设$S\{n\}$意味着$R\{n\}$；由于关系$m < n + 1$等价于$m \leqslant n$（no. 2，命题2），关系$S\{n + 1\}$等价于“$S\{n\}$和$R\{n\}$”，因而，$S\{n\}$意味着$S\{n + 1\}$。因而，准则 C61 证明关系
 
 $$(\forall n)\ ((n \text{ is an integer}) \Rightarrow S\{n\})$$
 
@@ -210,7 +210,7 @@ $(n$ 是整数和$a \leqslant n < b$ 并且（不是$\mathrm{R}\{n\}$））$\Rig
 
 如果对于某些$n$，这样我们有$a \leqslant n \leqslant b$（不是$\mathrm{R}\{n\}$），则可以从（3）得出（不是$\mathrm{R}\{b\}$），与假设、从而相反，结果（*“降序归纳”*）。
 
-### 4.有限子集有序集
+### 4. 有限子集共有序集
 
 #### 命题 3 {#ens-iii-s4-prop-3 .statement tag=03L9}
 
@@ -228,7 +228,7 @@ $(n$ 是整数和$a \leqslant n < b$ 并且（不是$\mathrm{R}\{n\}$））$\Rig
 
 对于这样的集合由推论 1 (cf. § 2, no. 4, 定理 2) 归纳。
 
-### 5.有限特征标的性质
+### 5. 有限特征标的性质
 
 #### 定义 2 {#ens-iii-s4-def-2 .statement tag=03LC}
 
@@ -258,6 +258,6 @@ A property $P\{X\}$ of a subset $X$ of a set $E$ is said to be *of finite charac
 
 ### 习题{#ens-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。
 
-“整数”的[^1]:概念稍后将在代数中推广，其中我们将定义*有理数整数*和*代数整数*。
+[^1]: The notion of “integer” will be generalized later, in Algebra, where we shall define the *rational integers* and the *algebraic integers*.

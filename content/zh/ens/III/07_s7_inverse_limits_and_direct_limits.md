@@ -46,35 +46,35 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 1eb995fa1341a95338b635de4dcd25b5352c993c3895c118471e398f7c8d88ea
+content_sha256: 1e2b46736839a7481841a69b4877adda7fcf3190ba6520600239e35da855f22b
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
 translation_method: google
 source_content_sha256: 32f34a0e7e91e7e94cb6dacf6471b60fe7158e208c5d0e1bd2901e3f619ccda7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 88278c5f773226462a8e9bb4f805ddf7bb36f20cb2297efa0aab94e30727309a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 7. 逆极限和直极限
 
-### 1.逆极限
+### 1. 逆极限
 
 令$I$为预定的集合，并让$(E_\alpha)_{\alpha\in I}$为由$I$索引的集合族。对于$I$的元素的每个对$(\alpha,\beta)$使得$\alpha\leq\beta$，令$f_{\alpha\beta}$为$E_\alpha$的$E_\beta$的映射。假设 $f_{\alpha\beta}$ 满足以下条件 ：
 
 $(\mathrm{LP}_I)$ *关系 $\alpha\leq\beta\leq\gamma$ 暗示$f_{\alpha\gamma}=f_{\alpha\beta}\circ f_{\beta\gamma}$.*
 
-$(\mathrm{LP}_{II})$ *对于每个 $\alpha\in I$，$f_{\alpha\alpha}$ 是恒等映射 / $E_\alpha$。*
+$(\mathrm{LP}_{II})$ *对于每个 $\alpha\in I$，$f_{\alpha\alpha}$ 是 $E_\alpha$ 中的恒等映射。*
 
-令$G=\prod_{\alpha\in I}E_\alpha$为集合$(E_\alpha)_{\alpha\in I}$族的*乘积*，并让$E$表示所有$x$中$G$由……组成的子集，其中满足中的每个关系
+令$G=\prod_{\alpha\in I}E_\alpha$为集合$(E_\alpha)_{\alpha\in I}$族的*乘积*，并让$E$表示所有$x$中$G$由……组成的子集，其中满足每个关系
 
 (1)
 
 $$\operatorname{pr}_{\alpha}x=f_{\alpha\beta}(\operatorname{pr}_{\beta}x)$$
 
-对于指标$(\alpha,\beta)$中的每个对，使得$\alpha\leq\beta$。 $E$据说是家庭*逆极限*$(E_\alpha)_{\alpha\in I}$*相对于映射*$(f_{\alpha\beta})$的家庭，在没有歧义的情况下，我们写为$E=\underset{\longleftarrow}{\lim}\,(E_\alpha,f_{\alpha\beta})$或简称为$E=\underset{\longleftarrow}{\lim}\,E_\alpha$。通过滥用语言，对$((E_\alpha),(f_{\alpha\beta}))$（通常用$(E_{\alpha\beta},f_{\alpha\beta})$表示）被称为集合*的*逆系，相对于指标集合$I$。 投影 $\operatorname{pr}_\alpha$到$E$的*限制* $f_\alpha$称为$E$到$E_\alpha$的*典范映射*，我们有关系
+对于指标$(\alpha,\beta)$中的每个对，使得$\alpha\leq\beta$。 $E$据说是家庭*逆极限*$(E_\alpha)_{\alpha\in I}$*相对于映射*$(f_{\alpha\beta})$的家庭，在没有歧义的情况下，我们写成$E=\underset{\longleftarrow}{\lim}\,(E_\alpha,f_{\alpha\beta})$或简单地写成$E=\underset{\longleftarrow}{\lim}\,E_\alpha$。通过滥用语言，对$((E_\alpha),(f_{\alpha\beta}))$（通常用$(E_{\alpha\beta},f_{\alpha\beta})$表示）被称为集合*的*逆系，相对于指标集合$I$。 投影 $\operatorname{pr}_\alpha$到$E$的*限制* $f_\alpha$称为$E$到$E_\alpha$的*典范映射*，我们有关系
 
 (2)
 
@@ -86,7 +86,7 @@ $$f_\alpha=f_{\alpha\beta}\circ f_\beta$$
 
 #### 例 1 {#ens-iii-s7-n1-exa-1 .statement tag=03TF}
 
-假设$I$上的序关系是*等式*的关系。那么唯一使得$\alpha\leq\beta$的对$(\alpha,\beta)$是对$(\alpha,\alpha)$，其中$\alpha\in I$；并且由于 $f_{\alpha\alpha}$ 是恒等映射，因此 *所有* $x\in G$ 都满足关系 (1)；在其他字中，$\underset{\longleftarrow}{\lim}\,E_\alpha$则为*乘积* $\prod_{\alpha\in I}E_\alpha$。
+假设$I$上的序关系是*等式*的关系。那么唯一的对$(\alpha,\beta)$使得$\alpha\leq\beta$是对$(\alpha,\alpha)$，其中$\alpha\in I$；并且由于 $f_{\alpha\alpha}$ 是恒等映射，因此 *所有* $x\in G$ 都满足关系 (1)；在其他字中，$\underset{\longleftarrow}{\lim}\,E_\alpha$则为*乘积* $\prod_{\alpha\in I}E_\alpha$。
 
 #### 例 2 {#ens-iii-s7-n1-exa-2 .statement tag=03TG}
 
@@ -98,15 +98,15 @@ $$f_\alpha=f_{\alpha\beta}\circ f_\beta$$
 
 $$g(x) = (f_\alpha(x))_{\alpha \in J} \tag{3}$$
 
-属于凭借 (2) 到 E'； 映射 $g : E \to E'$ 这样定义的称为*规范*。如果 J' 是 J 的子集，并且 E'' 是 $(E_\alpha)_{\alpha \in J'}$ 族的逆极限，并且如果 $g' : E' \to E''$ 和 $g'' : E \to E''$ 是典范映射，那么到定义我们有
+凭借(2)属于到E'； 映射 $g : E \to E'$ 这样定义的称为*规范*。如果 J' 是 J 的子集，并且 E'' 是 $(E_\alpha)_{\alpha \in J'}$ 族的逆极限，并且如果 $g' : E' \to E''$ 和 $g'' : E \to E''$ 是典范映射，那么到定义我们有
 
 $$g'' = g' \circ g. \tag{4}$$
 
-### 2.映射的逆系
+### 2. 映射的逆系
 
 #### 命题 1 {#ens-iii-s7-prop-1 .statement tag=03OC}
 
-*设* I *为有序集合，让* $(E_\alpha, f_{\alpha\beta})$ *为集合相对于* I的逆系，*让* $E = \varprojlim E_\alpha$ *为其逆极限，并且对于每个* $\alpha \in I$ *让*
+*令* I *为有序集合，令* $(E_\alpha, f_{\alpha\beta})$ *为集合相对于* I的逆系，*让* $E = \varprojlim E_\alpha$ *为其逆极限，并且对于每个* $\alpha \in I$ *令*
 
 $$f_\alpha : E \to E_\alpha$$
 
@@ -116,7 +116,7 @@ $$f_{\alpha\beta} \circ u_\beta = u_\alpha \qquad \textit{whenever } \alpha \leq
 
 *然后:*
 
-(a) *存在* F *到* E *的唯一映射* $u$ *使得*
+(a) *存在* F *进入* E *的唯一映射* $u$ *使得*
 
 $$u_\alpha = f_\alpha \circ u \qquad \textit{for all } \alpha \in I;\tag{6}$$
 
@@ -233,7 +233,7 @@ $$f_{\alpha\beta}(x_\beta) = f_{\alpha\beta}(f_{\beta\lambda}(x'_\lambda)) = f_{
 
 #### 注 1 {#ens-iii-s7-n2-rem-1 .statement tag=03TH}
 
-对于每个$\alpha \in I$，放入$E'_\alpha = f_\alpha(E)$。然后，根据(2)，$E_\alpha$的集合$E'_\alpha$形式*子集*的*逆系，立即可知$\varprojlim E'_\alpha = E = \varprojlim E_\alpha$。 映射 $f'_{\alpha\beta} : E'_\beta \to E'_\alpha$（其中$\alpha \leqslant \beta$），其图与$f_{\alpha\beta}$到$E_\beta$的限制的图相同，是*满射*，我们有
+对于每个$\alpha \in I$，放入$E'_\alpha = f_\alpha(E)$。那么根据(2)，$E_\alpha$的集合$E'_\alpha$形式*子集*的*逆系，立即可知$\varprojlim E'_\alpha = E = \varprojlim E_\alpha$。 映射$f'_{\alpha\beta} : E'_\beta \to E'_\alpha$（其中$\alpha \leqslant \beta$），其图与$f_{\alpha\beta}$到$E_\beta$的限制的图相同，是*满射*，我们有
 
 $$(10) \qquad E'_\alpha = f_\alpha(E) \subset \bigcap_{\beta \geqslant \alpha} f_{\alpha\beta}(E_\beta)$$
 
@@ -245,9 +245,9 @@ $$(10) \qquad E'_\alpha = f_\alpha(E) \subset \bigcap_{\beta \geqslant \alpha} f
 
 #### 注 3 {#ens-iii-s7-n2-rem-3 .statement tag=03TJ}
 
-令I为有序集合，并令$(E_\alpha, f_{\alpha\beta})$为集合相对于I的逆系。对于I的每个有限子集 J，令$F_J$为通过将指标集合限制为J而从$(E_\alpha, f_{\alpha\beta})$获得的（有限）逆系的逆极限。如果J和K是以下任意两个有限子集 I使得$J \subset K$，让$g_{JK}$表示$F_K$的典范映射（3）到$F_J$。那么关系(4)表明$(F_J, g_{JK})$是集合相对于有限子集的*定向*集合（相对于关系$\subset$）$\mathfrak{F}(I)$的*逆系* I。接下来，对于每个$J \in \mathfrak{F}(I)$，令$h_J : E \to F_J$为典范映射 (3)。根据(4)以及注(2)中提到的语言滥用，$(h_J)$是映射的*逆系*。输入$h = \varprojlim h_J : E \to F = \varprojlim F_J$，让我们证明$h$是*双射*（称为*规范*）。确实，让$y = (y_J) \in F$。到定义，我们有$y_J = (x_{\alpha, J})_{\alpha \in J}$，其中$x_{\alpha, J} \in E_\alpha$代表所有$\alpha \in J$。如果$J \subset K$，那么通过映射$g_{JK}$的定义，并且因为$y_J = g_{JK}(y_K)$，我们对所有$\alpha \in J$有$x_{\alpha, J} = x_{\alpha, K}$。因而，给定$\alpha \in I$，存在唯一元素$x_\alpha \in E_\alpha$，使得$x_\alpha = x_{\alpha, J}$对于I的所有有限子集J，其中包含$\alpha$。如果$\alpha \leqslant \beta$，I有有限子集J，其中包含既$\alpha$又$\beta$；因而$x_\alpha = f_{\alpha\beta}(x_\beta)$乘以定义。因而，$x = (x_\alpha)$ 是 E 的唯一元素，使得 $h(x) = y$。
+令I为有序集合，并令$(E_\alpha, f_{\alpha\beta})$为集合相对于I的逆系。对于I的每个有限子集 J，令$F_J$为通过将指标集合限制为J而从$(E_\alpha, f_{\alpha\beta})$获得的（有限）逆系的逆极限。如果J和K是以下任意两个有限子集 I使得$J \subset K$，让$g_{JK}$表示$F_K$的典范映射（3）到$F_J$。那么关系 (4) 表明 $(F_J, g_{JK})$ 是集合相对于有限子集的*定向* 集合（相对于关系 $\subset$）$\mathfrak{F}(I)$ 的 *逆系* I。接下来，对于每个$J \in \mathfrak{F}(I)$，令$h_J : E \to F_J$为典范映射 (3)。根据(4)以及注(2)中提到的语言滥用，$(h_J)$是映射的*逆系*。输入$h = \varprojlim h_J : E \to F = \varprojlim F_J$，让我们证明$h$是*双射*（称为*规范*）。确实，让$y = (y_J) \in F$。到定义，我们有$y_J = (x_{\alpha, J})_{\alpha \in J}$，其中$x_{\alpha, J} \in E_\alpha$代表所有$\alpha \in J$。如果$J \subset K$，那么通过映射$g_{JK}$的定义，并且因为$y_J = g_{JK}(y_K)$，我们对所有$\alpha \in J$有$x_{\alpha, J} = x_{\alpha, K}$。因而，给定$\alpha \in I$，存在唯一元素$x_\alpha \in E_\alpha$，使得$x_\alpha = x_{\alpha, J}$对于I的所有有限子集J，其中包含$\alpha$。如果$\alpha \leqslant \beta$，I有有限子集J，其中包含既$\alpha$又$\beta$；因而$x_\alpha = f_{\alpha\beta}(x_\beta)$乘以定义。因而$x = (x_\alpha)$是E的唯一元素，使得$h(x) = y$。
 
-### 3.双重逆极限
+### 3. 双重逆极限
 
 令I、L为两个预先订购的集合，以及$I \times L$它们的乘积（§ 1, no. 4）。考虑集合$(E^\lambda_\alpha, f^{\lambda\mu}_{\alpha\beta})$相对于指标集合$I \times L$的逆系。
 
@@ -261,13 +261,13 @@ $$(10) \qquad E'_\alpha = f_\alpha(E) \subset \bigcap_{\beta \geqslant \alpha} f
 
 (12) $\qquad g^{\lambda}_{\alpha\gamma} = g^{\lambda}_{\alpha\beta} \circ g^{\lambda}_{\beta\gamma}$ 每当$\alpha \leqslant \beta \leqslant \gamma$时，
 
-因此$(\mathrm{E}^{\lambda}_{\alpha}, g^{\lambda}_{\alpha\beta})$ 是集合相对于I 的逆系。让$\mathrm{F}^{\lambda} = \lim \mathrm{E}^{\lambda}_{\alpha}$表示它的逆极限。对于L中的固定$\lambda \leqslant \mu$，从(11)得出映射的$h^{\lambda\mu}_{\alpha} = f^{\lambda\mu}_{\alpha\alpha} : \mathrm{E}^{\mu}_{\alpha} \to \mathrm{E}^{\lambda}_{\alpha}$形式逆系，其逆极限我们用$h^{\lambda\mu} = \lim h^{\lambda\mu}_{\alpha} : \mathrm{F}^{\mu} \to \mathrm{F}^{\lambda}$表示。如果$\lambda \leqslant \mu \leqslant \nu$在L中，我们有
+这样$(\mathrm{E}^{\lambda}_{\alpha}, g^{\lambda}_{\alpha\beta})$相对于I来说是集合的逆系。让$\mathrm{F}^{\lambda} = \lim \mathrm{E}^{\lambda}_{\alpha}$表示它的逆极限。对于L中的固定$\lambda \leqslant \mu$，从(11)得出映射的$h^{\lambda\mu}_{\alpha} = f^{\lambda\mu}_{\alpha\alpha} : \mathrm{E}^{\mu}_{\alpha} \to \mathrm{E}^{\lambda}_{\alpha}$形式逆系，其逆极限我们用$h^{\lambda\mu} = \lim h^{\lambda\mu}_{\alpha} : \mathrm{F}^{\mu} \to \mathrm{F}^{\lambda}$表示。如果$\lambda \leqslant \mu \leqslant \nu$在L中，我们有
 
 (13) $$h^{\lambda\nu} = h^{\lambda\mu} \circ h^{\mu\nu}$$
 
-（no. 2，命题2，推论2）；因此，相对于L，$(\mathrm{F}^{\lambda}, h^{\lambda\mu})$是集合的逆系。令$\mathrm{F} = \lim \mathrm{F}^{\lambda}$为其逆极限。我们将定义*规范的双射*$\mathrm{F} \to \mathrm{E}$。为此，我们注 F 是$\prod_{\lambda \in \mathrm{L}} \mathrm{F}^{\lambda}$ 的定义子集，$\mathrm{F}^{\lambda}$ 是$\prod_{\alpha \in \mathrm{I}} \mathrm{E}^{\lambda}_{\alpha}$ 的子集；因此F可以被规范地识别为子集或$\prod_{(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}} \mathrm{E}^{\lambda}_{\alpha} = \mathrm{G}$（章II, § 5, no. 5，命题7）。对于每个$z \in \mathrm{G}$，让$\mathrm{pr}^{\lambda}(z)$表示元素$(\mathrm{pr}^{\lambda}_{\alpha}(z))_{\alpha \in \mathrm{I}}$/$\prod_{\alpha \in \mathrm{I}} \mathrm{E}^{\lambda}_{\alpha}$。那么 $z \in \mathrm{F}$ 当且仅当
+（no. 2，命题2，推论2）；因此，相对于L，$(\mathrm{F}^{\lambda}, h^{\lambda\mu})$是集合的逆系。令$\mathrm{F} = \lim \mathrm{F}^{\lambda}$为其逆极限。我们将定义*规范的双射*$\mathrm{F} \to \mathrm{E}$。为此，我们注 F 是$\prod_{\lambda \in \mathrm{L}} \mathrm{F}^{\lambda}$ 的定义子集，$\mathrm{F}^{\lambda}$ 是$\prod_{\alpha \in \mathrm{I}} \mathrm{E}^{\lambda}_{\alpha}$ 的子集；因此F可以被规范地识别为子集或$\prod_{(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}} \mathrm{E}^{\lambda}_{\alpha} = \mathrm{G}$（章II, § 5, no. 5，命题7）。对于每个 $z \in \mathrm{G}$，令 $\mathrm{pr}^{\lambda}(z)$ 表示 $\prod_{\alpha \in \mathrm{I}} \mathrm{E}^{\lambda}_{\alpha}$ 的元素 $(\mathrm{pr}^{\lambda}_{\alpha}(z))_{\alpha \in \mathrm{I}}$。那么 $z \in \mathrm{F}$ 当且仅当
 
-(14) $\qquad \mathrm{pr}^{\lambda}(z) = h^{\lambda\mu}(\mathrm{pr}^{\mu}(z))$ 每当 L 中的 $\lambda \leqslant \mu$
+(14) $\qquad \mathrm{pr}^{\lambda}(z) = h^{\lambda\mu}(\mathrm{pr}^{\mu}(z))$ 每当 $\lambda \leqslant \mu$ 在 L 时
 
 和 $\mathrm{pr}^{\lambda}(z) \in \mathrm{F}^{\lambda}$ 对于所有 $\lambda \in \mathrm{L}$；也就是说，每当 $\alpha \leqslant \beta$ 在 I 时，我们有
 
@@ -287,7 +287,7 @@ $$(16) \qquad \varprojlim_{\alpha,\lambda} \mathrm{E}^\lambda_\alpha = \varprojl
 
 #### 推论 1 {#ens-iii-s7-prop-4-cor-1 .statement tag=03OG}
 
-*设*$(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\alpha\beta})$*为集合的另一个逆系相对于*$\mathrm{I} \times \mathrm{L}$，*并且对于每个*$(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$*让*$u^\lambda_\alpha$*为*$\mathrm{E}^\lambda_\alpha$*的映射*到* $\mathrm{{E}'}^\lambda_\alpha$*使得映射的*$u^\lambda_\alpha$*形式逆系。然后*
+*设*$(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\alpha\beta})$*为集合的另一个逆系相对于*$\mathrm{I} \times \mathrm{L}$，*并且对于每个*$(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$*让*$u^\lambda_\alpha$*为*$\mathrm{E}^\lambda_\alpha$*的映射*到* $\mathrm{{E}'}^\lambda_\alpha$*使得$u^\lambda_\alpha$*形式逆系等于映射。然后*
 
 $$(17) \qquad \varprojlim_{\alpha,\lambda} u^\lambda_\alpha = \varprojlim_\lambda \; (\varprojlim_\alpha u^\lambda_\alpha).$$
 
@@ -295,13 +295,13 @@ $$(17) \qquad \varprojlim_{\alpha,\lambda} u^\lambda_\alpha = \varprojlim_\lambd
 
 #### 推论 2 {#ens-iii-s7-prop-4-cor-2 .statement tag=03OH}
 
-*设*$(\mathrm{E}^\lambda_\alpha, f^\lambda_{\alpha\beta})_{\lambda \in \mathrm{L}}$*为集合相对于*I的逆系家庭。 *如果* $\prod_{\lambda \in \mathrm{L}} f^\lambda_{\alpha\beta}$ *表示扩张至乘积* (章 II, § 5, no. 7, 定义 2) *属于映射* $(f^\lambda_{\alpha\beta})_{\lambda \in \mathrm{L}}$的家族，*则* $\left( \prod_{\lambda \in \mathrm{L}} \mathrm{E}^\lambda_\alpha, \prod_{\lambda \in \mathrm{L}} f^\lambda_{\alpha\beta} \right)$ *是集合相对于* I的逆系，*并且（直到规范的双射）我们有*
+*设*$(\mathrm{E}^\lambda_\alpha, f^\lambda_{\alpha\beta})_{\lambda \in \mathrm{L}}$*是逆系与集合相对于*I的家庭。 *如果* $\prod_{\lambda \in \mathrm{L}} f^\lambda_{\alpha\beta}$ *表示扩张至乘积* (章 II, § 5, no. 7, 定义 2) *属于映射* $(f^\lambda_{\alpha\beta})_{\lambda \in \mathrm{L}}$ 的家族，*则* $\left( \prod_{\lambda \in \mathrm{L}} \mathrm{E}^\lambda_\alpha, \prod_{\lambda \in \mathrm{L}} f^\lambda_{\alpha\beta} \right)$ *是集合相对于* I的逆系，*并且（直到规范的双射）我们有*
 
 $$(18) \qquad \varprojlim_\alpha \prod_{\lambda \in \mathrm{L}} \mathrm{E}^\lambda_\alpha = \prod_{\lambda \in \mathrm{L}} (\varprojlim_\alpha \mathrm{E}^\lambda_\alpha).$$
 
-考虑双逆系$(\mathrm{E}^\lambda_\alpha, g^{\lambda\mu}_{\alpha\beta})$相对于$\mathrm{I} \times \mathrm{L}$，其中L上的序关系是等式（no. 1，例1），以及应用命题4。
+考虑双逆系$(\mathrm{E}^\lambda_\alpha, g^{\lambda\mu}_{\alpha\beta})$相对于$\mathrm{I} \times \mathrm{L}$，其中L上的序关系是等式（no. 1、例1）和应用命题4。
 
-### 4. 条件对于逆极限为非空
+### 4. 条件逆极限非空
 
 在这个小节中，我们将给两个最常用的足够的条件，使逆极限非空（另见习题5）。
 
@@ -405,18 +405,18 @@ $$\bigcap_{\beta \geqslant \alpha} f_{\alpha\beta}(\mathrm{E}_\beta) \neq \empty
 
 #### 例 1 {#ens-iii-s7-n4-exa-1 .statement tag=03TK}
 
-如果$E_\alpha$是*有限*集合，则可以通过将$\mathfrak{S}_\alpha$取为$E_\alpha$的*所有*子集的集合来应用定理1。 \* 这个例在*一般拓扑*中推广到其中$E_\alpha$是*紧凑*拓扑空间、$f_{\alpha\beta}$*连续*映射和*封闭*子集的$\mathfrak{S}_\alpha$集合的情况$E_\alpha$（*一般拓扑*、章I, § 9, no. 6）。 \*
+如果$E_\alpha$是*有限*集合，则可以通过将$\mathfrak{S}_\alpha$取为$E_\alpha$的*所有*子集的集合来应用定理1。 \* 这个例在*一般拓扑*中被推广到其中$E_\alpha$是*紧凑*拓扑空间、$f_{\alpha\beta}$*连续*映射、以及*封闭*子集的$\mathfrak{S}_\alpha$集合的情况$E_\alpha$（*一般拓扑*、章I, § 9, no. 6）。 \*
 
 #### 例 2 {#ens-iii-s7-n4-exa-2 .statement tag=03TL}
 
-\* 设 A 为环和单位元素，对于每个 $\alpha \in I$，令 $T_\alpha$ 为 *阿廷的* 左A-模。令$E_\alpha$为$T_\alpha$的*同质空间*，$T_\alpha$忠实地在其上运行（因此$E_\alpha$是附加到$T_\alpha$的*仿射空间*）。对于 $\beta \geqslant \alpha$，假设 $f_{\alpha\beta} : E_\beta \to E_\alpha$ 是*仿射映射*。取$\mathfrak{S}_\alpha$为空集的集合由……组成以及$E_\alpha$中的*仿射线性簇*。那么条件 (i) 是平凡满足的，并且 (ii) 由$T_\alpha$ 是阿廷的的事实得出；因为这意味着在集合的有限交的集合 $M \in \mathfrak{F}$ 中存在最小元素，并且这个最小元素必须等于 $\bigcap_{M \in \mathfrak{F}} M$。最后，由于 $f_{\alpha\beta}$ 是仿射的，条件 (iii) 和 (iv) 是简单满足的。 \*
+\* 设 A 为环和单位元素，对于每个 $\alpha \in I$，令 $T_\alpha$ 为 *阿廷的* 左A-模。令$E_\alpha$为$T_\alpha$的*同质空间*，$T_\alpha$忠实地在其上运行（因此$E_\alpha$是附加到$T_\alpha$的*仿射空间*）。对于 $\beta \geqslant \alpha$，假设 $f_{\alpha\beta} : E_\beta \to E_\alpha$ 是*仿射映射*。取$\mathfrak{S}_\alpha$为空集的集合由……组成以及$E_\alpha$中的*仿射线性簇*。那么条件 (i) 是平凡满足的，并且 (ii) 由$T_\alpha$ 是阿廷的的事实得出；因为这意味着在集合的有限交集合 $M \in \mathfrak{F}$ 中存在最小元素，并且这个最小元素必须等于 $\bigcap_{M \in \mathfrak{F}} M$。最后，由于 $f_{\alpha\beta}$ 是仿射的，条件 (iii) 和 (iv) 是简单满足的。 \*
 
-### 5.直极限
+### 5. 直极限
 
-令I为（*右*）*定向*预排序的集合，并让$(E_\alpha)_{\alpha \in I}$为由I索引的集合族。对于I的元素中的每个对$(\alpha, \beta)$，使得$\alpha \leqslant \beta$，令$f_{\beta\alpha}$成为*$E_\alpha$*到*$E_\beta$的*映射。假设 $f_{\beta\alpha}$ 满足以下条件 ：
+令I为（*右*）*定向*预排序的集合，并让$(E_\alpha)_{\alpha \in I}$为由I索引的集合族。对于I的元素的每个对$(\alpha, \beta)$使得$\alpha \leqslant \beta$，令$f_{\beta\alpha}$是*$E_\alpha$*到*$E_\beta$的*映射。假设 $f_{\beta\alpha}$ 满足以下条件 ：
 
 (LI$_\mathrm{I}$) *关系* $\alpha \leqslant \beta \leqslant \gamma$ *暗示* $f_{\gamma\alpha} = f_{\gamma\beta} \circ f_{\beta\alpha}$。
-(LI$_\mathrm{II}$) *对于每个*$\alpha \in I, f_{\alpha\alpha}$ *是*$E_\alpha$的恒等映射。
+(LI$_\mathrm{II}$) *对于每个* $\alpha \in I, f_{\alpha\alpha}$ *是* $E_\alpha$ 的恒等映射。
 
 Let G be the set which is the *sum* of the family of sets $(E_\alpha)_{\alpha \in I}$ (Chapter II, § 4, no. 8); by abuse of language, we shall identify the $E_\alpha$ with their canonical images in G, and for each $x \in G$ we shall denote by $\lambda(x)$ the unique index $\alpha \in I$ such that $x \in E_\alpha$. 让$R\{x, y\}$表示G的两个元素、$x$、$y$之间的关系：“存在元素$\gamma \in I$使得$\gamma \geqslant \alpha = \lambda(x)$和$\gamma \geqslant \beta = \lambda(y)$对于$f_{\gamma\alpha}(x) = f_{\gamma\beta}(y)$”。 那么 R 是 *G 上的 *等价关系。 显然，R 在 G 上是自反且对称的。 为了证明 R 是传递性的，设$x \in E_\alpha, y \in E_\beta, z \in E_\gamma$，并假设存在$\lambda \in I$使得$\lambda \geqslant \alpha$、$\lambda \geqslant \beta$和$f_{\lambda\alpha}(x) = f_{\lambda\beta}(y)$，以及$\mu \in I$使得$\mu \geqslant \beta$、$\mu \geqslant \gamma$和$f_{\mu\beta}(y) = f_{\mu\gamma}(z)$。 由于I是有向集合，因此存在$\nu \in I$使得$\nu \geqslant \lambda$和$\nu \geqslant \mu$；
 
@@ -453,17 +453,17 @@ $$= f_{\nu\mu}(f_{\mu\beta}(y)) = f_{\nu\mu}(f_{\mu\gamma}(z)) = f_{\nu\gamma}(z
 
 (i) 通过 E 的定义，每个 $i$ 指标 $\beta_i \in I$ 和元素 $z_{\beta_i} \in E_{\beta_i}$ 都存在$x^{(i)} = f_{\beta_i}(z_{\beta_i})$。取$\alpha$，使得$\alpha \geqslant \beta_i$代表$1 \leqslant i \leqslant n$，以及$x_\alpha^{(i)} = f_{\alpha\beta_i}(z_{\beta_i})$。
 
-(ii) 通过 E 的定义，对于每个对$(i, j)$，存在$\gamma_{ij} \in I$，使得$\gamma_{ij} \geqslant \alpha$和$f_{\gamma_{ij}\alpha}(y_\alpha^{(i)}) = f_{\gamma_{ij}\alpha}(y_\alpha^{(j)})$。对所有对 $(i, j)$ 采用$\beta$，使得$\beta \geqslant \gamma_{ij}$，并使用关系$f_{\beta\alpha} = f_{\beta\gamma_{ij}} \circ f_{\gamma_{ij}\alpha}$。
+(ii) 通过 E 的定义，对于每个对$(i, j)$，存在$\gamma_{ij} \in I$，使得$\gamma_{ij} \geqslant \alpha$和$f_{\gamma_{ij}\alpha}(y_\alpha^{(i)}) = f_{\gamma_{ij}\alpha}(y_\alpha^{(j)})$。采用 $\beta$ 使得 $\beta \geqslant \gamma_{ij}$ 对于所有对 $(i, j)$，并使用关系 $f_{\beta\alpha} = f_{\beta\gamma_{ij}} \circ f_{\gamma_{ij}\alpha}$。
 
-### 6. 直接系统的映射
+### 6. 直接系统 / 映射
 
 #### 命题 6 {#ens-iii-s7-prop-6 .statement tag=03RR}
 
-*设* I *为有向集合，让* $(E_\alpha, f_{\beta\alpha})$ *为集合相对于* I的直接系统，*让* $E = \varinjlim E_\alpha$ *为直极限，并且对于每个* $\alpha \in I$ *让*
+*设*I*为有向集合，让*$(E_\alpha, f_{\beta\alpha})$*为集合相对于*I的直接系统，*让*$E = \varinjlim E_\alpha$*为直极限，并且对于每个*$\alpha \in I$*让*
 
 $$f_\alpha : E_\alpha \to E$$
 
-*为典范映射。对于每个* $\alpha \in I$，*让* $u_\alpha$ *成为* $E_\alpha$ *的映射 *进入集合* F *使得*
+*为典范映射。对于每个* $\alpha \in I$，*让* $u_\alpha$ *成为* $E_\alpha$ *的映射 *进入集合* F *这样*
 
 (23) $$u_\beta \circ f_{\beta\alpha} = u_\alpha \qquad \textit{whenever } \alpha \leqslant \beta.$$
 
@@ -477,11 +477,11 @@ $$f_\alpha : E_\alpha \to E$$
 
 (c) $u$ *是单射当且仅当对于每个* $\alpha \in I$ *关系* $x \in E_\alpha$、$y \in E_\alpha$、$u_\alpha(x) = u_\alpha(y)$ *意味着存在* $\beta \geqslant \alpha$ *使得* $f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$。
 
-(a) 对于no. 5的记号，令$v$为G到F中的映射，对于每个$\alpha \in I$，它与$E_\alpha$上的$u_\alpha$一致（章II, § 4, no. 7，命题8）。 假设意味着$v$ 与等价关系 R 相容的（章 II, § 6, no. 5）；因此，F 中存在 $E = G/R$ 的唯一映射 $u$，使得 $v = u \circ f$ (*loc.cit.*)。
+(a) 对于no. 5的记号，令$v$为G到F中的映射，对于每个$\alpha \in I$（章II, § 4, no. 7，命题8），它与$E_\alpha$上的$u_\alpha$一致。 假设意味着$v$ 与等价关系 R 相容的（章 II, § 6, no. 5）；因此，F 中存在 $E = G/R$ 的唯一映射 $u$，使得 $v = u \circ f$ (*loc.cit.*)。
 
 (b) 由于 E 是 $f_\alpha(E_\alpha)$ 的并，因此关系 $F = \bigcup_{\alpha \in I} u_\alpha(E_\alpha)$ 显然对于$u$ 是满射而言是充分必要的。
 
-(c) 通过no. 5的引理 1，$\mathbf{E}$中的任何两个元素总是可以写成形式$f_\alpha(x)$和$f_\alpha(y)$，其中$x \in \mathrm{E}_\alpha$和$y \in \mathrm{E}_\alpha$，对于合适的选择 $\alpha \in \mathrm{I}$。从引理还可以得出，关系$f_\alpha(x) = f_\alpha(y)$等价于$\beta \geqslant \alpha$的存在，使得$f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$。从$u_\alpha(x) = u(f_\alpha(x))$和$u_\alpha(y) = u(f_\alpha(y))$开始，这完成了证明。
+(c) 通过no. 5的引理 1，$\mathbf{E}$的任何两个元素总是可以写成形式$f_\alpha(x)$和$f_\alpha(y)$，其中$x \in \mathrm{E}_\alpha$和$y \in \mathrm{E}_\alpha$，对于合适的选择 $\alpha \in \mathrm{I}$。从引理还可以得出，关系$f_\alpha(x) = f_\alpha(y)$等价于$\beta \geqslant \alpha$的存在，使得$f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$。从$u_\alpha(x) = u(f_\alpha(x))$和$u_\alpha(y) = u(f_\alpha(y))$开始，这完成了证明。
 
 ¶ 如果映射 $u$ 是*双射的*，则有时通过滥用语言表示，F 是$(\mathrm{E}_\alpha)$ 家族的直极限。
 
@@ -589,9 +589,9 @@ $$g(\mathrm{E}_\alpha) = f_\alpha(\mathrm{E}_\alpha).$$
 
 现在，对于每个$\beta \in I$，都存在$\gamma \in J$使得$\beta \leqslant \gamma$，从中可以得出$g(E_\gamma) \supset g(f_{\gamma\beta}(E_\beta)) = f_\beta(E_\beta)$。因此，E 是集合 $g(E_\alpha)$ 的并，因为 $\alpha$ 穿过 J。
 
-### 7.双直极限。 乘积直极限
+### 7. 双直极限。 乘积直极限
 
-令I、L为两个有向集合，并令$I \times L$为它们的乘积（§ 1, no. 4），经过乘积预购，又是有向集合。考虑集合$(E^\lambda_\alpha, f^{\mu\lambda}_{\beta\alpha})$相对于$I \times L$的直接系统。那么我们有
+令I、L为两个有向集合，并令$I \times L$为它们的乘积（§ 1, no. 4），加上乘积预购，又是有向集合。考虑集合$(E^\lambda_\alpha, f^{\mu\lambda}_{\beta\alpha})$相对于$I \times L$的直接系统。那么我们有
 
 $$(29) \qquad f^{\nu\lambda}_{\gamma\alpha} = f^{\mu\nu}_{\gamma\beta} \circ f^{\mu\lambda}_{\beta\alpha}$$
 
@@ -605,11 +605,11 @@ $$(30) \qquad g^\lambda_{\gamma\alpha} = g^\lambda_{\gamma\beta} \circ g^\lambda
 
 $$(31) \qquad h^{\nu\lambda} = h^{\nu\mu} \circ h^{\mu\lambda}$$
 
-（no. 6，命题 6，推论 2），因此相对于L，$(F^\lambda, h^{\mu\lambda})$ 是集合的直接系统。令$F = \varinjlim F^\lambda$为其直极限。我们将定义*规范的双射*$E \to F$。为此，让$g^\lambda_\alpha$表示典范映射$E^\lambda_\alpha \to F^\lambda$，$h^\lambda$典范映射$F^\lambda \to F$，并放入$u^\lambda_\alpha = h^\lambda \circ g^\lambda_\alpha$。如果$\alpha \leqslant \beta$和$\lambda \leqslant \mu$，那么我们有
+（no. 6，命题 6，推论 2），因此 $(F^\lambda, h^{\mu\lambda})$ 是集合相对于 L 的直接系统。令$F = \varinjlim F^\lambda$为其直极限。我们将定义*规范的双射*$E \to F$。为此，让$g^\lambda_\alpha$表示典范映射$E^\lambda_\alpha \to F^\lambda$，$h^\lambda$典范映射$F^\lambda \to F$，并放入$u^\lambda_\alpha = h^\lambda \circ g^\lambda_\alpha$。如果$\alpha \leqslant \beta$和$\lambda \leqslant \mu$，那么我们有
 
 $$\begin{aligned} u^\mu_\beta \circ f^{\mu\lambda}_{\beta\alpha} &= h^\mu \circ g^\mu_\beta \circ f^{\mu\lambda}_{\beta\alpha} = h^\mu \circ g^\mu_\beta \circ f^{\mu\mu}_{\beta\alpha} \circ f^{\mu\lambda}_{\alpha\alpha} = h^\mu \circ g^\mu_\alpha \circ f^{\mu\lambda}_{\alpha\alpha} \\ &= h^\mu \circ h^{\mu\lambda} \circ g^\lambda_\alpha = h^\lambda \circ g^\lambda_\alpha = u^\lambda_\alpha \end{aligned}$$
 
-来自 (29) 和 $h^{\mu\lambda}$ 的定义。因此，映射相对于$I \times L$的$u^\lambda_\alpha$形式直接系统。把$u = \varinjlim_{\alpha,\lambda} u^\lambda_\alpha : E \to F$。我们将证明$u$是no. 6、命题6的应用判据的双射。首先，F是集合$h^\lambda(F^\lambda)$的并，并且每个$F^\lambda$是并共集合$g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)$；因此 F 是集合的并
+来自 (29) 和 $h^{\mu\lambda}$ 的定义。因此，映射相对于$I \times L$的$u^\lambda_\alpha$形式直接系统。把$u = \varinjlim_{\alpha,\lambda} u^\lambda_\alpha : E \to F$。我们将证明$u$是no. 6、命题6的应用判据的双射。首先，F是集合$h^\lambda(F^\lambda)$的并，并且每个$F^\lambda$是并共集合 $g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)$；因此 F 是集合的并
 
 $$h^\lambda(g_\alpha^\lambda(\mathrm{E}_\alpha^\lambda)) = u_\alpha^\lambda(\mathrm{E}_\alpha^\lambda).$$
 
@@ -624,7 +624,7 @@ $$\varinjlim_{\alpha,\ \lambda} \mathrm{E}_\alpha^\lambda = \varinjlim_{\lambda}
 
 #### 推论{#ens-iii-s7-n7-cor-1 .statement tag=03OQ}
 
-*令*$(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\beta\alpha})$*成为集合的另一个直接系统相对于*$\mathrm{I} \times \mathrm{L}$，*并且对于每个*$(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$*让*$u_\alpha^\lambda$*成为*$\mathrm{E}_\alpha^\lambda$*的映射*进入*$\mathrm{{E}'}^\lambda_\alpha$，*使得* $u_\alpha^\lambda$ *形式直接系统共映射。然后我们有*
+*令*$(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\beta\alpha})$*成为集合的另一个直接系统相对于*$\mathrm{I} \times \mathrm{L}$，*并且对于每个*$(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$*让*$u_\alpha^\lambda$*成为*$\mathrm{E}_\alpha^\lambda$*的映射*到*$\mathrm{{E}'}^\lambda_\alpha$，*使得* $u_\alpha^\lambda$ *形式直接系统共映射。然后我们有*
 
 (33)
 $$\varinjlim_{\alpha,\ \lambda} u_\alpha^\lambda = \varinjlim_{\lambda}\ (\varinjlim_{\alpha} u_\alpha^\lambda).$$
@@ -633,18 +633,18 @@ $$\varinjlim_{\alpha,\ \lambda} u_\alpha^\lambda = \varinjlim_{\lambda}\ (\varin
 
 #### 命题 10 {#ens-iii-s7-prop-10 .statement tag=03RW}
 
-*令*$(\mathrm{E}_\alpha, f_{\beta\alpha})$*和*$(\mathrm{E}'_\alpha, f'_{\beta\alpha})$*为集合中的两个直接系统，两者都相对于相同的有向集合*I。 *让*$\mathrm{E} = \varinjlim \mathrm{E}_\alpha$、$\mathrm{E}' = \varinjlim \mathrm{E}'_\alpha$、*并让*$f_\alpha : \mathrm{E}_\alpha \to \mathrm{E}, f'_\alpha : \mathrm{E}'_\alpha \to \mathrm{E}'$*表示典范映射，对于每个*$\alpha \in \mathrm{I}$。 *则*$(\mathrm{E}_\alpha \times \mathrm{E}'_\alpha, f_{\beta\alpha} \times f'_{\beta\alpha})$*是集合的直接系统，*$(f_\alpha \times f'_\alpha)$*是映射的直接系统，并且*$\varinjlim (f_\alpha \times f'_\alpha)$*是双射*
+*令*$(\mathrm{E}_\alpha, f_{\beta\alpha})$*和*$(\mathrm{E}'_\alpha, f'_{\beta\alpha})$*为集合中的两个直接系统，两者都相对于相同的有向集合*I。 *让* $\mathrm{E} = \varinjlim \mathrm{E}_\alpha$、$\mathrm{E}' = \varinjlim \mathrm{E}'_\alpha$、*并让* $f_\alpha : \mathrm{E}_\alpha \to \mathrm{E}, f'_\alpha : \mathrm{E}'_\alpha \to \mathrm{E}'$ *表示典范映射，对于每个* $\alpha \in \mathrm{I}$。 *那么*$(\mathrm{E}_\alpha \times \mathrm{E}'_\alpha, f_{\beta\alpha} \times f'_{\beta\alpha})$*是集合的直接系统，*$(f_\alpha \times f'_\alpha)$*是映射的直接系统，并且*$\varinjlim (f_\alpha \times f'_\alpha)$*是双射*
 
 (34)
 $$\varinjlim (\mathrm{E}_\alpha \times \mathrm{E}'_\alpha) \to (\varinjlim \mathrm{E}_\alpha) \times (\varinjlim \mathrm{E}'_\alpha).$$
 
-命题的前两个断言立即得到验证。为了证明 $g = \varinjlim (f_\alpha \times f'_\alpha)$ 是双射的，我们需要 no. 6 中的应用命题 6。显然$\mathrm{E} \times \mathrm{E}'$是集合$f_\alpha(\mathrm{E}_\alpha) \times f'_\alpha(\mathrm{E}'_\alpha)$中的并；因此 $g$ 是满射的。如果$(x, x')$和$(y, y')$是$\mathrm{E}_\alpha \times \mathrm{E}'_\alpha$的两个元素，使得$f_\alpha(x) = f_\alpha(y)$和$f'_\alpha(x') = f'_\alpha(y')$，则(no. 5，引理1)存在两个元素$\beta$，$\gamma$ I使得$\beta \geqslant \alpha$、$\gamma \geqslant \alpha$和$f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$、$f'_{\gamma\alpha}(x') = f'_{\gamma\alpha}(y')$；由于I是有向的，因此存在$\delta \in \mathrm{I}$使得$\delta \geqslant \beta$和$\delta \geqslant \gamma$；因此$f_{\delta\alpha}(x) = f_{\delta\alpha}(y)$和$f'_{\delta\alpha}(x') = f'_{\delta\alpha}(y')$。这样就完成了证明。
+命题的前两个断言立即得到验证。为了证明 $g = \varinjlim (f_\alpha \times f'_\alpha)$ 是双射的，我们计算 no. 6 的应用命题 6。显然$\mathrm{E} \times \mathrm{E}'$是集合$f_\alpha(\mathrm{E}_\alpha) \times f'_\alpha(\mathrm{E}'_\alpha)$中的并；因此 $g$ 是满射的。如果$(x, x')$和$(y, y')$是$\mathrm{E}_\alpha \times \mathrm{E}'_\alpha$的两个元素使得$f_\alpha(x) = f_\alpha(y)$和$f'_\alpha(x') = f'_\alpha(y')$，则(no. 5，引理1)存在两个元素$\beta$，$\gamma$ I使得$\beta \geqslant \alpha$、$\gamma \geqslant \alpha$和$f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$、$f'_{\gamma\alpha}(x') = f'_{\gamma\alpha}(y')$；由于I是有向的，因此存在$\delta \in \mathrm{I}$使得$\delta \geqslant \beta$和$\delta \geqslant \gamma$；因此$f_{\delta\alpha}(x) = f_{\delta\alpha}(y)$和$f'_{\delta\alpha}(x') = f'_{\delta\alpha}(y')$。这样就完成了证明。
 
 双射 $g$ 被称为*规范*。
 
 #### 推论{#ens-iii-s7-n7-cor-2 .statement tag=03RX}
 
-*令*$(\mathrm{F}_\alpha, g_{\beta\alpha})$*和*$(\mathrm{F}'_\alpha, g'_{\beta\alpha})$*为集合中的两个直接系统相对于*I，*并且对于每个*$\alpha \in \mathrm{I}$*让*$u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$，$u'_\alpha : \mathrm{E}'_\alpha \to \mathrm{F}'_\alpha$*为映射使得* $(u_\alpha)$ *和* $(u'_\alpha)$ *是映射中的两个直接系统。那么* $(u_\alpha \times u'_\alpha)$ *是映射的直接系统，并且（直到规范的双射）我们有*
+*设*$(\mathrm{F}_\alpha, g_{\beta\alpha})$*和*$(\mathrm{F}'_\alpha, g'_{\beta\alpha})$*为集合的两个直接系统相对于*I，*并且对于每个*$\alpha \in \mathrm{I}$*让*$u_\alpha : \mathrm{E}_\alpha \to \mathrm{F}_\alpha$，$u'_\alpha : \mathrm{E}'_\alpha \to \mathrm{F}'_\alpha$*为映射使得*$(u_\alpha)$*和* $(u'_\alpha)$ *是映射中的两个直接系统。那么* $(u_\alpha \times u'_\alpha)$ *是映射的直接系统，并且（直到规范的双射）我们有*
 
 (35) $$\varinjlim (u_\alpha \times u'_\alpha) = (\varinjlim u_\alpha) \times (\varinjlim u'_\alpha).$$
 
@@ -652,6 +652,6 @@ $$\varinjlim (\mathrm{E}_\alpha \times \mathrm{E}'_\alpha) \to (\varinjlim \math
 
 ### 习题{#ens-iii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。
 
-[^1]: 这意味着$u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$。
+[^1]: This means that $u_\alpha \circ f_{\alpha\beta} = g_{\alpha\beta} \circ u_\beta$.

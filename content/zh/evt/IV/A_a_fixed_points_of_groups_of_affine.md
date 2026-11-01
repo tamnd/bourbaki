@@ -29,22 +29,22 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 41b5ab3ccd81100001146b37e6f191930b56304ede6a8f6bf2ffaaf4246dc6dd
+content_sha256: e08e69e99757590a16785b1d29d3902ed8dced7504f9095481d15a9c5c708ab9
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
 translation_method: google
 source_content_sha256: a3148232ea5c844b272b5847081786d07ced849332b19697c848a4c2a2b6e871
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ec0ac385c45f5f8b3f11231592a431d1aa650c98f8dfbfbf4bd4d2ceb610be9d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
-# 修复了仿射变换的群的点
+# 修复了仿射变换的点或群
 
-### 1.可解群的情况
+### 1. 可解群的情况
 
 设 E 为实数向量空间，K 为 E 的凸子集。映射 $u : K \to K$，这样对于 K 中的 $x, y$ 以及 $[0, 1]$ 中的每个实数 $t$，我们有
 
@@ -70,13 +70,13 @@ $$
 
 由于 K 是紧致的，因此也是有界的（III，p. 3，道具 2），序列 $(u^n(x) - x)_{n \geq 1}$ 是有界的；因而，序列$\left( \frac{1}{n}(u^n(x) - x) \right)_{n \geq 1}$趋于0（III，p. 4，命题3），并且由于E是Hausdorff，所以我们有$u(a) - a = 0$。因而$a \in K_u$。
 
-每个集合$K_u$都是紧空间K的闭凸子集，我们将证明交$\bigcap_{u \in \Gamma} K_u$非空。为此，只需证明，对于$n \geq 1$和$\Gamma$中的$u_1, ..., u_n$，集合$K_{u_1} \cap ... \cap K_{u_n}$非空即可。 $n = 1$的案件已经考虑完毕，我们通过归纳对$n$进行辩论。假设 $n \geq 2$ 并放入 $L = K_{u_1} \cap ... \cap K_{u_{n-1}}$。通过归纳的假设，L是E的非空紧凸子集。由于$u_n$与$u_1, ..., u_{n-1}$可交换，我们有$u_n(L) \subset L$。 应用证明的第一个部分到$u_n$在L上引起的仿射变换，我们结论在L中存在点$a$使得$u_n(a) = a$；然后$a$属于到$K_{u_1} \cap ... \cap K_{u_n}$，那么它就非空了。
+每个集合$K_u$都是紧空间K的闭凸子集，我们将证明交$\bigcap_{u \in \Gamma} K_u$非空。为此，只需证明，对于$n \geq 1$和$\Gamma$中的$u_1, ..., u_n$，集合$K_{u_1} \cap ... \cap K_{u_n}$非空即可。 $n = 1$的情况已经考虑完毕，我们通过归纳对$n$进行辩论。假设 $n \geq 2$ 并放入 $L = K_{u_1} \cap ... \cap K_{u_{n-1}}$。通过归纳的假设，L是E的非空紧凸子集。由于$u_n$与$u_1, ..., u_{n-1}$可交换，我们有$u_n(L) \subset L$。 应用证明的第一个部分到$u_n$在L上引起的仿射变换，我们结论在L中存在点$a$使得$u_n(a) = a$；然后$a$属于到$K_{u_1} \cap ... \cap K_{u_n}$，那么它是非空的。
 
 #### 推论 {#evt-iv-a0-n1-cor-1 .statement tag=07WJ}
 
 — *令 G 为 K 上连续仿射变换的可解群。则 K 中存在点，其在 G 下不变。*
 
-通过可解群 (A, I, § 6, No. 4) 的定义，存在 G 的不同子群的有限递减序列 $(G_i)_{0 \leq i \leq n}$，使得 $G_0 = G$、$G_n = \{e\}$ 且群 $G_{i-1}/G_i$ 是*可交换的* $1 \leq i \leq n$。令$K_i$表示K中$G_i$的固定点的集合。然后是$K_n = K$。此外，对于$1 \leq i \leq n$，$G_i$诱导的每元素在$K_i$上进行恒等变换；因而，如果 $K_i$ 非空，我们就可以在 K 上推导出阿贝尔的群 $G_{i-1}/G_i$ 的作用；由此可见。 1 $K_i$中$G_{i-1}/G_i$固定点的集合$K_{i-1}$非空。通过在 $i$ 上下降归纳，我们结论 $K_0$ 非空，因此得出推论。
+通过可解群 (A, I, § 6, No. 4) 的定义，存在 G 的不同子群的有限递减序列 $(G_i)_{0 \leq i \leq n}$，使得 $G_0 = G$、$G_n = \{e\}$ 且群 $G_{i-1}/G_i$ 是*可交换的* $1 \leq i \leq n$。令$K_i$表示K中$G_i$的固定点的集合。然后是$K_n = K$。此外，对于$1 \leq i \leq n$，$G_i$诱导的每元素在$K_i$上进行恒等变换；因而，如果 $K_i$ 非空，我们就可以在 K 上推出阿贝尔的群 $G_{i-1}/G_i$ 的作用；由此可见。 1 $K_i$中$G_{i-1}/G_i$固定点的集合$K_{i-1}$非空。通过在 $i$ 上下降归纳，我们结论 $K_0$ 非空，因此得出推论。
 
 ### 2. 不变意味着
 
@@ -90,7 +90,7 @@ $$
 
 #### 引理 1 {#evt-iv-a0-lem-1 .statement tag=07WL}
 
-* X 上的平均值集合 K 是 Banach 空间 $E = \mathscr{B}(X; \mathbf{R})$ 的对偶球单位的子集，其元素是线性形式 $\mu$，使得$\mu(1) = 1$。它是 $E'$ 的子集，对于 $\sigma(E', E)$ 是凸且紧的。*
+* X 上的平均值集合 K 是 Banach 空间 $E = \mathscr{B}(X; \mathbf{R})$ 的对偶的单位球的子集，其元素是线性形式 $\mu$，使得$\mu(1) = 1$。它是 $E'$ 的子集，对于 $\sigma(E', E)$ 是凸且紧的。*
 
 令 E 上的 $\mu$ 为线性形式，使得 $\mu(1) = 1$。对于每函数 $f \in E$，我们定义函数 $f' \in E$ $f'(x) = \|f\| - f(x)$ ($x \in X$)。首先假设$\mu$是均值；对于每个$f \in E$，我们有$f' \geq 0$，因而$\mu(f') \geq 0$，*即*$\mu(f) \leq \|f\|$；因而$\|\mu\| \leq 1$。
 
@@ -112,27 +112,27 @@ $$
 u_{\gamma} \mu(f) = \mu(f \circ \gamma) \quad (\mu \in K, f \in E).
 $$
 
-如果$K$由$\sigma(E', E)$诱导分配拓扑，映射$u_{\gamma}$是连续的。如果$\gamma$是同胚，$u_{\gamma} \mu$可以由$\mu$通过迁移推出结构。最后，我们对$\Gamma$中的所有$\gamma, \gamma'$有$u_{\gamma} u_{\gamma'} = u_{\gamma' \gamma} u_{\gamma}$。由马尔科夫-卡库塔尼 th。 (IV, p. 39, 第 1), *在 $X$ 上存在一个平均值 $\mu$，使得所有 $\gamma \in \Gamma$ 都有 $u_{\gamma} \mu = \mu$；在其他字*中，对于$f \in E$和$\gamma \in \Gamma$，$\mu$满足关系$\mu(f) = \mu(f \circ \gamma)$。
+如果$K$由$\sigma(E', E)$诱导分配拓扑，映射$u_{\gamma}$是连续的。如果$\gamma$是同胚，$u_{\gamma} \mu$可以由$\mu$通过迁移或结构推出。最后，我们对$\Gamma$中的所有$\gamma, \gamma'$有$u_{\gamma} u_{\gamma'} = u_{\gamma' \gamma} u_{\gamma}$。由马尔科夫-卡库塔尼 th。 (IV, p. 39, th.1), *在$X$上存在一个均值$\mu$，使得$u_{\gamma} \mu = \mu$对于所有$\gamma \in \Gamma$；在其他字*中，对于$f \in E$和$\gamma \in \Gamma$，$\mu$满足关系$\mu(f) = \mu(f \circ \gamma)$。
 
 以类似的方式，th 的推论。 1 (IV, p. 40) 意味着以下结果：
 
 #### 命题 1 {#evt-iv-a0-prop-1 .statement tag=07WM}
 
-*令$X$为拓扑空间，且$G$为可解群。我们假设$G$在左侧的$X$上运行，这样对于所有$g \in G$，从$X$到$X$的映射$x \mapsto g.x$是连续的。那么 $X$ 上存在一个均值，该均值在 $G$ 下不变。*
+*设$X$为拓扑空间，$G$为可解群。我们假设$G$对左侧的$X$进行运算，这样对于所有$g \in G$，从$X$到$X$的映射$x \mapsto g.x$都是连续的。那么 $X$ 上存在一个均值，该均值在 $G$ 下不变。*
 
 #### 推论{#evt-iv-a0-n2-cor-1 .statement tag=07WN}
 
 *设$G$为可解拓扑群。那么 $G$ 上存在一个均值，它在左平移和右平移下保持不变。*
 
-应用 prop 就足够了。 1 到 $(g.g').x = {gxg'}^{-1}$ 作用于 $G$ 的可解群 $G \times G$。
+应用 prop 就足够了。 1 到可解的群 $G \times G$ 通过 $(g.g').x = {gxg'}^{-1}$ 作用于 $G$。
 
-### 3. 里尔·纳尔泽夫斯基定理
+### 3. 里尔-纳尔泽夫斯基定理
 
-在这个截面中，$E$ 表示域 $\mathbf{R}$ 上的规范 *空间* 和 $\mathscr{T}$ $E$ 上的 Hausdorff 局部凸拓扑，其中 $E$ 的范数 *较低半连续*。这些假设在以下情况下尤其得到满足：
+In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\mathscr{T}$ a Hausdorff locally convex topology on $E$ for which the norm of $E$ is *lower semi-continuous*. 这些假设在以下情况下尤其得到满足：
 
-a) $\mathscr{T}$ 是由范数空间 $E$ 的范数引起的拓扑。
+a) $\mathscr{T}$ 是由范数空间 $E$ 的范数引发的拓扑。
 b) $\mathscr{T}$ 是规范化空间 $E$ 的弱化拓扑 $\sigma(E, E')$。
-c) $E$ 是范数空间 $F$ 和 $\mathscr{T} = \sigma(F', F)$ 的对偶。
+c) $E$ 是规范的空间 $F$ 和 $\mathscr{T} = \sigma(F', F)$ 的对偶。
 d) 存在两个范数空间、$F_1$和$F_2$，使得$E = \mathscr{L}(F_1 ; F_2)$和$\mathscr{T}$是简单收敛的拓扑。
 
 *除非另有明确说明，拓扑概念指拓扑$\mathscr{T}$。*
@@ -166,9 +166,9 @@ $$
 
 #### 引理 3 {#evt-iv-a0-lem-3 .statement tag=07WP}
 
-令 G 为 K 上连续（对于 $\mathscr{T}$）仿射变换的群。假设 K 非空，并且对于 K 中的所有 x、y 和 G 中的所有 g 都有 $\|gx - gy\| = \|x - y\|$。那么 K 中存在点，它在 G 下是不变的。
+设 G 为 K 上连续（对于 $\mathscr{T}$）仿射变换的群。假设 K 非空，并且对于 K 中的所有 x、y 和 G 中的所有 g 都有 $\|gx - gy\| = \|x - y\|$。则 K 中存在点，它在 G 下是不变的。
 
-令$\mathfrak{J}$为K的非空子集族，对于G来说是闭凸且稳定的。如果$(L_\alpha)_{\alpha \in I}$是$\mathfrak{J}$的元素族，且按包含全序，则集合$L = \bigcap_{\alpha \in I} L_\alpha$属于到$\mathfrak{J}$。因而（S，III, § 3, No. 4，th.2），$\mathfrak{J}$中存在元素L，这对于关系的包含而言是最小的。我们将证明L约化到点。
+令$\mathfrak{J}$为K的非空子集族，对于G来说是闭凸且稳定的。如果$(L_\alpha)_{\alpha \in I}$是$\mathfrak{J}$的元素族，且按包含全序，则集合$L = \bigcap_{\alpha \in I} L_\alpha$属于到$\mathfrak{J}$。因而（S，III, § 3, No. 4，th.2），$\mathfrak{J}$中存在元素L，这对于包含关系来说是最小的。我们将证明L约化到点。
 
 我们通过反证法进行论证，假设L包含至少有两个不同的点$x_1$和$x_2$，放入$x = (x_1 + x_2)/2$和$\varepsilon = \|x_1 - x_2\|/2$。凸和紧集 L 满足由范数 (GT, IX, § 2, No. 8) 定义的距离的第一可数公理。因而，我们可以应用引理 2 并找到L的紧凑且凸的子集$L_1$，与$\varnothing$和L不同，具有以下性质：
 
@@ -180,23 +180,23 @@ $$
 \|gx_i - gx\| = \|x_i - x\| = \|x_1 - x_2\|/2 = \varepsilon ,
 $$
 
-$i = 1, 2$。到性质 (A)，我们有$gx_i \in L_1$。由于$L_1$是凸的，我们将$gx = (gx_1 + gx_2)/2$属于结论变为$L_1$，即与……矛盾假设。
+$i = 1, 2$。到性质 (A)，我们有$gx_i \in L_1$。由于$L_1$是凸的，我们将结论从$gx = (gx_1 + gx_2)/2$属于到$L_1$，即与……矛盾假设。
 
 令 $L'$ 为 x 的轨道 $Gx$ 的闭凸包络。 集合$L'$属于至$\mathfrak{J}$。根据前面的论证，我们有$L' \subset L_1$，因此有$L' \subset L, L' \neq L$。这样与……矛盾L和证明的最小特征标就完成了。
 
 #### 定理 2（里尔-纳尔泽夫斯基）{#evt-iv-a0-thm-2 .statement tag=07WQ}
 
-— *令 E 为赋范空间，K 为 E 的非空凸子集，对于弱化拓扑 $\sigma(E, E')$ 而言，它是紧致的。设G为K的等距仿射变换的群，则K中存在点，其在G下不变。*
+— *令 E 为赋范空间，K 为 E 的非空凸子集，对于弱化的拓扑 $\sigma(E, E')$ 是紧致的。设G为K的等距仿射变换的群，则K中存在点，其在G下不变。*
 
-对于每个$g \in G$，让$K_g$表示K中所有点x中的集合，使得$gx = x$；令 K 被指定为弱化的拓扑；每个集合$K_g$在紧致空间K中都是凸且闭的。我们将证明交$\bigcap_{g \in G} K_g$非空；为此，只需证明对于G中的每个$g_1, ..., g_n$来说集合$K_{g_1} \cap ... \cap K_{g_n}$非空即可。固定$g_1, ..., g_n$并令H为$\{ g_1, ..., g_n \}$生成的G的子群。 K 中的选择点 a，令 L 表示 a 的轨道 Ha 的闭凸包络。令 D 为形式 $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$ 的元素的可数集合，其中 $\lambda_1, ..., \lambda_m$ 是正有理数数，使得 $\lambda_1 + \cdots + \lambda_m = 1$ 和 $h_1, ..., h_m$ 是 H 中的元素。 D 的 $\overline{D}$ 对于强拓扑是凸的，因此它对于 $\sigma(E, E')$ 是封闭的（IV，p. 4，道具 2）；因而$\overline{D} = L$，这证明L是一个度量空间满足距离$(x, y) \mapsto \|x - y\|$的第一个可数公理。现在我们可以应用引理 2。L中存在点 b，它在H下是不变的，因而$b \in K_{g_1} \cap ... \cap K_{g_n}$。
+对于每个$g \in G$，令$K_g$表示K中所有点x中的集合，使得$gx = x$；令 K 被指定为弱化的拓扑；每个集合$K_g$在紧致空间K中都是凸且闭的。我们将证明交$\bigcap_{g \in G} K_g$非空；为此，只需证明对于G中的每个$g_1, ..., g_n$来说集合$K_{g_1} \cap ... \cap K_{g_n}$非空即可。固定$g_1, ..., g_n$并令H为$\{ g_1, ..., g_n \}$生成的G的子群。 K 中的选择点 a，令 L 表示 a 的轨道 Ha 的闭凸包络。令 D 为形式 $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$ 的元素的可数集合，其中 $\lambda_1, ..., \lambda_m$ 是正有理数数，使得 $\lambda_1 + \cdots + \lambda_m = 1$ 和 $h_1, ..., h_m$ 是 H 中的元素。 D 的 $\overline{D}$ 对于强拓扑是凸的，因此它对于 $\sigma(E, E')$ 是封闭的（IV，p. 4，道具 2）；因而$\overline{D} = L$，这证明L是一个度量空间满足距离$(x, y) \mapsto \|x - y\|$的第一个可数公理。现在我们可以应用引理 2。L中存在点 b，它在H下是不变的，因而$b \in K_{g_1} \cap ... \cap K_{g_n}$。
 
 #### 推论{#evt-iv-a0-n3-cor-1 .statement tag=07WR}
 
-— 令 E 为自反 Banach 空间，赋模空间 E 的自同构的 G 群，以及 E 的 K 子集。假设 K 在 G 下非空、凸、闭、有界且稳定。则 K 中存在点，其在 G 下不变。
+— 设 E 为自反 Banach 空间，赋模空间 E 的自同构的 G 群，以及 E 的 K 子集。假设 K 在 G 下非空、凸、闭、有界且稳定。则 K 中存在点，其在 G 下不变。
 
 由于 E 是自反的，因而 K 对于 $\sigma(E, E')$ (IV, p. 15, th. 1) 是紧致的。此外，G属于到$\mathscr{L}(E)$的每元素。
 
-### 4. 应用程序。
+### 4. 应用。
 
 \* A) 表示群 ：
 令 E 为复希尔伯特空间、G 群和 $\pi$ E 上 G 的酉表示，即同态从 G 到 E 的自同构的群。令 $E^G$ 为希尔伯特所有向量的E由……组成的子空间在$\pi(G)$下不变。对于每个 $x \in E$，令 $K_x$ 为 x 的轨道的闭凸包络。修复 E 中的点 x。
@@ -268,4 +268,4 @@ Exercises
 
 ### 习题{#evt-iv-a0-exercises}
 
-请参见附录 0](exercises/a0/) 的 [习题。
+参见[习题附录 0](exercises/a0/)。

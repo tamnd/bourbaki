@@ -25,25 +25,25 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: e99632dca4877307b266dba4c6cb2e2b7c93778062281ab93f609805e2600a3e
+content_sha256: 16fe9be4edc94029a9a4e21d2812d5a4099cd43c53dc37db9cb20737907c1355
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
 translation_method: google
 source_content_sha256: c14b2d3b10b39cdfef4ea9acb546a2878e81232b29d6cdb8928fc7269171f7f2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3cc128c37a3cb40fbe42ee75f0078ca65ac0412ff7c38b69825b9ad1c2ee265d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。真实领域中的 GAMMA 函数
 
-### 1.伽马定义函数
+### 1. 伽玛的定义函数
 
 我们定义了（集合理论，III，p. 179）函数$n!$对于每个整数$n \geq 0$，等于乘积$\prod_{0 \leq k < n} (n - k)$；所以$0! = 1$和$(n + 1)! = (n + 1)\, n!$代表$n \geq 0$。
 
-我们为每个整数 $n \geq 1$ 集合 $\Gamma(n) = (n - 1)!$；我们建议在实数$x > 0$的集合上向定义，延伸在整数$\geq 1$的集合上定义的连续函数$\Gamma(x)$延伸函数$\Gamma$。
+我们每整数$n \geq 1$集合$\Gamma(n) = (n - 1)!$；我们建议在实数$x > 0$的集合上向定义，延伸在整数$\geq 1$的集合上定义的连续函数$\Gamma(x)$延伸函数$\Gamma$。
 
 显然这样的函数有无穷多个；由于$\Gamma(n + 1) = n\Gamma(n)$对于每个整数$n \geq 1$，我们将限制自己在连续函数中考虑扩展$\Gamma$，那些满足方程
 
@@ -83,9 +83,9 @@ $$
 
 #### 命题 1 {#fvr-vii-s1-prop-1 .statement tag=08IX}
 
-*存在且仅有一个凸函数* $g$ *定义在* ]0, +∞[ *满足方程* (3) *并且对于* $x = 1$取值 0。
+*存在且仅有一个凸函数* $g$ *定义在* ]0, +∞[ *满足方程* (3) *并且对* $x = 1$取值 0。
 
-首先我们证明，如果存在函数 $g$ 满足条件，那么它在区间 ]0, 1] 上是明确确定的，因此在区间 ]0, +∞[ 上也是确定的。事实上，对于每个整数$n > 1$，连接点$(n, g(n))$到点$(x, g(x))$的线的梯度是$x$的递增函数，因为$g$是凸的（I， p. 27，道具 5)；因而，对于 $0 < x \leq 1$，必须有，
+首先我们证明，如果存在函数 $g$ 满足条件，那么它在区间 ]0, 1] 上是确定的，因此在区间 ]0, +∞[ 上是确定的。事实上，对于每个整数$n > 1$，连接点$(n, g(n))$到点$(x, g(x))$的线的梯度是$x$的递增函数，因为$g$是凸的（I， p. 27，道具 5)；因而，对于 $0 < x \leq 1$，必须有，
 
 $$
 \frac{g(n-1) - g(n)}{(n-1) - n} \leq \frac{g(n+x) - g(n)}{(n+x) - n} \leq \frac{g(n+1) - g(n)}{(n+1) - n}
@@ -146,7 +146,7 @@ $$
 $$
 g(x+1) = -\log(x+1) + x \log 2 + \sum_{n=3}^{\infty} u_n(x) = \log x + g(x);
 $$
-其它字、$g$满足VII、p. 306的式(3)。
+其余字、$g$满足VII、p. 306的式(3)。
 
 #### 定义 1 {#fvr-vii-s1-def-1 .statement tag=08IY}
 
@@ -157,7 +157,7 @@ $$
 *(7)*
 *并且是这样的*$\Gamma(1) = 1$*并且*$\log \Gamma(x)$*在*$]0, +\infty[$上是凸的。
 
-### 2.伽玛函数的特性
+### 2. GAMMA 函数的特性
 
 #### 命题 2 {#fvr-vii-s1-prop-2 .statement tag=08IZ}
 
@@ -183,9 +183,9 @@ $$
 \mathrm{D}^k (\log \Gamma(x)) = \sum_{n=0}^{\infty} \frac{(-1)^k (k-1)!}{(x+n)^k} \quad \text{for} \quad k \geq 2,
 $$
 
-(10) 和 (11) 右侧的级数绝对一致收敛于每个紧区间，而不是包含任何整数 $\leq 0$。
+(10) 和 (11) 右侧的级数在每个紧区间上绝对一致收敛，而不是包含任何整数 $\leq 0$。
 
-事实上，证明的道具。 VII、p. 306 中的 1 表明
+事实上，道具的证明。 VII、p. 306 中的 1 表明
 
 $$
 \Gamma(x) = \lim_{n \to \infty} \frac{n^x (n-1)!}{x(x+1)\ldots(x+n-1)}
@@ -244,9 +244,9 @@ $$
 
 **如图。 1**
 
-### 3.欧拉积分
+### 3. 欧拉积分
 
-为了简洁起见，我们可以说，如果 $\log f$ 在 $I$ 上凸，则在区间 $I \subset \mathbf{R}$ 上定义的函数 $f$ 以及在该区间上定义的 $> 0$ 在 $I$ 上*对数凸*。 $\Gamma(x)$的定义表明这个函数在$]0, +\infty[$上是对数凸的。
+为了简洁起见，我们可以说，如果 $\log f$ 在 $I$ 上凸，则在区间 $I \subset \mathbf{R}$ 上定义的函数 $f$ 以及在该区间上的 $> 0$ 在 $I$ 上*对数凸*。 $\Gamma(x)$的定义表明，这个函数在$]0, +\infty[$上是对数凸的。
 
 显然，$I$上的两个对数凸函数的*乘积*在$I$上也是对数凸的。进一步：
 
@@ -308,7 +308,7 @@ $$
 
 因此，命题由道具得出。 1 个VII、p. 306。
 
-通过变量$e^{-t} = u$的变换可从 (14) (VII, p. 311) 公式推出
+通过变量$e^{-t} = u$的变换可以从 (14) (VII, p. 311) 公式推出
 
 $$
 \Gamma(x) = \int_0^1 \left( \log \frac{1}{t} \right)^{x-1} dt.
@@ -359,10 +359,10 @@ $$
 + \frac{x}{x+y} \int_0^1 (1-t)^{x+y} \left( \frac{t}{1-t} \right)^{x-1} \frac{dt}{(1-t)^2} = \frac{x}{x+y} \mathbf{B}(x, y).
 $$
 
-由此可知$f(x) = \mathbf{B}(x, y) \Gamma(x+y)$满足VII、p. 305的恒等式(1)
-而且，这个函数是对数凸的，是两个对数凸函数的乘积。最后，有$f(1) = \mathbf{B}(1, y) \Gamma(y+1)$、$\mathbf{B}(1, y) = \int_0^1 (1-t)^{y-1} dt = 1/y$、从而$f(1) = \frac{1}{y} \Gamma(y+1) = \Gamma(y)$。因此，函数$f(x)/\Gamma(y)$等于$\Gamma(x)$。 VII、p. 306 中的 1，证明 (18)。
+由此可见$f(x) = \mathbf{B}(x, y) \Gamma(x+y)$满足VII、p. 305的恒等式(1)
+而且，这个函数是对数凸的，是两个对数凸函数的乘积。最后，有$f(1) = \mathbf{B}(1, y) \Gamma(y+1)$、$\mathbf{B}(1, y) = \int_0^1 (1-t)^{y-1} dt = 1/y$、从而$f(1) = \frac{1}{y} \Gamma(y+1) = \Gamma(y)$。因此，根据属性，函数$f(x)/\Gamma(y)$等于$\Gamma(x)$。 VII、p. 306 中的 1，证明 (18)。
 
-由变量$t = \frac{u}{u+1}$公式的变换 (18) 变为
+由变量 $t = \frac{u}{u+1}$ 公式的变换 (18) 变为
 
 $$
 \int_0^\infty \frac{t^{x-1}}{(1+t)^{x+y}} dt = \frac{\Gamma(x) \Gamma(y)}{\Gamma(x+y)}
@@ -400,7 +400,7 @@ $$
 $$
 (23)
 
-对于 $\Gamma(x)$，在 0 的邻域上。
+对于 $\Gamma(x)$，在邻域 0 上。
 
 类似地，对于所有$y$固定和$> 0$都可以写
 
@@ -435,7 +435,7 @@ $$
 $$
 对于 0 的邻域上的 $\mathbf{B}(x, y)$。
 
-对于 $n = 1$ 展开与 (24) 的辨识特别给出
+对于 $n = 1$ 展开与 (24) 的识别特别给出
 $$
 \Gamma'(1) - \frac{\Gamma'(y)}{\Gamma(y)} = \int_0^1 \frac{(1-t)^{y-1} - 1}{t} dt.
 $$
@@ -447,4 +447,4 @@ $$
 
 ### 习题{#fvr-vii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

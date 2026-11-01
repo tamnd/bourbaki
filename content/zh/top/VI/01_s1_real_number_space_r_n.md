@@ -36,19 +36,19 @@ subsections:
       pdf_page: 43
 statements: 11
 exercises: 13
-content_sha256: e5a6179e8a486d5689ab0538c6a3746f81844045ef1f97c1ce4a3528b3f94a4a
+content_sha256: a4bda3f1310d1eb14f714cc535c2951c34ab39c29180a5609e2cf04fe9312c02
 translated_from: content/en/top/VI/01_s1_real_number_space_r_n.md
 translation_method: google
 source_content_sha256: 32d87d11d82f3f26afa123ebedc5e4a3d3bf1c06362cc553b78907c825a45e4c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 66706333968c414c1902c48e7e8b8157808dd23b14f105183a90ccd64e35a8ad
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1.实数空间$\mathbf{R}^n$
+## 1. REAL NUMBER SPACE $\mathbf{R}^n$
 
 ### 1. $\mathbf{R}^n$ 的拓扑
 
@@ -94,19 +94,19 @@ $\mathbf{R}^n$ 的子集 $A$ 是相对紧的当且仅当它是有界的。
 
 空间 $\mathbf{R}^n$ 是局部紧致的，但如果 $n \geq 1$ 则不是紧致的。
 
-### 2.加法群$\mathbf{R}^n$
+### 2. 加法群$\mathbf{R}^n$
 
 集合$\mathbf{R}^n$，赋予群结构即$\mathbf{R}^n$的$n$因子的加法群结构的乘积，为阿贝尔的群；我们使用$x = (x_i)$和$y = (y_i)$的添加剂记号、和，因此$x + y = (x_i + y_i)$。 数空间的拓扑与此群结构兼容；赋予这两个结构，$\mathbf{R}^n$是一个拓扑群，称为n维实数空间*的*加法群。 如果$n = 0$，我们约定$\mathbf{R}^0$仅表示单位元素中的群由……组成。
 
 这个群的均匀度结构，称为$\mathbf{R}^n$的*加性均匀度*，是$\mathbf{R}^n$的因子均匀度的乘积（章III, § 3, no. 2）。如果，对于每个整数$p > 0$，$V_p$表示对$(x, y)$或$\mathbf{R}^n$的集合，使得$\max_{1 \leq i \leq n} |x_i - y_i| \leq 1/p$，集合$V_p$形式一个*基本* 系统这种一致性的随从。每当我们将 $\mathbf{R}^n$ 视为均匀性空间时，我们将始终牢记刚刚定义的加法均匀性，除非明确指出了相反的情况。有了这套制服结构，$\mathbf{R}^n$就是一套完整的制服空间（章II、、no. 5、命题10）
 
-### 3.向量空间$\mathbf{R}^n$
+### 3. 向量空间$\mathbf{R}^n$
 
-由于$\mathbf{R}$是域，我们可以在标量$t \in \mathbf{R}$的域$\mathbf{R}$、乘积$t x$上对$\mathbf{R}^n$向量空间结构进行定义并且点（或向量）$x = (x_i)$ / $\mathbf{R}^n$ 为点 $(t x_i)$。 注位似 $(t, x) \to t x$ 在 $\mathbf{R} \times \mathbf{R}^n$ 上连续。如果$e_i$表示$\mathbf{R}^n$中的向量，除了指标$i$的坐标等于1外，所有坐标均为零，则向量空间的$e_i$形式基 $\mathbf{R}^n$，这个空间称为典范基。每个向量$x = (x_i) \in \mathbf{R}^n$都可以写成$x = \sum_{i=1}^n x_i e_i$，关系$\sum_{i=1}^n t_i e_i = 0$意味着$t_i = 0$对应$1 \leq i \leq n$。
+由于$\mathbf{R}$是域，我们可以在标量$t \in \mathbf{R}$的域$\mathbf{R}$、乘积$t x$上对$\mathbf{R}^n$向量空间结构进行定义并且点（或向量）$x = (x_i)$ / $\mathbf{R}^n$ 为点 $(t x_i)$。 注位似 $(t, x) \to t x$ 在 $\mathbf{R} \times \mathbf{R}^n$ 上连续。如果$e_i$表示$\mathbf{R}^n$中的向量，除了指标$i$的坐标等于1外，所有坐标均为零，则向量空间的$e_i$形式基 $\mathbf{R}^n$，称为这个空间的典范基。每个向量$x = (x_i) \in \mathbf{R}^n$都可以写成$x = \sum_{i=1}^n x_i e_i$，关系$\sum_{i=1}^n t_i e_i = 0$意味着$t_i = 0$对应$1 \leq i \leq n$。
 
-因此，在代数（代数，章II, § 7, no. 2）的意义上，向量空间$\mathbf{R}^n$是维数$n$超过域$\mathbf{R}$；因此它的名称为$n$维实数空间。
+因此，向量空间$\mathbf{R}^n$是维数$n$超过域$\mathbf{R}$，在代数（代数，章II, § 7, no. 2）的意义上；因此它的名称为$n$维实数空间。
 
-令$f$为向量空间$\mathbf{R}^n$到向量空间$\mathbf{R}^m$的仿射映射（$m$和$n$为整数 > 0）。如果我们把$g(x) = f(x) - f(0)$，$g$就是$\mathbf{R}^n$的线性映射放入$\mathbf{R}^m$。设$a_{ij}$($1 \leq j \leq m$)为$g(e_i)$在$\mathbf{R}^m$中的坐标，令$b_j$($1 \leq j \leq m$)为$f(0)$的坐标；如果 $x_i$ ($1 \leq i \leq n$) 是 $x \in \mathbf{R}^n$ 的第 $i$ 坐标，并且如果 $y_j$ 是 $y = f(x)$ 的第 $j$ 坐标，我们有
+令 $f$ 为向量空间 $\mathbf{R}^n$ 到向量空间 $\mathbf{R}^m$ 的仿射映射（$m$ 和 $n$ 整数 > 0）。如果我们把$g(x) = f(x) - f(0)$，$g$就是$\mathbf{R}^n$的线性映射放入$\mathbf{R}^m$。设$a_{ij}$($1 \leq j \leq m$)为$g(e_i)$在$\mathbf{R}^m$中的坐标，令$b_j$($1 \leq j \leq m$)为$f(0)$的坐标；如果 $x_i$ ($1 \leq i \leq n$) 是 $x \in \mathbf{R}^n$ 的第 $i$ 坐标，并且如果 $y_j$ 是 $y = f(x)$ 的第 $j$ 坐标，我们有
 
 $$
 y_j = \sum_{i=1}^n a_{ij} x_i + b_j \quad (1 \leq j \leq m).
@@ -116,11 +116,11 @@ $$
 
 特别是，我们知道 $\mathbf{R}^n$ 对自身的每个仿射映射都是双射的，并且它的逆也是仿射映射；因此，$\mathbf{R}^n$对自身的每个仿射映射都是同胚（以及$\mathbf{R}^n$的一致结构的自同构）。
 
-令$(a_i)_{1 \leq i \leq n}$为$n$向量的$\mathbf{R}^n$的自由系统[在向量空间$\mathbf{R}^n$的其他字基]；如果$b$是$\mathbf{R}^n$的任何点，点$x = b + \sum_{i=1}^{n} u_i a_i$的集合 P，使得$1 \leq i \leq n$的$-1 \leq u_i \leq 1$是$b$的紧凑邻域；因为存在 $\mathbf{R}^n$ 对其自身的双射仿射映射 $f$，使得 $f(b) = 0, f(b + a_i) = e_i$ 对于 $1 \leq i \leq n$； $f(P)$是$n$因子空间中$n$区间$[ -1, +1 ]$的立方乘积。 $P$ 与中心 $b$ 和基向量 $a_i$ 称为闭平行同位素。 $P$的内部由点$b + \sum_{i=1}^{n} u_i a_i$组成，使得$-1 < u_i < 1$代表$1 \leq i \leq n$；它被称为开放平行四面体，具有中心$b$和基向量$a_i$。
+设$(a_i)_{1 \leq i \leq n}$为$\mathbf{R}^n$的$n$向量的自由系统[在向量空间$\mathbf{R}^n$的其他字基]；如果$b$是$\mathbf{R}^n$的任何点，点$x = b + \sum_{i=1}^{n} u_i a_i$的集合 P，使得$1 \leq i \leq n$的$-1 \leq u_i \leq 1$是$b$的紧凑邻域；因为存在 $\mathbf{R}^n$ 自身的双射仿射映射 $f$，使得 $f(b) = 0, f(b + a_i) = e_i$ 对于 $1 \leq i \leq n$； $f(P)$是$n$因子空间中$n$区间$[ -1, +1 ]$的立方乘积。 $P$ 与中心 $b$ 和基向量 $a_i$ 称为闭平行同位素。 $P$的内部由点$b + \sum_{i=1}^{n} u_i a_i$组成，使得$-1 < u_i < 1$代表$1 \leq i \leq n$；它被称为开放平行空间，具有中心$b$和基向量$a_i$。
 
 ### 4. $\mathbf{R}^n$ 中的仿射线性簇
 
-给定$\mathbf{R}^n$中的$p$维仿射线性簇$V$，存在$\mathbf{R}^n$的仿射映射$f$自身，将变换$V$转化为$p$维坐标簇，也就是说向量子空间$V'$由$\mathbf{R}^n$典范基$(e_i)$向量$p$生成。存在$V'$到$\mathbf{R}^p$的映射，即向量空间结构的同构和$V'$的拓扑到相应的结构的$\mathbf{R}^p$（它是此外，使用这样的坐标变化$V'$通常可以方便地计算认同$\mathbf{R}^p$，例如，使用$e_1, e_2, \ldots, e_p$生成的向量子空间）。在加法中，$V'$是$\mathbf{R}^n$的闭子集（章I, § 4, no. 3，命题7的推论）；因此：
+给定$\mathbf{R}^n$中的$p$维仿射线性簇$V$，存在$\mathbf{R}^n$自身的仿射映射$f$，将变换$V$转换为$p$维坐标簇，即向量子空间$V'$由典范基$(e_i)$$\mathbf{R}^n$向量$p$生成。存在$V'$到$\mathbf{R}^p$的映射，即向量空间结构的同构和$V'$的拓扑到$\mathbf{R}^p$的相应的结构（而且通常很方便）到认同$\mathbf{R}^p$，具有这样的坐标变化$V'$，例如，具有由$e_1, e_2, \ldots, e_p$生成的向量子空间）。在加法中，$V'$是$\mathbf{R}^n$的闭子集（章I, § 4, no. 3，命题7的推论）；因此：
 
 #### 命题 2 {#top-vi-s1-prop-2 .statement tag=0BW8}
 
@@ -156,17 +156,17 @@ $n$ 一维坐标品种，即 $n$ 线经过到 $0$ 以及$n$ 点 $e_i$ 分别称�
 
 *在 $\mathbf{R}^n$ ($n \geq 1$) 中，每个超平面的补集都有两个连通分量。*
 
-令$g(x) = 0$为$\mathbf{R}^n$中超平面$H$的方程，$g$为线性多项式。 集合$CH$是所有点$x$中的集合$E_1$中的并，使得$g(x) > 0$和所有点$x$中的集合$E_2$使得$g(x) < 0$。 $E_1$和$E_2$是相连的，因为如果$g(x) > 0$和$g(y) > 0$，只要$u \geq 0, v \geq 0$和$u + v = 1$，我们就有$g(ux + vy) = ug(x) + vg(y) > 0$；在其他字中，端点为$x$和$y$的线段包含在$E_1$中。对于 $E_2$ 也是如此。另一方面，$CH$不连通，因为$g$下的$\mathbf{R}$中的像是区间]$0, +\infty$[和]$-\infty, 0$[的并。
+令$g(x) = 0$为$\mathbf{R}^n$中超平面$H$的方程，$g$为线性多项式。 集合$CH$是所有点$x$中的集合$E_1$中的并使得$g(x) > 0$和所有点$x$中的集合$E_2$使得$g(x) < 0$。 $E_1$和$E_2$是相连的，因为如果$g(x) > 0$和$g(y) > 0$，只要$u \geq 0, v \geq 0$和$u + v = 1$，我们就有$g(ux + vy) = ug(x) + vg(y) > 0$；在其他字中，端点为$x$和$y$的线段包含在$E_1$中。对于 $E_2$ 也是如此。另一方面，$CH$不连通，因为$g$下的$\mathbf{R}$中的像是区间]$0, +\infty$[和]$-\infty, 0$[的并。
 
 超平面 $H$ 的补集的分量 $E_1, E_2$ 称为由 $H$ 确定的*开半空间*。
 
 $E_1$和$E_2$的闭包分别为$E_1 \cup H$和$E_2 \cup H$，称为由$H$确定的*闭半空间*。
 
-观察$\mathbf{R}^n$的仿射映射自身，其中变换$H$进入“坐标”超平面，例如，超平面，其方程为$x_n = 0$，还有变换由$H$确定的开半空间进入分别由关系 $x_n > 0$ 和 $x_n < 0$ 定义的开放半空间；后者是开放的盒子，因此*同构*$\mathbf{R}^n$。
+观察$\mathbf{R}^n$的仿射映射自身，其中变换$H$进入“坐标”超平面，例如，超平面，其方程为$x_n = 0$，还有变换由$H$确定的开半空间进入分别由关系、$x_n > 0$和$x_n < 0$定义的开放半空间；后者是开放的盒子，因此*同构*$\mathbf{R}^n$。
 
 ### 5. 拓扑向量空间和代数超过域 $\mathbf{R}$
 
-设$E$为维数$n$之向量空间除以域$\mathbf{R}$；如果$(a_i)_{1 \leq i \leq n}$是$E$的*基*，那么每个点$x \in E$都可以唯一地写成形式$x = \sum_{i=1}^n x_i a_i$，其中$x_i$是实数；因此，映射$(x_i) \to \sum_{i=1}^n x_i a_i$是$\mathbf{R}^n$到$E$的双射线性映射。
+设$E$为维数$n$除域$\mathbf{R}$之向量空间；如果$(a_i)_{1 \leq i \leq n}$是$E$的*基*，那么每个点$x \in E$都可以唯一地写成形式$x = \sum_{i=1}^n x_i a_i$，其中$x_i$是实数；因此，映射$(x_i) \to \sum_{i=1}^n x_i a_i$是$\mathbf{R}^n$到$E$的双射线性映射。
 
 如果我们通过这个映射*迁移*到$\mathbf{R}^n$的$E$拓扑，则$E$被赋予与其加法群结构兼容的拓扑，以及映射$(t, x) \to tx$ $\mathbf{R} \times E$到$E$相对于此拓扑是连续的。这个拓扑*独立于$E$中选择的基*；因为如果$(a')$是$E$的另一个基，并且如果$x = \sum_{i=1}^n x'_i a'_i = \sum_{i=1}^n x_i a_i$，$\mathbf{R}^n$的映射$(x_i) \to (x'_i)$自身是线性的，因此是同胚。
 
@@ -188,7 +188,7 @@ $E_1$和$E_2$的闭包分别为$E_1 \cup H$和$E_2 \cup H$，称为由$H$确定�
 
 *在环$\mathbf{M}_n(\mathbf{R})$中，非奇异矩阵的群$\mathbf{GL}_n(\mathbf{R})$是稠密开子集，在此集合上归纳出拓扑与其群结构兼容。*
 
-(*) 如果$E, F, G$是域$K$上的三个向量空间，则$E \times F$到$G$的映射$f$被称为*双线性*，如果我们有相同的
+(*) 如果$E, F, G$是域$K$上的三个向量空间，则$E \times F$到$G$的映射$f$被称为*双线性*，如果我们有相同的条件
 $$
 f(x + x', y) = f(x, y) + f(x', y), \quad f(x, y + y') = f(x, y) + f(x, y'),
 $$
@@ -197,10 +197,10 @@ f(\lambda x, y) = f(x, \lambda y) = \lambda f(x, y)
 $$
 对于所有 $x, x' \in E$、所有 $y, y' \in F$ 和所有 $\lambda \in K$。
 
-如果$X$是非奇异平方矩阵，$X^{-1}$元素是$X$元素函数；因此，这些函数在$X$的邻域中被定义和连续，因此这个邻域中的每个矩阵$Y$都是非奇异的，映射$Y \to Y^{-1}$在点$X$连续；因此，$\mathbf{GL}_n(\mathbf{R})$在$\mathbf{M}_n(\mathbf{R})$中开放，$\mathbf{GL}_n(\mathbf{R})$的拓扑与其群结构兼容。
+如果$X$是非奇异平方矩阵，则$X^{-1}$的元素是$X$的元素函数；因此，这些函数在$X$的邻域中被定义和连续，因此这个邻域中的每个矩阵$Y$都是非奇异的，映射$Y \to Y^{-1}$在点$X$连续；因此，$\mathbf{GL}_n(\mathbf{R})$在$\mathbf{M}_n(\mathbf{R})$中开放，并且$\mathbf{GL}_n(\mathbf{R})$的拓扑与其群结构兼容。
 
 最后，$\mathbf{GL}_n(\mathbf{R})$是方阵$X$的集合的补集，其行列式为零；由于$X$的行列式是$X$的元素中的多项式，no. 4的命题 3表明$\mathbf{GL}_n(\mathbf{R})$在$\mathbf{M}_n(\mathbf{R})$中是稠密的。
 
 ### 习题 {#top-vi-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

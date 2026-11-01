@@ -33,21 +33,21 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 28
-content_sha256: 2883a95acd00321cf329ee0b5aabb28add637b11a2df8a4a2c752de61cf838d6
+content_sha256: 5a11b9ac8edb793cf255bd936d7392fb66e73447933ed7940650ebde2dba50b9
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
 translation_method: google
 source_content_sha256: fccb95f1c743016175d920f3d9b4107ca71a6669ffca75cd9cc5695d9f404b32
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-1907332b
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 4845d46bb9abea8b6f3d305d2ea89aed6d896a3f2eea1f4fb95f586415cea8ba
-prompt_sha256: d0998a9bd80ce225884eb51dfb88b94167570132d7e43aad0d568af03105692e
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 主理想整环
 
-### 1. 定义共主理想整环
+### 1. 定义 / 主理想整环
 
 回想一下 (I, p. 104)，如果对于某些 $a \in A$ 具有形式 $(a) = Aa$，则交换环 $A$ 的理想被称为“主要”。
 
@@ -176,7 +176,7 @@ $\mathbf{Z}$中的不可约整数$> 0$正是我们所说的素数数（I，p. 50
 
 Indeed, given an arbitrary finite family $(p_i)$ ($1 \leq i \leq n$) of distinct prime numbers, any prime divisor $q$ of the number $\left( \prod_{i=1}^n p_i \right) + 1$ (which is $> 1$) is distinct from all the $p_i$, for otherwise it would divide 1.
 
-### 5. 多项式在域上的一个不定式的整除性
+### 5. 域上一个不定多项式的整除性
 
 多项式环 $K[X]$ 在交换域 $K$ 的一个不定数中是主理想整环（IV、p. 11，命题 11）。它的分数的域是$X$中的有理函数的域$K(X)$，系数来自$K$。 次数 0 多项式的环 $K[X]$ 包含子环，即常数域，用$K$标识； $K^*$的元素在$K$中是可逆的，因此在$K[X]$中是可逆的；反之公式 $\deg(uv) = \deg(u) + \deg(v)$ 表明每个可逆多项式都有次数 0；因而，$K[X]$的可逆元的群$U$正好是$K^*$。因而，两个关联多项式仅相差非零的常数因子；特别是关联多项式包含的每个类都是唯一的一元多项式。 乘法群 $K(X)^*$的子群由一元多项式生成，因此包含唯一元素来自关联有理函数的每个类，因此与群同构
 

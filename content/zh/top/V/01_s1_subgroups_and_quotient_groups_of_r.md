@@ -28,16 +28,16 @@ subsections:
       pdf_page: 15
 statements: 13
 exercises: 3
-content_sha256: c3604892ac04693fcac436943e217bf2c61592e00f034993708a91616cec4ed0
+content_sha256: 2c5e90f11e817b4e7c807ae336f14d56993219e1b99c89e2fc82e71c4bee20e8
 translated_from: content/en/top/V/01_s1_subgroups_and_quotient_groups_of_r.md
 translation_method: google
 source_content_sha256: 1e96322726cdb481cae00351a70dc8c5c1282af2de71cdb8ab479eeee32a02d2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9efd3f8cd5b9c7697aff22e70964127bbce6d588e208b31fbb62ce7e89cf3afa
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 子群和商群的 $\mathbf{R}$
@@ -52,7 +52,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 Every closed subgroup of $\mathbf{R}$ other than $\mathbf{R}$ itself is therefore discrete. 还需要证明，除了$\{0\}$之外，$\mathbf{R}$的每个离散子群$G$都是形式$a.\mathbf{Z}$，其中$a > 0$。 现在关系$-G = G$表明$G$中元素$> 0$的集合$H$不为空；如果区间 $[0, b]$ 和 $G$ 的$b \in H$、交是*紧凑且离散的*，因此是*有限的*。 令$a$为$[0, b]$中包含的$H$的最小的元素，并且对于每个$x \in G$放入$m = [x/a]$、$x/a$的整数部分；那么我们就有 $x - ma \in G$ 和 $0 \leq x - ma < a$。 根据 $a$ 的定义，可以得出 $x - ma = 0$，从而得出 $G = a.\mathbf{Z}$。
 
-### 2. 商群的 $\mathbf{R}$
+### 2. 商群 $\mathbf{R}$
 
 $\mathbf{R}$ 的每个 *Hausdorff* 商群都是形式 $\mathbf{R}/H$，其中 $H$ 是 $\mathbf{R}$ 的*闭* 子群 (章 III, § 2, no. 6, 命题 18)；因此，通过 no. 1 的命题 1：
 
@@ -85,15 +85,15 @@ $\mathbf{R}$ 的每个 *Hausdorff* 商群都是形式 $\mathbf{R}/H$，其中 $H
 
 #### 注 {#top-v-s1-n2-rem-3 .statement tag=0BV7}
 
-注，$\mathbf{R}$到$T = \mathbf{R}/\mathbf{Z}$的典范映射$\varphi$，受限于半开区间$[a, a+1[$，是该区间到$T$的连续双射映射；逆映射在$T$的每个点处连续，除了$\varphi(a)$之外，但在$\varphi(a)$处不连续。我们将有时认同空间$T$以区间$[a, a+1[$赋予拓扑，即逆像低于$T$的拓扑的$\varphi$（章） I, § 1, no. 3);这个拓扑当然和$\mathbf{R}$的拓扑在$[a, a+1[$上诱发的不一样。
+注，$\mathbf{R}$到$T = \mathbf{R}/\mathbf{Z}$的典范映射$\varphi$，受限于半开区间$[a, a+1[$，是该区间到$T$的连续双射映射；逆映射在$T$的每点处连续，除了$\varphi(a)$之外，但在$\varphi(a)$处不连续。我们将有时认同空间$T$以区间$[a, a+1[$赋予拓扑，即逆像低于$T$的拓扑的$\varphi$（章） I, § 1, no. 3);这个拓扑当然和$\mathbf{R}$的拓扑在$[a, a+1[$上诱发的不一样。
 
-### 3. 连续同态或 $\mathbf{R}$ 进入自身
+### 3. 连续同态 OF $\mathbf{R}$ 自身
 
 #### 命题 5 {#top-v-s1-prop-5 .statement tag=0BV8}
 
-拓扑群 $\mathbf{R}$ 自身的每个连续同态 $f$ 都是形式 $x \to ax$，其中 $a \in \mathbf{R}$；如果$a \neq 0$的话，就是$\mathbf{R}$的自同构。
+拓扑群 $\mathbf{R}$ 自身的每个连续同态 $f$ 都有形式 $x \to ax$，其中 $a \in \mathbf{R}$；如果$a \neq 0$的话，就是$\mathbf{R}$的自同构。
 
-对于每个$x \in \mathbf{R}$和每个整数$p \in \mathbf{Z}$，我们有$f(px) = pf(x)$； 替换 $x$乘$(1/p)x$，因此
+对于每个$x \in \mathbf{R}$和每个整数$p \in \mathbf{Z}$，我们有$f(px) = pf(x)$； 替换$x$乘$(1/p)x$，因此
 
 $$
 f\left(\frac{1}{p}x\right) = \frac{1}{p} f(x) \quad \text{if } p \neq 0;
@@ -117,9 +117,9 @@ $$
 
 #### 推论{#top-v-s1-n3-cor-1 .statement tag=0BV9}
 
-设$G$是群同构于$\mathbf{R}$。对于每个$a \in G$，$\mathbf{R}$中恰好有一个连续的同态$f_a$进入$G$，使得$f_a(1) = a$，并且如果$a$，则该同态是$\mathbf{R}$的同构到$G$不是 $G$ 的零元素。
+设$G$是群同构于$\mathbf{R}$。对于每个$a \in G$，$\mathbf{R}$中恰好有一个连续的同态$f_a$进入$G$，使得$f_a(1) = a$，而这个同态是$\mathbf{R}$的同构到$G$，如果$a$不是 $G$ 的零元素。
 
-### 4. 将 $\mathbf{R}$ 的连续同态的局部定义转换为拓扑群
+### 4. 将$\mathbf{R}$的连续同态的局部定义转换为拓扑群
 
 如果我们给出$G$的群$G$和子集$A$，其中生成$G$，很明显，$G$的两个同态$f, g$会变成群$G'$ 重合，如果他们在$A$的每点取相同的值。但$G$同态$f$$A$上值成$G'$不能一般是任意取的；如果 $G$ 和 $G'$ 被写成乘法，则对于每个对 $(x, y)$，这些值必须是满足条件 $f(xy) = f(x)f(y)$，使得 $x \in A, y \in A$ 和 $xy \in A$。此外，这个必要的条件一般来说是不够的。
 
@@ -155,16 +155,16 @@ $$
 
 #### 推论{#top-v-s1-n4-cor-1 .statement tag=0BVB}
 
-*设 f 是 $\mathbf{R}$ 的局部同构，具有拓扑群 G。那么，$\mathbf{R}$ 的唯一严格态射到 G 的开子群，其中重合与 f 的某些邻域的点 0.*
+*设 f 是 $\mathbf{R}$ 的局部同构，具有拓扑群 G。那么，$\mathbf{R}$ 的唯一严格态射到 G 的开放子群，其中重合与 f 的某些邻域的点 0.*
 
-设$\overline{f}$为$\mathbf{R}$到G中的连续同态，其中重合与$f$在开区间I的所有点处，其中包含0且包含在集合中，$f$为定义； $\overline{f}(\mathbf{R})$乘以G的单位元素的假设包含邻域，因此（章III, § 2, no. 1，命题4的推论）是G的开子群； $\overline{f}$ 是 $\mathbf{R}$ 到 $\overline{f}(\mathbf{R})$ 的严格态射，乘以章 III, § 2, no. 8、命题 24。
+令$\overline{f}$为$\mathbf{R}$到G中的连续同态，其中重合与$f$在开区间I的所有点处，其中包含 0且包含在集合中，$f$为定义； $\overline{f}(\mathbf{R})$乘以G的单位元素的假设包含邻域，因此（章III, § 2, no. 1，命题4的推论）是G的开子群； $\overline{f}$ 是 $\mathbf{R}$ 到 $\overline{f}(\mathbf{R})$ 的严格态射，通过章 III, § 2, no. 8、命题 24。
 
 #### 命题 7 {#top-v-s1-prop-7 .statement tag=0BVC}
 
 *每个与 $\mathbf{R}$ 局部同构的连通群 G 也与 $\mathbf{R}$ 或 $\mathbf{T}$ 同构。*
 
-对于$\mathbf{R}$的局部同构和G扩展到$\mathbf{R}$的严格态射到G的开子群（推论到命题6），因此到G本身，因为G是连通的。因此 G 同构于 $\mathbf{R}$ 的商群；由于 G 是 Hausdorff 并且不单独由单位元素组成（因为它与 $\mathbf{R}$ 局部同构），因此它与 $\mathbf{R}$ 或 $\mathbf{T}$ 同构于 no. 2 的命题 3。
+对于$\mathbf{R}$的本地同构和G扩展到$\mathbf{R}$的严格态射到G的开子群（推论到命题6），因此到G本身，因为G是连通的。因此 G 同构于 $\mathbf{R}$ 的商群；由于 G 是 Hausdorff 并且不单独由单位元素组成（因为它与 $\mathbf{R}$ 局部同构），因此它与 $\mathbf{R}$ 或 $\mathbf{T}$ 同构于命题 3 of no. 2。
 
 ### 习题{#top-v-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

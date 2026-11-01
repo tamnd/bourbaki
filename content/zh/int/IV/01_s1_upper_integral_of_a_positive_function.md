@@ -28,16 +28,16 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 0b19fdc8e5699c5692b9315f65748bc2380e3c6e261ec34732747a62e047aa64
+content_sha256: 763156bef545dd2997bc6f1b7024ae7c2680d333083f2a634358915526dc4281
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 translation_method: google
 source_content_sha256: faecbc2539033964cc900d67680366e3bd2e09f8e66d8294cd0ca0a84e783552
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 84184fadaf26d38aaf68ee82ab2a2aa0c402c66d57c9baa49354ff12e13736f1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。正函数的上积分
@@ -46,13 +46,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令X为局部紧致空间，$\mu$为X的正测度；我们知道$\mu$在格子$\mathscr{K}_+(X)$上是递增函数（也将表示为$\mathscr{K}_+$）。
 
-我们用X上数值函数的$\mathscr{I}_+(X)$（或简称$\mathscr{I}_+$）集合表示，无论是否有限，它们在X上都是正的且下半连续。\脚注{1}回想一下，函数的任何族的和 $\mathscr{I}_+$ 属于至 $\mathscr{I}_+$； $\mathscr{I}_+$中函数的乘积由有限的数$\alpha > 0$属于到$\mathscr{I}_+$； $\mathscr{I}_+$中函数的*任何*系列的上封套和$\mathscr{I}_+$中函数的*有限*系列的下封套以及属于至$\mathscr{I}_+$（GT、IV, §6, No. 2、第2条和第4条）。我们还将利用以下引理：
+我们用X上的数值函数的$\mathscr{I}_+(X)$（或简称为$\mathscr{I}_+$）集合表示，无论是否有限，它们在X上都是正的且下半连续。\脚注{1}回想一下，函数的任何族的和 $\mathscr{I}_+$属于至$\mathscr{I}_+$； $\mathscr{I}_+$中的函数的乘积由有限的数$\alpha > 0$属于到$\mathscr{I}_+$； $\mathscr{I}_+$中函数的*任何*系列的上封套和$\mathscr{I}_+$中函数的*有限*系列的下封套以及属于至$\mathscr{I}_+$（GT、IV, §6, No. 2、第2条和第4条）。我们还将利用以下引理：
 
 #### 引理 {#int-iv-s1-n1-lem-1 .statement tag=08P2}
 
 — *每个函数* $f \in \mathscr{I}_+$ *是集合* 的上封套（针对关系 $\leq$）*所有函数* $g \in \mathscr{K}_+$ *使得* $g \leq f$。
 
-对于每个$x \in X$使得$f(x) > 0$，以及对于每个实数$a$使得$0 < a < f(x)$，在假设存在$x$的紧邻域V使得$f(y) \geq a$在V上；另一方面，存在函数$g \in \mathscr{K}_+$，V包含支持，等于$a$在点$x$和$\leq a$
+对于每个$x \in X$使得$f(x) > 0$，以及对于每个实数$a$使得$0 < a < f(x)$，在假设存在一个$x$的紧邻域V使得$f(y) \geq a$在V上；另一方面，存在函数$g \in \mathscr{K}_+$，V包含支持，等于$a$在点$x$和$\leq a$
 
 (1) “I”，如“下等”；字母$\mathscr{L}$（如“下”）被其他函数空间抢占，将在§3中讨论。
 
@@ -141,21 +141,21 @@ $$
 \mu^*\left( \sum_{\iota \in I} f_\iota \right) = \sum_{\iota \in I} \mu^*(f_\iota).
 $$
 
-对于 $I$ 的每个有限子集 $J$，可以从 Th 得出。 2 (由$J$元素数归纳)$\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$；因为$J$跨越$I$的有限子集的集合，函数$g_J = \sum_{\iota \in J} f_\iota$属于到$J_+$以及关系$\leq$的形式有向集合，其上包络为函数$\sum_{\iota \in I} f_\iota$；因此命题由 Th 得出。 1.
+对于 $I$ 的每个有限子集 $J$，可以从 Th 得出。 2 (由$J$元素数归纳)$\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$； as $J$ runs over 集合 of 有限子集 of $I$, 函数 $g_J = \sum_{\iota \in J} f_\iota$ 属于 to $J_+$ and 形式有向集合 for 关系 $\leq$, whose upper envelope is 函数$\sum_{\iota \in I} f_\iota$；因此命题由 Th 得出。 1.
 
 #### 命题 4 {#int-iv-s1-prop-4 .statement tag=08PA}
 
-— *让*$f$*成为函数在*$J_+$中。 *映射* $\mu \mapsto \mu^*(f)$ *集合* $\mathscr{M}_+(X)$ *右* $X$的积极措施，*进入扩展的实直线* $\overline{\mathbf{R}}$，*对于模糊拓扑对* $\mathscr{M}_+(X)$ *（Ch. III, §1, No. 9)*。
+— *让*$f$*成为函数在*$J_+$中。 *映射* $\mu \mapsto \mu^*(f)$ *of 集合* $\mathscr{M}_+(X)$ *of positive measures on* $X$, *into the extended 实直线* $\overline{\mathbf{R}}$, *is lower semi-continuous for the vague 拓扑 on* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*。
 
-因为，这个映射是定义映射$\mu \mapsto \mu(g)$的上包络线，其中$g$在$\mathscr{K}_+$中超过函数的集合，使得$g \leq f$；并且通过模糊拓扑的定义，映射$\mu \mapsto \mu(g)$在$\mathscr{M}(X)$上连续。
+For, this 映射 is by 定义 the upper envelope of 映射 $\mu \mapsto \mu(g)$, where $g$ runs over 集合 of 函数 in $\mathscr{K}_+$ such that $g \leq f$;并且通过模糊拓扑的定义，映射$\mu \mapsto \mu(g)$在$\mathscr{M}(X)$上连续。
 
-### 2. 开集合的外部测量
+### 2. 开放的外部尺寸集合
 
-给定*开* 集合 $G \subset X$，其特征函数$\varphi_G$在$X$上是“下半连续”（GT，IV, §6, No. 2，Prop.1的Cor.）。因此，我们可以做出以下定义：
+给定一个 *开* 集合 $G \subset X$，其特征函数 $\varphi_G$ 在 $X$ 上是“下半连续”（GT，IV, §6, No. 2，Prop. 1 的 Cor.）。因此，我们可以做出以下定义：
 
 #### 定义 2 {#int-iv-s1-def-2 .statement tag=08PB}
 
-— *给定正测量* $\mu$ *在* $X$，*对于每个开路集合* $G \subset X$ *上积分* $\mu^*(\varphi_G)$ *称为* $G$ *的外部测量并表示为* $\mu^*(G)$。
+— *Given a positive measure* $\mu$ *on* $X$, *for every open 集合* $G \subset X$ *upper integral* $\mu^*(\varphi_G)$ *is called the outer measure of* $G$ *and is denoted* $\mu^*(G)$.
 
 因此，开集合$G$的外部度量为数$\geq 0$，有限或等于$+\infty$。显然$\mu^*(\varnothing) = 0$。此外，$\mu^*(X) = \| \mu \|,$如第1章公式(22)所示。 III, §1, No. 8。
 
@@ -174,7 +174,7 @@ $$
 #### 命题 6 {#int-iv-s1-prop-6 .statement tag=08PD}
 
 —*如果*G₁和G2*是两个开集合，使得*G₁⊂G2，*则*μ*(G₁)≤μ*(G2)。
-对于，关系 G₁ ⊂ G2 等价于 ΦG₁ ≤ ΦG2。
+对于，关系 G₁ ⊂ G2 等价于 φG₁ ≤ φG2。
 
 #### 命题 7 {#int-iv-s1-prop-7 .statement tag=08PE}
 
@@ -184,7 +184,7 @@ $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-$\mathscr{I}_+$中的函数 φ_G 形式有向集合（对于≤），其上包络线是集合 G ∈ $\mathfrak{B}$的并的特征函数；因此命题是 Th 的推论。 1.
+函数 φ_G 形式有向集合 (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic 函数 of 并 of 集合 G ∈ $\mathfrak{B}$;因此命题是 Th 的推论。 1.
 
 #### 命题 8 {#int-iv-s1-prop-8 .statement tag=08PF}
 
@@ -210,9 +210,9 @@ $$
 \int_{-\infty}^{+\infty} f(x)\, dx = \int_a^b f(x)\, dx \leq b - a,
 $$
 
-从而$\mu^*(G) \leq b - a$。另一方面，对于每个$\varepsilon > 0$，都存在函数$f \in \mathscr{K}_+$，使得$f \leq \varphi_G$和$f(x) = 1$对于$a + \varepsilon \leq x \leq b - \varepsilon$，从而$\mu^*(G) \geq b - a - 2\varepsilon$；由于 $\varepsilon$ 是任意的，$\mu^*(G) = b - a$；在其他字中，$G$的外部度量等于其*长度*。对于$G$是无界开区间的情况，这个结果立即扩展，因为它然后包含有界开区间任意大长度；因此在这种情况下是$\mu^*(G) = +\infty$。
+从而$\mu^*(G) \leq b - a$。另一方面，对于每个$\varepsilon > 0$，都存在函数$f \in \mathscr{K}_+$，使得$f \leq \varphi_G$和$f(x) = 1$对于$a + \varepsilon \leq x \leq b - \varepsilon$，从而$\mu^*(G) \geq b - a - 2\varepsilon$；由于 $\varepsilon$ 是任意的，$\mu^*(G) = b - a$；在其他字中，$G$的外部度量等于其*长度*。对于 $G$ 是无界开区间的情况，此结果为扩展，因为它随后包含有界开区间为任意大长度；因此在这种情况下是$\mu^*(G) = +\infty$。
 
-现在令$G$为$\mathbf{R}$中的任意开集合； $G$ 是成对不相交的开区间 $]a_k, b_k[$ 的可数集合（有限或无限）的并（GT，IV, §2, No. 5，命题 2），因而
+现在令$G$为$\mathbf{R}$中任意开集合； $G$ 是成对不相交的开区间 $]a_k, b_k[$ 的可数集合（有限或无限）的并（GT，IV, §2, No. 5，命题 2），因而
 
 $$
 \mu^*(G) = \sum_k (b_k - a_k)
@@ -226,7 +226,7 @@ $$
 
 注特别是，如果$G$ 是$\mathbf{R}$ 中的开集合，使得$\mu^*(G) = 0$，则$G$ 是*空*。
 
-### 3.正函数的上积分
+### 3. 正函数的上积分
 
 对于$X$上定义的每个数值函数$f \geq 0$（有限或非有限），都存在函数$h \in \mathscr{I}_+$，这样$f \leq h$，如果没有其他则为常数$+\infty$。
 
@@ -240,13 +240,13 @@ $$
 
 (*有限或等于$+\infty$) *称为$f$的上积分（相对于$\mu$）。*
 
-当$f \in \mathscr{I}_+$时，定义的数$\mu^*(f)$等于Def中定义的上积分。 1、因为$\mu^*$在$\mathscr{I}_+$中是递增。
+当$f \in \mathscr{I}_+$时，数$\mu^*(f)$等于Def中定义的上积分。 1、因为 $\mu^*$ 是 $\mathscr{I}_+$ 中的递增。
 
 我们还将使用记号$\int^* f d\mu$、$\int^* f(x) d\mu(x)$、$\int^* f \mu$和$\int^* f(x) \mu(x)$来代替记号$\mu^*(f)$。
 
 #### 例 {#int-iv-s1-n3-exa-1 .statement tag=08PJ}
 
-— 如果 $X$ 是*离散* 空间，$\mu$ $X$ 上的正测度，并且如果集合 $\alpha(x) = \mu(\varphi_{\{x\}})$，则$\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ 对于$X$ 上定义的每个数值函数 $f \geq 0$，因为这样函数是连续的（No. 1，*例*）。
+— 如果 $X$ 是*离散* 空间，$\mu$ $X$ 上的正测度，并且如果集合 $\alpha(x) = \mu(\varphi_{\{x\}})$，则$\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ 对于$X$ 上定义的每个数值函数 $f \geq 0$，因为这样的函数是连续的（No. 1，*例*）。
 
 #### 命题 10 {#int-iv-s1-prop-10 .statement tag=08PK}
 
@@ -373,11 +373,11 @@ $$
 
 *让*$(f_n)$*成为数值函数*$\geqslant 0$*的序列*这样，对于每个*$x \in X$，$\lim_{n \to \infty} f_n(x) = +\infty$。 *如果* $\mu$ *不是零度量，则* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$。
 
-如果$f_0$是等于$+\infty$的常数函数，则$f_0$是$\mathscr{K}_+$的所有函数的上包络线，并且从$\mu \neq 0$开始，我们有$\mu^*(f_0) > 0$；但由于$f_0 = \alpha f_0$对应于每个$\alpha > 0$，必然有$\mu^*(f_0) = +\infty$（命题11）。 不等式 (13) 然后表明 $\mu^*(f_n)$ 与 $n$ 趋向于 $+\infty$。
+如果$f_0$是等于$+\infty$的常数函数，则$f_0$是$\mathscr{K}_+$的所有函数的上包络线，并且从$\mu \neq 0$开始，我们有$\mu^*(f_0) > 0$；但由于$f_0 = \alpha f_0$对应于每个$\alpha > 0$，必然有$\mu^*(f_0) = +\infty$（命题11）。 不等式 (13) 则表明 $\mu^*(f_n)$ 与 $n$ 趋向于 $+\infty$。
 
 #### 命题 15 {#int-iv-s1-prop-15 .statement tag=08PT}
 
-*对于每个标量$\alpha > 0$和$X$上的每个对积极措施$\mu, \nu$，*
+*对于$X$上的每个标量$\alpha > 0$和每个对积极措施$\mu, \nu$，*
 
 $$
 (\alpha \mu)^* = \alpha \mu^*
@@ -420,7 +420,7 @@ $$
 \mu^*\left(\bigcup_n A_n\right) \leq \sum_n \mu^*(A_n).
 $$
 
-这些命题是Props的翻译。 10和13以及Th。 3 个No. 3 对应特征函数 / 集合。
+这些命题是Props的翻译。 10和13以及Th。 No. 3中的3个用于特征函数中的集合。
 
 #### 命题 19 {#int-iv-s1-prop-19 .statement tag=08PZ}
 
@@ -436,4 +436,4 @@ $$
 
 ### 习题 {#int-iv-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

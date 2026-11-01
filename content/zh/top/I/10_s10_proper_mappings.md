@@ -29,33 +29,33 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 21
-content_sha256: 135984428f769bffe1ad52b1853bf295dbe46782f741fadd59cdb818895cb8c6
+content_sha256: 863ef4215a2aaca7e186fb2abd7889016f9d913bb214d7384f5ec723cba25a12
 translated_from: content/en/top/I/10_s10_proper_mappings.md
 translation_method: google
 source_content_sha256: 5a1cc21b1eb39135e8b2b41344fcaf3ba40ecd043ec0192b77c8b672b5efb1a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 38d7abd8b6c0d7fc9123fff3a7041e5efc6ee793db05d5644393397491b22765
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 10.正确的映射
+## 10. 正确映射
 
-*在这个截面中，我们用集合$X$自身的$\iota_X$恒等映射来表示。*
+*在这个截面中，我们用集合$X$的$\iota_X$恒等映射本身来表示。*
 
-### 1.适当的映射
+### 1. 正确映射
 
-如果$f : X \to Y$和$f' : X' \to Y'$是两个*连续闭*映射，则乘积$f \times f' : X \times X' \to Y \times Y'$不一定是闭映射，即使$f$是形式$\iota_X$。
+如果$f : X \to Y$和$f' : X' \to Y'$是两个*连续闭*映射，乘积$f \times f' : X \times X' \to Y \times Y'$不一定是闭映射，即使$f$是形式$\iota_X$。
 
 #### 例 {#top-i-s10-n1-exa-1 .statement tag=0BA1}
 
-Hausdorff 空间中的每个常数映射都是闭集。但它$f$是常数映射$Q \to 0$，那么$f \times \iota_Q$就是$Q^2$入$Q^2$的映射$(x, y) \to (0, y)$，所以是第二个投影，不闭（§ 4, no. 2，注） 1）。
+Hausdorff 空间中的每个常数映射都是闭的。但它$f$是常数映射$Q \to 0$，那么$f \times \iota_Q$就是$Q^2$入$Q^2$的映射$(x, y) \to (0, y)$，所以是第二个投影，不是闭的（§ 4, no. 2，注） 1）。
 
 #### 定义 1 {#top-i-s10-def-1 .statement tag=0BA2}
 
-*设$f$是拓扑空间$X$到拓扑空间$Y$的映射。对于每个拓扑空间 $Z$，如果 $f$ 是连续的且映射 $f \times \iota_Z : X \times Z \to Y \times Z$ 是闭集，则称$f$ 是正确的。*
+*设$f$是拓扑空间$X$到拓扑空间$Y$的映射。对于每个拓扑空间 $Z$，如果 $f$ 是连续的且映射 $f \times \iota_Z : X \times Z \to Y \times Z$ 是闭集，则 $f$ 被认为是正确的。*
 
 我们将在no. 2和3中给出适当的映射的其他刻画。
 
@@ -63,7 +63,7 @@ Hausdorff 空间中的每个常数映射都是闭集。但它$f$是常数映射$
 
 #### 命题 1 {#top-i-s10-prop-1 .statement tag=0BA3}
 
-*每个正确的映射都关闭。*
+*每个正确的映射都是关闭的。*
 
 #### 命题 2 {#top-i-s10-prop-2 .statement tag=0BA4}
 
@@ -145,25 +145,25 @@ $$
 
 *令$f : X \to Y$为真映射，其中$X$为Hausdorff。那么 $Y$ 的子空间 $f(X)$ 就是 Hausdorff。*
 
-由于命题 5 c)，我们只需要考虑$f(X) = Y$的情况。那么$Y \times Y$的对角线在$X$的对角线的$f \times f$之下是像，是闭的（§ 8, no. 1，命题1）； $f \times f$ 为宜（命题 4）；因此$Y \times Y$的对角线是闭的（命题1），因此$Y$是豪斯多夫（§ 8, no. 1，命题1）。
+由于命题 5 c)，我们只需要考虑$f(X) = Y$的情况。那么$Y \times Y$的对角线在$X$的对角线的$f \times f$之下是像，是闭的（§ 8, no. 1，命题1）； $f \times f$ 是正确的（命题 4）；因此$Y \times Y$的对角线是闭的（命题1），因此$Y$是豪斯多夫（§ 8, no. 1，命题1）。
 
 #### 推论 3 {#top-i-s10-prop-5-cor-3 .statement tag=0BAB}
 
 *令$I$为有限集合，对于每个$i \in I$，令$f_i : X \to Y_i$为真映射。如果 $X$ 是 Hausdorff，则 $X$ 的映射 $x \mapsto (f_i(x))$ 到 $\prod_{i \in I} Y_i$ 是正确的。*
 
-这个映射是$X^I$的乘积映射$(x_i) \mapsto (f_i(x_i))$入$\prod_i Y_i$的合成和$X$的对角线映射入$X^I$；因为后者是正确的（通过命题 2 和 § 8, no. 1、命题 1），结论由命题 4 和命题 5 a) 得出。
+这个映射是$X^I$的乘积映射$(x_i) \mapsto (f_i(x_i))$到$\prod_i Y_i$的合成和$X$的对角线映射到$X^I$；因为后者是正确的（通过命题 2 和 § 8, no. 1，命题 1），结论由命题 4 和命题 5 a) 得出。
 
 #### 推论 4 {#top-i-s10-prop-5-cor-4 .statement tag=0BAC}
 
-*设$X$和$Y$是两个拓扑空间，$f : X \to Y$在$X$上连续的映射，$R$等价关系$f(x) = f(y)$，并且*
+*令$X$和$Y$为两个拓扑空间，$f : X \to Y$在$X$上连续的映射，$R$等价关系$f(x) = f(y)$，并且*
 $$
 X \xrightarrow{p} X/R \xrightarrow{h} f(X) \xrightarrow{i} Y
 $$
-*$f$的规范分解。* *那么，要使$f$正确，$p$是正确的，$h$是同胚，$f(X)$是$Y$的闭子集。*
+* $f$ 的规范分解。* *那么，要使 $f$ 正确，$p$ 正确，$h$ 同胚，$f(X)$ $Y$ 的闭子集是必要且充分的。*
 
-根据命题 5 a) 和命题 2，条件是足够的。相反，如果$f$ 是适当的，则$f$ 是闭的；因此 $f(X)$ 在 $Y$ 中闭合，$h$ 是同胚 ($§ 5$, no. 2, 命题 3)； $h \circ p$ 也适用于命题 5 c)；因此 $p = h^{-1} \circ (h \circ p)$ 是命题 5 a) 的真值。
+根据命题 5 a) 和命题 2，条件是充分的。反之，如果$f$ 是适当的，则$f$ 是闭的；因此 $f(X)$ 在 $Y$ 中闭合，$h$ 是同胚 ($§ 5$, no. 2, 命题 3)； $h \circ p$ 也适用于命题 5 c)；因此 $p = h^{-1} \circ (h \circ p)$ 是命题 5 a) 的真值。
 
-### 2. 刻画的适当映射按紧性属性
+### 2. 按紧性性质计算的刻画的适当映射
 
 在这个小节中，我们将用单个点的$P$空间由……组成来表示，其具有唯一的拓扑。
 
@@ -171,7 +171,7 @@ $$
 
 *设$X$为拓扑空间，使得常数映射$X \to P$是正确的。那么 $X$ 是拟紧的。*
 
-（我们稍后会看到（定理 1，推论 1），这个性质表征了准紧凑空间。）
+（稍后我们将看到（定理 1，推论 1），这个性质表征了准紧凑空间。）
 
 我们可以将自己限制在$X$不为空的情况。令$\mathfrak{F}$为$X$上的过滤器，$X' = X \cup \{ \omega \}$为与$\mathfrak{F}$（$§ 6$、no. 5、例）关联的拓扑空间。令$\Delta$为$x \in X$中所有$(x, x)$的$X \times X'$由……组成的子集，并令$F = \overline{\Delta}$为$X \times X'$中$\Delta$的闭包。鉴于$X$假设，投影$X \times X' \to X'$下$F$的像已于$X'$关闭；这个像包含$X$因此包含$\omega$，它位于$X$的闭包中；在其他字中，有点$x \in X$使得$(x, \omega) \in F$。通过$X \times X'$的拓扑的定义，这意味着，对于$X$中$x$的每个邻域$V$和每个$M \in \mathfrak{F}$，我们有$(V \times M) \cap \Delta \neq \emptyset$，即$V \cap M \neq \emptyset$，因此$x$是滤波器$\mathfrak{F}$的簇点，因此$X$是拟紧的。
 
@@ -262,7 +262,7 @@ c') *如果 $\mathfrak{F}$ 是 X 上的过滤器，使得 $f(\mathfrak{F})$ 具�
 
 由no. 1的命题3，映射$f_K : \overline{f}^{-1}(K) \to K$是正确的。 由于 $K \to P$ 是真映射（定理 1，推论 1），因此从 no. 1、命题 5 a) 可以得出合成 $\overline{f}^{-1}(K) \xrightarrow{f_K} K \to P$ 是真从而 $\overline{f}^{-1}(K)$ 是定理 1 的准紧，推论1。
 
-### 3.将适当的映射转化为局部紧凑空间
+### 3. 适当的映射进入局部紧凑空间
 
 #### 命题 7 {#top-i-s10-prop-7 .statement tag=0BAO}
 
@@ -272,11 +272,11 @@ c') *如果 $\mathfrak{F}$ 是 X 上的过滤器，使得 $f(\mathfrak{F})$ 具�
 
 #### 推论{#top-i-s10-n3-cor-1 .statement tag=0BAP}
 
-*令X、X'为两个局部紧凑的空间，并令Y（分别为。 Y') be the compact space obtained by adjoining a point at infinity $\omega$ (resp. $\omega'$) to X (resp. X'）（§ 9, no. 8）。 那么连续的映射 $f : X \to X'$ 是正确的当且仅当它的扩张 $\overline{f} : Y \to Y'$ ，使得 $\overline{f}(\omega) = \omega'$ 是连续的。*
+*令X、X'为两个局部紧致空间，并令Y（分别为Y'）为通过在无穷大$\omega$（分别为$\omega'$）与X（分别为X'）邻接点而获得的紧致空间。 （§ 9, no. 8）。 那么连续的映射 $f : X \to X'$ 是正确的当且仅当它的扩张 $\overline{f} : Y \to Y'$ ，使得 $\overline{f}(\omega) = \omega'$ 是连续的。*
 
-By Proposition 7, f is proper if and only if, for each compact subset K' of X', $\overline{f}^{-1}(X' - K') = X - \overline{f}^{-1}(K')$ is the complement of a compact subset of X; by the definition of the neighbourhoods of $\omega$ (resp. $\omega'$) in Y (resp. Y') 当且仅当$\overline{f}$在$\omega$连续。
+By Proposition 7, f is proper if and only if, for each compact subset K' of X', $\overline{f}^{-1}(X' - K') = X - \overline{f}^{-1}(K')$ is the complement of a compact subset of X; by the definition of the neighbourhoods of $\omega$ (resp. $\omega'$) in Y (resp. Y') this is so if and only if $\overline{f}$ is continuous at $\omega$.
 
-### 4.紧致空间和局部紧致空间的商空间
+### 4. 紧致空间和局部紧致空间的商空间
 
 #### 命题 8 {#top-i-s10-prop-8 .statement tag=0BAQ}
 
@@ -322,28 +322,28 @@ c) $\Longrightarrow$ d) : 由于 $X'$ 是正则 ($§ 9$, no. 2, 命题 1 的推�
 
 d) $\Longrightarrow$ e) : 如果$F$是$X$的任意闭子集，则$C \cap (F \times X)$在$C$中闭，从而$F$相对于$R$的饱和度，等于$pr_2(C \cap (F \times X))$，$X$关闭（no. 1，命题1）。此外，$x \in X$ mod $R$ 的等价类同胚于 $pr_2$ 至 $C$ 的限制下的 $\{ x \}$ 逆像，因此是紧致的 [no. 2, 定理 1 b)]。
 
-e) $\Longrightarrow$ a) : 如果 $R$ 是闭集，那么定义 $f$ 也是闭集，并且对于每个 $z \in X/R$，$f^{-1}(z)$ 是等价类 mod $R$，因此是紧致的；因此 $f$ 是 no. 2 的定理 1 b) 的真值。
+e) $\Longrightarrow$ a) : 如果 $R$ 是闭集，那么定义 $f$ 也是闭集，并且对于每个$z \in X/R$，$f^{-1}(z)$ 是等价类 mod $R$，因此是紧致的；因此 $f$ 是 no. 2 的定理 1 b) 的真值。
 
-最后我们必须证明$X/R$是局部紧致的。 $X'/R'$ 由 c) 和命题 8 压缩； 关系 $R$ 是$R'$ 在 $X$ 上诱发的； $X$在$X'$开，相对于$R'$饱和；因此$X/R$在典范映射$f' : X' \to X'/R'$下同胚于$X$的像$f'(X)$（$§ 3$，no. 6，命题10，推论1）。现在$f'(X)$在$X'/R'$中开，因此是$X'/R'$的局部紧凑子空间。
+最后我们必须证明$X/R$是局部紧的。 $X'/R'$ 由 c) 和命题 8 压缩； 关系 $R$ 是由 $R'$ 在 $X$ 上诱发的； $X$在$X'$开，相对于$R'$饱和；因此$X/R$在典范映射$f' : X' \to X'/R'$下同胚于$X$的像$f'(X)$（$§ 3$，no. 6，命题10，推论1）。现在$f'(X)$在$X'/R'$中开，因此是$X'/R'$的局部紧凑子空间。
 
 Q.E.D.
 
 #### 推论{#top-i-s10-n4-cor-1 .statement tag=0BAS}
 
-*令$X$为豪斯多夫空间，$Y$为拓扑空间，$f : X \to Y$为真映射。那么对于 $X$ 是紧致的（或局部紧致），$f(X)$ 是紧致的（或局部紧致）是必要且充分的，并且 $Y$ 是紧致的（或局部紧致）是充分的。*
+*令$X$为豪斯多夫空间，$Y$为拓扑空间，$f : X \to Y$为真映射。那么对于$X$是紧致的（或局部紧致），$f(X)$是紧致的（或局部紧致）是必要且充分的，并且$Y$是紧致的（或局部紧致）是充分的。*
 
-f_z : X \to f(X) 是正确的 [no. 1, 命题 3 a)] X 是紧致的（或局部紧致），因为 no. 2 的命题 6 和命题 7 no. 3。最后，如果 Y 是紧致的（或局部紧致），那么 f(X) 也是紧致的，它在 Y (no. 1, 命题 1 和 , no. 7, 命题 13) 中闭合
+f_z : X \to f(X) 是正确的 [no. 1, 命题 3 a)] 由于 no. 2 的命题 6 和 no. 3 的命题 7，X 是紧致的（或局部紧致）。最后，如果 Y 是紧致的（或局部紧致），那么 f(X) 也是紧致的，它在 Y (no. 1, 命题 1 和 , no. 7, 命题 13) 中闭合
 
 #### 注 {#top-i-s10-n4-rem-1 .statement tag=0BAT}
 
-如果 X 是局部紧致但不是紧致，则 X 上的闭等价关系 R 不必是 Hausdorff (章 IX, § 4, 习题 14)；即使 R 是 Hausdorff，X/R 也不必是局部紧致的 (习题 17)。但是，我们有以下标准：
+如果 X 是局部紧致但不是紧致的，则 X 上的闭等价关系 R 不必是 Hausdorff (章 IX, § 4, 习题 14)；即使 R 是 Hausdorff，X/R 也不必是局部紧致的 (习题 17)。但是，我们有以下标准：
 
 #### 命题 10 {#top-i-s10-prop-10 .statement tag=0BAU}
 
-令 X 为局部紧致空间，R 为X 上的开豪斯多夫等价关系，并令 f : X \to X/R 为典范映射。那么 X/R 是局部紧致的，如果 K' 是 X/R 的任意紧致子集，则存在 X 的紧致子集 K，使得 f(K) = K'。
+令X为局部紧致空间，R为X上的开豪斯多夫等价关系，令f : X \to X/R为典范映射。那么 X/R 是局部紧致的，并且如果 K' 是 X/R 的任意紧致子集，则存在 X 的紧致子集 K，使得 f(K) = K'。
 
-第一个断言是事实中的推论，X中的每个x都有一个紧凑邻域V，并且f(V)是f(x)的一个紧凑邻域（§ 5, no. 3，命题5和§ 9, no. 4，定理2，推论 1)。对于 K' 中的每个 y \in 令 V(y) 为 X 中 f^{-1}(y) 的某些点的紧致邻域，因此 f(V(y)) 是 y 的紧致邻域。 K' 中存在点 y_i \in 的有限数，使得 f(V(y_i)) 覆盖 K'。令K_1为X中的紧集$\bigcup_i V(y_i)$；我们有 K' \子集 f(K_1)；因此 K = K_1 \cap f^{-1}(K') 是紧凑的（因为它在 K_1 中是封闭的）并且 f(K) = K'。
+第一个断言是事实中的推论，即X中的每个x都有一个紧凑邻域V，并且f(V)是f(x)的一个紧凑邻域（§ 5, no. 3，命题5和§ 9, no. 4， 定理 2，推论 1)。对于 K' 中的每个 y \in 令 V(y) 为 X 中 f^{-1}(y) 的某个点的紧致邻域，因此 f(V(y)) 是 y 的紧致邻域。 K' 中存在点 y_i \in 的有限数，使得 f(V(y_i)) 覆盖 K'。设K_1为X中的紧集$\bigcup_i V(y_i)$；我们有 K' \子集 f(K_1)；因此 K = K_1 \cap f^{-1}(K') 是紧凑的（因为它在 K_1 中是封闭的）并且 f(K) = K'。
 
 ### 习题{#top-i-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

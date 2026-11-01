@@ -26,23 +26,23 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: c35e8d6fc77a8b4514985ccbd46f16be7e0277d7c0420ea8f050097ab221c724
+content_sha256: d54325b374b02bb01309e56c296d4591ff0939f1fa0ab1e6641d1e9bc84da236
 translated_from: content/en/lie/IX/A1_a1_structure_of_compact_groups.md
 translation_method: google
 source_content_sha256: 5e7319fca99d12df0397567af8fdb7c23d7ffbc97775400d0463c84a608eb608
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7619c82547c119195166c97147dbaee0730b13650566ab59ef428e41d74df8ca
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 附录 I
+## 附录I
 
 # 紧群的结构
 
-### 1. 在李群的乘积中嵌入紧凑的群
+### 1. 在李群的乘积中嵌入紧凑型群
 
 #### 命题 1 {#lie-ix-a1-prop-1 .statement tag=01II}
 
@@ -62,9 +62,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 推论 2 {#lie-ix-a1-prop-1-cor-2 .statement tag=01IK}
 
-规范映射 $G\rightarrow$ lim$_{_{\leftarrow -}}G/H_{\alpha}$ 是拓扑群的同构。 $\alpha$
+规范的映射$G\rightarrow$lim$_{_{\leftarrow -}}G/H_{\alpha}$是拓扑群的同构。 $\alpha$
 
-确实，科. 1 意味着拓扑将军，第 1 章的条件 (PA)。 III, §7, no. 2，满意； 断言现在遵循 loc 的 Prop. 2。引用。
+确实，科. 1 暗示一般拓扑，第 1 章的条件 (PA)。 III, §7, no. 2，满意； 断言现在遵循 loc 的 Prop. 2。引用。
 
 #### 推论 3 {#lie-ix-a1-prop-1-cor-3 .statement tag=01IL}
 
@@ -72,7 +72,7 @@ G 是李群当且仅当存在 G 的单位元素 $e$ 的邻域且包含不存在�
 
 这个条件的必要性已经被证明了（第2章III, §4, no. 2，Cor.1），充分性是Cor.1的直接的推论。 1.
 
-### 2.射影极限李群
+### 2. 射影极限李群
 
 #### 引理 1 {#lie-ix-a1-lem-1 .statement tag=01IM}
 
@@ -164,4 +164,4 @@ c) 存在一个几乎简单的紧李群族$(S_{\lambda})_{\lambda\in L}$和一�
 
 ### 习题{#lie-ix-a1-exercises}
 
-附录 1](exercises/a1/)参见[习题。
+参见[习题附录 1](exercises/a1/)。

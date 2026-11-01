@@ -33,43 +33,43 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 9d5b9d9c976d377b3243ff896750a321ef13c984b1eb93be943c636d822649e2
+content_sha256: f244aa3ca5cea5d1255e3a868808bd30dbf887a09b6c49d5a36ebb4b2a83ea51
 translated_from: content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md
 translation_method: google
 source_content_sha256: 746c6186434593ae87ea52347a193f0e294cca0a933dcfbfbd4549276c4b772c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9dabd1fb71674dfc0601873d6f7a1a2f1cf2a5d0b30e9253532a12db00e7a224
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。集成紧李群
 
 我们保留§4中的记号；放入$w(G) =$卡(W$_G(T)$)。用 $dg$（分别为 $dt$）表示总质量为 1 的 G（分别为 T）的 Haar 测度，并用 $n$（分别为 $r$）和 G（分别为 T）的维数表示。
 
-### 1. 乘积的交替多重线性形式
+### 1. 乘积交替多重线性形式
 
-设 A 为交换环，M A-模。对于每个整数$r\geq 0$，用M上的交错的$r$的Alt$^r(M)$A-模-线性形式表示；它可以用A-模$\wedge \wedge^r(M) ($代数的对偶来识别，第1章。 III, §7, no. 4，提案 7）。设 $u\in$ Alt$^s(M)$ 和 $v\in$ Alt$^r(M)$；回想一下（代数，第III, §11, no. 2，例 3），$u$和$v$的交错的乘积是元素$u\wedge v\in$Alt$^{s+r}(M)$，定义为
+设A为交换环，M为A-模。对于每个整数$r\geq 0$，用M上的交错的$r$的Alt$^r(M)$A-模-线性形式表示；它可以用A-模$\wedge \wedge^r(M) ($代数的对偶来识别，第1章。 III, §7, no. 4，提案 7）。设 $u\in$ Alt$^s(M)$ 和 $v\in$ Alt$^r(M)$；回想一下（代数，第III, §11, no. 2，例 3），$u$和$v$的交错的乘积是元素$u\wedge v\in$Alt$^{s+r}(M)$，定义为
 
 $$
 (u\wedge v)(x_1, . . . , x_{s+r}) =\sum_{\sigma\in\mathfrak{S}_{s,r}}\varepsilon_{\sigma}u(x_{\sigma(1)}, . . . , x_{\sigma(s)})v(x_{\sigma(s+1)}, . . . , x_{\sigma(s+r)})
 $$
 
-其中$\mathfrak{S}_{s,r}$是置换的对称群$\mathfrak{S}_{s+r}$由……组成的子集，其限制到$1, s$和$s+ 1, s+r$是递增。
+其中$\mathfrak{S}_{s,r}$是置换的对称群$\mathfrak{S}_{s+r}$由……组成的子集，其中限制到$1, s$和$s+ 1, s+r$是递增。
 
 现在让
 
 0 $\longrightarrow M'\longrightarrow^i$ 中号 $\longrightarrow^pM''\longrightarrow$ 0
 
-分别是正合序列/自由A-模、秩$r, r+s$和$s$。
+分别为正合序列、自由A-模、秩、$r, r+s$ 和$s$。
 
 #### 引理 1 {#lie-ix-s6-lem-1 .statement tag=01EX}
 
 从 Alt$^s(M'')\times$ Alt$^r(M')$ 到 Alt$^{s+r}(M)$ 存在一个 A 双线性映射，用 $(u, v) \rightarrow u\cap v$ 表示，其特征为以下两个性质之一：
 
-a) 用$u_1\in$ Alt$^s(M)$ 形式 $(x_1, . . . , x_s) \rightarrow u(p(x_1), . . . , p(x_s))$表示，并令$v_1\in$ Alt$^r(M)$为形式，使得$M'$中的$x'_1, . . . , x'_r$为$v_1(i(x'_1), . . . , i(x'_r)) =v(x'_1, . . . , x'_r)$；然后$u\cap v=u_1\wedge v_1$。
+a) 用$u_1\in$ Alt$^s(M)$ 形式 $(x_1, . . . , x_s) \rightarrow u(p(x_1), . . . , p(x_s))$ 表示，并令$v_1\in$ Alt$^r(M)$ 为形式，使得$M'$中的$x'_1, . . . , x'_r$为$v_1(i(x'_1), . . . , i(x'_r)) =v(x'_1, . . . , x'_r)$；然后$u\cap v=u_1\wedge v_1$。
 
 b) 对于 M 中的所有 $x_1, . . . , x_s$ 和 $M'$ 中的 $x'_1, . . . , x'_r$，
 
@@ -89,7 +89,7 @@ $$
 
 由上可知，条件 a) 和 b) 确定乘积 $u\cap v$ 都是唯一的；很明显，这个乘积是双线性的。最后，引理的最后一个断言由公式(2)得出。
 
-### 2.H.WEYL 的积分公式
+### 2. 积分公式 H. 韦尔
 
 令$e$为G的单位元素，$\overline{e}$为$G/T$中的类。 认同 G 在 $e$ 与 $\mathfrak{g}$ 的切线空间，T 在 $e$ 与 $\mathfrak{t}$ 的切线空间，以及 $G/T$ 在 $\overline{e}$ 与 $\mathfrak{g}/\mathfrak{t}$ 的切线空间。用 $(u, v) \rightarrow u\cap v$ 表示 $\mathbf{R}$-双线性映射
 
@@ -301,13 +301,13 @@ $$
 
 $(e^{i\theta}$ 0 $)$
 
-$\overline{A}$ 相应的至共轭类共 $-_{i\theta}$ 。设 $d\theta$ 为勒贝格
+$\overline{A}$相应的至共轭类共$-_{i\theta}$。设 $d\theta$ 为勒贝格
 
 0 $e$
 
 测量$0, \pi$；由上可知，G 上 Haar 测度的 $\overline{A}$ 上的像就是测度 $\frac{2}{\pi}$ sin$^2\theta  d\theta$。
 
-### 3. 李代数的整合
+### 3. 整合李代数
 
 #### 命题 2 {#lie-ix-s6-prop-2 .statement tag=01F9}
 
@@ -489,7 +489,7 @@ $$
 
 Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in F, and of class $C^k(2\leq k+ 1\leq r)$. 对于$\omega \in^k\Omega^p(X; F)$，输入$\omega^{\sharp}=\int_H\tau_h^*\omega  dh$。 那么映射$\omega  \rightarrow \omega^{\sharp}$是$^k\Omega^p(X; F)$上的投影，其像是H不变形式的子空间。 我们对所有$\omega \in^k\Omega^p(X; F)$都有$d(\omega^{\sharp}) = (d\omega )^{\sharp}$。
 
-第一个断言源自应用于向量 H 束 Alt$^p(T(X); F)$（第 1 章）的命题。 III, §1, no. 8，例）。 为了证明第二个断言，根据积分第 1 章就足够了。 III, §3, no. 2，命题 2，证明当第一个（或第二个）空间给出紧致 $C^k$ 收敛（或$C^{k-1}$-收敛）的拓扑时，映射 $d:^k\Omega^p(X; F)\rightarrow^{k-1}\Omega^{p+1}(X; F)$ 是连续的。 但这是通过半范数（谱理论，准备中）和$d$是阶$\leq 1 ($可微分和解析流形，结果，14.4.2）的微分算子这一事实直接从这些拓扑的定义得出的。
+第一个断言源自应用于向量 H-bundle Alt$^p(T(X); F)$的命题（第III, §1, no. 8，例）。 为了证明第二个断言，鉴于积分，第 1 章就足够了。 III, §3, no. 2，命题 2，证明当第一个（或第二个）空间给出紧凑 $C^k$ 收敛（或$C^{k-1}$-收敛）的拓扑时，映射 $d:^k\Omega^p(X; F)\rightarrow^{k-1}\Omega^{p+1}(X; F)$ 是连续的。 但这是通过半范数（谱理论，准备中）和$d$是阶$\leq 1 ($可微分和解析流形，结果，14.4.2）的微分算子这一事实直接从这些拓扑的定义得出的。
 
 ### 5. 不变微分形式
 
@@ -559,7 +559,7 @@ $$
 
 因此Th。 2.
 
-我们在 X = G 的情况下应用定理，对于 G 的作用进行左平移。 回忆一下（第 1 章） III, §3, no. 13, Prop. 50) that associating to a differential form on G its value at the identity element gives an isomorphism from $\Omega (G)^G$ to the graded algebra Alt($\mathfrak{g}$) of alternating multilinear forms on $\mathfrak{g}$. 认同 $\Omega (G)^G$ 与 Alt($\mathfrak{g}$) 通过此同构。 运算符 $d$ 由公式给出（第 1 章）。 III, §3, no. 14，提案 51）
+我们在 X = G 的情况下应用定理，对于 G 的作用进行左平移。 Recall (Chap. III, §3, no. 13, Prop. 50) that associating to a differential form on G its value at the identity element gives an isomorphism from $\Omega (G)^G$ to the graded algebra Alt($\mathfrak{g}$) of alternating multilinear forms on $\mathfrak{g}$. 认同 $\Omega (G)^G$ 与 Alt($\mathfrak{g}$) 通过此同构。 运算符 $d$ 由公式给出（第 III, §3, no. 14 章，第 51 条命题）
 
 $$
 d\omega (a_1, . . . , a_{p+1})
@@ -583,7 +583,7 @@ $$
 
 对于 Alt$^p(\mathfrak{g})$ 中的 $\omega$ 和 $\mathfrak{g}$ 中的 $a_1, . . . , a_p$。
 
-双不变式形式的子复形 $^G\Omega (G)^G$（第 1 章） III, §3, no. 13）可以用伴随表示下$\mathfrak{g}$不变量上交替多重线性形式的子复形Alt($\mathfrak{g}$)$^G$来识别（也就是说，对于所有$\xi \in \mathfrak{g}$来说$\theta (\xi )\omega = 0$）。 因此，我们有一个可交换的复数图表
+The subcomplex $^G\Omega (G)^G$ of biinvariant forms (Chap. III, §3, no. 13) can be identified with the subcomplex Alt($\mathfrak{g}$)$^G$ of alternating multilinear forms on $\mathfrak{g}$ invariant under the adjoint representation (that is, such that $\theta (\xi )\omega = 0$ for all $\xi \in \mathfrak{g}$). 因此，我们有一个可交换的复数图表
 
 $$
 ^G\Omega (G)^G\longrightarrow \Omega (G)^G\longrightarrow \Omega (G)
@@ -613,7 +613,7 @@ c) 分级的向量空间$H(\Omega (G))$同构于Alt($\mathfrak{g}$)$^G$。
 
 考虑 $\Omega (G) ($Algèbre 的子复合体 $Z(\Omega (G))$ 和 $B(\Omega (G))$，第 1 章。 X、p. 25）。从公式给出两个形式的乘积微分（可微分和解析流形，结果，8.3.5），$Z(\Omega (G))$是$\Omega (G)$的子代数，并且$B(\Omega (G))$是$Z(\Omega (G))$；因而，外部乘积诱导在$H(\Omega (G))$上分级为代数结构。前面现在给出了同构分级代数 $H(\Omega (G))\rightarrow$ Alt($\mathfrak{g}$)$^G$。
 
-设 H 是 G 的闭子群；我们应用Th。 2 至 $X = G/H$。由章。 III, §1, no. 8，科。根据第 17 条命题 1，$G/H$ 上的 G 不变微分形式可以与 Alt(T$_e(G/H)$) 的 H 不变元素等同，即与 Alt($\mathfrak{g}$) 的元素相同，它们是 H 不变的并被算子 $i(\xi )$ 湮灭对于所有$\xi \in L(H)$。因而：
+设 H 为 G 的闭子群；我们应用Th。 2 至 $X = G/H$。由章。 III, §1, no. 8，科。根据第 17 条命题 1，$G/H$ 上的 G 不变微分形式可以与 Alt(T$_e(G/H)$) 的 H 不变元素等同，即与 Alt($\mathfrak{g}$) 的元素相同，它们是 H 不变的并被算子 $i(\xi )$ 湮灭对于所有$\xi \in L(H)$。因而：
 
 #### 推论 2 {#lie-ix-s6-thm-2-cor-2 .statement tag=01FL}
 
@@ -621,8 +621,8 @@ c) 分级的向量空间$H(\Omega (G))$同构于Alt($\mathfrak{g}$)$^G$。
 
 a) 典范嵌入 $\Omega (G/H)^G\rightarrow \Omega (G/H)$ 是同伦。
 
-b) 复数 $\Omega (G/H)^G$ 可以用 Alt($\mathfrak{g}$) 的元素 $\omega$ 的 Alt($\mathfrak{g}$) 由……组成子复形来识别，它们在 H 的伴随表示下保持不变，并且对于所有$i(\xi )\omega = 0$ $\xi \in L(H)$。如果在加法中，H是连通的，则该子复合体由$\omega \in$ Alt($\mathfrak{g}$)组成，使得$\theta (\xi )\omega = 0$和$i(\xi )\omega = 0$适用于所有$\xi \in L(H)$。
+b) 复数 $\Omega (G/H)^G$ 可以用 Alt($\mathfrak{g}$) 的元素 $\omega$ 的 Alt($\mathfrak{g}$) 由……组成的子复数来识别，它们在 H 的伴随表示下保持不变，并且对于所有的$i(\xi )\omega = 0$ $\xi \in L(H)$。如果在加法中，H是连通的，则该子复合体由$\omega \in$ Alt($\mathfrak{g}$)组成，使得$\theta (\xi )\omega = 0$和$i(\xi )\omega = 0$适用于所有$\xi \in L(H)$。
 
 ### 习题{#lie-ix-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

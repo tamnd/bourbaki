@@ -25,21 +25,21 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 071934d72b002510cc3224eea67aea53f6f3765cb1d005e82a66151be4c5c7db
+content_sha256: 2972a2da66626ba3e20037ed99b90d2f21ed2537ef09e3e22ee4609e6b4ce0d6
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 88835ad1fbae7ef0a5c13987bac0f6fc980b84197bf24b3bc093b8842e1a4906
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8f17d60a27dfb141222d007e65e84f1abab15e365146c79ce9d87afbd662639e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 7。 HAUSDORFF 的收敛性级数（真实或复杂的情况）
+## § 7。 HAUSDOFF 的收敛性级数（真实或复杂的情况）
 
-在本段中，我们假设 $K$ 是域 $\mathbf{R}$ 或 $\mathbf{C}$ 之一，其通常的绝对值值。回想一下，在 $K$ 上的可规范代数是在 $K$ 上的（不一定是关联的）代数和拓扑 $\mathscr{T}$，具有以下属性：
+在本段中，我们假设 $K$ 是域 $\mathbf{R}$ 或 $\mathbf{C}$ 之一，其通常的绝对值值。回想一下，$K$ 上的可规范代数是 $K$ 上的（不一定是关联的）代数和拓扑 $\mathscr{T}$，具有以下属性：
 (1) $\mathscr{T}$可由范数定义：
 (2) $A \times A$到$A$的映射$(x, y) \mapsto xy$是连续的。
 代数超过$K$是代数$A$超过$K$和范数，使得$\|xy\| \leq \|x\|\ \|y\|$对于$A$中的所有$x, y$。
@@ -50,9 +50,9 @@ $$
 
 ### 1. $g$ 中值的连续多项式
 
-令 $I$ 为有限集合，并令 $P(g^I; g)$（分别为 $\hat{P}(g^I; g)$）为向量空间的*连续多项式*（分别为*形式幂级数，具有连续分量*）在 $g^I$ 和值上在$g$。回想一下（*可微分和解析流形*，R，附录），$P(g^I; g)$的毕业为型$\mathbf{N}^I$，并且$\hat{P}(g^I; g)$是通过过滤定义的向量空间$P(g^I; g)$和拓扑的完成来识别的与$P(g^I; g)$的毕业有关。此外，$P(g^I; g)$是分级的李代数，其括号由$[f, g](x) = [f(x), g(x)]$定义，对于f, g in P(g^I; g), x \in g^I;这个李代数结构可以通过连续性扩展到$\hat{P}(g^I; g)$，并使其成为完整的Hausdorff过滤李代数。
+设 $I$ 为有限集合，并令 $P(g^I; g)$（分别为 $\hat{P}(g^I; g)$）为向量空间的*连续多项式*（分别为*形式幂级数，具有连续分量*）在 $g^I$ 和值上在$g$。回忆一下（*可微分和解析流形*，R，附录），$P(g^I; g)$的毕业为型$\mathbf{N}^I$，并且$\hat{P}(g^I; g)$是通过过滤定义的向量空间$P(g^I; g)$和拓扑的完成来识别的与$P(g^I; g)$的毕业有关。此外，$P(g^I; g)$是分级的李代数，其括号由$[f, g](x) = [f(x), g(x)]$定义，对于f, g in P(g^I; g), x \in g^I;这个李代数结构可以通过连续性扩展到$\hat{P}(g^I; g)$，并使其成为完整的Hausdorff过滤李代数。
 
-到§ 6, no. 3的命题 2，$\hat{L}(I)$的李代数同态$\phi_I : u \mapsto \tilde{u}$到$\hat{P}(g^I; g)$映射对于所有指标i到$\mathrm{pr}_i$的不定$i \in I$，从$\mathrm{pr}_i \in P(g^I; g)$开始。由此可知 $\tilde{u} \in P(g^I; g)$ 对应 $u \in L(I)$；更准确地说，当$u \in L(I)$时，$\tilde{u}$只是§ 2, no. 4的多项式映射$(t_i) \mapsto u((t_i))$。另一方面，显然 $\phi_I$ 与 $L(I)$ 和 $P(g^I; g)$ 的多级数兼容。如果$u = \sum_{v \in \mathbf{N}^I} u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，那么
+到§ 6, no. 3的命题 2，$\hat{L}(I)$的李代数同态$\phi_I : u \mapsto \tilde{u}$到$\hat{P}(g^I; g)$映射指标i到$\mathrm{pr}_i$的不定从 $\mathrm{pr}_i \in P(g^I; g)$ 开始，所有$i \in I$。由此可知 $\tilde{u} \in P(g^I; g)$ 对应 $u \in L(I)$；更准确地说，当$u \in L(I)$时，$\tilde{u}$只是§ 2, no. 4的多项式映射$(t_i) \mapsto u((t_i))$。另一方面，显然 $\phi_I$ 与 $L(I)$ 和 $P(g^I; g)$ 的多级数兼容。如果$u = \sum_{v \in \mathbf{N}^I} u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，那么
 
 $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v, \quad \text{where } \tilde{u}_v \in P_v(g^I; g).
@@ -67,7 +67,7 @@ $$
 
 接下来是通过 § 6, no. 3 的连续性公式 (7) 以及可微分和解析流形、R、附录、no. 6 进行扩展。
 
-### 2. 群由完整规范李代数定义的细菌
+### 2. 群由完整规范定义的细菌李代数
 
 令 $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ 为 Hausdorff 级数 (§ 6, no. 4, 定义 1)。我们将证明相应的正式幂级数
 
@@ -234,7 +234,7 @@ $$
 \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H}).
 $$
 
-通过*可微分和解析流形*，R，3.1.9，存在数$\varepsilon > 0$，使得当$\|x\|, \|y\|$和$\|z\|$为$\leq \varepsilon$时，公式(17)为真。但函数$(x, y, z) \mapsto h(h(x, y), z)$和$(x, y, z) \mapsto h(x, h(y, z))$在$\Omega'$上是解析函数，在$g$上是值（*可微且解析流形*，R，3.2.7）。由于 $\Omega'$ 已连通，且它们在 0 的邻域中的重合，因此它们相等（*可微且解析流形*，R，3.2.5）。
+通过*可微分和解析流形*，R，3.1.9，存在数$\varepsilon > 0$，使得当$\|x\|, \|y\|$和$\|z\|$为$\leq \varepsilon$时，公式(17)为真。但函数$(x, y, z) \mapsto h(h(x, y), z)$和$(x, y, z) \mapsto h(x, h(y, z))$在$\Omega'$上是解析函数，在$g$上是值（*可微且解析流形*，R，3.2.7）。由于 $\Omega'$ 已连通，并且它们重合位于 0 的邻域中，因此它们相等（*可微且解析流形*，R，3.2.5）。
 
 上述结果意味着：
 
@@ -260,11 +260,11 @@ $$
 
 *在其他字 (章 III, § 1) 中，如果我们写 −x = σ(x)，则四元组 (G, 0, σ, m) 是 K 上的李群胚芽。*
 
-### 3. 完全范数结合指数代数
+### 3. 完全范数结合律中的指数代数
 
 在这个没有。我们用 A 表示一个完全规范的单位结合词代数（一般拓扑、章 IX, § 3, no. 7）。然后\|x.y\| ≤ \|x\|。 \|y\|对于 A 中的 x、y。
 
-令 I 为有限集合，令 $\hat{P}(A^I; A)$ 为形式幂级数的向量空间，其中连续分量在 $A^I$ 上，值在 A 中（可微分和解析流形，R， 附录, no. 5) 和代数结构通过写得到
+令 I 为有限集合，并令 $\hat{P}(A^I; A)$ 为形式幂级数的向量空间，其中连续分量在 $A^I$ 上，值在 A 中（可微分和解析流形，R， 附录, no. 5) 和代数结构通过写得到
 
 $$
 f.g = m \circ (f, g) \quad \text{for } f, g \text{ in } \hat{P}(A^I; A),
@@ -278,7 +278,7 @@ $$
 (v \circ u)^{\sim} = \tilde{v} \circ \tilde{u}.
 $$
 
-接下来是通过 § 5, no. 1 的连续性公式 (2) 以及可微分和解析流形、R、附录、no. 6 进行扩展。
+接下来通过 § 5, no. 1 的连续性公式 (2) 以及可微分和解析流形、R、附录、no. 6 进行扩展。
 
 特别是，我们取 I = {U}、认同 A 和 $A^{(U)}$，并考虑 $\hat{P}(A; A)$ 中级数 $e(U) = \sum_{n \geq 1} U^n/n!$ 和 $l(U) = \sum_{n \geq 1} (-1)^{n-1} U^n/n$ 的像 $\tilde{e}$ 和 $\tilde{l}$。然后$\|\tilde{U}^n\| \leq 1$对于$\|x_1 \ldots x_n\| \leq \|x_1\| \ldots \|x_n\|$对于A中的$x_1, \ldots, x_n$。因此$\tilde{e}$（或$\tilde{l}$）的绝对收敛半径是无穷大（或$\geq 1$）。
 
@@ -302,7 +302,7 @@ $$
 (22) $\log_A(\exp_A(x)) = x \quad (x \in A, \|x\| < \log 2)$
 因为$\|x\| < \log 2$意味着$\|\exp_A(x) - 1\| \leq \exp \|x\| - 1 < 1$。
 
-最后我们将 A 视为完全规范的李代数。然后
+最后我们将 A 视为完全范数李代数。然后
 $$
 \|[x, y]\| = \|xy - yx\| \leq 2\|x\|\cdot\|y\|.
 $$
@@ -320,8 +320,8 @@ $$
 $$
 m \circ (1 + \tilde{e}, 1 + \tilde{e}) = (1 + \tilde{e}) \circ \tilde{H}
 $$
-在$\hat{P}(A \times A; A)$。因此，我们从 *可微分和解析流形*, R, 3.1.9 推断出，对于足够接近 $(0, 0)$ 的 $(x, y)$，(23) 成立，从而命题遵循解析延拓（*可微分和解析流形*, R, 3.2.5）。
+在$\hat{P}(A \times A; A)$。因此，我们从 *可微分和解析流形*, R, 3.1.9 中推断出 (23) 对于足够接近 $(0, 0)$ 的 $(x, y)$ 成立，从而命题遵循解析延拓 (*可微分和解析流形*, R, 3.2.5）。
 
-### 习题{#lie-ii-s7-exercises}
+### 习题 {#lie-ii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

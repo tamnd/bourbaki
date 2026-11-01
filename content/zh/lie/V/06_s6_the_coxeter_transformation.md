@@ -20,16 +20,16 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: b30d464db4246cfe303c80d5e7b755f556a0601b0f985d8977c1476da736161a
+content_sha256: 896b2921b8648debbf0fc7417be0b4d64949270c70ebd02e0e19463bcd164ad5
 translated_from: content/en/lie/V/06_s6_the_coxeter_transformation.md
 translation_method: google
 source_content_sha256: 19ad160f8bb3a5e67893a9745099b7c2d4ac7603fdf337e2de8f9063ffcb53bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 10c18f99f95a89cdcd7b2bcabaf2cd25f2e0703b85a35990b67a1a3f25705238
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。考克塞特转型
@@ -48,11 +48,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *所有 Coxeter 变换在 W* 中均为共轭。
 
-由于 W 传递性地排列由 $\mathfrak{H}$ 确定的室（§ 3, no. 2，Th.1），我们被简化为证明：令 $(C, (H_i)_{1 \leq i \leq l})$ 为有序室，$\pi \in S_l$；那么$s_{H_1} s_{H_2} \cdots s_{H_l}$和$s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$在W中是共轭。考虑到§ 4, no. 8，第8条，这将立即从以下引理得出：
+由于 W 传递性地排列由 $\mathfrak{H}$ 确定的房间（§ 3, no. 2，Th.1），我们被简化为证明：令 $(C, (H_i)_{1 \leq i \leq l})$ 为有序房间，$\pi \in S_l$；那么$s_{H_1} s_{H_2} \cdots s_{H_l}$和$s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$在W中是共轭。考虑到§ 4, no. 8，第8条，这将立即从以下引理得出：
 
 #### 引理 1 {#lie-v-s6-lem-1 .statement tag=0ATJ}
 
-*让X是一个有限森林，并且*$x \mapsto g_x$*映射从X到群*$\Gamma$*使得*$g_x$*和*$g_y$*每当*$x$*和*时都是共轭 $y$ *在X 中未链接。设* $\mathscr{T}$ *为X 上总订单的集合。对于所有*$\xi \in \mathscr{T}$，*让*$p_\xi$*成为乘积在*$\Gamma$*中序列*$(g_x)_{x \in X}$*由*$\xi$定义。 *然后元素* $p_\xi$ *是共轭在* $\Gamma$。
+*设X为有限森林，并且*$x \mapsto g_x$*映射从X到群*$\Gamma$*使得*$g_x$*和*$g_y$*每当*$x$*和*时都是共轭 $y$ *在X 中未链接。设* $\mathscr{T}$ *为X 上总订单的集合。对于所有*$\xi \in \mathscr{T}$，*让*$p_\xi$*成为乘积在*$\Gamma$*中序列*$(g_x)_{x \in X}$*由*$\xi$定义。 *然后元素* $p_\xi$ *是共轭在* $\Gamma$。
 
 1) 我们于$n = \mathrm{Card}\, X$乘归纳出发。情况$n = 1$是直接的，所以假设$n \geqslant 2$。在$X$中存在一个终端顶点$a$（第IV，附录，no. 3，命题2）。设 $b \in X - \{a\}$ 为链接到 $a$ 的顶点（如果存在）；如果$a$没有链接到$X - \{a\}$中的任何顶点，则让$X - \{a\}$中的$b$是任意的。在所有情况下，$g_a$ 与$g_x$ 通勤$x \neq b$。令$\eta \in \mathscr{T}$使得$a$是$X$的最大的元素和$b$最大的元素$X - \{a\}$；我们让$\xi \in \mathscr{T}$并证明$p_{\xi}, p_{\eta}$是共轭。
 
@@ -74,7 +74,7 @@ $$
 
 设$W_1, \ldots, W_m$是必不可少的有限群，作用于空间$V_1, \ldots, V_m$并由反射生成。令 $C_j$ 为相对于 $W_j$ 的室。令$W$为群$W_1 \times \cdots \times W_m$作用于空间$V_1 \times \cdots \times V_m$。那么$C_1 \times \cdots \times C_m$是相对于$W$的一个室。由 $C$ 定义的 $W$ 的 Coxeter 变换为乘积 $c_1 c_2 \ldots c_m$，其中 $c_j$ 是由 $C_j$ 定义的 $W_j$ 的 Coxeter 变换。
 
-### 2. Coxeter 变换的特征值
+### 2. 考克斯特变换的特征值
 
 由于所有 Coxeter 变换都是共轭（no. 1，命题 1），因此它们都具有相同的特征多项式 $P(T)$。令 $h$ 为 $W$ 的 Coxeter 数。然后
 
@@ -92,7 +92,7 @@ $$
 
 *整数* $m_1, m_2, \ldots, m_l$ *称为* W 的指数。
 
-令C为由$\mathfrak{H}, H_1, \ldots, H_l$其墙壁确定的房间，并放置$s_i = s_{H_i}$。 用与$H_i$正交且与C位于$H_i$同一侧的$e_i$单位向量表示。 根据第 1 章附录的第 2 条建议 IV，我们可以假设$H_i$已编号，使得$e_1, e_2, \ldots, e_r$两两正交，$e_{r+1}, e_{r+2}, \ldots, e_l$两两正交。 那么$s' = s_1 s_2 \ldots s_r$是关于子空间的正交对称
+令C为由$\mathfrak{H}, H_1, \ldots, H_l$其墙壁确定的房间，并放置$s_i = s_{H_i}$。 用与$H_i$正交且与C位于$H_i$同一侧的$e_i$单位向量表示。 By Prop. 2 of the Appendix of Chap. IV, we can assume that the $H_i$ are numbered so that $e_1, e_2, \ldots, e_r$ are pairwise orthogonal and $e_{r+1}, e_{r+2}, \ldots, e_l$ are pairwise orthogonal. 那么$s' = s_1 s_2 \ldots s_r$是关于子空间的正交对称
 
 $$
 V' = H_1 \cap H_2 \cap \cdots \cap H_r,
@@ -223,7 +223,7 @@ $$
 
 *假设W是不可约的。令$u_1, \ldots, u_l$是对称代数$S = S(V)$的齐次元素，在W（§ 5, no. 3，Th.3）下S不变量的元素的$\mathbf{R}$和生成的代数上代数独立。如果$p_j$是$u_j$的次数，则W的指数是$p_1 - 1, \ldots, p_l - 1$*。
 
-将$V' = V \otimes_{\mathbf{R}} \mathbf{C}$、$S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$和扩展将标量乘积放在V上，将厄米特形式放在$V'$上。 如果$c$是W的Coxeter变换，则存在$c \otimes 1$特征向量的$V'$由……组成的正交基$(X_i)_{1 \leq i \leq l}$（*代数*，第1章） IX, § 7, no. 3，命题 4)；此外，我们可以假设，对于$1 \leq j \leq l$，$X_j$对应到特征值$\exp \frac{2i\pi m_j}{h}$ of $c \otimes 1$。 显然，$S'$可以等同于代数$\mathbf{C}[X_1, \ldots, X_l]$，并且我们可以写成$u_j \otimes 1 = f_j(X_1, \ldots, X_l)$，其中$f_j$是次数$p_j$在$\mathbf{C}[X_1, \ldots, X_l]$中的齐次多项式。 输入$D_j = \frac{\partial}{\partial X_j}$和$J = \det(D_k f_j)$。 Recall (§ 5, no. 4, Prop. 5) that $J(X_1, \ldots, X_l)$ is proportional to the product in $S'$ of $\mathrm{Card}(\mathfrak{H})$ vectors $y_k$ of V each of which is orthogonal to a hyperplane of $\mathfrak{H}$. 由于我们可以假设所有 $H \in \mathfrak{H}$ (*注*) 都有 $X_1 \notin H \otimes \mathbf{C}$，因此向量 $y_k$ 中每个$X_1$ 分量均非零，因此$J(1, 0, \ldots, 0) \neq 0$。 扩展行列式的规则现在证明$\{1, 2, \ldots, l\}$存在置换$\sigma$，使得$(D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0$对于所有$j$。 由于$D_{\sigma(j)} f_j$是次数$p_j - 1$的齐次，$f_j(X_1, \ldots, X_l)$中$X_1^{p_j - 1} X_{\sigma(j)}$的系数非零。 现在$f_j(X_1, \ldots, X_l)$在$c \otimes 1$下是不变的，并且
+将$V' = V \otimes_{\mathbf{R}} \mathbf{C}$、$S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$和扩展将标量乘积放在V上，将厄米特形式放在$V'$上。 如果$c$是W的Coxeter变换，则存在$c \otimes 1$特征向量的$V'$由……组成的正交基$(X_i)_{1 \leq i \leq l}$（*代数*，第IX, § 7, no. 3，第4条）；此外，我们可以假设，对于$1 \leq j \leq l$，$X_j$对应到特征值$\exp \frac{2i\pi m_j}{h}$ of $c \otimes 1$。 显然，$S'$可以等同于代数$\mathbf{C}[X_1, \ldots, X_l]$，并且我们可以写成$u_j \otimes 1 = f_j(X_1, \ldots, X_l)$，其中$f_j$是次数$p_j$在$\mathbf{C}[X_1, \ldots, X_l]$中的齐次多项式。 输入$D_j = \frac{\partial}{\partial X_j}$和$J = \det(D_k f_j)$。 Recall (§ 5, no. 4, Prop. 5) that $J(X_1, \ldots, X_l)$ is proportional to the product in $S'$ of $\mathrm{Card}(\mathfrak{H})$ vectors $y_k$ of V each of which is orthogonal to a hyperplane of $\mathfrak{H}$. 由于我们可以假设所有 $H \in \mathfrak{H}$ (*注*) 都有 $X_1 \notin H \otimes \mathbf{C}$，因此向量 $y_k$ 中每个$X_1$ 分量均非零，因此$J(1, 0, \ldots, 0) \neq 0$。 扩展行列式的规则现在证明$\{1, 2, \ldots, l\}$存在置换$\sigma$，使得$(D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0$对于所有$j$。 由于$D_{\sigma(j)} f_j$是次数$p_j - 1$的齐次，$f_j(X_1, \ldots, X_l)$中$X_1^{p_j - 1} X_{\sigma(j)}$的系数非零。 现在$f_j(X_1, \ldots, X_l)$在$c \otimes 1$下是不变的，并且
 $$
 (c \otimes 1)(X_1^{p_j - 1} X_{\sigma(j)}) = \left( \exp \frac{2i\pi}{h} (p_j - 1 + m_{\sigma(j)}) \right) (X_1^{p_j - 1} X_{\sigma(j)}).
 $$
@@ -269,4 +269,4 @@ $$
 
 下面的习题（练习3除外）中，假设和记号是§ 6的假设和记号。
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

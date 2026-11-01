@@ -30,21 +30,21 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: fee7e4a802baf2980c983bef6327dd6ce58cb29ff638866b30bc00962c455082
+content_sha256: 181b9ca5c42bea167e7f0fa1800595b0c6d310d08bd1fb1f26e4c851fb8a786c
 translated_from: content/en/ens/I/04_s4_quantified_theories.md
 translation_method: google
 source_content_sha256: 07568a80b2b793e5dd22b88d7dc9caf03ded631f676da9f844c975c64e8b5a2c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f669200c3b67e15ed6ffc9a8c00d8dcb5296fe35fbf6e47651e76667b7a682b6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4.量化理论
+## 4. 量化理论
 
-### 1.量词的定义
+### 1. 量词的定义
 
 在§ 3中起作用的唯一逻辑符号是$\neg$和$\vee$。我们现在要陈述的规则本质上涉及逻辑符号$\tau$和$\square$的使用。
 
@@ -88,7 +88,7 @@ C28。 *令$\mathscr{T}$为逻辑理论，令$R$为$\mathscr{T}$中的关系，�
 
 因为“not $(\forall x)R$”与“not not $(\exists x)(\text{not } R)$”相同。
 
-### 2. 量化理论公理
+### 2. 量化理论的公理
 
 *量化理论*是任何理论$\mathscr{T}$，其中概形 S1 到 S4 (§ 3, no. 1) 和下面的概形 S5 提供隐式公理。
 
@@ -98,13 +98,13 @@ S5。 *如果$\mathscr{T}$中$R$是关系，如果$\mathscr{T}$中$T$是项，�
 
 概形 S5 表示，如果存在一个对象$T$，其中关系 $R$（被视为表达$x$ 的性质）为真，则$R$ 对于对象$\tau_x(R)$ 为真；这符合我们对$\tau_x(R)$（§1, no. 3，注）的直观含义。
 
-### 3. 量词的性质
+### 3. 量词的特性
 
-从现在开始我们只需要考虑量化理论。对于截面的其余部分，$\mathscr{T}$将表示这样的理论，而$\mathscr{T}_0$将表示没有显式公理的理论，其与$\mathscr{T}$具有相同的符号，并且其唯一的概形是S1到S5。 $\mathscr{T}$比$\mathscr{T}_0$强。
+从现在开始我们只需要考虑量化理论。对于截面的其余部分，$\mathscr{T}$将表示这样的理论，$\mathscr{T}_0$将表示没有显式公理的理论，其与$\mathscr{T}$具有相同的符号，并且其唯一的概形是S1到S5。 $\mathscr{T}$比$\mathscr{T}_0$强。
 
 C29。 *设$R$为$\mathscr{T}$中的关系，并令$x$为字母。那么关系“不是$(\exists x)R$”和$(\forall x)(\text{not } R)$在$\mathscr{T}$中是等价的。*
 
-证明$\mathscr{T}_0$理论中的准则，其中$x$不是常数就足够了。 定理 $R \Leftrightarrow (\text{not not } R)$ 给我们，通过 C3 (§2, no. 3)，定理
+证明$\mathscr{T}_0$理论中的准则，其中$x$不是常数就足够了。 定理 $R \Leftrightarrow (\text{not not } R)$ 通过 C3 (§2, no. 3) 给我们，定理
 $$(\exists x)R \Rightarrow (\tau_x(R)|x)(\text{not not } R)$$
 和
 $$(\exists x)(\text{not not } R) \Rightarrow (\tau_x(\text{not not } R)|X)R.$$
@@ -180,7 +180,7 @@ $$(\text{not } R) \Rightarrow (\forall x)S$$
 
 $$(R \text{ or } (\forall x)S) \Rightarrow (\forall x)(R \text{ or } S)$$
 
-$\mathscr{T}_0$ 中有定理。与$\exists$有关的规则遵循应用C29。
+是$\mathscr{T}_0$中的定理。与$\exists$有关的规则遵循应用C29。
 
 C34。 *令$R$为关系，令$x$和$y$为字母。然后关系*
 
@@ -188,13 +188,13 @@ $$(\forall x)(\forall y)R \iff (\forall y)(\forall x)R,$$
 $$(\exists x)(\exists y)R \iff (\exists y)(\exists x)R,$$
 $$(\exists x)(\forall y)R \implies (\forall y)(\exists x)R$$
 
-*定理位于$\mathscr{T}$。*
+*定理位于 $\mathscr{T}$。*
 
 在$\mathscr{T}_0$中证明这些定理就足够了，其中$x$和$y$不是常数。如果$(\forall x)(\forall y)R$为真，则$(\forall y)R$、$R$、$(\forall x)R$、$(\forall y)(\forall x)R$为真。同样，如果$(\forall y)(\forall x)R$为真，则$(\forall x)(\forall y)R$为真；第一个定理紧随其后。第二个现在是使用 C29。最后，由于$(\forall y)R \Rightarrow R$在$\mathscr{T}_0$中是定理，所以$(\exists x)(\forall y)R \Rightarrow (\exists x)R$在C31中也是如此；如果 $(\exists x)(\forall y)R$ 为真，则 $(\exists x)R$ 为真，因而 $(\forall y)(\exists x)R$ 也为真。因此第三个定理。
 
-另一方面，如果$(\forall y)(\exists x)R$在$\mathscr{T}$中是定理，我们可能不会结论使得$(\exists x)(\forall y)R$在$\mathscr{T}$中是定理。直观上，说关系$(\forall y)(\exists x)R$为真意味着，给定任何对象$y$，存在一个对象$x$使得$R$是对象$x$和$y$之间的真关系。但一般来说，对象$x$将依赖于对象$y$的选择，而说$(\exists x)(\forall y)R$为真意味着存在一个*固定*对象$x$，使得$R$是该对象和*任何*对象$y$之间的真关系。
+另一方面，如果$(\forall y)(\exists x)R$在$\mathscr{T}$中是定理，我们可能不会结论认为$(\exists x)(\forall y)R$在$\mathscr{T}$中是定理。直观上，说关系$(\forall y)(\exists x)R$为真意味着，给定任何对象$y$，存在一个对象$x$，使得$R$是对象$x$和$y$之间的真关系。但一般来说，对象$x$将依赖于对象$y$的选择，而说$(\exists x)(\forall y)R$为真意味着存在一个*固定*对象$x$，使得$R$是该对象和*任何*对象$y$之间的真关系。
 
-### 4.典型量词
+### 4. 典型量词
 
 令$A$和$R$为组合，并令$x$为字母。我们用 $(\exists_A x)R$ 表示组件 $(\exists x)(A$ 和 R)，并且组件
 
@@ -296,10 +296,10 @@ $$(\exists y)(\exists x)(B \text{ and } (A \text{ and } R)).$$
 
 现在应用 C31 和 C34 (no. 3)。
 
-\* 作为这些判据的应用的例，请考虑以下关系：“实值函数$(f_n)$的序列在$[0, 1]$中统一收敛到0”。这意味着“对于每个$\varepsilon > 0$，都存在整数$n$，这样对于每个$x \in [0, 1]$和每个整数$m \geqslant n$，我们都有$|f_m(x)| \leqslant \varepsilon$”。假设我们想取这个关系的否定（对于例，通过矛盾得到证明）；标准 C38 表明该否定等价于以下关系：“存在一个$\varepsilon > 0$，使得对于每个整数$n$，都存在一个$x \in [0, 1]$和一个$m \geqslant n$，其中$|f_m(x)| > \varepsilon$”。
+\* 作为这些判据的应用的例，请考虑以下关系：“实值函数$(f_n)$的序列在$[0, 1]$中统一收敛到0”。这意味着“对于每个$\varepsilon > 0$，都存在整数$n$，这样对于每个$x \in [0, 1]$和每个整数$m \geqslant n$，我们都有$|f_m(x)| \leqslant \varepsilon$”。假设我们想取这个关系的否定（对于例，通过矛盾得到证明）；标准 C38 表明，这个否定等价于以下关系：“存在一个$\varepsilon > 0$，使得对于每个整数$n$，都存在一个$x \in [0, 1]$和一个$m \geqslant n$，其中$|f_m(x)| > \varepsilon$”。
 
 ### 习题 {#ens-i-s4-exercises}
 
 *总共习题为* § 4、$\mathscr{T}$ *表示量化理论。*
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

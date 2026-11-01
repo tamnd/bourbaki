@@ -38,25 +38,25 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 69120fb98011a0708eac291a8fa47be33155d09a103d4e7bc7865b404108882a
+content_sha256: 4d8add3623c3f8ece2293b7064180489fff8334c6eaba366df4a65f4a9f1f4fa
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
 translation_method: google
 source_content_sha256: a716a1c3cf99e3d34241000d92ee39248d92a3c9503fa59066fb7f864e19044c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e0a2c075987c842239e35bb77d26baba4c42bc5cfc396e06fd62bc6f5ef7565c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。对称代数
 
-### 1. 模的对称代数的定义
+### 1. 定义对称代数模
 
 #### 定义 1 {#alg-iii-s6-def-1 .statement tag=0626}
 
-*设A为交换环，M为A-模。 M 的对称代数，表示为 S(M)、Sym(M) 或 S_A(M)，是由元素生成的双边理想 $\mathfrak{J}'$（也表示为 $\mathfrak{J}'_M$）对张量代数 T(M) 与 A 的商代数 T(M) 的 $xy - yx = x \otimes y - y \otimes x$，其中 x 和 y 穿过 M。*
+*设 A 为交换环，M 为 A-模。 M 的对称代数，用 S(M)、Sym(M) 或 S_A(M) 表示，是由下式生成的双边理想 $\mathfrak{J}'$（也用 $\mathfrak{J}'_M$ 表示）对张量代数 T(M) 与 A 的商代数 T(M) 的元素 $xy - yx = x \otimes y - y \otimes x$，其中 x 和 y 穿过 M。*
 
 由于理想$\mathfrak{J}'$是由次数2的齐次元素生成的，因此它是一个分级理想（II, § 11, no. 3，命题2）；我们写$\mathfrak{J}'_n = \mathfrak{J}' \cap T^n(M)$；然后，代数 S(M) 根据 $S^n(M) = T^n(M)/\mathfrak{J}'_n$ 的分级（称为规范）由……组成进行分级。现在 $\mathfrak{J}'_0 = \mathfrak{J}'_1 = \{0\}$ 以及$S^0(M)$ 被规范地标识为 A，$S^1(M)$ 被规范地标识为 $T^1(M) = M$；我们将始终在下面进行这些识别，并用$\phi'$或$\phi'_M$典范嵌入$M \to S(M)$表示。
 
@@ -68,31 +68,31 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 命题 2 {#alg-iii-s6-prop-2 .statement tag=0628}
 
-*令 E 为 A-代数和 $f : M \to E$ A-线性映射，使得*
+*设 E 为 A-代数和 $f : M \to E$ A-线性映射，这样*
 $$(1)$$
 $$ f(x)f(y) = f(y)f(x) \text{ for all } x, y \text{ in } M. $$
 *存在且仅有一个A-代数同态$g : S(M) \to E$使得$f = g \circ \phi'$。*
 
-In other words, $(S(M), \phi')$ is a solution of the *universal mapping problem* (*Set Theory*, IV, § 3, no. 1), where $\Sigma$ is the species of A-algebra structure, the $\alpha$-mappings being the linear mappings of the A-module M to an A-algebra satisfying (1).
+在其他字中，$(S(M), \phi')$是*普遍映射问题*的解（*集合理论*，IV, § 3, no. 1），其中$\Sigma$是A-代数的类结构，$\alpha$-映射为A-模M到A-代数满足的线性映射 (1)。
 
-g 的唯一性由 $\phi'(M) = M$ 生成 S(M) 得出。证明 g, 注的存在性，根据 § 5, No. 1, 命题 1 存在 A-代数同态 $g_1 : T(M) \to E$ 使得 $f = g_1 \circ \phi;$
+g 的唯一性由$\phi'(M) = M$ 生成 S(M) 得出。证明 g, 注的存在性，根据 § 5, No. 1, 命题 1 存在 A-代数同态 $g_1 : T(M) \to E$ 使得 $f = g_1 \circ \phi;$
 
-需要证明的是，在理想的$\mathfrak{J}'$上，$g_1$是零，那么，如果$p : T(M) \to S(M) = T(M)/\mathfrak{J}'$是典范同态，我们可以写成$g_1 = g \circ p$，其中$g : S(M) \to E$是代数同态，并且从$p \circ \phi = \phi'$得出结论。现在$g_1$的核是一个双面理想，根据(1)和关系$g_1 \circ \phi = f$，包含元素$x \otimes y - y \otimes x$对于$M$中的$x, y$。这样就完成了证明。
+需要证明的是，在理想的$\mathfrak{J}'$上$g_1$是零，那么，如果$p : T(M) \to S(M) = T(M)/\mathfrak{J}'$是典范同态，我们可以写成$g_1 = g \circ p$，其中$g : S(M) \to E$是代数同态，结论如下： $p \circ \phi = \phi'$。现在$g_1$的核是一个双面理想，根据(1)和关系$g_1 \circ \phi = f$，包含元素$x \otimes y - y \otimes x$对于$M$中的$x, y$。这样就完成了证明。
 
 #### 注 {#alg-iii-s6-n1-rem-1 .statement tag=0629}
 
-(1) 假设$E$是型$\mathbf{Z}$的分级$A$代数，毕业为$(E_n)$，并假设线性映射$f$（假设满足(1)）是这样的：
+(1) 假设$E$是型$\mathbf{Z}$的分级$A$代数，毕业为$(E_n)$，并假设线性映射$f$（假设满足（1））是这样的：
 (2)
 $$
 f(M) \subset E_1.
 $$
-然后关系 $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ 与 $x_i \in M$ 表明 $g(S^p(M)) \subset E_p$ 对于所有 $p \geq 0$，因此 $g$ 是分级的代数同态。
+然后关系 $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ 与 $x_i \in M$ 显示 $g(S^p(M)) \subset E_p$ 对于所有 $p \geq 0$，因此 $g$ 是分级的代数同态。
 
-(2) $S(M)$的每元素是形式$x_1 x_2 \ldots x_n$的乘积的和，其中$x_i$属于到$M$；应注意不要将$S(M)$中采用的乘积与$T(M)$中采用的类似乘积相混淆。
+(2) $S(M)$的每元素为形式$x_1 x_2 \ldots x_n$的乘积和，其中$x_i$属于至$M$；应注意不要将$S(M)$中采用的乘积与$T(M)$中采用的类似乘积相混淆。
 
 (3) 如果$n!.1$在$A$中可逆，则$A$模$S^n(M)$由形式$x^n$的元素生成，其中$x \in M$；这是从上面的注和I, § 8, no. 2，命题2得出的。
 
-### 2.对称代数的函数性质
+### 2. 对称代数的函数性质
 
 #### 命题 3 {#alg-iii-s6-prop-3 .statement tag=062A}
 
@@ -106,7 +106,7 @@ S(M) & \xrightarrow{u'} & S(N)
 \end{array}
 $$
 
-*is commutative.此外，$u'$是分级的代数同态。*
+* 是可交换的。此外，$u'$是分级的代数同态。*
 
 $u'$的存在性和唯一性源自no. 1、命题2应用于交换代数、$S(N)$和$f = \phi'_N \circ u : M \to S(N)$；作为
 $$
@@ -114,7 +114,7 @@ f(M) \subset S^1(N) = N,
 $$
 事实上，$u'$ 是分级的代数同态，源自 no. 1，*注* 1。
 
-命题 3 中的同态 $u'$ 今后将用$S(u)$ 表示。如果 $P$ 是$A$-模且 $v : N \to P$ $A$-线性映射，则
+命题 3 中的同态 $u'$ 此后将用$S(u)$ 表示。如果 $P$ 是$A$-模且 $v : N \to P$ $A$-线性映射，则
 $$
 S(v \circ u) = S(v) \circ S(u)
 $$
@@ -133,11 +133,11 @@ $$
 $$
 S^n(u)(x_1 x_2 \ldots x_n) = u(x_1) u(x_2) \ldots u(x_n)
 $$
-其中$x_i \in M$，因为$S(u)$是代数同态和$S^1(u) = u$； 限制 $S^0(u)$ 至 $A$ 为恒等映射。 注 $S^n(u)$ 可以由 $T^n(u): T^n(M) \to T^n(N)$ 通过经过得到商。
+其中$x_i \in M$，因为$S(u)$是代数同态和$S^1(u) = u$； 限制$S^0(u)$到$A$是恒等映射。 注 $S^n(u)$ 可以由 $T^n(u): T^n(M) \to T^n(N)$ 通过经过得到商。
 
 #### 命题 4 {#alg-iii-s6-prop-4 .statement tag=062B}
 
-*如果$u: M \to N$是满射$A$线性映射，则同态$S(u): S(M) \to S(N)$是满射，其核是由核$P \subset M \subset S(M)$生成$u$生成的$S(M)$的理想。*
+*如果$u: M \to N$是满射$A$线性映射，则同态$S(u): S(M) \to S(N)$是满射，其核是$u$的核$P \subset M \subset S(M)$生成的$S(M)$的理想。*
 
 我们写$v = T(u): T(M) \to T(N)$；我们知道 (§ 5, no. 2, 命题 3) $v$ 是满射的，因此从定义得出 $v(\mathfrak{J}'_M) = \mathfrak{J}'_N$；如果$\mathfrak{R}$是$v$的核，则$v^{-1}(\mathfrak{J}'_N) = \mathfrak{R} + \mathfrak{J}'_M$。由于$S(u): T(M)/\mathfrak{J}'_M \to T(N)/\mathfrak{J}'_N$是由$v$乘以经过的商得出的，所以它是满同态，其核是$\mathfrak{R}' = (\mathfrak{R} + \mathfrak{J}'_M)/\mathfrak{J}'_M$。由于$\mathfrak{R}$是由$u$（§ 5, no. 2）的核$P$生成，$\mathfrak{R}'$也是如此。
 
@@ -165,7 +165,7 @@ $$
 
 N 称为 M 与 z *关联*的向量子空间。
 
-### 3. 模的第 n 个对称幂和对称多线性映射
+### 3. 模的 n 次对称幂和对称多线性映射
 
 令X，Y为两个集合和$n$整数$\geqslant 1$。 $X^n$ 到 Y 的*对称映射* 是任意映射 $f : X^n \to Y$，使得对于每个置换 $\sigma \in \mathscr{S}_n$ 和每个元素 $(x_i) \in X^n$，
 
@@ -239,7 +239,7 @@ $$
 
 其中$u_\sigma$是A-模$T^n(M)$的*自同态*，也用$z \mapsto \sigma . z$表示。显然，如果$\sigma$是$\mathfrak{S}_n$的单位元素，则$u_\sigma$就是恒等式；另一方面，写 $y_i = x_{\sigma^{-1}(i)}$，对于每个置换 $\tau \in \mathfrak{S}_n, y_{\tau^{-1}(i)} = x_{\sigma^{-1}(\tau^{-1}(i))}$，我们得到 $\tau . (\sigma . z) = (\tau \sigma) . z$；其他字、A-模$T^n(M)$是运算$(\sigma, z) \mapsto \sigma . z$（I, § 5, no. 1）下的左$\mathfrak{S}_n$-*集合*。 $T^n(M)$ 的元素使得 *所有* $\sigma \in \mathfrak{S}_n$ 的 $\sigma . z = z$ 被称为（逆变）* 阶 n* 的对称张量；它们形式是$T^n(M)$的子A模块$S'_n(M)$。
 
-对于所有$z \in T^n(M)$，我们写成$s . z = \sum_{\sigma \in \mathfrak{S}_n} \sigma . z$并称$s . z$为张量$z$的*对称化*；显然$s . z$是对称的张量，因此$z \mapsto s . z$是$T^n(M)$的自同态，其中像$S''_n(M)$包含在$S'_n(M)$中；一般来说，$S''_n(M) \neq S'_n(M)$（习题5）。如果$z$是对称张量，则$s . z = n! z$；由此可知 *当 n!在A*中是可逆的，自同态$z \mapsto (n!)^{-1} s . z$是$T^n(M)$(II, § 1, no. 8)的*投影算子*，其像是$S'_n(M) = S''_n(M)$；而且这个投影算子上的*核*只是$\mathfrak{J}'_n$。因为，显然所有$\sigma \in \mathfrak{S}_n$和$\mathfrak{J}'_n$的$\sigma(\mathfrak{J}'_n) \subset \mathfrak{J}'_n$都是由张量$z - \rho . z$生成定义，其中$\rho$是$\{1, n\}$中两个连续数的转置；另外，如果$\sigma, \tau$是$\mathfrak{S}_n$中的两个置换，则$z - (\sigma \tau) . z = z - \sigma . z + \sigma . (z - \tau . z)$，从而（因为$\mathfrak{S}_n$中的每个置换都是交换两个连续数的换位的乘积）$z - \sigma . z \in \mathfrak{J}'_n$对于所有 $z \in T^n(M)$ 和 $\sigma \in \mathfrak{S}_n$。因此（始终假设 n! 在 A 中可逆），可以看出
+对于所有$z \in T^n(M)$，我们写成$s . z = \sum_{\sigma \in \mathfrak{S}_n} \sigma . z$并称$s . z$为张量$z$的*对称化*；显然$s . z$是对称的张量，因此$z \mapsto s . z$是$T^n(M)$的自同态，其中像$S''_n(M)$包含在$S'_n(M)$中；一般来说，$S''_n(M) \neq S'_n(M)$（习题5）。如果$z$是对称的张量，则$s . z = n! z$；由此可知 *当 n!在A*中是可逆的，自同态$z \mapsto (n!)^{-1} s . z$是$T^n(M)$(II, § 1, no. 8)的*投影算子*，其像是$S'_n(M) = S''_n(M)$；而且这个投影算子上的*核*只是$\mathfrak{J}'_n$。因为，显然所有$\sigma \in \mathfrak{S}_n$和$\mathfrak{J}'_n$的$\sigma(\mathfrak{J}'_n) \subset \mathfrak{J}'_n$是由定义由张量$z - \rho . z$生成的，其中$\rho$是$\{1, n\}$中两个连续数的转置；另外，如果$\sigma, \tau$是$\mathfrak{S}_n$中的两个置换，则$z - (\sigma \tau) . z = z - \sigma . z + \sigma . (z - \tau . z)$，从而（因为$\mathfrak{S}_n$中的每个置换都是交换两个连续数的换位的乘积）$z - \sigma . z \in \mathfrak{J}'_n$对于所有 $z \in T^n(M)$ 和 $\sigma \in \mathfrak{S}_n$。因此（始终假设 n! 在 A 中可逆），可以看出
 
 $$
 z - (n!)^{-1} s . z = \sum_{\sigma \in \mathfrak{S}_n} (n!)^{-1} (z - \sigma . z) \in \mathfrak{J}'_n
@@ -247,11 +247,11 @@ $$
 
 对于所有$z \in T^n(M)$，这证明了我们的断言。
 
-当$n!$在$A$可逆时，$T^n(M)$的子模、$S'_n(M)$和$\mathfrak{g}'_n$因此是互补的，并且典范同态$T^n(M) \to S^n(M) = T^n(M)/\mathfrak{g}'_n$的限制到$S'_n(M)$是一个$A$-模块同构，它允许我们在设想的情况下将阶$n$的认同对称张量与$M$的第$n$对称幂进行元素。 注然而，该标识与两个对称张量的乘法、乘积（在$T(M)$中）不兼容，一般来说不对称，因此不具有对称对称的像的$S(M)$乘积中的像考虑张量。
+当$n!$在$A$可逆时，$T^n(M)$的子模、$S'_n(M)$和$\mathfrak{g}'_n$因此是互补的，并且典范同态$T^n(M) \to S^n(M) = T^n(M)/\mathfrak{g}'_n$的限制到$S'_n(M)$是一个$A$-模块同构，它允许我们在设想的情况下将阶$n$的认同对称张量与$n$对称幂的$M$进行元素。 注然而，该标识与两个对称张量的乘法、乘积（在$T(M)$中）不兼容，一般来说不对称，因此不具有对称对称的像的$S(M)$乘积中的像考虑张量。
 
-### 4. 标量的环中的扩张
+### 4. 标量的环的扩张
 
-令$A, A'$为两个交换环、$\rho : A \to A'$环同态、$M$一个$A$模、$M'$一个$A'$模和$f : M \to M'$一个$A$同态（相对于$\rho$）的$M$变成$M'$。复合映射$M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} S_{A'}(M')$是$M$到交换代数$\rho_*(S_A(M'))$的$A$线性映射；则存在 no. 1, 命题 2) 唯一一个 $A$ 同态代数 $f' : S_A(M) \to S_{A'}(M')$ 呈现可交换图表
+令$A, A'$为两个交换环、$\rho : A \to A'$环同态、$M$一个$A$模、$M'$一个$A'$模以及$f : M \to M'$一个$A$同态（相对于$\rho$）的$M$变成$M'$。复合映射$M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} S_{A'}(M')$是$M$到交换代数$\rho_*(S_A(M'))$的$A$线性映射；则存在 no. 1, 命题 2) 唯一一个 $A$ 同态代数 $f' : S_A(M) \to S_{A'}(M')$ 呈现可交换图表
 
 $$
 \begin{array}{ccc}
@@ -283,7 +283,7 @@ $B$-线性映射$l_B \otimes \phi_M' : B \otimes_A M \to B \otimes_A S_A(M)$是�
 
 ### 5. 直极限对称代数
 
-令$(A_\alpha, \phi_{\beta\alpha})$为交换环、$(M_\alpha, f_{\beta\alpha})$直接系统的$A_\alpha$模块、$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$的有向直接系统。对于 $\alpha \leq \beta$，我们从 $A_\alpha$ 同态 $f_{\beta\alpha}: M_\alpha \to M_\beta$ 和 $A_\alpha$ 代数同态 (no. 4, 公式 (8)) $f'_{\beta\alpha}: S_{A_\alpha}(M_\alpha) \to S_{A_\beta}(M_\beta)$ 推导出来，并从 (9) (no. 4) 得出 $(S_{A_\alpha}(M_\alpha), f'_{\beta\alpha})$是 $A_\alpha$-代数*的 *直接系统。另一方面，$f_\alpha: M_\alpha \to M$是规范的$A$同态；我们推导出 (no. 4, 公式 (8)) $A_\alpha$-代数同态
+令$(A_\alpha, \phi_{\beta\alpha})$是交换环、$(M_\alpha, f_{\beta\alpha})$直接系统的$A_\alpha$模块、$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$的有向直接系统。对于 $\alpha \leq \beta$，我们从 $A_\alpha$ 同态 $f_{\beta\alpha}: M_\alpha \to M_\beta$ 和 $A_\alpha$ 代数同态 (no. 4, 公式 (8)) $f'_{\beta\alpha}: S_{A_\alpha}(M_\alpha) \to S_{A_\beta}(M_\beta)$ 推导出来，并从 (9) (no. 4) 得出 $(S_{A_\alpha}(M_\alpha), f'_{\beta\alpha})$是 *直接系统的 $A_\alpha$-代数*。另一方面，$f_\alpha: M_\alpha \to M$是规范的$A$同态；我们推导出 (no. 4, 公式 (8)) $A_\alpha$-代数同态
 
 $$
 f'_\alpha: S_{A_\alpha}(M) \to S_A(M)
@@ -297,7 +297,7 @@ $$
 
 证明与 § 5, no. 5、命题 6 替换在整个 $T$ 和 $S$ 以及 $\phi$ 和 $\phi'$ 之间是相同的，并且考虑到交换代数的直极限是可交换的。
 
-### 6. 直和对称代数。对称代数自由模。对称代数分级模
+### 6. 对称代数直和。对称代数自由模。对称代数分级模
 
 令$A$为交换环、$M = \bigoplus_{\lambda \in L} M_\lambda$直和，属于$A$模块族，以及$j_\lambda: M_\lambda \to M$典范嵌入；我们推导出代数$S(j_\lambda): S(M_\lambda) \to S(M)$的$A$同态。由于$S(M)$是可交换的，§ 4, no. 5的命题 8可以应用于同态$S(j_\lambda)$，因此存在唯一代数同态
 
@@ -396,12 +396,12 @@ $$
 
 #### 命题 10 {#alg-iii-s6-prop-10 .statement tag=062M}
 
-*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$S^{\alpha, n}(M)$为子模$\bigotimes_{\lambda \in J} S^{n_\lambda}(M_{\alpha_\lambda})$的$S^n(M)$直和的子模，其中$(n_\lambda)_{\lambda \in L}$贯穿整数$\geq 0$的家庭的集合这样$\sum_{\lambda \in L} n_\lambda = n$，$J$是它的支持，并且对于每个$(n_\lambda), (\alpha_\lambda)_{\lambda \in J}$贯穿$\Delta^J$的家庭集合，使得$\sum_{\lambda \in J} \alpha_\lambda = \alpha$。那么 $(S^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一刻度，与 $S(M)$ 上的代数结构以及 $M = S^1(M)$ 上的诱导给定的刻度兼容。*
+*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，以及$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$S^{\alpha, n}(M)$为子模$\bigotimes_{\lambda \in J} S^{n_\lambda}(M_{\alpha_\lambda})$的$S^n(M)$直和的子模，其中$(n_\lambda)_{\lambda \in L}$贯穿整数$\geq 0$的家庭的集合这样$\sum_{\lambda \in L} n_\lambda = n$，$J$是它的支持，并且对于每个$(n_\lambda), (\alpha_\lambda)_{\lambda \in J}$贯穿$\Delta^J$的家庭集合，使得$\sum_{\lambda \in J} \alpha_\lambda = \alpha$。那么 $(S^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一刻度，与 $S(M)$ 上的代数结构以及 $M = S^1(M)$ 上的诱导给定的刻度兼容。*
 
-$S(M)$ 是 $S^{\alpha, n}(M)$ 的直和，这一事实由命题 9 的推论得出； 证明的其余部分与§ 5, no. 5、命题7的证明的末尾相同。
+$S(M)$ 是 $S^{\alpha, n}(M)$ 中的直和，这一事实由命题 9 的推论得出； 证明的其余部分与§ 5, no. 5、命题7的证明的末尾相同。
 
-更具体地假设 $\Delta = \mathbf{Z}$ 并让 $S(M)$ 被赋予总分级 (型 $\mathbf{Z}$) (II, § 11, no. 1) 相应的到型 $\mathbf{Z} \times \mathbf{N}$ 的分级（因此也定义型 $\mathbf{Z} \times \mathbf{Z}$）上面；因此，在该分级下，次数$n \in \mathbf{Z}$的同质元素是$q + m = n$的$S^{q, m}(M)$的直和。令$f$为分级$A$-模$M$的*次数* 0的*齐次*线性映射转换为型$\mathbf{Z}$的*可交换*分级$A$-代数$F$；那么代数同态$g : S(M) \to F$使得$f = g \circ \phi_M'$是型*$\mathbf{Z}$的分级代数的*同态，如下从公式$g(x_1 x_2 \ldots x_n) = f(x_1) f(x_2) \ldots f(x_n)$对于$M$中的同质$x_i$，从$f$假设开始，以及$S(M)$型$\mathbf{Z}$毕业定义开始。
+更具体地假设 $\Delta = \mathbf{Z}$ 并让 $S(M)$ 被赋予总分级 (型 $\mathbf{Z}$) (II, § 11, no. 1) 相应的到型 $\mathbf{Z} \times \mathbf{N}$ 的分级（因此也定义型 $\mathbf{Z} \times \mathbf{Z}$）上面；因此，在此分级下，次数 $n \in \mathbf{Z}$ 的齐次元素是$q + m = n$ 的$S^{q, m}(M)$ 的直和。令$f$为分级$A$-模$M$的*次数* 0的*齐次*线性映射转换为型$\mathbf{Z}$的*可交换*分级$A$-代数$F$；那么代数同态$g : S(M) \to F$使得$f = g \circ \phi_M'$是型*$\mathbf{Z}$的分级代数的*同态，如下从公式$g(x_1 x_2 \ldots x_n) = f(x_1) f(x_2) \ldots f(x_n)$对于$M$中的同质$x_i$，从$f$假设开始，以及$S(M)$型$\mathbf{Z}$毕业定义开始。
 
 ### 习题 {#alg-iii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

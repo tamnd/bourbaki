@@ -30,23 +30,23 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 9b9be02082329b9bce8aca5419ec25c0ef888f02ad953540a1ed0cfb99137818
+content_sha256: f81749502536a045b505fff000355c3099e30ab725d6c4aedd05c3e521d3561b
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
 translation_method: google
 source_content_sha256: 65beb1cc0241071c6af8fd096affc82c43f56e17f2bdbff1369f0068bc5d019e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 90e23c4ba0ce225e66541156cfd6c65f50ef7ea37d1dee14a94250015534d343
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。 共轭元素和拟伽罗瓦扩展
 
 在本段中，K 表示 K 的域和 $\Omega$ 代数闭包。
 
-### 1. 扩张 / 同构的
+### 1. 扩张 / 同构
 
 #### 命题 1 {#alg-v-s9-prop-1 .statement tag=06LK}
 
@@ -60,7 +60,7 @@ b) 存在扩展 u 的 $\Omega$ 的 K 自同构 v。
 
 显然$\Omega$是E和$u(E)$的代数闭包；因此（V，p. 23，Cor.），E的同构u到$u(E)$扩展到同构$\Omega$的v到$\Omega$。
 
-### 2.共轭扩张。 共轭元素
+### 2. 共轭扩张。 共轭元素
 
 #### 定义 1 {#alg-v-s9-def-1 .statement tag=06LL}
 
@@ -68,7 +68,7 @@ b) 存在扩展 u 的 $\Omega$ 的 K 自同构 v。
 
 设E和F是$\Omega$中包含的K的两个扩张。根据命题 1，E 和 F 在 K 上是共轭当且仅当它们与 K 同构扩张时。尤其是当存在 $\Omega$ 的两个子集 A 和 B 使得 $E = K(A)$ 和 $F = K(B)$ 以及 $\Omega$ 的 K 自同构 u 使得$u(A) = B$。
 
-关系 « x 和 y 在 K 上为共轭 » 在 $\Omega$ 中为等价关系； -$\Omega$中的等价类称为共轭类；它们是$\Omega$的所有K-自同构中群中的$\Omega$中的轨道。
+关系 « x 和 y 在 K 上为共轭 » 在 $\Omega$ 中为等价关系； -$\Omega$中的等价类称为共轭类；它们是$\Omega$的所有K-自同构的群中的$\Omega$中的轨道。
 
 #### 命题 2 {#alg-v-s9-prop-2 .statement tag=06LM}
 
@@ -108,13 +108,13 @@ $$
 
 在其他字中，$\Omega$的元素$x$是$K$的p根式当且仅当它除了自身之外没有共轭。
 
-令 $p$ 为特征指数，令 $x \in \Omega$。根据$V$、p. 44、命题13，存在整数$m \geq 0$，使得$y = x^{p^m}$是代数且可在$K$上分离。现在$x$在$G$下不变当且仅当$y$在$G$下不变；由科. 2 当且仅当$y$是次数1除以$K$，即说即$y \in K$时，才是这种情况。现在推论是直接的推论。*
+令 $p$ 为特征指数，令 $x \in \Omega$。根据$V$、p. 44、命题13，存在整数$m \geq 0$，使得$y = x^{p^m}$是代数且可在$K$上分离。现在$x$在$G$下不变当且仅当$y$在$G$下不变；由科. 2 当且仅当$y$是次数1除以$K$，即说即$y \in K$时，才是这种情况。现在推论是直接的推论.*
 
-### 3.拟伽罗瓦扩展
+### 3. 拟伽罗瓦扩展
 
 #### 定义 2 {#alg-v-s9-def-2 .statement tag=06LQ}
 
-— *令 $E$ 为 $K$ 中的扩张。那么 $E$ 被称为拟伽罗瓦或正规（超过 $K$），如果它是代数并且如果 $K[X]$ 的每个不可约多项式在 $E$、分裂的中至少有一个根转化为乘积的多项式$E[X]$ 中有次数 1（无论是否不同）。
+— *令 $E$ 为 $K$ 中的扩张。那么 $E$ 被称为准伽罗瓦或正规（超过 $K$），如果它是代数并且如果 $K[X]$ 的每个不可约多项式在 $E$、分裂的中至少有一个根转化为乘积的多项式$E[X]$ 中有次数 1（无论是否不同）。
 
 如果$E$是$K$的代数闭包，则它是$K$的拟伽罗瓦扩展；对于命题 1 ($V$, p. 19) 的条件 (AC)，断言 $E[X]$ 中的每个非常数多项式都是次数 1 的多项式的乘积。*
 
@@ -122,7 +122,7 @@ $$
 
 — 令 E 为 $\Omega$ 中包含的 K 的扩张。那么下面的条件是等价的：
 a) E 是 K 的拟伽罗瓦扩展。
-b) 对于$\Omega$中K上的$x$中的每个$x \in E$共轭，所有属于到E。
+b) 对于$\Omega$中K上$x$的每个$x \in E$共轭，所有属于到E。
 c) $\Omega$ 映射域 E 的每个 K-自同构为自身。
 d) E 到 $\Omega$ 映射 E 到自身的每个 K 同态。
 e) E 是$K[X]$ 中非常数多项式族$(f_i)_{i \in I}$ 的$\Omega$ 中的分裂扩张（V、p. 24、注 3）。
@@ -167,9 +167,9 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 
 #### 注 3 {#alg-v-s9-n3-rem-3 .statement tag=06LY}
 
-令$E$为$K$的代数扩张和$x, y$两个$E$的元素。如果存在$E$的$K$自同构，其中映射$x$到$y$，则$x$和$y$在$K$上具有相同的最小多项式，因此根据命题2，共轭在$K$上（V，p. 52）。如果$E$是拟伽罗瓦，则逆命题成立，因为$\Omega$诱导的每个$K$自同构都有$E$的$K$自同构。 假设 $E$ 拟伽罗瓦并不是多余的，如下例所示： \* 令所有代数数的 $K = \mathbf{Q}$ 和 $\Omega$ 域；输入$E = \Omega \cap \mathbf{R}$。可以证明（V，p. 153，例 2），$E$的每一个自同构都是恒等映射，并且$\sqrt{2}$和$-\sqrt{2}$是$E$共轭的元素 $\mathbf{Q}$。 \*
+令$E$为$K$的代数扩张和$x, y$两个$E$的元素。如果存在$E$的$K$自同构，其中映射$x$到$y$，则$x$和$y$在$K$上具有相同的最小多项式，因此根据命题2，共轭在$K$上（V，p. 52）。如果$E$是拟伽罗瓦，则逆命题成立，因为$\Omega$诱导的每个$K$自同构都是$E$的$K$自同构。 假设 $E$ 拟伽罗瓦并不是多余的，如下例所示： \* 令所有代数数的 $K = \mathbf{Q}$ 和 $\Omega$ 域；输入$E = \Omega \cap \mathbf{R}$。可以证明（V，p. 153，例 2）$E$ 的每个自同构都是恒等映射，并且$\sqrt{2}$ 和$-\sqrt{2}$ 是$E$ 共轭的元素 $\mathbf{Q}$。 \*
 
-### 4. 集合生成的拟伽罗瓦扩展
+### 4. 由集合生成的拟伽罗瓦扩展
 
 #### 命题 4 {#alg-v-s9-prop-4 .statement tag=06LZ}
 
@@ -183,7 +183,7 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 
 #### 命题 5 {#alg-v-s9-prop-5 .statement tag=06M0}
 
-— 令 E 为 $\Omega$ 中包含的 K 的扩张，N 为由 E 生成的准伽罗瓦扩展。如果 A 为 $\Omega$ 的子集，使得 $E = K(A)$ 则$N = K(B)$，其中 B 为 $\Omega$ 的元素的集合 which are 共轭 to 元素 of A.
+— 令 E 为 $\Omega$ 中包含的 K 的扩张，N 为由 E 生成的拟伽罗瓦扩展。如果 A 为 $\Omega$ 的子集，使得 $E = K(A)$ 则$N = K(B)$，其中 B 为 $\Omega$ 的元素的集合分别是 A 的共轭到元素。
 
 #### 推论 1 {#alg-v-s9-prop-5-cor-1 .statement tag=06M1}
 
@@ -197,4 +197,4 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 
 ### 习题 {#alg-v-s9-exercises}
 
-See the [习题 for § 9](exercises/s9/).
+参见[习题为 § 9](exercises/s9/)。

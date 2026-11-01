@@ -53,25 +53,25 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: ce1338953b9a31332ca83092904aa5e8e175f885714c5f5b74f653846b777cc5
+content_sha256: 05df317e07f81fd2d4e2e29e90596588c649192892ae08181edc532ed1bf6685
 translated_from: content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md
 translation_method: google
 source_content_sha256: e5b8a3582b57fb78f4dd12b6e9730ed0ae0bc70a11963071c72fa1b2877b4759
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f0faccf2a217327e5ab2fd6901c8ed39c557154ed8bb6ac40645187a22bf2760
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 根系与紧凑型群相关
 
-在第4至8段中，我们用G表示连接的紧李群，用T表示G的最大环面。我们用G的$\mathfrak{g}$（分别$\mathfrak{t}$）李代数（分别T）表示，用$\mathfrak{g}_{\mathbf{C}}$（分别$\mathfrak{t}_{\mathbf{C}}$）表示复数$\mathfrak{g}$（或$\mathfrak{t}$）的李代数，以及W相对于T（§2, no. 5）的G的Weyl 群。
+在第4至8段中，我们用G表示连接的紧李群，用T表示G的最大环面。我们用G的$\mathfrak{g}$（分别$\mathfrak{t}$）李代数（分别T）表示，用$\mathfrak{g}_{\mathbf{C}}$（分别$\mathfrak{t}_{\mathbf{C}}$）表示复数$\mathfrak{g}$（或$\mathfrak{t}$）的李代数，以及W 相对于T (§2, no. 5) 的G 的Weyl 群。
 
-### 1.群X(H)
+### 1. 群X(H)
 
-设 H 为紧李群。用 X(H) 表示从 H 到拓扑群 $\mathbf{C}^*$ 连续同态的（交换）群。由章。 III, §8, no. 1，周四。 1、X(H)元素为李群态射；对于所有$a\in X(H)$，$a$的微分是$\mathbf{R}$线性映射$L(a) : L(H)\rightarrow L(\mathbf{C}^*)$。从现在开始，我们将$\mathbf{C}^*$的认同李代数与$\mathbf{C}$进行计算，使得$\mathbf{C}^*$重合的指数映射与映射$z \rightarrow e^z$从$\mathbf{C}$到$\mathbf{C}^*$。然后，与任意元素$a\in X(H)$相关联的是元素$L(a)\in$Hom$_{\mathbf{R}}(L(H),\mathbf{C})$；我们用Hom$_{\mathbf{C}}(L(H)_{(\mathbf{C})},\mathbf{C})$的$\delta (a)$元素表示它的对应（即，其限制到$L(H)\subset L(H)_{(\mathbf{C})}$等于$L(a)$）。
+令 H 为紧李群。用 X(H) 表示从 H 到拓扑群 $\mathbf{C}^*$ 连续同态的（交换）群。由章。 III, §8, no. 1，周四。 1、X(H)元素为李群态射；对于所有$a\in X(H)$，$a$的微分是$\mathbf{R}$线性映射$L(a) : L(H)\rightarrow L(\mathbf{C}^*)$。从现在开始，我们将$\mathbf{C}^*$的认同李代数与$\mathbf{C}$进行计算，使得$\mathbf{C}^*$重合的指数映射与映射$z \rightarrow e^z$从$\mathbf{C}$到$\mathbf{C}^*$。然后，与任意元素$a\in X(H)$相关联的是元素$L(a)\in$Hom$_{\mathbf{R}}(L(H),\mathbf{C})$；我们用Hom$_{\mathbf{C}}(L(H)_{(\mathbf{C})},\mathbf{C})$的$\delta (a)$元素表示它的对应（即，其限制到$L(H)\subset L(H)_{(\mathbf{C})}$等于$L(a)$）。
 
 对于所有 $x\in L(H)$ 和所有 $a\in X(H)$，我们有
 
@@ -89,13 +89,13 @@ $$
 
 （经验$_Hx$）$^a=e^{\delta(a)(x)}, x\in L(H), a\in X(H)$。
 
-由于H是紧的，X(H)的元素取绝对值1的复数的子群$\mathbf{U}=\mathbf{U}(1,\mathbf{C})$中的值，因此X(H)可以用连续的群来辨识（或解析）同态从H到$\mathbf{U}$。由此可见，对于所有$a\in L(H)$，映射$L(a)$在$\mathbf{C}$的子空间$\mathbf{R}i$中取值，因此$\delta (a)$映射L(H) $\mathbf{R}i$。
+由于H是紧的，X(H)的元素取绝对值1的复数的子群$\mathbf{U}=\mathbf{U}(1,\mathbf{C})$中的值，这样X(H)就可以用连续的群来辨识（或者解析）同态从H到$\mathbf{U}$。由此可见，对于所有$a\in L(H)$，映射$L(a)$在$\mathbf{C}$的子空间$\mathbf{R}i$中取值，因此$\delta (a)$映射L(H) $\mathbf{R}i$。
 
 如果 H 是可交换的，X(H) 只是 H 的（离散）对偶群（谱理论，第 II, §1, no. 1）。如果 H 是可交换的且有限的，则 X(H) 可以用对偶有限群 D(H) = Hom$_{\mathbf{Z}}(H,\mathbf{Q}/\mathbf{Z})$ 来识别（其中，如VII, §4, no. 9、例 1 章中的代数所示，我们将认同 $\mathbf{Q}/\mathbf{Z}$ 与子群 / $\mathbf{C}^*$ 由同态 $r \rightarrow$ exp(2$\pi ir$))。
 
 对于紧李群中的任何态射$f: H\rightarrow H'$，我们用$X(f)$同态$a \rightarrow a\circ f$表示从$X(H')$到X(H)。如果K是闭集
 
-正常子群 / 紧李群 H，我们有正合序列 / $\mathbf Z$-模块
+正常的子群 / 紧李群 H，我们有正合序列 / $\mathbf Z$-模块
 $$
 0\longrightarrow X(H/K)\longrightarrow X(H)\longrightarrow X(K).
 $$
@@ -116,7 +116,7 @@ $$
 
 作者：*光谱理论*，第一章。 II, §1, no. 7，周四。 4、$a_i$的核的正交补为$a_i$生成的$X(H)$的子群$A_i$；由*loc。引用。*，Cor。 2 Th。 4、$\bigcap\operatorname{Ker}a_i$的正交补是由$A_i$生成的$X(H)$的子群，因此是命题。
 
-### 2.节点群 OF 环面
+### 2. 节点群环面
 
 环面 S 的*节点群*，用 $\Gamma(S)$ 表示，是指数映射 $\mathscr L(S)\longrightarrow S$ 的核。这是$\mathscr L(S)$的离散子群，其秩等于S的维数，以及$\Gamma(S)$的扩展典范嵌入的$\mathbf R$线性映射$\mathbf R\otimes_{\mathbf Z}\Gamma(S)\longrightarrow\mathscr L(S)$ $\mathscr L(S)$ 是双射的。通过商同构得到诱导
 $$
@@ -135,7 +135,7 @@ $$
 \tag{1}
 $$
 
-让$a\in X(S)$； 应用前面的态射从S到$\mathbf U$由a定义，我们看到no. 1映射$\Gamma(S)$到$2\pi i\mathbf Z$的$\mathbf C$线性映射$\delta(a):\mathscr L(S)_{\mathbf C}\longrightarrow\mathbf C$。因此，我们可以通过将 $X(S)\times\Gamma(S)$ 定义 $\mathbf Z$ 双线性形式
+让$a\in X(S)$；由a定义的应用到态射从S到$\mathbf U$，我们看到no. 1映射$\Gamma(S)$到$2\pi i\mathbf Z$的$\mathbf C$线性映射$\delta(a):\mathscr L(S)_{\mathbf C}\longrightarrow\mathbf C$。因此，我们可以通过将 $X(S)\times\Gamma(S)$ 定义 $\mathbf Z$ 双线性形式
 $$
 \langle a,X\rangle=\frac{1}{2\pi i}\delta(a)(X),\qquad a\in X(S),\quad X\in\Gamma(S).
 \tag{2}
@@ -147,7 +147,7 @@ $$
 
 回想一下（代数，第IX），通过定义，这意味着与此双线性形式相关的线性映射$X(S)\rightarrow$Hom$_{\mathbf{Z}}(\Gamma (S),\mathbf{Z})$和$\Gamma (S)\rightarrow$Hom$_{\mathbf{Z}}(X(S),\mathbf{Z})$是双射的。
 
-直接的如果命题的结论对于两个环都成立，那么对于他们的乘积也成立。因此，由于维数$n$的每个环面都同构于$\mathbf{U}^n$，所以我们被简化为$S =\mathbf{U}$的情况。在这种特殊情况下，断言是直接的。
+直接的，如果命题的结论对于两个花环成立，那么对于他们的乘积也成立。因此，由于维数$n$的每个环面都同构于$\mathbf{U}^n$，所以我们被简化为$S =\mathbf{U}$的情况。在这种特殊情况下，断言是直接的。
 
 设$f: S\rightarrow S'$为环面的态射。然后，线性映射 $X(f) : X(S')\rightarrow X(S)$ 和 $\Gamma (f) :\Gamma (S)\rightarrow \Gamma (S')$ 都是另一个的转置：对于所有 $a'\in X(S')$ 和所有 $X\in \Gamma$(S)，
 
@@ -185,7 +185,7 @@ $\longrightarrow^d$焦化器$\Gamma (f)\longrightarrow$焦化器$L(f)\longrighta
 
 #### 注 2 {#lie-ix-s4-n2-rem-2 .statement tag=01BS}
 
-根据命题4，从$M(\mathbf{U},S)$到$\Gamma (S)$的映射$f \rightarrow \Gamma (f)(2\pi i)$是同构；如果$a\in X(S) = M(S,\mathbf{U})$和$f\in M(\mathbf{U},S)$，则复合$a\circ f\in M(\mathbf{U},\mathbf{U})$是自同态$u \rightarrow u^r$，其中$r=\langle a, \Gamma (f)(2\pi i)\rangle$。从现在开始，我们将认同$M(\mathbf{U},\mathbf{U}) = X(\mathbf{U})$与$\mathbf{Z}$关联，$\mathbf{Z}$中的元素$r$关联到自同态$u \rightarrow u^r$；因此，对于上面的记号，
+根据命题4，从$M(\mathbf{U},S)$到$\Gamma (S)$的映射$f \rightarrow \Gamma (f)(2\pi i)$为同构；如果$a\in X(S) = M(S,\mathbf{U})$和$f\in M(\mathbf{U},S)$，则复合$a\circ f\in M(\mathbf{U},\mathbf{U})$是自同态$u \rightarrow u^r$，其中$r=\langle a, \Gamma (f)(2\pi i)\rangle$。从现在开始，我们将认同$M(\mathbf{U},\mathbf{U}) = X(\mathbf{U})$与$\mathbf{Z}$关联，$\mathbf{Z}$中的元素$r$关联到自同态$u \rightarrow u^r$；因此，对于以上记号，
 
 $$
 a\circ f=\langle a, \Gamma (f)(2\pi i)\rangle
@@ -193,7 +193,7 @@ $$
 
 #### 注 3 {#lie-ix-s4-n2-rem-3 .statement tag=01BT}
 
-正合序列$0\rightarrow \Gamma (S)\rightarrow L(S)\longrightarrow^{exp_S}S\rightarrow 0$与$\Gamma (S)$的同构与S的基本群相关联，在续集中称为规范。对于环面$f: S\rightarrow S',\Gamma (f)$的任何态射，可以通过典范同构$\Gamma (S)\rightarrow \pi_1(S)$和$\Gamma (S')\rightarrow \pi_1(S')$以及由$f$诱导的同态$\pi_1(f) :\pi_1(S)\rightarrow \pi_1(S')$来识别。 注，这给出了正合序列（5）的另一个解释（cf.一般拓扑，第XI章，正在准备中）。
+正合序列 $0\rightarrow \Gamma (S)\rightarrow L(S)\longrightarrow^{exp_S}S\rightarrow 0$ 与$\Gamma (S)$ 的同构关联到 S 的基本群，在续集中称为规范。对于环面$f: S\rightarrow S',\Gamma (f)$的任何态射，可以通过典范同构$\Gamma (S)\rightarrow \pi_1(S)$和$\Gamma (S')\rightarrow \pi_1(S')$以及由$f$诱导的同态$\pi_1(f) :\pi_1(S)\rightarrow \pi_1(S')$来识别。 注，这给出了正合序列（5）的另一个解释（cf.一般拓扑，第XI章，正在准备中）。
 
 #### 注 4 {#lie-ix-s4-n2-rem-4 .statement tag=01BU}
 
@@ -211,19 +211,19 @@ $$
 \langle u(a), v(b)\rangle = 2\pi i\ll a, b\gg
 $$
 
-### 3. 权线性表示
+### 3. 权 / 线性表示
 
 其中数$k$表示域$\mathbf{R}$或$\mathbf{C}$之一。
 
 令V是$k$上的有限维向量空间，$\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$是V上相连的紧李群G的连续（因此实解析，第III, §8, no. 1，第1章）表示。 定义复数向量空间$\widetilde{V}$和连续表示$\widetilde{\rho}: G\rightarrow \mathbf{G}\mathbf{L}( \widetilde{V})$如下：如果$k=\mathbf{C}$，集合$\widetilde{V} = V, \widetilde{\rho}=\rho$；如果$k=\mathbf{R}$、集合、$\widetilde{V} = V_{(\mathbf{C})}$和$\widetilde{\rho}$是$\rho$与典范同态$\mathbf{G}\mathbf{L}(V)\rightarrow \mathbf{G}\mathbf{L}( \widetilde{V})$的复合。
 
-对于所有$\lambda \in X(G)$，用$v\in \widetilde{V}$的$\widetilde{V}$由……组成的$\widetilde{V}_{\lambda}(G)$向量子空间表示，这样$\widetilde{\rho}(g)v=g^{\lambda}v$对于所有$g\in G$（cf.） VII, §1, no. 1）。按地点。引文，第 3 条命题中，$\widetilde{V}_{\lambda}(G)$（对于$\lambda$属于到X(G)）的和是直接的。此外：
+对于所有$\lambda \in X(G)$，用$v\in \widetilde{V}$的$\widetilde{V}$由……组成的$\widetilde{V}_{\lambda}(G)$向量子空间表示，这样$\widetilde{\rho}(g)v=g^{\lambda}v$对于所有$g\in G$（cf.） VII, §1, no. 1）。按地点。引文，第 3 号提案，$\widetilde{V}_{\lambda}(G)$（对于 $\lambda$ 属于到 X(G)）的和是直接的。此外：
 
 #### 引理 1 {#lie-ix-s4-lem-1 .statement tag=01BV}
 
 如果 G 是可交换的，则 $\widetilde{V}$ 是 $\lambda \in X(G)$ 的 $\widetilde{V}_{\lambda}(G)$ 的直和。
 
-由于$\rho$是半单(§1, no. 1)，因此在$\rho$很简单的情况下证明引理就足够了。 在这种情况下，End( $\widetilde{V}$) 约化中 $\rho (G)$ 的交换子 Z 到同位 (代数，第 1 章)。 VIII, §3, no. 2，Th。 1）；因而，同态$\widetilde{\rho}$的像包含在GL($\widetilde{V}$)的子群$\mathbf{C}^*.1_V$中，并且存在$\lambda \in X(G)$使得$\widetilde{V} = \widetilde{V}_{\lambda}(G)$。
+由于$\rho$是半单(§1, no. 1)，因此在$\rho$很简单的情况下证明引理就足够了。 在这种情况下，End( $\widetilde{V}$) 约化中$\rho (G)$ 的交换子 Z 与同位 (代数，第 VIII, §3, no. 2，第 1 章)；因而，同态$\widetilde{\rho}$的像包含在GL($\widetilde{V}$)的子群$\mathbf{C}^*.1_V$中，并且存在$\lambda \in X(G)$使得$\widetilde{V} = \widetilde{V}_{\lambda}(G)$。
 
 #### 定义 1 {#lie-ix-s4-def-1 .statement tag=01BW}
 
@@ -281,7 +281,7 @@ b) $\widetilde{V}$$\mathfrak{t}_{\mathbf{C}}$权$P(\rho ,T)$至集合映射$\del
 
 现在假设$k=\mathbf{R}$。用$\sigma$表示$\widetilde{V}$相对于V的共轭，由$\sigma (x+iy) =x-iy$定义为V中的$x, y$；对于$\widetilde{V}$的每个复数向量子空间E，$\widetilde{V}$有理数$\mathbf{R}$的最小的子空间和包含E是$E +\sigma (E)$。特别是，对于所有$\lambda \in X(T)$，存在V的实向量子空间$V(\lambda )$，使得$\widetilde{V}$的子空间$V(\lambda )_{(\mathbf{C})}$是$\widetilde{V}_{\lambda}(T) + \widetilde{V}_{-\lambda}(T)$（注即$\sigma ( \widetilde{V}_{\lambda}(T)) = \widetilde{V}_{-\lambda}(T)$）。我们有$V(\lambda ) = V(-\lambda )$，$V(\lambda )$是由$\rho$诱导的V上T的表示的同型成分。
 
-### 4.根
+### 4. 根
 
 G 相对于 T 的根是 G 的伴随表示的非零权。G 相对于 T 的根的集合表示为 $R(G,T)$，或者在不存在混淆风险的情况下简单地表示为 R。根据第 6 号提案，映射
 
@@ -289,13 +289,13 @@ $$
 \delta : X(T)\rightarrow \mathfrak{t}^*_{\mathbf{C}}
 $$
 
-$(\mathfrak{t}^*_{\mathbf{C}}$ 表示复数向量空间 $\mathfrak{t}_{\mathbf{C}})$ 映射 $R(G,T)$ 双射到分裂的还原代数根的集合 $R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$（第VIII, §2, no. 2、注4章）。如果我们把
+$(\mathfrak{t}^*_{\mathbf{C}}$表示复数向量空间$\mathfrak{t}_{\mathbf{C}})$映射$R(G,T)$双射到分裂的还原代数的根的集合$R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$（第VIII, §2, no. 2、注4章）。如果我们把
 
 $$
 \mathfrak{g}^{\alpha}= (\mathfrak{g}_{\mathbf{C}})_{\alpha}(T) = (\mathfrak{g}_{\mathbf{C}})_{\delta(\alpha)}(\mathfrak{t}_{\mathbf{C}}) \tag{11}
 $$
 
-对于所有 $\alpha \in R$，则每个$\mathfrak{g}^{\alpha}$ 的维数 1 超过 $\mathbf{C}($loc。引用，Th。 1) 和
+对于所有$\alpha \in R$，则每个$\mathfrak{g}^{\alpha}$在$\mathbf{C}($loc上有维数1。引用，Th。 1) 和
 
 $$
 \mathfrak{g}_{\mathbf{C}}=\mathfrak{t}_{\mathbf{C}}\oplus \bigoplus_{\alpha\in R}\mathfrak{g}^{\alpha} \tag{12}
@@ -337,19 +337,19 @@ c) C(G) 约化到单位元素当且仅当 Q(R) 等于 X(T)。
 
 首先假设C(G)约化到单位元素，在其他字中X(T) = Q(R)（命题8）。设$f$为G的自同构在T上的恒等式，以及$\varphi = L(f)_{(\mathbf{C})}$；那么$\varphi$是$\mathfrak{g}_{\mathbf{C}}$的自同构，归纳出$\mathfrak{t}_{\mathbf{C}}$上的恒等式。由章。 VIII, §5, no. 2，命题2，存在唯一同态$\theta : Q(R)\rightarrow \mathbf{C}^*$，使得每个$\mathfrak{g}^{\alpha}$位似上都有$\varphi$诱导，比率为$\theta (\alpha )$。由于$\varphi$使$\mathfrak{g}_{\mathbf{C}}$的实形式$\mathfrak{g}$保持稳定，因此它与$\mathfrak{g}_{\mathbf{C}}$的共轭$\sigma$相对于$\mathfrak{g}$交换；但是 $\sigma (\mathfrak{g}^{\alpha}) =\mathfrak{g}^{-\alpha}$，所以 $\theta (-\alpha ) =\overline{\theta(\alpha)}$ 对于所有 $\alpha \in R$。这意味着$\theta (\alpha )\theta (\alpha ) =\theta (\alpha )\theta (-\alpha ) = 1$。由此可见，$\theta$在$\mathbf{U}$中取值，因此对应通过对偶性与T的元素$t$，使得(Ad$t$)$_{(\mathbf{C})}=\varphi$，因此Int$t=f$。
 
-一般情况下，上述适用于群$G/C(G)$，其中心约化至单位元素，及其最大值环面$T/C(G)$。由此可见，如果 $f$ 是 G 的自同构推导出 T 上的恒等式，则存在 T 的元素 $t$，使得 $f$ 和 Int $t$ 诱导通过与 $G/C(G)$ 的商相同的自同构进行传递。但是，由于规范的态射 $D(G)\rightarrow G/C(G)$ 是有限覆盖（§1, no. 4，第 4 号命题的 Cor. 1），$f$ 和 Int $t$ 诱导与 D(G) 相同的自同构，因此与 $D(G)\times C(G)$ 相同，因此也与 G 相同（loc.1）。引用。）。
+一般情况下，上述适用于群$G/C(G)$，其中心约化至单位元素，及其最大值环面$T/C(G)$。由此可见，如果$f$是G的自同构归纳出T上的恒等式，则存在T的元素$t$，使得$f$和Int$t$诱导通过通向与$G/C(G)$相同的自同构商。但是，由于规范的态射 $D(G)\rightarrow G/C(G)$ 是有限覆盖（§1, no. 4，第 4 条命题的 Cor.1），$f$ 和 Int $t$ 诱导与 D(G) 相同的自同构，因此与 $D(G)\times C(G)$ 相同，因此也与 G (loc.1) 相同。引用。）。
 
 #### 推论{#lie-ix-s4-n4-cor-1 .statement tag=01C2}
 
 设$u$为G的自同构，H为$u$的固定点的G由……组成的闭子群。那么，自同构$u$是内部当且仅当$H_0$是最大的秩。
 
-如果 $u$ 等于 Int $g$，且 $g\in G$，则子群 $H_0= Z(g)_0$ 的最大值为秩（§2, no. 2，Cor. 3）。相反，如果 H 包含最大环面 S，则自同构 $u$ 为形式 Int $s$ 和 $s\in S$（命题 9）。
+如果 $u$ 等于 Int $g$，则 $g\in G$，子群 $H_0= Z(g)_0$ 的最大值为秩（§2, no. 2，Cor. 3）。相反，如果 H 包含最大环面 S，则自同构 $u$ 为形式 Int $s$ 和 $s\in S$（命题 9）。
 
 ### 5. 节点向量和逆根
 
 #### 引理 2 {#lie-ix-s4-lem-2 .statement tag=01C3}
 
-设 S 是 T 的闭子群，Z(S) 是 G 中的归一化器。
+令 S 为 T 的闭子群，Z(S) 为 G 中的归一化器。
 
 (i) $R(Z(S)_0,T)$ 是$\alpha \in R(G,T)$ 的集合，使得$\alpha (S) =\{1\}$。
 
@@ -357,7 +357,7 @@ c) C(G) 约化到单位元素当且仅当 Q(R) 等于 X(T)。
 
 (iii) 如果 S 连通，则 Z(S) 连通。
 
-李代数 $L(Z(S))_{(\mathbf{C})}$ 由 S 在 $\mathfrak{g}_{\mathbf{C}}$ 上的不变量组成（第 III, §9, no. 3 章，第 8 条），因此是 $\mathfrak{t}_{\mathbf{C}}$ 的直和和$\mathfrak{g}^{\alpha}$，$\alpha (S) =\{1\}$，因此 (i)。 断言 (ii) 由第 8 条命题 (no. 4) 得出，断言 (iii) 已被证明（§2, no. 2，第 2 条的 Cor. 5）。
+李代数 $L(Z(S))_{(\mathbf{C})}$ 由 $\mathfrak{g}_{\mathbf{C}}$ 上的 S 不变量组成（第 III, §9, no. 3 章，命题 8），因此是 $\mathfrak{t}_{\mathbf{C}}$ 的直和和$\mathfrak{g}^{\alpha}$，$\alpha (S) =\{1\}$，因此 (i)。 断言(ii)由第8条命题(no. 4)得出，并且断言(iii)已经被证明(§2, no. 2，Th.2的Cor.5)。
 
 #### 定理 1 {#lie-ix-s4-thm-1 .statement tag=01C4}
 
@@ -469,7 +469,7 @@ b) (Int$\nu (\theta )$)$(t) =t^{-1}$如果$t\in T\cap S_{\alpha}$。
 
 令 $c$ 为 Weyl 群 $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$（第 V, §6, no. 1 章）的 Coxeter 变换，并令 $n$ 为 $N_G(T)$ 的元素，其 W 中的类通过同构与 $c$ 标识，定义于命题。从T到T用$f_c$态射$t \rightarrow (n, t)$表示；对于$x\in \mathfrak{t}_{\mathbf{C}}$，我们有$L(f_c)_{(\mathbf{C})}(x) =$（广告$n$）$(x)-x=$$c(x)-x$。
 
-由 Th.第 1 章$\mathfrak{t}_{\mathbf{C}}$的V, §6, no. 2、自同态$c$没有特征值等于1。因而，$L(f_c)$是满射，$f_c$也是满射。由此可见，T 的每个元素都是 G 的两个元素的换位子，这暗示了针对 Th 的推论。 2、§2, no. 2。
+由 Th.第 1 章$\mathfrak{t}_{\mathbf{C}}$的V, §6, no. 2、自同态$c$没有特征值等于1。因而，$L(f_c)$是满射，因而$f_c$也是满射。由此可见，T 的每个元素都是 G 的两个元素的换位子，这暗示了针对 Th 的推论。 2、§2, no. 2。
 
 ### 6. 基础群
 
@@ -479,13 +479,13 @@ b) (Int$\nu (\theta )$)$(t) =t^{-1}$如果$t\in T\cap S_{\alpha}$。
 
 同态 $f(G,T) :\Gamma (T)\rightarrow \pi_1(G)$ 是满射。它的核是由节点向量$(K_{\alpha})_{\alpha\in R(G,T)}$家族产生的$\Gamma (T)$中的子群$N(G,T)$。
 
-同态 $f(G,T)$ 根据命题 3 (§2, no. 4) 是满射。我们用$A(G,T)$断言表示：“$f(G,T)$的核是由$K_{\alpha}$生成的”，这还有待证明，并区分几种情况：
+根据命题 3 (§2, no. 4)，同态 $f(G,T)$ 是满射。我们用$A(G,T)$断言表示：“$f(G,T)$的核是由$K_{\alpha}$生成的”，这还有待证明，并区分几种情况：
 
-$a) G$ 是单连通的。令 $\rho :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ 为有限维复数向量空间 V 上 $\mathfrak{g}_{\mathbf{C}}$ 的线性表示。限制在$\mathfrak{g}$，我们在真实的向量空间$V_{(\mathbf{R})}$上得到$\mathfrak{g}$的表示；由于 G 是单连通的，因此存在 G 在 $V_{(\mathbf{R})}$ 上的解析线性表示 $\pi$，使得 $\rho = L(\pi )$。根据no. 3的第7条命题，$\mathfrak{t}^*_{\mathbf{C}}$包含中X(T)的像$\delta (X(T))$在V上$\rho$的所有权。对于 $\mathfrak{g}_{\mathbf{C}}$ 的每一个表示 $\rho$ 都是如此，这是从第 1 章得出的结论。 VIII, §7, no. 2，周四。 1 $\delta$(R)的权的$\delta (X(T))$包含群，由$\lambda \in \mathfrak{t}^*_{\mathbf{C}}$的定义集合使得$\lambda (H_{\delta(\alpha)})\in \mathbf{Z}$对于所有$\alpha \in R$，在其他情况下字，$\lambda (K_{\alpha})\in 2\pi i\mathbf{Z}$ 适合所有 $\alpha \in R$。因而，$X(T)\otimes \mathbf{Q}$的群X(T)包含所有元素$\lambda$使得$\langle \lambda , K_{\alpha}\rangle  \in \mathbf{Z}$对于所有$\alpha \in R$，这通过对偶性意味着$\Gamma (T)$是由$K_{\alpha}$生成的，因此断言$A(G,T)$。
+$a) G$ 是单连通的。在有限维复数向量空间 V 上，令 $\rho :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ 为 $\mathfrak{g}_{\mathbf{C}}$ 的线性表示。限制在$\mathfrak{g}$，我们在真实的向量空间$V_{(\mathbf{R})}$上得到$\mathfrak{g}$的表示；由于 G 是单连通的，因此存在 G 在 $V_{(\mathbf{R})}$ 上的解析线性表示 $\pi$，使得 $\rho = L(\pi )$。根据no. 3的第7条命题，$\mathfrak{t}^*_{\mathbf{C}}$包含中X(T)的像$\delta (X(T))$在V上$\rho$的所有权。对于 $\mathfrak{g}_{\mathbf{C}}$ 的每一个表示 $\rho$ 都是如此，这是从第 1 章得出的结论。 VIII, §7, no. 2，周四。 1 $\delta$(R) 的权 $\delta (X(T))$ 包含群，即 $\lambda \in \mathfrak{t}^*_{\mathbf{C}}$ 的定义集合，使得 $\lambda (H_{\delta(\alpha)})\in \mathbf{Z}$ 对于所有 $\alpha \in R$，在其他情况下字，$\lambda (K_{\alpha})\in 2\pi i\mathbf{Z}$ 适合所有 $\alpha \in R$。因而，$X(T)\otimes \mathbf{Q}$的群X(T)包含所有元素$\lambda$使得$\langle \lambda , K_{\alpha}\rangle  \in \mathbf{Z}$对于所有$\alpha \in R$，这通过对偶性意味着$\Gamma (T)$是由$K_{\alpha}$生成的，因此断言$A(G,T)$。
 
-$b) G$ 是单连群 $G'$ 和环面 S 的直接乘积。则 T 是 $G'$ 的最大环面 $T'$ 与 $S,\Gamma (T)$ 的直接乘积可以识别为$\Gamma (T')\times \Gamma$(S)、$\pi_1(G)$ 与 $\pi_1(G')\times \pi_1$(S) 以及 $f(G,T)$ 与同态以及组件 $f(G',T')$ 和 $f(S,S)$。由于 $f(S,S)$ 是双射的，因此规范的映射 $\Gamma (T')\rightarrow \Gamma (T)$ 映射 Ker $f(G',T')$ 双射到 Ker $f(G,T)$。而且，G的导出群$G'$的$K_{\alpha}$属于到李代数，因此到$\Gamma (T')$的像，所以$A(G',T')$蕴含$A(G,T)$是直接的，因此断言$A(G,T)$，鉴于a)。
+$b) G$ 是单连群 $G'$ 和环面 S 的直接乘积。则 T 是 $G'$ 的最大环面 $T'$ 与 $S,\Gamma (T)$ 的直接乘积可以识别为$\Gamma (T')\times \Gamma$(S)、$\pi_1(G)$ 与 $\pi_1(G')\times \pi_1$(S) 以及 $f(G,T)$ 与同态以及组件 $f(G',T')$ 和 $f(S,S)$。由于 $f(S,S)$ 是双射的，因此规范的映射 $\Gamma (T')\rightarrow \Gamma (T)$ 映射 Ker $f(G',T')$ 双射到 Ker $f(G,T)$。而且，G的导出群$G'$的$K_{\alpha}$属于到李代数，因此到$\Gamma (T')$的像，所以$A(G',T')$蕴涵$A(G,T)$是直接的，因此断言$A(G,T)$，鉴于a)。
 
-c) 一般情况。存在有限核的满射态射 $p: G'\rightarrow G$，其中 $G'$ 是由环面简单连接的群的直接乘积（§1, no. 4，命题 4）。如果$T'$是$G'$中T的逆像（这是§2, no. 3乘以$G'$的最大环面，命题1），并且$p$的N核，我们有正合序列$0\rightarrow N\rightarrow G'\rightarrow G\rightarrow 0$和 $0\rightarrow N\rightarrow T'\rightarrow T\rightarrow 0$，因此是具有精确行的交换式图表（no. 2、注 1 和一般拓扑，第 XI 章，正在准备中）
+c) 一般情况。存在一个具有有限核的满射态射 $p: G'\rightarrow G$，其中 $G'$ 是由环面简单连接的群的直接乘积（§1, no. 4，命题 4）。如果$T'$是$G'$中T的逆像（这是§2, no. 3乘以$G'$的最大环面，命题1），并且$p$的N核，我们有正合序列$0\rightarrow N\rightarrow G'\rightarrow G\rightarrow 0$和 $0\rightarrow N\rightarrow T'\rightarrow T\rightarrow 0$，因此是具有精确行的交换式图表（no. 2、注 1 和一般拓扑，第 XI 章，正在准备中）
 
 0 $\longrightarrow \Gamma (T')\longrightarrow \Gamma (T)\longrightarrow$ N $\longrightarrow$ 0
 
@@ -521,7 +521,7 @@ $$
 
 同态$\pi_1(D(G))\rightarrow \pi_1(G)$相应的将D(G)纳入G诱导同构，从$\pi_1(D(G))$到挠元子群$\pi_1(G)$。
 
-事实上，$T\cap D(G)$是D(G)的最大环面（§2, no. 3，命题$1c$）$)$；来自正合序列
+事实上，$T\cap D(G)$是D(G)的最大环面（§2, no. 3，命题$1c$）$)$； 正合序列起
 
 $$
 0\longrightarrow \Gamma (T\cap D(G))\longrightarrow \Gamma (T)\longrightarrow \Gamma (T/(T\cap D(G)))\longrightarrow 0
@@ -577,7 +577,7 @@ G 包含于 T 仅有有限多闭子群。
 
 $g\in G$的集合使得$T\cap gTg^{-1}\not= C(G)$是不同于G的G的有限闭解析子流形数的并。
 
-确实，输入$A_g= T\cap gTg^{-1}$；我们有$T\subset Z(A_g)$和$gTg^{-1}\subset Z(A_g)$。因而，存在$x\in Z(A_g)$使得$xTx^{-1}=gTg^{-1}($§2, no. 2，Th。 2），这意味着$g\in Z(A_g).N_G(T)$。用 $\mathscr{A}$ 表示 G 包含 T 的闭子群且不同于 G 的有限（Cor.1）集合，并设 X = $\bigcup_{H\in\mathscr{A}}H.N_G(T)$；这是 G 的闭子流形的有限并，与 G 不同。如果 $A_g\not= C(G)$，则$Z(A_g)\in \mathscr{A}$，以及 $g$ 属于到 X。相反，如果$g\in H.N_G$(T)，与$H\in \mathscr{A}$，则$A_g$包含C(H)，所以$A_g\not= C(G)$（命题13）。
+确实，输入$A_g= T\cap gTg^{-1}$；我们有$T\subset Z(A_g)$和$gTg^{-1}\subset Z(A_g)$。因而，存在$x\in Z(A_g)$使得$xTx^{-1}=gTg^{-1}($§2, no. 2，Th。 2），这意味着$g\in Z(A_g).N_G(T)$。用 $\mathscr{A}$ 表示 G 包含 T 的闭子群且不同于 G 的有限（Cor.1）集合，并令 X = $\bigcup_{H\in\mathscr{A}}H.N_G(T)$；这是 G 的闭子流形的有限并，与 G 不同。如果 $A_g\not= C(G)$，则$Z(A_g)\in \mathscr{A}$，以及$g$ 属于到 X。相反，如果$g\in H.N_G$(T)，与$H\in \mathscr{A}$，则$A_g$包含C(H)，所以$A_g\not= C(G)$（命题13）。
 
 #### 命题 14 {#lie-ix-s4-prop-14 .statement tag=01CK}
 
@@ -587,11 +587,11 @@ $g\in G$的集合使得$T\cap gTg^{-1}\not= C(G)$是不同于G的G的有限闭�
 
 我们将在下面看到（§5, no. 3，Th.1），如果G是单连通的并且X约化到点，则扶正器Z（X）是连通的。
 
-### 8.根图表
+### 8. 根图表
 
 #### 定义 2 {#lie-ix-s4-def-2 .statement tag=01CL}
 
-根图表（或简称为图表，如果没有混淆的风险）是三元组 $D = (M,M_0,R)$，其中：
+根图表（或者简称为图表，如果没有混淆的风险）是三元组 $D = (M,M_0,R)$，其中：
 
 (RD$_0$)$M$是有限型的自由$\mathbf{Z}$模，子模$M_0$是M的直因子；
 
@@ -599,7 +599,7 @@ $g\in G$的集合使得$T\cap gTg^{-1}\not= C(G)$是不同于G的G的有限闭�
 
 (RD$_{II}$)对于所有$\alpha \in R$，存在$M^*=$Hom$_{\mathbf{Z}}(M,\mathbf{Z})$的元素$\alpha^{\vee}$，使得M的$\alpha^{\vee}(M_0) = 0,\alpha^{\vee}(\alpha ) = 2$和自同态$x \rightarrow x-\alpha^{\vee}(x)\alpha$使R保持稳定。
 
-由章。 VI, §1, no. 1，对于$M^*$的所有$\alpha \in R$元素$\alpha^{\vee}$由$\alpha$唯一确定；我们用 M 的 $s_{\alpha}$ 自同态 $x \rightarrow x-\alpha^{\vee}(x)\alpha$ 表示。此外（前述），$\mathbf{Q}$向量空间$\mathbf{Q}\otimes M$是$\mathbf{Q}\otimes M_0$和向量子空间的直和 V(R) 由 R 生成，R 是 V(R) 中的根系（参见上文，定义 1）。
+由章。 VI, §1, no. 1，对于$M^*$的所有$\alpha \in R$ 元素 $\alpha^{\vee}$，由$\alpha$唯一确定；我们用 M 的 $s_{\alpha}$ 自同态 $x \rightarrow x-\alpha^{\vee}(x)\alpha$ 表示。此外（前述），$\mathbf{Q}$向量空间$\mathbf{Q}\otimes M$是$\mathbf{Q}\otimes M_0$和向量子空间的直和 V(R) 由 R 生成，R 是 V(R) 中的根系（参见上文，定义 1）。
 
 R 的元素称为根图表 D 的根，以及$M^*$ 的逆根的元素 $\alpha^{\vee}$。 The group generated by the automorphisms $s_{\alpha}$ of M is called the Weyl group of D and is denoted by W(D); the elements of W(D) induce the identity on $M_0$, and induce on V(R) the transformations of the Weyl group of the root system R.
 
@@ -619,7 +619,7 @@ R 的元素称为根图表 D 的根，以及$M^*$ 的逆根的元素 $\alpha^{\v
 
 #### 例 4 {#lie-ix-s4-n8-exa-4 .statement tag=01CP}
 
-令V在$\mathbf{Q}$之上成为向量空间，并且在V中R根系；由 R 的权的 P(R) 群和 R 的基团权的 Q(R) 群表示（第 1 章） VI, §1, no. 9）。 那么$(Q(R),0,R)$和$(P(R),0,R)$就是根图表。 A root diagram $(M,M_0,S)$ is isomorphic to a diagram of the form $(Q(R),0,R)$ (resp. $(P(R),0,R)$) if and only if M is generated by S (resp. $M^*$ is generated by $S^{\vee}$).
+令V在$\mathbf{Q}$上成为向量空间，并且在V中R根系；由 R 的权的 P(R) 群和 R 的基团权的 Q(R) 群表示（第 VI, §1, no. 9 章）。 那么$(Q(R),0,R)$和$(P(R),0,R)$就是根图表。 A root diagram $(M,M_0,S)$ is isomorphic to a diagram of the form $(Q(R),0,R)$ (resp. $(P(R),0,R)$) if and only if M is generated by S (resp. $M^*$ is generated by $S^{\vee}$).
 
 对于 P(R) 包含 $Q(R), (X,0,R)$ 的每个子群 X 是根图表，并且直到同构，每个图表 $(M,M_0,S)$ 使得 $M_0= 0$，在其他字使得 S有限指标的M的生成子群，就是这样产生的。
 
@@ -689,7 +689,7 @@ $$
 
 令从$D^*(G',T')$到$D^*(G,T)$（或从$D_*(G,T)$到$D_*(G',T')$）的$\varphi$为同构。存在同构 $f: G\rightarrow G'$，使得 $f(T) = T'$ 和 $\varphi = D^*(f)$（分别为 $\varphi = D_*(f)$）；如果$f_1$和$f_2$是两个这样的同构，则存在T的元素$t$使得$f_2=f_1\circ$Int$t$。
 
-第二个断言紧随第9条命题（no. 4）；我们证明了协变图表和例的第一个。 用$G'$（分别$T'$）的$\mathfrak{g}'$（分别$\mathfrak{t}'$）李代数表示，并用$\mathfrak{g}'_{\mathbf{C}}$（分别$\mathfrak{t}'_{\mathbf{C}}$）表示其复数李代数。 由章。 VIII, §4, no. 4, Th. 2 (i), there exists an isomorphism $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ that maps $\mathfrak{t}_{\mathbf{C}}$ to $\mathfrak{t}'_{\mathbf{C}}$ and induces on $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ the given isomorphism $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. 那么$\mathfrak{g}$和$\psi^{-1}(\mathfrak{g}')$是$\mathfrak{g}_{\mathbf{C}}$中的两个紧形式，它们具有与$\mathfrak{t}_{\mathbf{C}}$相同的交$\mathfrak{t}$；根据§3, no. 2，命题3，存在$\mathfrak{g}_{\mathbf{C}}$的内自同构$\theta$，归纳$\mathfrak{t}_{\mathbf{C}}$上的恒等式，从而$\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$。 通过替换 $\psi$ $\psi \circ \theta$，我们可以假设 $\psi$ 映射 $\mathfrak{g}$ 到 $\mathfrak{g}'$。 此外，根据no. 2的命题4，存在唯一态射$f_T: T\rightarrow T'$使得$\Gamma (f_T) =\varphi$。 那么$\psi$到$\mathfrak{t}$的限制是$L(f_T)$，并且根据§2, no. 6，第8条命题，存在唯一态射$f: G\rightarrow G'$，即T上的诱导$f_T$和$\mathfrak{g}_{\mathbf{C}}$上的$\psi$。 应用是$\varphi^{-1}$和$\psi^{-1}$的前面，我们得到态射到$f$的逆，因此是同构。 然后$D_*(f) =\Gamma (f_T) =\varphi$，因此命题。
+第二个断言紧随第9条命题（no. 4）；我们证明了协变图表和例的第一个。 用$G'$（分别$T'$）的$\mathfrak{g}'$（分别$\mathfrak{t}'$）李代数表示，并用$\mathfrak{g}'_{\mathbf{C}}$（分别$\mathfrak{t}'_{\mathbf{C}}$）表示其复数李代数。 By Chap. VIII, §4, no. 4, Th. 2 (i), there exists an isomorphism $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ that maps $\mathfrak{t}_{\mathbf{C}}$ to $\mathfrak{t}'_{\mathbf{C}}$ and induces on $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ the given isomorphism $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. 那么$\mathfrak{g}$和$\psi^{-1}(\mathfrak{g}')$是$\mathfrak{g}_{\mathbf{C}}$中的两个紧形式，它们具有与$\mathfrak{t}_{\mathbf{C}}$相同的交$\mathfrak{t}$；根据§3, no. 2，命题3，存在$\mathfrak{g}_{\mathbf{C}}$的内自同构$\theta$，归纳$\mathfrak{t}_{\mathbf{C}}$上的恒等式，从而$\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$。 通过替换 $\psi$ $\psi \circ \theta$，我们可以假设 $\psi$ 映射 $\mathfrak{g}$ 到 $\mathfrak{g}'$。 此外，根据no. 2的命题4，存在唯一态射$f_T: T\rightarrow T'$使得$\Gamma (f_T) =\varphi$。 那么$\psi$到$\mathfrak{t}$的限制是$L(f_T)$，并且根据§2, no. 6，第8条命题，存在唯一态射$f: G\rightarrow G'$，即T上的诱导$f_T$和$\mathfrak{g}_{\mathbf{C}}$上的$\psi$。 应用是$\varphi^{-1}$和$\psi^{-1}$的前面，我们得到态射到$f$的逆，因此是同构。 然后$D_*(f) =\Gamma (f_T) =\varphi$，因此命题。
 
 注，如果 T 和 $T'$ 是 G 的两个最大环面，图表 $D^*(G,T)$ 和 $D^*(G,T')$ 同构的（如果 $g\in G$ 使得 $gTg^{-1}= T'$，则 Int $g$ 是从 G 到 G 的同构， 映射 T 至 $T'$）。用$D^*(G,T)$的$D^*(G)$同构类表示（cf.集合论，第II, §6, no. 2章）；这就是只依赖于G的根图表，称为G的逆变图表。G的协变图表$D_*(G)$类似地定义，我们得到：
 
@@ -715,9 +715,9 @@ d) 最后，令 N 为与 M 正交的 $T_1\times T_0$ 的有限子群。放入 $G
 
 #### 注 3 {#lie-ix-s4-n9-rem-3 .statement tag=01D1}
 
-Let $T'$ be another maximal torus of G, B (resp. $B'$) a basis of the root system $R(G,T)$ (resp. $R(G',T')$) (Chap. VI, §1, no. 5，默认。 2）。 存在元素 $g\in G$，使得 Int $g$ 映射 T 到 $T'$，B 到$B'$，并且这些元素形式是唯一的陪集模 Int(T)（因为 T 和 $T'$ 是共轭，我们可以假设$T = T'$，应用第 1 章就足够了。 VI, §1, no. 5、注 4 和 no. 4 的第 9 条）。 由此可见，由 Int $g$ 引起的从 T 到$T'$ 的同构与$g$ 的选择无关；因而$D_*$(Int $g$)和$D^*$(Int $g$)也是如此。 释义章节。 VIII, §5, no. 3，注 2，经过必要的修改，我们现在可以得到定义 G 的规范极大值环面，$G,. .$ 的规范协变和逆变根图表..
+令 $T'$ 为 G、B（分别为 $B'$）基的根系 $R(G,T)$（分别为 $R(G',T')$）的另一个最大环面（第 VI, §1, no. 5，定义 2）。 存在元素$g\in G$使得Int$g$映射T到$T'$并且B到$B'$，并且这些元素形式是唯一的陪集模Int(T)（因为T和$T'$是共轭，我们可以假设$T = T'$，并且应用VI, §1, no. 5，注4和no. 4的第9条就足够了）。 由此可见，由 Int $g$ 引起的从 T 到$T'$ 的同构与$g$ 的选择无关；因而$D_*$(Int $g$)和$D^*$(Int $g$)也是如此。 释义章节。 VIII, §5, no. 3，注 2，经过必要的修改，我们现在可以得到定义 G 的规范极大值环面，$G,. .$ 的规范协变和逆变根图表..
 
-### 10. 自同构连接的紧李群
+### 10. 连接的自同构紧李群
 
 用 G 的自同构的 Aut(G) 李群（第III, §10, no. 2）表示，并用 Aut(G$,T$) 表示元素 $u$ 的 Aut(G) 由……组成的闭子群，使得 $u(T) = T$。我们已经看到（§1, no. 4，命题 4 的 Cor.5），Aut(G) 的恒等分量是子群 Int(G) of 内自同构；用 G 的子群 H 的 Int(G) 中的 Int$_G(H)$ 像表示。
 
@@ -783,4 +783,4 @@ G 的成帧是 G 的最大环面 T 与$(G,T)$ 的成帧。
 
 ### 习题 {#lie-ix-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

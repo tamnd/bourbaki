@@ -62,16 +62,16 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: cece8681b41ee5e832ff3fd5860f4d7bc7c7df8a2eb970291546bab6e369cb57
+content_sha256: 648d6e5bf5ad60876ec529085e11a3a0427f4ebe5661714f0f038b1dee7c913c
 translated_from: content/en/alg/VIII/11_s11_grothendieck_groups.md
 translation_method: google
 source_content_sha256: 36f598ab1286cc2db64313213910bc17ed366890ee67021cf75eae8ae9f62c08
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f923e4a085e313270157cbf7d70bcd35b9e911224c251f7b78c7928185b1e776
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 11。 格罗滕迪克群
@@ -211,7 +211,7 @@ $$
 \varphi (E/(M + N)) +\varphi (E/(M\cap N)) =\varphi (E/M) +\varphi (E/N)
 $$
 
-断言 a) 和 b) 由正合序列的存在推出
+断言 a) 和 b) 由正合序列的存在性推出
 
 $$
 0\rightarrow M\cap N\rightarrow M\oplus N\rightarrow M + N\rightarrow 0
@@ -227,15 +227,15 @@ $$
 
 #### 命题 3 {#alg-viii-s11-prop-3 .statement tag=00D1}
 
-假设$\mathscr{C}$是遗传性的。令 E 为型 $\mathscr{C}$ 中的模和 E 中的 $(E_i)_{0\leqslant i\leqslant n}$ 合成列 (I, §4, No. 7, p. 41)。对于 $1\leqslant i\leqslant n$，模 $E_{i-1}/E_i$ 是型 $\mathscr{C}$，我们有
+假设$\mathscr{C}$是遗传性的。令 E 为型 $\mathscr{C}$ 的模和 E 的 $(E_i)_{0\leqslant i\leqslant n}$ 合成列 (I, §4, No. 7, p. 41)。对于 $1\leqslant i\leqslant n$，模 $E_{i-1}/E_i$ 是型 $\mathscr{C}$，我们有
 
 $$
 \varphi (E) =\sum_{i=1}^n\varphi (E_{i-1}/E_i)
 $$
 
-由于$\mathscr{C}$是遗传性的，模$E_0/E_1$和$E_1$是型$\mathscr{C}$，我们有$\varphi (E) =\varphi (E_0/E_1) +\varphi (E_1)$。由于序列$(E_{i+1})_{0\leqslant i\leqslant n-1}$是$E_1$的合成列，命题3后面跟着$n$上的归纳。
+由于$\mathscr{C}$是遗传性的，模$E_0/E_1$和$E_1$是型$\mathscr{C}$，我们有$\varphi (E) =\varphi (E_0/E_1) +\varphi (E_1)$。由于序列$(E_{i+1})_{0\leqslant i\leqslant n-1}$是$E_1$中的合成列，命题3后面跟着$n$上的归纳。
 
-### 2.模加法集合格罗滕迪克群
+### 2. 模加法集合格罗滕迪克群
 
 设 A 为环。在这个小节中，我们考虑A-模的类的加法集合$\mathscr{C}$；我们认同$\mathscr{C}$与免费的阿贝尔的群$\mathbf{Z}^{(\mathscr{C})}$的典范基。对于任何正合序列
 
@@ -243,7 +243,7 @@ $$
 (\mathscr{E})0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
 $$
 
-型$\mathscr{C}$的模，我们用$\mathbf{Z}^{(\mathscr{C})}$的$r_{\mathscr{E}}$元素cl(E)$-$cl(E$'$)$-$cl(E$''$)来表示。令R为由形式$r_{\mathscr{E}}$的元素生成的$\mathbf{Z}^{(\mathscr{C})}$子群； 商群$\mathbf{Z}^{(\mathscr{C})}/R$称为$\mathscr{C}$的格罗滕迪克群，记为$K(\mathscr{C})$。对于型$\mathscr{C}$的模E，我们用$[E]_{\mathscr{C}}$表示$K(\mathscr{C})$中的cl(E)的像（或者当$\mathscr{C}$存在歧义时用有时[E]）。然后我们有以下泛性质。
+型$\mathscr{C}$的模，我们用$\mathbf{Z}^{(\mathscr{C})}$的$r_{\mathscr{E}}$元素cl(E)$-$cl(E$'$)$-$cl(E$''$)来表示。令R为由形式$r_{\mathscr{E}}$的元素生成的$\mathbf{Z}^{(\mathscr{C})}$子群； 商群$\mathbf{Z}^{(\mathscr{C})}/R$称为$\mathscr{C}$的格罗滕迪克群，记为$K(\mathscr{C})$。对于型$\mathscr{C}$的模E，我们用$[E]_{\mathscr{C}}$表示$K(\mathscr{C})$中cl(E)的像（当$\mathscr{C}$存在歧义时，或有时[E]）。然后我们有以下泛性质。
 
 #### 命题 4 {#alg-viii-s11-prop-4 .statement tag=00D2}
 
@@ -371,11 +371,11 @@ c) 令 E 和 F 为型 $\mathscr{C}$ 中的模。我们有$[E]'_{\mathscr{C}}= [F
 
 令$R'$为由形式$r_{\mathscr{E}}$的元素生成的$\mathbf{Z}^{(\mathscr{C})}$的子群，其中$\mathscr{E}$为型$\mathscr{C}$的A-模的分裂正合序列，即形式 cl(E$'\oplus E''$)$-$ cl(E$'$)$-$ cl(E$''$)的元素，其中$E'$和$E''$是型的模 $\mathscr{C}$。 典范映射从$\mathscr{C}$到商群$\mathbf{Z}^{(\mathscr{C})}/R'$扩展到群同态$v: K'(\mathscr{C})\rightarrow \mathbf{Z}^{(\mathscr{C})}/R'$。这是同构。事实上，典范映射从$\mathscr{C}$到$K'(\mathscr{C})$扩展到群同态从$\mathbf{Z}^{(\mathscr{C})}$到$K'(\mathscr{C})$其核包含$R'$，因此到同态 $v':\mathbf{Z}^{(\mathscr{C})}/R'\rightarrow K'(\mathscr{C})$除以经过商；显然$v$和$v'$是逆双射。
 
-如果型$\mathscr{C}$的A-模E为形式$[E]'_{\mathscr{C}}$，则称$K'(\mathscr{C})$的元素有效。 $K'(\mathscr{C})$的有效元素中的集合用$K'(\mathscr{C})^+$表示。
+如果形式$[E]'_{\mathscr{C}}$对于A-模E of 型$\mathscr{C}$，则$K'(\mathscr{C})$的元素被称为有效。 $K'(\mathscr{C})$的有效元素中的集合用$K'(\mathscr{C})^+$表示。
 
-### 3.利用合成序列
+### 3. 利用合成序列
 
-设 A 为环。令 E 为有限长度中的 A-模，S 单A-模。根据 Jordan–Hölder 定理 (I, §4, No. 7, p. 43, 定理 6)，与 S 同构的 E 的 Jordan–Hölder 级数的商的数不依赖于序列。我们用$\ell_S(E)$来表示它，并将其称为E中S的重数。A-模E的支持度是单A-模S的类的集合，使得$\ell_S(E)\not= 0$。当E为半单且具有有限长度时，整数$\ell_S(E)$为型S(VIII、p. 72)的E的同型成分的长度[E : S]以及支持物概念重合与VIII、p. 66 中介绍的相同。
+设 A 为环。令 E 为有限长度中的 A-模，S 单A-模。根据 Jordan–Hölder 定理 (I, §4, No. 7, p. 43, 定理 6)，与 S 同构的 E 的 Jordan–Hölder 级数的商的数不依赖于序列。我们用$\ell_S(E)$表示，并称其为E中S的重数。A-模E的支持度为单A-模S的类的集合，使得$\ell_S(E)\not= 0$。当E为半单且具有有限长度时，整数$\ell_S(E)$为型S(VIII，p. 72)的E的同型成分长度[E : S]，以及支持物概念重合与VIII、p. 66 中介绍的相同。
 
 #### 引理 1 {#alg-viii-s11-lem-1 .statement tag=00D6}
 
@@ -385,7 +385,7 @@ c) 令 E 和 F 为型 $\mathscr{C}$ 中的模。我们有$[E]'_{\mathscr{C}}= [F
 
 正合序列。我们有$\ell_S(E) =\ell_S(E') +\ell_S(E'')$。
 
-令$\Sigma '$和$\Sigma ''$分别为$i(E')$和$E/i(E')$的Jordan–Hölder级数。存在 E 的 Jordan-Hölder 级数 Σ，其商序列可以通过将 Σ 的商序列与 $\Sigma '$ 的商并列获得（I, §4, No. 8，p. 44）。
+令$\Sigma '$和$\Sigma ''$分别为Jordan–Hölder级数除以$i(E')$和$E/i(E')$。存在 E 的 Jordan-Hölder 级数 Σ，其商序列可以通过将 Σ 的商序列与 $\Sigma '$ 的商并列获得（I, §4, No. 8，p. 44）。
 
 #### 命题 7 {#alg-viii-s11-prop-7 .statement tag=00D7}
 
@@ -409,7 +409,7 @@ $$
 
 集合$K(\mathscr{C})^+$是$([S]_{\mathscr{C}})_{S\in\mathscr{S}}$家族生成的$K(\mathscr{C})$中的子幺半群。
 
-### 4.格罗滕迪克群R(A)
+### 4. 格罗滕迪克群R(A)
 
 设A为环。 设$\mathscr{F}(A)$为有限生成A-模(VIII，p. 51)类的集合。 The classes of the A-modules of finite length form a subset $\mathscr{L}\mathscr{F}(A)$ of $\mathscr{F}(A)$; we have seen that $\mathscr{L}\mathscr{F}(A)$ is a hereditary set of classes of modules. 我们用 R(A) 表示与 $\mathscr{L}\mathscr{F}(A)$ 相关的格罗滕迪克群，用 [E] 表示类、A-模 E、有限长度的 R(A) 中的像。
 
@@ -447,7 +447,7 @@ $$
 
 对于 A 中的每个$a\not= 0$。
 
-设P为A的不可约元代表由……组成(VII, §1, No. 3，p. 3)的系统。 A 的最大理想是 $p\in P$ 的理想 $pA$；因而，每个单A-模都同构于唯一的模 $A/pA$。而且（VII, §1, No. 3，p. 4，定理2），阿贝尔的群$L^*/A^*$是免费的，并且有家人$(pA^*)_{p\in P}$为基。因而，从 R(A) 到 $L^*/A^*$，存在同构 $\varphi$，其特征在于，对于每个 $p\in P$，其特征为 $\varphi ([A/pA]) =pA^*$。
+令P为A的不可约元的代表由……组成的系统(VII, §1, No. 3，p. 3)。 A 的最大理想是 $p\in P$ 的理想 $pA$；因而，每个单A-模都同构于唯一的模 $A/pA$。而且（VII, §1, No. 3，p. 4，定理2），阿贝尔的群$L^*/A^*$是免费的，并且有家人$(pA^*)_{p\in P}$为基。因而，从 R(A) 到 $L^*/A^*$，存在同构 $\varphi$，其特征在于，对于每个 $p\in P$，其特征为 $\varphi ([A/pA]) =pA^*$。
 
 设 A 中存在 $a\not= 0$，P 存在整数 $r\geqslant 0$、元素 $p_1, . . . , p_r$，$A^*$ 存在元素 $u$，因此我们有 $a=up_1\cdots p_r$。 模 $A/aA$ 承认合成列定义为
 
@@ -455,7 +455,7 @@ $$
 E_0= A/aA,E_i= (p_1\cdots p_iA)/aA(1\leqslant i\leqslant r)
 $$
 
-并且模 $E_{i-1}/E_i= (p_1\cdots p_{i-1}A)/(p_1\cdots p_iA)$ 与 $A/p_iA$ 同构的。因此我们有 (VIII, p. 185, 命题 3)
+并且模$E_{i-1}/E_i= (p_1\cdots p_{i-1}A)/(p_1\cdots p_iA)$同构于$A/p_iA$。因此我们有 (VIII, p. 185, 命题 3)
 
 $$
 \varphi ([A/aA]) =\prod_{i=1}^r\varphi ([A/p_iA]) =p_1\cdots p_rA^*=aA^*
@@ -471,17 +471,17 @@ $$
 
 #### 注 5 {#alg-viii-s11-n4-rem-5 .statement tag=00SI}
 
-设 A 为 Dedekind 环，但不是域（Comm. Alg.，VIII, §2, No. 1）。通过推理，如命题 8，我们可以证明从R(A)到群的A的分数理想存在同构$\varphi$，其特征为$\varphi ([A/\mathfrak{a}]) =\mathfrak{a}$对于每个非零的理想$\mathfrak{a}$ $A.*$
+设 A 是 Dedekind 环，但不是域（Comm. Alg.，VIII, §2, No. 1）。通过推理，如命题 8，我们可以证明从R(A)到群的A的分数理想存在同构$\varphi$，其特征为$\varphi ([A/\mathfrak{a}]) =\mathfrak{a}$对于每个非零的理想$\mathfrak{a}$ $A.*$
 
 对于例，在以下两种情况下将使用命题 8：
 
-a) 假设我们有 $A =\mathbf{Z}$。 有限长度的 $\mathbf{Z}$ 模就是有限的阿贝尔的群。由于 $\mathbf{Q}^*$ 是 $\mathbf{Z}^*=$ $\{1,-1\}$ 和 $\mathbf{Q}^*_+$ 的直接乘积，我们可以从命题 8 同构的 $\varphi '$ 推出，从 $R(\mathbf{Z})$ 到 $\mathbf{Q}^*_+$ 给出：
+a) 假设我们有 $A =\mathbf{Z}$。 有限长度的$\mathbf{Z}$模就是有限的阿贝尔的群。由于 $\mathbf{Q}^*$ 是 $\mathbf{Z}^*=$ $\{1,-1\}$ 和 $\mathbf{Q}^*_+$ 的直接乘积，我们可以从命题 8 同构的 $\varphi '$ 推出，从 $R(\mathbf{Z})$ 到 $\mathbf{Q}^*_+$ 给出：
 
 $\varphi '([G]) =$卡(G)
 
 对于每个有限阿贝尔的群 G。
 
-b) 假设 A 在一个变量 T 中为多项式环 K[T]，系数为交换域 K。令 E 为 K 上的有限维向量空间，以及 E 的 $u$ 自同态。如VII, §5, No. 1、p. 29，用 $E_u$ 表示A-模与底层加法群 E 和外法则 $(p, x)\mapsto p(u)x$。 A-模$E_u$有有限长度。相反，每个单A-模都是K上的有限维（VII, §4, No. 8，p. 25，注4）。因而，有限长度的每个A-模都是K上的有限维，因此形式$E_u$。而且（VII, §5, No. 3，p. 32，推论1），$E_u$的不变量因子的乘积等于$u$的特征多项式$\chi_u$。因而，命题 8 给出同构
+b) 假设一个变量 T 中 A 为多项式环 K[T]，系数为交换域 K。令 E 为 K 上的有限维向量空间，以及 E 的 $u$ 自同态。如VII, §5, No. 1、p. 29，用 $E_u$ 表示A-模与底层加法群 E 和外法则 $(p, x)\mapsto p(u)x$。 A-模$E_u$有有限长度。相反，每个单A-模都是K上的有限维（VII, §4, No. 8，p. 25，注4）。因而，有限长度中的每个A-模都是K上的有限维，因此形式$E_u$。而且（VII, §5, No. 3，p. 32，推论1），$E_u$的不变量因子的乘积等于$u$的特征多项式$\chi_u$。因而，命题 8 给出同构
 
 $$
 \varphi : R(K[T])\rightarrow K(T)^*/K^*
@@ -489,7 +489,7 @@ $$
 
 其特征为 $\varphi ([E_u]) =\chi_uK^*$ (cf. 公式 (10))。
 
-### 5. 变换 / 环
+### 5. 变换共环
 
 令A和B为环，并令$f: A\rightarrow B$为环同态。令$\mathscr{C}$为A-模中的加法集合，以及$\mathscr{D}$加法集合中B-模。
 
@@ -501,7 +501,7 @@ $$
 
 我们定义群同态$f_*: K'(\mathscr{D})\rightarrow K'(\mathscr{C})$同样。
 
-现在我们假设对于型$\mathscr{C}$的每个A-模E，B-模$f^*(E)$通过$f$（II, §5, No. 1，p. 277）的标量扩张从E导出，其大小为型 $\mathscr{D}$。 映射从$\mathscr{C}$到$K'(\mathscr{D})$发送$\mathscr{C}$的元素E到$[f^*(E)]'_{\mathscr{D}}$是模弱可加函数；因此诱导群同态$f^*: K'(\mathscr{C})\rightarrow K'(\mathscr{D})$。
+现在我们假设对于型$\mathscr{C}$的每个A-模E，B-模$f^*(E)$通过$f$（II, §5, No. 1，p. 277）的标量扩张从E导出是型 $\mathscr{D}$。 映射从$\mathscr{C}$到$K'(\mathscr{D})$发送$\mathscr{C}$的元素E到$[f^*(E)]'_{\mathscr{D}}$是模弱可加函数；因此诱导群同态$f^*: K'(\mathscr{C})\rightarrow K'(\mathscr{D})$。
 
 此外，假设对于每个正合序列
 
@@ -521,15 +521,15 @@ a) 同态$f$使B成为射影A-模（II, §3, No. 6，p. 251，命题5和II, §3,
 
 一般来说，平坦（X, §1，n$^o3$，p. 8，定义1）A-模$*$。
 
-b) $*$集合 $\mathscr{C}$ 是射影类的集合，或者更一般地说，是平的 (X,
+b) $*$集合 $\mathscr{C}$ 是射影类的集合，或更一般地，是平的 (X,
 
 §4, n$^o5$, p. 72, 推论 2) A-模$*$。
 
 然后将 E 发送到 $[f^*(E)]_{\mathscr{D}}$ 从 $\mathscr{C}$ 到 $K(\mathscr{D})$ 的映射是相加的。因此诱导群同态$f^*: K(\mathscr{C})\rightarrow K(\mathscr{D})$。
 
-### 6.格罗滕迪克群$R_K(A)$
+### 6. 格罗滕迪克群$R_K(A)$
 
-设 K 为交换域，A K-代数。 K 之上的有限维向量空间 A-模类集合是遗传性的。 相应的格罗滕迪克群用$R_K(A)$表示。它是一个自由的$\mathbf{Z}$-模块，其中基家族$([S])_{S\in\mathscr{S}}$，其中$\mathscr{S}$是单A-模的类的集合，在K上是有限维的。存在同态
+设 K 为交换域，A K-代数。 K 上的有限维向量空间 A-模类集合是遗传的。 相应的格罗滕迪克群用$R_K(A)$表示。它是一个自由的$\mathbf{Z}$-模块，其中基家族$([S])_{S\in\mathscr{S}}$，其中$\mathscr{S}$是集合或单A-模的类，在K上是有限维的。存在同态
 
 昏暗$: R_K(A)\longrightarrow \mathbf{Z}$
 
@@ -537,9 +537,9 @@ b) $*$集合 $\mathscr{C}$ 是射影类的集合，或者更一般地说，是�
 
 #### 引理 2 {#alg-viii-s11-lem-2 .statement tag=00DF}
 
-设M和$M'$为A-模，且有限维向量空间超过K。M和$M'$的支持度（VIII，p. 190）为不相交的当且仅当存在$a\in A$使得$a_M= 0_M$且$a_{M'}= 1_{M'}$。
+设M和$M'$为A-模，且有限维向量空间超过K。M和$M'$的支持度(VIII，p. 190)为不相交的当且仅当存在$a\in A$使得$a_M= 0_M$且$a_{M'}= 1_{M'}$。
 
-假设存在$a\in A$使得$a_M= 0_M$和$a_{M'}= 1_{M'}$。令 S 为单A-模。如果 cl(S) 属于到 M 的支持度 $\mathscr{S}_M$，则 A-模 S 同构于 M 的 Jordan–Hölder 级数的商之一，并且我们有 $a_S= 0_S$。同样，如果 cl(S) 属于到 M’ 的支持度 $\mathscr{S}_{M'}$，则我们有 $a_S= 1_S$。由此可见$\mathscr{S}_M$和$\mathscr{S}_{M'}$是不相交的。
+假设存在$a\in A$使得$a_M= 0_M$和$a_{M'}= 1_{M'}$。令 S 为单A-模。如果 cl(S) 属于到 M 的支持$\mathscr{S}_M$，则 A-模 S 同构于 M 的 Jordan–Hölder 级数的商之一，并且我们有 $a_S= 0_S$。同样，如果 cl(S) 属于到 M’ 的支持$\mathscr{S}_{M'}$，则我们有 $a_S= 1_S$。由此可见$\mathscr{S}_M$和$\mathscr{S}_{M'}$是不相交的。
 
 相反，假设集合$\mathscr{S}_M$和$\mathscr{S}_{M'}$是不相交的。它们是有限的，因为 M 和 $M'$ 在 K 上是有限维的。每个单A-模 S 的类属于到 $\mathscr{S}_M\cup \mathscr{S}_{M'}$ 在 K 上是有限维的，并且更不必说在域 End$_A(S)$ 上是有限维的。根据命题 4 (VIII, p. 83) 的推论 1，存在元素 $b\in A$，这样对于每个单A-模 S，其类属于都有 $b_S= 0_S$（或 $b_S= 1_S$） $\mathscr{S}_M$（分别为$\mathscr{S}_{M'}$）。令 $(M_i)_{0\leqslant i\leqslant n}$ 为 M 的 Jordan–Hölder 级数。根据上述，我们有 $bM_i\subset M_{i+1}$ 对应于 $0\leqslant i < n$，因此有 $(b^n)_M= 0_M$。同理证明自然数$m$的存在性$((1-b)^m)_{M'}= 0_{M'}$。 集合$P(X) = 1-(1-X^n)^m$和$a= P(b)$。多项式P(X)是$X^n$的倍数，所以我们有$a_M= 0_M$，而多项式$1-P(X)$是$(1-X)^m$的倍数，所以我们有$a_{M'}= 1_{M'}$。这个结论证明。
 
@@ -673,7 +673,7 @@ K[G]-模$K_{\gamma}$是向量空间K，赋予G的作用，由$g\lambda =\lambda$
 
 #### 例 2 {#alg-viii-s11-n7-exa-2 .statement tag=00DM}
 
-令$\mathfrak{g}$为李代数超过交换域K，且$U(\mathfrak{g})$包络代数；我们认同$\mathfrak{g}$及其$U(\mathfrak{g}) ($谎言中的典范像，I, §2, No. 7，p. 39，推论2）。我们赋予$U(\mathfrak{g})$一个bigebra的结构，其中余积$c$和余单位$\gamma$给出：
+令 $\mathfrak{g}$ 为李代数超过交换域 K，并且 $U(\mathfrak{g})$ 包络代数；我们认同$\mathfrak{g}$及其$U(\mathfrak{g}) ($谎言中的典范像，I, §2, No. 7，p. 39，推论2）。我们赋予$U(\mathfrak{g})$一个bigebra的结构，其中余积$c$和余单位$\gamma$给出：
 
 $$
 c(\xi ) =\xi \otimes 1 + 1\otimes \xi ,\gamma (\xi ) = 0 \tag{17}
@@ -681,7 +681,7 @@ $$
 
 对于$\xi \in \mathfrak{g}($谎言，II, §1, No. 4，p. 115）。
 
-设E和F为$U(\mathfrak{g}$)-模；由公式 (17) 可知 $E\otimes F$ 上的 $U(\mathfrak{g}$) 模块结构的特点是
+设E和F为$U(\mathfrak{g}$)-模；由公式 (17) 可知，$E\otimes F$ 上的 $U(\mathfrak{g}$) 模结构的特征为
 
 $$
 \xi (x\otimes y) =\xi x\otimes y+x\otimes \xi y \tag{18}
@@ -689,11 +689,11 @@ $$
 
 对于 $\xi \in \mathfrak{g},x\in E$ 和 $y\in F$。
 
-格罗腾迪克环$R_K(U(\mathfrak{g}))$在《谎言》、VIII,
+格洛腾迪克环$R_K(U(\mathfrak{g}))$在《谎言》，VIII,
 
-§7, No. 6，第 17 页中也用 $\mathscr{R}(\mathfrak{g})$ 表示。 $139.*$
+§7, No. 6，第1页中也用$\mathscr{R}(\mathfrak{g})$表示。 $139.*$
 
-设 A 为交换环。我们可以将 A 视为一个与自身共交换的大数，其中余积从 A 到 $A\otimes_AA$ 的自然同构和余单位 Id$_A$ (III, §11, No. 4, p. 585)。到命题 9，我们得到以下结果。
+设 A 为交换环。我们可以将 A 视为一个与自身共交换的大数，其中余积是从 A 到 $A\otimes_AA$ 的自然同构和余单位 Id$_A$ (III, §11, No. 4, p. 585)。到命题 9，我们得到以下结果。
 
 #### 命题 10 {#alg-viii-s11-prop-10 .statement tag=00DN}
 
@@ -707,11 +707,11 @@ $$
 
 那么对于型$\mathscr{C}$的A-模的每个对E、F，在加法群$K(\mathscr{C})$满足$[E]_{\mathscr{C}}[F]_{\mathscr{C}}= [E\otimes_AF]_{\mathscr{C}}$上存在唯一的环结构。 $K(\mathscr{C})$中的单位元是$[A]_{\mathscr{C}}$。
 
-### 8.格罗滕迪克群$K_0(A)$
+### 8. 格罗滕迪克群$K_0(A)$
 
 设 A 为环。有限生成射影A-模的类集合$\mathscr{P}(A)$是可加的；我们用$K_0(A)$表示格罗滕迪克群$K(\mathscr{P}(A))$。
 
-对于合成 $(E,E')\mapsto$ cl(E $\oplus E'$) 的律，集合 $\mathscr{P}(A)$ 是可交换幺半群。此外，投影A-模的每正合序列
+对于合成 $(E,E')\mapsto$ cl(E $\oplus E'$) 的律，集合 $\mathscr{P}(A)$ 是可交换幺半群。此外，射影 A-模的每正合序列
 
 $$
 0\longrightarrow E'\longrightarrow E\longrightarrow E''\longrightarrow 0
@@ -721,7 +721,7 @@ $$
 
 对于每个有限生成射影模 P，都存在有限生成射影模 $P'$，使得 $P\oplus P'$ 是免费的（II, §2, No. 2，p. 232，推出 1）。令E和F为有限生成射影A-模；由I, §2, No. 4，p. 18，命题 6，当且仅当存在有限生成的自由A-模L，使得A-模$E\oplus L$和$F\oplus L$同构，我们在$K_0(A)$中有[E] = [F]。那么我们说 E 和 F 是稳定同构的；这并不一定意味着 E 和 F 是同构的（VIII、p. 207、习题 2 和 VIII、p. 210、习题 14）。
 
-当环 A 可交换时，加法群 $K_0(A)$ 上存在交换环结构，其乘法的特征为公式 $[E]_{\mathscr{P}(A)}[F]_{\mathscr{P}(A)}= [E\otimes_AF]_{\mathscr{P}(A)}$ (VIII, p. 199, 命题 10）。
+当环 A 可交换时，加法群 $K_0(A)$ 上存在交换环结构，其乘法的特征为公式 $[E]_{\mathscr{P}(A)}[F]_{\mathscr{P}(A)}= [E\otimes_AF]_{\mathscr{P}(A)}$ (VIII, p. 199, 命题) 10）。
 
 #### 注 {#alg-viii-s11-n8-rem-1 .statement tag=00DO}
 
@@ -731,17 +731,17 @@ $$
 \mathscr{L}\mathscr{F}(A) =\mathscr{S}\mathscr{S}(A) =\mathscr{P}(A)
 $$
 
-（cf.No. 4对应于$\mathscr{L}\mathscr{F}(A)$和$\mathscr{S}\mathscr{S}(A)$中的定义）。因而，我们有 $K_0(A) = R(A)$ 乘定义其中格罗滕迪克群。
+（cf.No. 4对应于$\mathscr{L}\mathscr{F}(A)$和$\mathscr{S}\mathscr{S}(A)$中的定义）。因而，我们有 $K_0(A) = R(A)$ x 定义其中格罗滕迪克群。
 
 #### 例 {#alg-viii-s11-n8-exa-1 .statement tag=00DP}
 
 如果每个有限生成的射影A-模都是自由的，则从$K_0(A)$到$\mathbf{Z}$有秩定义同构。特别是当 A 为主理想整环（VII, §1, No. 3，p. 15，推出 3）或 A 为局部环（VIII，p. 36，推出 6）时，情况尤其如此。
 
-### 9.格罗滕迪克群$K_0(A)$共阿廷环
+### 9. 格罗滕迪克群$K_0(A)$共阿廷环
 
-设 A 为左阿廷的环。设$\mathfrak{r}$为其根式；它是A的幂幂双面理想，环$A/\mathfrak{r}$是半单（VIII，p. 173，命题1）。根据 VIII、p. 176、映射 $P\mapsto$ 的推论，cl(P$/\mathfrak{r}P$) 是从幺半群$\mathscr{P}(A)$ 到幺半群$\mathscr{P}(A/\mathfrak{r})$ 的同构。我们从中推导出群同构$\gamma$从$K_0(A)$到$K_0(A/\mathfrak{r})$，对于每个有限生成的射影A-模P，其特征为关系$\gamma ([P]_{\mathscr{P}(A)}) = [P/\mathfrak{r}P]_{\mathscr{P}(A/\mathfrak{r})}$。
+设 A 为左阿廷的环。设$\mathfrak{r}$为其根式；它是A的幂幂双面理想，环$A/\mathfrak{r}$是半单（VIII，p. 173，命题1）。根据 VIII、p. 176、映射 $P\mapsto$ 的推论，cl(P$/\mathfrak{r}P$) 是从幺半群$\mathscr{P}(A)$ 到幺半群$\mathscr{P}(A/\mathfrak{r})$ 的同构。我们从中推导出群同构$\gamma$从$K_0(A)$到$K_0(A/\mathfrak{r})$，其特征为关系$\gamma ([P]_{\mathscr{P}(A)}) = [P/\mathfrak{r}P]_{\mathscr{P}(A/\mathfrak{r})}$，对于每个有限生成的射影A-模P。
 
-由于环$A/\mathfrak{r}$是半单，所以上面的注意味着等式$R(A/\mathfrak{r}) = K_0(A/\mathfrak{r})$。 有限长度的模超过环$A/\mathfrak{r}$只是有限长度的半单模超过环A（VIII，p. 174，命题2）；因而，我们可以确定 $\mathscr{L}\mathscr{F}(A/\mathfrak{r})$ 与 $\mathscr{S}\mathscr{S}(A)$ 以及 $R(A/\mathfrak{r})$ 与 $K(\mathscr{S}\mathscr{S}(A))$。我们用$\delta$同态$\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{S}\mathscr{S}(A)}$表示从$R(A/\mathfrak{r}) = K(\mathscr{S}\mathscr{S}(A))$到$R(A) = K(\mathscr{L}\mathscr{F}(A))$（VIII，p. 191，注1）；是同构。最后，我们有 $\mathscr{P}(A)\subset \mathscr{L}\mathscr{F}$(A)，以及集合 $\varepsilon =$ \gamma_{\mathscr{LF}(A),\mathscr{P}(A)}。我们定义了图表
+由于环$A/\mathfrak{r}$是半单，所以上面的注意味着等式$R(A/\mathfrak{r}) = K_0(A/\mathfrak{r})$。 有限长度的模超过环$A/\mathfrak{r}$只是有限长度的半单模超过环A（VIII，p. 174，命题2）；因而，我们将可以确定$\mathscr{L}\mathscr{F}(A/\mathfrak{r})$与$\mathscr{S}\mathscr{S}(A)$以及$R(A/\mathfrak{r})$与$K(\mathscr{S}\mathscr{S}(A))$。我们用$\delta$同态$\gamma_{\mathscr{L}\mathscr{F}(A),\mathscr{S}\mathscr{S}(A)}$表示从$R(A/\mathfrak{r}) = K(\mathscr{S}\mathscr{S}(A))$到$R(A) = K(\mathscr{L}\mathscr{F}(A))$（VIII，p. 191，注1）；是同构。最后，我们有 $\mathscr{P}(A)\subset \mathscr{L}\mathscr{F}$(A)，还有集合 $\varepsilon =$ \gamma_{\mathscr{LF}(A),\mathscr{P}(A)}。我们定义了图表
 
 $$
 \begin{array}{ccc}
@@ -751,37 +751,37 @@ K_0(A) & \xrightarrow{\gamma} & K_0(A/\mathfrak{r}) = R(A/\mathfrak{r}) \\
 \end{array}
 $$
 
-我们用$\mathscr{S}$表示单A-模的类的（有限）集合；对于 $\lambda \in \mathscr{S}$、选择模 $S_\lambda$ 类 $\lambda$ 以及投影覆盖$(P_\lambda, u_\lambda)$ $S_\lambda$ (VIII、p. 175、命题 4)。从 VIII、p. 176 的命题 6 可以得出，$K_0(A)$ 是一个免费的 $\mathbf{Z}$ 模块，与基系列$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$ 一起使用。此外，由于$S_\lambda$与$P_\lambda / \mathfrak{r} P_\lambda$（VIII，p. 176）同构的，因此将$K_0(A)$的$\gamma$变换基$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$转化为基$([S_\lambda])_{\lambda \in \mathscr{S}}$ $R(A/\mathfrak{r})$。将$R(A/\mathfrak{r})$的同构$\delta$变换基$([S_\lambda])_{\lambda \in \mathscr{S}}$转换为$R(A)$的基$([S_\lambda])_{\lambda \in \mathscr{S}}$。
+我们用$\mathscr{S}$表示单A-模的类的（有限）集合；对于 $\lambda \in \mathscr{S}$、选择模 $S_\lambda$ 类 $\lambda$ 以及投影覆盖$(P_\lambda, u_\lambda)$ $S_\lambda$ (VIII、p. 175、命题 4)。从 VIII、p. 176 的命题 6 可以得出，$K_0(A)$ 是一个免费的 $\mathbf{Z}$ 模块，与基系列$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$ 一起使用。此外，由于$S_\lambda$与$P_\lambda / \mathfrak{r} P_\lambda$（VIII，p. 176）同构，因此将$K_0(A)$的$\gamma$变换基$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$转化为基$([S_\lambda])_{\lambda \in \mathscr{S}}$ $R(A/\mathfrak{r})$。将$R(A/\mathfrak{r})$的同构$\delta$变换基$([S_\lambda])_{\lambda \in \mathscr{S}}$转换为$R(A)$的基$([S_\lambda])_{\lambda \in \mathscr{S}}$。
 
-相对于$K_0(A)$的基$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$和$R(A)$的$([S_\lambda])_{\lambda \in \mathscr{S}}$，$A$的*嘉当矩阵*是$\mathbf{Z}$模$\varepsilon : K_0(A) \to R(A)$的同态的矩阵$(a_{\lambda \mu})$。到定义，我们已经
+$A$的*嘉当矩阵*是$\mathbf{Z}$-模$\varepsilon : K_0(A) \to R(A)$的同态矩阵$(a_{\lambda \mu})$相对于$K_0(A)$的基$([P_\lambda]_{\mathscr{P}(A)})_{\lambda \in \mathscr{S}}$和$([S_\lambda])_{\lambda \in \mathscr{S}}$ $R(A)$。到定义，我们已经
 
 $$
 [P_\mu] = \sum_{\lambda \in \mathscr{S}} a_{\lambda \mu} [S_\lambda] \qquad (\mu \in \mathscr{S})
 $$
 
-在群$R(A)$。在其他字中，$a_{\lambda \mu}$ 是数的商，与 A-模 $P_\mu$ 的 Jordan–Hölder 级数中的 $S_\lambda$ 同构的。
+在群$R(A)$。在其他字中，$a_{\lambda \mu}$是与A-模$P_\mu$的Jordan–Hölder级数中的$S_\lambda$同构的商的数。
 
-集合$\pi = \varepsilon \circ \gamma^{-1} \circ \delta^{-1}$；它是群$R(A)$中的自同态。如果 M 是有限生成的半单A-模和 $(P, u)$ M 的射影覆盖，那么我们有 $\pi([M]) = [P]$。根据公式(19)，$\pi$的矩阵相对于$R(A)$的基$([S_\lambda])_{\lambda \in \mathscr{S}}$，简直就是$A$的嘉当矩阵。
+集合$\pi = \varepsilon \circ \gamma^{-1} \circ \delta^{-1}$；是群$R(A)$中的自同态。如果 M 是有限生成的半单A-模和 $(P, u)$ M 的射影覆盖，那么我们有 $\pi([M]) = [P]$。根据公式(19)，$\pi$的矩阵相对于$R(A)$的基$([S_\lambda])_{\lambda \in \mathscr{S}}$，简直就是$A$的嘉当矩阵。
 
-### 10. 变换 / 环对于 $K_0(A)$
+### 10. 变换 / 环 $K_0(A)$
 
-设 A 和 B 为环。设$f : A \to B$为环同态。如果 P 是有限生成的射影 A-模，则 B-模 $f^*(P) = B \otimes_A P$ 是射影且有限生成的（II, §5, No. 2、p. 281，推论）。 映射 $P \mapsto \operatorname{cl}(f^*(P))$ 是从幺半群 $\mathscr{P}(A)$ 到幺半群 $\mathscr{P}(B)$ 的同态，因此对于每个有限生成的射影 A-模 P，定义同态 $f^* : K_0(A) \to K_0(B)$ 的特征在于关系 $f^*([P]_{\mathscr{P}(A)}) = [f^*(P)]_{\mathscr{P}(B)}$。如果$g : B \to C$ 是第二个环同态，则从标量 (II, §5, No. 1、p. 278、命题 2) 的扩张的传递性得出同态 $(g\circ f)^*$ 和$g^*\circ f^*$ $K_0(A)$ 到 $K_0(C)$ 相等。
+设 A 和 B 为环。设$f : A \to B$为环同态。如果 P 是有限生成的射影 A-模，则 B-模 $f^*(P) = B \otimes_A P$ 是射影且有限生成的（II, §5, No. 2，p. 281，推论）。 映射 $P \mapsto \operatorname{cl}(f^*(P))$ 是从幺半群 $\mathscr{P}(A)$ 到幺半群 $\mathscr{P}(B)$ 的同态，因此对于每个有限生成的射影，定义同态 $f^* : K_0(A) \to K_0(B)$ 的特征在于关系 $f^*([P]_{\mathscr{P}(A)}) = [f^*(P)]_{\mathscr{P}(B)}$ A-模 P。如果 $g : B \to C$ 是第二个环同态，则从标量 (II, §5, No. 1、p. 278、命题 2) 的扩张的传递性得出： 同态 $(g\circ f)^*$ 和 $g^*\circ f^*$ 从 $K_0(A)$ 到 $K_0(C)$ 是相等的。
 
-假设$f$使B成为有限生成的射影左A-模。令 Q 为有限生成的射影左B-模。那么 Q 是有限生成的自由 B-模的直因子，该自由 B-模在 A 上投影且有限生成。因而，通过标量的限制从 Q 获得的 A-模 $f_*(Q)$ 是投影且有限生成的。如上所述，对于每个有限生成射影B-模 Q，我们推导出以关系$f_*([Q]_{\mathscr{P}(B)}) = [f_*(Q)]_{\mathscr{P}(A)}$为特征的同态$f_*: K_0(B)\rightarrow K_0(A)$。如果$g: B\rightarrow C$是环同态，则C变成有限生成射影B-模，那么从$K_0(C)$到$K_0(A)$的同态$(g\circ f)_*$和$f_*\circ g_*$相等。
+假设$f$使B成为有限生成的射影左A-模。令 Q 为有限生成的射影左B-模。那么 Q 是有限生成的自由 B-模的直因子，该自由 B-模在 A 上投影且有限生成。因而，通过标量的限制从 Q 获得的 A-模 $f_*(Q)$ 是投影且有限生成的。如上所述，对于每个有限生成射影 B-模 Q，我们推导出以关系 $f_*([Q]_{\mathscr{P}(B)}) = [f_*(Q)]_{\mathscr{P}(A)}$ 为特征的同态 $f_*: K_0(B)\rightarrow K_0(A)$。如果 $g: B\rightarrow C$ 是环同态，使得 C 成为有限生成射影 B-模，则从$K_0(C)$到$K_0(A)$的同态$(g\circ f)_*$和$f_*\circ g_*$相等。
 
-### 11.弗罗贝尼乌斯互易律
+### 11. Frobenius Reciprocity
 
-设 A 为半单环。令$f$为从A到半单环B的同态。令S为单A-模和T单B-模，并令D和E分别为S和T的中心化器。根据 Schur 的引理（VIII、p. 47，推论），D 和 E 为域。令 H 为从 S 到 $f_*(T)$ 的 A 线性同态的集合。我们赋予 H 一个$(E$，D)-双模结构，其中外法则$(e, u)\mapsto e\circ u$和$(d, u)\mapsto u\circ d$代表$e\in E,u\in H$，$d\in D$。
+设A为半单环。令$f$为从A到半单环B的同态。令S为单A-模和T单B-模，并令D和E分别为S和T的中心化器。根据 Schur 的引理（VIII、p. 47，推论），D 和 E 为域。令 H 为从 S 到 $f_*(T)$ 的 A 线性同态的集合。我们赋予 H 一个 $(E$，D)-双模结构，其中外法则 $(e, u)\mapsto e\circ u$ 和 $(d, u)\mapsto u\circ d$ $e\in E,u\in H$，$d\in D$。
 
 #### 命题 11 {#alg-viii-s11-prop-11 .statement tag=00DQ}
 
 a) 半单A-模 $f_*(T)$ 中单A-模 S 的重数 $[f_*(T) : S]$ 等于 H 的维数，视为 D 上的右向量空间。
 
-b) 重数 $[f^*(S) : T]$ 是有限的并且等于 H 的维数视为 E 上的左向量空间。
+b) 重数 $[f^*(S) : T]$ 是有限的并且等于 H 的维数被视为 E 上的左向量空间。
 
 断言 a) 由VIII、p. 72 的公式 (11) 得出。
 
-B-模 $f^*(S)$ 是半单并且是有限生成的，因此有有限长度。由 loc 的公式 (12) 开始。如上所述，我们有
+B-模 $f^*(S)$ 是半单并且是有限生成的，因此有有限长度。由loc的公式（12）。如上所述，我们有
 
 （20）$[f^*(S) : T] =$昏暗$_E$坎$_B(f^*(S),T)$。
 
@@ -803,7 +803,7 @@ $$
 
 由于A-模 S 是简单的，因此它是单生的，并且 D 是 Hom$_K(S,S)$ 的线性子空间；因而，S 和 D 在 K 上是有限维的。出于类似的原因，T 和 E 在 K 上是有限维的。最后，H 是 Hom$_K(S,T)$ 的线性子空间；因此它也是有限维的。然后从命题 11 得出公式 (21)，因为 H 在 K 上的维数等于 [H : D][D : K] 和 [H : E][E : K] (II, §1, No. 13, p. 222, 命题 25)。通过 VIII、p. 47 的定理 1，如果 K 是代数封闭的，则我们有 D = E = K。则推论的第二个部分由第一个推出。
 
-设 A 和 B 为半单代数，它们是交换域 K 上的有限维，并令 $f$ 为从 A 到 B 的 K-代数中的同态。
+设 A 和 B 为交换域 K 上的有限维半单代数，并令 $f$ 为从 A 到 B 的 K-代数的同态。
 
 设$\mathscr{S}(A)$为单A-模类集合；对于每个 $\lambda \in \mathscr{S}$ (A)，令 $S_{\lambda}$ 为类 $\lambda$ 和 $D_{\lambda}$ 的集中器中的模。那么$D_{\lambda}$是K上有限次数的代数；我们用$d_{\lambda}$表示这个次数。我们对$\mathscr{S}(B)$中的$\mu$进行类似的定义$\mathscr{S}$(B)、$T_\mu$、$E_\mu$和$e_\mu$。 格罗滕迪克群 $K_0(A)$ 的家庭 $([S_{\lambda}])_{\lambda\in\mathscr{S}(A)}$ 为基，$K_0(B)$ 的 $([T_\mu])_{\mu\in\mathscr{S}(B)}$ 为基。对于这些基，令$(a_{\mu\lambda})$为$f^*: K_0(A)\rightarrow K_0(B)$的矩阵以及$f_*: K_0(B)\rightarrow K_0(A)$的$(b_{\lambda \mu})$矩阵。到定义，我们已经
 
@@ -811,7 +811,7 @@ $$
 a_{\mu\lambda}= [f^*(S_{\lambda}) : T_\mu],b_{\lambda \mu}= [f_*(T_\mu) : S_{\lambda}] \tag{23}
 $$
 
-对于$\mathscr{S}(A)$中的$\lambda$和$\mathscr{S}(B)$中的$\mu$。我们用$h_{\lambda \mu}$表示向量空间Hom$_A(S_{\lambda}, f_*(T_\mu))$超过域K的维数。由上面的推论，我们有
+对于$\mathscr{S}(A)$中的$\lambda$和$\mathscr{S}(B)$中的$\mu$。我们用$h_{\lambda \mu}$表示向量空间Hom$_A(S_{\lambda}, f_*(T_\mu))$在域K上的维数。由上面的推论，我们有
 
 $$
 h_{\lambda \mu}=e_\mu a_{\mu\lambda}=d_{\lambda}b_{\lambda \mu} \tag{24}
@@ -825,17 +825,17 @@ $$
 
 在其他字中，$f_*$和$f^*$的矩阵相对于给定的$K_0(A)$和$K_0(B)$的基来说是彼此的转置。
 
-### 12.单环的情形
+### 12. 单环的情形
 
 令 A 和 B 为从 A 到 B 的简单环和 $f$ 同态。令 S 为单A-模且 T 单B-模。我们集合
 
 (26)$i(f) = [f^*(S) : T] =$长$_B(f^*(S))$；
 
-我们称$f$的基数为$i(f)$指标。当 A 是 B 的子环并且 $f$ 是 A 到 B 的典范嵌入时，我们写 $i(B,A)$ 而不是 $i(f)$，我们称其为 A 在 B 中的基数指标。 我们将定义 $f$ 的高度 $h(f)$ 类推：
+我们称$f$的基数为$i(f)$指标。当A是B的子环并且$f$是A到B的典范嵌入时，我们写$i(B,A)$而不是$i(f)$，我们称其为A在B中的基数指标。我们定义是$f$的高度$h(f)$，类似地：
 
 （27）$h(f) = [f_*(T) : S] =$长$_A(f_*(T))$。
 
-当A是B的子环并且B的$f$典范嵌入时，我们将$h(f)$写成$h(B,A)$，我们称其为A在B中的高度。
+当A是B的子环且B的$f$典范嵌入时，我们将$h(f)$写成$h(B,A)$，我们称其为A在B中的高度。
 
 A-模 S 是单生的，因而 B-模 $f^*(S) = B\otimes_AS$ 也是单生的。由此可知 $i(f)$ 是有限的，因此它是整数。令 M 为 A-模。将其长度表示为$\mathfrak{a}$；则 M 同构于 $S^{(\mathfrak{a})}$。因而，B-模$f_*(M)$同构于$f_*(S)^{(\mathfrak{a})}$。到 $i(f)$ 的定义时，我们有
 
@@ -851,13 +851,13 @@ $$
 
 (30)$i(f) =$长(B)$/$长(A)。
 
-根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，存在整数 $m\geqslant$ 1 和 $n\geqslant 1$ 和域 D 和 E，使得 A 与 $\mathbf{M}_m(D)$ 同构的，B 与$\mathbf{M}_n(E)$。到公式 (30)，我们有$i(f) =n/m$；特别是$m$除$n$。
+根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，存在整数 $m\geqslant$ 1 和 $n\geqslant 1$ 和域 D 和 E，使得 A 与 $\mathbf{M}_m(D)$ 同构的，B 与$\mathbf{M}_n(E)$。到公式 (30) 时，我们有 $i(f) =n/m$；特别是$m$除$n$。
 
-令N为B-模；用 $\mathfrak{a}$ 表示其长度。则N同构于$T^{(\mathfrak{a})}$，所以A-模$f_*(N)$同构于$f_*(T)^{(\mathfrak{a})}$；到定义或 $h(f)$，我们有
+令N为B-模；用 $\mathfrak{a}$ 表示其长度。那么N同构于$T^{(\mathfrak{a})}$，所以A-模$f_*(N)$同构于$f_*(T)^{(\mathfrak{a})}$；到定义或 $h(f)$，我们有
 
 （31）长$_A(f_*(N)) =h(f)$长$_B(N)$。
 
-我们已经看到（VIII，p. 124，命题 5）$f$将B变成自由A-模，并且这个模的所有基具有相同的基数，用$[B : A]_s$表示并称为（左） B 在 A 上的次数。 A-模 $f_*(B_s)$ 与 $A_s^{[B:A]_s}$ 同构的，因此有长度 $[B : A]_s$ 长(A)。通过将公式 (30) 和公式 (31) 应用于特定情况$N = B_s$，我们有
+我们已经看到（VIII，p. 124，命题 5）$f$将B变成自由A-模，并且这个模的所有基具有相同的基数，用$[B : A]_s$表示并称为（左） B 在 A 上的次数。 A-模 $f_*(B_s)$ 与 $A_s^{[B:A]_s}$ 同构的，因此有长度 $[B : A]_s$ 长(A)。通过将公式 (30) 和公式 (31) 应用于特定情况 $N = B_s$，我们有
 
 $$
 [B : A]_s=i(f)h(f) \tag{32}
@@ -869,7 +869,7 @@ $$
 f_*([T]) =h(f)[S] \tag{33}
 $$
 
-假设 A 和 B 是交换域 K 上的有限维代数，并且 $f$ 是 K 线性的。作为之前，从A到$\mathbf{M}_m(D)$，从B到$\mathbf{M}_n(E)$，存在整数$m\geqslant 1$和$n\geqslant 1$，K-代数D和域，以及K-代数同构。 集合$d= [D : K]$和$e= [E : K]$。然后我们就有关系
+假设 A 和 B 是交换域 K 上的有限维代数，并且 $f$ 是 K 线性的。作为之前，从A到$\mathbf{M}_m(D)$，从B到$\mathbf{M}_n(E)$，存在整数$m\geqslant 1$和$n\geqslant 1$，K-代数D和域，以及K-代数同构。 集合$d= [D : K]$和$e= [E : K]$。那么我们就有关系
 
 $$
 [A : K] =m^2d ,[B : K] =n^2e ,[B : A]_s=\frac{n^2e}{m^2d}
@@ -881,7 +881,7 @@ $$
 i(f) =\frac{n}{m},h(f) =\frac{ne}{md}
 $$
 
-当域 K 是代数封闭时，我们有 $d=e= 1$，因此有 $i(f) =h(f)$ 和 $[B : A]_s=i(f)^2$。
+当域 K 是代数闭集时，我们有 $d=e= 1$，因此有 $i(f) =h(f)$ 和 $[B : A]_s=i(f)^2$。
 
 设A、B和C为简单的环，并令$f: A\rightarrow B$和$g: B\rightarrow C$为同态。令 S 为单A-模。 C-模块$(g\circ f)^*(S)$和$g^*(f^*(S))$是同构的；因此，通过公式 (26) 和 (28)，我们有
 
@@ -895,13 +895,13 @@ $$
 
 #### 命题 12 {#alg-viii-s11-prop-12 .statement tag=00DR}
 
-令 B 为简单的环，A 为 B 的简单子环。假设 B 是有限生成的左A-模。设 M 为非零的有限生成的左B-模。 集合$A'=$结束$_A(M)$和$B'=$结束$_B(M)$。那么$B'$是$A'$的子环，环$A'$和$B'$很简单，$A'$是有限生成的左$B'$模，我们有等式
+设 B 为 B 的简单环，A 为 B 的简单子环。假设 B 是有限生成的左A-模。设 M 为非零的有限生成的左B-模。 集合$A'=$结束$_A(M)$和$B'=$结束$_B(M)$。那么$B'$是$A'$的子环，环$A'$和$B'$很简单，$A'$是有限生成的左$B'$模，我们有等式
 
 $$
 i(A',B') =h(B,A),h(A',B') =i(B,A),[A': B']_s= [B : A]_s
 $$
 
-由VIII、p. 123、环$A'$的命题 4 很简单，M 是有限长度的$A'$模，我们有
+由 VIII、p. 123、环 $A'$ 的命题 4 很简单，M 是有限长度的$A'$模，我们有
 
 长$_A(M) =$长(A$'$)，长$_{A'}(M) =$长(A)。
 
@@ -909,7 +909,7 @@ $$
 
 长$_B(M) =$长(B$'$)，长$_{B'}(M) =$长(B)。
 
-根据公式 (31) 和 (30)，我们有
+通过公式 (31) 和 (30)，我们有
 
 $h(B,A) =$长$_A(M)/$长$_B(M) =$长(A$'$)$/$长(B$'$)$=i(A',B')$;
 
@@ -921,6 +921,6 @@ $$
 
 使用公式 (32)。特别是，$A'$是有限生成的左$B'$-模块。
 
-### 习题 {#alg-viii-s11-exercises}
+### 习题{#alg-viii-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+参见[习题为 § 11](exercises/s11/)。

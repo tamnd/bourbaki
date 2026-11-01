@@ -21,21 +21,21 @@ subsections:
       pdf_page: 177
 statements: 14
 exercises: 5
-content_sha256: ecf19119cee63dd52d2a72bc6ead7a1a962e7c5f7d7302d7fd33f53f005bad2f
+content_sha256: 9a2557bfcd76a2f6f891611eebd969ad628a5c78d7a2c75f04d68d3b1baef1eb
 translated_from: content/en/top/II/01_s1_uniform_spaces.md
 translation_method: google
 source_content_sha256: 0fd087b92f4bcb3cb8327201790fedf19f1e8b4d6d6fa498400dbc46a4cbcd83
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 623fc7ee6e2a4c2c10c2c88142566378cfd0e4860fbb22db0a1d91e084815486
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1.制服空间
+## 1. 制服空间
 
-### 1.制服的定义结构
+### 1. 制服定义结构
 
 #### 定义 1 {#top-ii-s1-def-1 .statement tag=0BCY}
 
@@ -93,11 +93,11 @@ $X \times X$ 子集集合 $\mathfrak{B}$是$X$上一致的基本随行系统当�
 
 (*) 我们记得（集合理论，R，§ 3，第4和10），如果$V$和$W$是$X \times X$中的两个子集，则对$(x, y) \in X \times X$中的集合，使得对于一些$z \in X$，$(x, z) \in W$和$(z, y) \in V$由$V \circ W$或$VW$表示，并且对$(x, y) \in X \times X$的集合使得$(y, x) \in V$由$\overline{V}^1$表示。
 
-例的均匀性。 \* 1) 在实数的集合 $\mathbf{R}$ 上，我们可以定义一个均匀性，称为*加法均匀性*，如下：对于每个 $\alpha > 0$ 令 $V_\alpha$ 为所有$\mathbf{R} \times \mathbf{R}$ 由……组成的子集对$(x, y)$使得$|x - y| < \alpha$；由于$\alpha$贯穿所有实数$> 0$中的集合，因此$V_\alpha$形式是$\mathbf{R}$上加法均匀性的基本系统。类似地，我们可以在有理数的集合$\mathbf{Q}$上实现定义均匀性（再次称为*加性均匀性*）；我们将研究这些结构，以及*群*上的类似制服结构、章III和IV。 \*
-2) 令$X$为集合，并令$R$为$X$上的*等价关系*；设$C$为$R$在$X \times X$中的图。然后$\Delta \subset C$和$\overset{2}{C} = \overset{-1}{C} = C$； （*集合理论，R，§ 5, no. 1*）； $X \times X$的子集的集合仅由集合$C$组成，因此是$X$上均匀性的基本随行人员系统。特别是，如果我们将$R$视为等式的关系，那么$C = \Delta$和相应的一致性的随行人员就是$X \times X$的*所有子集*，其中包含$\Delta$；这种均匀性被称为$X$上的*离散*均匀性，而赋予这种均匀性的集合$X$被称为*离散均匀性空间*。
+例的均匀性。 \* 1) 在实数的集合 $\mathbf{R}$ 上，我们可以定义一个均匀性，称为*加性均匀性*，如下：对于每个 $\alpha > 0$ 令 $V_\alpha$ 为所有$\mathbf{R} \times \mathbf{R}$ 由……组成的子集对$(x, y)$使得$|x - y| < \alpha$；由于$\alpha$贯穿所有实数$> 0$中的集合，$V_\alpha$形式是$\mathbf{R}$上加法均匀性的基本系统。类似地，我们可以在有理数的集合$\mathbf{Q}$上实现定义均匀性（再次称为*加性均匀性*）；我们将研究这些结构，以及*群*上的类似制服结构、章III和IV。 \*
+2) 令$X$为集合，并令$R$为$X$上的*等价关系*；设$C$为$R$在$X \times X$中的图。然后$\Delta \subset C$和$\overset{2}{C} = \overset{-1}{C} = C$； （*集合理论，R，§ 5, no. 1*）； $X \times X$的子集的集合仅由集合$C$组成，因此是$X$上均匀性的基本随行人员系统。特别是，如果我们将$R$视为等式的关系，那么$C = \Delta$和相应的一致性的随行人员是$X \times X$的*所有子集*，其中包含$\Delta$；这种均匀性被称为$X$上的*离散*均匀性，而赋予这种均匀性的集合$X$被称为*离散均匀性空间*。
 3) 在有理整数的集合$\mathbf{Z}$上，我们可以得到定义的一致性，这在数的理论中很重要，如下：给定素数数$p$，令$W_n$为所有的集合对$(x, y) \in \mathbf{Z} \times \mathbf{Z}$使得$x \equiv y \pmod{p^n}$，对于每个整数$n > 0$。很容易验证集合$W_n$（对于固定的$p$）形式是$\mathbf{Z}$上均匀性的基本系统，称为*$p$-adic*均匀性（cf.章） III, § 6、习题 23 及章 IX, § 3, no. 2）。
 
-根据一般定义（*集合理论，R，§ 8, no. 5*），如果$X$和$X'$是两个集合，每个集合都具有均匀性，其随行人员的集合是$U$和$U'$分别地，则$X$到$X'$的双射$f$是$X$均匀性到$X'$均匀性的*同构*，如果$g(U) = U'$，其中$g = f \times f$。
+根据一般定义（*集合理论，R，§ 8, no. 5*），如果$X$和$X'$是两个集合，每个集合都具有均匀性，其随行人员的集合是$U$和$U'$分别地，如果$g(U) = U'$，则$X$到$X'$的双射$f$是$X$到$X'$均匀性的*同构*，其中$g = f \times f$。
 
 对于例，如果$X$和$X'$是两个等价的集合，则$X$的每一个双射到$X'$上都是$X$的离散均匀性的同构到$X'$。
 
@@ -184,4 +184,4 @@ $$
 
 ### 习题 {#top-ii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

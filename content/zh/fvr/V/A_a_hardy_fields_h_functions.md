@@ -38,44 +38,44 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: fe41032cbd3510789e37d2d71bbc4df57ecf931c35841e56ed6120f747ecabd5
+content_sha256: ddaf715fb9c7e7f7f975af4cd43e075ea35335ff1e70425f2e35be258ed9ad9a
 translated_from: content/en/fvr/V/A_a_hardy_fields_h_functions.md
 translation_method: google
 source_content_sha256: 90e02e3632c6ecc96144815961457f749d0c9a6edf475780ab90b36dc9feca0f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9c6e8dc6931300b460990236a35f4e4c29677c4d502c176f29296031d7affd25
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
 
 # 哈迪域。 (H) 函数
 
-### 1.哈迪域
+### 1. 哈迪域
 
 令$\mathfrak{F}$为$\mathbf{R}$上由形式$[x_0, +\infty[$间隔形成的滤波器基。回想一下，我们已经定义了等价关系$R_\infty$：在函数的集合$\mathscr{H}(\mathfrak{F}, \mathbf{R})$上，定义在集合属于到$\mathfrak{F}$“存在集合$M \in \mathfrak{F}$使得$f(x) = g(x)$在$M$”（V，p. 211），并且商集$\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$被赋予结构或*环*与单位元。
 
 #### 定义 1 {#fvr-v-a0-def-1 .statement tag=08GO}
 
-*给定$\mathscr{H}(\mathfrak{F}, \mathbf{R})$的子集$\mathfrak{K}$，如果$\mathfrak{K}$满足以下条件，则可以说$\mathfrak{K}/R_\infty$（$\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$中$\mathfrak{K}$的典范像）是哈代域：
+*给定$\mathscr{H}(\mathfrak{F}, \mathbf{R})$的子集$\mathfrak{K}$，如果$\mathfrak{K}$满足以下条件，则可以说$\mathfrak{K}/R_\infty$（$\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$中$\mathfrak{K}$的典范像）是Hardy域：
 
-1. $\mathfrak{K}/R_\infty$是环$\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$中的子域。
+1. $\mathfrak{K}/R_\infty$ 是环 $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ 中的子域。
 2. *$\mathfrak{K}$中的每个函数在区间$[a, +\infty[$（取决于函数）上连续且可微，并且类相对于其导数属于到$\mathfrak{K}/R_\infty$的$R_\infty$。*
 
-$\mathfrak{K}/R_\infty$是*域*的假设等价于以下条件：如果$f \in \mathfrak{K}$和$g \in \mathfrak{K}$则$f + g$和$fg$等于$\mathfrak{K}$中的函数在某些集合上$\mathfrak{F}$；此外，如果$f$与$\mathfrak{F}$中的集合上的零不相同，则$\mathfrak{F}$中存在集合$M$，其中$f$*不会消失*，并且$1/f$等于函数 $\mathfrak{K}$于$M$；通过条件 2'，我们总是可以假设采用$M$，使得$f$在$M$上“连续”，因此在此区间上“具有恒定的符号”。
+$\mathfrak{K}/R_\infty$是*域*的假设等价于以下条件：如果$f \in \mathfrak{K}$和$g \in \mathfrak{K}$则$f + g$和$fg$在某些上等于$\mathfrak{K}$中的函数 $\mathfrak{F}$ 中集合；此外，如果$f$与$\mathfrak{F}$中的集合上的零不相同，则$\mathfrak{F}$中存在集合$M$，其中$f$*不会消失*，并且$1/f$等于函数 $\mathfrak{K}$ $M$；通过条件 2'，我们总是可以假设采用$M$，使得$f$在$M$上“连续”，因此在此区间上“具有常数符号”。
 
 通过滥用语言，如果$\mathfrak{K}$使得$\mathfrak{K}/R_\infty$是哈代域，我们将在下文中说$\mathfrak{K}$本身是*哈代域*。
 
 #### 例 1 {#fvr-v-a0-n1-exa-1 .statement tag=08GP}
 
-*有理常数*的每个Hardy域包含域（特征0的最小的域，*cf.Alg.*，V, §1），其中一个可以确定和域$\mathbf{Q}$；此外，由于两个常数不能模$R_\infty$除非全等，因而$\mathbf{Q}/R_\infty$与$\mathbf{Q}$相同。 *实常量*也是形式和 Hardy 域，其中可以确定和 $\mathbf{R}$。
+*有理常数*的每个 Hardy 域包含域（特征 0 的最小的域，*cf. Alg.*，V, §1），其中可以确定和域 $\mathbf{Q}$；此外，由于两个常数不能模$R_\infty$除非全等，因而$\mathbf{Q}/R_\infty$与$\mathbf{Q}$相同。 *实常量*也是形式和 Hardy 域，其中可以确定与 $\mathbf{R}$。
 
 #### 例 2 {#fvr-v-a0-n1-exa-2 .statement tag=08GQ}
 
-哈代域的一个非常重要的例是有理数函数与实系数*的*集合，我们将通过语言滥用将其表示为$\mathbf{R}(x)$；如果 $f(x) = p(x)/q(x)$ 是具有实数系数的有理数函数，与零不同，它是连续的、可微的，且 $\neq 0$ 在区间 $[a, +\infty[$ 上，其中 $a$ 严格大于多项式 $p(x)$ 的实数根的最大的且$q(x)$；因而 $\mathbf{R}(x)/R_\infty$ 中除了 0 之外的每个元素都是可逆的。我们再次注，两个有理函数不能全等模$\mathbf{R}_\infty$除非，它们相等，因而$\mathbf{R}(x)/\mathbf{R}_\infty$可以再次与$\mathbf{R}(x)$等同。
+哈代域的一个非常重要的例是有理数函数与实系数*的*集合，我们将通过语言滥用将其表示为$\mathbf{R}(x)$；如果 $f(x) = p(x)/q(x)$ 是具有实数系数的有理数函数，与零不同，则它是连续、可微的，并且 $\neq 0$ 在区间 $[a, +\infty[$ 上，其中 $a$ 严格大于多项式实数根的最大的 $p(x)$和$q(x)$；因此除 0 之外的 $\mathbf{R}(x)/R_\infty$ 中的每个元素都是可逆的。我们再次注，两个有理数函数不能全等模$\mathbf{R}_\infty$除非，它们相等，因而$\mathbf{R}(x)/\mathbf{R}_\infty$可以再次与$\mathbf{R}(x)$等同。
 
 ### 2. 扩张哈迪域
 
@@ -142,7 +142,7 @@ COROLLARY 3 *If $\mathfrak{K}$ contains the real constants, and if $y$ is a func
 
 事实上，$\frac{d}{dx}(|y|^{\alpha}) = |y|^{\alpha} (\alpha y'/y)$和$\alpha y'/y$等于$\mathfrak{K}$中的函数，且间隔为$[ x_0, +\infty[$。
 
-最后，我们注，如果$y$是$\mathfrak{K}$中任何函数的*原语*，那么$\mathfrak{K}(y)$又是Hardy域。
+最后，我们注，如果$y$是$\mathfrak{K}$中任何函数的*原始*，那么$\mathfrak{K}(y)$又是Hardy域。
 
 ### 3. 函数与 Hardy 域的比较
 
@@ -150,13 +150,13 @@ COROLLARY 3 *If $\mathfrak{K}$ contains the real constants, and if $y$ is a func
 
 *同一个 Hardy 域中的两个函数可与任何阶*（V、p. 232）相媲美。
 
-事实上，如果 $f$ 属于到 Hardy 域 $\mathscr{K}$，那么对于每个整数 $n > 0$ 都存在一个区间 $[x_0, +\infty[$，其中 $f$ $n$ 倍可微，其 $n^{th}$ 导数等于函数在$\mathscr{K}$ 在此间隔内。因此，足以证明 $\mathscr{K}$ 中的任何两个函数 $f, g$ 都是“可比较的”。如果函数之一与 $+\infty$ 的邻域上的零相同，则这一点很明显；因此，我们可以限制自己的情况，即它们在邻域和 $+\infty$ 上都严格为正。但是，对于每个实数$t$，$f - tg$等于$+\infty$的邻域上的$\mathscr{K}$中的函数，因此$+\infty$的邻域上有常数符号，这就证明了命题 （V，p. 217，第 9 条）。
+事实上，如果 $f$ 属于到 Hardy 域 $\mathscr{K}$，那么对于每个整数 $n > 0$ 都存在一个区间 $[x_0, +\infty[$，其中 $f$ $n$ 倍可微，其 $n^{th}$ 导数等于函数在 $\mathscr{K}$ 在此间隔内。因此，足以证明 $\mathscr{K}$ 中的任何两个函数 $f, g$ 都是“可比较的”。如果函数之一与 $+\infty$ 的邻域上的零相同，则这一点很明显；因此，我们可以限制自己的情况，即它们在邻域和 $+\infty$ 上都严格为正。但是，对于每个实数 $t$，$f - tg$等于$+\infty$的邻域上的$\mathscr{K}$中的函数，因此$+\infty$的邻域上有常数符号，这就证明了命题 （V，p. 217，第 9 条）。
 
-由此命题可以立即推断出，如果 Hardy 域 $\mathscr{K}$ 包含为实常数（正如我们在下文中始终假设的那样），并且如果 $f$ 和 $g$ 是 $\mathscr{K}$ 中的任意两个函数，则以下任意两个函数 $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$（$\alpha$任意实数），$\int_a f, \int_a g$（$a$是$[x_0, +\infty[$区间内的任何实数，其中$f$和$g$受到调节）是*可比较的*（当它们被定义时）；事实上，任何两个函数属于到给定的 Hardy 域都可以通过将它们连续邻接到 $\mathscr{K}$ 来获得。
+由此命题可以立即推断出，如果 Hardy 域 $\mathscr{K}$ 包含为实常数（正如我们在下文中始终假设的那样），并且如果 $f$ 和 $g$ 是 $\mathscr{K}$ 中的任意两个函数，则以下任意两个函数 $e^f, e^g, \log |f|, \log |g|, |f|^{\alpha}, |g|^{\alpha}$（$\alpha$任意实数），$\int_a f, \int_a g$（$a$是$[x_0, +\infty[$区间内的任何实数，其中$f$和$g$受到调节）是*可比较的*（当它们被定义时）；事实上，任何两个函数属于到给定的 Hardy 域都可以通过将它们相继邻接到 $\mathscr{K}$ 来获得。
 
-类似地，Hardy 域 $\mathscr{K}$ 中的每个函数 $f(x)$ 都可与 $x$ 进行比较，因为 $x$ 和 $f(x)$ 属于与通过将 $x$ 邻接而获得的 Hardy 域可以比较$\mathscr{K}$。因此，结论（特别是）$f$可与任何阶、每个幂、$x^{\alpha}$、以及$\log x$和$e^x$进行比较。
+类似地，Hardy 域 $\mathscr{K}$ 中的每个函数 $f(x)$ 都可与 $x$ 进行比较，因为 $x$ 和 $f(x)$ 属于与通过将 $x$ 邻接而获得的 Hardy 域可以比较$\mathscr{K}$。因此，结论（特别是）$f$可与任何阶、每个幂$x^{\alpha}$、以及$\log x$和$e^x$进行比较。
 
-我们还可以看出，如果 $f$ 和 $g$ 属于为同一个 Hardy 域 $\mathscr{K}$，如果 $g(x) > 0$ 在区间 $[x_0, +\infty[$ 上，并且如果 $g(x)$ 趋于 0 或$+\infty$，如下所示： $x$趋于$+\infty$，则$f$相对于$g$（V，p. 219）的*阶*总是被定义。
+我们还可以看出，如果 $f$ 和 $g$ 属于为同一个 Hardy 域 $\mathscr{K}$，如果 $g(x) > 0$ 在区间 $[x_0, +\infty[$ 上，并且如果 $g(x)$ 趋于 0 或$+\infty$，如下所示： $x$趋向于$+\infty$，则$f$相对于$g$（V，p. 219）的*阶*始终是有定义的。
 
 因此，V、p. 233的第 8 条命题适用于 Hardy 域中的每个函数 $f$，并证明：
 
@@ -196,9 +196,9 @@ f'' = fg' + gf' \sim gf'
 $$
 或者再次$f''/f' \sim f'/f$。同样的论点，应用于 $f^{(n)}$ 而不是 $f$，则通过归纳在 $n$ 上显示 $f^{(n)}/f^{(n-1)} \sim f'/f$； 从而关系 (2)。
 
-2 如果$f$相对于$x$是有限的阶$\mu$，并且如果$\mu \neq 0$，则有$\log |f| \sim \mu \log x$，从而，微分时，$f'(x) \sim \mu \frac{f(x)}{x}$；推论出$f'$相对于$x$而言是阶$\mu - 1$，这允许人们在$n$上通过归纳应用相同的参数，只要$\mu \neq n$、从而公式 (3) 当$\mu$不是时整数$\geqslant 0$和$< n$。
+2 如果$f$相对于$x$有限阶$\mu$，并且如果$\mu \neq 0$，则有$\log |f| \sim \mu \log x$，从而，微分时，$f'(x) \sim \mu \frac{f(x)}{x}$；推论出$f'$相对于$x$而言是阶$\mu - 1$，这允许人们在$n$上通过归纳应用相同的参数，只要$\mu \neq n$、从而公式 (3) 当$\mu$不是时整数$\geqslant 0$和$< n$。
 
-当$f$相对于$x$是阶$p \geqslant 0$的整数时，可以写成$f(x) = x^p f_1(x)$，其中$f_1$相对于$x$是阶0。通过道具。 2个有
+当$f$相对于$x$是阶$p \geqslant 0$的积分时，可以写成$f(x) = x^p f_1(x)$，其中$f_1$相对于$x$是阶0。通过道具。 2个有
 $$
 f^{(p)} \sim p! f_1.
 $$
@@ -208,13 +208,13 @@ f^{(n)} \sim (-1)^{n+1} (n-1)! \frac{f'(x)}{x^{n-1}}.
 $$
 (4)
 
-如果$f$等价于常数$k \neq 0$，则有$f(x) = k + f_2(x)$和$f_2 \ll 1$，约化可以研究$f_2$的导数。
+如果$f$相当于常数$k \neq 0$，则有$f(x) = k + f_2(x)$和$f_2 \ll 1$，约化可以研究$f_2$的导数。
 
-### 4.(H) 函数
+### 4. (H) 函数
 
 #### 命题 3 {#fvr-v-a0-prop-3 .statement tag=08GY}
 
-*如果 $\mathscr{K}_0$ 是 Hardy 域，则存在 Hardy 域 $\mathscr{K}$ 包含 $\mathscr{K}_0$，因此，对于每个函数 $z \in \mathscr{K}$，邻域上的零不相同$+\infty$、$e^z$ 和 $\log |z|$ 属于至 $\mathscr{K}$。*
+*如果 $\mathscr{K}_0$ 是 Hardy 域，则存在 Hardy 域 $\mathscr{K}$ 包含 $\mathscr{K}_0$，因此，对于每个函数 $z \in \mathscr{K}$，零在邻域上不完全相同$+\infty$、$e^z$ 和 $\log |z|$ 属于至 $\mathscr{K}$。*
 
 Denote by $\mathscr{K}$ the set of functions $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ having the following properties: for each function $f \in \mathscr{K}$ there is a finite number of Hardy fields $\mathscr{K}_1, \mathscr{K}_2, \ldots, \mathscr{K}_n$ (the number $n$ and the fields $\mathscr{K}_i$ depending on $f$) such that $f \in \mathscr{K}_n$ and, for $0 \leq i \leq n-1$, one has $\mathscr{K}_{i+1} = \mathscr{K}_i(u_{i+1})$ where $u_{i+1}$ is equal either to $e^{z_i}$ or to $\log |z_i|$ with $z_i$ belonging to $\mathscr{K}_i$ and not vanishing identically on a neighbourhood of $+\infty$. 有人说域 $\mathscr{K}_n$ 和函数 $f$ 的 $u_1, u_2, \ldots, u_n$ 形式 a *定义序列*；同一个函数自然可以容纳多个定义序列。
 
@@ -230,9 +230,9 @@ Denote by $\mathscr{K}$ the set of functions $f \in \mathscr{H}(\mathfrak{F}, \m
 
 继定义之后，如果$f$是(H)函数，与$+\infty$的邻域上的零不相同，则$e^f$和$\log |f|$也是(H)函数。更一般地，如果$g$是第二个（H）函数，并且$u_1, u_2, \ldots, u_n$定义序列对于$g$，并且如果$f(x)$与$x$趋向于$+\infty$，则可以通过归纳看到$n$复合函数$u_1 \circ f, u_2 \circ f, \ldots, u_n \circ f$和$g \circ f$是(H)函数。
 
-### 5.指数和迭代对数
+### 5. 指数和迭代对数
 
-我们已经（V，p. 229）定义了$n \geq 1$的*迭代对数*$l_n(x)$乘以条件$l_0(x) = x, l_n(x) = \log(l_{n-1}(x))$。以同样的方式，对于$n \geq 1$，定义*迭代指数*$e_n(x)$乘以条件$e_0(x) = x, e_n(x) = \exp(e_{n-1}(x))$。它是直接的，通过$n$上的归纳，$l_n(x)$是$e_n(x)$的逆函数，为$x > e_{n-1}(0)$定义，并且$e_m(e_n(x)) = e_{m+n}(x), l_m(l_n(x)) = l_{m+n}(x)$。每 $\mu > 0$ 关系 $\log x \ll x^\mu \ll e^x$，就有 $n \geq 1$，
+我们已经（V，p. 229）定义了$n \geq 1$的*迭代对数*$l_n(x)$乘以条件$l_0(x) = x, l_n(x) = \log(l_{n-1}(x))$。以同样的方式，对于$n \geq 1$，定义*迭代指数*$e_n(x)$乘以条件$e_0(x) = x, e_n(x) = \exp(e_{n-1}(x))$。它是直接的，通过$n$上的归纳，$l_n(x)$是$e_n(x)$的逆函数，为$x > e_{n-1}(0)$定义，并且$e_m(e_n(x)) = e_{m+n}(x), l_m(l_n(x)) = l_{m+n}(x)$。到关系$\log x \ll x^\mu \ll e^x$，每$\mu > 0$，就有$n \geq 1$，
 
 $$
 l_n(x) \ll (l_{n-1}(x))^\mu \quad \text{for every } \mu > 0 \tag{5}
@@ -259,7 +259,7 @@ $$
 \frac{d}{dx}(e_n(x)) = \prod_{i=1}^n e_i(x). \tag{8}
 $$
 
-从而，通过道具。 8 个V、p. 233，每$\mu > 0$
+从而，通过道具。每 $\mu > 0$ V、p. 233 8 个
 
 $$
 \int_a^x e_n(t^\mu) \, dt \sim \frac{x}{\mu} e_n(x^\mu) \prod_{i=0}^{n-1} \frac{1}{e_i(x^\mu)} \tag{9}
@@ -275,9 +275,9 @@ $$
 l_m(x) \ll f(x) \ll e_n(x)
 $$
 
-（V，p. 263，练习 1 和 p. 264，练习 5） 另一方面，可以定义递增函数 $g(x)$ （不再是 (H) 函数）使得 $g(x) \gg e_n(x)$ 为*每个* $n > 0$，或 $1 \ll g(x) \ll l_m(x)$ 代表*每个* $m > 0$（V、p. 265，练习 8、9 和 10）。
+(V, p. 263, 练习 1 和 p. 264, 练习 5) 另一方面，可以定义递增函数 $g(x)$ （不再是 (H) 函数）使得 $g(x) \gg e_n(x)$ 为*每个* $n > 0$，或 $1 \ll g(x) \ll l_m(x)$ 代表*每个* $m > 0$（V、p. 265，练习 8、9 和 10）。
 
-借助迭代对数，我们将证明，可以定义 $\mathscr{E}$（对于 $x$ 趋向 $+\infty$）（H）函数，即 $> 0$ 在 $+\infty$ 的邻域上，并且满足以下条件：
+在迭代对数的帮助下，我们将证明，人们可以定义一个*比较尺度*$\mathscr{E}$（对于$x$趋向于$+\infty$）（H）函数，即$> 0$在$+\infty$的邻域上，并且满足以下条件：
 
 a) $\mathscr{E}$ 属于至$\mathscr{E}$中任意两个函数中的乘积；
 b) 每函数 $f \in \mathscr{E}$ 和每实数 $\mu$ $f^\mu \in \mathscr{E}$；
@@ -287,11 +287,11 @@ d) 对于每个函数$f \in \mathscr{E}$，除了常数1之外，$e^f$等价于$
 
 首先我们考虑形式$\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$的函数的集合$\mathscr{E}_0$，其中$\alpha_m$是实数、零，除了指标$m$的有限数； 直接的，由(5)(V，p. 253)得出，这些函数形式是满足条件$a), b)$和c)的*比较量表*。现在我们定义，通过对$n$的递归，由常数1和形式$\exp \left( \sum_{k=1}^p a_k f_k \right)$的函数形成集合$\mathscr{E}_n$（对于$n \geqslant 1$），其中$p$是任意整数 $> 0$、函数 $f_k$ ($1 \leqslant k \leqslant p$) 是$\mathscr{E}_{n-1}$中的函数，使得$f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$，并且$a_k$是实数$\neq 0$；我们通过归纳表明$\mathscr{E}_n$是一个*比较量表*满足$a), b)$和c)和包含$\mathscr{E}_{n-1}$。首先，关系$\mathscr{E}_{n-1} \subset \mathscr{E}_n$适用于$n = 1$，因为$\mathscr{E}_0$中任何非常数函数的对数为形式$\sum_{k=1}^p a_k f_k$，其中$f_k$是迭代对数，所以$\gg 1$；另一方面，如果$\mathscr{E}_{n-2} \subset \mathscr{E}_{n-1}$从$\mathscr{E}_n$的定义推出$\mathscr{E}_{n-1} \subset \mathscr{E}_n$；该定义进一步表明$\mathscr{E}_n$满足$a), b)$和c)。还需要看到$\mathscr{E}_n$是一个比较标度：因为$\mathscr{E}_n$中的两个函数又是属于到$\mathscr{E}_n$的商，足以证明$\mathscr{E}_n$的每个函数$f$，除了常数1， 不能相当于常数$\neq 0$。现在，$\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$乘以构造，并且由于$f_1 \gg 1$，$\log f$趋向于$\pm \infty$，因此$f$趋于0或$+\infty$，因为$x$趋向于$+\infty$。
 
-既然如此，如果$\mathscr{E}$是$n \geqslant 0$的$\mathscr{E}_n$的*并*，那么$\mathscr{E}$是一个比较尺度，对于$\mathscr{E}$属于中的两个函数来说，$\mathscr{E}_n$是相同的尺度；同理，$\mathscr{E}$满足a)，显然也满足b)和c)。最后，如果$f \in \mathscr{E}$存在$n$使得$f \in \mathscr{E}_n$；如果$f$不是常数1，则$f(x)$趋向于0或$+\infty$，因为$x$趋向于$+\infty$；在第一种情况下$e^f \sim 1$，在第二种情况下，$e^f$属于到$\mathscr{E}_{n+1}$定义，依此类推到$\mathscr{E}$。
+既然如此，如果$\mathscr{E}$是$n \geqslant 0$的$\mathscr{E}_n$的*并*，那么$\mathscr{E}$是一个比较尺度，对于$\mathscr{E}$属于中的两个函数到相同的尺度$\mathscr{E}_n$；同理，$\mathscr{E}$满足a)，显然也满足b)和c)。最后，如果$f \in \mathscr{E}$存在$n$使得$f \in \mathscr{E}_n$；如果$f$不是常数1，则$f(x)$趋向于0或$+\infty$，因为$x$趋向于$+\infty$；在第一种情况下$e^f \sim 1$，在第二种情况下，$e^f$属于到$\mathscr{E}_{n+1}$定义，依此类推到$\mathscr{E}$。
 
 #### 注 {#fvr-v-a0-n5-rem-1 .statement tag=08H0}
 
-尽管我们刚刚定义的尺度$\mathscr{E}$具有实际用途，但很容易给出（H）函数的例，它*相对于$\mathscr{E}$没有本金部分*。事实上，如果$f$是一个(H)函数使得$f \sim a g$，其中$a$是常数$> 0$和$g \in \mathscr{E}$，那么$\log f - \log g - \log a$随着$1/x$趋于0，所以$\log f$承认，相对于$\mathscr{E}$，渐近展开，其*余数趋于 0*，到性质 c)。现在，如果考虑例，则 (H) 函数 $f(x) = e_2 \left( x + \frac{1}{x} \right)$ 有 $\log f(x) = \exp \left( x + \frac{1}{x} \right)$，因此 $\log f$ 相对于 $\mathscr{E}$ 的渐近展开为形式
+尽管我们刚刚定义的尺度$\mathscr{E}$具有实际用途，但很容易给出（H）函数的例，它*相对于$\mathscr{E}$没有本金部分*。事实上，如果 $f$ 是一个 (H) 函数，使得 $f \sim a g$，其中 $a$ 是常数 $> 0$ 和 $g \in \mathscr{E}$，则 $\log f - \log g - \log a$ 与 $1/x$ 趋于 0，因此 $\log f$ 承认，相对于$\mathscr{E}$，渐近展开，其*余数趋于 0*，到性质 c)。现在，如果考虑例，则 (H) 函数 $f(x) = e_2 \left( x + \frac{1}{x} \right)$ 有 $\log f(x) = \exp \left( x + \frac{1}{x} \right)$，因此 $\log f$ 相对于 $\mathscr{E}$ 的渐近展开为形式
 
 $$
 \log f(x) = e^x + \frac{e^x}{x} + \frac{1}{2!} \frac{e^x}{x^2} + \cdots + \frac{1}{n!} \frac{e^x}{x^n} + o \left( \frac{e^x}{x^n} \right) \quad (n \text{ an integer } > 0).
@@ -299,9 +299,9 @@ $$
 
 显然，这个展开中的余数相当于$\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$，因此不趋于0。因此$f$相对于$\mathscr{E}$没有主部分。
 
-### 6. AN (H) 函数的逆函数
+### 6. AN (H) 函数的倒数函数
 
-如果$f$是一个(H)函数，则$f$在区间$[x_0, +\infty[$上单调连续，因此$f$的限制的逆函数$\varphi$在邻域上单调连续点$a = \lim_{x \to +\infty} f(x)$；但是，如果 $a$ 等于 $+\infty$（分别为 $-\infty$，有限），则可以证明 $\varphi(y)$（分别为 $\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$ 或 $\varphi \left( a - \frac{1}{y} \right)$）一般不等于邻域上的 (H) 函数 $+\infty$。然而，我们将看到，在某些重要情况下，我们可以获得相当于 $\varphi(y)$（分别为$\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$、$\varphi \left( a - \frac{1}{y} \right)$）的 (H) 函数，以及有时，甚至相对于标度的函数的渐近展开 $\mathscr{E}$ 定义于V、p. 254。
+如果$f$是一个(H)函数，则$f$在区间$[x_0, +\infty[$上单调连续，因此$f$的限制的逆函数$\varphi$在邻域上单调连续点$a = \lim_{x \to +\infty} f(x)$；但是，如果 $a$ 等于 $+\infty$（分别为 $-\infty$，有限），则可以证明 $\varphi(y)$（分别为 $\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$ 或 $\varphi \left( a - \frac{1}{y} \right)$）一般不等于邻域上的 (H) 函数 $+\infty$。然而，我们将看到，在某些重要情况下，我们可以获得相当于 $\varphi(y)$（分别为 $\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$、$\varphi \left( a - \frac{1}{y} \right)$）的 (H) 函数，以及有时，甚至相对于标度的函数的渐近展开 $\mathscr{E}$ 定义于V、p. 254。
 
 我们将使用以下命题：
 
@@ -456,4 +456,4 @@ $$
 
 ### 习题{#fvr-v-a0-exercises}
 
-请参阅[习题附录 0](exercises/a0/)。
+参见[习题附录 0](exercises/a0/)。

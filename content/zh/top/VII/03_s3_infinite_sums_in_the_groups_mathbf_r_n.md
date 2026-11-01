@@ -20,19 +20,19 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: 384486aab61fc58ec9ec1b8efb2926d0105e81ddb374a5194991f2a46c8ed483
+content_sha256: 604b24ff6a25a33f967f8b61124cb67803dfd3d1a689bf9049a99fcb1aa6390a
 translated_from: content/en/top/VII/03_s3_infinite_sums_in_the_groups_mathbf_r_n.md
 translation_method: google
 source_content_sha256: 469c822cd0058ba2bb0510721ee43c3d335b871a5db27467e63bfe955b6c2715
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: af8f716f043410e1cb2bec722f7a4246647bca2d8e1c6d1b7164d4516ad4b2e0
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3. 群 $\mathbf{R}^n$ 中的无限和
+## 3. 无限和群 $\mathbf{R}^n$
 
 ### 1. $\mathbf{R}^n$ 中的可求和族
 
@@ -124,7 +124,7 @@ $$
 
 #### 推论 1 {#top-vii-s3-prop-3-cor-1 .statement tag=0BZP}
 
-*如果* $(a_\lambda)_{\lambda \in L}$ *是实数的可求和族，并且如果* $(x_\mu)_{\mu \in M}$ *是* $\mathbf{R}^n$的点的可求和族，*则该族* $(a_\lambda x_\mu)_{(\lambda, \mu) \in L \times M}$ *是可求和的，我们有*
+*如果* $(a_\lambda)_{\lambda \in L}$ *是实数的可求和族，并且如果* $(x_\mu)_{\mu \in M}$ *是* $\mathbf{R}^n$的点的可求和族，*那么该族* $(a_\lambda x_\mu)_{(\lambda, \mu) \in L \times M}$ *是可求和的，我们有*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} a_\lambda x_\mu = \left( \sum_{\lambda \in L} a_\lambda \right) \left( \sum_{\mu \in M} x_\mu \right).
@@ -138,22 +138,22 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} (x_\lambda | y_\mu) = \left( \sum_{\lambda \in L} x_\lambda \middle| \sum_{\mu \in M} y_\mu \right).
 $$
 
-### 2.级数在$\mathbf{R}^n$
+### 2. 级数在 $\mathbf{R}^n$
 
 当且仅当每个$n$、级数、$(x_{mi})_{m \in \mathbf{N}}$收敛于$\mathbf{R}$时，级数的通项为$x_m = (x_{mi})_{1 \leq i \leq n}$收敛于$\mathbf{R}^n$。
 
 #### 定义 1 {#top-vii-s3-def-1 .statement tag=0BZR}
 
-** $\mathbf{R}^n$ * 点级数 *如果其项欧氏范数级数收敛，则称其绝对收敛。*
+** $\mathbf{R}^n$ 的点级数 *如果其项的欧氏范数级数收敛，则称其绝对收敛。*
 
 #### 命题 4 {#top-vii-s3-prop-4 .statement tag=0BZS}
 
-** $\mathbf{R}^n$ 的点的级数 *可交换收敛当且仅当它绝对收敛。*
+* 点的* $\mathbf{R}^n$ * 级数交换收敛当且仅当绝对收敛。*
 
-这是上面的章III, § 5, no. 7中的命题9中的推论和定理1。
+这是上面的章III, § 5, no. 7和定理1的命题9中的推论和定理1。
 
-章 IV, § 7中给出的例表明，$\mathbf{R}^n$中的级数可以*收敛*，但不*绝对收敛*。
+章 IV, § 7 中给出的例表明$\mathbf{R}^n$ 中的级数可以*收敛*，但不*绝对收敛*。
 
-### 习题 {#top-vii-s3-exercises}
+### 习题{#top-vii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

@@ -60,29 +60,29 @@ subsections:
       pdf_page: 197
 statements: 79
 exercises: 24
-content_sha256: 61570f26e83b41416af2e83c7f3695da35915181634184381487da79fe535ddf
+content_sha256: 72d870d8f691f67923e6e0e54466b6912c71948fb892affb63185facc13d6bf9
 translated_from: content/en/lie/VI/01_s1_root_systems.md
 translation_method: google
 source_content_sha256: e928a5393f8d44d4601610a514808a5db0798a4a4348f1d6a9e230dc8b3576c6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 5bfdd4500e6d64db80b5c32d4f734cdedc9517c00875670fa6880fa5d8a98dd4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 根系
 
 在本段中，$k$表示特征零中的域。从no. 3开始，我们假设$k = \mathbf{R}$。
 
-### 1. 定义根系
+### 1. 定义 / 根系
 
 #### 引理 1 {#lie-vi-s1-lem-1 .statement tag=0AU4}
 
 令 $V$ 为向量空间超过 $k$，$R$ 有限子集 $V$ 生成的 $V$。对于任何$\alpha \in R$使得$\alpha \neq 0$，最多存在一个$V$的反射$s$使得$s(\alpha) = -\alpha$和$s(R) = R$。
 
-令$G$为$V$的自同构中的群，使$R$保持稳定。由于$R$生成$V$，$G$同构于$R$的对称群的子群，因此是有限的。令 $s, s'$ 为 $V$ 的反射，使得 $s(\alpha) = s'(\alpha) = -\alpha$、$s(R) = R$、$s'(R) = R$。然后$t = ss'$属于到$G$，因此是有限的阶$m$。另一方面，
+令$G$为群或$V$的自同构，使$R$保持稳定。由于$R$生成$V$，$G$同构于$R$的对称群的子群，因此是有限的。令 $s, s'$ 为 $V$ 的反射，使得 $s(\alpha) = s'(\alpha) = -\alpha$、$s(R) = R$、$s'(R) = R$。然后$t = ss'$属于到$G$，因此是有限的阶$m$。另一方面，
 
 $$
 t(\alpha) = \alpha \quad \text{and} \quad t(x) \equiv x \mod. k\alpha \quad \text{for all } x \in V.
@@ -94,7 +94,7 @@ $$
 t(x) = x + f(x)\alpha \quad \text{for all } x \in V
 $$
 
-和$f(\alpha) = 0$。到 $n$ 归纳时，得出如下结论：
+和$f(\alpha) = 0$。到 $n$ 归纳时，得出如下结果：
 
 $$
 t^n(x) = x + nf(x)\alpha \text{ for all } x \in V.
@@ -104,9 +104,9 @@ $$
 
 #### 定义 1 {#lie-vi-s1-def-1 .statement tag=0AU5}
 
-令 $V$ 为向量空间大于 $k$，且 $R$ 子集为 $V$。那么，如果满足以下条件，则称$R$为$V$中的根系：
+令 $V$ 为向量空间超过 $k$，且 $R$ 子集为 $V$。那么，如果满足以下条件，则称$R$为$V$中的根系：
 
-(RS_I) $R$ 是有限的，包含不为 0，且生成 $V$。
+(RS_I) $R$ 是有限的，包含不为 0，并且生成 $V$。
 (RS_{II}) 对于所有$\alpha \in R$，存在$V$的对偶$V^*$的元素$\alpha^\vee$，使得$\langle \alpha, \alpha^\vee \rangle = 2$和反射$s_{\alpha, \alpha^\vee}$（cf.章节V, § 2）离开$R$稳定。
 
 (RS_{\text{III}}) 对于所有$\alpha \in \mathbf{R}$，$\alpha^{\sim}(R) \subseteq \mathbf{Z}$。
@@ -243,13 +243,13 @@ $$
 
 ### 2. 直和根系
 
-令V比$k$除向量空间，即向量空间的家庭$(V_i)_{1 \leq i \leq r}$的直和。 认同 $V^*$ 与 $V_i^*$ 的直和。对于所有$i$，令$V_i$中的$R_i$为根系。那么$R = \bigcup_i R_i$是V中的根系，其中逆系是$R^- = \bigcup_i R_i^-$；规范的双射从R到$R^-$扩展，对于所有$i$，规范的双射从$R_i$到$R_i^-$。 集合 R 称为根系* $R_i$ 的 *直和。让$\alpha \in R_i$。若$j \neq i$、$\alpha^-$包含$V_j$核，那么$s_\alpha$诱导$V_j$上的恒等式；另一方面，$k\alpha \subseteq V_i$，所以$s_\alpha$使得$V_i$保持稳定。这些注表明$W(R)$*可以与*$\prod_{i=1}^r W(R_i)$识别。
+令 V 为向量空间超过 $k$，即向量空间的家庭 $(V_i)_{1 \leq i \leq r}$ 的直和。 认同 $V^*$ 与 $V_i^*$ 的直和。对于所有$i$，令$R_i$为$V_i$中的根系。那么$R = \bigcup_i R_i$是V中的根系，其中逆系是$R^- = \bigcup_i R_i^-$；规范的双射从R到$R^-$扩展，对于所有$i$，规范的双射从$R_i$到$R_i^-$。 集合 R 称为根系* $R_i$ 的 *直和。让$\alpha \in R_i$。若$j \neq i$、$\alpha^-$包含$V_j$核，那么$s_\alpha$诱导$V_j$上的恒等式；另一方面，$k\alpha \subseteq V_i$，所以$s_\alpha$使得$V_i$保持稳定。这些注表明$W(R)$*可以与*$\prod_{i=1}^r W(R_i)$识别。
 
 如果 $R \neq \varnothing$ 并且 R 不是两个非空根系的直和，则根系 R 被称为“不可约”。
 
 #### 命题 5 {#lie-vi-s1-prop-5 .statement tag=0AUF}
 
-*设 V 为向量空间超过 k，即向量空间* $V_1, \ldots, V_r$ 的直和。 *令 R 为 V 中的根系。把*$R_i = R \cap V_i$。 *以下三个条件是等效的*：
+*令 V 为向量空间超过 k，即向量空间* $V_1, \ldots, V_r$ 的直和。 *令 R 为 V 中的根系。把*$R_i = R \cap V_i$。 *以下三个条件是等效的*：
 
 (i) **$V_i$ *在*$W(R)$下稳定；
 (ii) $R \subseteq V_1 \cup V_2 \cup \cdots \cup V_r$；
@@ -287,13 +287,13 @@ B'(v_i, w(v_j)) = B'(v_i, v_j),
 $$
 这表明$w(v_j) - v_j$关于$B'$与$v_i$正交。由于$V_j$对于$W(R_j)$是不可约的，它是由$w(v_j) - v_j$生成的，因此它与$V_i$正交。
 
-The fact that the restrictions of $B$ and $B'$ to each of the $V_i$ are proportional follows from Prop. 1 of Chap. V, § 2, no. 1。
+The fact that the restrictions of $B$ and $B'$ to each of the $V_i$ are proportional follows from Prop. 1 of Chap. V, § 2, no. 1.
 
 #### 注 {#lie-vi-s1-n2-rem-1 .statement tag=0AUJ}
 
 选择标量乘积在$V_R$ $W(R)$ 下不变量。然后就可以谈论根的*长度*和两个根之间的*角度*。命题 7 表明，这个角度与标量乘积的选择无关，就像两个根的长度之比一样，前提是它们属于与 $R$ 的*相同*不可约分量。
 
-### 3. 关系两个根之间
+### 3. 关系两个之间根
 
 回想一下，*我们从现在开始假设*$k = \mathbf{R}$。 （我们将通过使用 no. 1 的 *注 2* 中指示的方法，将定义和结果扩展到一般情况的任务留给读者。）
 
@@ -495,7 +495,7 @@ $$
 
 #### 命题 11 {#lie-vi-s1-prop-11 .statement tag=0AUR}
 
-*假设 R 是不可约的。令$\alpha$和$\beta$为两个根，使得$\| \alpha \| = \| \beta \|$。存在 $g \in W(R)$ 使得 $g(\alpha) = \beta$.*
+*假设 R 是不可约的。令$\alpha$和$\beta$是两个根，使得$\| \alpha \| = \| \beta \|$。存在 $g \in W(R)$ 使得 $g(\alpha) = \beta$.*
 
 $\alpha$的变换由$W(R)$生成V（no. 2，第5号提案的Cor.）。因此存在$g \in W(R)$使得$(g(\alpha)|\beta) \neq 0$。从现在开始我们假设$(\alpha|\beta) \neq 0$。由no. 1、$n(\alpha, \beta) = n(\beta, \alpha)$的公式(9)。 替换 $\beta$ 如果需要$s_\beta(\beta) = -\beta$，我们可以假设$n(\alpha, \beta) > 0$。然后，根据no. 3开头的列表，要么是$\alpha = \beta$（在这种情况下命题是明确的），要么是$n(\alpha, \beta) = n(\beta, \alpha) = 1$；在那种情况下
 
@@ -503,9 +503,9 @@ $$
 s_\alpha s_\beta s_\alpha(\beta) = s_\alpha s_\beta(\beta - \alpha) = s_\alpha(-\beta - \alpha + \beta) = \alpha.
 $$
 
-### 4.约化根系
+### 4. 约化根系
 
-如果系统中的每个根都不可整除（no. 3），则称根系是“约简”的。
+如果系统中的每一个根都不可整除（no. 3），则称根系是“约简”的。
 
 #### 命题 12 {#lie-vi-s1-prop-12 .statement tag=0AUS}
 
@@ -521,7 +521,7 @@ $$
 
 *假设 R 是不可约的、不可约的且为秩 $\geq 2$。*
 
-(i) *不可分割的根中的集合$R_0$是V中的根系；这个系统是不可约的，也是可约的；和 $W(R_0) = W(R)$.*
+(i) *不可分割的根的集合$R_0$是V中的根系；这个系统是不可约的，是可约的；和 $W(R_0) = W(R)$.*
 
 (ii) *令 A 为根 $\alpha$ 中的集合，其中 $(\alpha|\alpha)$ 取最小的值 $\lambda$。那么 A 的任意两个不成比例的元素都是正交的。*
 
@@ -549,7 +549,7 @@ $$
 
 这样$R_1$就是$V$中的根系，其他断言就清楚了。
 
-### 5. 房间和根系的基
+### 5. 房间和基根系
 
 对于所有$\alpha \in R$，令$L_\alpha$为点的$V$由……组成的超平面在$s_\alpha$下不变。 $V$中由$L_\alpha$（第V, § 1, no. 3章）的集合确定的房间称为$R$的*房间*。由标量乘积$(x|y)$定义的双射$V \to V^*$对于$\alpha \in R$来说需要$\alpha$到$\frac{2\alpha^-}{(\alpha^-|\alpha^-)}$，因此$L_\alpha$到$L_{\alpha^-}$，因此$R$的室到$R^-$。如果$C$是$R$的腔室，则$R^-$的相应的腔室由$C^-$表示。根据no. 2的第7条，$C^-$仅依赖于$C$，而不依赖于$(x|y)$的选择。
 
@@ -655,7 +655,7 @@ Cartan 和 Coxeter 矩阵实际上可以通过以下方式进行规范定义。�
 
 令$C$为$R$的腔室，并令$B(C) = \{ \alpha_1, \ldots, \alpha_l \}$为$R$的相应的基。 The order relation on $V$ (resp. $V^*$) defined by $C$ is the order relation compatible with the vector space structure of $V$ (resp. $V^*$) for which the elements $\geq 0$ are the linear combinations of the $\alpha_i$ (resp. the $\alpha_i^*$) with coefficients $\geq 0$. 对于这些关系之一为正值的元素被认为对于 $C$ 为正值，或者对于基 $B(C)$ 为正值。 这些序关系也由$C^*$定义，正如通过使用$W(R)$下的标量乘积不变量将$V$与$V^*$识别一样。 鉴于 Th. 2、$V^*$的no. 5、元素为$\geq 0$当且仅当其$C$上的值为$\geq 0$。 当且仅当$C^*$上的值是$\geq 0$时，$V$的元素$x$是$\geq 0$，或者等效地，如果对于所有$y \in C$来说$(x|y) \geq 0$。
 
-The elements of $\overline{C}$ are $\geq 0$ for $C$ by Lemma 6 of Chap. V, § 3, no. 5。 但是 $C$ 的元素 $\geq 0$ 的集合一般不同于 $\overline{C}$ (cf. 板X、系统$A_2, B_2, G_2$）。
+$\overline{C}$中的元素是第1章的引理6对$C$的$\geq 0$。 V, § 3, no. 5。 但$C$的元素$\geq 0$的集合通常与$\overline{C}$不同（cf.板X、系统$A_2, B_2, G_2$）。
 
 #### 定理 3 {#lie-vi-s1-thm-3 .statement tag=0AV9}
 
@@ -843,7 +843,7 @@ b) 令$Y$为$B(C)$的非空连通子集。然后$\sum_{\beta \in Y} \beta$属于
 
 为了证明a)，我们可以假设$\alpha$是正数。我们通过归纳对$\mathrm{Card}(Y(\alpha))$进行论证，如果$\mathrm{Card}(Y(\alpha)) = 1$则断言微不足道。根据第 19 条命题，存在 $\beta \in B(C)$ 使得 $\alpha - \beta \in \mathbf{R}$。令$p$为最大的整数$\geqslant 0$，使得$\gamma = \alpha - p\beta \in \mathbf{R}$。从$\gamma - \beta \notin \mathbf{R}$和$\gamma + p\beta \in \mathbf{R}$开始，$(\gamma|\beta) \neq 0$（提案9）；因此$\beta$与$Y(\gamma)$中的至少一个元素相关联。但是$Y(\alpha) = Y(\gamma) \cup \{\beta\}$和$Y(\gamma)$是通过归纳假设连接的。因此$Y(\alpha)$是连通的，这就证明了a)。
 
-现在令$Y$为$B(C)$的非空连通子集；我们通过$\mathrm{Card}(Y)$上的归纳证明$\sum_{\beta \in Y} \beta$是根。 $\mathrm{Card}(Y) \leqslant 1$ 是微不足道的情况。假设$\mathrm{Card}(Y) \geqslant 2$。由于 $X$ 是一片森林（第 V, § 4, no. 8 章，第 8 章），$Y$ 是一棵树，并且有一个终端顶点 $\beta$（第 IV 章，附录）。 集合$Y - \{\beta\}$相连，其中一个元素与$\beta$相连。到归纳假设、$\alpha = \sum_{\gamma \in Y - \{\beta\}} \gamma \in \mathbf{R}$，从$(\alpha|\beta) < 0$开始，得出$\alpha + \beta \in \mathbf{R}$（Th.1）。 Q.E.D.
+现在令$Y$为$B(C)$的非空连通子集；我们通过$\mathrm{Card}(Y)$上的归纳证明$\sum_{\beta \in Y} \beta$是根。 $\mathrm{Card}(Y) \leqslant 1$ 是微不足道的情况。假设$\mathrm{Card}(Y) \geqslant 2$。由于 $X$ 是一片森林（第 V, § 4, no. 8 章，第 8 章），$Y$ 是一棵树，并且有一个终端顶点 $\beta$（第 IV 章，附录）。 集合$Y - \{\beta\}$相连，其中一个元素与$\beta$相连。到归纳假设，$\alpha = \sum_{\gamma \in Y - \{\beta\}} \gamma \in \mathbf{R}$，从$(\alpha|\beta) < 0$开始，$\alpha + \beta \in \mathbf{R}$（Th.1）。 Q.E.D.
 
 ### 7. 集合根关闭
 
@@ -851,7 +851,7 @@ b) 令$Y$为$B(C)$的非空连通子集。然后$\sum_{\beta \in Y} \beta$属于
 
 令 $P$ 为 $\mathbf{R}$ 中的子集。
 
-(i) 如果条件 $\alpha \in P, \beta \in P, \alpha + \beta \in \mathbf{R}$ 暗示 $\alpha + \beta \in P$，则称$P$ 是封闭的。
+(i) 如果条件 $\alpha \in P, \beta \in P, \alpha + \beta \in \mathbf{R}$ 隐含 $\alpha + \beta \in P$，则称$P$ 是封闭的。
 
 (ii) 如果 $P$ 闭合且$P \cup (-P) = \mathbf{R}$，则$P$ 被称为抛物线。
 
@@ -859,7 +859,7 @@ b) 令$Y$为$B(C)$的非空连通子集。然后$\sum_{\beta \in Y} \beta$属于
 
 #### 引理 3 {#lie-vi-s1-lem-3 .statement tag=0AVM}
 
-令$C$为$\mathbf{R}$和$P$的腔室，以及$\mathbf{R}$包含$R_+(C)$的封闭子集（在no. 6的记号中）。设$\Sigma = B(C) \cap (-P)$，并设$Q$为根集合，即$\Sigma$元素线性组合，系数为非正整数。然后，$P = R_+(C) \cup Q$。
+令$C$为$\mathbf{R}$和$P$的腔室，以及$\mathbf{R}$包含$R_+(C)$的封闭子集（在no. 6的记号中）。令$\Sigma = B(C) \cap (-P)$，并令$Q$为根集合，即$\Sigma$的元素线性组合具有非正整数系数。然后，$P = R_+(C) \cup Q$。
 
 只要证明$P \cap (-R_+(C)) = Q$就足够了。 让$-\alpha \in Q$。 那么$\alpha$就是$n$元素的$\Sigma$的和。 我们通过归纳在$n$上展示$-\alpha \in P$。 如果$n = 1$，这很清楚。 If $n > 1$, then by Prop. 19 of no. 6 we can write $\alpha = \beta + \gamma$ with $\gamma \in \Sigma$ and $\beta$ the sum of $n - 1$ elements of $\Sigma$. 归纳假设、$-\beta \in P$；由于 $-\gamma \in P$ 且由于 $P$ 已关闭，$-\alpha \in P$。 因此，$Q \subseteq P \cap (-R_+(C))$。 相反，设$-\alpha \in P \cap (-R_+(C))$。 那么$\alpha$就是$p$元素的$B(C)$的和。 我们通过归纳在$p$上展示$-\alpha \in Q$。 如果$p = 1$，这很清楚。 如果$p > 1$，那么根据命题19，我们可以用$\gamma \in B(C)$和$\beta$根来写$\alpha = \beta + \gamma$，即$p - 1$元素和$B(C)$。 由于 $-\gamma = \beta + (-\alpha)$ 和 $P$ 是闭合的，$-\gamma \in P$，因此$\gamma \in \Sigma$。 此外，由于$P$是封闭的，$-\beta = \gamma + (-\alpha)$所以$-\beta \in P$。 由归纳假设，$-\beta \in Q$，所以$-\alpha = -\beta - \gamma \in Q$。 因此，$P \cap (-R_+(C)) \subseteq Q$。
 
@@ -1000,15 +1000,15 @@ $$
 (i) *存在$R$包含$B'$中的基。*
 (ii) *$R'$是$R$元素集合即$B'$元素线性组合。*
 
-断言 (ii) 很清楚。我们证明（i）。令 $(\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_l)$ 为 $V$ 的基，使得 $B' = (\varepsilon_{p+1}, \varepsilon_{p+2}, \ldots, \varepsilon_l)$。 $V$相应的上的字典阶到基定义$C$$R$。显然，$B'$中的每个元素在$R_+(C)$中都是最小的。因此$B' \subseteq B(C)$。
+断言 (ii) 很清楚。我们证明（i）。令 $(\varepsilon_1, \varepsilon_2, \ldots, \varepsilon_l)$ 为 $V$ 的基，使得 $B' = (\varepsilon_{p+1}, \varepsilon_{p+2}, \ldots, \varepsilon_l)$。 $V$相应的上的字典阶到基定义$C$$R$。很明显，$B'$中的每个元素在$R_+(C)$中都是最小的。因此$B' \subseteq B(C)$。
 
-### 8.最高根
+### 8. 最高根
 
 #### 命题 25 {#lie-vi-s1-prop-25 .statement tag=0AVZ}
 
 *假设$R$是不可约的。令$C$为$R$的腔室，并令$B(C) = \{\alpha_1, \ldots, \alpha_l\}$为相应的基。*
 
-(i) *存在根 $\tilde{\alpha} = \sum_{i=1}^{l} n_i \alpha_i$，因此对于每个根 $\sum_{i=1}^{l} p_i \alpha_i$，我们有 $n_1 \geq p_1, n_2 \geq p_2, \ldots, n_l \geq p_l$。在其他字中，$R$ 对于 $C$ 定义的排序有最大的元素。*
+(i) *存在根 $\tilde{\alpha} = \sum_{i=1}^{l} n_i \alpha_i$，因此对于每个根 $\sum_{i=1}^{l} p_i \alpha_i$，我们有 $n_1 \geq p_1, n_2 \geq p_2, \ldots, n_l \geq p_l$。在其他字中，$R$ 具有最大的元素，用于 $C$ 定义的排序。*
 (ii) *我们有$\tilde{\alpha} \in \overline{C}$。*
 (iii) *每根 $\alpha$ 就有 $(\tilde{\alpha}|\tilde{\alpha}) \geq (\alpha|\alpha)$。*
 (iv) *对于每个与 $\tilde{\alpha}$ 不成正比的正数根 $\alpha'$，我们有 $n(\alpha', \tilde{\alpha}) = 0$ 或 $1$。*
@@ -1039,7 +1039,7 @@ $$\tilde{\alpha} = \sum_i n_i \alpha_i$$
 
 (i)中据说是$\mathbf{R}$的最高根（相对于$C$）。 注，通过 (i)，我们对所有 $i$ 都有 $n_i \geq 1$。
 
-### 9.权，激进权
+### 9. 权，激进权
 
 让$l = \dim V$。用$\mathbf{R}$生成的$V$的$Q(\mathbf{R})$子群表示； $Q(\mathbf{R})$的元素称为$\mathbf{R}$的部首权。由 Th. no. 6、$Q(\mathbf{R})$的3个是秩$l$的$V$的离散子群，$\mathbf{R}$的每一个基是$Q(\mathbf{R})$的基。
 
@@ -1047,7 +1047,7 @@ $$\tilde{\alpha} = \sum_i n_i \alpha_i$$
 
 #### 命题 26 {#lie-vi-s1-prop-26 .statement tag=0AW1}
 
-*$x \in V$的集合，使得对于所有$y^* \in Q(\mathbf{R}^*)$（或者等效地，对于所有$y^* \in \mathbf{R}^*$），$\langle x, y^* \rangle \in \mathbf{Z}$是$V$包含$Q(\mathbf{R})$的离散子群$G$。如果$B'$是$\mathbf{R}^*$的基，$V$的基对$B'$的对数就是$G$*的基。
+*$x \in V$的集合，使得对于所有$y^* \in Q(\mathbf{R}^*)$（或者等效地，对于所有$y^* \in \mathbf{R}^*$），$\langle x, y^* \rangle \in \mathbf{Z}$是$V$包含$Q(\mathbf{R})$的离散子群$G$。如果$B'$是$\mathbf{R}^*$的基，则$V$的基对$B'$是$G$*的基。
 
 让$x \in V$。以下三个属性是等效的：
 
@@ -1055,7 +1055,7 @@ $$\tilde{\alpha} = \sum_i n_i \alpha_i$$
 (ii) $\langle x, y^* \rangle \in \mathbf{Z}$ 为所有 $y^* \in B'$；
 (iii) $x$相对于$B'$的对偶基的坐标在$\mathbf{Z}$中。
 
-由此我们推断，基对偶于$B'$是基除以$G$。另一方面，(RSIII)证明$\mathbf{R} \subseteq G$，因此$Q(\mathbf{R}) \subseteq G$。
+由此我们推断，基对$B'$是基除以$G$。另一方面，(RSIII)证明$\mathbf{R} \subseteq G$，因此$Q(\mathbf{R}) \subseteq G$。
 
 26号提案的群$G$记为$P(\mathbf{R})$，其元素称为$\mathbf{R}$的权。我们还可以考虑$\mathbf{R}^*$的权中的群$P(\mathbf{R}^*)$。
 
@@ -1137,9 +1137,9 @@ $$
 
 令 $\sigma$ 为元素 $> 0$ $R^-$ 的一半和（对于$B^-$）。对于所有$\alpha \in V$，$\alpha$相对于基$B$的坐标和是$\langle \alpha, \sigma \rangle$。如果$\alpha \in R$，这个和就等于$\frac{1}{2} \sum_{\beta \in R_+ (\mathbf{C})} n(\alpha, \beta)$。
 
-交换 $R$ 和 $R^-$ 的角色，对于所有 $\alpha \in B$，我们都有 $\langle \alpha, \sigma \rangle = 1$，因此得出推论。
+交换上面$R$和$R^-$的角色，我们对所有$\alpha \in B$都有$\langle \alpha, \sigma \rangle = 1$，因此得出推论。
 
-### 11.考克斯特转变
+### 11. 考克塞特转型
 
 令$C$为$R$的腔室，令$\{ \alpha_1, \ldots, \alpha_l \}$为$R$的相应的基，并令$c = s_{\alpha_1} \cdots s_{\alpha_l}$。 $W$的元素$c$称为$W$的*Coxeter变换*，由$C$和双射$i \mapsto \alpha_i$定义（第V, § 6, no. 1章）。它的阶$h$被称为$W$（或$R$）的*Coxeter数*。
 
@@ -1147,7 +1147,7 @@ $$
 
 *假设$R$是不可约的。令 $m$ 为整数，介于 1 和 $h - 1$ 之间，并与$h$素的。那么$\exp(\frac{2i\pi m}{h})$就是重数1$c$特征值。*
 
-特别是，$m$是$W$的*指数*，cf. V, § 6, no. 2。
+特别是，$m$是$W$、cf.的*指数*。 V, § 6, no. 2。
 
 我们首先证明引理：
 
@@ -1221,7 +1221,7 @@ $$
 (iii) *家族$(\theta_i)_{1 \leq i \leq l}$是Q(R)的基。*
 (iv) *令$\Omega_i$为$\Gamma$下$\theta_i$的轨道。 集合$\Omega_i$是成对的不相交的，它们都是R上$\Gamma$的轨道，并且每个都有h元素。*
 
-首先观察$(s_1, \ldots, s_l)$ 是$c$（第IV, § 1, no. 1 章）相对于$s_i$ 的集合 S 的*约化分解*。事实上，否则就会存在 S 的 $l - 1$ 元素的子集 $X = S - \{ j \}$ 使得 $c \in W_X$，这与 Cor.第 7 章提案 2 IV, § 1, no. 8。
+首先观察$(s_1, \ldots, s_l)$ 是$c$（第IV, § 1, no. 1 章）相对于$s_i$ 的集合 S 的*约化分解*。事实上，否则就会存在 S 的 $l - 1$ 元素的子集 $X = S - \{ j \}$，使得 $c \in W_X$，这与 Cor.第 7 章提案 2 IV, § 1, no. 8。
 
 应用科。 no. 6到$c$的第17号提案2给出了断言(i)和(ii)。
 
@@ -1238,7 +1238,7 @@ $$
 $$
 部分 (iii) 紧随其后。
 
-最后，令$\alpha$为根。 元素$\sum_{k=0}^{h-1} c^k(\alpha)$在$c$下是不变的，因此零（第V, § 6, no. 2章）。因此，$c^k(\alpha)$ 不能都具有相同的符号，并且存在$k$，使得$c^k(\alpha) > 0$ 和$c^{k+1}(\alpha) < 0$。通过(ii)，$c^k(\alpha)$是$\theta_i$之一。因此，$R$上$\Gamma$的每个轨道都是$\Omega_i$之一。 $V \otimes \mathbf{C}$扩展$(x|y)$至厄米特形式。 $R$中$\Gamma$的每个轨道最多有$h$元素，并且最多有$l$不同的轨道，由上面的注计算。现在（V, § 6, no. 2，定理2，ii）），$R$的基数等于$hl$，这立即暗示了（iv）。
+最后，令$\alpha$为根。 元素$\sum_{k=0}^{h-1} c^k(\alpha)$在$c$下是不变的，因此零（第V, § 6, no. 2章）。因此，$c^k(\alpha)$ 不能都具有相同的符号，并且存在$k$，使得$c^k(\alpha) > 0$ 和$c^{k+1}(\alpha) < 0$。通过(ii)，$c^k(\alpha)$是$\theta_i$之一。因此，$R$上的$\Gamma$的每个轨道都是$\Omega_i$之一。 $V \otimes \mathbf{C}$扩展$(x|y)$至厄米特形式。 $R$中的$\Gamma$中的每个轨道最多有$h$元素，并且最多有$l$不同的轨道，由上面的注计算。现在（V, § 6, no. 2，定理2，ii）），$R$的基数等于$hl$，这立即意味着（iv）。
 
 ### 12. 规范双线性形式
 
@@ -1329,4 +1329,4 @@ $$ (21)
 
 下面考虑的所有根系都是相对于真实的向量空间。我们用 $(x|y)$ 表示 Weyl 群 (cf. no. 3) 下的标量乘积不变量。
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

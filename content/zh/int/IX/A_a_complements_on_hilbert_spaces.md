@@ -22,23 +22,23 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 9c0fe9a7f4bb33bcb7d04d9d466bd28b8db4017ddc5bfa7c847081da5cf4cc52
+content_sha256: 2be2f501c38b9877a7ca7d1e61c4ab0c5946963844b745f3a7c9d2c06798d604
 translated_from: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
 translation_method: google
 source_content_sha256: 345b39c6aa42db2dbb13f3b4da3d834dda0b94e5c0750c5ee630d5f4b9b588d5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2f062710836ab464c662faf796196abd9958b8093bedb260d952aa926055c4b1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附件
 
 # 希尔伯特空间的补充
 
-### 1. 二次方形式相对于另一个$^{(1)}$的迹
+### 1. 二次方形式相对于另一个$^{(1)}$ 的迹
 
 在这个数中，我们用$E$表示实数向量空间，用$Q, H$表示$E$上的两个正二次形式。存在两个对称的双线性形式、$(x, y) \mapsto (x|y)_Q$和$(x, y) \mapsto (x|y)_H$，其特征为
 $$
@@ -72,7 +72,7 @@ b) $\operatorname{Tr}(Q/H) = \operatorname{Tr}(u)$。
 
 c) $\operatorname{Tr}(Q/H) = \sum_{i=1}^m Q(e_i)$ *对于 H* 的 E 正交的每个基* $(e_1, \ldots, e_m)$ *。
 
-*a)* 源自双线性形式 $(x, y) \mapsto (x|y)_H$ 是非简并的事实。 H 的 E 正交的每个序列都可以补全为 H 的 E 正交的基。 因而，$\operatorname{Tr}(Q/H)$ 是形式 $\sum_{i=1}^m Q(e_i)$ 的数的集合在所有 E 正交的基 $(e_1, \ldots, e_m)$ 上的上界H. 为了证明 *b)* 和 *c)*，只需证明对于此类的每个基都有 $\sum_{i=1}^m Q(e_i) = \operatorname{Tr}(u)$。 集合 $a_{ij} = (u(e_i)|e_j)_H = (e_i|e_j)_Q$ $1 \leq i, j \leq m$；然后$u(e_i) = \sum_{j=1}^m a_{ij} e_j$换$1 \leq i \leq m$，从而
+*a)* 从以下事实得出：双线性形式 $(x, y) \mapsto (x|y)_H$ 是非简并的。 H 的 E 正交中的每个序列都可以补全为 H 的 E 正交的基。因而，$\operatorname{Tr}(Q/H)$ 是形式 $\sum_{i=1}^m Q(e_i)$ 的数的集合在所有 E 正交的基 $(e_1, \ldots, e_m)$ 上的上界H. 为了证明 *b)* 和 *c)*，只需证明对于此类的每个基都有 $\sum_{i=1}^m Q(e_i) = \operatorname{Tr}(u)$。 集合 $a_{ij} = (u(e_i)|e_j)_H = (e_i|e_j)_Q$ $1 \leq i, j \leq m$；然后$u(e_i) = \sum_{j=1}^m a_{ij} e_j$换$1 \leq i \leq m$，从而
 
 $$
 \operatorname{Tr}(u) = \sum_{i=1}^m a_{ii} = \sum_{i=1}^m (e_i|e_i)_Q = \sum_{i=1}^m Q(e_i).
@@ -94,7 +94,7 @@ $$
 
 令F为$e'_{m+1}, \ldots, e'_n$生成的E的子空间；它是$x \in E$的集合使得$\operatorname{H}(x) = 0$。用E的$\pi$典范映射到$E_1 = E/F$表示。由于Q和H在F上零，因此在$E_1$上存在两个正二次形式、$Q_1$和$H_1$，使得$Q = Q_1 \circ \pi$和$H = H_1 \circ \pi$。此外，$(\pi(e_1), \ldots, \pi(e_m))$ 是$H_1$ 的$E_1$ 正交的基，因而$H_1$ 是非简并的。
 
-根据命题 1 和 *注 2*，
+根据提案 1 和 *注 2*，
 
 $$
 \operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1) = \sum_{i=1}^m Q_1(\pi(e_i)) = \sum_{i=1}^m Q(e_i).
@@ -111,7 +111,7 @@ $$
 \operatorname{Tr}(Q/H) = \operatorname{Tr}(h^{-1}q) = \operatorname{Tr}(qh^{-1}).
 $$
 
-### 2.希尔伯特-施密特映射$^{(2)}$
+### 2. 希尔伯特-施密特映射$^{(2)}$
 
 令 E 为实希尔伯特空间，其中标量乘积表示为 $(x|y)$。 E 在其对偶上存在等距 $j_E$，其特征为公式
 

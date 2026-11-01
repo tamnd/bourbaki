@@ -29,23 +29,23 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 7a9f18494cea9745ca4b4a039f561ece5e8ae3b6f85eee85879a1ac6d050047a
+content_sha256: ff46310e5bb4781ab2a1ad61ebb8bf078d9497339e86bc20e82bcdbe424c4a6d
 translated_from: content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md
 translation_method: google
 source_content_sha256: c1241130b0c6145fe39e8ebf582c74a6fd108d7391d43fb0cba572e8a86bff67
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a8eb2d6a57f8b05cb009e93cc98dd5c329a113496967bb96e811d2f9c41a8ca0
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 11。 幂零元和 $\mathfrak{s}\mathfrak{l}_{2}$-三胞胎的类
 
 在本段中，$\mathfrak{g}$表示有限维李代数。
 
-### 1. 定义 OF $\mathfrak{s}\mathfrak{l}_{2}$-三元组
+### 1. 定义 $\mathfrak{s}\mathfrak{l}_{2}$-三胞胎
 
 #### 定义 1 {#lie-viii-s11-def-1 .statement tag=0170}
 
@@ -55,7 +55,7 @@ $$
 [h, x] = 2x,[h, y] =-2y,[x, y] =-h
 $$
 
-设$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组。 从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的线性映射$\tau$使得$\tau (X_+) =x, \tau (H) =h, \tau (X_-) =y$是同态，它是非零的，因此是单射的（因为$\mathfrak{s}\mathfrak{l}(2, k)$是简单的），并且具有像$kx+kh+ky$。 We thus obtain a canonical bijection from the set of $\mathfrak{s}\mathfrak{l}_2$-triplets in $\mathfrak{g}$ to the set of injective homomorphisms from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$. 如果$\mathfrak{g}$是半单，并且$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组，则$x$和$y$是$\mathfrak{g}$的幂零元，$h$是半单元素 $\mathfrak{g}$（第 1 章） I, §6, no. 3，命题 4）。
+设$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组。 从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的线性映射$\tau$使得$\tau (X_+) =x, \tau (H) =h, \tau (X_-) =y$是同态，它是非零的，因此是单射的（因为$\mathfrak{s}\mathfrak{l}(2, k)$是简单的），并且具有像$kx+kh+ky$。 We thus obtain a canonical bijection from the set of $\mathfrak{s}\mathfrak{l}_2$-triplets in $\mathfrak{g}$ to the set of injective homomorphisms from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$. 如果$\mathfrak{g}$是半单并且$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组，那么$x$和$y$是$\mathfrak{g}$的幂零元并且$h$是半单元素 $\mathfrak{g}$（第 I, §6, no. 3 章，第 4 条提案）。
 
 #### 引理 1 {#lie-viii-s11-lem-1 .statement tag=0171}
 
@@ -127,13 +127,13 @@ $$
 
 (ii) $=\Rightarrow$ (iii)：这很清楚。
 
-我们假设 $k$ 是代数封闭的，并证明 (iii) $=\Rightarrow$ (i)。我们首先处理$\mathfrak{t}=\mathfrak{t}'=\mathfrak{g}=\mathfrak{s}\mathfrak{l}(2, k)$的情况。由于 ad$_{\mathfrak{g}}x$ 是幂零的，$k^2$ 的自同态 $x$ 也是幂零的（第 I, §6 第 3 章），因此存在矩阵 $A\in \mathbf{G}\mathbf{L}(2, k)$ 使得 $AxA^{-1}=X$，因此存在自同构 $\alpha$ $\mathfrak{s}\mathfrak{l}(2, k)$使得$\alpha (x) =x'$；现在$\alpha \in$Aut$_e(\mathfrak{g}) ($§5, no. 3，Cor.提案 5 中的 2）。现在我们讨论一般情况；我们假设$\mathfrak{t}$和$\mathfrak{t}'$是G共轭，并证明$x$和$x'$是G共轭。我们可以假设$\mathfrak{t}=\mathfrak{t}'$。由上可知，存在$\beta \in$Aut$_e(\mathfrak{t})$使得$\beta x=x'$。现在，如果 $t\in \mathfrak{t}$ 使得 ad$_{\mathfrak{t}}t$ 幂零，则 ad$_{\mathfrak{g}}t$ 幂零；所以 Aut$_e(\mathfrak{g})$ 的 $\beta$ 扩展到元素。
+我们假设 $k$ 是代数封闭的，并证明 (iii) $=\Rightarrow$ (i)。我们首先处理$\mathfrak{t}=\mathfrak{t}'=\mathfrak{g}=\mathfrak{s}\mathfrak{l}(2, k)$的情况。由于 ad$_{\mathfrak{g}}x$ 是幂零的，$k^2$ 的自同态 $x$ 也是幂零的（第 I, §6，第 3 章），因此存在矩阵 $A\in \mathbf{G}\mathbf{L}(2, k)$ 使得 $AxA^{-1}=X$，因此存在自同构 $\alpha$ $\mathfrak{s}\mathfrak{l}(2, k)$使得$\alpha (x) =x'$；现在$\alpha \in$Aut$_e(\mathfrak{g}) ($§5, no. 3，Cor.提案 5 中的 2）。现在我们讨论一般情况；我们假设$\mathfrak{t}$和$\mathfrak{t}'$是G共轭，并证明$x$和$x'$是G共轭。我们可以假设$\mathfrak{t}=\mathfrak{t}'$。由上可知，存在$\beta \in$Aut$_e(\mathfrak{t})$使得$\beta x=x'$。现在，如果 $t\in \mathfrak{t}$ 使得 ad$_{\mathfrak{t}}t$ 幂零，则 ad$_{\mathfrak{g}}t$ 幂零；所以Aut$_e(\mathfrak{g})$的$\beta$扩展到元素。
 
 #### 注 {#lie-viii-s11-n1-rem-1 .statement tag=0176}
 
 如果我们仅假设$k=k^2$（cf.练习1），则命题1的三个条件是等价的。
 
-### 2.$\mathfrak{s}\mathfrak{l}_{2}$-半单李代数的三胞胎
+### 2. $\mathfrak{s}\mathfrak{l}_{2}$-半单李代数的三胞胎
 
 #### 引理 5 {#lie-viii-s11-lem-5 .statement tag=0177}
 
@@ -143,7 +143,7 @@ $$
 
 $[A$，公元前$^p] = [A,B]C^p= C^{p+1}$
 
-每整数 $p\geq 0$。因而，对于$p\geq 1$，Tr(C$^p$) $= 0$，证明C是幂零的（代数，第VII, §3, no. 5章，第13号提案的Cor.4）。现在令$\overline{k}$为$k$的代数闭包，并令$\lambda \in \overline{k},x\in V\otimes_k\overline{k}$为AB$x=\lambda x$，$x\not= 0$。 关系 $[[B,A],A] = 0$ 显示每个整数 $p\geq 0$ 都有 $[B,A^p] =p[B,A]A^{p-1}$。令$r$为最小的整数，使得$A^rx= 0$。然后
+每整数 $p\geq 0$。因而，对于$p\geq 1$，Tr(C$^p$) $= 0$，证明C是幂零的（代数，第VII, §3, no. 5章，第13号提案的Cor.4）。现在令$\overline{k}$为$k$的代数闭包，并令$\lambda \in \overline{k},x\in V\otimes_k\overline{k}$为AB$x=\lambda x$，$x\not= 0$。 关系 $[[B,A],A] = 0$ 显示每整数 $p\geq 0$ 就有 $[B,A^p] =p[B,A]A^{p-1}$。令$r$为最小的整数，使得$A^rx= 0$。然后
 
 $\lambda A^{r-1}x= A^{r-1}$AB$x= A^rBx=$BA$^rx-[B,A^r]x=-r[B,A]A^{r-1}x$。
 
@@ -205,7 +205,7 @@ $$
 
 令 K 为交换域，且至少有 4 个元素。令 G 为矩阵 $(\alpha 0\alpha \beta_{-1})$ 的群，其中 $\alpha \in K^*,\beta \in K$。设$G'$为群
 
-矩阵使得$\alpha = 1$。然后$G'= (G,G)$。
+这样的矩阵这样的 $\alpha = 1$。然后$G'= (G,G)$。
 
 如果$\alpha , \alpha '\in K^*$和$\beta , \beta '\in K$，
 
@@ -231,11 +231,11 @@ $(1\beta )((\alpha '$0$)((1\beta )^{-1}(\alpha '$0$)^{-1}=(1\beta (1-{\alpha '}^
 
 #### 命题 3 {#lie-viii-s11-prop-3 .statement tag=017C}
 
-假设$\mathfrak{g}$是半单。 群 Aut$_e(\mathfrak{g})$ 等于其导出群。如果 $\mathfrak{g}$ 可拆分，则 Aut$_e(\mathfrak{g})$ 是 Aut$_0(\mathfrak{g})$ 的导出群。
+假设$\mathfrak{g}$是半单。 群Aut$_e(\mathfrak{g})$等于其导出群。如果 $\mathfrak{g}$ 可拆分，则 Aut$_e(\mathfrak{g})$ 是 Aut$_0(\mathfrak{g})$ 的导出群。
 
-令 $x$ 为 $\mathfrak{g}$ 的非零幂零元。 选择$h, y\in \mathfrak{g}$使得$(x, h, y)$是$\mathfrak{s}\mathfrak{l}_2$三元组（命题2）。 $(x, h, y)$生成的$\mathfrak{g}$的子代数$\mathfrak{s}$可以用$\mathfrak{s}\mathfrak{l}(2, k)$来识别。令$\rho$为$\mathfrak{s}=\mathfrak{s}\mathfrak{l}(2, k)$在$\mathfrak{g}$上的表示$z \rightarrow$和$_{\mathfrak{g}}z$，并令$\pi$为与$\rho ($§1, no. 4兼容的$\mathbf{S}\mathbf{L}(2, k)$的表示）。 $\pi$的像由exp($t$ ad$_{\mathfrak{g}}x$)和exp($t$ ad$_{\mathfrak{g}}y$)与$t\in k($代数生成，第1章。 III, §8, no. 9，提案 17），因此包含在 Aut$_e(\mathfrak{g})$ 中。由于 $\mathbf{S}\mathbf{L}(2, k)$ 等于其导出群（引理 7 和前述），exp(ad$_{\mathfrak{g}}x$) 属于到 Aut$_e(\mathfrak{g})$ 的导出群 G。因此Aut$_e(\mathfrak{g})$等于G。现在假设$\mathfrak{g}$是可分割的。由于Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$是可交换的（§5, no. 3，注3），所以上式证明Aut$_0(\mathfrak{g})$的导出群是Aut$_e(\mathfrak{g})$。
+令$x$为$\mathfrak{g}$的非零幂零元。 选择 $h, y\in \mathfrak{g}$ 使得 $(x, h, y)$ 是 $\mathfrak{s}\mathfrak{l}_2$ 三元组（命题 2）。 $(x, h, y)$生成的$\mathfrak{g}$的子代数$\mathfrak{s}$可以用$\mathfrak{s}\mathfrak{l}(2, k)$来识别。令$\rho$为$\mathfrak{s}=\mathfrak{s}\mathfrak{l}(2, k)$在$\mathfrak{g}$上的表示$z \rightarrow$和$_{\mathfrak{g}}z$，并令$\pi$为与$\rho ($§1, no. 4兼容的$\mathbf{S}\mathbf{L}(2, k)$的表示）。 $\pi$的像由exp($t$ ad$_{\mathfrak{g}}x$)和exp($t$ ad$_{\mathfrak{g}}y$)与$t\in k($代数生成，第1章。 III, §8, no. 9，提案 17），因此包含在 Aut$_e(\mathfrak{g})$ 中。由于 $\mathbf{S}\mathbf{L}(2, k)$ 等于其导出群（引理 7 和前述），exp(ad$_{\mathfrak{g}}x$) 属于到 Aut$_e(\mathfrak{g})$ 的导出群 G。因此Aut$_e(\mathfrak{g})$等于G。现在假设$\mathfrak{g}$是可分割的。由于Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$是可交换的（§5, no. 3，注3），所以上式证明Aut$_0(\mathfrak{g})$的导出群是Aut$_e(\mathfrak{g})$。
 
-### 3.简单元素
+### 3. 简单元素
 
 #### 定义 2 {#lie-viii-s11-def-2 .statement tag=017D}
 
@@ -313,25 +313,25 @@ $$
 
 (ii) $(x, h, y)$ 和 $(x', h', y')$ 是 G-共轭。
 
-我们只需证明蕴涵 (i) $=\Rightarrow$ (ii)，我们就立即还原为$h=h'$ 的情况。引入$\mathfrak{g}^2$和$G_h$，如引理8。我们有$x\in \mathfrak{g}^2$和$[x,\mathfrak{g}^0] =\mathfrak{g}^2$，由§1, no. 2，Cor。命题 2. 因而 $\mathfrak{g}^2$ 的$G_hx$ 包含子集在 Zariski 拓扑中是密集且开放的，$G_hx'$ 也是如此。所以存在$a\in G_h$使得$a(x) =x'$。我们有 $a(h) =h$，因此有 $a(y) =y'$（no. 1，引理 1）。
+我们只需证明蕴涵 (i) $=\Rightarrow$ (ii)，我们就立即还原为$h=h'$ 的情况。引入$\mathfrak{g}^2$和$G_h$，如引理8。我们有$x\in \mathfrak{g}^2$和$[x,\mathfrak{g}^0] =\mathfrak{g}^2$，由§1, no. 2，Cor。命题 2. 因而，$\mathfrak{g}^2$ 的$G_hx$ 包含子集在 Zariski 拓扑中是密集且开放的，$G_hx'$ 也是如此。所以存在$a\in G_h$使得$a(x) =x'$。我们有 $a(h) =h$，因此有 $a(y) =y'$ (no. 1，引理 1)。
 
 #### 推论 1 {#lie-viii-s11-prop-6-cor-1 .statement tag=017J}
 
-映射通过从$\mathfrak{s}\mathfrak{l}_2$三元组的G-共轭类的集合到简单的G-共轭类的集合的商双射与任何$\mathfrak{s}\mathfrak{l}_2$三元组关联它的简单元素定义元素。
+映射通过从$\mathfrak{s}\mathfrak{l}_2$三元组的G-共轭类的集合到简单的G-共轭类的集合的商双射与任何$\mathfrak{s}\mathfrak{l}_2$三元组相关联，它的简单元素定义元素。
 
 #### 推论 2 {#lie-viii-s11-prop-6-cor-2 .statement tag=017K}
 
-若rk($\mathfrak{g}$)$=l$，共轭类的数，相对于Aut$_e(\mathfrak{g})$，$\mathfrak{g}$的非零幂零元至多为$3^l$。
+如果rk($\mathfrak{g}$)$=l$，共轭类的数，相对于Aut$_e(\mathfrak{g})$，$\mathfrak{g}$的非零幂零元至多为$3^l$。
 
 这是从 Cor 得出的。 1、科。提案 2 和 Cor。提案 5。
 
 #### 推论 3 {#lie-viii-s11-prop-6-cor-3 .statement tag=017L}
 
-若rk($\mathfrak{g}$)$=l$，则共轭类的数，相对于Aut$_e(\mathfrak{g})$，与$\mathfrak{s}\mathfrak{l}(2, k)$同构的$\mathfrak{g}$的子代数至多为$3^l$。
+若rk($\mathfrak{g}$)$=l$，共轭类的数，相对于Aut$_e(\mathfrak{g})$，与$\mathfrak{s}\mathfrak{l}(2, k)$同构的$\mathfrak{g}$的子代数至多为$3^l$。
 
 这是从 Cor 得出的。 1、提案 1 和 Cor。提案 5。
 
-### 4.主元素
+### 4. 主元素
 
 #### 定义 3 {#lie-viii-s11-def-3 .statement tag=017M}
 
@@ -339,9 +339,9 @@ $$
 
 (i) 如果 Ker ad $x$ 的维数是 $\mathfrak{g}$ 的秩，则 $\mathfrak{g}$ 的幂零元 $x$ 被认为是本金。
 
-(ii) 如果 $h$ 是正则且$h$ 的特征值在 $k$ 属于到$2\mathbf{Z}$ 的代数闭包中，则称$\mathfrak{g}$ 的简单元素 $h$ 为主要。
+(ii) 如果 $h$ 是正则且$h$ 的特征值位于 $k$ 属于至$2\mathbf{Z}$ 的代数闭包中，则称$\mathfrak{g}$ 的简单元素 $h$ 为主要。
 
-(iii) 如果$\mathfrak{g}$的长度被视为模除以$kx+kh+ky$，等于$\mathfrak{g}$的秩，则$\mathfrak{g}$的$\mathfrak{s}\mathfrak{l}_2$三元组$(x, h, y)$被认为是主要的。
+(iii) 如果$\mathfrak{g}$的长度被视为模除以$kx+kh+ky$，等于$\mathfrak{g}$的秩，则称$\mathfrak{g}$的$\mathfrak{s}\mathfrak{l}_2$三元组$(x, h, y)$为主。
 
 #### 命题 7 {#lie-viii-s11-prop-7 .statement tag=017N}
 
@@ -443,4 +443,4 @@ $$
 
 ### 习题 {#lie-viii-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+参见[习题为 § 11](exercises/s11/)。

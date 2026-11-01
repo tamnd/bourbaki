@@ -32,23 +32,23 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 29
-content_sha256: e0fa11b40d1a40fe05041a514f29ec9b7492ee30add77b19bcabbd905a8a7d55
+content_sha256: 422d223f847798200e0c04175c39565014f30c7f6a53b70fd8300c260390bbf0
 translated_from: content/en/top/X/03_s3_special_function_spaces.md
 translation_method: google
 source_content_sha256: a35a28b9c26f164aeaf3bf1e204cb5b3731409c5cea341ad50336a5b5719bb98
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: cda6601186686ea461e9cdf56fbf4f7ed0e93f886af4c3c71f96fe13d797242e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 3. 特别函数空间
 
-### 1. 将空间的映射转换为空间
+### 1. 将映射的空间转化为公制空间
 
-令$X$为集合，$Y$统一空间，$(f_i)_{i \in I}$定义$Y$（章IX, § 1, no. 4）的统一结构的伪度量族，并令$\mathscr{S}$为集合子集共 $X$。对于$i \in I$，每个集合$A \in \mathscr{S}$，以及$X$的映射的每个对$(u, v)$到$Y$，写
+令$X$为集合，$Y$统一空间，$(f_i)_{i \in I}$定义$Y$（章IX, § 1, no. 4）的统一结构的伪度量族，并令$\mathscr{S}$为集合子集共$X$。对于$X$的每个$i \in I$、每个集合$A \in \mathscr{S}$、以及映射的每个对$(u, v)$到$Y$，写
 
 $$
 g_{i, A}(u, v) = \sup_{x \in A} f_i(u(x), v(x));
@@ -60,7 +60,7 @@ $$
 
 *如果$Y$是可度量的均匀性空间，则$\mathscr{F}(X; Y)$上的一致收敛的均匀性是可度量的。*
 
-因为如果 $d$ 是 $Y$ 上的一个度量，与其一致的结构兼容，$\mathscr{F}(X; Y)$ 上一致收敛的结构由单个伪度量定义
+因为如果 $d$ 是 $Y$ 上的一个度量，并且与其一致的结构兼容，那么 $\mathscr{F}(X; Y)$ 上一致收敛的结构由单个伪度量定义
 
 $$
 \varepsilon(u, v) = \sup_{x \in X} d(u(x), v(x));
@@ -76,13 +76,13 @@ $$
 
 注该推论特别适用于 $X$ *局部紧致且 σ 紧致*（章 I, § 9, no. 9，命题 15，推论 1）。
 
-现在让 $Y$ 成为空间的度量，并让 $d$ 成为它的度量。如果$X$是任何集合和$\mathscr{S}$任何集合或子集或$X$，我们将用所有映射$u : X \to Y$中的$\mathscr{B}_{\mathscr{S}}(X; Y)$集合表示，使得对于每个$A \in \mathscr{S}$，$u(A)$都是*有界*的。 除非相反，我们明确指出，我们将认为$\mathscr{B}_{\mathscr{S}}(X; Y)$ 具有$\mathscr{S}$收敛的一致性，这是由$\mathscr{B}_{\mathscr{S}}(X; Y)$上的以下伪度量族定义的：
+现在让 $Y$ 成为空间的度量，并让 $d$ 成为它的度量。如果$X$是任何集合和$\mathscr{S}$任何集合或子集或$X$，我们将用所有映射$u : X \to Y$中的$\mathscr{B}_{\mathscr{S}}(X; Y)$集合表示，使得对于每个$A \in \mathscr{S}$，$u(A)$都是*有界*的。 除非相反，我们明确地指出，我们将认为$\mathscr{B}_{\mathscr{S}}(X; Y)$ 具有$\mathscr{S}$收敛的一致性，这是由$\mathscr{B}_{\mathscr{S}}(X; Y)$上的以下伪度量族定义的：
 
 $$
 d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{$A \in \mathscr{S}$}
 $$
 
-假设 *有限*。当$\mathscr{S} = \{X\}$时，我们写$\mathscr{B}(X; Y)$来代替$\mathscr{B}_{\mathscr{S}}(X; Y)$。如果属于到 $\mathscr{B}(X; Y)$，即如果 $u(X)$ 是 $Y$ 的有界子集，则映射 $u : X \to Y$ 被称为“有界”。
+假设是“有限”的。当$\mathscr{S} = \{X\}$时，我们写$\mathscr{B}(X; Y)$来代替$\mathscr{B}_{\mathscr{S}}(X; Y)$。如果属于到$\mathscr{B}(X; Y)$，即$u(X)$是$Y$的有界子集，则映射$u : X \to Y$被称为“有界”。
 
 #### 命题 2 {#top-x-s3-prop-2 .statement tag=0CDA}
 
@@ -108,7 +108,7 @@ $$
 
 所讨论的空间是$\mathscr{B}(X; Y) \cap C_u(X; Y)$；第一个断言源自命题 2；第二个源自第一个（$§ 1$，no. 6，定理 2，推论 1）。
 
-### 2. 将映射的空间转换为规范的空间
+### 2. 空间的映射变为规范空间
 
 更具体地，考虑 Y 是非离散值除法环 K (章 IX, § 3, no. 3) 上的 *范数* 向量空间的情况。让我们用$y \in Y$的$||y||$范数来表示。 集合 $\mathscr{F}(X; Y) = Y^X$ 则被规范地赋予 K-向量空间结构。当且仅当实值函数 $x \mapsto ||u(x)||$ 在 X 有界时，映射 $u : X \to Y$ 才有界。如果$u, v$将X的映射有界入Y，则显然$u + v$和$\lambda u (\lambda \in K)$有界；在其他字中，$\mathscr{B}(X; Y)$是$\mathscr{F}(X; Y)$的*向量子空间*。而且，$||u|| = \sup_{x \in X} ||u(x)||$是$\mathscr{B}(X; Y)$上的*范数*；因为它满足三角形不等式和$||u|| = 0$意味着$u = 0$，并且对于每个$\lambda \in K$我们有
 
@@ -211,7 +211,7 @@ $$
 $$
 令 $(e_j)$ 为 $\mathbf{R}^m$ 的典范基；如果$u$和$v$是$\mathbf{R}^m$到$\mathbf{R}^n$的两个线性映射，使得$\|u(e_j) - v(e_j)\| \leq \epsilon$对应$1 \leq j \leq m$，那么对于每个对$(i, j)$我们有$|\alpha_{ij} - \beta_{ij}| \leq \epsilon$[$U = (\alpha_{ij})$和$V = (\beta_{ij})$分别为$u, v$的矩阵]；相反，如果满足这些不等式，对于 $\mathbf{R}^m$ 中中心 o 和边 $a$ 的立方体的每个点 $x$，我们都有 $\|u(x) - v(x)\| \leq ma\epsilon$。
 
-### 3.连续函数空间的可数性
+### 3. 连续函数空间的可数性
 
 #### 定理 1 {#top-x-s3-thm-1 .statement tag=0CDL}
 
@@ -221,7 +221,7 @@ b) *相反，如果可度量的空间 $C_u(X; \mathbf{R})$ 是可数的型，则
 
 a) 令$d$（或$d'$）为与$X$的拓扑兼容的度量（或具有$Y$的一致性）；那么 $\delta(f, g) = \sup_{x \in X} d'(f(x), g(x))$ 是定义空间 $C(X; Y)$、函数上$C(X; Y)$ 有界一致收敛的均匀性的度量，因为 $X$ 是紧致的 (no. 1)。 对于整数$m > 0, n > 0$的每个对，令$G_{mn}$为函数$f \in \mathscr{C}(X; Y)$的集合，使得关系$d(x, x') \leq 1/m$蕴涵$d(f(x), f(x')) \leq 1/n$。 每个函数 $f \in \mathscr{C}(X; Y)$ 都是一致连续的 (章 II, § 4, no. 1, 定理 2)，因此，对于每个 $n > 0$，$\mathscr{C}(X; Y)$ 是集合 $G_{mn}$ ($m > 0$) 的并。 令$\{a_1, \ldots, a_{p(m)}\}$为$X$的有限子集，使得具有中心$a_i$和半径$1/m$的开球覆盖$X$（$1 \leq i \leq p(m)$）；令$(b_r)_{r \in \mathbf{N}}$为可数序列，其在$Y$中稠密。 对于每个映射$\varphi : [1, p(m)] \to \mathbf{N}$，令$H_\varphi$为那些$f \in G_{mn}$中的集合，使得$d'(f(a_k), b_{\varphi(k)}) \leq 1/n$对应于$1 \leq k \leq p(m)$。 由$b_r$的定义，$G_{mn}$为$\varphi \in \mathbf{N}^{p(m)}$为集合$H_\varphi$并；令$C_{mn}$为映射$\varphi \in \mathbf{N}^{p(m)}$的集合，使得$H_\varphi \neq \emptyset$，并且对于每个$\varphi \in C_{mn}$令$g_\varphi$为$H_\varphi$的元素；最后，让$L_{mn}$表示$g_\varphi$对于$\varphi \in C_{mn}$的可数集合。 令$f \in G_{mn}$，并令$\varphi$为$C_{mn}$的元素，使得$f \in H_\varphi$；那么从定义可以立即得出，所有 $x \in X$ 都有 $d'(f(x), g_\varphi(x)) \leq 4/n$，即 $\delta(f, g_\varphi) \leq 4/n$。 因此，集合$L_{mn}$的并在$\mathscr{C}_u(X; Y)$中是稠密的，因为对于每个整数$n > 0$和每个$f \in \mathscr{C}(X; Y)$，都存在$m$使得$f \in G_{mn}$，并且我们刚刚看到从$f$到$L_{mn}$的距离是$\leq 4/n$。
 
-b) 设 $I = [0, 1]$。由于$\mathscr{C}_u(X; I)$是$\mathscr{C}_u(X; \mathbf{R})$的一致子空间，因此它是可数的型。令$(f_n)$为序列，它在$\mathscr{C}_u(X; I)$中是稠密的。考虑$X$的乘积空间$K = \mathbf{N}$和映射$\psi : x \to (f_n(x))$进入$K$，这显然是连续的。 映射 $\psi$ 是单射；因为，对于所有$n$，通过序列$(f_n)$、关系$f_n(x) = f_n(x')$的定义意味着，在经过到极限上，对于每个函数$f \in \mathscr{C}(X; I)$，$f(x) = f(x')$；但如果 $x \neq x'$ 凭借公理 (OIV) 应用于点 $x$ 和 $x$ 的邻域 $V$，而包含 $x'$ (章 IX, § 1, no. 5， 定理2)。由此可见，紧致空间 $X$ 同胚于 $K$ 的子空间 $\psi(X)$（章 I, § 9, no. 4，定理 2，推论 2）；由于 $K$ 是可度量的且可数型，因而 $\psi(X)$ 也是可数的，因而 $X$ 也是可数的。
+b) 设 $I = [0, 1]$。由于$\mathscr{C}_u(X; I)$是$\mathscr{C}_u(X; \mathbf{R})$的一致子空间，因此它是可数的型。令$(f_n)$为序列，它在$\mathscr{C}_u(X; I)$中是稠密的。考虑$X$的乘积空间$K = \mathbf{N}$和映射$\psi : x \to (f_n(x))$进入$K$，显然是连续的。 映射 $\psi$ 是单射；因为，对于所有$n$，通过序列$(f_n)$、关系$f_n(x) = f_n(x')$的定义意味着，在经过到极限上，对于每个函数$f \in \mathscr{C}(X; I)$，$f(x) = f(x')$；但如果 $x \neq x'$ 凭借公理 (OIV) 应用于点 $x$ 和 $x$ 的邻域 $V$，而包含 $x'$ (章 IX, § 1, no. 5， 定理2)。由此可见，紧凑空间 $X$ 同胚于 $K$ 的子空间 $\psi(X)$（章 I, § 9, no. 4，定理 2，推论 2）；由于 $K$ 是可度量的且可数型，因而 $\psi(X)$ 也是可数的，因而 $X$ 也是可数的。
 
 Q.E.D.
 
@@ -229,17 +229,17 @@ Q.E.D.
 
 令$X$为局部紧致空间，其拓扑承认可数基，并令$Y$为可数型的可度量均匀空间。
 
-a) $X$的连续映射进入$Y$，极限无穷大，空间$\mathscr{L}$，赋予$X$一致收敛的拓扑，是可数的可度量空间型。
+a) $X$的连续映射到$Y$的空间$\mathscr{L}$，其中极限无穷大，赋予$X$一致收敛的拓扑，是可数型的可度量空间。
 
 b) $X$的连续映射到$Y$的空间$\mathscr{C}_c(X; Y)$，赋予拓扑紧收敛性，是可数型的可度量空间。
 
-a) 令$X'$为将点无限邻接至$X$所获得的紧空间（章I, § 9, no. 8，定理4）；通过定义，每个函数$f \in \mathscr{L}$都可以唯一地扩展到连续的函数$\overline{f} : X' \to Y$，因而$f \to \overline{f}$是L的双射到$C(X'; Y)$；这个双射是空间L通过§ 1, no. 6的命题6到$C_u(X'; Y)$的同胚。由于 $X'$ 是可度量的（章 IX, § 2, no. 9、命题 16，推论），结果来自定理 1，应用于 $X'$ 和 Y。
+a) 设$X'$为将点无限邻接至$X$所获得的紧空间（章I, § 9, no. 8，定理4）；通过定义，每个函数$f \in \mathscr{L}$都可以唯一地扩展到连续的函数$\overline{f} : X' \to Y$，因而$f \to \overline{f}$是L的双射到$C(X'; Y)$；这个双射是空间L通过§ 1, no. 6的命题6到$C_u(X'; Y)$的同胚。由于 $X'$ 是可度量的（章 IX, § 2, no. 9、命题 16，推论），结果来自定理 1，应用于 $X'$ 和 Y。
 
 b) 设$(U_n)$是相对紧开集合对X的覆盖，使得X的每个紧致子集都包含在一些$U_n$中（章I, § 9, no. 9，命题15，推论1）。如果$S$是$\overline{U}_n$的集合，则$C(X; Y)$上紧致收敛的拓扑与$S$收敛的拓扑相同。因而 ($§ 1,$ no. 2, 注 3) 空间 $C_c(X; Y)$ 同胚于乘积 $\prod_n C_u(\overline{U}_n; Y)$ 的子空间；由于每个紧凑空间$\overline{U}_n$都有一个可数基，因此它是可度量的（章IX, § 2, no. 9，命题16）；因而，每个 $C_u(\overline{U}_n; Y)$ 都是可度量的，并且可以用定理 1 来数型，因而 $C_c(X; Y)$ 也是如此。
 
-注 $\mathbf{R}$上所有有界连续实值函数的空间，赋予拓扑一致收敛性，不是可数的型（习题 4）。
+注$\mathbf{R}$上所有有界连续实值函数的空间，赋予拓扑一致收敛性，不具有可数型（习题4）。
 
-### 4.紧凑开放式拓扑
+### 4. 紧凑型开放式拓扑
 
 #### 定理 2 {#top-x-s3-thm-2 .statement tag=0CDN}
 
@@ -329,15 +329,15 @@ $$
 
 *令$X, Y, Z$为三个拓扑空间，$Y$为局部紧致。那么$\mathscr{C}_c(X; Y) \times \mathscr{C}_c(Y; Z)$到$\mathscr{C}_c(X; Z)$的映射$(u, v) \to v \circ u$是连续的。*
 
-我们必须证明，对于$X$的每个紧凑子集$K$和$Z$的每个开子集$U$，对$(u, v)$的集合$R$，使得$v(u(K)) \subset U$开于$\mathscr{C}_c(X; Y) \times \mathscr{C}_c(Y; Z)$。让$(u_0, v_0) \in R$；则$u_0(K)$是局部紧致空间$Y$的紧致子集，包含在开集合$\overline{v_0^{-1}}(U)$中，因此$\overline{v_0^{-1}}(U)$中包含$u_0(K)$的紧致邻域$L$ (章 I, § 9, no. 7, 命题 10).所有$u \in \mathscr{C}_c(X; Y)$中的集合$V$使得$u(K) \subset L$是$u_0$的邻域，并且所有$v \in \mathscr{C}_c(Y; Z)$中的集合$W$使得$v(L) \subset U$是邻域 $v_0$； furthermore, 关系 $(u, v) \in V \times W$ implies $v(u(K)) \subset U$.于是就有了这样的结果。
+我们必须证明，对于$X$的每个紧凑子集$K$和$Z$的每个开子集$U$，对$(u, v)$的集合$R$，使得$v(u(K)) \subset U$在$\mathscr{C}_c(X; Y) \times \mathscr{C}_c(Y; Z)$。让$(u_0, v_0) \in R$；则$u_0(K)$是局部紧致空间$Y$的紧致子集，包含在开集合$\overline{v_0^{-1}}(U)$中，因此$\overline{v_0^{-1}}(U)$中包含$u_0(K)$的紧致邻域$L$ （章I, § 9, no. 7，命题10）。所有$u \in \mathscr{C}_c(X; Y)$中的集合$V$使得$u(K) \subset L$是$u_0$的邻域，并且所有$v \in \mathscr{C}_c(Y; Z)$中的集合$W$使得$v(L) \subset U$是邻域 $v_0$；此外，关系$(u, v) \in V \times W$意味着$v(u(K)) \subset U$。于是就有了这样的结果。
 
-### 5. TOPOLOGIES ON 群 OF HOMEOMORPHISMS
+### 5. 同态群的拓扑
 
 #### 命题 10 {#top-x-s3-prop-10 .statement tag=0CDX}
 
 令$X$为一致的空间，并令$H$为$X$自身同胚的等连续集合。如果$H$和$H^{-1}$赋予$X$逐点收敛的拓扑，则$H^{-1}$的映射$u \to u^{-1}$在$H$上是连续的。
 
-足以证明，对于每个$x_0 \in X$，$H^{-1}$到$X$的映射$u \to u^{-1}(x_0)$在每个点$u_0 \in H^{-1}$是连续的。设$V$是$X$的对称周边，并设$y_0 = u_0^{-1}(x_0)$。到假设时，存在$X$的对称随行人员$U$，使得关系$(x, x_0) \in U$意味着所有$u \in H^{-1}$的$(u^{-1}(x), u^{-1}(x_0)) \in V$。取元素$u \in H^{-1}$，即$W(\{y_0\}, U)$-接近$u_0$； then we have $(u(y_0), u_0(y_0)) \in U$, i.e. $(u(y_0), x_0) \in U$. It follows that $(y_0, u^{-1}(x_0)) \in V$, i.e. $(u_0^{-1}(x_0), u^{-1}(x_0)) \in V$; this completes 证明.
+足以证明，对于每个$x_0 \in X$，$H^{-1}$到$X$的映射$u \to u^{-1}(x_0)$在每个点$u_0 \in H^{-1}$是连续的。设$V$是$X$的对称周边，并设$y_0 = u_0^{-1}(x_0)$。到假设时，存在$X$的对称随行人员$U$，使得关系$(x, x_0) \in U$意味着所有$u \in H^{-1}$的$(u^{-1}(x), u^{-1}(x_0)) \in V$。取元素$u \in H^{-1}$，即$W(\{y_0\}, U)$-接近$u_0$；那么我们就有$(u(y_0), u_0(y_0)) \in U$，即$(u(y_0), x_0) \in U$。由此可见$(y_0, u^{-1}(x_0)) \in V$，即$(u_0^{-1}(x_0), u^{-1}(x_0)) \in V$；这样就完成了证明。
 
 #### 推论 {#top-x-s3-n5-cor-1 .statement tag=0CDY}
 
@@ -405,16 +405,16 @@ $$
 
 让我们首先证明$\overline{H}$包含在$\Gamma$中，并且$\mathscr{T}_\beta$在$\overline{H}$上诱导的拓扑*与紧致收敛的拓扑相同*。设 $u_0 \in \overline{H}$；因此，$C_c(X; X)$ 中的$u_0$ 是$H$ 上的超滤器$\Phi$ 的极限。由于$\Phi^{-1}$（$u \to u^{-1}$下$\Phi$的像）是$H \subset \overline{H}$上的超滤器基，它收敛于$C_c(X; X)$的紧凑子空间$\overline{H}$到元素$v_0$。 映射$(u, v) \to uv$相对于$\Phi \times \Phi^{-1}$收敛到$u_0 v_0$（no. 4，命题9）； *更不必说*，$u \to uu^{-1} = e$相对于$\Phi$收敛到$u_0 v_0$，因此$u_0 v_0 = e$，因为$C_c(X; X)$是Hausdorff。同样$v_0 u_0 = e$；因此$u_0$是$X$的同胚，即$u_0 \in \Gamma$。因此$\overline{H}$包含在$\Gamma$中。此外，这个论证表明$\overline{H}^{-1} = \overline{H}$，并且对于$\overline{H}$上的每个超滤器$\Phi$收敛到$u_0$，$\Phi^{-1}$在$C_c(X; X)$收敛到$u_0^{-1}$；因此，当$\overline{H}$带有紧收敛的拓扑时，$\overline{H}$到$C_c(X; X)$的映射$u \to u^{-1}$是连续的（章I, § 7, no. 4，命题9，推论1）。 命题 12 则表明，在$\overline{H}$ 上，紧致收敛的拓扑与$\mathscr{T}_\beta$ 引起的拓扑相同。
 
-此外，由于$\Gamma$上的拓扑$\mathscr{T}_\beta$比紧致收敛的拓扑是更细，$\overline{H}$也是$H$相对于$\mathscr{T}_\beta$的闭包。但$G$相对于紧收敛的拓扑，$H$是$e$的邻域，而$\mathscr{T}_\beta$相对于拓扑则为*更不必说*；由此可知 (章 I, § 3, no. 1, 命题 2) $\overline{H}$ 是 $\overline{G}$ 中 $e$ 的邻域，相对于$\mathscr{T}_\beta$ 引发的拓扑，因此 $\overline{G}$ 在此是局部紧的拓扑。如果$W$是$V$相对于拓扑紧致收敛的内部，则$W \cap \Gamma$在$\mathscr{T}_\beta$中开，因此$W \cap \overline{G}$包含在$H = V \cap G$相对于$\mathscr{T}_\beta$的闭包中（章） I, § 1, no. 6、命题5)；这表明，相对于紧致收敛的拓扑，$\overline{H}$也是$\overline{G}$中$e$的邻域。最后，对于 $C_c(X; X)$ 的每个 $u_0 \in \Gamma$、双射、$v \to u_0 \circ v$ 和 $v \to u_0^{-1} \circ v$ 其自身都是连续的 (no. 4、命题 9)，因此，如果 $u_0 \in \overline{G}$、$u_0 \overline{H}$ 是邻域 $\overline{G}$中的$u_0$相对于拓扑的紧致收敛。这样就完成了证明。
+此外，由于$\Gamma$上的拓扑$\mathscr{T}_\beta$是更细比紧致收敛的拓扑，所以$\overline{H}$也是$H$相对于$\mathscr{T}_\beta$的闭包。但$H$相对于紧收敛的拓扑，是$G$中$e$的邻域，以及$\mathscr{T}_\beta$相对于拓扑的*更不必说*；由此可见 (章 I, § 3, no. 1, 命题 2) $\overline{H}$ 是 $\overline{G}$ 中$e$ 的邻域，相对于$\mathscr{T}_\beta$ 引发的拓扑，因此 $\overline{G}$ 在此是局部紧致的拓扑。如果$W$是$V$相对于拓扑紧致收敛的内部，则$W \cap \Gamma$在$\mathscr{T}_\beta$中开，因此$W \cap \overline{G}$包含在$H = V \cap G$相对于$\mathscr{T}_\beta$的闭包中（章） I, § 1, no. 6、命题5)；这表明，相对于紧致收敛的拓扑，$\overline{H}$也是$\overline{G}$中$e$的邻域。最后，对于 $C_c(X; X)$ 的每个 $u_0 \in \Gamma$、双射、$v \to u_0 \circ v$ 和 $v \to u_0^{-1} \circ v$ 其自身都是连续的 (no. 4、命题 9)，因此，如果 $u_0 \in \overline{G}$、$u_0 \overline{H}$ 是邻域 $\overline{G}$ 中的 $u_0$ 相对于拓扑的紧致收敛。这样就完成了证明。
 
 #### 推论 {#top-x-s3-n5-cor-2 .statement tag=0CE2}
 
-*令$G$为局部紧致空间$X$的同胚的群。如果$C_c(X; X)$中$G$的闭包$\overline{G}$是紧的，则$\overline{G}$是$X$同胚的群，紧收敛的拓扑与$\overline{G}$的群结构兼容，因此是紧拓扑群.*
+*设$G$为局部紧致空间$X$的同胚的群。如果$C_c(X; X)$中$G$的闭包$\overline{G}$是紧的，则$\overline{G}$是$X$同胚的群，紧收敛的拓扑与$\overline{G}$的群结构兼容，因此是紧拓扑群.*
 
-局部紧致空间 $X$ 的同胚的群是局部紧致的，但相对于紧致收敛的拓扑不是紧致的，由于章 I, § 9, no. 7、命题 12，在 $C_c(X; X)$ 中*局部封闭*，*但不一定关闭*。
+局部紧致空间$X$的同态群是局部紧致的，但相对于紧致收敛的拓扑不是紧致的，由于章I, § 9, no. 7、命题12，在$C_c(X; X)$中*局部闭*，*但不一定关闭*。
 
 对于例，在$\mathbf{R}^n$的自同态的环$\mathscr{L}(\mathbf{R}^n)$，识别为$\mathbf{R}$以上的平方$n \times n$矩阵的环$M_n(\mathbf{R})$并赋予紧致收敛的拓扑，群$GL(n, \mathbf{R})$，与非奇异矩阵的群相同，是局部紧致但稠密的（章VI, § 1, no. 6，命题6）。
 
-### 习题 {#top-x-s3-exercises}
+### 习题{#top-x-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

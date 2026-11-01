@@ -40,27 +40,27 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: e9e11233d89bdbc5c8d13c1db9eb86be853c6818b5507220a0a03064403c8327
+content_sha256: 95bb809f07fbeb1af3bb8c22df553236e1ffb69e134a9425f7e71e2e204602d6
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 translation_method: google
 source_content_sha256: a3c6df7442ce70b3c022a53d8c8d5c5898d4f54434a40fd2c9ae5e5be4f6a2de
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7597229cda5a6621362f218f717c7f1263de61d72f0df86f422b160998086ae5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。前希尔伯特空间和希尔伯特空间
 
-### 1.厄米特形式
+### 1. 厄米特形式
 
 我们回想一下代数 (A, IX, § 3, No. 1) 中给出的定义：
 
 #### 定义 1 {#evt-v-s1-def-1 .statement tag=07X0}
 
-令 E 为域 K 上的向量空间。E 上的厄米特形式（左侧）是映射 f，从 E × E 到 K 满足以下条件（对于 E 中的 $x_1, x_2, x, y_1, y_2, y$ 和 K 中的 $\lambda, \mu$）：
+设 E 在域 K 上为向量空间。E 上的厄米特形式（左侧）是映射 f，从 E × E 到 K 满足以下条件（对于 E 中的 $x_1, x_2, x, y_1, y_2, y$ 和 K 中的 $\lambda, \mu$）：
 
 (1)
 $$
@@ -83,11 +83,11 @@ $$
 f(x, y) = \overline{f(y, x)} .
 $$
 
-当域 K 为 R 时，E 约化上厄米特形式的概念与 E × E (A, III, § 6, No. 3) 上对称双线性形式的概念相同。
+当域 K 为 R 时，E 约化上厄米特形式的概念与 E × E 上对称双线性形式 (A, III, § 6, No. 3) 的双线性形式相同。
 
 我们注第二个条件(1)和第二个条件(2)是从其他三个开始的。
 
-1 对于对希尔伯特空间特别感兴趣的读者，我们点指出，只有§ 1的No. 7和§ 4的No. 8依赖于章III和IV的结果。为此，读者可以查阅本卷末尾的《巴拿赫空间一些重要性质的总结》。对章、I和II的唯一引用涉及凸集合和半范数（II、p. 1和p. 7）的定义、拓扑直和（I、 p. 4），一个总族和一个拓扑独立族（I，p. 12）。
+1 对于对希尔伯空间特别感兴趣的读者，我们点指出，只有§ 1的No. 7和§ 4的No. 8取决于章、III和IV的结果。为此，读者可以查阅本卷末尾的《巴拿赫空间一些重要性质的总结》。对章、I和II的唯一引用涉及凸集合和半范数（II、p. 1和p. 7）的定义，以及拓扑直和（I， p. 4），一个总族和一个拓扑独立族（I，p. 12）。
 
 从（1）和（2）我们立即推断出
 
@@ -101,9 +101,9 @@ $$
 f(x, y) = \sum_{j,k} \alpha_{jk} \overline{\xi}_j \eta_k
 $$
 
-与记号 $\alpha_{jk} = f(e_j, e_k)$；此外，对于指标$j, k$的每对，关系 (3) 等于$\alpha_{jk} = \overline{\alpha}_{kj}$；这特别意味着数 $\alpha_{jj}$ 是真实的。
+与记号 $\alpha_{jk} = f(e_j, e_k)$；此外，指标$j, k$中每对，关系(3)相当于$\alpha_{jk} = \overline{\alpha}_{kj}$；这特别意味着数 $\alpha_{jj}$ 是真实的。
 
-从(3)可知，数$Q(x) = f(x, x)$对于所有$x \in E$都是真实的。此外，我们立即建立以下公式，称为*极化*公式
+从(3)可知，数$Q(x) = f(x, x)$对于所有$x \in E$都是真实的。而且，我们立即建立以下公式，称为*极化*公式
 
 (5)
 $$
@@ -116,17 +116,17 @@ $$
 
 #### 注 {#evt-v-s1-n1-rem-1 .statement tag=07X1}
 
-— 我们观察到，公式 (6) 对于 $E \times E$ 上的每个 *sesquilinear* 形式都有效（也就是说，对于每个函数 $f$ 满足 (1) 和 (2)，但不一定是 (3)）。这个注表明，当$K = \mathbf{C}$时，一个倍半线性形式$f$使得$f(x, x)$对于所有$x \in E$都是真实的必然是*厄米特*：关系（6）然后给出$\overline{f(y, x)} = f(x, y)$，因为我们有$y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$并且每当$\varepsilon^4 = 1$时$Q(\varepsilon z) = Q(z)$。
+— 我们观察到，公式 (6) 对于 $E \times E$ 上的每个 *sesquilinear* 形式都有效（也就是说，对于每个函数 $f$ 满足 (1) 和 (2)，但不一定是 (3)）。这个注表明，当$K = \mathbf{C}$时，一个倍半线性形式$f$使得$f(x, x)$对于所有$x \in E$都是真实的厄米特*：关系（6）然后给出$\overline{f(y, x)} = f(x, y)$，因为我们有每当 $\varepsilon^4 = 1$ 时，$y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$ 和 $Q(\varepsilon z) = Q(z)$。
 
 从极化公式，我们特别有，
 
 #### 命题 1 {#evt-v-s1-prop-1 .statement tag=07X2}
 
-*If $f$ is a hermitian form on $E$, and $M$ a vector subspace of $E$ such that $f(x, x) = 0$ for all $x \in M$, then we also have $f(x, y) = 0$ for every pair of points $x, y$ in $M$.*
+*如果$f$是$E$上的厄米特形式，并且$E$的$M$向量子空间，使得$f(x, x) = 0$对于所有$x \in M$，那么我们也有$f(x, y) = 0$ $M$ 中的点 $x, y$ 每对。*
 
 令$f$在$E$上为厄米特形式；所有$x \in E$的集合$N$，使得所有$y \in E$的$f(x, y) = 0$是$E$的向量子空间。从 (3) 可以得出，如果 $x_1 \equiv x_2$ (mod. $N$) 和 $y_1 \equiv y_2$ (mod. $N$)，我们有 $f(x_1, y_1) = f(x_2, y_2)$；因此，在商空间$E/N$上，我们将$f(\dot{x}, \dot{y}) = f(x, y)$放入所有$x \in \dot{x}$和所有$y \in \dot{y}$，得到定义一个倍半线性的形式$f$；很明显，$f$是厄米特，并且关系“$f(\dot{x}, \dot{y}) = 0$对于所有$\dot{y} \in E/N$”意味着$E/N$中的$\dot{x} = 0$，在其他字（A，IX）$f$正在分离。我们说 $f$ 是与 $f$ *分离* 厄米特形式 *关联*。
 
-### 2.正厄米特形式
+### 2. 正厄米特形式
 
 #### 定义 2 {#evt-v-s1-def-2 .statement tag=07X3}
 
@@ -205,13 +205,13 @@ $$
 
 #### 注 {#evt-v-s1-n2-rem-1 .statement tag=07X8}
 
-— 1) 假设 f 为正且可分离，令 x, y 为两个向量 $\neq 0$。 Cauchy-Schwarz 不等式的证明表明，如果(7)的两个成员相等，则存在一个标量$\xi$使得$f(x + \xi y, x + \xi y) = 0$，因此$x + \xi y = 0$，在其他字，$x$和$y$是*线性相关*； 逆命题是直接的。 不等式 (8) 的证明表明，仅当 $x$ 和 $y$ 线性相关时，等式 $p(x + y) = p(x) + p(y)$ 才可能；如果$y = \lambda x$，前面的等式可以写成$|1 + \lambda| = 1 + |\lambda|$，并且暗示$\lambda$是*实且正的*。
+— 1) 假设 f 为正且可分离，令 x, y 为两个向量 $\neq 0$。 Cauchy-Schwarz 不等式的证明表明，如果(7)的两个成员相等，则存在标量$\xi$使得$f(x + \xi y, x + \xi y) = 0$，因此$x + \xi y = 0$，在其他字，$x$和$y$是*线性相关的*； 逆命题是直接的。 不等式 (8) 的证明表明，仅当 $x$ 和 $y$ 线性相关时，等式 $p(x + y) = p(x) + p(y)$ 才可能；如果$y = \lambda x$，则前面的等式可以写成$|1 + \lambda| = 1 + |\lambda|$，并且暗示$\lambda$是*实且正的*。
 
-2) 令$f$为$E$上的正厄米特形式，并令$E$被赋予半范数$x \mapsto f(x, x)^{1/2}$；如果$f$为正，则将$E/N$上定义的厄米特形式与$f$相关联，则将范数$x \mapsto f(\dot{x}, \dot{x})^{1/2}$赋值给$E/N$得到的赋范空间就是与空间相关联的赋范空间 $E$（II，p. 5）。
+2) 令$f$为$E$上的正厄米特形式，并让$E$被赋予半范数$x \mapsto f(x, x)^{1/2}$；如果 $f$ 为正，则将$E/N$上定义的厄米特形式与$f$相关联，则将范数 $x \mapsto f(\dot{x}, \dot{x})^{1/2}$赋值给$E/N$得到的赋范空间就是与空间相关联的赋范空间 $E$（II、p. 5）。
 
 #### 定义 3 {#evt-v-s1-def-3 .statement tag=07X9}
 
-*令 $E$ 为向量空间超过域 $K$。如果 $E$ 上存在正的厄米特形式 $f$，使得 $p(x) = f(x, x)^{1/2}$ 对于所有 $x \in E$* 来说，$E$ 上的半范数 $p$ 被称为前希尔伯特。
+*令 $E$ 为向量空间超过域 $K$。如果 $E$ 上存在正的厄米特形式 $f$，使得 $p(x) = f(x, x)^{1/2}$ 对于所有 $x \in E$* 来说，$E$ 上的半范数 $p$ 被称为前希尔伯特式。
 
 观察对于 $E$ 的半范数 $p$，至多存在一个正厄米特形式 $f$，使得 $p(x) = f(x, x)^{1/2}$ 对于所有 $x \in E$；这是由极化公式（V，p. 2）得出的。
 
@@ -227,7 +227,7 @@ $$
 
 #### 例 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
-令$I$为$\mathbf{R}$中的一个区间（有界或无界），并令$E$为函数（FVR，II，p. 4）在$I$上定义的集合，其中值在$\mathbf{C}$，具有紧凑的支撑。显然$E$比$\mathbf{C}$弱于向量空间；设 $f$ 为倍半线性形式 $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$； 直接的$f$是$E$上的正厄米特形式，因此定义在空间上是前希尔伯特结构。
+令$I$为$\mathbf{R}$中的一个区间（有界或无界），并令$E$为函数（FVR，II，p. 4）在$I$上定义的集合，其中值在$\mathbf{C}$，具有紧凑的支撑。显然，$E$比$\mathbf{C}$弱于向量空间；设 $f$ 为倍半线性形式 $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$； 直接的$f$是$E$上的正厄米特形式，因此定义在空间上是前希尔伯特结构。
 
 #### 例 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
@@ -274,9 +274,9 @@ $$
 $$
 对于$E$中的每个$x$和$y$。由此我们推断，对于所有$x \in E$，$\|u(x)\| = \|x\|$，对于$E$和$F$的拓扑向量空间结构，$u$显然是同构；如果$E$和$F$是Hausdorff，则$u$是从$E$到$F$的*等距*。相反，如果$u$是从$E$到$F$的双射线性映射，使得$\|u(x)\| = \|x\|$对于所有$x \in E$，则极化公式（V，p. 2）表明$u$是前希尔伯特空间同构从$E$到$F$。
 
-令$E$为*复*前希尔伯特空间，而$\langle x|y \rangle$为$E$中的标量乘积。在集合$E$，我们可以定义关于$\mathbf{C}$的第二个向量空间结构，采用与加法群相同的律以及对于外部合成$(\lambda, x) \mapsto \overline{\lambda} x$的律 （A，II, § 1, No. 13）对于这个向量空间结构，$(x, y) \mapsto \langle y|x \rangle$是*正厄米特*
+令$E$为*复*前希尔伯特空间，而$\langle x|y \rangle$为$E$中的标量乘积。在集合$E$，我们可以定义相对于$\mathbf{C}$第二个向量空间结构，采用与加法群相同的律以及外部合成$(\lambda, x) \mapsto \overline{\lambda} x$的律 （A，II, § 1, No. 13）对于这个向量空间结构，$(x, y) \mapsto \langle y|x \rangle$是*正厄米特*
 
-1 可能会出现有时我们把$\langle y|x \rangle$写成$(x|y)$。观察V、p. 2的公式 (4)，取以下等价的形式：
+1 可能会发生有时，我们将$(x|y)$写成$\langle y|x \rangle$。观察V、p. 2的公式 (4)，取以下等价的形式：
 $$
 \begin{align*}
 \langle \sum_i \lambda_i x_i | \sum_j \mu_j y_j \rangle &= \sum_{i,j} \overline{\lambda}_i \mu_j \langle x_i|y_j \rangle. \\
@@ -286,19 +286,19 @@ $$
 
 形式。通过将新的向量空间结构和新的厄米特形式分配给 E 获得的前希尔伯特空间 $\overline{E}$ 被认为是共轭到 E。 同构 $u$ 从 E 到$\overline{E}$是从E到自身的半线性映射（相对于$\mathbf{C}$的自同构$\xi \mapsto \overline{\xi}$），使得$\langle u(y)|u(x) \rangle = \langle x|y \rangle$或$\langle u(x)|u(y) \rangle = \overline{\langle x|y \rangle}$（对于E中的$x, y$）；这样的映射被认为是前希尔伯特空间 E 的半自同构。
 
-如果 E 是前希尔伯特空间，E 的 M 向量子空间，标量乘积 $\langle x|y \rangle$ 到 $M \times M$ 的限制是 M 上的正厄米特形式，则M 上的定义前希尔伯特空间结构；我们说这个结构是由E的结构诱导的，或者说M是E的前希尔伯特子空间。
+如果 E 是预希尔伯特空间，E 的 M 向量子空间，标量乘积 $\langle x|y \rangle$ 到 $M \times M$ 的限制是 M 上的正厄米特形式，则M 上的定义前希尔伯特空间结构；我们说这个结构是由E的结构诱导的，或者说M是E的前希尔伯特子空间。
 
-### 4.希尔伯特空间
+### 4. 希尔伯特空间
 
 #### 定义 5 {#evt-v-s1-def-5 .statement tag=07XG}
 
-*希尔伯特空间*（或*希尔伯特空间*）*是前希尔伯特空间，它是Hausdorff且完整的*。 *如果向量空间 E（在 K 上）上的范数是前希尔伯特式，并且赋范的空间 E 是完备的，我们就说范数是希尔伯特式的*。
+*希尔伯特空间*（或*希尔伯特空间*）*是前希尔伯特空间，它是Hausdorff且完整的*。 *如果向量空间 E（在 K 上）上的范数是前希尔伯特式的，并且赋范的空间 E 是完备的，我们就说它是希尔伯特式的*。
 
-如果 E 是希尔伯特空间并且 M 是 E 的闭向量子空间，则在 M 上诱导的前希尔伯特空间结构实际上是希尔伯特空间结构。在这种情况下，我们说 M，以及诱导的结构是 E 的 *希尔伯特子空间*。
+如果 E 是希尔伯特空间并且 M 是 E 的闭向量子空间，则在 M 上导出的前希尔伯特空间结构实际上是希尔伯特空间结构。在这种情况下，我们说 M 以及诱导的结构是 E 的 *希尔伯特子空间*。
 
 #### 例 1 {#evt-v-s1-n4-exa-1 .statement tag=07XH}
 
-V、p. 4 的例 1、3、4 中定义的前希尔伯特空间是希尔伯特空间。另一方面，例 2 中定义的前希尔伯特空间既不是豪斯多夫，也不完整。希尔伯特空间的*复化*是希尔伯特空间。
+V、p. 4 的例 1、3、4 中定义的前希尔伯特空间是希尔伯特空间。另一方面，例 2 中定义的前希尔伯特空间既​​不是豪斯多夫，也不完整。希尔伯特空间的*复化*是希尔伯特空间。
 
 #### 例 2 {#evt-v-s1-n4-exa-2 .statement tag=07XI}
 
@@ -423,9 +423,9 @@ $$
 
 对于每个$x \in G$，令$\gamma_x$为$C^{(G)}$中$x$的左平移，由$\gamma_x u(y) = u(x^{-1} y)$为$u \in C^{(G)}$和$y \in G$定义。我们有$\Phi(\gamma_x u, \gamma_x v) = \Phi(u, v)$。现在应用 prop 推论的断言 b)。 4到$\rho$和$\rho \circ \gamma_x$：希尔伯特空间$E$存在唯一的自同构$\pi(x)$，使得$\rho \circ \gamma_x = \pi(x) \circ \rho$。我们立即看到，$\pi$是同态，从$G$到自同构到$E$的群。
 
-令$\delta$为$G$中$x \neq 1$的$\delta(1) = 1, \delta(x) = 0$定义的$C^{(G)}$的元素。我们对所有 $u \in C^{(G)}$ 都有 $u = \sum_{x \in G} u(x) . \gamma_x \delta$，因此通过放入 $a = \rho(\delta)$ 可以得到 $\rho(u) = \sum_{x \in G} u(x) \ \pi(x) . a$。
+令 $\delta$ 为 $C^{(G)}$ 的元素，由 $\delta(1) = 1, \delta(x) = 0$ 对于 $G$ 中的 $x \neq 1$ 定义。我们对所有 $u \in C^{(G)}$ 都有 $u = \sum_{x \in G} u(x) . \gamma_x \delta$，因此通过放入 $a = \rho(\delta)$ 可以得到 $\rho(u) = \sum_{x \in G} u(x) \ \pi(x) . a$。
 
-公式 (12) 和 (13) 意味着$\phi(x) = \langle a|\pi(x).a \rangle$ 对于所有 $x \in G$。我们注，所有$x \in G$的向量$\pi(x).a$中的集合，总计为$E$。
+公式 (12) 和 (13) 意味着$\phi(x) = \langle a|\pi(x).a \rangle$ 对于所有 $x \in G$。我们注，所有$x \in G$的向量$\pi(x).a$中的集合总计为$E$。
 
 ### 5. 前希尔伯特空间的凸子集
 
@@ -437,13 +437,13 @@ $$
 
 从这个恒等式我们推导出以下命题：
 
-![图表显示集合 B'、B 和 A，其中 x 和 y 标记在 A](https://i.imgur.com/3Q5z5QG.png) 内
+![图表显示集合 B'、B 和 A，其中 x 和 y 标记在 A 内](https://i.imgur.com/3Q5z5QG.png)
 
 图 1.
 
 #### 命题 5 {#evt-v-s1-prop-5 .statement tag=07XP}
 
-— 设 $E$ 为前希尔伯特空间。令$d$为实数$> 0$，$\delta$实数，使得$0 \leqslant \delta \leqslant d$。令$B$和$B'$为由$\| x \| < d$定义的$E$的子集，
+— 设 $E$ 为前希尔伯特空间。令$d$为实数$> 0$，$\delta$实数，使得$0 \leqslant \delta \leqslant d$。令$B$和$B'$为由$\| x \| < d$定义的$E$中的子集，
 
 $$
 \|x\| \leq d + \delta \text{ respectively, and let } A \text{ be a convex set contained in } B' - B. \text{ Then for every pair of points } x, y \text{ of } A, \text{ we have } \|x - y\| \leq \sqrt{12d\delta} \text{ (fig. 1).}
@@ -462,7 +462,7 @@ $$
 $$
 *对于所有人*$y \in H$。
 
-![图表显示点 x、点 y，以及标记为 a + λ(y − a)](https://i.imgur.com/3Q5z5QG.png) 的线段
+![图表显示点 x、点 y 和标记为 a + λ(y − a) 的线段](https://i.imgur.com/3Q5z5QG.png)
 
 图 2.
 
@@ -525,11 +525,11 @@ $$
 
 如果 M 非空，则 $d(x, H) \leq d(x, M)$ 对于所有 $H \in \Phi$ 和所有 $x \in E$。
 
-相反，假设 E 中存在点 $x_0$ 和实数 $C \geq 0$，使得 $d(x_0, H) \leq C$ 对于所有 $H \in \Phi$。设 $x \in E$；然后
+相反，假设E中存在点$x_0$和实数$C \geq 0$，使得$d(x_0, H) \leq C$对于所有$H \in \Phi$。 设 $x \in E$；那么
 $$
 d(x, H) \leq \|x - x_0\| + C \quad \text{for all } H \in \Phi,
 $$
-因此数 $d = \sup_{H \in \Phi} d(x, H)$ 是有限的。令 B 为所有 $z \in E$ 中的集合，使得 $\|x - z\| \leq d$。由于 B 是凸的并且在 E 中是闭的，因此对于 $\Phi$ 范围内的 H，集合 $H \cap B$ 是凸的、Hausdorff 且完备的。令 $\varepsilon > 0$；存在集合$H \in \Phi$使得$d(x, H) \geq d - \varepsilon$，并且如果$\varepsilon < d/2$，则$H \cap B$的直径由prop以$\sqrt{12 \varepsilon (d - \varepsilon)}$为界。 5（V，p. 9）。在其他字中，对于所有$H_0 \in \Phi$，对于$H \in \Phi$和$H \subset H_0$，豪斯多夫上的柯西滤波器的闭集合$H \cap B$，形式基以及完整的空间$H_0$。因此交的集合 $H \cap B$（对于 $H \in \Phi$）约化到点 y。我们得到$y \in M$和$\|x - y\| = d = d(x, M)$。由于 M 在 $H_0$ 中是闭集，因此它是 E 中凸且完备的 Hausdorff 集合，因而 $y = p_M(x)$。对于每个$H \in \Phi$，我们有$p_H(x) \in H \cap B$，从中我们得到$p_M(x) = \lim_{H \in \Phi} p_H(x)$。
+因此数 $d = \sup_{H \in \Phi} d(x, H)$ 是有限的。 令 B 为所有 $z \in E$ 中的集合，使得 $\|x - z\| \leq d$。 由于 B 是凸的并且在 E 中是闭的，因此集合 $H \cap B$，对于范围超过 $\Phi$ 的 H，是凸的、豪斯多夫且完备的。 设 $\varepsilon > 0$；存在集合$H \in \Phi$使得$d(x, H) \geq d - \varepsilon$，并且如果$\varepsilon < d/2$，则$H \cap B$的直径由prop以$\sqrt{12 \varepsilon (d - \varepsilon)}$为界。 5（V，p. 9）。 在其他字中，对于所有$H_0 \in \Phi$，对于$H \in \Phi$和$H \subset H_0$，封闭的集合$H \cap B$，对于豪斯多夫上的柯西滤波器的形式基以及完整的空间$H_0$。 因而，集合$H \cap B$（对于$H \in \Phi$）约化到点y的交。 我们得到$y \in M$和$\|x - y\| = d = d(x, M)$。 由于 M 在 $H_0$ 中是闭集，因此它是 E 中凸且完备的 Hausdorff 集合，因而 $y = p_M(x)$。 对于每个$H \in \Phi$，我们有$p_H(x) \in H \cap B$，从中我们得到$p_M(x) = \lim_{H \in \Phi} p_H(x)$。
 
 #### 命题 7 {#evt-v-s1-prop-7 .statement tag=07XU}
 
@@ -538,11 +538,11 @@ $$
 p_N(x) = \lim_{H \in \Psi} p_H(x) \text{ for all } x \in E.
 $$
 
-很明显，A 是凸的，因此它的闭包 N 是凸的（II，p. 13）。具有记号的支撑。 6、$d(x, N) = \inf_{H \in \Psi} d(x, H)$，因此相对于$\Psi$的截面滤波器，$d(x, N)$是$d(x, H)$的极限。自 $p_H(x) \in H$ 起
+很明显，A 是凸的，因此它的闭包 N 是凸的（II，p. 13）。具有记号的支撑。 6、$d(x, N) = \inf_{H \in \Psi} d(x, H)$，因此相对于$\Psi$的截面滤波器，$d(x, N)$是$d(x, H)$的极限。从 $p_H(x) \in H$ 开始
 $$
 \lim_{H \in \Psi} \|x - p_H(x)\| = \lim_{H \in \Psi} d(x, H) = d(x, N),
 $$
-它来自cor。相对于$\Psi$的截面滤波器，$p_H(x)$倾向于$x$的投影$p_N(x)$到N上的V、p. 11的1。
+它来自cor。相对于$\Psi$的截面过滤器，$p_H(x)$倾向于$x$的投影$p_N(x)$到N上的V、p. 11的1。
 
 ### 6. 向量子空间和正投影仪
 
@@ -620,17 +620,17 @@ $$
 
 显然，$q$的像包含在$M + N$中；然而，我们有 $p_N(x) = x$，因此对于所有 $x \in N$ 都有 $q(x) = x$；因为我们还有 $q = p_M + p_N - p_N p_M$，所以对于所有 $x \in M$，我们得到 $q(x) = x$。我们结论认为$q$的像等于$M + N$。 $M + N$的正交等于$M^\circ \cap N^\circ$，$q$的核显然是包含$M^\circ \cap N^\circ$，因此$q = p_{M+N}$。这证明了b)。
 
-我们有$p_M p_N = 0$当且仅当$p_N$的像$N$包含在$p_M$的核$M^\circ$中，也就是说，当且仅当$M$与$N$正交。 断言 c) 的其余部分是 b) 的特例。
+我们有$p_M p_N = 0$当且仅当$p_N$的像$N$包含在$p_M$的核$M^\circ$中，也就是说，当且仅当$M$与$N$正交。 断言 c) 的其余部分就是 b) 的特例。
 
 #### 注 {#evt-v-s1-n6-rem-1 .statement tag=07XZ}
 
-— 令 $E$ 为希尔伯特空间和 $M, N$ $E$ 的两个闭向量子空间。 关系 $M \subset N$ 等价于 $M$ 和 $N^\circ$ 的正交性，即通过 prop 与关系 $p_M p_{N^\circ} = 0$ 正交。 9、c)。因为我们有 $p_{N^\circ} = 1 - p_N$，所以结论 *关系* $M \subset N$ *和* $p_M = p_M p_N$ *是等价的*（《三个垂直线定理》，*cf.* 图 3）。
+— 令 $E$ 为希尔伯特空间和$M, N$ $E$ 的两个闭向量子空间。 关系 $M \subset N$ 等价于 $M$ 和 $N^\circ$ 的正交性，即通过 prop 与关系 $p_M p_{N^\circ} = 0$ 正交。 9、c)。因为我们有 $p_{N^\circ} = 1 - p_N$，所以结论 *关系* $M \subset N$ *和* $p_M = p_M p_N$ *是等价的*（《三个垂直线定理》，*cf.* 图 3）。
 
 ![图表显示子空间 M、N 和投影 p_M(x)、p_N(x)](https://i.imgur.com/3Q5z5QG.png)
 
 图 3.
 
-### 7. 希尔伯特对偶空间
+### 7. 希尔伯特的对偶空间
 
 #### 定理 3 {#evt-v-s1-thm-3 .statement tag=07Y0}
 
@@ -678,7 +678,7 @@ $$
 \|f\| = \sup_{\substack{x \in E, y \in F \\ \|x\| \leq 1, \|y\| \leq 1}} |f(y, x)| .
 $$
 
-很明显，对于所有$u \in \mathscr{L}(E; F)$，$\Phi_u$ 是倍半线性且连续的。相反，令 $f$ 为 $F \times E$ 上的连续倍半线性形式。对于每个 $x \in E$，映射 $y \mapsto f(y, x)$ 是希尔伯特空间 F 上的连续线性形式。 3、对于每个$x \in E$，F中都存在唯一元素$u(x)$，使得对于所有$y \in F$都有$f(y, x) = \langle u(x)|y \rangle$。 映射 $u : x \mapsto u(x)$ 从 E 到 F 是线性的，我们有
+很明显，对于所有$u \in \mathscr{L}(E; F)$，$\Phi_u$ 是倍半线性且连续的。相反，令 $f$ 为 $F \times E$ 上的连续倍半线性形式。对于每个 $x \in E$，映射 $y \mapsto f(y, x)$ 是希尔伯特空间 F 上的连续线性形式。 3、对于每个$x \in E$，F中都存在唯一元素$u(x)$，使得$f(y, x) = \langle u(x)|y \rangle$对于所有$y \in F$。从 E 到 F 的映射 $u : x \mapsto u(x)$ 是线性的，我们有
 
 $$
 \begin{align*}
@@ -691,7 +691,7 @@ $$
 
 $^1$ 回想一下（A，IX, § 1, No. 5），$F \times E$上的倍半线性形式（左侧）$f$是从$F \times E$到K的映射，满足V的关系（1）和（2）， p. 1。
 
-典范映射从E到其双数E''（IV，p. 14）映射E到E''，在其他字（IV，p. 16）中，E是自反Banach空间。事实上，如果 E 是实数（或复数）希尔伯空间，则从 E' 到 E 的典范映射 φ 是从范数空间 E' 到 E 的同构（或到 E 的共轭空间 $\overline{E}$）； 应用th。从 3 到 E（分别为 E），我们看到标准化空间 E' 上的每个连续线性形式都是形式 $x' \mapsto \langle \phi(x')|x \rangle = \langle x, x' \rangle$ 和 $x \in E$，因此我们的断言如下。
+典范映射从E到其双数E''（IV，p. 14）映射E到E''，在其他字（IV，p. 16）中，E是自反Banach空间。事实上，如果 E 是实数（或复数）希尔伯特空间，则从 E' 到 E 的典范映射 φ 是从范数空间 E' 到 E 的同构（或到 E 的共轭空间 $\overline{E}$）； 应用th。从 3 到 E（分别为 E），我们看到范数空间 E' 上的每个连续线性形式都是形式 $x' \mapsto \langle \phi(x')|x \rangle = \langle x, x' \rangle$ 和 $x \in E$，因此我们的断言如下。
 
 作为推论（IV，p. 17，第 6 条）：
 
@@ -701,14 +701,14 @@ $^1$ 回想一下（A，IX, § 1, No. 5），$F \times E$上的倍半线性形�
 
 #### 命题 10 {#evt-v-s1-prop-10 .statement tag=07Y4}
 
-*如果在希尔伯空间 E 中，滤波器$\mathfrak{F}$ 弱收敛到$x_0$，并且如果$\lim_{\mathfrak{F}} \|x\| = \|x_0\|$，则对于 E 的初始拓扑，$\mathfrak{F}$ 收敛到$x_0$。*
+*如果在希尔伯空间 E 中，滤波器 $\mathfrak{F}$ 弱收敛到 $x_0$，而且如果$\lim_{\mathfrak{F}} \|x\| = \|x_0\|$，则对于 E 的初始拓扑，$\mathfrak{F}$ 收敛到 $x_0$。*
 
-事实上，$\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$。由于$\langle x|x_0 \rangle$相对于$\mathfrak{F}$趋向于$\|x_0\|^2$，假设，并且$\|x\|$相对于$\mathfrak{F}$趋于$\|x_0\|$，$\|x - x_0\|$相对于$\mathfrak{F}$趋于0，因此命题。
+事实上，$\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$。由于$\langle x|x_0 \rangle$相对于$\mathfrak{F}$趋向于$\|x_0\|^2$假设，并且$\|x\|$相对于$\mathfrak{F}$趋于$\|x_0\|$，$\|x - x_0\|$相对于$\mathfrak{F}$趋于0，因此命题。
 
 #### 注 {#evt-v-s1-n7-rem-1 .statement tag=07Y5}
 
-— 如果 E 是 Hausdorff prehilbertian 空间且 $\hat{E}$ E 的希尔伯特空间补全，我们知道 (III, p. 16) E 的对偶 E' 可以与 $\hat{E}$ 的对偶识别；然后从 th 得出。 3 (V, p. 15) E 上的每个连续线性形式都可以以独特的方式写为 $x \mapsto \langle a|x \rangle$，其中 $a \in \hat{E}$。
+— 如果 E 是 Hausdorff prehilbertian 空间且$\hat{E}$ E 的希尔伯特空间补全，我们知道 (III, p. 16) E 的对偶 E' 可以与 $\hat{E}$ 的对偶识别；然后从 th 得出。 3 (V, p. 15) E 上的每个连续线性形式都可以以独特的方式写为 $x \mapsto \langle a|x \rangle$，其中 $a \in \hat{E}$。
 
-### 习题{#evt-v-s1-exercises}
+### 习题 {#evt-v-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

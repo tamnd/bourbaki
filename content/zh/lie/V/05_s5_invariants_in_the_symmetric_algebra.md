@@ -32,29 +32,29 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: 33647f9a104a8ebdd69e3ac20058d7173afde1aaddb957efab958d14973610de
+content_sha256: 8d334010a254b8b4ee8a583692cffd179f60b40f84e4538d228e8bd699d3b789
 translated_from: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
 translation_method: google
 source_content_sha256: e03c327d566ef0c0dd1d94c08b0a827fa85cb2422277168f24def9c332b2f53c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8d6f04c4d1374308a987afd9550ff182c714b166dcec7aad33b409aeb04ad9f2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。对称代数中的不变量
 
 ### 1. 庞加莱级数分级代数
 
-Let K be 交换环 with 单位元, not reduced to 0. Let M be a graded K-模 of 型 $\mathbf{Z}$, and $M_n$ 集合 of homogeneous 元素 of M of 次数 n.假设每个 $M_n$ 都是自由的并且有有限的型。然后为所有n定义秩$\mathrm{rk}_K(M_n)$（交换代数，第II, § 5, no. 3）。
+令K为交换环和单位元，不减少到0。令M为型$\mathbf{Z}$的分级K-模，以及次数n的M的齐次元素的$M_n$集合。假设每个$M_n$都是自由的并且有有限的型。然后为所有n定义秩$\mathrm{rk}_K(M_n)$（交换代数，第II, § 5, no. 3）。
 
 #### 定义 1 {#lie-v-s5-def-1 .statement tag=0ASK}
 
-*If there exists* $n_0 \in \mathbf{Z}$ *such that* $M_n = 0$ *for* $n \leq n_0$, *formal 级数* $\sum_{n \geq n_0} \mathrm{rk}_K(M_n) T^n$, *which is 元素 of* $\mathbf{Q}((T))$, *is called the Poincaré 级数 of* M *and denoted by* $P_M(T)$。
+*如果存在* $n_0 \in \mathbf{Z}$ *使得* $M_n = 0$ *对于* $n \leq n_0$，*正式的级数* $\sum_{n \geq n_0} \mathrm{rk}_K(M_n) T^n$，*是* $\mathbf{Q}((T))$的元素，*称为* M *的庞加莱级数，并表示为* $P_M(T)$。
 
-令$M'$为另一个分级为型$\mathbf{Z}$的K-模，以及$(M'_n)_{n \in \mathbf{Z}}$其分级。假设当 n 小于某个数时，$M'_n$ 为零。然后
+令$M'$为另一个分级为型$\mathbf{Z}$中的K-模，以及$(M'_n)_{n \in \mathbf{Z}}$其分级。假设当 n 小于某个数时，$M'_n$ 为零。然后
 
 $$
 P_{M \oplus M'}(T) = P_M(T) + P_{M'}(T)
@@ -68,7 +68,7 @@ $$
 
 #### 命题 1 {#lie-v-s5-prop-1 .statement tag=0ASL}
 
-*Let* $S = \bigoplus_{n \geq 0} S_n$ *be a commutative graded K-代数 with 系统 of 生成元* $(x_1, x_2, \ldots, x_m)$ *由……组成 of homogeneous and algebraically independent 元素.设*$d_i$*为*$x_i$的次数，*并假设*$d_i > 0$*对于所有*i。 *那么*$S_n$*是免费的，并且有限秩超过*K，*和*
+*令* $S = \bigoplus_{n \geq 0} S_n$ *为齐次且代数独立的元素的可交换分级K-代数与生成元* $(x_1, x_2, \ldots, x_m)$ *由……组成的系统。设*$d_i$*为*$x_i$的次数，*并假设*$d_i > 0$*对于所有*i。 *那么*$S_n$*是免费的，并且有限秩超过*K，*和*
 
 $$
 P_S(T) = \prod_{i=1}^m (1 - T^{d_i})^{-1}.
@@ -82,17 +82,17 @@ $$
 
 并且应用(2)就足够了。
 
-根据命题1的假设，我们可以说S是*K上的*分级多项式代数。
+根据命题 1 的假设，我们可以说 S 是一个*K 上的*分级多项式代数。
 
 #### 推论 {#lie-v-s5-n1-cor-1 .statement tag=0ASM}
 
 *次数* $d_i$ *由* S 确定至阶。
 
-事实上，$P_S(T)$的倒数是多项式$N(T) = \prod_{i=1}^m (1 - T^{d_i})$，因此它是唯一确定的。 If q is 整数 $\geq 1$ and if $\zeta \in \mathbf{C}$ is a primitive qth 根 of 单位元, 重数 of 根 $\zeta$ of $N(T)$ is equal to 数 of $d_i$ 是 $q$ 中的倍数。这个数是$q$足够大的零。因此，$d_i$等于$q$的数是通过降序归纳唯一确定的。
+事实上，$P_S(T)$的倒数是多项式$N(T) = \prod_{i=1}^m (1 - T^{d_i})$，因此它是唯一确定的。如果 q 是整数 $\geq 1$ 并且 $\zeta \in \mathbf{C}$ 是单位元的原始 qth 根，则 $N(T)$ 的根 $\zeta$ 的重数等于数 $d_i$ 是倍数 / $q$。这个数是$q$足够大的零。因此，$d_i$等于$q$的数是通过降序归纳唯一确定的。
 
-整数 $d_i$ are called the characteristic 次数 of S. 数 of them is equal to the transcendence 次数 of S over K when K is 域;我们也将其称为一般情况下 S 右 K 的超越次数。它是多项式$N(T)$的根1的重数。
+整数 $d_i$称为S的特征次数，其中数等于K为域时S对K的超越次数；我们也将其称为一般情况下 S 右 K 的超越次数。它是多项式$N(T)$的根1的重数。
 
-Let $S = \bigoplus_{n \geq 0} S_n$ be a commutative graded K-代数, and $R = \bigoplus_{n \geq 0} R_n$ a graded 子代数 of S. *Assume that each $R_n$ is free and of finite 型*, and that the R-module S admits a finite 基由……组成均质元素 $z_1, z_2, \ldots, z_N$ 的次数 $f_1, f_2, \ldots, f_N$。那么，如果 M 表示分级 K-模 $\sum_{j=1}^N Kz_j$，则分级 K-模 S 同构于 $R \otimes_K M$，因此每个 $S_n$ 都是自由且有限的型且
+令 $S = \bigoplus_{n \geq 0} S_n$ 为 S 的交换分级 K-代数，$R = \bigoplus_{n \geq 0} R_n$ 为 S 的分级子代数。 *假设每个 $R_n$ 是自由的且具有有限的型*，并且 R 模 S 承认有限的基由……组成均质元素 $z_1, z_2, \ldots, z_N$ 的次数 $f_1, f_2, \ldots, f_N$。那么，如果 M 表示分级 K-模 $\sum_{j=1}^N Kz_j$，则分级 K-模 S 同构于 $R \otimes_K M$，因此每个 $S_n$ 都是自由且有限的型且
 
 $$
 P_S(T) = P_M(T)P_R(T) = \left( \sum_{j=1}^N T^{f_j} \right) P_R(T).
@@ -111,7 +111,7 @@ $$
 
 （三）$N p_1 p_2 \ldots p_r = q_1 q_2 \ldots q_r$。
 
-公式 (4) shows first of all that 重数 of 根 1 is the same in the polynomials $P_S(T)^{-1}$ and $P_R(T)^{-1}$ and, taking (3) into account, proves both (i) and (ii).
+公式 (4) 首先证明根 1 的重数在多项式$P_S(T)^{-1}$和$P_R(T)^{-1}$中是相同的，并且考虑到(3)，证明了(i)和(ii)。
 
 由(ii)可知
 
@@ -137,9 +137,9 @@ $$
 
 ### 2. 有限线性群的不变量：模属性
 
-设 K 为交换环、V K-模，G 群作用于 V。我们知道，V扩展的每个自同构都与对称代数$S = S(V)$的自同构唯一，因此G作用于这个代数。如果$x \in S$和$g \in G$，我们用$x$的$g_S.x$变换表示$g$。令R为G下元素不变量形成的S的子代数$S^G$。
+令K为交换环，V K-模，G群作用于V。我们知道，V扩展的每个自同构对于对称代数$S = S(V)$的自同构都是唯一的，因此G作用于这个代数。如果$x \in S$和$g \in G$，我们用$g$表示$x$的$g_S.x$变换。设 R 为 G 下元素不变量形成的 S 的子代数 $S^G$。
 
-假设G是有限的，V是有限的型，K是诺特。那么 S 是有限型的 R 模，R 是有限型的 K-代数（交换代数，第 V, §1, no. 9，第 2 章）。假设S是整数，并令N为其分数的域。 R 的分数 L 域是 G 下 N 不变量的元素集合（参见第 23 条命题 Cor.），因此 N 是 L 的伽罗瓦扩张。 N 中的每个元素都可以写成 $z/t$ 与 $z \in S$ 和 $t \in R$（参见第 23 条命题）。 代数，第 1 章II, §7, no. 10，科。 26号提案3中，R模S的秩是$[N : L]$。假设 G 忠实地执行V。 N超过L的伽罗瓦群可以用G来识别，所以$[N : L] = \mathrm{Card}\, G$；因此
+假设G是有限的，V是有限的型，K是诺特。那么 S 是有限型的 R 模，R 是有限型的 K-代数（交换代数，第 V, §1, no. 9，第 2 章）。假设S是整数，并令N为其分数的域。 R 的分数 L 域是 G 下 N 不变量的元素集合（参见第 23 条命题 Cor.），因此 N 是 L 的伽罗瓦扩张。 N 中的每个元素都可以用 $z \in S$ 和 $t \in R$ 写成 $z/t$（参见第 23 条命题）。 代数，第 1 章II, §7, no. 10，科。根据第 26 条命题 3，R 模 S 的秩是$[N : L]$。假设 G 忠实地执行V。 N超过L的伽罗瓦群可以用G来识别，所以$[N : L] = \mathrm{Card}\, G$；因此
 
 $$
 \mathrm{rk}_R(S) = [N : L] = \mathrm{Card}(G).
@@ -149,17 +149,17 @@ $$
 
 #### 定理 1 {#lie-v-s5-thm-1 .statement tag=0ASP}
 
-*设 K 为交换域，V K 上的有限维向量空间，S = S(V) V 的对称代数，V 自同构的 G 有限群，R 为分级S 的子代数元素的由……组成在 G 下不变。假设 G 由赝反射 (§ 2, no. 1) 生成，且 $q = \mathrm{Card}(G)$ 与 K 的特性互质。则 R 模 S 具有 q 齐次的基由……组成元素.*
+*设 K 为交换域，V K 上的有限维向量空间，S = S(V) V 的对称代数，V 自同构的 G 有限群，R 为 S 的分级子代数元素的由……组成在 G 下不变。假设 G 由赝反射 (§ 2, no. 1) 生成，$q = \mathrm{Card}(G)$ 与 K 的特性互质。则 R 模 S 具有 q 齐次元素的基由……组成。*
 
-a) 由于$S/(R_+S)$的每个子模在$R_0 = K$上都是自由的，因此足以证明（鉴于代数，第II, §11, no. 4章，第7条命题）典范同态从$R_+ \otimes_R S$到S是单射的。对于任何 R 模 E，用 T(E) 表示 R 模 $\mathrm{Ker}(R_+ \otimes_R E \to E)$（\*在其他字、$T(E) = \mathrm{Tor}_1^R(R/R_+, E)$\* 中）。如果E、$E'$是两个R模，$u$是从E到$E'$的同态，同态$1 \otimes u$从$R_+ \otimes E$到$R_+ \otimes E'$定义乘限制到T(E) 同态从T(E)到T($E'$)，我们用$T(u)$表示。如果从$E'$到R模块$E''$，$u'$是同态，我们有$T(u' \circ u) = T(u') \circ T(u)$。因此，如果 G 对 E 进行 R 线性作用，则 G 对 T(E) 进行作用。
+a) 由于$S/(R_+S)$的每个子模在$R_0 = K$上都是自由的，因此足以证明（鉴于代数，第II, §11, no. 4章，命题7）典范同态从$R_+ \otimes_R S$到S是单射的。对于任何 R 模 E，用 T(E) 表示 R 模 $\mathrm{Ker}(R_+ \otimes_R E \to E)$（\*在其他字、$T(E) = \mathrm{Tor}_1^R(R/R_+, E)$\* 中）。如果E、$E'$是两个R模，$u$是从E到$E'$的同态，同态$1 \otimes u$从$R_+ \otimes E$到$R_+ \otimes E'$定义由限制到T(E)同态从 T(E) 到 T($E'$)，我们用 $T(u)$ 表示。如果从$E'$到R模块$E''$，$u'$是同态，我们有$T(u' \circ u) = T(u') \circ T(u)$。因此，如果 G 对 E 进行 R 线性作用，则 G 对 T(E) 进行作用。
 
-b) 群 G 线性地作用于 S，因此也作用于 T(S)。此外，T(S) 具有自然的结构分级 S 模。我们首先证明，如果$g \in G$，则$g$变换每个元素$x$T(S)到元素与$x$模$S_1 T(S)$全等。当$g$是伪反射时，这样做就足够了。那么V中存在非零向量$v$，使得$g(x) - x \in K v$对于所有$x \in V$。由于 V 生成 S，因此$g_S$ 对 $S/Sv$ 的作用微不足道。因此，对于任意 $y \in S$，S 中存在元素 $h(y)$，使得
+b) 群 G 线性地作用于 S，因此也作用于 T(S)。 此外，T(S) 具有自然的结构分级 S 模。 We show first that, if $g \in G$, then $g$ transforms every element $x$ of T(S) into an element congruent to $x$ modulo $S_1 T(S)$. 当$g$是伪反射时，这样做就足够了。 那么V中存在非零向量$v$，使得$g(x) - x \in K v$对于所有$x \in V$。 由于 V 生成 S，因此$g_S$ 对 $S/Sv$ 的作用微不足道。 因此，对于任何 $y \in S$，S 中都存在元素 $h(y)$，使得
 
 $$
 g_S(y) - y = h(y)v.
 $$
 
-由于S是整数且$v$非零，因此这个元素由$y$唯一确定； $h$ 是 R 模 S 的次数 – 1 的自同态，即直接的。因此，$g_S - 1_S = m_v \circ h$，其中 $m_v$ 表示位似，其比率为 S 中的$v$。因此，
+由于S是整数且$v$非零，因此这个元素由$y$唯一确定； 直接的 $h$ 是 R 模 S 的次数 – 1 的自同态。因此，$g_S - 1_S = m_v \circ h$，其中 $m_v$ 表示位似，S 中的比率为 $v$。因此，
 
 $$
 T(g_S) - 1_{T(S)} = T(g_S - 1_S) = T(m_v) \circ T(h),
@@ -381,7 +381,7 @@ $$
 \sum_{i=1}^{l} \frac{k_i - 1}{2} = \sum_{g \in H} \frac{1}{1 - \lambda(g)}. \tag{18}
 $$
 
-现在，G 的元素留下给定超平面的固定点，留下稳定的超平面的互补线（附录，命题 2），因此形式是由代数得到的 G 的循环子群 G'，第 1 章。 V, § 11, no. 1，Th。 1. 令 t 为 G' 的阶； $g \in G'$的$\lambda(g)$的值是$\theta, \theta^2, \ldots, \theta^{t-1}$，其中$\theta$是单位元的原始第t个根。 我们有$\frac{1}{1-\theta^i} + \frac{1}{1-\theta^{t-i}} = 1$，所以$\sum_{g \in G', g \neq 1} \frac{1}{1-\lambda(g)} = \frac{1}{2}(t-1) = \frac{1}{2}\mathrm{Card}(H \cap G')$。 等式 (18) 由此证明命题。
+现在，G 的元素留下给定超平面的固定点，留下稳定的超平面的互补线（附录，命题 2），因此形式是由代数生成的 G 的循环子群 G'，第 1 章。 V, § 11, no. 1，Th。 1. 令 t 为 G' 的阶； $g \in G'$的$\lambda(g)$的值是$\theta, \theta^2, \ldots, \theta^{t-1}$，其中$\theta$是单位元的原始第t个根。 我们有$\frac{1}{1-\theta^i} + \frac{1}{1-\theta^{t-i}} = 1$，所以$\sum_{g \in G', g \neq 1} \frac{1}{1-\lambda(g)} = \frac{1}{2}(t-1) = \frac{1}{2}\mathrm{Card}(H \cap G')$。 等式 (18) 由此证明命题。
 
 #### 注 {#lie-v-s5-n3-rem-1 .statement tag=0ASZ}
 
@@ -393,7 +393,7 @@ $$
 
 令 $f$ 为代数 S 的自同构，即扩展自同构 $-1$ V。那么$f(z) = (-1)^{\deg z} z$对于S中的所有齐次$z$。因而，如果$-1 \in G$，则R的奇数次数的每个齐次元素都是零，并且$k_i$都是偶数。相反，如果$k_i$都是偶数，则R的每个元素在$f$下都是不变的，伽罗瓦理论表明$-1 \in G$。
 
-### 4.反不变元素
+### 4. 反不变元素
 
 我们保留 Th 的假设和记号。 3，并假设K的特征为0。 S 的元素 $z$ 在 G 下被称为“反不变式”，如果
 
@@ -515,4 +515,4 @@ $$
 
 ### 习题{#lie-v-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

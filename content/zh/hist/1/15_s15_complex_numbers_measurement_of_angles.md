@@ -11,19 +11,19 @@ pdf_pages: 0163-0166
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 44f7424a8154fbba0d379ddfc64e56384d0f1ec504187fc1ace1a99580c2faa4
+content_sha256: 9c1e282f36c43e08a19b28e5269b34f86e7762a810330b9b692ab0fc97d59a7a
 translated_from: content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md
 translation_method: google
 source_content_sha256: 762c9dd6e1e60b1c347a64e7ac399ccd6fed4561abdfe5ea90a36bc9b0e50293
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c7cc04754c1211ee4e3d439c5242327d6e5cf9cec942e04f482a7b37f3acf3cc
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 15. 复数;角度测量。
+## 15. 复数；角度测量。
 
 我们不会在这里再次完整地揭示复数或四元数理论的历史发展，这些理论本质上属于代数的领域（见第72和62页）；但我们会说一些关于虚数数的几何表示的字，它在许多方面构成了数学史上的决定性进步。
 

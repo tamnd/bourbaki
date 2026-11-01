@@ -26,16 +26,16 @@ subsections:
       pdf_page: 133
 statements: 18
 exercises: 13
-content_sha256: 90645c601efd436e2cab914d1b5c36ea11bd4da2556c72bf23d27b5e9e8ee7c9
+content_sha256: 3e6a795b93d015e70746622fbc75c3ee16ae464159c2ee4fb7145d557b2b6402
 translated_from: content/en/alg/V/03_s3_algebraic_extensions.md
 translation_method: google
 source_content_sha256: c809206feded65830ffb1a1abf8e7582212bebf99082b59eeb85c7c315e737bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a57980bdb0b113a09dd83c7fc8cf933c46f93e337da0dd9dd7ea53ecec49991c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。代数扩张
@@ -86,17 +86,17 @@ Let $E$ be an extension of a field $K$ and $x$ an element of $E$ which is root o
 
 #### 例 1 {#alg-v-s3-n1-exa-1 .statement tag=06HM}
 
-在复数$\mathbf{C}$的域中，数$i$是次数2在素数域$\mathbf{Q}$上的代数；如果$f(X) = X^2 + 1$，则$f(i) = 0$，$x^2 + 1 \neq 0$ 对于所有$x \in \mathbf{Q}$，因此$i \notin \mathbf{Q}$。 域 $\mathbf{Q}(i)$ 因此是扩张 / 次数 2 / $\mathbf{Q}$；它由所有数$a + bi$组成，其中$a, b$是有理数。同样，$i$是次数2对实数的域$\mathbf{R}$的代数，$\mathbf{C}$是$\mathbf{R}$的次数2的扩张。 \*
+在复数$\mathbf{C}$的域中，数$i$是次数2在素数域$\mathbf{Q}$上的代数；如果$f(X) = X^2 + 1$，则$f(i) = 0$，$x^2 + 1 \neq 0$ 对于所有$x \in \mathbf{Q}$，因此$i \notin \mathbf{Q}$。因此，域$\mathbf{Q}(i)$是扩张 / 次数 2 / $\mathbf{Q}$；它由所有数$a + bi$组成，其中$a, b$是有理数。同样，$i$是次数2对实数的域$\mathbf{R}$的代数，$\mathbf{C}$是$\mathbf{R}$的次数2的扩张。 \*
 
 #### 例 2 {#alg-v-s3-n1-exa-2 .statement tag=06HN}
 
-设$K$为域且$F$域$K(X)$有理数函数在$K$上的一个不定数。设$E$为$F$的子域$K(X^3)$；我们有$F = E(X)$，$X$是$E$的代数，因为它是环$E[Y]$的多项式$Y^3 - X^3$的根；这个多项式在 $E[Y]$ 中是不可约的，因为在相反的情况下，它将至少有第一个次数中的一个因子，然后将存在 $K[X]$ 的两个非零多项式 $u(X)$、$v(X)$，使得 $(u(X^3))^3 = X^3(v(X^3))^3$ 是荒谬的，因为如果$m$和$n$是$u$和$v$的次数，这意味着$9m = 9n + 3$或$3m = 3n + 1$。因此，域$F$是次数3除以$E$，并且$F$的每个元素都可以用一种方式写为线性组合$f(X^3) + Xg(X^3) + X^2 h(X^3)$，其中$f, g, h$是有理分式的三个$K(X)$。
+令$K$为域且$F$域$K(X)$有理函数在$K$上的一个不定数。设$E$为$F$中的子域$K(X^3)$；我们有$F = E(X)$，$X$是$E$的代数，因为它是环$E[Y]$的多项式$Y^3 - X^3$的根；这个多项式在 $E[Y]$ 中是不可约的，因为在相反的情况下，它将至少有第一个次数中的一个因子，然后将存在两个非零多项式 $u(X)$、$v(X)$ 和 $K[X]$，这样 $(u(X^3))^3 = X^3(v(X^3))^3$ 是荒谬的，因为如果$m$和$n$是$u$和$v$的次数，这意味着$9m = 9n + 3$或$3m = 3n + 1$。因此，域$F$是次数3除以$E$，并且$F$的每个元素都可以用一种方式写为线性组合$f(X^3) + Xg(X^3) + X^2 h(X^3)$，其中$f, g, h$是有理分式的三个$K(X)$。
 
 #### 例 3 {#alg-v-s3-n1-exa-3 .statement tag=06HO}
 
 \* 在实数的域$\mathbf{R}$中，可以证明$^1$数$\pi$超越素数域$\mathbf{Q}$。 \*
 
-### 2.代数扩张
+### 2. 代数扩张
 
 #### 定义 1 {#alg-v-s3-def-1 .statement tag=06HP}
 
@@ -136,7 +136,7 @@ $K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ 
 
 — *令L为L的K和E、F子扩展的扩张。如果 F 是 K 上的代数，则 $E \cup F$ 生成的 L 的子环 $K[E, F]$ 是域，与 $E(F)$ 一致并且是 E 上的代数。*
 
-对于$F$的每个元素，在$K$上是代数，在$E$上也是代数（$V$，p. 17，Cor.2），因此$E(F)$是$E$的代数扩张，我们有$E(F) = E[F]$，作者：Cor。 1.
+对于$F$的每个元素，在$K$上是代数，在$E$上也是代数（$V$，p. 17，Cor.2），因此$E(F)$是$E$的代数扩张，我们有$E(F) = E[F]$由科. 1.
 
 #### 注 1 {#alg-v-s3-n2-rem-1 .statement tag=06HV}
 
@@ -144,15 +144,15 @@ $K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ 
 
 #### 注 2 {#alg-v-s3-n2-rem-2 .statement tag=06HW}
 
-令 $E$ 为 $K$ 的无限次代数扩张。由 Th. 2 存在序列 $(a_i)$，其中元素 $E$ 使得$a_i \notin K(a_1, a_2, ..., a_{i-1})$； Th。图2进一步表明，$K(a_1, a_2, ..., a_n)$超过$K$的次数取任意大的值。在其他字中，如果E是K的代数扩张，使得有限次数的E的子外延F在K上的次数[F : K]有界，则E是K的有限次数的扩张。
+令 $E$ 为 $K$ 的无限次代数扩张。由 Th. 2 存在$E$的无限序列$(a_i)$，元素使得$a_i \notin K(a_1, a_2, ..., a_{i-1})$； Th。图2进一步表明，$K(a_1, a_2, ..., a_n)$超过$K$的次数取任意大的值。在其他字中，如果E是K的代数扩张，使得有限次数的E的子外延F在K上的次数[F : K]有界，则E是K的有限次数的扩张。
 
 ### 3. 代数扩张的传递性。 域在扩张域中相对代数封闭
 
 #### 命题 3 {#alg-v-s3-prop-3 .statement tag=06HX}
 
-— 令 E 和 F 为域 K 的两个扩张域，使得 K ⊂ E ⊂ F。对于 F 在 K 上的代数，E 在 K 上的代数和 F 在 E 上的代数是充分必要的。
+— 令 E 和 F 为域 K 的两个扩张域，使得 K ⊂ E ⊂ F。对于 F 是 K 上的代数，E 应该是 K 上的代数且 F 是 E 上的代数是充分必要的。
 
-条件是必要的，由V，p. 17，Cor。 2. 让我们证明它是充分的。令x为F的任意元素；它是 E 上的代数；设 g ∈ E[X] 为 E 上的最小多项式。如果 A 是 g 系数的（有限）集合，则 g ∈ K(A)[X]，因此 x 是 K(A) 上的代数，并且 K(A U {x}) = K(A)(x) 是 K(A) 上的有限次数。现在 A ⊂ E 和 E 是 K 上的代数，因此 K(A) 是 K 上的有限次数，乘以 Th。 2. 因此 (V, p. 10, Th.1), K(A U {x}) 在 K 上为有限次数，这表明 x 在 K 上是代数 (V, p. 18，命题 2)。
+条件是必要的，由V，p. 17，Cor。 2. 让我们证明它是充分的。令x为F的任意元素；它是 E 上的代数；设 g ∈ E[X] 为 E 上的最小多项式。如果 A 是 g 系数的（有限）集合，则 g ∈ K(A)[X]，因此 x 是 K(A) 上的代数，并且 K(A U {x}) = K(A)(x) 是 K(A) 上的有限次数。现在 A ⊂ E 和 E 是 K 上的代数，因此 K(A) 是 K 上的有限次数，乘以 Th。 2. 因此 (V, p. 10, Th. 1), K(A U {x}) 在 K 上为有限次数，这表明 x 在 K 上是代数 (V, p. 18，命题 2)。
 
 #### 定义 2 {#alg-v-s3-def-2 .statement tag=06HY}
 
@@ -162,12 +162,12 @@ $K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ 
 
 #### 命题 4 {#alg-v-s3-prop-4 .statement tag=06HZ}
 
-— 令 E 为扩张 / 域 K； E 的元素的集合 L，是 K 上的代数形式 E 的子扩展，在 E 中相对代数封闭。
+— 令 E 为域 K 的扩张； E 的元素的集合 L，是 K 上的代数形式 E 的子扩张，在 E 中相对代数封闭。
 
-对于域 K(L) 是 K (Th. 2 的 Cor. 1) 的代数，因此 K(L) ⊂ L；由此可知 K(L) = L 并且 L 为域。另一方面，如果 x ∈ E 是 L 上的代数，那么它在 K 上也是如此（命题 3），因此属于到 L。
+对于域 K(L) 是 K (Th. 2 的 Cor. 1) 的代数，因此 K(L) ⊂ L；由此可知 K(L) = L 且 L 为域。另一方面，如果 x ∈ E 在 L 上是代数，那么在 K 上也是如此（命题 3），因此属于到 L。
 
-E 的所有元素在 K 上代数的 K 由……组成的扩张 L 称为 K 在 E 中的相对代数闭包；它是E中包含的K的最大的代数扩张。
+E 的所有元素在 K 上的代数的 K 由……组成扩张 L 称为 K 在 E 中的相对代数闭包；它是E中包含的K的最大的代数扩张。
 
-### 习题 {#alg-v-s3-exercises}
+### 习题{#alg-v-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

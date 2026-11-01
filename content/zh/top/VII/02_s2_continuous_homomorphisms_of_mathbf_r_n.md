@@ -28,31 +28,31 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: 9a1d8eaa5b167619d0cbc3d4c4437dcc456d1f57c57245049ee0b225b52f153f
+content_sha256: 965c7f756760f6a904648b5bb37f57f8ce00cc1b15e0164f346d8051b6256a55
 translated_from: content/en/top/VII/02_s2_continuous_homomorphisms_of_mathbf_r_n.md
 translation_method: google
 source_content_sha256: 3f006ad7fa82d9c7e014ebfbbac1ca9f11dfb28040f438d97d56329bb57b038d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 707fa862900a21ed4bfc8e7db17674ce0444ce64f72f2090baeae445714015e8
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 2. $\mathbf{R}^n$ 的连续同态及其商群
 
-### 1.将群$\mathbf{R}^m$连续同态延伸到群$\mathbf{R}^n$
+### 1. 将群$\mathbf{R}^m$连续同态进入群$\mathbf{R}^n$
 
 $\mathbf{R}^m$到$\mathbf{R}^n$的每个线性映射（cf.章VI，§i，no. 3）显然是加法群$\mathbf{R}^m$到加法群的连续同态 $\mathbf{R}^n$。反之：
 
 #### 命题 1 {#top-vii-s2-prop-1 .statement tag=0BZ3}
 
-*每个连续的同态* $f$ * 属于加法群* $\mathbf{R}^m$ * 到加法群* $\mathbf{R}^n$ * 是线性映射属于* $\mathbf{R}^m$ *到* $\mathbf{R}^n$。
+*每个连续同态* $f$ * 的加法群* $\mathbf{R}^m$ * 到加法群* $\mathbf{R}^n$ * 是线性映射的 * $\mathbf{R}^m$ * 到* $\mathbf{R}^n$。
 
 对于所有$x \in \mathbf{R}^n$和所有$t \in \mathbf{R}$，足以证明$f(tx) = tf(x)$。如果我们通过$x$ 替换 $x$ 和$\mathbf{R}$ 通过$\mathbf{R}^m$，则该参数与章 V、§ i、no. 3 的命题 5 相同。
 
-### 2. 将 $\mathbf{R}^n$ 的连续同态局部定义转换为拓扑群
+### 2. 将$\mathbf{R}^n$的连续同态的局部定义转换为拓扑群
 
 章V中的命题6，§i，no. 4可以推广到所有群$\mathbf{R}^n$。
 
@@ -60,7 +60,7 @@ $\mathbf{R}^m$到$\mathbf{R}^n$的每个线性映射（cf.章VI，§i，no. 3）
 
 *设* $A$ *是* $\mathbf{R}^n$ *其中包含* $o$的平行光； *并让* $f$ *成为* $A$ *的连续映射 *转换为拓扑群* $G$ *（乘法书写）* *使得* $f(x + y) = f(x)f(y)$ *对于点* $x, y$的每个对 *这样*$x \in A,\ y \in A$*和*$x + y \in A$。 *则存在* $\mathbf{R}^n$ *到* $G$ *其中扩展* $f$的唯一连续同态。
 
-通过与章V的命题6相同的推理，§i，no. 4，我们证明延伸$f$的同态，如果存在的话，是*唯一的*。接下来，由$f(A)$生成的$G$的子群$G_1$是*可交换的*；因为如果$x$和$y$是$A$中的任意两个点，则$\frac{1}{2} x, \frac{1}{2} y$和$\frac{1}{2} (x + y)$属于到$A$，因此
+通过与章V的命题6相同的推理，§i，no. 4，我们证明延伸$f$的同态，如果存在的话，是*唯一的*。接下来，由$f(A)$生成的$G$的子群$G_1$是*可交换的*；因为如果$x$和$y$是$A$中的任意两个点，那么$\frac{1}{2} x, \frac{1}{2} y$和$\frac{1}{2} (x + y)$属于到$A$，因此
 
 $$
 f \left( \frac{1}{2} (x + y) \right) = f \left( \frac{1}{2} x \right) \quad (f \frac{1}{2} y) = f \left( \frac{1}{2} y \right) f \left( \frac{1}{2} x \right),
@@ -108,7 +108,7 @@ $$
 
 适当选择$\mathbf{R}^n$的局部同构$f$和$G$扩展到$\mathbf{R}^n$的严格态射到$G$的开放子群（命题2，推论2），因此到$G$ 本身，因为 $G$ 已连接。由此可见，$G$与$\mathbf{R}^n$的商群$\mathbf{R}^n/H$同构：$H$是*离散*，否则将存在任意接近$o$的$H$的点$x \neq o$，并且使得$f(x) = f(o)$，与假设相反，$f$是本地同构。因此，定理是推论 / 定理 1 / § 1, no. 1。
 
-### 3. $\mathbf{R}^m$连续同态进入$\mathbf{T}^n$
+### 3. 连续同态的 $\mathbf{R}^m$ 进入 $\mathbf{T}^n$
 
 #### 命题 3 {#top-vii-s2-prop-3 .statement tag=0BZ8}
 
@@ -124,19 +124,19 @@ $$
 
 #### 注 {#top-vii-s2-n3-rem-1 .statement tag=0BZ9}
 
-更一般地，相同的论证表明，如果$\varphi$是$\mathbf{R}^n$到群$G$的严格态射，其限制到o的合适邻域是$\mathbf{R}^n$与$G$的局部同构，则每个连续$\mathbf{R}^n$到$G$的同态等于形式$x \mapsto \varphi(u(x))$，其中$u$是$\mathbf{R}^m$到$\mathbf{R}^n$的线性映射。
+更一般地，相同的论点表明，如果 $\varphi$ 是 $\mathbf{R}^n$ 到群 $G$ 的严格态射，其限制到 o 的合适邻域是 $\mathbf{R}^n$ 与 $G$ 的局部同构，则每个连续$\mathbf{R}^n$到$G$的同态等于形式$x \mapsto \varphi(u(x))$，其中$u$是$\mathbf{R}^m$到$\mathbf{R}^n$的线性映射。
 
 在 $m = n = 1$ 的情况下，命题 3 给出：
 
 #### 命题 4 {#top-vii-s2-prop-4 .statement tag=0BZA}
 
-*如果$\varphi$是$\mathbf{R}$的典范同态到$\mathbf{T}$，则$\mathbf{R}$到$\mathbf{T}$的每个连续同态都是形式$x \mapsto \varphi(ax)$，其中$a \in \mathbf{R}$；如果 $a \neq 0$，则严格将 $\mathbf{R}$ 态射放到 $\mathbf{T}$。*
+*如果$\varphi$是$\mathbf{R}$的典范同态到$\mathbf{T}$，$\mathbf{R}$到$\mathbf{T}$的每个连续同态都是形式$x \mapsto \varphi(ax)$，其中$a \in \mathbf{R}$；如果 $a \neq 0$，则严格将 $\mathbf{R}$ 态射放到 $\mathbf{T}$。*
 
-### 4. 自同构 $\mathbf{T}^n$
+### 4. 自同构 / $\mathbf{T}^n$
 
 令$H$为$\mathbf{R}^n$的闭子群，并令$\varphi$为$\mathbf{R}^n$的典范同态到商群$\mathbf{R}^n/H$。如果$f$是$\mathbf{R}^n/H$到拓扑群$G$的连续同态，那么$f = f \circ \varphi$是$\mathbf{R}^n$到$G$的连续同态，它是周期性的并且有群个周期包含$H$；相反，$\mathbf{R}^n$到$G$的每个周期连续同态，其周期包含$H$的群都是这个形式。
 
-在$H = \mathbf{Z}^n$、商群$\mathbf{R}^n/\mathbf{Z}^n = \mathbf{T}^n$是*紧凑*的情况下，因此$\mathbf{T}^n$的每个连续同态$f$进入拓扑群$G$是$\mathbf{T}^n$的*严格态射* $G$，前提是$G$是豪斯多夫（章III, § 2, no. 8，注1）； $f = f \circ \varphi$ 是 $\mathbf{R}^n$ 到 $G$ 的严格态射；此外，$f(\mathbf{T}^n) = f(\mathbf{R}^n)$是$G$的*紧凑*子群，同构于群$\mathbf{T}^p$（$0 \leq p \leq n$）。
+在$H = \mathbf{Z}^n$、商群$\mathbf{R}^n/\mathbf{Z}^n = \mathbf{T}^n$是*紧凑*的情况下，因此$\mathbf{T}^n$的每个连续同态$f$进入拓扑群$G$都是$\mathbf{T}^n$的*严格态射* $G$，前提是$G$是豪斯多夫（章III, § 2, no. 8，注1）； $f = f \circ \varphi$ 是 $\mathbf{R}^n$ 到 $G$ 的严格态射；此外，$f(\mathbf{T}^n) = f(\mathbf{R}^n)$是$G$的*紧凑*子群，同构于群$\mathbf{T}^p$（$0 \leq p \leq n$）。
 
 特别是，我们看到，$\mathbf{T}^n$到群$\mathbf{R}^m$的唯一连续同态是*零*映射，因为$\{ o \}$是$\mathbf{R}^m$的唯一紧凑子群。
 
@@ -158,8 +158,8 @@ $$
 
 #### 命题 6 {#top-vii-s2-prop-6 .statement tag=0BZC}
 
-*拓扑群$\mathbf{T}$中只有同构在其子群之一上是恒等映射和对称性$x \to -x$。*
+*拓扑群 $\mathbf{T}$ 中只有同构到其子群之一上是恒等映射和对称性 $x \to -x$。*
 
 ### 习题 {#top-vii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

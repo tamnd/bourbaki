@@ -25,16 +25,16 @@ subsections:
       pdf_page: 230
 statements: 11
 exercises: 9
-content_sha256: 4f3d5892fc9586a15c01cb3c9248f5a15ad57cc0954bd3f6adacaf46e2eb9712
+content_sha256: 0e1f43b5b420f16fe1246b432447dd2878b076644399b8e69c4c2a583ba0ea4c
 translated_from: content/en/top/III/01_s1_topologies_on_groups.md
 translation_method: google
 source_content_sha256: f983e9d3b98ec2684f1a28bb47c3f0112d4c5196bbdba56270d17585e82bcb5b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: af645d61ae44436e48fc6b9beb4800774bc190d3c6cd5cdeef00e2a7b19f3c81
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 群上的拓扑
@@ -100,7 +100,7 @@ $$
 
 当 G 是可交换的群（加法书写）时，公理 (GT') 表明 $(x, y) \to x - y$ 是连续的映射。如果$f$和$g$是G中拓扑空间X的映射，在点$x_0$连续，则$f - g$在点连续。 公式 (1) 和 (2) 可以类似地转录。
 
-### 2. 群拓扑中的邻域 OF 点
+### 2. 群拓扑中的邻域 / 点
 
 令$\mathfrak{B}$为拓扑群G中单位元素$e$的邻域滤波器，并令$a$为G的任意点。由于$x \to ax$和$x \to xa$是同胚，因此$a$的邻域过滤器是集合$a.V$的族$a.\mathfrak{B}$，其中V贯穿$\mathfrak{B}$，也是集合$V.a$的族$\mathfrak{B}.a$。因此，只要我们知道群的单位元素$e$的邻域过滤器，我们就知道拓扑群的任何点的邻域过滤器。
 
@@ -172,13 +172,13 @@ $e$的邻域，其中重合及其像在对称性$x \to x^{-1}$下被称为*对�
 
 由于两个子群的交是子群，我们可以在$G$上定义拓扑，与其群结构兼容，从$G$的子群*任意*集合$\mathfrak{F}$开始：令$\mathfrak{G}$为所有子群$a.H.a^{-1}$的集合，其中$H \in \mathfrak{F}$和$a \in G$，并让$\mathfrak{B}$为子群属于的所有*有限*交的集合到$\mathfrak{G}$。那么$\mathfrak{B}$是一个过滤器基并且满足(GV$_{\text{III}}$)。
 
-特别考虑*环* $A$的加法群。 $A$定义拓扑的*理想*中的每个集合$\mathfrak{F}$都与此加法群结构兼容。如果$\mathfrak{F}$的所有理想中的交是零理想，则拓扑是Hausdorff；如果$\mathfrak{F}$的理想中没有有限的交是零理想，则该拓扑不是离散的。以这种方式定义的拓扑在数的理论中起着很大的部分的作用（参见§§ 6的习题和章的7个）。
+特别考虑 *环* $A$ 的加法群。 $A$定义拓扑的*理想*中的每个集合$\mathfrak{F}$都与此加法群结构兼容。如果$\mathfrak{F}$的所有理想中的交是零理想，则拓扑是Hausdorff；如果$\mathfrak{F}$的理想中没有有限的交是零理想，则该拓扑不是离散的。以这种方式定义的拓扑在数的理论中起着很大的部分的作用（参见§§ 6的习题和章的7个）。
 
 ### 3. 同构和本地同构
 
 根据一般的定义（*集合理论*，章IV, § 1, no. 5），拓扑群$G$*到*拓扑群$G'$的*同构*$f$是一个$G$的双射映射到$G'$，同时是* $G$的群结构的*同构到$G'$的双射，以及*$G$到$G'$的*同胚。在其他字中，$f$ 是 $G$ 的同构到 $G'$ 当且仅当： 1) $f$ 是双射； 2) $f(xy) = f(x)f(y)$ 为所有 $x, y \in G$； 3) $f$ 是双连续的。
 
-对于例，如果$a$是$G$中的任何点，映射$x \to axa^{-1}$是$G$的同构到$G$，即（*loc.cit.*），拓扑群$G$的*自同构*。它被称为*内自同构*。
+对于例，如果$a$是$G$中的任何点，则映射$x \to axa^{-1}$是$G$到$G$的同构，即（*loc.cit.*），拓扑群$G$的*自同构*。它被称为*内自同构*。
 
 如果拓扑 $\mathscr{C}$ 与群 $G$ 的群结构兼容，则 $\mathscr{C}$ 也与群结构兼容，与 $G$ 的*相反*。如果$G^0$表示通过给与$G$拓扑$\mathscr{C}$相反的群得到的拓扑群，则对称性$x \to x^{-1}$是拓扑群的*同构* $G$到拓扑群$G^0$。
 
@@ -213,4 +213,4 @@ G 与 G 的局部同构称为 G 的局部自同构。
 
 ### 习题{#top-iii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

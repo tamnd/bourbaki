@@ -30,16 +30,16 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: b6567f89f97b77f6ae7cdea1558753db233d862ad435cd2e2ddde822a85bad3c
+content_sha256: 324098e6486cedfaa879331829f23bc9b9a30109a516ec746ab910ecdd9619cf
 translated_from: content/en/alg/IV/03_s3_rational_fractions.md
 translation_method: google
 source_content_sha256: adebb07e34c4e82901da99d345bb6f746140b39d50f239de82732119ccaa1a31
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 539b55005f56f4445947fdd6a1bd57c4fbc1138de8845f6de407ec52b321795d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 有理分式
@@ -56,7 +56,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 现在令 K 为交换域、I 集合和 J ⊂ I。令 B = K[(X_i)_{i ∈ J}]，则 K[(X_i)_{i ∈ I}] = B[(X_i)_{i ∈ I - J}]，由上可知，K((X_i)_{i ∈ I}) 可以等同于 K'((X_i)_{i ∈ I - J})，其中 K' = K((X_i)_{i ∈ J})。
 
-### 2.次数
+### 2. Degrees
 
 令 K 为交换域。对于 K((X_i)_{i I}) 的每个元素 r，都存在 u, v ∈ K[(X_i)_{i ∈ I}]，使得 v ≠ 0 且 r = $\frac{u}{v}$。 关系$\frac{u}{v} = \frac{u_1}{v_1}$，其中v≠0，v_1≠0相当于uv_1=vu_1；如果 r ≠ 0，则 u ≠ 0 且 u_1 ≠ 0，因此 deg u + deg v_1 = deg v + deg u_1 (IV, p. 9)，或者 deg u − deg v = deg u_1 − deg v_1。因此，有理数整数 deg u − deg v 仅取决于 r；我们称之为次数，或者r的总次数，并用deg r表示。我们同意写 deg 0 = −∞。如果 J ⊂ I，我们同样可以关于指标 j ∈ J 的 X_j 定义次数。当 r 是多项式时，这些概念重合与 IV、p. 2 中定义的概念重合相同。
 
@@ -105,7 +105,7 @@ $$
 
 \* 映射 r ↦ −deg r 因此是域 K((X_i)_{i ∈ I}) 的离散估值。 \*
 
-### 3.代换
+### 3. Substitutions
 
 设 K 为交换域，E 为单位结合律 K-代数，$x = (x_i)_{i \in I}$ E 的成对可置换族元素。设所有非零 $v \in B$ 的 $B = K[(X_i)_{i \in I}]$ 和 $S_x$ 集合，使得 $v(x)$ 在 E 中可逆。 $u \in B,\ v \in S_x$和$f = \frac{u}{v} \in K((X_i)_{i \in I})$。 元素 $u(x)\ v(x)^{-1} = v(x)^{-1}u(x)$ 在 E 中定义；此外，如果 $u_1,\ v_1$ 是两个多项式，例如 $f = \frac{u_1}{v_1}$ 和 $v_1 \in S_x$，则 $uv_1 = vu_1$，因此 $u(x)v_1(x) = v(x)u_1(x)$ 等等
 $$
@@ -148,9 +148,9 @@ $$
     1）$f = u/v$；
     2) 为了使$x \in K^I$可以被$f$替代，$v(x) \neq 0.$是充分必要的
 
-### 4.微分和推导
+### 4. 差速器和推导
 
-设$K$为交换域。 III、p. 558、第 5 号提案，每 $K[(X_i)_{i \in I}]$ 扩展推导 $D$ 以独特的方式到 $K((X_i)_{i \in I})$ 推导 $\bar{D}$。如果$D, D'$是$K[(X_i)_{i \in I}]$的可置换推导，则括号$[D, D'] = DD' - D'D$是零，因此$[\bar{D}, \bar{D}']$是$K((X_i)_{i \in I})$的推导延伸$[D, D']$是零；在其他字、$D$和$D'$是可置换的。特别是$K((X_i)_{i \in I})$的推导$D_i$（IV，p. 6）扩展到推导再次由$D_i$表示并且是成对可置换的。如果$f \in K((X_i)_{i \in I}), D_i f$也写成$D_{x_i} f$或$\frac{\partial f}{\partial x_i}$或$f'_{x_i}$。当只有一个不确定的 $X$ 时，使用记号 $Df, \frac{df}{dX}, f'$。
+设$K$为交换域。 III、p. 558、第 5 号提案，每$K[(X_i)_{i \in I}]$ 扩展推导 $D$ 以独特的方式到 $K((X_i)_{i \in I})$ 推导 $\bar{D}$。如果$D, D'$是$K[(X_i)_{i \in I}]$的可置换推导，则括号$[D, D'] = DD' - D'D$是零，因此$[\bar{D}, \bar{D}']$是$K((X_i)_{i \in I})$的推导延伸$[D, D']$是零；在其他字、$D$和$D'$是可置换的。特别是$K((X_i)_{i \in I})$的推导$D_i$（IV，p. 6）扩展到推导再次由$D_i$表示并且是成对可置换的。如果$f \in K((X_i)_{i \in I}), D_i f$也写成$D_{x_i} f$或$\frac{\partial f}{\partial x_i}$或$f'_{x_i}$。当只有一个不确定的 $X$ 时，使用记号 $Df, \frac{df}{dX}, f'$。
 
 让$B = K[(X_i)_{i \in I}], C = K((X_i)_{i \in I})$。根据III、p. 574、第 23 号提案、典范映射
 
@@ -158,7 +158,7 @@ $$
 \Omega_K(B) \otimes_B C \to \Omega_K(C)
 $$
 
-是向量 $C$ 个空间中的同构。记住III，p. 570，我们看到向量$C$空间$\Omega_K(C)$承认基家族$(dX_i)_{i \in I}$微分的$X_i$。令$\partial_i$为指标$i$在$\Omega_K(C)$上相对于基的坐标形式。那么$C$的映射$u \mapsto (\partial_i, du)$自身就是$C$的推导，其中对于$j \neq i$，映射$X_i$为1，$X_j$为0，因此等于$D_i$；在其他字中，我们有
+是同构个向量 $C$ 个空间。记住III，p. 570，我们看到向量$C$空间$\Omega_K(C)$承认基家族$(dX_i)_{i \in I}$微分的$X_i$。令$\partial_i$为指标$i$在$\Omega_K(C)$上相对于基的坐标形式。那么$C$的映射$u \mapsto (\partial_i, du)$自身就是$C$的推导，其中对于$j \neq i$，映射$X_i$为1，$X_j$为0，因此等于$D_i$；在其他字，我们有
 
 $$
 du = \sum_{i \in I} (D_i u) dX_i
@@ -194,4 +194,4 @@ $$
 
 ### 习题 {#alg-iv-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

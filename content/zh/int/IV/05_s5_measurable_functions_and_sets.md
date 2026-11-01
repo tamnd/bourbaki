@@ -61,21 +61,21 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: bd43aae8385f9160c61b387af08e5d2ad46dfa09c56eaaff5db537b7fbec06b6
+content_sha256: 34a60e8b4d91187e0295427a4a7c9e333b513302db559e247ae24d31d2b97bc2
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 translation_method: google
 source_content_sha256: 3b5e810e086ae5ed0fb3b0f106b25333088c6f327ee0cfc196e61afb7abd9879
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8f3cb899b880182ac9254407ef0f4a8fa77079b567af3bbc77525176b41a74a4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。可测量函数和集合
 
-### 1.可测量的函数和集合的定义
+### 1. 可测量的函数和集合的定义
 
 #### 定义 1 {#int-iv-s5-def-1 .statement tag=08UC}
 
@@ -95,15 +95,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 命题 2 {#int-iv-s5-prop-2 .statement tag=08UE}
 
-*让*$(F_n)$*成为拓扑空间的序列，并且对于每个*$n$，*让*$f_n$*成为*$X$*到*$F_n$的可测量映射。 *对于每个紧集* $K \subset X$ *和每个* $\varepsilon > 0$，*存在紧集* $K_0 \subset K$ *使得* $|\mu|(K - K_0) \leq \varepsilon$ *和限制到* $K_0$ *每个函数* $f_n$ *是连续的*。
+*让*$(F_n)$*成为拓扑空间的序列，并且对于每个*$n$，*让*$f_n$*成为*$X$*到*$F_n$的可测量映射。 *对于每个紧集*$K \subset X$*和每个*$\varepsilon > 0$，*存在紧集*$K_0 \subset K$*使得*$|\mu|(K - K_0) \leq \varepsilon$*和限制到*$K_0$*每个函数*$f_n$*是连续的*。
 
-对于每个整数$n \geq 1$，都存在紧集$K_n \subset K$，使得$f_n$到$K_n$的$|\mu|(K - K_n) \leq \varepsilon / 2^n$和限制是连续的。 集合 $K_0 = \bigcap_{n=1}^\infty K_n$ 是紧致的，所有函数 $f_n$ 中的限制到 $K_0$ 都是连续的，并且由于 $K - K_0$ 包含在 $K - K_n$、$|\mu|(K - K_0) \leq \sum_{n=1}^\infty \varepsilon / 2^n = \varepsilon$ 的并中。
+对于每个整数$n \geq 1$，都存在紧集$K_n \subset K$，使得$f_n$到$K_n$的$|\mu|(K - K_n) \leq \varepsilon / 2^n$和限制是连续的。 集合$K_0 = \bigcap_{n=1}^\infty K_n$是紧致的，函数$f_n$中的限制到$K_0$是连续的，并且由于$K - K_0$包含在$K - K_n$、$|\mu|(K - K_0) \leq \sum_{n=1}^\infty \varepsilon / 2^n = \varepsilon$的并中。
 
 #### 定义 2 {#int-iv-s5-def-2 .statement tag=08UF}
 
 *子集* $A$ *of* $X$ *如果其特征函数* $\varphi_A$ *可测量*，则称其为可测量。
 
-鉴于Def。 1，同样可以说，可测量的集合 $A$ 是集合，因此，对于每个紧集 $K$，都存在可忽略不计的集合 $N \subset K$ 和划分 $(K_n)$ $K - N$由紧集的序列组成，其中每个都包含在$K \cap A$或$K \cap \complement A$中。
+鉴于Def。 1，同样可以说，可测量的集合$A$是集合，这样，对于每个紧集$K$，都存在可忽略不计的集合$N \subset K$和划分$(K_n)$ $K - N$由紧集的序列组成，其中每个都包含在$K \cap A$或$K \cap \complement A$中。
 
 这个定义立即产生以下标准：
 
@@ -111,7 +111,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *对于集合* $A$ *可测量，对于每个紧集* $K$，$A \cap K$ *可积*是充分必要的。
 
-条件是必要的，因为当$\sum_n |\mu|(A_n)$有限时，可积的集合$A_n$的序列的并是可积的（§ 4, No. 5，Prop.8的Cor.）。 条件是足够的，因为对于每个可积集合 $B$，都存在可忽略不计的集合 $N \subset B$ 和划分 $B - N$ 到序列的紧集 （§ 4, No. 6，第 4 章第 2 条）。
+条件是必要的，因为当$\sum_n |\mu|(A_n)$有限时，可积的集合$A_n$的序列的并是可积的（§ 4, No. 5，Prop.8的Cor.）。 条件是足够的，因为对于每个可积集合 $B$，存在可忽略不计的集合 $N \subset B$ 和划分 $B - N$ 到序列紧集 （§ 4, No. 6，第 4 章第 2 条）。
 
 #### 推论 1 {#int-iv-s5-prop-3-cor-1 .statement tag=08UH}
 
@@ -185,7 +185,7 @@ $$
 
 *设 $f$ 为 X 的可测量映射到拓扑空间 F。X 到 F 的每一个映射，几乎在任何地方都等于 $f$，都是可测量的。*
 
-### 3. 可测量函数的基本属性
+### 3. 可测函数的基本性质
 
 #### 定理 1 {#int-iv-s5-thm-1 .statement tag=08UR}
 
@@ -222,13 +222,13 @@ Cor 需要条件。 1;这是足够的，因为映射$x \mapsto (f^+(x), f^-(x))$
 
 — *设 F, G, H 为三个拓扑向量空间，并设 (u, v) \to [u \cdot v] 为 F \times G 到 H 的连续双线性映射。如果 f 是 X 到 F 的可测映射，g 是 X 到 G 的可测映射，则[f \cdot g] 是 X 到 H 中可测量的映射。*
 
-特别是，如果 f 是 X 的可测量映射到实数（或复数）范数空间 F，并且 g 是 X 到 R（或复数）中的可测量映射。 C)，则 gf 可测。 如果 F 是 *范数代数* 并且 f、g 是 X 的两个可测的映射到 F 中，则 fg 是可测的。
+In particular, if f is a measurable mapping of X into a real (resp. complex) normed space F, and g is a measurable mapping of X into R (resp. C), then gf is measurable. 如果 F 是 *范数代数* 并且 f、g 是 X 的两个可测的映射到 F 中，则 fg 是可测的。
 
 #### 推论 6 {#int-iv-s5-thm-1-cor-6 .statement tag=08UY}
 
 — *如果 f 是 X 的可测量映射到标准化空间 F，则数值函数 |f|是可测量的。*
 
-### 4. 可测量的函数的极限
+### 4. 可测量的极限函数
 
 #### 定理 2（叶戈罗夫）{#int-iv-s5-thm-2 .statement tag=08UZ}
 
@@ -262,21 +262,21 @@ $$
 \varphi_{M \cup N} = \varphi_M + \varphi_N - \varphi_M \varphi_N \quad \text{and} \quad \varphi_{M \cap C_N} = \varphi_M - \varphi_M \varphi_N
 $$
 
-可以通过 No. 3 来衡量，Cors。 Th的3和5。 1. 如果 $(M_n)$ 是可测量的集合的序列，并且 M 是它们的并，则 $\varphi_M = \sup_n \varphi_{M_n}$ 可以通过 Cor 测量。 1 Th。 2、从而的推论。
+可以通过 No. 3 来衡量，Cors。 Th的3和5。 1. 如果 $(M_n)$ 是可测量的集合的序列，并且 M 是它们的并，则 $\varphi_M = \sup_n \varphi_{M_n}$ 可以通过 Cor 测量。 1 Th。 2、从而推论。
 
 特别是，由于开集合是可测量的：
 
 #### 推论 3 {#int-iv-s5-thm-2-cor-3 .statement tag=08V2}
 
-*Borel 集合 in X*（GT、IX, §6, No. 3、Def. 4）*对于 X* 上的每个测量 $\mu$ 都可测量 $\mu$。
+*Borel 集合 in X* (GT, IX, §6, No. 3, Def. 4) *对于 X* 上的每个测量 $\mu$ 都可测量 $\mu$。
 
 ### 5. 判据用于可测量性
 
-当F是拓扑向量空间时，在可测量的集合（§4, No. 9，Def.4）上的每一步函数，其中F中的值，显然是可测量的（No. 3，Th.1的Cor.3）；这样的函数$f$仅呈现值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。更一般地，令 F 为 X 的任何拓扑空间、$f$ 映射到 F 中，仅具有不同值 $a_i$ ($1 \leq i \leq m$) 的有限数；如果集合 $A_i = f^{-1}(a_i)$ 可测量，则函数 $f$ 可测量。因为，对于每个紧集 K 和每个集合 $A_i \cap K$，都存在由序列 $(K_{in})$ 紧集形成的可忽略不计的集合 $N_i \subset A_i \cap K$ 和 $A_i \cap K \cap C N_i$ 划分；由于K是集合$A_i \cap K$的并和$f$的限制，对于每个$K_{in}$都是常数，因此连续，$f$是可测的。通过滥用语言，我们可以说，X的映射$f$进入F是一个*可测量的步骤函数*，如果它只采用值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。
+当F是拓扑向量空间时，在可测量的集合（§4, No. 9，Def.4）上的每一步函数，其中F中的值，显然是可测量的（No. 3，Th.1的Cor.3）；这样的函数$f$仅具有值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。更一般地，令 F 为 X 的任何拓扑空间、$f$ 映射到 F 中，仅具有不同值 $a_i$ ($1 \leq i \leq m$) 的有限数；如果集合 $A_i = f^{-1}(a_i)$ 可测量，则函数 $f$ 可测量。因为，对于每个紧集 K 和每个集合 $A_i \cap K$，都存在由紧集的序列 $(K_{in})$ 组成的可忽略不计的集合 $N_i \subset A_i \cap K$ 和 $A_i \cap K \cap C N_i$ 的划分；由于K是集合$A_i \cap K$的并和$f$的限制，因此$K_{in}$都是常数，因此连续，$f$是可测的。通过滥用语言，我们可以说，X的映射$f$进入F是一个*可测量的步骤函数*，如果它只采用值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。
 
 #### 定理 3 {#int-iv-s5-thm-3 .statement tag=08V3}
 
-*为了将 X 的映射 $f$ 转化为可测量的空间 F 可测量，对于每个紧集 $K \subset X$，存在序列 $(g_n)$ 的可测量步长是充分必要的函数，其中值在 F 中，这样，对于几乎每个 $x \in K$*，$g_n(x)$ 趋向于 $f(x)$。
+*为了将 X 的映射 $f$ 转化为可测量的空间 F 可测量，对于每个紧集 $K \subset X$，存在可测量步骤序列 $(g_n)$ 是充分必要的函数，其中值在 F 中，这样，对于几乎每个 $x \in K$*，$g_n(x)$ 趋向于 $f(x)$。
 
 条件对于 Egoroff 的定理和原理本地化来说就足够了。让我们证明这是必要的：到假设，存在由紧集组成的$K - N$的可忽略不计的集合$N \subset K$和划分$(K_m)$，使得$f$的限制对每个$K_m$是连续的。对于定义序列$(g_n)$，只需按以下方式进行即可：令$d$为与F的拓扑兼容的度量；对于每个 $K_i$ 和指标 $i \leq n$，存在 $K_i$ 的有限划分可积集合 $A_{ij}$ ($1 \leq j \leq q_i$) 足够小，使得$f$ 在每个 $A_{ij}$ 上的振荡为$\leq 1/n$（§ 4, No. 9，引理）；使$g_n$在每个$A_{ij}$上保持不变，等于此集合中$f$的值之一（对于$1 \leq i \leq n,\ 1 \leq j \leq q_i$），并且等于$X$中每个点的固定元素$a \in \mathbf{F}$不属于到任何 $A_{ij}$。很明显，序列$(g_n(x))$在$K$的每点收敛到$f(x)$，而不是属于到$N$。
 
@@ -392,11 +392,11 @@ b) *对于每个紧集 $K \subset X$，存在 F 的可数子集 H，使得 $f(x)
 
 *设F为可分离可度量局部凸空间$F_n$的局部凸空间，即序列的直极限，F为$F_n$的并。令$F'$为F的对偶，配备弱拓扑$\sigma(F', F)$。为了使 X 到 $F'$ 的映射 f 可测量，对于每个 $a \in F$，标量函数 $x \mapsto \langle a, f(x) \rangle$ 可测量是必要且充分的。*
 
-No. 3、Th 之前需要条件。 1;让我们证明它是足够的。首先假设 F 可度量且可分离，令 D 为 F 中的可数稠密集合。令 $(V_n)$ 为 F 中 0 的平衡凸开邻域的递减基序列；极坐标集合 $V_n^\circ$ 是等连续的，并且它们的并都是 $F'$。令 $X_n = f^{-1}(V_n^\circ)$； 序列$(X_n)$为递增和$X = \bigcup_n X_n$；让我们证明每个 $X_n$ 都是 $\mu$ 可测量的。事实上，$D \cap V_n$在$V_n$中是稠密的；对于每个$y \in D \cap V_n$，令$S_y$为$x \in X$的集合，使得$|\langle y, f(x) \rangle| \leq 1$； 假设意味着$S_y$ 中的每一个都是可测量的，并且$X_n$ 是$S_y$ 可数族中$y \in D \cap V_n$ 的交。因此，对于 X 的每个紧致子集 K 和每个 $\varepsilon > 0$，都存在整数 n 使得 $|\mu|(K - (K \cap X_n)) \leq \varepsilon/4$，然后存在 $K \cap X_n$ 的紧致子集 $K_1$ 使得 $|\mu|((K \cap X_n) - K_1) \leq \varepsilon/4$；最后，存在$K_1$的紧致子集$K_2$，使得$|\mu|(K_1 - K_2) \leq \varepsilon/2$，并且所有函数$\langle y, f \rangle$的限制到$K_2$，其中$y \in D$，是连续的（No. 1，道具。 2）。由于集合$f(K_2) \subset f(X_n) \subset V_n^\circ$等连续，$\sigma(F', F)$在$f(K_2)$上诱导的拓扑与D中逐点收敛的拓扑相同（GT，X, §2, No. 4，Th.1）；因此，f 到 $K_2$ 的限制是连续的，在第一种情况下，从而我们的断言。
+No. 3、Th 之前需要条件。 1;让我们证明它是足够的。首先假设 F 可度量且可分离，令 D 为 F 中的可数稠密集合。令 $(V_n)$ 为 F 中 0 的平衡凸开邻域的递减基序列；极坐标集合 $V_n^\circ$ 是等连续的，并且它们的并都是 $F'$。令 $X_n = f^{-1}(V_n^\circ)$； 序列$(X_n)$为递增和$X = \bigcup_n X_n$；让我们证明每个 $X_n$ 都是 $\mu$ 可测量的。事实上，$D \cap V_n$在$V_n$中是稠密的；对于每个$y \in D \cap V_n$，令$S_y$为$x \in X$的集合，使得$|\langle y, f(x) \rangle| \leq 1$； 假设意味着$S_y$ 中的每一个都是可测量的，$X_n$ 是$S_y$ 可数族中$y \in D \cap V_n$ 的交。因此，对于 X 的每个紧致子集 K 和每个 $\varepsilon > 0$，都存在整数 n 使得 $|\mu|(K - (K \cap X_n)) \leq \varepsilon/4$，然后存在 $K \cap X_n$ 的紧致子集 $K_1$ 使得 $|\mu|((K \cap X_n) - K_1) \leq \varepsilon/4$；最后，存在 $K_1$ 的紧致子集 $K_2$，使得 $|\mu|(K_1 - K_2) \leq \varepsilon/2$ 并且所有函数 $\langle y, f \rangle$ 的限制到 $K_2$，其中 $y \in D$ 是连续的（No. 1，命题 1）。 2）。由于集合$f(K_2) \subset f(X_n) \subset V_n^\circ$等连续，$\sigma(F', F)$在$f(K_2)$上诱导的拓扑与D中逐点收敛的拓扑相同（GT，X, §2, No. 4，Th.1）；因此，f 到 $K_2$ 的限制是连续的，在第一种情况下，从而我们的断言。
 
 让我们讨论一般情况。如果$z'$是F上的连续线性形式，则其限制$z'_n$到$F_n$是连续的；从$F = \bigcup_n F_n$开始，F的对偶$F'$可以用乘积$\prod_n F'_n$的线性子空间（代数上）来识别，然后是$\operatorname{pr}_n(z') = z'_n$。此外，由于F的每个有限子集都包含在$F_n$之一中，因此拓扑$\sigma(F', F)$正是由拓扑$\sigma(F'_n, F_n)$的乘积拓扑引起的拓扑。既然如此，如果$\langle a, f \rangle$对于每个$a \in F$都是可测量的，那么对于每个n和每个$a_n \in F_n$来说$\langle a_n, \operatorname{pr}_n \circ f \rangle$也是可测量的，因为$\langle a_n, \operatorname{pr}_n \circ f \rangle = \langle a_n, f \rangle$； 证明的第一个部分则表明$\operatorname{pr}_n \circ f$对于每个n都是可测量的，因此f（No. 3，Th.1）也是可测量的。
 
-### 6. 判据可积性
+### 6. 判据可积
 
 #### 定理 5 {#int-iv-s5-thm-5 .statement tag=08VI}
 
@@ -444,7 +444,7 @@ $$
 \int^*\left( \sum_n f_n \right) d|\mu| = \sum_n \int^* f_n d|\mu|.
 $$
 
-鉴于§1, No. 3，Th。 3，对于$X$上的任意两个可测量的函数$f \geqslant 0, g \geqslant 0$，我们减少到证明，
+鉴于§1, No. 3，Th。 3，对于$X$上任意两个可测量的函数$f \geqslant 0, g \geqslant 0$，我们减少到证明，
 
 $$
 \int^*(f + g) d|\mu| = \int^* f d|\mu| + \int^* g d|\mu|.
@@ -454,7 +454,7 @@ $$
 
 #### 推论 5 {#int-iv-s5-lem-1-cor-5 .statement tag=08VO}
 
-*对于每对不相交的可测量的集合* 序列* $(A_n)$ *，
+*对于每对序列* $(A_n)$ *成对不相交的可测量集合*，
 
 $$
 |\mu|^*\left( \bigcup_n A_n \right) = \sum_n |\mu|^*(A_n).
@@ -478,7 +478,7 @@ $$
 
 #### 例 {#int-iv-s5-n7-exa-1 .statement tag=08VQ}
 
-— 令 $\mu$ 为 $\mathbf{R}$、I *任意* $\mathbf{R}$ 区间的勒贝格测度； I是$\mathbf{R}$的局部紧致子空间，$\mu$在I上诱发的测度是线性形式
+— 令 $\mu$ 为 $\mathbf{R}$、I *$\mathbf{R}$ 中的任何*区间的勒贝格测度； I是$\mathbf{R}$的局部紧子空间，$\mu$在I上诱发的测度是线性形式
 
 $$
 g \mapsto \int_a^b g(x) \, dx
@@ -486,7 +486,7 @@ $$
 
 在$\mathscr{K}(I; \mathbf{C})$，其中$a$和$b$是I（cf.§ 4, No. 4，*例*）的端点（有限或非），在其他字，我们称之为*勒贝格测度I*。
 
-当 Y 是 X 的 *开* 子空间时，Def. 4 重合和定义由 $\mu$ 在 Y 上引起的测量（或 $\mu$ 到 Y 的限制）在第 1 章中给出。 III, §2, No. 1：确实，对于每个函数 $g \in \mathscr{K}(Y; \mathbf{C})$ 函数 $g'$ 那么在 X 上连续。
+当 Y 是 X 的*开* 子空间时，Def. 4 重合和定义由 $\mu$ 在 Y 上引起的测量（或 $\mu$ 到 Y 的限制）在第 1 章中给出。 III, §2, No. 1：确实，对于每个函数$g \in \mathscr{K}(Y; \mathbf{C})$函数$g'$，那么在X上连续。
 
 我们将在第 1 章中详细研究关于诱导测度的积分。 V, §7，在那之前我们只需要以下结果：
 
@@ -548,7 +548,7 @@ $$
 
 由于$\varepsilon$是任意的，$|\mu|_Y(f) \leq |\mu_Y|(f)$可以完成证明。
 
-### 8.$\mu$-紧集的密集族
+### 8. $\mu$-紧集的密集族
 
 #### 命题 12 {#int-iv-s5-prop-12 .statement tag=08VT}
 
@@ -581,9 +581,9 @@ $$
 
 #### 注 {#int-iv-s5-n8-rem-1 .statement tag=08VV}
 
-— 假设 $A$ 是序列 $(L_n)$ 紧集的并以及$\mu$ 可忽略不计（分别是局部 $\mu$ 可忽略）集合，并令 $\mathscr{K}$ 为紧致的集合子集即 $A$ 中的 $\mu$ 密集。 应用到提案12的叙述的每个$L_n$性质*c*)，我们看到$A$是紧集*属于到*$\mathscr{K}$的并序列和a $\mu$-可忽略（分别为本地$\mu$-可忽略）集合。
+— 假设 $A$ 是序列 $(L_n)$ 的紧集的并以及$\mu$ 可忽略不计（分别是局部 $\mu$ 可忽略）集合，并令 $\mathscr{K}$ 为紧致的集合子集即 $A$ 中的 $\mu$ 密集。 应用到第12条的叙述的每个$L_n$性质*c*)，我们看到$A$是紧集*属于到*$\mathscr{K}$的并序列和a $\mu$-可忽略（分别为本地$\mu$-可忽略）集合。
 
-如果$K$是$X$的紧致子集，那么说$K$的紧致子集的集合是$K$中的$\mu$-稠密或者说它是$\mu_K$-*稠密* $K$；这是从第 12 号提案的 No. 7 和条件 *b*) 的引理 2 和 3 得出的。
+如果$K$是$X$的紧致子集，那么就可以说$K$的紧致子集的集合是$K$中的$\mu$-稠密，或者说它是$\mu_K$-*稠密* $K$；这是从第 12 号提案的 No. 7 和条件 *b*) 的引理 2 和 3 得出的。
 
 #### 命题 13 {#int-iv-s5-prop-13 .statement tag=08VW}
 
@@ -591,11 +591,11 @@ $$
 
 例如，令 $L$ 为 $A$ 的紧致子集。对于每个$\varepsilon > 0$，存在一个$K \in \mathscr{K}$，使得$K \subset L$和$|\mu|(L - K) \leq \varepsilon/2$，然后存在一个$H \in \mathfrak{H}$，使得$H \subset K$和$|\mu|(K - H) \leq \varepsilon/2$；由此可见$|\mu|(L - H) \leq \varepsilon$、从而命题。
 
-### 9. 局部可数划分
+### 9. 本地可数划分
 
 #### 定义 7 {#int-iv-s5-def-7 .statement tag=08VX}
 
-*拓扑空间$T$的子集的集合$\mathfrak{A}$被称为“局部可数”，如果对于每个$t \in T$，存在$t$的邻域$V$，使得集合为与 $V$ 相交的 $A \in \mathfrak{A}$ 是可数的。*
+*拓扑空间$T$的子集的集合$\mathfrak{A}$被称为“局部可数”，如果对于每个$t \in T$，存在$t$的邻域$V$，使得集合与 $V$ 相交的 $A \in \mathfrak{A}$ 是可数的。*
 
 如果$T$的子集的集合$\mathfrak{A}$是局部可数的，那么对于$T$的每个紧凑子集$K$，与$K$相交的$A \in \mathfrak{A}$的集合是可数的，因为$K$可以是被有限的数个点$K$的开放邻域覆盖，每个邻域仅与子集属于到$\mathfrak{A}$的可数个集合相交。
 
@@ -617,7 +617,7 @@ $$
 \sum_{K \in \mathfrak{H}_V} |\mu|(K \cap V) < +\infty,
 $$
 
-并且由于 $|\mu|(K \cap V) > 0$ 对于每个 $K \in \mathfrak{H}_V$，$\mathfrak{H}_V$ 必然是可数的。接下来，让我们证明$N = A - \bigcup_{K \in \mathfrak{H}} K$在局部$\mu$可以忽略不计。我们在上面看到$N$是$\mu$可测的。如果$N$不是局部可忽略的，那么包含将是不可忽略的紧集$L_0$，因此（No. 8，命题12）不可忽略的紧集$L \subset L_0$属于到$\mathfrak{K}$。由于$|\mu_L|(L) = |\mu|(L) > 0$（No. 7、引理 2 和 3），$\mu$ 在$L$ 上引发的测度$\mu_L$ 为非零的；因此，它的支持$S$是非空紧集属于到$\mathfrak{K}$（PL₁），以及$\operatorname{Supp}(\mu_S) = S$（No. 7，引理2，（iii））。由此可见集合$\mathfrak{H} \cup \{S\}$属于到$\mathscr{H}$，其中与……矛盾定义$\mathfrak{H}$；因此，集合$N$在局部可以忽略不计，从而完成证明。
+并且由于 $|\mu|(K \cap V) > 0$ 对于每个 $K \in \mathfrak{H}_V$，$\mathfrak{H}_V$ 必然是可数的。接下来，让我们证明$N = A - \bigcup_{K \in \mathfrak{H}} K$在局部$\mu$可以忽略不计。我们在上面看到$N$是$\mu$可测的。如果$N$不是局部可忽略的，那么包含将是不可忽略的紧集$L_0$，因此（No. 8，命题12）不可忽略的紧集$L \subset L_0$属于到$\mathfrak{K}$。由于$|\mu_L|(L) = |\mu|(L) > 0$（No. 7、引理 2和3），$\mu$在$L$上引发的测度$\mu_L$为非零的；因此，它的支持$S$是非空紧集属于到$\mathfrak{K}$（PL₁），以及$\operatorname{Supp}(\mu_S) = S$（No. 7，引理2，（iii））。由此可见集合$\mathfrak{H} \cup \{S\}$属于到$\mathscr{H}$，其中与……矛盾定义$\mathfrak{H}$；因此，集合$N$在局部可以忽略不计，从而完成证明。
 
 ### 10. 可测量函数定义在可测量子集上
 
@@ -629,9 +629,9 @@ a) $A$的紧致子集$K$的集合$\mathfrak{H}$使得$f$到$K$的限制是连续
 
 b) $A$的紧子集存在集合$\mathfrak{K}$，$A$中存在$\mu$密集，使得$f$的限制对每个$K \in \mathfrak{K}$是$\mu_K$可测。
 
-c) 拓扑空间 $G$ 存在$F$ 的同态 $j$ 到子空间以及 $X$ $G$ 的 $\mu$ 可测映射 $g$，使得$g|A = j \circ f$.*
+c) 拓扑空间 $G$ 的$F$ 到子空间存在同胚 $j$，以及 $X$ $G$ 的 $\mu$ 可测映射 $g$，使得$g|A = j \circ f$.*
 
-d) $f$的扩张到$X$的映射进入$F$，$X - A$恒定，$\mu$可测。
+d) $f$ 的扩张到$X$ 的映射进入$F$，在$X - A$ 上恒定，$\mu$ 可测。
 
 显然，a) 隐含 b)，d) 隐含 c)。 c) 隐含 a) 的事实源自No. 8 的第 12 条命题条件 c)。另一方面，b) 意味着 a)：for, Def。图1表明，对于每个$K \in \mathscr{K}$，$K$中包含的子集$H \in \mathscr{H}$的集合在$K$中是$\mu_K$密集（No. 8，命题12，c）），并且No. 8的命题13表明： $\mathscr{H}$ 是 $A$ 中的 $\mu$ 密集。仍有待观察 a) 是否隐含 d)。令$g$为$f$到$X$的扩张，恒定于$X - A$。对于$X$的每个紧致子集$L$，$L \cap A$和$L \cap (X - A)$都是$\mu$可积的；因此，对于每个 $\varepsilon > 0$，都存在一个紧致子集 $P \subset L \cap A$ 和一个紧致子集 $Q \subset L \cap (X - A)$，使得
 
@@ -669,7 +669,7 @@ C_n = K \cap A_n \cap \mathbf{C}\left( \bigcup_{i < n} C_i \right)
 $$
 对于$n > 0$，使得$K$的非空$C_n$形式划分变成$\mu$可积集合。由于$f$到$C_n$的限制是$\mu$可测量的，因此存在由$\mu$可忽略的集合$N_n$和序列形成的$C_n$的划分紧集的$(L_{mn})_{m \geq 0}$使得$f|L_{mn}$是连续的。由于 $N = \bigcup_n N_n$ $\mu$ 可以忽略不计，我们看到第 15 条命题的条件 a) 得到满足，从而命题。
 
-提案 15 的性质 d) 使得可以立即将第 2 至 5 条中观察到的在所有 $X$ 上定义的可测量函数的属性推广到在 $X$ 的可测量子集 $A$ 上定义的可测量函数；这些推广留给读者。我们仅明确指出，当假设每个函数 $g_x$ 仅在 $V_x$ 中定义（或几乎在 $V_x$ 中的几乎所有位置）并且可测量时，点本地化的原理（No. 2，命题 4）仍然有效。
+提案 15 的性质 d) 使得可以立即将在第 2 至 5 条中观察到的在所有 $X$ 上定义的可测量函数的属性推广到在 $X$ 的可测量子集 $A$ 上定义的可测量函数；这些推广留给读者。我们仅明确指出，当假设函数 $g_x$ 中的每一个仅在 $V_x$ 中定义（或$V_x$ 中几乎所有位置）且可测量时，点本地化的原理（No. 2，命题 4）仍然有效。
 
 ### 11. 度量收敛
 
@@ -780,7 +780,7 @@ $$
 
 #### 定义 10 {#int-iv-s5-def-10 .statement tag=08WC}
 
-*令$X$为局部紧致空间，$\mu$为$X$的测度，$F$为Banach空间和$p \in [1, +\infty[$。如果满足以下条件，则 $\mathscr{L}_F^p(X, \mu)$ 的子集 $H$ 被认为是阶 $p$（对于$\mu$）等可积：*
+*令$X$为局部紧致空间，$\mu$为$X$的测度，$F$为Banach空间和$p \in [1, +\infty[$。 $\mathscr{L}_F^p(X, \mu)$ 的子集 $H$ 被认为是阶 $p$（对于$\mu$）等可积，如果它满足以下条件：*
 
 (i) *对于每个$\varepsilon > 0$，都存在一个$\delta > 0$，这样，对于每个$|\mu|(A) \leq \delta$的可积集合$A$和每个$f \in H$，*
 
@@ -788,7 +788,7 @@ $$
 \int |f|^p \varphi_A d|\mu| \leq \varepsilon.
 $$
 
-(ii) *对于每个$\varepsilon > 0$，存在子集$K$ $X$，这样，对于每个$f \in H$，*$\int |f|^p \varphi_{X-K} d|\mu| \leq \varepsilon$。
+(ii) *对于每个$\varepsilon > 0$，存在一个$X$的紧凑子集$K$，这样，对于每个$f \in H$，*$\int |f|^p \varphi_{X-K} d|\mu| \leq \varepsilon$。
 
 当 $p = 1$ 时，我们说“可等积”而不是“阶 1 可等积”。
 
@@ -806,7 +806,7 @@ $$
 |f(x) - g(x)| \leq \left( \frac{\varepsilon}{|\mu|(K)} \right)^{1/p}
 $$
 
-对于 $x \in K$，除了 $\leq \delta$ 的集合 $M$。然后
+对于$x \in K$，措施$\leq \delta$的集合$M$除外。然后
 
 $$
 \left( \int_{X-K} |f-g|^p d|\mu| \right)^{1/p} \leq \left( \int_{X-K} |f|^p d|\mu| \right)^{1/p} + \left( \int_{X-K} |g|^p d|\mu| \right)^{1/p}
@@ -829,11 +829,11 @@ $$
 
 因此，$H$上测量收敛的均匀结构是更细，而不是$\mathscr{L}_F^p(X, \mu)$引起的均匀结构。那么应用提案 20 就足够了。
 
-### 12.模糊收敛的性质
+### 12. 性质模糊收敛
 
 #### 引理 5 {#int-iv-s5-lem-5 .statement tag=08WF}
 
-*令$X$为局部紧凑空间，$\mu$为$X$上的有界正测度，$F$为Banach空间，以及$f$为$X$上的有界函数，其中值为$F$。以下条件是等效的：*
+*令$X$为局部紧致空间，$\mu$为$X$上的有界正测度，$F$为Banach空间，以及$f$为$X$上的有界函数，其中值为$F$。以下条件是等效的：*
 
 (i) *$f$的不连续性点的集合是$\mu$-可忽略不计。*
 
@@ -898,11 +898,11 @@ $$
 
 #### 例 {#int-iv-s5-n12-exa-1 .statement tag=08WI}
 
-让我们将$X$视为绝对值 1 的复数的紧凑空间$\mathbf{U}$。在设定$\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$上，对于每个$f \in \mathscr{H}(\mathbf{U})$，一个定义是$\mathbf{U}$上质量1的正测量。另一方面，令$\theta$为实数；对于每个整数 $n \geq 0$，令 $\nu_n$ 为单位质量，放置在 $\mathbf{U}$ 的点 $e^{2i\pi n \theta}$ 处，并让
+让我们将$X$视为绝对值 1 的复数的紧致空间$\mathbf{U}$。在设定$\mu(f) = \int_0^1 f(e^{2i\pi t}) \, dt$上，对于每个$f \in \mathscr{H}(\mathbf{U})$，一个定义是$\mathbf{U}$上质量1的正测量值。另一方面，令$\theta$为实数；对于每个整数 $n \geq 0$，令 $\nu_n$ 为单位质量，放置在 $\mathbf{U}$ 的点 $e^{2i\pi n \theta}$ 处，并让
 $$
 \mu_n = \frac{1}{n+1} (\nu_0 + \cdots + \nu_n),
 $$
-因此 $\mu_n$ 是 $\mathbf{U}$ 上质量 1 的正量度。那么，如果$\theta$是无理数，则$\mu_n$模糊地趋向于$\mu$。因为，由于函数 $z \mapsto z^k$ ($k \in \mathbf{Z}$) 的线性组合在 $\mathscr{H}(\mathbf{U})$ 中是稠密的（GT，X, §4, No. 4，命题 8），因此只要证明 $\mu_n(z^k)$ 对于 $k \in \mathbf{Z}$ 趋向于 $\mu(z^k)$ 即可。现在，对于$k = 0$，$\mu_n(z^k) = \mu(z^k) = 1$；对于$k \neq 0$，
+因此 $\mu_n$ 是 $\mathbf{U}$ 上质量 1 的正量度。那么，如果$\theta$是无理数，则$\mu_n$模糊地趋向于$\mu$。因为，由于函数 $z \mapsto z^k$ ($k \in \mathbf{Z}$) 的线性组合在 $\mathscr{H}(\mathbf{U})$ 中是稠密的（GT，X, §4, No. 4，命题 8），因此只要证明$\mu_n(z^k)$ 对于 $k \in \mathbf{Z}$ 趋向于 $\mu(z^k)$ 即可。现在，对于$k = 0$，$\mu_n(z^k) = \mu(z^k) = 1$；对于$k \neq 0$，
 $$
 \mu_n(z^k) = \frac{1}{n+1} (1 + e^{2i\pi k \theta} + e^{4i\pi k \theta} + \cdots + e^{2i\pi k n \theta}).
 $$
@@ -915,4 +915,4 @@ $$
 
 ### 习题 {#int-iv-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

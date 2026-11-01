@@ -37,16 +37,16 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 91e026ae81da5c76f6ba25ea9268803a0b9250fe5862d1b1b87c2f18081b75c5
+content_sha256: 4b1a19430c4dc001ba10230100a3f9c2404091828022d83ae00207ad4a6e155e
 translated_from: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 952a7b9240fa2d193986215a77b227fd820dee9114e1cdbfa00e8cbcdb6611b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e6ed198a1a15a7024f5b42baded9c2dff1a789ce3192b38eec56998316e7c1ba
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 自同构半单李代数
@@ -61,7 +61,7 @@ $\varepsilon :$自动($\mathfrak{g},\mathfrak{h}$)$\rightarrow A(R)$
 
 是同态 / 群。
 
-对于任何根系 R 和 R 的任何基 B，我们用 R 的自同构的 Aut(R$,B$) 群表示，使 B 保持稳定。 回忆一下（第 1 章） VI, §1, no. 5，第 16 号提案和§4, no. 2，Cor.命题 1) 中，A(R) 是 Aut(R$,B$) 和 W(R) 的半直乘积，并且 $A(R)/W(R)$ 与 R 的 Dynkin 图的自同构群规范同构。
+对于任何根系 R 和 R 的任何基 B，我们用 R 的自同构的 Aut(R$,B$) 群表示，使 B 保持稳定。 Recall (Chap. VI, §1, no. 5, Prop. 16 and §4, no. 2, Cor. of Prop. 1) that A(R) is the semi-direct product of Aut(R$,B$) and W(R), and that $A(R)/W(R)$ is canonically isomorphic to the group of automorphisms of the Dynkin graph of R.
 
 #### 命题 1 {#lie-viii-s5-prop-1 .statement tag=011N}
 
@@ -217,7 +217,7 @@ $$
 
 输入$B =\{\alpha_1, . . . , \alpha_l\}$和$\sum_{i=1}^r\beta_i=\sum_{j=1}^lm^U_j\alpha_j$。自 $\varepsilon (s)\in$ Aut(R$,B$) 起，
 
-$m^U_j$ 是整数具有相同的符号，而不是全部零。我们有
+$m^U_j$ 与整数具有相同的符号，但并非所有零。我们有
 
 $$
 c'_U=c_U\prod_{j=1}^l\varphi (\alpha_j)^{m^U_j}
@@ -237,7 +237,7 @@ $$
 
 #### 注 {#lie-viii-s5-n2-rem-1 .statement tag=011X}
 
-令$\varepsilon',\varepsilon''$为$\varepsilon$至$\operatorname{Aut}_0(\mathfrak g,\mathfrak h)$、$\operatorname{Aut}_e(\mathfrak g,\mathfrak h)$中的限制。令$f'$为同态，从$T_P$到$\operatorname{Aut}_e(\mathfrak g,\mathfrak h)$，由$f$经由典范嵌入从$Q(R)$到$P(R)$诱发。前面我们建立了如下交换律图表：
+令$\varepsilon',\varepsilon''$为$\varepsilon$至$\operatorname{Aut}_0(\mathfrak g,\mathfrak h)$、$\operatorname{Aut}_e(\mathfrak g,\mathfrak h)$中的限制。令$f'$为同态，从$T_P$到$\operatorname{Aut}_e(\mathfrak g,\mathfrak h)$，由$f$经由典范嵌入从$Q(R)$到$P(R)$诱导。前面我们建立了如下交换律图表：
 $$
 \begin{array}{ccccccccc}
 1&\longrightarrow&T_Q&\xrightarrow{\ f\ }&\operatorname{Aut}(\mathfrak g,\mathfrak h)&\xrightarrow{\ \varepsilon\ }&A(\mathbf R)&\longrightarrow&1\\
@@ -249,7 +249,7 @@ $$
 $$
 其中$q$以外的垂直箭头表示典范嵌入。我们已经看到（命题 2 和命题 4）前两行是准确的。在第三行中，同态$\varepsilon''$是满射（§2, no. 2，Th.2的Cor.）；可以证明它的核是$f'(T_P)$（§7，Exerc.26d））。
 
-### 3. 可分割的自同构半单李代数
+### 3. 可拆分的自同构半单李代数
 
 #### 命题 5 {#lie-viii-s5-prop-5 .statement tag=01J1}
 
@@ -313,11 +313,11 @@ $\iota : T_Q/$我(T$_P$)$\rightarrow$自动$_0(\mathfrak{g})/$自动$_e(\mathfra
 
 令$\mathfrak{g}$为$\mathfrak{g}$、集合的抛物线子代数的可分割半单李代数、$\mathscr{P}$集合，Aut$_0(\mathfrak{g})$在其上运行。保留注的记号 2. 令 $\Sigma$ 为 $B(\mathfrak{g})$ 的子集。给予$\Sigma$相当于给予B的每个$x= (\mathfrak{h},B)\in X$、子集$\Sigma_x$，使得对于任何$x, x'\in X$，$s_{x',x}$取$\Sigma_x$到$\Sigma_{x'}$。令$\mathfrak{p}_x$为$\mathfrak{g}$相应的到$\Sigma_x$的抛物线子代数（§3, no. 4，注）。 Aut$_0(\mathfrak{g})$下的$\mathfrak{p}_x$的轨道是$x'\in X$的$\mathfrak{p}_{x'}$的集合。这个定义映射从$\mathfrak{P}(B(\mathfrak{g}))$到$\mathscr{P}/$Aut$_0(\mathfrak{g})$。这个映射是§3, no. 4的注的满射，并且是第7条命题的单射。
 
-### 4. ZARISKI 拓扑自动 ($\mathfrak{g}$)
+### 4. 扎里斯基拓扑自动 ($\mathfrak{g}$)
 
 #### 命题 8 {#lie-viii-s5-prop-8 .statement tag=0125}
 
-设V为向量空间$\mathfrak{g}$的自同态集合。然后，Zariski 拓扑的 Aut($\mathfrak{g}$) 在 V 关闭（章节 VII，附录 I）。
+令V为向量空间$\mathfrak{g}$中的自同态中的集合。然后，Zariski 拓扑的 Aut($\mathfrak{g}$) 在 V 关闭（章节 VII，附录 I）。
 
 令 K 为 $\mathfrak{g}$ 的杀戮形式。如果$s\in$自动（$\mathfrak{g}$），
 
@@ -365,13 +365,13 @@ $$
 
 根据提案$3,f(q(T_P))\subset$ Aut$_e(\mathfrak{g})$。对于所有 $s\in$ Aut$_e(\mathfrak{g})$，第 9 号提案关闭了 Zariski 拓扑包含 $s.f(T_Q)$ 中的 $s.f(q(T_P))$。因此，Aut$_e(\mathfrak{g})$ 包含 Aut$_e(\mathfrak{g}).f(T_Q) =$ Aut$_0(\mathfrak{g})$ 关闭（提案 6）。这就证明了(i)。
 
-令Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$为由Zariski拓扑中相对开放的子集形成的Aut$_e(\mathfrak{g})$的划分，并与$\Omega \not=\emptyset$。如果$\omega \in \Omega$且$x$是$\mathfrak{g}$的幂零元，则从$k$到Aut$_e(\mathfrak{g})$的映射$\tau :t \rightarrow \omega$exp($t$ad$x$)是多项式，因此在Zariski拓扑中连续；因而，$\tau (k)$是连通的；从$\omega \in \tau (k)$开始，我们有$\tau (k)\subset \Omega$。因而，$\Omega$.(exp ad $kx$)$\subset \Omega$，因而$\Omega$.Aut$_e(\mathfrak{g})\subset \Omega$和$\Omega =$Aut$_e(\mathfrak{g})$。这证明Aut$_e(\mathfrak{g})$已连接。由此可见，通过 (i)，Aut$_0(\mathfrak{g})$ 已连接。 Q.E.D.
+设Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$为由Zariski拓扑中相对开放的子集形成的Aut$_e(\mathfrak{g})$的划分，并与$\Omega \not=\emptyset$。如果$\omega \in \Omega$且$x$是$\mathfrak{g}$的幂零元，则从$k$到Aut$_e(\mathfrak{g})$的映射$\tau :t \rightarrow \omega$exp($t$ad$x$)是多项式，因此在Zariski拓扑中连续；因而，$\tau (k)$是连通的；从$\omega \in \tau (k)$开始，我们有$\tau (k)\subset \Omega$。因而，$\Omega$.(exp ad $kx$)$\subset \Omega$，因而$\Omega$.Aut$_e(\mathfrak{g})\subset \Omega$和$\Omega =$Aut$_e(\mathfrak{g})$。这证明Aut$_e(\mathfrak{g})$已连接。由此可见，通过 (i)，Aut$_0(\mathfrak{g})$ 已连接。 Q.E.D.
 
-我们将看到（§8, no. 4，命题 6 的 Cor.），Aut$_0(\mathfrak{g})$ 在 Zariski 拓扑中的 V 处闭合，并且它是 Aut($\mathfrak{g}$) 的单位元素的连通分量。另一方面，Aut$_e(\mathfrak{g})$ 在 Zariski 拓扑中一般不会关闭。
+我们将看到（§8, no. 4，命题 6 的 Cor.），Aut$_0(\mathfrak{g})$ 在 Zariski 拓扑中的V 中闭合，并且它是 Aut($\mathfrak{g}$) 的单位元素的连通分量。另一方面，Aut$_e(\mathfrak{g})$ 在 Zariski 拓扑中一般不会关闭。
 
-\*假设$(\mathfrak{g},\mathfrak{h})$是分裂的。 群 Aut$_0(\mathfrak{g})$ 是连接的半单代数群 G 与平凡中心（伴随群）的群 $G(k)$ 的$k$ 点。 群$f(T_Q)$等于$H(k)$，其中H是G与李代数$\mathfrak{h}$的嘉当子群。 G 的通用覆盖$\widetilde{G}$（代数意义上）中 H 的逆像 $\widetilde{H}$ 具有 $T_P$ 作为其 $k$ 点的群。 $G(k) =$ Aut$_0(\mathfrak{g})$ 中的 $\widetilde{G}(k)$ 的像是群 Aut$_e(\mathfrak{g})$。\*
+\*假设$(\mathfrak{g},\mathfrak{h})$是分裂的。 群 Aut$_0(\mathfrak{g})$ 是连接的半单代数群 G 与平凡中心（伴随群）的群 $G(k)$ 的 $k$ 点。 群$f(T_Q)$等于$H(k)$，其中H是G与李代数$\mathfrak{h}$的嘉当子群。 G 的通用覆盖$\widetilde{G}$（代数意义上）中 H 的逆像 $\widetilde{H}$ 具有 $T_P$ 作为其 $k$ 点的群。 $G(k) =$ Aut$_0(\mathfrak{g})$ 中的 $\widetilde{G}(k)$ 的像是群 Aut$_e(\mathfrak{g})$。\*
 
-### 5.李群情形
+### 5. 李群情形
 
 #### 命题 11 {#lie-viii-s5-prop-11 .statement tag=0128}
 
@@ -387,7 +387,7 @@ $$
 
 由章。 III, §3, no. 8，科。第 29 条命题 2，以及第 36 条命题 no. 10，Aut($\mathfrak{g},\mathfrak{h}$) 是 Aut($\mathfrak{g}$) 的谎言子群，其李代数是 ad $x(x\in \mathfrak{g})$ 的集合，使得 (ad $x$)$\mathfrak{h}\subset \mathfrak{h}$，在其他情况下字广告$\mathfrak{h}$。
 
-让$H\in \mathfrak{h}$。存在具有以下属性的$\varepsilon  >0$：对于$t\in k$和$|t|< \varepsilon$，为所有$\gamma \in P(R)$定义了exp($t\gamma (H)$)，并且从P(R)到映射$\gamma  \rightarrow$exp($t\gamma (H)$)是同态$\sigma_t$ $k^*$。对于$|t|< \varepsilon$，定义了exp($t$ ad H)，诱导在$\mathfrak{h}$上的恒等式和诱导在$\mathfrak{g}^{\alpha}$位似上的恒等式，比率为$\sigma_t(\alpha )$；因此exp $t$广告$H\in (q\circ f)(T_P)$。鉴于 (i)，这证明了 Aut($\mathfrak{g},\mathfrak{h}$) 中 1 的$(q\circ f)(T_P)$ 包含邻域，因此是 Aut($\mathfrak{g},\mathfrak{h}$) 的开子群。 更不必说$,f(T_Q)$是Aut($\mathfrak{g},\mathfrak{h}$)的开子群。
+让$H\in \mathfrak{h}$。存在具有以下属性的$\varepsilon  >0$：对于$t\in k$和$|t|< \varepsilon$，为所有$\gamma \in P(R)$定义了exp($t\gamma (H)$)，并且从P(R)到映射$\gamma  \rightarrow$exp($t\gamma (H)$)为同态$\sigma_t$ $k^*$。对于$|t|< \varepsilon$，定义了exp($t$ ad H)，诱导在$\mathfrak{h}$上的恒等式和诱导在$\mathfrak{g}^{\alpha}$位似上的恒等式，比率为$\sigma_t(\alpha )$；因此exp $t$广告$H\in (q\circ f)(T_P)$。鉴于 (i)，这证明了 Aut($\mathfrak{g},\mathfrak{h}$) 中 1 的$(q\circ f)(T_P)$ 包含邻域，因此是 Aut($\mathfrak{g},\mathfrak{h}$) 的开子群。 更不必说$,f(T_Q)$是Aut($\mathfrak{g},\mathfrak{h}$)的开子群。
 
 对于所有 $\alpha \in R$，exp ad $\mathfrak{g}^{\alpha}\subset$ Aut$_e(\mathfrak{g})$。鉴于(ii)，Aut($\mathfrak{g}$)中Aut$_e(\mathfrak{g})$包含邻域为1，从而证明(iii)。
 
@@ -395,4 +395,4 @@ $$
 
 ### 习题 {#lie-viii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

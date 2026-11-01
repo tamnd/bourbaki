@@ -42,16 +42,16 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: d345c4566a50d003dc75301c38f0fa484678ae426223c8dcdea1c4b141fb06a5
+content_sha256: 77fb9ea785f95de5ba9a5d49005fd01dfa83a1b56a634427a9f4ae7c82283f44
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
 translation_method: google
 source_content_sha256: 36caeafec2b80f55f4d81aa8a08ac8e916c9c8c954ea1d9374f4336f63f99e7d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c9f21829cc98db6a0b54e92470b54cf34450a6363f3e0db39aa799968785e59f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 14。超越扩张
@@ -100,7 +100,7 @@ $v$的唯一性清晰。让我们放置$A = K[x_i]_{i \in I}$和$A' = K'[x'_i]_{
 
 这个命题紧接着 Def. 1.
 
-### 2.超越基
+### 2. 超越基
 
 #### 命题 4 {#alg-v-s14-prop-4 .statement tag=06RV}
 
@@ -239,7 +239,7 @@ $$
 
 — 令 K 为 K 的域和 $\Omega$ 代数闭扩张。假设 $\Omega$ 不是 K 上的代数；则超越 K 的 $\Omega$ 的元素的集合是无限的。此外，如果 x 和 y 是 $\Omega$ 中超越 K 的两个元素，则在 K 上存在 $\Omega$ 的自同构 u 使得 $u(x) = y$。
 
-由于 $\Omega$ 不是 K 上的代数，因此存在 $\Omega$ 超越 K 的元素 x；则元素 $x^n$ ($n \in \mathbf{N}$) 在 K 上不同且超越。假设 x 和 y 在 K 上不同且超越；根据命题 2 (V, p. 106)，存在 $K(x)$ 到 $K(y)$ 的 K 同构$\tilde{u}$，使得 $\tilde{u}(x) = y$；因为 $K(x)$ 超越次数 1 K，Cor。命题 8 的 2 显示 $\tilde{u}$ 扩展到 $\Omega$ 的 K-自同构 u。
+由于 $\Omega$ 不是 K 上的代数，因此存在 $\Omega$ 超越 K 的元素 x；则元素 $x^n$ ($n \in \mathbf{N}$) 在 K 上不同且超越。假设 x 和 y 在 K 上不同且超越；根据命题 2 (V, p. 106)，存在 $K(x)$ 到 $K(y)$ 的 K 同构 $\tilde{u}$，使得 $\tilde{u}(x) = y$；因为 $K(x)$ 超越次数 1 K，Cor。命题 8 的 2 显示 $\tilde{u}$ 扩展到 $\Omega$ 的 K-自同构 u。
 
 #### 命题 10 {#alg-v-s14-prop-10 .statement tag=06SG}
 
@@ -253,19 +253,19 @@ b) 对于 x 是 K 上的 p 自由基，对于所有 $u \in G$ $u(x) = x$ 是必�
 
 首先假设 x 是超越的。根据命题 9，$\Omega$ 的元素的集合 T 在 K 上的超越是无限的，并且对于每个 $y \in T$ 都存在$u \in G$，使得 $u(x) = y$。因此，当 u 运行在 G 上时，元素 $u(x)$ 的集合是无限的。
 
-现在假设 x 是 K 上的代数，并表示为 K 上的拟合最小多项式； $\Omega$ 中 f 的根的集合是有限的，对于每个 $u \in G$，我们有 $f(u(x)) = u(f(x)) = 0$。因此，当 u 在 G 上运行时，元素 $u(x)$ 的集合是有限的。这就证明了a）。
+现在假设 x 是 K 上的代数，并表示为 K 上的拟合最小多项式； $\Omega$中f的根的集合是有限的，对于每个$u \in G$我们有$f(u(x)) = u(f(x)) = 0$。因此，当 u 在 G 上运行时，元素 $u(x)$ 的集合是有限的。这就证明了a）。
 
-令L为$\Omega$的元素y的集合，使得$u(y) = y$对于所有$u \in G$，并令$\bar{K}$为$\Omega$中K的相对代数闭包。如上所述，L是$\bar{K}$在K上的子扩展。进一步（Cor. 1到Prop. 8）$\bar{K}$的每个K自同构现在是G. 元素的限制到$\bar{K}$。 Prop. 10的断言 b)遵循 Cor. 3 个V、p. 53。
+令L为$\Omega$的元素y的集合，使得$u(y) = y$对于所有$u \in G$，并令$\bar{K}$为$\Omega$中K的相对代数闭包。如上所述，L是$\bar{K}$在K上的子扩展。进一步（Cor.1到Prop.8）$\bar{K}$的每个K-自同构现在是G的元素的限制到$\bar{K}$。Prop.10的断言b)遵循 Cor. 3 个V、p. 53。
 
 ### 5. 代数不相交的扩张
 
 #### 定义 5 {#alg-v-s14-def-5 .statement tag=06SH}
 
-— 设L为域K的扩张，E和F为L的两个子扩展。那么，E 和 F 被称为代数不相交的（在 K 上），并且 E 被称为从 F 在 K 上的代数不相交的，如果对于 E（分别 F）的每个子集 A（分别 B）在 K 上代数自由，A 和 B 是不相交的并且 $A \cup B$ 是代数自由的超过K。
+— 令 L 为域 K 的扩张，E 和 F 为L 的两个子扩展。那么，E 和 F 被称为代数不相交的（在 K 上），并且 E 被称为从 F 在 K 上的代数不相交的，如果对于 E（分别 F）的每个子集 A（分别 B）在 K 上代数自由，A 和 B 是不相交的并且 $A \cup B$ 是代数自由的超过K。
 
 #### 注 1 {#alg-v-s14-n5-rem-1 .statement tag=06SI}
 
-如果 E 是 L 的子外延，并且是 K 上的代数，那么从 L 的每个子外延 F 来看，它在代数上都是不相交的。对于 K 的扩张来说，它是代数的，它本身应该是代数的不相交的是充分必要的。
+如果 E 是 L 的子外延，并且是 K 上的代数，那么它在 L 的每个子外延 F 的代数上都是不相交的。对于 K 的扩张来说，它是代数的，它本身应该是代数的不相交的是充分必要的。
 
 #### 注 2 {#alg-v-s14-n5-rem-2 .statement tag=06SJ}
 
@@ -407,7 +407,7 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 #### 推论 1 {#alg-v-s14-thm-5-cor-1 .statement tag=06SX}
 
-— *设 E 和 R 为域 K 的两个扩张。假设 $\Omega$ 是代数闭集，超越性次数至少等于 E 的超越性。则 E 与 R 的子外延 K 同构的。*
+— *设 E 和 R 为域 K 的两个扩张。假设 $\Omega$ 是代数闭集，超越性次数至少等于 E 的超越性。则 E 与 R 的子外延 K 同构。*
 
 #### 推论 2 {#alg-v-s14-thm-5-cor-2 .statement tag=06SY}
 
@@ -422,7 +422,7 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 — *令 E 为域 K 的扩张，B 为 E 对 K 的超越基。为了使 E 在 K (V, p. 11, Def. 2) 上有限生成，B 是有限的且次数 $[E : K(B)]$ 是有限的，这是必要且充分的。*
 
-假设 E 在 K 上有限生成，并令 S 为 E 的有限子集，使得 $E = K(S)$。由 Th. 2 (V, p. 109) S 包含 E 对 K 的超越基 $B'$，并且与 B (V, p. 110, Th. 3) 具有相同的基数。因此B是有限的。把$K' = K(B)$；那么 E 是 $K'$ 的代数，我们有 $E = K'(S)$；由于 S 是有限的，Th。 V、p. 18中的2表明$[E : K']$是有限的。
+假设 E 在 K 上有限生成，并令 S 为 E 的有限子集，使得 $E = K(S)$。由 Th. 2 (V, p. 109) S 包含于 E 对 K 的超越基 $B'$，并且与 B (V, p. 110, Th. 3) 具有相同的基数。因此B是有限的。把$K' = K(B)$；那么 E 是 $K'$ 的代数，我们有 $E = K'(S)$；由于 S 是有限的，Th。 V、p. 18中的2表明$[E : K']$是有限的。
 
 相反，假设 B 是有限的并且 $[E : K(B)]$ 是有限的。如果C是向量空间E在$K(B)$上的（有限）基，我们有$E = K(B)(C) = K(B \cup C)$，所以E是K的有限生成的扩张。
 
@@ -436,7 +436,7 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 — *域在其素数子域包含上有限生成单位元的有限多个根。*
 
-由科. 1 我们被简化为证明，即域L，即其素数子域的有限次数的扩张仅拥有单位元的根的有限数。当L具有特征$\neq 0$时，这一点很明显，因为它是有限的。如果L的特征为0且包含单位元的无穷多个根，则它是任意高阶的单位元原语包含根。 V、p. 84、周四。 2 因此，存在无穷大的整数 $n > 0$，使得$\varphi(n) \leq [L : \mathbf{Q}]$，这是荒谬的（V、p. 80、公式 (2) 和 (3)）。
+由科. 1 我们被简化为证明，即域L，即其素数子域的有限次数的扩张仅拥有单位元的根的有限数。当 L 具有特征 $\neq 0$ 时，这一点很明显，因为它是有限的。如果L的特征为0且包含单位元的无穷多个根，则它是任意高阶的单位元原语包含根。 V、p. 84、周四。 2 因此，存在无穷大的整数$n > 0$，使得$\varphi(n) \leq [L : \mathbf{Q}]$，这是荒谬的（V，p. 80，公式（2）和（3））。
 
 #### 推论 3 {#alg-v-s14-prop-17-cor-3 .statement tag=06T2}
 
@@ -448,4 +448,4 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 ### 习题 {#alg-v-s14-exercises}
 
-§ 14](exercises/s14/)参见[习题。
+参见[习题为 § 14](exercises/s14/)。

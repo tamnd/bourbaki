@@ -46,29 +46,29 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: 6ebd05f1c0c86bedf4d0641a47d3e4dd6793c7ff0fdbafba0fc50393beb75228
+content_sha256: e2deb105200c184420e223659ea603f76e130ad7642e7f30ee1be57bd9df601b
 translated_from: content/en/alg/VIII/14_s14_central_simple_algebras.md
 translation_method: google
 source_content_sha256: 6b4399d77699c060fb6846778021967e62ae015f18624ee87348066955fdf6f2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b639b7169c2a23f3c36d7e2b6ead927cf76b77d52cdafe62d68e92048680f5f9
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 14。中环单代数
 
 在这个截面中，K是交换域。
 
-### 1.中环单代数
+### 1. 中环单代数
 
 #### 定义 1 {#alg-viii-s14-def-1 .statement tag=00GE}
 
 如果映射 $\lambda \mapsto \lambda 1$ 是从 A 的 K 到中心的双射，我们就说域 K 上的代数 A 是中心的。
 
-中心代数不会减少到0。对于每个整数$n\geqslant 1$，矩阵K-代数$\mathbf{M}_n(K)$是中心（VIII，p. 83，推论2）和简单（VIII，p. 120， 定理1)。更一般地，令 D 为有限次数的中心 K-代数；那么$\mathbf{M}_n(D)$也是中心。设 A 为简单的环；它的中心 Z 是域（VIII，p. 121，推论 1），因此 A 是 Z 上的中心单代数。如果域 K 是代数闭的，则有限次数在 K 上的单代数是中心（VIII， p. 122，推论 3)。中心单代数的反代数是中心简单。
+中心代数不会减少到0。对于每个整数$n\geqslant 1$，矩阵K-代数$\mathbf{M}_n(K)$是中心（VIII，p. 83，推论2）和简单（VIII，p. 120， 定理1)。更一般地，令 D 为有限次数的中心 K-代数；那么$\mathbf{M}_n(D)$也是中心。设 A 为简单的环；它的中心 Z 是域（VIII，p. 121，推论 1），因而 A 是 Z 上的中心单代数。如果域 K 是代数闭的，则有限次数在 K 上的单代数是中心（VIII， p. 122，推论 3)。中心单代数的反代数是中心简单。
 
 #### 注 1 {#alg-viii-s14-n1-rem-1 .statement tag=00GF}
 
@@ -96,17 +96,17 @@ Let A and B be K-代数.如果$A\otimes_KB$是中心单代数，则A和B也是�
 
 (iii) 从K-代数$A\otimes_KA^o$到K-代数End$_K(A)$的典范同态将$a\otimes a'$到K-线性映射$x\mapsto axa'$从A发送到A是双射的。
 
-(iv) 存在域 K 和整数 $n\geqslant 1$ 的扩张 L，使得L-代数$A_{(L)}$ 和$\mathbf{M}_n(L)$ 同构的。
+(iv) 存在域 K 和整数 $n\geqslant 1$ 的扩张 L，使得L-代数$A_{(L)}$ 和$\mathbf{M}_n(L)$ 同构。
 
-(v) 对于 K 的每个可分闭包 $K'$，都存在整数 $n\geqslant 1$，使得 $K'$-代数 $A_{(K')}$ 和 $\mathbf{M}_n(K')$ 同构的。
+(v) 对于 K 的每个可分闭包 $K'$，都存在整数 $n\geqslant 1$，使得 $K'$-代数 $A_{(K')}$ 和 $\mathbf{M}_n(K')$ 同构。
 
-(vi) 存在有限次数和整数$n\geqslant 1$的域K的伽罗瓦扩张L，使得L-代数$A_{(L)}$和$\mathbf{M}_n(L)$同构的。
+(vi) 存在有限次数和整数$n\geqslant 1$的域K的伽罗瓦扩张L，使得L-代数$A_{(L)}$和$\mathbf{M}_n(L)$同构。
 
 (vii) 存在有限次数 D 的K-代数，即域、中心 K 和整数 $n\geqslant 1$，使得代数 A 同构于代数 $\mathbf{M}_n(D)$。
 
-环是简单的当且仅当它是半单并且它的中心是域（VIII，p. 143，命题 10 的推论）。由于 A 是有限次数与域 K 的代数，因此它是左阿廷的环；因此，当且仅当它没有部首（VIII，p. 154，命题 4）时，它才是半单。 (i) 和 (ii) 的等价如下。
+环是简单的当且仅当它是半单并且它的中心是域（VIII，p. 143，命题 10 的推论）。由于 A 是有限次数与域 K 的代数，因此它是左阿廷的环；因而，当且仅当它没有部首（VIII，p. 154，命题 4）时，它才是半单。 (i) 和 (ii) 的等价如下。
 
-集合 $E = A\otimes_KA^o$ 且 F = 结束$_K(A)$；表示从 E 到 F 的 $\varphi$ 典范同态，由 A 中的 $x, a, a'$ 的关系 $\varphi (a\otimes a')(x) =axa'$ 定义。如果代数 A 是中心单形，那么 $A^o$ 也是中心单形，因此，E (注 1)，因此 $\varphi$ 是单射的。现在，我们有 $[E : K] = [A : K]^2= [F : K]$，所以 $\varphi$ 是双射的。相反，假设 $\varphi$ 是双射；因为代数 F 是中心单元（因为它与矩阵代数 $\mathbf{M}_m$(K) 同构的），所以 E 也是中心简单，因此 A (注 1) 也是。这样我们就证明了(i)和(iii)的等价。
+集合 $E = A\otimes_KA^o$ 且 F = 结束$_K(A)$；表示从 E 到 F 的 $\varphi$ 典范同态，由 A 中的 $x, a, a'$ 的关系 $\varphi (a\otimes a')(x) =axa'$ 定义。如果代数 A 是中心单形，那么 $A^o$ 也是中心单形，因而，E (注 1)，因而 $\varphi$ 是单射的。现在，我们有 $[E : K] = [A : K]^2= [F : K]$，所以 $\varphi$ 是双射的。相反，假设 $\varphi$ 是双射；因为代数 F 是中心单元（因为它与矩阵代数 $\mathbf{M}_m$(K) 同构），所以 E 也是中心简单，因而 A (注 1) 也是。这样我们就证明了(i)和(iii)的等价。
 
 通过注 4，断言 (vii) 意味着断言 (i)。 逆命题蕴涵来自VIII、p. 122的推论3和VIII、p. 83的推论2。
 
@@ -116,13 +116,13 @@ Let A and B be K-代数.如果$A\otimes_KB$是中心单代数，则A和B也是�
 
 #### 推论 1 {#alg-viii-s14-thm-1-cor-1 .statement tag=00GK}
 
-设A是可分闭域K上有限次数的中心单代数。存在整数$n\geqslant 1$使得A与矩阵代数$\mathbf{M}_n(K)$同构的。
+设A是可分闭域K上有限次数的中心单代数。存在整数$n\geqslant 1$使得A与矩阵代数$\mathbf{M}_n(K)$同构。
 
 事实上，K 的每个伽罗瓦扩张都等于 K；只需应用定理 1 的属性 (i) 和 (v) 中的等价即可。
 
 #### 推论 2 {#alg-viii-s14-thm-1-cor-2 .statement tag=00GL}
 
-设A是K上有限次数的中心单代数（对于K上的例、有限次数的域和中心K）。存在整数$n\geqslant 1$使得$[A : K] =n^2$。
+设A是K上有限次数的中心单代数（对于K上例、有限次数的域和中心K）。存在整数$n\geqslant 1$使得$[A : K] =n^2$。
 
 令 L 为 K 的扩张，并且 $n$ 严格为正整数，使得 L 代数 $A_{(L)}$ 和 $\mathbf{M}_n(L)$ 同构。我们有
 
@@ -134,7 +134,7 @@ $$
 
 #### 注 5 {#alg-viii-s14-n1-rem-5 .statement tag=00GM}
 
-设A是K上有限次数的中心单代数，其约简次数是素数数$\ell$。那么要么 A 是域，要么 A 与 $\mathbf{M}_{\ell}(K)$ 同构。事实上，A 同构于形式 $\mathbf{M}_n$(D) 的代数，其中 D 是域和中心 K，并且我们有
+设A是K上有限次数的中心单代数，其约简次数是素数数$\ell$。那么要么 A 是域，要么 A 与 $\mathbf{M}_{\ell}(K)$ 同构。事实上，A 同构于形式 $\mathbf{M}_n$(D) 的代数，其中 D 是域，中心 K，并且我们有
 
 $$
 \ell^2= [A : K] =n^2[D : K]
@@ -142,7 +142,7 @@ $$
 
 如果 A 不是域，则 $n\not= 1$，因此 $n=\ell$ 并且 D = K。
 
-### 2.双模的两个引理
+### 2. 双模的两个引理
 
 设 A 和 B 为环。对于从 B 到 A 的任何同态 $f$，我们用 $A^f$ 表示 $(B$，A)-双模，其底层右A-模 $A_d$ 和外法则表示由 $(b, a)\mapsto f(b)a$ 给出的左B-模结构。
 
@@ -154,7 +154,7 @@ $$
 
 (ii) A 存在内自同构 (I, §8, No. 4, p. 102, 例 2) $\theta$，使得$g=\theta \circ f$。
 
-右A-模 $A_d$的自同构是映射$x\mapsto ax$，其中$a$是A的可逆元。 这样的自同构是从$A^f$到$A^g$的B-线性映射当且仅当我们有
+右A-模 $A_d$的自同构是映射$x\mapsto ax$，其中$a$是A的可逆元。这样的自同构是从$A^f$到$A^g$的B-线性映射当且仅当我们有
 
 $$
 g(b)ax=af(b)x
@@ -164,19 +164,19 @@ $$
 
 #### 引理 2 {#alg-viii-s14-lem-2 .statement tag=00GO}
 
-假设 B 是半单环，即有限生成模超过其中心 Z。令 M 和 N 为 $(B,A)$ 双模。假设它们有有限长度（特别是当它们是右A-模或有限长度时）。如果 M 和 N 同构为 $(Z,A)$-双模，则它们同构为 $(B,A)$-双模。
+假设 B 是半单环，即有限生成模超过其中心 Z。令 M 和 N 为 $(B,A)$ 双模。假设它们有有限长度（尤其是当它们是右A-模或有限长度时）。如果 M 和 N 同构为 $(Z,A)$-双模，则它们同构为 $(B,A)$-双模。
 
 A) 首先考虑 B 为向量空间 S 的自同态环有限维 $d$ 超过交换域 L 的情况。那么我们有 Z = L；我们将 S 视为 $(B$, Z)-双模。 环 B 是简单的，S 是单B-模，Z 是 S 的交换子；每个 B-模都是型 S 的同型 (VIII, p. 122, 命题 2 a))。令$(V, \alpha )$（或$(W, \beta )$）为描述 / B-模 M（或N）。 集合 V（分别为W）被赋予了$(Z$，A）-双模结构，使得$\alpha$（分别为$\beta$）是$(B$，A）-双模（VIII，p. 64，的同构， 注2)。作为$(Z$，A)-双模，M与$V^d$同构，N与$W^d$同构，并且从$(Z$的集合存在同构，V的A)-子双模，按包含排序，到$(B$， A)-M 的子双模（loc. cit.）。因此V是有限长度的$(Z$，A)-双模，W也是。由于$(Z,A)$-双模$V^d$和$W^d$同构，$(Z$，A)-双模V和W同构定理 2，VIII、p. 37 的 d) 适用于环 $Z\otimes_{\mathbf{Z}}A^o$。最后，$(B$，A)-双模M和N是同构的。
 
 B) 现在考虑 B 是作为 Z 模块有限生成的简单环的情况。那么Z是域，B是域Z上有限次数的中心单代数。通过VIII、p. 252的定理1，存在Z上有限次数的Z的扩张$Z'$，使得$Z'$-代数$B'= B_{(Z')}$同构于有限维$Z'$向量空间的内同态代数。 集合$M'= M_{(Z')}$和$N'= N_{(Z')}$。那么$M'$和$N'$是$(B'$，A)-有限长度的双模；视为 $(Z'$，A)-双模，$M'$ 和 $N'$ 是同构的。根据$A), M'$和$N'$的情况，同构为$(B'$，A)-双模，更不必说同构为$(B$，A)-双模。 集合$r= [Z': Z]$。 $(B$，A)-双模$M'= Z'\otimes_ZM$同构于$M^r$，同样，$(B$，A)-双模$N'$同构于$N^r$。由于 M 和 N 是有限长度的 $(B$，A) 双模，因此从 VIII，p. 37 的定理 2, d) 可以得出，$(B$，A)-双模 M 和 N 是同构的。
 
-C) 最后，考虑一般情况，当 B 为半单环时，它作为 Z 模有限生成。设$\mathscr{S}$为单B-模类集合；它是有限的（VIII，p. 136，命题 1）。对于任何$\lambda \in \mathscr{S}$，用$M_{\lambda}$（或$N_{\lambda}$）表示B-模 M（或N）的型$\lambda$的同型成分；它是 M（或 N）（注，VIII，p. 67）的$(B$，A）子双模。对于$\lambda \in \mathscr{S}$，用$\mathfrak{b}_{\lambda}$和集合$B_{\lambda}= B/\mathfrak{b}_{\lambda}$表示B-模$\lambda$的湮没子；令 $Z_{\lambda}$ 为 $B_{\lambda}$ 的中心。对于$\lambda \in \mathscr{S}$，$(B_{\lambda}$、A)-双模$M_{\lambda}$和$N_{\lambda}$有有限长度。然后我们可以将认同 B 与简单的环 $B_{\lambda}$ 的乘积相结合，将 Z 与 $Z_{\lambda}$ 的乘积相结合（VIII、p. 141、命题 8）。此外，我们将可以确定 M 与 $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ 组合，将 N 与 $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$ 组合。到假设，M和N同构为$(Z$，A)-双模；由此可见，$\lambda \in \mathscr{S}, M_{\lambda}$ 和 $N_{\lambda}$ 是同构的 $(Z_{\lambda}$，A)-双模。根据B)中处理的情况，$(B_{\lambda}$，A)-双模$M_{\lambda}$和$N_{\lambda}$是同构的，因而$(B$，A)-双模M和N是同构的。
+C) 最后，考虑一般情况，当 B 为半单环时，它作为 Z 模有限生成。设$\mathscr{S}$为单B-模类集合；它是有限的（VIII、p. 136、命题 1）。对于任何$\lambda \in \mathscr{S}$，用$M_{\lambda}$（或$N_{\lambda}$）表示B-模 M（或N）的型$\lambda$的同型成分；它是 M (resp. N) (注, VIII, p. 67) 的$(B$, A)-子双模。对于$\lambda \in \mathscr{S}$，用$\mathfrak{b}_{\lambda}$和集合$B_{\lambda}= B/\mathfrak{b}_{\lambda}$表示B-模$\lambda$的湮没子；令 $Z_{\lambda}$ 为 $B_{\lambda}$ 的中心。对于$\lambda \in \mathscr{S}$，$(B_{\lambda}$、A)-双模$M_{\lambda}$和$N_{\lambda}$有有限长度。然后我们可以将认同 B 与简单的环 $B_{\lambda}$ 的乘积相结合，将 Z 与 $Z_{\lambda}$ 的乘积相结合（VIII、p. 141、命题 8）。此外，我们将可以确定 M 与 $\prod_{\lambda\in\mathscr{S}}M_{\lambda}$ 组合，将 N 与 $\prod_{\lambda\in\mathscr{S}}N_{\lambda}$ 组合。到假设，M和N同构为$(Z$，A)-双模；由此可见，$\lambda \in \mathscr{S}, M_{\lambda}$ 和 $N_{\lambda}$ 是同构的 $(Z_{\lambda}$，A)-双模。根据B)中处理的情况，$(B_{\lambda}$，A)-双模$M_{\lambda}$和$N_{\lambda}$是同构的，因而$(B$，A)-双模M和N是同构的。
 
 #### 注 {#alg-viii-s14-n2-rem-1 .statement tag=00GP}
 
 由引理 2 的证明得出，M和N是有限长度的$(Z,A)$双模。因而，如果 B 和 A 是两个半单环，它们各自的中心 Z(B) 和 Z(A) 上的有限生成模，则有限长度的两个 $(B$, A)-双模同构，与 (Z(B),Z(A))-双模同构。
 
-### 3.共轭定理
+### 3. 共轭定理
 
 #### 定理 2 {#alg-viii-s14-thm-2 .statement tag=00GQ}
 
@@ -190,7 +190,7 @@ C) 最后，考虑一般情况，当 B 为半单环时，它作为 Z 模有限�
 
 #### 推论 {#alg-viii-s14-n3-cor-1 .statement tag=00GR}
 
-设 A 和 B 为代数超过域 K。假设 B 是中心简单且为有限次数，并且 A 为右阿廷。令从B到A的$f$和$g$为K-代数同态。A存在内自同构$\theta$使得$g=\theta \circ f$。
+设 A 和 B 为代数域 K。假设 B 是中心简单且为有限次数，并且 A 为右阿廷。令从B到A的$f$和$g$为K-代数同态。A存在内自同构$\theta$使得$g=\theta \circ f$。
 
 在定理 2 的记号中，我们有 Z = K，因此有 $f_Z= 1_Z=g_Z$。
 
@@ -306,7 +306,7 @@ $$
 L =\prod_{i\in I}L_i,B =\prod_{i\in I}B_i,B'=\prod_{i\in I}B'_i
 $$
 
-其中$L_i$是$L'_i$的中心，$B_i$和$B'_i$是$L'_i$的子代数，中心$L_i$是$L'_i$中彼此的交换子。我们将$L'_i$视为交换域$L_i$的中心单代数，并将$B_i$视为有限次数的中心简单$L_i$代数。通过断言a)，将$b_i\otimes b'_i$发送到$b_ib'_i$的典范映射$\psi_i: B_i\otimes_{L_i}B'_i\rightarrow L'_i$是环同构。现在，我们将可以确定$B\otimes_LB'$与$\prod_{i\in I}(B_i\otimes_{L_i}B'_i)$进行组合，这样$\psi$就是映射$(\psi_i)_{i\in I}$家族的乘积。因而，$\psi$是环同构。
+其中$L_i$是$L'_i$的中心，$B_i$和$B'_i$是$L'_i$的子代数，中心$L_i$互为$L'_i$中的交换子。我们将$L'_i$视为交换域$L_i$的中心单代数，并将$B_i$视为有限次数的中心简单$L_i$代数。通过断言a)，将$b_i\otimes b'_i$发送到$b_ib'_i$的典范映射$\psi_i: B_i\otimes_{L_i}B'_i\rightarrow L'_i$是环同构。现在，我们将可以确定$B\otimes_LB'$与$\prod_{i\in I}(B_i\otimes_{L_i}B'_i)$相结合，这样$\psi$就是映射$(\psi_i)_{i\in I}$家族的乘积。因而，$\psi$是环同构。
 
 #### 推论 {#alg-viii-s14-n5-cor-1 .statement tag=00H0}
 
@@ -314,7 +314,7 @@ $$
 
 由于 K 上有限次数的每个单代数都是中心，因此推论由定理 5 和 6 得出。
 
-### 6.最大交换子代数
+### 6. 最大交换子代数
 
 如果K-代数 A 的子代数是A 的交换子代数的集合极大元素，则我们说交换子代数是A 的最大交换子代数。
 
@@ -330,7 +330,7 @@ b) 设$K'$为非零的交换K-代数。那么L是A的最大值交换子代数当
 
 相反，假设L是A的最大交换子代数，并令$x$为$L'$的元素。由 $L\cup  \{x\}$ 生成的 A 的子代数 M 是可交换的且包含 L。因为 L 是最大的，所以我们有 M = L，所以 $x\in L$，最后是 $L = L'$，这给出了 a)。
 
-通过III, §4, No. 4、p. 468的命题 6，$L_{(K')}$在$A_{(K')}$的交换子是$L'_{(K')}$。由于等式 $L = L'$ 和 $L_{(K')}= L'_{(K')}$ 是等价的（II, §7, No. 9、p. 311、命题 19），因此从 a) 得出断言 b)。
+通过III, §4, No. 4、p. 468的命题 6，$L_{(K')}$在$A_{(K')}$的交换子是$L'_{(K')}$。由于等式 $L = L'$ 和 $L_{(K')}= L'_{(K')}$ 是等价的（II, §7, No. 9、p. 311、命题 19），断言 b) 由 a) 推出。
 
 #### 命题 3 {#alg-viii-s14-prop-3 .statement tag=00H2}
 
@@ -350,7 +350,7 @@ A) 假设 A 为形式End$_K$(V)，其中V是非零有限维的向量空间超过
 
 （一）$=\Rightarrow$（四）$=\Rightarrow$（二）$=\Rightarrow$（三）$=\Rightarrow$（一）。
 
-由于L在K上是有限次数的半单交换代数，我们用有限次数的K的扩张的有限乘积$\prod_{i\in I}L_i$来计算可以确定（VIII，p. 137， 命题3)。对于每个$i\in I$，令$V_i$为L模V的型$L_i$的同型组件；它是非零有限维的向量空间超过$L_i$，因为V是一个忠实的L模块（VIII，p. 144，推论）。然后我们可以用$\prod_{i\in I}V_i$来认同V。在这些条件下，A中L的交换子$L'$，即代数End$_L$(V)，可以用乘积$\prod_{i\in I}$End$_{L_i}(V_i)$来识别。
+由于L在K上是有限次数的半单交换代数，我们用有限次数的K的扩张的有限乘积$\prod_{i\in I}L_i$来计算可以确定（VIII，p. 137， 命题3)。对于每个$i\in I$，令$V_i$为L模块V的型$L_i$的同型组件；它是非零有限维的向量空间超过$L_i$，因为V是一个忠实的L模块（VIII，p. 144，推论）。然后我们可以用$\prod_{i\in I}V_i$来认同V。在这些条件下，A中L的交换子$L'$，简单来说就是代数End$_L$(V)，可以用乘积$\prod_{i\in I}$End$_{L_i}(V_i)$来识别。
 
 假设L是End$_K(V)$的最大值交换子代数。到引理 3, a) 时，我们有 $L = L'$，因而 $L'$ 是可交换的，并且对于每个 $i\in I$，我们都有暗淡$_{L_i}(V_i) = 1$。因而 (i) 意味着 (iv)。
 
@@ -382,7 +382,7 @@ B) 让我们继续讨论一般情况。通过VIII、p. 252的定理 1，存在�
 
 假设 A 是 K 上有限次数的中心单代数。 A 可能存在不是半单且 $[A : K]\not= [L : K]^2$ (VIII, p. 270, 习题 5) 的最大值交换子代数 L。
 
-### 7.极大étale子代数
+### 7. Maximal Étale Subalgebras
 
 #### 引理 4 {#alg-viii-s14-lem-4 .statement tag=00H4}
 
@@ -392,7 +392,7 @@ B) 让我们继续讨论一般情况。通过VIII、p. 252的定理 1，存在�
 
 假设$n >1$。 K 中包含条目的对角线矩阵的代数是与 K 不同的 A 的既约子代数。
 
-假设$n= 1$。设$p$为D的特征指数。通过VIII、p. 230的引理1，存在D的元素$a$，使得对于任何自然数$m$，$a^{p^m}$不属于到K。因此，对于 $m$ 足够大，元素 $x=a^{p^m}$ 在 K (V, §7, No. 7, p. 44, 命题 13) 上是可分的，但它不能属于到 K。 A 的子代数 $K(x)$ 是可分扩张域 K 有限次数，因此既约子代数大于 K；它与 K 不同。
+假设$n= 1$。设$p$为D的特征指数。通过VIII、p. 230的引理1，存在D的元素$a$，使得对于任何自然数$m$，$a^{p^m}$不属于到K。因而，对于 $m$ 足够大，元素 $x=a^{p^m}$ 在 K (V, §7, No. 7, p. 44, 命题 13) 上是可分的，但它不能属于到 K。 A 的子代数 $K(x)$ 是可分扩张域 K 有限次数，因此既约子代数大于 K；它与 K 不同。
 
 #### 命题 4 {#alg-viii-s14-prop-4 .statement tag=00H5}
 
@@ -404,7 +404,7 @@ b) 如果L是A的既约子代数中最大的，则我们有$L = L'$，L是A的�
 
 我们知道关系$L = L'$意味着L是A的最大交换子代数（VIII，p. 261，引理3，a））。假设 L 是半单，可交换，且不同于 $L'$。通过VIII的定理 5，p. 259$, L'$是半单，L是$L'$的交换子，因此中心是$L'$；因而，$L'$ 不可交换。只要证明 A 中存在半单交换子代数 M，它不同于 L 和包含 L，并且如果 L 是 étale，那么它也是 étale。
 
-通过结构定理对于半单环（VIII，p. 135，定理1），从$L'$到$B_1\times  \cdots  \times B_r$存在简单的环$B_1, . . . ,B_r$和同构$\varphi$。对于$1\leqslant i\leqslant r$，用$E_i$表示$B_i$的中心；那么我们就有$\varphi (L) = E_1\times  \cdots  \times E_r$。由于 $L'$ 不可交换，我们可以假设 $B_1$ 对于例不可交换；因此，我们有$B_1\not= E_1$，并且到引理 4，存在$B_1$的子代数$M_1$，它是可交换的，与$E_1$不同，并且在$E_1$之上。 集合$M =\varphi^{-1}(M_1\times E_2\times  \cdots  \times E_r)$；它是包含 L 中的半单交换子代数，与 L 不同。假设 L 是 K 上的 étale；让我们证明 M 是 étale。 K 的扩张 $E_i$ 是可分离的 (V, §6, No. 4, p. 30, 命题 3)。此外，由于$E_1$-代数$M_1$和K-代数$E_1$是étale，K-代数$M_1$也是étale（V, §6, No. 5，p. 32，推论2）。因此 K-代数 $M_1\times E_2\times  \cdots  \times E_r$ 是 étale，因此 M 也是如此。
+通过结构定理对于半单环（VIII，p. 135，定理1），从$L'$到$B_1\times  \cdots  \times B_r$存在简单的环$B_1, . . . ,B_r$和同构$\varphi$。对于$1\leqslant i\leqslant r$，用$E_i$表示$B_i$的中心；那么我们就有$\varphi (L) = E_1\times  \cdots  \times E_r$。由于 $L'$ 不可交换，我们可以假设 $B_1$ 对于例不可交换；因而，我们有$B_1\not= E_1$，并且到引理 4，存在$B_1$的子代数$M_1$，它是可交换的，与$E_1$不同，并且在$E_1$之上。 集合$M =\varphi^{-1}(M_1\times E_2\times  \cdots  \times E_r)$；它是包含 L 中的半单交换子代数，与 L 不同。假设 L 是 K 上的 étale；让我们证明 M 是 étale。 K 的扩张 $E_i$ 是可分离的 (V, §6, No. 4, p. 30, 命题 3)。此外，由于$E_1$-代数$M_1$和K-代数$E_1$是étale，K-代数$M_1$也是étale（V, §6, No. 5，p. 32，推论2）。因而 K-代数 $M_1\times E_2\times  \cdots  \times E_r$ 是 étale，因而 M 也是如此。
 
 设A是K上有限次数的中心单代数。A的半单交换子代数中最大的子代数称为A的最大半单交换子代数。通过命题4，项“最大”指的是性质可交换或半单且可交换。 A的既约子代数中最大的A的子代数称为A的极大étale子代数。
 
@@ -422,21 +422,21 @@ b) 令 L 为 D 的交换律子域，即 K 的可分扩张；它包含在 D 的�
 
 c) 令 L 为 D 的交换律子域。则当且仅当我们有 $[D : K] = [L : K]^2$ 时，L 为 D 的极大交换子域。
 
-D 的子代数是域 (V, §2, No. 2, p. 10, 命题 1)，因此是半单。此外，D 包含 K 的极大交换子域。 断言 a) 和 b) 由推论 1 和命题 3 (VIII, p. 262) 的断言 c) 得出。
+D 的子代数是域 (V, §2, No. 2, p. 10, 命题 1)，因此是半单。此外，D 包含于 K 的极大交换子域。 断言 a) 和 b) 由推论 1 和命题 3 (VIII, p. 262) 的断言 c) 得出。
 
 #### 命题 5 {#alg-viii-s14-prop-5 .statement tag=00H8}
 
 设 A 为 K 上有限次数的中心单代数。设 B 为 A 的半单子代数，并令 $B'$ 为 B 的交换子。
 
-a) 代数 B 包含 A 的最大半单交换子代数当且仅当 B 包含 $B'$。
+a) 代数 B 包含于 A 的最大半单交换子代数当且仅当 B 包含于 $B'$。
 
-b) 假设 B 包含 $B'$，并设 $g$ 为K-代数同态，从 B 到 A，存在 A 的内自同构 $\theta$，重合与 B 上的 $g$。
+b) 假设 B 包含于 $B'$，并设 $g$ 为K-代数同态，从 B 到 A，存在 A 的内自同构 $\theta$，重合与 B 上的 $g$。
 
-令L为A的最大交换子代数；通过 VIII、p. 261、L 的引理 3 等于 A 中其交换子 $L'$。如果 B 包含于 L，则其交换子 $B'$ 包含在 $L'$ 中，因此也包含在 B 中。
+设L为A的最大交换子代数；通过 VIII、p. 261、L 的引理 3 等于 A 中其交换子 $L'$。如果 B 包含于 L，则其交换子 $B'$ 包含在 $L'$ 中，因此也包含在 B 中。
 
 反之，假设B包含$B'$，则$B'$是B的中心，即半单交换代数（VIII，p. 137，命题2）。根据推论 1，存在最大半单交换子代数 L 包含于 $B'$。 L的交换子是L（VIII，p. 261，引理3，a）），$B'$的交换子等于B（VIII，p. 259，定理5）。因此关系$L\supset B'$意味着$L\subset B$。我们已经证明了a）。
 
-让我们证明b)。假设 B 包含于 $B'$，且选择 B 中包含的 A 的最大半单交换子代数 L，由 a) 存在。令从B到A的$g$为同态。通过VIII、p. 262中的命题 3，我们有等式$[A : K] = [L : K]^2$；由VIII、p. 263的推论，存在A的内自同构$\theta_1$，重合与$g$在L上。如果$f$是B到A中的典范嵌入，则同态$g$和$\theta_1\circ f$具有相同的B的限制到中心$B'$，因为$B'$包含在L中。由VIII、p. 256的定理2，存在A的内自同构$\theta$使得$g=\theta \circ f$；其他字、$\theta$扩展$g$。
+让我们证明b)。假设 B 包含于 $B'$，且选择 B 中包含的 A 的最大值半单交换子代数 L，由 a) 存在。令从B到A的$g$为同态。通过VIII、p. 262中的命题 3，我们有等式$[A : K] = [L : K]^2$；由VIII、p. 263的推论，存在A的内自同构$\theta_1$，即重合与L上的$g$。如果$f$是B到A的典范嵌入，则同态$g$和$\theta_1\circ f$具有相同的B的限制到中心$B'$，因为$B'$包含在L中。由VIII、p. 256的定理2，存在A的内自同构$\theta$使得$g=\theta \circ f$；其他字、$\theta$扩展$g$。
 
 ### 8. 可对角化子代数 / 单代数
 
@@ -450,7 +450,7 @@ I 中每$i$ 集合 $V_i=\varepsilon_i(V)$；那么$(V_i)_{i\in I}$是V的非零�
 
 #### 命题 6 {#alg-viii-s14-prop-6 .statement tag=00H9}
 
-令L为与直和分解$V =\oplus_{i\in I}V_i$相关联的End$_D(V)$的可对角化子代数。
+令L为与直和分解$V =\oplus_{i\in I}V_i$关联的End$_D(V)$的可对角化子代数。
 
 a) 代数L是K-代数的可对角化子代数中最大，结束$_D(V)$当且仅当每个$V_i$有维数1大于D。
 
@@ -490,8 +490,8 @@ End$_D(V)$中L的交换子$L'$由形式$(x_i)\mapsto (u_i(x_i))$的自同态和$
 
 如果性质 (ii) 成立，则 $L_{(K')}$ 是 $A_{(K')}$ (命题 6) 的最大交换子代数，且可对角化。 K-代数 L 则为 étale (V, §6, No. 3, p. 28, 定义 1)，并且它是 A 的最大交换子代数 (VIII, p. 261, 引理 3, b))。我们已经证明(ii)蕴涵(i)。
 
-假设性质 (i) 成立。由于L是K上的étale，到命题7，存在有限次数的K的伽罗瓦扩张$K_1$，使得$K_1$代数$L_{(K_1)}$可对角化的。 代数 A 是中心简单；由(VIII，p. 252，定理1)，$K_2$上存在有限维$n$的伽罗瓦扩张$K_2$，向量空间V，同构 $\theta$从$A_{(K_2)}$到结束$_{K_2}(V)$。通过V、p. 55的命题 1，我们可以假设$K_1= K_2$。由VIII、p. 264的命题4、b)和VIII的引理3、b)，p. 261$, L_{(K')}$是$A_{(K')}$的最大交换子代数，所以$\theta (L_{(K')})$是最大结束$_{K'}(V')$的交换子代数。让我们应用命题 6 到可对角化代数 $\theta (L_{(K')}):$ 存在 $V'$ 的基 $(e_1, . . . , e_n)$ 在 $K'$ 上，使得 $\theta (L_{(K')})$ 由 $V'$ 的自同态和对角矩阵组成关于这个基。因此 (i) 意味着 (iii)。
+假设性质 (i) 成立。由于L是K上的étale，到命题7，存在有限次数的K的伽罗瓦扩张$K_1$，使得$K_1$-代数$L_{(K_1)}$可对角化的。 代数 A 是中心简单；由(VIII，p. 252，定理1)，$K_2$上存在有限维$n$的伽罗瓦扩张$K_2$，向量空间V，以及同构 $\theta$从$A_{(K_2)}$到结束$_{K_2}(V)$。通过V、p. 55的命题 1，我们可以假设$K_1= K_2$。由VIII、p. 264的命题4、b)和VIII的引理3、b)，p. 261$, L_{(K')}$是$A_{(K')}$的最大交换子代数，所以$\theta (L_{(K')})$是最大结束$_{K'}(V')$的交换子代数。让我们应用命题 6 到可对角化代数 $\theta (L_{(K')}):$，在 $K'$ 上存在 $V'$ 的基 $(e_1, . . . , e_n)$，使得 $\theta (L_{(K')})$ 由 $V'$ 的自同态和对角矩阵组成关于这个基。因此 (i) 意味着 (iii)。
 
-### 习题 {#alg-viii-s14-exercises}
+### 习题{#alg-viii-s14-exercises}
 
-§ 14](exercises/s14/)参见[习题。
+参见[习题为 § 14](exercises/s14/)。

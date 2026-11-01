@@ -52,16 +52,16 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 29998fdeddef41fb42d2c31442268a8d7260d72ab06880fdbcfc8f7195af200e
+content_sha256: 0b05dd5e731e014f35835162505cb940efaaa3503f15d99bf771c57d417b3b68
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
 translation_method: google
 source_content_sha256: 317fc43050baeab2bc8c0cb022963528cc65340ba4a1f70e587dec5228ab5967
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 97d2eb44f13e36f64f1a0b5ae4d7ed88584e47d4eb75b9033d9f52bcb568a913
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。拓扑空间上的预测量和测量
@@ -78,7 +78,7 @@ c) *如果f和g是$\mathscr{F}_+$中的两个元素，则$p(f + g) \leq p(f) + p
 d) *如果$(f_n)$是$\mathscr{F}_+$的元素递增序列，并且如果$f = \lim_{n \to \infty} f_n$，则$p(f) = \lim_{n \to \infty} p(f_n)$。*
 *如果 A 是 T 的子集，我们写 $p(A)$ 而不是 $p(\varphi_A)$。*
 
-条件 b) 意味着$p(0) = 0$。另一方面，令$(f_n)$为$\mathscr{F}_+$的元素序列； 条件 c) 和 d) 意味着不等式
+条件 b) 意味着$p(0) = 0$。另一方面，设$(f_n)$为$\mathscr{F}_+$元素序列； 条件 c) 和 d) 意味着不等式
 
 $$
 p\left( \sum_n f_n \right) \leq \sum_n p(f_n)
@@ -92,7 +92,7 @@ $$
 
 *令 $(p_\alpha)_{\alpha \in A}$ 为 T 上的产权负担族。和和家庭 $(p_\alpha)$ 的上封套（在 $\mathscr{F}_+(\mathscr{F}_+(T))$ 中）则为产权负担。*
 
-有限族负担的和显然是一种负担，处理上封套的情况就足够了。 定义 1 的性质a)、b)、c)显然满足，仍有待建立d)。 集合$p = \sup_\alpha p_\alpha$；然后，当记号为定义 1 d) 时，
+有限族负担中的和显然是一种负担，处理上封套的情况就足够了。 定义 1 的性质 a)、b)、c) 显然满足，仍有待建立 d)。 集合$p = \sup_\alpha p_\alpha$；然后，当记号为定义 1 d) 时，
 
 $$
 p(f) = \sup_\alpha p_\alpha(f) = \sup_\alpha \sup_n p_\alpha(f_n) = \sup_n \sup_\alpha p_\alpha(f_n) = \sup_n p(f_n).
@@ -104,9 +104,9 @@ $$
 
 然后根据 Def 的属性 a) 和 c) 得出。 1 对于 T 的每个紧凑子集 K，$p(K) < +\infty$。特别是，如果 T 是紧凑的，则 T 上的每个局部有界负担都是有界的。
 
-设 p 为集合 T 上的负担，A 子集为 T 的负担。对于每个函数 $f \in \mathscr{F}_+(A)$，令 $f^0$ 为扩张 0 的 f 到 T； $\mathscr{F}_+(A)$ 上的映射 $f \mapsto p(f^0)$ 是一种负担，称为由 A 上的 p* 引起的*负担，并表示为 $p|A$ 或 $p_A$。
+设 p 为集合 T 上的负担，A 子集为 T 的负担。对于每个函数 $f \in \mathscr{F}_+(A)$，令 $f^0$ 为扩张，f 到 T 的差为 0； $\mathscr{F}_+(A)$ 上的映射 $f \mapsto p(f^0)$ 是一种负担，称为由 A 上的 p* 引起的*负担，并表示为 $p|A$ 或 $p_A$。
 
-设 T 和 U 为 T 到 U 的两个集合、$\pi$ 映射，并且 p 是 T 上的负担。 U 上的负担 $\pi(p)$，其 $f \in \mathscr{F}_+(U)$ 的值由下式给出
+设 T 和 U 是 T 到 U 的两个集合、$\pi$ 映射，并且 p 是 T 上的负担。 U 上的负担 $\pi(p)$，其 $f \in \mathscr{F}_+(U)$ 的值由下式给出
 
 $$
 (\pi(p))(f) = p(f \circ \pi),
@@ -120,7 +120,7 @@ $$
 
 — *如果产权负担$p$集中在$A \subset T$，则每$f \in \mathscr{F}_+(T)$就有$p(f) = p(f \varphi_A)$。*
 
-对于，集合$T - A = B$，使得$p(\varphi_B) = 0$；然后
+对于，集合$T - A = B$，使得$p(\varphi_B) = 0$；那么
 
 $$
 f \varphi_B \leq (+\infty) \cdot \varphi_B = \sup_{n \in \mathbf{N}} n \varphi_B,
@@ -227,7 +227,7 @@ $T$上的复杂测度的集合显然是向量空间（*注* 1），将其表示�
 
 #### 注 3 {#int-ix-s1-n2-rem-3 .statement tag=09MY}
 
-对于 $T$ 的每个 Borel 子集 $A$（特别是 $A = T$）和 $T$ 上的每个正测度 $\mu$，数 $\mu^*(A)$ 是契约测度 $\mu^*(K)$ 的至高值子集 / $A$。事实上，对于$A$的每个紧凑子集$K$，一个人有$\mu^*(K) \leq \mu^*(A)$；另一方面，如果$\mathfrak{K}$是$T$的紧凑子集的集合，那么
+对于 $T$ 的每个 Borel 子集 $A$（特别是 $A = T$）和$T$ 上的每个正措施$\mu$，数 $\mu^*(A)$ 是契约措施$\mu^*(K)$ 的至高子集共 $A$。事实上，对于 $A$ 的每一个紧凑子集 $K$，都有 $\mu^*(K) \leq \mu^*(A)$；另一方面，如果$\mathfrak{K}$是$T$的紧凑子集的集合，那么
 
 $$
 \mu^*(A) = \sup_{K \in \mathfrak{K}} \mu_K^*(A \cap K) = \sup_{K \in \mathfrak{K}} \sup_{L \in \mathfrak{K}, L \subset A \cap K} \mu_K^*(L) \leq \sup_{L \in \mathfrak{K}, L \subset A} \mu^*(L)
@@ -245,7 +245,7 @@ $$
 
 #### 命题 3 {#int-ix-s1-prop-3 .statement tag=09N0}
 
-*令$T$为局部紧凑空间，并让$\mu$为$T$的测度。用 $W(\mu)$ 映射表示，它与 $T$ 的每个紧凑子集 $K$ 相关联，导出测度 $\mu_K$。那么$W(\mu)$是$T$上的一项预测，一个有$W(|\mu|) = |W(\mu)|$，线性映射$W : \mu \mapsto W(\mu)$是空间$\mathscr{M}(T; \mathbf{C})$的双射到空间$\mathscr{P}(T; \mathbf{C})$上的预测$T$。此外，如果$\mu$为正，则$\mu^* = (W(\mu))^*$。
+*令$T$为局部紧致空间，令$\mu$为$T$的测度。用 $W(\mu)$ 映射表示，它与 $T$ 的每个紧凑子集 $K$ 相关联，导出测度 $\mu_K$。那么$W(\mu)$是$T$上的一项预测，一个有$W(|\mu|) = |W(\mu)|$，线性映射$W : \mu \mapsto W(\mu)$是空间$\mathscr{M}(T; \mathbf{C})$的双射到空间$\mathscr{P}(T; \mathbf{C})$上的预测$T$。此外，如果$\mu$为正，则$\mu^* = (W(\mu))^*$。
 
 很明显，$W(\mu)$ 是预测值（第 V, §7, No. 2，命题 4），映射 $W$ 是线性的。 关系 $W(\mu) = 0$ 表示 $\mu$ 诱导 $T$ 中每个紧集的测度 0；那么$\mu(f) = 0$对应$f \in \mathscr{H}(T; \mathbf{C})$，因此$\mu = 0$，这证明$W$是单射的。仍有待证明 $W$ 是满射。由于每个预测值都是线性组合的正预测值，因此对于每个“正”预测值 $w$，一个正值 $\mu$ 就足以构造，从而使得 $w = W(\mu)$。令$f \in \mathscr{H}(T)$为给定的函数，令$L$为紧集包含$f$的支持度； 数 $w_L(f_L)$ 独立于$L$ 的选择，通过定义的诱导措施，因此可以集合 $\mu(f) = w_L(f_L)$；那么$\mu$是$\mathscr{H}(T)$上的正线性形式，即正测度。让我们验证一下$w = W(\mu)$；首先，关系$\mu^\bullet(f) = w_L^\bullet(f_L)$扩展到$f$是有限上半连续函数，且零在$L$之外。例如，令$M$是$L$的紧邻域，$\mathscr{H}$是$T$上连续函数的（递减有向）集合，$M$包含支持，即$\geq f$。然后（第 IV, §4, No. 4 章，第 5 号提案第 2 条）
 
@@ -326,7 +326,7 @@ Q.E.D.
 
 — 如果 $f$ 和 $g$ 是两个函数 $\geqslant 0$，并且几乎在任何地方都局部相等，则 $\mu^\bullet(f) = \mu^\bullet(g)$（*loc.cit.*，No. 3，第 6 条）。
 
-### 5.可测量集合和函数
+### 5. 可测量集合和函数
 
 #### 定义 7 {#int-ix-s1-def-7 .statement tag=09N7}
 
@@ -426,13 +426,13 @@ $$
 
 — a) 令$(U_\alpha)_{\alpha \in I}$为递增有向$T$的开子集族，其中并$U$。然后$\mu^\bullet(U) = \sup_{\alpha \in I} \mu^\bullet(U_\alpha)$。
 
-b) 令 $(F_\alpha)_{\alpha \in I}$ 为递减 $T$ 的封闭子集的有向族，其中交 $F$。如果存在 $\alpha \in I$ 使得 $\mu^\bullet(F_\alpha)$ 是有限的，则$\mu^\bullet(F) = \inf_{\alpha \in I} \mu^\bullet(F_\alpha)$。
+b) 令 $(F_\alpha)_{\alpha \in I}$ 为递减 $T$ 的封闭子集有向族，其中交 $F$。如果存在 $\alpha \in I$ 使得 $\mu^\bullet(F_\alpha)$ 是有限的，则$\mu^\bullet(F) = \inf_{\alpha \in I} \mu^\bullet(F_\alpha)$。
 
 由前面的推论，存在最大的局部可忽略的开集合；这证明了以下定义的合理性：
 
 #### 定义 8 {#int-ix-s1-def-8 .statement tag=09ND}
 
-— *对$T$的措施$\mu$的支持定义为本地最大的的补充$\mu$-可忽略$T$中的开放集合*。
+— *对$T$的措施$\mu$的支持被定义为本地最大的的补充$\mu$-可忽略$T$中的开放集合*。
 
 $\mu$的支持度表示为$\operatorname{Supp}(\mu)$。
 
@@ -442,7 +442,7 @@ $\mu$的支持度表示为$\operatorname{Supp}(\mu)$。
 
 #### 注 2 {#int-ix-s1-n6-rem-2 .statement tag=09NF}
 
-让我们证明No. 3的*例2*中引入的措施是$T$中具有紧凑支持的措施。令$\mu$为$T$的正测度，其支持度为紧集$K$，并令$\nu$为$\mu_K$定义的测度（在No. 3的意义上）。让$f \in \mathscr{F}_+(T)$；然后
+让我们证明No. 3的*例2*中引入的措施是$T$中具有紧凑支持的措施。令$\mu$为$T$的正测度，其支持度为紧集$K$，并令$\nu$为$\mu_K$定义的测度（在No. 3的意义上）。让$f \in \mathscr{F}_+(T)$；那么
 
 $$
 \nu^\bullet(f) = \mu_K^\bullet(f_K) \quad \text{(No. 3, formula (3))}.
@@ -472,13 +472,13 @@ $$
 
 #### 定义 9 {#int-ix-s1-def-9 .statement tag=09NH}
 
-*设$(\mu_i)_{i \in I}$为T上的一系列测度。设A为I的有限子集的集合；对于每个$\alpha \in A$让$\lambda_\alpha = \sum_{i \in \alpha} \mu_i$。如果族$(\lambda_\alpha)$在$\mathscr{M}(T)$中承认一个上等$\mu$，则称族$(\mu_i)$是可和的，$\mu$称为族$(\mu_i)$的和，并且写为$\mu = \sum_{i \in I} \mu_i$。*
+*设$(\mu_i)_{i \in I}$为T上的一系列测度。设A为I的有限子集的集合；对于每个$\alpha \in A$让$\lambda_\alpha = \sum_{i \in \alpha} \mu_i$。如果族$(\lambda_\alpha)$在$\mathscr{M}(T)$中承认一个至上$\mu$，则称族$(\mu_i)$是可和的，$\mu$称为族$(\mu_i)$的和，并且写为$\mu = \sum_{i \in I} \mu_i$。*
 
 第 1 章的这个定义扩展定义 V, §2, No. 1。
 
 #### 命题 7 {#int-ix-s1-prop-7 .statement tag=09NI}
 
-*为了使家庭$(\mu_i)_{i \in I}$可求和，且和$\mu$，产权负担$p = \sum_{i \in I} \mu_i^\bullet$在局部有界是必要且充分的，在这种情况下为$p = \mu^\bullet$。对于 T 的每个紧凑子集 K，族 $((\mu_i)_K)_{i \in I}$ 可以在 $\mathscr{M}(K)$ 和 $\mu_K = \sum_{i \in I} (\mu_i)_K$ 中求和。*
+*对于家庭 $(\mu_i)_{i \in I}$ 来说，和 $\mu$ 是可求和的，产权负担 $p = \sum_{i \in I} \mu_i^\bullet$ 是局部有界的，在这种情况下是 $p = \mu^\bullet$ 是必要且充分的。对于 T 的每个紧凑子集 K，族 $((\mu_i)_K)_{i \in I}$ 可以在 $\mathscr{M}(K)$ 和 $\mu_K = \sum_{i \in I} (\mu_i)_K$ 中求和。*
 
 与 Def 中的记号相同。 9、I中每有限子集$\alpha$对应$\lambda_\alpha^\bullet = \sum_{i \in \alpha} \mu_i^\bullet$（No. 2，*注* 1）。 叙述则为第 6 条命题的直接的推论。
 
@@ -486,13 +486,13 @@ $$
 
 #### 命题 8 {#int-ix-s1-prop-8 .statement tag=09NJ}
 
-*令 $\mu$ 为 T 上可求和族 $(\mu_i)_{i \in I}$ 的和。在阶中，T 的映射 f 进入拓扑空间 F（无论是否豪斯多夫）为 $\mu$ 可测，f 是可测的$\mu_i$-可测量每个$i \in I$。*
+*设 $\mu$ 为 T 上可求和族 $(\mu_i)_{i \in I}$ 的和。在阶中，T 的映射 f 进入拓扑空间 F（无论是否豪斯多夫）为 $\mu$ 可测，f 是可测的$\mu_i$-可测量每个$i \in I$。*
 
-### 8.压碎
+### 8. 压碎物
 
 #### 定义 10 {#int-ix-s1-def-10 .statement tag=09NK}
 
-*我们将 T 的压榨称为$\mu$，或$\mu$压榨，T 的成对不相交的紧凑子集的任何局部可数族$(K_\alpha)_{\alpha \in A}$，使得集合$N = T - \bigcup_{\alpha \in A} K_\alpha$在局部$\mu$可以忽略不计。*
+*我们称T为$\mu$或$\mu$压榨，T的成对不相交的紧凑子集的任何局部可数族$(K_\alpha)_{\alpha \in A}$，使得集合$N = T - \bigcup_{\alpha \in A} K_\alpha$局部$\mu$可忽略不计。*
 
 #### 命题 9 {#int-ix-s1-prop-9 .statement tag=09NL}
 
@@ -557,7 +557,7 @@ C) 可测量性：
 
 *令 $X$ 为 $T$ 的 $\mu$ 可测量子集。存在$X$的紧凑子集的局部可数族$(L_\alpha)_{\alpha \in A}$，成对不相交的，使得$X - \bigcup_{\alpha \in A} L_\alpha$在局部$\mu$可以忽略不计。如果，在加法中，$X$是可测量的集合的序列$(X_n)$的并使得$\mu^\bullet(X_n) < +\infty$，那么$\alpha \in A$的集合$B$使得$\mu^\bullet(L_\alpha) \neq 0$是可数，并且$X - \bigcup_{\beta \in B} L_\beta$在本地$\mu$可以忽略不计。*
 
-令$f$为$X$的特征函数，并令$(K_\alpha)_{\alpha \in A}$为$T$的压榨，使得$f$的限制对于每个$K_\alpha$都是连续的（命题10）。然后，集合$L_\alpha = K_\alpha \cap X$对于每个$\alpha \in A$来说都是紧凑的，而$(L_\alpha)_{\alpha \in A}$就是所需的族。让我们转到第二个断言；可测量的集合$X_n$可以清楚地假设为不相交的，并且足以为它们中的每一个建立断言。在其他字中，如果必要的话改变记号，我们可以假设$\mu^\bullet(X) < +\infty$。 $\alpha \in A$的集合$B$使得$\mu^\bullet(L_\alpha) > 0$是可数的，只需要证明集合$N = \bigcup_{\alpha \in A - B} L_\alpha$是局部可忽略的。但$K$是紧集；家庭$(L_\alpha)_{\alpha \in A}$在当地可数，集合$K \cap N$是家庭$(K \cap L_\alpha)_{\alpha \in A - B}$的*可数*亚科的并，因此这个集合在当地可以忽略不计。 $N$也是如此（No. 2，命题2），命题成立。
+令$f$为$X$的特征函数，并让$(K_\alpha)_{\alpha \in A}$为$T$的压榨，使得$f$的限制对于每个$K_\alpha$都是连续的（命题10）。然后，集合$L_\alpha = K_\alpha \cap X$对于每个$\alpha \in A$来说都是紧凑的，而$(L_\alpha)_{\alpha \in A}$就是所需的族。让我们进入第二个断言；可测量的集合$X_n$可以清楚地假设为不相交的，并且足以为它们中的每一个建立断言。在其他字中，如果必要的话改变记号，我们可以假设$\mu^\bullet(X) < +\infty$。 $\alpha \in A$的集合$B$使得$\mu^\bullet(L_\alpha) > 0$是可数的，只需要证明集合$N = \bigcup_{\alpha \in A - B} L_\alpha$是局部可忽略的。但$K$是紧集；家庭$(L_\alpha)_{\alpha \in A}$在当地可数，集合$K \cap N$是家庭$(K \cap L_\alpha)_{\alpha \in A - B}$的*可数*亚科的并，因此这个集合在当地可以忽略不计。 $N$也是如此（No. 2，命题2），命题成立。
 
 ### 9. 上积分
 
@@ -571,9 +571,9 @@ $$
 
 *其中$g$超过下半连续函数的集合，即$\geqslant f$。*
 
-还使用记号$\int^* f(t) d\mu(t)$和$\int^* f d\mu$。当$T$局部紧致时，定义重合与通常的定义（第V, §1, No. 1，第4条）。显然$\mu^\bullet(f) \leqslant \mu^*(f)$，当$f$是下半连续时，等式。如果$A$是$T$的子集，则写为$\mu^*(A)$而不是$\mu^*(\varphi_A)$，这个数被称为$A$的*外测度*。具有有限外部测量的可测集合称为*可积集合*，就像局部紧凑空间的情况一样。
+还使用记号$\int^* f(t) d\mu(t)$和$\int^* f d\mu$。当$T$局部紧致时，定义重合与通常的定义（第V, §1, No. 1，第4条）。显然$\mu^\bullet(f) \leqslant \mu^*(f)$，当$f$是下半连续时，等式。如果$A$是$T$的子集，则写为$\mu^*(A)$而不是$\mu^*(\varphi_A)$，这个数称为$A$的*外测度*。具有有限外部测量的可测集合称为*可积集合*，就像局部紧致空间的情况一样。
 
-函数 $f$ 与值在 Banach 空间或$\overline{\mathbf{R}}$ 中，这样 $\mu^*(|f|) = 0$ 被称为“可忽略不计”；如果 $\varphi_A$ 可以忽略不计，即 $\mu^*(A) = 0$，则称集合 $A \subset T$ 可以忽略不计。表述“几乎无处不在”是在第 1 章中引入的。 IV, §2, No. 3。
+函数 $f$ 与值位于 Banach 空间或$\overline{\mathbf{R}}$ 中，使得$\mu^*(|f|) = 0$ 被称为“可忽略不计”；如果 $\varphi_A$ 可以忽略不计，即 $\mu^*(A) = 0$，则称集合 $A \subset T$ 可以忽略不计。表述“几乎无处不在”是在第 1 章中引入的。 IV, §2, No. 3。
 
 #### 命题 12 {#int-ix-s1-prop-12 .statement tag=09NQ}
 
@@ -655,7 +655,7 @@ $$
 
 *如果$\mu$和$\nu$是T上的两个度量，使得$\mu^* = \nu^*$，则$\mu = \nu$。*
 
-因为，等式$\mu^* = \nu^*$意味着对于$\mu$和$\nu$调节的每个正函数$f$，$\mu^*(f) = \nu^*(f)$，因此对于具有紧凑支持的每个正函数；接下来是$\mu^* = \nu^*$（No. 2，第2条命题），然后是$\mu = \nu$（No. 2，第2条命题的Cor.）。
+因为，等式$\mu^* = \nu^*$意味着$\mu^*(f) = \nu^*(f)$对于每个正函数$f$，它被调节为$\mu$和$\nu$，因此对于每个具有紧凑支持的正函数；接下来是$\mu^* = \nu^*$（No. 2，第2条命题），然后是$\mu = \nu$（No. 2，第2条命题的Cor.）。
 
 #### 推论 5 {#int-ix-s1-prop-14-cor-5 .statement tag=09O1}
 
@@ -669,13 +669,13 @@ $$
 
 由此得出 $\mu = \sum_{n \in \mathbf{N}} \mu_n$（No. 7，命题 7）。
 
-### 10.整合理论
+### 10. 整合理论
 
 #### 定义 13 {#int-ix-s1-def-13 .statement tag=09O2}
 
-— *让* $p \in [1, +\infty[$； *一个表示由* $\overline{\mathscr{L}}^p(T, \mu)$ *（分别* $\overline{\mathscr{L}}_F^p(T, \mu)$ *如果 F 是 Banach 空间） 映射* $\mathbf{f}$ *T 的集合到* $\overline{\mathbf{R}}$ *（分别到 F） $\mu$ 可测量，并且满足*$\mu^\bullet(|\mathbf{f}|^p) < +\infty$。 *一个表示由* $\mathscr{L}^p(T, \mu)$ *(分别* $\mathscr{L}_F^p(T, \mu)$*) $\mu$ 集合-调节* $\overline{\mathscr{L}}^p(T, \mu)$ *(分别* $\overline{\mathscr{L}}_F^p(T, \mu)$*) 元素。*
+— *让* $p \in [1, +\infty[$； *一个表示由* $\overline{\mathscr{L}}^p(T, \mu)$ *（分别* $\overline{\mathscr{L}}_F^p(T, \mu)$ *如果 F 是 Banach 空间）集合的映射* $\mathbf{f}$ *T 到* $\overline{\mathbf{R}}$ *（分别到 F）进行 $\mu$ 可测量，并且满足*$\mu^\bullet(|\mathbf{f}|^p) < +\infty$。 *一个表示由* $\mathscr{L}^p(T, \mu)$ *(分别* $\mathscr{L}_F^p(T, \mu)$*) $\mu$ 集合-调节* $\overline{\mathscr{L}}^p(T, \mu)$ *(分别* $\overline{\mathscr{L}}_F^p(T, \mu)$*) 的元素。*
 
-我们会写$\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$，$N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$。我们用$\overline{N}_\infty(\mathbf{f})$表示数$k \geq 0$的下确界，使得$|\mathbf{f}| \leq k$局部$\mu$——几乎无处不在；如果 $\overline{N}_\infty(\mathbf{f}) < +\infty$，则$\mathbf{f}$ 被称为本质上有界。 T 的可测量且基本有界的映射到 $\overline{\mathbf{R}}$（分别到 F）的集合表示为 $\overline{\mathscr{L}}^\infty(T, \mu)$（分别为 $\overline{\mathscr{L}}_F^\infty(T, \mu)$）。 $\overline{\mathscr{L}}_F^1(T, \mu)$（或$\mathscr{L}_F^1(T, \mu)$）中的元素本质上被称为可积函数（或可积函数），F中的值。
+我们会写$\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$，$N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$。我们用$\overline{N}_\infty(\mathbf{f})$表示数$k \geq 0$的下确界，使得$|\mathbf{f}| \leq k$局部$\mu$——几乎无处不在；如果 $\overline{N}_\infty(\mathbf{f}) < +\infty$，则$\mathbf{f}$ 被称为本质上有界。 T 的可测量且基本有界的映射到 $\overline{\mathbf{R}}$（分别到 F）的集合表示为 $\overline{\mathscr{L}}^\infty(T, \mu)$（分别为 $\overline{\mathscr{L}}_F^\infty(T, \mu)$）。 $\overline{\mathscr{L}}_F^1(T, \mu)$（或$\mathscr{L}_F^1(T, \mu)$）中的元素本质上称为可积函数（或可积函数），在F中称为值。
 
 如果 $\mu$ 是一个复杂的度量，则集合
 
@@ -712,23 +712,23 @@ $$
 *F 中存在且仅有一个连续的线性映射 $f \mapsto \int f d\mu$，空间 $\overline{\mathscr{L}}_F^1(\mu)$，具有以下性质：
 如果 f 为形式 $t \mapsto g(t)a$，其中 $a \in F$，且 g 为正函数、有限、$\mu$ 可测且$\mu^*(g) < +\infty$，则$\int f d\mu = \mu^*(g) \cdot a$。*
 
-因为，半范数空间 $\overline{\mathscr{L}}_F^1(\mu)$ 和 $\overline{\mathscr{L}}_F^1(\mu')$ 是相同的。由于$\mu^* = {\mu'}^*$，映射$f \mapsto \int f d\mu'$满足叙述中的条件。另一方面，叙述中考虑的形式$f = g \cdot a$的函数的集合在$\overline{\mathscr{L}}_F^1(\mu')$（第IV, §3, No. 5，第10条）、从而唯一性中*总计*。
+因为，半范数空间 $\overline{\mathscr{L}}_F^1(\mu)$ 和 $\overline{\mathscr{L}}_F^1(\mu')$ 是相同的。由于$\mu^* = {\mu'}^*$，映射$f \mapsto \int f d\mu'$满足条件或叙述。另一方面，叙述中考虑的形式$f = g \cdot a$的函数中的集合在$\overline{\mathscr{L}}_F^1(\mu')$（第IV, §3, No. 5，第10条）、从而唯一性中*总计*。
 
-有人说，$\int f\, d\mu$是$f$对$\mu$的积分，这个向量也可以表示为$\mu(f)$或$\int f(t)\, d\mu(t)$。
+有人说，$\int f\, d\mu$是$f$对$\mu$的积分，而这个向量也表示为$\mu(f)$或$\int f(t)\, d\mu(t)$。
 
-由于$\int f\, d\mu = \int f\, d\mu'$对于$F$中的每个本质可积函数$f$和值，所有本质积分扩展的理论到Hausdorff空间的测度，没有新的证明；由此，通过将自己限制在适度的函数，可以推导出相对于普通积分的结果。我们特别引用以下结果：
+由于$\int f\, d\mu = \int f\, d\mu'$对于$F$中的每个本质可积函数$f$和值，所有本质积分扩展的理论到Hausdorff空间的测度，没有新的证明；由此，通过将自己限制在调节的函数，可以推导出相对于普通积分的结果。我们特别引用以下结果：
 
 — Th。第 3 章。 IV, §3, No. 4，它的扩张到$\overline{\mathscr{L}}_F^p$，以及它的两个推论。
 — Th。第 4 章。 IV, §3, No. 5（合成，带有连续的线性映射）及其推论；道具。 9、11、12为同一编号。
 — Ch. 的所有结果IV, §3, No. 6，相对于$L^p$的有序向量空间结构。
 — Ch. 的所有结果IV, §3, No. 7，尤其是勒贝格的定理。
 — Ch. 的所有结果IV, §3, No. 8，关系，空间$L_F^p$之间。
-— 定理 2 章。 IV, §4, No. 3（勒贝格的定理特定于$L_F^1$的叙述）。
+— 定理 2 章。 IV, §4, No. 3（勒贝格的定理中的叙述特定于$L_F^1$）。
 — Hölder 的不等式（第 IV, §6, No. 4，第 2 章）及其推论。
 — 关系之间空间 $L_F^p$ 建立于第 1 章IV, §6, No. 5。
 — 第 1 章中建立的空间 $L^p$ 对偶性结果V, §5, No. 8。
 — Dunford–Pettis 定理（第 VI, §2, No. 5，第 1 章），其推论 1 和 2，以及第 10 章的命题 10 VI, §2, No. 6（$L_F^1$的双重）。
 
-### 习题{#int-ix-s1-exercises}
+### 习题 {#int-ix-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

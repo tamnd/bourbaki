@@ -33,25 +33,25 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: d1e4793707fa06b48afd90732d41d53749051e6113e964ace111531913bc17b4
+content_sha256: df35b4cc6d22228f495fab06acaa3212ae5147efaa1a3f154e3c206ab1878151
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
 translation_method: google
 source_content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f0c88b27d98a9743730582f745cdf25f86e0aad293b5437dd5d28f9e4bd285dc
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 初等分解 / 线性表示
 
 ### 1. 分解自同态家庭
 
-设V为向量空间，S集合，以及从S到End(V)的$r$映射。用从 S 到 $k$ 的映射的 P 集合表示。如果$\lambda \in P$，则用$v\in V$的$V_{\lambda}(S)$（或$V^{\lambda}(S)$）集合表示，使得对于所有$s\in S,r(s)v=\lambda (s)v$（或$n$足够大，分别用$(r(s)-\lambda (s))^nv= 0$）。 集合$V_{\lambda}(S)$和$V^{\lambda}(S)$是V和$V_{\lambda}(S)\subset V^{\lambda}(S)$的向量子空间。我们说$V_{\lambda}(S)$是V相对于$\lambda$（和$r$）的本征空间，$V^{\lambda}(S)$是V相对于$\lambda$（和$r$）的主子空间，并且$V^0(S)$是V的零空间（相对于$r$）。如果$V^{\lambda}(S)\not= 0$，我们说$\lambda$是V中S的权。
+设V为向量空间，S为集合，从S到End(V)为$r$映射。用从 S 到 $k$ 的映射的 P 集合表示。如果$\lambda \in P$，则用$v\in V$的$V_{\lambda}(S)$（或$V^{\lambda}(S)$）集合表示，使得对于所有$s\in S,r(s)v=\lambda (s)v$（或$n$足够大，分别用$(r(s)-\lambda (s))^nv= 0$）。 集合$V_{\lambda}(S)$和$V^{\lambda}(S)$是V和$V_{\lambda}(S)\subset V^{\lambda}(S)$的向量子空间。我们说$V_{\lambda}(S)$是V相对于$\lambda$（和$r$）的特征空间，$V^{\lambda}(S)$是V相对于$\lambda$（和$r$）的主子空间，并且$V^0(S)$是V的零空间（相对于$r$）。如果$V^{\lambda}(S)\not= 0$，我们说$\lambda$是V中S的权。
 
-特别地，如果S约化到单个元素$s, P$可以用$k$来识别；我们使用记号$V_{\lambda(s)}(s)$和$V^{\lambda(s)}(s)$，或$V_{\lambda(s)}(r(s))$和$V^{\lambda(s)}(r(s))$，而不是$V_{\lambda}(\{s\}), V^{\lambda}(\{s\})$；我们谈论本征空间、初级子空间和 $r(s)$ 的零空间； $V_{\lambda(s)}(s)$的元素$v$称为$r(s)$的特征向量，并且，如果$v\not= 0,\lambda (s)$称为相应的特征值（cf.代数，第VII, §5章）。
+特别地，如果S约化到单个元素$s, P$可以用$k$识别；我们使用记号$V_{\lambda(s)}(s)$和$V^{\lambda(s)}(s)$，或$V_{\lambda(s)}(r(s))$和$V^{\lambda(s)}(r(s))$，而不是$V_{\lambda}(\{s\}), V^{\lambda}(\{s\})$；我们谈论本征空间、初级子空间和 $r(s)$ 的零空间； $V_{\lambda(s)}(s)$的元素$v$被称为$r(s)$的特征向量，并且，如果$v\not= 0,\lambda (s)$被称为相应的特征值（cf.代数，第VII, §5章）。
 
 对于所有 $\lambda \in P$，以下关系为直接的：
 
@@ -63,7 +63,7 @@ $$
 V_{\lambda}(S) =\bigcap_{s\in S}V_{\lambda(s)}(s) \tag{2}
 $$
 
-设$k'$为$k$中的扩张。从 End(V) 到 End($V\otimes_kk'$) 的规范映射通过合成和 $r$ 给出映射 $r': S\rightarrow$ End($V\otimes_kk'$)。类似地，从S到$k$定义的每个映射$\lambda$规范地映射，也用$\lambda$表示，从S到$k'$。有了这些记号，我们就有了以下命题：
+令 $k'$ 为 $k$ 的扩张。从End(V)到End($V\otimes_kk'$)的规范映射通过合成和$r$给出映射$r': S\rightarrow$End($V\otimes_kk'$)。类似地，从S到$k$定义的每个映射$\lambda$规范地映射，也用$\lambda$表示，从S到$k'$。有了这些记号，我们就有了以下命题：
 
 #### 命题 1 {#lie-vii-s1-prop-1 .statement tag=00SJ}
 
@@ -287,7 +287,7 @@ $$
 u_s(xy) = (\lambda \mu)(xy) = (\lambda x)(\mu y) =u_s(x).u_s(y)
 $$
 
-这就证明$u_s$是V的自同构；但事实也是如此
+这就证明了$u_s$是V的自同构；但事实也是如此
 
 $$
 1 +u^{-1}_su_n=u^{-1}_su
@@ -295,7 +295,7 @@ $$
 
 ### 2. 自同态线性族的情况
 
-现在假设 S 具有向量空间结构，映射 $r: S\rightarrow$ End(V) 是线性的，V 和 S 是有限维的。
+现在假设 S 有向量空间结构，映射 $r: S\rightarrow$ End(V) 是线性的，V 和 S 是有限维的。
 
 #### 命题 5 {#lie-vii-s1-prop-5 .statement tag=00ST}
 
@@ -307,19 +307,19 @@ $$
 
 另一方面，行列式展开表明
 
-检测（X$-r(s)$）$= X^n+a_1(s)X^{n-1}+\cdots +a_i(s)X^{n-i}+\cdots$
+检测(X$-r(s)$)$= X^n+a_1(s)X^{n-1}+\cdots +a_i(s)X^{n-i}+\cdots$
 
 其中$a_i: S\rightarrow k$是次数$i$的齐次多项式函数。写出$n=qm$，其中$q$是$k$和$(q, m) = 1$的特征指数的幂。然后$(X-\lambda (s))^n= (X^q-\lambda (s)^q)^m$；因此$-m\lambda (s)^q=a_q(s)$，这意味着结果。
 
 #### 命题 6 {#lie-vii-s1-prop-6 .statement tag=00SU}
 
-假设$k$是无限的并且满足条件(AC)。设$k'$为$k$中的扩张。把$V'= V\otimes_kk',S'= S\otimes_kk'$。令$r': S'\rightarrow$End(V$'$)为从$r$通过标量扩张获得的映射。然后
+假设$k$是无限的并且满足条件(AC)。令$k'$为$k$中的扩张。把$V'= V\otimes_kk',S'= S\otimes_kk'$。令$r': S'\rightarrow$End(V$'$)为从$r$通过标量扩张获得的映射。然后
 
 $$
 V^0(S)\otimes_kk'{= V'}^0{(S) = V'}^0(S')
 $$
 
-第一个等式源自命题1。为了证明第二个，我们可以假设$V = V^0(S)$，因此$V'{= V'}^0(S)$。设 $(s_1, . . . , s_m)$ 为 S 的基，且 $(e_1, . . . , e_n)$ 基为 V。存在多项式 $P_{ij}(X_1, . . . ,X_m)$ 使得
+第一个等式由命题 1 得出。为了证明第二个，我们可以假设 $V = V^0(S)$ 以及$V'{= V'}^0(S)$。设 $(s_1, . . . , s_m)$ 为 S 的基，且 $(e_1, . . . , e_n)$ 基为 V。存在多项式 $P_{ij}(X_1, . . . ,X_m)$ 使得
 
 $$
 r'(a_1s_1+\cdots +a_ms_m)^ne_j=\sum_{i=1}^nP_{ij}(a_1, . . . , a_m)e_i
@@ -329,7 +329,7 @@ $$
 
 #### 命题 7 {#lie-vii-s1-prop-7 .statement tag=00SV}
 
-假设$k$是无限的并且满足条件(AC)。令$\widetilde{S}$为$s\in S$的集合，使得$V^0(s) = V^0(S)$。如果$s\in S$，则令$P(s)$为由$r(s)$定义的$V/V^0(S)$的自同态的行列式（no. 1，Th.1的Cor.2(i)）。
+假设$k$是无限的并且满足条件(AC)。令$\widetilde{S}$为$s\in S$的集合，使得$V^0(s) = V^0(S)$。如果$s\in S$，则令$P(s)$是由$r(s)$定义的$V/V^0(S)$的自同态的行列式（no. 1，Th.1的Cor.2(i)）。
 
 (i) 函数 $s \rightarrow P(s)$ 是 S 上的多项式。我们有 $\widetilde{S} =\{s\in S|P(s)\not= 0\}$；这是 Zariski 拓扑中 S 的开子集（App. 1）。
 
@@ -337,7 +337,7 @@ $$
 
 $s \rightarrow P(s)$ 是多项式这一事实是由 $r$ 的线性性得出的。如果$s\in S, V^0(s)\supset V^0$(S)，则等式当且仅当$r(s)$定义自同构为$V/V^0$(S)，因而(i)。
 
-现在令 $k'$ 为 $k$ 的代数闭包，并引入 $V',S', r'$，如命题 6 中所示。通过多项式恒等式 (ad $r(s_1)$)$^{2 dim V-1}r(s_2) = 0$ 的延拓，注 $S'$ 满足条件 (AC)有效期为$s_1, s_2\in S$（no. 1、注）。 应用Th.1，我们推导出分解
+现在令 $k'$ 为 $k$ 的代数闭包，并引入 $V',S', r'$，如命题 6 中所示。通过多项式恒等式 (ad $r(s_1)$)$^{2 dim V-1}r(s_2) = 0$ 的延拓，注 $S'$ 满足条件 (AC)有效期为$s_1, s_2\in S$（no. 1、注）。 应用 Th.1，我们推导出分解
 
 $$
 V'{= V'}^0(S')\oplus \sum_{i=1}^m{V'}^{\lambda_i}(S')
@@ -465,7 +465,7 @@ $$
 
 假设$k$的特征为0。令$\mathfrak{g}$为半单李代数，$\mathfrak{h}$为$\mathfrak{g}$的幂零子代数。 代数$\mathfrak{g}^0(\mathfrak{h})$满足引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
-$^1$ 作者： I, §6, no. 3，周四。 3、每个$x\in \mathfrak{g}$可以唯一地写为互通的半单元素$s$和幂零元$n$的和； 元素 $s$（分别为 $n$）被称为半单（分别为幂零） $x$ 的分量。
+$^1$ 作者： I, §6, no. 3，周四。 3、每个$x\in \mathfrak{g}$可以唯一地写为互通的半单元素$s$和幂零元$n$和； 元素 $s$（或 $n$）称为 $x$ 的半单（或幂零）分量。
 
 设$x, x'\in \mathfrak{g},s$和$s'$为它们的半单分量，$n$和$n'$为它们的幂零分量。我们有
 
@@ -479,9 +479,9 @@ $\Leftarrow \Rightarrow$（广告$s$）$(s') = 0$
 
 $\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$（提案$.4$）
 
-故$x'\in \mathfrak{g}^0(x)\Rightarrow n'\in \mathfrak{g}^0(x)$且(2)得证。 $\mathfrak{g}$的杀戮形式是非简并的，因此它的限制到$\mathfrak{g}^0(\mathfrak{h})$是非简并的（命题10（iii））。 $\mathfrak{g}^0(\mathfrak{h})$ 在 $\mathfrak{g}$ 中被还原，因此从引理 2 得出。
+故$x'\in \mathfrak{g}^0(x)\Rightarrow n'\in \mathfrak{g}^0(x)$且(2)得证。 $\mathfrak{g}$的杀戮形式是非简并的，因此它的限制到$\mathfrak{g}^0(\mathfrak{h})$是非简并的（命题10（iii））。事实上，$\mathfrak{g}^0(\mathfrak{h})$ 是 $\mathfrak{g}$ 的约简，因此可以从引理 2 得出。
 
-### 4. 李代数的分解相对于自同构
+### 4. 分解的李代数相对于自同构
 
 #### 命题 12 {#lie-vii-s1-prop-12 .statement tag=00T3}
 
@@ -489,7 +489,7 @@ $\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$（提案$.4$）
 
 (i) $\lambda , \mu\in k,[\mathfrak{g}^{\lambda}(a),\mathfrak{g}^\mu(a)]\subset \mathfrak{g}^{\lambda \mu}(a)$；特别地，$\mathfrak{g}^1(a)$是$\mathfrak{g}$的子代数。
 
-(ii) 如果 B 是 $\mathfrak{g}$ 上的对称双线性形式，则$a,\mathfrak{g}^{\lambda}(a)$ 和 $\mathfrak{g}^\mu(a)$ 相对于$\lambda \mu\not= 1$ 的 B 正交。假设 B 是非简并的。那么，如果$\lambda \not= 0$，则B到$\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$的限制是非简并的。
+(ii) 如果 B 是 $\mathfrak{g}$ 上的对称双线性形式，则$a,\mathfrak{g}^{\lambda}(a)$ 和$\mathfrak{g}^\mu(a)$ 相对于$\lambda \mu\not= 1$ 的 B 正交。假设 B 是非简并的。那么，如果$\lambda \not= 0$，B到$\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$的限制是非简并的。
 
 断言 (i) 和 (ii) 的前半部分源自应用于合成律 $\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$ 和双线性形式 B 的命题 2 (iii)。为了证明 (ii) 的后半部分，我们可以假设 $k$ 是代数封闭的。然后$\mathfrak{g}=\bigoplus_{\nu\in k}\mathfrak{g}^{\nu}(a)$。由上可知，如果$\lambda \nu \not= 1$，则$\mathfrak{g}^{\lambda}(a)$与$\mathfrak{g}^{\nu}(a)$正交；由于 B 是非简并的，因此它的限制到 $\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$ 也是非简并的。
 
@@ -497,7 +497,7 @@ $\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$（提案$.4$）
 
 假设$k$是特征零，$\mathfrak{g}$是半单。那么子代数$\mathfrak{g}^1(a)$满足引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
-条件(1)源自第12号提案的部分(ii)； 条件 (2) 由no. 1 的第 4 条命题得出。
+条件(1)源自第12条提案的部分(ii)； 条件 (2) 由no. 1 的第 4 条命题得出。
 
 ### 5. 半单李代数相对于半单作用的不变量
 
@@ -539,10 +539,10 @@ $$
 = B(y, x)-B(y, x) = 0
 $$
 
-因此$\mathfrak{m}$和$\mathfrak{g}^+$相对于B是正交的。因此B到$\mathfrak{m}$的限制是非简并的；因此，引理 2 中的条件 (1)。条件 (2) 是直接的迁移结构。
+因此$\mathfrak{m}$和$\mathfrak{g}^+$相对于B是正交的。因此，B到$\mathfrak{m}$的限制是非简并的；因此，引理 2 的条件 (1)。条件 (2) 是直接的迁移结构。
 
-### 习题 {#lie-vii-s1-exercises}
+### 习题{#lie-vii-s1-exercises}
 
-它们上的所有李代数和模均假定为 $k$ 上的有限维；从§3开始，$k$被假定为特征零。
+它们上的所有李代数和模都被假定为 $k$ 上的有限维；从 §3 开始，$k$ 被假定为特征零。
 
-请参阅 § 1](exercises/s1/) 的 [习题。
+参见[习题为 § 1](exercises/s1/)。

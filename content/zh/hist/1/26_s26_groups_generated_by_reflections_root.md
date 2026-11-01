@@ -11,19 +11,19 @@ pdf_pages: 0268-0273
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d7fca7afdf4eabcfaf1dabd41c42573350b7b3205591b7d545e91871495f41ed
+content_sha256: a6e36435f1d94b2577daae147d665d52843b3d26fef8cba3105195f0435c570e
 translated_from: content/en/hist/1/26_s26_groups_generated_by_reflections_root.md
 translation_method: google
 source_content_sha256: 44620240ed7994f05291860d839e1c97f632ba17704d2e0de289ddebfe57f479
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a88c94664fe5d7d7f52dde52af8abb3c2cac219ecae9c9ff9f8887d0772c42be
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 26. 群由反射生成； 根系。
+## 26. 群由反射产生； 根系。
 
 群在此考虑注出现在与几何的各种问题有关，数学分析和李群的理论，有时在置换群的形式，有时在群的位移中欧氏或双曲几何，这些不同的点视图直到最近才得到协调。
 

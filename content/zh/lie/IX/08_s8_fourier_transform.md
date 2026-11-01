@@ -29,16 +29,16 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 7fd1acb4e65fa3356902610b13a26c74268fd9a92df1458993d67e3e0af2a998
+content_sha256: 9f8d27b406cc9211f2f5cc5de05e3d798b97809d4cce5e9e96db700c8b951af4
 translated_from: content/en/lie/IX/08_s8_fourier_transform.md
 translation_method: google
 source_content_sha256: 6e2618147afc628c71099020ffa7e02b28b7fa041ad48e0d3fc7f7f992c4cf3b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 43a095631d30c68681c242233e10ba04864f8e17e81d986b3d15e24ef2675203
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 傅里叶变换
@@ -47,13 +47,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 位置$^5$证明。前述，仅针对分裂的半单李代数进行了说明，
 
-在分裂约化李代数的情况下，没有变换时有效。
+在分裂约化李代数的情况下，没有变换也有效。
 
-### 1.傅里叶变换 / 可积函数
+### 1. 傅里叶变换 / 可积函数
 
 在这个数中，我们回顾了一些定义以及谱理论$^6$的结果。
 
-用G的不可约表示类$\widehat{G}$集合表示（在有限维复数向量空间上）。对于所有$u\in \widehat{G}$，用$u$和$d(u)$的$Eu$空间表示其维数。在$u$下$E_u$不变量上存在分离正厄米特形式，且任意两个这样的形式成比例。用$A^*$（或$\|A\|_{\infty}$）表示End（E$_u$）的元素 A相对于这些形式之一的伴随（或范数）；对于所有$g\in G$，我们有$u(g)^*=u(g)^{-1}=u(g^{-1})$和$\|u(g)\|_{\infty}= 1$；对于所有$x\in \mathfrak{g}$，我们有$u(x)^*=-u(x) =u(-x)$。
+用G的不可约表示类$\widehat{G}$集合表示（在有限维复数向量空间上）。对于所有$u\in \widehat{G}$，用$u$和$d(u)$的$Eu$空间表示其维数。在$u$下$E_u$不变量上存在分离正厄米特形式，并且任意两个这样的形式成比例。用$A^*$（或$\|A\|_{\infty}$）表示End(E$_u$)的元素 A相对于这些形式之一的伴随（或范数）；对于所有$g\in G$，我们有$u(g)^*=u(g)^{-1}=u(g^{-1})$和$\|u(g)\|_{\infty}= 1$；对于所有$x\in \mathfrak{g}$，我们有$u(x)^*=-u(x) =u(-x)$。
 
 给出 End(E$_u$) 希尔伯特空间结构，其中标量乘积为
 
@@ -77,7 +77,7 @@ $$
 
 对于所有 $g\in G$，我们有 $\|u(g)\|_2=d(u)$。
 
-用$F( \widehat{G})$代数$\prod_{u\in\widehat{G}}$End(E$_u$)表示。用$L^2( \widehat{G})$表示希尔伯特空间End(E$_u$)的希尔伯特和；这是 $A= (A_u)\in F( \widehat{G})$ 的空间，使得 $\sum_u\|A_u\|^2_2<\infty$，标量为乘积
+用$F( \widehat{G})$代数$\prod_{u\in\widehat{G}}$End(E$_u$)表示。用 $L^2( \widehat{G})$ 表示 Hilbert 空间 End(E$_u$) 的 Hilbert 和；这是$A= (A_u)\in F( \widehat{G})$的空间，使得$\sum_u\|A_u\|^2_2<\infty$，标量为乘积
 
 $\langle A|B\rangle =\sum_{u\in\widehat{G}}\langle A_u|B_u\rangle =\sum_{u\in\widehat{G}}d(u$)Tr(A$^*_uB_u$)。 (5)
 
@@ -145,7 +145,7 @@ $g \rightarrow \sum_{u\in\widehat{G}}(\mathscr{F}_uA)(g) =\sum_{u\in\widehat{G}}
 
 $(\gamma (s)f)(g) =f(s^{-1}g),(\delta (s)f)(g) =f(gs)$ 为 $g\in G$，
 
-（第III, §3, no. 4章和集成，第VII, §1, no. 1章）。我们有
+（第 III, §3, no. 4 章和集成，第 VII, §1, no. 1 章）。我们有
 
 $$
 u(\gamma (s)f) =\int_Gf(s^{-1}g)u(g)dg=\int_Gf(g)u(sg)dg
@@ -163,11 +163,11 @@ $$
 u(\delta (s^{-1})f) =u(f)u(s) \tag{13}
 $$
 
-当 G 是可交换的时，对于所有 $u\in \widehat{G}$，$\widehat{G}$ 是 G 的对偶群的基础集合（谱理论，第 II, §1，第 $1$）$,d(u) = 1$，并且我们恢复谱理论中给出的傅里叶变换的定义，第一章II。
+当 G 是可交换的时，对于所有 $u\in \widehat{G}$，$\widehat{G}$ 是 G 的对偶群的基础集合（光谱理论，第 II, §1，第 $1$）$,d(u) = 1$，并且我们恢复傅里叶变换的定义在光谱理论，第一章。 II。
 
-### 2. 无穷微函数的傅里叶变换
+### 2. 傅里叶变换无限微函数
 
-回想一下（第 III, §3, no. 1 章，定义 2），U(G) 表示 G 上的分布的代数，其支持包含在 $\{e\}$ 中。 典范嵌入的 $\mathfrak{g}$ 到 U(G) 扩展到同构，从李代数 $\mathfrak{g}$ 的包络线代数到 U(G)（前述，no. 7，第 25 条）；从现在开始我们通过这个同构认同这两个代数。如果 $f$ 是 G 上的无限可微复数函数，并且如果 $t\in U(G)$，我们用 $L_tf$ 表示，G 上的 $R_tf$ 函数定义为
+回想一下（第 III, §3, no. 1 章，定义 2），U(G) 表示 G 上的分布的代数，其支持包含在 $\{e\}$ 中。 $\mathfrak{g}$的典范嵌入进入U(G) 扩展到同构，从李代数$\mathfrak{g}$的包络线代数到U(G)（前述，no. 7，第25条）；从现在开始我们就通过这个认同这两个代数来同构。如果 $f$ 是 G 上的无限可微复数函数，并且如果 $t\in U(G)$，我们用 $L_tf$ 表示，G 上的 $R_tf$ 函数定义为
 
 $$
 L_tf(g) =\langle \varepsilon_g*t, f\rangle ,R_tf(g) =\langle t*\varepsilon_g, f\rangle
@@ -179,17 +179,17 @@ $$
 L_t\circ \gamma (g) =\gamma (g)\circ L_t,R_t\circ \delta (g) =\delta (g)\circ R_t
 $$
 
-设 $u\in \widehat{G}$；用 $u$ 的 $Eu$ 空间表示。 李群 $u: G\rightarrow \mathbf{G}\mathbf{L}(E_u)$ 的态射通过（实）李代数 $\mathfrak{g}\rightarrow$ End(E$_u$) 的微分得到同态，因此代数的同态，也用$u$ 表示，从 U(G) 到结束（E$_u$）。如果 $t\in U(G)$ 且 $f$ 是 G 上的无限可微函数，则
+令 $u\in \widehat{G}$；用$u$的$Eu$空间表示。 李群 $u: G\rightarrow \mathbf{G}\mathbf{L}(E_u)$ 的态射通过（实数）李代数 $\mathfrak{g}\rightarrow$ End(E$_u$) 的微分得到同态，因此代数的同态，也用$u$ 表示，从 U(G) 到结束（E$_u$）。如果 $t\in U(G)$ 且 $f$ 是 G 上的无限可微函数，则
 
 $$
 u(L_tf) =u(f)u(t^{\vee}), u(R_tf) =u(t^{\vee})u(f) \tag{14}
 $$
 
-其中$t^{\vee}$表示U(G)主反自同构下$t$的像（第I, §2, no. 4章）；事实上，对于 $t\in \mathfrak{g}$ 验证这一点就足够了，在这种情况下，它可以与公式 (12) 和 (13) 区分开（cf. 第 III, §3, no. 7 章，第 27 条命题）。
+其中$t^{\vee}$表示U(G)主反自同构下$t$的像（第I, §2, no. 4章）；事实上，对于 $t\in \mathfrak{g}$ 验证这一点就足够了，在这种情况下，它可以与公式 (12) 和 (13) 区分开（cf. 第 III, §3, no. 7，第 27 条命题）。
 
-对于所有$u\in \widehat{G}$，用$u($§7, no. 2、Th 的$\lambda (u)$ 最高权表示。 1)，所以$u \rightarrow \lambda (u)$是X(T)的主元素从$\widehat{G}$到集合$X_{++}$的双射映射。
+对于所有 $u\in \widehat{G}$，用 $u($§7, no. 2 的 $\lambda (u)$ 最高权表示，Th。 1)，所以$u \rightarrow \lambda (u)$是X(T)的主元素从$\widehat{G}$到集合$X_{++}$的双射映射。
 
-令 $\Gamma \in U(G)$ 为 G (§7, no. 6) 的卡西米尔元素；对于所有$u\in \widehat{G}$，$E_u$的自同态$u(\Gamma )$是位似，其比率我们用$\widetilde{\Gamma}(u)$表示，所以我们有从$\widehat{G}$到$\mathbf{C}$的映射$u \rightarrow \widetilde{\Gamma}(u)$。
+令$\Gamma \in U(G)$为G (§7, no. 6)的卡西米尔元素；对于所有$u\in \widehat{G}$，$E_u$的自同态$u(\Gamma )$是位似，我们用$\widetilde{\Gamma}(u)$表示其比率，所以我们有从$\widehat{G}$到$\mathbf{C}$的映射$u \rightarrow \widetilde{\Gamma}(u)$。
 
 如果$\varphi$和$\psi$是$\widehat{G}$上的两个函数，且值为正实数，则用“$\varphi \preccurlyeq \psi$”或“$\varphi (u)\preccurlyeq \psi (u$）”表示关系“存在$M>0$使得$\varphi (u)\leq M\psi (u)$对于所有$u\in \widehat{G}$”；这是$\widehat{G}$上函数与正实数值的集合的先序关系。
 
@@ -297,7 +297,7 @@ $^7$ 这是根据空间 $\mathscr{C}^{\infty}(G;\mathbf{C})$ 的事实得出的�
 
 $C^{\infty}$-收敛(§6, no. 4)，完备的。
 
-### 3. 傅里叶变换中环函数
+### 3. 中环傅里叶变换函数
 
 对于所有$u\in \widehat{G}$，用$u$的$\chi_u$特征标表示；因而，
 
@@ -403,7 +403,7 @@ $\langle \chi_u|f\rangle =\int_G\overline{\lambda(u)(t)}\varphi (t)dt$，其中$
 
 如果 $f|T$ 是无限可微的，$\varphi$ 也是无限可微的；根据第 5 条，应用于群 T，$\widehat{T} = X(T)$ 上的函数 $\mu \rightarrow \int_T\overline{\mu(t)}\varphi (t)dt$ 则迅速递减，函数 $u \rightarrow  \langle \chi_u|f\rangle$ 也如此；因此函数 $f$ 是无限可微的（命题 5）。 逆命题很清楚。
 
-### 4. G 区中央函数和 T 区函数
+### 4. G 中环函数和 T 函数
 
 用 G 上连续复值函数的 $\mathscr{C}(G)$ 空间和无限可微函数的 $\mathscr{C}^{\infty}(G)$ 子空间表示。那么我们就有序列的内含物
 
@@ -411,7 +411,7 @@ $$
 \Theta (G)\subset \mathscr{C}^{\infty}(G)\subset \mathscr{C}(G)\subset L^2(G)
 $$
 
-分别用$Z\Theta (G),Z\mathscr{C}^{\infty}(G),Z\mathscr{C}(G)$、ZL$^2$(G)表示，这些各个空间中的中心函数的子空间由……组成。类似地介绍空间$\Theta (T),\mathscr{C}^{\infty}(T),\mathscr{C}(T),L^2(T)$；对于此列表中的任何空间 E，用不变量（或反不变量）的 $E^W$（或 $E^{-W}$）子空间由……组成表示，元素表示 Weyl 群 W 的运算。我们有一个交换律图表
+分别用$Z\Theta (G),Z\mathscr{C}^{\infty}(G),Z\mathscr{C}(G)$、ZL$^2$(G)表示，这些各个空间中中心函数的子空间由……组成。 Introduce similarly 空间 $\Theta (T),\mathscr{C}^{\infty}(T),\mathscr{C}(T),L^2(T)$; for any 空间 E in this list, denote by $E^W$ (resp. $E^{-W}$) 子空间由……组成 of the invariant (resp. anti-invariant) 元素 for 运算 of the Weyl 群 W. We have a commutative 图表
 
 $$
 Z\mathscr{C}(G)\longrightarrow^{a_c}\mathscr{C}(T)^W
@@ -425,7 +425,7 @@ $$
 Z\Theta (G)\longrightarrow^{a_{\Theta}}\Theta (T)^W
 $$
 
-其中垂直箭头代表典范嵌入，映射$a_c, a_{\infty}, a_{\Theta}$由限制映射从$\mathscr{C}(G)$诱导到$\mathscr{C}(T)$。
+其中垂直箭头代表典范嵌入，映射$a_c, a_{\infty}, a_{\Theta}$由限制映射从$\mathscr{C}(G)$到$\mathscr{C}(T)$诱导。
 
 映射 $a_c, a_{\infty}, a_{\Theta}$ 是双射（§2, no. 5，第 5 号提案的 Cor.1，§8, no. 3，第 5 号提案的 Cor.，以及 §7, no. 3，第 2 号提案的 Cor.）。
 
@@ -445,8 +445,8 @@ $$
 Z\Theta (G)\longrightarrow^{a_{\Theta}}\Theta (T)^W\longrightarrow^{b_{\Theta}}\Theta (T)^{-W}
 $$
 
-其中垂直箭头是规范包含物，映射 $b_c, b_{\infty}, b_{\Theta}$ 由 $b$ 引发，$u$ 扩展 $b_c\circ a_c$ 由连续性引发（§7, no. 4，Th. 2 的 Cor. 3）。 映射 $u$ 和 $b_{\Theta}$ 是双射（loc. cit.）； $b_{\infty}$ 也是如此（练习 5）；另一方面，$b_c$ 一般而言不是满射的（Exerc. 6）。
+其中垂直箭头是规范包含物，映射$b_c, b_{\infty}, b_{\Theta}$由$b$诱导，$u$扩展$b_c\circ a_c$由连续性诱导（§7, no. 4，Th.2的Cor.3）。 映射 $u$ 和 $b_{\Theta}$ 是双射（loc. cit.）； $b_{\infty}$ 也是如此（练习 5）；另一方面，$b_c$ 一般而言不是满射的（Exerc. 6）。
 
 ### 习题{#lie-ix-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

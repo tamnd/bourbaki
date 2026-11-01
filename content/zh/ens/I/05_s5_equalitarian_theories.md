@@ -26,35 +26,35 @@ subsections:
       pdf_page: 54
 statements: 3
 exercises: 7
-content_sha256: 103eb003e62cf26922f072af61445090cf70e9f3a6c063f1ccce0f199dd77ef5
+content_sha256: 9f887798ee81c2cddecc64c29a07eb517d52fd3fc20aaadf490c16080ad13eb4
 translated_from: content/en/ens/I/05_s5_equalitarian_theories.md
 translation_method: google
 source_content_sha256: 8cbe15ed2020b27b62da706075017d090591d51c972f6b3ce0f6ebf686257ba1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 163565f2de504223d424150b57271ca36b965d07ce495f64136ea29bc0fe23a0
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 5. 平等的理论
 
-### 1.公理
+### 1. 公理
 
-*平等的理论*是一个$\mathscr{T}$，其关系符号为权2，写作$=$（读作“等于”），其中概形S1到S5（§§3和4），与下面的概形S6和S7一起提供隐式公理。如果$T$和$U$在$\mathscr{T}$中为项，则凭借CF4，集合$= TU$在$\mathscr{T}$中为关系（称为等式*的*关系）；实际上它用$T = U$或$(T) = (U)$表示。
+*平等的理论*是一个$\mathscr{T}$，其关系符号为权2，写作$=$（读作“等于”），其中概形S1到S5（§§3和4），与下面的概形S6和S7一起提供隐式公理。若$T$和$U$在$\mathscr{T}$中为项，则凭借CF4，集合$= TU$在$\mathscr{T}$中为关系（称为等式*的*关系）；实际上它用$T = U$或$(T) = (U)$表示。
 
 S6。 *设$x$为字母，$\mathscr{T}$中$T$和$U$为项，$R\{x\}$为$\mathscr{T}$中的关系；那么关系 $(T = U) \Rightarrow (R\{T\} \Leftrightarrow R\{U\})$ 是一个公理。*
 
-S7。 *如果$R$和$S$是$\mathscr{T}$中的关系，并且$x$是一个字母，那么关系$((\forall x)(R \Leftrightarrow S)) \Rightarrow (\tau_x(R) = \tau_x(S))$是一个公理。*
+S7。 *如果$R$和$S$是$\mathscr{T}$中的关系并且$x$是一个字母，那么关系$((\forall x)(R \Leftrightarrow S)) \Rightarrow (\tau_x(R) = \tau_x(S))$是一个公理。*
 
-为了证明规则S6是概形，令$A$是$\mathscr{T}$的公理，由应用S6获得；那么$\mathscr{T}$中有关系$R$，$\mathscr{T}$中有项$T$和$U$，还有一个字母$x$，这样$A$就是$(T = U) \Rightarrow ((T|x)R \Leftrightarrow (U|x)R)$。我们将证明，如果$y$是一个字母，并且$\mathscr{T}$中有$V$项，则通过应用S6可以得到关系$(V|x)A$。通过CS1（§1, no. 2），我们可以假设$x$与$y$不同，并且不会出现在$V$中。设$T'$、$U'$、$R'$分别表示组合、$(V|y)T$、$(V|y)U$、$(V|y)R$。通过 CS2 和 CS5 (§1, no. 2)，$(V|y)A$ 与
+为了证明规则S6是概形，令$A$是$\mathscr{T}$的公理，由应用S6获得；那么$\mathscr{T}$中有关系$R$，$\mathscr{T}$中有项$T$和$U$，还有一个字母$x$，这样$A$就是$(T = U) \Rightarrow ((T|x)R \Leftrightarrow (U|x)R)$。我们将证明，如果$y$是一个字母，并且$\mathscr{T}$中有$V$项，则可以通过应用S6获得关系$(V|x)A$。通过CS1（§1, no. 2），我们可以假设$x$与$y$不同，并且不会出现在$V$中。令$T'$、$U'$、$R'$分别表示组合、$(V|y)T$、$(V|y)U$、$(V|y)R$。通过 CS2 和 CS5 (§1, no. 2)，$(V|y)A$ 与
 
 $$(T' = U') \Rightarrow ((T'|x')R' \Leftrightarrow (U'|x')R')$$
 
-证明就完成了。 S7为概形的验证类似。
+证明已完成。 S7为概形的验证类似。
 
-直观上，概形 S6 意味着如果两个对象相等，则它们具有相同的属性。 概形 S7 更远离日常直觉；这意味着，如果一个对象$x$的两个属性$R$和$S$是等价的，那么可区分的对象、$\tau_x(R)$和$\tau_x(S)$（分别从对象、满足、$R$和满足中选择） $S$，如果这样的对象存在）是相等的。读者会注，量词$\forall x$在S7中的存在是必不可少的（cf.习题7）。
+直观上，概形 S6 意味着如果两个对象相等，则它们具有相同的属性。 概形 S7 更远离日常直觉；这意味着，如果一个对象$x$的两个属性$R$和$S$是等价的，那么可区分的对象、$\tau_x(R)$和$\tau_x(S)$（分别从对象、满足、$R$和满足中选择） $S$，如果这样的对象存在）是相等的。读者会注认为S7中量词$\forall x$的存在是必不可少的（cf.习题7）。
 
 关系 $= TU$ 的否定由 $T \neq U$ 或 $(T) \neq (U)$ 表示（其中符号 $\neq$ 读作“不同于”）。
 
@@ -68,11 +68,11 @@ $$(T = U \text{ and } R\{T\}), \qquad (T = U \text{ and } R\{U\})$$
 
 因为如果我们连接假设 $T = U$ 和 $R\{T\}$，则 $R\{U\}$ 在 S6 中为真；因此 $(T = U$ 和 $R\{U\})$ 为真。
 
-当形式$T = U$中的关系在理论$\mathscr{T}$中被证明时，人们常常（滥用语言）说$T$和$U$“相同”或“相同”。同样，当$T \neq U$在$\mathscr{T}$中为真时，我们说$T$和$U$“不同”，而不是说，即$T$与$U$不同。
+当形式$T = U$中的关系在理论$\mathscr{T}$中得到证明时，人们常常（滥用语言）说$T$和$U$“相同”或“相同”。同样，当$T \neq U$在$\mathscr{T}$中为真时，我们说$T$和$U$“不同”，而不是说，即$T$与$U$不同。
 
-### 2.等式的性质
+### 2. 等式的性质
 
-从现在开始我们只考虑平等的理论。让$\mathscr{T}$是这样一个理论，让$\mathscr{T}_0$是这样一个理论，其符号是$\mathscr{T}$的符号，其唯一公理是由概形S1到S7提供的公理。理论 $\mathscr{T}_0$ 比 $\mathscr{T}$ (§2, no. 4) 弱，并且没有常数。以下三个定理是$\mathscr{T}_0$中的定理。
+从现在开始我们只考虑平等的理论。令$\mathscr{T}$是这样一个理论，并让$\mathscr{T}_0$是一个理论，其符号是$\mathscr{T}$的符号，其唯一公理是概形S1到S7提供的公理。理论 $\mathscr{T}_0$ 比 $\mathscr{T}$ (§2, no. 4) 弱，并且没有常数。以下三个定理是$\mathscr{T}_0$中的定理。
 
 #### 定理 1 {#ens-i-s5-thm-1 .statement tag=03P3}
 
@@ -80,7 +80,7 @@ $x = x$。
 
 让$S$表示$\mathscr{T}_0$中的关系$x = x$。根据C27（§4, no. 1），对于$\mathscr{T}_0$中的每个关系$R$，$(\forall x)(R \Leftrightarrow R)$是$\mathscr{T}_0$中的定理，因此，根据S7，$\tau_x(R) = \tau_x(R)$，即$(\tau_x(R)|x)S$，是定理在$\mathscr{T}_0$。将$R$视为关系“而不是$S$”并考虑C26 (§4, no. 1)，我们看到$(\forall x)S$在$\mathscr{T}_0$中是定理。因此，根据 C30 (§4, no. 3)，$S$ 是 $\mathscr{T}_0$ 中的定理。
 
-关系 $(\forall x)(x = x)$ 也是 $\mathscr{T}_0$ 中的定理；如果$T$在$\mathscr{T}_0$中是项，则$T = T$在$\mathscr{T}_0$中是定理（cf.§4, no. 3）。可以以同样的方式将变换后来的定理转换为没有字母出现的定理或元数学判据。从现在开始，我们将不再显式地执行这些转换，但我们通常会隐式地使用它们。
+关系 $(\forall x)(x = x)$ 也是 $\mathscr{T}_0$ 中的定理；如果$T$在$\mathscr{T}_0$中是项，那么$T = T$在$\mathscr{T}_0$中是定理（cf.§4, no. 3）。可以以同样的方式将变换后来的定理转换为没有字母出现的定理或元数学判据。从现在开始，我们将不再显式地执行这些转换，但我们通常会隐式地使用它们。
 
 #### 定理 2 {#ens-i-s5-thm-2 .statement tag=03P4}
 
@@ -124,7 +124,7 @@ $$(T = U) \Rightarrow (V\{T\} = V\{U\}).$$
 
 $$(\exists x_1)\ldots(\exists x_n)(T = U)$$
 
-是$\mathscr{T}$中的定理，我们说*U可以放入形式* $T$（$\mathscr{T}$中）。令$R$为$\mathscr{T}$中的关系，并令$y$为字母。令$V$为$R$的解（$\mathscr{T}$中），视为$y$中的关系。如果$R$的每一个解（在$\mathscr{T}$中），被认为是$y$中的关系，都可以放入形式$V$，那么$V$就被称为*完整的解*（或*通用） 解*) 的$R$（在$\mathscr{T}$）。
+是 $\mathscr{T}$ 中的定理，我们说 *U 可以放入形式* $T$（$\mathscr{T}$ 中）。令$R$为$\mathscr{T}$中的关系，并令$y$为字母。令$V$为$R$的解（$\mathscr{T}$中），视为$y$中的关系。如果$R$的每一个解（在$\mathscr{T}$中），被视为$y$中的关系，都可以放入形式$V$，那么$V$就被称为*完整的解*（或*一般解*) 的$R$（在$\mathscr{T}$）。
 
 ### 3. 功能性关系
 
@@ -192,4 +192,4 @@ $$(\exists x)(R\{x\} \ \text{ and } \ S\{\tau_x(R)\})$$
 
 *总共习题为* § 5，$\mathscr{T}$ *表示平等的理论。*
 
-§ 5](exercises/s5/)参见[习题。
+请参阅[习题为 § 5](exercises/s5/)。

@@ -57,16 +57,16 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: ba0c505ff0a6f2c6212c2601b93e530b3b548fdc98f1d54068930337b615a523
+content_sha256: c26abc49852c536d3927b8c7bdcc0356f1926b873b04031269239070403e9e0e
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
 translation_method: google
 source_content_sha256: 66721e72e10dd21f47f9c185589d7f3417a3df9407a6866398253f6c67ed1e54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9a973d573443afda5308ff5c2082f3d843e0dfe640ba51e58129735d1192ceeb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 可积函数和集合
@@ -75,19 +75,19 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 从空间 $\mathscr{L}_F^p$ 的定义可以得出，具有紧凑支撑的连续函数的子空间 $\mathscr{K}_F$ 在 $\mathscr{L}_F^p$ 中是“密集”（§ 3, No. 4，默认为 2）。每个连续（对于阶$p$均值收敛的拓扑）线性函数，在$\mathscr{K}_F$上定义，并在*完整的Hausdorff*拓扑向量空间$G$中取其值，因此可以通过连续性*以独特的方式*扩展为连续线性函数在$\mathscr{L}_F^p$上定义，值在$G$中定义（GT、II, § 3, No. 6、Th.2和III, § 3, No. 1、提案3）。
 
-现在，对于每个具有紧凑支持的连续函数 $f$，以及 Banach 空间 $F$ 中的值，我们定义了（在第 III, § 3, No. 1 章中）相对于 $\mu$ 的*积分* $\mu(f) = \int f \, d\mu$，即元素 $F$，我们已经证明了（第III, § 3, No. 2，第 6 条命题）不等式
+现在，对于每个具有紧凑支持的连续函数 $f$，以及 Banach 空间 $F$ 中的值，我们定义了（在第 III, § 3, No. 1 章中）相对于 $\mu$ 的*积分* $\mu(f) = \int f \, d\mu$，即元素 $F$，我们已经证明了（第 III, § 3, No. 2，第 6 条命题）不等式
 
 $$
 \left| \int f \, d\mu \right| \leqslant \int |f| \, d|\mu| = N_1(f).
 $$
 
-这个不等式证明了$\mathscr{K}_F$到$F$的线性映射$f \mapsto \int f \, d\mu$对于$\mathscr{K}_F$均值收敛的拓扑是连续的。因此，它可以通过连续性扩展到整个空间$\mathscr{L}_F^1$，我们可以得到以下定义：
+这个不等式证明了$\mathscr{K}_F$到$F$的线性映射$f \mapsto \int f \, d\mu$对于$\mathscr{K}_F$均值收敛的拓扑是连续的。因此可以通过连续性将其扩展到整个空间$\mathscr{L}_F^1$，我们可以得到以下定义：
 
 #### 定义 1 {#int-iv-s4-def-1 .statement tag=08RY}
 
 *函数属于到 $\mathscr{L}_F^1(X, \mu)$ 被认为对于测度 $\mu$* 可积（或者，再次，它们是 $\mu$ 可积）。 *可积函数$f$的积分（相对于$\mu$）是由定义值在扩张的$f$连续到线性映射$g \mapsto \int g\, d\mu$的$\mathscr{H}_F$的$\mathscr{L}_F^1$变成$F$；它再次表示为$\mu(f)$或$\int f\, d\mu$，或$\int f(x)\, d\mu(x)$或$\int f\mu$，或$\int f(x)\mu(x)$。
 
-#### 例 {#int-iv-s4-n1-exa-1 .statement tag=08RZ}
+#### 例{#int-iv-s4-n1-exa-1 .statement tag=08RZ}
 
 — 令 $X$ 为*离散* 空间，$\mu$ 为 $X$ 的度量，集合 $\alpha(x) = \mu(\varphi_{\{x\}})$ 对于每个 $x \in X$。那么$\mathscr{F}_F^1$中的函数是*可积的*，在其他字$\mathscr{L}_F^1 = \mathscr{F}_F^1$中；此外，对于每个函数 $f \in \mathscr{L}_F^1$，
 
@@ -95,7 +95,7 @@ $$
 \int f\, d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-对于，设 $f \in \mathscr{F}_F^1$；我们有 $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *例*);对于每个$\varepsilon > 0$，存在有限子集$M$ / $X$，使得
+对于，设 $f \in \mathscr{F}_F^1$；我们有 $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *例*);对于每个 $\varepsilon > 0$，存在有限子集 $M$ 的 $X$ 使得
 
 $$
 \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon.
@@ -171,7 +171,7 @@ $$
 \int u(f(x)) \, d\mu(x) = u \left( \int f(x) \, d\mu(x) \right).
 $$
 
-我们已经知道$u \circ f$是可积的（§ 3, No. 5，Th.4）； 关系 (6)，对于每个 $f \in \mathscr{H}_F$、扩展对于每个可积函数 $f$，乘以扩张的原理恒等式均有效：对于，$f \mapsto u \circ f$ 对于均值收敛的拓扑是连续的，如下： 不等式$N_1(u \circ f) \leq \|u\| \cdot N_1(f)$。
+我们已经知道$u \circ f$是可积的（§ 3, No. 5，Th.4）； 关系 (6)，对于扩张的原理恒等式，对于每个$f \in \mathscr{H}_F$、扩展、可积函数$f$都有效：因为，$f \mapsto u \circ f$对于均值收敛的拓扑是连续的，如下： 不等式$N_1(u \circ f) \leq \|u\| \cdot N_1(f)$。
 
 #### 推论 1 {#int-iv-s4-thm-1-cor-1 .statement tag=08S5}
 
@@ -191,7 +191,7 @@ $$
 \int \left( \sum_{k=1}^n a_k f_k \right) d\mu = \sum_{k=1}^n a_k \int f_k \, d\mu.
 $$
 
-### 3. 积分中的极限
+### 3. 积分到极限
 
 #### 命题 3 {#int-iv-s4-prop-3 .statement tag=08S7}
 
@@ -205,17 +205,17 @@ $$
 
 #### 命题 4 {#int-iv-s4-prop-4 .statement tag=08S8}
 
-— 令 $(f_n)$ 为可积数值函数的递增（分别为递减）序列。为了使序列的上（或下）包络线$f$可积，$\sup_n \int f_n \, d|\mu| < +\infty$（或$\inf_n \int f_n \, d|\mu| > -\infty$）是必要且充分的，在这种情况下
+— 令 $(f_n)$ 为可积数值函数的递增（分别为递减）序列。为了使序列的上（或下）包络$f$可积，$\sup_n \int f_n \, d|\mu| < +\infty$（或$\inf_n \int f_n \, d|\mu| > -\infty$）是必要且充分的，在这种情况下
 
 $$
 \int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu .
 $$
 
-我们极限自己去考虑递增序列。 序列$g_n = f_n + f_1^-$是递增，由可积函数$\geqslant 0$组成；因为它的上包络线是 $g = f + f_1^-$，所以从 Th 得出命题。 § 3, No. 6 中的 5 个。
+我们极限自己去考虑递增序列。 序列$g_n = f_n + f_1^-$是递增，由可积函数$\geqslant 0$组成；由于其上包络线为 $g = f + f_1^-$，因此从 Th 得出命题。 § 3, No. 6 中的 5 个。
 
 #### 定理 2 {#int-iv-s4-thm-2 .statement tag=08S9}
 
-— 令 $A$ 为指标的集合，由具有可数基的过滤器 $\mathfrak{F}$ 过滤。令$(f_\alpha)_{\alpha \in A}$为可积函数族，对于滤波器$\mathfrak{F}$，几乎处处逐点收敛到函数$f$；如果存在一个数值函数 $g \geqslant 0$ 使得 $\int^* g \, d|\mu| < +\infty$ 并且使得 $|f_\alpha(x)| \leqslant g(x)$ 对于每个 $\alpha \in A$ 几乎在 $X$ 中无处不在，那么函数 $f$ 是可积的，并且
+— 令 $A$ 为指标的集合，通过具有可数基的过滤器 $\mathfrak{F}$ 进行过滤。令$(f_\alpha)_{\alpha \in A}$为可积函数族，对于滤波器$\mathfrak{F}$，几乎处处逐点收敛到函数$f$；如果存在一个数值函数 $g \geqslant 0$，使得 $\int^* g \, d|\mu| < +\infty$ 且对于每个 $\alpha \in A$，$|f_\alpha(x)| \leqslant g(x)$ 几乎无处不在 $X$ 中，则函数 $f$ 是可积的，并且
 
 $$
 \int f \, d\mu = \lim_{\mathfrak{F}} \int f_\alpha \, d\mu .
@@ -225,9 +225,9 @@ $$
 
 #### 推论 1 {#int-iv-s4-thm-2-cor-1 .statement tag=08SA}
 
-— 令$\Omega$为空间的拓扑空间，$\Omega$的$t_0$点承认邻域的可数基本系统，$X \times \Omega$的$f$映射进入$F$，具有以下属性：
+— 令$\Omega$为空间的拓扑空间，$\Omega$的$t_0$点承认可数基本邻域系统，将$X \times \Omega$的$f$映射引入$F$，具有以下性质：
 a) 对于每个 $t \in \Omega$，函数 $x \mapsto f(x, t)$ 是可积的；
-b) 对于每个$x \in X$，函数$t \mapsto f(x, t)$在$t_0$连续；
+b) 对于每一个$x \in X$，函数$t \mapsto f(x, t)$在$t_0$连续；
 
 c) 存在 t_0 的邻域 U 和在 X 上定义的数值函数 g \geqslant 0，使得对于所有$x \in X$ 和$t \in U$ 都有$\int^* g d|\mu| < +\infty$ 和$|\mathbf{f}(x,t)| \leqslant g(x)$。
 
@@ -243,7 +243,7 @@ $$
 
 （“级数的逐项积分”）。
 
-### 4.可积数值函数的刻画
+### 4. 可积数值函数的刻画
 
 #### 命题 5 {#int-iv-s4-prop-5 .statement tag=08SC}
 
@@ -352,7 +352,7 @@ $$
 
 应用于勒贝格测度和调节函数，No. 3 的第 3 条命题在紧凑区间上的调节函数积分到极限时重新产生定理（FRV，II, §3, No. 1，命题 1）；对于*序列*（或具有可数基的过滤器），调节函数，Th。 No. 3的2极大地改进了命题，因为对于紧凑区间上的均匀有界调节函数，它用*逐点*收敛代替*均匀*收敛（cf.§5, No. 4，Th.2）。然而，对于在非紧区间上调节函数的*绝对收敛*积分到极限的过渡，我们注即Th的条件。 No. 3 的 2 意味着所考虑的积分是*一致收敛的*（在 FRV 中定义的意义上，II, §3, No. 2），因此对于IV（*loc.cit.*）中给出的收敛性，不会改进条件，除非涉及函数$f_\alpha$ 在每个紧凑区间上的收敛。最后，对于经过到极限，对于调节的函数的“非绝对收敛”积分给出的条件仍然超出了章中开发的理论。
 
-### 5.可积集合
+### 5. 可积集合
 
 #### 定义 2 {#int-iv-s4-def-2 .statement tag=08SL}
 
@@ -378,13 +378,13 @@ $$
 
 #### 命题 7 {#int-iv-s4-prop-7 .statement tag=08SN}
 
-1° *如果 A 和 B 是两个可积集合且 $B \subset A$，则集合 $C = A - B$ 可积并且*
+1° *如果 A 和 B 是两个可积集合使得 $B \subset A$，则集合 $C = A - B$ 可积并且*
 
 $$
 \mu(C) = \mu(A) - \mu(B).
 $$
 
-2° *交可积族集合是可积的。*
+2° *交可积集合的可数族是可积的。*
 
 第一个部分源自$\varphi_C = \varphi_A - \varphi_B$。另一方面，如果$(A_n)$是可积的集合的序列，并且$A$是它的交，则$\varphi_A = \inf_n \varphi_{A_n}$，因此$A$是可积的（No. 3，命题4）。
 
@@ -402,7 +402,7 @@ $$
 \mu(A) = \lim_{n \to \infty} \mu(A_n).
 $$
 
-对于可积函数的$\varphi_{A_n}$形式递增序列和$\varphi_A = \sup_n \varphi_{A_n}$；因此，命题源自No. 3的命题4。
+对于，可积函数的$\varphi_{A_n}$形式递增序列和$\varphi_A = \sup_n \varphi_{A_n}$；因此，命题是从No. 3的第4条命题得出的。
 
 #### 推论 {#int-iv-s4-n5-cor-2 .statement tag=08SQ}
 
@@ -422,7 +422,7 @@ $$
 
 #### 命题 9 {#int-iv-s4-prop-9 .statement tag=08SR}
 
-— 令 $(A_n)$ 为成对不相交的可积集合的序列，使得 $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$；然后
+— 令 $(A_n)$ 为成对不相交的可积集合的序列，使得 $\sum_{n=1}^\infty |\mu|(A_n) < +\infty$；那么
 
 $$
 \mu\left(\bigcup_n A_n\right) = \sum_{n=1}^\infty \mu(A_n).
@@ -430,7 +430,7 @@ $$
 
 因为，如果$A = \bigcup_n A_n$则$\varphi_A = \sum_{n=1}^\infty \varphi_{A_n}$，并且命题由(17)和Cor得出。 2 Th。 2 个No. 3。
 
-关系 (18) 也可以用说来表示，测度$\mu$与$X$的可积子集的集合完全相加。
+关系(18)也可以用说来表示，测度$\mu$与$X$的可积子集的集合完全相加。
 
 ### 6. 判据集合的可积性
 
@@ -519,7 +519,7 @@ It suffices to apply Corollary 2 to an integrable open set containing the given 
 
 注 $|\mu|^*(U)$ 也是相对紧开集合的测度$|\mu|(G)$ 的至高，使得$\overline{G} \subset U$。因为，如果$K$是$U$中包含的紧集，那么对于每个$x \in K$，都存在$x$的相对紧凑的开邻域$V$，使得$\overline{V} \subset U$。在用这些邻域的有限数覆盖$K$时，它们的并$G$是一个相对紧凑的开放集合，使得$\overline{G} \subset U$和$K \subset G$，从而$|\mu|(K) \leq |\mu|(G) \leq |\mu|^*(U)$。
 
-### 7. 刻画有界度量
+### 7. 刻画有界措施
 
 #### 命题 12 {#int-iv-s4-prop-12 .statement tag=08T3}
 
@@ -542,7 +542,7 @@ $1^\circ$ 存在集合 $M \in \mathscr{B}$，使得函数 $f \in M$ 一致有界
 $2^\circ$ $\mathscr{B}$ 均匀收敛于 $X$ 到函数 $f_0$ 的每个紧致子集。
 在这些条件下，$f_0$属于到$\mathscr{L}_F^p$和$\mathscr{B}$以阶$p$到$f_0$的平均值收敛。
 
-我们注首先，如果每个$x \in X$和每个函数$f \in M$都有$|f(x)| \leq a$，那么每个$x \in X$也有$|f_0(x)| \leq a$。因此，对于每个$\varepsilon > 0$，存在紧集$K$，使得$|\mu|(CK) \leq \varepsilon^p$和集合$N \in \mathscr{B}$，使得对于每个函数$f \in N$，对于所有$x \in K$，存在$|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$。现在，我们可以写
+我们首先注，如果每个$x \in X$和每个函数$f \in M$都有$|f(x)| \leq a$，那么每个$x \in X$也有$|f_0(x)| \leq a$。因此，对于每个$\varepsilon > 0$，存在紧集$K$，使得$|\mu|(CK) \leq \varepsilon^p$和集合$N \in \mathscr{B}$，使得对于每个函数$f \in N$，对于所有$x \in K$，存在$|f(x) - f_0(x)| \leq \varepsilon(|\mu|(K))^{-1/p}$。现在，我们可以写
 
 $$
 f - f_0 = (f - f_0)\varphi_K + (f - f_0)\varphi_{CK};
@@ -552,15 +552,15 @@ $$
 
 #### 推论 {#int-iv-s4-n7-cor-1 .statement tag=08T5}
 
-— 对于 $X$ 上的有界测度 $\mu$，$X$ 的每个有界连续映射 $f$ 到$F$ 属于到每个 $\mathscr{L}_F^p$ ($1 \leq p < +\infty$)。
+— 对于 $X$ 上的有界测度 $\mu$，$X$ 的每个有界连续映射 $f$ 到 $F$ 属于到每个 $\mathscr{L}_F^p$ ($1 \leq p < +\infty$)。
 
-对于$X$的每个紧凑子集$K$，令$M_K$为$X$的映射的集合到形式$hf$的$F$，其中$h$是连续的$X$的映射到$[0, 1]$等于$K$上的1并且具有紧凑的支撑。很明显，集合 $M_K$ 形式 $\mathscr{L}_F^p$ 上的滤波器基 $\mathscr{B}$，函数属于到 $M_K$ 均匀有界，$\mathscr{B}$ 均匀收敛于$f$ $X$ 的每个紧凑子集，从而的推论。
+对于$X$的每个紧凑子集$K$，令$M_K$为$X$的映射的集合到形式$hf$的$F$，其中$h$是连续的$X$的映射到$[0, 1]$等于$K$上的1并且具有紧凑的支撑。很明显，集合$M_K$形式是$\mathscr{L}_F^p$上的滤波器基$\mathscr{B}$，函数属于到$M_K$均匀有界，$\mathscr{B}$均匀收敛到$f$ $X$ 的每个紧凑子集，从而的推论。
 
 特别地，函数$f$是可积的，并且其积分$\int f\, d\mu$相对于积分$\int h f\, d\mu$的$\mathscr{B}$是极限。
 
 我们将重新获得 Cor。将第 13 号提案作为 §5, No. 6 中可积性一般标准的推论。
 
-在第记号章中。 III, §1, No. 2、$|f| \leq \|f\| \cdot 1$，每函数、$f \in \mathscr{C}^b(X; F)$、从而，按No. 2的公式 (3) 和 (4)，
+在第记号章中。 III, §1, No. 2、$|f| \leq \|f\| \cdot 1$ 每函数 $f \in \mathscr{C}^b(X; F)$、从而，由 No. 2 的公式 (3) 和 (4)，
 
 $$
 N_p(f) \leq \|f\| \cdot N_p(1) = \|f\| \cdot \|\mu\|^{1/p}.
@@ -572,9 +572,9 @@ $$
 \left| \int f\, d\mu \right| \leq \|f\| \cdot \|\mu\|,
 $$
 
-因此映射 $f \mapsto \int f\, d\mu$ 在 Banach 空间 $\mathscr{C}^b(X; F)$ 上是连续的；它的限制到$\mathscr{C}^b(X; F)$中$\mathscr{K}(X; F)$的闭包$\mathscr{C}^0(X; F)$，即到空间连续函数在点趋向于0（第III, §1, No. 2，第3条），因此是扩张通过积分到 $\mathscr{C}^0(X; F)$ 的连续性。
+因此映射 $f \mapsto \int f\, d\mu$ 在 Banach 空间 $\mathscr{C}^b(X; F)$ 上连续；因而，其限制到$\mathscr{C}^b(X; F)$中$\mathscr{K}(X; F)$的闭包$\mathscr{C}^0(X; F)$，即到空间连续函数在点处趋向于0（第III, §1, No. 2，第3条），因此扩张通过积分连续到 $\mathscr{C}^0(X; F)$。
 
-### 8. 与紧凑支持措施的集成
+### 8. 与紧凑型支持措施的集成
 
 令$\mu$为$X$的测度，其支持$S = \operatorname{Supp}(\mu)$是紧致的；开集合 $X - S$ 可以忽略不计（§2, No. 2，提案 5）。对于每个函数 $f$ 以及向量空间 $F$ 或 $\overline{\mathbf{R}}$ 中的值，函数 $f$ 和 $f \varphi_S$ 因此是等价的 (§2, No. 4)；对于$f$是$\mu$可积（当$F$是Banach空间时），因而$f \varphi_S$是必要且充分的，在这种情况下（No. 1）
 
@@ -704,17 +704,17 @@ $$
 
 这就证明了$\lambda$的存在。最后，假设对于每个$M \in \Phi$都有$\lambda(M) \geqslant 0$；对于每个函数$f \in \mathscr{E}(\Phi)$，可以写成$f = \sum_i c_i \varphi_{M_i}$，其中$M_i \in \Phi$是成对的不相交的；如果$f \geqslant 0$，则对于每个指标$i$，$c_i \geqslant 0$使得$M_i$是非空，从而$\lambda(f) = \sum_i c_i \lambda(M_i) \geqslant 0$。
 
-### 10.通过步长函数逼近连续函数
+### 10. 通过步长函数逼近连续函数
 
 #### 命题 19 {#int-iv-s4-prop-19 .statement tag=08TJ}
 
-— *令*$X$*为局部紧凑空间，*$\Phi$**$X$的子集族，*$X$的紧凑子集*包含集合。 *对于每个连续映射* $f$ *of* $X$ *进入 Banach 空间* $F$ *（分别为每个连续实值函数* $f \geqslant 0$ *on* $X$）*具有紧凑支持* $K$，*存在序列* $(g_n)$ * 的函数中* $\mathscr{E}_F(\Phi)$ * 包含在* $K$ * 中的支持（分别为序列* $(g_n)$ * 中的函数中* $\mathscr{E}(\Phi)$ *使得* $0 \leqslant g_n \leqslant f$ *对于每个* $n$) *一致收敛于* $f$ *（或$f$）。
+— *令*$X$*为局部紧凑空间，*$\Phi$**$X$的子集族，*$X$的紧凑子集*包含集合。 *对于每个连续的映射* $f$ *of* $X$ *进入 Banach 空间* $F$ *（分别为每个连续的实值函数* $f \geqslant 0$ *on* $X$）*具有紧凑的支持* $K$，*存在序列* $(g_n)$*的函数在*$\mathscr{E}_F(\Phi)$*包含在*$K$*中的支持（或序列*$(g_n)$*的函数在*$\mathscr{E}(\Phi)$*这样* $0 \leqslant g_n \leqslant f$ *对于每个* $n$) *一致收敛到* $f$ *（或$f$）。
 
-由于$f$在$K$上一致连续，因此可以通过紧集$M_i$（$1 \leq i \leq m$）的有限数覆盖$K$，使得$f$在每个$M_i$上的振荡为$\leq 1/n$。由于$M_i$和$K$属于到$\Phi$，$K$存在划分进入集合$N_j \in \Phi$，使得集合$M_i \cap K$中的每一个都是某个特定的并 $N_j$（No. 9、引理）中的数。令$a_j$为$F$的元素，使得$|f(x) - a_j| \leq 1/n$在$N_j$上。 设定 $g_n = \sum_j a_j \varphi_{N_j}$，在本例中我们有 $|f - g_n| \leq 1/n$、从而命题。对于连续实值函数 $f$，采用 $a_j = \inf_{x \in N_j} f(x)$ 和 $g_n = \sum_j a_j \varphi_{N_j}$，人们也提出类似的观点。
+由于$f$在$K$上一致连续，因此可以通过紧集$M_i$（$1 \leq i \leq m$）的有限数覆盖$K$，使得$f$在每个$M_i$上的振荡为$\leq 1/n$。由于$M_i$和$K$属于到$\Phi$，$K$存在划分进入集合$N_j \in \Phi$，使得集合$M_i \cap K$中的每一个都是某个特定的并 $N_j$（No. 9、引理）中的数。令$a_j$为$F$的元素，使得$|f(x) - a_j| \leq 1/n$在$N_j$上。 设定 $g_n = \sum_j a_j \varphi_{N_j}$，在本例中我们有 $|f - g_n| \leq 1/n$、从而命题。对于取 $a_j = \inf_{x \in N_j} f(x)$ 和 $g_n = \sum_j a_j \varphi_{N_j}$ 的连续实值函数 $f$，人们也提出了类似的观点。
 
 #### 推论 1 {#int-iv-s4-prop-19-cor-1 .statement tag=08TK}
 
-*令$\mu$为$X$的测度； 空间 $\mathscr{E}_F(\Phi)$ 在空间 $\mathscr{L}_F^p$ ($1 \leq p < +\infty$) 中都很密集。*
+*令$\mu$为$X$的度量； 空间 $\mathscr{E}_F(\Phi)$ 在空间 $\mathscr{L}_F^p$ ($1 \leq p < +\infty$) 中都很密集。*
 
 For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (§ 3, No. 3, Prop. 4) that $\mathscr{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathscr{K}_F$ of continuous functions with compact support, whence the corollary.
 
@@ -730,7 +730,7 @@ For, it follows from Prop. 19 and the criterion for convergence in mean for unif
 
 因为，它是从 Cor 得出的。 2和定义的措施，对于$X$、$\mu$和$\nu$的每个紧凑子集$S$，在$\mathscr{K}(X, S; \mathbf{C})$中采取相同的值。
 
-### 11. 在集合族上定义的度量的扩张
+### 11. 对集合族定义的测度的扩张
 
 令$\Phi$为局部紧致空间$X$的子集的非空集合。给定一个实值函数 $M \mapsto \alpha(M)$，在$\Phi$上定义和$\geq 0$，我们建议寻找条件，其中$X$上存在正测度$\mu$，使得$\Phi$的集合是$\mu$可积的，并且$\mu(M) = \alpha(M)$ 对于所有 $M \in \Phi$。我们将极限自己考虑集合$\Phi$满足以下条件的情况：
 
@@ -883,8 +883,8 @@ $$
 \beta(U_n) - \beta(K) = \beta(U_n - K) = \sum_{p=n}^{\infty} \beta(U_p - U_{p+1})
 $$
 
-当$n$趋向于$\infty$时，趋向于0。这就证明条件$(\mathrm{PM}'_{\mathrm{IV}})$是满足的。由 Th. 5，在$X$上存在正测度$\mu$，使得$\mu(K) = \alpha(K)$对于$X$的每个紧凑子集$K$。由于$X$的每个开集合$U$是紧凑子集的递增序列并，所以我们有$\mu^*(U) = \beta(U)$。令 $L$ 为 $X$ 的紧致子集。根据No. 5的第7条，$L$形式的$\mu$可积子集是$L$的子集的部落。因此，如果$B$是$L$中包含的$\Psi$的元素，则$B$是$\mu$可积；对于每个$\varepsilon > 0$，紧集$K$和$X$中的开集合$U$，使得$K \subset B \subset U$和$\mu^*(U) - \mu(K) \leq \varepsilon$（No. 6，Th.4）。从$\beta(U) = \mu^*(U)$和$\beta(K) = \mu(K)$开始，我们看到$|\mu^*(B) - \beta(B)| \leq 2\varepsilon$。因此$\beta(B) = \mu^*(B)$。最后，$X$的每一个Borel集合$C$是两两不相交的序列并，相对紧凑的Borel集合，从而$\beta(C) = \mu^*(C)$。 $\mu$的唯一性立即从Th开始。 5.
+当$n$趋向于$\infty$时，趋向于0。这就证明条件$(\mathrm{PM}'_{\mathrm{IV}})$是满足的。由 Th. 5，在$X$上存在正测度$\mu$，使得$\mu(K) = \alpha(K)$对于$X$的每个紧凑子集$K$。由于$X$的每个开集合$U$是紧凑子集的递增序列并，所以我们有$\mu^*(U) = \beta(U)$。令 $L$ 为 $X$ 的紧致子集。根据No. 5的第7条，$L$形式的$\mu$可积子集是$L$的子集的一个部落。因此，如果$B$是$L$中包含的$\Psi$的元素，则$B$是$\mu$可积；对于每个$\varepsilon > 0$，紧集$K$和$X$中的开集合$U$，使得$K \subset B \subset U$和$\mu^*(U) - \mu(K) \leq \varepsilon$（No. 6，Th.4）。从$\beta(U) = \mu^*(U)$和$\beta(K) = \mu(K)$开始，我们看到$|\mu^*(B) - \beta(B)| \leq 2\varepsilon$。因此$\beta(B) = \mu^*(B)$。最后，$X$的每一个Borel集合$C$是两两不相交的序列并，相对紧凑的Borel集合，从而$\beta(C) = \mu^*(C)$。 $\mu$的唯一性立即从Th开始。 5.
 
-### 习题{#int-iv-s4-exercises}
+### 习题 {#int-iv-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -41,21 +41,21 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 5660d546d769a42cc01901b39363b148db7269f04070a0ebc453e15b7734988a
+content_sha256: 7e23f5298ea5c2470c0166b0fb25e2160f402255b5ac5a4fdf78503ca9052cc4
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
 translation_method: google
 source_content_sha256: 5dafa58e78dc6307341df4bd75bf3a56cc18775819c83933d0c50e69c45de801
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 19a47299c2324d4f490ee85fb62da01a67d499f1149a6bcd6b08f930c2e9a48a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 2。 线性表示 / 群
+## § 2。 线性表示群
 
-### 1.连续线性表示
+### 1. 连续线性表示
 
 设 G 为拓扑群，E 为 E 中 G 的局部凸空间，U 线性表示。
 
@@ -84,7 +84,7 @@ $a')$对于$G$的每个紧致子集$K$，$U(K)$是等连续的。
 
 #### 注 3 {#int-viii-s2-n1-rem-3 .statement tag=09II}
 
-假设$U$是$G$在$E$中的连续线性表示。对于每个$s \in G$，令$\widehat{U}(s)$是$U(s)$的连续扩张到$E$的完成$\widehat{E}$。那么$\widehat{U}$是$\widehat{E}$、注2的满足条件a)和c)中$G$的线性表示，以及GT、X, §2, No. 2、命题4的条件b)。因此$\widehat{U}$是$\widehat{E}$中$G$的连续线性表示。
+假设$U$是$G$在$E$中的连续线性表示。对于每个$s \in G$，让$\widehat{U}(s)$是$U(s)$的连续扩张到$E$的完成$\widehat{E}$。那么$\widehat{U}$是$\widehat{E}$、注2的满足条件a)和c)中$G$的线性表示，以及GT、X, §2, No. 2、命题4的条件b)。因此$\widehat{U}$是$\widehat{E}$中$G$的连续线性表示。
 
 #### 注 4 {#int-viii-s2-n1-rem-4 .statement tag=09IJ}
 
@@ -110,7 +110,7 @@ G 存在非空开子集 U，使得 $\rho$ 在 U 上有界（GT，IX, §5, No. 4�
 
 设 G 为赋范空间 E 中 G 的拓扑群，U 线性表示，A 为 E 的稠密子集。假设对于每个 $s \in G$，$U(s)$ 是连续的，并且对于每个 $x \in A$，$s \mapsto U(s)x$ 是连续的将G的映射代入E。则G上的函数$s \mapsto g(s) = \|U(s)\|$是下半连续且满足$g(st) \leqslant g(s)g(t)$。
 
-设B为E的单位球，则$g(s) = \sup_{x \in B \cap A} \|U(s)x\|$，且每个函数$s \mapsto \|U(s)x\|$在G上连续，因此$g$是下半连续。另一方面，
+设B为E的单位球，则$g(s) = \sup_{x \in B \cap A} \|U(s)x\|$，且各函数$s \mapsto \|U(s)x\|$在G上连续，因此$g$为下半连续。另一方面，
 
 $$
 g(st) = \|U(s)U(t)\| \leqslant \|U(s)\| \cdot \|U(t)\| = g(s)g(t).
@@ -118,19 +118,19 @@ $$
 
 #### 命题 2 {#int-viii-s2-prop-2 .statement tag=09IN}
 
-令 G 为 G 在赋范空间 E 中的局部紧致群，U 线性表示。令 A 为 E 的稠密子集。假设对于每个 $s \in G$，$U(s)$ 是连续的，并且对于每个 $x \in A$，$s \mapsto U(s)x$ 是连续的将 G 的映射化为 E。则 U 是连续的。
+令 G 为 G 在赋范空间 E 中的局部紧致群，U 线性表示。令 A 为 E 的稠密子集。假设对于每个 $s \in G$，$U(s)$ 是连续的，并且对于每个 $x \in A$，$s \mapsto U(s)x$ 是连续的将 G 映射化为 E。则 U 是连续的。
 
 因为，$\|U(s)\|$ 在 G 的每个紧凑子集上都以引理 1 和 2 为界，然后应用注 2。
 
-### 2.反对表示
+### 2. 反对表示
 
-设U是E中G的单独连续线性表示。设E'是E的对偶。映射$s \mapsto {}^tU(s)$是群$G^0$与G相对的E'中的线性表示；我们可以说这个表示是U的转置。映射$s \mapsto {}^tU(s^{-1}) = {}^tU(s)^{-1}$是E'中G的线性表示，称为U的反对。
+令 U 为 G 在 E 中的单独连续线性表示。令 E' 为 E 的对偶。映射 $s \mapsto {}^tU(s)$ 是群 $G^0$ 与 G 相对的 E' 中的线性表示；我们可以说，这个表示是U的转置。映射$s \mapsto {}^tU(s^{-1}) = {}^tU(s)^{-1}$是E'中G的线性表示，称为U的反对。
 
 #### 引理 3 {#int-viii-s2-lem-3 .statement tag=09IO}
 
 令X为局部紧致空间，Y和Z拓扑为空间，$\varphi$为Z中$X \times Y$的连续映射，以及Y为Z中的$\varphi_x$映射$y \mapsto \varphi(x,y)$。 空间$\mathscr{C}(Y), \mathscr{C}(Z)$具备紧凑收敛的拓扑，$X \times \mathscr{C}(Z)$到$\mathscr{C}(Y)$的映射$(x,f) \mapsto f \circ \varphi_x$是连续的。
 
-显然，考虑X是紧致的情况就足够了。设 $(x_0, f_0) \in X \times \mathscr{C}(Z)$，K 是 Y 的紧凑子集，以及 $\varepsilon > 0$。让$K' = \varphi(X \times K)$。由于$f_0 \circ \varphi$在$X \times K$中一致连续，因此存在$x_0$的邻域W，使得$x \in W$和$y \in K$有$|f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon$。另一方面，如果对于所有 $z \in K'$ 来说，$f \in \mathscr{C}(Z)$ 是$|f(z) - f_0(z)| \leq \varepsilon$，那么$x \in X, y \in K$ 就会有 $|f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon$，因此 $x \in W, y \in K$ 就有$|f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon$。 从而引理。
+显然，考虑 X 是紧致的情况就足够了。设 $(x_0, f_0) \in X \times \mathscr{C}(Z)$，K 是 Y 的紧凑子集，以及 $\varepsilon > 0$。让$K' = \varphi(X \times K)$。由于$f_0 \circ \varphi$在$X \times K$中一致连续，因此存在$x_0$的邻域W，使得$x \in W$和$y \in K$有$|f_0(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq \varepsilon$。另一方面，如果对于所有 $z \in K'$ 来说，$f \in \mathscr{C}(Z)$ 是$|f(z) - f_0(z)| \leq \varepsilon$，那么$x \in X, y \in K$ 就会有 $|f(\varphi(x,y)) - f_0(\varphi(x,y))| \leq \varepsilon$，因此 $x \in W, y \in K$ 就有$|f(\varphi(x,y)) - f_0(\varphi(x_0,y))| \leq 2\varepsilon$。 从而引理。
 
 现在让我们回到之前的记号。
 
@@ -139,7 +139,7 @@ $$
 (i) *如果 U 是单独连续的，则当 E' 配备弱拓扑 $\sigma(E', E)$ 时，$^tU$ 是单独连续的。*
 (ii) *如果 G 是局部紧致的且 U 是连续的，则当 E' 配备紧致收敛的拓扑时，$^tU$ 是连续的。*
 
-断言 (i) 是直接的。 断言 (ii) 从引理 3 开始，其中有人取了 $X = G, Y = Z = E, \varphi(s, x) = U(s)x$。
+断言 (i) 是直接的。 断言 (ii) 是从引理 3 得出的，其中有人取了 $X = G, Y = Z = E, \varphi(s, x) = U(s)x$。
 
 ### 3. 例：连续函数中空间中的线性表示
 
@@ -176,19 +176,19 @@ $$
 
 *G在$C(X)$和$K(X)$中的线性表示$\gamma_\chi$是连续的。*
 
-$G \times C(X)$到$G \times C(X)$的映射$(s, f) \mapsto (s, \gamma(s)f)$是连续的（No. 2，引理3）。另一方面，$G \times C(X)$到$C(X)$的映射$(s, f) \mapsto \chi(s, \cdot)f$是连续的；因为，如果 G 中 s 趋向于 $s_0$，则 $\chi(s, \cdot)$ 在 X 的每个紧凑子集上一致趋于 $\chi(s_0, \cdot)$；此外，如果$f$在$C(X)$中趋向于$f_0$，那么$\chi(s, \cdot)f$在X、从而我们的断言的每个紧凑子集上均匀地趋于$\chi(s_0, \cdot)f_0$。因此G在$C(X)$中的表示$\gamma_\chi$是连续的。
+$G \times C(X)$到$G \times C(X)$的映射$(s, f) \mapsto (s, \gamma(s)f)$是连续的（No. 2，引理3）。另一方面，$G \times C(X)$到$C(X)$的映射$(s, f) \mapsto \chi(s, \cdot)f$是连续的；因为，如果 G 中 s 趋向于 $s_0$，则 $\chi(s, \cdot)$ 在 X 的每个紧凑子集上一致趋于 $\chi(s_0, \cdot)$；此外，如果$f$在$C(X)$中趋向于$f_0$，那么$\chi(s, \cdot)f$在X、从而我们的断言的每个紧凑子集上均匀地趋向于$\chi(s_0, \cdot)f_0$。因此G在$C(X)$中的表示$\gamma_\chi$是连续的。
 
 让我们证明 G 在 $K(X)$ 中的表示 $\gamma_\chi$ 是连续的。由于$K(X)$是Banach空间的直极限，它是桶状的（TVS，III, §4, No. 1，命题3的Cor.3），因此只需证明$\gamma_\chi$是单独连续的（No. 1，命题1）。现在，令 H 为 X 的紧凑子集，并令 $s_0 \in G$。令V为G中$s_0$的紧邻域，并令L = VH，其在X中是紧邻。对于每个$f \in K(X, H)$，$\gamma_\chi(s_0)f$的支持度都包含在L中，并且
 $$
 \sup_{x \in X} |(\gamma_\chi(s_0)f)(x)| \leq \sup_{x \in L} |\chi(s_0^{-1}, x)| \cdot \sup_{x \in X} |f(x)|,
 $$
-因此$f \mapsto \gamma_\chi(s_0)f$是$K(X, H)$到$K(X, L)$的连续线性映射；由此可见，$f \mapsto \gamma_\chi(s_0)f$ 是 $K(X)$ 自身的连续线性映射（TVS，II, §4, No. 4，命题 5）。另一方面，$K(X, L)$的拓扑是由$C(X)$诱发的。已经证明，V到$K(X, L)$的映射$s \mapsto \gamma_\chi(s)f$是连续的。这样就完成了证明，$\gamma_\chi$是单独连续的。
+因此$f \mapsto \gamma_\chi(s_0)f$是$K(X, H)$到$K(X, L)$的连续线性映射；由此可见，$f \mapsto \gamma_\chi(s_0)f$ 是 $K(X)$ 自身的连续线性映射（TVS，II, §4, No. 4，命题 5）。另一方面，$K(X, L)$的拓扑是由$C(X)$的拓扑诱发的。已经证明，V到$K(X, L)$的映射$s \mapsto \gamma_\chi(s)f$是连续的。这样就完成了证明，$\gamma_\chi$是单独连续的。
 
 #### 命题 5 {#int-viii-s2-prop-5 .statement tag=09IR}
 
-*假设每个函数$\chi(s, \cdot)$都是有界的。那么$\gamma_\chi$离开$\overline{K(X)}$稳定，$\overline{K(X)}$中G的线性表示$\gamma_\chi$是连续的。*
+*假设每个函数$\chi(s, \cdot)$都是有界的。那么$\gamma_\chi$离开$\overline{K(X)}$稳定，并且$\overline{K(X)}$中G的线性表示$\gamma_\chi$是连续的。*
 
-很明显，$\gamma_\chi$使$\overline{K(X)}$稳定，并且每个$\gamma_\chi(s)$在$\overline{K(X)}$中都是连续的。另一方面，对于每个$f \in K(X)$，$s \mapsto \gamma_\chi(s)f$是G到$K(X)$和*更不必说*到$\overline{K(X)}$的连续映射。因此$\overline{K(X)}$中的表示$\gamma_\chi$是连续的（No. 1，命题2）。
+很明显，$\gamma_\chi$使$\overline{K(X)}$稳定，并且每个$\gamma_\chi(s)$在$\overline{K(X)}$中都是连续的。另一方面，对于每个$f \in K(X)$，$s \mapsto \gamma_\chi(s)f$是G到$K(X)$的连续映射和到$\overline{K(X)}$的*更不必说*。因此$\overline{K(X)}$中的表示$\gamma_\chi$是连续的（No. 1，命题2）。
 
 ### 4. 例：空间措施中的线性表示
 
@@ -218,12 +218,12 @@ $\mathscr{C}(X)$中$G$的线性表示$\gamma_\chi$在$X$上的测度的空间$\m
 
 #### 命题 7 {#int-viii-s2-prop-7 .statement tag=09IT}
 
-*假设每个函数$\chi(s, \cdot)$都是有界的。那么$\gamma_\chi$离开稳定的$\mathscr{M}^1(X)$，并且，如果$\mathscr{M}^1(X)$在$\mathscr{K}(X)$的紧子集中具备一致收敛的拓扑，则$\mathscr{M}^1(X)$中$G$的线性表示$\gamma_\chi$是连续的。*
+*假设每个函数$\chi(s, \cdot)$都是有界的。那么$\gamma_\chi$离开稳定的$\mathscr{M}^1(X)$，并且，如果$\mathscr{M}^1(X)$在$\mathscr{K}(X)$的紧子集中具备一致收敛的拓扑，则$G$的线性表示$\gamma_\chi$在$\mathscr{M}^1(X)$中是连续的。*
 这些命题来自 Props。 3、4、5。
 
-### 5.例：线性表示在空间$L^p$
+### 5. 例：线性表示在空间$L^p$
 
-再次令 $G$ 为局部紧致群，在局部紧致空间 $X$ 的左侧连续操作。令 $\beta$ 成为$X$ 的积极测度，并有支持$X$。让我们假设在 $G \times X$ 上存在一个*连续* 函数 $\chi > 0$，这样，对于每个 $s \in G$，
+再次令 $G$ 为局部紧致群，在局部紧致空间 $X$ 的左侧连续操作。令 $\beta$ 成为$X$ 的积极测度，并有支持$X$。让我们假设 $G \times X$ 上存在一个*连续* 函数 $\chi > 0$，这样，对于每个 $s \in G$，
 
 $$
 \gamma(s)\beta = \chi(s^{-1}, \cdot) \cdot \beta
@@ -290,7 +290,7 @@ $$
 
 特别地，如果将$G$视为通过左或右平移对自身进行操作，并且如果取$\chi = 1$，则获得$\mathscr{C}(G)$、$\mathscr{K}(G)$、$\overline{\mathscr{K}}(G)$、$\mathscr{C}'(G)$、$\mathscr{M}(G)$中$G$的*左*和*右正则表示*， $\mathscr{M}^1(G)$。如果将$\beta$作为$G$的左（或右）Haar测度，并且如果将$\chi = 1$取，则获得$L_C^p(G, \beta)$中$G$的*左*（或*右*）*正则表示*。
 
-### 6. $G$线性表示扩张对$G$的措施
+### 6. $G$线性表示扩张至$G$措施
 
 令$G$是群的局部紧致群，$E$是$E$中$G$的局部凸空间，$U$线性表示。假设$U$是连续的并且$E$是准完备的。然后，对于每一个度量 $\mu \in \mathscr{C}'(G)$，都有
 
@@ -371,8 +371,8 @@ $G$到$E$的映射$s \mapsto U(s)x$是连续的。由科. 2、$U(a)x = \lim_V \i
 
 (ii) *令$F$为$E$的闭线性子空间。如果 $F$ 对于 $U$ 是稳定的，那么 $U(\mu)(F) \subset F$ 对于每个 $\mu \in \mathscr{C}'(G)$ 都是稳定的。相反，如果 $U(f \cdot \beta) \subset F$ 对于每个 $f \in \mathscr{K}(G)$，则 $F$ 对于 $U$ 是稳定的。*
 
-(ii) 的第一个部分是直接的，因为$U(s)$到$F$ ($s \in G$)定义的限制是准完全局部凸空间中$G$的连续线性表示 $F$。 (ii) 和 (i) 的第二个部分源自 Cor。 引理 4 中的 3 个。
+(ii) 的第一个部分是直接的，因为$U(s)$到$F$ ($s \in G$) 定义的限制是准完全局部凸空间中$G$的连续线性表示 $F$。 (ii) 和 (i) 的第二个部分源自 Cor。 引理 4 中的 3 个。
 
 ### 习题 {#int-viii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

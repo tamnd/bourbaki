@@ -50,16 +50,16 @@ subsections:
       pdf_page: 119
 statements: 17
 exercises: 40
-content_sha256: 14efdf630fd5e8ae1c1644fc07bc6ea776e066f11094bd522384e69265777bab
+content_sha256: 209bae412d3304a50ce94fc2858f2a9b08e514ffe3c4aa5264106e22194e838c
 translated_from: content/en/alg/I/07_s7_free_monoids_free_groups.md
 translation_method: google
 source_content_sha256: 97dfa3c35501eb8d7f97ddf5171fd22adaac2703346a99cfb362c9406ce8d816
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a73e50d8eb9efb5abfb41c6d9ec05c6673db61411dd6988dffabe88cea87e917
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。免费幺半群，免费群
@@ -68,17 +68,17 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 ### 1. 免费岩浆
 
-集合 $M_n(X)$的序列由整数$n \geqslant 1$上的归纳定义如下：写成$M_1(X) = X$，对于$n \geqslant 2$，$M_n(X)$就是集合的集合和 $M_p(X) \times M_{n-p}(X)$ 换$1 \leqslant p \leqslant n-1$。 $(M_n(X))_{n \geqslant 1}$家族的集合和用$M(X)$表示；每个集合$M_n(X)$都用$M(X)$中的典范像来标识。对于$M(X)$的每个元素$w$，都存在一个唯一的整数$n$，使得$w \in M_n(X)$；它被称为$w$的长度，并用$l(w)$表示。 集合 X 由长度 1 的 $M(X)$ 中的元素组成。
+集合 $M_n(X)$ 的序列由整数 $n \geqslant 1$ 上的归纳定义如下：写为$M_1(X) = X$，对于$n \geqslant 2$，$M_n(X)$ 为集合集合和 $M_p(X) \times M_{n-p}(X)$ 换$1 \leqslant p \leqslant n-1$。 $(M_n(X))_{n \geqslant 1}$家族的集合和用$M(X)$表示；每个集合$M_n(X)$都用$M(X)$中的典范像来标识。对于$M(X)$的每个元素$w$，都存在一个唯一的整数$n$，使得$w \in M_n(X)$；它被称为$w$的长度，并用$l(w)$表示。 集合 X 由长度 1 的 $M(X)$ 中的元素组成。
 
-设$w$和$w'$在$M(X)$内；写出$p = l(w)$和$q = l(w')$。 $M_p(X) \times M_q(X)$的典范嵌入下的$(w, w')$的像变成和集合$M_{p+q}(X)$称为$w$和$w'$的合成并记为$ww'$或$w.w'$。那么$l(w.w') = l(w) + l(w')$和长度$\geqslant 2$的$M(X)$的每个元素可以唯一地写在形式$w'w''$和$w', w''$在$M(X)$中。
+设$w$和$w'$在$M(X)$内；写出$p = l(w)$和$q = l(w')$。 $M_p(X) \times M_q(X)$的典范嵌入下的$(w, w')$的像变成和集合$M_{p+q}(X)$称为$w$和$w'$的合成并记为$ww'$或$w.w'$。那么$l(w.w') = l(w) + l(w')$和长度$\geqslant 2$的$M(X)$的每一个元素可以唯一地写在形式$w'w''$和$w', w''$在$M(X)$中。
 
-集合$M(X)$与律为合成$(w, w') \mapsto w.w'$称为X（§ 1, no. 1，定义1）上构造的自由岩浆。
+集合$M(X)$和律为合成$(w, w') \mapsto w.w'$称为X（§ 1, no. 1，定义1）上构造的自由岩浆。
 
 #### 命题 1 {#alg-i-s7-prop-1 .statement tag=05FH}
 
 设M为岩浆。 X 的每个映射 f 都可以以独特的方式扩展到 M 中的 $M(X)$ 态射。
 
-由$n \geqslant$上的归纳，映射$f_n : M_n(X) \to M$定义如下：对于 n \geq 2，映射 f_n 由 $p = 1, 2, \ldots, n-1$ 的 $f_n(w.w') = f_p(w).f_{n-p}(w')$ 和 $M_p(X) \times M_{n-p}(X)$ 中的 $(w, w')$ 定义。让$g$是$M(X)$的映射进入$M$，其中对于每个整数$n \geq 1$，诱导$f_n$在$M_n(X)$上。显然，$g$ 是$M(X)$ 的唯一态射到$M$，其中扩展 $f$。
+由$n \geqslant$上的归纳，映射$f_n : M_n(X) \to M$定义如下：对于 n \geq 2，映射 f_n 由 $p = 1, 2, \ldots, n-1$ 中的 $f_n(w.w') = f_p(w).f_{n-p}(w')$ 和 $M_p(X) \times M_{n-p}(X)$ 中的 $(w, w')$ 定义。让$g$是$M(X)$的映射进入$M$，其中诱导$f_n$在$M_n(X)$上，对于每个整数$n \geq 1$。显然，$g$ 是$M(X)$ 的唯一态射到$M$，其中扩展 $f$。
 
 设$u$为$X$的映射到集合$Y$。到命题 1，$M(X)$ 到$M(Y)$ 中存在且仅有一个同态，其中重合和$X$ 上的$u$。它将用$M(u)$表示。如果$v$是$Y$的映射变成集合$Z$，$M(X)$的同态$M(v) \circ M(u)$变成$M(Z)$重合，$v \circ u$在$X$， 从而
 
@@ -100,11 +100,11 @@ $$
 
 设$X$为集合，$(u_\alpha, v_\alpha)_{\alpha \in I}$为$M(X)$的元素的有序对的族。令$R$为$M(X)$上的等价关系，与$M(X)$的律兼容，并由$(u_\alpha, v_\alpha)$（§ 1, no. 6）生成。岩浆$M(X)/R$称为*由$X$和相关子*$(u_\alpha, v_\alpha)_{\alpha \in I}$定义的岩浆。令$h$为$M(X)$到$M(X)/R$的规范态射。然后$M(X)/R$由$h(X)$生成。
 
-令$N$为岩浆，$(n_x)_{x \in X}$为元素和$N$的族。令 $k$ 为从 $M(X)$ 到 $N$ 的态射，使得 $k(x) = n_x$ 对于所有 $x \in X$ (命题 1)。如果$k(u_\alpha) = k(v_\alpha)$对于所有$\alpha \in I$，则存在且仅一个态射$f : M(X)/R \to N$，使得$f(h(x)) = n_x$对于所有$x \in X$（§ 1, no. 6，命题9）。
+令$N$为岩浆，$(n_x)_{x \in X}$为元素和$N$的族。令 $k$ 为从 $M(X)$ 到 $N$ 的态射，使得 $k(x) = n_x$ 对于所有 $x \in X$ (命题 1)。如果$k(u_\alpha) = k(v_\alpha)$对于所有$\alpha \in I$，则存在且仅有一个态射$f : M(X)/R \to N$，使得$f(h(x)) = n_x$对于所有$x \in X$（§ 1, no. 6，命题9）。
 
-### 2.免费幺半群
+### 2. 自由幺半群
 
-由 $\mathbf{N}$ 的区间 $[1, n]$（可能为空）索引的 $X$ 的元素的任何有限序列 $w = (x_i)_{1 \leq i \leq n}$ 称为在 $X$ 上构造的 *字*。 整数$n$称为字$w$的*长度*，记为$l(w)$。 长度 0 存在一个唯一的字，即空的序列$e$。 $\mathbf{X}$ 将被识别为集合 of 字 of 长度 1。
+由 $\mathbf{N}$ 的区间 $[1, n]$（可能为空）索引的 $X$ 的元素的任何有限序列 $w = (x_i)_{1 \leq i \leq n}$ 称为在 $X$ 上构造的 *字*。 整数$n$称为字$w$的*长度*，记为$l(w)$。 长度 0 存在唯一的字，即空的序列 $e$。 $\mathbf{X}$ 将被识别为集合 of 字 of 长度 1。
 
 令$w = (x_i)_{1 \leq i \leq m}$和$w' = (x'_j)_{1 \leq j \leq n}$为两个字。 $w$ 和 $w'$ 的合成是字 $u = (y_k)_{1 \leq k \leq m+n}$ 定义为
 
@@ -115,9 +115,9 @@ x'_{k-m} & \text{for } m+1 \leq k \leq m+n.
 \end{cases}
 $$
 
-在其他字中，序列$w''$是通过先写序列$w$的元素，然后写$w'$的元素得到。 $w$和$w'$中的合成一般用$ww'$或$w.w'$表示； 有时说是由$w$和$w'$并列得到。然后构造$l(w.w') = l(w) + l(w')$。
+在其他字中，序列$w''$是先写序列$w$的元素，然后写$w'$的元素。 $w$和$w'$中的合成一般用$ww'$或$w.w'$表示； 有时表示它是由$w$和$w'$并列得到的。然后构造$l(w.w') = l(w) + l(w')$。
 
-对于每个字$w$立即建立关系$we = ew = w$。令$w = (x_i)_{1 \leq i \leq m}$、$w' = (x'_j)_{1 \leq j \leq n}$和$w'' = (x''_k)_{1 \leq k \leq p}$为三个字；显然字 $w(w'w'')$ 和 $(ww')w''$ 都等于字 $(y_l)_{1 \leq l \leq m+n+p}$ 定义为
+对于每个字$w$立即建立关系$we = ew = w$。设$w = (x_i)_{1 \leq i \leq m}$、$w' = (x'_j)_{1 \leq j \leq n}$、$w'' = (x''_k)_{1 \leq k \leq p}$为三个字；显然字 $w(w'w'')$ 和 $(ww')w''$ 都等于字 $(y_l)_{1 \leq l \leq m+n+p}$ 定义为
 
 $$
 y_l = \begin{cases}
@@ -127,7 +127,7 @@ x''_{l-m-n} & \text{if } m+n+1 \leq l \leq m+n+p.
 \end{cases}
 $$
 
-上式表明，在 $\mathbf{X}$ 和合成 $(w, w') \mapsto w.w'$ 的律上构造的字集合是一个具有单位元素 $e$ 的幺半群。它用$\mathrm{Mo}(\mathbf{X})$表示，并称为*在*$\mathbf{X}$上构建的自由幺半群。紧接着从定义、乘积、字得出，每个字$w = (x_i)_{1 \leq i \leq n}$等于乘积$\prod_{i=1}^n x_i$。因此字可以写成形式$x_1 \ldots x_n$。
+上式表明，在 $\mathbf{X}$ 和合成 $(w, w') \mapsto w.w'$ 的律上构造的集合字是一个具有单位元素 $e$ 的幺半群。它用$\mathrm{Mo}(\mathbf{X})$表示，并称为*在*$\mathbf{X}$上构建的自由幺半群。紧接着从定义、乘积、字得出，每个字$w = (x_i)_{1 \leq i \leq n}$等于乘积$\prod_{i=1}^n x_i$。因此字可以写成形式$x_1 \ldots x_n$。
 
 #### 命题 3 {#alg-i-s7-prop-3 .statement tag=05FJ}
 
@@ -139,19 +139,19 @@ $$
 g(w) = \prod_{i=1}^n g(x_i) = \prod_{i=1}^n f(x_i)
 $$
 
-在幺半群 $M$ (§ 1, no. 2, 公式 (2)) 中。这就证明了$g$的唯一性。
+在幺半群 $M$ (§ 1, no. 2, 公式 (2)) 中。这就证明了 $g$ 的唯一性。
 
 让$h(w) = \prod_{i=1}^n f(x_i)$对应于每个字$w = (x_i)_{1 \leq i \leq n}$。 $\mathrm{Mo}(\mathbf{X})$中乘积的结合性定理（§ 1, no. 3，定理1）和定义意味着$h(ww') = h(w)h(w')$。按照惯例，空的乘积$h(e)$是$M$的单位元素，$h(x) = f(x)$是$x \in \mathbf{X}$。因此，$h$是$\mathrm{Mo}(x)$的同态延伸到$M$延伸$f$。
 
-令$u : \mathbf{X} \to \mathbf{Y}$为映射。到命题 3 时，Mo(Y) 中存在且仅有一个同态的 Mo(X)，其中重合且 u 在X；用Mo(u)表示。它映射字$(x_i)_{1 \leq i \leq n}$到字$(u(x_i))_{1 \leq i \leq n}$。与岩浆 (no. 1) 的情况一样，对于每个映射 $v : Y \to Z$，方程 Mo(v \circ u) = Mo(v) \circ Mo(u) 成立，并且可以证明，如果 u 是，则 Mo(u) 是单射的（分别是满射、双射的）。对于X的每个子集 S，Mo(S) 可以用 S 生成的 Mo(X) 的子幺半群来标识。
+令$u : \mathbf{X} \to \mathbf{Y}$为映射。到命题 3 时，Mo(Y) 中存在且仅有一个同态的 Mo(X)，其中重合且 u 在X；用Mo(u)表示。它映射字$(x_i)_{1 \leq i \leq n}$到字$(u(x_i))_{1 \leq i \leq n}$。与岩浆 (no. 1) 的情况一样，对于每个映射 $v : Y \to Z$，方程 Mo(v \circ u) = Mo(v) \circ Mo(u) 成立，并且可以证明，如果 u 是，则 Mo(u) 是单射（或满射、双射的）。对于X的每个子集 S，Mo(S) 可以用 S 生成的 Mo(X) 的子幺半群来标识。
 
-设X为集合，$(u_\alpha, v_\alpha)_{\alpha \in I}$为Mo(X)的元素的有序对族。令 R 为 Mo(X) 上的等价关系，与 Mo(X) 上的律兼容，并由 $(u_\alpha, v_\alpha)$ (§ 1, no. 6) 生成。幺半群 Mo(X)/R 称为*由 X 和关系子* $(u_\alpha, v_\alpha)_{\alpha \in I}$ 定义的幺半群。令 h 为 Mo(X) 在 Mo(X)/R 上的规范态射。然后Mo(X)由h(X)生成。
+设X为集合，$(u_\alpha, v_\alpha)_{\alpha \in I}$为Mo(X)的元素的有序对族。令 R 为 Mo(X) 上的等价关系，与 Mo(X) 上的律兼容，并由 $(u_\alpha, v_\alpha)$ (§ 1, no. 6) 生成。幺半群 Mo(X)/R 被称为*由 X 和关系子* $(u_\alpha, v_\alpha)_{\alpha \in I}$ 定义的幺半群。令 h 为 Mo(X) 在 Mo(X)/R 上的规范态射。然后Mo(X)由h(X)生成。
 
-令 N 为幺半群，$(n_x)_{x \in X}$ N 的元素族。令 k 为 N 中 Mo(X) 的态射，使得 $k(x) = n_x$ 对于所有 $x \in X$ (命题 3)。如果$k(u_\alpha) = k(v_\alpha)$对于所有$\alpha \in I$，则存在且仅存在一种岩浆态射$f : Mo(X)/R \to N$，使得$f(h(x)) = n_x$对于所有$x \in X$（§ 1, no. 6，命题9）；因为 k 是单位的，所以 f 是幺半群态射。
+令 N 为幺半群，$(n_x)_{x \in X}$ N 的元素族。令 k 为 N 中 Mo(X) 的态射，使得 $k(x) = n_x$ 对于所有 $x \in X$ (命题 3)。如果$k(u_\alpha) = k(v_\alpha)$对于所有$\alpha \in I$，则存在且仅存在一种岩浆态射$f : Mo(X)/R \to N$，使得$f(h(x)) = n_x$对于所有$x \in X$（§ 1, no. 6，命题9）；由于 k 是单位，因此 f 是幺半群态射。
 
 ### 3. 粘合和幺半群
 
-*令$(M_i)_{i \in I}$表示幺半群族，$e_i$单位元素表示$M_i$。我们得到一个幺半群 A 和一个同态$h_i : A \to M_i$（对于$i \in I$）。*
+*令$(M_i)_{i \in I}$表示幺半群族，$e_i$单位元素表示$M_i$。我们得到一个幺半群 A 和一个同态 $h_i : A \to M_i$ 族（$i \in I$）。*
 
 $(M_i)_{i \in I}$家族的集合S和有元素有序对$(i, x)$以及$i \in I$和$x \in M_i$。对于$M_i$中的每个三元组$\alpha = (i, x, x')$和$i \in I$、$x, x'$，写出$u_\alpha = (i, xx')$和$v_\alpha = (i, x).(i, x')$；对于$I \times I \times A$中的每个三元组$\lambda = (i, j, a)$，写出$p_\lambda = (i, h_i(a))$和$q_\lambda = (j, h_j(a))$；对于所有$i \in I$，写下$\varepsilon_i = (i, e_i)$。由 S 和关系子 $(u_\alpha, v_\alpha)$、$(p_\lambda, q_\lambda)$ 和 $(\varepsilon_i, e)$ 定义的幺半群 M 称为族* $(M_i)_{i \in I}$ *由* A 合并的 *和。令 $\phi$ 表示 Mo(S) 的典范同态到 M 上，并将 $\phi_i(x) = \phi(i, x)$ 写为$(i, x) \in S$。据说$\phi_i$是$M_i$到M的*典范映射*。对于所有$a \in A$，元素$\phi(i, h_i(a))$与i无关，记为$h(a)$。\footnote{当I为空时，$M = \{e\}$和$h(a) = e$ 所有人$a \in A$。}
 
@@ -314,30 +314,30 @@ x_1 \in M_{i_1} - \{e\}, \ldots, x_n \in M_{i_n} - \{e\}
 $$
 $i_\alpha \neq i_{\alpha+1}$ 代表 $1 \leq \alpha \leq n$。最后，对于同态$(f_i : M_i \to M')$的每个家庭，都存在唯一同态$f : M \to M'$，其限制到$M_i$对于所有$i \in I$来说都是$f_i$。
 
-(b) 有一个群$(G_i)_{i \in I}$包含与子群相同的群$A$，$h_i$是$A$到$G_i$的单射。 $(G_i)_{i \in I}$族的和与$A$合并，则为*群*$G$：幺半群$G$由$\bigcup_{i \in I} \phi_i(G_i)$生成，$\bigcup_{i \in I} \phi_i(G_i)$的每个元素都承认有一个逆元$G$（cf.§ 2, no. 3，推论1至命题4）；当$I = \{1, 2\}$时，用$*_A G_i$或$G_1 *_A G_2$表示。当$A$由单位元素组成时，也可以说$G$是群的*家庭*乘积*$(G_i)_{i \in I}$，并用$* G_i$表示（如果$I = \{1, 2\}$则用$G_1 * G_2$）。†
+(b) 有一个群$(G_i)_{i \in I}$包含与子群相同的群$A$，$h_i$是$A$到$G_i$的单射。 $(G_i)_{i \in I}$族的和与$A$合并，则为*群* $G$：幺半群$G$由$\bigcup_{i \in I} \phi_i(G_i)$生成，$\bigcup_{i \in I} \phi_i(G_i)$的每个元素都承认有一个逆元$G$（cf.§ 2, no. 3，推论1至命题4）；当$I = \{1, 2\}$时，用$*_A G_i$或$G_1 *_A G_2$表示。当$A$由单位元素组成时，也可以说$G$是群的*家庭*乘积*$(G_i)_{i \in I}$，并用$* G_i$表示（如果$I = \{1, 2\}$则为$G_1 * G_2$）。†
 
 ### 4. 自由幺半群的应用
 
 #### 引理 2 {#alg-i-s7-lem-2 .statement tag=05FO}
 
-*令$M$为由$M_x = \mathbf{N}$定义的所有$x \in X$族$(M_x)_{x \in X}$的幺半群和，并令$\phi_x$表示$M_x$到$M$的典范同态。 映射 $x \mapsto \phi_x(1)$ $X$ 到 $M$ 扩展到同构 $h$ $\mathrm{Mo}(X)$ 到 $M$。*
+*令$M$为所有$x \in X$由$M_x = \mathbf{N}$定义的族$(M_x)_{x \in X}$的幺半群和，并令$\phi_x$表示$M_x$到$M$的典范同态。 映射 $x \mapsto \phi_x(1)$ / $X$ 进入$M$ 扩展同构 $h$ / $\mathrm{Mo}(X)$ 进入$M$。*
 
-令$h$为$\mathrm{Mo}(X)$的同态到以$h(x) = \phi_x(1)$为特征的$M$。 对于每个整数$n \geq 0$、$\phi_x(n) = \phi_x(1)^n = h(x)^n$，并且由于$M$是由$\bigcup_{x \in X} \phi_x(\mathbf{N})$生成的，因此它也是由$h(X)$生成的。 因此 $h$ 是*满射*。 此外，对于$X$中的所有$x$，映射$n \mapsto x^n$是$\mathbf{N} = M_x$的同态到$\mathrm{Mo}(X)$；因此，存在 (no. 3, 命题 4) 同态 $h'$，其中$M$进入$\mathrm{Mo}(X)$，使得$h'(\phi_x(n)) = x^n$对于$x \in X$和$n \in \mathbf{N}$；特别是，$h'(h(x)) = x$代表$x \in X$，因此$h' \circ h$是$\mathrm{Mo}(X)$的恒等式同态。 因此 $h$ 是*内射*。 由此证明$h$是双射的。
+令$h$为$\mathrm{Mo}(X)$的同态到以$h(x) = \phi_x(1)$为特征的$M$。对于每个整数$n \geq 0$、$\phi_x(n) = \phi_x(1)^n = h(x)^n$，并且由于$M$是由$\bigcup_{x \in X} \phi_x(\mathbf{N})$生成的，因此它也是由$h(X)$生成的。因此 $h$ 是*满射*。此外，对于$X$中的所有$x$，映射$n \mapsto x^n$是$\mathbf{N} = M_x$到$\mathrm{Mo}(X)$的同态；因此，存在 (no. 3, 命题 4) 同态 $h'$，其中$M$进入$\mathrm{Mo}(X)$，使得$h'(\phi_x(n)) = x^n$对于$x \in X$和$n \in \mathbf{N}$；特别是，$h'(h(x)) = x$对应于$x \in X$，因此$h' \circ h$是$\mathrm{Mo}(X)$的恒等式同态。因此 $h$ 是*内射*。由此证明$h$是双射的。
 
 #### 命题 6 {#alg-i-s7-prop-6 .statement tag=05FP}
 
-*设$w$为$\mathrm{Mo}(X)$的元素。
+*设$w$为$\mathrm{Mo}(X)$中的元素。
 (a) 存在$X$和整数$m(\alpha) > 0$中的整数$n \geq 0$、元素$x_\alpha$（对于
 
-† Note that $G_1 * G_2$ is not the "product" of $G_1$ and $G_2$ in the sense of *Set Theory*, IV, § 2, no. 4 (nor in the sense of the "theory of categories"; in the context of this theory, $G_1 * G_2$ is the "sum" of $G_1$ and $G_2$).
+† 注 $G_1 * G_2$ 不是 *集合理论*意义上的 $G_1$ 和 $G_2$ 的“乘积”，IV, § 2, no. 4（也不是“范畴论”意义上的；在该理论的上下文中，$G_1 * G_2$ 是$G_1$和$G_2$的“和”）。
 
-$1 \leq \alpha \leq n$使得$x_\alpha \neq x_{\alpha+1}$适用于$1 \leq \alpha < n$和$w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$。 序列$(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$由这些条件唯一确定。
+$1 \leq \alpha \leq n$使得$x_\alpha \neq x_{\alpha+1}$对应于$1 \leq \alpha < n$和$w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$。 序列$(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$由这些条件唯一确定。
 
 (b) 对于$1 \leq \beta \leq p$，令$p$为正整数、$X$中的$x'_\beta$以及$\mathbf{N}$中的$m'(\beta)$，使得$w = \prod_{\beta=1}^p {x'}^{m'(\beta)}$。然后$p \geq n$。如果$p = n$，则$x'_\beta = x_\beta$和$m'(\beta) = m(\beta)$为$1 \leq \beta \leq p$。
 
-在引理 2 的记号中，$x \in X$ 和$n \in \mathbf{N}$ 为$h^{-1}(\phi_x(n)) = x^n$。然后从 no. 3、命题 5 得出命题 6。
+在引理 2 中的记号，$h^{-1}(\phi_x(n)) = x^n$ 为$x \in X$ 和$n \in \mathbf{N}$。然后从 no. 3、命题 5 得出命题 6。
 
-### 5.免费群
+### 5. 免费群
 
 让$G_x = \mathbf{Z}$代表所有$x \in X$。 $(G_x)_{x \in X}$族的自由乘积称为构建在*$X$上的*自由群，并用$F(X)$表示。让$\phi_x$表示$G_x = \mathbf{Z}$到$F(X)$的典范同态。由no. 3，推论命题 5，$X$到$F(X)$的映射$x \mapsto \phi_x(1)$是单射的；我们将认同$X$及其像放在$F(X)$下这个映射。然后是$X$生成$F(X)$和$e \notin X$。
 
@@ -383,7 +383,7 @@ $$
 
 ### 6. 群的展示
 
-令$G$为群且$t = (t_i)_{i \in I}$为$G$的元素族。 Let $f_t$ be the unique homomorphism of the free group $F(I)$ into $G$ which maps $i$ to $t_i$. $f_t$的像是$G$的元素$t_i$生成的子群。 元素、核、$f_t$被称为家庭$t$的*亲戚*。 $t$ 称为 *生成的*（分别称为 *生成的*） *自由*，*基本*）如果 $f_t$ 是满射（分别是单射、双射的）。
+令$G$为群且$t = (t_i)_{i \in I}$为$G$的元素族。 Let $f_t$ be the unique homomorphism of the free group $F(I)$ into $G$ which maps $i$ to $t_i$. $f_t$的像是$G$的元素$t_i$生成的子群。 $f_t$、核、元素被称为$t$家庭的*亲戚*。如果 $f_t$ 是满射（分别是单射、双射的），则 $t$ 被称为 *生成的*（分别是*自由*、*基本*）。
 
 设$G$为群。 $G$的*表示*是生成的族$\mathbf{t} = (t_i)_{i \in I}$和关系器族$\mathbf{r} = (r_j)_{j \in J}$的有序对$(\mathbf{t}, \mathbf{r})$由……组成，使得$f_t$的核$N_t$由元素生成$gr_jg^{-1}$ 对应 $g \in F(I)$ 和 $j \in J$。也就是说，$N_t$是$j \in J$的$r_j$生成的$F(I)$的正常子群（在其他字，最小的$F(I)$包含的正常子群） 元素$r_j$（$j \in J$）、cf.§ 4, no. 4）。通过滥用语言，生成元$t_i$和关系$r_j(\mathbf{t}) = e$据说构成了群$G$的*演示*。
 
@@ -421,9 +421,9 @@ $$
 
 (b) $\Rightarrow$ (c)：假设条件 (b) 成立。令$t = (t_i)_{i \in I}$为群$G$的生成的族，使得$r_j(t) = e$对于所有$j \in J$，并令$v$为$\overline{G}$到$G$的同态，使得$v(\bar{t}_i) = t_i$对于所有$i \in I$。由于家庭$(t_i)_{i \in I}$生成$G$，同态$v$是*满射*。到性质 (b) 时，存在同态 $u \colon G \to \overline{G}$，使得 $u(t_i) = \bar{t}_i$ 对于所有 $i \in I$。那么$u(v(\bar{t}_i)) = \bar{t}_i$对于所有$i \in I$，因此$u \circ v$是$\overline{G}$上的恒等式，这证明$v$是单射的。因此$v$是同构并且条件(c)成立。
 
-(c) $\Rightarrow$ (a)：假设条件 (c) 成立。设$t'_i$为$F(I, r)$和$t' = (t'_i)_{i \in I}$中$i$的典范像；那么 $r_j(t') = e$ 对于所有 $j \in J$。由于$r_j(t) = e$对于所有$j \in J$来说，在$F(I, r)$到$G$中存在且仅有一个同态$v$，使得$v(t_i) = t_i$对于所有$i \in I$。通过(c)，$v$是$F(I, r)$的同构到$G$，其中变换将$F(I, r)$的呈现$(t', r)$转换成$G$的呈现$(t, r)$。
+(c) $\Rightarrow$ (a)：假设条件 (c) 成立。令$t'_i$为$F(I, r)$和$t' = (t'_i)_{i \in I}$中$i$的典范像；那么 $r_j(t') = e$ 对于所有 $j \in J$。由于$r_j(t) = e$对于所有$j \in J$来说，$F(I, r)$中存在且仅有一个同态$v$进入$G$，使得$v(t_i) = t_i$对于所有$i \in I$。通过(c)，$v$是$F(I, r)$的同构到$G$，其中变换将$F(I, r)$的呈现$(t', r)$转换成$G$的呈现$(t, r)$。
 
-### 7.自由交换群和幺半群
+### 7. 自由交换群和幺半群
 
 $X$的所有映射到$\mathbf{Z}$的集合$\mathbf{Z}^X$是由$(\alpha + \beta)(x) = \alpha(x) + \beta(x)$($\alpha, \beta \in \mathbf{Z}^X, x \in X$)定义的律下的交换律群； $\mathbf{Z}^X$ 中的元素是有时称为多重索引。 单位元素，用0表示，是常数映射，值为0。对于$\alpha \in \mathbf{Z}^X$，$x \in X$的集合$S_\alpha$，使得$\alpha(x) \neq 0$称为$\alpha$的支撑；然后 $S_0 = \varnothing$ 和 $S_{\alpha+\beta} \subset S_\alpha \cup S_\beta$ 对应 $\mathbf{Z}^X$ 中的 $\alpha, \beta$。因此有限支撑的映射$\alpha : X \to \mathbf{Z}$的集合$\mathbf{Z}^{(X)}$是$\mathbf{Z}^X$的子群，称为在$X$上构造的自由交换群。
 
@@ -509,11 +509,11 @@ $$
 
 #### 注 {#alg-i-s7-n7-rem-1 .statement tag=05FV}
 
-令$M$严格为正整数的乘法幺半群，并令$\mathfrak{P}$为素数数的集合（§ 4, no. 10，定义15）。到命题 10 时，$\mathbf{N}^{(\mathfrak{P})}$ 中存在同态 $u$ 到$M$，其特征在于对于每个素数数 $p$ 具有$u(\delta_p) = p$。那么$\mathbf{N}^{(\mathfrak{P})}$中的$\alpha$和定理 7 of § 4, no. 10的$u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$表明$u$是$\mathbf{N}^{(\mathfrak{P})}$到$H$的同构。
+令$M$严格为正整数的乘法幺半群，并令$\mathfrak{P}$为素数数的集合（§ 4, no. 10，定义15）。到命题 10 时，$\mathbf{N}^{(\mathfrak{P})}$ 中存在同态 $u$ 到 $M$，其特征在于对于每个素数数 $p$ 具有$u(\delta_p) = p$。那么$\mathbf{N}^{(\mathfrak{P})}$中的$\alpha$的$u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$和§ 4, no. 10的定理7表明$u$是$\mathbf{N}^{(\mathfrak{P})}$的同构到$H$。
 
-### 8.指数记号
+### 8. 指数记号
 
-令 $M$ 为幺半群，乘法书写，$u = (u_x)_{x \in X}$ 为 $M$ 的元素族，在对通勤。设$\alpha$在$\mathbf{N}^{(X)}$中； 元素 $u_x^{\alpha(x)}$ 和 $M$ 的 $u_y^{\alpha(y)}$ 在 $X$ 中通勤 $x, y$，并且存在 $X$ 的有限子集 $S$，使得 $u_x^{\alpha(x)} = 1$ 在 $x$ 中$X - S$。因此我们可以这样写：
+令 $M$ 为幺半群，以乘法书写，$u = (u_x)_{x \in X}$ $M$ 的元素族，在对通勤。设$\alpha$在$\mathbf{N}^{(X)}$中； 元素 $u_x^{\alpha(x)}$ 和 $M$ 的 $u_y^{\alpha(y)}$ 在 $X$ 中通勤 $x, y$，并且存在 $X$ 的有限子集 $S$，使得 $u_x^{\alpha(x)} = 1$ 在 $x$ 中$X - S$。因此我们可以这样写：
 
 $$
 u^\alpha = \prod_{x \in X} u_x^{\alpha(x)}.
@@ -541,9 +541,9 @@ $$
 
 其中$u . v$是家庭$(u_x . v_x)_{x \in X}$。
 
-当M是可交换的时，可以为M的元素的每个族$u$定义$u^\alpha$，并且公式(15)到(20)成立，而无需限制。
+当M是可交换的时，可以为M的元素的每个族$u$定义$u^\alpha$，并且公式(15)到(20)成立而无需限制。
 
-### 9. 关系各种免费对象之间
+### 9. 关系各种免费之间对象
 
 由于自由幺半群Mo(X)是岩浆，no. 1的命题1表明同态$\lambda : M(X) \to Mo(X)$的存在，其中限制到X是恒等式。类似地，由于自由群 F(X) 是 X 扩展到同态 $\mu : Mo(X) \to F(X)$ (no. 2, 命题 3) 的幺半群恒等映射。通过no. 4、命题 6 和no. 5、命题 7，$\mu$ 是单射的。类似地，no. 7的命题10和no. 5的命题8表明对于所有$x \in X$，存在以$\nu(x) = \delta_x$和$\pi(x) = \delta_x$为特征的同态、$\nu : Mo(X) \to N^{(X)}$和$\pi : F(X) \to Z^{(X)}$。如果$i$是将$N^{(X)}$的单射转化为$Z^{(X)}$，则Mo(X)的两个同态$i \circ \nu$和$\pi \circ \mu$转化为X上的$Z^{(X)}$重合， 从而$i \circ \nu = \pi \circ \mu$。这种情况可以用下面的交换图表来概括：
 
@@ -562,7 +562,7 @@ $$
 $$
 \nu(x_1 \ldots x_n) = \sum_{i=1}^n \delta_{x_i}
 $$
-对于 X 中的$x_1, \ldots, x_n$，从而 $|\nu(x_1 \ldots x_n)| = n$，由 (13) 和 (14) 得出。在其他字，
+对于 X、从而 $|\nu(x_1 \ldots x_n)| = n$ 中的 $x_1, \ldots, x_n$，由 (13) 和 (14) 得出。在其他字，
 
 $$
 |\nu(u)| = l(u) \quad (u \in Mo(X)).
@@ -594,7 +594,7 @@ $$
 
 #### 注 {#alg-i-s7-n9-rem-1 .statement tag=05FX}
 
-令$S$为$X$的子集。回想一下，我们已经识别出$M(S)$具有$M(X)$的子岩浆，$Mo(S)$具有$Mo(X)$的子幺半群，以及$N^{(S)}$具有子幺半群的$N^{(X)}$。然后
+令$S$为$X$的子集。回想一下，我们已经将$M(S)$识别为$M(X)$的子岩浆，$Mo(S)$识别为$Mo(X)$的子幺半群，以及$N^{(S)}$的子幺半群为$N^{(X)}$。然后
 $$
 M(S) = \lambda^{-1}(Mo(S)).
 $$
@@ -604,13 +604,13 @@ $$
 $$
 Mo(S) = v^{-1}(N^{(S)}).
 $$
-这紧随公式 (21)。
+这紧接着公式 (21)。
 
-进一步地，$N^{(S)}$是$N^{(X)}$的元素的集合，其支持包含在$S$中；如果$(S_i)_{i \in I}$是交$S$的$X$的子集族，那么$N^{(S)} = \bigcap_{i \in I} N^{(S_i)}$和公式 (23)和(24)意味着
+进一步地，$N^{(S)}$是$N^{(X)}$的元素的集合，其支持包含在$S$中；如果$(S_i)_{i \in I}$是交$S$的$X$的子集族，则$N^{(S)} = \bigcap_{i \in I} N^{(S_i)}$和公式 (23)和(24)意味着
 $$
 M(S) = \bigcap_{i \in I} M(S_i), \quad Mo(S) = \bigcap_{i \in I} Mo(S_i).
 $$
 
 ### 习题 {#alg-i-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+请参阅[习题为 § 7](exercises/s7/)。

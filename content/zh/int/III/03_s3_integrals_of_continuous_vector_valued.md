@@ -29,16 +29,16 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: da15b0f46771974127c1877c775fb947b7ad3855dc090b833b89bdead0e402aa
+content_sha256: fdfadba7a5539aee0be2ff60b06bcdc85445b9d6d767b03cec8756cdb0c5857c
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
 translation_method: google
 source_content_sha256: fe78ffc7611951df252f5590889a4a16218a67a71377a0b79b5c7914e9bc3371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 63bea6c02c0ae20b3084b9214d4d674932e4f1320739545d1ce55d58ed3dbe6e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。连续向量值函数的积分
@@ -47,7 +47,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 回想一下，如果 E 是 Hausdorff，则可以通过将元素 $z \in E$ 与 $E'$ 上的线性形式 $z' \mapsto \langle z, z' \rangle$ 识别为 ${E'}^*$ 的线性子空间来识别 E，并且配备弱拓扑 $\sigma({E'}^*, E')$ 的 ${E'}^*$ 可以是规范地认为E的完成配备了削弱的拓扑$\sigma(E, E')$。
 
-### 1.向量值函数积分的定义
+### 1. 向量值函数的积分定义
 
 Recall that a mapping f of X into E is said to be *weakly continuous* if, for every $z' \in E'$, the mapping $x \mapsto \langle f(x), z' \rangle$ of X into $\mathbf{C}$ (in other words the mapping $z' \circ f$, also denoted $\langle f, z' \rangle$) is continuous. 如果对于每个 $z' \in E'$，映射 $x \mapsto \langle f(x), z' \rangle$ 具有紧致支持，我们可以说 X 的映射 f 进入 E 是*紧致支持的标量*。 我们将 X 的映射的 $\widetilde{\mathscr{K}}(X; E)$ 空间表示为 E，它们是*弱连续且紧致支持的标量*；显然$\widetilde{\mathscr{K}}(X; E) \supset \mathscr{K}(X; E)$，但这两个空间不一定相同（见下面的*例*2）；然而，当 E 是有限维时，它们是相等的。
 
@@ -115,9 +115,9 @@ $$
 
 #### 注 2 {#int-iii-s3-n1-rem-2 .statement tag=08NQ}
 
-令$E$为空间*over*$\mathbf{C}$的局部凸，并令$E_0$为$E$底层的局部凸空间*over*$\mathbf{R}$；我们知道映射$z' \mapsto \Re z'$，对于$E$上的每个连续（复数）线性形式$z'$，使对应成为$E_0$上的连续（实数）线性形式$z \mapsto \Re \langle z, z' \rangle$，是对偶的$\mathbf{R}$同构$E'$ 到$E_0$ 的双$E'_0$（TVS，II, §8, No. 1）。类似地，实向量空间 $E'_0$ 的代数对偶 $E'_0*$ 可以与 $E'$ 的代数对偶 $E'*$ 下的实数空间规范地等同。由此可见，如果 $\mu$ 是一个*实测度*并且 $f$ 映射在 $\widetilde{\mathscr{K}}(X; E)$ 中，则当 $f$ 被视为在 $E_0$ 中取其值以及在两者中的规范双线性形式时，公式 (1) 再次有效成员分别相对于第一个成员的$E'_0$和$E'_0*$之间的对偶性以及第二个成员的$E_0$和$E'_0$之间的对偶性。
+令 $E$ 为空间 *over* $\mathbf{C}$ 的局部凸，并令 $E_0$ 为 $E$ 底层的局部凸空间 *over* $\mathbf{R}$；我们知道映射$z' \mapsto \Re z'$，对于$E$上的每个连续（复数）线性形式$z'$，使对应成为$E_0$上的连续（实数）线性形式$z \mapsto \Re \langle z, z' \rangle$，是对偶的$\mathbf{R}$同构$E'$ 到$E_0$ 的双$E'_0$（TVS，II, §8, No. 1）。类似地，实向量空间 $E'_0$ 的代数对偶 $E'_0*$ 可以与 $E'$ 的代数对偶 $E'*$ 下的实数空间规范地等同。由此可见，如果 $\mu$ 是一个*实测度*并且 $f$ 映射在 $\widetilde{\mathscr{K}}(X; E)$ 中，则当 $f$ 被视为在 $E_0$ 中取其值以及在两者中的规范双线性形式时，公式 (1) 再次有效成员分别相对于第一个成员的$E'_0$和$E'_0*$之间的对偶性以及第二个成员的$E_0$和$E'_0$之间的对偶性。
 
-### 2.矢量积分的性质
+### 2. 矢量积分的性质
 
 #### 命题 1 {#int-iii-s3-prop-1 .statement tag=08NR}
 
@@ -135,7 +135,7 @@ $\widetilde{\mathscr{K}}(X; E) \times \mathscr{M}(X; \mathbf{C})$ 到 $E'*$ *是
 
 #### 命题 2 {#int-iii-s3-prop-2 .statement tag=08NS}
 
-— 令$u$为$E$的连续线性映射变为局部凸空间$F$；对于每个函数 $f \in \widetilde{\mathscr{K}}(X;E)$、函数 $u \circ f$ 属于到 $\widetilde{\mathscr{K}}(X;F)$ 以及
+— 令 $u$ 为 $E$ 的连续线性映射变为局部凸空间 $F$；对于每个函数 $f \in \widetilde{\mathscr{K}}(X;E)$、函数 $u \circ f$ 属于到 $\widetilde{\mathscr{K}}(X;F)$ 以及
 
 $$
 \int u(f(x))\, d\mu(x) = ^{tt} u \left( \int f(x)\, d\mu(x) \right).
@@ -211,17 +211,17 @@ $$
 
 *假设空间* X *是紧致的，并且让* f *成为* X *的连续映射 *进入豪斯多夫局部凸空间* E。 *闭凸包络* f(X) *在* E'** *(for* $\sigma(E', E')$) *是等于向量* $\int f\, d\mu$ *对于所有正测量* $\mu$ *在* X *总质量* 1 上的集合。
 
-令 C 为 E'** 中 f(X) 的闭凸包络；由于 f(X) 是紧致的且 E'** 是*完全*，因此 C 是紧致的。我们已经知道（命题 4），对于总质量的 $X$ 上的正测量，$\mu$ 属于的每个测量值 $\int f d\mu \in C$ 到凸集合 $H$ 等于 1。另一方面，$H$ 是凸的，并且对于模糊拓扑是“紧凑”的（§ 1, No. 9，第 15 条命题的 Cor. 3），并且是质量 1 和*有限*支撑的正测量的凸集合 $H_0$ 的闭包（为此拓扑）（§ 2, No. 4，第 1 条的 Cor.3）。现在，映射$\mu \mapsto \int f d\mu$下$H_0$的像就是${E'}^*$中$f(X)$的凸包络$C_0$。另一方面，这个映射对于$\mathscr{M}(X; C)$上的模糊拓扑和${E'}^*$上的拓扑$\sigma({E'}^*, E')$来说是连续的，从$\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$到定义；因此$H = \overline{H_0}$的像是一个*紧凑*凸集合包含$C_0$并且包含在$C$中；从$C = \overline{C_0}$开始，这个像等于$C$。
+令 C 为 E'** 中 f(X) 的闭凸包络；由于 f(X) 是紧致的且 E'** 是*完全*，因此 C 是紧致的。我们已经知道（命题 4），对于总质量的 $X$ 上的正测量，$\int f d\mu \in C$ $\mu$ 属于凸集合 $H$ 等于 1。另一方面，$H$ 是凸的，并且对于模糊拓扑是“紧凑”的（§ 1, No. 9，第 15 条命题的 Cor. 3），并且是质量 1 和*有限*支撑的正测量的凸集合 $H_0$ 的闭包（为此拓扑）（§ 2, No. 4，第 1 条的 Cor.3）。现在，映射$\mu \mapsto \int f d\mu$下$H_0$的像就是${E'}^*$中$f(X)$的凸包络$C_0$。另一方面，这个映射对于$\mathscr{M}(X; C)$上的模糊拓扑和${E'}^*$上的拓扑$\sigma({E'}^*, E')$来说是连续的，从$\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$到定义；因此 $H = \overline{H_0}$ 的像是一个*紧凑*凸集合包含 $C_0$ 并包含在 $C$ 中；从$C = \overline{C_0}$开始，这个像等于$C$。
 
 #### 命题 6 {#int-iii-s3-prop-6 .statement tag=08NX}
 
-*对于每个连续映射，将$X$的紧凑支撑$f$转化为Hausdorff局部凸空间$E$，$E$上的每个连续半范数$q$以及$X$上的每个测度$\mu$，使得$\int f d\mu \in E$,*
+*对于每个连续映射，将$X$的紧支撑$f$转化为Hausdorff局部凸空间$E$，$E$上的每个连续半范数$q$以及$X$上的每个测度$\mu$，使得$\int f d\mu \in E$,*
 
 $$
 q \left( \int f d\mu \right) \leq \int (q \circ f) \ d|\mu|.
 $$
 
-令$D$为$z \in E$的集合，使得$q(z) \leq 1$； $D$ 是闭凸的，包含于 0，因此 $D = D^{o o}$（TVS，II, § 6, No. 3，Th.1 的 Cor.3）。因此足以证明对于每个 $z' \in D^o$，
+令$D$为$z \in E$的集合，使得$q(z) \leq 1$； $D$ 是闭凸且包含 0，因此 $D = D^{o o}$（TVS，II, § 6, No. 3，Th.1 的 Cor.3）。因此足以证明对于每个 $z' \in D^o$，
 
 $$
 \left| \left\langle \int f d\mu, z' \right\rangle \right| \leq \int (q \circ f) \ d|\mu|;
@@ -247,11 +247,11 @@ $$
 
 *令 $E$ 为 Hausdorff 局部凸空间，且$f \in \mathscr{K}(X; E)$。如果$f(X)$包含在$E$的完全凸子集$A$中，则$\int f d\mu \in E$。*
 
-设 K 为 f 的支持，f 是由假设紧致的。由于 f 在 X − K 上为零，因此 f(X) 等于 f(K) 或 f(K) ∪ {0}，因此是紧的，因为 f 是连续的且 E 是 Hausdorff；然后，E 中 f(X) 的封闭凸包络C 是预紧的（对于由 E 引起的均匀结构）（TVS，II, §4, No. 1，命题 3）。但由于 C 是完整的空间 A 的闭子集，因此 C 是完整的，因此是紧致的； 更不必说, C 对于弱化的拓扑 σ(E, E′) 是紧的；但由于拓扑是由 σ(E′*, E′) 导出的，C 是 f(X) 在 E′* 中对于拓扑 σ(E′*, E′) 的闭凸包络；因此，证明由No. 2命题4的推论得出。
+设 K 为 f 的支持，f 是由假设紧致的。由于 f 在 X − K 上为零，f(X) 等于 f(K) 或 f(K) ∪ {0}，因此是紧的，因为 f 是连续的且 E 是 Hausdorff；然后，E 中 f(X) 的封闭凸包络C 是预紧的（对于由 E 引起的均匀结构）（TVS，II, §4, No. 1，命题 3）。但由于 C 是完整的空间 A 的闭子集，因此 C 是完整的，因此是紧致的； 更不必说, C 对于弱化的拓扑 σ(E, E′) 是紧的；但由于拓扑是由 σ(E′*, E′) 导出的，C 是 f(X) 在 E′* 中对于拓扑 σ(E′*, E′) 的闭凸包络；因此，证明由No. 2命题4的推论得出。
 
 #### 推论 1 {#int-iii-s3-prop-7-cor-1 .statement tag=08NZ}
 
-— 令 E 为 Hausdorff 局部凸空间；对于每个函数 f ∈ $\mathscr{K}(X; E)$，$\int f d\mu$ 属于到完成 E 的$\widehat{E}$。
+— 令 E 为 Hausdorff 局部凸空间；对于每个函数 f ∈ $\mathscr{K}(X; E)$，$\int f d\mu$ 属于到完成 E 的 $\widehat{E}$。
 
 由于E和$\widehat{E}$的对偶是相同的，因此只要将f视为在$\widehat{E}$中取其值，就可以应用第7条命题。
 
@@ -264,29 +264,29 @@ $$
 我们将在第 1 章中看到。 VI, §1, No. 2，其他判据适用于$\int f d\mu$至属于至E，特别适用于$\widetilde{\mathscr{K}}(X; E)$中的函数，而不仅仅是$\mathscr{K}(X; E)$中的函数。
 
 命题7的推论2可以应用于以下两种情况：
-1° E 是巴拿赫空间； 2° E 是桶状 Hausdorff 局部凸空间 G 的对偶，E 配备$\mathscr{S}$ 拓扑，其中 $\mathscr{S}$ 是有界子集对 G 的覆盖（TVS，III, §4, No. 2，Th.1 的 Cor. 4）。对于例，科。当 E 是配备模糊拓扑的 Banach 空间或测度 $\mathscr{M}(Y; \mathbf{C})$ 的空间的弱对偶时，可以应用第 7 条命题 2。
+1° E 是巴拿赫空间； 2° E 是桶状 Hausdorff 局部凸空间 G 的对偶，E 配备$\mathscr{S}$ 拓扑，其中 $\mathscr{S}$ 是有界子集对 G 的覆盖（TVS，III, §4, No. 2，Th.1 的 Cor. 4）。对于例，科。当 E 是 Banach 空间的弱对偶，或配备模糊拓扑的测度 $\mathscr{M}(Y; \mathbf{C})$ 的空间时，可以应用第 7 条命题 2。
 
-如果X = $\mathbf{R}$，$\mu$是$\mathbf{R}$上的勒贝格测度，且E是巴纳赫空间，则函数在$\mathscr{K}(X; E)$的积分$\int f d\mu$就是积分
+如果 X = $\mathbf{R}$，$\mu$ 是$\mathbf{R}$ 上的勒贝格测度，E 是巴纳赫空间，则函数在$\mathscr{K}(X; E)$ 的积分$\int f d\mu$ 就是积分
 
 $$
 \int_{-\infty}^{+\infty} f(x)\, dx
 $$
 
-FRV 中定义，II, §2, No. 1；这是从公式 (1) 和 FRV, I, §1, No. 2, Cor. 得出的。提案 2。
+FRV 中定义，II, §2, No. 1；这是从公式 (1) 和 FRV, I, §1, No. 2, Cor 得出的。提案 2。
 
-### 4.积分的连续性性质
+### 4. 积分的连续性性质
 
 #### 命题 8 {#int-iii-s3-prop-8 .statement tag=08O1}
 
-— 假设 E 是豪斯多夫；令 $\mu$ 为X 的度量。 $\mathscr{K}(X;E)$的映射$f \mapsto \int f d\mu$到$\widehat{E}$（No. 3，第7条的Cor.1）是唯一的连续线性映射$\Phi$，使得$\Phi(g \cdot a) = \mu(g) \cdot a$对于每个向量$a \in E$和每个函数$g \in \mathscr{K}(X;\mathbf{C})$。
+— 假设 E 是豪斯多夫；令 $\mu$ 为X 的测度。 $\mathscr{K}(X;E)$的映射$f \mapsto \int f d\mu$进入$\widehat{E}$（No. 3，第7条的Cor.1）是唯一的连续线性映射$\Phi$，使得$\Phi(g \cdot a) = \mu(g) \cdot a$对于每个向量$a \in E$和每个函数$g \in \mathscr{K}(X;\mathbf{C})$。
 
-为了证明映射$f \mapsto \int f d\mu$的连续性，只需证明它的限制到$\mathscr{K}(X,K;E)$对于X的每个紧致子集K是连续的（TVS，II, §4, No. 4，命题5）。我们注如果E的拓扑由半范数族$(q_\alpha)$定义，则$\mathscr{K}(X,K;E)$由半范数族定义
+为了证明映射 $f \mapsto \int f d\mu$ 的连续性，只需证明其限制到 $\mathscr{K}(X,K;E)$ 对于 X 的每个紧致子集 K 都是连续的（TVS，II, §4, No. 4，命题 5）。我们注如果E的拓扑由半范数族$(q_\alpha)$定义，则$\mathscr{K}(X,K;E)$由半范数族定义
 
 $$
 p_\alpha(f) = \sup_{x \in K} q_\alpha(f(x)) .
 $$
 
-现在，让$h$是X到$[0,1]$的连续映射，具有紧支撑，使得$h(x) = 1$在K上；根据 No. 2，第 6 号提案，对于每一个函数 $f \in \mathscr{K}(X,K;E)$，我们有，
+现在，让$h$是X到$[0,1]$的连续映射，具有紧支撑，使得$h(x) = 1$在K上；根据 No. 2，第 6 条提案，对于每一个函数 $f \in \mathscr{K}(X,K;E)$，我们有，
 
 $$
 q_\alpha \left( \int f d\mu \right) = q_\alpha \left( \int h f d\mu \right) \leq \int h(x) q_\alpha(f(x)) d|\mu|(x) \leq |\mu|(h) \cdot p_\alpha(f)
@@ -298,7 +298,7 @@ $$
 \int (g(x) \cdot a) d\mu(x) = \mu(g) \cdot a
 $$
 
-凭借No. 1、例 1 和No. 2 的第 2 条适用于典范嵌入 $\mathbf{C} \cdot a \to E$。此外，由线性组合$\sum_i g_i \cdot a_i$（其中$a_i \in E$和$g_i \in \mathscr{K}(X;\mathbf{C})$）形成的$\mathscr{K}(X;E)$的子空间在$\mathscr{K}(X;E)$（§1, No. 2，命题5）中稠密，从而完成证明。
+凭借No. 1、例 1 和No. 2 的第 2 条适用于典范嵌入 $\mathbf{C} \cdot a \to E$。此外，由线性组合$\sum_i g_i \cdot a_i$形成的$\mathscr{K}(X;E)$的子空间，其中$a_i \in E$和$g_i \in \mathscr{K}(X;\mathbf{C})$，在$\mathscr{K}(X;E)$（§1, No. 2，命题5）中稠密，从而完成证明。
 
 #### 命题 9 {#int-iii-s3-prop-9 .statement tag=08O2}
 
@@ -322,4 +322,4 @@ $$
 
 ### 习题{#int-iii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

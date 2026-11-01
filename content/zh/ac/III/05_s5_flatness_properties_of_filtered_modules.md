@@ -29,19 +29,19 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: 2f99f1d9cd566ebb0cfbd9abc96a4aebc514544ab43656248e36f8d07f63e3ad
+content_sha256: adacd6aa73f6f532f4144a2f20c59011e01873df93193e555af813eb8be9eee9
 translated_from: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
 translation_method: google
 source_content_sha256: 40502ef62aacbf121ac1011abdbd0936abda1c04356f56a21967a20f392ffa93
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 392cc9231255dfbb3c8d2ccea0116f3c4f8a4b7624a69d6869d52f2fdf5de4b4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 5. 过滤后的模的平整度特性
+## 5. 过滤后的平整度模
 
 ### 1. 理想的豪斯多夫模
 
@@ -49,13 +49,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *设 A 为交换环和 $\mathfrak{g}$ A 的理想。A-模 M 被称为关于 3 的理想 Hausdorff（或者如果没有歧义，则称为理想 Hausdorff），如果对于 A 的每个有限生成的理想 $\mathfrak{a}$，A-模 $\mathfrak{a} \otimes_A M$ 是具有 3-adic 的 Hausdorff 拓扑.*
 
-将$\mathfrak{a} = A$放入定义，我们已经看到M必然是带有3进数拓扑的*Hausdorff*。
+将 $\mathfrak{a} = A$ 放入定义中，我们已经看到 M 必然是具有 3-adic 拓扑的 *Hausdorff*。
 
 *例*
 
 #### 例 1 {#ac-iii-s5-n1-exa-1 .statement tag=04IP}
 
-如果 A 是诺特并且 $\mathfrak{g}$ 包含在 A 的 Jacobson 根式中（在其他字中，如果 A 是具有 3-adic 拓扑的 Zariski 环），则每个*有限生成的* A-模理想地是 Hausdorff (*§3*， no. 3、命题 6)。
+如果 A 是诺特并且 $\mathfrak{g}$ 包含在 A 的 Jacobson 根式中（在其他字中，如果 A 是具有 3-adic 拓扑的 Zariski 环），则每个*有限生成的* A-模都是理想的 Hausdorff（*§3*， no. 3、命题 6)。
 
 #### 例 2 {#ac-iii-s5-n1-exa-2 .statement tag=04IQ}
 
@@ -66,7 +66,7 @@ $$
 
 #### 例 3 {#ac-iii-s5-n1-exa-3 .statement tag=04IR}
 
-如果 A-模 M 是平坦的，并且 Hausdorff 具有 $\mathfrak{g}$-adic 拓扑，那么它是理想的 Hausdorff，因为 $a \otimes_A M$ 则可与 M 的子模识别，并且 $a \otimes_A M$ 上的 $\mathfrak{g}$-adic 拓扑是更细拓扑由 M 上的 $\mathfrak{g}$-进数拓扑在 $a \otimes_A M$ 上诱导，即假设的豪斯多夫 (Hausdorff)。
+如果 A-模 M 是平坦的，且 Hausdorff 具有 $\mathfrak{g}$-adic 拓扑，则理想情况下是 Hausdorff，因为 $a \otimes_A M$ 则可与 M 的子模识别，并且 $a \otimes_A M$ 上的 $\mathfrak{g}$-adic 拓扑为更细比拓扑在$a \otimes_A M$上由M上的$\mathfrak{g}$进数拓扑诱导，这是假设的Hausdorff。
 
 ### 2. 平坦度标准的叙述
 令 A 为环，$\mathfrak{z}$ A 的双边理想，M 为左模，gr(A) 和 gr(M) 分别与环 A 和模 M 以及$\mathfrak{g}$-adic 过滤相关的分级环和分级 gr(A) 模块（§ 2, no. 3）。我们已经看到（前述）对于每个整数 $n \geq 0$ 都有一个满射 $\mathbf{Z}$-模同态
@@ -83,7 +83,7 @@ $$
 
 设 A 为交换环，$\mathfrak{g}$ A 和 M A-模的理想。考虑以下属性：
 (i) M 是 afat A-模。
-(ii) 每 A-模 N 被 $\mathfrak{z}$ 消灭，$\mathrm{Tor}_1^A(N, M) = 0$。
+(ii) 对于每 A-模 N 被 $\mathfrak{z}$ 消灭，$\mathrm{Tor}_1^A(N, M) = 0$。
 (iii) $M / \mathfrak{g}M$ 是 ajlat $(A / \mathfrak{g})$ 模，典范映射 $\mathfrak{z} \otimes_A M \to \mathfrak{g}M$ 是双射（后者条件凭借关系 $\mathrm{Tor}_1^A(A, M) = 0$ 和正合序列等价于 $\mathrm{Tor}_1^A(A / \mathfrak{g}, M) = 0$）
 $$
 \mathrm{Tor}_1^A(A, M) \to \mathrm{Tor}_1^A(A / \mathfrak{g}, M) \to \mathfrak{z} \otimes_A M \to M ).
@@ -95,11 +95,11 @@ $$
 是双射 (性质 (GR) of § 2, no. 8)。
 (v) 对于所有 $n \geq 1$，$M / \mathfrak{g}^n M$ 是一个平面 $(A / \mathfrak{g}^n)$ 模块。
 然后 (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v)。
-如果另外 $\mathfrak{g}$ 是幂零的，或者如果 A 是诺特并且 M 理想地是 Hausdorff，则性质 (i)、(ii)、(iii)、(iv) 和 (v) 是等价的。
+如果进一步 $\mathfrak{g}$ 是幂零的，或者如果 A 是诺特并且 M 理想地是 Hausdorff，则性质 (i)、(ii)、(iii)、(iv) 和 (v) 是等价的。
 
 #### 注 {#ac-iii-s5-n1-rem-1 .statement tag=04IT}
 
-如果$A / \mathfrak{g}$是域（应用中经常发生）条件“M/$\mathfrak{g}M$是一个平面$(A / \mathfrak{g})$-模块”对于每个A-模M自动成立，这简化了属性（iii）和（iv）的叙述；此外，在这种情况下，性质 (v) 等价于说，$M / \mathfrak{g}^n M$ 是每个整数 $n \geq 1$ 的免费 $(A / \mathfrak{g}^n)$ 模块（章 11, § 3, no. 2，推论 2 为命题5)。
+如果$A / \mathfrak{g}$是域（应用中经常发生）条件“M/$\mathfrak{g}M$是一个平面$(A / \mathfrak{g})$-模块”对于每个A-模M自动成立，这简化了属性（iii）和（iv）的叙述；此外，在这种情况下，性质 (v) 等价于说，$M / \mathfrak{g}^n M$ 是每个整数 $n \geq 1$ 的免费 $(A / \mathfrak{g}^n)$ 模块（章 11, § 3, no. 2，推论 2 命题5)。
 
 ### 3. 平坦度标准的证明
 
@@ -183,9 +183,9 @@ $$
 h \otimes 1_{M/\mathfrak{g}^k M} : (a/a_k) \otimes_{A/\mathfrak{g}^k} (M/\mathfrak{g}^k M) \to M/\mathfrak{g}^k M
 $$
 
-并且，由于 $h$ 是单射的，并且根据 (v)，$M/\mathfrak{g}^k M$ 是平面 $(A/\mathfrak{g}^k)$ 模，因此完成证明。
+并且，由于 $h$ 是单射的，并且根据 (v)，$M/\mathfrak{g}^k M$ 是平面 $(A/\mathfrak{g}^k)$ 模，因此完成了证明。
 
-### 4. 应用
+### 4. 应用领域
 
 #### 命题 2 {#ac-iii-s5-prop-2 .statement tag=04IV}
 
@@ -218,8 +218,8 @@ $$
 (b) $\hat{M}$ 是扁平 $A$ 模块。
 (c) $\hat{M}$ 是一个扁平的 $\hat{A}$ 模块。*
 
-由于 $B$ 和 $2$-adic 拓扑是 Zariski 环，$\hat{B}$ 是一个忠实的扁平 $B$ 模块（$§ 3$、no. 5、命题 9），$M$ 是规范同构的至$M \otimes_B \hat{B}$（$§ 3$，第**4**，定理3）；立即验证该典范同构是$\hat{M}$上的$A$模块结构的同构到源自$M$上的$M \otimes_B \hat{B}$上的$A$模块结构。 应用命题 4 个章 I、$§ 3$、no. 2，其中 $R$ 替换为 $B$，$S$ 替换为 $A$，$E$ 替换为$\hat{B}$、$F$和$M$，我们看到$M$是一个扁平的$A$模，$\hat{M}$是一个扁平的$A$模是充分必要的。此外，$\hat{M}$是有限生成的$\hat{B}$模，$\mathfrak{J} \hat{B}$包含在$\mathfrak{Q} = \mathfrak{Q} \hat{B}$中，因此包含在$\hat{B}$的Jacobson根式中（$§ 3$，编号**4**，命题8）；因此 $\hat{M}$ 是关于 $\mathfrak{J} \hat{A}$ (命题 2) 的理想 Hausdorff $A$ 模。因此，根据推论，条件 (b) 和 (c) 等价于命题 3。
+由于 $B$ 与 $2$-adic 拓扑是 Zariski 环，$\hat{B}$ 是一个忠实的扁平 $B$ 模块（$§ 3$、no. 5、命题 9），$M$ 是规范同构的至$M \otimes_B \hat{B}$（$§ 3$，第**4**，定理3）；立即验证该典范同构是$\hat{M}$上的$A$模块结构的同构到源自$M$上的$M \otimes_B \hat{B}$上的$A$模块结构。 应用命题 4 个章 I、$§ 3$、no. 2，其中 $R$ 替换为 $B$、$S$ 替换为 $A$、$E$ 替换为$\hat{B}$、$F$和$M$，我们看到$M$是一个扁平的$A$模，$\hat{M}$是一个扁平的$A$模是充分必要的。此外，$\hat{M}$是有限生成的$\hat{B}$模，$\mathfrak{J} \hat{B}$包含在$\mathfrak{Q} = \mathfrak{Q} \hat{B}$中，因此包含在$\hat{B}$的Jacobson根式中（$§ 3$，编号**4**，命题8）；因此 $\hat{M}$ 是关于 $\mathfrak{J} \hat{A}$ (命题 2) 的理想 Hausdorff $A$ 模。因此，根据推论，条件 (b) 和 (c) 等价于命题 3。
 
-### 习题 {#ac-iii-s5-exercises}
+### 习题{#ac-iii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -29,27 +29,27 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: 233c07b14713105a91722f5eb2891bf2d9a2ad86c5879ab7569ff14a1d47c7c6
+content_sha256: 1524a5aef37f6ceaeb25f7de956449d8c6cfa29e364e2e43388c9d1c315dafe2
 translated_from: content/en/lie/VII/02_s2_cartan_subalgebras_and_regular_elements.md
 translation_method: google
 source_content_sha256: 05b31ef931fa1971af6f075dc663eed9dae014f8584d9c3690519a9cceb1ce2d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 381766fb1e7ac1292b3ae304917d2d03a7633091bc7fac0383be7126a3d63180
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 嘉当子代数和正则元素李代数
 
 从 no. 2 开始，域 $k$ 被假定为无限。
 
-### 1.嘉当子代数
+### 1. 嘉当子代数
 
 #### 定义 1 {#lie-vii-s2-def-1 .statement tag=00TJ}
 
-设$\mathfrak{g}$为李代数。 $\mathfrak{g}$的嘉当子代数是$\mathfrak{g}$的幂零子代数，等于其自身的归一化器。
+令$\mathfrak{g}$为李代数。 $\mathfrak{g}$的嘉当子代数是$\mathfrak{g}$的幂零子代数，等于其自身的归一化器。
 
 稍后我们将得到如下结果：
 
@@ -61,15 +61,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 例 1 {#lie-vii-s2-n1-exa-1 .statement tag=00TK}
 
-如果$\mathfrak{g}$幂零，$\mathfrak{g}$中唯一的嘉当子代数就是$\mathfrak{g}$本身（第I, §4, no. 1章，命题3）。
+如果$\mathfrak{g}$幂零，则$\mathfrak{g}$中唯一的嘉当子代数就是$\mathfrak{g}$本身（第I, §4, no. 1章，命题3）。
 
 #### 例 2 {#lie-vii-s2-n1-exa-2 .statement tag=00TL}
 
-设$\mathfrak{g}=\mathfrak{g}\mathfrak{l}(n, k)$，并设$\mathfrak{h}$为矩阵属于到$\mathfrak{g}$的对角线集合。我们证明$\mathfrak{h}$是$\mathfrak{g}$的嘉当子代数。首先，$\mathfrak{h}$是可交换的，因此是幂零的。令$(E_{ij})$为$\mathfrak{g}\mathfrak{l}(n, k)$的典范基，并令$x=\sum\mu_{ij}E_{ij}$为$\mathfrak{g}$中$\mathfrak{h}$标准化器的元素。如果$i\not=j$，公式（5）章。 I, §1, no. 2表明$E_{ij}$在$[E_{ii}, x]$中的系数为$\mu_{ij}$。由于$E_{ii}\in \mathfrak{h}$、$[E_{ii}, x]\in \mathfrak{h}$，所讨论的系数是零。因此$\mu_{ij}= 0$对应$i\not=j$，所以$x\in \mathfrak{h}$，这表明$\mathfrak{h}$确实是$\mathfrak{g}$的嘉当子代数。
+设$\mathfrak{g}=\mathfrak{g}\mathfrak{l}(n, k)$，并令$\mathfrak{h}$为矩阵属于到$\mathfrak{g}$的对角线集合。我们证明$\mathfrak{h}$是$\mathfrak{g}$的嘉当子代数。首先，$\mathfrak{h}$是可交换的，因此是幂零的。令$(E_{ij})$为$\mathfrak{g}\mathfrak{l}(n, k)$的典范基，并令$x=\sum\mu_{ij}E_{ij}$为$\mathfrak{g}$中$\mathfrak{h}$标准化器的元素。如果$i\not=j$，公式（5）章。 I, §1, no. 2表明$E_{ij}$在$[E_{ii}, x]$中的系数为$\mu_{ij}$。从$E_{ii}\in \mathfrak{h}$、$[E_{ii}, x]\in \mathfrak{h}$开始，所讨论的系数是零。因此$\mu_{ij}= 0$对应$i\not=j$，因此$x\in \mathfrak{h}$，这表明$\mathfrak{h}$确实是$\mathfrak{g}$的嘉当子代数。
 
 #### 例 3 {#lie-vii-s2-n1-exa-3 .statement tag=00TM}
 
-令$\mathfrak{h}$为$\mathfrak{g}$的嘉当子代数，并令$\mathfrak{g}_1$为$\mathfrak{g}$包含$\mathfrak{h}$的子代数。那么$\mathfrak{h}$就是$\mathfrak{g}_1$的嘉当子代数；这立即来自 Def。 1.
+令$\mathfrak{h}$为$\mathfrak{g}$中的嘉当子代数，并令$\mathfrak{g}_1$为$\mathfrak{g}$包含$\mathfrak{h}$中的子代数。那么$\mathfrak{h}$就是$\mathfrak{g}_1$的嘉当子代数；这立即来自 Def。 1.
 
 #### 命题 1 {#lie-vii-s2-prop-1 .statement tag=00TN}
 
@@ -81,7 +81,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 命题 2 {#lie-vii-s2-prop-2 .statement tag=00TO}
 
-令$(\mathfrak{g}_i)_{i\in I}$为李代数和$\mathfrak{g}=\prod_{i\in I}\mathfrak{g}_i$的有限族。
+令 $(\mathfrak{g}_i)_{i\in I}$ 为李代数和 $\mathfrak{g}=\prod_{i\in I}\mathfrak{g}_i$ 的有限族。
 
 嘉当子代数 / $\mathfrak{g}$ 是子代数 / 形式 $\prod_{i\in I}\mathfrak{h}_i$，其中 $\mathfrak{h}_i$
 
@@ -163,7 +163,7 @@ Assume that $\mathfrak{h}$ is 嘉当子代数 of $\mathfrak{g}$.从$[\mathfrak{c
 
 $\mathscr{C}_{\infty}\mathfrak{g}$ is the smallest ideal $\mathfrak{n}$ of $\mathfrak{g}$ such that the centre of $\mathfrak{g}/\mathfrak{n}$ is zero; it is a characteristic and nilpotent ideal of $\mathfrak{g}$.
 
-### 2. 正则元素的李代数
+### 2. 正则元素李代数
 
 [回想一下，从现在开始，$k$ 被假定为无限。]
 
@@ -259,7 +259,7 @@ $$
 
 #### 命题 9 {#lie-vii-s2-prop-9 .statement tag=00UA}
 
-设$\mathfrak{g}$为李代数，$\mathfrak{g}'$子代数等于$\mathfrak{g}$。 $\mathfrak{g}$中的$\mathfrak{g}'$正则中的每个元素在$\mathfrak{g}'$中都是正则。
+令$\mathfrak{g}$为李代数，$\mathfrak{g}'$子代数等于$\mathfrak{g}$。 $\mathfrak{g}$中的$\mathfrak{g}'$正则中的每个元素在$\mathfrak{g}'$中都是正则。
 
 对于$x\in \mathfrak{g}'$，ad$_{\mathfrak{g}}x$到$\mathfrak{g}'$的限制是ad$_{\mathfrak{g}'}x$，因此向量空间$\mathfrak{g}/\mathfrak{g}'$的定义自同态$u(x)$通过商。令$d_0(x)$（或$d_1(x)$）为ad$_{\mathfrak{g}'}(x)$（或$u(x)$）零空间的维数，并令$c_0$（或$c_1$）为$d_0(x)$（或$d_1(x)$）的最小值当$x$属于到$\mathfrak{g}'$时。从 $\mathfrak{g}'$ 到 $k$ 存在非零多项式映射 $p_0, p_1$ 使得
 
@@ -273,13 +273,13 @@ $$
 
 $\mathfrak{g}$中的$\mathfrak{g}'$正则的元素不一定存在。如果至少存在一个，则这些元素中的集合恰好是上面证明中用S表示的集合。
 
-### 3.嘉当子代数和正则元素
+### 3. 嘉当子代数和正则元素
 
 #### 定理 1 {#lie-vii-s2-thm-1 .statement tag=00UC}
 
 设$\mathfrak{g}$为李代数。
 
-(i) 如果$x$是$\mathfrak{g},\mathfrak{g}^0(x)$中的正则元素，则嘉当子代数是$\mathfrak{g}$中的嘉当子代数。
+(i) 如果$x$是$\mathfrak{g},\mathfrak{g}^0(x)$的正则元素，那么嘉当子代数等于$\mathfrak{g}$。
 
 (ii) 如果$\mathfrak{h}$是$\mathfrak{g}$的最大幂零子代数，并且如果$x\in \mathfrak{h}$在$\mathfrak{g}$中是正则，则$\mathfrak{h}=\mathfrak{g}^0(x)$。
 
@@ -329,13 +329,13 @@ $$
 
 令 $\mathfrak{n}$ 为李代数 $\mathfrak{g}$ 的幂零子代数。 $\mathfrak{g}^0(\mathfrak{n})$中包含$\mathfrak{g}$，存在嘉当子代数。
 
-把$\mathfrak{a}=\mathfrak{g}^0(\mathfrak{n})$。那么 $\mathfrak{n}\subset \mathfrak{a}$ 因为 $\mathfrak{n}$ 是幂零的。如果$x\in \mathfrak{a}$，则令$P(x)$为广告$x$定义的$\mathfrak{g}/\mathfrak{a}$的自同态的行列式。用$x\in \mathfrak{a}$的$\mathfrak{a}'$集合表示$P(x)\not= 0$，它是Zariski拓扑中$\mathfrak{a}$的开子集； 关系 $x\in \mathfrak{a}'$ 和 $\mathfrak{g}^0(x)\subset \mathfrak{a}$ 等效。根据§1, no. 2的命题7(ii)，存在$y\in \mathfrak{n}$使得$\mathfrak{g}^0(y) =\mathfrak{a}$，并且存在$y\in \mathfrak{a}'$所以$\mathfrak{a}'$非空。由于$\mathfrak{a}'$是开放的，所以它的交和$\mathfrak{a}$的正则元素的集合都是非空的。令$x$为这个交的元素。那么$\mathfrak{g}^0(x)\subset \mathfrak{a}$和$\mathfrak{g}^0(x)$是$\mathfrak{a}$的嘉当子代数，因此是幂零的。另一方面，§1, no. 3的第10（i）条命题表明，$\mathfrak{g}^0(x)$是$\mathfrak{g}$自身的归一化器；因此，它是 $\mathfrak{g}$ 的嘉当子代数，从而完成证明。
+把$\mathfrak{a}=\mathfrak{g}^0(\mathfrak{n})$。那么 $\mathfrak{n}\subset \mathfrak{a}$ 因为 $\mathfrak{n}$ 是幂零的。如果$x\in \mathfrak{a}$，则令$P(x)$为广告$x$定义的$\mathfrak{g}/\mathfrak{a}$的自同态的行列式。用$x\in \mathfrak{a}$的$\mathfrak{a}'$集合表示$P(x)\not= 0$，它是Zariski拓扑中$\mathfrak{a}$的开子集； 关系 $x\in \mathfrak{a}'$ 和 $\mathfrak{g}^0(x)\subset \mathfrak{a}$ 等效。根据§1, no. 2的命题7(ii)，存在$y\in \mathfrak{n}$使得$\mathfrak{g}^0(y) =\mathfrak{a}$，并且存在$y\in \mathfrak{a}'$所以$\mathfrak{a}'$非空。由于$\mathfrak{a}'$是开放的，所以它的交和$\mathfrak{a}$的正则元素的集合都是非空的。令 $x$ 为该交的元素。那么$\mathfrak{g}^0(x)\subset \mathfrak{a}$和$\mathfrak{g}^0(x)$是$\mathfrak{a}$的嘉当子代数，因此是幂零的。另一方面，§1, no. 3的第10（i）条命题表明，$\mathfrak{g}^0(x)$是$\mathfrak{g}$自身的归一化器；因此，它是 $\mathfrak{g}$ 的嘉当子代数，从而完成证明。
 
-### 4.嘉当子代数 / 半单李代数
+### 4. 嘉当子代数 / 半单李代数
 
 #### 定理 2 {#lie-vii-s2-thm-2 .statement tag=00UI}
 
-假设$k$的特征为0。令$\mathfrak{g}$为半单李代数，$\mathfrak{h}$嘉当子代数为$\mathfrak{g}$。那么$\mathfrak{h}$是可交换的，它的所有元素都是$\mathfrak{g}$中的半单（第I, §6, no. 3章，定义3）。
+假设$k$的特征为0。令$\mathfrak{g}$为半单李代数，$\mathfrak{h}$嘉当子代数等于$\mathfrak{g}$。那么$\mathfrak{h}$是可交换的，并且它的所有元素在$\mathfrak{g}$中都是半单（第I, §6, no. 3章，定义3）。
 
 由于 $\mathfrak{h}=\mathfrak{g}^0(\mathfrak{h}),\mathfrak{h}$ 是可还原的（§1，命题 11），因此由于它是幂零的，因此可交换。另一方面，$\mathfrak{g}$到$\mathfrak{h}$的伴随表示的限制是半单（前述），所以$\mathfrak{h}$的元素是$\mathfrak{g}$中的半单 （代数，第VIII, §5, no. 1）。
 
@@ -363,4 +363,4 @@ b) 如果$\rho$是$\mathfrak{g}$的有限维半单表示，则$\rho (\mathfrak{h
 
 ### 习题 {#lie-vii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

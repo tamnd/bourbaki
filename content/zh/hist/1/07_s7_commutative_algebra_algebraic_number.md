@@ -11,16 +11,16 @@ pdf_pages: 0098-0120
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d4c9a3a05eab96c514aec1934bf72bd87ec8640b581ad5e2809f0db204b13905
+content_sha256: 5ad029892bc4b2ff8b29c6bd91ebc0781e28a372226f62452cc197468cf03052
 translated_from: content/en/hist/1/07_s7_commutative_algebra_algebraic_number.md
 translation_method: google
 source_content_sha256: 6494135b95c16d54e874f36cc205562a64397d5698f8ea1d45df3adca031f5a9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1d542ca8600321c48c53092382d03169800de111123c0f898df09ee9e341a358
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 7. 交换代数。代数数理论。
@@ -217,9 +217,9 @@ A) 局部和拓扑环。尽管在数理论和代数几何的所有先前工作�
 
 这些环直到 1940 年 Chevalley 和 Zariski 的工作才开始在代数几何中明确出现。$^{29}$
 
-对局部环本身的一般研究始于 1938 年克鲁尔伟大的回忆录 [187 h]。 这项工作最重要的成果涉及维数理论和常规环，我们不应该在这里谈论；但也正是在那里，第一次出现了任意局部诺特环的完成，以及与局部环相关的分级环的仍然不完善的形式；$^{30}$，后者只能在大约1948年由P定义。 Samuel [270] 以及 Leray 和 H 的代数拓扑中的研究独立。 嘉当。 Krull, in the previously quoted work, hardly uses topological language; but from 1928 [187 e], he had proved that, in a noetherian ring $A$, the intersection of powers of a single ideal $a$ is the set of $x \in A$ such that $x(1-a) = 0$ for an $a \in a$; it is easily deduced from that that for every ideal $m$ of $A$, the $m$-adic topology on $A$ induces on an ideal $a$ the $m$-adic topology of $a$; in his memoir of 1938, Krull completes this result by proving that in a local noetherian ring, every ideal is closed. 这些定理很快被Chevalley之后扩展到半本地诺特环，然后由Zariski扩展到以他的名字命名的环[340 b]；拓扑环中“线性紧性”的引入以及半局部完全环的结构的确定也可以追溯到Chevalley [62 c]。
+对局部环本身的一般研究始于 1938 年克鲁尔伟大的回忆录 [187 h]。 这项工作最重要的成果涉及维数理论和常规环，我们不应该在这里谈论；但也正是在那里，第一次出现了任意局部诺特环的完成，以及与局部环相关的分级环的仍然不完美的形式；$^{30}$仅在大约1948年由P. Samuel [270]和代数中的研究独立定义Leray 和 H. 的拓扑 嘉当。 Krull, in the previously quoted work, hardly uses topological language; but from 1928 [187 e], he had proved that, in a noetherian ring $A$, the intersection of powers of a single ideal $a$ is the set of $x \in A$ such that $x(1-a) = 0$ for an $a \in a$; it is easily deduced from that that for every ideal $m$ of $A$, the $m$-adic topology on $A$ induces on an ideal $a$ the $m$-adic topology of $a$; in his memoir of 1938, Krull completes this result by proving that in a local noetherian ring, every ideal is closed. 这些定理很快被Chevalley之后扩展到半本地诺特环，然后由Zariski扩展到以他的名字命名的环[340 b]；拓扑环中“线性紧性”的引入以及半局部完全环的结构的确定也可以追溯到Chevalley [62 c]。
 
-B) *经过从局部到全局。*自Weierstrass以来，习惯将一个变量（特别是代数函数）的解析函数与其定义的黎曼曲面的所有点处的“展开”的集合相关联。 在他关于数理论的书的简介中（[157 f]，第 17 页） V），Hensel 以同样的方式将数域 $k$ 集合元素的代数元素关联起来，其中对应在$k$的*完备的*中与它关联，用于*所有*估值$^{31}$在$k$。 可以说，正是这个点的观点，在现代交换代数中，取代了分解公式作为素理想的乘积（在一定范围内延伸）
+B) *经过从局部到全局。*自Weierstrass以来，习惯将一个变量（特别是代数函数）的解析函数与其定义的黎曼曲面的所有点处的“展开”的集合相关联。 In the introduction to his book on Number Theory ([157 f], p. V), Hensel associates in the same way with every element of an algebraic number field $k$ the set of elements which correspond to it in the *completions* of $k$ for *all* valuations$^{31}$ on $k$. 可以说，正是这个点的观点，在现代交换代数中，取代了分解公式作为素理想的乘积（在一定范围内延伸）
 
 $^{29}$ 在亨塞尔和他的学生关于数理论的工作中，局部环 $A_p$ 因其完成而被系统地忽略，毫无疑问是因为应用亨塞尔的引理对后者的可能性。
 

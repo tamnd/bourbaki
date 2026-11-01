@@ -35,16 +35,16 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 6e08f86da3ed5af5a7603e44666081f025202f01b4988cd5cb5f4695a99d3ab8
+content_sha256: 0226d6606dde26e328c295b9a60cbead7c818364825aa5aad9af7081c739d39c
 translated_from: content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md
 translation_method: google
 source_content_sha256: a1a346c55a436d2ed8247c3e3a5bc5302eaac2c7930a98ff5617acbf65dc1b0e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 441cc7fb2bb2d30e38f944776e03cead7241b2e38549bfb49a6c417e34d224f4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录 2 个超过非交换域的决定因素
@@ -55,13 +55,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令 V 为右向量空间超过域 D，即有限维 $n\geqslant 0$。我们用V的基的B(V)集合和映射$\omega$的Ω(V)集合从B(V)到$D^*_{ab}$表示满足以下两个条件：
 
-a) 如果 $\lambda_1, . . . , \lambda_n$ 是元素 of $D^*$，那么我们有
+a) 如果 $\lambda_1, . . . , \lambda_n$ 是 $D^*$ 的元素，那么我们有
 
 $$
 \omega (v_1\lambda_1, . . . , v_n\lambda_n) =\pi (\lambda_1\cdots \lambda_n)\omega (v_1, . . . , v_n) \tag{1}
 $$
 
-每基 $(v_1, . . . , v_n)$ V。
+对于 V 中的每基 $(v_1, . . . , v_n)$。
 
 b) 如果$i$和$j$是区间$[1, n]$中的两个不同整数，那么我们有
 
@@ -69,7 +69,7 @@ $$
 \omega (v_1, . . . , v_{i-1}, v_i+v_j, v_{i+1}, . . . , v_n) =\omega (v_1, . . . , v_n) \tag{2}
 $$
 
-每基$(v_1, . . . , v_n)$共V。
+每基 $(v_1, . . . , v_n)$ 共 V。
 
 设 $\omega$ 为 Ω(V) 的元素。令$(v_1, . . . , v_n)$为区间$[1, n-1]$中V和$i$整数的基；到性质 b)，我们有
 
@@ -129,21 +129,21 @@ $$
 \omega (v_1, . . . , v_n) =\omega (v_1, . . . , v_i+w, . . . , v_n) \tag{6}
 $$
 
-对于$j$的向量$v_j$中的每个线性组合$w=\sum_{j\not=i}v_j\lambda_j$与间隔$[1, n]$中的$i$不同。
+对于 $j$ 的向量 $v_j$ 中的每个线性组合 $w=\sum_{j\not=i}v_j\lambda_j$ 与间隔 $[1, n]$ 中的$i$ 不同。
 
-### 2.唯一性定理
+### 2. 唯一性定理
 
 在这个小节中，对于任何严格的正整数$m$，任何$[1, m]$中的整数$i$，以及$V^m$中的任何序列$(v_1, . . . , v_m)$，我们将$(v_1, . . . ,\widehat{v}_i, . . . , v_m)$写为序列$(v_1, . . . , v_{i-1}, v_{i+1}, . . . , v_m)$在$V^{m-1}$。
 
 #### 命题 1 {#alg-viii-a2-prop-1 .statement tag=00Q1}
 
-令W 为V 中的超平面，$e$ 为V- W 中的向量。令$\varphi$ 为Ω(W) 的元素。存在 Ω(V) 的唯一元素 $\omega$ 使得我们有
+设W为V中的超平面，$e$为V-W中的向量。令$\varphi$为Ω(W)的元素。存在 Ω(V) 的唯一元素 $\omega$ 使得我们有
 
 $$
 \omega (w_1, . . . , w_{n-1}, e) =\varphi (w_1, . . . , w_{n-1}) \tag{7}
 $$
 
-对于 W 的每基 $(w_1, . . . , w_{n-1})$。
+每基 $(w_1, . . . , w_{n-1})$ W。
 
 A) $\omega :$ 的唯一性令 $\omega$ 为 Ω(V) 的元素。令$(v_1, . . . , v_n)$为V的基，令$\mu_1, . . . , \mu_n$为$e$在此基中的坐标。用整数的 I 集合表示从 1 到 $n$（含），使得 $\mu_i\not= 0$；它不是空的。设$i$为I中的元素。 序列$(v_1, . . . ,\widehat{v}_i, . . . , v_n, e)$是V的基，并且由于$e-v_i\mu_i$是序列$(v_1, . . . ,\widehat{v}_i, . . . , v_n)$的线性组合，所以公式(6)意味着
 
@@ -249,7 +249,7 @@ c) 当唯一的指标$k$使得$\mu_k\not= 0$是$j$时，仍然需要检查这种
 
 #### 推论 1 {#alg-viii-a2-prop-1-cor-1 .statement tag=00Q2}
 
-令$(e_1, . . . , e_n)$为V中的基，以及$D^*_{ab}$中的$t$元素。存在 Ω(V) 的唯一元素 $\omega$，使得 $\omega (e_1, . . . , e_n) =t$。
+令$(e_1, . . . , e_n)$为V之基，且$t$元素为$D^*_{ab}$。存在 Ω(V) 的唯一元素 $\omega$，使得 $\omega (e_1, . . . , e_n) =t$。
 
 让我们用归纳在$n$上证明这个推论。如果$n= 0$，那么V中唯一的基是空的，所以断言为真。现在假设$n\geqslant 1$；表示由$e_1, . . . , e_{n-1}$生成的V的W子空间。到命题 1，存在从 Ω(V) 到 Ω(W) 满足的双射 Λ
 
@@ -257,7 +257,7 @@ $$
 (\Lambda (\omega ))(w_1, . . . , w_{n-1}) =\omega (w_1, . . . , w_{n-1}, e_n)
 $$
 
-对于 W 的每个基 $(w_1, . . . , w_{n-1})$ 和 Ω(V) 中的每个 $\omega$。到归纳假设时，存在 Ω(W) 的唯一元素 $\varphi$，使得 $\varphi (e_1, . . . , e_{n-1}) =t$。 关系 $\omega (e_1, . . . , e_n) =t$，对于 Ω(V) 中的 $\omega$，相当于 $\Lambda (\omega ) =\varphi$。推论 1 如下。
+对于 W 的每基 $(w_1, . . . , w_{n-1})$ 和 Ω(V) 中的每 $\omega$。到归纳假设时，存在 Ω(W) 的唯一元素 $\varphi$，使得 $\varphi (e_1, . . . , e_{n-1}) =t$。 关系 $\omega (e_1, . . . , e_n) =t$，对于 Ω(V) 中的 $\omega$，相当于 $\Lambda (\omega ) =\varphi$。推论 1 如下。
 
 #### 推论 2 {#alg-viii-a2-prop-1-cor-2 .statement tag=00Q3}
 
@@ -265,9 +265,9 @@ $$
 
 #### 注 {#alg-viii-a2-n2-rem-1 .statement tag=00Q4}
 
-假设域 D 是可交换的。到定义时，B(V) 是子集 / $V^n$。显然，非零的交错的$n$的限制到B(V)-线性形式$f: V^n\rightarrow D$属于到Ω(V)。此外，如果$(e_1, . . . , e_n)$是V的基并且$t$是D的非零元素，则存在唯一的交错的$n$-线性形式$f$使得$f(e_1, . . . , e_n) =t$(III, §7, No. 4， p. 511 和 III, §7, No. 8、p. 518）。根据推论 1，集合 Ω(V) 由非零的交错的 $n$ 的线性形式限制到 B(V) 组成。
+假设域 D 是可交换的。到定义时，B(V) 是子集 / $V^n$。显然，非零的交错的$n$的限制到B(V)-线性形式$f: V^n\rightarrow D$属于到Ω(V)。此外，如果$(e_1, . . . , e_n)$是V的基并且$t$是D的非零元素，则存在唯一的交错的$n$线性形式$f$使得$f(e_1, . . . , e_n) =t$(III, §7, No. 4， p. 511 和 III, §7, No. 8、p. 518）。根据推论 1，集合 Ω(V) 由非零的交错的 $n$ 的线性形式限制到 B(V) 组成。
 
-### 3.自同构的行列式
+### 3. 自同构的行列式
 
 我们首先假设域 D 是可交换的。鉴于上面的注，V的自同构$u$的行列式是唯一元素 det $u$ of $D^*$，这样我们有
 
@@ -279,7 +279,7 @@ $$
 
 #### 命题 2 {#alg-viii-a2-prop-2 .statement tag=00Q5}
 
-a) 设$u$为V中的自同构。 $D^*_{ab}$ 存在唯一元素，记为 det $u$，称为 $u$ 的行列式，这样我们有
+a) 设$u$为V中的自同构。 $D^*_{ab}$存在唯一元素，记为det$u$，称为$u$的行列式，这样我们有
 
 (15)$\omega (u(v_1), . . . , u(v_n)) =$（不含$u$）$\omega (v_1, . . . , v_n)$
 
@@ -299,7 +299,7 @@ $$
 \omega (v_1, . . . , v_n) =s\omega_0(v_1, . . . , v_n)
 $$
 
-每基 $(v_1, . . . , v_n)$ V（前述）。我们立即推导出关系
+对于 V 中的每基 $(v_1, . . . , v_n)$（前述）。我们立即推导出关系
 
 $$
 \omega (u(v_1), . . . , u(v_n)) =t\omega (v_1, . . . , v_n)
@@ -309,7 +309,7 @@ $$
 
 ### 4. 平方矩阵的行列式
 
-令$n$为正整数。让我们将上述应用于右向量空间$D^n_d$超过域D； $D^n_d$ 中的元素被视为具有 $n$ 行和一个列的矩阵。设$(\varepsilon_1, . . . , \varepsilon_n)$为$D^n_d$中的典范基。根据VIII、p. 451的推论2，存在$\Omega (D^n_d)$的唯一元素$\omega_0$使得$\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$。如果A是$\mathbf{G}\mathbf{L}_n$(D)的元素，那么它的$D^n_d$的列$a_1, . . . , a_n$形式基； $D^*_{ab}$的元素$\omega_0(a_1, . . . , a_n)$称为A的行列式，记为det(A)。由于 $1\leqslant i\leqslant n$ 有 $a_i=A\varepsilon_i$，因此 A 的行列式就是 $D^n_d$ 的自同构 $x\mapsto Ax$ 的行列式。特别是，如果域 D 是可交换的，则重合的行列式与III, §8, No. 3、p. 524 中定义的行列式相同。
+令$n$为正整数。让我们将上述应用于右向量空间$D^n_d$超过域D； $D^n_d$ 中的元素被视为具有 $n$ 行和一个列的矩阵。令$(\varepsilon_1, . . . , \varepsilon_n)$为$D^n_d$中的典范基。根据VIII、p. 451的推论2，存在$\Omega (D^n_d)$的唯一元素$\omega_0$使得$\omega_0(\varepsilon_1, . . . , \varepsilon_n) = 1$。如果A是$\mathbf{G}\mathbf{L}_n$(D)的元素，那么它的$D^n_d$的列$a_1, . . . , a_n$形式基； $D^*_{ab}$的元素$\omega_0(a_1, . . . , a_n)$称为A的行列式，记为det(A)。由于 $1\leqslant i\leqslant n$ 有 $a_i=A\varepsilon_i$，因此 A 的行列式就是自同构 $x\mapsto Ax$ 和 $D^n_d$ 的行列式。特别地，如果域 D 是可交换的，则重合的行列式与III, §8, No. 3、p. 524 中定义的行列式相同。
 
 令V为有限维$n$在域D上的右向量空间，并令$(e_1, . . . , e_n)$为V的基。如果$u$是V的自同构，并且A是$u$的矩阵，相对于基$(e_1, . . . , e_n)$，那么我们有det($u$)$=$det(A)。
 
@@ -403,13 +403,13 @@ b) 如果 $a$ 是零，那么我们有 $c\not= 0$ 并且
 
 #### 注 1 {#alg-viii-a2-n4-rem-1 .statement tag=00QE}
 
-令 V 为右向量空间超过域 D，即有限维 $n$。我们将对偶空间 $V^*=$ Hom$_D(V,D)$ 视为 D 的对偶域 $D^o$ 上的右向量空间。令 $u$ 为 V 的自同构，并令 $^tu$ 为自同构 $V^*$ 即 $u$ 中的转置。如果对于V的基$(e_1, . . . , e_n)$，$u$由$\mathbf{M}_n(D)$中的矩阵A表示，则自同构$^tu$对于$\mathbf{M}_n(D^o)$中的矩阵$^tA$表示$V^*$ 的基 $(e^*_1, . . . , e^*_n)$ 对$(e_1, . . . , e_n)$（II, §10, No. 4、p. 344、命题 3）。到例 7 时，$^tu$ 的行列式等于 $u$ 的行列式。
+令 V 为右向量空间超过域 D，即有限维 $n$。我们将对偶空间 $V^*=$ Hom$_D(V,D)$ 视为 D 的对偶域 $D^o$ 上的右向量空间。令 $u$ 为 V 的自同构，并令 $^tu$ 为自同构 $V^*$ 即 $u$ 中的转置。如果对于V的基$(e_1, . . . , e_n)$，$u$由$\mathbf{M}_n(D)$中的矩阵A表示，则自同构$^tu$关于$\mathbf{M}_n(D^o)$中的矩阵$^tA$表示$V^*$ 的基 $(e^*_1, . . . , e^*_n)$ 对偶$(e_1, . . . , e_n)$（II, §10, No. 4、p. 344、命题 3）。到例 7 时，$^tu$ 的行列式等于 $u$ 的行列式。
 
 #### 注 2 {#alg-viii-a2-n4-rem-2 .statement tag=00QF}
 
 小节 1 到 4 的结果推广到 D 为局部环（VIII、p. 459、习题 2）时的情况。
 
-### 5.幺模群
+### 5. 幺模群
 
 设$n$为正整数。我们用群同态 det$:\mathbf{G}\mathbf{L}_n(D)\rightarrow D^*_{ab}$的$\mathbf{S}\mathbf{L}_n(D)$核来表示，我们称之为幺模群或特殊线性群（cf.III, §8, No. 9，p. 537当域D是可交换的）。
 
@@ -417,13 +417,13 @@ b) 如果 $a$ 是零，那么我们有 $c\not= 0$ 并且
 
 假设$n\geqslant 2$。
 
-a) $\mathbf{G}\mathbf{L}_n(D)$的子群$\mathbf{S}\mathbf{L}_n(D)$由矩阵$B_{ij}(\lambda )$生成，其中$i$和$j$是区间$[1, n]$和$\lambda$中的不同整数，并且穿过D。
+a) $\mathbf{G}\mathbf{L}_n(D)$的子群$\mathbf{S}\mathbf{L}_n(D)$由矩阵$B_{ij}(\lambda )$生成，其中$i$和$j$是不同整数在区间$[1, n]$和$\lambda$穿过D。
 
 b) 假设 $n\geqslant 3$ 或 Card(D) $\geqslant 3$。 $\mathbf{G}\mathbf{L}_n(D)$的导出群等于$\mathbf{S}\mathbf{L}_n(D)$。
 
 c) 假设 $n\geqslant 3$ 或 Card(D) $\geqslant 4$。 $\mathbf{S}\mathbf{L}_n(D)$的导出群等于$\mathbf{S}\mathbf{L}_n(D)$。
 
-A) 用矩阵 $B_{ij}(\lambda )$ 生成的 $\mathbf{G}\mathbf{L}_n(D)$ 的 T 子群表示。到 VIII、p. 454 的例 1 时，我们得到 det($B_{ij}(\lambda )$) $= 1$，因此有 $T\subset \mathbf{S}\mathbf{L}_n(D)$。为了证明这两个群相等，只需 loc 的例 3 即可。引证，证明形式 diag(1$, . . . ,1, d$) 的每个矩阵以及 $\pi (d) = 1$ 属于到 T。 矩阵 diag(1$, . . . ,1, d$) 属于到像同态$U\mapsto \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$从$\mathbf{G}\mathbf{L}_2(D)$到$\mathbf{G}\mathbf{L}_n(D)$；因此，考虑$n= 2$的情况就足够了。由于$\pi$的核是$D^*$的导出群，我们可以假设$d=uvu^{-1}v^{-1}$和$u, v$在$D^*$中。然后我们的断言由等式得出
+A) 用矩阵$B_{ij}(\lambda )$生成的$\mathbf{G}\mathbf{L}_n(D)$的T子群表示。到 VIII、p. 454 的例 1 时，我们得到 det($B_{ij}(\lambda )$) $= 1$，因此有 $T\subset \mathbf{S}\mathbf{L}_n(D)$。为了证明这两个群相等，只需 loc 的例 3 即可。引证，证明形式 diag(1$, . . . ,1, d$) 的每个矩阵以及 $\pi (d) = 1$ 属于到 T。 矩阵 diag(1$, . . . ,1, d$) 属于到像同态$U\mapsto \begin{pmatrix} I_{n-2} & 0 \\ 0 & U \end{pmatrix}$从$\mathbf{G}\mathbf{L}_2(D)$到$\mathbf{G}\mathbf{L}_n(D)$；因此，考虑$n= 2$的情况就足够了。由于$\pi$的核是$D^*$的导出群，我们可以假设$d=uvu^{-1}v^{-1}$和$u, v$在$D^*$中。然后我们的断言由等式得出
 
 (28) $\begin{pmatrix} 1 & 0 \\ 0 & d \end{pmatrix} = \begin{pmatrix} u^{-1} & 0 \\ 0 & u \end{pmatrix}\begin{pmatrix} v^{-1} & 0 \\ 0 & v \end{pmatrix}\begin{pmatrix} vu & 0 \\ 0 & u^{-1}v^{-1} \end{pmatrix}$
 
@@ -483,4 +483,4 @@ c) 群$\mathbf{S}\mathbf{L}(V)$等于它的导出群除非，我们有$n= 2$，D
 
 ### 习题{#alg-viii-a2-exercises}
 
-请参见附录 2](exercises/a2/) 的 [习题。
+参见[习题附录 2](exercises/a2/)。

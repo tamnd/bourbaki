@@ -30,16 +30,16 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: dd239b58e929a46b2bcabc085187a16bc95a3155428b02db29d91f5ac893f0ef
+content_sha256: 15f67e5b564094c79fc03340b58b42d82e3e0d581ab4938d1f46656029e4bb73
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 translation_method: google
 source_content_sha256: 798b6543b06067240b5dab1244bfefa178a908e9f4cf2fdc3e29b8faab35c2bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6e34b702193043724d519c0bca430eb16897d6f9726fe8b135b802d31d97f97d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 挠元模超过主理想整环
@@ -48,7 +48,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令$A$为环，$(b_i)_{i \in I}$为$A$的直接分解，即(I，p. 110，Def.7)$A$的双边理想的有限族，使得自然同态从$A$变为$A/b_i$ 的乘积是双射的。由*loc。引用*，第 10 条命题，存在 $A$ 的中心幂等族$(e_i)_{i \in I}$，使得 $b_i = A(1 - e_i)$、$\sum_{i \in I} e_i = 1$ 和 $e_i e_j = 0$ 对于 $i \neq j$。
 
-对于每个左$A$-模块$M$，令$M_i$表示$m \in M$的集合，使得$b_i m = 0$；由于$b_i$是双面理想，因此这是$M$的子模；此外，如果$a, b \in A$和$a - b \in b_i$，则同位$a_{M_i}$和$b_{M_i}$重合；因此，$M_i$上有一个独特的$(A/b_i)$模块结构，从而通过同态$A \to A/b_i$导出$M_i$的$A$模块结构。
+对于每个左$A$-模块$M$，令$M_i$表示$m \in M$的集合，使得$b_i m = 0$；由于 $b_i$ 是双面理想，因此这是 $M$ 的子模；此外，如果$a, b \in A$和$a - b \in b_i$，则同位$a_{M_i}$和$b_{M_i}$重合；因此，$M_i$上有一个独特的$(A/b_i)$模块结构，从而通过同态$A \to A/b_i$导出$M_i$的$A$模块结构。
 
 #### 命题 1 {#alg-vii-s2-prop-1 .statement tag=0724}
 
@@ -64,7 +64,7 @@ $$
 
 #### 注 1 {#alg-vii-s2-n1-rem-1 .statement tag=0725}
 
-相反，令$M'_i$为每个i的$(A/b_i)$模，并考虑A-模$M'_i$的A-模M、直和；然后用$M'_i$在重合之上构建子模$M_i$（对于注来说就足够了，如果$i \neq j$则$M'_j$的非零元素不会被$b_i$消灭，因为$b_i + b_j = A$）。因此，粗略地说，考虑A-模 M 或模的家庭$(M_i)$ 超过环 $A/b_i = A_i$ 相当于同样的事情。
+相反，令$M'_i$为每个i的$(A/b_i)$模，并考虑A-模$M'_i$的A-模M、直和；然后用$M'_i$在重合之上构造子模$M_i$（对于注来说就足够了，如果$i \neq j$则$M'_j$的非零元素不会被$b_i$消灭，因为$b_i + b_j = A$）。因此，粗略地说，考虑A-模 M 或$(M_i)$ 模超过环 $A/b_i = A_i$ 的情况是一样的。
 
 #### 注 2 {#alg-vii-s2-n1-rem-2 .statement tag=0726}
 
@@ -72,7 +72,7 @@ $$
 
 #### 注 3 {#alg-vii-s2-n1-rem-3 .statement tag=0727}
 
-A-模 M 是循环的当且仅当每个 $M_i$ 是循环的：如果 $M = Am$，则 $M_i = A_i e_i m$；反之，如果$M_i = A_i m_i$和$m = \sum_{i \in I} m_i$，则$M = Am$；事实上，如果对于每个 i，$n \in M$ 投影到$a_i m_i$，并且对于每个 i，$a \in A$ 与$a_i$ mod $b_i$ 全等，则 am 和 n 在每个 $M_i$ 中具有相同的像，因此重合。
+A-模 M 是循环的当且仅当每个 $M_i$ 都是循环的：如果 $M = Am$，则 $M_i = A_i e_i m$；反之，如果$M_i = A_i m_i$和$m = \sum_{i \in I} m_i$，则$M = Am$；事实上，如果对于每个 i，$n \in M$ 投影到$a_i m_i$，并且对于每个 i，$a \in A$ 与$a_i$ mod $b_i$ 全等，则 am 和 n 在每个 $M_i$ 中具有相同的像，因此重合。
 
 #### 注 4 {#alg-vii-s2-n1-rem-4 .statement tag=0728}
 
@@ -82,7 +82,7 @@ $$
 \mathrm{Hom}_A(M, N) \to \prod_{i \in I} \mathrm{Hom}_{A_i}(M_i, N_i).
 $$
 
-### 2. 挠元模超过主理想整环的规范分解
+### 2. 规范分解挠元模超过主理想整环
 
 令 M 为模大于交换环 A。对于每个 $a \in A$，令 $M(\alpha)$ 表示 M 的自同态 $x \mapsto \alpha x$ 的核。如果 $a$ 和 $\beta$ 是 A 的两个元素，使得$\alpha$除$\beta$，那么显然是$M(a) \subset M(\beta)$。特别是，当 n 穿过有理数整数 $\geq 1$ 的集合时，子模 $M(\alpha^n)$ 形式递增序列；因此，$M(\alpha^n)$的并$M$是M的子模，M的元素的由……组成被a的一些幂湮灭。对于 M 的每个子模 N，显然有 $N_1 = N \cap M_a$。
 
@@ -160,7 +160,7 @@ $$
 
 一个重要的特殊情况，Th。 1和命题2适用于$A = \mathbf{Z}$； $\mathbf{Z}$-模块只是一个 *阿贝尔的群*。如果阿贝尔的群是挠元$\mathbf{Z}$模块，即如果它的所有元素都有*有限的阶*，则阿贝尔的群被称为*挠元群*。那么$P$被取为素数数$> 0$的集合；对于每个素数数 $p > 0$，如果其所有元素都有阶（即 $p$ 的幂），则 (阿贝尔的) 群被称为 $p$ 扭转。在这个术语，Th。图 1 显示*每个挠元阿贝尔的群都是 p 扭转群的直和*。在有限群的情况下，这也是从 I、p. 80、Th 得出的。 4.
 
-### 3. 应用：I。有理数和有理函数的规范分解在一个不定中
+### 3. 应用：I。有理数和有理函数的正则分解在一个不定中
 
 #### 定理 2 {#alg-vii-s2-thm-2 .statement tag=072K}
 
@@ -186,7 +186,7 @@ Consider $K$ as an $A$-module;那么$A$就是子模由1生成。商模$K/A$是$K
 
 我们现在展示这些条件在$s(p)$和$a$上，完全是确定$H$和$s(p)$。事实上，$H$ 是$p \in P$ 的集合，这样$f(x)$ 在$M_p$ 中的分量就是$\neq 0$。另一方面，如果$s$和$s'$是两个整数$> 0$，使得 s \geq s' 并且如果$a$和$a'$是$A$的元素不能被$p$整除，这样 $ap^{-s} \equiv a'p^{-s'} \pmod{1}$, then we deduce that $a \equiv a'p^{s-s'} \pmod{p^s}$;如果$s > s'$则$a \equiv 0 \pmod{p}$，与假设相矛盾。这个论证还表明每个 $a_i$ 都是明确定义的 mod $p^{s(p)}$。
 
-为了完成证明，我们首先注，在$A$中的每个剩余类类模$p^i$中，存在形式$\sum_{h=0}^{s-1} r_h p^h$的唯一元素，以及$r_h \in R_p$对应$0 \leq h \leq s-1$。事实上，我们在$s$上继续进行归纳（性质是从$R_p$的定义得出$s = 1$）：让$x \in A$； 假设 $x$ mod $p^{s-1}$ 的剩余类类中有形式 $\sum_{h=0}^{s-2} r_h p^h$ ($r_h \in R_p$) 唯一元素；那么$x - \sum_{h=0}^{s-2} r_h p^h$就是$p^{s-1}$的倍数$ap^{s-1}$；现在存在唯一元素 $r_s$，其中 $R_p$ 使得 $a \equiv r_s \pmod{p}$； 从而$x \equiv \sum_{h=0}^{s-1} r_h p^h \pmod{p^s}$。要获得公式 (2)，现在只需将此事实应用于公式 (1) 中的每个 $a_p$ 即可。综上所述，唯一性就很清楚了。
+为了完成证明，我们首先注，在$A$中的每个剩余类类模$p^i$中，存在形式$\sum_{h=0}^{s-1} r_h p^h$的唯一元素，以及$r_h \in R_p$对应$0 \leq h \leq s-1$。事实上，我们在$s$上继续进行归纳（性质是从$R_p$的定义推导出来的$s = 1$）：让$x \in A$； 假设 $x$ mod $p^{s-1}$ 的剩余类类中有形式 $\sum_{h=0}^{s-2} r_h p^h$ ($r_h \in R_p$) 唯一元素；那么$x - \sum_{h=0}^{s-2} r_h p^h$就是$p^{s-1}$的倍数$ap^{s-1}$；现在存在唯一元素$r_s$，$R_p$使得$a \equiv r_s \pmod{p}$； 从而$x \equiv \sum_{h=0}^{s-1} r_h p^h \pmod{p^s}$。要获得公式 (2)，现在只需将此事实应用于公式 (1) 中的每个 $a_p$ 即可。综上所述，唯一性就很清楚了。
 
 以下是 Th 最重要的应用。 2：
 
@@ -206,7 +206,7 @@ $$
 
 其中，对于所有 $p$ 和 $h$，$a(X)$ 是多项式，$v_{ph}(X)$ 是次数严格小于 $p(X)$ 的多项式。特别是，如果域 E 是*代数闭的*，则 $p(X)$ 具有形式 $X - a$ 和 $a \in E$，因此 $v_{ph}(X)$ 是常数。
 
-因此我们可以说，域 E 上的向量空间 $E(X)$ 具有单项式 $X^n$ ($n \geq 0$ 整数) 的基由……组成以及形式的有理数函数 $X^m / (p(X))^h$，其中$p \in P$、$h$和$m$是整数、$h \geq 1$和$0 \leq rn < \deg(p)$。
+因此我们可以说向量空间 $E(X)$ 在域 E 上有单项式 $X^n$ ($n \geq 0$ 整数) 的基由……组成以及形式的有理数函数 $X^m / (p(X))^h$，其中$p \in P$、$h$和$m$是整数、$h \geq 1$和$0 \leq rn < \deg(p)$。
 
 ### 4. 应用：II。 乘法群 / 单位 / 整数模 a
 
@@ -293,4 +293,4 @@ $$
 
 ### 习题 {#alg-vii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

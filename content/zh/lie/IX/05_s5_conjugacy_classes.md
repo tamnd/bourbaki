@@ -29,23 +29,23 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: b37b4b8c43b93b8423ff3492712f3fb1a81e96833cff8cd1c6c7137e8160ebde
+content_sha256: 90f9d2f744b6f39cf5f714dbb4c3facd70c18059d03303c61b8d52a137bb152b
 translated_from: content/en/lie/IX/05_s5_conjugacy_classes.md
 translation_method: google
 source_content_sha256: 67b7c3bf0335e1b8bfbe872472e7bd56c7dbf0d52741cf029286e2edabbf3e06
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 17218e28c01a545ae64f649011011cf48e6787a893425b5b2f239eb0a9e1dc86
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 共轭类
 
 我们保留§4的记号。
 
-### 1.正则元素
+### 1. REGULAR ELEMENTS
 
 由科. 4 Th。 G 的 §2, no. 2、正则元素 $g$ 的 2 可以用以下任一属性来表征：
 
@@ -153,9 +153,9 @@ $C\rightarrow \mathfrak{t}_{reg}/W\rightarrow \mathfrak{g}_{reg}/$广告(G)。
 
 假设G是单连通的；设$g$为G的正则元素。存在G的最大环面S和L(S)的凹室A，两者都是唯一确定的，使得$g\in$exp(A)和$0\in \overline{A}$。
 
-我们可以假设$g$属于到$T_r($§2, no. 2，Th。 2）。令$x$为$\mathfrak{t}_r$的元素，使得exp$x=g$，并令$A'$为$\mathfrak{t}$包含$x$的凹室。 $\mathfrak{t}$ 的凹室 A，使得 $g\in$ exp(A) 是 $\gamma \in \Gamma (T)$ 的凹室 $A'-\gamma$；因此，断言源自提案$2d)$。
+我们可以假设$g$属于到$T_r($§2, no. 2，Th。 2）。令$x$为$\mathfrak{t}_r$的元素，使得exp$x=g$，并令$A'$为$\mathfrak{t}$包含$x$的凹室。 $\mathfrak{t}$ 的凹室 A，使得 $g\in$ exp(A) 是 $\gamma \in \Gamma (T)$ 的凹室 $A'-\gamma$；因此，断言是从命题$2d)$得出的。
 
-### 3.自同构和正则元素
+### 3. 自同构和正则元素
 
 #### 引理 1 {#lie-ix-s5-lem-1 .statement tag=01E5}
 
@@ -165,7 +165,7 @@ a) H 是 G 的闭子群。
 
 b) 如果 $H_0$ 是 G 的中心，则 G 是可交换的（因此 G = T）。
 
-断言 a) 很清楚。为了证明b)，我们可以通过D(G)来替换G（§1，命题4的Cor.1），因此可以假设G是半单。那么，如果$H_0$是G的中心，我们就有$L(H) =\{0\}$，所以自同态$L(u)-$Id of $\mathfrak{g}$是双射的。令$f$为流形G的自同态，由$f(g) =u(g)^{-1}g$对$g\in G$定义；它是étale，因为如果$g\in G$和$x\in \mathfrak{g}$，我们有$T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$，所以$f$在$g$的切线映射是双射的。由此可见，$f$的像是开紧的，因此重合与G，因为G是连通的。现在让 E 为 G (§4, no. 10, Def. 3) 的框架，$u(E)$ 是$u$ 下的像。根据 loc. 19 号提案。如上所述，G 存在元素 $h$，使得 (Int $h$)$(E) =u(E)$。令 $g\in G$ 使得 $h=f(g) =u(g)^{-1}g$；然后
+断言 a) 很清楚。为了证明b)，我们可以通过D(G)来替换G（§1，命题4的Cor.1），因此可以假设G是半单。那么，如果$H_0$是G的中心，我们有$L(H) =\{0\}$，所以自同态$L(u)-$Id of $\mathfrak{g}$是双射的。令$f$为流形G的自同态，由$f(g) =u(g)^{-1}g$对$g\in G$定义；它是étale，因为如果$g\in G$和$x\in \mathfrak{g}$，我们有$T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$，所以$f$在$g$的切线映射是双射的。由此可见，$f$的像是开紧的，因此重合与G，因为G是连通的。现在让 E 为 G (§4, no. 10, Def. 3) 的框架，$u(E)$ 是$u$ 下的像。根据 loc. 19 号提案。如上所述，G 存在元素 $h$，使得 (Int $h$)$(E) =u(E)$。令 $g\in G$ 使得 $h=f(g) =u(g)^{-1}g$；那么
 
 $u\circ$整数$g=$（整数$u(g)$）$\circ u=$整数$g\circ$（整数$h$）$^{-1}\circ u$，
 
@@ -263,7 +263,7 @@ $$
 f: (G/T)\times T\rightarrow G
 $$
 
-这是满射的 (§2, no. 2, Th. 2)。由限制、$f$ 诱导一个满射态射
+这是满射的 (§2, no. 2, Th. 2)。由限制、$f$ 诱导满射态射
 
 $$
 f_r: (G/T)\times T_r\rightarrow G_r
@@ -351,12 +351,12 @@ b) 态射 $f_r, \varphi_r, \varphi_A$ 因此是étale。另一方面，W 在$G/T
 
 #### 注 2 {#lie-ix-s5-n4-rem-2 .statement tag=01EJ}
 
-$\varphi_A$到$W\times A\subset (G/T)\times A$的限制使$W\times A$成为$T_r$与群$H_A$的主覆盖。这样我们就恢复了Cor。 no. 2 提案 2 中的 1。
+$\varphi_A$到$W\times A\subset (G/T)\times A$的限制使$W\times A$成为$T_r$与群$H_A$的主覆盖。这样我们就恢复了Cor。 no. 2 的第 2 号提案 1。
 
 #### 注 3 {#lie-ix-s5-n4-rem-3 .statement tag=01EK}
 
-用指数映射下的$G_r$的$\mathfrak{g}_r$逆像和由exp$_G$诱导的$\varepsilon :\mathfrak{g}_r\rightarrow G_r$映射表示。 映射$(g, x) \rightarrow$（广告$g$）$(x)$从$G\times \mathfrak{t}_r$到$\mathfrak{g}_r$定义通过商映射$\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$。我们有$\varepsilon \circ \psi_r=\varphi_r$。令 $w\in W, \gamma \in \Gamma (T)$ 和 $\omega \in W'_a$ 使得 $\omega (z) =w(z) +\gamma$ 对于所有 $z\in \mathfrak{t}$；那么 $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g$)$(\gamma )$ 对应 $g\in G, x\in \mathfrak{t}_r$，所以 $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ 当且仅当 $\gamma = 0$。由此可见（cf.概述拓扑，第XI，准备中）$\psi_r$是$\mathfrak{g}_r$与群W的主覆盖，而$\varepsilon :\mathfrak{g}_r\rightarrow G_r$是与主覆盖$\varphi_r$相关的覆盖，其纤维同构于$W'_a$-设置$W'_a/W$。
+用指数映射下的$G_r$的$\mathfrak{g}_r$逆像和由exp$_G$诱导的$\varepsilon :\mathfrak{g}_r\rightarrow G_r$映射表示。 映射$(g, x) \rightarrow$（广告$g$）$(x)$从$G\times \mathfrak{t}_r$到$\mathfrak{g}_r$定义通过商映射$\psi_r: (G/T)\times \mathfrak{t}_r\rightarrow \mathfrak{g}_r$。我们有$\varepsilon \circ \psi_r=\varphi_r$。令 $w\in W, \gamma \in \Gamma (T)$ 和 $\omega \in W'_a$ 使得 $\omega (z) =w(z) +\gamma$ 对于所有 $z\in \mathfrak{t}$；那么 $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)-$ (Ad $g$)$(\gamma )$ 对应 $g\in G, x\in \mathfrak{t}_r$，所以 $\psi_r((\overline{g}, x)\omega ) =\psi_r(\overline{g}, x)$ 当且仅当 $\gamma = 0$。由此可见（cf.概述拓扑，第XI，准备中）$\psi_r$是$\mathfrak{g}_r$与群W的主覆盖，$\varepsilon :\mathfrak{g}_r\rightarrow G_r$是与主覆盖$\varphi_r$相关的覆盖，其纤维同构于$W'_a$-设置$W'_a/W$。
 
 ### 习题 {#lie-ix-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

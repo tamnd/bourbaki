@@ -41,16 +41,16 @@ subsections:
       pdf_page: 362
 statements: 31
 exercises: 18
-content_sha256: 4b6d8a78fff468c4ba3d7a744ab44d108e92fb9039894c5617e17096efd6ce99
+content_sha256: b9b92302ea9b79242bc457ad1a913e534fa457603664294d097197439470c778
 translated_from: content/en/top/IV/05_s5_real_valued_functions.md
 translation_method: google
 source_content_sha256: 621e60dc8288e6ddcbaf7c1e586598f735828021aa542b362efd2af2f9c86a93
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c01750e9f1ec761c8fcc0d4764add183cc125456b2a1f396b74b4d0ea7d0150c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 5. 实值函数
@@ -71,7 +71,7 @@ $$
 $$
 将 $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$ 转换为 $\overline{\mathbf{R}}$，并将映射 $x \to (f(x), g(x))$ 将 $X$ 转换为 $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$。对于 $\inf (f, g)$ 也是如此。
 
-在集合 $X$ 上定义的实值函数 $f$ 被认为是 * 上界 * （分别是。 *bounded below*) in $X$, if $f(X)$ is a subset of $A'' = [-\infty, +\infty]$ and is bounded above (resp. if $f(X)$ is a subset of $A' = ]-\infty, +\infty]$ and is bounded below). $f$ is said to be *bounded* in $X$ if it is bounded both above and below, that is if $f(X)$ is a bounded subset of $\mathbf{R}$.
+A real-valued function $f$ defined on a set $X$ is said to be *bounded above* (resp. *bounded below*) in $X$, if $f(X)$ is a subset of $A'' = [-\infty, +\infty]$ and is bounded above (resp. if $f(X)$ is a subset of $A' = ]-\infty, +\infty]$ and is bounded below). $f$ is said to be *bounded* in $X$ if it is bounded both above and below, that is if $f(X)$ is a bounded subset of $\mathbf{R}$.
 
 因此，每个有界函数都是*有限*。 逆命题为假，如$\mathbf{R}_+^* = ]0, +\infty[$上的函数$1/x$所示。
 
@@ -134,7 +134,7 @@ $$
 $$
 *或 $f(a-)$，如果 X 是 Hausdorff。*
 
-同样，如果$a$在集合$A \cap ]a, + \infty]$的闭包中，我们在点$a$处$f$的右侧*（如果存在）定义一个*极限，并将其表示为
+同样，如果$a$在集合$A \cap ]a, + \infty]$的闭包中，我们在点$a$处$f$右侧*（如果存在）定义一个*极限，并将其表示为
 $$
 \lim_{x \to a,\ x > a,\ x \in A} f(x),
 $$
@@ -150,7 +150,7 @@ $$
 
 #### 定义 3 {#top-iv-s5-def-3 .statement tag=0BRC}
 
-*设f为定义在集合X上的实值函数，并令A为X的非空子集。那么$\overline{\mathbf{R}}$中集合$f(A)$的最小上界（或下确界）称为A中f的最小上界（或下确界），记为*
+*设f为定义在集合X上的实值函数，并设A为X的非空子集。那么$\overline{\mathbf{R}}$中集合$f(A)$的最小上界（或下确界）称为A中f的最小上界（或下确界），记为*
 $$
 \sup_{x \in A} f(x) \quad \text{[resp. } \inf_{x \in A} f(x) \text{]}.
 $$
@@ -166,9 +166,9 @@ $$
 (i) 对于所有$x \in A, f(x) \leq a$。
 (ii) 对于每个$b < a$，都存在$x \in A$使得$b < f(x) \leq a$。
 
-数$\sup_{x \in A} f(x)$和$\inf_{x \in A} f(x)$属于到$\overline{\mathbf{R}}$中$f(A)$的*关闭*。我们有$\inf_{x \in A} f(x) \leq \sup_{x \in A} f(x)$；当且仅当 $f$ 在 A 上是*常数*时，这两个数 *相等*。
+数$\sup_{x \in A} f(x)$和$\inf_{x \in A} f(x)$属于到$\overline{\mathbf{R}}$*关闭*$f(A)$。我们有$\inf_{x \in A} f(x) \leq \sup_{x \in A} f(x)$；当且仅当 $f$ 在 A 上是*常数*时，这两个数*相等*。
 
-定义在集合 X 上的实值函数，在 X 的非空子集 A 中*上界*（分别*下界*）当且仅当 $\sup_{x \in A} f(x) < + \infty$ [resp。 $\inf_{x \in A} f(x) > -\infty$]。 $f$ 在 A 中是有界的当且仅当$|f|$ 在 A 中有界，因此当且仅当$\sup_{x \in A} |f(x)| < + \infty$。
+定义在集合 X 上的实值函数，在 X 的非空子集 A 中*上界*（分别*下界*）当且仅当 $\sup_{x \in A} f(x) < + \infty$ [分别*下界*]。 $\inf_{x \in A} f(x) > -\infty$]。 $f$ 在 A 中是有界的当且仅当$|f|$ 在 A 中有界，因此当且仅当$\sup_{x \in A} |f(x)| < + \infty$。
 
 我们有
 
@@ -210,7 +210,7 @@ $$
 
 #### 命题 7 {#top-iv-s5-prop-7 .statement tag=0BRF}
 
-*令$f$为定义在$X$上的实值函数。如果$A$和$B$是$X$的两个非空子集，使得$A \subset B$，则*
+*令$f$为定义在$X$上的实值函数。如果$A$和$B$是$X$的两个非空子集，使得$A \subset B$，那么*
 
 $$
 \sup_{x \in A} f(x) \leq \sup_{x \in B} f(x).
@@ -218,13 +218,13 @@ $$
 
 #### 命题 8 {#top-iv-s5-prop-8 .statement tag=0BRG}
 
-*令$f$为定义在$X$上的实值函数，令$(A_i)_{i \in I}$为$X$的非空子集的非空族；那么*
+*设$f$为$X$上定义的实值函数，并令$(A_i)_{i \in I}$为$X$的非空子集的非空族；那么*
 
 $$
 \sup_{x \in \bigcup_{i \in I} A_i} f(x) = \sup_{i \in I} (\sup_{x \in A_i} f(x)).
 $$
 
-令$f$为定义在乘积集合$X_1 \times X_2$上的实值函数。如果$A_2$是$X_2$的非空子集，我们将用$\sup_{x_1 \in A_2} f(x_1, x_2)$表示在$X_2$上定义的实值函数$x_2 \to f(x_1, x_2)$中$A_2$中最小的上界。从命题 8 我们特别推出：
+令$f$为定义在乘积集合$X_1 \times X_2$上的实值函数。如果$A_2$是$X_2$的非空子集，我们将用$\sup_{x_1 \in A_2} f(x_1, x_2)$表示$X_2$上定义的实值函数$x_2 \to f(x_1, x_2)$中$A_2$中最小的上界。从命题 8 我们特别推出：
 
 #### 命题 9 {#top-iv-s5-prop-9 .statement tag=0BRH}
 
@@ -240,13 +240,13 @@ $$
 
 *设$(f_i)_{i \in I}$是在集合$X$上定义的实值函数族。 $X$ 上的实值函数，其值在每个点 $x \in X$ 处为 $\sup_{i \in I} (f_i(x))$ [resp]。 $\inf_{i \in I} (f_i(x))$]称为$(f_i)$族的上（或下）信封，并用$\sup_{i \in I} f_i$或$\sup_i f_i$（或$\inf_{i \in I} f_i$或$\inf_i f_i$）表示。
 
-因此，族$(f_i)$的上包络是该族在$X$上定义的实值函数的格子$\overline{\mathbf{R}}$中的最小上界，并且这证明记号$\sup_{i \in I} f_i$是合理的。
+因此，族$(f_i)$的上包络线是在$X$上定义的实值函数的格子$\overline{\mathbf{R}}$中该族的最小上界，并且这证明记号$\sup_{i \in I} f_i$是合理的。
 
 此外，如果我们赋予$\overline{\mathbf{R}}^X$以拓扑，即其因子拓扑的乘积（与$\overline{\mathbf{R}}$相同），我们有以下命题：
 
 #### 命题 10 {#top-iv-s5-prop-10 .statement tag=0BRJ}
 
-*在乘积空间$\overline{\mathbf{R}}^X$实值族函数$(f_i)_{i \in I}$的上限$\sup_{i \in I} f_i$是极限，相对于有限子集的有向集合$\mathfrak{F}(I)$ $I$，映射$H \to \sup_{i \in H} f_i$[其中映射每个有限子集$H$共$I$到有限子族$(f_i)_{i \in H}$的上包络线]。
+*在乘积空间$\overline{\mathbf{R}}^X$实值函数$(f_i)_{i \in I}$族的上包络线$\sup_{i \in I} f_i$是极限，相对于有限子集的有向集合$\mathfrak{F}(I)$ $I$，映射$H \to \sup_{i \in H} f_i$[其中映射每个有限子集$H$共$I$到有限子族$(f_i)_{i \in H}$的上包络]。
 
 这紧接着从no. 4的命题5和章I, § 7, no. 6，推论1到命题10。
 
@@ -561,4 +561,4 @@ $$
 
 ### 习题 {#top-iv-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -40,16 +40,16 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: c3eb2455542c6e97c0fd61b6fc8594bd18de65701de3bf85ee88fdf69f288474
+content_sha256: c722f9399c12097ec5a8b96f63f6fefc5452e83d26895de48eb410e3998a6446
 translated_from: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
 translation_method: google
 source_content_sha256: 9798f2a69885491f713db436a4833ff226e18b3becfed322106b65f6897d576a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: d29fb99c443d7697a2ab2d67d8cfac9e6fcc13ddee43cd128811a86b1611cf51
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。向量值函数的积分
@@ -112,11 +112,11 @@ $$
 
 A great many propositions about essentially integrable numerical functions may be transposed word for word into propositions about scalarly essentially integrable vector-valued functions. 其中更重要的是，我们提请注意条件，因为函数对于密度定义的度量本质上是可积的（第1章）。 V, §5, No. 3，Th。 1)，或关于某项措施的像（第 1 章） V, §6, No. 2，Th。 1），或关于诱导措施（第 1 章） V, §7, No. 1，Th。 1)，或者关于正测度的可求和族的和（第 1 章） V, §2, No. 2，道具。 1和3以及Cor。提案 1 中的 3）。 这些转换留给读者。
 
-然而，要在“双积分”（第V, §3, No. 3，Th.1和§8, No. 4，Th.1（Lebesgue–Fubini定理））上获得叙述相应的到定理，有必要加强假设(cf.锻炼。1);在应用上，将先前引用的定理到函数$\langle \mathbf{z}', f \rangle$中的每一个，其中$\mathbf{z}' \in F'$，因此获得以下命题：
+然而，为了在“双积分”上获得叙述相应的到定理（第V, §3, No. 3，Th.1和§8, No. 4，Th.1（Lebesgue–Fubini定理）），有必要加强假设(cf.锻炼。1);在应用上，将先前引用的定理到函数$\langle \mathbf{z}', f \rangle$中的每一个，其中$\mathbf{z}' \in F'$，因此获得以下命题：
 
 #### 命题 3 {#int-vi-s1-prop-3 .statement tag=098K}
 
-— 令$X$为$X$积极措施的局部紧凑空间，$t \mapsto \lambda_t$一个$\mu$充分$^3$族（第V, §3, No. 1，定义1），并令$\nu = \int \lambda_t d\mu(t)$。令$f$为$X$的映射变为$F$；假设 $1^\circ$ $f$ 是 $\nu$ 标量可积的； $2^\circ$ 存在一个局部 $\mu$ 可忽略不计的集合 $N \subset T$，这样，对于每个 $t \notin N$，$f$ 是标量 $\lambda_t$ 可积且$\int f d\lambda_t \in F$。那么，为 $t \notin N$ 定义的函数 $t \mapsto \int f d\lambda_t$ 本质上是 $\mu$ 可标量可积的，并且 $^4$
+— 令$X$为$X$积极措施的局部紧凑空间，$t \mapsto \lambda_t$一个$\mu$充分$^3$族（第V, §3, No. 1，定义1），并令$\nu = \int \lambda_t d\mu(t)$。令$f$为$X$的映射变为$F$；假设 $1^\circ$ $f$ 是 $\nu$ 标量可积的； $2^\circ$ 存在一个局部 $\mu$ 可忽略的集合 $N \subset T$，这样，对于每个 $t \notin N$，$f$ 是标量 $\lambda_t$ 可积且$\int f d\lambda_t \in F$。那么，为 $t \notin N$ 定义的函数 $t \mapsto \int f d\lambda_t$ 本质上是 $\mu$ 可标量可积的，并且 $^4$
 
 $$
 \int f(x) d\nu(x) = \int d\mu(t) \int f(x) d\lambda_t(x) .
@@ -219,7 +219,7 @@ $$
 
 由于$B$是有界的，并且由于级数与广义项$\mu(K_n)$收敛并且具有和$\mu(T)$，因此可以看出序列与广义项$s_n = z_1 + z_2 + \cdots + z_n$是完整的柯西序列子集$\mu(T)B$共$F$。因而，这个序列收敛到$\mu(T)B$的元素$s$；因为可以假设$f(t) = 0$在$T - S$上，勒贝格的定理应用于函数$\langle z', f \rangle$（$z' \in F'$）中的每一个都证明了$s = \int f d\mu$。
 
-### 3.算子的积分
+### 3. 算子积分
 
 设$G$和$H$是$\mathbf{R}$上的两个Hausdorff局部凸空间，现在假设$F$是$G$的连续线性映射到$H$的空间$\mathscr{L}(G; H)$，配备拓扑 *逐点*收敛。 $F$上的每个连续线性形式都可以扩展到乘积空间$H^G$上的连续线性形式（TVS，II, §4, No. 1，命题2），因此可以写成$u \mapsto \sum_{i=1}^n \langle u(a_i), b'_i \rangle$，其中$a_i$（分别为$b'_i$）是$G$的元素（分别是$H$的对偶$H'$）。 说$T$到$F$的映射$U$本质上是$\mu$可积，意味着对于每个$a \in G$和每个$b \in H'$，数值函数$t \mapsto \langle U(t) \cdot a, b' \rangle$本质上是$\mu$可积。
 
@@ -287,23 +287,23 @@ b) $H$ 是半自反的，$\mu$ 是有界的，如果 $S$ 是其支持，$U$ 是�
 
 c) $H$ 是半自反的，$G$ 是桶状的，$U$ 本质上是 $\mu$ 可标量可积的，并且，对于 $T$ 的每个紧致子集 $K$，$U(K)$ 是有界的。
 
-在所有三种情况下，$U$ 本质上是可积的这一事实是显而易见的；凭借第 9 号提案及其推论，在每种情况下都足以验证第 9 号提案的条件 a)。现在，这个条件是从第一种情况下No. 2的第 8 条提案以及 Cor.9 中得出的。在另外两种情况下，符合No. 2第7条的规定。
+在所有三种情况下，$U$ 本质上是可积的这一事实是显而易见的；凭借第 9 号提案及其推论，在每种情况下都足以验证第 9 号提案的条件 a)。现在，这个条件是从第一种情况下No. 2的第 8 条提案以及 Cor.9 中得出的。 No. 2 的第 7 号提案在其他两种情况下。
 
-### 4.性质（GDF）
+### 4. 性质 (GDF)
 
 在本期中，我们将考虑具有以下性质的局部凸空间$F$（称为“可数闭图”性质）：⁶
 
 ⁶ *Graphe dénombrablement fermé*，从而缩写 (GDF)。
 
-(GDF) *如果 u 是 F 的线性映射到 Banach 空间 B，使得在乘积空间 F × B 中，u 的图 Γ 的点的每个收敛序列的每个极限再次属于到 Γ，则 u 是连续的。*
+(GDF) *如果 u 将 F 的线性映射转化为 Banach 空间 B，使得在乘积空间 F × B 中，u 的图 Γ 的点的每个序列的每个极限再次属于收敛到 Γ，则 u 是连续。*
 
-每个 Fréchet 空间都有性质 (GDF)（TVS、I, §3, No. 3、Th.1 的 Cor. 5）。在附录中，我们将看到空间的其他例具有性质（GDF）。
+每个 Fréchet 空间都有性质 (GDF)（TVS，I, §3, No. 3，Th.1 的 Cor.5）。在附录中，我们将看到空间中的其他例具有性质（GDF）。
 
 #### 命题 11 {#int-vi-s1-prop-11 .statement tag=098W}
 
 *每个具有性质 (GDF) 的 Hausdorff 局部凸空间 F 都是桶装的。*
 
-设V为F中的桶，q为规范，是F上的半范数；令 H 为与空间 F 相关联的 Hausdorff 空间，并配备由该单一半范数定义的拓扑。 H 的完成$\widehat{H}$ 是 Banach 空间；令$\pi$为F的典范映射进入$\widehat{H}$；我们将证明 $\pi$ 是*连续的*（对于 F 上的原始拓扑）；这将建立命题，因为$\widehat{H}$的单位球的$\pi$下的V、逆像将是F中0的邻域。为了建立$\pi$的连续性，凭借（GDF），只需证明$\pi$的图为*于$F \times \widehat{H}$*关闭*；在其他字中，我们必须看到，如果$\mathscr{F}$是F上的一个滤波器，收敛到$x \in F$，并且它的像$\pi(\mathscr{F})$收敛到$y \in \widehat{H}$，那么$y = \pi(x)$。现在，$F'$中V的极$V^\circ$的每个元素$x'$只能以一种方式扩展为$\widehat{H}$上的连续线性形式（再次表示为$x'$），以及其中的集合形式是$\widehat{H}$对偶的单位球；因此，只要证明对于每个$x' \in V^\circ$就有$\langle y, x' \rangle = \langle \pi(x), x' \rangle$。但这是从关系得出的
+令V为F中的桶，q为规范，它是F上的半范数；令 H 为与空间 F 相关联的 Hausdorff 空间，并配备由该单一半范数定义的拓扑。 H 的补全 $\widehat{H}$ 是 Banach 空间；令$\pi$为F的典范映射进入$\widehat{H}$；我们将证明$\pi$是*连续的*（对于F上的原始拓扑）；这将建立命题，因为$\widehat{H}$的单位球的$\pi$下的V、逆像将是F中0的邻域。为了建立$\pi$的连续性，凭借（GDF），只需证明$\pi$的图为*于 $F \times \widehat{H}$ 关闭*；在其他字中，我们必须看到，如果$\mathscr{F}$是F上的一个滤波器，收敛到$x \in F$，并且它的像$\pi(\mathscr{F})$收敛到$y \in \widehat{H}$，那么$y = \pi(x)$。现在，$F'$中V的极$V^\circ$的每个元素$x'$只能以一种方式延伸到$\widehat{H}$上的连续线性形式（再次表示为$x'$），以及其中的集合形式是$\widehat{H}$对偶的单位球；因此，只要证明对于每个 $x' \in V^\circ$ 就有$\langle y, x' \rangle = \langle \pi(x), x' \rangle$。但这是从关系得出的
 
 $$
 \langle y, x' \rangle = \lim_{\mathscr{F}} \langle \pi(z), x' \rangle = \lim_{\mathscr{F}} \langle z, x' \rangle = \langle x, x' \rangle = \langle \pi(x), x' \rangle .
@@ -311,13 +311,13 @@ $$
 
 #### 定理 1 {#int-vi-s1-thm-1 .statement tag=098X}
 
-(Gelfand-Dunford)—*设 F 为 Hausdorff 局部凸空间，具有性质 (GDF)，$F'_s$ 其弱对偶。对于 T 的每个映射 f 到 $F'_s$ 本质上是 $\mu$ 可标量可积的，$\int f d\mu$ 属于到 $F'$ 的积分。*
+(Gelfand-Dunford)—*设 F 为 Hausdorff 局部凸空间，具有性质 (GDF)，$F'_s$ 其弱对偶。对于 T 的每个映射 f 到 $F'_s$ 本质上是 $\mu$ 可积的，$\int f d\mu$ 属于到 $F'$ 的积分。*
 
-回想一下，$F'_s$ 的对偶是 F（TVS，II, §6, No. 2，命题 3）。因此，对于每个$z \in F$，数值函数$\langle z, f \rangle$本质上是$\mu$可积的；设$\theta(z)$为$L^1(\mu)$中的类。为了证明$\int f d\mu \in F'$，必须证明线性形式$z \mapsto \langle z, \int f d\mu \rangle$在F上连续；事实上，我们将证明以下更强的结果：
+回想一下，$F'_s$ 的对偶是 F（TVS，II, §6, No. 2，命题 3）。因此，对于每个 $z \in F$，数值函数 $\langle z, f \rangle$ 本质上是 $\mu$ 可积的；设$\theta(z)$为$L^1(\mu)$中的类。为了证明 $\int f d\mu \in F'$，必须证明线性形式 $z \mapsto \langle z, \int f d\mu \rangle$ 在 F 上连续；事实上，我们将证明以下更强的结果：
 
 #### 引理 2 {#int-vi-s1-lem-2 .statement tag=098Y}
 
-*令f为T到$F'_s$的映射，这样对于每个$z \in F$，数值函数$\langle z, f \rangle$属于到$\overline{\mathscr{L}}^p(\mu)$（$1 \leq p \leq +\infty$）；设$\theta(z)$为$L^p(\mu)$中的函数的类。那么$z \mapsto \theta(z)$就是F到$L^p(\mu)$的连续线性映射。*
+*令f为T到$F'_s$的映射，这样对于每个$z \in F$，数值函数$\langle z, f \rangle$属于到$\overline{\mathscr{L}}^p(\mu)$（$1 \leq p \leq +\infty$）；令$\theta(z)$为$L^p(\mu)$中的函数的类。那么$z \mapsto \theta(z)$就是F到$L^p(\mu)$的连续线性映射。*
 
 凭借（GDF）性质，足以证明对于F的元素的每一个序列$(z_n)$收敛到$z$，使得$(\theta(z_n))$收敛到$u \in L^p(\mu)$，就有$u = \theta(z)$。现在，替换，如果需要序列$(z_n)$通过一个子序列，我们可以假设函数$\langle z_n, f \rangle$的序列几乎处处局部收敛到函数$h \in \overline{\mathscr{L}}^p(\mu)$，其中类$u$在$L^p(\mu)$（第 IV, §3, No. 4、第 3 章和第 V, §1, No. 3）。因为到假设，对于每个$t \in T$序列$(\langle z_n, f(t) \rangle)$收敛到$\langle z, f(t) \rangle$，我们几乎在所有地方都有$h(t) = \langle z, f(t) \rangle$，因而$u = \theta(z)$。
 
@@ -353,11 +353,11 @@ By Th. 1, $\int (\lambda_i(z) \circ f) d\mu \in G_i'$ for $1 \leq i \leq n$, the
 
 *设 F 为可分离、可度量的局部凸空间 $F_n$ 的局部凸空间，即序列的直极限，F 为 $F_n$ 的并。令$F'$为F的对偶，配备拓扑$\sigma(F', F)$。然后，T 到 $F'$ 中的每个标量 $\mu$ 可测量映射 f 都是 $\mu$ 可测量。*
 
-首先假设 F 是可度量且可分离的，并令 D 为 F 中的可数稠密集合。令 $(V_n)$ 为 F 中 0 的平衡、凸、开邻域的递减基本序列；极坐标集合 $V_n^\circ$ 是等连续的，并且它们的并是 $F'$ 的全部。设 $T_n = f(V_n^\circ)$； 序列$(T_n)$为递增和$T = \bigcup T_n$；让我们证明每个 $T_n$ 都是 $\mu$-*可测量*。事实上，$D \cap V_n^n$在$V_n$中是稠密的；对于每个$y \in D \cap V_n$，令$S_y$为$t \in T$的集合，使得$|\langle y, f(t) \rangle| \leq 1$； 假设意味着$S_y$ 中的每一个都是可测量的，$T_n$ 是$S_y$ ($y \in D \cap V_n$) 可数族的交。因而，对于 T 的每个紧致子集 K 和每个 $\varepsilon > 0$，存在整数 n 使得 $\mu(K - (K \cap T_n)) \leq \frac{\varepsilon}{4}$，然后存在 $K \cap T_n$ 的紧致子集 $K_1$ 使得 $\mu((K \cap T_n) - K_1) \leq \frac{\varepsilon}{4}$；最后，存在 $K_1$ 的紧凑子集 $K_2$，使得 $\mu(K_1 - K_2) \leq \frac{\varepsilon}{2}$ 且所有函数 $\langle y, f \rangle$ 的限制到 $K_2$，其中 $y \in D$ 是连续的（Ch. IV, §5, No. 1，命题 2）。由于集合$f(K_2) \subset f(T_n) \subset V_n^\circ$是等连续的，$\sigma(F', F)$在$f(K_2)$上引起的拓扑与$D$中逐点收敛的拓扑相同（GT，X, §2, No. 4，Th.1）；因而，$f$到$K_2$的限制是连续的，从而是第一种情况下的断言。
+首先假设 F 是可度量且可分离的，并令 D 为 F 中的可数稠密集合。令 $(V_n)$ 为 F 中 0 的平衡、凸、开邻域的递减基本序列；极坐标集合 $V_n^\circ$ 是等连续的，并且它们的并是 $F'$ 的全部。设 $T_n = f(V_n^\circ)$； 序列$(T_n)$为递增和$T = \bigcup T_n$；让我们证明每个 $T_n$ 都是 $\mu$-*可测量*。事实上，$D \cap V_n^n$在$V_n$中是稠密的；对于每个$y \in D \cap V_n$，令$S_y$为$t \in T$的集合，使得$|\langle y, f(t) \rangle| \leq 1$； 假设意味着$S_y$ 中的每一个都是可测量的，$T_n$ 是$S_y$ ($y \in D \cap V_n$) 可数族的交。因而，对于 T 的每个紧致子集 K 和每个 $\varepsilon > 0$，存在整数 n 使得 $\mu(K - (K \cap T_n)) \leq \frac{\varepsilon}{4}$，然后存在 $K \cap T_n$ 的紧致子集 $K_1$ 使得 $\mu((K \cap T_n) - K_1) \leq \frac{\varepsilon}{4}$；最后，存在 $K_1$ 的紧凑子集 $K_2$，使得 $\mu(K_1 - K_2) \leq \frac{\varepsilon}{2}$ 并且所有函数 $\langle y, f \rangle$ 的限制到 $K_2$，其中 $y \in D$ 是连续的（Ch. IV, §5, No. 1，命题 2）。由于集合$f(K_2) \subset f(T_n) \subset V_n^\circ$是等连续的，$\sigma(F', F)$在$f(K_2)$上引起的拓扑与$D$中逐点收敛的拓扑相同（GT，X, §2, No. 4，Th.1）；因而，$f$到$K_2$的限制是连续的，从而我们在第一种情况下的断言。
 
 让我们讨论一般情况。如果$z'$是$F$上的连续线性形式，则其限制$z'_n$到$F_n$是连续的；从$F = \bigcup_n F_n$开始，$F$的对偶$F'$可以用乘积$\prod_n F'_n$和$\operatorname{pr}_n z' = z'_n$的线性子空间（代数上）来识别。此外，由于$F$的每个有限子集都包含在$F_n$之一中，因此拓扑$\sigma(F', F)$正是由拓扑$\sigma(F'_n, F_n)$的乘积拓扑引起的拓扑。既然如此，如果$f$是$\mu$标量可测量的，那么$\operatorname{pr}_n \circ f$是$\mu$可标量测量的，因为对于每个$t \in T$，$\operatorname{pr}_n(f(t))$是$f(t)$到$F_n$的限制。 证明的第一个部分显示，对于每个 $n$，$\operatorname{pr}_n \circ f$ 是 $\mu$ 可测量的，因而 $f$ 也是如此（第 IV, §5, No. 3，第 1 章）。
 
-### 6. 应用程序：I。连续函数至空间措施的扩张
+### 6. 应用：I。连续函数至空间措施的扩张
 
 令$T$为局部紧致空间，$F$为准完备、Hausdorff局部凸空间，$f$为$T$到$F$的连续映射；如果$\mu$是$T$的正测度，且具有紧支撑$S$，则$f(S)$是紧的； $f(S)$ 的封闭凸包络是紧致的（TVS，III, §1, No. 6），因此 $f$ 是$\mu$ 标量可积且$\int f \, d\mu \in F$（No. 2，第 5 条命题的参考）。 如果现在$\lambda$是任何具有紧支撑的实测度，则$\lambda^+$和$\lambda^-$是具有紧支撑的正测度； 设定$\int f \, d\lambda = \int f \, d\lambda^+ - \int f \, d\lambda^-$，立即验证（使用关系$(\lambda + \mu)^+ + \lambda^- + \mu^- = \lambda^+ + \mu^+ + (\lambda + \mu)^-$）$\lambda \mapsto \int f \, d\lambda$是空间$\mathscr{C}'(T)$在紧支撑下$T$上的测度中的线性映射，进入局部凸空间$F$。
 
@@ -385,13 +385,13 @@ Let us now observe that the space $\mathscr{C}'(T)$ may be identified with the d
 
 *令$T$为局部紧致空间，$F$为准完备的Hausdorff局部凸空间，$f$为$T$的连续映射进入$F$，使得$f(T)$有界。如果$\mathscr{M}^1(T)$配备其Banach空间拓扑，则$\mathscr{M}^1(T)$到$F$的线性映射$\lambda \mapsto \int f\, d\lambda$是连续的。*
 
-对于 $F$ 中每个 0 的闭合、平衡、凸邻域 $V$，存在一个 $\rho > 0$ 使得 $f(T) \subset \rho V$；因此，$f(T)$的封闭、平衡、凸包络$B$包含在$\rho V$中，并且到假设为止是完整的。如果$\| \lambda \| \leq 1/\rho$，则根据第8条命题No. 2和关系$\| \lambda \| = \lambda^+(T) + \lambda^-(T)$，得出$\int f\, d\lambda \in B/\rho \subset V$。
+对于 $F$ 中每个 0 的闭合、平衡、凸邻域 $V$，存在一个 $\rho > 0$ 使得 $f(T) \subset \rho V$；因此，$f(T)$的封闭、平衡、凸包络线$B$包含在$\rho V$中，并且由假设完成。如果$\| \lambda \| \leq 1/\rho$，则根据第8条命题No. 2和关系$\| \lambda \| = \lambda^+(T) + \lambda^-(T)$，得出$\int f\, d\lambda \in B/\rho \subset V$。
 
-### 7. 应用程序：II。 扩张、空间措施、连续函数以及空间运算符中的值
+### 7. 应用：II。 扩张，到空间度量，连续函数和值在空间运算符中
 
 令$G$为Hausdorff局部凸空间，$H$为Hausdorff及拟完全局部凸空间，并用$G$的连续线性映射的$F$空间$\mathscr{L}(G; H)$表示为$H$，配备*紧凑收敛*的拓扑。 空间$F$不一定是准完备的，如果$t \mapsto U(t)$是$T$到$F$的连续映射，并且$\mu$是具有紧支持的$T$的正测度，则不一定有$\int U\, d\mu \in F$（Exer. 27）。然而，如果对于$T$的每个紧致子集$K$，$U(K)$是*等连续的*，那么它在$F$中的平衡凸包络也是等连续的（TVS，III, §3, No. 4），并且由于$H$是准完全的，所以这个平衡凸包络的闭包将是一个完全的子集 / $F$（TVS，III, §3, No. 8，提案 11）；那么确实会有 $\int U\, d\mu \in F$（No. 2，提案 8）。
 
-对$U$施加的补充条件可以用其他方式表示：
+对$U$征收的补充条件可以用其他方式表示：
 
 #### 引理 3 {#int-vi-s1-lem-3 .statement tag=0996}
 
@@ -399,7 +399,7 @@ Let us now observe that the space $\mathscr{C}'(T)$ may be identified with the d
 a) $T \times G$到$H$的映射$(t, x) \mapsto U(t) \cdot x$是连续的。
 b) 对于$T$的每个紧凑子集$K$，$U(K)$是等连续的，并且存在总共集合$D \subset G$，使得对于每个$x \in D$，映射$t \mapsto U(t) \cdot x$在$T$上连续。*
 
-此外，当$U$满足这些条件时，$U$是$T$到$\mathscr{L}(G; H)$的连续映射，配备有紧收敛的拓扑。
+此外，当$U$满足这些条件时，$U$是$T$到$\mathscr{L}(G; H)$的连续映射，配备紧致收敛的拓扑。
 
 为了看出a)蕴含b)，我们观察到对于$H$中的每个0的邻域$V$和每个$t \in K$，假设存在$T$中的$t$的邻域$L_t$和$G$中的0的邻域$W_t$，使得关系 $t' \in L_t$ 和$x \in W_t$ 意味着$U(t') \cdot x \in V$。只要用有限的数邻域$L_{t_i}$覆盖$K$，并且每当$t \in K$和$x \in W$时，在阶中取$W = \bigcap_i W_{t_i}$就可以得到$U(t) \cdot x \in V$，这就证明了$U(K)$的等连续性。
 
@@ -452,4 +452,4 @@ $$
 
 ### 习题{#int-vi-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

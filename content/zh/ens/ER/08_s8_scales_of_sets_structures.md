@@ -13,16 +13,16 @@ pdf_pages: 0388-0390
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9f4452938380ed8c1e1219326005fa1d1ea7f458078f4c9dc9d567756766df8e
+content_sha256: a30131ceb2256b02a867dd4d2d0de214761bc748cb3d1a09fa82914f007c5caa
 translated_from: content/en/ens/ER/08_s8_scales_of_sets_structures.md
 translation_method: google
 source_content_sha256: 1729e7f56fb13a5cfb4b19ed30304bcfc4d735d7f99cdf7c9579aa41117e6f82
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: df21e6b836f0466e28732c7b36df2d340248e921d98cfdee1547d0980cd1ddd7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 8. 集合的音阶。 结构
@@ -53,22 +53,22 @@ $$C \cup \overline{C}^{-1} = E \times E.$$
 
 *拓扑结构*提供了这种情况的例；它们可以通过几个等价公理系统来定义，其中两个系统特别有用（参见*一般拓扑*、章I, § 1）。
 
-5. 令 E、F、G 为三个集合，并假设我们将 E、F、G 的*双射* 映射分别赋予到另外三个集合 E′、F′、G′ 上。由于我们知道如何将双射映射的定义 *典范扩张* 到子集 (§ 2, no. 9) 的集合以及乘积集合 (§ 3, no. 14)，我们可以一步一步地定义，给定双射的*扩张*到两个集合M、M'分别根据*相同的概形*在集合的尺度上基于E、F、G和基于E'、F'、G'构建。令$f$为M在如此获得的M′上的双射。如果$\sigma$在E，F，G上是结构，即M的子集T的元素，我们说$f(\sigma)$是通过给定的方法将结构$\sigma$*传输*到E′，F′，G′上获得的结构双射 E 到 E′，F 到 F′，G 到 G′。与 E、F、G 上的结构 $\sigma$ 相关的每个命题都会产生（通过使用适当的扩张）到与 E'、F'、G' 上的结构 $f(\sigma)$ 相关的命题。
+5. 令 E、F、G 为三个集合，并假设我们将 E、F、G 的*双射* 映射分别赋给另外三个集合 E′、F′、G′。由于我们知道如何将双射映射的 *典范扩张* 子集 (§ 2, no. 9) 的定义到集合以及乘积集合 (§ 3, no. 14)，我们可以一步一步地定义， *给定双射的扩张*到两个集合M、M′分别根据E、F、G的集合尺度上的*相同的概形*和基于E′、F′、G′的集合M、M′分别构建。令$f$为M到M′上的双射。如果$\sigma$在E，F，G上是结构，即M的子集T的元素，我们说$f(\sigma)$是通过给定的方法将结构$\sigma$*传输*到E′，F′，G′上获得的结构双射 E 到 E′，F 到 F′，G 到 G′。与 E、F、G 上的结构 $\sigma$ 相关的每个命题都会产生（通过使用适当的扩张）到与 E'、F'、G' 上的结构 $f(\sigma)$ 相关的命题。
 
-相反，如果可以通过 E、F、G 的双射 *传输* $\sigma$ 到 E'、F'、G' 上来获得 $\sigma'$，则 E、F、G 上的结构 $\sigma$ 和 E'、F'、G' 上的结构 $\sigma'$ 被称为“同构的”，分别；然后，这些映射被称为构成 $\sigma$ 到 $\sigma'$ 的 *同构的*。
+相反，如果 $\sigma'$ 可以通过将 E、F、G 的双射分别*传输* $\sigma$ 到 E'、F'、G' 上来获得，则 E、F、G 上的结构 $\sigma$ 和 E'、F'、G' 上的结构 $\sigma'$ 被称为“同构的”；然后，这些映射被称为构成 $\sigma$ 到 $\sigma'$ 的 *同构的*。
 
-当我们关心单个集合 E上的结构时，E的双射到E′，其中迁移$\sigma$到$\sigma'$也称为集合E的*同构的，赋予结构 $\sigma$，到集合 E′，赋予结构 $\sigma'$。*
+当我们关心单个集合 E上的结构时，E的双射到E′上，其中迁移$\sigma$到$\sigma'$也称为集合E的*同构的，赋予结构$\sigma$，到集合 E′，赋予结构 $\sigma'$.*
 
-当F和G是两个辅助集合时，这个映射也称为*同构的*，而对于这两个集合来说，双射是F和G自身的*恒等式*映射。
+当F和G是两个辅助集合时，这个映射也称为*同构的*，而这两个集合的双射是F和G自身的*恒等式*映射。
 
 集合 E 的 *同构的*，赋予结构 $\sigma$，其自身称为 *自同构*。
 
-当存在集合 E的*同构的*，赋予结构$\sigma$，到集合E′，赋予结构$\sigma'$时，通常可以方便地将*认同*E与E′赋予*相同的名称*基于E的尺度中的集合M的元素和元素，这是其在$f$到集合M的适当扩张下的像。
+当存在集合 E 的*同构的*，赋予结构 $\sigma$，到集合 E′，赋予结构 $\sigma'$时，通常可以方便地将*认同* E 与E′，即，给元素*相同的名称* 集合 M 是基于 E 的音阶中的元素，即像在$f$ 至集合 M 的适当扩张下。
 
-6. 给定在集合范围内定义子集 T 为集合 M 的公理系统，我们应该确保，之前谈到结构和满足这些公理，集合 T *不一定为空*；否则公理会被说成“矛盾”或“不一致”。
+6. 给定在集合范围内定义集合M的子集T的公理系统，我们应该确保，之前谈到结构和满足这些公理，集合T*不一定是空的*；否则公理将被称为“矛盾”或“不一致”。
 
-7. 可能会发生这样的情况：在集合上定义结构的公理中的系统可以针对任意集合进行陈述，但是当我们考虑两个结构满足这些公理并在两个不同的集合 E、F 上定义时，我们发现公理这些结构（如果存在）必然是*同构的*（这特别意味着E和F是*等价的*）。那么结构满足这些公理的理论被称为*单价*；否则它们被称为“多价”。
+7. 可能会发生这样的情况：在集合上定义结构的公理中的系统可以针对任意集合进行陈述，但是当我们考虑两个结构满足这些公理并定义在两个不同的集合 E、F 上时，我们从公理发现这些公理结构（如果存在）必然是*同构的*（这特别意味着 E 和 F 是*等价的*）。那么结构满足这些公理的理论被称为*单价*；否则它们被称为“多价”。
 
 整数理论、实数理论和经典欧氏几何是单价理论； 有序集理论、群理论和拓扑理论是多价理论。对多价理论的研究是现代数学区别于古典数学的最显着特征。
 
-[^1]: 读者可能已经注意到，这里给出的指示相当模糊；它们只是启发式的，事实上，似乎几乎不可能在形式数学的框架之外对结构表述一般性和精确的定义（参见章 IV）。
+[^1]: The reader may have observed that the indications given here are left rather vague; they are not intended to be other than heuristic, and indeed it seems scarcely possible to state general and precise definitions for structures outside of the framework of formal mathematics (see Chapter IV).

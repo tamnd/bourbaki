@@ -29,23 +29,23 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: 06c339ca68c3917b93972b040c919b1302a9852615b3cabe45978b5caeba1a7e
+content_sha256: 4515e3418a6639e1b3fed6ddfe52289ccab2b88c252159d4921afedb1e75e88f
 translated_from: content/en/lie/IX/01_s1_compact_lie_algebras.md
 translation_method: google
 source_content_sha256: 71ef208b41db85bf8bc8c5557777019fadb960c88536da1750a4c9288864f27c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3007f022ce0e552f6e1f90f23cfacdb7dd6cbbb00b03663c053cde1d49d166ea
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 紧李代数
 
-### 1.不变厄米形式
+### 1. 不变厄米形式
 
-在这个数中，字母$k$表示域$\mathbf{R}$或$\mathbf{C}$。令 V 为有限维 $k$ 向量空间，$\Phi$ V 上的分离$^2$ 正厄米特形式，G 群，$\mathfrak{g}$ $\mathbf{R}$-李代数，$\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$ 群同态, $\varphi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ 同态 of $\mathbf{R}$-李代数。
+在这个数中，字母$k$表示域$\mathbf{R}$或$\mathbf{C}$。令V为有限维$k$向量空间，$\Phi$在V上分离$^2$正厄米特形式，G群，$\mathfrak{g}$一个$\mathbf{R}$-李代数，$\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$ 群同态, $\varphi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ 同态 of $\mathbf{R}$-李代数。
 
 a) 形式 $\Phi$ 在 G（或 $\mathfrak{g}$）下是不变的，当且仅当 $\rho (g)$ 对于所有 $g\in G$ 相对于 $\Phi$ 是酉的（或$\varphi (x)$ 是反厄米特$^3$） $\Phi$ 对于所有$x\in \mathfrak{g}$）。事实上，用$a^*$表示V的自同态$a$相对于$\Phi$的伴随；对于$\mathfrak{g},u$中的$G,x$中的$g$和V中的$v$，我们有
 
@@ -71,35 +71,35 @@ $^3$ 元素 $a\in$ End(V) 相对于 $\Phi$ 被认为是反厄米特式，如果
 
 $a$相对于$\Phi$的伴随$a^*$等于$-a$。当$k=\mathbf{C}$（或$k=\mathbf{R}$）时
 
-也意味着V（分别是$\mathbf{C}\otimes_{\mathbf{R}}V$）的自同态$ia$是厄米特。因此，对于V中的所有$u, v$，$\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$当且仅当$\rho (g)^*\rho (g) =$ Id$_V$；类似地，$\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$对于V中的所有$u, v$当且仅当$\varphi (x) +\varphi (x)^*= 0$，因此规定断言。
+也意味着V（或$\mathbf{C}\otimes_{\mathbf{R}}V$）的自同态$ia$是厄米特。因此，对于V中的所有$u, v$，$\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$当且仅当$\rho (g)^*\rho (g) =$ Id$_V$；类似地，$\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$对于V中的所有$u, v$当且仅当$\varphi (x) +\varphi (x)^*= 0$，因此规定断言。
 
-b) 如果形式 $\Phi$ 在 G 下不变（分别为 $\mathfrak{g}$），则 V 的稳定子空间的正交补是稳定的；特别是，表示$\rho$（分别$\varphi$）则为半单（cf.代数，第IX章）；此外，对于所有$g\in G$（或$x\in \mathfrak{g}$），V的自同态$\rho (g)$（或$\varphi (x)$）则为半单，其中特征值为绝对值值1（或纯虚数） 特征值);事实上 $\rho (g)$ 是酉的（分别是 $i\varphi (x)$ 厄米特、cf. 代数、第 IX）。
+b) 如果形式 $\Phi$ 在 G 下不变（分别为 $\mathfrak{g}$），则 V 的稳定子空间的正交补是稳定的；特别是，表示$\rho$（分别$\varphi$）则为半单（cf.代数，第IX章）；此外，对于V的所有$g\in G$（或$x\in \mathfrak{g}$），自同态$\rho (g)$（或$\varphi (x)$）则为半单，其中特征值为绝对值值1（或纯虚数） 特征值);事实上$\rho (g)$是酉的（分别是$i\varphi (x)$是厄米特，cf.代数，第IX）。
 
 c) 假设$k=\mathbf{R}$。如果 G 是李群的连通李群、$\rho$ 态射、G 的$\mathfrak{g}$ 李代数以及由 $\rho$ 引发的$\varphi$ 同态，则 $\Phi$ 在 G 下不变并且仅当它在 $\mathfrak{g}$ 下保持不变时（第 III, §6, no. 5 章，Cor. 3）。
 
-d) 当且仅当 $\mathbf{G}\mathbf{L}(V)$ 的子群 $\rho (G)$ 相对紧时，V 不变量上存在分离正厄米特形式（积分，VII, §3, no. 1，命题 1）。
+d) 当且仅当 $\mathbf{G}\mathbf{L}(V)$ 的子群 $\rho (G)$ 相对紧时，在 G 下的 V 不变量上存在分离正厄米特形式（积分，第 VII, §3, no. 1 命题 1）。
 
-### 2.已连接交换实李群
+### 2. 已连接交换实李群
 
 令 G 为连通交换律（实数）李群。指数映射
 
 经验$_G: L(G)\rightarrow G$
 
-是李群的态射，与离散核的满射（III, §6, no. 4，命题 11），因此L(G) 是 G 的连通覆盖。
+是李群的态射，与离散核的满射（第 III, §6, no. 4 章，命题 11），因此L(G) 是 G 的连通覆盖。
 
 a) 以下条件是等价的：G是单连通的，exp$_G$是同构，G与$\mathbf{R}^n(n=$dim G同构。在这种情况下，通过同构 exp$_G$ 将 L(G) 的向量空间结构传输到 G，得到 G 上的向量空间结构，这是唯一与 G 的拓扑群结构兼容的。 李群称为向量（谎言）群； 除非否则，它们总是被赋予上面定义的$\mathbf{R}$向量空间结构。
 
-b) 用exp$_G$的$\Gamma (G)$核表示。作者：将军拓扑，第 1 章VII, §1, no. 1，周四。 1, 群 G 是紧的当且仅当 $\Gamma (G)$ 是 L(G) 中的格子，在其他字（前述）中，如果自由 $\mathbf{Z}$ 模 $\Gamma (G)$ 的秩等于 G 的维数。相反，如果L是有限维$\mathbf{R}$向量空间且$\Gamma$是L中的格，则商拓扑群$L/\Gamma$是紧连通交换李群。
+b) 用exp$_G$的$\Gamma (G)$核表示。作者：将军拓扑，第 1 章VII, §1, no. 1，周四。 1, 群 G 是紧致的当且仅当 $\Gamma (G)$ 是 L(G) 中的格子，在其他字（前述）中，如果自由 $\mathbf{Z}$ 模 $\Gamma (G)$ 的秩等于 G 的维数。相反，如果L是有限维$\mathbf{R}$向量空间且$\Gamma$是L中的格，则商拓扑群$L/\Gamma$是紧连通交换李群。
 
-紧连通交换李群称为实环面，或（在这个章中）环面。
+紧连通交换李群称为实环面，或（在这个章）环面。
 
-c) 一般情况下，设E为$\Gamma$(G)生成的L(G)的向量子空间，并令V为子空间的补集。则 G 是其 Lie 子群 exp(E) 和 exp(V) 的直乘积；第一个是环面，第二个是向量。最后，G 的每个紧凑子群都包含在 exp(E) 中（因为它的投影到 exp(V) 必然减少到单位元素）；因此，子群 exp(E) 是 G 的唯一最大紧致子群。
+c) 一般情况下，令E为$\Gamma$(G)生成的L(G)的向量子空间，并令V为子空间的补集。则 G 是其 Lie 子群 exp(E) 和 exp(V) 的直乘积；第一个是环面，第二个是向量。最后，G 的每个紧凑子群都包含在 exp(E) 中（因为它的投影到 exp(V) 必然减少到单位元素）；因此，子群 exp(E) 是 G 的唯一最大紧致子群。
 
-例，取$G = C^*$； 认同 L(G) 和 $\mathbf{C}$，使得 G 的指数映射为 $x \rightarrow e^x$。然后 $\Gamma (G) = 2\pi i\mathbf{Z},E =i\mathbf{R}$，所以 exp(E) $=\mathbf{U}$；如果我们采用 $V =\mathbf{R}$，则 exp(V) $=\mathbf{R}^*_+$ 并恢复在一般拓扑，第 1 章中构造的同构 $\mathbf{C}^*\rightarrow \mathbf{U}\times \mathbf{R}^*_+$。 VIII, §1, no. 3，提案 1。
+对于例，取$G = C^*$； 认同 L(G) 和 $\mathbf{C}$，使得 G 的指数映射为 $x \rightarrow e^x$。然后 $\Gamma (G) = 2\pi i\mathbf{Z},E =i\mathbf{R}$，所以 exp(E) $=\mathbf{U}$；如果我们取 $V =\mathbf{R}$，则 exp(V) $=\mathbf{R}^*_+$，我们恢复在一般拓扑，第 1 章中构造的同构 $\mathbf{C}^*\rightarrow \mathbf{U}\times \mathbf{R}^*_+$。 VIII, §1, no. 3，提案 1。
 
 d) 注最后，exp$_G: L(G)\rightarrow G$ 是 G 的全覆盖，因此 $\Gamma (G)$ 可以自然地等同于 G 的基本群。
 
-### 3.紧李代数
+### 3. 紧李代数
 
 #### 命题 1 {#lie-ix-s1-prop-1 .statement tag=019D}
 
@@ -111,25 +111,25 @@ d) 注最后，exp$_G: L(G)\rightarrow G$ 是 G 的全覆盖，因此 $\Gamma (G
 
 (iii) $\mathfrak{g}$ 有不变双线性形式（第I, §3, no. 6），它是对称的、正的且分离的。
 
-(iv) $\mathfrak{g}$ 是还原性的（第 I, §6, no. 4 章，定义 4）；对于所有 $x\in \mathfrak{g}$、自同态和 $x$ 都是半单，其中特征值纯粹是虚构的。
+(iv) $\mathfrak{g}$ 是还原性的（第 I, §6, no. 4 章，定义 4）；对于所有 $x\in \mathfrak{g}$、自同态和 $x$ 都是半单，而特征值纯粹是虚构的。
 
 (v) $\mathfrak{g}$ 是还原性的，其 Killing 形式 B 是负值。
 
-(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{g}$ 是紧李群 G 的李代数，群 Int($\mathfrak{g}$) 是分离的，并且同构于紧式群 $G_0$ 的商（第 1 章） III, §6, no. 4，Cor.4)，因此是紧凑的。
+(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{g}$ 是紧李群 G 的李代数，群 Int($\mathfrak{g}$) 是分离的并且同构于紧致群 $G_0$ 的商（第 1 章） III, §6, no. 4，Cor.4)，因此是紧凑的。
 
 (ii) $=\Rightarrow$ (iii): 如果群 Int($\mathfrak{g}$) 是紧的，$\mathfrak{g}$ 上存在对称双线性形式，它在 Int($\mathfrak{g}$) (no. 1) 下是正的、分离且不变的，因此在伴随下也是不变的表示共 $\mathfrak{g}$。
 
-(iii) $=\Rightarrow$ (iv)：如果满足(iii)，$\mathfrak{g}$的伴随表示是半单 (no. 1)，因此$\mathfrak{g}$是可还原的；此外，自同态和$x$，对于$x\in \mathfrak{g}$，具有指定的属性（no. 1）。
+(iii) $=\Rightarrow$ (iv)：如果满足(iii)，$\mathfrak{g}$的伴随表示是半单 (no. 1)，因而$\mathfrak{g}$是可还原的；此外，自同态和$x$，对于$x\in \mathfrak{g}$，具有指定的属性（no. 1）。
 
 (iv) $=\Rightarrow$ (v)：对于所有 $x\in \mathfrak{g}, B(x, x) =$ Tr((ad $x$)$^2$)；因而，$B(x, x)$是广告$x$的平方或特征值的和，因此如果这些纯粹是虚构的，则为负数。
 
-(v) $=\Rightarrow$ (i)：假设 $\mathfrak{g}$ 是还原性的，因此交换子代数 $\mathfrak{c}$ 和半单子代数 $\mathfrak{s}$ 的乘积（第 I, §6, no. 4 章，第 5 条）。 $\mathfrak{s}$的杀戮形式是形式B到$\mathfrak{s}$的限制，因此是负数并且如果B是负数则分离。 $\mathbf{G}\mathbf{L}(\mathfrak{s})$ 的子群 Int($\mathfrak{s}$) 是封闭的（它是 Aut($\mathfrak{s}$) 的恒等分量，第 III, §10, no. 2，Cor. 2），并且使分离正形式 $-B$ 不变；因此，它是紧致的，并且$\mathfrak{s}$同构于紧李群Int($\mathfrak{s}$)的李代数。此外，由于$\mathfrak{c}$是可交换的，它与环面T的李代数同构。因此，$\mathfrak{g}$与紧李群Int($\mathfrak{s}$)$\times T$的李代数同构。
+(v) $=\Rightarrow$ (i)：假设 $\mathfrak{g}$ 是还原性的，因此交换子代数 $\mathfrak{c}$ 和半单子代数 $\mathfrak{s}$ 的乘积（第 I, §6, no. 4 章，第 5 条）。 $\mathfrak{s}$的杀戮形式是形式B到$\mathfrak{s}$的限制，因此是负数并且如果B是负数则分离。 $\mathbf{G}\mathbf{L}(\mathfrak{s})$ 的子群 Int($\mathfrak{s}$) 是封闭的（它是 Aut($\mathfrak{s}$) 的恒等分量，第 III, §10, no. 2，Cor. 2），并且使分离正形式 $-B$ 不变；因而，它是紧致的，并且$\mathfrak{s}$同构于紧李群Int($\mathfrak{s}$)的李代数。此外，由于$\mathfrak{c}$是可交换的，它与环面T的李代数同构。因而，$\mathfrak{g}$与紧李群Int($\mathfrak{s}$)$\times T$的李代数同构。
 
 #### 定义 1 {#lie-ix-s1-def-1 .statement tag=019E}
 
 紧李代数$^4$是李代数，其具有命题1的性质(i)至(v)。
 
-因此，紧李代数是交换代数的乘积以及紧凑的半单代数。在其他字中，李代数是紧的当且仅当它是约简的并且它的派生李代数是紧的。
+因而，紧李代数是交换代数的乘积以及紧凑的半单代数。在其他字中，李代数是紧的当且仅当它是约简的并且它的派生李代数是紧的。
 
 紧李群的李代数是紧的。
 
@@ -181,7 +181,7 @@ $^4$ 注实拓扑向量空间不能是紧拓扑空间
 
 令C（分别为S）为单连通李群，其李代数同构于L(G)的中心（分别为派生的代数）。那么 C 是向量群，S 是一个紧凑的群，具有有限的中心（Th.1），G 可以通过离散的子群 D 与 $C\times S$ 的商来识别，这是中心的（积分，第 VII, §3, no. 2 章， 引理4)。由于 D 的投影的像在 S 上是中心的，因此是有限的，$D\cap C$ 在 D 中是有限的指标。设 $C'$ 是由 $D\cap C$ 生成的 C 的向量子空间，而 V 是补数子空间。那么群$T = C'/(D\cap C)$就是环面，G同构于乘积群$V\times T\times S$除以有限群的商。
 
-如果 G 是紧致的，那么 $V\times T\times S ($General 拓扑也是紧致的，第 1 章。 III, §4, no. 1，科。命题 2 的 2），因此 V 也是如此，这意味着 $V =\{e\}$。
+如果 G 是紧致的，那么 $V\times T\times S ($General 拓扑也是紧致的，第 1 章。 III, §4, no. 1，科。命题 2 的 2），因而 V 也是如此，这意味着 $V =\{e\}$。
 
 #### 推论 1 {#lie-ix-s1-prop-4-cor-1 .statement tag=019J}
 
@@ -239,16 +239,16 @@ b) 假设 G 的连通分量群是有限的。然后：
 
 a) 我们保留第 4 条的记号。Ker $f$ 到V 的投影是向量群 V 的有限子群，因此减少到单位元素。由此可知 Ker $f$ 包含在 $T\times S$ 中，因此 G 是向量群 $N =f(V)$ 的直接乘积和紧致群 $K =f(T\times S)$。 G 的每个紧致子群都有投影到 N 上，N 被约简为单位元素，因此包含在 K 中。这证明了 a)。
 
-b) 现在假设 $G/G_0$ 是有限的。由$a), G_0$是其最大的紧致子群M和向量子群P的直接乘积； G 的子群 M 显然是正常的。令$\mathfrak{n}$为L(G)中L(M)的向量子空间补，在G的伴随表示下稳定（no. 1和no. 3，命题3）；这是L(G) 的理想，我们有$L(G) = L(M)\times \mathfrak{n}$。令 N 为 G 与李代数 $\mathfrak{n}$ 的积分子群；由章。 III, §6, no. 6，第 14 条，在 G 中是正常的。L(G) 的投影到 L(P)，其中核 L(M) 诱导同构从 $\mathfrak{n}$ 到L(P);由此可见，$G_0$的投影到P诱导，以及从N到P的étale态射；由于 P 是单连通的，因此为同构，N 为向量群。从$M\times N$到$G_0$的态射$(x, y) \rightarrow xy$是一个单射étale态射（因为$M\cap N$减少到单位元素），因此同构。由此可见，N 是 G 的闭子群，并且商 $G/N$ 是紧致的，因为 $G_0/N$ 是紧致的，而 $G/G_0$ 是有限的（一般拓扑，第 III, §4, no. 1，第 2 条命题的 Cor. 2）。
+b) 现在假设 $G/G_0$ 是有限的。由$a), G_0$是其最大的紧致子群M和向量子群P的直接乘积； G 的子群 M 显然是正常的。令$\mathfrak{n}$为L(G)中L(M)的向量子空间补，在G的伴随表示下稳定（no. 1和no. 3，命题3）；这是L(G) 的理想，我们有$L(G) = L(M)\times \mathfrak{n}$。令 N 为 G 与李代数 $\mathfrak{n}$ 的积分子群；由章。 III, §6, no. 6，第 14 条命题，在 G 中是正常的。L(G) 的投影到 L(P)，其中核 L(M) 诱导同构从 $\mathfrak{n}$ 到L(P);由此可见，$G_0$的投影到P诱导，一个从N到P的étale态射；由于 P 是单连通的，因此为同构，N 为向量群。从$M\times N$到$G_0$的态射$(x, y) \rightarrow xy$是一个单射étale态射（因为$M\cap N$减少到单位元素），因此同构。由此可见，N 是 G 的闭子群，并且商 $G/N$ 是紧致的，因为 $G_0/N$ 是紧致的，而 $G/G_0$ 是有限的（一般拓扑，第 III, §4, no. 1，第 2 条命题的 Cor.2）。
 
 通过整合，第 1 章。 VII, §3, no. 2，命题 3，G 的每个紧致子群都包含在最大紧致子群中，即共轭，并且对于 G 的任何最大紧致子群 K，G 是 K 与 N 的半直接乘积。因为 $G_0$ 包含于 N，是N乘$G_0\cap K$的半直接乘积；由此可见，$G_0\cap K$是连通的，因此等于$K_0$，因为$K/(G_0\cap K)$与$G/G_0$同构的，因此是有限的；最后，$K_0$ 显然是 $G_0$ 的最大的紧致子群 by a)。
 
 #### 推论{#lie-ix-s1-n4-cor-1 .statement tag=019P}
 
-如果 N 满足 b) (iv) 的条件，且$K_1$ 和$K_2$ 是 G 的两个最大紧致子群，则存在$n\in$ N 使得 $nK_1n^{-1}= K_2$。
+如果 N 满足 b) (iv) 的条件，且$K_1$ 和 $K_2$ 是 G 的两个最大紧致子群，则存在$n\in$ N 使得 $nK_1n^{-1}= K_2$。
 
 事实上，通过 (ii) 存在元素$g\in G$使得$gK_1g^{-1}= K_2$；由(iv)，存在$n\in N$和$k\in K_1$使得$g=nk$。 元素 $n$ 则具有所需的属性。
 
 ### 习题{#lie-ix-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

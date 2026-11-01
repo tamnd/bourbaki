@@ -29,16 +29,16 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: ca3596b3827e984e74879a997e20f55724dc62f748f0a5f8e89775646579e9e4
+content_sha256: 8da58f48636713ffe2010409d74d8422634cad108b2e0712d93c8b3886f2f6da
 translated_from: content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md
 translation_method: google
 source_content_sha256: d31efd9ddbb6c9db525488b6ea28a82ed909217def1e86239e848957a5f5eb01
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 396b571201ca38a7edf7cf4e8e6d8a317e8c4ff92205b097bb4b88d259188440
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 分裂的半单李代数由约化根系定义
@@ -89,7 +89,7 @@ $\mathfrak{g}$ 的框架是$(\mathfrak{g},\mathfrak{h})$ 的框架，其中$\mat
 
 如果$(B,(X_{\alpha})_{\alpha\in B})$是$(\mathfrak{g},\mathfrak{h})$的框架，则对于$\mathfrak{g}^{-\alpha}$的所有$\alpha \in B$、唯一元素$X_{-\alpha}$，存在$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}($§2, no. 2、Th。 1（四））。 $(X_{\alpha})_{\alpha\in B\cup(-B)}$族被称为由框架（cf. Prop.1）定义的生成的族。这也是由框架$(-B,(X_{\alpha})_{\alpha\in -B})$定义的生成的族。对于所有$\alpha \in B\cup (-B)$，令$t_{\alpha}\in k^*$，并假设$t_{\alpha}t_{-\alpha}= 1$对于所有$\alpha \in B$。那么$(t_{\alpha}X_{\alpha})_{\alpha\in B\cup(-B)}$就是由框架$(B,(t_{\alpha}X_{\alpha})_{\alpha\in B})$定义的生成的族。
 
-### 2.一个预备构造
+### 2. A PRELIMINARY CONSTRUCTION
 
 在这个数和下一个向量空间V中，我们用R约化根系表示，并用R的B基表示。我们用$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$表示相对于B的嘉当矩阵。回想一下$n(\alpha , \beta ) =\langle \alpha , \beta^{\vee}\rangle$。我们将证明 R 是分裂的半单李代数的根系，直到同构为止都是唯一的。总的来说，我们将考虑提案 1 中由关系定义的李代数。
 
@@ -291,9 +291,9 @@ $[x_{-\alpha},\mathfrak{r}]\subset \mathfrak{h}+\mathfrak{r}$ 对于所有$\alph
 
 李代数$\mathfrak{a}_+$（分别$\mathfrak{a}_-$）是免费的李代数，带有基本家庭$(x_{\alpha})_{\alpha\in B}$（分别$(x_{-\alpha})_{\alpha\in B}$）（cf.章节II, §2, no. 3）。
 
-令 L 为 B 生成的 E 的谎言子代数。 II, §3，周四。 1、L可以与B生成的自由李代数等同。E对自身的左正则表示显然是单射的，而定义由限制到L是李代数的单射表示$\rho '$ E 上的L。令$\varphi$ 为从L 到$\mathfrak{a}_-$ 的唯一同态，这对于所有$\alpha \in B$ 需要$\alpha$ 到$x_{-\alpha}$。那么，对于所有 $\alpha \in B,\rho (\varphi (\alpha ))$ 来说，在 E 上，乘法乘以$\alpha$ 等于自同态，所以 $\rho \circ \varphi =\rho '$，这证明$\varphi$ 是单射的。因此，$(x_{-\alpha})_{\alpha\in B}$是$\mathfrak{a}_-$的基本族。因为$\theta (x_{-\alpha}) =x_{\alpha}$对于所有$\alpha$（cf.引理$4$）$, (x_{\alpha})_{\alpha\in B}$是$\mathfrak{a}_+$的基本家庭。
+令 L 为 B 生成的 E 的谎言子代数。 II, §3，周四。 1、L可以与B生成的自由李代数等同。E对自身的左正则表示显然是单射的，而定义由限制到L是李代数的单射表示$\rho '$ E 上的L。设$\varphi$ 为从L 到$\mathfrak{a}_-$ 的唯一同态，对于所有$\alpha \in B$，需要从$\alpha$ 到$x_{-\alpha}$。那么，对于所有 $\alpha \in B,\rho (\varphi (\alpha ))$ 来说，在 E 上，乘法乘以$\alpha$ 等于自同态，所以$\rho \circ \varphi =\rho '$，这证明$\varphi$ 是单射的。因此，$(x_{-\alpha})_{\alpha\in B}$是$\mathfrak{a}_-$的基本族。因为$\theta (x_{-\alpha}) =x_{\alpha}$对于所有$\alpha$（cf.引理$4$）$, (x_{\alpha})_{\alpha\in B}$是$\mathfrak{a}_+$的基本家庭。
 
-### 3.存在定理
+### 3. 存在定理
 
 我们保留前面数的假设和记号。回想一下，如果 $\alpha , \beta \in B$ 且 $\alpha \not=\beta$，则 $n(\beta , \alpha )\leq 0$；此外，如果$n(\beta , \alpha ) = 0$，则$n(\alpha , \beta ) = 0$（第VI, §1, no. 1，公式（8）章）。对于 B 的任意对 $(\alpha , \beta )$ 不同的元素，将
 
@@ -481,7 +481,7 @@ $$
 
 对于所有$\mu\in R$，很明显$\mu_B$是$(\mathfrak{g},\mathfrak{h})$的根，$\mathfrak{g}^\mu$是相应的特征空间。 $(\mathfrak{g},\mathfrak{h})$根数暗淡$\mathfrak{g}-$暗淡$\mathfrak{h}=$卡R。因此，映射$\mu \rightarrow \mu_B$从V到$\mathfrak{h}^*$映射R到$(\mathfrak{g},\mathfrak{h})$的根系。
 
-### 4.唯一性定理
+### 4. 唯一性定理
 
 #### 命题 4 {#lie-viii-s4-prop-4 .statement tag=011A}
 
@@ -499,7 +499,7 @@ $(X'_{\alpha})_{\alpha\in B}$生成的$\mathfrak{g}'=\mathfrak{a}'/(\mathfrak{n}
 
 #### 推论{#lie-viii-s4-n4-cor-1 .statement tag=011B}
 
-每个框架半单李代数都是从框架半单$\mathbf{Q}$-李代数通过从$\mathbf{Q}$到$k$标量的扩张获得的。
+每个框架半单李代数都是通过$\mathbf{Q}$到$k$标量的扩张从框架半单$\mathbf{Q}$李代数获得的。
 
 这紧随命题而来。
 
@@ -507,7 +507,7 @@ $(X'_{\alpha})_{\alpha\in B}$生成的$\mathfrak{g}'=\mathfrak{a}'/(\mathfrak{n}
 
 设$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$和$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$为半单李代数，设R和$R'$为$(\mathfrak{g},\mathfrak{h})$和$(\mathfrak{g}',\mathfrak{h}')$的根系，设$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$（或$(n'(\alpha , \beta ))_{\alpha ,\beta\in B'}$）为R的嘉当矩阵 （分别$R'$）相对于B（分别$B'$），并令$\Delta$（分别$\Delta '$）为R（分别$R'$）相对于B（分别$B'$）的Dynkin图。
 
-(i) 如果从$\mathfrak{h}^*$到$\mathfrak{h}^{'*}$$\varphi$是同构，使得$\varphi (R) = R'$和$\varphi (B) = B'$，则存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$唯一的同构$\psi$，使得$\psi |\mathfrak{h}=^t\varphi^{-1}$。
+(i) 如果从$\mathfrak{h}^*$到$\mathfrak{h}^{'*}$，$\varphi$是同构，使得$\varphi (R) = R'$和$\varphi (B) = B'$，则存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$唯一的同构$\psi$，使得$\psi |\mathfrak{h}=^t\varphi^{-1}$。
 
 (ii) 如果从B到$B'$$f$是双射，使得$n'(f(\alpha ), f(\beta )) =n(\alpha , \beta )$对于所有$\alpha , \beta \in$B，存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$的同构。
 
@@ -555,16 +555,16 @@ $$
 (q+ 1)^2t_{\alpha}t_{\beta}= N^2_{\alpha \beta}t_{\alpha+\beta}
 $$
 
-其中$q$是整数。由此可见，如果$t_{\alpha}$和$t_{\beta}$在$k^*$中是平方，那么$t_{\alpha+\beta}$也是。从 $t_{\alpha}= 1$ 开始，对于所有 $\alpha \in B$，第 19 章的提案 19。 VI, §1, no. 6，证明对于所有$\alpha \in R$，$t_{\alpha}$ 都是平方。 选择，对于所有$\alpha \in R$，$u_{\alpha}\in k$使得$u^2_{\alpha}=t_{\alpha}$。这个选择可以被制作成 $u_{\alpha}u_{-\alpha}= 1$ 适合所有 $\alpha \in R$。把$X'_{\alpha}=u^{-1}_{\alpha}X_{\alpha}$。那么，对于所有$\alpha \in R$，
+其中$q$是整数。由此可见，如果$t_{\alpha}$和$t_{\beta}$在$k^*$中是平方，则$t_{\alpha+\beta}$也是。从 $t_{\alpha}= 1$ 开始，对于所有 $\alpha \in B$，第 19 章的提案 19。 VI, §1, no. 6，证明对于所有$\alpha \in R$，$t_{\alpha}$ 都是平方。 选择，对于所有$\alpha \in R$，$u_{\alpha}\in k$使得$u^2_{\alpha}=t_{\alpha}$。这个选择可以被制作成 $u_{\alpha}u_{-\alpha}= 1$ 适合所有 $\alpha \in R$。把$X'_{\alpha}=u^{-1}_{\alpha}X_{\alpha}$。那么，对于所有$\alpha \in R$，
 
 $$
 X'_{\alpha}\in \mathfrak{g}^{\alpha},[X'_{\alpha}, X'_{-\alpha}] = [X_{\alpha}, X_{-\alpha}] =-H_{\alpha}
 $$
 
-和$\theta (X'_{\alpha}) =\theta (u^{-1}_{\alpha}X_{\alpha}) =u^{-1}_{\alpha}t_{\alpha}X_{-\alpha}=u_{\alpha}X_{-\alpha}=u_{\alpha}u_{-\alpha}X'_{-\alpha}=X'_{-\alpha}$，因此$(X'_{\alpha})_{\alpha\in R}$是$(\mathfrak{g},\mathfrak{h})$的Chevalley系统。
+和$\theta (X'_{\alpha}) =\theta (u^{-1}_{\alpha}X_{\alpha}) =u^{-1}_{\alpha}t_{\alpha}X_{-\alpha}=u_{\alpha}X_{-\alpha}=u_{\alpha}u_{-\alpha}X'_{-\alpha}=X'_{-\alpha}$，因此$(X'_{\alpha})_{\alpha\in R}$是$(\mathfrak{g},\mathfrak{h})$的Chevalley 系统。
 
 ### 习题 {#lie-viii-s4-exercises}
 
 本段中考虑的李代数不一定是有限维的。
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -11,19 +11,19 @@ pdf_pages: 0147-0148
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 240382a362fa28fe3e75313733de734e6c048e0a30df7df137c59419c9c95868
+content_sha256: 1e323ad22680312862f8926d1828a458bcf669581671f6724d3e2ca3cf10806b
 translated_from: content/en/hist/1/11_s11_uniform_spaces.md
 translation_method: google
 source_content_sha256: 2860052876fd130ce2e248a166f6a973e304ef320bb3054ac1d9d92b237812ff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b7a8502e53a7db74500da2ebc21c13a9f2d380594dc2054cfeb83fd5e3bff3b6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 11.制服空间。
+## 11. 制服空间。
 
 与均匀空间相关的主要概念和命题是从实变量理论中逐渐提出来的，直到最近才成为系统研究的对象。 柯西在集合严格的级数理论（cf.p. 153）的基础上，将点原理作为出发点点原理，他似乎认为这是显而易见的，根据条件收敛序列$(a_n)$的必要且充分的条件是：当 $n$ 为足够大时，$|a_{n+p} - a_n|$ 应任意小（参见例 ([56 a], (2), v. VII，p. 267））。 与博尔扎诺[27c]一起，他无疑是第一个明确指出这个原理，并认识到其重要性的人之一：从而将“柯西序列”这个名字赋予了实数的序列，即满足条件，并通过扩张空间度量中的点的序列$(x_n)$，使得当$n$为足够大时，$x_{n+p}$和$x_n$之间的距离任意小；从那时起，“柯西滤波器”的名称最终被赋予了均匀空间的柯西序列的泛化。
 

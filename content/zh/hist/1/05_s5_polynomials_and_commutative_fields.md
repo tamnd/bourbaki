@@ -17,10 +17,10 @@ translation_method: google
 source_content_sha256: 476463410dc102c8e43dd1917fec1e6fb32f2a322a7dfc33679a42e6a62cc602
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9bc8ecad31a3d4aace03553d3c61aad91084b6c36d58e1e7bd3953424f1dc3a4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 5. 多项式和交换域。

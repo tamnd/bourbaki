@@ -29,21 +29,21 @@ subsections:
       pdf_page: 425
 statements: 11
 exercises: 2
-content_sha256: 0066925781f94a7c07e38a7646b21e2dde8722f7869ea12273c53a3ee35684b9
+content_sha256: 39e4148374e1cd42b59e94428c507d5c064acc378a7202af90d38f5f818bd57e
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
 translation_method: google
 source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 934cddf20bd4feaa591eccccb7c1d23ff83c2f3017f7c02182ff346669e5245e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 6.绝对值
+## 6. 绝对值
 
-### 1.绝对值值的初步介绍
+### 1. 绝对值的初步介绍
 
 设$K$为域（可交换或不可交换）。回想一下（一般拓扑、章 IX, § 3, no. 2、定义 2），$K$ 上的绝对值是从 $K$ 到 $\mathbf{R}_+$ 满足的任何映射 $f$ 以下公理：
 
@@ -64,7 +64,7 @@ $$
 
 我们用映射$f$的$\mathscr{V}(K)$集合表示，从$K$到$\mathbf{R}_+$满足（VAI）和（VAII），并且存在$A > 0$（取决于$f$），使得$(\mathrm{U}_A)$成立。
 
-注当且仅当$\in \mathscr{V}(K)$，然后，将$x = 1, y = 0$放入$(\mathrm{U}_A)$，
+注当且仅当$\in \mathscr{V}(K)$，然后将$x = 1, y = 0$放入$(\mathrm{U}_A)$，
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
@@ -131,12 +131,12 @@ $$
 
 ### 2. 绝对超距值
 
-$K$ 到 $\mathbf{R}_+$ 的映射 $f$ 称为超量绝对值，如果它满足条件 $(\mathrm{VA}_I)$、$(\mathrm{VA}_{II})$ 和 $(\mathrm{U},)$（这显然意味着 $f$ 是绝对值） 值）。
+$K$到$\mathbf{R}_+$的映射$f$被称为超量绝对值，如果它满足条件$(\mathrm{VA}_I)$，$(\mathrm{VA}_{II})$和$(\mathrm{U},)$（这显然意味着$f$是绝对值）。
 
 #### 命题 3 {#ac-vi-s6-prop-3 .statement tag=04VE}
 
-令$f$为$K$到$\mathbf{R}_+$中的映射。以下属性是等效的：
-(a) $f$ 是超量绝对值值。
+设$f$为$K$到$\mathbf{R}_+$中的映射。以下属性是等效的：
+(a) $f$ 是超量绝对值。
 (b) $K$ 存在估价$v$，$\mathbf{R}$ 中有值，实数 $a$，使得$0 < a < 1$ 和$f = a''$。
 (c) 每整数 $n > 0$ $f$ 属于至 $\mathscr{V}(K)$ 和 $f(n.1) \leq 1$。
 (d) 对于所有 $s > 0$，$f^s$ 是绝对的值。
@@ -157,7 +157,7 @@ $$
 $$
 f(x) = c^{v(x)}, \quad v(x) = \log, f(x)
 $$
-因此，在 $K$ 上的超测量绝对值和$K$ 与实际值的估值之间建立一对一的对应。不正确的估值对应到不正确的绝对值（一般拓扑、章IX, § 3, no. 2）。令$v_1, v_2$为$K$的两个估值，真实值和$f_1, f_2$相应的绝对值；为了使$v_1$和$v_2$等价，$f_1$和$f_2$是等价的：$v_1$和$v_2$相当于说，关系$v_1(x) \geq 0$和$v_2(x) \geq 0$是等价的，或者关系$f_1(x) \leq 1$和$f_2(x) \leq 1$是等价的；因此，满足*常规拓扑*、章 IX, § 3, no. 2 中的应用命题 5 即可。此外（*loc.cit.*）为了使$f_1$和$f_2$在K上定义的拓扑相同，$f_1$和$f_2$等效是充分必要的。
+因此，在$K$上的超测量绝对值和$K$与实际值的估值之间建立一对一的对应。不正确的估值对应到不正确的绝对值（一般拓扑、章IX, § 3, no. 2）。令$v_1, v_2$为$K$的两个估值，真实值和$f_1, f_2$相应的绝对值；为了使$v_1$和$v_2$等价，$f_1$和$f_2$是等价的：$v_1$和$v_2$相当于说，关系$v_1(x) \geq 0$和$v_2(x) \geq 0$是等价的，或者关系$f_1(x) \leq 1$和$f_2(x) \leq 1$是等价的；因此，满足*常规拓扑*、章 IX, § 3, no. 2 中的应用命题 5 即可。此外（*loc.cit.*）为了使$f_1$和$f_2$在K上定义的拓扑相同，$f_1$和$f_2$等效是充分必要的。
 
 ### 3. Q 上绝对值
 
@@ -173,7 +173,7 @@ $$
 
 *在(iii)中，$f$是$\mathbf{Q}$上的绝对值，$0 < s \leq 1$是充分必要的。*
 
-首先假设每整数 $n > 0$ 都有 $f(n) \leq 1$。到 no. 2 的命题 3 时，存在实数 $b$ 以及$\mathbf{Q}$ 的估值$v$，使得$0 < b < 1$ 和$f = b^v$。现在，我们知道（§ 3, no. 4，*例 4*）$\mathbf{Q}$上唯一的估值是（最多等价）不正确的估值和$p$-adic估值$v_p$；因此，我们有情况 (i) 或情况 (ii)。
+首先假设每个整数$n > 0$对应$f(n) \leq 1$。到 no. 2 的命题 3 时，存在实数 $b$ 以及$\mathbf{Q}$ 的估值$v$，使得$0 < b < 1$ 和$f = b^v$。现在，我们知道（§ 3, no. 4，*例 4*）$\mathbf{Q}$上唯一的估值是（最多等价）不正确的估值和$p$-adic估值$v_p$；因此，我们有情况 (i) 或情况 (ii)。
 
 假设从现在开始存在整数$h > 0$使得$f(h) > 1$；由no. 1，推论2到命题2，存在数$\rho > 0$，使得$f^\rho$是绝对的值；让我们写
 
@@ -220,9 +220,9 @@ $$
 \sup(0, g(b)) = g(b).
 $$
 
-然后，对于任何至少等于 2 的整数 $a, b$，$g(a) \leq g(b)$ 以及$g(a) = g(b)$，交换$a$ 和 $b$ 的角色。在其他字中，存在一个常数$\lambda$，使得每个整数$a \geq 2$都有$g(a) = A$；如果我们写 $s = \lambda / \rho$，那么每个整数 $a \geq 2$ 就是$f(a) = |a|^s$。作为$f(xy) = f(x)f(y)$和$f(-x) = f(x)$，$f(x) = |x|^s$适用于所有$x \in Q$。最后，如果$0 < s \leq 1$，我们知道$x \mapsto |x|^s$是绝对的值（一般拓扑、章IX, § 3, no. 2）；反之，如果$s$使得$x \mapsto |x|^s$是$Q$上的绝对值，则$(1 + 1)^s \leq 1^s + 1^s$，即$2^s \leq 2$、从而$s \leq 1$。
+然后，对于任何至少等于 2 的整数 $a, b$，$g(a) \leq g(b)$ 以及$g(a) = g(b)$，交换$a$ 和 $b$ 的角色。在其他字中，存在一个常数$\lambda$，使得每个整数$a \geq 2$都有$g(a) = A$；如果我们写 $s = \lambda / \rho$，那么对于每个整数 $a \geq 2$ 来说，$f(a) = |a|^s$。作为$f(xy) = f(x)f(y)$和$f(-x) = f(x)$，$f(x) = |x|^s$适用于所有$x \in Q$。最后，如果$0 < s \leq 1$，我们知道$x \mapsto |x|^s$是绝对的值（一般拓扑、章IX, § 3, no. 2）；反之，如果$s$使得$x \mapsto |x|^s$是$Q$上的绝对值，则$(1 + 1)^s \leq 1^s + 1^s$，即$2^s \leq 2$、从而$s \leq 1$。
 
-### 4. 结构 OF 域与非超距绝对值值
+### 4. 结构的域与非超距绝对值值
 
 #### 定理 1（盖尔范德-马祖尔）{#ac-vi-s6-thm-1 .statement tag=04VH}
 
@@ -235,7 +235,7 @@ $$
 
 (A) 第一种情况：$K$是可交换的并且存在$j \in K$使得$j^2 = -1$
 
-那么域$\mathbf{C}$的同构$\sigma$存在于$K$的子域上，使得$\mathbf{R}$中的$\xi, \eta$有$\sigma(\xi + i\eta) = \xi . 1 + \eta . j$。我们将通过反证法证明$K = \sigma(\mathbf{C})$。假设存在$x \in K - \sigma(\mathbf{C})$；因此，对于所有 $z \in \mathbf{C}, x - \sigma(z)$ 在 $K$ 中都是可逆的；让我们写$F(z) = (x - \sigma(z))^{-1}$；因为 $\sigma$ 是连续的，并且逆矩阵在 $K$ 上是连续的（一般拓扑、章 IX, § 3, no. 7、命题 13 应用于 $K$ 的补全代数），$F$ 是连续的映射 $\mathbf{C}$ 至 $K$。而且，我们可以写$z \neq 0$
+那么$K$的子域上存在域$\mathbf{C}$的同构$\sigma$，使得$\mathbf{R}$中的$\xi, \eta$有$\sigma(\xi + i\eta) = \xi . 1 + \eta . j$。我们将通过反证法证明$K = \sigma(\mathbf{C})$。假设存在$x \in K - \sigma(\mathbf{C})$；因此，对于所有 $z \in \mathbf{C}, x - \sigma(z)$ 在 $K$ 中都是可逆的；让我们写$F(z) = (x - \sigma(z))^{-1}$；因为 $\sigma$ 是连续的，并且逆矩阵在 $K$ 上是连续的（一般拓扑、章 IX, § 3, no. 7、命题 13 应用于 $K$ 的补全代数），$F$ 是连续的映射 $\mathbf{C}$ 至 $K$。而且，我们可以写$z \neq 0$
 
 $$
 F(z) = (\sigma(z))^{-1}(x(\sigma(z))^{-1} - 1)^{-1}.
@@ -347,4 +347,4 @@ Remarks
 
 ### 习题{#ac-vi-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

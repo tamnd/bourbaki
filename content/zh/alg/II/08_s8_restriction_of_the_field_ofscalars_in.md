@@ -42,16 +42,16 @@ subsections:
       pdf_page: 347
 statements: 17
 exercises: 5
-content_sha256: ac689651b30755c201e3efde84cad4bd1fe6cd686ff9c8f2525e572a72df14ef
+content_sha256: ed74b5aa25493130d8b571f82f22b21d1aad41d3019bf526066e8ccc3c657dd5
 translated_from: content/en/alg/II/08_s8_restriction_of_the_field_ofscalars_in.md
 translation_method: google
 source_content_sha256: 2ed7e12b55c05b782b900415fee46ae7d943593ea0d536d23f816f7a0166f2be
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 79b57c2706451335f7a033ec69d26a6f2c2d3039850fb26bb0d73c0e50706880
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 向量空间中标量的域的限制
@@ -88,7 +88,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 设 B 为 K 上 V 的基。对于 K 的*每个* 子域 K'，由 B 生成的 V 的向量子 K' 空间承认 B 为 K' 上的基，因此是 V 上的 K' 结构。 *对于例，如果K是可交换的并且V被取为多项式K-代数 K[X_1, ..., X_n]，则对于K的每个子域 K'，K'[X_1, ..., X_n]是V上的K'-结构。*
 
-### 2. 子空间的合理性
+### 2. 子空间的理性
 
 #### 定义 2 {#alg-ii-s8-def-2 .statement tag=05V3}
 
@@ -132,7 +132,7 @@ $V$ 的基 $B$ 在 $\mathbf{K}$ 上被称为*在 $\mathbf{K}'$* 上有理数*，
 
 *令$V_1, V_2$分别为$V_1, V_2$上$\mathbf{K}$和$V'_1, V'_2$$\mathbf{K}'$结构的两个右向量空间。 $V_1$（或$V_2$）在规范上与$V'_1 \otimes_{\mathbf{K}'} \mathbf{K}$（或$V'_2 \otimes_{\mathbf{K}'} \mathbf{K}$）（no. 1、命题 1）相同。
 
-(i) *映射$f' \mapsto f' \otimes 1_{\mathbf{K}} = f'_{(\mathbf{K})}$是$\mathrm{Hom}_{\mathbf{K}'}(V'_1, V'_2)$的双射到$\mathbf{K}$的集合-$V_1$到$V_2$的线性映射，在$\mathbf{K}'$上是有理数； 逆双射与$\mathbf{K}'$上的每个$\mathbf{K}$线性映射$f : V_1 \to V_2$有理关联，$\mathbf{K}'$线性映射$f' : V'_1 \to V'_2$具有与$f$到$V'_1$的限制相同的图。
+(i) *映射$f' \mapsto f' \otimes 1_{\mathbf{K}} = f'_{(\mathbf{K})}$是$\mathrm{Hom}_{\mathbf{K}'}(V'_1, V'_2)$的双射到$\mathbf{K}$的集合-$V_1$到$V_2$的线性映射，在$\mathbf{K}'$上是有理数； 逆双射与$\mathbf{K}'$上的每个$\mathbf{K}$线性映射$f : V_1 \to V_2$有理关联，$\mathbf{K}'$线性映射$f' : V'_1 \to V'_2$与$f$到$V'_1$的限制具有相同的图。
 
 (ii) *对于$\mathbf{K}$-线性映射$f : V_1 \to V_2$有理$\mathbf{K}'$，
 
@@ -170,9 +170,9 @@ $$
 
 对于$\mathbf{K}$线性映射$f : V_1 \to V_2$在$\mathbf{K}'$上有理数，对于$V_1 \times V_2$上的乘积$\mathbf{K}'$结构，其图$\Gamma$在$\mathbf{K}'$上有理数是必要且充分的。
 
-设$g$从$V_1$到$V_1 \times V_2$为映射$x_1 \mapsto (x_1, f(x_1))$；这是一个 $\mathbf{K}$ 线性映射，使得 $\Gamma = g(V_1)$；如果$f$对于$\mathbf{K}'$是有理数，则根据推论2到命题3，$\Gamma$也是有理数。相反，假设$\Gamma$对于$\mathbf{K}'$是有理数，并让它具有由$V_1 \times V_2$上的结构导出的$\mathbf{K}'$结构；紧随定义，投影$\mathrm{pr}_1, \mathrm{pr}_2$的限制$p_1, p_2$到$\Gamma$，是$\mathbf{K}$线性映射，$\Gamma$的$\mathbf{K}'$到$V_1$的有理数分别为$V_2$。由于$p_1$是双射，它的逆映射$q_1$在$\mathbf{K}'$上是有理数（推论1到命题3），因此$f = p_2 \circ q_1$也是如此。
+设$g$从$V_1$到$V_1 \times V_2$为映射$x_1 \mapsto (x_1, f(x_1))$；这是一个 $\mathbf{K}$ 线性映射，使得 $\Gamma = g(V_1)$；如果$f$对于$\mathbf{K}'$是有理数，则根据推论2到命题3，$\Gamma$也是有理数。相反，假设$\Gamma$对于$\mathbf{K}'$是有理数，并让它具有由$V_1 \times V_2$上的结构导出的$\mathbf{K}'$结构；紧随定义，限制$p_1, p_2$到投影$\mathrm{pr}_1, \mathrm{pr}_2$的$\Gamma$，是$\mathbf{K}$线性映射，有理数从$\Gamma$的$\mathbf{K}'$到$V_1$并且分别为$V_2$。由于$p_1$是双射，它的逆映射$q_1$在$\mathbf{K}'$上是有理数（推论1到命题3），因此$f = p_2 \circ q_1$也是有理数。
 
-### 4.理性线性形式
+### 4. 理性线性形式
 
 令$V$为右向量空间超过$\mathbf{K}$，并具有$\mathbf{K}'$结构$V'$。由于$K'_d$是右侧向量$\mathbf{K}$-空间$K_d$的$\mathbf{K}'$结构，我们可以将定义线性形式$x^* \in V^*$，有理数$\mathbf{K}'$，作为$V$的线性映射化为$K_d$，有理数超过$\mathbf{K}'$
 
@@ -180,11 +180,11 @@ V 和 K_d 上的 K'-结构。凭借no. 3，命题 3，这些线性形式中的�
 
 (I)$$ {V'}^* \xrightarrow{\phi} K \otimes_{K'} {V'}^* \xrightarrow{\upsilon} V^* $$
 
-其中$\phi({x'}^*) = 1 \otimes {x'}^*$和$\upsilon(\xi \otimes {x'}^*)$是V上的线性形式$y^*$，使得$y^*(x') = \xi \langle {x'}^*, x' \rangle$对于所有$x' \in V'$（§ 5, no. 4）。我们知道这个映射是单射的（§ 7, no. 9、命题20和19）并且显然R'是V*的左向量子K'空间；此外，R'在K'上自由的每个子集在K上都是自由的。但一般来说，R'不一定在K上生成V*，因此在V*（习题2）上不存在定义K'结构。然而，如果 V 在 K 上具有有限维 n，V'* 在 K' 和 R' 上具有维数 n，则定义典型地是 V* 上的 K' 结构。
+其中$\phi({x'}^*) = 1 \otimes {x'}^*$和$\upsilon(\xi \otimes {x'}^*)$是V上的线性形式$y^*$，使得$y^*(x') = \xi \langle {x'}^*, x' \rangle$对于所有$x' \in V'$（§ 5, no. 4）。我们知道这个映射是单射的（§ 7, no. 9、命题20和19）并且显然R'是V*的左向量子K'空间；此外，R'在K'上自由的每个子集在K上都是自由的。但一般来说，R'不一定在K上生成V*，因此在V*上定义不是K'结构（习题2）。然而，如果 V 在 K 上具有有限维 n，V'* 在 K' 和 R' 上具有维数 n，则定义典型地是 V* 上的 K' 结构。
 
 #### 命题 5 {#alg-ii-s8-prop-5 .statement tag=05VC}
 
-令V是K上的右向量空间，V'是V上的K'结构，以及V的W向量子K空间。为了使 W 在 K' 上有理数，存在有理线性形式在 K' 上的集合 H \子集 V^*，使得 W 是 H 在 V (§ 2, no. 4) 中的正交。
+令V是K上的右向量空间，V'是V上的K'结构，以及V的W向量子K空间。为了使 W 在 K' 上有理数，存在有理数线性形式在 K' 上的集合 H \子集 V^*，使得 W 是 H 在 V (§ 2, no. 4) 中的正交。
 
 令 H 为 V* 的子集，其中元素是 K' 上的有理线性形式。对于所有$x^* \in H$，$x^*$的核是V的向量子K空间，K'上有理数（no. 3，推论2到命题3）；因此，这些核中的交也是V的向量子K空间，在K'上有理数（no. 2，推论1到命题2）。
 
@@ -194,9 +194,9 @@ $$
 \operatorname{Ker}(x^*) = (\operatorname{Ker}({x'}^*)) \otimes_{K'} K \quad \text{and} \quad \operatorname{Ker}(x^{*\prime}) = (\operatorname{Ker}(x^*)) \cap V'.
 $$
 
-令 H' 为 W' 在 V'* 中的正交；我们知道 (§ 7, no. 5, 定理 7) W' 是 H' 在 V' 中的正交；如果在映射 (1) 下，H 是 V* 中 H' 的像，则从上式可知，考虑到 no. 7，W 是V 中 H 的正交，推论到命题 14。
+令 H' 为 W' 在 V'* 中的正交；我们知道 (§ 7, no. 5, 定理 7) W' 是 H' 在 V' 中的正交；如果在映射 (1) 下，H 是 V* 中 H' 的像，则根据上面的结论，W 是V 中 H 的正交，考虑到 no. 7，推论到命题 14。
 
-### 5.应用于线性系统
+### 5. 适用于线性系统
 
 #### 命题 6 {#alg-ii-s8-prop-6 .statement tag=05VD}
 
@@ -220,33 +220,33 @@ $$
 
 (ii) 我们将 K 视为左向量 $K'$-空间；存在 K 的 $K'$-线性投影算子 $p$ 到其向量子空间 $K'_s$ (§ 7, no. 3, 命题 4)；若$(\xi_i)$是K中(3)的解，则$\sum_{i \in I} \alpha_{\mu i} p(\xi_i) = p \left( \sum_{i \in I} \alpha_{\mu i} \xi_i \right) = p(\beta_\mu) = \beta_\mu$，证明$(p(\xi_i))$是$K'$中(3)的解。
 
-如果命题 6 对于 K 和 $K'$ 成立，环 K 被称为（左）在子环 $K'$ 上“忠实平坦”；我们稍后会详细研究这个概念（*交换代数*，I, § 3）。
+如果命题 6 对于 K 和 $K'$ 成立，环 K 被称为（左）在子环 $K'$ 上*忠实平坦*；我们稍后会详细研究这个概念（*交换代数*，I, § 3）。
 
 ### 6. 最小的域理性
 
-设 V 为右向量 K 空间，具有 $K'$ 结构 $V'$。对于每个域 L 使得 $K' \subset L \subset K$，我们写 $V_L = V'.L$；显然，$K'$上的$V'$的每个基是K上的V的基，以及L上的$V_L$的基。因此，$V_L$是V上的L结构，$V'$是$V_L$上的$K'$结构。
+令 V 为右向量 K 空间，具有 $K'$ 结构 $V'$。对于每个域 L 使得 $K' \subset L \subset K$，我们写 $V_L = V'.L$；显然，$K'$上的$V'$的每个基是K上的V的基，以及L上的$V_L$的基。因此，$V_L$是V上的L结构，$V'$是$V_L$上的$K'$结构。
 
 #### 命题 7 {#alg-ii-s8-prop-7 .statement tag=05VE}
 
 (i) *令 V 为具有 K' 结构 V' 的右向量 K 空间。对于每个向量$x \in V$（分别为V的每个向量子K空间W），K包含$K'$的子域L的集合并且使得$x$ （分别为 W）在 L 上是有理数，并且至少有元素 $K'(x)$（分别为 $K'(W)$）。
 
-(ii) *令 $V_1, V_2$ 分别为两个右向量 K 空间，其具有 K'-结构 $V_1', V_2'$。对于$V_1$的每个K-线性映射 f到$V_2$，K 包含$K'$的子域L集合，并且使得f在L上是有理数，并且至少有元素 $K'(f)$*。
+(ii) *令$V_1, V_2$分别为两个右向量 K-空间，分别具有K'-结构$V_1', V_2'$。对于$V_1$的每个K-线性映射 f到$V_2$，K 包含$K'$的子域L的集合，并且使得f在L上是有理数，并且至少有元素 $K'(f)$*。
 
 我们首先证明断言 (i) 对于向量 $x \in V$。设B是V有理数超过$K'$的基；对于每个域 L，B 是 $V'$ 的基超过 $K'$，并且 $V_L$ 的基超过 L，使得 $K' \subset L \subset K$；为了使$x = \sum_{b \in B} b \xi_b$比L有理数，$\xi_b$属于到L（no. 2）是必要且充分的，因此最小的域L与性质是域 *由 K' 生成*，$\xi_b$ 代表 $b \in B$。
 
-接下来我们证明(ii)。令$B_1, B_2$分别为$V_1, V_2$的基，对$K'$有理数并写，对于所有$b_1 \in B_1, f(b_1) = \sum_{b_2 \in B_2} b_2 \alpha_{b_2 b_1}$（*族$(\alpha_{b_2 b_1})$只是$f$相对于基的*矩阵*） $B_1$ 和 $B_2$；cf. § 10, no. 4*）。由于对于每个域，$B_1$（或$B_2$）是$(V_1)_L$（或$(V_2)_L$）的基超过L，使得$K' \subset L \subset K$，对于$f$对于L来说是有理数， $\alpha_{b_2 b_1}$属于至L是必要且充分的；因此，最小的域，性质是域*由K'生成*，而$\alpha_{b_2 b_1}$则为$b_1 \in B_1, b_2 \in B_2$。
+接下来我们证明(ii)。令$B_1, B_2$分别为$V_1, V_2$的基，对$K'$有理数并写，对于所有$b_1 \in B_1, f(b_1) = \sum_{b_2 \in B_2} b_2 \alpha_{b_2 b_1}$（*族$(\alpha_{b_2 b_1})$只是$f$相对于基的*矩阵*） $B_1$ 和 $B_2$；cf. § 10, no. 4*）。因为对于每个域，$B_1$（或$B_2$）是$(V_1)_L$（或$(V_2)_L$）的基超过L，使得$K' \subset L \subset K$，因为$f$在L上是有理数， $\alpha_{b_2 b_1}$属于至L是必要且充分的；因此，最小的域，性质是域*由K'生成*，而$\alpha_{b_2 b_1}$则为$b_1 \in B_1, b_2 \in B_2$。
 
-最后，要为V的子空间W建立断言(i)，我们首先要证明以下引理：
+最后，为了对V的子空间W建立断言(i)，我们首先要证明以下引理：
 
 #### 引理 1 {#alg-ii-s8-lem-1 .statement tag=05VF}
 
-*令V为右向量K空间，具有K'结构V'和V的W向量子K空间。存在V的两个向量子K空间$W_1, W_2$，K'上有理数，使得V是$W_1$和$W_2$的直和，并且，如果V与$W_1 \times W_2$标识，则W是K-线性映射克$W_1$变成$W_2$。*
+*令V为右向量K空间，具有K'结构V'和V的W向量子K空间。存在V的两个向量子K空间$W_1, W_2$，在K'上有理，使得V是$W_1$和$W_2$的直和，并且，如果V与$W_1 \times W_2$标识，则W是K-线性映射克$W_1$变成$W_2$。*
 
 设 B 是 K' 上 V 有理数的基。 § 7, no. 1的应用定理2，到W超过K的基，视为V的自由子集，以及该自由子集和B的生成的系统并，可见存在B的子集C，使得V是W的直和，并且C生成V的子空间$W_2$。又令$W_1$为由$B - C$生成的V的子空间。由于$B \subset V'$，显然$W_1$和$W_2$对于K'是有理数。此外，对于所有$x \in W_1$，$W_2$存在且仅有一个向量$g(x)$使得$x + g(x) \in W$，因为V是W的直和和$W_2$；那么 W 是 g 的图，并且 g 是 K 线性的，因为 W 是向量 V 的子 K 空间。
 
 证明引理后，可知当且仅当g在L（no. 3，命题 4）上有理数时，W在K包含K'的子域L上是有理数。 最小的域$K'(g)$使得g在$K'(g)$上是有理数，因此也是最小的域，其中W在最小的上是有理数。
 
-### 7. 判据理性
+### 7. 判据为了理性
 
 对于 K 的每个子域 L，令 $\mathrm{End}_L(K)$ 表示 K 的自同态环被视为超过 L 的 *左向量空间*；如果 L 包含于 K'，$\mathrm{End}_L(K)$ 是 $\mathrm{End}_{K'}(K)$ 的子环。对于 $\mathrm{End}_{K'}(K)$ 的每个子集 $\mathscr{M}$，存在 K 包含于 K' 的 *最大的子域* L，并且使得 $\mathscr{M}$ 包含在 $\mathrm{End}_L(K)$ 中，即 $\xi \in K$ 的集合使得对于所有$\eta \in K$和所有$\phi \in \mathscr{M}$，$\phi(\xi \eta) = \xi \cdot \phi(\eta)$（立即验证这个集合是环，另一方面，前面的关系中的$\xi^{-1} \eta$乘以替换$\eta$，我们得到$\phi(\xi^{-1} \eta) = \xi^{-1} \cdot \phi(\eta)$，当$\xi \neq 0$）。我们将把这个域称为K中$\mathscr{M}$的*中心化器*，并用$\chi(\mathscr{M})$表示。
 
@@ -260,7 +260,7 @@ $$
 
 (ii) *令 $V_1, V_2$ 为两个右向量 K 空间，每个都有一个 K' 结构。为了使$V_1$到$V_2$的K-线性映射 f在L上是有理数，$f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))$对于所有$x_1 \in V_1$和所有$\phi \in \mathscr{M}$是必要且充分的。*
 
-我们首先证明 x 的断言 (i)。令 B 为 K' 上 V 有理数的基并写为 $x = \sum_{b \in B} b.\xi_b$；那么，对于$\phi \in \mathscr{M}$和$\eta \in K$，
+我们首先证明 x 的断言 (i)。设 B 为 K' 上 V 有理数的基，并写为 $x = \sum_{b \in B} b.\xi_b$；那么，对于$\phi \in \mathscr{M}$和$\eta \in K$，
 
 $$
 \phi_V(x.\eta) - x.\phi(\eta) = \sum_{b \in B} b.(\phi(\xi_b\eta) - \xi_b.\phi(\eta))
@@ -276,7 +276,7 @@ $$
 
 是等价的。其中第二个关系意味着对于所有$b \in B$，$\xi_b \in \chi(\mathscr{M})$，这证明了(i)的第一个断言。
 
-接下来我们证明(ii)。为了使 f 在 L 上有理数，对于所有在 K' 上的 $x'_1 \in V_1$ 有理数，$f(x'_1)$ 是 $V_2$ 在 L 有理数中的向量；这意味着对于$V_1$的每一个向量$x_1$在L上有理数，$f(x_1)$在L上都是有理数，这样向量是线性组合，其中向量有理数在K'上的L中的系数。上面的条件通过参数的第一个部分等价于关系
+接下来我们证明(ii)。为了使 f 在 L 上有理数，对于所有 $x'_1 \in V_1$ 在 K' 上有理数，$f(x'_1)$ 在 $V_2$ 有理数在 L 上是向量；这意味着对于$V_1$的每一个向量$x_1$在L上有理数，$f(x_1)$在L上是有理数，这样向量是线性组合，向量在K'上有理数的L中的系数。上面的条件通过参数的第一个部分等价于关系
 
 $$
 f(x'_1).\phi(\eta) = \phi_{V_2}(f(x'_1).\eta) \quad \text{for } \phi \in \mathscr{M} \text{ and } \eta \in K
@@ -288,7 +288,7 @@ $$
 f(\phi_{V_1}(x'_1.\eta)) = \phi_{V_2}(f(x'_1.\eta)) \quad \text{for } \phi \in \mathscr{M} \text{ and } \eta \in K.
 $$
 
-由于$V_1$的每个元素都是线性组合，且$V_1$的元素的K中的系数在K'上有理数，条件(5)等价于
+由于 $V_1$ 的每个元素都是线性组合，且 $V_1$ 的元素的 K 中的系数超过 K' 有理数，条件 (5) 等价于
 
 $$
 f(\phi_{V_1}(x_1)) = \phi_{V_2}(f(x_1))
@@ -296,8 +296,8 @@ $$
 
 对于所有 $x_1 \in V_1$ 和所有 $\phi \in \mathscr{M}$。
 
-最后，为了证明（i）中的第二个断言，我们使用no. 6，引理1：W是K-线性映射$g : W_1 \to W_2$的图，并且W在当且仅当映射g在L上是有理数（no. 3，命题） 4）。通过(ii)，要使g在L上是有理数，$g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$对于所有$x_1 \in W_1$和所有$\phi \in \mathscr{M}$是必要且充分的；如$\phi_v = \phi_{W_1} \times \phi_{W_2}$，上面的条件表示对于所有$\phi \in \mathscr{M}$，g的图W在$\phi_v$下是稳定的。
+最后，为了证明（i）中的第二个断言，我们使用no. 6，引理 1：W是K-线性映射$g : W_1 \to W_2$的图，并且W在当且仅当映射g在L上是有理数（no. 3，命题） 4).通过(ii)，要使g在L上是有理数，$g(\phi_{W_1}(x_1)) = \phi_{W_2}(g(x_1))$对于所有$x_1 \in W_1$和所有$\phi \in \mathscr{M}$是必要且充分的；如$\phi_v = \phi_{W_1} \times \phi_{W_2}$，上面的条件表示对于所有$\phi \in \mathscr{M}$，g的图W在$\phi_v$下是稳定的。
 
-### 习题{#alg-ii-s8-exercises}
+### 习题 {#alg-ii-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

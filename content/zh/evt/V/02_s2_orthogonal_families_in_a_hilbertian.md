@@ -29,25 +29,25 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 6769bdd1d724a3fdcf707e67e1139903998fd054661ce1e2d243e4e71db411e4
+content_sha256: 8d0f4969c62e2c80e958e8e48fc80a071082385fb4970f3049f695eb835246c7
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
 translation_method: google
 source_content_sha256: a7de25f8e6403d336b77dd0506a5e00a8938e7643c273332f7c1b37ad5210590
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 86eef560d8ada79cb14461ff21ca37c2cd99af1b29edb6d85d47cb272e65aed5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。希尔伯特矩阵中的正交族空间
 
-### 1.希尔伯特空间的外部希尔伯特和
+### 1. 希尔伯特空间的外部希尔伯特和
 
 #### 命题 1 {#evt-v-s2-prop-1 .statement tag=07Z7}
 
-*令 $(E_i)_{i \in I}$ 为所有族 $x = (x_i)_{i \in I}$ 的希尔伯特空间、P 乘积向量空间 $\prod_{i \in I} E_i$ 和 P 由……组成的 E 子集族，使得 $\sum_{i \in I} \|x_i\|^2$ 是有限的。
+*令 $(E_i)_{i \in I}$ 为所有族 $x = (x_i)_{i \in I}$ 的希尔伯特空间、P 乘积向量空间 $\prod_{i \in I} E_i$ 和 P 由……组成的 E 子集，使得 $\sum_{i \in I} \|x_i\|^2$ 是有限的。
 
 a) E 是 P 的向量子空间。
 
@@ -67,19 +67,19 @@ $$
 $$
 因此$\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$。如果$x \neq 0$，我们就有$\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$，因此断言 b)如下。
 
-我们记得，S 是所有族 $x = (x_i)_{i \in I}$ 的 P 由……组成的子空间，使得所有 $i \in I$ 的集合其中 $x_i \neq 0$ 是有限的。紧接着，S 在 E 中是稠密的；因此，还需要证明 E 对于由范数 $\|x\| = \langle x|x \rangle^{1/2}$ 获得的拓扑 $\mathscr{T}_1$ 来说是“完整的”。设 $\mathscr{T}_2$ 是由 $\prod_{i \in I} E_i$ 上的乘积拓扑在 E 上诱发的拓扑。对于每个$r > 0$，令$B_r$为所有$x \in E$中的集合，使得$\|x\| \leq r$。这个关系意味着对于I的每个有限子集J，我们都有$\sum_{i \in J} \|x_i\|^2 \leq r^2$，因此$B_r$是$\prod_{i \in I} E_i$的闭子集，因此也是完备的。事实上，E 对于 $\mathscr{T}_1$ 是完整的，现在可以从 GT、III, § 3, No. 5 得出，cor。 2 支撑。 10.
+我们记得，S 是所有族 $x = (x_i)_{i \in I}$ 的 P 由……组成的子空间，使得所有 $i \in I$ 的集合其中 $x_i \neq 0$ 是有限的。紧接着，S 在 E 中是稠密的；因此，仍然需要证明 E 对于由范数 $\|x\| = \langle x|x \rangle^{1/2}$ 获得的拓扑 $\mathscr{T}_1$ 来说是*完整的。设 $\mathscr{T}_2$ 是由 $\prod_{i \in I} E_i$ 上的乘积拓扑在 E 上诱发的拓扑。对于每个$r > 0$，令$B_r$为所有$x \in E$中的集合，使得$\|x\| \leq r$。这个关系意味着对于I的每个有限子集J，我们都有$\sum_{i \in J} \|x_i\|^2 \leq r^2$，因此$B_r$是$\prod_{i \in I} E_i$的闭子集，因此也是完备的。事实上，E 对于 $\mathscr{T}_1$ 是完整的，现在可以从 GT、III, § 3, No. 5 得出，cor。 2 支撑。 10.
 
 #### 定义 1 {#evt-v-s2-def-1 .statement tag=07Z8}
 
-*让*$(E_i)_{i \in I}$*成为希尔伯特空间的家族。希尔伯特空间E在道具中定义。 1 称为族* $(E_i)_{i \in I}$ *的外部希尔伯特和，写为* $\bigoplus_{i \in I} E_i$ *或* $\bigoplus_{i \in I} E_i$^1。
+*让*$(E_i)_{i \in I}$*成为希尔伯特空间的家族。希尔伯特空间 E 在道具中定义。 1 被称为族* $(E_i)_{i \in I}$ *的外部希尔伯特和，写为* $\bigoplus_{i \in I} E_i$ *或* $\bigoplus_{i \in I} E_i$^1。
 
-令$f_i$为从$E_i$到E的映射，其中变换$z \in E_i$到元素$(x_k) \in E$，这样$x_k = 0$对于所有$k \neq i$和$x_i = z$；很明显，$f_i$是从希尔伯特空间$E_i$到E的闭向量子空间的同构。我们说$f_i$是从$E_i$到E的*典范映射*，我们通常会认同 $E_i$ 及其像在 E 中由这个同构组成。按照这个约定，$E_i$和$E_k$在$i \neq k$的E中*正交*，并且E是由子空间$E_i$的并生成的闭合向量子空间。
+令$f_i$为从$E_i$到E的映射，其中变换$z \in E_i$到元素$(x_k) \in E$，使得$x_k = 0$对于所有$k \neq i$和$x_i = z$；很明显，$f_i$是从希尔伯特空间$E_i$到E的闭向量子空间的同构。我们说$f_i$是从$E_i$到E的*典范映射*，我们通常会认同 $E_i$ 及其像在 E 中由同构组成。按照这个约定，$E_i$和$E_k$在$i \neq k$的E中*正交*，并且E是由子空间$E_i$的并生成的闭合向量子空间。
 
 当I有限时，E为$E_i$的直和；由于从 E 到 $E_i$ 的规范投影算子对于所有 $i \in I$ 都是连续的，因此 E 也是 $E_i$ 的拓扑直和（GT，III, § 6, No. 2，道具 2）。如果$I = \{1, n\}$，我们也写$E_1 \oplus E_2 \oplus ... \oplus E_n$而不是$\bigoplus_{i=1}^n E_i$。
 
 #### 例 {#evt-v-s2-n1-exa-1 .statement tag=07Z9}
 
-— 令 E 为指标的希尔伯特空间和 I 集合。令$\ell^2_E(I)$表示族$(E_i)_{i \in I}$的外部希尔伯特和，其中$E_i = E$代表所有$i \in I$。在其他字中，$\ell^2_E(I)$是E的元素的所有族$x = (x_i)_{i \in I}$的空间，使得$\sum_{i \in I} \|x_i\|^2 < +\infty$，赋予标量乘积$\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$（平方的可求和族的空间） E 的元素由 I 索引）。我们放$\ell^2(I) = \ell^2_K(I)$。
+— 令 E 为空间和 I 集合 of 指标的希尔伯特空间。令$\ell^2_E(I)$表示族$(E_i)_{i \in I}$的外部希尔伯特和，其中$E_i = E$代表所有$i \in I$。在其他字中，$\ell^2_E(I)$是E的元素的所有族$x = (x_i)_{i \in I}$的空间，使得$\sum_{i \in I} \|x_i\|^2 < +\infty$，赋予标量乘积$\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$（平方的可求和族空间） E 的元素由 I 索引）。我们放$\ell^2(I) = \ell^2_K(I)$。
 
 ### 2. 希尔伯特空间的正交子空间的希尔伯特和
 
@@ -94,9 +94,9 @@ $$
 
 #### 定理 1 {#evt-v-s2-thm-1 .statement tag=07ZB}
 
-— 令 E 为希尔伯特空间，它是 E 的封闭向量子空间的族 $(E_i)_{i \in I}$ 的希尔伯特和。存在同构$f$，并且只有一个，从 E 到外部希尔伯特和家庭$(E_i)$的$\bigoplus_{i \in I} E_i = F$，使得对于所有$i \in I$，$f$到E的限制是从$E_i$到F的典范映射$f_i$。
+— 令 E 为希尔伯特空间，它是 E 的封闭向量子空间的族 $(E_i)_{i \in I}$ 的希尔伯特和。从 E 到外部希尔伯特和，存在同构 $f$，并且只有一个。 $(E_i)$族的$\bigoplus_{i \in I} E_i = F$，使得对于所有$i \in I$，$f$到E的限制是从$E_i$到F的典范映射$f_i$。
 
-令$S \subset F$为$E_i$的“代数”直和，并令$g$为从S到E的线性映射$(x_i)_{i \in I} \mapsto \sum_{i \in I} x_i$。我们将证明$g$是来自前希尔伯特空间的同构 S 到 E 的（前希尔伯特）子空间 $g(S)$，由 $E_i$ 的并生成：对于两个元素 $x = (x_i)_{i \in I}$、$y = (y_i)_{i \in I}$，我们有
+令$S \subset F$为$E_i$的“代数”直和，令$g$为从S到E的线性映射$(x_i)_{i \in I} \mapsto \sum_{i \in I} x_i$。我们将证明$g$是来自前希尔伯特空间的同构 S 到 E 的（前希尔伯特）子空间 $g(S)$，由 $E_i$ 的并生成：对于两个元素 $x = (x_i)_{i \in I}$、$y = (y_i)_{i \in I}$，我们有
 
 $$
 \langle g(x)|g(y) \rangle = \langle \sum_{i \in I} x_i|\sum_{i \in I} y_i \rangle = \sum_{(i,k) \in I \times I} \langle x_i|y_k \rangle .
@@ -108,13 +108,13 @@ $$
 \langle g(x)|g(y) \rangle = \sum_{i \in I} \langle x_i|y_i \rangle = \langle x|y \rangle ;
 $$
 
-这证明了我们的断言。由于 S 在 F 中稠密且 $g(S)$ 在 E 中稠密，因此从 F 到 E 有同构 $g$ 扩展到同构 $\overline{g}$（V，p. 8，更确切地说）。显然，$\overline{g}$中的逆同构$f$就是所需要的映射；它的唯一性是由$E_i$的并生成的E的闭子空间是E本身而得出的。
+这证明了我们的断言。由于 S 在 F 中稠密，而 $g(S)$ 在 E 中稠密，因此从 F 到 E 有同构 $g$ 扩展到同构 $\overline{g}$（V，p. 8，更确切地说）。显然，$\overline{g}$中的逆同构$f$就是所需要的映射；它的唯一性是由$E_i$的并生成的E的闭子空间是E本身而得出的。
 
-当E是子空间的族$(E_i)_{i \in I}$的希尔伯特和时，我们经常通过同构$f$将认同E与$E_i$的外部希尔伯特和F相结合。如果集合I是有限的，说E是族$(E_i)_{i \in I}$的希尔伯特和意味着$E_i$是二乘二正交并且向量空间E是族的直和 $(E_i)_{i \in I}$ / 子空间。
+当E是子空间族$(E_i)_{i \in I}$的希尔伯特和时，我们经常通过同构$f$将认同E与$E_i$的外部希尔伯特和F相结合。如果集合I是有限的，说E是族$(E_i)_{i \in I}$的希尔伯特和意味着$E_i$是二乘二正交并且向量空间E是族的直和 $(E_i)_{i \in I}$ 共子空间。
 
 #### 推论 1 {#evt-v-s2-thm-1-cor-1 .statement tag=07ZC}
 
-— 令 E 为希尔伯空间，它是 E 的闭向量子空间族$(E_i)_{i \in I}$ 的希尔伯和；对于所有$i \in I$，令$p_{E_i}$为从E到$E_i$的正射投影（V，p. 13）。
+— 令 E 为希尔伯特空间，它是 E 的闭向量子空间族$(E_i)_{i \in I}$ 的希尔伯特和；对于所有$i \in I$，令$p_{E_i}$为从E到$E_i$的正射投影（V，p. 13）。
 
 a) 对于所有$x \in E$，族$(\|p_{E_i}(x)\|^2)_{i \in I}$可在$\mathbf{R}$中求和，族$(p_{E_i}(x))_{i \in I}$可在E中求和，并且我们有
 
@@ -160,7 +160,7 @@ $$
 
 为了证明条件是充分的，只要验证一下，如果满足的话，E等于$W_{\lambda \mu}$的并生成的闭向量子空间F就足够了（$\lambda \in L$，μ ∈ M_λ）；但是，对于每个 λ ∈ L，F 包含由 W_{λμ} 的并生成的闭向量子空间，使得 μ ∈ M_λ，即 F 包含 V_λ；因此F是V_λ的并生成的闭向量子空间，即E由假设生成。
 
-### 3. 正交家庭
+### 3. 正交族
 
 #### 定义 3 {#evt-v-s2-def-3 .statement tag=07ZG}
 
@@ -190,7 +190,7 @@ $$
 
 2) 如果V是完备的，那么对于所有$x \in E$和$\sum_{i\in I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i\in I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$，所有$⟨e_i|x⟩.e_i$的族在E中是可求和的。
 
-3) 假设V是完整的。对于每一个标量族$(\lambda_i)_{i\in I}$，例如$\sum_{i\in I} |\lambda_i|^2 < +\infty$，都存在一个唯一的点$x \in V$，使得$⟨e_i|x⟩ = \lambda_i$对于所有$i \in I$。如果 $(\mu_i)_{i\in I}$ 是第二个标量族，使得 $\sum_{i\in I} |\mu_i|^2 < +\infty$，并且如果对于所有 $i \in I$，$y \in V$ 使得 $⟨e_i|y⟩ = \mu_i$，则 $⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$。
+3) 假设V是完整的。对于每个标量族$(\lambda_i)_{i\in I}$，例如$\sum_{i\in I} |\lambda_i|^2 < +\infty$，都存在一个唯一的点$x \in V$，使得$⟨e_i|x⟩ = \lambda_i$对于所有$i \in I$。如果 $(\mu_i)_{i\in I}$ 是第二个标量族，使得 $\sum_{i\in I} |\mu_i|^2 < +\infty$，并且如果对于所有 $i \in I$，$y \in V$ 使得 $⟨e_i|y⟩ = \mu_i$，则 $⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$。
 
 #### 命题 5 {#evt-v-s2-prop-5 .statement tag=07ZJ}
 
@@ -214,7 +214,7 @@ d) 关系 $\langle e_i | x \rangle = 0$ 对于所有 $i \in I$ 意味着 $x = 0$
 
 — Hausdorff prehilbertian 空间 E 中的正交和全族称为 E 的正交基。
 
-Hausdorff prehilbertian 空间 E 的标准正交基也是 E 完备化的标准正交基。
+Hausdorff prehilbertian 空间 E 的正交基也是 E 的完备性的正交基。
 
 令 $(e_i)_{i \in I}$ 为 E 的正交基；对于每个$x \in E$，数$\langle e_i | x \rangle$，通过滥用语言，称为$x$相对于基$(e_i)$的坐标。对于 E 中的每个 $x$ 和 $y$，我们有
 
@@ -222,9 +222,9 @@ $$
 \langle x | y \rangle = \sum_{i \in I} \overline{\langle e_i | x \rangle} \langle e_i | y \rangle .
 $$
 
-一般来说，E 的正交基不是 A、II、p. 25 中定义的意义上的 E 在域 K 上的基；为了避免任何混淆，我们总是说 loc 意义上的前希尔伯特式空间 E 的基。引用。是 E 对 K 的代数基。
+一般来说，E 的正交基不是 A、II、p. 25 中定义的意义上的 E 相对于域 K 的基；为了避免任何混淆，我们总是说 loc 意义上的前希尔伯特式空间 E 的基。引用。是 E 对 K 的代数基。
 
-令 E 和 F 为两个豪斯多夫前希尔伯特空间和 $u$ 从 E 到 F 的连续线性映射。令 $(e_i)_{i \in I}$（或 $(f_j)_{j \in J}$）为 E（或 F）的正交基。放
+令 E 和 F 为两个豪斯多夫预希尔伯特空间和 $u$ 从 E 到 F 的连续线性映射。令 $(e_i)_{i \in I}$（或 $(f_j)_{j \in J}$）为 E（或 F）的正交基。放
 
 $$
 u_{ji} = \langle f_j | u(e_i) \rangle
@@ -240,9 +240,9 @@ $$
 \langle f | g \rangle = \int_0^1 \overline{f(t)}\ g(t)\ dt .
 $$
 
-那么 E 是豪斯多夫前希尔伯特空间，但不完备。对于每个整数$n \in \mathbf{Z}$，让$e_n(x) \in \mathbf{e}(nx)$。 $(e_n)_{n \in \mathbf{Z}}$在E中是正交的，它是直接的。而且，E上一致收敛的拓扑比从范数$\|f\|_2 = \langle f|f \rangle^{1/2}$推导出来的拓扑是更细。对于一致收敛（GT，X, § 4, No. 4），族$(e_n)_{n \in \mathbf{Z}}$在E中是总的，并且在前希尔伯特空间E中是*更不必说*。因此$(e_n)_{n \in \mathbf{Z}}$是E的正交基。
+那么 E 是豪斯多夫前希尔伯特空间，但不完备。对于每个整数$n \in \mathbf{Z}$，让$e_n(x) \in \mathbf{e}(nx)$。 $(e_n)_{n \in \mathbf{Z}}$在E中是正交的，它是直接的。而且，E上一致收敛的拓扑比从范数$\|f\|_2 = \langle f|f \rangle^{1/2}$推导出来的拓扑是更细。对于一致收敛 (GT, X, § 4, No. 4)，族 $(e_n)_{n \in \mathbf{Z}}$ 在 E 中是总的，而 *更不必说* 在前希尔伯特空间 E 中。因此，$(e_n)_{n \in \mathbf{Z}}$ 是 E 的正交基。
 
-### 4.正交归一化
+### 4. 正交化
 
 #### 定理 2 {#evt-v-s2-thm-2 .statement tag=07ZM}
 
@@ -313,8 +313,8 @@ $$
 
 #### 推论 2 {#evt-v-s2-prop-7-cor-2 .statement tag=07ZU}
 
-— 在阶中，希尔伯空间 $\ell^2(I)$ 和 $\ell^2(J)$ 同构的，I 和 J 等价是充分必要的。
+— 在阶希尔伯空间 $\ell^2(I)$ 和 $\ell^2(J)$ 同构中，I 和 J 等价是充分必要的。
 
 ### 习题{#evt-v-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

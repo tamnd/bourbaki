@@ -41,16 +41,16 @@ subsections:
       pdf_page: 120
 statements: 29
 exercises: 25
-content_sha256: 63cffd2b272d99587611b5c0b7ca1881ed16424d18e2ca7146fa724270b828e3
+content_sha256: 58d96f933557885ba10f80a54cb8cb784b839a606b2fd219fe020ad8fe15d3d5
 translated_from: content/en/top/I/11_s11_connectedness.md
 translation_method: google
 source_content_sha256: 602e72b63986cd10033d70d8a3dec1b9d5fcf55f8050a8e3d312d439a7a17d9f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 94628235c99687c88e5e00d8d12ae37b785987a5a3eff6104fbca259e6870592
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 11. 连通性
@@ -63,7 +63,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 通过替换字“打开集合”通过“关闭集合”获得等效的定义。 X连通当且仅当X中唯一开闭的子集是空集以及整个空间X。
 
-如果 X 已连通，且 A、B 是两个非空开（或闭）子集，使得 A \cup B = X，则 A \cap B \neq \emptyset。
+如果 X 已连通，并且 A、B 是两个非空开（或闭）子集，使得 A \cup B = X，则 A \cap B \neq \emptyset。
 
 #### 例 1 {#top-i-s11-n1-exa-1 .statement tag=0BBH}
 
@@ -73,23 +73,23 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 具有多个点的离散空间未连接。
 
-观察如果$(U_i)_{i \in I}$是开集合的拓扑空间$X$由……组成的划分[必然非空，从划分的定义（集合理论，R，， no. 4)]则$U_i$中的每一个在$X$中都是开和闭的，因为$U_i$的补集是$U_x$的并，其中$x \neq i$。 $X$的开子集为子集$A$，使得$A \cap U_i$对于每个$i \in I$在$U_i$中开开，这样$X$可以与$U_i$的和识别（$\S 2$， no. 4、例 3) 并且如果$I$有多个元素则不连接
+观察如果$(U_i)_{i \in I}$是开集合的拓扑空间$X$由……组成的划分[必然非空，从划分的定义（集合理论，R，， no. 4)]则每个$U_i$在$X$中既开又闭，因为$U_i$的补集是$U_x$的并，其中$x \neq i$。 $X$的开子集为子集$A$，使得$A \cap U_i$对于每个$i \in I$在$U_i$中开开，这样$X$可以与$U_i$的和识别（$\S 2$， no. 4, 例 3) 并且如果$I$有多个元素则不连接
 
 #### 定义 2 {#top-i-s11-def-2 .statement tag=0BBJ}
 
 *如果 $X$ 的子空间 $A$ 是连通的，则拓扑空间 $X$ 的子集 $A$ 被称为连通的集合。*
 
-要使$A$成为$X$的连通子集，对于$A$的每个覆盖，$X$的两个开（或闭）子集$B, C$，使得$A \cap B$和$A \cap C$非空，是必要且充分的，我们有$A \cap B \cap C \neq \emptyset$。
+为了使$A$成为$X$的连通子集，对于$A$的每个覆盖，$X$的两个开（或闭）子集$B, C$，使得$A \cap B$和$A \cap C$非空，我们有$A \cap B \cap C \neq \emptyset$。
 
 #### 例 {#top-i-s11-n1-exa-3 .statement tag=0BBK}
 
-在任何拓扑中空间、空集以及单个点的每个集合由……组成都是相连的。在 Hausdorff 空间 $X$ 中，超过 1 个点的每个有限集合由……组成都是不相连的，更一般地，$X$ 的每个子集具有多个点并且至少有一个孤立的点未连接。
+在任何拓扑中空间、空集以及单个点的每个集合由……组成都是相连的。在 Hausdorff 空间 $X$ 中，超过 1 个点的每个有限集合由……组成均不相连，更一般地，$X$ 的每个子集具有多个点并且至少有一个孤立的点未连接。
 
 如果密集的子集$A$相连，则整个空间$X$相连；否则，将存在$X$的两个非空开不相交的开子集$M, N$，使得$M \cup N = X$和$M \cap A, N \cap A$将是$A$的两个不相交的非空开子集，其并是 $A$。因此我们有
 
 #### 命题 1 {#top-i-s11-prop-1 .statement tag=0BBL}
 
-*如果 $A$ 是连通的集合，则每个集合 $B$ 使得 $A \subset B \subset \overline{A}$ 连通。*
+*如果$A$是一个连通的集合，那么每个集合$B$使得$A \subset B \subset \overline{A}$是连通的。*
 
 #### 命题 2 {#top-i-s11-prop-2 .statement tag=0BBM}
 
@@ -101,11 +101,11 @@ $$
 A = \bigcup_i A_i
 $$
 
-已连接。如果不是，则有两个开集合、$B$和$C$，使得$B \cap A$和$C \cap A$非空，以及$A \subset B \cup C$和$A \cap B \cap C = \emptyset$。 $x$ 属于到集合 $B, C$ 之一，比如 $x \in B$；另一方面，集合$A_i$中的一个，比如$A_x$，满足$C$；因此，$A_x \subset B \cup C$、$A_x \cap B \cap C = \emptyset$、$B \cap A_x$和$C \cap A_x$非空。因此$A_x$不连通，这是一个矛盾。
+已连接。如果不是，则存在两个开集合、$B$和$C$，使得$B \cap A$和$C \cap A$非空，以及$A \subset B \cup C$和$A \cap B \cap C = \emptyset$。 $x$ 属于到集合 $B, C$ 之一，比如 $x \in B$；另一方面，集合$A_i$中的一个，比如$A_x$，满足$C$；因此，$A_x \subset B \cup C$、$A_x \cap B \cap C = \emptyset$、$B \cap A_x$和$C \cap A_x$非空。因此$A_x$不连通，这是一个矛盾。
 
 #### 推论{#top-i-s11-n1-cor-1 .statement tag=0BBN}
 
-*让$(A_n)_{n \geq 0}$是连接的集合的无限序列，这样$A_{n+1} \cap A_n \neq \emptyset$对于所有$n \geq 0$。然后并$\bigcup_{n=0}^\infty A_n$已连接。*
+*让$(A_n)_{n \geq 0}$是连接的集合的无限序列，使得$A_{n+1} \cap A_n \neq \emptyset$对于所有$n \geq 0$。然后并$\bigcup_{n=0}^\infty A_n$已连接。*
 
 通过$n$上的归纳，我们立即看到集合$B_n = \bigcup_{i=0}^n A_i$通过命题2连接到所有$n$。集合$B_n$有一个非空交；因此，它们的并等于 $\bigcup_{n=0}^\infty A_n$，由命题 2 连接。
 
@@ -117,7 +117,7 @@ $$
 
 #### 推论 {#top-i-s11-n1-cor-2 .statement tag=0BBP}
 
-*在连通的空间 $X$ 中，除 $X$ 本身之外的每个非空集合都至少有一个边界点。*
+*在连通的空间$X$中，除了$X$本身之外的每个非空集合都至少有一个边界点。*
 
 ### 2. 连续映射下连接的集合的像
 
@@ -125,7 +125,7 @@ $$
 
 *令$A$为拓扑空间$X$的连通子集，并令$f$为$X$到拓扑空间$X'$的连续映射。然后$f(A)$已连接。*
 
-假设 $f(A)$ 未连接。那么存在两个$f^{-1}(A)$开放的集合$M', N'$，以及$f(A)$的形式划分；因此$A \cap f^{-1}(M')$和$A \cap f^{-1}(N')$在$A$的$A$和形式划分开放；这个与……矛盾假设与$A$相连。
+假设 $f(A)$ 未连接。则存在两个$f^{-1}(A)$开路的集合$M', N'$，以及$f(A)$的形式划分；因此$A \cap f^{-1}(M')$和$A \cap f^{-1}(N')$在$A$的$A$和形式划分开放；这个与……矛盾假设与$A$相连。
 
 连续映射下相连的集合的*逆像*不需要相连；考虑将离散的空间的例映射转换为一个点的空间由……组成。
 
@@ -133,17 +133,17 @@ $$
 
 #### 命题 5 {#top-i-s11-prop-5 .statement tag=0BBR}
 
-*要使拓扑空间 $X$ 不连通，存在 $X$ 的满射连续映射到多个点的离散空间包含是必要且充分的。*
+*要使拓扑空间 $X$ 不连通，存在 $X$ 的满射连续映射到离散空间包含多个点上是必要且充分的。*
 
 条件满足命题 4。反之，如果$X$不连通，则存在两个非空不相交的开子集$A, B$，其并为$X$，且映射$f$ $X$到由$f(A) = \{a\}$和$f(B) = \{b\}$定义的两个元素$\{a, b\}$的离散空间是连续的。
 
-### 3. 连通空间的商空间
+### 3. 连接空间的商空间
 
 #### 命题 6 {#top-i-s11-prop-6 .statement tag=0BBS}
 
 连通的空间的每个商空间都是连通的。
 
-这是 no. 2 的命题 4 个中的直接的推论。
+这是直接的推论命题 4 no. 2。
 
 #### 命题 7 {#top-i-s11-prop-7 .statement tag=0BBT}
 
@@ -155,11 +155,11 @@ $$
 
 #### 命题 8 {#top-i-s11-prop-8 .statement tag=0BBU}
 
-连接的空间中的每个乘积都是相连的。相反，如果非空空间中的乘积是连通的，那么因子中的每一个都是连通的。
+连接的空间中的每个乘积都是相连的。相反，如果非空空间中的乘积是连通的，则因子中的每一个都是连通的。
 
 设$X = \prod_{i \in I} X_i$为拓扑空间的乘积。 如果$X_i$非空，则每个$i \in I$都有$X_i = \operatorname{pr}_i X$；因此，如果 $X$ 连接，则 $X_i$（no. 2，命题 4）也连接。 相反，假设每个 $X_i$ 已连接，而 $X$ 未连接。 通过no. 2的命题 5，存在连续的满射映射$f : X \to X'$，其中$X'$是离散的空间，其中包含多于一个点。 令$a = (a_i)$为$X$中的任意点，且$x$为任意指标；部分映射$f_x : X_x \to X'$，由$f_x(x) = f((y_i))$定义，其中$y_x = x$和$y_i = a_i$（如果$i \neq x$）在$X_x$上连续；由于$X_x$已连接，$f_x$在$X_x$上必须恒定。 It follows immediately by induction that $f(x) = f(a)$ for all points $x = (x_i)$ such that $x_i = a_i$ for all but a finite number of indices $i \in I$. 但是这些点$x$形式是$X$的密集子集（§ 4, no. 3，命题8）。 因此，$f$在$X$上连续，并且在$X$的密集子集上恒定，因此在$X$上恒定（§ 8, no. 1，命题2，推论1）。 但是$f$的这个与……矛盾定义。
 
-### 5. 组件
+### 5. 成分
 
 Given a point $x$ of a topological space $X$, the union of the connected subsets of $X$ which contain $x$ is connected (no. 1, Proposition 2); it is therefore the largest connected subset of $X$ which contains $x$.
 
@@ -187,7 +187,7 @@ Given a point $x$ of a topological space $X$, the union of the connected subsets
 
 此乘积集合已连接（no. 4，命题8）。相反，如果$A$是$X$的连通的子集，其中包含$x$，则$\operatorname{pr}_i(A)$是集合（no. 2，命题4）的连通，其中包含 $x$；从$A \subset \prod_i \operatorname{pr}_i(A)$开始，$A$包含在$x_i$的组件的乘积中。
 
-### 6.本地连接空间
+### 6. 本地连接空间
 
 #### 定义 4 {#top-i-s11-def-4 .statement tag=0BBY}
 
@@ -226,11 +226,11 @@ a) 令 $(X_i)_{i \in I}$ 为一系列局部连接的空间，使得 $X_i$ 与除
 
 b) 相反，如果非空拓扑空间的族$(X_i)$的乘积是局部连通的，则每个$X_i$都是局部连通的，并且除了指标的有限数之外的所有$X_i$都是连通的。
 
-a) 令 J 为 I 的有限子集，使得当且仅当$i \in J$ 时$X_i$ 不连通。让
+a) 令 J 为 I 的有限子集，使得当且仅当 $i \in J$ 时，$X_i$ 不连通。让
 $$
 U = \prod_{i \in I} U_i
 $$
-是 X 的初等集合包含点 $x = (x_i)$，令 K 为 I 的有限子集，使得 $U_i \neq X_i$ 当且仅当 $i \in K$。对于$i \notin J \cup K$，令$V_i$为$X_i$，对于$i \in J \cup K$，令$V_i$为包含在$U_i$中的$x_i$的连通邻域；然后
+是 X 的初等集合包含点 $x = (x_i)$，并令 K 为 I 的有限子集，使得 $U_i \neq X_i$ 当且仅当 $i \in K$。对于$i \notin J \cup K$，令$V_i$为$X_i$，对于$i \in J \cup K$，令$V_i$为包含在$U_i$中的$x_i$的连通邻域；那么
 $$
 V = \prod_{i \in I} V_i
 $$
@@ -240,19 +240,19 @@ b) 令$a = (a_i)$为X的点，并令V为X中$a$的连通邻域。由于除了指
 $$
 V = V_x \times \prod_{i \neq x} X_i
 $$
-是X中$x$的邻域； V 因此包含 $x$ 的连通邻域 W，其投影 $\mathrm{pr}_x W$ 是$V_x$ 中包含的$a_x$ 的连通邻域 (no. 2, 命题 4 和§ 4, no. 2、命题5)。因此每个$X_x$都是本地连接的。
+X 中的 $x$ 为邻域； V 因此包含 $x$ 的连通邻域 W，其投影 $\mathrm{pr}_x W$ 是 $V_x$ 中包含的$a_x$ 的连通邻域 (no. 2, 命题 4 和§ 4, no. 2，命题5)。因此每个$X_x$都是本地连接的。
 
 ### 7. 应用：POINCARÉ-VOLTERRA 定理
 
 #### 定理 1 {#top-i-s11-thm-1 .statement tag=0BC3}
 
-设$X$是拓扑空间满足公理$(O_{III})$（但不一定是豪斯多夫），并假设$X$是连通的且是局部连通的。令$Y$为拓扑空间，其拓扑具有可数基，并令$p : X \to Y$为连续映射，使得对于每个$y \in Y$，$\overline{p}^{-1}(y)$是离散的子空间 $X$。最后让 $\mathfrak{B}$ 为 $X$ 的子集的集合，其内部覆盖$X$，这样：
-(i)*$p$*的限制*对每个*$V \in \mathfrak{B}$*是*$V$*到*$Y$的闭映射。
-(ii) *每个* $V \in \mathfrak{B}$ *都有一个可数的子集，其中密集于* $V$。
+设$X$是拓扑空间满足公理$(O_{III})$（但不一定是豪斯多夫），并假设$X$是连通的且是局部连通的。令$Y$为拓扑空间，其拓扑具有可数基，并令$p : X \to Y$为连续映射，使得对于每个$y \in Y$，$\overline{p}^{-1}(y)$是离散的子空间 $X$。最后让 $\mathfrak{B}$ 为子集的 $X$ 的集合，其内部覆盖$X$，这样：
+(i)*$p$*的限制*对于每个*$V \in \mathfrak{B}$*是*$V$*到*$Y$的闭映射。
+(ii) *每个* $V \in \mathfrak{B}$ *都有一个可数的子集，它密集于* $V$。
 
 *那么空间* $X$ *是开集合的可数族中的并，每个开族集合都包含在* $\mathfrak{B}$的集合中。
 
-令$\mathfrak{B}$为拓扑或$Y$的可数基。如果 (i) $U \in \mathfrak{B}$ 和 (ii) $W$ 是 $\mathfrak{B}$ 的集合中包含的 $\overline{p}^{-1}(U)$ 的组成部分，我们可以说对 $(W, U)$ 是“可区分的”。
+令 $\mathfrak{B}$ 为拓扑 $Y$ 的可数基。如果 (i) $U \in \mathfrak{B}$ 和 (ii) $W$ 是 $\mathfrak{B}$ 的集合中包含的 $\overline{p}^{-1}(U)$ 的组成部分，我们可以说对 $(W, U)$ 是“可区分的”。
 
 #### 引理 1 {#top-i-s11-lem-1 .statement tag=0BC4}
 
@@ -296,8 +296,8 @@ Q.E.D.
 
 *令$Y$为局部紧致、局部连通的空间，其拓扑有可数基。令$X$为连通豪斯多夫空间，并令$p : X \to Y$为连续映射，其具有以下性质：对于每个$x \in X$，存在$x$的开邻域$U$ $X$使得$p$到$U$的限制是$U$到$Y$的开子空间的同胚。那么$X$是局部紧致且局部连通的，$X$的拓扑有一个可数的基。*
 
-显然 $X$ 是本地连接的。此外，每个$x \in X$在$X$中都有一个开邻域$U$，使得$p$到$U$映射$U$的限制同构到子空间$p(U)$ $Y$。由于$p(U)$是$Y$的局部紧子空间（$§ 9$，no. 7，命题13），$p(U)$中包含$p(x)$的紧邻域$W$， 从而 $U \cap \overline{p}^{-1}(W)$ 是 $U$ 中包含的 $x$ 的紧致邻域；因此$X$是局部紧的，因为假设$X$是Hausdorff。 $U \cap \overline{p}^{-1}(W)$是紧致的，在$X$（$§ 9$，no. 3，命题4）中是封闭的，因此满足推论1的条件；因此$X$的拓扑有一个可数的基。
+显然 $X$ 是本地连接的。此外，每个$x \in X$在$X$中都有一个开邻域$U$，使得$p$的限制到$U$映射$U$同构到开子空间$p(U)$ $Y$。由于$p(U)$是$Y$的局部紧子空间（$§ 9$，no. 7，命题13），$p(U)$中包含$p(x)$的紧邻域$W$， 从而 $U \cap \overline{p}^{-1}(W)$ 是 $U$ 中包含的 $x$ 的紧致邻域；因此$X$是局部紧的，因为假设$X$是Hausdorff。 $U \cap \overline{p}^{-1}(W)$是紧致的，在$X$（$§ 9$，no. 3，命题4）中是封闭的，因此满足推论1的条件；因此$X$的拓扑有一个可数的基。
 
 ### 习题 {#top-i-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+请参阅[习题为 § 11](exercises/s11/)。

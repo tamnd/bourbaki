@@ -29,19 +29,19 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: dc0f5728a664edc679de983f1d477052e40cea343b801d8026303843eb1d2f19
+content_sha256: 0f7ec5a489a5097ee4c00ec302b7e92a8dcf950b949a7343c63b099149d1d657
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
 translation_method: google
 source_content_sha256: 4ef8d10c43b0b3fc4352b08bd49dd75b1412e18ba3d610df64784225920b10c7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8830fc613e4cf8f84f1697bdf1d91169e3f95b7eb9a199783e34f6221bf6e7a6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 有限生成分级代数
+## 1. 有限生成的分级代数
 
 ### 1. 系统生成元交换代数
 
@@ -69,11 +69,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 如果$B$是有限生成的$A$-代数，$C$是有限生成的$B$-代数，则$C$是有限生成的$A$-代数；因为从定义可以立即得出，如果$(b_\lambda)_{\lambda \in L}$是$A$代数$B$的生成元的系统，并且$(c_\mu)_{\mu \in M}$是$B$代数的生成元的系统 $C$，$C$的每一个元素都等于一个多项式，系数在$A$、$b_\lambda$和$c_\mu$。
 
-### 2. 分级环的有限性判据
+### 2. 判据分级有限性环
 
-*在此编号中。以下，所有考虑的毕业（代数、章 II, § 11）均假定为型* $\mathbf{Z}$。 *如果* $A$ *（分别为M）* *是分级的环*（分别为*分级的模*）、$A_i$（分别为$M_i$）*将表示次数*同质元素的集合* $i$ *在* $A$ *（分别为 M）*。
+*在此编号中。以下，所有考虑的毕业（代数、章 II, § 11）均假定为型* $\mathbf{Z}$。 *如果* $A$ *（分别为M）* *是分级的环*（分别为*分级的模*）、$A_i$（分别为$M_i$）*将表示次数*同质元素的集合 $i$ *在* $A$ *（分别为 M）*。
 
-*如果* $A_i = \{0\}$ *（分别为$M_i = \{0\}$）* $i < 0$，$A$ *（分别为M）* *将缩写为分级环*（分别为*模*）*且次数*为正值。
+*如果* $A_i = \{0\}$ *（分别$M_i = \{0\}$）对于* $i < 0$、$A$ *（分别M）* *将缩写为分级环*（分别*模*）*且次数*为正值。
 
 #### 命题 1 {#ac-iii-s1-prop-1 .statement tag=04D3}
 
@@ -83,9 +83,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (b) *族* $(x_\lambda)$ *是* $A$*-代数* $A$ 的生成元系统。
 
-(c) *对于所有* $i \geq 0$，** $A$*-模块* $A_i$ *由形式* $\prod_\lambda x_\lambda^{n_\lambda}$ *中的元素生成，其中次数* $i$ *位于* $A$。
+(c) *对于所有* $i \geq 0$，** $A$*-模块* $A_i$ *由元素或形式* $\prod_\lambda x_\lambda^{n_\lambda}$ *生成，其中次数* $i$ *位于* $A$。
 
-显然条件 (b) 和 (c) 是等价的。如果它们成立，则 m 的每个元素都是形式 $f((x_i))$，其中 $f$ 是 $A_0[X_\lambda]_{\lambda \in L}$ 的多项式，没有常数项；然后$m = \sum_{\lambda \in L} A x_\lambda$，证明(c)蕴涵(a)。相反，假设条件 (a) 成立。令 $A' = A_0[x_\lambda]_{\lambda \in L}$ 为由$(x_\lambda)$族生成的 A 的子代数，并让我们证明$A' = A$。为此，只要证明 $A_i \subset A$ 对于所有 $i \geq 0$ 就足够了。我们在$i$上经过归纳，性质对于$i = 0$来说是显而易见的。然后令$y \in A$，与$i \geq 1$。由于$y \in m$，存在有限支撑的A的元素的族$(a_\lambda)_{\lambda \in L}$，使得$y = \sum_\lambda a_\lambda x_\lambda$，并且我们可以假设每个$a_\lambda$是次数$i - \deg(x_\lambda)$的齐次（如果需要的话可以通过替换通过它的齐次分量） 次数);如$\deg(x_\lambda) > 0$、归纳假设表明，对于所有$\lambda \in L$、从而、$y \in A'$和$A_i \subset A'$，$a_\lambda \in A'$，证明(a)蕴涵(b)。
+显然条件 (b) 和 (c) 是等价的。如果它们成立，则 m 的每个元素都是形式 $f((x_i))$，其中 $f$ 是 $A_0[X_\lambda]_{\lambda \in L}$ 的多项式，没有常数项；然后$m = \sum_{\lambda \in L} A x_\lambda$，证明(c)蕴涵(a)。相反，假设条件 (a) 成立。令 $A' = A_0[x_\lambda]_{\lambda \in L}$ 为由$(x_\lambda)$族生成的 A 的子代数，并让我们证明$A' = A$。为此，只要证明 $A_i \subset A$ 对于所有 $i \geq 0$ 就足够了。我们在$i$上沿归纳前进，性质对于$i = 0$来说是显而易见的。然后令$y \in A$，与$i \geq 1$。由于$y \in m$，存在有限支撑的A的元素的族$(a_\lambda)_{\lambda \in L}$，使得$y = \sum_\lambda a_\lambda x_\lambda$，并且我们可以假设每个$a_\lambda$是次数$i - \deg(x_\lambda)$的齐次（如果需要的话可以通过替换通过它的齐次分量） 次数);如$\deg(x_\lambda) > 0$、归纳假设表明，对于所有$\lambda \in L$、从而、$y \in A'$和$A_i \subset A'$，$a_\lambda \in A'$，证明(a)蕴涵(b)。
 
 #### 推论 {#ac-iii-s1-n2-cor-1 .statement tag=04D4}
 
@@ -93,13 +93,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (i) *以下条件是等效的*：
 (a) *理想*$m$ *为有限生成A-模*。
-(b) *环* $A$ *是有限生成的 A,-模*。
+(b) *环* $A$ *是有限生成的A,-模*。
 
-(ii) *假设(i)中的条件保持并让*$M = \bigoplus_{i \in \mathbf{Z}} M_i$*成为有限生成的分级A-模。那么，对于所有* $i \in \mathbf{Z}$，$M_i$ *是一个有限 A,-模，并且存在* $i_0$ *这样* $M_i = \{0\}$ *对于* $i < i_0$。
+(ii) *假设(i)中的条件保持并令*$M = \bigoplus_{i \in \mathbf{Z}} M_i$*为有限生成的分级A-模。那么，对于所有* $i \in \mathbf{Z}$，$M_i$ *是一个有限 A,-模，并且存在* $i_0$ *这样* $M_i = \{0\}$ *对于* $i < i_0$。
 
-(i) 如果 A 的元素的族 $(y_\mu)$ 是 A-模 m 的生成元的系统（分别是 A，模 A），则 $y_\mu$ 的同质组件的族由……组成也是如此； 条件 (a) 和 (b) 的等价由命题 1 得出。
+(i) 如果 A 的元素的族 $(y_\mu)$ 是 A-模 m 的生成元的系统（分别是 A，-模 A），则 $y_\mu$ 的同质组件的族由……组成也是如此；然后从命题 1 得出条件 (a) 和 (b) 的等价。
 
-(ii) 我们可以假设 A 是由次数 $> 1$ 的齐次元素 $a_i$ ($1 < i < r$) 生成（作为 A-模），而 M 是由齐次元素 $x_j$ ($1 < j < s$) 生成（作为 A-模）；让$h_i = \deg(a_i), k_j = \deg(x_j)$。显然，M 由线性组合和 $A_0$ 中的系数为元素 $a_1^{\alpha_1} a_2^{\alpha_2} \ldots a_r^{\alpha_r} x_j$ 组成，使得 $\alpha_i$ 为整数 $\geq 0$ 满足关系 $k_j + \sum_{i=1}^r \alpha_i h_i = n$；对于每个$n$，只有有限的数家庭$(\alpha_i)_{1 \leq i \leq r}$满足这些条件，因为$h_i \geq 1$对于所有$i$；我们结论知道$M_n$是有限生成的A,-模，而且当$n < \inf(k_j)$时显然是$M_n = \{0\}$。
+(ii) 我们可以假设 A 是由次数 $> 1$ 的齐次元素 $a_i$ ($1 < i < r$) 生成（作为 A,-代数），M 是由齐次元素 $x_j$ ($1 < j < s$) 生成（作为 A-模）；让$h_i = \deg(a_i), k_j = \deg(x_j)$。显然，M 由线性组合和 $A_0$ 中的系数为元素 $a_1^{\alpha_1} a_2^{\alpha_2} \ldots a_r^{\alpha_r} x_j$ 组成，使得 $\alpha_i$ 为整数 $\geq 0$ 满足关系 $k_j + \sum_{i=1}^r \alpha_i h_i = n$；对于每个$n$，只有有限的数家庭$(\alpha_i)_{1 \leq i \leq r}$满足这些条件，因为$h_i \geq 1$对于所有$i$；我们结论知道$M_n$是有限生成的A,-模，并且当$n < \inf(k_j)$时显然$M_n = \{0\}$。
 
 ### 3. 环 $A^{(d)}$ 的特性
 
@@ -203,8 +203,8 @@ $$
 
 *设$m = \bigoplus_{i \geq 1} A_i$；令 $(p^{(k)})_{1 \leq k \leq s}$ 为 $A$ 的分级素数*理想和分级理想 $\mathfrak{a} \subset A$ 的有限族，使得 $\mathfrak{a} \cap m \not\subset p^{(k)}$ 对于所有 $k$；那么对于任何 $p^{(k)}$ 都存在齐次元素 $z \in \mathfrak{a} \cap m$ 而不是属于。
 
-我们通过归纳对$n$进行争论，命题对于$n = 1$来说是微不足道的。如果存在指标$j$，使得$\mathfrak{a} \cap m \cap p^{(j)}$包含在指标$k \neq j$的$p^{(k)}$之一中，则从归纳假设得出，对于任何一个元素$z' \in \mathfrak{a} \cap m$而非属于，存在齐次$p^{(k)}$对于$k \neq j$，因此也不是属于到$p^{(j)}$，并且这个元素解决了问题。假设对于每个指标$j$，$\mathfrak{a} \cap m \cap p^{(j)}$不包含在指标$k \neq j$的任何$p^{(k)}$中；因此，归纳假设意味着存在同质的元素$y_j \in \mathfrak{a} \cap m \cap S_j$属于，不存在$S_j$对于$k \# j$；由于$y_j$都是次数$\geq 1$，我们可以通过替换通过合适的幂（因为$p^{(k)}$是素数）假设$y_1$和$\prod_{j=2}^n y_j$是相同的次数。那么$z = y_1 + \prod_{j=2}^n y_j$是次数$\geq 1$的齐次，并且与章II, § 1, no. 1相同的论证，命题2表明$z$解决了问题。
+我们通过归纳对$n$进行争论，命题对于$n = 1$来说是微不足道的。如果存在指标$j$，使得$\mathfrak{a} \cap m \cap p^{(j)}$包含在指标$k \neq j$的$p^{(k)}$之一中，则从归纳假设得出，对于任何一个元素$z' \in \mathfrak{a} \cap m$而非属于，存在齐次$p^{(k)}$对于$k \neq j$，因此也不是属于到$p^{(j)}$，并且这个元素解决了问题。假设对于每个指标$j$，$\mathfrak{a} \cap m \cap p^{(j)}$不包含在指标$k \neq j$的任何$p^{(k)}$中；因此，归纳假设意味着对于$k \# j$，不存在任何$S_j$的齐次元素$y_j \in \mathfrak{a} \cap m \cap S_j$属于；由于$y_j$都是次数$\geq 1$，我们可以通过替换通过合适的幂（因为$p^{(k)}$是素数）假设$y_1$和$\prod_{j=2}^n y_j$是相同的次数。那么$z = y_1 + \prod_{j=2}^n y_j$是次数$\geq 1$的齐次，并且与章II, § 1, no. 1相同的论证，命题2表明$z$解决了问题。
 
 ### 习题{#ac-iii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

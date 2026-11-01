@@ -38,16 +38,16 @@ subsections:
       pdf_page: 239
 statements: 21
 exercises: 12
-content_sha256: 82ba89ae04b84486987448db33aa384dbfd39bda05cac5844e51a1dd4722cd16
+content_sha256: 5ae00b8c0a2970394e019fef66e13eccd1c1802e97f271b30bdd833251958358
 translated_from: content/en/alg/V/15_s15_separable_extensions.md
 translation_method: google
 source_content_sha256: 29004e5cd09fd460bf5167f0e6481b43d3d6e1b88934fe63c99d9a4a216f82d7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ee9763ac3dc439168ec40abcf71fab60ea763ae9a3ca7c05101207eafcd4bd43
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 15。 可分扩张
@@ -78,7 +78,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 让$\mathbf{A}$减少。根据命题2，$\mathbf{A}$的素理想集合的交$n$减少到0。对于$\mathbf{A}$的每个素理想$\mathfrak{p}$，令$k(\mathfrak{p})$为$\mathbf{A}/\mathfrak{p}$的分数域并且将$\mathbf{A}$的$\varphi_n$典范同态转换为$k(\mathfrak{p})$。设$\varphi$是$\mathbf{A}$的同态进入$\prod_{\mathfrak{p}} k(\mathfrak{p})$，指标$\mathfrak{p}$的分量是$\varphi_{\mathfrak{p}}$。 $\varphi_{\mathfrak{p}}$的核是$\mathfrak{p}$，因此$\varphi$的$n = 0$；因此$\varphi$是$\mathbf{A}$的同构到$\prod_{\mathfrak{p}} k(\mathfrak{p})$的子环。
 
-### 2.可分离代数
+### 2. 可分离代数
 
 #### 定义 1 {#alg-v-s15-def-1 .statement tag=06TQ}
 
@@ -139,9 +139,9 @@ K[X]/(f) 是同构的，根据 I、p. 110、第 9 条，到域 K[X]/(f_i) 的乘
 
 — 令 A 和 B 为两个交换K-代数。 *如果* A 和 B 是可分离的，则 A ⊗_K B 也是如此。
 
-令 L 为 K 的扩张。 环 L ⊗_K A 被约简，因为 A 是可分的；现在，第 5 条命题表明环 (L ⊗_K A) ⊗_KB （与 L ⊗_K (A ⊗_KB) 同构的）要约简，从而是推论。
+令 L 为 K 的扩张。 环 L ⊗_K A 被约简，因为 A 是可分的；现在，第 5 条命题表明环 (L ⊗_K A) ⊗_KB （与 L ⊗_K (A ⊗_KB) 同构）要约简，从而是推论。
 
-### 3.可分扩张
+### 3. Separable extensions
 
 令 K 为域。由于 K 的任意扩张都是 K-代数，所以 Def. 中引入了概念的可分离性。 1 (V, p. 119) 特别适用于 K 的扩张的情况。通过例 3 (V, p. 119)，在代数扩张的情况下，定义的可分性与 § 7 的可分性一致（V、p. 36、默认 1）。
 
@@ -178,7 +178,7 @@ A 的素理想族 (a_s), _s ∈ G 因此有零交。根据命题 2 (V, p. 118) �
 
 稍后（V，p. 137命题5）我们将研究复合扩张的可分性。
 
-### 4.Mac Lane 的可分离性准则
+### 4. Mac Lane 的可分离性准则
 
 #### 定理 1 {#alg-v-s15-thm-1 .statement tag=06U0}
 
@@ -197,7 +197,7 @@ c) 环 $K^{p^{-\infty}} \otimes_K A$ 减少。
 
 d) *环* $K' \otimes_K A$ *每扩张* $K'$ *减少* $K$ *即有限次数和* $p$*-高度* $\leqslant 1$的根数。
 
-e) *对于每个家庭* $(a_i)_{i \in I}$，*元素的* $A$ *线性自由超过* $K$，*族* $(a_i^p)_{i \in I}$，*线性自由超过* $K$。
+e) *对于每个家庭* $(a_i)_{i \in I}$，*元素的* $A$ *线性自由超过* $K$，*家庭* $(a_i^p)_{i \in I}$，*线性自由超过* $K$。
 
 f) *存在基* $(a_i)_{i \in I}$，*向量* $K$*-空间* $A$ *吸该族* $(a_i^p)_{i \in I}$，*在* $K$ 上线性自由。
 
@@ -247,7 +247,7 @@ $$
 
 #### 注 {#alg-v-s15-n4-rem-1 .statement tag=06U5}
 
-— Mac Lane 准则可以在不引入除 L 之外的任何 K 扩张的情况下制定。对于 Cor 的 c) 而言。 1、L在K上可分当且仅当L和$K^P$在K上线性不相交的。由于映射$x \mapsto x^p$是L的同构到子域$L^P$，我们得到以下准则（cf. V、p. 177，Ex. 11 用于代数的类似标准）：
+— 可以在不引入除 L 之外的 K 的任何扩张的情况下制定 Mac Lane 准则。对于 Cor 的 c) 而言。 1, L 在 K 上可分当且仅当 L 和 $K^P$ 在 K 上线性不相交的。由于映射 $x \mapsto x^p$ 是 L 的同构到子域 $L^P$，我们得到以下准则（cf. V、p. 177，Ex. 11 用于代数的类似标准）：
 
 *L在K上可分离当且仅当子域$L^P$和L的K在$K^P$上线性不相交的。*
 
@@ -257,19 +257,19 @@ $$
 
 #### 定理 3 {#alg-v-s15-thm-3 .statement tag=06U6}
 
-— 令 K 为完美域。
+— 设 K 为完美域。
 a) K 的每个代数扩张都是完美域。
 b) K 的每个扩张都是可分的。
 c) 为了使K-代数可分离，减少它是必要且充分的。
-d) 令 A 和 B 为 2 约简 K-代数。那么$A \otimes_K B$就减少了。
+d) 令 A 和 B 为 2 的约简 K-代数。那么$A \otimes_K B$就减少了。
 e) 如果 E 和 F 是 K 的两个扩张，则环 $E \otimes_K F$ 会减少。
 
 断言 a) 就是 Cor。第 11 号提案第 1 条（V、p. 43）。
-断言 b) 由 Th 推出。 1 (V, p. 122) 当 K 的特征为 0 且来自 Cor 时。当 K 具有特征 $p \neq 0$ 时，1 (V, p. 123)。
-让我们证明c）。 K 的特性为 0 的情况由 Th 得出。 1（V，p. 122）。因此，只要证明 K 是特征 $p \neq 0$ 的完美且 A 是约化的 K-代数，则 A 与 K 是可分的。 但这是从 Th 的条件 a) 和 b) 的等价得出的。 2（V，p. 122；取b）中的$K' = K$）。
+断言 b) 由 Th 推出。 1 (V, p. 122) 当 K 的特征为 0 且来自 Cor 时。 1 (V, p. 123) 当 K 具有特征 $p \neq 0$ 时。
+让我们证明c）。 K 的特性为 0 的情况由 Th 得出。 1（V，p. 122）。因此，只要证明 K 是特征 $p \neq 0$ 的完美且 A 是约化的 K-代数，则 A 与 K 是可分离的。但这可以从 Th 的条件 a) 和 b) 的等价得出。 2（V，p. 122；取b）中的$K' = K$）。
 最后，d) 由 c) 和命题 5 (V，p. 120) 得出，而 e) 是 d) 的一个特例。
 
-### 6. 刻画与自同构的可分离性
+### 6. 刻画可分离性自同构
 
 #### 定理 4 {#alg-v-s15-thm-4 .statement tag=06U7}
 
@@ -277,18 +277,18 @@ e) 如果 E 和 F 是 K 的两个扩张，则环 $E \otimes_K F$ 会减少。
 a) L 在 K 上可分。
 b) $\Omega \otimes_K L$到$\Omega$的0代数同态的核的交减少到0。
 c) 对于 L 的任何元素 $a_1, \ldots, a_n$ 与 K 线性无关，存在 $\Omega$ 的 K 自同构 $\sigma_1, \ldots, \sigma_n$，使得 $\det(\sigma_i(a_j)) \neq 0$。
-d) 设V为有限维的L的向量子K空间。 V到$\Omega$的每个K-线性映射都是$\Omega$的K自同构的限制到V的线性组合（系数在R中）。
+d) 设V为有限维的L的向量子K空间。 V到$\Omega$的每个K-线性映射都是$\Omega$的K-自同构的限制到V的线性组合（系数在R中）。
 
 $d) \Rightarrow c)$：令$a_1, \ldots, a_n$为L的元素，与K线性无关，并令V为由$a_1, \ldots, a_n$生成的L的向量子K空间。 映射 $f \mapsto (f(a_1), \ldots, f(a_n))$ 是 $\mathrm{Hom}_K(V, R)$ 到 $\Omega^n$ 的 R 线性双射。假设 d) 成立，则存在 $\Omega$ 的 K-自同构 $a_1, \ldots, a_n$，使得 $\Omega^n$ 的元素 $(\sigma_i(a_1), \ldots, \sigma_i(a_n))$（对于 $1 \leq i \leq n$）形式基 $\Omega^n$。因此我们有 $\det(\sigma_i(a_j)) \neq 0$，因此 d) 蕴含 c)。
 
-c) $\Rightarrow$ b)：假设c)成立且令x在$\Omega \otimes_K L$中。我们将 x 写在形式 $\sum_{j=1}^n x_j \otimes a_j$ 中，$x_1, \ldots, x_n$ 写在 $\Omega$ 中，L 的元素 $a_1, \ldots, a_n$ 与 K 线性无关。选择 K-自同构 $\sigma_1, \ldots, \sigma_n$ $\Omega$ 使得$\det \sigma_i(a_j) \neq 0$；令$\chi_1, \ldots, \chi_n$为$\Omega \otimes_K L$到$\Omega$的R同态，使得$\chi_i(a \otimes b) = a \cdot \sigma_i(b)$对应于$a \in \Omega$和$b \in L$。假设$\chi_i(x) = 0$对应$1 \leq i \leq n$，在其他字中，$\sum_{j=1}^n x_j \cdot \sigma_i(a_j) = 0$对应$1 \leq i \leq n$。由于我们假设矩阵 $(\sigma_i(a_j))$ 具有非零行列式，因此我们有 $x_i = 0$ 对应于 $1 \leq i \leq n$ 以及$x = 0$。
+c) $\Rightarrow$ b)：假设c)成立且令x在$\Omega \otimes_K L$中。我们将 x 写在形式 $\sum_{j=1}^n x_j \otimes a_j$ 中，$x_1, \ldots, x_n$ 写在 $\Omega$ 中，L 的元素 $a_1, \ldots, a_n$ 与 K 线性无关。 选择 K-自同构 $\sigma_1, \ldots, \sigma_n$ $\Omega$ 使得$\det \sigma_i(a_j) \neq 0$；令$\chi_1, \ldots, \chi_n$为$\Omega \otimes_K L$到$\Omega$的R同态，使得$\chi_i(a \otimes b) = a \cdot \sigma_i(b)$对应于$a \in \Omega$和$b \in L$。假设$\chi_i(x) = 0$对应$1 \leq i \leq n$，在其他字中，$\sum_{j=1}^n x_j \cdot \sigma_i(a_j) = 0$对应$1 \leq i \leq n$。由于我们假设矩阵 $(\sigma_i(a_j))$ 具有非零行列式，因此我们有 $x_i = 0$ 对应于 $1 \leq i \leq n$ 以及$x = 0$。
 
 b) $\Rightarrow$ a)：由于特征0的域的每个扩张都是可分离的（V，p. 122，Th.1），因此足以检查K具有特征$p \neq 0$的情况。令X为$\Omega \otimes_K L$的所有R-代数同态到$\Omega$的集合，以及$\Omega \otimes_K L$的f同态到由$f(u) = (\chi(u))_{\chi \in X}$为$u \in \Omega \otimes_K L$定义的$\Omega^X$。 条件 b) 意味着 f 是单射的，因此意味着环 $\Omega \otimes_K L$ 被约化。因此 Th 的条件 b)。 2 (V, p. 122) 满足$K' = \Omega$，因此L 在 K 上可分。
 
 a) $\Rightarrow$ d): 假设L在K上可分。令V为L的有限维的向量子K空间，$V_{(\Omega)} = \Omega \otimes_K V$向量$\Omega$空间衍生自V乘以标量的扩张，并在$V_{(\Omega)}$上乘以$f_0$线性形式，使得$f_0(x \otimes y) = xy$等于$x \in \Omega, y \in V$。用 $\Omega$ 的 K-自同构的 G 群表示；对于$\sigma \in G$，我们放置$\sigma_V = \sigma \otimes \mathrm{Id}_V$和$g_\sigma = \sigma \circ f_0 \circ \sigma_V^{-1}$。
 
-对于$V_{(\Omega)}$到$\Omega$的每个$\sigma \in G$映射$g_\sigma$都是$\Omega$线性，映射$x \otimes y$到$x \cdot \sigma(y)$对于$x \in \Omega, y \in V$。因此，$g_\sigma$的核$N_\sigma$是$V_{(\Omega)}$的向量子空间，$N = \cap_{\sigma \in G} N_\sigma$也是如此。如果p是K的特征指数，则$\Omega$中G的不变量域等于$K^{p^{-\infty}}$（V，p. 112，命题10）。显然，我们对所有 $\sigma \in G$ 都有 $\sigma_V(N) = N$；因此（V，p. 63，Cor.）向量$\Omega$-空间N由$N_0 = N \cap (K^{p^{-\infty}} \otimes V)$生成。由于L在K上可分离，域$K^{p^{-\infty}}$和L在K上线性不相交的（V，p. 123，Cor.1）；我们有 $K^{p^{-\infty}} \otimes_K V \subset K^{p^{-\infty}} \otimes_K L$ 和 $f_0(x \otimes y) = xy$ 对应 $x \in \Omega$ 和 $y \in V$。由此可见，$f_0$到$K^{p^{-\infty}} \otimes_K V$的限制是单射的。现在$f_0 = g_1$在N上是零，在$N_0 \subset K^{p^{-\infty}} \otimes_K V$上是更不必说。因此我们有 $N_0 = 0$、从而 $N = 0$。由于V在K上是有限维，所以$V_{(\Omega)}$在$\Omega$上是有限维； 线性形式$g_\sigma$核交是零，因此(II，p. 301，Th.7)族$(g_\sigma)_{\sigma \in G}$生成$V_{(\Omega)}$的对偶。现在让$u$是V的K-线性映射变成$\Omega$；让$\tilde{u}$在$V_{(\Omega)}$上成为线性形式，其中映射$x \otimes y$到$xu(y)$对于$x \in \Omega$和$y \in V$。如上所述，存在G的元素$\sigma_1, \ldots, \sigma_n$和$\Omega$的$\lambda_1, \ldots, \lambda_n$，使得对于所有$y \in V$，$\tilde{u} = \sum_{i=1}^n \lambda_i g_{\sigma_i}$，从而$u(y) = \sum_{i=1}^n \lambda_i \sigma_i(y)$。所以我们已经证明a) 蕴涵d)。
+对于$V_{(\Omega)}$到$\Omega$的每个$\sigma \in G$映射$g_\sigma$都是$\Omega$线性，映射$x \otimes y$到$x \cdot \sigma(y)$对于$x \in \Omega, y \in V$。因此，$g_\sigma$的核$N_\sigma$是$V_{(\Omega)}$的向量子空间，$N = \cap_{\sigma \in G} N_\sigma$也是如此。如果p是K的特征指数，则$\Omega$中G的不变量域等于$K^{p^{-\infty}}$（V，p. 112，命题10）。显然，我们对所有 $\sigma \in G$ 都有 $\sigma_V(N) = N$；因此（V，p. 63，Cor.）向量$\Omega$-空间N由$N_0 = N \cap (K^{p^{-\infty}} \otimes V)$生成。由于L在K上可分离，域$K^{p^{-\infty}}$和L在K上线性不相交的（V，p. 123，Cor.1）；我们有 $K^{p^{-\infty}} \otimes_K V \subset K^{p^{-\infty}} \otimes_K L$ 和 $f_0(x \otimes y) = xy$ 对应 $x \in \Omega$ 和 $y \in V$。由此可见，$f_0$到$K^{p^{-\infty}} \otimes_K V$的限制是单射的。现在$f_0 = g_1$在N上是零，在$N_0 \subset K^{p^{-\infty}} \otimes_K V$上是更不必说。因此我们有 $N_0 = 0$、从而 $N = 0$。由于V在K上是有限维，所以$V_{(\Omega)}$在$\Omega$上是有限维； 线性形式$g_\sigma$核交为零，故(II，p. 301，Th.7)族$(g_\sigma)_{\sigma \in G}$生成$V_{(\Omega)}$的对偶。现在让$u$是V的K-线性映射变成$\Omega$；让$\tilde{u}$在$V_{(\Omega)}$上成为线性形式，其中映射$x \otimes y$到$xu(y)$对于$x \in \Omega$和$y \in V$。如上所述，存在G的元素$\sigma_1, \ldots, \sigma_n$和$\Omega$的$\lambda_1, \ldots, \lambda_n$，使得对于所有$y \in V$，$\tilde{u} = \sum_{i=1}^n \lambda_i g_{\sigma_i}$，从而$u(y) = \sum_{i=1}^n \lambda_i \sigma_i(y)$。所以我们已经证明a) 蕴涵d)。
 
 ### 习题{#alg-v-s15-exercises}
 
-§ 15](exercises/s15/)参见[习题。
+参见[习题为 § 15](exercises/s15/)。

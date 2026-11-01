@@ -53,49 +53,49 @@ subsections:
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: 4b1f60f8b0afbb8b98fdf750a2f395aa389f66075713fe31f00c3dc8af708fab
+content_sha256: 6e28f469c211af6ff64ca4505b340a97884a969356093be3143efae422e6e3d5
 translated_from: content/en/top/I/06_s6_filters.md
 translation_method: google
 source_content_sha256: a165a0f76eeee4bd4e5a4290b8617a33d4316a02017e4b95b814435276231fc9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 541fa4b96a15d6f458c1730119b24c94daa1b20c716123d6fb3448623cc6b056
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 6. 过滤器
 
-### 1. 定义过滤器
+### 1. 过滤器的定义
 
 #### 定义 1 {#top-i-s6-def-1 .statement tag=0B3X}
 
 *对集合 $X$ 进行过滤是 $X$ 的子集的集合 $\mathfrak{F}$，其具有以下属性：*
 
-$(\mathrm{F}_1)$ *$X$的每子集，其中$\mathfrak{F}$属于至$\mathfrak{F}$的包含集合。*
+$(\mathrm{F}_1)$ *$X$ 的每个子集，其中 $\mathfrak{F}$ 属于到 $\mathfrak{F}$ 的包含集合。*
 $(\mathrm{F}_\mathrm{II})$ *$\mathfrak{F}$ 属于到 $\mathfrak{F}$ 的集合的每个有限交。*
 $(\mathrm{F}_\mathrm{III})$ *空集不在 $\mathfrak{F}$ 中。*
 
 从$(\mathrm{F}_\mathrm{II})$和$(\mathrm{F}_\mathrm{III})$得出，$\mathfrak{F}$的集合的每个有限交都是*非空*。
 
-$X$ 定义结构 $X$、公理上的过滤器$\mathfrak{F}$，其中$(\mathrm{F}_1)$、$(\mathrm{F}_\mathrm{II})$ 和$(\mathrm{F}_\mathrm{III})$；这个结构被称为过滤后的集合*的*结构，而赋予这个结构的集合$X$被称为通过*$\mathfrak{F}$过滤的*集合。
+$X$ 定义结构 $X$、公理上的过滤器$\mathfrak{F}$，其中$(\mathrm{F}_1)$、$(\mathrm{F}_\mathrm{II})$和$(\mathrm{F}_\mathrm{III})$；这个结构被称为经过过滤的集合*的*结构，而赋予这个结构的集合$X$被称为经过*$\mathfrak{F}$过滤的*集合。
 
 公理$(\mathrm{F}_\mathrm{II})$等价于以下两个公理的合取：
-$\mathfrak{F}$ 属于至$\mathfrak{F}$ 的两个集合 $(\mathrm{F}_{\mathrm{II}\,\mathrm{a}})$ *交。*
-$(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ *$X$ 属于至 $\mathfrak{F}$。*
+$(\mathrm{F}_{\mathrm{II}\,\mathrm{a}})$ *交 $\mathfrak{F}$ 属于至 $\mathfrak{F}$ 两个集合。*
+$(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$ *$X$ 属于至$\mathfrak{F}$。*
 
 公理$(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$和$(\mathrm{F}_\mathrm{III})$表明*空集*上没有过滤器。
 
-在子集的集合的阶中，满足$(\mathrm{F}_1)$也满足满足$(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$，它是*非空*是充分必要的。满足$(\mathrm{F}_1)$的子集中的集合也满足$(\mathrm{F}_\mathrm{III})$当且仅当它与$\mathfrak{P}(X)$不同时。
+在子集的集合的阶中，也满足$(\mathrm{F}_1)$到满足$(\mathrm{F}_{\mathrm{II}\,\mathrm{b}})$，它是*非空*的充分必要。满足$(\mathrm{F}_1)$的子集中的集合也满足$(\mathrm{F}_\mathrm{III})$当且仅当它与$\mathfrak{P}(X)$不同时。
 
-*过滤器的例。* 1) 如果单独的$X \neq \varnothing$、$X$的子集由……组成集合是$X$上的过滤器。更一般地，$X$的所有子集中的集合，其中包含给定的$X$的非空子集$A$是$X$上的过滤器。
+*过滤器的例。* 1) 如果单独$X$的子集由……组成$X \neq \varnothing$、集合是$X$上的过滤器。更一般地，$X$的所有子集中的集合，其中包含给定的$X$的非空子集$A$是$X$上的过滤器。
 
-2) 在拓扑空间$X$中，$X$的任意非空子集$A$的所有邻域*的*集合（特别是邻域的所有集合） $X$的点）是一个过滤器，称为$A$的*邻域过滤器*。
+2) 在拓扑空间$X$中，$X$的任意非空子集$A$的所有邻域*的*集合（特别是点的所有邻域的集合） $X$）是一个过滤器，称为$A$的*邻域过滤器*。
 
-3) 如果$X$是*无限*集合，则$X$的*有限子集*的补码是过滤器的元素。 有限子集集合 $\mathbf{N}$ 整数 $\geqslant 0$ 的补集滤波器称为 *Fréchet 滤波器*。
+3) 如果$X$是*无限*集合，则$X$的*有限子集*补集是过滤器的元素。 The filter of complements of finite subsets of the set $\mathbf{N}$ of integers $\geqslant 0$ is called the *Fréchet filter*.
 
-### 2. 滤波器比较
+### 2. 过滤器比较
 
 #### 定义 2 {#top-i-s6-def-2 .statement tag=0B3Y}
 
@@ -143,7 +143,7 @@ $X$的子集、$X$、包含、集合、$\mathfrak{G}$上应存在过滤器的充
 
 ### 3. 基过滤器
 
-如果 $\mathfrak{G}$ 是 $X$ (no. 2) 上过滤器 $\mathfrak{F}$ 的子基，则 $\mathfrak{F}$ 通常不是 $X$ 的子集的集合，其中包含集合 $\mathfrak{G}$；为了使$\mathfrak{G}$具有这个性质，$\mathfrak{G}$的集合的每个有限交应该是包含集合或$\mathfrak{G}$。因此有以下命题：
+如果 $\mathfrak{G}$ 是 $X$ (no. 2) 上过滤器 $\mathfrak{F}$ 的子基，则 $\mathfrak{F}$ 通常不是 $X$ 的子集的集合，其中包含集合 $\mathfrak{G}$；为了使$\mathfrak{G}$具有这个性质，$\mathfrak{G}$的集合的每个有限交应该是$\mathfrak{G}$的包含集合。因此有以下命题：
 
 #### 命题 2 {#top-i-s6-prop-2 .statement tag=0B44}
 
@@ -230,7 +230,7 @@ An ultrafilter on a set $X$ is a filter $\mathfrak{F}$ such that there is no fil
 
 显然这个交包含$\mathfrak{F}$。反之，令$A$为$X$的子集，不包括属于至$\mathfrak{F}$，并令$A'$表示$\complement A$； $A$ 包含无 $\mathfrak{F}$ 的集合；因此，每个$M \in \mathfrak{F}$都满足$A'$，因此（no. 2，命题1，推论1）存在一个过滤器$\mathfrak{F}'$，它比$\mathfrak{F}$和包含$A'$更更细。如果$\mathfrak{U}$是超滤器更细，而不是$\mathfrak{F}'$（定理 1），则$A \notin \mathfrak{U}$。这样就完成了证明。
 
-### 5.感应过滤器
+### 5. 感应滤波器
 
 #### 命题 8 {#top-i-s6-prop-8 .statement tag=0B4G}
 
@@ -250,7 +250,7 @@ An ultrafilter on a set $X$ is a filter $\mathfrak{F}$ such that there is no fil
 
 令$X$为空间、$X$的$A$子集、$X$的$x$点。在阶中，$x$的*邻域滤波器*$\mathfrak{B}$在$A$上的迹应该是$A$上的滤波器，$x$的每个邻域满足$A$是充分必要的，即$x$位于在$A$（§ 1, no. 6，定义10）的*闭包*中。
 
-诱导滤波器的例之所以令人感兴趣，有两个原因：首先是因为它在极限 (§ 7, no. 5) 的理论中发挥着重要作用，其次是因为*每个滤波器都可以用这种方式定义*。事实上，让$\mathfrak{F}$成为集合$X$上的过滤器，并让$X'$成为集合，通过将新的元素$\omega$*邻接*到$X$，$X$被识别为$\{ \omega \}$的补集在$X'$（*集合理论*，R，§ 4, no. 5）；令$\mathfrak{F}'$为集合$M \cup \{ \omega \}$的$X'$由……组成上的过滤器，其中$M$穿过$\mathfrak{F}$。对于$X'$的每个点$x \neq \omega$，令$\mathfrak{B}(x)$为$X'$的所有子集其中包含$x$的集合，并令$\mathfrak{B}(\omega)$为$\mathfrak{F}'$；那么$x \in X'$的$\mathfrak{B}(x)$显然是满足公理$(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$和$(\mathrm{V}_{\mathrm{IV}})$，因此$X'$上的定义拓扑，它们是点的邻域过滤器。最后，$\omega$位于拓扑中$X$的*闭包*中，$\mathfrak{F}$由$\mathfrak{F}' = \mathfrak{B}(\omega)$在$X$上诱导。因此在 $X'$（分别是集合 $X'$ 和这个拓扑）上定义的拓扑被称为 *拓扑* （分别是 *拓扑空间*）*与* $\mathfrak{F}$ 相关联。
+诱导滤波器的例之所以令人感兴趣，有两个原因：首先是因为它在极限 (§ 7, no. 5) 的理论中发挥着重要作用，其次是因为*每个滤波器都可以用这种方式定义*。事实上，让$\mathfrak{F}$成为集合$X$的过滤器，并让$X'$成为集合，通过将新的元素$\omega$*邻接*到$X$获得，$X$被识别为$\{ \omega \}$的补集在$X'$（*集合理论*，R，§ 4, no. 5）；令$\mathfrak{F}'$为集合$M \cup \{ \omega \}$的$X'$由……组成上的过滤器，其中$M$穿过$\mathfrak{F}$。对于$X'$的每个点$x \neq \omega$，令$\mathfrak{B}(x)$为$X'$的所有子集其中包含$x$的集合，并令$\mathfrak{B}(\omega)$为$\mathfrak{F}'$；那么$x \in X'$的$\mathfrak{B}(x)$显然是满足公理$(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$和$(\mathrm{V}_{\mathrm{IV}})$，因此$X'$上的定义拓扑，它们是点的邻域过滤器。最后，$\omega$位于拓扑中$X$的*闭包*，$\mathfrak{F}$由$\mathfrak{F}' = \mathfrak{B}(\omega)$在$X$上诱导。因此在 $X'$（分别是集合 $X'$ 和这个拓扑）上定义的拓扑被称为 *拓扑* （分别是 *拓扑空间*）*与* $\mathfrak{F}$ 相关联。
 
 #### 命题 9 {#top-i-s6-prop-9 .statement tag=0B4J}
 
@@ -258,7 +258,7 @@ An ultrafilter on a set $X$ is a filter $\mathfrak{F}$ such that there is no fil
 
 这是命题 5 中的直接的推论和no. 4 中的6。
 
-### 6. 过滤器直接像和逆像基
+### 6. 过滤器的直接像和逆像基
 
 令$\mathfrak{B}$为集合$X$上的过滤器基，并令$f$为$X$的映射进入集合$X'$；那么$f(\mathfrak{B})$是$X'$上的*过滤器基*，因为关系$M \neq \emptyset$意味着$f(M) \neq \emptyset$，我们有$f(M \cap N) \subset f(M) \cap f(N)$。如果$\mathfrak{B}_1$是比基$\mathfrak{B}$的过滤器*更细*的过滤器的基，则$f(\mathfrak{B}_1)$是比基$f(\mathfrak{B})$的过滤器*更细*的基 （no. 3，命题4）。
 
@@ -323,11 +323,11 @@ $$
 B_n = \bigcap_{p=0}^n A_p,
 $$
 
-然后$B_n$又是$\mathfrak{F}$的形式基（no. 3，命题3），每个$n$都有$B_{n+1} \subset B_n$。对于每个$n \in \mathbf{N}$，令$a_n$为$B_n$中的任意元素；那么很明显$\mathfrak{F}$比与$(a_n)$相关的基本滤波器更粗糙。因此存在更细大于$\mathfrak{F}$且更细大于$\mathfrak{F}$的基本滤波器交$\mathfrak{J}$；如果$\mathfrak{J}$*严格更细*大于$\mathfrak{F}$，则存在集合$M \in \mathfrak{J}$，使得每个$n$都有$B_n \cap \complement M \neq \varnothing$；如果$b_n \in B_n \cap \complement M$，则与序列$(b_n)$相关联的基本滤波器更细大于$\mathfrak{F}$，并且不包含$M$。这$\mathfrak{J}$的与……矛盾定义。
+然后$B_n$再次$\mathfrak{F}$的形式基（no. 3，命题3），每个$n$都有$B_{n+1} \subset B_n$。对于每个$n \in \mathbf{N}$，令$a_n$为$B_n$中的任意元素；那么很明显$\mathfrak{F}$比与$(a_n)$相关的基本滤波器更粗糙。因此存在更细大于$\mathfrak{F}$且更细大于$\mathfrak{F}$的基本滤波器交$\mathfrak{J}$；如果$\mathfrak{J}$*严格更细*大于$\mathfrak{F}$，则存在集合$M \in \mathfrak{J}$，使得每个$n$都有$B_n \cap \complement M \neq \varnothing$；如果$b_n \in B_n \cap \complement M$，则与序列$(b_n)$相关联的基本滤波器更细大于$\mathfrak{F}$，并且不包含$M$。这$\mathfrak{J}$的与……矛盾定义。
 
 #### 注 {#top-i-s6-n8-rem-1 .statement tag=0B4O}
 
-比具有可数基的过滤器“更粗糙”的过滤器不需要拥有可数基；对于例，如果$X$是不可数无限集合，则$X$的有限子集的补集的过滤器由……组成没有可数的基（否则$X$的有限子集的集合）是可数的，与假设相反）；然而，这个过滤器比与无限序列的不同元素或 $X$ 相关联的每个基本过滤器都要粗糙。
+比具有可数基的过滤器“更粗糙”的过滤器不需要拥有可数基；对于例，如果$X$是不可数的无限集合，则$X$的有限子集的补集的过滤器由……组成没有可数的基（否则$X$的有限子集的集合）是可数的，与假设相反）；然而，这个过滤器比与无限序列的不同元素或 $X$ 相关联的每个基本过滤器都要粗糙。
 
 ### 9. 与过滤器相关的细菌
 
@@ -335,7 +335,7 @@ $$
 
 “存在$V \in \mathfrak{F}$使得$M \cap V = N \cap V$”
 
-$M$和$N$之间是一个*等价关系*$R$，因为$R$显然是自反且对称的，并且如果$M, N, P$是$X$的三个子集，使得$M \cap V = N \cap V$和$N \cap W = P \cap W$，其中$V$ 和 $W$ 属于到 $\mathfrak{F}$，可得出 $M \cap (V \cap W) = N \cap (V \cap W) = P \cap (V \cap W)$ 和 $V \cap W \in \mathfrak{F}$，因此 $R$ 是及物性的。 $X$的子集$M$等价类模$R$相对于$\mathfrak{F}$*称为$M$的*胚芽； 商集$\mathfrak{P}(X)/R$称为$X$（相对于$\mathfrak{F}$）*的子集菌*集合。 映射 $(M, N) \to M \cap N$ 和 $(M, N) \to M \cup N$
+$M$和$N$之间是一个*等价关系* $R$，因为$R$显然是自反且对称的，并且如果$M, N, P$是$X$的三个子集，使得$M \cap V = N \cap V$和$N \cap W = P \cap W$，其中$V$ 和 $W$ 属于到 $\mathfrak{F}$，可得出 $M \cap (V \cap W) = N \cap (V \cap W) = P \cap (V \cap W)$ 和 $V \cap W \in \mathfrak{F}$，因此 $R$ 是及物性的。 $X$的子集$M$等价类模$R$相对于$\mathfrak{F}$*称为$M$的*胚芽； 商集$\mathfrak{P}(X)/R$称为$X$（相对于$\mathfrak{F}$）*的子集菌*集合。 映射 $(M, N) \to M \cap N$ 和 $(M, N) \to M \cup N$
 
 $$
 \mathfrak{P}(X) \times \mathfrak{P}(X)
@@ -401,16 +401,16 @@ $$
 $$
 将$X$的映射细菌转化为集合$\tilde{\Phi}'$转化为$X''$。
 
-特别是，如果 $n = 2$ 且 $X'_1, X'_2$ 和 $X''$ 都等于相同的集合 $X'$（因此 $\psi$ 是在 $X'$ 中定义的合成的律），则 $\psi$ 诱导合成的律定义为$X$映射的细菌的集合$\tilde{\Phi}$到$X'$。很容易验证，如果在 $X'$ 上给出的律是结合律（或可交换的），那么在 $\tilde{\Phi}$ 上的相应的律也是结合律（或交换律）；如果$X'$上的律$\psi$有单位元素$e'$，则常数映射$x \to e'$相对于$\mathfrak{F}$的胚芽对于相应的律来说是单位元素 $\tilde{\Phi}$。最后，如果$X'$上的律具有单位元素$e'$，则$f \in \Phi$的胚芽$\tilde{f}$在$\tilde{\Phi}$中具有逆，当且仅当存在包含在$f$域中的$V \in \mathfrak{F}$，使得对于每个 $t \in V$，$f(t)$ 在 $X'$ 中是可逆的；如果对于每个$t \in V$，$g(t)$表示$f(t)$的逆，那么$g$的胚芽$\tilde{g}$就是$\tilde{\Phi}$中$\tilde{f}$的逆。特别是，如果$X'$相对于律$\psi$来说是群，则$\tilde{\Phi}$相对于相应的律来说是群；同样，如果$X'$是环（分别是代数超过环$A$），那么相对于相应的，$\tilde{\Phi}$是环（分别是代数超过$A$） 律共合成。
+特别是，如果 $n = 2$ 且 $X'_1, X'_2$ 和 $X''$ 都等于相同的集合 $X'$（因此 $\psi$ 是在 $X'$ 中定义的合成的律），则 $\psi$ 诱导合成的律定义为整个$X$映射的细菌集合$\tilde{\Phi}$到$X'$。很容易验证，如果在 $X'$ 上给出的律是结合律（或可交换的），那么在 $\tilde{\Phi}$ 上的相应的律也是结合律（或可交换律）；如果$X'$上的律$\psi$有单位元素$e'$，则常数映射$x \to e'$相对于$\mathfrak{F}$的胚芽对于相应的律来说是单位元素 $\tilde{\Phi}$。最后，如果$X'$上的律具有单位元素$e'$，则$f \in \Phi$的胚芽$\tilde{f}$在$\tilde{\Phi}$中具有逆，当且仅当存在包含在$f$域中的$V \in \mathfrak{F}$，使得对于每个 $t \in V$，$f(t)$ 在 $X'$ 中是可逆的；如果对于每个$t \in V$，$g(t)$表示$f(t)$的逆，那么$g$的胚芽$\tilde{g}$就是$\tilde{\Phi}$中$\tilde{f}$的逆。特别是，如果$X'$相对于律$\psi$来说是群，则$\tilde{\Phi}$相对于相应的律来说是群；同样，如果$X'$是环（分别是代数超过环$A$），那么相对于相应的，$\tilde{\Phi}$是环（分别是代数超过$A$） 律合成。
 
 ### 10. 细菌点
 
-定义和no. 9的结果适用的最常见情况之一是$\mathfrak{F}$是拓扑空间$X$的点$a$的邻域过滤器；我们不再说“关于 $\mathfrak{F}$ 的细菌”，而是说“点 $a$ 的细菌”。请注意，$a$中只有一个邻域的胚芽，即整个空间$X$的胚芽。闭合集合的细菌与在点$a$处局部闭合的集合的细菌相同，因为如果$L$在$a$处局部闭合，则$L$和$\overline{\Gamma}$在$a$处的细菌是等于（§ 3, no. 1，命题1）。由此可见，如果$\xi, \eta$是$a$处局部封闭的集合的两个细菌，那么$\xi \cup \eta$和$\xi \cap \eta$也是。
+定义和no. 9的结果适用的最常见情况之一是$\mathfrak{F}$是邻域拓扑空间$X$的点$a$过滤器；我们不再说“关于$\mathfrak{F}$的细菌”，而是说“点$a$的细菌”。请注意，$a$中只有一个邻域的胚芽，即整个空间$X$的胚芽。闭合集合的细菌与在点$a$处局部闭合的集合的细菌相同，因为如果$L$在$a$处局部闭合，则$L$和$\overline{\Gamma}$在$a$处的细菌是等于（§ 3, no. 1，命题1）。由此可见，如果$\xi, \eta$是$a$处局部封闭的集合的两个细菌，那么$\xi \cup \eta$和$\xi \cap \eta$也是。
 
 由于$a$在每个$V \in \mathfrak{F}$中，因此为每个映射$f$定义了$f(a)$，其域为属于到$\mathfrak{F}$；此外，如果$f$和$g$在$a$处具有相同的胚芽，我们必须有$f(a) = g(a)$，因此$f(a)$仅依赖于$f$在$a$处的胚芽$\tilde{f}$，并且在$\tilde{f}$处被称为值 $a$ 并用$\tilde{f}(a)$ 表示。需要强调的是，关系$\tilde{f}(a) = \tilde{g}(a)$一般并不意味着$\tilde{f} = \tilde{g}$。
 
-设$X', X''$为两个拓扑空间； $b$点共$X''$； $g, g'$ $X'$ 中的两个映射进入$X''$，在$b$ 具有相同的胚芽。如果$f, f'$是$X$的两个映射进入$X'$，它们在$a$处连续并且在$a$处具有相同的胚芽并且使得$f(a) = b$，则$g \circ f$和$g' \circ f'$在点处具有相同的胚芽$a$；因为如果$V'$是$X'$中$b$的邻域，使得$g(x') = g'(x')$对于所有$x' \in V'$，则存在$a$的邻域$V$使得$f(V) \subset V'$，$f'(V) \subset V'$并且$f(x) = f'(x')$ 对于所有 $x \in V$，然后是断言。 $a$处的$g \circ f$的胚芽则分别称为$g$和$f$的胚芽$\tilde{g}$和$\tilde{f}$的合成，并用$\tilde{g} \circ \tilde{f}$表示。
+设$X', X''$为两个拓扑空间； $b$点共$X''$； $g, g'$ $X'$ 中的两个映射进入$X''$，在 $b$ 具有相同的胚芽。如果$f, f'$是$X$中的两个映射进入$X'$，它们在$a$处连续并且在$a$处具有相同的胚芽并且使得$f(a) = b$，则$g \circ f$和$g' \circ f'$在点处具有相同的胚芽$a$；因为如果$V'$是$X'$中$b$的邻域，使得$g(x') = g'(x')$对于所有$x' \in V'$，则存在$a$的邻域$V$使得$f(V) \subset V'$，$f'(V) \subset V'$并且$f(x) = f'(x')$ 对于所有 $x \in V$，然后是断言。 $a$处的$g \circ f$胚芽则分别称为$g$和$f$的胚芽$\tilde{g}$和$\tilde{f}$的合成，并用$\tilde{g} \circ \tilde{f}$表示。
 
 ### 习题{#top-i-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

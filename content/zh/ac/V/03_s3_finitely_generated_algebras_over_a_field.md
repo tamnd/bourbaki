@@ -29,16 +29,16 @@ subsections:
       pdf_page: 370
 statements: 17
 exercises: 10
-content_sha256: d8ef51c3de909e37700091b4cde6ef4e1d21b88344f993ce64e7fdf3667ff67d
+content_sha256: 0773d335e1f346451185718f72ce8664373d3873d83840b3c95b826c10000084
 translated_from: content/en/ac/V/03_s3_finitely_generated_algebras_over_a_field.md
 translation_method: google
 source_content_sha256: 6de44311d5d60b730fb626da1cd69b9f44af23562467fb568b226b7a0a3a5d4c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: de5354f7aa953bc803860fe8f26d7d24fa88408017ef8d612f11e82cffdc586b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 3. 有限生成代数超过域
@@ -50,10 +50,10 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 #### 定理 1（标准化引理）{#ac-v-s3-thm-1 .statement tag=04R8}
 
 令 A 为有限生成的 K-代数，并令 $a_1 \subset a_2 \subset \ldots \subset a_p$ 为 A 理想的递增有限序列，使得 $p \geq 1$ 和 $a_p \neq A$。 A 的元素存在有限序列 $(x_i)_{1 \leq i \leq n}$，它们在代数上独立于 k (章 III, § 1, no. 1)，并且使得：
-(a) A 是环 $B = k[x_1, \ldots, x_n]$ 上的积分。
+(a) A 在环 $B = k[x_1, \ldots, x_n]$ 上是积分。
 (b) 对于所有j，使得$1 \leq j \leq p$，存在整数的递增序列$(h(j))_{j \leq j \leq p}$，使得对于所有j，生成B的理想$a_j \cap B$$x_1, \ldots, x_{h(j)}$。
 
-注首先当A是多项式代数$k[Y_1, \ldots, Y_m]$时足以证明定理。因为在一般情况下，A 同构于这样的代数 A' 与理想$a'_0$ 的商；令 $a'_j$ 表示 A' 中 $a_j$ 的逆像，并令 $x'_i$ ($1 \leq i \leq r$) 为 A' 的元素，对于环 A'，叙述满足条件且递增序列理想$a'_0 \subset a'_1 \subset \ldots \subset a'_p$。然后A中的$x'_i$的像$x_i$为$i > h(0)$满足所需的条件；这对于条件 (b) 和条件 (a) 来说是显而易见的，这是从§ 1, no. 1、命题 2 得出的；最后，如果 $x_i(h(0) + 1 \leq i \leq r)$ 在 k 上不是代数独立的，则将存在一个非零多项式
+注首先当A是多项式代数$k[Y_1, \ldots, Y_m]$时足以证明定理。因为在一般情况下，A 同构于这样的代数 A' 与理想的 $a'_0$ 的商；令 $a'_j$ 表示 A' 中 $a_j$ 的逆像，并令 $x'_i$ ($1 \leq i \leq r$) 为 A' 的元素对于环 A'，满足条件叙述且递增序列理想$a'_0 \subset a'_1 \subset \ldots \subset a'_p$。然后A中的$x'_i$的像$x_i$为$i > h(0)$满足所需的条件；这对于条件 (b) 和条件 (a) 来说是显而易见的，这是从 § 1, no. 1、命题 2 得出的；最后，如果 $x_i(h(0) + 1 \leq i \leq r)$ 在 k 上不是代数独立的，则将存在一个非零多项式
 
 $$
 Q \in k[X_{h(0)+1}, \ldots, X_r]
@@ -124,13 +124,13 @@ $$
 
 通过定理 1，存在 A 的子代数 C 同构于多项式代数 $k[X_1, \ldots, X_n]$，并且使得 A 在 C 上积分； $A'$显然是C在K'中的积分闭包（§ 1, no. 1，命题6）；因此，我们可以将注意力集中在$A = k[X_1, \ldots, X_n]$的情况。 令$N$为由$K'$生成的$K$（在$K$的代数闭包中）的拟伽罗瓦扩张，它是$K$的有限代数扩张（代数，章V, § 6, no. 3，推论1为命题9)。 只需证明$N$中$A$的积分闭包$B$是有限生成的$A$模，因为$A'$是$B$的子$A$模，$A$是诺特环 （章III, § 2, no. 10，推论2至定理2）。 因此，我们可以将注意力集中在$K'$是$K$的拟伽罗瓦扩展的情况。 然后我们知道（代数，章V, § 10, no. 9，命题14）$K'$是$K$的（有限）根式扩张$K''$的（有限）伽罗瓦扩张。 如果$A''$是$K''$中$A$的积分闭包，$A'$是$K'$中$A''$的积分闭包，则足以证明$A''$是有限生成的$A$模，$A'$是有限生成的$A''$-模块。 现在，如果证明$A''$是有限生成的$A$模，则它是诺特域，被定义整闭； $A$ 是有限生成的 $A''$ 模块这一事实将从 § 1, no. 6、推论 1 到命题 18 得出。
 
-因此我们看到，我们可以将注意力集中在$A = k[X_1, \ldots, X_n]$且$K'$是$K = k(X_1, \ldots, X_r)$的有限根扩张的情况。那么$K'$由元素$(y_i)_{1 \leq i \leq m}$的有限族生成，并且存在$k$的特征指数幂$q$使得$y_i^q \in k(X_1, \ldots, X_r)$。设$c_j$($1 \leq j \leq r$)为$X_1, \ldots, X_r$中有理函数的分子和分母的系数，等于$y_i^q$($1 \leq i \leq m$)。那么$K'$包含在扩张$L = k'(X_1^{q^{-1}}, \ldots, X_n^{q^{-1}})$中，其中$k' = k(c_1^{q^{-1}}, \ldots, c_r^{q^{-1}})$（我们位于$K'$的代数闭包中），$A$包含在$A$的代数闭包$B'$中$L'$。现在，$k'$是$k$的代数，因此$C' = k'[X_1, \ldots, X_n]$是$A$的积分（$§ 1$、no. 1、命题 5）；由于 $k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$ 是整闭的（$§ 1$，no. 3，推论 2 到命题 13），可以看出，这个环是 $C'$ 在 $L'$ 的整闭，因此也是 $A$ 的整闭（$§ 1$， no. 1、命题6)，其他字$B' = k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$。现在显然$B'$是一个有限生成的$C'$模块（$§ 1$，no. 1，命题4），并且由于$k'$是$k$的有限扩张，所以$C'$是一个有限生成的$A$-模块，因此$B'$是有限生成的$A$-模块；由于$A$是诺特和$A \subset B'$，$A'$是有限生成的$A$模块。
+因此我们看到，我们可以将注意力集中在$A = k[X_1, \ldots, X_n]$和$K'$是$K = k(X_1, \ldots, X_r)$的有限根扩张的情况。那么$K'$由元素$(y_i)_{1 \leq i \leq m}$的有限族生成，并且存在$k$的特征指数幂$q$使得$y_i^q \in k(X_1, \ldots, X_r)$。设$c_j$($1 \leq j \leq r$)为$X_1, \ldots, X_r$中有理函数的分子和分母的系数，等于$y_i^q$($1 \leq i \leq m$)。那么$K'$包含在扩张$L = k'(X_1^{q^{-1}}, \ldots, X_n^{q^{-1}})$中，其中$k' = k(c_1^{q^{-1}}, \ldots, c_r^{q^{-1}})$（我们位于$K'$的代数闭包中），$A$包含在$A$的代数闭包$B'$中$L'$。现在，$k'$是$k$的代数，因此$C' = k'[X_1, \ldots, X_n]$是$A$的积分（$§ 1$、no. 1、命题 5）；由于 $k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$ 是整闭的（$§ 1$，no. 3，推论 2 到命题 13），可以看出，这个环是 $C'$ 在 $L'$ 的整闭，因此也是 $A$ 的整闭（$§ 1$， no. 1、命题6)，其他字$B' = k'[X_1^{q^{-1}}, \ldots, X_n^{q^{-1}}]$。现在显然$B'$是一个有限生成的$C'$模块（$§ 1$，no. 1，命题4），并且由于$k'$是$k$的有限扩张，所以$C'$是一个有限生成的$A$-模块，因此$B'$是有限生成的$A$-模块；由于$A$是诺特和$A \subset B'$，$A'$是有限生成的$A$模块。
 
-### 3.零点定理
+### 3. 零点定理
 
 #### 命题 1 {#ac-v-s3-prop-1 .statement tag=04RD}
 
-令 $A$ 为域 $k$ 和 $L$ 代数闭包上 $k$ 的有限生成的代数。
+令 $A$ 为 $k$ 的域 $k$ 和 $L$ 代数闭包的有限生成代数。
 
 (i) 如果$A \neq \{0\}$，则存在从$A$到$L$的$k$同态。
 
@@ -160,9 +160,9 @@ $$
 
 设$A$是这个代数的生成元和$c$在域$k$、$(a_i)_{1 \leq i \leq n}$系统上的有限生成的代数和$a_i$之间的代数关系的理想，系数为$k$（代数、章IV, § 2, no. 1）。 对于$k$的每个扩张域$L$，映射$f \mapsto (f(a_i))_{1 \leq i \leq n}$是从$A$到$L$到集合的k同态的双射或集合 $L^n$ 中的$r$ 零。
 
-存在$k[X_1, \ldots, X_n]$到$A$的唯一K-代数同态$h$，使得$h(X_i) = a_i$、$1 \leq i \leq n$和定义$r$是$h$的核。 映射 f $\mapsto$ 他从$A$到$L$的k-同态的集合的双射到从$k[X_1, \ldots, X_n]$到$L$的k-同态的集合，它们在c上是零。对于每个多项式 $P \in k[X_1, \ldots, X_n]$ 和每个元素 $x = (x_1, \ldots, x_i) \in L^n$，我们写 $h_x(P) = P(x)$；那么映射$x \mapsto h_x$是$L^n$的双射到从$k[X_1, \ldots, X_n]$到$L$的k同态的集合上（例如同态由其在$X_i$处的值确定） ($1 \leq i \leq n$));说$h_x$在c上是零意味着$x$是$L''$、从而引理中c的零。
+存在$k[X_1, \ldots, X_n]$到$A$的唯一K-代数同态$h$，使得$h(X_i) = a_i$，对于$1 \leq i \leq n$以及定义$r$是$h$的核。 映射 f $\mapsto$ 他从$A$到$L$的k-同态集合的双射到从$k[X_1, \ldots, X_n]$到$L$的k-同态集合，它们在c上是零。对于每个多项式 $P \in k[X_1, \ldots, X_n]$ 和每个元素 $x = (x_1, \ldots, x_i) \in L^n$，我们写 $h_x(P) = P(x)$；那么映射$x \mapsto h_x$是$L^n$的双射到从$k[X_1, \ldots, X_n]$到$L$的k同态的集合上（例如同态由其在$X_i$处的值确定） ($1 \leq i \leq n$));说$h_x$在c上是零意味着$x$是c在$L''$、从而引理中的零。
 
-如果将命题 1 应用于代数 $A = k[X_1, \ldots, X_n]/r$，其中 c 是与整个环不同的 $k[X_1, \ldots, X_n]$ 的理想，我们通过引理 1 得到以下叙述：
+如果将命题 1 应用于代数 $A = k[X_1, \ldots, X_n]/r$，其中c是与整个环不同的$k[X_1, \ldots, X_n]$的理想，我们通过引理 1获得以下叙述：
 
 #### 命题 2 (希尔伯特零点定理) {#ac-v-s3-prop-2 .statement tag=04RF}
 
@@ -170,13 +170,13 @@ $$
 
 (i) 每个理想$r \not\subset k[X_1, \ldots, X_n]$而非包含1都承认$L^n$中至少有一个零。
 
-(ii) 令$x = (x_1, \ldots, x_n), y = (y_1, \ldots, y_n)$为$L^n$中的两个元素；为了使 x 处的 $k[X_1, \ldots, X_n]$ 零多项式的集合与 y 处 $k[X_1, \ldots, X_n]$ 零的多项式集合相同，存在 L 的 k 自同构 s 是充分必要的，使得 $y_i = s(x_i)$ 为$1 \leq i \leq n$。
+(ii) 令$x = (x_1, \ldots, x_n), y = (y_1, \ldots, y_n)$为$L^n$中的两个元素；为了使 x 处的 $k[X_1, \ldots, X_n]$ 零的多项式的集合与 y 处的 $k[X_1, \ldots, X_n]$ 零的多项式的集合相同，存在 L 的 k 自同构 s 是充分必要的，使得 $y_i = s(x_i)$ 对于$1 \leq i \leq n$。
 
 (iii) 要使 $k[X_1, \ldots, X_n]$ 的理想 a 最大，$L^n$ 中存在一个 x，使得 a 是 $k[X_1, \ldots, X_n]$ 零在 x 处的多项式的集合，这是充分必要的。
 
 (iv) 对于$k[X_1, \ldots, X_n]$理想c的$L''$中$k[X_1, \ldots, X_n]$的多项式Q在零的集合上为零，存在整数 m > 0使得$Q^m \in c$是充分必要的。
 
-### 4.雅各布森环
+### 4. 雅各布森环
 
 #### 定义 1 {#ac-v-s3-def-1 .statement tag=04RG}
 
@@ -184,8 +184,8 @@ $$
 
 例
 
-(1) 每个域都是雅各布森环。
-(2) 环 $\mathbf{Z}$ 是 Jacobson 环，非极大值的唯一素理想 (0) 是 $\mathbf{Z}$ 的极大理想 $(p)$ 的交，其中 $p$ 穿过素数的集合数（cf.命题4）。
+(1) 每个域都是一个Jacobson环。
+(2) 环 $\mathbf{Z}$ 是 Jacobson 环，非极大值的唯一素理想 (0) 是 $\mathbf{Z}$ 的极大理想 $(p)$ 的交，其中 $p$ 贯穿素数的集合数（cf.命题4）。
 (3) 设 A 为 Jacobson 环，a 为 A 的理想，则 $A/a$ 为 Jacobson 环，因为 $A/a$ 的理想为形式 $b/a$，其中 b 为包含 a 的理想，$b/a$ 为当且仅当 b 是素数（或最大值）。
 
 #### 命题 3 {#ac-v-s3-prop-3 .statement tag=04RH}
@@ -262,4 +262,4 @@ $$
 
 **93**
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

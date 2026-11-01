@@ -13,16 +13,16 @@ pdf_pages: 0432-0443
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ee15622862954c4b7526bb7b2c37ba77d496fb2f3f25faeb3c38af2dc67a388e
+content_sha256: ba612b353f0136a35ba6d71effe988c76c0979989014a5277ca1a0d4f84bbf19
 translated_from: content/en/alg/VII/historical_note.md
 translation_method: google
 source_content_sha256: 6c71730c807154ca230c1596027facd8f4b8d8bae302c239894c7039af3c4a2e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8d9194ee416a9e48ae63c574460c0ad4975dc623bd1c8b99fe73ec63888e73cb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 # 历史注记
@@ -31,7 +31,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 （注：括号中的罗马数字指的是注末尾的参考书目。）
 
-基本算术运算，特别是运算和分数，不可避免地会导致数关于整数之间整除的经验观察。 但巴比伦人（尽管他们在代数方面是专家）和埃及人（尽管他们在操纵分数方面拥有杂技般的技巧）似乎都不熟悉管理这些属性的一般规则，而这方面的主动权应归功于希腊人。 Their arithmetical work, a masterly exposition of which can be found in Books VII and IX of Euclid (I), is in no way inferior to their most beautiful discoveries in other branches of Mathematics. 两个整数的 gcd 的存在性在本书 VII 的开头就被称为“欧氏算法”的过程证明了 \* ；它作为基用于所有后续的发展（素数数的性质，Icm的存在和计算等），其论点与第一章没有本质上的不同。 VI，9 1 以上；至高无上的荣耀是由两个非凡的定理证明素数数的无限存在（书IX，第20条）和给出构造甚至完美的数（cf.）的过程组成。 VII，p. 53，例如。 24；这个过程实际上给出了所有偶数完美的数，正如欧拉所证明的那样）。 只是质因数分解的存在性和唯一性没有以一般方式证明；然而，欧几里得确实明确证明每个整数都可以被素数数整除（书VII，第31条命题），以及以下两个命题（书IX，第13和14条命题）：
+基本算术运算，特别是运算和分数，不可避免地会导致数关于整数之间整除的经验观察。 但巴比伦人（尽管他们在代数方面是专家）和埃及人（尽管他们在操纵分数方面拥有杂技般的技巧）似乎都不熟悉管理这些属性的一般规则，而这方面的主动权应归功于希腊人。 Their arithmetical work, a masterly exposition of which can be found in Books VII and IX of Euclid (I), is in no way inferior to their most beautiful discoveries in other branches of Mathematics. 两个整数的 gcd 的存在性在本书 VII 的开头就被称为“欧氏算法”的程序证明了 \* ；它作为基用于所有后续的发展（素数数的性质，Icm的存在和计算等），基于与第一章没有本质区别的论点。 VI，9 1 以上；至高无上的荣耀是由两个非凡的定理证明素数数的无限存在（书IX，命题20）以及给出构造甚至完美的数的程序（cf.VII，p. 53，例24；这个程序）事实上给出了所有偶数完美的数，正如欧拉所证明的那样）。 只是质因数分解的存在性和唯一性没有以一般方式证明；然而，欧几里得确实明确证明每个整数都可以被素数数整除（书VII，第31条命题），以及以下两个命题（书IX，第13和14条命题）：
 
 « 如果我们希望有尽可能多的数处于级数中，从 1 开始，比例恒定 [即几何]，如果 1 后面的数是质数，那么
 
@@ -76,7 +76,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 announced in 1858, in the paper in which he introduced matrix arithmetic (XVI), the « Cayley-Hamilton Theorem » for an arbitrary square matrix *, though he contented himself with a direct proof for 2 x 2 and 3 x 3 matrices. 最后，Weierstrass 在 1868 年使用西尔维斯特的方法，获得了“铅笔”$U + XV$的“规范形式”，其中这次$U$和V是方阵，不一定对称，仅受条件和$\det(U + XV)$不相同的影响零；他从任意平方（复数）矩阵的初等除子中推导出定义，并证明它们表征了后者的相似性（XIX）；顺便说一句，这些结果在两年后被乔丹部分（并且显然是独立地）恢复了**（XXI）。 Frobenius 在 1879 年再次证明，Weierstrass 的定理可以很容易地从 Smith 的定理扩展到多项式 ((XXII), § 13) 推导出来；他的程序是我们上面给出的这个定理的证明的基（VII，p. 35）。
 
-我们刚刚提到了单变量多项式的整除性理论；多项式的除法问题必然在代数的早期自然地出现，作为运算到乘法的倒数（后者甚至为丢番图所知，至少对于低次数的多项式而言）；但可以想象，几乎不可能以一般方式之前来攻击这个问题，对于变量的各种幂已经建立了连贯的记号。 事实上，正如我们所知，我们很少发现多项式的“欧氏”除法过程中的例，之前是在16世纪中叶***；和S。 Stevin（本质上，使用指数记号）似乎是第一个提出推导 « 欧氏算法 » 的扩张来找到两个多项式的 gcd（（IV，vol.1）的人。 I，第 54-56 页）。 除此之外，直到18世纪中叶，整除理论一直局限于有理数整数。 1770 年，欧拉在算术中开始了新的章，他有点鲁莽地把可整除性的概念扩展到二次扩张的整数：求形式$x^2 + cy^2$的数的确定除子（x，y）和 c 有理数整数)，他把
+我们刚刚提到了单变量多项式的整除性理论；多项式的除法问题必然在代数的早期自然地出现，作为运算到乘法的倒数（后者甚至为丢番图所知，至少对于低次数的多项式而言）；但可以想象，几乎不可能以一般方式之前来攻击这个问题，对于变量的各种幂已经建立了连贯的记号。 事实上，正如我们所知，我们很少发现多项式的“欧氏”除法过程中的例，之前是在16世纪中叶***；和S。 Stevin（本质上，使用指数记号）似乎是第一个提出推导 « 欧氏算法 » 的扩张来找到两个多项式的 gcd 的人（(IV, vol. I, pp. 54-56）。 除此之外，直到18世纪中叶，整除理论一直局限于有理数整数。 1770 年，欧拉在算术中开始了新的章，他有点鲁莽地把可整除性的概念扩展到二次扩张的整数：求形式$x^2 + cy^2$的数的确定除子（x，y）和 c 有理数整数)，他把
 
 $$
 x - y \sqrt{-c} = (p + q \sqrt{-c})(r + s \sqrt{-c}) \quad (p, q, r, s \text{ rational integers})

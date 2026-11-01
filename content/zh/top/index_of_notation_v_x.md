@@ -18,10 +18,10 @@ translation_method: google
 source_content_sha256: ec8850f356cd77640d1f8fc68925b77abbfdcf0768138f378a39aac83c758f6e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ef4aa44b7dd35f81f23031c032a198a1a7479c9556ebda96e076e6f5d5a1b6f7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 指标的记号

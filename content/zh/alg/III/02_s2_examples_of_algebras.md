@@ -58,25 +58,25 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 25
-content_sha256: b16e919bb8f8ee39f89dbae0e84aac6c0a94f0e112ac75cdd5c92881ee8ba22c
+content_sha256: 009d6b7a5f93bab93cd8ff434f2147d7f54cd3d05b30539b7d7a2ceed6ebbef8
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
 translation_method: google
 source_content_sha256: 523c00d5d47e83c328fe974b4b99f51c3c18998f5e378badbbbbd303ed1feec8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1180c30008a694ff9a7fe7606211c20e01fa34e5c4e98f9eec1b7cefde1d1760
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 例 / 代数
 
 在本段中，A 表示交换环。
 
-### 1.内同态代数
+### 1. 内同态代数
 
-令 B 为结合律 A-代数，其中单位元用 1 表示，并令 M 为右B-模。我们知道B的环$E = \mathrm{End}_B(M)$还有模结构超过中心。现在A到B的同态$h : \alpha \mapsto \alpha . 1$的像包含在B的中心中（§ 1, no. 1）；因此 $h$ 给出 E A-模结构。此外，对于 E 中的 $\alpha \in A$ 和 $f, g$，
+令 B 为结合律 A-代数，其中单位元用 1 表示，并令 M 为右B-模。我们知道，B 的环 $E = \mathrm{End}_B(M)$ 还有模结构超过中心。现在 A 的同态 $h : \alpha \mapsto \alpha . 1$ 的像包含在 B 的中心中（§ 1, no. 1）；因此 $h$ 给出 E A-模结构。此外，对于 E 中的 $\alpha \in A$ 和 $f, g$，
 
 $$
 \alpha(f \circ g) = f \circ (\alpha g) = (\alpha f) \circ g;
@@ -84,11 +84,11 @@ $$
 
 因此，E 中的乘法和 E 上的 A-模结构定义是 E 上的联想 A-代数结构； M 的恒等映射是这个代数的单位元。
 
-### 2.矩阵元素
+### 2. 矩阵元素
 
-设 B 是 B (II, § 10, no. 7) 上阶 n 的平方矩阵的酉结合A-代数和$\mathbf{M}_n(B)$ 集合。那么$\mathbf{M}_n(B)$有由$\alpha . (b_{ij}) = (\alpha b_{ij})$($\alpha \in A, b_{ij} \in B, 1 \leq i \leq n, 1 \leq j \leq n$)定义的A-模结构；这个结构和矩阵乘法定义是$\mathbf{M}_n(B)$上的统一联想A-代数结构。 $\mathbf{M}_n(B)$到$\mathrm{End}_B(B_d^n)$（II, § 10, no. 7）的规范双射是A-代数同构。
+设 B 是 B (II, § 10, no. 7) 上阶 n 的平方矩阵的酉结合 A-代数和 $\mathbf{M}_n(B)$ 集合。那么$\mathbf{M}_n(B)$有由$\alpha . (b_{ij}) = (\alpha b_{ij})$($\alpha \in A, b_{ij} \in B, 1 \leq i \leq n, 1 \leq j \leq n$)定义的A-模结构；这个结构和矩阵乘法定义是$\mathbf{M}_n(B)$上的单位联想A-代数结构。 $\mathbf{M}_n(B)$到$\mathrm{End}_B(B_d^n)$（II, § 10, no. 7）的规范双射是A-代数同构。
 
-当$B = A$、A-代数$\mathbf{M}_n(A)$承认矩阵单位(II, § 10, no. 3)的典范基$(E_{ij})$由……组成时； 相应的乘法表是
+当$B = A$、A-代数$\mathbf{M}_n(A)$承认矩阵单位（II, § 10, no. 3）的典范基$(E_{ij})$由……组成时； 相应的乘法表是
 
 $$
 E_{ij} E_{hk} = \delta_{jh} E_{ik}.
@@ -96,7 +96,7 @@ $$
 
 单位元 $I_n$ 等于 $\sum_{i=1}^n E_{ii}$。
 
-### 3.二次代数
+### 3. 二次代数
 
 令$\alpha, \beta$为A的两个元素和$A^2$的$(e_1, e_2)$典范基。 A 上的型 $(\alpha, \beta)$ 的二次代数为 A-模 $A^2$，其中代数结构由乘法表 (§ 1, no. 7) 定义
 
@@ -116,7 +116,7 @@ $$
 
 E 是可交换的，这一事实由 (2) 中的方程 $e_1 e_2 = e_2 e_1$ 得出；类似地，要验证结合性，只要看到当$x, y, z$分别等于$e_1$或$e_2$时，$x(yz) = (xy)z$就足够了。现在，如果元素 $x, y, z$ 至少有一个等于$e_1$，则关系是显而易见的；对于 $x = y = z = e_2$ 也是如此，因为 E 是可交换的； 从而命题。
 
-令$e$表示二次代数E的单位元，令$(e, i)$为型$(\alpha, \beta)$E的基；因此，E 包含于 $e$ 的所有其他基都是形式 $(e, j)$ 和 $j = \gamma e + \delta i$（II, § 7, no. 2，命题 3 的推论）；此外，要使$(e, j)$成为E的基，$\delta$在A中可逆是充分必要的； 条件显然就足够了；反之，如果$E/Ae$、$\bar{i}$和$\bar{j} = \delta \bar{i}$中$\bar{i}$是$i$的典范像，则必须$E/Ae$、从而各形式、基的必要性条件。然后
+令$e$表示二次代数E的单位元，令$(e, i)$为型$(\alpha, \beta)$E的基；因此，E 包含于 $e$ 的每隔一个基都是形式 $(e, j)$ 和 $j = \gamma e + \delta i$（II, § 7, no. 2，命题 3 的推论）；此外，要使$(e, j)$成为E的基，$\delta$在A中可逆是充分必要的； 条件显然已经足够了；反之，如果$E/Ae$、$\bar{i}$和$\bar{j} = \delta \bar{i}$中$\bar{i}$是$i$典范像，则必须$E/Ae$、从而各形式、基的必要性条件。然后
 
 $$
 j^2 = (\gamma^2 + \alpha \delta^2)e + (2\gamma \delta + \beta \delta^2)i = (\alpha \delta^2 - \gamma^2 - \beta \gamma \delta)e + (2\gamma + \beta \delta)j;
@@ -208,7 +208,7 @@ $$
 
 型 $(0, 0)$ 的二次方 A-代数也称为 A 上的对偶数* 的 *代数。
 
-### 4.凯利代数
+### 4. 凯利代数
 
 #### 定义 1 {#alg-iii-s2-def-1 .statement tag=05Z0}
 
@@ -229,7 +229,7 @@ $$
 N(u) = u.s(u) = s(u).u
 $$
 
-子代数 $Ae$ 的元素分别称为$u$ 的*凯莱迹* 和*范数*。
+子代数 $Ae$的这些元素分别称为$u$的*凯莱迹*和*范数*。
 
 二次代数 E 的有序对由……组成及其共轭 s（这是反自同构，因为 E 是可交换的）(no. 3) 是凯莱代数。
 
@@ -239,7 +239,7 @@ $$
 s^2(u) = u
 $$
 
-因此 $s^2$ 是 E 的恒等映射。由此可知
+因此 $s^2$ 是 E 的恒等映射。 由此可知
 
 $$
 T(s(u)) = T(u), \quad N(s(u)) = N(u).
@@ -257,7 +257,7 @@ $$
 
 *设 E 为 A-代数，并且 s 和 s' E 的反自同构，使得 (E, s) 和 (E, s') 为 Cayley 代数。如果 E 承认基包含单位元 e，则 s' = s.*
 
-显然 $s'(u) = s(u) = u$ 对于所有$u \in Ae$。如果 T, N（分别为 T', N'）是迹，且范数函数对于 (E, s)（分别为 (E, s')），则从 (13) 得出
+显然 $s'(u) = s(u) = u$ 对于所有$u \in Ae$。如果 T, N（分别为 T', N'）是迹，并且范数函数对于 (E, s)（分别为 (E, s')），则从 (13) 可以得出
 
 $$
 (T(u) - T'(u)).u - (N(u) - N'(u)) = 0.
@@ -331,7 +331,7 @@ $$
 
 显然，$T$ 是$(Ae)$-模块$E$ 上的线性形式。由于$(u, v) \mapsto T(v\bar{u})$在此模上是双线性形式，*从(18)和(20)得出$N$是二次形式(cf.IX, § 3, no. 4)。*
 
-### 5.凯利的构造代数。四元数
+### 5. 凯利的构造代数。四元数
 
 令$(E, s)$为$A$上的凯莱代数，为此我们将使用no. 4的记号，并令$\gamma \in A$。令$F$为代数超过$A$，其底层模为$E \times E$，其乘法定义为
 
@@ -409,7 +409,7 @@ Cayley 代数 $(\mathbf{F}, t)$ 被称为* $(\mathbf{E}, s)$ *定义的 *Cayley 
 
 (1) 如果我们取$\mathbf{E} = \mathbf{A}$（因此$s = 1_A$），则代数$\mathbf{F}$是一个*二次A-代数*，其中基$(e, j)$，其中$j^2 = \gamma e$。
 
-(2) 取E为型* $(\alpha, \beta)$的*二次代数，使得E的底层模为$\mathbf{A}^2$，乘法表 (2) (no. 3)为典范基。取 s 为 E (no. 3, 命题 2) 的共轭。那么，对于所有$\gamma \in \mathbf{A}$，由$\gamma$定义的$(\mathbf{E}, s)$的Cayley 扩张 F称为型* $(\alpha, \beta, \gamma)$的*四元数代数，它与no. 3、命题 1和命题*结合* 5以上；它的底层模是$\mathbf{A}^4$，如果$(e, i, j, k)$表示$\mathbf{A}^4$的典范基，则相应的乘法表由下式给出
+(2) 取E为型* $(\alpha, \beta)$的*二次代数，使得E的底层模为$\mathbf{A}^2$，乘法表 (2) (no. 3)为典范基。取 s 为 E (no. 3, 命题 2) 的共轭。那么，对于所有$\gamma \in \mathbf{A}$，由$\gamma$定义的$(\mathbf{E}, s)$的Cayley扩张F称为型*$(\alpha, \beta, \gamma)$的*四元数代数，它与no. 3、命题1和命题*结合* 5以上；它的底层模是$\mathbf{A}^4$，如果$(e, i, j, k)$表示$\mathbf{A}^4$的典范基，则相应的乘法表由下式给出
 $$
 \left\{\begin{array}{lll}
 i^2 = \alpha e + \beta i, & ij = k, & ik = \alpha j + \beta k, \\
@@ -419,7 +419,7 @@ ki = -\alpha j, & kj = \gamma i, & k^2 = -\alpha \gamma e.
 $$
 (30)
 
-此外，对于$u = \rho e + \xi i + \eta j + \zeta k$（$\mathbf{A}$中有$\rho, \xi, \eta, \zeta$），我们有（用$\bar{u}$代替$t(u)$，并用$\mathbf{Ae}$识别$\mathbf{A}$）：
+此外，对于$u = \rho e + \xi i + \eta j + \zeta k$（$\rho, \xi, \eta, \zeta$位于$\mathbf{A}$中），我们有（写为$\bar{u}$而不是$t(u)$，并用$\mathbf{Ae}$识别$\mathbf{A}$）：
 
 $$
 \left\{
@@ -439,11 +439,11 @@ $$
 N_F(uv) = N_F(u)N_F(v)
 $$
 
-对于$N_F(uv) = uv.\overline{uv} = uv(\overline{v}.\overline{u}) = u(v\overline{v})\overline{u} = (u\overline{u})(v\overline{v})$，凭借结合性以及F的$N_F(u)$属于到中心这一事实。
+对于$N_F(uv) = uv.\overline{uv} = uv(\overline{v}.\overline{u}) = u(v\overline{v})\overline{u} = (u\overline{u})(v\overline{v})$，凭借结合性以及F的$N_F(u)$属于至中心这一事实。
 
-与四元数代数同构的A-代数也称为*四元数代数*；如果这样的代数中的基具有乘法表(30)，则称为型*$(\alpha, \beta, \gamma)$的*基。通过滥用语言，当基为型 $(\alpha, \beta, \gamma)$ 时，四元数代数被称为*型* $(\alpha, \beta, \gamma)$。
+与四元数代数同构的A-代数也称为*四元数代数*；如果这样的代数中的基有乘法表(30)，则称为型*$(\alpha, \beta, \gamma)$的*基。通过滥用语言，当基为型 $(\alpha, \beta, \gamma)$ 时，四元数代数被称为*型* $(\alpha, \beta, \gamma)$。
 
-当 $\beta = 0$、公式 (30) 和 (31) 简化为
+当 $\beta = 0$, 公式 (30) 和 (31) 简化为
 
 $$
 \left\{
@@ -467,19 +467,19 @@ N_F(u) = \rho^2 - \alpha \xi^2 - \gamma \eta^2 + \alpha \gamma \zeta^2.
 \right.
 $$
 
-然后在上面的表达式中$(\alpha, \beta, \gamma)$就被$(\alpha, \gamma)$替换了。 It is immediate that the quaternion algebras of types $(\alpha, \gamma)$ and $(\gamma, \alpha)$ are *isomorphic*.
+然后，在上面的表达式中，$(\alpha, \beta, \gamma)$就被替换为$(\alpha, \gamma)$。 型$(\alpha, \gamma)$和$(\gamma, \alpha)$的四元数代数*同构*是直接的。
 
-注公式 (32) 证明当$-1 \neq 1$在$\mathbf{A}$中时F不可交换。
+注公式 (32) 证明当 $-1 \neq 1$ 位于$\mathbf{A}$ 时，F 不可交换。
 
-*取A为实数和$\alpha = \gamma = -1, \beta = 0$的域$\mathbf{R}$，相应的代数F称为哈密顿四元数*的*代数，记为$\mathbf{H}$。如果$u = \rho e + \xi i + \eta j + \zeta k$（$\mathbf{R}$中的$\rho, \xi, \eta, \zeta$）是$\mathbf{H}$中的元素$\neq 0$，则公式$u\bar{u} = \bar{u}u = \rho^2 + \xi^2 + \eta^2 + \zeta^2$（cf.（34））表明$\mathbf{R}$中的$N(u) \neq 0$，因此$u$ 承认 $\mathbf{H}$ 中有一个*逆* $u^{-1} = N(u)^{-1}\bar{u}$，因此 $\mathbf{H}$ 是一个*非交换域*。
+*取A为实数和$\alpha = \gamma = -1, \beta = 0$中的域$\mathbf{R}$，相应的代数F称为哈密顿四元数*的*代数，记为$\mathbf{H}$。如果$u = \rho e + \xi i + \eta j + \zeta k$（$\mathbf{R}$中的$\rho, \xi, \eta, \zeta$）是$\mathbf{H}$中的元素$\neq 0$，则公式$u\bar{u} = \bar{u}u = \rho^2 + \xi^2 + \eta^2 + \zeta^2$（cf.（34））表明$\mathbf{R}$中的$N(u) \neq 0$，所以$u$ 承认 $\mathbf{H}$ 中有一个*逆* $u^{-1} = N(u)^{-1}\bar{u}$，因此 $\mathbf{H}$ 是一个*非交换域*。
 
-(3) 如果E取为四元数代数 (cf. *例 2*)，则由元素 $\delta \in \mathbf{A}$定义的E的凯莱扩张一般是非关联的
+(3) 如果 E 取四元数代数 (cf. *例 2*)，则由元素 $\delta \in \mathbf{A}$ 定义的 E 的凯莱扩张一般是不结合的
 
 （命题5）；它被称为 A 上的八元数代数 (cf. 附录, no. 3)。
 
-### 6. 岩浆的代数，幺半群，群
+### 6. 代数岩浆，幺半群，群
 
-回想一下，岩浆是集合和律合成 (I, § 1, no. 1)。设 S 为乘法写成的岩浆，设 E = A^{(S)} 为 S 的元素形式线性组合的 A-模 (II, § 1, no. 11)；我们知道典范映射 s \mapsto e_s 被定义为 S 到 A^{(S)} 中，这样族 (e_s)_{s \in S} 是 A^{(S)} 的基 （称为规范），然后 A^{(S)} 的每个元素被唯一地写在形式 $\sum_{s \in S} \alpha_s e_s$ 中，其中(\alpha_s) 是有限支撑 A 的元素族。那么 A-代数结构在 E 上定义为典范基的乘法表
+回想一下，岩浆的大小为集合，其中律为合成 (I, § 1, no. 1)。设 S 为乘法写成的岩浆，设 E = A^{(S)} 为 S 的元素形式线性组合 A-模 (II, § 1, no. 11)；我们知道典范映射 s \mapsto e_s 被 S 定义为 A^{(S)}，这样族 (e_s)_{s \in S} 就是 A^{(S)} 的基（称为规范），A^{(S)} 的每个元素都被唯一地写在形式 $\sum_{s \in S} \alpha_s e_s$，其中(\alpha_s)是有限支撑的A的元素族。然后 A-代数结构在 E 上定义为乘法表 of 典范基
 
 $$
 e_s e_t = e_{st}.
@@ -491,9 +491,9 @@ $$
 xy = \sum_{s \in S} \left( \sum_{tu = s} \xi_t \eta_u \right) e_s.
 $$
 
-当 S 是幺半群（分别为群）时，E 称为幺半群（分别为群）S 在 A 上的代数；那么它是一个结合律代数 (§ 1, no. 7)；类似地，当S是交换幺半群时，它的代数是结合律和交换律的。最后如果岩浆S承认单位元素u，$e_u$就是代数E的单位元；由于元素 $e_u$ 是自由的，因此 A 可以用 E 的子代数 Ae_u 来标识。
+当 S 是幺半群（分别群）时，E 称为幺半群（分别群）S 在 A 上的代数；那么它是一个结合词代数 (§ 1, no. 7)；类似地，当S是交换幺半群时，它的代数是结合律和交换律的。最后，如果岩浆S承认单位元素u，则$e_u$是代数E的单位元；由于元素 $e_u$ 是自由的，因此 A 可以用 E 的子代数 Ae_u 来标识。
 
-当 A \neq \{0\} 时，S 被有时识别为单射 s \mapsto e_s 下的像，因此 E 的元素写为 $\sum_{s \in S} \alpha_s s$；但当 S 被附加地写入时，这种识别是不可能的（不会引起混乱）。那么也经常写$e^s$来代替$e_s$。
+当 A \neq \{0\} 时，S 的有时与其在单射 s \mapsto e_s 下的像一致，因此 E 的元素写为 $\sum_{s \in S} \alpha_s s$；但当 S 被附加地写入时，这种识别是不可能的（不会引起混乱）。那么也经常写$e^s$来代替$e_s$。
 
 设B为另一个交换环和$\rho : A \to B$环同态；考虑 A 和 B 上相同岩浆 S 的代数 E = A^{(S)} 和 E' = B^{(S)}，并令 $(e_s)_{s \in S}$ 和 $(e'_s)_{s \in S}$ 分别为它们各自的规范基。 代数 B^{(S)} 在 A-线性映射 j 下被规范地识别，使得 $j(e_s \otimes 1) = e'_s$ 对于所有 $s \in S$，其中代数 A^{(S)} \otimes_A B 通过将标量的环扩展到 B 而从 A^{(S)} 获得（II, § 1, no. 11，推论3 至命题 17)。
 
@@ -549,7 +549,7 @@ $$
 
 然后如上所述的应用方法，在M上得到左$\mathbf{Z}^{(Mo(\Omega))}$模结构，并且不费力地验证了带有算子的群理论中通常的概念（稳定的子群，同态）与可交换的带有算子的群和由此关联的模是相同的和他们在一起。
 
-### 7.免费代数
+### 7. 免费代数
 
 #### 定义 2 {#alg-iii-s2-def-2 .statement tag=05Z7}
 
@@ -557,7 +557,7 @@ $$
 
 我们将用 Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)）来表示 A 上的 I 的自由代数（分别为自由结合代数、分别为自由交换代数）。将 I 的典范映射组合成 M(I)（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$) 和 M(I) 的典范映射（分别为 Mo(I)、分别为 $\mathbf{N}^{(I)}$） Lib_A(I)（分别为 Libas_A(I)、分别为 Libasc_A(I)），将 I 转换为 Lib_A(I)（分别为 Libas_A(I)、分别为典范映射） Libasc_A(I))，如果 $A \neq \{0\}$ 则它是单射的。我们将在典范映射下用$X_i$表示元素$i \in I$的像，并且我们将说$X_i$是Lib_A（I）（或Libas_A（I））的指标i的不确定。 Libasc_A(I))。
 
-由于 Mo(I) 和 $\mathbf{N}^{(I)}$ 各有单位元素，因此 Libas_A(I) 和 Libasc_A(I) 是单位结合律代数，并且 Libasc_A(I) 是可交换的。 如果 e 是 Libas_A(I) 的单位元（分别为 Libasc_A(I))，映射$\alpha \mapsto \alpha e$是A的同构到Libas_A(I)的中心的子环（分别是） Libasc_A(I))，用A(no. 1)标识。
+由于 Mo(I) 和 $\mathbf{N}^{(I)}$ 各有单位元素，因此 Libas_A(I) 和 Libasc_A(I) 是单位结合律代数，并且 Libasc_A(I) 是可交换的。 If e is the unit element of Libas_A(I) (resp. Libasc_A(I)), the mapping $\alpha \mapsto \alpha e$ is an isomorphism of A onto a subring of the centre of Libas_A(I) (resp. Libasc_A(I)), which is identified with A (no. 1).
 
 #### 命题 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
@@ -569,7 +569,7 @@ $$
 
 (1) 我们稍后将 Libas_A(I) 的定义同构放到自由模 $A^{(I)}$ (§ 5, no. 5) 的张量代数上，并将 Libasc_A(I) 的同构放到对称矩阵上代数共 $A^{(I)}$ (§ 6, no. 6)。
 
-(2) 令$\rho$为A到交换环B的单位同态。 As has been seen (§ 2, no. 6), an isomorphism $\sigma$ is derived from $\rho$ of Lib_B(I) (resp. Libas_B(I)，分别。 Libasc_B(I)) 到代数 $(\mathrm{Lib}_A(I))_{(B)}$（分别为 $(\mathrm{Libas}_A(I))_{(B)}$、分别为 $(\mathrm{Libasc}_A(I))_{(B)}$），通过 $\rho$ 将标量扩展到 B 获得；如果$X_i^A, X_i^B$分别是A和B的指标、$i$、相应的的不定式，则$\sigma(X_i^B) = X_i^A \otimes 1$。
+(2) 令$\rho$为A到交换环B的单位同态。 正如所见 (§ 2, no. 6)，同构 $\sigma$ 是从 Lib_B(I)（分别是 Libas_B(I)、分别是 Libasc_B(I)）的 $\rho$ 派生到代数 $(\mathrm{Lib}_A(I))_{(B)}$（分别是$(\mathrm{Libas}_A(I))_{(B)}$、$(\mathrm{Libasc}_A(I))_{(B)}$) 通过将标量扩展到 B 通过 $\rho$ 获得；如果 $X_i^A, X_i^B$ 分别是 A 和 B 的指标 $i$ 相应的的不定式，则$\sigma(X_i^B) = X_i^A \otimes 1$。
 
 (3) 令J为I中的子集；我们知道 M(J) 被岩浆 M(I) 的稳定子集识别，因此 (no. 6) Lib_A(J) 被规范地识别为 Lib_A(I) 的子代数，由 $X_i$ 生成，使得 $i \in J$；据说 Lib_A(J) 的元素中仅出现指标属于到 J 的不定式。岩浆的代数的no. 6中给出的定义表明，当J穿过I的*有限*子集的集合时，Lib_A(I)是子代数Lib_A(J)有向族的并。 Libas_A(I) 和 Libasc_A(I) 也有类似的结果。
 
@@ -628,9 +628,9 @@ $$
 
 ### 9. 多项式代数
 
-令 $B$ 为单位*交换*结合律 $A$ 代数，并令 $(x_i)_{i \in I}$ 为 $B$ 的元素族；由$x_i$（$i \in I$）和单位元生成的$B$的子代数用$A[(x_i)_{i \in I}]_B$表示，或者在不会引起混淆的情况下简单地用$A[(x_i)_{i \in I}]$表示。因此，对于每个集合$I$，代数$\mathrm{Libasc}_A(I)$等于$A[(X_i)_{i \in I}]$（也用$A[X_i]_{i \in I}$表示）；后一个记号，它的优点是表明记号被选择来表示不定，是我们在本文的其余部分中通常使用的。 $A[(X_i)_{i \in I}]$ 的元素称为*不定式中的多项式* $X_i$ ($i \in I$) *系数为* $A$；按照惯例，当说“让$A[(X_i)_{i \in I}]$是多项式代数”时，$X_i$总是被理解为不定式。对于$I$的每个子集$J$，使用上述记号相当于将$\mathrm{Libasc}_A(J)$与由指标$i \in J$的$X_i$生成的$\mathrm{Libasc}_A(I)$的代数进行识别，并且单位元（cf.no. 7，*注（3）*）。对于 $I = \{1, 2, \ldots, n\}$，我们写为 $A[X_1, X_2, \ldots, X_n]$ 而不是 $A[(X_i)_{i \in I}]$。
+令$B$为单位*交换*结合律$A$-代数，并令$(x_i)_{i \in I}$为$B$的元素族；由$x_i$（$i \in I$）和单位元生成的$B$的子代数用$A[(x_i)_{i \in I}]_B$表示，或者在不会引起混淆的情况下简单地用$A[(x_i)_{i \in I}]$表示。因此，对于每个集合$I$，代数$\mathrm{Libasc}_A(I)$等于$A[(X_i)_{i \in I}]$（也用$A[X_i]_{i \in I}$表示）；后一个记号，它的优点是表明记号被选择来表示不定，是我们在本文的其余部分中通常使用的。 $A[(X_i)_{i \in I}]$ 的元素称为*不定式中的多项式* $X_i$ ($i \in I$) *系数为* $A$；按照惯例，当说“让$A[(X_i)_{i \in I}]$是多项式代数”时，$X_i$总是被理解为不定式。对于$I$的每个子集$J$，使用上述记号相当于将$\mathrm{Libasc}_A(J)$与由指标$i \in J$的$X_i$生成的$\mathrm{Libasc}_A(I)$的代数进行识别，并且单位元（cf.no. 7，*注（3）*）。对于 $I = \{1, 2, \ldots, n\}$，我们写为 $A[X_1, X_2, \ldots, X_n]$ 而不是 $A[(X_i)_{i \in I}]$。
 
-如果$I$和$I'$是两个等价的集合，则代数$\mathrm{Libasc}_A(I)$和$\mathrm{Libasc}_A(I')$同构。 $A[X]$ 通常用于表示多项式代数相应的到未指定的索引集合，其中*单个* 元素，$X$ 表示唯一的不定式；类似地，$A[X, Y]$、$A[X, Y, Z]$、... 用于表示未指定索引集合的多项式代数相应的，其中 2、3、... 元素。 注，根据上述约定，如果$A \neq \{0\}$，则$A[X]$和$A[Y]$适用于例（不同）子代数或$A[X, Y, Z]$。
+如果$I$和$I'$是两个等价的集合，则代数、$\mathrm{Libasc}_A(I)$和$\mathrm{Libasc}_A(I')$是同构的。 $A[X]$ 通常用于表示多项式代数相应的到未指定的索引集合，其中*单个* 元素，$X$ 表示唯一的不定式；类似地，$A[X, Y]$、$A[X, Y, Z]$、... 用于表示未指定索引集合的多项式代数相应的，其中 2、3、... 元素。 注，根据上述约定，如果$A \neq \{0\}$，则$A[X]$和$A[Y]$适用于例（不同）子代数或$A[X, Y, Z]$。
 
 元素
 $$
@@ -644,18 +644,18 @@ $$
 
 对于每个*非零*多项式$u = \sum \alpha_\nu X^\nu$，$u$的*次数*（或*总计次数*）是多索引$\nu$的整数$|\nu|$的最大的，使得$\alpha_\nu \neq 0$。
 
-令$F$为单位结合$A$代数，并令$(x_i)_{i \in I}$为$F$的元素族，它们是*成对可置换*。由 $x_i$ 和单位元生成的 $F$ 的子代数 $F'$ 是可交换的 (§ 1, no. 7)，这使得我们能够定义用 $x_i$ 代替多项式 $u \in A[(X_i)_{i \in I}]$ 中的 $X_i$（尽管$F$不一定是可交换的）：$u((x_i)_{i \in I})$是$F'$的元素，因此$F$和$h: u \to u((x_i)_{i \in I})$是$A[(X_i)_{i \in I}]$到$F$的同态。 $h$的核的元素是$A[(X_i)_{i \in I}]$族$(x_i)$的关系因子，也称为$x_i$之间的*多项式关系因子*（系数在$A$）。 同态 $h$ 的像是子代数 $F'$，也用 $A[(x_i)_{i \in I}]$ 表示（即使$F$ 不可交换）；如果 $a$ 是 $x_i$ 之间多项式关系器的理想，则有正合序列个 $A$ 模
+令$F$为单位结合$A$代数，并令$(x_i)_{i \in I}$为$F$的元素族，它们是*成对可置换*。由 $x_i$ 和单位元生成的 $F$ 的子代数 $F'$ 是可交换的 (§ 1, no. 7)，这使得我们能够定义用 $x_i$ 代替多项式 $u \in A[(X_i)_{i \in I}]$ 中的 $X_i$（尽管$F$不一定是可交换的）：$u((x_i)_{i \in I})$是$F'$的元素，因此$F$和$h: u \to u((x_i)_{i \in I})$是$A[(X_i)_{i \in I}]$到$F$的同态。 $h$的核的元素是$A[(X_i)_{i \in I}]$族$(x_i)$的关系因子，也称为$x_i$之间的*多项式关系因子*（系数在$A$）。 同态 $h$ 的像是子代数 $F'$，也用 $A[(x_i)_{i \in I}]$ 表示（即使$F$ 不可交换）；如果 $a$ 是 $x_i$ 之间的多项式关系器的理想，则有正合序列个 $A$ 模
 $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
 
 #### 命题 8 {#alg-iii-s2-prop-8 .statement tag=05ZC}
 
-*令$A[(X_i)_{i \in I}]$为代数的多项式代数、$I$的$J$子集以及$K$$I$中$J$的补集。写 $A' = A[(X_j)_{j \in J}]$ 并用 $X'_k$ ($k \in K$) 表示多项式代数 Libasc_{A'}(K) = A'[(X'_k)_{k \in K}] 中的*不定式，则存在唯一的环同构 A'[(X'_k)_{k \in K}] 到 A[(X_i)_{i \in I}] 上，其中重合具有 A' 上的恒等式，并且映射 X'_k 到 X_k 对于所有 k \in K。
+*令$A[(X_i)_{i \in I}]$为代数的多项式代数、$I$的$J$子集以及$K$$I$中$J$的补集。写 $A' = A[(X_j)_{j \in J}]$ 并用 $X'_k$ ($k \in K$) 表示多项式代数 Libasc_{A'}(K) = A'[(X'_k)_{k \in K}] 中的*不定式，则存在唯一的环同构 A'[(X'_k)_{k \in K}] 到 A[(X_i)_{i \in I}]，其中重合具有 A' 上的恒等式，并且映射 X'_k 到 X_k 对于所有 k \in K。
 
 显然，A[(X_i)_{i \in I}] 是由 X_k 对于 k \in K 生成的 A' 代数。另一方面，作为 X_k (k \in K) 与 A' 中的系数之间的多项式关系器，可以唯一地写为 $\sum_v h_v((X_j)_{j \in J}) X^v$，其中 v 穿过 $\mathbf{N}^{(K)}$ 的有限子集，并且其中h_v 是 A[(X_j)_{j \in J}] 的元素，h_v 必须是 X_j 与 A 中的系数之间的多项式关系器，因此都是零，这证明了命题。
 
-命题 8 中描述的同构通常用于 A[(X_i)_{i \in I}] 的认同元素，其中多项式的系数为 A' = A[(X_j)_{j \in J}]。如果 u 是 A[(X_i)_{i \in I}] 的元素 $\neq 0$，则其总计次数视为 A'[(X_k)_{k \in K}] 的元素，也称为其相对于指标的 X_i 的次数我\in K。
+命题 8 中描述的同构通常用于 A[(X_i)_{i \in I}] 的认同元素，其中多项式的系数为 A' = A[(X_j)_{j \in J}]。如果 u 是 A[(X_i)_{i \in I}] 的元素 $\neq 0$，则其总次数被视为 A'[(X_k)_{k \in K}] 的元素也称为相对于 X_i 的次数指标 i \in K.
 
 #### 注 {#alg-iii-s2-n9-rem-1 .statement tag=05ZD}
 
@@ -685,14 +685,14 @@ $$
 
 ### 10. 幺半群总数代数
 
-A 上幺半群 S 的代数（如 A-模）是有限支撑族$(\alpha_s)_{s \in S}$ 的乘积 $A^S$ 由……组成子模； 乘法在此代数由关系$(\alpha_s)(\beta_s) = (\gamma_s)$定义，其中，对于所有$s \in S$，
+A 上幺半群 S 的代数（如A-模）是有限支撑的族$(\alpha_s)_{s \in S}$ 乘积 $A^S$ 由……组成子模； 乘法在此代数由关系$(\alpha_s)(\beta_s) = (\gamma_s)$定义，其中，对于所有$s \in S$，
 $$
 \gamma_s = \sum_{tu = s} \alpha_t \beta_u
 $$
 
 （cf.no. 6，公式（35））。 (38) 右侧的和是有意义的，因为$(\alpha_s)$ 和$(\beta_s)$ 是有限支撑的族，因此双 $(\alpha_t\beta_u)_{(t,u)\in S\times S}$ 也是族。但是，当幺半群$S$满足以下条件时，(38)的右侧对于$A^S$的*任意*元素$(\alpha_s),\ \beta_s)$也有意义：
 
-(D) *对于所有* $s\in S$，*仅存在一个有限的数有序对* $(t,u)$ *在* $S\times S$ *这样* $tu=s$。
+(D) *对于所有* $s\in S$，*仅存在一个有限的数有序对* $(t,u)$ *在* $S\times S$ *使得* $tu=s$。
 
 假设$S$满足条件(D)；然后可以通过公式 (38) 在乘积 A-模 $A^S$ 上定义乘法律。由此在$A^S$上定义的乘法是A-双线性的，即直接的；它也是*关联的*，因为对于 $A^S$ 中的 $\alpha,\beta,\gamma$，
 
@@ -700,17 +700,17 @@ $$
 \sum_{uvw=t} \alpha_u\beta_v\gamma_w = \sum_{rw=t} \left( \left( \sum_{uv=r} \alpha_u\beta_v \right) \gamma_w \right) = \sum_{us=t} \left( \alpha_u \left( \sum_{vw=s} \beta_v\gamma_w \right) \right).
 $$
 
-乘法和 A-模结构在 $A^S$ 上，因此定义在 $A^S$ 上，是 A 上的统一*关联代数* 结构；我们可以说，集合$A^S$加上结构，就是幺半群S在A上的*总代数*。
+乘法和 A-模结构在 $A^S$ 上，因此定义在 $A^S$ 上，是 A 上的统一*关联代数* 结构；我们可以说，集合$A^S$，再加上结构，就是幺半群S在A上的*总代数*。
 
-直接的，幺半群 S 在 A 上的 *代数* $A^{(S)}$（必要时也称为 S 的*受限代数*）是 S 在 A 上的总代数* 的 *子代数*（当 S 有限时与后者相同）。 *通过滥用语言*，S 在 A 上的总代数中的每一个元素 $(\xi_s)_{s\in S}$ 也用与 S 的受限制的代数的元素相同的记号 $\sum_{s\in S} \xi_s e_s$（甚至$\sum_{s\in S} \xi_s s$）表示；当然，这个记号对应中出现的求和符号没有代数运算，因为它一般是项$\neq 0$的*无穷大*。有了这个记号，S的总代数中的乘法也由no. 6的公式(35)给出。
+直接的，幺半群 S 在 A 上的 *代数* $A^{(S)}$（必要时也称为 S 的*受限代数*）是 S 在 A 上的总代数* 的 *子代数*（当 S 有限时与后者相同）。 *滥用语言*，A 上 S 的总代数中的每一个元素$(\xi_s)_{s\in S}$ 也用与 S 的受限代数的元素相同的记号$\sum_{s\in S} \xi_s e_s$（甚至$\sum_{s\in S} \xi_s s$）表示；当然，这个记号对应中出现的求和符号没有代数运算，因为它一般是项$\neq 0$的*无穷大*。有了这个记号，S的总代数中的乘法也由no. 6的公式(35)给出。
 
-如果 S 是可交换的，那么它的总代数 $A^S$ 也是可交换的。如果 T 是 S 的子幺半群，则幺半群的总代数 $A^T$ 被规范地识别为 S 的总代数中的子代数。如果 $\rho : A \to B$ 是环同态，则规范化扩张$\rho^S : A^S \to B^S$是A上S的总代数到B上S的总代数的A同态，其中扩展典范同态$A^{(S)} \to B^{(S)}$。
+如果 S 是可交换的，那么它的总代数 $A^S$ 也是可交换的。如果 T 是 S 的子幺半群，则幺半群的总代数 $A^T$ 规范地与 S 的总代数中的子代数一致。如果 $\rho : A \to B$ 是环同态，则规范化扩张$\rho^S : A^S \to B^S$是A上S的总代数到B上S的总代数的A同态，其中扩展典范同态$A^{(S)} \to B^{(S)}$。
 
 ### 11. 正式幂级数超过交换环
 
-对于每个集合 I，加法幺半群$N^{(I)}$满足条件 (D) of no. 10；例如，如果 I 的有限子集 H 中的 $s = (n_i)_{i\in I}$ 与 $n_i = 0$ 除指标 $i$ 之外，关系 $s = t + u$ 与 $t = (p_i)_{i\in I}$ 和 $u = (q_i)_{i\in I}$ 等价于 $p_i + q_i = n_i$对于所有$i$；但这意味着 $i \notin H$ 为 $p_i = q_i = 0$，$p_i \leq n_i, q_i \leq n_i$ 为 $i \in H$；因此，$N^{(I)}$中有$\prod_{i\in H} (n_i + 1)$有序对$(t, u)$，使得$t + u = s$。
+对于每个集合 I，加法幺半群$N^{(I)}$满足条件 (D) of no. 10；例如，如果 I 的有限子集 H 中的 $s = (n_i)_{i\in I}$ 与 $n_i = 0$ 除外指标 $i$，则关系 $s = t + u$ 与 $t = (p_i)_{i\in I}$ 和 $u = (q_i)_{i\in I}$ 等价于 $p_i + q_i = n_i$对于所有$i$；但这意味着 $i \notin H$ 为 $p_i = q_i = 0$，$p_i \leq n_i, q_i \leq n_i$ 为 $i \in H$；因此，$N^{(I)}$中有$\prod_{i\in H} (n_i + 1)$有序对$(t, u)$，使得$t + u = s$。
 
-因此，我们可以考虑幺半群$\mathbf{N}^{(I)}$超过$A$的总代数，其中包含是该幺半群的（受限）代数$A[\mathbf{X}_i]_{i \in I}$。它是不定式$X_i \ (i \in I)$中形式幂级数的单位交换结合律代数，称为代数，系数在$A$中，并用$A[[\mathbf{X}_i]]_{i \in I}$表示；它的元素在不定式$X_i \ (i \in I)$中称为形式幂级数，系数为$A$。按照no. 10中制定的惯例，这样的元素$(\alpha_v)_{v \in \mathbf{N}^{(I)}}$也表示为$\sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$； $\alpha_v$是形式幂级数的系数，$\alpha_v X^v$是项的系数；因此，$X_i$ 中的多项式是形式的幂级数，只有有限的数项 $\neq 0$。
+因此，我们可以考虑幺半群$\mathbf{N}^{(I)}$超过$A$的总代数，其中包含是该幺半群的（受限）代数$A[\mathbf{X}_i]_{i \in I}$。它是不定式$X_i \ (i \in I)$中形式幂级数的单位交换结合律代数，称为代数，系数在$A$中，并用$A[[\mathbf{X}_i]]_{i \in I}$表示；它的元素在不定式$X_i \ (i \in I)$中称为形式幂级数，系数为$A$。按照no. 10中制定的惯例，这样的元素$(\alpha_v)_{v \in \mathbf{N}^{(I)}}$也表示为$\sum_{v \in \mathbf{N}^{(I)}} \alpha_v X^v$； $\alpha_v$是形式幂级数的系数，$\alpha_v X^v$是项的系数；因此，$X_i$ 中的多项式是形式的幂级数，其中只有有限的数项 $\neq 0$。
 
 显然，代数同构$A[[\mathbf{X}_i]]_{i \in I_1} \to A[[\mathbf{X}_i]]_{i \in I_2}$规范地源自每个双射$\sigma : I_1 \to I_2$，由映射正式的幂级数$\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I_1} X_i^{n_i}$到正式的幂级数$\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I_1} X_{\sigma(i)}^{n_i}$。
 
@@ -740,4 +740,4 @@ $$
 
 ### 习题{#alg-iii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

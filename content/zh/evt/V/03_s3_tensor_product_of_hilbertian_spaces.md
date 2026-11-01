@@ -33,27 +33,27 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 2
-content_sha256: 33b4a489b2b54a15e3b2779187543f414825cfc57188f5b9637ae44ce9adf3b2
+content_sha256: e8c42e0b242523ea1b361b91788f8d132b05758bd36e012aa54976e5c3d290d4
 translated_from: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
 translation_method: google
 source_content_sha256: 02cb54c6e38040afaaa4704bd9864f0e39ab141fc23dcd61afa7b042aa7a7e87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 58615ec435dee82523f31c7e633bfdc68359bc99c9e220c8c188ee4be2d0659d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 张量积希尔伯特空间
 
-### 1. 前希尔伯特空间的张量积
+### 1. 前希尔伯特张量积空间
 
 令$E_1$和$E_2$为两个前希尔伯特空间，并令$F = E_1 \otimes E_2$为向量空间$E_1$和$E_2$的张量积。设$x_1 \in E_1$和$x_2 \in E_2$；由于从$E_1 \times E_2$到K的映射$(y_1, y_2) \mapsto \langle x_1 | y_1 \rangle \langle x_2 | y_2 \rangle$是双线性的，因此在$E_1 \otimes E_2$上存在线性形式$\phi_{x_1, x_2}$使得
 $$
 \phi_{x_1, x_2}(y_1 \otimes y_2) = \langle x_1 | y_1 \rangle \langle x_2 | y_2 \rangle
 $$
-对于 $y_1 \in E_1$ 和 $y_2 \in E_2$。让$z \in F$。从$E_1 \times E_2$到K的映射$(x_1, x_2) \mapsto \overline{\phi_{x_1, x_2}(z)}$是双线性的；这可以通过将形式$z = \sum_{i=1}^n y_{i,1} \otimes y_{i,2}$中的$z$与$y_{i,1} \in E_1$和$y_{i,2} \in E_2$写成$1 \leq i \leq n$来看到。那么$F = E_1 \otimes E_2$上存在线性形式$\psi_z$使得
+对于 $y_1 \in E_1$ 和 $y_2 \in E_2$。让$z \in F$。从$E_1 \times E_2$到K的映射$(x_1, x_2) \mapsto \overline{\phi_{x_1, x_2}(z)}$是双线性的；这可以通过在形式$z = \sum_{i=1}^n y_{i,1} \otimes y_{i,2}$中写$z$、$y_{i,1} \in E_1$和$y_{i,2} \in E_2$为$1 \leq i \leq n$来看到。那么$F = E_1 \otimes E_2$上存在线性形式$\psi_z$使得
 $$
 \psi_z(x_1 \otimes x_2) = \overline{\phi_{x_1, x_2}(z)} \quad (x_1 \in E_1, x_2 \in E_2).
 $$
@@ -159,16 +159,16 @@ p_\sigma(x_1 \otimes ... \otimes x_n) = x_{\sigma^{-1}(1)} \otimes ... \otimes x
 $$
 是前希尔伯特空间同构（“交换律 of 张量积”）。
 
-类似地，将$\{1, 2, ..., n\}$的划分考虑为$m$连续间隔$I_1, ..., I_n$，其中$I_k = [a_k, a_{k+1} - 1]$为$1 \leq k \leq m$。放
+同样，将 $\{1, 2, ..., n\}$ 的划分考虑为 $m$ 连续间隔 $I_1, ..., I_n$，将 $I_k = [a_k, a_{k+1} - 1]$ 视为 $1 \leq k \leq m$。放
 $$
 F_k = \bigotimes_{i=a_k}^{a_{k+1}-1} E_i \quad (1 \leq k \leq m).
 $$
 
 $^1$ 这里我们再次将 $\|z\|_2 = \langle z|z \rangle^{1/2}$ 对应于 $z$ 放入 $E_1 \otimes_2 ... \otimes_2 E_n$ 中。
 
-典范同构从$F_1 \otimes ... \otimes F_m$到$E_1 \otimes ... \otimes E_n$，其中变换$\bigotimes_{k=1}^{m} \bigotimes_{i=a_k}^{a_{k+1}-1} x_i$到$x_1 \otimes ... \otimes x_n$（A，II, § 3, No. 9）是前希尔伯特空间同构（张量积的结合性） »）。
+典范同构从 $F_1 \otimes ... \otimes F_m$ 到 $E_1 \otimes ... \otimes E_n$，其中变换 $\bigotimes_{k=1}^{m} \bigotimes_{i=a_k}^{a_{k+1}-1} x_i$ 到 $x_1 \otimes ... \otimes x_n$ (A, II, § 3, No. 9) 是前希尔伯特空间同构 (结合性 of 张量积) »）。
 
-### 2. 希尔伯特张量积或 希尔伯特空间
+### 2. 希尔伯特空间的希尔伯特张量积
 
 #### 定义 1 {#evt-v-s3-def-1 .statement tag=080D}
 
@@ -218,15 +218,15 @@ $$
 
 #### 例 1 {#evt-v-s3-n2-exa-1 .statement tag=080I}
 
-由科。 1, 空间 $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ is canonically isomorphic to $\ell^2(I \times J)$, 张量积 $x \otimes y$ of $x = (x_i)_{i \in I}$ and $y = (y_j)_{j \in J}$ can be identified with the family $(x_i y_j)_{i \in I, j \in J}$.同样，通过cor。 2、$\ell^2(I) \hat{\otimes}_2 E$可以与$\ell^2_E(I)$等价，这样在希尔伯特空间$E$中，每一个$y$就有$(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$。
+由科。 1、空间$\ell^2(I) \hat{\otimes}_2 \ell^2(J)$与$\ell^2(I \times J)$自然同构，$x = (x_i)_{i \in I}$和$y = (y_j)_{j \in J}$的张量积$x \otimes y$可以与$(x_i y_j)_{i \in I, j \in J}$族识别。同样，通过cor。 2、$\ell^2(I) \hat{\otimes}_2 E$可以与$\ell^2_E(I)$等价，这样在希尔伯特空间$E$中，每一个$y$就有$(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$。
 
 #### 例 2 {#evt-v-s3-n2-exa-2 .statement tag=080J}
 
-\* 令$X$为豪斯多夫拓扑空间，且$\mu$为$X$的正测度。令 $E$ 为希尔伯特空间。 We 可以确定 $L^2(X, \mu) \hat{\otimes}_2 E$ with $L^2_E(X, \mu)$ in a canonical way : if $f$ is 类 of 平方 integrable scalar 函数 $f$ on $X$, and if $a$ 属于到 $E$，则 $f \otimes a$ 是函数 $x \mapsto f(x).a$ 中的类，其中值在 $E$ 中。
+\* 令$X$为Hausdorff拓扑空间，且$\mu$为$X$的正测度。令 $E$ 为希尔伯特空间。我们以规范的方式将可以确定$L^2(X, \mu) \hat{\otimes}_2 E$与$L^2_E(X, \mu)$进行计算：如果$f$是$X$上平方可积标量函数$f$的类，并且如果$a$ 属于到 $E$，则 $f \otimes a$ 是函数 $x \mapsto f(x).a$ 中的类，值位于 $E$ 中。
 
 令$Y$为Hausdorff拓扑空间，且$\nu$为$Y$的正测度。以类似的方式，我们可以确定希尔伯特空间$L^2(X, \mu) \hat{\otimes}_2 L^2(Y, \nu)$和$L^2(X \times Y, \mu \otimes \nu)$；那么$f \otimes g$可以在$X \times Y$上与函数$(x, y) \mapsto f(x)g(y)$的类进行识别。 \*
 
-### 3.对称希尔伯特幂
+### 3. 对称希尔伯特幂
 
 令$E$为希尔伯特空间，令$n$为正整数。让$\hat{T}^n(E)$或$E^{\hat{\otimes} n}$表示$n$希尔伯特空间的张量积，每个都等于$E$。在其他字中，$\hat{T}^n(E)$ 是 Hausdorff prehilbertian 空间结构定义的空间 $T^n(E) = E \otimes \ldots \otimes E$ ($n$ 因子) 的完成
 
@@ -389,13 +389,13 @@ $$
 \end{align*}
 $$
 
-那么存在一个*同构* $\phi$ *从* $\hat{S}(E)$ *到* $L^2_R(X, \mu)$的希尔伯特子空间，其中变换乘积 $f_1 ... f_n$ of $f_1, ..., f_n$，在$\hat{S}(E)$中计算， $(:f_1 ... f_n:)$。假设X是苏斯林空间，并且存在函数的可数族$(f_n)$，其类属于到E并且将点与X分开。那么$\phi$就是从$\hat{S}(E)$到$L^2_R(X, \mu)$的同构。 \*
+然后存在一个*同构* $\phi$ *从* $\hat{S}(E)$ *到* $L^2_R(X, \mu)$的希尔伯特子空间，其中$f_1, ..., f_n$的变换乘积$f_1 ... f_n$，在$\hat{S}(E)$中计算， $(:f_1 ... f_n:)$。假设X是苏斯林空间，并且存在函数的可数族$(f_n)$，其类属于到E并且将点与X分开。那么$\phi$就是从$\hat{S}(E)$到$L^2_R(X, \mu)$的同构。 \*
 
 ### 4. 外部希尔伯特幂
 
 令 E 为希尔伯特空间和 $n$ 正整数。对于每个置换$\sigma \in \mathfrak{S}_n$，让$\varepsilon_\sigma$表示其签名；将$a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$放入$\mathscr{L}(\hat{T}^n(E))$（V，p. 29）。
 
-$a_n$是正射投影仪，直接的，其像$\overline{\mathbf{A}'_n}(E)$是阶$n$的所有反对称张量的空间$\mathbf{A}'_n(E)$在$\hat{T}^n(E)$的闭包（A， III, § 7, No. 4）。从$\Lambda^n(E)$到$\mathbf{A}'_n(E)$存在同构$\pi_n$，其特征为
+$a_n$是正射投影仪，直接的，其像$\overline{\mathbf{A}'_n}(E)$是阶$n$的所有反对称张量在空间$\mathbf{A}'_n(E)$在$\hat{T}^n(E)$的闭包（A， III, § 7, No. 4）。从$\Lambda^n(E)$到$\mathbf{A}'_n(E)$存在同构$\pi_n$，其特征为
 $$
 (24)\quad \pi_n(x_1 \wedge ... \wedge x_n) = a_n(x_1 \otimes ... \otimes x_n) = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma x_{\sigma(1)} \otimes ... \otimes x_{\sigma(n)}
 $$
@@ -409,11 +409,11 @@ $$
 $$
 对于 E 中的所有 $x_1, ..., x_n$ 和 $y_1, ..., y_n$。
 
-让$\hat{\Lambda}^n(E)$表示前希尔伯特空间$\Lambda^n(E)$的完成，$\hat{\Lambda}(E)$表示希尔伯特空间$\hat{\Lambda}^n(E)$的外部希尔伯特和。
+令$\hat{\Lambda}^n(E)$表示前希尔伯特空间$\Lambda^n(E)$的完成，$\hat{\Lambda}(E)$表示希尔伯特空间$\hat{\Lambda}^n(E)$的外部希尔伯特和。
 
 #### 例 {#evt-v-s3-n4-exa-1 .statement tag=080O}
 
-— *用 V、p. 32 例 1 记号，我们可测量所有序列 $(f_n)_{n \geq 0}$ 的可以确定希尔伯空间 $\hat{\Lambda}(E)$ 和集合函数，其中（22）中定义的*数$\|f\|$是有限的，并且其中每个函数$f_n$是*反对称*，即满足关系
+— *用V、p. 32的例 1 记号，我们可测量所有序列$(f_n)_{n \geq 0}$的可以确定希尔伯空间$\hat{\Lambda}(E)$和集合函数，其中（22）中定义的*数$\|f\|$是有限的，并且其中每个函数$f_n$是*反对称*，即满足关系
 
 $$
 f_n(x_{\sigma(1)}, ..., x_{\sigma(n)}) = \varepsilon_\sigma f_n(x_1, ..., x_n)
@@ -453,7 +453,7 @@ $$
 \psi_n(x_1 \wedge ... \wedge x_n) = \frac{1}{(n!)^{1/2}} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma x_{\sigma(1)} \otimes ... \otimes x_{\sigma(n)} . \tag{30}
 $$
 
-### 5.外观乘法
+### 5. 外观乘法
 
 Let E be a hilbertian 空间. For every 整数 $n \geqslant 0$, let $\theta_n$ be 典范映射 from $T^n(E)$ onto $\Lambda^n(E)$;然后
 
@@ -548,7 +548,7 @@ $$
 \sum_{i,j=1}^n a_{ij} \overline{z}_i z_j \geq 0
 $$
 
-holds for all 复数 $z_1, ..., z_n$.然后
+对于所有复数 $z_1, ..., z_n$ 都成立。然后
 
 $$
 0 \leq D \leq a_{11} ... a_{nn}.
@@ -556,21 +556,21 @@ $$
 
 假设 D 非空； 等式$D = a_{11} ... a_{nn}$成立当且仅当$a_{ij} = 0$对于所有$i \neq j$成立。
 
-令 $\Phi$ 为厄米特形式在向量空间 $\mathbf{C}^n$ 上，由下式给出
+令 $\Phi$ 为向量空间 $\mathbf{C}^n$ 上的厄米特形式，由下式给出
 
 $$
 \Phi(\mathbf{z}, \mathbf{z}') = \sum_{i,j=1}^n a_{ij} \overline{z}_i z'_j
 $$
 
-for $\mathbf{z} = (z_1, ..., z_n)$ and $\mathbf{z}' = (z'_1, ..., z'_n)$ in $\mathbf{C}^n$. By 假设, $\Phi$ is positive.
+对于$\mathbf{C}^n$中的$\mathbf{z} = (z_1, ..., z_n)$和$\mathbf{z}' = (z'_1, ..., z'_n)$。到假设时，$\Phi$为正。
 
-首先假设$\Phi$是分离的，即D非空。如果$(e_1, ..., e_n)$是$\mathbf{C}^n$的典范基，我们有$\Phi(e_i, e_j) = a_{ij}$，并且cor。 2 follows immediately from cor. 1, a) by putting $x_i = e_i$.
+首先假设$\Phi$是分离的，即D非空。如果$(e_1, ..., e_n)$是$\mathbf{C}^n$的典范基，我们有$\Phi(e_i, e_j) = a_{ij}$，并且cor。 2 紧随 cor.2 之后。 1, a) 通过放入 $x_i = e_i$。
 
 从 $a_{ii} = \Phi(e_i, e_i) \geq 0$ 开始，如果 $D = 0$，我们还有不等式 (40)。
 
 #### 推论 3（《哈达玛不等式》）{#evt-v-s3-prop-6-cor-3 .statement tag=080U}
 
-— 设 $(a_{ij})_{1 \leq i, j \leq n}$ 为矩阵，具有复数元素，且行列式 D。
+— 设 $(a_{ij})_{1 \leq i, j \leq n}$ 为矩阵，且具有复数元素，且行列式为 D。
 
 $$
 c_i = \left( \sum_{j=1}^n |a_{ij}|^2 \right)^{1/2} \quad \text{for} \quad 1 \leq i \leq n,
@@ -590,8 +590,8 @@ $$
 \langle \mathbf{z}|\mathbf{z}' \rangle = \sum_{i=1}^n \overline{z}_i z'_i.
 $$
 
-令$(\mathbf{x}_1, ..., \mathbf{x}_n)$为$\mathbf{C}^n$和$\mathbf{y}_i$向量的典范基，其中$a_{ij}$为$1 \leq j \leq n$。 We have $\| \mathbf{x}_i \| = 1$ and $\| \mathbf{y}_i \| = c_i$ for $1 \leq i \leq n$;还有$\langle \mathbf{x}_i|\mathbf{y}_j \rangle = a_{ji}$。 不等式$|D| \leq c_1 ... c_n$和等式的条件则为V、p. 35的特例。 1. Obviously we have $c_i \leq m \cdot n^{1/2}$, hence $c_1 ... c_n \leq m^n \cdot n^{n/2}$.
+令$(\mathbf{x}_1, ..., \mathbf{x}_n)$为$\mathbf{C}^n$和$\mathbf{y}_i$向量的典范基，其中$a_{ij}$为$1 \leq j \leq n$。 $1 \leq i \leq n$我们有$\| \mathbf{x}_i \| = 1$和$\| \mathbf{y}_i \| = c_i$；还有$\langle \mathbf{x}_i|\mathbf{y}_j \rangle = a_{ji}$。 不等式$|D| \leq c_1 ... c_n$和等式的条件则为V、p. 35的特例。 1. 显然我们有$c_i \leq m \cdot n^{1/2}$，因此有$c_1 ... c_n \leq m^n \cdot n^{n/2}$。
 
 ### 习题 {#evt-v-s3-exercises}
 
-See the [习题 for § 3](exercises/s3/).
+参见[习题为 § 3](exercises/s3/)。

@@ -21,16 +21,16 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: a212010e3a33f945bb4ce710ecf43f903673dee7f5d8cad5789233f71ec52a26
+content_sha256: 274fb4ff5a76e4d4602dba6688f1a3bc0c004eb614fc5d783e6e911c57fb17e9
 translated_from: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 02f42b389f24a36ddcc58d04da30cbfa4dd5961e3192d18701403d3e92f17929
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f0115d05fb445224cb5e3cd4373f07c004ca2522a1e2fc5ef92666b94ea3d118
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
@@ -80,9 +80,9 @@ $$
 
 #### 推论 {#int-vi-a0-n1-cor-1 .statement tag=09CT}
 
-*如果$\Phi$是$E \times F$上的连续双线性形式，则${}^l \Phi$是$E$的连续线性映射进入$F$的强对偶$F'_b$。此外，如果 $E$ 和 $F$ 被标准化为空间，则 $\|{}^l \Phi\| = \|\Phi\|$。*
+*如果$\Phi$是$E \times F$上的连续双线性形式，则${}^l \Phi$是$E$的连续线性映射进入$F$的强对偶$F'_b$。此外，如果 $E$ 和 $F$ 被范化为空间，则 $\|{}^l \Phi\| = \|\Phi\|$。*
 
-第一个断言由命题 1 得出，事实上$F'_b$ 中 0 的每个邻域都吸收了 $F'$ 的每个等连续子集。如果 $E$ 和 $F$ 被标准化，那么
+第一个断言由命题 1 得出，事实上$F'_b$ 中 0 的每个邻域都吸收了$F'$ 的每个等连续子集。如果 $E$ 和 $F$ 被标准化，那么
 
 $$
 \|\Phi\| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| = \sup_{\|x\| \leq 1} \left( \sup_{\|y\| \leq 1} |\langle l \Phi(x), y \rangle| \right)
@@ -99,7 +99,7 @@ $$
 
 #### 命题 2 {#int-vi-a0-prop-2 .statement tag=09CU}
 
-— 令 E 为向量空间，$(F_\alpha)_{\alpha \in A}$ 具有性质 (GDF) 的局部紧致空间族，对于每个$\alpha \in A$，令 $h_\alpha$ 为 E 中 $F_\alpha$ 的线性映射。如果 E 配备有最精细的局部凸拓扑，则使得$h_\alpha$连续，则 E 有性质 (GDF)。
+— 令 E 为向量空间，$(F_\alpha)_{\alpha \in A}$ 具有性质 (GDF) 的局部紧凑空间族，对于每个$\alpha \in A$，令 $h_\alpha$ 为 E 中 $F_\alpha$ 的线性映射。如果 E 配备有最精细的局部凸拓扑，则使得$h_\alpha$连续，则 E 有性质 (GDF)。
 
 令E的$u$为Banach空间B中的线性映射，使得$u$的图$\Gamma$的点的每个收敛序列的$E \times B$中的每个极限也为属于 $\Gamma$。足以证明，对于每个$\alpha \in A$，$u \circ h_\alpha$在$F_\alpha$上连续（TVS，II, §4, No. 4，命题5）。现在，令$(x_n)$为$F_\alpha$的元素的序列，具有极限$a$，并且序列$\left(u(h_\alpha(x_n))\right)$具有极限$b \in B$。由于$h_\alpha$是连续的，$h_\alpha(a)$是E中序列$(h_\alpha(x_n))$的极限；因此，通过假设 $b = u(h_\alpha(a))$，并且由于 $F_\alpha$ 有性质 (GDF)，$u \circ h_\alpha$ 是连续的。
 

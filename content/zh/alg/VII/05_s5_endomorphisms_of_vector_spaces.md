@@ -50,21 +50,21 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 8c508798ac4f8b06feb4117c0d6197c3d6bc8982c5d559e788dde3fe79219861
+content_sha256: 16d70c8e43a530acd88980d634caacfd61e2e40e9549a5b78c5edc8dc64ccd9b
 translated_from: content/en/alg/VII/05_s5_endomorphisms_of_vector_spaces.md
 translation_method: google
 source_content_sha256: b9e185d13ebac7827bb1a35037e89aed5a271cfe0bbc0b2b0fb72b7a265e5960
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: dc66771315ab163c8a55f75e2d39559ef22a02f9fd9f78bce1a18045bcf5e004
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 自同态 / 向量空间
 
-记号。 — 给定$M$的模$M$、元素$x$，以及$M$的两个自同态$u$和$v$，我们将写成$u.x$、$uv.x$和$uv$来代替分别为$u(x)$、$(u \circ v)(x)$和$u \circ v$；当不会引起混淆时，我们将用 1 来表示从 $M$ 到自身的恒等式映射。
+记号。 — 给定 $M$ 的模 $M$、元素 $x$，以及 $M$ 的两个自同态 $u$ 和 $v$，我们将写 $u.x$、$uv.x$ 和 $uv$ 来代替分别为$u(x)$、$(u \circ v)(x)$和$u \circ v$；当不会引起混淆时，我们将用 1 来表示从 $M$ 到自身的恒等式映射。
 
 ### 1. 模与自同态关联
 
@@ -253,19 +253,19 @@ $$
 
 这立即来自Cor。 2.
 
-现在让我们重写VII、p. 24的第9号命题，它将模的分解作为不可分解的子模的直和。
+现在让我们重写VII、p. 24的第9条命题，它将模的分解给出为不可分解的子模的直和。
 
 #### 命题 6 {#alg-vii-s5-prop-6 .statement tag=075V}
 
-— 令$E$为有限维$n$之向量空间超过交换域$K$，并令$u$为$E$之自同态。那么$E$是子空间$E_k$的直和，在$u$下闭集并且相对于$u$循环，使得$u$到$E_k$的限制的最小多项式有形式 $p_k^{n(k)}$，其中$p_k$是不可约多项式，$E_k$不能表示为两个非零的子空间的直和，每个非零的子空间在$u$下闭合。对于任何这样的分解中的子空间$E_k$的每个单调不可约多项式$p \in K[X]$和每个整数$n \geq 1$、数$m(p^n)$，使得$p^n$是限制的最小多项式$u$到$E_k$，是唯一确定的。
+— 令$E$为有限维$n$之向量空间超过交换域$K$，并令$u$为$E$之自同态。那么$E$是子空间$E_k$的直和，在$u$下闭集并且相对于$u$循环，使得$u$到$E_k$的限制的最小多项式有形式 $p_k^{n(k)}$，其中$p_k$是不可约多项式，$E_k$不能表示为两个非零的子空间的直和，每个非零的子空间在$u$下闭合。对于任何此类分解中的子空间 $E_k$ 的每个单调不可约多项式 $p \in K[X]$ 和每个整数 $n \geq 1$、数 $m(p^n)$，使得 $p^n$ 是限制的最小多项式$u$到$E_k$，是唯一确定的。
 
-$p_k^{n(k)}$ 确定 $u$ 的相似不变量，反之亦然；我们可以通过VII，p. 25，注2和3中解释的过程从一个到另一个。此外，我们可以立即从第6条中考虑的分解到第3和4条中考虑的。
+$p_k^{n(k)}$ 确定 $u$ 的相似不变量，反之亦然；我们可以通过VII，p. 25，注2和3中解释的过程从一个到另一个。此外，我们可以立即从第6条中考虑的分解到第3和4条中考虑的那些。
 
 注 $p \in K[X]$ 使得 $m(p^n) > 0$ 对于某些整数 $n \geq 1$ 恰好是 $u$ 的最小多项式的因子。因此，与相似不变量相比，这些多项式通常取决于我们正在研究的域 $K$。
 
-### 4.可三角形化自同态
+### 4. 可三角形自同态
 
-在这个截面中，我们将对$u$分裂的的最小多项式$p(X)$进入$K[X]$中线性因子的乘积的情况感兴趣，在其他字（VII，p. 33，Cor. 2) $u$属于至$K$中所有特征值的情况。当 $K$ 是代数闭时，这一点尤其成立。 VII、p. 31 的第 3 条命题立即给出：
+在这个截面中，我们将感兴趣的是$u$分裂的的最小多项式$p(X)$到$K[X]$中线性因子的乘积，在其他字（VII，p. 33，Cor. 2) $u$属于至$K$中所有特征值的情况。当 $K$ 是代数闭时，这一点尤其成立。 VII、p. 31 的第 3 条命题立即给出：
 
 #### 命题 7 {#alg-vii-s5-prop-7 .statement tag=075W}
 
@@ -351,15 +351,15 @@ $$
 
 #### 命题 9 {#alg-vii-s5-prop-9 .statement tag=0762}
 
-— *如果平方矩阵 $U$ 类似于约旦矩阵 $(U_{m_i, \alpha_i})$的对角线块，那么$U$的最小多项式就是$(X - \alpha_i)^{m_i}$的lcm，特征多项式就是乘积的乘积 $(X - a_i)'''$.*
+— *如果平方矩阵 $U$ 类似于Jordan 矩阵 $(U_{m_i, \alpha_i})$的对角线块，那么$U$的最小多项式就是$(X - \alpha_i)^{m_i}$的lcm，特征多项式就是乘积的乘积 $(X - a_i)'''$.*
 
 #### 推论{#alg-vii-s5-n4-cor-2 .statement tag=0763}
 
 — *在第7条的记号中，子空间$M_\alpha$的维数是特征值$\alpha$的重数作为$u$的特征多项式的根。*
 
-### 5.特征多项式的性质：迹和行列式
+### 5. 特征多项式的性质：迹和行列式
 
-令E为有限维$n$在交换域K上的向量空间，并令$u$为E的自同态。由III，p. 541，$u$的特征多项式有形式：
+令E为交换域K上有限维$n$的向量空间，并令$u$为E的自同态。由III，p. 541，$u$的特征多项式有形式：
 
 (5)
 $$
@@ -368,7 +368,7 @@ $$
 
 #### 命题 10 {#alg-vii-s5-prop-10 .statement tag=0764}
 
-— *令$E$为有限维$n$的向量空间超过交换域$K$，令$u$为$E$的自同态，令$\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$为分解为线性其特征多项式的因子（在$K$，cf.V，p. 21的合适扩张）。如果 $q$ 是系数为 $K$ 的多项式，则 $q(u)$ 的特征多项式由下式给出：
+— *令$E$为有限维$n$的向量空间超过交换域$K$，令$u$为$E$的自同态，令$\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$为分解为线性其特征多项式的因子（$K$，cf.V，p. 21的合适扩张）。如果 $q$ 是系数为 $K$ 的多项式，则 $q(u)$ 的特征多项式由下式给出：
 
 (6)
 $$
@@ -384,13 +384,13 @@ $$
 \det(q(u)) = \prod_{i=1}^n q(\alpha_i).
 $$
 
-显然，根据（5）可以从（6）推导出（7）和（8）。为了证明公式 (6)，我们可以假设 K 是代数封闭的。然后我们对 E 取基，相对于 $u$ 的矩阵 $U$ 是下三角（$VII$，p. 35，对应命题 8）；我们将利用以下简单的引理：
+显然，根据（5）可以从（6）推导出（7）和（8）。为了证明公式 (6)，我们可以假设 K 是代数封闭的。然后我们取基作为E，相对于$u$的矩阵$U$是下三角（$VII$，p. 35，对应命题8）；我们将利用以下简单的引理：
 
 #### 引理 1 {#alg-vii-s5-lem-1 .statement tag=0765}
 
-*如果B和C是阶n的下三角形矩阵，对角线为$(\beta_i)$和$(\gamma_i)$，则矩阵$B + C$和$BC$是对角线$(\beta_i + \gamma_i)$和$(\beta_i \gamma_i)$.*
+*如果B和C是阶n的下三角形矩阵，对角线为$(\beta_i)$和$(\gamma_i)$，则矩阵$B + C$和$BC$是对角线为$(\beta_i + \gamma_i)$和$(\beta_i \gamma_i)$.*
 
-由于$u$的矩阵$U$是对角线为$(\alpha_i)$的下三角形，因此从引理1可以得出$q(U)$是对角线为$(q(\alpha_i))$的下三角形矩阵。那么$X . I, -q(U)$是一个对角线为$(X - q(a;))$的下三角形矩阵，这就证明了(6)。
+由于$u$的矩阵$U$是对角线$(\alpha_i)$的下三角形，因此从引理1可以得出$q(U)$是对角线$(q(\alpha_i))$的下三角形矩阵。那么$X . I, -q(U)$是一个对角线为$(X - q(a;))$的下三角形矩阵，这就证明了(6)。
 
 #### 推论 1 {#alg-vii-s5-lem-1-cor-1 .statement tag=0766}
 
@@ -404,7 +404,7 @@ $$
 
 #### 推论 2 {#alg-vii-s5-lem-1-cor-2 .statement tag=0768}
 
-*设$r \in K(X)$是K上的有理数函数。那么$u$在$r$中是可替换的（IV，p. 21）当且仅当它的每个特征值是。在这种情况下，以下公式成立：*
+*设$r \in K(X)$是K上的有理数函数。则$u$在$r$中可替换（IV，p. 21）当且仅当其每个特征值是。在这种情况下，以下公式成立：*
 
 $$
 \chi_{r(u)}(X) = \prod_{i=1}^n (X - r(\alpha_i)), \quad \operatorname{Tr}(r(u)) = \sum_{i=1}^n r(\alpha_i), \quad \det(r(u)) = \prod_{i=1}^n r(\alpha_i).
@@ -488,7 +488,7 @@ $$
 
 此外，$D \cdot 'D$的第$(i, j)$条目是$\sum_k \alpha_k^{i+j-2} = \operatorname{Tr}(u^{i+j-2})$，推论如下。
 
-### 6.两个自同态的张量积特征多项式
+### 6. 两个自同态的张量积特征多项式
 
 #### 命题 11 {#alg-vii-s5-prop-11 .statement tag=076F}
 
@@ -565,7 +565,7 @@ $$
 
 — 和以及 E 的两个对角可对角化自同态的复合是可对角化的。
 
-### 8. 半单并且绝对半单自同态
+### 8. 半单绝对半单自同态
 
 #### 定义 6 {#alg-vii-s5-def-6 .statement tag=076N}
 
@@ -613,11 +613,11 @@ $$
 
 (i) *存在 K 的扩张 L，使得 $\mathfrak{F}_{(l.)}$ 可对角化。*
 
-(ii) *K-代数* $A$ *是 étale*（V，p. 28，默认 1）。
+(ii) *K-代数* $A$ *是étale*（V，p. 28，默认1）。
 
 (iii)*$\mathfrak{F}$*中的*元素*绝对是半单，并且与一个另一个*通勤。
 
-注首先，对于$K$的每个扩张$L$，由$\mathfrak{F}_{(L)}$和$\mathrm{Id}_{E_{(L)}}$重合与$L \otimes_K A$生成的$L$代数；因此，根据命题 13，$\mathfrak{F}_{(L)}$ 是可对角化的，当且仅当 $L$-代数 $L \otimes_K A$ 是可对角化的。因此，条件 (i) 和 (ii) 的等价是从 V、p. 28、Def 得出的。 1. 另一方面，(i) $\Rightarrow$ (iii) 是直接的。最后假设(iii)成立，令$L$为$K$的代数闭包；那么 $\mathfrak{F}_{(L)}$ 中的元素是可对角化的（VII、p. 40，命题 12）并且可以与 1 个另一个进行通勤；因此 $\mathfrak{F}_{(L)}$ 可以通过 VII、p. 41、命题 13 对角化。
+注首先，对于$K$的每个扩张$L$，由$\mathfrak{F}_{(L)}$和$\mathrm{Id}_{E_{(L)}}$重合与$L \otimes_K A$生成的$L$代数；因此，根据命题 13，$\mathfrak{F}_{(L)}$ 是可对角化的，当且仅当 $L$-代数 $L \otimes_K A$ 是可对角化的。因此，条件 (i) 和 (ii) 的等价是从 V、p. 28、Def 得出的。 1. 另一方面，(i) $\Rightarrow$ (iii) 是直接的。最后假设(iii)成立，令$L$为$K$的代数闭包；那么 $\mathfrak{F}_{(L)}$ 中的元素是可对角化的（VII、p. 40，命题 12）并且可以与 1 个另一个通勤；因此 $\mathfrak{F}_{(L)}$ 可以通过 VII、p. 41、命题 13 对角化。
 
 #### 推论{#alg-vii-s5-n8-cor-3 .statement tag=076U}
 
@@ -627,11 +627,11 @@ $$
 
 — 假设满足第16条命题的条件，并令$L$为$K$的扩张。根据命题 13，当且仅当代数 $L \otimes_K A$ 可对角化时，集合 $\mathfrak{F}_{(L)}$ 可对角化。根据V、p. 30、命题 2，存在 $K$ 的有限扩张 $L$，使得 $\mathfrak{F}_{(L)}$ 可对角化。事实上 $L$ 可以被视为 *Galois*；事实上，取$\mathfrak{F}$的有限子集$\mathfrak{F}'$，其中生成$A$，对于$\mathfrak{F}'$的元素的最小多项式，我们可以取$L$为分裂域（命题12和13）。
 
-### 9.乔丹分解
+### 9. 乔丹分解
 
 #### 定义 8 {#alg-vii-s5-def-8 .statement tag=076W}
 
-*令$E$为交换域上的有限维向量空间，并令$u$为$E$的自同态。那么 $u$ 的 Jordan 分解就是对* $(u_s, u_n)$，*其中 $u_s$ 是 $E$ 的半单自同态，$u_n$ 是幂零自同态 $E$，这样*$u_s u_n = u_n u_s$*和*$u = u_s + u_n$。
+*令$E$为交换域上的有限维向量空间，令$u$为$E$的自同态。那么 $u$ 的 Jordan 分解就是对* $(u_s, u_n)$，*其中 $u_s$ 是 $E$ 的半单自同态，$u_n$ 是幂零自同态 $E$，这样*$u_s u_n = u_n u_s$*和*$u = u_s + u_n$。
 
 #### 定理 1 {#alg-vii-s5-thm-1 .statement tag=076X}
 
@@ -686,8 +686,8 @@ $$
 
 #### 注 2 {#alg-vii-s5-n9-rem-2 .statement tag=0774}
 
-$u$ 可三角化的必要且充分的条件是 $u$ 具有可对角化的 Jordan 分解，且 $u_s$ 可对角化。 Then there exists a basis of E with respect to which the matrix of $u$ is lower triangular, and that of $u_s$ is diagonal, with the same diagonal as the matrix of $u$ (cf. 引理 4 和下文第 19 条提案）。
-注然而，如果 $u$ 的矩阵相对于某个基是三角形的，那么通常并不意味着 $u_s$ 的矩阵相对于相同的基是对角线。
+$u$ 可三角化的必要且充分的条件是 $u$ 具有可对角化的 Jordan 分解，且 $u_s$ 可对角化。 Then there exists a basis of E with respect to which the matrix of $u$ is lower triangular, and that of $u_s$ is diagonal, with the same diagonal as the matrix of $u$ (cf. Lemma 4 and Prop. 19 below).
+Note however that if the matrix of $u$ with respect to some basis is triangular, it does not in general follow that the matrix of $u_s$ with respect to the same basis is diagonal.
 
 #### 注 3 {#alg-vii-s5-n9-rem-3 .statement tag=0775}
 
@@ -744,7 +744,7 @@ $$
 
 由科. $\mathfrak{T}$ 元素的绝对半单分量中的 VII、p. 4.5、集合 $\mathfrak{T}_s$ 中的 3 个由可对角化的元素组成，它与 1 个另一个交换，因此是可对角化的（VII，p. 41，第 13 条命题），$\mathscr{S}$ 元素幂零分量的集合 $\mathfrak{T}_n$ 由幂零元组成，幂零元可与一个另一个交换，$\mathfrak{T}_n$ 的每个元素每元素 $\mathfrak{T}_s$ 通勤。根据第 13 条命题的证明（VII，p. 41），我们发现存在 E 的分解作为子空间 $E_i$ 的直和，它们在 $\mathfrak{T}_s$ 和 $\mathfrak{T}_n$ 下是不变的，因此$\mathscr{S}$的每个元素中的限制，对于每个$E$，是位似。 替换 $E$ 除以$E$，反过来，我们可以假设 $\mathscr{S}$ 的元素是同位；足以证明存在E的基，相对于$\mathfrak{T}_n$的元素，由对角线为零的下三角形矩阵表示；因此，我们被简化为 $\mathscr{S}$ 由幂零元组成的情况。
 
-现在假设$E \neq 0$，并令F为$E$的非零的子空间，在$\mathfrak{T}$下不变，最小为维数。那么对于每个$u \in \mathfrak{T}$，$u$到F的限制核为非零的且在$\mathfrak{T}$下不变（VII，p. 41，引理3）；通过 $u$ 的 F 限制到 F 的选择，因此对于所有 $u \in \mathfrak{T}$ 来说是零。令 $x \in F,\ x \neq 0$；那么 $u(x) = 0$ 对于所有 $u \in \mathscr{S}$；通过归纳对E的维数进行论证，我们可以假设存在商$E' = E/Kx$的基$(\bar{e}_1, ..., \bar{e}_{n-1})$，这样，对于所有$u \in \mathfrak{T}$，$E'$的自同态$\bar{u}$由$u$ 相对于基有矩阵，基是对角线为零的下三角形；如果$e_i \in E$投影到a上，对于$i = 1, ..., n-1$，则基$(e_1, ..., e_{n-1}, x)$满足所需的条件。
+现在假设$E \neq 0$，并令F为$E$的非零的子空间，在$\mathfrak{T}$下不变，最小为维数。那么对于每个$u \in \mathfrak{T}$，$u$到F的限制核为非零的且在$\mathfrak{T}$下不变（VII，p. 41，引理3）；通过 $u$ 的 F 限制到 F 的选择因此对于所有 $u \in \mathfrak{T}$ 来说是零。令 $x \in F,\ x \neq 0$；那么 $u(x) = 0$ 对于所有 $u \in \mathscr{S}$；通过归纳对E的维数进行论证，我们可以假设存在商$E' = E/Kx$的基$(\bar{e}_1, ..., \bar{e}_{n-1})$，这样，对于所有$u \in \mathfrak{T}$，$E'$的自同态$\bar{u}$由$u$ 相对于基有矩阵，它是对角线为零的下三角形；如果$e_i \in E$投影到a上，对于$i = 1, ..., n-1$，则基$(e_1, ..., e_{n-1}, x)$满足所需的条件。
 
 习题
 
@@ -752,4 +752,4 @@ $$
 
 这个截面中的所有域都是可交换的除非，否则明确说明。
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

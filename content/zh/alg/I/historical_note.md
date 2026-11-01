@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: 997e8c66753e83b27126e604062b4c83e2a484e2a1a425cbc01219d635f4cb53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c1c89ca7c8309113a9d3ac7bf78f675f4e143b37307094561ea54070a726f136
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 # 历史注记

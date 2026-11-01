@@ -57,23 +57,23 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 27faf3f6b63ddfb4197ce1a4cd83989bbc90d76c788e1532c185587930e6afaf
+content_sha256: 82c51409a6c7cb37184502a0c1378b679c07034f29f1ac1b6a8f14c35e94faf5
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
 translation_method: google
 source_content_sha256: e617c5fb964b4dfa4c93d927e10519f76530432982d0dd1d298de1585dc144da
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: d3755bcf479bbdb3a79a913582bfdf4f2a04b831b0d0488948da9cc0bb853e42
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。局部凸空间上的测度和测度
 
 在整个截面中，仅考虑实数中超过域的向量空间。局部凸空间是指$\mathbf{R}$上的拓扑向量空间，即豪斯多夫且局部凸。局部凸空间 E 的拓扑对偶将表示为 $E'$；对于$x \in E$和$x' \in E'$，写为$\langle x, x' \rangle = x'(x)$。
 
-### 1. 局部凸空间上的 Promeasures
+### 1. 局部凸空间的 Promeasures
 
 令 E 为局部凸空间。我们用有限余维的E的闭合线性子空间的$\mathscr{F}(E)$集合表示，按关系$\supset$排序。对于每个$V \in \mathscr{F}(E)$，$p_V$表示E到$E/V$的典范映射。令V和W为$\mathscr{F}(E)$的两个元素，使得$V \supset W$；我们用 $E/W$ 的 $p_{VW}$ 映射表示为通过商从 E 的恒等映射推导出来的 $E/V$。族$\mathscr{Q}(E) = (E/V, p_{VW})$是局部凸空间的逆系，由$\mathscr{F}(E)$索引。它被称为 E* 的有限维商的 *逆系。
 
@@ -132,7 +132,7 @@ $$
 
 让$V \in \mathscr{F}(E)$。 典范映射$p_V : E \to E/V$下的优惠措施$\mu$的$E/V$上的像优惠措施与措施$\mu_V$相关联的是直接的。
 
-令 $u_1$ 为 $E_1$ 的连续线性映射到局部凸空间 $E_2$。轻松建立关系
+令 $u_1$ 为 $E_1$ 的连续线性映射变为局部凸空间 $E_2$。轻松建立关系
 
 $$
 (u_1 \circ u)(\mu) = u_1(u(\mu))
@@ -154,9 +154,9 @@ $$
 (\mathscr{F}\lambda)(x') = \int_E e^{i\langle x, x' \rangle} d\lambda(x).
 $$
 
-令 $\mu$ 为与 $\lambda$ 相关的比例。对于每个$x' \in E'$，$\mathbf{R}$上的措施$\mu_{x'}$是像，在$E$上的措施$\lambda$的$x' : E \to \mathbf{R}$下；从公式(2)和(3)，立即推导出$\mathscr{F}\mu = \mathscr{F}\lambda$。
+令 $\mu$ 为与 $\lambda$ 相关的比例。对于每个$x' \in E'$，$\mathbf{R}$上的措施$\mu_{x'}$是$E$上的措施$\lambda$的$x' : E \to \mathbf{R}$下的像；从公式(2)和(3)，立即推出$\mathscr{F}\mu = \mathscr{F}\lambda$。
 
-令 $\mu$ 为 $E$ 的任意比例，并且 $u$ 将 $E$ 的连续线性映射变为局部凸空间 $E_1$。用$E'_1$的$^t u$线性映射表示为$E'$，即$u$的转置，并用$\nu$表示$E_1$的比例$u(\mu)$。对于每个 $x'_1 \in E'_1$，我们有 $^t u(x'_1) = x'_1 \circ u$、从而
+令 $\mu$ 为 $E$ 的任意比例，并且 $u$ 将 $E$ 的连续线性映射变为局部凸空间 $E_1$。用$E'_1$的$^t u$线性映射表示为$E'$，即$u$的转置，并用$\nu$表示$E_1$的比例$u(\mu)$。对于每个$x'_1 \in E'_1$，我们有$^t u(x'_1) = x'_1 \circ u$，从而
 
 $$
 \nu_{x'_1} = x'_1(\nu) = x'_1(u(\mu)) = (x'_1 \circ u)(\mu) = \mu_{^t u(x'_1)}.
@@ -194,13 +194,13 @@ $$
 
 #### 注 {#int-ix-s6-n3-rem-1 .statement tag=09SA}
 
-— 当$E$是有限维时，$E$的每个特征标都是形式$x \mapsto e^{i\langle x, x' \rangle}$和$x' \in E'$（*Théor.spect.*，Ch.II, §1, No. 9，Prop.12的Cor.3）。在这种情况下，命题 3 是从用于傅里叶变换的唯一性定理得出的（*loc. cit.*，§1, No. 6，命题 6 的 Cor.）。*
+— 当$E$是有限维时，$E$的每个特征标都是形式$x \mapsto e^{i\langle x, x' \rangle}$和$x' \in E'$（*Théor.spect.*，Ch.II, §1, No. 9，Prop.12的Cor.3）。在这种情况下，第 3 条命题是从唯一性定理进行傅里叶变换得出的（*loc. cit.*，§1, No. 6，第 6 条命题的 Cor.）。*
 
-### 4.高斯积分的计算
+### 4. 高斯积分的计算
 
 #### 引理 1 {#int-ix-s6-lem-1 .statement tag=09SB}
 
-对于每个整数 $n \geqslant 0$，
+对于每整数 $n \geqslant 0$，
 
 $$
 \int_{\mathbf{R}} |x|^n e^{-x^2/2} dx = 2^{n+1 \over 2} \Gamma \left( {n+1 \over 2} \right)
@@ -236,14 +236,14 @@ $$
 \int_{\mathbf{R}} |x|^n e^{-x^2/2} dx = 2 \int_0^\infty x^n e^{-x^2/2} dx.
 $$
 
-公式 (7) 由 (6) 和关系得出
+公式 (7) 由 (6) 和关系推出
 
 $$
 \Gamma \left( n + \frac{1}{2} \right) = \pi^{1/2} \frac{(2n)!}{2^{2n} n!}.
 $$
 (10)
 
-对于$n = 0$，这个关系约化到$\Gamma(\frac{1}{2}) = \pi^{1/2}$，即到FRV的公式(21)，VII, §1, No. 3。一般情况下，在考虑到关系 $\Gamma(x+1) = x \cdot \Gamma(x)$（前述，§1, No. 1）的情况下，在$n$上遵循归纳。
+对于$n = 0$，这个关系约化到$\Gamma(\frac{1}{2}) = \pi^{1/2}$，即到FRV的公式(21)，VII, §1, No. 3。一般情况下，在考虑到关系 $\Gamma(x+1) = x \cdot \Gamma(x)$（前述，§1, No. 1）的情况下，$n$ 上的归纳紧随其后。
 
 最后，公式 (8) 由函数 $x \mapsto x^{2n+1} e^{-x^2/2}$ 是奇数这一事实得出。
 
@@ -309,7 +309,7 @@ $$
 
 由(14)。 公式 (11) 然后从 (12) 得出。
 
-### 5.高斯算子和测度
+### 5. 高斯预测度和测度
 
 #### 命题 4 {#int-ix-s6-prop-4 .statement tag=09SD}
 
@@ -428,13 +428,13 @@ b) 假设$Q(x') = 1$，从而$x'(\mu) = \gamma_1$。然后
 $$
 \int_E |\langle x, x' \rangle|^n d\mu(x) = \int_{\mathbf{R}} |t|^n d\gamma_1(t) = (2\pi)^{-1/2} \int_{\mathbf{R}} |t|^n e^{-t^2/2} dt
 $$
-(16) 紧随 (6) (No 4, 引理 1)。类似地，从（7）和（8）得出公式（17）和（18）。最后由(17)中的设定$n = 1$得到(19)。
+(16) 紧随 (6) (No 4, 引理 1)。类似地，公式 (17) 和 (18) 由 (7) 和 (8) 得出。最后由(17)中的设定$n = 1$得到(19)。
 
 我们现在可以证明 Cor 的逆命题。提案 5。
 
 #### 命题 7 {#int-ix-s6-prop-7 .statement tag=09SJ}
 
-*设 E 为局部凸空间，$\mu$ E 上的算子。假设 $x'(\mu)$ 是$\mathbf{R}$ 对于每个 $x' \in E'$ 的高斯测度。那么 $\mu$ 是 E 上的高斯测度。*
+*设 E 为局部凸空间，$\mu$ E 上的算度。假设 $x'(\mu)$ 是$\mathbf{R}$ 对于每个 $x' \in E'$ 的高斯测度。那么 $\mu$ 是 E 上的高斯测度。*
 
 对于每个$x' \in E'$，令$Q(x')$为$\mathbf{R}$上高斯测度$x'(\mu)$的方差。一个有$x'(\mu) = \gamma_{Q(x')}$，从而
 $$
@@ -442,7 +442,7 @@ $$
 $$
 由 $\mathscr{F}\mu$ 的定义 (No. 3, 公式 (2))。其他字、$\mathscr{F}\mu = e^{-Q/2}$，还有待证明$Q$是$E'$上的正二次形式。
 
-对于 E 与有限余维的每个闭线性子空间 V，用 E 到 $E/V$ 的 $p_V$ 典范映射表示，用 $\mu_V$ $E/V$ 上的测度$p_V(\mu)$ 和集合表示$Q_V = Q \circ {}^t p_V$。由于$E' = \bigcup_{V \in \mathscr{F}(E)} \operatorname{Im}({}^t p_V)$和${}^t p_V$是单射的，因此足以证明$Q_V$是$(E/V)'$上的正二次方形式。设$u \in (E/V)'$和$x' = {}^t p_V(u)$。我们有
+对于 E 与有限余维的每个闭线性子空间 V，用 E 到 $E/V$ 的 $p_V$ 典范映射表示，用 $\mu_V$ $E/V$ 上的测度$p_V(\mu)$ 和集合表示$Q_V = Q \circ {}^t p_V$。由于$E' = \bigcup_{V \in \mathscr{F}(E)} \operatorname{Im}({}^t p_V)$和${}^t p_V$是单射的，因此只需证明$Q_V$是$(E/V)'$上的正二次方形式即可。设$u \in (E/V)'$和$x' = {}^t p_V(u)$。我们有
 $$
 u(\mu_V) = u(p_V(\mu)) = x'(\mu) = \gamma_{Q(x')} ;
 $$
@@ -450,9 +450,9 @@ $$
 $$
 Q_V(u) = Q(x') = \int_{\mathbf{R}} t^2 d\gamma_{Q(x')}(t) = \int_{E/V} u(x)^2 d\mu_V(x),
 $$
-因此$Q_V$是$(E/V)'$的正二次方形式。
+因此$Q_V$是$(E/V)'$上的正二次形式。
 
-### 6. 例高斯算子
+### 6. 高斯算子的例
 
 1) 令 E 为真正的希尔伯特空间。 映射 $x' \mapsto \|x'\|^2$ 是 $E'$ 上的正二次方形式。 相应的高斯测度被称为 E 上的*规范高斯测度*。可以证明，如果 E 是无限维的，则该测度不是测度。
 
@@ -460,7 +460,7 @@ $$
 
 2) *正型的核。*设$T$为集合，$T$上的实函数的$E = \mathbf{R}^T$向量空间，配备逐点收敛的拓扑。对于每个 $t \in T$，1 表示 $E$ 上的 $\varepsilon_t$ 线性形式 $f \mapsto f(t)$。族$(\varepsilon_t)_{t \in T}$是$E'$的基（TVS，II, §6, No. 6，第8号提案的Cor.2）。
 
-在$T$上对$T \times T$满足关系上的每一个实数函数$K$调用（实数）核或正值型
+在 $T$ 上对 $T \times T$ 满足关系上的每个实值函数 $K$ 调用（实数）型的核
 
 $$
 \text{(20)} \qquad K(t, t') = K(t', t) \quad \text{for } t, t' \text{ in } T,
@@ -541,7 +541,7 @@ $$
 $$
 Q(t_1, \ldots, t_n) = t_1^2 + \cdots + t_n^2;
 $$
-然后
+那么
 $$
 \gamma_{I_n} = (2\pi)^{-n/2} e^{-Q/2} \cdot \lambda_n,
 $$
@@ -549,7 +549,7 @@ $$
 $$
 u(\gamma_{I_n}) = (2\pi)^{-n/2} e^{-(Qou^{-1})/2} \cdot u(\lambda_n).
 $$
-形式$Q \circ u^{-1}$在$\mathbf{R}^n$上的二次方直接的在点$(t_1, \ldots, t_n)$处取值$\sum_{j,k=1}^n d_{jk} t_j t_k$，以及第15章的提案。 VII, §1, No. 10表明
+形式$Q \circ u^{-1}$在$\mathbf{R}^n$上的二次方直接的在点$(t_1, \ldots, t_n)$处取值$\sum_{j,k=1}^n d_{jk} t_j t_k$，以及第15章的命题。 VII, §1, No. 10表明
 $$
 u(\lambda_n) = (\det U)^{-1} \cdot \lambda_n = (\det D)^{1/2} \cdot \lambda_n.
 $$
@@ -557,7 +557,7 @@ $$
 
 ### 7. 维纳测度
 
-在这个数中，我们用$T$表示$\mathbf{R}$的区间$]0, 1]$，用$\mathscr{H}$表示实数函数在$T$可平方可积的关于勒贝格测度的希尔伯特空间，其中标量乘积表示$(f|g)$。我们还用$T$上的连续实数函数的$\mathscr{C}$空间表示，在点0处趋于0；我们为$\mathscr{C}$配备了范数$\|f\| = \sup_{t \in T} |f(t)|$。紧区间 $[0, 1] = T \cup \{0\}$ 是局部紧但非紧区间 $T$ 的 Alexandroff 紧致化；因而，具有紧支撑的$T$上的连续函数的集合在$\mathscr{C}$中密集，并且$\mathscr{C}$的对偶可以用$T$上的有界测度（不一定是正数）的空间$\mathscr{M}^1$来识别（Ch. III, §1, No. 8，Def. 3）。
+在这个数中，我们用$T$表示$\mathbf{R}$的区间$]0, 1]$，用$\mathscr{H}$表示实数函数在$T$可平方可积的勒贝格测度上的希尔伯特空间，其中标量乘积表示$(f|g)$。我们还用$T$上的连续实数函数的$\mathscr{C}$空间表示，在点0处趋于0；我们为$\mathscr{C}$配备了范数$\|f\| = \sup_{t \in T} |f(t)|$。紧区间 $[0, 1] = T \cup \{0\}$ 是局部紧但非紧区间 $T$ 的 Alexandroff 紧致化；因而，具有紧支撑的$T$上连续函数的集合在$\mathscr{C}$中密集，并且$\mathscr{C}$的对偶可以用$T$上有界测度（不一定是正数）的空间$\mathscr{M}^1$来识别（Ch. III, §1, No. 8，Def. 3）。
 
 对于每函数 $f \in \mathscr{H}$，$T$ 上有一个定义函数 $Pf$
 $$
@@ -693,7 +693,7 @@ $$
 \int_{\Omega} \left| T_n g\left( \frac{2k-1}{2^{n+1}} \right) \right|^3 \, dm(g) = \int_{\Omega} \left| X\left( \frac{2k-1}{2^{n+1}} \right) - \frac{1}{2} \left( X\left( \frac{k-1}{2^n} \right) + X\left( \frac{k}{2^n} \right) \right) \right|^3 \, dm;
 $$
 
-!【图1](../images/figure_1.png)
+![图1](../images/figure_1.png)
 
 图1
 
@@ -767,7 +767,7 @@ $$
 
 (3) 即$I$上的措施集中在$T = I - \{0\}$上。
 
-$I$到$\mathscr{M}(I)$的$t \mapsto \varepsilon_t$是连续的（第III, §1, No. 9章，第13条命题）；由于 D 在 I 中是稠密的，因此 $\mathscr{D}$ 包含的闭包 $\overline{\mathscr{D}}$ 所有点措施。令 A 为 $\nu \in \mathscr{D}$ 的集合，使得 $\| \nu \| \leq \| \mu \|$；措施$\mu$位于A的闭包中（第III, §2, No. 4章，Th.1的Cor.1）。 集合 A 在 $\mathscr{M}(I)$ 中相对紧致（第 III, §1, No. 9，第 15 章），而 $\mathscr{M}(I)$ 的紧致子集是可度量的（TVS，III, §3, No. 4，第 6 条第（4）条的 Cor.2 和 GT，X, §3, No. 3，Th.1）。因此，在$\mathscr{M}(I)$中存在序列个测度$\mu_n \in A$收敛于$\mu$。由于 $\mathscr{C}$ 与原点 I 零上的连续函数的子空间进行识别，因此对于所有 $f \in \mathscr{C}$，我们都有 $\mu(f) = \lim_{n \to \infty} \mu_n(f)$。此外，由于$\mathscr{C}(I) \otimes \mathscr{C}(I)$在范数空间$\mathscr{C}(I \times I)$（第III, §4, No. 1，引理1）中是密集的，关系$\lim_{n \to \infty} \mu_n = \mu$和$\| \mu_n \| \leq \| \mu \|$意味着$\lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu$（第III, §1, No. 10，提案 17)；由于措施 $\mu_n$ 和 $\mu$ 将权置于 0，我们有
+$I$到$\mathscr{M}(I)$的$t \mapsto \varepsilon_t$是连续的（第III, §1, No. 9章，第13条命题）；由于 D 在 I 中是稠密的，因此 $\mathscr{D}$ 包含的闭包 $\overline{\mathscr{D}}$ 所有点措施。设 A 为 $\nu \in \mathscr{D}$ 的集合，使得 $\| \nu \| \leq \| \mu \|$；措施$\mu$位于A的闭包中（第III, §2, No. 4章，Th.1的Cor.1）。 集合 A 在 $\mathscr{M}(I)$ 中相对紧致（第 III, §1, No. 9，第 15 章），而 $\mathscr{M}(I)$ 的紧致子集是可度量的（TVS，III, §3, No. 4，第 6 条第（4）条的 Cor.2 和 GT，X, §3, No. 3，Th.1）。因此，在$\mathscr{M}(I)$中存在序列个测度$\mu_n \in A$收敛于$\mu$。由于 $\mathscr{C}$ 与原点 I 零上的连续函数的子空间进行识别，因此对于所有 $f \in \mathscr{C}$，我们都有 $\mu(f) = \lim_{n \to \infty} \mu_n(f)$。此外，由于$\mathscr{C}(I) \otimes \mathscr{C}(I)$在范数空间$\mathscr{C}(I \times I)$（第III, §4, No. 1，引理1）中是密集的，关系$\lim_{n \to \infty} \mu_n = \mu$和$\| \mu_n \| \leq \| \mu \|$意味着$\lim_{n \to \infty} (\mu_n \otimes \mu_n) = \mu \otimes \mu$（第III, §1, No. 10，提案 17)；由于措施 $\mu_n$ 和 $\mu$ 将权置于 0，我们有
 
 $$
 W(\mu_n) = \int_I \int_I \inf(t, t') d\mu_n(t) d\mu_n(t'),
@@ -841,7 +841,7 @@ $$
 
 #### 推论{#int-ix-s6-n8-cor-1 .statement tag=09SQ}
 
-— 为$E'$配备与其向量空间结构兼容的拓扑。为了使 $\Phi$ 连续，其实数部分 $\Re \Phi$ 在原点连续是必要且充分的，在这种情况下 $\Phi$ 是一致连续的。
+— 为$E'$配备与其向量空间结构兼容的拓扑。为了使 $\Phi$ 连续，其实数部分 $\Re \Phi$ 在原点处连续是充分必要的，在这种情况下 $\Phi$ 是一致连续的。
 
 这是从不等式 (54) 得出的。
 
@@ -855,7 +855,7 @@ $$
 
 — *如果 F 是桶状的，则 F' 上每个有界测度的傅里叶变换是 F* 上均匀连续的函数。
 
-令$\mu$为$F'$的有界测度，$\Phi$为傅里叶变换。让$\varepsilon > 0$。存在 $F'$ 的紧子集 K，使得 $\mu(F' - K) \leq \varepsilon$。现在，K 对于弱拓扑 $\sigma(F', F)$ 是紧致的，因此是等连续的，因为 F 是桶形的（TVS，III, §4, No. 2，Th.1）。因而，F 中存在一个对称邻域 U 为 0，其极坐标为 $U^\circ$ 包含 K。设 x 在 $\varepsilon U$ 内；然后
+令$\mu$为$F'$的有界测度，$\Phi$为傅里叶变换。让$\varepsilon > 0$。存在 $F'$ 的紧子集 K，使得 $\mu(F' - K) \leq \varepsilon$。现在，K 对于弱拓扑 $\sigma(F', F)$ 是紧致的，因此是等连续的，因为 F 是桶形的（TVS，III, §4, No. 2，Th.1）。因而，F 中存在一个对称邻域 U 为 0，其极坐标为 $U^\circ$ 包含 K。设 x 在 $\varepsilon U$ 内；那么
 
 $$
 \Phi(0) - \Re \Phi(x) = \int_{F'} (1 - \cos \langle x, x' \rangle) d\mu(x').
@@ -877,7 +877,7 @@ $$
 
 ### 9. 米洛斯的引理
 
-令 T 为有限维向量空间且 $\mu$ 为 $T'$ 上的有界测度；我们将认同 T 与$T'$ 进行对偶，使得$\mu$ 的傅里叶变换 $\Phi$ 是T 上的函数。我们假设给定T 上的两个正二次方形式 h 和q 以及数 $\varepsilon > 0$。对于每个实数$r > 0$，我们用$x' \in T'$的$C_r$集合表示，这样$\langle x, x' \rangle^2 \leq r^2 h(x)$代表所有$x \in T$。
+令 T 为有限维向量空间且 $\mu$ 为 $T'$ 上的有界测度；我们将认同 T 与$T'$ 的对偶，使得$\mu$ 的傅里叶变换 $\Phi$ 是T 上的函数。我们假设给定T 上的两个正二次方形式 h 和q 以及数 $\varepsilon > 0$。对于每个实数$r > 0$，我们用$x' \in T'$的$C_r$集合表示，这样$\langle x, x' \rangle^2 \leq r^2 h(x)$代表所有$x \in T$。
 
 #### 命题 10 {#int-ix-s6-prop-10 .statement tag=09SS}
 
@@ -966,23 +966,23 @@ $$
 
 Q.E.D.
 
-### 10.对核空间的双重措施
+### 10. 对核空间的双重措施
 
-令 F 为局部凸空间。令$\mathscr{T}_s$为$F'$上的弱拓扑$\sigma(F', F)$，以及F的紧凸子集上一致收敛的$\mathscr{T}_c$拓扑。由Mackey的定理（TVS，IV, §1, No. 1，Th.1）拓扑$F'$上的$\mathscr{T}_s$和$\mathscr{T}_c$与F和$F'$之间的对偶性兼容；因此，对于$\mathscr{T}_s$和$\mathscr{T}_c$中间的$F'$上的每个局部凸拓扑$\mathscr{T}$也是如此。如果$\mathscr{T}$是这样的拓扑，并且$F'_{\mathscr{T}}$表示空间$F'$配备$\mathscr{T}$，我们将认同F与$F'_{\mathscr{T}}$的对偶。因此，对于前面型的所有拓扑 $\mathscr{T}$，$F'$ 的算术都是相同的，如果 $\mu$ 是这样的算术，那么它的傅里叶变换就是 F 上的函数。
+令 F 为局部凸空间。令$\mathscr{T}_s$为$F'$上的弱拓扑$\sigma(F', F)$，以及$\mathscr{T}_c$拓扑在F的紧凸子集上一致收敛。由Mackey的定理（TVS，IV, §1, No. 1，Th.1）拓扑$F'$上的$\mathscr{T}_s$和$\mathscr{T}_c$与F和$F'$之间的对偶性兼容；因此，对于 $F'$ 上$\mathscr{T}_s$ 和 $\mathscr{T}_c$ 中间的每个局部凸拓扑 $\mathscr{T}$ 也是如此。如果$\mathscr{T}$是这样的拓扑，并且$F'_{\mathscr{T}}$表示空间$F'$配备$\mathscr{T}$，我们将认同F与$F'_{\mathscr{T}}$的对偶。因此，对于前面型的所有拓扑$\mathscr{T}$，$F'$的promeasure都是相同的，如果$\mu$是这样的promeasure，那么它的傅里叶变换就是F上的函数。
 
-我们将 F 上的 Sazonov 拓扑称为由连续半范数 N 满足定义的局部凸拓扑 $\mathscr{S}$，如下条件：$N^2$ 是 F 上的正二次方形式，并且 F 上存在连续正二次方形式 H，使得$\operatorname{Tr}(N^2/H) < +\infty$。 拓扑 $\mathscr{S}$ 比 F 上给定的拓扑更粗糙；如果这些拓扑相同，则 F 被称为核。这个空间的类稍后会详细研究。
+人们将 F 上的 Sazonov 拓扑称为由连续半范数 N 满足定义的局部凸拓扑 $\mathscr{S}$，如下条件：$N^2$ 是 F 上的正二次方形式，并且 F 上存在连续正二次方形式 H，使得$\operatorname{Tr}(N^2/H) < +\infty$。 拓扑 $\mathscr{S}$ 比 F 上给定的拓扑更粗糙；如果这些拓扑相同，则 F 被称为核。这个空间的类稍后会详细研究。
 
 #### 定理 2（米洛斯）{#int-ix-s6-thm-2 .statement tag=09ST}
 
-— *设 F 为空间的局部凸空间，$\mathscr{T}$ $F'$ 上的局部凸拓扑，介于 $\mathscr{T}_s$ 和 $\mathscr{T}_c$ 之间，以及 $\mu$ $F'_{\mathscr{T}}$ 上的近似值。假设对于 Sazonov 拓扑，$\mu$ 的傅里叶变换 $\Phi$ 在 F 上连续。那么 $\mu$ 是 $F'_{\mathscr{T}}$ 的度量。*
+— *令 F 为局部凸空间，$\mathscr{T}$ $F'$ 上的局部凸拓扑，介于 $\mathscr{T}_s$ 和 $\mathscr{T}_c$ 之间，以及$\mu$ $F'_{\mathscr{T}}$ 上的比例。假设对于 Sazonov 拓扑，$\mu$ 的傅里叶变换 $\Phi$ 在 F 上连续。那么 $\mu$ 是 $F'_{\mathscr{T}}$ 的度量。*
 
-让$\varepsilon > 0$。由于 $\Phi$ 对于 F 上的 Sazonov 拓扑是连续的，因此在 F 上存在两个连续正二次形式 Q 和 H，使得 $\operatorname{Tr}(Q/H) < +\infty$ 和
+让$\varepsilon > 0$。由于 $\Phi$ 对于 F 上的 Sazonov 拓扑是连续的，因此 F 上存在两个连续正二次形式 Q 和 H，使得 $\operatorname{Tr}(Q/H) < +\infty$ 和
 
 $$
 \Phi(0) - \mathscr{R}\Phi(x) \leq \varepsilon/6
 $$
 
-对于每个$x \in F$，使得$Q(x) \leq 1$。根据 No. 8、$|\mathscr{R}\Phi(x)| \leq \Phi(0)$ 的第 8 号提案，适用于所有 $x \in F$、从而
+对于每个$x \in F$，使得$Q(x) \leq 1$。根据No. 8、$|\mathscr{R}\Phi(x)| \leq \Phi(0)$第8号提案，适用于所有$x \in F$、从而
 
 $$
 \Phi(0) - \mathscr{R}\Phi(x) \leq \varepsilon/6 + 2\Phi(0)Q(x)
@@ -1012,7 +1012,7 @@ Q.E.D.
 
 — 令 F 为桶状空间和 $\mathscr{T}$ 拓扑上的局部凸拓扑，位于 $F'$ $\mathscr{T}_s$ 和 $\mathscr{T}_c$ 中间。 $\mathscr{T}$ 的 $F'$ 紧凑中的每个子集对于较粗糙的拓扑 $\mathscr{T}_s$ 都是紧凑的。相反，令 K 为 $\mathscr{T}_s$ 的 $F'$ 紧凑型子集。由于F是桶形的，所以K是等连续的（TVS，III, §4, No. 2，Th.1）；但根据阿斯科利的定理，$F'$的每个等连续子集对于$\mathscr{T}_c$都是相对紧的，对于$\mathscr{T}$来说*更不必说*是相对紧的，因此K包含在对于$\mathscr{T}$来说紧的$F'$的子集中。由此不难推断，$F'_\mathscr{T}$的恒等映射落在这两个空间的措施集合之间的$F'_{\mathscr{T}_s}$定义双射之间。
 
-### 11.希尔伯特空间的措施
+### 11. 希尔伯特空间的测量
 
 令 E 为实希尔伯特空间，其中标量乘积表示为 $(x|y)$。 E 的对偶 $E'$ 上存在同构 j，其特征在于 E 中的 $x, y$ 具有公式 $\langle x, j(y) \rangle = (x|y)$（TVS、V, §1, No. 7、Th. 3）。我们将通过 j 计算认同 E 和 $E'$。因此，E 上的promeasure $\mu$ 的傅里叶变换是E 上的函数 $\mathscr{F}\mu$；当 $\mu$ 是一个测度时，我们有
 
@@ -1125,7 +1125,7 @@ Q.E.D.
 
 我们知道（No. 3，命题 3）傅里叶变换是单射的。令 $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ 为 E 的配度，$\Phi$ 为傅里叶变换。令 T 为 $E'$ 的有限维子空间，并令 V 为 T 在 E 中的正交。一个可以确定 T 与 $E/V$ 的对偶； $\Phi$到T的限制$\Phi_T$是$E/V$上有界测度$\mu_V$的傅里叶变换。根据命题 11，$\Phi_T$ 是连续的，且在 T 上为正型。由于 T 是任意的，所以显然$\Phi$ 在$E'$ 上为正型。
 
-相反，令$\Phi$为$E'$上的正型的函数，其限制对于$E'$的每个有限维子空间都是连续的。对于每个$V \in \mathscr{F}(E)$，我们将$E/V$的对偶认同与$E'$中V的正交$V^\circ$； $\Phi$到$V^\circ$的限制$\Phi_V$是连续的并且为正型，因而，根据Bochner的定理，$E/V$上存在有界（正）测度$\mu_V$，其傅里叶变换为$\Phi_V$。令$\mathscr{F}(E)$中的V和W使得$W \subset V$，并令$p_{VW}$为$E/W$的典范映射到$E/V$；经过识别，${}^t p_{VW}$是$V^\circ$到$W^\circ$的单射。到No. 3的公式(4)，我们有
+相反，令$\Phi$为$E'$上正型的函数，其限制对于$E'$的每个有限维子空间都是连续的。对于每个$V \in \mathscr{F}(E)$，我们在$E'$中将$E/V$与V的正交$V^\circ$对偶进行认同； $\Phi$到$V^\circ$的限制$\Phi_V$是连续的并且为正型，因而，根据Bochner的定理，$E/V$上存在有界（正）测度$\mu_V$，其傅里叶变换为$\Phi_V$。令$\mathscr{F}(E)$中的V和W使得$W \subset V$，并令$p_{VW}$为$E/W$的典范映射到$E/V$；经过识别，${}^t p_{VW}$ 是$V^\circ$ 中的单射变成$W^\circ$。到No. 3的公式(4)，我们有
 
 $$
 \mathscr{F}(p_{VW}(\mu_W)) = (\mathscr{F}\mu_W) \circ {}^t p_{VW} = \Phi_W \circ {}^t p_{VW} = \Phi_V = \mathscr{F}\mu_V,
@@ -1137,10 +1137,10 @@ $$
 
 #### 推论 {#int-ix-s6-n11-cor-1 .statement tag=09T3}
 
-— *令 F 为桶装核空间；为 F' 配备一个局部凸拓扑 $\mathscr{T}$，中间为弱拓扑 $\sigma(F', F)$ 和拓扑，在 F 的紧凸子集上均匀收敛。傅里叶变换是 F' 上有界（正）测度的集合的双射 F 上连续函数的集合正型。*
+— *令 F 为桶装核空间；为 F' 配备一个局部凸拓扑 $\mathscr{T}$ 中间的弱拓扑 $\sigma(F', F)$ 和拓扑，在 F 的紧凸子集上均匀收敛。傅里叶变换是 F' 上有界（正）测度的集合的双射 F 上连续函数的集合正型。*
 
 这紧随定理 4 和 Cor.的 Th。 2 个No. 10。*
 
-### 习题{#int-ix-s6-exercises}
+### 习题 {#int-ix-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

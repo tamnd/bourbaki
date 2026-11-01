@@ -29,31 +29,31 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: e3d340e527ca3001cd0865442e864f5cb83796ff98b8acc0cd026a872fb8c012
+content_sha256: 7eac7ccceb8eb741790f0f9a110cf3f31738fd7bb70bf00090fabfeaf9c96cd8
 translated_from: content/en/lie/VIII/09_s9_the_formula_of_hermann_weyl.md
 translation_method: google
 source_content_sha256: 16e58934b12a0ac3234fd1dee9446b6558b2edb33a94c1d55bbd2fbd906273b2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7f4ed5db9c80df419c4d7e4466a274ea10b8d4b350fd99469e38583d6c806324
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。 魏尔公式
 
 在本段中，我们保留了§6和§7的通用记号。
 
-### 1.有限维$\mathfrak{g}$-模块的特征标
+### 1. 特征标有限维$\mathfrak{g}$-模块
 
-设$(e^{\lambda})_{\lambda\in\mathfrak{h}^*}$为环$\mathbf{Z}[\mathfrak{h}^*]$中的典范基。给出因子上离散拓扑从$\mathfrak{h}^*$到$\mathbf{Z}$乘积拓扑的所有映射的空间$\mathbf{Z}^{\mathfrak{h}^*}$。如果$\varphi \in \mathbf{Z}^{\mathfrak{h}^*}$，则族$(\varphi (\nu )e^{\nu})_{\nu\in\mathfrak{h}^*}$是可求和的，并且
+令 $(e^{\lambda})_{\lambda\in\mathfrak{h}^*}$ 为环 $\mathbf{Z}[\mathfrak{h}^*]$ 中的典范基。给出因子上离散拓扑从$\mathfrak{h}^*$到$\mathbf{Z}$乘积拓扑的所有映射的空间$\mathbf{Z}^{\mathfrak{h}^*}$。如果$\varphi \in \mathbf{Z}^{\mathfrak{h}^*}$，则族$(\varphi (\nu )e^{\nu})_{\nu\in\mathfrak{h}^*}$是可求和的，并且
 
 $$
 \varphi =\sum_{\nu\in\mathfrak{h}^*}\varphi (\nu )e^{\nu}
 $$
 
-令$\mathbf{Z}\langle P\rangle$为$\varphi \in \mathbf{Z}^{\mathfrak{h}^*}$的集合，其支撑包含在形式$\nu -P_+$的集合的有限并中，其中$\nu \in \mathfrak{h}^*$。然后$\mathbf{Z}[P]\subset \mathbf{Z}\langle P\rangle  \subset \mathbf{Z}^{\mathfrak{h}^*}$。 定义在 $\mathbf{Z}\langle P\rangle$ 环结构上通过放置来扩展 $\mathbf{Z}[P]$，对于 $\varphi , \psi \in \mathbf{Z}\langle P\rangle$ 和 $\nu \in \mathfrak{h}^*$，
+令$\mathbf{Z}\langle P\rangle$为$\varphi \in \mathbf{Z}^{\mathfrak{h}^*}$的集合，其支撑包含在形式$\nu -P_+$的集合的有限并中，其中$\nu \in \mathfrak{h}^*$。然后$\mathbf{Z}[P]\subset \mathbf{Z}\langle P\rangle  \subset \mathbf{Z}^{\mathfrak{h}^*}$。 定义在 $\mathbf{Z}\langle P\rangle$ 环结构上通过放置来扩展$\mathbf{Z}[P]$，对于 $\varphi , \psi \in \mathbf{Z}\langle P\rangle$ 和 $\nu \in \mathfrak{h}^*$，
 
 $$
 (\varphi \psi )(\nu ) =\sum_{\mu\in\mathfrak{h}^*}\varphi (\mu)\psi (\nu -\mu)
@@ -101,7 +101,7 @@ $$
 
 让$\lambda \in \mathfrak{h}^*$。 模$Z(\lambda ) ($§6, no. 3）承认特征标是$\mathbf{Z}\langle P\rangle$的元素，我们有$d$。第 $Z(\lambda ) =e^{\lambda+\rho}$。
 
-令$\alpha_1, . . . , \alpha_q$不同于元素与$R_+$。 $Z(\lambda ) ($§6 的$X_{-\alpha_1}^{n_1}X_{-\alpha_2}^{n_2}. . . X_{-\alpha_q}^{n_q}\otimes 1$ 形式基，第 6 (iii) 条提案）。对于$h\in \mathfrak{h}$，我们有
+令$\alpha_1, . . . , \alpha_q$不同于元素或$R_+$。 $Z(\lambda ) ($§6 的$X_{-\alpha_1}^{n_1}X_{-\alpha_2}^{n_2}. . . X_{-\alpha_q}^{n_q}\otimes 1$ 形式基，第 6 (iii) 条提案）。对于$h\in \mathfrak{h}$，我们有
 
 $$
 h.(X_{-\alpha_1}^{n_1}X_{-\alpha_2}^{n_2}. . .X_{-\alpha_q}^{n_q}\otimes 1)
@@ -119,7 +119,7 @@ $$
 
 第 $Z(\lambda ) =\sum_\mu\mathfrak{P}(\mu)e^{\lambda-\mu}= Ke^{\lambda}$。
 
-现在应用引理1就足够了。
+现在只需应用引理 1即可。
 
 #### 引理 3 {#lie-viii-s9-lem-3 .statement tag=015V}
 
@@ -151,13 +151,13 @@ ch(M) $=-$ch(L) $+m$ ch $Z(\lambda ) +$ ch(N)
 
 $(\sum_{w\in W}\varepsilon (w)e^{w\rho})$.ch $M =\sum_{w\in W}\varepsilon (w)e^{w(\lambda+\rho)}$.
 
-当记号为引理3时，M的中心特征标为$\chi_{\lambda}($§6, no. 4，命题7）。因此，通过引理 2 和 $3,d$.ch M 是 $e^{\mu+\rho}$ 的 $\mathbf{Z}$ 线性组合，使得
+当记号为引理 3 时，M 的中心特征标为 $\chi_{\lambda}($§6, no. 4，命题 7）。因此，通过引理 2 和 $3,d$.ch M 是 $e^{\mu+\rho}$ 的 $\mathbf{Z}$ 线性组合，使得
 
 $$
 \mu+\rho \in W(\lambda +\rho )
 $$
 
-另一方面，由 §7, no. 7，引理 $7,d$.ch M 是反对不变的，其唯一的最大值项是 $e^{\lambda+\rho}$，因此是定理。
+另一方面，由 §7, no. 7，引理 $7,d$.ch M 是反不变的，其唯一的最大值项是 $e^{\lambda+\rho}$，因此是定理。
 
 #### 例 {#lie-viii-s9-n1-exa-1 .statement tag=015X}
 
@@ -349,7 +349,7 @@ $$
 
 $=-\sum_{w'\in W,w'\not=1}\varepsilon (w')m_{\lambda+\rho-w'\rho}$（提案$.1$）。
 
-### 4. 分解 OF 张量积简单 $\mathfrak{g}$ 模块
+### 4. 分解张量积简单 $\mathfrak{g}$ 模块
 
 #### 命题 2 {#lie-viii-s9-prop-2 .statement tag=0163}
 
@@ -383,7 +383,7 @@ $$
 =\sum_{\tau\in P}(\sum_{w\in W}\varepsilon (w)m_{\tau+\rho-w(\mu+\rho)})e^{\tau+\rho}
 $$
 
-现在，如果 $\xi \in P_{++},\xi +\rho$ 属于到 B 定义的房间（第 VI, §1, no. 10）；因而，对于所有不同于 1 的 $w\in W$，我们有 $w(\xi +\rho )\notin P_{++}$。因而，$\sum_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$中$e^{\nu+\rho}$的系数等于$l_{\nu}$。鉴于(3)，我们得到
+现在，如果 $\xi \in P_{++},\xi +\rho$ 属于到 B 定义的腔室（第 VI, §1, no. 10）；因而，对于所有不同于 1 的 $w\in W$，我们有 $w(\xi +\rho )\notin P_{++}$。因而，$\sum_{\xi\in P_{++}}l_{\xi}J(e^{\xi+\rho})$中$e^{\nu+\rho}$的系数等于$l_{\nu}$。鉴于(3)，我们得到
 
 $$
 l_{\nu}=\sum_{w\in W}\varepsilon (w)m_{\nu+\rho-w(\mu+\rho)}
@@ -445,4 +445,4 @@ $$
 
 所有考虑的 $\mathfrak{g}$ 模块都被假定为有限维。
 
-§ 9](exercises/s9/)参见[习题。
+参见[习题为 § 9](exercises/s9/)。

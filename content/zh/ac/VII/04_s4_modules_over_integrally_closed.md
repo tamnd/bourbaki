@@ -53,23 +53,23 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 5b175d00dd298238cd430d71888e3d89b36eed84af1b9156b799f34fc16b793d
+content_sha256: 98249b0ab61edcd7af1e7b9fdd685e73cfbf5923e1194c3d03f66338bc111306
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 translation_method: google
 source_content_sha256: 72d54cdf6923d26d9507679e68c08eb8627c1c668375ce55e331655e15e45177
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6c01c6d38dbf36816b7d6eb7d3a492643c505c1efe0cf9226ac74dbc24431228
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4. 模过度封闭的诺特域
+## 4. 模过度封闭诺特域
 
-在本段中，$\mathbf{A}$将是一个*可交换的整环*，其中域为分数$K$。从 no. 2 开始，$\mathbf{A}$ 将进一步假定为 *诺特且整体闭合*（因此是一个 Krull 域（$\S$ 1，no. 3，定理 2 的推论））；那么$P(\mathbf{A})$、$D(\mathbf{A})$、$C(\mathbf{A})$分别表示高度为1的$\mathbf{A}$素理想的集合（$\S$1、no. 6）、$\mathbf{A}$的除子群 $\mathbf{A}$ ($\S$ 1, no. 10) 的 ($\S$ 1, no. 3) 和除子类群，后者被写成*相加*。
+在本段中，$\mathbf{A}$将是一个*可交换的整环*，其中域为分数$K$。从 no. 2 开始，$\mathbf{A}$ 将被进一步假定为 *诺特且整体闭合*（因此是一个 Krull 域（$\S$ 1，no. 3，定理 2 的推论））；那么$P(\mathbf{A})$、$D(\mathbf{A})$、$C(\mathbf{A})$分别表示高度为1的$\mathbf{A}$素理想的集合（$\S$1、no. 6）、$\mathbf{A}$的除子群 $\mathbf{A}$ ($\S$ 1, no. 10) 的 ($\S$ 1, no. 3) 和除子类群，后者被写成*相加*。
 
-在整体封闭的诺特域$\mathbf{A}$上研究有限生成模的一般方法由关于$\mathbf{A}$中*高度* 1的所有素理想$p \in P(\mathbf{A})$的“本地化”模组成；作为$\mathbf{A}$，那么有限生成的$\mathbf{A}_p$模块的*离散评估环*（$\S$1，no. 6，定理4），结构是众所周知的（*代数*，章 VII、$\S$ 4)，因此给出了有关有限生成的 $\mathbf{A}$ 模块的结构的信息。在$\mathbf{A}$是戴德金域的特殊情况下，我们可以得到与$\mathbf{A}$是主理想整环（no. 10）时一样完整的理论。
+在整体封闭的诺特域$\mathbf{A}$上研究有限生成模的一般方法由关于$\mathbf{A}$中*高度* 1的所有素理想$p \in P(\mathbf{A})$的“本地化”模组成；作为$\mathbf{A}$，那么有限生成的$\mathbf{A}_p$模块的*离散评估环*（$\S$1，no. 6，定理4），结构是众所周知的（*代数*，章 VII、$\S$ 4)，因此给出了有关有限生成的$\mathbf{A}$模块的结构的信息。在$\mathbf{A}$是戴德金域的特殊情况下，我们可以得到与$\mathbf{A}$是主理想整环（no. 10）时一样完整的理论。
 
 ### 1. 格子
 
@@ -80,21 +80,21 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 $V$ 存在两个自由子$\mathbf{A}$ 模块$L_1,\ L_2$，例如$L_1 \subset M \subset L_2$ 和$\mathrm{rg}_{\mathbf{A}}(L_1) = \mathrm{rg}_K(V)$。
 
 例
-(1) 如果我们采用 $V = K$，$K$ 的格子只是 $K$ 的*分数理想* $\neq (0)$ ($\S$ 1, no. 1, 定义 1)。
+(1) 如果我们取$V = K$，$K$的格子只是$K$的*分数理想*$\neq (0)$（$\S$1，no. 1，定义1）。
 
-(2) 如果$\mathrm{rg}_K(V) = n$，V的每个*空闲*子A模块L最多有基包含至多n个元素，V的每个子集在A上空闲，在K上空闲；为了使L成为V的格子，L有基n个元素是充分必要的（在其他字中，即$\mathrm{rg}_A(L) = n$）。
+(2) 如果$\mathrm{rg}_K(V) = n$，V的每个“空闲”子A模块L最多有n个元素有基包含，V的每个子集在A上空闲，在K上空闲；为了使L成为V的格子，L有基n个元素是充分必要的（在其他字中，即$\mathrm{rg}_A(L) = n$）。
 
 (3) 如果 A 是 *主理想整环*，V 的每个格子 M 都是有限生成A-模（因为 A 是诺特），它是无扭转的，因此是*自由* A-模 (*代数*, 章 VII, § 4, no. 3，推论2 至定理 2)。
 
 #### 命题 1 {#ac-vii-s4-prop-1 .statement tag=052Y}
 
-*对于V的子A模M成为V的格，KM =V并且M包含在V的有限生成的子A模中是必要且充分的。*
+*对于V的子A模M成为V的格，KM = V且M包含在V的有限生成的子A模中是必要且充分的。*
 
-条件显然是必要的，对于V 的免费子 A 模块，其秩与 V 生成 V 相同。相反，如果 KM = V，则 V 的 M 包含基 $(a_i)_{1 \leq i \leq n}$ 超过 K，因此它包含是由 $a_i$ 生成的自由子 A 模块 L；另一方面，如果$M \subset M_1$（其中M）是由元素 b 的有限数生成的V的子A模，并且$(e_i)_{1 \leq i \leq n}$是K上V的基，则存在元素 s A 的 $\neq 0$，使得每个 b 是 $s^{-1}e_i$ 的线性组合，系数 *in* A；如果L是$s^{-1}e_i$生成的V的免费子A模块，则$M \subset L_2$。
+条件显然是必要的，对于V 的免费子 A 模块，其秩与V 生成 V 相同。相反，如果 KM = V，M 包含基 $(a_i)_{1 \leq i \leq n}$ V 超过 K，因此它包含是由 $a_i$ 生成的免费子 A 模块 L；另一方面，如果$M \subset M_1$（其中M）是由元素 b 的有限数生成的V的子A模，并且$(e_i)_{1 \leq i \leq n}$是K上V的基，则存在元素 s A 的 $\neq 0$，使得每个 b 是 $s^{-1}e_i$ 的线性组合，系数 *in* A；如果L是$s^{-1}e_i$生成的V的免费子A模块，则$M \subset L_2$。
 
 #### 推论{#ac-vii-s4-n1-cor-1 .statement tag=052Z}
 
-*假设A为诺特；对于V的子A模M成为V的格子，KM = V且M是有限生成的是必要且充分的。*
+*假设A为诺特；对于V的子A模M成为V的格子，KM = V且M是有限生成的是充分必要的。*
 
 #### 注 (1) {#ac-vii-s4-n1-rem-1 .statement tag=0530}
 
@@ -102,7 +102,7 @@ $V$ 存在两个自由子$\mathbf{A}$ 模块$L_1,\ L_2$，例如$L_1 \subset M \
 
 #### 命题 2 {#ac-vii-s4-prop-2 .statement tag=0531}
 
-*设M为V的格子，M为V的子A模。如果$K^*$存在两个元素 x，y，使得$xM \subset M_1 \subset yM$，$M_1$是V的格子；相反，如果$M_1$是V的格，则A存在两个非零元素 a, b，使得$aM \subset M, \subset b^{-1}M$。*
+*设M是V的格子，M是V的子A模。如果$K^*$存在两个元素 x，y，使得$xM \subset M_1 \subset yM$，$M_1$是V的格子；相反，如果$M_1$是V的格，则A存在两个非零元素 a, b，使得$aM \subset M, \subset b^{-1}M$。*
 
 如果$L_1, L_2$是V的两个自由格，那么$L, \subset M \subset L,$、关系$xM \subset M_1 \subset yM$意味着$xL_1 \subset M, \subset yL_2$、$xL_1$和$yL_2$是自由格；相反，如果 M, 是一个格，并且 L 的 $(e_i)_{1 \leq i \leq n}$ 基，在 A 上，关系 KM, = V 意味着存在 $x = a/s \in K^*$（其中 a 和 s 是 A 的非零元素），使得 $xe_i \in M,$ 对于所有$i$、从而 $xM \subset xL_2 \subset M_1$ 和 *更不必说* $aM \subset M,$；交换M和M的角色，类似地可以证明A中存在$b \neq 0$使得$bM_1 \subset M$。
 
@@ -194,11 +194,11 @@ $$
 
 显然，(1) 的左侧包含在右侧。相反，令$f \in S^{-1}N : S^{-1}M$且令$(x_i)_{1 \leq i \leq n}$为$M$的生成元系统。存在$s \in S$，使得$f(x_i) \in s^{-1}N$对于所有$i$，因此存在$sf \in N : M$，这证明了命题。
 
-### 2.二元性；反身模
+### 2. 二元性；反身模
 
-回想一下，从现在起，域 $A$ 被假定为 *诺特且整体闭合*，并且 $P(A)$（或简称为 $P$）表示集合 $A$ *高度* 1 的素理想。关于 $A$ 的每个格都是“有限生成的” $A$-模块（no. 1，命题 1 的推论）。
+回想一下，从现在起，域 $A$ 被假定为 *诺特且整体闭合*，并且 $P(A)$（或简称 $P$）表示 $A$ *高度* 1 的素理想的集合。关于 $A$ 的每个格都是“有限生成的” $A$-模块（no. 1，命题 1 的推论）。
 
-设$V$为有限秩除以$K$的向量空间，$V^*$为对偶，$V^{**}$为对偶；我们将通过典范映射$c_V$（*代数*，章II, § 7, no. 5，定理6）来认同$V$和$V^{**}$。设$M$为$V$的格子；回想一下，$M$的对偶$A$模$M^*$在规范上与$M$的*对偶格子*、$x^* \in V^*$的集合一致地识别，使得$\langle x, x^* \rangle \in A$对于所有$x \in M$；因此，$M$的*对偶的*$A$模$M^{**}$是$V$的*格子*，其中包含$M$。此外，$M^{***} = M^*$，对于关系$M \subset M^{**}$意味着$(M^{**})^* \subset M^*$，而另一方面$M^* \subset (M^*)^{**}$通过上述（cf.*集合理论*，章III, § 1, no. 5，命题2）。
+设$V$为有限秩除$K$的向量空间，$V^*$为对偶，$V^{**}$为对偶；我们将通过典范映射$c_V$（*代数*，章II, § 7, no. 5，定理6）来认同$V$和$V^{**}$。设$M$为$V$的格子；回想一下，$M$的对偶$A$模$M^*$在规范上与$M$的*对偶格子*、$x^* \in V^*$的集合一致地识别，使得$\langle x, x^* \rangle \in A$对于所有$x \in M$；因此，$M$的*对偶的*$A$模$M^{**}$是$V$的*格子*，其中包含$M$。此外，$M^{***} = M^*$，对于关系$M \subset M^{**}$意味着$(M^{**})^* \subset M^*$，而另一方面$M^* \subset (M^*)^{**}$通过上述（cf.*集合理论*，章III, § 1, no. 5，命题2）。
 
 如果 $p$ 是素理想，命题 5 与 $N = A$ 一起应用会得到关系 $(M^*)_p = (M_p)^*$，这证明记号 $M_p^*$ 对于项都是合理的。
 
@@ -324,7 +324,7 @@ $$
 \langle x^* \otimes 1, \omega_{M^*}(x^{**} \otimes 1) \rangle = \rho(\langle x^*, x^{**} \rangle)
 $$
 
-对于 $x^* \in M$ 和 $x^{**} \in M^{**}$。另一方面，还有同构$^t\omega_M: (M_{(S)})^{**} \to ((M^*)_{(S)})^*$、从而乘合成典范同构：
+对于 $x^* \in M$ 和 $x^{**} \in M^{**}$。另一方面，有同构$^t\omega_M: (M_{(S)})^{**} \to ((M^*)_{(S)})^*$、从而乘合成典范同构：
 
 $$
 \phi = (t\omega_M^{-1}) \circ (\omega_{M^*}): (M^{**})_{(S)} \to (M_{(S)})^{**}
@@ -365,11 +365,11 @@ $$
 
 *设V为K和M上有限秩的向量空间，相对于A为V的格子。*
 
-(i) *令 N 为相对于 A V 的格子；那么，对于 A 的每个素理想 p，$N_p$ 是关于 A 的V 格，并且对于几乎所有* $p \in P, N_p = M_p$。
+(i) *令N为关于A的V的格子；那么，对于 A 的每个素理想 p，$N_p$ 是关于 A 的 V 格，并且对于几乎所有* $p \in P, N_p = M_p$。
 
 (ii) *相反，假设对于 A 而言，给出所有* $p \in P$ *格子* $N(p)$ *的 V，使得* $N(p) = M_p$ *对于几乎所有* $p \in P$。 *那么*$N = \bigcap N(p)$*是A相对于A的自反格子，并且它是V关于A的唯一自反格子*$N'$*使得*$N'_p = N(p)$*对于所有*$p \in P$。
 
-(i) 第一个断言由no. 1，命题4得出。此外，$\mathbf{K}^*$中存在$x, y$，使得$xN \subset M \subset yN$(no. 1，命题2)；我们知道，对于几乎所有$p \in P, v_p(x) = v_p(y) = 0$（$§ 1$，no. 6，定理 4），这表明$x$和$y$在$A$中是可逆的，因此$M_p = N_p$。
+(i) 第一个断言由no. 1、命题4得出。此外，$\mathbf{K}^*$中存在$x, y$，使得$xN \subset M \subset yN$(no. 1、命题2)；我们知道，对于几乎所有$p \in P, v_p(x) = v_p(y) = 0$（$§ 1$、no. 6、定理 4），这表明$x$和$y$在$A$中是可逆的，因此$M_p = N_p$。
 
 (ii) 我们可以将替换$M$乘以$x^{-1}M$，其中$x \neq 0$在$A$中，并假设$N(p) \subset M$，对于所有$p \in P$。令$p_1, \ldots, p_h$为$P$的元素，使得$N(p) = M$，因为$p$不同于$p_i$（$1 \leq i \leq h$）；我们写：
 
@@ -407,7 +407,7 @@ $$
 
 #### 注 {#ac-vii-s4-n3-rem-1 .statement tag=053G}
 
-令$L$为$V$相对于$A$的自由格。由于$A_p$对于$p \in P$来说是主理想整环，$N(p)$是与$L$相同的秩的自由$A$模块，并且存在$u(p) \in \mathbf{GL}(V)$使得$u(p)(L_p) = N(p)$；这个条件还有确定$u(p)$到乘法到$\mathbf{GL}(L_p)$的元素之内。 条件$N(p) = L_p$对于几乎所有$p \in P$意味着必然$u(p) \in \mathbf{GL}(L_p)$对于几乎所有$p \in P$。家庭$(u(p))_{p \in P}$满足后者性质形式乘法群$\mathbf{GL}_a(V)$包含为子群乘积$\prod_{p \in P} \mathbf{GL}(L_p)$。 定理 3 然后表明 V 自反格的 *集合与齐次空间* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ 处于规范的一对一对应中。如果选择 A 上的 L 的基 $(e_i)_{1 \leq i \leq n}$，则$\mathbf{GL}(V)$（分别为 $\mathbf{GL}(L_p)$）被识别为可逆矩阵 $\mathbf{GL}(n, K)$（分别为 $\mathbf{GL}(n, A, )$）和群的群 $\mathbf{GL}_a(V)$与阶$n$、$(U(p))_{p \in P}$的矩阵、系统群，使得$U(p) \in \mathbf{GL}(n, K)$对于所有$p \in P$以及$U(p) \in \mathbf{GL}(n, A_p)$对于几乎所有$p \in P$。如果 A 是 Dedekind 域，群 $\mathbf{GL}_a(V)$ 也可以用群 $\mathbf{GL}(n, A)$ 来标识，其中 A 是受限 adèles ($§ 2$, no. 4) 的环。
+令$L$为$V$相对于$A$的自由格。由于$A_p$对于$p \in P$来说是主理想整环，$N(p)$是与$L$相同的秩的自由$A$模块，并且存在$u(p) \in \mathbf{GL}(V)$使得$u(p)(L_p) = N(p)$；这个条件还有确定$u(p)$到乘法到$\mathbf{GL}(L_p)$的元素之内。 条件$N(p) = L_p$对于几乎所有$p \in P$意味着必然$u(p) \in \mathbf{GL}(L_p)$对于几乎所有$p \in P$。家庭$(u(p))_{p \in P}$满足后者性质形式乘法群$\mathbf{GL}_a(V)$包含为子群乘积$\prod_{p \in P} \mathbf{GL}(L_p)$。 定理 3 然后表明 V 自反格的 *集合与齐次空间* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ 处于规范的一对一对应中。如果选择 A 上的 L 的基 $(e_i)_{1 \leq i \leq n}$，则$\mathbf{GL}(V)$（分别为 $\mathbf{GL}(L_p)$）被识别为可逆矩阵 $\mathbf{GL}(n, K)$（分别为 $\mathbf{GL}(n, A, )$）和群的群 $\mathbf{GL}_a(V)$与阶$n$、$(U(p))_{p \in P}$、矩阵、系统群，使得$U(p) \in \mathbf{GL}(n, K)$对于所有$p \in P$以及$U(p) \in \mathbf{GL}(n, A_p)$对于几乎所有$p \in P$。如果 A 是 Dedekind 域，群 $\mathbf{GL}_a(V)$ 也可以用群 $\mathbf{GL}(n, A)$ 来标识，其中 A 是受限 adèles ($§ 2$, no. 4) 的环。
 
 ### 4. 伪同构
 
@@ -507,13 +507,13 @@ $$
 
 在定理 5 中的叙述中，模 $A/p_i^{n_i}$ 可以替换为 $A/p_i^{(n_i)}$（$§ 1$、no. 4、命题 8）。对于所有 $p \in P$，典范映射 $g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p)$ 是伪同构，就像对于所有与 $p$、$A_q/p^nA_q = A_q/p^{(n)}A_q = 0$ 和 $A_p/p^nA_p = A_p/p^{(n)}A_p$ 不同的 $q \in P$ 而言。
 
-\* 给定$A$模块的正合序列，$E \to F \to G$，如果$E$和$G$是伪零，$F$也是伪零，如下从定义2和章II, §2, no. 4，定理1。在语言中的类别，我们可以说，在 $A$ 模块的类别 $\mathscr{C}$ 中，伪零模的子类别 $\mathscr{C}'$ 是*满*，然后我们可以定义的*商*类别 $\mathscr{C}/\mathscr{C}'$：该类别中的对象也是 $A$ 模块但从$E$到$F$的态射集合（对于$\mathscr{C}/\mathscr{C}'$中的$E, F$）是可交换的群$\mathrm{Hom}_A(E', F')$的集合直极限，其中$E'$ （分别为$F'$）穿过$E$的子模的集合（分别为商模的集合、$F$的$F/F''$），使得$E/E'$（分别为$F''$）是伪零。当然，对于$A$模块$E, F$的每一个有序对，都有典范同态$\mathrm{Hom}_{\mathscr{E}}(E, F) \to \mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$。说同态$u \in \mathrm{Hom}_A(E, F)$是伪零（分别是伪内射、伪满射、伪双射）意味着它在$\mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$中的典范像是零（分别是单同态、泛同态、同构）。 \*
+\* 给定$A$模块的正合序列，$E \to F \to G$，如果$E$和$G$是伪零，$F$也是伪零，如下从定义2和章II, §2, no. 4，定理1。在语言中的类别中，我们可以说，在 $A$ 模块的类别 $\mathscr{C}$ 中，伪零模的子类别 $\mathscr{C}'$ 是*满*，然后我们可以定义的*商*类别 $\mathscr{C}/\mathscr{C}'$: 对象在这个类别中也是$A$-模块但从$E$到$F$（对于$\mathscr{C}/\mathscr{C}'$中的$E, F$）态射集合是可交换的群$\mathrm{Hom}_A(E', F')$的集合直极限，其中$E'$ （分别$F'$）穿过$E$的子模的集合（分别商模$F/F''$的集合、$F$），使得$E/E'$（分别$F''$）是伪零。当然，对于$A$模块$E, F$的每一个有序对，都有典范同态$\mathrm{Hom}_{\mathscr{E}}(E, F) \to \mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$。说同态$u \in \mathrm{Hom}_A(E, F)$是伪零（分别是伪内射、伪满射、伪双射）意味着它在$\mathrm{Hom}_{\mathscr{E}/\mathscr{E}'}(E, F)$中的典范像是零（分别是单同态、泛同态、同构）。 \*
 
-### 5.除子附加到挠元模
+### 5. 除子附加到挠元模
 
 我们保留与第 1 条中相同的记号和假设。 2、3和4。回想一下，$D(A)$（或简称为$D$）表示$A$的*除子群*，相加写成：我们知道（§ 1, no. 3，定理2）$D$是免费的$\mathbf{Z}$-由$P$的元素生成的模块。
 
-令 $T$ 为有限生成的挠元 $A$ 模块。对于所有$p \in P$，$T_p$是有限生成的挠元$A_p$模块，因此模为*有限长度*（章IV, § 2, no. 5，推论2到命题7）；我们用$l_p(T)$来表示这个长度。现在$T_p = 0$对于所有$p$而不是包含湮没子或$T$，因此对于几乎所有$p$（§ 1, no. 6，定理4），这证明了以下定义：
+令 $T$ 为有限生成的挠元 $A$ 模块。对于所有$p \in P$，$T_p$是有限生成的挠元$A_p$模块，因此模为*有限长度*（章IV, § 2, no. 5，推论2到命题7）；我们用$l_p(T)$来表示这个长度。现在$T_p = 0$对于所有$p$而不是$T$的包含湮没子，因此对于几乎所有$p$（§ 1, no. 6，定理4），这证明了以下定义的合理性：
 
 #### 定义 4 {#ac-vii-s4-def-4 .statement tag=053Q}
 
@@ -527,7 +527,7 @@ $$
 
 #### 命题 10 {#ac-vii-s4-prop-10 .statement tag=053R}
 
-(i) *令$0 \to T_1 \to T_2 \to T_3 \to 0$为有限生成的挠元$A$模块的正合序列。然后*
+(i) *令 $0 \to T_1 \to T_2 \to T_3 \to 0$ 为有限生成的挠元 $A$ 模块中的正合序列。然后*
 
 $$
 \chi(T_2) = \chi(T_1) + \chi(T_3).
@@ -543,24 +543,24 @@ $$
 
 *令 $0 \to T_n \to T_{n-1} \to \ldots \to T_0 \to 0$ 为有限生成的挠元 $A$ 模块中的正合序列。然后*$\sum_{i=0}^n (-1)^i \chi(T_i) = 0$。
 
-鉴于章 II, § 2, no. 4、定理 1，这再次从 $l_p$ 的类似性质得出（*代数*、章 II, § 1, no. 10，推论 3 至命题 16）。
+鉴于章II, § 2, no. 4、定理1，这又是从$l_p$的类似性质得出的（*代数*、章II, § 1, no. 10，推论3至命题 16）。
 
-回想一下(章II, § 5, no. 4)，我们可以谈论有限生成A-模**类*集合*$F(A)$相对于同构的关系；对于每个有限生成A-模 M，令 $\mathrm{cl}(M)$ 表示 $F(A)$ 的相应的元素；我们用有限生成的挠元A-模的$F(A)$由……组成、类的$T(A)$子集来表示。显然，$T(A)$到$D(A)$的$\chi$定义映射，也用$\chi$表示，使得$\chi(\mathrm{cl}(T)) = \chi(T)$。
+回想一下(章II, § 5, no. 4)，我们可以相对于同构的关系来谈论有限生成A-模*的*类*集合*$F(A)$；对于每个有限生成A-模 M，令 $\mathrm{cl}(M)$ 表示 $F(A)$ 的相应的元素；我们用有限生成的挠元A-模的$F(A)$由……组成、类的$T(A)$子集来表示。显然，$T(A)$到$D(A)$的$\chi$定义映射，也用$\chi$表示，使得$\chi(\mathrm{cl}(T)) = \chi(T)$。
 
 #### 命题 11 {#ac-vii-s4-prop-11 .statement tag=053T}
 
-*设 G 是可加写的交换律群和 $\phi : T(A) \to G$ 映射；对于每个有限生成的挠元 A-模 T，我们还滥用语言写出 $\phi(T) = \phi(\mathrm{cl}(T))$。假设满足以下条件：
+*设 G 是可加写的交换律群且 $\phi : T(A) \to G$ 映射；对于每个有限生成的挠元 A-模 T，我们还滥用语言写出 $\phi(T) = \phi(\mathrm{cl}(T))$。假设满足以下条件：
 (1) *如果* $0 \to T_1 \to T_2 \to T_3 \to 0$ *是有限生成的挠元 A-模中的正合序列，则* $\phi(T_2) = \phi(T_1) + \phi(T_3)$。
 (2) *如果* T *是伪零，则* $\phi(T) = 0$。
 *那么存在唯一同态* $\theta : D(A) \to G$ *使得* $\phi = \theta \circ \chi$。*
 
-由于$\chi(A/p) = p$对于所有p，必然对于所有$p \in P$来说$\theta(p) = \phi(A/p)$，这证明了$\theta$的唯一性，因为P形式的元素$D(A)$的基。相反，让$\theta$是从$D(A)$到G的同态，这样对于所有$p \in P$都有$\theta(p) = \phi(A/p)$，并让我们证明它可以解决问题。为此，我们写
+由于对于所有 p $\chi(A/p) = p$，必然对于所有 $p \in P$ $\theta(p) = \phi(A/p)$，这证明了 $\theta$ 的唯一性，因为 P 形式的元素 $D(A)$ 的基。相反，让 $\theta$ 成为从 $D(A)$ 到 G 的同态，这样对于所有 $p \in P$ 都有 $\theta(p) = \phi(A/p)$，并让我们证明它可以求解问题。为此，我们写
 
 $$
 \psi(T) = \phi(T) - \theta(\chi(T))
 $$
 
-对于每个有限生成的挠元 A-模 T；显然，如果将$\phi$替换为$\psi$，则条件（1）和（2）也满足。另一方面，如果$p \in P$，则$\psi(A/p) = 0$；如果 p 是素理想 $\neq 0$ 并且不在 P 中，则 $A/p$ 的湮没子不包含在 P 的任何理想中，因此 (no. 4, 定理 5) $A/p$ 是伪零，因此 $\psi(A/p) = 0$。既然如此，每个有限生成的挠元A-模T承认分解级数，其因子同构于形式$A/p$的A-模，其中$p \in \mathrm{Supp}(T)$ （章 IV, § 1, no. 4、定理 1 和 2），因此为 $p \neq 0$，因为 T 为挠元模。通过分解级数的长度上的归纳，我们推论（鉴于$\psi$的性质（1））$\psi(T) = 0$。
+对于每个有限生成的挠元 A-模 T；显然，如果将$\phi$替换为$\psi$，则条件（1）和（2）也满足。另一方面，如果$p \in P$，则$\psi(A/p) = 0$；如果 p 是素理想 $\neq 0$ 并且不在 P 中，则 $A/p$ 的湮没子不包含在 P 的任何理想中，因此 (no. 4, 定理 5) $A/p$ 是伪零，因此 $\psi(A/p) = 0$。既然如此，每个有限生成的挠元A-模T都承认分解级数，其因子同构于形式$A/p$的A-模，其中$p \in \mathrm{Supp}(T)$ （章 IV, § 1, no. 4、定理 1 和 2），因此为 $p \neq 0$，因为 T 为挠元模。通过分解级数的长度上的归纳，我们推导出（鉴于$\psi$的性质（1））$\psi(T) = 0$。
 
 \* 我们可以像no. 4一样，考虑有限生成的挠元A-模的类别$\mathscr{T}$的商类别$\mathscr{T}/\mathscr{T}'$与有限生成的伪零挠元A-模的完整子类别$\mathscr{T}'$。在阿贝尔的类别的语言中，命题11则表示阿贝尔的类别$\mathscr{T}/\mathscr{T}'$的*格罗滕迪克群*与$D(A)$自然同构。 \*
 
@@ -576,7 +576,7 @@ $$
 
 另一方面，$(A : a) = A ; aA_p = p^{-n_p}A_p$，因此$l_p((A : a)/A) = n_p$，我们以同样的方式结论。
 
-### 6. 两个格的相对不变量
+### 6. 两个格子的相对不变量
 
 我们保留记号和 no 的假设。 2 到 5. 设 V 为 $K$ 上有限秩 $n$ 的向量空间，M 为关于 A 的 V 格子。设 W 为外部幂 $\bigwedge^n V$，即 *秩的向量空间 1* 在 $K$ 上，令 $M_w$ 表示在典范映射 $V^n \to \bigwedge^n V$ 下由 $M^n$ 的像生成的 W 晶格 (no. 1, 命题 3 (iii); 注，$M_w$ 不一定同构于$\bigwedge^n M$（*代数*、章III, § 5、习题9））。如果$e$是W除以K的基，我们可以写成$M = a.e$，其中a是A的分数理想$\neq 0$。
 
@@ -648,35 +648,35 @@ $$\operatorname{Coker}(f) = L_2/u(L_2),$$
 
 #### 例 {#ac-vii-s4-n6-exa-1 .statement tag=053Y}
 
-如果 $A = \mathbf{Z}$，$A$ 的除子群等同于有理数数 > 0 的乘法群 $\mathbf{Q}_+^*$。对于每个有限交换群 T，$\chi(T)$ 是 T 的 *阶*；上述推论表明，群$\operatorname{Coker}(f)$的阶等于$\det(U)$的*绝对值*（cf.*代数*，章VII, § 4, no. 7，推论3到定理 3）。
+如果$A = \mathbf{Z}$，$A$的除子群等同于有理数>0的乘法群$\mathbf{Q}_+^*$。对于每个有限交换群T，$\chi(T)$是T的*阶*；上述推论表明，群$\operatorname{Coker}(f)$的阶等于$\det(U)$的*绝对值*（cf.*代数*，章VII, § 4, no. 7，推论3到定理 3）。
 
 ### 7. 除子类附加到有限生成模
 
-我们保留记号和 no 的假设。 2 到 6. 回想一下，C(A)（或简称为 C）表示 $A$ 的除子类群，$D(A)$ 与本金除子的子群的商。对于每个除子$d \in D$，我们将用$c(d)$表示其C中的类。
+我们保留记号和 no 的假设。 2 到 6. 回想一下，C(A)（或简称为 C）表示 $A$ 的除子类群，$D(A)$ 除本金除子的子群的商。对于每一个除子$d \in D$，我们用$c(d)$来表示C中的类。
 
 #### 命题 15 {#ac-vii-s4-prop-15 .statement tag=053Z}
 
 *设M为有限生成A-模。存在 M 的自由子模 L，使得 M/L 为挠元模并且 C 的元素 $c(\chi(M/L))$ 不依赖于所选择的自由子模 L。*
 
-我们写 $S = A - \{0\}$ 并令 $V = S^{-1}M = M \otimes_A K$；如果$n$在K上是V的秩，则在V形式基中存在典范像的M的$n$元素$e_i$($1 \leq i \leq n$) V；这些元素显然在M中线性无关，因此生成是M的一个自由子模L，使得$S^{-1}(M/L) = S^{-1}M/S^{-1}L = 0$，因此M/L是挠元模。
+我们写 $S = A - \{0\}$ 并令 $V = S^{-1}M = M \otimes_A K$；如果$n$是K上V的秩，则在V形式基中存在典范像的M的$n$元素$e_i$($1 \leq i \leq n$) V；这些元素显然在M中线性无关，因此生成是M的一个自由子模L，使得$S^{-1}(M/L) = S^{-1}M/S^{-1}L = 0$，因此M/L是挠元模。
 
-现在让L，秩$n$M的另一个自由子模。由于$S^{-1}L = S^{-1}L_1$，存在$s \in S$使得$sL_1 \subset L$；因此，我们可以将极限自己推导为证明，如果$L_1 \subset L_2$是秩$n$中M的两个自由的子模，那么
+现在让L，另一个自由秩$n$M的子模。由于$S^{-1}L = S^{-1}L_1$，存在$s \in S$使得$sL_1 \subset L$；因此，我们可以将极限自己推导为证明，如果$L_1 \subset L_2$是秩$n$的M的两个自由的子模，那么
 
 $$
 c(\chi(M/L_1)) = c(\chi(M/L_2)).
 $$
 
-现在，$\chi(M/L_1) = \chi(M/L_2) + \chi(L_2/L_1)$，从no. 6得出，推论到命题14，$\chi(L_2/L_1)$是本金除子，因此
+现在，$\chi(M/L_1) = \chi(M/L_2) + \chi(L_2/L_1)$，从no. 6得出，推论到命题 14，$\chi(L_2/L_1)$是本金除子，因此
 
 $$
 c(\chi(L_2/L_1)) = 0.
 $$
 
-以下将元素$c(\chi(M/L))$记为$-c(M)$；我们可以说 $c(M)$ 是除子类附加到 M 上。
+下面将元素$c(\chi(M/L))$记为$-c(M)$；我们可以说 $c(M)$ 是除子类附加到 M 上。
 
 #### 命题 16 {#ac-vii-s4-prop-16 .statement tag=0540}
 
-(i) *令 $0 \to M_1 \xrightarrow{\alpha} M_2 \xrightarrow{g} M_3 \to 0$ 为正合序列 / 有限生成A-模。然后*
+(i) *令 $0 \to M_1 \xrightarrow{\alpha} M_2 \xrightarrow{g} M_3 \to 0$ 为有限生成A-模中的正合序列。然后*
 
 $$
 c(M_2) = c(M_1) + c(M_3).
@@ -692,7 +692,7 @@ $$
 c(a) = c(\operatorname{div}(a)).
 $$
 
-(v) *如果 L 是自由A-模，则 $c(L) = 0$。
+(v) *如果L是自由A-模，则$c(L) = 0$。
 
 为了证明 (i)，考虑 M 的自由子模块 $L_1$（分别为 $L_3$）（分别为 $M_3$），使得 $M_1/L_1$（分别为 $M_3/L_3$）为挠元模。由于 $L_3$ 是自由的，$g$ 是满射的，$g^{-1}(L_3)$ 中存在 $\operatorname{Ker}(g)$ 的自由补集 $L_{23}$，它与 $L_3$ 同构的 (*代数*, 章 II, § 1, no. 11, 命题 21）；但是 $\operatorname{Ker}(g) = f(M_1)$ 包含 $f(L_1) = L_{12}$ 是自由的，因为 $f$ 是单射的。 和 $L_2 = L_{12} + L_{23}$ 是直接的，因此 $L_2$ 是 $M$ 的*免费* 子模。此外还有交换律图表：
 
@@ -839,21 +839,21 @@ $$
 0 \longrightarrow A \xrightarrow{h_x} A \longrightarrow A/xA \longrightarrow 0
 $$
 
-其中$h_x$是x乘以乘法，我们得到$\phi(A/xA) = 0$，从而$\theta_0(\mathrm{div}(x)) = 0$。对每个挠元 A-模 T 取商，$\theta_0$ 因此定义同态 $\theta_1 : C \to G$ 和 $\phi(T) = \theta_1(c(T))$。我们现在证明，由 $\theta(n, z) = n.\phi(A) + \theta_1(z)$ 定义的同态 $\theta$ 可以求解问题。为此，我们为每有限生成A-模 M 写 $\phi'(M) = \phi(M) - \theta(\gamma(M))$；显然，如果将$\phi$替换为$\phi'$，条件(1)仍然满足。此外，当M为挠元模或自由模时，$\phi'(M) = 0$；但对于每一个有限生成A-模 M，都存在 M 的一个自由子模 L，使得 M/L 为挠元模 (命题 15)，性质 (1) 表明对于每有限生成A-模 M 都有 $\phi'(M) = 0$。
+其中$h_x$是x乘以乘法，我们得到$\phi(A/xA) = 0$，从而$\theta_0(\mathrm{div}(x)) = 0$。对每个挠元 A-模 T 取商，$\theta_0$ 因此定义同态 $\theta_1 : C \to G$ 和$\phi(T) = \theta_1(c(T))$。我们现在证明，由 $\theta(n, z) = n.\phi(A) + \theta_1(z)$ 定义的同态 $\theta$ 可以求解问题。为此，我们为每有限生成A-模 M 写 $\phi'(M) = \phi(M) - \theta(\gamma(M))$；显然，如果将$\phi$替换为$\phi'$，条件(1)仍然满足。此外，当M为挠元模或自由模时，$\phi'(M) = 0$；但对于每一个有限生成A-模 M，都存在一个 M 的自由子模 L，使得 M/L 为挠元模 (命题 15)，性质 (1) 表明对于每有限生成A-模 M 都有 $\phi'(M) = 0$。
 
 \* 在阿贝尔的类别的语言中，命题17表明$\mathbf{Z} \times C(A)$与商类别$\mathscr{F}/\mathscr{F}'$的格罗滕迪克群规范同构，其中$\mathscr{F}$是有限生成A-模的类别，$\mathscr{F}'$是有限生成A-模的完整子类别伪零模的$\mathscr{F}$由……组成。 \*
 
 ### 8. 与标量环的有限扩张相关的性质
 
-在此式中，A和B表示两个整体闭的诺特域，使得$A \subset B$和B分别为A和B的分数的有限生成A-模和K和L域。对于A-模，我们将分别写为div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$，而不是div、$\chi$、c、y、r，并使用类似的记号来表示B-模。
+在此式中，A和B表示两个整体封闭的诺特域，使得$A \subset B$和B分别为A和B的分数的有限生成A-模和K和L域。对于A-模，我们将分别写为div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$，而不是div、$\chi$、c、y、r，并使用类似的记号来表示B-模。
 
-我们知道(§ 1, no. 10)，对于B的素理想$\mathfrak{p}$的高度为1，$\mathfrak{p} = \mathfrak{P} \cap A$的高度为1是充分必要的；此外（前述，命题 14）对于$\mathfrak{p} \in P(A)$，只有有限的数素理想$\mathfrak{P} \in P(B)$位于$\mathfrak{p}$之上。简而言之，我们将用$\mathfrak{P}|_{\mathfrak{p}}$关系表示““$\mathfrak{P}$位于$\mathfrak{p}$之上”（即$\mathfrak{p} = \mathfrak{P} \cap A$）；然后我们将用$e_{\mathfrak{P}/\mathfrak{p}}$或$e(\mathfrak{P}/\mathfrak{p})$表示指标$e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$的分支估值 $v_{\mathfrak{P}}$ 高于估值 $v_{\mathfrak{p}}$ (章 VI, § 8, no. 1) 以及 $f_{\mathfrak{P}/\mathfrak{p}}$ 或 $f(\mathfrak{P}/\mathfrak{p})$ 剩余类类次数 $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$（前述离散估值）； $v_{\mathfrak{p}}$和$v_{\mathfrak{P}}$被规范，$f_{\mathfrak{P}/\mathfrak{p}}$是$B/\mathfrak{P}$分数域次数超过$A/\mathfrak{p}$分数域。 集合 $n = r_A(B)$，其中 B 被视为 A-模；因此，定义 $n = [L:K]$，并且对于所有 $\mathfrak{p} \in P(A)$，$n$ 也是自由 A 的秩，对于所有 $\mathfrak{P}|_{\mathfrak{p}}$，则可以得出。 章 VI, § 8, no. 5、定理 2 对于所有 $\mathfrak{p} \in P(A)$：
+我们知道(§ 1, no. 10)，对于B的素理想$\mathfrak{p}$的高度为1，$\mathfrak{p} = \mathfrak{P} \cap A$的高度为1是充分必要的；此外（前述，命题 14）对于$\mathfrak{p} \in P(A)$，只有有限的数素理想$\mathfrak{P} \in P(B)$位于$\mathfrak{p}$之上。简而言之，我们将用$\mathfrak{P}|_{\mathfrak{p}}$关系表示“$\mathfrak{P}$位于$\mathfrak{p}$之上”（即$\mathfrak{p} = \mathfrak{P} \cap A$）；然后我们将用$e_{\mathfrak{P}/\mathfrak{p}}$或$e(\mathfrak{P}/\mathfrak{p})$表示指标$e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$的分支估价 $v_{\mathfrak{P}}$ 超过估价 $v_{\mathfrak{p}}$ (章 VI, § 8, no. 1) 以及 $f_{\mathfrak{P}/\mathfrak{p}}$ 或 $f(\mathfrak{P}/\mathfrak{p})$ 剩余类类次数 $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$（前述离散估价）； $v_{\mathfrak{p}}$和$v_{\mathfrak{P}}$被规范，$f_{\mathfrak{P}/\mathfrak{p}}$是$B/\mathfrak{P}$分数域次数超过$A/\mathfrak{p}$分数域。 集合 $n = r_A(B)$，其中 B 被视为 A-模；因此，定义 $n = [L:K]$，并且对于所有$\mathfrak{p} \in P(A)$，$n$ 也是自由 A 的秩，对于所有$\mathfrak{P}|_{\mathfrak{p}}$，则可以得出。 章 VI, § 8, no. 5、定理 2 对于所有 $\mathfrak{p} \in P(A)$：
 
 $$
 \sum_{\mathfrak{P}|_{\mathfrak{p}}} e_{\mathfrak{P}/\mathfrak{p}} f_{\mathfrak{P}/\mathfrak{p}} = n.
 $$
 
-正是如此，由于$D(A)$和$D(B)$是免费的$\mathbf{Z}$模块，我们对定义递增同态订购群$N : D(B) \to D(A)$（也表示为$N_{B/A}$）， 条件：
+既然如此，由于$D(A)$和$D(B)$是免费的$\mathbf{Z}$模块，我们对定义递增同态订购群$N : D(B) \to D(A)$（也表示为$N_{B/A}$）， 条件：
 
 $$
 N(\mathfrak{P}) = f_{\mathfrak{P}/\mathfrak{p}} \cdot \mathfrak{p} \quad \text{for} \quad \mathfrak{P} \in P(B), \quad \text{where} \quad \mathfrak{p} = \mathfrak{P} \cap A.
@@ -1012,7 +1012,7 @@ $$
 (M \otimes_A B) \otimes_B L = M \otimes_A L = (M \otimes_A K) \otimes_K L
 $$
 
-$(M \otimes_A K) \otimes_K L$超过$L$的秩等于$M \otimes_A K$超过$K$的秩。为了显示(23)，考虑$M$的自由子模$H$，使得$Q = M/H$是挠元$A$模。 应用引理 4 如上所述，我们得到$B$个模块中的正合序列：
+并且$(M \otimes_A K) \otimes_K L$超过$L$的秩等于$M \otimes_A K$超过$K$的秩。为了显示(23)，考虑$M$的自由子模$H$，使得$Q = M/H$是挠元$A$模。 应用引理 4 如上所述，我们得到$B$个模块中的正合序列：
 
 $$
 0 \to I \to H \otimes_A B \to M \otimes_A B \to Q \otimes_A B \to 0
@@ -1094,19 +1094,19 @@ S^{-1}M/pS^{-1}M = (M/pM) \otimes_A S^{-1}A = M \otimes_A ((A/p) \otimes_A S^{-1
 $$
 对于所有$p \in Y$。到章II, § 1, no. 2、命题6，存在元素$z/s \in S^{-1}M$($z \in M, s \in S$)，其$p \in Y$的$M(p)$中的典范像都是$\neq 0$。通过 $S$ 的定义，因此所有 $p \in Y$ 为 $z(p) \neq 0$。我们可以进一步假设$y$和$z$在$K$上“线性独立”。在相反的情况下，考虑元素$t \in M$，它与$y$线性无关（从$n \geqslant 2$开始就存在）；另一方面，取元素$a \neq 0$属于到$\bigcap_{p \in Y} p$（由于$A$是整环，因此不会减少到0）并写出$z' = z + at$：显然$y$和$z'$在$K$上是线性独立的以及所有$p \in Y$的$z'(p) = z(p) \neq 0$。
 
-因此，假设$y$和$z$在$K$上线性无关，令$Z$是$p \in P - Y$的集合，使得$y(p)$和$z(p)$在$k(p)$上线性无关；从引理 7 可以得出，这个集合是*有限的*。因此，对于所有$p \in Z$，我们可以在$\lambda(p) \in k(p)$处写出$z(p) = \lambda(p)y(p)$。现在，$\operatorname{Card}(A/p) > 2$适用于所有$p \in P$；因此，从引理 6 可以得出，存在$b \in A$，使得对于所有$p \in Z$，$A/p$中$b$的典范像不同于$\lambda(p)$。现在我们证明元素$x = z - by$可以解决问题；它足以（凭借引理 7 与 $m = 1$ 的应用）来验证$x(p) \neq 0$ 对于*所有* $p \in P$。现在：
+因此，假设$y$和$z$在$K$上线性无关，令$Z$是$p \in P - Y$的集合，使得$y(p)$和$z(p)$在$k(p)$上线性无关；从引理 7 可以得出，这个集合是*有限的*。因此，对于所有$p \in Z$，我们可以在$\lambda(p) \in k(p)$处写出$z(p) = \lambda(p)y(p)$。现在，$\operatorname{Card}(A/p) > 2$适用于所有$p \in P$；因此，从引理 6 可以得出，存在$b \in A$，使得对于所有$p \in Z$，$A/p$中$b$的典范像不同于$\lambda(p)$。我们现在证明元素$x = z - by$可以解决问题；它足以（凭借引理 7 与 $m = 1$ 的应用）来验证$x(p) \neq 0$ 对于*所有* $p \in P$。现在：
 
 — 如果$p \in Y$，则$x(p) \neq 0$乘以构造；
 — 如果$p \in Z$，则$x(p) = \mu_p y(p)$，其中$\mu_p \neq 0$凭借$b$的选择，因此自$y(p) \# 0$以来$x(p) \neq 0$；
 — 如果 $p \in P - (Y \cup Z)$、$y(p)$ 和 $z(p)$ 是线性独立的，因此$x(p) \neq 0$。
 
-建立了这些引理后，我们转到定理的证明 6。我们通过归纳对$n$进行论证，$n \leq 1$的情况是微不足道的，因为$M$本身同构于$A$的理想。因此假设 $n \geq 2$；由于引理 8，存在秩 1 的$M$的自由子模$L_0$，使得$M/L_0$无扭转；因此，$M/L_0$ 是秩 $n - 1$。到归纳假设时，存在$M/L_0$的自由子模$L$，使得$(M/L_0)/L_1$同构于理想的$A$。令$L$为$M$中$L_1$的逆像； $L/L_0$与$L_1$同构的，并且由于$L_1$是自由的，$L$与$L_0 \oplus L_1$同构的（代数，章II, § 1, no. 11，命题21），因此是自由的；由于$M/L$与$(M/L_0)/L_1$同构的，定理已被证明。
+建立了这些引理后，我们转到定理的证明 6。我们通过归纳对$n$进行论证，$n \leq 1$的情况是微不足道的，因为$M$本身同构于$A$的理想。因此假设 $n \geq 2$；由于引理 8，存在秩 1 的$M$的自由子模$L_0$，使得$M/L_0$无扭转；因此$M/L_0$等于秩$n - 1$。到归纳假设，存在$M/L_0$的自由子模$L$，使得$(M/L_0)/L_1$同构于理想的$A$。令$L$为$M$中$L_1$的逆像； $L/L_0$同构于$L_1$，并且由于$L_1$是自由的，$L$同构于$L_0 \oplus L_1$（代数，章II, § 1, no. 11，命题21），因此也是自由的；由于$M/L$与$(M/L_0)/L_1$同构的，定理已被证明。
 
 #### 注 {#ac-vii-s4-n9-rem-1 .statement tag=054F}
 
 如果 $M$ 是自反的，那么 $M/L$ (习题 9) 则不一定成立。
 
-### 10. 模超过 DEDEKIND 域
+### 10. 模超过 DEDEKIND 领域
 
 我们现在假设$A$是一个戴德金域；那么我们知道理想 $p \in P$ 是最大的，并且它们是 $A$ 的唯一素理想 $\neq 0$ ($§ 2$, no. 1 )； 群$D(A)$与$A$的分数理想$\neq 0$的群$I(A)$进行识别。
 
@@ -1144,9 +1144,9 @@ $$
 no. 9的定理 6表明存在$M$的自由子模$L$，使得$M/L$同构于$A$的理想$a$。如果$a = 0$，我们取$b = A$。否则，$a$ 为秩 1，因此 $L = A^{n-1}$ 和 $a$ 是*射影* 模 (命题 22)；因此，$M$与$L$和$a$的直和同构（*代数*，章II, § 2, no. 2，命题4），这证明了命题的第一个部分。另外，根据no. 7、命题16(i)、(iv)、(v)，可得出$b$的类的$c(M) = c(b)$从而唯一性。
 
 注
-(1) 命题 23 和 24 以及命题 22 确定完全结构有限生成的 $A$ 模块的推论。 命题 24 表明，无扭转有限生成的 $A$ 模块由其 *秩* 和附加到它的 *除子* 类确定至同构。
-(2) 可以证明，在非有限生成的 Dedekind 域投射模必然是*自由* (习题 21)，并且投射模的每个子模都是射影 (习题 20)。
+(1) 命题 23 和 24 以及命题 22 确定的推论完全是有限生成的 $A$ 模块的结构。 命题 24 表明，无扭转有限生成的 $A$ 模块由其 *秩* 和附加到它的 *除子* 类确定至同构。
+(2) 可以证明，在非有限生成的 Dedekind 域投射模必然是*自由* (习题 21)，并且投射模的每个子模都是射影的 (习题 20)。
 
-### 习题{#ac-vii-s4-exercises}
+### 习题 {#ac-vii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

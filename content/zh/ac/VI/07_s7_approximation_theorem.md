@@ -25,16 +25,16 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 8c4efeec5d4a065d2208a895a445bba34c4201788d04aff38f6afb496db3dde5
+content_sha256: 93ce0b3d8ec67fc5d8367260894068cd4242da223c82d15439b14b5a55f1ca85
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
 translation_method: google
 source_content_sha256: b2cb895d1415aea075090da4a69834fe352e4f0135aedb112aadd7070f320371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 160b867de9826227e382f8c6bf999ca29ab09ef410650cb48dab4676d66b659a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 7. 近似值定理
@@ -62,7 +62,7 @@ v_i(z) = 0 \qquad \text{if} \quad v_i(x) \geq 0 \\
 v_i(z) + v_i(x) > 0 \qquad \text{if} \quad v_i(x) < 0.
 $$
 
-暂时假设引理，我们展示它如何暗示$A_1 \subset B_{p_1}$。令 $x$ 为 $A_i$ 的非零元素。我们将引理应用于$x$，并将$v_i$与$\mathbf{A}_i$相关联。然后$v_i(z) \geq 0$和$v_i(zx) \geq 0$对于所有$i$，因此$z \in B$和$zx \in B$。作为$v_1(x) \geq 0$，$v_1(z) = 0$，因此$z \notin p_1$。因此$x = zx/z \in B_{p_1}$。 域分数 $B$ 然后包含 $A_1$ 因此是$K$。
+暂时假设引理，我们展示它如何暗示$A_1 \subset B_{p_1}$。令 $x$ 为 $A_i$ 的非零元素。我们将引理应用于$x$，并将$v_i$与$\mathbf{A}_i$相关联。然后$v_i(z) \geq 0$和$v_i(zx) \geq 0$对于所有$i$，因此$z \in B$和$zx \in B$。作为$v_1(x) \geq 0$，$v_1(z) = 0$，因此$z \notin p_1$。因此$x = zx/z \in B_{p_1}$。 域分数 $B$ 然后包含 $A_1$ 因此是 $K$。
 
 我们现在转到引理的证明。令$I$为指标$i$的集合，使得$v_i(x) \geq 0$。对于所有$i \in I$，让$\bar{x}_i$表示$\kappa(\mathbf{A}_i)$中$x$的典范像。对于所有$i \in I$，我们构造一个多项式，如下：如果存在形式(1)的多项式$g(X)$，使得$\kappa(\mathbf{A}_i)$中的$g(\bar{x}_i) = 0$，我们取，是这样一个多项式；否则我们取$f_i = 1$。然后我们写$f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$。显然它是形式(1)的多项式。如果$i \in I$，则$f(x) \in A_i$，并且$(\bar{x}_i) \neq 0$乘以构造；因此$f(x) \notin m(\mathbf{A}_i)$、$v_i(f(x)) = 0$和$v(z) = 0$。如果$i \notin I$，则$v_i(x) < 0$，从而$v_i(f(x)) = kv_i(x)$（§ 3, no. 1，命题 1）并且
 
@@ -74,7 +74,7 @@ $$
 
 #### 命题 2 {#ac-vi-s7-prop-2 .statement tag=04VP}
 
-根据命题 1 的假设，进一步假设$\mathbf{A}_i \not\subset \mathbf{A}_j$ 对应$i \neq j$。那么$p_i$是$B$的不同最大理想，$B$的每个最大理想都等于$p_i$之一。
+根据命题 1 的假设，进一步假设$\mathbf{A}_i \not\subset \mathbf{A}_j$ 对应于$i \neq j$。那么$p_i$是$B$的不同最大理想，$B$的每个最大理想都等于$p_i$之一。
 
 如果$p_i \subset p_j$代表$i \neq j$，则$\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$。然后应用章II, § 3, no. 5就足够了，推论到命题17。
 
@@ -86,13 +86,13 @@ $$
 
 #### 推论 2 {#ac-vi-s7-prop-2-cor-2 .statement tag=04VR}
 
-假设 $A_i \not\subset A_j$ 对应 $i \neq j$。存在 $K$ 的元素 $x_i$ ($1 \leq i \leq n$)，使得 $v_i(x_i) = 0$ 和$v_j(x_i) > 0$ $i \neq j$。
+假设 $A_i \not\subset A_j$ 对应 $i \neq j$。存在$K$的元素$x_i$（$1 \leq i \leq n$）使得$v_i(x_i) = 0$和$v_j(x_i) > 0$对于$i \neq j$。
 
 对于每个指标$i$，将推论1应用于$(a_i)$族，使得$a_i = 1$和$a_j = 0$适用于$j \neq i$。
 
 #### 推论 3 {#ac-vi-s7-prop-2-cor-3 .statement tag=04VS}
 
-每估价环 $K$ 包含 $B$ 包含 $A_i$ 之一。
+每估价环$K$包含$B$包含其中$A_i$之一。
 
 我们可以将注意力集中在$A_i \not\subset A_j$代表$i \# j$的情况。令$V$为$K$包含$B$的估值环。我们写
 $$
@@ -107,7 +107,7 @@ $$
 
 #### 定义 1 {#ac-vi-s7-def-1 .statement tag=04VT}
 
-令$A$和$A'$为相同域$K$的两个估值环。如果$K$是由$A$和$A'$生成的环，则称$A$和$A'$是独立的。如果环是独立的，则$K$ 的两个估值称为独立的，否则称为独立的。
+令$A$和$A'$为相同域$K$的两个估值环。如果$K$是由$A$和$A'$生成的环，则称$A$和$A'$是独立的。如果环是独立的，则 $K$ 的两个估值称为独立的，否则称为独立的。
 
 对 $K$ 的不正确估值独立于对 $K$ 的每个估值。为了使 $K$ 上的高度 1 的两个估值是独立的，它们不等价是充分必要的 (§ 4, no. 5, 命题 6 (c))。
 
@@ -151,19 +151,19 @@ $$
 
 假设由 $v$ 和 $v'$ 定义的拓扑 $\mathscr{T}_v$ 和 $\mathscr{T}_{v'}$ 是相同的。由于 $\mathscr{T}_v$ 是 Hausdorff，$K^2$ 的对角线是闭合的，因此 $v$ 和 $v'$ 是相关的（推论 2 到定理 1）。
 
-相反，假设 $v$ 和 $v'$ 是相关的。那么它们的环$A$和$A'$包含在与$K$不同的相同环$A''$中，并且$A''$是评估$v''$的环（$§ 4$，no. 1， 命题1)。只要证明拓扑 $\mathscr{T}_{v''}$ 与 $\mathscr{T}_v$ 相同即可。设$\Gamma$和$\Gamma''$为$v$和$v''$的阶群。在$\Gamma''$上存在$\Gamma$的递增同态$\lambda$使得$v'' = A \circ v$($§ 4$,no. 3)。若$a'' \in I?''$，令$a \in \lambda^{-1}(a'')$； 条件 $v(x) \geq \alpha$ 意味着 $v''(x) \geq a''$。设$\beta \in \Gamma$和$\beta'' = \lambda(\beta)$； 条件$v(x) \leq \beta$意味着$v''(x) \leq \beta''$，因此条件$v''(x) > \beta''$意味着$v(x) > \beta$。由于$v$和$v''$并非不恰当，因此对于$\mathscr{T}_v$和$\mathscr{T}_{v''}$，邻域的定义基本系统为0。因此$\mathscr{T}_v = \mathscr{T}_{v''}$，它完成了证明。
+相反，假设 $v$ 和 $v'$ 是相关的。那么它们的环$A$和$A'$包含在与$K$不同的同一个环$A''$中，并且$A''$是评估$v''$的环（$§ 4$，no. 1， 命题1)。只要证明拓扑 $\mathscr{T}_{v''}$ 与 $\mathscr{T}_v$ 相同即可。设$\Gamma$和$\Gamma''$为$v$和$v''$的阶群。 $\Gamma$ 到 $\Gamma''$ 上存在递增同态 $\lambda$，使得 $v'' = A \circ v$ ($§ 4$, no. 3)。若$a'' \in I?''$，令$a \in \lambda^{-1}(a'')$； 条件 $v(x) \geq \alpha$ 意味着 $v''(x) \geq a''$。设$\beta \in \Gamma$和$\beta'' = \lambda(\beta)$； 条件$v(x) \leq \beta$意味着$v''(x) \leq \beta''$，因此条件$v''(x) > \beta''$意味着$v(x) > \beta$。由于$v$和$v''$并非不恰当，因此对于$\mathscr{T}_v$和$\mathscr{T}_{v''}$，邻域的定义基本系统为0。因此$\mathscr{T}_v = \mathscr{T}_{v''}$，它完成了证明。
 
 注
 (1) 命题 3 表明关系 '“$v$ 和 $v'$ 是相关的”' 是等价关系。
-(2) 考虑到高度 1 的估价和超测量绝对值值 (§ 6, no. 2) 之间的关系，对于高度 1 的估价，命题 3 也可从等效绝对值值的刻画得出（一般拓扑、章） IX, § 3, no. 2、命题5)。
+(2) 考虑到高度 1 的估价和超测量绝对值值 (§ 6, no. 2) 之间的关系，在高度 1 估价的情况下，从等效绝对值值的刻画得出命题3（一般拓扑、章） IX, § 3, no. 2、命题5)。
 
 #### 命题 4 {#ac-vi-s7-prop-4 .statement tag=04VZ}
 
 *让 $v_1, \ldots, v_n$ ($n \geq 2$) 成为对相同域 $K$ 的成对相关估值。那么 $v_1, \ldots, v_n$ 生成子环 $\delta \ K$ 的环 $A_1, \ldots, A_n$ 与 $K$ 不同。*
 
-对于 $n = 2$ 命题 4，从定义 1 得出。假设它适用于 $n - 1$ 估值。则存在不同于 K 的 K 的子环 A 和包含 $A_1, \ldots, A_{n-1}$；还存在子环 B $\neq K$ 包含于 $A_{n-1}$ 和 $A_n$。由于 A 和 B 包含于 $A_{n-1}$，它们在包含方面具有可比性（§ 4, no. 1，命题 1 的推论）。因此，这两者中较大的一个为包含所有 $A_i$。
+对于 $n = 2$ 命题 4，从定义 1 得出。假设它适用于 $n - 1$ 估值。则存在与 K 不同的 K 的子环 A 和包含 $A_1, \ldots, A_{n-1}$；还存在子环 B $\neq K$ 包含于 $A_{n-1}$ 和 $A_n$。由于 A 和 B 包含于 $A_{n-1}$，它们在包含方面具有可比性（§ 4, no. 1，命题 1 的推论）。因此，这两者中较大的一个为包含所有 $A_i$。
 
-### 3.绝对值的情况
+### 3. 绝对值的情况
 
 #### 定理 2（绝对值值的近似值定理）{#ac-vi-s7-thm-2 .statement tag=04W0}
 
@@ -185,4 +185,4 @@ $$
 
 ### 习题 {#ac-vi-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

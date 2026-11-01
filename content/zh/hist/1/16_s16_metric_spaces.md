@@ -11,19 +11,19 @@ pdf_pages: 0167-0168
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4ceb3f2be2f248c5621beb146918e6ad35f0460ee67f6a0dd2faecfe4f82749e
+content_sha256: accc002608e51387aee929756f0c42231861493000b150fb39080924d2e12c6e
 translated_from: content/en/hist/1/16_s16_metric_spaces.md
 translation_method: google
 source_content_sha256: 43ec71caac5f831ec1591275988c6e92ca0d4a2cead947f638d93d8066c80d1c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: cb164f5b26e4934443d27d4c1aaba75196798b7762ef2bdd3f76c9344dc1d9f2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 16.公制空间。
+## 16. 公制空间。
 
 正如我们所说（参见p. 146），度量空间的概念是由M于1906年引入的。 Fréchet，几年后由 F. 豪斯多夫在他的《Mengenlehre》中。 它在之后 1920 年获得了极大的重要性，一方面是继 S. Banach 和他的学校关于范数空间及其在泛函数学分析的应用（参见第216页），另一方面是由于算术和代数几何中的概念评估引起了兴趣（特别是评估的完成表明其成果非常丰富）。
 

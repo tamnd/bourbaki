@@ -37,16 +37,16 @@ subsections:
       pdf_page: 91
 statements: 18
 exercises: 10
-content_sha256: 9e6bebcaac434754619f03e5b0fa2ba6b06fa4df0cfd763e5e671e1459050ab7
+content_sha256: 1ab5d1e4cc20e39664adc52734241ee1ab3405ef6931026a59789b91f425c3b4
 translated_from: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
 translation_method: google
 source_content_sha256: 35c740d0a30b3f3ffd2d5f08cde90f87df1496bb44cbc74f5b2898276d078665
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e2ba436173504c1d11b3e6edb81748507d4f387f006b2b0987380143570b72f0
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 函数的导数和积分取决于参数
@@ -181,18 +181,18 @@ $$
 
 #### 命题 4（“关于参数的不正确积分的连续性”）{#fvr-ii-s3-prop-4 .statement tag=0897}
 
-*设* $F$ *为紧致空间，让* $I$ *为* $\mathbf{R}$中的任意区间，*和* $f$ *从* $I \times F$ *连续的映射*变为完全规范的空间* $E$ *超过* $\mathbf{R}$； *如果积分* $h(\alpha) = \int_I f(x, \alpha)\,dx$ *一致收敛于* $F$，*它是* $\alpha$ *在* $F$ 上的连续函数。
+*设* $F$ *为紧致空间，让* $I$ *为* $\mathbf{R}$中的任意区间，*和* $f$ *从* $I \times F$ *连续的映射变成完全规范的空间* $E$ *超过* $\mathbf{R}$； *如果积分* $h(\alpha) = \int_I f(x, \alpha)\,dx$ *一致收敛于* $F$，*它是* $\alpha$ *在* $F$ 上的连续函数。
 
-鉴于道具。 II、p. 69 中的 2 个，这个命题也是从连续函数的均匀极限的连续性得出的（*Gen.Top.*、X、p. 282，第 2 个）。
+鉴于道具。 II、p. 69中的第2个，这个命题也是从连续函数的均匀极限的连续性得出的（*Gen.Top.*、X、p. 282，第2个）。
 
-### 3. 常收敛积分
+### 3. 通常收敛的积分
 
-令$(f_\alpha)_{\alpha \in A}$是任意间隔$I \subset \mathbf{R}$上的受规管函数族，其中值位于$\mathbf{R}$上的完整规范空间$E$。假设$I$上存在有限实数调节函数$g$，使得对于每个$x \in I$和每个$\alpha \in A$，$\|f_\alpha(x)\| \leq g(x)$以及积分$\int_I g(t)\,dt$收敛。在这些条件下，整的 $\int_I f_\alpha(t)\,dt$ *绝对一致收敛*在 $A$ 上；事实上，对于 $I$ 中包含的每个紧区间 $K$，
+令 $(f_\alpha)_{\alpha \in A}$ 成为任意间隔 $I \subset \mathbf{R}$ 上的受规管函数族，其中值处于$\mathbf{R}$ 上的完整规范空间 $E$ 中。假设$I$上存在有限实数调节函数$g$，使得对于每个$x \in I$和每个$\alpha \in A$，$\|f_\alpha(x)\| \leq g(x)$以及积分$\int_I g(t)\,dt$收敛。在这些条件下，整的 $\int_I f_\alpha(t)\,dt$ *绝对一致收敛*在 $A$ 上；事实上，对于 $I$ 中包含的每个紧区间 $K$，
 $$
 \left\| \int_K f_\alpha(t)\,dt \right\| \leq \int_K g(t)\,dt
 $$
 
-整的$\int_I g(t) \, dt$的收敛意味着对于每个$\varepsilon > 0$都存在一个紧致区间$J \subset I$，这样对于$J$的每个紧致区间$K \subset I$不相交的都有一个$\int_K g(t) \, dt \leq \varepsilon$。当存在具有上述性质的实函数$g$时，我们说积分$\int_I f_\alpha(t) \, dt$通常收敛于$A$（cf.Gen.Top.，X，p. 296）。
+整的$\int_I g(t) \, dt$的收敛意味着对于每个$\varepsilon > 0$都存在一个紧致区间$J \subset I$，这样对于$J$中的每个紧致区间$K \subset I$不相交的都有一个$\int_K g(t) \, dt \leq \varepsilon$。当存在具有上述性质的实函数$g$时，我们说积分$\int_I f_\alpha(t) \, dt$通常收敛于$A$（cf.Gen.Top.，X，p. 296）。
 
 积分可以一致收敛于$A$，而不是正常收敛。 *对于 $n \leq x \leq n+1$ 的条件 $f_n(x) = 1/x$ 定义的实函数的序列 $(f_n)$，以及$I = [0, +\infty[$ 中$x$ 的其他值，会发生$f_n(x) = 0$。整的$\int_1^\infty f_n(t) \, dt$一致收敛的是直接的，但不是通常收敛，因为关系$g(x) \geq f_n(x)$对于每个$x \in I$和所有$n$都蕴含$g(x) \geq 1/x$，因而$g$在$I$上的积分不收敛。
 
@@ -265,7 +265,7 @@ $$
 - \frac{1}{\alpha - \alpha_0} \int_{a(\alpha_0)}^{a(\alpha)} f(t, \alpha)\, dt.
 $$
 
-通过道具。 II、p. 74的5，右边第一个积分趋于$\int_{a(\alpha_0)}^{b(\alpha_0)} f'_\alpha(t, \alpha_0)\, dt$，而$\alpha$趋于$\alpha_0$。在第二个积分中，我们将替换 $f(t, \alpha)$ 除以 $f(b(\alpha_0), \alpha_0)$，并表明差值趋于 0。我们放入 $M = \max (\|f(b(\alpha_0), \alpha_0)\|, |b'(\alpha_0)| + 1)$； 函数 $b(\alpha)$ 在点 $\alpha_0$ 处连续，函数 $f$ 在点 $(b(\alpha_0), \alpha_0)$ 处连续，对于每个$\varepsilon$，使得$0 < \varepsilon < 1$ 存在一个$r > 0$，使得关系 $|\alpha - \alpha_0| \leq r$ 意味着 $\|f(t, \alpha) - f(b(\alpha_0), \alpha_0)\| \leq \varepsilon$ 对于所有 $t$ 属于到端点为 $b(\alpha_0)$ 和 $b(\alpha)$ 的区间；因而，我们也可以假设关系 $|\alpha - \alpha_0| \leq r$ 必然包含 $\left| \frac{b(\alpha) - b(\alpha_0)}{\alpha - \alpha_0} - b'(\alpha_0) \right| \leq \varepsilon$。
+通过道具。 II、p. 74的5，右边第一个积分趋于$\int_{a(\alpha_0)}^{b(\alpha_0)} f'_\alpha(t, \alpha_0)\, dt$，因为$\alpha$趋于$\alpha_0$。在第二个积分中，我们将替换 $f(t, \alpha)$ 除以 $f(b(\alpha_0), \alpha_0)$，并表明差值趋于 0。我们输入 $M = \max (\|f(b(\alpha_0), \alpha_0)\|, |b'(\alpha_0)| + 1)$； 函数 $b(\alpha)$ 在点 $\alpha_0$ 处连续，函数 $f$ 在点 $(b(\alpha_0), \alpha_0)$ 连续，对于每个$\varepsilon$，使得$0 < \varepsilon < 1$ 存在一个$r > 0$，使得关系 $|\alpha - \alpha_0| \leq r$ 意味着 $\|f(t, \alpha) - f(b(\alpha_0), \alpha_0)\| \leq \varepsilon$ 对于所有 $t$ 属于到端点为 $b(\alpha_0)$ 和 $b(\alpha)$ 的区间；因而，我们也可以假设关系 $|\alpha - \alpha_0| \leq r$ 必然包含 $\left| \frac{b(\alpha) - b(\alpha_0)}{\alpha - \alpha_0} - b'(\alpha_0) \right| \leq \varepsilon$。
 
 平均而言值公式 (II, p 62, 公式 (17)) 因此有
 
@@ -281,9 +281,9 @@ $$
 
 这表明$\frac{1}{\alpha - \alpha_0} \int_{b(\alpha_0)}^{b(\alpha)} f(t, \alpha)\, dt$趋于$b'(\alpha_0) f(b(\alpha_0), \alpha_0)$。以同样的方式表明 $\frac{1}{\alpha - \alpha_0} \int_{a(\alpha_0)}^{a(\alpha)} f(t, \alpha)\, dt$ 趋于 $a'(\alpha_0) f(a(\alpha_0), \alpha_0)$。
 
-### 5. 非紧区间上的积分参数的导数
+### 5. 非紧区间上积分参数的导数
 
-集合 $V$ 与 prop 中的含义相同。 II、p. 74的 5 个，假设现在I是$\mathbf{R}$中的*任意*区间，并且$f$是从$I \times V$到E的*连续*映射；如果所有 $\alpha \in V$ 都存在积分 $g(\alpha) = \int_I f(t, \alpha)\, dt$ 并且是 $\alpha$ 的连续函数，则函数 $g$ *不需要有等于* $\int_I f'_\alpha(t, \alpha_0)\, dt$ *在点* $\alpha_0$ 的导数，即使$f'_\alpha(x, \alpha)$ 在 I 中包含的每个紧凑区间上一致收敛于 $f'_\alpha(x, \alpha_0)$，并且如果所有 $\alpha \in V$ 都存在积分 $\int_I f'_\alpha(t, \alpha) \, dt$（cf. II、p. 87，执行 3）。
+集合 $V$ 与道具中的含义相同。 II、p. 74的 5 个，现在假设I是$\mathbf{R}$中的*任意*区间，并且$f$是从$I \times V$到E的*连续*映射；如果所有 $\alpha \in V$ 都存在积分 $g(\alpha) = \int_I f(t, \alpha)\, dt$ 并且是 $\alpha$ 的连续函数，则函数 $g$ *不需要有等于* $\int_I f'_\alpha(t, \alpha_0)\, dt$ *在点* $\alpha_0$ 的导数，即使$f'_\alpha(x, \alpha)$ 在 I 中包含的每个紧凑区间上一致收敛于 $f'_\alpha(x, \alpha_0)$，并且如果所有 $\alpha \in V$ 都存在积分 $\int_I f'_\alpha(t, \alpha) \, dt$（cf. II，p. 87，执行 3）。
 
 足以使公式 (12) (II, p. 74) 保持有效的条件由以下命题给出：
 
@@ -343,17 +343,17 @@ $$
 
 现在，第一个项相对于$y$的导数是$g(y)$，而第二个$\int_a^b h_y'(x, y) dx$，由II、p. 74推论，因为$h_y'(x, y) = f(x, y)$在$I \times A$上连续；由此获得的两个表达式是相同的。
 
-现在假设$A = [c, d]$是$\mathbf{R}$中的*紧凑*区间，而I是$\mathbf{R}$中的*任意*区间；设$f$是$I \times A$上的连续函数，值在E中，使得积分$g(\alpha) = \int_I f(t, \alpha) dt$对于所有$\alpha \in A$收敛；即使$g(\alpha)$在$A$上连续一个不能，也总是在积分$\int_c^d d\alpha \int_I f(t, \alpha) dt$中互换积分的阶，因为积分$\int_I dt \int_c^d f(t, \alpha) d\alpha$可能不存在，或者可能与积分$\int_c^d d\alpha \int_I f(t, \alpha) dt$不同（*cf.* II， p. 87，练习7）。然而，有以下结果：
+现在假设$A = [c, d]$是$\mathbf{R}$中的*紧凑*区间，I是$\mathbf{R}$中的*任意*区间；设$f$是$I \times A$上的连续函数，值在E中，使得积分$g(\alpha) = \int_I f(t, \alpha) dt$对于所有$\alpha \in A$是收敛的；即使$g(\alpha)$在$A$上连续一个不能，也总是在积分$\int_c^d d\alpha \int_I f(t, \alpha) dt$中互换积分的阶，因为积分$\int_I dt \int_c^d f(t, \alpha) d\alpha$可能不存在，或者可能与积分$\int_c^d d\alpha \int_I f(t, \alpha) dt$不同（*cf.* II， p. 87，练习7）。然而，有以下结果：
 
 #### 命题 9 {#fvr-ii-s3-prop-9 .statement tag=089F}
 
-*如果函数 f 在 I × A 上连续，并且如果积分 $\int_I f(t, \alpha) dt$ 在 A 上一致收敛，则积分 $\int_I dt \int_c^d f(t, \alpha) d\alpha$ 收敛，有*
+*如果函数 f 在I × A 上连续，并且如果积分 $\int_I f(t, \alpha) dt$ 在 A 上一致收敛，则积分 $\int_I dt \int_c^d f(t, \alpha) d\alpha$ 收敛，有*
 
 $$
 \int_c^d d\alpha \int_I f(t, \alpha) dt = \int_I dt \int_c^d f(t, \alpha) d\alpha.
 $$
 
-对于I中包含的每个紧区间J，放入$u_J(\alpha) = \int_J f(t, \alpha) dt$。 假设意味着对于有向集合$\mathscr{K}(I)$的截面$\Phi$滤波器，连续函数$u_J$在A上一致收敛到$\int_I f(t, \alpha) dt$；因此（II，p. 68，道具1），$\int_c^d d\alpha \int_J f(t, \alpha) dt$相对于$\Phi$有极限$\int_c^d d\alpha \int_I f(t, \alpha) dt$；但是，通过道具。 8 个（II，p. 77），其中一个有
+对于I中包含的每个紧区间J，放入$u_J(\alpha) = \int_J f(t, \alpha) dt$。 假设意味着对于有向集合 $\mathscr{K}(I)$ 的截面 $\Phi$ 滤波器，连续函数 $u_J$ 在 A 上一致收敛到$\int_I f(t, \alpha) dt$；因此（II，p. 68，道具1），$\int_c^d d\alpha \int_J f(t, \alpha) dt$相对于$\Phi$有极限$\int_c^d d\alpha \int_I f(t, \alpha) dt$；但是，通过道具。 8 个（II，p. 77），其中一个有
 
 $$
 \int_c^d d\alpha \int_J f(t, \alpha) dt = \int_J dt \int_c^d f(t, \alpha) d\alpha.
@@ -361,6 +361,6 @@ $$
 
 因此，前面的结果意味着积分$\int_1 dt \int_c^{d} f(t, \alpha) d\alpha$是收敛的，并且在关系(18)中关于$\Phi$在经过到极限上，得到(17)。
 
-### 习题{#fvr-ii-s3-exercises}
+### 习题 {#fvr-ii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

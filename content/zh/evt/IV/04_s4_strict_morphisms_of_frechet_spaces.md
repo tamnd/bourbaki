@@ -25,23 +25,23 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 2c320b81a06d0f973f36bfc5cdd6d899c9d39b46b0aaf754280ee7a516927188
+content_sha256: befc907c0ae77b0bca032ad393943a76313695c510b379e1cd2a7bc72347e945
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
 translation_method: google
 source_content_sha256: c407d8cd0dfb8dde36f5bdedd16c24376ca0dd13486d65d99b3e2de383541cec
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 48909e0b97912a054781c7908d06774a10669d58d004c411bc33f9dd4a5ec445
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。严格 FRÉCHET 态射空间
 
 对于每个局部凸空间 E，令S(E) 表示E 上所有连续半范数的集合。对于每个$p \in S(E)$，令$H_p$ 表示E 上所有线性形式 f 的集合，使得$|f| \leqslant p$。对于$E'$的等连续子集的出生学由……组成，族$(H_p)_{p \in S(E)}$是基。
 
-### 1.严格态射的刻画
+### 1. 严格刻画态射
 
 #### 命题 1 {#evt-iv-s4-prop-1 .statement tag=07UR}
 
@@ -85,9 +85,9 @@ b') $N^{\circ}$ 中包含的$E'$ 的每个等连续子集是$F'$ 的等连续子
 
 必要性来自于道具。 2.
 
-相反，假设$^t u$的像对于$\sigma(E', E)$是封闭的，并引入$u$的规范分解，如prop的证明所示。 1. 由上述注，$\tilde{u}$的逆映射$\tilde{u}^{-1}$对于弱化拓扑是连续的。但 F 的子空间 $M = u(E)$ 是可度量的，因此是出生学的（III，p. 12，道具 2）；因而 (IV, p. 7, 命题 7, (ii)), $\tilde{u}^{-1}$ 是连续的，因而 $u$ 是严格的态射。
+相反，假设$^t u$的像对于$\sigma(E', E)$是封闭的，并引入$u$的规范分解，如prop的证明所示。 1. 由上述注，$\tilde{u}$的逆映射$\tilde{u}^{-1}$对于弱化拓扑是连续的。但是 F 的子空间 $M = u(E)$ 是可度量的，因此是出生学的（III，p. 12，道具 2）；因而 (IV, p. 7, 命题 7, (ii))，$\tilde{u}^{-1}$ 是连续的，因而 $u$ 是严格的态射。
 
-### 2. 严格Fréchet 态射空间
+### 2. 严格 Fréchet 态射空间
 
 #### 定理 1 {#evt-iv-s4-thm-1 .statement tag=07UV}
 
@@ -101,9 +101,9 @@ e) $^t u$的像在$E'$关闭，对于弱拓扑$\sigma(E', E)$。
 f) $^t u$的像在$E'$关闭，对于强拓扑$\beta(E', E)$。
 g) $^t u$是从$F'_c$到$E'_c$的严格态射（赋予拓扑紧收敛的对偶）。
 
-a)、b) 和 e) 的等价由命题得出。其前面的 IV、p. 28 和注中的 3 个。 a) 和 c) 正是对应的。 3 个I、p. 19。 IV、p. 28的注，也说明d)等价于F的弱化的拓扑$\sigma(F, F')$，$u$的像是闭合的； c) 和 d) 的等价则由命题得出。 2 个IV、p. 4。
+a)、b) 和 e) 的等价由命题得出。其前面的 IV、p. 28 和注中的 3 个。 a) 和 c) 正是对应的。 3 个I、p. 19。 IV、p. 28的注，也表明d)相当于$u$的像对于F的弱化的拓扑$\sigma(F, F')$是闭合的； c) 和 d) 的等价则由命题得出。 2 个IV、p. 4。
 
-现在我们证明 e) 和 f) 的等价。只要证明 f) 蕴涵 e) 就足够了。假设$^t u$的像对于$E'$中的$\beta(E', E)$是闭合的。由于 Banach-Dieudonné 定理 (IV, p. 25, cor. 2)，足以证明对于 E 中 0 的每个凸平衡邻域 U，交 $B = ^t u(F') \cap U$ 对于 $\sigma(E', E)$ 是紧致的。 Fréchet 空间 E 的强对偶 $E'_b$ 是完备的（IV，p. 22，命题 2），因而 $E'_b$ 的闭子集 B 是完备的，因此规范化的空间 $E'_B$ 是完备的（III，p. 8，推论）。令$(V_n)$为递减序列，形成F中0的邻域的基本系统。然后$F'$是集合$C = V_n^\circ$的并，对于$\sigma(F', F)$来说是紧致的，因而$E'_B = \bigcup_n B_n$，与$B_n = E'_B \cap ^t u(C_n)$。由于 $E'_B$ 是贝尔空间，并且集合 $B_n$ 都是凸平衡且闭的，因此存在实数 $r > 0$ 和整数 $n$，使得 $B \subset r.B_n$。那么我们就有$B = U^\circ \cap {}^t u(r.C_n)$；由于集合 $U^\circ$ 和 $r.C_n$ 是紧致的，并且 ${}^t u$ 对于弱拓扑是连续的，因而 $B$ 对于 $\sigma(E', E)$ 是紧致的。这样就完成了 e) 和 f) 的等价的证明。
+现在我们证明 e) 和 f) 的等价。只要证明 f) 蕴涵 e) 就足够了。假设$^t u$的像对于$E'$中的$\beta(E', E)$是闭合的。由于 Banach-Dieudonné 定理 (IV, p. 25, cor. 2)，足以证明对于 E 中 0 的每个凸平衡邻域 U，交 $B = ^t u(F') \cap U$ 对于 $\sigma(E', E)$ 是紧致的。 Fréchet 空间 E 的强对偶 $E'_b$ 是完备的（IV、p. 22，命题 2），因而 $E'_b$ 的闭子集 B 是完备的，因此赋范的空间 $E'_B$ 是完备的（III，p. 8，推论）。令$(V_n)$为递减序列，形成F中0的邻域的基本系统。然后$F'$是集合$C = V_n^\circ$的并，对于$\sigma(F', F)$来说是紧致的，因而$E'_B = \bigcup_n B_n$，与$B_n = E'_B \cap ^t u(C_n)$。由于 $E'_B$ 是贝尔空间，并且集合 $B_n$ 都是凸平衡且闭的，因此存在实数 $r > 0$ 和整数 $n$，使得 $B \subset r.B_n$。那么我们就有$B = U^\circ \cap {}^t u(r.C_n)$；由于集合 $U^\circ$ 和 $r.C_n$ 是紧致的，并且 ${}^t u$ 对于弱拓扑是连续的，因而 $B$ 对于 $\sigma(E', E)$ 是紧致的。这样就完成了 e) 和 f) 的等价的证明。
 
 最后 g) 的等价和前面的条件由 prop. 得出。 GT 18，X, § 2, No. 10 及以下引理。
 
@@ -157,10 +157,10 @@ a) u 是从 E 到 F 的同构。
 b) 对于弱化拓扑，从 E 到 F，u 是同构。
 c) 对于弱拓扑，$^t u$ 是从$F'$ 到$E'$ 的同构。
 d) 对于强拓扑，$^t u$ 是从$F'$ 到$E'$ 的同构。
-e) $^t u$ 是从$F'_c$ 到$E'_c$ 的同构。
+e) 从$F'_c$到$E'_c$，$^t u$是同构。
 由于同构正是严格双射态射，a) 和 b) 的等价由 th 的条件 a) 和 b) 的等价推出。 1.
-很明显，a) 隐含了条件 c)、d) 和 e) 中的每一个。
-相反，假设满足条件c)、d)或e)之一。由此可见。 1 及其相关。 3 u 是从 E 到 F 的严格态射，并且 $^t u$ 显然是双射的。设 N（分别为 I）为 u 的核（分别为像）。由于 $^t u$ 是双射的，因此我们有 $\operatorname{Im} ^t u = E'$ 和 $\operatorname{Ker} ^t u = \{ 0 \}$，因此通过道具有 $N^\circ = E'$ 和 $I^\circ = \{ 0 \}$。 2 个IV、p. 27。但 N（分别I）是 E（分别F）的闭向量子空间，双极子（II，p. 44）的定理意味着$N = \{ 0 \}$和$I = F$，因此u是双射的。因此我们证明了u是同构。
+很明显，a) 蕴涵条件 c)、d) 和 e) 中的每一个。
+相反，假设满足条件 c)、d) 或 e) 之一。由此可见。 1 及其相关。 3 u 是从 E 到 F 的严格态射，并且 $^t u$ 显然是双射的。设 N（分别为 I）为 u 的核（分别为像）。由于 $^t u$ 是双射的，因此我们有 $\operatorname{Im} ^t u = E'$ 和 $\operatorname{Ker} ^t u = \{ 0 \}$，因此通过道具有 $N^\circ = E'$ 和 $I^\circ = \{ 0 \}$。 2 个IV、p. 27。但 N（分别I）是 E（分别F）的闭向量子空间，双极子（II，p. 44）的定理意味着$N = \{ 0 \}$和$I = F$，因此u是双射的。因此我们证明了u是同构。
 
 ### 3. 判据满射性
 
@@ -182,9 +182,9 @@ $$
 
 我们根据以下逻辑概形证明命题
 
-![图表展示了(i)、(ii)、(iii)和(iv)之间的逻辑关系](https://i.imgur.com/3Q5z5QG.png)
+![图表显示 (i)、(ii)、(iii) 和 (iv) 之间的逻辑关系](https://i.imgur.com/3Q5z5QG.png)
 
-如果 $u$ 是满射，它是严格的态射 (IV, p. 28, th. 1)，那么对于每个半范数 $p \in S(E)$，都存在一个半范数 $q \in S(F)$，使得对于所有 $y \in F$ 满足 $q(y) \leq 1$，存在$x \in E$、满足、$p(x) \leq 1$、$u(x) = y$。我们立即推断出 (i) 意味着 (ii) 和 (iii)。显然，(ii) 暗示着(iv)。
+如果 $u$ 是满射，则它是严格的态射 (IV, p. 28, th. 1)，则对于每个半范数 $p \in S(E)$，都存在一个半范数 $q \in S(F)$，使得对于所有 $y \in F$ 满足 $q(y) \leq 1$，存在$x \in E$、满足、$p(x) \leq 1$、$u(x) = y$。我们立即推断出 (i) 意味着 (ii) 和 (iii)。显然，(ii) 暗示着(iv)。
 
 为了证明(iii)蕴含(iv)，令$p$和$q$如(iii)中所示。令$y \in F$，由(iii)，在$E$中存在$x$，使得$q(u(x) - y) = 0$。如果$f \in F'$满足$|f \circ u| \leq p$，那么我们有$f(u(x) - y) = 0$，因此
 
@@ -203,8 +203,8 @@ $$
 (ii) 存在实数 r > 0，使得$\|f\| \leq r.\|^{t}u(f)\|$ 对于所有$f \in F'$。
 (iii) 对于所有 $y \in F$，我们有 $\sup_{\substack{f \in F' \\ \|f \circ u\| \leq 1}} |f(y)| < + \infty$。
 
-条件(ii)和(iii)实际上是道具条件(ii)和(iv)的重新表述。 4 代表巴拿赫空间。
+条件(ii)和(iii)实际上是道具条件(ii)和(iv)的重新表述。 4 巴拿赫空间。
 
 ### 习题{#evt-iv-s4-exercises}
 
-请参阅[习题了解§ 4](exercises/s4/)。
+参见[习题为 § 4](exercises/s4/)。

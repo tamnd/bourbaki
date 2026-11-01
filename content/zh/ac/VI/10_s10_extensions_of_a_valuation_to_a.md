@@ -25,21 +25,21 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: 0de82b5592a1558ede2d3f2c9f92e309fff8937c8cfcdef072f56ad349ade05a
+content_sha256: 035d6f7021dc63436a98818734b7228a6d46658ce6aebf11386f857ae71e13da
 translated_from: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
 translation_method: google
 source_content_sha256: d3545f7135c1b975d777e05ac5e9cc067935aed03dd234e1d2fffc43e8d3d49f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f21bab5d2b31c6bd3eefb542dfebf6f7ccc578db9f64ecda7099ce11701f5ffe
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 10. 扩张对超越扩张的评价
+## 10. 扩张超凡的估值扩张
 
-### 1.单一超越论扩张的案例
+### 1. 单质先验的案例扩张
 
 #### 引理 1 {#ac-vi-s10-lem-1 .statement tag=04Y5}
 
@@ -51,7 +51,7 @@ $$
 w\left( \sum_j a_j X^j \right) = \inf_j (v(a_j) + j\xi)
 $$
 
-定义的估值为环$K[X]$。作为
+定义环 $K[X]$ 的估值。作为
 
 $$
 v(a_j + b_j) + j\xi \geq \inf(v(a_j), v(b_j)) + j\xi = \inf(v(a_j) + j\xi, v(b_j) + j\xi),
@@ -75,7 +75,7 @@ $$
 w(a_j b_{j'} X^{j+j'}) = v(a_j) + j\xi + v(b_{j'}) + j'\xi \geq a + \beta,
 $$
 
-从而 $w(PQ) \geq a + \beta$ 由 (2) 得出。现在考虑$PQ$中次数$i + k$的项$c X^{i+k}$；然后$c = \sum_{n \in \mathbf{Z}} a_{i+n} b_{k-n}$；由$i$和$k$中的选择、元素
+从而 $w(PQ) \geq a + \beta$ 由 (2) 得出。现在考虑$PQ$中次数$i + k$的项$c X^{i+k}$；然后$c = \sum_{n \in \mathbf{Z}} a_{i+n} b_{k-n}$；由 $i$ 和 $k$、元素中的选择计算
 
 $$
 w(a_{i+n} b_{k-n} X^{i+k}) = v(a_{i+n}) + (i+n)\xi + v(b_{k-n}) + (k-n)\xi
@@ -122,13 +122,13 @@ $$
 
 不应该认为我们刚刚遇到的v到K(X)的两个型或扩张是唯一的；可能存在扩张的第三个型，其中$\Gamma'/\Gamma$是挠元群和$k'$$k$的（不一定是有限的）代数扩张。第三个型不一定由引理1中描述的过程提供（cf.§ 3，习题1）。
 
-### 2.交换式群的有理数秩
+### 2. 交换律群的有理数秩
 
 #### 定义 1 {#ac-vi-s10-def-1 .statement tag=04Y9}
 
 *交换群 G 的有理秩是向量 Q 空间* $G \otimes_{\mathbf{Z}} \mathbf{Q}$ 的维数。
 
-这个维数也可以被定义为基数$r$的最小上界（有限或无限），使得存在G的$r$元素，它们与$\mathbf{Z}$线性无关（*代数*，章II, § 7, no. 10， 命题26)。当且仅当 G 是挠元群时，G 的有理秩是 *零*。对于加法群 $\mathbf{R}^n$ 的子群、有理秩重合的概念，其定义见*一般拓扑*、章 VII, § 1。
+这个维数也可以被定义为基数$r$的最小上界（有限或无限），使得G存在$r$元素，它们与$\mathbf{Z}$线性无关（*代数*，章II, § 7, no. 10， 命题26)。当且仅当 G 是挠元群时，G 的有理数秩是 *零*。对于加法群 $\mathbf{R}^n$ 的子群、有理数秩重合的概念，其定义见*常规拓扑*、章 VII, § 1。
 
 在本段的其余部分中，我们将用$r(G)$表示交换性群G的有理秩。如果$G'$是G的子群，那么（因为$\mathbf{Q}$是平$\mathbf{Z}$模）我们有加法方程
 
@@ -146,7 +146,7 @@ $$
 
 *持有*。
 
-事实上，令$G_0 \subset G_1 \subset \ldots \subset G_n$为G的孤立子群的严格递增的序列，需要建立不等式
+事实上，令$G_0 \subset G_1 \subset \ldots \subset G_n$为G的孤立子群的严格递增的序列，则需要建立不等式
 
 $$
 n \leq h(H) + r(G/H).
@@ -166,9 +166,9 @@ $$
 n \leq h(H) + r(G_{n-1}/H) + 1.
 $$
 
-现在$G/G_{n-1}$是一个全序的群，没有减少到0；因此它不是挠元群和 $r(G/G_{n-1}) \geq 1$。 从而（4），$r(G/H) \geq r(G_{n-1}/H) + 1$。代入(8)，我们当然得到所需的不等式(6)。
+现在$G/G_{n-1}$是一个完全有序的群，没有减少到0；因此它不是挠元群和 $r(G/G_{n-1}) \geq 1$。 (4) 从而，$r(G/H) \geq r(G_{n-1}/H) + 1$。代入(8)，我们当然得到所需的不等式(6)。
 
-(b) $H \cap G_{n-1} \neq H$。由于$H \cap G_{n-1}$是$H$的一个孤立的子群，我们将结论视为$h(H) > h(H \cap G_{n-1}) + 1$。另一方面，显然$r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$。代入(7)，再次得到(6)。
+(b) $H \cap G_{n-1} \neq H$。由于$H \cap G_{n-1}$是$H$的孤立子群，我们将结论视为$h(H) > h(H \cap G_{n-1}) + 1$。另一方面，显然$r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$。代入(7)，再次得到(6)。
 
 #### 推论{#ac-vi-s10-n2-cor-1 .statement tag=04YB}
 
@@ -178,19 +178,19 @@ $$
 
 *设 G 为全序交换律群。假设 G 是有限生成的且 $h(G) = r(G)$。那么 G 同构于按字典顺序排序的 $\mathbf{Z}^{r(G)}$。*
 
-让我们写$r = r(G) = h(G)$。如果$r = 0$，则$G = (0)$。如果有限生成交换式群的$r = 1$、结构表明G有同构$j$到Z上（*代数*，章VII, § 4, no. 6，定理3）。现在Z只有两种与其群结构兼容的总序，即通常的序及其相反。因此，按照通常的顺序，$j$或$-j$是有序的群G到Z上的同构。
+让我们写$r = r(G) = h(G)$。如果$r = 0$，则$G = (0)$。如果有限生成交换式群的$r = 1$，结构表明G有同构$j$到Z上（*代数*，章VII, § 4, no. 6，定理3）。现在Z只有两种与其群结构兼容的总序，即通常的序及其相反。因此，按照通常的顺序，$j$或$-j$是有序的群G到Z上的同构。
 
-现在假设$r \geq 2$，让我们用归纳对$r$进行争论。令 H 为高度为 $r - 1$ 的 G 的孤立子群。然后是 $r(H) + r(G/H) = r$ (公式 (4))、$r(H) \geq h(H) = r - 1$ 和 $r(G/H) \geq h(G/H) = 1$（命题 3 的推论）、从而 $r(H) = r - 1$ 和 $r(G/H) = 1$。 归纳假设表明H与按字典顺序排序的$\mathbf{Z}^{r-1}$同构的，而情况$r = 1$表明$G/H$与Z同构。由于Z是自由Z模，因此H是G的*直因子*（*代数*，章11， § 1, no. 11、命题21)。接下来的引理则表明G与词典乘积$H \times (G/H)$同构的（非规范），从而完成了证明。
+现在假设$r \geq 2$，让我们用归纳对$r$进行争论。令 H 为高度为 $r - 1$ 的 G 的孤立子群。然后是 $r(H) + r(G/H) = r$ (公式 (4))、$r(H) \geq h(H) = r - 1$ 和 $r(G/H) \geq h(G/H) = 1$（命题 3 的推论）、从而 $r(H) = r - 1$ 和 $r(G/H) = 1$。 归纳假设表明 H 与按字典顺序排序的 $\mathbf{Z}^{r-1}$ 同构的，而情况 $r = 1$ 表明 $G/H$ 与 Z 同构的。由于 Z 是自由 Z 模，因此 H 是 G 的 *直因子* (*代数*, 章 11, § 1, no. 11，命题21)。下面的引理则表明G与词典乘积$H \times (G/H)$同构的（非规范），从而完成了证明。
 
 #### 引理 2 {#ac-vi-s10-lem-2 .statement tag=04YD}
 
 *设H是全序交换群 G的孤立子群。如果H是G的直因子，则有序群G与按字典顺序排序的群$(G/H) \times H$同构的。*
 
-令$j$为$(G/H) \times H$的同构到G上，使得$j(0, x) = x$对于所有$x \in H$和$j(y, x)$属于到H的陪集。由于$(G/H) \times H$是全序的，这相当于表明$j$是*递增* （*集合理论*、章III, § 1, no. 12、命题11）。令 $(y, x)$ 为 $(G/H) \times H$ 的元素 $\geq 0$ 按字典顺序排序。如果$y > 0$，则H包含$j(y, x)$的陪集为元素$> 0$，从而$j(y, x) > 0$，否则为$y \leq 0$（§ 4, no. 2，命题3）。如果$y = 0$和$x \geq 0$，则$j(y, x) = x \geq 0$。因此$j$肯定是递增。
+令$j$为$(G/H) \times H$的同构到G上，使得$j(0, x) = x$对于所有$x \in H$和$j(y, x)$属于到H的陪集。由于$(G/H) \times H$是全序的，这相当于表明$j$是*递增* （*集合理论*、章III, § 1, no. 12、命题11）。令 $(y, x)$ 为 $(G/H) \times H$ 的元素 $\geq 0$ 按字典顺序排序。如果 $y > 0$，则 H 包含 $j(y, x)$ 的陪集为元素 $> 0$、从而 $j(y, x) > 0$，否则为 $y \leq 0$ (§ 4, no. 2、命题 3)。如果$y = 0$和$x \geq 0$，则$j(y, x) = x \geq 0$。因此$j$肯定是递增。
 
-### 3.任何超验的案例扩张
+### 3. 任何超验的情况扩张
 
-在这个没有。我们将使用以下记号：$K$为域，$K'$扩张为$K$，$v$对$K$，$v'$扩张的$v$进行评估$K$、$\Gamma$ 和 $k$（分别为 $\Gamma'$ 和 $k'$） 阶群和剩余类域或 $v$（分别为 $v'$）。我们将写：
+在这个没有。我们将使用以下记号：$K$为域，$K'$扩张为$K$，$v$对$K$，$v'$扩张的$v$进行评估$K$、$\Gamma$ 和 $k$（分别为 $\Gamma'$ 和 $k'$）阶群和剩余类域或 $v$（分别为 $v'$）。我们将写：
 
 $$
 d(K'/K) = \dim.\mathrm{al},\ K' = \text{transcendence degree of } K' \text{ over } K;
@@ -206,7 +206,7 @@ $$
 
 #### 定理 1 {#ac-vi-s10-thm-1 .statement tag=04YE}
 
-*设$x_1, \ldots, x,$为$v'$的环的元素，其中$k'$中的典范像$\overline{x}_i$在代数上独立于$k$和$K'$的$y_1, \ldots, y_r$元素，这样$\Gamma'/\Gamma$中的$v'(y_j)$的典范像在$\mathbf{Z}$上线性无关。那么$K'$的$r+s$元素$x_1, \ldots, x, y_1, \ldots, y_r$在代数上独立于$K$； $v'$到$K(x_1, \ldots, x, y_1, \ldots, y_r)$中的限制承认$k(\overline{x}_1, \ldots, \overline{x}_s)$为剩余类域并且*
+*设$x_1, \ldots, x,$为$v'$的环的元素，其中$k'$中的典范像$\overline{x}_i$在代数上独立于$k$和$K'$的$y_1, \ldots, y_r$元素，这样$\Gamma'/\Gamma$中的$v'(y_j)$中的典范像在$\mathbf{Z}$上线性无关。那么$K'$的$r+s$元素$x_1, \ldots, x, y_1, \ldots, y_r$在代数上独立于$K$； $v'$到$K(x_1, \ldots, x, y_1, \ldots, y_r)$中的限制承认$k(\overline{x}_1, \ldots, \overline{x}_s)$为剩余类域并且*
 
 $$
 \Gamma + \mathbf{Z}v'(y_1) + \ldots + \mathbf{Z}v'(y_r)
@@ -238,7 +238,7 @@ $$
 
 因此，它们在 $K$ 上是代数独立的，这表明不等式 $r + s < d(K'/K)$。
 
-如果$K'$是$K$有限生成的扩张，则$d(K'/K)$是有限的，因此$s(v'/v)$和$r(v'/v)$也是有限的；我们用$s$和$r$表示它们。存在$K'$的元素$x_1, \ldots, x_s, y_1, \ldots, y_r$，其中满足定理1的假设。如果$r + s = d(K'/K)$，这些元素形式超越$K'$的基因此，$K$和$K'$是$K'' = K(x_1, \ldots, y_r)$的有限代数扩张。令$\Gamma''$和$k''$为$v'$到$K''$的限制和阶群和剩余类域。通过定理 1，$\Gamma''/\Gamma$是有限生成的$\mathbf{Z}$模，$k''$是$k$的有限生成的纯扩张。另一方面，由于$K'$是$K$的有限代数扩张，$\Gamma'/\Gamma$是有限群，$k'$是$k''$的有限代数扩张（§ 8, no. 1，引理） 2）。这就证明了推论。
+如果$K'$是$K$有限生成的扩张，则$d(K'/K)$是有限的，因此$s(v'/v)$和$r(v'/v)$也是有限的；我们用$s$和$r$表示它们。存在$K'$的元素$x_1, \ldots, x_s, y_1, \ldots, y_r$，其中满足定理1的假设。如果$r + s = d(K'/K)$，这些元素形式超越$K'$的基因此，$K$和$K'$是$K'' = K(x_1, \ldots, y_r)$的有限代数扩张。令$\Gamma''$和$k''$为$v'$到$K''$的限制和阶群和剩余类域。通过定理 1，$\Gamma''/\Gamma$ 是有限生成的 $\mathbf{Z}$ 模，$k''$ 是$k$ 的有限生成的纯扩张。另一方面，由于$K'$是$K$的有限代数扩张，$\Gamma'/\Gamma$是有限群，$k'$是$k''$的有限代数扩张（§ 8, no. 1，引理） 2）。这就证明了推论。
 
 #### 推论 2 {#ac-vi-s10-thm-1-cor-2 .statement tag=04YG}
 
@@ -250,7 +250,7 @@ $$
 
 #### 推论 3 {#ac-vi-s10-thm-1-cor-3 .statement tag=04YH}
 
-*假设$K'$是$K$的有限生成的扩张，$\Gamma$与$\mathbf{Z}^{h'}$同构的（按字典顺序排列），并且公式中有等式（10）。那么 $\Gamma'$ 与 $\mathbf{Z}^{h'}$ 同构的（按字典顺序排序），$k'$ 是 $k$ 的有限生成的扩张。*
+*假设$K'$是$K$的有限生成的扩张，$\Gamma$同构于$\mathbf{Z}^{h'}$（按字典顺序排列），并且公式中有等式（10）。那么 $\Gamma'$ 与 $\mathbf{Z}^{h'}$ 同构的（按字典顺序排列），$k'$ 是 $k$ 的有限生成的扩张。*
 
 如果(10)中有等式，则(9)中有等式，从而事实上$k'$是$k$的有限生成的扩张，并且$\Gamma''$是有限生成的$\mathbf{Z}$模。进一步比较(9)和(10)，可以看出$h' - h = r(\Gamma'/\Gamma)$、从而$h' = r(\Gamma')$和命题 4 (no. 2)则表明$\Gamma'$与按字典顺序排列的$\mathbf{Z}^{h'}$同构的。
 
@@ -270,4 +270,4 @@ $$
 
 ### 习题{#ac-vi-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

@@ -46,21 +46,21 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 5c8b3e1b927a876d902c23b90e267446676914e38e04bd35e07caba44ad79ad9
+content_sha256: bd514938921b16d0808a2164c1b35e88d3d0dea87cc7c394bb330530f9f86197
 translated_from: content/en/alg/VIII/04_s4_semisimple_modules.md
 translation_method: google
 source_content_sha256: 9d4584b8ed5e9b2ea8bfc7a3b377164098496c5ee0e2c21f520fa31ff9205f9d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a193c00d4b6b528ed5d0df3a5833765d01c41c51bb4952ede75f78abfbb2c0c6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 半单模
 
-### 1.半单模
+### 1. Semisimple Modules
 
 #### 定义 1 {#alg-viii-s4-def-1 .statement tag=0040}
 
@@ -88,7 +88,7 @@ A-模 M 是半单当且仅当当将其视为模超过其同位$A_M$ 的环时，
 
 设M为模，即简单子模的$(S_i)_{i\in I}$族的（不一定是直接的）和，并令N为M的子模。存在I的子集J，使得M是N的由……组成族的直和并且模 $S_j$ $j$ 穿过 J。
 
-令$\mathscr{S}$为I的子集$I'$的集合，使得模N的族由……组成的和和$I'$中的$i$的$S_i$是直接的。 集合 $\mathscr{S}$ 是有限的特征标： I 属于到 $\mathscr{S}$ 的子集 J 当且仅当对于 J 的每个有限子集都成立。因此，集合 $\mathscr{S}$ 有极大元素 J（集合理论，III, §4, No. 5，p. 171）。 集合$N'= N +\sum_{j\in J}S_j$。设$i$在I - J中。由于J在$\mathscr{S}$中最大，集合$J\cup  \{i\}$不会属于到$\mathscr{S}$，因此$S_i\cap N'\not= 0$。由于$S_i$是单模，所以我们有$S_i\cap N'= S_i$。因此，每 $i\in I$ 就有 $S_i\subset N'$，从而 $N'= M$。这样就完成了证明。
+令$\mathscr{S}$为I的子集$I'$的集合，使得模N的族由……组成的和和$I'$中的$i$的$S_i$是直接的。 集合 $\mathscr{S}$ 是有限的特征标： I 属于到 $\mathscr{S}$ 的子集 J 当且仅当对于 J 的每个有限子集都成立。因而，集合 $\mathscr{S}$ 有极大元素 J（集合理论，III, §4, No. 5，p. 171）。 集合$N'= N +\sum_{j\in J}S_j$。设$i$在I - J中。由于J在$\mathscr{S}$中最大，集合$J\cup  \{i\}$不会属于到$\mathscr{S}$，因而$S_i\cap N'\not= 0$。由于$S_i$是单模，所以我们有$S_i\cap N'= S_i$。因而，每 $i\in I$ 就有 $S_i\subset N'$，从而 $N'= M$。这样就完成了证明。
 
 #### 推论 1 {#alg-viii-s4-thm-1-cor-1 .statement tag=0045}
 
@@ -104,7 +104,7 @@ A-模 M 是半单当且仅当当将其视为模超过其同位$A_M$ 的环时，
 
 相反，假设 M 的每个子模都承认补充。令$M'$为M中简单子模的和，并令$M''$为M中$M'$的补充。假设我们有$M'\not= M$，因此有$M''\not= 0$。令N为$M''$的非零的单生子模。由VIII的命题 3，p. 49，存在N的极大子模 P。设Q是M中P的子模补集。则$N\cap Q$是N的子模，N中P的补集，因此与$N/P$同构的（II, §1, No. 9、p. 210、命题13）。因而，$N\cap Q$是$M''$的简单子模，与$M'$的定义相反。
 
-因此，根据推论 1，我们有 $M'= M$，并且模 M 是半单。
+因而，根据推论 1，我们有 $M'= M$，并且模 M 是半单。
 
 #### 推论 3 {#alg-viii-s4-thm-1-cor-3 .statement tag=0047}
 
@@ -124,19 +124,19 @@ A-模 M 是半单当且仅当当将其视为模超过其同位$A_M$ 的环时，
 
 令 K 为代数闭交换域且 A K-代数。设 M 为半单A-模，即有限维向量空间超过域 K。则 M 是简单的，当且仅当 A-模 M 的每个自同态都是形式 $x\mapsto \alpha x$，其中 $\alpha$ 在 K 中：这是 VIII 的定理 1 所必需的， p. 47，并且根据上述推论 4 就足够了。
 
-### 2.同态$\bigoplus_i$坎$_A(M,N_i)\longrightarrow$坎$_A(M,\bigoplus_iN_i)$
+### 2. 同态$\bigoplus_i$坎$_A(M,N_i)\longrightarrow$坎$_A(M,\bigoplus_iN_i)$
 
-设A为环，M为A-模，$(N_i)_{i\in I}$为A-模的族。与 $\bigoplus_i$ Hom$_A(M,N_i)$ 的任何元素 $(u_i)$，我们将 Hom$_A(M,\bigoplus_iN_i)$ 的元素 $m\mapsto (u_i(m))$ 关联起来。我们因此定义典范同态
+设A为环，M为A-模，$(N_i)_{i\in I}$为A-模的族。与 $\bigoplus_i$ Hom$_A(M,N_i)$ 的任意元素 $(u_i)$，我们将 Hom$_A(M,\bigoplus_iN_i)$ 的元素 $m\mapsto (u_i(m))$ 关联起来。我们因此定义典范同态
 
 $\varphi :\bigoplus_i$坎$_A(M,N_i)\longrightarrow$坎$_A(M,\bigoplus_iN_i)$。
 
-显然$\varphi$是单射的。令 $u$ 为 Hom$_A(M,\bigoplus_iN_i)$ 的元素。那么 $\varphi$ 的 $u$ 属于到像当且仅当指标 $i$ 的集合使得 pr$_i\circ u\not= 0$ 是有限的。当模 M 有限生成时，条件会自动满足。
+显然$\varphi$是单射的。设 $u$ 为 Hom$_A(M,\bigoplus_iN_i)$ 的元素。那么 $u$ 属于到 $\varphi$ 的像当且仅当集合指标 $i$ 使得 pr$_i\circ u\not= 0$ 是有限的。当模 M 有限生成时，条件会自动满足。
 
 因而，如果模 M 是有限生成的，则同态 $\varphi$ 是双射的。
 
-### 3.模的若干运算
+### 3. 模的若干运算
 
-令 A 和 B 为环，并令 P 为 $(A$, B)-双模 (II, §1, No. 14, p. 225)。我们将定义进行两次程序，一个从左B-模到左A-模，另一个从左A-模到左B-模。
+令 A 和 B 为环，并令 P 为$(A$, B)-双模 (II, §1, No. 14, p. 225)。我们将定义分两个程序，一个从左B-模到左A-模，另一个从左A-模到左B-模。
 
 3.1. 运算$\mathscr{T}$。 — 令 V 为左B-模。用 $\mathscr{T}(V)$ 表示左A-模 $P\otimes_BV$ (II, §3, No. 4, p. 247)。 $\mathscr{T}(V)$ 上的作用的律由公式给出
 
@@ -216,7 +216,7 @@ $$
 \beta_V(v)(p) =p\otimes v \tag{8}
 $$
 
-对于 $p\in P$ 和 $v\in V$。我们将$\beta_V$称为从V到$\mathscr{H}(\mathscr{T}(V))$的规范B-线性映射。对于每个B-模$V'$和每个B-线性映射$g: V\rightarrow V'$，我们有一个可交换的图表
+对于 $p\in P$ 和 $v\in V$。我们将$\beta_V$称为从V到$\mathscr{H}(\mathscr{T}(V))$的规范B-线性映射。对于每个 B-模 $V'$ 和每个 B-线性映射 $g: V\rightarrow V'$，我们有一个可交换的图表
 
 V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$
 
@@ -240,7 +240,7 @@ $$
 
 $\gamma :$ 坎$_A(\mathscr{T}(V),\mathscr{T}(V'))\longrightarrow$ 坎$_B(V,\mathscr{H}(\mathscr{T}(V')))$
 
-对于每个 $f\in$ Hom$_B(V,V')$ 满足关系 $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ 因为
+对于每个 $f\in$ Hom$_B(V,V')$ 都满足关系 $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ 因为
 
 $$
 (\gamma (\mathscr{T}(f))(v))(p) =\mathscr{T}(f)(p\otimes v) =p\otimes f(v) = (\beta_{V'}\circ f)(v)(p)
@@ -256,11 +256,11 @@ $$
 \gamma^{-1}(\mathscr{H}(u))(p\otimes v) = (\mathscr{H}(u)(v))(p) =u(v(p)) =u\circ \alpha_M(p\otimes v)
 $$
 
-适用于所有 $u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M) 和 $p\in P$。
+对于所有 $u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M) 和 $p\in P$。
 
 #### 注 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
-令 M 为左A-模。 B-线性映射
+设M为左A-模。 B-线性映射
 
 $\beta_{\mathscr{H}(M)}:\mathscr{H}(M)\rightarrow \mathscr{H}(\mathscr{T}(\mathscr{H}(M)))$ 和 $\mathscr{H}(\alpha_M) :\mathscr{H}(\mathscr{T}(\mathscr{H}(M)))\rightarrow \mathscr{H}(M)$ 满足关系 $\mathscr{H}(\alpha_M)\circ \beta_{\mathscr{H}(M)}= 1_{\mathscr{H}(M)}$。一般来说，它们不是双射的。
 
@@ -270,15 +270,15 @@ $\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathsc
 
 #### 注 3 {#alg-viii-s4-n3-rem-3 .statement tag=004C}
 
-假设 P 有限生成为 A-模。令 M 为 A-模家庭$(M_i)_{i\in I}$ 的直和。 A-模 $\mathscr{T}(\mathscr{H}(M))$ 和 $\bigoplus_i\mathscr{T}(\mathscr{H}(M_i))$ 是规范同构的。当我们认同它们时，$\alpha_M$被识别为$\bigoplus_i\alpha_{M_i}$。同样，令V为B-模的家庭$(V_j)_{j\in J}$的直和。 B-模 $\mathscr{H}(\mathscr{T}(V))$ 与$\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ 标识，线性映射 $\beta_V$ 与$\bigoplus_j\beta_{V_j}$ 标识。
+假设 P 有限生成为 A-模。设M为A-模的家庭$(M_i)_{i\in I}$的直和。 A-模 $\mathscr{T}(\mathscr{H}(M))$ 和 $\bigoplus_i\mathscr{T}(\mathscr{H}(M_i))$ 是规范同构的。当我们认同它们时，$\alpha_M$就等同于$\bigoplus_i\alpha_{M_i}$。同样，令V为B-模的家庭$(V_j)_{j\in J}$的直和。 B-模 $\mathscr{H}(\mathscr{T}(V))$ 与$\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ 标识，线性映射 $\beta_V$ 与$\bigoplus_j\beta_{V_j}$ 标识。
 
-### 4.同型模
+### 4. Isotypical Modules
 
-设 A 为环，S 为简单的左A-模。设D为S的自同态环的逆环；是域。 S 具有 A 和 D 的作用，是$(A$，D)-双模。
+设 A 为环，S 为简单的左A-模。令 D 为 S 的自同态环的逆环；是域。赋予 A 和 D 的作用，S 是$(A$, D)-双模。
 
 #### 命题 1 {#alg-viii-s4-prop-1 .statement tag=004D}
 
-令 M 为 A-模。以下属性是等效的：
+设M为A-模。以下属性是等效的：
 
 (i) 存在集合I使得M与$S^{(I)}$同构。
 
@@ -286,49 +286,49 @@ $\mathscr{T}(\beta_V) :\mathscr{T}(V)\rightarrow \mathscr{T}(\mathscr{H}(\mathsc
 
 (iii) 模 M 是子模族中的和，与 S 同构。
 
-(iv) 在域 D 上存在左向量空间 V，使得A-模 M 与$S\otimes_DV$同构。
+(iv) 在域 D 上存在左向量空间 V，使得A-模 M 与$S\otimes_DV$ 同构。
 
-(i) 和 (ii) 的等价是直接的，(ii) 和 (iii) 的定理 1 of VIII, p. 56，应用于 N = 0 的情况。D 上的每个左向量空间同构于 的向量空间形式 $D_s^{(I)}$，其中 I 为集合（II, §7, No. 1、p. 292、定理 1）。由于张量积与直和交换，(i) 等价于 (iv)。
+(i)和(ii)的等价是直接的，(ii)和(iii)的直接的是从VIII、p. 56的定理 1得出的，适用于N = 0的情况。D上的每个左向量空间同构于形式的向量空间 $D_s^{(I)}$，其中 I 为集合（II, §7, No. 1、p. 292、定理 1）。由于张量积与直和可交换，(i) 等价于(iv)。
 
 #### 定义 2 {#alg-viii-s4-def-2 .statement tag=004E}
 
-如果A-模 M 具有与命题 1 等价的性质，则A-模 M 是型 S 的同型。如果存在单A-模 T，使得 M 是型 T 的同型，则模 M 称为同型。
+如果A-模 M 具有与命题 1 等价的性质，则A-模 M 是型 S 的同型。如果存在单A-模 T，使得M 是型 T 的同型，则模 M 称为同型。
 
-每个同型模就是半单。
+每个同型模都是半单。
 
 #### 命题 2 {#alg-viii-s4-prop-2 .statement tag=004F}
 
-如果模是型S的同型子模和，那么它是型S的同型。型S的同型模的子模和商模是同型的型 S。
+如果模是型S的同型子模的和，那么它是型S的同型。型S的同型模的子模和商模是型S的同型。
 
 第一个断言源自定义，第二个VIII、p. 56的推论3。
 
 #### 注 {#alg-viii-s4-n4-rem-1 .statement tag=004G}
 
-型 S 中的每个非零的同型模都有商模和子模同构于 S；因而，如果M和$M'$是型S的非零的同型A-模，则群Hom$_A(M,M')$不会减少到0。
+型 S 的每个非零的同型模都有商模和子模同构于 S；因而，如果 M 和 $M'$ 是型 S 的非零的同型A-模，则群 Hom$_A(M,M')$ 不会减少到 0。
 
 #### 命题 3 {#alg-viii-s4-prop-3 .statement tag=004H}
 
 a) 令 M 为型 S 的同型A-模。 A-线性映射 $\alpha_M: S\otimes_D$Hom$_A(S,M)\rightarrow M$ 特征在于 $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 59) 是双射的。
 
-b) 令V为左向量空间超过域D。由$\beta_V(v)(s) =s\otimes v$(VIII, p. 59)定义的D线性映射$\beta_V: V\rightarrow$Hom$_A(S,S\otimes_DV)$是双射的。
+b) 令V为左向量空间超过域D。由$\beta_V(v)(s) =s\otimes v$(VIII,p. 59)定义的D线性映射$\beta_V: V\rightarrow$Hom$_A(S,S\otimes_DV)$是双射的。
 
-用 $\mathscr{H}(M)$ 表示左侧 D-向量空间 Hom$_A(S,M)$。 A-模 M 与假设、直和属于子模同构族。 A-模 S 是单源的；为了证明映射 $\alpha_M$ 是双射的，因此只需考虑 M = S (VIII, p. 60, 注 3) 的情况。现在，$\mathscr{H}(S)$ 就是 D-向量空间 $D_s$，$\alpha_S$ 就是由 $\iota (s\otimes d) =sd$ 定义的同构 $\iota : S\otimes_DD_s\rightarrow S$。
+用 $\mathscr{H}(M)$ 表示左侧 D-向量空间 Hom$_A(S,M)$。 A-模 M 与假设、直和属于子模家​​族，与 S 同构的。 A-模 S 是单源的；为了证明映射 $\alpha_M$ 是双射的，因此只需考虑 M = S (VIII, p. 60, 注 3) 的情况。现在，$\mathscr{H}(S)$ 就是 D-向量空间 $D_s$，$\alpha_S$ 就是由 $\iota (s\otimes d) =sd$ 定义的同构 $\iota : S\otimes_DD_s\rightarrow S$。
 
 同样，为了证明b)，只需考虑$V = D_s$的情况。由于映射 $\alpha_S$ 是双射，映射 $\beta_{D_s}=\beta_{\mathscr{H}(S)}$ 也是双射 (VIII, p. 60, 注 2)。
 
-### 5.等型模的描述
+### 5. 等型模的描述
 
-与之前的小节一样，A表示环，S表示简单的左A-模，D表示域End$_A(S)^o$。我们将 S 视为 $(A$,D)-双模。
+与前面的小节一样，A表示环，S表示简单的左A-模，D表示域End$_A(S)^o$。我们将 S 视为 $(A$,D)-双模。
 
 #### 定义 3 {#alg-viii-s4-def-3 .statement tag=004I}
 
 令 M 为型 S 的同型A-模。M 相对于 S 的描述为对 $(V, \alpha )$，其中 V 为域 D 上的左向量空间，$\alpha : S\otimes_DV\rightarrow M$ 为同构 A-模。
 
-型 S 的每个同型A-模 M 都有规范描述：它是对 (Hom$_A(S,M), \alpha_M$)，其中 $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ 是 A-模的同构，其特征为 $\alpha_M(s\otimes f) =f(s)$ （VIII、p. 62、命题 3、a））。
+型 S 的每个同型A-模 M 都有规范描述：它是对 (Hom$_A(S,M), \alpha_M$)，其中 $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ 是 A-模的同构，特征为 $\alpha_M(s\otimes f) =f(s)$ （VIII、p. 62、命题 3、a））。
 
 #### 定理 2 {#alg-viii-s4-thm-2 .statement tag=004J}
 
-设 M 为型 S 的同型A-模和 M 的 $(V, \alpha )$ 描述。用 $\mathscr{D}_D(V)$ 集合（按包含排序）表示 V 的 D 线性子空间，并用 $\mathscr{D}_A(M)$ 表示M 的 A-子模。对于每个 $W\in$ $\mathscr{D}_D(V)$、认同 A-模 $S\otimes_DW$ 及其典范像在 $S\otimes_DV$。
+设 M 为型 S 的同型A-模和 M 的 $(V, \alpha )$ 描述。用 $\mathscr{D}_D(V)$ 集合（按包含排序）表示 V 的 D 线性子空间，用 $\mathscr{D}_A(M)$ 表示M 的 A-子模。对于每个 $W\in$ $\mathscr{D}_D(V)$、认同 A-模 $S\otimes_DW$ 及其典范像在 $S\otimes_DV$。
 
 a) 映射 $W\mapsto \alpha (S\otimes_DW)$ 是从 $\mathscr{D}_D(V)$ 到 $\mathscr{D}_A(M)$ 的有序集中的同构。
 
@@ -336,7 +336,7 @@ b) 逆同构将M的子模N发送到元素$v$的V由……组成的线性子空�
 
 对于$W\in \mathscr{D}_D$（V），集合$\varphi (W) =\alpha (S\otimes_DW)$。对于$N\in \mathscr{D}_A$(M)，用元素$v\in V$中的$\psi (N)$集合表示，使得每个$s\in S$都有$\alpha (s\otimes v)\in N$。这个定义两个映射$\varphi :\mathscr{D}_D(V)\rightarrow \mathscr{D}_A(M)$和$\psi :\mathscr{D}_A(M)\rightarrow \mathscr{D}_D(V)$。他们显然是递增。
 
-令N为M的子模。它是型S（VIII，p. 61，命题2）的同型。 集合$W =\psi (N)$。到命题 3，VIII、p. 62、A-线性映射 $h: S\rightarrow M$ 的 b) 就只是映射 $s\mapsto \alpha (s\otimes v)$，其中 $v$ 穿过 V。 N 中包含像的为映射 $s\mapsto \alpha (s\otimes w)$，其中 $w$ 穿过 W；它们的像生成N，因为N是型S的同型。因此我们有$\alpha (S\otimes_DW) = N$，即$\varphi (\psi (N)) = N$。这证明$\varphi \circ \psi$在$\mathscr{D}_A(M)$上是恒等映射。特别是，$\varphi$是满射，$\psi$是单射。
+令N为M的子模。它是型S的同型（VIII，p. 61，命题2）。 集合$W =\psi (N)$。到命题 3，VIII、p. 62、A-线性映射 $h: S\rightarrow M$ 的 b) 就只是映射 $s\mapsto \alpha (s\otimes v)$，其中 $v$ 穿过 V。 N 中包含像的为映射 $s\mapsto \alpha (s\otimes w)$，其中 $w$ 穿过 W；它们的像生成N，因为N是型S的同型。因此我们有$\alpha (S\otimes_DW) = N$，即$\varphi (\psi (N)) = N$。这证明$\varphi \circ \psi$在$\mathscr{D}_A(M)$上是恒等映射。特别是，$\varphi$是满射，$\psi$是单射。
 
 要完成证明，只需证明映射$\varphi$是单射的。设 W 和 $W'$ 是 V 的线性子空间，使得 $\varphi (W) =\varphi (W')$。当被视为$S\otimes_DV$的线性子空间时，向量空间$S\otimes_DW$和$S\otimes_DW'$重合。 选择非零的线性形式$f$在D-向量空间S上，并令$g: S\otimes_DV\rightarrow V$为由$g(s\otimes v) =f(s)v$定义的群同态。我们有 $W =g(S\otimes_DW) =g(S\otimes_DW') = W'$，所以 $\varphi$ 是单射的。
 
@@ -386,13 +386,13 @@ $\mathscr{T}:$坎$_D(V,V')\longrightarrow$坎$_A(\mathscr{T}(V),\mathscr{T}(V'))
 
 #### 注 2 {#alg-viii-s4-n5-rem-2 .statement tag=004O}
 
-设M为型S的同型A-模，并令$(V, \alpha )$为M的描述。设B为环End$_A(M)^o$的子环。 环同构 from End$_D(V)^o$ to End$_A(M)^o$ endows V with 结构 of a $(D$, B)-bimodule, so that $\alpha$ is 同构 of $(A$, B)-bimodules. There exists 同构 from 集合 of $(D$, B)-sub-bimodules of V, ordered by inclusion, to 集合 of $(A$, B)-sub-bimodules of M (VIII, p. 62, 定理 2和 VIII，p. 63，推论 2)。
+设M为型S的同型A-模，并令$(V, \alpha )$为M的描述。设B为环End$_A(M)^o$的子环。 环同构从End$_D(V)^o$到End$_A(M)^o$赋予V与$(D$，B)-双模的结构，使得$\alpha$是$(A$，B)-双模的同构。从$(D$的集合，B）V的子双模，到$(A$的集合，B）存在同构，M的VIII，p. 62，定理 2和 VIII，p. 63，推论 2)。
 
 #### 推论{#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
 令M和$M'$为型S的同型A-模。映射$u\mapsto$Hom(1$_S, u$)从Hom$_A(M,M')$到Hom$_D$(Hom$_A(S,M)$,Hom$_A(S,M')$)为群同构。当M等于$M'$时，从End$_A(M)$到End$_D$(Hom$_A(S,M)$)是环同构。
 
-Because of 交换律 of 图表 (I) of VIII, p. 59, this corollary follows from 定理 3, applied to 规范描述 of M and $M'$.
+由于VIII、p. 59的图表（I）的交换律，这个推论源自定理3，应用于M的规范描述和$M'$。
 
 ### 6. 模的同型成分
 
@@ -400,15 +400,15 @@ Because of 交换律 of 图表 (I) of VIII, p. 59, this corollary follows from �
 
 设 A 为环，M A-模，S 单A-模。 M 的型 S 的同型成分，记为 $M_S$，是与 S 同构的 M 的子模的和。
 
-It is clear that $M_S$ is 最大的子模 of M that is isotypical of 型 S. Because every 子模 of $M_S$ is isotypical of 型 S (VIII, p. 61, 命题 2)，对于 M 中的每子模 N，我们有 $N_S= M_S\cap N$。
+很明显，$M_S$是M的最大的子模，是型S的同型。因为$M_S$的每个子模都是型S的同型（VIII，p. 61， 命题 2)，对于 M 中的每子模 N，我们有 $N_S= M_S\cap N$。
 
-If $S'$ is 单A-模 isomorphic to S, then we clearly have $M_S=$ $M_{S'}$, so $M_S$ depends only on 类 of S (VIII, p. 51).
+如果$S'$与S单A-模同构，那么我们显然有$M_S=$$M_{S'}$，因此$M_S$仅取决于S的类（VIII，p. 51）。
 
-令 M 为 A-模。 M 存在最大的半单子模，称为M 的底层； it is 和 of 简单子模 of M and also 和 of the isotypical components of M. In particular, M is 半单 if and only if it is equal to its 底层.
+设 M 为 A-模。 M 存在最大的半单子模，称为M 的底层；它是 M 的简单子模的和，也是 M 的同型组件的和。特别是，M 是半单当且仅当它等于它的底层。
 
 #### 命题 4 {#alg-viii-s4-prop-4 .statement tag=004R}
 
-设 A 为环。用$\mathscr{S}$表示单A-模的类的集合。设 M 为半单A-模。
+设 A 为环。用$\mathscr{S}$表示单A-模的类的集合。令 M 为半单A-模。
 
 a) 模 M 是其同型成分家族 $(M_{\lambda})_{\lambda\in\mathscr{S}}$ 的直和。
 
@@ -492,7 +492,7 @@ $$
 
 相反，如果满足条件 (ii)，则$M_{\lambda}$ 是零或对于每个 $\lambda \in \mathscr{S}$ 都是简单的。如果 N 是 M 的子模，则对于每个 $\lambda \in \mathscr{S}$，$N\cap M_{\lambda}$ 等于 0 或 $M_{\lambda}$。由于我们有 $N =\bigoplus_{\lambda\in\mathscr{S}}(N\cap M_{\lambda})$（VIII，p. 66，推出），子模 N 具有推论 1 的性质 (iii)，因此在 M 中承认唯一的补子模。这证明了 (ii) 隐含 (i)，以及推论的最后一个断言。
 
-设 M 为 A-模，S 单A-模。用 D 表示域 End$_A(S)$ 的逆环，并将 S 视为$(A$，D)-双模。那么Hom$_A(S,M)$是D上的左向量空间，Hom$_A(M,S)$是D上的右向量空间。左D-向量空间Hom$_A(S,M)$的对偶是D上的右向量空间（II, §2, No. 3，p. 232，定义2）。对于每个 $u\in$ Hom$_A(M,S)$，从 Hom$_A(S,M)$ 到 Hom$_A(S,S) = D$ 的映射 $h(u) :v\mapsto u\circ v$ 是线性形式位于左侧 D-向量空间 Hom$_A(S,M)$。
+设 M 为 A-模，S 单A-模。用 D 表示域 End$_A(S)$ 的逆环，并将 S 视为$(A$，D)-双模。那么Hom$_A(S,M)$是D上的左向量空间，Hom$_A(M,S)$是D上的右向量空间。左D-向量空间Hom$_A(S,M)$的对偶是D上的右向量空间（II, §2, No. 3，p. 232，定义2）。对于每个$u\in$Hom$_A(M,S)$，从Hom$_A(S,M)$到Hom$_A(S,S) = D$的映射$h(u) :v\mapsto u\circ v$是线性形式在左边D-向量空间Hom$_A(S,M)$。
 
 #### 命题 6 {#alg-viii-s4-prop-6 .statement tag=004X}
 
@@ -504,13 +504,13 @@ $$
 h(ud)(v) =h(d\circ u)(v) =d\circ u\circ v=d\circ (h(u)(v)) =h(u)(v)d
 $$
 
-这证明映射$h$是D-线性的。它只是由 $u\mapsto$ Hom(1$_S, u$) 从 Hom$_A(M,S)$ 到 Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S)$) 给出的映射。为了证明它是双射的，通过VIII、p. 66的命题 5、b)，只需处理M与型 S同型的情况即可；然后我们可以应用VIII、p. 65的推论。
+这证明映射$h$是D-线性的。它只是由 $u\mapsto$ Hom(1$_S, u$) 从 Hom$_A(M,S)$ 到 Hom$_D$(Hom$_A(S,M)$, Hom$_A(S,S)$) 给出的映射。为了证明它是双射的，由命题 5, b) of VIII，p. 66，只需处理M与型 S同型的情况即可；然后我们可以应用VIII、p. 65的推论。
 
-### 7.半单模的描述
+### 7. 半单模的描述
 
-对于这个截面的剩余部分，A是环，$\mathscr{S}$是单A-模的类中的集合。对于每个$\lambda \in \mathscr{S}$，我们选择单模$S_{\lambda}$ / 类$\lambda$（例，$S_{\lambda}=\lambda$）；我们用$D_{\lambda}$表示$S_{\lambda}$的自同态的域的逆环。我们将$S_{\lambda}$视为$(A,D_{\lambda}$)-双模。
+对于这个截面的剩余部分，A是环，$\mathscr{S}$是单A-模的类中的集合。对于每个$\lambda \in \mathscr{S}$，我们选择单模$S_{\lambda}$/类$\lambda$（对于例，$S_{\lambda}=\lambda$）；我们用$D_{\lambda}$表示$S_{\lambda}$的自同态的域的逆环。我们将$S_{\lambda}$视为$(A,D_{\lambda}$)-双模。
 
-设 M 为 A-模。对于每 $\lambda \in \mathscr{S}$，Hom$_A(S_{\lambda},M)$ 是左向量空间超过域 $D_{\lambda}$。由VIII、p. 59、II, §1, No. 6、p. 202、命题 6，存在一个唯一的A-线性映射，称为规范，
+令 M 为 A-模。对于每 $\lambda \in \mathscr{S}$，Hom$_A(S_{\lambda},M)$ 是左向量空间超过域 $D_{\lambda}$。由VIII、p. 59、II, §1, No. 6、p. 202、命题 6，存在一个唯一的A-线性映射，称为规范，
 
 $\alpha_M:\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$坎$_A(S_{\lambda},M))\rightarrow M$
 
@@ -520,11 +520,11 @@ $$
 \alpha_M(s\otimes f) =f(s) \tag{10}
 $$
 
-$\lambda \in \mathscr{S},s\in S_{\lambda}$、$f\in$ Hom$_A(S_{\lambda},M)$。如果我们赋予 $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))$ 和 M 自然的结构 End$_A$(M)-模，则映射 $\alpha_M$ 是 End$_A$(M)-线性。
+$\lambda \in \mathscr{S},s\in S_{\lambda}$、$f\in$ Hom$_A(S_{\lambda},M)$。如果我们赋予 $\bigoplus_{\lambda\in\mathscr{S}}(S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M))$ 和 M 自然的结构 End$_A$(M)-模，那么映射 $\alpha_M$ 是 End$_A$(M)-线性。
 
 #### 命题 7 {#alg-viii-s4-prop-7 .statement tag=004Y}
 
-设 M 为 A-模。 典范映射 $\alpha_M$ 是单射的。对于每个$\lambda \in \mathscr{S}$，$S_{\lambda}\otimes_{D_{\lambda}}$Hom$_A(S_{\lambda},M)$的$\alpha_M$下的像是型$\lambda$的M的同型分量。 $\alpha_M$的像是M的底层。A-模M是半单当且仅当映射$\alpha_M$是双射。
+设 M 为 A-模。 典范映射 $\alpha_M$ 是单射的。对于每个$\lambda \in \mathscr{S}$，$S_{\lambda}\otimes_{D_{\lambda}}$Hom$_A(S_{\lambda},M)$的$\alpha_M$下的像是型$\lambda$的M的同型分量。 $\alpha_M$的像是M的底层。A-模M是半单当且仅当映射$\alpha_M$是双射的。
 
 让$\lambda \in \mathscr{S}$。用 $M_{\lambda}$ 表示型 $\lambda$ 的 M 的同型成分。从$S_{\lambda}$到M的每个A-线性映射在$M_{\lambda}$中取其值（VIII，p. 66，命题5）。因而，通过命题 3，a) 的VIII、p. 62、映射 $\alpha_M$ 诱导双射，从$S_{\lambda}\otimes_{D_{\lambda}}$ Hom$_A(S_{\lambda},M)$ 到$M_{\lambda}$。 命题遵循，因为M的底层是$(M_{\lambda})_{\lambda\in\mathscr{S}}$族的直和，并且模M是半单当且仅当它等于它的底层。
 
@@ -558,7 +558,7 @@ $$
 
 #### 推论{#alg-viii-s4-n7-cor-1 .statement tag=0051}
 
-设 M 为半单A-模。对于M的每个子模N和$\mathscr{S}$的每个元素$\lambda$，认同Hom$_A(S_{\lambda},N)$与$D_{\lambda}$-线性子空间Hom$_A(S_{\lambda},M)$由……组成的映射 N 中包含像。
+令 M 为半单A-模。对于M的每个子模N和$\mathscr{S}$的每个元素$\lambda$，认同Hom$_A(S_{\lambda},N)$以及映射的Hom$_A(S_{\lambda},M)$由……组成的$D_{\lambda}$线性子空间 N 中包含像。
 
 a) 映射 $N\mapsto$ (Hom$_A(S_{\lambda},N)$)$_{\lambda\in\mathscr{S}}$ 是双射，从 M 的 A-子模的集合到$(W_{\lambda})_{\lambda\in\mathscr{S}}$ 家庭的集合，这样对于每个 $\lambda \in \mathscr{S}$，$W_{\lambda}$ 是Hom$_A(S_{\lambda},M)$的$D_{\lambda}$-线性子空间。
 
@@ -568,7 +568,7 @@ b) 逆双射将家人$(W_{\lambda})_{\lambda\in\mathscr{S}}$发送给M的A-子�
 
 #### 命题 9 {#alg-viii-s4-prop-9 .statement tag=0052}
 
-令M和$M'$为半单A-模，并分别考虑M和$M'$的描述、$((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$和$((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$。对于 $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V_{\lambda}')$ 的每个家庭 $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$，都存在一个唯一的 A-线性映射 $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$，以下图表通勤：
+设M和$M'$为半单A-模，并分别考虑M和$M'$的描述、$((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$和$((V'_{\lambda})_{\lambda\in\mathscr{S}}, \alpha ')$。对于 $\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V_{\lambda}')$ 的每个家庭 $\boldsymbol{f}= (f_{\lambda})_{\lambda\in\mathscr{S}}$，都存在一个唯一的 A-线性映射 $\varphi (\boldsymbol{f})\in$ Hom$_A(M,M')$，以下图表通勤：
 
 $\bigoplus(S_{\lambda}\otimes_DV_{\lambda})^{\alpha}$ // 中号
 
@@ -592,11 +592,11 @@ $\lambda \in \mathscr{S}\lambda$
 
 映射 $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$这样定义就是群同构。当我们对每个$\lambda \in \mathscr{S}$和$\alpha =\alpha '$有$M = M',V_{\lambda}= V'_{\lambda}$时，从$\prod_{\lambda\in\mathscr{S}}$End$_{D_{\lambda}}(V_{\lambda})$到End$_A(M)$，映射$\varphi$是环同构。
 
-鉴于命题 8, a) 中给出的 M 和 $M'$ 的同型成分描述，这是从 VIII、p. 64 的定理 3 和 VIII、p. 66 的命题 5, b) 得出的。
+鉴于命题 8, a) 中给出的 M 的同型成分描述和 $M'$，这是从 VIII、p. 64 的定理 3 和 VIII 的命题 5, b) 得出的， p. 66。
 
 #### 推论 {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 
-令 M 为半单A-模和 $M'$ A-模。 映射 $u\mapsto$ (霍姆(1$_{S_{\lambda}}, u$))$_{\lambda\in\mathscr{S}}$ 从 霍姆$_A(M,M')$ 至
+设 M 为半单A-模和 $M'$ A-模。 映射 $u\mapsto$ (霍姆(1$_{S_{\lambda}}, u$))$_{\lambda\in\mathscr{S}}$ 从 霍姆$_A(M,M')$ 至
 
 $\prod_{\lambda\in\mathscr{S}}$ 坎$_{D_{\lambda}}$(坎$_A(S_{\lambda},M)$, 坎$_A(S_{\lambda},M')$)
 
@@ -608,7 +608,7 @@ $\prod_{\lambda\in\mathscr{S}}$ 坎$_{D_{\lambda}}$(坎$_A(S_{\lambda},M)$, 坎$
 
 #### 命题 10 {#alg-viii-s4-prop-10 .statement tag=0054}
 
-设 M 为半单A-模。令$(M_i)_{i\in I}$为简单子模与直和M的族。以下性质是等价的：
+令 M 为半单A-模。令 $(M_i)_{i\in I}$ 为简单子模与直和 M 的族。以下性质是等价的：
 
 (i) M 有有限长度。
 
@@ -622,40 +622,40 @@ $\prod_{\lambda\in\mathscr{S}}$ 坎$_{D_{\lambda}}$(坎$_A(S_{\lambda},M)$, 坎$
 
 如果 M 具有这些性质，则 M 的长度等于 I 的基数。
 
-如果集合 I 是有限的，则 M 具有属性 (i)、(ii)、(iii) 和 (iv)。假设集合 I 是无穷大。由 VIII、p. 2、模中的例 2 个 M 既不是阿廷的也不是诺特；因为有限长度的每个模都是阿廷的和诺特（VIII，p. 2，命题1），所以M也没有有限长度。最后，M 属于到和的每个元素是子模$M_i$的有限数，因此M不是有限生成的。这证明了性质 (i) 到 (v) 的等价。如果这些成立，则我们有 long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I)（II, §1, No. 10，p. 213，推论 5）。
+如果集合 I 是有限的，则 M 具有属性 (i)、(ii)、(iii) 和 (iv)。假设集合 I 是无限的。 VIII、p. 2、模中的例 2，M 既不是阿廷的，也不是诺特；因为有限长度的每个模都是阿廷的和诺特（VIII，p. 2，命题1），所以M也没有有限长度。最后，M 属于到和的每个元素是子模$M_i$的有限数，因此M不是有限生成的。这证明了属性 (i) 到 (v) 的等价。如果这些成立，那么我们有 long(M) $=\sum_{i\in I}$ long(M$_i$) $=$ Card(I) (II, §1, No. 10，p. 213，推论 5)。
 
 #### 命题 11 {#alg-viii-s4-prop-11 .statement tag=0055}
 
 设M为半单A-模，即简单子模的家庭$(M_i)_{i\in I}$的直和。对于每个$\lambda \in \mathscr{S}$，我们用指标$i\in I$的$I(\lambda )$集合表示，这样$M_i$就是类$\lambda$。 $I(\lambda )$的基数等于左$D_{\lambda}$向量空间Hom$_A(S_{\lambda},M)$的维数。
 
-型 $\lambda$ 的 A 的同型成分与 $S_{\lambda}^{(I(\lambda))}$ 同构的 (VIII, p. 65, 命题 4, b))。 $D_{\lambda}$-向量空间 Hom$_A(S_{\lambda},M)$ 可以与 Hom$_A(S_{\lambda},M_{\lambda})$ 等价，因此与 $D_{\lambda}^{(I(\lambda))}$ (No. 2) 同构的。这就证明了命题。
+A 型 $\lambda$ 的同型成分与 $S_{\lambda}^{(I(\lambda))}$ 同构的 (VIII, p. 65, 命题 4, b))。 $D_{\lambda}$-向量空间 Hom$_A(S_{\lambda},M)$ 可以与 Hom$_A(S_{\lambda},M_{\lambda})$ 等价，因此与 $D_{\lambda}^{(I(\lambda))}$ (No. 2) 同构的。这就证明了命题。
 
-每个单模都是原始的（VIII，p. 45），所以每个半单模都是半原始的。设M为半单A-模，并设$\lambda \in \mathscr{S}$。 M 中$\lambda$ 的重数是VIII、p. 34 中定义的M 中$\lambda$ 的原始重数 $[M :\lambda ]$。 命题 11 翻译为等式
+每个单模都是原初的（VIII，p. 45），所以每个半单模都是半原初的。令M为半单A-模，并令$\lambda \in \mathscr{S}$。 M 中$\lambda$ 的重数是VIII、p. 34 中定义的M 中$\lambda$ 的原始重数 $[M :\lambda ]$。 命题 11 翻译为等式
 
-（11）$[M :\lambda ] =$暗$_{D_{\lambda}}$（坎$_A(S_{\lambda},M)$）。
+（11）$[M :\lambda ] =$昏暗$_{D_{\lambda}}$（坎$_A(S_{\lambda},M)$）。
 
-更一般地，如果$((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$是M的描述，则$[M :\lambda ]$等于dim$_{D_{\lambda}}(V_{\lambda})$。到命题 6 of VIII、p. 68，我们还有
+更一般地，如果$((V_{\lambda})_{\lambda\in\mathscr{S}}, \alpha )$是M的描述，则$[M :\lambda ]$等于dim$_{D_{\lambda}}(V_{\lambda})$。到 VIII、p. 68 的命题 6，我们还有
 
-(12)$[M :\lambda ] =$暗$_{D_{\lambda}}$(坎$_A(M,S_{\lambda})$)
+(12) $[M :\lambda ] =$ 昏暗$_{D_{\lambda}}$(坎$_A(M,S_{\lambda})$)
 
-当重数 $[M :\lambda ]$ 是有限的。 半单A-模 M 和 $M'$ 同构当且仅当我们对于每个 $\lambda \in \mathscr{S}$ 都有 $[M :\lambda ] = [M':\lambda ]$。
+当重数$[M :\lambda ]$有限时。 半单A-模 M 和 $M'$ 同构当且仅当我们对于每个 $\lambda \in \mathscr{S}$ 都有 $[M :\lambda ] = [M':\lambda ]$。
 
-设 M 为半单A-模。存在一个基数 $\mathbf{I}$ 具有以下性质：对于 M 的每个分解 $M =\bigoplus_{i\in I}M_i$ 到单模的直和，I 的基数等于 $\mathbf{I}$ (VIII， p. 34，推论 2)。该基数称为半单A-模 M 的长度，用 long$_A(M)$ 或 long(M) 表示。当M有有限长度时，这个定义与II, §1, No. 10、p. 212兼容命题10。
+设M为半单A-模。存在一个基数$\mathbf{I}$，其性质：对于M的每个分解$M =\bigoplus_{i\in I}M_i$到单模的直和，I的基数等于$\mathbf{I}$（VIII，p. 34，推论2）。该基数称为半单A-模 M 的长度，用 long$_A(M)$ 或 long(M) 表示。当M有有限长度时，这个定义与II, §1, No. 10、p. 212兼容命题10。
 
 单A-模是长度 1 中的半单A-模，我们有公式
 
 (13) 长$_A(\bigoplus_{j\in J}M_j)=\sum_{j\in J}$ 长$_A(M_j)$
 
-每个家庭$(M_j)_{j\in J}$共半单A-模。到命题11，我们有
+对于每个家庭$(M_j)_{j\in J}$ 半单A-模。到命题 11 时，我们已经
 
 （14）长$_A(M) =\sum_{\lambda\in\mathscr{S}}$暗$_{D_{\lambda}}$坎$_A(S_{\lambda},M)$。
 
-通过应用这个公式到$M_{\lambda}$，我们每$\lambda \in \mathscr{S}$获得$[M :\lambda ] =$长$_A(M_{\lambda})$。
+通过应用这个公式到$M_{\lambda}$，对于每个$\lambda \in \mathscr{S}$，我们获得$[M :\lambda ] =$长$_A(M_{\lambda})$。
 
-当A为域时，单A-模为维数1中的向量空间；每个 A-模就是半单 (II, §7, No. 1, p. 292, 定理 1)，而它的长度只是它的维数作为 A 上的向量空间 (II, §7, No. 2, p. 293) 。
+当A为域时，单A-模为维数1中的向量空间；那么每个 A-模就是半单 (II, §7, No. 1, p. 292, 定理 1)，并且它的长度只是它的维数作为 A (II, §7, No. 2, p. 293) 上的向量空间 。
 
 ### 习题{#alg-viii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。
 
-[^1]: 根据VIII、p. 56的推论2，这个定义重合与VII, §2, No. 2、p. 9中给出的
+[^1]: By Corollary 2 of VIII, p. 56, this definition coincides with that given in VII, §2, No. 2, p. 9

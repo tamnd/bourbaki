@@ -13,23 +13,23 @@ pdf_pages: 0368-0375
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e17cda781b6dcc1e3d74f4c3f8cd49e0941e6c01f3b65e6e1d78fa56f770a130
+content_sha256: a51556310a44502a3243c04e59f662f6e833455cba1c70a230fbecaba09843ba
 translated_from: content/en/ens/ER/04_s4_union_intersection_product_of_a_family.md
 translation_method: google
 source_content_sha256: 4b835593887f6b43eb749a64666773682e6a55745eeea04dc0f501209be0cff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 40b383969c556695a4fd6d696b7ef9c309a6b81fb141b6cce39d378872857cc5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4.并、交、集族的积
+## 4. 并、交、集族的积
 
 1. 在这个截面中，我们考虑集合$E$的子集的$(X_i)_{i\in I}$族，其中指标集合$I$是任意的； $E$ 属于的集合 / 子集给家庭将用$\mathfrak{X}$ 表示（因此是子集 / $\mathfrak{P}(E)$）。
 
-如果$I$是有限的，$(X_i)$约化对$E$的几个子集的考虑，可能是不同的，也可能不是，并且在数等于$I$的元素的数。对于例，$E$形式中的任意三个子集$X_1,X_2,X_3$$E$中的子集家庭，指标集合这里数中的由……组成1, 2， 3.
+如果$I$是有限的，$(X_i)$约化对$E$的几个子集的考虑，可能是不同的，也可能不是不同的，并且在数中等于$I$的元素的数。对于例，$E$形式中的任意三个子集$X_1,X_2,X_3$$E$中的子集家庭，指标集合这里由……组成中数1, 2， 3.
 
 2. 令$J$为$I$中的任意子集，并考虑所有具有性质的元素$x$中的集合，“存在$i\in J$使得$x\in X_i$”。这个集合称为集合$(X_i)_{i\in J}$家族的并，记为$\displaystyle\bigcup_{i\in J}X_i$。
 
@@ -43,9 +43,9 @@ $$
 
 当$J=I$时，我们经常写$\displaystyle\bigcup X_i$，或者简称为$\displaystyle\bigcup X_i$，来代替$\displaystyle\bigcup_{i\in I}X_i$。
 
-并$\displaystyle\bigcup_{i\in I}X_i$仅取决于集合$\mathfrak{X}$；其他字，两个家庭的相应的到$\mathfrak{P}(E)$的子集$\mathfrak{X}$是一样的。特别是，它等于$\mathfrak{X}$的典范映射到$\mathfrak{P}(E)$定义的族的并，因此我们可以写为$\displaystyle\bigcup_{X\in\mathfrak{X}}X$，也称为集合属于到$\mathfrak{X}$的并。
+并$\displaystyle\bigcup_{i\in I}X_i$仅取决于集合$\mathfrak{X}$；其他字，两个家庭相应的到子集$\mathfrak{X}$$\mathfrak{P}(E)$是一样的。特别是，它等于$\mathfrak{X}$的典范映射到$\mathfrak{P}(E)$定义的族的并，因此我们可以写成$\displaystyle\bigcup_{X\in\mathfrak{X}}X$，也称为集合属于到$\mathfrak{X}$的并。
 
-当$I$为集合且元素明确指定时，对于例数1,2,3，我们有
+当$I$是集合且元素被显式指定时，对于例数1,2,3，我们有
 
 $$
 \bigcup_{i\in I}X_i=X_1\cup X_2\cup X_3,

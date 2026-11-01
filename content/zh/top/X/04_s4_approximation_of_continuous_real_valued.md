@@ -28,19 +28,19 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 21
-content_sha256: d80477f5d7b23a90bbba387218fc4a95bc76e0642e96d86c6a5dc43495432f3d
+content_sha256: 2c09c049e09daff124c110e30ecce050a3f1dcbe2ca39fae3f5ffdd15a89ca53
 translated_from: content/en/top/X/04_s4_approximation_of_continuous_real_valued.md
 translation_method: google
 source_content_sha256: 949d16c80adeb3bf4fa8d42aa0a09edd31bc61679863b9e79f9e89c41e063551
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2749825ed67bce395267e734444b72907086a7f2cbc91d84b9ed36a45d196425
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4.连续实值函数的近似
+## 4. 连续实值函数的近似值
 
 ### 1. 通过函数属于连续函数逼近格子
 
@@ -50,11 +50,11 @@ $$
 ||f|| = \sup_{x \in X} |f(x)|
 $$
 
-并且这个范数与$\mathscr{C}$的$\mathbf{R}$代数结构兼容。有了这个范数和这个代数结构，$\mathscr{C}$是$\mathbf{R}$上的*完整规范代数*（$§ 1$，no. 6，定理2，推论1）。
+并且这个范数与$\mathscr{C}$的$\mathbf{R}$代数结构兼容。有了这个范数和这个代数结构，$\mathscr{C}$是$\mathbf{R}$上的*完整规范的代数*（$§ 1$，no. 6，定理2，推论1）。
 
 (*) 在此截面中考虑的实值函数假定始终是*有限*。
 
-如果$H$是$\mathscr{C}$的子集，我们可以说$X$上的连续实值函数$f$可以统一近似为$H$的函数，如果$f$位于闭包中空间$\mathscr{C}$中的$H$，即，如果对于每个$\varepsilon > 0$，都存在函数$g \in H$，使得$|f(x) - g(x)| \leq \varepsilon$对于所有$x \in X$。说$X$上的每个连续实值函数都可以由$H$的函数统一逼近，因此意味着$H$在$\mathscr{C}$中是稠密的。
+如果$H$是$\mathscr{C}$的子集，我们可以说$X$上的连续实值函数$f$可以统一近似为$H$的函数，如果$f$位于闭包中$H$在空间$\mathscr{C}$中，即，如果对于每个$\varepsilon > 0$，都存在函数$g \in H$，使得$|f(x) - g(x)| \leq \varepsilon$对于所有$x \in X$。说$X$上的每个连续实值函数都可以由$H$的函数统一逼近，因此意味着$H$在$\mathscr{C}$中是稠密的。
 
 在集合$\mathscr{C}$上，关系$f \leq g$[这意味着$f(x) \leq g(x)$对于所有$x \in X$]是序关系，相对于$\mathscr{C}$是一个格子。显然我们有 $|||u| - |v||| \leq ||u - v||$，因此 $u \to |u|$ 是 $\mathscr{C}$ 的均匀连续的映射。由此可见
 
@@ -70,7 +70,7 @@ $$
 
 在 $\mathscr{C} \times \mathscr{C}$ 上均匀连续。
 
-命题I。令$X$为紧致空间，并令$H$为在$X$上定义的连续实值函数的集合。令$f$为$X$上的连续实值函数，使得对于每个$x \in X$，存在函数$u_x \in H$，使得$u_x(x) > f(x)$[resp。 $u_x(x) < f(x)$]。那么存在函数 $u_{x_i} = f_i \in H$ ($1 \leq i \leq n$) 的有限数，这样，如果 $v = \sup(f_1, f_2, \ldots, f_n)$ [resp. $w = \inf(f_1, f_2, \ldots, f_n)$]，我们有 $v(x) > f(x)$ [分别。 $w(x) < f(x)$] 对于所有$x \in X$。
+命题I。令$X$为紧致空间，令$H$为在$X$上定义的连续实值函数的集合。令$f$为$X$上的连续实值函数，使得对于每个$x \in X$，存在函数$u_x \in H$，使得$u_x(x) > f(x)$[resp。 $u_x(x) < f(x)$]。那么存在函数 $u_{x_i} = f_i \in H$ ($1 \leq i \leq n$) 的有限数，这样，如果 $v = \sup(f_1, f_2, \ldots, f_n)$ [resp. $w = \inf(f_1, f_2, \ldots, f_n)$]，我们有 $v(x) > f(x)$ [分别。 $w(x) < f(x)$] 对于所有$x \in X$。
 
 对于每个 $x \in X$，令 $G_x$ 为所有 $z \in X$ 的开集合由……组成，使得 $u_x(z) > f(z)$ [resp. $u_x(z) < f(z)$]。由于$x \in G_x$乘以假设，$X$是集合$G_x$的并，因为$x$穿过$X$。由于$X$是紧的，因此存在点$x_i$（$1 \leq i \leq n$）的有限数，使得$G_{x_i}$覆盖$X$，并且很明显函数$f_i = u_{x_i}$满足条件共命题。
 
@@ -96,13 +96,13 @@ $$
 
 #### 推论{#top-x-s4-n1-cor-2 .statement tag=0CEZ}
 
-假设$H$是这样的，每当$u \in H$和$v \in H$时，我们就有$\sup(u, v) \in H$和$\inf(u, v) \in H$；并且是这样的，给定$X$的任意两个不同的点$x, y$和任意两个实数$\alpha, \beta$，存在函数$g \in H$使得$g(x) = \alpha$和$g(y) = \beta$。那么$X$上的每个连续实值函数都可以由函数属于统一逼近到$H$。
+假设$H$是这样的，每当$u \in H$和$v \in H$时，我们就有$\sup(u, v) \in H$和$\inf(u, v) \in H$；并且是这样的，给定$X$的任何两个不同的点$x, y$和任何两个实数$\alpha, \beta$，存在函数$g \in H$使得$g(x) = \alpha$和$g(y) = \beta$。那么$X$上的每个连续实值函数都可以由函数属于统一逼近到$H$。
 
 #### 定义 1 {#top-x-s4-def-1 .statement tag=0CF0}
 
 *如果X是任何集合，X的映射的集合H到集合Y被认为是分离X的子集A的元素（或者是分离集合 A 的元素) 如果给定 A 的任何两个不同的元素 x, y，则有函数 f ∈ H 使得 f(x) ≠ f(y)。*
 
-对于例，如果 X 是完全正则空间 (章 IX, § 1, no. 5)，那么 X 的所有连续映射的集合到 [0, 1] 中将点分开X。
+对于例，如果 X 是完全正则空间 (章 IX, § 1, no. 5)，则 X 的所有连续映射的集合分成 [0, 1] 将点分开X。
 
 #### 定理 2（石头）{#top-x-s4-thm-2 .statement tag=0CF1}
 
@@ -130,7 +130,7 @@ $$
 
 #### 定理 3（威尔斯特拉斯石）{#top-x-s4-thm-3 .statement tag=0CF2}
 
-*令X为紧致空间，并令H为X上连续实值函数的集合，它将点与X分开。那么X上的每一个连续实值函数都可以用H的函数中的多项式（带实数系数）统一逼近。*
+*令X为紧致空间，并令H为X上连续实值函数的集合，它将点与X分开。那么X上的每一个连续实值函数都可以用H的函数中的多项式（带有实数系数）统一逼近。*
 
 定理的等价叙述是*$\mathscr{C}(X; \mathbf{R})$的任何子代数，其中包含常量函数并分隔X的点在$\mathscr{C}(X; \mathbf{R})$*中是稠密的。
 
@@ -212,15 +212,15 @@ $$
 
 如果不是所有$X_i$都是紧的，定理4的结论不一定有效（cf.习题9）。
 
-### 4. 将紧致空间的连续映射近似为范数空间
+### 4. 将紧致空间的连续映射近似为规范空间
 
-令 $X$ 为紧致空间，令 $Y$ 为域 $\mathbf{R}$ 上的规范向量空间 (章 IX, § 3)； 空间 $C(X; Y)$ 将始终被假定携带由范数 $\|u\| = \sup_{x \in X} \|u(x)\|$ ($§ 3$, no. 2) 定义的一致收敛性拓扑。
+令 $X$ 为紧致空间，令 $Y$ 为域 $\mathbf{R}$ (章 IX, § 3) 上的规范向量空间； 空间 $C(X; Y)$ 将始终被假定携带由范数 $\|u\| = \sup_{x \in X} \|u(x)\|$ ($§ 3$, no. 2) 定义的一致收敛性拓扑。
 
 给定在$X$上定义的连续实值函数的集合$H$，函数属于到$H$的有限族$(u_i)_{1 \leq i \leq n}$，以及点的有限族$(a_i)_{1 \leq i \leq n}$ $Y$：$X$到$Y$的映射$x \to \sum_{i=1}^n a_i u_i(x)$则连续；我们用$\sum_{i=1}^n a_i u_i$表示，我们说它是$H$的函数的线性组合，系数在$Y$。我们说连续的映射$f : X \to Y$可以用$H$的函数的线性组合统一逼近（系数在$Y$），如果$f$位于向量子空间的闭包中由这些线性组合组成$C(X; Y)$。
 
 #### 命题 5 {#top-x-s4-prop-5 .statement tag=0CF8}
 
-令$X$是一个紧凑的空间，$Y$是$\mathbf{R}$和$H$子集的规范空间和$\mathscr{C}(X; \mathbf{R})$。如果$X$上的每个连续实值函数都可以用$H$的函数统一近似，那么$X$到$Y$的每个连续映射$f$可以用线性组合统一近似$H$ 的函数，系数为$Y$。
+令 $X$ 为紧致空间，$Y$ $\mathbf{R}$ 和 $H$ 子集的规范空间 $\mathscr{C}(X; \mathbf{R})$。如果$X$上的每个连续实值函数都可以用$H$的函数统一近似，那么$X$到$Y$的每个连续映射$f$可以用线性组合统一近似$H$ 的函数，系数为$Y$。
 
 给定任何实数$\varepsilon > 0$，对于每个$x \in X$，都存在$x$的开邻域，其中$f$的振荡为$\leq \varepsilon$。因此，存在$X$的有限开覆盖​​$(A_i)_{1 \leq i \leq n}$，使得$f$在每个$A_i$中的振荡为$\leq \varepsilon$。令$a_i$为$A_i$（$1 \leq i \leq n$）中$f$的值，并令$(u_i)_{1 \leq i \leq n}$为单位元的连续划分，从属于覆盖$(A_i)$（章IX, § 4, no. 4， 命题 4) 的推论。令$x$为$X$中的任意点。对于每个指标$i$使得$x \notin A_i$，我们有$u_i(x) = 0$，并且对于每个指标$i$使得$x \in A_i$我们有$\|f(x) - a_i\| \leq \varepsilon$;由此可见
 
@@ -254,7 +254,7 @@ $$
 
 令$X$为紧致空间，令$H$为$X$上的连续复值函数的集合，它分隔点与$X$。那么$X$的每个连续映射到$\mathbf{C}$上的规范空间$Y$都可以通过函数$f \in H$及其共轭$\overline{f}$中的多项式统一近似，系数为$Y$。
 
-我们只需注 $Y$ 也是 $\mathbf{R}$ 上的规范化空间以及实部部分的应用命题 6 到集合以及函数 $f \in H$ 的虚部部分，使用公式
+我们只需注 $Y$ 也是 $\mathbf{R}$ 上的规范化空间以及实部部分的应用命题 6 到集合和函数 $f \in H$ 的虚部部分，使用公式
 
 $$
 \Re f = \frac{1}{2} (f + \overline{f}), \quad \Im f = \frac{1}{2i} (f - \overline{f}).
@@ -290,8 +290,8 @@ $$
 
 其中$h_i$是有理整数（这样的线性组合称为m变量的三角多项式）。
 
-我们只需观察 P（赋予一致收敛性的拓扑）与紧空间$\mathbf{T}^m$的所有连续映射到$\mathbf{C}$（章VII, § 1, no. 6）的空间规范同构，并且将$\mathbf{T}^m$的映射的应用命题7至集合转换为$\mathbf{C}$，其中对应将$\mathbf{R}^m$的映射$(x_1, x_2, \ldots, x_m) \to e(x_i) \quad (1 \leq i \leq m)$转换为$\mathbf{C}$。
+我们只需观察 P（赋予一致收敛的拓扑）与紧空间$\mathbf{T}^m$的所有连续映射到$\mathbf{C}$（章VII, § 1, no. 6）的空间规范同构，并且将$\mathbf{T}^m$的映射的应用命题7至集合转换为$\mathbf{C}$，其中对应将$\mathbf{R}^m$的映射$(x_1, x_2, \ldots, x_m) \to e(x_i) \quad (1 \leq i \leq m)$转换为$\mathbf{C}$。
 
 ### 习题{#top-x-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

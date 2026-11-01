@@ -49,19 +49,19 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 27
-content_sha256: d1f7d9f1879ffb6db7c7e7a42817b1fe1db8ec9c9c48c9e7b52da00e3122cee8
+content_sha256: be44b00a2adb4c154f558a5c8eea133c84095c913f921e7047b77a7c7df8dbb7
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
 translation_method: google
 source_content_sha256: 463e49262f632d4a137e725a82bdc25960c4aa1e43d83744037d89388a37100c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6c2ed14f1d9ab1d3820379cfd045cd50a4653116fbeded2d8df50f391da4736f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2. 环和模的分数
+## 2. 环和模分数
 
 ### 1. 定义环分数
 
@@ -203,13 +203,13 @@ $$
 
 映射 $g$ 由推论 1 是单射的； 环 $g(B[{S'}^{-1}])$ 包含 $i_A^S(A)$ 以及 $S'$ 元素的逆；因此它等于 $A[S^{-1}]$。
 
-若$A$为整环且$0 \notin S$，则记号$A[S^{-1}]$与代数、章IV, § 2, no. 1一致；另外，如果 $S$ 是乘法，则$A[S^{-1}]$ 重合在这种情况下，集合由代数、章 I, § 1, no. 1 中的$S^{-1}A$ 表示。
+若$A$为整环且$0 \notin S$，则记号$A[S^{-1}]$与代数、章IV, § 2, no. 1一致；另外，如果 $S$ 是乘法，则 $A[S^{-1}]$ 重合在这种情况下，集合在代数、章 I, § 1, no. 1 中由 $S^{-1}A$ 表示。
 
-作为记号的扩张，对于环$A$的任何乘法子集$S$，我们从此用分数$A[S^{-1}]$的$S^{-1}A$环表示。如果$S$是$A$的素理想$p$的补集，我们写成$A$，而不是$S^{-1}A$。
+正如记号的扩张一样，对于环$A$的任何乘法子集$S$，我们从此用分数$A[S^{-1}]$的$S^{-1}A$环表示。如果$S$是$A$的素理想$p$的补集，我们写成$A$，而不是$S^{-1}A$。
 
-如果$A$是整环和$0 \notin S$，则$S^{-1}A$总是被识别为$A$、包含、$A$、注7、分数、域、子环。
+如果$A$为整环且$0 \notin S$，$S^{-1}A$总是被识别为$A$、包含、$A$、注、分数、域子环(注) 7).
 
-### 2.模分数
+### 2. 模分数
 
 no. 1中定义的典范同态$i_A^S : A \to A[S^{-1}]$允许我们将每个$A[S^{-1}]$模块视为$A$模块。
 
@@ -397,7 +397,7 @@ $$
 
 上面已经看到$i^{T,S}_A = 1_M \otimes i^{T,S}_A$，它立即证明了（a）和（b）的等价。 集合$T' = i^S_A(T)$；那么 (命题 7) $T^{-1}A$ 与 ${T'}^{-1}(S^{-1}A)$ 相同，并且 (a) 等价于说，$T'$ 的元素在 $S^{-1}A$ 中*可逆* (no. 1, *注 5*)。现在，说$(t/1)(a/s) = 1/1$（$t \in T$，$a \in A, s \in S$）意味着存在$s' \in S$使得$tas' = ss'$，这表示（a）和（c）的等价。我们证明（d）蕴涵（c）。令$t$为T的元素，并假设$t/1$在$S^{-1}A$中不可逆；则存在 $S^{-1}A$ 包含 $t/1$ (*代数*, 章 I, § 8, no. 7, 定理 2) 的极大理想 $m'$，并且 $p = (i^S_A)^{-1}(m')$ 是包含的素理想$t$且不满足S（因为S的元素的$i^S_A$下的像是可逆的）。反之，如果存在满足T但不满足S的素理想$p$，则$p \cap T$的元素不能除元素；这证明了(c)蕴涵(d)并完成了证明。
 
-It follows from Proposition 8 that, amongst the multiplicative subsets T of A containing S and satisfying the equivalent conditions of Proposition 8, there exists a *greatest*, consisting of *all* the elements of A which divide an element of S (cf. 习题1）。
+It follows from Proposition 8 that, amongst the multiplicative subsets T of A containing S and satisfying the equivalent conditions of Proposition 8, there exists a *greatest*, consisting of *all* the elements of A which divide an element of S (cf. Exercise 1).
 
 #### 命题 9 {#ac-ii-s2-prop-9 .statement tag=0463}
 
@@ -423,17 +423,17 @@ $$
 
 推论立即从定义 $S_\alpha^{-1}M = M \otimes_A S_\alpha^{-1}A$ 和 $S^{-1}M = M \otimes_A S^{-1}A$ 得出，并且事实上，乘坐直极限与张量积通勤 (*代数*, 章 11, § 6, no. 3, 命题 7)。
 
-### 4. 模分数的性质
+### 4. 模分数的属性
 
 *在本编号中，A 表示环，S 表示 A 的乘法子集。*
 
-令$(M_\alpha, \phi_{\beta \alpha})$为A-模中的直接系统；那么 $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ 是 $S^{-1}A$ 模块中的直接系统，而使用直极限与张量积 (*代数*, 章 II, § 6, no. 3, 命题 7) 通勤的事实允许我们定义典范同构
+设$(M_\alpha, \phi_{\beta \alpha})$为A-模中的直接系统；那么 $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ 是 $S^{-1}A$ 模块中的直接系统，而使用直极限与张量积 (*代数*, 章 II, § 6, no. 3, 命题 7) 通勤的事实允许我们定义典范同构
 
 $$
 \lim \rightarrow (S^{-1}M_\alpha) \to S^{-1} \lim \rightarrow M_\alpha.
 $$
 
-同样，事实上，乘坐直和与张量积通勤（代数，章II，，no. 7，命题7）使我们能够为每个$(M_i)_{i \in I}$的家庭定义 $A$-模块典范同构
+同样，事实上，乘坐直和与张量积通勤（代数，章II，，no. 7，命题7）使我们能够为每个家庭$(M_i)_{i \in I}$定义 $A$-模块典范同构
 
 $$
 \bigoplus_{i \in I} S^{-1} M_i \to S^{-1} \bigoplus_{i \in I} M_i.
@@ -502,15 +502,15 @@ $$
 
 *如果 M 为诺特*（分别为阿廷的）*A*-模，*S^{-1}M* 为诺特（分别为阿廷的）*S^{-1}A*-模。 *特别是，如果环 A 是诺特*（分别是阿廷的），*环 S^{-1}A* 也是如此。
 
-### 5. 环 OF 分数的理想
+### 5. 环分数的理想
 
 #### 命题 11 {#ac-ii-s2-prop-11 .statement tag=0469}
 
 *设 A 为环，S 为 A 的乘法子集。对于 S^{-1}A 的每个理想 b'，令 b = (i_A^S)^{-1}(b') 使得 b' = S^{-1}b。*
 
-(i) *令 f 为典范同态 A \to A/b。从 S^{-1}A 到 (f(S))^{-1}(A/b) 的同态与 f (no. 1, 命题 2) 规范相关，它的核是 b'，其中定义，通过取商，典范同构为(S^{-1}A)/b' 到 (f(S))^{-1}(A/b)。此外，从 A/b 到 (f(S))^{-1}(A/b) 的典范同态是单射的。*
+(i) *令 f 为典范同态 A \to A/b。从 S^{-1}A 到 (f(S))^{-1}(A/b) 与 f (no. 1, 命题 2) 规范相关的同态是满射，其核是 b'，其中定义通过求商得到典范同构 (S^{-1}A)/b' 到 (f(S))^{-1}(A/b)。此外，从 A/b 到 (f(S))^{-1}(A/b) 的典范同态是单射的。*
 
-(ii) *映射 b' \mapsto b = (i_M^S)^{-1}(b')，限制于 S^{-1}A 的最大（或质数）理想的集合，是集合到 A 理想的集合的同构（关于包含），其中不满足 S 的那些中的最大值（分别是 A 不满足 S 的素理想的集合）。*
+(ii) *映射 b' \mapsto b = (i_M^S)^{-1}(b')，限制于 S^{-1}A 的最大（或质数）理想的集合，是同构 （相对于包含）此集合到 A 的理想的集合，其中不满足 S 的那些中的最大值（分别是 A 不满足 S 的素理想的集合）。*
 
 (iii) *如果 q' 是 S^{-1}A 的素理想且 q = (i_A^S)^{-1}(q')，则存在分数 A 的环的同构到环 (S^{-1}A)_{q'}，其中映射 a/b 为(a/1)/(b/1)，其中 a \in A，b \in A - q.*
 
@@ -579,7 +579,7 @@ $$
 
 ### 6. 极端的和最小的素理想
 
-在（交换式）中，幂零元的环$A$集合是一个*理想*，因为如果$x, y$是$A$的元素使得$x^m = y^n = 0$，那么$(x + y)^{m+n} = 0$通过二项式定理。
+在（交换式）幂零元的环$A$集合是一个*理想*，因为如果$x, y$是$A$的元素使得$x^m = y^n = 0$，那么$(x + y)^{m+n} = 0$通过二项式定理。
 
 #### 定义 4 {#ac-ii-s2-def-4 .statement tag=046G}
 
@@ -587,7 +587,7 @@ $$
 
 我们经常用$r(a)$表示$A$的理想$a$的根式。
 
-说元素 $x \in A$ 属于到 $a$ 的根部意味着存在整数 $n > 0$ 使得$x^n \in a$。如果f是从$A$到环$B$的同态，$b$是$B$的理想，$^{-1} (b)$的根式是$b$根式的*逆像* underf，也就是说$x^n \in f^{-1} (b)$ 意味着$(f(x))^n \in b$。
+说元素 $x \in A$ 属于到 $a$ 的部首意味着存在整数 $n > 0$ 使得$x^n \in a$。如果f是从$A$到环$B$的同态，$b$是$B$的理想，$^{-1} (b)$的根式是$b$根式的*逆像* underf，也就是说$x^n \in f^{-1} (b)$ 意味着$(f(x))^n \in b$。
 
 环 $A$ 的 nilradical 包含在其 Jacobson 部首中 (*代数*, 章 VIII, § 6, no. 3, 推论 3 至定理 1)，但可能与其不同；如果 $A$ 是 *阿廷的* (*代数*, 章 VIII, § 6, no. 4, 定理 3)，则它始终等于它。
 
@@ -659,11 +659,11 @@ $$
 
 A ring $A$ is called reduced if its nilradical is reduced to 0, in other words if no element $\neq 0$ of $A$ is nilpotent.
 
-如果 $\mathfrak{N}$ 是环 $A$ 的零根，$A/\mathfrak{N}$ 会减少，因为 if 类 mod。 元素$x \in A$的$\mathfrak{N}$在$A/\mathfrak{N}$上是幂零的，这意味着$x^h \in \mathfrak{N}$对于某些整数$h$，因此$x^{hk} = 0$对于某些整数$k$和$x \in \mathfrak{N}$。
+如果 $\mathfrak{N}$ 是环 $A$ 的零根，$A/\mathfrak{N}$ 会减少，因为 if 类 mod。 元素 $x \in A$的$\mathfrak{N}$在$A/\mathfrak{N}$上是幂零的，这意味着$x^h \in \mathfrak{N}$对于某些整数$h$，因此$x^{hk} = 0$对于某些整数$k$和$x \in \mathfrak{N}$。
 
 #### 命题 17 {#ac-ii-s2-prop-17 .statement tag=046S}
 
-设 $A$ 为环，$\mathfrak{N}$ 为零根。对于$A$的每个乘法子集$S$，$S^{-1}\mathfrak{N}$是$S^{-1}A$的零根。特别是，如果$A$减小，则$S^{-1}A$也减小。
+设 $A$ 为环，$\mathfrak{N}$ 为零根式。对于$A$的每个乘法子集$S$，$S^{-1}\mathfrak{N}$是$S^{-1}A$的零根。特别是，如果$A$减小，则$S^{-1}A$也减小。
 
 如果$x \in A$，$s \in S$满足$(x/s)^n = x^n/s^n = 0$，则存在$s' \in S$使得$s'x^n = 0$（no. 1，注3）和更不必说$(s'x)^n = 0$，因此$s'x \in \mathfrak{N}$和$x/s = s'x/s's \in S^{-1}\mathfrak{N}$； 逆命题是直接的。
 
@@ -671,7 +671,7 @@ A ring $A$ is called reduced if its nilradical is reduced to 0, in other words i
 
 #### 命题 18 {#ac-ii-s2-prop-18 .statement tag=046T}
 
-令$A$为环，且$S$为$A$的乘法子集。
+令$A$为环且$S$为$A$的乘法子集。
 
 (i) 如果$M$和$N$是两个$A$模块，则$S^{-1}A$模块$(S^{-1}M) \otimes_A N, M \otimes_A (S^{-1}N)$、$(S^{-1}M) \otimes_{S^{-1}A} (S^{-1}N)$和$S^{-1}(M \otimes_A N)$是规范同构的。
 
@@ -679,7 +679,7 @@ A ring $A$ is called reduced if its nilradical is reduced to 0, in other words i
 $$
 M' \otimes_A N' \to M' \otimes_{S^{-1}A} N'
 $$
-源自 $A$-双线性映射 $(x', y') \mapsto x' \otimes y'$ 从 $M' \times N'$ 到 $M' \otimes_{S^{-1}A} N'$
+从 $M' \times N'$ 到 $M' \otimes_{S^{-1}A} N'$ 的 $A$ 双线性映射 $(x', y') \mapsto x' \otimes y'$ 导出
 是双射的
 断言 (i) 是直接的推论 / 定义 $S^{-1}M =$
 
@@ -740,7 +740,7 @@ j' : (S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') \to {S'}^{-1}(M \otimes_A A')
 $$
 *的*${S'}^{-1}A'$*-模块* *使得*$j'((m/s) \otimes (a'/s')) = (m \otimes a')/(\rho(s)s')$。
 
-(i) 如果我们通过复合同态$i^{S'}_{M'} \circ p$将${S'}^{-1}M'$视为$A$模，则$S$的元素诱导的同位是双射的，因此存在唯一同态$j$与所述性质 （no. 2，命题3）。由于 $\rho(S) = S'$，$j$ 是满射；此外，如果$m' \in M'$，$s \in S$，$m'/\rho(s) = 0$，则存在$t' \in S'$使得$t'm' = 0$；因为存在$t \in S$使得$\rho(t) = t', t'.m' = 0$在$\rho_*(M')$中，因此$m'/s = 0$在$S^{-1}\rho_*(M')$中。
+(i) 如果我们通过复合同态$i^{S'}_{M'} \circ p$将${S'}^{-1}M'$视为$A$模，元素与$S$诱导的同位是双射的，因此存在唯一同态$j$与所述性质 （no. 2，命题3）。由于 $\rho(S) = S'$，$j$ 是满射；此外，如果$m' \in M'$，$s \in S$，$m'/\rho(s) = 0$，则存在$t' \in S'$使得$t'm' = 0$；因为存在$t \in S$使得$\rho(t) = t', t'.m' = 0$在$\rho_*(M')$中，因此$m'/s = 0$在$S^{-1}\rho_*(M')$中。
 
 (ii) 作为 $(S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') = (M \otimes_A S^{-1}A) \otimes_{S^{-1}A} ({S'}^{-1}A')$ 和
 $$
@@ -750,7 +750,7 @@ $j'$的存在源自结合性或张量积。
 
 ### 8. 申请代数
 
-令$A$为环，$B$为$A$代数（不一定是结合律或交换律，也不一定拥有单位元），$S$为$A$的乘法子集。我们知道，在 $S^{-1}A$-模块 $S^{-1}B = B \otimes_A S^{-1}A$ 上，定义可能是一个规范的 $S^{-1}A$-*代数* 结构，据说是通过环标量到 $S^{-1}A$ 的扩张获得的(代数, 章 III, § 3) 并且乘积$(x/s)(y/t)$等于$(xy)/(st)$。如果 $e$ 是 $B$ 的单位元，$e/1$ 是 $S^{-1}B$ 的单位元，并且如果 $B$ 是结合律（或可交换的），则 *so* 是 $S^{-1}B$。
+令$A$为环，$B$为$A$代数（不一定是结合律或交换律，也不一定拥有单位元），$S$为$A$的乘法子集。我们知道，在 $S^{-1}A$-模块 $S^{-1}B = B \otimes_A S^{-1}A$ 上，定义可能是一个规范的 $S^{-1}A$-*代数* 结构，据说是通过环标量到 $S^{-1}A$ 的扩张获得的(代数, 章 III, § 3)，其中乘积 $(x/s)(y/t)$ 等于 $(xy)/(st)$。如果 $e$ 是 $B$ 的单位元，$e/1$ 是 $S^{-1}B$ 的单位元，并且如果 $B$ 是结合律（或可交换的），则 *so* 是 $S^{-1}B$。
 
 令 $A$ 为环且 $M$ 为 $A$ 模；我们用$T(M)$（分别为$\Lambda(M)$、$S(M)$）表示$M$（代数、章 111）的*张量* 代数（分别为外部代数、对称代数）。众所周知，对于每个交换$A$-代数$C$，都存在一个唯一的$T(M) \otimes_A C$到$T(M \otimes_A C)$的同构$j$（分别是$\Lambda(M) \oplus_A C$到$\Lambda(M \otimes_A C)$，$S(M) \otimes_A C$到$S(M \otimes_A C)$），这样那个
 $$
@@ -784,7 +784,7 @@ $$
 
 #### 命题 22 {#ac-ii-s2-prop-22 .statement tag=046Z}
 
-设A（分别B）是型A的分级环，M（分别N）是分级模在分级环A（分别B）上的分级模，S（分别T）是A（分别B）的乘法子集，所有元素都是齐次的， $f : A \to B$ 次数 0 的齐次同态使得 $f(S) \subset T$ 和 $u : M \to N$ A-线性映射次数 k 齐次。那么从 f (no. 1, 命题 2) 导出的同态 $f' : S^{-1}A \to T^{-1}B$ 是次数 0 和$(S^{-1}A)$-线性映射的齐次
+设A（分别B）是型A的分级环，M（分别N）是在分级环A（分别B）上的分级模，S（分别T）是A（分别B）的乘法子集，所有元素都是齐次的， $f : A \to B$ 次数 0 的齐次同态使得 $f(S) \subset T$ 和 $u : M \to N$ A-线性映射次数 k 齐次。那么从 f (no. 1, 命题 2) 导出的同态 $f' : S^{-1}A \to T^{-1}B$ 是次数 0 的齐次且$(S^{-1}A)$-线性映射
 
 $$
 u' : S^{-1}M \to T^{-1}N
@@ -798,4 +798,4 @@ $$
 
 ### 习题 {#ac-ii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

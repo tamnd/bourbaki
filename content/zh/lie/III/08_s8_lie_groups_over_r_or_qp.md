@@ -21,27 +21,27 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: caf6627cfa030eedea099df48be46a713eda2722db4e8aab74d6bed57f048297
+content_sha256: e9077b682af728800b4926c315bb814fee40066142fe8a16669e5c6d04acc113
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
 translation_method: google
 source_content_sha256: 9a8748db60c9fd84976b7413bf30ec32e2a4b17c04a06e968ec301e544a51660
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 81134980d048290ddc1fea55d884df996c0f05c978503a4eab485539667997bb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 李群超过$\mathbf{R}$且$\mathbf{Q}_p$
 
-### 1.连续态射
+### 1. 连续态射
 
 #### 定理 1 {#lie-iii-s8-thm-1 .statement tag=0AI2}
 
 *令 G 和 H 为超过 $\mathbf{R}$ 或 $\mathbf{Q}_p$ 的两个李群细菌。设 f 是 G 到 H 的连续态射。那么 f 是解析的。*
 
-我们给出 $L(G)$ 和 $L(H)$ 范数其中定义它们的拓扑，并且对于所有 $x, y$ 都有$\| [x, y] \| \leq \|x\| \|y\|$。在 $L(G)$ 中存在中心 0 的开球V，并且在 V 上定义 G 的指数映射 $\phi$，使得： (1) $\phi(V)$ 是 G 中$e$ 的开球邻域； (2) $\phi$ 是解析式流形 V 到解析式流形 $\phi(V)$ 的同构； (3) $\phi(nx) = \phi(x)^n$对于所有$x \in V$和所有$n \in \mathbf{Z}$使得$nx \in V$。我们类似地对 W 定义和 H $\psi$。如有必要，通过缩小V，可以假设$f(\phi(V)) \subset \psi(W)$。那么$g = \psi^{-1} \circ f \circ \phi$就是V到W中的连续映射。
+我们给出 $L(G)$ 和 $L(H)$ 范数以及定义它们的拓扑，并且对于所有 $x, y$ 都有 $\| [x, y] \| \leq \|x\| \|y\|$。在 $L(G)$ 中存在中心 0 的开球V，并且在 V 上定义 G 的指数映射 $\phi$，使得： (1) $\phi(V)$ 是 G 中$e$ 的开球邻域； (2) $\phi$是解析式流形V到解析式流形$\phi(V)$的同构； (3) $\phi(nx) = \phi(x)^n$对于所有$x \in V$和所有$n \in \mathbf{Z}$使得$nx \in V$。我们类似地对 W 定义和 H $\psi$。如有必要，通过缩小 V，可以假设 $f(\phi(V)) \subset \psi(W)$。那么$g = \psi^{-1} \circ f \circ \phi$就是V到W的连续映射。
 
 我们表明
 $$
@@ -49,7 +49,7 @@ $$
 $$
 可以假设$\lambda \neq 0$。让$\lambda = \frac{r}{q}$和$r, q$进入$\mathbf{Z} - \{0\}$。让$y = \frac{r}{q} x$。
 
-如果$K = \mathbf{R}$，我们写$z = \frac{x}{q} = \frac{y}{r} \in V$。然后$x = qz, y = rz$、从而
+如果$K = \mathbf{R}$，我们写$z = \frac{x}{q} = \frac{y}{r} \in V$。然后$x = qz, y = rz$，从而
 $$
 g(x) = \psi^{-1}(f(\phi(qz))) = \psi^{-1}(f(\phi(z)^q)) = \psi^{-1}(f(\phi(z))^q).
 $$
@@ -57,7 +57,7 @@ $$
 
 同样，$g(y) = rg(z)$，从而 (1)。
 
-如果$K = \mathbf{Q}_p$，我们再次写$z = rx = qy \in V$，从而$g(z) = rg(x) = qg(y)$，从而（1）。
+如果$K = \mathbf{Q}_p$，我们再次写$z = rx = qy \in V$、从而、$g(z) = rg(x) = qg(y)$、从而（1）。
 
 由于 $\mathbf{Q}$ 在 $K$ 中是稠密的，(1) 意味着
 $$
@@ -127,15 +127,15 @@ $$
 (c) G 是 p-adic 李群，G' 是 $p'$-adic 李群，且有 $p \neq p'$。
 那么 f 是局部常数。*
 
-案例（一）。令$G_0$为G的恒等分量。则$f(G_0)$是$G'$的连通子群，因此$f(G_0) = \{e\}$和$G_0$在G中开路。
+案例（一）。设$G_0$为G的恒等分量。则$f(G_0)$是$G'$的连通子群，因此$f(G_0) = \{e\}$和$G_0$在G中开。
 
 情况（b）。令$V'$为$G'$中$e$的邻域，使得$G'$的每个子群包含在$V'$约化到$\{e\}$中（§ 4, no. 2，推论1到定理2）。 G 中存在$e$ 的邻域 V，使得$f(V) \subset V'$。则存在 G 的开子群 $G_1$，使得 $G_1 \subset V$ (§ 7, no. 1, 命题 1)。然后$f(G_1) = \{e\}$。
 
 情况（c）。根据§ 7、定理 4 以及命题 8 的推论，$G'$ 中存在 $e$ 的邻域 $V'$，因此，对于所有 $x' \in V' - \{e\}$，${x'}^{p^n}$ 不倾向于
 
-† 请参阅例 D. Montgomery 和 L。 Zippin，*拓扑变换群*，Interscience 纯数学和应用数学小册子，no. 1，Interscience 出版社，纽约 1955 年（特别是第 169 和 184 页）。
+† 请参阅例 D. Montgomery 和L。 Zippin，*拓扑变换群*，Interscience 纯数学和应用数学小册子，no. 1，Interscience 出版社，纽约 1955 年（特别是第 169 和 184 页）。
 
-到$e$，因为$n$趋于$+\infty$。 $G$中存在$e$的邻域$V$使得$f(V) \subset V'$。在 § 7、定理 4 和命题 9 时，存在 $G$ 的开子群 $G_1$，使得 $G_1 \subset V$ 并且对于所有 $x \in G_1$，$x^{p^n}$ 趋向于 $e$ $n$趋于$+\infty$。然后$f(G_1) = \{e\}$。
+到$e$，因为$n$趋于$+\infty$。 $G$中存在$e$的邻域$V$，使得$f(V) \subset V'$。在 § 7、定理 4 和命题 9 时，存在 $G$ 的开子群 $G_1$，使得 $G_1 \subset V$ 并且对于所有 $x \in G_1$，$x^{p^n}$ 趋向于 $e$ $n$趋于$+\infty$。然后$f(G_1) = \{e\}$。
 
 ### 2. 关闭子群
 
@@ -192,4 +192,4 @@ $$
 
 ### 习题 {#lie-iii-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

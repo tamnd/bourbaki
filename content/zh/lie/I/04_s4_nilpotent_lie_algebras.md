@@ -33,23 +33,23 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: c48912521aae0ad25b9e91d9ca07eb72055f1dbbe5fae599c5ffddd3b6e6122d
+content_sha256: 41ed2a745a9cf08677b7bfaec9905deaf62c7779e643371d3bd16675c2ce2628
 translated_from: content/en/lie/I/04_s4_nilpotent_lie_algebras.md
 translation_method: google
 source_content_sha256: 9f6dbd6648d7739560a7db8789c8dcacb1593afb46758c4bce763121741c6605
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: fd7282d2d4cace59fe23cd650a0680f0bbe8857b6f5bbb53040efd806e28a8d4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 幂零李代数
 
 *回想一下，从此以后 $K$ 表示交换域。其余的章李代数被假定为 $K$ 上的有限维。*
 
-### 1.定义幂零李代数
+### 1. 定义 / 幂零李代数
 
 #### 定义 1 {#lie-i-s4-def-1 .statement tag=09WS}
 
@@ -66,7 +66,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 (d) *存在整数* $k$ *使得* $\operatorname{ad} x_1 \circ \operatorname{ad} x_2 \circ \cdots \circ \operatorname{ad} x_k = 0$ *对于所有元素* $x_1, x_2, \ldots, x_k$ *在* $g$；
 (e) *存在递减序列个理想* $(g_i)_{0 \leq i \leq n}$ *的* $g$ *与* $g_0 = g, g_n = \{0\}$，*使得* $[g, g_i] \subset g_{i+1}$ *和* $\dim g_i / g_{i+1} = 1$ *对于* $0 \leq i < n$。
 
-如果 $\mathscr{C}^k g = \{0\}$（分别为 $\mathscr{C}_k g = g$），显然序列 $\mathscr{C}^1 g, \ldots, \mathscr{C}^k g$（分别为 $\mathscr{C}_k g, \mathscr{C}_{k-1} g, \ldots, \mathscr{C}_0 g$）具有定义 1 的性质，因此 $g$ 是幂零的。反之，假设存在序列 $(g_i)_{0 \leq i \leq p}$，其性质为定义 1。由归纳在$n$上看出$g_i \supset \mathscr{C}^{i+1} g$和$g_{p-i} \subset \mathscr{C}_i g$。因此$\mathscr{C}^{p+1} g = \{0\}$和$\mathscr{C}_p g = g$。由此我们证明条件 (a)、(b) 和 (c) 是等价的。另一方面，$\mathscr{C}^1 g$是形式元素线性组合集合
+如果 $\mathscr{C}^k g = \{0\}$（或 $\mathscr{C}_k g = g$），显然序列 $\mathscr{C}^1 g, \ldots, \mathscr{C}^k g$（或 $\mathscr{C}_k g, \mathscr{C}_{k-1} g, \ldots, \mathscr{C}_0 g$）具有定义 1 的性质，因此 $g$ 是幂零的。反之，假设存在序列 $(g_i)_{0 \leq i \leq p}$，其性质为定义 1。由归纳在$n$上看出$g_i \supset \mathscr{C}^{i+1} g$和$g_{p-i} \subset \mathscr{C}_i g$。因此$\mathscr{C}^{p+1} g = \{0\}$和$\mathscr{C}_p g = g$。由此我们证明条件 (a)、(b) 和 (c) 是等价的。另一方面，$\mathscr{C}^1 g$是形式元素线性组合集合
 
 $$
 [x_1, [x_2, \ldots, [x_{i-2}, [x_{i-1}, x_i]] \ldots]]
@@ -86,7 +86,7 @@ $$
 
 #### 推论 2 {#lie-i-s4-prop-1-cor-2 .statement tag=09WV}
 
-*杀死幂零李代数中的形式是零。*
+*杀死幂零李代数的形式是零。*
 对于幂零李代数中的所有$x$和$y$，$\operatorname{ad} x \circ \operatorname{ad} y$都是幂零的，因此零迹。
 
 #### 命题 2 {#lie-i-s4-prop-2 .statement tag=09WW}
@@ -105,7 +105,7 @@ $$
 $$
 因此$g$包含于$\mathscr{C}^k g + \mathfrak{h}$中的$\mathfrak{h}$标准化。
 
-### 2.恩格尔的定理
+### 2. 恩格尔的定理
 
 #### 引理 1 {#lie-i-s4-lem-1 .statement tag=09WY}
 
@@ -159,17 +159,17 @@ $$
 K 和 $(M_i)_{0 \leq i \leq n}$ $g$-模块 $M$ 的 Jordan-Hölder 级数。以下条件是等效的：
 
 (a) 对于所有 $x \in a$，$x_M$ 是幂零的；
-(b) 对于所有 $x \in a$，$x_M$ 位于由 1 和 $y_M$ 生成的结合词代数 $A$ 的雅各布森根式中，其中 $y \in g$；
+(b) 对于所有 $x \in a$，$x_M$ 属于由 1 和 $y_M$ 生成的结合词代数 $A$ 的雅各布森根式，其中 $y \in g$；
 (c) 对于所有$x \in a$，
 $$
 x_M(M_0) \subset M_1, x_M(M_1) \subset M_2, \ldots, x_M(M_{n-1}) \subset M_n.
 $$
 
-如果满足这些条件，则$a$相对于与$g$模块$M$相关联的双线性形式正交于$g$。
+如果满足这些条件，则$a$就与$g$模块$M$相关联的双线性形式而言与$g$正交。
 
-(b) $\Rightarrow$ (a)：由于 $A$ 是 $K$ 上的有限维，$A$ 的雅各布森根是幂零理想 (*代数*, 章 VIII, § 6, no. 4, 定理 3)，因此每个元素这个根式是幂幂的。
+(b) $\Rightarrow$ (a)：由于 $A$ 是 $K$ 上的有限维，$A$ 的雅各布森根是幂零理想 (*代数*, 章 VIII, § 6, no. 4, 定理 3)，因此每个该根式的元素幂幂。
 
-(a) $\Rightarrow$ (c)：每个 $Q_i = M_i/M_{i+1}$ ($0 \leq i < n$) 都是一个简单的 $g$ 模块。对于所有$x \in a$，如果条件 (a) 成立，则自同态$x_{Q_i}$（通过将$M_i$和经过限制为商而从$x_M$导出）是幂零的，因此零乘以引理 2；其他字、$x_M(M_i) \subset M_{i+1}$。
+(a) $\Rightarrow$ (c)：每个 $Q_i = M_i/M_{i+1}$ ($0 \leq i < n$) 都是一个简单的 $g$ 模块。对于所有 $x \in a$，如果条件 (a) 成立，则自同态 $x_{Q_i}$（通过将 $M_i$ 和经过限制为商而从 $x_M$ 导出）是幂零的，因此零乘以引理 2；其他字、$x_M(M_i) \subset M_{i+1}$。
 
 (c) $\Rightarrow$ (b)：假设条件 (c) 成立；让$x \in a$和$z \in A$。然后$z(M_i) \subset M_i$（$0 \leq i < n$），因此$(zx_M)^n(M) = \{0\}$；因此 $Ax_M$ 是 $A$ 的左 Nilideal，因此包含在 $A$ 的 Jacobson 根式中（*代数*，章 VIII, § 6, no. 3，推论 3 到定理 1）。
 
@@ -183,7 +183,7 @@ $$
 
 (b) 理想的$n$是$x \in g$的集合，使得$x_M$属于为$A$的雅各布森根式。
 
-(c) 设$(M_i)_{0 \leq i \leq n}$为$g$模块$M$的Jordan-Hölder级数；那么 $n$ 也是 $x \in g$ 的集合，使得 $(x)_{M_i/M_{i+1}} = 0$ 对于所有 $i$。
+(c) 令$(M_i)_{0 \leq i \leq n}$为$g$模块$M$的Jordan-Hölder级数；那么 $n$ 也是 $x \in g$ 的集合，使得 $(x)_{M_i/M_{i+1}} = 0$ 对于所有 $i$。
 
 (d) $n$关于与$\varphi$相关的双线性形式与$g$正交。
 
@@ -213,7 +213,7 @@ $x \in g$的集合使得$x_M$属于对于$A$的雅各布森根显然是$g$的理
 
 应该注意的是，$g/n$可以有非零幂零理想。
 
-### 5. 基域的扩张
+### 5. 扩张基域
 
 令$g$为李$K$代数，$K_1$扩张为$K$和$g' = g_{(K_1)}$。由于$\mathscr{C}^k g' = (\mathscr{C}^k g)_{(K_1)}$，$g$是幂零的当且仅当$g'$是幂零的。
 
@@ -231,10 +231,10 @@ $$
 
 其中 $y_i$ 在 $g$ 中，$\lambda_i \in K_1$ 在 $K$ 上线性无关。然后是$y'_{M'} = \sum_{i=1}^n \lambda_i (y_i)_{M'}$和$y'_{M'} \in R' = R_{(K_1)}$。因此，对于所有 $i$，$(y_i)_M \in R$ 以及$y_i \in n$。由此可见$y' \in n_{(K_1)}$、从而$n' \subset n_{(K_1)}$。
 
-特别是，如果$K_1$在$K$上可分，$g_{(K_1)}$的最大的幂零理想是通过将基域从$K$延伸到$K_1$而从$g$的幂幂理想导出的。
+特别是，如果$K_1$在$K$上可分，则$g_{(K_1)}$的幂零理想最大的是通过将基域从$K$延伸到$K_1$而从$g$的幂幂理想导出的。
 
 ### 习题 {#lie-i-s4-exercises}
 
 § 4 的约定仍然有效，除非另有提及。
 
-§ 4](exercises/s4/)参见[习题。
+请参阅[习题为 § 4](exercises/s4/)。

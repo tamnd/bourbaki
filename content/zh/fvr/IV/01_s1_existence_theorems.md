@@ -41,21 +41,21 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 05290f17e26c14abfeda20cd661e7a80836138668abe2d5836d278e84198ecd9
+content_sha256: 38e90fb8241c6a7d18a041e497fb1997b5d646b29b6a0b49cdae392cb4e3a521
 translated_from: content/en/fvr/IV/01_s1_existence_theorems.md
 translation_method: google
 source_content_sha256: 0e1758ad98dd52ed21cb9dc147ffdbd0f25ec001d00ee20b8f91629799eb1263
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 4ca5a7fc3cf53a7cac2775b8e19b1b6528afa68000aaabb6c1e391cc2b44d5c7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。存在定理
 
-### 1.微分方程的概念
+### 1. 微分方程的概念
 
 令I为包含在$\mathbf{R}$中的区间，不简化为单个点，E是$\mathbf{R}$上的*拓扑向量空间*，并且A和B是E的两个开子集。令$(x, y, t) \mapsto g(x, y, t)$为$A \times B \times I$到E的连续映射；对于I的每个*可微分*映射u到A，其导数取B中的值，我们将I的映射$t \mapsto g(u(t), u'(t), t)$关联到E，并用$\tilde{g}(u)$表示；因此$\tilde{g}$定义在I的可微分函数到B的集合$\mathscr{D}(A, B)$上，其导数在B中具有值。我们可以说方程$\tilde{g}(u) = 0$是u中的*微分方程*（相对于*实数*变量t）；该方程的 *解* 也称为微分方程的 *整的*（在区间 I 上）；它是 I 到 A 的可微分映射，其导数取 B 中的值，使得$g(u(t), u'(t), t) = 0$ 对于*每个* $t \in I$。通过滥用语言，我们将在形式中写出微分方程$\tilde{g}(u) = 0$
 
@@ -166,11 +166,11 @@ $$
 
 此外，我们注，$I \times H$上的连续函数$f$满足引理1的条件（*Gen.Top.*，X，p. 286，cor.3）。
 
-接下来我们将任意选择$t_0 \in I$和$x_0 \in H$，并考察$I$上（或$I$中$t_0$的邻域）是否存在（1）的解，取值$x_0$在点$t_0$（或者，结果相同，（6）的解）。
+接下来我们任意取选择$t_0 \in I$和$x_0 \in H$，并考察$I$上（或$I$中$t_0$的邻域）是否存在（1）的解，取值$x_0$在点$t_0$（或者，结果相同，（6）的解）。
 
-### 3. 存在近似解
+### 3. 存在大约解
 
-给定数$\varepsilon > 0$，我们可以说，$I$到$H$的连续映射$u$是微分方程*解到*$\varepsilon$的*近似值
+给定数$\varepsilon > 0$，我们可以说$I$到$H$的连续映射$u$是微分方程*解到*$\varepsilon$的*近似值
 
 $$
 x' = f(t, x)
@@ -182,13 +182,13 @@ $$
 \|u'(t) - f(t, u(t))\| \leq \varepsilon.
 $$
 
-设$(t_0, x_0)$为$I \times H$中的点；由于 $f$ 满足引理 1 (IV, p. 165) 的假设，因此在 $I$ 中存在 $t_0$ 的紧邻域 $J$，使得 $f(t, x_0)$ 有界于 $J$，以及一个开球$S$，其中中心$x_0$包含在$H$中，使得$f(t, x) - f(t, x_0)$以$J \times S$为界；由此可见，$f(t, x)$ 在 $J \times S$ 上有*边界*。 *在此过程中，小节 J 将表示一个紧凑区间，即 I 中 t_0 的邻域，S 将是一个开球，其中心 x_0 和半径 r 包含在 H 中，其中 J 和 S 使得 f 有界于 J × S； M 表示 \|f(t, x)\| 的上界超过 J × S。*
+令$(t_0, x_0)$为$I \times H$中的点；由于 $f$ 满足引理 1 (IV, p. 165) 的假设，因此在 $I$ 中存在 $t_0$ 的紧邻域 $J$，使得 $f(t, x_0)$ 有界于 $J$，以及一个开球$S$，其中中心$x_0$包含在$H$中，使得$f(t, x) - f(t, x_0)$以$J \times S$为界；由此可见，$f(t, x)$ 在 $J \times S$ 上有*边界*。 *在此过程中，小节 J 将表示一个紧凑区间，即 I 中 t_0 的邻域，S 将是一个开球，其中心 x_0 和半径 r 包含在 H 中，其中 J 和 S 使得 f 有界于 J × S； M 表示 \|f(t, x)\| 的上界超过 J × S。*
 
 #### 命题 3 {#fvr-iv-s1-prop-3 .statement tag=08BH}
 
 *在 J 中包含左（或右）端点 t_0 的每个紧凑区间上，长度小于 r/(M + ε)，在等式 (1) 的 ε 范围内存在一个近似解，其中值在 S 中，并且在 t_0 处等于 x_0。*
 
-我们假设 $t_0$ 不是 J 的右端点，并证明命题对于左端点为 $t_0$ 的区间。令$\mathscr{M}$为(1)的解的集合到$\varepsilon$之内，其中每个在S中取值，在$t_0$等于$x_0$，并定义在J中包含的半开区间$[t_0, b[$上（该区间取决于近似解正在考虑中）。首先我们证明 $\mathscr{M}$ 不为空。设c在$t_0$处是$f(t, x_0)$的右极限；通过引理 1 (IV, p. 165) 函数 $f(t, x_0 + c(t - t_0))$ 在 $t_0$ 处有右极限等于 c，因此函数 $x_0 + c(t - t_0)$ 的限制为足够小的半开区间$[t_0, b[$ 将从属于变为 $\mathscr{M}$。
+我们假设 $t_0$ 不是 J 的右端点，并证明命题对于左端点为 $t_0$ 的区间。令$\mathscr{M}$为(1)的解的集合到$\varepsilon$之内，其中每个在S中取值，在$t_0$等于$x_0$，并定义在J中包含的半开区间$[t_0, b[$上（该区间取决于近似解正在考虑中）。首先我们证明 $\mathscr{M}$ 不为空。设c在$t_0$处是$f(t, x_0)$的右极限；通过引理 1 (IV, p. 165) 函数 $f(t, x_0 + c(t - t_0))$ 在 $t_0$ 处有右极限等于 c，因此函数 $x_0 + c(t - t_0)$ 的限制为足够小的半开区间$[t_0, b[$将属于变为$\mathscr{M}$。
 
 我们通过关系“u是v的限制”阶集合$\mathscr{M}$，并证明$\mathscr{M}$是归纳性的（集合理论，III，p. 154）。令$(u_\alpha)$为$\mathscr{M}$和$[t_0, b_\alpha[$的总有序子集，$u_\alpha$定义的区间：对于$b_\alpha \leq b_\beta$函数$u_\beta$因此是$u_\alpha$的扩张。区间$[t_0, b_\alpha[$中的并是J中包含的区间$[t_0, b[$，对于每个$\alpha$，在$[t_0, b[$上定义的函数u，重合和$u_\alpha$在$[t_0, b_\alpha[$上定义； $b_\alpha$ 中，有递增序列 $(b_{\alpha_n})$ 趋于 b；因为你在$[t_0, b_{\alpha_n}[$函数上同意$u_{\alpha_n}$，所以你承认$[t_0, b[$的可数子集的补集的导数满足（7）点，因此集合$(u_\alpha)$的上等$\mathscr{M}$。
 
@@ -216,7 +216,7 @@ $$
 
 *如果 E 的有限维超过 $\mathbf{R}$，则存在 (1) 的解，其中值在 S 中，并且在 $t_0$ 处等于 $x_0$，在每个紧凑区间 K 上，左（或右）端点 $t_0$ 包含在 J 中并且具有长度 $< r/M$.*
 
-确实，通过道具。 3、一旦$n$足够大，在$1/n$内就有(1)的近似解$u_n$，定义在$K$上，值在$S$中，并且在$t_0$处等于$x_0$。此外，从 $n$ 的某个值开始，$u_n(K)$ 包含在一个具有中心 $x_0$ 和半径 $< r$ 的“封闭”球中，与 $n$ 无关。 $u_n$的集合是等连续的（命题4），并且由于$E$是有限维的集合$S$在$E$中相对紧；所以对于$u_n(t)$的每一个$t \in K$集合来说，在$E$中相对紧凑。由阿斯科利的定理（*Gen.Top.*，X，p. 290，第2）$u_n$的集合相对紧凑，从$K$到映射的空间$\mathscr{F}(K; E)$相对紧凑$E$ 赋予制服范数。因此，从$(u_n)$的$(u_{n_k})$中提取出序列，它在$K$上均匀收敛到连续的函数$u$。一个有$u(K) \subset S$，所以$t \mapsto f(t, u(t))$定义在$K$上；通过引理 1 (IV, p. 165)，$f(t, u_{n_k}(t))$在$K$上均匀收敛到$f(t, u(t))$；由 (IV, p. 4, 公式 (7))，$u_{n_k}$ 是函数的原语，它在 $K$ 上统一趋向于 $f(t, u(t))$，所以 (II, p. 52, th. 1) $u$ 是 $K$ 上 (1) 的解，并且等于点 $t_0$ 上的 $x_0$。
+确实，通过道具。 3，一旦$n$足够大，在$1/n$内就有（1）的近似解$u_n$，定义在$K$上，值在$S$中，并且等于$t_0$处的$x_0$。此外，从 $n$ 的某个值开始，$u_n(K)$ 包含在一个具有中心 $x_0$ 和半径 $< r$ 的“封闭”球中，与 $n$ 无关。 $u_n$的集合是等连续的（命题4），并且由于$E$是有限维的集合$S$在$E$中相对紧；所以对于$u_n(t)$的每一个$t \in K$集合来说，在$E$中相对紧凑。由阿斯科利的定理（*Gen.Top.*，X，p. 290，第2）$u_n$的集合相对紧凑，从$K$到映射的空间$\mathscr{F}(K; E)$到$E$ 赋予制服范数。因此，从$(u_n)$的$(u_{n_k})$中提取出序列，它在$K$上均匀收敛到连续的函数$u$。一个有$u(K) \subset S$，所以$t \mapsto f(t, u(t))$定义在$K$上；通过引理 1 (IV, p. 165)，$f(t, u_{n_k}(t))$在$K$上均匀收敛到$f(t, u(t))$；由 (IV, p. 4, 公式 (7))，$u_{n_k}$ 是函数的原语，在 $K$ 上统一趋向于 $f(t, u(t))$，因此 (II, p. 52, th. 1) $u$ 是 $K$ 上 (1) 的解，并且等于点 $t_0$ 上的 $x_0$。
 
 #### 注 1 {#fvr-iv-s1-n3-rem-1 .statement tag=08BK}
 
@@ -236,9 +236,9 @@ $$
 
 当$E$是*无限*维数（IV，p. 204，练习18）的任意完全范数空间时，皮亚诺的定理不再成立。
 
-### 4. 近似解的比较
+### 4. 大约解的比较
 
-接下来，I和$H$如上所述，分别表示$\mathbf{R}$中包含的区间和赋范空间$E$中的开集合； $t_0$ 是 I 中的点。
+接下来，I和$H$如上所述，分别表示$\mathbf{R}$中包含的区间和赋范空间$E$中的开集合； $t_0$ 是 I 的点。
 
 #### 定义 1 {#fvr-iv-s1-def-1 .statement tag=08BM}
 
@@ -413,20 +413,20 @@ $$
 $$
 \left\| \mathbf{u}'(t) - \mathbf{g}(t, \mathbf{u}(t)) \right\| \leq \alpha + \varepsilon_1
 $$
-对于$I$的可数子集的$I$补集中的所有$t$；在其他字中，$\mathbf{u}$是$\mathbf{x}' = \mathbf{g}(t, \mathbf{x})$的近似解，且在$\alpha + \varepsilon_1$之内，因此不等式(17)遵循应用支柱。 5 个IV、p. 169。
+对于$I$的可数子集的$I$补集中的所有$t$；在其他字中，$\mathbf{u}$ 是 $\mathbf{x}' = \mathbf{g}(t, \mathbf{x})$ 的近似解，且在 $\alpha + \varepsilon_1$ 之内，因此不等式 (17) 遵循应用命题。 5 个IV、p. 169。
 
-### 5. Lipschitz 方程和局部 Lipschitz 方程的存在性以及解的唯一性
+### 5. Lipschitz方程和局部Lipschitz方程的存在性和解的唯一性
 
 #### 定理 1（柯西）{#fvr-iv-s1-thm-1 .statement tag=08BU}
 
-*设$\mathbf{f}$为$I \times H$上的Lipschitz函数，设J为$I$的紧子区间，不简化为J的单个点，$t_0$点，S为一个开球，包含中心$\mathbf{x}_0$和半径r，包含在H中，M是$J \times S$上$\| \mathbf{f}(t, \mathbf{x}) \|$的最小上界。在这些情况下，对于每个不约化到单个点且包含在 J 的交中且具有 $]t_0 - r/M, t_0 + r/M[$ 和包含 $t_0$ 的紧凑区间 K，存在且仅有一个在 K 上定义的微分方程 $\mathbf{x}' = \mathbf{f}(t, \mathbf{x})$ 的解，其中S 中的值，等于点 $t_0$ 处的 $\mathbf{x}_0$。
+*设$\mathbf{f}$为$I \times H$上的Lipschitz函数，设J为$I$的紧子区间，不简化为J的单个点，$t_0$点，S为一个开球，包含中心$\mathbf{x}_0$和半径r，包含在 H 中，M 是$J \times S$ 上$\| \mathbf{f}(t, \mathbf{x}) \|$ 的最小上界。在这些情况下，对于每个不约化到单个点并且包含在 J 的交中且具有 $]t_0 - r/M, t_0 + r/M[$ 和包含 $t_0$ 的紧凑区间 K，存在且仅有一个定义在 K 上的微分方程 $\mathbf{x}' = \mathbf{f}(t, \mathbf{x})$ 的解，其中S 中的值，在点 $t_0$ 处等于 $\mathbf{x}_0$。
 
-事实上，对于足够小的$\varepsilon > 0$，(1)的近似解到$\varepsilon$之内的集合$F_\varepsilon$，在K上定义，值在S中，并且等于点$t_0$处的$\mathbf{x}_0$，不为空（IV，p. 166，道具 3）；进一步，如果 $\mathbf{u}$ 和 $\mathbf{v}$ 属于到 $F_\varepsilon$ 那么，通过 (15) (IV. p. 170)
+事实上，对于足够小的$\varepsilon > 0$，(1)的大约解到$\varepsilon$之内的集合$F_\varepsilon$，在K上定义，值在S中，并且等于点$t_0$处的$\mathbf{x}_0$，不为空（IV，p. 166，道具 3）；进一步，如果 $\mathbf{u}$ 和 $\mathbf{v}$ 属于到 $F_\varepsilon$ 那么，通过 (15) (IV. p. 170)
 $$
 \| \mathbf{u}(t) - \mathbf{v}(t) \| \leq 2\varepsilon \frac{e^{k|t-t_0|} - 1}{k}
 $$
 
-对于所有$t \in K$，所以集合$F_\varepsilon$形式是一个过滤器基$\mathscr{G}$，它在$K$上均匀收敛到连续的函数$w$，等于$x_0$ $t_0$；同样，$w$在$S$中取值，因为，对于$\varepsilon$足够小，函数$u \in F_\varepsilon$在$S$中包含的封闭球中取其值。由于$f(t, u(t))$沿$\mathscr{G}$均匀趋于$K$至$f(t, w(t))$，因此$w$满足IV、p. 165的式（6），因此满足式（1）的解。 解的唯一性紧接在IV、p. 170的不等式（15），其中取$\varepsilon_1 = \varepsilon_2 = 0$和$u(t_0) = v(t_0)$。
+对于所有$t \in K$，所以集合$F_\varepsilon$形式是一个过滤器基$\mathscr{G}$，它在$K$上均匀收敛到连续的函数$w$，等于$x_0$ $t_0$；同样，$w$在$S$中取值，因为，对于$\varepsilon$足够小，函数$u \in F_\varepsilon$在$S$中包含的封闭球中取值。由于$f(t, u(t))$沿$\mathscr{G}$均匀趋于$K$至$f(t, w(t))$，因此$w$满足IV、p. 165的式（6），因此满足式（1）的解。 解的唯一性紧接在IV、p. 170的不等式(15)，其中取$\varepsilon_1 = \varepsilon_2 = 0$和$u(t_0) = v(t_0)$。
 
 我们可以说，在$I \times H$上定义的函数$f$是局部Lipschitz，如果对于$I \times H$的每个点$(t, x)$，存在$t$的邻域$V$（相对于$I$）并且$x$ 的邻域 $S$，使得 $f$ 是 $V \times S$ 上的 Lipschitz（常数 $k$ 取决于 $V$ 和 $S$）。根据 Borel-Lebesgue 定理，对于每个紧凑区间 $J \subset I$ 和每个点 $x_0 \in H$，都存在一个开球 $S$ 和中心 $x_0$，包含在 $H$ 中，使得 $f$ 是 Lipschitz $J \times S$；因此$f$满足IV、p. 3的假设引理 1。当$f$是$I \times H$上的局部Lipschitz时，我们可以说方程$x' = f(t, x)$是$I \times H$上的局部Lipschitz。
 
@@ -484,7 +484,7 @@ Indeed, if β ∈ I, there exists a compact neighbourhood V of β in I, such tha
 
 对于标量方程 $x' = \sin tx$ ，有 $I = H = \mathbf{R}$ 并且右侧以 $I \times H$ 为界，因此 (IV, p. 173, cor. 1) 每个积分都在所有 $\mathbf{R}$ 上定义。
 
-### 6. 参数函数的积分连续性
+### 6. 积分连续性作为参数的函数
 
 命题 6 (IV, p. 171) 表明，当微分方程
 
@@ -523,7 +523,7 @@ $$
 
 *设 F 为拓扑空间，并令 f 为从 I × H × F 到 E 的映射，使得对于每个 $\xi \in F$，函数 $(t, x) \mapsto f(t, x, \xi)$ 是 I × H 上的 Lipschitz，并且这样，当 $\xi$ 趋于$\xi_0$、$f(t, x, \xi)$ 在 I × H 上一致趋向于 $f(t, x, \xi_0)$。令 $u_0(t)$ 为 $x' = f(t, x, \xi_0)$ 的积分，定义在I 包含的区间 $J = [t_0, b[$ 上，其中值在 H 中，等于 $x_0$ $t_0$。对于 J 中包含的每个紧凑区间 $[t_0, t_1]$，F 中都存在 $\xi_0$ 的邻域 V，这样，对于每个 $\xi \in V$，方程 $x' = f(t, x, \xi)$ 都有一个定义在 $[t_0, t_1]$ 上的积分（且只有一个）$u(t, \xi)$，其中值在 H 中并且等于$x_0$ $t_0$；此外，当$\xi$趋向于$\xi_0$时，解$u(t, \xi)$在$[t_0, t_1]$上均匀趋于$u_0(t)$。*
 
-事实上，让$r > 0$这样，对于$t_0 \leq t \leq t_1$，具有中心$u_0(t)$和半径$r$的封闭球包含在$H$中；如果$f(t, x, \xi)$是关于$I \times H$上的常数$k > 0$的Lipschitz，我们取$\alpha$足够小，以至于$\alpha \frac{e^{k(t_1-t_0)} - 1}{k} < r$；取$V$，使得对于每一个$\xi \in V$，一个人在$I \times H$上有$\| f(t, x, \xi) - f(t, x, \xi_0) \| \leq \alpha$，一个人可以应用道具。 7 个IV、p. 174；此外，
+事实上，让$r > 0$使得对于$t_0 \leq t \leq t_1$来说，具有中心$u_0(t)$和半径$r$的封闭球包含在$H$中；如果$f(t, x, \xi)$是关于$I \times H$上的常数$k > 0$的Lipschitz，我们取$\alpha$足够小，以至于$\alpha \frac{e^{k(t_1-t_0)} - 1}{k} < r$；取$V$，使得对于每一个$\xi \in V$，一个人在$I \times H$上有$\| f(t, x, \xi) - f(t, x, \xi_0) \| \leq \alpha$，一个人可以应用道具。 7 个IV、p. 174；此外，
 
 $$
 \| u(t, \xi) - u_0(t) \| \leq \alpha \frac{e^{k(t_1-t_0)} - 1}{k}
@@ -533,17 +533,17 @@ $$
 
 #### 注 {#fvr-iv-s1-n6-rem-1 .statement tag=08C4}
 
-当IV的$H = E$和条件(16)时，p. 174满足$I \times E$，道具。 7 of IV、p. 174 适用于定义此解的*任何*间隔上 $x' = g(t, x)$ 的*每个* 解 $u$；人们甚至可以假设 $g(t, x)$ 是 Lipschitz 相对于受管制的函数 $k(t)$ 虽然不一定受此区间限制。
+当IV的$H = E$和条件(16)时，p. 174满足$I \times E$，道具。 7 of IV、p. 174 适用于定义此解的*任何*间隔上的 $x' = g(t, x)$ 的*每个* 解 $u$；人们甚至可以假设 $g(t, x)$ 是 Lipschitz 相对于受管制的函数 $k(t)$ 虽然不一定受此区间限制。
 
 ### 7. 对初始条件的依赖
 
-令$x' = f(t, x)$为$I \times H$上的局部Lipschitz方程；到了。 2（IV，p. 172），对于$I \times H$的每个点$(t_0, x_0)$，都存在一个*最大的区间*$J(t_0, x_0) \subset I$，不会减少到单个点，包含于$t_0$，并且其上存在一个该方程的积分（且只有一个），等于 $x_0$ 在 $t_0$ 处；我们将阐明该积分以及定义它的区间$J(t_0, x_0)$依赖于点$(t_0, x_0)$的方式。
+令$x' = f(t, x)$为$I \times H$上的局部Lipschitz方程；到了。 2（IV，p. 172），对于$I \times H$的每个点$(t_0, x_0)$，都存在一个*最大的间隔*$J(t_0, x_0) \subset I$，不会减少到单个点，包含于$t_0$，并且其上存在一个该方程的积分（且只有一个），等于 $x_0$ 在 $t_0$ 处；我们将阐明该积分以及定义它的区间$J(t_0, x_0)$依赖于点$(t_0, x_0)$的方式。
 
 #### 定理 4 {#fvr-iv-s1-thm-4 .statement tag=08C5}
 
 *设$f$是$I \times H$和$(a, b)$上的本地Lipschitz函数，$I \times H$的任意点。*
 
-1 *$I$中存在$K \subset I$、$a$的邻域，$H$中存在$b$的邻域$V$，这样，对于每个点$(t_0, x_0)$ $K \times V$，存在一个积分（并且只有一个）$u(t, t_0, x_0)$定义在$K$上，值在$H$中并且等于$x_0$在点$t_0$（在其他字，$J(t_0, x_0) \supset K$对于所有$(t_0, x_0) \in K \times V$).*
+1 *在$I$中存在$K \subset I$、$a$的邻域，在$H$中存在$b$的邻域$V$，这样，对于每个点$(t_0, x_0)$ $K \times V$，存在一个积分（并且只有一个）$u(t, t_0, x_0)$定义在$K$上，值在$H$中并且等于$x_0$在点$t_0$（在其他字，$J(t_0, x_0) \supset K$对于所有$(t_0, x_0) \in K \times V$).*
 
 2 *$K \times K \times V$到$H$的映射$(t, t_0, x_0) \mapsto u(t, t_0, x_0)$是均匀连续的。*
 
@@ -589,13 +589,13 @@ $$
 \| \mathbf{u}(t_1, t_2, \mathbf{x}_0) - \mathbf{u}(t_2, t_2, \mathbf{x}_0) \| \leq M |t_2 - t_1|
 $$
 
-平均而言值定理，也就是说
+意思是值定理，也就是说
 
 $$
 \| \mathbf{u}(t_1, t_2, \mathbf{x}_0) - \mathbf{x}_0 \| \leq M |t_2 - t_1| ;
 $$
 
-因为$\mathbf{u}(t, t_2, \mathbf{x}_0)$与值$\mathbf{u}(t_1, t_2, \mathbf{x}_0)$在点$t_1$处的积分相同，道具。 5 (IV, p. 169) 表明
+因为$\mathbf{u}(t, t_2, \mathbf{x}_0)$与在点$t_1$处取值$\mathbf{u}(t_1, t_2, \mathbf{x}_0)$的积分相同，道具。 5 (IV, p. 169) 表明
 
 $$
 \| \mathbf{u}(t, t_1, \mathbf{x}_0) - \mathbf{u}(t, t_2, \mathbf{x}_0) \| \leq Me^{2kl} |t_2 - t_1|
@@ -621,4 +621,4 @@ $$
 
 ### 习题 {#fvr-iv-s1-exercises}
 
-请参阅[习题了解§ 1](exercises/s1/)。
+参见[习题为 § 1](exercises/s1/)。

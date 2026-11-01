@@ -45,23 +45,23 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 6
-content_sha256: 785b7d6ab533d3beae4e36da69c63abf9295c8305efa05a07d5955755c20d021
+content_sha256: 23de9af4ac3752d61668536d525e647abf5c923105873ea346c5dc942defbe36
 translated_from: content/en/alg/IV/01_s1_polynomials.md
 translation_method: google
 source_content_sha256: f94b9470c6da2e74358afdf52f506465ae49993b41748514c1bc1d675c01f9e6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e37b47200fee62418d00255b67a0fff6be3349006f80e83b9302f6be42f2de6a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。多项式
 
 ### 1. 定义多项式
 
-设$I$为集合。我们记得（III，p. 452），$I$超过$\mathbf{A}$的免费交换代数由$\mathbf{A}[(X_i)_{i \in I}]$或$\mathbf{A}[X_i]_{i \in I}$表示。这个代数的元素被称为关于不定式$X_i$（或不定式$X_i$）的*多项式*，系数在$\mathbf{A}$中。让我们回想一下，在$I$上的自由交换代数超过$\mathbf{A}$的自由交换代数中，不确定的$X_i$是$i$的典范像； 有时用另一个符号（如 $X'_i, Y_i, T_i$ 等）来表示此像是很方便的。此约定通常由诸如以下的短语引入：“让 $Y = (Y_i)_{i \in I}$ 成为一个不定族”；在这种情况下，相关多项式的代数由$\mathbf{A}[Y]$表示。当$I = \{1, 2, \ldots, n\}$时，写$\mathbf{A}[X_1, X_2, \ldots, X_n]$代替$\mathbf{A}[(X_i)_{i \in I}]$。
+设$I$为集合。我们记得（III，p. 452），$I$超过$\mathbf{A}$的免费交换代数由$\mathbf{A}[(X_i)_{i \in I}]$或$\mathbf{A}[X_i]_{i \in I}$表示。这个代数的元素被称为关于不定式$X_i$（或不定式$X_i$）的*多项式*，系数在$\mathbf{A}$中。让我们回想一下，不确定的$X_i$是$i$的典范像，在$I$上的自由交换代数超过$\mathbf{A}$； 有时用另一个符号（例如 $X'_i, Y_i, T_i$ 等）来表示这个像是很方便的。这个约定通常由诸如以下的短语引入：“让 $Y = (Y_i)_{i \in I}$ 成为一个不定族”；在这种情况下，相关多项式的代数由$\mathbf{A}[Y]$表示。当$I = \{1, 2, \ldots, n\}$时，写$\mathbf{A}[X_1, X_2, \ldots, X_n]$代替$\mathbf{A}[(X_i)_{i \in I}]$。
 
 对于$\nu \in \mathbf{N}^{(I)}$，我们把
 
@@ -75,7 +75,7 @@ $$
 u = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu
 $$
 
-其中$a_\nu \in \mathbf{A}$和$\alpha_\nu$是零，除了有限的数； $a_\nu$ 称为 $u$ 的*系数*； $\alpha_\nu X^\nu$ 称为 $u$ 的 *项*（通常元素 $\alpha_\nu X^\nu$ 在 $X^\nu$ 中称为项），特别是 $\alpha_0 X^0$ 的项，以 $a_0$ 标识，称为*恒定项* $u$。当$\alpha_\nu = 0$时，我们滥用语言说$u$*包含在$X^\nu$中没有元素*；特别是当$\alpha_0 = 0$时，我们说$u$是一个多项式*没有常数项*（III，p. 453）。任何 1 的标量倍数称为*常数多项式*。
+其中$a_\nu \in \mathbf{A}$和$\alpha_\nu$是零，除了有限的数； $a_\nu$ 称为 $u$ 的*系数*； $\alpha_\nu X^\nu$ 称为 $u$ 的 *项*（通常元素 $\alpha_\nu X^\nu$ 在 $X^\nu$ 中称为项），特别是 $\alpha_0 X^0$ 的项，以 $a_0$ 标识，称为*常数项* 或 $u$。当$\alpha_\nu = 0$时，我们滥用语言说$u$*包含在$X^\nu$中没有元素*；特别是当$\alpha_0 = 0$时，我们说$u$是一个多项式*没有常数项*（III，p. 453）。任何 1 的标量倍数称为*常数多项式*。
 
 设 B 为交换环和 $\rho : A \to B$ 环同态。我们通过$\rho$将$B[(X_i)_{i \in I}]$视为A-代数。因此，$A[(X_i)_{i \in I}]$的映射$\sigma$转换为$B[(X_i)_{i \in I}]$，其中变换$\sum \alpha_\nu X^\nu$转换为$\sum \rho(\alpha_\nu) X^\nu$是A-代数的同态；如果$u \in A[(X_i)_{i \in I}]$，我们有时用$u$的$^\rho u$像表示，这个同态。将$B \otimes_A A[(X_i)_{i \in I}]$的同态转换为由$\sigma$变换规范定义的$B[(X_i)_{i \in I}]$，对于每个$i \in I$，将$1 \otimes X_i$转换为$X_i$；这是 B 代数的同构 (III, p. 449)。
 
@@ -84,7 +84,7 @@ $$
 
 设E为A-模，并放入$E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$。 A-模 $E[(X_i)_{i \in I}]$ 的元素被称为不定式 $X_i$ 中的多项式，其系数在 E 中。 这样的多项式只能以一种方式写为 $\sum_{\nu \in \mathbf{N}^{(I)}} e_\nu \otimes X^\nu$，其中 $e_\nu \in E$ 和 $e_\nu$ 对于除了有限数之外的所有情况都是零后缀；我们经常写$e_\nu X^\nu$而不是$e_\nu \otimes X^\nu$。
 
-### 2.次数
+### 2. Degrees
 
 令$P = A[(X_i)_{i \in I}]$为多项式代数。 对于每个整数$n \in \mathbf{N}$，令$P_n$为由单项式$X^\nu$生成的P的子模，使得$|\nu| = \sum_{i \in I} \nu_i$等于n。 那么$(P_n), \ldots$是一个分级，它将$A[(X_i)_{i \in I}]$变成型$\mathbf{N}$（III，p. 459）的分级代数。 The homogeneous elements of degree $n$ in $A[(X_i)_{i \in I}]$ are sometimes called forms of degree $n$ with respect to the indeterminates $X_i$.
 
@@ -118,17 +118,17 @@ $$
 在次数 $p$ 的单项式的 $A[X_1, X_2, \ldots, X_q]$ 数中，等于元素 $(n_k)_{1 \leq k \leq q}$ 的数 $\mathbf{N}^q$，使得 $\sum_{k=1}^q n_k = p$，即 $\binom{q+p-1}{p}$
 （集合III，第 15 号提案，p. 182）
 
-更一般地，令 A 为可交换幺半群，且 $(\delta_i)_{i \in I}$ 为 A 的元素族。存在代数 $A[(X_i)_{i \in I}]$ 的型 A 唯一分级，使得每个单项式 $X^\nu$ 为次数 $\sum_{i \in I} \nu_i \delta_i$ (III， p. 458、例 3)。上面考虑的情况是$A = \mathbf{N}$和$\delta_i = 1$。在一般情况下，为了避免混淆，我们将使用字 « 权 » 代替 « 次数 » 并使用 « isobaric » 代替 «均质 »。对于例，代数$A[(X_i)_{i \geq 1}]$存在唯一的型N分级，使得对于每个整数$i \geq 1$，$X_i$是权$i$。 权 $n$ 的同量异位元素是形式 $\sum a_{\nu} X^{\nu}$ 的多项式，其中$a_{\nu} = 0$ 代表$\sum_{i \geq 1} i \cdot \nu_i \neq n$。
+更一般地，令 A 为可交换幺半群，且 $(\delta_i)_{i \in I}$ 为 A 的元素族。型 A 存在代数 $A[(X_i)_{i \in I}]$ 的唯一分级，使得每个单项式 $X^\nu$ 为次数 $\sum_{i \in I} \nu_i \delta_i$ (III， p. 458、例 3)。上面考虑的情况是$A = \mathbf{N}$和$\delta_i = 1$。在一般情况下，为了避免混淆，我们将使用字 « 权 » 代替 « 次数 » 并使用 « 等量 » 代替 « 均质 »。对于例，代数 $A[(X_i)_{i \geq 1}]$ 存在唯一的型 N 分级，使得对于每个整数 $i \geq 1$，$X_i$ 为权 $i$。 权 $n$ 的同量异位元素是形式 $\sum a_{\nu} X^{\nu}$ 的多项式，其中$a_{\nu} = 0$ 为$\sum_{i \geq 1} i \cdot \nu_i \neq n$。
 
-### 3.代换
+### 3. Substitutions
 
-令 E 为 $\mathscr{A}$ 上的单位结合律代数和 $x = (x_i)_{i \in I}$ E 的成对可置换元素族。令 $X = (X_i)_{i \in I}$ 为不定式族。根据III，第 7 条，p. 449，存在 $\mathscr{A}[X]$ 到$E$ 的唯一单位同态 $f$，这样每个$i \in I$就有$f(X_i) = x_i$。将$f$下的$\mathscr{A}[X]$的元素$u$像记作$u(x)$，称为将$u$*中的$x_i$替换为$X_i$而得到的E的*元素，或者也可以*值 / $u$ $X_i = x_i$*。特别是$u = u((X_i)_{i \in I})$。如果$I = \{1, \ldots, n\}$我们写$u(x_1, \ldots, x_n)$代替$u((x_i)_{i \in I})$。更一般地，如果 M 是 A-模并且 o 是元素
+设 E 是在 $\mathscr{A}$ 和 $x = (x_i)_{i \in I}$ 上的单位结合律代数，是 E 的成对可置换元素族。 设 $X = (X_i)_{i \in I}$ 为不定族。 根据III，第7条，p. 449，$\mathscr{A}[X]$到$E$存在唯一的单位同态$f$，使得每个$i \in I$有$f(X_i) = x_i$。 The image of an element $u$ of $\mathscr{A}[X]$ under $f$ is written $u(x)$ and is called *the element of E obtained by substituting $x_i$ for $X_i$ in $u$*, or also *the value of $u$ for $X_i = x_i$*. 特别是$u = u((X_i)_{i \in I})$。 如果$I = \{1, \ldots, n\}$我们写$u(x_1, \ldots, x_n)$代替$u((x_i)_{i \in I})$。 更一般地，如果 M 是 A-模并且 o 是元素
 
 $$
 M[(X_i)_{i \in I}] = M \otimes_A \mathscr{A}[(X_i)_{i \in I}],
 $$
 
-我们用$v(x)$表示映射$1_M \otimes f$下的$M \otimes_A E = M_{(E)}$中$v$的像。
+我们用$v(x)$表示映射$1_M \otimes f$下$M \otimes_A E = M_{(E)}$中$v$的像。
 
 如果 $\mathscr{A}[X]$ 的同态 $u \mapsto u(x)$ 进入 E 是单射的，我们说族 $x$ 在 $\mathscr{A}$ 上“代数上自由”，或者说 $x_i$ 在 $\mathscr{A}$ 上“代数上独立”。这也意味着单项式 $x^{\nu}$ ($\nu \in \mathbf{N}^{(I)}$) 在 $\mathscr{A}$ 上线性无关。
 
@@ -138,7 +138,7 @@ $$
 \lambda(u((x_i)_{i \in I})) = u((\lambda(x_i)_{i \in I})) ,
 $$
 
-因为$\lambda \circ f$是$\mathscr{A}[X]$的同态进入E'，其中映射$X_i$到$\lambda(x_i)$。
+因为$\lambda \circ f$是$\mathscr{A}[X]$的同态到E'，其中映射$X_i$到$\lambda(x_i)$。
 
 让$u \in \mathscr{A}[X]$。如果$E$是可交换的，$E^1$到E的映射$x \mapsto u(x)$称为$u$（和代数$E$）定义的*多项式函数*；我们将有时表示为$\tilde{u}$（甚至只是$u$）。
 
@@ -180,7 +180,7 @@ $$
 
 *令 $X = (X_i)_{i \in I}$ 和 $Y = (Y_i)_{i \in I}$ 为两个不定族。多项式 $u \in A[X,Y]$ 的集合使得 $u(X,X) = 0$ 是由多项式 $X_i - Y_i$ 生成的 $A[X,Y]$ 的理想值（对于 $i \in I$）。*
 
-这个推论直接来自Cor。 1 在替换 $A$ 与 $A[Y]$ 和 $a_i$ 与 $Y_i$ 上，将 $A[X,Y]$ 解释为 $X_i$ 中的多项式环，系数在 $A[Y]$ 中。
+这个推论直接来自Cor。 1 在替换$A$乘以$A[Y]$和$a_i$乘以$Y_i$，将$A[X,Y]$解释为$X_i$中的多项式环，系数在$A[Y]$中。
 
 #### 命题 3 {#alg-iv-s1-prop-3 .statement tag=069S}
 
@@ -190,7 +190,7 @@ $$
 
 #### 推论{#alg-iv-s1-n3-cor-1 .statement tag=069T}
 
-*对于次数 $k$ 齐次的多项式 $u \in A[X]$ ，满足以下条件是充分必要的：*
+*对于 $u \in A[X]$ 为次数 $k$ 齐次的多项式，满足以下条件是充分必要的：*
 
 $$
 u(X.Z) = u(X) \cdot Z^k.
@@ -198,9 +198,9 @@ $$
 
 #### 注 {#alg-iv-s1-n3-rem-1 .statement tag=069U}
 
-— 令 $x \in A^I$ 并令 $f$ 为 $A[X]$ 的映射 $u \mapsto u(x)$ 到 $A$。给定一个$A$-模块$M$，我们将$M[X] = M \otimes_A A[X]$的同态$1 \otimes f$考虑到$M \otimes_A A = M$。对于每个$v \in M[X]$，我们有$(1 \otimes f)(v) = v(x)$。如果$v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$，则$v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$。
+— 令 $x \in A^I$ 并令 $f$ 为 $A[X]$ 的映射 $u \mapsto u(x)$ 到 $A$。给定一个$A$-模块$M$，我们将$M[X] = M \otimes_A A[X]$的同态$1 \otimes f$考虑为$M \otimes_A A = M$。对于每个$v \in M[X]$，我们有$(1 \otimes f)(v) = v(x)$。如果$v = \sum_{\nu \in \mathbf{N}^{(I)}} e_\nu X^\nu$，则$v(x) = \sum_{\nu \in \mathbf{N}^{(I)}} x^\nu e_\nu$。
 
-### 4. 微分和推导
+### 4. 差速器和推导
 
 设$B = A[(X_i)_{i \in I}]$，则通过III，p. 569，对于每个$i \in I$，存在且仅有一个B的A导数$D_i$，使得
 $$
@@ -247,13 +247,13 @@ $$
 
 这是第 4 条的特殊情况 $E = A[Y_1, ..., Y_r]$、$x_i = g_i$ 和 $D = \partial / \partial Y_j$。
 
-设$X = (X_i)_{i \in I}$、$Y = (Y_i)_{i \in I}$为两个不相交的不定族，并为$(X_i + Y_i)_{i \in I}$族写出$X + Y$。给定 $u \in A[X]$，考虑 $A[X, Y]$ 的元素 $u(X + Y)$。对于$\nu \in \mathbf{N}^{(I)}$，我们用$A^\nu u$表示$u(X + Y)$中$Y_\nu$的系数，将其视为$Y_i$中的多项式，系数在$A[X]$中。到定义我们有$A^\nu u \in A[X]$并且
+令$X = (X_i)_{i \in I}$、$Y = (Y_i)_{i \in I}$为两个不相交的不定族，并为$(X_i + Y_i)_{i \in I}$族写出$X + Y$。给定 $u \in A[X]$，考虑 $A[X, Y]$ 的元素 $u(X + Y)$。对于$\nu \in \mathbf{N}^{(I)}$，我们用$A^\nu u$表示$u(X + Y)$中$Y_\nu$的系数，将其视为$Y_i$中的多项式，系数在$A[X]$中。到定义我们有$A^\nu u \in A[X]$并且
 
 $$
 u(X + Y) = \sum_\nu (\Delta^\nu u)(X) Y^\nu.
 $$
 
-（这里和本号的其余部分，求和扩展到指标集合$\mathbf{N}^{(I)}$除非相反。）
+（这里和本号的其余部分，求和扩展到指标集合 $\mathbf{N}^{(I)}$ 除非，相反。）
 
 设$a \in A'$，然后在(9)中用$a$代替$X$，用$X - a$代替$Y$，我们得到
 
@@ -280,7 +280,7 @@ $$
 \Delta^\sigma(uv) = \sum_{\nu + \rho = \sigma} (\Delta^\nu u)(\Delta^\rho v).
 $$
 
-令 $Z = (Z_i)_{i \in I}$ 为另一个不定族。
+设 $Z = (Z_i)_{i \in I}$ 为另一个不定族。
 
 我们有：
 
@@ -339,15 +339,15 @@ $$
 
 #### 命题 6 (*《欧拉恒等式》*) {#alg-iv-s1-prop-6 .statement tag=069Y}
 
-— *设* $u \in \mathbf{A}[\mathbf{X}]$ *为次数 r 的齐次多项式；我们有*
+— *令* $u \in \mathbf{A}[\mathbf{X}]$ *为次数 r 的齐次多项式；我们有*
 
 $$
 \sum_{i \in I} X_i \cdot D_i u = ru.
 $$
 
-令 D 为 $A[X]$ 的 A-线性映射自身，使得当 v 是次数 s 的齐次时，$D(v) = sv$。我们知道（III，p. 554，例 6）D 是$A[X]$ 的推导。因此，命题 6 是命题 4 的推论（IV，p. 6）。
+令 D 为 $A[X]$ 的 A-线性映射自身，使得当 v 齐次于次数 s 时，$D(v) = sv$。我们知道（III，p. 554，例 6）D 是$A[X]$ 的推导。因此，命题 6 是命题 4 的推论（IV，p. 6）。
 
-### 5. 多项式环中的零除子
+### 5. 多项式环中的除子 / 零
 
 #### 命题 7 {#alg-iv-s1-prop-7 .statement tag=069Z}
 
@@ -398,7 +398,7 @@ u' = u_{h'} + u_{h'+1} + \cdots + u_{k'}
 $$
 将$u$和$u'$的分解分解为齐次分量，其中$u_h \neq 0$、$u_k \neq 0$、$u_{h'} \neq 0$、$u_{k'} \neq 0$，则$v = u_h u_{h'} + u_h u_{h'+1} + \ldots + u_k u_{k'}$和$u_h u_{h'}$是次数的非零齐次$h + h'$ 而 $u_k u_{k'}$ 是次数 $k + k'$ 的非零齐次（命题 8）。由于$v$是齐次的，所以我们有$h + h' = k + k'$从而$h = k$，$h' = k'$。
 
-### 6. 欧几里得除法一个不定多项式
+### 6. 一个不定多项式的欧几里得除法
 
 #### 命题 10 {#alg-iv-s1-prop-10 .statement tag=06A5}
 
@@ -445,11 +445,11 @@ $$
 (ii) 设$f_1$和$f_2$在$K[X]$中；对于 $(f_1) = (f_2)$ 来说，存在 $K$ 的非零元素 $\lambda$ 使得 $f_2 = \lambda f_1$ 成立是必要且充分的。
 让我们证明(ii)，所述条件的充分性是明确的。 $f_1$ 和 $f_2$ 生成零理想的情况是微不足道的。因此假设非零多项式$f_1$和$f_2$生成与$K[X]$相同。则存在多项式$u_1$和$u_2$使得$f_1 = u_1 f_2$和$f_2 = u_2 f_1$；由此可见，u_1 u_2 = 1，从而 $\deg u_1 + \deg u_2 = 0$，所以$\deg u_2 = 0$。因此我们证明了$u_2$是$K$的非零元素。
 
-为了证明 (i)，令 $f$ 为 $a$ 中最小可能的次数的一元多项式。给定$a$中的$g$，令$u$和$v$为$g$的欧几里得除法除以$f$的商和余数；然后$v = g - u f$属于到$a$，我们有$\deg v < \deg f$；如果$v$非零，则$K$将存在非零元素$A$，使得$\lambda v$是单调的，并且由于$\lambda v \in a$，这将与定义相矛盾。因此我们有 $a = (f)$； 唯一性的一元多项式 $f$ 使得 $a = (f)$ 现在由 (ii) 得出。
+为了证明 (i)，令 $f$ 为 $a$ 中最小可能的次数的一元多项式。给定$a$中的$g$，令$u$和$v$为$g$的欧几里得除法除以$f$的商和余数；然后$v = g - u f$属于到$a$，我们有$\deg v < \deg f$；如果$v$非零，则$K$将存在非零元素$A$，使得$\lambda v$是单调的，并且由于$\lambda v \in a$，这将与定义相矛盾。因此我们有 $a = (f)$； 唯一性的一元多项式 $f$ 使得 $a = (f)$ 现在可以从 (ii) 得出。
 
 #### 命题 12 {#alg-iv-s1-prop-12 .statement tag=06A8}
 
-*令$K$为交换域且$f, g$为$K[X]$的两个元素。对于 $K[X]$ 中的每个多项式 $d$，以下属性是等效的*：
+*令$K$为交换域和$f, g$两个元素$K[X]$。对于 $K[X]$ 中的每个多项式 $d$，以下属性是等效的*：
 
 (i) *多项式$d$除$f$和$g$以及除同时$f$和$g$除$d$*。
 
@@ -517,13 +517,13 @@ $$
 
 #### 命题 13 {#alg-iv-s1-prop-13 .statement tag=06AH}
 
-— 令 $\mathscr{I}$ 为 $K[X]$ 中不可约模多项式的集合。令 f 为 $K[X]$ 的非零元素及其首项系数；那么恰好存在正整数 $(v_p)_{p \in \mathscr{S}}$ 和有限支撑的族，这样我们就有分解
+— 令 $\mathscr{I}$ 为 $K[X]$ 中不可约单调多项式的集合。令 f 为 $K[X]$ 的非零元素及其首项系数；那么恰好存在正整数 $(v_p)_{p \in \mathscr{S}}$ 和有限支撑的族，这样我们就有分解
 
 $$
 f = \alpha \prod_{p \in \mathscr{S}} p^{v_p}.
 $$
 
-当$f$是单数时，即$\alpha = 1$时，证明命题就足够了。我们将以归纳对次数$n$进行争论，$n = 0$的情况是微不足道的。假设$n \geq 1$和命题对于次数$< n$的所有多项式都成立。
+当$f$是单数时，即$\alpha = 1$时，只需证明命题即可。我们将以归纳对次数$n$进行争论，$n = 0$的情况微不足道。假设$n \geq 1$和命题对于次数$< n$的所有多项式都成立。
 
 令$E$为一元多项式$\neq 1$的集合，其中除$f$；我们有$f \in E$，因此$E$不为空，并且$E$中存在一个至少为次数的多项式$g$。显然$g$是不可约的，并且存在次数$< n$的一元多项式$h$使得$f = gh$；通过归纳假设 $h$ 是不可约一族多项式的乘积，因此 $f$ 具有相同的性质。这就证明了分解(18)的存在。
 
@@ -533,6 +533,6 @@ $$
 
 ### 习题{#alg-iv-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。
 
-[^1]: 读者将会注本次结果与下一个结果与整数（I，p. 112）的环 $Z$ 的整除性质的类比。它们本质上取决于这样一个事实：在环$Z$和$K[X]$中，每个理想都是主要的，正如我们将在章VII, § 1中看到的那样。
+[^1]: 读者将注这个数与下一个数的结果与整数（I，p. 112）的环$Z$的整除性质进行类比。 它们本质上取决于这样一个事实：在环$Z$和$K[X]$中，每个理想都是主要的，正如我们将在章VII, § 1中看到的那样。

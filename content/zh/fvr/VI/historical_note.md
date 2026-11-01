@@ -13,16 +13,16 @@ pdf_pages: 0314-0318
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4c8fca271b1c6403704b1cddc4468b16bb55e7adf663cc9a094e5d6f0ce87d5a
+content_sha256: 83d647fe6d14ca55fa9b7a511f04e48616952656be33a899fbc3cbeef0a73289
 translated_from: content/en/fvr/VI/historical_note.md
 translation_method: google
 source_content_sha256: d8a5592a597762e1f275eadce1711d9ba2cf99ed118eac2fff4c293bcbbd8a29
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0d23bd21147681ac910b5d76bc50da64a0f6f4f19dbfbd42e929e10637b4dadd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 # 历史注记
@@ -89,12 +89,12 @@ clear distinction between the concept of an asymptotic expansion and a series wa
 
 $^8$ 开发这些章方法不是我们的职责，它们允许人们获得函数属于对某些特定类别的渐近展开，至于例取决于参数的某些型积分，这在数学分析中经常出现；关于这个点（特别是关于拉普拉斯和达布的重要方法），读者可以查阅已经提到的哈代的书（IX），其中包含是一个非常完整的参考书目。
 
-(I)I。 牛顿，在圣。 P。 RIGAUD，《科学家的对应》，牛津，1841 年，t。 II，p. 309-310。
+(I)I。 牛顿，在圣。 P. RIGAUD，《科学家的对应》，牛津，1841 年，t。 II，p. 309-310。
 (II) 雅各布·伯努利 (Jakob Bernoulli)，Ars conjectandi，巴莱，1713 年。
 (III)L。 欧拉，Operaomnia (1)，t。 XIV； 分析评论。 。 。 ，莱比锡-柏林 (Teubner)，1924 年：a) Methodus Generalis summandi Progresses，p. 42-72 (=Comm. 阿卡德。彼得罗普,T. VI (1732-33)); b) De summis serierum reciprocarum, p. 73-86 (=Comm. 阿卡德。彼得罗普., t. VII (1734-35)); c) De Progressibus Harmonis 观察值，p. 87-100（同上）； d) Inventio summae cujusque seriei 。 。 。 , p. 108-123 (=通讯。 阿卡德。彼得罗普., t. VIII（1736））； e) De summis serierum reciprocarum 。 。 。论文修改。 。 。 , p. 138-155 (=杂项。 贝罗尔，t。 VII（1743））； f) 考虑进展是。 。 。 , p. 350-363 (=通讯。 阿卡德。彼得罗普., t. XI（1739））； g) De seriebus quibusdam 注意事项，p. 407-462 (=Comm. 阿卡德。彼得罗普., t. XII（1740））。
 (IV)C。 麦克劳林，《流数完整论文》，爱丁堡，1742 年。
 (V) A. L。 柯西：a) Cours d’Analyse de l’Ecole Royale Polytechnique, 1re party, 1821 (=Œuvres, (2), t. III，巴黎（Gauthier-Villars），1897 年； b) Œuvres, (1), t。 VIII，p. 18-25，巴黎（高蒂尔-维拉尔），1893 年。
 (VI)N. H. 阿贝尔，苏弗尔，t。 II，p. 197-205，编辑。 西洛和谎言，克里斯蒂安尼亚，1881。
-(VII)P. 杜布瓦-雷蒙德：a）关于无限功能的宏伟相对，安。迪马特。 (2)，t。 IV (1871), p. 338-353; b) Ueber asymptotische Werthe、infinitäre Approximationen 和 infinitäre Auflösung von Gleichungen，数学。 安，t。 VIII (1875)，p. 362-414。
+(VII) P. DU BOIS-REYMOND: a) Sur la grandeurrelative des infinis des functions，Ann。迪马特。 (2)，t。 IV (1871), p. 338-353; b) Ueber asymptotische Werthe、infinitäre Approximationen 和 infinitäre Auflösung von Gleichungen，数学。 安，t。 VIII (1875)，p. 362-414。
 (VIII)H. 庞加莱，关于线性方程组的不可积，数学学报，t。 VIII (1886)，p. 295-344。
 (IX)G. H. HARDY，无穷大的阶，剑桥小册子，第 12 期，第二版，剑桥大学出版社，1924 年。

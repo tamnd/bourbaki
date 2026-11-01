@@ -50,25 +50,25 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 2489175d8c876bb38aa36b8368c8135779c7e57cba885eabfd9b66a51b1925b0
+content_sha256: cdfcb19a420932cf2738bde7a12a0b34567b9ed69240cc676d70272ba9455349
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
 translation_method: google
 source_content_sha256: 2ecded72dc27d27759b8e68470e35ec8930215e63753cc4598f26151e19c86fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9c66253dbbe646a4afff61b956000e68687b868cc1a688d9b339bfdc9b431c5b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。外观代数
 
-### 1. 外部定义代数模
+### 1. 定义外部代数模
 
 #### 定义 1 {#alg-iii-s7-def-1 .statement tag=062S}
 
-设$A$为交换环，$M$为$A$模。 $M$的外代数，用$\bigwedge(M)$或$\mathrm{Alt}(M)$或$\bigwedge_A(M)$表示，是代数除以$A$张量代数$T(M)$与两侧理想$\mathfrak{J}''$的商（也用$\mathfrak{J}_{M}''$表示）由元素$x \otimes x$生成，其中$x$贯穿$M$。
+令 $A$ 为交换环且 $M$ 为 $A$ 模块。 $M$的外代数，用$\bigwedge(M)$或$\mathrm{Alt}(M)$或$\bigwedge_A(M)$表示，是代数除以$A$张量代数$T(M)$与两侧理想$\mathfrak{J}''$的商（也用$\mathfrak{J}_{M}''$表示）由元素$x \otimes x$生成，其中$x$贯穿$M$。
 
 由于理想$\mathfrak{J}''$是由次数2的齐次元素生成的，因此它是一个分级理想（II, § 11, no. 3，命题2）；我们写$\mathfrak{J}_n'' = \mathfrak{J}'' \cap T^n(M)$；因此，代数 $\bigwedge(M)$ 按 $\bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ 的毕业（称为规范）由……组成进行评分。然后$\mathfrak{J}_0'' = \mathfrak{J}_1'' = \{0\}$，因此$\bigwedge^0(M)$与$A$识别，$\bigwedge^1(M)$与$T^1(M) = M$识别；接下来我们将始终进行这些识别，并且典范嵌入$M \to \bigwedge(M)$将由$\phi''$或$\phi_M''$表示。
 
@@ -80,13 +80,13 @@ $$
 $$
 存在且仅有一个$A$-代数同态$g : \bigwedge(M) \to E$使得$f = g \circ \phi''$。
 
-在其他字中，$(\bigwedge(M), \phi'')$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$-代数结构的类， $\alpha$-映射是线性映射从$A$-模块$M$到$A$-代数满足 (1)。
+在其他字中，$(\bigwedge(M), \phi'')$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$-代数结构的类， $\alpha$-映射是从$A$-模块$M$到$A$-代数满足的线性映射 (1)。
 
 $g$的唯一性源自$\phi''(M) = M$生成$\bigwedge(M)$。为了证明$g$的存在性，我们注由§ 5, no. 1，命题1存在$A$代数同态$g_1 : T(M) \to E$使得$f = g_1 \circ \phi$；我们需要证明$g_1$在理想的$\mathfrak{J}''$上是零，因为如果
 $$
 p : T(M) \to \bigwedge(M) = T(M)/\mathfrak{J}''
 $$
-是典范同态，我们可以写成$g_1 = g \circ p$，其中$g : \bigwedge(M) \to E$是代数同态，结论由$p \circ \phi = \phi''$得出。现在，$g_1$的核是一个双面理想，根据（1）和关系$g_1 \circ \phi = f$，包含元素$x \otimes x$对于$x \in M$。这样就完成了证明。
+是典范同态，我们可以写成$g_1 = g \circ p$，其中$g : \bigwedge(M) \to E$是代数同态，根据$p \circ \phi = \phi''$得出结论。现在，$g_1$的核是一个双面理想，根据（1）和关系$g_1 \circ \phi = f$，包含元素$x \otimes x$对于$x \in M$。这样就完成了证明。
 
 #### 注 {#alg-iii-s7-n1-rem-1 .statement tag=062U}
 
@@ -96,13 +96,13 @@ f(M) \subset E_1.
 $$
 然后关系 $g(x_1 x_2 \ldots x_p) = f(x_1) f(x_2) \ldots f(x_p)$ 与 $x_i \in M$ 表明 $g(\bigwedge^p(M)) \subset E_p$ 对于所有 $p \geq 0$，因此 $g$ 是分级的代数同态。
 
-(2) 为了避免混淆，外部代数$\bigwedge(M)$的两个元素$u, v$中的乘积通常用$u \wedge v$表示，并用$v$称为$u$的*外部乘积*。因此，$\bigwedge^n(M)$ 的元素是形式 $x_1 \wedge x_2 \wedge \cdots \wedge x_n$ 的元素的和，$x_i \in M$ $1 \leq i \leq n$，通常称为*n 向量*。
+(2) 为了避免混淆，外部代数$\bigwedge(M)$的两个元素$u, v$中的乘积通常用$u \wedge v$表示，并用$v$称为$u$的*外部乘积*。因此，$\bigwedge^n(M)$的元素是形式$x_1 \wedge x_2 \wedge \cdots \wedge x_n$的元素的和，$1 \leq i \leq n$的$x_i \in M$通常被称为*n向量*。
 
-### 2. 外部的函数性质代数
+### 2. 外部的函数属性代数
 
 #### 命题 2 {#alg-iii-s7-prop-2 .statement tag=062V}
 
-*令$A$为交换环、$M$和$N$两个$A$模块和$u : M \to N$一个$A$线性映射。存在且仅有一个$A$-代数同态*
+*令$A$为交换环、$M$和$N$两个$A$模块以及$u : M \to N$一个$A$线性映射。存在且仅有一个$A$-代数同态*
 $$
 u'' : \bigwedge(M) \to \bigwedge(N)
 $$
@@ -146,11 +146,11 @@ $$
 
 证明是由§ 6, no. 2、命题 4、替换 $S$ 和$\Lambda$ 以及$\mathfrak{g}'$ 和$\mathfrak{g}''$ 衍生而来。
 
-如果 $u: M \to N$ 是单射线性映射，则 $\Lambda(u)$ 并不总是单射映射 (§ 6, 习题 3)（但请参见下面的no. 9，命题 12 的推论）。然而，当$u$是单射时，$u(M)$是$N$的直因子，然后$\Lambda(u)$的像（与$\Lambda(M)$同构的）是$\Lambda(N)$的直因子； 证明与 $T(u)$ (§ 5, no. 2) 替换 $T$ by $\Lambda$ 的类似断言相同。
+如果 $u: M \to N$ 是单射线性映射，$\Lambda(u)$ 并不总是单射映射 (§ 6, 习题 3)（但请参见下面的no. 9，命题 12 的推论）。然而，当$u$是单射，使得$u(M)$是$N$的直因子，然后$\Lambda(u)$的像（与$\Lambda(M)$同构的）是$\Lambda(N)$的直因子； 证明与 $T(u)$ (§ 5, no. 2) 替换 $T$ by $\Lambda$ 的类似断言相同。
 
 #### 命题 4 {#alg-iii-s7-prop-4 .statement tag=062X}
 
-*令$N$和$P$为$A$模块$M$的两个子模，使得它们的和$N + P$是$M$中的直因子，并且它们的交$N \cap P$是直因子在$N$和$P$。那么同态$\Lambda(N) \to \Lambda(M)$、$\Lambda(P) \to \Lambda(M)$和$\Lambda(N \cap P) \to \Lambda(M)$、典范嵌入的典范扩张是单射的；如果通过这些同态将$\Lambda(N)$、$\Lambda(P)$和$\Lambda(N \cap P)$与$\Lambda(M)$的子代数进行识别，则*
+*设$N$和$P$是$A$模块$M$的两个子模，这样它们的和$N + P$是$M$中的直因子，并且它们的交$N \cap P$是直因子在$N$和$P$。那么同态$\Lambda(N) \to \Lambda(M)$、$\Lambda(P) \to \Lambda(M)$和$\Lambda(N \cap P) \to \Lambda(M)$、典范嵌入的典范扩张是单射的；如果通过这些同态将$\Lambda(N)$、$\Lambda(P)$和$\Lambda(N \cap P)$识别为$\Lambda(M)$的子代数，则*
 $$
 \Lambda(N \cap P) = \Lambda(N) \cap \Lambda(P).
 $$
@@ -164,11 +164,11 @@ $$
 
 $N$称为$M$的向量子空间，与$\Lambda(M)$的元素$z$相关联。
 
-### 3.外部的反交换性代数
+### 3. 外部的反交换性代数
 
 #### 命题 5 {#alg-iii-s7-prop-5 .statement tag=062Z}
 
-(i) 令$(x_i)_{1 \leq i \leq n}$为模$M$中的元素中的有限序列；对于对称群 $S_n$ 中的每个置换 $\sigma$，
+(i) 设$(x_i)_{1 \leq i \leq n}$为模$M$中的元素中的有限序列；对于对称群 $S_n$ 中的每个置换 $\sigma$，
 
 $$
 x_{\sigma(1)} \wedge x_{\sigma(2)} \wedge \cdots \wedge x_{\sigma(n)} = \varepsilon_\sigma \cdot x_1 \wedge x_2 \wedge \cdots \wedge x_n
@@ -202,7 +202,7 @@ $$
 x_H = x_{i_1} \wedge x_{i_2} \wedge \cdots \wedge x_{i_p}, \quad x_K = x_{j_1} \wedge x_{j_2} \wedge \cdots \wedge x_{j_{n-p}};
 $$
 
-然后
+那么
 
 $$
 x_H \wedge x_K = (-1)^{\nu} x_1 \wedge x_2 \wedge \cdots \wedge x_n
@@ -220,7 +220,7 @@ $$
 
 #### 推论 2 {#alg-iii-s7-lem-1-cor-2 .statement tag=0632}
 
-代数 $\bigwedge(M)$ 的分级为交错的（$§ 4$、no. 9）。
+分级的代数$\bigwedge(M)$为交错的（$§ 4$、no. 9）。
 
 $§ 4$、no. 9到$\bigwedge(M)$中的应用命题 13就足够了，取生成的系统集合$M$并使用命题5。
 
@@ -228,7 +228,7 @@ $§ 4$、no. 9到$\bigwedge(M)$中的应用命题 13就足够了，取生成的�
 
 *如果M为有限生成A-模，则$\bigwedge(M)$为有限生成A-模；另外，如果 M 承认生成的系统且 n 元素，则 $\bigwedge^p(M) = \{0\}$ 对应 $p > n$。*
 
-令$(x_i)_{1 \leq i \leq n}$为M的生成的系统。$\bigwedge^p(M)$的每元素为形式的元素线性组合
+令$(x_i)_{1 \leq i \leq n}$为M的生成的系统。$\bigwedge^p(M)$的每元素是形式的元素线性组合
 $$
 x_{i_1} \wedge x_{i_2} \wedge \cdots \wedge x_{i_p}
 $$
@@ -334,9 +334,9 @@ $$
 
 当$n!$在$A$中可逆时，$T^n(M)$的子模、$A'_n(M)$和$\mathfrak{J}_n''$因此是*补充*并且典范同态$T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$的限制到$A'_n(M)$是A-模 *同构*，这允许我们在所讨论的情况下将阶$n$的认同倾斜对称张量与$M$的第$n$外部幂的元素。 注这里还表明，该标识与两个斜对称张量的$T(M)$中的乘法、乘积不兼容，一般情况下不是斜对称的。
 
-### 5. 标量的环中的扩张
+### 5. 标量的环的扩张
 
-令$A, A'$为两个交换环、$\rho : A \to A'$环同态、$M$一个$A$模、$M'$一个$A'$模以及$f : M \to M'$一个*A同态*（相对于$\rho$）的$M$变成$M'$。复合映射 $M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} \bigwedge_{A'}(M')$ 是 $M$ 的 A-线性映射到 A-代数 $\bigwedge_{A'}(M')$，并且，由于 f(M) ⊂ M' 的元素是 $\bigwedge_{A'}(M')$ 中的零平方，因此存在(no. 1, 命题 1) 唯一一个 $A$-代数 $f'' : \bigwedge_A(M) \to \bigwedge_{A'}(M')$ 呈现可交换图表
+令$A, A'$为两个交换环、$\rho : A \to A'$环同态、$M$一个$A$模、$M'$一个$A'$模以及$f : M \to M'$一个*A同态*（相对于$\rho$）的$M$变成$M'$。复合映射$M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} \bigwedge_{A'}(M')$是$M$的A-线性映射到A-代数$\bigwedge_{A'}(M')$，并且，由于f(M)⊂M'的元素在$\bigwedge_{A'}(M')$中是零平方，因此存在(no. 1, 命题 1) 唯一一个 $A$-代数 $f'' : \bigwedge_A(M) \to \bigwedge_{A'}(M')$ 呈现可交换图表
 
 $$
 \begin{array}{ccc}
@@ -356,7 +356,7 @@ $$
 
 #### 命题 8 {#alg-iii-s7-prop-8 .statement tag=0639}
 
-*令$A, B$为两个交换环、$\rho : A \to B$环同态和$M$一个$A$模块。规范的扩张*
+*令$A, B$为两个交换环、$\rho : A \to B$、环、同态和$M$一个$A$模块。规范的扩张*
 
 $$
 \psi : \bigwedge_B(B \otimes_A M) \to B \otimes_A \bigwedge_A(M)
@@ -364,9 +364,9 @@ $$
 
 *$B$-线性映射* $1_B \otimes \phi_M'' : B \otimes_A M \to B \otimes_A \bigwedge_A(M)$ *是分级的$B$-代数同构。*
 
-证明是由 § 5, no. 4 衍生而来，命题 5 替换 $T$ 由 $\bigwedge$ 衍生而来，$\phi_M$ 由 $\phi_M''$ 衍生而来。
+证明是由§ 5, no. 4 衍生而来，命题 5 替换 $T$ 由$\bigwedge$ 衍生而来，$\phi_M$ 由$\phi_M''$ 衍生而来。
 
-### 6. 外部直极限代数
+### 6. 直极限外部代数
 
 令$(A_\alpha, \phi_{\beta \alpha})$为交换环、$(M_\alpha, f_{\beta \alpha})$直接系统的有向直接系统、$A_\alpha$模块、$A = \lim \to A_\alpha$和$M = \lim \to M_\alpha$。对于 $\alpha \leq \beta$，我们从 $A_\alpha$ 同态 $f_{\beta \alpha} : M_\alpha \to M_\beta$ 和 $A_\alpha$ 代数同态 (no. 5, 公式 (12)) $f_{\beta \alpha}' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_{A_\beta}(M_\beta)$ 推导出来，并从 (13) 得出$(\bigwedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ 是 *直接系统已分级* $A_\alpha$*-模块*。另一方面，令 $f_\alpha : M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；我们推导出 (no. 5, 公式 (12)) 分级$A_\alpha$-代数同态$f_\alpha'' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_A(M)$，并且从 (13) 还可以得出，$f_\alpha''$ 构成$A_\alpha$-同态的直接系统。
 
@@ -396,7 +396,7 @@ $$
 
 *典范同态* g (*公式 (14)*) *是分级的代数同构*。
 
-为了证明 g 是双射的，我们对定义进行分级代数同态
+为了证明 g 是双射的，我们定义分级代数同态
 
 $$
 h : \Lambda(M) \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)
@@ -408,7 +408,7 @@ $$
 u_\lambda : M_\lambda \xrightarrow{\phi''_{M_\lambda}} \Lambda(M_\lambda) \xrightarrow{f_\lambda} \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda).
 $$
 
-存在且仅有一个A-线性映射$u : M \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$，使得$u \circ j_\lambda = u_\lambda$适用于所有$\lambda \in L$。偏斜张量积 $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ 是 *交错的* 代数：对于 L 有限，这是从 § 4, no. 9、命题 14 得出的，对于 L 任意，这是从定义得出的§ 4, no. 8、*注* 1 中给出乘积，并且交错的的直极限分级代数为交错的。由于$u(M)$也包含在分级代数$\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$中次数1的元素的子模中，因此从no. 1、命题1和*注*1可以得出，存在唯一的评分代数同态。
+存在且仅有一个A-线性映射$u : M \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$，使得$u \circ j_\lambda = u_\lambda$适用于所有$\lambda \in L$。偏斜张量积 $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ 是 *交错的* 代数：对于 L 有限，这可以从 § 4, no. 9、命题 14 得出，而对于 L 任意，这可以从定义得出§ 4, no. 8、*注* 1 中给出乘积，并且交错的的直极限分级代数为交错的。由于$u(M)$也包含在分级代数$\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$中次数1的元素的子模中，因此从no. 1、命题1和*注*1可以得出，存在唯一的评分代数同态。
 
 $$
 h : \Lambda(M) \to \bigotimes_{\lambda \in L} \Lambda(M_\lambda)
@@ -418,7 +418,7 @@ $$
 
 #### 注 {#alg-iii-s7-n7-rem-1 .statement tag=063C}
 
-令$N = \bigoplus_{\lambda \in L} N_\lambda$为另一个系列$A$模块中的直和，并以$L$作为索引集合，并且对于所有$\lambda \in L$，令$v_\lambda : M_\lambda \to N_\lambda$为$A$线性映射， 从而存在$A$线性映射$v = \bigoplus_\lambda v_\lambda : M \to N$（II, § 1, no. 6，命题7）。然后图表
+令$N = \bigoplus_{\lambda \in L} N_\lambda$为$A$模块另一个族中的直和，并以$L$作为索引集合，并且对于所有$\lambda \in L$，令$v_\lambda : M_\lambda \to N_\lambda$为$A$线性映射， 从而存在$A$线性映射$v = \bigoplus_\lambda v_\lambda : M \to N$（II, § 1, no. 6，命题 7）。然后图表
 
 $$
 \begin{array}{ccc}
@@ -466,7 +466,7 @@ $$
 
 $\bigwedge(M)$ 是 $\bigwedge^{\alpha,n}(M)$ 的直和这一事实由命题 10 的推论得出； 证明的其余部分与§ 5, no. 5、命题7的证明结尾相同。
 
-### 8. 代数自由模的外观
+### 8. 代数自由模外观
 
 #### 定理 1 {#alg-iii-s7-thm-1 .statement tag=063F}
 
@@ -480,7 +480,7 @@ $$
 
 由于$e_\lambda$生成A-模M，$\bigwedge(M)$的每个元素都是元素$e_\lambda$的乘积的有限数的线性组合，因此（考虑到no. 3， 命题 5) 是$J \in \mathscr{F}(L)$ 的元素 $e_J$ 的有限数的线性组合。 约化到证明，$e_J$与A线性无关。否则，这些元素之间将存在一个线性关系，其系数不全为零； 子集 J 的并，其中对应到 $e_J$，其中关系中的系数为 $\neq 0$，即 L 的有限子集 K（因为只有有限的数系数 $\neq 0$）。令 N 为由 $e_\lambda$ 生成的 M 的子模，使得 $\lambda \in K$； N 是 M 中的直因子，因此 (no. 2) $\bigwedge(N)$ 与 $\bigwedge(M)$ 的子代数等同，如果我们证明 $e_J$ 与 $J \subset K$ 形式基 $\bigwedge(N)$，我们将获得所需的 contradiction.
 
-因此，当M的基有限时，约化提供定理1；因此我们可以假设$L = \{1, m\} \subset N$。对于每个$i \in L$，令$M_i$为M的自由子模$Ae_i$； M 是$M_i$ 的直和，$\bigwedge(M_i)$ 是$\bigwedge^0(M_i) = A$ 和$\bigwedge^1(M_i) = M_i$ 的直和（no. 3，命题 6）。让$\bigwedge(M)$与$\bigwedge(M_i)$的A-模张量积（no. 7，命题10）进行规范地标识；后者具有$\bigwedge(M_i)$的基$(1, e_i)$的基张量积（II, § 3, no. 7，推论2至命题7）；这样我们就得到了所有元素
+因此，当M的基有限时，约化提供定理1；因此我们可以假设$L = \{1, m\} \subset N$。对于每个$i \in L$，令$M_i$为M的自由子模$Ae_i$； M 是$M_i$ 的直和，$\bigwedge(M_i)$ 是$\bigwedge^0(M_i) = A$ 和$\bigwedge^1(M_i) = M_i$ 的直和（no. 3，命题 6）。让$\bigwedge(M)$与$\bigwedge(M_i)$的A-模张量积规范地标识（no. 7，命题10）；后者具有$\bigwedge(M_i)$的基$(1, e_i)$的基张量积（II, § 3, no. 7，推论2至命题7）；这样我们就得到了所有元素
 
 $$
 u_1 \otimes u_2 \otimes \cdots \otimes u_m
@@ -513,7 +513,7 @@ $$
 $$
 \rho_{J, K} \rho_{K, J} = (-1)^{jk}
 $$
-当$J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$（no. 3，推论2到命题5。）
+当$J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$（no. 3，推论2至命题5。）
 
 #### 推论 2 {#alg-iii-s7-thm-1-cor-2 .statement tag=063H}
 
@@ -523,7 +523,7 @@ $$
 
 #### 推论 3 {#alg-iii-s7-thm-1-cor-3 .statement tag=063I}
 
-*设 M 为 M 的元素的射影 A-模和 $(x_i)_{1 \leq i \leq n}$ 有限序列。对于 M 交错的 n 线性形式 f 存在这样的*
+*设 M 为 M 的元素的射影 A-模和 $(x_i)_{1 \leq i \leq n}$ 有限序列。因为 M 交错的 n 线性形式 f 上存在这样的*
 $$
 f(x_1, x_2, \ldots, x_n) \neq 0,
 $$
@@ -641,4 +641,4 @@ $$
 
 ### 习题{#alg-iii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

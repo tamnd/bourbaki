@@ -19,10 +19,10 @@ translation_method: google
 source_content_sha256: 6479985c698dac31b1d3fc23c70c5b16199b398038edae74679bf7c3acd3e2f5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 921f530aaba59ec17b8f52574c0fd8310f9754cfea29d1c75d70c9609456f71d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 介绍

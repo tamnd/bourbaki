@@ -33,21 +33,21 @@ subsections:
       pdf_page: 517
 statements: 15
 exercises: 22
-content_sha256: 7cbd4ca126cc743ca6b260c482b5e54c3f69073a8452a47e4d67df8651bb8b2b
+content_sha256: c00b812101c8556063d9243d108b5e80acb06eb5110952c383ac35abb5c629fa
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
 translation_method: google
 source_content_sha256: 608c7dd934256b19a42a5a2679369ddf6b2698e699e08b46c35914c9e02a03b8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: cdbe1cbf9c72ef61a22e4f40ec7a0eb470853a49919aeb15c5c663076657e592
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2. DEDEKIND 域
+## 2. 德德金域名
 
-### 1. DEDEKIND 域的定义
+### 1. 定义 DEDEKIND 域名
 
 设$A$为整环。显然以下条件是等价的：
 (a) $A$ 的非零素数理想中没有两个在包含方面具有可比性；
@@ -61,8 +61,8 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 Dedekind 域的例
 (1) 每个主理想整环都是一个戴德金域。
 (2) 令K为$\mathbf{Q}$的有限扩张，A为K中$\mathbf{Z}$的积分闭包。环A是Krull域(§ 1, no. 8，命题12)。令 $\mathfrak{p}$ 为 A 的非零素理想。则 $\mathfrak{p} \cap \mathbf{Z}$ 为非零（章 V, § 2, no. 1，命题 1 的推论），因此是 $\mathbf{Z}$ 的极大理想；因此$\mathfrak{p}$是A的最大理想（*loc.cit.*，命题1）。因此，A 是 Dedekind 域。一般来说，A 不是主理想整环 (*代数*, 章 VII, § 1, 习题 12)。
-(3) \* 令 V 为仿射代数簇，且函数的 A 环在 V 上正则。假设 A 不是域（即 V 没有减少到点）。对于 A 是戴德金域，V 是一条没有奇异点的不可约曲线是充分必要的：因为说 A 是整环等于说，V 是不可约的；说 A 的每个非零素理想最大等于说，A 是一条曲线；最后，由于A是诺特，所以说它是克鲁尔域，说是整闭的，即V是正规曲线，或者说它没有奇异的点。 \*
-(4) 如果$0 \notin S$，则戴德金域A的分数$S^{-1}A$的环是戴德金域。因为 $S^{-1}A$ 是一个 Krull 域（§ 1, no. 4，命题 6），$S^{-1}A$ 的每个非零素理想最大为章 II, § 2, no. 5，命题 11。
+(3) \* 令 V 为仿射代数簇，函数的 A 环正则于 V。假设 A 不是域（即 V 没有减少到点）。对于 A 是戴德金域，V 是一条没有奇异点的不可约曲线是充分必要的：因为说 A 是整环等于说，V 是不可约的；说 A 的每个非零素理想最大等于说，A 是一条曲线；最后，由于A是诺特，所以说它是一个Krull域，说是整闭的，即V是正规曲线，或者说它没有奇异的点。 \*
+(4) 如果$0 \notin S$，则戴德金域A的分数$S^{-1}A$的环是戴德金德域。因为$S^{-1}A$是一个克鲁尔域（§ 1, no. 4，命题6），$S^{-1}A$的每个非零素理想最大为章II, § 2, no. 5，命题11。
 
 ### 2. DEDEKIND 域的刻画
 
@@ -77,9 +77,9 @@ Dedekind 域的例
 (f) A 是诺特，并且对于 A 的每个最大理想 m，$A_m$ 要么是域，要么是离散估值环；
 (g) A 是诺特，并且对于 A 的每个最大理想 m，$A_m$ 是主理想整环。
 
-我们展示(a)和(b)的第一个等价。推论 2 到定理 3、§ 1, no. 6，立即表明 (a) 蕴涵 (b)。相反，(b) 意味着 (a)，因为对于$A$的每个素理想$p$，都存在$K$的估价环，它支配$A_p$（章VI, § 1, no. 2，定理2的推论）。
+我们首先展示（a）和（b）的等价。推论 2 到定理 3、§ 1, no. 6，立即表明 (a) 蕴涵 (b)。相反，(b) 意味着 (a)，因为对于 $A$ 的每个素理想 $p$，都存在$K$ 的估价环，它支配$A_p$（章 VI, § 1, no. 2，定理 2 的推论）。
 
-证明的其余部分由证明执行以下含义：
+证明的余数由证明执行，结果如下：
 
 $$
 (a) \Rightarrow (c) \Rightarrow (d) \Rightarrow (e) \Rightarrow (f) \Rightarrow (g) \Rightarrow (a).
@@ -89,7 +89,7 @@ $$
 
 现在我们证明 (c) 蕴涵 (d)。如果(c)成立，映射$a \mapsto \operatorname{div} a$是$I(A)$的双射到$D(A)$（cf.$§ 1$，no. 1）；因为它是同态（$§ 1$，no. 2）并且$D(A)$是群，所以$I(A)$的每个元素都是可逆的。
 
-我们证明 (d) 蕴涵 (e)。如果(d)成立，$A$的每个积分理想$\neq (0)$都是有限生成的（章11，$§ 5$，no. 6，定理4），因此$A$是诺特；因为$I(A)$是群，$D(A)$是群，因此$A$是完全整体封闭的（$§ 1$，no. 2，定理1）。最后，如果$p$是$A$的非零素理想，$m$是$A$包含$p$的极大理想，环$A_{m}$是主理想整环（章） II、$§ 5$、no. 6、定理 4)；因为 $pA_m$ 是素数且非零，必然 $pA_m = mA_m$ （主理想整环是 Dedekind 域） 从而 $p = m$ (章 11, $§ 2$, no. 5, 命题 11) 并且$p$ 是最大的。
+我们证明 (d) 蕴涵 (e)。如果(d)成立，$A$的每个积分理想$\neq (0)$都是有限生成的（章11，$§ 5$，no. 6，定理4），因此$A$是诺特；因为$I(A)$是群，$D(A)$是群，因此$A$是完全整体封闭的（$§ 1$，no. 2，定理1）。最后，如果$p$是$A$的非零素理想，$m$是$A$包含$p$的极大理想，则环$A_{m}$是主理想整环（章） II、$§ 5$、no. 6、定理 4)；因为 $pA_m$ 是素数且非零，必然 $pA_m = mA_m$ （主理想整环是戴德金域） 从而 $p = m$ (章 11, $§ 2$, no. 5, 命题 11) 并且$p$ 是最大的。
 
 现在我们证明 (e) 蕴涵 (f)。如果$m$是$A$的最大理想且(e)成立，则$A_{m}$是全闭域诺特，其最大理想$mA_m$是(0)，或者是$A_{m}$的唯一非零素理想；因此$A_{m}$是域或$§ 1$、no. 7的命题 11的离散估值环。
 
@@ -148,19 +148,19 @@ $$
 
 ### 4. DEDEKIND 域的近似值定理
 
-在戴德金域中，有一个“近似定理”，它加强了章VI, § 7, no. 2的定理1和§ 1, no. 5的命题9：
+在 Dedekind 域中，有一个“近似定理”，它加强了章 VI, § 7, no. 2 的定理 1 和 § 1, no. 5 的命题 9：
 
 #### 命题 2 {#ac-vii-s2-prop-2 .statement tag=050P}
 
-设$A$为戴德金域，$K$为分数的域和$A$的非零素理想$P$集合；对于$p \in P$，让$v_p$表示相应的对$A$的基本估值。令$p_1, \ldots, p_q$不同于$P$的元素和$n_1, \ldots, n_q$有理整数以及$x_1, \ldots, x_q$元素$K$。那么存在$x \in K$，使得$1 \leq i \leq q$有$v_{p_i}(x - x_i) \geq n_i$，所有与$p_i$不同的$p \in P$有$v_p(x) \geq 0$。
+令$A$为戴德金域，$K$为分数的域和$A$的非零素理想的$P$集合；对于$p \in P$，令$v_p$表示相应的对$A$的基本估值。令$p_1, \ldots, p_q$不同于$P$的元素和$n_1, \ldots, n_q$有理整数以及$x_1, \ldots, x_q$元素$K$。那么存在$x \in K$，使得$1 \leq i \leq q$有$v_{p_i}(x - x_i) \geq n_i$，所有与$p_i$不同的$p \in P$有$v_p(x) \geq 0$。
 
-替换如果需要是$n_i$大于整数，则可以假设它们全部为正。我们首先检查$x_i$在$A$中的情况；显然这相当于找到 $x \in A$ 满足同余
+替换如果需要是$n_i$ 大于整数，则可以假设它们全部为正。我们首先检查$x_i$在$A$中的情况；显然这相当于找到 $x \in A$ 满足同余
 
 $$
 x \equiv x_i \pmod{p_i^{n_i}}
 $$
 
-$x$ 的存在则由章 II, § 1, no. 2、命题 5 推出。
+$x$的存在则由章II, § 1, no. 2、命题5得出。
 
 我们现在讨论一般情况。我们可以写$x_i = s^{-1} y_i$，其中$s, y_i$在$A$中；写$x = s^{-1} y$，就等于找到一个$y \in A$，这样，对于所有与$p_i$不同的$p \in P$，一方面是$v_{p_i}(y - y_i) \geq n_i + v_{p_i}(s)$，另一方面是$v_p(y) \geq v_p(s)$；作为 $v_p(s) = 0$，除了指标 $p$ 的有限数之外，它因此被简化为上述情况； 从而命题。
 
@@ -184,7 +184,7 @@ $x$ 的存在则由章 II, § 1, no. 2、命题 5 推出。
 
 令G为$\mathbf{SL}(n, A)$中$\mathbf{SL}(n, K)$的闭包；因为 K 在 A (命题 3)、G 包含中是稠密的，对于 $i \neq j$ 和 $a \in A$，形式 $I + a . E_{ij}$ 的所有矩阵。对于所有$p \in P$和所有$\lambda \in \hat{K}_p$，令$\lambda(p)$为受限制的adèle$x = (x_q)_{q \in P}$，使得对于$q \neq p$有$x_p = \lambda$和$x_q = 0$；上式表明，对于 $i \neq j$，G 包含矩阵 $I + \lambda(p)E_{ij}$。但我们知道形式 $I + \lambda E_{ij}$ 的矩阵对应 $\lambda \in \hat{K}_p$ 生成群 $\mathbf{SL}(n, \hat{K}_p)$ (*代数*, 章 111)。对于每个矩阵$U \in \mathbf{SL}(n, A)$，令$U_p$表示$\mathbf{SL}(n, \hat{\mathbf{K}}_p)$中$U$的典范像；因此可以看出，对于所有$p \in P$，$G$包含矩阵$U \in \mathbf{SL}(n, A)$，使得$U_q = I$对于所有$q \# p$。由于$G$是群，它也包含所有矩阵$U \in \mathbf{SL}(n, A)$，这样$U_p = I$除了$p \in P$的*有限*数；现在，$A$上的拓扑的定义立即表明这些矩阵中的集合在$\mathbf{SL}(n, A)$中是密集的。
 
-### 5.克鲁尔秋月定理
+### 5. 克鲁尔秋月定理
 
 #### 引理 1 {#ac-vii-s2-lem-1 .statement tag=050S}
 
@@ -311,4 +311,4 @@ $$
 
 ### 习题{#ac-vii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

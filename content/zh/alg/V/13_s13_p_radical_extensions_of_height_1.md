@@ -26,29 +26,29 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: a554c9dab93b0765125bb254db9e12cd67f1164d671299d3a2d3a6d06fc20c4f
+content_sha256: 4756f561764c227aa64e3d4e62f3919a12d0238b80fbc5ef1f1022349ebd9c40
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
 translation_method: google
 source_content_sha256: d7c5aa125c07daf15aa12374780d959bd9cb9aac8300a2a5e8c9396f60d1751b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 61127bd0d7a39452cec83fdee9d108f5d09c452d5812baef655edc8374e8b467
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 13。 $p$-高度延伸$\leq 1$
 
 在本段中，$p$表示质数数。所有考虑的域都具有特征$p$。
 
-### 1. $p$-无子集和 pbase
+### 1. $p$无子集和p碱基
 
 #### 定义 1 {#alg-v-s13-def-1 .statement tag=06QX}
 
 设$K$为域，$L$为$K$高度$\leq 1$的$p$根式延伸。 $L$ 元素的家庭 $(x_i)_{i \in I}$ 据说在 $K$ 上没有 $p$（分别是 $L$ $K$ 的 $p$ 基础），如果 $x_i \notin K$ 对于所有 $i \in I$ 并且从典范嵌入 $u_i : K(x_i) \to L$ 导出的 $\bigotimes_{i \in I} K(x_i)$ 到 $L$ 的同态是单射（或双射）。
 
-如果$a$是$L - K$的元素，则它是$p$高度为1的根式，因此它在$K$上的最小多项式是$X^p - a^p$（$V$，p. 24，命题1）；因此，$\{1, a, \ldots, a^{p-1}\}$ 是 $K(a)$ 中的基超过 $K$。令$(x_i)_{i \in I}$为$L - K$的元素和$\mathbf{N}^{(I)}$由……组成的$A$子集为有限支撑$a = (\alpha_i)_{i \in I}$的所有族，使得$\alpha_i < p$对于所有$i \in I$；命题 9（III、p. 471）表明，元素 $\bigotimes_{i \in I} x_i^{\alpha_i}$ 与 $a$ 相比，向量空间 $\bigotimes_{i \in I} K(x_i)$ 超过 $K$ 的$A$ 形式基。此外，$\bigotimes_{i \in I} K(x_i)$到$L$的典范同态有像$K(x_i)_{i \in I}$（$V$，p. 18，Cor.1），因此我们有以下命题：
+如果$a$是$L - K$的元素，它是$p$高度为1的根式，所以它在$K$上的最小多项式是$X^p - a^p$（$V$，p. 24，命题1）；因此，$\{1, a, \ldots, a^{p-1}\}$ 是$K(a)$ 中的基超过$K$。令$(x_i)_{i \in I}$为$L - K$的元素和$\mathbf{N}^{(I)}$由……组成的$A$子集为有限支撑$a = (\alpha_i)_{i \in I}$的所有族，使得$\alpha_i < p$对于所有$i \in I$；命题 9（III、p. 471）表明，元素 $\bigotimes_{i \in I} x_i^{\alpha_i}$ 与 $a$ 相比，向量空间 $\bigotimes_{i \in I} K(x_i)$ 超过 $K$ 的$A$ 形式基。此外，$\bigotimes_{i \in I} K(x_i)$到$L$的典范同态有像$K(x_i)_{i \in I}$（$V$，p. 18，Cor.1），因此我们有以下命题：
 
 #### 命题 1 {#alg-v-s13-prop-1 .statement tag=06QY}
 
@@ -99,7 +99,7 @@ b) $S \cap T = \varnothing$ *并且* S U T 在 K 上是无 p 的。
 
 对于 $n = 1$ 断言约化到提案 1 (V、p. 98)。 集合$\Lambda(n)$由形式$a = \beta + p^{n-1}\gamma$$N^{(I)}$元素与$\beta \in \Lambda(n-1)$和$\gamma \in \Lambda(1)$组成。这样的分解是独一无二的，我们有$x^\alpha = x^\beta (x^\gamma)^{p^{n-1}}$。此外，族$(x_i^{p^{n-1}})_{i \in I}$显然是$K^{p^{n-1}}$超过$K^{p^n}$的p基，因此族$(x^\gamma)^{p^{n-1}}$是$K^{p^{n-1}}$的基超过$K^{p^n}$。因此，我们利用II、p. 222、命题25得出归纳的结论。
 
-### 2. 差异和 pbase
+### 2. 差异和p碱基
 
 令 K 为域（特征 p）且 V 向量空间超过 K。我们记得 (III, p. 552) K 到 V 的推导是 K 到 V 满足关系的映射 D
 $$
@@ -288,8 +288,8 @@ Th。 2、c) (V、p. 103)。通过微分映射$u \mapsto u \circ d_{E/K}$的模�
 
 — 1) 逆双射 $K \mapsto g(K)$ 和 $\mathfrak{h} \mapsto I(\mathfrak{h})$ 互为包含反转；因此，$\mathfrak{h} \mapsto I(\mathfrak{h})$是有序集合$\mathscr{L}$的同构到与$\mathscr{C}$相反的有序集合上。因此，我们在$\mathscr{L}$中得到$\mathfrak{h}, \mathfrak{h}'$的关系$I(\mathfrak{h} \cap \mathfrak{h}') = E^p(I(\mathfrak{h}), I(\mathfrak{h}'))$，因为$\mathfrak{h} \cap \mathfrak{h}'$是$\mathfrak{h}$和$\mathfrak{h}'$中包含的$\mathscr{L}$的最大的元素。
 
-2) 可以证明，$g$的有限维、子空间在映射$D \mapsto D^p$下稳定，在运算下也稳定。
+2) 可以证明，在映射$D \mapsto D^p$下稳定的$g$的有限维中的每一个子空间在运算下也稳定。
 
 ### 习题 {#alg-v-s13-exercises}
 
-§ 13](exercises/s13/)参见[习题。
+参见[习题为 § 13](exercises/s13/)。

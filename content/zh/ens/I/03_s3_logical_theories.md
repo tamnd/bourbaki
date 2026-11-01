@@ -34,27 +34,27 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: 07a1a463dd41d7534ffe2fffc29b54090ed43cbdc5b50485da854761be653f4b
+content_sha256: 06eb0694c546c96235a5338d816030a6ffcb833839aacb5c635d48a3f46dbf56
 translated_from: content/en/ens/I/03_s3_logical_theories.md
 translation_method: google
 source_content_sha256: 37ec32a3c0cdf2c61a57848be909293d325cc40d690c0e328f7cb619bf02c9e1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: bde532d91ecec524a7754ae46177e1bf1c039bc009e69ab585a3a904eabf6df1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3.逻辑理论
+## 3. 逻辑理论
 
-### 1.公理
+### 1. 公理
 
 *逻辑理论*是任何理论$\mathscr{T}$，其中概形下面的S1到S4提供隐式公理。
 
-S1。 *如果$A$在$\mathscr{T}$中是关系，则关系$(A$或$A) \Rightarrow A$是$\mathscr{T}$* [^1]的公理。
+S1。 *如果$A$在$\mathscr{T}$中为关系，则关系$(A$或$A) \Rightarrow A$是$\mathscr{T}$* [^1]的公理。
 
-S2。 *如果$A$和$B$是$\mathscr{T}$中的关系，则关系$A \Rightarrow (A$或B)是$\mathscr{T}$的公理。*
+S2。 *如果$A$和$B$在$\mathscr{T}$中是关系，则关系$A \Rightarrow (A$或B)是$\mathscr{T}$的公理。*
 
 S3。 *如果$A$和$B$在$\mathscr{T}$中是关系，则关系$(A$或$B) \Rightarrow (B$或A)是$\mathscr{T}$的公理。*
 
@@ -64,11 +64,11 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 *是$\mathscr{T}$的公理。*
 
-这些规则实际上是概形；让我们验证一下，S2 的例。设$R$为应用S2得到的关系；那么$\mathscr{T}$中有关系$A$和$B$，使得$R$是关系$A \Rightarrow (A$或B）。令$T$为$\mathscr{T}$中的项，令$x$为字母，令$A'$和$B'$为关系$(T|x)A$和$(T|x)B$；则$(T|x)R$与$A' \Rightarrow (A'$或$B')$相同，因此可以通过应用S2获得。
+这些规则实际上是概形；让我们验证一下，S2 的例。设$R$为应用S2得到的关系；那么$\mathscr{T}$中有关系$A$和$B$，使得$R$是关系$A \Rightarrow (A$或B）。令$\mathscr{T}$中$T$为项，令$x$为字母，令$A'$和$B'$为关系$(T|x)A$和$(T|x)B$；则$(T|x)R$与$A' \Rightarrow (A'$或$B')$相同，因此可以通过应用S2获得。
 
 直观上，规则S1到S4仅仅表达了字通常的数学语言[^2]中“或”和“暗示”的含义。
 
-如果逻辑理论$\mathscr{T}$是矛盾的，*$\mathscr{T}$中的每个关系都是$\mathscr{T}$中的定理。*因为让$A$是$\mathscr{T}$中的关系，这样$A$和“不是$A$”是$\mathscr{T}$中的定理，并令$B$为$\mathscr{T}$中的任意关系。通过S2，（不是$A$）$\Rightarrow$（（不是$A$）或$B$）在$\mathscr{T}$中等于定理；因此，通过C1（§ 2, no. 2），“（不是$A$）或$B$”，即$A \Rightarrow B$，是$\mathscr{T}$中的定理。 C1 的第二次应用显示$B$ 是$\mathscr{T}$ 中的定理。
+如果逻辑理论$\mathscr{T}$是矛盾的，*$\mathscr{T}$中的每个关系都是$\mathscr{T}$中的定理。*因为让$A$是$\mathscr{T}$中的关系，这样$A$和“不是$A$”是$\mathscr{T}$中的定理，并令$B$为$\mathscr{T}$中的任意关系。通过S2，（不是$A$）$\Rightarrow$（（不是$A$）或$B$）在$\mathscr{T}$中等于定理；因此，通过C1（§ 2, no. 2），“（不是$A$）或$B$”，即$A \Rightarrow B$，是$\mathscr{T}$中的定理。 C1 的第二次应用显示 $\mathscr{T}$ 中的 $B$ 是定理。
 
 ¶ *从现在开始$\mathscr{T}$将表示逻辑理论。*
 
@@ -88,9 +88,9 @@ C8。 *如果$\mathscr{T}$中$A$是关系，则$A \Rightarrow A$在$\mathscr{T}$
 
 C9。 *如果$\mathscr{T}$中$A$是关系且$B$定理，则$A \Rightarrow B$在$\mathscr{T}$中是定理。*
 
-对于$B \Rightarrow ((\text{not } A)$或B)来说，C7乘以定理，因此“（不是$A$）或$B$”，也就是说，$A \Rightarrow B$，C1乘以定理。
+对于$B \Rightarrow ((\text{not } A)$或B)来说，C7乘以定理，因此“（不是$A$）或$B$”，即$A \Rightarrow B$，C1乘以定理。
 
-C10。 *如果$\mathscr{T}$中的$A$是关系，则“$A$或（不是$A$）”是$\mathscr{T}$中的定理。*
+C10。 *如果$A$在$\mathscr{T}$中是关系，则“$A$或（不是$A$）”在$\mathscr{T}$中是定理。*
 
 对于“（不是$A$）或$A$”，C8 为定理；现在使用S3和C1。
 
@@ -118,7 +118,7 @@ $$((\text{not } A) \text{ or } B) \Rightarrow ((\text{not not } B) \text{ or } (
 
 是 C6 的定理。于是就有了这样的结果。
 
-C13。 *设$\mathscr{T}$中的$A$、$B$、$C$为关系。如果$A \Rightarrow B$在$\mathscr{T}$中是定理，那么$(B \Rightarrow C) \Rightarrow (A \Rightarrow C)$在$\mathscr{T}$中是定理。*
+C13。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果$A \Rightarrow B$在$\mathscr{T}$中是定理，那么$(B \Rightarrow C) \Rightarrow (A \Rightarrow C)$在$\mathscr{T}$中是定理。*
 
 对于 $(\text{not } B) \Rightarrow (\text{not } A)$ 来说，由 C12 和 C1 得到定理。因此，通过 S4 和 C1，$(C \text{ or } (\text{not } B)) \Rightarrow (C \text{ or } (\text{not } A))$ 为定理。通过双应用S3和C6我们推断
 
@@ -128,11 +128,11 @@ $$((\text{not } B) \text{ or } C) \Rightarrow ((\text{not } A) \text{ or } C)$$
 
 ¶ *从现在开始，我们通常会使用* C1 *和* C6 *而不明确引用它们。*
 
-### 3.证明方法
+### 3. 证明方法
 
 I。 *辅助假设的方法。*这取决于以下规则：
 
-C14（*演绎*的标准）。 *设$\mathscr{T}$中$A$为关系，$\mathscr{T}'$为$\mathscr{T}$的$A$与公理邻接所得的理论。如果$B$在$\mathscr{T}'$中是定理，那么$A \Rightarrow B$在$\mathscr{T}$中是定理。*
+C14（*演绎* 的标准）。 *设$\mathscr{T}$中$A$为关系，$\mathscr{T}'$为$\mathscr{T}$的$A$与公理邻接所得的理论。如果$B$在$\mathscr{T}'$中是定理，则$A \Rightarrow B$在$\mathscr{T}$中是定理。*
 
 令$B$出现的$\mathscr{T}'$中的$B_1$、$B_2$、…、$B_n$为证明。我们将逐步证明关系$A \Rightarrow B_k$是$\mathscr{T}$中的定理。假设这对于$B_i$之前的关系成立，让我们证明$A \Rightarrow B_i$在$\mathscr{T}$中是定理。如果$B_i$是$\mathscr{T}'$的公理，那么$B_i$要么是$\mathscr{T}$的公理，要么是$A$。在这两种情况下，$A \Rightarrow B_i$ 是 $\mathscr{T}$ 应用 C9 或 C8 中的定理。如果$B_i$前面有关系、$B_j$和$B_j \Rightarrow B_i$，我们就知道$A \Rightarrow B_j$和$A \Rightarrow (B_j \Rightarrow B_i)$是$\mathscr{T}$中的定理。因此，$(B_j \Rightarrow B_i) \Rightarrow (A \Rightarrow B_i)$ 是 C13 的 $\mathscr{T}$ 中的定理。因此，对于C6来说，$A \Rightarrow (A \Rightarrow B_i)$，即“$(\text{not } A)$或$(A \Rightarrow B_i)$”，在$\mathscr{T}$中是定理，因此对于S3来说，“$(A \Rightarrow B_i)$或$(\text{not } A)$”也是如此。现在，$(\text{not } A) \Rightarrow ((\text{not } A) \text{ or } B_i)$，即$(\text{not } A) \Rightarrow (A \Rightarrow B_i)$，是 S2 的$\mathscr{T}$中的定理。通过应用 S4 我们可以看到
 
@@ -193,7 +193,7 @@ C19。 *令$x$为字母，并令$A$和$B$为$\mathscr{T}$中的关系，这样�
 
 在实践中，我们将通过诸如“让$x$成为一个对象，使得$A$”之类的短语来使用这个方法。与助词假设的方法相比，论证的结论不涉及$x$。
 
-### 4.合取
+### 4. CONJUNCTION
 
 设$A$，$B$为组合。大会
 
@@ -253,9 +253,9 @@ $$((\text{not } R) \text{ or } (\text{not not } R)) \Rightarrow (\text{not } A)$
 
 在$\mathscr{T}_0$中是定理，并且由于“（不是$R$）或（不是$R$）”在$\mathscr{T}_0$中是定理，所以“不是$A$”在$\mathscr{T}_0$中是定理。相反，如果存在$\mathscr{T}$的公理合取$A$，使得$\mathscr{T}_0$中的“非$A$”为定理，则$A$和“非$A$”在$\mathscr{T}$中为定理，因此$\mathscr{T}$是矛盾的。
 
-### 5.等价
+### 5. 等价
 
-设$A$和$B$为组合。大会
+令$A$和$B$为组合。大会
 
 $$(A \Rightarrow B) \text{ and } (B \Rightarrow A)$$
 
@@ -269,9 +269,9 @@ CF10。 *如果$A$和$B$在$\mathscr{T}$中是关系，则$A \Leftrightarrow B$�
 
 这紧接着 CF5 (§ 1, no. 4) 和 CF9 (no. 4)。
 
-¶ 如果$A \Leftrightarrow B$在$\mathscr{T}$中是定理，我们可以说$A$和$B$在$\mathscr{T}$中“等价”；如果$x$是一个不是$\mathscr{T}$常数的字母，并且如果$A$和$B$被视为$x$中的关系，则$\mathscr{T}$中每个满足一个的项也满足另一个。
+¶ 如果$\mathscr{T}$中的$A \Leftrightarrow B$是定理，我们可以说$A$和$B$在$\mathscr{T}$中“等价”；如果$x$是一个不是$\mathscr{T}$常数的字母，并且如果$A$和$B$被视为$x$中的关系，则$\mathscr{T}$中每个满足一个的项也满足另一个。
 
-¶ 由判据 C20, C21 (no. 4)可知，在序中，要证明形式$A \Leftrightarrow B$的$\mathscr{T}$中的定理，必须且充分能够证明$A \Rightarrow B$和$B \Rightarrow A$ $\mathscr{T}$。这通常是由 $\mathscr{T}$ 邻接公理 $A$ 推导出来的理论中的证明 $B$ 完成的，然后是由 $\mathscr{T}$ 邻接公理 $B$ 推导出来的理论中的证明 $A$ 来完成的。这些注立即引向下面的判据，我们将其证明留给读者：
+¶ 由判据 C20, C21 (no. 4)可知，在序中，要证明形式 $A \Leftrightarrow B$的$\mathscr{T}$中的定理，必须且充分能够证明$A \Rightarrow B$和$B \Rightarrow A$ $\mathscr{T}$。这通常是由 $\mathscr{T}$ 与公理 $A$ 推导的理论中的证明 $B$ 完成的，然后是由 $\mathscr{T}$ 与公理 $B$ 推导的理论中的证明 $A$ 完成的。这些注立即引向下面的判据，其中的证明我们留给读者：
 
 C22。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果$A \Leftrightarrow B$在$\mathscr{T}$中是定理，则$B \Leftrightarrow A$在$\mathscr{T}$中是定理。如果$A \Leftrightarrow B$和$B \Leftrightarrow C$在$\mathscr{T}$中是定理，则$A \Leftrightarrow C$在$\mathscr{T}$中是定理。*
 
@@ -294,17 +294,17 @@ $$(A \text{ or } (B \text{ and } C)) \Leftrightarrow ((A \text{ or } B) \text{ a
 $$(A \text{ and } (\text{not } B)) \Leftrightarrow \text{not } (A \Rightarrow B);$$
 $$(A \text{ or } B) \Leftrightarrow ((\text{not } A) \Rightarrow B).$$
 
-C25。 *如果$A$在$\mathscr{T}$中是定理并且$B$在$\mathscr{T}$中是关系，那么*
+C25。 *如果$\mathscr{T}$中$A$是定理并且$B$在$\mathscr{T}$中是关系，则*
 
 $$(A \text{ and } B) \Leftrightarrow B$$
 
-* $\mathscr{T}$ 中的定理。如果“不是$A$”在$\mathscr{T}$中是定理，则$(A$或$B) \Rightarrow B$在$\mathscr{T}$中是定理。*
+*是 $\mathscr{T}$ 中的定理。如果“不是$A$”是$\mathscr{T}$中的定理，则$(A$或$B) \Rightarrow B$是$\mathscr{T}$中的定理。*
 
 ¶ *在原理中，从现在开始，级数、判据* C1 *到* C25 *将在没有参考的情况下使用。*
 
-### 习题 {#ens-i-s3-exercises}
+### 习题{#ens-i-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。
 
-[^1]: 这个概形可以不使用字母$A$或缩写符号$\Rightarrow$来表达，如下：*每当我们有关系时，我们通过从左到右写，*$\vee$，$\neg$，得到定理， $\vee$，*然后给定关系三次*。读者可以按照习题类似的方式翻译其他概形的表达方式。
-[^2]: 在日常用语中，字“或”根据上下文有两种不同的含义：当我们通过字“或”连接两个叙述时，我们可能意味着断言两者中的至少一个（也可能两者一起），或者我们可能意味着断言其中一个而排除另一个。
+[^1]: 这个概形可以不使用字母$A$或缩写符号$\Rightarrow$来表达，如下所示：*每当我们有关系时，我们通过从左到右写，*$\vee$，$\neg$，$\vee$，*然后给出给定的关系来获得定理三次*。 The reader may, as an exercise, translate in a similar way the expressions of the other schemes.
+[^2]: In everyday speech, the word "or" has two different meanings, according to the context : when we link two statements by the word "or" we may mean to assert at least one of the two (and possibly both together), or we may mean to assert one to the exclusion of the other.

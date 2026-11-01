@@ -45,29 +45,29 @@ subsections:
       pdf_page: 89
 statements: 41
 exercises: 20
-content_sha256: 70b152ad63ceca6fd0b7d027e0efe9f024cc299deca5d372a0d6469d0d61312e
+content_sha256: b75a0d00e17e86fb4be2b6cdf18d7f310ede79cf97829adb30284ab2323668c8
 translated_from: content/en/evt/II/06_s6_weak_topologies.md
 translation_method: google
 source_content_sha256: 99514709d3c5833b248b220057a632a5ff5dc72f7ecf8af9bb7a09eddc3274a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e01badec337f4d8bc9d6446b7d6ee20bc123fcb8eb108d43601c119e9cf394f1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。弱拓扑
 
-### 1.双向量空间
+### 1. 双向量空间
 
-令$F$和$G$为两个实数向量空间，并令$(x, y) \mapsto B(x, y)$为$F \times G$上的*双线性*形式。我们说双线性形式$B$*将向量空间*$F$*和*$G$*置于对偶性*，或者说F和G处于对偶性（相对于B）。回想一下，如果 $B(x, y) = 0$，我们说 $x \in F$ 和 $y \in G$ 是正交的（对于 B 定义的对偶性）；如果每个$x \in M$都与每个$y \in N$正交（A，IX, § 1.2），我们就说F的子集M和G的子集N是正交的。
+令$F$和$G$为两个实数向量空间，并令$(x, y) \mapsto B(x, y)$为$F \times G$上的*双线性*形式。我们说双线性形式$B$*将向量空间*$F$*和*$G$*置于对偶性*，或者F和G处于对偶性（相对于B）。回想一下，如果 $B(x, y) = 0$，我们说 $x \in F$ 和 $y \in G$ 是正交的（对于 B 定义的对偶性）；如果每个$x \in M$都与每个$y \in N$正交（A，IX, § 1.2），我们就说F的子集M和G的子集N是正交的。
 
 如果 B 定义的对偶性满足以下条件 ，我们就说 B 定义的对偶性在 F 中（或在 G 中）是分离的：
 
 (D_I) *对于 F 中的每个 $x \neq 0$，都存在 $y \in G$ 使得 $B(x, y) \neq 0$.* （分别为
 
-(D_{II}) *对于 G 中的每个 $y \neq 0$，存在 $x \in F$ 使得 $B(x, y) \neq 0$。）
+(D_{II}) *对于 G 中的每个 $y \neq 0$，都存在 $x \in F$ 使得 $B(x, y) \neq 0$。）
 
 如果 B 定义的对偶性在 F 和 G 中都分离，则称其为分离的。为此，双线性形式 B 在 A、IX, § 1.1 的意义上分离是充分必要的。更准确地说，我们得到以下结果：
 
@@ -92,22 +92,22 @@ $$
 
 #### 例 {#evt-ii-s6-n1-exa-1 .statement tag=07H1}
 
-— 1) 令 E 为向量空间，并令 E* 为其对偶。 $E \times E^*$ (A, II, § 2.3) 上的规范双线性形式 $(x, x^*) \mapsto \langle x, x^* \rangle$ 将 E 和 E* 置于分离对偶性中：因为 (D_{II}) 为真，因为关系 $x^* \neq 0$ 的定义，另一方面我们知道，对于E中所有$x \neq 0$，存在线性形式$x^* \in E^*$使得$\langle x, x^* \rangle \neq 0$(A, II, § 7.5, th.6)，证明(D_I)； E 与子空间的$E^{**}$ 的识别是通过典范映射 $c_E$ 进行的（*loc.cit.*）。
+— 1) 令 E 为向量空间，并令 E* 为其对偶。 $E \times E^*$ (A, II, § 2.3) 上的规范双线性形式 $(x, x^*) \mapsto \langle x, x^* \rangle$ 将 E 和 E* 置于分离对偶性中：因为 (D_{II}) 为真，因为关系 $x^* \neq 0$ 的定义，另一方面我们知道，对于E中的所有$x \neq 0$，存在线性形式$x^* \in E^*$使得$\langle x, x^* \rangle \neq 0$(A, II, § 7.5, th.6)，从而证明(D_I)； E 与子空间或 $E^{**}$ 的识别是通过典范映射 $c_E$ (*loc.cit.*) 进行的。
 
-当 E 为 *有限* 维数时，E* 中唯一的子空间 G 处于正则双线性形式的限制到 $E \times G$ 分离对偶性，是空间 E* 本身；因为，E 被规范地标识为 $E^{**}$ (*loc.cit.*)，如果我们有 $G \neq E^*$，那么 E 中就会存在 $a \neq 0$，这样 $\langle a, x^* \rangle = 0$ 对于所有 $x^* \in G$ (A, II, § 7.5, th. 7)，其中与……矛盾假设。
+当 E 为 *有限* 维数时，E* 的*唯一* 子空间 G 处于规范双线性形式的限制到 $E \times G$ 分离对偶性，是空间 E* 本身；因为，E 被规范地标识为 $E^{**}$ (*loc.cit.*)，如果我们有 $G \neq E^*$，那么 E 中就会存在 $a \neq 0$，这样 $\langle a, x^* \rangle = 0$ 对于所有 $x^* \in G$ (A, II, § 7.5, th. 7)，其中与……矛盾假设。
 
 2) 当E是*无限*维向量空间，并且E'是E*的向量子空间时，由规范双线性形式的限制到$E \times E'$定义的E和E'之间的对偶性总是在E'中分离；即使$E' \neq E^*$，它也可以在E中分离。最重要的情况发生在 E 是拓扑向量空间的情况下。
 
 #### 定义 1 {#evt-ii-s6-def-1 .statement tag=07H2}
 
-— *所谓拓扑向量空间 E 的对偶，我们指的是 E* 的子空间 E'，向量空间 E 的对偶，由 E 上的连续线性形式形成。*
+— *所谓拓扑向量空间 E 的对偶，是指 E* 的子空间 E'，向量空间 E 的对偶，由 E 上的连续线性形式形成。*
 
 当 E 是 *Hausdorff 局部凸* 空间时，E 与其对偶 E' 之间的对偶性是分离的：这根据 Hahn-Banach 定理（II，p. 24，cor. 1）得出，对于 E 中的每个$x \neq 0$，都存在$x' \in E'$，使得$\langle x, x' \rangle \neq 0$。
 
 #### 注 {#evt-ii-s6-n1-rem-1 .statement tag=07H3}
 
 — 1) 当E是*拓扑*向量空间时，*向量空间*E的对偶$E^*$将被称为E的*代数对偶*以避免混淆。我们注还知道$E^*$是拓扑向量空间的对偶，通过给E提供*最佳*局部凸拓扑（II，p. 25，*例*2）。
-2) 拓扑向量空间的对偶E'本身不携带拓扑，除非，这是明确说明的。
+2) 拓扑向量空间的对偶E'本身并不携带拓扑，除非，这是明确说明的。
 3) 如果 F 和 $G \subset F^*$ 通过规范双线性形式分离对偶性，那么 F 和 $G_1$ 也是如此，对于 $F^*$ 的每个子空间 $G_1$ 使得 $G \subset G_1$。
 
 ### 2. 弱拓扑
@@ -152,11 +152,11 @@ $$
 
 — *族* $(a_i)$ *的点的* $F$ *对于拓扑* $\sigma(F, G)$，*当且仅当，对于每个指标* $i$，*存在元素* $b_i \in G$ *这样* ：$\langle a_i, b_i \rangle \neq 0$ *和* $\langle a_\kappa, b_i \rangle = 0$ *所有* $\kappa \neq i$。
 
-这意味着，对于所有 $i$，$\sigma(F, G)$ 中存在一个封闭的超平面，其中包含所有 $a_\kappa$ 与指标 $\kappa \neq i$，但不存在包含 $a_i$。
+这意味着，对于所有$i$，$\sigma(F, G)$中存在一个封闭的超平面，其中包含所有$a_\kappa$与指标$\kappa \neq i$，但不存在包含$a_i$。
 
 #### 推论 3 {#evt-ii-s6-prop-3-cor-3 .statement tag=07H9}
 
-— *让* $G_1$ *和* $G_2$ *成为* $F^*$的两个向量子空间，*与* $F$ *（对于规范双线性形式的限制）*。 *那么*$\sigma(F, G_2)$*更细比*$\sigma(F, G_1)$*当且仅当*$G_1 \subset G_2$。
+— *让* $G_1$ *和* $G_2$ *成为* $F^*$的两个向量子空间，*与* $F$ *对偶（对于规范双线性形式的限制）*。 *那么*$\sigma(F, G_2)$*更细比*$\sigma(F, G_1)$*当且仅当*$G_1 \subset G_2$。
 
 条件显然就足够了；相反，如果$\sigma(F, G_2)$比更细大于$\sigma(F, G_1)$，则对于$\sigma(F, G_1)$连续的每个线性形式对于$\sigma(F, G_2)$也是连续的，因此通过道具$G_1 \subset G_2$。 3.
 
@@ -170,11 +170,11 @@ $$
 
 #### 定义 2 {#evt-ii-s6-def-2-bis .statement tag=07HB}
 
-设 F 和 G 为对偶性中的两个（实数）向量空间。对于 F 的每个集合 M，我们将其称为 M 的极坐标，y ∈ G 的集合，其中 $\langle x, y \rangle \geq -1$ 对于所有 $x \in M$。 （对于复杂的向量空间、cf.、II、p. 64。）
+设 F 和 G 为对偶性中的两个（实数）向量空间。对于 F 的每个集合 M，我们将其称为 M 的极坐标，即 y ∈ G 的集合，其中 $\langle x, y \rangle \geq -1$ 对于所有 $x \in M$。 （对于复杂的向量空间、cf.、II、p. 64。）
 
 如果$G_1, G_2$是$F^*$的两个子空间，使得$G_1 \subset G_2$，则$G_1$中M的极坐标是$G_1$中的交，而M在$G_2$中的极坐标。
 
-在不存在混淆的情况下，我们使用 $M^\circ$ 来表示 G 中 F 的子集 M 的极坐标。同样，我们也用定义 F 中 G 的集合的极坐标。
+当不存在混淆的危险时，我们使用 $M^\circ$ 来表示 G 中 F 的子集 M 的极坐标。同样，我们也用定义 F 中 G 的集合的极坐标。
 
 显然，对于每个标量 $\lambda \neq 0$ 和所有 $M \subset F$，我们都有 $(\lambda M)^\circ = \lambda^{-1} M^\circ$。 关系$M \subset N \subset F$意味着$N^\circ \subset M^\circ$；如果 N 吸收 M，则 $M^\circ$ 吸收 $N^\circ$；对于F的集合的每个家庭$(M_\alpha)$，$\bigcup \alpha M_\alpha$的极地集合是极地集合$M_\alpha^\circ$的交。因为，对于 $y \in M^\circ$，由关系 $\langle x, y \rangle \geq -1$ 包含 0 和 M 定义的闭半空间，我们看到如果 $M_1$ 是 $M \cup \{0\}$ 的凸包络，则$M_1^\circ = M^\circ$。
 
@@ -230,9 +230,9 @@ Cor的结论。如果 $M_\alpha$ 不是凸的，则 1 不一定成立。
 
 #### 注 {#evt-ii-s6-n3-rem-1 .statement tag=07HG}
 
-— 拓扑 $\sigma(G, F)$ 包含邻域 $V$ 中$G$中的每个邻域由形式$|\langle x_i, y \rangle| \leq 1$ ($1 \leq i \leq n$) 的有限不等式数定义，其中$x_i$是$F$中的任意点。如果$A$是$x_i$的集合的*对称凸包络*，那么$V$就是$G$中$A$的*极集合* $A^\circ$。我们可以说，$F$（或其凸包络）中的有限对称集合（或其凸包络）形式中的*$G$*极坐标是$G$中0的邻域基本系统对于$\sigma(G, F)$。如果对偶性在 $F$ 中分离，则这些凸包络对于 $\sigma(F, G)$（II、p. 14，第 15 条命题的第 1 条）和有限维来说是“紧凑”的。相反，$F$中的有限维* $C$的*紧凑凸集合（以及$\sigma(F, G)$拓扑）包含在$F$的*有限子集*的凸包络中。例如，令$M$为有限维包含$C$中的向量子空间。如果$(e_i)_{1 \leq i \leq n}$是$M$的基，我们可以假设$C$包含在闭平行六边形中心0中，并构造在基$e_i$的向量上（GT，VI, § 1.3）；现在这个平行四边形是直接的点 $\sum \limits_{i=1}^n \varepsilon_i e_i$ 和 $\varepsilon_i = \pm 1$ 的凸包络线。
+— 拓扑 $\sigma(G, F)$ 包含邻域 $V$ 中$G$中的每个邻域由形式$|\langle x_i, y \rangle| \leq 1$ ($1 \leq i \leq n$) 的有限不等式数定义，其中$x_i$是$F$中的任意点。 如果$A$是$x_i$的集合的*对称凸包络*，那么$V$就是$G$中$A$的*极集合* $A^\circ$。 我们可以说，$F$（或其凸包络）中的有限对称集合（或其凸包络）形式中的*$G$*极坐标是$G$中0的邻域的基本系统对于$\sigma(G, F)$。 如果对偶性在 $F$ 中分离，则这些凸包络对于 $\sigma(F, G)$（II、p. 14，第 15 条命题的第 1 条）和有限维来说是“紧凑”的。 Conversely every *compact, convex set of finite dimension* $C$ in $F$ (with the $\sigma(F, G)$ topology) is contained in the convex envelope of a *finite subset* of $F$. 例如，令$M$为有限维包含$C$中的向量子空间。 如果$(e_i)_{1 \leq i \leq n}$是$M$的基，我们可以假设$C$包含在闭平行六边形中心 0中，并构造在基$e_i$的向量上（GT，VI, § 1.3）；现在，这个平行四边形是点$\sum \limits_{i=1}^n \varepsilon_i e_i$和$\varepsilon_i = \pm 1$的凸包络线，直接的。
 
-因此我们可以说（如果 $\sigma(F, G)$ 是 Hausdorff）* 有限维极坐标，凸，紧集 in* $F$（对于 $\sigma(F, G)$ 或对于任何 Hausdorff 局部凸拓扑更细比 $F$ 上的 $\sigma(F, G)$）对于 $\sigma(G, F)$，形式邻域的基本系统为 0。
+因此，我们可以说（如果 $\sigma(F, G)$ 是 Hausdorff）* 有限维极坐标，凸，紧集 in* $F$（对于 $\sigma(F, G)$ 或对于任何 Hausdorff 局部凸拓扑更细比 $F$ 上的 $\sigma(F, G)$）形式是一个基本原理$\sigma(G, F)$ 的系统邻域为 0。
 
 #### 推论 3 {#evt-ii-s6-thm-1-cor-3 .statement tag=07HH}
 
@@ -240,13 +240,13 @@ Cor的结论。如果 $M_\alpha$ 不是凸的，则 1 不一定成立。
 
 (i) *E 中的闭凸集合对于拓扑 $\mathscr{T}$ 和弱拓扑 $\sigma(E, E')$ 是相同的。
 
-(ii) *对于E的每个子集M，$E'$中M的极集合$M^\circ$的E中的极集合$M^{\circ\circ}$，是拓扑$\mathscr{T}$的$M \cup \{0\}$的凸闭包络。
+(ii) *对于E的每一个子集M，$E'$中M的极集合$M^\circ$的E中的极集合$M^{\circ\circ}$，是拓扑$\mathscr{T}$的$M \cup \{0\}$的凸闭包络。
 
-显然，(ii) 由 (i) 和 th 推出。 1. 从对偶 $E'$ 的定义出发，由 II、p. 43 推出。 3 E 上拓扑 $\mathscr{T}$ 的连续线性形式与$\sigma(E, E')$ 的连续线性形式相同。因此，E 中的闭半空间对于 $\mathscr{T}$ 和 $\sigma(E, E')$ 是相同的（II，p. 15，命题 17），并且断言 (i) 因此可以从 II，p. 38，cor. 得出。 1.
+显然，(ii) 由 (i) 和 th 推出。 1. 从对偶 $E'$ 的定义出发，从 II，p. 43，道具得出。 3 E 上拓扑 $\mathscr{T}$ 的连续线性形式与$\sigma(E, E')$ 的连续线性形式相同。因此，E 中的闭半空间对于 $\mathscr{T}$ 和 $\sigma(E, E')$ 是相同的（II，p. 15，命题 17），并且断言 (i) 因此可从 II，p. 38，相应得出。 1.
 
-### 4.连续线性映射的转置
+### 4. 连续线性映射的转置
 
-在这个数中，我们假设(F,G)和$(F_1, G_1)$是对偶的两个向量空间。
+在这个数中，我们假设(F,G)和$(F_1, G_1)$是对偶中的两个向量空间。
 
 #### 命题 5 {#evt-ii-s6-prop-5 .statement tag=07HI}
 
@@ -254,13 +254,13 @@ Cor的结论。如果 $M_\alpha$ 不是凸的，则 1 不一定成立。
 
 a) *u 对于弱拓扑 $\sigma(F, G)$ 和 $\sigma(F_1, G_1)$ 是连续的；*
 
-b) *there exists 映射 $v : G_1 \to G$ such that*
+b) *存在映射 $v : G_1 \to G$ 使得*
 
 $$
 \langle u(y), z_1 \rangle = \langle y, v(z_1) \rangle
 $$
 
-对于所有 $y \in F$ 和 $z \in G_1$。
+对于所有$y \in F$和$z \in G_1$。
 
 *如果这些性质成立并且 F 和 G 之间的对偶性在 G 中分离，则映射 v 满足 (1) 是唯一的，并且 v 是线性的。*
 
@@ -308,7 +308,7 @@ $$
 
 #### 推出 1 {#evt-ii-s6-prop-6-cor-1 .statement tag=07HM}
 
-*带有记号的支柱。 6、关系$u(A) \subset A_1$暗示${}^t u(A_1^{\circ}) \subset A^{\circ}$；如果进一步 $A_1$ 是凸的、闭合的（对于 $\sigma(F_1, G_1)$）和包含原点，那么这两个关系是等价的。*
+*带有记号的支柱。 6、关系$u(A) \subset A_1$暗示${}^t u(A_1^{\circ}) \subset A^{\circ}$；如果进一步 $A_1$ 是凸的、封闭的（对于 $\sigma(F_1, G_1)$）且包含原点，则这两个关系是等价的。*
 
 事实上，关系$u(A) \subset A_1$等价于$A \subset u^{-1}(A_1)$，因此意味着
 
@@ -344,7 +344,7 @@ $$
 
 应用道具。 6 与 $A = F$ 和 $A_1 = \{0\}$，利用弱拓扑 $\sigma(G, F)$ 和 $\sigma(F_1, G_1)$ 是 Hausdorff 的事实。 最后一个断言由 (4)、交换 $u$ 和 $^t u$ 得出。
 
-### 5.弱空间的商空间和子空间
+### 5. 弱空间的商空间和子空间
 
 设$F, G$是对偶性中的两个实数向量空间。令$M$为$F$的向量子空间，并考虑$G$中正交$M^\circ$的子空间$N$；如果 $y_1, y_2$ 是 $G$ 中的两个点，它们是全等的 mod。 $N$ 然后$\langle x, y_1 \rangle = \langle x, y_2 \rangle$ 对于所有$x \in M$。对于每个类 $\dot{y}$ 模。 $N$，表示当$y$在$\dot{y}$变化$\langle x, \dot{y} \rangle$时，$\langle x, y \rangle$的公共的值；显然，$(x, \dot{y}) \mapsto \langle x, \dot{y} \rangle$ 是 $M \times (G/N)$ 上的双线性形式。
 
@@ -424,7 +424,7 @@ c) $^t u$ 是$G_1$ 中$G_2$ 的严格态射。
 
 #### 命题 8 {#evt-ii-s6-prop-8 .statement tag=07HV}
 
-— 设$(F_i, G_i)_{i \in I}$是对偶性中空间的对族。设$F = \prod_{i \in I} F_i$为$F_i$的乘积空间，$G = \bigoplus_{i \in I} G_i$为$G_i$的直和。如果对于所有 $x = (x_i) \in F$ 和所有 $y = (y_i) \in G$，我们写 $\langle x, y \rangle = \sum_{i \in I} \langle x_i, y_i \rangle$ （和只有有限多个非零项），那么拓扑 $\sigma(F, G)$ （相对于双线性形式 $(x, y) \mapsto \langle x, y \rangle$）是乘积拓扑$\sigma(F_i, G_i)$。
+— 设$(F_i, G_i)_{i \in I}$是空间的对偶性的对族。设$F = \prod_{i \in I} F_i$为$F_i$的乘积空间，$G = \bigoplus_{i \in I} G_i$为$G_i$的直和。如果，对于所有 $x = (x_i) \in F$ 和所有 $y = (y_i) \in G$，我们写 $\langle x, y \rangle = \sum_{i \in I} \langle x_i, y_i \rangle$（和只有有限多个非零项），那么拓扑 $\sigma(F, G)$（相对于双线性形式 $(x, y) \mapsto \langle x, y \rangle$）是乘积拓扑$\sigma(F_i, G_i)$。
 
 对于，给定$F$上的拓扑$\mathscr{T}$；在阶中，对于所有 $y \in G$，线性形式 $x \mapsto \langle x, y \rangle$ 应连续于 $\mathscr{T}$，通过 $\langle x, y \rangle$ 的定义，映射 $x \mapsto \langle \operatorname{pr}_i x, y_i \rangle$ 应连续于$\mathscr{T}$，其中$i$在$I$中任意，而$y_i$在$G_i$中任意；但这意味着$F_i$中$F$的映射$\operatorname{pr}_i$对于$\mathscr{T}$和$\sigma(F_i, G_i)$都是连续的（I，p. 10，cor.1）；这样就完成了演示。
 
@@ -470,13 +470,13 @@ c) $^t u$ 是$G_1$ 中$G_2$ 的严格态射。
 
 现在让$W$是$F$的闭子空间；然后我们就有 $W = V^\circ$ 和 $G$ 中的 $V = W^\circ$。设$V'$是$G$中$V$的补集。我们知道$F = G^*$可以与$V^* \oplus {V'}^*$规范地识别，${V'}^*$可以与$V^\circ = W$识别（A，II, § 2.6，对应第10条）；进一步（II，p. 50，道具8）拓扑$\sigma(G^*, G)$可以与拓扑$\sigma(V^*, V)$和$\sigma({V'}^*, V')$中的乘积识别；这就证明了断言(ii)。
 
-虽然，对于拓扑 $\sigma(G, G^*)$，$G$的每一个向量子空间都是闭合的，我们注如果$G$是无限的维数那么拓扑$\sigma(G, G^*)$不是$G$上最好的局部凸拓扑，对于无限维数的$\sigma(G, G^*)$包含向量子空间，每个邻域为0：然而，它是$G$上最好的“弱”拓扑（II，p. 43，cor.3）。
+虽然，对于拓扑 $\sigma(G, G^*)$，$G$的每一个向量子空间都是闭合的，我们注如果$G$是无限的维数那么拓扑$\sigma(G, G^*)$不是$G$上最好的局部凸拓扑，对于无限维数的$\sigma(G, G^*)$包含向量子空间，每邻域为0：然而，它是$G$上最好的“弱”拓扑（II，p. 43，cor.3）。
 
-### 8.弱空间中的完全凸锥
+### 8. 弱空间的完全凸锥
 
 #### 引理 1 {#evt-ii-s6-lem-1 .statement tag=07I1}
 
-*令$E$为豪斯多夫弱空间，$C$为$E$中顶点为0的真圆锥，对于由$E$诱导的均匀结构来说是完整的。 $E$ 中的每个连续线性形式是 $E$ 中两个连续线性形式之间的差，且$C$ 中为正数。*
+*令$E$为Hausdorff弱空间，$C$为$E$中顶点为0的真圆锥，这对于由$E$诱导的一致结构来说是完整的。 $E$ 中的每个连续线性形式是 $E$ 中两个连续线性形式之间的差，且$C$ 中为正数。*
 
 令 $E'$ 为 $E$ 的对偶，$F$ 为 $E'$ 的代数对偶，其中拓扑 $\sigma(F, E')$。令$H = C^\circ - C^\circ$为$E'$的向量子空间，由线性形式的差形成，线性形式在$E$中连续且在$C$中为正（II，p. 44，道具4）。只要证明$F$中与$H$正交的是$\{0\}$（II，p. 41，*例* 1）即可。然后令$a \in F$与$H$正交；由于 $a$ 与 $C^\circ$ 正交，因此它必须属于于 $F$ 中 $C$ 的双极性。但是$E$可以识别为$F$的子空间，并且由于$C$是完整的，因此在$F$中闭合，我们有$a \in C$（II，p. 44，第1）。类似地，$a$ 与$-C^\circ$ 正交，因此$a \in -C$。由于$C$是正确的，所以我们有$a = 0$。
 
@@ -492,11 +492,11 @@ b) 我们有 $u(C) \subset \mathbf{R}_+^I$。
 
 此外，如果由 E 在 C 上导出的一致结构是可度量的，那么我们可以取 $I = \mathbf{N}$。
 
-令$(f_i)_{i \in I}$为E中的连续线性形式族，使得形式$(x, y) \mapsto |f_i(x - y)|$在$C \times C$定义上的伪度量的有限和是C的一致结构。 （如果结构可度量，我们可以取$I = \mathbf{N}$。）到引理1，我们可以进一步假设每个$f_i$在C中都是正数。令u为$\mathbf{R}^I$中E的线性映射$x \mapsto (f_i(x))_{i \in I}$。显然 u 是连续的并且 $u(C) \subset \mathbf{R}_+^I$。 限制 $u|C$ 是一致连续的映射，它是从 C 到 $u(C)$ 的满射。此外，如果C中的$x, y$对于所有$i \in I$来说是$f_i(x) = f_i(y)$，则$x = y$，因为C的均匀结构是Hausdorff；因此 $u|C$ 是双射的。最后，如果 W 是 C 的均匀结构的周围，则存在I和数$\varepsilon > 0$的有限集合 J，使得$i \in J$的关系$|f_i(x) - f_i(y)| \leq \varepsilon$意味着$(x, y) \in W$；因此，对于所考虑的制服结构，$u|C$ 是 $u(C)$ 上的 C 的同构。
+令$(f_i)_{i \in I}$为E中的连续线性形式族，使得$C \times C$定义上的形式$(x, y) \mapsto |f_i(x - y)|$伪度量的有限和为C的一致结构。 （如果结构可度量，我们可以取$I = \mathbf{N}$。）到引理1，我们可以进一步假设每个$f_i$在C中都是正数。令u为$\mathbf{R}^I$中E的线性映射$x \mapsto (f_i(x))_{i \in I}$。显然 u 是连续的并且 $u(C) \subset \mathbf{R}_+^I$。 限制 $u|C$ 是一致连续的映射，它是从 C 到 $u(C)$ 的满射。此外，如果C中的$x, y$使得对于所有$i \in I$来说$f_i(x) = f_i(y)$，则$x = y$，因为C的均匀结构是Hausdorff；因此 $u|C$ 是双射的。最后，如果 W 是 C 的均匀结构的周围，则存在I和数$\varepsilon > 0$的有限集合 J，使得$i \in J$的关系$|f_i(x) - f_i(y)| \leq \varepsilon$意味着$(x, y) \in W$；因此，对于所考虑的制服结构，$u|C$ 是 $u(C)$ 上的 C 的同构。
 
 #### 推论 1 {#evt-ii-s6-prop-11-cor-1 .statement tag=07I3}
 
-— 令 E 为 Hausdorff 弱空间和 C E 中顶点 0 的真凸锥，对于 E 的一致结构是完全的。则 C 中$C \times C$ 的映射 $(x, y) \mapsto x + y$ 是正确的。
+— 令 E 为 Hausdorff 弱空间和 C E 中顶点 0 的真凸锥，对于 E 的一致结构是完全的。则 C 中 $C \times C$ 的映射 $(x, y) \mapsto x + y$ 是正确的。
 
 因为道具。 11，我们可以假设$E = \mathbf{R}^I$和$C = \mathbf{R}_+^I$（GT，I, § 10.1，cor.1和4）。但是C中$C \times C$的映射$(x, y) \mapsto x + y$写成$((\xi_i), (\eta_i)) \mapsto (\xi_i + \eta_i)$，我们可以将自己限制为证明，$\mathbf{R}_+$中$\mathbf{R}_+ \times \mathbf{R}_+$的连续映射$f : (\xi, \eta) \mapsto \xi + \eta$是正确的（GT，I, § 10.1，cor.3），现在，对于所有$\zeta \in \mathbf{R}_+$，我们看到$f(\zeta)$是对$(\xi, \zeta - \xi)$的集合，使得$0 \leq \xi \leq \zeta$，因此逆像除以区间$[0, \zeta]$的f是$(\xi, \eta) \in \mathbf{R}_+ \times \mathbf{R}_+$的集合使得$\xi + \eta \leq \zeta$，这是紧致的。结论如下应用（GT，I, § 10.3，第7条）。
 
@@ -506,7 +506,7 @@ b) 我们有 $u(C) \subset \mathbf{R}_+^I$。
 
 (i) 对于 E 的每个点 a，交 $C \cap (a - C)$ 是紧致的。
 
-(ii) 令 A、B 为C 中的两个闭集合。那么$A + B$就是C中的闭集合。
+(ii) 令 A、B 为 C 中的两个闭集合。那么$A + B$就是C中的闭集合。
 
 (i) $(x, y) \in C \times C$ 的集合使得 $x + y = a$ 是紧凑的。 1 和来自 GT，I, § 10.2，th。 1、b）。现在这个集合也是$(x, a - x)$对于$x \in C \cap (a - C)$的集合，这就证明了(i)。
 
@@ -514,4 +514,4 @@ b) 我们有 $u(C) \subset \mathbf{R}_+^I$。
 
 ### 习题{#evt-ii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

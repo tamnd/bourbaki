@@ -25,23 +25,23 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 51c182cceb9ed4f9124642acb584a2f65ddbf829227a21c0f6d3c5e7f6fd29bc
+content_sha256: 17bc53287dc0b61a35613bf36a1db2956a3d4e17c3cdc557a491927b5fd7e636
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 translation_method: google
 source_content_sha256: 77d86192dc78c3caea75d568c8ef5d05992c7bdcaed4b1daac8f963f1400d1ea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e54d95e44fe8ecf65d66d4b1cefc8ff870429b8f3983de8af42ce274cead37dd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 3。应用和例
+## § 3。应用程序和例
 
-### 1. 群线性映射紧凑
+### 1. 紧凑群线性映射
 
-令 $E$ 为有限维向量空间超过 $\mathbf{R}, \mathbf{C}$ 或 $\mathbf{H}$。那么$\mathrm{End}(E)$是$\mathbf{R}$上的有限维代数，$\mathrm{End}(E)$（§ 1, No. 10）上的规范拓扑是紧致收敛的拓扑。 群$\mathrm{Aut}(E) = \mathbf{GL}(E)$是$\mathrm{End}(E)$的开子集，因此是局部紧的群。令$(e_1, e_2, \ldots, e_n)$为$E$的基，并且对于$E$的每个自同态$u$，令$M(u) = (\alpha_{ij}(u))$相对于此基为$u$的矩阵；说$\mathrm{End}(E)$的子集$S$在$\mathrm{End}(E)$中相对紧凑，相当于说，函数$\alpha_{ij}(u)$有界于$S$。
+令 $E$ 为有限维向量空间超过 $\mathbf{R}, \mathbf{C}$ 或 $\mathbf{H}$。那么$\mathrm{End}(E)$是$\mathbf{R}$上的有限维代数，$\mathrm{End}(E)$（§ 1, No. 10）上的规范拓扑是紧致收敛的拓扑。 群$\mathrm{Aut}(E) = \mathbf{GL}(E)$是$\mathrm{End}(E)$的开子集，因此是局部紧的群。令$(e_1, e_2, \ldots, e_n)$为$E$的基，并且对于$E$的每个自同态$u$，令$M(u) = (\alpha_{ij}(u))$相对于此基为$u$的矩阵；说$\mathrm{End}(E)$的子集$S$在$\mathrm{End}(E)$中相对紧凑，相当于函数$\alpha_{ij}(u)$在$S$有界的说。
 
 #### 命题 1 {#int-vii-s3-prop-1 .statement tag=09GS}
 
@@ -55,9 +55,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (i) $\Rightarrow$ (ii)：这源自 GT，X, § 3, No. 5，Cor。的 Th。 4、考虑到$\mathrm{End}(E)$的拓扑是紧收敛的。
 
-(ii) $\Rightarrow$ (iii)：假设$\mathrm{Aut}(E)$中$G$的闭包$\overline{G}$是紧的。令 $\Phi$ 为 $E$ 上的非简并正厄米特形式。如果标量的域是$\mathbf{R}$或$\mathbf{C}$，则给出$\Phi$使$E$成为有限维希尔伯特空间，并且条件(iii)将由以下引理产生：
+(ii) $\Rightarrow$ (iii)：假设$\mathrm{Aut}(E)$中$G$的闭包$\overline{G}$是紧的。令 $\Phi$ 为 $E$ 上的非简并正厄米特形式。如果标量的域是$\mathbf{R}$或$\mathbf{C}$，则给出$\Phi$使得$E$成为有限维希尔伯特空间，并且条件(iii)将由以下引理产生：
 
-$^1$ 非退化；在 EVT 中，项被 séparante 取代，随后被翻译为“分离”（TVS，V, § 1, No. 1）。
+$^1$ 非退化；在 EVT 中，项被 séparante 取代，随后翻译为“分离”（TVS，V, § 1, No. 1）。
 
 #### 引理 1 {#int-vii-s3-lem-1 .statement tag=09GT}
 
@@ -87,7 +87,7 @@ $$
 M^{-2}\alpha(K)\|x\|^2 \leq \varphi(x, x) \leq M^2\alpha(K)\|x\|^2,
 $$
 
-这表明$\varphi$是正的且非简并的，并且范数$\varphi(x, x)^{1/2}$相当于范数$\|x\|$。最后，对于所有$t \in K$，
+这表明$\varphi$是正的且非简并的，并且范数$\varphi(x, x)^{1/2}$等价于范数$\|x\|$。最后，对于所有$t \in K$，
 
 $$
 \begin{align*}
@@ -96,11 +96,11 @@ $$
 \end{align*}
 $$
 
-当标量的域为 $\mathbf{H}$ 时，人们认为在函数 $s \mapsto (U(s)x|U(s)y)$ 处的替换上的之前与 G 上定义的函数 $s \mapsto \Phi(sx, sy)$ 完全相同，值在 $\mathbf{H}$ 中。这样就完成了命题的证明。
+当标量的域为 $\mathbf{H}$ 时，人们认为在函数 $s \mapsto (U(s)x|U(s)y)$ 处由函数 $s \mapsto \Phi(sx, sy)$ 在 G 上定义，与替换上的之前完全相同，值在 $\mathbf{H}$ 中。这样就完成了命题的证明。
 
 #### 注 {#int-vii-s3-n1-rem-1 .statement tag=09GU}
 
-令$\Phi$为E上的非简并正厄米特形式。酉群$\mathbf{U}(\Phi)$在$\mathrm{Aut}(E)$中闭，因此是紧的（命题1）。命题1还表明，$\mathrm{Aut}(E)$的每个紧凑子群都包含在形式$\mathbf{U}(\Phi)$的子群中。如果现在 $\mathbf{U}(\Phi)$ 包含在 $\mathrm{Aut}(E)$ 的紧致子群 K 中，则可以看出 E 上存在非简并正厄米特形式 $\Phi'$，使得 $\mathbf{U}(\Phi) \subset K \subset \mathbf{U}(\Phi')$，并且很容易遵循
+令$\Phi$为E上的非简并正厄米特形式。酉群$\mathbf{U}(\Phi)$在$\mathrm{Aut}(E)$中闭，因此是紧的（命题1）。命题1还表明，$\mathrm{Aut}(E)$的每个紧致子群都包含在形式$\mathbf{U}(\Phi)$的子群中。如果现在 $\mathbf{U}(\Phi)$ 包含在 $\mathrm{Aut}(E)$ 的紧致子群 K 中，则可以看出 E 上存在非简并正厄米特形式 $\Phi'$，使得 $\mathbf{U}(\Phi) \subset K \subset \mathbf{U}(\Phi')$，并且很容易遵循
 
 （例1）$\Phi$和$\Phi'$成比例，从而$\mathbf{U}(\Phi) = K$。因此，$\mathrm{Aut}(E)$的最大紧凑子群是形式$\mathbf{U}(\Phi)$的子群。
 
@@ -108,19 +108,19 @@ $$
 
 #### 命题 2 {#int-vii-s3-prop-2 .statement tag=09GV}
 
-*设 X 为局部紧致空间，其中局部紧致群 H 在 $(x, \xi) \mapsto x\xi$ 处连续正确地作用于右侧。假设 X/H 是仿紧的。令g为H在$\mathbf{R}^n$中的连续表示。那么在 $\mathbf{R}^n$ 中存在一个连续的 X f 映射 f，使得对于所有 $x \in X$ 和 $\xi \in H$ 都有 $f(x\xi) = f(x) + g(\xi)$。*
+*设 X 为局部紧致空间，其中局部紧致群 H 通过 $(x, \xi) \mapsto x\xi$ 连续正确地作用于右侧。假设 X/H 是仿紧的。令g为H在$\mathbf{R}^n$中的连续表示。那么在 $\mathbf{R}^n$ 中存在一个连续的 X f 映射 f，使得对于所有 $x \in X$ 和 $\xi \in H$ 都有 $f(x\xi) = f(x) + g(\xi)$。*
 
-一个约化立即到$n = 1$的情况。由于加法群$\mathbf{R}$与乘法群$\mathbf{R}_+^*$同构的，命题则为§2, No. 4第7条命题的直接的推论。
+一个约化立即对应到 $n = 1$ 的情况。由于加法群$\mathbf{R}$与乘法群$\mathbf{R}_+^*$同构的，命题则为§2, No. 4第7条命题的直接的推论。
 
 #### 推论{#int-vii-s3-n2-cor-1 .statement tag=09GW}
 
-*设X为局部紧致空间，其中有限维实数向量空间V在右侧连续正确地运算$(x, v) \mapsto xv$。设$\pi$是X的典范映射到$B = X/V$。假设 B 是仿紧的。*
+*设 X 为局部紧致空间，其中有限维实数向量空间 V 在右侧连续正确地按 $(x, v) \mapsto xv$ 运算。设$\pi$是X的典范映射到$B = X/V$。假设 B 是仿紧的。*
 
-a) *存在X到V的连续映射 f，使得$f(xv) = f(x) + v$对于所有$x \in X$和$v \in V$。*
+a) *存在X到V的连续映射 f，使得对于所有$x \in X$和$v \in V$都有$f(xv) = f(x) + v$。*
 
 b) *如果 f 是 a) 的映射满足条件，则映射 $x \mapsto (\pi(x), f(x))$ 是 X 到 $B \times V$ 的同胚。*
 
-断言 a) 由命题2得出，其中g取为V的恒等映射。令 f 为 a) 的映射满足条件。 X到X的映射$x \mapsto x \cdot (-f(x))$是连续的，并且在每个轨道上是恒定的，因此是形式$\varphi \circ \pi$，其中$\varphi$是B到X的连续映射；对于每个$b \in B$，$\pi(\varphi(b)) = b$。 X的映射$x \mapsto (\pi(x), f(x))$入$B \times V$和$B \times V$入X的$(b, v) \mapsto \varphi(b) \cdot v$彼此相反，因为$\varphi(\pi(x)) \cdot f(x) = x \cdot (-f(x)) \cdot (f(x)) = x$，$\pi(\varphi(b) \cdot v) = \pi(\varphi(b)) = b$，并且，如果$b = \pi(y)$，则
+断言 a) 由命题2得出，其中g被取为V的恒等映射。令 f 为 a) 的映射满足条件。 X到X的映射$x \mapsto x \cdot (-f(x))$是连续的，并且在每个轨道上是恒定的，因此是形式$\varphi \circ \pi$，其中$\varphi$是B到X的连续映射；对于每个$b \in B$，$\pi(\varphi(b)) = b$。 X的映射$x \mapsto (\pi(x), f(x))$进入$B \times V$和$B \times V$的$(b, v) \mapsto \varphi(b) \cdot v$进入X是互逆的，因为$\varphi(\pi(x)) \cdot f(x) = x \cdot (-f(x)) \cdot (f(x)) = x$，$\pi(\varphi(b) \cdot v) = \pi(\varphi(b)) = b$，并且，如果$b = \pi(y)$，则
 
 $$
 f(\varphi(\pi(y)) \cdot v) = f(y \cdot (-f(y)) \cdot v) = f(y) - f(y) + v = v .
@@ -245,27 +245,27 @@ $$
 gh_1 = h_g l_g h_1 = h_g(l_g h_1 l_g^{-1})l_g,
 $$
 
-因此$h_g h_1 = h_g + l_g h_1 l_g^{-1}$。对于每个 $g \in G$，令 $\psi_g$ 为 H 的映射定义为
+因而$h_g h_1 = h_g + l_g h_1 l_g^{-1}$。对于每个 $g \in G$，令 $\psi_g$ 为 H 的映射定义为
 
 $$
 \psi_g(h_1) = h_g + l_g h_1 l_g^{-1}.
 $$
 
-可以看出，$G \times H$到H中的映射$(g, h_1) \mapsto \psi_g(h_1)$是连续的，并且使H成为G的齐次空间，其中原点的稳定子是L。此外，我们观察到，当 H 等同于 $\mathbf{R}^n$ 时，$\psi_g$ 是 H 自身的“仿射”映射。也就是说，设 M 是 G 的紧子群；到引理 2，存在$x \in H$，使得$\psi_m(x) = x$代表*所有* $m \in M$。对于$y \in H$，$\psi_y$是与向量$y$的翻译；由此可见，对于每一个 $m \in M$，$\psi_{x^{-1}} \circ \psi_m \circ \psi_x$ 变换 H 的原点都是自身，因此$x^{-1}mx \in L$。这就证明了$x^{-1}Mx \subset L$，从而b)。
+可以看出，$G \times H$到H中的映射$(g, h_1) \mapsto \psi_g(h_1)$是连续的，并且使H成为G的齐次空间，其中原点的稳定子是L。此外，我们观察到，当 H 等同于 $\mathbf{R}^n$ 时，$\psi_g$ 是 H 自身的“仿射”映射。也就是说，设 M 是 G 的紧子群；到引理 2，存在$x \in H$，使得$\psi_m(x) = x$代表*所有* $m \in M$。对于$y \in H$，$\psi_y$是与向量$y$的翻译；由此可见，对于每一个 $m \in M$，$\psi_{x^{-1}} \circ \psi_m \circ \psi_x$ 变换 H 的原点都是自身，因而$x^{-1}mx \in L$。这就证明了$x^{-1}Mx \subset L$，从而b)。
 
-令 $L'$ 为 G 包含 L 的闭子群。那么$L'$就是L和$L' \cap H$的拓扑半直接乘积。如果 $L'$ 是紧致的，则 $L' \cap H$ 是紧致的，因此约化到点（GT，IV, §2, No. 2，Th. 2 的 Cor. 1），因此 $L' = L$。这证明L是G的最大紧致子群；因此，子群也是如此，即L的变换乘以G的内自同构。第3条命题的断言c)和d)则为b)的直接的推论。
+令 $L'$ 为 G 包含于 L 的闭子群。那么$L'$就是L和$L' \cap H$的拓扑半直接乘积。如果 $L'$ 是紧致的，则 $L' \cap H$ 是紧致的，因此约化到点（GT，IV, §2, No. 2，Th. 2 的 Cor. 1），因而 $L' = L$。这证明L是G的最大紧致子群；因而，子群也是如此，即L的变换乘以G的内自同构。第3条命题的断言c)和d)则为b)的直接的推论。
 
 #### 命题 4 {#int-vii-s3-prop-4 .statement tag=09H0}
 
 *令 G 为局部紧致群，H 为 G 的闭法线子群，使得 K = G/H 是紧致的。然后$\mathbf{R}$中H的每个连续表示u，使得对于所有$\xi \in H$和$s \in G$的$u(s\xi s^{-1}) = u(\xi)$，可以扩展到$\mathbf{R}$中G的连续表示。*
 
-设 $L = G \times \mathbf{R}$ 并令 M 为 $(\xi, -u(\xi))$ 的集合，其中 $\xi$ 越过 H。很明显，M 是 L 的闭法线子群。令 $L' = L/M$ 且令 $\pi$ 为 L 的典范映射到$L'$。 M 和 R 生成 L 的子群是 H × R，因此是闭集；因此 π(R) 是 L' 的闭子群 N。 π 到 R 的限制 ρ 是 R 到 N 上的双射连续表示。附录 1 的引理 2 证明 ρ 是双连续的。此外，L'/N 与 L/(H × R) = G/H 同构的，因此是紧的。根据命题3，并考虑到N在L'的中心中，L'是N的乘积和另一个子群。因此，N 上存在L' 的连续表示，N 到恒等映射上存在约化。因此，在 R 上存在 L 的连续表示 v，在 M 上是微不足道的，并且在 R 上存在约化到恒等映射。对于 ψ ∈ H，有 v((ψ, 0)) = v((ψ, −u(ψ))(e, u(ψ))) = u(ψ)，从而完成证明。
+设 $L = G \times \mathbf{R}$ 并令 M 为 $(\xi, -u(\xi))$ 的集合，其中 $\xi$ 越过 H。很明显，M 是 L 的闭法线子群。令 $L' = L/M$ 且令 $\pi$ 为 L 的典范映射到$L'$。 M 和 R 生成 L 的子群是 H × R，因此是闭集；因而 π(R) 是 L' 的闭子群 N。 π 到 R 的限制 ρ 是 R 到 N 上的双射连续表示。附录 1 的引理 2 证明 ρ 是双连续的。此外，L'/N 与 L/(H × R) = G/H 同构的，因此是紧的。根据命题3，并考虑到N在L'的中心中，L'是N的乘积和另一个子群。因而，N 上存在L' 的连续表示，N 到恒等映射上存在约化。因而，在 R 上存在 L 的连续表示 v，在 M 上是微不足道的，并且在 R 上存在约化到恒等映射。对于 ψ ∈ H，有 v((ψ, 0)) = v((ψ, −u(ψ))(e, u(ψ))) = u(ψ)，从而完成证明。
 
 #### 引理 3 {#int-vii-s3-lem-3 .statement tag=09H1}
 
 设 G 是由 e 的紧邻域生成的拓扑群。令 H 为 G 的闭子群，使得齐次空间 G/H 是紧的。然后 H 由 H 中 e 的紧邻域生成。
 
-令C为紧集，使得G = CH。如有必要，放大 C，我们可以假设 C 生成 G 并且 G = ĈH。那么 C^2 是紧致的，并且被开路的 Ĉs (s ∈ H) 覆盖。因此，H 中存在 s_1, ..., s_n 使得 C^2 ⊂ Ĉs_1 ∪ ... ∪ Ĉs_n。令 Γ 为 s_i 生成的 H 的子群。然后C^2⊂CΓ。根据归纳，对于每个 n 都有C^n ⊂ CΓ，因此 G = CΓ。 H 的每个元素都可以放入形式 ab 中，其中 a ε C、b ε Γ、从而 a ε H、从而 a ε C ∩ H。 因此 H 由 C ∩ H 和 s_i 生成，即到紧集。
+令C为紧集，使得G = CH。如有必要，放大 C，我们可以假设 C 生成 G 并且 G = ĈH。那么 C^2 是紧致的，并且被开路的 Ĉs (s ∈ H) 覆盖。因而，H 中存在 s_1, ..., s_n 使得 C^2 ⊂ Ĉs_1 ∪ ... ∪ Ĉs_n。令 Γ 为 s_i 生成的 H 的子群。然后C^2⊂CΓ。根据归纳，对于每个 n 都有C^n ⊂ CΓ，因而 G = CΓ。 H 的每个元素都可以放入形式 ab 中，其中 a ε C、b ε Γ、从而 a ε H、从而 a ε C ∩ H。 因而 H 由 C ∩ H 和 s_i 生成，即到紧集。
 
 #### 引理 4 {#int-vii-s3-lem-4 .statement tag=09H2}
 
@@ -279,7 +279,7 @@ $$
 
 群 G 与 K 局部同构（GT，III, §2, No. 6，命题 19），因此是局部紧的；因为它是连通的，所以它是由 e 的紧邻域生成的。通过引理 3 和 4，D 是有限生成的阿贝尔的群，因此与群 $\mathbf{Z}^r \times D_1$ 同构的，其中 D_1 有限（A，VII, §4, No. 7，Th.3）。假设 r > 0。则在 $\mathbf{Z}$ 上存在 D 的表示 f。根据命题 4，f 可以扩展到 R 中 G 的连续表示 g。通过商，g 定义 $\mathbf{R}/\mathbf{Z}$ 中$K$ 的连续表示 $g'$；由于$\mathbf{R}/\mathbf{Z}$是阿贝尔的，$g'$包含换位子子群的核是$K$，因而$g'$是平凡的；其他字、$g(G) \subset \mathbf{Z}$。由于$G$是连通的，因此得出$g(G) = \{0\}$，从$f(D) = \mathbf{Z}$开始这是荒谬的。因而 $r = 0$ 和 $D$ 是有限的。因而 $G$ 是紧致的（GT，III, §4, No. 1，Prop.2 的 Cor.2）。
 
-### 3.例
+### 3. Examples
 
 在这个小节（例 7和8除外）中，$K$表示非离散局部紧致交换域； $dx$表示$K$的加法群的Haar测度。
 
@@ -787,7 +787,7 @@ $$
 | \det \widetilde{X} | = | N(X) |^\lambda ,
 $$
 
-其中 N 表示 $M_n(K)$ 中的范数 *被视为* $\mathbf{R}\text{-algebra}$，并且其中 $\lambda = 1 - \frac{\delta - 2}{\delta n}$。只要验证 (15) $X$ 运行超过系统
+其中 N 表示 $M_n(K)$ 中的范数 *被视为* $\mathbf{R}\text{-algebra}$，并且其中 $\lambda = 1 - \frac{\delta - 2}{\delta n}$。足以验证 (15) $X$ 运行超过系统
 
 (1) 参见。 TVS，V, §2, No. 4，科。 1 Th。 2.
 
@@ -813,7 +813,7 @@ c) $X$ 是形式映射矩阵
 $$
 (x_1, \ldots, x_n) \mapsto (x_1 + bx_2, x_2, \ldots, x_n).
 $$
-然后$\widetilde{X}((h_{ij})) = (h'_{ij})$与$h'_{11} = h_{11}$、$h'_{12} = h_{12} + h_{11} b$、$h'_{1i} = h_{1i}$对应$i > 2$，$h'_{22} = h_{22} + \overline{b} h_{12} + \overline{h}_{12} b + \overline{b} h_{11} b$、$h'_{2i} = h_{2i} + \overline{b} h_{1i}$对应$i > 2$，$h'_{ij} = h_{ij}$对应$i > 2, j > 2$。考虑到引理 6，可以看到 $|\det \widetilde{X}| = 1$。我们可以类似地验证 $|N(X)| = 1$，它完成公式的证明 (15)。
+然后$\widetilde{X}((h_{ij})) = (h'_{ij})$与$h'_{11} = h_{11}$、$h'_{12} = h_{12} + h_{11} b$、$h'_{1i} = h_{1i}$对应$i > 2$，$h'_{22} = h_{22} + \overline{b} h_{12} + \overline{h}_{12} b + \overline{b} h_{11} b$、$h'_{2i} = h_{2i} + \overline{b} h_{1i}$对应$i > 2$，$h'_{ij} = h_{ij}$对应$i > 2, j > 2$。考虑到引理 6，可以看出$|\det \widetilde{X}| = 1$。我们可以类似地验证 $|N(X)| = 1$，它完成公式的证明 (15)。
 
 由此成立，$\mathfrak{H}$上的测度$|N(H)|^{-\lambda/2} d\mu(H)$在$\mathbf{GL}(n, K)$下是不变的，因为
 $$
@@ -835,4 +835,4 @@ $$
 
 ### 习题{#int-vii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

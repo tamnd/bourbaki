@@ -33,49 +33,49 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: 57f3d5b9034c62f6f0f273360d42a26e3a3674b021a171a0b93b5192e6f6d8bb
+content_sha256: 87a1659c4f901d140996c8b922cb76e15c13c7da966119cdcfd7f4fa6e39a845
 translated_from: content/en/lie/II/05_s5_magnus_algebras.md
 translation_method: google
 source_content_sha256: 6bac6bb784fbb4b199b3afb36bd212ba5f589bd833743b3d4385ed3b9a405428
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 929605b8d0a8ea5545f1ebcc3df287eb9e44d603e2c35a7e3116652748540b28
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。马格努斯代数
 
-在本段中，X表示集合，F(X)在X(代数，章I, § 7, no. 5)上构建的自由结合群，A(X)在代数上构建的自由结合律代数 X，总毕业$(A^n(X))_{n \geq 0}$（cf.代数、章III, § 3, no. 1、例 3）。 X 在 F(X) 和 A(X) 中与它的像一起识别。
+In this paragraph, X denotes a set, F(X) the free group constructed on X (Algebra, Chapter I, § 7, no. 5) and A(X) the free associative algebra constructed on X with its total graduation $(A^n(X))_{n \geq 0}$ (cf. Algebra, Chapter III, § 3, no. 1, Example 3). X 在 F(X) 和 A(X) 中用其像来标识。
 
-### 1.马格努斯代数
+### 1. 马格努斯代数
 
-令$\hat{A}(X)$为乘积模$\prod_{n \geq 0} A^n(X)$。我们按照规则$\hat{A}(X)$乘法定义
+设$\hat{A}(X)$为乘积模$\prod_{n \geq 0} A^n(X)$。我们按照规则定义在$\hat{A}(X)$乘法
 
 $$
 (a \cdot b)_n = \sum_{i=0}^n a_i \cdot b_{n-i}
 $$
 
-其中$a = (a_n)$和$b = (b_n)$在$\hat{A}(X)$中。我们知道 (交换代数, 章 III, § 2, no. 12, 例 1) $\hat{A}(X)$ 是结合词代数并且 $A(X)$ 与 $\hat{A}(X)$ 由……组成的子代数等同序列除了有限的数之外，所有项都是零。
+其中$a = (a_n)$和$b = (b_n)$在$\hat{A}(X)$中。我们知道（交换代数，章III, § 2, no. 12，例1），$\hat{A}(X)$是结合律代数，并且$A(X)$与$\hat{A}(X)$由……组成的子代数等同，序列的所有除了有限的数之外，项都是零。
 
 $\hat{A}(X)$ 给出因子上离散拓扑的乘积拓扑
 
-A^n(X);当环 K 具有离散的拓扑，且$A(X)$在$\hat{A}(X)$中稠密时，拓扑使$\hat{A}(X)$成为完整的Hausdorff拓扑代数
+A^n(X);这拓扑使$\hat{A}(X)$成为完整的Hausdorff拓扑代数，当环 K具有离散的拓扑，并且$A(X)$在$\hat{A}(X)$中是稠密的
 
-让$a = (a_n) \in \hat{A}(X)$；族$(a_n)_{n \geq 0}$是可求和的，$a = \sum_{n \geq 0} a_n$。
+设 $a = (a_n) \in \hat{A}(X)$；族$(a_n)_{n \geq 0}$是可求和的并且$a = \sum_{n \geq 0} a_n$。
 
-对于每个整数$m \geq 0$，让$\hat{A}_m(X)$表示级数$a = \sum_{n \geq m} a_n$的理想由……组成，这样$a_n \in A^n(X)$对于所有$n \geq m$。这个理想的序列是$\hat{A}(X)$中0的邻域的基本系统以及对$\hat{A}(X)$的积分过滤。与上述过滤相关的阶函数用$\omega$表示；那么$\omega(0) = +\infty$和$\omega(a) = m$如果$a = \sum_{n \geq m} a_n$和$a_n \in A^n(X)$对于所有$n \geq m$和$a_m \neq 0$（§ 4，编号1和2）。
+对于每个整数$m \geq 0$，令$\hat{A}_m(X)$表示级数$a = \sum_{n \geq m} a_n$的理想由……组成，使得$a_n \in A^n(X)$适用于所有$n \geq m$。这个理想的序列是$\hat{A}(X)$中0的邻域的基本系统以及$\hat{A}(X)$上的积分过滤。与上述过滤相关的阶函数用$\omega$表示；那么$\omega(0) = +\infty$和$\omega(a) = m$如果$a = \sum_{n \geq m} a_n$和$a_n \in A^n(X)$对于所有$n \geq m$和$a_m \neq 0$（§ 4，编号1和2）。
 
-$\hat{A}(X)$ 被称为集合 X 的 *Magnus 代数*，其系数为 K。如果 K 中有任何歧义，我们写为 $\hat{A}_K(X)$。
+$\hat{A}(X)$ 被称为集合 X 的 *Magnus 代数*，系数为 K。如果 K 中有任何歧义，我们写为 $\hat{A}_K(X)$。
 
 #### 命题 1 {#lie-ii-s5-prop-1 .statement tag=0A5B}
 
-*设 B 是单位结合词代数 ，具有实数过滤 $(B_\alpha)_{\alpha \in \mathbf{R}}$，使得 B 是 Hausdorff 且完全的（§ 4，第 1 和第 2 项）。令f为B中X的映射，使得存在$\lambda > 0$，其中$f(X) \subset B_\lambda$。那么 f 可以用一种且仅一种方式扩展到 B 中的连续单位同态 $\hat{f}$ $\hat{A}(X)$。*
+*设 B 是单位结合词代数 ，具有实数过滤 $(B_\alpha)_{\alpha \in \mathbf{R}}$ ，使得 B 是 Hausdorff 且完全的（§ 4，第 1 和第 2 项）。令 f 为 B 中 X 的映射，使得存在 $\lambda > 0$ 且 $f(X) \subset B_\lambda$。那么 f 可以用一种且仅一种方式扩展到 B 中的 $\hat{A}(X)$ 的连续单位同态 $\hat{f}$。*
 
 令 $f'$ 为 $A(X)$ 到 B 的唯一单位代数同态延伸$f$ (*代数*, 章 III, § 2, no. 7, 命题 7)。我们证明$f'$是*连续的*：$f'(A^n(X)) \subset B_{n\lambda}$从而$f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$。因此$f'$可以通过连续性以一种且仅一种方式扩展到同态$\hat{f} : \hat{A}(X) \to B$。
 
-我们保留命题 1 的假设和记号，并令$u \in \hat{A}(X)$。 元素 $\hat{f}(u)$记为$u((f(x))_{x \in X})$，称为*用f(x)代替u*中的x的结果。特别是$u((x)_{x \in X}) = u$。现在让$u = (u_y)_{y \in Y}$成为$\hat{A}_1(X)$的元素的家族，并让$v \in \hat{A}(Y)$。以上允许我们定义元素$v((u_y)_{y \in Y}) \in \hat{A}(X)$。用$v \circ u$表示。由于$u_y((f(x))) \in B_\lambda$，元素$u_y((f(x)))$可以代替v中的y。映射$v \mapsto (v \circ u)((f(x)))$和$v \mapsto v((u_y((f(x))))))$则$\hat{A}(X)$的单位代数的两个连续同态进入B取相同的值 $u_y((f(x)))$ 元素 $y \in Y$。因此 (命题 1)
+我们保留命题 1 的假设和记号并令 $u \in \hat{A}(X)$。 元素$\hat{f}(u)$记为$u((f(x))_{x \in X})$，称为*用f(x)代替u*中的x的结果。特别是$u((x)_{x \in X}) = u$。现在让$u = (u_y)_{y \in Y}$成为$\hat{A}_1(X)$的元素的家族，并让$v \in \hat{A}(Y)$。以上允许我们定义元素$v((u_y)_{y \in Y}) \in \hat{A}(X)$。用$v \circ u$表示。由于$u_y((f(x))) \in B_\lambda$，元素$u_y((f(x)))$可以代替v中的y。映射$v \mapsto (v \circ u)((f(x)))$和$v \mapsto v((u_y((f(x))))))$则$\hat{A}(X)$的单位代数的两个连续同态进入B取相同的值 $u_y((f(x)))$ 元素 $y \in Y$。因此 (命题 1)
 
 $$
 (v \circ u)((f(x))) = v((u_y((f(x))))))
@@ -83,13 +83,13 @@ $$
 
 对于所有$v \in \hat{A}(Y)$。
 
-### 2.马格努斯群
+### 2. 马格努斯群
 
-对于$\hat{A}(X)$中的所有$a = (a_n)_{n \geq 0}$，K的元素$a_0$将被称为a的*常数项*并用$\varepsilon(a)$表示。 公式 (1) 表明$\varepsilon$ 是$\hat{A}(X)$ 的代数同态到 K 中。
+对于$\hat{A}(X)$中的所有$a = (a_n)_{n \geq 0}$，K的元素$a_0$将被称为a的*常数项*，并用$\varepsilon(a)$表示。 公式 (1) 表明$\varepsilon$ 是$\hat{A}(X)$ 的代数同态到 K 中。
 
 #### 引理 1 {#lie-ii-s5-lem-1 .statement tag=0A5C}
 
-*要使$\hat{A}(X)$的元素a可逆，其常数项在K中可逆是充分必要的。*
+*要使$\hat{A}(X)$的元素 a 可逆，其常数项在K中可逆是充分必要的。*
 
 如果 $a$ 在 $\hat{\mathbf{A}}(\mathbf{X})$ 中可逆，则 $\varepsilon(a)$ 在 $K$ 中可逆。相反，如果$\varepsilon(a)$在$K$中可逆，则存在$u \in \hat{\mathbf{A}}_1(\mathbf{X})$使得$a = \varepsilon(a)(1-u)$；我们写$b = \left( \sum_{n \geq 0} u^n \right) \varepsilon(a)^{-1}$。那么$ab = ba = 1$和$a$是可逆的。
 
@@ -99,7 +99,7 @@ $$
 
 #### 定理 1 {#lie-ii-s5-thm-1 .statement tag=0A5D}
 
-*让$r$是$\mathbf{X}$到$\hat{\mathbf{A}}(\mathbf{X})$的映射，这样对于所有$x \in \mathbf{X}$来说$\omega(r(x)) \geq 2$。将自由群 $F(\mathbf{X})$ 的唯一同态 $g$ 放入 Magnus 群 $\Gamma(\mathbf{X})$，使得 $g(x) = 1 + x + r(x)$ 对于所有 $x \in \mathbf{X}$ 都是单射的。*
+*让$r$是$\mathbf{X}$到$\hat{\mathbf{A}}(\mathbf{X})$的映射，这样$\omega(r(x)) \geq 2$对于所有$x \in \mathbf{X}$。将自由群 $F(\mathbf{X})$ 的唯一同态 $g$ 放入 Magnus 群 $\Gamma(\mathbf{X})$，使得 $g(x) = 1 + x + r(x)$ 对于所有 $x \in \mathbf{X}$ 都是单射的。*
 
 我们首先证明三个引理。
 
@@ -229,7 +229,7 @@ $$
 (xy)^n \equiv x^n y^n (x, y)^{n(1-n)/2} \mod. C^3.
 $$
 
-### 5. *p*-游离群的过滤
+### 5. *p*-过滤游离群
 
 在这个数中，*p* 表示素数数，我们假设 K = \mathbf{F}_p。对于X中的x，令$\gamma$为F(X)的同态进入由$\gamma(x) = 1 + x$定义的$\Gamma(X)$；我们写$F_n^{(p)}(X) = \gamma^{-1}(1 + \hat{A}_n(X))$。 序列 $(F_n^{(p)}(X))_{n \geqslant 1}$ 是 F(X) 上的积分中央过滤，它是“分离的”，因为 $\gamma$ 是单射的（no. 3，定理 1）。这称为 F(X) 上的 *p* 过滤。
 
@@ -253,4 +253,4 @@ $$
 
 在下面的习题中，我们假设§ 5的假设和记号。 $F$ 表示 $F$ 的自由群 $F(X)$ 和 $g$ 唯一同态进入 Magnus 群 $\Gamma(X)$，使得 $g(x) = 1 + x$ 对于所有 $x \in X$ (cf. 定理 1）。
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -29,21 +29,21 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: ab1872ba80b0d6ecae255e40741a5d4386a65bb9d9be56fc9ace3f91ec00a50c
+content_sha256: 9f5d39f991d7e49e888b9a24fe3502b00bf8cbe17fcd372c6070ff336ac903e1
 translated_from: content/en/top/I/04_s4_product_of_topological_spaces.md
 translation_method: google
 source_content_sha256: ca28b3bed17cb5f1025ef827c13e6c41b2a4a8dcca42f1668734a8ba2d7c3fa4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ea80a5a12475ef9d5c2637313692e0d4b1b3128c62928bf3cc94a55803f0a55e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4. 拓扑空间的乘积
+## 4. 拓扑乘积空间
 
-### 1.乘积空间
+### 1. PRODUCT SPACES
 
 #### 定义 1 {#top-i-s4-def-1 .statement tag=0B27}
 
@@ -106,41 +106,41 @@ $$
 
 #### 命题 3 {#top-i-s4-prop-3 .statement tag=0B2E}
 
-*令$X$为集合，$(Y_i)_{i \in I}$为空间的拓扑族，对于每个$i \in I$，令$f_i$为$X$到$Y_i$的映射。令$f$为$X$到$Y = \prod_{i \in I} Y_i$的映射$x \to (f_i(x))$，并令$\mathfrak{T}$为$X$上最粗糙的拓扑，其中映射$f_i$是连续的。那么$\mathfrak{T}$是逆像在$f$下，拓扑在$f(X)$上由乘积拓扑在$Y$上诱导。*
+*令$X$为集合，$(Y_i)_{i \in I}$为空间的拓扑族，对于每个$i \in I$，令$f_i$为$X$到$Y_i$的映射。令$f$为$X$到$Y = \prod_{i \in I} Y_i$的映射$x \to (f_i(x))$，并令$\mathfrak{T}$为$X$上最粗糙的拓扑，其中映射$f_i$是连续的。那么 $\mathfrak{T}$ 是逆像在拓扑的$f$ 下，$f(X)$ 由乘积拓扑在$Y$ 诱发。*
 
-这是初始拓扑传递性的另一个特例（\S\ 2、no. 3、命题 5；cf.集合理论、章IV、\S\ 2、no. 4、标准 CST 15）。
+这是初始拓扑传递性的另一个特例（\S\ 2, no. 3, 命题 5; cf. 集合理论, 章 IV, \S\ 2, no. 4, 准则 CST 15）。
 
 #### 推论{#top-i-s4-n1-cor-2 .statement tag=0B2F}
 
 *对于每个$i \in I$，令$A_i$为$Y_i$的子空间。那么乘积拓扑在$\prod_{i \in I} Y_i$上在$A = \prod_{i \in I} A_i$上诱导拓扑是子空间$A_i$拓扑的乘积。*
 
-令 $j_i$ 为典范嵌入 $A_i \to Y_i$，应用命题 3 至映射 $f_i = j_i \circ \mathrm{pr}_i$（cf. 集合理论，章 IV，\S\ 2，no. 4，标准 CST 14）。
+令$j_i$为典范嵌入$A_i \to Y_i$，应用命题3至映射$f_i = j_i \circ \mathrm{pr}_i$（cf.集合理论，章IV，\S\2，no. 4，标准 CST 14)。
 
-### 2. 开集合的截面； 截面已关闭集合； 投影开放集合。部分连续性
+### 2. 截面开集合； 截面已关闭集合；开放的投影集合。部分连续性
 
 #### 命题 4 {#top-i-s4-prop-4 .statement tag=0B2G}
 
 *设$X_1, X_2$为两个拓扑空间；那么对于每个$a_1 \in X_1$，映射$x_2 \to (a_1, x_2)$是$X_2$到$X_1 \times X_2$的子空间$\{a_1\} \times X_2$的同胚。*
 
-这是 no. 1 命题 1 的推论 1 应用于常数函数 $x_2 \to a_1$ 的特殊情况。
+这是命题 1 of no. 1 的推论 1 应用于常数函数 $x_2 \to a_1$ 的特殊情况。
 
-映射 $x_2 \to (a_1, x_2)$ 是关于 $X_1 \times X_2$ 中的等价关系 $\mathrm{pr}_2 z = \mathrm{pr}_2 z'$ 的*连续截面* (\S\ 3, no. 5)；因此等价关系的商空间 $X_1 \times X_2$ 同胚于 $X_2$。
+映射 $x_2 \to (a_1, x_2)$ 是关于 $X_1 \times X_2$ 中的等价关系 $\mathrm{pr}_2 z = \mathrm{pr}_2 z'$ 的*连续截面* (\S\ 3, no. 5)；因此，等价关系的商空间$X_1 \times X_2$同胚于$X_2$。
 
 #### 推论{#top-i-s4-n2-cor-1 .statement tag=0B2H}
 
-* 乘积 $X_1 \times X_2$ 的截面 $A(x_1)$ 开（或闭）集合 $A$ 在任意点 $x_1 \in X_1 (*)$ 在 $X_2$ 开（或闭）。*
+* 截面 $A(x_1)$ 开（或闭） 集合 $A$ 或乘积 $X_1 \times X_2$ 在任意点 $x_1 \in X_1 (*)$ 在 $X_2$ 开（或闭）。*
 
 #### 命题 5 {#top-i-s4-prop-5 .statement tag=0B2I}
 
-* 乘积 $X_1 \times X_2$ 的开集合 $U$ 的投影到任一因子上是开集合。*
+*乘积$X_1 \times X_2$的开集合$U$到因子的投影是开集合。*
 
 对于例，我们有 $\mathrm{pr}_2 U = \bigcup_{x_1 \in X_1} U(x_1)$，并且命题由命题 4 的推论和公理 (O_1) 得出。
 
 #### 注 1 {#top-i-s4-n2-rem-1 .statement tag=0B2J}
 
-*关闭* 的投影 $X_1 \times X_2$ 的子集到因子 *不需要关闭*。对于例来说，在有理平面$\mathbf{Q}^2$中，方程为$x_1 x_2 = 1$的双曲线是一个闭的集合，但它的两个投影都等于$\mathbf{Q}$中点 0的补，这不是一个闭的集合。
+*关闭* 的投影 $X_1 \times X_2$ 的子集到因子 *不需要关闭*。对于例来说，在有理平面$\mathbf{Q}^2$中，方程为$x_1 x_2 = 1$的双曲线是一个闭的集合，但它的投影都等于$\mathbf{Q}$中点 0的补集，这不是一个闭的集合。
 
-(*) $x_1$处$A$的*截面*$A(x_1)$表示所有$x_2 \in X_2$中的集合使得$(x_1, x_2) \in A$（cf.集合理论R，\S\3，no. 7）。
+(*) $A$在$x_1$的*截面* $A(x_1)$是指所有$x_2 \in X_2$中的集合使得$(x_1, x_2) \in A$（cf.集合理论R，\S\3， no. 7）。
 
 #### 命题 6 {#top-i-s4-prop-6 .statement tag=0B2K}
 
@@ -158,7 +158,7 @@ f(x, y) = xy/(x^2 + y^2) \quad \text{if} \quad (x, y) \neq (0, 0)
 $$
 和$f(0, 0) = 0$，则所有部分映射都是连续的；但$f$在$(0, 0)$处不连续，因为如果$x \neq 0$则$f(x, x) = 1/2$。
 
-如果$g$是$X_1$的映射到$Y$，在点$a_1$连续，那么$X_1 \times X_1 \to Y$的映射$(x_1, x_2) \to g(x_1)$完全连续点$(a_1, x_2)$，因为它是$g$和投影到$X_1$的合成。
+如果$g$是$X_1$的映射到$Y$，在点$a_1$连续，那么$X_1 \times X_1 \to Y$的映射$(x_1, x_2) \to g(x_1)$完全连续点$(a_1, x_2)$，因为它是$g$ 和投影的合成到$X_1$。
 
 这个小节的结果很容易扩展到拓扑空间的任意乘积$\prod_{i \in I} X_i$，通过指出对于任何划分$(J, K)$，这个乘积同胚于乘积$\left( \prod_{i \in J} X_i \right) \times \left( \prod_{i \in K} X_i \right)$ $I$（no. 1，命题2）。
 
@@ -178,7 +178,7 @@ $$
 
 #### 命题 8 {#top-i-s4-prop-8 .statement tag=0B2O}
 
-*令*$a = (a_i)$*为乘积空间*$X = \prod_{i \in I} X_i$中的任意点； *然后点* $x \in X$ *的集合* $D$ *这样* $\mathrm{pr}_i x = a_i$ *除了指标* $i$ *的有限数是密集的* $X$。
+*令*$a = (a_i)$*为乘积空间*$X = \prod_{i \in I} X_i$中的任意点； *然后点* $x \in X$ *的集合* $D$ *这样* $\mathrm{pr}_i x = a_i$ *除了指标* $i$ *的有限数是稠密的* $X$。
 
 对于每个$x \in X$和每个基本集合$V = \prod_{i \in I} U_i$其中包含$x$，我们有$U_i = X_i$，除了指标$i$属于到有限子集$J$ $I$；如果我们用$y_i = x_i$代表$i \in J$，用$y_i = a_i$代表$i \notin J$，很明显
 $$
@@ -188,7 +188,7 @@ $$
 
 ### 4. 拓扑逆极限空间
 
-令$I$为偏序（但不一定有向）集合(*)，其中序关系写为$\alpha \leq \beta$。对于每个$\alpha \in I$，令$X_\alpha$为拓扑空间，并且对于每个对$(\alpha, \beta)$，使得$\alpha \leq \beta$令$f_{\alpha \beta}$为$X_\beta$到$X_\alpha$的映射。我们说$(X_\alpha, f_{\alpha \beta})$是拓扑空间*的*逆系，如果： 1) $(X_\alpha, f_{\alpha \beta})$是集合*的*逆系； 2) 每当 $\alpha \leq \beta$ 时，$f_{\alpha \beta}$ 都是*连续* 映射。令$X$表示集合$\varprojlim X_\alpha$，对于每个$\alpha \in I$，令$f_\alpha$为典范映射$X \to X_\alpha$；那么$X$上的*粗略*拓扑（其中$f_\alpha$是连续的）被认为是$X_\alpha$拓扑的*逆极限*（相对于$f_{\alpha \beta}$），以及集合$X$与此拓扑称为拓扑空间*$(X_\alpha, f_{\alpha \beta})$的逆系*逆极限。每当我们将$\varprojlim X_\alpha$称为拓扑空间时，总是可以理解为该空间的拓扑是$X_\alpha$的拓扑中的逆极限，除非则明确指出相反。
+令$I$为偏序（但不一定有向）集合(*)，其中序关系写为$\alpha \leq \beta$。对于每个$\alpha \in I$，令$X_\alpha$为拓扑空间，对于每个对$(\alpha, \beta)$，使得$\alpha \leq \beta$令$f_{\alpha \beta}$为$X_\beta$到$X_\alpha$的映射。我们说$(X_\alpha, f_{\alpha \beta})$是拓扑空间*的*逆系，如果： 1) $(X_\alpha, f_{\alpha \beta})$是集合*的*逆系； 2) 每当 $\alpha \leq \beta$ 时，$f_{\alpha \beta}$ 都是*连续* 映射。令$X$表示集合$\varprojlim X_\alpha$，对于每个$\alpha \in I$，令$f_\alpha$为典范映射$X \to X_\alpha$；那么$X$上的*粗略*拓扑（其中$f_\alpha$是连续的）被认为是$X_\alpha$拓扑的*逆极限*（相对于$f_{\alpha \beta}$），并且集合$X$与此拓扑称为拓扑空间*$(X_\alpha, f_{\alpha \beta})$的逆系*逆极限。每当我们将$\varprojlim X_\alpha$称为拓扑空间时，总是可以理解，这个空间的拓扑是$X_\alpha$拓扑的逆极限，除非明确指出相反。
 
 集合 $X$ 是点 $x$ 中乘积 $\prod_{\alpha \in I} X_\alpha$ 由……组成的子集，使得
 $$(1)$$
@@ -235,11 +235,11 @@ $$
 
 (ii) *如果 $A$ 在 $X$、$A = \varprojlim A_\alpha = \varprojlim \overline{A}_\alpha$ 内关闭。*
 
-(i) 的第一个断言源自$\alpha \leq \beta$的关系$f_\alpha = f_{\alpha\beta} \circ f_\beta$以及$f_{\alpha\beta}$（§ 2, no. 1，定理1）的连续性。让 $A'$ 表示
+(i) 的第一个断言由 $\alpha \leq \beta$ 的关系 $f_\alpha = f_{\alpha\beta} \circ f_\beta$ 以及$f_{\alpha\beta}$ (§ 2, no. 1, 定理 1) 的连续性得出。让 $A'$ 表示
 $$
 \bigcap_\alpha \overline{f}_\alpha(\overline{A}_\alpha);
 $$
-那么显然$A'$是闭集，包含$A$，所以$\overline{A} \subset A'$。相反，令$x \in A'$；我们必须证明$x$位于$A$的闭包中。凭借命题 9，足以证明$x$的每个邻域，即形式$\overline{f}_\alpha(U_\alpha)$，其中$\alpha \in I$和$U_\alpha$在$X_\alpha$开，满足$A$。现在，到假设，$f_\alpha(x) \in U_\alpha$，从$f_\alpha(x) \in \overline{A}$开始，我们有了$U_\alpha \cap A_\alpha \neq \varnothing$，这意味着$A \cap \overline{f}_\alpha(U_\alpha)$不为空。
+那么显然$A'$是闭集，包含$A$，所以$\overline{A} \subset A'$。相反，令$x \in A'$；我们必须证明$x$位于$A$的闭包中。凭借命题 9，足以证明$x$的每个邻域，其中形式$\overline{f}_\alpha(U_\alpha)$，其中$\alpha \in I$和$U_\alpha$在$X_\alpha$开，满足$A$。现在，到假设，$f_\alpha(x) \in U_\alpha$，从$f_\alpha(x) \in \overline{A}$开始，我们有了$U_\alpha \cap A_\alpha \neq \varnothing$，这意味着$A \cap \overline{f}_\alpha(U_\alpha)$不为空。
 
 为了建立(ii)，注就足够了，在$A$上没有任何限制，我们有$A \subset \lim A_\alpha \subset \lim \overline{A}_\alpha$；现在如果 $A$ 是闭合的，那么从 (i)
 $$
@@ -249,8 +249,8 @@ $$
 
 #### 例 {#top-i-s4-n4-exa-1 .statement tag=0B2R}
 
-令$I$为有向集合且$(X_\alpha)_{\alpha \in I}$为子集与集合$Y$的族，使得每当$\alpha \leq \beta$时$X_\alpha \supset X_\beta$。对于每个$\alpha \in I$，令$\mathfrak{T}_\alpha$在$X_\alpha$上为拓扑，使得每当$\alpha \leq \beta$时，$\mathfrak{T}_\beta$比更细大于拓扑，由$\mathfrak{T}_\alpha$在$X_\beta$上感应。如果我们将$\alpha \leq \beta$的$f_{\alpha\beta}$视为典范嵌入$X_\beta \to X_\alpha$，那么$\lim X_\alpha$可以用$X_\alpha$的*交* $X$规范地识别，其中拓扑是*最小的$\mathfrak{T}_\alpha$ 在 $X$ 上引发的拓扑的上界* (§ 2, no. 3, 例 2)。
+令$I$为有向集合，而$(X_\alpha)_{\alpha \in I}$为子集和集合$Y$的族，这样只要$\alpha \leq \beta$就有$X_\alpha \supset X_\beta$。对于每个$\alpha \in I$，令$\mathfrak{T}_\alpha$在$X_\alpha$上为拓扑，使得每当$\alpha \leq \beta$时，$\mathfrak{T}_\beta$比更细大于拓扑，由$\mathfrak{T}_\alpha$在$X_\beta$上感应。如果我们将$\alpha \leq \beta$的$f_{\alpha\beta}$视为典范嵌入$X_\beta \to X_\alpha$，那么$\lim X_\alpha$可以用$X_\alpha$的*交* $X$规范地识别，其中拓扑是*最小的$\mathfrak{T}_\alpha$ 在 $X$ 上引发的拓扑的上界* (§ 2, no. 3, 例 2)。
 
 ### 习题 {#top-i-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

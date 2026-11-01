@@ -30,21 +30,21 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: e3751d238b4aec87e6a4a1366d92f8626f6bfc20484561e3153a8558af87cbba
+content_sha256: 3933f6ae2616bd0cd257302272e580cc189d94d9ed19478160a1bc94aa9e0f02
 translated_from: content/en/alg/I/10_s10_inverse_and_direct_limits.md
 translation_method: google
 source_content_sha256: 3a49dcd1591d3ccd8d3da36eb91e210dee0ffea0f51202486e0a783d55ffe2f0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e97ccb15c4ac6c8ad251873a057cb8cd5630523ce2ae6172f6774bc78e0f1f1a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 10。逆与直极限
 
-在本段中，I将表示非空预订集合，$\alpha \leq \beta$表示I上的预订。 The notion of inverse (resp. direct) system of sets relative to the indexing set I is defined in *Set Theory*, III, § 7, no. 1 (resp. *集合理论*，III, § 7, no. 5，在假设下I是右向的）。
+在本段中，I将表示非空预订集合，$\alpha \leq \beta$表示I上的预订。 The notion of inverse (resp. direct) system of sets relative to the indexing set I is defined in *Set Theory*, III, § 7, no. 1 (resp. *Set Theory*, III, § 7, no. 5, under the hypothesis that I is right directed).
 
 ### 1. 逆系岩浆
 
@@ -70,7 +70,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令 $\mathfrak{C} = (E_\alpha, f_{\alpha \beta})$ 和 $\mathfrak{C}' = (E'_\alpha, f'_{\alpha \beta})$ 为相对于相同索引集合的两个逆系岩浆（分别为幺半群、群、环）。 $\mathfrak{C}$的同态到$\mathfrak{C}'$是映射$u_\alpha : E_\alpha \to E'_\alpha$的逆系$(u_\alpha)_{\alpha \in I}$，这样每个$u_\alpha$都是同态。在这些条件下，$\lim \leftarrow E_\alpha$到$\lim \leftarrow E'_\alpha$的映射$u = \lim \leftarrow u_\alpha$是同态（cf.集合理论，III, § 7, no. 2）。
 
-### 2. 逆极限的作用
+### 2. 逆极限作用
 
 假设给定两个集合、$(\Omega_\alpha, \phi_{\alpha \beta})$和$(E_\alpha, f_{\alpha \beta})$相对于相同索引集合$I$的逆系。假设对于 $E_\alpha$ 上的 $\Omega_\alpha$ 的所有 $\alpha \in I$ 作用给出，使得
 
@@ -198,20 +198,20 @@ $$
 
 令$\mathfrak{E} = (E_\alpha, f_{\beta\alpha})$和$\mathfrak{E}' = (E'_\alpha, f'_{\beta\alpha})$为两个直接系统岩浆（分别为幺半群、群、环）。 $\mathfrak{E}$的同态到$\mathfrak{E}'$是映射$u_\alpha : E_\alpha \to E'_\alpha$的直接系统$(u_\alpha)_{\alpha \in I}$，这样每个$u_\alpha$都是同态。在这些条件下，从$E = \lim E_\alpha$到$E' = \lim E'_\alpha$的映射$u = \lim u_\alpha$是同态（cf.*集合理论*，III, § 7, no. 6）。
 
-### 4. 直极限的作用
+### 4. 直极限作用
 
-假设给定两个直接系统（集合$(\Omega_\alpha, \phi_{\beta \alpha})$和$(E_\alpha, f_{\beta \alpha})$）相对于相同的索引集合$I$，并且对于$E_\alpha$上的$\Omega_\alpha$的每个$\alpha \in I$作用。假设
+假设相对于相同索引集合$I$，给定集合$(\Omega_\alpha, \phi_{\beta \alpha})$和$(E_\alpha, f_{\beta \alpha})$的两个直接系统，并且对于$E_\alpha$上$\Omega_\alpha$的每个$\alpha \in I$作用。假设
 
 $$
 f_{\beta \alpha}(\omega_\alpha \cdot x_\alpha) = \phi_{\beta \alpha}(\omega_\alpha) \cdot f_{\beta \alpha}(x_\alpha)
 $$
 
-对于 $\alpha \leq \beta, \omega_\alpha \in \Omega_\alpha$ 和 $x_\alpha \in E_\alpha$。那么所考虑的作用家庭据说是作用*的*直接系统。容易验证，在命题2中，$E = \lim E_\alpha$上存在$\Omega = \lim \Omega_\alpha$的作用$h$，描述如下：设$\omega \in \Omega$和$x \in E$； 选择$\alpha \in I$和$\omega_\alpha \in \Omega_\alpha, x_\alpha \in E_\alpha$使得$\omega = \phi_\alpha(\omega_\alpha)$和$x = f_\alpha(x_\alpha)$（$\phi_\alpha : \Omega_\alpha \to \Omega$和$f_\alpha : E_\alpha \to E$表示典范映射）；然后$\omega \cdot x = f_\alpha(\omega_\alpha \cdot x_\alpha)$。 $E$上的$\Omega$的作用称为$E_\alpha$上的$\Omega_\alpha$的作用*的*直极限。
+对于 $\alpha \leq \beta, \omega_\alpha \in \Omega_\alpha$ 和 $x_\alpha \in E_\alpha$。那么所考虑的作用家庭据说是作用*的*直接系统。容易验证命题 2中$E = \lim E_\alpha$上存在$\Omega = \lim \Omega_\alpha$的作用$h$，描述如下：令$\omega \in \Omega$和$x \in E$； 选择$\alpha \in I$和$\omega_\alpha \in \Omega_\alpha, x_\alpha \in E_\alpha$使得$\omega = \phi_\alpha(\omega_\alpha)$和$x = f_\alpha(x_\alpha)$（$\phi_\alpha : \Omega_\alpha \to \Omega$和$f_\alpha : E_\alpha \to E$表示典范映射）；然后$\omega \cdot x = f_\alpha(\omega_\alpha \cdot x_\alpha)$。 $E$上的$\Omega$的作用称为$E_\alpha$上的$\Omega_\alpha$的作用*的*直极限。
 
 如果$\Omega_\alpha$是幺半群，$E_\alpha$上$\Omega_\alpha$的每个作用是运算，直极限作用是运算。
 
-留给读者对群的直接系统和定义直极限进行算子验证，并验证这个极限是否是群进行算子。
+留给读者对群的直接系统和定义直极限进行运算符，并验证这个极限是否是群。
 
 ### 习题{#alg-i-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

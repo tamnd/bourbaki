@@ -33,16 +33,16 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: dbd296ca9b3182a086b3ef9f5faacfbe56deda9b9a3b42d76446a7f30fbe9bc4
+content_sha256: 155154fc71627ae3dcd4cdbf99bb0f882a72e82a1f166f29c76f3852c49da526
 translated_from: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
 translation_method: google
 source_content_sha256: dbd6a8fe77e36a2dde3d4d956d5fc6fd2a6bf284a5e6f34dca83531dabcebd7f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0a1863b474fa0ae484f27bea1b6c459e391cacbf4571fe0f827d1247bd24c4df
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。 作用的紧李群开流形
@@ -53,17 +53,17 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 引理 1 {#lie-ix-s9-lem-1 .statement tag=01HE}
 
-设T和$T'$为两个拓扑空间，分别为T和$T'$的A和$A'$紧子集，$T\times T'$中$A\times A'$的W邻域。 T 中存在 A 的开邻域 U，以及 $T'$ 中的 $A'$ 的开邻域 $U'$，使得 $U\times U'\subset W$。
+设T和$T'$为两个拓扑空间，T和$T'$分别为A和$A'$紧子集，$T\times T'$中$A\times A'$的W邻域。在 T 中存在 A 的开邻域 U，在 $T'$ 中存在 $A'$ 的开邻域 $U'$，使得 $U\times U'\subset W$。
 
-令 $x\in A$；存在 T 的开子集$U_x$和$T'$的$U'_x$，使得$\{x\} \times A'\subset U_x\times U'_x\subset W:$确实，$T\times T'$的紧子集$\{x\} \times A'$可以被包含在W中的开集合的有限数覆盖， 形式$U_i\times U'_i$，含$x\in U_i$；取$U_x=\bigcap_iU_i$和$U'_x=\bigcup_iU'_i$就足够了。
+令 $x\in A$；存在T的开子集$U_x$和$T'$的$U'_x$，使得$\{x\} \times A'\subset U_x\times U'_x\subset W:$确实，$T\times T'$的紧子集$\{x\} \times A'$可以被包含在W中的开集合的有限数覆盖， 形式$U_i\times U'_i$，含$x\in U_i$；取$U_x=\bigcap_iU_i$和$U'_x=\bigcup_iU'_i$就足够了。
 
-由于 A 是紧的，因此 A 存在点 $x_1, . . . , x_m$ 使得 $A\subset \bigcup_iU_{x_i}$；输入$U =\bigcup_iU_{x_i}$和$U'=\bigcap_iU'_{x_i}$。然后$A\times A'\subset U\times U'\subset W$，因此引理。
+由于 A 是紧的，因此 A 存在点 $x_1, . . . , x_m$，使得 $A\subset \bigcup_iU_{x_i}$；输入$U =\bigcup_iU_{x_i}$和$U'=\bigcap_iU'_{x_i}$。然后$A\times A'\subset U\times U'\subset W$，因此引理。
 
-在这个数的其余部分中，Y表示类$C^r$的分离的流形。
+在这个数的剩余部分中，Y表示类$C^r$的分离的流形。
 
 #### 命题 1 {#lie-ix-s9-prop-1 .statement tag=01HF}
 
-设$\varphi : X\rightarrow Y$为类$C^r$的态射，A是X的紧致子集。以下条件是等效的：
+令$\varphi : X\rightarrow Y$为类$C^r$的态射，A是X的紧致子集。以下条件是等效的：
 
 (i) $\varphi$ 的限制对 A 是单射的，$\varphi$ 是 A 的每点处的浸没；
 
@@ -71,7 +71,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 当满足这些条件时，$\varphi$被称为A的邻域的嵌入。
 
-我们证明 (i) 蕴涵 (ii)，另一个蕴涵是明确的。假设 (i)，存在 X 包含于 A 的开放邻域 V，使得 $\varphi$ 到 V 的限制是浸没（可微分和解析流形，结果，5.7.1）。用$V\times V$中点$(x, y)$的$\Gamma$集合表示，使得$\varphi (x) =\varphi (y)$，并用$V\times V$中的对角线$\Delta$表示。那么$\Delta$是$\Gamma :$的开子集，确实，对于所有$x\in V$，存在$x$的开邻域$U_x$，使得$\varphi$到$U_x$的限制是单射的，也就是说，这样那$\Gamma \cap (U_x\times U_x) =$$\Delta \cap (U_x\times U_x)$。
+我们证明 (i) 蕴涵 (ii)，另一个蕴涵是明确的。假设 (i)，存在 X 包含于 A 的开放邻域 V，使得 $\varphi$ 到 V 的限制是浸没（可微分和解析流形，结果，5.7.1）。用$V\times V$中点$(x, y)$的$\Gamma$集合表示，使得$\varphi (x) =\varphi (y)$，并用$\Delta$表示$V\times V$中的对角线。那么$\Delta$确实是$\Gamma :$的开子集，对于所有$x\in V$，存在$x$的开邻域$U_x$，使得$\varphi$到$U_x$的限制是单射的，即，这样 $\Gamma \cap (U_x\times U_x) =$ $\Delta \cap (U_x\times U_x)$。
 
 由于Y是分离的，$\Gamma$在$V\times V$中闭；因而 $V\times V$ 中$\Gamma$ **--** $\Delta$ 的补集 W 是开集。 假设出发，西包含$A\times A$； 引理 1 意味着存在V 包含于 A 的开子集 $U'$，使得$U'\times U'\subset W$，即$\varphi$ 到$U'$ 的限制是单射的。此外，存在 A 的开邻域 U，其闭包是紧的，并且包含在$U'($一般拓扑，第 1 章中。 I, §9, no. 7，提案 10）。那么 $\varphi$ 诱导从 U 到 $\varphi$(U) 的同胚，因此从 U 到 $\varphi (U)$；由此可见，$\varphi$到U的限制是一个嵌入（可微分和解析流形，结果，5.8.3）。
 
@@ -121,7 +121,7 @@ $$
 
 令 A 为 X 的紧凑子集。存在有限维向量空间 E 和态射 $\varphi \in \mathscr{C}^r(X;E) (r\not=\omega )$，它是 A 的邻域中的嵌入。
 
-令 $(U_i, \varphi_i,E_i)_{i\in I}$ 为 X 的有限图族，其域涵盖 A。 我们通过将$\varphi_i(x) = 0$替换为$x \notin U_i$，将扩展$\varphi_i$到映射从X到$E_i$（也用$\varphi_i$表示）。 设 $(V_i)_{i\in I}$ 是由 X 的开子集对 A 的覆盖，使得 $\overline{V}_i\subset U_i$ 对于所有 $i\in I$（这种覆盖的存在性可从第 1 章的一般拓扑得出）。 IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). 对于所有$i\in I$，令$\alpha_i$为X上类$C^r$的数值函数，在$V_i$的每个点等于1，并在$U_i($可微分和解析流形，结果中包含支持， 5.3.6）。
+令 $(U_i, \varphi_i,E_i)_{i\in I}$ 为 X 的有限图族，其域涵盖 A。 我们通过将$\varphi_i(x) = 0$替换为$x \notin U_i$，将扩展$\varphi_i$到映射从X到$E_i$（也用$\varphi_i$表示）。 Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). 对于所有$i\in I$，令$\alpha_i$为X上类$C^r$的数值函数，在$V_i$的每个点等于1，并在$U_i($可微分和解析流形，结果中包含支持， 5.3.6）。
 
 考虑映射 $\varphi : X\rightarrow \bigoplus_{i\in I}(E_i\oplus \mathbf{R})$ 定义为
 
@@ -129,17 +129,17 @@ $$
 \varphi (x) = (\alpha_i(x)\varphi_i(x), \alpha_i(x))_{i\in I}
 $$
 
-对于所有$i\in I$，映射$\alpha_i\varphi_i$是类$C^r$（因为它的限制到$U_i$以及$\alpha_i$的支持补集），并且它的限制到$V_i$是一个嵌入；由此可见，$\varphi$是类$C^r$的态射，并且是A的每个点处的浸入。我们证明$\varphi$的限制对A是单射的。令$x, y$是A的两个点，使得$\varphi (x) =\varphi (y)$，并令$i\in I$使得$x\in V_i$。 Then $\alpha_i(x) = 1$, so $\alpha_i(y) = 1$, which implies that $y\in U_i$;但我们也有 $\varphi_i(x) =\varphi_i(y)$，所以从 $\varphi_i$ 诱导开始，$x=y$ 将 $U_i$ 嵌入到 $E_i$ 中。
+对于所有$i\in I$，映射$\alpha_i\varphi_i$是类$C^r$（因为它的限制到$U_i$以及$\alpha_i$的支持补集），并且它的限制到$V_i$是一个嵌入；由此可见，$\varphi$是类$C^r$的态射，并且是A的每个点处的浸没。我们证明$\varphi$的限制对A是单射的。令$x, y$是A的两个点，使得$\varphi (x) =\varphi (y)$，并令$i\in I$使得$x\in V_i$。那么$\alpha_i(x) = 1$，所以$\alpha_i(y) = 1$，这意味着$y\in U_i$；但我们也有 $\varphi_i(x) =\varphi_i(y)$，所以从 $\varphi_i$ 诱导开始，$x=y$ 将 $U_i$ 嵌入到 $E_i$ 中。
 
 可以证明$^9$，每个分离的流形，可数无穷大且
 
 纯维数$n$，嵌入$\mathbf{R}^{2n}$；对于较弱的结果，cf. 习题 2。
 
-$^9$ See H. WHITNEY, The self-intersections of a smooth $n$-manifold in $2n$-space,
+$^9$ 参见 H. WHITNEY，平滑 $n$ 流形在 $2n$ 空间中的自交，
 
 安.数学，45 (1944)，第 220-246 页。
 
-### 2.等变嵌入定理
+### 2. 等变嵌入定理
 
 在这个数中，我们假设$r\not=\omega$。
 
@@ -147,17 +147,17 @@ $^9$ See H. WHITNEY, The self-intersections of a smooth $n$-manifold in $2n$-spa
 
 设 G 是在拓扑空间 X 上连续运行的紧拓扑群；设A为X的子集，在G下稳定，且A的W邻域。则存在A在G下稳定且包含在$_{\circ}W$中的开邻域V。
 
-Put F = X **--** W and V = X**--** GF. Then V is open (General 拓扑, Chap. III, §4, no. 1, Cor. 1 of Prop. 1), stable under G, and $A\subset V\subset W$.
+设 F = X **--** W 和 V = X**--** GF。那么V是开放的（一般拓扑，第III, §4, no. 1章，第1号提案的Cor.1），在G下稳定，并且$A\subset V\subset W$。
 
 #### 定理 1 {#lie-ix-s9-thm-1 .statement tag=01HL}
 
-Let G be 紧李群, $(g, x) \rightarrow gx$ 律 of left 运算 of 类 $C^r$ of G on X, and A a compact 子集 of X.在有限维向量空间 E 上存在 G 的解析线性表示 $\rho$，类 $C^r$ 的态射 $\varphi : X\rightarrow E$，与 G 的运算兼容，以及 A 的开邻域 U， stable under G, such that 限制 of $\varphi$ to U is an embedding.
+设G为X上G的类$C^r$左运算的紧李群，$(g, x) \rightarrow gx$律，A为X的紧凑子集。在有限维向量空间 E 上存在 G 的解析线性表示 $\rho$，类 $C^r$ 的态射 $\varphi : X\rightarrow E$，与 G 的运算兼容，以及 A 的开邻域 U，在 G 下稳定，使得 $\varphi$ 到 U 的限制是嵌入。
 
-替换 A by 紧集 GA, we are reduced to the case in which A is stable under G.
+替换 A 通过紧集 GA，我们被简化为 A 在 G 下稳定的情况。
 
-令$E_0$为有限维向量空间，使得存在$\mathscr{C}^r(X;E_0)$的元素，它是A的邻域中的嵌入（no. 1，命题4）； 集合 $\mathscr{P}$ of 态射 having this 性质 is a non-empty open 子集 of $\mathscr{C}^r(X;E_0)$ (no. 1, Prop. 3). Consider the continuous 线性表示 of the compact 群 G on 空间 $\mathscr{C}^r(X;E_0) ($§6, no. 4, 引理 4).根据 Peter-Weyl 定理（谱理论，准备中），G 下稳定的有限维子空间的并在 $\mathscr{C}^r(X;E_0)$ 是稠密的；因此，存在$\mathscr{P}$的元素$\varphi_0$使得映射$x \rightarrow \varphi_0(gx)$，对于$g\in G$，生成有限维向量子空间$E_1$ $\mathscr{C}^r(X;E_0)$, which is clearly stable under 运算 of G.
+令$E_0$为有限维向量空间，使得存在$\mathscr{C}^r(X;E_0)$的元素，它是A的邻域中的嵌入（no. 1，命题4）； 态射的集合$\mathscr{P}$有这个性质是$\mathscr{C}^r(X;E_0)$的非空开子集（no. 1，命题3）。考虑紧致群 G 在空间 $\mathscr{C}^r(X;E_0) ($§6, no. 4、引理 4) 上的连续线性表示。根据 Peter-Weyl 定理（谱理论，准备中），G 下稳定的有限维子空间的并在 $\mathscr{C}^r(X;E_0)$ 是稠密的；因此，存在$\mathscr{P}$的元素$\varphi_0$使得映射$x \rightarrow \varphi_0(gx)$，对于$g\in G$，生成有限维向量子空间$E_1$ $\mathscr{C}^r(X;E_0)$，在G的运算下显然是稳定的。
 
-取E为空间Hom$_{\mathbf{R}}(E_1,E_0),\rho$为由$E_1$上作用诱导的E上G的表示，$\varphi : X\rightarrow E$为与$x\in X$线性映射相关联的映射 $\psi  \rightarrow \psi (x)$从$E_1$到$E_0$。这是类$C^r$中的态射； for $x\in X,g\in G,\psi \in E_1$, we have (denoting by $\tau (g)$ 自同构 $x \rightarrow gx$ of X):
+取E为空间Hom$_{\mathbf{R}}(E_1,E_0),\rho$为$E_1$上作用诱导的G在E上的表示，$\varphi : X\rightarrow E$为与$x\in X$线性映射相关联的映射 $\psi  \rightarrow \psi (x)$从$E_1$到$E_0$。这是类$C^r$中的态射；对于$x\in X,g\in G,\psi \in E_1$，我们有（用X的$\tau (g)$自同构$x \rightarrow gx$表示）：
 
 $$
 \varphi (gx)(\psi )-\psi (gx) =\varphi (x)(\psi \circ \tau (g)) = (\rho (g)\varphi (x))(\psi )
@@ -179,7 +179,7 @@ $$
 
 假设 X 是仿紧的。存在实希尔伯特空间 E、E 上 G 的连续酉表示 $^{10}\rho$ 以及类 $C^r$ 的嵌入$\varphi : X\rightarrow E$，使得$\varphi (gx) =\rho (g)\varphi (x)$ 对于所有$g\in G$ 和所有$x\in X$。
 
-空间 $X/G$ 是局部紧致的（一般拓扑，第 1 章） III, §4, no. 5，命题 11）。 它的连通分量是 X 的连通分量的像，这些连通分量在无穷大处是可数的（一般拓扑，第 1 章）。 I, §9, no. 10，Th。 5);因此，它们本身在无穷大处是可数的，这意味着$X/G$是仿紧的（loc.cit.）。 Hence, there exists a locally finite covering $(U'_{\alpha})_{\alpha\in I}$ of $X/G$ by relatively compact open sets, and a covering $(V'_{\alpha})_{\alpha\in I}$ such that $\overline{V}'_{\alpha}\subset U'_{\alpha}$ for all $\alpha \in I ($General Topology, Chap. IX, §4, no. 3，科。 1 Th。 3）；取逆像，我们通过G下相对紧致的开集合稳定获得X的两个局部有限覆盖$(U_{\alpha})_{\alpha\in I}$和$(V_{\alpha})_{\alpha\in I}$，使得$\overline{V}_{\alpha}\subset U_{\alpha}$对于所有$\alpha \in I$。
+空间 $X/G$ 是局部紧致的（一般拓扑，第 III, §4, no. 5 章，第 11 条命题）。 其连通分量是X连通分量的像，无穷大可数（通论拓扑，第I, §9, no. 10，第5章）；因此，它们本身在无穷大处是可数的，这意味着$X/G$是仿紧的（loc.cit.）。 Hence, there exists a locally finite covering $(U'_{\alpha})_{\alpha\in I}$ of $X/G$ by relatively compact open sets, and a covering $(V'_{\alpha})_{\alpha\in I}$ such that $\overline{V}'_{\alpha}\subset U'_{\alpha}$ for all $\alpha \in I ($General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3); taking the inverse image, we obtain two locally finite coverings $(U_{\alpha})_{\alpha\in I}$ and $(V_{\alpha})_{\alpha\in I}$ of X by relatively compact open sets stable under G, such that $\overline{V}_{\alpha}\subset U_{\alpha}$ for all $\alpha \in I$.
 
 对于所有$\alpha \in I$，在有限维实数向量空间$E_{\alpha}$和态射$\varphi_{\alpha}\in \mathscr{C}^r(X;E_{\alpha})$上存在G的表示$\rho_{\alpha}$，与G的运算兼容，其限制到$U_{\alpha}$是嵌入（Th. 1）。对于$\alpha \in I$，令$a_{\alpha}$为X上类$C^r$的数值函数，在$V_{\alpha}$上等于1，在$U_{\alpha}($可微分和解析流形之外等于0，结果，5.3.6）。将 $b_{\alpha}(x) =\int_Ga_{\alpha}(gx)dg$ 替换为 $x\in X$。 函数$b_{\alpha}$属于类$C^r$，在G下不变（§6, no. 4，Cor.2），在$V_{\alpha}$上等于1，在$U_{\alpha}$之外等于0。给每个$E_{\alpha}$一个G（§1, no. 1）下的希尔伯特标量乘积不变量，以及$\mathbf{R}$其规范希尔伯特结构；令E为族$(E_{\alpha}\oplus \mathbf{R})_{\alpha\in I}$的希尔伯特和，并令$\rho$为G在E上的表示，由$\rho_{\alpha}$和G在$\mathbf{R}$上的平凡作用引起。对于$x\in X$，输入$\varphi (x) = (b_{\alpha}(x)\varphi_{\alpha}(x), b_{\alpha}(x))_{\alpha\in I}$。那么$\varphi$从X到E就是类$C^r$的态射，兼容G的运算；我们按照命题 4 的证明 (no. 1) 验证$\varphi$ 是一个嵌入，这意味着推论。
 
@@ -189,7 +189,7 @@ $$
 g\in G
 $$
 
-### 3.管与横截面
+### 3. 管与横截面
 
 #### 引理 4 {#lie-ix-s9-lem-4 .statement tag=01HP}
 
@@ -201,7 +201,7 @@ $$
 
 设H为X上H的紧李群、类$C^r$左运算$(h, x) \rightarrow hx$律，以及X固定下的$x$点 H 的运算。则群 H 在向量空间 $T = T_x(X)$ 上线性运算；存在类$C^r$的开放嵌入$\varphi : T\rightarrow X$，与H的运算兼容，使得$\varphi (0) =x$和$T_0(\varphi )$是T的身份映射。
 
-令 $(U, \psi ,E)$ 为 X 在 $x$ 的图表，使得 U 在 H (no. 2, 引理 3) 下稳定且$\psi (x) = 0$。 认同 E 与 T 乘以$T_x(\psi )$，并把
+令$(U, \psi ,E)$为X在$x$的图表，使得U在H（no. 2，引理3）下稳定且$\psi (x) = 0$。 认同 E 与 T 乘以$T_x(\psi )$，并把
 
 $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ 为 $y\in U$，
 
@@ -237,23 +237,23 @@ $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ 为 $y\in U$，
 
 由于$\mu$与G的运算兼容，因此在$Gz$的每个点都是étale；由于规范的映射 $G/G_x\rightarrow Gx$ 是同胚，因此由 $\mu$ 引发的从 $Gz$ 到 $Gx$ 的映射也是同胚。因此，根据no. 1的命题2可知，Z中存在$Gz$的开放邻域U，使得$\mu$诱导U到X的开放嵌入。
 
-由于 G 在 X 上正确运行，因此存在 $x$ 的开邻域 V 和 G 的紧子集 K，使得 $gV\cap V =\emptyset$ 对于$g \notin K ($一般拓扑，第 1 章。 III, §4, no. 4，提案 7)；特别是$e\in K$。 点 $y\in Z$ 的集合 $W_1$，使得 $Ky\subset U$ 在 Z 中开：事实上，Z**--** $W_1$ 是闭集合 $(K\times Z)$ **--** $m^{-1}(U)$ 在适当的条件下的像投影 pr$_2: K\times Z\rightarrow Z$。把$W = W_1\cap \mu^{-1}(V)$；这是 Z 的开子集、包含 $z$ 和满足以下条件：
+由于G在X上正确运行，因此存在$x$的开邻域V和G的紧子集K，使得$gV\cap V =\emptyset$对于$g \notin K ($一般拓扑，第1章。 III, §4, no. 4，提案 7)；特别是$e\in K$。 点 $y\in Z$的集合 $W_1$，使得$Ky\subset U$在Z中开：确实，Z**--** $W_1$是闭集合 $(K\times Z)$ **--** $m^{-1}(U)$在适当的条件下的像投影 pr$_2: K\times Z\rightarrow Z$。把$W = W_1\cap \mu^{-1}(V)$；这是 Z 的开子集、包含 $z$ 和满足以下条件：
 
-(i) KW$\subset U$，特别是$W\subset U$；
+(i) KW $\subset U$，特别是$W\subset U$；
 
 (ii) $\mu(W)\subset V$。
 
-放入 $\Omega =$ GW 并考虑 $\mu$ 到 $\Omega$ 中的限制。这是一个étale 态射，因为$\Omega$的每个点都是G下的共轭到U的点。我们证明它是单射的：令G中的$g, h$和W中的$u, v$使得$\mu(gu) =$$\mu(hv)$。把$k=g^{-1}h$；然后 $\mu(u) =k\mu(v)$，所以 $k\in K$ 由 (ii) 得到。但是 $kv$ 和 $u$ 属于通过 (i) 到 U；因而，$u=kv$，因为$\mu$到V的限制是单射的，所以$gu=hv$。因而，$\mu$到$\Omega$的限制是单射的，因而（可微分和解析流形，结果，5.7.8）是同构到X的开子流形上，从而完成证明。
+放入$\Omega =$ GW，并考虑$\mu$到$\Omega$的限制。 这是一个étale 态射，因为$\Omega$的每个点都是G到U的点下的共轭。 我们证明它是单射的：设 G 中的 $g, h$ 和 W 中的 $u, v$ 使得 $\mu(gu) =$ $\mu(hv)$。 把$k=g^{-1}h$；然后 $\mu(u) =k\mu(v)$，所以 $k\in K$ 由 (ii) 得到。 但是 $kv$ 和 $u$ 属于通过 (i) 到 U；因而，$u=kv$因为$\mu$到V的限制是单射的，所以$gu=hv$。 因而，$\mu$到$\Omega$的限制是单射的，因而（可微分和解析流形，结果，5.7.8）是同构到X的开子流形上，从而完成证明。
 
-根据第6号提案的条件，$\alpha$的像是$x$的轨道A的开放邻域T，配备向量丛的结构和基A，其中零截面是轨道 A 本身。这样的邻域称为线性管（大约在所讨论的轨道附近）。对于每个点$a\in A$，该向量丛的纤维$Y_a$是X的子流形，在$a$的固定器$G_a$下稳定，并且使得态射从$G\times^{G_a}Y_a$到X $(g, y)\in G\times Y_a$ 到 $gy\in X$ 的映射类诱导态射类 $C^r$ 从 $G\times^{G_a}Y_a$ 到 T。那么 $Y_a$ 据说是管 T 的$a$ 处的切线。我们注 $Y_a$ 的$a$ 处的切线空间与$Y_a$ 正则同构，并且它是$T_a(X)$ 中$T_a(A)$ 的补集；因而，向量丛 T 与基 A 与 X 中 A 的正规丛规范同构（可微分和解析流形，结果，8.1.3）。
+根据第6条的条件，$\alpha$的像是$x$的轨道A的开放邻域T，配备向量丛的结构和基A，其中零截面是轨道 A 本身。这样的邻域称为线性管（大约在所讨论的轨道附近）。对于每个点$a\in A$，该向量丛的纤维$Y_a$是X的子流形，在$a$的固定器$G_a$下稳定，并且使得态射从$G\times^{G_a}Y_a$到X $(g, y)\in G\times Y_a$ 的映射类到 $gy\in X$ 诱导态射类 $C^r$ 从 $G\times^{G_a}Y_a$ 到 T。然后 $Y_a$ 被认为是在 $a$ 处的横截面管 T. 我们注，$Y_a$在$a$处的切线空间与$Y_a$正则同构，并且它是$T_a(X)$中$T_a(A)$的补集；因而，向量丛 T 与基 A 与 X 中 A 的正规丛规范同构（可微分和解析流形，结果，8.1.3）。
 
-### 4.轨道型
+### 4. ORBIT TYPES
 
-设 G 是在分离拓扑空间 E 上连续运行的拓扑群。对于 E 的每个点 $x$，用 $G_x$ 表示 G 中 $x$ 的固定器，并假设规范映射 $G/G_x\rightarrow Gx$ 是同胚；在以下两种情况下尤其如此：
+设G是在分离拓扑空间E上连续运行的拓扑群。对于E的每个点$x$，用$G_x$表示G中$x$的固定器，并假设规范映射$G/G_x\rightarrow Gx$是同胚；在以下两种情况下尤其如此：
 
 a) G和E的拓扑是离散的；
 
-$b) G$ 在 E 上正确运行（一般拓扑，第 III, §4, no. 2，第 4 条命题），对于例，G 是紧致的（一般拓扑，第 III, §4, no. 1，第 2 条命题）。
+$b) G$ 在 E 上正确运行（通则拓扑，第 III, §4, no. 2，命题 4），对于例，G 是紧致的（通则拓扑，第 III, §4, no. 1，命题 2）。
 
 用G的闭子群的共轭类的$\mathscr{T}$集合表示。对于每个$x\in E$，我们称$x$的轨道型，或$x$的有时型， $\mathscr{T}$中$G_x$的类；相同的轨道中的两个点具有相同的轨道型（代数，第 I, §5, no. 2 章，第 2 条）；两个轨道具有相同的型当且仅当它们与 G 集同构（代数，第 I, §5, no. 5，第 1 章）。对于每个$t\in \mathscr{T}$，用型$t$E点$E_{(t)}$集合表示，即型$t$轨道并；这是E的稳定子集。对于$H\in t$，我们也将$E_{(t)}$写成$E_{(H)}$；对于例，$E_{(G)}$ 是由 G 确定的点的 E 由……组成的闭子空间。
 
@@ -325,8 +325,8 @@ Th 中的记号。 $X_{(\tau)}$中的$2c)$、点称为本金，它们的轨道�
 
 令E为E的超平面的实数欧氏仿射空间、$\mathfrak{H}$集合，W群是E相对于$\mathfrak{H}$的超平面的正交反射产生的位移。假设 $\mathfrak{H}$ 在 W 下稳定，并且群 W 与离散拓扑在 E 上正常运行。
 
-前述可以应用于E上W的运算。E的点$x$的固定器是W的子群，由$\mathfrak{H}$包含$x$的超平面的反射产生（第V, §3, no. 3，道具。 2）。因而，最大的轨道型$\tau$是子群$\{$Id$_E\}$的类，$E_{(\tau)}$是E室的并。注在这种情况下覆盖$E_{(\tau)}\rightarrow E_{(\tau)}/W$ 是微不足道的，特别是如果 $\mathfrak{H}$ 非空，则$E_{(\tau)}$ 不连通。
+前述可以应用于E上W的运算。E的点$x$的固定器是由$\mathfrak{H}$包含$x$的超平面的反射产生的W的子群（第V, §3, no. 3，道具。） 2）。因而，最大的轨道型$\tau$是子群$\{$Id$_E\}$的类，$E_{(\tau)}$是E室的并。注在这种情况下覆盖$E_{(\tau)}\rightarrow E_{(\tau)}/W$ 是微不足道的，特别是如果 $\mathfrak{H}$ 非空，则$E_{(\tau)}$ 不连通。
 
 ### 习题 {#lie-ix-s9-exercises}
 
-§ 9](exercises/s9/)参见[习题。
+参见[习题为 § 9](exercises/s9/)。

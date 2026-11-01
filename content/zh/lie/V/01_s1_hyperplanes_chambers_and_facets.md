@@ -36,16 +36,16 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: b431691529242ab795beedaf456910fa00f9d71ebe296ca3da07458c6e3bdbe3
+content_sha256: 1c09cf47b68d166f02bf6653fdb030554a2e51e6187a73f3d33f0f12519fc4c9
 translated_from: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
 translation_method: google
 source_content_sha256: f7be8f3f0168194f8856d763a03172c04c58eb904c3b4c4db2d065f58af6315e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 995a8efc2066e2a8ce7f4d347f95f73d8981bacc262a3d714047e4d82f61a099
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 超平面，腔室和刻面
@@ -54,7 +54,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 我们用 H 表示 E 的超平面的局部有限集合（一般拓扑，第 I, § 1, no. 5 章）。
 
-### 1.记号
+### 1. NOTATIONS
 
 设 H 为 E 的超平面。回想一下，E – H 有两个连通分量，称为以 H 为界的开半空间。它们的闭包称为以 H 为界的闭半空间。设 $x, y \in E$。如果 x 和 y 包含在以 H 为界的同一个开半空间中，或者等效地，如果末端为 x 和 y 的闭线段不满足 H，则称 x 和 y 严格位于 H 的同一侧；如果 x 属于到由 H 界定的开半空间之一，并且 y 到另一个开半空间，则称 x 和 y 位于 H 的相对侧。如果 $x \in E$ 和 $t \in T$，则 x 和 t 被认为严格位于 H 的同一侧（如果对于所有 $h \in H$ 的 x 和 $h + t$ 都是如此）。
 
@@ -64,7 +64,7 @@ D_{\mathfrak{N}}(A) = \bigcap_{H \in \mathfrak{N}} D_H(A).
 $$
 如果 A 由单个点 a 组成，我们写为 $D_H(a)$ 和 $D_{\mathfrak{N}}(a)$ 而不是 $D_H(\{a\})$ 和 $D_{\mathfrak{N}}(\{a\})$。
 
-### 2. 方面
+### 2. 面
 
 E 的点的集合不属于到集合 $\mathscr{H}$ 的任何超平面 H 是开路，因为 $\mathscr{H}$ 是局部有限的。更准确地说，我们得到以下结果：
 
@@ -90,7 +90,7 @@ E 的点的集合不属于到集合 $\mathscr{H}$ 的任何超平面 H 是开路
 
 这是很清楚的，因为 $\mathscr{H}$ 是局部有限的。
 
-设 F 为 F 的一个面和一个点。 超平面 $H \in \mathscr{H}$ 包含 F 当且仅当 $a \in H$；因此，这些超平面中的集合 $\mathscr{F}$ 是有限的；它们的交是E的仿射子空间L，我们将其称为F的仿射*支持*； L的维数将被称为F的*维数*。
+设 F 为 F 的一个面和一个点。 超平面 $H \in \mathscr{H}$ 包含于 F 当且仅当 $a \in H$；因此，这些超平面中的集合 $\mathscr{F}$ 是有限的；它们的交是E的仿射子空间L，我们将其称为F的仿射*支持*； L的维数将被称为F的*维数*。
 
 如果$\mathscr{N}$是超平面$H \in \mathscr{H}$的集合不是包含F，那么
 
@@ -154,7 +154,7 @@ Let H be in $\mathfrak{N}'$ and let D be the open half-space bounded by H and di
 
 (iii) $\Longrightarrow$ (i)：令$x$为点满足 (iii) 并令$F'$为面包含 $x$；显然$F'$满足$\overline{F}$。设 $H \in \mathfrak{H}$；那么 $x \notin H$ 如果 $H \in \mathfrak{N}$ 并且显然 $x \in H$ 如果 $H \notin \mathfrak{N}$；因而$F'$的支持度是$\mathfrak{H} - \mathfrak{N}$的超平面的交，并且等于$L$。
 
-最后，令$F'$为$\overline{F}$中包含支持度$L$的面，并令$x$为$F'$的点；由于$\mathfrak{N} \subset \mathfrak{H}$中没有超平面经过$x$，因此，由命题1可知，存在$x$的凸开邻域$U$，且不满足$\mathfrak{N}$的任何超平面。由于$x$处于$F$的闭包中，$U \cap F \neq \varnothing$；现在$\mathfrak{N}$是超平面$H \in \mathfrak{H}$的集合，而不是包含$F'$，并且对于$\mathfrak{N}$中的所有$H$，我们有$D_H(x) = D_H(U) = D_H(U \cap F) = D_H(F)$和公式 (2)意味着
+最后，令$F'$为$\overline{F}$中包含支持度$L$的小平面，令$x$为$F'$的点；由于$\mathfrak{N} \subset \mathfrak{H}$的超平面都没有通过$x$，因此，由命题1可知，存在$x$的凸开邻域$U$，且不满足$\mathfrak{N}$的任何超平面。由于$x$处于$F$的闭包中，$U \cap F \neq \varnothing$；现在$\mathfrak{N}$是超平面$H \in \mathfrak{H}$的集合，而不是包含$F'$，并且对于$\mathfrak{N}$中的所有$H$，我们有$D_H(x) = D_H(U) = D_H(U \cap F) = D_H(F)$和公式 (2)意味着
 
 $$
 F' = L \cap D_{\mathfrak{N}}(F).
@@ -166,9 +166,9 @@ Q.E.D.
 
 #### 定义 2 {#lie-v-s1-def-2 .statement tag=0AP7}
 
-相对于$\mathfrak{H}$的$E$腔室（或者如果关于$\mathfrak{H}$没有歧义，则简称为腔室）是$E$相对于$\mathfrak{H}$的一个面，不包含在任何超平面属于到$\mathfrak{H}$中。
+相对于 $\mathfrak{H}$ 的 $E$ 室（或者如果关于 $\mathfrak{H}$ 没有歧义，则简称为室）是相对于 $\mathfrak{H}$ 的 $E$ 的一个面，不包含在任何超平面属于到 $\mathfrak{H}$ 中。
 
-令$U$为点的$E$由……组成中不属于到$\mathfrak{H}$的任何超平面的开集合；由于$\mathfrak{H}$的超平面必须包含它所遇到的任何面，所以腔室是$U$中包含的面；根据第 3 条，(i)，每个室都是一个凸面（因此相连）开口子集或 $E$；由于$U$的室形式划分，它们正是$U$的连通部分。 $U$ 的每个凸面子集 $A$ 都是相连的，因此包含在一个腔室中，如果 $A$ 非空，则该腔室是唯一的。很明显，腔室是带有支撑 $E$ 的小面，并且命题 3 (iii) 表明每个腔室都是其闭合的内部。最后，令$C$为一个房间，$A$为$C$的非空子集； 公式 (2) 和 (3) 意味着
+设$U$为点的$E$由……组成中不属于到$\mathfrak{H}$的任何超平面的开集合；由于$\mathfrak{H}$的超平面必须包含它所遇到的任何面，所以腔室是$U$中包含的面；根据第 3 条，(i)，每个室都是一个凸面（因此相连）开口子集或 $E$；由于$U$的室形式划分，它们正是$U$的连通部分。 $U$ 的每个凸面子集 $A$ 都是相连的，因此包含在一个腔室中，如果 $A$ 非空，则该腔室是唯一的。很明显，腔室是带有支撑 $E$ 的小面，并且命题 3 (iii) 表明每个腔室都是其闭合的内部。最后，令$C$为一个房间，$A$为$C$的非空子集； 公式 (2) 和 (3) 意味着
 
 $$
 C = \bigcap_{H \in \mathfrak{H}} D_H(A) = D_{\mathfrak{H}}(A), \quad \overline{C} = \bigcap_{H \in \mathfrak{H}} \overline{D_H(A)}
@@ -178,7 +178,7 @@ $$
 
 #### 命题 5 {#lie-v-s1-prop-5 .statement tag=0AP8}
 
-令$C$为$E$的非空子集。假设存在$\mathfrak{H}$的子集$\mathfrak{H}'$具有以下性质：
+令$C$为$E$的非空子集。假设存在 $\mathfrak{H}$ 的子集 $\mathfrak{H}'$，具有以下属性：
 
 a) 对于任何$H \in \mathfrak{H}'$，存在一个以$H$为界的开半空间$D_H$，使得$C = \bigcap_{H \in \mathfrak{H}'} D_H$。
 
@@ -190,7 +190,7 @@ b) *集合C不满足任何超平面属于至$\mathfrak{H} - \mathfrak{H}'$。在
 
 *E 的每点至少有一个封闭室。*
 
-如果 E 约化到单个点，这很清楚。否则，令$a \in E$且令$H_1, \ldots, H_m$为$\mathfrak{H}$包含于$a$中的超平面。由于$\mathfrak{H}$是局部有限的，因此存在$a$的邻域V不满足除$H_1, \ldots, H_m$之外的$\mathfrak{H}$的任何超平面。设D是一条直线经过通过$a$且不包含在任何$H_i$中；如果$x \in D, x \neq a$，并且$x$足够接近$a$，则开段$]ax[$包含在V中，并且不满足任何$H_i$。然后$]ax[ \subset U$；由于$]ax[$连通，因此它包含在C室中，因此为$a \in \overline{C}$。
+如果 E 约化到单个点，这很清楚。否则，令$a \in E$且$H_1, \ldots, H_m$为$\mathfrak{H}$包含于$a$中的超平面。由于$\mathfrak{H}$是局部有限的，因此存在$a$的邻域V不满足除$H_1, \ldots, H_m$之外的$\mathfrak{H}$的任何超平面。设D是一条直线经过穿过$a$且不包含在任何$H_i$中；如果$x \in D, x \neq a$，且$x$足够接近$a$，则开段$]ax[$包含在V中，并且不满足任何$H_i$。然后$]ax[ \subset U$；由于$]ax[$连通，因此它包含在C室中，因此为$a \in \overline{C}$。
 
 #### 命题 7 {#lie-v-s1-prop-7 .statement tag=0APA}
 
@@ -250,9 +250,9 @@ $$
 C = D_{\delta}(C) = D_L(C) \cap D_{\gamma}(C) = D^+ \cap D_{\gamma}(F) = C^+.
 $$
 
-### 5.相交超平面
+### 5. 相交超平面
 
-回想一下（代数，第 II, § 9, no. 3 章），如果 T 中存在向量 t 使得 $P' = t + P$，则 E 的两个仿射子空间 P 和 $P'$ 被称为平行。显然，关系“P 和 $P'$ 平行”是 E 的仿射子空间集合上的等价关系。
+回想一下（代数，第 II, § 9, no. 3 章），如果 T 中存在向量 t 使得 $P' = t + P$，则 E 的两个仿射子空间 P 和 $P'$ 被称为平行。显然，关系“P 和 $P'$ 平行”是 E 的仿射子空间的集合上的等价关系。
 
 #### 引理 1 {#lie-v-s1-lem-1 .statement tag=0APG}
 
@@ -275,9 +275,9 @@ $$
 
 然后从 $a \notin H$ 开始$\lambda' \neq 0$；此外，由于$H \neq H'$，存在$b \in H$使得$b \notin H'$，从而$f(b) = 0, f'(b) \neq 0$，因此$g(b) = -f(a).f'(b)$非零。 点的集合$L_1$，其中仿射函数$g \neq 0$消失，则为E的超平面；我们有$g(a) = 0$，所以$a \in L_1$。
 
-a) *假设H和$H'$平行*：g和f在$L_1 \cap H$的每点处都消失，因此从$\lambda' \neq 0$开始$f'$也消失；因此$L_1 \cap H$属于到$H'$的每点；但由于 H 和 $H'$ 平行且不同，因此它们是不相交的，因此 $L_1 \cap H = \varnothing$ 和引理 1 表明 $L_1$ 与 H 平行。由于 $a \in L$ 和 $a \in L_1$，因此我们有 $L = L_1$。
+a) *假设H和$H'$平行*：g和f在$L_1 \cap H$的每点处都消失，因此从$\lambda' \neq 0$开始$f'$也消失；因此$L_1 \cap H$属于到$H'$的每一个点；但由于 H 和 $H'$ 平行且不同，因此它们是不相交的，因此 $L_1 \cap H = \varnothing$ 和引理 1 表明 $L_1$ 与 H 平行。由于 $a \in L$ 和 $a \in L_1$，因此我们有 $L = L_1$。
 
-b) *假设H和$H'$不平行*：通过引理1，$H \cap H'$中有点c；我们给出以c为原点得到的E向量空间结构。那么$H \cap H'$就是余维2的$E$的向量子空间，并且从$a \notin H$开始，由$H \cap H'$和$a$生成$E$的向量子空间$M$是超平面；由于$H \cap H' \subset L \cap L_1$和$a \in L \cap L_1$，我们有$M \subset L \cap L_1$，因此有$M = L = L_1$。 Q.E.D.
+b) *假设H和$H'$不平行*：到引理1，$H \cap H'$中有点c；我们给出以c为原点得到的E向量空间结构。那么$H \cap H'$就是余维2的$E$的向量子空间，并且从$a \notin H$开始，由$H \cap H'$和$a$生成$E$的向量子空间$M$是超平面；由于$H \cap H' \subset L \cap L_1$和$a \in L \cap L_1$，我们有$M \subset L \cap L_1$，因此有$M = L = L_1$。 Q.E.D.
 
 #### 命题 10 {#lie-v-s1-prop-10 .statement tag=0API}
 
@@ -291,9 +291,9 @@ b) *超平面 H 和 H' 不平行，且$\overline{H \cap H'} \subset L$*。
 
 令$b$（或$b'$）为C面在支撑H（或$H'$）下的点； $[bb']$的每个点与$b$和$b'$、属于到C不同，是直接的。
 
-引入一个仿射函数 $f$，它在 H 的每点处消失，并且对于 $D_H(C)$ 中的$x$，$f(x) > 0$；类似地，引入一个仿射函数 $f'$，对于 $H'$ 具有类似的性质。通过应用引理2，我们可以找到数$\lambda$和$\lambda'$以及具有引理中所述性质的仿射函数$g$。我们有$(\lambda, \lambda') \neq (0, 0)$，对于$L \cap D_H(C) \cap D_{H'}(C)$的每一个点$x$，我们有$f(x) > 0,\ f'(x) > 0$和$\lambda.f(x) + \lambda'.f'(x) = 0$，所以$\lambda \lambda' < 0$。另一方面，我们有$g(b) = \lambda'.f'(b)$和$g(b') = \lambda.f(b')$，从$f(b') > 0,\ f'(b) > 0$开始，我们有$g(b)g(b') < 0$。因此，点$b$和$b'$严格位于超平面L的相对侧，因此存在L的点c，其中属于到$[bb']$，并且不同于$b$和$b'$，因此属于到C。
+引入仿射函数 $f$，该仿射在 H 的每点处消失，并且对于 $D_H(C)$ 中的$x$，$f(x) > 0$；类似地，引入一个仿射函数 $f'$，对于 $H'$ 具有类似的性质。通过应用引理2，我们可以找到数$\lambda$和$\lambda'$以及具有引理中所述性质的仿射函数$g$。我们有$(\lambda, \lambda') \neq (0, 0)$，对于$L \cap D_H(C) \cap D_{H'}(C)$中的每一个点$x$，我们有$f(x) > 0,\ f'(x) > 0$和$\lambda.f(x) + \lambda'.f'(x) = 0$，所以$\lambda \lambda' < 0$。另一方面，我们有$g(b) = \lambda'.f'(b)$和$g(b') = \lambda.f(b')$，从$f(b') > 0,\ f'(b) > 0$开始，我们有$g(b)g(b') < 0$。因此，点$b$和$b'$严格位于超平面L的相对侧，因此存在L的点c，其中属于到$[bb']$，并且不同于$b$和$b'$，因此属于到C。
 
-### 6. 例：单纯圆锥体和单纯形
+### 6. 例: 单纯锥体和单纯体
 
 a) 设$a$为$E$的点，且$(e_1, \ldots, e_d)$基为$T$；因此，$E$中的每个点都可以唯一地写成形式
 

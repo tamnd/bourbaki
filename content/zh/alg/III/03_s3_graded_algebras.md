@@ -26,16 +26,16 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: 4134b720c21ebc0e44e3ec6ddecbbb61c1e00f308595e50fdd4ac09faf7fc6eb
+content_sha256: 1e87ecc074cbff846e6ec7af1a849c5d2a1fda143d689d5aecb6005242104564
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
 translation_method: google
 source_content_sha256: d496b7e9119afe9a64c71792995d77ced2c25e2dbf7df0912c545226ff6cffa2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9d19881415a6ed27c3477d76f24a7e901a7b240231ce38b6d0d82dbcd273b438
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。评分代数
@@ -53,15 +53,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *A-代数 E，有了这个分级，就被称为分级代数，分级为型 $\Delta$，分级为环 A。*
 
-当 A 上的毕业*微不足道*（即 $\lambda \neq 0$ 的 (II, § 11, no. 1) $A_0 = A, A_\lambda = \{0\}$）时，条件 (1) 意味着 $E_\lambda$ 是 E 的 *子 A 模块*。这导致定义或概念的分级代数型$\Delta$超过*非分级*交换环$A$：$A$被赋予型$\Delta$的微不足道的分级，并且应用上述定义。
+当 A 上的毕业*微不足道*（即 $\lambda \neq 0$ 的 (II, § 11, no. 1) $A_0 = A, A_\lambda = \{0\}$）时，条件 (1) 意味着 $E_\lambda$ 是 E 的 *子 A 模块*。这导致定义的概念的分级代数型 $\Delta$ 超过*非分级* 交换环 $A$： $A$ 被赋予型 $\Delta$ 的简单分级，并应用上述定义。
 
 当我们考虑带有 *单位元* $e$ 的分级 $A$-代数 $E$ 时，总会理解$e$ 是次数* 0 (cf. 习题 1)。
 
-由此可见，如果可逆元 $x \in E$ 是*齐次*且为次数 $p$，则其逆 $x^{-1}$ 为*齐次*且为次数 $-p$：足以将 $x^{-1}$ 分解为关系 $x^{-1}x = xx^{-1} = e$ 中同质元素的和。
+由此可见，如果可逆元 $x \in E$ 是*齐次*且为次数 $p$，则其逆 $x^{-1}$ 为*齐次*且为次数 $-p$：足以将 $x^{-1}$ 分解为关系$x^{-1}x = xx^{-1} = e$中同质元素的和。
 
 令$E$和$E'$为型$\Delta$的两个分级代数，超过型$\Delta$的分级环$A$。如果 $u(E_\lambda) \subset E'_\lambda$ 对于所有 $\lambda \in \Delta$ 而言，$A$-代数同态 $u : E \to E'$ 被称为*分级代数同态*（其中 $(E_\lambda)$ 和 $(E'_\lambda)$ 分别表示 $E$ 和 $E'$ 的分级）；其中 $E$ 和 $E'$ 是结合且单位的，$u$ 是单位的，这个条件意味着 $u$ 是分级的环同态 (II, § 11, no. 2)。
 
-令 $E$ 为型 $N$ 的分级 $A$ 代数。 $E$ 与型 $\mathbf{Z}$ 的分级 $A$ 代数一致，通过将 $n < 0$ 写为$E_n = \{0\}$。
+令 $E$ 为型 $N$ 的分级 $A$ 代数。 $E$ 与型 $\mathbf{Z}$ 的分级 $A$ 代数一致，通过将 $n < 0$ 写为 $E_n = \{0\}$ 来识别。
 
 #### 注 {#alg-iii-s3-n1-rem-1 .statement tag=0604}
 
@@ -109,10 +109,10 @@ Similarly, if $a$ is a left (resp. right) ideal of $E$ which is a graded sub-$A$
 
 $S$生成的$E$的子代数是$S$的元素的有限乘积生成的子$A$模，它们是齐次的；类似地，$S$生成的左（或右）理想是形式$u_1(u_2(\ldots(u_n s))\ldots)$（或$(\ldots((s u_n) u_{n-1})\ldots) u_2$）$u_1$）的元素生成的子$A$模块，其中s ∈ S和u_j ∈ E是齐次的（n任意）并且这些乘积是齐次的，从而在这种情况下是根据II, § 11, no. 3、命题 2)得出的结论；最终 S 生成的两侧理想为并或序列 (\mathfrak{I}_n)_{n \geq 1}，其中 \mathfrak{I}_1 是 S 生成的左理想，而 \mathfrak{I}_{2n} （分别为\mathfrak{I}_{2n+1}）由 \mathfrak{I}_{2n-1} （或 \mathfrak{I}_{2n}）生成的右（或左）理想，完成证明。
 
-### 3. 直极限评分代数
+### 3. 直极限已评分代数
 
 设 (A_\alpha, \phi_{\beta \alpha}) 为型 \Delta (II, § 11, no. 3, 注 3) 的分级交换环的有向直接系统，对于每个 \alpha，令 E_\alpha 为型 \Delta 的分级 A_\alpha 代数；对于 \alpha \leq \beta 设 f_{\beta \alpha}：E_\alpha \to E_\beta 是分级代数的 A_\alpha 同态，并假设 f_{\gamma \alpha} = f_{\gamma \beta} \circ f_{\beta \alpha} 对于 \alpha \leq \beta \leq \gamma；那么我们将在型 \Delta 的分级交换环的有向直接系统 (A_\alpha, \phi_{\beta \alpha}) 上调用 (E_\alpha, f_{\beta \alpha}) 型 \Delta 的分级代数的有向直接系统。然后我们知道 (II, § 11, no. 3) E = \lim \to E_\alpha 在分级环 A = \lim \to A_\alpha 和乘法上具有规范的模结构型 \Delta 分级，使得 E^\lambda E^\mu \子集 E^{\lambda + \mu} （其中(E^\lambda)表示E)上的刻度；那么这个乘法和 E 定义上的分级 A-模结构在 E 上分级的 A-代数结构型 \Delta； E，这个结构，被称为分级代数的直接系统(E_\alpha, f_{\beta \alpha})的直极限。 典范同态 E_\alpha \ 到 E 取分级代数的 A_\alpha 同态。此外，如果 F 是型 \Delta 的分级 A-代数和 A_\alpha 同态 u_\alpha 的 (u_\alpha) 直接系统：E_\alpha \to F，则 u = \lim \to u_\alpha 是分级代数的 A-同态。
 
 ### 习题{#alg-iii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

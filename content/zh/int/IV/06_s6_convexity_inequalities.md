@@ -33,21 +33,21 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 89e18b5f816ed55fd4a1d938f235bb90538999b3c4a1c7d492b5a460205f1960
+content_sha256: 8b6964863efbc37c14d16cad2152284b4b2130539fab3dc7bd836e29bb75109a
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
 translation_method: google
 source_content_sha256: 5da8e094f0389b678ca69f52f247e8417940837f7695de9c80ebdf9dcbcce321
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 578a3d9460c638ff32b1c1d8d55a1c82246e675227a5b2f28a0591700106fda6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。凸性不等式
 
-### 1.凸度定理
+### 1. 凸度定理
 
 #### 定理 1 {#int-iv-s6-thm-1 .statement tag=08XD}
 
@@ -89,7 +89,7 @@ $$
 \inf_{x \in X} f(x) \leq m_\infty(f) \leq M_\infty(f) \leq \sup_{x \in X} f(x).
 $$
 
-如果两个函数 $f, g$ 几乎处处局部相等，则 $m_\infty(f) = m_\infty(g)$ 和 $M_\infty(f) = M_\infty(g)$。
+如果两个函数$f, g$几乎处处局部相等，则$m_\infty(f) = m_\infty(g)$和$M_\infty(f) = M_\infty(g)$。
 
 最后，如果$f$和$g$是两个函数，使得$f + g$几乎在任何地方都被本地定义，那么
 
@@ -105,7 +105,7 @@ M_\infty(fg) \leq M_\infty(f) M_\infty(g)
 $$
 前提是定义了第二个成员。
 
-如果 $M_\infty(f) < +\infty$，则 $f(x) < +\infty$ 局部几乎无处不在，但不一定几乎无处不在。如果数值函数 $f$ 被称为在测度上有界（对于测度 $\mu$），如果它几乎在任何地方都被定义且有限，而且，如果数 $m_\infty(f)$ 和 $M_\infty(f)$ 都是有限的（后者条件等于说， $M_\infty(|f|) < +\infty$）。
+如果 $M_\infty(f) < +\infty$，则 $f(x) < +\infty$ 局部几乎无处不在，但不一定几乎无处不在。如果数值函数 $f$ 被称为在测度上有界（对于测度 $\mu$），如果它几乎处处都被定义且有限，而且如果数 $m_\infty(f)$ 和 $M_\infty(f)$ 都是有限的（后者条件等于说， $M_\infty(|f|) < +\infty$）。
 
 #### 命题 1（平均值的不等式）{#int-iv-s6-prop-1 .statement tag=08XG}
 
@@ -119,15 +119,15 @@ $$
 
 事实上，$fg$是可测量的（§ 5, No. 3，Th.1的Cor.5）；此外，不等式$m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$不仅在局部几乎所有地方都成立，甚至几乎在所有地方都成立，因为点$x \in X$的集合其中$g(x) \neq 0$是可积集合的可数并（§ 5, No. 6， 引理1)。由此可知 $fg$ 可积（§ 5, No. 6，Th. 5）且不等式 (3) 成立。另一方面，函数$M_\infty(f)g - fg$几乎到处都有定义并且等于$(M_\infty(f) - f)g$；因此，$\geqslant 0$几乎在$X$中无处不在；由于关系$M_\infty(f) \int g d|\mu| = \int fg d|\mu|$等价于$\int (M_\infty(f) - f)g d|\mu| = 0$，因此只有当函数$(M_\infty(f) - f)g$可以忽略不计时，它才能成立，从而完成证明。
 
-设定撇开 $\int g d|\mu| = 0$、不等式 (3) 可以从 Th 推导出来的琐碎情况不谈。 No. 1 中的 1 应用于区间 $D = [m_\infty(f), M_\infty(f)]$。一个人可以把Th. No. 1 中的第 1 条类似于命题 1 的补码，指定点 $(\int fg d\mu)/(\int g d\mu)$ 属于到 D 边界的情况（例 2）。
+设定撇开$\int g d|\mu| = 0$、不等式 (3) 可以从Th 推导出来的小情况不谈。 No. 1 中的 1 应用于区间 $D = [m_\infty(f), M_\infty(f)]$。一个人可以把Th. No. 1 中的第 1 条类似于命题 1 的补码，指定点 $(\int fg d\mu)/(\int g d\mu)$ 属于到 D 边界的情况（例 2）。
 
-### 3.空间$L^\infty_F$
+### 3. 空间$L^\infty_F$
 
 #### 定义 2 {#int-iv-s6-def-2 .statement tag=08XH}
 
-*将 $X$ 中的每映射 $f$ 放入 Banach 空间 $F$，即可得到 1 个集合 $N_\infty(f) = M_\infty(|f|)$；如果 $N_\infty(f)$ 是有限的，则 $f$ 被称为在测度上有界（对于测度 $\mu$）。 $X$ 的映射到 $F$ 的集合是可测量的并且在测量上有界，表示为 $\mathscr{L}_F^\infty(X, \mu)$（或 $\mathscr{L}_F^\infty(\mu)$，或简称为 $\mathscr{L}_F^\infty$）。*
+*将 $X$ 中的每映射 $f$ 放入 Banach 空间 $F$，即可获得 1 个集合 $N_\infty(f) = M_\infty(|f|)$；如果 $N_\infty(f)$ 是有限的，则 $f$ 被称为在测度上有界（对于测度 $\mu$）。 $X$ 的映射到 $F$ 的集合是可测量的并且在测量上有界，表示为 $\mathscr{L}_F^\infty(X, \mu)$（或 $\mathscr{L}_F^\infty(\mu)$，或简称为 $\mathscr{L}_F^\infty$）。*
 
-因此，$\mathscr{L}_F^\infty$中的函数$f$的特征可能是存在一个“有界可测”的函数，几乎处处都等于$f$。
+因此，$\mathscr{L}_F^\infty$中的函数$f$的特征可能是存在一个“有界可测量”函数，几乎处处都等于$f$。
 
 从 (1) 可以立即得出
 
@@ -153,13 +153,13 @@ $$
 N_\infty(f) \leq \| f \| = \sup_{x \in X} |f(x)| .
 $$
 
-在阶中，$N_\infty(f) = \|f\|$对于每个有界连续函数$f$，测度$\mu$的支持度等于$X$是必要且充分的。 For, if there exists a continuous 函数 $f$ with negligible compact support and not identically 零, then $N_\infty(f) = 0$ and $\|f\| > 0$.相反，如果$\mu$的支持度等于$X$，则对于每个有界连续函数$f$和每个数$\alpha < \|f\|$，$x \in X$的集合使得$|f(x)| > \alpha$开且非空，因此有外部测量$> 0$，显示$N_\infty(f) = \|f\|$。
+在阶中，$N_\infty(f) = \|f\|$对于每个有界连续函数$f$，测度$\mu$的支持度等于$X$是必要且充分的。因为，如果存在紧支撑可忽略不计的连续函数 $f$ 并且零不相同，则$N_\infty(f) = 0$ 和$\|f\| > 0$。相反，如果$\mu$的支持度等于$X$，则对于每个有界连续函数$f$和每个数$\alpha < \|f\|$，$x \in X$的集合使得$|f(x)| > \alpha$开且非空，因此有外部测量$> 0$，显示$N_\infty(f) = \|f\|$。
 
 当$\mu$的支持度等于$X$时，我们可以因此认同有界连续函数在$X$上的规范空间$C^b(X; F)$，值在$F$上，子空间为空间$L_F^\infty$。由于 $L_F^\infty$ 不是一般的 Hausdorff，所以子空间 $C^b(X; F)$ 在 $L_F^\infty$ 中一般不是闭的，但它在 $L_F^\infty$ 中的典范像是 $L_F^\infty$ 的闭子空间（在这种情况下还可以用 $C^b(X; F)$ 来识别）考虑）。一般来说，$C^b(X; F)$与$L_F^\infty$不同，也就是说，对于任意有界可测函数$f$，一般不存在几乎处处局部等于$f$的连续函数$g$（§ 5，Exer.12）。这意味着$X$的映射到$F$的空间$\mathscr{H}(X; F)$，连续有紧支撑，在$L_F^\infty$中通常不稠密，而在$1 \leq p < +\infty$的空间$L_F^p$中是稠密的（§ 3, No. 4。默认 2）。
 
-2) 半范数$N_\infty$定义的拓扑比更细比拓扑在$L_F^\infty$上由测度收敛拓扑诱导的直接的（§ 5, No. 11）来说是直接的。
+2) 半范数$N_\infty$定义的拓扑比更细比在$L_F^\infty$上由测度收敛拓扑诱导的拓扑是直接的（§ 5, No. 11）。
 
-### 4. 霍尔德的不等式
+### 4. 霍尔德不等式
 
 在此编号中，$p$和$q$将表示两个实数，使得$1 \leq p \leq +\infty$、$1 \leq q \leq +\infty$，受关系$1/p + 1/q = 1$约束；因此，如果$1 < p < +\infty$则为$q = p/(p-1)$，如果$p = 1$则为$q = +\infty$，如果$p = +\infty$则为$q = 1$； $p$和$q$将被称为共轭指数。 注即关系$1 \leq p \leq 2$等价于$2 \leq q \leq +\infty$；仅当$p$和$q$等于2时$p = q$。
 
@@ -346,9 +346,9 @@ $$
 
 #### 推论 {#int-iv-s6-n4-cor-1 .statement tag=08XS}
 
-— *令$\mu$为$X$的正测度，$F$为Banach空间，$F'$其强对偶，$g$为$\mathscr{L}^q_{F'}$中的任何函数。然后，$L^p_F$上的线性形式，由$\mathscr{L}^p_F$上的线性形式$f \mapsto \int \langle f, g \rangle d\mu$通过商推导出来，是连续的，有范数$N_q(g)$。*
+— *令$\mu$为$X$的正测度，$F$为Banach空间，$F'$其强对偶，$g$为$\mathscr{L}^q_{F'}$中的任何函数。那么，$L^p_F$上的线性形式，由$\mathscr{L}^p_F$上的线性形式$f \mapsto \int \langle f, g \rangle d\mu$通过商推导出来，是连续的，有范数$N_q(g)$。*
 
-### 5.申请：关系空间 $L^p_F$ ($1 \leq p \leq +\infty$)
+### 5. 应用：关系空间 $L^p_F$ ($1 \leq p \leq +\infty$)
 
 #### 命题 4 {#int-iv-s6-prop-4 .statement tag=08XT}
 
@@ -424,8 +424,8 @@ $$
 
 #### 推论{#int-iv-s6-n5-cor-3 .statement tag=08XY}
 
-— 如果 $X$ 是离散的，并且度量 $\mu$ 由 $X$ 的每个点处的质量 $+1$ 定义，则关系 $r < s$ 意味着$\mathscr{L}_F^r \subset \mathscr{L}_F^s$；此外，阶 $r$ 的平均值收敛性拓扑比阶 $s$ 的平均值收敛性拓扑更细（在$\mathscr{L}_F^r$ 上）。
+— If $X$ is discrete and the measure $\mu$ is defined by a mass $+1$ at each point of $X$, then the relation $r < s$ implies $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; moreover, the topology of convergence in mean of order $r$ is finer than the topology of convergence in mean of order $s$ (on $\mathscr{L}_F^r$).
 
-### 习题 {#int-iv-s6-exercises}
+### 习题{#int-iv-s6-exercises}
 
-请参阅 § 6](exercises/s6/) 的 [习题。
+参见[习题为 § 6](exercises/s6/)。

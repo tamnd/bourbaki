@@ -22,21 +22,21 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: cdf5aa56506061e259095a64cd33871f0a191fe09e05d6879d8f7024963fe4a8
+content_sha256: 0e5a4994d5eaf1cece33bec2f57d2b9dc3654eae12743db1842cf513b07b762a
 translated_from: content/en/ens/II/02_s2_ordered_pairs.md
 translation_method: google
 source_content_sha256: 30cc0208eaab54246e96f854154d361c7bc5ca97861fad03285d7ff5c5137aa4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0f2c415b9c3e468c68f94caad5757f77fcc008980d0031c1d06ddff66afa6f13
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.有序对
+## 2. 有序对
 
-### 1. 有序对公理
+### 1. 有序对的公理
 
 正如我们在§1, no. 1中所说，符号$\supset$是集合论中权2的实数符号。如果T，U是项，则$\supset$TU是项，实际上用(T, U)表示。在这个记号中，有序对*的*公理如下：
 
@@ -44,7 +44,7 @@ A3。 $(\forall x)(\forall x')(\forall y)(\forall y')(((x, y) = (x', y')) \Right
 
 由于关系“$x = x'$和$y = y'$”通过C44暗示$(x, y) = (x', y')$（章I, § 5, no. 2），关系$(x, y) = (x', y')$“等价”于“$x = x'$和$y = y'$”。
 
-¶ 关系 $(\exists x)(\exists y)(z=(x,y))$ 写作“$z$ 是 *有序对*”。如果$z$是有序对，则关系
+¶ 关系 $(\exists x)(\exists y)(z=(x,y))$ 写作“$z$ 是 *有序对*”。如果$z$是有序对，关系
 
 $$
 (\exists y)(z=(x,y)),\qquad(\exists x)(z=(x,y))
@@ -58,13 +58,13 @@ $$
 
 分别用$\operatorname{pr}_1z$和$\operatorname{pr}_2z$表示，称为$z$的*第一坐标*（或*第一投影*）和*第二坐标*（或*第二投影*）。如果 $z$ 为有序对，则关系 $(\exists y)(z=(x,y))$ 相当于 $x=\operatorname{pr}_1z$，关系 $(\exists x)(z=(x,y))$ 相当于 $y=\operatorname{pr}_2z$ (章 I, §5, no. 3)。
 
-¶ 关系 $z=(x,y)$ 相当于“$z$ 是有序对，以及$x=\operatorname{pr}_1z$ 和 $y=\operatorname{pr}_2z$”；对于后者关系相当于
+¶ 关系 $z=(x,y)$ 相当于“$z$ 是有序对，以及 $x=\operatorname{pr}_1z$ 和 $y=\operatorname{pr}_2z$”；对于后者关系相当于
 
 $$
 (\exists x')(\exists y')(\exists x'')(\exists y'')(z=(x',y')\text{ and }z=(x,y'')\text{ and }z=(x'',y));
 $$
 
-由A3可知，“$z=(x',y')$和$z=(x,y'')$和$z=(x'',y)$”相当于“$z=(x,y)$和$x=x'$和$x=x''$和$y=y'$和$y=y''$”；因此，通过 C33 (章 I, §4, no. 3)，“$z$ 是有序对，$x=\operatorname{pr}_1z$ 和 $y=\operatorname{pr}_2z$”相当于
+由A3可知，“$z=(x',y')$和$z=(x,y'')$和$z=(x'',y)$”相当于“$z=(x,y)$和$x=x'$和$x=x''$和$y=y'$和$y=y''$”；因此，通过 C33 (章 I, §4, no. 3)，“$z$ 是有序对，并且 $x=\operatorname{pr}_1z$ 和 $y=\operatorname{pr}_2z$”相当于
 
 $$
 z=(x,y)\text{ and }(\exists x')(\exists y')(\exists x'')(\exists y'')(x=x'\text{ and }x=x''\text{ and }y=y'\text{ and }y=y''),
@@ -92,7 +92,7 @@ $$(\exists z)(z = (x, y) \text{ and } S\{z\})$$
 
 这意味着我们可以将对象、$x$和$y$之间的关系解释为由这些对象组成的有序对的性质。
 
-### 2.两个集合的积
+### 2. 两个集合的积
 
 #### 定理 1 {#ens-ii-s2-thm-1 .statement tag=03PC}
 
@@ -102,7 +102,7 @@ $$(\forall X)(\forall Y)(\exists Z)(\forall z)((z \in Z) \Leftrightarrow (\exist
 
 *是真的。在其他字中，对于所有*X*和所有*Y*关系*“$z$*是有序对和*$\mathrm{pr}_1 z \in X$*和*$\mathrm{pr}_2 z \in Y$”*是集合化在*$z$。
 
-让$A_y$表示形式$(x, y)$的所有对象中的集合对于$x \in X$（cf.§1, no. 6，标准C53）。令R为关系$z \in A_y$，相当于$(\exists x)(z = (x, y)$和$x \in X)$。很明显关系
+令$A_y$表示$x \in X$的形式$(x, y)$的所有对象中的集合（cf.§1, no. 6，标准C53）。令R为关系$z \in A_y$，相当于$(\exists x)(z = (x, y)$和$x \in X)$。很明显关系
 
 $$(\forall y)(\exists A)(\forall z)(R \Rightarrow (z \in A))$$
 
@@ -130,9 +130,9 @@ $$A' \times B' \subset A \times B.$$
 
 #### 命题 2 {#ens-ii-s2-prop-2 .statement tag=03PF}
 
-*设*A*和*B*为两个集合。 关系* $A \times B = \emptyset$ *相当于*“$A = \emptyset$ *或* $B = \emptyset$”。
+*设*A*和*B*为两个集合。 关系* $A \times B = \emptyset$ *相当于*“$A = \emptyset$ *或*$B = \emptyset$”。
 
-对于关系$z \in A \times B$意味着$\mathrm{pr}_1 z \in A$和$\mathrm{pr}_2 z \in B$；因而$A \neq \emptyset$和$B \neq \emptyset$。相反，关系“$x \in A$和$y \in B$”意味着$(x, y) \in A \times B$，因此意味着$A \times B \neq \emptyset$。在其他字中，关系$A \times B \neq \emptyset$相当于“$A \neq \emptyset$和$B \neq \emptyset$”；因此结果。
+对于关系$z \in A \times B$意味着$\mathrm{pr}_1 z \in A$和$\mathrm{pr}_2 z \in B$；因而$A \neq \emptyset$和$B \neq \emptyset$。相反，关系“$x \in A$和$y \in B$”意味着$(x, y) \in A \times B$，因此意味着$A \times B \neq \emptyset$。在其他字、关系、$A \times B \neq \emptyset$等价于“$A \neq \emptyset$和$B \neq \emptyset$”；因此结果。
 
 如果 A, B, C 是集合，我们写
 
@@ -144,6 +144,6 @@ $$(A \times B \times C) \times D = A \times B \times C \times D;$$
 
 等等。
 
-### 习题{#ens-ii-s2-exercises}
+### 习题 {#ens-ii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

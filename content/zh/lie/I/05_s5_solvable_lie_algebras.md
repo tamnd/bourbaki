@@ -37,27 +37,27 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 0617c59740ac25cf1389cf58fe61306426171ea4f73407c6b56321f31d84e860
+content_sha256: 0dd234ea04980598fba7e0e892c74940f930a7cf322f7c8c96dc64c50bb7f2b7
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
 translation_method: google
 source_content_sha256: 17ded9a5fe0c8a2a7818b8d120cc2777d7e553298aff0352151f7762860f3aac
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 30150f086398d787f400fa5d8c756f53baf9b7c240e1a97d24303c8dcd669c89
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 可解李代数
 
-回想一下，$K$ 从此表示特征 0 的域，并且所有李代数都被假定为 $K$ 上的有限维。†
+回想一下，$K$ 从此表示特征 0 的域，并且所有李代数都假设为 $K$ 上的有限维。†
 
-### 1.定义可解李代数
+### 1. 定义 / 可解李代数
 
 #### 定义 1 {#lie-i-s5-def-1 .statement tag=09Y1}
 
-*如果足够大 $k$ 的第 k 个派生代数 $D^k g$ 是零，则李代数 $g$ 称为可解。*
+*如果李代数$g$的第k个派生代数$D^k g$对于足够大$k$来说是零，则称为可解。*
 
 幂零李代数是可解的。
 
@@ -78,16 +78,16 @@ $$
 *令$g$为李代数。以下条件是等效的：*
 
 (a) $g$ 是可解的；
-(b) *存在递减序列 $g = g_0 \supset g_1 \supset \cdots \supset g_n = \{0\}$ $g$ 的理想，使得代数 $g_i/g_{i+1}$ 是可交换的 ($i = 0, 1, \ldots, n-1$)；*
+(b) *存在 $g$ 的理想递减序列 $g = g_0 \supset g_1 \supset \cdots \supset g_n = \{0\}$，使得代数 $g_i/g_{i+1}$ 是可交换的 ($i = 0, 1, \ldots, n-1$)；*
 (c) *存在$g$的子代数的递减序列$g = g'_0 \supset g'_1 \supset \cdots \supset g'_p = \{0\}$，使得$g'_{i+1}$是$g'_i$的理想且$g'_i/g'_{i+1}$是可交换的($i = 0, 1, \ldots, p-1$)；*
 (d) *存在$g$的子代数的递减序列$g = g''_0 \supset g''_1 \supset \cdots \supset g''_q = \{0\}$，使得$g''_{i+1}$是余维1 ($i = 0, 1, \ldots, q-1$)的$g''_i$的理想。*
 
-(a) $\Rightarrow$ (b)：考虑$g$的派生理想中的序列就足够了。
+(a) $\Rightarrow$ (b)：考虑 $g$ 的派生理想中的序列就足够了。
 (b) $\Rightarrow$ (c)：这是显而易见的。
-(c)$\Rightarrow$(d)：假设条件(c)成立； $g'_i$ 包含 $g'_{i+1}$ 中的每一个向量子空间都是$g'_i$、从而的理想立即 (d)。
-(d) $\Rightarrow$ (a)：这直接源于以下事实：可解的代数的扩张是可解的代数是可解的。
+(c)$\Rightarrow$(d)：假设条件(c)成立； $g'_i$ 包含 $g'_{i+1}$ 的每一个向量子空间都是$g'_i$、从而的理想立即 (d)。
+(d) $\Rightarrow$ (a)：这直接源于以下事实：可解的代数与可解的代数的扩张是可解的。
 
-† 读者会发现注 $K$ 的特性中的假设并未在第 2 条中使用。本段 1 和 2。
+† 读者会发现注 $K$ 的特性中的假设并未在第 1 条中使用。本段 1 和 2。
 
 例 / 可解李代数
 
@@ -97,7 +97,7 @@ II。 § 1的公式(5)证明$\mathscr{D}t(n, K) = n(n, K)$。由于 $n(n, K)$ �
 
 ### 2. 李代数的根式
 
-令 $a, b$ 为李代数 $g$ 的两个可解理想。 代数 $(a + b)/b$ 与 $a/(a \cap b)$ 同构的，因此是可解的，并且 $a + b$（$(a + b)/b$ 的扩张除以$b$）也是可解的 (命题 1)。由此可见，$g$包含的最大可解理想，$g$的每个可解理想，因此$g$有最大的可解理想。这使我们能够制作以下定义：
+令 $a, b$ 为李代数 $g$ 的两个可解理想。 代数 $(a + b)/b$ 与 $a/(a \cap b)$ 同构的，因此可解，而 $a + b$（$(a + b)/b$ 的扩张除以 $b$）也是可解的 (命题 1)。由此可见，$g$包含的最大可解理想，$g$的每个可解理想，因此$g$有最大的可解理想。这使我们能够做出以下定义：
 
 #### 定义 2 {#lie-i-s5-def-2 .statement tag=09Y4}
 
@@ -115,19 +115,19 @@ II。 § 1的公式(5)证明$\mathscr{D}t(n, K) = n(n, K)$。由于 $n(n, K)$ �
 
 *令$g_1, \ldots, g_n$为李代数。 $g_i$的乘积的部首$r$是$g_i$的部首$r_i$的乘积。*
 
-$r_i$ 的乘积 $r'$ 是可解理想 (命题 1)，因此$r' \subset r$。 $g_i$中$r$的典范像是$g_i$的可解理想，因此包含在$r_i$中；因此$r \subset r'$。
+$r_i$ 的乘积 $r'$ 是可解理想 (命题 1)，因此是 $r' \subset r$。 $g_i$中$r$的典范像是$g_i$的可解理想，因此包含在$r_i$中；因此$r \subset r'$。
 
 ### 3. 李代数的幂幂
 
 #### 定义 3 {#lie-i-s5-def-3 .statement tag=09Y7}
 
-*令$g$为李代数。 $g$的幂零根式是$g$的有限维简形表示的核交。*
+*令$g$为李代数。 $g$的幂零根式是$g$的有限维简单表示的核的交。*
 
 #### 注 {#lie-i-s5-n3-rem-1 .statement tag=09Y8}
 
 (1) 设$s$为$g$的幂零根。由于$g$的向量子空间的每个递减序列都是平稳的，因此存在$g$的有限维简单表示的有限数，其核有交$s$。
 
-其中表示中的直和是半单并且有核 s。由此可见，g 的有限维半单表示的集合或核有至少元素，即s。
+其中表示中的直和是半单并且有核 s。由此可见，g的有限维半单表示的集合或核有至少元素，即s。
 
 (2) 由§ 4, no. 3的命题4(c)，s也是g的有限维表示的最大的幂零理想交。特别是，s 包含在 g 的最大的幂零理想中，因此是 g 的幂零理想。
 
@@ -137,7 +137,7 @@ $r_i$ 的乘积 $r'$ 是可解理想 (命题 1)，因此$r' \subset r$。 $g_i$�
 
 令 V 为 K 上的有限维向量空间，gl(V) 的 g 子代数，使得 V 是一个简单的 g 模，并且是 g 的交换理想。然后$a \cap \mathscr{D}g = \{0\}$。令 S 为由 1 和 a 生成的 $\mathscr{L}(V)$ 的子代数。
 
-如果 b 是 a 中包含的 g 的理想，使得 $\operatorname{Tr} bs = 0$ 对于所有 $b \in b$ 和所有 $s \in S$，则特别是，通过 S 的定义，对于每个整数 $n > 0$ $\operatorname{Tr}(b^n) = 0$，因此 b 是幂零的（代数， 章VII, § 5, no. 5，推论4至命题13)；因为 b 的元素都是幂零的，$b = \{0\}$ (§ 4, no. 3, 引理 2)。我们首先将其应用于 g 的理想 $[g, a]$。如果$x \in g, a \in a, s \in S$，则从$as = sa$起$\operatorname{Tr}[x, a]s = \operatorname{Tr}(xas - axs) = \operatorname{Tr} x(as - sa) = 0$；因此$[g, a] = \{0\}$。因此，g 的元素与 a 的交换，因此也与 S 的交换。如果 $x, y$ 属于到 g 和 $s \in S$，则
+如果 b 是 a 中包含的 g 的理想，使得 $\operatorname{Tr} bs = 0$ 对于所有 $b \in b$ 和所有 $s \in S$，则特别是，通过 S 的定义，对于每个整数 $n > 0$ $\operatorname{Tr}(b^n) = 0$，因此 b 是幂零的（代数， 章VII, § 5, no. 5，推论4至命题13)；因为 b 的元素都是幂零的，$b = \{0\}$ (§ 4, no. 3, 引理 2)。我们首先将其应用于 g 的理想 $[g, a]$。如果$x \in g, a \in a, s \in S$，则从$as = sa$起$\operatorname{Tr}[x, a]s = \operatorname{Tr}(xas - axs) = \operatorname{Tr} x(as - sa) = 0$；因此$[g, a] = \{0\}$。因此 g 的元素与 a 的交换，因此也与 S 的交换。如果 $x, y$ 属于到 g 和 $s \in S$，则
 
 $$
 \operatorname{Tr}[x, y]s = \operatorname{Tr}(xys - yxs) = \operatorname{Tr} x(ys - sy) = 0
@@ -147,7 +147,7 @@ $$
 
 #### 定理 1 {#lie-i-s5-thm-1 .statement tag=09YA}
 
-设g为李代数，r为其根式，s为幂零根式。然后$s = \mathscr{D}g \cap r$。
+设 g 为李代数，r 为其根式，s 为幂零根式。然后$s = \mathscr{D}g \cap r$。
 
 我们已经知道$s \subset \mathscr{D}g \cap r$。因此，只要证明如果 $\rho$ 是 g 的有限维简单表示，则 $\rho(\mathscr{D}g \cap r) = \{0\}$ 就足够了。令 k 为最小整数 $\geq 0$，使得 $\rho(\mathscr{D}^{k+1}r) = \{0\}$；我们写$g' = \rho(g)$，$a' = \rho(D^k r)$；由于$\mathscr{D}^k r$是g的理想，$a'$是$g'$的理想；这个理想从 $\rho(\mathscr{D}^{k+1}r) = \{0\}$ 开始是可交换的。如果V是$\rho$的空间，则$g' \subset \operatorname{gl}(V)$和V是一个简单的$g'$模块。然后$\rho(\mathscr{D}g \cap \mathscr{D}^k r) \subset \mathscr{D}g' \cap a' = \{0\}$。如果$k > 0$，则$\mathscr{D}^k r \subset \mathscr{D}g$和$\rho(\mathscr{D}^k r) = \{0\}$，与k的定义相反。因此$k = 0$，即
 
@@ -203,23 +203,23 @@ $$
 
 #### 推论 7 {#lie-i-s5-thm-1-cor-7 .statement tag=09YI}
 
-设 g 为李代数，r 为其根式。以下四个集合是相同的： (a) g的最大的幂零理想； (b) r 最大的幂零理想； (c) $x \in r$的集合使得$\mathrm{ad}_g x$幂零； (d) $x \in r$ 的集合使得$\mathrm{ad}_r x$ 幂零。
+设 g 为李代数，r 为其根式。以下四个集合是相同的： (a) g 的最大的幂零理想； (b) r 最大的幂零理想； (c) $x \in r$的集合使得$\mathrm{ad}_g x$幂零； (d) $x \in r$ 的集合使得 $\mathrm{ad}_r x$ 幂零。
 
-让这些集合记为$a, b, c, d$。内含物$a \subset b \subset d \subset c$清晰。 $c \subset a$ 由推论 6 应用于 g 的伴随表示。
+让这些集合表示为$a, b, c, d$。内含物$a \subset b \subset d \subset c$清晰。 $c \subset a$ 由推论 6 应用于 g 的伴随表示。
 
-### 4. 可解性标准
+### 4. 可解性的标准
 
 #### 引理 2 {#lie-i-s5-lem-2 .statement tag=09YJ}
 
-令$x$为有限维向量空间V的自同态，并且s（分别为n）其半单（分别为幂零）分量（cf.代数、章VIII, § 9, no. 4、定义4）。令$\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$为$\mathfrak{gl}(V)$的伴随表示中$x, s, n$各自的像。那么$\mathrm{ad}\, s$（或$\mathrm{ad}\, n$）是$\mathrm{ad}\, x$的半单（或幂幂）分量，并且等于$\mathrm{ad}\, x$中的多项式，系数为K且没有常数项。
+令$x$为有限维向量空间V的自同态，并且s（分别为n）其半单（分别为幂零）分量（cf.代数、章VIII, § 9, no. 4、定义4）。令$\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$为$x, s, n$在$\mathfrak{gl}(V)$的伴随表示中各自的像。那么$\mathrm{ad}\, s$（或$\mathrm{ad}\, n$）是$\mathrm{ad}\, x$的半单（或幂幂）分量，并且等于$\mathrm{ad}\, x$中的多项式，系数为K且没有常数项。
 
-我们知道$\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$和$\mathrm{ad}\, n$是幂零的（$§ 4$，引理1）。我们证明$\mathrm{ad}\, s$是半单。当 K 是代数闭集 (cf. 代数, 章 VIII, § 9, no. 2, 命题 3) 时就足够了。然后令 $(e_i)_{1 \leq i \leq n}$ 为 V 的基，使得 $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$)。设$(E_{ij})$为$M_n(K) = \mathfrak{gl}(V)$中的典范基。到 $§ 1$ 公式 (5) 为止，
+我们知道$\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$和$\mathrm{ad}\, n$是幂零的（$§ 4$，引理1）。我们证明$\mathrm{ad}\, s$是半单。当 K 是代数闭集 (cf. 代数, 章 VIII, § 9, no. 2, 命题 3) 时就足够了。然后令 $(e_i)_{1 \leq i \leq n}$ 为 V 的基，使得 $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$)。令$(E_{ij})$为$M_n(K) = \mathfrak{gl}(V)$中的典范基。到 $§ 1$ 公式 (5) 为止，
 
 $$
 (\mathrm{ad}\, s)\cdot E_{ij} = (\lambda_i - \lambda_j)E_{ij}
 $$
 
-因此 $\mathrm{ad}\, s$ 是半单。 引理的最后一个断言源自代数、章VIII, § 9, no. 4、命题8。
+因此 $\mathrm{ad}\, s$ 是半单。 引理中的最后一个断言源自代数、章VIII, § 9, no. 4、命题8。
 
 #### 引理 3 {#lie-i-s5-lem-3 .statement tag=09YK}
 
@@ -247,7 +247,7 @@ $$
 $$
 对于所有$u \in \mathscr{D}g$，从而按线性$\mathrm{Tr}(tu) = 0$计算。另外，显然$\mathscr{D}g \subset T$。因此，(引理 3) $\mathscr{D}$g 中的每一个元素都是幂零的。由此可知 $\mathscr{D}$g 是幂零的（§ 4，推论 3 到定理 1），因此 g 是可解的（no. 3，推论 5 到定理 1）。
 
-### 5. 激进派的其他特性
+### 5. 激进派的更多特性
 
 #### 命题 5 {#lie-i-s5-prop-5 .statement tag=09YM}
 
@@ -299,9 +299,9 @@ $$
 r \supset t \supset n \supset s.
 $$
 
-包含 r ⊃ t 由命题 5 (b) 得出。包含 t ⊃ n 由 § 4, no. 4, 命题 6 (b) 得出。包含n ⊃ s 已在no. 3 的注 2 中指出。
+包含于 r ⊃ t 由命题 5 (b) 得出。包含于 t ⊃ n 由 § 4, no. 4, 命题 6 (b) 得出。包含n ⊃ s 已在no. 3 的注 2 中指出。
 
-### 6. 基域的扩张
+### 6. 扩张基域
 
 令 g 为 K 的李子 K-代数且 K_1 扩张。显然，当且仅当 g 可解时，g_{(K_1)} 才可解，因为 $\mathscr{D}^n(g_{(K_1)}) = (\mathscr{D}^n g)_{(K_1)}$。
 
@@ -311,4 +311,4 @@ $$
 
 § 5 的约定仍然有效，除非另有提及。
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -13,19 +13,19 @@ pdf_pages: 0362-0367
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f8a4a841e0ce67a37dac10cd76e2573cc4f587d03336bbdf1c46feab05b791f1
+content_sha256: abab37f20ef4df0deaea6bee4e0643dbcb500259c82c018ab4d11cd533268958
 translated_from: content/en/ens/ER/03_s3_products_of_sets.md
 translation_method: google
 source_content_sha256: 911c36b076fa6fa142fe625cbd3bb6de17b251c6493dfaffdaf76058fad82252
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f504b8e89b3ab31360333e9601a1059c80d7b33a69723ed9d365576150318345
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3. 乘积的集合
+## 3. 乘积集合
 
 1. 设 E、F 为两个集合，它们可能不同，也可能不同。 *有序对* $(x,y)$，其第一个元素 $x$ 是 E 的任意元素，第二个元素 $y$ 是 F 的任意元素，是新的集合的元素，称为E的*乘积为F*，记为$E\times F$； E和F称为$E\times F$的*因子*。仅当两个有序对具有相同的第一个元素和相同的第二个元素时，才认为它们是相同的；在其他字、关系“$(x,y)=(x',y')$”等价于关系“$x=x'$和$y=y'$”。如果$z$是$E\times F$中的任意元素，则关系“$x$是有序对$z$的第一个元素”是$x$中的泛函关系；将$E\times F$的确定映射放到E上，称为*第一个坐标函数*，或*第一个投影*，用$\operatorname{pr}_1$表示。我们也说“$x$是$z$”或“$x = \mathrm{pr}_1 z$”的第一个坐标（或投影），而不是说“$x$是有序对$z$”的第一个元素。同样，我们定义*第二个坐标函数*，或*第二个投影*，它是$\mathrm{E} \times \mathrm{F}$的映射*到*$\mathrm{F}$，用$\mathrm{pr}_2$表示。
 

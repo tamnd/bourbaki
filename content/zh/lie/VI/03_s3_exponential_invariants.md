@@ -28,16 +28,16 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 2
-content_sha256: 9d2b634d95a3695a57324bde45f7eaa142dac150c6f3af0343473002021737a0
+content_sha256: fa84eb81771e5dfaff8f43ba847572d853a8c5c62fba799a7a88c6c3ee7c1d13
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
 translation_method: google
 source_content_sha256: b9746d131eb1272ab4f94dead490215a8154be0c1a153b0693388de4edd688ad
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 67ebc9c29c95ec56d630cbcfec2cafa2f865123e947cc88b50940621778e516f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。指数不变量
@@ -46,7 +46,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 ### 1. 群代数免费阿贝尔的群
 
-设 P 为有限秩 $l$ 的自由 $\mathbf{Z}$ 模。我们用 A 上 P 的加法群的 $A[P]$ 群代数表示（*代数*，第 III, § 2, no. 6）。对于任何$p \in P$，用$A[P]$的$e^p$相应的元素表示。那么$(e^p)_{p \in P}$是A-模$A[P]$的*基*，并且对于任何$p, p' \in P$，我们有
+设 P 为有限秩 $l$ 的自由 $\mathbf{Z}$ 模。我们用 P 在 A 上的加法群 $A[P]$ 群代数表示（*代数*，第 III, § 2, no. 6）。对于任何$p \in P$，用$A[P]$的$e^p$相应的元素表示。那么$(e^p)_{p \in P}$是A-模$A[P]$的*基*，并且对于任何$p, p' \in P$，我们有
 $$
 e^p e^{p'} = e^{p + p'}, \quad (e^p)^{-1} = e^{-p}, \quad e^0 = 1.
 $$
@@ -59,7 +59,7 @@ $$
 
 令 $(p_1, p_2, \ldots, p_l)$ 为 P 的基，且 $X_1, X_2, \ldots, X_l$ 为不定数。从$A[X_1, \ldots, X_l, X_1^{-1}, \ldots, X_l^{-1}]$到$A[P]$需要$X_1^{n_1} X_2^{n_2} \ldots X_l^{n_l}$（其中$n_1, n_2, \ldots, n_l \in \mathbf{Z}$）到$e^{n_1 p_1 + \cdots + n_l p_l}$的A线性映射是环的同构。现在$A[X_1, \ldots, X_l]$是阶乘环（*交换代数*，第VII, § 3, no. 5章），而$A[X_1, \ldots, X_l, X_1^{-1}, \ldots, X_l^{-1}]$是$A[X_1, \ldots, X_l]$的分数的环，因此也是阶乘。
 
-令$P'$（或$P''$）为P 的元素的集合，其中一些倍数、属于至$\mathbf{Z}u + \mathbf{Z}v$（或$\mathbf{Z}u$）。则群 $P/P'$ 和 $P'/P''$ 是无扭的，因而 $P'$ 中存在 $P''$ 的补集，P 中存在 $P'$ 的补集。因而，存在 $\mathbf{Z}$ 模 P 的基 $(z_1, z_2, \ldots, z_l)$ 和有理数整数$j, m, n$使得$u = jz_1, v = mz_1 + nz_2, j > 0, n > 0$。将 $X_i = e^{z_i}$ 代入 $1 \leq i \leq l$，则得到 $1 - e^u = 1 - X_1^j, 1 - e^v = 1 - X_1^m X_2^n$。设K为A的分数域代数闭包，则$A[P]$可以与环$B = K[X_1, \ldots, X_l, X_1^{-1}, \ldots, X_l^{-1}]$的子环识别。对于单位元 $z$ 中的任何 $j$th 根，$1 - zX_1$ 是极值
+令$P'$（分别为$P''$）为P 的元素中的集合，其中一些倍数、属于到$\mathbf{Z}u + \mathbf{Z}v$（分别为$\mathbf{Z}u$）。则群 $P/P'$ 和 $P'/P''$ 是无扭的，因而 $P'$ 中存在 $P''$ 的补集，P 中存在 $P'$ 的补集。因而，存在 $\mathbf{Z}$ 模 P 的基 $(z_1, z_2, \ldots, z_l)$ 和有理数整数$j, m, n$使得$u = jz_1, v = mz_1 + nz_2, j > 0, n > 0$。将 $X_i = e^{z_i}$ 代入 $1 \leq i \leq l$，则得到 $1 - e^u = 1 - X_1^j, 1 - e^v = 1 - X_1^m X_2^n$。设K为A的分数域代数闭包，则$A[P]$可以与环$B = K[X_1, \ldots, X_l, X_1^{-1}, \ldots, X_l^{-1}]$的子环识别。对于单位元 $z$ 中的任何$j$第根，$1 - zX_1$ 是极值
 $$
 K[X_1, \ldots, X_l];
 $$
@@ -73,11 +73,11 @@ $$
 
 因而，$1 - X_1^j$和$1 - X_1^m X_2^n$在B中互质。因而，$A[P]$中$1 - X_1^j$和$1 - X_1^m X_2^n$的任何公共的除子在B中都是可逆的，因而，直到形式的乘法乘元素 $X_1^{k_1} X_2^{k_2} \ldots X_l^{k_l}$，等于A的元素$a$；在其他字中，$a$ 除 1 在 A 中，因此在 A 中可逆。因而，最终，$1 - X_1^j$ 和 $1 - X_1^m X_2^n$ 在 $A[P]$ 中互质。
 
-### 2. 群权的案例；最大项
+### 2. 群权的情况；最大项
 
 我们保留前面的数的记号，并让R在实数向量空间V中为约化根系。在这个截面的剩余部分中，我们取 R (§ 1, no. 9) 的权的 P 群。 群 $W = W(R)$ 作用于 P，因此也作用于代数 $A[P]$；我们有 $w(e^p) = e^{w(p)}$ 对应 $w \in W$ 和 $p \in P$。
 
-令 C 为 R (§ 1, no. 5) 的一个室，并令 $B = (\alpha_i)_{1 \leq i \leq l}$ 为 R 的相应的基。我们为 V（因此也为 P）提供由 C 定义的阶结构。如果$p, p' \in P, p \geq p'$当且仅当$p - p'$是具有正系数的$\alpha_i$的线性组合。
+令 C 为 R (§ 1, no. 5) 的一个腔室，并令 $B = (\alpha_i)_{1 \leq i \leq l}$ 为 R 的相应的基。我们为 V（因此也为 P）提供由 C 定义的阶结构。如果$p, p' \in P, p \geq p'$当且仅当$p - p'$是具有正系数的$\alpha_i$的线性组合。
 
 #### 定义 1 {#lie-vi-s3-def-1 .statement tag=0AXO}
 
@@ -97,7 +97,7 @@ $$
 
 由于$x \neq 0$意味着$x$的最大支持度非空，引理2表明只要$y$承认形式$e^q$的唯一最大项，$x \neq 0$就意味着$xy \neq 0$。
 
-### 3.反不变元素
+### 3. 反不变元素
 
 我们保留前面的数的记号。用 $\varepsilon(w)$ 表示元素 $w \in W$ 的行列式。因此
 $$
@@ -202,23 +202,23 @@ $$
 
 通过引理 1，$\mathbf{Z}[P]$ 是阶乘，元素 $1 - e^\alpha$ $\alpha \in \mathbf{R}$ 和 $\alpha > 0$ 互质。由此可见，$J(e^p)$ 在 $\mathbf{Z}[P]$ 中可被乘积 $\prod_{\alpha > 0} (1 - e^\alpha)$整除，因此也可被 $d = e^{-\rho} \prod_{\alpha > 0} (1 - e^\alpha)$整除。
 
-回到一般情况，通过从$\mathbf{Z}$到$A$的标量的扩张，我们从上面推出$d = J(e^\rho)$，并且每个元素$J(e^p)$都可以被$d$整除。由于$e^\rho$是$d$的唯一极大值项，no. 2的注表明存在唯一元素$y \in A[P]$使得$J(e^p) = dy$并且紧接着$y$在$W$下不变，因此$d$ 和 $J(e^p)$ 是反对不变的。这就证明了(i)和(ii)。
+回到一般情况，通过从$\mathbf{Z}$到$A$的标量扩张，我们从上面推出$d = J(e^\rho)$，并且每个元素$J(e^p)$都可以被$d$整除。由于$e^\rho$是$d$的唯一极大值项，no. 2的注表明存在唯一元素$y \in A[P]$使得$J(e^p) = dy$并且紧接着$y$在$W$下不变，并且因此$d$和$J(e^p)$是反对不变的。这就证明了(i)和(ii)。
 
-最后，如果2不是$A$中的零因子，no. 2的注和命题1意味着(iii)。
+最后，如果2不是$A$中的零因子，则no. 2的注和命题1意味着(iii)。
 
 #### 注 1 {#lie-vi-s3-n3-rem-1 .statement tag=0AXU}
 
-如果 2 不是 $A$ 中的零因子，则很容易检查 $d$ 是 $A[P]$ 的唯一反不变量元素，其中 $e^\rho$ 为其最大值项。
+如果 2 不是 $A$ 中的零因子，则很容易检查$d$ 是 $A[P]$ 的唯一反不变量元素，其中 $e^\rho$ 为其最大值项。
 
 #### 注 2 {#lie-vi-s3-n3-rem-2 .statement tag=0AXV}
 
-no. 2 的引理 2 显示商$J(e^p)/d$（对于$p \in P \cap C$）的唯一最大值项是$e^{p-\rho}$。
+引理 2 of no. 2 显示商$J(e^p)/d$（对于$p \in P \cap C$）的唯一最大值项是$e^{p-\rho}$。
 
 ### 4. 不变元素
 
-令$A[P]^W$为$A[P]$由……组成的元素的子代数在$W$下不变。 对于$p \in P$，用$W$下$p$的$W.p$轨道表示，并令$S(e^p) = \sum_{q \in W.p} e^q$为$e^p$的$W$变换的和；这是一个$W$不变量元素。
+令$A[P]^W$为$A[P]$的子代数，元素的由……组成在$W$下不变。对于$p \in P$，用$W$下$p$的$W.p$轨道表示，并令$S(e^p) = \sum_{q \in W.p} e^q$为$e^p$的$W$变换的和；这是一个$W$不变量元素。
 
-如果$p \in P \cap \overline{C}$、$w(p) \leq p$对于所有$w \in W$（$\S$ 1、no. 6，命题18）且$e^p$是$S(e^p)$的唯一最大值项。
+如果 $p \in P \cap \overline{C}$、$w(p) \leq p$ 对于所有 $w \in W$（$\S$ 1、no. 6，命题 18）且 $e^p$ 是 $S(e^p)$ 的唯一最大值项。
 
 设 $x = \sum_p x_p e^p \in A[P]^W$；那么$x_{w(p)} = x_p$对于所有$p \in P$和所有$w \in W$。
 
@@ -239,7 +239,7 @@ e_{i_0} = x_{i_0} - \sum_{j < i_0} a_{i_0 j} e_j,
 $$
 由此得出(b)。因此$J' \in \mathfrak{S}$是一个矛盾。由此，$J = I$和引理得证。
 
-现在我们证明命题3。我们应用引理 4 和$I = P \cap \overline{C}$。令$q \in I$，并令$I_q$为$p \in I$的集合，使得$p \leq q$。如果$p \in I_q$，关系
+我们现在证明第 3 条命题。我们将引理 4 与 $I = P \cap \overline{C}$ 一起应用。令$q \in I$，并令$I_q$为$p \in I$的集合，使得$p \leq q$。如果$p \in I_q$，关系
 $$
 q - p \geq 0,\quad p \in \overline{C},\quad q \in \overline{C}
 $$
@@ -269,7 +269,7 @@ $$
 $$
 *从多项式代数$\Lambda[X_1, \ldots, X_l]$到$A[P]^W$得到同态，需要$X_i$到$x_i$。那么，映射$\varphi$就是同构。*
 
-引理 2 意味着单项式 $X_1^{n_1} \ldots X_l^{n_l}$ 的 $\varphi$ 下的像是元素，且唯一最大值为项 $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$。由于$P \cap \overline{C}$的每一个元素都可以唯一地写成形式$n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$，因此命题3表明单项式$X_1^{n_1} \ldots X_l^{n_l}$的$\varphi$下的像是$A[P]^W$的基，因此定理。
+引理 2 意味着单项式 $X_1^{n_1} \ldots X_l^{n_l}$ 的 $\varphi$ 下的像是元素，且唯一最大值为项 $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$。由于 $P \cap \overline{C}$ 的每一个元素都可以唯一地写成形式 $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$，因此命题 3 表明，单项式 $X_1^{n_1} \ldots X_l^{n_l}$ 的 $\varphi$ 下的像是 $A[P]^W$ 的基，因此定理。
 
 #### 例 1 {#lie-vi-s3-n4-exa-1 .statement tag=0AXY}
 
@@ -283,4 +283,4 @@ $$
 
 记号和假设是no。 2、3、4。
 
-§ 3](exercises/s3/)参见[习题。
+请参阅[习题为 § 3](exercises/s3/)。

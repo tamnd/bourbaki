@@ -21,16 +21,16 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: 0ed8b8a10a9341c385ce80320205d645a3f99313692833f158d003097a63b769
+content_sha256: 17098cae15c5c0f3b09644d8068e05a762967592780dc2cf0efb5d28419bfd50
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
 translation_method: google
 source_content_sha256: 417cef2f31fafd157b7a2cbea53f12a17f40a56765605873734c2f538ed5f1ad
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b88439bae75a5e6f4e094ca25e1aeec572e498d522121a1867f105a1e41737a7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 线性形式在 RIESZ 空间
@@ -41,9 +41,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定义 1 {#int-ii-s2-def-1 .statement tag=08KI}
 
-给定一个有序的向量空间 E，如果对于 E 中的每个 $x \geq 0$ 都有 $L(x) \geq 0$，则 E 上的线性形式 L 被认为是正数。
+给定一个有序的向量空间 E，如果对于 E 中的每个 $x \geq 0$ 都有$L(x) \geq 0$，则 E 上的线性形式 L 被认为是正数。
 
-由于$L(y) - L(x) = L(y - x)$，关系$x \leq y$意味着$L(x) \leq L(y)$，或者$L$在E上是递增函数。
+由于$L(y) - L(x) = L(y - x)$，关系$x \leq y$意味着$L(x) \leq L(y)$，或者$L$在E上是递增函数，这也是一样的。
 
 #### 例 1 {#int-ii-s2-n1-exa-1 .statement tag=08KJ}
 
@@ -61,7 +61,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令E为E到$\mathbf{R}$的有序向量空间、L映射，使得$L(x + y) = L(x) + L(y)$并且关系$x \geq 0$蕴含$L(x) \geq 0$；然后对于每个标量 $\lambda$ 和每个 $x \geq 0$ $L(\lambda x) = \lambda L(x)$。
 
-由于$L(-x) = -L(x)$（$L$是$\mathbf{R}$中加法群E的表示），我们可以将自己限制在$\lambda \geq 0$的情况。对于每个整数$n \geq 0$，我们有$L(nx) = nL(x)$，从而$L((1/n)x) = (1/n)L(x)$，因此对于每个有理数数$r \geq 0$，我们有$L(rx) = rL(x)$。另一方面，E 中$L$ 是递增；如果$r$和$r'$是有理数数使得$r \leq \lambda \leq r'$，则有$rL(x) \leq L(\lambda x) \leq r'L(x)$；由于 $rL(x)$ 和 $r'L(x)$ 与 $\lambda L(x)$ 的差异尽可能小，因此我们有 $L(\lambda x) = \lambda L(x)$。
+由于$L(-x) = -L(x)$（$L$是$\mathbf{R}$中加法群E的表示），我们可以将自己限制在$\lambda \geq 0$的情况。对于每个整数$n \geq 0$，我们有$L(nx) = nL(x)$，从而$L((1/n)x) = (1/n)L(x)$，因此对于每个有理数$r \geq 0$，我们有$L(rx) = rL(x)$。另一方面，E 中的$L$ 是递增；如果$r$和$r'$是有理数数使得$r \leq \lambda \leq r'$，则有$rL(x) \leq L(\lambda x) \leq r'L(x)$；由于 $rL(x)$ 和 $r'L(x)$ 与 $\lambda L(x)$ 的差异尽可能小，因此我们有 $L(\lambda x) = \lambda L(x)$。
 
 #### 命题 2 {#int-ii-s2-prop-2 .statement tag=08KN}
 
@@ -73,9 +73,9 @@ $M(y) - M(x) = M(y') - M(x')$；因为，从关系$y - x = y' - x'$我们推断�
 
 #### 命题 3 {#int-ii-s2-prop-3 .statement tag=08KO}
 
-*令$E$为向量空间、$E$的元素$\geqslant 0$的$P$集合以及$P$的$x \mapsto M(x)$映射到$\mathbf{R}$，其中值 $\geqslant 0$，这样$M(x + y) = M(x) + M(y)$适用于$P$中的所有$x, y$。那么，存在且仅有一个正线性形式$L$即扩展$M$到$E$。*
+*令$E$为$E$的元素$\geqslant 0$的有向有序向量空间、$P$集合以及$P$的$x \mapsto M(x)$映射到$\mathbf{R}$，其中值 $\geqslant 0$，这样$M(x + y) = M(x) + M(y)$适用于$P$中的所有$x, y$。那么，存在且仅有一个正线性形式$L$即扩展$M$到$E$。*
 
-由于$E = P - P$，与命题2中相同的推理首先证明了$E$的*加法*映射$L$到$\mathbf{R}$的存在和唯一性到扩展$M$。 命题 1 然后显示对于所有 $\lambda \geqslant 0$ 和所有 $x \in P$，$L(\lambda x) = \lambda L(x)$，从直接的 $L$ 是线性形式。
+从$E = P - P$开始，与命题2中相同的推理首先证明$E$的*加法*映射$L$到$\mathbf{R}$的存在和唯一性到扩展$M$。 命题 1 然后显示对于所有 $\lambda \geqslant 0$ 和所有 $x \in P$，$L(\lambda x) = \lambda L(x)$，从直接的 $L$ 是线性形式。
 
 ### 2. 相对有界线性形式
 
@@ -220,10 +220,10 @@ $$
 
 #### 例 {#int-ii-s2-n2-exa-1 .statement tag=08KU}
 
-令 E 为 Riesz 空间，配备与其有序向量空间结构（TVS，II, §2, No. 7）兼容的局部凸拓扑。令E'为E的拓扑对偶，并假设在加法中，E的元素$\geqslant 0$的锥体P对于弱化的拓扑*$\sigma(E, E')$来说是*完全的。那么每个连续的线性形式$x' \in E'$都是*相对有界的*，因为人们知道（TVS，II, §6, No. 8，第11条命题的Cor.2），在这些条件下，对于$y \in E$的E集合中的每个$x \geqslant 0$使得$|y| \leqslant x$是*紧凑* $\sigma(E, E')$。由此我们推断 E 是“完全晶格有序的”；对于（$§ 1$，No. 3，命题 2），足以证明对于上面有界并指向 $\leqslant$、截面滤波器$\mathscr{F}$ 的每个集合 $H \subset E$，H 的拓扑*在 E 中收敛* $\sigma(E, E')$（后者与E的有序向量空间结构兼容）。通过翻译，我们可以假设$H \subset P$，然后就足以证明$\mathscr{F}$是$\sigma(E, E')$的*柯西滤波器*，或者再次证明每个连续的线性形式$x' \in E'$相对于$\mathscr{F}$都有极限。但是，当$x'$是*正*线性形式时，这立即从单调极限定理得出，并且由于每个线性形式$x' \in E'$都是两个正线性形式（Th.1）的差，因此我们的断言得到了证明。
+令 E 为 Riesz 空间，配备与其有序向量空间结构（TVS，II, §2, No. 7）兼容的局部凸拓扑。令E'为E的拓扑对偶，并假设在加法中，E的元素$\geqslant 0$的锥体P对于弱化的拓扑*$\sigma(E, E')$来说是*完全的。那么每个连续的线性形式$x' \in E'$都是*相对有界的*，因为我们知道（TVS，II, §6, No. 8，第11号命题的Cor.2），在这些条件下，对于$y \in E$的E集合中的每个$x \geqslant 0$，使得$|y| \leqslant x$是*紧凑* $\sigma(E, E')$。由此我们推断 E 是“完全晶格有序的”；对于（$§ 1$，No. 3，命题 2），足以证明对于上面有界并指向$\leqslant$、截面滤波器$\mathscr{F}$ 的每个集合$H \subset E$，H 的拓扑*在 E 中*收敛$\sigma(E, E')$（后者与E的有序向量空间结构兼容）。通过翻译，我们可以假设$H \subset P$，然后就足以证明$\mathscr{F}$是$\sigma(E, E')$的*柯西滤波器*，或者再次证明每个连续的线性形式$x' \in E'$相对于$\mathscr{F}$都有极限。但是，当$x'$是*正*线性形式时，这立即从单调极限定理得出，并且由于每个线性形式$x' \in E'$都是两个正线性形式（Th.1）的差，因此我们的断言得到了证明。
 
 习题
 
-### 习题{#int-ii-s2-exercises}
+### 习题 {#int-ii-s2-exercises}
 
-请参阅[§ 2](exercises/s2/)的[习题]。
+请参阅[习题为 § 2](exercises/s2/)。

@@ -66,21 +66,21 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 1eb51137d0cca2d9a657dfeb5edb8474d5267cbc1d710bbc2f24a4690bddb378
+content_sha256: 7eafddc995818e9b870051dcac56293889f75ac321f1b7b72bcbeb40d32ff6dc
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 translation_method: google
 source_content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 33e5ce13da55f2f76a792f8ee387086b991ca566b0034749f1cb6feccee1c462
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 序关系。 有序集
 
-### 1. 定义的序关系
+### 1. 定义序关系
 
 令$R\{x, y\}$为关系，$x$和$y$是不同的字母。相对于字母 x 和 y*（或 *x 和 y* 之间），R 被称为 *序关系，如果
 
@@ -92,11 +92,11 @@ $$R\{x, y\} \Rightarrow (R\{x,\, x\} \ \text{ and } \ R\{\, y,\, y\}).$$
 
 *例*
 
-(1) 等式*、$x = y$的*关系为序关系。
+(1) 等式*的*关系，$x = y$，是序关系。
 
 (2) 关系$X \subset Y$是X和Y之间的序关系（章II, § 1, no. 2、命题1和2以及公理A1），通常称为*包含关系*。
 
-(3) 设$R\{x, y\}$为序关系，介于$x$和$y$之间。 关系 $R\{\, y,\, x\}$ 则序关系 *位于 x 和 y* 之间，称为序关系 $R\{x,\, y\}$ 的*对立面*。
+(3) 令$R\{x, y\}$为序关系，介于$x$和$y$之间。 关系 $R\{\, y,\, x\}$ 则序关系 *位于 x 和 y* 之间，称为序关系 $R\{x,\, y\}$ 的“对立”。
 
 集合* E 上的 *序关系对于两个不同的字母 $x$、$y$ 来说是序关系 $R\{x,\, y\}$，这样关系 $R\{x,\, x\}$ *等于* $x \in E$（在其他字中，是这样$R\{x,\, y\}$ 在 E (章 II, § 6, no. 1) 上是*自反*。那么关系$R\{x,\, y\}$意味着“$x \in E$和$y \in E$”，关系$(R\{x,\, y\}$和$R\{\, y,\, x\})$相当于“$x \in E$和$y \in E$和$x = y$”。
 
@@ -108,11 +108,11 @@ $$R\{x, y\} \Rightarrow (R\{x,\, x\} \ \text{ and } \ R\{\, y,\, y\}).$$
 
 #### 例 2 {#ens-iii-s1-n1-exa-2 .statement tag=03SI}
 
-令$\mathrm{R}\}x,\ y\{$为$x$和$y$之间的序关系，并令E为集合，使得$x \in \mathrm{E}$蕴含$\mathrm{R}\}x,\ x\{$（注意空集满足条件）。 关系“$\mathrm{R}\}x,\ y\{$和$x \in \mathrm{E}$和$y \in \mathrm{E}$”则E上的序关系，立即得到验证；它被称为序关系 *由 E (cf. no. 4) 上的 $\mathrm{R}\}x,y\{$ *诱导*。通过滥用语言，短语“E 的元素之间的关系 $\mathrm{S}\}x,\ y\{$ 是序关系”经常用来代替“E 上的关系（$\mathrm{S}\}x,\ y\{$ 和 $x \in \mathrm{E}$ 和 $y \in \mathrm{E}$）是序关系”。对于例，如果A是集合，则关系“$\mathrm{X} \subset \mathrm{Y}$和$\mathrm{X} \subset \mathrm{A}$和$\mathrm{Y} \subset \mathrm{A}$”是A的子集之间的序关系。
+令$\mathrm{R}\}x,\ y\{$为$x$和$y$之间的序关系，并令E为集合，使得$x \in \mathrm{E}$蕴含$\mathrm{R}\}x,\ x\{$（注意空集满足条件）。 关系“$\mathrm{R}\}x,\ y\{$和$x \in \mathrm{E}$和$y \in \mathrm{E}$”则E上的序关系，立即得到验证；它在 E (cf. no. 4) 上被 $\mathrm{R}\}x,y\{$ *诱发* 称为序关系。通过滥用语言，短语“E 的元素之间的关系 $\mathrm{S}\}x,\ y\{$ 是序关系”经常用来代替“E 上的关系（$\mathrm{S}\}x,\ y\{$ 和 $x \in \mathrm{E}$ 和 $y \in \mathrm{E}$）是序关系”。对于例，如果A是集合，则关系“$\mathrm{X} \subset \mathrm{Y}$和$\mathrm{X} \subset \mathrm{A}$和$\mathrm{Y} \subset \mathrm{A}$”是A的子集之间的序关系。
 
 #### 例 3 {#ens-iii-s1-n1-exa-3 .statement tag=03SJ}
 
-设E、F为集合。 关系“*g 扩展 f*”是E到F的子集映射集合上的序关系（$f$和$g$之间）。
+设E、F为集合。 关系“*g 扩展 f*”是 E 的子集映射集合到 F 上的序关系（$f$ 和 $g$ 之间）。
 
 #### 例 4 {#ens-iii-s1-n1-exa-4 .statement tag=03V3}
 
@@ -128,7 +128,7 @@ $$R\{x, y\} \Rightarrow (R\{x,\, x\} \ \text{ and } \ R\{\, y,\, y\}).$$
 
 (b) *集合* $\mathrm{G} \cap \overset{-1}{\mathrm{G}}$ *是* $\mathrm{E} \times \mathrm{E}$ 的对角线* $\Delta$ *。
 
-对于关系$((x,\ y) \in \mathrm{G}$和$(y,\ z) \in \mathrm{G}) \Rightarrow ((x,\ z) \in \mathrm{G})$可以写成$\mathrm{G} \circ \mathrm{G} \subset \mathrm{G}$和关系
+对于关系 $((x,\ y) \in \mathrm{G}$ 和 $(y,\ z) \in \mathrm{G}) \Rightarrow ((x,\ z) \in \mathrm{G})$ 可以写成 $\mathrm{G} \circ \mathrm{G} \subset \mathrm{G}$ 和关系
 
 $$((x,\ y) \in \mathrm{G} \text{ and } (y,\ x) \in \mathrm{G}) \Leftrightarrow (x = y \text{ and } x \in \mathrm{E} \text{ and } y \in \mathrm{E})$$
 
@@ -136,9 +136,9 @@ $$((x,\ y) \in \mathrm{G} \text{ and } (y,\ x) \in \mathrm{G}) \Leftrightarrow (
 
 $$\mathrm{G} \circ \mathrm{G} = \mathrm{G}.$$
 
-### 2.预序关系
+### 2. 预序关系
 
-令$R\{x, y\}$为关系，$x$和$y$是不同的字母。如果 $R$ 是传递性的，并且如果我们有 $R\{x, y\} \Rightarrow (R\{x, x\}$ 和 $R\{y, y\})$，则 $R$ 不一定是序关系，因为关系
+令$R\{x, y\}$为关系，$x$和$y$是不同的字母。如果 $R$ 是传递性的，并且如果我们有 $R\{x, y\} \Rightarrow (R\{x, x\}$ 和 $R\{y, y\})$，则并不一定得出 $R$ 是序关系，因为关系
 
 $$(R\{x, y\} \text{ and } R\{y, x\})$$
 
@@ -187,7 +187,7 @@ $$Y \in E/S \text{ and } (\forall y)((y \in Y) \Rightarrow R\{y, y\}),$$
 
 从而$R'\{X, Y\}$意味着$(R'\{X, X\}$和$R'\{Y, Y\})$。最后，由于$x \in E$蕴含$R\{x, x\}$，$X \in E/S$蕴含$R'\{X, X\}$，断言的证明是完整的。据说$R'\{X, Y\}$与序关系*关联*于$R\{x, y\}$。
 
-¶ 集合 E 上的 *预排序* 是对应 $\Gamma = (G, E, E)$，以 E 作为源和目标，并且这样 $(x, y) \in G$ 在 E 上是预序关系。通过滥用语言，我们将有时称为 $\Gamma$ 的图 G 作为 E 上的预排序。为此，有必要并且足以满足$\Delta \subset G$和$G \circ G \subset G$（这意味着$G \circ G = G$）。 等价关系 S 相应的到预序关系 $(x, y) \in G$ 则有 $G \cap \overset{-1}{G}$ 作为其图；与$(x, y) \in G$相关的序关系具有$(E/S) \times (E/S)$的图子集G'，其中对应（章II, § 6, no. 8）到像在$E \times E$的典范映射下
+¶ 集合 E 上的 *预排序* 是对应 $\Gamma = (G, E, E)$，以 E 作为源和目标，并且 $(x, y) \in G$ 在 E 上是预序关系。通过滥用语言，我们将有时称为 $\Gamma$ 的图 G 作为 E 上的预排序。为此，有必要并且足以满足$\Delta \subset G$和$G \circ G \subset G$（这意味着$G \circ G = G$）。 等价关系 S 相应的到预序关系 $(x, y) \in G$ 则有 $G \cap \overset{-1}{G}$ 作为其图；与$(x, y) \in G$相关的序关系具有$(E/S) \times (E/S)$的图子集G'，其中对应（章II, § 6, no. 8）到像在$E \times E$的典范映射下
 
 $$(E \times E)/(S \times S).$$
 
@@ -195,13 +195,13 @@ $$(E \times E)/(S \times S).$$
 
 \* 令 A 为环和单位元素。两个元素$x$之间的关系$(\exists z)(z \in \mathrm{A}$和$y = zx)$，A的$y$是A上的预序关系；它被读作“$x$是$y$的右除子”或“$y$是$x$的左倍数”。 \*
 
-### 3.记号与术语
+### 3. 记号与术语
 
-截面余下部分给出的定义适用于$x$和$y$之间的任意序（或预序）关系$\mathrm{R}\{x, y\}$，但主要用于写有$\mathrm{R}\{x, y\}$的情况$x \leqslant y$ \*（与整数或实数之间通常的序关系类比）\*（或$x \subset y$，或通过一些类似的符号）；因此，我们将仅针对记号$x \leqslant y$陈述它们，并留给读者将它们转录成其他记号的任务。当$\mathrm{R}\{x, y\}$写成$x \leqslant y$时，$y \geqslant x$与$x \leqslant y$同义，这些关系读作“$x$*小于*$y$”，或“$x$*小于*$y$”，或“$y$*大于*$x$”或“$y$*大于*$x$”。 关系$x \geqslant y$则预序关系（*介于*$x$*和*$y$）*与*$x \leqslant y$相对。
+截面其余部分给出的定义适用于$x$和$y$之间的任意序（或预序）关系$\mathrm{R}\{x, y\}$，但主要用于写有$\mathrm{R}\{x, y\}$的情况$x \leqslant y$ \*（与整数或实数之间通常的序关系类比）\*（或$x \subset y$，或通过一些类似的符号）；因此，我们将仅针对记号$x \leqslant y$陈述它们，并留给读者将它们转录成其他记号的任务。当$\mathrm{R}\{x, y\}$写成$x \leqslant y$时，$y \geqslant x$与$x \leqslant y$同义，这些关系读作“$x$*小于*$y$”，或“$x$*小于*$y$”，或“$y$*大于*$x$”或“$y$*大于*$x$”。 关系$x \geqslant y$则预序关系（*介于*$x$*和*$y$）*与*$x \leqslant y$相对。
 
 由于语言滥用，我们经常会说“the 关系 $\leqslant$”而不是“the 关系 $x \leqslant y$”；在这种情况下，“关系$\geqslant$”与“关系$\leqslant$”相反。我们注还指出，在同一个证明中，在不存在混淆风险的情况下，我们可能经常使用相同的符号$\leqslant$来表示多个不同的序关系。
 
-将关系写成$x \leqslant y$，条件在集合E上写成序关系如下：
+将关系的条件写成$x \leqslant y$在集合E上写成序关系如下：
 
 (RO$_{\mathrm{I}}$) *关系“$x \leqslant y$和$y \leqslant z$”意味着$x \leqslant z$。*
 (RO$_{\mathrm{II}}$) *关系“$x \leqslant y$和$y \leqslant x$”意味着$x = y$。*
@@ -229,15 +229,15 @@ C58。 *令$\leqslant$为序关系，并令$x$、$y$为两个不同的字母。 
 
 令 E、E$'$ 为按顺序 $\Gamma$、$\Gamma'$ 排序的两个集合。 * E *到* E$'$ 的 *同构（对于顺序 $\Gamma$ 和 $\Gamma'$）是 E 的双射 $f$ 到 E$'$，这样关系 $x \leqslant y$ 和 $f(x) \leqslant f(y)$ 是等价的（cf.章IV, § 1）。
 
-### 4.有序子集。 乘积有序集
+### 4. 有序子集。 乘积有序集
 
-设 E 是按排序 $\Gamma$ 排序的集合，有图 G。对于 E 的每个子集 A，$G \cap (A \times A)$ 是 A 上的排序； 相应的序关系相当于“$x \leqslant y$和$x \in A$和$y \in A$”，我们简单地用$x \leqslant y$来表示（滥用语言）。在 A 上定义的排序和序关系据说是由 E 上给出的排序和序关系 *诱导的； E 上的排序和序关系据说是 A 上排序的 *扩张* 和序关系，它们是诱导。每当我们将 A 视为有序的集合时，我们想到的是由 E 上的除非在 A 上引发的排序，则明确指出了相反的情况。
+设 E 是按排序 $\Gamma$ 排序的集合，有图 G。对于 E 的每个子集 A，$G \cap (A \times A)$ 是 A 上的排序； 相应的序关系相当于“$x \leqslant y$和$x \in A$和$y \in A$”，我们简单地用$x \leqslant y$来表示（滥用语言）。在 A 上定义的排序和序关系据说是由 E 上给出的排序和序关系 *诱导的； E 上的排序和序关系据说是 A 上排序的 *扩张* 和序关系，它们是诱导。 每当我们将 A 视为有序的集合时，我们都会想到由 E 上的除非在 A 上引发的排序，则明确指出了相反的情况。
 
-*例*。由关系$X \subset Y$在集合或子集上引入的关系非常重要。这里有一些例：
+*例*。由关系$X \subset Y$包含在子集的各种集合上引起的关系非常重要。这里有一些例：
 
 #### 例 1 {#ens-iii-s1-n4-exa-1 .statement tag=03WB}
 
-设E、F为两个集合，并令$\Phi(E, F)$为E到F中的子集的所有映射中的集合。对于每个$f \in \Phi(E, F)$，令$G_f$为$f$的图，即子集 $E \times F$。如果我们在 $f$ 和 $g$ (no. 1, 例 3) 之间赋予 $\Phi(E, F)$ 序关系“*g 扩展 f*”，则 $f \to G_f$ 是有序的同构集合 $\Phi(E, F)$ 到 $\mathfrak{P}(E \times F)$ 的子集，按包含顺序排列。
+设E、F为两个集合，并令$\Phi(E, F)$为E到F中子集的所有映射中的集合。对于每个$f \in \Phi(E, F)$，令$G_f$为$f$的图，即子集 $E \times F$。如果我们在 $f$ 和 $g$ (no. 1, 例 3) 之间赋予 $\Phi(E, F)$ 序关系“*g 扩展 f*”，则 $f \to G_f$ 是有序的同构集合 $\Phi(E, F)$ 到 $\mathfrak{P}(E \times F)$ 的子集，按包含顺序排列。
 
 #### 例 2 {#ens-iii-s1-n4-exa-2 .statement tag=03WC}
 
@@ -245,7 +245,7 @@ C58。 *令$\leqslant$为序关系，并令$x$、$y$为两个不同的字母。 
 
 #### 例 3 {#ens-iii-s1-n4-exa-3 .statement tag=03WD}
 
-设 E 为集合，$\Omega \subset \mathfrak{P}(E \times E)$ 为 E 上*预购*图的集合 (no. 2)（或者，滥用语言，E 上所有预购的集合）。 $s$和$t$之间的序关系$s \subset t$，在$\Omega$上由$\mathfrak{P}(E \times E)$上包含关系诱导，由说表示“$s$的预排序是*更细*” $t$”（或者“$t$比$s$*粗糙*”）。令$x(s)y$和$x(t)y$分别表示E上的预序关系、$(x, y) \in s$和$(x, y) \in t$；那么说 $s$ 比 $t$ 更细相当于说，关系 $x(s)y$ *暗示* $x(t)y$。
+设 E 为集合，$\Omega \subset \mathfrak{P}(E \times E)$ 为 E 上*预购*图的集合（no. 2）（或者，滥用语言，E 上所有预购的集合）。 $s$和$t$之间的序关系$s \subset t$，在$\Omega$上由$\mathfrak{P}(E \times E)$上包含关系诱导，由说表示“$s$的预排序是*更细*” $t$”（或者“$t$比$s$*粗糙*”）。令$x(s)y$和$x(t)y$分别表示E上的预序关系、$(x, y) \in s$和$(x, y) \in t$；那么说 $s$ 比 $t$ 更细相当于说，关系 $x(s)y$ *暗示* $x(t)y$。
 
 令$(E_\iota)_{\iota \in I}$为集合的族，对于每个指标$\iota \in I$，令$\Gamma_\iota$为$E_\iota$的排序；令$G_\iota \subset E_\iota \times E_\iota$为其图，令$x_\iota \leqslant y_\iota$表示序关系$(x_\iota, y_\iota) \in G_\iota$在$E_\iota$上。 乘积集合$F = \prod_{\iota \in I} E_\iota$、关系
 
@@ -253,7 +253,7 @@ $$(\forall \iota) \, ((\iota \in I) \Rightarrow (x_\iota \leqslant y_\iota))$$
 
 经立即验证，序关系介于$x = (x_\iota)$和$y = (y_\iota)$之间。在 F 上如此定义的排序和序关系称为排序* $\Gamma_\iota$ 的 *乘积和序关系* $x_\iota \leqslant y_\iota$ 的 *乘积；这个关系写为$x \leqslant y$，而集合F，按$\Gamma_\iota$排序中的乘积排序，称为有序集*$E_\iota$的*乘积。
 
-立即验证，乘积在F上排序的图是乘积集合$\prod_{\iota \in I} G_\iota$下的像下$\prod_{\iota \in I} (E_\iota \times E_\iota)$的典范映射到$F \times F$（章II, § 5, no. 5）。
+立即验证F上的乘积排序图是乘积集合$\prod_{\iota \in I} G_\iota$下$\prod_{\iota \in I} (E_\iota \times E_\iota)$的典范映射到$F \times F$（章II, § 5, no. 5）的像。
 
 有序集的乘积的一个重要的例是集合 E 的映射图到有序集合 F 的集合 $F^E$。 $F^E$ 的规范双射到将 E 的映射的集合 $\mathfrak{F}(E, F)$ 转换为 F，而这个映射是有序的集合 $F^E$ 到 $\mathfrak{F}(E, F)$ 的同构，赋予由关系定义的排序“对于所有E的两个映射、$f$、$g$之间的$x \in E$、$f(x) \leqslant g(x)$”进入F。这个关系写成$f \leqslant g$。
 
@@ -264,17 +264,17 @@ $$\text{"for all } x \in E, f(x) \leqslant g(x), \text{ and there exists } y \in
 *而不是*
 $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
 
-在序中，为避免混淆，在这种情况下最好不要使用记号 $f < g$。
+在序中，为避免混淆，在这种情况下最好不要使用记号$f < g$。
 
-当“订购”自始至终替换为“预订”时，此小节中的定义无需变换就适用于预订的集合。
+当“订购”自始至终替换为“预订”时，此小节的定义无需变换就适用于预订的集合。
 
-### 5.单调递增映射
+### 5. 单调递增映射
 
 #### 定义 1 {#ens-iii-s1-def-1 .statement tag=03JC}
 
 *让*E*和*F*被预先排序集合*（*预序关系，每个都用*$\leqslant$表示）。 *E *到* F *的映射 f *据说是递增*（或*顺序保留*）*如果关系*$x \leqslant y$*意味着*$f(x) \leqslant f(y)$； *它是递减*（或*顺序反转*）*如果关系*$x \leqslant y$*意味着*$f(x) \geqslant f(y)$。 * E *到* F *的*映射如果是递增或递减，则被认为是单调的。*
 
-当我们通过相反的预排序对 E 或 F 上的替换 *一个*预排序时，E 到 F 的递增映射变为递减（反之亦然）。  每个*常数*函数既是递增又是递减；这个叙述的逆命题通常是不正确的。
+当我们通过相反的预排序对 E 或 F 上的替换 *一个*预排序时，E 到 F 的递增映射就变成递减（反之亦然）。  每个*常数*函数既是递增又是递减；这个叙述的逆命题通常是不正确的。
 
 对于例，如果集合 E 按等式关系排序，则 E 本身的恒等映射既是递增又是递减，但如果 E 具有多个元素 (cf.)，则不是常数习题7)。
 
@@ -290,23 +290,23 @@ $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
 
 #### 例 2 {#ens-iii-s1-n5-exa-2 .statement tag=03SL}
 
-令 E 为有序集合。对于每个$x \in E$，令$U_x$为所有$y \in E$中的集合，使得$y \geqslant x$。 映射 $x \to U_x$ 是 E 的严格递减映射到$\mathfrak{P}(E)$（按包含排序）；事实上，关系$x \leqslant y$相当于$U_x \supset U_y$。
+令 E 为有序集合。对于每个$x \in E$，令$U_x$为所有$y \in E$中的集合，使得$y \geqslant x$。 映射 $x \to U_x$ 是 E 的严格递减映射进入$\mathfrak{P}(E)$（按包含排序）；事实上，关系$x \leqslant y$相当于$U_x \supset U_y$。
 
 有序集合 E 到有序集合 F 的单射单调映射 *严格单调*； 逆命题通常不为真，因为当关系、$x \leqslant y$、$x \geqslant y$都不为真时，可能会出现$f(x) = f(y)$（cf.no. 12、命题11）。
 
-¶ 有序集合 E 到有序集合 E' 的双射映射 $f$ 是 E 到 E' (no. 3) 的同构当且仅当 $f$ 及其逆映射均为递增。
+¶ 有序集合 E 到有序集合 E' 的双射映射 $f$ 是 E 到 E' (no. 3) 的同构，当且仅当 $f$ 及其逆映射均为递增。
 
-¶ 如果 I 是一个*有序* 指标集合，则集合 E 的子集* $(X_\iota)_{\iota \in I}$ 的*族被称为 *递增* 如果 $\iota \to X_\iota$ 是递增映射 I 进入$\mathfrak{P}(E)$，按包含顺序排列（在其他字中，如果 $\iota \leqslant \varkappa$ 暗示$X_\iota \subset X_\varkappa$）。同样，我们定义是子集$(X_\iota)_{\iota \in I}$的*递减、严格递增的、*或*严格递减*家族。
+¶ 如果 I 是 *有序* 指标集合，则集合 E 的子集* $(X_\iota)_{\iota \in I}$ 的 * 族被称为 *递增* 如果 $\iota \to X_\iota$ 是递增映射 I 进入$\mathfrak{P}(E)$，按包含顺序排列（在其他字中，如果 $\iota \leqslant \varkappa$ 暗示$X_\iota \subset X_\varkappa$）。同样，我们定义是子集$(X_\iota)_{\iota \in I}$的*递减、严格递增的、*或*严格递减*家族。
 
 #### 命题 2 {#ens-iii-s1-prop-2 .statement tag=03JE}
 
-*令* E，E' *为两个有序集，并让* $u : E \to E'$ *和* $v : E' \to E$ *为两个递减映射，这样对于所有* $x \in E$ *和所有* $x' \in E'$ *我们有* $v(u(x)) \geqslant x$ *和* $u(v(x')) \geqslant x'$。 *然后*
+*让* E，E' *为两个有序集，并让*$u : E \to E'$*和*$v : E' \to E$*为两个递减映射，这样对于所有*$x \in E$*和所有*$x' \in E'$*我们有*$v(u(x)) \geqslant x$*和*$u(v(x')) \geqslant x'$。 *然后*
 
 $$u \circ v \circ u = u \quad \textit{and} \quad v \circ u \circ v = v.$$
 
 对于关系，$v(u(x)) \geqslant x$意味着$(u(v(u(x))) \leqslant u(x)$，因为$u$是递减；另一方面，我们在不等式$u(v(x')) \geqslant x'$中有$u(v(u(x))) \geqslant u(x)$乘替换$x'$乘$u(x)$。因此第一个等式；第二个证明类似。
 
-### 6.最大和最小元素
+### 6. 最大和最小元素
 
 #### 定义 3 {#ens-iii-s1-def-3 .statement tag=03JF}
 
@@ -332,15 +332,15 @@ E 的子集映射集合 $\Phi(E, F)$ 到 F 中（F 非空），在 $u$ 和 $v$ �
 
 \* 实数中的集合没有极大元素也没有最小元素。 \*
 
-### 7. 最大元素且至少元素
+### 7. 最大元素至少元素
 
 如果有序集合 E 中存在元素 $a$，使得所有 $x \in E$ 都有 $a \leqslant x$，则 $a$ 是 E 中*唯一*具有该性质的元素；因为如果对于所有$x \in E$也有$b \leqslant x$，那么我们应该有$a \leqslant b$和$b \leqslant a$，因此还有$a = b$。
 
 #### 定义 4 {#ens-iii-s1-def-4 .statement tag=03JG}
 
-*令* E *为有序集合。 元素* $a \in E$ *据说是* E 中*最少（分别为*最大的*）*元素 *如果对于所有* $x \in E$ *我们有* $a \leqslant x$（分别为$x \leqslant a$）。
+*令* E *为有序集合。 元素* $a \in E$ *据说是* E 中*最小（分别为 *最大的*）*元素 *如果对于所有* $x \in E$ *我们有* $a \leqslant x$（分别为 $x \leqslant a$）。
 
-有序的集合不需要有最大元素也不需要至少有元素。如果 E 至少有元素 $a$，则相对于相反顺序，$a$ 是最大元素。
+有序的集合不需要有最大元素，也不需要至少有元素。如果 E 至少具有元素 $a$，则相对于相反顺序，$a$ 是最大元素。
 
 ¶ 如果 E 具有至少元素 $a$，则 $a$ 是 E 的*唯一最小值元素*；因为如果 $x \in E$ 与 $a$ 不同，我们就有 $a < x$。
 
@@ -364,7 +364,7 @@ E 的子集映射集合 $\Phi(E, F)$ 到 F 中（F 非空），在 $u$ 和 $v$ �
 
 ¶ 预定的集合 $E$ 的子集 $A$ 被认为是 $E$ 中的 *cofinal*（或 *coinitial*），如果对于每个 $x\in E$ 都存在 $y\in A$，使得 $x\leq y$（或 $y\leq x$）。因此，如果说有序集合 $E$ 具有最大的（或至少）元素，则意味着 $E$ 具有单个元素的共尾（或共初始）子集由……组成。
 
-### 8.上界和下界
+### 8. UPPER AND LOWER BOUNDS
 
 #### 定义 5 {#ens-iii-s1-def-5 .statement tag=03JI}
 
@@ -378,45 +378,45 @@ E 的子集映射集合 $\Phi(E, F)$ 到 F 中（F 非空），在 $u$ 和 $v$ �
 
 ¶ $E$ 的子集 $X$，其下界（或上界）的集合不为空，则称为 *下界*（或 *上界*）。上下都有界的子集被称为*有界*。如果 $X$ 有界于下（或有界于上，有界），则对于 $X$ 的每个子集也是如此。
 
-单个元素的每个子集由……组成都是有界的。但是两个元素的子集由……组成不需要在上方或下方 (no. 10) 上界。
+单个元素的每个子集由……组成都是有界的。但是两个元素中的子集由……组成不需要在上方或下方 (no. 10) 上界。
 
-令$E$为预定的集合，令$f$为任意集合$A$到$E$的映射。如果集合 $f(A)$ 在 $E$ 中被限制在下方（或限制在上方，有界），则映射 $f$ 被称为（滥用语言）为*下界*（分别为*上界、有界*）。
+令$E$为预定的集合，并让$f$为任意集合$A$到$E$的映射。如果集合 $f(A)$ 在 $E$ 中被限制在下方（或限制在上方，有界），则映射 $f$ 被称为（滥用语言）为*下界*（分别为*上界、有界*）。
 
-### 9. 最小上界和下确界
+### 9. 至少上界和下确界
 
 #### 定义 6 {#ens-iii-s1-def-6 .statement tag=03JJ}
 
-*令$E$为有序集合，令$X$为$E$的子集。 $E$的元素被认为是$E$中$X$的下确界或下确界（分别是最小上界或上确界），如果它是下限（或下限）集合的最大的（或至少）元素（或上确界）。 $E$ 中 $X$ 的上限。*
+*令$E$为有序的集合，并令$X$为$E$的子集。 $E$的元素被称为下确界或$E$中$X$的下确界（分别为至少上界或上确界），如果它是下限的集合的最大的（或至少）元素 $E$ 中$X$（或上限）的边界。*
 
-给定有序集合 $E$ 的子集 $X$，$E$ 中$X$ 的最小上界（或下确界）（当存在时）表示为
+给定有序集合$E$的子集$X$，$E$中$X$的最小上界（或下确界）（当存在时）表示为
 
 $$
 \sup_E X\quad\text{(resp. }\inf_E X\text{)}
 $$
 
-或通过sup X（或inf X）（如果不存在歧义风险）。两个元素中集合 $\{x, y\}$ 中最小的上界（或下确界），当存在时，由 SU $(x, y)$（或 inf $(x, y)$）表示。同样对于三个元素中集合中最小的上界和下确界，等等。
+或者通过sup X（或inf X）（如果没有歧义的风险）。两个元素中集合 $\{x, y\}$ 中最小的上界（或下确界），当存在时，用 SU $(x, y)$（或 inf $(x, y)$）表示。同样，对于三个元素中集合中最小的上界和下确界，等等。
 
-¶ 如果 E 的子集 X 有最大元素 $a$，则 $a$ 是 E 中 X 的最小上界。
+¶ 如果 E 的子集 X 有最大元素 $a$，则 $a$ 是 E 中 X 中最小的上界。
 
-¶ 如果 E 中 X 有下确界 $a$，则相对于 E 上的相反顺序，$a$ 是 X 中最小的上界。因此，我们可以限制自己对于最大部分，在下文中，只考虑最小上界的性质。
+¶ 如果 X 在 E 中具有下确界 $a$，则相对于 E 上的相反顺序，$a$ 是 X 中最小的上界。因此，我们可以将自己限制为最大部分，在下文中，考虑最小的属性上界。
 
 *例*
 
-(1) 有序集合 E 中空集 $\emptyset$ 的上界的集合显然是E 本身；因此，当且仅当 E 具有*最小* 元素（即 $\emptyset$ 的*最小*上界*）时，$\emptyset$ 在 E 中具有上界。
+(1)有序集合E中空集$\emptyset$的上界集合显然是E本身；因此，当且仅当 E 具有*最小* 元素（即 $\emptyset$ 的*最小*上界*）时，$\emptyset$ 在 E 中具有上界。
 
-(2) 在集合E的子集集合$\mathfrak{P}(E)$中，按包含排序，$\mathfrak{P}(E)$的每个子集$\mathfrak{S}$至少有上界，即$\mathfrak{S}$的集合的*并*，并且下确界，即$\mathfrak{S}$的集合的*交*。
+(2) 在集合 E 的子集集合 $\mathfrak{P}(E)$ 中，按包含排序，$\mathfrak{P}(E)$ 的每一个子集 $\mathfrak{S}$ 至少有上界，即 *并* $\mathfrak{S}$的集合，以及下确界，即$\mathfrak{S}$的集合*交*。
 
-(3) 设E、F为两个集合，设$\Theta$为E的子集映射$\Phi(E, F)$到F中的子集，按映射扩张排序(no. 1，例3)。对于每个$u \in \Phi(E, F)$，令$D(u)$为$u$的域。 条件对于映射属于到 $\Phi(E, F)$ 的族中存在公共的扩张 (章 II, § 4, no. 6, 命题 7) 表明$\Theta$ 至少有上界 $\Phi(E, F)$当且仅当对于$\Theta$的元素中的每个对$(u, v)$，只要$x \in D(u) \cap D(v)$，我们就有$u(x) = v(x)$。
+(3) 设E、F为两个集合，设$\Theta$为E入F的子集映射$\Phi(E, F)$的子集，按映射扩张排序(no. 1， 例3）。对于每个$u \in \Phi(E, F)$，让$D(u)$作为$u$的域。 条件对于映射属于到 $\Phi(E, F)$ 的家庭中存在公共的扩张 (章 II, § 4, no. 6, 命题 7) 表明 $\Theta$ 至少有$\Phi(E, F)$中的上界当且仅当对于$\Theta$的元素中的每个对$(u, v)$，只要$x \in D(u) \cap D(v)$，我们就有$u(x) = v(x)$。
 
 如果像 $f(A)$ 在 E 中具有至少上界，则将集合 A 的映射 $f$ 转换为有序的集合 E，则称其至少具有上界；这个界限被称为 f* 的*最小上界并写作 $\sup_{x \in A} f(x)$。对于下确界也是如此。
 
-特别地，如果E的子集A在E中具有至少上界，则该界限是A到E中的典范嵌入的至少上界，因此可以写为$\sup_{x \in A} x$。
+特别地，如果 E 的子集 A 在 E 中具有至少上界，则该界限是 A 的典范嵌入到 E 中的最小上界，因此可以写为 $\sup_{x \in A} x$。
 
 #### 命题 4 {#ens-iii-s1-prop-4 .statement tag=03JK}
 
-*设* E *为有序集合，并让* A *为* E *的子集，其中* E *中既有下确界且至少有上界。 *则* $\inf A \leqslant \sup A$ *if* $A \neq \emptyset$； *如果* $A = \emptyset$, $\sup A$ *是* E 的最小且* $\inf A$ *最大元素。
+*设* E *为有序集合，并令* A *为* E *的子集，其中* E *中既有下确界，且至少有上界。 *则* $\inf A \leqslant \sup A$ *如果* $A \neq \emptyset$； *如果* $A = \emptyset$, $\sup A$ *是* E 的最小且* $\inf A$ *最大元素。
 
-这立即从定义开始。
+这紧随定义而来。
 
 #### 命题 5 {#ens-iii-s1-prop-5 .statement tag=03JL}
 
@@ -494,7 +494,7 @@ $$c'_\iota = a_\iota \quad \text{for} \quad \iota \neq \varkappa \qquad \text{an
 
 第一个断言源自以下事实：F中A的上界的集合$\mathrm{M}$包含在E中A的上界的集合N中，并且来自命题5。另一方面，如果N的最小元素位于F中，那么它属于到M显然是 M 中最小的元素；这就证明了第二个断言。
 
-### 10.有向集合
+### 10. DIRECTED SETS
 
 #### 定义 7 {#ens-iii-s1-def-7 .statement tag=03QK}
 
@@ -515,7 +515,7 @@ $$c'_\iota = a_\iota \quad \text{for} \quad \iota \neq \varkappa \qquad \text{an
 
 ¶ 右向预排序集合相对于相反的排序是左向的。右有向集合的任何乘积都是右向的。另一方面，右有向集合的子集不一定是右向的。然而，右有向集合 E 的 *cofinal* 子集 F 始终是右向的；对于给定的$x$，$y \in \mathrm{F}$，存在$z \in \mathrm{E}$使得$x \leqslant z$和$y \leqslant z$，然后存在$t \in \mathrm{F}$使得$z \leqslant t$。
 
-### 11.格子
+### 11. 格子
 
 #### 定义 8 {#ens-iii-s1-def-8 .statement tag=03QM}
 
@@ -545,7 +545,7 @@ $$c'_\iota = a_\iota \quad \text{for} \quad \iota \neq \varkappa \qquad \text{an
 
 格子显然是左向和右向的。但同时向左和向右的有序集合不一定是格子。 \* 后者的例是$\mathbf{R}$的映射$x\mapsto p(x)$的集合自身，其中$p$是$\mathbf{R}[X]$的多项式，这个集合按关系$p\leqslant q$（no. 4）排序。 \*
 
-### 12.全序集
+### 12. TOTALLY ORDERED SETS
 
 #### 定义 9 {#ens-iii-s1-def-9 .statement tag=03JR}
 
@@ -595,14 +595,14 @@ The second condition says that no element $c < b$ is an upper bound of X, i.e., 
 
 令 E 为有序集合，并令 $a$、$b$ 为 E 的两个元素，使得 $a \leqslant b$。 元素 $x$ 的 E 由……组成的子集使得 $a \leqslant x \leqslant b$ 称为*左端点 a 和右端点 b* 的闭区间，并用 $[a, b]$ 表示。所有$x \in \mathrm{E}$中的集合，使得$a \leqslant x < b$（或$a < x \leqslant b$）被称为*右侧半开区间*（或*左侧*），端点为$a$和$b$，并由$[a, b[$（或$]a, b]$）表示。所有$x \in \mathrm{E}$的集合，使得$a < x < b$称为“开区间”，端点为$a$和$b$，并用$]a, b[$表示。
 
-注闭区间永远不会为空；间隔$[a, a]$是集合$\{a\}$。另一方面，区间$[a, a[$、$]a, a]$、$]a, a[$都是空的；即使当 $a < b$ 时，开区间 $]a, b[$ 也可能为空。
+注闭区间永远不会为空；间隔$[a, a]$为集合$\{a\}$。另一方面，区间$[a, a[$、$]a, a]$、$]a, a[$都是空的；即使当 $a < b$ 时，开区间 $]a, b[$ 也可能为空。
 
-令 $a$ 为 E 的元素。 The set of all $x \in \mathrm{E}$ such that $x \leqslant a$ (resp. $x < a$) is called the *closed* (resp. *open*) *interval unbounded on the left, with right-hand endpoint a*, and is denoted by $]{\leftarrow}, a]$ (resp. $]{\leftarrow}, a[$); likewise, the set of all $x \in \mathrm{E}$ such that $x \geqslant a$ (resp. $x > a$) is called the *closed* (resp. *开*) *与左端点 a 的间隔，右侧无界*，并用 $[a, {\rightarrow}[$（或 $]a, {\rightarrow}[$）表示。 最后，E本身可以被视为*左右无界的开区间*，用$]\leftarrow, \rightarrow[$表示。
+令$a$为E的元素。所有$x \in \mathrm{E}$的集合，使得$x \leqslant a$（分别为$x < a$）被称为*闭合*（分别为*开*）*区间在左侧无界，右侧端点为a*，并由$]{\leftarrow}, a]$（分别为*开*）表示。 $]{\leftarrow}, a[$);同样，所有$x \in \mathrm{E}$中的集合，使得$x \geqslant a$（分别为$x > a$）被称为*闭合*（分别为*开*）*与左端点a的间隔，在右侧无界*，并由$[a, {\rightarrow}[$（分别为$]a, {\rightarrow}[$）表示。最后，E本身可以被视为*左右无界的开区间*，用$]\leftarrow, \rightarrow[$表示。
 
 #### 命题 13 {#ens-iii-s1-prop-13 .statement tag=03JU}
 
 *在格中，两个区间的交是一个区间。*考虑两个闭区间$[a, b]$和$[c, d]$的例交，并令$\alpha = \sup (a, c)$，$\beta = \inf (b, d)$。如果同时有$a \leqslant x \leqslant b$和$c \leqslant x \leqslant d$，则有$\alpha \leqslant x \leqslant \beta$，反之亦然；如果$[a, b]$和$[c, d]$中的$\alpha \not\leqslant \beta$、交为空；如果$\alpha \leqslant \beta$，这个交就是$[\alpha, \beta]$。对于其他情况，我们让读者自行完成证明。
 
-### 习题{#ens-iii-s1-exercises}
+### 习题 {#ens-iii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

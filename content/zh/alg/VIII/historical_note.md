@@ -14,16 +14,16 @@ pdf_pages: 0485-0492
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: af2b186f27253a53f65874bff53af8eaa0cfb2dc8cae1e4a41ab6910a1513f89
+content_sha256: ea1046d70f98516ecc68cafa06640223220ec841046ad12d98334d2e667306d0
 translated_from: content/en/alg/VIII/historical_note.md
 translation_method: google
 source_content_sha256: 2bcebe9c1bad51f3b65dd12b69d32284a1059ae2a6034a8612a8d13e5a224c84
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-f9f23cae
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c62049ee4736ea61cc62bf00f22505e9b81c556f93881b0a64e340d9b9f79d82
-prompt_sha256: 133cd3fc3c262b082830ff023554f589fe553d569c36079625221572907a2124
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 # 历史注记
@@ -48,7 +48,7 @@ $(e$ 一个幂等，$x$ 任意元素），并且具有（仍然有点不精确�
 
 与此同时，从1896年到1910年，Frobenius、Burnside和I发展了一种接近代数的理论，即群的线性表示理论（最初仅限于表示或有限群）。 舒尔。 它起源于 Dedekind 制作的注。 在他对伽罗瓦扩张正常基进行研究的研究过程中，戴德金（甚至之前发表了他关于代数的工作），在1880年左右，遇到了“群行列式”det($x_{st^{-1}}$)，其中$(x_s)_{s\in G}$是变量的序列， 指标集合是有限群G（群G的代数的通用元素相对于其正则表示的其他字、范数）。 他观察到，当 G 为阿贝尔的时，该多项式分解为线性因子（它概括了“循环”矩阵行列式的长恒等式之前，其中对应为循环群 G）。 在他与 Frobenius [**13**] 的迷人的对应的过程中，戴德金于 1896 年提请注意这个性质，它与阿贝尔的群的特征标理论的联系，以及他在 1886 年获得的特定非交换群的类似结果。 几个月后，弗罗贝尼乌斯将“群行列式”的分解的问题完全解决为不可约的因子[**19**]，这要归功于他出色的特征标的概念的推广[**20**]，这里我们不再讨论。 但值得注意的是，在该理论后来的发展中，[^10]弗罗贝尼乌斯始终意识到它与代数理论的联系（戴德金在他的信件中一直坚持这一点）。 之后引入了不可约表示的概念和群[**21**]的完全可约表示，并证明了正则表示包含都是不可约表示，正是通过类似的方法，他在1903年提出采用理论莫连-嘉当[**22**]。 在 Burnside [**3**] 和 I 的作品中。 Schur [**45**]，该理论的“超复杂”方面没有明确干预；但正是在他们的工作中，不可约表示、Schur 的引理和 Burnside 的定理的基本属性出现了。 最后值得注意的是，正是在这个理论中，交换定理的两个特殊情况第一次出现。 第一个位于I。 Schur 的论文 [**44**]，它链接了线性群的表示和对称群的自同态环中的交换（精确地通过张量空间中的交换）。 第二个是在 Schur 1905 年的著作 [**46**] 中，他证明在域 $\mathbf{C}$ 上与不可约表示的所有矩阵通勤的矩阵是 I 的标量倍数（这个结果也是从 Burnside 的定理得出的）。
 
-这些理论的认同公共的基仍然很清楚：这是德国人学校围绕E的工作。 诺特和E. Artin，1925年至1933年期间，见证了现代代数的诞生。 早在 1903 年，在回忆录关于线性微分方程的代数积分 [**42**] 中，H. 庞加莱在代数中定义了左理想和右理想，以及概念最小理想。 He had also observed that in a semisimple algebra, every left ideal is the direct sum of its intersections with the simple components and that in the algebra of matrices of order $n$, the minimal ideals have dimension $n$; but his work went unnoticed by algebraists.[^11] In 1907, Wedderburn defines left and right ideals of an algebra again and proves some of their properties (in particular, that the radical is the largest nilpotent left ideal ([**51**], p. 113–114)). 但直到 1927 年，这些概念才在代数理论中得到本质的应用。[^12]推广了到处出现的证明方法，[^13]W。 克鲁尔于 1925 年 [**28**] 和 E. Noether于1926年[**33**]引入并系统地使用了最大和最小条件。 第一个使用它们到有限群的分解上的扩展Remak的定理作为不可分解的群到阿贝尔的群的直接乘积与运算符（他在这种情况下是定义）（cf. VIII、p. 37、定理 2)，而第二个则在 Dedekind 环的刻画中使用这些条件。 1927 年，E. Artin [**1**]，应用与非交换环相同的想法，展示了如何通过对最小理想的系统研究，可以将扩展 Wedderburn的定理到所有环，其左理想满足既是最大又是最小条件。[^14]
+这些理论的认同公共的基仍然很清楚：这是德国人学校围绕E的工作。 诺特和E. Artin，1925年至1933年期间，见证了现代代数的诞生。 早在 1903 年，在回忆录关于线性微分方程的代数积分 [**42**] 中，H. 庞加莱在代数中定义了左理想和右理想，以及概念最小理想。 He had also observed that in a semisimple algebra, every left ideal is the direct sum of its intersections with the simple components and that in the algebra of matrices of order $n$, the minimal ideals have dimension $n$; but his work went unnoticed by algebraists.[^11] In 1907, Wedderburn defines left and right ideals of an algebra again and proves some of their properties (in particular, that the radical is the largest nilpotent left ideal ([**51**], p. 113–114)). 但直到 1927 年，这些概念才在代数理论中得到本质的应用。[^12]推广了到处出现的证明方法，[^13]W。 克鲁尔于 1925 年 [**28**] 和 E. Noether于1926年[**33**]引入并系统地使用了最大和最小条件。 第一个使用它们到扩展Remak的定理在有限群的分解上作为不可分解的群到阿贝尔的群的直接乘积与运算符（他在这种情况下是定义）（cf. VIII、p. 37、定理 2)，而第二个则在 Dedekind 环的刻画中使用这些条件。 1927 年，E. Artin [**1**]，应用与非交换环相同的想法，展示了如何通过对最小理想的系统研究，可以将扩展 Wedderburn的定理到所有环，其左理想满足既是最大又是最小条件。[^14]
 
 在其他地方，1926 年，Krull [**29**] 在阿贝尔的群的概念与运算符之间建立了联系，并且在线性表示与群之间建立了联系。这种点观点被推广到代数，并由 E. Noether 在 1929 年的基础著作 [**34**] 中详细发展。由于引入的思想的重要性和阐述的清晰性，这项工作值得被列为现代代数.[^15] 的支柱之一，与斯坦尼茨的回忆录 on 交换域并列。
 

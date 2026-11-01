@@ -25,21 +25,21 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 10
-content_sha256: 64a81ae1399a35cc6a9725ed49ad4adae80cfd5a771741f2589c28062457f4ab
+content_sha256: cb298ac5c5329c59b6deefb7ac344e54d5b6230ab24ef4ccd80498386b8815c8
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
 translation_method: google
 source_content_sha256: f97824efc1e49c2f3f557cc487ce4e195405a030102d3750617c5a288f2ba3cd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7c40e68f02edba739b3e87d1171f5b45057179dc99cb40c1b33ee1ba37acc422
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 5. 由估值定义的拓扑
 
-### 1. 拓扑由估值定义
+### 1. 由估值定义的拓扑
 
 令 K 不一定为交换域，v 为 K 和 G 的全序群 $v(K^*)$ 的估值。对于所有$a \in G$，令V为$x \in K$的集合，使得$v(x) > a$；这个集合是K（§ 3, no. 1）的添加剂子群。 K 上存在唯一的拓扑 $\mathscr{T}_v$，其中V、形式邻域的基本系统为 0（*一般拓扑*、章 III, § 1, no. 2、例）。要使 v 不恰当，$\mathscr{T}_v$ 是离散的拓扑是充分必要的。
 
@@ -64,9 +64,9 @@ $$
 
 *拓扑 $\mathscr{T}_v$ 是 Hausdorff，并且与 K 上的域结构兼容。如果给 G 提供离散拓扑，则映射 $v : K^* \to G$ 是连续的。*
 
-设$x \in K^*$和$a = v(x)$；然后$x \notin V_a$表明$\mathscr{T}_v$是Hausdorff。对于所有$x_0 \in K$和$a \in G$，存在$\beta \in G$使得$x_0 V_\beta \subset V_\alpha$和$V_\beta x_0 \subset V$，（取$\beta \geqslant a - v(x_0)$就足够了）。另一方面，如果$a \geqslant 0$，则$V_\alpha V_\alpha \subset V_v$。满足*通用拓扑*、章III, § 6, no. 3的公理(AV_I)和(AV_{II})，$\mathscr{T}_v$与$K$上的环结构兼容。让$x_0 \in K^*$；如果$x \in K^*$满足$v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$，则$v(x^{-1} - x_0^{-1}) > a$（引理1），这表明$x \mapsto x^{-1}$是连续的，因此$\mathscr{T}_v$与$K$上的域结构兼容。最后，单个条件$v(x - x_0) > v(x_0)$意味着$v(x) = v(x_0)$（$§ 3$，no. 1，命题1），因此如果$G$被赋予离散的拓扑，则映射$v : K^* \to G$是连续的。
+设$x \in K^*$和$a = v(x)$；然后$x \notin V_a$表明$\mathscr{T}_v$是Hausdorff。对于所有$x_0 \in K$和$a \in G$，存在$\beta \in G$使得$x_0 V_\beta \subset V_\alpha$和$V_\beta x_0 \subset V$，（取$\beta \geqslant a - v(x_0)$就足够了）。另一方面，如果$a \geqslant 0$，则$V_\alpha V_\alpha \subset V_v$。满足*通用拓扑*、章III, § 6, no. 3的公理(AV_I)和(AV_{II})，$\mathscr{T}_v$与$K$上的环结构兼容。让$x_0 \in K^*$；如果$x \in K^*$满足$v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$，则$v(x^{-1} - x_0^{-1}) > a$ (引理 1)，这表明$x \mapsto x^{-1}$是连续的，因此$\mathscr{T}_v$与$K$上的域结构兼容。最后，单个条件$v(x - x_0) > v(x_0)$意味着$v(x) = v(x_0)$（$§ 3$，no. 1，命题1），因此如果$G$被赋予离散的拓扑，则映射$v : K^* \to G$是连续的。
 
-令$\alpha \in G$和$V'_\alpha$为$x \in K$的集合，使得$v(x) \geq \alpha$。如果$\beta < a$，则$V_\beta \supset V'_\alpha \supset V_v$。如果$v$不是不恰当的，那么可以看出，对于$\mathscr{T}_v$来说，$V'_\alpha$形式是邻域的基本系统为0。
+令$\alpha \in G$和$V'_\alpha$为$x \in K$的集合，使得$v(x) \geq \alpha$。如果$\beta < a$，则$V_\beta \supset V'_\alpha \supset V_v$。如果$v$不是不恰当的，那么可以看出，$V'_\alpha$形式对于$\mathscr{T}_v$来说，邻域的基本系统为0。
 
 $V_v$和$V'_\alpha$是开加法子群，因此在$K$中是封闭的，因此拓扑域$K$是*完全断开的*。由于$v$包含和$V_v$的环的每个非零理想，它在$K$中是“开和闭”。因此，$v$ 与剩余类域的商拓扑是*离散*。
 
@@ -88,17 +88,17 @@ $$
 0 < v(x) \leq v(y)
 $$
 
-是有限的；由于 $v(K^*)$ 是全序的，$P$ 至少有元素 $y$。然后对于所有$x \in A$，使得$v(x) > 0$、$v(x) > v(y) \geq y$或$v(x) \leq v(y)$，然后将$v(x) \geq y$乘以定义，这样$y$是$v(K^*)$的元素$> 0$中最小的一个。 *由于* $P$ *是*有限的，因此存在最大的整数 $m \geq 0$，使得 $my \in P$，从而我的 \leq v(y) < (m+1)\gamma。我们推导出 0 \leq v(y) - my < y 并且通过 y 的定义这意味着 $v(y) = my$。因此$v(K^*) = \mathbf{Z}.\gamma$和估值$v$是离散的。
+是有限的；由于 $v(K^*)$ 是全序的，$P$ 至少有元素 $y$。然后对于所有$x \in A$，使得$v(x) > 0$、$v(x) > v(y) \geq y$或$v(x) \leq v(y)$，然后将$v(x) \geq y$乘以定义，使得$y$是$v(K^*)$的元素$> 0$中的最小者。 *由于* $P$ *是*有限的，因此存在最大的整数 $m \geq 0$，使得 $my \in P$、从而我的 \leq v(y) < (m+1)\gamma。我们推导出 0 \leq v(y) - my < y 并且通过 y 的定义这意味着 $v(y) = my$。因此$v(K^*) = \mathbf{Z}.\gamma$和估值$v$是离散的。
 
-相反，假设条件 (i), (ii), (iii) 成立。我们可以将注意力限制在$v$被范化的​​情况；让 $u$ 成为 $v$ 的均匀化器。那么 $\kappa(A) = A/Au$ 因而 $A/Au$ 是有限的。由于 $x \mapsto xu^n$ 定义，通过将加法群 $A/Au$ 的商同构取到 $Au^n/Au^{n+1}$ 上，$A/Au^j$ 对于所有 $j \geq 0$ 都是有限的。由于 $A$ 在 $K$ 中闭合，因此它是完备的，因此与 $A/Au^j$ 的逆极限同构（通用拓扑、章 111、§ 7, no. 3、命题 2），因此是紧凑的。由于$A$在$K$中开路，因此可以看出$K$是局部紧的。
+相反，假设条件 (i), (ii), (iii) 成立。我们可以将注意力限制在$v$被范化的​​情况；让 $u$ 成为 $v$ 的均匀化器。那么 $\kappa(A) = A/Au$ 因而 $A/Au$ 是有限的。由于 $x \mapsto xu^n$ 定义，通过将加法群 $A/Au$ 的商同构取到 $Au^n/Au^{n+1}$ 上，$A/Au^j$ 对于所有 $j \geq 0$ 都是有限的。由于 $A$ 在 $K$ 中闭合，因此它是完备的，因此与 $A/Au^j$ 的逆极限同构（一般拓扑、章 111、§ 7, no. 3、命题 2），因此是紧凑的。由于$A$在$K$中开路，因此可以看出$K$是局部紧的。
 
 #### 注 {#ac-vi-s5-n1-rem-1 .statement tag=04UT}
 
 注在这个证明中假设$A$ 是完整的就足够了。
 
-我们将在§ 9中看到域$K$满足命题2的条件承认中心，它要么是$p$进数域的有限代数扩张，要么正式幂级数超过有限域的域$\mathbf{F}_q((T))$；此外，$K$ 的有限秩超过其中心。
+我们将在§ 9中看到域$K$满足命题2的条件承认中心，它要么是$p$进数域的有限代数扩张，要么正式幂级数超过有限域的域$\mathbf{F}_q((T))$；此外，$K$比中心高出有限秩。
 
-### 2. 拓扑向量空间超过域并进行评估
+### 2. 拓扑向量空间超过域且有估值
 
 自始至终，让$K$是（不一定可交换的）域，$v$对$K$和$G$的估值阶群。 $K$ 给出拓扑 $\mathscr{T}_v$。
 
@@ -106,7 +106,7 @@ $$
 
 令$E$为$K$上的左拓扑向量空间，即Hausdorff且维数1。假设$v$不是不恰当的。对于$E$中的所有$x_0 \neq 0$，$K_s$的映射$a \mapsto ax_0$到$E$是拓扑同构。
 
-这个映射是一个连续代数同构。只要证明它是双连续的就足够了。让$\alpha \in G$。我们需要证明$E$中存在0的邻域$V$，使得关系$ax_0 \in V$蕴含$v(a) > a$。设$a, \in K^*$使得$v(a_0) = a$。由于$E$是豪斯多夫，$E$中存在0的邻域$W$使得$a_0x_0 \notin W$。由于$v$并非不恰当，$E$中存在0的邻域$W'$和$G$中的元素$\beta$，因此关系$y \in W'$、$v(a) \geq \beta$意味着$ay \in W$。令 $a, \in K^*$ 等于 $v(a_1) = -\beta$。 关系 $ax_0 \in a_1^{-1}W'$和$v(a) \leq a$意味着$a_1ax_0 \in W$和$v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$，因此意味着$a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$，这是荒谬的；在其他字，关系$ax, \in a_1^{-1}W$意味着$v(a) > a$。
+这个映射是一个连续代数同构。只要证明它是双连续的就足够了。让$\alpha \in G$。我们需要证明$E$中存在0的邻域$V$，使得关系$ax_0 \in V$蕴含$v(a) > a$。设$a, \in K^*$使得$v(a_0) = a$。由于$E$是豪斯多夫，$E$中存在0的邻域$W$使得$a_0x_0 \notin W$。由于$v$并非不恰当，$E$中存在0的邻域$W'$和$G$中的元素$\beta$，因此关系$y \in W'$、$v(a) \geq \beta$意味着$ay \in W$。令 $a, \in K^*$ 等于 $v(a_1) = -\beta$。 关系 $ax_0 \in a_1^{-1}W'$和$v(a) \leq a$意味着$a_1ax_0 \in W$和$v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$，因此意味着$a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$，这是荒谬的；在其他字中，关系$ax, \in a_1^{-1}W$意味着$v(a) > a$。
 
 #### 推论{#ac-vi-s5-n2-cor-1 .statement tag=04UV}
 
@@ -182,4 +182,4 @@ $$
 
 95
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

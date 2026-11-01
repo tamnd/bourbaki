@@ -58,27 +58,27 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: a1da2281177c817d6b6de471564ab61cf0538315109e8d449565ec45b96ace98
+content_sha256: 13c8968406a91eb6437a440562335632a074517b71968799da69eccf6dea4582
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
 translation_method: google
 source_content_sha256: 67633b439572bf5a4dcc4c35edb70b8c99883cdac1bfa5ce829e7e8f5be14d83
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0beceb57035d49ee3eda89378692ac98b5052acade8a28c54a22bb3855fcea12
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 16。 布劳尔群中的其他描述
 
-在这个截面中，如果F是F的阿贝尔的群和$g$自同构，那么我们将$g(f)$写为$g\cdot f$。
+在这个截面中，如果F是F的阿贝尔的群和$g$自同构，那么我们将$g(f)$写成$g\cdot f$。
 
 ### 1. $\tau$-群的扩展
 
 在这个小节中，我们将群G，阿贝尔的群F固定为乘法，并将群同态$\tau$从G到F的自同构群Aut(F)。我们用$e$表示G的单位元素， F 的单位元素除 1。
 
-回想一下 (I, §6, No. 1, p. 65)，F 的 G 扩张 $\mathscr{E}$ 是三重$(\Gamma , \iota , \pi )$，其中 Γ 是群，$\pi : \Gamma \rightarrow G$ 是满同态，$\iota$ 是单同态，从 F 到 Γ 使得我（$\iota$）$=$克尔（$\pi$）。让$\mathscr{E}= (\Gamma , \iota , \pi )$成为扩张。对于每个 $\gamma \in \Gamma$, 映射 $\varphi_{\gamma}: F\rightarrow F$ 定义
+回想一下 (I, §6, No. 1, p. 65)，F 的 G 的扩张 $\mathscr{E}$ 是三元组 $(\Gamma , \iota , \pi )$，其中 Γ 是群，$\pi : \Gamma \rightarrow G$ 是满同态，$\iota$ 是单同态，从 F 到 Γ 使得我（$\iota$）$=$克尔（$\pi$）。让$\mathscr{E}= (\Gamma , \iota , \pi )$成为扩张。对于每个 $\gamma \in \Gamma$、映射 $\varphi_{\gamma}: F\rightarrow F$ 定义
 
 $$
 \iota (\varphi_{\gamma}(f)) =\gamma \iota (f)\gamma^{-1}
@@ -96,11 +96,11 @@ $$
 \gamma \iota (f)\gamma^{-1}=\iota (\tau (\pi (\gamma ))\cdot f) \tag{1}
 $$
 
-对于 $\gamma \in \Gamma$ 和 $f\in F$。如果$\mathscr{E}= (\Gamma , \iota , \pi )$和$\mathscr{E}'= (\Gamma ', \iota ', \pi ')$是$\tau$扩展，则从$\mathscr{E}$到$\mathscr{E}'$的$\tau$扩展中的态射是从$\mathscr{E}$到扩张的态射 $\mathscr{E}'$（I, §6, No. 1，p. 65），即群同态$u: \Gamma \rightarrow \Gamma '$，使得$\pi '\circ u=\pi$和$\iota '=u\circ \iota$。 注 $\tau$-扩展形式结构种，其中每个态射是同构（集合理论、IV, §1, No. 5、p. 264 和 I, §6, No. 1， p. 66、命题1)。用 Iso$_{\tau}(\mathscr{E},\mathscr{F})$ 关系表示
+对于 $\gamma \in \Gamma$ 和 $f\in F$。如果$\mathscr{E}= (\Gamma , \iota , \pi )$和$\mathscr{E}'= (\Gamma ', \iota ', \pi ')$是$\tau$扩展，则从$\mathscr{E}$到$\mathscr{E}'$的$\tau$扩展中的态射是从$\mathscr{E}$到扩张的态射 $\mathscr{E}'$（I, §6, No. 1，p. 65），即群同态$u: \Gamma \rightarrow \Gamma '$，使得$\pi '\circ u=\pi$和$\iota '=u\circ \iota$。 注 $\tau$-扩展形式结构种，其中每个态射是同构（集合理论、IV, §1, No. 5、p. 264 和 I, §6, No. 1， p. 66，命题1)。用 Iso$_{\tau}(\mathscr{E},\mathscr{F})$ 关系表示
 
 “$\mathscr{E}$和$\mathscr{F}$是同构的$\tau$扩展。”
 
-这是等价关系； 扩张 $\mathscr{E}$ 的类是对象的类相当于 Iso$_{\tau}($集合理论、II, §6, No. 6、p. 122 的 $\mathscr{E}$）。
+这是等价关系； 扩张 $\mathscr{E}$ 的类是对象的类相当于 Iso$_{\tau}($集合理论、II, §6, No. 6、p. 122 的$\mathscr{E}$）。
 
 #### 引理 1 {#alg-viii-s16-lem-1 .statement tag=00I9}
 
@@ -108,7 +108,7 @@ $$
 
 “$\alpha$ 是 Iso$_{\tau}$ $\tau$ 扩展的类”
 
-是 $\alpha$ 中的集合化。
+$\alpha$ 中有集合化。
 
 集合$E_0= F\times G$，并考虑映射$\iota_0: F\rightarrow E_0$和$\pi_0: E_0\rightarrow G$由$\iota_0(f) = (f, e)$定义为$f\in F$和$\pi_0(f, g) =g$定义为$(f, g)\in F\times G$。令 $\mathscr{E}= (\Gamma , \iota , \pi )$ 为 G 由 F 的 $\tau$ 扩展。 映射 $\pi$ 是满射，因此有截面 $\sigma : G\rightarrow \Gamma$ 使得 $\sigma (e) =e$。从 $F\times G$ 到 Γ 的映射 $u: (f, g)\mapsto \iota (f)\sigma (g)$ 是双射的。我们将通过结构转账获得的群运算赋予$F\times G$。那么三元组$(E_0, \iota_0, \pi_0)$是与$\mathscr{E}$同构的$\tau$扩展。 引理 1 现在来自集合理论、II, §6, No. 6、p. 122。
 
@@ -370,13 +370,13 @@ ${F'}^{\iota'_u}$ // ${\Gamma'_u}^{\pi'_u}$ // $G'$
 
 ### 4. 群运算 on 类 of $\tau$-扩展
 
-设G为群，F为阿贝尔的群，$\tau : G\rightarrow$Aut(F)为群同态。我们用$\delta : G\rightarrow G\times G$表示对角线映射$g\mapsto$$(g, g)$和$m: F\times F\rightarrow F$乘法同态$(f_1, f_2)\mapsto$$f_1f_2$。我们用 $s: F\rightarrow F$ 群同态表示，$f\mapsto f^{-1}$ 给出。令 $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ 和 $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ 为 $\tau$-G 由 F 的扩展。因为我们有关系
+设G为群，F为阿贝尔的群，$\tau : G\rightarrow$Aut(F)为群同态。我们用$\delta : G\rightarrow G\times G$表示对角线映射$g\mapsto$$(g, g)$和$m: F\times F\rightarrow F$乘法同态$(f_1, f_2)\mapsto$$f_1f_2$。我们用 $s: F\rightarrow F$ 群同态表示，$f\mapsto f^{-1}$ 给出。令$\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$和$\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$为$\tau$-G通过F的扩展。因为我们有关系
 
 $$
 m(((\tau \times \tau )\circ \delta )(g)\cdot (f_1, f_2)) =\tau (g)\cdot m(f_1, f_2)
 $$
 
-对于每个$g\in G$和所有$f_1, f_2\in F$，扩张$m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$是$\tau$扩展；我们将其称为$\tau$扩展$\mathscr{E}_1$和$\mathscr{E}_2$的乘积，并用$\mathscr{E}_1\mathscr{E}_2$表示。这个扩张的类仅取决于扩张$\mathscr{E}_1$和$\mathscr{E}_2$的类（VIII，p. 288，推论1和VIII，p. 291，推论1）。因此，这给出了 Ex$_{\tau}(G,F)$ 上的合成的律。
+对于每个$g\in G$和所有$f_1, f_2\in F$，扩张$m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$是$\tau$扩展；我们称其为$\tau$扩展$\mathscr{E}_1$和$\mathscr{E}_2$的乘积，并用$\mathscr{E}_1\mathscr{E}_2$表示。这个扩张的类仅取决于扩张$\mathscr{E}_1$和$\mathscr{E}_2$的类（VIII，p. 288，推论1和VIII，p. 291，推论1）。因此，这给出了 Ex$_{\tau}(G,F)$ 上的合成的律。
 
 #### 注 {#alg-viii-s16-n4-rem-1 .statement tag=00IN}
 
@@ -418,7 +418,7 @@ $$
 
 由VIII、p. 290的命题 2，可知$(\tau \times \tau) \circ \delta$扩展$\delta^*(\mathscr{E} \times \mathscr{E})$与$\Delta_*(\mathscr{E})$同构的。
 
-用 $c : F \to F$ 表示常数同态 $f \mapsto 1$。通过VIII的例 1，p. 292，对于合成的律，$\mathscr{I}_\tau$是单位元素这一事实从同构从$\delta^*(\mathscr{E} \times \mathscr{E})$到$\Delta_*(\mathscr{E})$得出，并且交换律图表
+用 $c : F \to F$ 表示常数同态 $f \mapsto 1$。通过VIII、p. 292的例 1，对于合成的律，$\mathscr{I}_\tau$是单位元素，这一事实是从同构从$\delta^*(\mathscr{E} \times \mathscr{E})$到$\Delta_*(\mathscr{E})$得出的，并且交换律图表
 
 $$
 \begin{array}{ccc}
@@ -460,7 +460,7 @@ $$
 
 对于 $g\in G$ 和 $f\in F$。 映射$v_*:$Ex$_{\tau}(G,F)\rightarrow$Ex$_{\tau'}(G,F')$为群同态。
 
-这是从交换律到图表得出的
+这是从图表的交换律得出的
 
 ${G'}^{\delta}$ // $G'\times G'F\times F^m$ // F
 
@@ -468,9 +468,9 @@ $_uu_{\times u}$ 和 $v_{\times v}v$
 
 G $^{\delta}$ // $G\times GF'\times {F'}^m$ // $F'$。
 
-### 5.上同调描述
+### 5. 上同调描述
 
-设G为群，设F为阿贝尔的群，并设$\tau : G\rightarrow$Aut(F)为群同态。对于任何$g\in G$和$f\in F$，我们也将$\tau (g)\cdot f$写为$^gf$。 G 的 2-cocycle 与 F 中的值是映射 $c: G\times G\rightarrow F$，这样对于每个 $(g_1, g_2, g_3)\in G\times G\times G$，我们有
+令G为群，令F为阿贝尔的群，令$\tau : G\rightarrow$Aut(F)为群同态。对于任何$g\in G$和$f\in F$，我们也将$\tau (g)\cdot f$写为$^gf$。 G 的 2-cocycle 与 F 中的值是映射 $c: G\times G\rightarrow F$，这样对于每个 $(g_1, g_2, g_3)\in G\times G\times G$，我们有
 
 $$
 g_{_1}c(g_2, g_3)c(g_1, g_2g_3) =c(g_1, g_2)c(g_1g_2, g_3) \tag{7}
@@ -582,7 +582,7 @@ $$
 c_{\sigma}(g_1, g_2) = (^{g_1}a(g_2))a(g_1g_2)^{-1}a(g_1)
 $$
 
-对于所有$g_1, g_2\in G$。然后我们定义$\sigma ': G\rightarrow \Gamma$
+对于所有$g_1, g_2\in G$。然后我们定义 $\sigma ': G\rightarrow \Gamma$
 
 $$
 \sigma '(g) =\iota (a(g)^{-1})\sigma (g)
@@ -590,7 +590,7 @@ $$
 
 对于$g\in G$。利用(11)，我们得到$c_{\sigma'}$是常数，值为1；因而，$\sigma '$是群同态，这证明$\tau$扩展$\mathscr{E}$是半平凡的（I, §6, No. 1，p. 67，命题4）。
 
-让我们证明映射 θ 是满射。令 $c$ 为 $Z^2(G,F)$ 的元素。我们赋予集合 $\Gamma  = F\times G$ 合成的以下律： (12) $(f_1, g_1)(f_2, g_2) =(f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2)$
+让我们证明映射 θ 是满射。设$c$为$Z^2(G,F)$的元素。我们赋予集合 $\Gamma  = F\times G$ 律或合成： (12) $(f_1, g_1)(f_2, g_2) =(f_1(^{g_1}f_2)c(g_1, g_2), g_1g_2)$
 
 对于所有 $f_1, f_2\in F$ 和 $g_1, g_2\in G$。我们有关系
 
@@ -644,7 +644,7 @@ $g_1, g_2\in G$。
 
 #### 注 {#alg-viii-s16-n5-rem-1 .statement tag=00RK}
 
-令G为群，令F和$F'$为阿贝尔的群，令$\tau$（分别为$\tau '$）为从G到F的自同构群（分别为$F'$）的群同态，并令$v: F\rightarrow F'$ 为群态射使得
+设G为群，设F和$F'$为阿贝尔的群，设$\tau$（分别为$\tau '$）为从G到F的自同构群（分别为$F'$）的群同态，并令$v: F\rightarrow F'$ 为群态射使得
 
 $$
 v(\tau (g)\cdot f) =\tau '(g)\cdot v(f) \tag{13}
@@ -652,7 +652,7 @@ $$
 
 对于 $g\in G$ 和 $f\in F$。设$\alpha$为Ex$_{\tau}(G,F)$的元素。如果余循环$c$代表$\Theta (\alpha )$，则$v\circ c$代表$\Theta (v_*(\alpha ))\in H^2(G,F')$。
 
-### 6.限制与余限制
+### 6. 限制与余限制
 
 令G和$G'$为群，F为阿贝尔的群，$\tau$为从G到F的自同构群的同态。令$u: G'\rightarrow G$为群同态。我们写$\tau '=\tau \circ u$。
 
@@ -870,15 +870,15 @@ $$
 
 $s(x)g_1s(x\cdot g_1)^{-1},s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1}$和$h(x\cdot g_1g_2)^{-1}$。
 
-所获得的表达式对应的最后两行为 2-coboundary。我们发现$\widetilde{c}_{s'}$重合与$\widetilde{c}_s$的类。
+获得的表达式对应的最后两行为 2-coboundary。我们发现$\widetilde{c}_{s'}$重合与$\widetilde{c}_s$的类。
 
-我们构造了从群$H^2(H,F)$到群$H^2(G,F)$的同态，我们将其称为从H到G的上限制同态并用Cor$^G_H$表示。
+我们构造了从群$H^2(H,F)$到群$H^2(G,F)$的同态，我们将其称为从H到G的上限制同态，并用Cor$^G_H$表示。
 
 #### 命题 8 {#alg-viii-s16-prop-8 .statement tag=00IW}
 
-令 H 为有限指标的 G 的子群。 自同态 Cor$^G_H\circ$ Res$^G_H$ of 群 $H^2(G,F)$ 重合与乘法 by 指标 (G : H)。
+令 H 为有限指标的 G 的子群。 自同态 Cor$^G_H\circ$ Res$^G_H$ 群 $H^2(G,F)$ 重合与乘法 by 指标 (G : H)。
 
-令$\alpha$为$H^2(G,F)$的元素，并令$c$为代表$\alpha$的$Z^2(G,F)$的元素。 元素 Cor$^G_H\circ$ Res$^G_H(\alpha )$ 是余循环的类，其 $(g_1, g_2)\in G^2$ 中的值由表达式给出
+令$\alpha$为$H^2(G,F)$的元素，并令$c$为表示$\alpha$的$Z^2(G,F)$的元素。 元素 Cor$^G_H\circ$ Res$^G_H(\alpha )$ 是余循环的类，其 $(g_1, g_2)\in G^2$ 中的值由表达式给出
 
 $$
 \prod_{x\in H\backslash G}^{s(x)^{-1}}c(s(x)g_1s(x\cdot g_1)^{-1}, s(x\cdot g_1)g_2s(x\cdot g_1g_2)^{-1})
@@ -946,7 +946,7 @@ $$
 
 这证明了结果。
 
-### 7.伽罗瓦代数
+### 7. 伽罗瓦代数
 
 令 K 为交换域。如果E是K-代数，那么我们用Aut$_K(E)$表示它的自同构群。如果 E 是域 K 的伽罗瓦扩张，则群 Aut$_K(E)$ 只是伽罗瓦群 Gal(E$/K$) (V, §10, No. 2，p. 58)。
 
@@ -1140,11 +1140,11 @@ $$
 
 对于$0\leqslant i < n$。从$\mu_n$到Aut$_K$(L)，映射$\lambda :\zeta \mapsto \lambda (\zeta )$为单同态，L中群$\lambda (\mu_n)$的不变量环等于$K\cdot 1$。由于$\mu_n$的基数等于$n= [L : K]$，因此赋予$\lambda$的作用的代数L为伽罗瓦代数(VIII，p. 308，定理2，(v))。
 
-令$r$是最不严格的正整数，使得$a^r$属于到$K^{*n}$；它除$n$，并且存在$K^*$的元素$b$使得$a=b^{n/r}$。那么(V, §11, No. 8,p. 91,注)多项式$X^r-b$是不可约的，我们有$X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$。设E为域$K[Y]/(Y^r-b)$，$y$为E中Y的类。从$\mu_{n/r}$到Gal(E$/K$)存在同构$\theta$，其特征为关系$\theta (\xi )(y) =\xi y$ （V, §11, No. 8、p. 91、例 3）。然后我们验证伽罗瓦代数 L 与 $(K, \mu_n$)-代数 Coind$^{\mu_n}_{\mu_{n/r}}(E)$ 同构的。
+令$r$是最不严格的正整数，使得$a^r$属于到$K^{*n}$；它除$n$，并且存在$K^*$的元素$b$使得$a=b^{n/r}$。那么 (V, §11, No. 8, p. 91, 注) 多项式 $X^r-b$ 是不可约的，我们有$X^n-a=\prod_{\zeta\in\mu_{n/r}}(X^r-\zeta b)$。设E为域$K[Y]/(Y^r-b)$，$y$为E中Y的类。从$\mu_{n/r}$到Gal(E$/K$)存在同构$\theta$，其特征为关系$\theta (\xi )(y) =\xi y$ （V, §11, No. 8、p. 91、例 3）。然后我们验证伽罗瓦代数 L 与 $(K, \mu_n$)-代数 Coind$^{\mu_n}_{\mu_{n/r}}(E)$ 同构的。
 
 #### 例 2 {#alg-viii-s16-n7-exa-2 .statement tag=00J9}
 
-现在假设域 K 具有特征 $p\not= 0$。令 $c$ 为 K 的元素。多项式 $f= X^p-X-c$ 与其导数 $f'=-1$ 互质，因此代数 $L = K[X]/(f)$ 是 étale (V, §7, No. 2, p. 37, 命题 3)。我们用$x$表示L中X的像；我们有关系$x^p=x+c$。 序列 $(1, x, . . . , x^{p-1})$ 是 L 中的基被视为向量空间超过 K。
+现在假设域 K 具有特征 $p\not= 0$。令 $c$ 为 K 的元素。多项式 $f= X^p-X-c$ 与其导数 $f'=-1$ 互质，因此代数 $L = K[X]/(f)$ 是 étale (V, §7, No. 2, p. 37, 命题 3)。我们用$x$表示L中X的像；我们有关系$x^p=x+c$。 序列 $(1, x, . . . , x^{p-1})$ 是 L 中的基，在 K 上被视为向量空间。
 
 令 P 为 K 素数子域的加法群；它是阶$p$的循环群，由K的单位元1生成。对于P中的每个$j$，我们有$j^p=j$（V, §1, No. 3，p. 4，公式（4）），因此$f(X +j) =f(X)$。因此存在代数L的自同构$\gamma (j)$，其特征为关系$\gamma (j)(x) =x+j$；而且，从P到Aut$_K(L)$，所得的映射$\gamma$是单同态。
 
@@ -1162,13 +1162,13 @@ a) 我们有 $\xi \notin K$。那么多项式 $f(X)$ 在 K[X] 中是不可约的
 
 b) 我们有 $\xi \in K$。那么映射$\psi :y\mapsto (\chi_j(y))_{j\in P}$就是同构，从代数L到乘积代数$K^P$；此外，对于每个$k\in P$，$\psi \circ \gamma (k)\circ \psi^{-1}$是$K^P$中的自同构$(x_j)_{j\in P}\mapsto (x_{j+k})_{j\in P}$。
 
-### 8.作用于伽罗瓦代数
+### 8. 作用于伽罗瓦代数
 
 #### 命题 9 {#alg-viii-s16-prop-9 .statement tag=00JA}
 
 设G为有限群，H为G的子群，E为域K上的伽罗瓦代数和群H。则通过从H到G的共归纳，从E推导出$(K,G)$-代数Coind$^G_H(E)$为伽罗瓦代数域 K 与群 G。
 
-由于 E 在 K 上伽罗瓦代数，通过 VIII、p. 308 的定理 2 的性质 (v) 进行约减，我们有 Card(H) = [E : K]，并且 K 是 E 中 H 的不变量的环。但是通过引理 VIII、p. 305、代数中的 7 个 F = Coind$^G_H(E)$ 被减少，我们有
+由于 E 在 K 上伽罗瓦代数，通过 VIII、p. 308 的定理 2 的性质 (v) 进行约减，我们有 Card(H) = [E : K]，并且 K 是 E 中 H 的不变量的环。但是通过引理 VIII、p. 305、代数 F = Coind$^G_H(E)$ 的 7 被减少，我们有
 
 [F : K] = (G : H)[E : K] = (G : H) 卡(H) = 卡(G)，
 
@@ -1202,37 +1202,37 @@ $\rho_1\otimes \rho_2: G_1\times G_2\longrightarrow$ 自动$_K(W_1\otimes_KW_2)$
 
 #### 注 {#alg-viii-s16-n8-rem-1 .statement tag=00JE}
 
-令L为有限次数的域K的伽罗瓦扩张，并令G为其伽罗瓦群；我们用$\lambda$表示G上的恒等映射。那么L赋予$\lambda$就是伽罗瓦代数在K上群G。设$K'$是K的扩张。到命题10，代数$L_{(K')}$是伽罗瓦在$K'$上，但它不在一般$K'$的扩张。类似地，由命题11，伽罗瓦扩张E的张量积和有限次数K的F可看成伽罗瓦代数；一般而言，它不是 K 的伽罗瓦扩张。然而，如果 E 和 F 而且是 K 的扩张线性不相交的子扩展（V, §2, No. 5、p. 13 和V, §10, No. 1、p. 57、命题 1）。
+令L为有限次数的域K的伽罗瓦扩张，并令G为其伽罗瓦群；我们用$\lambda$表示G上的恒等映射。那么L赋予$\lambda$是伽罗瓦代数超过K和群G。令$K'$是K的扩张。到命题10，代数$L_{(K')}$是伽罗瓦超过$K'$，但它不在一般扩张 $K'$。类似地，由命题11，伽罗瓦扩张E的张量积和有限次数K的F可看成伽罗瓦代数；一般来说，它不是 K 的伽罗瓦扩张。然而，如果 E 和 F 而且是 K 的扩张的线性不相交的子扩展（V, §2, No. 5、p. 13 和 V, §10, No. 1、p. 57、命题 1）。
 
-### 9.叉积
+### 9. 叉积
 
-令K为域，令G为群，其单位元素我们用$e$表示。令L为交换K-代数，令$\lambda$为同态，从G到K-代数L的自同构群。对于G中的任何$g$，令$\tau (g)$是$\lambda (g)$诱导的L的乘法群$L^*$的自同构。
+令K为域，令G为群，其单位元素我们用$e$表示。令L为交换K-代数，令$\lambda$为从G到K-代数L的自同构群的同态。对于G中的任何$g$，令$\tau (g)$是$\lambda (g)$诱导的L的乘法群$L^*$的自同构。
 
-设$\mathscr{E}= (\Gamma , \iota , \pi )$是群G的$\tau$扩展$L^*$。 集合 $L\times \Gamma$ 群 $L^*$ 定义右作用 by
+设$\mathscr{E}= (\Gamma , \iota , \pi )$是群G的$\tau$扩展$L^*$。 集合 $L\times \Gamma$ 群 $L^*$ 的定义右作用
 
 $$
 (\beta , \gamma ).\alpha = (\beta \alpha , \iota (\alpha )^{-1}\gamma ) \tag{20}
 $$
 
-对于$\alpha \in L^*,\beta \in L$和$\gamma \in \Gamma$。我们用$L\times \Gamma$中的$L^*$的轨道的E集合和对$(\beta , \gamma )$的$[\beta ;\gamma ]$轨道表示。因此，到构造，我们有关系
+对于 $\alpha \in L^*,\beta \in L$ 和 $\gamma \in \Gamma$。我们用$L\times \Gamma$中$L^*$的轨道的E集合和对$(\beta , \gamma )$的$[\beta ;\gamma ]$轨道表示。因此，到构造，我们有关系
 
 $$
 [\beta \alpha ;\gamma ] = [\beta ;\iota (\alpha )\gamma ] \tag{21}
 $$
 
-对于$\alpha \in L^*,\beta \in L$和$\gamma \in \Gamma$。
+对于 $\alpha \in L^*,\beta \in L$ 和 $\gamma \in \Gamma$。
 
 给定 L 中的 $\beta$ 和 Γ 中的 $\gamma$，我们用 L 的自同构 $\lambda \circ \pi (\gamma )$ 下的 $\beta$ 的 $^{\gamma}\beta$ 变换表示；我们有关系
 
-(22) $^{\gamma}(^{\gamma'}\beta ) =^{\gamma \gamma'}\beta  ,^{\gamma}(\beta +\beta ') =^{\gamma}\beta +^{\gamma}\beta '$, $^{\gamma}(\beta \beta ') =^{\gamma}\beta^{\gamma}\beta '$
+(22)$^{\gamma}(^{\gamma'}\beta ) =^{\gamma \gamma'}\beta  ,^{\gamma}(\beta +\beta ') =^{\gamma}\beta +^{\gamma}\beta '$、$^{\gamma}(\beta \beta ') =^{\gamma}\beta^{\gamma}\beta '$
 
-对于 Γ 中的 $\gamma , \gamma '$ 和 L 中的 $\beta , \beta '$。 E 上存在律或合成，其特征为关系
+对于 Γ 中的 $\gamma , \gamma '$ 和 L 中的 $\beta , \beta '$。 E 上存在合成的律，其特征为关系
 
 $$
 [\beta ;\gamma ][\beta ';\gamma '] = [\beta^{\gamma}\beta ';\gamma \gamma '] \tag{23}
 $$
 
-事实上，如果我们分别对替换、$\beta ,\gamma ,\beta '$、$\gamma '$、$\beta \alpha ,\iota (\alpha )^{-1}\gamma ,\beta '\alpha '$、$\iota (\alpha ')^{-1}\gamma '$（对于$L^*$中的所有$\alpha ,\alpha '$）来说，就足以验证右侧不是变换。紧接着是VIII、p. 285的应用到$\mathscr{E}$公式 (1)，也可以将$\gamma \in \Gamma$和$\alpha \in L^*$写成$\gamma \iota (\alpha ) =\iota (^{\gamma}\alpha )\gamma$。由(22)中的公式，赋予律的集合E是一个具有单位元素$[1;e]$的幺半群。
+事实上，如果我们分别将替换、$\beta ,\gamma ,\beta '$、$\gamma '$与$\beta \alpha ,\iota (\alpha )^{-1}\gamma ,\beta '\alpha '$、以及$\iota (\alpha ')^{-1}\gamma '$（对于$L^*$中的所有$\alpha ,\alpha '$）来说，就足以验证右侧不是变换。紧接着是VIII、p. 285的应用到$\mathscr{E}$公式 (1)，对于$\gamma \in \Gamma$和$\alpha \in L^*$也可以写成$\gamma \iota (\alpha ) =\iota (^{\gamma}\alpha )\gamma$。由(22)中的公式，赋予律的集合E是一个具有单位元素$[1;e]$的幺半群。
 
 由于$\pi \circ \iota$与值$e$恒定，因此从E到G存在映射$\widetilde{\pi}$，这样我们有
 
@@ -1326,11 +1326,11 @@ $$
 d_g=\sum_{hh'=g}a_h\lambda (h)\cdot b_{h'} \tag{35}
 $$
 
-令$K'$为域K的扩张。用$L'$表示$K'$-代数$L_{(K')}$，对于G中的任何$g$，用$\lambda '(g)$自同构$\lambda (g)_{(K')}$表示由$\lambda (g)$诱导$L_{(K')}$。此外，让我们用由$\lambda '(g)$引起的$L^{'*}$的$\tau '(g)$自同构来表示。最后，令$h$为从$L^*$到$L^{'*}$的同态，将$x$发送到$x\otimes 1$。令$\mathscr{E}'= (\Gamma ', \iota ', \pi ')$乘以$h$(VIII，p. 289)为$\mathscr{E}$扩张直接像。令$\mathbf{A}[\mathscr{E}',L']$为叉积$K'$-$\mathscr{E}'$和$L'$的代数，并令$u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$和$v': \Gamma '\rightarrow \mathbf{A}[\mathscr{E}',L']^*$为典范同态。
+设$K'$为域K的扩张。用$L'$表示$K'$-代数$L_{(K')}$，对于G中的任何$g$，用$\lambda '(g)$自同构$\lambda (g)_{(K')}$表示由$\lambda (g)$诱导$L_{(K')}$。此外，让我们用由$\lambda '(g)$引起的$L^{'*}$的$\tau '(g)$自同构来表示。最后，令$h$为从$L^*$到$L^{'*}$的同态，将$x$发送到$x\otimes 1$。令$\mathscr{E}'= (\Gamma ', \iota ', \pi ')$乘以$h$(VIII，p. 289)为$\mathscr{E}$扩张直接像。令$\mathbf{A}[\mathscr{E}',L']$为叉积$K'$-$\mathscr{E}'$和$L'$的代数，并令$u': L'\rightarrow \mathbf{A}[\mathscr{E}',L']$和$v': \Gamma '\rightarrow \mathbf{A}[\mathscr{E}',L']^*$为典范同态。
 
 #### 命题 13 {#alg-viii-s16-prop-13 .statement tag=00JH}
 
-There exists a unique isomorphism of $K'$-algebras $\varphi$ from $\mathbf{A}[\mathscr{E}; L]_{(K')}$ to $\mathbf{A}[\mathscr{E}'; L']$ that satisfies the relations
+$K'$-代数$\varphi$从$\mathbf{A}[\mathscr{E}; L]_{(K')}$到$\mathbf{A}[\mathscr{E}'; L']$存在唯一的同构满足关系
 
 $$
 u'(h(\beta )) =\varphi (1\otimes u(\beta )) \tag{36}
@@ -1342,13 +1342,13 @@ $$
 v'(h(\gamma )) =\varphi (1\otimes v(\gamma )) \tag{37}
 $$
 
-对于$\gamma \in \Gamma$。
+$\gamma \in \Gamma$。
 
-证明紧随构造之后。
+证明紧接在构造之后。
 
-同构 $\varphi$ 被称为规范的。
+同构 $\varphi$ 称为规范。
 
-### 10.申请布劳尔群
+### 10. 申请布劳尔群
 
 在这个小节中，K是域，L是K上的伽罗瓦代数和作用$\lambda : G\rightarrow$Aut$_K(L)$。我们将 K 上的 L 的次数表示为 $n$。我们有$n=$卡(G)。
 
@@ -1536,7 +1536,7 @@ Br(L$/K'$)$^{\Phi_{L/K'}}/$/$H_2(H,L_*)$ .
 
 令$p$为素数数，令K为特征$p$的完美域。设A是K上有限次数的中心单代数。那么$p$不是A的除指标。
 
-让我们证明 K 的布劳尔群不包含阶 $p$ 中的任何元素。 有限次数的K的每个伽罗瓦扩张M是完美域（V, §7, No. 1，p. 36，命题2）。因而，取第 $p$ 个幂就是群 $M^*$ 中的自同构。由此可见，乘法乘$p$是与Br(M$/K$)同构的群$H^2$(Gal(M$/K$)$,M^*$)的自同构。
+让我们证明 K 的布劳尔群不包含阶 $p$ 的任何元素。 有限次数的K的每个伽罗瓦扩张M是完美域（V, §7, No. 1，p. 36，命题2）。因而，取第 $p$ 个幂就是群 $M^*$ 中的自同构。由此可见，乘法乘$p$是群$H^2$(Gal(M$/K$)$,M^*$)的自同构，与Br(M$/K$)同构的。
 
 因而，[A] 的阶是 $p$ 的素数，并且根据推论 2，它的指标不能被 $p$ 整除。
 
@@ -1546,6 +1546,6 @@ Br(L$/K'$)$^{\Phi_{L/K'}}/$/$H_2(H,L_*)$ .
 
 $*$相反，如果K是$p$进数域的有限伽罗瓦扩张或形式幂级数的域超过有限域，则有限次数的中心单代数的指数超过K 等于其指标 (VIII, p. 332, 习题 17, e))。$*$
 
-### 习题{#alg-viii-s16-exercises}
+### 习题 {#alg-viii-s16-exercises}
 
-§ 16](exercises/s16/)参见[习题。
+参见[习题为 § 16](exercises/s16/)。

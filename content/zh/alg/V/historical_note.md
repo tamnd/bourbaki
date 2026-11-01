@@ -13,16 +13,16 @@ pdf_pages: 0296-0311
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f85fb544a8ce770a3bf552d0e61d62daeb783f14b58a5317e2c871e4fe630aa4
+content_sha256: 145bab3bf0749199f1ee1205f748448a04e85818c912647f4e6dd00a886995cb
 translated_from: content/en/alg/V/historical_note.md
 translation_method: google
 source_content_sha256: d3d8e5cd03c57035d1df9857d0aef27c2b8331659af5500d9a8d3e0120dca43a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 84d618280c461bc9de078697dbf21e5a0dd7fc9e828e1718dea3ee43a0a16151
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 # 历史注记
@@ -140,7 +140,7 @@ ze^{g^k} = ze_k \quad (0 \leq k \leq n - 2)，其中 g 是同余 z^{n-1} \equiv 
 
 与拉格朗日直接相关的是他的同胞鲁菲尼的研究，与《论文集》同时期；继续解决拉格朗日留下的问题点，他们的目标是证明，即第五次数的“一般”方程不可能“由根式”实现解。鲁菲尼的证明冗长晦涩，仍然不完整，甚至虽然也经过多次修改；但它已经非常接近阿贝尔后来得到的证明（在原理中正确）****。它的主要兴趣在于引入代换的演算和群理论的第一个概念，其中
 
-\* 高斯明确指出，他有证明的事实，这是唯一一种可以通过尺子构造并圆规具有奇数素数数边的正多边形的情况 ([13].vol.1)。 I, p. 462);但这个证明从未发表过，也没有在他的论文中找到。
+\* Gauss states explicitly that he has a proof of the fact that this is the only case in which one can construct by ruler and compasses a regular polygon having an odd prime number of sides ([13]. vol. I, p. 462); but this proof was never published and has not been found among his papers.
 
 ** 事实上，如果我们只想证明方程可被根式解，我们可以将极限自己应用于$e = 1$，并通过归纳对$n$进行论证。
 

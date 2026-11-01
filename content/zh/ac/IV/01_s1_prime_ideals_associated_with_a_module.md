@@ -29,16 +29,16 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: adc0381ee4c2fa61d22dbcdd510f5d1b490f1125b1e15b7156e0621cc631fa99
+content_sha256: f0b8ca9b2f3146f5ef2751fe0f338a68621450290641d10c7253fa79485e6796
 translated_from: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
 translation_method: google
 source_content_sha256: 41bc8b6bc73ee003f10c2b0789585e99cc74ba8b5cfcd5f713cf440dd2d53406
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 77fc82be215326fff5611639833d566f6d91ee56d1bdb276fcfbbe2dd487a39f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 与模相关的素理想
@@ -102,7 +102,7 @@ $$
 
 *如果A-模$M$是子模家庭$(M_i)_{i \in I}$的直和，则*$\operatorname{Ass}(M) = \bigcup_{i \in I} \operatorname{Ass}(M_i)$。
 
-它可以通过(1)简化为$I$有限的情况，然后简化为$\operatorname{Card}(I) = 2$在$\operatorname{Card}(I)$上乘以归纳的情况。然后令$I = \{i, j\}$，其中$i \neq j$；因为$M/M_i$同构于$M_j$、$\operatorname{Ass}(M) \subset \operatorname{Ass}(M_i) \cup \operatorname{Ass}(M_j)$ (命题 3)；而且，$\operatorname{Ass}(M_i)$和$\operatorname{Ass}(M_j)$包含在$\operatorname{Ass}(M)$（命题3）、从而结果中。
+它可以通过(1)简化为$I$有限的情况，然后简化为$\operatorname{Card}(I)$上$\operatorname{Card}(I) = 2$乘归纳的情况。然后令$I = \{i, j\}$，其中$i \neq j$；因为$M/M_i$同构于$M_j$、$\operatorname{Ass}(M) \subset \operatorname{Ass}(M_i) \cup \operatorname{Ass}(M_j)$ (命题 3)；而且，$\operatorname{Ass}(M_i)$和$\operatorname{Ass}(M_j)$包含在$\operatorname{Ass}(M)$（命题3）、从而结果中。
 
 #### 推论 2 {#ac-iv-s1-prop-3-cor-2 .statement tag=04JF}
 
@@ -116,13 +116,13 @@ $$
 
 *令 $M$ 为 A-模，且 $\operatorname{Ass}(M)$ 为 $\Phi$ 子集。那么存在$M$的子模$N$使得*$\operatorname{Ass}(N) = \operatorname{Ass}(M) - \Phi$*和*$\operatorname{Ass}(M/N) = \Phi$。
 
-令 $\mathscr{E}$ 为子模 $P$ $M$ 的集合，使得$\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$。 公式 (1) 表明集合 $\mathscr{E}$ 按包含排序，是*归纳*；此外，$\{0\} \in \mathscr{E}$，因此$\mathscr{E} \neq \varnothing$。设$N$为$\mathscr{E}$的极大元素。然后$\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$。我们将看到$\operatorname{Ass}(M/N) \subset \Phi$，到命题 3，将完成证明。让$p \in \operatorname{Ass}(M/N)$；那么 $M/N$ 包含子模 $F/N$ 同构于 $A/p$。 命题 1 和 3，$\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$。由于$N$在$\mathscr{E}$、$F \notin \mathscr{E}$中最大，因此$p \in \Phi$最大。
+令 $\mathscr{E}$ 为子模 $P$ $M$ 的集合，使得 $\operatorname{Ass}(P) \subset \operatorname{Ass}(M) - \Phi$。 公式 (1) 表明集合 $\mathscr{E}$ 按包含排序，是*归纳*；此外，$\{0\} \in \mathscr{E}$，因此$\mathscr{E} \neq \varnothing$。设$N$为$\mathscr{E}$的极大元素。然后$\operatorname{Ass}(N) \subset \operatorname{Ass}(M) - \Phi$。我们将看到$\operatorname{Ass}(M/N) \subset \Phi$，到命题 3，将完成证明。让$p \in \operatorname{Ass}(M/N)$；那么 $M/N$ 包含子模 $F/N$ 同构于 $A/p$。 命题 1 和 3，$\operatorname{Ass}(F) \subset \operatorname{Ass}(N) \cup \{p\}$。由于$N$在$\mathscr{E}$、$F \notin \mathscr{E}$中最大，因此$p \in \Phi$最大。
 
-### 2. 相关素数理想的本地化
+### 2. 相关素理想的本地化
 
 #### 命题 5 {#ac-iv-s1-prop-5 .statement tag=04JH}
 
-*令$A$为环，$S$不满足$S$和$M$的$A$素理想的$A$，$\Phi$集合的乘法子集 A-模。然后*：
+*设$A$为环，$S$不满足$S$和$M$的$A$素理想的$A$，$\Phi$集合的乘法子集 A-模。然后*：
 (i) *映射* $p \mapsto S^{-1}p$ *是* $\operatorname{Ass}_A(M) \cap \Phi$ 的双射 *到* $\operatorname{Ass}_{S^{-1}A}(S^{-1}M)$ 的子集。
 (ii) *如果* $p \in \Phi$ *是有限生成的理想且* $S^{-1}p \in \operatorname{Ass}_{S^{-1}A}(S^{-1}M)$，*则* $p \in \operatorname{Ass}_A(M)$。
 
@@ -154,21 +154,21 @@ $$
 
 其中$p, u, v$是典范同态。我们将证明$S^{-1}p$和$v$是单射的，这将证明$u$和$p$具有相同的核，因此$N = N'$。
 
-作为$\mathrm{Ass}(N') \cap \Psi = \varnothing$，$\mathrm{Ass}(N')$的每一个元素都满足S。然后$\mathrm{Ass}_{S^{-1}A}(S^{-1}N') = \varnothing$（推论到命题5），从而$S^{-1}N' = \{0\}$（no. 1，推论1到命题2），这证明了$S^{-1}p$是单射 (章 II, §2, no. 4, 定理 1)。另一方面，如果$x$属于到$v$的核K，则$\mathrm{Ann}(x) \cap S \neq \varnothing$(章II, §2, no. 2，命题4)；因此从 $\mathrm{Ass}(K) \subset \mathrm{Ass}(M/N') = \Psi$ 开始$\mathrm{Ass}(K) = \varnothing$；我们推断$K = \{0\}$（no. 1，推论1到命题2）和$v$是单射的。
+作为$\mathrm{Ass}(N') \cap \Psi = \varnothing$，$\mathrm{Ass}(N')$的每一个元素都满足S。然后$\mathrm{Ass}_{S^{-1}A}(S^{-1}N') = \varnothing$（推论到命题5），从而$S^{-1}N' = \{0\}$（no. 1，推论1到命题2），这证明了$S^{-1}p$是单射 (章 II, §2, no. 4, 定理 1)。另一方面，如果$x$属于到$v$的核K，则$\mathrm{Ann}(x) \cap S \neq \varnothing$(章II, §2, no. 2，命题4)；因此从 $\mathrm{Ass}(K) \subset \mathrm{Ass}(M/N') = \Psi$ 开始$\mathrm{Ass}(K) = \varnothing$；我们推导出$K = \{0\}$（no. 1，推论1到命题2）和$v$是单射的。
 
-### 3. 关系的支持
+### 3. 关系与支持
 
-令 M 为环 A 上的模。回想一下 A 的素理想 $\mathfrak{p}$ 的集合，使得 $M, \neq 0$ 称为 M 的支持，并用 $\operatorname{Supp}(M)$ (章 II, § 4, no. 4, 定义 5) 表示。
+设 M 为环 A 上的模。回想一下 A 的素理想 $\mathfrak{p}$ 的集合，使得 $M, \neq 0$ 称为 M 的支持，并用 $\operatorname{Supp}(M)$ 表示（章 II, § 4, no. 4，定义 5）。
 
 #### 命题 7 {#ac-iv-s1-prop-7 .statement tag=04JK}
 
-设 A 为环，M 为 A-模。
+设A为环，M为A-模。
 
 (i) 包含元素$\in \operatorname{Ass}(M)$属于到$\operatorname{Supp}(M)$的每个素理想$\mathfrak{p}$。
 
-(ii) 相反，如果 A 是诺特，则每个理想 $\mathfrak{p} \in \operatorname{Supp}(M)$ 包含元素 $\in \operatorname{Ass}(M)$。
+(ii) 相反，如果 A 为诺特，则每个理想$\mathfrak{p} \in \operatorname{Supp}(M)$ 包含元素 $\in \operatorname{Ass}(M)$。
 
-如果$\mathfrak{p}$包含元素$q$等于$\operatorname{Ass}(M)$，则$q \cap (A - \mathfrak{p}) = \varnothing$，因此，如果我们写$S = A - \mathfrak{p}$，$S^{-1}\mathfrak{p}$是与$S^{-1}M = M$相关的素理想，（no. 2，命题5）和*更不必说* $M, \# 0$，因此$\mathfrak{p} \in \operatorname{Supp}(M)$。相反，如果 A 是诺特，则 A 也是，（章 II, § 2, no. 4，推出 2 到命题 10）。如果$M_{\mathfrak{p}} \neq 0$，则$\operatorname{Ass}_{A_{\mathfrak{p}}}(M_{\mathfrak{p}}) \neq 0$（no. 1，推论1到命题2），因此存在$q \in \operatorname{Ass}_A(M)$使得$q \cap (A - \mathfrak{p}) = \varnothing$（no. 2，推论到命题5）。
+如果 $\operatorname{Ass}(M)$ 的 $\mathfrak{p}$ 包含元素 $q$，则$q \cap (A - \mathfrak{p}) = \varnothing$，因此，如果我们写 $S = A - \mathfrak{p}$，$S^{-1}\mathfrak{p}$ 是与$S^{-1}M = M$相关的素理想，（no. 2， 命题 5) 和 *更不必说* $M, \# 0$，因此$\mathfrak{p} \in \operatorname{Supp}(M)$。相反，如果 A 是诺特，则 A 也是，（章 II, § 2, no. 4，推出 2 到命题 10）。如果$M_{\mathfrak{p}} \neq 0$，则$\operatorname{Ass}_{A_{\mathfrak{p}}}(M_{\mathfrak{p}}) \neq 0$（no. 1，推论1到命题2），因此存在$q \in \operatorname{Ass}_A(M)$使得$q \cap (A - \mathfrak{p}) = \varnothing$（no. 2，推论命题5）。
 
 #### 推出 1 {#ac-iv-s1-prop-7-cor-1 .statement tag=04JL}
 
@@ -176,21 +176,21 @@ $$
 
 #### 推出 2 {#ac-iv-s1-prop-7-cor-2 .statement tag=04JM}
 
-诺特环 A 的零根是理想$\mathfrak{p} \in \operatorname{Ass}(A)$ 的交。
+诺特环 A 的零根是理想 $\mathfrak{p} \in \operatorname{Ass}(A)$ 的交。
 
-我们知道 A 的零根是 $\operatorname{Spec}(A) = \operatorname{Supp}(A)$ 的最小值元素 (章 II, § 2, no. 6, 命题 13) 的交。
+我们知道 A 的零根是 $\operatorname{Spec}(A) = \operatorname{Supp}(A)$ 的最小值元素的交（章 II, § 2, no. 6，命题 13）。
 
-### 4.有限生成模超过诺特环的情况
+### 4. 有限生成模超过诺特环的情况
 
 #### 定理 1 {#ac-iv-s1-thm-1 .statement tag=04JN}
 
 设 A 为诺特环，M 有限生成A-模。 M 存在合成列 $(M_i)_{0 \leq i \leq n}$，使得对于$0 \leq i \leq n - 1$，$M_i / M_{i+1}$ 同构于$A / \mathfrak{p}_i$，其中$\mathfrak{p}_i$ 是A 的素理想。
 
-令$\mathscr{G}$为M的子模的集合，其中合成列和性质为叙述。由于$\mathscr{G}$非空（对于$\{0\}$属于到$\mathscr{G}$）并且M是诺特，$\mathscr{G}$有极大元素N。如果$M \neq N$，则$M/N \neq 0$，因此$\operatorname{Ass}(M/N) \neq \varnothing$（no. 1，推论1至命题2)； $M/N$因此包含子模$N'/N$同构于形式$A/\mathfrak{p}$的A-模，其中$\mathfrak{p}$是质数；然后乘定义$N' \in \mathscr{G}$，其中与……矛盾是N的最大特征标。那么必然是$N = M$。
+令$\mathscr{G}$为M的子模中的集合，其中M具有合成列和叙述的性质。由于$\mathscr{G}$非空（对于$\{0\}$属于到$\mathscr{G}$）且M为诺特，$\mathscr{G}$有极大元素N。如果$M \neq N$，则$M/N \neq 0$，因此$\operatorname{Ass}(M/N) \neq \varnothing$ （no. 1，推论1至命题2）； $M/N$因此包含子模$N'/N$同构于形式$A/\mathfrak{p}$的A-模，其中$\mathfrak{p}$是素数；然后乘定义$N' \in \mathscr{G}$，其中与……矛盾是N的最大特征标。那么必然是$N = M$。
 
 #### 定理 2 {#ac-iv-s1-thm-2 .statement tag=04JO}
 
-令 M 为诺特环 A 上的有限生成模和 M 的 $(M_i)_{0 \leq i \leq n}$ 合成列，使得对于 $0 \leq i \leq n - 1$，$M_i / M_{i+1}$ 同构于 $A / \mathfrak{p}_i$，其中 $\mathfrak{p}_i$ 是 A 的素理想。然后
+令 M 为诺特环 A 和 M 的 $(M_i)_{0 \leq i \leq n}$ 合成列上的有限生成模，使得对于 $0 \leq i \leq n - 1$，$M_i / M_{i+1}$ 同构于 $A / \mathfrak{p}_i$，其中 $\mathfrak{p}_i$ 是 A 的素理想。
 
 (4)
 $$
@@ -255,7 +255,7 @@ $$
 \operatorname{Ass}(\operatorname{Hom}_A(E, F)) = \operatorname{Ass}(F) \cap \operatorname{Supp}(E).
 $$
 
-通过假设，$E$同构于形式$A^n/R$的$A$模，因此$\operatorname{Hom}_A(E, F)$同构于$\operatorname{Hom}_A(A^n, F)$的子模，而后者又同构于$F^n$；现在，$\operatorname{Ass}(F^n) = \operatorname{Ass}(F)$（no. 1，推论 1 到命题 3）；因此$\operatorname{Ass}(\operatorname{Hom}_A(E, F)) \subset \operatorname{Ass}(F)$。另一方面，
+通过假设，$E$同构于形式$A^n/R$的$A$模，因此$\operatorname{Hom}_A(E, F)$同构于$\operatorname{Hom}_A(A^n, F)$的子模，后者同构于$F^n$；现在，$\operatorname{Ass}(F^n) = \operatorname{Ass}(F)$（no. 1，推论1到命题3）；因此$\operatorname{Ass}(\operatorname{Hom}_A(E, F)) \subset \operatorname{Ass}(F)$。另一方面，
 
 $$
 \operatorname{Supp}(\operatorname{Hom}_A(E, F)) \subset \operatorname{Supp}(E):
@@ -267,8 +267,8 @@ $$
 \operatorname{Ass}(\operatorname{Hom}_A(E, F)) \subset \operatorname{Supp}(E).
 $$
 
-相反，令$p$为$A$属于到$\operatorname{Ass}(F) \cap \operatorname{Supp}(E)$的素理想。由定义，$F$包含子模同构于$A/p$。另一方面，由于$E$是有限生成的，而$E, \neq 0$，我们知道从$E$到$A/p$存在同态$w \neq 0$（章II, § 4, no. 4，命题20）。因为从$A/p$到$F$、$j \circ w \in \operatorname{Hom}(E, F)$和$j \circ w \neq 0$存在单同态$j$。另一方面，关系$aw = 0$对于某些$a \in A$相当于$a \in p$，$A/p$的每元素$\neq 0$中的湮没子是$p$；那么当然$p \in \operatorname{Ass}(\operatorname{Hom}_A(E, F))$。
+相反，令$p$为$A$属于到$\operatorname{Ass}(F) \cap \operatorname{Supp}(E)$的素理想。由定义，$F$包含子模同构于$A/p$。另一方面，由于$E$是有限生成的，而$E, \neq 0$，我们知道从$E$到$A/p$存在同态$w \neq 0$（章II, § 4, no. 4，命题20）。因为从$A/p$到$F$、$j \circ w \in \operatorname{Hom}(E, F)$和$j \circ w \neq 0$存在单同态$j$。另一方面，$a \in A$的关系$aw = 0$相当于$a \in p$，$A/p$的每元素$\neq 0$中的湮没子为$p$；那么当然$p \in \operatorname{Ass}(\operatorname{Hom}_A(E, F))$。
 
 ### 习题 {#ac-iv-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

@@ -36,19 +36,19 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: dc16d34db35a1ec146b7f45db565b1f2dfcf1d06a4126e33d93765263fb8cda2
+content_sha256: 085dbb6eb2238da5b8580ddbd3e42470d72ee0e70c7076584c30743c8e06ace4
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
 translation_method: google
 source_content_sha256: 8a7a0642504d2c2735e8c21f04b3ffc8f7148755423f71666653ec4a58ab65fb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 26c06e803d895ce490a6927f9e955c137adc394f498c390b421bd9e7cd59bdbb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3.真实投影空间
+## 3. 真实投影空间
 
 在这个截面中，我们需要不断调用概念并得出*商空间*（章I, § 3），特别是以下两个属性，为了方便起见，我们将其声明为引理：
 
@@ -66,7 +66,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 这是章I, § 3, no. 6的命题10的推论2。
 
-### 1. 实投影拓扑空间
+### 1. 实投影的拓扑空间
 
 我们回忆一下代数中的以下定义：给定环或域K的划分，左向量空间K_s^{n+1}中*行*经过到o的集合（即维数1的向量子空间） K 上的 n 维数* 的左投影空间被称为 K 上的 *左投影空间，并表示为 P_n(K)。
 
@@ -96,13 +96,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 射影空间 $P_n$ 是紧致连通的，并且同胚于球体 $S_n$ 与等价关系在球面上由 $\Delta_n$ 引出的商。
 
-设$\Delta'_n$是$\Delta_n$在$S_n$上诱发的等价关系（$\Delta'_n$的等价类是$S_n$的完全相反的点的对）。 $\mathbf{R}_{n+1}^*$到$S_n$的映射$x \to x/||x||$是连续的，因此(引理2)$P_n$同胚于$S_n / \Delta'_n$。由于 $S_n$ 是紧连通的，$S_n$ 的每个豪斯多夫商空间也是紧连通的（章 I, § 9, no. 4、定理 2，推论 1；§ 11, no. 3、命题 7）。
+设$\Delta'_n$是$\Delta_n$在$S_n$上诱发的等价关系（$\Delta'_n$的等价类是$S_n$的完全相反的点的对）。 $\mathbf{R}_{n+1}^*$到$S_n$的映射$x \to x/||x||$是连续的，因此(引理2)$P_n$同胚于$S_n / \Delta'_n$。由于$S_n$是紧连通的，$S_n$的每个豪斯多夫商空间也是紧连通的（章I, § 9, no. 4，定理2，推论1；§ 11, no. 3，命题7）。
 
 #### 命题 3 {#top-vi-s3-prop-3 .statement tag=0BXL}
 
 如果$n \geq 0$，射影空间$P_n$同胚于球$B_n$的商空间，通过识别$S_{n-1}$的每个点与其相反的点而获得。
 
-令 $H$ 为由 $x_0 \leq 0$ 定义的 $S_n$ 的闭合半球。 $P_n$同态于$S_n$的空间除以关系$\Delta'_n$的商，也同态于$S_n$的子集$H$除以关系的商$\Delta''_n$ 由 $\Delta'_n$ 在 $H$ 引发。对于$\Delta'_n$的每一个等价类至少在一个点中满足$H$，因此（引理1）就足以验证我们是否相对于$\Delta'_n$饱和，$H$的开路子集$U$是饱和的对于$V''_n$，我们得到$S_n$的开放子集$V$。现在如果$a = (a_i) \in U$和$a_0 < 0$，则$U$中包含$S_n$中有$a$的邻域$W$，$W$和$-W$的并是邻域 $a$相对于$\Delta'_n$饱和并包含在$V$中。另一方面，如果$a_0 = 0$，我们有$-a \in U$，并且存在$r > 0$使得点$x \in H$的集合其中满足关系中的一个或另一个||x - a|| < r, ||x + a|| < r 包含在 U 中； 点 x \in S_n 的集合，其中满足这些关系之一或另一个关系是 a 的邻域，其相对于 $\Delta'_n$ 饱和并包含在 V 中。
+令 $H$ 为由 $x_0 \leq 0$ 定义的 $S_n$ 的闭合半球。 $P_n$同态于$S_n$的空间除以关系$\Delta'_n$的商，也同态于$S_n$的子集$H$除以关系的商$\Delta''_n$ 由 $\Delta'_n$ 在 $H$ 引发。对于$\Delta'_n$的每一个等价类在至少一个点中满足$H$，因此（引理1）就足以验证我们是否相对于$\Delta'_n$饱和，$H$的开路子集$U$是饱和的对于 $V''_n$，我们得到 $S_n$ 的开放子集 $V$。现在如果$a = (a_i) \in U$和$a_0 < 0$，则$U$中包含$S_n$中有$a$的邻域$W$，$W$和$-W$的并是邻域 $a$相对于$\Delta'_n$饱和并包含在$V$中。另一方面，如果$a_0 = 0$，我们有$-a \in U$，并且存在$r > 0$使得点$x \in H$的集合其中满足关系中的一个或另一个||x - a|| < r, ||x + a|| < r 包含在 U 中； 点 x \in S_n 的集合，其中满足关系中的一个或另一个关系是 a 的邻域，其相对于 $\Delta'_n$ 饱和并包含在 V 中。
 
 观察到，商空间$H / \Delta''_n$是通过在H中将H的交$S_{n-1}$和超平面$x_0 = 0$中的每个点与其相反的点进行识别而获得的。为了完成证明，只要注，顶点$e_0$（$\S$ 2，no. 4）的立体投影是H到$B_n$的同胚，这使得点保持不变$S_{n-1}$。
 
@@ -126,7 +126,7 @@ $\mathbf{R}^{n+1}$的每个单射线性映射$f$进入$\mathbf{R}^{m+1}$（$m \g
 
 *在射影空间* $\mathbf{P}_n$ ($n \geq 0$) 中，*射影超平面* $\mathbf{H}$ *同态于* $\mathbf{R}^n$。
 
-通过进行投影线性变换，我们可以假设$\mathbf{H}$是超平面，其方程为$x_0 = 0$。 点$x = (x_i)$或$\mathbf{R}_{n+1}^*$的集合$A$，使得$x_0 \neq 0$相对于$\Delta_n$开路且饱和；它的$\mathbf{P}_n$中的典范像$C$是$\mathbf{P}_n$中$\mathbf{H}$的补集，因此同胚于等价关系$\Theta$在$A$上由$\Delta_n$导出的$A$的商（引理1）。设$B$为超平面，其方程为$\mathbf{R}^{n+1}$中的$x_0 = 1$。对于每个点$x \in A$，让对应点$x_0^{-1} x$，其中通过$0$和$x$的线切割$B$（图4）；这样，我们将$A$的定义连续映射$g$放到$B$上，这样$g(x)$是$B$中唯一与$x$模$\Theta$全等的点。由此可知 $B$ 同态于 $A/\Theta$ (引理 2)，因此也同态于 $C$；由于$B$与$\mathbf{R}^n$同胚，证明是完备的。
+通过进行投影线性变换，我们可以假设$\mathbf{H}$是超平面，其方程是$x_0 = 0$。 点 $x = (x_i)$ $\mathbf{R}_{n+1}^*$ 的集合 $A$，使得$x_0 \neq 0$相对于$\Delta_n$开路且饱和； $\mathbf{P}_n$中的典范像$C$是$\mathbf{P}_n$中$\mathbf{H}$的补集，因此同胚于等价关系$\Theta$在$A$上由$\Delta_n$导出的$A$的商（引理1）。设$B$为超平面，其方程为$\mathbf{R}^{n+1}$中的$x_0 = 1$。对于每个点$x \in A$，让对应点$x_0^{-1} x$，其中通过$0$和$x$的线切割$B$（图4）；这样，我们将$A$的定义连续映射$g$放到$B$上，这样$g(x)$是$B$中唯一与$x$模$\Theta$全等的点。由此可见 $B$ 同态于 $A/\Theta$ (引理 2)，因此也同态于 $C$；由于$B$与$\mathbf{R}^n$同胚，证明是完备的。
 
 #### 推论{#top-vi-s3-n2-cor-1 .statement tag=0BXO}
 
@@ -136,7 +136,7 @@ $\mathbf{R}^{n+1}$的每个单射线性映射$f$进入$\mathbf{R}^{m+1}$（$m \g
 
 ### 3. 将实数空间嵌入投影空间
 
-no. 2的命题 5表明，如果我们在$\mathbf{P}_n$（$n \geq 0$）中给出一个射影超平面$\mathbf{H}$，则$\mathbf{R}^n$同胚到这个超平面的补集$\mathbf{C}H$。一旦选择了 $\mathbf{H}$，通常可以方便地通过命题 5 中定义的同态来 *认同* $\mathbf{R}^n$ 和 $\mathbf{C}H$；射影超平面 $H$ 被称为“无穷远”，它的点和子集也是如此。通常取$H$为“坐标”超平面，其方程为$x_0 = 0$；然后将$\mathbf{R}^n$的点$z = (z_1)$与齐次坐标为$1, z_1, z_2, \ldots, z_n$的$P_n$的点进行识别。
+no. 2的命题 5表明，如果我们在$\mathbf{P}_n$（$n \geq 0$）中给出一个射影超平面$\mathbf{H}$，则$\mathbf{R}^n$同胚到这个超平面的补集$\mathbf{C}H$。一旦选择了 $\mathbf{H}$，通常可以方便地通过命题 5 中定义的同胚来 *认同* $\mathbf{R}^n$ 和 $\mathbf{C}H$；射影超平面 $H$ 被称为“无穷远”，它的点和子集也是如此。通常取$H$为“坐标”超平面，其方程为$x_0 = 0$；然后将$\mathbf{R}^n$的点$z = (z_1)$与齐次坐标为$1, z_1, z_2, \ldots, z_n$的$P_n$的点进行识别。
 
 一旦完成此识别，$\mathbf{R}^n$中$p$维数的任何仿射线性簇$V$在$P_n$中的闭包是$p$维数的射影线性簇，不包含在无穷远处的超平面中，并且与由下式生成的射影线性簇相同$V$。相反，$p$ 维数的每个射影线性簇$P$（不包含在无穷远超平面中）在$\mathbf{R}^n$ 上都有一个仿射线性簇$p$ 维数，其在$P_n$ 中的闭包为$P$。
 
@@ -146,7 +146,7 @@ no. 2的命题 5表明，如果我们在$\mathbf{P}_n$（$n \geq 0$）中给出�
 
 空间 $\tilde{\mathbf{R}}$ 的“无穷远点”用$\infty$ 表示，不附加任何符号。重要的是不要将$\tilde{\mathbf{R}}$与章IV, § 4中定义的扩展实直线$\mathbf{R}$混淆，后者有两个“无穷远点”；事实上，$\tilde{\mathbf{R}}$同态于通过识别两个点$+\infty$和$-\infty$而获得的$\mathbf{R}$的商空间。
 
-### 4. 对实值函数的扩张的应用
+### 4. 应用于实值函数的扩张
 
 Since $\mathbf{R}$ can be considered as a subset of $\tilde{\mathbf{R}}$, every mapping of a set $E$ into $\mathbf{R}$ (i.e. every real-valued function on $E$) can be considered as a mapping of $E$ into $\tilde{\mathbf{R}}$; in particular, if $E$ is a subset of a topological space $F$ and $f$ is a mapping of $E$ into $\mathbf{R}$, it may happen that at some points of the closure $F_c$ of $E$, $f(x)$ tends to the limit $\infty$ as $x$ tends to one of these points while remaining in $E$; we may then extend the function $f$ by continuity by assigning it the value $\infty$ at these points (Chapter I, § 8, no. 5, Theorem 1).
 
@@ -164,7 +164,7 @@ $$
 
 同样，如果$n$是整数$> 0$，则通过取值$\infty$，将函数$x^n$扩展变为点$\infty$。
 
-On the other hand, it is in general impossible to extend by continuity a rational function of two real variables either to the space $\mathbf{P}_1 \times \mathbf{P}_1$ or to the space $\mathbf{P}_2$ (cf. 习题5)。
+On the other hand, it is in general impossible to extend by continuity a rational function of two real variables either to the space $\mathbf{P}_1 \times \mathbf{P}_1$ or to the space $\mathbf{P}_2$ (cf. Exercise 5).
 
 ### 5. 射影线性簇的空间
 
@@ -229,7 +229,7 @@ $$
 x_j = \sum_{i=1}^{p+1} a_{ij} x_{n-p+i-1} \quad (0 \leq j \leq n-p-1).
 $$
 
-### 6.格拉斯曼尼亚人
+### 6. 格拉斯曼尼亚人
 
 如果K是域并且X是L_{n+1,p+1}(K)中的任意矩阵，则令c_σ(X)表示X_σ的行列式；这样，对于L_{n+1,p+1}(K) 对应的每一个矩阵X
 
@@ -247,6 +247,6 @@ $$
 
 最后我们回想一下，格拉斯曼函数$G_{n,p}(K)$和$G_{n,n-p-1}(K)$是同一个射影空间$P_{n-1}(K)$的子集，并且可以通过射影线性变换转换为另一个射影；由此可见 $G_{n,p}$ 和 $G_{n,n-p-1}$ 是*同胚*。
 
-### 习题 {#top-vi-s3-exercises}
+### 习题{#top-vi-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

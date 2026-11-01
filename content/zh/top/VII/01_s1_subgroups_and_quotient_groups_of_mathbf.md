@@ -36,25 +36,25 @@ subsections:
       pdf_page: 84
 statements: 19
 exercises: 15
-content_sha256: 0c8ba33b15c6df7efc5eaf01077b1bc7b4bb78ebbfa3c8c0d69ae52ad55e91c3
+content_sha256: a75a5606425a5880a7780a4257f0d90034dc16e2ab99d6c2feb6cca41f16d741
 translated_from: content/en/top/VII/01_s1_subgroups_and_quotient_groups_of_mathbf.md
 translation_method: google
 source_content_sha256: fe624f0a3e7b7cbf13cf90a248b8acc2a36a832c024d805c9d19b21538d08a71
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ad7932cba5fa34a4c799eaf70522b3289d3870e0beecdfbe87572d06dfb2b31a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 子群和商群的 $\mathbf{R}^n$
+## 1. 子群和商群 $\mathbf{R}^n$
 
-首先介绍一下约定：如果 G 是拓扑群，则对于每个整数 $n > 0$，我们定义 n 因子的 (章 III, § 2) 乘积群 $G^n$ 等于 G。在这个截面中，我们将扩展这个定义对应于$n = 0$，按照$G^0$仅表示一个元素中的群由……组成的约定。如果 H 是任意群，我们将用 H 认同 $G^0 \times H$。
+首先介绍一下约定：如果 G 是拓扑群，则对于每个整数 $n > 0$，我们定义 n 因子的 (章 III, § 2) 乘积群 $G^n$ 等于 G。在这个截面中，我们根据$G^0$仅表示一个元素中的群由……组成的约定，将扩展这个定义对应于$n = 0$。如果 H 是任意群，我们将用 H 认同 $G^0 \times H$。
 
-对于集合$\mathbf{R}^n$，我们一方面必须考虑它的（加性）拓扑群结构，另一方面它的向量空间结构超过域$\mathbf{R}$（章VI, § 1, no. 3）。给定 $\mathbf{R}^n$ 的子集 A，我们可以设想由 A 生成 $\mathbf{R}^n$ 的子群（A 的点的所有线性组合的集合，具有整数系数）以及由 A 生成的向量子空间 （A 的点的所有线性组合中的集合，具有实数系数）；这两个概念一定要仔细区分。根据代数中的定义，A的秩是A生成的$\mathbf{R}^n$的向量子空间V的维数；因此，说 A 是秩 $p$ 等价于说，其中存在 $p$ 点 $x_i \in A$，其中形式相对于域 $\mathbf{R}$ 是一个自由的系统（在其他字，关系$\sum_i t_i x_i = 0$，其中$t_i$是实数，意味着每个$i$有$t_i = 0$）和V的形式基（这意味着每点 V 是具有实数系数的$x_i$ 的线性组合）。
+对于集合$\mathbf{R}^n$，我们一方面必须考虑它的（加法）拓扑群结构，另一方面它的向量空间结构超过域$\mathbf{R}$（章VI, § 1, no. 3）。给定$\mathbf{R}^n$的子集 A，我们可以设想由A生成$\mathbf{R}^n$的子群（A的点的所有线性组合的集合，具有整数系数）以及由A生成的向量子空间 （A 的点的所有线性组合中的集合，具有实数系数）；这两个概念一定要仔细区分。根据代数中的定义，A的秩是A生成的$\mathbf{R}^n$的向量子空间V的维数；因此，说 A 是秩 $p$ 就等于说，其中存在 $p$ 点 $x_i \in A$，其中形式相对于域 $\mathbf{R}$ 是一个自由的系统（在其他字，关系$\sum_i t_i x_i = 0$，其中$t_i$是实数，意味着每个$i$有$t_i = 0$）和V的形式基（这意味着每点 V 是具有实数系数的$x_i$ 的线性组合）。
 
-接下来我们还必须利用概念、系统、点、$\mathbf{R}^n$，它们相对于有理数数的域、$\mathbf{Q}$是自由的；这样系统是$\mathbf{R}^n$的有限子集$(x_i)$，这样关系$\sum_i r_i x_i = 0$，其中$r_i$是有理数数（或整数 - 它是同一件事），意味着每个 $i$ $r_i = 0$。这个概念必须与关于$\mathbf{R}$的免费系统仔细区分：每个关于$\mathbf{R}$免费的系统对于$\mathbf{Q}$来说是免费的，但是逆命题是假的（对于例， $\mathbf{R}$ 形式中的数 1 和$\sqrt{2}$ 相对于$\mathbf{Q}$ 是免费的系统，但对于$\mathbf{R}$ 不是免费的系统）。每当我们无条件地谈论*免费的系统*时，我们总是指的是免费的系统*相对于*$\mathbf{R}$。因此，有必要区分 $\mathbf{R}^n$ 向量空间结构 *相对于* $\mathbf{R}$ 和向量空间结构 *相对于* $\mathbf{Q}$；特别地，向量子空间*相对于*$\mathbf{Q}$由$\mathbf{R}^n$的子集$A$生成，是$A$的所有线性组合的集合$U$，且有*有理*系数；它包含在$A$生成的向量子空间$V$（相对于$\mathbf{R}$）中，但通常与$V$不同。 $U$的维数（*相对于*$\mathbf{Q}$）被称为$A$的*有理秩*；它*至少等于*上面定义的$A$的*秩*（$V$的维数相对于$\mathbf{R}$）；如果$A$是无限集合，则它可能是“无限”，而$\mathbf{R}^n$的任何非空子集的秩始终是$\leq n$；特别是，$\mathbf{R}^n$的任何*不可数*子集的有理数秩始终是无限的，因为任何超过$\mathbf{Q}$的有限维向量空间都是可数的。
+接下来我们还必须利用概念、系统、点、$\mathbf{R}^n$，它们相对于有理数数的域、$\mathbf{Q}$是自由的；这样系统是$\mathbf{R}^n$的有限子集$(x_i)$，使得关系$\sum_i r_i x_i = 0$，其中$r_i$是有理数数（或整数 - 它是同一件事），意味着每个 $i$ $r_i = 0$。这个概念必须与关于$\mathbf{R}$的自由系统仔细区分：每个关于$\mathbf{R}$自由的系统对于$\mathbf{Q}$来说是自由的，但是逆命题是假的（对于例， $\mathbf{R}$ 形式中的数 1 和$\sqrt{2}$ 相对于$\mathbf{Q}$ 是免费的系统，但对于$\mathbf{R}$ 不是免费的系统）。每当我们无条件地谈论*免费的系统*时，我们总是指的是免费的系统*相对于*$\mathbf{R}$。因此，有必要区分 $\mathbf{R}^n$ 向量空间结构 *相对于* $\mathbf{R}$ 和向量空间结构 *相对于* $\mathbf{Q}$；特别地，向量子空间*相对于*$\mathbf{Q}$由$\mathbf{R}^n$的子集$A$生成，是$A$的所有线性组合的集合$U$，且有*有理*系数；它包含在$A$生成的向量子空间$V$（相对于$\mathbf{R}$）中，但通常与$V$不同。 $U$的维数（*相对于*$\mathbf{Q}$）称为$A$的*有理秩*；它*至少等于*上面定义的$A$的*秩*（$V$的维数相对于$\mathbf{R}$）；如果$A$是无限集合，则它可能是“无限”，而$\mathbf{R}^n$的任何非空子集的秩始终是$\leq n$；特别是，$\mathbf{R}^n$的任何*不可数*子集的有理秩始终是无限的，因为任何超过$\mathbf{Q}$的有限维向量空间都是可数的。
 
 在这个截面中，我们首先要对加法群$\mathbf{R}^n$*关闭的子群*进行确定结构。
 
@@ -70,13 +70,13 @@ $$
 b_i = \sum_{j=1}^p r_{ij} a_j,
 $$
 
-其中 $r_{ij}$ 为整数，使得行列式 $\det (r_{ij})$ 等于 $+1$ 或 $-1$。 $G$ 的每个 *子群* $H$ 都是离散的且秩 $q \leq p$；此外，如果$H$是给定的子群秩$q$，则存在$p$点$b_i$（$1 \leq i \leq p$）的空闲系统，其中生成 $G$，以及 $q$ 点 $c_i$ ($1 \leq i \leq q$) 的系统，其中生成 $H$，这样我们就有 $c_i = e_i b_i$ 对应 $1 \leq i \leq q$，其中 $e_i$ 是整数（$H$相对于$G$的不变量因子）使得
+其中 $r_{ij}$ 为整数，使得行列式 $\det (r_{ij})$ 等于 $+1$ 或 $-1$。 $G$ 的每个 *子群* $H$ 都是离散的，并且秩 $q \leq p$；此外，如果$H$是给定的子群秩$q$，则存在$p$点$b_i$（$1 \leq i \leq p$）的空闲系统，其中生成 $G$，以及 $q$ 点 $c_i$ ($1 \leq i \leq q$) 的系统，其中生成 $H$，这样我们就有 $c_i = e_i b_i$ 对应 $1 \leq i \leq q$，其中 $e_i$ 是整数（$H$相对于$G$的不变量因子）使得
 $$
 e_{i+1} \equiv 0 \pmod{e_i} \quad \text{for} \quad 1 \leq i \leq q - 1.
 $$
 商群$G/H$是与$\mathbf{Z}^{p-q} \times F$同构的离散群，其中$F$是有限阿贝尔的群，$q$循环子群的直接乘积各自阶$e_1, \ldots, e_q$。
 
-现在我们将证明，我们刚才考虑的 $\mathbf{R}^n$ 的离散子群是唯一存在的。
+现在我们将证明，我们刚刚考虑的 $\mathbf{R}^n$ 的离散子群是唯一存在的。
 
 #### 命题 1 {#top-vii-s1-prop-1 .statement tag=0BY4}
 
@@ -146,12 +146,12 @@ $$
 \| (k_p + 1)x_p - a \| \leq \varepsilon + \| x_p \|,
 $$
 
-并且从$\lim_{p \to \infty} x_p = o$开始，$a$也是序列$((k_p + 1)x_p)$的集群点，其点属于到闭集合$\mathbf{C}P$，通过定义 $k_p$；因而$a \in \overline{P} \cap \mathbf{C}P$（$P$的边界，图5），这意味着$a \neq o$。此外，由于$G$关闭，我们还有$a \in G$。令$t$为任意实数；因为$|tk_p - [tk_p]| < 1$，关系$\| k_p x_p - a \| \leq \varepsilon$意味着$\| [tk_p]x_p - ta \| \leq |t| \varepsilon + \| x_p \|$；由于 $\lim_{p \to \infty} x_p = o$，$ta$ 是
+并且从$\lim_{p \to \infty} x_p = o$开始，$a$也是序列$((k_p + 1)x_p)$的集群点，其点属于到闭集合$\mathbf{C}P$，通过定义 $k_p$；因而$a \in \overline{P} \cap \mathbf{C}P$（$P$的边界，图5），这意味着$a \neq o$。此外，由于$G$关闭，我们还有$a \in G$。设$t$为任意实数；因为$|tk_p - [tk_p]| < 1$，关系$\| k_p x_p - a \| \leq \varepsilon$意味着$\| [tk_p]x_p - ta \| \leq |t| \varepsilon + \| x_p \|$；由于 $\lim_{p \to \infty} x_p = o$，$ta$ 是
 
-!【图5](https://i.imgur.com/5z5z5z5.png)
+![图5](https://i.imgur.com/5z5z5z5.png)
 图 5.
 
-!【图6](https://i.imgur.com/6z6z6z6.png)
+![图6](https://i.imgur.com/6z6z6z6.png)
 图 6.
 
 序列 ([tk_p]x_p) 的集群点；但是这个序列属于的点到 G，因而 ta ∈ G，因为 G 是闭集的。这样就完成了证明。
@@ -172,7 +172,7 @@ $\mathbf{R}^n$ 存在基 $(a_i)_{1 \leq i \leq n}$，使得
 $$
 a_i \in G \quad (1 \leq i \leq r), \qquad a_i \in V \quad (1 \leq i \leq p)
 $$
-使得G是点$\sum_{i=1}^p t_i a_i + \sum_{j=p+1}^r n_j a_j$的集合，其中$t_i$取所有实数值，$n_j$取所有整数值。
+使得G是点$\sum_{i=1}^p t_i a_i + \sum_{j=p+1}^r n_j a_j$的集合，其中$t_i$取所有实值，$n_j$取所有整数值。
 
 这是从应用于离散群 $W \cap G$ 的定理 2 和定理 1 或 no. 1 得出的。
 
@@ -180,13 +180,13 @@ $$
 
 存在$\mathbf{R}^n$的自同构，其中映射G到群$G'$，与$\mathbf{R}^p \times \mathbf{Z}^{r-p}$同构的，它是由$e_1, e_2, \ldots, e_p$和（离散）加法生成的向量子空间的直和子群由$e_{p+1}, e_{p+2}, \ldots, e_r$ 生成。
 
-这是推论1的直接的推论。定理2的推论2表明，$\mathbf{R}^n$的闭子群G完全由两个整数$\geq 0$确定到同构：它的秩，我们用$r(G)$表示，G中包含的最大的、向量、子空间的维数，我们称之为G的维数，用$d(G)$表示。
+这是推论1的直接的推论。定理2的推论2表明，$\mathbf{R}^n$的闭子群G完全由两个整数$\geq 0$决定，直到同构：它的秩，我们记为$r(G)$，G中包含的最大的向量子空间的维数，我们称之为G的维数，记为$d(G)$。
 
 这些整数必须满足唯一的条件是不等式$0 \leq d(G) \leq r(G) \leq n$。
 
-### 3.关联子群
+### 3. 关联子群
 
-令$G$为$\mathbf{R}^n$的任意子群（封闭或非封闭）。考虑点$u = (u_i) \in \mathbf{R}^n$中的集合$G^*$，使得对于所有$x = (x_i) \in G$，数$(u|x) = \sum_{i=1}^n u_i x_i$是整数。立即可见$G^*$是$\mathbf{R}^n$的子群；它被称为与 $G$ (*) 相关联的子群。如果$G$和$H$是$\mathbf{R}^n$的两个子群使得$H \subset G$，则显然$G^* \subset H^*$。
+令$G$为$\mathbf{R}^n$的任意子群（封闭或非封闭）。考虑点$u = (u_i) \in \mathbf{R}^n$中的集合$G^*$，使得对于所有$x = (x_i) \in G$，数$(u|x) = \sum_{i=1}^n u_i x_i$是整数。立即看出$G^*$是$\mathbf{R}^n$的子群；它被称为与 $G$ (*) 相关联的子群。如果$G$和$H$是$\mathbf{R}^n$的两个子群使得$H \subset G$，则显然$G^* \subset H^*$。
 
 #### 命题 4 {#top-vii-s1-prop-4 .statement tag=0BYC}
 
@@ -194,7 +194,7 @@ $$
 
 对于每个$x \in G$，让$f_x(u)$表示$(u|x)$； $f_x$ 是线性形式，因此是连续的。由于$G^*$是集合$f_x^{-1}(z)$的交，因为$x$贯穿$G$，并且由于这些集合中的每一个都是封闭的，因此$G^*$也是封闭的。另一方面，如果$u \in G^*$，对于所有$x \in G$，我们有$(u|x) \in \mathbf{Z}$，因此，由于$\mathbf{Z}$在$\mathbf{R}$中闭合，因此对于所有$y \in \overline{G}$，$(u|y) \in \mathbf{Z}$；因此$u \in (G)^*$。但我们有$(\overline{G})^* \subset G^*$（从$G \subset \overline{G}$开始），所以$(\overline{G})^* = G^*$。
 
-当$G$*关闭*时，考虑$G^*$的结构。根据no. 2的推论1到定理2，存在$\mathbf{R}^n$的基$(a_i)_{1 \leq i \leq n}$使得$G$重合与集合为点
+当$G$*关闭*时，考虑$G^*$的结构。根据no. 2的推论1到定理2，存在$\mathbf{R}^n$的基$(a_i)_{1 \leq i \leq n}$使得$G$重合以及集合为点
 
 $$
 x = \sum_{i=1}^p t_i a_i + \sum_{j=p+1}^{p+q} n_j a_j,
@@ -300,31 +300,31 @@ $$
 
 ### 4. 豪斯多夫商群 $\mathbf{R}^n$
 
-$\mathbf{R}^n$ 的每个 Hausdorff 商群都是形式 $\mathbf{R}^n/H$，其中$H$ 是$\mathbf{R}^n$ 的闭子群（章 III, § 2, no. 6、命题 18）。根据推论2，no. 3的定理2，存在$\mathbf{R}^n$的自同构$f$，其中变换$H$进入子群$H'$，向量的直和典范基的向量$e_i$的$p$生成子空间以及剩余$n - p$的$g$生成的离散群剩余向量
+$\mathbf{R}^n$ 的每个 Hausdorff 商群都是形式 $\mathbf{R}^n/H$，其中 $H$ 是 $\mathbf{R}^n$ 的闭子群（章 III, § 2, no. 6，命题 18）。根据推论2，no. 3的定理2，存在$\mathbf{R}^n$的自同构$f$，其中变换$H$进入子群$H'$，向量的直和典范基的向量$e_i$的$p$生成子空间以及剩余的$n - p$的向量的$g$生成的离散群
 
 $$
 e_i, \quad 0 \leq p + q \leq n.
 $$
 
-经过到$\mathbf{R}^n/H$ 的商$f$ 诱导同构到$\mathbf{R}^{n-p-q} \times T^q$ (章 III, § 2, no. 8, 注 3)；现在，$\mathbf{R}^n/H'$同构于$\mathbf{R}^{n-p-q} \times T^q$（章III, § 2, no. 9，命题26的推论）。因而：
+经过到 $\mathbf{R}^n/H$ 的商$f$ 诱导同构到$\mathbf{R}^{n-p-q} \times T^q$ (章 III, § 2, no. 8, 注 3)；现在，$\mathbf{R}^n/H'$与$\mathbf{R}^{n-p-q} \times T^q$同构的（章III, § 2, no. 9，命题26的推论）。最后：
 
 #### 命题 9 {#top-vii-s1-prop-9 .statement tag=0BYL}
 
 *$\mathbf{R}^n$ 的每个 Hausdorff 商群都同构于乘积群* $\mathbf{R}^h \times T^k$ ($0 \leq h + k \leq n$)。
 
-乘积空间 $T^n$（滥用语言，拓扑群 $T^n$）被称为*n维环面*；由章 V, § 1, no. 2 的命题 4，$T^n$ 是紧凑、连通且局部连通的。
+乘积空间 $T^n$（滥用语言，拓扑群 $T^n$）被称为*n维环面*；通过章 V, § 1, no. 2 的命题 4，$T^n$ 是紧凑、连通且局部连通的。
 
-此外，如果$C$表示$\mathbf{R}^n$中第1边的封闭立方体，$T^n$同胚于$C$的空间除以等价关系“$x_i \equiv y_i \pmod{1}$（$1 \leq i \leq n$）”在点之间的商$x = (x_i)$ 和$y = (y_i)$ $C$。因而$T^n$是由立方体$C$通过“相对面的识别”形成的。
+此外，如果 $C$ 表示 $\mathbf{R}^n$ 中边 1 的闭立方体，则 $T^n$ 同胚于 $C$ 的空间除以等价关系“$x_i \equiv y_i \pmod{1}$ ($1 \leq i \leq n$)”，在点 $x = (x_i)$ 和$y = (y_i)$ 共 $C$。因而$T^n$是由立方体$C$通过“相对面的识别”形成的。
 
 #### 命题 10 {#top-vii-s1-prop-10 .statement tag=0BYM}
 
 *拓扑群* $T^n$ *局部同构于* $R^n$。
 
-因为$T^n = (R/Z)^n$同构于$R^n/Z^n$（章III, § 2, no. 9，推论命题26），$Z^n$是$R^n$的离散子群（章III, § 2, no. 6， 命题19)。
+因为$T^n = (R/Z)^n$与$R^n/Z^n$同构的（章III, § 2, no. 9，命题26的推论），$Z^n$是$R^n$的离散子群（章III, § 2, no. 6，命题19）。
 
 由此可见群 $R^p \times T^{n-p}$ 都局部同构于 $R^n$ ($0 \geq p \geq n$)；在§ 2, no. 2中，我们将看到它们是唯一具有此性质的*连接*群。
 
-### 5. 子群和商群 $T^n$
+### 5. 子群和商群的 $T^n$
 
 让我们用$R^n/Z^n$来计算认同$T^n$，并让$\varphi$是$R^n$的典范同态到$R^n/Z^n$。 $T^n$的每个子群都是形式$G = \varphi(H)$，其中$H$是$R^n$的子群，其中包含$Z^n$并且同构于$H/Z^n$（章） III, § 2, no. 7、命题20)；为了使$G$在$T^n$中“关闭”，$H$在$R^n$中关闭是必要且充分的（章I, § 3, no. 4）。因而，在阶中，要找到$T^n$的闭子群，我们必须确定所有$R^n$的闭子群$H$，其中包含$Z^n$；为此，我们需要 no. 3 中的应用命题 6，并且我们首先确定与 $H$ 关联的子群 $H^*$。由于 $Z^n$ 与其自身相关联，因此我们有 $H^* \subset Z^n$；因而(no. 1)存在$R^n$的基$(a_i)_{1 \leq i \leq n}$，其中生成$Z^n$，以及$H^*$的基(相对于环$Z$)由……组成 $p$ 点 $b_i$ ($1 \leq i \leq p$) 使得$b_i = e_i a_i$ ($1 \leq i \leq p$)，其中$e_i$ 是整数满足 $e_{i+1} \equiv 0 \pmod{e_i}$ 与$1 \leq i \leq p-1$ 的同余。设$(a'_i)$是基对数$(a_i)$；那么$u = \sum_{i=1}^n u_i a_i$属于到$(H^*)^* = H$当且仅当$u_i e_i \in Z$对于$1 \leq i \leq p$；在其他字中，$H$是$a'_{p+1}, \ldots, a_n$生成的向量子空间$V$的直和，以及$p$点生成的离散子群$K$
 $$
@@ -342,7 +342,7 @@ $$
 
 ** $\mathbf{T}$ 的每个闭子群，*除了* $\mathbf{T}$ *本身，都是有限循环群。* ** $\mathbf{T}$ 的每个 Hausdorff 商群，*除了* $\{0\}$，*同构于* $\mathbf{T}$。
 
-### 6.定期函数
+### 6. 定期函数
 
 定义I。 *函数* $f$，*定义在* $\mathbf{R}^n$，*与值在任意集合* $E$，*如果存在点* $a \neq 0$ *在* $\mathbf{R}^n$ *这样*
 
@@ -360,4 +360,4 @@ $$
 
 ### 习题{#top-vii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

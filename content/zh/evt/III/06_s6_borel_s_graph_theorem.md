@@ -25,16 +25,16 @@ subsections:
       pdf_page: 168
 statements: 8
 exercises: 6
-content_sha256: 4902e6800062969c8e9de10d3ae8a20a3bed4b62ac84b498250e80fe9830f4c1
+content_sha256: 6ee76cb8ed694b83fe7b269ad6367193e779797addbdd16fd7892eec3f0debca
 translated_from: content/en/evt/III/06_s6_borel_s_graph_theorem.md
 translation_method: google
 source_content_sha256: 207efa273694316acd7d5b27dedee7a3292c04e1a0a2e90cfe57fd450ad44773
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 085998502d265cd6bc715185083805e6f15251679f7c06dd37f325173263eb6e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。 Borel 的图表定理
@@ -117,4 +117,4 @@ $^1$这个截面的结果取决于积分书。
 
 ### 习题 {#evt-iii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

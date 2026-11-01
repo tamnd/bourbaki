@@ -25,27 +25,27 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: eabe6ceeb570d5320d48fdd4356f1127963f480b5fc796133c0373d07bddbc50
+content_sha256: c93c8203fda039253d6201115df0bb4429a163c1fe6242c252492a65d0005cfb
 translated_from: content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md
 translation_method: google
 source_content_sha256: c9b52ed8d14396c752cf882b9999823a887d9dfcc853a8cd546dc7a96f2d2721
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e5edc26423e87296409ad951c1c6ff73531f365991fad0b1f4869816a6b24ac2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。非紧区间上的积分
 
 ### 1. 非紧区间上的积分的定义
 
-令I为*延长线*$\overline{\mathbf{R}}$中的紧致区间$[a,\ b]$（$a$和$b$可能是无限的）；设$f$是在$[a,\ b[$上定义的函数，将其值取入$\mathbf{R}$的完整规范的空间E中。概括 def。 1 of II, p. 51，我们可以说函数 $g$，定义在$[a,\ b]$上，E中的值，是$f$的*原语*，如果它在$[a,\ b]$上连续（特别是在端点$a$和$b$）并允许在该区间的可数子集的补集的$[a,\ b[$的所有点处导数等于$f(x)$。
+设I为*延长线*$\overline{\mathbf{R}}$中的紧区间$[a,\ b]$（$a$和$b$可能是无限的）；设$f$是在$[a,\ b[$上定义的函数，将其值取为$\mathbf{R}$的完整规范空间E。概括 def。 1 of II, p. 51，我们可以说函数 $g$，定义在$[a,\ b]$上，E中的值，是$f$的*原语*，如果它在$[a,\ b]$上连续（特别是在端点$a$和$b$），并允许在该区间的可数子集的补集的$[a,\ b[$的所有点处导数等于$f(x)$。
 
-我们将自己限制在以下情况：存在$I = [a,\ b]$的点的有限严格递增的序列$(c_i)_{0 \leq i \leq n}$，使得$c_0 = a,\ c_n = b$，并且使得$f$在每个开区间$[c_i,\ c_{i+1}[$上受到“调节”。 虽然不一定在每个开区间包含点 $c_i$ $I$ 内部进行调节；这样的函数将被称为$[a,\ b[$上的“分段调节”。我们注认为$[a,\ b[$上的调节函数是分段调节的（取前面定义中的$n = 1$）。
+我们将把自己限制在以下情况：存在$I = [a,\ b]$的点的有限严格递增的序列$(c_i)_{0 \leq i \leq n}$，使得$c_0 = a,\ c_n = b$，并且$f$在每个开区间$[c_i,\ c_{i+1}[$上受到“调节”。 虽然不一定在每个开区间包含点 $c_i$ $I$ 内部进行调节；这样的函数将被称为$[a,\ b[$上的“分段调节”。我们注认为$[a,\ b[$上的调节函数是分段调节的（取前面的定义中的$n = 1$）。
 
-如果$f$承认一个原语$g$（在上面精确的意义上），并且如果$c$是区间$[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$的点，则通过假设，对于这个区间中的每个$x$，有$g(x) - g(c) = \int_c^x f(t)\,dt$；由于$g$在$I$上连续假设，因此可以看出，当$x$从右侧趋向于$c_i$以及当$x$从左侧趋向于$c_{i+1}$时，$E$中$\int_c^x f(t)\,dt$趋向于极限。相反，假设所有$t$都满足这些条件，并令$g_i$为$f$在区间$[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$上的原语；我们注立即知道函数$g$，定义在$c_i$的集合相对于$I$的补集上，通过条件它等于$0 \leq i \leq n - 1$在$[c_i,\ c_{i+1}[$上的$g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$，在每个连续$I$中的点与$c_i$不同，并在每个点处承认极限；因此，它可以通过连续性扩展到这些点中的每一个，并且扩展的函数显然是$I$上的$f$的原语。此外，很明显，$f$的所有其他原语都是形式$g + a$（$E$的$a$元素）。
+如果$f$承认一个原语$g$（在上面精确的意义上），并且如果$c$是区间$[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$的点，则通过假设，对于这个区间中的每个$x$，有$g(x) - g(c) = \int_c^x f(t)\,dt$；由于$g$在$I$上连续假设，因此可以看出，当$x$从右侧趋向于$c_i$以及当$x$从左侧趋向于$c_{i+1}$时，$E$中$\int_c^x f(t)\,dt$趋向于极限。相反，假设所有$t$都满足这些条件，并令$g_i$为$f$在区间$[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$上的原语；我们注立即知道函数$g$，定义在$c_i$的集合相对于$I$的补集上，通过条件它等于$0 \leq i \leq n - 1$在$[c_i,\ c_{i+1}[$上的$g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$，在每个连续$I$中的点与$c_i$不同，并在每个点处承认极限；因此，它可以通过连续性扩展到这些点中的每一个，并且扩展后的函数显然是$f$在$I$上的原语。此外，很明显，$f$的所有其他原语都是形式$g + a$（$E$的$a$元素）。
 
 #### 定义 1 {#fvr-ii-s2-def-1 .statement tag=088F}
 
@@ -107,7 +107,7 @@ $$
 
 特别是，对于$x \leq y \leq \alpha$或$\beta \leq x \leq y$（$I$中的$x$和$y$），一个人有$\| \int_x^y f(t) \, dt \| \leq \varepsilon$。相反，如果 $\| \int_K f(t) \, dt \| \leq \varepsilon / 2$ 对于每个紧凑区间 $K \subset I$ 使得 $K \cap J_0 = \emptyset$，并且如果 $J = [x, y]$、$J' = [z, t]$ 是包含在 $I$ 和包含 $J_0$ 中的两个紧凑区间，则有
 
-1 回想一下（*集合理论*，III，p. 144），$I$的子集的集合$\mathfrak{F}$*相对于关系*$\subset$，如果对于任何$X \in \mathfrak{F}$， $Y \in \mathfrak{F}$，存在$Z \in \mathfrak{F}$使得$X \subset Z$和$Y \subset Z$。如果$S(X)$表示由$U \in \mathfrak{F}$形成的$\mathfrak{F}$的子集，使得$U \supset X$，则$\mathfrak{F}$上的过滤器的$S(X)$形式基，称为截面*的*过滤器$\mathfrak{F}$；将$\mathfrak{F}$的映射$f$的极限（如果存在）转换成拓扑空间，相对于$\mathfrak{F}$的截面的滤波器，称为f相对于有向集合的*极限* $\mathfrak{F}$（*cf. Gen.Top.*、I、p. 70 和 *Gen.Top.*、IV、p. 348）。
+1 回想一下（*集合理论*，III，p. 144），$I$的子集的集合$\mathfrak{F}$*相对于关系*$\subset$，如果对于任何$X \in \mathfrak{F}$， $Y \in \mathfrak{F}$，存在$Z \in \mathfrak{F}$使得$X \subset Z$和$Y \subset Z$。如果$S(X)$表示由$U \in \mathfrak{F}$形成的$\mathfrak{F}$的子集，使得$U \supset X$，则$\mathfrak{F}$上的过滤器的$S(X)$形式基，称为截面*的*过滤器$\mathfrak{F}$；将$\mathfrak{F}$的映射$f$的极限（如果存在）转换为拓扑空间，相对于$\mathfrak{F}$的截面的滤波器，称为f相对于有向集合的*极限* $\mathfrak{F}$（*cf. Gen.Top.*、I、p. 70 和 *Gen.Top.*、IV、p. 348）。
 
 $$
 \left\| \int_J f(t)\,dt - \int_{J'} f(t)\,dt \right\| = \left\| \int_x^z f(t)\,dt + \int_t^y f(t)\,dt \right\| \leq \varepsilon,
@@ -125,15 +125,15 @@ $$
 $$
 只要$\alpha - a$和$b - \beta$足够小就可以满足柯西准则。
 
-人们可能注，在这种情况下，I上的$f$原语不一定在I的左端点（或右端点）处具有右（或左）导数（当此数有限时），这与I是紧致的且$f$的情况相反受I监管（*cf.* II、p. 33，执行 1）。
+人们可能注，在这种情况下，I上的$f$原语不一定在I的左端点（或右端点）处具有右（或左）导数（当此数有限时），这与I是紧致的且$f$的情况相反受 I（*cf.* II、p. 33、执行 1）监管。
 
 ### 2. 非紧区间上的正函数积分
 
 #### 命题 2 {#fvr-ii-s2-prop-2 .statement tag=088K}
 
-*令 $f$ 为区间 $I \subset \mathbf{R}$ 上的实数调节函数 $\geq 0$，端点为 $a$ 和 $b$ ($a < b$)。为了使积分 $\int_a^b f(t)\,dt$ 存在，当 J 穿过 I 中包含的紧区间集合时，数 $\int_J f(t)\,dt$ 的集合在上面有界是必要且充分的；那么积分 $\int_a^b f(t)\,dt$ 就是 $\int_J f(t)\,dt$ 的集合中最小的上界。*
+*令 $f$ 为区间 $I \subset \mathbf{R}$ 上的实数调节函数 $\geq 0$，端点为 $a$ 和 $b$ ($a < b$)。为了使积分$\int_a^b f(t)\,dt$存在，当J穿过I中包含的紧区间集合时，数$\int_J f(t)\,dt$的集合在上面有界是必要且充分的；那么积分$\int_a^b f(t)\,dt$就是$\int_J f(t)\,dt$的集合中最小的上界。*
 
-事实上，由于$f \geq 0$，关系$J \subset J'$意味着
+事实上，由于 $f \geq 0$，关系 $J \subset J'$ 意味着
 $$
 \int_J f\,dt \leq \int_{J'} f\,dt;
 $$
@@ -173,13 +173,13 @@ $$
 \left| \int_J \mathbf{f}(t)\,dt \right| \leq \int_J \| \mathbf{f}(t) \| \,dt.\tag{3}
 $$
 
-如果正函数 $\| \mathbf{f}(x) \|$ 的积分是收敛的，则对于每个 $\varepsilon > 0$，都存在一个包含在 $I$ 中的紧致区间 $[\alpha,\ \beta]$，这样，对于包含在 $I$ 中且在公共的中没有内部点的每个紧致区间 $[\lambda,\ \gamma]$， $[\alpha,\ \beta]$，一个有$\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$（II，p. 65，道具1）；推论出$\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$，这表明$I$上的积分收敛（II，p. 16，命题1）； (3) 中的经过到极限推出不等式 (2)。
+如果正函数 $\| \mathbf{f}(x) \|$ 的积分是收敛的，则对于每个 $\varepsilon > 0$，都存在一个包含在 $I$ 中的紧凑区间 $[\alpha,\ \beta]$，这样，对于包含在 $I$ 中且在公共的中没有内部点的每个紧凑区间 $[\lambda,\ \gamma]$， $[\alpha,\ \beta]$，一个有$\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$（II，p. 65，道具1）；推论出$\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$，这表明$I$上的积分收敛（II，p. 16，命题1）； (3) 中的经过到极限推出不等式 (2)。
 
 #### 推论{#fvr-ii-s2-n3-cor-1 .statement tag=088N}
 
 *令$E, F, G$是$\mathbf{R}$上的三个完整范数空间，$(x, y) \mapsto x.y$是从$E \times F$到$G$的连续双线性映射。令$\mathbf{f}, \mathbf{g}$为$I$上的两个调节函数，值分别位于$E$和$F$。如果 $\mathbf{f}$ 有界于 $I$ 并且 g* 的积分在 I 上绝对收敛，则 [f, g] 的积分绝对收敛。
 
-事实上，存在数 h > 0，使得 $\| [x.y] \| \leq h \| x \| . \| y \|$ 相同（Gen. Top., IX, p. 173, th. 1）；如果有人放入$k = \sup_{x \in I} \| f(x) \|$，那么有人在I上有$\| [f(x).g(x)] \| \leq h k \| g(x) \|$；比较原理现在表明 [f.g] 的积分绝对收敛，并且根据 (2)，
+事实上，存在数 h > 0，使得 $\| [x.y] \| \leq h \| x \| . \| y \|$ 相同（Gen. Top., IX, p. 173, th. 1）；如果一个人放入$k = \sup_{x \in I} \| f(x) \|$，那么一个人在I上有$\| [f(x).g(x)] \| \leq h k \| g(x) \|$；比较原理现在表明 [f.g] 的积分绝对收敛，并且根据 (2)，
 
 $$
 \left\| \int_I [f(t).g(t)] \, dt \right\| \leq h k \int_I \| g(t) \| \, dt.
@@ -191,4 +191,4 @@ $$
 
 ### 习题 {#fvr-ii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

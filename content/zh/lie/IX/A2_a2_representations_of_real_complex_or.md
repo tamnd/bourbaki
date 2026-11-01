@@ -22,23 +22,23 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: e00c3ab1273c57eaf761c745d8f3aae2614bea4e1698df8bcff682f698d574dd
+content_sha256: 8d34c19d22c5ee56118378336c4fda6b1b16e1b5b7b1cf46249c212cd666d722
 translated_from: content/en/lie/IX/A2_a2_representations_of_real_complex_or.md
 translation_method: google
 source_content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9548fcbf4728d606d98468e12b0652e84d52140156171a6ddae5a6c978ec4c7d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录 II
 
 # 实数、复数或四元数型的表示
 
-### 1. 表示的实代数
+### 1. 表示实代数
 
 用$\mathbf{C}$的$\sigma$自同构$\alpha  \rightarrow \overline{\alpha}$表示；如果 W 是复数向量空间，则用 W 表示 $\mathbf{C}$ 向量空间 $\sigma_*(W)$（即群 W，其中律为运算 $(\alpha , w) \rightarrow \overline{\alpha w}$，对于 $\alpha \in \mathbf{C}, w\in W$）。
 
@@ -52,7 +52,7 @@ $\beta )$ V 的交换子与 $\mathbf{C}$ 同构的； $A_{(\mathbf{C})}$-模块$
 
 $\gamma )$ V 的交换子与 $\mathbf{H}$ 同构的； $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是由$\sigma \otimes 1_V$互换的两个同构简单$A_{(\mathbf{C})}$-子模块的直和。
 
-V的交换子E是域，$\mathbf{R}($代数的有限扩张，第1章。 VIII, §3, no. 2，命题 2)，因此同构于 $\mathbf{R},\mathbf{C}$ 或 $\mathbf{H}($代数，第 1 章。 VIII, §15）。 $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是半单（代数，第1章） VIII, §11, no. 4），其交换子可以用$\mathbf{C}\otimes_{\mathbf{R}}E ($代数来识别，第1章。 VIII, §11, no. 2，引理1)。
+V的交换子E是域，$\mathbf{R}($代数的有限扩张，第1章。 VIII, §3, no. 2，命题 2)，因此同构于 $\mathbf{R},\mathbf{C}$ 或 $\mathbf{H}($代数，第 1 章。 VIII, §15）。 The $A_{(\mathbf{C})}$-module $V_{(\mathbf{C})}$ is semi-simple (Algebra, Chap. VIII, §11, no. 4), and its commutant can be identified with $\mathbf{C}\otimes_{\mathbf{R}}E ($Algebra, Chap. VIII, §11, no. 2, Lemma 1).
 
 如果 E 与 $\mathbf{R}$ 同构的，则 $V_{(\mathbf{C})}$ 的交换子与 $\mathbf{C}$ 同构的，并且 $V_{(\mathbf{C})}$ 是一个简单的 $A_{(\mathbf{C})}$ 模（代数，第 VIII, §11, no. 4 章）。
 
@@ -82,25 +82,25 @@ c) 存在$\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ 和$\theta \circ \theta =-1_
 
 反之，如果$W_{[\mathbf{R}]}$不简单，则令V为$W_{[\mathbf{R}]}$的简单A-子模；因为$A_{(\mathbf{C})}$-模W很简单，$V +iV = W$和$V\cap iV =\{0\}$，即$W = V\oplus iV$。因而，V是W上的$\mathbf{R}$结构，并且同构$\theta$从W到$\overline{W}$，使得$v$的$\theta (v+iv') =v-iv'$和V中的$v'$满足$\theta \circ \theta = 1_W$。
 
-因而，在情况 b) 和 c) 中，A-模 $W_{[\mathbf{R}]}$ 很简单；根据命题 1，其交换子 E 在情况 b) 中与 $\mathbf{C}$ 同构的，在情况 c) 中与 $\mathbf{H}$ 同构的。此外，很明显，E 包含 $\mathbf{C}.1_W$，以及情况 c) 中的$\mathbf{C}.\theta$，因此命题。
+因而，在情况 b) 和 c) 中，A-模 $W_{[\mathbf{R}]}$ 很简单；根据命题 1，其交换子 E 在情况 b) 中与 $\mathbf{C}$ 同构的，在情况 c) 中与 $\mathbf{H}$ 同构的。此外，很明显，在情况 c) 中，E 包含 $\mathbf{C}.1_W$ 和$\mathbf{C}.\theta$，因此命题。
 
 对于命题中的假设，在$a),b)$或c）情况下，$A_{(\mathbf{C})}$模W分别被称为实模、复模或四元数型（相对于A）。
 
-对于$K =\mathbf{R}$或$\mathbf{C}$，用K上的有限维简单$A_{(K)}$模的类的$\mathfrak{S}_K(A)$集合表示。群$\Gamma =$Gal($\mathbf{C}/\mathbf{R}$)在$\mathfrak{S}_{\mathbf{C}}(A)$上运算；前两个命题在$\mathfrak{S}_{\mathbf{R}}(A)$和商集$\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$之间建立双射对应。
+对于$K =\mathbf{R}$或$\mathbf{C}$，用K上的有限维简单$A_{(K)}$模的类的$\mathfrak{S}_K(A)$集合表示。群$\Gamma =$Gal($\mathbf{C}/\mathbf{R}$)在$\mathfrak{S}_{\mathbf{C}}(A)$上运算；前面的两个命题在$\mathfrak{S}_{\mathbf{R}}(A)$和商集$\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$之间建立了一个双射对应。
 
 ### 2. 表示紧凑型群
 
-令 G 为紧拓扑群，并令 $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ 为 G 在有限维复数向量空间上的连续表示。如果$\mathbf{C}^{(G)}$-模W（相对于代数$A =\mathbf{R}^{(G)}$）就是这种情况，我们可以说$\rho$是实数、复数或四元数型的不可约。令 H 为 W 上的分离正数厄米特形式，在 G 下不变。
+令 G 为紧拓扑群，并令 $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ 为 G 在有限维复数向量空间上的连续表示。如果$\mathbf{C}^{(G)}$-模W（相对于代数$A =\mathbf{R}^{(G)}$）就是这种情况，我们可以说$\rho$是实数、复数或四元数型不可约的。令 H 为 W 上的分离正数厄米特形式，在 G 下不变。
 
 #### 命题 3 {#lie-ix-a2-prop-3 .statement tag=01IU}
 
 假设 $\rho$ 是不可约的。
 
-a) 表示 $\rho$ 是实数型当且仅当 W 上存在非零对称双线性形式 B，且在 G 下不变。在这种情况下形式 B 是分离的； $w\in W$的集合V使得$H(w, x) = B(w, x)$对于所有$x\in W$来说是G下W不变量上的$\mathbf{R}$结构。
+a) 表示 $\rho$ 是实型当且仅当 W 上存在非零对称双线性形式 B，且在 G 下不变。在这种情况下形式 B 是分离的； $w\in W$的集合V使得$H(w, x) = B(w, x)$对于所有$x\in W$来说是G下W不变量上的$\mathbf{R}$结构。
 
 b) 表示 $\rho$ 是复数型当且仅当在 G 下的 W 不变量上不存在非零双线性形式。
 
-c) 表示 $\rho$ 是四元数型当且仅当 W 上存在非零交错的双线性形式，在 G 下不变；这样形式必然是分离的。
+c) 表示 $\rho$ 为四元数型当且仅当 W 上存在非零交错的双线性形式，在 G 下不变；这样形式必然是分离的。
 
 对于 $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ 和 $x, y\in W$，输入 $B_{\theta}(x, y) = H(\theta x, y)$。那么$B_{\theta}$在W上是双线性形式，在G下不变，并且如果$\theta$非零则分离。用G下W不变量上的双线性形式的$\mathscr{B}(W)^G$空间表示；从Hom$_{\mathbf{C}^{(G)}}(W,W)$到$\mathscr{B}(W)^G$的映射$\theta  \rightarrow B_{\theta}$是$\mathbf{C}$向量空间的同构。这尤其意味着断言 b)。
 

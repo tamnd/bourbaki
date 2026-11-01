@@ -34,19 +34,19 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: db0422503f9ca2a0f86da9f14cafd8972994f7c362e3af7a16f1692a1e6237cf
+content_sha256: c625707dc9f90661429980ccec70827c793e203ce4bd34590880a3804af0cbed
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
 translation_method: google
 source_content_sha256: 567e0c5f3b6c1ecb2bc3cd823e4e97976fc38f1c07ab89e7b0f38f5f38c28c46
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0e0b4dfb
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b9cf08d87b59c46e671f65c89fee81ebef1649f869b5e27a4ed21a38a0ddd6d7
-prompt_sha256: 133cd3fc3c262b082830ff023554f589fe553d569c36079625221572907a2124
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 6.无限集合
+## 6. 无限集合
 
 ### 1. 自然整数的集合
 
@@ -56,7 +56,7 @@ prompt_sha256: 133cd3fc3c262b082830ff023554f589fe553d569c36079625221572907a2124
 
 特别是，如果基数不是整数，则它是无限的。
 
-关系“存在无限集合”意味着关系“$x$是整数”是*集合化*（章II, § 1, no. 4）；因为如果$\mathfrak{a}$是无限基数并且$n$是任意整数，那么我们不能有$\mathfrak{a} \leqslant n$（§ 4, no. 2，命题2）。因此，我们对所有整数$n$有$n < \mathfrak{a}$，这表明整数$< \mathfrak{a}$中的集合（§ 3, no. 2，注在定理1之后）包含所有整数。相反，如果关系“$x$是整数”是集合化，则整数的集合E是*无限*集合。对于每个整数$n$，区间$[0, n]$是E的$n + 1$元素的子集（§ 5, no. 3，命题5）。因此卡片(E)$\geqslant n + 1 > n$。但如果说 Card(E) $\neq n$ 对于每个整数 $n$ 意味着 E 是无限的。
+关系“存在无限集合”意味着关系“$x$是整数”是*集合化*（章II, § 1, no. 4）；因为如果$\mathfrak{a}$是无限基数并且$n$是任意整数，则不能有$\mathfrak{a} \leqslant n$（§ 4, no. 2，命题2）。因此，我们对所有整数$n$有$n < \mathfrak{a}$，这表明整数$< \mathfrak{a}$中的集合（§ 3, no. 2，注在定理1之后）包含所有整数。相反，如果关系“$x$是整数”是集合化，则整数的集合E是*无限*集合。对于每个整数$n$，间隔$[0, n]$是E的$n + 1$元素的子集（§ 5, no. 3，命题5）。因此卡片(E)$\geqslant n + 1 > n$。但如果说 Card(E) $\neq n$ 对于每个整数 $n$ 意味着 E 是无限的。
 
 ¶ 我们现在介绍以下公理：
 
@@ -76,15 +76,15 @@ A5（“无穷大公理”。）*存在无限集合。*
 
 *序列*（集合*E 元素*序列）*是一个家庭*（分别*E 元素*家庭）*其指标集合为子集* $\mathbf{N}$。 *如果指标集合是*$\mathbf{N}$的无限子集，则称序列是无限的。
 
-令$\mathrm{P}\{n\}$为关系，并令I表示整数$n$的集合，使得$\mathrm{P}\{n\}$为真。那么I就是$\mathbf{N}$的子集。 序列$(x_n)_{n\in\mathrm{I}}$则将有时写成$(x_n)_{\mathrm{P}\{n\}}$，$x_n$称为序列中的*n个项*。 序列，其指标集合是整数$n \geqslant k$的集合，通常写成$(x_n)_{k \leqslant n}$或$(x_n)_{n \geqslant k}$，甚至如果$k = 0$或则直接写成$(x_n)$ $k = 1$。同样条件下，对于例，用记号$\prod_{\mathrm{P}\{n\}} \mathrm{X}_n$和$\prod_{n=k}^{\infty} \mathrm{X}_n$来表示集合$(\mathrm{X}_n)_{n\in\mathrm{I}}$的序列乘积，类似的还有记号对于并、交、基数乘积和基数和。
+令$\mathrm{P}\{n\}$为关系，并令I表示整数$n$中的集合，使得$\mathrm{P}\{n\}$为真。那么I就是$\mathbf{N}$中的子集。 序列$(x_n)_{n\in\mathrm{I}}$则将有时写成$(x_n)_{\mathrm{P}\{n\}}$，$x_n$称为序列中的*n个项*。 序列，其指标集合是整数$n \geqslant k$的集合，通常写成$(x_n)_{k \leqslant n}$或$(x_n)_{n \geqslant k}$，甚至如果$k = 0$或则直接写成$(x_n)$ $k = 1$。同样条件下，对于例，用记号$\prod_{\mathrm{P}\{n\}} \mathrm{X}_n$和$\prod_{n=k}^{\infty} \mathrm{X}_n$来表示集合$(\mathrm{X}_n)_{n\in\mathrm{I}}$的序列乘积，类似的还有记号对于并、交、基数乘积和基数和。
 
 序列的每个子族都是序列，称为给定序列的*子序列*。
 
-两个序列 $(x_n)_{n\in\mathrm{I}}$、$(y_n)_{n\in\mathrm{I}}$ 具有相同的指标集合据说*仅在其项的序不同* 如果存在指标的置换 $f$ 集合I，使得$x_{f(n)} = y_n$对于所有$n \in \mathrm{I}$。
+两个序列 $(x_n)_{n\in\mathrm{I}}$、$(y_n)_{n\in\mathrm{I}}$ 具有相同的指标集合据说*仅在其项的序有所不同*，如果存在指标的置换 $f$ 集合 I，这样 $x_{f(n)} = y_n$ 对于所有 $n \in \mathrm{I}$。
 
 *倍数序列* 是指标集合是子集 / 乘积 $\mathbf{N}^p$ ($p$ 整数) ("双序列”代表$p = 2$，“三重序列”代表$p = 3$，依此类推）。
 
-令I等于$\mathbf{N}$的集合，并令$f$为$\mathbf{N}$的双射到I。对于由集合I索引的每个族$(x_\iota)_{\iota\in\mathrm{I}}$，序列$n \to x_{f(n)}$据说是通过*排列族*$(x_\iota)_{\iota\in\mathrm{I}}$*在由*$f$定义的序中获得的。 序列，其中对应以这种方式与$\mathbf{N}$的两个不同的双射到I的不同之处仅在于它们的项的序。对于由 $n$ 元素的集合 I 索引的有限族，我们可以类似地将定义有限序列与 $[1, n]$ 或 $[0, n-1]$ 作为指标集合，通过安排序中的家庭由这些间隔中的一个或另一个的双射定义到I。
+令I等于$\mathbf{N}$的集合，并令$f$为$\mathbf{N}$的双射到I。对于由集合I索引的每个族$(x_\iota)_{\iota\in\mathrm{I}}$，序列$n \to x_{f(n)}$据说是通过*排列族*$(x_\iota)_{\iota\in\mathrm{I}}$*在由*$f$定义的序中获得的。 序列，其中对应以这种方式到$\mathbf{N}$的两个不同的双射到I的不同之处仅在于它们的项的序。对于由集合 I 索引为 $n$ 元素的有限族，我们可以类似地将定义有限序列与 $[1, n]$ 或 $[0, n-1]$ 作为指标集合，通过安排序中的族由这些区间中的一个或另一个的双射定义到I。
 
 ### 2. 定义映射截至归纳
 
@@ -126,7 +126,7 @@ $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
 #### 注 {#ens-iii-s6-n2-rem-1 .statement tag=03MY}
 
-令E为集合，令A为E的子集，令$g$为A到E的映射，令$a$为A的元素。取$S\{u\}$为项$g(u)$。准则 C63 适用并证明 $\mathbf{N}$ 的映射 $f$ 存在于集合 V 上，使得对于每个整数 $n$ 都有$f(0) = a$ 和 $f(n + 1) = g(f(n))$。可能会发生$\mathrm{V} \subset \mathrm{A}$；如果不是，则令$p$为最大的整数，使得$f([0, p]) \subset \mathrm{A}$。那么$f(p + 1) = g(p) \notin \mathrm{A}$，$g(g(p))$就是项，无话可说。因此，在这种情况下，$f$被认为仅在区间$[0, p + 1]$上定义（“限制归纳”）。
+令E为集合，令A为E的子集，令$g$为A到E的映射，令$a$为A的元素。取$S\{u\}$为项$g(u)$。准则 C63 适用并证明$\mathbf{N}$的映射$f$存在于集合V上，使得对于每个整数$n$，$f(0) = a$和$f(n + 1) = g(f(n))$。可能会发生$\mathrm{V} \subset \mathrm{A}$；如果不是，则令$p$为最大的整数，使得$f([0, p]) \subset \mathrm{A}$。然后是$f(p + 1) = g(p) \notin \mathrm{A}$，$g(g(p))$就是项，无话可说。因此，在这种情况下，$f$被认为仅在区间$[0, p + 1]$上定义（“限制归纳”）。
 
 ### 3. 无限基数的性质
 
@@ -140,11 +140,11 @@ $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
 *每个无限集合 E 包含集合等价于 $\mathbf{N}$。*
 
-E 上存在一个良序关系（§ 2, no. 3，定理 1），我们将其表示为$x \leqslant y$。 假设意味着良序集 E 不能同构于不同于 $\mathbf{N}$ 的$\mathbf{N}$ 段，因为这样的段是形式 $[0, n]$ (§ 2, no. 1, 命题 1)，因此是有限的。由此可见，$\mathbf{N}$同构于E的一段（§ 2, no. 3，定理3），从而结果。
+E 上存在一个良序关系（§ 2, no. 3，定理 1），我们将其表示为$x \leqslant y$。 假设意味着良序集 E 不能同构于不同于 $\mathbf{N}$ 的$\mathbf{N}$ 段，因为这样的段是形式 $[0, n]$ (§ 2, no. 1, 命题 1)，因此是有限的。由此可见，$\mathbf{N}$同构于E的一段（§ 2, no. 3，定理3），结果为从而。
 
 #### 引理 2 {#ens-iii-s6-lem-2 .statement tag=03N1}
 
-*集合 $\mathbf{N} \times \mathbf{N}$ 相当于$\mathbf{N}$。*
+*集合 $\mathbf{N} \times \mathbf{N}$ 相当于 $\mathbf{N}$。*
 
 由于$\mathbf{N} \times \mathbf{N}$包含集合$\{0\} \times \mathbf{N}$（与$\mathbf{N}$等价），我们有$\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$。要完成证明，只需将$\mathbf{N} \times \mathbf{N}$中的定义单射$f$转化为$\mathbf{N}$即可。为此，我们注存在$\mathbf{N}$的单射$\varphi$到$\mathbf{N}$的映射到集合到$\mathrm{I} = \{0, 1\}$，得到如下：如果$r$是最小的整数，使得$n > 2^r$，如果 $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ 是 $n$ (§ 5, no. 7) 的二元展开，$\varphi(n)$ 定义为序列 $(u_m)_{m \in \mathbf{N}}$，使得 $u_m = \varepsilon_{r-m-1}$ 对于 $m < r$ 且$u_m = 0$ 换$m \geqslant r$。 命题 8 of § 5, no. 7 表明 $\varphi$ 是单射的。对于每个对$(n, n') \in \mathbf{N} \times \mathbf{N}$，我们定义$f(n, n')$如下：如果$\varphi(n) = (u_m)$和$\varphi(n') = (v_m)$，则令$f(n, \; n')$为整数$s$，使得$\varphi(s) = w_m$，其中$w_{2m} = u_m$和$w_{2m+1} = v_m$ 对于所有$m \in \mathbf{N}$。显然，关系$f(n, \; n') = f(n_1, \; n_1')$蕴涵$\varphi(n) = \varphi(n_1)$和$\varphi(n') = \varphi(n_1')$；因此$(n, n') = (n_1, n_1')$，因此$f$是单射的。
 
@@ -194,7 +194,7 @@ $n$归纳。
 
 这直接从推论 2 和推论 3 得出。
 
-### 4.可数集
+### 4. 可数集
 
 #### 定义 3 {#ens-iii-s6-def-3 .statement tag=03N6}
 
@@ -204,7 +204,7 @@ $n$归纳。
 
 *可数集合中的每个子集都是可数的。 可数集有限族中的乘积是可数的。 可数集序列并是可数的。*
 
-第一个断言是显而易见的。其他的则从推论到定理 2、no. 3。
+第一个断言是显而易见的。其他的从推论到定理 2、no. 3。
 
 ¶ 我们已经证明 (no. 3, 引理 1) 如果 $\mathfrak{a}$ 是任意无限基数，则$\mathrm{Card}(\mathbf{N}) \leqslant \mathfrak{a}$。它具有以下推论 ：
 
@@ -222,19 +222,19 @@ $\mathrm{Card}(\mathrm{E}) \leqslant \mathrm{Card}(\mathbf{N})$ 定义；和$\ma
 
 #### 命题 4 {#ens-iii-s6-prop-4 .statement tag=03NA}
 
-*让*$f$*成为集合*E*的映射到无限集合*F*，使得对于每个*$y \in \mathrm{F}$，$\overset{-1}{f}(y)$*是可数的。那么* F * 等价于* E。
+*让*$f$*成为集合*E*的映射到无限集合*F*，这样，对于每个*$y \in \mathrm{F}$，$\overset{-1}{f}(y)$*都是可数的。那么* F * 等价于* E。
 
-对于E的集合$\overset{-1}{f}(y)$$(y \in \mathrm{F})$形式划分；因此
+对于 E 的集合 $\overset{-1}{f}(y)$ $(y \in \mathrm{F})$ 形式划分；因此
 
 $$\mathrm{Card}(\mathrm{E}) \leqslant \mathrm{Card}(\mathrm{F})\mathrm{Card}(\mathbf{N}) = \mathrm{Card}(\mathrm{F}),$$
 
-和$\mathrm{Card}(\mathrm{F}) \leqslant \mathrm{Card}(\mathrm{E})$乘命题 3 / § 3, no. 2。
+和 $\mathrm{Card}(\mathrm{F}) \leqslant \mathrm{Card}(\mathrm{E})$ 乘以命题 3，共 § 3, no. 2。
 
 #### 命题 5 {#ens-iii-s6-prop-5 .statement tag=03NB}
 
 集合* $\mathfrak{F}(\mathrm{E})$ * 无限集合* E * 有限子集等价于* E。
 
-对于每个整数$n$，让$\mathfrak{F}_n$表示E的子集中的集合，其中E具有$n$元素。对于每个$\mathrm{X} \in \mathfrak{F}_n$，$[1, n]$中存在双射到X。因此$\mathfrak{F}_n$的基数至多等于$[1, n]$的映射到E的集合的基数，即$\mathrm{Card}(\mathrm{E}^n) = \mathrm{Card}(\mathrm{E})$（no. 3，定理2，推论1）。因此
+对于每个整数$n$，让$\mathfrak{F}_n$表示E的子集中的集合，其中$n$元素。对于每个$\mathrm{X} \in \mathfrak{F}_n$，X上都存在$[1, n]$的双射。因此$\mathfrak{F}_n$的基数至多等于$[1, n]$的映射到E的集合的基数，即$\mathrm{Card}(\mathrm{E}^n) = \mathrm{Card}(\mathrm{E})$（no. 3，定理2，推论1）。因此
 
 $$\mathrm{Card}(\mathfrak{F}(\mathrm{E})) = \sum_{n \in \mathbf{N}} \mathrm{Card}(\mathfrak{F}_n) \leqslant \mathrm{Card}(\mathrm{E})\mathrm{Card}(\mathbf{N}) = \mathrm{Card}(\mathrm{E}).$$
 
@@ -244,15 +244,15 @@ $$\mathrm{Card}(\mathfrak{F}(\mathrm{E})) = \sum_{n \in \mathbf{N}} \mathrm{Card
 
 *如果集合与* $\mathbf{N}$的所有子集中的集合等价，则称其具有连续统的幂。
 
-具有幂连续统的集合不可数（§ 3, no. 6，定理 2）。
+具有幂连续统的集合是不可数的（§ 3, no. 6，定理 2）。
 
 \* “连续统的幂”这个名称源自于实数的集合与$\mathfrak{P}(\mathbf{N})$等价（*一般拓扑*，章IV, § 8）。 \* *连续统假设*是断言，每个不可数集合包含子集都有连续统的幂； *广义连续统假设*是断言，对于每个无限基数$\mathfrak{a}$，每个基数$> \mathfrak{a}$都是$\geqslant 2^{\mathfrak{a}}$。
 
-### 5.平稳序列
+### 5. 平稳序列
 
 #### 定义 5 {#ens-iii-s6-def-5 .statement tag=03ND}
 
-*序列* $(x_n)_{n \in \mathbf{N}}$ *of 元素 of 集合* E *如果存在整数* $m$ *使得* $x_n = x_m$ *对于所有整数* $n \geqslant m$，则称其为平稳。
+*序列* $(x_n)_{n \in \mathbf{N}}$ *元素集合* E *如果存在整数* $m$ *这样* $x_n = x_m$ *对于所有整数* $n \geqslant m$，则称其为平稳。
 
 #### 命题 6 {#ens-iii-s6-prop-6 .statement tag=03NE}
 

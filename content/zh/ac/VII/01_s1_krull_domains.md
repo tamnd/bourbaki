@@ -53,16 +53,16 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 9ec9e67caedfbfa502e9164ecb35a63780dce74cfa2c1bfbee3ede60119c02a9
+content_sha256: d4624849fe8b0761faba80e31914320b05262093aa74c3901091f12b78f6b511
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 translation_method: google
 source_content_sha256: c7f552328385d94715aa4fc98b5c4522cc8ad73080a081dd41bebfb79b236ea5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 088572f3e8a86758a513bddfcb6432543910d0addc917e1ae9e9f73731b7ec57
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 克鲁尔域
@@ -75,7 +75,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 $K$的每个有限生成的子A模块$a$都是分数理想：因为如果$(a_i)_{1 \leq i \leq n}$是$a$的生成元的系统，我们可以写成$a_i = b_i/d_i$，其中$b_i \in A$，$d_i \in A$和$d, \neq 0$；如果$d = d_1 \ldots d_n$，显然是$da \subset A$。特别是 $K$ 的单生子 A 模是分数理想（回想一下，它们在代数、章 VI, § 1, no. 5 中被称为分数主理想）。如果 $A$ 是诺特，则每个分数理想都无限生成 A-模。 $A$ 分数理想的每个子 A 模都是分数理想。 $A$ 的每个理想都是分数理想；为了避免混淆，这些也被称为$A$的积分理想。
 
-我们用$I(A)$集合表示$A$的非零分数理想。给定$I(A)$的两个元素$a, b$，我们将为关系写$a \prec b$（或$b \succ a$）“每个分数主理想包含$a$也包含$b$”；显然这个关系是在$I(A)$上预购的。让$R$表示关联的等价关系“$a \prec b$和$b \prec a$”（集合理论，章III, § 1, no. 2）和$D(A)$商集$I(A)/R$；我们可以说，$D(A)$的元素是$A$的除子，并且对于每个分数理想$a \in I(A)$，我们将用$D(A)$中的$a$的$\operatorname{div} a$（或$\operatorname{div}, a$）典范像表示，并且我们应该说$\operatorname{div} a$是$a$的除子$\mathfrak{d}$；如果$a = Ax$是分数主理想，我们写div(x)而不是div(Ax)，div(x)被称为x的除子； 形式 div(x) 的 D(A) 的元素称为本金除子。通过取商，I(A) 上的预排序 $\prec$ 在 D(A) 上的定义，我们将用 $\leqslant$ 表示。
+我们用$I(A)$集合表示$A$的非零分数理想。给定$I(A)$的两个元素$a, b$，我们将为关系写出$a \prec b$（或$b \succ a$）“每个分数主理想包含$a$也包含$b$”；显然这个关系是在$I(A)$上预购的。让$R$表示关联的等价关系“$a \prec b$和$b \prec a$”（集合理论，章III, § 1, no. 2）和$D(A)$商集$I(A)/R$；我们可以说，$D(A)$的元素是$A$的除子，并且对于每个分数理想$a \in I(A)$，我们将用$D(A)$中的$a$的$\operatorname{div} a$（或$\operatorname{div}, a$）典范像表示，并且我们应该说$\operatorname{div} a$是$a$的除子$\mathfrak{d}$；如果$a = Ax$是分数主理想，我们写div(x)而不是div(Ax)，div(x)被称为x的除子； 形式 div(x) 的 D(A) 的元素称为本金除子。通过取商，I(A) 上的预排序$\prec$ D(A) 上的定义，我们将用$\leqslant$ 表示。
 
 对于所有$a \in I(A)$，A 中存在假设一些$d \neq 0$，使得$a \subset Ad - 1$；因此，分数主理想包含 a 的交 $\tilde{a}$ 是 I(A) 的元素。显然关系$a \prec b$等价于关系$\tilde{a} \supset 6$；因此关系$a \supset b$意味着$a \prec b$。为了使 I(A) 的两个元素 $a, b$ 等效于模 R，$\tilde{a} = 6$ 是充分必要的。
 
@@ -105,7 +105,7 @@ $$
 
 为了显示 (b)，令 $P(a)$ 表示分数主理想包含 a 的集合； 关系 $Ax \in P(a)$ 相当于$x^{-1} a \subset A$，因此也相当于$x^{-1} \in A : a$。由于关系 div $a =$ div $b$乘以定义等价于$P(a) = P(b)$，因此也等价于$A : a = A : b$。
 
-最后为$a(A : a) \subset A, a \subset A : (A : a)$。在这个公式中，替换$a$乘以$A : a$，可见$A : a \subset A : (A : (A : a))$；另一方面，关系$a \subset A : (A : a)$意味着
+最后为$a(A : a) \subset A, a \subset A : (A : a)$。在这个公式中替换$a$通过$A : a$，可以看出$A : a \subset A : (A : (A : a))$；另一方面，关系$a \subset A : (A : a)$意味着
 $$
 A : a \supset A : (A : (A : a)).
 $$
@@ -114,21 +114,21 @@ $$
 
 #### 注 {#ac-vii-s1-n1-rem-1 .statement tag=04YO}
 
-在上述证明的过程中，已经证明了$A : a = A : (A : (A : a))$对于每一个理想$a \in I(A)$，这是*集合理论*、章111、§ 1, no. 5、命题2的特例。
+在上述证明的过程中，已经证明了$A : a = A : (A : (A : a))$对于每个理想$a \in I(A)$，这是*集合理论*、章111、§ 1, no. 5、命题2的特例。
 
 #### 命题 2 {#ac-vii-s1-prop-2 .statement tag=04YP}
 
-(i) *在 $D(A)$ 中，上面有界的每个非空集合至少承认上界。更准确地说，如果 $(a_i)$ 是 $I(A)$ 的元素的非空族，并且在上面有界，那么*
+(i) *在$D(A)$中，上面有界的每个非空集合至少承认上界。更准确地说，如果 $(a_i)$ 是 $I(A)$ 的元素的非空族，并且在上面有界，那么*
 $$
 \sup(\operatorname{div} a_i) = \operatorname{div}\left( \bigcap_i 5_i \right).
 $$
-(ii) *在$D(A)$中，每个有界的非空集合都承认下确界。更准确地说，如果 $(a_i)$ 是 $I(A)$ 的元素的非空族，其下界如下，那么*
+(ii) *在$D(A)$中，每个有界的非空集合都承认下确界。更准确地说，如果 $(a_i)$ 是 $I(A)$ 的元素的非空族，其下界如下，则*
 $$
 \inf(\operatorname{div} a_i) = \operatorname{div}\left( \sum_i a_i \right).
 $$
 (iii) *集合 $D(A)$ 是一个格子。*
 
-令 $(a_i)$ 为 $I(A)$ 的元素的非空族，其上界。如果说一个除数理想$b$将这个族限制在上面，那么等于说它包含在所有$a_i$中，也就是说$b$包含在$\bigcap_i 6_i$中。因此 $\bigcap_i a_i \neq (0)$ 和 $\bigcap_i 6_i$ 是一个除理想，它显示 (i)。
+令 $(a_i)$ 为 $I(A)$ 的元素的非空族，其上界。说一个除数理想$b$限制了上面这个族，等于说它包含在所有$a_i$中，也就是说$b$包含在$\bigcap_i 6_i$中。因此 $\bigcap_i a_i \neq (0)$ 和 $\bigcap_i 6_i$ 是一个除理想，它显示 (i)。
 
 现在让 $(6_i)$ 成为 $I(A)$ 的元素的非空族，其边界如下。说除数理想 $b$ 限制了下面这个族，意味着它包含所有$a_i$，也就是说（因为$b$是除数）它包含所有$a_i$，或者也$b \supset \sum_i a_i$。这就证明了(ii)。
 
@@ -193,7 +193,7 @@ $$
 
 *令$A$为完全积分闭域，$a$为$A$的除数分数理想。然后，对于 $A$ 的每个分数理想 $b \neq 0$，$\operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b$*
 
-凭借no. 1的公式(1)：
+根据no. 1的公式(1)：
 
 $$
 \operatorname{div}(a : b) = \operatorname{div}\left( \bigcap_{y \in b, y \neq 0} y^{-1}a \right) = \sup_{y \in b, y \neq 0} \operatorname{div}(y^{-1}a)
@@ -206,16 +206,16 @@ $$
 = \operatorname{div} a - \inf_{y \in b, y \neq 0} \operatorname{div}(y) = \operatorname{div} a - \operatorname{div} b.
 $$
 
-### 3.克鲁尔领域
+### 3. 克鲁尔域
 
 #### 定义 3 {#ac-vii-s1-def-3 .statement tag=04YV}
 
-如果存在对域的分数 $K$ 的 $A$ 进行估值的$(v_i)_{i \in I}$族，且具有以下属性，则 n 整环 $A$ 称为克鲁尔域：
+如果存在对域的分数 $K$ 的 $A$ 进行估值的$(v_i)_{i \in I}$族，并且具有以下属性，则 n 整环 $A$ 被称为克鲁尔域：
 (AK$_I$) 估值$v_i$是离散的；
 (AK$_{II}$)$v_i$环交为$A$；
 (AK$_{III}$) 对于所有 $x \in K^*$、集合或指标 $t \in I$，使得 $v_t(x) \neq 0$ 是有限的。
 
-显然，验证 $A - (0)$ 的元素 $x$ 的条件 (AK$_{III}$) 就足够了。
+显然，验证条件（AK$_{III}$）对于$A - (0)$的元素$x$就足够了。
 
 例
 (1) 每个离散估值环都是一个Krull域。
@@ -294,7 +294,7 @@ $$
 
 存在非诺特克鲁尔域，对于例多项式环 $K[X_n]_{n \in \mathbf{N}}$ 超过域 $K$ 的无限个不定数 (cf. 习题 8)。
 
-### 4. 克鲁尔领域的基本评估
+### 4. 克鲁尔领域的基本估值
 
 令$A$为克鲁尔域，$K$为分数的域。由no. 3（对于$x \in K^*$）的公式（4）定义的估值称为$K$（*或*$A$）的*基本估值*。
 
@@ -322,7 +322,7 @@ $$
 
 令$A$是一个克鲁尔域，$K$是分数和$(v_t)_{t \in I}$的域，具有定义3属性的评估族。那么$A$的每个基本评估都相当于$v_t$之一。
 
-令$P$为$A$和$p$相应的除理想的极值除子。根据推论1、命题 5、引理 1 和断言 (1)，在定理 2、no. 3 的证明中，存在$t \in I$，使得$v_t$ 的环 $A_t$ 包含环$A$，共$v_P$。由于$v_t$和$v_P$的高度为1，因此它们是等价的（章VI, § 4, no. 5，命题6）。
+令$P$为$A$和$p$相应的除理想的极值除子。根据推论1、命题 5、引理 1 和断言 (1)，在定理 2、no. 3 的证明中，存在$t \in I$，使得$v_t$ 的环 $A_t$ 包含环$A$，$v_P$。由于$v_t$和$v_P$的高度为1，因此它们是等价的（章VI, § 4, no. 5，命题6）。
 
 #### 命题 7 {#ac-vii-s1-prop-7 .statement tag=04Z3}
 
@@ -337,9 +337,9 @@ $$
 
 对于$n \in \mathbf{N}$，设$p^{(n)} = p^n A_p \cap A$；那么$p^{(n)}$是$x \in A$的集合，使得$v_p(x) \geq n$是$p$-初等理想。
 
-(b) 设 $a$ 为除数理想积分，$n_1 P_1 + \ldots + n_r P_r$ 除子为 $a$（$P_i$ 为不同极值除子），$p_i$ 为除数素理想相应的至 $P_i$。那么$a = \bigcap_{i=1}^r p_i^{(n_i)}$是$a$的唯一减少的初等分解并且$p_i$没有被浸入。
+(b) 令 $a$ 为除数理想积分，$n_1 P_1 + \ldots + n_r P_r$ 除子为 $a$（$P_i$ 为不同的极值除子），$p_i$ 为除数素理想相应的至 $P_i$。那么$a = \bigcap_{i=1}^r p_i^{(n_i)}$是$a$的唯一减少的初等分解并且$p_i$没有被浸入。
 
-由推论1到命题6，关系$x \in p^n A_p = (pA_p)^n$等价于$v_p(x) \geq n$；另一方面，由于$A$是离散估值环，$(pA_p)^n$是$(pA_p)$-主要（章IV, § 2, no. 1，例4），因此$p^{(n)}$是$p$-主要（章） IV, § 2, no. 1、命题 3)；这显示了（a）。 命题 5 当然表明$a = \bigcap_{i=1}^r p_i^{(n_i)}$。由于$p_i \not\subset p_j$对于$i \neq j$来说，初等分解被减少：因为如果$p_i^{(n_i)} \supset \bigcap_{j \neq i} p_j^{(n_j)} \supset \prod_{j \neq i} p_j^{(n_j)}$，$p_{ji}$将是包含对于$j \neq i$的$p_j$之一（章II, § 1, no. 1， 命题 1)。 唯一性源自章 IV, § 2, no. 3、命题 5。
+由推论1到命题6，关系$x \in p^n A_p = (pA_p)^n$等价于$v_p(x) \geq n$；另一方面，由于$A$是离散估值环，$(pA_p)^n$是$(pA_p)$-主要（章IV, § 2, no. 1，例4），因此$p^{(n)}$是$p$-主要（章） IV, § 2, no. 1、命题 3)；这显示了（a）。 命题 5 当然表明$a = \bigcap_{i=1}^r p_i^{(n_i)}$。由于$p_i \not\subset p_j$对于$i \neq j$来说，初等分解被减少：因为如果$p_i^{(n_i)} \supset \bigcap_{j \neq i} p_j^{(n_j)} \supset \prod_{j \neq i} p_j^{(n_j)}$，$p_{ji}$将是包含对于$j \neq i$的$p_j$之一（章II, § 1, no. 1， 命题1)。 唯一性源自章 IV, § 2, no. 3、命题 5。
 
 ### 5. 基本估值的近似值
 
@@ -413,7 +413,7 @@ $t \in I - \mathbf{J}$。 然后，对于所有$t \in I$，$m_t = \sup(n_t, v_t(
 
 回想一下，如果 a = $\bigcap^n q_i$ 是 a 的约化初等分解，并且 p_i 表示 q_i 的素理想相应的，则与 A/a 相关的素理想就是 p_i (章 IV, § 2, no. 3，命题 4)。 (a) 蕴含 (b) 的事实是从 no. 4 的命题 8 得出的。相反，如果在上面的记号中，p_i的高度为1，则A_{p_i}是离散估值环(定理4)；现在，q_i = q_i A_{p_i} ∩ A (章 IV, § 2, no. 1, 命题 3)；用 v_i 表示对 p_i 的基本评估相应的，因此存在整数 n_i，使得 q_i 是 x ∈ A 的集合，使得 v_i(x) ≥ n_i；这表明 q_i 是除数 (no. 4, 命题 5)，因此也是 a。
 
-### 7. 应用：离散估值新刻画环
+### 7. 应用：离散估值的新刻画环
 
 #### 命题 11 {#ac-vii-s1-prop-11 .statement tag=04ZE}
 
@@ -426,7 +426,7 @@ $t \in I - \mathbf{J}$。 然后，对于所有$t \in I$，$m_t = \sup(n_t, v_t(
 
 由于离散估值的每个非零理想环都是本金（章VI, § 3, no. 6，命题9），因此它是可逆的，因此（a）意味着（b）。如果 $m$ 可逆，则其逆为 $\mathbf{A}:m$ (章 II, § 5, no. 6, 命题 10)，因此为 $\mathbf{A}:m \neq \mathbf{A}$；因此(b)意味着(c)。如果$\mathbf{A}:m \neq \mathbf{A}$，则$\mathbf{A}:(\mathbf{A}:m) \neq \mathbf{A}$；现在$m \subset \mathbf{A}:(\mathbf{A}:m)$；因此 $m = \mathbf{A}:(\mathbf{A}:m)$ 因为 $m$ 是最大的，因此 $m$ 是除数 (no. 1, 命题 1 (c))；因此(c)意味着(d)。 (d) 蕴含 (e) 的事实来自于 no. 6 的定理 3，最后，如果 $m$ 是 $\mathbf{A}$ 唯一的非零素理想，它的高度为 1，因此 $\mathbf{A}_m$ 是离散估值环 (no. 6, 定理 4)；由于$\mathbf{A}$是局部的，$\mathbf{A}_m = \mathbf{A}$，这表明(e)蕴涵(a)。
 
-### 8. KRULL 域在其域分数的有限扩张中的积分闭包
+### 8. 克鲁尔域在其域分数的有限扩张中的积分闭合
 
 #### 命题 12 {#ac-vii-s1-prop-12 .statement tag=04ZF}
 
@@ -456,21 +456,21 @@ $$
 \bar{w}\left( \sum_j a_j X^j \right) = \inf_j (w(a_j))
 $$
 
-$\sum_j a_j X^j \in K[X]$（章VI, §10, no. 1，引理1）。显然，$u$和$\bar{w}$是离散且规范的，对于所有$u \in K[X]$、$v_f(u) = 0$（分别为$\bar{w}(u) = 0$），除了有限的数估值$v_f$（分别为$\bar{w}$）。
+$\sum_j a_j X^j \in K[X]$（章VI, §10, no. 1，引理1）。显然，$u$和$\bar{w}$是离散且规范的，并且对于所有$u \in K[X]$、$v_f(u) = 0$（分别为$\bar{w}(u) = 0$），除了有限的数估值$v_f$（分别为$\bar{w}$）。
 
 因此，为了显示命题，只需显示$A[X]$是估值$v_f$和$\bar{w}$的环中的交即可。现在估价$v_f$中的环中的交是$K[X]$。另一方面，对于$\sum_j a_j X^j \in K[X]$，关系$\bar{w}\left( \sum_j a_j X^j \right) \geq 0$相当于“对于所有$j$都是$w(a_j) \geq 0$”；因此，关系“每个评估$\bar{w}'$的$\bar{w}\left( \sum_j a_j X^j \right) \geq 0$”相当于“所有$j$的$w(a_j) \geq 0$以及$A$的每个基本评估$w$”。这证明了我们的断言。
 
 #### 注 {#ac-vii-s1-n9-rem-1 .statement tag=04ZI}
 
-命题13中证明引入的估值$v_f$和$\bar{w}$是$A[X]$的基本估值。我们只要证明，如果$V$是估值$v_f$（$f$不可约）和$\bar{w}$（w本质）的集合，那么，对于所有$v' \in V$，存在元素$g \in K(X)$，它不在$A[X]$中，并且使得$v''(g) \geq 0$ 对于所有不同于 $v'$ 的评估$v'' \in V$；这将证明$V - \{v'\}$不满足（AK$_{II}$），因此结论将由no. 4得出，推论2到命题6。首先假设$v'$是形式$\bar{w}$：那么我们可以将$g$是元素 $b \in K$，使得$w(b) < 0, w'(b) \geq 0$对于$A$的基本评估$w'$不同于$w$，那么$v_f(b) = 0$对于$K[X]$中的每个不可约单调多项式$f$； 元素 $b$ 满足的存在性 上述条件由no. 5、命题 9得出。 其次假设$v'$对于不可约一元多项式$f \in K[X]$来说是形式$v_f$ 次数$m$；那么我们可以在$a \in A$处取$g = a/f$。对于$v_h(g) \geq 0$，对于$K[X]$中的每个不可约一元多项式$h \neq f$；对于选择$a \in A$，对于$A$的每个基本估值$w$，$w(a)$至少等于元素$w(c_i)$的下确界，其中$c_i$是$f$的系数($1 \leq i \leq m$);现在这样一个$a \in A$的存在是从(AK$_{III}$)和no. 5、命题9得出的。
+命题13的证明中引入的估值$v_f$和$\bar{w}$是$A[X]$的基本估值。我们只需证明，如果$V$是估值$v_f$（$f$不可约）和$\bar{w}$（w本质）的集合，那么，对于所有$v' \in V$，存在不在$A[X]$中的元素$g \in K(X)$，并且使得$v''(g) \geq 0$ 对于所有不同于 $v'$ 的评估$v'' \in V$；这将证明$V - \{v'\}$不满足（AK$_{II}$），因此结论将由no. 4得出，推论2到命题6。首先假设$v'$是形式$\bar{w}$：那么我们可以将$g$是元素 $b \in K$，使得$w(b) < 0, w'(b) \geq 0$对于$A$的基本评估$w'$不同于$w$，然后$v_f(b) = 0$对于$K[X]$中的每个不可约单调多项式$f$； 元素 $b$ 满足的存在性 上述条件由 no. 5, 命题 9 得出。 其次，假设对于不可约单调多项式 $f \in K[X]$，$v'$ 等于形式 $v_f$ 次数$m$；那么我们可以在$a \in A$处取$g = a/f$。对于$v_h(g) \geq 0$，对于$K[X]$中的每个不可约一元多项式$h \neq f$；对于选择$a \in A$，对于$A$的每个基本估值$w$，$w(a)$至少等于元素$w(c_i)$的下确界，其中$c_i$是$f$的系数（$1 \leq i \leq m$）；现在这样一个$a \in A$的存在是从(AK$_{III}$)和no. 5、命题9得出的。
 
 我们也可以说（no. 6，定理 4），高度为1的$A[X]$的素理想是：
 (1) 形式 $pA[X]$的素理想，其中$p$是高度为1的$A$的素理想；
-(2) 形式$m \cap A[X]$的素理想，其中$m$是$K[X]$的（必然是主）素理想。
+(2) 形式 $m \cap A[X]$的素理想，其中$m$是$K[X]$的（必然是主）素理想。
 
 后者的特点是它们的交和$A$减少到0。
 
-### 10.克鲁尔领地的除子类
+### 10. 除子类在克鲁尔领地
 
 令 $A$ 为克鲁尔域。回想一下，$A$的除子的群$D(A)$是其极值元素的集合$P(A)$生成的自由交换群（no. 3，定理2）并且$P(A)$与高度为1（no. 6）的$A$素理想的集合等同；对于$p \in P(A)$，我们将用$v_p$表示规范的基本估值相应的至$p$（no. 4）；回想一下，$v_p$的环是$A_p$（no. 4，推论1到命题6）。我们将用本金除子的$D(A)$由……组成的$F(A)$子群和$A$（no. 2）的$C(A) = D(A)/F(A)$除子类群表示。
 
@@ -585,7 +585,7 @@ $$
 
 *令$A$为克鲁尔域，$S$为$A$的乘法子集，而不是包含$0$。那么从$C(A)$到$C(S^{-1}A)$的典范同态$\bar{i}$是满射。如果进一步 $S$ 由一系列元素 $p_i$ 生成，使得主理想 $Ap_i$ 都是素数，则 $\bar{i}$ 是双射的。*
 
-作为公式(5)的第二个应用，考虑以下情况：令$R$为Krull域；取$A$为$A$的非零常数多项式的多项式环$A = R[X]$（no. 9，命题13），$S$为集合$R - (0)$。高度 1 的 $A$ 的素理想 $p$ 使得 $p \cap S \neq \varnothing$ 是形式 $p_0A$ 的素理想，其中 $p_0$ 是高度 1 的 $R$ 的素理想 (no. 9, *注*)。因此，在上面介绍的记号中，通过将$\mathrm{div}_A(p_0A)$与$\mathrm{div}_R(p_0)$识别，将$G$与$D(R)$进行识别。另一方面，$G \cap F(A)$与$F(R)$相同：因为如果$R$生成的理想$a$是$A = R[X]$中的主理想$a_0A = f(X)A$，则$f(0) \in a_0A$，因为$a_0A$是环的分级理想$A$（按通常的多项式次数分级），因此$f(0) \in a$；进一步，对于$a \in a_0A$、$a = f(X)g(X)$，其中$g(X) \in R$、从而，比较项与次数0、$a = f(0)g(0)$；由此可见，$a$是由$f(0)$生成的$R$的主理想。最后，用$R$的分数的$K$域表示，$S^{-1}A$与多项式环$K[X]$等价，即主理想整环；因此$C(S^{-1}A) = (0)$。因此，根据(5)，$C(A) = \mathrm{Ker}(\bar{i})$与$C(R)$一致，我们证明了以下结果：
+作为公式(5)的第二次应用，考虑以下情况：令$R$为Krull域；取$A$为$A$的非零常数多项式的多项式环$A = R[X]$（no. 9，命题13），$S$为集合$R - (0)$。高度 1 的 $A$ 的素理想 $p$ 使得 $p \cap S \neq \varnothing$ 是形式 $p_0A$ 的素理想，其中 $p_0$ 是高度 1 的 $R$ 的素理想 (no. 9, *注*)。因此，在上面介绍的记号中，通过将$\mathrm{div}_A(p_0A)$与$\mathrm{div}_R(p_0)$识别，将$G$与$D(R)$进行识别。另一方面，$G \cap F(A)$与$F(R)$相同：因为如果$R$生成的理想$a$是$A = R[X]$中的主理想$a_0A = f(X)A$，则$f(0) \in a_0A$，因为$a_0A$是环的分级理想$A$（按通常的多项式次数分级），因此$f(0) \in a$；进一步，对于$a \in a_0A$、$a = f(X)g(X)$，其中$g(X) \in R$、从而，比较项与次数0、$a = f(0)g(0)$；由此可见，$a$是由$f(0)$生成的$R$的主理想。最后，用$R$的分数的$K$域表示，$S^{-1}A$与多项式环$K[X]$等价，即主理想整环；因此$C(S^{-1}A) = (0)$。因此，根据(5)，$C(A) = \mathrm{Ker}(\bar{i})$与$C(R)$一致，我们证明了以下结果：
 
 #### 命题 18 {#ac-vii-s1-prop-18 .statement tag=04ZP}
 
@@ -593,4 +593,4 @@ $$
 
 ### 习题 {#ac-vii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

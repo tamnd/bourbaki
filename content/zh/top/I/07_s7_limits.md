@@ -37,19 +37,19 @@ subsections:
       pdf_page: 80
 statements: 23
 exercises: 7
-content_sha256: be5de9f09fd65f39ef42c29f19857884532457c936e3e2f13b54b2b8896698f7
+content_sha256: fb883be126771594a3a05168e786565b9a9c31eee1166f79ff11cccce58a55e7
 translated_from: content/en/top/I/07_s7_limits.md
 translation_method: google
 source_content_sha256: 2a27ef734a6a1ff91fe8d3fb848961a85b666a83e64858598552c6dd593c2d9d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 5f129749452ee1bfa1f407af92da77b2bc1a02b646f4c9a350a5be1840796bda
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 7. 极限
+## 7. LIMITS
 
 ### 1. 过滤器的极限
 
@@ -182,13 +182,13 @@ $$
 
 #### 推论 1 {#top-i-s7-prop-9-cor-1 .statement tag=0B5S}
 
-*设*$X, Y$*为*$X$*的两个拓扑空间、$f$映射*入*$Y$*，在点*$a \in X$连续； *然后，对于每个过滤器基* $\mathfrak{B}$ *在* $X$ *上收敛到* $a$，*过滤器基* $f(\mathfrak{B})$ *收敛到* $f(a)$。 *相反，如果对于每个超滤器* $\mathfrak{U}$ *在* $X$ *收敛到* $a$，*超滤器基* $f(\mathfrak{U})$ *收敛到* $f(a)$，*则* $f$ *在* $a$ 处连续。
+*设* $X, Y$ *为* $X$ *的两个拓扑空间、$f$ 映射进入* $Y$ *，在点* $a \in X$连续； *然后，对于每个过滤器基* $\mathfrak{B}$ *在* $X$ *上收敛到* $a$，*过滤器基* $f(\mathfrak{B})$ *收敛到* $f(a)$。 *相反，如果对于每个超滤器* $\mathfrak{U}$ *在* $X$ *收敛到* $a$，*超滤器基* $f(\mathfrak{U})$ *收敛到* $f(a)$，*则* $f$ *在* $a$ 处连续。
 
 第一个断言是命题9的直接的推论。为了证明第二个$f$在$a$不连续；那么Y中存在$f(a)$的邻域W，使得$\overline{f}^{-1}(W)$不属于到X中$a$的邻域的过滤器$\mathfrak{B}$。因此（§ 6, no. 4，命题 7）存在超滤器$\mathfrak{U}$，更细比$\mathfrak{B}$，它没有包含$\overline{f}^{-1}(W)$，因此包含其补码$A = X - \overline{f}^{-1}(W)$（§ 6, no. 4， 命题5);由于$f(A) \cap W = \varnothing$，$f(\mathfrak{U})$不会收敛到$f(a)$。
 
 #### 推论 2 {#top-i-s7-prop-9-cor-2 .statement tag=0B5T}
 
-*令 g 为集合 Z 的映射成为拓扑空间 X，其相对于 Z 上的滤波器 $\mathfrak{F}$ 具有极限 a；那么如果映射 $f : X \to Y$ 在 a 处连续，合成 $f \circ g$ 相对于 $\mathfrak{F}$ 具有 $f(a)$ 和极限点。*
+*设g为集合Z的映射，形成拓扑空间X，其相对于Z上的过滤器$\mathfrak{F}$有极限a；那么如果映射 $f : X \to Y$ 在 a 处连续，则合成 $f \circ g$ 的 $f(a)$ 相对于 $\mathfrak{F}$ 为极限点。*
 
 ### 5. 极限相对于子空间
 
@@ -198,7 +198,7 @@ $$
 y = \lim_{x \to a, x \in A} f(x)
 $$
 
-我们说 $y$ 是 f 在 a 处的 *极限，相对于子空间* A，或者说 $f(x)$ *趋向 y，因为 x 趋向于 a，而留在* A 中。那么我们有 $y \in f(A)$。
+我们说 $y$ 是 f 在 a 处的 *极限，相对于子空间* A，或者说 $f(x)$ *趋向 y，而 x 趋向于 a，而留在* A 中。则我们有 $y \in f(A)$。
 
 如果 $A = \mathbf{C}\{a\}$ 其中 $a$ *不是* X 的孤立点，那么我们写
 
@@ -210,11 +210,11 @@ $$
 
 我们对簇点进行类似的定义。
 
-如果$f$是映射$g : X \to Y$到A的*限制*，我们说$g$有极限（分别是簇点）$y$相对于A在点$a \in \overline{A}$，如果$y$是$a$处$f$的极限（分别是点簇），相对于A。
+如果$f$是映射$g : X \to Y$到A的*限制*，我们说$g$有极限（分别是簇点）$y$相对于A在点$a \in \overline{A}$，如果$y$是 $a$ 处$f$ 的极限（分别是簇点），相对于 A。
 
-令 B 为 A 的子集，令 $a \in X$ 为 B 闭包的点；如果$y$是$a$处的极限，*相对于*A，映射$f : A \to Y$，则$y$也是$a$处$f$的极限，*相对于*B； 逆命题不一定是真的。
+令 B 为 A 的子集，令 $a \in X$ 为 B 闭包的点；如果$y$是$a$处的极限，*相对于*A，映射$f : A \to Y$，则$y$也是$f$在$a$处的极限，*相对于*B； 逆命题不一定是真的。
 
-但是如果V是点$a \in \overline{A}$的X中的*邻域*并且如果$f$在$a$有极限$y$，*相对于*$V \cap A$，那么$y$ 仍然是 $f$ 在 $a$ 的极限，*相对于* A。
+但是，如果 V 是点 $a \in \overline{A}$ X 中的 *邻域*，并且如果 $f$ 在 $a$ 处有极限 $y$，*相对于* $V \cap A$，则$y$ 仍然是 $f$ 在 $a$ 的极限，*相对于* A。
 
 设$a$是X的*非孤立*点，因此$a$位于$\mathbf{C}\{a\}$的闭包中。那么映射$f : X \to Y$在*$a$*连续当且仅当我们有$f(a) = \lim_{x \to a, x \neq a} f(x)$；这紧随定义而来。
 
@@ -250,4 +250,4 @@ $$
 
 ### 习题 {#top-i-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

@@ -33,21 +33,21 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 823f95d8b57a0914d9bc2e91a9da38d17ddcbdb335b0b3fc36bef7565bbefa5c
+content_sha256: e676a1d7d0df13dfcdc9c776f2fb09607a4a1abe3549029a29121f2307529f11
 translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
 translation_method: google
 source_content_sha256: 5f8c454a02fa9609498046c6e41e498f87f8eae9c6d223e684879450c3339532
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2abe3844bdc7e4624bd11affa77a1b252d98479c97be589329f2ef681d2b96cf
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3.局部环。从本地走向全球
+## 3. 局部环。从本地走向全球
 
-### 1.局部环
+### 1. 局部环
 
 #### 命题 1 {#ac-ii-s3-prop-1 .statement tag=047R}
 
@@ -98,7 +98,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 设$A$为环，$p$为$A$和$S = A - p$的素理想。对于与$A_p$不同的$A_p$的每个理想$b'$，令$b$为$A$的理想$(i_A^S)^{-1}(b')$，以便$b' = bA_p$。
 
-(i) 设$f$为典范同态$A \to A/b$。从 $A$ 到 $(A/b)_{p/b}$ 与 $f$ ($§ 2$, no. 1, 命题 2) 规范相关的同态是满射，它的核是$b'$，其中定义通过求商， $A_p/b'$ 的典范同构到$(A/b)_{p/b}$。
+(i) 设$f$为典范同态$A \to A/b$。从 $A$ 到 $(A/b)_{p/b}$ 与 $f$ ($§ 2$, no. 1, 命题 2) 规范相关的同态是满射，其核是 $b'$，其中定义通过求商， $A_p/b'$ 的典范同构到$(A/b)_{p/b}$。
 
 (ii) 映射$b' \to b = (i_A^S)^{-1}(b')$，仅限于$A_p$素理想的集合，是同构（关于包含）这个集合到$p$中包含的$A$素理想的集合。如果$b'$在$A_p$中是素数，则环$A_b$存在同构到环$(A_p)_{b'}$，其中映射$a/s$到$(a/1)/(s/1)$对于所有$a \in A, s \in A - b$。
 
@@ -108,14 +108,14 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 (3) 如果$a$是不包含在$p$中的$A$的理想，则$aA_p = A$和$(A/a)_p = 0$（$§ 2$，no. 5，注）。
 (4) 令$A, B$为两个环、$\rho : A \to B$同态、$q$$B$的素理想和$p$$A$的素理想$\rho^{-1}(q)$。由于$\rho(A - p) \subset B - q$、典范同态$\rho_q : A \to B_q$源自$\rho$（$§ 2$、no. 1、命题2），$\rho_q(pA_p) \subset qB_q$是直接的，因此$\rho$是本地同态。
 
-### 2.模超过局部环
+### 2. 模超过局部环
 
 #### 命题 4 {#ac-ii-s3-prop-4 .statement tag=047X}
 
 令$A$为环，它不一定是可交换的，$m$包含在$A$的Jacobson根式中的$A$的右理想，而$M$是左$A$模。假设以下条件之一成立：
 (i) $M$ 是有限生成的；
 (ii) $m$ 幂零的。
-那么关系$(A_d/m) \otimes_A M = 0$意味着$M = 0$。
+那么关系$(A_d/m) \otimes_A M = 0$就意味着$M = 0$。
 
 断言相对于假设(i)恰好是代数、章VIII、$§ 6$、no. 3的推论3至命题6。另一方面，关系$(A_d/m) \otimes_A M = 0$等价于$M = mM$，因此对于每个整数$n > 0$意味着$M = m^nM$； 从而断言相对于假设(ii)。
 
@@ -369,13 +369,13 @@ $$
 
 命题 12（及其推论 1）将特别适用于当 $A$ 为诺特且 $E$（分别为 $M/N$）*有限生成* $A$-模块（章 I, § 2, no. 8、引理 8）时。
 
-### 4. 平坦度的定位
+### 4. 平面度的定位
 
 #### 命题 13 {#ac-ii-s3-prop-13 .statement tag=048K}
 
 *令$S$为环$A$和$M$一个$A$模的乘法子集。如果 $M$ 是 jflat（或忠实平坦），则 $S^{-1}M$ 是 ajflat（或忠实平坦）$S^{-1}A$-模块和平坦 $A$-模块。*
 
-作为$S^{-1}M = M \otimes_A S^{-1}A$，第一个断言从章I, § 2, no. 7、推论2到命题8（分别为）。 Chapter I, § 3, no. 3, Proposition 5); moreover, $S^{-1}A$ is a flat $A$-module ($§ 2$, no. 4, Theorem 1); hence if $M$ is a flat $A$-module, so is $S^{-1}M$ by virtue of Chapter I, § 2, no. 7, Corollary 3 to Proposition 8.
+As $S^{-1}M = M \otimes_A S^{-1}A$, the first assertion follows from Chapter I, § 2, no. 7, Corollary 2 to Proposition 8 (resp. Chapter I, § 3, no. 3, Proposition 5); moreover, $S^{-1}A$ is a flat $A$-module ($§ 2$, no. 4, Theorem 1); hence if $M$ is a flat $A$-module, so is $S^{-1}M$ by virtue of Chapter I, § 2, no. 7, Corollary 3 to Proposition 8.
 
 #### 注 {#ac-ii-s3-n4-rem-1 .statement tag=048L}
 
@@ -459,4 +459,4 @@ $$ S = \bigcap_1^n (A - \mathfrak{p}_i) = A - \bigcup_1^n \mathfrak{p}_i. $$
 
 ### 习题{#ac-ii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

@@ -27,23 +27,23 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 22be02c5aa24afa3059ceb7b683120183bd1d85130025b7a82a14a540fb807b1
+content_sha256: 2786a061c0b92791e62036434c1a210892594797eaa8faf4c1b6ee7c6f1f22eb
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
 translation_method: google
 source_content_sha256: ae041bbfaebb6710b823bdc0661c24a1124357966f753025f28bd48ab4086bed
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 65ebb810754dfe8d364f1a127adf81fe4c983ce534544a341df92de26cc39b55
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
 
 # 另类代数。八元数
 
-### 1.替代方案代数
+### 1. 另类代数
 
 设 A 为交换环，F a（不一定结合）A-代数。对于 F 的任意三个元素 $x, y, z$，我们写
 
@@ -65,10 +65,10 @@ $$
 
 #### 命题 1 {#alg-iii-a0-prop-1 .statement tag=069B}
 
-*对于 A-代数 $F$，以下条件等效：*
+*对于 A-代数 $F$，以下条件是等效的：*
 (a) *对于元素 $x, y$ $F$ 的每个有序对，$x$ 和 $y$ 生成的子代数是关联的。*
 (b) *三线性映射 $(x, y, z) \mapsto a(x, y, z)$ 为交错的 (§ 7, no. 3)。*
-(c) *对于元素 $x, y$ 中的每个有序对，$F$、$x^2y = x(xy)$ 和 $yx^2 = (yx)x$。*
+(c) *对于元素 $x, y$ 中的每有序对，$F$、$x^2y = x(xy)$ 和 $yx^2 = (yx)x$。*
 
 显然（a）意味着（c）。我们证明(c)蕴涵(b)：通过定义(§ 7, no. 3)证明(b)，只需验证$a(x, x, y) = 0$和$a(x, y, y) = 0$，即是(c)。
 
@@ -76,7 +76,7 @@ $$
 
 #### 引理 2 {#alg-iii-a0-lem-2 .statement tag=069C}
 
-*令$E$为A-代数，使得映射$(x, y, z) \mapsto a(x, y, z)$为交错的，$E$的$S$生成的系统和$U$的子A模$E$ 包含 $S$，这样对于所有 $s \in S$ 都有 $sU \subset U$ 和 $Us \subset U$。然后$U = E$.*
+*令$E$为A-代数，使得映射$(x, y, z) \mapsto a(x, y, z)$为交错的，$E$的$S$生成的系统和$U$的子A模$E$ 包含 $S$ 使得$sU \subset U$ 和$Us \subset U$ 对于所有$s \in S$。然后$U = E$.*
 
 $x \in E$的集合$U'$，使得$xU \subset U$和$Ux \subset U$显然是$E$的子A模块，其中包含$S$乘以假设。另一方面，对于$U'$和$u \in U$中的$x, y$，通过假设
 
@@ -86,7 +86,7 @@ $$
 
 在经过到反代数，我们有类似的$u(xy) \in U$。因此，$U'$是$E$的子代数，并且由于它是包含$S$，所以$U' = E$。因此$EU \subset U$和*更不必说*$UU \subset U$，证明$U$是$E$的子代数；因为包含$S$，$U = E$，这就证明了引理。
 
-如果 $a(u, v, w) = 0$ 当元素 $u, v, w$ 属于至 $H$ 中*至少两个*时，$F$ 的子集 $H$ 被称为*强关联*。
+如果$a(u, v, w) = 0$当元素$u, v, w$属于到$H$*至少两个*时，$F$的子集$H$被称为*强关联*。
 
 #### 引理 3 {#alg-iii-a0-lem-3 .statement tag=069D}
 
@@ -114,11 +114,11 @@ $a(u, v, w) = 0$ 每当三个元素 $u, v, w$ 中的两个等于$x$ 且应用引
 
 *假设映射$a$是交错的，并让$\mathbf{X}, \mathbf{Y}$是$\mathbf{F}$的两个强关联子代数。那么$\mathbf{X} \cup \mathbf{Y}$生成的$\mathbf{E}$的子代数是结合律。*
 
-令$Z$为$z \in \mathbf{E}$的集合，使得$a(u, v, z) = 0$对于所有$u \in \mathbf{X}$和$v \in \mathbf{Y}$，这显然是一个子A-模块包含、$\mathbf{X}$和$\mathbf{Y}$，因为$\mathbf{X}$和$\mathbf{Y}$是强的联想的；到引理 2，就足以验证$u \in \mathbf{X}$和$v \in \mathbf{Y}$、$uZ \subset Z, vZ \subset Z, Zu \subset Z$和$Zv \subset Z$。现在，对于 $\mathbf{X}$、$v \in \mathbf{Y}$ 和 $z \in Z$ 中的 $u, u'$，通过 (2)
+令$Z$为$z \in \mathbf{E}$的集合，使得$a(u, v, z) = 0$对于所有$u \in \mathbf{X}$和$v \in \mathbf{Y}$，这显然是一个子A-模块包含、$\mathbf{X}$和$\mathbf{Y}$，因为$\mathbf{X}$和$\mathbf{Y}$是强的联想的；到引理 2，就足以验证对于$u \in \mathbf{X}$和$v \in \mathbf{Y}$、$uZ \subset Z, vZ \subset Z, Zu \subset Z$和$Zv \subset Z$。现在，对于 $\mathbf{X}$、$v \in \mathbf{Y}$ 和 $z \in Z$ 中的 $u, u'$，通过 (2)
 $$
 a(u'u, z, v) - a(u', uz, v) + a(u', u, zv) = a(u', u, z)v + u'a(u, z, v) = 0
 $$
-由于 $\mathbf{X}$ 具有强结合性，并且定义是 $Z$。但由于 $\mathbf{X}$ 具有强结合性，$a(u', u, zv) = 0$ 并且从 $u'u \in \mathbf{X}$ 开始，$a(u'u, z, v) = 0$ 乘以 $Z$ 的定义。因此$a(u', uz, v) = 0$，它表明$uZ \subset Z$。 应用 (2) 现在有了$(p, q, r, s) = (v, z, u, u')$，我们类似地得到$Zu \subset Z$。 交换$\mathbf{X}$和$\mathbf{Y}$的角色，并利用$a$是交错的的事实，我们得到$vZ \subset Z$和$Zv \subset Z$； 从而引理。
+由于 $\mathbf{X}$ 具有强结合性，并且定义是 $Z$。但由于 $\mathbf{X}$ 具有强结合性，$a(u', u, zv) = 0$ 并且从 $u'u \in \mathbf{X}$ 开始，$a(u'u, z, v) = 0$ 乘以 $Z$ 的定义。因此$a(u', uz, v) = 0$，它表明$uZ \subset Z$。 应用 (2) 现在有了$(p, q, r, s) = (v, z, u, u')$，我们类似地得到$Zu \subset Z$。 交换 $\mathbf{X}$和$\mathbf{Y}$的角色，并利用$a$是交错的的事实，我们得到$vZ \subset Z$和$Zv \subset Z$； 从而引理。
 
 现在只需证明 (b) 在命题 1 中蕴含 (a)，即可使用引理 4 取 $\mathbf{X} = \{x\}$ 和 $\mathbf{Y} = \{y\}$。
 
@@ -126,15 +126,15 @@ $$
 
 *如果代数$\mathbf{F}$满足命题1的等价条件，则称为替代。*
 
-联想词代数显然是替代方案。在no. 3中，我们将给例一个替代的代数，它不是结合性的。
+联想代数显然是替代方案。在no. 3中，我们将给例一个替代的代数，它是不结合的。
 
-如果$\mathbf{F}$是替代的A-代数，则通过扩展标量（§ 1, no. 5）从$\mathbf{F}$获得的每个A-代数$\mathbf{F} \otimes_A A'$都是替代的$A'$-代数，如下从命题1的条件（b）。
+如果$\mathbf{F}$是替代的A-代数，则通过扩展标量（§ 1, no. 5）从$\mathbf{F}$获得的每个A-代数$\mathbf{F} \otimes_A A'$都是替代的$A'$-代数，如下从命题1的条件(b)。
 
-### 2.凯莱代数代数
+### 2. 凯莱代数代数
 
 #### 命题 2 {#alg-iii-a0-prop-2 .statement tag=069H}
 
-*令 $\mathbf{A}$ 为环，$\mathbf{F}$ 凯莱 $\mathbf{A}$ 代数，e 为单位元，$s : x \mapsto \overline{x}$ 共轭，$\mathbf{N} : \mathbf{F} \to \mathbf{A}$ 为凯莱范数 (§ 3, no. 4)。
+*设 $\mathbf{A}$ 为环、$\mathbf{F}$ 凯莱 $\mathbf{A}$ 代数，e 为单位元、$s : x \mapsto \overline{x}$ 共轭，$\mathbf{N} : \mathbf{F} \to \mathbf{A}$ 为凯莱范数 (§ 3, no. 4)。
 
 (i) 要使 $\mathbf{F}$ 成为替代方案，对于元素 $x, y$ $\mathbf{F}$ 中的每一个有序对，$x^2y = x(xy)$ 来说，这是必要且充分的。*
 
@@ -149,7 +149,7 @@ $$
 
 显然对于 F 中的所有 $x, y$ 都有$a(e, x, y) = 0$。如果 F 是可替代的，我们因此从命题 1 (no. 1) 推出由 e、x 和 y 生成的 F 的子代数 G 是结合律。作为$\overline{x} = -x + T(x) \in -x + Ae, \overline{x} \in G$，类似地$\overline{y} \in G$。然后$N(xy) = (xy)(\overline{xy}) = xy.\overline{y}.\overline{x} = N(y)x\overline{x} = N(y)N(x)$，利用$N(y) \in Ae$这一事实。这就证明了(ii)。
 
-最后我们证明(iii)。如果$N(x)$在Ae中是可逆的，并且我们写为$x' = N(x)^{-1}\overline{x}$，那么$xx' = x'x = e$，对于$N(x) = x\overline{x} = \overline{x}x$。相反，如果 x 承认左逆 $x''$，则 (ii) 的 $N(x'')N(x) = N(e) = e$ 和 $N(x)$ 在 Ae 中是可逆的；此外，由于$x' = N(x)^{-1}\overline{x}$位于由x和e生成的子代数中，元素$x, x', x''$属于到由x、$x''$和e生成的关联子代数，因此$x'' = x''(xx') = (x''x)x' = x'$、从而唯一性断言。 公式 $x^{-1}(xy) = x(x^{-1}y) = y$ 由$x^{-1}, x$和y是由x、y和e生成的子代数的元素得出，这是结合律。
+最后我们证明(iii)。如果$N(x)$在Ae中是可逆的，并且我们写为$x' = N(x)^{-1}\overline{x}$，那么$xx' = x'x = e$，对于$N(x) = x\overline{x} = \overline{x}x$。相反，如果 x 承认左逆 $x''$，则 (ii) 的 $N(x'')N(x) = N(e) = e$ 和 $N(x)$ 在 Ae 中是可逆的；此外，由于$x' = N(x)^{-1}\overline{x}$位于由x和e生成的子代数中，元素$x, x', x''$属于与由x、$x''$和e生成的关联子代数，因此$x'' = x''(xx') = (x''x)x' = x'$、从而唯一性断言。 公式 $x^{-1}(xy) = x(x^{-1}y) = y$ 由$x^{-1}, x$和y是由x、y和e生成的子代数的元素得出，这是结合律。
 
 #### 命题 3 {#alg-iii-a0-prop-3 .statement tag=069I}
 
@@ -172,9 +172,9 @@ $$
 
 与右边比较，我们得到$(y \bar{x}') x = y (\bar{x}' x)$，这证明了E的结合性，因为$x, y$和$\bar{x}'$是E的任意元素。
 
-### 3.八元数
+### 3. 八元数
 
-设 E 为 A 上型 $(\alpha, \beta, \gamma)$ 的四元数代数（$§ 2$、no. 5、例 2），并令 $\delta \in A$。 E 与 $\delta$ 的 Cayley 扩张 F 以及 E 的共轭被称为 A 上的八元数代数，据说是型 $(\alpha, \beta, \gamma, \delta)$。通过 no. 2 的命题 3，F 是替代代数。它的基 $(e_i)_{0 \leq i \leq 7}$ 为 8 元素，定义为
+设 E 为 A 上型 $(\alpha, \beta, \gamma)$ 的四元数代数（$§ 2$、no. 5、例 2），并设 $\delta \in A$。 E 与 $\delta$ 的 Cayley 扩张 F 以及 E 的共轭被称为 A 上的八元数代数，据说是型 $(\alpha, \beta, \gamma, \delta)$。通过 no. 2 的命题 3，F 是替代代数。它的基 $(e_i)_{0 \leq i \leq 7}$ 为 8 元素，定义为
 $$
 \begin{align*}
 e_0 &= (e, 0), & e_1 &= (i, 0), & e_2 &= (j, 0), & e_3 &= (k, 0) \\
@@ -201,7 +201,7 @@ T_F((uu')u'') &= T(xx'x'') + \delta T(\bar{y}'y x'') + \delta T(\bar{y}''y \bar{
 T_F(u(u'u'')) &= T(xx'x'') + \delta T(x''\bar{y}'y) + \delta T(\bar{x}'\bar{y}''y) + \delta T(x\bar{y}''y')
 \end{align*}
 $$
-（其中 T 表示 E 中的迹，并且利用了 E 是结合律这一事实）。对于所有四元数 $x, y$ ($§ 2$, no. 4, 公式 (17))，$T(xy) = T(yx)$，可得出以下结论
+（其中 T 表示 E 中的迹，并且利用了 E 是结合律这一事实）。作为所有四元数 $x, y$ ($§ 2$, no. 4, 公式 (17)) 的 $T(xy) = T(yx)$，可得出以下结论
 $$
 T_F((uu')u'') = T_F(u(u'u''))
 $$
@@ -252,4 +252,4 @@ $$
 
 ### 习题 {#alg-iii-a0-exercises}
 
-请参阅[习题附录 0](exercises/a0/)。
+参见[习题附录 0](exercises/a0/)。

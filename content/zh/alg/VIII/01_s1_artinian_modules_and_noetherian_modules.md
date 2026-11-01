@@ -30,21 +30,21 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: f3f82a9e3a1e1c3b86e4af92627a42a6410e2f69a5a6a68c8ccca98d3770757b
+content_sha256: 041db160fe5b0c6213d54fdd5b66ae52c50c49211f1384c834388af27aa2cf6b
 translated_from: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md
 translation_method: google
 source_content_sha256: d64719b4a6721ac9031c6bccd67b196cb6dafe3fc596f4fdebd425f00893c469
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 379a44f8c1a2b7b4bda411c911a9f52ea246c9d23ae431ec365210a526098807
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 阿廷模与诺特模
 
-### 1.阿廷模与诺特模
+### 1. Artinian Modules and Noetherian Modules
 
 #### 定义 1 {#alg-viii-s1-def-1 .statement tag=0001}
 
@@ -60,7 +60,7 @@ A-模 M 是阿廷的（分别是诺特）当且仅当 M 被视为模超过同位
 
 令 M 为阿廷的（分别为诺特）A-模。 M 的子模的每个非空集合，按包含排序，即左向（或右向）至少有元素（或最大元素）（集合理论、III, §1, No. 10、p. 145、命题 10）。
 
-设 M 为阿廷的（分别为诺特）A-模和$(M_i)_{i\in I}$ M 的子模族。左族$(M_i)_{i\in I}$ 形式非空（分别为非空）的有限子族的交（分别为和）。右）M 的子模的有向集合。因此，存在 I 的有限子集 J，使得 $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$（分别为 $\sum_{i\in I}M_i=\sum_{i\in J}M_i$）。
+设 M 为阿廷的（分别为诺特）A-模和$(M_i)_{i\in I}$ M 的子模族。左族$(M_i)_{i\in I}$ 形式非空（分别为非空）的有限子族的交（分别为和）。右）M 的子模的有向集合。因而，存在 I 的有限子集 J，使得 $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$（分别为 $\sum_{i\in I}M_i=\sum_{i\in J}M_i$）。
 
 #### 例 1 {#alg-viii-s1-n1-exa-1 .statement tag=0002}
 
@@ -110,7 +110,7 @@ A-模 M 是诺特当且仅当 M 的每个子模都是有限生成的。
 
 假设M是阿廷的。由于 N 的每个子模都是 M 的子模，因此模 N 是阿廷的。令$(P_n)_{n\in\mathbf{N}}$为$M/N$的子模中的递减序列。 M 包含 N 中存在子模的递减序列 $(Q_n)_{n\in\mathbf{N}}$，使得对于每个 $n\in \mathbf{N}$ (I, §4, No. 6, p. 41, 定理 4) 都有$P_n= Q_n/N$。由于 M 是阿廷的，序列 $(Q_n)$ 是平稳的，因此序列 $(P_n)$ 也是平稳的。因而，模$M/N$是阿廷的。
 
-相反，假设模 N 和$M/N$ 为阿廷的，并考虑M 的子模的递减序列 $(P_n)$。N 的子模序列 $P'_n= N\cap P_n$ 是平稳的。同样，$M/N$的子模的序列$P''_n= (N + P_n)/N$是静止的。因此，存在整数$m\in \mathbf{N}$，这样对于每个整数$n\geqslant m$，我们都有$P'_n= P'_m$和$P''_n= P''_m$。 序列 $(P_n)$ 然后通过以下引理静止。
+相反，假设模 N 和$M/N$ 为阿廷的，并考虑M 的子模的递减序列 $(P_n)$。N 的子模序列 $P'_n= N\cap P_n$ 是平稳的。同样，$M/N$的子模的序列$P''_n= (N + P_n)/N$是静止的。因而，存在整数$m\in \mathbf{N}$，这样对于每个整数$n\geqslant m$，我们都有$P'_n= P'_m$和$P''_n= P''_m$。 序列 $(P_n)$ 然后通过以下引理静止。
 
 #### 引理 2 {#alg-viii-s1-lem-2 .statement tag=00QV}
 
@@ -140,7 +140,7 @@ b) 如果模 $M/M_i$ 是阿廷的（分别是诺特），那么模 $M/\bigcap_{i
 
 定义以及此小节扩展到任意阿贝尔的群的结果，其中叙述中的替换子模具有稳定的子群。
 
-### 2.阿廷环和诺特环
+### 2. 阿廷环和诺特环
 
 #### 定义 2 {#alg-viii-s1-def-2 .statement tag=000D}
 
@@ -180,7 +180,7 @@ b) 如果模 $M/M_i$ 是阿廷的（分别是诺特），那么模 $M/\bigcap_{i
 
 #### 例 4 {#alg-viii-s1-n2-exa-4 .statement tag=000H}
 
-设M为A-模，即非零的子模的无限族$(M_i)_{i\in I}$的直和。 令 E 为 M 的自同态环。 对于每个$i\in I$，令$\mathfrak{a}_i$（或$\mathfrak{b}_i$）为E 的元素的集合，其中核包含$\sum_{j\not=i}M_j$（或$M_i$中包含像）。 那么$(\mathfrak{a}_i)$是E的非零的左理想的无限族，其和是直接的，$(\mathfrak{b}_i)$是E的非零的右理想的无限族，其和是直接的。 因而，环 E 既不左也不右阿廷（分别为）。 诺特) (VIII, p. 2, 例 2)。 特别是，无限维向量空间的自同态环既不左也不右阿廷（分别为）。 诺特）。
+设M为A-模，即非零的子模的无限族$(M_i)_{i\in I}$的直和。 令 E 为 M 的自同态环。 对于每个$i\in I$，令$\mathfrak{a}_i$（或$\mathfrak{b}_i$）为E 的元素的集合，其中核包含$\sum_{j\not=i}M_j$（或$M_i$中包含像）。 那么$(\mathfrak{a}_i)$是E的非零的左理想的无限族，其和是直接的，$(\mathfrak{b}_i)$是E的非零的右理想的无限族，其和是直接的。 因而，环 E 既不左也不右阿廷（分别为诺特）（VIII、p. 2、例 2）。 特别是，无限维向量空间的自同态环既不左也不左右阿廷（分别为诺特）。
 
 #### 定理 1 {#alg-viii-s1-thm-1 .statement tag=00QW}
 
@@ -248,7 +248,7 @@ c) 令$(A_i)_{i\in I}$为左阿廷的（分别为左诺特的）环的族。 环
 
 多项式环$\mathbf{Q}[(X_n)_{n\in\mathbf{N}}]$为整环； it is not 诺特 (or 阿廷的) (VIII, p. 15, 习题 9). It is 子环 of its 域 of 分数, which is 阿廷的 (and 诺特) 环.
 
-### 3.对模
+### 3. Countermodule
 
 #### 定义 3 {#alg-viii-s1-def-3 .statement tag=000O}
 
@@ -260,7 +260,7 @@ c) 令$(A_i)_{i\in I}$为左阿廷的（分别为左诺特的）环的族。 环
 
 设 M 为左A-模，且对模是有限生成的。存在自然数$m$和从$(A_M)_s$到$M^m$的单射$A_M$线性映射。
 
-集合 E = 结束$_A(M)$。令$(x_1, . . . , x_m)$为E模M的有限生成族。映射$\varphi :a\mapsto (ax_1, . . . , ax_m)$从$(A_M)_s$到$M^m$是$A_M$线性。令$a$为$A_M$的元素，使得$\varphi (a) = 0$。 M 的元素 $x$ 的集合，使得 $ax= 0$ 是 M 包含 $x_1, . . . , x_m$ 的 E 子模，因此等于 M，这意味着 $a= 0$。
+集合 E = 结束$_A(M)$。令$(x_1, . . . , x_m)$为E模M的有限生成族。映射$\varphi :a\mapsto (ax_1, . . . , ax_m)$从$(A_M)_s$到$M^m$是$A_M$线性。令$a$为$A_M$的元素，使得$\varphi (a) = 0$。 M 的元素 $x$ 的集合，使得 $ax= 0$ 是 M 包含于 $x_1, . . . , x_m$ 的 E 子模，因此等于 M，这意味着 $a= 0$。
 
 #### 命题 6 {#alg-viii-s1-prop-6 .statement tag=000Q}
 
@@ -294,7 +294,7 @@ $$
 
 对于所有$a, b\in A$。在其他字中，$d$是推导从环A到$(A$，A)-双模，将A的加法群赋予作用$(a, x)\mapsto \sigma (a)x$的左律和律的右律作用$(x, a)\mapsto xa$。我们有$d(1) = 0$（III, §10, No. 5、p. 557、命题 3）。
 
-回想一下 (IV, §1, No. 1, p. 2)，A[X] 表示系数在 A 中的一个变量中的多项式的 $\mathbf{Z}$ 模$A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$。我们赋予它左A-模的自然结构。对于A[X]来说，族$(X^n)_{n\in\mathbf{N}}$是基，超过A。我们认同A及其像低于映射$a\mapsto a\otimes 1$。
+回想一下 (IV, §1, No. 1, p. 2)，A[X] 表示系数在 A 中的一个变量中的多项式的 $\mathbf{Z}$ 模$A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$。我们赋予它左A-模的自然结构。对于A[X]来说，家庭$(X^n)_{n\in\mathbf{N}}$是基，超过A。我们认同A及其像低于映射$a\mapsto a\otimes 1$。
 
 #### 命题 7 {#alg-viii-s1-prop-7 .statement tag=00QX}
 
@@ -382,30 +382,30 @@ $$
 \mathfrak{b}\cap B_n\subset \mathfrak{c} \tag{8}
 $$
 
-对于 $n\leqslant m$，关系 (8) 对于构造成立。从现在开始，我们假设$n$是整数$\geqslant m$，使得$\mathfrak{b}\cap B_n\subset \mathfrak{c}$。令 P 为 $\mathfrak{b}\cap B_{n+1}$ 的元素。然后$\varphi_{n+1}(P)$属于到$\mathfrak{a}_{n+1}=\sigma (\mathfrak{a}_n)$，因此存在$\mathfrak{b}\cap B_n$的元素Q使得$\varphi_{n+1}(P) =\sigma (\varphi_n(Q))$。 集合$R = P-$XQ。因为关系(6)，我们有$\varphi_{n+1}(R) = 0$，即$R\in B_n$。由于 P 和 Q 属于到 B 的左理想 $\mathfrak{b}$，因此对于 R 也是如此；因而，R 和 Q 属于到 $\mathfrak{b}\cap B_n$，其包含在理想 $\mathfrak{c}$ 中归纳假设。因而，P 属于至 $\mathfrak{c}$。这证明我们有$\mathfrak{b}\cap B_{n+1}\subset \mathfrak{c}$。
+对于$n\leqslant m$，关系 (8) 到构造成立。从现在开始，我们假设$n$是整数$\geqslant m$，使得$\mathfrak{b}\cap B_n\subset \mathfrak{c}$。令 P 为 $\mathfrak{b}\cap B_{n+1}$ 的元素。然后$\varphi_{n+1}(P)$属于到$\mathfrak{a}_{n+1}=\sigma (\mathfrak{a}_n)$，因此存在$\mathfrak{b}\cap B_n$的元素Q使得$\varphi_{n+1}(P) =\sigma (\varphi_n(Q))$。 集合$R = P-$XQ。因为关系(6)，我们有$\varphi_{n+1}(R) = 0$，即$R\in B_n$。由于 P 和 Q 属于到 B 的左理想$\mathfrak{b}$，因此对于 R 也是如此；因而，R 和 Q 属于到 $\mathfrak{b}\cap B_n$，其中归纳假设包含在理想 $\mathfrak{c}$ 中。因而，P 属于至 $\mathfrak{c}$。这证明我们有$\mathfrak{b}\cap B_{n+1}\subset \mathfrak{c}$。
 
 由此可知$\mathfrak{b}$等于$\mathfrak{c}$；因此它是 B 的有限生成理想。这证明环 B 是左诺特的。
 
-如果环 A 的自同态 $\sigma$ 不是自同构，则环 $A[X]_{\sigma ,d}$ 不一定是左诺特的，即使 A 是诺特交换环 (VIII，p. 22， 习题26)。
+如果环 A 的自同态 $\sigma$ 不是自同构，则环 $A[X]_{\sigma ,d}$ 不一定是左诺特的，即使 A 是诺特交换环 (VIII, p. 22, 习题26)。
 
 #### 推论 1（希尔伯特）{#alg-viii-s1-thm-2-cor-1 .statement tag=00RW}
 
 设 A 为诺特交换环。对于每个整数 $n\geqslant 0$，多项式代数 $A[X_1, . . . ,X_n]$ 为诺特环。
 
-这是从定理 2 开始的归纳，考虑到 III, §2, No. 9、p. 453 中的命题 8。
+接下来是定理 2 中的归纳，考虑到 III, §2, No. 9、p. 453 中的命题 8。
 
 #### 推论 2 {#alg-viii-s1-thm-2-cor-2 .statement tag=000V}
 
 设 A 为诺特交换环。由有限多个元素生成的交换A-代数是诺特环。
 
-这样的代数同构于形式$A[X_1, . . . ,X_n]/\mathfrak{a}$的代数，其中$n\geqslant 0$和$\mathfrak{a}$是$A[X_1, . . . ,X_n]$的理想。然后我们应用推论1和VIII、p. 7的命题5。
+这样的代数同构于形式$A[X_1, . . . ,X_n]/\mathfrak{a}$的代数，其中$n\geqslant 0$和$\mathfrak{a}$是$A[X_1, . . . ,X_n]$的理想。然后我们应用VIII、p. 7的推论1和命题5。
 
 #### 推论 3 {#alg-viii-s1-thm-2-cor-3 .statement tag=000W}
 
-每个交换环都是诺特子环右向族的并。
+每个交换环都是诺特子环右向有向族的并。
 
 事实上，令 A 为交换环。由有限多个元素生成的A的子环（作为$\mathbf{Z}$-代数）是由推论2得出的诺特。它们形式是A的子环的右有向族，其中并A。
 
-### 习题 {#alg-viii-s1-exercises}
+### 习题{#alg-viii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

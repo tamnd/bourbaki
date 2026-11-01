@@ -38,35 +38,35 @@ subsections:
       pdf_page: 35
 statements: 31
 exercises: 16
-content_sha256: 7cee8826f7f11b901418d6322c728ec455045d9a4db1b8f6583306fa1e1125a9
+content_sha256: 6ee065e3ba179b07f97752e71381a238ef9a41f2a04f202c298d731a0b2b8255
 translated_from: content/en/alg/I/01_s1_laws_of_composition_associativity.md
 translation_method: google
 source_content_sha256: 5e673d0115ec27e87cd42d00b10d88a67c6691b3b1a9b1ee5776c4a964875bff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9ec1b58f8bd0d617f77c0a5fca42a1a8e67b6d99fea299a92d654c751ffbd2ae
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 律合成； 结合性； 交换律
 
-### 1. 律的合成
+### 1. 律 / 合成
 
 #### 定义 1 {#alg-i-s1-def-1 .statement tag=055B}
 
-令 E 为集合。 E × E 的映射 f 变成 E 称为 E 上的合成律。 有序对 (x, y) ∈ E × E 的 f 的值 f(x, y) 在此律下称为 x 和 y 的合成。 集合与律合成称为岩浆。
+令 E 为集合。 E × E 的映射 f 入 E 称为 E 上的合成律。 有序对 (x, y) ∈ E × E 的 f 的值 f(x, y) 在此律下称为 x 和 y 的合成。 集合与律合成称为岩浆。
 
-x 和 y 的合成通常通过将 x 和 y 写在定义的阶中并用所讨论的律特征符号（可以同意省略的符号）将它们分开来表示。最常用的符号是 + 和 .，如果需要，通常对流是省略后者； x和y的这些符号合成分别写为x + y和x.y或xy。用符号+表示的律通常称为加法（合成x + y称为x和y的和），我们说它是相加写的； 律用符号 表示。通常被称为乘法 （合成 x.y = xy 被称为 x 和 y 的乘积），我们说它是乘法写的。在这个章第1至第3段的一般论点中，我们通常使用符号⊔和⊓来表示合成中的任意律。
+x和y的合成通常通过将x和y写在定义的阶中并用所讨论的律特征符号（可以同意省略的符号）将它们分开来表示。最常用的符号是 + 和 .，如果需要，通常对流是省略后者； x和y的这些符号合成分别写为x + y和x.y或xy。用符号+表示的律通常称为加法（合成x + y称为x和y的和），我们说它是相加写的； 律用符号 表示。通常被称为乘法 （合成 x.y = xy 被称为 x 和 y 的乘积），我们说它是乘法写的。在本章第1至第3段的一般论证中，我们通常使用符号⊔和⊓来表示合成中的任意律。
 
-通过滥用语言，E × E 的子集映射到 E 中是有时称为合成的律，并非在 E 上到处都有定义。
+通过语言滥用，将 E × E 的子集映射转换成 E 是有时称为合成律，并非在 E 上到处都有定义。
 
 #### 例 {#alg-i-s1-n1-exa-1 .statement tag=055C}
 
 (1) 映射 (X, Y) ↦ X ∪ Y 和 (X, Y) ↦ X ∩ Y 是集合上的合成律子集 / 集合 E。
 
-(2) 在自然数、加法、乘法、幂运算的集合 N 上，合成的律 (律下 x ∈ N 和 y ∈ N 的合成为分别用 x + y、xy 或 x.y 和 x^y) 表示（集合理论，III, § 3, no. 4）。
+(2) 在自然数、加法、乘法、幂运算的集合 N 上，合成的律 (律下 x ∈ N 和 y ∈ N 的合成是分别用 x + y、xy 或 x.y 和 x^y) 表示（集合理论，III, § 3, no. 4）。
 
 (3) 设E为集合； 映射 (X, Y) ↦ X ⋅ Y 为 E × E 子集集合上合成律 (集合理论，II, § 3, no. 3， 定义6); 映射 (f, g) ↦ f ⋅ g 为 E 的映射集合上的合成律变为 E (集合理论，II, § 5, no. 2)。
 
@@ -78,7 +78,7 @@ $$
 $$
 乘积$E = \prod_{t \in I} E_t$上合成的律，称为律$\tau_t$的*乘积*。 集合 E 与律称为岩浆$E_t$ 的*乘积岩浆*。特别地，如果所有的岩浆$E_t$都等于同一个岩浆M，我们从M*得到I的*岩浆映射。
 
-设$(x, y) \mapsto x \tau y$为集合E上合成的律。给定E的任意两个子集X，Y，$X \tau Y$（前提是记号不会导致混淆†）将表示集合 E 中的元素 $x \tau y$，其中 $x \in X, y \in Y$（在其他字中，$X \times Y$ 中的像在映射 $(x, y) \mapsto x \tau y$ 下）。
+设$(x, y) \mapsto x \tau y$为集合E上合成的律。给定E的任意两个子集X，Y，$X \tau Y$（前提是记号不会导致混淆†）将表示集合 E 中的元素 $x \tau y$，其中 $x \in X, y \in Y$（在其他字、$X \times Y$ 中的像位于映射 $(x, y) \mapsto x \tau y$ 下）。
 
 如果$a \in E$，我们通常写$a \tau Y$代替$\{a\} \tau Y$，写$X \tau a$代替$X \tau \{a\}$。 映射$(X, Y) \mapsto X \tau Y$是E的子集集合上合成律。
 
@@ -90,31 +90,31 @@ $$
 $$
 f(x \tau y) = f(x) \tau f(y)
 $$
-对于每个有序对 $(x, y) \in E \times E$ 被称为 E 到 E'* 的 *同构的。如果 E 到 E' 上存在同构，则称 E 和 E' 是“同构的”。
+对于每个有序对 $(x, y) \in E \times E$ 被称为 E 到 E'* 的 *同构的。如果 E 到 E' 上存在同构，则 E 和 E' 被称为“同构的”。
 
 更一般地说：
 
 #### 定义 3 {#alg-i-s1-def-3 .statement tag=055E}
 
-*将 E 的映射 f 转化为 E'，使得关系 (1) 对于每个有序对 $(x, y) \in E \times E$ 成立，称为同态或态射，将 E 转化为 E'；如果 $E = E'$，则 f 称为 E 的自同态。*
+*将 E 的映射 f 转化为 E'，使得关系 (1) 对于每个有序对 $(x, y) \in E \times E$ 成立，称为同态或态射，将 E 转化为 E'；如果 $E = E'$，f 称为 E 的自同态。*
 
 岩浆E的恒等映射是同态，两个同态的合成是同态。
 
-† 以下是例，其中原理会导致混乱，因此不应使用。假设所讨论的合成的律是在集合E的子集之间的律$(A, B) \mapsto A \cup B$； 律 / 合成
+† 以下是例，其中原理会导致混乱，因此不应使用。假设所讨论的合成的律是律$(A, B) \mapsto A \cup B$之间的子集和集合E； 律 / 合成
 $$
 (\mathscr{A}, \mathscr{B}) \mapsto F(\mathscr{A}, \mathscr{B})
 $$
 在子集与 $\mathfrak{P}(E)$ 之间导出，$F(\mathscr{A}, \mathscr{B})$ 是 $A \cup B$ 的集合与 $A \in \mathscr{A}, B \in \mathscr{B}$；但$F(\mathscr{A}, \mathscr{B})$不应该用$\mathscr{A} \cup \mathscr{B}$表示，因为这个记号已经有不同的含义（$\mathscr{A}$的并和$\mathscr{B}$被视为$\mathfrak{P}(E)$的子集）。
 
-为了使 E 到 E' 的映射 $f$ 成为同构，它是双射同态是充分必要的，并且 $f^{-1}$ 是 E' 到 E 的同构。
+对于 E 到 E' 的映射 $f$ 为同构，它是双射同态是充分必要的，并且 $f^{-1}$ 是 E' 到 E 的同构。
 
-### 2. 合成有序序列元素
+### 2. 合成已订购序列元素
 
 回想一下，集合 E 的元素族是集合 I 的映射 $i \mapsto x_i$（称为索引集合）到 E 中；如果索引集合是有限的，则族 $(x_i)_{i \in I}$ 称为有限族。
 
 E 的元素的有限族 $(x_i)_{i \in I}$ 其下标集合 I 是全序的，称为 E 的有序序列 of 元素。
 
-特别是，每个有限序列$(x_i)_{i \in H}$，其中H是集合$\mathbf{N}$或自然数的有限子集，如果H由关系诱导给出序关系，则可以将其视为有序序列 $m \leq n$ 自然数之间。
+特别是，每个有限序列$(x_i)_{i \in H}$，其中H是集合的有限子集，自然数的$\mathbf{N}$，如果给定由关系诱导的序关系，则可以将其视为有序序列。 $m \leq n$ 自然数之间。
 
 如果存在 I 的有序集合同构 $\phi$ 到 K 上，使得 $y_{\phi(i)} = x_i$ 对于所有 $i \in I$，则两个有序序列 $(x_i)_{i \in I}$ 和 $(y_k)_{k \in K}$ 被称为相似。
 
@@ -146,7 +146,7 @@ $$
 f\left( \prod_{\alpha \in A} \right) = \prod_{\alpha \in A} f(x_\alpha).
 $$
 
-### 3.联想律
+### 3. 联想律
 
 #### 定义 5 {#alg-i-s1-def-5 .statement tag=055H}
 
@@ -224,23 +224,23 @@ $$
 
 重要的是不要将此集合与 $\frac{p}{T} x$ 的集合混淆，其中 $x$ 穿过 $X$。
 
-### 4.稳定子集。诱导律
+### 4. 稳定子集。诱导律
 
 #### 定义 6 {#alg-i-s1-def-6 .statement tag=055K}
 
-* 集合$E$子集$A$若$A$属于两个元素合成在$E$上合成$T$律下称为稳定$A$。 $A \times A$到$A$的映射$(x, y) \mapsto x T y$则称为律在$A$上由律$T$诱导。由$T$诱发的集合$A$和律称为$E$的次岩浆。*
+*如果$A$属于两个元素合成在$E$上合成$T$律下称为稳定集合$E$子集$A$称为稳定$A$。 $A \times A$ 的映射 $(x, y) \mapsto x T y$ 进入 $A$ 则称为律在 $A$ 上由律 $T$ 诱发。 集合 $A$ 和$T$诱发的律称为$E$的次岩浆。*
 
-在其他字中，要使$A$稳定在律$T$下，$A T A \subset A$是充分必要的。经常会发现稳定的子集 $E$ 和相应的次岩浆。
+在其他字中，$A$要稳定在律$T$下，$A T A \subset A$是充分必要的。经常会发现稳定的子集 $E$ 和相应的次岩浆。
 
-$E$稳定子集家庭交稳定；特别是对于给定的子集$X$，存在$E$包含的最小的稳定子集$A$；据说它是由$X$*生成*的，$X$被称为$A$的*生成的系统*或$A$的*生成的集合*。 相应的子岩浆也据说是由 $X$ *生成*的。
+$E$稳定子集家庭交稳定；特别是对于给定的子集 $X$，存在 $E$ 包含的最小的稳定子集 $A$；据说它是由$X$*生成*的，$X$被称为$A$的*生成的系统*或$A$的*生成的集合*。 相应的子岩浆也据说是由 $X$ *生成*的。
 
 #### 命题 1 {#alg-i-s1-prop-1 .statement tag=055L}
 
-*令$E$和$F$为两块岩浆，将$E$的$f$同态放入$F$。
-(i) $E$ 的稳定子集的$f$ 下的像是$F$ 的稳定子集。
-(ii) 稳定的子集$F$的$f$下的逆像是$E$的稳定的子集。
+*令$E$和$F$为两块岩浆，将$E$的$f$同态转化为$F$。
+(i) $E$ 的稳定子集在$f$ 下的像是$F$ 的稳定子集。
+(ii) 稳定子集$F$的$f$下的逆像是$E$的稳定子集。
 (iii) 设$X$为$E$中的子集。 $X$生成的$E$的稳定子集在$f$下的像是$f(X)$生成的$F$的稳定子集。
-(iv) 如果$g$是$E$的第二个同态，来自$E$的元素$x$的$F$集合，使得$f(x) = g(x)$是子集的稳定子集 $E$.*
+(iv) 如果$g$是$E$的元素$x$的$F$集合的$E$的第二个同态，使得$f(x) = g(x)$是子集的稳定子集 $E$.*
 
 断言 (i)、(ii) 和 (iv) 是显而易见的；我们证明(iii)。令$\overline{X}$为X生成的E的稳定子集，$\overline{f(X)}$为$f(X)$生成的F的稳定子集。由 (i) $\overline{f(X)} \subset f(\overline{X})$ 和 (ii) $\overline{X} \subset f^{-1}(\overline{f(X)})$、从而 $f(\overline{X}) \subset \overline{f(X)}$。
 
@@ -258,7 +258,7 @@ $E$稳定子集家庭交稳定；特别是对于给定的子集$X$，存在$E$�
 
 (3) 对于集合 E 上的结合律$\top$，单个元素的集合{a}由……组成生成的稳定子集是元素$\overline{\top}^n a$的集合，其中n经过集合整数 $> 0$。
 
-### 5.可变换元素。可交换律
+### 5. 可置换元素。可交换律
 
 #### 定义 7 {#alg-i-s1-def-7 .statement tag=055O}
 
@@ -388,21 +388,21 @@ $$
 \prod_{\alpha \in A} x_\alpha \prod_{\alpha \in A} y_\alpha = \left( \prod_{\alpha \in A} x_\alpha \right) \prod_{\alpha \in A} y_\alpha.
 $$
 
-因为双序列 $(x_{ij})$ 的公式 (7) 合成其下标集合是 $\mathbf{N}$ 中两个区间 $\{p, q\}$ 和 $\{r, s\}$ 的乘积，通常表示为交换结合词律附加编写
+由于双序列 $(x_{ij})$ 的公式 (7) 合成其下标集合是 $\mathbf{N}$ 中两个区间 $\{p, q\}$ 和 $\{r, s\}$ 的乘积，通常表示为交换结合词律附加编写
 
 $$
 \sum_{i=p}^q \sum_{j=r}^s x_{ij} \quad \text{or} \quad \sum_{j=r}^s \sum_{i=p}^q x_{ij}
 $$
 
-类似地，律用其他符号表示。
+类似地，对于用其他符号表示的律。
 
-2. 令$n$为整数$> 0$，并令$A$为整数$(i, j)$的有序对的集合，使得$0 \leq i \leq n, 0 \leq j \leq n$和$i < j$； $(x_{ij})_{(i, j) \in A}$族的合成（在交换结合词律下）也可以用$\prod_{0 \leq i < j \leq n} x_{ij}$表示（或者简单地用$\prod_{i < j} x_{ij}$表示，如果不引起混淆的话）； 定理 3 这里给出公式
+2. 令$n$为整数$> 0$，并令$A$为整数$(i, j)$的有序对中的集合，使得$0 \leq i \leq n, 0 \leq j \leq n$和$i < j$； $(x_{ij})_{(i, j) \in A}$族的合成（在交换结合词律下）也用$\prod_{0 \leq i < j \leq n} x_{ij}$表示（或者简单地用$\prod_{i < j} x_{ij}$表示，如果不引起混淆的话）； 定理 3 这里给出公式
 
 $$
 \prod_{0 \leq i < j \leq n} x_{ij} = \prod_{i=0}^{n-1} \left( \prod_{j=i+1}^n x_{ij} \right) = \prod_{j=1}^n \left( \prod_{i=0}^{j-1} x_{ij} \right).
 $$
 
-对于索引集合是大于两个集合的乘积的族，有与(7)类似的公式，对于索引集合是*严格递增的的集合$S_p$的族，有与(10)类似的公式。 $p$ 整数的序列* $(i_k)_{1 \leq k \leq p}$，使得 $0 \leq i_k \leq n$ ($p \leq n + 1$)：在后一种情况下，$(x_{i_1 i_2 \ldots i_p})_{(i_1, \ldots, i_p) \in S_p}$ 族的合成表示为
+对于索引集合是超过两个集合的乘积的族，有与(7)类似的公式，对于索引集合是*严格递增的的集合$S_p$的族，有与(10)类似的公式。 $p$ 整数的序列* $(i_k)_{1 \leq k \leq p}$，使得 $0 \leq i_k \leq n$ ($p \leq n + 1$)：在后一种情况下，$(x_{i_1 i_2 \ldots i_p})_{(i_1, \ldots, i_p) \in S_p}$ 族的合成表示为
 
 $$
 \prod_{0 \leq i_1 < i_2 < \cdots < i_p < n} x_{i_1 i_2 \ldots i_p} \quad \text{or simply} \quad \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \ldots i_p}.
@@ -417,11 +417,11 @@ $$
 $$(f T g)(x T y) = f(x T y) T g(x T y) = f(x) T f(y) T g(x) T g(y)$$
 $$= f(x) T g(x) T f(y) T g(y) = ((f T g)(x)) T ((f T g)(y)).$$
 
-### 6.商律
+### 6. 商律
 
 #### 定义 11 {#alg-i-s1-def-11 .statement tag=0561}
 
-令 E 为集合。 合成 T 的律和 E 上的等价关系 R 被认为是兼容的，如果关系 x ≡ x' (mod R) 和 y ≡ y' (mod R) （对于 x, x', y, y' ∈ E）意味着 x T y ≡ x' T y' (mod R)； 商集 E/R 上合成的律，其中x和y的映射等价类除以x T y的等价类，称为律T相对于R的商律。 集合 E/R 与律的商称为 E 相对于 R 的商岩浆。
+令 E 为集合。 合成 T 的律和 E 上的等价关系 R 被认为是兼容的，如果关系 x ≡ x' (mod R) 和 y ≡ y' (mod R) （对于 x, x', y, y' ∈ E）意味着 x T y ≡ x' T y' (mod R)； 商集 E/R 上合成的律，其中x和y的映射等价类除以x T y的等价类，称为律 T相对于R的商律。 集合 E/R 与律的商称为 E 相对于 R 的商岩浆。
 
 说E上的等价关系R与合成f的内部律兼容：E × E→E on E意味着映射f与乘积等价关系R×相容的（在集合理论意义上，II, § 6, no. 5） R 在 E × E 上，等价关系 R 在 E 上。（集合理论，II, § 6, no. 8）。这也意味着R的图是E×E的子岩浆。
 
@@ -431,25 +431,25 @@ $$= f(x) T g(x) T f(y) T g(y) = ((f T g)(x)) T ((f T g)(y)).$$
 
 对于进入岩浆 F 的映射 g E/R 为同态，g 的合成与 E/R 上的 E/R 的典范映射为同态是必要且充分的。
 
-以下两个命题是来自定义的直接的：
+以下两个命题是直接的来自定义：
 
 #### 命题 6 {#alg-i-s1-prop-6 .statement tag=0562}
 
-设 E 和 F 为两颗岩浆，E 的 f 同态进入 F。令 R[x, y] 表示 E 的元素 x, y 之间的关系 f(x) = f(y)。则 R 在 E 上为等价关系，与 E 上的律和 E/R 的映射兼容到 f(E) 上，通过经过与岩浆 E/R 到 F 子岩浆 f(E) 的商的同构求商。
+设 E 和 F 为两颗岩浆，E 的 f 同态进入 F。设 R[x, y] 表示 E 的元素 x, y 之间的关系 f(x) = f(y)。则 R 在 E 上为等价关系，与 E 上的律和 E/R 的映射兼容到 f(E) 上，通过经过与 F 的子岩浆 f(E) 上的商岩浆 E/R 的商为同构。
 
 #### 命题 7 {#alg-i-s1-prop-7 .statement tag=0563}
 
-设 E 为岩浆，E 上的 R 等价关系与 E 上的律兼容。为了使 E/R 上的等价关系 S 与商律兼容，S 为形式 T/R 是充分必要的，其中 T 为 R 所暗示的 E 上的等价关系并与E 上的律。E/T 到 (E/R)/(T/R) 上的典范映射（集合理论，II, § 6, no. 7）则为岩浆同构。
+设 E 为岩浆，E 上的 R 等价关系与 E 上的律兼容。为了使 E/R 上的等价关系 S 与商律兼容，S 为形式 T/R 是必要且充分的，其中 T 为 R 所暗示的 E 上的等价关系且与E 上的律。E/T 到 (E/R)/(T/R) 上的典范映射（集合理论，II, § 6, no. 7）则为岩浆同构。
 
 #### 命题 8 {#alg-i-s1-prop-8 .statement tag=0564}
 
 设E是岩浆，A是E的稳定子集，E上的R等价关系与E上的律兼容。A相对于R的饱和度B（集合
 
-理论上，II, , no. 5) 是稳定的子集。 $R$在$A$和$B$分别诱导的等价关系$R_A$和$R_B$与从$A$的典范嵌入导出的律和映射兼容$B$乘以经过商是$A / R_A$的岩浆同构到$B / R_B$
+理论上，II, , no. 5) 是稳定的子集。 $R$在$A$和$B$分别诱导的等价关系$R_A$和$R_B$与从$A$的典范嵌入导出的律和映射兼容$B$除以经过的商是$A / R_A$的岩浆同构到$B / R_B$
 
 让$\top$表示$E$上的律。如果$x$和$y$是$B$的两个元素，则存在$A$的两个元素、$x'$和$y'$，使得$x \equiv x' \pmod{R}$和$y \equiv y' \pmod{R}$；然后$x \top y \equiv x' \top y' \pmod{R}$和$x' \top y' \in A$，从而$x \top y \in B$。因此$B$是$E$的稳定子集，其他断言是明显的。
 
-令$M$为岩浆，$((u_\alpha, v_\alpha))_{\alpha \in I}$为$M \times M$的元素族。考虑$M$上的所有等价关系$S$与$M$上的律兼容，并且$u_\alpha \equiv v_\alpha \pmod{S}$适用于所有$\alpha \in I$。这些关系的图的交是等价关系$R$的图，它与$M$上的律兼容，并且$u_\alpha \equiv v_\alpha \pmod{R}$。因此，$R$是具有这两个属性的最好的（集合理论，III, § 1，第3和7）等价关系。它被称为等价关系，与$(u_\alpha, v_\alpha)$生成的$M$上的律兼容。
+令$M$为岩浆，$((u_\alpha, v_\alpha))_{\alpha \in I}$为$M \times M$的元素族。考虑$M$上的所有等价关系$S$与$M$上的律兼容，并且$u_\alpha \equiv v_\alpha \pmod{S}$适用于所有$\alpha \in I$。这些关系的图的交是等价关系$R$的图，它与$M$上的律兼容，并且$u_\alpha \equiv v_\alpha \pmod{R}$。因此$R$是具有这两个属性的最好的（集合理论，III, § 1，第3和7）等价关系。它被称为等价关系，与$(u_\alpha, v_\alpha)$生成的$M$上的律兼容。
 
 #### 命题 9 {#alg-i-s1-prop-9 .statement tag=0565}
 
@@ -459,4 +459,4 @@ $$= f(x) T g(x) T f(y) T g(y) = ((f T g)(x)) T ((f T g)(y)).$$
 
 ### 习题 {#alg-i-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

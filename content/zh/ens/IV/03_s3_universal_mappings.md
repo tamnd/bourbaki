@@ -26,27 +26,27 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: 48321d9b024cdf9dd226dda703045e38f756fe7bab0d5651843a2de6522ababf
+content_sha256: ad3dc06b14025f9b403c65aea7683652e9b843b0a55de910b11cc592262cbe13
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
 translation_method: google
 source_content_sha256: 02143cebc191d935f4dc730de8191e96a819d51f624ae1e4a809f5d496463365
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 4fb320e53393801938376200ddb3867d05a9c172ed4a22fb8ed49c4a886d092b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3.普遍映射
+## 3. 普遍映射
 
-### 1.全集和映射
+### 1. 全集和映射
 
-令$\mathscr{T}$为比集合论更强的理论，并令E为$\mathscr{T}$中的项。令$\mathscr{T}$中的$\Sigma$为结构种。为了简单起见，我们自始至终假设$\Sigma$是在单个（主要）基集合上定义的，并且为了简洁起见，我们将“$\Sigma$-集合”表示“集合赋予了类$\Sigma$的结构”。此外，我们假设类$\Sigma$定义了$\sigma$态射（§ 2, no. 1；如在§ 2中，我们将说“态射”代替“$\sigma$-态射”）。最后，类$\Sigma$被定义在基集合$x$上并且$s$作为泛型结构（§ 1, no. 4），让我们假设项$\alpha\{x,s\}$被定义在$\mathscr{T}_{\Sigma}$、满足以下条件：
+令$\mathscr{T}$为强于集合论的理论，并令E为$\mathscr{T}$中的项。令$\mathscr{T}$中的$\Sigma$为结构种。为了简单起见，我们自始至终假设$\Sigma$是在单个（主要）基集合上定义的，并且为了简洁起见，我们将“$\Sigma$-集合”表示“集合赋予了类$\Sigma$的结构”。此外，我们假设$\sigma$态射已经被定义为类$\Sigma$（§ 2, no. 1；如在§ 2中，我们应该说“态射”代替“$\sigma$-态射”）。最后，类$\Sigma$被定义在基集合$x$上并且$s$作为泛型结构（§ 1, no. 4），让我们假设项$\alpha\{x,s\}$被定义在$\mathscr{T}_{\Sigma}$、满足以下条件：
 
-(QM$_{\mathrm{I}}$) *关系 $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ 在 $\mathscr{T}_{\Sigma}$ 中成立。*
+(QM$_{\mathrm{I}}$) *关系 $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ 在 $\mathscr{T}_{\Sigma}$ 中为真。*
 
-(QM$_{\mathrm{II}}$) *如果(理论上$\mathscr{T}'$强于$\mathscr{T}$)F和F′是两个集合，并且赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，并且如果$f$是将 F 的态射转化为 F′，则关系 $\varphi\in\alpha\{F,\mathscr{S}\}$ 意味着 $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$。*
+(QM$_{\mathrm{II}}$) *如果（理论上$\mathscr{T}'$强于$\mathscr{T}$）F和F′是两个集合，并且赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，并且如果$f$是将 F 的态射转化为 F′，则关系 $\varphi\in\alpha\{F,\mathscr{S}\}$ 意味着 $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$。*
 
 我们将用说表达关系$\varphi\in\alpha\{x,s\}$，$\varphi$是E到$x$的$\alpha$映射（赋予$s$）。
 
@@ -56,21 +56,21 @@ $(AU)$ *对于 E 到 $\Sigma$ 集 F 的每个 $\alpha$-映射 $\varphi$，存在
 
 对于 E，对 $(F_E,\varphi_E)$ 也被称为普遍映射问题* 的 *解（相对于 $\Sigma$、$\sigma$ 和 $\alpha$）。
 
-¶ 对于 E，令 $(F'_E,\varphi'_E)$ 和 $(F''_E,\varphi''_E)$ 为普遍映射问题中的两个解。 条件 $(AU)$ 则表明 $F''_E$ 中存在 $F'_E$ 的唯一态射 $f_1$ 且将$F''_E$的唯一态射$f_2$化为$F'_E$，使得$\varphi''_E=f_1\circ\varphi'_E$和$\varphi'_E=f_2\circ\varphi''_E$。因此我们有$\varphi''_E=f_2\circ f_1\circ\varphi'_E$和$\varphi'_E=f_1\circ f_2\circ\varphi''_E$。 应用$(AU)$对于$F=F'_E$和$\varphi=\varphi'_E$的情况，我们发现$f_2\circ f_1$是$F'_E$自身的恒等映射。同样，$f_1\circ f_2$ 是 $F''_E$ 的恒等映射自身。因而（§ 2, no. 1，标准 CST8）$f_1$ 是 $F'_E$ 到 $F''_E$ 的 *同构*，$f_2$ 是它的逆同构。该结果由说表示，对于 E，普遍映射问题的解 *直到同构* 都是唯一的。
+¶ 设$(F'_E,\varphi'_E)$和$(F''_E,\varphi''_E)$为E的普遍映射问题中的两个解。条件$(AU)$则表明$F''_E$中存在$F'_E$的唯一态射$f_1$且将$F''_E$的唯一态射$f_2$化为$F'_E$，使得$\varphi''_E=f_1\circ\varphi'_E$和$\varphi'_E=f_2\circ\varphi''_E$。因此我们有$\varphi''_E=f_2\circ f_1\circ\varphi'_E$和$\varphi'_E=f_1\circ f_2\circ\varphi''_E$。 应用$(AU)$对于$F=F'_E$和$\varphi=\varphi'_E$的情况，我们发现$f_2\circ f_1$是$F'_E$自身的恒等映射。类似地，$f_1\circ f_2$ 是 $F''_E$ 的恒等映射自身。因而（§ 2, no. 1，标准 CST8）$f_1$ 是 $F'_E$ 到 $F''_E$ 的 *同构*，$f_2$ 是它的逆同构。该结果由说表示，对于 E，普遍映射问题的解 *直到同构* 都是唯一的。
 
 要验证 E 的对 $(F_E,\varphi_E)$ 是普遍映射问题的解，通常可以方便地验证以下两个条件 ：
 
-$(AU'_{\mathrm I})$ *对于每个$\Sigma$集合F和E到F的每个$\alpha$映射$\varphi$，存在$F_E$到F的态射$f$使得$\varphi=f\circ\varphi_E$。*
+$(AU'_{\mathrm I})$ *对于每个$\Sigma$集合F和E到F的每个$\alpha$-映射$\varphi$，存在$F_E$到F的态射$f$使得$\varphi=f\circ\varphi_E$。*
 
-$(AU'_{\mathrm{II}})$ *对于每个$\Sigma$集合F，F中的$F_E$中的两个态射在$\varphi_E(E)$上一致，是相等的。*
+$(AU'_{\mathrm{II}})$ *对于每个$\Sigma$集合F，$F_E$中的两个态射进入F并且同意$\varphi_E(E)$是相等的。*
 
-因为如果满足这两个条件，则由$(AU'_{\mathrm I})$保证存在的态射$f$由$(AU'_{\mathrm{II}})$唯一。反之，显然$(AU)$蕴涵$(AU'_{\mathrm I})$；此外，如果$f$和$f'$是$F_E$的两个态射进入F并且在$\varphi_E(E)$上一致，我们有$f\circ\varphi_E=f'\circ\varphi_E$，从而$f=f'$乘应用$(AU)$到$\alpha$-映射$f\circ\varphi_E$。因而$(AU)$意味着$(AU'_{\mathrm{II}})$。
+因为如果满足这两个条件，则由$(AU'_{\mathrm I})$保证存在的态射$f$由$(AU'_{\mathrm{II}})$唯一。反之，显然$(AU)$蕴涵$(AU'_{\mathrm I})$；此外，如果$f$和$f'$是$F_E$中的两个态射进入F并且在$\varphi_E(E)$上一致，我们有$f\circ\varphi_E=f'\circ\varphi_E$，从而$f=f'$乘应用$(AU)$到$\alpha$-映射$f\circ\varphi_E$。因而$(AU)$意味着$(AU'_{\mathrm{II}})$。
 
-### 2.普遍映射的存在
+### 2. 普遍映射的存在
 
 普遍映射问题不一定有解（习题1）。然而，我们将证明以下条件暗示解的存在：
 
-$(CU_{\mathrm I})$ *在 $\Sigma$ 集合中的每一个乘积上，都存在类 $\Sigma$ (§ 2, no. 4) 的乘积结构。*
+$(CU_{\mathrm I})$ *在 $\Sigma$ 集合的族中的每个乘积上，都存在类 $\Sigma$ (§ 2, no. 4) 的乘积结构。*
 
 $(CU_{\mathrm{II})}$ *令$(F_i)_{i\in I}$为$\Sigma$集合族，对于每个$i\in I$，令$\varphi_i$为E到$F_i$的$\alpha$映射。那么 E 的映射 $(\varphi_i)_{i\in I}$ 到 $\prod_{i\in I}F_i$（赋予乘积结构）是一个 $\alpha$ 映射。*
 
@@ -88,19 +88,19 @@ CST22。 *如果满足条件* $(\mathrm{CU_I})$ *到* $(\mathrm{CU_{III}})$ *，
 
 CST23。 *设* $(\mathrm{F_E},\ \varphi_\mathrm{E})$ *为* E 为普遍映射问题解。 *则* $\varphi_\mathrm{E}$ *为* E *的单射 *入* $\mathrm{F_E}$ *当且仅当，对于每个不同的对元素* $x$，$y$ *属于* E，*存在* $\alpha$-*映射* $\varphi$ *属于* E *到* $\Sigma$-*集合* F *使得* $\varphi(x) \neq \varphi(y)$。
 
-由于 $\varphi_\mathrm{E}$ 是 $\alpha$ 映射，因此标准是定义的直接的推论。
+由于 $\varphi_\mathrm{E}$ 是 $\alpha$ 映射，因此标准是直接的推论或定义。
 
-¶ 在这种情况下，$\alpha$映射被认为是*分离*E的元素，并且我们通常不会在术语中对E的元素和$\varphi_\mathrm{E}$下的像进行任何区分。根据此约定，如果 $(\mathrm{F_E},\ \varphi_\mathrm{E})$ 是普遍映射问题的解，并且如果满足条件 $(\mathrm{CU_{III}})$，则 E 的每个 $\alpha$ 映射到 $\Sigma$ 集 F *扩展唯一到 * 的态射 $\mathrm{F_E}$ *进入* F.
+¶ 在这种情况下，$\alpha$映射被认为是*分离*E的元素，并且我们通常不会在术语中对E的元素和$\varphi_\mathrm{E}$下的像进行任何区分。根据此约定，如果 $(\mathrm{F_E},\ \varphi_\mathrm{E})$ 是普遍映射问题的解，且满足条件 $(\mathrm{CU_{III}})$，则 E 的每个 $\alpha$ 映射到 $\Sigma$ 集合 F *扩展唯一到* 的态射 $\mathrm{F_E}$ *进入* F.
 
 ### 3. 例普遍映射
 
 \* 例，对于大多数部分，将在本级数的其他地方详细处理。
 
-I。 *自由代数结构。* 令 E 为集合，并令 $\Sigma$ 为代数结构的类，由合成中的一个或多个律定义。我们将类 $\Sigma$的*同态*视为态射，并将E的$\alpha$-任意*映射映射到$\Sigma$集合（在其他字、$\alpha \{ x,\ s \} = \mathfrak{F}(\mathrm{E},\ x)$中）。所有常见的代数类结构满足$(\mathrm{CU_{III}})$；除了环结构除法之外，它们还有满足$(\mathrm{CU_I})$，而$(\mathrm{CU_{II}})$在这里是$(\mathrm{CU_I})$的微不足道的推论。
+I。 *自由代数结构。* 令 E 为集合，并令 $\Sigma$ 为代数结构的类，由合成中的一个或多个律定义。我们将类 $\Sigma$ 的 *同态* 视为态射进行考虑，并将 E 的 *任意* 映射 $\alpha$ 映射到 $\Sigma$ 集合（在其他字、$\alpha \{ x,\ s \} = \mathfrak{F}(\mathrm{E},\ x)$ 中）。所有常见的代数类结构满足$(\mathrm{CU_{III}})$；除了环结构除法之外，它们还有满足$(\mathrm{CU_I})$，而$(\mathrm{CU_{II}})$在这里是$(\mathrm{CU_I})$的微不足道的推论。
 
 由于通常存在在集合上定义的类 $\Sigma$ 的结构以及至少两个元素，因此 $\alpha$ 映射将 E 的元素分开，因此可以将 E 视为嵌入在 $\mathrm{F_E}$ 中。 $\mathrm{F_E}$据说是由* E生成的*自由*$\Sigma$-*集合。因此，在代数中，我们谈论*自由半群*、*自由群*、*自由模*和*自由代数*。
 
-II。 *分数的环和域。*设E为交换环且单位元素，并令S为E的乘法闭子集，且包含不为0。我们取$\Sigma$为交换环的结构种与单位元素和态射为环同态，其中变换单位元素变为单位元素。 $\alpha$-映射将是 E 的同态 $\varphi$ 到交换环 A 和单位元素，这样 $\varphi(1) = 1$ 和 $\varphi(\mathrm{S})$ 包含只有 A 的 *单位*。 条件 $(\mathrm{QM_{II}})$、$(\mathrm{CU_I})$到$(\mathrm{CU_{III}})$（与$\mathfrak{a} = \mathrm{Card}\ (\mathrm{E})\ \mathrm{Card}\ (\mathbf{N})$）立即得到验证。因此普遍映射问题总是有解 $(\mathrm{F_E},\ \varphi_\mathrm{E})$，但一般来说 $\varphi_\mathrm{E}$ 不是单射的。最常见的情况是$E$是整环；在这种情况下，$\varphi_E$是单射的。此外，如果我们取$S = E - \{0\}$，那么$F_E$就是域，称为$E$的分数*的*域。
+II。 *分数的环和域。*设E为交换环且单位元素，并令S为E的乘法闭子集，且包含不为0。我们取$\Sigma$为交换环的结构种与单位元素，以及态射为环同态，其中变换单位元素变为单位元素。 $\alpha$-映射将是 E 的同态 $\varphi$ 到交换环 A 和单位元素，这样 $\varphi(1) = 1$ 和 $\varphi(\mathrm{S})$ 包含只有 A 的 *单位*。 条件 $(\mathrm{QM_{II}})$、$(\mathrm{CU_I})$到$(\mathrm{CU_{III}})$（与$\mathfrak{a} = \mathrm{Card}\ (\mathrm{E})\ \mathrm{Card}\ (\mathbf{N})$）立即得到验证。因此普遍映射问题总是有解 $(\mathrm{F_E},\ \varphi_\mathrm{E})$，但一般来说 $\varphi_\mathrm{E}$ 不是单射的。最常见的情况是$E$为整环；在这种情况下，$\varphi_E$是单射的。此外，如果我们取$S = E - \{0\}$，那么$F_E$就是域，称为$E$的分数*的*域。
 
 III。 *两个模中的张量积。*令$E$为两个模中的乘积$A \times B$，其中交换环$C$有单位元素。将$\Sigma$作为$C$模块结构的类，将态射作为线性映射，将$\alpha$映射为$A \times B$的*双线性*映射到$C$模块。 条件 $(QM_{II})$ 显然是满意的，$(CU_I)$ 到 $(CU_{III})$（以及 $\mathfrak{a} = \mathrm{Card}\ (E)\ \mathrm{Card}\ (C)\ \mathrm{Card}\ (\mathbf{N})$）也是如此。通用$C$-模块$F_E$相应的到对$(A, B)$称为$A$和$B$的*张量积*，写作$A \otimes B$。 普遍映射$\varphi_E$写为$(x,\ y) \to x \otimes y$；它是双线性的，但一般来说不是单射的。
 
@@ -116,12 +116,12 @@ $$\mathfrak{a} = \mathrm{Card\ (E)\ Card\ (\mathbf{N})}.$$
 
 E 的这个普遍映射问题的解的豪斯多夫拓扑群 $\mathrm{F_E}$ 被称为由空间* E 生成的*自由拓扑群。因为 E 的任何两个不同的点都可以被 E 的连续映射分开， Hausdorff 拓扑群 **R**, 映射 $\varphi_\mathrm{E}$ 是单射；可以证明$\varphi_\mathrm{E}$是E到$\mathrm{F_E}$[^1]的子空间$\varphi_\mathrm{E}(\mathrm{E})$的同胚。除了将$\Sigma$视为豪斯多夫拓扑群的结构种之外，我们还可以取其他结构种，例如豪斯多夫拓扑阿贝尔的群、紧致群、豪斯多夫拓扑环、豪斯多夫拓扑环向量空间（在拓扑划分环之上，被视为辅助基集合）等。
 
-VIII。 *拓扑群* 上的几乎周期性函数。令 E 为拓扑群。取$\Sigma$为紧致群结构的类，态射为连续同态，$\alpha$-映射为E的连续同态到紧致群。满足条件$(\mathrm{QM_{II}})$、$(\mathrm{CU_I})$到$(\mathrm{CU_{III}})$，满足$\mathfrak{a} = 2^{2^{\mathrm{Card\,(E)}}}$。 E 的紧致群 $\mathrm{F_E}$ 是该普遍映射问题的解，称为与 E 伴随的*紧致群； 映射 $\varphi_\mathrm{E}$ 不一定是单射的。 E 上的每个连续实值函数，形式 $g \circ \varphi_\mathrm{E}$，其中 $g$ 是 E 上的连续实值函数，被称为 E 上的*几乎周期性函数*。
+VIII。 *拓扑群* 上的几乎周期性函数。令 E 为拓扑群。取$\Sigma$为紧致群结构的类，态射为连续同态，$\alpha$-映射为E的连续同态到紧致群。满足条件$(\mathrm{QM_{II}})$、$(\mathrm{CU_I})$到$(\mathrm{CU_{III}})$，满足$\mathfrak{a} = 2^{2^{\mathrm{Card\,(E)}}}$。 E 的普遍映射问题的紧致群 $\mathrm{F_E}$ 是解，称为与 E 伴随的*紧致群； 映射 $\varphi_\mathrm{E}$ 不一定是单射的。 E 上的每个连续实值函数，形式 $g \circ \varphi_\mathrm{E}$，其中 $g$ 是 E 上的连续实值函数，被称为 E 上的*几乎周期性函数*。
 
 IX。 *阿尔巴尼亚品种*。设E是一个代数簇，令$\Sigma$是与E相同的基域上的阿贝尔的簇的结构种（阿贝尔的簇是赋予代数群结构的完全代数簇；它必然是可交换的）。 态射将一个阿贝尔的变体的有理映射转化为另一个（每个态射必然是同态的合成及其翻译）。 $\alpha$-映射是 E 到阿贝尔的变体的有理映射。 条件$(\mathrm{CU_I})$不满足，但E的普遍映射问题承认解$\mathrm{F_E}$，称为E的*阿尔巴尼亚簇*。一般来说，有理数映射$\varphi_\mathrm{E}$不是单射的。 \*
 
-### 习题 {#ens-iv-s3-exercises}
+### 习题{#ens-iv-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。
 
-[^1]: 参见 P. SAMUEL，“关于普遍映射和自由拓扑群”，*Bull。阿米尔。数学。 Soc.*，**54** (1948)，第 591-598 页。
+[^1]: 参见 P. SAMUEL，“关于普遍映射和自由拓扑群”，*Bull。 阿米尔。 数学。 Soc.*，**54** (1948)，第 591-598 页。

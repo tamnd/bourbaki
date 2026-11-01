@@ -11,31 +11,31 @@ pdf_pages: 0018-0023, 0031-0031
 extraction: ocr
 statements: 5
 exercises: 2
-content_sha256: 76da4647299842bdaca1e06a0204585f33be79515f78672d6ba7ec92adfe95a7
+content_sha256: 4e46e512bca08ca50bc373bfbe6a88fea8163713933188b80d1cad77d66a99f9
 translated_from: content/en/top/V/02_s2_measurement_of_magnitudes.md
 translation_method: google
 source_content_sha256: 4c0d4a053c85b93dc23047deb4096b5b7869ee2eb4c5bc580d37bfd28b4c40a9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 14b416132342cb1d6875031f1ba365994cd7a00a15ad325d81fe0118fac3a71d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 2. 幅度测量
 
-我们已经看到（cf. 历史注记到章 IV），震级测量的问题是实数概念的起源；更准确地说，出于实际或理论的目的，逐渐开始研究的各种型的大小，首先是彼此分开考虑的，并且用相同的数系统测量所有型的可能性已经作为实验事实出现，而之前希腊人则构想了进行严格证明的大胆想法。在他们建立的公理论中，大小的概念与合成的律（相同型的大小的“加法”）和顺序关系（关系“A小于B”，称为大小比较的关系）有关。接下来我们将检查相同的问题，也就是说，我们将研究条件，它必须强加于合成的内部律，以及阶中集合E的顺序关系，它应该与R的子集E'同构的，赋予结构由 R 中的加法和关系 $\leq$ 诱发。由于我们不会先验地假设 E 上的合成的给定律是可交换的，因此我们将使用乘法记号；但除此之外，我们几乎不会脱离经典论证。
+我们已经看到（cf.历史注记到章IV）问题的震级测量是实数概念的起源；更准确地说，出于实际或理论的目的，逐渐开始研究的各种型的大小首先被彼此分开考虑，并且用相同的数系统测量所有型的可能性已经作为实验事实出现，而之前希腊人则构想了给出严格证明的大胆想法。在他们建立的公理论中，大小的概念与合成的律（相同型的大小的“加法”）和顺序关系（关系“A小于B”，称为大小比较的关系）有关。接下来我们将检查相同的问题，也就是说，我们将研究条件，它必须强加于合成的内部律，以及阶中集合E的顺序关系，它应该与R的子集E'同构的，赋予结构由 R 中的加法和关系 $\leq$ 引出。由于我们不会先验地假设 E 上的合成的给定律是可交换的，因此我们将使用乘法记号；但除此之外，我们几乎不会脱离经典论证。
 
-令 E 为集合按序关系写成 $x \leq y$ 线性排序，并假设 E 有最小的元素 $\omega$。令I为E的子集，使得$\omega \in I$，并且使得关系$x \in I$和$y \leq x$隐含$y \in I$；还假设我们在E上给出了合成$(x, y) \to xy$的律，乘积$xy$被定义为I的元素的所有对（$xy$属于到E，但不一定是I）。此外，我们还制作以下假设：
+令E按序关系写成$x \leq y$线性排序集合，并假设E有最小的元素$\omega$。令I为E的子集，使得$\omega \in I$，并且使得关系$x \in I$和$y \leq x$隐含$y \in I$；还假设我们在E上给出了合成$(x, y) \to xy$的律，乘积$xy$被定义为I的元素的所有对（$xy$属于到E，但不一定是I）。此外，我们制作以下假设：
 
-(GR_I) $\omega$ 是单位元素 [$\omega x = x \omega = x$ 对于所有 $x \in I$] 且合成的律是结合律 [在以下意义上：只要 $x \in I, y \in I, z \in I, xy \in I$ 和 $yz \in I$，则$x(yz) = (xy)z$]。
+(GR_I) $\omega$ 是单位元素 [$\omega x = x \omega = x$ 对于所有 $x \in I$] 且合成的律是关联的 [在以下意义上：只要 $x \in I, y \in I, z \in I, xy \in I$ 和 $yz \in I$，则$x(yz) = (xy)z$]。
 
-(GR_{II}) 关系 $x < y$ I 的元素之间意味着，对于所有 $z \in I$、关系 $xz < yz$ 和 $zx < zy$。
+(GR_{II}) 关系$x < y$在元素与I之间意味着，对于所有$z \in I$、关系$xz < yz$和$zx < zy$。
 
-(GR_{III})I中元素$> \omega$的集合不为空且没有最小的元素；并且给定 I 的任何元素 $x, y$ 使得$x < y$，存在$z > \omega$使得$xz \leq y$。
+(GR_{III})I中元素$> \omega$的集合不为空且没有最小的元素；并且给定 I 的任何元素 $x, y$ 使得 $x < y$，存在 $z > \omega$ 使得 $xz \leq y$。
 
-条件 (GR_{II}) 意味着元素与I 之间的不等式可以用项乘以项：$x < y$ 和$x' < y'$ 意味着$xx' < yy'$（对于$xx' < yx'$ 和$yx' < yy'$）。特别是，我们为所有 $x > \omega$ ($x \in I, y \in I$) 提供了 $y < yx$。
+条件 (GR_{II}) 意味着元素和 I 之间的不等式可以用项乘以项：$x < y$ 和 $x' < y'$ 意味着 $xx' < yy'$（对于 $xx' < yx'$ 和$yx' < yy'$）。特别是，我们对所有 $x > \omega$ ($x \in I, y \in I$) 都有 $y < yx$。
 
 给定I的元素的有限序列$(x_i)_{1 \leq i \leq p}$，我们可以在这个序列$\prod_{i=1}^p x_i$的$p$乘积上定义乘归纳等于$\left( \prod_{i=1}^{p-1} x_i \right) x_p$，前提是：定义了乘积 $\prod_{i=1}^{p-1} x_i$，并且定义了属于到 I：因此，如果定义了 $\prod_{i=1}^p x_i$，则定义了乘积 $\prod_{i=1}^q x_i$ 以及属于到 I，对于 $2 \leq q \leq p - 1$。通过使所有$x_i$等于相同的元素$x \in I$，我们特别看到，如果定义了$x^p$，则定义了$x^q$，并且对于$2 \leq q \leq p - 1$，属于到I。按照惯例，对于所有 $x \in I$，我们定义 $x^0$ 等于 $\omega$。通过(GR$_\text{II}$)，如果$x > \omega$，如果定义了$x^p$，则对于$1 \leq q \leq p - 1$我们有$\omega < x^q < x^p$；如果定义了$x < y$并且定义了$y^p$，那么我们会看到（通过$p$上的归纳）定义了$x^p$和$x^p < y^p$。另一方面，结合性条件（GR$_\text{I}$）通过$n$上的归纳意味着，如果定义了$x^{m+n}$，那么$x^m x^n$也定义了，$x^{m+n} = x^m x^n$也定义了。相反，根据(GR$_\text{I}$)和(GR$_\text{II}$)，如果$x^m x^n$被定义并且属于到I，那么$x^{m+n}$被定义并且我们有$x^{m+n} = x^m x^n$；这再次由$n$上的归纳证明，因为我们有$x^{n-1} \leq x^n$，因此定义了$x^m x^{n-1}$，并且属于到I；由假设、$x^m x^{n-1} = x^{m+n-1} \in I$，因此 $(x^{m+n-1})x = x^{m+n}$ 被定义为由先前的结果等于 $x^m x^n$。同样，通过归纳对$n$的证明，如果定义了$x^{mn}$，则定义了$(x^m)^n$，并且$x^{mn} = (x^m)^n$；相反，如果定义了 $(x^m)^n$ 且属于到 I，则定义了 $x^{mn}$ 且等于 $(x^m)^n$。
 
@@ -164,4 +164,4 @@ $$
 
 ### 习题{#top-v-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

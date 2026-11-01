@@ -21,19 +21,19 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: 073f55ca472d68cec3af3765faa5a12d42263fbbb8df8b539da3985b7513b8be
+content_sha256: 671c42506c864be1c71d4e02941c84a8fa1a9582253d5d910c41530337211d87
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
 translation_method: google
 source_content_sha256: 556d7efab2e0c3d357dfbbd27923b000a4c0af8dc523529bed393394168a1056
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1e14dd89f1564f36c4034ff4b327c085de2eae1bf7a9d9eadb761b831238efaf
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 素理想
+## 1. 基本理想
 
 ### 1. 定义素理想
 
@@ -73,7 +73,7 @@ $A$ 的最大理想 $m$ 是素数，因为 $A/m$ 是域；那么从克鲁尔的�
 
 我们以归纳对$n = \mathrm{Card}(I)$争论；如果 $n = 1$ 则命题是微不足道的。假设$n \geq 2$；如果存在指标$j$使得$a \cap p_j \subset \bigcup_{i \neq j} p_i$、集合$a$（即$a \cap p_i$的并，其中$i \in I$）包含在$\bigcup_{i \neq j} p_i$中，因此包含在归纳假设的$p_i$之一中。假设这样的指标不存在；对于每个$j \in I$，让$y_j$是$a \cap p_j$的元素，而不是属于到$i \neq j$的任何$p_i$。设$k$为$I$的元素，如果$n > 2$则$p_k$为素数，如果$n = 2$则任意选择；让$z = y_k + \prod_{i \neq k} y_i$。那么$z \in a$，因为$a$在加法和乘法下是封闭的；如果$j \neq k$、$\prod_{i \neq k} y_i$属于到$p_j$，但是$y_k \notin p_j$、从而$z \notin p_j$。另一方面，$\prod_{i \neq k} y_i$ 不会属于到 $p_k$，因为因子 $y_i \ (i \neq k)$ 属于都不是它，并且如果 $n - 1 > 1$ 则 $p_k$ 是质数；因为$y_k \in p_k$、$z$不属于到$p_k$且命题成立。
 
-### 2. 相对基本的理想
+### 2. 相对主要的理想
 
 设$A$为环；如果 $a + b = A$，则 $A$ 的两个理想 $a, b$ 被称为*相对素数*。为此，$a + b$ 不包含在任何素理想中 (*代数*, 章 I, § 8, no. 7, 定理 2)，在其他字中，$a$ 和 $b$ 中都不包含素理想包含，这是必要且充分的。两个不同的最大理想互质。
 
@@ -142,4 +142,4 @@ $$
 
 ### 习题{#ac-ii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

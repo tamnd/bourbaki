@@ -28,51 +28,51 @@ subsections:
       pdf_page: 110
 statements: 9
 exercises: 5
-content_sha256: 23b47a15af86ea4af2cb5e4c0e3482353b8fa0002034c79bdf59cb5c6d4cce05
+content_sha256: ec5faa873b1e3569cc6fbd7d5d2a9e92a26336e2f2709416ab831c4c77fb6b6b
 translated_from: content/en/top/VIII/01_s1_complex_numbers_quaternions.md
 translation_method: google
 source_content_sha256: e5059e22ac4891308f9c35de29452c98d7b526ede462c73990757938a2903d64
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 83cfc305c1ef8400bd679bc507972f5b46526bf26f3c92dd5d42c8402125daa8
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 复数，四元数
 
-### 1. 定义的复数
+### 1. 定义复数
 
 多项式 $X^2 + 1$ 在 $\mathbf{R}$ 中没有根，因为 $x^2 + 1 \geq 1$ 对于所有 $x \in \mathbf{R}$；因此它在 $\mathbf{R}$ 上是不可约的。 [这是适用于任何有序域的类似结果的特殊情况。]
 
 #### 定义 1 {#top-viii-s1-def-1 .statement tag=0BZV}
 
-*域* $\mathbf{R}[X]/(X^2 + 1)$ *称为复数的域，记为*$\mathbf{C}$。 * $X$ *中的典范像 *在* $\mathbf{C}$ *表示为* $i$，*使得* $\mathbf{C}$ *由域* $\mathbf{R}$ *通过根* $i$的代数伴随得到*多项式* $X^2 + 1$。 * $\mathbf{C}$ *的*元素称为复数*。
+*域* $\mathbf{R}[X]/(X^2 + 1)$ *称为复数的域，记为*$\mathbf{C}$。 * $X$ *中* $\mathbf{C}$ *的典范像 * 表示为* $i$，*因此* $\mathbf{C}$ * 由域* $\mathbf{R}$ * 通过根* $i$ * 的代数伴随获得多项式* $X^2 + 1$。 * $\mathbf{C}$ *的*元素称为复数*。
 
 从代数点的角度来看，域$\mathbf{C}$的重要性归因于以下基本定理：
 
 #### 定理 1 {#top-viii-s1-thm-1 .statement tag=0BZW}
 
-（达朗贝尔-高斯）。 *域* $\mathbf{C}$ *复数是代数封闭的*。
+（达朗贝尔-高斯）。 *域* $\mathbf{C}$ *复数是代数闭*。
 
-对于证明，足以确定 (i) $\mathbf{R}$ 中的每个元素 $\geq 0$ 都有一个 *平方根*，并且 (ii) 系数为 $\mathbf{R}$ 的 *奇数* 次数的每个多项式有 *至少一个$\mathbf{R}$ 内根*。其中第一个断言已在章IV, § 3, no. 3中得到证明。对于第二个，如果 $f(X) = a_0 X^n + a_1 X^{n-1} + \cdots + a_n$ 是具有实数系数的奇数次数 $n$ ($a_0 \neq 0$) 的多项式，我们可以将 $x \neq 0$ 写为 $f(x) = a_0 x^n g(x)$，其中
+对于证明，足以确定 (i) $\mathbf{R}$ 中的每个元素 $\geq 0$ 都有一个 *平方根*，并且 (ii) 系数在 $\mathbf{R}$ 中的 *奇数* 次数的每个多项式有 *至少一个根*在$\mathbf{R}$。其中第一个断言已在章IV, § 3, no. 3中得到证明。对于第二个，如果 $f(X) = a_0 X^n + a_1 X^{n-1} + \cdots + a_n$ 是具有实数系数的奇数次数 $n$ ($a_0 \neq 0$) 的多项式，我们可以将 $x \neq 0$ 写为 $f(x) = a_0 x^n g(x)$，其中
 
 $$
 g(x) = 1 + \frac{a_1}{a_0 x} + \cdots + \frac{a_n}{a_0 x^n}
 $$
 
-趋于$+1$，因为$x$趋于$+\infty$或$-\infty$。因此，存在数$a > 0$，使得$f(a)$具有$a_0$的符号，并且$f(-a)$具有$-a_0$的符号；
+趋于 $+1$，因为 $x$ 趋于 $+\infty$ 或 $-\infty$。因此，存在数$a > 0$，使得$f(a)$具有$a_0$的符号，并且$f(-a)$具有$-a_0$的符号；
 
 因此根据 Bolzano 的定理 (章 IV, § 6, no. 1, 定理 2)，$f$ 在 $[—a, a]$ 中至少有一个根。
 
 #### 注 1 {#top-viii-s1-n1-rem-1 .statement tag=0BZX}
 
-利用域$\mathbf{C}$的拓扑性质，可以在不援引有序域理论的情况下证明定理1，其定义如下（no. 2）；请参阅 § 2、习题 2 以及级数的部分，专门用于代数拓扑，其中 d’Alembert-Gauss 的定理将显示为次数的结果的推论映射。
+利用域$\mathbf{C}$的拓扑性质，可以在不援引有序域理论的情况下证明定理1，其定义如下（no. 2）；请参阅§ 2、习题 2 以及级数的部分，专门用于代数拓扑，其中达朗贝尔-高斯的定理将显示为映射的次数结果的推论。
 
 #### 注 2 {#top-viii-s1-n1-rem-2 .statement tag=0BZY}
 
-由于 $\mathbf{C}$ 的次数 2 大于 $\mathbf{R}$，因此$\mathbf{C}$ 是同构之前，除了 $\mathbf{R}$ 本身之外的 $\mathbf{R}$ 的唯一代数扩张，并且不包含域在 $\mathbf{C}$ 中，包含于 $\mathbf{R}$，$\mathbf{R}$ 和 $\mathbf{C}$ 除外。
+由于 $\mathbf{C}$ 的次数 2 大于 $\mathbf{R}$，因此$\mathbf{C}$ 是同构以内的 $\mathbf{R}$ 除了 $\mathbf{R}$ 本身以外的唯一代数扩张，并且 $\mathbf{C}$ 中不包含域，其中包含 $\mathbf{R}$，$\mathbf{R}$ 和 $\mathbf{C}$ 除外。
 
 我们知道$\mathbf{R}$可以与$\mathbf{C}$的子域等同，并且每个$z \in \mathbf{C}$都可以唯一地写成形式$x + iy$，其中$x$和$y$是实数； $x$称为$z$的实部分，记为$\Re(z)$； $y$ $z$ 的虚数部分，记为$\Im(z)$。 形式 $iy$（$y$实数）中的复数称为纯虚数。 关系 $x + iy = 0$（$x, y$实数）相当于$x = 0$和$y = 0$。
 
@@ -110,15 +110,15 @@ $$
 
 实平面 $\mathbf{R}^2$ 到 $\mathbf{C}$ 的映射 $(x, y) \to x + iy$ 是*双射的*；通过这个双射，我们可以*迁移*到$\mathbf{R}^2$的$\mathbf{C}$拓扑（cf.章VI, § 1, no. 5）。因此在$\mathbf{C}$上定义的拓扑与$\mathbf{C}$（章III, § 6, no. 7）的域结构*相容的*，因为它与$\mathbf{C}$（章VI, § 1, no. 5）的环结构兼容，并且， (3)、$1/z$在$\mathbf{C}$中0的补$\mathbf{C}^*$上连续。
 
-如果我们赋予集合$\mathbf{C}$这个拓扑和之前定义的域结构（no. 1，定义1），我们就在$\mathbf{C}$结构上定义了一个*拓扑域* （章III, § 6, no. 7）；每当我们谈到$\mathbf{C}$中的拓扑时，它的意思总是上面的拓扑。
+如果我们赋予集合$\mathbf{C}$这个拓扑和之前定义的域结构（no. 1，定义1），我们就在$\mathbf{C}$结构上定义了一个*拓扑域* （章III, § 6, no. 7）；每当我们谈到拓扑或$\mathbf{C}$时，它的意思总是上面的拓扑。
 
 以后我们一般将*认同* 集合 $\mathbf{C}$和$\mathbf{R}^2$视为拓扑空间；然后，$\mathbf{C}$的子域$\mathbf{R}$与$\mathbf{R}^2$的横坐标一致，因此称为*实轴*；同样，纵坐标称为*虚轴*（注，这*不是*$\mathbf{C}$的子域）。原点为 0、方向比为 $(1, 0)$（用 $\mathbf{R}_+$ 标识）的射线称为*正实半轴*；具有相同原点和方向比 $(-1, 0)$ 的相反射线称为*负实半轴*。
 
-出于图形说明的目的，我们使用$\mathbf{R}^2$（在初等解析几何中众所周知）的表示和点平面，在该平面中绘制了两个垂直坐标轴，分别代表$\mathbf{C}$的实轴和虚轴（图7）。
+为了便于图示，我们使用 $\mathbf{R}^2$ 的表示（在初等解析几何中众所周知）和点的平面，其中绘制了两个垂直的坐标轴，分别代表 $\mathbf{C}$ 的实轴和虚轴（图 7）。
 
-与每个拓扑域一样，具有复系数的$n$复变量的每个*有理函数*在$\mathbf{C}^n$的每个点处都是*连续的，此时分母不会消失。
+与每个拓扑域一样，具有复数系数的$n$复变量的每个*有理函数*在$\mathbf{C}^n$的每个点处都是*连续的，此时分母不会消失。
 
-![A 图表显示复平面，轴标记为 x 和 y，点标记为 z = x + iy](https://i.imgur.com/3Q5z5QG.png)
+![图表显示复平面，轴标记为 x 和 y，点标记为 z = x + iy](https://i.imgur.com/3Q5z5QG.png)
 
 图 7.
 
@@ -138,7 +138,7 @@ $$
 |z_0^{-1} - z^{-1}| = |z|^{-1} \cdot |z - z_0| \cdot |z_0|^{-1}.
 $$
 
-### 3.乘法群$\mathbf{C}^*$
+### 3. 乘法群$\mathbf{C}^*$
 
 从章III, § 6, no. 7可知，非零复数在乘法群$\mathbf{C}^*$上诱导的拓扑与$\mathbf{C}^*$的群结构兼容。由于$\mathbf{C}^*$在$\mathbf{C}$中开路，因此$\mathbf{C}^*$是局部紧拓扑群（章I, § 9, no. 7，命题13），因此是完备的（相对于乘法均匀性；cf. 章III, § 6, no. 8、命题8)。 实数$> 0$的乘法群$\mathbf{R}_+^*$是$\mathbf{C}^*$的闭子群。 另一个子群是值 1 的复数的集合 $\mathbf{U}$，它与$\mathbf{R}^2$ 的单位圆$S_1$ 一致，因此是紧凑的群。此外：
 
@@ -150,7 +150,7 @@ $$
 
 拓扑群 $\mathbf{R}_+^*$ 已知与加法群 $\mathbf{R}$ (章 V, § 4, 定理 1) 同构的；因此，拓扑群$\mathbf{C}^*$的研究被简化为$\mathbf{U}$的研究，我们将在§ 2中考虑。
 
-### 4.四元数的除法环
+### 4. 四元数的除法环
 
 从定理 1 可以得出，域 $\mathbf{R}$ 是极大有序域，因此有限秩在 $\mathbf{R}$ 上的唯一非交换除法环是（直到同构）四元数除法环 $\mathbf{R}$；它用$\mathbf{H}$表示，称为实四元数的除法环（或者简称为四元数的除法环，不用担心混淆）。由于$\mathbf{H}$是秩 4超过域$\mathbf{R}$，我们可以在$\mathbf{H}$上的定义拓扑同胚于$\mathbf{R}^4$（章VI, § 1, no. 5）。准确地说，我们通常将认同$\mathbf{H}$和$\mathbf{H}$的典范基的$\mathbf{R}^4$、元素$i, i, j, k$分别与$\mathbf{R}^4$的典范基的向量、$e_0, e_1, e_2, e_3$进行识别。
 
@@ -199,4 +199,4 @@ The multiplicative group $\mathbf{H}^*$ of non-zero quaternions is a topological
 
 ### 习题 {#top-viii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

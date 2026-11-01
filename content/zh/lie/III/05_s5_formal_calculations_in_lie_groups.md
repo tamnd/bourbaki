@@ -29,16 +29,16 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: dd32a4ec500d50225d01747ea4d3d90e499d1565e3cece9978fbb101e7bd2336
+content_sha256: 08fddbafdeefea2595d9cfcf83597eb6173b6f6d0f9d6a34dbe5d311d495659f
 translated_from: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
 translation_method: google
 source_content_sha256: 11ac709b8f3f88dc9c56e0725f4895fcc0f9592e0b472ff993cd89dad5d027d2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: bca7a58df55159514e347fe8bc29d8d7197a137543606bc4664334a604d88f1d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 李群中的正式计算
@@ -51,7 +51,7 @@ $$
 
 在本§中，G表示有限维$n$的李群胚芽； 基域 $K$ 假定为特征零。我们通过图表一劳永逸地认同，G中$e$的开邻域和$K^n$中0的开邻域U，因此$e$被识别为0。对于U中的$x, y$和$n \in \mathbf{Z}$，$x.y$表示G 中$x$和$y$的乘积和$x^{[m]}$$x$的第m个幂（当它们被定义时）。 $x \in U$的坐标用$x_1, x_2, \ldots, x_n$表示。
 
-### 1.系数$c_{\alpha \beta \gamma}$
+### 1. 系数 $c_{\alpha \beta \gamma}$
 
 令$\Omega$为$(x, y) \in U \times U$的集合，使得$x.y$被定义且属于为U。则$\Omega$在$U \times U$中开，且$\Omega$的映射$(x, y) \mapsto x.y$在U中是解析的。因此，$z = x.y$的坐标$z_1, \ldots, z_n$承认展开作为关于$x_1, \ldots, x_n, y_1, \ldots, y_n$的幂原点的积分级数。因此，存在定义明确的常数 $c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K$，使得
 $$
@@ -94,7 +94,7 @@ $$
 c_{\alpha, \beta, \gamma} = 0 \quad \text{if } |\alpha| + |\beta| < |\gamma|
 $$
 
-and that the terms of total degree $|\gamma|$ in the expansion of $z^\gamma$ are also those of $(x_1 + y_1)^{\gamma_1}(x_2 + y_2)^{\gamma_2} \ldots (x_n + y_n)^{\gamma_n} = \sum_{\alpha + \beta = \gamma} ((\alpha, \beta)) x^\alpha y^\beta$ (cf. *可微分和解析流形*、R、记号和约定）。 因此：
+and that the terms of total degree $|\gamma|$ in the expansion of $z^\gamma$ are also those of $(x_1 + y_1)^{\gamma_1}(x_2 + y_2)^{\gamma_2} \ldots (x_n + y_n)^{\gamma_n} = \sum_{\alpha + \beta = \gamma} ((\alpha, \beta)) x^\alpha y^\beta$ (cf. *Differentiable and Analytic Manifolds*, R, Notation and conventions). 因此：
 
 (8)
 $$
@@ -160,7 +160,7 @@ $$
 （三）$$ y^{[-1]}.x.y \equiv x + [x, y] \mod \deg 3 $$
 （四）$$ x^{[-1]}.y^{[-1]}.x.y \equiv [x, y] \mod \deg 3 $$
 （五）$$ x.y.x^{[-1]}.y^{[-1]} \equiv [x, y] \mod \deg 3. $$
-（在（i）中，$x^{[-1]}$当然代表函数$x \mapsto x^{[-1]}$作为关于原点的积分级数的展开；其他公式可以类似地解释。）
+（在（i）中，$x^{[-1]}$当然代表函数$x \mapsto x^{[-1]}$的展开作为关于原点的级数积分；其他公式可以类似地解释。）
 令 $g_1$ 和 $g_2$ 为次数 1 和 2 的 $x^{[-1]}$ 的齐次分量。那么
 $$
 0 = x.x^{[-1]} \\
@@ -199,7 +199,7 @@ $$
 $$
 从而（四）。 (v)的证明是类似的。
 
-### 3.幂
+### 3. 幂
 
 考虑 G 的 j 点：
 $$
@@ -342,7 +342,7 @@ $$
 
 (5) If $\mathbf{K}$ is of characteristic $> 0$, the results of nos. 1 and 2 remain true, provided $e_\alpha$, in no. 2, is defined by $\langle e_\alpha, \sum_\beta \lambda_\beta x^\beta \rangle = \lambda_\alpha$. 在no. 3中，如果$\psi_j$如上定义，则论证再次证明$x^{[t]} = \sum_{i=1}^\infty \binom{t}{i} \psi_i(x)$ if $t \in \mathbf{N}$。
 
-### 4.指数
+### 4. 指数
 
 令 $E(x)$ 为 $G$ 的指数映射作为关于 0 的积分级数的展开。 令 $L(x)$ 为 $G$ 的单射指数映射的倒数映射作为关于 0 的积分级数的展开。 由于 0 处与任意指数映射的切线映射是 $L(G)$、$E(x) \equiv x \mod \deg 2$ 和 $L(x) \equiv x \mod \deg 2$ 的恒等式。 由于$x$的$E(L(x)) = L(E(x))$足够接近0，因此正式的幂级数$E$和$L$使得$E(L(X)) = L(E(X)) = X$。 类似的论证表明
 $$
@@ -408,8 +408,8 @@ $$
 
 *对于 G 的图表曾经是规范的，$\psi_j = 0$ 对于 $j \geq 2$ 是充分必要的。*
 
-命题 3 就足够了。假设图表是规范的，并且$\psi_i = 0$ 代表$2 \leq i < n$。然后$nx = x^{[n]} = \sum_{i=0}^n \binom{n}{i} \psi_i(x) = nx + \psi_n(x)$，从而$\psi_n = 0$。因此，$\psi_j = 0$ 对应$j \geq 2$，归纳对应$j$。
+命题 3 就足够了。假设图表是规范的，并且 $\psi_i = 0$ 适合 $2 \leq i < n$。然后$nx = x^{[n]} = \sum_{i=0}^n \binom{n}{i} \psi_i(x) = nx + \psi_n(x)$，从而$\psi_n = 0$。因此，$j$ 上的归纳为$j \geq 2$ $\psi_j = 0$。
 
-### 习题{#lie-iii-s5-exercises}
+### 习题 {#lie-iii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

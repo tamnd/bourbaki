@@ -12,16 +12,16 @@ pdf_pages: 0167-0171, 0268-0269
 extraction: native
 statements: 8
 exercises: 7
-content_sha256: ff5eff7fe411642a92ada1eb87365ecca3828e8d1ef8b97f549e3a0bbdf7f2c7
+content_sha256: 123eee2dce3033133abe884a33350189ec337d7602bb8a66b9b20388b21c9502
 translated_from: content/en/lie/VIII/10_s10_maximal_subalgebras_of_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 345f66620b2c4fae05d0eb5d76aa4f165ea7875de6e8bd6a97f18302eec6a845
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a2408c08112a7ae28ad8f5f8476b612a00072d874b942020ac4b44bb54cacf6f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 10。 极大子代数 / 半单李代数
@@ -134,8 +134,8 @@ $$
 
 #### 推论{#lie-viii-s10-n0-cor-1 .statement tag=016S}
 
-如果 $k$ 是代数封闭的，则 $\mathfrak{g}$ 的每个最大可解子代数都是博雷尔子代数。
+如果 $k$ 是代数封闭的，$\mathfrak{g}$ 的每个最大可解子代数都是博雷尔子代数。
 
 ### 习题{#lie-viii-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

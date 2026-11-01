@@ -37,16 +37,16 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: a4121c223f90d5d8d9b5dbafc2a4a41d2e5464904fe77cb82eacedd2bac66d08
+content_sha256: 63649acbd1a33a028f9dc8e3858fedea210615a5cdc2f6bc3a262ed5a15a77d6
 translated_from: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
 translation_method: google
 source_content_sha256: a4785cb8d75380fad37a9781d0116e8b216b652f0d5b68e842a5a1dfdd3864bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7c14a099f44de88c4b9de3a438f586d6c1482718383bb8355ebe061862532708
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。 李群超越超距域
@@ -59,7 +59,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令 G 为李群 germ 和单位元素 e。 G 的谎言子群的 G 由……组成中存在 e 的开邻域的基系统。
 
-令 L(G) 被赋予与其拓扑兼容的范数，并且对于 L(G) 中的所有 x、y，$\| [x, y] \| \leq \| x \| \| y \|$。令 G_1 为由 L(G) 定义的李群。通过§ 4, no. 2、定理2，G 和 G_1 局部同构。然后应用§ 4, no. 2、引理 3 (iii) 即可。
+令 L(G) 被赋予范数与其拓扑兼容，并且使得$\| [x, y] \| \leq \| x \| \| y \|$ 对于L(G) 中的所有 x, y。令 G_1 为由 L(G) 定义的李群。通过§ 4, no. 2、定理2，G 和G_1 局部同构。然后应用§ 4, no. 2、引理 3 (iii) 即可。
 
 #### 定理 1 {#lie-iii-s7-thm-1 .statement tag=0AH3}
 
@@ -69,9 +69,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定理 2 {#lie-iii-s7-thm-2 .statement tag=0AH4}
 
-设 G 为李群，并且 h 为 L(G) 的谎言子代数，承认拓扑补充。 G 存在一个谎言子群 H，使得 L(H) = h。如果 H_1 和 H_2 是 G 的谎言子群，使得 L(H_1) = L(H_2) = h，则 H_1 \cap H_2 在 H_1 和 H_2 中开。
+设 G 为李群，并且 h 为 L(G) 的谎言子代数，承认拓扑补充。 G 存在一个谎言子群 H，使得 L(H) = h。如果 H_1 和 H_2 是 G 的谎言子群，使得 L(H_1) = L(H_2) = h，则 H_1 \cap H_2 在 H_1 和 H_2 中开集。
 
-第一个断言源自命题1和§ 4, no. 2，定理3。第二个是§ 4, no. 2，定理3的特殊情况。
+第一个断言源自命题1和§ 4, no. 2，定理3。第二个§ 4, no. 2，定理3的特殊情况。
 
 #### 定理 3 {#lie-iii-s7-thm-3 .statement tag=0AH5}
 
@@ -85,7 +85,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 命题 2 {#lie-iii-s7-prop-2 .statement tag=0AH6}
 
-设 G 为李群，且有一个 L(G) 的谎言子代数，承认拓扑补充。以下条件是等效的：
+设 G 为李群，并且有一个 L(G) 的谎言子代数，承认拓扑补充。以下条件是等效的：
 
 (i) 存在 G 的开子群 G' 和 G' 的正规李子群 H，使得 L(H) = h。
 
@@ -95,7 +95,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 假设 h 是 L(G) 的理想。存在李群 F 使得 L(F) = L(G)/h (定理 1)。令h为L(G)到L(F)的规范态射。到定理 3 (i)，存在 G 的开子群 G' 和 G' 的李群态射 $\phi$ 进入 F，使得 $L(\phi) = h$。通过§ 3, no. 8，$\phi$的核 H是G'和$L(H) = \mathrm{Ker}\ L(\phi) = \mathrm{Ker}\ h = h$的谎言子群。最后，从 $H = \mathrm{Ker}\ \phi$ 开始，H 在 G' 中是正规的。
 
-### 2.指数映射
+### 2. 指数映射
 
 #### 命题 3 {#lie-iii-s7-prop-3 .statement tag=0AH7}
 
@@ -127,9 +127,9 @@ $$
 
 #### 定义 1 {#lie-iii-s7-def-1 .statement tag=0AH9}
 
-设 r 为整数 $\geq 0$。 K 上维数 r 的标准群是李群 G，具有以下属性：
-(i) G 的基础解析流形为 $m \times m \times \cdots \times m$ (r 因子)；
-(ii) 在 2r 个变量中存在形式的幂级数 F，其系数在 $A^r$ 中，没有常数项，使得对于 G 中的所有 $x, y$ 都有 $x.y = F(x, y)$。
+设 r 为整数 $\geq 0$。 K 上的维数 r 的标准群是李群 G，具有以下属性：
+(i) G 的基础解析流形是 $m \times m \times \cdots \times m$ (r 因子)；
+(ii) 在 2r 个变量中存在形式的幂级数 F，其系数为 $A^r$，没有常数项，使得 $x.y = F(x, y)$ 对于 G 中的所有 $x, y$。
 
 那么G的$0.0 = 0$和单位元素就是$m \times m \cdots \times m$的原点。
 
@@ -139,7 +139,7 @@ L(G) 将用 K' 标识。由§ 5，公式 (13)，L(G) 的结构相对于典范基
 
 #### 例 {#lie-iii-s7-n3-exa-1 .statement tag=0AHA}
 
-令 G = 1 + M_n(m)，这是 M_n(K) 的开子集。如果 x ∈ G，则 det x ∈ 1 + m，因此 G ⊂ GL(n, K)。显然 GG ⊂ G。如果 x = 1 + y 且 y ∈ M_n(m)，矩阵的逆计算首先证明 x^{-1} ∈ M_n(A)；如果我们写 x^{-1} = 1 + y'，则 y + y' + yy' = 0，因此 y' ∈ M_n(m)，因此 x^{-1} ∈ G。因此 G 是 GL(n, K) 的开子群。我们通过映射 (\delta_{ij} + y_{ij}) ↦ (y_{ij}) 来认同 G 和 m^{n^2}。显然 G 是标准群。
+设G = 1 + M_n(m)，这是M_n(K)的开子集。如果 x ∈ G，则 det x ∈ 1 + m，因此 G ⊂ GL(n, K)。显然 GG ⊂ G。如果 x = 1 + y 且 y ∈ M_n(m)，矩阵的逆计算首先证明 x^{-1} ∈ M_n(A)；如果我们写 x^{-1} = 1 + y'，则 y + y' + yy' = 0，因此 y' ∈ M_n(m)，因此 x^{-1} ∈ G。因此 G 是 GL(n, K) 的开子群。我们通过映射 (\delta_{ij} + y_{ij}) ↦ (y_{ij}) 来认同 G 和 m^{n^2}。显然 G 是标准群。
 
 #### 定理 4 {#lie-iii-s7-thm-4 .statement tag=0AHB}
 
@@ -165,9 +165,9 @@ $$c'_{\alpha \beta i} = \lambda^{-|\alpha|-|\beta|+1} c_{\alpha \beta i}, \qquad
 
 $$|c'_{\alpha \beta i}| \leq 1, \qquad |d'_{\alpha i}| \leq 1$$
 
-即 c'_{\alpha \beta i} ∈ A 和 d'_{\alpha i} ∈ A;另一方面 G' ⊃ m × m × ... × m。则 m × m × ... × m 是 G' 的开子群，并且是标准群。
+即 c'_{\alpha \beta i} ∈ A 和 d'_{\alpha i} ∈ A;另一方面 G' ⊃ m × m × ... × m。那么 m × m × ... × m 是 G' 的开子群，并且是标准群。
 
-### 4. 标准群的过滤
+### 4. 标准过滤群
 
 我们再次使用定义 1 的记号。我们选择数 $a > 1$ 以及 $K$ 的实际估值 $v$，这样 $|x| = a^{-v(x)}$ 对于所有 $x \in K$ (交换代数， 章VI, § 6、命题3)。如果$a$是包含在$m$中的$A$的非零（因此开）理想，则让$G(a)$表示$G$的元素的集合，其坐标属于到$a$。如果$\lambda \in \mathbf{R}$，则令$a_\lambda$（或$a_\lambda^+$）表示$x \in K$的集合，使得$v(x) \geq \lambda$（或$v(x) > \lambda$）；然后$a_0 = A$，$a_0^+ = m$。对于$x = (x_1, \ldots, x_r) \in G$，我们应该写
 
@@ -454,4 +454,4 @@ $E'(h(x, y))$是通过将$E(H(X, Y))$中的$X$替换为$x$、将$Y$替换为$y$�
 
 ### 习题 {#lie-iii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

@@ -38,21 +38,21 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: d7588aa43c23ac0d4896da90e9f007ea0fa7a9fe7bebac1bb1d5ba61eb887b02
+content_sha256: 8bfb0ab6520a2aa4dd38ca55360283b271ebf17c47eac8f42ac759a328527fe2
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
 translation_method: google
 source_content_sha256: 529e0877ab160d3b3e3d67615a04958e997ebf0f3443b7d1ff61efd5c0edeeb3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: d1dfd9bd0574105e93b0777eb20a79c3fb8e06c5b0240b25baead9fdd8c65599
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.良序集
+## 2. WELL-ORDERED SETS
 
-### 1. 段的良序集
+### 1. 段良序集
 
 关系 $\mathrm{R}\{x, y\}$ 被认为是$x$和$y$之间的*良序关系*，如果R是$x$和$y$之间的序关系，并且如果对于每个非空集合E，其中$\mathrm{R}\{x, y\}$诱导序关系（即，$x \in \mathrm{E}$暗示$\mathrm{R}\{x, x\}$；cf.§ 1, no. 1），E，按此关系排序，具有*至少元素*。
 
@@ -126,17 +126,17 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令 $\mathrm{G}_\alpha$ 为$\mathrm{X}_\alpha$ 上给定排序的图。如果 G 是 E 上的一个排序的图，其中每个 $\mathrm{X}_\alpha$ 都有诱导，而图为 $\mathrm{G}_\alpha$ 的排序，那么对于每个 $\alpha \in \mathrm{A}$，我们必须有 $\mathrm{G}_\alpha \subset \mathrm{G}$；因此 G 包含 $\bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$。另一方面，对于E的元素的每个对$(x, y)$，存在假设指标$\alpha \in \mathrm{A}$，使得$x \in \mathrm{X}_\alpha$和$y \in \mathrm{X}_\alpha$；如果$(x, y) \in \mathrm{G}$，我们有$(x, y) \in \mathrm{G}_\alpha$，所以$\mathrm{G} \subset \bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$。因此，如果 E 上所需的排序存在，则其图必然为 $\mathrm{G} = \bigcup_{\alpha \in \mathrm{A}} \mathrm{G}_\alpha$。仍有待证明的是，这个集合满足条件或引理。由于 $\mathrm{G}_\beta \cap (\mathrm{X}_\alpha \times \mathrm{X}_\alpha) = \mathrm{G}_\alpha$ 如果 $\mathrm{X}_\alpha \subset \mathrm{X}_\beta$，我们对所有 $\alpha \in \mathrm{A}$ 都有 $\mathrm{G} \cap (\mathrm{X}_\alpha \times \mathrm{X}_\alpha) = \mathrm{G}_\alpha$；另一方面，从假设可以得出，E 属于的任意三个元素 $x$、$y$、$z$ 都可以推导出同一个$\mathrm{X}_\alpha$。因此$(x, y) \in \mathrm{G}$在E上是序关系，引理得证。
 
-¶ 我们现在选取命题 3 中的证明。首先让我们证明每个 $\mathrm{X}_\iota$ 都是 E 的一段。事实上，如果 $x \in \mathrm{X}_\iota$、$y \in \mathrm{E}$ 和 $y \leqslant x$，则存在指标 $\varkappa$，使得 $\mathrm{X}_\iota \subset \mathrm{X}_\varkappa$ 和$y \in \mathrm{X}_\varkappa$；因为假设$\mathrm{X}_\iota$是$\mathrm{X}_\varkappa$的一个片段，所以我们有$y \in \mathrm{X}_\iota$，这证明了断言。同样推理证明，对于每个$x \in \mathrm{X}_\iota$，$\mathrm{X}_\iota$中端点为$x$的线段与E中的区间$]\leftarrow, x[$相同。接下来让我们证明E是良序的。如果 H 是 E 的非空子集，则有指标 $\iota \in \mathrm{I}$ 使得 $\mathrm{H} \cap \mathrm{X}_\iota \neq \emptyset$；如果$a$是$\mathrm{X}_\iota$中$\mathrm{H} \cap \mathrm{X}_\iota$的最小元素，则$a$也是E中H的最小元素。也就是说，如果$x \in \mathrm{H}$，则存在指标$\varkappa \in \mathrm{I}$使得$\mathrm{X}_\iota \subset \mathrm{X}_\varkappa$和$x \in \mathrm{X}_\varkappa$；我们不能有$x < a$，因为区间$]\leftarrow, a[$包含在$\mathrm{X}_\iota$中，因此我们有$x \geqslant a$，因为$\mathrm{X}_\varkappa$是全序的。
+¶ 我们现在选取命题 3 中的证明。首先让我们证明每个 $\mathrm{X}_\iota$ 都是 E 的一段。事实上，如果 $x \in \mathrm{X}_\iota$、$y \in \mathrm{E}$ 和 $y \leqslant x$，则存在指标 $\varkappa$，使得 $\mathrm{X}_\iota \subset \mathrm{X}_\varkappa$ 和$y \in \mathrm{X}_\varkappa$；因为假设$\mathrm{X}_\iota$是$\mathrm{X}_\varkappa$的一段，所以我们有$y \in \mathrm{X}_\iota$，这证明了断言。同样推理证明，对于每个$x \in \mathrm{X}_\iota$，$\mathrm{X}_\iota$中端点为$x$的线段与E中的区间$]\leftarrow, x[$相同。接下来让我们证明E是良序的。如果 H 是 E 的非空子集，则有指标 $\iota \in \mathrm{I}$ 使得 $\mathrm{H} \cap \mathrm{X}_\iota \neq \emptyset$；如果$a$是$\mathrm{X}_\iota$中$\mathrm{H} \cap \mathrm{X}_\iota$的最小元素，则$a$也是E中H的最小元素。也就是说，如果$x \in \mathrm{H}$，则存在指标$\varkappa \in \mathrm{I}$使得$\mathrm{X}_\iota \subset \mathrm{X}_\varkappa$和$x \in \mathrm{X}_\varkappa$；我们不能有$x < a$，因为区间$]\leftarrow, a[$包含在$\mathrm{X}_\iota$中，因此我们有$x \geqslant a$，因为$\mathrm{X}_\varkappa$是全序的。
 
 ¶ 最后，我们必须证明 E 的一段（除了 E 本身之外）是 $\mathrm{X}_\iota$ 之一的段；这是前面参数的直接的推论，因为这样的段是形式$]\leftarrow, x[$（命题1）并且从$x$属于到一些$\mathrm{X}_\iota$。
 
-### 2.超限归纳原理
+### 2. 超限归纳原理
 
 #### 引理 2 {#ens-iii-s2-lem-2 .statement tag=03K0}
 
-设$E$为良序集，并令$\mathfrak{S}$为$E$的段的集合，具有以下性质： (1) 段属于到$\mathfrak{S}$的每一个并属于至 $\mathfrak{S}$； (2) 如果$S_x\in\mathfrak{S}$，则$S_x\cup\{x\}\in\mathfrak{S}$。然后是$E$属于到$\mathfrak{S}$的每一段。
+令$E$为良序集，并令$\mathfrak{S}$为$E$的段的集合，具有以下性质： (1) 段属于到$\mathfrak{S}$的每一个并属于至$\mathfrak{S}$； (2) 如果$S_x\in\mathfrak{S}$，则$S_x\cup\{x\}\in\mathfrak{S}$。然后是$E$属于到$\mathfrak{S}$的每一段。
 
-假设$E$中有段不属于属于到$\mathfrak{S}$，令$S$为其中的最小的（no. 1，命题2）。如果$S$没有最大元素，则$S$是$S$的段的并与$S$本身不同，而这些段属于凭借定义到$\mathfrak{S}$ $S$；因此$S\in\mathfrak{S}$，这是荒谬的。另一方面，如果$S$有最大元素$a$，则$S=S_a\cup\{a\}$，并且由于$S_a$是$S$的一段，与$S$不同，所以我们有$S_a\in\mathfrak{S}$；但还有$S\in\mathfrak{S}$，这又是荒谬的。
+假设$E$中有段不属于属于到$\mathfrak{S}$，令$S$为其中的最小的（no. 1，命题2）。如果$S$没有最大元素，则$S$是与$S$本身不同的$S$的段的并，并且这些段属于凭借定义到$\mathfrak{S}$ $S$；因此$S\in\mathfrak{S}$，这是荒谬的。另一方面，如果$S$有最大元素$a$，则$S=S_a\cup\{a\}$，并且由于$S_a$是$S$的一段，与$S$不同，所以我们有$S_a\in\mathfrak{S}$；但还有$S\in\mathfrak{S}$，这又是荒谬的。
 
 ¶ 为了更方便，我们将把自己置于一个理论 $\mathscr{T}$ 中，其中 $E$ 是集合 *良好排序*，由关系写成 $x\leq y$。然后我们有以下判据 ：
 
@@ -176,7 +176,7 @@ $$f_\mathrm{S}(x) = \mathrm{T}\{f_{\mathrm{S}_x}\}$$
 
 ¶ 通常，此标准适用于存在集合 F 的情况，使得*对于 * E 段的每映射 h *到 * F 的子集 *我们有* $\mathrm{T}\{h\} \in \mathrm{F}$。那么通过应用 C60 得到的集合 U 就是* F 的*子集。对于上面使用的记号，令$\mathfrak{S}_2$ 为E 的段 S 的$\mathfrak{S}_1$ 由……组成的子集，使得$\mathrm{U_S} \subset \mathrm{F}$。显然，段属于到$\mathfrak{S}_2$的每一个并也是属于到$\mathfrak{S}_2$；另一方面，F 上的假设意味着如果 $\mathrm{S}_x \in \mathfrak{S}_2$，我们有 $\mathrm{S}_x \cup \{x\} \in \mathfrak{S}_2$。 断言现在源自引理 2。
 
-### 3.策梅洛定理
+### 3. ZERMELO'S THEOREM
 
 #### 引理 3 {#ens-iii-s2-lem-3 .statement tag=03K1}
 
@@ -214,7 +214,7 @@ $$\mathrm{M} = \bigcup_{\mathrm{G} \in \mathfrak{M}} \mathrm{pr}_1 \mathrm{G}.$$
 
 令 $\mathfrak{S} = \mathfrak{P}(\mathrm{E}) - \{\mathrm{E}\}$ 为 E 中除 E 本身以外的所有子集中的集合。对于每个$\mathrm{X} \in \mathfrak{S}$让$p(\mathrm{X}) = \tau_x \ (x \in \mathrm{E} - \mathrm{X})$；因为关系$\mathrm{X} \in \mathfrak{S}$意味着$(\exists x)(x \in \mathrm{E} - \mathrm{X})$，所以我们有$p(\mathrm{X}) \in \mathrm{E} - \mathrm{X}$（章I, § 4, no. 1），因此有$p(\mathrm{X}) \notin \mathrm{X}$。因而，我们可以应用引理 3，因此在 E 的子集 M 上存在良序，使得 $\mathrm{M} \notin \mathfrak{S}$；但E中唯一不存在属于到$\mathfrak{S}$的子集是E本身，定理得证。
 
-### 4.归纳集合
+### 4. INDUCTIVE SETS
 
 #### 定义 3 {#ens-iii-s2-def-3 .statement tag=03K2}
 
@@ -228,7 +228,7 @@ $$\mathrm{M} = \bigcup_{\mathrm{G} \in \mathfrak{M}} \mathrm{pr}_1 \mathrm{G}.$$
 
 #### 例 2 {#ens-iii-s2-n4-exa-2 .statement tag=03T3}
 
-相对于关系$\subset$归纳的一个重要的子集集合例是集合A的子集映射图集合$\mathfrak{F}$到集合 B. 因为$\mathfrak{F}$是$\mathfrak{P}(\mathrm{A} \times \mathrm{B})$的子集，并且说$\mathfrak{F}$的子集$\mathfrak{G}$完全通过包含排序意味着$\mathfrak{G}$的元素是映射的图，这样，给定这些映射中的任意两个，一个是另一个的扩张。紧接着，$\mathfrak{G}$的集合的并是$\mathfrak{F}$的元素（章II, § 4, no. 6，命题7）。因此A入B的子集映射的集合$\Phi(\mathrm{A}, \mathrm{B})$相对于$u$和$v$之间的序关系“$v$扩展$u$”可归纳。
+相对于关系$\subset$归纳的一个重要的子集集合例是集合A的子集映射图集合$\mathfrak{F}$到集合 B. 因为$\mathfrak{F}$是$\mathfrak{P}(\mathrm{A} \times \mathrm{B})$的子集，并且说$\mathfrak{F}$的子集$\mathfrak{G}$完全通过包含排序意味着$\mathfrak{G}$的元素是映射的图，这样，给定这些映射中的任何两个，一个是另一个的扩张。紧接着，$\mathfrak{G}$的集合的并是$\mathfrak{F}$的元素（章II, § 4, no. 6，命题7）。因此A入B的子集映射的集合$\Phi(\mathrm{A}, \mathrm{B})$相对于$u$和$v$之间的序关系“$v$扩展$u$”可归纳。
 
 #### 例 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
 
@@ -244,19 +244,19 @@ $$\mathrm{M} = \bigcup_{\mathrm{G} \in \mathfrak{M}} \mathrm{pr}_1 \mathrm{G}.$$
 
 *让* E *是一个有序的集合，其中每个良序子集都在上面有界；那么* E *有极大元素.*
 
-如果$v$是X和$v \notin \mathrm{X}$的上界，我们可以说元素$v \in \mathrm{E}$是E的子集X的*严格上界*。令$\mathfrak{S}$为E的子集的集合，在E中具有严格的上界，并且对于每个$\mathrm{S} \in \mathfrak{S}$，将$p(\mathrm{S}) = \tau_v(v$是S$)$的严格上界；那么$p(\mathrm{S})$是S的严格上界。应用引理 3 of no. 3到$\mathfrak{S}$和$p$，我们看到存在E的子集M和M上的良序$\Gamma$，满足引理 3 中的条件；特别是，M 在 E 中没有严格的上界。此外，排序$\Gamma$ 与通过 E 的排序在 M 上导出的排序相同。对于 M 关系中“$y\in\Gamma\langle x\rangle$ 和 $x\ne y$”等价于 $x\in S_y$；并且由于$p(S_y)=y$是$S_y$的上界（相对于E上的排序），因此意味着E中的$x<y$。但这意味着M到E中的单射是严格递增的映射（M被赋予了$\Gamma$排序）；由于 M 是全序的，因此关系 $y\in\Gamma\langle x\rangle$ 和 $x\leq y$ 在 M 中是等价的（§ 1, no. 12，命题 11）。既然如此，E中存在M的假设上界$m$；但由于M没有严格的上界，因此$m$是E的极大元素。
+如果$v$是X和$v \notin \mathrm{X}$的上界，我们可以说元素$v \in \mathrm{E}$是E的子集X的*严格上界*。令$\mathfrak{S}$为E的子集的集合，在E中具有严格的上界，并且对于每个$\mathrm{S} \in \mathfrak{S}$，将$p(\mathrm{S}) = \tau_v(v$是S$)$的严格上界；那么$p(\mathrm{S})$是S的严格上界。应用引理 3 of no. 3到$\mathfrak{S}$和$p$，我们看到存在E的子集M和M上的良序$\Gamma$，满足引理 3 中的条件；特别是，M 在 E 中没有严格的上界。此外，$\Gamma$ 与由 E 上的排序在 M 上导出的结果相同。对于 M 关系中“$y\in\Gamma\langle x\rangle$ 和 $x\ne y$”等价于 $x\in S_y$；由于$p(S_y)=y$是$S_y$的上界（相对于E上的排序），因此意味着E中的$x<y$。但这意味着M到E中的单射是严格递增的映射（M被赋予了$\Gamma$排序）；由于 M 是全序的，因此关系 $y\in\Gamma\langle x\rangle$ 和 $x\leq y$ 在 M 中是等价的（§ 1, no. 12，命题 11）。既然如此，E中存在M的假设上界$m$；但由于M没有严格的上界，因此$m$是E的极大元素。
 
 #### 推论 1 {#ens-iii-s2-prop-4-cor-1 .statement tag=03K4}
 
 *令 E 为归纳有序集合，并令 a 为 E 的元素。则存在 E 的极大元素 m，使得 $m\geq a$。*
 
-由定义 3 可知，E 中元素 $x\geq a$ 的集合 F 是归纳性的，并且 F 的极大元素在 E 中也是最大的。
+由定义 3 可知，E 中元素 $x\geq a$ 的集合 F 是归纳性的，且 F 的极大元素在 E 中也是最大的。
 
 #### 推论 2 {#ens-iii-s2-prop-4-cor-2 .statement tag=03K5}
 
-*令 $\mathfrak{F}$ 为集合 E 的子集的集合，这样，对于 $\mathfrak{F}$ 的每个子集 $\mathfrak{G}$（按包含完全排序），并（分别为交） 集合 $\mathfrak{G}$ 属于至 $\mathfrak{F}$；那么$\mathfrak{F}$有一个最大（或最小）元素。*
+*令 $\mathfrak{F}$ 为集合 E 的子集的集合，这样，对于 $\mathfrak{F}$ 的每个子集 $\mathfrak{G}$（按包含完全排序），并（分别为交） 集合至 $\mathfrak{G}$ 属于至 $\mathfrak{F}$；那么$\mathfrak{F}$有一个最大（或最小）元素。*
 
-### 5.同构良序集
+### 5. 同构良序集
 
 #### 定理 3 {#ens-iii-s2-thm-3 .statement tag=03K6}
 
@@ -284,15 +284,15 @@ $$f(z)\leq g(z)<g(a)=f(z),$$
 
 #### 推论 1 {#ens-iii-s2-lem-4-cor-1 .statement tag=03K8}
 
-*只有良序集 E 的同构到 E 的一段上才是 E 的恒等映射到其本身。*
+*只有良序集 E 的同构在 E 的一段上才是 E 的恒等映射在其自身上。*
 
-将$F=E$放入定理3。
+将 $F=E$ 放入定理 3。
 
 #### 推论 2 {#ens-iii-s2-lem-4-cor-2 .statement tag=03K9}
 
 *设E、F为两个良序集。如果在 F 的线段 T 上存在 E 的同构 $f$，并且在 E 的线段 S 上存在 F 的同构 $g$，则我们必须有 $S=E$、$T=F$ 和 $g,f$ 互为逆。*
 
-对于 $g\circ f$ 来说，E 的同构到 E 的线段 $g(T)\subset S$ 上；根据推论1，我们有$g(T)=S=E$，$g\circ f$是E的恒等映射。同样，$f\circ g$是F的恒等映射，结果是从而。
+因为$g\circ f$是E的同构到E的线段$g(T)\subset S$上；根据推论1，我们有$g(T)=S=E$，$g\circ f$是E的恒等映射。同样，$f\circ g$是F的恒等映射，从而结果。
 
 #### 推论 3 {#ens-iii-s2-lem-4-cor-3 .statement tag=03KA}
 
@@ -300,16 +300,16 @@ $$f(z)\leq g(z)<g(a)=f(z),$$
 
 凭借定理 3 就足以证明在形式 $S_a$的A段上不存在E的同构$g$。如果存在，则$g$将是E的严格递增的映射进入E，使得$g(a)\in S_a$，在其他字中使得$g(a)<a$；但这不等式与……矛盾引理4（$f$为恒等映射）。
 
-### 6.字典积
+### 6. LEXICOGRAPHIC PRODUCTS
 
-令 $(E_\iota)_{\iota\in I}$ 成为有序集的族，由*有序* 集合 I 索引。考虑乘积集合$E=\displaystyle\prod_{\iota\in I}E_\iota$和关系
+令$(E_\iota)_{\iota\in I}$为有序集的族，由*有序*集合I索引。考虑乘积集合$E=\displaystyle\prod_{\iota\in I}E_\iota$和关系
 
 $$
 \text{``}x\in E\text{ and }y\in E,\text{ and for the least index }\iota\in I\text{ such that }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ we have }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y\text{''},
 $$
 
-我们用$R\{x,y\}$表示。显然，$R\{x,x\}$等价于$x\in E$，$R\{x,y\}$意味着$R\{x,x\}$和$R\{y,y\}$，$(R\{x,y\}\text{ and }R\{y,x\})$意味着$x=y$。而且很容易验证$(R\{x,y\}\text{ and }R\{y,z\})$蕴含$R\{x,z\}$（考虑至少指标$\iota\in I$，其中三个元素$\operatorname{pr}_{\iota}x$、$\operatorname{pr}_{\iota}y$、$\operatorname{pr}_{\iota}z$中至少有两个不相等）；因此$R\{x,y\}$是乘积集合E*上的*序关系。这个关系和它的排序定义被称为*字典式序关系*和$E$上的*字典式排序*（由$I$和$E_\iota$上的给定排序引起）；具有这种排序的集合 E 被称为有序集$(E_\iota)_{\iota\in I}$家族的*字典乘积*。如果每个 $E_\iota$ 都是“全序”的，则字典顺序的乘积也是“全序”的。
+我们用$R\{x,y\}$表示。显然，$R\{x,x\}$等价于$x\in E$，$R\{x,y\}$意味着$R\{x,x\}$和$R\{y,y\}$，$(R\{x,y\}\text{ and }R\{y,x\})$意味着$x=y$。而且很容易验证$(R\{x,y\}\text{ and }R\{y,z\})$蕴含$R\{x,z\}$（考虑至少指标$\iota\in I$，其中三个元素$\operatorname{pr}_{\iota}x$、$\operatorname{pr}_{\iota}y$、$\operatorname{pr}_{\iota}z$中至少有两个不相等）；因此$R\{x,y\}$是乘积集合E*上的*序关系。这个关系和它的排序定义被称为*字典序关系*和$E$上的*字典顺序*（由$I$和$E_\iota$上的给定排序引起）；具有这种排序的集合 E 被称为有序集$(E_\iota)_{\iota\in I}$家族的*字典乘积*。如果每个 $E_\iota$ 都是“全序”的，则字典顺序的乘积也是“全序”的。
 
 ### 习题{#ens-iii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

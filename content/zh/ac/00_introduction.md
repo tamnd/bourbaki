@@ -12,16 +12,16 @@ pdf_pages: 0017-0020
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d741334107d74a0a00f8447a32c209a2904a27785e17579a4b9d4ba6a3173fa9
+content_sha256: 129669b498908e81f0b4a493d790e646e5c898a137203995dd7dde6c347fdd49
 translated_from: content/en/ac/00_introduction.md
 translation_method: google
 source_content_sha256: 76b5a99586b68b13462663dc0c9b880af0d70ce65bdf4d0e0496ed1cda0fd86b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 224ebb1cba3431cac71e5e20c6e3eeb2b9b0e83def0c73797b56d7c8d4f61bea
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 介绍
@@ -42,7 +42,7 @@ $$
 
 11. *完备的&局部环*。 局部环 A 与域性质共享只有 *一个* 极大理想 m。 This fact is used to transform, to a certain extent, a problem on A-modules into an analogous problem on *vector spaces* by passing to the quotient ring $A/m$, as this latter is a field. 如果我们将例返回到丢番图系统 (*)，这个想法正是原理的“约简模K”，将方程转换为同余模。 $p$，这是从数理论的第一个作品开始自然发生的。
 
-既然如此，我们显然不能希望通过这种方式获得原始问题的完整结果，并且很快意识到，为了获得更精确的信息，不仅需要考虑模m的同余，而且对于任意整数$n > 0$，还需要考虑模$m^n$的“更高”同余。 It is thus found that, the larger $n$, the closer in some way the original problem is "approached" (in the case $A = \mathbf{Z}$ for example, the reason is that an integer $\neq 0$ cannot be divisible by *all* the powers $p^n$ of a given prime number $p$; this number will therefore make its presence felt in the reduction mod. $p^n$ provided $n$ is taken large enough). 这个想法的数学翻译包括考虑 A 环 *拓扑* (cf. *一般拓扑*、章III, § 6)，其中$m^n$形式是0的邻域的基本系统。 但是当我们有了例时，就解决了系统同余
+既然如此，我们显然不能希望通过这种方式获得原始问题的完整结果，并且很快意识到，为了获得更精确的信息，不仅需要考虑模m的同余，而且对于任意整数$n > 0$，还需要考虑模$m^n$的“更高”同余。 It is thus found that, the larger $n$, the closer in some way the original problem is "approached" (in the case $A = \mathbf{Z}$ for example, the reason is that an integer $\neq 0$ cannot be divisible by *all* the powers $p^n$ of a given prime number $p$; this number will therefore make its presence felt in the reduction mod. $p^n$ provided $n$ is taken large enough). 这个想法的数学翻译包括考虑 A 环 *拓扑* (cf. *General 拓扑*, 章 III, § 6)，其中 $m^n$ 形式邻域的基本系统为 0。 但是当我们有了例时，就解决了系统同余
 
 $$
 \text{P}_i(x_1, \ldots, x_m) \equiv 0 \ (\text{mod. } p^k) \qquad (1 \leq i \leq n)

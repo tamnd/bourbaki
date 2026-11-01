@@ -29,25 +29,25 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 548625ed5b0f80f5d67594e7080605c7b21a8f1c7deb8e502b4b45a933a5e59c
+content_sha256: 9333475f6ef06d381b70dd710eb6ac067f42908b304b72195dd29e0f36bde813
 translated_from: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
 translation_method: google
 source_content_sha256: e122c6b77c1c3a3f195f1e5d14b8ed8bb246e933209f2cbcd2975f972a3111ae
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7d860333c3b6d441e0974e4924225834839e996cc4122ac5b4daea47c5a3260d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 图表和正合序列
 
-### 1.图表
+### 1. 图表
 
-对于例，$A, B, C, D, E$ 为 5 个集合，从 $A$ 到 $B$，$f$ 为映射，从 $B$ 到 $C$，$h$，$g$ 映射映射从$D$到$E$，$u$映射从$B$到$D$以及$v$映射从$C$到$E$。为了总结这种情况，我们经常使用图表；对于例，上述情况总结如下
+对于例，$A, B, C, D, E$ 为 5 个集合，并令 $f$ 为映射，从 $A$ 到 $B$，$g$ 映射，从 $B$ 到 $C$，$h$ 映射从$D$到$E$，$u$映射从$B$到$D$以及$v$映射从$C$到$E$。为了总结这种情况，我们经常使用图表；对于例，上述情况总结如下
 
-(*) 除§ 4外，此章的结果仅取决于书籍I至VI。
+(*) 除§ 4外，章的结果仅取决于书籍I至VI。
 
 图表（集合理论，章II, § 3, no. 4）
 
@@ -70,7 +70,7 @@ $$
 
 在原理中，图表不是一个数学对象，而只是一个为了方便阅读论证而设计的图形。在实践中，图表经常被用作缩写符号，以避免命名所有正在考虑的集合和映射；因此，我们说“考虑图表（1）”而不是说“让A，B，C，D，E为五个集合...以及从C到E的$v$映射”；请参阅 no. 4 中命题 2 的例叙述。
 
-### 2.可交换图表
+### 2. 可交换图表
 
 对于例，考虑以下图表：
 
@@ -86,23 +86,23 @@ $$
 
 对于每条由段、图表的某个数、第一个线段的开头所代表的对应、映射、集合的箭头所示方向遍历到最后一个线段的结尾所代表的集合所组成的路径，即映射的合成由遍历的各个段表示。对于图表的每个顶点，对于例 B，按照约定，有一条简化为 B 的路径，其中对应恒等映射 1，
 
-在(2)中，例有3条路径，起始于$A$，结束于$C'$； 相应的映射是$c \circ g \circ f, g' \circ b \circ f$和$g' \circ f' \circ a$。如果对于图表中具有相同起点和终点的每条对路径，相应的映射相等，则称图表是可交换的；特别是如果路径重合相应的映射的开头和结尾必须是同一元。
+(2) 例有 3 条从 $A$ 开始到 $C'$ 结束的路径； 相应的映射是$c \circ g \circ f, g' \circ b \circ f$和$g' \circ f' \circ a$。如果对于图表中具有相同起点和终点的每条对路径，相应的映射相等，则图表是可交换的；特别是如果路径重合相应的映射的开头和结尾必须是同一元。
 
-对于图表 (2) 可交换，关系是充分必要的
+对于图表 (2) 是可交换的，关系是充分必要的
 $$
 f' \circ a = b \circ f, \quad g' \circ b = c \circ g, \quad h' \circ f = d \circ h;
 $$
-持有；在其他字中，(2)中包含的三个平方图表可交换是充分必要的。对于关系 (3) 意味着从$c \circ g = g' \circ b$开始为$c \circ g \circ f = g' \circ b \circ f$，从$b \circ f = f' \circ a$开始为$g' \circ b \circ f = g' \circ f' \circ a$；因此，从$A$开始到$C'$结束的三个路径给出相同的映射。可以类似地验证从$A$开始到$D'$结束的4条路径（分别从$B$开始到$D'$结束的3条路径）给出相同的映射。 关系 (3) 表示从 $A$（分别为 B、C）开始到 $B'$（分别为 C'、D'）结束的两条路径给出相同的映射。 (2) 的其他对顶点都不能由多条路径连接，因此图表 (2) 是可交换的。
+持有；在其他字中，(2)中包含的三个平方图表可交换是充分必要的。对于关系 (3) 意味着从 $c \circ g = g' \circ b$ 开始为 $c \circ g \circ f = g' \circ b \circ f$，从 $b \circ f = f' \circ a$ 开始为 $g' \circ b \circ f = g' \circ f' \circ a$；因此，从$A$开始到$C'$结束的三个路径给出相同的映射。可以类似地验证从$A$开始到$D'$结束的4条路径（分别从$B$开始到$D'$结束的3条路径）给出相同的映射。 关系 (3) 表示从$A$（分别为B、C）开始到$B'$（分别为C'、D'）结束的两条路径给出相同的映射。 (2) 的其他对顶点都不能由多条路径连接，因此图表 (2) 是可交换的。
 
 下面我们将让读者验证图表的其他型的类似结果。
 
-### 3.正合序列
+### 3. 正合序列
 
-回忆一下以下定义（代数，章II, § 1, no. 4）：
+回忆一下以下定义（代数、章II, § 1, no. 4）：
 
 #### 定义 1 {#ac-i-s1-def-1 .statement tag=0421}
 
-令$A$为环、$F, G, H$三个右（左）$A$模块、$F$至$G$的$f$同态和$g$同态 $G$ 至 $H$。如果$\overline{g}^{-1}(0) = f(F)$，即$g$的核等于$f$的像，则有序对$(f, g)$称为正合序列。
+令$A$为环、$F, G, H$三个右（左）$A$模块、$F$至$G$的$f$同态以及$g$同态 $G$ 至 $H$。如果$\overline{g}^{-1}(0) = f(F)$，有序对 $(f, g)$ 称为正合序列，即$g$ 的核等于$f$ 的像。
 
 图表
 $$
@@ -118,13 +118,13 @@ $$
 $$
 E \xrightarrow{f} F \xrightarrow{g} G \xrightarrow{h} H.
 $$
-如果图表 $E \xrightarrow{f} F \xrightarrow{g} G$ 是正合序列，则该图表被认为精确于$F$；如果 $F \xrightarrow{g} G \xrightarrow{h} H$ 是正合序列，则据说精确于 $G$。如果 (5) 在 $F$ 和 $G$ 处精确，则称它是精确的，或者也是正合序列。 正合序列与项中的任何数的定义类似。
+如果图表 $E \xrightarrow{f} F \xrightarrow{g} G$ 是正合序列，则该图表被认为精确于$F$；如果 $F \xrightarrow{g} G \xrightarrow{h} H$ 是正合序列，则据说精确于 $G$。如果 (5) 在 $F$ 和 $G$ 处精确，则称它是精确的，或者也是正合序列。 正合序列与项中的任意数的定义类似。
 
 回想一下以下结果（前述），其中 $E, F, G$ 表示右（左）
 
 A-模，箭头代表同态，$0$表示模减少到单位元素：
 
-(a) 说$0 \to E \xrightarrow{f} F$是正合序列等价于说，$f$是单射的。
+(a) 说 $0 \to E \xrightarrow{f} F$ 是正合序列等价于说 $f$ 是单射的。
 
 (b) 说 $E \xrightarrow{f} F \to 0$ 是正合序列等价于说 $f$ 是满射。
 
@@ -152,7 +152,7 @@ $$
 E & \xrightarrow{f} & F & \xrightarrow{g} & G
 \end{array}
 $$
-要成为正合序列，存在模、$S$、$T$和同态、$a : E \to S$、$b : S \to F$、$c : F \to T$和$d : T \to G$是充分必要的，使得$f = b \circ a$， $g = d \circ c$ 和三个序列
+为正合序列，存在模、$S$、$T$和同态、$a : E \to S$、$b : S \to F$、$c : F \to T$和$d : T \to G$是充分必要的，使得$f = b \circ a$， $g = d \circ c$ 和三个序列
 $$
 \begin{array}{ccccccccc}
 E & \xrightarrow{a} & S & \longrightarrow & 0 \\
@@ -162,9 +162,9 @@ E & \xrightarrow{a} & S & \longrightarrow & 0 \\
 $$
 准确地说。
 
-最后回想一下当且仅当：$E \to F$是A-模同态，我们集合$\operatorname{Ker}(f) = f^{-1}(0)$、$\operatorname{Im}(f) = f(E)$、$\operatorname{Coim}(f) = E/f^{-1}(0)$和$\operatorname{Coker}(f) = F/f(E)$。有了这个记号，就可以在(9)中取$S = \operatorname{Im}(f) = \operatorname{Ker}(g)$和$T = \operatorname{Im}(g)$（与$\operatorname{Coker}(f)$典型同构）。
+最后回想一下当且仅当：$E \to F$是A-模同态，我们集合$\operatorname{Ker}(f) = f^{-1}(0)$、$\operatorname{Im}(f) = f(E)$、$\operatorname{Coim}(f) = E/f^{-1}(0)$和$\operatorname{Coker}(f) = F/f(E)$。有了这个记号，就可以在(9)中取$S = \operatorname{Im}(f) = \operatorname{Ker}(g)$和$T = \operatorname{Im}(g)$（与$\operatorname{Coker}(f)$自然同构）。
 
-### 4.蛇图表
+### 4. 蛇图表
 
 #### 命题 1 {#ac-i-s1-prop-1 .statement tag=0422}
 
@@ -309,7 +309,7 @@ $$
 
 #### 注 {#ac-i-s1-n4-rem-1 .statement tag=0425}
 
-如果图表（10）中的群都是（对于例，右）模超过环$A$并且同态是A-模同态，很快就可以验证同态d定义在命题2，(iii)也是A-模同态：如果$x \in \mathrm{Ker}(c)$和$a \in A$，并且$y \in B$使得$v(y) = k(x)$，则注足以满足$v(ya) = k(xa)$。
+如果图表（10）中的群都是（对于例，右）模超过环$A$并且同态是A-模同态，很快就可以验证同态d定义在命题2，(iii)也是A-模同态：如果$x \in \mathrm{Ker}(c)$和$a \in A$，且$y \in B$使得$v(y) = k(x)$，则注足以满足$v(ya) = k(xa)$。
 
 #### 推论 1 {#ac-i-s1-prop-2-cor-1 .statement tag=0426}
 
@@ -339,7 +339,7 @@ u'(A') & \xrightarrow{w'} & B' & \xrightarrow{v'} & C'
 \end{array}
 $$
 
-其中$a'$是映射，与b到$u(A)$的限制相同的图，w和$w'$是典范嵌入；显然，这个图表是可交换的，并且它的行是精确的。此外 $w'$ 是单射的，并且假设 v 是满射的；那么到命题 2 时，(iii) 我们有正合序列
+其中$a'$是映射，与b到$u(A)$的限制相同的图，w和$w'$是典范嵌入；显然这个图表是可交换的并且它的行是精确的。此外 $w'$ 是单射的，并且假设 v 是满射的；那么到命题 2 时，(iii) 我们有正合序列
 
 $$
 0 = \mathrm{Ker}(b) \longrightarrow \mathrm{Ker}(c) \xrightarrow{d} \mathrm{Coker}(a') = 0
@@ -367,4 +367,4 @@ $$
 
 ### 习题{#ac-i-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

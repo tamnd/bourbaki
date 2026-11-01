@@ -49,21 +49,21 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: 0c1b6076b0486626b753c306a2a863e915dcf9b8697345801a335c923b5d7831
+content_sha256: 19306e27af2443a938f03a9ea2a67f26464bb95abe2380de43bbbbd93ed911f8
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
 translation_method: google
 source_content_sha256: 7deb20eda4181c66deed788db2dd8c9dfd03ddc75e31d67d9679866d4b1220a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 96e443a8a4ad6c6def24d5c7cb84cb370d56adbe3fdb1709ae0fdf20415ecdef
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 积分元素的概念
+## 1. 积分的概念元素
 
-### 1.积分元素超过环
+### 1. 积分元素超过环
 
 #### 定理 1 {#ac-v-s1-thm-1 .statement tag=04MS}
 
@@ -229,7 +229,7 @@ $B \otimes_A C[A]$ 是 $C[A]$ 命题 5 的积分，因此 $R$ 中 $B \otimes_A C
 
 令 $A$ 为环，$B$ 一个（可交换的）A-代数和 $C$ 一个（不一定可交换的）B 代数。如果 $B$ 在 $A$ 上积分，且 $C$ 在 $B$ 上积分，则 $C$ 在 $A$ 上积分。
 
-只要验证每个 $x \in C$ 都是 $A$ 的整数就足够了。到假设，存在一元多项式$X^n + b_1 X^{n-1} + \cdots + b$，$B$和$x$的系数为根；那么$x$是$B' = A[b_1, \ldots, b_n]$的积分，因此$B'[x]$是有限生成的B-模。但由于$B$是$A$的积分，$B'$是有限生成A-模（命题4）；我们结论 B'[x] 也是有限生成A-模 (代数, 章 11, § 1, no. 13, 命题 25)，因此 x 是 A 的整数。
+只要验证每个 $x \in C$ 都是 $A$ 的整数就足够了。到假设，存在一元多项式$X^n + b_1 X^{n-1} + \cdots + b$，$B$中的系数，$x$为根；那么$x$是$B' = A[b_1, \ldots, b_n]$的积分，因此$B'[x]$是有限生成的B-模。但由于$B$是$A$的积分，$B'$是有限生成A-模（命题4）；我们结论 B'[x] 也是有限生成A-模 (代数, 章 11, § 1, no. 13, 命题 25)，因此 x 是 A 的整数。
 
 #### 推论{#ac-v-s1-n1-cor-3 .statement tag=04NB}
 
@@ -241,7 +241,7 @@ $R \otimes_A R$ 是 R (命题 5) 的积分，因此结论由命题 6 得出。
 
 #### 定义 3 {#ac-v-s1-def-3 .statement tag=04NC}
 
-*设 A 为环，R a（可交换）A-代数。 R 在 A 上积分的元素的 R 由……组成的子 A 代数 A'（no. 1，推论 1 到命题 4）称为 A 在 R 中的积分闭包。如果 A' 等于 A 在 R 中的典范像，则称 A 在 R 中积分闭。*
+*设 A 为环，R a（可交换）A-代数。 R 在 A 上积分的元素的 R 由……组成的子 A'（no. 1，推论 1 到命题 4）称为 A 在 R 中的积分闭包。如果 A' 等于 A 在 R 中的典范像，则称 A 在 R 中积分闭。*
 
 注
 
@@ -271,7 +271,7 @@ K是B的分数的域并且应用命题7到$R = K$就足够了。
 
 #### 命题 8 {#ac-v-s1-prop-8 .statement tag=04NG}
 
-*令$R$为环，$(B_\lambda)_{\lambda \in L}$为$R$的子环的族，对于每个$\lambda \in L$，令$A_\lambda$为$B_\lambda$的子环。如果每个$A_\lambda$在$B_\lambda$内积分闭，则$A = \bigcap_{\lambda \in L} A_\lambda$在$B = \bigcap_{\lambda \in L} B_\lambda$内积分闭。*
+*令$R$为环，$(B_\lambda)_{\lambda \in L}$为$R$的子环的族，对于每个$\lambda \in L$，让$A_\lambda$为$B_\lambda$的子环。如果每个$A_\lambda$在$B_\lambda$内积分闭，则$A = \bigcap_{\lambda \in L} A_\lambda$在$B = \bigcap_{\lambda \in L} B_\lambda$内积分闭。*
 
 这紧随定义 3 和no. 1，推论 1 到命题 2。
 
@@ -279,7 +279,7 @@ K是B的分数的域并且应用命题7到$R = K$就足够了。
 
 *整环$A$的非空全闭子域族中的每个交都是一个全闭域。*
 
-应用命题 8 取$R$且$B_\lambda$等于$A$的分数$K$的域，并注意到$K$的子环在$K$内积分闭，则*更不必说* 是一个积分闭域，因为分数的域包含在$K$ 中。
+应用命题 8 取$R$和$B_\lambda$等于$A$的分数$K$的域，并注意到$K$的子环在$K$内积分闭， *更不必说* 是一个完整闭域，因为分数的域包含在$K$ 中。
 
 #### 命题 9 {#ac-v-s1-prop-9 .statement tag=04NI}
 
@@ -289,11 +289,11 @@ K是B的分数的域并且应用命题7到$R = K$就足够了。
 
 #### 推论 1 {#ac-v-s1-prop-9-cor-1 .statement tag=04NJ}
 
-*设$A$是诺特环、$p_i$$(1 \leq i \leq n)$其独特的最小素理想、整环$A/p_i$的分数的$K$、域（规范同构于局部环$A_{p_i}$（章IV, § 2, no. 5，命题10））和$A'_i$$A$在$K$，$(1 \leq i \leq n)$的积分闭包。 Then the canonical isomorphism of the total ring of fractions $B$ of $A$ onto $\prod_{i=1}^n K_i$ (loc. cit.) maps the integral closure of $A$ in $B$ onto the product ring $\prod_{i=1}^n A'_i$.*
+*令$A$为诺特环、$p_i$$(1 \leq i \leq n)$其独特的最小素理想、$K$、域或整环$A/p_i$的分数（规范同构于局部环$A_{p_i}$（章IV, § 2, no. 5，命题10））和$A'_i$$A$在$K$，$(1 \leq i \leq n)$的积分闭包。然后将分数 $B$ 的总环典范同构 $A$ 放到 $\prod_{i=1}^n K_i$ (loc. cit.) 映射将 $B$ 中的 $A$ 积分闭包放到乘积环$\prod_{i=1}^n A'_i$.*
 
 #### 推论 2 {#ac-v-s1-prop-9-cor-2 .statement tag=04NK}
 
-*对于要在分数的环内积分闭合的约化诺特环，它是积分闭合 (诺特) 域的直接合成是必要且充分的。*
+*对于要在分数的环内积分封闭的约化诺特环，它是积分封闭 (诺特) 域的直接合成是必要且充分的。*
 
 ### 3. 例整体封闭域
 
@@ -301,7 +301,7 @@ K是B的分数的域并且应用命题7到$R = K$就足够了。
 
 *每个主理想整环都是整体封闭的。*
 
-令$A$为主理想整环，$K$为分数的域，以及$K$的$x$元素。 $A$存在两个互质元素 $a, b$，使得 $x = ab^{-1}$ (*代数*, 章 VII, § 1, no. 2, 命题 1 和章 VI, § 1, no. 11, 命题 9 （DIV））。如果 $x$ 对 $A$ 整的，则它是多项式的根
+令$A$为主理想整环，$K$为分数的域，以及$K$的$x$元素。 $A$存在两个互质元素$a, b$，使得$x = ab^{-1}$(*代数*,章VII, § 1, no. 2,命题1和章VI, § 1, no. 11, 命题 9（DIV））。如果 $x$ 对 $A$ 整的，则它是多项式的根
 
 X^n + c_1 X^{n-1} + \ldots + c_n \text{ } A[X]。然后$a^n = b(-c_1 a^{n-1} - \ldots - c_n b^{n-1})$，证明$b$除$a''$。由于$a$和$b$互质，这意味着$b$在$A$中可逆（代数，章VI, § 1, no. 12，推论1到命题11（DIV））；因此$x \in A$。
 
@@ -309,7 +309,7 @@ X^n + c_1 X^{n-1} + \ldots + c_n \text{ } A[X]。然后$a^n = b(-c_1 a^{n-1} - \
 
 *设 R 为环，P 为 R[X] 中的多项式。存在环 R' 包含 R，使得在多项式环 R'[X] 中，首一多项式 P 是次数 1 的一元多项式的乘积。*
 
-我们在 P 的次数 $n$ 上沿归纳前进，引理对于$n = 0$ 和 $n = 1$ 是显而易见的。因此假设$n > 1$。令$a$为P生成的$R[X]$的理想，令$f$为$R[X]$到$B = R[X]/a$的典范同态。由于 P 是单调的，对于每个多项式 $Q \in R[X]$、$\deg(PQ) = \deg(P) + \deg(Q)$、从而 $a \cap R = 0$；因此限制到 R 是单射的。通过$f$将R与B的子环$f(R)$等同，并写成$b = f(X)$，我们看到$b$是B中P的根，P被视为$B[X]$中的多项式。那么$B[X]$中存在次数$n - 1$的一元多项式Q使得$P(X) = (X - b)Q(X)$(代数,章IV, § 1, no. 4,命题5)。到归纳假设，存在环$R' \supseteq B$，使得在$R'[X]$中，多项式Q是次数1的一元多项式的乘积；显然，在$R'[X]$中，P是次数1的单调多项式的乘积。
+我们在 P 的次数 $n$ 上沿归纳前进，引理对于 $n = 0$ 和 $n = 1$ 是显而易见的。因此假设$n > 1$。令$a$为由P生成的$R[X]$的理想，并令$f$为$R[X]$到$B = R[X]/a$的典范同态。由于 P 是单调的，对于每个多项式 $Q \in R[X]$、$\deg(PQ) = \deg(P) + \deg(Q)$、从而 $a \cap R = 0$；因此限制到 R 是单射的。通过$f$将R与B的子环$f(R)$等同，并写成$b = f(X)$，我们看到$b$是B中P的根，P被视为$B[X]$中的多项式。那么$B[X]$中存在次数$n - 1$的一调多项式Q使得$P(X) = (X - b)Q(X)$(代数,章IV, § 1, no. 4,命题5)。到归纳假设，存在环$R' \supseteq B$，使得在$R'[X]$中，多项式Q是次数1的一元多项式的乘积；显然，$R'[X]$ P 是次数 1 的一元多项式的乘积。
 
 #### 命题 11 {#ac-v-s1-prop-11 .statement tag=04NN}
 
@@ -365,7 +365,7 @@ $$
 P_1^{m-1} + G_1 P_1^{m-2} + \cdots + G_{m-1}
 $$
 
-$R[X]$ 也是单数；而且，由于$G_i$属于到$A$的系数，命题11表明$P_1$在$A$上有系数积分，因此$P$的系数肯定在$A$上积分。
+$R[X]$ 也是单数；而且，由于$G_i$属于到$A$的系数，命题11表明$P_1$对$A$有系数积分，因此$P$的系数当然对$A$有积分。
 
 #### 命题 13 {#ac-v-s1-prop-13 .statement tag=04NQ}
 
@@ -375,9 +375,9 @@ $R[X]$ 也是单数；而且，由于$G_i$属于到$A$的系数，命题11表明
 
 #### 推论 1 {#ac-v-s1-prop-13-cor-1 .statement tag=04NR}
 
-设$A$为整环，$A'$为其积分闭包。那么多项式环$A[X_1, \ldots, X_n]$的积分闭包就是$A'[X_1, \ldots, X_n]$。
+令$A$为整环，且$A'$为其积分闭包。那么多项式环$A[X_1, \ldots, X_n]$的积分闭包就是$A'[X_1, \ldots, X_n]$。
 
-由归纳对$n$进行争论，问题立即还原为$n = 1$。令$K$为$A$的分数的域，这也是$A'$的域；如果$A[X]$的分数$K(X)$域元素$P$在$A[X]$上积分，则属于到多项式环$K[X]$，因为后者是主理想整环 (代数、章IV, § 1, no. 5、命题7)，因此整体封闭(命题10)；然后将命题 13 应用于 $\mathbf{R} = K$ 得出推论。
+通过归纳对$n$进行争论，问题立即还原为$n = 1$。令$K$为$A$的分数的域，这也是$A'$的域；如果$A[X]$的分数$K(X)$域元素$P$在$A[X]$上积分，则属于到多项式环$K[X]$，因为后者是主理想整环 (代数、章IV, § 1, no. 5、命题7)，因此整体封闭(命题10)；然后将命题 13 应用于 $\mathbf{R} = K$ 得出推论。
 
 #### 推论 2 {#ac-v-s1-prop-13-cor-2 .statement tag=04NS}
 
@@ -387,7 +387,7 @@ $R[X]$ 也是单数；而且，由于$G_i$属于到$A$的系数，命题11表明
 
 如果$K$是域，则每个多项式代数$K[X_1, \ldots, X_n]$都是一个积分闭域。
 
-### 4. 完全封闭的域
+### 4. 完全封闭的领域
 
 #### 定义 5 {#ac-v-s1-def-5 .statement tag=04NU}
 
@@ -417,7 +417,7 @@ $$
 
 令$(A_n)_{n \in \mathbf{Z}}$为$A$上定义的过滤；因为 $\bigcap_{n \in \mathbf{Z}} A_n$ 是理想 (0) 的闭包 (章 III, § 2, no. 5)，假设首先意味着过滤 $(A_n)$ 被分离，并且由于 $\mathrm{gr}(A)$ 是整环，所以$A$ (章 III, § 2, no. 3，推论命题1)。 Let $x = b/a$ be an element of the field of fractions $K$ of $A$ ($a \in A, b \in A$) for which there exists an element $d \neq 0$ of $A$ such that $dx^n \in A$ for all $n \geq 0$. 我们必须证明 $b \in A a$ 并且，到假设时，理想的 $A a$ 已关闭，足以证明，对于所有 $n \in \mathbf{Z}, b \in A a + A$。 由于$A$的过滤是穷举的，因此存在整数$q \in \mathbf{Z}$使得$b \in A a + A_q$。 因此，只要证明关系$b \in A a + A_q$蕴含$b \in A a + A_{q+1}$即可。
 
-假设 $b = a y + z$ 其中 $y \in A, z \in A_{q+1}$。然后通过假设$dx^n \in A$对于所有$n \geq 0$，从而我们立即获得对于所有$n \geq 0$的$d(x - y)^n \in A$；在其他字、$dz^n = a^n t_n$ 中，$t_n \in A$ 代表所有 $n \geq 0$。显然，我们可以将极限的注意力集中到$z \neq 0$的情况。让$v$表示$A$（章III, § 1, no. 2）上的阶函数，并让我们写成$v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$；设$d', z', a'$为$A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$中$d, z, a$各自的像。对于所有$n \geq 0,\ v(dz^n) = n_1 + nn_2$（章III, § 2, no. 3，命题1），因此$dz^n$的$\mathrm{gr}(A)$中的典范像是$d'{z'}^n$；类似地，可以看出，$a^n t_n$的$\mathrm{gr}(A)$中的典范像是形式${d'}^n t'_n$，其中$t'_n \in \mathrm{gr}(A)$，并且，对于所有$n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$，我们推断出$a' \neq 0$。 假设 $\mathrm{gr}(A)$ 是完全积分闭的，因此意味着存在$s' \in \mathrm{gr}(A)$使得$z' = a's'$；将$s'$分解为齐次元素的和，进一步看出（因为$z'$和$a'$是齐次的）$s'$可以被假设为齐次的，即元素$s \in A$的像；然后$v(as) = v(z) = n_2$和$z \equiv as \pmod{A_{n_2+1}}$；作为$n_2 \geq m, a fortiori$$z \equiv as \pmod{A_{m+1}}$，因此$b \equiv a(y+s) \pmod{A_{m+1}}$。
+假设 $b = a y + z$ 其中 $y \in A, z \in A_{q+1}$。然后通过假设$dx^n \in A$对于所有$n \geq 0$，从而我们立即获得对于所有$n \geq 0$的$d(x - y)^n \in A$；在其他字，$dz^n = a^n t_n$，其中$t_n \in A$代表所有$n \geq 0$。显然，我们可以将极限的注意力集中到$z \neq 0$的情况。让$v$表示$A$（章III, § 1, no. 2）上的阶函数，并让我们写成$v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$；设$d', z', a'$为$A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$中$d, z, a$各自的像。对于所有$n \geq 0,\ v(dz^n) = n_1 + nn_2$（章III, § 2, no. 3，命题1），因此$dz^n$的$\mathrm{gr}(A)$中的典范像是$d'{z'}^n$；类似地，可以看出，$a^n t_n$的$\mathrm{gr}(A)$中的典范像是形式${d'}^n t'_n$，其中$t'_n \in \mathrm{gr}(A)$，并且，对于所有$n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$，我们推断出$a' \neq 0$。 假设 $\mathrm{gr}(A)$ 是完全积分闭的，因此意味着存在 $s' \in \mathrm{gr}(A)$ 使得 $z' = a's'$；将$s'$分解为齐次元素的和，进一步看出（因为$z'$和$a'$是齐次的）$s'$可以被假设为齐次的，即元素$s \in A$的像；然后$v(as) = v(z) = n_2$和$z \equiv as \pmod{A_{n_2+1}}$；作为$n_2 \geq m, a fortiori$$z \equiv as \pmod{A_{m+1}}$，因此$b \equiv a(y+s) \pmod{A_{m+1}}$。
 
 ### 5. 环分数的整体闭合
 
@@ -425,9 +425,9 @@ $$
 
 #### 命题 16 {#ac-v-s1-prop-16 .statement tag=04NX}
 
-*令$A$为环，$R$为$A$代数，$A'$为$R$中$A$的积分闭包，以及$S$为$A$的乘法子集。那么$S^{-1}A$在$S^{-1}R$的积分闭包就是$S^{-1}A'$。*
+*令$A$为环，$R$为$A$代数，$A'$为$A$在$R$中的积分闭包，以及$S$为$A$的乘法子集。那么$S^{-1}A$在$S^{-1}R$的积分闭包就是$S^{-1}A'$。*
 
-设$b/s$为$S^{-1}A'$($s \in S,\ b \in A'$)中的元素。从图表开始
+令$b/s$为$S^{-1}A'$($s \in S,\ b \in A'$)中的元素。从图表开始
 
 $$
 \begin{array}{ccc}
@@ -495,11 +495,11 @@ $A$分数$R$域也是从$0 \notin S$起$S^{-1}A$分数域(章II, § 1, no. 1、�
 
 *在代数几何中，推论5和上面的注表明点，其中仿射簇$V$不是正规的形式闭集合，与$V$不同。* \*
 
-### 6. 范数和整数的痕迹
+### 6. 范数和整数的踪迹
 
 #### 命题 17 {#ac-v-s1-prop-17 .statement tag=04O3}
 
-*令$A$为环，$B$一个（可交换的）$A$代数，以及阶$n$在$B$上的$X$平方矩阵；以下属性是等效的：
+*设$A$为环，$B$一个（可交换的）$A$代数，以及阶$n$在$B$上的$X$平方矩阵；以下属性是等效的：
 
 (a) $X$ 是$A$ 的积分。
 
@@ -577,7 +577,7 @@ $Z$ 是整体闭集（no. 3，命题 10），$E$ 是可分的，因为 $Q$ 的�
 
 *注(2)*。 如果不假设 $K'$ 与 $K$ 是分离的，即使$K'$ 是 $K$ (习题 20) 的扩张域，推论 1 的结论也不一定成立。 On the other hand, if $A$ is a *finitely generated integral $K_0$-algebra*, where $K_0$ is a *field*, the integral closure of $A$ in *any* extension of finite degree of the field of fractions of $A$ is a finitely generated $A$-module and a Noetherian ring, as we shall see in § 3, no. 2, Theorem 2.
 
-### 7. 整闭代数中标量的扩张
+### 7. 积分闭标量的扩张代数
 
 #### 命题 19 {#ac-v-s1-prop-19 .statement tag=04OC}
 
@@ -698,7 +698,7 @@ The field of fractions $K_0$ of $\mathbf{A}$, is identified (in the notation of 
 
 *令$A = \bigoplus_{i \in \mathbf{Z}} A_i$为积分闭分级域。那么，对于每个整数 $d > 0$，环 $A^{(d)}$ (章 III, § 1, no. 3) 都是一个积分闭域。*
 
-令$U$为$A^{(d)}$的齐次元素$\neq 0$的集合，并让$x$为$U^{-1}A^{(d)}$在$A^{(d)}$上的齐次元素积分，从而在$A$上；如 $x \in S^{-1}A$、$x$ 属于至 $A$ 假设；因为它的次数可以被$d$整除，所以它属于到$A^{(d)}$，然后从推论1可以得出$A^{(d)}$是整闭的。
+令$U$为$A^{(d)}$的齐次元素$\neq 0$的集合，并令$x$为$U^{-1}A^{(d)}$在$A^{(d)}$上积分的齐次元素，因此在$A$上；如 $x \in S^{-1}A$、$x$ 属于至 $A$ 假设；因为它的次数可以被$d$整除，所以它属于到$A^{(d)}$，然后从推论1可以得出$A^{(d)}$是整闭的。
 
 ### 9. 应用：群 OF 自同构 OF AN 代数的不变量
 
@@ -708,9 +708,9 @@ The field of fractions $K_0$ of $\mathbf{A}$, is identified (in the notation of 
 
 #### 命题 22 {#ac-v-s1-prop-22 .statement tag=04OK}
 
-*令$A$为（可交换的）$K$代数，而$G$为$A$上的本地有限群运算符。那么$A$是子代数$A^G$的积分。*
+*令 $A$ 为（可交换的）$K$-代数，而 $G$ 为 $A$ 上的本地有限群运算符。那么$A$是子代数$A^G$的积分。*
 
-对于所有$x \in A$，令$x_i$（$1 \leq i \leq n$）为$G$下$x$的轨道的不同元素；对于所有$\sigma \in G$，存在集合$\{1, 2, \ldots, n\}$的置换$\pi_\sigma$，使得$\sigma.x_i = x_{\pi_\sigma(i)}$对应于$1 \leq i \leq n$；因此，$x_i$的基本对称函数是$A$的元素，它们在$G$下不变，在$A^G$的其他字元素中不变。由于$x$是一元多项式$\prod_{i=1}^n (X - x_i)$的根，并且该多项式属于到$A^G$的系数，$x$是$A^G$的积分。
+对于所有$x \in A$，令$x_i$（$1 \leq i \leq n$）为$G$下$x$的轨道的不同元素；对于所有$\sigma \in G$，存在集合$\{1, 2, \ldots, n\}$中的置换$\pi_\sigma$，使得$\sigma.x_i = x_{\pi_\sigma(i)}$对应于$1 \leq i \leq n$；因此，$x_i$的基本对称函数是$A$的元素，它们在$G$下不变，在$A^G$的其他字元素中不变。由于$x$是一元多项式$\prod_{i=1}^n (X - x_i)$的根，并且该多项式属于到$A^G$的系数，$x$是$A^G$的积分。
 
 #### 定理 2 {#ac-v-s1-thm-2 .statement tag=04OL}
 
@@ -734,14 +734,14 @@ $\sigma \in G$的集合，使得$1 \leq j \leq m$的$\sigma a_j = a_j$显然在A
 
 令A为K-代数，$G$A上算子的局部有限群，S为A在$G$和$S^G$集合$S \cap A''$下稳定的乘法子集。那么$(S^G)^{-1}A$到$S^{-1}A$的典范映射（章II, § 2, no. 1，推论2到命题2）是同构，其中映射$(S^G)^{-1}A^G$到$(S^{-1}A)^G$。
 
-对于所有$s \in S$，令$s, s_1, \ldots, s_q$为$G$下s的轨道的不同元素；如$ss_1 \ldots s_q \in S^G$，第一个断言源自章11、§ 2, no. 3、命题8。将$(S^G)^{-1}A$与$S^{-1}A$进行规范识别，显然$(S^G)^{-1}A^G$的每个元素在$G$下都是不变的。相反，令$a/t$为$(S^G)^{-1}A$的元素，在$G$（$a \in A, t \in S^G$）下不变；如果$a, (1 \leq j \leq m)$是$G$下$a$的轨道的不同元素，则$a_j/t = a/t$对应$1 \leq j \leq m$，因此存在$s \in S^G$使得$s(a_j - a) = 0$对应$1 \leq j \leq m$；在其他字中，sa在$G$下是不变的，并且，作为$a/t = (sa)/(st)$，当然在$a/t \in (S^G)^{-1}A^G$下也是不变的。
+对于所有$s \in S$，令$s, s_1, \ldots, s_q$为$G$下s的轨道的不同元素；如$ss_1 \ldots s_q \in S^G$，第一个断言是从章11，§ 2, no. 3，命题8开始的。将$(S^G)^{-1}A$与$S^{-1}A$进行规范识别，显然$(S^G)^{-1}A^G$的每个元素在$G$下都是不变的。相反，令$a/t$为$(S^G)^{-1}A$的元素，在$G$（$a \in A, t \in S^G$）下不变；如果$a, (1 \leq j \leq m)$是$G$下$a$的轨道的不同元素，则$a_j/t = a/t$对应$1 \leq j \leq m$，因此存在$s \in S^G$使得$s(a_j - a) = 0$对应$1 \leq j \leq m$；在其他字中，sa在$G$下是不变的，并且，作为$a/t = (sa)/(st)$，当然是$a/t \in (S^G)^{-1}A^G$。
 
 #### 推论 {#ac-v-s1-n9-cor-1 .statement tag=04OP}
 
-设A是整环，K是分数的域，$G$是A上的局部有限群运算符。那么$G$对K进行操作，$K^G$是$A^G$的分数的域。
+设A是整环，K是分数的域，$G$是A上的本地有限群运算符。那么$G$对K进行操作，$K^G$是$A^G$的分数的域。
 
 $- \{0\}$ 在 $G$ 下是稳定的。
 
 ### 习题 {#ac-v-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

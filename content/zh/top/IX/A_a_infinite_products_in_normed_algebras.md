@@ -26,27 +26,27 @@ subsections:
       pdf_page: 221
 statements: 16
 exercises: 8
-content_sha256: 6a0b9a080bf5085dd0c5524a29c5efc33da4952c859669286b2deb10e2c4f7f7
+content_sha256: 3916e35db48787b4f34f9d9cfca7a02491557893f5406870eab3593f135dc34d
 translated_from: content/en/top/IX/A_a_infinite_products_in_normed_algebras.md
 translation_method: google
 source_content_sha256: 4891adafb991bbb34168be7fb8caef2435567acb2d9b3db3045a912f02678465
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 54832ef30141cb7824920e1b825571990fc62528c3969636325cc476e317c1f7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
 
 # 无限乘积标准代数
 
-### 1. 在范数代数中可乘序列
+### 1. 范数代数中可乘序列
 
 令 $A$ 为非离散值域 $K$ 上的规范代数 (章 IX, § 3, no. 7, 定义 9)；我们用元素$x \in A$的$||x||$范数来表示，并且我们假设这个范数满足不等式$||xy|| \leq ||x|| \cdot ||y||$；我们还假设$A$有单位元素$e$。
 
-令$(x_n)_{n \in \mathbf{N}}$为$A$的点的无限序列。 $\mathbf{N}$的每有限子集$J$，按$\mathbf{N}$、$A$的点的定义序列$(x_n)_{n \in J}$的顺序线性排序，我们定义乘积
+设$(x_n)_{n \in \mathbf{N}}$是$A$的点的无限序列。 $\mathbf{N}$的每有限子集$J$，按$\mathbf{N}$、$A$的点的定义序列$(x_n)_{n \in J}$的顺序线性排序，我们定义乘积
 
 $$
 p_J = \prod_{n \in J} x_n
@@ -56,25 +56,25 @@ $$
 
 #### 定义 1 {#top-ix-a0-def-1 .statement tag=0CA3}
 
-*序列* $(x_n)_{n \in \mathbf{N}}$ *据说在范数代数* $A$ *如果映射* $J \to p_J$ *相对于集合*的截面的过滤器有极限 $\mathfrak{F}(\mathbf{N})$ *共有限子集共* $\mathbf{N}$，*按关系* $\subset$ 排序； *这个极限称为序列*$(x_n)_{n \in \mathbf{N}}$的乘积，*并表示为*$\prod_{n \in \mathbf{N}} x_n$*（或简称为*$\prod_n x_n$）； *这个乘积的*$x_n$*被称为因子。*
+*序列* $(x_n)_{n \in \mathbf{N}}$ *据说在范数代数* $A$ *如果映射* $J \to p_J$ *相对于集合*的截面的过滤器有极限 $\mathfrak{F}(\mathbf{N})$ *共有限子集共* $\mathbf{N}$，*按关系* $\subset$ 排序； *这个极限称为序列*$(x_n)_{n \in \mathbf{N}}$的乘积，*并记为*$\prod_{n \in \mathbf{N}} x_n$*（或简称为*$\prod_n x_n$）； *这个乘积的*$x_n$*被称为因子。*
 
 定义 1 等价于： *序列* $(x_n)$ *可乘，其乘积为* $p$ *如果对于每个* $\varepsilon > 0$ *存在有限子集* $J_0$ *of* $\mathbf{N}$ *这样对于每一个有限子集* $J \supset J_0$ *of* $\mathbf{N}$，*我们有* $||p_J - p|| \leq \varepsilon$。
 
 #### 注 1 {#top-ix-a0-n1-rem-1 .statement tag=0CA4}
 
-当$A$为交换代数时，定义1与章III, § 5, no. 1、注3相同；但当$A$不可交换时，指标集合$\mathbf{N}$的阶结构本质上参与定义1。如果$\sigma$是置换的任意置换 $\mathbf{N}$，我们不能一般断言，如果序列(x_n)是可乘的，则序列$(x_{\sigma(n)})$是可乘的；如果两个序列都是可乘的，那么它们的乘积通常会不同。
+当$A$为交换代数时，定义1与章III, § 5, no. 1、注3相同；但当 $A$ 不可交换时，指标集合 $\mathbf{N}$ 的阶结构本质上参与定义 1。如果 $\sigma$ 是任意置换 $\mathbf{N}$，我们不能一般断言，如果序列(x_n)是可乘的，则序列$(x_{\sigma(n)})$是可乘的；如果两个序列都是可乘的，那么它们的乘积通常会不同。
 
 #### 注 2 {#top-ix-a0-n1-rem-2 .statement tag=0CA5}
 
-定义 1 可以立即推广到一个族 (x_n)_{n \in I} 的情况，其指标集合 I 是 \mathbf{Z} 的子集（由阶线性排序） \mathbf{Z})。我们将扩展留给读者，在这种情况下，结果如下（cf.习题1和2）。
+定义 1 可以立即推广到族 (x_n)_{n \in I} 的情况，其指标集合 I 是 \mathbf{Z} 的子集（由阶线性排序） \mathbf{Z})。我们将扩展留给读者，在这种情况下，结果如下（cf.习题1和2）。
 
-### 2.多重性判据
+### 2. 多重性判据
 
 从现在开始，我们假设规范的代数 A 是完备的。
 
 #### 定理 1 {#top-ix-a0-thm-1 .statement tag=0CA6}
 
-令 (x_n)_{n \in \mathbf{N}} 为完全范数代数 A 中的点的序列。
+令 (x_n)_{n \in \mathbf{N}} 为完全范数代数 A 中点的序列。
 a) 如果 (x_n) 是可乘的，且其乘积是 A 的单位，则对于每个$\varepsilon > 0$，存在 \mathbf{N} 的有限子集 J_0，这样，对于 \mathbf{N} 的每个不满足 J_0 的有限子集 L，我们有$\|e - p_L\| \leq \varepsilon$。
 b) 相反，如果序列 (x_n) 满足条件，则它是可乘的。此外，如果每个x_n是单位，那么$\prod_{n \in \mathbf{N}} x_n$就是单位。
 
@@ -216,7 +216,7 @@ $$
 
 By Lemma 2, it follows that $\sum_{i \in H} ||u_i|| - 1$ for every finite subset $H$ of $\mathbf{N}$ which does not meet $J_0$, and hence (Chapter IV, § 7, no. 1, Theorem 1) the family $(||u_n||)$ is summable in $\mathbf{R}$.
 
-### 3.无限乘积
+### 3. 无限乘积
 
 对于规范化的代数$A$中点的每个序列$(x_n)$，让我们制作*部分积*$p_n = \prod_{k=0}^n x_k$的对应序列；则序列$(x_n)$和$(p_n)$的*右*称为无穷乘积，其通因子为$x_n$。如果序列 $(p_n)$ 收敛于 $A$，则无限乘积与一般因子 $x_n$ 收敛；这个序列的极限被称为序列$(x_n)$的乘积，并用$\prod_{n=0}^\infty x_n$表示。
 
@@ -276,4 +276,4 @@ $$
 
 ### 习题{#top-ix-a0-exercises}
 
-请参见附录 0](exercises/a0/) 的 [习题。
+参见[习题附录 0](exercises/a0/)。

@@ -34,21 +34,21 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: 90b8e8832a8b4ad84907f47547cb33ef1cb04814448b58d95a660b37c212e1ac
+content_sha256: a00df43a2300d8de9f651f8a2e0147f7ed46c1f23494dd39b46d13ab83e76faa
 translated_from: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md
 translation_method: google
 source_content_sha256: 937d6660bbf18635e63c4c1addfaf3e44ee88a5456fdc47cb5c2eacabc9099b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-85fdfe71
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3dab4ce5372bf7025fbd92132afe829dda18a9ad01498abe4ed3a8d21ae06720
-prompt_sha256: 133cd3fc3c262b082830ff023554f589fe553d569c36079625221572907a2124
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 结构模有限长度
 
-### 1.局部环
+### 1. 局部环
 
 #### 命题 1 {#alg-viii-s2-prop-1 .statement tag=001P}
 
@@ -62,17 +62,17 @@ prompt_sha256: 133cd3fc3c262b082830ff023554f589fe553d569c36079625221572907a2124
 
 (iv) 对于每个$a\in A$，元素、$a$和$1-a$之一是可逆的。
 
-(v) 对于每个$a\in A$，元素、$a$和$1-a$之一保持可逆。
+(v) 对于每个 $a\in A$，元素 $a$ 和 $1-a$ 之一是可逆的。
 
 蕴涵 (i) $\Rightarrow$ (ii) 由理想的定义得出。由于 1 不属于到 $\mathfrak{r}$，所以我们有 (ii) $\Rightarrow$ (iv)。
 
-我们有 $\mathfrak{r}\not= A$，以及集合 $\mathfrak{r}$ 包含于 A 不等于 A 的每个左理想。如果 $\mathfrak{r}$ 是 A 的左理想，那么它就是 A 的唯一最大左理想。这证明 (i) 蕴涵 (iii)。
+我们有$\mathfrak{r}\not= A$，以及集合$\mathfrak{r}$包含于，A的每个左理想不等于A。如果$\mathfrak{r}$是A的左理想，那么它是A的唯一最大左理想。这证明(i)蕴涵(iii)。
 
 假设 A 有唯一的最大左理想 $\mathfrak{m}$。取$b\in A-\mathfrak{m}$。左理想$Ab$不包含在A的任何最大左理想中，因此等于A（I, §8, No. 6，p. 104，定理1），并且$b$是左可逆的。对于每个$a\in A$，元素$a$和$1-a$属于之一到A$-\mathfrak{m}$，因为$\mathfrak{m}$是一个不包含1的理想。因此，(iii)意味着(v)。
 
-假设性质 (v) 成立。令$b$为A的左可逆元。令$c\in A$使得$cb= 1$。我们有$(1-bc)b= 0$和$b\not= 0$；因此，$1-bc$ 不是可逆的。通过性质 (v)，$bc$ 保持可逆，并且更不必说、$c$ 保持可逆。但$c$是可逆的； $b$ 是它的逆元，因此 $b$ 是可逆的。由此可见，(v) 蕴涵(iv)。
+假设性质 (v) 成立。令$b$为A的左可逆元。令$c\in A$使得$cb= 1$。我们有$(1-bc)b= 0$和$b\not= 0$；因此，$1-bc$ 不是可逆的。通过性质 (v)，$bc$ 保持可逆，更不必说，$c$ 保持可逆。但$c$是可逆的； $b$ 是它的逆元，因此 $b$ 是可逆的。由此可见，(v) 蕴涵(iv)。
 
-仍有待证明 (iv) 蕴含 (i)。假设 (iv) 成立。那么 $\mathfrak{r}$ 是 A 的双面理想，由以下断言 a) 到 d) 表示：
+仍有待证明 (iv) 蕴含 (i)。假设 (iv) 成立。那么 $\mathfrak{r}$ 是 A 的双边理想，由以下断言 a) 到 d) 表示：
 
 a) 我们有$0\in \mathfrak{r}$，因为环 A 是非零的。
 
@@ -84,7 +84,7 @@ c) 集合 $\mathfrak{r}$ 在加法下稳定。
 
 d) 集合 $\mathfrak{r}$ 在乘法下稳定。
 
-事实上，让$a$和$b$是$\mathfrak{r}$的两个元素。 b) 元素 $a'=-a(1-b)$ 属于至 $\mathfrak{r}$，从而元素 $ab$，等于 c) 中的 $a+a'$、属于至 $\mathfrak{r}$； 断言d)如下。
+事实上，让$a$和$b$是$\mathfrak{r}$的两个元素。 b) 元素 $a'=-a(1-b)$ 属于至 $\mathfrak{r}$，从而元素 $ab$，等于 c) 的 $a+a'$、属于至 $\mathfrak{r}$； 断言d)如下。
 
 #### 定义 1 {#alg-viii-s2-def-1 .statement tag=001Q}
 
@@ -124,7 +124,7 @@ $*(_{p)}$
 
 令 K 为特征 $p >0$ 的交换域，G 为$p$群（I, §6, No. 5、p. 76、定义 9）。 群 G 在 K (III, §2, No. 6, p. 446) 上的代数 K[G] 为局部环；它的最大理想是 K[G] 的元素 $(a_g)_{g\in G}$ 的集合，使得 $\sum_{g\in G}a_g= 0$ (VIII, p. 41, 习题 10)。
 
-### 2.Weyr-Fitting 分解
+### 2. Weyr–Fitting Decomposition
 
 设 A 为环、M A-模和 M 的 $u$ 自同态。对于任意整数 $p\geqslant 0$，我们用 $N_p$ 表示 $u^p$ 的核。 子模$(N_p)$的序列为递增，其并为在$u$下稳定的M的子模$N_{\infty}$。对于每个整数$p\geqslant 0$，我们有$N_{p+1}=\overset{-1}{u}(N_p)$，因此关系$N_p= N_{p+1}$意味着$N_{p+1}= N_{p+2}$。因而，要么序列$(N_p)$是严格递增的，要么存在整数$p\geqslant 0$使得$N_0, . . . ,N_p$不同且$N_p= N_{\infty}$。
 
@@ -182,53 +182,53 @@ $$
 x=\sum_{i\in I}a_ix_i,y_j=\sum_{i\in I}b_{ij}x_i,u(x_j) =\sum_{i\in I}c_{ij}x_i
 $$
 
-对于每个$j\in I$。令$A'$为包含元素$a_i,b_{ij}$的诺特子环，以及$c_{ij}$（VIII，p. 12，推论3）。令$M'$为$(x_i)_{i\in I}$族生成的M的$A'$子模。我们有$u(x_j)\in M',y_j\in M'$，每个$j\in I$有$u(y_j) =x_j$； hence $u$ 定义, by 限制, 满射自同态 $u'$ of the $A'$-module $M'$.由于环$A'$是诺特，有限生成的$A'$模$M'$是诺特（VIII，p. 7，命题 4 a））。 By a), 自同态 $u'$ of $M'$ is bijective. By 构造, $x$ 属于 to $M'$, and we have $u'(x) =u(x) = 0$.因此我们有 $x= 0$，这证明了 d)。
+对于每个$j\in I$。令$A'$为包含元素$a_i,b_{ij}$的诺特子环，以及$c_{ij}$（VIII，p. 12，推论3）。令$M'$为$(x_i)_{i\in I}$族生成的M的$A'$子模。我们有$u(x_j)\in M',y_j\in M'$，每个$j\in I$有$u(y_j) =x_j$；因此，$u$定义，由$A'$模块$M'$的限制、满射自同态$u'$组成。由于环$A'$是诺特，有限生成的$A'$模$M'$是诺特（VIII，p. 7，命题 4 a））。由a)可知，$M'$的自同态$u'$是双射的。由构造、$x$ 属于到 $M'$，我们还有 $u'(x) =u(x) = 0$。因此我们有 $x= 0$，这证明了 d)。
 
 #### 推论 2 {#alg-viii-s2-prop-2-cor-2 .statement tag=0022}
 
-In 左诺特环, every left or right 可逆元 is invertible.
+在左诺特环中，每个左或右可逆元都是可逆的。
 
-事实上，考虑左诺特环 A 的元素 $x,y$ 使得$xy= 1$。 Denote by $\boldsymbol{\delta }(x)$ and $\boldsymbol{\delta }(y)$, respectively, 自同态 $a\mapsto ax$ and $a\mapsto ay$ of A-模 $A_s$.我们有$\boldsymbol{\delta }(y)\circ \boldsymbol{\delta }(x) = 1_{A_s}$；因此 $\boldsymbol{\delta }(y)$ 是满射的。根据推论 1, a)，$\boldsymbol{\delta }(y)$ 是双射的。 自同态 $\boldsymbol{\delta }(x)$ is then 逆双射 of $\boldsymbol{\delta }(y)$, and we have $yx= (\boldsymbol{\delta }(x)\circ \boldsymbol{\delta }(y))(1) = 1$.推论如下。
+事实上，考虑左诺特环 A 的元素 $x,y$ 使得$xy= 1$。分别用$\boldsymbol{\delta }(x)$和$\boldsymbol{\delta }(y)$表示，A-模$A_s$的自同态$a\mapsto ax$和$a\mapsto ay$。我们有$\boldsymbol{\delta }(y)\circ \boldsymbol{\delta }(x) = 1_{A_s}$；因此 $\boldsymbol{\delta }(y)$ 是满射的。根据推论 1, a)，$\boldsymbol{\delta }(y)$ 是双射的。那么自同态$\boldsymbol{\delta }(x)$就是$\boldsymbol{\delta }(y)$的逆双射，我们有$yx= (\boldsymbol{\delta }(x)\circ \boldsymbol{\delta }(y))(1) = 1$。推论如下。
 
-### 3.不可分解模和原始模
+### 3. 不可分解模和原始模
 
-设 A 为环。 Recall the following 定义 (VII, §4, No. 8, p. 23, 定义 3).
+设 A 为环。回忆一下以下定义（VII, §4, No. 8、p. 23、定义 3）。
 
 #### 定义 2 {#alg-viii-s2-def-2 .statement tag=0023}
 
-A-模 M is called indecomposable if it is not 直和 of a family of 子模 distinct from 0 and M.
+如果A-模 M 不是不同于 0 和 M 的子模族的直和，则称其不可分解。
 
-By the corollary of 命题 12 of II, §1, No. 8, p. 209, the following properties are equivalent:
+由命题 12 of II, §1, No. 8、p. 209的推论，以下性质是等价的：
 
 a) A-模 M 不可分解。
 
-b) A-模 M is 非零的, and every 直因子子模 of M is equal to 0 or M.
+b) A-模 M 是非零的，并且 M 的每个直因子子模都等于 0 或 M。
 
-c) A-模 M is 非零的, and 环 End$_A(M)$ 包含 no idempotent disctinct from 0 and $1_M$.
+c) A-模 M 为非零的，并且环 End$_A(M)$ 包含与 0 和 $1_M$ 没有幂等区别。
 
 特别是，由于A-模$A_s$的自同态环与A的逆环同构，我们看到A-模$A_s$不可分解当且仅当环A是非零的它的幂等性只有 0 和 1。
 
 #### 例 {#alg-viii-s2-n3-exa-1 .statement tag=0024}
 
-假设环 A 是主理想整环。不可分解的有限生成A-模 A-模同构于 A 或 $A/p^nA$，其中 $p$ 是 A 的不可约元，$n$ 整数 $>0$ (VII, §4, No. 8, p. 24, 命题8)。
+假设环 A 是主理想整环。不可分解的有限生成A-模与A-模同构于A或$A/p^nA$，其中$p$是A的不可约元，$n$整数$>0$（VII, §4, No. 8，p. 24， 命题8)。
 
 #### 命题 3 {#alg-viii-s2-prop-3 .statement tag=0025}
 
-诺特 or 阿廷的 A-模 M is 直和 of a finite family of indecomposable 子模.
+诺特或阿廷的 A-模 M 是不可分解的子模有限族中的直和。
 
-Let us first prove that every 非零的子模 P of M has an indecomposable 直因子. If this were not the case, then every 直因子子模 of P would be decomposable;继续进行归纳，然后我们可以对P的每个$n\in \mathbf{N}$，非零的，子模，$N'_n$和$N''_n$进行构造，使得对于$n\geqslant 1$有$P = N'_0\oplus N''_0$和$N'_{n-1}= N'_n\oplus N''_n$。 But then, 序列 of 子模 $N''_0+\cdots + N''_n$ would be 严格递增的, and that of 子模 $N'_n$ would be 严格递减. 模 M would be neither 诺特 nor 阿廷的, contrary to 假设.
+我们首先证明M的每个非零的子模P都有一个不可分解的直因子。如果不是这种情况，那么 P 的每个直因子子模都是可分解的；继续进行归纳，然后我们可以对P的每个$n\in \mathbf{N}$、非零的、子模、$N'_n$和$N''_n$进行构造，使得$P = N'_0\oplus N''_0$和$N'_{n-1}= N'_n\oplus N''_n$对于$n\geqslant 1$。但是，子模$N''_0+\cdots + N''_n$的序列将是严格递增的，子模$N'_n$的严格递减将是严格递减。 模 M 既不是诺特也不是阿廷的，与假设相反。
 
 现在，假设 M 不是不可分解的子模有限族中的直和。到归纳，对于每个$n\in \mathbf{N}$，我们构造不可分解M的子模$P''_n$和M的非零的子模$P'_n$，这样$M = P'_0\oplus P''_0$和$P'_{n-1}= P'_n\oplus P''_n$对于$n\geqslant 1$。事实上，M 是非零的，证明的第一个部分应用于 P = M，提供$P'_0$ 和 $P''_0$。由于模$P'_k$和$P''_k$是为$k < n$定义的，通过证明的第一个部分，存在子模、$P'_n$和$P''_n$，使得$P'_{n-1}= P'_n\oplus P''_n$和$P''_n$不可分解的。 关系$M = P'_n\oplus P''_0\oplus  \cdots  \oplus P''_n$则意味着$P'_n\not= 0$，因为M不是不可分解模有限族中的直和。
 
 子模$P''_0\oplus  \cdots  \oplus P''_n$中的序列是严格递增的，子模$P'_n$中的序列是严格递减。这个与……矛盾假设M就是诺特或者阿廷的。
 
-模分解唯一性与不可分解的子模直和的问题将在接下来的小节中研究。
+模分解唯一性与不可分解子模的直和问题将在下一个小节中研究。
 
 #### 定义 3 {#alg-viii-s2-def-3 .statement tag=0026}
 
 如果自同态环是本地的，则模称为原始[^1]。
 
-到定义时，局部环并未减至0；因而，原初模是非零的。此外，当且仅当环 A 是局部的时，A-模 $A_s$ 才是原初的。
+到定义时，局部环并未减至0；因而，原初模是非零的。此外，A-模$A_s$是原初当且仅当环A是局部的。
 
 #### 命题 4 {#alg-viii-s2-prop-4 .statement tag=0027}
 
@@ -246,15 +246,15 @@ $*$设$p$为素数数。 $\mathbf{Z}$模块$\mathbf{Q}_p/\mathbf{Z}_p$的自同�
 
 单射模不可分解当且仅当它是原初 (X, §1, n$^o9$, p. 21, 命题 $14$)$.*$
 
-### 4.半原始模
+### 4. 半原始模
 
 #### 定义 4 {#alg-viii-s2-def-4 .statement tag=0028}
 
-如果模是原始子模族中的直和，则称模为半原始的。
+如果模是原始子模家族中的直和，则称模为半原始的。
 
 #### 例 1 {#alg-viii-s2-n4-exa-1 .statement tag=00SE}
 
-$*$每个单模都是原始的（VIII，p. 45）；因而，每个半单模都是半原始的（VIII，p. 55，定义1）。
+$*$每单模都是本初（VIII，p. 45）；因而，每个半单模都是半原始的（VIII，p. 55，定义1）。
 
 #### 例 2 {#alg-viii-s2-n4-exa-2 .statement tag=01L7}
 
@@ -326,7 +326,7 @@ $$
 
 那么存在M的自同构$u$和从I到J的双射$\varphi$，这样对于每个$i\in I$我们都有$u(M_i) = M'_{\varphi(i)}$。
 
-对于任何原初模 L，令 $I_L$（分别为 $J_L$）为指标 $i\in I$（分别为 $j\in J$）的集合，使得 $M_i$（分别为 $M'_j$）同构于L。 The nonempty sets of the form $I_L$ (resp. $J_L$) form a partition of I (resp. J)，对于每个 L，我们有
+对于任何原初模 L，令 $I_L$（分别为 $J_L$）为指标 $i\in I$（分别为 $j\in J$）的集合，使得 $M_i$（分别为 $M'_j$）同构于L。 The nonempty sets of the form $I_L$ (resp. $J_L$) form a partition of I (resp. J), and for every L, we have
 
 卡(I$_L$) $=$ 卡(J$_L$) $= [M : L]$;
 

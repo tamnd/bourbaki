@@ -12,16 +12,16 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: bbf0521eee416341e5774b174f6156983aeaca7e4a47c4bca54cbd796c46b322
+content_sha256: deed514616cbd5ae5f929a3ca928b011f118da7604adeaf5e9f66e34074f6866
 translated_from: content/en/evt/III/02_s2_bornological_spaces.md
 translation_method: google
 source_content_sha256: 40a687273614f4755635004c7de82956200bd4dc25c1f116ef776c135c6ae0d1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c29cf43af0620abfa42040e6a77043ee7f2cd67cf8795794699849c297612ac9
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。生育学空间
@@ -85,4 +85,4 @@ It is immediate that (iii) implies (iii') (III, p. 3, cor.) Finally, if p is a s
 
 ### 习题{#evt-iii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

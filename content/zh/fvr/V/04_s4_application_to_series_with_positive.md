@@ -29,16 +29,16 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 11
-content_sha256: b8f7197749bb4cd174ea6411f1d1f6d92a2b915d06679decd134b6434420b362
+content_sha256: d7be292378b7e5739d56f96453ba819b3ce1af81ac58f5701334041dde2ef49f
 translated_from: content/en/fvr/V/04_s4_application_to_series_with_positive.md
 translation_method: google
 source_content_sha256: c18bf105a0a19fb75952b1cd2547b25be59f3bbcc6840083c077e38c89496107
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ba4566d95c9d223ced903e0da8e7e0b259603c80d517beb8e7124fe560b661bc
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。适用于级数并具有正值项
@@ -71,25 +71,25 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 命题 4（“阶 0 的对数准则”）{#fvr-v-s4-prop-4 .statement tag=08G2}
 
-设$(u_n)$为级数，且项为正；如果$u_n \preccurlyeq n^\mu$对于某些$\mu < -1$则级数$(u_n)$收敛；如果$u_n \succcurlyeq n^\mu$对于某些$\mu \geq -1$，则级数$(u_n)$有一个无限的和。
+设$(u_n)$为级数，且项为正；如果$u_n \preccurlyeq n^\mu$对于某些$\mu < -1$则级数$(u_n)$收敛；如果 $u_n \succcurlyeq n^\mu$ 对于某些 $\mu \geq -1$ 那么级数 $(u_n)$ 有一个无限的和。
 
 #### 命题 5（“阶 $p$ 的对数标准”）{#fvr-v-s4-prop-5 .statement tag=08G3}
 
 令 $(u_n)$ 为级数，项为正值。如果$u_n \preccurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$对于某些$\mu > 1$则级数$(u_n)$收敛；如果 $u_n \succcurlyeq \frac{1}{nl_1(n)l_2(n)\ldots l_{p-1}(n)(l_p(n))^\mu}$ 对于某些 $\mu \leq 1$ 那么级数 $(u_n)$ 有一个无限的和。
 
-如果 $0 \leq q < 1$ 对于任何 $\mu > 0$ 都有 $q^n \preccurlyeq n^{-\mu}$； 应用阶 0 的对数准则再次证明了级数$\sum_{n=0}^\infty q^n$对于$|q| < 1$的收敛性（Gen. Top.、IV、p. 364）。如果有人应用道具。 1 与 $v_n = q^n$ 得到一个准则，该准则可放入以下形式（“柯西准则”）中： *令 $(u_n)$ 为级数，项为正；如果$\limsup_{n \to \infty}(u_n)^{1/n} < 1$则级数$(u_n)$收敛；如果 $\limsup_{n \to \infty}(u_n)^{1/n} > 1$ 则级数 $(u_n)$ 有无限和。* 事实上，如果 $\limsup_{n \to \infty}(u_n)^{1/n} = a < 1$ 那么 $u_n \preccurlyeq q^n$ 对于每个 $q$ 使得 $a < q < 1$。另一方面，如果$\limsup_{n \to \infty}(u_n)^{1/n} = a > 1$则$u_n \succcurlyeq q^n > 1$对于$n$的无限多个值，对于任何$q$使得$1 < q < a$；因为 $u_n$ 不趋于 0，所以有 $\sum_{n=1}^\infty u_n = +\infty$。
+如果 $0 \leq q < 1$ 对于任何 $\mu > 0$ 都有 $q^n \preccurlyeq n^{-\mu}$； 应用阶 0 的对数判据再次证明了 $|q| < 1$ 的几何级数 $\sum_{n=0}^\infty q^n$ 的收敛性（Gen. Top.、IV、p. 364）。如果有人应用道具。 1 与 $v_n = q^n$ 得到一个准则，该准则可放入以下形式（“柯西准则”）中： *令 $(u_n)$ 为级数，项为正；如果$\limsup_{n \to \infty}(u_n)^{1/n} < 1$则级数$(u_n)$收敛；如果 $\limsup_{n \to \infty}(u_n)^{1/n} > 1$ 则级数 $(u_n)$ 有无限和。* 事实上，如果 $\limsup_{n \to \infty}(u_n)^{1/n} = a < 1$ 那么 $u_n \preccurlyeq q^n$ 对于每个 $q$ 使得 $a < q < 1$。另一方面，如果$\limsup_{n \to \infty}(u_n)^{1/n} = a > 1$则$u_n \succcurlyeq q^n > 1$对于$n$的无限多个值，对于任何$q$使得$1 < q < a$；因为 $u_n$ 不趋于 0，所以有 $\sum_{n=1}^\infty u_n = +\infty$。
 
 这个准则在*整个级数*理论中非常有用，我们稍后会研究；但即便如此，它也不允许人们决定级数$(1/n^\alpha)$的收敛性，在其他字中，它的域的应用比对数判据的限制要大得多。
 
 ### 2. 级数部分和的渐近展开
 
-对于趋于 $+\infty$ 的 $x$ 实数，令 $\mathscr{E}$ 为由函数形成的比较量表，其中每个量表均在*整个区间* $[x_0, +\infty[$（取决于函数）上定义，并且在此区间上为 $\geq 0$。令 $(\mathbf{u}_n)$ 为级数，其项属于为完全范数空间 $\mathbf{E}$，使得 $\mathbf{u}_n$ 相对于规模 $\mathscr{E}'$ 承认渐近展开至精度 $g_\alpha$ $\mathscr{E}$中函数的限制到$\mathbf{N}$：
+对于趋于 $+\infty$ 的 $x$ 实数，令 $\mathscr{E}$ 为由函数形成的比较量表，每个量表均定义在*整个区间* $[x_0, +\infty[$（取决于函数）上，并且在此区间上为 $\geq 0$。令 $(\mathbf{u}_n)$ 为级数，其项属于为完全范数空间 $\mathbf{E}$，使得 $\mathbf{u}_n$ 相对于规模 $\mathscr{E}'$ 承认渐近展开至精度 $g_\alpha$ $\mathscr{E}$中函数的限制到$\mathbf{N}$：
 
 $$
 \mathbf{u}_n = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda(n) + \mathbf{r}_\alpha(n).
 $$
 
-假设每个部分和$\sum_{m=1}^n g(m)$，其中$g \in \mathscr{E}$，都承认相对于$\mathscr{E}'$渐近展开。然后可以获得 $s_n = \sum_{m=1}^n \mathbf{u}_m$ 相对于 $\mathscr{E}'$ 的渐近展开；我们再次区分两种情况：
+假设每个部分和$\sum_{m=1}^n g(m)$，其中$g \in \mathscr{E}$，都承认相对于$\mathscr{E}'$渐近展开。然后可以得到$s_n = \sum_{m=1}^n \mathbf{u}_m$相对于$\mathscr{E}'$的渐近展开；我们再次区分两种情况：
 
 1°$\sum_{n=1}^{\infty} g_{\alpha}(n) = +\infty$。那么 (V, p. 237, 命题 2) 有 $\sum_{m=1}^{n} r_{\alpha}(m) \ll \sum_{m=1}^{n} g_{\alpha}(m)$：
 通过假设可以得到渐近展开
@@ -221,17 +221,17 @@ $$
 $$
 s_n = \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt + \sum_{m=1}^n f_1(m)
 $$
-其中 $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ 由道具决定。 6 个V、p. 239。如果一个人的本金部分$c g_1(n)$相对于$f_1(n)$相对于$\mathscr{E}'$，并且如果一个人可以再次应用道具。 6 到函数 $g_1$ 如果$\sum_{n=1}^\infty g_1(n) = +\infty$，则将获得相当于$\sum_{m=1}^n f_1(m)$的原语，在相反情况下相当于$\sum_{m=n+1}^\infty f_1(m)$（在后一种情况下，我们写为$\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$，带有$C = \sum_{n=1}^\infty f_1(n)$）。
+其中 $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ 由道具决定。 6 个V、p. 239。如果一个人的本金部分$c g_1(n)$相对于$f_1(n)$相对于$\mathscr{E}'$，并且如果一个人可以再次应用道具。 6 到函数 $g_1$，如果$\sum_{n=1}^\infty g_1(n) = +\infty$，将获得相当于$\sum_{m=1}^n f_1(m)$的原语，在相反情况下相当于$\sum_{m=n+1}^\infty f_1(m)$（在后一种情况下，写为$\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$，带有$C = \sum_{n=1}^\infty f_1(n)$）。
 
-因此，一步一步地，我们最终可以得到$s_n$的表达式，即某个数基元的和，每个基元相对于前一个基元都可以忽略不计，项相对于最后写入的基元仍然可以忽略不计，最后是一个常数（余数项趋于0的情况）。然后剩下的就是扩展关于$\mathscr{E}'$（cf.V，p. 235）获得的每个基元。
+因此，一步一步地，最终可以得到$s_n$的表达式，即某个数原语的和，每个原语相对于前一个都可以忽略不计，项相对于最后写入的原语仍然可以忽略不计，最后是一个常数（余数项趋于0的情况）。然后剩下的就是扩展关于$\mathscr{E}'$（cf.V，p. 235）获得的每个基元。
 
 #### 例 {#fvr-v-s4-n2-exa-2 .statement tag=08G6}
 
-设 $g(n) = \frac{1}{n}$；然后
+设 $g(n) = \frac{1}{n}$；那么
 $$
 s_n = \sum_{m=1}^n \frac{1}{m} \sim \int_1^n \frac{dt}{t} = \log n
 $$
-然后
+那么
 $$
 \frac{1}{n} - (\log n - \log(n-1)) \sim -\frac{1}{2n^2}
 $$
@@ -247,7 +247,7 @@ $$
 
 我们将在VI、p. 288中看到，在最重要的情况下，*欧拉-麦克劳林求和公式*如何针对$s_n$（或$r_n$）给出*任意*阶的渐近展开。
 
-### 3.无穷乘积的部分积的渐近展开
+### 3. 无穷乘积部分积的渐近展开
 
 人们知道（Gen. Top.，V。p. 22和23），对于无限乘积与一般因子$1 + u_n$（$u_n > -1$）收敛（或可交换收敛），级数与一般级数是必要且充分的项 $\log(1 + u_n)$ 应该收敛（或交换收敛），那么就有关系
 
@@ -255,7 +255,7 @@ $$
 \log \prod_{n=1}^{\infty} (1 + u_n) = \sum_{n=1}^{\infty} \log(1 + u_n).
 $$
 
-当无穷大乘积收敛时，我们知道$u_n$趋于0；因此$\log(1 + u_n) \sim u_n$；现在我们知道，要使实数的级数交换收敛，它绝对收敛是必要且充分的（Gen. Top., IV, p. 372, 命题 5）；通过道具。 1 因此恢复了这样一个事实：乘积与一般因子$1 + u_n$是可交换收敛的当且仅当级数与一般项$u_n$绝对收敛（Gen.Top.，IV，p. 368，th.1）。 4）。
+当无限乘积收敛时，我们知道$u_n$趋于0；因此$\log(1 + u_n) \sim u_n$；现在我们知道，要使实数的级数交换收敛，它绝对收敛是必要且充分的（Gen. Top., IV, p. 372, 命题 5）；通过道具。 1 因此恢复了这样一个事实：乘积与一般因子$1 + u_n$是可交换收敛的当且仅当级数与一般项$u_n$绝对收敛（Gen.Top.，IV，p. 368，th.1）。 4).
 
 类似的论证适用于无限乘积，其一般因子为复数 $1 + u_n$ ($u_n \neq -1$)。事实上，对于这样的乘积是可交换收敛的，它是必要且充分的（Gen. Top.，VIII，p. 115，道具 2），具有一般因子 $|1 + u_n|$ 的无限乘积应该如此，并且进一步，如果 $\theta_n$ 是$1 + u_n$（在$-\pi$和$+\pi$之间取），$\theta_n$的级数应该是可交换收敛的。由于$u_n$趋于0，$\log(1 + u_n)$是从$n$（III，p. 100）的某个特定值开始定义的，并且有
 
@@ -263,7 +263,7 @@ $$
 \log(1 + u_n) = \log |1 + u_n| + i \theta_n;
 $$
 
-因此，要使乘积与广义因子 $1 + u_n$ 交换收敛，级数与广义项 $|\log(1 + u_n)|$ 绝对收敛是必要且充分的（Gen Top., VII, p. 84, th. 1）；现在$\log(1 + u_n) \sim u_n$（I，p. 18，道具5），因此再次获得条件，级数与一般项$u_n$应该绝对收敛（Gen.Top.，VIII，p. 116，th.） 1）。
+因此，要使乘积与一般因子 $1 + u_n$ 交换收敛，级数与一般项 $|\log(1 + u_n)|$ 绝对收敛是必要且充分的（Gen Top., VII, p. 84, th. 1）；现在$\log(1 + u_n) \sim u_n$（I，p. 18，道具5），因此再次获得条件，级数与一般项$u_n$应该绝对收敛（Gen.Top.，VIII，p. 116，th.） 1）。
 
 实数有时的无限乘积和级数之间的关系允许获得部分乘积$p_n = \prod_{k=1}^{n} (1 + u_k)$的渐近展开；对于部分和 $s_n = \sum_{k=1}^{n} \log(1 + u_k)$ 有一个渐近展开就足够了，然后展开 $p_n = \exp(s_n)$；因此，一个被带回到之前检查的两个问题（V，p. 238和p. 226）。
 
@@ -362,10 +362,10 @@ $$
 
 #### 注 2 {#fvr-v-s4-n4-rem-2 .statement tag=08GC}
 
-第二类判据只能应用于级数，其一般项表现得非常有规律，因为$n$趋向于$+\infty$；在其他字中，它们的范围比对数判据的范围受到更多限制，并且尝试在它们特别适合的特殊情况之外使用它们将是一个错误。对于例，对于由$u_{2m} = 2^{-m}$、$u_{2m+1} = 3^{-m}$定义的级数、$(u_n)$，有$u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$、$u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$；随着 $m$ 无限增加，第一个比率趋向于 0，第二个比率趋向于 $+\infty$，因此第二类标准不适用；然而，从$u_n \preccurlyeq 2^{-n/2}$开始，级数收敛于直接的。
+第二类判据只能应用于级数，其一般项表现得非常规律，因为$n$趋于$+\infty$；在其他字中，它们的范围比对数判据的范围受到更多限制，并且尝试在它们特别适合的特殊情况之外使用它们将是一个错误。对于例，对于$u_{2m} = 2^{-m}$，$u_{2m+1} = 3^{-m}$定义的级数$(u_n)$，有$u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$，$u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$；随着 $m$ 无限增加，第一个比率趋向于 0，第二个比率趋向于 $+\infty$，因此第二类标准不适用；然而，从$u_n \preccurlyeq 2^{-n/2}$开始，级数收敛于直接的。
 
 即使$u_{n+1}/u_n$有一个简单的表达式，右$u_n$的主体部分直接求值通常会像第二种判据一样快速地得出结果。对于例，对于超几何级数，斯特林的公式立即显示$u_n \sim a n^{\alpha + \beta - \gamma - 1}$，其中$a$是常数$\neq 0$，然后适用阶0的对数准则。
 
 ### 习题 {#fvr-v-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -48,27 +48,27 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 26
-content_sha256: aaece97d6058380b7ca526528640d76c63808c75090db09b9fc14491c5d9b7a7
+content_sha256: fc72db914dd4d073ad5043cedff0d07af10defc3b65e3c191c715aba5b061ca3
 translated_from: content/en/lie/IV/01_s1_coxeter_groups.md
 translation_method: google
 source_content_sha256: aeca25119a4e3b1300664856f323c4070b977911903d6cf99cfb24051466f433
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1dee64191f8b99b6c77e076f6393ca885aa51a29f93be17fa377694ab5117824
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。考克塞特群
 
-在这个截面中，W 表示群与单位元素 1 相乘，S 表示 W 的生成元的集合，使得 S = S^{-1} 且 1 \notin S。W 的每个元素都是乘积 S 的元素的有限序列。从 no. 3 开始，我们假设 S 的每个元素都是阶 2。
+在这个截面中，W表示群乘法写成，单位元素1，S表示W的生成元的集合，使得S = S^{-1}和1\notin S。W的每个元素都是乘积 S 的元素的有限序列。从 no. 3 开始，我们假设 S 的每个元素都有阶 2。
 
 ### 1. 长度并减少分解
 
 #### 定义 1 {#lie-iv-s1-def-1 .statement tag=0ALN}
 
-设 w \in W。w 的长度（相对于 S），用 l_S(w) 或简称为 l(w) 表示，是最小的整数 q \geq 0，使得 w 是 S 的 q 元素的序列的乘积。 w 的约化分解 （相对于S）是S的元素中的任何序列 s = (s_1, \ldots, s_q)，使得w = s_1 \cdots s_q且q = l(w)。
+设 w \in W。w 的长度（相对于 S），用 l_S(w) 或简称为 l(w) 表示，是最小的整数 q \geq 0，使得 w 是 S 的 q 元素的序列的乘积。 w 的约化分解 （相对于 S）是 S 的元素中的任意序列 s = (s_1, \ldots, s_q)，使得 w = s_1 \cdots s_q 且 q = l(w)。
 
 因此 1 是长度 0 的唯一元素，S 由长度 1 的元素组成。
 
@@ -107,7 +107,7 @@ $$
 
 鉴于公式（1）和（2），公式$d(w, w') = l(w{w'}^{-1})$定义在$W$上的距离，在右平移下不变。
 
-### 2.二面角群
+### 2. 二面角群
 
 #### 定义 2 {#lie-iv-s1-def-2 .statement tag=0ALR}
 
@@ -115,7 +115,7 @@ $$
 
 #### 例 {#lie-iv-s1-n2-exa-1 .statement tag=0ALS}
 
-令$M$为乘法群$\{1, -1\}$，并令$m$为整数$\geq 2$（或$m = \infty$）。然后$M$通过$(-1).x = -x$作用于群$\mathbf{Z}/m\mathbf{Z}$（分别作用于$\mathbf{Z}$），相应的通过$M$半直接乘积作用于$\mathbf{Z}/m\mathbf{Z}$（分别作用于$M$） $\mathbf{Z}$）用$D_m$表示。 $D_m$中的元素因此为对$(\varepsilon, x)$以及$\varepsilon = \pm 1$和$x \in \mathbf{Z}/m\mathbf{Z}$（分别为$x \in \mathbf{Z}$）； $D_m$ 上的群运算由公式给出
+令 $M$ 为乘法群 $\{1, -1\}$，并令 $m$ 为整数 $\geq 2$（分别为 $m = \infty$）。然后$M$通过$(-1).x = -x$作用于群$\mathbf{Z}/m\mathbf{Z}$（分别作用于$\mathbf{Z}$），并且相应的通过$\mathbf{Z}/m\mathbf{Z}$作用于$M$的半直接乘积（分别作用于$M$） $\mathbf{Z}$）用$D_m$表示。 $D_m$中的元素因此为对$(\varepsilon, x)$以及$\varepsilon = \pm 1$和$x \in \mathbf{Z}/m\mathbf{Z}$（分别为$x \in \mathbf{Z}$）； $D_m$ 上的群运算由公式给出
 $$
 (\varepsilon, x).(\varepsilon', x') = (\varepsilon \varepsilon', \varepsilon' x + x').
 $$
@@ -163,7 +163,7 @@ $$
 
 现在假设 $m$ 是*有限*。如果$q \geq 2m$，我们有$w_q = w_{q-2m}$和$w'_q = w'_{q-2m}$；如果$m \leq q \leq 2m$，我们有$w_q = w'_{2m-q}$，$w'_q = w_{2m-q}$。因此，如果$q > m$，$s_q$和$s'_q$都不会减少分解。因此，$W$的每个$2m$元素是$1 \leq q \leq m-1$和$w_m = w'_m$的$2m$、元素、$w_0 = w'_0$、$w_q$和$w'_q$之一。因此，这些$2m$元素是不同的，并且如上所述，$q \leq m$的$l(w_q) = l(w'_q) = q$以及$W$的元素的减少分解的*集合由$s_q$和$s'_q$组成$0 \leq q \leq m$*。除$w_m$外，$W$中的每个元素都有一个唯一的缩减分解； $w_m$ 有两个。
 
-### 3. Coxeter 群的第一个特性
+### 3. Coxeter 的第一个特性群
 
 回想一下，从现在开始，我们假设 S 的元素是阶 2。
 
@@ -191,9 +191,9 @@ $$
 
 #### 注 {#lie-iv-s1-n3-rem-1 .statement tag=0ALZ}
 
-假设 (W, S) 是 Coxeter 系统。对于所有 $s \in S$，存在从 W 到群 {1, -1} 的同态 $\varepsilon$，其特征为 $\varepsilon(s) = -1$。我们称$\varepsilon(w)$为w的签名；它等于$(-1)^{l(w)}$。 公式 $\varepsilon(ww') = \varepsilon(w)\varepsilon(w')$ 因此转换为 $l(ww') \equiv l(w) + l(w') \mod 2$。
+假设 (W, S) 是 Coxeter 系统。对于所有 $s \in S$，存在从 W 到群 {1, -1} 的特征为 $\varepsilon(s) = -1$ 的同态 $\varepsilon$。我们称$\varepsilon(w)$为w的签名；它等于$(-1)^{l(w)}$。 公式 $\varepsilon(ww') = \varepsilon(w)\varepsilon(w')$ 因此转换为 $l(ww') \equiv l(w) + l(w') \mod 2$。
 
-1 这意味着 (W, S) 具有以下泛性质：给定从 S 到 G 的群 G 和映射 f，使得 $(f(s)f(s'))^{m(s,s')} = 1$ 对于 I 中的 (s, s')，存在从 W 到 G 延伸 f 的同态 g。这个同态是唯一的，因为S生成W。这个定义的等价形式如下。令$\overline{W}$为群，f同态从$\overline{W}$到W，h映射从S到$\overline{W}$，使得$f(h(s)) = s$和$(h(s)h(s'))^{m(s,s')} = 1$对于S中的(s, s')并且使得h(s)(对于$s \in S$) 生成$\overline{W}$。那么 f 是单射的（因此是从 $\overline{W}$ 到 W 的同构）。
+1 这意味着 (W, S) 具有以下泛性质：给定从 S 到 G 的群 G 和映射 f，使得 $(f(s)f(s'))^{m(s,s')} = 1$ 对于 I 中的 (s, s')，存在从 W 到 G 延伸 f 的同态 g。这个同态是唯一的，因为S生成W。这个定义的等价形式如下。令$\overline{W}$为群，从$\overline{W}$到W的f同态以及从S到$\overline{W}$的h映射，使得$f(h(s)) = s$和$(h(s)h(s'))^{m(s,s')} = 1$对于S中的(s, s')并且使得h(s)(对于$s \in S$) 生成$\overline{W}$。那么 f 是单射的（因此从 $\overline{W}$ 到 W 是同构）。
 
 #### 命题 3 {#lie-iv-s1-prop-3 .statement tag=0AM0}
 
@@ -308,7 +308,7 @@ $w'$ 并放入 $s = (s, s'_1, \ldots, s'_{p-1})$ 和 $\Phi(s') = (t'_1, \ldots, 
 
 引理 2 中定义的集合 $T_w$ 由形式 $w''s{w''}^{-1}$ 相应的的元素到三元组$(w', w'', s) \in W \times W \times S$ 组成，使得$w = w''sw'$ 和$l(w') + l(w'') + 1 = l(w)$。
 
-### 5.交换条件
+### 5. 交换条件
 
 “交换条件”是关于$(W, S)$的以下断言：
 
@@ -373,11 +373,11 @@ s_{q+1-k} = (s'_1, s_1, \ldots, s_1, s'_1, s_1, s_2, \ldots, s_k)
 $$
 对于$q - k$奇数和$0 \leq k \leq q$。
 
-用 (H_j) 断言 “s_j \in D, s_{j+1} \in D \text{ and } F(s_j) \neq F(s_{j+1})”表示。根据 A)，(H_j) \ 意味着 $0 \leq j < q$ 的 (H_{j+1})，并且条件 b) 不满足 (H_q)。因而，(H_0)不满足。由于$s_0 = s'$和$s_1 = s$，因此得出$F(s) = F(s')$。
+用 (H_j) 断言 “s_j \in D, s_{j+1} \in D \text{ 和 } F(s_j) \neq F(s_{j+1})”表示。根据 A)，(H_j) \ 意味着 $0 \leq j < q$ 的 (H_{j+1})，并且条件 b) 不满足 (H_q)。因而，(H_0)不满足。由于$s_0 = s'$和$s_1 = s$，因此得出$F(s) = F(s')$。
 
 #### 命题 5 {#lie-iv-s1-prop-5 .statement tag=0AM7}
 
-*设 M 为幺半群（其中单位元 1）且从 S 到 M 为 f 映射。对于 s, s' \in S，令 m(s, s') 为 ss' 的阶并放入*
+*设 M 为幺半群（其中单位元 1）且 f 映射从 S 到 M。对于 s, s' \in S，令 m(s, s') 为 ss' 的阶并放入*
 
 $$
 a(s, s') = \begin{cases}
@@ -391,34 +391,34 @@ $$
 $$
 g(w) = f(s_1) \ldots f(s_q)
 $$
-*对于所有 $w \in W$ 和任何减少的分解 $(s_1, \ldots, s_q)$ w。*
+*适用于所有 $w \in W$ 以及任意减少的分解 $(s_1, \ldots, s_q)$。*
 
 对于任何$w \in W$，令$D_w$是w的减少的分解和$F_w$映射从$D_w$到M的集合，定义为
 $$
 F_w(s_1, \ldots, s_q) = f(s_1) \ldots f(s_q).
 $$
-我们将通过 w 的长度上的归纳证明 $F_w$ 是常数，这将建立命题 5。 $l(w) = 0, 1$ 的情况是微不足道的，我们假设 $q \geq 2$ 并且我们的断言被证明对于元素 w 和 $l(w) < q$。令 w 为长度 q 和 $s, s' \in D_w$； 引理 4 足以证明引理的情况 a) 和 b) 中的$F_w(s) = F_w(s')$。
+我们将通过 w 的长度上的归纳证明 $F_w$ 是常数，这将建立命题 5。 $l(w) = 0, 1$ 的情况是微不足道的，我们假设 $q \geq 2$ 并且我们的断言被证明对于元素 w 和 $l(w) < q$。设 w 为长度 q 和 $s, s' \in D_w$；通过引理 4 足以证明引理的情况 a) 和 b) 中的$F_w(s) = F_w(s')$。
 
-一）公式
+a) 公式
 $$
 F_w(s_1, \ldots, s_q) = f(s_1)F_{w''}(s_2, \ldots, s_q) = F_{w'}(s_1, \ldots, s_{q-1})f(s_q)
 $$
 对于$w' = s_1 \ldots s_{q-1}$、$w'' = s_2 \ldots s_q$和归纳假设，如果$s_1 = s'_1$或$s_q = s'_q$，则显示$F_w(s) = F_w(s')$。
 
-b) 假设 S 存在两个元素 s 和 s'，使得对于 j 奇数和 k 偶数，$s_j = s'_k = s$ 和 $s_k = s'_j = s'$。治疗这个案子就够了$s \neq s'$。 序列 s 和 s' 是由 s 和 s' 生成的二面体群中 w 的两个不同的约化分解。根据no. 2中的*注*，ss'的阶 m必然是有限的，并且在注中的记号中，$s = s_m$和$s' = s'_m$。因而，$F_w(s) = a(s, s')$和$F_w(s') = a(s', s)$，因而
+b) 假设 S 存在两个元素和 s'，使得对于 j 奇数和 k 偶数，$s_j = s'_k = s$ 和 $s_k = s'_j = s'$。治疗这个案子就够了$s \neq s'$。 序列 s 和 s' 是由 s 和 s' 生成的二面体群中 w 的两个不同的约化分解。根据no. 2中的*注*，ss'的阶 m必然是有限的，并且在注中的记号中，$s = s_m$和$s' = s'_m$。因而，$F_w(s) = a(s, s')$和$F_w(s') = a(s', s)$，因而
 $$
 F_w(s) = F_w(s').
 $$
 
-### 6. 考克塞特群的特征
+### 6. 考克斯特的特征群
 
 #### 定理 1 {#lie-iv-s1-thm-1 .statement tag=0AM8}
 
 (W, S) 是 Coxeter 系统当且仅当它满足 no. 5 的交换条件 (E)。
 
-no. 4 的引理 3 表明任何 Coxeter 系统满足 (E)。
+no. 4 中的引理 3 表明任何 Coxeter 系统满足 (E)。
 
-相反，假设满足(E)。设G为从S到G的群和f映射，使得每当s和$s'$属于到S和$ss'$时$(f(s)f(s'))^m = 1$是有限的阶m。根据命题 5，从 W 到 G 存在映射 g，使得
+相反，假设满足(E)。令G为从S到G的群和f映射，使得每当s和$s'$属于到S和$ss'$时$(f(s)f(s'))^m = 1$是有限的阶m。根据命题 5，从 W 到 G 存在映射 g，使得
 $$
 g(w) = f(s_1) \ldots f(s_q)
 $$
@@ -426,7 +426,7 @@ $$
 $$
 g(sw) = f(s)g(w) \quad \text{for } s \in S, w \in W
 $$
-由于 S 生成 W。根据 no. 5 的第 4 条，只有两种情况是可能的：
+由于 S 生成 W。根据 no. 5 的 Prop. 4，只有两种情况是可能的：
 
 a) $l(sw) = l(w) + 1$：如果$(s_1, \ldots, s_q)$是$w$的减少的分解，则$(s, s_1, \ldots, s_q)$是$sw$的减少的分解，因而（21）。
 
@@ -445,7 +445,7 @@ b) $l(sw) = l(w) - 1$：放入$w' = sw$；然后是$w = sw'$和$l(sw') = l(w') +
 设$w \in W$和$s \in S$。根据no. 5的第4条命题，我们必须区分两种情况：
 
 a) $l(sw) = l(w) + 1$：然后$w \in P_s$。
-b) $l(sw) = l(w) - 1$：将$w' = sw$改为$w = sw'$；然后
+b) $l(sw) = l(w) - 1$：将$w' = sw$改为$w = sw'$；那么
 $$
 l(w') < l(sw')
 $$
@@ -455,7 +455,7 @@ $$
 
 设$q$为$w$中的长度。从$w \in P_s$得出$l(sw) = q + 1$；从$ws' \in P_s$得出$l(sws') = l(ws') - 1 \leq q$。从$l(sws') = l(sw) \pm 1$开始，我们终于有了$l(ws') = q + 1$和$l(sws') = q$。
 
-令$(s_1, \ldots, s_q)$为$w$和$s_{q+1} = s'$的约分解；那么$(s_1, \ldots, s_q, s_{q+1})$是分解减少了元素$ws'$的长度$q + 1$。通过交换条件，存在整数$j$与$1 \leq j \leq q + 1$使得
+令$(s_1, \ldots, s_q)$为$w$和$s_{q+1} = s'$的约分解；那么 $(s_1, \ldots, s_q, s_{q+1})$ 是分解的元素 $ws'$ 长度 $q + 1$ 的减少。通过交换条件，存在整数 $j$ 与 $1 \leq j \leq q + 1$ 使得
 $$
 ss_1 \ldots s_{j-1} = s_1 \ldots s_j.
 $$
@@ -466,7 +466,7 @@ $$
 
 #### 命题 6 {#lie-iv-s1-prop-6 .statement tag=0AM9}
 
-*设* $(P_s)_{s \in S}$ *为子集* $W$ *满足* (C) *和以下条件*的家庭：
+*设* $(P_s)_{s \in S}$ *是子集的* $W$ *满足* (C) *和以下条件*的家庭：
 
 (A') $1 \in P_s$ *对于所有人* $s \in S$。
 (B') *集合* $P_s$ *和* $sP_s$ *对于所有* $s \in S$ 都是不相交的。
@@ -479,7 +479,7 @@ a) $w \notin P_s$。令 $(s_1, \ldots, s_q)$ 为 $w$ 的约分解，并且
 $$
 w_j = s_1 \ldots s_j
 $$
-$1 \leq j \leq q$；还放了$w_0 = 1$。由于 $w_0 \in P_s$ 由 (A') 并且由于 $w = w_q$ 不在 $P_s$ 中，因此存在整数 $j$ 与 $1 \leq j \leq q$，使得 $w_{j-1} \in P_s$ 和 $w_j = w_{j-1} s_j$ 不会属于到 $P_s$。通过（C），
+$1 \leq j \leq q$；还放了$w_0 = 1$。由于 $w_0 \in P_s$ 由 (A') 且由于 $w = w_q$ 不在 $P_s$ 中，因此存在整数 $j$ 与 $1 \leq j \leq q$，使得 $w_{j-1} \in P_s$ 和 $w_j = w_{j-1} s_j$ 不会属于到 $P_s$。通过（C），
 $$
 sw_{j-1} = w_{j-1} s_j.
 $$
@@ -493,7 +493,7 @@ b) $w \in P_s$：放入$w' = sw$，使得$w' \notin P_s$乘以(B')。通过a)，
 
 a) 和 b) 的比较证明 $P_s$ 由那些 $w \in W$ 组成，使得 $l(sw) > l(w)$。正如我们在 a) 中看到的，交换条件由此而来，因此 $(W, S)$ 是 Coxeter 系统（no. 6 的第 1 个）。
 
-### 8.考克塞特的子群群
+### 8. 考克塞特的子群群
 
 在这个数中，我们假设$(W, S)$是Coxeter系统。对于$S$的任何子集$X$，我们用$X$生成的$W$的$W_X$子群表示。
 
@@ -537,13 +537,13 @@ $$
 
 *对于$S$中的任何子集$X$和$W_X$中的任何$w$，$w$中的长度相对于$W_X$中的生成的集合$X$等于$l_S(w)$。
 
-令 $(s_1, \ldots, s_q)$ 为 $w$ 的减少的分解，视为 $W$ 的元素。对于 $1 \leq j \leq q$，我们有 $w = s_1 \ldots s_q$ 和 $s_j \in X$（Cor. 1）；另外，$w$不能为$X \subset S$$q' < q$元素乘积乘以$q = l_S(w)$定义。*
+令 $(s_1, \ldots, s_q)$ 为 $w$ 的减少的分解，视为 $W$ 的元素。对于 $1 \leq j \leq q$，我们有 $w = s_1 \ldots s_q$ 和 $s_j \in X$（Cor. 1）；另外，$w$不能由$q = l_S(w)$定义为$X \subset S$$q' < q$元素乘积。*
 
 #### 定理 2 {#lie-iv-s1-thm-2 .statement tag=0AMF}
 
 (i) *对于 $S$ 中的任何子集 $X$，对 $(W_X, X)$ 是 Coxeter 系统。*
 
-(ii) 设$(X_i)_{i \in I}$是子集和$S$的家庭。如果$X = \bigcap_{i \in I} X_i$，则$W_X = \bigcap_{i \in I} W_{X_i}$。
+(ii) 设 $(X_i)_{i \in I}$ 为 $S$ 的子集的家庭。如果$X = \bigcap_{i \in I} X_i$，则$W_X = \bigcap_{i \in I} W_{X_i}$。
 
 (iii) 令$X$和$X'$为$S$中的两个子集。那么$W_X \subset W_{X'}$（或$W_X = W_{X'}$）当且仅当$X \subset X'$（或$X = X'$）。
 
@@ -621,6 +621,6 @@ $$
 
 ### 习题{#lie-iv-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。
 
-[^1]: 群 G 是 $(G_i)_{i \in I}$ 子群的*受限制直接乘积*，如果对于 I 的任何有限子集 J，子群 $G_J$ 由 $G_i$ 生成$i \in J$是$G_i$对于$i \in J$的直接乘积，并且如果G是$G_J$的并。 等价地，对于$i \neq j$，$G_i$的每个元素与$G_j$的每个元素可交换，并且G的每个元素可以唯一地写为乘积$\prod_{i \in I} g_i$，对于除有限多个之外的所有$g_i \in G_i$和$g_i = 1$ 指标$i$。 最后一个条件相当于说，G是由$G_i$的并生成的，并且对于所有$i \in I$和I的所有有限子集J生成$G_i \cap G_J = \{1\}$，使得$i \notin J$。
+[^1]: 群 G 是子群族$(G_i)_{i \in I}$的*受限直接乘积*，如果对于I的任何有限子集 J，由$i \in J$的$G_i$生成的G的子群$G_J$是直接$i \in J$的$G_i$的乘积，并且如果G是$G_J$的并。 等价地，对于$i \neq j$，$G_i$的每个元素与$G_j$的每个元素可交换，并且G的每个元素可以唯一地写为乘积$\prod_{i \in I} g_i$，对于除有限多个之外的所有$g_i \in G_i$和$g_i = 1$ 指标$i$。 最后一个条件相当于说，G是由$G_i$的并生成的，并且对于所有$i \in I$和I的所有有限子集J生成$G_i \cap G_J = \{1\}$，使得$i \notin J$。

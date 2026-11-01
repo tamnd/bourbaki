@@ -49,16 +49,16 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: d40fdf497b2ca8661982391e8e827e0102df62dfc745bbef3fcc251d7d19ce6b
+content_sha256: f98dffda3be7e72d6c5585f5d6bae9c00d33fdb5ce6cecd1907e15ae657360cd
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
 translation_method: google
 source_content_sha256: 0efee89afffa5507d5ac319dd9602df1317a1ebd3ab29f31c8942d8c7c2a2199
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6e8926325fa490717bc39d0b00a4a6fb718e25901f3796d67a5b685bba4b9ad2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。包络代数的李代数
@@ -75,7 +75,7 @@ $$
 
 #### 定义 1 {#lie-i-s2-def-1 .statement tag=09UW}
 
-*令$g$为$K$之上的李代数，$K$模$g$的$T$张量代数和$J$生成的$T$的两侧理想张量$x \otimes y - y \otimes x - [x, y]$其中$x \in g, y \in g$。结合律代数 $U = T/J$ 称为 $g$ 的包络代数。 $T$典范映射限制至$g$到$U$称为$g$典范映射到$U$。*
+*令$g$为$K$之上的李代数，$K$模$g$的$T$张量代数和$J$生成的$T$的两侧理想张量$x \otimes y - y \otimes x - [x, y]$其中$x \in g, y \in g$。结合律代数 $U = T/J$ 称为 $g$ 的包络代数。 $T$的典范映射到限制到$g$到$U$称为$g$到典范映射到$U$。*
 
 令$T_+$为$T$由……组成的张量的双面理想，其阶0的分量为零。令$T_0 = K.1$为阶0的$T$元素集合。令$U$中的$U_+$和$U_0$为$T_+$和$T_0$的典范像。由于$J \subset T_+$、分解进入直和$T = T_0 + T_+$意味着分解进入直和$U = U_0 + U_+$。因此，代数 $U$ 单位元不同于 0 和 $U_0 = K.1$。对于所有$x \in U$，$U_0$中$x$的分量称为$x$的*常数项*。 元素与常数项零形式$U$的双边理想，即$U$中$g$的典范像生成的双边理想$U^+$。
 
@@ -99,7 +99,7 @@ $$
 \tau'(x \otimes y - y \otimes x - [x, y]) = \sigma(x)\sigma(y) - \sigma(y)\sigma(x) - \sigma([x, x]) = 0;
 $$
 
-因此$\tau'$是$J$上的零和经过上的定义到$U$的商同态$\tau$到$L$，映射1比1，这样$\sigma = \tau \circ \sigma_0$。从$\sigma_0(g)$开始，$\tau$的唯一性是直接的，并且1生成代数$U$。
+因此$\tau'$是$J$上的零和经过上的定义与$U$的商同态$\tau$除以$L$，映射1比1，这样$\sigma = \tau \circ \sigma_0$。从 $\sigma_0(g)$ 开始，$\tau$ 的唯一性是直接的，并且 1 生成代数 $U$。
 
 令$g'$为$K$之上的另一个李代数，$U'$将代数和$\sigma'_0$典范映射包络于$g'$到$U'$。设$\phi$为$g$到$g'$的同态。那么$\sigma'_0 \circ \phi$是$g$到$U'$的$\alpha$映射；因此，存在且仅有一个 $U$ 到 $U'$ 映射 1 比 1 的同态 $\tilde{\phi}$ 且图表
 
@@ -115,13 +115,13 @@ $$
 
 ### 2. 包络代数乘积李代数
 
-令$g_1, g_2$是$K$上的两个李代数，$U_i$将$g_i$的代数和$g_i$的$\sigma_i$典范映射包络到$U_i$（$i = 1, 2$）中。设$g = g_1 \times g_2, U$为代数和$g$的$\sigma$典范映射到$U$的包络。 $g_1$和$g_2$的典范嵌入进入$g$ 定义 $U_1$和$U_2$的典范同态进入$U$，其像通勤，因此同态将代数 $U_1 \otimes_K U_2$ 中的$\phi$ 化为代数 $U$，映射 1 比 1。
+令$g_1, g_2$是$K$上的两个李代数，$U_i$将$g_i$的代数和$g_i$的$\sigma_i$典范映射包络到$U_i$（$i = 1, 2$）中。令 $g = g_1 \times g_2, U$ 为代数和 $g$ 的 $\sigma$ 典范映射到 $U$ 的包络。 $g_1$和$g_2$的典范嵌入进入$g$ 定义 $U_1$和$U_2$的典范同态进入$U$，其像通勤，因此同态将代数 $U_1 \otimes_K U_2$ 中的$\phi$ 化为代数 $U$，映射 1 比 1。
 
 #### 命题 2 {#lie-i-s2-prop-2 .statement tag=09UY}
 
 *同态$\phi$为代数同构*
 
-映射 $\sigma': (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$ ($x_1 \in g_1, x_2 \in g_2$) 是 $g$ 到 $U_1 \otimes_K U_2$ 的 $\alpha$ 映射，因此存在 $U$ 的 (no. 1, 命题 1) 唯一同态 $\tau$ $U_1 \otimes_K U_2$ 映射 1 比 1，这样：
+映射 $\sigma': (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$ ($x_1 \in g_1, x_2 \in g_2$) 是 $g$ 到 $U_1 \otimes_K U_2$ 的 $\alpha$ 映射，因此存在 $U$ 的 (no. 1, 命题 1) 唯一同态 $\tau$ $U_1 \otimes_K U_2$ 映射 1 比 1，使得：
 
 $$(1)$$
 $$
@@ -130,22 +130,22 @@ $$
 
 现在$\phi \circ \tau \circ \sigma = \phi \circ \sigma' = \sigma$和$\tau \circ \phi \circ \sigma' = \tau \circ \sigma = \sigma'$，因此$\phi \circ \tau$和$\tau \circ \phi$分别是$U$和$U_1 \otimes_K U_2$的恒等映射。因此命题。
 
-$U_1 \otimes_K U_2$ 与同构 $\phi$ 下的$U$ 进行标识。然后$g$到$U$的典范映射由(1)与映射识别：
+$U_1 \otimes_K U_2$ 与同构 $\phi$ 下的$U$ 进行识别。然后$g$到$U$的典范映射由(1)与映射识别：
 $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2).
 $$
 
-类似地，如果 $g_1, \ldots, g_n$ 是李代数超过 $K$，并且包络代数 $U_1, \ldots, U_n$，则 $g_1 \times \cdots \times g_n$ 的包络代数 $U$ 被规范地标识为 $U_1 \otimes_K \cdots \otimes_K U_n$ 和典范映射 $g_1 \times \cdots \times g_n$ 到 $U$ 被识别为映射：
+类似地，如果 $g_1, \ldots, g_n$ 是李代数超过 $K$，且包络代数 $U_1, \ldots, U_n$，则 $g_1 \times \cdots \times g_n$ 的包络代数 $U$ 被规范地识别为 $U_1 \otimes_K \cdots \otimes_K U_n$ 和典范映射 $g_1 \times \cdots \times g_n$ 到 $U$ 被识别为映射：
 $$
 (x_1, \ldots, x_n) \mapsto \sigma_1(x_1) \otimes 1 \otimes \cdots \otimes 1 + \cdots + 1 \otimes \cdots \otimes 1 \otimes \sigma_n(x_n)
 $$
-（$\sigma_i$ 表示 $g_i$ 中的典范映射到 $U_i$）。
+（$\sigma_i$ 表示 $g_i$ 中的典范映射到$U_i$）。
 
-### 3. 包裹代数谎言子代数
+### 3. 谎言代数的包围子代数
 
-让$g$比$K$超过李代数，$g$的$h$子代数和$g, h$的$\sigma, \sigma'$典范映射进入它们的包络线代数$U, V$。然后将$h$的典范嵌入$i$转换为$g$定义同态$\tilde{i}$，称为*规范*，将$V$转换为$U$，从而得到$\sigma \circ i = \tilde{i} \circ \sigma'$。 代数 $\tilde{i}(V)$ 由 1 和 $\sigma(h)$ 生成。我们将看到（no. 7，定理 5 的推论）$\tilde{i}$ 在重要情况下是单射的。
+令$g$为李代数超过$K$，$g$的$h$子代数和$g, h$的$\sigma, \sigma'$典范映射进入它们的包络线代数$U, V$。然后将$h$的典范嵌入$i$转换为$g$定义同态$\tilde{i}$，称为*规范*，将$V$转换为$U$，从而得到$\sigma \circ i = \tilde{i} \circ \sigma'$。 代数 $\tilde{i}(V)$ 由 1 和 $\sigma(h)$ 生成。我们将看到（no. 7，定理 5 的推论）$\tilde{i}$ 在重要情况下是单射的。
 
-如果$h$是$g$的理想，则$\sigma(h)$重合生成的$U$的左理想与$\sigma(h)$生成的右理想，在其他字中它是双边理想$R$。这是因为，对于 $x \in h$ 和 $x' \in g$，
+如果$h$是$g$的理想，则$\sigma(h)$重合生成的$U$的左理想与$\sigma(h)$生成的右理想，在其他字中它是双面理想$R$。这是因为，对于 $x \in h$ 和 $x' \in g$，
 $$
 \sigma(x)\sigma(x') = \sigma(x')\sigma(x) + \sigma([x, x'])
 $$
@@ -153,13 +153,13 @@ $$
 
 #### 命题 3 {#lie-i-s2-prop-3 .statement tag=09UZ}
 
-*令$h$为$g$、$g$的$p$典范同态到$g/h$和$W$包络$g/h$的代数。 同态:*
+*令$h$为$g$、$g$的$p$典范同态到$g/h$和$W$的理想，$g/h$的包络代数。 同态:*
 $$
 \tilde{p}: U \to W
 $$
 *规范地定义$p$是满射，其核是由$\sigma(h)$生成的$U$的理想$R$。*
 
-令 $\sigma''$ 为 $g/\mathfrak{h}$ 的典范映射进入 W。可交换的图表：
+令 $\sigma''$ 为 $g/\mathfrak{h}$ 的典范映射进入 W。交换律图表：
 
 $$
 \begin{array}{ccc}
@@ -194,11 +194,11 @@ U/R & \xrightarrow{\phi} & W
 \end{array}
 $$
 
-代入 W 使得$\tilde{p} = \phi \circ \psi$。 g 到 U/R 的映射 $\psi \circ \sigma$ 是一个 $\alpha$ 映射，并且是 $\mathfrak{h}$ 上的零，因此定义是 $g/\mathfrak{h}$ 到 U/R 的 $\alpha$ $\theta$ 映射，使得$\theta \circ p = \psi \circ \sigma$。然后$\phi \circ \theta \circ p = \phi \circ \psi \circ \sigma = \sigma'' \circ p$。因此$\phi \circ \theta = \sigma''$。在 U/R 映射 1 比 1 中存在 (no. 1, 命题 1) 个且仅有一个同态 $\phi'$，且$\theta = \phi' \circ \sigma''$。那么$\phi' \circ \phi \circ \theta = \phi' \circ \sigma'' = \theta$和$\phi \circ \phi' \circ \sigma'' = \phi \circ \theta = \sigma''$，因此$\phi' \circ \phi$和$\phi \circ \phi'$分别是U/R和W的恒等映射。这样就完成了证明。
+代入 W 使得$\tilde{p} = \phi \circ \psi$。 g 到 U/R 的映射 $\psi \circ \sigma$ 是 $\alpha$ 映射，并且是 $\mathfrak{h}$ 上的零，因此定义是 $g/\mathfrak{h}$ 到 U/R 的 $\alpha$ $\theta$ 映射，使得 $\theta \circ p = \psi \circ \sigma$。然后$\phi \circ \theta \circ p = \phi \circ \psi \circ \sigma = \sigma'' \circ p$。因此$\phi \circ \theta = \sigma''$。在 U/R 映射 1 比 1 中，存在 (no. 1, 命题 1) 个且仅有一个同态 $\phi'$，且$\theta = \phi' \circ \sigma''$。那么$\phi' \circ \phi \circ \theta = \phi' \circ \sigma'' = \theta$和$\phi \circ \phi' \circ \sigma'' = \phi \circ \theta = \sigma''$，因此$\phi' \circ \phi$和$\phi \circ \phi'$分别是U/R和W的恒等映射。这样就完成了证明。
 
-U/R 在同构 $\phi$ 下用 W 标识。然后，将$g/\mathfrak{h}$的典范映射$\sigma''$转化为$\theta$，即与$g/\mathfrak{h}$的映射转化为从$\sigma$求商的U/R。
+U/R 在同构 $\phi$ 下用 W 标识。然后将$g/\mathfrak{h}$的典范映射$\sigma''$转化为W，用$\theta$来识别，即用$g/\mathfrak{h}$的映射转化为从$\sigma$取商得出的U/R。
 
-### 4. 包络对面李代数的代数
+### 4. 包络相反的李代数的代数
 
 令$g$是K上的李代数，$g^0$与李代数和$\sigma$相反，以及$g$和$g^0$的$\sigma_0$典范映射进入它们的包络线代数U和V。那么 $\sigma$ 是 $g^0$ 到关联词代数 $U^0$ 的 $\alpha$ 映射，与关联词代数 U 相反。因此，存在且仅有一个 V 到 $U^0$ 的同态 $\phi$ 映射 1 比 1，使得 $\sigma = \phi \circ \sigma_0$。
 
@@ -208,7 +208,7 @@ U/R 在同构 $\phi$ 下用 W 标识。然后，将$g/\mathfrak{h}$的典范映�
 
 U 存在同态 $\phi'$ 到 $V^0$ 映射 1 比 1 且$\sigma_0 = \phi' \circ \sigma$。 $\phi'$可以被认为是$U^0$的同态变成V。那么$\sigma_0 = \phi' \circ \phi \circ \sigma_0$和$\sigma = \phi \circ \phi' \circ \sigma$，因此$\phi' \circ \phi$和$\phi \circ \phi'$是V和U的恒等映射。因此命题。
 
-V 与同构 $\phi$ 下的$U^0$ 进行识别。那么$\sigma_0$就被识别为$\sigma$。
+V 与同构 $\phi$ 下的$U^0$ 进行标识。那么$\sigma_0$就被识别为$\sigma$。
 
 通过此识别，$g$的同构$\theta : x \mapsto -x$到$g^0$定义同构$\tilde{\theta}$到$V = U^0$。这个同构可以被认为是U的反自同构，称为U的主反自同构。如果$x_1, \ldots, x_n$在$g$中，则：
 
@@ -219,13 +219,13 @@ $$
 = (-1)^n \sigma(x_n) \ldots \sigma(x_1).
 $$
 
-### 5. 代数模对称
+### 5. 对称代数模
 
 设V为K-模。 V 可以以一种独特的方式被视为可交换的李代数。然后可以如下获得V的包络代数：令T为V的张量代数；令 I 为由张量 $x \otimes y - y \otimes x$ ($x \in V, y \in V$) 生成的 T 的两侧理想；然后形式代数$S = T/I$。
 
-回想一下（*代数*，章III, § 6），S被称为V的对称代数，我们简单总结一下这个章，证明中所需的性质，其中直接的。令$T^n$为T中阶n的齐次张量的集合。则$I = (I \cap T^2) + (I \cap T^3) + \cdots$，因此S为$T^n$的典范像$S^n$的直和。 $S^n$的元素称为次数n的齐次。 $S^0 = K.1, S^1$ 与V 和$S^n S^p \subset S^{n+p}$ 进行识别。 代数 S 由 1 和 $S^1 = V$ 生成。显然 $S^1$ 中的任意两个元素都是可置换的，因此 S 是可交换的。如果V是自由K-模且基$(x_\lambda)_{\lambda \in \Lambda}$，则将多项式代数$K[X_\lambda]_{\lambda \in \Lambda}$的典范同态f放到S上，其中映射1比1和$X_\lambda$到$x_\lambda$对于所有$\lambda \in \Lambda$ 是同构：对于 S 的泛性质 (no. 1，命题 1)，存在同态 g 的 S 进入$K[X_\lambda]_{\lambda \in \Lambda}$，其中映射 1 比 1 和 $x_\lambda$ 到$X_\lambda$ 对于所有 $\lambda \in \Lambda$ 且 f 和 g 是另一个的逆同态。
+回想一下（*代数*，章III, § 6），S被称为V的对称代数，我们简单总结一下这个章，证明所需的性质，其中直接的。令$T^n$为T中阶n的齐次张量的集合。则$I = (I \cap T^2) + (I \cap T^3) + \cdots$，因此S为$T^n$的典范像$S^n$的直和。 $S^n$的元素称为次数n的齐次。 $S^0 = K.1, S^1$ 与V 和$S^n S^p \subset S^{n+p}$ 进行识别。 代数 S 由 1 和 $S^1 = V$ 生成。显然 $S^1$ 中的任意两个元素都是可置换的，因此 S 是可交换的。如果 V 是自由K-模，其中基 $(x_\lambda)_{\lambda \in \Lambda}$，则将多项式代数 $K[X_\lambda]_{\lambda \in \Lambda}$ 的典范同态 f 放到 S 上，其中映射 1 到 1 且 $X_\lambda$ 到 $x_\lambda$ 对于所有$\lambda \in \Lambda$ 是同构：对于 S 的泛性质 (no. 1，命题 1)，存在同态 g 的 S 进入$K[X_\lambda]_{\lambda \in \Lambda}$，其中映射 1 到 1，$x_\lambda$ 到$X_\lambda$ 对于所有 $\lambda \in \Lambda$ 且 f 和 g 是另一个的逆同态。
 
-令${S'}^n \subset T^n$为阶n的齐次对称张量的集合(*代数*,章III, § 5, no. 1,定义2)。如果K是特征0的域，则${S'}^n$和$I \cap T^n$在$T^n$中互补。令 $(x_\lambda)_{\lambda \in \Lambda}$ 为 V 中的基。我们给$\Lambda$一个总排序（*集合理论*，章III, § 2, no. 3，定理1）。令$\Lambda_n$为$\Lambda$的n个元素中的递增序列中的集合。对于$M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$，让
+设${S'}^n \subset T^n$为阶n的齐次对称张量的集合(*代数*,章III, § 5, no. 1,定义2)。如果K是特征0的域，则${S'}^n$和$I \cap T^n$在$T^n$中互补。令 $(x_\lambda)_{\lambda \in \Lambda}$ 为 V 中的基。我们给$\Lambda$一个总排序（*集合理论*，章III, § 2, no. 3，定理1）。令$\Lambda_n$为$\Lambda$的n个元素中的递增序列中的集合。对于$M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$，让
 
 $$
 y_M = \frac{1}{n!} \sum_{\sigma \in S_n} x_{\lambda_{\sigma(n)}} \otimes \cdots \otimes x_{\lambda_{\sigma(n)}}.
@@ -241,9 +241,9 @@ $$
 
 ### 6. 包络过滤代数
 
-令$g$为$K$模块$g$的$K$和$T$张量代数的李代数。设$T^n$为阶$n$和$T_n = \sum_{i \leq n} T^i$的齐次张量的$T$由……组成的子模。然后是$T_n \subset T_{n+1}$、$T_0 = K.1$、$T_{-1} = \{0\}$和$T_n T_p \subset T_{n+p}$。
+令$g$是$K$模块$g$的$K$和$T$张量代数的李代数。令$T^n$为阶$n$和$T_n = \sum_{i \leq n} T^i$的齐次张量的$T$由……组成的子模。然后是$T_n \subset T_{n+1}$、$T_0 = K.1$、$T_{-1} = \{0\}$和$T_n T_p \subset T_{n+p}$。
 
-令$U_n$为$T_n$的典范像，且代数$U$为$g$的包络线。然后是$U_n \subset U_{n+1}$、$U_0 = K.1$、$U_{-1} = \{0\}$和$U_n U_p \subset U_{n+p}$；因此 $U$ 可以描述为代数 *由* $U_n$ (*交换代数*, 章 III, § 2, no. 1) 过滤； $U_n$的元素将被称为*过滤*$\leq n$。
+令$U_n$为$T_n$的典范像，并且在$g$的包络线代数$U$中。然后是$U_n \subset U_{n+1}$、$U_0 = K.1$、$U_{-1} = \{0\}$和$U_n U_p \subset U_{n+p}$；因此 $U$ 可以描述为代数 *由* $U_n$ (*交换代数*, 章 III, § 2, no. 1) 过滤； $U_n$的元素将被称为*过滤*$\leq n$。
 
 令$G^n$为$K$-模块$U_n / U_{n-1}$，让$G$为$G^n$的$K$-模块直和。 $U$ 定义上的乘法，在取商时，$G^n \times G^m$到$G^{n+m}$的双线性映射，因此$G \times G$到$G$的双线性映射，这是结合的。因此 $G$ 被赋予关联性 $K$-代数结构。然后$G^n G^m \subset G^{n+m}$。 $G^n$的元素据说是*次数* $n$。由此获得的分级代数正是与过滤后的代数$U$相关联的分级代数（*交换代数*，章III, § 2, no. 3）。
 
@@ -261,7 +261,7 @@ $$
 
 如果$t \in T^n$和$t' \in T^p$，则$G$上$\phi(t)\phi(t') = \phi(tt')$乘定义除乘法。因此$\phi$是代数同态并且显然是$\phi(1) = 1$。如果$x, y$在$g$中，则$U_2$中该元素的$x \otimes y - y \otimes x \in T^2$和典范像等于$[x, y]$，因此属于到$U_1$。因此$\phi(x \otimes y - y \otimes x) = 0$，证明了命题。
 
-令$S$为$K$模块$g$的对称代数和$T$的$\tau$典范同态到$S$的对称。 命题 5证明存在唯一同态$\omega$，称为*规范*，将代数$S$到代数$G$、映射1比1，使得$\phi = \omega \circ \tau$。我们有$\omega(S^n) = \phi(T^n) = G^n$。令$\tau_n$为$\tau$至$T^n$的限制、$\omega$至$S^n$的$\omega_n$限制、$T^n$的$\psi_n$典范映射代入$U_n$ 的$U_n$ 和$\theta_n$ 典范映射到$G^n$。 $\omega_n$的定义证明以下图表是可交换的：
+令$S$为$K$模块$g$的对称代数和$T$的$\tau$典范同态到$S$的对称。 命题 5证明存在唯一同态$\omega$，称为*规范*，将代数$S$到代数$G$，映射1比1，使得$\phi = \omega \circ \tau$。我们有$\omega(S^n) = \phi(T^n) = G^n$。令$\tau_n$为$\tau$至$T^n$的限制、$\omega$至$S^n$的$\omega_n$限制、$T^n$的$\psi_n$典范映射代入$U_n$的$U_n$和$\theta_n$典范映射到$G^n$。 $\omega_n$的定义证明以下图表是可交换的：
 
 $$
 \begin{array}{ccccc}
@@ -291,7 +291,7 @@ $$
 \tilde{\eta}(U_n) \subset U'_n, \quad \tilde{\eta}(U^n) \subset {U'}^n.
 $$
 
-特别是，U 的主要反自同构使 U_n 和 U^n 保持稳定。 T^n 的 K-线性映射到其自身映射
+特别是，U 的主要反自同构使 U_n 和 U^n 保持稳定。 T^n 的 K-线性映射自身映射
 
 $$
 x_1 \otimes x_2 \otimes \cdots \otimes x_n \quad \text{to} \quad x_n \otimes x_{n-1} \otimes \cdots \otimes x_1
@@ -299,13 +299,13 @@ $$
 
 因为 g 中的所有 $x_1, ..., x_n$ 都是对称算子，因此阶 n 的齐次对称张量是固定的。因此，U 诱导在比率 $(-1)^n$ 的每个 U^n 位似上存在主要反自同构。
 
-### 7. 庞加莱–伯霍夫–维特定理
+### 7. 庞加莱-伯霍夫-威特定理
 
 #### 定理 1 {#lie-i-s2-thm-1 .statement tag=09V5}
 
-*令 g 为谎言 K-代数，U 为它的包络代数，G 为与过滤后的代数相关的分级代数，U 和 S 为 K-模 g 的对称代数。如果 g 为自由K-模，则典范同态 $\omega : S \to G$ 为同构。*
+*令 g 为谎言 K-代数，U 为其包络代数，G 为与过滤后的代数 U 相关的分级代数，S 为 K-模 g 的对称代数。如果 g 为自由K-模，则典范同态 $\omega : S \to G$ 为同构。*
 
-设$(x_\lambda)_{\lambda \in \Lambda}$为K-模g中的基；我们给$\Lambda$一个总排序（*集合理论*，章III, § 2, no. 3，定理1）。令 P 为对应与 $x_\lambda$ 一对一的不定式 $z_\lambda$ 中的多项式代数 $K[z_\lambda]_{\lambda \in \Lambda}$。对于$\Lambda$的元素的每个序列$M = (\lambda_1, \lambda_2, ..., \lambda_n)$，让$z_M$表示单项式$z_{\lambda_1}z_{\lambda_2}...z_{\lambda_n}$和$x_M$张量$x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$。
+设$(x_\lambda)_{\lambda \in \Lambda}$为K-模g中的基；我们给$\Lambda$一个总排序（*集合理论*，章III, § 2, no. 3，定理1）。令 P 为对应与 $x_\lambda$ 一对一的不定式 $z_\lambda$ 中的多项式代数 $K[z_\lambda]_{\lambda \in \Lambda}$。对于$\Lambda$的元素的每个序列$M = (\lambda_1, \lambda_2, ..., \lambda_n)$，令$z_M$表示单项式$z_{\lambda_1}z_{\lambda_2}...z_{\lambda_n}$和$x_M$张量$x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$。
 
 $z_M$，对于 M 递增，K-模 P 的形式基（我们约定$\varnothing$ 是递增序列以及$z_\varnothing = 1$）。令 $P_p$ 为次数 $\leq p$ 多项式的子模。我们首先要证明几个引理。 （为了简化，我们将序列 M 的每指标 $\mu$ 写成 $\lambda \leq M$ if $\lambda \leq \mu$。）
 
@@ -488,7 +488,7 @@ $$
 
 G 同构于 K (定理 1) 上的多项式代数，因此是整环 (*代数*, 章 IV, § 1, no. 4, 定理 1)。因此推论 (*交换代数*, 章 III, § 2, no. 3, 命题 1)。
 
-### 8. 扩张的推导
+### 8. 扩张推导
 
 #### 引理 4 {#lie-i-s2-lem-4 .statement tag=09VG}
 
@@ -563,13 +563,13 @@ $$
 
 从而$\Delta \circ \sigma = \sigma \circ \mathrm{ad}\, x$。这样就完成了证明。
 
-应用命题 7 对于可交换李代数的情况，可以看出$K$模的每个自同态$u$都可以唯一地扩展到该模的对称代数的推导；这个推导是在经过上导出推导与张量代数的商，其中扩展$u$。
+应用命题7对于可交换李代数的情况，可以看出$K$模的每个自同态$u$都可以唯一地扩展到该模的对称代数的推导；这个推导是在经过上导出推导与张量代数的商，其中扩展$u$。
 
-我们再次取李代数$g$除以$K$，并令$D$为$g$的推导。我们使用早期的记号$T, S, U, G$。令$D_T, D_S$为$T, S$的推导，其中扩展$D$，并令$D_U$为$U$的唯一推导，使得$\sigma \circ D = D_U \circ \sigma$。由于$D_U$使$U_n$保持稳定，因此$D_U$定义取$G$的商推导$D_G$。由于当经过为商时，$D_U$和$D_S$是从$D_T$导出的，因此交换性图表（3）证明$D_G$也可以由$D_S$通过同态$\omega$导出no. 6。进一步若$K$为特征0的域，则图表的同构 (4)映射一为$D_T, D_S, D_U, D_G$至${S'}^n, S^n, U^n, G^n$的另一个限制。因此，$S$的典范同构到$U$映射$D_S$到$D_U$。
+我们再次取李代数$g$除以$K$，并令$D$为推导除以$g$。我们使用早期的记号$T, S, U, G$。令$D_T, D_S$为$T, S$的推导，其中扩展$D$，并令$D_U$为$U$的唯一推导，使得$\sigma \circ D = D_U \circ \sigma$。由于$D_U$使$U_n$保持稳定，因此$D_U$定义取$G$的商推导$D_G$。由于当经过为商时，$D_U$和$D_S$是从$D_T$导出的，因此交换性图表（3）证明$D_G$也可以由$D_S$通过同态$\omega$导出no. 6。若进一步$K$为特征0的域，则图表的同构 (4)映射一为$D_T, D_S, D_U, D_G$至${S'}^n, S^n, U^n, G^n$的另一个限制。因此，$S$的典范同构到$U$映射$D_S$到$D_U$。
 
-### 9. 基环中的扩张
+### 9. 扩张基环
 
-令$g$为李代数超过$K$，$T$其张量代数，$J$由$x \otimes y - y \otimes x - [x, y]$生成的$T$的两侧理想（$x, y$在$g$）和$U = T/J$。设$K_1$为交换环，其中$K$的单位元和$\sigma$同态化为$K_1$映射1比1。则张量代数为$g_{(K_1)}$ 被规范地标识为 $T_{(K_1)}$。令 $J'$ 为由 $T_{(K_1)}$ 生成的两侧理想
+令$g$为李代数超过$K$，$T$其张量代数，$J$由$x \otimes y - y \otimes x - [x, y]$生成的$T$的两侧理想（$x, y$在$g$）和$U = T/J$。设$K_1$为交换环，其中$K$的单位元和$\sigma$同态化为$K_1$映射1比1。然后张量代数 $g_{(K_1)}$ 被规范地标识为 $T_{(K_1)}$。令 $J'$ 为由 $T_{(K_1)}$ 生成的两侧理想
 
 $$
 x' \otimes y' - y' \otimes x' - [x', y']
@@ -587,8 +587,8 @@ $$
 x' \otimes y' - y' \otimes x' - [x', y'] = \sum_{i,j} (x_i \otimes y_j - y_j \otimes x_i - [x_i, y_j]) \otimes \lambda_i \mu_j
 $$
 
-这证明了我们的断言。然后可以看出，$U_{(K_1)} = (T/J)_{(K_1)}$ 被规范地标识为 $T_{(K_1)}/J'$：*将 $g_{(K_1)}$ 的代数规范地标识为 $U_{(K_1)}$*，而将 $g_{(K_1)}$ 的典范映射规范地标识为它的包络代数则被标识为 $\sigma \otimes 1$ （其中$\sigma$表示$g$到$U$的典范映射）。
+这证明了我们的断言。然后可以看出，$U_{(K_1)} = (T/J)_{(K_1)}$ 被规范地标识为 $T_{(K_1)}/J'$：*将 $g_{(K_1)}$ 的代数规范地标识为 $U_{(K_1)}$*，将 $g_{(K_1)}$ 的典范映射规范地标识为它的包络代数被标识为 $\sigma \otimes 1$ （其中$\sigma$表示$g$到$U$的典范映射）。
 
 ### 习题 {#lie-i-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

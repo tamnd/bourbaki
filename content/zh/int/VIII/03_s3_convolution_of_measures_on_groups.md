@@ -25,16 +25,16 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: fb542a3b34aa2849a2d4430bdba3cd91762bfc58e68ca6e0b04f9527842ab7b2
+content_sha256: f623685fe3c5cb415a35041b396c446990bff63ca3e311909a62c585b57f30e9
 translated_from: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
 translation_method: google
 source_content_sha256: fbb17d2d8dfca6f7e44cfa7592c87c0769532c38cc2550dc3a50ed837fd6ab29
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b8803f15902e2f655ddeb1e3bb645c0fb04bf7302d500133d4f009eb1cdcee6c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 群上的测量卷积
@@ -65,7 +65,7 @@ $$
 \mu * \varepsilon_s = \delta(s^{-1}) \mu
 $$
 
-由 §1, No. 1, 例 3. 如果 G 为阿贝尔的，则说 $\mu_1$ 和 $\mu_2$ 可卷积，等价于说 $\mu_2$ 和 $\mu_1$ 可卷积，则有 $\mu_1 * \mu_2 = \mu_2 * \mu_1$。当 G 不是阿贝尔的时，$\mu_1$和$\mu_2$可能是可卷积的，而$\mu_2$和$\mu_1$则不然（Exer.12）。
+由 §1, No. 1, 例 3. 如果 G 为阿贝尔的，则称 $\mu_1$ 和 $\mu_2$ 可卷积，等价于说 $\mu_2$ 和 $\mu_1$ 可卷积，则有 $\mu_1 * \mu_2 = \mu_2 * \mu_1$。当 G 不是阿贝尔的时，$\mu_1$ 和 $\mu_2$ 可能是可卷积的，而 $\mu_2$ 和 $\mu_1$ 则不然（Exer. 12）。
 
 #### 命题 1 {#int-viii-s3-prop-1 .statement tag=09JB}
 
@@ -170,7 +170,7 @@ $$
 
 #### 命题 7 {#int-viii-s3-prop-7 .statement tag=09JH}
 
-*设G和G'是两个局部紧致群，u是G在G'中的连续表示，以及$\mu_1, \ldots, \mu_n$对G的测量，都是$\neq 0$。那么下面的断言是等价的：
+*设G和G'是两个局部紧的群，u是G在G'中的连续表示，并且$\mu_1, \ldots, \mu_n$对G的测量，都是$\neq 0$。那么下面的断言是等价的：
 (i) $u$ 对于所有 i 来说是 $\mu_i$-正确的，并且度量 $u(|\mu_i|)$ 是可卷积的；
 (ii) $\mu_i$ 是可卷积的，$u$ 适用于 $*_{i}(|\mu_i|)$。
 当这些条件满足后，
@@ -189,9 +189,9 @@ $$
 (\mu_1 * \cdots * \mu_n)^{\vee} = \check{\mu}_n * \cdots * \check{\mu}_1.
 $$
 
-这是根据命题 7 考虑 G 的同构 $x \mapsto x^{-1}$ 到相反的群得出的。
+这是从命题 7 中得出的，考虑到 G 的同构 $x \mapsto x^{-1}$ 到相反的群。
 
-### 2.群运行空间的案例
+### 2. 群在空间上运行的案例
 
 令 X 为局部紧致空间，其上局部紧致群 G 在左侧连续运算
 
@@ -199,7 +199,7 @@ $$
 (s, x) \mapsto s \cdot x.
 $$
 
-如果 $\mu_1, \ldots, \mu_n$ 是 G 上的测度，$\nu$ 是 X 上的测度，如果它们对于 $G^n \times X$ 的映射 $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ 进入 X 是这样，那么这些将被称为可卷积，并且它们的卷积乘积可以这样理解映射。
+如果 $\mu_1, \ldots, \mu_n$ 是 G 上的测度，$\nu$ 是 X 上的测度，如果它们对于 $G^n \times X$ 的映射 $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ 进入X 是这样，那么这些将被认为是可卷积的，并且它们的卷积乘积可以这样理解映射。
 
 如果$s \in G$和$x \in X$，那么
 
@@ -225,7 +225,7 @@ $$
 
 #### 命题 9 {#int-viii-s3-prop-9 .statement tag=09JK}
 
-— 对于卷积，$\mathscr{M}^1(X)$ 是左模大于 $\mathscr{M}^1(G)$，而 $\mathscr{M}(X)$ 和 $\mathscr{C}'(X)$ 是左模大于 $\mathscr{C}'(G)$。
+— 对于卷积，$\mathscr{M}^1(X)$ 是 $\mathscr{M}^1(G)$ 上的左模，而 $\mathscr{M}(X)$ 和 $\mathscr{C}'(X)$ 是 $\mathscr{C}'(G)$ 上的左模。
 这是从 Prop. 8 和 §1，Props. 8 得出的。 1、3 和 Cor。提案 5。
 
 #### 命题 10 {#int-viii-s3-prop-10 .statement tag=09JL}
@@ -241,10 +241,10 @@ $$
 
 #### 命题 11 {#int-viii-s3-prop-11 .statement tag=09JM}
 
-— 令$G$为局部紧致群，$E$为准完全局部凸空间，$U$为$E$中$G$的连续表示。
+— 令$G$为局部紧致群，$E$为准完全局部凸空间，$U$为$G$在$E$中的连续表示。
 (i) 如果$\lambda \in \mathscr{C}'(G)$，$\mu \in \mathscr{C}'(G)$，则$U(\lambda * \mu) = U(\lambda)U(\mu)$。
 (ii) 假设$E$是Banach空间，并让$\rho(s) = \|U(s)\|$代表$s \in G$。如果$\lambda \in \mathscr{M}^\rho(G)$，$\mu \in \mathscr{M}^\rho(G)$，则$U(\lambda * \mu) = U(\lambda)U(\mu)$。
-让$\lambda, \mu$在$\mathscr{C}'(G)$中。对于任何 $x \in E$ 一个人来说，应用尤其是 Props。第 1 章和第 4 章VI, §1, No. 1,
+让$\lambda, \mu$在$\mathscr{C}'(G)$中。对于任何 $x \in E$ 的人来说，应用尤其是 Props。第 1 章和第 4 章VI, §1, No. 1,
 $$
 U(\lambda * \mu)x = \int_G U(s)x\, d(\lambda * \mu)(s)
 $$
@@ -272,7 +272,7 @@ $$
 \lambda * \mu = \int_G (\varepsilon_s * \mu) d\lambda(s).
 $$
 
-现在，$\varepsilon_s * \mu = \gamma(s)\mu$ (No. 2, 公式 (5)) 和
+现在，$\varepsilon_s * \mu = \gamma(s)\mu$（No. 2，公式（5））和
 
 $$
 \int_G (\gamma(s)\mu) d\lambda(s) = \gamma(\lambda)\mu
@@ -318,4 +318,4 @@ $$
 
 ### 习题 {#int-viii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

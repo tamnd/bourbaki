@@ -26,35 +26,35 @@ subsections:
       pdf_page: 192
 statements: 12
 exercises: 11
-content_sha256: 2ff6e6d4d7f45aadca5516a3a9361ba7a79c3162e37af31b98c82132376c5163
+content_sha256: 35368d39bc53fe2d1b1b06ab2645c6e7803d4b1b61995752085b1eb0634d29bc
 translated_from: content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md
 translation_method: google
 source_content_sha256: f88ff60a0976a0441aed75f5328135625983a714fc53ed6dc1504425eb26923f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9fe1eebeb477e67767c61b6944ad2a8ca93a5fae9bd68e24043e070166714377
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 10。 模超过阿廷环
 
-### 1.阿廷环的根
+### 1. 阿廷环的根
 
 #### 命题 1 {#alg-viii-s10-prop-1 .statement tag=00C5}
 
 设 A 为左阿廷的环。 A 的根式$\mathfrak{r}$是A的最大的幂幂双面理想，环$A/\mathfrak{r}$是半单。
 
-我们知道 (VIII, p. 156, 定理 1) A 的每一个幂零双面理想都包含在 $\mathfrak{r}$ 中。让我们证明$\mathfrak{r}$是幂零的。由于双面理想$\mathfrak{r}^n$的环A是左阿廷的且序列是递减，因此存在整数$p\geqslant 0$使得我们有$\mathfrak{r}^p=\mathfrak{r}^{p+1}$。由于 A 为阿廷的，A-模 $A_s$ 具有有限长度（VIII、p. 6、定理 1），因此为诺特。因而，左理想$\mathfrak{r}^p$是有限生成的。通过中山引理（VIII、p. 158中的定理 2），得出$\mathfrak{r}^p= 0$。
+我们知道 (VIII, p. 156, 定理 1) A 的每一个幂零双面理想都包含在 $\mathfrak{r}$ 中。让我们证明$\mathfrak{r}$是幂零的。由于双面理想$\mathfrak{r}^n$的环A是左阿廷的且序列是递减，因此存在整数$p\geqslant 0$使得我们有$\mathfrak{r}^p=\mathfrak{r}^{p+1}$。由于 A 为阿廷的，A-模 $A_s$ 具有有限长度（VIII、p. 6、定理 1），因此为诺特。因而，左理想$\mathfrak{r}^p$是有限生成的。通过中山引理（定理 2 of VIII，p. 158），得出$\mathfrak{r}^p= 0$。
 
-环 $A/\mathfrak{r}$ 没有部首 (VIII, p. 155, 命题 5);因为它是左阿廷的，所以它是半单（VIII，p. 154，命题 4）。
+环 $A/\mathfrak{r}$ 没有部首（VIII、p. 155、命题 5）；因为它是左阿廷的，所以它是半单（VIII，p. 154，命题 4）。
 
 #### 推论 1 {#alg-viii-s10-prop-1-cor-1 .statement tag=00C6}
 
 环是半单当且仅当它是左阿廷的并且除了 0 之外没有幂等两侧理想。
 
-半单环是左阿廷的并且没有部首 (VIII, p. 154, 命题 4);因而，除了 0 之外，它没有幂等双面理想。 逆命题由命题 1 得出。
+半单环是左阿廷的并且没有部首 (VIII, p. 154, 命题 4);因而，除了 0 之外，它没有幂等两侧理想。逆命题由命题 1 得出。
 
 #### 推论 2 {#alg-viii-s10-prop-1-cor-2 .statement tag=00C7}
 
@@ -62,7 +62,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 如果 A 是左阿廷的，则根式是幂零双面理想 (命题 1)。每个左零理想都包含在 Jacobson 的定理（VIII、p. 156、定理 1）的根式中。推论 2 如下。
 
-### 2.模超过阿廷环
+### 2. 模超过阿廷环
 
 #### 命题 2 {#alg-viii-s10-prop-2 .statement tag=00C8}
 
@@ -74,9 +74,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (iii) M被A的自由基$\mathfrak{r}$湮灭。
 
-我们知道 (i) 蕴含 (ii) (VIII, p. 153, 命题 3)。另一方面，$\mathfrak{r}M$包含在M的基团中（VIII，p. 158，命题6），因而（ii）意味着（iii）。
+我们知道 (i) 蕴涵 (ii) (VIII, p. 153, 命题 3)。另一方面，$\mathfrak{r}M$包含在M的基团中（VIII，p. 158，命题6），因而（ii）意味着（iii）。
 
-假设A-模 M被$\mathfrak{r}$消灭。我们可以将其视为模超过环$A/\mathfrak{r}$。现在，环$A/\mathfrak{r}$是半单（VIII，p. 173，命题1），模超过半单环是半单（VIII， p. 138、命题 4)。因而，M 是半单模超过环 $A/\mathfrak{r}$ 且更不必说超过环 A。因而 (iii) 意味着 (i)。
+假设A-模 M被$\mathfrak{r}$消灭。我们可以将其视为模超过环$A/\mathfrak{r}$。现在，环$A/\mathfrak{r}$是半单（VIII，p. 173，命题1），并且半单环上的每个模是半单（VIII， p. 138、命题 4)。因而，M 是半单模超过环 $A/\mathfrak{r}$ 且更不必说超过环 A。因而 (iii) 意味着 (i)。
 
 #### 推论{#alg-viii-s10-n2-cor-1 .statement tag=00C9}
 
@@ -86,29 +86,29 @@ M 包含于 $\mathfrak{r}M$ 的部首$\mathfrak{R}(M)$ (VIII、p. 158、命题 6
 
 #### 命题 3 {#alg-viii-s10-prop-3 .statement tag=00CA}
 
-设A和B为从A到B的环和$f$同态，使得B由$f(A)$的并和B中$f(A)$的交换子$f(A)'$生成。设M为左B-模。假设通过限制标量 (II, §1, No. 13, p. 221) 从 M 推导出环 A 为左阿廷的或A-模 $f_*(M)$ 是有限生成的。那么我们就有$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$。
+设A和B为从A到B的环和$f$同态，使得B由$f(A)$的并和B中$f(A)$的交换子$f(A)'$生成。设M为左B-模。假设环 A 是左阿廷的或 A-模 $f_*(M)$ 由 M 通过限制标量 (II, §1, No. 13, p. 221) 推导出来是有限生成的。那么我们就有$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$。
 
 令 S 为单B-模。假设 A 是左阿廷的或 A-模 $f_*(S)$ 是有限生成的。我们将证明$f_*(S)$没有根式。对于每个$b\in f(A)'$，位似$b_S$是A-模$f_*(S)$的自同态，因此保留$\mathfrak{R}_A(f_*(S))$（VIII，p. 152，命题1）。由于B是由$f(A)\cup f(A)'$生成的，所以根部$\mathfrak{R}_A(f_*(S))$是S的B-子模，因此等于0或S。如果$f_*(S)$是有限生成A-模，那么我们有$\mathfrak{R}_A(f_*(S))\not=f_*(S)$（VIII，p. 153，命题2）。如果环 A 是左阿廷的，则我们有 $\mathfrak{R}_A(f_*(S)) =f(\mathfrak{r})S$，其中 $\mathfrak{r}$ 是 A 的根式（VIII，p. 174，命题 2 的推论），并且由于 $\mathfrak{r}$ 是 A 的幂幂双面理想（VIII、p. 173、命题 1），我们不能有$S =f(\mathfrak{r})S$。因而，在这两种情况下我们都有 $\mathfrak{R}_A(f_*(S)) = 0$。
 
-令 $u$ 为从 M 到简单 M 模 S 的非零的 B-线性映射。 映射 $u$ 是满射；因而，如果 $f_*(M)$ 是有限生成的，那么 $f_*(S)$ 也是有限生成的。 命题 3 的假设下，A-模$f_*(S)$没有部首，$u$是从$f_*(M)$到$f_*(S)$的A-线性映射。因而，$u$ 包含于 $\mathfrak{R}_A(f_*(M))$ 的核乘以VIII的命题 1，p. 152。由于$u$是任意的，所以我们有$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$。
+令 $u$ 为从 M 到简单 M 模 S 的非零的 B-线性映射。 映射 $u$ 是满射；因而，如果 $f_*(M)$ 是有限生成的，那么 $f_*(S)$ 也是有限生成的。 命题 3 的假设下，A-模$f_*(S)$没有部首，$u$是从$f_*(M)$到$f_*(S)$的A-线性映射。因而，$u$包含于$\mathfrak{R}_A(f_*(M))$中的核乘以VIII中的命题1，p. 152。由于$u$是任意的，所以我们有$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$。
 
 #### 推论 {#alg-viii-s10-n2-cor-2 .statement tag=00CB}
 
 设 A 为交换环，B 为 A 上的代数。假设环 A 为阿廷的或 B 为有限生成A-模。然后我们就有$\mathfrak{R}(A)B\subset \mathfrak{R}(B)$。
 
-到命题 3，部首$\mathfrak{R}_A(B_s)$包含在$\mathfrak{R}_B(B_s)$中，它只不过是环 B 的部首。此外，我们还有VIII、p. 158的命题 6 $\mathfrak{R}(A)B\subset \mathfrak{R}_A(B_s)$。推论如下。
+到命题 3，部首$\mathfrak{R}_A(B_s)$包含在$\mathfrak{R}_B(B_s)$中，这只不过是环 B 的部首。此外，我们还有VIII、p. 158的命题 6 $\mathfrak{R}(A)B\subset \mathfrak{R}_A(B_s)$。推论如下。
 
-### 3.投射模超过阿廷环
+### 3. 投射模超过阿廷环
 
 #### 命题 4 {#alg-viii-s10-prop-4 .statement tag=00CC}
 
-超过左阿廷的环的每个模都有投影覆盖。
+每个模超过左阿廷的环都有投影覆盖。
 
-设 A 为左阿廷的环，M 为 A 上的模。A 的根式 $\mathfrak{r}$ 是幂幂双面理想，环 $A/\mathfrak{r}$ 为半单 (VIII, p. 173, 命题) 1）。由此可见，$A/\mathfrak{r}$模$M/\mathfrak{r}M$是射影的。 断言然后从命题 11 of VIII、p. 164 开始。
+设 A 为左阿廷的环，M 为 A 上的模。A 的根式$\mathfrak{r}$ 是幂幂双面理想，环 $A/\mathfrak{r}$ 为半单 (VIII, p. 173, 命题) 1）。由此可见，$A/\mathfrak{r}$模$M/\mathfrak{r}M$是射影的。 断言然后从命题 11 of VIII、p. 164 开始。
 
 #### 命题 5 {#alg-viii-s10-prop-5 .statement tag=00CD}
 
-设 A 为左阿廷的环且 $\mathfrak{r}$ 其根式。
+设 A 为左阿廷的环，$\mathfrak{r}$ 其根式。
 
 a) 令 P 为射影 A-模。用 $u$ 表示从 P 到 $P/\mathfrak{r}P$ 的典范映射。那么$(P, u)$是$P/\mathfrak{r}P$的投影覆盖。特别是，当且仅当 $P/\mathfrak{r}P$ 时，A-模 P 是有限生成的。
 
@@ -120,7 +120,7 @@ A 的根式 $\mathfrak{r}$ 是幂幂双面理想 (VIII, p. 173, 命题 1)。 断
 
 让我们证明断言 b)。 M 的射影覆盖$(P, u)$ 的存在从命题 4 和同构从$P/\mathfrak{r}P$ 到VIII、p. 162 的命题 9 的M。由于环$A/\mathfrak{r}$是半单，模超过这个环是不可分解的当且仅当它是简单的。 最后一个断言由VIII、p. 160 的推论 2 得出。
 
-让我们证明c）。设$f$为同构，从P到$P'$；它从$P/\mathfrak{r}P$到$P'/\mathfrak{r}P'$诱导同构$\overline{f}$。根据 b)，这些商分别同构于 M 和 $M'$。因此，M 与 $M'$ 同构的。相反，通过VIII、p. 161的命题 8，从M到$M'$提升到同构$\widetilde{f}$，从P到$P'$每隔同构$f$，使得$f\circ u=u'\circ \widetilde{f}$。
+让我们证明c）。令从P到$P'$的$f$为同构；它从$P/\mathfrak{r}P$到$P'/\mathfrak{r}P'$诱导同构$\overline{f}$。根据 b)，这些商分别同构于 M 和 $M'$。因此，M 与 $M'$ 同构的。相反，通过VIII、p. 161的命题 8，从M到$M'$提升到同构$\widetilde{f}$，从P到$P'$每隔同构$f$，使得$f\circ u=u'\circ \widetilde{f}$。
 
 #### 推论{#alg-viii-s10-n3-cor-1 .statement tag=00CE}
 
@@ -146,4 +146,4 @@ $\overline{P}$ 是半单是从命题 2 (VIII, p. 174) 得出的。 A-模 $Q =\op
 
 ### 习题 {#alg-viii-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

@@ -25,16 +25,16 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: 31bfe76b3e293069059a90307cc988212438bb0d85641f11c615e2869bd31374
+content_sha256: fa936b1238437382a9cdeeef7b3441cf3db5859d0f1c7008aff4b4d50da80a3b
 translated_from: content/en/int/IX/04_s4_inverse_limits_of_measures.md
 translation_method: google
 source_content_sha256: 5dd841f191bacbaf28441eec0f88259078f641775a797c2d66f85a7d4bd2a6c4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: d287909e5b5fdeacfbd67fb2fa9bdb648fec9a79e5556cd3ce0a87214a484b8a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 逆极限措施
@@ -44,7 +44,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 (3) 在 Souslin 空间中，每个 Borel 集合都是 Souslin 集合（GT、IX, §6, No. 3、命题 11）。
 (4) 更一般地，如果$f : X \to Y$是Souslin空间之间的连续双射，则$\mu \mapsto f(\mu)$是X上有界测度集合到Y上有界测度集合的双射映射（§ 2, No. 4，命题9）。
 
-### 1. 紧凑空间和逆极限的补集
+### 1. 紧凑型空间和逆极限的补集
 
 #### 命题 1 {#int-ix-s4-prop-1 .statement tag=09QM}
 
@@ -172,7 +172,7 @@ $$
 $$
 让$\varepsilon > 0$；由于普罗霍罗夫的条件 (P) 满足$p_i'$，因此可以找到$T'$的紧凑子集$K'$，使得$\mu^\bullet(T - p'(K')) \leq \varepsilon$。然后，§2, No. 4 的第 8 条命题证明，对于所有 $i \in I$，$T'$ 上存在有界测度$\mu'$，其中$\mu = p'(\mu')$、从而 $\mu_i = p_i(\mu) = p_i(p'(\mu')) = p_i'(\mu')$。
 
-### 3.可数逆系的情况
+### 3. 可数逆系的情况
 
 #### 定理 2 {#int-ix-s4-thm-2 .statement tag=09QS}
 
@@ -215,10 +215,10 @@ $$
 
 Q.E.D.
 
-定理 2 常用于以下情况：令$D$为可数集合，且$(X_t)_{t \in D}$为拓扑族空间。令 $\mathfrak{F}$ 为 $D$ 的有限子集的集合，按包含排序。对于$\mathfrak{F}$中的$J$，集合$X_J = \prod_{t \in J} X_t$，对于$J \subset J'$，让$p_{JJ'}$是$X_{J'}$到部分乘积$X_J$的规范投影。还有集合$X = \prod_{t \in D} X_t$，并用$p_J$表示$X$的规范投影到部分乘积$X_J$。很容易证明（cf. S，III, §7, No. 2，注 3）族$(p_J)_{J \in \mathfrak{F}}$定义是$X$到$\lim_{\leftarrow} X_J$的同胚。 逆系的测度是 $X_J$ 上的一系列有界测度$\mu_J$，使得 $\mu_J = p_{JJ'}(\mu_{J'})$ 对应于 $J \subset J'$。在$X$上存在且仅有一个有界测度$\mu$，使得$D$的每一个有限子集$J$都有$\mu_J = p_J(\mu)$（*柯尔莫戈洛夫的定理*）。其中一个有时表示 $\mu$ 是 $\prod_{t \in D} X_t$ 的度量，具有*边距* $\mu_J$。
+定理 2 常用于以下情况：令$D$为可数集合，$(X_t)_{t \in D}$为拓扑族空间。令 $\mathfrak{F}$ 为 $D$ 的有限子集的集合，按包含排序。对于$\mathfrak{F}$中的$J$，集合$X_J = \prod_{t \in J} X_t$，对于$J \subset J'$，让$p_{JJ'}$是$X_{J'}$到部分乘积$X_J$的规范投影。还有集合 $X = \prod_{t \in D} X_t$ 并用 $p_J$ 表示 $X$ 的规范投影到部分乘积 $X_J$ 上。很容易证明（cf. S，III, §7, No. 2，注 3）族$(p_J)_{J \in \mathfrak{F}}$定义是$X$到$\lim_{\leftarrow} X_J$的同胚。那么，逆系测度是 $X_J$ 上的一系列有界测度 $\mu_J$，使得 $\mu_J = p_{JJ'}(\mu_{J'})$ 对应于 $J \subset J'$。在$X$上存在且仅有一个有界测度$\mu$，使得$D$的每一个有限子集$J$都有$\mu_J = p_J(\mu)$（*柯尔莫戈洛夫的定理*）。其中一个有时表示 $\mu$ 是对 $\prod_{t \in D} X_t$ 的度量，具有*边距* $\mu_J$。
 
 特别是，假设对于每个 $t \in D$，在总质量 1 的 $X_t$ 上测量$\nu_t$。对于 $D$ 的每有限子集 $J$，集合 $\mu_J = \bigotimes_{t \in J} \nu_t$。令$J \subset J'$为$D$的两个有限子集，并令$K = J' - J$；将 $X_{J'}$ 与 $X_J \times X_K$ 等价，则有 $\mu_{J'} = \mu_J \otimes \mu_K$，并且由于 $\mu_K$ 的总质量为 1，因此 $X_J$ 上的 $\mu_J \otimes \mu_K$ 的投影等于 $\mu_J$。 $X$ 承认边际 $\mu_J$ 的措施表示为 $\bigotimes_{t \in D} \nu_t$，称为家庭*乘积* $(\nu_t)_{t \in D}$。当空间 $X_t$ 紧凑时，我们恢复 Ch 的构造。 III, §4, No. 6。
 
 ### 习题{#int-ix-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -30,16 +30,16 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: d7ad1bf03a98ac8771e4c2133d164adecd733b62e5f24f2ba584fd7cef6c7c71
+content_sha256: 6244229fd4868e4c1e0815e93fd25a42e678f521cbfb67fe6c2fc529717bd871
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 translation_method: google
 source_content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1aabfd97cdc0d75295047736cb0846f114c0911cdfbb7613ff380cc5244d9b93
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 关系张量积和同态模之间
@@ -115,7 +115,7 @@ $$
 \mathrm{Hom}_\Gamma(E \otimes_A F, G), \quad \mathrm{Hom}_A(E, \mathrm{Hom}_\Gamma(F, G)), \quad \mathrm{Hom}_A(F, \mathrm{Hom}_\Gamma(E, G))
 $$
 
-与 $\Gamma$-*双线性* 映射的 $E \times F$ 的 $\Gamma$ 模规范同构到 G，其中满足 (1)。更具体地说：
+与 $\Gamma$-*双线性* 映射的 $E \times F$ 的 $\Gamma$ 模典型地同构为 G，其中满足 (1)。更具体地说：
 
 #### 推论{#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
 
@@ -128,9 +128,9 @@ $$
 $$
 *是规范同构的。*
 
-### 2.同态**$E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
+### 2. 同态** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
 
-设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块 $\mathrm{Hom}_A(E, G)$ 具有规范的*右* B-*模* 结构 (§ 1, no. 14)，使得 $(u\beta)(x) = u(x)\beta$ 对应 $\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
+设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块$\mathrm{Hom}_A(E, G)$典型地具有*右*B-*模* 结构 (§ 1, no. 14)，使得$(u\beta)(x) = u(x)\beta$代表$\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
 
 $$
 \nu : \mathrm{Hom}_A(E, G) \otimes_B F \to \mathrm{Hom}_A(E, G \otimes_B F).
@@ -302,7 +302,7 @@ $$
 \theta' : E \otimes_A F \to \mathrm{Hom}_A(E^*, F)
 $$
 
-使得 $\theta'(x \otimes y)$ 为线性映射
+这样 $\theta'(x \otimes y)$ 就是线性映射
 
 $$
 x^* \mapsto \langle x, x^* \rangle y.
@@ -320,7 +320,7 @@ $$
 \tau : E^* \otimes_C E \to C
 $$
 
-这样 $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5)。现在还假设 $E$ 是一个*有限生成的射影* $C$ 模； no. 2的典范同构 (11) 是一个$C$*-模块* 同构，因此我们可以通过在$C$-模块上传输结构*规范线性形式* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$来实现定义 $\mathrm{End}_C(E)$。对于所有$u \in \mathrm{End}_C(E)$，标量$\mathrm{Tr}(u)$称为自同态$u$的*迹*；每个$u \in \mathrm{End}_C(E)$都可以写成形式$x \mapsto \sum_i \langle x, x_i^* \rangle y_i$，其中$x_i^* \in E^*$和$y_i \in E_i$凭借no. 2，命题2的推论；然后
+这样 $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5)。现在还假设 $E$ 是一个*有限生成的射影* $C$ 模； no. 2的典范同构(11)是一个$C$*-模块*同构，因此我们可以通过在$C$-模块上传输结构*规范的线性形式*$\mathrm{Tr} = \tau \circ \theta_E^{-1}$来实现定义 $\mathrm{End}_C(E)$。对于所有$u \in \mathrm{End}_C(E)$，标量$\mathrm{Tr}(u)$称为自同态$u$的*迹*；每个$u \in \mathrm{End}_C(E)$都可以写成形式$x \mapsto \sum_i \langle x, x_i^* \rangle y_i$，其中$x_i^* \in E^*$和$y_i \in E_i$凭借no. 2，推论命题2；那么
 
 $$
 \mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(cf. § 10, no. 11).}
@@ -373,7 +373,7 @@ $$\operatorname{Tr}(u \circ v \circ w) = \operatorname{Tr}(u \circ w \circ v)$$
 
 三个自同态 $u, v, w$ E。
 
-### 4.同态$\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
+### 4. 同态$\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
 
 设C是一个*可交换的*环和$E_1, E_2, F_1, F_2$四个C模块；在 § 3, no. 5, 公式 (13) 中，我们定义了一个规范的 C-模块同态
 
@@ -381,7 +381,7 @@ $$\operatorname{Tr}(u \circ v \circ w) = \operatorname{Tr}(u \circ w \circ v)$$
 
 #### 命题 4 {#alg-ii-s4-prop-4 .statement tag=05Q0}
 
-*当有序对* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ *之一由有限生成的射影C模组成时，典范同态* (21) *是双射的。*
+*当有序对* $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ * 之一由有限生成的射影 C 模组成时，典范同态* (21) *是双射的。*
 
 显然，对于有序对$(E_1, F_1)$和$(E_1, E_2)$执行证明就足够了。
 
@@ -407,7 +407,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 这次立即验证*引理 1 和 2* (no. 2)（*其中$\lambda$始终替换 v*）*有效*。
 
-既然如此，当$E_1 = C$和$F_1$是射影且有限生成时，我们首先显示命题。 no. 2的参数（基于引理 1和2），与上面的注、约化一起到证明命题，当也$F_1 = C$时；那么$\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$和$F_1 \otimes F_2$分别用C，$E_2$和$F_2$来识别（§ 3, no. 4，命题4）； (21) 的两侧
+既然如此，当$E_1 = C$和$F_1$是射影且有限生成时，我们首先显示命题。 no. 2的参数（基于引理 1和2），与上面的注、约化一起到证明命题，同时还有$F_1 = C$；那么$\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$和$F_1 \otimes F_2$分别用C，$E_2$和$F_2$来识别（§ 3, no. 4，命题4）； (21) 的两侧
 
 同态$\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$
 
@@ -415,7 +415,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 我们现在假设 $F_1$ 是射影且有限生成的； no. 2（此时取决于引理 4和5）约化证明对于$E_1$任何有限生成射影模到$E_1 = C$的情况，即处理的第一个情况。
 
-对于有序对$(E_1, E_2)$，过程类似，这次应用引理4和5两次；我们把细节留给读者。
+对于有序对$(E_1, E_2)$，程序类似，这次应用引理4和5两次；我们把细节留给读者。
 
 注当 $E_1 = C^{(I)}$、$E_2 = C^{(J)}$ 自由时（无论是否有限生成），则 $\operatorname{Hom}(E_1, F_1) = F_1^I$、$\operatorname{Hom}(E_2, F_2 = F_2^J$ 和
 $$
@@ -435,7 +435,7 @@ $$
 $$
 \mu : E^* \otimes F^* \to (E \otimes F)^*
 $$
-对于两个$C$-模块$E, F$；对于$x^* \in E^*, y^* \in F^*$，$x^* \otimes y^*$在典范同态（23）下的像是线性形式$u$在$E \otimes F$上，这样
+对于两个$C$-模块$E, F$；对于$x^* \in E^*, y^* \in F^*$，$x^* \otimes y^*$在典范同态（23）下的像在$E \otimes F$上是线性形式$u$，使得
 $$
 u(x \otimes y) = \langle x, x^* \rangle \langle y, y^* \rangle.
 $$
@@ -461,7 +461,7 @@ $$
 \text{Tr}(u_1 \otimes u_2) = \text{Tr}(u_1)\text{Tr}(u_2).
 $$
 
-根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下$x_1 \otimes x_2$的像除以定义
+根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下的$x_1 \otimes x_2$的像除以定义
 
 $$
 \langle x_1, x_1^* \rangle \langle x_2, x_2^* \rangle (y_1 \otimes y_2) = \langle x_1 \otimes x_2, x_1^* \otimes x_2^* \rangle (y_1 \otimes y_2)
@@ -490,10 +490,10 @@ $$
 
 对于 G = C，A = B = C，这只是 no. 1 的同构 (6) 和 (5)。
 
-因此，在 E × F 上的 *双线性形式*、E 到 F* 的 *同态和 F 到 E* 的 *同态之间定义了规范的一对一对应：如果 u（或 v）是 E 到 F* 的同态（或 F 到 E* 的相应的），相应的双线性形式由下式给出
+因此，在 E × F 上的 *双线性形式*、E 到 F* 的 *同态和 F 到 E* 的 *同态之间定义了规范的一对一对应：如果 u（或 v）是 E 到 F* 的同态（或 F 到 E* 的相应的） 双线性形式由下式给出
 
 $$(x, y) \mapsto \langle y, u(x) \rangle \quad (\text{resp. } (x, y) \mapsto \langle x, v(y) \rangle).$$
 
 ### 习题{#alg-ii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

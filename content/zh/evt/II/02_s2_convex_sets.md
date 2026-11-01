@@ -57,23 +57,23 @@ subsections:
       pdf_page: 56
 statements: 51
 exercises: 43
-content_sha256: e5d85d6b458adab0e83e0da232234d0b9511fb2984efdeeaf0c19d323c8a1ca3
+content_sha256: eab206f61c2295af251131b56947a7b330c84bc19623c7605dbea92c382148c4
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 translation_method: google
 source_content_sha256: a0e92c270cc61535db50016db128351dc2a69eca0c0c5a5f6017a665abb322f1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2b438a0c45e4206b05fd7699c4a2591ab7964bb93481426b8daf3c83b451ce24
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。凸面集合
 
 ### 1. 凸集合的定义
 
-对于仿射空间$E$、点$\lambda x + \mu y$的任意两个点$x, y$、集合，其中$\lambda \geq 0, \mu \geq 0, \lambda + \mu = 1$称为以点$x$和$y$结尾的闭线段；当$x = y$时，它从约化到点。该线段中$x$的补集称为以点$x, y$为结尾的线段，在$x$开，在$y$闭；如果 $x = y$ 则为空。最后以点$x, y$为结尾的闭段中$\{ x, y \}$的补集称为以点$x, y$为结尾的开段；当$x = y$时它是空的。
+对于仿射空间$E$、点$\lambda x + \mu y$的任意两个点$x, y$、集合，其中$\lambda \geq 0, \mu \geq 0, \lambda + \mu = 1$称为以点$x$和$y$结尾的闭线段；当$x = y$时，它从约化到点。该线段中$x$的补集称为结尾为点$x, y$的线段，在$x$开，在$y$闭；如果 $x = y$ 则为空。最后以点$x, y$为结尾的闭段中$\{ x, y \}$的补集称为以点$x, y$为结尾的开段；当$x = y$时它是空的。
 
 #### 定义 1 {#evt-ii-s2-def-1 .statement tag=07B4}
 
@@ -91,7 +91,7 @@ $\mathbf{R}$ 中唯一的非空凸集合是区间（GT，IV, § 2.4，道具 1�
 
 #### 例 3 {#evt-ii-s2-n1-exa-3 .statement tag=07B7}
 
-设$E$为向量空间，且$\|x\|$范数在$E$上； 单位球$B$，由点$x$组成
+令 $E$ 为向量空间，并且在 $E$ 上$\|x\|$ 范数； 单位球$B$，由点$x$组成
 
 这样 $\|x\| \leq 1$ 是凸的，因为关系 $\|x\| \leq 1, \|y\| \leq 1$，对于 $0 \leq \lambda \leq 1$ 意味着
 $$
@@ -130,7 +130,7 @@ $$
 
 显然条件是必要的。相反，假设满足，并令 $g(x) = 0$ 为定义 H 的方程（$g$ 是 E 在 $\mathbf{R}$ 中的仿射线性映射）。 集合 $g(A)$ 在 $\mathbf{R}$ 中凸，因此是一个区间，$0 \notin g(A)$。因此$g(x)$对于所有$x \in A$来说都是固定符号。
 
-### 2.凸集合的交。凸集合的乘积
+### 2. 交凸集合。凸集合的乘积
 
 #### 命题 5 {#evt-ii-s2-prop-5 .statement tag=07BD}
 
@@ -148,7 +148,7 @@ $$
 
 — *在空间* $\mathbf{R}^n$ *每个平行四面体* (GT, VI, § 1.3) *是凸子集*。
 
-因为它是在长方体的仿射线性映射下的像，并且最后一个通过支柱是凸的。 6.
+因为它在长方体的仿射线性映射下是像，并且最后一个通过支柱是凸的。 6.
 
 #### 命题 7 {#evt-ii-s2-prop-7 .statement tag=07BG}
 
@@ -166,7 +166,7 @@ $$
 
 — *对于任何族* $(A_i)_{i \in I}$ *仿射空间* E 的凸子集 * E，* $\bigcup_{i \in I} A_i$ *的凸包络恰好是线性组合* $\sum_{i \in I} \lambda_i x_i$ 的集合，*其中* $x_i \in A_i, \lambda_i \geq 0$ *对于所有* $i \in I$（$\lambda_i = 0$ *除了有限多个指标*）*和* $\sum_{i \in I} \lambda_i = 1$。
 
-用C表示这些线性组合中的集合，显然C包含在每个凸集合中，其中包含所有$A_i$（II，p. 8，道具1）；另一方面，每$i$对应$A_i \subset C$。剩下需要证明的是 C 是凸的。令$x = \sum \lambda_i x_i$、$y = \sum \mu_i y_i$为C的两个点，$\alpha$为数，使得$0 < \alpha < 1$，对于每个i ∈ I，写出γ_i = αλ_i + (1 - α) μ_i，并令J为集合 (有限) of 指标 of I，其中 γ_i ≠ 0。我们可以写 αx + (1 - α)y = Σ_{i∈J} γ_i z_i，其中
+用C表示这些线性组合中的集合，显然C包含在每个凸集合中，其中包含所有$A_i$（II，p. 8，道具1）；另一方面，每$i$对应$A_i \subset C$。剩下要证明的是 C 是凸的。令$x = \sum \lambda_i x_i$、$y = \sum \mu_i y_i$为C的两个点，$\alpha$为数，使得$0 < \alpha < 1$，对于每个i ∈ I，写出γ_i = αλ_i + (1 - α) μ_i，并令J为集合 (有限) of 指标 of I，其中 γ_i ≠ 0。我们可以写成 αx + (1 - α)y = Σ_{i∈J} γ_i z_i，其中
 
 $$ z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i) $$
 
@@ -238,21 +238,21 @@ $$
 
 — *对于 E 的任何子集 A，由 A 生成的凸锥体与线性组合* $\sum_{i \in J} \lambda_i x_i$ 的集合相同，*其中* $(x_i)_{i \in J}$ *是 A 的点的任何有限非空族，并且其中* $\lambda_i > 0$ *对于所有* $i \in J$。
 
-足以看出，如果 A 的凸锥包含点 $x \neq 0$，那么它也是包含点 $\lambda x$ 的半线 $C_x$，其中 $\lambda$ 在正数的集合中变化，并且$C_x$是凸锥体。
+足以看出，如果 A 的凸锥包含点 $x \neq 0$，那么它也是包含点 $\lambda x$ 的半线$C_x$，其中$\lambda$在正数的集合变化，并且$C_x$是凸锥体。
 
 #### 命题 12 {#evt-ii-s2-prop-12 .statement tag=07BS}
 
-— *如果A是E中的凸集合，则A生成的凸锥与*$C = \bigcup_{\lambda > 0} \lambda A$相同。
+— *如果A是E中的凸集合，则A生成的凸锥体与*$C = \bigcup_{\lambda > 0} \lambda A$相同。
 
 集合 C 显然是一个圆锥体；只要证明 C 是凸的就足够了。令$\lambda x, \mu y$为C($\lambda > 0, \mu > 0, x \in A, y \in A$)中的两个点。令$\alpha, \beta$为两个数$> 0$，使得$\alpha + \beta = 1$。然后是$\alpha \lambda x + \beta \mu y = (\alpha \lambda + \beta \mu) z$，还有$z \in A$，还有$\alpha \lambda + \beta \mu > 0$；因此$\alpha \lambda x + \beta \mu y \in C$。
 
-#### 注{#evt-ii-s2-n4-rem-1 .statement tag=07BT}
+#### 注 {#evt-ii-s2-n4-rem-1 .statement tag=07BT}
 
 — 1）根据道具的假设。 12、如果$0 \notin A$，则圆锥体C是非尖的，因此$C \cup \{0\}$是*正确的*。
 
-2) 设A为E中任意凸集合；考虑空间$F = E \times \mathbf{R}$中的凸集合$A_1 = A \times \{1\}$和由$A_1$生成的顶点为0的凸锥C。命题 12 表明，在 F 中，$A_1$ 是 C 和超平面 $E \times \{1\}$ 的交。因此，E 中的每个凸集合都可以被视为在 F 中顶点为 0 的凸锥的交的 E 上的投影，并且超平面$E \times \{1\}$。
+2) 设A为E中任意凸集合；考虑空间$F = E \times \mathbf{R}$中的凸集合$A_1 = A \times \{1\}$以及由$A_1$生成的顶点为0的凸锥C。命题 12 表明，F 中 $A_1$ 是 C 和超平面 $E \times \{1\}$ 的交。因此，E 中的每个凸集合都可以被视为 F 中顶点为 0 的凸锥的交的 E 上的投影，并且超平面$E \times \{1\}$。
 
-### 5.订购向量空间
+### 5. 已订购向量空间
 
 向量空间 E 上的 *预序* 结构，用 $x \leqslant y$ 或 $y \geqslant x$ 表示，如果满足以下两个公理，则与 E 的向量空间结构 *相容的*；
 
@@ -270,15 +270,15 @@ $$
 
 #### 命题 13 {#evt-ii-s2-prop-13 .statement tag=07BV}
 
-— (i) *集合 P，元素* $\geqslant 0$，*预定的向量空间 E，是尖凸锥*。
+— (i) *集合 P，元素* $\geqslant 0$，*预先订购的向量空间 E，是尖凸锥*。
 
-(ii) *相反，如果 P 是 E 中的尖凸锥体，则关系* $y - x \in P$ *是 E 上的预序关系，且预序结构定义是唯一*与 的向量空间结构兼容的E 且 P 为集合或元素 $\geqslant 0$。
+(ii) *相反，如果 P 是 E 中的尖凸锥体，则关系* $y - x \in P$ *是 E 上的预序关系，且预序结构定义是唯一*与 的向量空间结构兼容的E 且 P 为元素 $\geqslant 0$ 中的集合。
 
 (iii) 关系 $y - x \in P$，其中 P 为尖凸圆锥，当且仅当 P 为真圆锥时，在 E 上为序关系。
 
-(i) 公理 (EO_I) 和 (EO_{II}) 意味着对于所有 $\lambda > 0$ 都有 $P + P \subset P$ 和 $\lambda P \subset P$。作为 $0 \in P$，可以得出 P 是尖凸锥体（II，p. 11，命题 10）。
+(i) 公理 (EO_I) 和 (EO_{II}) 意味着对于所有 $\lambda > 0$ 都有 $P + P \subset P$ 和 $\lambda P \subset P$。由于 $0 \in P$，因此 P 是尖凸锥体（II，p. 11，命题 10）。
 
-(ii) 相反，如果 P 是尖凸锥体，关系 $P + P \subset P$ 意味着关系 $y - x \in P$ 是预序与 E 的加法群结构兼容 (A, VI, p. 3, prop. 3）；明确写出$x \leqslant y$、集合 P与$x \geqslant 0$的集合相同；进一步，对于所有 $\lambda \geqslant 0$ 关系 $\lambda P \subset P$ 表明满足公理 (EO_{II})。
+(ii) 相反，如果 P 是尖凸锥体，关系 $P + P \subset P$ 意味着关系 $y - x \in P$ 是预序与 E 的加法群结构兼容 (A, VI, p. 3, prop. 3）；明确写出$x \leqslant y$、集合 P 与$x \geqslant 0$ 的集合相同；进一步，对于所有 $\lambda \geqslant 0$ 关系 $\lambda P \subset P$ 表明满足公理 (EO_{II})。
 
 (iii) 说 P 是正确的意味着 $P \cap (-P) = \{0\}$ (II, p. 11, cor. 2)，因此 $y - x \in P$ 是序关系。
 
@@ -286,9 +286,9 @@ $$
 
 \* 设 H 为真正的希尔伯特空间； H的连续自同态的向量空间$\mathscr{L}(H)$中，正厄米特自同态形式为正尖凸锥；因此，这个圆锥体定义阶结构与$\mathscr{L}(H)$的向量空间结构兼容，其中关系$A \leqslant B$意味着$B - A$是正厄米特自同态。 \*
 
-对于向量空间 E 中的任意尖凸圆锥 P，集合 $P \cap (-P)$ 是 E 的向量子空间，H（II，p. 11，cor. 2）。 $E/H$ 中 P 的典范像 $P'$ 是凸锥体，E 中 $P'$ 的逆像是 P。因此$P' \cap (-P') = \{0\}$，$E/H$ 上的 $P'$ 定义阶结构与其兼容向量空间结构。
+对于向量空间 E 中的任意尖凸圆锥 P，集合 $P \cap (-P)$ 是 E 的向量子空间，H（II，p. 11，cor. 2）。 $E/H$ 中 P 的典范像 $P'$ 是凸锥，E 中 $P'$ 的逆像是 P。因此 $P' \cap (-P') = \{0\}$，$E/H$ 上的 $P'$ 定义阶结构与其兼容向量空间结构。
 
-如果 E 中的 $x \geqslant 0$ 意味着 $f(x) \geqslant 0$，则预购的向量空间上的线性形式 $f$ 被认为是正数。或者，如果E中元素$\geqslant 0$的凸锥体P包含在那些$x$的一半空间中，其中$f(x) \geqslant 0$。显然，在对偶$E^*$到E中，正线性形式的集合是尖凸锥体。
+如果 E 中的 $x \geqslant 0$ 蕴涵 $f(x) \geqslant 0$，则预购的向量空间 E 上的线性形式 $f$ 被认为是正数。或者，如果E中元素$\geqslant 0$的凸锥体P包含在那些$x$的一半空间中，其中$f(x) \geqslant 0$。显然，在对偶$E^*$到E中，正线性形式的集合是尖凸锥体。
 
 ### 6. 拓扑中的凸锥向量空间
 
@@ -296,7 +296,7 @@ $$
 
 在拓扑向量空间 E 中，凸集合（分别是凸锥体）的闭包是凸集合（分别是具有相同顶点的凸锥体）。
 
-对于，令 A 为凸集合； 映射$(x, y) \mapsto \lambda x + (1 - \lambda) y$，其中$0 < \lambda < 1$在$E \times E$中连续，映射$A \times A$在A中连续；因此 (GT, I, § 2.1, th. 1) 它在 $\overline{A}$ 中有映射 $\overline{A} \times \overline{A}$，这表明 $\overline{A}$ 是凸的。类似地，如果 C 是顶点为 0 的凸锥体，则对于所有 $\lambda > 0$ 来说，$\overline{C} + \overline{C} \subset \overline{C}$ 和 $\lambda \overline{C} \subset \overline{C}$。
+对于，令 A 为凸集合； 映射$(x, y) \mapsto \lambda x + (1 - \lambda) y$，其中$0 < \lambda < 1$在$E \times E$中连续，映射$A \times A$在A中连续；因此 (GT, I, § 2.1, th. 1) 它在 $\overline{A}$ 中有映射 $\overline{A} \times \overline{A}$，这表明 $\overline{A}$ 是凸的。类似地，如果 C 是顶点为 0 的凸圆锥体，则对于所有 $\lambda > 0$ 来说，$\overline{C} + \overline{C} \subset \overline{C}$ 和 $\lambda \overline{C} \subset \overline{C}$。
 
 #### 定义 4 {#evt-ii-s2-def-4 .statement tag=07BY}
 
@@ -310,7 +310,7 @@ $$
 
 — 令 $A_i$ ($1 \leq i \leq n$) 为 Hausdorff 拓扑向量空间 E 中紧致凸集合的有限数。则 $A_i$ 的并的凸包络是紧致的（因此，与此的凸闭包络相同） 并）。
 
-令 B 为由点 $(\lambda_1, \lambda_2, ..., \lambda_n)$ 定义的 $\mathbf{R}^n$ 中的紧集，其中 $\lambda_i \geq 0$ ($1 \leq i \leq n$) 和 $\sum_{i=1}^n \lambda_i = 1$。 E 中定义 $B \times \prod_{i=1}^n A_i \subset \mathbf{R}^n \times E^n$ 的连续映射由公式 $(\lambda_1, \lambda_2, ..., \lambda_n, x_1, x_2, ..., x_n) \mapsto \sum_{i=1}^n \lambda_i x_i$ 组成。 $\bigcup_{i=1}^n A_i$的凸包络C在这个映射下是$B \times \prod_{i=1}^n A_i$的像；由于 $B \times \prod_{i=1}^n A_i$ 是紧致的且 E 是 Hausdorff，因此C 是紧致的。
+令 B 为由点 $(\lambda_1, \lambda_2, ..., \lambda_n)$ 定义的 $\mathbf{R}^n$ 中的紧集，其中 $\lambda_i \geq 0$ ($1 \leq i \leq n$) 和 $\sum_{i=1}^n \lambda_i = 1$。 E 中定义 $B \times \prod_{i=1}^n A_i \subset \mathbf{R}^n \times E^n$ 的连续映射由公式 $(\lambda_1, \lambda_2, ..., \lambda_n, x_1, x_2, ..., x_n) \mapsto \sum_{i=1}^n \lambda_i x_i$ 组成。 $\bigcup_{i=1}^n A_i$的凸包络C在这个映射下是$B \times \prod_{i=1}^n A_i$的像；由于 $B \times \prod_{i=1}^n A_i$ 是紧的，E 是 Hausdorff，因此 C 是紧的。
 
 #### 推论 1 {#evt-ii-s2-prop-15-cor-1 .statement tag=07C0}
 
@@ -374,23 +374,23 @@ $$
 
 #### 例 {#evt-ii-s2-n7-exa-1 .statement tag=07C8}
 
-空间$\mathbf{R}^n$及其通常的拓扑和阶结构即阶结构的乘积其因子是有序拓扑向量空间。另一方面，对于$n \geq 2$，当$\mathbf{R}^n$携带字典顺序的阶（S，III, § 2.6）时，通常的拓扑与$\mathbf{R}^n$的有序向量空间结构不兼容。
+空间$\mathbf{R}^n$及其通常的拓扑和阶结构即阶乘积其因子结构是有序拓扑向量空间。另一方面，对于$n \geq 2$，当$\mathbf{R}^n$携带字典顺序的阶（S，III, § 2.6）时，通常的拓扑与$\mathbf{R}^n$的有序向量空间结构不兼容。
 
-设A为集合； A 上定义的有界实值函数的向量空间$\mathscr{B}(A ; \mathbf{R})$，拓扑由范数$\|x\| = \sup_{t \in A} |x(t)|$定义，阶结构由$\mathbf{R}^A$的乘积阶结构定义，是有序拓扑向量空间。
+设A为集合； A 上定义的实值有界函数的向量空间 $\mathscr{B}(A ; \mathbf{R})$，其中拓扑由范数 $\|x\| = \sup_{t \in A} |x(t)|$ 定义，阶结构由乘积阶结构引发$\mathbf{R}^A$，是有序拓扑向量空间。
 
-在有序拓扑向量空间 E 中，元素 $x \leq 0$ 的集合是闭集；由于翻译是同态，我们推断，对于所有 $a \in E$，元素 $x \geq a$（或 $x \leq a$）的集合是封闭的。由于 $\{0\}$ 是集合 $x \geq 0$ 和 $x \leq 0$ 的交，因此$\{0\}$ 是闭集且 E 是 Hausdorff。
+在有序拓扑向量空间 E 中，元素 $x \leq 0$ 的集合是闭集；由于翻译是同态，我们推断，对于所有 $a \in E$，元素 $x \geq a$（或$x \leq a$）的集合都是封闭的。由于$\{0\}$是集合、$x \geq 0$和$x \leq 0$的交，因此$\{0\}$是闭集且E是Hausdorff。
 
 #### 命题 18 {#evt-ii-s2-prop-18 .statement tag=07C9}
 
 在有序拓扑向量空间 E 中，令 H 为关系 $\leq$ 所指向的集合。如果H的截面滤波器在E中有极限，那么这个极限就是H的上界。
 
-对于，设 $b = \lim_{x \in H} x$；对于$x \in H$的每个$y \in H$、集合，使得$x \geq y$是H的截面过滤器的集合，因此b是该集合的集群点；但由于集合 $x \geq y$ 在 E 中是闭的，所以我们有 $b \geq y$，因此 b 是 H 的上界。 另一方面，如果 a 是 H 的上界，则 H 包含在闭集合 $x \leq a$ 中；由于 b 是 H 的簇点，因此我们有 $b \leq a$，它完成证明（II，p. 72，练习 42）。
+对于，设 $b = \lim_{x \in H} x$；对于$y \in H$、$x \in H$的集合，使得$x \geq y$是H的截面滤波器的集合，因此b是该集合的集群点；但由于集合 $x \geq y$ 在 E 中是闭的，所以我们有 $b \geq y$，因此 b 是 H 的上界。 另一方面，如果 a 是 H 的上界，则 H 包含在闭闭的集合 $x \leq a$ 中；由于 b 是 H 的簇点，因此我们有 $b \leq a$，它完成证明（II，p. 72，执行 42）。
 
-### 8.凸函数
+### 8. 凸函数
 
 #### 定义 5 {#evt-ii-s2-def-5 .statement tag=07CA}
 
-令 X 为仿射空间 E 的凸子集。在 X 上定义的实值有限函数是凸的（严格凸的），如果对于 X 的任何两个不同的点 x, y 和任何实数 $\lambda, 0 < \lambda < 1$，我们有：
+设 X 为仿射空间 E 的凸子集。如果对于 X 的任何两个不同的点 x, y 和任意一个，在 X 上定义的实值有限函数是凸的（或严格凸的） 实数$\lambda, 0 < \lambda < 1$，我们有：
 
 (1)
 $$
@@ -403,7 +403,7 @@ $$
 f(\lambda x + (1 - \lambda) y) < \lambda f(x) + (1 - \lambda) f(y)).
 $$
 
-当$E = \mathbf{R}$时，凸函数的这个定义与FVR中的I，p. 32是一样的。此外，f 在 X 中是凸（或严格凸）的，当且仅当对于每条仿射线 $D \subset E$，f 到 $X \cap D$ 的限制在 $X \cap D$ 中是凸（或严格凸）的。
+当$E = \mathbf{R}$时，凸函数的这个定义与FVR中的I、p. 32是一样的。此外，f 在 X 中是凸（或严格凸）的，当且仅当对于每条仿射线 $D \subset E$，f 到 $X \cap D$ 的限制在 $X \cap D$ 中是凸（或严格凸）。
 
 #### 例 {#evt-ii-s2-n8-exa-1 .statement tag=07CB}
 
@@ -411,12 +411,12 @@ $$
 $$
 f(\lambda x + (1 - \lambda) y) = \lambda f(x) + (1 - \lambda) f(y);
 $$
-另一方面，如果 $\alpha = f(x), \beta = f(y)$，那么；
+另一方面，如果$\alpha = f(x), \beta = f(y)$，那么；
 $$
 \lambda \alpha^2 + (1 - \lambda) \beta^2 - (\lambda \alpha + (1 - \lambda) \beta)^2 = \lambda(1 - \lambda) (\alpha - \beta)^2 \geq 0
 $$
 
-对于$0 < \lambda < 1$；此外，如果$f|D$不是常数，则$f^2$到仿射线$D \subset E$的限制是*严格凸的。
+$0 < \lambda < 1$；此外，如果$f|D$不是常数，则$f^2$到仿射线$D \subset E$的限制是*严格凸的*。
 
 如果 - $f$ 是凸的（或严格凸的），则在 $X$ 上定义的实值函数 $f$ 是*凹*（或*严格凹*）。也就是说，对于$X$的每两个不同的点$x, y$和每个数$\lambda$，使得$0 < \lambda < 1$，我们有
 
@@ -430,7 +430,7 @@ $$
 f(\lambda x + (1 - \lambda) y) > \lambda f(x) + (1 - \lambda) f(y)).
 $$
 
-$\mathbf{R}$ 中$X$的映射是*仿射*，如果它既是凸的又是凹的（*cf.* II，p. 78，练习11）。
+如果$\mathbf{R}$中的$X$的映射既是凸的又是凹的，则它是*仿射*（*cf.* II、p. 78，练习11）。
 
 #### 命题 19 {#evt-ii-s2-prop-19 .statement tag=07CC}
 
@@ -503,23 +503,23 @@ $$
 
 条件显然是必要的，我们证明它是充分的。令$x_0 \in X$为点，使得$f$在$x_0$的邻域V上界；我们首先证明$f$在$x_0$连续。通过翻译，我们可以将自己限制在$x_0 = 0$和$f(x_0) = 0$的情况；此外，我们可以假设邻域 V 是平衡的（I，p. 7，命题 4）。假设V中有$f(x) \leq a$；对于每个$\varepsilon, 0 < \varepsilon < 1$，我们观察到如果$x \in \varepsilon V$，则$x/\varepsilon \in V$和$-x/\varepsilon \in V$。 II、p. 16到点$x/\varepsilon$和0到数$\lambda = \varepsilon$的应用不等式（1），我们看到$f(x) \leq \varepsilon f(x/\varepsilon) \leq \varepsilon a$； 应用到点 $x$ 和 $-x/\varepsilon$ 和数 $\lambda = 1/(1 + \varepsilon)$，得到 $f(x) \geq -\varepsilon f(-x/\varepsilon) \geq -\varepsilon a$。因此，如果$\varepsilon$足够小，$f(x)$在$\varepsilon V$中任意小，并且$f$在$x = 0$处连续。
 
-现在让$y$是X中的一些点；由于X是开放的，因此存在数$\rho > 1$，使得$z = \rho y$属于到X。令$g$为中心$z$与$\lambda = 1 - \frac{1}{\rho}$之比位似$x \mapsto \lambda x + (1 - \lambda)z$，其中变换0变为$y$；对于每个点 $g(x) \in g(V)$，我们有 (1)
+现在让$y$是X的一些点；由于 X 是开放的，因此存在数 $\rho > 1$，使得 $z = \rho y$ 属于到 X。令$g$为中心$z$与$\lambda = 1 - \frac{1}{\rho}$之比位似$x \mapsto \lambda x + (1 - \lambda)z$，其中变换0变为$y$；对于每个点 $g(x) \in g(V)$，我们有 (1)
 
 $$
 f(g(x)) \leq \lambda f(x) + (1 - \lambda) f(z) \leq \lambda a + (1 - \lambda) f(z) .
 $$
 
-因此，$f$以$y$的邻域为界，因此，通过第一个部分，在$y$处连续。 命题已证明。
+因此，$f$以$y$的邻域为界，因此，通过第一个部分，在$y$处连续。 命题得证。
 
 #### 推论{#evt-ii-s2-n10-cor-1 .statement tag=07CG}
 
 *在$\mathbf{R}^n$中的开凸集合X上定义的每个凸函数f在X中都是连续的。*
 
-我们可以假设 X 不为空。那么，在X、$n + 1$仿射独立点$a_i$($0 \leq i \leq n$)和这些点、S、包含的凸包络中，存在由点$\sum_{i=0}^n \lambda_i a_i$构成的开非空集，其中$0 < \lambda_i < 1$ 适用于所有 $i$ 和 $\sum_{i=0}^n \lambda_i = 1$。由II，p. 17，道具。 20, $f$ 在 S 中有界，因此是连续的。
+我们可以假设 X 不为空。那么在X、$n + 1$中存在仿射独立点$a_i$($0 \leq i \leq n$)以及这些点、S、包含的凸包络由点$\sum_{i=0}^n \lambda_i a_i$构成的开非空集$0 < \lambda_i < 1$ 适用于所有 $i$ 和 $\sum_{i=0}^n \lambda_i = 1$。由II，p. 17，道具。 20, $f$ 在 S 中有界，因此是连续的。
 
 在无限维数的拓扑向量空间中，通常存在线性不连续形式（II，p. 80，练习25），因此存在凸函数，它们在任何点都不连续。
 
-### 11.半范数和凸集合
+### 11. 半范数和凸集合
 
 令 E 为向量空间大于 $\mathbf{R}$； $\mathbf{R}$ 中 E 的映射 $p$ 是*正齐次*，如果对于每个 $\lambda \geq 0$ 和所有 $x \in E$ 我们有
 
@@ -527,7 +527,7 @@ $$
 p(\lambda x) = \lambda p(x) .
 $$
 
-E 上的正齐次函数 $p$ 是凸的，当且仅当它满足 II 的公理 (SN$_{\text{II}}$)，对于 E 的所有 $x, y$ 满足 p. 1；
+E 上的正齐次函数 $p$ 是凸的，当且仅当它对于 E 的所有 $x, y$ 满足 II、p. 1 的公理 (SN$_{\text{II}}$)；
 
 $$
 p(x + y) \leq p(x) + p(y) .
@@ -586,4 +586,4 @@ E 上的正次线性函数 $p$ 是每个凸面集合 A 的规格，其中 $W(p, 
 
 ### 习题 {#evt-ii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

@@ -29,16 +29,16 @@ subsections:
       pdf_page: 130
 statements: 17
 exercises: 5
-content_sha256: f092e3873a2952ce31cb895a26a05c408744addb07b163d5e7079384b002d134
+content_sha256: 249ab71af024809fce768475754b280fa1bf3b6cece1fe5e9010012cfe3e52fd
 translated_from: content/en/lie/VIII/06_s6_modules_over_a_split_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 487388bd8ad7aeeaec7bc35a084734841a8e2e5b22d8bc35a3035539d1b008d8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 503d5ef18f0eca3183df1b935c66c06297ef999b71ad5591afefe12b920cdf42
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。 模超过分裂的半单李代数
@@ -59,7 +59,7 @@ $$
 
 ### 1. 权和原始元素
 
-令 V 为 $\mathfrak{g}$ 模块。对于所有$\lambda \in \mathfrak{h}^*$，用$V^{\lambda}$表示主要子空间，相对于$\lambda$，V被视为$\mathfrak{h}$模块（第VII, §1, no. 1章）。 $V^{\lambda}$的元素被称为$\mathfrak{g}$模块V的权$\lambda$的元素。 $V^{\lambda}$ 的和是直接的（第 VII, §1, no. 1 章，第 3 条命题）。对于所有 $\alpha \in \mathfrak{h}^*$ 和 $\lambda \in \mathfrak{h}^*,\mathfrak{g}^{\alpha}V^{\lambda}\subset V^{\alpha+\lambda}$（第 VII, §1, no. 3 章，提案 10 (ii)）。 $V^{\lambda}$的维数在V中称为$\lambda$的重数；如果它是$\geq 1$，即如果$V^{\lambda}\not= 0,\lambda$被认为是V的权。如果 V 是有限维的，则由 $\mathfrak{h}$ 的元素定义的 V 的同位性为半单，因此 $V^{\lambda}$ 是 $x\in V$ 的集合，使得 $Hx=\lambda (H)x$ 对于所有 $H\in \mathfrak{h}$。
+令 V 为 $\mathfrak{g}$ 模块。对于所有$\lambda \in \mathfrak{h}^*$，用$V^{\lambda}$表示主要子空间，相对于$\lambda$，V被视为$\mathfrak{h}$模块（第VII, §1, no. 1章）。 $V^{\lambda}$的元素被称为$\mathfrak{g}$模块V的权$\lambda$的元素。 $V^{\lambda}$ 的和是直接的（第 VII, §1, no. 1 章，第 3 条命题）。对于所有 $\alpha \in \mathfrak{h}^*$ 和 $\lambda \in \mathfrak{h}^*,\mathfrak{g}^{\alpha}V^{\lambda}\subset V^{\alpha+\lambda}$（第 VII, §1, no. 3 章，提案 10 (ii)）。 $V^{\lambda}$的维数在V中称为$\lambda$的重数；如果它是$\geq 1$，即如果$V^{\lambda}\not= 0,\lambda$被称为V的权。如果 V 是有限维的，则由 $\mathfrak{h}$ 的元素定义的 V 的同位性为半单，因此 $V^{\lambda}$ 是 $x\in V$ 的集合，使得对于所有 $H\in \mathfrak{h}$ 都有 $Hx=\lambda (H)x$。
 
 #### 引理 1 {#lie-viii-s6-lem-1 .statement tag=012M}
 
@@ -79,7 +79,7 @@ $$
 
 #### 定义 1 {#lie-viii-s6-def-1 .statement tag=012N}
 
-令V为$\mathfrak{g}$模块，$v\in V$。如果 $v\not= 0$ 和 $v$ 满足引理 1 的条件，则 $v$ 被称为 V 的原语元素。
+令 V 为 $\mathfrak{g}$ 模块，$v\in V$。如果 $v\not= 0$ 和 $v$ 满足引理 1 的条件，则 $v$ 被称为 V 的原语元素。
 
 原始元素属于到 $V^{\lambda}$ 之一。对于所有$\lambda \in \mathfrak{h}^*, V_{\pi}^{\lambda}$表示$v\in V^{\lambda}$的集合，使得$\mathfrak{b}_+v\subset kv$。因此，权$\lambda$的原语元素是$V_{\pi}^{\lambda}$的非零元素。
 
@@ -149,15 +149,15 @@ $$
 
 #### 定义 2 {#lie-viii-s6-def-2 .statement tag=012P}
 
-提案 1 (iv) 的同态$\chi$被称为$\mathfrak{g}$模块V的中心特征标。
+提案1（iv）的同态$\chi$被称为$\mathfrak{g}$模块V的中心特征标。
 
 #### 命题 2 {#lie-viii-s6-prop-2 .statement tag=012Q}
 
 令V是由权$\omega$的基元元素$e$和X半单$\mathfrak{g}$生成的$\mathfrak{g}$模块。令$\Phi$为从$\mathfrak{g}$-模块V到$\mathfrak{g}$-模块X的同态的集合。那么$\varphi  \rightarrow \varphi (e)$就是从向量空间$\Phi$到向量空间$X^{\omega}_{\pi}$的同构。
 
-很明显，$\varphi (e)\in X^{\omega}_{\pi}$ 对于所有$\varphi \in \Phi$。如果 $\varphi \in \Phi$ 和 $\varphi (e) = 0$，则 $\varphi = 0$ 自 $e$ 生成 $\mathfrak{g}$-模V。我们证明，如果$f$是$X^{\omega}_{\pi}$的非零元素，则存在$\varphi \in \Phi$使得$\varphi (e) =f$。令$X'$为$f$生成的X中的子模。根据命题，$1, X'$是不可分解的，因此很简单，因为X是半单。 元素 $(e, f)$ 在 $\mathfrak{g}$ 模块 $V\times X$ 中是原语。令 N 为由 $(e, f)$ 生成的 $V\times X$ 的子模。那么$N\cap X\subset$ pr$_2(N) = X'$，所以$N\cap X = 0$或$X'$；如果$N\cap X = X', N$包含线性无关元素$(e, f)$和$(0, f)$，它们是权$\omega$的原语；这是荒谬的（命题 1），所以 $N\cap X = 0$。因此 pr$_1|N$ 是从 N 到 V 的单射映射 $h$；这个映射是满射的，因为它的像包含 $e$。因此，从$\mathfrak{g}$-模块V到$\mathfrak{g}$-模块X，$\varphi =$pr$_2\circ h^{-1}$是同态，使得$\varphi (e) =f$。
+很明显，$\varphi (e)\in X^{\omega}_{\pi}$ 对于所有$\varphi \in \Phi$。如果 $\varphi \in \Phi$ 和 $\varphi (e) = 0$，则 $\varphi = 0$ 自 $e$ 生成 $\mathfrak{g}$-模V。我们证明，如果$f$是$X^{\omega}_{\pi}$的非零元素，则存在$\varphi \in \Phi$使得$\varphi (e) =f$。令$X'$为由$f$生成的X的子模。根据命题，$1, X'$是不可分解的，因此很简单，因为X是半单。 元素 $(e, f)$ 在 $\mathfrak{g}$ 模块 $V\times X$ 中是原语。令 N 为 $(e, f)$ 生成的 $V\times X$ 的子模。那么$N\cap X\subset$ pr$_2(N) = X'$，所以$N\cap X = 0$或$X'$；如果$N\cap X = X', N$包含线性无关元素$(e, f)$和$(0, f)$，它们是权$\omega$的原语；这是荒谬的（命题 1），所以 $N\cap X = 0$。因此 pr$_1|N$ 是从 N 到 V 的单射映射 $h$；这个映射是满射的，因为它的像包含 $e$。因此，$\varphi =$pr$_2\circ h^{-1}$是从$\mathfrak{g}$-模块V到$\mathfrak{g}$-模块X的同态，使得$\varphi (e) =f$。
 
-### 2.单模与最高权
+### 2. 单模与最高权
 
 回想一下，将 B 定义序关系固定在 $\mathfrak{h}^*_{\mathbf{Q}}$ 上（第 VI, §1, no. 6 章）。 $\mathfrak{h}^*_{\mathbf{Q}}$的元素即$\geq 0$是B的元素的线性组合，有理系数$\geq 0$。
 
@@ -219,9 +219,9 @@ Q.E.D.
 
 令$X''$为$X^{\omega}_{\pi}$生成的X中的子模。显然，X同构于V的每个子模都包含在$X''$中。因此$X'\subset X''$。另一方面，令$\Phi$为从$\mathfrak{g}$-模块V到$\mathfrak{g}$-模块X的同态的集合。 $X'$的长度暗淡$_k\Phi ($代数，第1章。 VIII, §4, no. 4），即暗$_kX^{\omega}_{\pi}$（命题 2）。
 
-### 3.存在和唯一性定理
+### 3. 存在和唯一性定理
 
-让$\lambda \in \mathfrak{h}^*$。从$\mathfrak{b}_+=\mathfrak{h}\oplus \mathfrak{n}_+$和$\mathfrak{n}_+= [\mathfrak{b}_+,\mathfrak{b}_+]$开始，从$\mathfrak{b}_+$到$k$的映射$h+n \rightarrow \lambda (h)$（其中$h\in \mathfrak{h},n\in \mathfrak{n}_+$）是$\mathfrak{b}_+$的一维表示。用$L_{\lambda}$表示配备有由表示定义的$\mathfrak{b}_+$模块结构的$k$向量空间$k$。令$U(\mathfrak{g}), U(\mathfrak{b}_+)$为$\mathfrak{g},\mathfrak{b}_+$的包络代数，使得$U(\mathfrak{b}_+)$为$U(\mathfrak{g})$的子代数；回想一下，$U(\mathfrak{g})$是一个自由的右$U(\mathfrak{b}_+$)模块（第I, §2, no. 7章，第1章的Cor.5）。放
+让$\lambda \in \mathfrak{h}^*$。自$\mathfrak{b}_+=\mathfrak{h}\oplus \mathfrak{n}_+$和$\mathfrak{n}_+= [\mathfrak{b}_+,\mathfrak{b}_+]$以来，映射$h+n \rightarrow \lambda (h)$（其中$h\in \mathfrak{h},n\in \mathfrak{n}_+$）从$\mathfrak{b}_+$到$k$是$\mathfrak{b}_+$的一维表示。用$L_{\lambda}$表示配备有由表示定义的$\mathfrak{b}_+$模块结构的$k$向量空间$k$。令$U(\mathfrak{g}), U(\mathfrak{b}_+)$为$\mathfrak{g},\mathfrak{b}_+$的包络代数，使得$U(\mathfrak{b}_+)$为$U(\mathfrak{g})$的子代数；回想一下，$U(\mathfrak{g})$是一个自由的右$U(\mathfrak{b}_+$)模块（第I, §2, no. 7章，第1章的Cor.5）。放
 
 $$
 Z(\lambda ) = U(\mathfrak{g})\otimes_{U(\mathfrak{b}_+)}L_{\lambda} \tag{2}
@@ -239,7 +239,7 @@ $$
 
 (iii) $Z(\lambda )$中存在与$Z(\lambda )$不同的最大的子模$F_{\lambda}$。 商模$Z(\lambda )/F_{\lambda}$很简单，有最高权$\lambda$。
 
-很明显，$e$生成是$\mathfrak{g}$-模块$Z(\lambda )$。如果$x\in \mathfrak{b}_+$，
+很明显，$e$生成$\mathfrak{g}$-模块$Z(\lambda )$。如果$x\in \mathfrak{b}_+$，
 
 $$
 x.e= (x.1)\otimes 1 = (1.x)\otimes 1 = 1\otimes x.1 =\lambda (x)(1\otimes 1) =\lambda (x)e
@@ -247,7 +247,7 @@ $$
 
 因此(i)。
 
-$\mathfrak{h}$-模块$Z(\lambda )$是半单（命题1）。如果 G 是 $Z(\lambda )$ 的$\mathfrak{g}$子模，则$G =\sum_{\mu\in\mathfrak{h}^*}(G\cap Z(\lambda )^\mu)$。 假设 $G\cap Z(\lambda )^{\lambda}\not= 0$ 意味着
+$\mathfrak{h}$-模块$Z(\lambda )$是半单（提案1）。如果 G 是 $Z(\lambda )$ 的$\mathfrak{g}$子模，则$G =\sum_{\mu\in\mathfrak{h}^*}(G\cap Z(\lambda )^\mu)$。 假设 $G\cap Z(\lambda )^{\lambda}\not= 0$ 意味着
 
 $G = Z(\lambda )$，因为暗淡$Z(\lambda )^{\lambda}= 1$和$e$生成$\mathfrak{g}$模块$Z(\lambda )$。如果$G\not= Z(\lambda )$，则$G =\sum_{\mu\not=\lambda}G\cap Z(\lambda )^\mu\subset Z^+(\lambda )$。
 
@@ -321,7 +321,7 @@ $$
 
 ### 4. 代数 $\mathbf{O}\mathbf{F}\mathfrak{g}$ 中$\mathfrak{h}$的交换
 
-令U为$\mathfrak{g}, V\subset U$的包络代数和$\mathfrak{h}$的包络代数。 代数V可以与$\mathfrak{h}$的对称代数$\mathbf{S}(\mathfrak{h})$识别，也可以与$\mathfrak{h}^*$上的多项式函数的代数识别。用 $\alpha_1, . . . , \alpha_n$ 表示成对不同的正值根。令 $(H_1, . . . , H_l)$ 为 $\mathfrak{h}$ 中的基。由庞加莱-伯克霍夫-维特定理，元素
+令U为$\mathfrak{g}, V\subset U$的包络代数和$\mathfrak{h}$的包络代数。 代数V可以与$\mathfrak{h}$的对称代数$\mathbf{S}(\mathfrak{h})$识别，也可以与$\mathfrak{h}^*$上的多项式函数的代数识别。用 $\alpha_1, . . . , \alpha_n$ 表示成对不同的正值根。设$(H_1, . . . , H_l)$为$\mathfrak{h}$中的基。由庞加莱-伯克霍夫-维特定理，元素
 
 $$
 u((q_i),(m_i),(p_i)) =X_{-\alpha_1}^{q_1}. . . X_{-\alpha_n}^{q_n}H_1^{m_1}. . . H_l^{m_l}X_{\alpha_1}^{p_1}. . . X_{\alpha_n}^{p_n}
@@ -345,7 +345,7 @@ $$
 
 (ii) 我们有 $U^0= V\oplus L$。
 
-很明显，$\mathfrak{n}_-U$（或$U\mathfrak{n}_+$）是集合或线性组合或元素$u((q_i),(m_i),(p_i))$，使得$\sum q_i>0$（或$\sum p_i>0$）。另一方面
+很明显，$\mathfrak{n}_-U$（或$U\mathfrak{n}_+$）是元素$u((q_i),(m_i),(p_i))$的线性组合的集合，使得$\sum q_i>0$（或$\sum p_i>0$）。另一方面
 
 $$
 u((q_i),(m_i),(p_i))\in U^0\Leftarrow \Rightarrow p_1\alpha_1+\cdots +p_n\alpha_n=q_1\alpha_1+\cdots +q_n\alpha_n
@@ -369,7 +369,7 @@ $$
 
 令$\langle  \cdot ,\cdot  \rangle$是$\mathfrak{g}$上的非简并不变对称双线性形式，C与$\langle  \cdot ,\cdot  \rangle$相关的卡西米尔元素。也用$\langle  \cdot ,\cdot  \rangle$表示$\langle  \cdot ,\cdot  \rangle$到$\mathfrak{h}($§2, no. 3的限制的$\mathfrak{h}^*$的逆形式，命题5）。然后$\chi (C) =\langle \lambda , \lambda + 2\rho \rangle$，其中$\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$。
 
-我们回想一下第 6 条命题 §2, no. 3 中的记号。我们有
+我们回忆一下第 6 条命题 §2, no. 3 的记号。我们有
 
 1 1
 
@@ -425,4 +425,4 @@ $$
 
 ### 习题{#lie-viii-s6-exercises}
 
-请参阅[§ 6](exercises/s6/)的[习题]。
+请参阅[习题为 § 6](exercises/s6/)。

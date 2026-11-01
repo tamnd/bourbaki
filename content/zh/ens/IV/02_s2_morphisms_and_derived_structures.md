@@ -38,37 +38,37 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 5c63cbdeb3568dad33b8c86925c6f7ed6c477ebfbacbef6ccc8a0a2aa105317c
+content_sha256: 0e596041cfbd52bec17a97d117c6b2a750256446553d5d4ecbcee22cb223316f
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
 translation_method: google
 source_content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 5566b021f76c601f85ee46ae0929a8b52b888ca3c8dc8869f801eb5478baec58
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 2. 态射和导出结构
 
-### 1.态射
+### 1. 态射
 
-在这个截面和下一个截面中，为了简单起见，我们将假设所考虑的结构种只有一个基集合（因此它是一个主体基集合）。读者将不难将定义及其结果扩展到一般情况。
+在这个截面和下一个截面中，为了简单起见，我们将假设所考虑的结构种只有一个基集合（因此它是一个主体基集合）。读者可以毫无困难地将定义和结果扩展到一般情况。
 
-令$\Sigma$为比集合论更强的理论$\mathscr{T}$中的结构种，并令$x$、$y$、$s$、$t$为与$\mathscr{T}$常数不同的四个不同字母。 我们记得记号$\mathfrak{F}(x,y)$表示$x$的映射到$y$的集合（章II, § 5, no. 2）。 假设我们在 $\mathscr{T}$ 中得到项 $\sigma\{x,y,s,t\}$ ，它满足以下条件 ：
+令$\Sigma$为比$\mathscr{T}$强于集合论的理论中的结构种，并令$x$、$y$、$s$、$t$为与$\mathscr{T}$常数不同的四个不同字母。我们记得记号$\mathfrak{F}(x,y)$表示$x$的映射到$y$的集合（章II, § 5, no. 2）。假设我们在 $\mathscr{T}$ 中得到项 $\sigma\{x,y,s,t\}$ ，它满足以下条件 ：
 
-$(\mathrm{MO}_{\mathrm{I}})$ *关系 “$s$ 是$x$ 上类 $\Sigma$ 的结构，$t$ 是$y$ 上类 $\Sigma$ 的结构”，在 E 中意味着， 关系$\sigma\{x,y,s,t\}\subset\mathfrak{F}(x,y)$.*
+$(\mathrm{MO}_{\mathrm{I}})$ *关系“$s$是$x$上类$\Sigma$的结构，$t$是$y$上类$\Sigma$的结构”在 E 中意味着关系 $\sigma\{x,y,s,t\}\subset\mathfrak{F}(x,y)$。*
 
-$(\mathrm{MO}_{\mathrm{II}})$ *如果，在理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有三个集合 E，E′，E″，分别赋予结构，$\mathscr{S}$，$\mathscr{S}'$，$\mathscr{S}''$或类$\Sigma$，那么关系 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $g\in\sigma\{E',E'',\mathscr{S}',\mathscr{S}''\}$ 意味着关系*
+$(\mathrm{MO}_{\mathrm{II}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有三个集合 E，E′，E″，分别赋予结构，$\mathscr{S}$，$\mathscr{S}'$，$\mathscr{S}''$，类$\Sigma$，那么关系$f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$和$g\in\sigma\{E',E'',\mathscr{S}',\mathscr{S}''\}$意味着关系*
 
 $$
 g\circ f\in\sigma\{E,E'',\mathscr{S},\mathscr{S}''\}.
 $$
 
-$(\mathrm{MO}_{\mathrm{III}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有两个集合 E，E′，分别赋予类$\Sigma$的结构$\mathscr{S}$，$\mathscr{S}'$，则E的双射$f$ E′ 上是同构当且仅当 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $f^{-1}\in\sigma\{E',E,\mathscr{S}',\mathscr{S}\}$。*
+$(\mathrm{MO}_{\mathrm{III}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有两个集合E，E′分别赋予结构$\mathscr{S}$，$\mathscr{S}'$或类$\Sigma$，则双射 E 到 E′ 的 $f$ 为同构当且仅当 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $f^{-1}\in\sigma\{E',E,\mathscr{S}',\mathscr{S}\}$。*
 
-如果给定$\Sigma$和$\sigma$，关系$f\in\sigma\{x,y,s,t\}$可以用说表示，$f$是$x$的*态射*（或$\sigma$-*态射*），赋予$s$， $y$，赋有$t$。如果（理论上$\mathscr{T}'$强于$\mathscr{T}$）E和E′是两个集合，赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，则项$\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$是集合的*集合 $\sigma$-E 到 E′ 的态射。*
+如果给定$\Sigma$和$\sigma$，关系$f\in\sigma\{x,y,s,t\}$可以用说表示，$f$是$x$的*态射*（或$\sigma$-*态射*），赋予$s$，转化为$y$，赋予$t$。如果（理论上$\mathscr{T}'$强于$\mathscr{T}$）E和E′是两个集合，并赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，则项$\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$是集合的*集合 $\sigma$-E 到 E′ 的态射。*
 
 *例*
 
@@ -102,9 +102,9 @@ CST8。 *设*E，E$'$ *为两个集合，每个结构或类$\Sigma$。设$f$是*
 
 #### 注 {#ens-iv-s2-n1-rem-2 .statement tag=03VP}
 
-当结构种$\Sigma$有多个主基集合$x_1, \ldots, x_n$和辅助基集合$\mathrm{A}_1, \ldots, \mathrm{A}_m$时，$\sigma$态射为系统$(f_1, \ldots, f_n)$，其中$f_i$是$x_i$的映射变成$y_i$$(1 \leqslant i \leqslant n)$，而映射满足条件的系统类似于$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$，读者可以很容易地指出他自己。
+当结构种$\Sigma$有多个主基集合$x_1, \ldots, x_n$和辅助基集合$\mathrm{A}_1, \ldots, \mathrm{A}_m$时，$\sigma$态射为系统$(f_1, \ldots, f_n)$，其中$f_i$ 是 $x_i$ 的映射变成 $y_i$ $(1 \leqslant i \leqslant n)$，这些映射满足条件的系统类似于 $(\mathrm{MO_{II}})$ 和 $(\mathrm{MO_{III}})$，读者可以很容易地指出他自己。
 
-### 2.更细结构
+### 2. 更细结构
 
 对于这个截面的其余部分，我们假设我们得到了相对于这个结构种的$\sigma$态射的结构种、$\Sigma$和概念； *将引入的所有概念不仅取决于$\Sigma$，还取决于所设想的$\sigma$态射的概念。*通常我们会说“态射”来代替“$\sigma$-态射”。
 
@@ -138,7 +138,7 @@ An order structure with graph $s$ on a set A is finer than an order structure wi
 
 对于这样的结构种$\Sigma$，E到E'的态射$f$是*双射的*，是一个*同构*；因为如果我们通过 $f$ 将迁移转换为 E' 结构 $\mathscr{S}$，我们就得到类 $\Sigma$ 的结构，即更细比 E' 上的结构 $\mathscr{S}'$ ，因此重合与 $\mathscr{S}'$。
 
-### 3.初始结构
+### 3. INITIAL STRUCTURES
 
 考虑一个$(A_\iota)_{\iota \in I}$集合的家庭，每个家庭都被赋予结构$\mathscr{S}_\iota$类$\Sigma$。令 E 为集合，对于每个 $\iota \in I$，令 $f_\iota$ 为映射 *of* E *进入* $A_\iota$。 E 上类 $\Sigma$ 的结构 $\mathscr{S}$ 被认为是*关于家庭的首字母结构* $(A_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in I}$，如果它具有以下性质 ：
 
@@ -166,7 +166,7 @@ CST10。 *设*E*为集合，让*$(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$*为�
 
 *此外，这些叙述意味着*$\mathscr{I} = \mathscr{I}'$。
 
-设 F 为集合赋予类 $\Sigma$ 的结构，并令 $u$ 为 F 的映射赋予 E。观察由定义关系 “$h_\lambda \circ u$ 为 F 的态射赋予$\mathrm{B}_\lambda$”等价于关系“对于所有$\iota \in \mathrm{J}_\lambda$，$g_{\lambda\iota} \circ h_\lambda \circ u = f_\iota \circ u$是F到$\mathrm{A}_\iota$的态射”。 关系
+设F为集合赋予类$\Sigma$的结构，并令$u$为F的映射入E。由定义关系观察“$h_\lambda \circ u$为F的态射入E” $\mathrm{B}_\lambda$”等价于关系“对于所有$\iota \in \mathrm{J}_\lambda$，$g_{\lambda\iota} \circ h_\lambda \circ u = f_\iota \circ u$是F到$\mathrm{A}_\iota$的态射”。 关系
 
 (1) “对于所有 $\lambda \in \mathrm{L}$，$h_\lambda \circ u$ 是 F 的态射到 $\mathrm{B}_\lambda$”
 
@@ -174,9 +174,9 @@ CST10。 *设*E*为集合，让*$(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$*为�
 
 (2) “对于所有 $\iota \in \mathrm{I}$，$f_\iota \circ u$ 是 F 的态射到 $\mathrm{A}_\iota$”。
 
-现在，说$\mathscr{I}'$是$(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$族的首字母结构，意味着关系(1)等价于关系“$u$是F到E的态射赋予$\mathscr{I}'$”；说$\mathscr{I}$是$(A_i,\,\mathscr{S}_i,\,f_i)_{i\in I}$族的首字母结构，意味着关系(2)相当于关系“$u$是F到E的态射赋予$\Gamma$”。因此，考虑到初始结构的唯一性中的性质。
+现在，说$\mathscr{I}'$是$(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$族的首字母结构，意味着关系(1)等价于关系“$u$是F到E的态射赋予$\mathscr{I}'$”；说$\mathscr{I}$是$(A_i,\,\mathscr{S}_i,\,f_i)_{i\in I}$族的首字母结构，意味着关系(2)等价于关系“$u$是F到E的态射赋予$\Gamma$”。因此，鉴于初始结构的唯一性的性质。
 
-### 4. 例的初始结构
+### 4. 例 / 初始结构
 
 I。 *结构的逆像。*当I是单个元素的集合由……组成时，相对于$(A,\,\mathscr{S},\,f)$的初始结构称为$f$下的*逆像结构 $\mathscr{S}$*（如果存在）。
 
@@ -184,13 +184,13 @@ I。 *结构的逆像。*当I是单个元素的集合由……组成时，相对
 
 II。 *归纳结构。* 设A为集合，赋予类$\Sigma$的结构$\mathscr{S}$，设B为A的子集，设$j$为B的典范嵌入到A中。然后结构 B（如果存在）的$j$下的逆像称为B上$\mathscr{S}$诱导的*结构。*
 
-序结构诱导结构相同的类在定义它的集合的每个子集上；但结构或有向集合的情况并非如此。 \* 拓扑诱导拓扑在定义它的集合的每个子集上，但紧凑的拓扑通常不会诱导紧凑的拓扑。 集合 A 上的代数结构通常不会在任意子集 B 上有相同的类的诱导结构；如果 A 上给定的结构由合成的律组成，并且这些合成到处都有定义，那么 B 必须对于这些律中的每一个都保持稳定，但是这个必要的条件并不总是足够的。 \*
+序结构诱导结构相同的类在定义它的集合的每个子集上；但结构或有向集合的情况并非如此。 \* 拓扑诱导拓扑在定义它的集合的每个子集上，但紧凑的拓扑通常不会诱导紧凑的拓扑。 集合 A 上的代数结构通常不会在任意子集 B 上有相同的类的诱导结构；如果 A 上给定的结构由合成的律组成，并且这些合成到处都有定义，那么 B 必须相对于这些律中的每一个保持稳定，但是这个必要的条件并不总是足够的。 \*
 
 通用准则 CST10 为我们提供了以下用于诱导结构的 *传递性准则*：
 
-CST11。 *设B为A的子集，令C为B的子集，并令$\mathscr{S}$为A上的类$\Sigma$结构，其中诱导结构$\mathscr{S}'$与 B 上的类相同。那么 C 上的 $\mathscr{S}$ 诱导结构的类 $\Sigma$ 当且仅当 $\mathscr{S}'$ 诱导结构 C上的类$\Sigma$，以及$\mathscr{S}$和$\mathscr{S}'$在C上诱发的结构是相同的。*
+CST11。 *设B为A的子集，令C为B的子集，并令$\mathscr{S}$为A上的类$\Sigma$结构，其中诱导结构$\mathscr{S}'$与 B 上的类相同。那么类 $\Sigma$ 的 $\mathscr{S}$ 诱导结构在 C 当且仅当 $\mathscr{S}'$ 诱导结构 C上的类$\Sigma$，以及$\mathscr{S}$和$\mathscr{S}'$在C上诱发的结构是相同的。*
 
-CST12。 *设A、A'为具有类$\Sigma$的结构$\mathscr{S}$、$\mathscr{S}'$的两个集合。设 B 为 A 的子集，B' 为 A' 的子集。假设 B（或 B'）上有类 $\Sigma$ 的 $\mathscr{S}$（或 $\mathscr{S}'$）诱导结构。如果$f$是A到A'的态射，使得$f(B)\subset B'$，则B到B'的映射，其中重合与B上的$f$是态射（相对于由$\mathscr{S}$诱导的结构和$\mathscr{S}'$).*
+CST12。 *设A、A'为具有类$\Sigma$的结构$\mathscr{S}$、$\mathscr{S}'$的两个集合。设 B 为 A 的子集，B' 为 A' 的子集。假设 B（或 B'）上有类 $\Sigma$ 的 $\mathscr{S}$（或 $\mathscr{S}'$）诱导结构。如果$f$是A到A'的态射，使得$f(B)\subset B'$，则B到B'的映射，其中重合和B上的$f$是态射（相对于由$\mathscr{S}$诱导的结构和$\mathscr{S}'$).*
 
 令$j$（或$j'$）为B（或B'）到A（或A'）的典范嵌入。到定义，我们就有了$f\circ j=j'\circ g$。由于$f$和$j$是态射，所以$f\circ j$乘以(MO$_{\mathrm{II}}$)；但是，$j'\circ g$是态射，映射$g$是态射乘以初始结构的定义。
 
@@ -252,13 +252,13 @@ CST9), $f_i \circ p_i$ 乘以 (MO$_\Pi$) 为态射；因此 $f$ 等于 (IN) 态�
 
 最后，我们有以下标准，它在许多情况下表征态射 ：
 
-**CST17.** — 令$A$和$B$为两个集合，赋予相同的类$\Sigma$的结构$\mathscr{S}_A$、$\mathscr{S}_B$。假设在$\mathscr{S}_A$和$\mathscr{S}_B$的$A\times B$结构$\mathscr{S}_{A\times B}$、乘积上存在。令$f$为$A$的映射到$B$，令$F$为其图，并令$\pi$为$A$的双射$x\mapsto (x,f(x))$到$F$。那么，要使$f$成为$A$的态射进入$B$，由$\mathscr{S}_{A\times B}$诱发的类$\Sigma$的$F$结构上存在充分必要，且当$F$为有了这个结构，$\pi$应该是$A$的同构到$F$。
+**CST17.** — 令$A$和$B$为两个集合，赋予相同的类$\Sigma$的结构$\mathscr{S}_A$、$\mathscr{S}_B$。假设在$\mathscr{S}_A$和$\mathscr{S}_B$的$A\times B$、结构、$\mathscr{S}_{A\times B}$、乘积上存在。令$f$为$A$的映射到$B$，令$F$为其图，并令$\pi$为$A$的双射$x\mapsto (x,f(x))$到$F$。那么，要使$f$成为$A$的态射进入$B$，由$\mathscr{S}_{A\times B}$诱发的类$\Sigma$的$F$结构上存在充分必要，且当$F$为有了这个结构，$\pi$应该是$A$的同构到$F$。
 
-为了证明充分性，令 $j$ 为 $F$ 的典范嵌入到 $A\times B$。我们可以写成$f=\operatorname{pr}_2\circ j\circ\pi$，那么$f$就是三个态射中的假设合成。
+为了证明充分性，令$j$是$F$到$A\times B$的典范嵌入。我们可以写成$f=\operatorname{pr}_2\circ j\circ\pi$，那么$f$就是三个态射中的假设合成。
 
-¶ 为了证明必要性，令$\mathscr{S}_{\mathbf{F}}$为通过双射$\pi$(§ 1, no. 5)将结构$\mathscr{S}_{\mathbf{A}}$传输到F得到的类$\Sigma$中的结构。然后我们必须证明$\mathscr{S}_{\mathbf{F}}$是由$\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$在F上诱导的。我们首先将注证明$j$是F的态射转化为$\mathbf{A} \times \mathbf{B}$；因为$j \circ \pi$是A到$\mathbf{A} \times \mathbf{B}$的映射$x \to (x, f(x))$，因此凭借$f$上的假设和乘积结构的定义是态射；因此，通过结构$\mathscr{S}_{\mathbf{F}}$的定义，$j$为态射。仍有待证明，如果E是集合赋予类$\Sigma$的结构，并且如果$g$是E到F的映射使得$j \circ g$是E到$\mathbf{A} \times \mathbf{B}$的态射，那么$g$为态射；或者，等价地，$g_1 = \overset{-1}{\pi} \circ g$是E到A的态射。但是从$g_1 = \mathrm{pr}_1 \circ (j \circ g)$开始，这是从乘积结构的假设和定义得出的。
+¶ 为了证明必要性，令$\mathscr{S}_{\mathbf{F}}$为通过双射$\pi$(§ 1, no. 5)将结构$\mathscr{S}_{\mathbf{A}}$传输到F得到的类$\Sigma$中的结构。然后我们必须证明$\mathscr{S}_{\mathbf{F}}$是由$\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$在F上诱导的。我们首先将注证明$j$是F的态射转化为$\mathbf{A} \times \mathbf{B}$；因为$j \circ \pi$是A到$\mathbf{A} \times \mathbf{B}$的映射$x \to (x, f(x))$，因此凭借$f$上的假设和乘积结构的定义为态射；因此，通过结构$\mathscr{S}_{\mathbf{F}}$的定义，$j$为态射。仍有待证明，如果 E 是集合赋予类 $\Sigma$ 的结构，并且如果 $g$ 是 E 到 F 的映射，使得 $j \circ g$ 是 E 到 $\mathbf{A} \times \mathbf{B}$ 的态射，则$g$为态射；或者，等价地，$g_1 = \overset{-1}{\pi} \circ g$是E到A的态射。但是从$g_1 = \mathrm{pr}_1 \circ (j \circ g)$开始，这是从乘积结构的假设和定义得出的。
 
-### 5.决赛结构
+### 5. 最终结构
 
 考虑一个由集合$(\mathbf{A}_\iota)_{\iota \in \mathbf{I}}$组成的家庭，每个家庭都拥有结构$\mathscr{S}_\iota$或类$\Sigma$。令 E 为集合，对于每个 $\iota \in \mathbf{I}$ 令 $g_\iota$ 为映射 *of* $\mathbf{A}_\iota$ *进入* E。 E 上类 $\Sigma$ 的结构 $\mathscr{T}$ 被认为是关于 E 上的 *最终结构家庭* $(\mathbf{A}_\iota, \mathscr{S}_\iota, g_\iota)_{\iota \in \mathbf{I}}$ 如果它具有以下性质 ：
 
@@ -286,23 +286,23 @@ CST19。 *设*E*为集合，让*$(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$*为�
 
 *此外，这些叙述意味着*$\mathscr{S} = \mathscr{S}'$。
 
-令F为集合赋予类$\Sigma$的结构，并令$u$为E的映射赋予F。 由定义、关系“$u \circ h_\lambda$是将$\mathrm{B}_\lambda$的态射转化为F”等价于关系
+设F为集合赋予类$\Sigma$结构，设$u$为E的映射入F。由定义，关系》$u \circ h_\lambda$为$\mathrm{B}_\lambda$态射入F”相当于关系
 
 “对于所有 $\iota \in \mathrm{J}_\lambda$，$u \circ h_\lambda \circ g_{\iota\lambda} = u \circ f_\iota$ 是 $\mathrm{A}_\iota$ 的态射进入 F”。
 
-The relation
+关系
 
-(3) “对于所有 $\lambda \in \mathrm{L}$，$u \circ h_\lambda$ 是 $\mathrm{B}_\lambda$ 的态射进入 F”
+(3) “对于所有 $\lambda \in \mathrm{L}$，$u \circ h_\lambda$ 是 $\mathrm{B}_\lambda$ 中的态射进入 F”
 
 因此相当于关系
 
-(4) “对于所有 $\iota \in \mathrm{I}$，$u \circ f_i$ 是 $\mathrm{A}_\iota$ 的态射进入 F”。
+(4) “对于所有 $\iota \in \mathrm{I}$，$u \circ f_i$ 是 $\mathrm{A}_\iota$ 中的态射进入 F”。
 
-说$\mathscr{S}'$是$(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$族的最终结构，意味着关系(3)等价于关系“$u$是E（赋予$\mathscr{S}'$）到F的态射”；并说E是关于家庭$(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in \mathrm{I}}$的最终结构意味着关系（4）相当于关系“$u$是E（赋予$\mathscr{S}$）到F的态射”；因此，考虑到最终结构的唯一性中的性质。
+说$\mathscr{S}'$对于$(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$来说是最终的结构，意味着关系(3)相当于关系“$u$是E（赋予$\mathscr{S}'$）到F的态射”；并说E是关于家庭$(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in \mathrm{I}}$的最终结构意味着关系（4）相当于关系“$u$是E（赋予$\mathscr{S}$）到F的态射”；因此，鉴于最终结构的唯一性中的性质。
 
-### 6.决赛例结构
+### 6. 决赛例结构
 
-I。 *结构的直接像。*当I是单个元素的集合由……组成时，相对于$(\mathrm{A}, \mathscr{S}, f)$的最终结构称为结构*的*$f$*下的*直接像 $\mathscr{S}$（当存在时）。
+I。 *结构的直接像。*当I是单个元素的集合由……组成时，相对于$(\mathrm{A}, \mathscr{S}, f)$的最终结构称为*$f$*下的*直接像结构* $\mathscr{S}$（当存在时）。
 
 II。 *商结构。* 设A为集合，赋予类$\Sigma$的结构$\mathscr{S}$，令R为A上的等价关系，并令$\varphi$为A在商集上的典范映射 $\mathrm{E} = \mathrm{A}/\mathrm{R}$（章II, § 6, no. 2）。 映射 $\varphi$ 下结构 $\mathscr{S}$ 的直接像被称为（当存在时）结构 $\mathscr{S}$ 除以关系 R 的*商*。
 
@@ -326,4 +326,4 @@ Let $\varphi$ be the canonical mapping of A onto $A/R$, and let $\psi$ be that o
 
 ### 习题{#ens-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

@@ -66,27 +66,27 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 8a1cffffa8e232035f370193b044519ffc6556fd09461743af7f56e1dcee9b48
+content_sha256: a60b589bb9ec387e14ed832fc3fa58c427cd375862d4bcdb11c120f5fa36c12e
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
 translation_method: google
 source_content_sha256: d9e2a61c3971782f685be044252b3450406801250b05574efb54eb00ac04501c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ec45d76afbea11a2dd0c700e246b2615566e5a5663d1b0f9da8bb234079a787f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 11。 余代数、乘积多重线性形式、内部乘积和对偶
 
-在本段中，A 是交换环，其毕业程度很简单。对于型 N 的分级 A-模 M，M^{gr} 将表示型 N 的分级 A-模，其次数 n 的齐次元素是 A 线性形式，对于所有 k ≠ n，其在 M_k 上为零。
+在这一段中，A 是交换环，毕业程度很微不足道。对于型 N 的分级 A-模 M，M^{gr} 将表示型 N 的分级 A-模，其次数 n 的齐次元素是 A 线性形式，对于所有 k ≠ n，其在 M_k 上为零。
 
-### 1.余代数
+### 1. 余代数
 
 #### 定义 1 {#alg-iii-s11-def-1 .statement tag=067H}
 
-A 上的余数 a（或 A-余数，如果不会引起混淆，则简称为余数 a）是集合 E，其中结构定义为：
+A 上的余数 a（或 A-余数，或者如果不会引起混淆，则简称为余数 a）是集合 E，其中结构定义为：
 (1) E 上A-模结构；
 (2) A-线性映射 c: E → E ⊗_A E 称为 E 的余积。
 
@@ -111,11 +111,11 @@ $$
 
 (2) 令E为余代数，$c$其余积和$\sigma$A-模$E \otimes_A E$的规范自同构，使得$\sigma(x \otimes y) = y \otimes x$对应于$x \in E, y \in E$； A-线性映射 $\sigma \circ c$ 定义 E 上的新余代数结构。这样结构 E 就被称为给定余代数 E 的*相反* 余代数。
 
-(3) 令 B 为 A-*代数*，并令 $m : B \otimes_A B \to B$ 为 A-线性映射，在 B (§ 1, no. 3) 上定义乘法。 转置$^t m$则为A-模B的对偶$B^*$到A-模$B \otimes_A B$的对偶$(B \otimes_A B)^*$的A-线性映射。如果 B 也是*有限生成射影* A-模，则典范映射 $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ 是 A-模同构 (II, § 4, no. 4)； 映射$c = \mu^{-1} \circ ^t m$则余积在A-模的*对偶*$B^*$上定义*余代数*结构B。
+(3) 令 B 为 A-*代数*，并令 $m : B \otimes_A B \to B$ 为 A-线性映射，在 B (§ 1, no. 3) 上定义乘法。 转置$^t m$则为A-模B的对偶$B^*$的A-线性映射转化为A-模$B \otimes_A B$的对偶$(B \otimes_A B)^*$。如果 B 也是*有限生成射影* A-模，则典范映射 $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ 是 A-模同构 (II, § 4, no. 4)； 映射$c = \mu^{-1} \circ ^t m$则余积在A-模的*对偶*$B^*$上定义*余代数*结构B。
 
 (4) 设X为集合，X的元素的形式线性组合的$A^{(X)}$A-模，其系数为A(II, § 1, no. 11)和$(e_x)_{x \in X}$典范基 $A^{(X)}$。 A-线性映射$c : A^{(X)} \to A^{(X)} \otimes_A A^{(X)}$由条件$c(e_x) = e_x \otimes e_x$定义，因此在$A^{(X)}$上获得规范的余代数结构。
 
-(5) 令M为M(§ 5, no. 1)的A-模和$T(M)$张量代数；到 II, § 3, no. 9 时，A-模 $T(M)$ 中存在且仅有一个 A-线性映射 $c$ 进入A-模 $T(M) \otimes_A T(M)$，使得对于所有 $n \geq 0$，
+(5) 令M为M(§ 5, no. 1)的A-模和$T(M)$张量代数；到 II, § 3, no. 9 时，A-模 $T(M)$ 中存在且仅有一个 A-线性映射 $c$ 进入 A-模 $T(M) \otimes_A T(M)$，使得对于所有 $n \geq 0$，
 
 $$
 c(x_1 x_2 \ldots x_n) = \sum_{0 \leq p \leq n} (x_1 x_2 \ldots x_p) \otimes (x_{p+1} \ldots x_n)
@@ -123,7 +123,7 @@ $$
 
 对于所有$x_i \in M$（$x_1 x_2 \ldots x_n$表示代数$T(M)$中的乘积）。因此 $T(M)$ 被赋予 *余代数* 结构。
 
-(6) 令M为A-模且$S(M)$为M的对称代数(§ 6, no. 1)； M 到 $M \times M$ 的对角线映射 $\Delta : x \mapsto (x, x)$ 是 A-线性映射，因此 A-代数 $S(M)$ 的对应同态 $S(\Delta)$ 到 A-代数 $S(M \times M)$ （§ 6, no. 2，命题3）。另一方面，在§ 6, no. 6中，我们定义了规范分级代数同构$h : S(M \times M) \to S(M) \otimes_A S(M)$；因此，通过合成，我们得到 *A-代数* 同态
+(6) 令M为A-模且$S(M)$是M的对称代数(§ 6, no. 1)； M 到 $M \times M$ 的对角线映射 $\Delta : x \mapsto (x, x)$ 是 A-线性映射，因此对应同态 $S(\Delta)$ 到 A-代数 $S(M)$ 到 A-代数 $S(M \times M)$ （§ 6, no. 2，命题3）。另一方面，在§ 6, no. 6中，我们定义了规范分级代数同构$h : S(M \times M) \to S(M) \otimes_A S(M)$；因此，通过合成，我们得到 *A-代数* 同态
 
 $$
 c = h \circ S(\Delta) : S(M) \to S(M) \otimes_A S(M),
@@ -135,7 +135,7 @@ $$
 h((x, x)) = x \otimes 1 + 1 \otimes x.
 $$
 
-由此可见，$c$ 是唯一代数同态，因此，对于所有 $x \in M$，
+由此可见 $c$ 是唯一代数同态，因此，对于所有 $x \in M$，
 
 (4)
 $$
@@ -209,15 +209,15 @@ $A$模块$E \otimes_A F$上的定义余代数结构，称为余代数$E$和$F$�
 令 $E$ 为余代数且 $\Delta$ 为可交换幺半群。如果 $c$ 是分级的次数 $O$ 的分级同态，则 $A$ 模块 $E$ 上的分级 $(E_\lambda)_{\lambda \in \Delta}$ 据说与余积* $c$ $E$ 相容的$A$-模块$E$进入分级$A$-模块（型$\Delta$）$E \otimes_A E$，在其他字（II, § 11, no. 5）如果
 $$(10)\quad c(E_\lambda) \subset \sum_{\mu + \nu = \lambda} E_\mu \otimes_A E_\nu.$$
 
-在下文中，我们最常关注极限与余积兼容的型$\mathbf{N}$的毕业；具有此类分级的 cogebrà 也称为*分级 cogebrà*。如果 F 是另一个分级余数，则 *分级余数态射* $\phi : E \to F$ 由定义得到一个余数态射 (定义 2)，它也是次数* 0 的分级余数同态 A-模。
+在下文中，我们最常关注极限与余积兼容的型$\mathbf{N}$的毕业；具有此类分级的 cogebrà 也称为*分级 cogebrà*。如果 F 是另一个分级余数，则 *分级余数态射* $\phi : E \to F$ 由定义得到一个余数态射 (定义 2)，它也是次数* 0 的分级余数同态* 0 A-模。
 
 #### 例 {#alg-iii-s11-n1-exa-2 .statement tag=067K}
 
 (9) 上述定义的余代数、$T(M)$、$S(M)$、$\Lambda(M)$分级为余代数，为直接的。
 
-### 2.共关联性，共交换性，余单位
+### 2. 共关联性，共交换性，余单位
 
-令E为余数，$c$其余积、N、$N'$、$N''$三个A-模和$m$是$N \times N'$到$N''$的双线性映射。让$\tilde{m} : N \otimes_A N' \to N''$表示A-线性映射相应的到$m$。如果$u : E \to N$、$v : E \to N'$是两个A-线性映射，我们推导A-线性映射$u \otimes v : E \otimes_A E \to N \otimes_A N'$以及E的复合A-线性映射到$N''$：
+令 E 为余代数，$c$其余积、N、$N'$、$N''$三个A-模和$m$是$N \times N'$到$N''$的双线性映射。让$\tilde{m} : N \otimes_A N' \to N''$表示A-线性映射相应的到$m$。如果$u : E \to N$、$v : E \to N'$是两个A-线性映射，我们推导出A-线性映射$u \otimes v : E \otimes_A E \to N \otimes_A N'$以及E的复合A-线性映射到$N''$：
 
 $$
 m(u, v) : E \xrightarrow{c} E \otimes_A E \xrightarrow{u \otimes v} N \otimes_A N' \xrightarrow{\tilde{m}} N''.
@@ -416,11 +416,11 @@ C。 条件$fe = f$蕴含(16)的第二个图表的交换律，类似地可以看
 
 #### 例 {#alg-iii-s11-n2-exa-4 .statement tag=067S}
 
-(6) 恒等映射是余代数A中的余单位；在余代数 A$^{(X)}$ (no. 1, *例 4*) 线性形式 $\gamma$ 上，使得所有 $x \in X$ 的 $\gamma(e_x) = 1$ 为余单位。在余代数 T(M)（分别为 S(M)、$\Lambda(M)$）线性形式 $\gamma$，使得 $\gamma(1) = 1$ 和 $\gamma(z) = 0$ 对于 $z$ 在 $T^n(M)$（分别为 $S^n(M)$、$\Lambda^n(M)$） $n \geq 1$ 是余单位。最后，令 B 为 A-代数，它是有限生成的射影 A-模并且具有单位元 $e$；那么余代数 B* (no. 1, *例 3*) 线性形式 $\gamma: x^* \mapsto \langle e, x^* \rangle$ 是余单位，因为这个形式只是 A 的 A-线性映射 $\eta_e: \xi \mapsto \xi e$ 的转置到 B 并通过转置图表 (16) 的交换律源自图表，它表达（使用$\eta_e$）$e$是B (§ 1, no. 3)的单位元；同样的论点还表明，相反，如果余代数 B* 承认 B 的余单位 $\gamma$，则$\gamma$ 定义单位元 $e = t_\gamma(1)$ 的转置。
+(6) 恒等映射是余代数A中的余单位；在余代数 A$^{(X)}$ (no. 1, *例 4*) 线性形式 $\gamma$，使得所有$x \in X$的$\gamma(e_x) = 1$为余单位。在余代数 T(M)（分别为 S(M)、$\Lambda(M)$）线性形式 $\gamma$，使得 $\gamma(1) = 1$ 和 $\gamma(z) = 0$ 对于 $z$ 在 $T^n(M)$（分别为 $S^n(M)$、$\Lambda^n(M)$） $n \geq 1$ 是余单位。最后，令 B 为 A-代数，它是有限生成的射影 A-模，并且有单位元 $e$；那么余代数 B* (no. 1, *例 3*) 线性形式 $\gamma: x^* \mapsto \langle e, x^* \rangle$ 是余单位，因为这个形式只是 A 的 A-线性映射 $\eta_e: \xi \mapsto \xi e$ 的转置到 B 并通过转置图表 (16) 的交换律源自图表，它表达（使用$\eta_e$）$e$是B (§ 1, no. 3)的单位元；同样的论点还表明，相反，如果余代数 B* 承认 B 的余单位 $\gamma$、$\gamma$ 定义单位元 $e = t_\gamma(1)$ 的转置。
 
 #### 命题 4 {#alg-iii-s11-prop-4 .statement tag=067T}
 
-*设E为余代数，承认余单位$\gamma$，并假设E中存在元素 e，使得$\gamma(e) = 1$；则 E 是子 A 模块 Ae 的直和和 $E_{\gamma} = \mathrm{Ker}(\gamma)$ 并且*
+*设E为余代数，承认余单位$\gamma$，并假设E中存在元素 e，使得$\gamma(e) = 1$；则 E 是子 A 模块 Ae 的直和和 $E_{\gamma} = \mathrm{Ker}(\gamma)$ 和*
 
 $$
 \text{(18)} \quad \begin{cases}
@@ -443,7 +443,7 @@ $$
 $$
 A(e \otimes e) \oplus ((Ae) \otimes E_\gamma) \oplus (E_\gamma \otimes (Ae)) \oplus (E_\gamma \otimes E_\gamma)
 $$
-允许我们写，对于$x \in E_\gamma$，$c(x) = \lambda(e \otimes e) + (e \otimes y) + z \otimes e) + u$，其中$u = \sum_j v_j \otimes w_j, y, z$以及$v_j$和$w_j$属于到$E_\gamma$。 余单位 $\gamma$的定义则给出$x = \lambda e + y = \lambda e + z$，并且作为$\gamma(x) = 0$，必然为$\lambda = 0, x = y = z$，从而 (18) 的第二个关系。
+允许我们写，对于$x \in E_\gamma$，$c(x) = \lambda(e \otimes e) + (e \otimes y) + z \otimes e) + u$，其中$u = \sum_j v_j \otimes w_j, y, z$以及$v_j$和$w_j$属于到$E_\gamma$。 余单位$\gamma$的定义则给出$x = \lambda e + y = \lambda e + z$，并且作为$\gamma(x) = 0$，必然$\lambda = 0, x = y = z$，从而(18)的第二个关系。
 
 #### 注 {#alg-iii-s11-n2-rem-2 .statement tag=067U}
 
@@ -453,7 +453,7 @@ $$
 $$
 通过本号开头描述的一般程序。立即验证，这个映射定义在$\operatorname{Hom}_A(C, M)$左模结构超过了环$\operatorname{Hom}_A(C, B)$。
 
-### 3. 余代数型 N 分级的特性
+### 3. 余代数型 N 的性能
 
 #### 命题 5 {#alg-iii-s11-prop-5 .statement tag=067V}
 
@@ -465,7 +465,7 @@ c(x) \equiv x \otimes e + e \otimes x \ (\text{mod. } E_+ \otimes E_+)
 $$
 *对于所有人*$x \in E_+$。
 
-(i) 足以验证$\gamma(x) = 0$对于$x \in E_n$，对于所有$n \geq 1$。由于 $c$ 的评分为同态次数 0，
+(i) 足以验证$\gamma(x) = 0$对于$x \in E_n$，对于所有$n \geq 1$。由于 $c$ 是次数 0 的分级同态，
 
 $$
 c(x) = \sum_{0 \leq j \leq n} \left( \sum_i y_{ij} \otimes z_{i, n-j} \right)
@@ -488,7 +488,7 @@ $$
 
 因此$\gamma(x) = \sum_i \gamma(y_{in}) \gamma(z_{i0}) = \gamma(0) = 0$。
 
-(ii) 由于$\mathrm{Ker}(\gamma)$和$E_+$都是$Ae = E_0$和$E_+ \subset \mathrm{Ker}(\gamma)$的补充子A模块（i），$E_+ = \mathrm{Ker}(\gamma)$（II, § 1, no. 8，注1）；另一个断言紧随命题 4 of no. 2。
+(ii) 由于$\mathrm{Ker}(\gamma)$和$E_+$都是$Ae = E_0$和$E_+ \subset \mathrm{Ker}(\gamma)$的补充子A模块（i），$E_+ = \mathrm{Ker}(\gamma)$（II, § 1, no. 8，注1）；另一个断言是从命题 4 of no. 2开始的。
 
 #### 命题 6 {#alg-iii-s11-prop-6 .statement tag=067W}
 
@@ -522,9 +522,9 @@ $$
 
 #### 定义 3 {#alg-iii-s11-def-3 .statement tag=067Y}
 
-*环 A 上的分级 Bigebra（或倾斜分级 Bigebra）为集合 E，分级 A-代数结构为型 $\mathbf{N}$，分级 A-cogebra 结构为型 $\mathbf{N}$，具有相同的标的评级 A-模结构，这样：*
+*环 A 上的分级 Bigebra（或倾斜分级 Bigebra）为集合 E，分级 A-代数结构为型 $\mathbf{N}$，分级 A-cogebra 结构为型 $\mathbf{N}$，具有相同的标的评级 A-模结构，因此：*
 
-(1) *A-代数 E 是结合律且单位的。*
+(1) *A-代数 E 是结合律且单位。*
 
 (2) *A-代数 E 是共联想和共体的。*
 (3) *余积 c : E \to E \otimes_A E 是分级代数 E 的同态到分级代数 E \otimes_A E* （或 *分级代数 E^g \otimes_A E* (cf. § 4, no. 7））。
@@ -539,33 +539,33 @@ c(e) = e \otimes e \\
 c(x) \equiv x \otimes e + e \otimes x (\text{mod. } E_+ \otimes E_+) \quad \text{for } x \in E_+ = \bigoplus_{n \geq 1} E_n.
 $$
 
-如果 E 和 F 是两个分级 bigebra（分别是两个倾斜分级 bigebra），则映射 $\phi : E \to F$ 被称为 *分级 bigebra 态射*（分别是 *倾斜分级 bigebra 态射*），如果： (1) $\phi$ 是分级代数态射（因此E的映射单位元到F的单位元）； (2) $\phi$ 是分级的余代数态射，因此，如果 $\gamma$ 和 $\gamma'$ 分别是 E 和 F 的余单位，则$\gamma = \gamma' \circ \phi$。
+如果 E 和 F 是两个分级 bigebra（分别是两个倾斜分级 bigebra），则映射 $\phi : E \to F$ 称为 *分级 bigebra 态射*（分别是 *倾斜分级 bigebra 态射*），如果： (1) $\phi$ 是分级代数态射（因此E的映射单位元到F的单位元）； (2) $\phi$ 是分级的余代数态射，因此，如果 $\gamma$ 和 $\gamma'$ 分别是 E 和 F 的余单位，则$\gamma = \gamma' \circ \phi$。
 
 #### 例 {#alg-iii-s11-n4-exa-1 .statement tag=067Z}
 
-(1) 令 S 为具有单位元素 u 的幺半群，使得 A 上的幺半群 S 的代数 $E = A^{(S)}$ 承认单位元 $e_u$ (§ 2, no. 6)；另一方面，E 具有典型的共关联共交换 A-代数结构，其中余单位 $\gamma$ 使得 $\gamma(e_s) = 1$ 对于所有 $s \in S$ (no. 1、例 4 和 no. 2、例 4， 5 和 6)。 公式$c(e_s) = e_s \otimes e_s$给出余积也立即表明c是代数同态。因此，在 E 和 E 上定义了*共交换大数* 结构，其中结构被称为幺半群 S 在 A* 上的*大数数。
+(1) 令 S 为具有单位元素 u 的幺半群，使得 A 上的幺半群 S 的代数 $E = A^{(S)}$ 承认单位元 $e_u$ (§ 2, no. 6)；另一方面，E 具有规范的共关联共交换 A-代数结构，其中余单位 $\gamma$ 使得 $\gamma(e_s) = 1$ 对于所有 $s \in S$ (no. 1、例 4 和 no. 2、例 4， 5 和 6)。 公式$c(e_s) = e_s \otimes e_s$给出余积也立即表明c是代数同态。因此，在 E 和 E 上定义了*共交换大数* 结构，其中结构被称为幺半群 S 在 A* 上的*大数数。
 
-如果 T 是另一个幺半群，其中单位元 v、$f : S \to T$ 同态，使得 $f(u) = v$ 和 $f_{(A)} : A^{(S)} \to A^{(T)}$ A-代数同态源自 $f$ (§ 2, no. 6)，则立即验证$f_{(A)}$ 是一个 *bigebra 同态*。
+如果 T 是另一个幺半群，其中单位元 v、$f : S \to T$ 同态，使得 $f(u) = v$ 和 $f_{(A)} : A^{(S)} \to A^{(T)}$ A-代数同态源自 $f$ (§ 2, no. 6)，则立即验证： $f_{(A)}$ 是一个 *bigebra 同态*。
 
-(2) 设M为A-模。在 S(M) 定义上定义的分级 A-代数 (§ 6, no. 1) 和分级 A-cogebra (no. 1, 例 6) 结构在此集合上定义*可交换共交换分级大数* 结构；因为我们已经看到 (no. 1, 例 6) S(M) 上的余积是 *代数* 同态并且它是从余单位 $\gamma$ 的定义得出的 (no. 2, 例 6) $\gamma(1) = 1$ 和 $\gamma$ 是 E 到 A 的代数同态。
+(2) 设M为A-模。在 S(M) 定义上定义的分级 A-代数 (§ 6, no. 1) 和分级 A-cogebra (no. 1, 例 6) 结构在此集合上*可交换共交换分级大数* 结构；因为我们已经看到 (no. 1, 例 6) S(M) 上的余积是 *代数* 同态并且从余单位 $\gamma$ (no. 2, 例 6) 的定义得出结论$\gamma(1) = 1$ $\gamma$ 是 E 到 A 的代数同态。
 
-(3) 设M为A-模。我们在例 2 中看到，$\bigwedge(M)$ 定义上的分级 A-代数 (§ 7, no. 1) 和分级 A-余数 (no. 1, 例 7) 结构在这个集合上*反交换反交换偏斜分级bigebra* 结构。
+(3) 设M为A-模。 We see as in Example 2 that the graded A-algebra (§ 7, no. 1) and graded A-cogebra (no. 1, Example 7) structures on $\bigwedge(M)$ define on this set an *anticommutative anticocommutative skew graded bigebra* structure.
 
 #### 注 {#alg-iii-s11-n4-rem-1 .statement tag=0680}
 
-如果 M 为 A-模，使得 $M \otimes_A M \neq \{0\}$，则 $T(M)$ 上的分级 A-代数 (§ 5, no. 1) 和分级 A-余数 (no. 1, 例 5) 结构 *不要定义* 大数数结构，一般来说
+如果 M 是 A-模，使得 $M \otimes_A M \neq \{0\}$，则 $T(M)$ 上的分级 A-代数 (§ 5, no. 1) 和分级 A-余数 (no. 1, 例 5) 结构 *不要定义* 大数数结构，对于一般情况
 
 $$
 c(x_1 x_2 y_1 y_2) \neq c(x_1 x_2) c(y_1 y_2)
 $$
 
-对于M的四个元素$x_1, x_2, y_1, y_2$，如no. 1的公式(3)所示。
+对于 M 的四个元素 $x_1, x_2, y_1, y_2$，如 no. 1 的公式 (3) 所示。
 
-### 5. 分级双打$T(M)^{*gr}$、$S(M)^{*gr}$ 和 $\bigwedge(M)^{*gr}$
+### 5. 分级对偶 $T(M)^{*gr}$、$S(M)^{*gr}$ 和 $\bigwedge(M)^{*gr}$
 
-*从现在开始，我们返回章对代数的一般约定，因此将假定（除非否则提及）是结合和单位的。*
+*从现在开始，我们返回章对代数的一般约定，因此将假设（除非否则提及）是结合和单位的。*
 
-设M为A-模； $T(M)$ (no. 1, 例 5), $S(M)$ (no. 1, 例 6) 和$\bigwedge(M)$ (no. 1, 例 7) 上定义的分级A-代数结构允许我们定义规范地对分级对偶 $T(M)^{*gr}$、$S(M)^{*gr}$ 和 $\bigwedge(M)^{*gr}$ *分级代数* 结构为型 N，凭借 no. 2、命题 1 和 3 以及制定的约定模 (no. 1) 的分级双学位毕业。此外，分级的代数$S(M)^{*gr}$是*可交换的*（no. 2，命题2和例5），而分级的代数$\bigwedge(M)^{*gr}$是*反交换的*（no. 3，命题） 6 和例）。在 $\bigwedge(M)^{*gr}$ *次数 1 中的每个元素都是零平方*；这样元素在M上与线性形式$f$识别，并且它的平方在$M^2$上是交错的双线性形式$f \wedge f$这样
+设M为A-模； $T(M)$ (no. 1, 例 5), $S(M)$ (no. 1, 例 6) 和$\bigwedge(M)$ (no. 1, 例 7) 上定义的分级A-代数结构允许我们定义规范地对分级双打$T(M)^{*gr}$、$S(M)^{*gr}$和$\bigwedge(M)^{*gr}$*分级代数*结构或型N，凭借no. 2、命题1和3以及关于分级双打毕业的惯例模（no. 1）。此外，分级的代数$S(M)^{*gr}$是*可交换的*（no. 2、命题2和例5），而分级的代数$\bigwedge(M)^{*gr}$是*反交换的*（no. 3、命题6和例）。在 $\bigwedge(M)^{*gr}$ *次数 1 中的每个元素都是零平方*；这样元素与 M 上的线性形式 $f$ 等价，其平方是 $M^2$ 上的交错的双线性形式 $f \wedge f$，使得
 
 $$
 (f \wedge f)(x, y) = f(x) f(y) - f(y) f(x)
@@ -603,15 +603,15 @@ t\Lambda(u): \Lambda(N)^{*gr} &\to \Lambda(M)^{*gr}
 \end{align*}
 $$
 
-*评分代数同态*。
+*评分为代数同态*。
 
-我们现在注，$M$的对偶$M^*$被识别为$T(M)^{*gr}$中次数1的元素的子模（分别为$S(M)^{*gr}$，$\Lambda(M)^{*gr}$）。因此，从张量代数 (§ 5, no. 1) 的泛性质和对称代数 (§ 6, no. 1) 的泛性质可以得出，*存在且仅有一个分级的代数同态*
+我们现在注，$M$的对偶$M^*$被识别为$T(M)^{*gr}$中次数1的元素的子模（分别为$S(M)^{*gr}$，$\Lambda(M)^{*gr}$）。因此，从张量代数 (§ 5, no. 1) 的泛性质和对称代数 (§ 6, no. 1) 的泛性质可以得出，*存在且仅存在一个分级的代数同态*
 
 $$
 \theta_T: T(M^*) \to T(M)^{*gr}
 $$
 
-*其中扩展典范嵌入* $M^* \to T(M)^{*gr}$，*只有一个评级为代数同态*
+*其中扩展典范嵌入* $M^* \to T(M)^{*gr}$，*只有一个评分为代数同态*
 
 $$
 \theta_S: S(M^*) \to S(M)^{*gr}
@@ -623,7 +623,7 @@ $$
 \theta_\Lambda: \Lambda(M^*) \to (\Lambda(M)^{*gr})^0
 $$
 
-*其中扩展典范嵌入*$M^* \to \Lambda(M)^{*gr}$.‡这些同态
+*其中扩展典范嵌入* $M^* \to \Lambda(M)^{*gr}$.‡ 这些同态
 
 † 这也是从 no. 1 的公式 (5) 和 (9) 得出的。
 ‡ 为了计算方便，将单射扩展到同态到反代数到$\Lambda(M)^{*gr}$，而不是同态到$\Lambda(M)^{*gr}$。
@@ -857,18 +857,18 @@ $$
 
 #### 命题 8 {#alg-iii-s11-prop-8 .statement tag=0684}
 
-*假设环$A$是有理数数的代数大于域$\mathbf{Q}$；那么，对于每个有限生成的射影$A$-模$M$，同态*
+*假设环$A$是有理数的代数大于域$\mathbf{Q}$；那么，对于每个有限生成的射影$A$-模$M$，同态*
 
 $$
 \theta_S : S(M^*) \to S(M)^{*gr}
 $$
 *是双射的。*
 
-当 $M$ 有限生成并且自由时，它相当于证明；我们使用引理 2 从这种情况过渡到一般情况，如命题 7 的证明所示。
+当$M$是有限生成且自由时，它相当于证明；我们使用引理 2 从这种情况过渡到一般情况，如命题 7 的证明所示。
 
 #### 注 {#alg-iii-s11-n5-rem-1 .statement tag=0685}
 
-令$M$为$A$模块且$\rho : A \to B$交换环同态。那么有分级 $B$-代数同态的交换图表
+令$M$为$A$模块，$\rho : A \to B$交换环同态。那么有分级 $B$-代数同态的交换图表
 
 $$
 \begin{array}{ccc}
@@ -886,9 +886,9 @@ $$
 
 § 5, no. 3、命题5)。使用公式 (28) 和同态 $v_E$ (II, § 5, no. 4) 的定义可以立即验证，这个图表是*可交换的*。当 M 是*有限生成射影* A-模时，$M_{(B)}$ 是有限生成射影 B-模（II, § 5, no. 1，命题 4 的推论），并且上述图表的所有同态都是*双射*（命题 7 和II, § 5, no. 4、命题 8)。还有类似的交换律图表，其中 T 替换为 S 或 $\Lambda$；当 M 是射影且有限生成时 (命题 7)，$\Lambda$ 的图表也由双射同态组成；如果进一步 A 是 $\mathbf{Q}$ 上的代数，则 S 的图表也由双射同态 (命题 8) 组成。
 
-### 6.内部乘积：代数案例
+### 6. 内部乘积：代数的案例
 
-设$E = \bigoplus_{p \geq 0} E_p$为型$\mathbf{N}$的*分级A-代数*，P为型$\mathbf{Z}$的A-模分级；对于每个 *同质* 元素 $x \in E_p$，x 的*左* 乘法是 E 的 A-线性映射 $e(x)$ 自身，其 * 分级为次数 p*。对于每个元素 $u \in \mathrm{Homgr}_A(E, P)$，u 与 x* 的*右内部乘积（用 $u \perp x$ 表示）是 $\mathrm{Homgr}_A(E, P)$ 的元素 $u \circ e(x)$。我们还写 $(i(x))(u) = u \perp x$，我们看到 $i(x)$ 是分级 A-模 $\mathrm{Homgr}_A(E, P)$ 的次数 p 的分级自同态。如果现在$x = \sum_{p \geq 0} x_p$是E的任意元素（$x_p \in E_p$代表所有$p \geq 0$，$x_p = 0$，除了$p$的值的有限数），我们写为$i(x) = \sum_{p=0}^\infty i(x_p)$，因此自同态 A-模 $\mathrm{Homgr}_A(E, P)$。
+设$E = \bigoplus_{p \geq 0} E_p$为型$\mathbf{N}$的*分级A-代数*，P为型$\mathbf{Z}$的A-模分级；对于每个 *同质* 元素 $x \in E_p$，x 的*左* 乘法是 E 的 A-线性映射 $e(x)$ 自身，其 * 分级为次数 p*。对于每个元素 $u \in \mathrm{Homgr}_A(E, P)$，u 与 x* 的*右内部乘积（用 $u \perp x$ 表示）是 $\mathrm{Homgr}_A(E, P)$ 的元素 $u \circ e(x)$。我们还写 $(i(x))(u) = u \perp x$，我们看到 $i(x)$ 是分级 A-模 $\mathrm{Homgr}_A(E, P)$ 的次数 p 的分级自同态。如果现在$x = \sum_{p \geq 0} x_p$是E的任意元素（$x_p \in E_p$代表所有$p \geq 0$，$x_p = 0$，除了$p$的值的有限数），我们写为$i(x) = \sum_{p=0}^\infty i(x_p)$，因此自同态共A-模$\mathrm{Homgr}_A(E, P)$。
 
 要记住表达式 $u \perp x$ 中的哪个元素对另一个“操作”，请观察对 u “操作”的元素 x 放置在 $\perp$ 中水平线的自由端。
 
@@ -904,7 +904,7 @@ $$
 (u \perp x) \perp y = u \perp (xy)
 $$
 
-对于 E 中的 $x, y$ 和 $u \in \mathrm{Homgr}_A(E, P)$；另一方面，显然$i(1)$是恒等映射（因为这是从$e(1) = 1_E$得出的）并且$x \mapsto i(x)$是*A-线性的*，可以看出合成$(x, u) \mapsto u \perp x$（$x \in E, u \in \mathrm{Homgr}_A(E, P)$）定义的外法则， 加法，$\mathrm{Homgr}_A(E, P)$ 上的*右 E 模块* 结构。
+对于 E 中的 $x, y$ 和 $u \in \mathrm{Homgr}_A(E, P)$；另一方面，显然$i(1)$是恒等映射（因为这是从$e(1) = 1_E$得出的）并且$x \mapsto i(x)$是*A线性*，可以看出合成$(x, u) \mapsto u \perp x$（$x \in E, u \in \mathrm{Homgr}_A(E, P)$）定义的外法则， 加法，$\mathrm{Homgr}_A(E, P)$ 上的*右 E 模块* 结构。
 
 特别是，我们考虑情况 $P = A$，$\mathrm{Homgr}_A(E, P)$ 在这种情况下是 $E$ 的*分级对偶* $E^{*gr}$；那么$i(x)$是$A$线性映射$e(x)$（II, § 11, no. 6）的*分级转置*，在其他字中，对于$E$、$u \in E^{*gr}$中的所有$x, y$，
 
@@ -1010,7 +1010,7 @@ $$
 
 如果 $u : M \to N$ 是$A$-模同态，$T(u) : T(M) \to T(N)$ 是分级 $A$-代数同态，那么根据我们上面所看到的，$(T(u))^\sim$ 是 $(T(N), T(N))$-双模 $\mathrm{Homgr}_A(T(N), P)$ 的 $T(M)$ 同态$(T(M), T(M))$-双模$\mathrm{Homgr}_A(T(M), P)$，相对于环同态$T(u)$。 $(S(u))^\sim$ 和 $(\wedge(u))^\sim$ 也有类似的结果。
 
-### 7.内部乘积：余代数的情况
+### 7. 内部乘积：余代数的情况
 
 令 $E = \bigoplus_{p \geq 0} E_p$ 为分级为余代数的共联想单位。然后我们知道（no. 2，命题 1 和 3），分级双$E^{*\mathrm{gr}}$（根据段落开头制定的毕业惯例）分级代数结构为型$\mathbf{N}$超过$A$，乘积两个这个代数的元素$u, v$由$uv = m \circ (u \otimes v) \circ c$定义，其中$c : E \to E \otimes_A E$是余积和$m : A \otimes_A A \to A$定义乘法。在其他字中，如果对于$x \in E$，$c(x) = \sum_i y_i \otimes z_i$，我们可以写（规范地识别$A \otimes_A E$和$E$）
 
@@ -1151,7 +1151,7 @@ $$
 
 #### 例 {#alg-iii-s11-n7-exa-1 .statement tag=0687}
 
-特别地，当E是余代数T(M)、S(M)或对于A-模M(no. 1、例5、6和7)的$\Lambda(M)$之一时，可以应用以上内容。 为了明确地找到由此获得的双模结构，我们再次认同在$T(M)^{*gr}$（分别$S(M)^{*gr}$，$\Lambda(M)^{*gr}$）中具有次数n的齐次元素f，具有*n线性形式*（分别为。 *对称 n 线性形式*，分别。 *交错的 n 线性形式*，也称为 *n 形式*）在 $M^n$ 上。 表达乘积就足够了
+特别地，当E是余代数T(M)、S(M)或对于A-模M(no. 1、例5、6和7)的$\Lambda(M)$之一时，可以应用以上内容。 为了明确地找到由此获得的双模结构，我们再次认同$T(M)^{*gr}$（分别$S(M)^{*gr}$，$\Lambda(M)^{*gr}$）中次数n的齐次元素f，具有*n线性形式*（分别*对称n线性形式*，分别*交错的n线性形式*，也称为 $M^n$ 上的*n-形式*)。 表达乘积就足够了
 
 $$
 (x_1 \otimes x_2 \otimes \cdots \otimes x_p) \triangleleft f \text{ (resp. } (x_1 x_2 \ldots x_p) \triangleleft f,
@@ -1300,7 +1300,7 @@ $$
 
 类似地，$\Lambda(M)$（或$\Lambda(M)^{*gr}$）中次数 1 的内部乘积和元素是*反导数*，即*零平方*，对于元素的平方代数 $\Lambda(M)$（或$\Lambda(M)^{*gr}$）中的次数 1 为零。
 
-### 9. $T(M)$和$T(M^*)$、$S(M)$和$S(M^*)$、$\Lambda(M)$和$\Lambda(M^*)$之间的内部乘积
+### 9. 内部乘积 $T(M)$ 与 $T(M^*)$、$S(M)$ 与 $S(M^*)$、$\Lambda(M)$ 与 $\Lambda(M^*)$ 之间
 
 $T(M)$（分别$S(M)$、$\Lambda(M)$）上的右内部乘积定义，以及代数$T(M)^{*gr}$（分别$S(M)^{*gr}$、$\Lambda(M)^{*gr}$）上的右模结构 （no. 7，*例*）。 使用 no. 5 的典范同态 $\theta_T$（分别为 $\theta_S$、分别为 $\theta_\Lambda$），我们得出
 $T(M)$ 上的右$T(M^*)$模块结构
@@ -1348,7 +1348,7 @@ $$
 
 我们留给读者的任务是明确找到左内部乘积的类似公式，这次使用公式（61）、（62）和（63）。
 
-The above can be applied with $M$ replaced by its dual $M^*$; $M^*$ must then be replaced by the bidual $M^{**}$ and $T(M^*)$, for example, thus has a right module structure over the algebra $T(M^{**})$. 但是典范映射$c_M : M \to M^{**}$定义代数同态$T(c_M) : T(M) \to T(M^{**})$，通过它$T(M^*)$有一个*右*$T(M)$-*模*结构。 Similarly $S(M^*)$ (resp. $\Lambda(M^*)$) has a *right* $S(M)$-*module* (resp. *左*$\Lambda(M)$-*模*)结构。 通过交换$M$和$M^*$的角色，直接从上面导出这些模的显式公式给出外法则。 注，对于所有 $x \in M$，$i(x)$ 始终是 *推导*（分别是 *分级代数 $S(M^*)$（分别为 $\Lambda(M^*)$）的零平方*）的反推导。
+The above can be applied with $M$ replaced by its dual $M^*$; $M^*$ must then be replaced by the bidual $M^{**}$ and $T(M^*)$, for example, thus has a right module structure over the algebra $T(M^{**})$. 但是典范映射$c_M : M \to M^{**}$定义代数同态$T(c_M) : T(M) \to T(M^{**})$，通过它$T(M^*)$有一个*右*$T(M)$-*模*结构。 类似地，$S(M^*)$（分别$\Lambda(M^*)$）有一个*右*$S(M)$-*模*（分别*左*$\Lambda(M)$-*模*）结构。 通过交换$M$和$M^*$的角色，直接从上面导出这些模的显式公式给出外法则。 注，对于所有$x \in M$，$i(x)$始终是分级的代数$S(M^*)$（或$\Lambda(M^*)$）的*推导*（或零平方*的反推导）。
 
 #### 命题 11 {#alg-iii-s11-prop-11 .statement tag=068C}
 
@@ -1378,17 +1378,17 @@ $$
 \theta_S(z^* \wedge t) = \theta_S(z^*) \wedge t.
 $$
 
-如上所述，我们可以将极限应用于案例 $t = x \in M$。但更进一步，这里$i(x)$是$S(M^*)$的推导和$S(M)^{*gr}$的推导。因此（§ 10, no. 7，命题 9 的推论）足以验证$z^* = x^* \in M^*$的（70），因为$M^*$是生成的系统 of $S(M^*)$；但这是微不足道的，两条边等于 $\langle x^*, x \rangle$。类似的论证证明关系
+如上所述，我们可以将极限应用于案例 $t = x \in M$。但更进一步，这里$i(x)$是$S(M^*)$的推导和$S(M)^{*gr}$的推导。因此（§ 10, no. 7，命题 9 的推论）足以验证$z^* = x^* \in M^*$的（70），因为$M^*$是$S(M^*)$的生成的系统；但这是微不足道的，两条边等于 $\langle x^*, x \rangle$。类似的论证证明关系
 
 $$
 \theta_\wedge(t \wedge z^*) = t \wedge \theta_\wedge(z^*)
 $$
 
-对于$z^* \in \Lambda(M^*)$和$t \in \Lambda(M)$：观察到，对于$x \in M$，$i(x)$是$\Lambda(M^*)$以及$\Lambda(M)^{*gr}$的反导数，并使用§ 10, no. 7，推论命题 9。左有一个类似的结果内部乘积。
+对于$z^* \in \Lambda(M^*)$和$t \in \Lambda(M)$：然后观察，对于$x \in M$，$i(x)$是$\Lambda(M^*)$以及$\Lambda(M)^{*gr}$的反导数，并使用§ 10, no. 7，推论命题 9。左有一个类似的结果内部乘积。
 
 ### 10. 在有限生成自由模的情况下显式内部乘积形式
 
-令$M$为有限生成的自由$A$模块，$M$的$(e_i)_{1 \leq i \leq n}$基和$M^*$的$(e_i^*)_{1 \leq i \leq n}$对偶基。对于$\{1, n\}$的元素中的每个有限序列$s = (i_1, \ldots, i_p)$，令$e_s = e_{i_1} \otimes e_{i_2} \otimes \cdots \otimes e_{i_p}$（分别为$e_s^* = e_{i_1}^* \otimes \cdots \otimes e_{i_p}^*$）。我们知道（§ 5, no. 5，定理 1）$A$模块$T(M)$的$e_s$形式基和$A$模块的$e_s^*$基 $T(M^*)$。如果$s, t$是$\{1, n\}$的元素的两个有限序列，令$s.t$表示序列，如下获得：如果$s = (i_1, \ldots, i_p)$和$t = (j_1, \ldots, j_q)$，则$s.t$是序列$(i_1, \ldots, i_p, j_1, \ldots, j_q)$与$p + q$项。然后$e_{s.t} = e_s \otimes e_t$。然后从 (66) 得出
+令$M$为有限生成的自由$A$模块，$M$的$(e_i)_{1 \leq i \leq n}$基和$M^*$的$(e_i^*)_{1 \leq i \leq n}$对偶基。对于$\{1, n\}$的元素的每个有限序列$s = (i_1, \ldots, i_p)$，令$e_s = e_{i_1} \otimes e_{i_2} \otimes \cdots \otimes e_{i_p}$（或$e_s^* = e_{i_1}^* \otimes \cdots \otimes e_{i_p}^*$）。我们知道（§ 5, no. 5，定理 1）$A$模块$T(M)$的$e_s$形式基和$A$模块的$e_s^*$基 $T(M^*)$。如果$s, t$是$\{1, n\}$的元素的两个有限序列，令$s.t$表示序列，如下获得：如果$s = (i_1, \ldots, i_p)$和$t = (j_1, \ldots, j_q)$，则$s.t$是序列$(i_1, \ldots, i_p, j_1, \ldots, j_q)$与$p + q$项。然后$e_{s.t} = e_s \otimes e_t$。然后从 (66) 得出
 
 $$
 \begin{cases}
@@ -1397,7 +1397,7 @@ e_{t.u} \wedge e_t^* = e_u.
 \end{cases}
 $$
 
-类似地，对称代数 $S(M)$ 具有单项式 $e^\alpha$ 的基集合以及单项式 $e^{*\alpha}$ 的 $\alpha \in \mathbf{N}^n$ (§ 6, no. 6, 定理 1) 和 $S(M^*)$ 集合与 $\alpha \in \mathbf{N}^n$；回想一下（no. 5），$u_\alpha$对于$|\alpha| = k$来说，表示$(S^k(M))^*$的基的元素，是$S^k(M)$的基$(e^\alpha)_{|\alpha|=k}$的对数； $u_\alpha$ 对应 $\alpha \in \mathbf{N}^n$，因此形式基等于 $S(M)^{*gr}$。右内部乘积的定义在 $S(M)^{*gr}$ 中乘以 $e^\beta$ 作为乘法的转置在 $S(M)$ 中乘以 $e^\beta$ 那么表明
+类似地，对称代数 $S(M)$ 具有单项式 $e^\alpha$ 的基集合以及单项式 $e^{*\alpha}$ 的 $\alpha \in \mathbf{N}^n$ (§ 6, no. 6, 定理 1) 和 $S(M^*)$ 集合与 $\alpha \in \mathbf{N}^n$；回想一下（no. 5）$u_\alpha$，对于$|\alpha| = k$，表示$(S^k(M))^*$的基的元素，与$S^k(M)$的基$(e^\alpha)_{|\alpha|=k}$对偶； $u_\alpha$，对于 $\alpha \in \mathbf{N}^n$，因此形式基等于 $S(M)^{*gr}$。右内部乘积的定义在 $S(M)^{*gr}$ 中乘以 $e^\beta$ 作为乘法的转置在 $S(M)$ 中乘以 $e^\beta$ 那么表明
 
 $$
 \begin{cases}
@@ -1408,7 +1408,7 @@ $$
 
 (73)
 
-类似地，由于$S(M)$在这里被规范地与$S(M)^{*gr}$的分级对偶等同，$i(u_\beta)$是$S(M)^{*gr}$中$u^\beta$对乘法的分级转置，因此来自乘法表 (33) (no. 5) 基 $(u_\alpha)$ 我们推断
+类似地，由于 $S(M)$ 在此与 $S(M)^{*gr}$ 的分级对偶规范一致，因此 $i(u_\beta)$ 是 $S(M)^{*gr}$ 中 $u^\beta$ 对乘法的分级转置，因此来自乘法表 (33) 基 $(u_\alpha)$ 的 (no. 5) 我们推断
 
 $$
 \begin{cases}
@@ -1419,7 +1419,7 @@ $$
 
 (74)
 
-至于$S(M)$的元素的右内部乘积到$S(M^*)$的元素，这个乘积的定义(no. 9)和no. 5的公式(34)让我们可以推导出(74) 公式
+$S(M)$的元素右内部乘积在$S(M^*)$的元素，这个乘积(no. 9)的定义和no. 5的公式(34)让我们从 (74) 公式推出
 
 $$
 \begin{cases}
@@ -1430,13 +1430,13 @@ $$
 
 (75)
 
-内部乘积 $S(M^*)$ 元素元素 $S(M)$ 交换有类似的公式 $M$ 和$M^*$ 的角色（因为$M^{**}$ 在这里被标识为$M$）。
+$S(M^*)$ 元素内部乘积与 $S(M)$ 交换元素有类似的公式 $M$ 和 $M^*$ 的角色（因为$M^{**}$ 在这里被标识为 $M$）。
 
 #### 注 {#alg-iii-s11-n10-rem-1 .statement tag=068D}
 
-给出基 $(e_i)_{1 \leq i \leq n}$ 可以让我们用多项式代数 $A[X_1, \ldots, X_n]$ (§ 6, no. 6) 来计算认同代数 $S(M)$； 公式(75)表明内部乘积除以$e^{*\alpha}$只是微分算子$D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$，其中$D_i = \partial/\partial X_i$对应$1 \leq i \leq n$（§ 10, no. 11，例）。
+给出基 $(e_i)_{1 \leq i \leq n}$ 允许我们用多项式代数 $A[X_1, \ldots, X_n]$ (§ 6, no. 6) 来计算认同代数 $S(M)$； 公式(75)表明内部乘积除以$e^{*\alpha}$只是微分算子$D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$，其中$D_i = \partial/\partial X_i$对应$1 \leq i \leq n$（§ 10, no. 11，例）。
 
-最后考虑外部代数$\Lambda(M)$，其具有元素$e_J$的基集合，其中$J$穿过$\mathbf{N}$区间$\{1, n\}$的集合或子集 （§ 7, no. 8，定理1）；同样，$\Lambda(M^*)$有基元素$e_J^*$。由no. 9的公式(68)得出
+最后考虑外部代数$\Lambda(M)$，其具有元素$e_J$的基集合，其中$J$贯穿区间$\{1, n\}$的子集的集合 $\mathbf{N}$（§ 7, no. 8，定理1）；同样，$\Lambda(M^*)$具有基元素$e_J^*$。由公式 (68) of no. 9 得出
 
 $$
 \begin{cases}
@@ -1447,9 +1447,9 @@ $$
 
 (76)
 
-其中$\rho_{K, J-K}$是由§ 7, no. 8的公式(19)定义的数。有类似的公式，但$M$和$M^*$的角色互换。
+其中$\rho_{K, J-K}$是由§ 7, no. 8的公式(19)定义的数。还有类似的公式，但$M$和$M^*$的角色互换。
 
-### 11. 对于 $n$ 维度自由模 M，同构介于 $\wedge^p(M)$ 和 $\wedge^{n-p}(M^*)$ 之间
+### 11. 对于 $n$ 尺寸自由模 M，同构介于 $\wedge^p(M)$ 和 $\wedge^{n-p}(M^*)$ 之间
 
 #### 命题 12 {#alg-iii-s11-prop-12 .statement tag=068E}
 
@@ -1488,11 +1488,11 @@ $$
 
 是偶数，因此 $\phi$ 和 $\phi'$ 是 1 另一个的倒数。最后，要证明(77)，只需取$u^* = e_J^*$和$v^* = e_{I-J}^*$即可；验证也遵循$\theta_{\wedge}$、公式 (78) 和关系 $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (§ 7, no. 8、公式 (21)) 的定义。 注对于 $u^* \in \wedge^p(M^*)$ 和 $v^* \in \wedge^{n-p}(M^*)$，
 
-B(\phi_p'(u^*), v^*) 是 $u^* \wedge v^*$ 相对于$\Lambda^n(M^*)$ 基 $\{e^*\}$ 在符号范围内的系数。
+B(\phi_p'(u^*), v^*) 是 $u^* \wedge v^*$ 相对于 $\Lambda^n(M^*)$ 的基 $\{e^*\}$ 在符号范围内的系数。
 
 #### 命题 13 {#alg-iii-s11-prop-13 .statement tag=068F}
 
-*假设记号为命题 11，每自同态 g 为 A-模 M。*
+*假设记号为命题11，每自同态g为A-模M。*
 
 $$(79)$$
 $$(\det g)\phi = \Lambda^{(tg)} \circ \phi \circ \Lambda(g).$$
@@ -1522,12 +1522,12 @@ $$\Lambda^{(tg^{-1})} = (\det g)^{-1}\phi \circ (\Lambda(g)) \circ \phi^{-1}.$$
 
 (ii) *与z相关的子空间$M_z$是$\Lambda^{p-1}(E^*)$的映射$\lambda_z : u^* \mapsto u^* \perp z$下的$\Lambda^{p-1}(E^*)$的像进入E。*
 
-令 N 表示 $\lambda_z$ 的像。对于 $x^* \in E^*$ 和 $u^* \in \Lambda^{p-1}(E^*)$，
+令 N 表示像或 $\lambda_z$。对于 $x^* \in E^*$ 和 $u^* \in \Lambda^{p-1}(E^*)$，
 $$
 \langle \theta_{\Lambda}(x^*), u^* \perp z \rangle = \langle \theta_{\Lambda}(u^* \wedge x^*), z \rangle = (-1)^{p-1} \langle \theta_{\Lambda}(x^* \wedge u^*), z \rangle \\
 = (-1)^{p-1} \langle \theta_{\Lambda}(u^*), x^* \perp z \rangle.
 $$
-因此，为了使$x^*$与N正交，$x^* \perp z$与$\theta_{\Lambda}(\Lambda(E^*))$正交是充分必要的。现在，后者条件相当于说即$x^* \perp z = 0$；令 $(e_{\lambda})_{\lambda \in L}$ 为 E 的基；给L一个总排序，可以看出（§ 7, no. 8，定理 1），对于J来说，$e_J$经过L，形式的有限子集的集合$\mathscr{F}(L)$ 基共 $\Lambda(E)$；然后从no. 5的公式(30)得出，元素$\theta_{\wedge}(e_J^*)$在一个符号内是$\wedge(E)$上相对于基$(e_J)$的坐标形式； 从而我们的断言。
+因此，为了使$x^*$与N正交，$x^* \perp z$与$\theta_{\Lambda}(\Lambda(E^*))$正交是充分必要的。现在，后者条件相当于说即$x^* \perp z = 0$；令 $(e_{\lambda})_{\lambda \in L}$ 为 E 的基；给L一个总排序，可以看出（§ 7, no. 8，定理1），对于J来说，$e_J$经过L，形式的有限子集的集合$\mathscr{F}(L)$ 基共$\Lambda(E)$；然后从no. 5的公式(30)得出，元素$\theta_{\wedge}(e_J^*)$在一个符号内是$\wedge(E)$上相对于基$(e_J)$的坐标形式； 从而我们的断言。
 
 因此，N 的正交由 $x^* \in E^*$ 组成，使得 $x^* \perp z = 0$ 并且 (i) 的结论将由 (ii) 得出。
 
@@ -1546,19 +1546,19 @@ $$
 
 这表明关系$x^* \perp z = 0$意味着$a_H = 0$代表$1 \in H$。但这是不可能的，因为$z$将属于变为$\wedge^p(M')$，其中$M'$是$e_2, \ldots, e_n$生成的M的子空间。
 
-### 13.纯$p$-向量。格拉斯曼尼亚人
+### 13. 纯$p$-向量。格拉斯曼尼亚人
 
-设 K 为域，E 向量空间超过 K。如果$p$-向量 $z \in \wedge^p(E)$ 为非零且 E 中存在向量 $x_1, \ldots, x_p$ 使得 $z = x_1 \wedge x_2 \wedge \cdots \wedge x_p$，则称其为*纯*（或有时 *可分解*）。为此，与 $z$ 关联的子空间 $M_z$（对于 $z \neq 0$ 始终为维数 $\geq p$）*精确*为维数 $p$（因为 $\wedge^p(M_z)$ 是维数1)。特别是，当 E 为维数 $n$ 时，每个*非零*标量、$E = \wedge^1(E)$ 的每个非零元素、$\wedge^n(E)$ 的每个非零元素都是*纯*。
+设 K 为域，E 向量空间超过 K。如果$p$-向量 $z \in \wedge^p(E)$ 为非零且 E 中存在向量 $x_1, \ldots, x_p$ 使得 $z = x_1 \wedge x_2 \wedge \cdots \wedge x_p$，则称其为*纯*（或有时 *可分解*）。为此，与 $z$ 关联的子空间 $M_z$（对于 $z \neq 0$ 来说总是维数 $\geq p$）*精确*为维数 $p$（因为 $\wedge^p(M_z)$ 是维数1)。特别是，当 E 为维数 $n$ 时，每个*非零*标量、$E = \wedge^1(E)$ 的每个非零元素、$\wedge^n(E)$ 的每个非零元素都是*纯*。
 
 #### 命题 15 {#alg-iii-s11-prop-15 .statement tag=068I}
 
-*设E为维数n的向量空间，并令e为$\wedge^n(E)$的元素$\neq 0$（因此形成此向量空间的基）。令 $\phi : \wedge(E) \to \wedge(E^*)$ 为与 e (no. 11, 命题 12) 相关联的向量空间同构。如果 z 是 $\wedge^p(E)$ 的纯元素，则 $\phi(z)$ 是 $\wedge^{n-p}(E^*)$ 的纯元素，并且与 z 和 $\phi(z)$ 关联的子空间是正交的。*
+*令E为维数n的向量空间，并令e为$\wedge^n(E)$的元素$\neq 0$（因此形成此向量空间的基）。令 $\phi : \wedge(E) \to \wedge(E^*)$ 为与 e (no. 11, 命题 12) 关联的向量空间同构。如果 z 是 $\wedge^p(E)$ 的纯元素，则 $\phi(z)$ 是 $\wedge^{n-p}(E^*)$ 的纯元素，并且与 z 相关联的子空间和 $\phi(z)$ 是正交的。*
 
-案例 $p = 0$ 和 $p = n$ 是微不足道的。因此假设$1 \leq p \leq n - 1$并令$z = x_1 \wedge \cdots \wedge x_p \neq 0$。那么 E 存在基 $(e_i)_{1 \leq i \leq n}$，使得 $e_i = x_i$ 对应于 $1 \leq i \leq p$ 和 $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$。然后从no. 11的公式(78)得出$\phi(z) = \pm e_{p+1}^* \wedge \cdots \wedge e_n^*$、从而命题。
+案例 $p = 0$ 和 $p = n$ 是微不足道的。因此假设$1 \leq p \leq n - 1$并令$z = x_1 \wedge \cdots \wedge x_p \neq 0$。那么 E 存在基 $(e_i)_{1 \leq i \leq n}$，使得 $e_i = x_i$ 对应于 $1 \leq i \leq p$ 和 $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$。然后从no. 11的公式(78)得出$\phi(z) = \pm e_{p+1}^* \wedge \cdots \wedge e_n^*$，从而命题。
 
 #### 推论{#alg-iii-s11-n13-cor-1 .statement tag=068J}
 
-*如果 E 的大小为维数 n，则每个非零 $(n-1)$ 向量 E 都是纯向量。*
+*如果 E 为维数 n，则每个非零 $(n-1)$ 向量 E 都是纯向量。*
 
 #### 命题 16 {#alg-iii-s11-prop-16 .statement tag=068K}
 
@@ -1605,8 +1605,8 @@ $$
 
 令$D_p(E)$为*纯*$p$向量的$\bigwedge^p(E)$由……组成的子集；显然$D_p(E)$在$u$和$v$之间相对于等价关系是饱和的：“存在$\lambda \in K^*$使得$v = \lambda u$”并且$D_p(E)$的两个元素$u, v$在这个关系下是等价的当且仅当与它们相关联的E的子空间$M_u$和$M_v$是相同的。因此，我们因此获得了 E 的 p 维向量子空间* 的 *集合的*规范双射* 到 $D_p(E)$ 的 *像* $G_p(E)$ *在与关联的射影空间* $\mathbf{P}(\bigwedge^p(E))$ 上$\bigwedge^p(E)$。 $\mathbf{P}(\bigwedge^p(E))$的子集$G_p(E)$称为向量空间E的指标$p$的*格拉斯曼*。当E是有限维且$(e_i)_{1 \leq i \leq n}$是E的基时，指标的格拉斯曼$p$是$\mathbf{P}(\bigwedge^p(E))$的点的集合，其中齐次坐标$(a_I)$的系统（相对于$\bigwedge^p(E)$的基$(e_I)$）满足Grassmann的关系 (84)。
 
-当$E = K^n$时，我们有时写为$G_{n,p}(K)$而不是$G_p(K^n)$，这样$G_{n,1}(K) = P_{n-1}(K)$。 映射$M \mapsto M^0$，与$K^n$中的每个$p$维子空间相关联$E^*$中的*正交*子空间（与基的选择下的$K^n$对偶$K^n$的典范基）因此定义将$G_{n,p}(K)$的规范*双射*放到$G_{n,n-p}(K)$上； 命题 15 表明，这个双射是射影空间 $\mathbf{P}(\bigwedge^p(K^n))$ 到射影空间 $\mathbf{P}(\bigwedge^{n-p}(K^n))$ 的规范 *同构* 的 *限制* 到 $G_{n,p}(K)$。
+当$E = K^n$时，我们有时写为$G_{n,p}(K)$而不是$G_p(K^n)$，所以$G_{n,1}(K) = P_{n-1}(K)$。 映射$M \mapsto M^0$，与$K^n$中的每个$p$维子空间相关联$E^*$中的*正交*子空间（与基的选择下的$K^n$对偶$K^n$的典范基）因此定义将$G_{n,p}(K)$的规范*双射*放到$G_{n,n-p}(K)$上； 命题 15 表明，这个双射是射影空间 $\mathbf{P}(\bigwedge^p(K^n))$ 到射影空间 $\mathbf{P}(\bigwedge^{n-p}(K^n))$ 的规范 *同构* 的 *限制* 到 $G_{n,p}(K)$。
 
 ### 习题 {#alg-iii-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+参见[习题为 § 11](exercises/s11/)。

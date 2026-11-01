@@ -37,16 +37,16 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 7bf462309c77c9a0a1c5ac765bd98843127781e62bf0f9bbfa6a191dddb334f0
+content_sha256: af82e1e47f1e09fd1fad1799e86c2afc1cf0418e98e33a2782f0611442f84d95
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
 translation_method: google
 source_content_sha256: 6dd2b136d04753cfdf0792754a0655d7811d3c21519c55e6a5ca6b7546279e90
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 14cbc22a741efd767857a24573a763717e476d9b22cbc84a301769ff0e69fb91
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。中央过滤
@@ -60,21 +60,21 @@ $$
 G_\alpha = \bigcap_{\beta < \alpha} G_\beta \quad \text{for all } \alpha \in \mathbf{R}.
 $$
 
-公式 (1) 意味着 $\beta < \alpha$ 为 $G_\alpha \subset G_\beta$，因此$(G_\alpha)$ 系列是 *递减*。如果$\bigcap_\alpha G_\alpha$约化到单位元素，则过滤$(G_\alpha)$称为*分离*，如果$G = \bigcup_\alpha G_\alpha$，则称为*详尽*。
+公式 (1) 意味着 $\beta < \alpha$ 为 $G_\alpha \subset G_\beta$，因此族 $(G_\alpha)$ 是 *递减*。如果$\bigcap_\alpha G_\alpha$约化到单位元素，则过滤$(G_\alpha)$称为*分离*，如果$G = \bigcup_\alpha G_\alpha$，则称为*详尽*。
 
 #### 注 {#lie-ii-s4-n1-rem-1 .statement tag=0A4I}
 
-设$(G_n)_{n \in \mathbf{Z}}$为$G$的子群中的递减序列。它是 *交换代数*、章 III, § 2, no. 1、定义 1 意义上的递减过滤。对于整数 $n$ 以及 $\mathbf{R}$ 区间 $]n-1, n]$ 中的所有 $\alpha$，我们写$H_\alpha = G_n$，特别是$H_n = G_n$。因此，我们在$G$上获得了真正的过滤$(H_\alpha)_{\alpha \in \mathbf{R}}$，即直接的；这种过滤称为“整体过滤”。因此，*交换代数*、章III, § 2意义上的递减过滤可以通过积分过滤来识别。
+设$(G_n)_{n \in \mathbf{Z}}$为$G$的子群中的递减序列。 它是*交换代数*、章III, § 2, no. 1、定义1意义上的递减过滤。 对于$\mathbf{R}$的区间$]n-1, n]$中的每个整数$n$和所有$\alpha$，我们写$H_\alpha = G_n$，特别是$H_n = G_n$。 It is immediate that we thus obtain a real filtration $(H_\alpha)_{\alpha \in \mathbf{R}}$ on $G$; such a filtration will be called an *integral filtration*. 因此，*交换代数*、章III, § 2意义上的递减过滤可以通过积分过滤来识别。
 
-设$A$为代数；如果$\mathbf{R}$中的$\alpha, \beta$使用$A_\alpha . A_\beta \subset A_{\alpha + \beta}$且$\alpha \in \mathbf{R}$中使用$K . A_\alpha \subset A_\alpha$，则$A$的加法群上的真实过滤$(A_\alpha)$被称为与代数结构兼容。如果过滤是彻底的，则$(A_\alpha)$是$A$上拓扑下0的邻域的基本系统，与代数结构兼容。设$B$为单位代数；如果代数结构和$1 \in B_0$ 相容的，则$B$ 加法群上的真实过滤$(B_\alpha)$ 称为与单位代数结构兼容。
+设$A$为代数；如果$A_\alpha . A_\beta \subset A_{\alpha + \beta}$适用于$\mathbf{R}$中的$\alpha, \beta$，$K . A_\alpha \subset A_\alpha$适用于$\alpha \in \mathbf{R}$，则$A$的加法群上的真实过滤$(A_\alpha)$称为与代数结构兼容。如果过滤是彻底的，则$(A_\alpha)$是$A$上拓扑下0的邻域的基本系统，与代数结构兼容。设$B$为单位代数；如果代数结构和$1 \in B_0$ 相容的，则$B$ 加法群上的真实过滤$(B_\alpha)$ 称为与单位代数结构兼容。
 
-### 2.阶函数
+### 2. ORDER FUNCTION
 
-设 $G$ 为群，其中单位元素 $e$。令$(G_\alpha)$为$G$的真实过滤。对于$G$中的所有$x$，令$I_x$表示实数$\alpha$中的集合，使得$x \in G_\alpha$。如果 $\alpha \in I_x$ 和 $\beta < \alpha$，则 $\beta \in I_x$ 以及$I_x$ 是一个区间（*一般拓扑*、章 IV, § 2, no. 4、命题 1）。使用关系 (1)，我们可以看到，当它是有限的时，$I_x$ 包含是最小的上界。因此$I_x$是形式$]-\infty, v(x)] \cap \mathbf{R}$与$v(x) \in \overline{\mathbf{R}}$；我们有$v(x) = \sup \{ \alpha \mid x \in G_\alpha \}$。
+设 $G$ 为群，其中单位元素 $e$。令$(G_\alpha)$为$G$的真实过滤。对于$G$中的所有$x$，令$I_x$表示实数$\alpha$中的集合，使得$x \in G_\alpha$。如果$\alpha \in I_x$和$\beta < \alpha$，则$\beta \in I_x$，因此$I_x$是一个区间（*一般拓扑*，章IV, § 2, no. 4，命题1）。使用关系 (1)，我们看到当它是有限的时，$I_x$ 包含是最小的上界。因此$I_x$等于形式$]-\infty, v(x)] \cap \mathbf{R}$和$v(x) \in \overline{\mathbf{R}}$；我们有$v(x) = \sup \{ \alpha \mid x \in G_\alpha \}$。
 
-$G$的映射$v$进入$\overline{\mathbf{R}}$称为*阶函数*，与实际过滤$(G_\alpha)$相关，$v(x)$称为$x$的*阶*。这个映射有以下属性：
+$G$的映射$v$进入$\overline{\mathbf{R}}$称为与实际过滤$(G_\alpha)$相关的*阶函数*，$v(x)$称为$x$的*阶*。这个映射有以下性质：
 
-(a) *对于 $x \in G$ 和 $\alpha \in \mathbf{R}$，关系 $x \in G_\alpha$ 和 $v(x) \geq \alpha$ 是等价的。*
+(a) *对于$x \in G$和$\alpha \in \mathbf{R}$，关系$x \in G_\alpha$和$v(x) \geq \alpha$是等价的。*
 
 (b) *对于$G$中的$x, y$，*
 $$
@@ -86,11 +86,11 @@ $$
 
 *此外，如果 $v(x) > v(y)$，则 (3) 中我们有等式。*
 
-(c) *对于所有$\alpha \in \mathbf{R}$，让$G_\alpha^+$表示$x \in G$的集合，使得$v(x) > \alpha$。那么 $G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta$，特别是 $G_\alpha^+$ 是子群的 $G$。*
+(c) *对于所有$\alpha \in \mathbf{R}$，令$G_\alpha^+$表示$x \in G$的集合，使得$v(x) > \alpha$。那么 $G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta$，特别是 $G_\alpha^+$ 是子群的 $G$。*
 
 相反，令$v$为$G$的映射代入$\overline{\mathbf{R}}$满足关系(2)和(3)。对于所有$\alpha \in \mathbf{R}$，令$G_\alpha$为$x \in G$的集合，使得$v(x) \geq \alpha$。那么$(G_\alpha)_{\alpha \in \mathbf{R}}$是$G$的真实过滤，$v$是与该过滤相关的阶函数。
 
-为了使过滤$(G_\alpha)$成为整体，$v$映射$G$进入$\mathbf{Z} \cup \{+\infty, -\infty\}$是必要且充分的。为了使其详尽（或分离），$-v^{-1}(-\infty) = \varnothing$（或$-v^{-1}(+\infty) = \{\epsilon\}$）是必要且充分的。
+为了使过滤$(G_\alpha)$成为整体，将$v$映射$G$转化为$\mathbf{Z} \cup \{+\infty, -\infty\}$是必要且充分的。为了使其详尽（或分离），$-v^{-1}(-\infty) = \varnothing$（或$-v^{-1}(+\infty) = \{\epsilon\}$）是必要且充分的。
 
 令$A$为K-代数（分别为单位K-代数）。综上所述，关系
 
@@ -98,7 +98,7 @@ $$
 "x \in A_\alpha \Leftrightarrow v(x) \geq \alpha \quad \text{for } x \in A \text{ and } \alpha \in \mathbf{R}"
 $$
 
-定义双射 / 集合详尽的真实过滤$(A_\alpha)_{\alpha \in \mathbf{R}}$ 与代数（分别为单元代数）结构于$A$ 到集合于映射 $v : A \to \overline{\mathbf{R}}$ 不取值 $-\infty$ 和满足公理 (4) 至 (7)（分别为 (4) 至 (8)）：
+定义双射 / 集合详尽的真实过滤$(A_\alpha)_{\alpha \in \mathbf{R}}$ 与代数（分别为单元代数）结构于$A$ 到集合于映射 $v : A \to \overline{\mathbf{R}}$ 不采用值 $-\infty$ 和满足公理 (4) 至 (7)（分别为 (4) 至 (8)）：
 
 (4) $$v(x + y) \geq \inf(v(x), v(y)) \quad (x, y \text{ in } A)$$
 (5) $$v(-x) = v(x) \qquad (x \in A)$$
@@ -118,7 +118,7 @@ $$
 G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta;
 $$
 
-显然 $G_\alpha^+$ 是 $G_\alpha$ 的子群。我们写 $\operatorname{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ 并且
+显然 $G_\alpha^+$ 是 $G_\alpha$ 中的子群。我们写 $\operatorname{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ 并且
 
 $$
 \operatorname{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \operatorname{gr}_\alpha(G).
@@ -128,29 +128,29 @@ $$
 
 #### 注 {#lie-ii-s4-n3-rem-1 .statement tag=0A4K}
 
-当过滤$(G_\alpha)$为积分时，$\operatorname{gr}_\alpha(G) = \{0\}$为非积分$\alpha$，$\operatorname{gr}_n(G) = G_n / G_{n-1}$为每个整数$n$。相关分级的群的定义因此重合基本上与 *交换代数*、章 III, § 2, no. 3 相同。
+当过滤$(G_\alpha)$为积分时，$\operatorname{gr}_\alpha(G) = \{0\}$为非积分$\alpha$，$\operatorname{gr}_n(G) = G_n / G_{n-1}$为每个整数$n$。相关分级的群的定义因此重合本质上与 *交换代数*、章 III, § 2, no. 3 相同。
 
-令$A$为代数（或单位代数），并且$(A_\alpha)_{\alpha \in \mathbf{R}}$是与代数（或单位代数）结构（no. 1）兼容的真实过滤。然后
+令$A$为代数（分别为单位代数），并且$(A_\alpha)_{\alpha \in \mathbf{R}}$为与代数（分别为单位代数）结构（no. 1）兼容的真实过滤。然后
 
 $$
 A_\alpha \cdot A_\beta \subset A_{\alpha + \beta}, \qquad A_\alpha^+ \cdot A_\beta + A_\alpha \cdot A_\beta^+ \subset A_{\alpha + \beta}^+
 $$
 
-将 $A_\alpha \times A_\beta$ 的双线性映射转换为 $A$ 定义上的 $A_{\alpha + \beta}$ 限制乘法，对双线性映射取商
+将 $A_\alpha \times A_\beta$ 的双线性映射转换为乘法的 $A_{\alpha + \beta}$ 限制在 $A$ 定义上对双线性映射取商
 
 $$
 \operatorname{gr}_\alpha(A) \times \operatorname{gr}_\beta(A) \to \operatorname{gr}_{\alpha + \beta}(A).
 $$
 
-我们将 gr(A) × gr(A) 的双线性映射推导到 gr(A) 中，这使其成为型 $\mathbf{R}$ 的分级代数（分别为单位分级代数）。如果 A 是结合律（或交换律，或谎言）代数，则 gr(A) 也是。
+我们将 gr(A) × gr(A) 的双线性映射推导到 gr(A) 中，这使其成为型 $\mathbf{R}$ 的分级代数（分别为单位分级代数）。如果 A 是结合律（分别是交换律、谎言）代数，那么 gr(A) 也是。
 
-### 4. 群上的中央过滤
+### 4. 群中央过滤
 
 #### 定义 2 {#lie-ii-s4-def-2 .statement tag=0A4L}
 
-令 G 为群。如果 $G_\alpha$ 的元素 x 的$G = \bigcup_{\alpha > 0} G_\alpha$ 和换位子 $(x, y) = x^{-1}y^{-1}xy$ 以及 $G_\beta$ 属于到 $G_{\alpha + \beta}$ 的元素 y，G 上的实过滤$(G_\alpha)$ 称为中心过滤。
+令 G 为群。如果 $G_\alpha$ 的元素 x 的 $G = \bigcup_{\alpha > 0} G_\alpha$ 和换位子 $(x, y) = x^{-1}y^{-1}xy$ 以及 $G_\beta$ 属于到 $G_{\alpha + \beta}$ 的元素 y，G 上的实过滤 $(G_\alpha)$ 称为中心过滤。
 
-在阶函数v的项中，上面的定义转换为关系
+在阶函数v的项中，上面的定义翻译成关系
 $$
 v(x) > 0, \quad v((x, y)) \geq v(x) + v(y) \quad \text{for all } x, y \text{ in } G.
 $$
@@ -158,9 +158,9 @@ $$
 $$
 v(x^y) = v(x).
 $$
-这个关系表达了G的子群$G_\alpha$都是正规的。 e 的 $G_\alpha$ 形式邻域的基本系统对于拓扑与 G 上的群结构兼容（一般拓扑、章 III, § 1, no. 2、例）据说是由过滤$(G_\alpha)$定义。
+这个关系表达了G的子群$G_\alpha$中的每一个都是正规的。 e 的拓扑的 $G_\alpha$ 形式邻域的基本系统与 G 上的群结构兼容（一般拓扑、章 III, § 1, no. 2、例）据说是由过滤$(G_\alpha)$定义。
 
-在本编号的其余部分中，G 表示群，带有中央过滤$(G_\alpha)$。对于所有 $\alpha \in \mathbf{R}$，我们定义子群 $G_\alpha^+$
+在本编号的其余部分中，G 表示群，带有中央过滤$(G_\alpha)$。对于所有 $\alpha \in \mathbf{R}$，我们 G 的定义子群 $G_\alpha^+$
 $$
 G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta.
 $$
@@ -174,7 +174,7 @@ $$
 $$
 (G, G_\alpha) \subset G_\alpha^+.
 $$
-根据 (14)，对于所有 $\alpha \in \mathbf{R}$，$G_\alpha^+$ 是 $G_\alpha$ 的正常子群，并且商群 $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ 是可交换的。我们写$\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$，并给这个群型$\mathbf{R}$的毕业，其中$\mathrm{gr}_\alpha(G)$由次数$\alpha$的元素组成。然后$\mathrm{gr}_\alpha(G) = \{0\}$换$\alpha \leq 0$。
+根据 (14)，对于所有 $\alpha \in \mathbf{R}$，$G_\alpha^+$ 是 $G_\alpha$ 的正常子群，并且商群 $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ 是可交换的。我们写 $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$ 并给这个群型 $\mathbf{R}$ 的毕业，其中$\mathrm{gr}_\alpha(G)$ 由次数 $\alpha$ 的元素组成。然后$\mathrm{gr}_\alpha(G) = \{0\}$换$\alpha \leq 0$。
 
 #### 命题 1 {#lie-ii-s4-prop-1 .statement tag=0A4M}
 
@@ -211,13 +211,13 @@ $$f(x, yy') = f(x, y)f(x, y').$$
 
 $$\phi(u, \phi(v, w)) + \phi(v, \phi(w, u)) + \phi(w, \phi(u, v)) = 0.$$
 
-设$x \in G_\alpha, y \in G_\beta$和$z \in G_\gamma$为元素，分别代表$u, v$和$w$。我们知道$x^y$和$x$是$G_\alpha$的两个元素，它们对模$G_\alpha^+$全等，因此$x^y$是$G_\alpha$中$u$的代表；由于$(y, z)$是$G_{\beta+\gamma}$中$\phi(v, w)$的代表，我们看到$(x^y, (y, z))$是$G_{\alpha+\beta+\gamma}$中$\phi(u, \phi(v, w))$的代表。通过循环置换，我们看到$(y^z, (z, x))$和$(z^x, (x, y))$分别代表$G_{\alpha+\beta+\gamma}$中的$\phi(v, \phi(w, u))$和$\phi(w, \phi(u, v))$。 关系 (19) 则为以下恒等式的推论 (*代数*, 章 I, § 6, no. 2, 公式 (15))：
+令$x \in G_\alpha, y \in G_\beta$和$z \in G_\gamma$为元素，分别代表$u, v$和$w$。我们知道$x^y$和$x$是$G_\alpha$的两个元素，它们对模$G_\alpha^+$全等，因此$x^y$是$G_\alpha$中$u$的代表；由于$(y, z)$是$G_{\beta+\gamma}$中$\phi(v, w)$的代表，我们看到$(x^y, (y, z))$是$G_{\alpha+\beta+\gamma}$中$\phi(u, \phi(v, w))$的代表。通过循环置换，我们看到$(y^z, (z, x))$和$(z^x, (x, y))$分别代表$G_{\alpha+\beta+\gamma}$中的$\phi(v, \phi(w, u))$和$\phi(w, \phi(u, v))$。 关系 (19) 则为以下恒等式的推论 (*代数*, 章 I, § 6, no. 2, 公式 (15))：
 
 $$(x^y, (y, z)).(y^z, (z, x)).(z^x, (x, y)) = e.$$
 
-命题 1 中定义的李代数$\mathrm{gr}(G)$超过$\mathbf{Z}$称为与过滤后的群*$G$相关联的*分级李代数。
+命题 1 中定义的李代数 $\mathrm{gr}(G)$ 超过 $\mathbf{Z}$ 称为与过滤后的群* $G$ 伴随的*分级李代数。
 
-### 5. 例中央过滤
+### 5. 中央过滤的例
 
 令 $A$ 为单位结合律代数，并带有单位代数过滤 $(A_\alpha)$，使得 $A_0 = A$；那么$A_\alpha$是所有$\alpha \in \mathbf{R}$的$A$的双面理想。让$A^*$表示$A$的可逆元中的乘法群。对于所有$\alpha > 0$，令$\Gamma_\alpha$表示$x \in A^*$的集合，使得$x - 1 \in A_\alpha$；我们将$\beta \leq 0$写为$\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$和$\Gamma_\beta = \Gamma$。
 
@@ -319,7 +319,7 @@ $$
 
 令 G 为群，gr(G) 为与 G 上的较低中心过滤相关的分级李$\mathbf{Z}$-代数。然后 gr(G) 由 $\mathrm{gr}_1(G) = G/(G, G)$ 生成。
 
-令L为$\mathrm{gr}_1(G)$生成的gr(G)的谎言子代数；我们证明，在 n 上，$L \supset \mathrm{gr}_n(G)$乘以归纳，断言对于$n = 1$来说是微不足道的。假设$n > 1$和$L \supset \mathrm{gr}_{n-1}(G)$。由于 gr(G) 上 $C^nG = (G, C^{n-1}G)$、构造的李代数律立即表明
+令L为$\mathrm{gr}_1(G)$生成的gr(G)的谎言子代数；我们证明，$L \supset \mathrm{gr}_n(G)$乘以归纳在n上，断言对于$n = 1$来说是微不足道的。假设$n > 1$和$L \supset \mathrm{gr}_{n-1}(G)$。由于 gr(G) 上 $C^nG = (G, C^{n-1}G)$、构造的李代数律立即表明
 
 $$
 \mathrm{gr}_n(G) = [\mathrm{gr}_1(G), \mathrm{gr}_{n-1}(G)] \subset L.
@@ -333,10 +333,10 @@ $$
 
 #### 注 {#lie-ii-s4-n6-rem-1 .statement tag=0A4S}
 
-令 k 为 n 行的下三角矩阵的环、n 整数 $> 0$ 和 A 集合，k 中有 n 个列和元素。对于$p \geq 0$，令$A_p$为$(x_{ij}) \in A$的集合，使得$x_{ij} = 0$对应于$i - j < p$。然后是$A_0 = A$和$A_pA_q \subset A_{p+q}$。让$\Gamma_p = 1 + A_p$。那么$\Gamma_1$是$\mathbf{GL}(n, k)$的子群，称为阶n在k上的严格下三角群。通过no. 5的命题2，$(\Gamma_p)$是$\Gamma_1$的积分过滤。作为 $\Gamma_n = \{1\}$，我们看到群 $\Gamma_1$ 是幂零的（代数、章 I, § 6, no. 3、定义 6）。
+令 k 为 n 行的下三角矩阵的环、n 整数 $> 0$ 和 A 集合，k 中有 n 个列和元素。对于$p \geq 0$，令$A_p$为$(x_{ij}) \in A$的集合，使得$x_{ij} = 0$对应于$i - j < p$。然后是$A_0 = A$和$A_pA_q \subset A_{p+q}$。让$\Gamma_p = 1 + A_p$。那么$\Gamma_1$是$\mathbf{GL}(n, k)$的子群，称为阶n在k上的严格下三角群。通过no. 5的命题2，$(\Gamma_p)$是$\Gamma_1$上的积分过滤。作为 $\Gamma_n = \{1\}$，我们看到群 $\Gamma_1$ 是幂零的（代数、章 I, § 6, no. 3、定义 6）。
 
 ### 习题{#lie-ii-s4-exercises}
 
 在下面的习题中，字母G表示群。
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

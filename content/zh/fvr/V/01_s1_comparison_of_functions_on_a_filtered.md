@@ -33,16 +33,16 @@ subsections:
       pdf_page: 234
 statements: 38
 exercises: 3
-content_sha256: d8baecffcd32cd7e1f72c18aed3ca24daa09ce56d06e042885affb084f9e2a7d
+content_sha256: f6d829ca831d486ef5818d20a465d15cde64b93a15db60cefec7cd81bb5c66ff
 translated_from: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
 translation_method: google
 source_content_sha256: 8313e76e55f08fcd7dd783b09028bd3331bcb51b6229df45213a85cc59097f4a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8d4ec27d79d01305d2cd5d7254bd556fb3751d42f8f96ffcdd7273e0cf457cb1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 函数与过滤后的集合的比较
@@ -165,13 +165,13 @@ $\mathscr{H}(\mathfrak{F}, \mathbf{R})$中的两个函数不需要弱可比，�
 
 #### 注 2 {#fvr-v-s1-n1-rem-2 .statement tag=08DZ}
 
-在$\mathscr{H}(\mathfrak{F}, V)$上用$R_0$关系$f \simeq g$表示，并用$\mathscr{H}_0(\mathfrak{F}, V)$商集$\mathscr{H}(\mathfrak{F}, V)/R_0$表示； 注关系 $R$ *暗示* $R_0$。 经过商关系 $f \preccurlyeq g$ 由道具给出。 V、p. 213、$\mathscr{H}_0(\mathfrak{F}, V)$ 上的 *序关系* 之一（*集合理论*、III、p. 134）；前面的例表明$\mathscr{H}_0(\mathfrak{F}, V)$*没有被这个关系完全排序*。
+在$\mathscr{H}(\mathfrak{F}, V)$上用$R_0$关系$f \simeq g$表示，并用$\mathscr{H}_0(\mathfrak{F}, V)$商集$\mathscr{H}(\mathfrak{F}, V)/R_0$表示； 注关系 $R$ *暗示* $R_0$。 经过商关系 $f \preccurlyeq g$ 由道具给出。 V、p. 213、$\mathscr{H}_0(\mathfrak{F}, V)$ 上的 *序关系* 中的 1 个（*集合理论*、III、p. 134）；前面的例表明$\mathscr{H}_0(\mathfrak{F}, V)$*没有完全被这个关系排序。
 
-### 2.比较关系：II。强关系
+### 2. 比较关系：II。强关系
 
 #### 定义 3 {#fvr-v-s1-def-3 .statement tag=08E0}
 
-*给定两个实数函数* $f,\ g$ *属于到* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$，*它们是* $\geq 0$ *在* $\mathfrak{F}$中的集合，*一个说* $f$ *相对于* $g$可以忽略不计，*或者* $g$ *优于* $f$ *（沿着* $\mathfrak{F}$），*有人写* $f \ll g$ *或* $g \gg f$ *如果，对于每个* $\varepsilon > 0$，*存在集合* $X \in \mathfrak{F}$ *这样* $f(t) \leq \varepsilon g(t)$ *对于每个* $t \in X$。
+*给定两个真实的函数* $f,\ g$ *属于到* $\mathscr{H}(\mathfrak{F}, \mathbf{R})$，*它们是* $\geq 0$ *在* $\mathfrak{F}$ 中的集合，*一个说* $f$ *相对于* $g$ 可以忽略不计，*或者* $g$ *优于* $f$ *（沿着* $\mathfrak{F}$），*并且有人写* $f \ll g$ *或* $g \gg f$ *如果，对于每个* $\varepsilon > 0$，*存在集合* $X \in \mathfrak{F}$ *这样* $f(t) \leq \varepsilon g(t)$ *对于每个* $t \in X$。
 
 *给定两个范数空间* $V_1,\ V_2$ *和两个函数* $f_1,\ f_2$ *属于分别到* $\mathscr{H}(\mathfrak{F}, V_1)$ *和* $\mathscr{H}(\mathfrak{F}, V_2)$ *，有人说* $f_1$ *相对于* $f_2$ 可以忽略不计*（沿着* $\mathfrak{F}$），*一个人写* $f_1 \ll f_2$ *或* $f_2 \gg f_1$，*如果* $\|f_1\| \ll \|f_2\|$。
 
@@ -181,7 +181,7 @@ $\mathscr{H}(\mathfrak{F}, \mathbf{R})$中的两个函数不需要弱可比，�
 
 #### 例 {#fvr-v-s1-n2-exa-8 .statement tag=0E5N}
 
-1) 关系 $f \ll 1$ 表示$f$ *沿$\mathfrak{F}$*趋于0。
+1) 关系 $f \ll 1$ 意味着$f$ *沿$\mathfrak{F}$*趋于0。
 
 2) 当$\alpha$和$\beta$是两个实数时，$\alpha < \beta$一个有$x^\alpha \ll x^\beta$，而$x$趋于$+\infty$。类似地，当$m$和$n$是两个有理整数时，$m < n$其中一个有$z^m \ll z^n$，因为复数$z$趋于$\infty$。
 
@@ -289,7 +289,7 @@ $$
 
 让$\varphi$是从集合$E'$到$E$的映射，这样$\varphi^{-1}(\mathfrak{F})$是$E'$上的过滤器基。很明显，如果$\mathscr{H}(\mathfrak{F}, V_1)$和$\mathscr{H}(\mathfrak{F}, V_2)$中的$f_1, f_2$分别为函数，则$f_1 \circ \varphi, f_2 \circ \varphi$属于分别为$\mathscr{H}(\varphi^{-1}(\mathfrak{F}), V_1)$和$\mathscr{H}(\varphi^{-1}(\mathfrak{F}), V_2)$，并且关系$f_1 \preccurlyeq f_2$（分别为$f_1 \ll f_2$）为相当于$f_1 \circ \varphi \preccurlyeq f_2 \circ \varphi$（分别为$f_1 \circ \varphi \ll f_2 \circ \varphi$）。
 
-### 4. 严格正数函数之间的比较关系
+### 4. 严格正值之间的比较关系函数
 
 令$\mathscr{H}(\mathfrak{F}, \mathbf{R})$中的$g$为函数，这对$\mathfrak{F}$中的集合严格为正。具有$g$的比较关系可以用另一个方式表示：关系$f \preccurlyeq g$等价于说，$\|f\|/g$（在$\mathfrak{F}$中的集合上定义）以集合为界$\mathfrak{F}$； 关系$f \ll g$相当于说，$\|f\|/g$沿$\mathfrak{F}$趋于0。如果 $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ 关系 $f \asymp g$ 中 $f$ 为函数，则表示 $f/g$ 以对数方式有界于 $\mathfrak{F}$ 中的集合，并且关系 $f \sim g$ $f/g$沿$\mathfrak{F}$趋于1。如果$f$在$\mathscr{H}(\mathfrak{F}, \mathbf{R})$中为函数，并且$\mathfrak{F}$中的集合为正，则说$f$和$g$具有可比性意味着$f/g$趋向于极限（有限或等于$+\infty$） $\mathfrak{F}$。
 
@@ -351,7 +351,7 @@ $$
 
 在$\mathfrak{F}$中的集合上定义的函数不需要具有相对于g的确定的阶（有限或非有限），因为具有相对于g的确定的阶的函数与g的所有幂相当，最多有一个例外。现在 f 不需要有这个性质，正如从例 $g(x) = x,\ f(x) = 1 + x^2 \sin^2 x$ 看到的那样（因为 x 趋于 $+\infty$）。在此，例 f 与 $\alpha < 0$ 和 $\alpha > 2$ 的 $g^\alpha$ 相当；如果取 $f(x) = e^x \sin^2 x + e^{-x} \cos^2 x$，则 f 无法与 g 的任何幂（正或负）进行比较。
 
-### 5.记号
+### 5. NOTATION
 
 给定一个实数函数$f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$，在公式中，对于由f主导的函数，通常可以方便地写出$O(f)$，对于相对于f可忽略不计的函数，写出$o(f)$。当在证明中，存在多个受相同函数 f（分别相对于 f 可以忽略不计）支配的函数时，我们用 $O_1(f),\ O_2(f)$ 等（分别 $o_1(f),\ o_2(f)$ 等）表示它们。
 
@@ -378,4 +378,4 @@ $$
 
 ### 习题{#fvr-v-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

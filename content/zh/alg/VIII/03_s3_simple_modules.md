@@ -34,41 +34,41 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 297ae059133b3e0ce8554ab8da3d5cc64c03dad16f724687518f0a608981e831
+content_sha256: d1d28f6e91ffe0007ba699186ded536d90f9bc729ffbaa561aba25a28a054c8e
 translated_from: content/en/alg/VIII/03_s3_simple_modules.md
 translation_method: google
 source_content_sha256: 0317407d0c3ced7b2648e2b8d2e1ca2a46c305400b4715365d0e28e9e8310de8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 16b650362485e8878470031f92d26d9eb257701074426a48db92e243594141bd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 单模
 
-### 1.单模
+### 1. 单模
 
 回忆一下下面的定义（II, §1, No. 10，p. 212）。
 
 #### 定义 1 {#alg-viii-s3-def-1 .statement tag=0035}
 
-设 A 为环。如果A-模 M 是非零的并且没有不同于 0 和 M 的子模，则称 M 为简单。
+设 A 为环。如果A-模 M 是非零的并且没有不同于 0 和 M 的子模，则称 M 为简单的。
 
 A-模 M 是简单的当且仅当 M 是单模超过其同位环 $A_M$。每个单模都是不可分解的，长度 1，因此是原始的 (VIII, p. 31, 命题 4, b))。
 
 #### 例 1 {#alg-viii-s3-n1-exa-1 .statement tag=0036}
 
-模$A_s$是单A-模当且仅当A是域（I, §9, No. 1，p. 115，定理1）。 单A-模则向量空间等于维数 1 除以域 A。
+模 $A_s$ 为单A-模当且仅当 A 为域 (I, §9, No. 1, p. 115, 定理 1)。 单A-模则向量空间等于维数 1 除以域 A。
 
 #### 例 2 {#alg-viii-s3-n1-exa-2 .statement tag=0037}
 
-设 A 为主理想整环 (VII, §1, No. 1, p. 1, 定义 1)，而不是域。对于A的每个不可约元$\pi$，A-模$A_s/(\pi )$是简单的，并且每个单A-模同构于这样的模（VII, §4, No. 8，p. 25，注4）。对于 $n\geqslant 2$、A-模 $A_s/(\pi^n)$ 是不可分解的（VII, §4, No. 8、p. 24、命题 8），但并不简单。
+设 A 为主理想整环 (VII, §1, No. 1, p. 1, 定义 1)，但不是域。对于A的每个不可约元$\pi$，A-模$A_s/(\pi )$是简单的，并且每个单A-模同构于这样的模（VII, §4, No. 8，p. 25，注4）。对于 $n\geqslant 2$、A-模 $A_s/(\pi^n)$ 是不可分解的（VII, §4, No. 8、p. 24、命题 8），但并不简单。
 
 #### 例 3 {#alg-viii-s3-n1-exa-3 .statement tag=0038}
 
-令 K 为域、V 非零的右向量空间超过域 K，且 A 子环为环 End$_K(V)$ 包含自同态为 V 有限秩（对于例，A = 结束$_K(V)$）。让我们证明V是单A-模：令W是V的非零的A-子模和W的$x$非零元素；在V上存在线性形式$\varphi$使得$\varphi (x)\not= 0$（II, §7, No. 5，p. 300，定理6）。对于V、映射$z\mapsto y\varphi (z)$中的每个$y$，其与秩$\leqslant 1$、属于与A呈线性关系；因此我们有$Ax= V$，因此更不必说 W = V，这证明V是单A-模。
+令 K 为域、V 非零的右向量空间超过域 K，且 A 子环为环 End$_K(V)$ 包含自同态为 V 有限秩（对于例，A = 结束$_K(V)$）。让我们证明V是单A-模：令W是V的非零的A-子模和W的$x$非零元素； V 上存在线性形式 $\varphi$，使得 $\varphi (x)\not= 0$ (II, §7, No. 5, p. 300, 定理 6)。对于V、映射$z\mapsto y\varphi (z)$中的每个$y$，秩$\leqslant 1$、属于与A呈线性关系；因此我们有$Ax= V$，因此更不必说 W = V，这证明V是单A-模。
 
 #### 命题 1 {#alg-viii-s3-prop-1 .statement tag=00QZ}
 
@@ -98,13 +98,13 @@ $A_s/\mathfrak{m}$的子模是形式$\mathfrak{n}/\mathfrak{m}$，其中$\mathfr
 
 #### 注 1 {#alg-viii-s3-n1-rem-1 .statement tag=003B}
 
-设A为交换环且$\mathfrak{m}$是A的理想。则$\mathfrak{m}$为A-模$A_s/\mathfrak{m}$的湮没子（II, §1, No. 12，p. 219，定义11）。因而，如果 $\mathfrak{m}$ 和 $\mathfrak{m}'$ 是 A 的不同理想，则 A-模 $A_s/\mathfrak{m}$ 和 $A_s/\mathfrak{m}'$ 不是同构的。当且仅当 (0) 是 A 的最大理想，即 A 是域时，存在忠实的单A-模 (II, §1, No. 12, p. 219)。
+设A为交换环且$\mathfrak{m}$是A的理想。则$\mathfrak{m}$为A-模$A_s/\mathfrak{m}$的湮没子（II, §1, No. 12，p. 219，定义11）。因而，如果$\mathfrak{m}$和$\mathfrak{m}'$是A的不同理想，则A-模$A_s/\mathfrak{m}$和$A_s/\mathfrak{m}'$不是同构的。当且仅当 (0) 是 A 的最大理想，即 A 是域时，存在忠实的单A-模 (II, §1, No. 12, p. 219)。
 
 #### 注 2 {#alg-viii-s3-n1-rem-2 .statement tag=003C}
 
 我们可以给出非交换环 A 的例和 A 的两个不同的最大左理想 $\mathfrak{m}$ 和 $\mathfrak{m}'$，使得 A-模 $A_s/\mathfrak{m}$ 和 $A_s/\mathfrak{m}'$ 同构（VIII、p. 52、习题） 3）。
 
-### 2.舒尔的引理
+### 2. 舒尔的引理
 
 #### 命题 2 {#alg-viii-s3-prop-2 .statement tag=003D}
 
@@ -168,19 +168,19 @@ $$
 
 这样$u$就是位似$\varphi (\lambda )_M$。
 
-### 3.极大子模
+### 3. 极大子模
 
 #### 定义 2 {#alg-viii-s3-def-2 .statement tag=003J}
 
-设A为环，M为A-模。 M的极大子模为包含M的真子模的集合的极大元素。
+设A为环，M为A-模。 M的极大子模是M的真子模的集合的极大元素。
 
 $A_s$的极大子模只是A的左最大理想。
 
-设 N 为 M 的子模。$M/N$ 的子模为形式 $P/N$，其中 P 为 M 包含于 N 的子模（I, §4, No. 6、p. 41、定理） 4).因而，N 是 M 的极大子模当且仅当模 $M/N$ 是简单的。
+令 N 为 M 的子模。 $M/N$ 的子模为形式 $P/N$，其中 P 为 M 包含于 N 的子模 (I, §4, No. 6, p. 41, 定理) 4).因而，N 是 M 的极大子模当且仅当模 $M/N$ 是简单的。
 
 #### 命题 3 {#alg-viii-s3-prop-3 .statement tag=003K}
 
-令 M 为有限生成A-模。 M 的每个真子模都包含在极大子模中。
+设 M 为有限生成A-模。 M 的每个真子模都包含在极大子模中。
 
 设N为M的真子模。用M包含N的真子模$\mathscr{S}$集合表示，按包含排序；让我们证明 $\mathscr{S}$ 是归纳性的。令$\mathscr{F}$等于$\mathscr{S}$的总有序子集。如果$\mathscr{F}$为空，则对于$\mathscr{S}$中的$\mathscr{F}$，N为上界。相反的情况，用$\mathscr{F}$的元素的Q并来表示。那么 Q 是 M 的子模。设 F 是 M 的有限生成子集。如果 Q 等于 M，则 F 将包含在子模 $P\in \mathscr{F}$ 中，这意味着 P = M，与 $\mathscr{F}$ 的定义相反。因此我们有$Q\in \mathscr{S}$，这证明$\mathscr{S}$是归纳性的。然后从集合理论的推论1、III, §2, No. 4、p. 155得出命题3。
 
@@ -192,13 +192,13 @@ $A_s$的极大子模只是A的左最大理想。
 
 #### 推论 2 {#alg-viii-s3-prop-3-cor-2 .statement tag=003M}
 
-设A为交换环，B为A-代数。设M为单B-模即有限生成A-模，并令$\mathfrak{m}$为A-模M的湮没子。则$\mathfrak{m}$是A的极大理想，且M为域$A/\mathfrak{m}$之上的有限维向量空间。
+设A为交换环，B为A-代数。设M为单B-模即有限生成A-模，并令$\mathfrak{m}$为A-模M的湮没子。则$\mathfrak{m}$是A的极大理想，M是域$A/\mathfrak{m}$的有限维向量空间。
 
 由于环 A 是可交换的，单A-模的湮没子是 A 的最大理想 (VIII, p. 46, 命题 1)。将推论 1 应用于 A-模 M，存在 A 的最大理想 $\mathfrak{a}$，使得 $\mathfrak{a}M\not= M$。但$\mathfrak{a}M$是单B-模M的子模；因此我们有 $\mathfrak{a}M = 0$ 以及$\mathfrak{a}\subset \mathfrak{m}$。由于理想的$\mathfrak{m}$与A不同，它等于$\mathfrak{a}$，因而$\mathfrak{m}$最大。 模 M 是有限生成模超过域 $A/\mathfrak{m}$；接下来是最后一个断言。
 
-### 4.单模超过阿廷环
+### 4. 单模超过阿廷环
 
-设 A 为环。通过滥用语言，我们说左理想$\mathfrak{a}$是A的最小左理想，如果它是A的非零的左理想中集合的最小元素，并按包含排序。我们定义类比右极小理想和两侧极小理想。
+设 A 为环。通过滥用语言，我们说左理想$\mathfrak{a}$是A的最小左理想，如果它是A的非零的左理想中集合的最小元素，并按包含排序。我们类似地定义右极小理想和两侧极小理想。
 
 设 $\mathfrak{a}$ 为 A 的左理想。则 $\mathfrak{a}$ 为单A-模当且仅当它是 A 的最小左理想。
 
@@ -212,15 +212,15 @@ $A_s$的极大子模只是A的左最大理想。
 
 #### 命题 5 {#alg-viii-s3-prop-5 .statement tag=003O}
 
-令 A 为左阿廷的环，M 为忠实的 A-模。
+设 A 为左阿廷的环，M 为忠实的 A-模。
 
 a) $M^m$的$A_s$到子模存在自然数$m$和同构。
 
 b) 如果 M 承认 Jordan–Hölder 级数 $(M_i)_{0\leqslant i\leqslant n}$，则每个单A-模同构于商 $M_i/M_{i+1}$ 之一。
 
-将VIII、p. 2应用于M的A-模、$A_s$和元素的湮没子，存在M的元素$x_1, . . . , x_m$，使得M的湮没子是交 $x_i$ 的湮没子。由于 A-模 M 是忠实的，A-线性映射 $a\mapsto (ax_1, . . . , ax_m)$ 从 $A_s$ 到 $M^m$ 是单射的，从而 a)。
+将VIII、p. 2应用于M的A-模$A_s$和元素的湮没子，存在M的元素$x_1, . . . , x_m$，使得M的湮没子是M的湮没子的交 $x_i$。由于 A-模 M 是忠实的，A-线性映射 $a\mapsto (ax_1, . . . , ax_m)$ 从 $A_s$ 到 $M^m$ 是单射的，从而 a)。
 
-在b)的假设下，$A_s$的每个简单商都同构于Jordan–Hölder级数对$M^m$的商（I, §4, No. 7，p. 43，推论），因此与模$M_i/M_{i+1}$之一同构（I, §4, No. 7、p. 43、定理 6）。我们结论，每个单A-模同构于$A_s$的商。
+在b)的假设下，$A_s$的每个简单商同构于Jordan–Hölder级数对$M^m$的商（I, §4, No. 7，p. 43，推论），因此与模$M_i/M_{i+1}$之一（I, §4, No. 7， p. 43、定理 6)。我们结论认为每个单A-模同构于$A_s$的商。
 
 #### 注 {#alg-viii-s3-n4-rem-1 .statement tag=003P}
 
@@ -228,24 +228,24 @@ b) 如果 M 承认 Jordan–Hölder 级数 $(M_i)_{0\leqslant i\leqslant n}$，�
 
 a) 设 A 为交换域 K 上的代数，并令 M 为 K 上的忠实有限维模。则 M 为有限长度的 A-模，并且 M 的对模是有限生成的。 环 A 为左阿廷的（VIII、p. 9、命题 6）。存在 A-模 M 的 Jordan–Hölder 级数 $(M_i)_{0\leqslant i\leqslant n}$，并且每个单A-模都同构于 $0\leqslant i\leqslant n-1$ 的模 $M_i/M_{i+1}$ 之一。
 
-b) 设 A 为左阿廷的环。 模$A_s$有有限长度（VIII、p. 6、定理1）。由于A-模$A_s$有有限长度，因此存在A的左理想递减序列$(\mathfrak{a}_i)_{0\leqslant i\leqslant n}$，使得$\mathfrak{a}_0= A$和$\mathfrak{a}_n= 0$以及A-模$S_i=\mathfrak{a}_{i-1}/\mathfrak{a}_i$对于$1\leqslant i\leqslant n$来说是简单的。那么每个单A-模都同构于模 $S_1, . . . ,S_n$ 之一。
+b) 设 A 为左阿廷的环。 模$A_s$有有限长度（VIII，p. 6，定理1）。由于A-模$A_s$有有限长度，因此存在A的左理想递减序列$(\mathfrak{a}_i)_{0\leqslant i\leqslant n}$，使得$\mathfrak{a}_0= A$和$\mathfrak{a}_n= 0$以及A-模$S_i=\mathfrak{a}_{i-1}/\mathfrak{a}_i$对于$1\leqslant i\leqslant n$来说是简单的。那么每个单A-模都同构于模 $S_1, . . . ,S_n$ 之一。
 
-### 5.单模类
+### 5. Classes of Simple Modules
 
 表示为 Is$_A(X,Y)$ 关系
 
-“A 是环和 $X,Y$ 同构的 A-模。”
+“A 是环和 $X,Y$ 同构 A-模。”
 
-这是相对于X和Y的等价关系。如果X是A-模，那么我们用cl(X)表示对象的类相当于Is$_A$的X，并将其称为类 A-模 X（集合理论、II, §6, No. 9、p. 122）。通过定义，cl(X)与A-模同构于X；此外，两个 A-模 X 和 Y 同构当且仅当我们有 cl(X) = cl(Y)。
+这是相对于X和Y的等价关系。如果X是A-模，那么我们用cl(X)表示对象的类相当于Is$_A$的X，并将其称为类 A-模X（集合理论，II, §6, No. 9，p. 122）。到定义，cl(X)与A-模同构于X；此外，两个 A-模 X 和 Y 是同构的当且仅当我们有 cl(X) = cl(Y)。
 
-设 A 为环。 关系
+设A为环。 关系
 
 “$\lambda$ 是类 / 有限生成A-模”
 
-$\lambda ($集合理论中的集合化，II, §1, No. 4，p. 68）。事实上，每个有限生成A-模都同构于形式$A^n_s/R$的A-模，其中$n$是自然数，R子模是$A^n_s$，因此我们的断言来自集合理论，II, §6, No. 9，p. 122。
+$\lambda ($集合理论中的集合化，II, §1, No. 4，p. 68）。事实上，每个有限生成A-模都同构于形式$A^n_s/R$的A-模，其中$n$是自然数，$A^n_s$的R子模，因此我们的断言遵循集合理论， II, §6, No. 9、p. 122。
 
-我们用$\mathscr{F}(A)$表示有限生成A-模的类的集合。每个单A-模都是单生的（VIII，p. 46，命题1），因此单A-模类形式子集$\mathscr{F}$（A），从现在开始我们将其表示为$\mathscr{S}(A)$（或简称为$\mathscr{S}$）。当环 A 是可交换的时，映射 $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) 是从 A 的最大理想的集合到集合 $\mathscr{S}(A)$ (loc. cit. 和 VIII) 的双射， p. 46、注 1)。当 A 为左阿廷的时，集合 $\mathscr{S}(A)$ 是有限的 (VIII, p. 51, 注 b))。
+我们用$\mathscr{F}(A)$表示类或有限生成A-模的集合。 Every simple A-module is monogenous (VIII, p. 46, Proposition 1), and consequently the classes of the simple A-modules form a subset of $\mathscr{F}$ (A), which we from now on denote by $\mathscr{S}(A)$ (or simply $\mathscr{S}$). 当环 A 是可交换的时，映射 $\mathfrak{m}\mapsto$ cl(A$/\mathfrak{m}$) 是从 A 的最大理想的集合到集合 $\mathscr{S}(A)$ 的双射 (loc. cit. and VIII, p. 46, 注1)。 当 A 为左阿廷的时，集合 $\mathscr{S}(A)$ 是有限的 (VIII, p. 51, 注 b))。
 
 ### 习题{#alg-viii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

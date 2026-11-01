@@ -25,21 +25,21 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: 773155a1e48c267351767ad503c0ec4ce865997985bc03d3c0795a8e5c1e9901
+content_sha256: ef8b17fed85963e3c3937dac3e70937c5afc7a1c193a6d198fd9e27ba51df111
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
 translation_method: google
 source_content_sha256: b7143e1dccb4a50f4c6430b942b6320cab29a534320ec6405180a553d32e45d9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6c167e22c1c6e6747868ff3110974dc12f1ade0ed2485c1f5d1b1ae356c502cb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。措施和加法集合函数
 
-在这个截面中，我们将分别用$\mathscr{K}(T)$和$\mathscr{B}(T)$表示Hausdorff拓扑空间T的紧致子集的集合和T的Borel族。
+在这个截面中，我们将分别用$\mathscr{K}(T)$和$\mathscr{B}(T)$表示Hausdorff拓扑空间T的紧致子集和T的Borel族的集合。
 
 ### 1. 紧集的措施和加法集合函数
 
@@ -53,7 +53,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 3) 如果K和L是T的不相交的紧子集，则$I(K \cup L) = I(K) + I(L)$（“I是可加的”）。
 
-4) 对于T的紧凑子集的每个递减有向族$(K_\alpha)_{\alpha \in A}$，一个有$I(\bigcap_{\alpha \in A} K_\alpha) = \inf_{\alpha \in A} I(K_\alpha)$。
+4) 对于T的紧凑子集的每个递减有向家庭$(K_\alpha)_{\alpha \in A}$，一个有$I(\bigcap_{\alpha \in A} K_\alpha) = \inf_{\alpha \in A} I(K_\alpha)$。
 
 5) 对于每个 $x \in T$，存在 x 的邻域 V，使得
 $$
@@ -69,13 +69,13 @@ $\mu$ 的唯一性源自 Cor。 § 1, No. 2 的第 2 号提案。上面的条件
 
 #### 引理 1 {#int-ix-s3-lem-1 .statement tag=09PO}
 
-假设 T 是紧的，且集合 l = I(T)。每$A \subset T$、集合
+假设 T 是紧的，并且集合 l = I(T)。每$A \subset T$，集合
 
 $$
 J(A) = \sup_{\substack{K \in \mathscr{K}(T) \\ K \subset A}} I(K)
 $$
 
-并令 $\Phi$ 为 $A \subset T$ 的集合，使得 $J(A) + J(\mathbf{C}A) = l$。 集合 $\Phi$ 是包含 $\mathscr{K}(T)$ 的部落，$\Phi$ 上的函数 $J$ 是递增和相加。
+并令 $\Phi$ 为 $A \subset T$ 的集合，使得 $J(A) + J(\mathbf{C}A) = l$。 集合 $\Phi$ 是包含 $\mathscr{K}(T)$ 的氏族，$\Phi$ 上的函数 $J$ 是递增和相加。
 
 很明显，$J$是递增集合函数，延伸$I$，并且每$A \subset T$延伸$J(A) + J(\mathbf{C}A) \leq l$。
 
@@ -153,7 +153,7 @@ $$
 $$
 对于每个措施$\mu$，凭借关系$\varphi_{K \cup L} + \varphi_{K \cap L} = \varphi_K + \varphi_L$之间的特征函数。
 
-### 2.内部常规集合函数
+### 2. 内部常规集合函数
 
 #### 定义 1 {#int-ix-s3-def-1 .statement tag=09PR}
 
@@ -198,23 +198,23 @@ $$
 
 #### 定理 2 {#int-ix-s3-thm-2 .statement tag=09PX}
 
-— 令 T 为拓扑空间，并令I 为$\mathscr{B}(T)$ 上定义的函数，值在$\overline{\mathbf{R}}_+$ 中。在阶中，T上存在一个测度$\mu$，使得$\mu^*(A) = I(A)$对于每一个$A \in \mathscr{B}(T)$，I是可数可加的、局部有界的且内部正则是必要且充分的。那么测度 $\mu$ 是唯一的。
+— 令 T 为拓扑空间，并令 I 为在 $\mathscr{B}(T)$ 上定义的函数，值在 $\overline{\mathbf{R}}_+$ 中。在阶中，T上存在一个测度$\mu$，使得$\mu^*(A) = I(A)$对于每一个$A \in \mathscr{B}(T)$，I是可数可加的、局部有界的且内部正则是充分必要的。那么度量$\mu$是唯一的。
 
-这三个条件是必要的：因为，$\mathscr{B}(T)$上的映射$A \mapsto \mu^*(A)$是可数相加的（§ 1, No. 5，Prop.4的Cor.），局部以定义的度量为界（§ 1, No. 2，Def.5），并且内部正则由注3的注3 § 1, No. 2。
+这三个条件是必要的：因为，$\mathscr{B}(T)$上的映射$A \mapsto \mu^*(A)$是可数累加的（§ 1, No. 5，Prop.4的Cor.），局部以定义的度量为界（§ 1, No. 2，Def.5），并且内部正则注 3 个，共 § 1, No. 2。
 
-我们走向存在。可知，I～$\mathscr{K}(T)$的限制满足Th的叙述的条件1)、2)、3)、5)。 1;让我们证明 4) 也满足。令K为T的紧子集，紧集的递减有向族$(K_\alpha)_{\alpha \in A}$的交，并令$\varepsilon$为数$> 0$； I 是局部有界的，存在 K 的开邻域 V，使得 $I(V) < +\infty$，然后存在指标 $\alpha$，使得 $K_\alpha \subset V$；如有必要，更改记号，我们可以假设$K_\alpha \subset V$适用于所有$\alpha \in A$。根据I的内部正则，存在紧集$L \subset V - K$使得$I(L) \geq I(V - K) - \varepsilon$；由于L不与K相交，因此存在指标$\alpha$使得$L \cap K_\alpha = \varnothing$，然后有$I(V - K_\alpha) \geq I(L) \geq I(V - K) - \varepsilon$。从$K_\alpha \subset V$开始，$I(K_\alpha) \leq I(K) + \varepsilon$和条件4)得到验证。
+我们走向存在。可知，I～$\mathscr{K}(T)$的限制满足Th的叙述的条件1)、2)、3)、5)。 1;让我们证明 4) 也满足。令K为T的紧子集，递减的有向族$(K_\alpha)_{\alpha \in A}$的紧集的交，并令$\varepsilon$为数$> 0$； I 是局部有界的，存在 K 的开邻域 V，使得 $I(V) < +\infty$，然后存在指标 $\alpha$，使得 $K_\alpha \subset V$；如有必要，更改记号，我们可以假设$K_\alpha \subset V$适用于所有$\alpha \in A$。根据I的内部正则，存在紧集$L \subset V - K$使得$I(L) \geq I(V - K) - \varepsilon$；由于L不与K相交，因此存在指标$\alpha$使得$L \cap K_\alpha = \varnothing$，然后有$I(V - K_\alpha) \geq I(L) \geq I(V - K) - \varepsilon$。从$K_\alpha \subset V$开始，$I(K_\alpha) \leq I(K) + \varepsilon$和条件4)得到验证。
 
-由 Th. 1，存在一个测度$\mu$使得$\mu^\bullet(K) = I(K)$对于所有$K \in \mathscr{K}(T)$。 $\mathscr{B}(T)$上集合函数$\mu^\bullet$和$I$的内部正则意味着$\mu^\bullet(A) = I(A)$对于所有$A \in \mathscr{B}(T)$，并且存在性被证明。 $\mu$的唯一性源自Th的唯一性断言。 1.
+由 Th. 1，存在一个测度$\mu$，使得$\mu^\bullet(K) = I(K)$对于所有$K \in \mathscr{K}(T)$。 内部集合函数$\mu^\bullet$和$I$在$\mathscr{B}(T)$上的正则性意味着$\mu^\bullet(A) = I(A)$对于所有$A \in \mathscr{B}(T)$，并且存在性被证明。 $\mu$的唯一性源自Th的唯一性断言。 1.
 
-### 3.氡气空间
+### 3. 氡气空间
 
 #### 定义 2 {#int-ix-s3-def-2 .statement tag=09PY}
 
-*设 T 为拓扑空间。有人说 T 是氡气（或强氡气）空间，如果 T 是 Hausdorff，并且如果在 T 的 Borel 族$\mathscr{B}(T)$ 上定义的每个函数，且值在 $\overline{\mathbf{R}}_+$ 中，则可数加性且有界（或局部有界）是内部正则。*
+*设 T 为拓扑空间。有人说 T 是氡气（或强氡气）空间，如果 T 是 Hausdorff，并且如果在 T 的 Borel 族$\mathscr{B}(T)$ 上定义的每个函数，其中值在 $\overline{\mathbf{R}}_+$，则可数加性且有界（或局部有界）是内部正则。
 
-对于例，我们稍后将看到（命题3），每个波兰语空间都是强氡气。特别是，每个具有可数基的局部紧致空间都是强氡气。
+对于例，我们稍后将看到（命题3），每个波兰空间都是强氡气。特别是，每个具有可数基的局部紧致空间都是强氡气。
 
-存在不是强氡气的氡气空间。
+存在非强氡气的氡气空间。
 
 #### 命题 1 {#int-ix-s3-prop-1 .statement tag=09PZ}
 
@@ -274,13 +274,13 @@ $$
 
 — *每个 Souslin 空间（特别是每个波兰或 Lusin 空间）都有很强的氡气。*
 
-令$T$为苏斯林空间；由于 $T$ 是 Lindelöf 空间（TG，IX，附录 I，命题 1 的 Cor.），(2) 足以证明 $T$ 是氡气（命题 1）。设 $I$ 是在 $\mathscr{B}(T)$ 上定义的函数，正数、可加性且有界。我们通过设定从扩展$I$到$\mathscr{P}(T)$，对于$T$的每子集$A$，
+令$T$为苏斯林空间；由于 $T$ 是 Lindelöf 空间（TG，IX，附录 I，命题 1 的 Cor.），(2) 足以证明 $T$ 是氡气（命题 1）。设 $I$ 是在 $\mathscr{B}(T)$ 上定义的函数，正数、可加性且有界。我们将扩展 $I$ $\mathscr{P}(T)$ 设定子集 $A$ $T$，
 
 $$
 I(A) = \inf_{\substack{B \in \mathscr{B}(T) \\ B \supseteq A}} I(B).
 $$
 
-让我们证明这个扩张是$T$（GT，IX, §6, No. 9）上的*容量*。显然，关系$A \subset A'$意味着$I(A) \leq I(A')$。设$(A_n)$为$T$的子集、递增、序列，并设$A = \bigcup_n A_n$。 Borel 集合的集合使得包含$A_n$对于可数交是稳定的，对于每个$n$都存在一个Borel集合$B_n$使得$A_n \subset B_n$和$I(A_n) = I(B_n)$ （提案 2 的cf. 证明）。 集合$C_n = \bigcap_{p \geq n} B_p$； $C_n$ 是 Borel，$A_n \subset C_n \subset B_n$，因而 $I(A_n) = I(C_n)$。另一方面，序列$(C_n)$是递增。让 $C = \bigcup_n C_n$: 关系 $A \subset C$ 意味着
+让我们证明这个扩张是$T$（GT，IX, §6, No. 9）上的*容量*。显然，关系$A \subset A'$意味着$I(A) \leq I(A')$。令$(A_n)$为$T$的子集、递增、序列，并令$A = \bigcup_n A_n$。 Borel 集合的集合使得包含$A_n$对于可数交是稳定的，对于每个$n$都存在一个Borel集合$B_n$使得$A_n \subset B_n$和$I(A_n) = I(B_n)$ （提案 2 的cf. 证明）。 集合$C_n = \bigcap_{p \geq n} B_p$； $C_n$ 是 Borel，$A_n \subset C_n \subset B_n$，因而 $I(A_n) = I(C_n)$。另一方面，序列$(C_n)$是递增。让 $C = \bigcup_n C_n$: 关系 $A \subset C$ 意味着
 
 $$
 I(A) \leq I(C) = \lim_n I(C_n) = \lim_n I(A_n),
@@ -300,8 +300,8 @@ $$
 
 #### 注 {#int-ix-s3-n3-rem-1 .statement tag=09Q3}
 
-— 设 X 为 Lusin 空间（特别是任何波兰语空间），并且将 X 的双射连续映射置于（Lusin）正则空间 Y 上。人们知道（TG，IX, §6, No. 7，命题 14） 映射$B \mapsto f^{-1}(B)$是Y的Borel部落的双射到X的Borel部落。 空间 X 和 Y 是 Lusin，因此是强氡气（命题 3）。紧接着，映射$\mu \mapsto f(\mu)$是X上有界度量的集合的双射到Y上有界度量的集合。(4)
+— 令 X 为 Lusin 空间（特别是任何波兰语空间），并且将 X 的双射连续映射置于（Lusin）正则空间 Y 上。人们知道（TG，IX, §6, No. 7，命题 14） 映射 $B \mapsto f^{-1}(B)$ 是Y 的Borel 部落的双射到X 的Borel 部落。 空间 X 和 Y 是 Lusin，因此是强氡气（命题 3）。紧接着，映射$\mu \mapsto f(\mu)$是X上有界度量的集合的双射到Y上有界度量的集合。(4)
 
 ### 习题{#int-ix-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

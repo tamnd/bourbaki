@@ -26,23 +26,23 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 7db47d18384bc221402ef4ab236665dea381aa34a861cb4091ede25846383bca
+content_sha256: 4565465f82a6e134bf023b8d3464b5aa9eb66d66d166f2caad63d5196a7c71c9
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
 translation_method: google
 source_content_sha256: 2682c7eae62790237d64df767969f62d7aa7d61ceec717b4af26629c4a2f746a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ed17704e4ad2bfc2ad14769e4c5a980050f85b0bd3114374f5e4f6729043a7cd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。 模的逆与直极限
 
-在本段中，I将表示非空预购集合，$\alpha \leq \beta$预序关系表示I。另外提到除非，其逆和直接系统具有索引集合I。
+在本段中，I将表示非空预购集合，$\alpha \leq \beta$预序关系表示I。另外提及除非，其逆和直接系统具有索引集合I。
 
-### 1. 逆极限的模
+### 1. 逆极限模
 
 令$(A_\alpha, \phi_{\alpha \beta})$为环(I, § 10, no. 1)的逆系，可交换的群(加法写)(I, § 10, no. 1)的$(E_\alpha, f_{\alpha \beta})$逆系，并假设每个$E_\alpha$都有一个左$A_\alpha$模块结构；此外，假设$\alpha \leq \beta$$(f_{\alpha \beta}, \phi_{\alpha \beta})$是$E_\beta$到$E_\alpha$（§ 1, no. 13）的二态性，在其他字中
 $$
@@ -70,7 +70,7 @@ $$
 
 *准确*。
 
-*作为* $u_\alpha^{-1}(0) = \{0\}$ *对于所有$\alpha$，它从集合理论、III, § 7, no. 2、命题 2 得出* $u^{-1}(0) = \{0\}$，*因此* $u$ *是单射的；进一步地，*$E_\alpha$的子集的*$u_\alpha(E'_\alpha)$*形式逆系，因此*$u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$。 *作为* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *通过假设，* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$（*集合理论*，III, § 7, no. 2，命题 2），*完成证明*。
+*由于* $u_\alpha^{-1}(0) = \{0\}$ *对于所有$\alpha$，它从集合理论、III, § 7, no. 2、命题 2 得出* $u^{-1}(0) = \{0\}$，*因此* $u$ *是单射的；进一步地，*$E_\alpha$*的子集的*$u_\alpha(E'_\alpha)$*形式逆系以及因此*$u(\lim E'_\alpha) = \lim u_\alpha(E'_\alpha)$。 *作为* $u_\alpha(E'_\alpha) = v_\alpha^{-1}(0)$ *通过假设，* $v^{-1}(0) = \lim u_\alpha(E'_\alpha) = u(\lim E'_\alpha)$（*集合理论*，III, § 7, no. 2，命题 2），*完成证明*。
 
 #### 注 {#alg-ii-s6-n1-rem-1 .statement tag=05QY}
 
@@ -132,7 +132,7 @@ $$
 
 对于所有$u \in \operatorname{Hom}(F', \lim_{\leftarrow} E_\alpha)$，$l_F(u \circ v) = (f_\alpha \circ u \circ v)$乘以定义和交换律，图表(3)紧随定义而来。
 
-### 2. 直极限的模
+### 2. 直极限模
 
 *从此以后 I 被假定为右向。*
 
@@ -224,17 +224,17 @@ $$
 
 是可交换的。
 
-对于所有 $u \in \operatorname{Hom}(\lim E_\alpha, F)$、$d_{F'}(v \circ u) = (v \circ u \circ f_\alpha)$、定义和交换律，图表 (6) 则紧随定义。
+对于 $u \in \operatorname{Hom}(\lim E_\alpha, F)$、$d_{F'}(v \circ u) = (v \circ u \circ f_\alpha)$、定义和交换律的图表 (6)，则紧随定义。
 
 #### 推论 2 {#alg-ii-s6-prop-6-cor-2 .statement tag=05R7}
 
-*如果* $(E_\alpha, f_{\beta \alpha})$ *是左* $A$*-模块的直接系统，并且* $E = \lim \longrightarrow E_\alpha$、$(E_\alpha^*, t f_{\beta \alpha})$ *是右* $A$*-模块的逆系，并且* $\lim \leftarrow E_\alpha^*$ *规范地同构于* $E^*$。
+*如果* $(E_\alpha, f_{\beta \alpha})$ *是左* $A$*-模块的直接系统，并且* $E = \lim \longrightarrow E_\alpha$，$(E_\alpha^*, t f_{\beta \alpha})$ *是右* $A$*-模块的逆系，并且* $\lim \leftarrow E_\alpha^*$ *规范地同构于* $E^*$。
 
 #### 注 {#alg-ii-s6-n2-rem-1 .statement tag=05R8}
 
-设$E$是$A$*模块，并且*$(M_\alpha)_{\alpha \in I}$*递增是*$E$的子模族，使得*$E$*是*$M_\alpha$的并；如果$j_{\beta \alpha}: M_\alpha \to M_\beta$（对于$\alpha \leq \beta$）和$j_\alpha: M_\alpha \to E$ *是典范嵌入，则直接的* $j = \lim \longrightarrow j_\alpha$ *是* $\lim \longrightarrow M_\alpha$ *上的同构 * $E$ *（集合理论， III, § 7, no. 6、注 1)*。特别是，每个$A$*-模块都是其*有限生成*子模的右有向族的直极限。
+设$E$是$A$*模块，并且*$(M_\alpha)_{\alpha \in I}$*递增是*$E$的子模族，使得*$E$*是*$M_\alpha$的并；如果$j_{\beta \alpha}: M_\alpha \to M_\beta$（对于$\alpha \leq \beta$）和$j_\alpha: M_\alpha \to E$*是典范嵌入，那么直接的*$j = \lim \longrightarrow j_\alpha$*是同构*$\lim \longrightarrow M_\alpha$*到*$E$*（集合理论， III, § 7, no. 6、注 1)*。特别是，每个$A$*-模块都是其*有限生成*子模的右有向族的直极限。
 
-### 3.张量积直极限
+### 3. 张量积 / 直极限
 
 令 $(A_\alpha, \rho_{\beta \alpha})$ 为环的直接系统，$(E_\alpha, f_{\beta \alpha})$（分别为 $(F_\alpha, g_{\beta \alpha})$）为右（分别为左）$A_\alpha$*-模块的直接系统。对于$\alpha \leq \beta$，有一个$\mathbf{Z}$*-模块同态*
 
@@ -325,7 +325,7 @@ $$
 
 *设*$(E_\alpha, f_{\beta\alpha})$*为右*$A_\alpha$*-模块的直接系统，并让*$E'_\alpha = E_\alpha \otimes_{A_\alpha} A$*为通过典范同态*$\rho_\alpha : A_\alpha \to A$将标量的环扩展到*$A = \lim A_\alpha$*所获得的*$A$*-模块。 *那么* $(E'_\alpha, f_{\beta\alpha} \otimes 1_A)$ *是右* $A$*模块的直接系统，*其直极限规范地同构于* $\lim E_\alpha$。
 
-它足以满足应用命题 7，其中 $F_\alpha$ 环 $A$ 通过 $\rho_\alpha$ 被视为 $(A_\alpha, A)$ 双模。
+它足以满足应用命题 7，其中$F_\alpha$环$A$通过$\rho_\alpha$被视为$(A_\alpha, A)$双模。
 
 #### 推论 3 {#alg-ii-s6-prop-7-cor-3 .statement tag=05RC}
 
@@ -337,10 +337,10 @@ $$
 
 #### 推论 4 {#alg-ii-s6-prop-7-cor-4 .statement tag=05RD}
 
-*设* $M$ *为右* $A$*-模，$N$ *左* $A$*-模，$(x_i)_{1 \leq i \leq n}$ *元素的族* $M$，$(y_i)_{1 \leq i \leq n}$ *元素的族* $N$，*使得*$\sum_i (x_i \otimes y_i) = 0$*在*$M \otimes_A N$。 *然后存在一个有限生成的子模* $M_1$ *(resp. $N_1$) of* $M$ *(resp. $N$) 包含 the* $x_i$ *(resp. the* $y_i$) *并且这样* $\sum_i (x_i \otimes y_i) = 0$*在*$M_1 \otimes_A N_1$。
+*设* $M$ *为右* $A$*-模，$N$ *左* $A$*-模，$(x_i)_{1 \leq i \leq n}$ *元素的族* $M$，$(y_i)_{1 \leq i \leq n}$ *元素的族* $N$，*使得*$\sum_i (x_i \otimes y_i) = 0$*在*$M \otimes_A N$。 *然后存在一个有限生成的子模* $M_1$ *（分别为 $N_1$）* $M$ *（分别为 $N$）包含* $x_i$ *（分别为* $y_i$）*并且这样* $\sum_i (x_i \otimes y_i) = 0$*在*$M_1 \otimes_A N_1$。
 
 $M$（分别$N$）被规范地等同于其有限生成的子模包含和$x_i$（分别$y_i$）的右有向族的直极限，并且足以应用*集合理论， III, § 7, no. 5, 引理 1.*
 
 ### 习题 {#alg-ii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

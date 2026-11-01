@@ -53,45 +53,45 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 27
-content_sha256: 447587edd6520827e3ff98fb6c3a91c6fcf61632e48c9805643070cd12555574
+content_sha256: 82e8f79102cc4a535de91013ed2195dd887f200950e92587a7f3ef209d953705
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
 translation_method: google
 source_content_sha256: f78c02d6746badeb5841481f1c8cf6849e885db53fc5c1bf28fc919724113c17
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 222718c96f0c9912147077695b468cb0c2f68a85e083f94f66d4141138d8109c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。矢量测量
 
-### 1. 向量测度的定义
+### 1. 矢量测量的定义
 
 定义中给出的措施。 III, §1, No. 3可以概括如下：
 
 #### 定义 1 {#int-vi-s2-def-1 .statement tag=09A3}
 
-*设 F 是 R 上的 Hausdorff 局部凸空间。我们将 F 中的每个连续线性映射的空间 $\mathscr{K}(T)$ 称为 T 上的向量测度，其中 F 中的值到 F 中。*
+*设 F 是 R 上的 Hausdorff 局部凸空间。我们将 F 中的每个连续线性映射的空间 $\mathscr{K}(T)$ 称为 T 上的矢量测度，其中 F 中的值到 F 中。*
 
-定义。 1 也可以表示为：F 中的值的 T 上的向量测度是 $\mathscr{K}(T)$ 的线性映射 m 进入 F，使得对于 T 的每个紧凑子集 K，m 到 $\mathscr{K}(T, K)$ 的限制对于一致收敛的拓扑是连续的。如果$f \in \mathscr{K}(T)$，还可以写$\int f dm$或$\int f(t)\,dm(t)$，而不是$m(f)$。 $\mathbf{R}$ 中带有值的度量为有时，称为 *真实* 度量（第 III, §1, No. 5）或 T 上的 *标量* 度量。
+定义。 1 也可以表示为：F 中的值的 T 上的向量测度是 $\mathscr{K}(T)$ 到 F 中的线性映射 m，使得对于 T 的每个紧凑子集 K，m 到 $\mathscr{K}(T, K)$ 的限制对于一致收敛的拓扑是连续的。如果$f \in \mathscr{K}(T)$，还可以写$\int f dm$或$\int f(t)\,dm(t)$，而不是$m(f)$。 $\mathbf{R}$ 中带有值的度量为有时，称为 *真实* 度量（第 III, §1, No. 5）或 T 上的 *标量* 度量。
 
 #### 例 {#int-vi-s2-n1-exa-1 .statement tag=09A4}
 
 — 1) $\mathscr{K}(T)$ 的恒等映射是 T 上的矢量测度，值位于 $\mathscr{K}(T)$ 中。
 
-2) *设H为复数希尔伯特空间，$\mathscr{L}(H)$H的连续自同态的范数代数。设A为$\mathscr{L}(H)$的子代数，可交换、闭、自伴且包含恒等式；证明在X上连续复形函数的代数$\mathscr{K}_\mathbf{C}(X) = \mathscr{C}_\mathbf{C}(X)$上存在规范代数A的紧空间X和同构，配备范数$\|f\| = \sup_{x \in X} |f(x)|$。 逆同构，仅限于 $\mathscr{K}(X)$，是 X 上的矢量测度 m，其中值在 $\mathscr{L}(H)$ 中，使得 $m(fg) = m(f)m(g)$.*_
+2) *设H为复数希尔伯特空间，$\mathscr{L}(H)$H的连续自同态的范数代数。设A为$\mathscr{L}(H)$的子代数，可交换、闭、自伴且包含恒等式；证明在X上连续复形函数的代数$\mathscr{K}_\mathbf{C}(X) = \mathscr{C}_\mathbf{C}(X)$上存在规范代数A的紧空间X和同构，配备范数 $\|f\| = \sup_{x \in X} |f(x)|$。 逆同构，仅限于 $\mathscr{K}(X)$，是 X 上的矢量测度 m，其中值在 $\mathscr{L}(H)$ 中，使得 $m(fg) = m(f)m(g)$.*_
 
 #### 注 {#int-vi-s2-n1-rem-1 .statement tag=09A5}
 
 — 1) 为了使 $\mathscr{K}(T)$ 的线性映射 m 成为 F 中的向量测度，对于 T 的每个紧凑子集 K，像在单位球 $\|f\| \leq 1$ 的 $\mathscr{K}(T, K)$ 的 m 下，有界于 F 中是有界的。因此，F 中具有值的矢量测度的概念对于 F 上允许相同有界集合的所有 Hausdorff 局部凸拓扑是相同的，特别是对于与 F 和 F' 之间的对偶性兼容的所有拓扑（TVS，IV, §1, No. 1，命题 1）。
 
-2) 令$T_1$为局部紧致空间，$F_1$为$\mathbf{R}$上的Hausdorff局部凸空间，u为$\mathscr{K}(T_1)$的连续线性映射入$\mathscr{K}(T)$，v为F的连续线性映射入$F_1$。如果 m 是 T 上的矢量测度，F 中的值，则 $v \circ m \circ u$ 是 $T_1$ 上的矢量测度，$F_1$ 中的值。特别是，如果 g 是 T 上的连续有限数值函数，则 $f \mapsto m(gf)$ 是 T 上的矢量测度，F 中的值表示为 $g \cdot m$；如果 h 是 T 上的第二个连续的有限数值函数，则 $g \cdot (h \cdot m) = (gh) \cdot m$。
+2) 令$T_1$为局部紧致空间，$F_1$为$\mathbf{R}$上的Hausdorff局部凸空间，u为$\mathscr{K}(T_1)$的连续线性映射入$\mathscr{K}(T)$，v为F的连续线性映射入$F_1$。如果 m 是 T 上的矢量测度，F 中的值，则 $v \circ m \circ u$ 是 $T_1$ 上的矢量测度，$F_1$ 中的值。特别是，如果 g 是 T 上的连续有限数值函数，则 $f \mapsto m(gf)$ 是 T 上的向量测度，F 中的值表示为 $g \cdot m$；如果 h 是 T 上的第二个连续有限数值函数，则 $g \cdot (h \cdot m) = (gh) \cdot m$。
 
-3) 由于空间 $\mathscr{K}(T)$ 是 Banach 空间 $\mathscr{K}(T, K)$ 的直极限，并且特别是桶装（TVS、III, §4, No. 1、第 2 条的 Cor. 和第 3 条的 Cor. 3），在阶中， F 中 $\mathscr{K}(T)$ 的线性映射 m 是矢量测度，对于每个 $z' \in F'$，$z' \circ m$ 是 T 上的标量测度是必要且充分的（TVS，II, §6, No. 4，第 5 条命题和IV, §1, No. 3，第 7 条命题）。
+3) 由于空间 $\mathscr{K}(T)$ 是 Banach 空间 $\mathscr{K}(T, K)$ 的直极限，并且特别是桶装（TVS、III, §4, No. 1、第 2 条命题的 Cor. 和第 3 条命题的 Cor. 3），在阶中， F 中 $\mathscr{K}(T)$ 的线性映射 m 是矢量测度，对于每个 $z' \in F'$，$z' \circ m$ 是 T 上的标量测度是必要且充分的（TVS，II, §6, No. 4，第 5 条命题和IV, §1, No. 3，第 7 条命题）。
 
-4) 鉴于注 1，第 1 章命题 1。 III, §2, No. 1 及其证明对于矢量测量再次有效。因此，可以将 T 上的矢量测度 m 的定义 *支持*作为最大的开集合 $U \subset T$ 的补集，使得 m 对 U 的限制为零。
+4) 鉴于注 1，第 1 章命题 1。 III, §2, No. 1 及其证明对于矢量测量再次有效。因此，可以将 T 上的向量测度 m 的 *支持* 定义设为最大的开集合 $U \subset T$ 的补集，使得 m 对 U 的限制为零。
 
 ### 2. 关于矢量测量的积分
 
@@ -157,7 +157,7 @@ $$
 
 *如果 F 是半自反的，则对于每个数值函数 $f$ $\int f dm \in F$ 本质上可积为 $m$。*
 
-### 3. 可大化向量度量
+### 3. 主要向量测量
 
 令$q$为F上的下半连续半范数。我们将用$z' \in F'$的$A'_q$集合表示，使得$|\langle z', x\rangle| \leq q(x)$对于所有$x \in F$。这是
 
@@ -229,7 +229,7 @@ b) $\mathscr{L}^1((\mu_\iota)_{\iota \in I})$ 的每个元素都位于 $\mathscr
 
 Let us now prove Prop. 6: for every function $g \in \mathscr{K}(T)$ and every continuous seminorm q on F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Prop. 5), which implies that the mapping $g \mapsto \int g\,dm$ of $\mathscr{K}(T)$ into F is continuous when $\mathscr{K}(T)$ is equipped with the topology induced by that of $\mathscr{L}^1((q(m))_{q \in Q})$ (Q the set of continuous semi-norms on F). 因而，根据前面的引理和TVS的第10条命题III, §1, No. 6，这个映射可以通过连续性进行扩展，首先将$\mathscr{L}_0$的连续线性映射$v_0$延伸到F中，然后将$\mathscr{L}^1((q(m))_{q \in Q})$的连续线性映射$v$延伸到F中。 此外，对于每个$z' \in F'$关系$\langle z', v(f) \rangle = \int f\,d(z' \circ m)$成立，通过$v$的定义，对于每个$f \in \mathscr{K}(T)$；由于$|z' \circ m| \leq q(m)$对于$q(z) = |\langle z', z \rangle|$，映射$f \mapsto \int f\,d(z' \circ m)$在$\mathscr{L}^1((q(m))_{q \in Q})$上是连续的，因此再次根据连续性，关系$\langle z', v(f) = \int f\,d(z' \circ m)$对于每个函数$f \in \mathscr{L}^1((q(m))_{q \in Q})$成立。 接下来是$v(f) = \int f\,dm$，从而完成证明。
 
-### 4. 基 $\mu$ 的矢量测量
+### 4. 使用基 $\mu$ 进行矢量测量
 
 #### 定义 4 {#int-vi-s2-def-4 .statement tag=09AJ}
 
@@ -277,7 +277,7 @@ b) 由于测度$\lambda_J$有基$\mu$，因此它们的上界$q(m)$也有（第V
 
 如果$z = \sum_{i=1}^n z_i e_i$，则$\psi(z_1, \ldots, z_n) = |z|$是$\mathbf{R}^n$上的正齐次连续函数。 设定$\mu_i = e'_i \circ m = h_i \cdot |m|$，作者定义（第V, §5, No. 9）$\psi(\mu_1, \ldots, \mu_n) = \psi(h_1, \ldots, h_n) \cdot |m| = |h| \cdot |m| = |m|$。
 
-### 5.邓福德-佩蒂斯定理
+### 5. 邓福德-佩蒂斯定理
 
 令 $\mu$ 为 T 的正测度。 A vectorial measure m on T, with values in F, is said to be *scalarly of base* $\mu$ (or to have base $\mu$ scalarly) if, for every $z' \in F'$, the scalar measure $z' \circ m$ has base $\mu$. 如果 $F$ 中带有值的向量测度 $m$ 具有基 $\mu$，则它标量地具有基 $\mu$：对于，如果 $m = f \cdot \mu$，则对于每个 $z' \in F'$，$z' \circ m = \langle z', f \rangle \cdot \mu$。 但是，存在基$\mu$标量的向量测度，但没有基$\mu$（Exer.17），另一方面，对于任何正测度$\nu$，存在非基$\nu$标量的向量测度； 注然而，根据 Lebesgue-Nikodym 定理，在 *范数* 空间中，每个 * 可大化的 * 测量 $m$ 和值都是基 $|m|$ 的标量。
 
@@ -363,11 +363,11 @@ $$
 
 *令 $F$ 为可分离范数空间，$m$ 为 $T$ 的测度，其中值位于强对偶 $F'$ 中，可对 $F'$ 的范数进行可大化。那么 $m$ 是基 $|m|$ 的测度，如果 $m = f \cdot |m|$ 那么 $|f(t)| = 1$ 几乎在所有地方都适用于 $|m|$。*
 
-到假设，对于每一个$z \in F$使得$|z| \leq 1$，对于每一个函数$g \in \mathscr{K}(T)$都有$|\langle z, m(g) \rangle| \leq |m|(|g|)$，因而$|m(g)| \leq |m|(|g|)$（TVS，IV, §2, No. 4，公式（1））。由于 $F'$ 中的每个球都是等连续的，Cor. 3适用并表明$m$有基$|m|$；此外，如果$m = f \cdot |m|$，则$f$对于$\sigma(F', F)$（§1, No. 5，命题13）和$|m| = |f| \cdot |m|$（No. 4，命题8）是$|m|$可测的，这证明了推论（V, §5, No. 3，Cor.2）命题 3）。
+到假设，对于每个$z \in F$使得$|z| \leq 1$，对于每个函数$g \in \mathscr{K}(T)$，都有$|\langle z, m(g) \rangle| \leq |m|(|g|)$，因而$|m(g)| \leq |m|(|g|)$（TVS，IV, §2, No. 4，公式（1））。由于 $F'$ 中的每个球都是等连续的，Cor. 3适用并表明$m$有基$|m|$；此外，如果$m = f \cdot |m|$，则$f$对于$\sigma(F', F)$（§1, No. 5，命题13）和$|m| = |f| \cdot |m|$（No. 4，命题8）是$|m|$可测的，这证明了推论（V, §5, No. 3，Cor.2）命题 3）。
 
 如果将此推论应用于$F$（如果是有限维）的情况，则可以将第9条命题的第一个部分恢复为特殊情况。
 
-### 6. 空间 $L^1_F$ 的对偶（F 是可分离的 Banach 空间）
+### 6. 空间 $L^1_F$ 的双重（F 是可分离的 Banach 空间）
 
 #### 命题 10 {#int-vi-s2-prop-10 .statement tag=09B0}
 
@@ -393,13 +393,13 @@ $$
 |u(\tilde{h}z)| \leq \|u\| \cdot N_1(hz) \leq \|u\| \cdot |z| \cdot N_1(h) .
 $$
 
-由科. 1 Th。 No. 5 1，存在 T 的映射 $g$ 到 $F'$、属于到 $\mathscr{L}_{F'_s}^\infty$，这样对于所有 $t \in T$ 都有 $|g(t)| \leq \|u\|$，并且对于每个函数 $h \in \mathscr{L}^1$ 都有 $u(\tilde{h}z) = \int \langle hz, g \rangle \, d\mu$ 类$\tilde{h}$在$L^1$和每$z \in F$。在其他字、线性形式$u$和$\theta(\dot{g})$重合中，由形式$\tilde{h}z$($\tilde{h} \in L^1, z \in F$)的元素生成$L^1_F$子空间。由于这个子空间在$L^1_F$中是稠密的（IV, §3, No. 5，命题10），因此可以得出$u = \theta(\dot{g})$，这已经证明了$\theta$是满射的。此外，由（3），$\| \theta(\dot{g}) \| \leq N_\infty(g) \leq \| u \| = \| \theta(\dot{g}) \|$，从而$\| \theta(\dot{g}) \| = N_\infty(g)$，还有这个结论证明。
+由科. 1 Th。 No. 5 1，存在 T 的映射 $g$ 到 $F'$、属于到 $\mathscr{L}_{F'_s}^\infty$，这样对于所有 $t \in T$ 都有 $|g(t)| \leq \|u\|$，对于每个函数 $h \in \mathscr{L}^1$ 都有 $u(\tilde{h}z) = \int \langle hz, g \rangle \, d\mu$ $L^1$ 和每 $z \in F$ 类 $\tilde{h}$。在其他字、线性形式$u$和$\theta(\dot{g})$重合中，由形式$\tilde{h}z$($\tilde{h} \in L^1, z \in F$)的元素生成$L^1_F$的子空间。由于子空间在$L^1_F$（第IV, §3, No. 5，命题10）中是稠密的，因此可以得出$u = \theta(\dot{g})$，这已经证明了$\theta$是满射的。此外，由（3），$\| \theta(\dot{g}) \| \leq N_\infty(g) \leq \| u \| = \| \theta(\dot{g}) \|$，从而$\| \theta(\dot{g}) \| = N_\infty(g)$，还有这个结论证明。
 
 ### 7. 向量值函数相对于向量测量的积分
 
 #### 命题 11 {#int-vi-s2-prop-11 .statement tag=09B1}
 
-— *令* $F, G, H$ *为三个Banach 空间*、$\Phi$ *将* $F \times G$ *连续双线性映射到* $H$。 *让*$m$*成为*$T$上的可主化向量测度，*其中值在*$G$中。 *则存在一个且仅有一个连续的线性映射* $I_{\Phi,m}$ *of* $\overline{\mathscr{L}}^1_F(|m|)$ *进入* $H$ *这样，对于每个* $z \in F$ *和每个数字函数* $h$ *可积为* $|m|$，*一个有* $I_{\Phi,m}(hz) = \Phi(z, \int h dm)$。 *此外，
+— *令* $F, G, H$ *为三个Banach 空间*、$\Phi$ *将* $F \times G$ *连续双线性映射到* $H$。 *让*$m$*成为*$T$上的可主化矢量测度，*其中值在*$G$中。 *则存在一个且仅有一个连续的线性映射* $I_{\Phi,m}$ *of* $\overline{\mathscr{L}}^1_F(|m|)$ *进入* $H$ *这样，对于每个* $z \in F$ *和每个数字函数* $h$ *可积为* $|m|$，*一个有* $I_{\Phi,m}(hz) = \Phi(z, \int h dm)$。 *此外，
 
 $$
 |I_{\Phi,m}(f)| \leq \| \Phi \| \int |f| d|m|
@@ -441,7 +441,7 @@ $$
 
 对于每个函数$f \in \mathscr{L}_F^1(\mu)$，因为当$f$是$|\mu|$可积集合上的一步函数时，两个成员在空间和重合上都是连续的。
 
-### 8. 复杂措施
+### 8. 复杂的措施
 
 #### 定义 6 {#int-vi-s2-def-6 .statement tag=09B4}
 
@@ -451,7 +451,7 @@ $$
 
 如果$m$是$T$上的复测度，则其限制到$\mathscr{K}(T)$是$T$上的矢量测度，其中值在$\mathbf{C}$上（视为向量空间超过$\mathbf{R}$）；
 
-m由此限制确定，因为如果$f = f_1 + i f_2 \in \mathscr{H}_\mathbf{C}(T)$，则$f$的实部部分$f_1$和虚部部分$f_2$位于$\mathscr{H}(T)$和$m(f) = m(f_1) + i m(f_2)$中。相反，对于 T 上的每个向量测度 $m_0$ 以及 $\mathbf{C}$ 中的值，公式 $m(f) = m_0(f_1) + i m_0(f_2)$ 定义一个复测度 $m$，T 上唯一一个限制到 $\mathscr{H}(T)$ 为 $m_0$。因此，今后我们将采用认同一个复杂的衡量标准，其限制到$\mathscr{H}(T)$；这样的测度$m$是形式$m = \mu_1 + i \mu_2$，其中$\mu_1$和$\mu_2$是T上的两个实测度，分别称为$m$的实数部分和虚数部分。 $m$的支持度是$\mu_1$和$\mu_2$的支持度的并。我们知道 $m$ 是可大化的（No. 3，Cor. of Prop. 4）；我们将把$m$的绝对值称为$|m|$相应的到$\mathbf{C}$上的绝对值$|x_1 + i x_2| = \sqrt{x_1^2 + x_2^2}$。其中一个有 $|m| = (\mu_1^2 + \mu_2^2)^{1/2}$（No. 4、注，遵循第 9 条）、$^3$ 和 $|\mu_1| \leq |m|$、$|\mu_2| \leq |m|$、$|m| \leq |\mu_1| + |\mu_2|$；此外，$m$是一种具有基$|m|$的度量，并且可以写成$m = h \cdot |m|$，其中$h \in \mathscr{L}_\mathbf{C}^\infty(|m|)$和$|h(t)| = 1$在本地几乎无处不在$|m|$（No. 4，第9条）。$^4$的支持$m$ 和 $|m|$ 相同。
+m 由此限制确定，因为如果 $f = f_1 + i f_2 \in \mathscr{H}_\mathbf{C}(T)$，则 $f$ 的实数部分 $f_1$ 和虚数部分 $f_2$ 位于 $\mathscr{H}(T)$ 和 $m(f) = m(f_1) + i m(f_2)$ 中。相反，对于 T 上的每个向量测度 $m_0$ 以及 $\mathbf{C}$ 中的值、公式 $m(f) = m_0(f_1) + i m_0(f_2)$ 定义一个复测度 $m$，T 上唯一一个限制到 $\mathscr{H}(T)$ 为 $m_0$。因此，今后我们将使用认同一个复杂的衡量标准，其限制到$\mathscr{H}(T)$；这样的测度$m$是形式$m = \mu_1 + i \mu_2$，其中$\mu_1$和$\mu_2$是T上的两个实测度，分别称为$m$的实数部分和虚数部分。 $m$的支持度是$\mu_1$和$\mu_2$的支持度的并。我们知道 $m$ 是可大化的（No. 3，Cor. of Prop. 4）；我们将把$m$的绝对值值称为$|m|$相应的到$\mathbf{C}$上的绝对值值$|x_1 + i x_2| = \sqrt{x_1^2 + x_2^2}$。其中一个有 $|m| = (\mu_1^2 + \mu_2^2)^{1/2}$（No. 4、注，遵循第 9 条）、$^3$ 和 $|\mu_1| \leq |m|$、$|\mu_2| \leq |m|$、$|m| \leq |\mu_1| + |\mu_2|$；此外，$m$是基$|m|$的度量，并且可以写成$m = h \cdot |m|$，其中$h \in \mathscr{L}_\mathbf{C}^\infty(|m|)$和$|h(t)| = 1$在本地几乎无处不在$|m|$（No. 4，第9条）。$^4$的支持$m$ 和 $|m|$ 相同。
 
 对于 T 的每个映射 $f$ 到复数 Banach 空间 F，基本上可相对于 $|m|$ 可积，可以定义 (No. 7) $f$ 相对于$m$（相应的到 R 双线性映射）的积分将$F \times \mathbf{C}$的$(x, \lambda) \mapsto \lambda x$代入F)，记为$\int f \, dm$；它立即从第11号提案的唯一性性质得出（与前面的记号）$\int f \, dm = \int f \, d\mu_1 + i \int f \, d\mu_2 = \int f h \, d|m|$。因此，我们有 $m(f) = \int f \, dm$ 对应 $f \in \mathscr{H}_\mathbf{C}(T)$。我们说$f$相对于$m$本质上是可积的，如果$|m|$也是如此；$^5$映射是$m$可积，$m$可测，局部$m$可积， $m$-可忽略或局部$m$-可忽略的定义类似。我们写
 $$
@@ -510,13 +510,13 @@ $$
 
 ### 9. 有界复杂测度⁶
 
-对于$T$上的每个复杂度量$m$，一个集合
+对于 $T$ 上的每个复杂度量 $m$，一个集合
 
 $$
 \|m\| = \sup_{\|f\| \leq 1,\, f \in \mathscr{H}_C(T)} |m(f)|.
 $$
 
-有人说，如果$\|m\| < +\infty$，则$m$是*有界的*；同样的说法，$m$在$\mathscr{H}_C(T)$上连续且具有一致收敛的拓扑，因此可以扩展到连续复数函数趋向的Banach空间$\mathscr{H}_C(T)$上的连续线性形式（范数$\|m\|$）无穷远处为 0。
+有人说，如果$\|m\| < +\infty$，则$m$是*有界的*；同样的说法，$m$在$\mathscr{H}_C(T)$上是连续的，并且具有一致收敛的拓扑，因此可以扩展到连续复数函数趋向的Banach空间$\mathscr{H}_C(T)$上的连续线性形式（范数$\|m\|$）无穷远处为 0。
 
 #### 引理 5 {#int-vi-s2-lem-5 .statement tag=09B6}
 
@@ -524,7 +524,7 @@ $$
 
 ⁶参见。章。 III, §1, No. 8。
 
-如果$m = g \cdot |m|$，则$\int |f| d|m| = \int |f g| d|m|$和$\int f h \, dm = \int f g h \, d|m|$。当$f(t)g(t) = 0$时集合$\zeta(t) = 0$，当$f(t)g(t) \neq 0$时$\zeta(t) = \frac{f(t)g(t)}{|f(t)g(t)|}$； $\zeta$ 是 $|m|$ 可测的，因此对于每个 $\varepsilon > 0$ 都存在 T 的紧子集 K，使得 $\int_{T-K} |f| \, d|m| \leq \varepsilon$、$\zeta$ 到 K 的限制是连续的，$|\zeta(t)| = 1$ 在 K 上。因此，根据 Urysohn 的定理，存在在 T 上定义的连续函数 $\zeta_1$，具有复数值，使得 K 上有 $\zeta_1 = \zeta$，并且对于每个 $t \in T$ 都有 $|\zeta_1(t)| \leq 2$ 和 $\zeta_1(t) \neq 0$； 设定$h(t) = \zeta_1(t)/|\zeta_1(t)|$，我们看到$h$在T上连续，重合与$\zeta$在K上连续，并且对于所有$t \in T$来说$|h(t)| = 1$。最后，让$u$是T到$[0,1]$的连续映射，在K上等于1并且有紧支撑； 设定$h_1 = h^{-1}u$，我们有
+如果$m = g \cdot |m|$，则$\int |f| d|m| = \int |f g| d|m|$和$\int f h \, dm = \int f g h \, d|m|$。当$f(t)g(t) = 0$时集合$\zeta(t) = 0$，当$f(t)g(t) \neq 0$时$\zeta(t) = \frac{f(t)g(t)}{|f(t)g(t)|}$； $\zeta$ 是 $|m|$ 可测的，因此对于每个$\varepsilon > 0$，都存在 T 的紧子集 K，使得 $\int_{T-K} |f| \, d|m| \leq \varepsilon$、$\zeta$ 到 K 的限制是连续的，$|\zeta(t)| = 1$ 在 K 上。因此，根据 Urysohn 的定理，存在在 T 上定义的连续函数 $\zeta_1$，具有复数值，使得 K 上有 $\zeta_1 = \zeta$，并且对于每个 $t \in T$ 都有 $|\zeta_1(t)| \leq 2$ 和 $\zeta_1(t) \neq 0$； 设定$h(t) = \zeta_1(t)/|\zeta_1(t)|$，我们看到$h$在T上连续，重合与$\zeta$在K上连续，并且对于所有$t \in T$来说$|h(t)| = 1$。最后，让$u$是T到$[0,1]$的连续映射，在K上等于1并且有紧支撑； 设定$h_1 = h^{-1}u$，我们有
 $$
 \left| \int f h_1 \, dm - \int |f| \, d|m| \right| \leq 2 \int_{T-K} |f| \, d|m| \leq 2\varepsilon ,
 $$
@@ -534,7 +534,7 @@ $$
 
 — *令 m 为复数测度，且 $\mu = |m|$。为了使 m 有界，$\mu$ 有界是必要且充分的，在这种情况下，$\|m\| = \|\mu\|$。*
 
-我们有 $m = g \cdot \mu$，其中 $g$ 是 $\mu$ 可测量的，而 $|g(t)| = 1$ 对于所有 $t \in T$ 都是可测量的。如果 $\mu$ 有界，那么对于每个函数 $f \in \mathscr{K}_\mathbf{C}(T)$，
+我们有 $m = g \cdot \mu$，其中 $g$ 是 $\mu$ 可测量的，而 $|g(t)| = 1$ 对于所有 $t \in T$ 都是可测量的。如果 $\mu$ 有界，则对于每个函数 $f \in \mathscr{K}_\mathbf{C}(T)$，
 $$
 |m(f)| = \left| \int f g \, d\mu \right| \leq N_\infty(fg)\|\mu\| = \|f\| \cdot \|\mu\|,
 $$
@@ -557,7 +557,7 @@ $$
 \left| \int f \, dm \right| \leq \int |f| \, d\mu \leq N_\infty(f)\|m\|.
 $$
 
-### 10. 复杂度量的像；诱导复杂测量； 乘积复杂措施\脚注{参见。章。 V, §6, No. 4；章。 IV, §5, No. 7 和章。 V, §7；章。 III, §4 和 Ch. V, §8，第 2–5 号。}
+### 10. 复杂措施的像；诱导复杂测量； 乘积复杂措施\脚注{参见。章。 V, §6, No. 4；章。 IV, §5, No. 7 和章。 V, §7；章。 III, §4 和 Ch. V, §8，第 2–5 号。}
 
 令 $m$ 为 $T$ 上的复测度，并令 $\pi$ 为 $T$ 的映射成为局部紧凑的空间 $X$。如果$\pi$是$|m|$-本征，我们可以说$\pi$是$m$-本征（第V, §6, No. 1章，定义1）；那么直接的对于每个函数$f \in \mathscr{H}_C(X)$，函数$f \circ \pi$本质上是$m$可积，并且
 
@@ -569,7 +569,7 @@ $$
 
 令 $Y$ 为 $T$ 的局部紧凑子空间。对于$T$上的每个函数$f \in \mathscr{H}_C(Y)$，函数$f'$，如果$t \in Y$则由$f'(t) = f(t)$定义，如果$t \notin Y$则由$f'(t) = 0$定义，是$m$可积的（第1章） IV, §5, No. 7); 直接的映射 $f \mapsto \int f'\, dm$ 是 $Y$ 上的复杂测度，称为 $m$ 在 $Y$ 上“诱导”的测度并表示为 $m_Y$。如果$m = g \cdot |m|$，很明显$m_Y = g_Y \cdot |m|_Y$，其中$g_Y$是函数$g$的限制到$Y$，它对于$|m|_Y$（第V, §7, No. 1）是局部可积的；此外，由于 $|g_Y| = 1$ 局部几乎无处不在 $|m|_Y$（第 V, §7, No. 1 章，第 1 号提案的 Cor.1），我们有 $|m_Y| = |m|_Y$。章。 IV, §5, No. 7、引理 3.}
 
-令 $T$ 和 $T'$ 为两个局部紧凑的空间，$m$（分别为 $m'$）为 $T$（分别为 $T'$）的复测度。 写出$m = g \cdot |m|$和$m' = g' \cdot |m'|$。 对于正测度 $|m| \otimes |m'|$，函数 $g \otimes g'$ 可在 $T \times T'$ 上局部积分（第 1 章） V, §8, No. 5, Prop. 10), and one verifies immediately that if $g$ (resp. $g'$) is replaced by a function $g_1$ (resp. $g'_1$) equal to $g$ (resp. $g'$) locally almost everywhere for $|m|$ (resp. $|m'|$), then $g_1 \otimes g'_1$ is equal to $g \otimes g'$ locally almost everywhere for $|m| \otimes |m'|$. 因此，$T \times T'$上的复测度$(g \otimes g') \cdot (|m| \otimes |m'|)$仅取决于$m$和$m'$；它表示为 $m \otimes m'$，并称为 $m$ 和 $m'$ 的 *乘积* 度量。 由于 $|g \otimes g'| = 1$ 局部几乎无处不在 $|m| \otimes |m'|$（第 1 章） V, §8, No. 2，命题4），我们有$|m \otimes m'| = |m| \otimes |m'|$。\footnote{Cf. 章。 III, §4, No. 2，命题 3。}
+令 $T$ 和 $T'$ 为两个局部紧凑的空间，$m$（分别为 $m'$）为 $T$（分别为 $T'$）的复测度。 写出$m = g \cdot |m|$和$m' = g' \cdot |m'|$。 对于正测度 $|m| \otimes |m'|$，函数 $g \otimes g'$ 可在 $T \times T'$ 上局部积分（第 1 章） V, §8, No. 5, Prop. 10), and one verifies immediately that if $g$ (resp. $g'$) is replaced by a function $g_1$ (resp. $g'_1$) equal to $g$ (resp. $g'$) locally almost everywhere for $|m|$ (resp. $|m'|$), then $g_1 \otimes g'_1$ is equal to $g \otimes g'$ locally almost everywhere for $|m| \otimes |m'|$. 因此，$T \times T'$上的复测度$(g \otimes g') \cdot (|m| \otimes |m'|)$仅取决于$m$和$m'$；它表示为 $m \otimes m'$，并称为 $m$ 和 $m'$ 的 *乘积* 度量。 由于 $|g \otimes g'| = 1$ 局部几乎无处不在 $|m| \otimes |m'|$（第 1 章） V, §8, No. 2，命题4），我们有$|m \otimes m'| = |m| \otimes |m'|$。\footnote{Cf.章。 III, §4, No. 2，命题 3。}
 
 读者将很容易验证第 1 章中所有命题的证明。 V相对于正测度的像、由正测度引起的测度以及正测度的乘积，除了上积分或基本上积分介入的情况外，当正测度被任意复杂测度替代时仍然有效。
 
@@ -577,4 +577,4 @@ $$
 
 ### 习题{#int-vi-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

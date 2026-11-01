@@ -17,10 +17,10 @@ translation_method: google
 source_content_sha256: bcbfac4b733714ae012c7ab76187653a8906f050773300d6880a36896e92accb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 205d0bc00c00872b999fc116186ae78e332d436ab11876d5bffb7a856ec4c466
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 22. 局部紧凑的集成空间。

@@ -29,23 +29,23 @@ subsections:
       pdf_page: 33
 statements: 21
 exercises: 14
-content_sha256: 8f7fe886e2178776af035213b28a81e2ed96d633fb8df35c21c63fceec141d7b
+content_sha256: ec9b10e1653f5be50e4e95219384b873ce418d192ca914da3f2d29421c258ab4
 translated_from: content/en/fvr/I/02_s2_the_mean_value_theorem.md
 translation_method: google
 source_content_sha256: cd3afa585ab839f9102101bc5e9f950b6b2590f43edbec61f3394622431f01ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b4e87c76f59896a9b5fa8a12583f1745f14a18c1ca9780bd681fd63bbaff670c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。平均值值定理
 
 § 1 中证明的假设和结论在特征标中是局部的：它们只涉及在固定点的任意小邻域上考虑的函数的性质。相反，我们在截面中处理的问题涉及函数在所有区间上的属性。
 
-### 1.罗尔定理
+### 1. 罗尔的定理
 
 #### 命题 1（“罗尔的定理”）{#fvr-i-s2-prop-1 .statement tag=083Z}
 
@@ -175,7 +175,7 @@ $$
 
 #### 注 {#fvr-i-s2-n2-rem-5 .statement tag=0848}
 
-不等式 (5) 证明连续函数不能在区间 (cf.) 的所有点处具有等于 $+\infty$ 的右导数 I，p. 38，锻炼。 6).
+The inequalities (5) prove that a continuous function cannot have right derivative equal to $+\infty$ at all points of an interval (cf. I, p. 38, exerc. 6).
 
 ### 3. 值定理向量函数的平均值
 
@@ -325,11 +325,11 @@ g(t) = f(x + t(y - x)) - f'(x_0)(y - x)t
 $$
 在区间 $[0, 1]$ 上。
 
-### 4.导数的连续性
+### 4. 导数的连续性
 
 #### 命题 6 {#fvr-i-s2-prop-6 .statement tag=084I}
 
-*设$I$为$\mathbf{R}$中的开区间，$x_0$为$I$的端点之一，$f$向量函数在$I$上定义且连续，值在完全规范的空间中$E$超过$\mathbf{R}$；假设$f$在点处有$I$的可数子集的$I$补集$B$的右导数。那么，对于$f'_d(x)$有极限，因为$x$趋向于$x_0$，同时保持在$B$和$\neq x_0$，$\frac{f(y) - f(x)}{y - x}$有极限$c$是充分必要的，因为$(x, y)$趋向于$(x_0, x_0)$ 受$x \in I, y \in I, x \neq x_0, y \neq x_0$ 和$x \neq y$ 约束。在这些条件$f$扩展下，通过连续到点$x_0$，右导数$f'_d(x)$趋于$c$，因为$x$趋于$x_0$（同时保留在B中）和函数 $f$扩展（在$I \cup \{x_0\}$上定义）在$x_0$处的导数等于$c$。
+*设$I$为$\mathbf{R}$中的开区间，$x_0$为$I$的端点之一，$f$向量函数在$I$上定义且连续，值在完全规范的空间中$E$超过$\mathbf{R}$；假设$f$在点处有$I$的可数子集的$I$补集$B$的右导数。那么对于$f'_d(x)$有极限，因为$x$趋向于$x_0$，同时保持在$B$和$\neq x_0$，$\frac{f(y) - f(x)}{y - x}$有极限$c$是充分必要的，因为$(x, y)$趋向于$(x_0, x_0)$ 受$x \in I, y \in I, x \neq x_0, y \neq x_0$ 和$x \neq y$ 约束。在这些条件$f$扩展下，通过连续到点$x_0$，右导数$f'_d(x)$趋于$c$，因为$x$趋于$x_0$（同时保留在B中）和函数 $f$扩展（在$I \cup \{x_0\}$上定义）在$x_0$处的导数等于$c$。
 
 假设例 $x_0$ 是I 的右侧端点。让我们首先证明，如果$f'_d(x)$趋向于$c$，就像$x$趋于$x_0$一样，同时保留在B和$\neq x_0$中，那么$\frac{f(y) - f(x)}{y - x}$趋向于$c$；这紧随 th 而来。 2 应用于函数 $f(z) - cz$，得出
 
@@ -377,8 +377,8 @@ $$
 (f(y) - f(x))/(y - x)
 $$
 
-也趋于$+\infty$，反之亦然；此外，如果 $f$ 在点 $x_0$ 处有一个有限的极限（不是当前假设的推论），则函数 $f$ 通过连续性延伸至 $x_0$，其导数等于 $+\infty$这个点。
+也趋于$+\infty$，反之亦然；此外，如果$f$在点$x_0$处有一个有限的极限（不是当前假设的推论），则函数$f$通过连续性扩展到$x_0$，在以下位置有等于$+\infty$的导数这个点。
 
 ### 习题 {#fvr-i-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

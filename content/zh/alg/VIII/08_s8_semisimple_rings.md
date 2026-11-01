@@ -30,55 +30,55 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: f444e9f38ebdac8fd34670dcb5062e0c064d6216c8475d4958512822aed5847a
+content_sha256: e5bbb5f507cae99230ffb4c3e839879455a7b2ab88d0b16d7b1cc2b071f78fa2
 translated_from: content/en/alg/VIII/08_s8_semisimple_rings.md
 translation_method: google
 source_content_sha256: c3520cd3a5b6efacdd841870c3c2e342b0341edbd32074687bd212bc32731ee7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 101fe0e89db0f8232872ad8bc05f5ec856ceeb165ac270ab3fdeaaf49d0b580c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 半单环
 
-### 1.半单环
+### 1. Semisimple Rings
 
 #### 定理 1（韦德伯恩）{#alg-viii-s8-thm-1 .statement tag=00S4}
 
-设 A 为环。以下属性是等效的：
+设A为环。以下属性是等效的：
 
-(i) A-模 $A_s$ 为半单。
+(i) A-模 $A_s$ 是半单。
 
 (ii) 对于 A 的每个左理想 $\mathfrak{a}$，都存在 A 的左理想 $\mathfrak{b}$，使得 $A_s$ 是 $\mathfrak{a}$ 和 $\mathfrak{b}$ 的直和。
 
 (iii) 环 A 为左阿廷的，$(A,A)$-双模$_sA_d$ 为半单。
 
-(iv) 环 A 同构于简单环的有限族中的乘积。
+(iv) 环 A 同构于简单环有限族的乘积。
 
 (v) 存在整数$s\geqslant$0、域$D_1, . . . ,D_s$和整数$r_1\geqslant 1, . . .,r_s\geqslant 1$，使得环A与矩阵环$\mathbf{M}_{r_i}(D_i)$的乘积同构。
 
-(vi) 环 A 为左阿廷的，且存在忠实且半单左A-模。
+(vi) 环 A 是左阿廷的，并且存在忠实的半单左A-模。
 
-(i)和(ii)的等价由VIII、p. 56的推论2得出，(iv)和(v)的等价由VIII、p. 120的定理1得出。
+(i)和(ii)的等价由VIII、p. 56的推论2得出，(iv)和(v)的定理由VIII、p. 120的定理1得出。
 
 A-模 $A_s$ 是有限生成的。如果是半单，那么就是左阿廷的（VIII、p. 71、命题 10）。由于 A-模 $A_s$ 是忠实的，这证明 (i) 蕴涵 (vi)。相反，假设性质 (vi) 成立；让M成为忠实的半单A-模。存在整数 $m\geqslant 1$，使得$A_s$同构于$M^m$的子模 (VIII, p. 50, 命题 5, a))；因为M是半单，所以$A_s$也是如此。因此我们证明了(i)和(vi)的等价。
 
-让我们证明 (i) 蕴涵 (iii)。假设环 A 有性质 (i)；我们已经观察到 A 是左阿廷的。现在，左A-模$A_s$的自同态是A的右乘法除以元素。$(A$，A)-双模$_sA_d$是半单然后从命题6得出VIII，p. 86。
+让我们证明 (i) 蕴涵 (iii)。假设环 A 有性质 (i)；我们已经观察到 A 是左阿廷的。现在，左A-模$A_s$的自同态是A的右乘法乘元素。$(A$，A)-双模$_sA_d$是半单然后从VIII的命题6得出， p. 86。
 
-让我们证明 (iii) 蕴涵 (iv)。假设$(A$，A)-双模$_sA_d$是半单。它是有限生成的，因此存在一个由简单 $(A$、A)-子双模组成的有限族 $(\mathfrak{a}_i)_{i\in I}$，其中直和 $_sA_d$。在其他字中，$\mathfrak{a}_i$是A的非零的双面理想，A的加法群是$\mathfrak{a}_i$的直和，并且对于每个$i\in I$，$\mathfrak{a}_i$中包含的A的每个双面理想都等于0或$\mathfrak{a}_i$。每 $i\in I$ 集合 $\mathfrak{b}_i=\sum_{j\not=i}\mathfrak{a}_j$；这是 A 的双面理想。 映射 $a\mapsto (a+\mathfrak{b}_i)_{i\in I}$ 是从环 A 到乘积的环 $A/\mathfrak{b}_i$ 的同构。 $(A$，A)-双模$\mathfrak{a}_i$和$A/\mathfrak{b}_i$是同构的，因此$A/\mathfrak{b}_i$的每个双面理想都等于0或$A/\mathfrak{b}_i$。如果环 A 是左阿廷的，那么环 $A/\mathfrak{b}_i$ 同样成立，因此很简单（VIII、p. 120、定义 1）。
+让我们证明 (iii) 蕴涵 (iv)。 假设$(A$，A)-双模$_sA_d$是半单。 它是有限生成的，因此存在一个由简单 $(A$、A)-子双模与直和 $_sA_d$ 组成的有限族 $(\mathfrak{a}_i)_{i\in I}$。 在其他字中，$\mathfrak{a}_i$是A的非零的双面理想，A的加法群是$\mathfrak{a}_i$的直和，并且对于每个$i\in I$，$\mathfrak{a}_i$中包含的A的每个双面理想都等于0或$\mathfrak{a}_i$。 每 $i\in I$ 集合 $\mathfrak{b}_i=\sum_{j\not=i}\mathfrak{a}_j$；这是 A 的双面理想。 映射$a\mapsto (a+\mathfrak{b}_i)_{i\in I}$是环$A/\mathfrak{b}_i$中从环A到乘积的同构。 $(A$，A)-双模$\mathfrak{a}_i$和$A/\mathfrak{b}_i$同构的，因此$A/\mathfrak{b}_i$的每个双面理想都等于0或$A/\mathfrak{b}_i$。 如果环 A 是左阿廷的，那么环 $A/\mathfrak{b}_i$ 也是如此，因此很简单（VIII、p. 120、定义 1）。
 
-最后，让我们证明（iv）蕴涵（i）。假设 A 是简单环的有限族 $(A_i)_{i\in I}$ 中的乘积。用 $\pi_i$ 投影和指标 $i$ 从 A 到 $A_i$ 表示，并用 $M_i$ A-模表示，底层为加法群 $A_i$ 和律作用$(a, x)\mapsto \pi_i(a)x$。由于环$A_i$很简单，$A_i$模$(A_i)_s$是半单，所以A-模$M_i$是半单。由于A-模$A_s$只不过是乘积$\prod_{i\in I}M_i$，所以它是半单。
+最后，让我们证明（iv）蕴涵（i）。假设 A 是简单环的有限族 $(A_i)_{i\in I}$ 中的乘积。用 $\pi_i$ 投影和指标 $i$ 从 A 到 $A_i$ 表示，并用 $M_i$ A-模表示，底层为加法群 $A_i$ 和律作用 $(a, x)\mapsto \pi_i(a)x$。由于环$A_i$很简单，$A_i$模$(A_i)_s$是半单，所以A-模$M_i$是半单。由于A-模$A_s$只不过是乘积$\prod_{i\in I}M_i$，所以它是半单。
 
 #### 定义 1 {#alg-viii-s8-def-1 .statement tag=0093}
 
-如果环 A 具有定理 1 的等价属性 (i) 到 (vi)，则我们说环 A 是半单。 如果环底层 A 是，则代数 A 超过交换环 $k$ 是半单代数半单。
+如果环 A 具有定理 1 的等价属性 (i) 到 (vi)，则我们说环 A 是半单。如果环底层 A 是半单，则代数 A 超过交换环 $k$ 是半单代数。
 
 #### 命题 1 {#alg-viii-s8-prop-1 .statement tag=0094}
 
-设 A 为半单环。存在 A 的最小左理想的有限族 $(\mathfrak{m}_i)_{i\in I}$ 使得 $A_s=\oplus_{i\in I}\mathfrak{m}_i$。如果$(\mathfrak{m}_i)_{i\in I}$是这样一个族，那么每个单A-模都同构于$\mathfrak{m}_i$之一。 单A-模类集合是有限的。
+设A为半单环。存在 A 的最小左理想的有限族 $(\mathfrak{m}_i)_{i\in I}$ 使得 $A_s=\oplus_{i\in I}\mathfrak{m}_i$。如果$(\mathfrak{m}_i)_{i\in I}$是这样一个族，那么每个单A-模都同构于$\mathfrak{m}_i$之一。 单A-模类集合是有限的。
 
 第一个断言源自A-模$A_s$是半单并且是有限生成的。每个单模都同构于 $A_s$ (VIII, p. 46, 命题 1) 的商。第二个断言由VIII、p. 56的推论3得出，第三个断言是第二个直接的推论。
 
@@ -126,7 +126,7 @@ d) 半单环有限族中的乘积是半单环。
 
 有限次数超过域的交换代数是阿廷的交换环。因而，命题 3 概括了V, §6, No. 7、p. 34 的命题 5。
 
-### 2.半单环上的模
+### 2. Modules over a Semisimple Ring
 
 #### 命题 4 {#alg-viii-s8-prop-4 .statement tag=009A}
 
@@ -200,7 +200,7 @@ c) 令 M 为有限生成的左A-模。 右A-模 $M^*$ 对偶 M 是有限生成�
 
 由 VIII、p. 138、A-模的命题 4 M 是有限生成且射影的；因而，根据II, §2, No. 7、p. 240的推论4，它是自反的。特别是，每个单A-模都是自反的。还可以得出结论，两个有限生成的左模同构当且仅当它们的对偶同构。
 
-令 S 为简单的左A-模。令$(T_i)_{i\in I}$是单右A-模的族，直和是S的对偶$S^*$。由于S是自反的，所以它与$(S^*)^*$同构的，因此与$\prod_{i\in I}T^*_i$同构的。 模 $T_i$ 中的每一个都是自反的；特别是，每 $i\in I$ 就有 $T^*_i\not= 0$。由于单模 S 与$\prod_{i\in I}T^*_i$ 同构的，集合 I 有一个元素，因此$S^*$ 很简单。
+令 S 为简单的左A-模。设$(T_i)_{i\in I}$是单右A-模的族，直和是S的对偶$S^*$。由于S是自反的，所以它与$(S^*)^*$同构的，因此与$\prod_{i\in I}T^*_i$同构的。 模 $T_i$ 中的每一个都是自反的；特别是，每 $i\in I$ 就有 $T^*_i\not= 0$。由于单模 S 与 $\prod_{i\in I}T^*_i$ 同构的，集合 I 有一个元素，因此 $S^*$ 是简单的。
 
 由于M是半单并且是有限生成的，所以它是简单子模$S_1, . . . ,S_r$的直和。那么$M^*$同构于$S^*_1, . . . ,S^*_r$族的直和，我们刚刚看到模$S^*_i$是简单的。 断言 c) 紧随其后。
 
@@ -208,7 +208,7 @@ c) 令 M 为有限生成的左A-模。 右A-模 $M^*$ 对偶 M 是有限生成�
 
 在这个小节中，我们考虑半单环A。
 
-我们用$\mathscr{S}$（VIII，p. 51）表示简单的左A-模的类集合；它是有限的（VIII，p. 136，命题 1）。对于每$\lambda \in \mathscr{S}$，我们选择单A-模$S_{\lambda}$类$\lambda$。我们用$\mathfrak{b}_{\lambda}$表示它的湮没子，用$D_{\lambda}$表示它的交换端$_A(S_{\lambda})$的相反的域。
+我们用$\mathscr{S}$（VIII，p. 51）表示简单的左A-模的类集合；它是有限的（VIII、p. 136、命题 1）。对于每 $\lambda \in \mathscr{S}$，我们有选择单A-模 $S_{\lambda}$ 类 $\lambda$。我们用$\mathfrak{b}_{\lambda}$表示它的湮没子，用$D_{\lambda}$表示它的交换端$_A(S_{\lambda})$的相反的域。
 
 #### 命题 8 {#alg-viii-s8-prop-8 .statement tag=009F}
 
@@ -218,13 +218,13 @@ b) 对于每个$\lambda \in \mathscr{S}$，环$A/\mathfrak{b}_{\lambda}$很简�
 
 环 $A/\mathfrak{b}_{\lambda}$ 与 $A_{S_{\lambda}}$ 同构的。通过VIII、p. 139中的引理 1，这个环就简单了。给定的从$A/\mathfrak{b}_{\lambda}$到End$_{D_{\lambda}}(S_{\lambda})$的映射可以用从$A_{S_{\lambda}}$到$A''_{S_{\lambda}}$的映射来识别。到VIII、p. 139中的命题5，是同构。
 
-A-模$A_s$是半单，忠实且平衡。 同态$\psi$可以从$A_s$的双交换体到$\prod_{\lambda\in\mathscr{S}}$结束$_{D_{\lambda}}(S_{\lambda})$与态射识别，即同构（VIII，p. 86，命题7， c))。
+A-模$A_s$是半单，忠实且平衡。 同态$\psi$可以与态射识别，从$A_s$的双交换到$\prod_{\lambda\in\mathscr{S}}$结束$_{D_{\lambda}}(S_{\lambda})$，即同构（VIII，p. 86，命题7， c））。
 
 简单的环$A/\mathfrak{b}_{\lambda}$称为型$\lambda$的A的单因子。
 
 #### 例 {#alg-viii-s8-n3-exa-1 .statement tag=009G}
 
-令 K 为代数闭交换域，并令 A 为 K 上有限次数的半单代数。令 $(V_i)_{i\in I}$ 为单A-模的族，使得每个单A-模同构于唯一的 $V_i$。那么 I 是有限集合 (VIII, p. 136, 命题 1), 向量空间 $V_i$ 是域 K 上的有限维，$V_i$ 的交换子等于$K\cdot 1_{V_i}$（VIII、p. 47、定理 1）和映射 $a\mapsto (a_{V_i})_{i\in I}$ 是从 A 到 $\prod_{i\in I}$ End$_K(V_i)$ (命题 8) 的代数同构。
+令 K 为代数闭交换域，并令 A 为 K 上有限次数的半单代数。令$(V_i)_{i\in I}$ 为单A-模的族，使得每个单A-模同构于唯一的$V_i$。那么 I 是有限集合 (VIII, p. 136, 命题 1), 向量空间 $V_i$ 是域 K 上的有限维，$V_i$ 的交换子等于$K\cdot 1_{V_i}$（VIII、p. 47、定理 1）和映射 $a\mapsto (a_{V_i})_{i\in I}$ 是从 A 到 $\prod_{i\in I}$ End$_K(V_i)$ (命题 8) 的代数同构。
 
 我们将 (VIII, p. 50) 最小双面理想定义为集合或非零的双面理想中的最小元素，按包含排序。在其他字中，A的最小双面理想$\mathfrak{a}$是$(A$，A)-$_sA_d$的子双模。同样，我们将A的最大双面理想定义视为A的真双面理想集合的极大元素。A的最大双面理想$\mathfrak{a}$只是$_sA_d$（VIII，的最大$(A$，A）子双模， p. 48、定义 2)。如果环 A 是简单的，那么理想 0 是 A 的最大双边理想，A 是最小双边理想。
 
@@ -294,21 +294,21 @@ b) 单右A-模类集合 $\mathscr{S}(A^o)$
 
 c) A 的最小双面理想的集合
 
-d) A 的最大两侧理想的集合
+d) A 的最大双面理想的集合
 
 e) 集合 $\mathscr{S}(Z)$ / 类简单 Z 模块
 
 f) Z 的最小理想的集合
 
-g) Z 的最大理想的集合。
+g) Z 的最大理想集合。
 
 因此，对于$\mathscr{S}$（A）的每个元素$\lambda$，存在单右A-模$S^*_{\lambda}$的对应类$\lambda^*$，$S_{\lambda}$的对偶，A的最小双面理想$\mathfrak{a}_{\lambda}$（ 型$\lambda$的$A_s$），A的最大两侧理想$\mathfrak{b}_{\lambda}$（单模$S_{\lambda}$的湮没子），简单Z模类$Z\cap \mathfrak{a}_{\lambda}$，Z的最小理想$Z\cap \mathfrak{a}_{\lambda}$，以及Z 的最大理想$Z\cap \mathfrak{b}_{\lambda}$。
 
 #### 命题 12 {#alg-viii-s8-prop-12 .statement tag=009N}
 
-设M在半单环A和$\mathscr{S}_M\subset \mathscr{S}$的支持上为模，则M的湮没子Ann(M)为双边理想$\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$，M的迹理想$\tau (M)$为双边理想$\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$。特别地，A是Ann(M)的直和和$\tau (M)$。
+设 M 为半单环 A 和$\mathscr{S}_M\subset \mathscr{S}$ M 的支持度模，则 M 的湮没子 Ann(M) 为双面理想$\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$，M 的迹理想$\tau (M)$ 为双面理想$\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$。特别地，A是Ann(M)的直和和$\tau (M)$。
 
-由定义 (VIII, p. 84)$,\mathscr{S}_M$ 由M 的简单子模类组成。由于模 M 为半单，因此M 的湮没子为湮没子交类 $\lambda$ 模的$\mathfrak{b}_{\lambda}$，对于$\lambda$ 穿过$\mathscr{S}_M$。现在，每 $\lambda \in \mathscr{S}$ (命题 9) 就有 $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$。由于A是$(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$族的直和，M的湮没子确实等于$\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$。
+由定义 (VIII, p. 84)$,\mathscr{S}_M$ 由M 的简单子模类组成。由于模 M 是半单，所以M 的湮没子是湮没子的交类 $\lambda$ 模 $\mathfrak{b}_{\lambda}$，对于$\lambda$ 穿过$\mathscr{S}_M$。现在，每 $\lambda \in \mathscr{S}$ (命题 9) 就有 $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$。由于A是$(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$族的直和，所以M的湮没子确实等于$\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$。
 
 通过定义（VIII，p. 80），理想迹$\tau (M)$是从M到$A_s$由A-线性映射的像生成的$A_s$的A-子模。因为M是半单，所以说$\tau (M)$是由$A_s$的简单子模与类属于到$\mathscr{S}_M$生成的。因此我们有 $\tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$。
 
@@ -324,7 +324,7 @@ g) Z 的最大理想的集合。
 
 事实上，M 忠实的说意味着它的湮没子减少到0，并且当且仅当它的迹等于A（VIII，p. 80，定理1）时，M才是生成的。
 
-### 4.幂等和半单环
+### 4. 幂等和半单环
 
 设 A 为环。回想一下，如果我们有 $e^2=e$，则 A 的元素 $e$ 被称为幂等（I, §1, No. 4，p. 7）。那么它也是 A 的逆环 $A^o$ 的幂等元素。
 
@@ -336,7 +336,7 @@ b) 令$e$和$f$在A中幂等。当且仅当我们有$ef=e$时，我们才有$Ae\
 
 c) 设 M 为 A-模。则 M 是射影且单生的当且仅当 A 中存在幂等$e$，使得 M 与 $Ae$ 同构的。
 
-A-模 $A_s$ 的自同态是 A 的乘法与元素的对数。A-模 $A_s$ 中的投影算子因此是映射 $x\mapsto xe$ 其中$e$在A中是幂等的。此外，$A_s$的子模是左理想，这样的子模承认补充当且仅当它是投影算子的像（II, §1, No. 9，p. 211， 命题14)。 断言a)如下。
+A-模 $A_s$ 的自同态是 A 的乘法与元素的右边。A-模 $A_s$ 中的投影算子因此是映射 $x\mapsto xe$ 其中$e$在A中是幂等的。此外，$A_s$的子模是左理想，这样子模承认补充当且仅当它是投影算子的像（II, §1, No. 9，p. 211， 命题14)。 断言a)如下。
 
 关系 $Ae\subset Af$ 相当于$e\in Af$。根据a)，它等于$e=ef$； 断言 b)如下。
 
@@ -426,4 +426,4 @@ c) 设 M 为 A-模和 $(M_{\lambda})_{\lambda\in\mathscr{S}}$ 其同型组分族
 
 ### 习题 {#alg-viii-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

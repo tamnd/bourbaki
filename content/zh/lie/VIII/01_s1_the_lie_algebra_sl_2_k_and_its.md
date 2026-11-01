@@ -33,19 +33,19 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: 697f57b3381df1929231cecc5d02b74076b29a7e15f07931d667083d7f0df855
+content_sha256: 25ca4228e9190435f83e15a3098eeec53b98d097f477b51c0f42302453bcc317
 translated_from: content/en/lie/VIII/01_s1_the_lie_algebra_sl_2_k_and_its.md
 translation_method: google
 source_content_sha256: d56ad334c8b961365f3d72d7c521802edd95553bc6c867158ffa18290345692f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7730eff5470fca5f9e58afb5e51b0372e5aaec572aa40387ee9f7593c4586e37
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 1。 李代数$\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$)及其表示
+## § 1。 李代数 $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) 及其表示
 
 ### 1. 典范基 $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$)
 
@@ -55,13 +55,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (i) $[H, X^n] = 2nX^n$ 对于任何整数 $n\geq 0$。
 
-(ii) 如果 $Z$ 是 A 的元素，使得 $[Z, X] =H$，则对于任意整数 $n >0$，
+(ii) 如果$Z$是A的元素使得$[Z, X] =H$，那么，对于任何整数$n >0$，
 
 $$
 [Z, X^n] =nX^{n-1}(H+n-1) =n(H-n+ 1)X^{n-1}
 $$
 
-从A到A的映射$T \rightarrow [H, T]$是推导，这意味着(i)。对于 (ii) 中的假设，
+从A到A的映射$T \rightarrow [H, T]$是推导，这意味着(i)。对于(ii)中的假设，
 
 $$
 [Z, X^n] =\sum_{i+j=n-1}X^iHX^j
@@ -93,7 +93,7 @@ $$
 [H, X_+] = 2X_+[H, X_-] =-2X_-[X_+, X_-] =-H \tag{1}
 $$
 
-由于$\mathfrak{s}\mathfrak{l}(2, k)$的恒等式表示是单射的，$H$是$\mathfrak{s}\mathfrak{l}(2, k)$的半单元素，$X_+, X_-$是$\mathfrak{s}\mathfrak{l}(2, k)$的幂零元（第I, §6, no. 3，第3章）。由章。 VII, §2, no. 1、例 $4,kH$ 是 $\mathfrak{s}\mathfrak{l}(2, k)$ 中的嘉当子代数。 映射$U \rightarrow  -^tU$是李代数$\mathfrak{s}\mathfrak{l}(2, k)$的对合自同构，称为$\mathfrak{s}\mathfrak{l}(2, k)$的规范对合；将变换$(X_+, X_-, H)$转换为$(X_-, X_+,-H)$。
+由于$\mathfrak{s}\mathfrak{l}(2, k)$的恒等式表示是单射的，$H$是$\mathfrak{s}\mathfrak{l}(2, k)$的半单，元素和$X_+, X_-$是$\mathfrak{s}\mathfrak{l}(2, k)$的幂零元（第I, §6, no. 3，第3章）。由章。 VII, §2, no. 1、例 $4,kH$ 是嘉当子代数 / $\mathfrak{s}\mathfrak{l}(2, k)$。 映射$U \rightarrow  -^tU$是李代数$\mathfrak{s}\mathfrak{l}(2, k)$的对合自同构，称为$\mathfrak{s}\mathfrak{l}(2, k)$的规范对合；将变换$(X_+, X_-, H)$转换为$(X_-, X_+,-H)$。
 
 #### 引理 2 {#lie-viii-s1-lem-2 .statement tag=00XT}
 
@@ -115,7 +115,7 @@ $$
 
 如果$n >0$。
 
-第一个和第三个关系源自引理1。其他的可以通过使用$\mathfrak{s}\mathfrak{l}(2, k)$的规范对合从它们中推出。
+第一个和第三个关系源自引理1。其他的可以通过使用$\mathfrak{s}\mathfrak{l}(2, k)$的规范对合从它们中推导出来。
 
 ### 2. $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) 的原语元素-模块
 
@@ -227,7 +227,7 @@ $$
 
 如果 E 很简单，则 E 由原语元素 (引理 4) 生成，并且满足应用命题 1 和 2。 一般情况如下，因为每个有限维 $\mathfrak{s}\mathfrak{l}(2, k$) 模都是半单。
 
-### 3.单模V($\boldsymbol{m}$)
+### 3. 单模V($\boldsymbol{m}$)
 
 设$(u, v)$为$k^2$的典范基。对于$\mathfrak{s}\mathfrak{l}(2, k)$的恒等式表示，
 
@@ -239,7 +239,7 @@ $$
 X_+v=uHv=-vX_-v= 0
 $$
 
-考虑 $k^2($代数的对称代数 $\mathbf{S}(k^2)$，第 1 章。 III, §6, no. 1，默认。 1）。 $\mathfrak{s}\mathfrak{l}(2, k)$ 扩展的元素与 $\mathbf{S}(k^2)$ 的推导唯一，给出 $\mathfrak{s}\mathfrak{l}(2, k$) 模的 $\mathbf{S}(k^2)$ 结构（第 1 章） I, §3, no. 2）。 Let $V(m)$ be the set of homogeneous elements of $\mathbf{S}(k^2)$ of degree $m$. 那么$V(m)$是维数$m+ 1$的$\mathbf{S}(k^2)$的$\mathfrak{s}\mathfrak{l}(2, k$)子模，$V(1) =k^2$的第$m$对称幂（第1章） III，附录）。 如果 $m, n$ 是整数使得 $0\leq n\leq m$，则将
+考虑 $k^2($代数的对称代数 $\mathbf{S}(k^2)$，第 1 章。 III, §6, no. 1，防御。 1）。 $\mathfrak{s}\mathfrak{l}(2, k)$ 扩展的元素与 $\mathbf{S}(k^2)$ 的推导唯一，给出 $\mathfrak{s}\mathfrak{l}(2, k$) 模块的 $\mathbf{S}(k^2)$ 结构（第 I, §3, no. 2 章）。 Let $V(m)$ be the set of homogeneous elements of $\mathbf{S}(k^2)$ of degree $m$. 那么$V(m)$是维数$m+ 1$的$\mathbf{S}(k^2)$的$\mathfrak{s}\mathfrak{l}(2, k$)子模，$V(1) =k^2$的第$m$对称幂（第III，附录）。 如果 $m, n$ 是整数使得 $0\leq n\leq m$，则将
 
 $$
 e^{(m)}_n=(m)u^{m-n}v^n\in V(m)
@@ -305,7 +305,7 @@ $$
 X_+(f(u^m)) =f(X_+u^m) = 0,H(f(u^m)) =f(Hu^m) =mf(u^m)
 $$
 
-所以$f(u^m)\in P_m\cup  \{0\}$。设$e\in P_m$，以及$e$生成的E的V子模。根据命题1，存在从模$V(m)$到模V的同构，需要$u^m$到$e$。然后$L(u^m) = P_m\cup  \{0\}$。
+所以$f(u^m)\in P_m\cup  \{0\}$。设$e\in P_m$，以及由$e$生成的E的V子模。根据命题1，存在从模$V(m)$到模V的同构，需要$u^m$到$e$。然后$L(u^m) = P_m\cup  \{0\}$。
 
 #### 推论{#lie-viii-s1-n3-cor-1 .statement tag=00Y7}
 
@@ -313,7 +313,7 @@ $$
 
 昏暗(P$_m\cup  \{0\}$.
 
-### 4. 特殊线性群(2$\boldsymbol{, k}$)中的线性表示
+### 4. 线性表示特殊线性群(2$\boldsymbol{, k}$)
 
 回想一下（代数，III, §8, no. 9），我们用阶 2 的方阵的 $\mathbf{S}\mathbf{L}(2, k)$ 群表示，$k$ 中的系数其行列式等于 1。如果 $x\in \mathfrak{s}\mathfrak{l}(2, k)$ 幂零的，则$x^2= 0 ($代数，第 1 章VII, §5，科。提案 5 中的 3) 和 $e^x= 1 +x\in \mathbf{S}\mathbf{L}(2, k)$。如果 E 是有限维向量空间并且 $\rho$ 是 E 上 $\mathfrak{s}\mathfrak{l}(2, k)$ 的线性表示，则 $\rho (x)$ 幂零的，因此定义 $e^{\rho(x)}$（第 I, §6, no. 3 章）。
 
@@ -323,7 +323,7 @@ $$
 
 在其他字，$\rho$和$\pi$是兼容的，如果对于$\mathfrak{s}\mathfrak{l}(2, k)$的每个幂零元$x$，$\rho$到$kx$的限制与$\pi$到限制兼容群$1 +kx$（第VII, §3, no. 1章）。
 
-如果$\rho$和$\pi$相容的，那么对偶表示、$m$第张量幂以及$\rho$和$\pi$的第$m$对称幂也分别兼容（第1章）。 VII, §5, no. 4、引理 1 (i) 和 (ii))。 同样，对于$\rho$和$\pi$在向量子空间上诱导的表示在$\rho$和$\pi ($loc下稳定。引用。）。
+如果$\rho$和$\pi$相容的，那么对偶表示、$m$第张量幂以及$\rho$和$\pi$的第$m$对称幂也分别兼容（第VII, §5, no. 4章， 引理 1 (i) 和 (ii))。 同样，对于$\rho$和$\pi$在向量子空间上诱导的表示在$\rho$和$\pi ($loc下稳定。引用。）。
 
 特别是，$V(m)$（no. 3）上$\mathfrak{s}\mathfrak{l}(2, k)$的表示$\rho_m$与$\mathbf{S}\mathbf{L}(2, k)$的恒等式表示$\pi_1$的第$m$对称幂$\pi_m$相容的。将$e^{(m)}_n=(^m_n)u^{m-n}v^n$如上所示，我们有
 
@@ -365,7 +365,7 @@ $e^+=e$ =
 
 #### 注 {#lie-viii-s1-n4-rem-1 .statement tag=00YA}
 
-当$k$为$\mathbf{R}$或$\mathbf{C}$或完全非离散超度量域时，$\mathfrak{s}\mathfrak{l}(2, k)$为$\mathbf{S}\mathbf{L}(2, k)$的李代数。令 $\rho$ 和 $\pi$ 如 Th 中所示。 2. 同态$\pi$是李群从$\mathbf{S}\mathbf{L}(2, k)$到$\mathbf{G}\mathbf{L}(E):$的同态，这在$E = V(m)$时是清楚的，一般情况如下，鉴于Th。 1. 章。 VII, §3，没有。 $1,\rho (X_+) = L(\pi )(X_+),\rho (X_-) = L(\pi )(X_-)$。因此$\rho = L(\pi )$（对于逆命题，参见练习18）。
+当$k$为$\mathbf{R}$或$\mathbf{C}$或完全非离散超度量域时，$\mathfrak{s}\mathfrak{l}(2, k)$为$\mathbf{S}\mathbf{L}(2, k)$的李代数。令 $\rho$ 和 $\pi$ 如 Th 中所示。 2. 同态$\pi$是李群从$\mathbf{S}\mathbf{L}(2, k)$到$\mathbf{G}\mathbf{L}(E):$的同态，这在$E = V(m)$时是清楚的，鉴于Th，一般情况如下。 1. 章。 VII, §3，没有。 $1,\rho (X_+) = L(\pi )(X_+),\rho (X_-) = L(\pi )(X_-)$。因此$\rho = L(\pi )$（对于逆命题，参见练习18）。
 
 #### 命题 5 {#lie-viii-s1-prop-5 .statement tag=00YB}
 
@@ -375,11 +375,11 @@ $e^+=e$ =
 
 (ii) $f$ 是 $\mathbf{S}\mathbf{L}(2, k)$ 模块中的同态。
 
-条件 (i) 表示 $f$ 是 $\mathfrak{s}\mathfrak{l}(2, k$) 模块 Hom$_k(E,F)$ 的不变量元素，条件 (ii) 表示 $f$ 是 $\mathbf{S}\mathbf{L}(2, k$) 模块的不变量元素坎$_k(E,F)$。由于这些模结构与第 1 章相关联。 VII, §5, no. 4、引理 1 (iii)、命题由 Th 得出。 2（三）。
+条件 (i) 表示 $f$ 是 $\mathfrak{s}\mathfrak{l}(2, k$) 模块 Hom$_k(E,F)$ 的不变量元素，条件 (ii) 表示 $f$ 是 $\mathbf{S}\mathbf{L}(2, k$) 模块的不变量元素坎$_k(E,F)$。由于这些模结构与第 1 章相关联。 VII, §5, no. 4、引理 1 (iii)、命题源自 Th。 2（三）。
 
 #### 定义 3 {#lie-viii-s1-def-3 .statement tag=00YC}
 
-群 $\mathbf{S}\mathbf{L}(2, k)$ 的伴随表示是 $\mathbf{S}\mathbf{L}(2, k)$ 在 $\mathfrak{s}\mathfrak{l}(2, k)$ 上的线性表示 Ad 定义为
+群 $\mathbf{S}\mathbf{L}(2, k)$ 的伴随表示是线性表示 $\mathbf{S}\mathbf{L}(2, k)$ 在 $\mathfrak{s}\mathfrak{l}(2, k)$ 上的广告，定义为
 
 广告($s$)$.a=sas^{-1}$
 
@@ -445,11 +445,11 @@ $$
 
 #### 命题 6 {#lie-viii-s1-prop-6 .statement tag=01L4}
 
-令 E 为有限维 $\mathfrak{s}\mathfrak{l}(2, k)$ 模，且为 $t\in k^*$。设$E_p$为权$p$E元素集合。
+令 E 为有限维 $\mathfrak{s}\mathfrak{l}(2, k)$ 模，且为 $t\in k^*$。令$E_p$为权$p$E元素集合。
 
 (i) 从$E_p$到$E_{-p}$，$\theta (t)_E|E_p$是双射。
 
-(ii) $h(t)_E|E_p$ 是位似，$t^p$ 与$E_p$ 的比率。
+(ii) $h(t)_E|E_p$ 是位似，$t^p$ 与 $E_p$ 的比率。
 
 如果$E = V(n)$，则从公式 (4) 和 (6) 得出命题。一般情况来自 Th。 1.
 
@@ -471,4 +471,4 @@ $-1$ $E''$ 前。
 
 我们用$\mathfrak{s}$李代数$\mathfrak{s}\mathfrak{l}(2, k)$表示。
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

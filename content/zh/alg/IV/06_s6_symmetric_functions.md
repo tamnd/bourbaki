@@ -55,23 +55,23 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: ba8d333e1349ba161132222d7c91c3109c54d2c8e6e1e86403cbaa5df0b2f1ac
+content_sha256: 00499ed4ad8a0d20262161707cf22f5dda93985058060b2e4467e31b1b7fa3b3
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
 translation_method: google
 source_content_sha256: b6c3b59be706d899df8c14677f2a1f585996a74c952028c811d04e381a1ed6be
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2230651e800e9e5a857fb4eb554b5446d54dcb9d4cf8d210d9a89176335b6290
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。对称函数
 
 ### 1. 对称多项式
 
-设$n$为正整数。对于每个置换$\sigma \in \mathfrak{S}_n$，令$\varphi_\sigma$为A-代数$A[X_1, \ldots, X_n]$中的自同构，其中映射$X_i$到$X_{\sigma(i)}$为$1 \leq i \leq n$。显然，$\sigma \mapsto \varphi_\sigma$是$\mathfrak{S}_n$的同态变为$A[X_1, \ldots, X_n]$的自同构群。我们将$\sigma f = \varphi_\sigma(f)$代替$\sigma \in \mathfrak{S}_n$和$f \in A[X_1, \ldots, X_n]$。如果 $\sigma f = f$ 对于所有 $\sigma \in \mathfrak{S}_n$ ，则称多项式 f 是对称的；对称多项式形式单位分级子代数 $A[X_1, \ldots, X_n]$ ；我们将在本段的其余部分用$A[X_1, \ldots, X_n]^{\mathrm{sym}}$表示它。
+设$n$为正整数。对于每个置换$\sigma \in \mathfrak{S}_n$，令$\varphi_\sigma$为A-代数$A[X_1, \ldots, X_n]$的自同构，其中映射$X_i$到$X_{\sigma(i)}$为$1 \leq i \leq n$。显然，$\sigma \mapsto \varphi_\sigma$是$\mathfrak{S}_n$的同态变成$A[X_1, \ldots, X_n]$的自同构的群。我们将$\sigma f = \varphi_\sigma(f)$代替$\sigma \in \mathfrak{S}_n$和$f \in A[X_1, \ldots, X_n]$。如果 $\sigma f = f$ 对于所有 $\sigma \in \mathfrak{S}_n$ ，则称多项式 f 是对称的；对称多项式形式单位分级子代数 $A[X_1, \ldots, X_n]$ ；我们将在本段的其余部分用$A[X_1, \ldots, X_n]^{\mathrm{sym}}$表示它。
 对于每个正整数 k，我们用集合 $\{1, 2, \ldots, n\}$ 的 k 元素子集的 $\mathfrak{P}_k$ 集合表示，并把
 
 (1)
@@ -121,7 +121,7 @@ b) $E$ 的元素 $s_1, \ldots, s_n$ 在$A$ (IV, p. 4) 上是代数独立的。
 
 c) 单项式$X^\nu = X_1^{\nu(1)} \ldots X_n^{\nu(n)}$族，使得$1 \leq i \leq n$的$0 \leq \nu(i) < i$是$S$模$E$的基。特别是，$E$是秩$n!$的免费$S$模块。
 
-我们将在$n$上用归纳证明定理，$n = 0$的情况是微不足道的。让我们写出$B = A[X_n]$并用$s_k'$表示次数$k$在$X_1, \ldots, X_{n-1}$中的初等对称多项式；因此我们有$B[X_1, \ldots, X_{n-1}] = A[X_1, \ldots, X_n]$。如果我们在 Th 的叙述替换 $n$ $n-1$ 和 $A$ $B$。 1、我们可以将归纳假设表述如下：
+我们将在$n$上用归纳证明定理，$n = 0$的情况是微不足道的。让我们写出$B = A[X_n]$并用$s_k'$表示$X_1, \ldots, X_{n-1}$中次数$k$的初等对称多项式；因此我们有$B[X_1, \ldots, X_{n-1}] = A[X_1, \ldots, X_n]$。如果我们在 Th 的叙述替换 $n$ $n-1$ 和 $A$ $B$。 1、我们可以将归纳假设表述如下：
 
 (A) $X_1, \ldots, X_{n-1}$的所有置换下多项式$f \in A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$不变量$B$-代数$S'$由$s_1', \ldots, s_{n-1}'$生成。
 
@@ -340,7 +340,7 @@ $$
 
 对于$n = 2$。
 
-### 2.对称有理分式
+### 2. 对称有理分式
 
 令$K$为交换域且$X_1, X_2, \ldots, X_n$不确定。对于每个$\sigma \in S_n$，我们在$K[X_1, X_2, \ldots, X_n]$的No. 1（IV，p. 61）自同构$\varphi_\sigma$中定义。这个自同构有一个独特的扩张$\psi_\sigma$到域$K(X_1, \ldots, X_n)$，$\sigma \mapsto \psi_\sigma$是$S_n$的单同态变成$K(X_1, \ldots, X_n)$的自同构群。对于每个$f \in K(X_1, \ldots, X_n)$，我们有$(\psi_\sigma f)(X_1, \ldots, X_n) = f(X_{\sigma(1)}, \ldots, X_{\sigma(n)})$。 有理分式 $f$，使得所有$\sigma \in S_n$的$\psi_\sigma(f) = f$称为对称有理分式。 $X_1, \ldots, X_n$中所有对称有理分式的集合是$K(X_1, \ldots, X_n)$的子域。
 
@@ -348,15 +348,15 @@ $$
 
 — *$X_1, \ldots, X_n$中对称多项式有理分式的域是$X_1, \ldots, X_n$中对称多项式环分数域。*。
 
-令$f \in K(X_1, \ldots, X_n)$为对称有理分数，并令$u_1, v_1$为$K[X_1, \ldots, X_n]$的两个元素，使得$f = \frac{u_1}{v_1}$。我们放入$v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, \ldots, X_n]$和$u = fv \in K[X_1, \ldots, X_n]$；那么$v$是对称的，因此$u$是对称的，因为$f$是对称的，而$f = \frac{u}{v}$，从而的结果。
+令$f \in K(X_1, \ldots, X_n)$为对称有理分数，并令$u_1, v_1$为$K[X_1, \ldots, X_n]$的两个元素，使得$f = \frac{u_1}{v_1}$。我们放入$v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, \ldots, X_n]$和$u = fv \in K[X_1, \ldots, X_n]$；那么$v$是对称的，因此$u$是对称的，因为$f$是对称的，并且$f = \frac{u}{v}$，从而的结果。
 
 #### 推论{#alg-iv-s6-n2-cor-1 .statement tag=06EK}
 
-— *令 $s_1, s_2, \ldots, s_n$ 为 $X_1, \ldots, X_n$ 中的初等对称多项式。对于每个有理分数 $g \in K(S_1, S_2, \ldots, S_n)$ 序列 $(s_1, s_2, \ldots, s_n)$ 都可代入 $g$ 且映射 $g \mapsto g(s_1, s_2, \ldots, s_n)$ 是 $K(S_1, S_2, \ldots, S_n)$ 的同构到对称有理分式的域 $X_1, \ldots, X_n$.*
+— *令 $s_1, s_2, \ldots, s_n$ 为 $X_1, \ldots, X_n$ 中的初等对称多项式。对于每个有理分式 $g \in K(S_1, S_2, \ldots, S_n)$ 序列 $(s_1, s_2, \ldots, s_n)$ 都可代入 $g$ 且映射 $g \mapsto g(s_1, s_2, \ldots, s_n)$ 是 $K(S_1, S_2, \ldots, S_n)$ 的同构到对称有理分式的域 $X_1, \ldots, X_n$.*
 
-这是从 Prop. 2 和 Th. 得出的。 IV、p. 62 中的 1 个。
+这是从 Prop. 2 和 Th. 得出的。 1 个IV、p. 62。
 
-### 3.对称形式幂级数
+### 3. 对称正式幂级数
 
 设$I$为集合，$X = (X_i)_{i \in I}$为不定族，$A[[X]]$代数为$X_i$中的正式幂级数。对于每个置换 $a \in S_I$，都存在代数 $A[[X]]$ 的唯一连续自同构 $\varphi_a$，其中每个 $i \in I$ 都有映射 $X_i$ 到 $X_{a(i)}$（IV、p. 28，提案 4）；显然，$\sigma \mapsto \varphi_\sigma$是$S_I$的同态变成代数$A[[X]]$的连续自同构的群。设$f \in A[[X]]$为正式的幂级数；我们放入$af = \varphi_a(f)$，我们可以说，如果每个$\sigma \in S_I$都有$\sigma f = f$，则正式的幂级数$f$是对称的。对称形式幂级数形式 $A[[X]]$ 的闭子代数，用 $A[[X]]^{\text{sym}}$ 表示，并配有由 $A[[X]]$ 诱导的拓扑。
 
@@ -408,11 +408,11 @@ $I$ 有限的情况由 Th 得出。 1（IV，p. 62）。
 
 *对于每个整数$m \geq 0$，令$c_m$为阶$\geq m$的所有对称形式幂级数的代数$A[[X]]^{sym}$由……组成的理想。 序列$(c_m)_{m \geq 0}$是$A[[X]]^{sym}$中$0$的邻域的基本系统。*
 
-当 $I$ 有限时，引理显然成立，因此让我们假设 $I$ 是无限的。对于每个$I$有限子集$J$、$m$元素由……组成，用长度$N^{(1)}$元素$\tilde{J}$集合表示$< m$ 以及$J$ 的支持。进一步用幂级数包含的$a_J'$集合表示，没有项$aX^\alpha$与$a \in \tilde{J}$。由于$\tilde{J}$是$N^{(1)}$的有限子集，并且$N^{(1)}$的每个有限子集都包含在形式$\tilde{J}$的集合中，所以$(a_J')$是邻域的基 $0$ $A[[X]]$（IV、p. 26）。现在，对于每个子集$J$和$m$元素，引理1意味着关系$a_J' \cap A[[X]]^{sym} = c_m$，这证明了引理3。
+当 $I$ 有限时，引理显然成立，因此让我们假设 $I$ 是无限的。对于每个$I$有限子集$J$、$m$元素由……组成，用长度$N^{(1)}$元素$\tilde{J}$集合表示$< m$ 以及$J$ 的支持。进一步用幂级数包含的$a_J'$集合表示，没有项$aX^\alpha$和$a \in \tilde{J}$。由于$\tilde{J}$是$N^{(1)}$的有限子集，并且$N^{(1)}$的每个有限子集都包含在形式$\tilde{J}$的集合中，所以$(a_J')$族是邻域的基 $0$ $A[[X]]$（IV、p. 26）。现在，对于每个子集$J$和$m$元素，引理1意味着关系$a_J' \cap A[[X]]^{sym} = c_m$，这证明了引理3。
 
-由于$S_k$中给定权的单项式只有有限数，因此每个形式的幂级数$f \in B$都可以以独特的方式写为$f = \sum_{r \geq 0} P_r$，其中$P_r$是权$r$在$B \cap A[S]$。对于每个整数$m \geq 0$，让$b_m$是上述型的所有正式幂级数的$B$由……组成的理想，这样$P_r = 0$对于$0 \leq r < m$。 序列$(b_m)_{m \geq 0}$是$B$中$0$邻域基。
+由于$S_k$中给定权的单项式只有有限数，因此每个形式的幂级数$f \in B$都可以以独特的方式写为$f = \sum_{r \geq 0} P_r$，其中$P_r$是以下的等量多项式权$r$在$B \cap A[S]$。对于每个整数$m \geq 0$，让$b_m$成为上述型的所有正式幂级数的$B$由……组成的理想，这样$P_r = 0$对于$0 \leq r < m$。 序列$(b_m)_{m \geq 0}$是$B$中$0$邻域基。
 
-上面的记号$\psi_1(P_r)$是$X_i$中的对称形式幂级数，齐次于次数$r$，所以这是次数$r$的齐次分量$\psi_1(f)$。 引理 2 显示，对于每个整数 $m \geq 0$，$\psi_1$ 是$B$ 的代数同态到$A[[X]]^{sym}$、映射 $b_m$ 到$c_m$；现在引理 3 显示 $\psi_1$ 是双连续的，这完成了定理 2 的证明。
+上面的记号$\psi_1(P_r)$是$X_i$中的对称形式幂级数，齐次于次数$r$，所以这是次数$r$的齐次分量$\psi_1(f)$。 引理 2 显示对于每个整数 $m \geq 0$，$\psi_1$ 是$B$ 的代数同态到$A[[X]]^{sym}$、映射 $b_m$ 到$c_m$；现在引理 3 显示 $\psi_1$ 是双连续的，这完成了定理 2 的证明。
 
 ### 4. 和 / 幂
 
@@ -525,7 +525,7 @@ $$
 p_k = (-1)^{k+1} k s_k + g_k(s_1, \ldots, s_s) \quad (1 \leq k \leq n).
 $$
 
-由于$k! . 1$在$\mathbf{A}$、IV、引理 2 中是可逆的，p. 35证明了拓扑$\mathbf{A}$-代数$\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$的自同构$T$的存在性，其中映射 $s_k$ 至 $p_k$ 为 $l \leq k \leq n$。现在，第 3 条命题 a) 是直接的推论。
+由于$k! . 1$在$\mathbf{A}$、IV、引理 2 中是可逆的，p. 35证明了拓扑$\mathbf{A}$-代数$\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$的自同构$T$的存在性，其中映射 $s_k$ 至 $p_k$ 为 $l \leq k \leq n$。现在，第 3 号提案，a) 是直接的推论。
 
 #### 推论{#alg-iv-s6-n4-cor-1 .statement tag=06ES}
 
@@ -543,7 +543,7 @@ $1 \leq k \leq n$。 *那么存在置换$\sigma \in \mathfrak{S}_n$使得$\eta_i
 
 在假设 a) 下，我们有 $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$。如果我们用$\eta_n$代替$X$，我们会发现$\prod_{i=1}^n (\eta_n - \xi_i) = 0$，并且由于$\mathbf{A}$是整环，所以存在整数$\sigma(n)$使得$l \ s \ \sigma(n) \leq n$和$\eta_n = \xi_{\sigma(n)}$。现在断言 a) 很容易跟随归纳，因为 $\mathbf{A}[X]$ 是整环。
 
-在 b) 的假设下，存在 $n$ 不定式中的命题 3 首一多项式$\Pi_1, \ldots, \Pi_n$，其中$\mathbf{A}$ 的分数的域中的系数使得$s_k = \Pi_k(p_1, \ldots, p_n)$ 对应$1 \leq k \leq n$。现在关系 (23) 意味着
+在 b) 的假设下，存在 $n$ 不定式中的命题 3 首一多项式$\Pi_1, \ldots, \Pi_n$，其系数在$\mathbf{A}$ 的分数的域中，使得 $1 \leq k \leq n$ 具有$s_k = \Pi_k(p_1, \ldots, p_n)$。现在关系 (23) 意味着
 
 $$
 s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)
@@ -612,7 +612,7 @@ $$
 #### 命题 6 {#alg-iv-s6-prop-6 .statement tag=06EW}
 
 — *令 $f \in A[X]$ 为次数 n 的一元多项式，并令 P 为 $X_1, ..., X_n$ 中的对称多项式，系数在 A 中。则恰好存在 A 的一个元素 a ，其性质如下：
-(FS) 对于 B[X] 中的任意环同态 $\rho : A \to B$ 和分解 $^0f(X) = \prod_{i=1}^n (X - \xi_i)$，我们有 $\rho(a) = P(\xi_1, ..., \xi_n)$。*
+(FS) 对于 B[X] 中的任何环同态 $\rho : A \to B$ 和分解 $^0f(X) = \prod_{i=1}^n (X - \xi_i)$，我们有 $\rho(a) = P(\xi_1, ..., \xi_n)$。*
 
 写$f = X^n + \sum_{k=1}^n a_k X^{n-k}$，然后写Th。 1, IV, p. 62 存在n个不定式中的多项式$\Pi$，系数在A中，使得$P = \Pi(s_1, ..., s_n)$。把$a = \Pi(-a_1, a_2, ..., (-1)^n a_n)$。在假设 (FS) 下，我们有
 $$
@@ -641,13 +641,13 @@ $$
 那么 $P^*(f)$ 只是结果 $\operatorname{res}(f, g)$，由 Cor. 1 个IV、p. 80。
 3) 代入$A(X_1, ..., X_n) = \prod_{i < j} (X_i - X_j)^2$，那么$\Delta^*(f)$就是一元多项式$f$ (IV, p. 82, 公式 (46)) 的判别式。 \*
 
-4）放入$P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$；此外，定义代数$E = A[X]/(f)$，并在$E$中将$X$的像写入$x$。我们记得，$A$-模块$E$是免费的，其中基$(1, x, \ldots, x^{n-1})$（IV，p. 11，Cor.）。让我们展示一下
+4）放入$P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$；另外，定义代数$E = A[X]/(f)$，并在$E$中将$X$的像写入$x$。我们记得，$A$-模块$E$是免费的，其中基$(1, x, \ldots, x^{n-1})$（IV，p. 11，Cor.）。让我们展示一下
 
 $$
 \text{Tr}_{E/A}(x^k) = P^*(f)
 $$
 
-每整数$k \geq 1$放入$\pi_k = \text{Tr}_{E/A}(x^k)$。考虑到牛顿的关系（IV，p. 70），我们只需要建立关系
+每整数 $k \geq 1$ 放入 $\pi_k = \text{Tr}_{E/A}(x^k)$。考虑到牛顿的关系（IV，p. 70），我们只需要建立关系
 
 $$
 \begin{align*}
@@ -656,7 +656,7 @@ $$
 \end{align*}
 $$
 
-（我们也将其称为“牛顿关系”）。 关系 (27) 很清楚，因为左边是
+（我们也将其称为“牛顿关系”）。 关系(27) 很清楚，因为左边是
 
 $$
 x^{k-n}(x^n + a_1 x^{n-1} + \cdots + a_{n-1} x + a_n) = 0 .
@@ -691,7 +691,7 @@ $$
 
 从而公式 (26)如下。
 
-### 6. 结果
+### 6. 由此产生的
 
 在这个数中，我们假设给定两个正整数$p, q$和形式的$A[X]$中的两个多项式$f, g$
 
@@ -947,7 +947,7 @@ $$
 (ac' - ca')^2 + (bc' - cb')(ba' - ab')
 $$
 
-对于第 9 条命题（IV，p. 79），我们发现当 $a$ 可逆时，证明公式就足够了。那么存在形式中的分解
+对于第 9 条命题（IV，p. 79），我们发现当 $a$ 可逆时，证明公式就足够了。那么存在形式的分解
 
 $$
 aX^2 + bX + c = a(X - x)(X - y)
@@ -988,7 +988,7 @@ $$
 
 #### 定义 2 {#alg-iv-s6-def-2 .statement tag=06FF}
 
-*令$f$为次数$m$的$A[X]$的一元多项式，并用$E$表示$A$代数$A[X]/(f)$，并用$X$的$x$典范像表示$E$。我们将定义$f$的判别式写为$\operatorname{dis}(f)$，作为$A$-代数$E$的基$(1, x, \ldots, x^{m-1})$的判别式$D_{E/A}(1, x, \ldots, x^{m-1})$。*
+*令$f$为次数$m$的$A[X]$的一元多项式，并用$E$表示$A$代数$A[X]/(f)$，并用$X$的$x$典范像表示$E$。我们将$f$的判别式定义写为$\operatorname{dis}(f)$，作为$A$-代数$E$的基$(1, x, \ldots, x^{m-1})$的判别式$D_{E/A}(1, x, \ldots, x^{m-1})$。*
 
 对于每个正整数 $k$，我们写 $\rho_k = \operatorname{Tr}_{E/A}(x^k)$。由III，p. 549，Def。 2 相当于公式
 
@@ -1005,13 +1005,13 @@ p_1 + \alpha = 0 \\
 p_2 + \alpha p_1 + 2\beta = 0 ,
 $$
 
-从而$p_1 = -a$，$p_2 = a^2 - 2p$。由此可见我们有
+从而$p_1 = -a$、$p_2 = a^2 - 2p$。由此可见我们有
 
 $$
 \operatorname{dis}(f) = \det \begin{pmatrix} 2 & -\alpha \\ -a & \alpha^2 - 2p \end{pmatrix} = \alpha^2 - 4\beta
 $$
 
-设 B 为从 A 到 B 的交换环、$\rho$ 同态以及 B 的 $\xi_1, \ldots, \xi_m$ 元素，使得
+令 B 为从 A 到 B 的交换环、$\rho$ 同态以及 B 的 $\xi_1, \ldots, \xi_m$ 元素，使得
 $$
 \rho f(X) = (X - \xi_1) \cdots (X - \xi_m).
 $$
@@ -1031,7 +1031,7 @@ $1 \leq i \leq m$、从而
 $$
 \rho(\operatorname{dis}(f)) = (-1)^{m(m-1)/2} \prod_{i \neq j} (\xi_i - \xi_j) = (-1)^{m(m-1)/2} \prod_{i=1}^m D(\rho f)(\xi_i).
 $$
-由科.将IV的1，p. 80应用到$f$的万能分解，最终得到
+由科.将IV的1，p. 80应用到$f$的万能分解，我们最终得到
 $$
 \operatorname{res}(f, Df) = \operatorname{res}(Df, f) = (-1)^{m(m-1)/2} \operatorname{dis}(f).
 $$
@@ -1123,7 +1123,7 @@ $$
 \text{dis}_m(\lambda f) = \lambda^{2m-2} \text{dis}_m(f)
 $$
 
-对于次数 $\leq m$ 的每个多项式 $f \in A[X]$。 断言 (ii) 现在源自公式 (46) 和 (55)。
+对于次数 $\leq m$ 的每个多项式 $f \in A[X]$。 断言 (ii) 现在来自公式 (46) 和 (55)。
 
 当$f$是次数$m$的单调时，我们有$a_0 = 1$并且断言(iii)减少到公式(47)。牢记 (55) 和关系
 
@@ -1141,7 +1141,7 @@ $$
 \text{dis}_{m+n}(fg) = \text{dis}_m(f) \cdot \text{dis}_n(g) \cdot \text{res}_{m,n}(f,g)^2 .
 $$
 
-到推理为之前，我们就被简化为$f$和$g$分别是次数、$m$和$n$的单调。现在输入$B = E_f \otimes E_g$，其中$E_f$（或$E_g$）是$f$（或$g$）的通用分解代数（IV，p. 73）。那么$A$是$B$的子环，在$B[X]$中我们有分解
+通过推理为之前，我们被简化为$f$和$g$分别是次数、$m$和$n$的单调。现在输入$B = E_f \otimes E_g$，其中$E_f$（或$E_g$）是$f$（或$g$）的通用分解代数（IV，p. 73）。那么$A$是$B$的子环，并且在$B[X]$中我们有分解
 
 $$
 f = \prod_{i=1}^m (X - \alpha_i), \quad g = \prod_{j=1}^n (X - \beta_j) .
@@ -1159,7 +1159,7 @@ $$
 \prod_{k < k'} (\gamma_k - \gamma_{k'}) = \prod_{i < i'} (\alpha_i - \alpha_{i'}) \cdot \prod_{j < j'} (\beta_j - \beta_{j'}) \cdot \prod_{i,j} (\alpha_i - \beta_j)
 $$
 
-通过对关系进行平方，我们可以通过 (40) 和 (46) 得到 (57)。
+将关系平方，通过 (40) 和 (46) 得到 (57)。
 
 #### 推论 2 {#alg-iv-s6-prop-11-cor-2 .statement tag=06FJ}
 
@@ -1169,7 +1169,7 @@ $$
 \text{dis}_{m+1}(f) = a_0^2 \text{dis}_m(f)
 $$
 
-这是从 Cor 得出的。 1 服用$n = 1,\ g = 1$，由公式$\operatorname{res}_{m,1}(f,1) = a_0$（IV，p. 76，例 1）。
+这是从 Cor 得出的。 1 服用 $n = 1,\ g = 1$，由公式 $\operatorname{res}_{m,1}(f,1) = a_0$（IV、p. 76、例 1）获得。
 
 #### 推论 3 {#alg-iv-s6-prop-11-cor-3 .statement tag=06FK}
 
@@ -1208,7 +1208,7 @@ $$
 $$
 \mathrm{dis}_3(F) = - 27 \mathrm{res}_{2,2}(A_0X^2 + 2A_1X + A_2,\ A_1X^2 + 2A_2X + A_3) .
 $$
-到例 3 of IV, p. 80 我们有
+到例 3 of IV, p. 80 我们因此有
 $$
 \tilde{\Delta}(A_0, 3A_1, 3A_2, A_3) = - 27 (A_0A_3 - A_1A_2)^2 - 108 (A_1A_3 - A_2^2)(A_1^2 - A_0A_2) .
 $$
@@ -1223,6 +1223,6 @@ $$
 
 习题
 
-### 习题 {#alg-iv-s6-exercises}
+### 习题{#alg-iv-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

@@ -34,41 +34,41 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: 25713c0d37a965a01b409d7b6b45b0ce4c6749ab5d76db4ff11cf02f99fcef28
+content_sha256: d5bae9f65f7a41cbd922c65af25cd8b68b5a58b11a1c9d3e99a0fd486639adcc
 translated_from: content/en/alg/VIII/09_s9_radical.md
 translation_method: google
 source_content_sha256: 89095724e574bba079cd13ef874a02941adc59513c6a22e5a09bd9f01b4fa6cc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3779351546ac5f2df18af6b9b9123ba1b43e515ebde4b94bd13acf05cc41b9db
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。激进
 
-### 1.模的根
+### 1. 模的根
 
 #### 定义 1 {#alg-viii-s9-def-1 .statement tag=00A1}
 
-设 A 为环。 A-模 M 的根部子模定义为 M 的极大子模的交 (VIII, p. 48, 定义 2)，或等价地，M 的元素的集合被每个湮没同态从M到单A-模。
+设 A 为环。 A-模 M 的根部子模定义为 M 的极大子模的交 (VIII, p. 48, 定义 2)，或者等价地，M 的元素的集合被每个湮没同态从M到单A-模。
 
 在这个章的其余部分，我们用$\mathfrak{R}_A(M)$或简称为$\mathfrak{R}(M)$来表示A-模M的根部。
 
-设 A 为环。当且仅当存在单A-模的族$(S_i)_{i\in I}$和A-线性映射$f_i: M\rightarrow S_i$的$(f_i)_{i\in I}$族，使得我们有$\cap_{i\in I}$Ker($f_i$)时，A-模M的部首减少到0（在这种情况下，滥用语言，我们说M没有部首） $= 0$。这相当于 M 同构于子模或乘积或单A-模。
+设 A 为环。当且仅当存在单A-模的族$(S_i)_{i\in I}$和A-线性映射$f_i: M\rightarrow S_i$的$(f_i)_{i\in I}$族，使得我们有$\cap_{i\in I}$ Ker($f_i$)时，A-模M的部首被减少到0（在这种情况下，滥用语言，我们说M没有部首） $= 0$。这相当于 M 同构于子模或乘积或单A-模。
 
 #### 例 1 {#alg-viii-s9-n1-exa-1 .statement tag=00A2}
 
-令$\mathfrak{a}$为A的左理想。A-模$A_s/\mathfrak{a}$的根式等于$\mathfrak{a}'/\mathfrak{a}$，其中$\mathfrak{a}'$是包含$\mathfrak{a}$的最大左理想的交。特别是，对于每个素数数 $p$ 和每个整数 $n\geqslant 1$，$\mathbf{Z}$-模 $\mathbf{Z}$ 的根式被约化为 0，而 $\mathbf{Z}$-模 $\mathbf{Z}/p^n\mathbf{Z}$ 的根式等于 $p\mathbf{Z}/p^n\mathbf{Z}$。
+设$\mathfrak{a}$为A的左理想。A-模$A_s/\mathfrak{a}$的根式等于$\mathfrak{a}'/\mathfrak{a}$，其中$\mathfrak{a}'$是包含$\mathfrak{a}$的最大左理想的交。特别是，对于每个素数数 $p$ 和每个整数 $n\geqslant 1$，$\mathbf{Z}$-模 $\mathbf{Z}$ 的根式会减少到 0，而 $\mathbf{Z}$-模 $\mathbf{Z}/p^n\mathbf{Z}$ 的根式等于 $p\mathbf{Z}/p^n\mathbf{Z}$。
 
 #### 例 2 {#alg-viii-s9-n1-exa-2 .statement tag=00A3}
 
-设 A 为主理想整环，它不是域，并令 K 为分数的域。当K-模时，K没有根式。让我们证明K的根式A-模等于K；等价地，我们必须证明从K到单A-模S的每个A-线性映射$f$都是零。通过VII, §4, No. 8，p. 25，我们可以假设S等于$A/(\pi )$，其中$\pi$是A的不可约元。对于每个$x\in K$，我们有$f(x) =f(\pi \frac{x}{\pi})=\pi f(\frac{x}{\pi})= 0$，因为$\pi S = 0$。
+设 A 为主理想整环（不是域），并设 K 为分数的域。由于K-模，K 没有根式。让我们证明K的根式A-模等于K；等价地，我们必须证明从K到单A-模S的每个A-线性映射$f$都是零。通过VII, §4, No. 8，p. 25，我们可以假设S等于$A/(\pi )$，其中$\pi$是A的不可约元。对于每个$x\in K$，我们有$f(x) =f(\pi \frac{x}{\pi})=\pi f(\frac{x}{\pi})= 0$，因为$\pi S = 0$。
 
 #### 命题 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
-设M和N为从M到N的A-模和$f$同态。我们有$f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$，如果$f$是满射且$f$的核包含在M的根式中，我们甚至还有等式。
+设M和N为从M到N的A-模和$f$同态。我们有$f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$，如果$f$是满射并且$f$的核包含在M的根式中，我们甚至还有等式。
 
 设$g$为同态，从N到单A-模；那么$\mathfrak{R}(M)$包含在$g\circ f$的核中，因此$f(\mathfrak{R}(M))$包含在$g$的核中。因此我们有 $f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$。现在假设 $f$ 是满射，并且它的核包含在 $\mathfrak{R}(M)$ 中。令$y$为$\mathfrak{R}$(N)的元素，并令$x$为$y$的逆像元素。如果$g$是从M到单A-模S的同态，那么它的核包含是M的根，因此核是$f$。由于同态$f$是满射，因此从N到S存在同态$h$使得$g=h\circ f$。从$y=f(x)$属于到$\mathfrak{R}$(N)，我们有$h(f(x)) = 0$，即$g(x) = 0$；因此$x$属于到$\mathfrak{R}$(M)​​，这证明了包含$\mathfrak{R}(N)\subset f(\mathfrak{R}(M))$。
 
@@ -138,7 +138,7 @@ b) 模是半单并且是有限生成的当且仅当它没有部首且阿廷的�
 
 相反，假设 M 是阿廷的并且没有根式。将VIII、p. 2应用于M的极大子模的集合，则存在M的极大子模的有限族$(N_i)_{i\in I}$，其交降为0。则M与$\bigoplus_{i\in I}(M/N_i)$的子模同构。因而，它是半单并且有有限长度，并且更不必说是有限生成的。
 
-### 2.环的根
+### 2. The Radical of a Ring
 
 #### 定义 2 {#alg-viii-s9-def-2 .statement tag=00AA}
 
@@ -240,7 +240,7 @@ A 的元素是可逆的当且仅当其环 $A/\mathfrak{R}(A)$ 中的典范像可
 
 设A为交换环。 A的幂零元$a$的集合是A的理想$\mathfrak{N}(A)$，称为A的零根；它是A的素理想的交（V, §15, No. 1，p. 118，命题2）。我们有$\mathfrak{N}(A)\subset \mathfrak{R}(A)$； $*$如果A是阿廷环（VIII，p. 173，推论2），或者在交换域上有限生成的交换代数（通信算法，V, § 3，n$^{\circ}4$，定理，我们有等式） $3$)$*$。我们当然可以有$\mathfrak{N}(A)\not=\mathfrak{R}(A)$。这是当 A 为环 K[[X]] 时的情况，其中 K 为交换域：则我们有 $\mathfrak{N}(A) = 0$ 和 $\mathfrak{R}(A) =$ AX (VIII、p. 154、例 2)。
 
-### 3.中山引理
+### 3. Nakayama’s Lemma
 
 #### 命题 6 {#alg-viii-s9-prop-6 .statement tag=00AO}
 
@@ -260,9 +260,9 @@ A 的元素是可逆的当且仅当其环 $A/\mathfrak{R}(A)$ 中的典范像可
 
 如果 N 是 M 的子模，使得 $M = N +\mathfrak{a}M$，则我们有 N = M。特别是，如果模 M 是非零的，则我们有 $M\not=\mathfrak{a}M$。
 
-假设 M 是有限生成的并且我们有 $\mathfrak{a}\subset \mathfrak{R}(A)$。令 N 为 M 的子模，使得 $M = N +\mathfrak{a}M$。到命题 6，我们有 $M = N +\mathfrak{R}$(M)，因此 M = N 乘以命题 2, b) of VIII，p. 153。
+假设 M 是有限生成的并且我们有 $\mathfrak{a}\subset \mathfrak{R}(A)$。令 N 为 M 的子模，使得 $M = N +\mathfrak{a}M$。到命题 6，我们有 $M = N +\mathfrak{R}$(M)，因此 M = N by 命题 2, b) of VIII，p. 153。
 
-现在假设 $\mathfrak{a}$ 幂零，并令 N 为 M 的子模，使得 $M = N +\mathfrak{a}M$。到归纳整数$n\geqslant 0$，我们建立关系$M = N +\mathfrak{a}^nM$。到假设，存在整数$n\geqslant 0$使得$\mathfrak{a}^n= 0$；因此M = N。
+现在假设$\mathfrak{a}$是幂零的，并令N是M的子模，使得$M = N +\mathfrak{a}M$。到整数$n\geqslant 0$归纳，我们建立关系$M = N +\mathfrak{a}^nM$。到假设，存在整数$n\geqslant 0$使得$\mathfrak{a}^n= 0$；因此M = N。
 
 定理的最后一个断言由上式得出，取N为0。
 
@@ -278,7 +278,7 @@ A 的元素是可逆的当且仅当其环 $A/\mathfrak{R}(A)$ 中的典范像可
 
 事实上，$u:$的应用定理2到像N就足够了，$\overline{u}$的像是$(N +\mathfrak{a}M)/\mathfrak{a}M$，所以$\overline{u}$是满射当且仅当我们有$N +\mathfrak{a}M = M$。
 
-### 4.幂等的提升
+### 4. 幂等的提升
 
 #### 引理 1 {#alg-viii-s9-lem-1 .statement tag=00AQ}
 
@@ -312,7 +312,7 @@ $$
 
 因为$N\subset \mathfrak{a}P$乘假设。因此，我们每自然数 $j$ 和每 $f\in \mathfrak{b}^j$ 都有 $f(P)\subset \mathfrak{a}^jP$。特别是，我们有$\mathfrak{b}^n= 0$。
 
-令$\varepsilon '$为M的投影算子，其中像$M'$和核$M''$。将命题 7 应用于环 B 和幂等双面理想$\mathfrak{b}$，B 中存在幂等$e'$，使得$\overline{e'}=\varepsilon '$，即$\varepsilon '\circ u=u\circ e'$。 集合 $e''= 1-e'$、$\varepsilon ''=\overline{e''}, P'=e'$(P) 和 $P''=e''(P)$。那么 P 是子模 $P'$ 和 $P''$ 的直和，我们有
+设$\varepsilon '$为M的投影算子，其中像$M'$和核$M''$。将命题 7 应用于环 B 和幂等双面理想$\mathfrak{b}$，B 中存在幂等$e'$，使得$\overline{e'}=\varepsilon '$，即$\varepsilon '\circ u=u\circ e'$。 集合 $e''= 1-e'$、$\varepsilon ''=\overline{e''}, P'=e'$(P) 和 $P''=e''(P)$。那么P就是子模$P'$和$P''$的直和，我们有
 
 $$
 u(P') =u(e'(P)) =\varepsilon '(u(P)) =\varepsilon '(M) = M'
@@ -326,7 +326,7 @@ $$
 
 设 P 为射影 A-模，并令 $\overline{P}$ 为$A/\mathfrak{a}$模$P/\mathfrak{a}P$。 A-模 P 为零当且仅当 $\overline{P}$ 为零（VIII、p. 158 中的定理 2）。现在假设$P\not= 0$。由于$A/\mathfrak{a}$模P与$\overline{A}\otimes_AP$同构的，因此它是射影的（II, §5, No. 1，p. 279，命题4的推论）。如果 P 不可分解，则根据推论 1 $\overline{P}$ 也是不可分解的。相反，假设 P 可分解并且非零的，并令 $P'$ 和 $P''$ 是 P 的两个非零的子模，使得 $P = P'\oplus P''$。到中山引理（VIII、p. 158、定理 2），我们有$P'+\mathfrak{a}P\not= P$和$P''+\mathfrak{a}P\not= P$；如果$\overline{P}'$和$\overline{P}''$是P中$P'$和$P''$的典范像，那么我们有$\overline{P}'\not= P,\overline{P}''\not= P$和$\overline{P}=\overline{P}'\oplus \overline{P}''$。这证明$\overline{P}$是可分解的。
 
-### 5.模的投射覆盖
+### 5. 模的投射覆盖
 
 #### 定义 3 {#alg-viii-s9-def-3 .statement tag=00AU}
 
@@ -338,11 +338,11 @@ $$
 
 #### 注 2 {#alg-viii-s9-n5-rem-2 .statement tag=00AW}
 
-假设$(P, u)$是A-模M的射影覆盖。令$(x_i)_{i\in I}$是P的元素族，并令$P'$是P的子模，即它生成；那么$u(P')$是由$(u(x_i))_{i\in I}$族生成的。因而，当且仅当族 $(u(x_i))_{i\in I}$ 生成 A-模 M 时，族 $(x_i)_{i\in I}$ 生成 A-模 P。特别是，当且仅当 M 是有限生成时，P 是有限生成的。
+假设$(P, u)$是A-模M的射影覆盖。令$(x_i)_{i\in I}$是P的元素族，并令$P'$是P的子模，即它生成；那么$u(P')$是由$(u(x_i))_{i\in I}$族生成的。因而，族$(x_i)_{i\in I}$生成A-模P当且仅当族$(u(x_i))_{i\in I}$生成A-模M。特别是，P是有限生成的当且仅当M是有限生成的。
 
 #### 命题 8 {#alg-viii-s9-prop-8 .statement tag=00AX}
 
-设M和$M'$分别为M和$M'$的投影覆盖，A-模、$(P, u)$和$(P', u')$以及$g: M\rightarrow M'$A-线性映射。
+设M和$M'$分别为M和$M'$的投影覆盖A-模、$(P, u)$和$(P', u')$以及$g: M\rightarrow M'$A-线性映射。
 
 a) 存在A-线性映射$f: P\rightarrow P'$使得$u'\circ f=g\circ u$。
 
@@ -452,8 +452,8 @@ $(A/\mathfrak{a}$)-模块$P/\mathfrak{a}P$是免费的，并且同态$\overline{
 
 令 P 和 $P'$ 射影 A-模。如果模 $P/\mathfrak{a}P$ 和 $P'/\mathfrak{a}P'$ 同构的，则 P 和 $P'$ 同构的。
 
-由于 $P/\mathfrak{a}P$ 和 $P'/\mathfrak{a}P'$ 是投影的，因此推论来自投影覆盖的命题 11 和唯一性（VIII，p. 162，推论 1）。
+由于 $P/\mathfrak{a}P$ 和 $P'/\mathfrak{a}P'$ 是投影的，因此推论来自投影覆盖的命题 11 和唯一性（VIII、p. 162，推论 1）。
 
 ### 习题 {#alg-viii-s9-exercises}
 
-§ 9](exercises/s9/)参见[习题。
+参见[习题为 § 9](exercises/s9/)。

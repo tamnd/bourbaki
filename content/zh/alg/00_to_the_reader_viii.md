@@ -13,27 +13,27 @@ pdf_pages: 0005-0008
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: 4492693ab963c46e8393a6751a110e5226481df1195381603b13f5e9257157a4
+content_sha256: 42ddac218e786eef26eaa2873cd8f002378b8f0892cc91251f1a290e406984bf
 translated_from: content/en/alg/00_to_the_reader_viii.md
 translation_method: google
 source_content_sha256: 45c519005c823d57f7f33b57a1c790671b15643486bc9d05ac797484615076c1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 70d1235243a9010957938e4c39c6db4e7d3d6b79097bb19440e4c08658251ed7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 致读者
 
 新版本
 
-1. The Elements of Mathematics series takes up mathematics at the beginning and gives complete proofs. So in principle, it requires no particular knowledge of mathematics on the readers’ part, only a certain familiarity with mathematical reasoning and a certain capacity for abstract thinking. Nevertheless, it is directed primarily at those with a good knowledge of at least the content of the first year or two of university mathematics studies.
+1. 数学元素级数从一开始就占用数学并给出完整的证明。所以原理对读者部分来说，不需要特别的数学知识，只需要对数学推理有一定的熟悉度，有一定的抽象思维能力即可。尽管如此，它主要针对那些至少熟悉大学数学学习第一年或​​第二年内容的人。
 
-2. The chosen method of exposition is axiomatic and proceeds typically from the general to the specific. The requirements of proof impose a rigorously fixed order on the subject matter. It follows that the usefulness of certain considerations may not become apparent to readers until later chapters, unless they already have a fairly extended knowledge of mathematics.
+2. 所选择的阐述的方法是公理化的，通常是从一般到具体。 证明的要求对主题施加了严格固定的阶。由此可见，某些考虑因素的有用性可能直到后来章、除非他们已经有了相当广泛的数学知识时才变得明显。
 
-3. The series is divided into Books and each Book into chapters. The Books that have already been published, either entirely or in part, in the French edition, are listed below. When an English translation is available, the corresponding English title is mentioned between parentheses. Throughout the volume, a reference indicates the English edition when available and the French edition otherwise.
+3. 级数分为书籍，每本书分为章。下面列出了已经出版的书籍，无论是全部还是法语版的部分。当有英文翻译时，相应的英文标题会在括号内提及。在整卷书中，参考文献指出了英文版（如果可用）和法文版。
 
 合奏理论 (集合论) Ref. E（集合理论）
 
@@ -69,7 +69,7 @@ Topologie générale（通用拓扑）— TG（通用顶部）
 
 在前六本书中（在上面提到的阶中），文本中的每个叙述都假设只知道定义，并且结果已经在相同的章或之前的章中讨论过，在下面的阶中：集合理论；阿尔格.，章I到III； Gen. Top.，章 I 至 III； Alg./A，从章 IV 开始； Gen. Top.，从章 IV 开始； FRV；顶部。向量。 Sp.；国际。从第七本书开始，如有必要，读者将在每本书或章的开头找到所使用的其他书籍或章的精确指示（前六本书始终假定已知）。
 
-4. However, certain passages do not follow the rules set out above. They are placed between two asterisks: $*$. . . . In some cases, this is done only to
+4. 然而，某些段落不遵循上述规则集合。它们位于两个星号之间：$*$。 。 。 。在某些情况下，这样做只是为了
 
 $$
 *
@@ -77,9 +77,9 @@ $$
 
 通过包含例来帮助读者理解文本，这些例指的是他们可能从其他来源知道的结果。在其他情况下，我们不仅使用所讨论的章中假设已知的结果，而且还使用级数中其他地方证明的结果。这些段落在部分中自由使用，假设已知章包含它们和章它们所指。我们希望读者能够验证不存在任何恶性循环。
 
-5. Some Books (either published or in preparation) may include summaries of results. These summaries contain the essential definitions and results of the Book, without any proofs.
+5. 某些书籍（已出版或正在编写）可能包含结果摘要。这些总结包含本书的基本定义和结果，没有任何证明。
 
-6. The logical framework of each chapter consists of the chapter’s definitions, axioms, and theorems. These are the main parts to keep in mind for subsequent use. Less important results, and those that can be easily recovered from the theorems, are labeled as “propositions,” “lemmas,” “corollaries,” “remarks,” etc. Those that may be skipped at first reading are printed in a
+6. 每个章的逻辑框架由章的定义、公理和定理组成。这些是后续使用时需要牢记的主要部分。不太重要的结果，以及那些可以从定理轻松恢复的结果，被标记为“命题”，“引理”，“推论”，“注”等。那些在第一次阅读时可能会跳过的结果被打印在
 
 [^2]: 到目前为止，仅翻译了章 I 到 VII。
 
@@ -89,15 +89,15 @@ $$
 
 取注，如本书前面的章，域不被假定为可交换的除非，另有说明。
 
-7. Some passages are designed to forewarn the reader against serious errors. These passages are indicated in the margin with the sign (“dangerous bend”).
+7. 有些段落旨在警告读者不要犯严重错误。这些段落在页边标有符号（“危险弯道”）。
 
-8. The exercises are meant, on the one hand, to allow readers to verify that they have digested the text well and, on the other hand, to let them acquaint themselves with results that have no place in the text. The most difficult exercises are marked with a $\P$.
+8. 习题一方面是为了让读者验证自己是否已经很好地消化了文本，另一方面是为了让他们熟悉文本中没有出现的结果。最困难的习题标有$\P$。
 
-9. We have paid particular attention to the terminology used in this series. We have adhered to the commonly accepted terminology except where there appeared to be good reasons to deviate from it.
+9. 我们特别注意了级数中使用的术语。我们坚持普遍接受的术语，除非有充分的理由偏离它。
 
-10. We have made a particular effort to always use rigorously correct language, without sacrificing simplicity. As far as possible, we have drawn attention in the text to any abuses of language or notation, without which any mathematical text runs the risk of becoming pedant, not to say unreadable.
+10. 我们特别努力始终使用严格正确的语言，同时又不牺牲简单性。我们尽可能在文本中提请注意任何对语言或记号的滥用，否则任何数学文本都有可能变得迂腐，更不用说难以阅读了。
 
-11. Since the text consists of the dogmatic exposition of a theory, it rarely contains any references to the literature. Bibliographical references are sometimes gathered together in Historical Notes. The bibliography that follows these Notes contains, in general, only those books and original memoirs that were of the greatest importance in the evolution of the theory under discussion. It does not pretend to be complete.
+11. 由于文本由理论的教条式阐述组成，因此很少包含任何文献参考。参考文献有时集中在历史注记中。一般来说，这些注包含之后的参考书目，只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它并不假装完整。
 
 至于习题，我们认为表明其来源没有用，因为它们取自许多不同的来源（原始论文、教科书、习题的收藏）。
 

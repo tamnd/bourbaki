@@ -29,16 +29,16 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: ac6c5c73634724f0611215058ea08ea27b73cb873e1602a9789417e9755b1d4d
+content_sha256: 032b8fc8e96b7b40e3a478caf92d58b44bcee63818de08f4a0dab12500a7846d
 translated_from: content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md
 translation_method: google
 source_content_sha256: 6374fb400438df5a36d2c913925fb0624256c5324de93a908a0b9247182f92f3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 06bf765732566174a864f656789cb11da426e9ff005b7f29d63e711318c54366
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 13。经典可拆分简单李代数
@@ -67,7 +67,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (IX) 谢瓦利阶。
 
-### 1. 代数 OF 型 A$_{\boldsymbol{l}}$ ($\boldsymbol{l}\geq$ 1)
+### 1. 代数型 A$_{\boldsymbol{l}}$ ($\boldsymbol{l}\geq$ 1)
 
 (I) 令$k$上的V为维数$l+ 1$向量空间，并令$\mathfrak{g}$为踪迹的V自同态代数$\mathfrak{s}\mathfrak{l}(V)$ 零。令$(e_i)_{1\leq i\leq l+1}$为V中的基；与$\mathfrak{g}$的元素相关联的映射关于该基的矩阵是$\mathfrak{g}$与踪迹零的矩阵的代数$\mathfrak{s}\mathfrak{l}(l+ 1, k)$的标识。我们知道$\mathfrak{g}$是半单（第I, §6, no. 7章，第8条命题）。
 
@@ -91,9 +91,9 @@ $$
 [h, E_{ij}] = (\widehat{\varepsilon}_i(h)-\widehat{\varepsilon}_j(h))E_{ij} \tag{1}
 $$
 
-由章。 I, §1, no. 2，公式 (5)。 令$\mathfrak{h}$为迹线零的$\widehat{\mathfrak{h}}$元素集合，并放入$\varepsilon_i= \widehat{\varepsilon}_i|\mathfrak{h}$。 那么$\mathfrak{h}$就是$\mathfrak{g}$的嘉当子代数（第1章） VII, §2, no. 1、例 4)。 关系(1)证明这个嘉当子代数是分裂，$(\mathfrak{g},\mathfrak{h})$的根是$\varepsilon_i-\varepsilon_j(i\not=j)$。 设$\widehat{\mathfrak{h}}^*_0$为$\widehat{\mathfrak{h}}^*$和的元素的集合，其相对于$(\widehat{\varepsilon}_i)$的坐标为零。 从$\widehat{\mathfrak{h}}^*_0$到$\mathfrak{h}^*$的映射$\lambda  \rightarrow \lambda |\mathfrak{h}$是双射的。 因而，$(\mathfrak{g},\mathfrak{h})$的根系R等于型$A_l$（第1章） VI, §4, no. 7）。 因而，$\mathfrak{g}$ 很简单（§3, no. 2，第 6 条命题的 Cor.1）。 因而，$\mathfrak{g}$是型$A_l$的可分割简单李代数。
+由章。 I, §1, no. 2，公式 (5)。 令$\mathfrak{h}$为迹线零的$\widehat{\mathfrak{h}}$元素集合，并放入$\varepsilon_i= \widehat{\varepsilon}_i|\mathfrak{h}$。 那么$\mathfrak{h}$就是$\mathfrak{g}$的嘉当子代数（第VII, §2, no. 1，例4章）。 关系(1)证明这个嘉当子代数是分裂，$(\mathfrak{g},\mathfrak{h})$的根是$\varepsilon_i-\varepsilon_j(i\not=j)$。 设$\widehat{\mathfrak{h}}^*_0$为$\widehat{\mathfrak{h}}^*$和的元素的集合，其相对于$(\widehat{\varepsilon}_i)$的坐标为零。 从$\widehat{\mathfrak{h}}^*_0$到$\mathfrak{h}^*$的映射$\lambda  \rightarrow \lambda |\mathfrak{h}$是双射的。 因而，$(\mathfrak{g},\mathfrak{h})$的根系R是型$A_l$（第VI, §4, no. 7章）。 因而，$\mathfrak{g}$ 很简单（§3, no. 2，第 6 条命题的 Cor.1）。 因而，$\mathfrak{g}$是型$A_l$的可分割简单李代数。
 
-在基本自同构下，$\mathfrak{g}$ 的每个分裂嘉当子代数 $\mathfrak{h}'$ 都是 $\mathfrak{h}$ 的变换（§3, no. 3，Prop. 10 的 Cor.）。 由于 Aut$_e\mathfrak{g}$ 是自同构 $x \rightarrow sxs^{-1}$ $\mathfrak{g}$ 的集合和 $s\in \mathbf{S}\mathbf{L}(V)$（第 1 章） VII, §3, no. 1、注2； cf.也(VII))，存在V的基$\beta$使得$\mathfrak{h}'$是$\mathfrak{g}$的元素的集合$\mathfrak{h}_{\beta}$，其中矩阵相对于基 $\beta$ 是对角线。 由于$\mathfrak{h}_{\beta}$包含元素与不同的特征值，V的唯一向量子空间在$\mathfrak{h}_{\beta}$的元素下稳定是由$\beta$的子集生成的。 由此可见，映射$\beta  \rightarrow \mathfrak{h}_{\beta}$诱导由V的分解的集合代入维数的$l+ 1$子空间的直和商双射得集合分裂嘉当子代数 $\mathfrak{g}$。 (II) 设$\alpha =\varepsilon_i-\varepsilon_j(i\not=j)$为根。 我们有$\mathfrak{g}^{\alpha}=kE_{ij}$。 自从
+在基本自同构下，$\mathfrak{g}$ 的每个分裂嘉当子代数 $\mathfrak{h}'$ 都是 $\mathfrak{h}$ 的变换（§3, no. 3，Prop. 10 的 Cor.）。 由于Aut$_e\mathfrak{g}$是$\mathfrak{g}$的自同构$x \rightarrow sxs^{-1}$和$s\in \mathbf{S}\mathbf{L}(V)$的集合（第VII, §3, no. 1，注2；cf.也（VII）），因此存在基 V的$\beta$使得$\mathfrak{h}'$是$\mathfrak{g}$的元素的集合$\mathfrak{h}_{\beta}$，其中矩阵相对于基$\beta$是对角线。 由于$\mathfrak{h}_{\beta}$包含元素与不同的特征值，V的唯一向量子空间在$\mathfrak{h}_{\beta}$的元素下稳定是由$\beta$的子集生成的。 由此可见，映射$\beta  \rightarrow \mathfrak{h}_{\beta}$诱导由V的分解的集合代入维数的$l+ 1$子空间的直和商双射得集合分裂嘉当子代数 $\mathfrak{g}$。 (II) 设$\alpha =\varepsilon_i-\varepsilon_j(i\not=j)$为根。 我们有$\mathfrak{g}^{\alpha}=kE_{ij}$。 自从
 
 $$
 [E_{ij}, E_{ji}] =E_{ii}-E_{jj}
@@ -287,13 +287,13 @@ $$
 (e_1, . . . , e_l, e_0, e_{-l}, . . . , e_{-1})
 $$
 
-是基 / V；我们有
+是 V 中的基；我们有
 
 $$
 Q(\sum x_ie_i)=-x^2_0+\sum_{i=1}^{i=l}x_ix_{-i}
 $$
 
-相对于此，基$\Psi$矩阵为阶$2l+ 1$平方矩阵
+相对于该基，$\Psi$矩阵为阶$2l+ 1$平方矩阵
 
 0 0 $\cdots$ 0 1
 
@@ -305,7 +305,7 @@ $s$ 0 0 0 1 $\cdots$ 0 0
 
 1 0 $\cdots$ 0 0
 
-其中$s$是阶$l$的平方矩阵，其所有条目都是零，除了第二个对角线$^6$上的条目等于1。具有上述属性的V的基将被称为维特基共 V。然后，代数$\mathfrak{g}=\mathfrak{o}(\Psi )$可以被识别为方阵$a$的代数$\mathfrak{o}_S(2l+ 1, k)$或阶$2l+ 1$，这样$a=-S^{-1}aS($代数，第1章。 IX, §1, no. 10、公式 (50))。简单计算可知，$\mathfrak{g}$ 是集合 / 矩阵 / 形式
+其中$s$是阶$l$的平方矩阵，其所有条目都是零，除了第二个对角线$^6$上的条目等于1。具有上述属性的V的基将被称为维特基共 V。然后可以将代数$\mathfrak{g}=\mathfrak{o}(\Psi )$与方阵$a$或阶$2l+ 1$的代数$\mathfrak{o}_S(2l+ 1, k)$进行识别，使得$a=-S^{-1}aS($代数，第1章。 IX, §1, no. 10、公式 (50))。简单计算可知，$\mathfrak{g}$ 是集合 / 矩阵 / 形式
 
 $$
 A2s^txB
@@ -371,7 +371,7 @@ $$
 
 立即验证，V中唯一不同于$\{0\}$和V在$\mathfrak{b}$下稳定的向量子空间是最大标志相应的到基$(e_i)$的元素，即完全各向同性子空间$V_1, . . . ,V_l$，其中$V_i$由$e_1, . . . , e_i$生成，与其正交补集$V_{-1}, . . . ,V_{-i}:$一起，$V_i$的正交补集$V_{-i}$由$e_1, . . . , e_l, e_0, e_{-l}, . . . , e_{-i-1}$生成，并且不完全各向同性。另一方面，如果 $\mathfrak{g}$ 的元素离开稳定的向量子空间，则它的正交补集离开稳定。因而，$\mathfrak{b}$是$\mathfrak{g}$的元素的集合，留下稳定的元素标志$\{V_1, . . . ,V_l\}$。
 
-如果一个标志的每个元素完全各向同性，则该标志被称为各向同性。 标志$\{V_1, . . . ,V_l\}$是最大各向同性标志。 由于群$\mathbf{O}(\Psi )$在$\mathfrak{g}$（cf.（VII））的博雷尔子代数和最大各向同性标志（代数，第1章）上传递操作。 IX, §4, no. 3，Th。 1），我们看到，对于V中的任何最大各向同性标志$\delta$，$\mathfrak{g}$的元素的集合$\mathfrak{b}_{\delta}$离开稳定的$\delta$的元素是$\mathfrak{g}$的博雷尔子代数并且从最大各向同性标志的集合到$\mathfrak{g}$的博雷尔子代数集合，映射$\delta  \rightarrow \mathfrak{b}_{\delta}$为双射。
+如果一个标志的每个元素完全各向同性，则该标志被称为各向同性。 标志$\{V_1, . . . ,V_l\}$是最大各向同性标志。 Since the group $\mathbf{O}(\Psi )$ operates transitively both on the Borel subalgebras of $\mathfrak{g}$ (cf. (VII)) and on the maximal isotropic flags (Algebra, Chap. IX, §4, no. 3, Th. 1), we see that, for any maximal isotropic flag $\delta$ in V, the set $\mathfrak{b}_{\delta}$ of elements of $\mathfrak{g}$ leaving stable the elements of $\delta$ is a Borel subalgebra of $\mathfrak{g}$ and that the map $\delta  \rightarrow \mathfrak{b}_{\delta}$ is a bijection from the set of maximal isotropic flags to the set of Borel subalgebras of $\mathfrak{g}$.
 
 令$\delta$为各向同性标志，令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的集合，留下稳定的$\delta$的元素。如果$\delta \subset  \{V_1, . . . ,V_l\}$，则$\mathfrak{p}_{\delta}$是$\mathfrak{g}$包含$\mathfrak{b}$的抛物线子代数，容易验证在$\mathfrak{p}_{\delta}$下唯一完全各向同性的子空间$\not=\{0\}$稳定的是元素 $\delta$。这给出了 $2^l$ 抛物线子代数的 $\mathfrak{g}$ 包含 $\mathfrak{b}$。由上可知，从V各向同性标志的集合到$\mathfrak{g}$抛物线子代数的集合，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$为双射。此外，$\mathfrak{p}_{\delta}\subset \mathfrak{p}_{\delta'}$当且仅当$\delta \supset \delta '$。
 
@@ -655,13 +655,13 @@ $$
 
 (I) 设$\Psi$为有限维$2l\geq 2$的向量空间V上的非简并交错的双线性形式； 集合 / 自同态 $x$ / V，使得所有$v, v'\in V$的$\Psi (xv, v') +\Psi (v, xv') = 0$是半单李子代数 / $\mathfrak{s}\mathfrak{l}(V)$（第I, §6, no. 7章，第9条）。我们用 $\mathfrak{s}\mathfrak{p}(\Psi )$ 表示它，并将其称为与 $\Psi$ 相关的辛李代数。
 
-代数，Cap。 IX, §4, no. 2、V可以写成两个最大完全各向同性子空间 F和$F'$的直和，它们相对于$\Psi$具有对偶性。设 $(e_i)_{1\leq i\leq l}$ 为 F 的基，且 $(e_{-i})_{1\leq i\leq l}$ 对偶基为 $F'$。然后
+代数，Cap。 IX, §4, no. 2、V可以写成两个最大全各向同性子空间 F和$F'$的直和，它们相对于$\Psi$具有对偶性。设 $(e_i)_{1\leq i\leq l}$ 为 F 的基，且 $(e_{-i})_{1\leq i\leq l}$ 对偶基为 $F'$。然后
 
 $$
 (e_1, . . . , e_l, e_{-l}, . . . , e_{-1})
 $$
 
-是基 / V；我们说它是 V 的维特基（或辛基）。相对于此基$\Psi$矩阵是阶$2l$平方矩阵
+是 V 中的基；我们说它是 V 的维特基（或辛基）。相对于此基$\Psi$矩阵为阶$2l$平方矩阵
 
 $$
 (0s)
@@ -719,7 +719,7 @@ $$
 
 (III) 放入$\alpha_1=\varepsilon_1-\varepsilon_2, . . . , \alpha_{l-1}=\varepsilon_{l-1}-\varepsilon_l, \alpha_l= 2\varepsilon_l$。由章。 VI, §4, no. 6.II，$\{\alpha_1, . . . , \alpha_l\}$是R的基B；相对于 B 的正根是 $2\varepsilon_i$ 和 $\varepsilon_i\pm \varepsilon_j(i < j)$。 相应的博雷尔子代数 $\mathfrak{b}$ 是$\mathfrak{g}$ 中上三角矩阵的集合。
 
-设$\delta$为V中的各向同性标志（即，其元素对于$\Psi$来说都是完全各向同性的子空间），并令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的子代数由……组成保持稳定元素共 $\delta$。 我们在no. 2.III中表明，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$是双射，从各向同性标志的集合（分别是最大各向同性标志）到抛物线的集合（分别是最大各向同性标志）。 Borel）$\mathfrak{g}$的子代数；当且仅当$\delta \subset \delta '$时，我们才有$\mathfrak{p}_{\delta}\supset \mathfrak{p}_{\delta'}$。
+设$\delta$为V中的各向同性标志（即，其元素对于$\Psi$来说都是完全各向同性的子空间），并令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的子代数由……组成保持稳定元素共 $\delta$。 We show as in no. 2.III that the map $\delta  \rightarrow \mathfrak{p}_{\delta}$ is a bijection from the set of isotropic flags (resp. the maximum isotropic flags) to the set of parabolic (resp. Borel) subalgebras of $\mathfrak{g}$; we have $\mathfrak{p}_{\delta}\supset \mathfrak{p}_{\delta'}$ if and only if $\delta \subset \delta '$.
 
 (IV) 基本的权相应的到 $\alpha_1, . . . , \alpha_l$ 是，第 1 章。 VI, §4, no. 6.VI，$\varpi_i=\varepsilon_1+\cdots +\varepsilon_i(1\leq i\leq l)$。
 
@@ -959,7 +959,7 @@ $$
 
 ### 4. 代数型 $\boldsymbol{D}_{\boldsymbol{l}}$ ($\boldsymbol{l}\geq$ 2)
 
-(I) 令V为维数$2l\geq 4$的向量空间，并令$\Psi$为V上最大指标$l$的非简并对称双线性形式。 代数，第 1 章IX, §4, no. 2、V可以写成两个最大全各向同性子空间F和$F'$的直和。令 $(e_i)_{1\leq i\leq l}$ 为 F 的基且为 $F'$ 的$(e_{-i})_{1\leq i\leq l}$ 对偶基（对于由 $\Psi$ 定义的 F 与 $F'$ 之间的对偶性）。那么$e_1, . . . , e_l, e_{-l}, . . . , e_{-1}$就是V的基；我们将其称为 V 的维特基。 $\Psi$的矩阵相对于此基是平方矩阵阶$2l$的S，其所有条目都是零，除了位于第二个对角线上的条目，它们等于1。代数 $\mathfrak{g}=\mathfrak{o}(\Psi )$可以与阶$2l$的方阵$g$中的代数$\mathfrak{o}_S(2l, k)$进行识别，使得$g=-S^tgS$。它有维数$l(2l-1)$。简单计算可知，$\mathfrak{g}$ 是集合 / 矩阵 / 形式
+(I) 令V为维数$2l\geq 4$的向量空间，并令$\Psi$为V上最大指标$l$的非简并对称双线性形式。 代数，第 1 章IX, §4, no. 2、V 可以写成两个最大完全各向同性子空间 F 和$F'$ 的直和。令 $(e_i)_{1\leq i\leq l}$ 为 F 的基且为 $F'$ 的$(e_{-i})_{1\leq i\leq l}$ 对偶基（对于由 $\Psi$ 定义的 F 与 $F'$ 之间的对偶性）。那么$e_1, . . . , e_l, e_{-l}, . . . , e_{-1}$就是V的基；我们将其称为 V 的维特基。 $\Psi$的矩阵相对于此基是平方矩阵阶$2l$的S，其所有条目都是零，除了位于第二个对角线上的条目，它们等于1。代数 $\mathfrak{g}=\mathfrak{o}(\Psi )$可以与阶$2l$的方阵$g$的代数$\mathfrak{o}_S(2l, k)$识别，使得$g=-S^tgS$。它有维数$l(2l-1)$。简单计算可知，$\mathfrak{g}$是集合 / 矩阵 / 形式
 
 $$
 (AB)
@@ -971,7 +971,7 @@ $$
 
 其中$A, B, C, D$是阶$l$的方阵，使得$B=-s^tBs, C=$$-s^tCs$和$D=-s^tAs(s$是阶$l$的矩阵，其所有条目都是零，除了位于第二条对角线等于 1)。
 
-令$\mathfrak{h}$为矩阵属于到$\mathfrak{g}$的对角线集合。这是$\mathfrak{g}$的交换子代数，基由元素$H_i=E_{i,i}-E_{-i,-i}$组成$1\leq i\leq l$。令 $(\varepsilon_i)$ 为 $\mathfrak{h}^*$ 对$(H_i)$ 的基。对于 $1\leq i < j\leq l$，
+令$\mathfrak{h}$为矩阵属于到$\mathfrak{g}$的对角线集合。这是$\mathfrak{g}$的交换子代数，基由元素$H_i=E_{i,i}-E_{-i,-i}$组成$1\leq i\leq l$。令$(\varepsilon_i)$为$\mathfrak{h}^*$对$(H_i)$的基。对于 $1\leq i < j\leq l$，
 
 $X_{\varepsilon_i-\varepsilon_j}$ = $E_{i,j}-E_{-j,-i}$
 
@@ -1011,7 +1011,7 @@ $(\lambda$ 0 $)$
 
 0 0 $D$
 
-其中$A, B, D$是阶$l-1,x$（或$y$）的方阵，是矩阵，有2个列和$l-1$行（分别是2行和$l-1$列），以及$\lambda \in k$。 由此可见，$a$ 使 $V_l$ 和 $V'_l$ 保持稳定。 因而，$\mathfrak{b}$ 是 $a\in \mathfrak{g}$ 的集合，使各向同性标志 $(V_1, . . . ,V_{l-1})$ 的所有元素保持稳定。 注前面和维特的定理（代数，第 1 章） IX, §4, no. 3，Th。 1) 暗示$V_l$和$V'_l$是唯一最大完全各向同性子空间包含$V_{l-1}$。
+其中$A, B, D$是阶$l-1,x$（或$y$）的方阵，是矩阵，有2个列和$l-1$行（分别是2行和$l-1$列），以及$\lambda \in k$。 由此可见，$a$ 使 $V_l$ 和 $V'_l$ 保持稳定。 因而，$\mathfrak{b}$ 是 $a\in \mathfrak{g}$ 的集合，使各向同性标志 $(V_1, . . . ,V_{l-1})$ 的所有元素保持稳定。 注前面和维特的定理（代数，第IX, §4, no. 3，第1章）意味着$V_l$和$V'_l$是唯一最大的完全各向同性子空间包含$V_{l-1}$。
 
 如果一个各向同性标志是由维数 $1, . . . , l-1$ 的 $l-1$ 完全各向同性子空间组成，我们说各向同性标志是准最大的。然后我们在no. 2中看到，对于任何准最大各向同性标志$\delta$，$a\in \mathfrak{g}$的集合$\mathfrak{b}_{\delta}$，离开$\delta$的元素稳定是$\mathfrak{g}$的博雷尔子代数，并且映射 $\delta  \rightarrow \mathfrak{b}_{\delta}$是从准最大各向同性标志的集合到博雷尔子代数的集合的双射。
 
@@ -1099,7 +1099,7 @@ $f_{2l}(x) =$ det($x$) $= (-1)^l$ det($Sx$) $= (-1)^l$(Pf($Sx$))$^2$。
 
 因此，我们可以取 $\widetilde{f}(x) =$ Pf($Sx$)。
 
-(VII) 回想一下（§5, no. 3，命题 5 的修正 1），Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ 可以与 $(\mathfrak{g},\mathfrak{h})$ 的 Dynkin 图 D 的群 Aut(D) 或自同构进行识别。 When $l\not= 4$, Aut(D) is the group of order 2 consisting of the permutations of $\alpha_1, . . . , \alpha_l$ that leave $\alpha_1, . . . , \alpha_{l-2}$ fixed. 当$l= 4$时，Aut(D)由$\alpha_1, . . . , \alpha_4$的置换组成，而$\alpha_2$固定；它同构于 $\mathfrak{S}_3$ (cf. 第一章 VI, §4, no. 8.XI）。 在所有情况下，保持 $\alpha_1$ 固定的 Aut(D) 由……组成元素的子群为阶 2。 我们用 Aut($\mathfrak{g}$) 的 Aut$'(\mathfrak{g})$ 相应的子群表示；我们有 Aut$'(\mathfrak{g}) =$ Aut($\mathfrak{g}$) if $l\not= 4$ 和 (Aut($\mathfrak{g}$) $:$ Aut$'(\mathfrak{g})$) $= 3$ if $l= 4$；而且，
+(VII) 回想一下（§5, no. 3，命题 5 的修正 1），Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ 可以与 $(\mathfrak{g},\mathfrak{h})$ 的 Dynkin 图 D 的群 Aut(D) 或自同构进行识别。 When $l\not= 4$, Aut(D) is the group of order 2 consisting of the permutations of $\alpha_1, . . . , \alpha_l$ that leave $\alpha_1, . . . , \alpha_{l-2}$ fixed. 当$l= 4$时，Aut(D)由$\alpha_1, . . . , \alpha_4$的置换组成，而$\alpha_2$固定；它与$\mathfrak{S}_3$同构的（cf.章节VI, §4, no. 8.XI）。 在所有情况下，保持 $\alpha_1$ 固定的 Aut(D) 由……组成元素的子群为阶 2。 我们用 Aut($\mathfrak{g}$) 的 Aut$'(\mathfrak{g})$ 相应的子群表示；我们有 Aut$'(\mathfrak{g}) =$ Aut($\mathfrak{g}$) if $l\not= 4$ 和 (Aut($\mathfrak{g}$) $:$ Aut$'(\mathfrak{g})$) $= 3$ if $l= 4$；而且，
 
 （自动$'(\mathfrak{g}) :$自动$_0(\mathfrak{g})$）$= 2$。
 
@@ -1311,4 +1311,4 @@ $$
 
 ### 习题 {#lie-viii-s13-exercises}
 
-§ 13](exercises/s13/)参见[习题。
+参见[习题为 § 13](exercises/s13/)。

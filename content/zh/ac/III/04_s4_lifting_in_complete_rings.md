@@ -37,23 +37,23 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: f6aac2b6db7e526e665db0802f133afff49c34441a0691a0ef4182f989c19b6e
+content_sha256: e4a1aee0d4f39b256a0d25bcdf85c331092b5e46033a4816d50292e4361722fa
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
 translation_method: google
 source_content_sha256: e207aa232d5bd052ada28a852533dc7566c32021e210764a8b52a3fbf49d5170
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 19412e545b046dd1099c0c367d1a8e0a0d32097abd53ad1a6670080a9f32c86a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 4. 完整提升环
 
 ### 1. 强相对素多项式
 
-设$R$为交换环。如果主理想$Rx$和$Ry$互质，则$R$的两个元素$x, y$被称为*强互质*，在其他字（章II, § 1, no. 2）如果$R x + R y = R$；相当于说，$R$中存在两个元素$a, b$，使得$ax + by = 1$。
+设$R$为交换环。如果主理想 $Rx$ 和 $Ry$ 互质，则 $R$ 的两个元素 $x, y$ 被称为*强互质*，在其他字（章 II, § 1, no. 2），如果 $R x + R y = R$；相当于说存在 $R$ 中的两个元素 $a, b$ 使得$ax + by = 1$。
 
 #### 引理 1（“欧几里得的引理”）{#ac-iii-s4-lem-1 .statement tag=04HS}
 
@@ -71,7 +71,7 @@ $$
 
 #### 命题 1 {#ac-iii-s4-prop-1 .statement tag=04HT}
 
-*设$\mathbf{A}$为交换环，并且$P$和$P'$是$\mathbf{A}[X]$中的两个强互素多项式。假设 $P$ 是单数且为次数 $s$。那么 $\mathbf{A}[X]$ 中的每个多项式 $T$ 都可以唯一地写成形式*
+*令$\mathbf{A}$为交换环和$P$和$P'$$\mathbf{A}[X]$中的两个强互质多项式。假设 $P$ 是单数且为次数 $s$。那么 $\mathbf{A}[X]$ 中的每个多项式 $T$ 都可以唯一地写成形式*
 $$
 T = PQ + P'Q'
 $$
@@ -130,7 +130,7 @@ $$
 
 #### 命题 2 {#ac-iii-s4-prop-2 .statement tag=04HV}
 
-*令$\mathbf{A}$和$\mathbf{B}$为从$\mathbf{A}$到$\mathbf{B}$的两个交换环、$f$同态以及$P, P'$$\mathbf{A}[X]$中的两个多项式。如果$P$和$P'$在$\mathbf{A}[X]$中强互质，则$\bar{f}(P)$和$\bar{f}(P')$在$\mathbf{B}[X]$中强互质。 逆命题为真，当且仅当是满射，如果它的核包含在 $\mathbf{A}$ 的 Jacobson 根式中并且 $P$ 是单调的。*
+*令$\mathbf{A}$和$\mathbf{B}$为从$\mathbf{A}$到$\mathbf{B}$的两个交换环、$f$同态以及$P, P'$$\mathbf{A}[X]$中的两个多项式。如果$P$和$P'$在$\mathbf{A}[X]$中强互质，则$\bar{f}(P)$和$\bar{f}(P')$在$\mathbf{B}[X]$中强互质。 逆命题为真，当且仅当是满射，如果它的核包含在 $\mathbf{A}$ 的 Jacobson 根式中，并且 $P$ 是单调的。*
 
 假设 P 和 P' 强互质；则$\mathbf{A}[X]$中存在多项式Q、Q'使得$PQ + P'Q' = 1$；我们推断
 
@@ -138,7 +138,7 @@ $$
 \bar{f}(P)\bar{f}(Q) + \bar{f}(P')\bar{f}(Q') = 1,
 $$
 
-从而第一个断言。为了显示第二个，让 a 表示核或 $f$；
+从而第一个断言。为了显示第二个，让 a 表示 $f$ 的核；
 
 令$E = A[X]$和$F$为由$P$和$P'$生成的$E$的理想；由于 $f$ 是满射且 $\bar{f}(P)$ 单调，命题 1 表明对于每个多项式 $T \in A[X]$，$A[X]$ 中存在两个多项式 $Q, Q'$，使得
 $$
@@ -150,7 +150,7 @@ $$
 
 #### 定义 1 {#ac-iii-s4-def-1 .statement tag=04HW}
 
-如果存在理想 $\mathfrak{o} \subset A$ 的邻域 $\mathfrak{o}$ 由……组成的基本系统 $\mathscr{B}$，则可交换拓扑环 $A$ 被称为线性拓扑（并且其拓扑被称为线性）。
+如果存在理想 $\mathfrak{o} \subset A$ 的邻域 $\mathfrak{o}$ 由……组成的基本系统 $\mathscr{B}$，则交换拓扑环 $A$ 被称为线性拓扑（并且其拓扑被称为线性）。
 
 注在这样的环中，理想$3 \in \mathscr{B}$是开放和封闭的（一般拓扑，章111，§ 2, no. 1，命题4的推论）。对于所有 $3 \in \mathscr{B}$，商拓扑环 $A/\mathfrak{J}$ 是离散的；对于$8 \in \mathscr{B}$，$8' \in \mathscr{B}$，$\mathfrak{J}' \subset 8$，令
 $$
@@ -258,7 +258,7 @@ $$
 
 紧接着*注 1*，$\sum_{(n_i)} b_{n_{r+1} \ldots n_p} X_{r+1}^{n_{r+1}} \ldots X_p^{n_p}$ 是一个*受限*正式的幂级数，用$f(x_1, \ldots, x_r, X_{r+1}, \ldots, X_p)$ 表示；据说它是通过在$f$中*替换*$x_i$为$X_i$为$1 \leq i \leq r$而获得的。
 
-### 3.亨塞尔引理
+### 3. 亨塞尔引理
 
 在拓扑环 $A$ 中，如果 $O$ 是序列 $(x^n)_{n \geq 0}$ 的极限，则元素 $x$ 被称为“拓扑幂零”。 If $A$ is a *linearly topologized* commutative ring, to say that $x$ is topologically nilpotent means that for every open ideal $\mathfrak{J}$ of $A$ the canonical image of $x$ in $A/\mathfrak{J}$ is a *nilpotent* element of that ring. 如果$\mathfrak{r}_g$是$A/\mathfrak{J}$的零根，则显然$(\mathfrak{r}_g)$是子集的逆系并且$A$的拓扑幂零元的集合$t$是$\mathfrak{r} = \lim \mathfrak{r}_g$的逆像典范同态$A \to \lim A/\mathfrak{J}$；因此它是$A$的“封闭理想”。 如果 $A$ 也是 *Hausdorff* 和 *完全*，则该理想包含在 $A$ 的 Jacobson 根式中，并且，对于元素 $x \in A$ 可逆，其类 mod 是充分必要的。 $t$ 在 $A/t$ (§ 2, no. 13, 引理 3) 中可逆。
 
@@ -333,7 +333,7 @@ $$
 $$
 \mathbf{f} = (f_1, \ldots, f_p) \in (A[[X_1, \ldots, X_q]])^p
 $$
-$X_j$ ($1 \leq j \leq q$) 中的形式幂级数，其系数在 $A$ 中，*没有常数项*，如果对于所有 $f_j$ 都是如此。对于正式幂级数的每系统 (8) 和每系统
+$X_j$ ($1 \leq j \leq q$) 中的形式幂级数，其系数在 $A$ 中，*没有常数项*，如果所有 $f_j$ 都是如此。对于每系统 (8) 正式幂级数和每系统
 $$
 \mathbf{g} = (g_1, \ldots, g_q) \in (A[[X_1, \ldots, X_r]])^q
 $$
@@ -346,25 +346,25 @@ $$
 $$
 \mathbf{h} = (h_1, \ldots, h_r) \in (\mathbf{A}[[X_1, \ldots, X_s]])^r
 $$
-是没有常数项的第三个系统，那么
+是第三个系统，没有常数项，那么
 $$(10)$$
 $$(f \circ g) \circ h = f \circ (g \circ h).$$
 
-对于每个整数 $m$，
+对于每整数 $m$，
 $$(f^{(m)} \circ g^{(m)}) \circ h^{(m)} = f^{(m)} \circ (g^{(m)} \circ h^{(m)})$$
-其中$f^{(m)}, g^{(m)}, h^{(m)}$表示形式幂级数$f, g, h$的系统中总次数$\leq m$的项多项式由……组成的系统。 但显然，$(f \circ g) \circ h$（或$f \circ (g \circ h)$）的级数中的总次数$\leq m$中的项与$(f^{(m)} \circ g^{(m)}) \circ h^{(m)}$（或$f^{(m)} \circ (g^{(m)} \circ h^{(m)})$）、从而和断言中的相同。
+其中$f^{(m)}, g^{(m)}, h^{(m)}$表示形式幂级数$f, g, h$的系统中总计次数$\leq m$的项多项式由……组成的系统。但显然，$(f \circ g) \circ h$（分别为$f \circ (g \circ h)$）的级数中的总次数$\leq m$中的项与$(f^{(m)} \circ g^{(m)}) \circ h^{(m)}$（分别为$f^{(m)} \circ (g^{(m)} \circ h^{(m)})$）、从而我们的断言相同。
 
-对于每个系统（8），我们将用$M_f$或$M_f(\mathbf{X})$表示雅可比行列式矩阵$(\partial f_i / \partial X_j)$（$1 \leq i \leq p, 1 \leq j \leq q$），其中$i$是指标的行，$j$是列的行；对于两个系统 (8) 和 (9)，其中 $g$ 没有常数项，
+对于每个系统 (8)，我们将用 $M_f$ 或 $M_f(\mathbf{X})$ 表示雅可比行列式矩阵 $(\partial f_i / \partial X_j)$ ($1 \leq i \leq p, 1 \leq j \leq q$)，其中 $i$ 是指标行，$j$ 是列；对于两个系统 (8) 和 (9)，其中 $g$ 没有常数项，
 $$(11)$$
 $$M_{f \circ g} = (M_f(g)). M_g$$
-其中$M_f(g)$是矩阵，其中元素是通过将$M_f$的每个级数、元素中的$g$替换$\mathbf{X}$、($1 \leq j \leq q$)得到；这个公式只是代数、章IV, § 5, no. 8的公式(9)的重新表述。我们用$M_f$的元素的常数项的$M_f(0)$矩阵来表示；然后我们从 (11) 推出
+其中$M_f(g)$是矩阵，其中元素是用$g$代替$\mathbf{X}$得到的，$M_f$的每个级数元素中都有($1 \leq j \leq q$)；这个公式只是代数、章IV, § 5, no. 8的公式(9)的重新表述。我们用$M_f$的元素的常数项的$M_f(0)$矩阵来表示；然后我们从 (11) 推出
 $$(12)$$
 $$M_{f \circ g}(0) = M_f(0). M_g(0).$$
 
 给定整数 $n > 0$，我们将写
 $$(13)$$
 $$\mathbf{1}_n = \mathbf{X} = (X_1, \ldots, X_n) \in (\mathbf{A}[[X_1, \ldots, X_n]])^n,$$
-这将被视为带有单个列的矩阵。
+这将被视为矩阵和单个列。
 
 对于每个系统$\mathbf{f} = (f_1, \ldots, f_n) \in (\mathbf{A}[[X_1, \ldots, X_n]])^n$，$M_f$是阶$n$的平方矩阵；我们用$J_f$或$J_f(\mathbf{X})$表示它的行列式，用$J_f(0)$表示$J_f$的常数项，等于$\det(M_f(0))$；如果$\mathbf{g} = (g_1, \ldots, g_n)$是系统，而$(\mathbf{A}[[X_1, \ldots, X_n]])^n$中没有常数项，那么，由（11）和（12），
 $$(14)$$
@@ -396,7 +396,7 @@ $$
 
 命题 5 和公式 (10) 和 (15) 表明，在合成 $(f, g) \mapsto f \circ g$ 集合系统 $f = (f_1, \ldots, f_n)$ $n$ 级数的律下，没有常数项时$A[[X_1, \ldots, X_n]]$，其中$J_f(0)$在$A$中可逆，是群。
 
-### 5.完整方程的系统环
+### 5. 完整方程的系统环
 
 简而言之，如果环是可交换的、线性拓扑的、豪斯多夫且完备的，那么环满足*Hensel的条件*；给定这样的环中的理想$m$，$m$（或有序对$(A, m)$）将被称为满足*Hensel的条件*，如果$m$在$A$中封闭并且其元素在拓扑上是封闭的幂零。所有拓扑幂零元的$A$由……组成的理想$t$满足Hensel的条件（no. 3）。
 
@@ -529,7 +529,7 @@ $$
 
 $r + 1 \leq i \leq n$。
 
-*对于$1 \leq i \leq r$，设$f_i(X) = X_i - a$，并设$u = (f_1, \ldots, f_n)$；那么$J_u(a) = e$和定理2可以应用于系统$u$。对于定理 2 的记号，从上面的定义得出$g_i(X) = X$，对于$1 \leq i \leq r$，从而$h_i(X) = X_i$对于$1 \leq i \leq r$；此外，如果$M' \in \mathbf{M}_n(\mathbf{A})$使得$M_u(a) . M' = e I_n$，则$M'$等于形式
+*对于$1 \leq i \leq r$，设$f_i(X) = X_i - a$，并设$u = (f_1, \ldots, f_n)$；那么$J_u(a) = e$和定理2可以应用于系统$u$。对于记号为定理2，从上面的定义得出$g_i(X) = X$，对于$1 \leq i \leq r$，从而$h_i(X) = X_i$对于$1 \leq i \leq r$；此外，如果$M' \in \mathbf{M}_n(\mathbf{A})$使得$M_u(a) . M' = e I_n$，则$M'$等于形式
 
 $$
 \begin{pmatrix}
@@ -553,7 +553,7 @@ $$
 
 $r + 1 \leq j \leq n$。对于$r + 1 \leq i \leq n$，在(26)中用$t_j$代替$z_j$代替$1 \leq j \leq r$，用$b_j$代替$z_j$代替$r + 1 \leq j \leq n$，我们得到所有$t \in m^{\times r}$的关系(25)。
 
-### 6. 分解环的申请
+### 6. 适用于分解 / 环
 
 #### 引理 2 {#ac-iii-s4-lem-2 .statement tag=04ID}
 
@@ -579,8 +579,8 @@ $$
 
 #### 注 {#ac-iii-s4-n6-rem-1 .statement tag=04IF}
 
-命题 8 再次给出 $A$ 上半局部环的结构，它是 Hausdorff，并与 $c$-adic 拓扑完成（c $A$ 的 Jacobson 根），它已经作为 § 2, no. 13 的推论获得，推论命题19。
+命题 8 再次给出 $A$ 上半局部环的结构，它是 Hausdorff，并与 $c$-adic 拓扑（c $A$ 的 Jacobson 根）完备的，它已经作为 § 2, no. 13 的推论获得，推论命题19。
 
 ### 习题 {#ac-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

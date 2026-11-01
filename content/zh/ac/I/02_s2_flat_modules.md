@@ -57,19 +57,19 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: f7707a1a1b62be6e2544ea8c4a3219c012295e198a0590e243370ebb5bd83cc2
+content_sha256: 1c4f503d4bb4b8e3bacfcd3309681fc8c59d724caf3bd4b73c01af09d7c20c40
 translated_from: content/en/ac/I/02_s2_flat_modules.md
 translation_method: google
 source_content_sha256: 28d69ca6e99e7466a70edf5b1c736029d397199a01db0537698a81ada5d7fea8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f369edee2b57f650edea98a2f93f2889828d9484d3f7b7f68178ab3a2cdcc46f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2. 扁平模(*)
+## 2. 平模(*)
 
 ### 1. 张量积的修订
 
@@ -81,15 +81,15 @@ $$
 
 #### 引理 1 {#ac-i-s2-lem-1 .statement tag=042F}
 
-*令*$M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$*为左A-模和E右A-模中的正合序列。然后序列*
+*令*$M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$*为左A-模和E右A-模的正合序列。然后序列*
 
 $$
 E \otimes_A M' \xrightarrow{\text{1}\otimes v} E \otimes_A M \xrightarrow{u \otimes w} E \otimes_A M'' \longrightarrow 0
 $$
 
-*是交换律群的正合序列。*
+*是交换性群的正合序列。*
 
-这是命题 5 of 代数、章 II, § 3, no. 6 的推论。
+这是代数、章 II, § 3, no. 6 命题 5 的推论。
 
 由此可见，对于任意左A-模同态 $u : M \to N$，
 
@@ -113,17 +113,17 @@ $E \otimes_A M$ 的子群。然而，回想一下（代数，章II, § 3, no. 7�
 
 *如果$v : M' \to M$是单射且$v(M')$是$M$的直因子，则同态$1, \otimes v$是单射并且其像是$E \otimes_A M$的直因子。*
 
-### 2. M 平底模
+### 2. M-平底模
 
 #### 定义 1 {#ac-i-s2-def-1 .statement tag=042H}
 
-令$A$为环，$E$为右$A$模块，$M$为左$A$模块。如果对于每个左 $A$-模 $M'$ 和每个单同态 $v : M' \to M$，同态 $l_E \otimes v : E \otimes_A M' \to E \otimes_A M$ 是单射的，则称 $E$ 对于$M$（或$M$-平坦）是平坦的。
+令$A$为环，$E$为右$A$模块，$M$为左$A$模块。如果对于每个左 $A$-模 $M'$ 和每个单同态 $v : M' \to M$，同态 $l_E \otimes v : E \otimes_A M' \to E \otimes_A M$ 是单射的，则$E$ 被认为对于$M$（或$M$-平坦）是平坦的。
 
 对于任何右$A$-模块$N$，$N$-平面左模的概念的定义类似。说右$A$-模块$E$对于左$A$-模块$M$来说是平坦的，相当于说，$E$，被视为左$A^0$-模块（回想一下，$A^0$表示逆环到$A$)，对于右侧$A^0$模块$M$来说是平坦的。
 
 #### 引理 3 {#ac-i-s2-lem-3 .statement tag=042I}
 
-*对于紧密的$A$模$E$为$M$平坦，对于$M$典范同态的每个有限生成的子模$M'$是必要且充分的*
+*对于紧密的$A$模$E$为$M$平坦，对于$M$典范同态的每个有限生成的子模$M'$来说是必要且充分的*
 
 $$
 l_E \otimes j : E \otimes_A M' \to E \otimes_A M
@@ -205,7 +205,7 @@ $$
 
 (c) 在一般情况下，令$M'$为M的有限生成的子模。则存在索引集合I的有限子集J，使得$M'$包含在直和$M_J = \bigoplus_{i \in J} M_i$中。由 (b) E 对于 $M_J$ 是平坦的； 典范同态 $E \otimes_A M' \to E \otimes_A M$，因此是单射的。另一方面，由于$M_J$是M的直因子，典范同态$E \otimes_A M_J \to E \otimes_A M$是单射的（no. 1，引理2）。取合成，可得出$E \otimes_A M, \to E \otimes_A M$ 是单射且 E 对 M 平展引理 3。
 
-### 3.平模
+### 3. 扁平模
 
 #### 命题 1 {#ac-i-s2-prop-1 .statement tag=042L}
 
@@ -311,7 +311,7 @@ $$
 $$
 因为采用直极限与张量积 (代数, 章 II, § 6, no. 3, 命题 7) 进行通勤并保持精确性 (同上, § 6, no. 2, 命题 3)。
 
-### 4. 例平坦模
+### 4. 例扁平模
 
 (1) 对于任何环 $A$、$A$，显然是一个平面 $A$ 模（代数、章 II, § 3, no. 4、命题 4）。然后从命题 2, (i) of no. 3 得出，每个自由权$A$-模，更一般地每个射影权$A$-模（代数，章 11，§ 2, no. 2），都是一个平面$A$-模。
 
@@ -331,13 +331,13 @@ $$
 
 我们证明（i）。设$v : A, \to A$为左$A$-模同态$t \mapsto ta$； 假设意味着 $v$ 是单射的。由于 $E$ 是平的，同态 $1_E \otimes v : E \otimes_A A, \to E \otimes_A A$ 也是单射的。当 $E \otimes_A A$ 与 $E$ 进行规范标识时，$1, \otimes v$ 变为 $E$ 的自同态 $x \mapsto xa$。因此关系$xa = 0$意味着$x = 0$。
 
-我们证明(ii)。根据 (i)，如果 $E$ 是平坦的，则 $E$ 是无扭转的。相反，令$E$为无扭$A$模；我们验证，对于$A$的每个有限生成的理想$a$，典范同态$E \otimes_A a \to E$是单射的（no. 3，注1）。如果$a = (0)$，这个断言是显而易见的；否则，对于某些$a \in A, a \neq 0$，通过假设$a = Aa$，然后$t \mapsto ta$是$A$的同构$v$到$a$；使用 $i$ 表示典范嵌入 $a \to A$，$i \circ v$ 是位似，$a$ 与 $E$ 之比，并且是单射的，因为 $E$ 被假定为无扭转。然后$1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$；由于 $1_E \otimes v$ 是同构，$1, \otimes i$ 是单射的，它完成证明。
+我们证明(ii)。根据 (i)，如果 $E$ 是平坦的，则 $E$ 是无扭转的。相反，令$E$为无扭$A$模；我们验证，对于$A$的每个有限生成的理想$a$，典范同态$E \otimes_A a \to E$是单射的（no. 3，注1）。如果$a = (0)$，这个断言是显而易见的；否则，对于某些$a \in A, a \neq 0$，通过假设$a = Aa$，$t \mapsto ta$则为$A$的同构$v$到$a$；使用 $i$ 表示典范嵌入 $a \to A$，$i \circ v$ 是位似，$a$ 与 $E$ 之比，并且是单射的，因为$E$ 被假定为无扭转。然后$1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$；由于 $1_E \otimes v$ 是同构，$1, \otimes i$ 是单射，它完成证明。
 
 #### 例 {#ac-i-s2-n4-exa-1 .statement tag=042Q}
 
 应用命题3到环$\mathbf{Z}$，可以看出$\mathbf{Q}$是一个扁平的$\mathbf{Z}$模，但是$\mathbf{Z}/n\mathbf{Z}$（对于$n \geq 2$）不是一个扁平的$\mathbf{Z}$模。
 
-### 5. 商模的平坦度
+### 5. 平整度商模
 
 #### 命题 4 {#ac-i-s2-prop-4 .statement tag=042R}
 
@@ -350,7 +350,7 @@ $$
 $$
 0 \longrightarrow G \xrightarrow{v} H \xrightarrow{w} E \longrightarrow 0
 $$
-以及剩下的每个$A$-模块$F$，序列
+剩下的每个$A$-模块$F$，序列
 
 (2)
 $$
@@ -358,9 +358,9 @@ $$
 $$
 是准确的。
 
-(c) 存在正合序列 (1)，其中 $H$ 是平坦的，使得序列 (2) 对于形式 $A_s/a$ 的每个左$A$-模 $F$ 是精确的，其中 $a$ 是 $A$ 的有限生成的左理想。
+(c) 存在正合序列 (1)，其中 $H$ 是平坦的，使得序列 (2) 对于形式 $A_s/a$ 的每个左 $A$-模 $F$ 是精确的，其中 $a$ 是有限生成的左理想$A$。
 
-我们首先证明（a）蕴涵（b）。左侧$A$模$F$同构于商自由模 (代数, 章 II, § 1, no. 11, 命题 20)；在其他字，我们有正合序列
+我们首先证明（a）蕴涵（b）。左边的$A$模$F$同构于商自由模 (代数, 章 II, § 1, no. 11, 命题 20)；在其他字，我们有正合序列
 
 $$
 0 \longrightarrow R \xrightarrow{i} L \xrightarrow{p} F \longrightarrow 0
@@ -380,7 +380,7 @@ $$
 
 (3)
 
-紧接着，这个图表是可交换的，并且它的行和列精确到no. 1的引理 1；此外，由于$l_G \otimes p$和$l_H \otimes p$是满射（no. 1，引理1），我们有$G \otimes F = \operatorname{Coker}(l_G \otimes i)$，
+紧接着，这个图表是可交换的，并且它的行和列精确到no. 1的引理1；此外，由于$l_G \otimes p$和$l_H \otimes p$是满射（no. 1，引理1），我们有$G \otimes F = \operatorname{Coker}(l_G \otimes i)$，
 
 $$
 H \otimes F = \operatorname{Coker}(l_H \otimes i);
@@ -390,7 +390,7 @@ $w \otimes 1_1$ 是满射 (no. 1, 引理 1)；最后，由于 L 是自由的，�
 
 (4) $$ \operatorname{Ker}(l_H \otimes i) \longrightarrow \operatorname{Ker}(l_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F. $$
 
-既然如此，如果 E 是平的，则 $l_E \otimes i$ 是单射的，在其他字 $\operatorname{Ker}(l_E \otimes i) = 0$ 和正合序列 (4) 中，$v \otimes 1_F$ 是单射的，因此序列 (2) 是精确的（考虑到 no. 1 的引理 1）。
+既然如此，如果 E 是平的，$l_E \otimes i$ 是单射的，在其他字 $\operatorname{Ker}(l_E \otimes i) = 0$ 中，正合序列 (4) 表明 $v \otimes 1_F$ 是单射的，因此序列 (2) 是精确的（考虑到 no. 1 的引理 1）。
 
 由于(b)显然蕴涵(c)，所以还需要证明(c)蕴涵(a)。 在$\mathbf{R} = \mathbf{a}, \mathbf{L} = \mathbf{A}_s, \mathbf{F} = \mathbf{A}_s/\mathbf{a}$情况下考虑图表(3)并应用正合序列(4)。 By hypothesis $v \otimes 1_F$ is injective, hence $\operatorname{Im}(d) = 0$; moreover, as H is flat, we have $\operatorname{Ker}(1, @i) = 0$; the exactness of the sequence (4) then implies $\operatorname{Ker}(l_E \otimes i) = 0$, in other words, $1, \otimes i$ is injective and this proves that E is flat (no. 3, Remark 1).
 
@@ -492,7 +492,7 @@ $$
 (ii) *相反，假设 E 是平坦的，并且对于 A 的每个有限生成的左理想 a，关系 (5) 成立。那么 E/E' 是平坦的。*
 
 (i) 对于$F = A$、$F' = a$的情况，应用命题就足够了。
-(ii) 为了证明$E/E'$是平坦的，应用no. 5的命题 4的标准(c)；那么有必要确定序列
+(ii) 为了证明$E/E'$是平坦的，应用no. 5的命题4的标准(c)；那么有必要确定序列
 $$
 0 \to E'/E'a \to E/Ea \to E/(E' + Ea) \to 0
 $$
@@ -532,11 +532,11 @@ $$
 
 令$C$为交换环、$E, F$两个扁平的$C$模块。那么$E \otimes_C F$是一个扁平的$C$模块。
 
-$F$是一个$(C, C)$双模，用$B = A = C$满足应用命题 8即可。
+$F$ 是 $(C, C)$ 双模，用 $B = A = C$ 足以应用命题 8。
 
 #### 推论 2 {#ac-i-s2-prop-8-cor-2 .statement tag=0431}
 
-*令$\rho$为环$A$到环$B$中的同态。如果$E$是平右$A$-模，则将标量的环扩展到$B$（*代数*，章II, § 5, no. 1）获得的右$B$-模$\rho^*(E) = E_{(B)}$是平的。*
+*令$\rho$为环$A$到环$B$中的同态。如果$E$是平右$A$模，则将标量的环扩展到$B$（*代数*，章II, § 5, no. 1）得到的右$B$模$\rho^*(E) = E_{(B)}$是平的。*
 
 通过定义$E_{(B)} = E \otimes_A B$，其中$B$通过$\rho$被视为$(A,B)$双模。由于右边的$B$-模$B_d$是平的，所以应用命题8就足够了。
 
@@ -554,7 +554,7 @@ $F$是一个$(C, C)$双模，用$B = A = C$满足应用命题 8即可。
 
 ### 8. 有限呈现模
 
-设$A$为环。 正合序列
+令$A$为环。 正合序列
 $$
 L_1 \to L_0 \to E \to 0
 $$
@@ -614,7 +614,7 @@ $$
 
 由于$v(L_1)$和$\mathrm{Coker}\, v$是有限生成的，$F$也是有限生成的（*代数*，章II, § 1, no. 7，推论5到命题9）。
 
-### 9. 同态模中的标量扩张
+### 9. 同态模中的标量的扩张
 
 令$A$和$B$为两个环，$E$为右$A$模，$F$为右$B$模，$G$为$(B, A)$双模。回想一下，我们已经定义了 $\mathbf{Z}$ 模块的 (代数, 章 II, § 4, no. 2) 典范同态
 
@@ -658,7 +658,7 @@ $$
 
 是单射的，因此 $\nu_E$ 也是单射的。如果我们假设$\nu_{L_0}$和$\nu_{L_1}$都是双射的，那么从§ 1, no. 4，推论2，(ii)到命题2，$\nu_E$是满射的，正如我们刚刚看到的，$\nu_E$是单射的，它是双射的。
 
-### 10.标量的扩张：交换环的情况
+### 10. 标量的扩张：交换环的情况
 
 Now let $A$ be a *commutative* 环, $B$ 环 and $\rho : A \to B$ 环同态 such that $\rho(A)$ is contained in the *中心* of $B$;其他字、$\rho$ 定义 $B$ 上
 
@@ -744,17 +744,17 @@ $$
 
 *设A、B为两个交换环、$p : A \to B$同态，则B为平音A-模，E为A-模。然后，对于 E 的每个有限生成的子模 F，$F_{(B)}$ 的湮没子是 B 的理想 $aB$，其中 a 是 A 中 F 的湮没子。*
 
-加上 $E_1 = A$、$E_2 = E_3 = E$、$F_2 = F$、$F_3 = \{0\}$ 就足以满足应用命题 12。
+加上 $E_1 = A$、$E_2 = E_3 = E$、$F_2 = F$、$F_3 = \{0\}$ 就足够应用命题 12。
 
 #### 注 {#ac-i-s2-n10-rem-1 .statement tag=043B}
 
-如果模 E 上没有歧义，双线性映射 $f$ 也没有歧义，则$F_3 : F_2$ 是有时用于表示命题 12 中由T 表示的模，并且它被称为F 到F 的*传送器*。 命题 12 的结论如下：
+如果模 E 上没有歧义，也没有双线性映射 $f$，则$F_3 : F_2$ 是有时用于表示命题 12 中由T 表示的模，并且它被称为F 到F 的*传送器*。 命题 12 的结论如下：
 
 $$
 F_{3(B)} : F_{2(B)} = (F_3 : F_2)_{(B)}.
 $$
 
-在特定情况下，当$E_i$等于环，$A, f$等于乘法且$F_i$理想$a_i$时，我们获得*转运公式*
+在特定情况下，当$E_i$等于环，$A, f$等于乘法且$F_i$理想$a_i$时，我们得到*转运公式*
 
 $$
 B(a_3 : a_2) = Ba_3 : Ba_2
@@ -762,7 +762,7 @@ $$
 
 当 $B$ 是平面 $A$ 模并且 $a_2$ 是有限生成的理想时有效。
 
-### 11. 项 OF 关系中平坦度的解释 (*)
+### 11. 项关系中平面度的解释 (*)
 
 在整个过程中没有。 $A$表示环，$E$表示右$A$模块，$F$表示左$A$模块。
 
@@ -774,7 +774,7 @@ $$
 
 #### 引理 10 {#ac-i-s2-lem-10 .statement tag=043C}
 
-*让*$(f_\lambda)_{\lambda \in L}$*成为*$F$*的生成元的家庭和*$(e_\lambda)_{\lambda \in L}$*元素的*$E$*有限支撑的家庭。对于*$\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$，*存在一个有限的集合*$J$，*$(x_j)_{j \in J}$*的元素*$E$*和一个元素的*族*$(a_{j,\lambda})$*($j \in J, \lambda \in L$)*是充分必要的$A$ *具有以下属性：*
+*令*$(f_\lambda)_{\lambda \in L}$*成为*$F$*的生成元的家庭和*$(e_\lambda)_{\lambda \in L}$*元素的*$E$*有限支撑的家庭。对于*$\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$，*存在一个有限的集合*$J$，*$(x_j)_{j \in J}$*的元素*$E$*和一个元素的*族*$(a_{j,\lambda})$*($j \in J, \lambda \in L$)*是充分必要的$A$ *具有以下属性：*
 
 (1) *族* $(a_{j,\lambda})$ *有有限支撑;*
 
@@ -782,7 +782,7 @@ $$
 
 (3) $e_\lambda = \sum_{j \in J} x_j a_{j,\lambda}$ *对于所有人* $\lambda \in L.$
 
-宽松地说，$e_\lambda$的系统必须是线性组合，其中系统、元素、$A$的$E$的系数是“$f_\lambda$之间的关系”。
+宽松地说，$e_\lambda$的系统必须是线性组合，其中$E$、系统、元素、$A$的系数是“$f_\lambda$之间的关系”。
 
 考虑免费的$A$-模块$A_s^{(L)}$，其典范基$(u_\lambda)$和同态$g : A_s^{(L)} \to F$，使得$g(u_\lambda) = f_\lambda$适用于所有$\lambda \in L$；用$g$的$R$核表示，我们有（从$f_\lambda$生成$F$）正合序列
 
@@ -790,13 +790,13 @@ $$
 R \xrightarrow{i} A_s^{(L)} \xrightarrow{g} F \longrightarrow 0
 $$
 
-其中$i$表示典范嵌入。通过 no. 1 的引理 1，我们得出正合序列
+其中$i$表示典范嵌入。通过 no. 1 的引理 1 我们得出正合序列
 
 $$
 E \otimes_A R \xrightarrow{1 \otimes i} E \otimes_A A_s^{(L)} \xrightarrow{1 \otimes g} E \otimes_A F \longrightarrow 0.
 $$
 
-(*) 此编号的结果。除了§ 3, no. 7之外，将不会在章的其余部分中使用。
+(*) 此编号的结果。除了§ 3, no. 7之外，将不会在剩余的章中使用。
 
 现在，$E \otimes_A A_s^{(L)}$ 被规范地标识为 $E^{(L)}$，$e = (e_\lambda) \in E^{(L)}$ 家族被标识为 $\sum_{\lambda \in L} e_\lambda \otimes u_\lambda$（*代数*、章 II、、no. 7、推论 1 到命题 7）。对于$1_E @ g$属于到核这样的家庭来说，$E \otimes_A F$中的$\sum_{\lambda \in L} e_\lambda \otimes f_\lambda = 0$是充分必要的；考虑到正合序列（13），这相当于$1, \otimes i$的$e$属于到像的说，其他字还有形式的关系
 
@@ -829,18 +829,18 @@ $$
 
 对于右$A$模$E$是平坦的，满足以下条件成立是必要且充分的：
 
-(RP) *如果* $(e_i)_{i \in I}$和$(b_i)_{i \in I}$分别是$E$和$A$的元素的两个有限族，使得$\sum e_i b_i = 0$，存在有限集合$J$，元素的$(x_j)_{j \in J}$族$E$ 和元素 $A$ 的$(a_{ji})$ ($j \in J, i \in I$) 家庭，使得$\sum a_{ji} b_i = 0$ 适合所有$j \in J$，$e_i = \sum_{j \in J} x_j a_{ji}$ 适合所有$i \in I$。
+(RP) *如果* $(e_i)_{i \in I}$和$(b_i)_{i \in I}$分别是$E$和$A$的元素的两个有限族，使得$\sum e_i b_i = 0$，存在有限集合$J$，元素的$(x_j)_{j \in J}$族$E$ 和元素 $A$ 的家庭$(a_{ji})$ ($j \in J, i \in I$)，使得$\sum a_{ji} b_i = 0$ 适合所有$j \in J$，$e_i = \sum_{j \in J} x_j a_{ji}$ 适合所有$i \in I$。
 
 条件 (RP) 只是命题 13 的条件 (R) 应用于模 $F = A_s$。
 
-宽松地说，（RP）指出：系数在$E$中的$b_i$之间的每个“关系”，是系数在$A$中的$b_i$之间的“关系”的线性组合（系数在$E$中）。
+宽松地说，（RP）指出：$b_i$之间的每个“关系”，系数在$E$中，是$b_i$之间的“关系”（系数在$E$中）线性组合（系数在$A$中）。
 
 让我们特别考虑$A$到环$B$的同态，这使得$B$成为右$A$模块。我们知道（no. 3，命题 1），这相当于说，这个$A$-模块是平坦的，或者它对于每个左边的$A$-模块$A_s^m$（$m \geqslant 1$）都是平坦的。 命题 13 与 $E = B$ 和 $F = A_s^m$ 的应用条件 (R) 我们得到以下条件：
 
 #### 推论 2 {#ac-i-s2-prop-13-cor-2 .statement tag=043F}
 
-为了使环$B$成为平右$A$模，满足以下条件是充分必要的：
-(RP') *齐次线性方程组解* $(y_k)_{1 \leq k \leq n}$、$B$、系统元素、由……组成
+为了使环$B$成为平右$A$模，其满足以下条件是充分必要的：
+(RP') *齐次线性方程组每解* $(y_k)_{1 \leq k \leq n}$、$B$元素由……组成、系统
 
 $$
 \sum_{k=1}^n y_k c_{ki} = 0 \quad (1 \leq i \leq m)
@@ -851,6 +851,6 @@ y_k = \sum_{j=1}^q b_j z_{jk} \quad (1 \leq k \leq n)
 $$
 其中*系数* $b_j \in B$，解 $(z_{jk})_{1 \leq k \leq n}$，系统 (15)，由……组成，元素 $z_{jk}$，$A$。
 
-### 习题{#ac-i-s2-exercises}
+### 习题 {#ac-i-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

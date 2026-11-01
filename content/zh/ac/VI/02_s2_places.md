@@ -33,16 +33,16 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: d321ff5fe5073f57509ca06df45a494dc5c74f95f77911b16e14b76819c27a5f
+content_sha256: 4b5ae08f77d04cd0c354867532014d87e6c566e1fbdfd06b188b29d1f43eed01
 translated_from: content/en/ac/VI/02_s2_places.md
 translation_method: google
 source_content_sha256: 53c302660c61cd7fef1b70be1d4b1ffa083e7229208dbbe2c386c3d702cdbacb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 764574dc574d23ce551dbc8841cb4afe0a172112c47cd45cf804d8678c27b1f5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 2. 地点
@@ -67,7 +67,7 @@ $$
 
 正如表示一样，*集合理论*的态射满足公理(MO_I)、(MO_{II})、(MO_{III})、章IV, § 2。如果：$E \to E'$是态射，$f(E)$是$\mathbf{R}'$的稳定子集。
 
-### 2.地点
+### 2. 地点
 
 If K is a field, recall that $\mathbf{K}$ denotes the set the sum of K and an element denoted by $\infty$ (*Algebra*, Chapter 11, § 9, no. 9); the laws of composition of K extend to $\mathbf{K}$ by setting (*loc. cit.*)
 
@@ -123,13 +123,13 @@ $$
 
 对于$x \in \tilde{K}$，如果$f(x) \neq \infty$，则$f$在$x$称为有限；这意味着 (6) $x \in K$。
 
-如果$f : K \to \tilde{L}$是一个地方，$f(K)$是$\tilde{L}$的子集，对于合成$(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$的律和$(x, y) \mapsto xy^{-1}$是稳定的，并且包含1。如果E是有限元素的集合 $f(\tilde{K})$，E是L和$f(\tilde{K}) = \tilde{E}$的子域。通过滥用语言 E 被称为“值域”。
+如果$f : K \to \tilde{L}$是一个地方，$f(K)$是$\tilde{L}$的子集，对于合成$(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$和$(x, y) \mapsto xy^{-1}$的律是稳定的，并且包含为1。如果E是有限的集合 $f(\tilde{K})$的元素，E是L和$f(\tilde{K}) = \tilde{E}$的子域。通过滥用语言 E 被称为“值域”。
 
 两个地方的*复合* 映射就是一个地方。
 
-令 F 为域 K 的同构到域 L 的子域；让我们通过设定$f(\infty) = \infty$从扩展$f$到$K$。因此，我们在 L 中获得了具有值的 K 位置，称为“平凡”，并且通常用同构 $f$ 来标识。
+令F为域K的同构到域L的子域；让我们通过设定$f(\infty) = \infty$从扩展$f$到$K$。因此，我们在 L 中获得了具有值的 K 位置，称为“平凡”，并且通常用同构 $f$ 来标识。
 
-### 3.地点和估价环
+### 3. 地点和估值环
 
 #### 命题 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
@@ -183,13 +183,13 @@ $$
 
 令$K$为域，$f$为$K$，值位于域$L$，$K'$扩张为$K$。那么存在$L$的扩张$L'$和$K'$的位置$f'$，其中值位于$L'$，其中扩展$f$。如果$x_1, \ldots, x_n$是$K$的元素，并且在$K$和$a_1, \ldots, a_n$上代数独立，则可以选择任何元素$\in L$、$f'$，使得$f(x_i) = a_i$对于$1 \leq i \leq n.$
 
-令$V$为环关闭，$g$限制关闭至$V$以及$g$至$V[x_1, \ldots, x_n]$的$g'$扩张，使得$g'(x_i) = a,$对于$1 \leq i \leq n.$就足够了$L'$为$L$和应用命题3的代数闭包到$g'$和$L'$：我们得到一个placef'：$K' \to \tilde{L}'$，其中扩展$g'$；如果$x \in K - V,$则$x^{-1} \in m(V),$从而$f(x^{-1}) = g(x^{-1}) = 0$和$f'(x) = \infty = f(x);$因此延伸。
+令$V$为环关闭，$g$限制关闭至$V$以及$g$至$V[x_1, \ldots, x_n]$的$g'$扩张，使得$g'(x_i) = a,$对于$1 \leq i \leq n.$就足够了$L'$为$L$和应用命题3的代数闭包到$g'$和$L'$：我们得到一个placef'：$K' \to \tilde{L}'$，其中扩展$g'$；如果$x \in K - V,$则$x^{-1} \in m(V),$从而$f(x^{-1}) = g(x^{-1}) = 0$和$f'(x) = \infty = f(x);$因此延伸'。
 
 ### 5. 刻画积分元素通过位置
 
 #### 命题 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 
-令$K$为域，$K, h$同态中的$S$子环从$S$到域以及$h.$的$p$核对于元素 $K$的$x$在局部环$S,$上积分，$K$延伸$h$的每个位置在$x.$处是有限的是充分必要的
+令$K$为域、$K, h$同态中的$S$子环从$S$到域以及$h.$中的$p$核对于$K$的元素$x$在局部环$S,$上积分，$K$延伸$h$的每个位置在$x.$处是有限的是充分必要的
 
 如果$f$是$K$延伸$h, f$的地方在$S_p$上是有限的，零在$pS_p$上是有限的，因此$f$地方的环占主导地位$S_p.$相反，如果$V$是一个评估环支配$S_p,$$V$的$K$是限制到$S$是同态的位置的环，并且核与$h;$替换$f$具有相同的位置，可以看出，$V$是$K$地方的环，其中扩展$h.$要说，$K$延伸$h$的每个地方在$x$处都是有限的，相当于说那个$x$ 属于到$K$的所有估值环，主导$S_p.$命题，然后从§ 1, no. 3的定理3开始。
 
@@ -201,4 +201,4 @@ $$
 
 ### 习题{#ac-vi-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

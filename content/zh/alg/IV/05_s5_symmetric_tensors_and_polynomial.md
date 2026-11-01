@@ -68,23 +68,23 @@ errata:
     - says: we have $u_\omega \in U^H$ for all $w \in \Omega$
       read: we have $u_\omega \in U^H$ for all $\omega \in \Omega$
       why: The proof on page 56 sets the subscript of u round and the quantifier of the same letter roman, in one clause.
-content_sha256: 1ba5954f4494426d5f1b590c11e8af96731a9d5910066dd4c75ebc64e75bf6f4
+content_sha256: 4ed39ce902ab7833776ba9d11f5c61250eda7f6f5dd78da87f31a31c2dc285d6
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 translation_method: google
 source_content_sha256: 0718f77b4c960447aa7b0aaceb1e4b634413b342ee6a1fdee7d6efa83b9be82a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8de4763142dfdc93500ca0c5e1a40af6a57dd42e5e67194c0c538df9809e288b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。对称张量和多项式映射
 
 ### 1. 相对痕迹
 
-设 H 为群，M 为左 A[H]-模 $^{(1)}$。我们用所有$m \in M$中的$M^H$集合表示，使得$hm = m$代表所有$h \in H$$^{(2)}$；这是M的子A模块。
+设 H 为群，M 为左 A[H]-模 $^{(1)}$。我们将用所有$m \in M$中的$M^H$集合表示，使得$hm = m$代表所有$h \in H$$^{(2)}$；这是M的子A模块。
 
 设G是H的子群，则$M^G$是M包含$M^H$的子A模。
 
@@ -129,7 +129,7 @@ $$
 \mathrm{Tr}_{H/hGh^{-1}}(hm) = \mathrm{Tr}_{H/G} m .
 $$
 
-(ii) 令 F 为 G 中有限指标的 G 子群，并令 $m \in M^F$，则
+(ii) 令 F 为 G 中的有限指标的子群，并令$m \in M^F$，则
 
 $$
 \mathrm{Tr}_{H/G}(\mathrm{Tr}_{G/F} m) = \mathrm{Tr}_{H/F} m
@@ -158,7 +158,7 @@ $$
 
 ### 2. 定义对称张量
 
-令 M 为 A-模。我们记得（III，p. 501）$\mathfrak{S}_n$在A-模$T^n(M)$的左侧进行运算，这样
+设 M 为 A-模。我们记得（III，p. 501）$\mathfrak{S}_n$在A-模$T^n(M)$的左侧进行运算，这样
 
 $$
 \sigma(x_1 \otimes x_2 \otimes \ldots \otimes x_n) = x_{\sigma^{-1}(1)} \otimes x_{\sigma^{-1}(2)} \otimes \ldots \otimes x_{\sigma^{-1}(n)}
@@ -166,7 +166,7 @@ $$
 
 对于任意 $x_1, \ldots, x_n \in M$ 和 $\sigma \in \mathfrak{S}_n$。 元素 $z \in T^n(M)$，使得所有$\sigma \in \mathfrak{S}_n$的$\sigma \cdot z = z$被称为阶 n 的对称张量；它们是形式$T^n(M)$的子A模块，用$\mathbf{TS}^n(M)$表示；我们有$\mathbf{TS}^0(M) = A, \mathbf{TS}^1(M) = M$。我们将把
 
-TS(M) = $\bigoplus_{n=0}^{\infty} TS^n(M)$;这是$\mathbf{T}(M)$的分级子A模块。对于每个 $z \in T^n(M)$ 元素 $\sum_{\sigma \in S_n} \sigma . z$ 属于到 $TS^n(M)$；我们用 $s . z$ 表示它，并将其称为 $z$ 的对称化。 映射 $s : z \mapsto s . z$ 是 A-模 $T^n(M)$ 中的同态变成 A-模 $TS^n(M)$。如果$z \in TS^n(M)$，则$s . z = n! \ z$。
+TS(M) = $\bigoplus_{n=0}^{\infty} TS^n(M)$;这是$\mathbf{T}(M)$的分级子A模块。对于每个 $z \in T^n(M)$ 元素 $\sum_{\sigma \in S_n} \sigma . z$ 属于到 $TS^n(M)$；我们用 $s . z$ 表示它，并将其称为 $z$ 的对称化。 映射 $s : z \mapsto s . z$ 是 A-模 $T^n(M)$ 的同态变成 A-模 $TS^n(M)$。如果$z \in TS^n(M)$，则$s . z = n! \ z$。
 
 ### 3. 乘积对称张量
 
@@ -199,7 +199,7 @@ $$
 
 — (i) A-代数 $TS(M)$ 是结合律、交换律和单位律。
 
-(ii) 令$p_1, \ldots, p_n$为整数$> 0$，并令$S_{p_1| \ldots |p_n}$为所有$\sigma \in S_{p_1+\cdots+p_n}$中的集合，使$\mathbf{N}$的下列区间保持稳定：
+(ii) 令$p_1, \ldots, p_n$为整数$> 0$，并令$S_{p_1| \ldots |p_n}$为所有$\sigma \in S_{p_1+\cdots+p_n}$中的集合，留下$\mathbf{N}$的下列区间保持稳定：
 
 $$
 (1, p_1), (p_1+1, p_1+p_2), \ldots, (p_1+\cdots+p_{n-1}+1, p_1+\cdots+p_n).
@@ -219,7 +219,7 @@ $$
 z_2 \ldots z_n = \operatorname{Tr}_{\mathfrak{S}_{p_2 + \cdots + p_n}/\mathfrak{S}_{p_2}| \cdots | p_n} (z_2 \otimes \ldots \otimes z_n)
 $$
 
-已经证明了，让我们将所有置换中的置换中限制到$(1, p_1)$的认同$\mathfrak{S}_{p_2 + \cdots + p_n}$和$\mathfrak{S}_{p_1 + \cdots + p_n}$由……组成的子群恒等式。然后
+已经证明了，让我们把所有置换中置换的限制到$(1, p_1)$是恒等式，认同$\mathfrak{S}_{p_2 + \cdots + p_n}$和$\mathfrak{S}_{p_1 + \cdots + p_n}$由……组成的子群。然后
 
 $$
 \operatorname{Tr}_{\mathfrak{S}_{p_1}|p_2+\cdots+p_n/\mathfrak{S}_{p_1}|p_2| \cdots | p_n} (z_1 \otimes z_2 \otimes \ldots \otimes z_r) =
@@ -243,7 +243,7 @@ $$
 = \operatorname{Tr}_{\mathfrak{S}_{p_1-\cdots+p_n}/\mathfrak{S}_{p_1}| \cdots | p_n} (z_1 \otimes z_2 \otimes \ldots \otimes z_n)
 $$
 
-根据IV、p. 42第 1 条第 (ii) 条。从而(ii)成立。
+根据IV、p. 42第 1 号提案 (ii)。从而(ii)成立。
 
 特别是，
 
@@ -287,7 +287,7 @@ $$
 
 需要注意的是，$\mathbf{T}(M)$中的$\mathbf{TS}(M)$中的典范嵌入不是一般的代数同态。更糟糕的是，$\mathbf{TS}(M)$ 在乘法或 $\mathbf{T}(M)$ 下通常不稳定。
 
-### 4.分幂
+### 4. 分幂
 
 让$x \in M$和$k \in \mathbf{N}$。显然$x, \otimes x_2 \otimes \ldots \otimes x_k$，其中
 $$
@@ -301,7 +301,7 @@ $$
 
 #### 命题 3 {#alg-iv-s5-prop-3 .statement tag=06CX}
 
-(i) *如果* $x \in M$，*$x$的*第幂，*计算在* $\mathbf{TS}(M)$，*等于* $p! \; \gamma_p(x)$。
+(i) *如果* $x \in M$，*$x$ 的第幂，*计算在* $\mathbf{TS}(M)$，*等于* $p! \; \gamma_p(x)$。
 (ii) *设* $x_1, \ldots, x_n \in M$； *然后*
 $$
 \gamma_p(x_1 + x_2 + \cdots + x_n) = \sum_{p_1 + p_2 + \cdots + p_n = p} \gamma_{p_1}(x_1) \; \gamma_{p_2}(x_2) \ldots \gamma_{p_n}(x_n) .
@@ -323,7 +323,7 @@ $$
 (-1)^n x_1 x_2 \ldots x_n = \sum_{H \subset \{1, \ldots, n\}} (-1)^{\operatorname{Card} H} \gamma_n(x_H) .
 $$
 
-断言(i) 立即来自提案 2 (ii)。
+断言 (i) 立即来自提案 2 (ii)。
 
 让我们证明(ii)；通过 n 上的归纳，我们看到考虑$n = 2$的情况就足够了。然后我们有
 
@@ -346,7 +346,7 @@ $$(1, p_1), (p_1 + 1, p_1 + p_2), ..., (p_1 + ... + p_{n-1} + 1, p_1 + ... + p_n
 $$
 \gamma_{p_1}(x_1) \gamma_{p_2}(x_2) ... \gamma_{p_n}(x_n) = \sum_{\rho \in S_{p_1, p_2, ..., p_n}} \rho(x_1 \otimes x_1 \otimes ... \otimes x_1 \otimes x_2 \otimes x_2 \otimes ... \otimes x_2 \otimes ... \otimes x_n \otimes x_n \otimes ... \otimes x_n)
 $$
-（$p_i$ 因子 $x_i$）并且这个和等于
+（与$p_i$因子$x_i$），这个和等于
 $$
 \sum_{\varphi \in E} x_{\varphi(1)} \otimes x_{\varphi(2)} \otimes ... \otimes x_{\varphi(p)}.
 $$
@@ -357,7 +357,7 @@ $$
 
 #### 注 1 {#alg-iv-s5-n4-rem-1 .statement tag=06CY}
 
-设$(x_i)_{i \in I}$是M的元素的家庭。对于每个$\nu \in \mathbf{N}^{(I)}$放
+令 $(x_i)_{i \in I}$ 为 M 的元素的家庭。对于每个 $\nu \in \mathbf{N}^{(I)}$ 放置
 $$
 x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i).
 $$
@@ -369,7 +369,7 @@ $$
 
 #### 注 2 {#alg-iv-s5-n4-rem-2 .statement tag=06CZ}
 
-设$\mathscr{M}$为I为$(1, p)$映射集合。我们将 $\mathscr{M}$ 中的定义映射 $\rho \mapsto \rho^*$ 代入$\mathbf{N}^{(I)}$，将
+令$\mathscr{M}$为$(1, p)$的映射到I的集合。我们将 $\mathscr{M}$ 中的定义映射 $\rho \mapsto \rho^*$ 代入$\mathbf{N}^{(I)}$，将
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
@@ -400,13 +400,13 @@ $$
 
 (ii) 对于每个$\omega \in \Omega$，令$v$为$\omega$的点；把$\omega' = w - \{v_\omega\}$和$B' = \bigcup_{\omega \in \Omega} w'$放在一起，那么$B'$就是$U$中$U^H$的补充子空间的基。
 
-所有$u_\omega$（对于$\omega \in \Omega$）的集合和$B'$的并是$U$的基。如果 $U' = \sum_{\omega \in \Omega} Au$ 和 $U'' = \sum_{b \in B'} Ab$，则我们有 $U = U' \oplus U''$。另一方面，对于所有$w \in \Omega$，我们都有$u_\omega \in U^H$，因此$U' \subset U^H$。最后，令$(\alpha_b)_{b \in B}$成为$A$的元素与有限支撑的族，并令$x = \sum_{b \in B} \alpha_b b$。如果$x \in U^H$，则$\alpha_{hb} = \alpha_b^H$适用于所有$b \in B$和所有$h \in H$，因此$x \in U'$，并且随之而来的是$U' = u^H$。
+所有$u_\omega$（对于$\omega \in \Omega$）和$B'$的集合的并是$U$的基。如果 $U' = \sum_{\omega \in \Omega} Au$ 和 $U'' = \sum_{b \in B'} Ab$，则我们有 $U = U' \oplus U''$。另一方面，对于所有$w \in \Omega$，我们都有$u_\omega \in U^H$，因此$U' \subset U^H$。最后，令$(\alpha_b)_{b \in B}$成为$A$的元素与有限支撑的族，并令$x = \sum_{b \in B} \alpha_b b$。如果$x \in U^H$，则$\alpha_{hb} = \alpha_b^H$适用于所有$b \in B$和所有$h \in H$，因此$x \in U'$，并且随之而来的是$U' = u^H$。
 
 #### 命题 5 {#alg-iv-s5-prop-5 .statement tag=06D2}
 
-— 令$M$为自由的$A$模块，$k$整数$\geq 0$，$P$由$\gamma_k(M)$生成的$\mathbf{TS}^k(M)$的子$A$模块。假设 $A$ 是无限的整环。那么对于每个$z \in \mathbf{TS}^k(M)$，都存在$a \in A - \{0\}$，使得$az \in P$。
+— 令$M$为自由的$A$模块，$k$整数$\geq 0$，$P$由$\gamma_k(M)$生成的$\mathbf{TS}^k(M)$的子$A$模块。假设$A$是无限的整环。那么对于每个$z \in \mathbf{TS}^k(M)$，都存在$a \in A - \{0\}$，使得$az \in P$。
 
-令$K$为$A$的分数中的域。我们认同$\mathbf{TS}^k(M)$具有向量K空间$V = \mathbf{TS}^k(M) \otimes_A K$的子A模（第4条，以及II，p. 314）。我们必须证明这个向量 K 空间是由$\gamma_k(M)$ 生成的，即V 满足 $f(\gamma_k(M)) = 0$ 上的每个K 线性形式$f$ 都是零。令 $(e_i)_{i \in I}$ 为 M 的基，定义为 e，如命题 4 中所示。对于任何 $(\alpha_i) \in A^{(I)}$，考虑到 (6)，我们有：
+设$K$为$A$的分数中的域。我们认同$\mathbf{TS}^k(M)$，子A模为向量K空间$V = \mathbf{TS}^k(M) \otimes_A K$（第4条，以及II，p. 314）。我们必须证明这个向量 K-空间是由$\gamma_k(M)$生成的，也就是说，V满足$f(\gamma_k(M)) = 0$上的每个K线性形式$f$都是零。令 $(e_i)_{i \in I}$ 为 M 的基，定义为 e，如命题 4 中所示。对于任何 $(\alpha_i) \in A^{(I)}$，考虑到 (6)，我们有：
 
 $$
 0 = f \left( \gamma_k \left( \sum_{i \in I} \alpha_i e_I \right) \right) = \sum_{\nu \in N^{(I)}, |\nu| = k} \alpha^\nu f(e_\nu).
@@ -416,13 +416,13 @@ $$
 
 ### 6. 函子 TS
 
-令M、N为M到N的A-模且u同态；很明显$T(u)(TS(M)) \subset TS(N)$。从T(u)获得的TS(M)到TS(N)的映射记为TS(u)。很容易验证，这是分级代数的统一同态，并且我们对所有 $x \in M$ 和每个整数 $p \geq 0$ 都有 TS(u) $(\gamma_p(x)) = \gamma_p(u(x))$。如果 $v : N \to P$ 是同态 / A-模，我们有
+令M、N为M到N的A-模且u同态；很明显$T(u)(TS(M)) \subset TS(N)$。从T(u)获得的TS(M)到TS(N)的映射记为TS(u)。很容易验证，这是分级代数的单位同态，并且我们对所有 $x \in M$ 和每个整数 $p \geq 0$ 都有 TS(u) $(\gamma_p(x)) = \gamma_p(u(x))$。如果 $v : N \to P$ 是同态 / A-模，我们有
 
 $$
 TS(v \circ u) = TS(v) \circ TS(u).
 $$
 
-由 TS(u) 的定义、图表
+通过 TS(u) 的定义，图表
 
 $$
 \begin{array}{cccc}
@@ -481,11 +481,11 @@ $$
 
 其中 $\nu_\lambda \in \mathbf{N}^{(I_\lambda)}$ 和 $\nu_\lambda = 0$ 除了指标的有限数、形式基 $\otimes_A TS(M_\lambda)$。 元素(9)中的像在命题的典范同态下是$\prod_{\lambda \in L} e_{\nu_{\lambda,\lambda}}$。如果我们用$(e_{i,\lambda})_{i, I_\lambda}$家族的$(e_i)_i$、不相交的并来表示，那么上面的元素正好是$\prod_{i \in I} \gamma_{\nu(i)}(e_i)$，其中$\nu \in \mathbf{N}^{(I)}$，所以它们构成了$\mathbf{TS}(M)$的基。这就证明了命题。
 
-根据第6号提案的条件，逆同构$\mathbf{TS}(M) \to \otimes_{\lambda} \mathbf{TS}(M_\lambda)$也称为*规范*。通常，$\mathbf{TS}(M)$ 通过此同构与$\otimes_{\lambda} TS(M_\lambda)$ 进行识别。需要注意的是，如果$z \in TS(M_\lambda)$和$z' \in \mathbf{TS}(M_{\mu})$与$\lambda \neq \mu$，那么$\mathbf{TS}(M)$的元素（因此我们用$z \otimes z'$表示）不是$\mathbf{T}(M)$中的$z$和$z'$的张量积，而是对称的$z$ 和 $z'$ 中的乘积。
+在第6号提案的条件下，逆同构$\mathbf{TS}(M) \to \otimes_{\lambda} \mathbf{TS}(M_\lambda)$也称为*规范*。通常，$\mathbf{TS}(M)$ 通过此同构与$\otimes_{\lambda} TS(M_\lambda)$ 进行识别。需要注意的是，如果$z \in TS(M_\lambda)$和$z' \in \mathbf{TS}(M_{\mu})$与$\lambda \neq \mu$，那么$\mathbf{TS}(M)$的元素（因此我们用$z \otimes z'$表示）不是$\mathbf{T}(M)$中的$z$和$z'$的张量积，而是对称的张量积。 $z$ 和 $z'$ 中的乘积。
 
 #### 命题 7 {#alg-iv-s5-prop-7 .statement tag=06D4}
 
-*令$M$为$A$模，将$M \oplus M$的$u$映射$(x, y) \mapsto x + y$分解为$M$和$f$复合映射*
+*设$M$为$A$模，将$M \oplus M$的$u$映射$(x, y) \mapsto x + y$分解为$M$和$f$复合映射*
 
 $$
 \mathbf{TS}(M) \otimes \mathbf{TS}(M) \xrightarrow{h} \mathbf{TS}(M \oplus M) \xrightarrow{\mathbf{TS}(u)} \mathbf{TS}(M)
@@ -577,7 +577,7 @@ zprimitive $\Leftrightarrow \lambda_{\rho + \sigma} = 0$ 当 $\rho \neq 0$ 和 $
 $\Leftrightarrow \lambda_\nu = 0$ 当 $|\nu| \neq 1$
 $\Leftrightarrow z \in M$。
 
-### 8. TS(M) 和 S(M) 之间的关系
+### 8. 关系 TS(M) 和 S(M) 之间
 
 将 M 的典范嵌入以独特的方式放入 TS(M) 扩展将 T(M) 的代数同态放入 TS(M)（III、p. 485，命题 1）。根据IV、p. 43的命题2第(ii)，这个同态就是对称化算子。由于代数 TS(M) 是可交换的，因此存在 (III, p. 497) 一个且仅有一个代数同态 $\varphi_M$，称为规范，将代数 S(M) 转换为代数 TS(M)，使得图表
 
@@ -669,14 +669,14 @@ $$
 
 #### 推论 1 {#alg-iv-s5-prop-12-cor-1 .statement tag=06DA}
 
-— *如果 $\mathbf{A}$ 是 $\mathbf{Q}$ 代数，则 $S(M)$ 的典范同态到 $TS(M)$ 就是代数同构。而且如果$M$是免费的，那么它就是分级bigebras的同构。*
+— *如果$\mathbf{A}$是$\mathbf{Q}$代数，则$S(M)$到$TS(M)$的典范同态是代数同构。而且如果$M$是免费的，那么它就是分级bigebras的同构。*
 
 #### 推论 2 {#alg-iv-s5-prop-12-cor-2 .statement tag=06DB}
 
 — *如果$A$是$\mathbf{Q}$代数，则模$TS^n(M)$由$TS(M)$中$M$的元素的第n个幂生成。
 这是从 Cor 得出的。 1 和 $S(M)$* 的相应的性质（III、p. 498）。
 
-### 9.齐次多项式映射
+### 9. 齐次多项式映射
 
 #### 命题 13 {#alg-iv-s5-prop-13 .statement tag=06DC}
 
@@ -824,7 +824,7 @@ $$
 
 (ii) *如果 N 中的映射 $y \mapsto q!y$ 是单射，则 u 是同构。*
 
-在命题的两种情况下，我们必须证明u是单射的，也就是说，$\mathbf{TS}^q(M)$的每一个线性映射 f到N（即$\gamma_q(M)$上的零）消失。
+在命题的两种情况下，我们必须证明u是单射的，也就是说，$\mathbf{TS}^q(M)$的每一个线性映射f进入N（$\gamma_q(M)$上的零）消失。
 
 假设 A 为无限整环并且 N 无扭转。对于每个$z \in \mathbf{TS}^q(M)$，都存在$a \in A - \{0\}$，使得$az$是y, (M) (*IV*，p. 47，命题5)的元素的A线性组合。因此$af(z) = f(az) = 0$，所以$f(z) = 0$。
 
@@ -832,9 +832,9 @@ $$
 
 #### 推论 {#alg-iv-s5-n9-cor-1 .statement tag=06DN}
 
-— *设 M 为 M 的自由A-模、N A-模、q 正整数、$h \in \mathbf{Pol}^q(M, N)$ 和 $(e_i)_i$、基。在第 16 条提案的两个案例中，存在一个独特的族$(u,$、$\mathbf{N}^{(I)}, |\cdot|$、 、 N 的元素使得 $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ 对于所有 $(\lambda_i) \in \mathbf{A}^{(1)}$*
+— *设 M 为 M 的自由A-模、N A-模、q 正整数、$h \in \mathbf{Pol}^q(M, N)$ 和 $(e_i)_i$、基。在第 16 号提案的两个案例中，存在一个独特的族$(u,$、$\mathbf{N}^{(I)}, |\cdot|$、 、 N 的元素使得 $h \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{|\nu| = q} \lambda^\nu u_\nu$ 对于所有 $(\lambda_i) \in \mathbf{A}^{(1)}$*
 
-### 10.多项式映射
+### 10. 多项式映射
 
 #### 定义 4 {#alg-iv-s5-def-4 .statement tag=06DO}
 
@@ -890,11 +890,11 @@ $$
 f(X) = f(X) - f(\alpha_0) = \sum_{i=1}^n m_i (X^i - \alpha_0^i) = (X - \alpha_0) g(X)
 $$
 
-其中 g 是形式 $m_0' + m_1' X + \ldots + m_{n-1}' X^{n-1}$ 的 N[X] 的元素。 引理的假设意味着$g(\alpha_1) = \cdots = g(\alpha_r) = 0$，因此$g = 0$乘以归纳假设，等等$f = 0$。
+其中g是形式$m_0' + m_1' X + \ldots + m_{n-1}' X^{n-1}$的N[X]中的元素。 引理的假设意味着$g(\alpha_1) = \cdots = g(\alpha_r) = 0$，因此$g = 0$乘以归纳假设，等等$f = 0$。
 
 #### 命题 19 {#alg-iv-s5-prop-19 .statement tag=06DS}
 
-— *设 M 为自由A-模，N A-模，G 为 A 的无限加法子群，并假设由 G 的非零元素定义的 N 的同伦是单射的。那么 Pol(M, N) 就是 Pol$^q$(M, N) 的直和。*
+— *设 M 为自由A-模，N A-模，G 为 A 的无限加法子群，并假设由 G 的非零元素定义的 N 的同位是单射的。那么 Pol(M, N) 就是 Pol$^q$(M, N) 的直和。*
 
 令 $f_0, f_1, \ldots, f_n$ 等于 $f_i \in \mathrm{Pol}^i(M, N)$ 并假设我们有关系 $f_0 + \ldots + f_n = 0$。让$x \in M$，那么对于所有$\lambda \in G$，我们有
 $$
@@ -915,7 +915,7 @@ $$
 
 断言 (i) 由第 16 条和第 19 号提案得出，(ii) 由 (i) 和 Cor. 得出。提案 16。
 
-### 11. $\mathbf{S}(M^*)$、TS(M)*gr 和 Pol(M, A) 之间的关系
+### 11. 关系 $\mathbf{S}(M^*)$、TS(M)*gr 和 Pol(M, A) 之间
 
 令 M 为自由A-模，我们将为分级对偶 TS(M)*gr 配备可交换、结合和单位分级 $^1$ 代数的结构，源自 TS(M) 的分级余数结构 (III，p. 580)。到 III、p. 497 时，存在评分为 A-代数的唯一同态
 $$
@@ -929,13 +929,13 @@ $^1$ A 分级为次数 – k 的 TS(M) 的同态进入 A 在此被视为 TS(M)*g
 
 — *如果 A-模 M 是自由且有限生成的，则 $0$ 是分级代数的同构。*
 
-设$(e_i)_{i \in I}$为$M$之基，且$(e_i^*)_{i \in I}$为$M^*$之对偶基。对于 $\nu \in \mathbf{N}^I$ 投入
+设$(e_i)_{i \in I}$为$M$之基，且$(e_i^*)_{i \in I}$对偶基为$M^*$。对于 $\nu \in \mathbf{N}^I$ 投入
 
 $$
 e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i) \in \mathbf{TS}(M)
 $$
 
-根据第 4 条（*IV*，p. 47），家庭$(e_\nu)_\nu,_{\mathbf{N}^I}$ 是基 / $TS(M)$；令 $(e_\nu^*)$ 为 $\mathbf{TS}(M)^{*gr}$ 对偶$(e_\nu)$ 的基。根据III、p. 505、Th。 1 足以证明对于任何 $\nu \in \mathbf{N}^I$ 我们有
+根据第 4 条（*IV*，p. 47），$(e_\nu)_\nu,_{\mathbf{N}^I}$ 家庭是$TS(M)$ 中的基；设$(e_\nu^*)$是$\mathbf{TS}(M)^{*gr}$右$(e_\nu)$的基。根据III、p. 505、Th。 1 足以证明对于任何 $\nu \in \mathbf{N}^I$ 我们有
 
 $$
 e_\nu^* = \prod_{i \in I} (e_i^*)^{\nu_i},
@@ -974,7 +974,7 @@ $$
 M^* = \mathrm{Pol}^1(M, A)
 $$
 
-在$\mathrm{Pol}(M, A)$。如果 $M$ 是有限生成的，并且 $A$ 是无限的整环，则 $\lambda_M$ 是双射的（第 20 条命题和第 19 条命题的修正）。特别是，如果 $A$ 是无限整环，则 $A[X_1, \ldots, X_n]$ 的典范同态 $f \mapsto \tilde{f}$ 到 $\mathrm{Pol}(A^n, A)$ (*IV*, p. 4) 就是同构。
+在$\mathrm{Pol}(M, A)$。如果 $M$ 是有限生成的自由且 $A$ 是无限的整环，则 $\lambda_M$ 是双射的（第 20 条命题和第 19 条命题的修正）。特别是，如果 $A$ 是无限整环，则 $A[X_1, \ldots, X_n]$ 的典范同态 $f \mapsto \tilde{f}$ 到 $\mathrm{Pol}(A^n, A)$ (*IV*, p. 4) 就是同构。
 
 3) 考虑余积 $c_S : S(M^*) \to S(M^* \times M^*)$ (III, p. 575, 例 6)。对于任何 $v \in S(M^*)$、$x, y \in M$，多项式映射 $\lambda_{M \times M}(c_S(v)) : M \times M \to A$ 映射 $(x, y)$ 到 $A, (v)(x + y)$。对于以这种方式定义的$S(M^*)$到$\mathrm{Map}(M \times M, A)$的两个代数同态在$M^*$上一致，由于关系
 
@@ -982,6 +982,6 @@ $$
 (v \otimes 1 + 1 \otimes v)(x, y) = v(x + y) \quad (v \in M^*)
 $$
 
-### 习题 {#alg-iv-s5-exercises}
+### 习题{#alg-iv-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -50,23 +50,23 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: 1fa700ac78c6296659c7d5fa77fb035e4e09fecab19b7abb4e74f593aa0e9985
+content_sha256: 0f9b39e4c2ba52a2099b7fa0ba218da14d9ce6f15563daa504d59f41047ec486
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
 translation_method: google
 source_content_sha256: 25682b65ee25b300876c8d2b79b960cdd7e6d7279edee98e796e41613580d0ee
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: fc4603e5fcdb73021ff9fec81366f7396026f6f03459dde64e3e063ffff8b972
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 张量积代数
 
 从§ 4到§ 8（含），A表示交换环，并且，另外提及的除非，假设代数是结合且单位的，并且假设代数同态是单位的。
 
-### 1. 代数有限家族的张量积
+### 1. 张量积代数有限家族
 
 A 始终表示交换环和单位元。设 (E_i)_{i \in I} 为 A-代数的有限族，并设 E = \bigotimes_{i \in I} E_i 为张量积 A-模 of A-模 E_i (II, § 3, no. 9)。我们将对 E 定义 A-代数结构。令 m_i: E_i \otimes_A E_i \to E_i 为A-线性映射，在 E_i (§ 1, no. 3) 上定义乘法。考虑A-线性映射
 
@@ -283,7 +283,7 @@ $$
 
 注，如果E是可交换的A-代数，则$E \otimes_A F$的环结构与$F_{(E)}$(§ 1, no. 5)相同。
 
-### 3. 模以及超过张量积或代数的多模块
+### 3. 模以及超过张量积代数的多模块
 
 #### 定义 2 {#alg-iii-s4-def-2 .statement tag=060I}
 
@@ -397,32 +397,32 @@ $$
 
 #### 命题 7 {#alg-iii-s4-prop-7 .statement tag=060O}
 
-*设 G 为交换域 K 上的代数，E、F 为 G 的两个子代数，使得 E 的每个元素与 F 的每个元素交换。对于 E 和 F 在 K 上线性不相交的，存在 E 在 K 上的基是必要且充分的，这是一个自由G 的子集用于 G 上的右侧 F 模块结构。当这样时：*
+*设 G 在交换域 K 上代数，E、F 是 G 的两个子代数，使得 E 的每个元素与 F 的每个元素交换。对于 E 和 F 在 K 上线性不相交的，存在 E 在 K 上的基是充分必要的，这是一个自由G 的子集用于 G 上的右侧 F 模块结构。当情况如此时：*
 (i) *典范同态$h : E \otimes_K F \to G$是$E \otimes_K F$的同构到$E \cup F$生成的G的子代数上；*
 （二）$E \cap F = K;$
 (iii) *E（或 F）在 K 上的每个自由子集都是 G 的自由子集及其右或左 F 模（或 E 模）结构。*
 
-叙述的条件显然是必要的，因为E在K上的每个基都是$E \otimes_K F$的基及其正确的F模结构（II, § 3, no. 7，推论1到命题7）。看出条件就足够了，注即h下$E \otimes_K F$的像H是G中和$\sum_i x_i y_i = \sum_i y_i x_i$的集合，其中$x_i \in E$和$y_i \in F$；如果$(a_\lambda)$是E在K上的基，则H因此也是由$(a_\lambda)$生成的（右或左）F模块G的子模。因此，叙述的条件意味着存在E的基$(a_\lambda)$，它也是F模H的基；由此可见 h 是单射的。 断言 (iii) 从以下事实得出：E 的每个自由子集都包含在 E 的基 (II, § 7, no. 1, 定理 2) 中。
+叙述的条件显然是必要的，因为E在K上的每个基都是$E \otimes_K F$的基及其正确的F模结构（II, § 3, no. 7，推论1到命题7）。看出条件就足够了，注即h下$E \otimes_K F$的像H是G中和$\sum_i x_i y_i = \sum_i y_i x_i$的集合，其中$x_i \in E$和$y_i \in F$；如果 $(a_\lambda)$ 是 E 在 K 上的基，则 H 也是由 $(a_\lambda)$ 生成的（右或左）F 模 G 的子模。因此，叙述的条件意味着存在E的基$(a_\lambda)$，它也是F模H的基；由此可见 h 是单射的。 断言 (iii) 从以下事实得出：E 的每个自由子集都包含在 E 的基 (II, § 7, no. 1, 定理 2) 中。
 
 #### 推论 1 {#alg-iii-s4-prop-7-cor-1 .statement tag=060P}
 
-*为了使 $E \otimes_K F$ 的典范同态成为双射，E 在 K 上存在基是（右或左）F 模 G 的基，这是必要且充分的。*
+*为了使 $E \otimes_K F$ 的典范同态成为双射，E 在 K 上存在基是（右或左）F 模 G 的基是必要且充分的。*
 
 #### 推论 2 {#alg-iii-s4-prop-7-cor-2 .statement tag=060Q}
 
-*设E、F是G的两个子代数，K上的有限秩，使得E的每个元素与F的每个元素可交换。为了使E和F在K上线性不相交的，必要且充分的是G的子代数H由下式生成$E \cup F$ 是这样*
+*设 E、F 为 G 的两个子代数，K 上的有限秩，使得 E 的每个元素与 F 的每个元素交换。为了使 E 和 F 在 K 上线性不相交的，必要且充分的是 G 的子代数 H 由下式生成： $E \cup F$ 是这样*
 $$
 [H : K] = [E : K] \cdot [F : K].
 $$
-这表示满射典范同态 h 的秩 ： E \otimes_K F \to H 等于 E \otimes_K F 超过 K 的秩，相当于说这个同态是双射 (II, § 7, No. 4， 命题9)。
+这表示满射典范同态 h 的秩 : E \otimes_K F \to H 等于 E \otimes_K F 超过 K 的秩，这相当于说这个同态是双射 (II, § 7, No. 4, 命题9)。
 
-### 5. 张量积代数无限家族
+### 5. 张量积代数的无限家族
 
-设 A 为交换环且 (E_i)_{i \in I} 是（单位）A-代数的任意族。对于I的每个有限子集 J，令E_J表示代数的张量积$\bigotimes_{i \in J} E_i$，指标$i \in J$的E_i；设$e_i$表示E_i的单位元和E_J的$e_J = \bigotimes_{i \in J} e_i$单位元；让$f_{J,i}$表示典范同态$E_i \to E_J$对于$i \in J$（no. 2，命题5）。如果 J, J' 是 I 的两个有限子集，使得 $J \subset J'$、同态 $f_{J'J} : E_J \to E_{J'}$ 是规范导出的（no. 2、命题 5），对于所有的条件 $f_{J'J} \circ f_{J,i} = f_{J',i}$ $i \in J$。此外，$f_{J'J}$的唯一性意味着，如果J，J'，J''是I中的三个有限子集，使得$J \subset J' \subset J''$，则$f_{J''J} = f_{J''J'} \circ f_{J'J}$。在其他字中，$(E_J, f_{J'J})$是A-代数的直接系统，其索引集合是I的有限子集的右有向集合$\mathscr{F}(I)$。
+设 A 为交换环且 (E_i)_{i \in I} 为（单位）A-代数的任意族。对于I的每个有限子集 J，令E_J表示代数的张量积$\bigotimes_{i \in J} E_i$，指标$i \in J$的E_i；设$e_i$表示E_i的单位元和E_J的$e_J = \bigotimes_{i \in J} e_i$单位元；让$f_{J,i}$表示典范同态$E_i \to E_J$对于$i \in J$（no. 2，命题5）。如果 J, J' 是 I 的两个有限子集，使得 $J \subset J'$、同态 $f_{J'J} : E_J \to E_{J'}$ 是规范导出的（no. 2、命题 5），对于所有的条件 $f_{J'J} \circ f_{J,i} = f_{J',i}$ $i \in J$。此外，$f_{J'J}$的唯一性意味着，如果J、J'、J''是I中的三个有限子集，使得$J \subset J' \subset J''$，则$f_{J''J} = f_{J''J'} \circ f_{J'J}$。在其他字中，$(E_J, f_{J'J})$是A-代数的直接系统，其索引集合是I的有限子集的右有向集合$\mathscr{F}(I)$。
 
 #### 定义 5 {#alg-iii-s4-def-5 .statement tag=060R}
 
-*直接系统*$(E_J, f_{J'J})$的直极限E被称为A-代数*$(E_i)_{i \in I}$家族的张量积。
+*直接系统*$(E_J, f_{J'J})$*的直极限E被称为A-代数*$(E_i)_{i \in I}$家族的张量积。
 
 如果 I 是有限的，则 E 等于 $\bigotimes_{i \in I} E_i$。通过滥用记号，即使I是无限的，E也可以用$\bigotimes_{i \in I} E_i$来表示。
 
@@ -466,17 +466,17 @@ $I$的有限子集$J \supset H$的$f_J((x_i)_{i \in J})$的公共的值用$\bigo
 
 #### 命题 9 {#alg-iii-s4-prop-9 .statement tag=060U}
 
-*设*$(E_i)_{i \in I}$*是*$A$*-代数族，并且对于每个*$i \in I$*让*$B_i$*是*$E_i$的基*使得单位元*$e_i$*属于到*$B_i$。 *设*$B$*为形式*$\bigotimes_{i \in I} x_i$元素集合，*其中*$(x_i)$*贯穿*$\prod_{i \in I} B_i$*元素集合，使得族*$(x_i - e_i)$*有有限支撑*。 *那么*$B$*是代数*$\bigotimes_{i \in I} E_i$*中的基*还有这个基包含单位元*$e$。
+*让* $(E_i)_{i \in I}$ *成为* $A$*的代数族，并且对于每个* $i \in I$ *让* $B_i$ *成为* $E_i$的基 *使得单位元* $e_i$ *属于到* $B_i$。 *令*$B$*为形式*$\bigotimes_{i \in I} x_i$元素集合，*其中*$(x_i)$*贯穿*$\prod_{i \in I} B_i$*元素集合使得家庭*$(x_i - e_i)$ *有有限支撑*。 *那么*$B$*是代数*$\bigotimes_{i \in I} E_i$*中的基*还有这个基包含单位元*$e$。
 
-对于$I$的每个有限子集$J$，对于$i \in J$（II, § 3, no. 9），令$B_J$为基$B_i$的$E_J = \bigotimes_{i \in J} E_i$张量积的基。紧接着从定义可以得出，当$J$穿过$\mathscr{F}(I)$时，$B$是$f_J(B_J)$的并，当$J \subset J'$时，$f_{J',J}(B_J) \subset B_{J'}$；因此，$(B_J)$是$E_J$和$B = \lim \rightarrow B_J$的子集中的直接系统；然后从II, § 6, no. 2得出结论，推论到命题5。
+对于$I$的每个有限子集$J$，令$B_J$为$i \in J$（II, § 3, no. 9）的基$B_i$的$E_J = \bigotimes_{i \in J} E_i$张量积的基。紧接着从定义得出，当$J$穿过$\mathscr{F}(I)$时，$B$是$f_J(B_J)$的并，当$J \subset J'$时，$f_{J',J}(B_J) \subset B_{J'}$；因此$(B_J)$是$E_J$和$B = \lim \rightarrow B_J$的子集中的直接系统；然后从II, § 6, no. 2得出结论，推论到命题5。
 
-基$B$也称为$i \in I$的基$B_i$的*张量积*；当命题 9 的条件满足时，典范同态 $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ 对于 $I$ 的每个子集 $J$ 都是“内射”，因为如果 $B_J$ 是 $E_J$ 张量积的基对于$i \in J$的$B_i$，立即验证$f_J$到$B_J$的限制是单射的，并且映射$B_J$到$B$的子集。
+基$B$也称为$i \in I$的基$B_i$的*张量积*；当命题 9 的条件满足时，对于$I$的每个子集$J$，典范同态$f_J : E_J \to E = \bigotimes_{i \in I} E_i$都是*内射*，因为如果$B_J$是$E_J$的基对于$i \in J$的$B_i$的张量积，立即验证$f_J$到$B_J$的限制是单射的，并且映射$B_J$到$B$的子集。
 
-### 6.交换引理
+### 6. 交换引理
 
 #### 引理 1 {#alg-iii-s4-lem-1 .statement tag=060V}
 
-*设$A$为交换环，$E$一个$A$-代数，$E$元素$(x_i)_{1 \leq i \leq n}$有限序列，$A$元素$(\lambda_i)_{1 \leq i \leq n}$有限序列和 $E$ 的 $y$ 元素；假设*
+*设$A$为交换环，$E$为$A$代数，$E$元素的$(x_i)_{1 \leq i \leq n}$有限序列，$(\lambda_i)_{1 \leq i \leq n}$有限序列 $A$中的元素和$E$中的$y$元素；假设*
 $$
 x_i y = \lambda_i y x_i \quad \text{for } 1 \leq i \leq n.
 $$
@@ -546,7 +546,7 @@ $$
 \end{cases}
 $$
 
-设 $\pi = \tau^{-1} \circ \sigma$； 置换$\pi$叶子$n$固定；现在$\sigma = \tau \circ \pi$，因此，写$y_i = x_{\tau(i)},\ y_{\pi(i)} = x_{\sigma(i)}$。如果$i \neq n$和$j \neq n$，关系$\pi(i) > \pi(j)$和$\sigma(i) > \sigma(j)$是等价的（因为$\tau$是$\{1, n-1\}$到$\{1, n\}$的严格递增的映射）。对于 $i \neq n, j \neq n$ 和 $\sigma(i) > \sigma(j)$，
+设 $\pi = \tau^{-1} \circ \sigma$； 置换$\pi$叶$n$固定；现在$\sigma = \tau \circ \pi$，因此，写$y_i = x_{\tau(i)},\ y_{\pi(i)} = x_{\sigma(i)}$。如果$i \neq n$和$j \neq n$，关系$\pi(i) > \pi(j)$和$\sigma(i) > \sigma(j)$是等价的（因为$\tau$是$\{1, n-1\}$到$\{1, n\}$的严格递增的映射）。对于 $i \neq n, j \neq n$ 和 $\sigma(i) > \sigma(j)$，
 
 $$
 y_{\pi(i)} y_{\pi(j)} = x_{\sigma(i)} x_{\sigma(j)} = \lambda_{\sigma(i),\ \sigma(j)} x_{\sigma(j)} x_{\sigma(i)} = \lambda_{\sigma(i),\ \sigma(j)} y_{\pi(j)} y_{\pi(i)}
@@ -570,7 +570,7 @@ $$
 x_{\tau(1)} \cdots x_{\tau(n)} = x_1 \cdots x_{k-1} x_{k+1} \cdots x_n x_k
 $$
 
-引理 1 等于
+乘以引理 1，等于
 
 $$
 \left( \prod_{j > k} \lambda_{jk} \right) x_1 \cdots x_n = \left( \prod_{\sigma(i) > \sigma(n)} \lambda_{\sigma(i),\ \sigma(n)} \right) x_1 \cdots x_n.
@@ -593,11 +593,11 @@ $$
 
 完成引理 3 中的证明。
 
-### 7. 张量积分级为代数相对于交换因子
+### 7. 张量积评分为代数相对于交换因子
 
 #### 定义 6 {#alg-iii-s4-def-6 .statement tag=060Y}
 
-*设* $(\Delta_i)_{i \in I}$ *是加法编写的可交换幺半群的有限族。 交换因子系统超过* $\Delta_i$ *与交换环* $\mathbf{A}$ 中的值 *是映射* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$ 系统，*其中* $i \in I$， $j \in I$、$i \neq j$ *满足以下条件*：
+*设* $(\Delta_i)_{i \in I}$ *是加法编写的可交换幺半群的有限族。 交换因子的系统在* $\Delta_i$ *与交换环* $\mathbf{A}$ 中的值 *是映射* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$ 系统，*其中* $i \in I$， $j \in I$、$i \neq j$ *满足以下条件*：
 
 (22)
 $$
@@ -614,7 +614,7 @@ $$
 
 *对于所有* $\alpha_i, \alpha'_i$ *在* $\Delta_i$，$\beta_j, \beta'_j$ *在* $\Delta_j$。
 
-如果 I 给出总排序，且 $\Delta_i$ 为群，则交换因子的系统是在 $\Delta_i$ 上定义的，方法是对每个有序对 $(i, j)$ 进行取值，使得 $i < j$ 为任意一个将 $\Delta_i \times \Delta_j$ 的 $\mathbf{Z}$-*双线性* 映射代入环 $\mathbf{A}$ 的 *可逆* 元素的 (*乘法*) $\mathbf{Z}$-模$\mathbf{A}^*$，然后写入
+如果给定 I 的总排序，且 $\Delta_i$ 为群，则交换因子的系统是在 $\Delta_i$ 上定义的，方法是对每个有序对 $(i, j)$ 进行取值，使得 $i < j$ 为任意一个将 $\Delta_i \times \Delta_j$ 的 $\mathbf{Z}$-*双线性* 映射代入环 $\mathbf{A}$ 的 *可逆* 元素的 (*乘法*) $\mathbf{Z}$-模$\mathbf{A}^*$，然后写入
 
 $$
 \varepsilon_{ji}(\beta_j, \alpha_i) = (\varepsilon_{ij}(\alpha_i, \beta_j))^{-1}
@@ -630,7 +630,7 @@ $$
 
 凭借（22）和（23）。
 
-#### 例 {#alg-iii-s4-n7-exa-1 .statement tag=060Z}
+#### 例{#alg-iii-s4-n7-exa-1 .statement tag=060Z}
 
 (1) 交换因子的*平凡* 系统由 $\varepsilon_{ij}$ 组成，使得 $\varepsilon_{ij}(\alpha_i, \beta_j) = 1$ 对于所有 $i, j$、$\alpha_i \in \Delta_i$、$\beta_j \in \Delta_j$。
 
@@ -797,19 +797,19 @@ $$
 
 *对于所有* $(x_i) \in \prod_{i \in I} E_i$，*前提是对I进行总排序，而诱导对每个* $J_\lambda$ *选择总排序，并且对于* $\lambda < \mu$ *在* $L$、$i \in J_\lambda$ *和* $j \in J_\mu$、$i < j$。
 
-事实上，交换因子的$\varepsilon'_{\lambda \mu}$形式系统是微不足道的。让$h_{i,\lambda} : E_i \to E'_\lambda$，$h'_\lambda : E'_\lambda \to \varepsilon' \bigotimes_{\lambda \in L} E'_\lambda$*为典范同态*（对于$\lambda \in L$，$i \in J_\lambda$）*并写*$h''_i = h'_\lambda \circ h_{i,\lambda}$； *凭借普遍映射问题的* 解唯一性就足够了，证明 $\varepsilon' \bigotimes_{\lambda \in L} E'_\lambda$ 和命题 10 的 $h''_i$ 满足条件。现在，对于所有 $\lambda \in L$，令$f'_\lambda : E'_\lambda \to F$ 为唯一代数同态，使得 $f'_\lambda \circ h_{i,\lambda} = f_i$ 对于所有 $i \in J_\lambda$。我们证明，对于 $\lambda \neq \mu$，$\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}, \beta'_\mu = (\beta_j)_{j \in J_\mu}$，
+事实上，交换因子的$\varepsilon'_{\lambda \mu}$形式系统是微不足道的。让$h_{i,\lambda} : E_i \to E'_\lambda$，$h'_\lambda : E'_\lambda \to \varepsilon' \bigotimes_{\lambda \in L} E'_\lambda$*为典范同态*（对于$\lambda \in L$，$i \in J_\lambda$）*并写*$h''_i = h'_\lambda \circ h_{i,\lambda}$； *凭借普遍映射问题的* 解唯一性就足以证明 $\varepsilon' \bigotimes_{\lambda \in L} E'_\lambda$ 和命题 10 的 $h''_i$ 满足条件。现在，对于所有 $\lambda \in L$，令$f'_\lambda : E'_\lambda \to F$ 为唯一代数同态，使得 $f'_\lambda \circ h_{i,\lambda} = f_i$ 对于所有 $i \in J_\lambda$。我们证明，对于 $\lambda \neq \mu$，$\alpha'_\lambda = (\alpha_i)_{i \in J_\lambda}, \beta'_\mu = (\beta_j)_{j \in J_\mu}$，
 
 $$
 f'_\lambda(x'_\lambda)f'_\mu(x'_\mu) = \varepsilon'_{\lambda\mu}(\alpha'_\lambda, \beta'_\mu)f'_\mu(x'_\mu)f'_\lambda(x'_\lambda)
 $$
 
-对于$x'_\lambda \in E'_\lambda$（或$x'_\mu \in E'_\mu$）同质的次数$\alpha'_\lambda$（或$\beta'_\mu$）；当$x'_\mu = \bigotimes_{i \in J_\lambda} x_i, x'_\mu = \bigotimes_{j \in J_\mu} x_j, x_i$（或$x_j$）与次数$\alpha_i$（或$\beta_j$）齐次于$E_i$（或$E_j$）对于$i \in J_\lambda, j \in J_\mu$时，通过线性就足以验证它。但这是从公式 (30) 得出的，其中定义 no. 6 的 $f'_\lambda$ 和引理 3，考虑到假设 (26) 和定义 (32)。因此，存在且仅有一个代数同态 $f : \varepsilon' \bigotimes_{\lambda \in L} E'_\lambda \to F$，使得 $f \circ h'_\lambda = f'_\lambda$ 对于所有 $\lambda \in L$； 从而$f \circ h''_i = f_i$对于所有$i \in I$和$f$的唯一性来说是微不足道的。
+对于$x'_\lambda \in E'_\lambda$（或$x'_\mu \in E'_\mu$）同质的次数$\alpha'_\lambda$（或$\beta'_\mu$）；通过线性，当$x'_\mu = \bigotimes_{i \in J_\lambda} x_i, x'_\mu = \bigotimes_{j \in J_\mu} x_j, x_i$（或$x_j$）对于$i \in J_\lambda, j \in J_\mu$而言，在$E_i$（或$E_j$）中与次数$\alpha_i$（或$\beta_j$）同质时就足够了。但这是从公式 (30) 得出的，其中定义 no. 6 的 $f'_\lambda$ 和引理 3，考虑到假设 (26) 和定义 (32)。因此，存在且仅有一个代数同态$f : \varepsilon' \bigotimes_{\lambda \in L} E'_\lambda \to F$，使得$f \circ h'_\lambda = f'_\lambda$适用于所有$\lambda \in L$； 从而$f \circ h''_i = f_i$对于所有$i \in I$和$f$的唯一性来说是微不足道的。
 
-### 8. 张量积评分为代数相同型
+### 8. 张量积已评分代数相同型
 
-假设no. 7、命题 10 的假设成立，进一步假设所有$\Delta_i$都等于*相同的可交换幺半群*$\Delta_0$；然后，我们可以考虑张量$\varepsilon$-产品$\varepsilon \bigotimes_{i \in I} E_i$的*总毕业*型$\Delta_0$，与型$\Delta = \Delta_0^I$在这个代数（II, § 11, no. 1）上的毕业相关；我们称$\varepsilon \bigotimes_{i \in I} E_i$为毕业，*分级为张量$\varepsilon$-家庭$(E_i)_{i \in I}$的型*$\Delta_0$的产品，分级为代数的型$\Delta_0$。
+假设no. 7、命题 10 的假设成立，进一步假设所有$\Delta_i$都等于*相同的可交换幺半群*$\Delta_0$；然后我们可以考虑张量$\varepsilon$-产品$\varepsilon \bigotimes_{i \in I} E_i$的*总毕业*型$\Delta_0$，与型$\Delta = \Delta_0^I$的毕业相关代数（II, § 11, no. 1）；我们称$\varepsilon \bigotimes_{i \in I} E_i$为毕业，*分级为张量$\varepsilon$-家庭$(E_i)_{i \in I}$的型*$\Delta_0$的产品，分级为代数的型$\Delta_0$。
 
-总是保留no. 7的命题 10的记号，假设$F$也是型* $\Delta_0$的*分级A-代数，并且$f_i$是代数的*同态型*$\Delta_0$。那么 $f : \varepsilon \bigotimes_{i \in I} E_i \to F$ 也是型* $\Delta_0$ 的分级代数的 *同态：因为从公式 (30) (no. 7) 可以得出，如果 $x_i$ 是齐次的并且是次数 $\alpha_i \in \Delta_0, \bigotimes_{i \in I} x_i$和$\prod_{i \in I} f_i(x_i)$都是次数$\sum_{i \in I} \alpha_i \in \Delta_0$的齐次。
+始终保留no. 7的命题 10的记号，假设$F$也是型*$\Delta_0$的*分级A-代数，并且$f_i$是分级代数的*同态型* $\Delta_0$。那么 $f : \varepsilon \bigotimes_{i \in I} E_i \to F$ 也是型* $\Delta_0$ 的分级代数的 *同态：因为从公式 (30) (no. 7) 可以得出，如果 $x_i$ 是齐次的并且是次数 $\alpha_i \in \Delta_0, \bigotimes_{i \in I} x_i$和$\prod_{i \in I} f_i(x_i)$都是次数$\sum_{i \in I} \alpha_i \in \Delta_0$的齐次。
 
 因此可以说，$\varepsilon \bigotimes_{i \in I} E_i$与型$\Delta_0$的总分级，与典范映射$\psi$、解一起构成了第三个普遍映射问题，其中$\Sigma$是*分级的类型* $\Delta_0$的A-代数、态射是型$\Delta_0$的分级代数的同态，$\alpha$映射是映射$\prod_i f_i$，其中， 加法至条件(26)(no. 7)，假设每个$f_i$是型$\Delta_0$的分级代数中的同态。
 
@@ -835,11 +835,11 @@ $$
 
 #### 注 {#alg-iii-s4-n8-rem-1 .statement tag=0617}
 
-(1) 令I为无限下标集合，$\Delta_0$为可交换幺半群；让 $(\Delta_i)_{i \in I}$ 表示族，使得 $\Delta_i = \Delta_0$ 对于所有 $i$ 并假设为 I 映射 $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ 满足条件的不同指标 $(i, j)$ 的每个有序对给出 (22)， （23）和（24）（no. 7）；这也将被称为家庭* $(\Delta_i)$ 的*系统交换因子。考虑一个$(E_i)_{i \in I}$等级为A-代数为型$\Delta_0$的家庭；对于I的每个有限子集 J，令$E_J$表示子族$(E_i)_{i \in J}$的型* $\Delta_0$的*分级张量$\varepsilon$乘积（J上总排序的任意选择）。如果J，J'是I的两个有限子集，使得型$\Delta_0$的分级代数的$J \subset J'$，典范同态，h_{J'J}：E_J \to E_{J'}，已在上面定义，并且这些的唯一性属性同态立即证明，如果 J \子集 J' \子集 J'' 是 I 的三个有限子集，则 h_{J''J} = h_{J'J'} \circ h_{J'J}。因此，型$\Delta_0$(§ 3, no. 3)的分级代数有直接系统(E_J，h_{J'J})，其索引集合是有限子集的右有向集合$\mathfrak{F}(I)$ I。 型$\Delta_0$的分级代数，这个直接系统（§ 3, no. 3）的*直极限*，称为该族的*分级张量$\varepsilon$-乘积型*$\Delta_0$ $(E_i)_{i \in I}$；也用$\varepsilon \bigotimes_{i \in I} E_i$表示。当所有$\Delta_i$等于$\mathbf{Z}$和$\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$时，张量积$\varepsilon \bigotimes_{i \in I} E_i$也称为族$(E_i)_{i \in I}$的*倾斜*张量积，并用$g \bigotimes_{i \in I} E_i$表示。我们将公式化的任务留给读者，证明命题将no. 7的命题10推广到I无限的情况，就像no. 5的命题8将no. 2的命题5推广到I 是无穷大的情况。 注 $\varepsilon \bigotimes_{i \in I} E_i$ 的基础A-模与no. 5 中定义的非分级代数的$(E_i)_{i \in I}$ 系列的（非分级）张量积相同。
+(1) 设I为无限索引集合，$\Delta_0$为可交换幺半群；让$(\Delta_i)_{i \in I}$表示家庭，使得$\Delta_i = \Delta_0$对于所有$i$，并假设为I映射$\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$满足条件的不同指标$(i, j)$的每个有序对给出（22）， （23）和（24）（no. 7）；这也将被称为家庭* $(\Delta_i)$ 的*系统交换因子。考虑一个$(E_i)_{i \in I}$等级为A-代数为型$\Delta_0$的家庭；对于I的每个有限子集 J，令$E_J$表示子族$(E_i)_{i \in J}$的型* $\Delta_0$的*分级张量$\varepsilon$乘积（J上总排序的任意选择）。如果J，J'是I的两个有限子集，使得型$\Delta_0$的分级代数的$J \subset J'$，典范同态，h_{J'J}：E_J \to E_{J'}，已在上面定义，并且这些的唯一性属性同态立即证明，如果 J \子集 J' \子集 J'' 是 I 的三个有限子集，则 h_{J''J} = h_{J'J'} \circ h_{J'J}。因此，存在型 $\Delta_0$ (§ 3, no. 3) 的分级代数的直接系统 (E_J, h_{J'J})，其索引集合是有限子集的右侧有向集合 $\mathfrak{F}(I)$ I。 型 $\Delta_0$ 的分级代数，此直接系统 (§ 3, no. 3) 的*直极限*，称为型* $\Delta_0$ 的*分级张量 $\varepsilon$-产品家庭$(E_i)_{i \in I}$；也用$\varepsilon \bigotimes_{i \in I} E_i$表示。当所有$\Delta_i$等于$\mathbf{Z}$和$\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$时，张量积$\varepsilon \bigotimes_{i \in I} E_i$也称为族$(E_i)_{i \in I}$的*倾斜*张量积，并用$g \bigotimes_{i \in I} E_i$表示。我们将制定证明命题的任务留给读者，它将 no. 7 的命题 10 推广到 I 无限的情况，因为 no. 5 的命题 8 推广了命题 5 no. 2 到I 无穷大的情况。 注$\varepsilon \bigotimes_{i \in I} E_i$的底层A-模与no. 5中定义的非分级代数系列$(E_i)_{i \in I}$的（非分级）张量积相同。
 
-(2) 令E为型$\Delta_0$的分级A-代数（其中$\Delta_0$是可交换幺半群）和$\rho : A \to B$环同态； $\rho^*(E)$ (II, § 11, no. 5) 上的刻度与分级张量积 $B \otimes_A E$ 上的刻度相同，其中 B 具有平凡的刻度。
+(2) 令E为型$\Delta_0$的分级A-代数（其中$\Delta_0$是可交换幺半群）和$\rho : A \to B$环同态； $\rho^*(E)$ (II, § 11, no. 5) 上的刻度与分级张量积 $B \otimes_A E$ 上的刻度相同，其中B 具有平凡的刻度。
 
-### 9.反交换代数和交错的代数
+### 9. 反交换代数和交错的代数
 
 #### 定义 7 {#alg-iii-s4-def-7 .statement tag=0618}
 
@@ -849,19 +849,19 @@ $$
 xy = (-1)^{\deg(x)\deg(y)} yx.
 $$
 
-*代数 E 如果是反交换的，则称为交错的，并且对于奇数次数的每个齐次元素 $x \in E$，也称为 $x^2 = 0$。*
+*代数 E 如果它是反交换的，则称为交错的，并且对于奇数次数的每个齐次元素 $x \in E$，也称为 $x^2 = 0$。*
 
 #### 注 {#alg-iii-s4-n9-rem-1 .statement tag=0619}
 
 (1) 设$E^+$为$E_{2n}$($n \in \mathbf{Z}$)的E直和的分级子代数；从定义 7 可以得出，如果 E 是反交换的，则 $E^+$ 是包含在 * E 的中心中的 *子代数（因此是可交换的）。
 
-(2) 假设2不是E中0的除子；那么如果 E 是反交换的，则 E 是交错的，因为对于 $x \in E$ 齐次且奇数次数、$x^2 = -x^2$ 由 (36)、从而 $2x^2 = 0$ 和$x^2 = 0$ 凭借假设。
+(2) 假设2不是E中0的除子；那么如果 E 是反交换的，则 E 是交错的，因为对于 $x \in E$ 齐次且奇数次数，$x^2 = -x^2$ 由 (36) 得出，从而 $2x^2 = 0$ 且$x^2 = 0$ 凭借假设。
 
-(3) 我们将在交错的代数的§ 7重要的例中详细学习。
+(3) 我们将在交错的代数的§ 7重要例进行详细学习。
 
 #### 引理 4 {#alg-iii-s4-lem-4 .statement tag=061A}
 
-*设 E 为型 $\mathbf{Z}$ 的分级代数，S 集合为同质元素 $\neq 0$； E 的元素的集合 F，其所有均质成分 $x \neq 0$ 满足关系 (36) 对于所有 $y \in S$ 都是 E 的分级子代数。*
+*设 E 为型 $\mathbf{Z}$ 的分级代数，S 集合均质元素 $\neq 0$； E 的元素的集合 F，其所有均质成分 $x \neq 0$ 满足关系 (36) 对于所有 $y \in S$ 都是 E 的分级子代数。*
 
 注满足： (1) 如果$x', x''$是相同次数$p$的两个齐次元素，$y$是次数$q$和$x'y = (-1)^{pq}yx'$的齐次元素， $x''y = (-1)^{pq}yx''$，然后还有$(x' + x'')y = (-1)^{pq}y(x' + x'')$； (2) 如果$x', x''$分别是次数、$p', p''$、$y$的两个齐次元素、次数、$q$和$x'y = (-1)^{p'q}yx'$、$x''y = (-1)^{p''q}yx''$的齐次元素，则
 $$
@@ -898,11 +898,11 @@ $$
 
 #### 注 {#alg-iii-s4-n9-rem-2 .statement tag=061E}
 
-令 E 为型 $\mathbf{Z}$ 的反交换律 A-代数。那么由E($§ 1$,no. 3)的乘法定义的$E \otimes_A E$入E的A-线性映射就是分级的A-代数$E^g \otimes_A E$入E的同态，对于命题14的记号来说， 代数E,
+令 E 为型 $\mathbf{Z}$ 的反交换律 A-代数。那么由E($§ 1$,no. 3)的乘法定义的$E \otimes_A E$入E的A-线性映射就是分级的A-代数$E^g \otimes_A E$入E的同态，对于命题14的记号来说， 代数E，
 $$
 (xy)(x'y') = (-1)^{qp'}(xx')(yy').
 $$
 
 ### 习题{#alg-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

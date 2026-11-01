@@ -42,23 +42,23 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: 9003d9986b4390b2a2615bb63d4ed0e3bd00ae8b53fbef2f21ef9e4c71c0decf
+content_sha256: 0daef8d30578412aeb6f8080ff1c4517f23b3d8e79f2edee89a0dd17e475061d
 translated_from: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md
 translation_method: google
 source_content_sha256: e8ef2b43442fbc25b56375b83b63be74c37d7c8014a9723fb60c9bc369cd90cb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0119eec1cbbdcd17db2c5c26272911a57b538b62784aa6028ebbddc26120ac24
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。 森田等价 / 模和代数
 
 在这个截面中，$k$表示交换环。
 
-### 1.对易子和对偶性
+### 1. 对易子和对偶性
 
 设 A 和 B 为 $k$-代数。回想一下 (III, §4, No. 3, p. 466)，代数 A 和 B 上的双模是一个 $(A$, B)-双模 P，其中两个 $k$-模结构从 A- 和 B-模结构重合推导出来。为了避免任何歧义，我们说 P 是一个 $(A,B)_k$ 双模。令 P 为 $(A,B)_k$ 双模。我们用$P^*$表示左A-模底层P的对偶Hom$_A(P,A)$。它是一个$(B,A)_k$双模（II, §1, No. 14，p. 226）；对于 $a\in A$、$b\in B,x\in P$ 和 $x^*\in P^*$，我们有
 
@@ -66,7 +66,7 @@ $$
 \langle x, bx^*a\rangle =\langle xb, x^*\rangle a \tag{1}
 $$
 
-我们用 $_sA_d$ 代数 A 表示被视为 $(A,A)_k$-双模（前述），并用 $(A,A)_k$-双模确定的 $\Lambda  : P\otimes_BP^*\rightarrow_sA_d$ 同态表示
+我们用 $_sA_d$ 代数 A 表示被视为 $(A,A)_k$-双模（前述），并用 $\Lambda  : P\otimes_BP^*\rightarrow_sA_d$ 同态表示 $(A,A)_k$-双模，由下式确定：
 
 $$
 \Lambda (x\otimes x^*) =\langle x, x^*\rangle \tag{2}
@@ -114,13 +114,13 @@ $$
 
 $u, v\in P\otimes_BP^*$。
 
-对于$P^*$的任何元素$x^*$，用$\sigma (x^*)$表示从P到B的B-线性映射$x\mapsto \Theta (x^*\otimes x)$。因此，我们从 $P^*$ 到 $\widetilde{P}$ 定义映射 $\sigma$，即$(B$，A)-线性，并满足定义，
+对于$P^*$的任何元素$x^*$，用$\sigma (x^*)$表示从P到B的B-线性映射$x\mapsto \Theta (x^*\otimes x)$。因此，我们从$P^*$到$\widetilde{P}$定义映射$\sigma$，即$(B$，A)-线性，并满足定义，
 
 $$
 \Theta (x^*\otimes y) =\langle \sigma (x^*), y\rangle \tag{8}
 $$
 
-对于 $x^*\in P^*$ 和 $y\in P$。到 $\widetilde{\Lambda}$ 的定义时，我们有
+对于 $x^*\in P^*$ 和 $y\in P$。通过 $\widetilde{\Lambda}$ 的定义，我们有
 
 $$
 \Theta  =\widetilde{\Lambda}\circ (\sigma \otimes 1_P) \tag{9}
@@ -138,7 +138,7 @@ $$
 \widetilde{\Theta}(x\otimes \widetilde{y}) =\langle x,\widetilde{\sigma}(\widetilde{y})\rangle \tag{11}
 $$
 
-$x\in P,\widetilde{y}\in \widetilde{P}$。我们有
+对于$x\in P,\widetilde{y}\in \widetilde{P}$。我们有
 
 $$
 \widetilde{\Theta} = \Lambda \circ (1_P\otimes \widetilde{\sigma}) \tag{12}
@@ -176,13 +176,13 @@ $$
 
 a) B-模 P 可以用 P 的对模来识别；因此它是忠实且平衡的；
 
-b) 从 A 到 End$_B(P)$ 的映射 $a\mapsto a_P$ 是双射当且仅当 A-模 P 是忠实且平衡的。
+b) 从A到End$_B(P)$的映射$a\mapsto a_P$是双射当且仅当A-模P是忠实且平衡的。
 
 #### 注 2 {#alg-viii-s6-n1-rem-2 .statement tag=006T}
 
-在命题 1 的假设下，A-模 P 是平衡的；由于环 $A_P$ 和 $A'_P$ 具有相同的中心 (VIII, p. 77)，因此从环 A 的中心 Z(A) 到同构 $\varphi$ 环 B 的中心 Z(B)，由关系 $\varphi (z)_P=z_P$ 对于 $z\in Z(A)$ 确定。此外，$(A,B)_k$-双模P的自同态是同位$z_P$，其中$z$穿过Z(A)； $(A,B)_k$-双模 P 的自同构是同位$z_P$，其中 $z$ 在 Z(A) 中可逆。
+在命题 1 的假设下，A-模 P 是平衡的；由于环$A_P$和$A'_P$具有相同的中心（VIII，p. 77），因此从环A的中心Z(A)到中心有同构$\varphi$ 环 B 的 Z(B)，由 $z\in Z(A)$ 的关系 $\varphi (z)_P=z_P$ 确定。此外，$(A,B)_k$-双模P的自同态是同位$z_P$，其中$z$穿过Z(A)； $(A,B)_k$-双模 P 的自同构是同位 $z_P$，其中 $z$ 在 Z(A) 中可逆。
 
-### 2.生成模和有限生成射影模
+### 2. 生成模和有限生成射影模
 
 #### 命题 2 {#alg-viii-s6-prop-2 .statement tag=006U}
 
@@ -226,7 +226,7 @@ $$
 
 (ii)$\Rightarrow$ (iii)：取$Q = P^*$即可。
 
-(iii) $\Rightarrow$ (ii)：令 Q 为从 $P\otimes_BQ$ 到 $_sA_d$ 的$(A,A)_k$-双模的 $(B,A)_k$ 双模和 $\psi$ 同态。从Q到$P^*$存在$(B,A)_k$双模Ψ的同态，使得$\psi (x\otimes y) =\langle x,\Psi (y)\rangle$对应$x\in P$和$y\in Q$，并且我们有等式$\psi = \Lambda \circ (1_P\otimes \Psi )$。如果 $\psi$ 是满射，那么 Λ 也是满射。
+(iii) $\Rightarrow$ (ii)：令 Q 为从 $P\otimes_BQ$ 到 $_sA_d$ 的$(A,A)_k$-双模的 $(B,A)_k$ 双模和 $\psi$ 同态。从 Q 到 $P^*$ 存在 $(B,A)_k$ 双模 Ψ 的同态，使得 $\psi (x\otimes y) =\langle x,\Psi (y)\rangle$ 对应于 $x\in P$ 和 $y\in Q$，并且我们有等式 $\psi = \Lambda \circ (1_P\otimes \Psi )$。如果 $\psi$ 是满射，那么 Λ 也是满射。
 
 显然，(iv) 暗示着(ii)。相反，假设性质 (ii) 成立，并且从 B 到 End$_A(P)$ 映射 $b\mapsto b_P$ 是双射的。令 $e$ 为 $P\otimes_BP^*$ 的元素，使得 $\Lambda (e) = 1$。到VIII、p. 96的关系(7)，$P\otimes_BP^*$中每$u$就有$u= \Lambda (u)e$； Λ 的单射性如下。
 
@@ -238,13 +238,13 @@ a) 如果 A-模 P 是生成的，则右B-模 P 是射影且有限生成的。
 
 b) 如果 A-模 P 是射影且有限生成的，则右B-模 P 是生成的。
 
-假设A-模 P 是生成的。那么它是忠实和平衡的（VIII，p. 82，定理2），因此从A到End$_B(P)$的映射$a\mapsto a_P$是双射的（VIII，p. 97，注1）。此外，映射$\Lambda  : P\otimes_BP^*\rightarrow_sA_d$是双射（VIII，p. 98，命题3）。我们将 P 视为 $(B^o,A^o)_k$ 双模。 映射 Λ 诱导双射映射 $P^*\otimes_{B^o}P\rightarrow A^o$；由 VIII, p. 98, (iv) $\Rightarrow$ (i), 右B-模的命题 2 P 是射影且有限生成的。
+假设A-模 P 是生成的。那么它是忠实且平衡的（VIII，p. 82，定理2），因此从A到End$_B(P)$的映射$a\mapsto a_P$是双射的（VIII，p. 97，注1）。此外，映射$\Lambda  : P\otimes_BP^*\rightarrow_sA_d$是双射（VIII，p. 98，命题3）。我们将 P 视为 $(B^o,A^o)_k$ 双模。 映射 Λ 诱导双射映射 $P^*\otimes_{B^o}P\rightarrow A^o$；由 VIII、p. 98、(iv) $\Rightarrow$ (i)、右B-模的命题 2 P 是射影且有限生成的。
 
 现在，假设 A-模 P 是射影且有限生成的。那么映射 $\Theta  : P^*\otimes_AP\rightarrow_sB_d$ 是双射 (loc. cit., (i) $\Rightarrow$ (ii))。将上述命题 3 的 (iii) $\Rightarrow$ (i) 应用于$(B^o,A^o)_k$-双模 P，右B-模 P 为生成的。
 
 #### 推论 1 {#alg-viii-s6-prop-4-cor-1 .statement tag=006X}
 
-生成模的对模是射影且有限生成的。 有限生成射影模的对模是生成的。
+生成模的对模是射影且有限生成的。 有限生成射影模中的对模是生成的。
 
 设 A 为 $k$ 代数，M 为 A-模。我们用 B 表示代数 End$_A(M)$ 的相反 $k$ 代数。推论来自应用于 $(A,B)_k$ 双模 M 的命题 4。
 
@@ -258,11 +258,11 @@ b) 如果 A-模 P 是射影且有限生成的，则右B-模 P 是生成的。
 
 蕴涵 (i) $\Rightarrow$ (ii) 由命题 4, a) 和注 1 (VIII, p. 97) 得出。假设 (ii) 成立；那么 A-模 P 是生成的 (命题 4, b) 应用于$(B^o,A^o)_k$-双模 P)。由于B-模 P 是忠实且平衡的，因而 (i) 的第二个断言也满足 (VIII, p. 97, 注 1)。
 
-### 3.可逆双模和森田等价
+### 3. 可逆双模和森田等价
 
 #### 定义 1 {#alg-viii-s6-def-1 .statement tag=006Z}
 
-设 A 和 B 为 $k$-代数，P 为 $(A,B)_k$ 双模。如果存在$(B,A)_k$双模Q，使得$P\otimes_BQ$同构于$_sA_d$且$Q\otimes_AP$同构于$_sB_d$，我们称P是可逆的。这样的双模 Q 称为 P 的逆。
+设 A 和 B 为 $k$-代数，P 为 $(A,B)_k$ 双模。如果存在$(B,A)_k$双模Q，使得$P\otimes_BQ$同构于$_sA_d$且$Q\otimes_AP$同构于$_sB_d$，我们称P是可逆的。这样的双模 Q 被称为 P 的逆。
 
 设 A 和 B 为 $k$-代数，并令 P 为可逆 $(A,B)_k$ 双模。令C为$k$代数，$P'$为可逆的$(B,C)_k$双模。最后，令Q和$Q'$分别是P和$P'$的逆双模。通过张量积 (II, §3, No. 8, p. 258, 命题 8) 的结合性和 II, §3, No. 4, p. 249 的命题 4，$(C,A)_k$ 双模 $Q'\otimes_BQ$ 是$(A,C)_k$-双模$P\otimes_BP'$，因而$P\otimes_BP'$是可逆的$(A,C)_k$-双模。
 
@@ -338,41 +338,41 @@ $$
 
 #### 例 1 {#alg-viii-s6-n3-exa-1 .statement tag=0076}
 
-设 B 为 $k$ 代数，$n$ 整数 $\geqslant 1$，A 为 $k$ 代数 $\mathbf{M}_n(B)$。 右B-模 $P = B^n_d$ 是射影、有限生成的，生成的，A 可以用 P 的内同态代数来识别（II, §10, No. 7，p. 349）。到定理 1，$(A,B)_k$-双模 P 是可逆的。因此代数 B 和$\mathbf{M}_n(B)$ 是森田等价的。
+设 B 为 $k$ 代数，$n$ 整数 $\geqslant 1$，A 为 $k$ 代数 $\mathbf{M}_n(B)$。 右B-模 $P = B^n_d$ 是射影、有限生成的，生成的，A 可以用 P 的内同态代数来标识（II, §10, No. 7，p. 349）。到定理 1，$(A,B)_k$-双模 P 是可逆的。因此代数 B 和$\mathbf{M}_n(B)$ 是森田等价的。
 
 #### 例 2 {#alg-viii-s6-n3-exa-2 .statement tag=00SH}
 
-设 A 是可交换的 $k$ 代数，P A-模。我们将 P 视为一个 $(A,A)_k$ 双模，其律和作用相等。如果 $(A,A)_k$ 双模 P 是可逆的，则 A-模 P 是有限生成的 (定理 1)。 定理 3 通讯。代数，II, §5, No. 4，p. 114，以下性质是等价的：
+设 A 是可交换的 $k$ 代数，P A-模。我们将 P 视为一个 $(A,A)_k$ 双模，其作用的两个律相等。如果 $(A,A)_k$ 双模 P 是可逆的，则 A-模 P 是有限生成的 (定理 1)。 定理 3 通讯。代数，II, §5, No. 4，p. 114，以下性质是等价的：
 
 (i) $(A,A)_k$-双模 P 是可逆的。
 
-(ii) 存在 A-模 Q 使得 $P\otimes_AQ$ 与 A 同构。
+(ii) 存在 A-模 Q 使得 $P\otimes_AQ$ 与 A 同构的。
 
 (iii) A-模 P 是射影，有限生成，且为秩 $1.*$
 
-### 4.模的森田对应
+### 4. The Morita Correspondence of Modules
 
-在这个小节中，字母A和B表示森田等价的$k$代数，P表示可逆的$(A,B)_k$双模。 选择 $(B,A)_k$-双模 Q 与 P 和同构逆
+在这个小节中，字母A和B表示森田等价的$k$-代数，P表示可逆的$(A,B)_k$-双模。 选择 $(B,A)_k$-双模 Q 与 P 和同构逆
 
 $\lambda : P\otimes_BQ\rightarrow_sA_d$ 和 $\theta : Q\otimes_AP\rightarrow_sB_d$。
 
-对于任意左B-模V，用B-模$\theta \otimes 1_V: Q\otimes_AP\otimes_BV\rightarrow V$的$\theta_V$同态表示；它是同构，因为$\theta$是同构。同样，对于每个左A-模 M，用 A-模 $\lambda \otimes 1_M: P\otimes_BQ\otimes_AM\rightarrow M$ 的 $\lambda_M$ 同态表示；它是同构，因为$\lambda$是同构。
+对于任意左B-模V，用B-模$\theta \otimes 1_V: Q\otimes_AP\otimes_BV\rightarrow V$的$\theta_V$同态表示；它是同构，因为$\theta$是同构。同样，对于每个左A-模 M，用A-模$\lambda \otimes 1_M: P\otimes_BQ\otimes_AM\rightarrow M$的$\lambda_M$同态表示；它是同构，因为$\lambda$是同构。
 
 #### 定理 2（森田）{#alg-viii-s6-thm-2 .statement tag=00S2}
 
-a) 令 V 和 W 为左B-模。从霍姆$_B(V,W)$ 到霍姆$_A(P\otimes_BV,P\otimes_BW)$，映射 $g\mapsto 1_P\otimes g$ 为双射。 逆双射将Hom$_A(P\otimes_BV,P\otimes_BW)$的元素$h$发送至Hom$_B(V,W)$的元素$\theta_W\circ (1_Q\otimes h)\circ \theta_V^{-1}$。
+a) 令 V 和 W 为左B-模。从 Hom$_B(V,W)$ 到 Hom$_A(P\otimes_BV,P\otimes_BW)$ 映射 $g\mapsto 1_P\otimes g$ 为双射。 逆双射将Hom$_A(P\otimes_BV,P\otimes_BW)$的元素$h$发送到Hom$_B(V,W)$的元素$\theta_W\circ (1_Q\otimes h)\circ \theta_V^{-1}$。
 
 b) 每个左A-模 M 都同构于形式 $P\otimes_BV$ 的模，其中V 是左B-模。
 
 令 V 和 W 为左B-模。通过VIII、p. 101、映射$\varphi :g\mapsto 1_P\otimes g$的引理 1，从Hom$_B(V,W)$到Hom$_A(P\otimes_BV,P\otimes_BW)$是单射的。通过交换 P 和 Q（以及 A 和 B）的角色，我们看到从 Hom$_A(P\otimes_BV,P\otimes_BW)$ 到 Hom$_A(Q\otimes_AP\otimes_BV,Q\otimes_AP\otimes_BW)$ 的映射 $\psi :h\mapsto 1_Q\otimes h$ 也是单射的。现在，合成$\psi \circ \varphi$是映射$g\mapsto \theta^{-1}_W\circ g\circ \theta_V$。它是双射的，因而 $\psi$ 也是双射的。因而，$\varphi$是双射，它的逆矩阵是映射$h\mapsto \theta_W\circ (1_Q\otimes h)\circ \theta^{-1}_V$。
 
-断言 b) 从 $P\otimes_B$ $\otimes_A\otimes M$ 到 M $\lambda_M$ 是同构的事实得出。
+断言 b) 从$\lambda_M$是同构这一事实得出，从$P\otimes_B$$\otimes_A\otimes M$到M。
 
-令 V 为左B-模，且 W 子模为 V。由于 B-模 P 是射影（VIII、p. 101、定理 1），因此从 $P\otimes_BW$ 到 $P\otimes_BV$ 的典范映射是单射的。我们认同$P\otimes_BW$及其像在$P\otimes_BV$通过这个映射。当 P 和 B 被 Q 和 A 替代时，我们采用类似的约定。
+设 V 为左B-模，W 子模为 V。由于 B-模 P 是射影（VIII、p. 101、定理 1），因此从 $P\otimes_BW$ 到 $P\otimes_BV$ 的典范映射是单射的。我们认同$P\otimes_BW$及其像在$P\otimes_BV$通过这个映射。当 P 和 B 被 Q 和 A 替代时，我们采用类似的约定。
 
 #### 命题 5 {#alg-viii-s6-prop-5 .statement tag=0077}
 
-设V为左B-模。 映射$W\mapsto P\otimes_BW$是同构，从V的B-子模的集合（按包含排序）到$P\otimes_BV$的A-子模的集合（按包含排序）。 逆同构在$Q\otimes_AP\otimes_BV$的B-子模$Q\otimes_AN$的$\theta_V$下将$P\otimes_BV$的A-子模N发送到像。
+设V为左B-模。 映射$W\mapsto P\otimes_BW$是从V的B-子模的集合（按包含排序）到$P\otimes_BV$的A-子模的集合（按包含排序）的同构。 逆同构将$P\otimes_BV$的A-子模N发送给$Q\otimes_AP\otimes_BV$的B-子模$Q\otimes_AN$的$\theta_V$下的像。
 
 用V B-子模$D_B(V)$集合表示，按包含排序，定义集合$D_A(P\otimes_BV)$和$D_B(Q\otimes_AP\otimes_BV)$同理。 设$\varphi : D_B(V)\rightarrow$$D_A(P\otimes_BV)$为映射$W\mapsto P\otimes_BW$和$\psi$映射，从$D_A(P\otimes_BV)$到$D_B(Q\otimes_AP\otimes_BV)$由$N\mapsto Q\otimes_AN$给出。 它们是单调递增映射，合成 $\psi \circ \varphi$ 是映射 $W\mapsto \theta^{-1}_V$(W)，它是双射的。 因而，$\varphi$是单射的，$\psi$是满射的。 通过替换 B 与 A 以及 V 与 $P\otimes_BV$，我们看到 $\psi$ 也是单射的。 因而，$\varphi$和$\psi$是双射的，$\varphi$的逆映射确实是命题中描述的。
 
@@ -434,13 +434,13 @@ b) 假设环 A 是可交换的，因此 A 可以与 B 的中心等价（VIII，p
 
 模 M 或其子模的一些属性可以用有序集合 D(M) 的项来表示：它们列在表 I 和 II 中。
 
-模 M 是子模中$(M_i)_{i\in I}$ 的直和当且仅当我们对于每个$i\in I$ 都有$M =\sum_{i\in I}M_i$ 和$M_i\cap \sum_{j\not=i}M_j= 0$。这个注和表I的检查给出了以下结果。
+模 M 是子模的$(M_i)_{i\in I}$ 家庭的直和当且仅当我们对于每个$i\in I$ 都有$M =\sum_{i\in I}M_i$ 和$M_i\cap \sum_{j\not=i}M_j= 0$。这个注和表I的检查给出了以下结果。
 
 #### 命题 7 {#alg-viii-s6-prop-7 .statement tag=007E}
 
 a) 我们有 $\varphi (0) = 0$ 和 $\varphi (V) = M$。
 
-b) 设$(V_i)_{i\in I}$是子模和V的家庭。我们有
+b) 设$(V_i)_{i\in I}$是V的子模的家庭。我们有
 
 $$
 \varphi (\sum_{i\in I}V_i)=\sum_{i\in I}\varphi (V_i),\varphi (\bigcap_{i\in I}V_i)=\bigcap_{i\in I}\varphi (V_i)
@@ -462,7 +462,7 @@ M 的简单子模最小 D(M) 的元素 $-\{0\}$
 
 M 极大子模 D(M) 极大元素 $-\{M\}$
 
-M 的底层 $\mathscr{S}(M)$ 集合的 D(M) 中至少上界
+M 的底层 $\mathscr{S}(M)$ 集合的 D(M) 中最少上界
 
 D(M)$-\{0\}$ 的最小元素
 
@@ -478,7 +478,7 @@ D(M)$-\{M\}$极大元素(VIII、p. 151)
 
 模 M 的性质 D(M) 的性质
 
-M 为诺特。有序的集合 D(M) 是诺特 (集合
+M 为诺特。有序集合 D(M) 为诺特 (集合
 
 理论，III, §6, No. 5，p. 190）。
 
@@ -490,7 +490,7 @@ M 不可分解。我们有 M $\not= 0$，但没有
 
 两个非零元素 $M'$ 和 $M''$
 
-D(M) 满足 inf(M$',M''$) $= 0$,
+D(中) 满足 inf(中$',M''$) $= 0$,
 
 超级（M$',M''$）$= M$。
 
@@ -548,7 +548,7 @@ $$
 
 设S为V的简单子模，T为M的简单子模$\varphi (S)$。如果$V_S$表示型S的V的同型成分，$M_T$表示型T的M的同型成分，那么我们就有$\varphi (V_S) = M_T$。
 
-V中与S不同的每个简单子模$S'$都满足$S'\cap S = 0$。因此，当且仅当 $\varphi (S')$ 同构于 T (引理 2) 时，它才同构于 S。现在，$V_S$是与S同构的V简单子模的和，并且$M_T$是与T同构的M的简单子模和。因此命题9紧随命题7和8。
+V中与S不同的每个简单子模$S'$都满足$S'\cap S = 0$。因此，当且仅当 $\varphi (S')$ 同构于 T (引理 2) 时，它才同构于 S。现在，$V_S$是与S同构的V的简单子模的和，并且$M_T$是与T同构的M的简单子模的和。因此命题9紧随命题7和8。
 
 #### 命题 10 {#alg-viii-s6-prop-10 .statement tag=007H}
 
@@ -558,15 +558,15 @@ b）B-模V有有限长度当且仅当A-模M有有限长度，然后我们有long
 
 c) B-模 V 是半单（分别是同型）当且仅当 A-模 M 是半单（分别是同型）。如果是这种情况，那么我们就有 long$_B(V) =$ long$_A(M)$。
 
-断言 a) 源自表 II 中列出的第二个性质。
+断言 a) 从表 II 中列出的第二个性质开始。
 
-断言 b) 由命题 8, d) 得出。
+断言 b) 由命题 8, d) 推出。
 
-模 V 是半单当且仅当它等于其底层 $\mathscr{S}(V)$；当且仅当存在 V 的简单子模 S 使得 $V = V_S$ 时，它是同型的。因此，断言 c) 由命题 7、c)、8、c) 和 9（VIII、p. 106 和 109）得出。
+模 V 是半单当且仅当它等于其底层 $\mathscr{S}(V)$；当且仅当存在 V 的简单子模 S 使得 $V = V_S$ 时，它是同型的。因此，断言 c) 由命题 7, c), 8, c) 和 9 (VIII, p. 106 和 109) 得出。
 
 ### 6. 森田对应保留的其他属性
 
-设 A 和 B 是森田等价的$k$-代数，P 是可逆的$(A,B)_k$-双模。
+设 A 和 B 为 Morita 等价的 $k$-代数，P 为可逆的 $(A,B)_k$ 双模。
 
 #### 命题 11 {#alg-viii-s6-prop-11 .statement tag=007I}
 
@@ -576,13 +576,13 @@ $$
 (\mathscr{E})V'-\overset{f}{\rightarrow}V-\overset{g}{\rightarrow}V''
 $$
 
-是B-模和B-线性映射中的图表，并且让
+是B-模和B-线性映射的图表，并且令
 
 $$
 (P\otimes \mathscr{E})P\otimes_BV'\longrightarrow^{1_P\otimes f}P\otimes_BV\longrightarrow^{1_P\otimes g}P\otimes_BV''
 $$
 
-为 A-模中的相应的图表。那么$(\mathscr{E})$是正合序列当且仅当$(P\otimes \mathscr{E})$是正合序列。
+是相应的图表或 A-模。那么$(\mathscr{E})$是正合序列当且仅当$(P\otimes \mathscr{E})$是正合序列。
 
 假设序列 $(\mathscr{E})$ 是精确的。由于右B-模 P 是射影，序列 $(P\otimes \mathscr{E})$ 是精确的（II, §3, No. 6、p. 251、命题 5 和 II, §3, No. 7、p. 257，推论 6）。
 
@@ -612,15 +612,15 @@ A-模$P\otimes_BV$是。
 
 a) 假设 V 是射影的。存在集合 I 使得 V 同构于 $B^{(I)}_s$ 的直因子子模 。那么A-模$P\otimes_BV$同构于$P^{(I)}$的直因子子模；由于 P 是射影 A-模，因此同样适用于 $P\otimes_BV$。
 
-b) 假设B-模V为生成的。令 M 为 A-模。存在 B-模 W 使得 M 与 $P\otimes_BW$ 同构。通过VIII、p. 80的定理 1，存在集合I和满射$\varphi : V^{(I)}\rightarrow W$。根据推论，从 $P\otimes (V^{(I})$ 到 $P\otimes_AW$ 的映射 $1_P\otimes \varphi$ 是满射，从而给出满射 $(P\otimes V)^{(I)}\rightarrow M$。到定理时，VIII、p. 80、$P\otimes V$ 中的 1 个为生成A-模。
+b) 假设B-模V是生成的。令 M 为 A-模。存在 B-模 W 使得 M 与 $P\otimes_BW$ 同构。通过VIII、p. 80的定理 1，存在集合I和满射$\varphi : V^{(I)}\rightarrow W$。根据推论，从 $P\otimes (V^{(I})$ 到 $P\otimes_AW$ 的映射 $1_P\otimes \varphi$ 是满射，从而给出满射 $(P\otimes V)^{(I)}\rightarrow M$。到VIII、p. 80、$P\otimes V$ 中的定理 1 为生成A-模。
 
 c) B-模 V 是忠实的，当且仅当其湮没子减少到 0。 断言 c) 因此从 VIII、p. 105 的例 3 得出。
 
-$*$d) 假设V是单射的。通过VIII的注，p. 106，A-模$P\otimes_BV$同构于Hom$_B(Q,V)$，其中Q是A的$(B,A)_k$逆双模。由于A-模Q是射影的，因此是平坦的（X, §1， n$^o3$, p. 9, 例 1), A-模 Hom$_B(Q,V)$ 是X, §1, n$^o8$, p. 18, 命题 11 的内射。
+$*$d) 假设V是单射的。 通过VIII、p. 106、A-模$P\otimes_BV$的注同构于Hom$_B(Q,V)$，其中Q是与A相反的$(B,A)_k$双模。 由于 A-模 Q 是射影，因此平坦（X, §1，n$^o3$，p. 9，例 1），A-模 Hom$_B(Q,V)$ 是 X, §1，n$^o8$，p. 18，命题 11 的内射。
 
 e) 假设 V 承认有限表示 $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10)。通过将张量积与 P 结合，我们可以推导出 A-模 $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$ 的正合序列，其中 $N'_1$ 和 $N'_0$ 是射影且有限生成的（命题 11 和 a)）。令$N''_0$为有限生成A-模，使得模$N_0= N'_0\oplus N''_0$是自由且有限生成的，并令$u': N'_1\oplus N''_0\rightarrow N_0$为同态$(u,1_{N''_0})$；那么$P\otimes_BV$可以用$u'$的余核来识别。令$N_1$为有限生成的自由A-模和$p: N_1\rightarrow N'_1\oplus N''_0$满同态； 序列 $N_1\longrightarrow^{u'\circ p}N_0\rightarrow P\otimes_BV\rightarrow 0$ 是 A-模 $P\otimes_BV.*$ 的有限表示
 
-f) 假设 A-模 $P\otimes_BV$ 是射影的（分别是生成的，忠实的，$*$内射的，有限呈现的）。通过上述应用（交换
+f) 假设 A-模 $P\otimes_BV$ 是射影的（分别是生成的，忠实的，$*$内射的，有限呈现的）。到应用以上（交换
 
 $$
 *
@@ -632,15 +632,15 @@ A和B以及P和Q的角色），我们看到B-模$Q\otimes_AP\otimes_BV$也有这
 
 环 A 是左阿廷的（或左诺特的）当且仅当环 B 是。
 
-由于 B 的左理想的有序集合和 P 的 A-子模的集合之间的同构，当且仅当 A-模 P 为阿廷的（或阿廷的）时，环 B 才为左阿廷的（或左诺特的）。 诺特）。然而，通过 VIII、p. 101、A-模的定理 1，P 为生成的并且是有限生成的；特别是，对于整数$n\geqslant 1$，$A_s$同构于$P^n$的直因子。因而，当且仅当 A 为左阿廷的（或左诺特的）时，P 才为阿廷的（或诺特）。
+由于同构介于B的左理想的有序集合和P的A-子模的集合之间，环B是左阿廷的（或左诺特的）当且仅当A-模P是阿廷的（分别为诺特）。然而，到 VIII、p. 101、A-模的定理 1 时，P 为生成的并且是有限生成的；特别是，对于整数$n\geqslant 1$，$A_s$同构于$P^n$的直因子。因而，当且仅当 A 为左阿廷的（或左诺特的）时，P 才为阿廷的（或诺特）。
 
-### 7. 森田等价 / 代数
+### 7. 森田等价共代数
 
 #### 命题 13 {#alg-viii-s6-prop-13 .statement tag=007M}
 
 a) 如果两个$k$-代数是森田等价的，则它们的中心是同构的$k$-代数。
 
-b) 两个交换 $k$-代数是森田等价的当且仅当它们是同构的。
+b) 两个交换 $k$-代数是 Morita 等价的当且仅当它们是同构的。
 
 c) 两个域的$k$-代数是森田等价的当且仅当它们是同构的。
 
@@ -650,7 +650,7 @@ e) 如果 A 和 B 是 Morita 等价的 $k$-代数，且 $k'$ 是可交换的 $k$
 
 断言 a) 由VIII、p. 102 的推论 1 得出，并隐含 b)。
 
-令 K 和 L 为 $k$-代数且为域，并令 P 为可逆的 $(K,L)_k$ 双模。右L-向量空间 P 为单模 (VIII, p. 104)，因此维数 1，因而$k$-代数End$_L(P)$ 和L 同构。由K到End$_L(P)$经VIII、p. 101、定理1、映射$a\mapsto a_P$为同构。因而，域 K 和 L 在 $k$ 上同构； 断言 c)如下。
+令 K 和 L 为$k$-代数且域，并令 P 为可逆的$(K,L)_k$-双模。右L向量空间P是单模(VIII,p. 104)，因此维数为1，所以$k$-代数End$_L(P)$和L是同构的。从K到End$_L(P)$经过VIII、p. 101、定理1、映射$a\mapsto a_P$是同构。因而，域 K 和 L 在 $k$ 上同构； 断言 c)如下。
 
 在 d) 的假设下，令 $Q_i(i= 1,2)$ 为 $(B_i,A_i)_k$ 双模逆于 $P_i$。用 Q 表示 $(B,A)_k$-双模 $Q_1\otimes_kQ_2$。考虑规范的 $k$-线性同构 $(P_1\otimes_kP_2)\otimes_k(Q_1\otimes_kQ_2)\rightarrow (P_1\otimes_kQ_1)\otimes_k$ $(P_2\otimes_kQ_2)$；当经过为商时，定义态射
 
@@ -724,8 +724,8 @@ d) 设 M 为左A-模。当且仅当 A-模 M 是时，模$M^n$超过环$\mathbf{M
 
 #### 例 3 {#alg-viii-s6-n7-exa-3 .statement tag=007S}
 
-设 A 为主理想整环和 L 非零的，有限生成，自由A-模。设B为L的自同态环；则L是可逆的$(A,B)_{\mathbf{Z}}$双模，环A和B是森田等价的。通过 Morita 的定理、命题 10、a) (VIII、p. 109) 和结构定理 for 有限生成A-模 (VII, §4, No. 4、p. 19、定理 2)，每个有限生成B-模与$\oplus^m_{i=1}(L/\mathfrak{a}_iL)$同构的，其中$m$是自然数，$\mathfrak{a}_i$是满足、$\mathfrak{a}_1\subset \mathfrak{a}_2\subset  \cdots  \subset \mathfrak{a}_m$和$\mathfrak{a}_m\not= A$的理想； 整数$m$和理想$\mathfrak{a}_i$是唯一确定的。到 VIII、p. 105 的命题 6，B 的每个双面理想都是形式 $dB$，其中 $d$ 是 A 的元素。
+设 A 为主理想整环和 L 非零的，有限生成，自由A-模。设B为L的自同态环；则 L 是可逆的 $(A,B)_{\mathbf{Z}}$ 双模，环 A 和 B 是 Morita 等价的。由 Morita 的定理、命题 10、a) (VIII、p. 109) 和结构定理 for 有限生成A-模 (VII, §4, No. 4、p. 19、定理 2)，每个有限生成B-模与$\oplus^m_{i=1}(L/\mathfrak{a}_iL)$同构的，其中$m$是自然数，$\mathfrak{a}_i$是满足、$\mathfrak{a}_1\subset \mathfrak{a}_2\subset  \cdots  \subset \mathfrak{a}_m$和$\mathfrak{a}_m\not= A$的理想； 整数$m$和理想$\mathfrak{a}_i$是唯一确定的。到 VIII、p. 105 的命题 6，B 的每个双面理想都是形式 $dB$，其中 $d$ 是 A 的元素。
 
 ### 习题{#alg-viii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

@@ -25,40 +25,40 @@ subsections:
       pdf_page: 42
 statements: 6
 exercises: 0
-content_sha256: ad696c6c500cbc1f95e3626876af3dcde549a2ded91ad7dfcdd4d534467cb76a
+content_sha256: 9a0cca8f82e5a515344eb7060cc5bfa8f77936e28bbacc9c1ccfd3c55ada4c92
 translated_from: content/en/lie/IV/A_a_graphs.md
 translation_method: google
 source_content_sha256: 7fa7ab5ecf248630c43ab97ab1126594432fdccc1695b2f5d4ac5a3b570217ea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a61207713c0a47045ebb90603d4b7d46da8b9898e6ae0fe25bc20f420fda92cd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录
 # 图表
 
-### 1.定义
+### 1. DEFINITIONS
 
 #### 定义 1 {#lie-iv-a0-def-1 .statement tag=0AOV}
 
-*组合图（或简单的图，如果没有混淆的风险）是对* $(\mathbf{A}, S)$，*其中S是集合，A是集合的$\mathfrak{P}(S)$由……组成的子集和两个元素。*
+*组合图（或简单的图，如果没有混淆的风险）是对* $(\mathbf{A}, S)$，*其中S是集合，A是$\mathfrak{P}(S)$的子集，集合的由……组成和两个元素。*
 
-令 $\Gamma = (\mathbf{A}, S)$ 为图。 $\mathbf{A}$的元素称为*边*，S的$\Gamma$的*顶点*；如果 $\{x, y\}$ 是一条边，则两个顶点被称为“连接”。如果一个顶点最多连接到一个顶点，则该顶点称为*终端*；如果它连接到至少三个顶点，则称为*分支点*。
+设 $\Gamma = (\mathbf{A}, S)$ 为图。 $\mathbf{A}$的元素称为*边*，S的$\Gamma$的*顶点*；如果 $\{x, y\}$ 是一条边，则两个顶点被称为“连接”。如果一个顶点最多连接到一个顶点，则该顶点称为*终端*；如果它连接到至少三个顶点，则称为*分支点*。
 
-根据一般的定义（*集合 R*，§8），从图$\Gamma$到图$\Gamma' = (\mathbf{A}', S')$的*同构*是从S到S'的双射，需要$\mathbf{A}$到$\mathbf{A}'$。如果 $S' \subset S$ 和 $\mathbf{A}' \subset \mathbf{A}$，则图 $\Gamma' = (\mathbf{A}', S')$ 被称为 $\Gamma$ 的*子图*；如果$S' \subset S$和$\mathbf{A}' = \mathbf{A} \cap \mathfrak{P}(S)$，$\Gamma$被称为$\Gamma$的*完整子图*。很明显，S 的每个子集恰好是 $\Gamma$ 的一个完整子图的集合个顶点。
+根据一般的定义（*集合R*，§8），从图$\Gamma$到图$\Gamma' = (\mathbf{A}', S')$的*同构*是从S到S'的双射，需要$\mathbf{A}$到$\mathbf{A}'$。如果 $S' \subset S$ 和 $\mathbf{A}' \subset \mathbf{A}$，则图 $\Gamma' = (\mathbf{A}', S')$ 被称为 $\Gamma$ 的*子图*；如果$S' \subset S$和$\mathbf{A}' = \mathbf{A} \cap \mathfrak{P}(S)$，$\Gamma$被称为$\Gamma$的*完整子图*。很明显，S 的每个子集恰好是 $\Gamma$ 的一个完整子图的顶点集合。
 
-为了使论证更容易理解，我们用图表表示一个图，其中顶点有点相应的，当且仅当它们表示的顶点在图中连接时，两个点通过一条线连接起来。 例、图表
+为了使论证更容易理解，我们用图表表示一个图，其中顶点具有点相应的，当且仅当它们表示的顶点在图中连接时，两个点通过一条线连接起来。 例、图表
 
-![图表具有顶点 a, b, c, d, e 和边 {a, b}, {b, c}, {c, d}, {c, e}](https://i.imgur.com/3Q5z5QG.png) 的图
+![具有顶点 a, b, c, d, e 和边 {a, b}, {b, c}, {c, d}, {c, e} 的图的图表](https://i.imgur.com/3Q5z5QG.png)
 
 表示一个图，其顶点为 $a, b, c, d, e$，边为 $\{a, b\}, \{b, c\}, \{c, d\}$ 和 $\{c, e\}$。
 
-### 2. 图表的连接组件
+### 2. 图的连接部分
 
-设 $\Gamma = (\mathbf{A}, S)$ 是一个图。如果$a$和$b$是两个顶点，则连接$a$和$b$的*路径*是$\Gamma$和$x_0 = a, x_n = b$的顶点的序列$(x_0, \ldots, x_n)$，顶点$x_i$和$x_{i+1}$ 加入$0 \leq i < n$； 整数 $n \geq 0$ 是路径的 *长度*。如果 $x_i \neq x_j$ if $i \neq j$，则路径 $(x_0, \ldots, x_n)$ 被称为单射。如果连接$a$和$b$的路径$(x_0, \ldots, x_n)$在这些路径中具有最小的长度，则它必然是单射的；因为如果没有，就会存在$i$和$j$以及$0 \leq i < j \leq n$和$x_i = x_j$，然后序列
+设 $\Gamma = (\mathbf{A}, S)$ 为图。如果$a$和$b$是两个顶点，则连接$a$和$b$的*路径*是$\Gamma$和$x_0 = a, x_n = b$的顶点的序列$(x_0, \ldots, x_n)$，顶点$x_i$和$x_{i+1}$被连接为$0 \leq i < n$； 整数 $n \geq 0$ 是路径的 *长度*。如果 $x_i \neq x_j$ if $i \neq j$，则称路径 $(x_0, \ldots, x_n)$ 是单射的。如果连接$a$和$b$的路径$(x_0, \ldots, x_n)$在这些路径中具有最小的长度，则它必然是单射的；因为如果没有，就会存在$i$和$j$以及$0 \leq i < j \leq n$和$x_i = x_j$，然后是序列
 
 $$
 (x_0, \ldots, x_i, x_{j+1}, \ldots, x_n)
@@ -66,7 +66,7 @@ $$
 
 将是连接$a$和$b$的长度$< n$路径。
 
-关系“在$\Gamma$的两个顶点$a$和$b$之间存在一条连接$a$和$b$的路径”，在集合$S$上有等价关系$R$。 $R$的等价类称为$\Gamma$的*连通分量*；如果$S$至多有一个连通分量，即$\Gamma$的任意两个顶点可以通过至少一条路径连接，则称$\Gamma$是“连通的”。
+关系“在$\Gamma$的两个顶点$a$和$b$之间存在连接$a$和$b$的路径”，在集合$S$上有等价关系$R$。 $R$的等价类称为$\Gamma$的*连通分量*；如果$S$至多有一个连通分量，即$\Gamma$的任意两个顶点可以通过至少一条路径连接，则称$\Gamma$是“连通的”。
 
 #### 命题 1 {#lie-iv-a0-prop-1 .statement tag=0AOW}
 
@@ -95,7 +95,7 @@ $$
 
 #### 推论 2 {#lie-iv-a0-prop-1-cor-2 .statement tag=0AOY}
 
-*当且仅当没有顶点属于至 $S'$ 与任何顶点属于至 $S - S'$ 连接时，$S$ 的子集 $S'$ 是连通组件的并。*
+*当且仅当没有顶点属于到 $S'$ 与任何顶点属于到 $S - S'$ 连接时，$S$ 的子集 $S'$ 是连通分量的并。*
 
 根据命题 1 (iv)，条件是充分的。根据提案 1 (iii)，这是必要的。
 

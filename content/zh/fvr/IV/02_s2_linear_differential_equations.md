@@ -49,23 +49,23 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 47f56cf7d68507652e52be6946a05a2035c555438a4a3fd916069f1af780613a
+content_sha256: f9a3c5fb8657ed7274648841febd41875d7f0403818bb15517d8c547590d1a66
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 translation_method: google
 source_content_sha256: bb9011131c235f557b70d1568fb503a2bded76eb3a6bc7fabc1b5db368218573
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 77ad2efa31902a22dc01e377338aa2c32aab22eee7b7da545dfa71d8f91e2371
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。线性微分方程
 
 ### 1. 线性微分方程积分的存在性
 
-令 E 为域 $\mathbf{R}$ 上的完全范数空间，J 为 $\mathbf{R}$ 中的区间，不减少到点。有人说微分方程
+令 E 为域 $\mathbf{R}$ 上的完全范数空间，J 为 $\mathbf{R}$ 中的区间，不减少至点。有人说微分方程
 
 $$
 \frac{d\mathbf{x}}{dt} = \mathbf{f}(t, \mathbf{x})
@@ -93,7 +93,7 @@ $$
 
 #### 例 2 {#fvr-iv-s2-n1-exa-2 .statement tag=08CP}
 
-令$G$是$\mathbf{R}$上的*完全归一代数*，并且$a(t)$、$b(t)$和$c(t)$从$J$到$G$的三个映射；等式
+令$G$是$\mathbf{R}$上的*完全归一化的代数*，并且$a(t)$、$b(t)$和$c(t)$是从$J$到$G$的三个映射；等式
 
 $$
 \frac{dx}{dt} = a(t)x + x b(t) + c(t)
@@ -107,9 +107,9 @@ $$
 
 a) *映射* $t \mapsto A(t)$ *的* $J$ *进入* $\mathscr{L}(E)$ *受到监管*。
 
-b) *映射* $t \mapsto b(t)$ *的* $J$ *进入* $E$ *受到监管*。
+b) *映射* $t \mapsto b(t)$ *的* $J$ *进入* $E$ *受到管制*。
 
-当$E$有维数$n$时，$\mathscr{L}(E)$与$\mathbf{R}^{n^2}$同构的（作为拓扑向量空间）和条件*a*）意味着矩阵的元素$a_{ij}(t)$中的每一个$A(t)$ 是$J$ 上的*受监管* 函数。
+当$E$有维数$n$时，$\mathscr{L}(E)$与$\mathbf{R}^{n^2}$同构的（作为拓扑向量空间）和条件*a*）意味着矩阵的每个元素$a_{ij}(t)$ $A(t)$ 是$J$ 上的*受监管* 函数。
 
 从$\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\|\|\mathbf{x}\|$开始，映射
 $$
@@ -123,7 +123,7 @@ $$
 
 #### 定理 1 {#fvr-iv-s2-thm-1 .statement tag=08CQ}
 
-*设*$t \mapsto A(t)$*是*$J$*到*$\mathscr{L}(E)$的调节映射，*并且*$t \mapsto \mathbf{b}(t)$*是*$J$*到*$E$的调节映射。 *对于* $J \times E$ *线性方程*的每一个点* $(t_0, \mathbf{x}_0)$ * (2) *承认在所有* $J$ *上定义了一个且唯一一个解，并且等于* $\mathbf{x}_0$ *在点* $t_0$。
+*设*$t \mapsto A(t)$*是*$J$*到*$\mathscr{L}(E)$的调节映射，*和*$t \mapsto \mathbf{b}(t)$*是*$J$*到*$E$的调节映射。 *对于* $J \times E$ *线性方程*的每一个点* $(t_0, \mathbf{x}_0)$ * (2) *承认在所有* $J$ *上定义了一个且唯一的一个解，并且等于* $\mathbf{x}_0$ *在点* $t_0$。
 
 ### 2. 线性微分方程积分的线性度
 
@@ -135,13 +135,13 @@ $$
 
 #### 命题 1 {#fvr-iv-s2-prop-1 .statement tag=08CR}
 
-*集合* $\mathscr{I}$ *齐次线性方程的积分* (4)，*定义于* $J$，*是空间* $C(J; E)$ *连续映射从* $J$ *到*的向量子空间 $E$。
+*集合* $\mathscr{I}$ *齐次线性方程的积分* (4)，*定义于* $J$，*是空间* $C(J; E)$ 的向量子空间 *连续映射从* $J$ *到* $E$。
 
 证明是直接的。
 
 #### 定理 2 {#fvr-iv-s2-thm-2 .statement tag=08CS}
 
-*对于* $J \times E$ *的每个点* $(t_0, \mathbf{x}_0)$ *令* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *为齐次方程的积分* (4) *定义于* $J$ *并等于* $\mathbf{x}_0$ *在* $t_0$。
+*对于* $J \times E$ *的每个点* $(t_0, \mathbf{x}_0)$ *让* $\mathbf{u}(t, t_0, \mathbf{x}_0)$ *成为齐次方程的积分* (4) *定义于* $J$ *并等于* $\mathbf{x}_0$ *在* $t_0$。
 1. *对于每个点* $t \in J$ *映射* $\mathbf{x}_0 \mapsto \mathbf{u}(t, t_0, \mathbf{x}_0)$ *是一个双射双连续线性映射* $C(t, t_0)$ *of* $E$ *自身*。
 2. *映射* $t \mapsto C(t, t_0)$ *of* $J$ *化为* $\mathscr{L}(E)$ *与齐次线性微分方程的积分相同*
 $$
@@ -195,7 +195,7 @@ $$
 
 *$J \times J$到$\mathscr{L}(E)$的映射$(s, t) \mapsto C(s, t)$是连续的。*
 
-由(6)我们有$C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$；现在，$\mathscr{L}(E) \times \mathscr{L}(E)$的映射$(X, Y) \mapsto XY$到$\mathscr{L}(E)$是连续的，就像$\mathscr{L}(E)$的可逆元的（开放）群到其自身的映射$X \mapsto X^{-1}$一样（TG，IX，p. 40，道具）。 14）。
+由(6)我们有$C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$；现在，$\mathscr{L}(E) \times \mathscr{L}(E)$的映射$(X, Y) \mapsto XY$到$\mathscr{L}(E)$是连续的，$\mathscr{L}(E)$的可逆元的（开放）群到其自身上的映射$X \mapsto X^{-1}$也是连续的（TG，IX，p. 40，道具 14）。
 
 一个可能注那个映射
 $$
@@ -210,11 +210,11 @@ $$
 \|C(t, t_0) - I\| \leq e^{k|t-t_0|} - 1 .
 $$ (7)
 
-事实上，$\|A(t)x_0\| \leq k \|x_0\|$对于所有$t \in K$；在 K 上，常数函数等于 $x_0$，因此是通过等式（4）对IV、p. 18 在 $k \|x_0\|$ 内的近似积分；通过 IV、p. 170 的公式 (15)，因此有
+事实上，$\|A(t)x_0\| \leq k \|x_0\|$对于所有$t \in K$；在 K 上，常数函数等于 $x_0$，因此是通过等式（4）右 IV、p. 18 在 $k \|x_0\|$ 内的近似积分；通过 IV、p. 170 的公式 (15)，因此有
 $$
 \|C(t, t_0)x_0 - x_0\| \leq \|x_0\| (e^{k|t-t_0|} - 1)
 $$
-对于 K 中的任意 $t$ 和 $t_0$，以及 E 中的 $x_0$，等价于 $\mathscr{L}(E)$ 上的范数的定义不等式 (7)。
+对于 K 中的任意 $t$ 和 $t_0$，以及 E 中的 $x_0$，等价于 $\mathscr{L}(E)$ 上范数的定义不等式 (7)。
 
 #### 命题 2 {#fvr-iv-s2-prop-2 .statement tag=08CW}
 
@@ -226,9 +226,9 @@ $$
 $$
 所以$\frac{d}{dt}(BC - CB) = A(BC - CB)$；但是$BC(t_0, t_0) - C(t_0, t_0)B = 0$，所以（IV，p. 179，第1）$BC(t, t_0) - C(t, t_0)B = 0$对于所有$t \in J$。
 
-道具的一个重要例子。 2 是其中 E 被赋予相对于复数* $\mathbf{C}$ 的 *域的范数向量空间的结构，并且对于每个 $t \in J$，$A(t)$ 是 E 的自同态对于这个向量空间结构；这意味着 $A(t)$ 与 E 的连续自同态 $x \mapsto tx$ 进行交换（对于向量空间结构 *超过* $\mathbf{R}$）；那么$C(t, t_0)$与这个自同态交换，这意味着对于J中的任何$t$和$t_0$，映射$C(t, t_0)$是E在$\mathbf{C}$上的范数向量空间结构的连续自同态。
+道具的一个重要例子。 2 是，其中 E 被赋予相对于复数* $\mathbf{C}$ 的 *域的范数向量空间的结构，并且对于每个 $t \in J$，$A(t)$ 是 E 的自同态对于这个向量空间结构；这意味着 $A(t)$ 与 E 的连续自同态 $x \mapsto tx$ 通勤（对于向量空间结构 *超过* $\mathbf{R}$）；那么$C(t, t_0)$与这个自同态交换，这意味着对于J中的任何$t$和$t_0$，映射$C(t, t_0)$是E上范数向量空间结构的连续自同态 $\mathbf{C}$。
 
-### 3. 对非齐次线性方程求积分
+### 3. 对非齐次线性方程积分
 
 对非齐次线性方程积分
 
@@ -242,19 +242,19 @@ $$
 \frac{d\mathbf{x}}{dt} = A(t).\mathbf{x}
 $$
 
-并评估一个原语。与第记号。 IV、p. 179中的2个，让我们从IV、p. 179、$\mathbf{z} = C(t_0, t).\mathbf{x}$的第二个公式(6)开始放入$\mathbf{x} = C(t, t_0).\mathbf{z}$、从而；如果 $\mathbf{x}$ 是 (2) 的积分，则 $\mathbf{z}$ 是方程 $\frac{d}{dt}\left(C(t, t_0).\mathbf{z}\right) = A(t)C(t, t_0).\mathbf{z} + \mathbf{b}(t)$ 的积分；由于双线性映射
+并评估一个原语。与第记号。 IV、p. 179中的2个，让我们从IV、p. 179、$\mathbf{z} = C(t_0, t).\mathbf{x}$的第二个公式开始放入$\mathbf{x} = C(t, t_0).\mathbf{z}$、从而；如果 $\mathbf{x}$ 是 (2) 的积分，则 $\mathbf{z}$ 是方程 $\frac{d}{dt}\left(C(t, t_0).\mathbf{z}\right) = A(t)C(t, t_0).\mathbf{z} + \mathbf{b}(t)$ 的积分；由于双线性映射
 
 $$
 (U, y) \mapsto U.y
 $$
 
-$\mathscr{L}(\mathbf{E}) \times \mathbf{E}$到$\mathbf{E}$是连续的（\emph{Gen.Top.}，X，p. 297，道具6），$\mathbf{z}$承认导数（除了J的可数子集），并且可以通过公式微分双线性函数 （I、p. 6、道具 3）
+$\mathscr{L}(\mathbf{E}) \times \mathbf{E}$ 到 $\mathbf{E}$ 是连续的（\emph{Gen. Top.}，X，p. 297，道具 6），$\mathbf{z}$ 承认导数（除了 J 的可数子集），并且可以通过公式来微分双线性函数（I，p. 6，道具 3）
 
 $$
 \frac{d}{dt}\left(C(t, t_0).\mathbf{z}\right) = \frac{dC(t, t_0)}{dt}.\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt} = A(t)C(t, t_0).\mathbf{z} + C(t, t_0).\frac{d\mathbf{z}}{dt}
 $$
 
-（替换$dC(t, t_0)/dt$乘以$A(t)C(t, t_0)$，根据（5）（IV，p. 179））。 $\mathbf{z}$ 的方程，然后约化到 $C(t, t_0).d\mathbf{z}/dt = \mathbf{b}(t)$，或者再次
+（根据（5）（IV，p. 179），替换$dC(t, t_0)/dt$乘$A(t)C(t, t_0)$）。 $\mathbf{z}$ 然后约化到 $C(t, t_0).d\mathbf{z}/dt = \mathbf{b}(t)$ 的方程，或者再次到
 
 $$
 \frac{d\mathbf{z}}{dt} = C(t_0, t).\mathbf{b}(t)
@@ -280,13 +280,13 @@ $$
 
 ### 4. 标量微分方程线性系统积分的基本系统
 
-在这个小节和下一个中，我们将考虑E是有限维n的向量空间超过域$\mathbf{C}$超过复数的情况（所以维数2n超过$\mathbf{R}$），并且对于每个$t \in J$， $A(t)$ 是 E 的自同态相对于向量空间结构的$\mathbf{C}$。然后，可以将认同$A(t)$及其矩阵$(a_{ij}(t))$相对于E的基（超过域$\mathbf{C}$）进行定义，$a_{ij}$这次是$n^2$复数函数，并且对 J 进行监管；令 $x_j$ ($1 \leq j \leq n$) 表示向量 $x \in E$ 相对于所选基的（复）分量，线性方程
+在这个小节和接下来的我们将考虑这样的情况，其中E是有限维n的向量空间超过域$\mathbf{C}$的复数（因此维数2n超过$\mathbf{R}$），并且对于每个$t \in J$， $A(t)$ 是 E 的自同态相对于向量空间结构的$\mathbf{C}$。然后，可以将认同$A(t)$及其矩阵$(a_{ij}(t))$相对于E的基（超过域$\mathbf{C}$）进行定义，$a_{ij}$这次是$n^2$复数函数，并且对 J 进行监管；令 $x_j$ ($1 \leq j \leq n$) 表示向量 $x \in E$ 相对于所选基的（复）分量，线性方程
 
 $$
 \frac{d\mathbf{x}}{dt} = A(t).\mathbf{x} + \mathbf{b}(t)
 $$
 
-再次相当于系统
+再次等于系统
 
 $$
 \frac{dx_i}{dt} = \sum_{j=1}^n a_{ij}(t)x_j + b_i(t) \qquad (1 \leq i \leq n).
@@ -304,7 +304,7 @@ $$
 \mathbf{u}(t, t_0, \mathbf{x}_0) = C(t, t_0).\mathbf{x}_0,
 $$
 
-$C(t, t_0)$是阶$n$的可逆平方矩阵$(c_{ij}(t, t_0))$，其条目是$J \times J$上的连续复数函数，因此$t \mapsto c_{ij}(t, t_0)$是受管制函数的原语在 J 上。
+$C(t, t_0)$是阶$n$的可逆平方矩阵$(c_{ij}(t, t_0))$，其条目是$J \times J$上的连续复数函数，因此$t \mapsto c_{ij}(t, t_0)$是受监管函数的原语在 J 上。
 
 在特殊情况下 $n = 1$ 系统 (3) 约化为单个标量方程
 
@@ -318,7 +318,7 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-在从J到E的连续映射的空间$\mathscr{C}(J; E)$中，赋予拓扑紧致收敛性，式(4)积分的集合$\mathscr{I}$为向量子空间(超过$\mathbf{C}$)与 E 同构的，因此与 $\mathbf{C}^n$（IV、p. 180，对应 1，以及 IV、p. 181，道具 2）。
+从J到E的连续映射的空间$\mathscr{C}(J; E)$中，由于拓扑的紧收敛性，式(4)积分的集合$\mathscr{I}$为向量子空间(超过$\mathbf{C}$)与 E 同构的，因此与 $\mathbf{C}^n$（IV、p. 180，对应 1，以及 IV、p. 181，道具 2）。
 
 这个空间（超过域$\mathbf{C}$）的基$(\mathbf{u}_j)_{1 \leq j \leq n}$被称为（4）积分的*基本系统*。
 
@@ -406,7 +406,7 @@ $$
 
 我们特别考虑$A(t)$是有限维$n$的向量空间E的自同态超过$\mathbf{C}$的情况，使得存在E的基相对于$A(t)$的矩阵对于每个都有实数元素 $t \in J$。 那么上面显示（通过IV，p. 179的第1个），关于相同基的解析矩阵$C(t, t_0)$也有实数元素：只需考虑向量空间$E_0$超过$\mathbf{R}$生成考虑E的基，对于注，$A(t)$到$E_0$的限制是这个向量空间的自同态。
 
-### 5.伴随方程
+### 5. 伴随方程
 
 假设空间 E 始终为有限维 $n$ 超过 $\mathbf{C}$，令 $E^*$ 为其对偶 (A, II, p. 40)，即空间为维数 $n$ 超过 $\mathbf{C}$ （阿尔格.，II，p. 299，第 4）；在$E \times E^*$（代数，II，p. 234）上定义的规范双线性形式$\langle \mathbf{x}, \mathbf{x}^* \rangle$在这个乘积上是连续的（是$\mathbf{x} \in E$和$\mathbf{x}^* \in E^*$分量中的多项式）。
 
@@ -442,7 +442,7 @@ $$
 \frac{dV}{dt} = B(t)V \tag{17}
 $$
 
-点$t_0$需要值$I$。结果有（记号 of IV, p. 179）
+需要值 $I$ 点 $t_0$。结果有（IV、p. 179的记号）
 
 $$
 \left\langle C(t, t_0).\mathbf{x}_0, H(t, t_0).\mathbf{x}_0^* \right\rangle = \left\langle \mathbf{x}_0, \mathbf{x}_0^* \right\rangle
@@ -458,9 +458,9 @@ $$
 
 #### 注 {#fvr-iv-s2-n5-rem-1 .statement tag=08D3}
 
-令 E 和 F 是 $\mathbf{R}$（或$\mathbf{C}$）上的两个完整范数空间，以及 $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ $\mathrm{E} \times \mathrm{F}$ 上的*连续* 双线性形式，使得关系 “$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ 对于所有 $\mathbf{y} \in \mathrm{F}$”（或$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ 对于所有 $\mathbf{x} \in \mathrm{E}$”）意味着$\mathbf{x} = 0$（或$\mathbf{y} = 0$）。进一步假设对于每个$t \in \mathrm{J}$，F 都有一个连续的线性映射 $B(t)$ 到其自身，这样 $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ 对于每个 $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$。在这些情况下，人们会看到作为之前，对于 J 的映射 $t \mapsto \mathbf{v}(t)$ 到 F（受管制函数的原语），使得 $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ 对于 (4) 的*每个*整的 $\mathbf{u}$ 是*常数*，$\mathbf{v}$ 应该是 (16) 的积分，这是充分必要的，我们再次将其称为 (4) 的*伴随*。
+令 E 和 F 是 $\mathbf{R}$（或$\mathbf{C}$）上的两个完整范数空间，以及 $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ $\mathrm{E} \times \mathrm{F}$ 上的*连续* 双线性形式，使得关系 “$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ 对于所有 $\mathbf{y} \in \mathrm{F}$”（分别为关系）。 $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ 对于所有 $\mathbf{x} \in \mathrm{E}$”）意味着 $\mathbf{x} = 0$（或$\mathbf{y} = 0$）。进一步假设对于每个 $t \in \mathrm{J}$，F 都有一个连续的线性映射 $B(t)$ 到其自身，这样 $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ 对于每个 $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$。在这些情况下， 之前认为，对于 J 的映射 $t \mapsto \mathbf{v}(t)$ 到 F（受规管函数的原语），使得 $\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$ 对于 (4) 的*每个*整的 $\mathbf{u}$ 是*常数*，$\mathbf{v}$ 应该是以下的积分是充分必要的： （16），我们再次将其称为（4）的*伴随*。
 
-### 6. 具有常数系数的线性微分方程
+### 6. 常系数线性微分方程
 
 再次假设 E 是 $\mathbf{R}$ 上的任意完全范数空间；设 A 为 A 的连续自同态，与 t 无关，并考虑齐次线性方程
 
@@ -631,7 +631,7 @@ $$
 D^n x - a_1(t) D^{n-1} x - \ldots - a_{n-1}(t) D x - a_n(t) x = b(t)
 $$
 
-其中 $a_k$ ($1 \leq k \leq n$) 和 $b$ 是实数变量 $t$ 的实数（复数）函数，定义在 $\mathbf{R}$ 的区间 $J$ 上。 IV、p. 164的一般过程表明，该方程等价于$n$第一个阶方程的线性系统
+其中 $a_k$ ($1 \leq k \leq n$) 和 $b$ 是实数变量 $t$ 的实数（复数）函数，定义在 $\mathbf{R}$ 的区间 $J$ 上。 IV、p. 164的一般过程表明该方程等价于$n$第一个阶方程的线性系统
 
 $$
 \left\{
@@ -660,7 +660,7 @@ a_n(t) & a_{n-1}(t) & a_{n-2}(t) & \ldots & a_1(t)
 \end{pmatrix}.
 $$
 
-因此，阶$n$线性方程的研究由应用上述特定线性方程（35）的一般结果组成。对于每个间隔 $J$，其中函数 $a_j$ ($1 \leq j \leq n$) 和 $b$ 受到*调节*，存在且仅有一个函数 $u$，在 $J$ 上定义，具有阶 $n-1$ 的连续导数，以及阶 $n$ 在此区间上的受管制导数（可数集合的点除外），满足 (33) 上可数子集的 $J$ 的补集，并且使得
+因此，阶$n$线性方程的研究由应用上述特定线性方程（35）的一般结果组成。对于每个间隔 $J$，其中函数 $a_j$ ($1 \leq j \leq n$) 和 $b$ 受到*调节*，存在且仅有一个函数 $u$，在 $J$ 上定义，具有阶的连续导数$n-1$，以及阶$n$在此区间上的受管制导数（可数集合的点除外），满足(33)关于$J$的可数子集的补集，并且使得
 
 $$
 u(t_0) = x_0, \qquad Du(t_0) = x_0', \ldots, \quad D^{n-1}u(t_0) = x_0^{(n-1)}
@@ -719,11 +719,11 @@ $$
 w(t) = \int_{t_0}^t v_n(t, s)b(s)\, ds.
 $$ (39)
 
-在方程 $D^n x = b(t)$ 公式 (39) 的特殊情况下，再次给出公式表示调节的函数 $b(t)$ 的$n^{th}$原语，其在点 $t_0$ 处的第一个 $n - 1$导数消失，即
+在方程 $D^n x = b(t)$ 公式 (39) 的特殊情况下，再次给出公式 ，表示调节的函数 $b(t)$ 的$n^{th}$原语，其在点 $t_0$处的第一个$n - 1$导数消失，即
 $$
 w(t) = \int_{t_0}^t b(s) \frac{(t-s)^{n-1}}{(n-1)!} \, ds
 $$
-(II, p. 62, 公式 (19))：$D^n x = 0$的积分，在点$t_0$处与它的第一个$n - 2$导数一起消失，并且其第$n - 1$导数在那里等于1，实际上是多项式$(t-t_0)^{n-1}/(n-1)!$。
+(II, p. 62, 公式 (19))：$D^n x = 0$的积分，在点 $t_0$处与它的第一个$n - 2$导数一起消失，并且其$n - 1$在那里的导数等于1，实际上是多项式$(t-t_0)^{n-1}/(n-1)!$。
 
 ### 8. 具有常数系数的阶 $n$ 线性方程
 
@@ -731,7 +731,7 @@ $$
 $$
 r^n - a_1 r^{n-1} - \ldots - a_{n-1} r - a_n = 0.
 $$
-令 $r_j$ ($1 \leq j \leq q$) 为该方程的不同根，且 $n_j$ ($1 \leq j \leq q$) 重数为根 $r_j \left( \sum_{j=1}^q n_j = n \right)$。由IV、p. 188到194的结果，对于每个根$r_j$都有对应，对于齐次方程
+令 $r_j$ ($1 \leq j \leq q$) 为该方程的不同根，并且 $n_j$ ($1 \leq j \leq q$) 重数为根 $r_j \left( \sum_{j=1}^q n_j = n \right)$。由IV、p. 188到194的结果，对于每个根$r_j$都有对应，对于齐次方程
 $$
 D^n x - a_1 D^{n-1} x - \cdots - a_{n-1} D x - a_n x = 0
 $$
@@ -745,7 +745,7 @@ $$
 
 *令$r_j$ ($1 \leq j \leq q$) 为特征方程(40) 的不同根，令$n_j$ 为根 $r_j$ ($1 \leq j \leq q$) 的重数。那么 $n$ 函数 $t^k e^{r_j t}$ ($1 \leq k \leq n_j,\ 1 \leq j \leq q$) 是齐次方程 (41) 的线性独立积分。*
 
-一个可以证明直接通过以下方式得到这个结果。从方程(41)可知，该方程的每个积分的$n^{th}$导数在$\mathbf{R}$上可微，由此可以立即通过整数$m > n$上的归纳推出，(41)的每个积分都承认阶$m$的导数，即，在 $\mathbf{R}$ 上*可微分*。设$\mathscr{D}$为$\mathbf{R}$上的不定可微复值函数在$\mathbf{C}$上的（非拓扑）向量空间； 映射$x \mapsto Dx$是这个空间的自同态，方程（41）可以写成
+1 可以证明这个结果直接通过以下方式得到。从方程（41）得出，该方程的每个积分的$n^{th}$导数在$\mathbf{R}$上可微，由此可以立即通过归纳在整数$m > n$上推导出，（41）的每个积分都承认阶$m$的导数，即，在 $\mathbf{R}$ 上*可微分*。令 $\mathscr{D}$ 为$\mathbf{R}$ 上的不定可微复值函数在$\mathbf{C}$ 上的（非拓扑）向量空间； 映射$x \mapsto Dx$是这个空间的自同态，方程（41）可以写成
 
 $$
 f(D)x = 0 \tag{42}
@@ -755,7 +755,7 @@ $$
 
 #### 命题 10 {#fvr-iv-s2-prop-10 .statement tag=08D9}
 
-*设g和h是两个互素多项式，使得$f = gh$。 (42) 的解的子空间是两个方程的解的子空间直和*
+*设g和h是两个互素多项式，使得$f = gh$。 (42) 的解子空间是两个方程的解的子空间直和*
 
 $$
 g(D)x = 0, \qquad h(D)x = 0.
@@ -793,7 +793,7 @@ $$
 D^{n_j}(e^{-r_j t} x) = 0
 $$
 
-因此有解函数$e^{r_j t} p_j(t)$，其中$p_j$穿过次数$\leq n_j - 1$多项式的集合；这样就恢复了支撑。 IV、p. 194 中的 9 个。
+因此有解函数$e^{r_j t} p_j(t)$，其中$p_j$穿过次数$\leq n_j - 1$多项式的集合；这样就恢复了支撑。 9 个IV、p. 194。
 
 假设齐次方程（41）已解（即假设已找到特征根），则知道参数变化的方法可以求出非齐次方程的解
 
@@ -801,7 +801,7 @@ $$
 D^n x - a_1 D^{n-1} x - \ldots - a_{n-1} Dx - a_n x = b(t) \tag{45}
 $$
 
-其中$b(t)$是*任意*调节的函数（IV，p. 182）；我们注，如果$b(t)$在区间J上*无限可微*，则(45)的所有积分在J上无限可微。在特殊情况$b(t) = e^{\alpha t} p(t)$，其中$p$是多项式（具有复系数），$\alpha$是任意复数，一通过以下方法更简单地获得(45)的积分。把$x = e^{\alpha t} y$；等式
+其中$b(t)$是*任意*调节的函数（IV，p. 182）；我们注，如果$b(t)$在区间J上*不定可微*，那么(45)的所有积分在J上都是不定可微的。在特殊情况$b(t) = e^{\alpha t} p(t)$，其中$p$是多项式（具有复系数），$\alpha$是任意复数，一通过以下方法更简单地获得(45)的积分。把$x = e^{\alpha t} y$；等式
 
 $$
 f(D)x = e^{\alpha t} p(t)
@@ -828,7 +828,7 @@ $$
 
 显然承认只有一个解。另一方面，如果$\alpha$是根的特征，$h$是其重数，则前面的计算表明次数$m$存在且仅有一个多项式，使得$D^h y = v(t)$的每个解都是积分；在其他字中，(46) 的每个多项式解都是次数 $m + h$（“共振”）。
 
-### 9. 具有常数系数的线性方程的系统
+### 9. 常数系数线性方程的系统
 
 当记号为n° 8时，让我们更一般地考虑$m$的系统微分方程形式
 
@@ -896,6 +896,6 @@ $$
 
 ### 习题{#fvr-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。
 
-[^1]: 回想一下，如果 $E$ 为有限维，则从 $E$ 到自身的每个仿射线性映射都是连续的（*Gen.Top.*、VI、p. 33 和 37）。
+[^1]: 回想一下，如果 $E$ 为有限维，则从 $E$ 到自身的每个仿射线性映射都是连续的（*Gen. 顶部。*、VI、p. 33 和 37)。

@@ -37,16 +37,16 @@ subsections:
       pdf_page: 29
 statements: 24
 exercises: 9
-content_sha256: 4892a42c4b3fb22dc80bb83311e14ffe1262e447b7db1910d45c44c602736df3
+content_sha256: b1c08f39b41e9994c764d0746a829a1566a144d0a27689fdd08a89135f7f2633
 translated_from: content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md
 translation_method: google
 source_content_sha256: 70913d7a2aa52b144a991fde157d2311e959bf9873a82740f1d49300682f0fef
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 64c42c79ee105d6e6723fce88a5bdfb6a2e696c3d6af7f51941903a95adfcd75
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 1. 营业集合、邻域、休息集合
@@ -67,9 +67,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *拓扑空间是集合赋予拓扑结构*。
 
-拓扑空间的元素通常称为*点*。当拓扑已在集合 $X$ 上定义时，该集合被称为集合 *底层*拓扑空间 $X$。
+拓扑空间的元素通常称为*点*。当在集合 $X$ 上定义拓扑时，集合被称为集合*底层*拓扑空间$X$。
 
-公理 (O_I) 特别意味着 $\mathscr{D}$ 的空子集的并，即 *空集* 属于到 $\mathscr{D}$。公理(O_{II})意味着$\mathscr{D}$的空子集的交，即*集合*$X$，属于到$\mathscr{D}$。
+公理 (O_I) 特别意味着 $\mathscr{D}$ 的空子集的并，即 *空集* 属于到 $\mathscr{D}$。公理(O_{II})意味着$\mathscr{D}$的空子集的交，即*集合*$X$、属于到$\mathscr{D}$。
 
 为了证明$X$的子集的集合$\mathscr{D}$满足(O_{II})，通常可以方便地分别证明它满足以下两个公理，其中合取等价于(O_{II})：
 (O_{II\a})*$\mathscr{D}$*属于到*$\mathscr{D}$的两个集合*交。
@@ -77,7 +77,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 例拓扑。给定 $X$ 和 $\varnothing$ 的任何集合 $X$，$X$ 由……组成的子集集合满足公理 $(O_1)$ 和 $(O_{II})$，因此定义拓扑于$X$。 $X$的所有子集中的集合$\mathfrak{P}(X)$也是如此：拓扑它定义是$X$上的离散拓扑，并且集合$X$与此拓扑称为离散空间。
 
-如果拓扑空间 $X$ 的子集 $A$ 的覆盖 $(U_i)_{i \in I}$ 被称为开路，则如果所有 $U_i$ 在 $X$ 中都开路。
+如果拓扑空间 $X$ 的子集 $A$ 的覆盖$(U_i)_{i \in I}$ 被称为开路，则如果所有 $U_i$ 在$X$ 中都开路。
 
 #### 定义 3 {#top-i-s1-def-3 .statement tag=0AZ3}
 
@@ -89,21 +89,21 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 如果$X$和$X'$是两个离散的空间，则$X$到$X'$的任何双射都是同胚。
 
-以下标准直接从同胚的定义得出：*对于拓扑空间$X$的双射$f$到拓扑空间$X'$的同胚，必要且充分的是每个$f$下的像 $X$中的开集合是$X'$中的开集合，并且$X'$中的每个开集合的$f$下的逆像是$X$中的开集合*。
+以下标准紧接着同胚的定义：*对于拓扑空间$X$的双射$f$到拓扑空间$X'$的同态，有必要且充分的是每个$f$下的像 $X$中的开集合是$X'$中的开集合，并且$X'$中的每个开集合的$f$下的逆像是$X$中的开集合*。
 
-### 2.邻域
+### 2. 邻域
 
 #### 定义 4 {#top-i-s1-def-4 .statement tag=0AZ5}
 
 *令$X$为拓扑空间和$A$$X$的任意子集。 $A$的邻域是$X$的任意子集，其中包含是开集合包含$A$。单个点的子集$\{ x \}$由……组成中的邻域也称为点$x$*中的邻域。
 
-显然，$X$的子集$A$的每个邻域也是子集$B \subset A$的每个邻域；特别地，它是$A$中每个点的邻域。反之，假设$A$是集合$B$中每个点的邻域，并且令$U$是$A$中包含的开集合的并；然后$U \subset A$，并且由于$B$属于的每个点到包含在$A$中的开集合，我们有$B \subset U$；但$U$凭借$(O_1)$而开放，因此$A$是$B$的邻域。特别是：
+显然，$X$的子集$A$的每一个邻域也是子集$B \subset A$的每一个邻域；特别地，它是$A$中每个点的邻域。相反，假设$A$是集合$B$中每个点的邻域，并且令$U$是$A$中包含的开集合的并；然后$U \subset A$，并且由于$B$属于的每个点到包含在$A$中的开集合，我们有$B \subset U$；但$U$凭借$(O_1)$而开放，因此$A$是$B$的邻域。特别是：
 
 #### 命题 1 {#top-i-s1-prop-1 .statement tag=0AZ6}
 
 *当且仅当它打开时，集合是其每个点的邻域。*
 
-字“邻域”的日常意义是这样的，涉及邻域数学思想的许多属性都表现为直观属性的数学表达； 项的选择因此具有使语言更具表现力的优点。为此目的，也允许在某些叙述中使用“足够接近”和“尽可能接近”的表达方式。对于例，命题 1 可以用下面的形式来表示： 集合 $A$ 开当且仅当对于每个$x \in A$，所有点 *足够接近* $x$ 属于到$A$。更一般地说，如果$x$的某些邻域的点全部成立，那么性质对所有点*足够接近*点$x$成立。
+字“邻域”的日常意义是这样的，涉及邻域数学思想的许多属性都表现为直观属性的数学表达； 项的选择因此具有使语言更具表现力的优点。为此目的，也允许在某些叙述中使用“足够接近”和“尽可能接近”的表达方式。对于例，命题 1 可以用以下形式来表示： 集合 $A$ 开当且仅当对于每个$x \in A$，所有点 *足够接近* $x$ 属于到$A$。更一般地说，如果 $x$ 的某些邻域中的点全部成立，那么性质对于所有点 *足够接近* 点 $x$ 都成立。
 
 让我们用$x$的所有邻域中的$\mathfrak{B}(x)$集合来表示。 集合 $\mathfrak{B}(x)$ 具有以下属性：
 
@@ -121,13 +121,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 这个性质可以用形式来表达，$x$的*邻域也是所有点的邻域，充分接近$x$*。
 
-集合 $\mathfrak{B}(x)$ 这四个属性是*特征*。准确地说，我们有：
+集合$\mathfrak{B}(x)$的这四个属性是*特征*。准确地说，我们有：
 
 #### 命题 2 {#top-i-s1-prop-2 .statement tag=0AZ7}
 
 *如果对于集合$X$的每个元素$x$，存在$X$的子集的对应集合$\mathfrak{B}(x)$，使得属性(V_I)，(V_{II})， (V_{III}) 和 (V_{IV}) 满足，则$X$上存在唯一的拓扑结构，使得对于每个$x \in X$，$\mathfrak{B}(x)$是$x$的邻域的集合拓扑.*
 
-命题 1 时，如果$X$ 满足上有拓扑这条件，为此集合集合拓扑必然是子集集合 $\mathscr{D}$ $X$的$A$使得*对于每个$x \in A$我们有$A \in \mathfrak{B}(x)$*；因此，如果存在，则该拓扑的 *唯一性* 。
+到命题 1 时，如果$X$ 满足上有拓扑这条件，为此集合集合拓扑必然是子集集合 $\mathscr{D}$ $X$的$A$使得*对于每个$x \in A$我们有$A \in \mathfrak{B}(x)$*；因此，如果存在的话，这个拓扑的*唯一性*。
 
 集合 $\mathscr{D}$ 当然满足公理 (O_I) 和 (O_{II})：对于 (O_I)，这直接从 (V_I) 得出，对于 (O_{II})，从 (V_{II}) 得出。它
 
@@ -135,11 +135,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 图 1.
 
-仍有待证明，在由$\mathscr{D}$定义的拓扑中，对于每个$x \in X$，$\mathfrak{B}(x)$是$x$的邻域的集合。从(V_I)可以得出，$x$属于到$\mathfrak{B}(x)$的每一个邻域。相反，令$V$为集合属于至$\mathfrak{B}(x)$，并令$U$为点$y \in X$的集合，使得$V \in \mathfrak{B}(y)$；如果我们能证明$x \in U, U \subset V$和$U \in \mathscr{D}$，那么证明就完整了。从 $V \in \mathfrak{B}(x)$ 开始，我们就有了 $x \in U$；还有 $U \subset V$，对于每个点 $y \in U$ 属于到 $V$，由于 (V_III) 和假设 $V \in \mathfrak{B}(y)$。还需要证明$U \in \mathscr{D}$，即每个$y \in U$有$U \in \mathfrak{B}(y)$；现在（图1）如果$y \in U$，那么通过（V_IV）有集合$W$，这样对于每个$z \in W$，我们有$V \in \mathfrak{B}(z)$；因为$V \in \mathfrak{B}(z)$意味着$z \in U$，所以可以得出$W \subset U$，因此，根据(V_I)，$U \in \mathfrak{B}(y)$。
+仍有待证明，在$\mathscr{D}$定义的拓扑中，对于每个$x \in X$，$\mathfrak{B}(x)$是$x$的邻域的集合。从(V_I)可以得出，$x$属于到$\mathfrak{B}(x)$的每一个邻域。相反，令$V$为集合属于至$\mathfrak{B}(x)$，并令$U$为点$y \in X$中的集合，使得$V \in \mathfrak{B}(y)$；如果我们能证明$x \in U, U \subset V$和$U \in \mathscr{D}$，那么证明就完整了。从 $V \in \mathfrak{B}(x)$ 开始，我们就有了 $x \in U$；还有 $U \subset V$，对于每个点 $y \in U$ 属于到 $V$，由于 (V_III) 和假设 $V \in \mathfrak{B}(y)$。还需要证明$U \in \mathscr{D}$，即每个$y \in U$对应$U \in \mathfrak{B}(y)$；现在（图1）如果$y \in U$，那么通过（V_IV）有集合$W$，这样对于每个$z \in W$，我们有$V \in \mathfrak{B}(z)$；因为$V \in \mathfrak{B}(z)$意味着$z \in U$，所以可以得出$W \subset U$，因此，根据(V_I)，$U \in \mathfrak{B}(y)$。
 
 Q.E.D.
 
-Proposition 2 shows that a topology on $X$ can be defined by means of the sets $\mathfrak{B}(x)$ of neighbourhoods of points of $X$, subject only to the axioms (V_I), (V_II), (V_III) and (V_IV).
+命题 2 表明$X$上的拓扑可以通过$X$的点的邻域的集合$\mathfrak{B}(x)$来定义，仅受限于公理 (V_I), (V_II)， （V_III）和（V_IV）。
 
 #### 例 {#top-i-s1-n2-exa-1 .statement tag=0AZ8}
 
@@ -191,17 +191,17 @@ $(O'_{II})$ *闭集合的每个有限并都是闭集合。*
 
 在有理线上，形式$[a, \rightarrow[$的每个区间都是一个闭集合，对于它的补码]\leftarrow，a[是开的；同样，形式]\leftarrow, a] 的每个区间都是一个闭集合；因此，每个有界闭区间$[a, b]$也是如此，因为它是区间$[a, \rightarrow[$和]\leftarrow, b]的交。
 
-有理数整数的集合 $Z$ 在有理数线上是闭的，因为它的补集$\bigcup_{n \in Z} ]n, n+1[$ 是开集。
+有理数整数的集合 $Z$ 在有理数线上是闭的，因为它的补集 $\bigcup_{n \in Z} ]n, n+1[$ 是开集。
 
-如果每个 $F_i$ 在 $X$ 中都是封闭的，则拓扑空间 $X$ 的子集 $A$ 的 *覆盖* $(F_i)_{i \in I}$ 被称为“闭”。
+如果每个 $F_i$ 在 $X$ 中都是闭的，则拓扑空间 $X$ 的子集 $A$ 的 *覆盖* $(F_i)_{i \in I}$ 被称为“闭”。
 
 拓扑空间$X$到拓扑空间$X'$（no. 1）的*同胚*$f$可以表征为$X$到$X'$的双射*使得像在$X$的每个闭子集的$f$是$X'$的闭子集，并且$X'$的每个闭子集的$f$下的逆像是子集的闭子集 $X$*。
 
-### 5. 局部有限家庭
+### 5. 本地有限家庭
 
 #### 定义 8 {#top-i-s1-def-8 .statement tag=0AZF}
 
-*拓扑空间$X$的子集的族$(A_i)_{i \in I}$被认为是局部有限的，如果对于每个$x \in X$来说，$x$有邻域$V$，使得除了有限的数之外的所有$V \cap A_i = \varnothing$ 指标$i \in I$。如果由 $\mathscr{S}$ 的恒等式映射定义的子集族是局部有限的，则 $X$ 的子集的集合 $\mathscr{S}$ 被称为局部有限。
+*拓扑空间$X$的子集的族$(A_i)_{i \in I}$被认为是局部有限的，如果对于每个$x \in X$，有$x$的邻域$V$，使得除了有限的数之外的所有$V \cap A_i = \varnothing$ 指标$i \in I$。如果由 $\mathscr{S}$ 的恒等式映射定义的子集族是局部有限的，则 $X$ 的子集的集合 $\mathscr{S}$ 被认为是局部有限的。*
 
 很明显，如果$(A_i)_{i \in I}$是子集的局部有限族，并且如果每个$i \in I$都有$B_i \subset A_i$，则$(B_i)_{i \in I}$族是局部有限的。
 
@@ -211,7 +211,7 @@ $(O'_{II})$ *闭集合的每个有限并都是闭集合。*
 
 #### 命题 4 {#top-i-s1-prop-4 .statement tag=0AZG}
 
-*拓扑空间$X$的局部有限闭族子集的并在$X$中封闭。*
+*拓扑空间$X$的局部有限闭族子集的并在$X$中闭合。*
 
 设$(F_i)_{i \in I}$是$X$的闭子集的局部有限族，并假设$x \in X$不属于到$F = \bigcup_{i \in I} F_i$；那么$x$有邻域$V$，它只满足那些$F_i$，其指标属于到$I$的*有限*子集$J$。对于每个 $i \in J$ 令 $U_i$ 为 $F_i$ 的补集；然后$\complement F$包含集合$V \cap \bigcap_{i \in J} U_i$，这是$x$的邻域，因为每个$U_i$都是开放的，包含于$x$。因而，到 no. 2 的命题 1 时，$\complement F$ 打开，因而 $F$ 在 $X$ 关闭。
 
@@ -225,9 +225,9 @@ $$
 
 #### 定义 9 {#top-i-s1-def-9 .statement tag=0AZH}
 
-*在拓扑空间$X$中，如果$A$是$x$的邻域，点$x$被认为是子集$A$的点内部$X$。 $A$的内部点的集合称为$A$的内部，记为$\dot{A}$。*
+*在拓扑空间$X$中，如果$A$是$x$的邻域，则点$x$被认为是子集$A$于$X$的内部点。 $A$的内部点的集合称为$A$的内部，记为$\dot{A}$。*
 
-根据定义 9和4，如果$A$中存在一个开集合，其中包含$x$，则点$x$是$A$的内点；由此可见，$\dot{A}$是$A$中包含的所有开集合的并，因而*最大的开集合包含在*$A$：在其他字中，如果$B$是一个*开* 集合包含在$A$中，然后是$B \subset \dot{A}$。因而，如果$A$和$B$是$X$中的两个子集，使得$B \subset A$，则$\dot{B} \subset \dot{A}$；并且$A$是$B$的邻域当且仅当$B \subset \dot{A}$。
+根据定义 9和4，如果$A$中存在一个开集合，其中包含$x$，则点$x$是$A$的内部点；由此可见，$\dot{A}$是$A$中包含的所有开集合的并，因而*最大的开集合包含在*$A$：在其他字中，如果$B$是一个*开* 集合包含在$A$中，然后是$B \subset \dot{A}$。因而，如果$A$和$B$是$X$中的两个子集，使得$B \subset A$，则$\dot{B} \subset \dot{A}$；并且$A$是$B$的邻域当且仅当$B \subset \dot{A}$。
 
 #### 注 {#top-i-s1-n6-rem-1 .statement tag=0AZI}
 
@@ -302,8 +302,8 @@ $$
 
 如果$\mathfrak{B}$是拓扑空间$X$的拓扑的基，则在$X$中存在稠密的集合$D$使得$\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$。
 
-我们可以将自己限制在$\mathfrak{B}$的集合都不为空的情况（$\mathfrak{B}$的非空集已经是$X$的拓扑的形式基）。对于每个$U \in \mathfrak{B}$，令$x_V$为$U$的点；由no. 3的命题 3可知点$x_U$的集合$D$密集于$X$，并且我们有$\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$（集合理论，章III, § 3, no. 2， 命题3)。
+我们可以将自己限制在$\mathfrak{B}$的集合都不为空的情况（$\mathfrak{B}$的非空集已经是$X$的拓扑的形式基）。对于每个$U \in \mathfrak{B}$，令$x_V$为$U$的点；由no. 3的命题 3可知，点$x_U$的集合$D$密集于$X$，并且我们有$\mathrm{Card}(D) \leq \mathrm{Card}(\mathfrak{B})$（集合理论，章III, § 3, no. 2， 命题3）。
 
 ### 习题 {#top-i-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

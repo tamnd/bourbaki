@@ -41,23 +41,23 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 5690a3c087bcb6d0eb3fbc8b7251fd64bfb4ae32a4137e6068f78bf604bd476c
+content_sha256: f02699083a9012f38f4c75f161da5855ca5a7166a037162ab4f266e9df53b164
 translated_from: content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md
 translation_method: google
 source_content_sha256: ed5e53f6a5d3e5a763b2ce062b4bcc72122e2012ef339cee5d3bb3a328b965ff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f398a86649a76bf46c8ffd60bef262b426784016735d4765982893a2b2080982
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。有限维模超过分裂的半单李代数
 
 在本段中，我们保留了§6的一般记号。我们用 R 的权的 P（或 Q）群（或 R 的根权）表示。我们用P（或Q）的元素的$P_+$（或$Q_+$）集合表示，对于B定义的序关系为正。我们用R相对于B的主导权的$P_{++}$集合表示（第1章） VI, §1, no. 10）。 $\mathfrak{h}^*$ 属于的元素 $\lambda$ 到 P（分别为 $P_{++}$）当且仅当所有 $\lambda (H_{\alpha}),\alpha \in B$ 均为整数（分别为整数 $\geq 0$）。我们有$P_{++}\subset P_+$（第VI, §1, no. 6章）。如果$w\in W$，我们用$\varepsilon (w)$表示$w$的行列式，它等于1或$-1$。我们放$\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$。
 
-### 1. 有限维简单$\mathfrak{g}$-模块的权
+### 1. 有限维简单 $\mathfrak{g}$ 模块的权
 
 #### 命题 1 {#lie-viii-s7-prop-1 .statement tag=0138}
 
@@ -69,23 +69,23 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (iii) 对于所有$\mu\in \mathfrak{h}^*,V^\mu$ 是$x\in V$ 的集合，使得$h.x=\mu(h)x$ 对于所有$h\in \mathfrak{h}$。
 
-对于所有$\alpha \in B$，存在从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的同态，需要$H$到$H_{\alpha}$。因而，通过 §1, no. 2，Cor。命题$2, (H_{\alpha})_V$可对角化，其特征值为整数。因而，对于$\alpha \in B$，$(H_{\alpha})_V$的集合是可对角化的（代数，第VII, §5, no. 6章，第13条命题）。因而，对于所有 $h\in \mathfrak{h},h_V$ 都是可对角化的。由章。 VII, §1, no. 3，提案$9, V =\bigoplus_{\mu\in\mathfrak{h}^*}V^\mu$。另一方面，如果$V^\mu\not= 0$，则前面的内容表明$\mu(H_{\alpha})\in \mathbf{Z}$对于所有$\alpha \in B$，因而$\mu\in P$。这就证明了(i)和(ii)。我们以同样的方式看到 $\mathfrak{h}_V$ 是可对角化的，因而 (iii)。
+对于所有$\alpha \in B$，存在从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的同态，需要$H$到$H_{\alpha}$。因而，通过 §1, no. 2，Cor。命题$2, (H_{\alpha})_V$可对角化，其特征值为整数。因而，对于$\alpha \in B$，$(H_{\alpha})_V$的集合是可对角化的（代数，第VII, §5, no. 6章，第13条命题）。因而，对于所有 $h\in \mathfrak{h},h_V$ 都是可对角化的。由章。 VII, §1, no. 3，提案$9, V =\bigoplus_{\mu\in\mathfrak{h}^*}V^\mu$。另一方面，如果$V^\mu\not= 0$，则前面的内容表明，对于所有$\alpha \in B$，$\mu(H_{\alpha})\in \mathbf{Z}$，因而$\mu\in P$。这就证明了(i)和(ii)。我们以同样的方式看到 $\mathfrak{h}_V$ 是可对角化的，因而 (iii)。
 
-#### 推论{#lie-viii-s7-n1-cor-1 .statement tag=0139}
+#### 推论 {#lie-viii-s7-n1-cor-1 .statement tag=0139}
 
-令 $\rho$ 为与 $\rho$ 相关联的 $\mathfrak{g}$ 和 $\Phi$ 双线性形式的有限维表示。
+令 $\rho$ 为 $\mathfrak{g}$ 和$\Phi$ 双线性形式与 $\rho$ 相关联的有限维表示。
 
 (i) 如果$x, y\in \mathfrak{h}_{\mathbf{Q}}$，则$\Phi (x, y)\in \mathbf{Q}$ 和$\Phi (x, x)\in \mathbf{Q}_+$。
 
-(ii) 如果$\rho$是单射的，则$\Phi$到$\mathfrak{h}$的限制是非简并的。
+(ii) 如果$\rho$是单射的，$\Phi$到$\mathfrak{h}$的限制是非简并的。
 
 断言 (i) 由命题 1 得出，因为 P 的元素在 $\mathfrak{h}_{\mathbf{Q}}$ 上有理数值。如果 $\rho$ 是单射的，$\Phi$ 是非简并的（第 I, §6, no. 1 章，命题 1），因而 $\Phi$ 到 $\mathfrak{h}$ 的限制是非简并的（第 VII, §1, no. 3 章，命题 10 (iii)）。
 
 #### 引理 1 {#lie-viii-s7-lem-1 .statement tag=013A}
 
-令 V 为 $\mathfrak{g}$ 模块，且 $\rho$ 相应的表示为 $\mathfrak{g}$。
+令V为$\mathfrak{g}$模块，且$\rho$相应的表示为$\mathfrak{g}$。
 
-(i) 如果$a$是$\mathfrak{g}$的幂零元，且$\rho (a)$局部幂零，
+(i) 如果$a$是$\mathfrak{g}$的幂零元，并且如果$\rho (a)$局部幂零，
 
 $$
 \rho (e^{ada}b) =e^{\rho(a)}\rho (b)e^{-\rho(a)}
@@ -149,7 +149,7 @@ $$
 
 引理 1 (i) 和提案 2 仍然有效，具有相同的证明，即使 $\mathfrak{g}$ 不被假定为可拆分。
 
-### 2. 有限维简单 $\mathfrak{g}$ 模块的最高权
+### 2. 有限维简单 $\mathfrak{g}$-模块的最高权
 
 #### 定理 1 {#lie-viii-s7-thm-1 .statement tag=013G}
 
@@ -163,7 +163,7 @@ b) 假设V有最高权$\omega \in P_{++}$。令$\alpha \in B$和$e$为V中权$\o
 
 $m=\omega (H_{\alpha})\in \mathbf{N}$，N = $\sum_{j=0}^mke_j$。根据 §1, no. 2，提案 $1,X_{\alpha}e_{m+1}$ = 0。
 
-如果 $\beta \in B$ 和 $\beta \not=\alpha$，则 $[X_{\beta}, X_{-\alpha}] = 0$，因此 $X_{\beta}e_{m+1}=X_{\beta}X_{-\alpha}^{m+1}e$ = $X_{-\alpha}^{m+1}X_{\beta}e= 0$。如果$e_{m+1}\not= 0$，我们结论认为$e_{m+1}$是原始的，这是荒谬的（§6，命题3（i））；所以$e_{m+1}= 0$。因此，通过 §1, no. 2，Cor。根据命题1，N在$H_{\alpha}, X_{\alpha}$和$X_{-\alpha}$生成的子代数$\mathfrak{s}_{\alpha}$下是稳定的。现在$\mathfrak{s}_{\alpha}$在$\mathfrak{g}$中被还原，因此V的有限维子空间在$\mathfrak{s}_{\alpha}$下稳定的和是V的$\mathfrak{g}$子模（第I, §6, no. 6章，道具1） 7);由于和非零，因此它等于V。由此可见$(X_{\alpha})_V$和$(X_{-\alpha})_V$是局部幂零的。鉴于引理 1 (ii)，$\mathscr{X}$在$s_{\alpha}$下是稳定的，这对于所有$\alpha$都成立。因此$\mathscr{X}$在W下是稳定的。现在P上W的每个轨道都满足$P_{++}$（第VI, §1, no. 10章）。另一方面，如果 $\lambda \in \mathscr{X}\cap P_{++}$，则 $\lambda =\omega -\sum_{\alpha\in B}n_{\alpha}\alpha =\sum_{\alpha\in B}n'_{\alpha}\alpha$ 以及 $n_{\alpha}\in \mathbf{N}$ 和 $n'_{\alpha}\geq 0$ 对于所有 $\alpha \in B$
+如果 $\beta \in B$ 和 $\beta \not=\alpha$，则 $[X_{\beta}, X_{-\alpha}] = 0$，因此 $X_{\beta}e_{m+1}=X_{\beta}X_{-\alpha}^{m+1}e$ = $X_{-\alpha}^{m+1}X_{\beta}e= 0$。如果$e_{m+1}\not= 0$，我们结论认为$e_{m+1}$是原始的，这是荒谬的（§6，命题3（i））；所以$e_{m+1}= 0$。因此，通过 §1, no. 2，Cor。根据命题1，N在$H_{\alpha}, X_{\alpha}$和$X_{-\alpha}$生成的子代数$\mathfrak{s}_{\alpha}$下是稳定的。现在$\mathfrak{s}_{\alpha}$在$\mathfrak{g}$中被还原，因此V的有限维子空间在$\mathfrak{s}_{\alpha}$下稳定的和是V的$\mathfrak{g}$子模（第I, §6, no. 6，道具。） 7);由于和非零，因此它等于V。由此可见$(X_{\alpha})_V$和$(X_{-\alpha})_V$是局部幂零的。鉴于引理 1 (ii)，$\mathscr{X}$在$s_{\alpha}$下是稳定的，这对于所有$\alpha$都成立。因此$\mathscr{X}$在W下是稳定的。现在P上W的每个轨道都满足$P_{++}$（第VI, §1, no. 10）。另一方面，如果 $\lambda \in \mathscr{X}\cap P_{++}$，则 $\lambda =\omega -\sum_{\alpha\in B}n_{\alpha}\alpha =\sum_{\alpha\in B}n'_{\alpha}\alpha$ 以及 $n_{\alpha}\in \mathbf{N}$ 和 $n'_{\alpha}\geq 0$ 对于所有 $\alpha \in B$
 
 （第V, §3, no. 5、引理6章）。所以$\mathscr{X}\cap P_{++}$是有限的，因此$\mathscr{X}$也是有限的。由于每个权都有有限的重数（§6, no. 1，命题 1 (ii)），V 是有限维的。
 
@@ -293,13 +293,13 @@ $\|\mu\|<$ 上($\|\mu+\alpha \|,\|\mu-\alpha \|$)$\leq$ 上$_{\lambda\in\mathscr
 
 #### 注 2 {#lie-viii-s7-n2-rem-2 .statement tag=013Q}
 
-回想一下（第 17 条命题第 VI, §1, no. 6 章，Cor.3），存在 W 的唯一元素 $w_0$，变换 B 进入$-B$；我们有$w_0^2= 1$。并且 $-w_0$ 尊重 P 上的序关系。考虑到这一点，令 V 为有限维简单 $\mathfrak{g}$ 模，$\omega$ 为最高权。那么$w_0(\omega )$就是V中最低的权，它的重数就是1。
+回想一下（第 17 条命题第 VI, §1, no. 6 章，Cor.3），存在 W 的唯一元素 $w_0$，变换 B 进入$-B$；我们有$w_0^2= 1$。并且$-w_0$尊重P上的序关系。考虑到这一点，让V是一个有限维简单的$\mathfrak{g}$模，$\omega$它的最高权。那么$w_0(\omega )$就是V中最低的权，它的重数就是1。
 
-### 3.极小权
+### 3. 极小权
 
 #### 命题 6 {#lie-viii-s7-prop-6 .statement tag=013R}
 
-让 $\lambda \in P$ 和 $\mathscr{X}$ 最小的 R 饱和子集的 P 包含 $\lambda$。 选择范数 $\| \cdot  \|$ 如提案 5 中所示。以下条件是等效的：
+让 $\lambda \in P$ 和 $\mathscr{X}$ 最小的 R 饱和子集的 P 包含 $\lambda$。 选择范数 $\| \cdot  \|$ 如提案 5。以下条件是等效的：
 
 (i) $\mathscr{X}= W.\lambda$；
 
@@ -323,7 +323,7 @@ $$
 
 (iii)$=\Rightarrow$(i)：假设满足条件(iii)。设$w\in W$和$\alpha \in R$。然后$(w\lambda )(H_{\alpha}) =\lambda (H_{w^{-1}\alpha})\in  \{0,1,-1\}$；因此，如果 $t$ 是整数，介于 0 和 $(w\lambda )(H_{\alpha}),w\lambda -t\alpha$ 之间，则等于 $w\lambda$ 或 $s_{\alpha}(w\lambda )$。这证明$W.\lambda$是R饱和的，所以$\mathscr{X}= W.\lambda$。
 
-令$\mathscr{Y}$为P的非空R饱和子集。存在最小范数的$\mathscr{Y}$元素$\lambda$。很明显，$\lambda$满足条件（ii$'$），因此最后一个断言等于命题。
+令$\mathscr{Y}$为P的非空R饱和子集。存在$\mathscr{Y}$元素$\lambda$最小范数。很明显，$\lambda$满足条件（ii$'$），因此最后一个断言等于命题。
 
 #### 命题 7 {#lie-viii-s7-prop-7 .statement tag=013S}
 
@@ -365,11 +365,11 @@ $P(R)/Q(R)$的非零元素代表P(R)中的$\varpi_i$、$i\in J$、形式系统�
 
 #### 注 {#lie-viii-s7-n3-rem-1 .statement tag=013V}
 
-假设$\mathfrak{g}$很简单。令 $\Sigma^{'\vee}$ 为仿射 Weyl 群 $W_a(R^{\vee})$ 的 Coxeter 图。回想一下，$\Sigma^{'\vee}$ 的顶点是 $W(R^{\vee})$ 的 Coxeter 图 $\Sigma^{\vee}$ 的顶点，以及补充顶点 0。 群 $A(R^{\vee})$ 在 $\Sigma^{'\vee}$ 上运行，保持 0 固定。 群 Aut($\Sigma^{'\vee}$) 与 $A(R^{\vee})/W(R^{\vee})$ 的半直接乘积与群 $\Gamma_C$（cf. 第 VI, §2, no. 3 章和第 VI, §4, no. 3）典型同构；显然（Aut $\Sigma^{'\vee}$）$(0) =\Gamma_C(0)$； $\Gamma_C(0)$ 由 0 和 $i\in J$ 的$\Sigma^{\vee}$ 相应的到$\varpi_i$ 的顶点组成（cf. 第 VI, §2 章，第 5 条命题和no. 3 的注 1）。综上所述，极小权是$\Sigma^{\vee}$顶点的基本权相应的，可以从0通过Aut($\Sigma^{'\vee}$)的元素的运算得到。
+假设$\mathfrak{g}$很简单。令 $\Sigma^{'\vee}$ 为仿射 Weyl 群 $W_a(R^{\vee})$ 的 Coxeter 图。回想一下，$\Sigma^{'\vee}$ 的顶点是 $W(R^{\vee})$ 的 Coxeter 图 $\Sigma^{\vee}$ 的顶点，以及补充顶点 0。群 $A(R^{\vee})$ 在 $\Sigma^{'\vee}$ 上运行，保持 0 固定。 群 Aut($\Sigma^{'\vee}$) 与 $A(R^{\vee})/W(R^{\vee})$ 的半直接乘积与群 $\Gamma_C$（cf. 第 VI, §2, no. 3 章和第 VI, §4, no. 3）典型同构；显然（Aut $\Sigma^{'\vee}$）$(0) =\Gamma_C(0)$； $\Gamma_C(0)$ 由 0 和 $i\in J$ 的$\Sigma^{\vee}$ 相应的到$\varpi_i$ 的顶点组成（cf. 第 VI, §2 章，第 5 条命题和no. 3 的注 1）。综上所述，极小权是$\Sigma^{\vee}$顶点的基本权相应的，可以从0通过Aut($\Sigma^{'\vee}$)的元素的运算得到。
 
-与第 80 章的记号 VI，板片I至IX，由上可知极小权如下：
+与第 81 章的记号 VI，板片I至IX，由上式推导出极小权如下：
 
-型$A_l(l\geq 1):\varpi_1, . . . , \varpi_l$。
+对于型$A_l(l\geq 1):\varpi_1, . . . , \varpi_l$。
 
 型$B_l(l\geq 2):\varpi_l$。
 
@@ -383,7 +383,7 @@ $P(R)/Q(R)$的非零元素代表P(R)中的$\varpi_i$、$i\in J$、形式系统�
 
 对于型$E_8,F_4,G_2$，没有极小权。
 
-### 4. 张量积 $\mathfrak{g}$-模块
+### 4. 张量积 / $\mathfrak{g}$-模块
 
 令 $E,F$ 为$\mathfrak{g}$-模块。对于所有 $\lambda , \mu\in \mathfrak{h}^*, E^{\lambda}\otimes F^\mu\subset (E\otimes F)^{\lambda+\mu}$（第 VII, §1, no. 1 章，提案 2 (ii)）。如果 E 和 F 是有限维的，则 $E =\sum_{\lambda\in P}E^{\lambda}$
 
@@ -397,13 +397,13 @@ $$
 
 #### 命题 9 {#lie-viii-s7-prop-9 .statement tag=013W}
 
-令 $E,F$ 为有限维简单 $\mathfrak{g}$ 模，分别具有最高权 $\lambda , \mu$。
+令 $E,F$ 为有限维简单 $\mathfrak{g}$ 模，分别为最高权 $\lambda , \mu$。
 
 (i) 最高权 $\lambda +\mu$ 的$E\otimes F$ 分量是简单子模，由$(E\otimes F)^{\lambda+\mu}= E^{\lambda}\otimes F^\mu$ 生成。
 
-(ii) $E\otimes F$ 中任意简单子模的最高权是$\leq \lambda +\mu$（cf. §9，命题 2）。
+(ii) $E\otimes F$ 中任意简单子模的最高权是 $\leq \lambda +\mu$（cf. §9，命题 2）。
 
-如果$\alpha , \beta \in P$并且如果$E^{\alpha}\otimes F^{\beta}\not= 0$，则$\alpha \leq \lambda$和$\beta \leq \mu$。因而，$(E\otimes F)^{\lambda+\mu}$等于$E^{\lambda}\otimes F^\mu$，因此是维数1，$\lambda +\mu$是$E\otimes F$的最高权。 $E^{\lambda}\otimes F^\mu$ 的每个非零元素都是本原的。根据§6, no. 2的命题4，最高权$\lambda +\mu$的$E\otimes F$同型成分的长度为1。
+如果$\alpha , \beta \in P$并且如果$E^{\alpha}\otimes F^{\beta}\not= 0$，则$\alpha \leq \lambda$和$\beta \leq \mu$。因而，$(E\otimes F)^{\lambda+\mu}$等于$E^{\lambda}\otimes F^\mu$，因此是维数1，$\lambda +\mu$是$E\otimes F$的最高权。 $E^{\lambda}\otimes F^\mu$ 的每个非零元素都是本原的。根据§6, no. 2的命题4，最高权$\lambda +\mu$的$E\otimes F$的同型成分长度为1。
 
 #### 注 {#lie-viii-s7-n4-rem-1 .statement tag=013X}
 
@@ -431,7 +431,7 @@ $$
 (E\otimes F)^{\tau}=\sum_{\nu+\sigma=\tau}E^{\nu}\otimes F^{\sigma}
 $$
 
-根据命题 9，G 可以被识别为 $E\otimes F$ 的$\mathfrak{g}$子模，因此$\mathscr{X}''\subset \mathscr{X}+\mathscr{X}'$。 我们有$G^{\tau}= G\cap (E\otimes F)^{\tau}$，并且足以证明，对于$\nu \in \mathscr{X}$和$\sigma \in \mathscr{X}'$，我们有$G\cap (E\otimes F)^{\nu+\sigma}\not= 0$。 Let $(e_1, . . . , e_n)$ (resp. $(f_1, . . . , f_p)$) be a basis of E (resp. F) 元素中的由……组成，其中每个属于到一些$E^{\nu}$（分别为$F^{\sigma}$），并且使得$e_1\in E^{\lambda}$（分别为$f_1\in F^\mu$）。 $E\otimes F$的$e_i\otimes f_j$形式基。 假设要证明的结果是假的。 则存在对$(i, j)$，使得G的每个元素的指标$(i, j)$的坐标为零。 令 U 为 $\mathfrak{g}, U'$ 的包络代数，是 U 的$U,c$ 余积的对偶。 对于所有$u\in U$，令$x_i(u)$（或$y_j(u)$）为指标、$i$（或$j$）的$u(e_1)$（或$u(f_1)$）的坐标；设$z_{ij}(u)$为$u(e_1\otimes f_1)$的指标$(i, j)$的坐标。 然后$x_i, y_j, z_{ij}\in U'$。 现在$e_1$生成是$\mathfrak{g}$-模块E，所以$x_i\not= 0$，类似的$y_j\not= 0$。 通过 $\mathfrak{g}$-模块 $E\otimes F$ 的定义（第 1 章） I, §3, no. 2），如果$c(u) =\sum u_s\otimes u'_s$，我们有
+根据命题 9，G 可以被识别为 $E\otimes F$ 的$\mathfrak{g}$子模，因此$\mathscr{X}''\subset \mathscr{X}+\mathscr{X}'$。 我们有$G^{\tau}= G\cap (E\otimes F)^{\tau}$，并且足以证明，对于$\nu \in \mathscr{X}$和$\sigma \in \mathscr{X}'$，我们有$G\cap (E\otimes F)^{\nu+\sigma}\not= 0$。 令$(e_1, . . . , e_n)$（或$(f_1, . . . , f_p)$）为元素的E（或F）由……组成的基，其中每个属于到某个$E^{\nu}$（或$F^{\sigma}$），并且使得$e_1\in E^{\lambda}$（或$f_1\in F^\mu$）。 $E\otimes F$的$e_i\otimes f_j$形式基。 假设要证明的结果是假的。 则存在对$(i, j)$，使得G的每个元素的指标$(i, j)$的坐标为零。 令 U 为 $\mathfrak{g}, U'$ 的包络代数，是 U 的$U,c$ 余积的对偶。 对于所有$u\in U$，令$x_i(u)$（或$y_j(u)$）为指标、$i$（或$j$）的$u(e_1)$（或$u(f_1)$）的坐标；设$z_{ij}(u)$为$u(e_1\otimes f_1)$的指标$(i, j)$的坐标。 然后$x_i, y_j, z_{ij}\in U'$。 现在$e_1$生成是$\mathfrak{g}$-模块E，所以$x_i\not= 0$，类似的$y_j\not= 0$。 通过$\mathfrak{g}$模块$E\otimes F$（第I, §3, no. 2章）的定义，如果$c(u) =\sum u_s\otimes u'_s$，我们有
 
 $$
 z_{ij}(u) =\sum_sx_i(u_s).y_j(u'_s) =\langle c(u), x_i\otimes y_j\rangle
@@ -519,7 +519,7 @@ $$
 
 如果 E 上存在非简并对称（或交错的）双线性形式在 $\rho$ 下不变，则 $\mathfrak g$ 的有限维不可约表示 $\rho$ 被称为正交（或辛）。
 
-### 6.表示环
+### 6. 表示环
 
 令 $\mathfrak a$ 为有限维李代数。令$\mathscr F_{\mathfrak a}$（或$\mathscr G_{\mathfrak a}$）为有限维（或有限维简单）$\mathfrak a$-模的类的集合。让 $\mathscr R(\mathfrak a)$ 成为免费的阿贝尔的群 $\mathbf Z^{(\mathscr G_{\mathfrak a})}$。对于任何有限维简单 $\mathfrak a$-模 E，用 $[E]$ 表示其类。设 F 为有限维 $\mathfrak a$ 模；让
 $$
@@ -535,11 +535,11 @@ $$
 $$
 是有限维$\mathfrak a$模的正合序列，则$[F]=[F']+[F'']$。
 
-设 F 为有限维半单 $\mathfrak{a}$ 模；对于所有$E\in \mathfrak{S}_{\mathfrak{a}}$，令$n_E$为型E的F同型成分的长度；那么 [F] = $\sum_{E\in\mathfrak{S}_{\mathfrak{a}}}n_E.E$。如果 $F,F'$ 是有限维半单 $\mathfrak{a}$ 模，并且如果 [F] = $[F']$，则 F 和 $F'$ 同构的。
+设 F 为有限维半单 $\mathfrak{a}$ 模；对于所有$E\in \mathfrak{S}_{\mathfrak{a}}$，令$n_E$为型E的F的同型组件的长度；那么 [F] = $\sum_{E\in\mathfrak{S}_{\mathfrak{a}}}n_E.E$。如果 $F,F'$ 是有限维半单 $\mathfrak{a}$ 模，并且如果 [F] = $[F']$，则 F 和 $F'$ 同构的。
 
 #### 引理 3 {#lie-viii-s7-lem-3 .statement tag=0145}
 
-设G为阿贝尔的群相加，且$\varphi :\mathscr{F}_{\mathfrak{a}}\rightarrow G$映射；通过滥用记号，我们用任何有限维$\mathfrak{a}$模F的类的$\varphi$下的$\varphi (F)$像表示。假设，对于任何正合序列
+令 G 为阿贝尔的群加法写，且 $\varphi :\mathscr{F}_{\mathfrak{a}}\rightarrow G$ 映射；通过滥用记号，我们用任何有限维$\mathfrak{a}$模F的类的$\varphi$下的$\varphi (F)$像表示。假设，对于任何正合序列
 
 $$
 0\longrightarrow F'\longrightarrow F\longrightarrow F''\longrightarrow 0
@@ -599,7 +599,7 @@ $$
 
 这意味着$\tau_E\tau_F=\tau_{E\otimes F}$。因而，Tr$:\mathscr{R}(\mathfrak{a})\rightarrow U(\mathfrak{a})^*$ 是环中的同态。
 
-令$\mathfrak{a}_1$和$\mathfrak{a}_2$为李代数，从$\mathfrak{a}_1$到$\mathfrak{a}_2$为$f$同态。每个有限维$\mathfrak{a}_2$模E定义通过$f$和$\mathfrak{a}_1$模，因此$\mathscr{R}(\mathfrak{a}_2)$和$\mathscr{R}(\mathfrak{a}_1)$的元素我们暂时用$[E]_2$和$[E]_1$表示。通过引理 3，存在唯一同态，用$\mathscr{R}(f)$表示，从群$\mathscr{R}(\mathfrak{a}_2)$到群$\mathscr{R}(\mathfrak{a}_1)$，使得$\mathscr{R}(f)[E]_2=[E]_1$对于每个有限维$\mathfrak{a}_2$-模E。此外，$\mathscr{R}(f)$是同态 / 环。如果 U(f) 是从 U($\mathfrak{a}_1$) 到 U($\mathfrak{a}_2$) 延伸 $f$ 的同态，则以下图表是可交换的
+令$\mathfrak{a}_1$和$\mathfrak{a}_2$为李代数、$f$同态，从$\mathfrak{a}_1$到$\mathfrak{a}_2$。每个有限维$\mathfrak{a}_2$模E定义通过$f$和$\mathfrak{a}_1$模，因此$\mathscr{R}(\mathfrak{a}_2)$和$\mathscr{R}(\mathfrak{a}_1)$的元素我们暂时用$[E]_2$和$[E]_1$表示。通过引理 3，存在唯一同态，用$\mathscr{R}(f)$表示，从群$\mathscr{R}(\mathfrak{a}_2)$到群$\mathscr{R}(\mathfrak{a}_1)$，使得$\mathscr{R}(f)[E]_2=[E]_1$对于每个有限维$\mathfrak{a}_2$-模E。此外，$\mathscr{R}(f)$是同态 / 环。如果 U(f) 是从 U($\mathfrak{a}_1$) 到 U($\mathfrak{a}_2$) 延伸 $f$ 的同态，则以下图表是可交换的
 
 $$
 \begin{array}{ccc}
@@ -611,9 +611,9 @@ $$
 
 接下来我们将 $\mathfrak{a}$ 视为可分割的半单李代数 $\mathfrak{g}$。 环$\mathscr{R}(\mathfrak{g})$称为$\mathfrak{g}$的*表示环*。对于所有$\lambda\in P_{++}$，我们用最高权$\lambda$的简单$\mathfrak{g}$模块E($\lambda$)的$[\lambda]$类表示。
 
-### 7. 特征标 $\mathfrak{g}$-模块
+### 7. 特征标 / $\mathfrak{g}$-模块
 
-令 $\Delta$ 为可加写成的可交换幺半群，且幺半群 $\Delta$ 的 $\mathbf{Z}[\Delta]=\mathbf{Z}^{(\Delta)}$ 代数在 $\mathbf{Z}$ 上（代数，第 III, §2, no. 6 章）。用$\mathbf{Z}[\Delta]$的$(e^\lambda)_{\lambda\in\Delta}$典范基表示。对于所有 $\lambda,\mu\in\Delta$，我们有 $e^{\lambda+\mu}=e^\lambda e^\mu$。如果0是$\Delta$的中性元素，那么$e^0$就是$\mathbf{Z}[\Delta]$的单位元；用1表示。
+令 $\Delta$ 为可加写的可交换幺半群，以及幺半群 $\Delta$ 在 $\mathbf{Z}$ 上的 $\mathbf{Z}[\Delta]=\mathbf{Z}^{(\Delta)}$ 代数（代数，第 III, §2, no. 6 章）。用$\mathbf{Z}[\Delta]$的$(e^\lambda)_{\lambda\in\Delta}$典范基表示。对于所有 $\lambda,\mu\in\Delta$，我们有 $e^{\lambda+\mu}=e^\lambda e^\mu$。如果0是$\Delta$的中性元素，那么$e^0$就是$\mathbf{Z}[\Delta]$的单位元；用1表示。
 
 令 E 为域 $\kappa$ 的 $\Delta$ 分级向量空间，并令 $(E^\lambda)_{\lambda\in\Delta}$ 为其分级。如果每个$E^\lambda$都是有限维的，则E的*特征标*（用ch(E)表示）是$\mathbf{Z}^{\Delta}$的元素$(\dim E^\lambda)_{\lambda\in\Delta}$。如果 E 本身是有限维的，
 
@@ -689,4 +689,4 @@ Weyl 群 W 在群 P 上按自同构运行，因此在 $\mathbf{Z}^P$ 上运行�
 
 考虑的所有 $\mathfrak{g}$ 模块（练习 14 和 15 中的模块除外）均假设为有限维。
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

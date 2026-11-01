@@ -30,23 +30,23 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 15c02f7e39d93db1a00f70a5667b2a535b96839a0380462f6dc4027f95c1a891
+content_sha256: 1f32c39c6966218f20539bfef09843b02f6621846f985be4aae945ef297c75aa
 translated_from: content/en/alg/VIII/15_s15_brauer_groups.md
 translation_method: google
 source_content_sha256: de0ee49b9fce0132064e5387825b803ddb4c6aeb3c6c606b44846dc5403449fc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 321238357e1521bdda043de86b591160481d313afebf6e1b7722694f3e0d99de
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 15。 布劳尔群
 
 在这个截面中，K是交换域。
 
-### 1.代数类
+### 1. Classes of Algebras
 
 我们用 Iso$_K(A,B)$ 关系表示
 
@@ -82,7 +82,7 @@ $$
 
 通过定义，我们有 [A] = [D] 当且仅当存在可逆 $(A$, D)-双模，即 (VIII, p. 101, 定理 1), 非零有限维的右向量空间 V 在 D 上赋予同构 K-代数$A\rightarrow$结束$_D(V)$。接下来是引理1。
 
-### 2.布劳尔群的定义
+### 2. Definition of the Brauer Group
 
 我们用形式[A]的$\mathscr{M}_K$的元素的Br(K)集合表示，其中A是K上有限次数的中心单代数。
 
@@ -148,7 +148,7 @@ $k$线性双射$\varphi$与引理中所述的性质的存在源自张量积与�
 
 这是从 VIII、p. 278 和 Wedderburn 的定理（VIII、p. 120、定理 1）中的引理 1 得出的。
 
-### 3.基域变换
+### 3. Change of Base Field
 
 令L为域K中的扩张。令A和B为有限次数中的K-代数；那么L-代数$A_{(L)}$和$B_{(L)}$都是有限次数。 L-代数$A_{(L)}\otimes_LB_{(L)}$和$(A\otimes_KB)_{(L)}$是同构的（III, §4, No. 1、p. 462、命题 3）。 L-代数$K_{(L)}$同构于L。因而，从 $\mathscr{C}_K$ 到 $\mathscr{C}_L$ 存在一个唯一的幺半群同态 $\rho_{L/K}$，使得
 
@@ -194,7 +194,7 @@ $$
 
 我们认同 A 与子环 $A_{(L)}$。我们将V视为K-向量空间。 环 C 是 End$_K(V)$ 中 $\varphi (A)$ 的交换子。 有限次数为中心单K-代数，从$A\otimes_KC$到End$_K(V)$的同态$a\otimes c\mapsto ac$为同构(VIII、p. 260、定理6、a))。因而，K-代数 A 和$C^o$ 相似（VIII、p. 279、命题 3）。
 
-设$L_V$为L-向量空间V的同伦的环；它是 End$_L(V)$ 与 End$_K(V)$ 的交换子（VIII，p. 82，推论 1）。现在，K-代数End$_L(V)$是由$\varphi (A)$和$L_V$生成的；因而，在 End$_K$(V) 中，我们有
+令$L_V$为L-向量空间V的同伦的环；它是 End$_L(V)$ 与 End$_K(V)$ 的交换子（VIII，p. 82，推论 1）。现在，K-代数End$_L(V)$是由$\varphi (A)$和$L_V$生成的；因而，在 End$_K$(V) 中，我们有
 
 $L_V=$结束$_L(V)'=\varphi (A)'\cap L'_V= C\cap L'_V$,
 
@@ -204,17 +204,17 @@ $L_V=$结束$_L(V)'=\varphi (A)'\cap L'_V= C\cap L'_V$,
 
 设A为有限次数的中心单K-代数，并令L为有限次数的K的扩张。假设$[A : K] = [L : K]^2$。那么对于 A，L 是分裂域当且仅当包含子代数同构于 L。
 
-假设从L到A存在态射$\varphi$，设M为最大半单交换子代数包含$\varphi (L)$。到 VIII、p. 262 的命题 3，我们有 $[A : K] = [M : K]^2$，因而 [M : K] = [L : K] 和 $M =\varphi (L)$。由命题 5，域 L 分裂的 A。反之，假设域 L 分裂的 A；那么它同构于类似于 A (命题 5) 的中心单K-代数 B 的最大交换子代数。我们有 $[B : K] = [L : K]^2$ (VIII, p. 262, 命题 3)，因而 [B : K] = [A : K]。因而，B 与 A 同构的（VIII，p. 280，推论）。推论 1 如下。
+假设从L到A存在态射$\varphi$，设M为最大半单交换子代数包含$\varphi (L)$。通过 VIII、p. 262 的命题 3，我们得到 $[A : K] = [M : K]^2$，因而 [M : K] = [L : K] 和 $M =\varphi (L)$。由命题 5，域 L 分裂的 A。反之，假设域 L 分裂的 A；那么它与类似于 A (命题 5) 的中心单K-代数 B 的最大交换子代数同构。我们有 $[B : K] = [L : K]^2$ (VIII, p. 262, 命题 3)，因而 [B : K] = [A : K]。因而，B 与 A 同构的（VIII，p. 280，推论）。推论 1 如下。
 
 #### 推论 2 {#alg-viii-s15-lem-3-cor-2 .statement tag=00I6}
 
-设D为K上的有限次数域和中心K，并令L为有限次数K的扩张即D的分裂域。D除的约化次数 [L：K]。
+令 D 为中心 K 上的有限次数的域，并令 L 为有限次数的 K 的扩张，即 D 的分裂域。 D 除的约化次数 [L : K]。
 
-将 D (VIII, p. 253) 减少次数表示为 $r$；到定义，我们就有了$[D : K] =r^2$。到命题 5，存在与D相似的中心单K-代数 B，其中L是最大的交换子代数。由于 B 同构于矩阵代数 $\mathbf{M}_n(D)$ (VIII, p. 278, 引理 1)，因此我们有 $[B : K] =n^2r^2$，因此有 $[L : K] =nr$ (VIII, p. 262, 命题 3)。
+将 D (VIII, p. 253) 减少的次数表示为 $r$；到定义，我们就有了$[D : K] =r^2$。到命题 5，存在与D相似的中心单K-代数 B，其中L是最大的交换子代数。由于 B 同构于矩阵代数 $\mathbf{M}_n(D)$ (VIII, p. 278, 引理 1)，因此我们有 $[B : K] =n^2r^2$，因此有 $[L : K] =nr$ (VIII, p. 262, 命题 3)。
 
 ### 4. 例 / 布劳尔群
 
-在以下三种情况下，布劳尔群 Br(K) 减少为单位元素：
+在以下三种情况下，布劳尔群 Br(K) 会减少为单位元素：
 
 a) K 是可分离闭的（VIII，p. 253，推论 1）。
 
@@ -222,10 +222,10 @@ $*$b) K 为有限域 (VIII, p. 357, 推论 2)。
 
 c) K 有性质 $(C_1)$ (VIII, p. 357, 注 2)。
 
-假设 K 为极大有序域 (VI, §2, No. 5, p. 25)。 K 的布劳尔群则为阶 2 的循环；它的元素是K的类和型$(-1,0,-1)$的四元数K-代数的类（III, §2, No. 5，p. 444和VIII，p. 367， 定理1)。
+假设 K 为极大有序域 (VI, §2, No. 5, p. 25)。 K 的布劳尔群则为阶 2 的循环；它的元素是K的类和型$(-1,0,-1)$的四元数K-代数的类（III, §2, No. 5，p. 444和VIII，p. 367，定理1）。
 
-假设 K 是局部紧致、非离散、可交换拓扑域。如果 K 不连通，则对于离散估值而言，它是完整的域，且剩余类域有限（Comm. Alg.，VI, §9, No. 3，p. 433，定理 1），并且从 Br(K) 到 $\mathbf{Q}/\mathbf{Z}$ 存在同构 （VIII、p. 332、习题17）。如果 K 是连通的，则它与 $\mathbf{R}$ 或 $\mathbf{C}$ 同构的。 域$\mathbf{R}$的布劳尔群是阶2的循环。其非平凡的元素是哈密顿四元数的代数$\mathbf{H}$的类（Gen.Top.，VIII, §1, No. 4， p. 104); $\mathbf{C}$ 中的布劳尔群有阶 1。
+假设 K 是局部紧致、非离散、可交换拓扑域。 如果 K 未连接，则对于离散评估来说，它是完整的域，且剩余类域有限（Comm. Alg., VI, §9, No. 3, p. 433, 定理 1), 从 Br(K) 到 $\mathbf{Q}/\mathbf{Z}$ (VIII, p. 332, 习题 17) 存在同构。 如果 K 是连通的，则它与 $\mathbf{R}$ 或 $\mathbf{C}$ 同构的。 域$\mathbf{R}$的布劳尔群是阶2的循环。 它的非平凡元素是汉密尔顿四元数的代数$\mathbf{H}$的类（Gen. 顶部., VIII, §1, No. 4, p. 104); $\mathbf{C}$的布劳尔群有阶 1。
 
 ### 习题{#alg-viii-s15-exercises}
 
-§ 15](exercises/s15/)参见[习题。
+参见[习题为 § 15](exercises/s15/)。

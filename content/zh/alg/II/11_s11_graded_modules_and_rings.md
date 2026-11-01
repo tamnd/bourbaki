@@ -38,16 +38,16 @@ subsections:
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: 15b04d46e3a2cfa266a83c8901abd8938e4e1cd06c49771b4fef7f2b7743f62b
+content_sha256: facb264c098e39ba1a01a8dd51ae6d9fcb4ecce2c815a26abcc502146b8ced9c
 translated_from: content/en/alg/II/11_s11_graded_modules_and_rings.md
 translation_method: google
 source_content_sha256: cee0143d544bc99c4e8496ec6bc7458982857f3f0ed4fb081e4de491d7e81dfd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 24e02255526574841732e11873427be0d5630db32712235ef1a41a18b07ee125
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 11。分级为模和环
@@ -62,23 +62,23 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *给定可加的交换律群$G$和集合$\Delta$，$G$上型$\Delta$的毕业是$G$的子群的$(G_\lambda)_{\lambda \in \Delta}$，其中$G$是直和。 集合 $G$，其中结构由其群运算及其分级定义，称为型 $\Delta$ 的分级（交换）群。*
 
-$\Delta$称为$G$的次数*的*集合。如果元素 $x \in G$ 被称为*同质*，如果它属于到 $G_\lambda$ 之一，则 *次数* $\lambda$ 如果 $x \in G_\lambda$ 是同质的。因此，元素 0 是所有次数的齐次；但如果$x \neq 0$是齐次的，则属于仅是$G_\lambda$之一； 指标$\lambda$，这样$x \in G_\lambda$就被称为*$x$的*次数（或有时$x$的*权*），并且有时由$\deg(x)$表示。每个$y \in G$可以唯一地写成齐次元素和$y_\lambda \in G_\lambda$的和$\sum_\lambda y_\lambda$； $y_\lambda$ 被称为 $y$ 的 * 次数* $\lambda$ 的齐次分量（或简称为次数* $\lambda$ 的 * 分量）。当使用字“权”代替“次数”时，形容词“均质”被“等压”替代。
+$\Delta$称为$G$的次数*的*集合。如果元素$x \in G$被称为*同质*，如果它属于到$G_\lambda$之一，*次数*$\lambda$如果$x \in G_\lambda$是同质的。因此元素 0 是所有次数的齐次；但如果$x \neq 0$是齐次的，则属于仅是$G_\lambda$之一； 指标$\lambda$，这样$x \in G_\lambda$就被称为*$x$的*次数（或有时$x$的*权*），并且有时用$\deg(x)$表示。每个$y \in G$可以唯一地写成齐次元素和$y_\lambda \in G_\lambda$的和$\sum_\lambda y_\lambda$； $y_\lambda$ 被称为 $y$ 的 * 次数* $\lambda$ 的齐次分量（或简称为次数* $\lambda$ 的 * 分量）。当使用字“权”代替“次数”时，形容词“均质”被“等压”代替。
 
 #### 例 {#alg-ii-s11-n1-exa-1 .statement tag=05XY}
 
 (1) 给定任何可交换幺半群$\Delta$（单位元素 0）和可交换群$G$，通过对$\lambda \neq 0$取$G_0 = G$和$G_\lambda = \{0\}$，在$G$上定义毕业$(G_\lambda)_{\lambda \in \Delta}$；这个毕业被称为*琐碎*。
 
-(2) 令$\Delta, \Delta'$为$\Delta$的两个集合和$\rho$映射入$\Delta'$。令$(G_\lambda)_{\lambda \in \Delta}$为型$\Delta$在可交换群$G$上的毕业；对于$\mu \in \Delta'$，令$G'_\mu$为$G_\lambda$的和，使得$\rho(\lambda) = \mu$；显然，$(G'_\mu)_{\mu \in \Delta'}$是型$\Delta'$在$G$上的毕业，据说是通过映射$\rho$从$(G_\lambda)$“派生”的。
+(2) 设$\Delta, \Delta'$为$\Delta$的两个集合和$\rho$映射入$\Delta'$。设$(G_\lambda)_{\lambda \in \Delta}$是型$\Delta$在可交换群$G$上的毕业；对于$\mu \in \Delta'$，令$G'_\mu$为$G_\lambda$的和，使得$\rho(\lambda) = \mu$；显然，$(G'_\mu)_{\mu \in \Delta'}$是型$\Delta'$在$G$上的毕业，据说是通过映射$\rho$从$(G_\lambda)$“派生”的。
 
-当 $\Delta$ 是可加地写成的交换律群且将 $\Delta$ 的 $\rho$ 映射 $\lambda \mapsto -\lambda$ 写到其自身上时，$(G'_\mu)$ 称为 $(G_\lambda)$ 的*对立*毕业。
+当 $\Delta$ 是一个可交换的群加法写出，并且将 $\Delta$ 的 $\rho$ 映射 $\lambda \mapsto -\lambda$ 写到其自身上时，$(G'_\mu)$ 被称为 $(G_\lambda)$ 的*对立*毕业。
 
-(3) 如果$\Delta = \Delta_1 \times \Delta_2$ 是两个集合的积，则型 $\Delta$ 的毕业称为型 $\Delta_1, \Delta_2$ 的*二毕业*。对于所有$\lambda \in \Delta_1$，令$G'_\lambda = \bigoplus_{\mu \in \Delta_2} G_{\lambda \mu}$，对于所有$\mu \in \Delta_2$，令$G''_\mu = \bigoplus_{\lambda \in \Delta_1} G_{\lambda \mu}$；显然，$(G'_\lambda)_{\lambda \in \Delta_1}$是型$\Delta_1$的毕业，$(G''_\mu)_{\mu \in \Delta_2}$是型$\Delta_2$在$G$的毕业；这些毕业被称为*部分毕业*，源自大毕业$(G_{\lambda \mu})$。 注即$G_{\lambda \mu} = G'_\lambda \cap G''_\mu$；相反，如果$(G'_\lambda)_{\lambda \in \Delta_1}$和$(G''_\mu)_{\mu \in \Delta_2}$是$G$上的两个分度，使得$G$是$G_{\lambda \mu} = G'_\lambda \cap G''_\mu$的直和，则这些子群形式是型$\Delta_1, \Delta_2$的大分度$G$，其中$(G'_\lambda)$和$(G''_\mu)$为部分刻度。我们留给读者将其推广到 $\Delta$ 是集合的有限乘积的情况。
+(3) 如果 $\Delta = \Delta_1 \times \Delta_2$ 为两个集合的积，则型 $\Delta$ 的毕业称为型 $\Delta_1, \Delta_2$ 的*二毕业*。对于所有$\lambda \in \Delta_1$，令$G'_\lambda = \bigoplus_{\mu \in \Delta_2} G_{\lambda \mu}$，对于所有$\mu \in \Delta_2$，令$G''_\mu = \bigoplus_{\lambda \in \Delta_1} G_{\lambda \mu}$；显然，$(G'_\lambda)_{\lambda \in \Delta_1}$是型$\Delta_1$的毕业，$(G''_\mu)_{\mu \in \Delta_2}$是型$\Delta_2$在$G$的毕业；这些毕业被称为*部分毕业*，源自大毕业$(G_{\lambda \mu})$。 注即$G_{\lambda \mu} = G'_\lambda \cap G''_\mu$；相反，如果$(G'_\lambda)_{\lambda \in \Delta_1}$和$(G''_\mu)_{\mu \in \Delta_2}$是$G$上的两个分度，使得$G$是$G_{\lambda \mu} = G'_\lambda \cap G''_\mu$的直和，则这些子群形式是型$\Delta_1, \Delta_2$的大分度$G$，其中$(G'_\lambda)$和$(G''_\mu)$为部分刻度。我们留给读者将其推广到$\Delta$是集合的有限乘积的情况。
 
-(4) 令$\Delta_0$为可加写的交换幺半群，单位元素用0表示；设$I$为任意集合，且$\Delta_0^{(I)} = \Delta$表示有限支撑的$(\lambda_i)_{i \in I}$族的乘积$\Delta_0^I$由……组成中的子幺半群。令 $\rho : \Delta \to \Delta_0$ 为 $\Delta$ 到由 $\rho((\lambda_i)) = \sum_{i \in I} \lambda_i$ 定义的 $\Delta_0$ 的满射（共对角）同态。从型$\Delta$的每个刻度，通过$\rho$（*例2*）得出型$\Delta_0$的刻度；它被称为与给定“多重毕业”型$\Delta$相关的*总毕业*。
+(4) 令$\Delta_0$为可加写的交换幺半群，单位元素用0表示；令$I$为任意集合，且$\Delta_0^{(I)} = \Delta$表示有限支撑的$(\lambda_i)_{i \in I}$族中的乘积$\Delta_0^I$由……组成中的子幺半群。令 $\rho : \Delta \to \Delta_0$ 为 $\Delta$ 到由 $\rho((\lambda_i)) = \sum_{i \in I} \lambda_i$ 定义的 $\Delta_0$ 的满射（共对角）同态。从型 $\Delta$ 的每个分度中，通过 $\rho$ (*例 2*) 得出型 $\Delta_0$ 的分度；它被称为与给定“多重毕业”型$\Delta$相关的*总毕业*。
 
-此号码的定义和例。 扩展立即到$G$ 是群的情况，它*不一定是可交换的*；只需要通过“受限制的和”（§ 1, no. 6，*注*）来对直和的所有概念进行替换即可。 注，在这种情况下，$G_\lambda$是正常的$G$的子群，并且对于$\lambda \neq \mu$，$G_\lambda$的每个元素可以与$G_\mu$的每个元素进行置换。
+此号码的定义和例。 扩展立即到$G$ 是群的情况，这*不一定是可交换的*；只需要通过“受限和”（§ 1, no. 6，*注*）对直和的所有概念进行替换即可。 注，在这种情况下，$G_\lambda$是正常的$G$的子群，并且对于$\lambda \neq \mu$，$G_\lambda$的每个元素可以与$G_\mu$的每个元素进行置换。
 
-### 2. 评分为环和模
+### 2. 评分环和模
 
 #### 定义 2 {#alg-ii-s11-def-2 .statement tag=05XZ}
 
@@ -154,19 +154,19 @@ $$
 
 *注* (3) 如果*均匀* 元素存在$M$ 由……组成的基 $(m_i)_{i \in I}$，则分级A-模 $M$ 称为*分级自由A-模*。假设是，并且 $\Delta$ 是可交换的 *群*；令$\lambda_i$为$m_i$的次数，并考虑每个$i$移位的A-模$A(-\lambda_i)$（no. 2，*例3*）；如果 $e_i$ 表示 $A$ 中的元素 1，则视为 $A(-\lambda_i)$、A-线性映射 $u : \bigoplus_{i \in I} A(-\lambda_i) \to M$ 中次数* $\lambda_i$ 的元素 *，使得 $u(e_i) = m_i$ 对于所有$i$，是*分级A-模同构*。
 
-假设始终$\Delta$是可交换的群，现在让$N$是$N$的*齐次*生成元的分级A-模、$(n_i)_{i \in I}$系统，并假设$n_i$是次数 $\mu_i$。然后 A-线性映射 $v : \bigoplus_{i \in I} A(-\mu_i) \to N$，使得所有 $i$ 的 $u(e_i) = n_i$ 是次数* 0 的 *满射分级 A-模同态。如果 $N$ 是分级 A-模的 *有限生成*，则总有一个有限$N$的齐次生成元的系统，因此上面的型有满同态，其中$I$*有限*。
+假设始终$\Delta$是可交换的群，现在让$N$是$N$的*齐次*生成元的分级A-模、$(n_i)_{i \in I}$系统，并假设$n_i$是次数 $\mu_i$。然后 A-线性映射 $v : \bigoplus_{i \in I} A(-\mu_i) \to N$ 使得 $u(e_i) = n_i$ 对于所有 $i$ 是一个 * 分级为 A-模同态的次数* 0。如果 $N$ 是一个分级为 A-模的 *有限生成*，则总有一个有限系统是 $N$ 的同质生成元，因此上面的型有满同态，其中 $I$ *有限*。
 
 ### 3. 评分子模
 
 #### 命题 2 {#alg-ii-s11-prop-2 .statement tag=05Y6}
 
-*令A为型$\Delta$的分级环，M为型$\Delta$的分级A-模，$(M_\lambda)$其分级，N为M的子A模块。以下属性是等效的：*
+*设A为型$\Delta$的分级环，M为型$\Delta$的分级A-模，$(M_\lambda)$其分级，N为M的子A模块。以下属性是等效的：*
 
 (a) $N$ *是家庭的和* $(N \cap M_\lambda)_{\lambda \in \Delta}$。
 (b) *N 属于到 N* 的每个元素的均质成分。
 (c) $N$ *由齐次元素*生成。
 
-N 的每个元素都可以唯一地写为$M_\lambda$ 的元素的和，因此直接的 (a) 和(b) 是等价的，并且(a) 蕴涵(c)。我们证明（c）蕴涵（b）。然后令$(x_i)_{i \in I}$为N的齐次生成元$\neq 0$族，并令$\delta(i)$为$x_i$的次数。 N 中的每个元素都可以写成 $\sum_i a_i x_i$ 和 $a_i \in A$；如果$a_{i,\lambda}$是次数$\lambda$的$a_i$的分量，则从关系得出结论
+N 的每个元素都可以唯一地写为$M_\lambda$ 的元素的和，因此直接的 (a) 和(b) 是等价的，并且(a) 蕴涵(c)。我们证明（c）蕴涵（b）。然后令$(x_i)_{i \in I}$为N的同质生成元$\neq 0$族，并令$\delta(i)$为$x_i$的次数。 N 中的每个元素都可以写成 $\sum_i a_i x_i$ 和 $a_i \in A$；如果$a_{i,\lambda}$是次数$\lambda$的$a_i$的分量，则从关系得出结论
 
 $$
 \sum_{i \in I} \left( \sum_{\mu \in \Delta} a_{i,\mu} x_i \right) = \sum_{\lambda \in \Delta} \left( \sum_{\mu + \delta(i) = \lambda} a_{i,\mu} x_i \right).
@@ -174,7 +174,7 @@ $$
 
 **注 (1)** 在上面的记号中，关系$\sum_{i \in I} a_i x_i = 0$因此相当于关系$\sum_{\mu + \delta(i) = \lambda} a_{i,\mu} x_i = 0$的系统。当$\Delta$是群时，这些关系可以写成$\sum_{i \in I} a_{i,\lambda - \delta(i)} x_i = 0$。
 
-当M的子模 N具有命题 2中所述的等价性质时，显然$N \cap M_\lambda$ 形式与N的A-模结构兼容的分级，称为M上的“引起的分级”；具有此等级的 N 称为 M 的 *等级子模*。
+当M的子模N具有命题2中所述的等效性质时，显然$N \cap M_\lambda$形式与N的A-模结构兼容的分级，称为M上的“引起的分级”；具有此等级的 N 称为 M 的 *等级子模*。
 
 #### 推论 1 {#alg-ii-s11-prop-2-cor-1 .statement tag=05Y7}
 
@@ -190,14 +190,14 @@ $A_s$（或$A_d$）的分级子模称为分级环A的*分级左*（或*右*）*�
 
 显然，如果 N（分别为 B）是 M 的分级子 A 模块（分别为 A 的分级子环），则典范嵌入 $N \to M$（分别为 $B \to A$）为模同态为次数 0（分别为 a评分环同态）。
 
-如果N是分级A-模M的分级子模和$(M_\lambda)_{\lambda \in \Delta}$M的分级，则$M/N$形式的子模$(M_\lambda + N)/N$与该商模的结构兼容的*分级*。因为，如果$N_\lambda = M_\lambda \cap N$、$(M_\lambda + N)/N$与$M_\lambda/N_\lambda$相同，并且从命题2和§ 1, no. 6、公式(26)可以得出，$M/N$是它们的直和。而且，
+如果N是分级A-模M的分级子模和$(M_\lambda)_{\lambda \in \Delta}$M的分级，则$M/N$形式的子模$(M_\lambda + N)/N$与此商模的结构兼容的*分级*。因为，如果$N_\lambda = M_\lambda \cap N$、$(M_\lambda + N)/N$与$M_\lambda/N_\lambda$相同，并且从命题2和§ 1, no. 6、公式(26)可以得出，$M/N$是它们的直和。而且，
 
 $$
 A_\lambda(M_\mu + N) \subset A_\lambda M_\mu + N \subset M_{\lambda+\mu} + N
 $$
 因此$A_\lambda((M_\mu + N)/N) \subset (M_{\lambda+\mu} + N)/N$，它建立了我们的断言。
 
-。分度 ((M_\lambda + N)/N)_{\lambda \in \Delta} 称为 M 与 N 的商分度，以该分度的商模 M/N 称为 M 除以子模 N 的分度商模； 典范同态 M \to M/N 是本次毕业的同态次数 0。
+。分度 ((M_\lambda + N)/N)_{\lambda \in \Delta} 称为 M 与 N 的商分度，而具有该分度的商模 M/N 称为 M 除以子模 N 的分度商模； 典范同态 M \to M/N 是本次毕业的同态次数 0。
 
 如果b是A的分级双边理想，则A/b上的商分级与A/b上的环结构兼容；具有此分级的环 A/b 称为 A 除以 b 的商环； 典范同态 A \ 到 A/b 是本次毕业评分环的同态。
 
@@ -212,7 +212,7 @@ $$
 $$
 \sum_\lambda u(x_\lambda) = u(x) = 0
 $$
-u(x_\lambda) 为次数 \lambda + \delta；如果 \delta 是正则关系 \lambda + \delta = \mu + \delta 意味着 \lambda = \mu，因此 u(x_\lambda) 是 u(x) 的齐次分量，并且对于 \Delta 中的所有 \lambda \ 必然 u(x_\lambda) = 0，这证明了 (ii)。 双射 v: M/Ker(u) \to Im(u) 与 u 规范关联，则为次数 \delta 的分级同态，如下从商分级的定义得出； 从而 (iii) 当 δ = 0 时。
+u(x_\lambda) 为次数 \lambda + \delta；如果 \delta 是正则关系 \lambda + \delta = \mu + \delta 意味着 \lambda = \mu，因此 u(x_\lambda) 是 u(x) 的齐次分量，并且对于 \Delta 中的所有 \lambda \ 必然有 u(x_\lambda) = 0，这证明了 (ii)。 双射 v: M/Ker(u) \to Im(u) 与 u 规范关联，则为次数 \delta 的分级同态，如下从商分级的定义得出； 从而 (iii) 当 δ = 0 时。
 
 #### 推论{#alg-ii-s11-n3-cor-1 .statement tag=05YA}
 
@@ -255,7 +255,7 @@ $$
 
 从 § 6, no. 2、命题 5 可以得出，$(A^\lambda)$（分别为 $(M^\lambda)$）是 A 级（分别为 M），并且可以从 I, § 10、第 5 个得出。 3 和 4 表明该刻度与 A 上的环结构兼容（分别与 M 上的 A-模结构）。分级的环 A（分别分级为A-模 M）称为分级环 $(A_\alpha, \phi_{\beta\alpha})$（分别分级为模 $(M_\alpha, f_{\beta\alpha})$）的直接系统的直极限。如果$\phi_\alpha : A_\alpha \to A$（分别$f_\alpha : M_\alpha \to M$）为典范映射，则$\phi_\alpha$（分别$f_\alpha$）为分级环的同态（分别为分级$A_\alpha$模块的次数0的同态）。
 
-### 4. 有序群 OF 次数的情况
+### 4. 订购群次数的情况
 
 如果对于所有 $\rho \in \Delta$，关系 $\lambda \leq \mu$ 隐含$\lambda + \rho \leq \mu + \rho$，则可加地编写的可交换群 $\Delta$ 上的阶结构（由 $\leq$ 表示）被认为与群结构 *相容的*。 群 $\Delta$ 与阶结构则称为*有序群*。我们将在VI, § 1详细研究这些群；这里我们将自己限制为注，在这种情况下，群关系$\lambda > 0$意味着所有$\mu$的$\lambda + \mu > \mu$，因为它通过定义暗示$\lambda + \mu \geq \mu$，并且关系$\xi + \mu = \mu$相当于$\xi = 0$。
 
@@ -346,11 +346,11 @@ where $j$ and $\bar{p}$ derive from $j$ and $p$ when passing to the quotients an
 
 让 $\Delta$ 得到与其群结构 (引理
 
-1) 令$x = \sum_{\lambda \in \Delta} x_\lambda, y = \sum_{\lambda \in \Delta} y_\lambda$为$A$的两个非零元素（$x_\lambda$和$y_\lambda$对于所有$\lambda \in \Delta$来说是次数$\lambda$的齐次）；令$\alpha$（或$\beta$）为元素$\lambda \in \Delta$的最大的，使得$x_\lambda \neq 0$（或$y_\lambda \neq 0$）；如果$\lambda \neq \alpha$或$\mu \neq \beta$，则$x_\lambda y_\mu = 0$或$\deg(x_\lambda y_\mu) < \alpha + \beta$为直接的；因此，次数 $\alpha + \beta$ 的$xy$的齐次分量为$x_\alpha y_\beta$，其非零假设； 从而$xy \neq 0$。
+1) 令$x = \sum_{\lambda \in \Delta} x_\lambda, y = \sum_{\lambda \in \Delta} y_\lambda$为$A$的两个非零元素（$x_\lambda$和$y_\lambda$对于所有$\lambda \in \Delta$来说是次数$\lambda$的齐次）；令$\alpha$（或$\beta$）为元素$\lambda \in \Delta$中的最大的，使得$x_\lambda \neq 0$（或$y_\lambda \neq 0$）；如果$\lambda \neq \alpha$或$\mu \neq \beta$，则$x_\lambda y_\mu = 0$或$\deg(x_\lambda y_\mu) < \alpha + \beta$为直接的；因此，次数 $\alpha + \beta$ 的 $xy$ 的齐次分量为 $x_\alpha y_\beta$，比假设非零； 从而$xy \neq 0$。
 
 ### 5. 已评分张量积已评分模
 
-令 $\Delta$ 为可交换幺半群，其单位元素表示为 0，$A$ 为型 $\Delta$ 的分级环，$M$（或$N$）为分级右（或左） $A$-型$\Delta$的模块。令$(A_\lambda)$（或$(M_\lambda), (N_\lambda)$）为$A$（或$M, N$）的毕业； $\mathbf{Z}$模块$M$和$N$的张量积$M \otimes_{\mathbf{Z}} N$是$M_\lambda \otimes_{\mathbf{Z}} N_\mu$（§ 3, no. 7，命题7）的直和，因此后者形式是型$\Delta, \Delta$在此$\mathbf{Z}$模块上。考虑$M \otimes_{\mathbf{Z}} N$与本次大毕业相关的型$\Delta$的*总毕业*（no. 1，*例4*）；它由子$\mathbf{Z}$模块$P_\lambda = \sum_{\mu + \nu = \lambda} (M_\mu \otimes_{\mathbf{Z}} N_\nu)$组成。已知$\mathbf{Z}$模$M \otimes_A N$是元素$(xa) \otimes y - x \otimes (ay)$生成的子$\mathbf{Z}$模$Q$与$M \otimes_{\mathbf{Z}} N$的商，其中$x \in M, y \in N$和$a \in A$(§ 3, no. 1)；如果对于所有$\lambda \in \Delta$，$x_\lambda, y_\lambda, a_\lambda$分别是$x, y, a$的次数$\lambda$的齐次分量，显然$(xa) \otimes y - x \otimes (zy)$是齐次元素$(x_\lambda a_\nu) \otimes y_\mu - x_\lambda \otimes (a_\nu y_\mu)$的和，在其他字 $Q$ 是 $M \otimes_{\mathbf{Z}} N$ (no. 3, 命题 2) 的*分级*子$\mathbf{Z}$模块和商
+令 $\Delta$ 为可交换幺半群，其单位元素表示为 0，$A$ 为型 $\Delta$ 的分级环，$M$（或$N$）为分级右（或左） $A$-型$\Delta$的模块。令$(A_\lambda)$（或$(M_\lambda), (N_\lambda)$）为$A$（或$M, N$）的毕业； $\mathbf{Z}$模块$M$和$N$的张量积$M \otimes_{\mathbf{Z}} N$是$M_\lambda \otimes_{\mathbf{Z}} N_\mu$（§ 3, no. 7，命题7）的直和，因此后者形式是型$\Delta, \Delta$在此$\mathbf{Z}$模块上。考虑$M \otimes_{\mathbf{Z}} N$与本次大毕业相关的型$\Delta$的*总毕业*（no. 1，*例4*）；它由子$\mathbf{Z}$模块$P_\lambda = \sum_{\mu + \nu = \lambda} (M_\mu \otimes_{\mathbf{Z}} N_\nu)$组成。已知$\mathbf{Z}$模$M \otimes_A N$是元素$(xa) \otimes y - x \otimes (ay)$生成的子$\mathbf{Z}$模$Q$对$M \otimes_{\mathbf{Z}} N$的商，其中$x \in M, y \in N$和$a \in A$(§ 3, no. 1)；如果对于所有$\lambda \in \Delta$，$x_\lambda, y_\lambda, a_\lambda$分别是$x, y, a$的次数$\lambda$的齐次分量，显然$(xa) \otimes y - x \otimes (zy)$是齐次元素$(x_\lambda a_\nu) \otimes y_\mu - x_\lambda \otimes (a_\nu y_\mu)$的和，在其他字 $Q$ 是 $M \otimes_{\mathbf{Z}} N$ (no. 3, 命题 2) 的*分级*子$\mathbf{Z}$模块和商
 
 $$
 M \otimes_A N = (M \otimes_{\mathbf{Z}} N)/Q
@@ -394,7 +394,7 @@ $$
 
 类似地，$\mathrm{Homgr}_A(M, A_s)$有一个*分级的右A-模*结构（而不仅仅是分级的$C$模块结构）；它被称为分级$A$-模块$M$的*分级对偶*，并用$M^{*\mathrm{gr}}$表示，或者在没有混淆结果时简称为$M^*$。如果 $u : M \to N$ 是次数 $\delta$ 的分级同态，则由上可知 ${}^t u = \mathrm{Hom}(u, 1_{A_s})$ 的限制到 $N^{*\mathrm{gr}}$ 是分级对偶 $N^{*\mathrm{gr}}$ 的分级对偶同态到分级对偶中$M^{*\mathrm{gr}}$，次数$\delta$，称为$u$的*分级转置*。
 
-我们有时考虑在分级对偶$M^{*\mathrm{gr}}$上借助$\Delta$的同构$\lambda \mapsto -\lambda$（no. 1，例2）得出的分级，以便次数$\lambda$的齐次元素 $M^{*\mathrm{gr}}$中是次数* $-\lambda$在$M$上的评分线性形式*（当$A$有微不足道的毕业时，这些是指标的$M_\mu$的零线性形式） $\mu \neq \lambda$）。然后，如果 $u : M \to N$ 是次数 $\delta$ 的分级同态，则 $u'$ 将变为次数 $-\delta$ 的分级同态。
+我们有时考虑在分级对偶$M^{*\mathrm{gr}}$上借助$\Delta$的同构$\lambda \mapsto -\lambda$（no. 1，例2）得出的分级，以便次数$\lambda$的齐次元素 $M^{*\mathrm{gr}}$中是次数* $-\lambda$在$M$上的评分线性形式*（当$A$有微不足道的毕业时，这些是指标的$M_\mu$的零线性形式） $\mu \neq \lambda$）。然后，如果$u : M \to N$是次数$\delta$的分级同态，则$u'$将成为次数$-\delta$的分级同态。
 
 假设$A$是*可交换的*并且分级为型$\Delta$，并令$M, N, P, Q$为四个*分级*$A$-型$\Delta$的模块。然后有 *规范分级同态或次数* 0
 
@@ -407,7 +407,7 @@ $$
 (5) $$
 \operatorname{Homgr}_A(M, P) \otimes_A \operatorname{Homgr}_A(N, Q) \to \operatorname{Homgr}_A(M \otimes_A N, P \otimes_A Q)
 $$
-(张量积被给予no. 5中定义的刻度)通过限制§ 4中定义的典范同态获得，第100条。 1、2和4；因为，如果 $u : M \to \operatorname{Homgr}_A(N, P)$ 的评分为次数 $\delta$，则对于所有 $x \in M_\lambda$，$u(x)$ 的评分为同态 $N \to P$ 次数 $\delta + \lambda$，因此，对于 $y \in N_\mu$， $u(x)(y) \in P_{\delta + \lambda + \mu}$；如果$v : M \otimes_A N \to P$对应规范于$u$，则可以看出$v$是次数$\delta$的分级同态，从而我们的关于（3）的断言；而且可以看出，这个同态是*双射的*。 (4) 和(5) 的论证类似。
+（张量积被给予no. 5中定义的刻度）通过限制§ 4中定义的典范同态获得，第10.25条。 1、2和4；因为，如果 $u : M \to \operatorname{Homgr}_A(N, P)$ 的评分为次数 $\delta$，则对于所有 $x \in M_\lambda$，$u(x)$ 的评分为同态 $N \to P$ 为次数 $\delta + \lambda$，因此，对于 $y \in N_\mu$， $u(x)(y) \in P_{\delta + \lambda + \mu}$；如果$v : M \otimes_A N \to P$对应规范于$u$，则可以看出$v$是次数$\delta$的分级同态，从而我们的关于（3）的断言；而且可以看出，这个同态是*双射的*。 (4) 和 (5) 的论证类似。
 
 如果特别是 (5) 中的 $P = Q = A$，则存在次数 0 的规范 *分级* 同态
 
@@ -417,4 +417,4 @@ $$
 
 ### 习题{#alg-ii-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+参见[习题为 § 11](exercises/s11/)。

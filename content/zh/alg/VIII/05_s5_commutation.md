@@ -38,16 +38,16 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 8b0d251abf60e27afc0d813ea8fe5aad8ef56a5c4e33b016a84d28b35a658ec6
+content_sha256: 004713c039d60996182811e7e55d7b1c678c5b8a367c33a459c7bb250c7c1ed8
 translated_from: content/en/alg/VIII/05_s5_commutation.md
 translation_method: google
 source_content_sha256: 92146afa3071a759dfd60b0a1909d5b82cb570c6ed50a098e57fa1acd8ea9c00
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0a1afb599f21761ef844b26f74919dfb11fbee6f90399f5c9868ba9ca83df6fb
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 交换
@@ -90,15 +90,15 @@ b)的证明与a)的证明相同。
 
 对于$i\in I$，我们用$\pi_i: (x_j)_{j\in I}\mapsto x_i$表示从$M^{(I)}$到M的投影同态，用$\iota_i: M\rightarrow M^{(I)}$表示相应的典范嵌入（I, §4, No. 9，p. 47）。
 
-设$u$为End$_A(M^{(I)})$的元素。对于所有$i, j\in I$，合成$u_{i,j}=\pi_j\circ u\circ \iota_i$属于到M的交换子$A'_M$。对于$A''_M$的每个元素$b$和每个$(x_i)\in M^{(I)}$，我们有关系
+令 $u$ 为 End$_A(M^{(I)})$ 的元素。对于所有$i, j\in I$，合成$u_{i,j}=\pi_j\circ u\circ \iota_i$属于到M的交换子$A'_M$。对于$A''_M$的每个元素$b$和每个$(x_i)\in M^{(I)}$，我们有关系
 
 $$
 bu((x_i)_{i\in I})=b(\sum_{i\in I}u_{i,j}(x_i))_{j\in I}=(\sum_{i\in I}u_{i,j}(bx_i))_{j\in I}=u(b(x_i)_{i\in I})
 $$
 
-位似 $b_{M^{(I)}}$ 因此属于为 A-模 $M^{(I)}$ 的双交换数。
+位似 $b_{M^{(I)}}$ 因此属于为 A-模 $M^{(I)}$ 的双交换。
 
-相反，令 $b$ 为 $M^{(I)}$ 的双交换数的元素。对于 $i, j\in I$、集合 $b_{i,j}=\pi_j\circ b\circ \iota_i$。将 $i, j\in I$ 与 $i\not=j$ 一起取。从$\iota_j\circ \pi_j$属于到A-模$M^{(I)}$的交换律，我们有
+相反，令$b$为$M^{(I)}$的双交换数的元素。对于 $i, j\in I$、集合 $b_{i,j}=\pi_j\circ b\circ \iota_i$。将 $i, j\in I$ 与 $i\not=j$ 一起取。从$\iota_j\circ \pi_j$属于到A-模$M^{(I)}$的交换律，我们有
 
 $$
 b_{i,j}=\pi_j\circ \iota_j\circ \pi_j\circ b\circ \iota_i=\pi_j\circ b\circ \iota_j\circ \pi_j\circ \iota_i= 0
@@ -110,9 +110,9 @@ $$
 b_{j,j}=\pi_j\circ b\circ \iota_j=\pi_i\circ \iota_i\circ \pi_j\circ b\circ \iota_j=\pi_i\circ b\circ \iota_i\circ \pi_j\circ \iota_j=b_{i,i}
 $$
 
-此外，$b_{i,i}$属于至$A''_M$。由此可知 $b$ 重合与 $A''_M$ 模块 $M^{(I)}$ 的位似。
+此外，$b_{i,i}$属于至$A''_M$。由此得出 $b$ 重合和 $A''_M$ 模块 $M^{(I)}$ 的位似。
 
-### 2.生成模
+### 2. 生成模
 
 设 A 为环。
 
@@ -120,25 +120,25 @@ $$
 
 如果从 M 到 N 每个 A-模 N 都是由 A-线性映射的像生成，A-模 M 称为生成的。
 
-令 M 为左A-模。我们用 $M^*$ 表示 M 的对偶，用 $M\times M^*$ (II, §2, No. 3, p. 233) 表示规范的双线性形式
+设 M 为左A-模。我们用 $M^*$ 表示 M 的对偶，用 $M\times M^*$ (II, §2, No. 3, p. 233) 表示规范的双线性形式
 
 $$
 (x, x^*)\mapsto  \langle x, x^*\rangle =x^*(x)
 $$
 
-我们用形式$\sum^n_{i=1}\langle x_i, x^*_i\rangle$的A的元素$\tau (M)$集合来表示，其中$x_1, . . . , x_n$是M的元素，$x^*_1, . . . , x^*_n$是$M^*$的元素。它是A的两侧理想，称为M的迹理想。A-模$A_s$的迹理想是A。模的迹理想，即A-模的家庭$(M_i)_{i\in I}$的直和是理想$\sum_{i\in I}\tau (M_i)$。如果M是射影A-模，那么从II, §2, No. 6、p. 238的命题 12得出，我们有$M =\tau (M)M$。
+我们用形式$\sum^n_{i=1}\langle x_i, x^*_i\rangle$的A的元素的$\tau (M)$集合来表示，其中$x_1, . . . , x_n$是M的元素，$x^*_1, . . . , x^*_n$是$M^*$的元素。它是A的两侧理想，称为M的迹理想。A-模$A_s$的迹理想是A。模的迹理想，即A-模的家庭$(M_i)_{i\in I}$的直和是理想$\sum_{i\in I}\tau (M_i)$。如果M是射影A-模，那么从II, §2, No. 6、p. 238的命题 12得出，我们有$M =\tau (M)M$。
 
 #### 定理 1 {#alg-viii-s5-thm-1 .statement tag=005I}
 
-设 M 为左A-模。以下属性是等效的：
+令 M 为左A-模。以下属性是等效的：
 
 (i) A-模 M 为生成的。
 
-(ii) 对于每个A-模 N，从$M^{(I)}$到N存在集合I和满射A-线性映射。
+(ii) 对于每个 A-模 N，从 $M^{(I)}$ 到 N 存在集合 I 和满射A-线性映射。
 
 (iii)从$M^n$到$A_s$存在整数$n\geqslant 0$和满射A-线性映射。
 
-(iv) 存在整数$n\geqslant 0$，使得$A_s$与$M^n$的直因子子模同构。
+(iv) 存在整数$n\geqslant 0$，使得$A_s$同构于$M^n$的直因子子模。
 
 (v) 理想迹 $\tau (M)$ 等于 A。
 
@@ -188,7 +188,7 @@ A-模$A_s$是生成的。
 
 (iii) 存在$\mathfrak{a}$的元素$a$，使得每个$m\in M$都有$am=m$。
 
-(i) $\Rightarrow$ (ii)：令$(x_1, . . . , x_n)$为A-模 M的生成的族。如果$\mathfrak{a}M = M$，则每个$x_i$可写为$\sum^n_{j=1}c_{ij}x_j$，其中$c_{ij}$属于至$\mathfrak{a}$。用 C 表示矩阵 $(c_{ij})$，并用 $x_1, . . . , x_n$ X 表示列矩阵。我们有 ($I_n-C$)X = 0。令$d$为矩阵$I_n-C$的行列式，V为辅因子矩阵。通过III, §8, No. 6、p. 532的公式(26)，我们有$dX=^tV$($I_n-C$)X = 0，因而$d\in$Ann(M)。另一方面，从 $c_{ij}$ 属于到 $\mathfrak{a}$，我们有 $d\equiv$ 1(mod $\mathfrak{a}$) (III, §8, No. 5, p. 529, (18))，因此有 $1\in$ Ann(M) $+\mathfrak{a}$。
+(i) $\Rightarrow$ (ii)：令$(x_1, . . . , x_n)$为A-模 M的生成的族。如果$\mathfrak{a}M = M$，则每个$x_i$可写为$\sum^n_{j=1}c_{ij}x_j$，其中$c_{ij}$属于至$\mathfrak{a}$。用 C 表示矩阵 $(c_{ij})$，并用 $x_1, . . . , x_n$ X 表示列矩阵。我们有 ($I_n-C$)X = 0。令 $d$ 为矩阵 $I_n-C$ 的行列式，V 为辅因子矩阵。通过III, §8, No. 6、p. 532的公式(26)，我们有$dX=^tV$($I_n-C$)X = 0，因而$d\in$Ann(M)。另一方面，从 $c_{ij}$ 属于到 $\mathfrak{a}$，我们有 $d\equiv$ 1(mod $\mathfrak{a}$) (III, §8, No. 5, p. 529, (18))，因此有 $1\in$ Ann(M) $+\mathfrak{a}$。
 
 (ii)$\Rightarrow$(iii)：假设(ii)成立，存在$a\in \mathfrak{a}$和$b\in$Ann(M)使得$a+b= 1$。然后，每 $m\in M$ 就有 $am=m$。
 
@@ -200,13 +200,13 @@ A-模$A_s$是生成的。
 
 令 P 为有限生成的射影 A-模。我们有$\tau (P)P = P$（VIII，p. 80）。
 
-如果 A-模 P 是忠实的，则理想的 $\tau (P)$ 等于 A (引理 1)，A-模 P 为生成的 (定理 1)；这导致第一个断言。第二个接着是下面的引理2。
+如果A-模 P 是忠实的，那么理想的 $\tau (P)$ 等于 A (引理 1)，A-模 P 为生成的 (定理 1)；这导致了第一个断言。第二个接着是下面的引理2。
 
 #### 引理 2 {#alg-viii-s5-lem-2 .statement tag=005O}
 
 设 A 为环，M 为射影 A-模。 $A_M$模 M 是射影的。
 
-令$(x_i)_{i\in I}$为A-模M的生成的族。在A-模M上存在线性形式的$(x^*_i)_{i\in I}$族，使得对于每个$x\in M$，$(\langle x, x^*_i\rangle )_{i\in I}$族有有限支撑和$x=\sum_{i\in I}\langle x, x^*_i\rangle x_i$ （II, §2, No. 6、p. 238、命题12）。对于每个$i\in I$，映射$x\mapsto  \langle x, x^*_i\rangle_M$在$A_M$-模块M上是线性形式，并且对于每个$x\in M$我们有$x=\sum_{i\in I}\langle x, x^*_i\rangle_Mx_i$。按地点。如上所述，M 是射影 $A_M$ 模。
+令$(x_i)_{i\in I}$为A-模M的生成的族。在A-模M上存在线性形式的族$(x^*_i)_{i\in I}$，使得对于每个$x\in M$，族$(\langle x, x^*_i\rangle )_{i\in I}$有有限支撑和$x=\sum_{i\in I}\langle x, x^*_i\rangle x_i$ （II, §2, No. 6、p. 238、命题12）。对于每个$i\in I$，映射$x\mapsto  \langle x, x^*_i\rangle_M$在$A_M$-模块M上是线性形式，并且对于每个$x\in M$我们有$x=\sum_{i\in I}\langle x, x^*_i\rangle_Mx_i$。按地点。如上所述，M 是射影 $A_M$ 模。
 
 ### 3. 生成模的双相变
 
@@ -214,7 +214,7 @@ A-模$A_s$是生成的。
 
 生成模是平衡的。
 
-设A为环，设M为生成A-模；通过定义，存在M的整数$n\geqslant 0$、元素$x_1, . . . , x_n$，以及M满足$\sum^n_{i=1}\langle x_i, x^*_i\rangle = 1$的对偶$M^*$的元素$x^*_1, . . . , x^*_n$。回想一下（II, §4, No. 2，p. 271），我们定义群同态$\theta : M^*\otimes_AM\rightarrow$结束$_A(M)$由公式$\theta (x^*\otimes y)(x) =\langle x, x^*\rangle y$。如果$u$是M的双交换量的元素，则它与End$_A(M)$可交换；因而，对于每个 $y\in M$，我们有
+设A为环，设M为生成A-模；由定义，存在M的整数$n\geqslant 0$、元素$x_1, . . . , x_n$，以及M满足$\sum^n_{i=1}\langle x_i, x^*_i\rangle = 1$的对偶$M^*$的元素$x^*_1, . . . , x^*_n$。回想一下（II, §4, No. 2，p. 271），我们定义群同态$\theta : M^*\otimes_AM\rightarrow$结束$_A(M)$由公式$\theta (x^*\otimes y)(x) =\langle x, x^*\rangle y$。如果$u$是M的双交换量的元素，则它与End$_A(M)$可交换；因而，对于每个 $y\in M$，我们有
 
 $$
 u(y) =u(\sum_{i=1}^n\langle x_i, x^*_i\rangle y)=\sum_{i=1}^nu(\theta (x^*_i\otimes y)(x_i))
@@ -288,7 +288,7 @@ $$
 
 设 A 为环。用$\mathscr{S}$表示单A-模的类的集合。对于每个$\lambda \in \mathscr{S}$，类$\lambda$的选择单A-模$S_{\lambda}$，并用$D_{\lambda}$表示$S_{\lambda}$的自同态域逆环。我们将$S_{\lambda}$视为$(A,D_{\lambda}$)-双模。
 
-设M为半单A-模，设B为M的自同态环。用C表示M的二交换数。对于每个 $\lambda \in \mathscr{S}$，用 $V_{\lambda}$ 表示左侧 $(D_{\lambda}$，B)-双模 Hom$_A(S_{\lambda},M)$。最后，用$\mathscr{S}_M$(VIII,p. 66)表示A-模M的支持度；它也是元素 $\lambda$ $\mathscr{S}$ 的集合，使得 $V_{\lambda}$ 是非零的。
+设M为半单A-模，设B为M的自同态环。用C表示M的二交换数。对于每个 $\lambda \in \mathscr{S}$，用 $V_{\lambda}$ 表示左侧 $(D_{\lambda}$，B)-双模 Hom$_A(S_{\lambda},M)$。最后，用$\mathscr{S}_M$（VIII，p. 66）表示A-模 M的支持度；它也是集合 / 元素 $\lambda$ / $\mathscr{S}$，使得$V_{\lambda}$为非零的。
 
 #### 注 1 {#alg-viii-s5-n4-rem-1 .statement tag=00R4}
 
@@ -374,7 +374,7 @@ d) 如果M的支持度$\mathscr{S}_M$是有限的，则映射$\Lambda \mapsto e_
 
 由于 M 在 K 上是有限维向量空间，即非零的子模 $(M_{\lambda})_{\lambda\in\mathscr{S}_M}$ 族的直和，因此集合 $\mathscr{S}_M$ 是有限的，并且对于 $\lambda \in \mathscr{S}_M$，空间 $S_{\lambda}$ 中的每一个都是 K 上的有限维。 域 K 是代数闭集，我们有 $D_{\lambda}= Z_{\lambda}= K$ (VIII, p. 47, 定理 1)，并且映射 $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ 是从 Z 到 $K^{\mathscr{S}_M}$ (命题 8, a)) 的同构。然后从命题 8 的部分 c) 得出推论。
 
-### 5.稠密性定理
+### 5. Density Theorem
 
 #### 定理 3（雅各布森）{#alg-viii-s5-thm-3 .statement tag=00S1}
 
@@ -392,11 +392,11 @@ d) 如果M的支持度$\mathscr{S}_M$是有限的，则映射$\Lambda \mapsto e_
 
 令N为M的A-子模。由VIII、p. 56的推论2，存在A-模M与像N的投影算子$p$；它从属于到$A'_M$。由于对于每个 $b\in B$，我们都有关系 $pb=bp$，因此我们得出 N 是 M 的 B-子模。
 
-让我们定理的结论证明 3. 假设 $c$ 属于到 $A''_M$，并令 F = $\{x_1, . . . , x_n\}$ 为 M 的有限子集。 将 $M^n$ 的元素 $(x_1, . . . , x_n)$ 表示为$x$。 A-模$M^n$是半单，并且通过VIII的命题2，得到p. 79，其双交换体重合与$A''_M$模$M^n$的同调。到引理 3，$M^n$的A-子模$Ax$是$M^n$的$A''_M$子模块。令 $a\in A$ 使得 $(cx_1, . . . , cx_n)$ 等于 $ax$。然后$c$重合与$a_M$在$\{x_1, . . . , x_n\}$上，这意味着条件（D）。
+让我们定理的结论证明 3. 假设 $c$ 属于到 $A''_M$，并令 F = $\{x_1, . . . , x_n\}$ 为 M 的有限子集。 表示 $M^n$ 的元素 $(x_1, . . . , x_n)$ $x$。 A-模$M^n$是半单，并且通过VIII的命题2，p. 79，其双交换体重合与$A''_M$模$M^n$的同调。到引理 3，$M^n$的A-子模$Ax$是$M^n$的$A''_M$子模块。令 $a\in A$ 使得 $(cx_1, . . . , cx_n)$ 等于 $ax$。然后$c$重合和$a_M$在$\{x_1, . . . , x_n\}$上，这意味着条件（D）。
 
 #### 注 {#alg-viii-s5-n5-rem-1 .statement tag=0064}
 
-用E表示M的加法群的自同态环。赋予M离散的拓扑； 环 E 由从 M 到 M 的映射组成，我们可以赋予它由乘积拓扑在 $M^M$ 上诱导的拓扑（“M 中简单收敛的拓扑”，Gen. Top.，I, §2, No. 3， p. 31）。 E 上的拓扑是 Hausdorff，并且与 E 上的加法群结构兼容。对于 E 中的每个 $f$，从 E 到 E 的映射 $g\mapsto f\circ g$ 和 $g\mapsto g\circ f$ 是连续的。因而，E 的每个子集的交换子在 E 中都是闭集。因而，定理 3 意味着$A''_M$ 是 E 中$A_M$ 的闭集。
+用E表示M的加法群的自同态环。赋予M离散的拓扑； 环 E 由从 M 到 M 的映射组成，我们可以赋予它由乘积拓扑在 $M^M$ 上诱导的拓扑（“M 中简单收敛的拓扑”，Gen. Top.，I, §2, No. 3， p. 31）。 E 上的拓扑是 Hausdorff，并且与 E 上的加法群结构兼容。对于 E 中的每个 $f$，从 E 到 E 的映射 $g\mapsto f\circ g$ 和 $g\mapsto g\circ f$ 是连续的。因而，E 的每个子集的交换子在 E 中都是闭集。因而，定理 3 意味着 $A''_M$ 是 E 中$A_M$ 的闭集。
 
 ### 6. 域理论的应用
 
@@ -404,15 +404,15 @@ d) 如果M的支持度$\mathscr{S}_M$是有限的，则映射$\Lambda \mapsto e_
 
 令L为域，且End$_{\mathbf{Z}}(L)$的E子环，对于每个$a\in L$，包含映射$\boldsymbol{\gamma }_a:x\mapsto ax$。用元素 $a$ 的 K 集合 L 表示，使得 L 中的每个 $x$ 以及 E 中的每个 $u$ 都有$u(xa) =u(x)a$；是L中的子域。
 
-令V为右K-向量空间L的有限维线性子空间，令$h$为从V到L的K-线性映射。 E 存在元素，重合与 $h$ 在 V 上。
+令V为右K-向量空间L的有限维线性子空间，令$h$为从V到L的K-线性映射。 E 存在元素，重合与$h$ 在 V 上。
 
-我们将L视为左E模块。由于E 包含左乘法$\boldsymbol{\gamma }_a$，L的每个E子模都是域L的左理想；因而，E 模块L 很简单。与$\boldsymbol{\gamma }_a$通勤的L加法群每自同态是形式$\boldsymbol{\delta }_b:x\mapsto xb$与L中的$b$。因而，从K到End$_E$(L)的逆环，$b\mapsto \boldsymbol{\delta }_b$是同构，即域。
+我们将L视为左E模块。由于E包含左乘法$\boldsymbol{\gamma }_a$，L的每个E子模都是域L的左理想；因而，E 模块L 很简单。与$\boldsymbol{\gamma }_a$通勤的L加法群每自同态是形式$\boldsymbol{\delta }_b:x\mapsto xb$和L中的$b$。因而，从K到End$_E$(L)的逆环，$b\mapsto \boldsymbol{\delta }_b$是同构，即域。
 
-因而，E 模块 L 的双交换体 $E''$ 由右侧 K-向量空间 L 的自同态组成。设$v$为K-向量空间L中的自同态，其限制到V重合与$h$；是$E''$中的元素。设$(x_i)_{i\in I}$是K上V的基；通过定理 3 (VIII, p. 88)，存在 E 的元素 $u$，使得 $u(x_i) =v(x_i) =h(x_i)$ 对应 $i\in I$。根据线性关系，V 中的每个$x$ 都有$u(x) =h(x)$。
+因而，E 模块 L 的双交换体 $E''$ 由右侧 K-向量空间 L 的自同态组成。设$v$为K-向量空间L中的自同态，其限制到V重合与$h$；它是$E''$中的元素。设$(x_i)_{i\in I}$是K上V的基；通过定理 3 (VIII, p. 88)，存在 E 的元素 $u$，使得 $u(x_i) =v(x_i) =h(x_i)$ 对应 $i\in I$。根据线性关系，V 中的每个$x$ 都有$u(x) =h(x)$。
 
 #### 推论{#alg-viii-s5-n6-cor-1 .statement tag=0066}
 
-令L为域。令 Γ 为域 L 自同构群子群，并令 K 为 Γ 的不变量域。令 V 为 K 上有限维 $n$ 的 L 的右 K 线性子空间。则存在 Γ 的元素 $\sigma_1, . . . , \sigma_n$，其中性质：对于每个 K-线性映射 $u$从V到L，L中存在元素$a_1, . . . , a_n$，因此V中的每个$x$都有$u(x) =\sum_{i=1}^na_i\sigma_i(x)$。
+设L为域。令 Γ 为域 L 自同构群子群，并令 K 为 Γ 的不变量域。设V是有限维$n$的L在K上的右K线性子空间。则存在元素$\sigma_1, . . . , \sigma_n$具有以下性质：对于每个K-线性映射 $u$从V到L，L中存在元素$a_1, . . . , a_n$，因此V中的每个$x$都有$u(x) =\sum_{i=1}^na_i\sigma_i(x)$。
 
 用映射的E集合从L到形式$x\mapsto$$\sum_{\sigma\in\Gamma}a_{\sigma}\sigma (x)$的L表示，其中$(a_{\sigma})_{\sigma\in\Gamma}$是L的元素与有限支撑的族。对于L中的每个$a$，我们有$\boldsymbol{\gamma }_a\in E$，并且E是L的加法群自同态环子环。此外，域 K 由 L 的元素 $a$ 组成，使得 L 中的每个 $x$ 以及 E 中的每个 $u$ 都有 $u(xa) =u(x)a$。
 
@@ -424,4 +424,4 @@ d) 如果M的支持度$\mathscr{S}_M$是有限的，则映射$\Lambda \mapsto e_
 
 ### 习题{#alg-viii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -33,35 +33,35 @@ subsections:
       pdf_page: 40
 statements: 30
 exercises: 11
-content_sha256: 29977b43cc1f150f5106a03484aac56adba575b19d946f3ca187f53a6203996c
+content_sha256: 7c5f9ae763849de9bdbff975d0d8c8ab993680c377b3e26a4a0569b47530d8e0
 translated_from: content/en/top/I/02_s2_continuous_functions.md
 translation_method: google
 source_content_sha256: 1967343889fcc981f4c5cd14526701e2a3a3c66ffbc62c0729eebd3c4a84398d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: aaf971328986bd374e46a7faf2c2b89afe8ab73b91c3593be534d173647a0cef
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.连续函数
+## 2. 连续函数
 
-### 1.连续函数
+### 1. 连续函数
 
 #### 定义 1 {#top-i-s2-def-1 .statement tag=0AZY}
 
-A mapping $f$ of a topological space $X$ into a topological space $X'$ is said to be continuous at a point $x_0 \in X$ if, given any neighbourhood $V'$ of $f(x_0)$ in $X'$, there is a neighbourhood $V$ of $x_0$ in $X$ such that the relation $x \in V$ implies $f(x) \in V'$.
+拓扑空间 $X$ 到拓扑空间 $X'$ 的映射 $f$ 被认为在点 $x_0 \in X$ 处连续，如果给定 $f(x_0)$ 的任何邻域 $V'$ $X'$，$X$中有$x_0$的邻域$V$，使得关系$x \in V$隐含$f(x) \in V'$。
 
-定义 1 可以在下面更直观的形式中重述：说$f$在点连续$x_0$意味着只要$x$足够接近$x_0$，$f(x)$就尽可能接近$f(x_0)$。
+定义 1 可以用更直观的形式来重述：说$f$在点$x_0$连续意味着只要$x$足够接近$x_0$，$f(x)$就尽可能接近$f(x_0)$。
 
-关系“对于每个$x \in V, f(x) \in V'$”相当于$f(V) \subset V'$或再次相当于$V \subset \overline{f}^{-1}(V')$；鉴于邻域公理 ($V_I$)，我们看到定义 1 等价于以下内容： $f : X \to X'$ 被称为在点 $x_0$ 处连续 如果对于 $X'$ 中 $f(x_0)$ 的每个邻域 $V'$， $\overline{f}^{-1}(V')$ 是$X$ 中$x_0$ 的邻域。另外，对于$X'$中的$f(x_0)$的邻域的基本系统，对于每个邻域$V'$属于，$\overline{f}^{-1}(V')$是$x_0$的邻域就足够了($§ 1$， no. 3）。
+关系“对于每个$x \in V, f(x) \in V'$”相当于$f(V) \subset V'$或再次相当于$V \subset \overline{f}^{-1}(V')$；鉴于邻域公理 ($V_I$)，我们看到定义 1 等价于以下内容： $f : X \to X'$ 被称为在点 $x_0$ 连续 如果对于 $f(x_0)$ 的每个邻域 $V'$ $X'$、$\overline{f}^{-1}(V')$ 是$X$ 中$x_0$ 的邻域。此外，对于$X'$中的$f(x_0)$的邻域的基本系统，对于每个邻域$V'$属于，$\overline{f}^{-1}(V')$是$x_0$的邻域就足够了($§ 1$， no. 3）。
 
 #### 命题 1 {#top-i-s2-prop-1 .statement tag=0AZZ}
 
-设$f$是拓扑空间$X$的映射到拓扑空间$X'$。如果$f$在$x$连续，且$x$位于$X$的子集$A$的闭包内，则$f(x)$位于$f(A)$的闭包内。
+设$f$是拓扑空间$X$到拓扑空间$X'$的映射。如果$f$在$x$连续，且$x$位于$X$的子集$A$的闭包内，则$f(x)$位于$f(A)$的闭包内。
 
-令$V'$为$X'$中$f(x)$的邻域。由于$f$在$x$连续，因此$\overline{f}^{-1}(V')$是$X$中$x$的邻域。因此$\overline{f}^{-1}(V')$满足$A$，由此得出$V'$满足$f(A)$，因此$f(x)$位于$f(A)$的闭包中。
+令$V'$为$X'$中$f(x)$的邻域。由于$f$在$x$连续，因此$\overline{f}^{-1}(V')$是$X$中$x$的邻域。因此$\overline{f}^{-1}(V')$满足$A$，由此得出$V'$满足$f(A)$，因此$f(x)$属于$f(A)$的闭包。
 
 #### 命题 2 {#top-i-s2-prop-2 .statement tag=0B00}
 
@@ -172,15 +172,15 @@ e) 在$\mathfrak{T}_2$开放的$X$中的每个子集在$\mathfrak{T}_1$开放。
 $$
 \|x\|^2 = \sum_{n=0}^\infty x_n^2 < +\infty,
 $$
-$H$上的强拓扑中的点$x_0$中的邻域是集合，其中包含以$x_0$为中心的开球$\|x - x_0\| < \alpha$； $H$上的弱拓扑中的$x_0$的邻域是由形式$\sup_{1 \leq i \leq n} |(x - x_0|a_i)| \leq 1$的关系定义的集合包含集合，其中$a_i$是$H$ 中的点以及
+$H$上的强拓扑中的点$x_0$中的邻域是集合，其中包含以$x_0$为中心的开球$\|x - x_0\| < \alpha$； $H$上的弱拓扑中的$x_0$的邻域是由形式$\sup_{1 \leq i \leq n} |(x - x_0|a_i)| \leq 1$的关系定义的集合包含集合，其中$a_i$是$H$ 中的点和
 $$
 (x|y) = \sum_{n=0}^\infty x_n y_n
 $$
-如果$x = (x_n)$和$y = (y_n)$。现在如果$\beta = \sup_{1 \leq i \leq n} \|a_i\|$，关系$\|x - x_0\| \leq 1 / \beta$意味着$|(x - x_0|a_i)| \leq \|x - x_0\| \cdot \|a_i\| \leq 1$对应$1 \leq i \leq n$；因此，$H$上的强拓扑比弱拓扑是更细。另一方面，给定$H$的点的任何有限族$(a_i)_{1 \leq i \leq n}$，$H$中存在点$x$，使得$(x - x_0|a_i) = 0$对于$1 \leq i \leq n$并且$\|x - x_0\|$是任意大；这表明强拓扑严格地更细比弱拓扑。 \*
+如果$x = (x_n)$和$y = (y_n)$。现在如果$\beta = \sup_{1 \leq i \leq n} \|a_i\|$，关系$\|x - x_0\| \leq 1 / \beta$意味着$|(x - x_0|a_i)| \leq \|x - x_0\| \cdot \|a_i\| \leq 1$对应$1 \leq i \leq n$；因此，$H$上的强拓扑比弱拓扑是更细。另一方面，给定$H$的点的任何有限族$(a_i)_{1 \leq i \leq n}$，$H$中存在点$x$，使得$(x - x_0|a_i) = 0$对于$1 \leq i \leq n$并且$\|x - x_0\|$是任意大；这表明强拓扑严格比弱拓扑严格更细。 \*
 
 #### 注 1 {#top-i-s2-n2-rem-1 .statement tag=0B0F}
 
-在集合$X$上所有拓扑的有序集合中，拓扑中，唯一开放的集合是$\varnothing$，$X$最粗，离散的拓扑最细。
+在集合$X$、拓扑上所有拓扑的有序集合中，其中唯一开放的集合是$\varnothing$，$X$最粗，离散的拓扑最细。
 
 #### 注 2 {#top-i-s2-n2-rem-2 .statement tag=0B0G}
 
@@ -188,7 +188,7 @@ $$
 
 #### 注 3 {#top-i-s2-n2-rem-3 .statement tag=0B0H}
 
-如果 $f : X \to X'$ 是连续的映射，则如果 $X$ 的拓扑被更细拓扑替换，并且 $X'$ 的拓扑被更粗糙的拓扑替换（no. 1， 定理2)。在其他字、$X$的更细拓扑和$X'$较粗的拓扑中，$X$到$X'$有更连续的映射。
+如果 $f : X \to X'$ 是连续的映射，则如果 $X$ 的拓扑被更细拓扑替换，并且 $X'$ 的拓扑被更粗糙的拓扑替换（no. 1， 定理2)。在$X$的其他字、更细拓扑和$X'$较粗的拓扑中，$X$到$X'$有更连续的映射。
 
 ### 3. 初始拓扑
 
@@ -218,13 +218,13 @@ $$
 
 #### 例 2 {#top-i-s2-n3-exa-2 .statement tag=0B0L}
 
-集合拓扑中至少上界。 集合 $X$上的拓扑族$(\mathfrak{T}_i)_{i \in I}$在$X$上所有拓扑的有序集合中至少有上界$\mathfrak{T}$，即$X$上存在拓扑，这是所有拓扑中最粗的$X$ 比每个 $\mathfrak{T}_i$ 更细。为了看到这一点，我们可以将应用命题 4，将$Y_i$视为集合$X$，其中拓扑$\mathfrak{T}_i$，以及$f_i$作为恒等式映射$X \to Y_i$； $\mathfrak{T}$ 是最粗糙的拓扑，其中所有映射 $f_i$ 都是连续的。
+集合拓扑中至少上界。 集合 $X$上的拓扑族$(\mathfrak{T}_i)_{i \in I}$在$X$上所有拓扑的有序集合中至少有上界$\mathfrak{T}$，即$X$上存在拓扑，这是所有拓扑中最粗的$X$ 比每个 $\mathfrak{T}_i$ 更细。为了看到这一点，我们可以使用应用命题 4，将$Y_i$视为集合$X$，其中拓扑$\mathfrak{T}_i$，以及$f_i$作为恒等式映射$X \to Y_i$； $\mathfrak{T}$ 是最粗糙的拓扑，其中所有映射 $f_i$ 都是连续的。
 
-令$\mathfrak{S}$为集合$X$中子集的任意集合；在$X$上的集合或$\mathfrak{S}$开放的拓扑$\mathfrak{T}$中，有拓扑$\mathfrak{T}_0$比所有其他拓扑都更粗糙，称为由$\mathfrak{S}$生成的拓扑。对于每个集合$U \in \mathfrak{S}$，令$\mathfrak{T}_U$为拓扑，其开集合为$\varnothing, U$和$X$[很明显，$X$的子集的集合满足(O_I)并且(O_{II})];那么$\mathfrak{T}_0$只是拓扑$\mathfrak{T}_U$中最小的上界。由命题 4，若$\mathfrak{B}$为集合属于有限交至$\mathfrak{S}$集合，则$\mathfrak{B}$为拓扑$\mathfrak{T}_0$基。我们说$\mathfrak{S}$是$\mathfrak{T}_0$的子底。
+令$\mathfrak{S}$为集合$X$中子集的任意集合；在$X$上的$\mathfrak{S}$的集合开放的拓扑$\mathfrak{T}$中，有拓扑$\mathfrak{T}_0$比所有其他拓扑都更粗糙，称为由$\mathfrak{S}$生成的拓扑。对于每个集合$U \in \mathfrak{S}$，令$\mathfrak{T}_U$为拓扑，其开集合为$\varnothing, U$和$X$[很明显，$X$的子集的集合满足(O_I)并且(O_{II})];那么$\mathfrak{T}_0$只是拓扑$\mathfrak{T}_U$中最小的上界。到命题 4，如果$\mathfrak{B}$是集合属于有限交到$\mathfrak{S}$集合，则$\mathfrak{B}$是拓扑$\mathfrak{T}_0$基。我们说$\mathfrak{S}$是$\mathfrak{T}_0$的子底。
 
 #### 例 3 {#top-i-s2-n3-exa-3 .statement tag=0B0M}
 
-乘积拓扑。设$(X_i)_{i \in I}$是拓扑空间的族。 乘积集合 $X = \prod_{i \in I} X_i$ 上的最粗拓扑，其中投影 $\mathrm{pr}_i : X \to X_i$ 是连续的映射称为$X_i$ 拓扑的*乘积*；我们将更详细地研究它
+乘积拓扑。设$(X_i)_{i \in I}$是拓扑空间的族。 乘积集合 $X = \prod_{i \in I} X_i$ 上的最粗拓扑（其中投影 $\mathrm{pr}_i : X \to X_i$ 是连续的映射）称为$X_i$ 拓扑的*乘积*；我们将更详细地研究它
 
 ### 4. 最终拓扑
 
@@ -266,17 +266,17 @@ Examples
 (i) $A_\lambda$ 在拓扑 $\mathfrak{T}_\lambda$ 开放（或关闭）。
 (ii) 对于每个 $\mu \in L$，$A_\lambda \cap X_\mu$ 在拓扑 $\mathfrak{T}_\mu$ 中打开（或关闭）。
 
-很明显，(ii) 通过取 $\mu = \lambda$ 暗示 (i)。相反，如果满足 (i)，则 $A_\lambda \cap X_\mu$ 在 $X_\lambda \cap X_\mu$ 中开（或闭），对于拓扑 $\mathfrak{T}_{\lambda \mu}$，由 $\mathfrak{T}_{\lambda}$ 在 $X_{\lambda} \cap X_{\mu}$ 上诱发；但$\mathfrak{T}_{\lambda \mu}$也是由$\mathfrak{T}_{\mu}$在$X_{\lambda} \cap X_{\mu}$上诱发拓扑；因此$A_{\lambda} \cap X_{\mu}$也是$X_{\lambda} \cap X_{\mu}$的交，其中$X_{\mu}$的子集$B_{\mu}$在拓扑$\mathfrak{T}_{\mu}$中打开（或关闭）；由于 $X_{\lambda} \cap X_{\mu}$ 在 $\mathfrak{T}_{\mu}$ 中打开（或关闭），$A_{\lambda} \cap X_{\mu}$ 也是如此。这样就完成了证明。
+很明显，(ii) 通过取 $\mu = \lambda$ 暗示 (i)。相反，如果满足 (i)，则 $A_\lambda \cap X_\mu$ 在 $X_\lambda \cap X_\mu$ 中开（或闭），对于拓扑 $\mathfrak{T}_{\lambda \mu}$，由 $\mathfrak{T}_{\lambda}$ 在 $X_{\lambda} \cap X_{\mu}$ 上诱发；但$\mathfrak{T}_{\lambda \mu}$也是$\mathfrak{T}_{\mu}$在$X_{\lambda} \cap X_{\mu}$上诱发拓扑；因此，$A_{\lambda} \cap X_{\mu}$也是$X_{\lambda} \cap X_{\mu}$的交，其中$X_{\mu}$的子集$B_{\mu}$在拓扑$\mathfrak{T}_{\mu}$中打开（或关闭）；由于 $X_{\lambda} \cap X_{\mu}$ 在 $\mathfrak{T}_{\mu}$ 中打开（或关闭），$A_{\lambda} \cap X_{\mu}$ 也是如此。这样就完成了证明。
 
-我们注，如果$X_{\lambda}$的并与$X$不同，那么$\mathfrak{T}$在$X - \left( \bigcup_{\lambda \in L} X_{\lambda} \right)$上诱导的拓扑是*离散的*。因为如果 $x \in X$ 属于不存在 $X_{\lambda}$，则 $\{ x \} \cap X_{\lambda} = \varnothing$ 在每个拓扑 $\mathfrak{T}_{\lambda}$ 中开路，因此 $\{ x \}$ 在拓扑 $\mathfrak{T}$ 中开路。
+我们注，如果$X_{\lambda}$的并与$X$不同，则$\mathfrak{T}$在$X - \left( \bigcup_{\lambda \in L} X_{\lambda} \right)$上诱导的拓扑是*离散的*。因为如果 $x \in X$ 属于不存在 $X_{\lambda}$，则 $\{ x \} \cap X_{\lambda} = \varnothing$ 在每个拓扑 $\mathfrak{T}_{\lambda}$ 中开路，因此 $\{ x \}$ 在拓扑 $\mathfrak{T}$ 中开路。
 
 ### 5. 拓扑空间的粘贴在一起
 
 令$(X_{\lambda})_{\lambda \in L}$为集合的族，令$X$为集合，即$X_{\lambda}$的*和*（*集合理论*，章II, § 4, no. 8，定义8）；我们将认同每个$X_{\lambda}$与$X$的子集通过典范嵌入$j_{\lambda} : X_{\lambda} \to X$。
 
-令$R$为$X$上的等价关系，使得*$R$的*每个等价类*每个*$X_{\lambda}$中至多有一个元素；对于指标$(\lambda, \mu)$的每个对，令$A_{\lambda \mu}$为元素$x$的$X_{\lambda}$由……组成的子集，其中有元素$y \in X_{\mu}$，其中属于至等价类共 $X$。显然，每个 $x \in A_{\lambda \mu}$ 对应都有一个独特的 $y \in A_{\mu \lambda}$，它与 $x$ mod $R$ 全等； 映射$h_{\mu \lambda} : A_{\lambda \mu} \to A_{\mu \lambda}$如此定义满足以下条件：
+令$R$在$X$上为等价关系，使得*$R$的*每个等价类*每个*$X_{\lambda}$最多有一个元素；对于指标$(\lambda, \mu)$的每个对，令$A_{\lambda \mu}$为元素$x$的$X_{\lambda}$由……组成的子集，其中有元素$y \in X_{\mu}$，其中属于为等价类 / $X$。显然，每个 $x \in A_{\lambda \mu}$ 对应都有一个唯一的 $y \in A_{\mu \lambda}$，它与 $x$ mod $R$ 全等； 映射$h_{\mu \lambda} : A_{\lambda \mu} \to A_{\mu \lambda}$如此定义满足以下条件：
 
-(i) 对于每个 $\lambda \in L$，$h_{\lambda \lambda}$ 是 $A_{\lambda \lambda} = X_{\lambda}$ 中的恒等映射。
+(i) 对于每个$\lambda \in L$，$h_{\lambda \lambda}$ 是$A_{\lambda \lambda} = X_{\lambda}$ 中的恒等映射。
 
 (ii) 对于$L$的每个指标$(\lambda, \mu, \nu)$和每个$x \in A_{\lambda \mu} \cap A_{\lambda \nu}$，我们有$h_{\mu \lambda}(x) \in A_{\mu \nu}$和
 
@@ -294,12 +294,12 @@ $$
 
 现在假设每个$X_\lambda$是一个*拓扑空间*，并令$\mathfrak{T}_\lambda$为其拓扑。令$\mathfrak{T}$为集合$X/R$上最好的拓扑，其中映射$\varphi \circ j_\lambda$是连续的； $\mathfrak{T}$ 是$X$ 上拓扑与$R$ 的商，即拓扑$\mathfrak{T}_\lambda$ 的*和*。我们说拓扑空间$X/R$（与拓扑$\mathfrak{T}$）是通过*将拓扑空间*$X_\lambda$*沿着*$A_{\lambda \mu}$*通过双射*$h_{\mu \lambda}$粘贴在一起获得的。因此，$X/R$的*开*（或*闭*）子集是$X$的子集$B$的典范像，它们相对于$R$是*饱和*的，并且使得$B \cap X_\lambda$是*开*（或*闭*）每 $\lambda \in L$ $X_\lambda$。
 
-由于$\varphi$的限制到每个$X_\lambda$都是双射到$X/R$的子集$X'_\lambda = \varphi(X_\lambda)$，我们可以通过这个方法将迁移拓扑$\mathfrak{T}_\lambda$到$X'_\lambda$ 双射，因此$X'_\lambda$携带拓扑$\mathfrak{T}'_\lambda$； $X/R$ 上的拓扑 $\mathfrak{T}$ 是典范嵌入 $X'_\lambda \to X/R$ 连续的*最佳*。一般来说，$\mathfrak{T}$在$X'_\lambda$上引起的拓扑比$\mathfrak{T}'_\lambda$“更粗糙”，但与后者不完全相同；即使$h_{\mu \lambda}$是同胚（§ 3，习题15）。然而，根据no. 4、命题 8，加上前面的记号：
+由于$\varphi$的限制到每个$X_\lambda$都是双射到$X/R$的子集$X'_\lambda = \varphi(X_\lambda)$，我们可以通过这个方法将迁移拓扑$\mathfrak{T}_\lambda$到$X'_\lambda$ 双射，因此$X'_\lambda$携带拓扑$\mathfrak{T}'_\lambda$； $X/R$ 上的拓扑 $\mathfrak{T}$ 是*最佳*，其中典范嵌入 $X'_\lambda \to X/R$ 是连续的。一般来说，$\mathfrak{T}$在$X'_\lambda$上诱导的拓扑比$\mathfrak{T}'_\lambda$“更粗糙”，但与后者不完全相同；即使$h_{\mu \lambda}$是同胚（§ 3，习题15）。然而，根据no. 4、命题 8，加上前面的记号：
 
 #### 命题 9 {#top-i-s2-prop-9 .statement tag=0B0R}
 
 *假设* $h_{\mu \lambda}$ *是同胚，并且每个* $A_{\lambda \mu}$ *都是开（或闭）* *在* $X_\lambda$中； *则每个* $\varphi(X_\lambda)$ *都是开（或闭）* *在* $X/R$ *和限制 of* $\varphi$ *到* $X_\lambda$ *是* $X_\lambda$ *到子空间* $\varphi(X_\lambda)$ *的同态$X/R$。
 
-### 习题 {#top-i-s2-exercises}
+### 习题{#top-i-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

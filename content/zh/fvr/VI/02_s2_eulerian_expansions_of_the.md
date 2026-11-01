@@ -25,16 +25,16 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 13
-content_sha256: 9f376a256b321221bb198ed6fbc7fde59d9d479fdd16478ee205992de94e1422
+content_sha256: 1df1b7cbb1f3a8765170131eb6e1aade33b47921bb463da041873fc0637e2166
 translated_from: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
 translation_method: google
 source_content_sha256: 3c79b30ff58a4995c02b9783d2b22927cb3d4728ceeaf6e2ab3524761187a1a8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6d352228b92afef9095aebefffafa6eebfdede0627924f747c3e9fe4a4ffec5b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。三角函数函数和伯努利数的欧拉展开
@@ -111,7 +111,7 @@ $$
 \cot \left( z - \frac{k\pi}{n} \right) = \frac{1 + \tan z \tan \frac{k\pi}{n}}{\tan z - \tan \frac{k\pi}{n}}
 $$
 
-对于 tan z 有限；因此 cot $nz$ 是 $u = \tan z$ 中的有理数函数，其分子为次数 $n - 1$，其分母为次数 $n$，具有 $n$ 简单根 $\tan k\pi / n$；将其分解为简单的分数产量
+对于 tan z 有限；因此，cot $nz$ 是 $u = \tan z$ 中的有理数函数，其分子为次数 $n - 1$，其分母为次数 $n$，具有 $n$ 简单根 $\tan k\pi / n$；将其分解为简单的分数产量
 
 $$
 \cot nz = \sum_{k=-m}^{m} \frac{A_k}{u - \tan \frac{k\pi}{n}}
@@ -126,7 +126,7 @@ $$
 = \lim_{h \to 0} \frac{\cos nh}{\cos \frac{k\pi}{n} \cos \left( h + \frac{k\pi}{n} \right)} \frac{\sin h}{\sin nh} = \frac{1}{n \cos^2 \frac{k\pi}{n}}
 $$
 
-从而，将 (6) 相应的中的项分离到 $k = 0$ 并将项相应的组合到 $k$ 的相反值，以及替换 $z$ $z/n$,
+从而，将 (6) 相应的中的项分离到 $k = 0$ 并将项相应的组合到 $k$ 的相对值，以及替换 $z$ $z/n$,
 
 $$
 \cot z = \frac{1}{n \tan \frac{z}{n}} + \sum_{k=1}^{m} \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}
@@ -144,7 +144,7 @@ $$
 v_k(n, z) = \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}
 $$
 
-对于$1 \leq k \leq m$。我们将看到，对于$\mathbf{C}$的紧凑子集 K中包含的每个$z$，而不是包含$\pi$的任何积分倍数，以及对于每个足够大奇数$n$，级数与一般项 $v_k(n, z)$ 通常是收敛的。事实上，由于$n$趋于$+\infty$，$\tan \frac{z}{n}$在K上一致趋于$\frac{z}{n}$，因此存在数$M > 0$，使得每个足够大$m$和每个$z \in K$都有$\left| n \tan \frac{z}{n} \right| \leq M$。另一方面，对于$0 \leq x \leq \pi/2$，有$\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$，因此对于$1 \leq k \leq m$，有$n \sin \frac{k\pi}{n} \geq k\pi/2$；因而，当$m$为足够大时，对于每一个整数$k$，使得$k\pi /2 > M$有一个$|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$，这证明了我们的断言。对于 $k$ 奇数，$v_k(n, z)$ 趋向于（在 K 上一致）$\frac{2z}{z^2 - k^2 \pi^2}$，因为 $n$ 趋于 $+\infty$。因而：
+对于$1 \leq k \leq m$。我们将看到，对于$\mathbf{C}$的紧凑子集 K中包含的每个$z$，而不是包含$\pi$的任何积分倍数，并且对于每个足够大奇数$n$，级数与一般项 $v_k(n, z)$ 通常是收敛的。事实上，由于$n$趋于$+\infty$，$\tan \frac{z}{n}$在K上一致趋于$\frac{z}{n}$，因此存在数$M > 0$，使得每个足够大$m$和每个$z \in K$都有$\left| n \tan \frac{z}{n} \right| \leq M$。另一方面，对于$0 \leq x \leq \pi/2$，有$\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$，因此对于$1 \leq k \leq m$，有$n \sin \frac{k\pi}{n} \geq k\pi/2$；因而，当$m$为足够大时，对于每一个整数$k$，使得$k\pi /2 > M$有一个$|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$，这就证明了我们的断言。对于 $k$ 奇数，$v_k(n, z)$ 趋向于（在 K 上一致）$\frac{2z}{z^2 - k^2 \pi^2}$，因为 $n$ 趋于 $+\infty$。因而：
 
 #### 定理 1 {#fvr-vi-s2-thm-1 .statement tag=08IF}
 
@@ -173,7 +173,7 @@ $$
 \sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} \left( 1 - \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}} \right).
 $$
 
-我们可以将这个公式写为$\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$，如果$k > m$则写为$w_k(n, z) = 0$，对于$1 \leq k \leq m$则写为$w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$。我们将看到，对于$\mathbf{C}$的紧凑子集$K$中包含的每个$z$，以及对于奇数$n$，级数与一般项$w_k(n, z)$*通常收敛*。事实上，由于$n$趋向于$+\infty$，$n \sin \frac{z}{n}$在$K$上一致趋向于$z$，因此存在数$M > 0$，使得$\left| n \sin \frac{z}{n} \right| \leq M$对于每个整数$n$和每个$z \in K$。此外，我们在证明中看到了。 VI、p. 286 中的 1 个，$1 \leq k \leq m$ 的其中一个有 $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$；因此，对于每个整数$k$，使得$k \pi / 2 \geq M$有$|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$，这证明了我们的断言。因为，对于每个固定的 $k$，$w_k(n, z)$ 趋向于（在 K 上统一）$z^2 / k^2 \pi^2$，而 $n$ 趋向于 $+\infty$，因此可以看出：
+我们可以将这个公式写为$\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$，如果$k > m$则写为$w_k(n, z) = 0$，对于$1 \leq k \leq m$则写为$w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$。我们将看到，对于$\mathbf{C}$的紧凑子集$K$中包含的每个$z$，以及对于$n$奇数，级数与一般项$w_k(n, z)$*通常收敛*。事实上，由于$n$趋向于$+\infty$，$n \sin \frac{z}{n}$在$K$上一致趋于$z$，因此存在数$M > 0$，使得$\left| n \sin \frac{z}{n} \right| \leq M$对于每个整数$n$和每个$z \in K$。此外，我们在证明中看到了。 VI、p. 286 中的 1 个，其中 $1 \leq k \leq m$ 一个有 $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$；因此，对于每个整数$k$，使得$k \pi / 2 \geq M$有$|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$，这证明了我们的断言。因为，对于每个固定的 $k$，$w_k(n, z)$ 趋向于（在 K 上统一）$z^2 / k^2 \pi^2$，而 $n$ 趋向于 $+\infty$，因此可以看出：
 
 #### 定理 2 {#fvr-vi-s2-thm-2 .statement tag=08IG}
 
@@ -185,7 +185,7 @@ $$
 
 右边的无穷乘积绝对一致地收敛于$\mathbf{C}$的每个紧致子集（$\sin z$的欧拉展开）。
 
-### 3.伯努利数的应用
+### 3. 应用于伯努利数
 
 定理 1 of VI, p. 286，表明对于 $0 \leq x < \pi$，级数与一般项
 
@@ -219,7 +219,7 @@ $$
 b_{2n} = (-1)^{n-1} (2n)! \frac{2 S_{2n}}{(2\pi)^{2n}} \quad \text{for } n \geq 1,
 $$
 
-公式特别表明数 $S_{2n}/\pi^{2n}$ 是*有理数*。显然 $S_{k+1} \leq S_k$ 因此，对于每个整数 $k \geq 2$，我们有 $S_k \leq S_2 = \pi^2/6 \leq 2$；从 (14) 推导出伯努利数的以下不等式
+公式特别表明数 $S_{2n}/\pi^{2n}$ 是*有理数*。显然 $S_{k+1} \leq S_k$ 因此，对于每个整数 $k \geq 2$，我们有 $S_k \leq S_2 = \pi^2/6 \leq 2$；从 (14) 推导出以下伯努利不等式数
 
 $$
 \frac{2 (2n)!}{(2\pi)^{2n}} \leq |b_{2n}| \leq 4 \frac{(2n)!}{(2\pi)^{2n}} \quad \text{for } n \geq 1.
@@ -237,4 +237,4 @@ $$
 
 ### 习题 {#fvr-vi-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

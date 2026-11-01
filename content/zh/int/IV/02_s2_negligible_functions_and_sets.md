@@ -37,25 +37,25 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 2983205bbbda558589771256a06a9bfd0dcd2f42a23d3b15495ec511b117e299
+content_sha256: 6cc9380507b399dea7e455ad91b2da67010a56c0b08d265dcf968f2759c7bef5
 translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
 translation_method: google
 source_content_sha256: 48a74bb29ea2e0671914af4710029a73eeba8926caa6ba8d663276f288e2e1b1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3c614828c2fdcec369cbf178111c61494ee86e9f2b88110498b2587f8bb79fa1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。可以忽略不计的函数和集合
 
-### 1. 可忽略不计的正值函数
+### 1. 可忽略不计的积极函数
 
 #### 定义 1 {#int-iv-s2-def-1 .statement tag=08Q8}
 
-— *给定局部紧凑空间 X* 上的测度 $\mu$，*数值函数* $f \geq 0$（*是否有限*）*如果* $|\mu|^*(f) = 0$，则在 X 上定义的测度 $\mu$ 可以忽略不计。
+— *给定局部紧凑空间 X* 上的测度 $\mu$，*数值函数* $f \geq 0$（*是否有限*）*如果* $|\mu|^*(f) = 0$，则在 X 上定义的测度对于$\mu$ 来说可以忽略不计。
 
 然后，我们还说 $f$ 是 $\mu$*-可忽略*，或者如果不会导致混淆，则简称为“可忽略”。
 
@@ -73,15 +73,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *为了使$X$上的下半连续函数$f \geq 0$可以忽略不计，在$\mu$的支持下$f$为零是必要且充分的。*
 
-如果$|\mu|^*(f) = 0$，则对于每个函数$g \in \mathscr{K}_+$，$|\mu|(g) = 0$使得$g \leq f$；由此得出（第 III, § 2, No. 3 章，第 9 条命题）$g$ 在$\mu$ 的支撑$S$ 上是零；因为 $f$ 是函数 $g \in \mathscr{K}_+$ 的上包络线，因此 $g \leq f$ (§ 1, No. 1, 引理), $f(x) = 0$ on $S$。相反，如果$f(x) = 0$在$S$上，那么对于每个函数$g \in \mathscr{K}_+$，$g(x) = 0$在$S$上，使得$g \leq f$，因此（第III, § 2, No. 3，第8条命题）$|\mu|(g) = 0$，其中， 定义，意味着$|\mu|^*(f) = 0$。
+如果$|\mu|^*(f) = 0$，则对于每个函数$g \in \mathscr{K}_+$，$|\mu|(g) = 0$使得$g \leq f$；由此得出（第 III, § 2, No. 3 章，第 9 条命题）$g$ 在 $\mu$ 的支撑$S$ 上是零；因为 $f$ 是函数 $g \in \mathscr{K}_+$ 的上封套，因此 $g \leq f$ (§ 1, No. 1, 引理), $f(x) = 0$ on $S$。相反，如果$f(x) = 0$在$S$上，那么对于每个函数$g \in \mathscr{K}_+$，$g(x) = 0$在$S$上，使得$g \leq f$，因此（第III, § 2, No. 3，第8条命题）$|\mu|(g) = 0$，其中， 定义，意味着$|\mu|^*(f) = 0$。
 
 ### 2. 可以忽略不计集合
 
 #### 定义 2 {#int-iv-s2-def-2 .statement tag=08QC}
 
-*给定局部紧凑空间$X$上的措施$\mu$，如果$|\mu|^*(A) = 0$，则$X$的子集$A$对于措施$\mu$来说可以忽略不计。*
+*给定局部紧凑空间$X$上的措施$\mu$，$X$的子集$A$据说对于措施$\mu$如果$|\mu|^*(A) = 0$可以忽略不计。*
 
-也有人说 $A$ 是 $\mu$ - 可以忽略不计，或者如果不会导致混淆，则可以忽略不计。说特征函数 $\varphi_A$ 可以忽略不计也是同样的道理。
+也有人说 $A$ 是 $\mu$ - 可以忽略不计，或者如果不会导致混淆，则可以忽略不计。同样的道理，特征函数 $\varphi_A$ 可以忽略不计。
 
 #### 命题 4 {#int-iv-s2-prop-4 .statement tag=08QD}
 
@@ -91,15 +91,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 例 {#int-iv-s2-n2-exa-1 .statement tag=08QE}
 
-— 令 $\mu$ 为$\mathbf{R}$ 的勒贝格测度。每集合 $\{x_0\}$ 减少到点都可以忽略不计（cf. § 1, No. 3，*注* 1）。因此，*$\mathbf{R}$ 中的每个可数子集对于勒贝格测度来说都是可以忽略不计的*。这个命题中的逆命题不正确（§ 4，Exer.4 b））。
+— 令 $\mu$ 为$\mathbf{R}$ 的勒贝格测度。每集合 $\{x_0\}$ 减少到点都可以忽略不计（cf. § 1, No. 3，*注* 1）。因此，*$\mathbf{R}$ 中的每个可数子集对于勒贝格测度来说都是可以忽略不计的*。这个命题的逆命题不正确（§ 4，Exer.4 b））。
 
 #### 命题 5 {#int-iv-s2-prop-5 .statement tag=08QF}
 
-*$\mu$的支持$S$的补集是最大的，在$X$中打开集合可以忽略不计。*
+*$\mu$的支持$S$的补集是最大的，在$X$中可以忽略不计的开放集合。*
 
 因为，根据命题3，在阶中，开集合$G$可以忽略不计，$G \cap S = \varnothing$即$G \subset \mathbf{C}S$是充分必要的。
 
-### 3.属性几乎在任何地方都是正确的
+### 3. 属性几乎无处不在
 
 令 $X$ 为局部紧致空间，$\mu$ 为$X$ 的测度。如果 $P\{x\}$ 是性质，性质 « $P\{x\}$ 几乎处处（相对于 $\mu$）» 通过定义等价于 x 的性质 « *集合，使得* $(x \in X \text{ and not } P\{x\})$ * 是 $\mu$*-可忽略 »。
 
@@ -165,7 +165,7 @@ $$
 
 注，第 10 条命题的假设尤其适用于当 $F$ 是可度量且可分离的局部凸空间时（TVS，III, §3, No. 4，第 6 条命题的 Cor.2）。
 
-### 5. 函数几乎无处不在
+### 5. 函数几乎到处都有定义
 
 In conformity with the definition in No. 3, a mapping $f$ of a subset $A$ of $X$ into a set $F$ is said to be defined almost everywhere if the complement of the set $A$ on which it is defined is a negligible set. 我们再次调用$f$的等价类，并用$\tilde{f}$表示，在所有$X$上定义的每个函数的等价类等于定义$f$的点$x \in X$处的$f(x)$；显然，这个类仅取决于$f$。 如果$\tilde{f} = \tilde{g}$，则几乎在任何地方定义的两个函数$f, g$再次被认为是等价的：因此，这意味着点的集合，其中$f(x)$和$g(x)$都已定义并且相等，其补数可以忽略不计。
 
@@ -183,7 +183,7 @@ It follows at once that Prop. 8 of No. 4 and its corollary may be generalized to
 
 如果F是*拓扑向量空间*，一个定义类似地是一个*几乎处处收敛的级数*，其一般项是函数$f_n$几乎处处定义在X中，值在F中；这个级数的和是在点定义的函数，其中定义了部分和$\sum_{k=1}^n f_k(x)$并具有极限，并且其类仅依赖于类$\tilde{f}_n$。
 
-### 6. 函数中的等价类，值位于 $\overline{\mathbf{R}}$ 中
+### 6. 函数中的等价类，其中值在 $\overline{\mathbf{R}}$ 中
 
 与 No. 3 中的定义一致，我们说 X 中几乎所有地方都定义的函数 $f$ 以及 $\overline{\mathbf{R}}$ 中的值，如果定义了 $f(x)$ 的 $x \in X$ 的集合则“几乎处处有限”并且有限的补数可以忽略不计。几乎处处有限的函数等价于*处处有限*的函数；因此，我们可以将认同其类$\tilde{f}$与类的*有限*数值函数定义在X（或X中的几乎所有地方）。特别地，几乎处处定义了有限的函数的两个类的和和乘积，并且这些类的集合是$\mathbf{R}$上的*代数*。如果 $(f_n)$ 是函数的序列，值在 $\overline{\mathbf{R}}$ 中，几乎处处定义且有限，则部分和 $\sum_{k=1}^n f_k(x)$ 几乎处处定义；如果，对于几乎每个$x \in X$，它们在$\overline{\mathbf{R}}$中有极限$f(x)$，我们再次说级数与一般项$f_n$几乎处处收敛，并且$f$是级数的和 （注 $f$ 几乎在任何地方都不一定是有限的）。
 

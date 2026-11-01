@@ -50,21 +50,21 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 1a9c73dbd696008ebbee735f40495229bb2559a2602471c4818777b33c5aa6ea
+content_sha256: bb2f363e2faf637f2e687b8fa00b3bd913a31d24478a16ed01e2aa3823568d11
 translated_from: content/en/ens/II/03_s3_correspondences.md
 translation_method: google
 source_content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6156c1be35e974695a1d8865d5c30fb32b8225b926c2d48b4f2dbf92b2d42742
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3.对应
+## 3. CORRESPONDENCES
 
-### 1.图表和对应
+### 1. 图表和对应
 
 #### 定义 1 {#ens-ii-s3-def-1 .statement tag=03PG}
 
@@ -154,7 +154,7 @@ $$x \in X \text{ and } (x, y) \in G$$
 
 #### 定义 4 {#ens-ii-s3-def-4 .statement tag=03PL}
 
-*设*G*是一个图，并且*$x$*对象。 集合* $G\langle \{x\} \rangle$（有时由$G(x)$表示，滥用语言）*被称为* G *在* $x$的截面。
+*设*G*是一个图，并且*$x$*对象。 集合* $G\langle \{x\} \rangle$（通过滥用语言，$G(x)$表示为有时）*被称为* G *在* $x$的截面。
 
 紧随 C43 (章 I, § 5, no. 1) 可知关系 $y \in G\langle \{x\} \rangle$ 相当于 $(x, y) \in G$。如果 G 和 $G'$ 是两个图，则关系 $G \subset G'$ 等价于
 
@@ -162,7 +162,7 @@ $$(\forall x)(G\langle \{x\} \rangle \subset G'\langle \{x\} \rangle).$$
 
 如果 A 和 B 之间的 $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ 为对应，则对于 G 在 $x$ 处的每个 $x \in \mathrm{A}$ 截面也称为* $\Gamma$ *在* $x$ 的 *截面，并用 $\Gamma\langle\{x\}\rangle$ 表示（或$\Gamma(x)$）。
 
-### 2.逆对应
+### 2. 逆对应
 
 设 G 是一个图，$\mathrm{A} = \mathrm{pr}_1\mathrm{G}$、$\mathrm{B} = \mathrm{pr}_2\mathrm{G}$ 是投影。 关系 $(y, x) \in \mathrm{G}$ 意味着 $(x, y) \in \mathrm{B} \times \mathrm{A}$；因此，这个关系有一个由所有有序对$(x, y)$组成的图，使得$(y, x) \in \mathrm{G}$。
 
@@ -182,15 +182,15 @@ $$\overset{-1}{\overbrace{\mathrm{X} \times \mathrm{Y}}} = \mathrm{Y} \times \ma
 
 如果 $\overset{-1}{\mathrm{G}} = \mathrm{G}$，则称图 G 是“对称”的。
 
-¶ 令 $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ 为 A 和 B 之间的对应。由于 $\mathrm{pr}_1\overset{-1}{\mathrm{G}} \subset \mathrm{B}$ 和 $\mathrm{pr}_2\overset{-1}{\mathrm{G}} \subset \mathrm{A}$，三元组 $(\overset{-1}{\mathrm{G}}, \mathrm{B}, \mathrm{A})$ 是 B 和 A 之间的 *对应，称为对应 $\Gamma$ 的*逆*，并用 $\overset{-1}{\Gamma}$ 表示。对于B的每个子集Y，$\overset{-1}{\Gamma}$下Y的像$\overset{-1}{\Gamma}\langle\mathrm{Y}\rangle$也称为$\Gamma$下Y的*逆像*。显然 $\overset{-1}{\Gamma}$ 的倒数是 $\Gamma$。
+¶ 设 $\Gamma = (\mathrm{G}, \mathrm{A}, \mathrm{B})$ 为 A 和 B 之间的对应。由于 $\mathrm{pr}_1\overset{-1}{\mathrm{G}} \subset \mathrm{B}$ 和 $\mathrm{pr}_2\overset{-1}{\mathrm{G}} \subset \mathrm{A}$，三元组 $(\overset{-1}{\mathrm{G}}, \mathrm{B}, \mathrm{A})$ 是 B 和 A 之间的 *对应，称为对应 $\Gamma$ 的*逆*，并用 $\overset{-1}{\Gamma}$ 表示。对于B的每个子集Y，$\overset{-1}{\Gamma}$下Y的像$\overset{-1}{\Gamma}\langle\mathrm{Y}\rangle$也称为$\Gamma$下Y的*逆像*。显然 $\overset{-1}{\Gamma}$ 的倒数是 $\Gamma$。
 
-### 3.两个对应的合成
+### 3. 两个对应的合成
 
 令G、G′为两个图。令 A 表示集合 $\mathrm{pr}_1\mathrm{G}$，令 C 表示集合 $\mathrm{pr}_2\mathrm{G}'$。 关系$(\exists y)((x, y) \in \mathrm{G}$和$(y, z) \in \mathrm{G}')$意味着$(x, z) \in \mathrm{A} \times \mathrm{C}$，因此有一个关于$x$和$z$的图。
 
 #### 定义 6 {#ens-ii-s3-def-6 .statement tag=03PN}
 
-*设G、G′为两个图。 关系、$(\exists y)((x, y) \in \mathrm{G}$和$(y, z) \in \mathrm{G}')$的图（相对于$x$和$z$）被称为G'和G的合成，并用*$\mathrm{G}' \circ \mathrm{G}$表示（或用$\mathrm{G}'\mathrm{G}$表示有时）。
+*设G、G′为两个图。 关系、$(\exists y)((x, y) \in \mathrm{G}$和$(y, z) \in \mathrm{G}')$的图（相对于$x$和$z$）称为G'和G的合成，并用*$\mathrm{G}' \circ \mathrm{G}$表示（或用$\mathrm{G}'\mathrm{G}$表示有时）。
 
 #### 命题 3 {#ens-ii-s3-prop-3 .statement tag=03HK}
 
@@ -276,7 +276,7 @@ $$\mathrm{I}_\mathrm{A} = (\Delta_\mathrm{A}, \mathrm{A}, \mathrm{A})$$
 
 ¶ 如果 A 和 B 之间的$\Gamma$ 是对应，且$\mathrm{I}_\mathrm{A}$、$\mathrm{I}_\mathrm{B}$ 分别是A、B 上的恒等式对应，则$\Gamma \circ \mathrm{I}_\mathrm{A} = \mathrm{I}_\mathrm{B} \circ \Gamma = \Gamma$。
 
-### 4.函数
+### 4. FUNCTIONS
 
 #### 定义 9 {#ens-ii-s3-def-9 .statement tag=03HN}
 
@@ -316,17 +316,17 @@ A 上定义的函数 $f$ 据说是 *变换 x 变成* $f(x)$（对于所有 $x \i
 
 因此，每个集合 A 都有一个关联的家庭，由 A 的恒等映射定义，其指标集合是 A，其元素的集合是 A。滥用语言，集合是有时被称为“家庭”，在这种情况下，它是与集合有问题。
 
-如果对于$f$域中的所有$x$和$x'$，我们有$f(x)=f(x')$，则函数$f$被称为“常数”。
+如果对于 $f$ 域中的所有 $x$ 和 $x'$，我们有 $f(x)=f(x')$，则函数 $f$ 被称为“常数”。
 
 ¶ 设 $f$ 为集合 E 的映射到 E 中。如果 $f(x)=x$，则 E 的元素 $x$ 被认为*固定在* $f$ 下。
 
-### 5. 限制和扩张的函数
+### 5. 限制和扩张函数
 
-如果 E 包含在 $f$ 和 $g$ 的域中，并且如果 $f(x)=g(x)$ 对于所有 $x\in E$，则两个函数 $f$ 和 $g$ 被认为在集合 E 上*一致*（或 *重合*）。两个具有相同图的函数在它们的域上一致。说$f=g$就是说$f$和$g$具有相同的域A和相同的目标B，并且它们在A上一致。
+如果 E 包含在 $f$ 和 $g$ 的域中，并且如果 $f(x)=g(x)$ 对于所有 $x\in E$，则两个函数 $f$ 和 $g$ 被认为在集合 E 上*一致*（或 *重合*）。两个具有相同图的函数在其定义域上一致。说$f=g$就是说$f$和$g$具有相同的域A和相同的目标B，并且它们在A上一致。
 
-¶ 令 $f=(F,A,B)$ 和 $g=(G,C,D)$ 为两个函数。说$F\subset G$就是说$f$的定义域A包含在$g$的定义域C中，并且$g$与A上的$f$一致。如果还有$B\subset D$，则$g$可以说是一个*扩张* $f$（更准确地说，$f$到C中的扩张），而$g$据说是*扩展* $f$（到C）。当$g$被称为D的元素*的*家族时，$f$被称为$g$的*子家族*。
+¶ 令 $f=(F,A,B)$ 和 $g=(G,C,D)$ 为两个函数。说$F\subset G$就是说$f$的定义域A包含在$g$的定义域C中，并且$g$与A上的$f$一致。如果还有$B\subset D$，则$g$可以说是扩张* $f$（更准确地说，$f$到C的扩张），而$g$据说是*扩展* $f$（到C）。当$g$被称为D的元素*的*家族时，$f$被称为$g$的*子家族*。
 
-¶ 令 $f$ 为函数，并令 A 为 $f$ 域的子集。 关系“$x\in A$和$y=f(x)$”有一个关于$x$和$y$的图G是直接的，这个图是函数的，A是它的域；图为G的函数，与$f$有相同的目标，称为$f$到$A$的*限制*，用$f|A$表示为有时。 函数是其任意限制的扩张。如果两个函数$f$、$g$有相同的目标并且在集合$E$上达成一致，则它们的限制到$E$相等。
+¶ 令$f$ 为函数，并令A 为$f$ 域的子集。 直接的，关系“$x\in A$和$y=f(x)$”有一个关于$x$和$y$的图G，这个图是函数的，A是它的域；图为G的函数，与$f$有相同的目标，称为$f$到$A$的*限制*，用$f|A$表示为有时。 函数是其任意限制中的扩张。如果两个函数$f$、$g$有相同的目标并且在集合$E$上达成一致，那么它们的限制到$E$是相等的。
 
 ### 6. 定义函数通过项
 
@@ -356,7 +356,7 @@ $$
 
 #### 例 2 {#ens-ii-s3-n6-exa-2 .statement tag=03S4}
 
-令 G 为集合 / 有序对。 函数
+令 G 为有序对的集合。 函数
 
 $$z \to \mathrm{pr}_1 z \quad (z \in \mathrm{G}, \ \mathrm{pr}_1 z \in \mathrm{pr}_1 \mathrm{G})$$
 
@@ -366,7 +366,7 @@ $$z \to \mathrm{pr}_2 z \quad (z \in \mathrm{G}, \ \mathrm{pr}_2 z \in \mathrm{p
 
 分别称为* G 上的*第一和第二坐标函数；当不存在混淆风险时，它们用 $\mathrm{pr}_1$ 和 $\mathrm{pr}_2$ 表示。
 
-### 7. 两个函数中的合成。逆函数
+### 7. 合成两个函数。逆函数
 
 #### 命题 6 {#ens-ii-s3-prop-6 .statement tag=03HP}
 
@@ -382,7 +382,7 @@ $$(x, y) \in \mathrm{F}, \qquad (x, y') \in \mathrm{F}, \qquad (y, z) \in \mathr
 
 #### 定义 10 {#ens-ii-s3-def-10 .statement tag=03HQ}
 
-*令 f 为* A *的映射到* B。 *映射 f 被称为单射，或单射，如果 * A * 的任何两个不同的元素在 f 下具有不同的像。 映射 f 被称为满射，或满射，if* $f(\mathrm{A}) = \mathrm{B}$。 *如果 f 既是单射又是满射，则称为双射，或双射。*
+*令f 为* A *到* B 的映射。 *映射 f 被称为单射，或单射，如果* A * 的任何两个不同的元素在 f 下具有不同的像。 映射 f 被称为满射，或满射，if* $f(\mathrm{A}) = \mathrm{B}$。 *如果 f 既是单射又是满射，则称为双射，或双射。*
 
 我们有时不是说$f$是满射的说，而是说$f$是A *到* B上的映射，或者说它是B通过A的*参数表示*（在这种情况下，A被称为参数*的*集合） A 的表示和元素称为*参数*）。如果$f$是双射，我们有时说*f将*A*和*B*一对一的对应*。 A 的双射到 A 上称为 A 的 *置换*。
 
@@ -394,11 +394,11 @@ $$(x, y) \in \mathrm{F}, \qquad (x, y') \in \mathrm{F}, \qquad (y, z) \in \mathr
 
 #### 例 2 {#ens-ii-s3-n7-exa-2 .statement tag=03S6}
 
-设 A 为集合。 A 的映射$x \to (x, x)$到$\mathrm{A} \times \mathrm{A}$的对角线$\Delta_\mathbf{A}$是双射映射，称为A的*对角线映射*。
+设 A 为集合。 A 的映射$x \to (x, x)$到$\mathrm{A} \times \mathrm{A}$的对角线$\Delta_\mathbf{A}$是一个双射映射，称为A的*对角线映射*。
 
 #### 例 3 {#ens-ii-s3-n7-exa-3 .statement tag=03S7}
 
-令 G 为有序对的集合。 G 的映射 $\mathrm{pr}_1$（分别为 $\mathrm{pr}_2$）到 $\mathrm{pr}_1\mathrm{G}$（分别为 $\mathrm{pr}_2\mathrm{G}$）是满射； $\mathrm{pr}_1$ 是单射的当且仅当 G 是函数图。
+令 G 为集合 / 有序对。 G 的映射 $\mathrm{pr}_1$（分别为 $\mathrm{pr}_2$）到 $\mathrm{pr}_1\mathrm{G}$（分别为 $\mathrm{pr}_2\mathrm{G}$）是满射； $\mathrm{pr}_1$ 是单射的当且仅当 G 是函数图。
 
 #### 例 4 {#ens-ii-s3-n7-exa-4 .statement tag=03S8}
 
@@ -426,7 +426,7 @@ $$(f(x),\ y) \in \overset{-1}{\mathrm{F}},$$
 
 这样$x = y$，就证明了断言。
 
-¶ 相反，如果 $f$ 是双射，则 $\overset{-1}{\mathrm{F}}$ 是泛函且 $\overset{-1}{f}$ 的定义域等于 B，则直接的。
+¶ 相反，如果 $f$ 是双射，则直接的 $\overset{-1}{\mathrm{F}}$ 是泛函，并且$\overset{-1}{f}$ 的定义域等于 B。
 
 当$f$是双射时，$\overset{-1}{f}$称为$f$的*逆映射*； $\overset{-1}{f}$是双射，$\overset{-1}{f} \circ f$是A的恒等映射，$f \circ \overset{-1}{f}$是B的恒等映射。
 
@@ -440,19 +440,19 @@ $$(\exists x)((\exists z)(z \in \mathrm{Y} \text{ and } z = f(x)) \text{ and } y
 
 因此意味着关系$(\exists z)(z \in \mathrm{Y} \text{ and } y = z)$，因此也意味着关系$y \in \mathrm{Y}$。
 
-如果$f$是*满射*，对于B的每个子集Y，我们都有$f\langle \overset{-1}{f}\langle \mathrm{Y}\rangle\rangle = \mathrm{Y}$，因为关系$y \in \mathrm{Y} \subset \mathrm{B}$意味着假设关系$(\exists x)(y = f(x))$，因此也有$(\exists x)(y \in \mathrm{Y} \text{ and } y = f(x))$；但“$y \in \mathrm{Y}$和$y = f(x)$”意味着$(\exists z)(z \in \mathrm{Y} \text{ and } z = f(x))$，我们的断言紧随其后。
+如果$f$是*满射*，对于B的每个子集Y，我们有$f\langle \overset{-1}{f}\langle \mathrm{Y}\rangle\rangle = \mathrm{Y}$，因为关系$y \in \mathrm{Y} \subset \mathrm{B}$意味着假设关系$(\exists x)(y = f(x))$，因此也有$(\exists x)(y \in \mathrm{Y} \text{ and } y = f(x))$；但“$y \in \mathrm{Y}$和$y = f(x)$”意味着$(\exists z)(z \in \mathrm{Y} \text{ and } z = f(x))$，我们的断言紧随其后。
 
-如果 $f$ 是*内射*，则对于 A 的每个子集 X，我们都有 $\overset{-1}{f}\langle f\langle X\rangle\rangle = X$。对于关系 $x \in \overset{-1}{f}\langle f\langle X\rangle\rangle$ 相当于 $f(x) \in f\langle X\rangle$，因而
+如果 $f$ 是 *内射*，则对于 A 的每个子集 X，我们都有 $\overset{-1}{f}\langle f\langle X\rangle\rangle = X$。对于关系 $x \in \overset{-1}{f}\langle f\langle X\rangle\rangle$ 相当于 $f(x) \in f\langle X\rangle$，因而
 
 $$(\exists z)(z \in X \text{ and } f(z) = f(x));$$
 
 但假设意味着$f(z) = f(x)$蕴含$z = x$，因而$x \in \overset{-1}{f}\langle f\langle X\rangle\rangle$蕴含$x \in X$。
 
-### 8.缩回与截面
+### 8. 缩回与截面
 
 #### 命题 8 {#ens-ii-s3-prop-8 .statement tag=03HS}
 
-*设$f$为* A *入* B的映射。 *如果存在映射$r$*（分别为$s$）* B *入* A *使得$r \circ f$*（分别为$f \circ s$）*为恒等映射* A（分别为 B），*则 $f$ 是单射*（分别为*满射*）。 *相反，如果$f$是满射，则* B *到* A *中存在映射 $s$，使得$f \circ s$是* B的恒等映射。 *如果$f$是单射且如果* A $\neq \emptyset$，*存在映射 * B *的$r$进入* A *使得$r \circ f$是* A的恒等映射。
+*设$f$为* A *入* B的映射。 *如果存在映射$r$*（分别为$s$）*为* B *入* A *使得$r \circ f$*（分别为$f \circ s$）*为恒等映射* A（分别为 B），*则 $f$ 是单射*（分别为*满射*）。 *相反，如果$f$是满射，则存在* B *到* A *的映射 $s$使得$f \circ s$是* B的恒等映射。 *如果$f$是单射并且如果* A $\neq \emptyset$，*存在映射 * B *的$r$进入* A *使得$r \circ f$是* A的恒等映射。
 
 如果存在 B 的映射 $r$ 到 A 中，使得 $r \circ f$ 是 A 的恒等映射，则等式 $f(x) = f(y)$，其中 $x \in A$ 和 $y \in A$ 隐含 $x = r(f(x)) = r(f(y)) = y$，因此 $f$ 是单射的。如果 A 中存在 B 的映射 $s$，使得 $f \circ s$ 是 B 的恒等映射，则我们有 $B = f(s(B)) \subset f(A) \subset B$，因此 $f$ 是满射。如果 $f$ 是满射，则令 T 表示项 $\tau_y(y \in A \text{ and } f(y) = x)$。我们有$f(T) = x$换$x \in B$；如果$s$表示映射$x \to T$$(x \in B, T \in A)$，则$f \circ s$是B的恒等映射。最后，假设$f$是单射且A$\neq \emptyset$，令$a$是A的元素。 关系
 
@@ -557,28 +557,28 @@ $$g(h(x)) = g(r(f(x))) = g(r(g(y))) = g(y) = f(x)$$
 
 两个参数*的*函数是函数，其域是有序对的集合（或者等效地，乘积的子集）。令$f$为函数；如果$(x, y)$是$f$域的元素，元素$(x, y)$处$f$的值$f((x, y))$一般用$f(x, y)$表示。
 
-¶ 令 $f$ 为两个参数的函数，D 为其定义域，C 为其目标。对于每个$y$，令$A_y$为所有$x$的集合，使得$(x, y) \in D$（即$y$（no. 1）处的$\overset{-1}{D}$的截面）。 映射
+¶ 令 $f$ 为两个参数的函数，D 为其定义域，C 为其目标。对于每个$y$，令$A_y$为所有$x$的集合，使得$(x, y) \in D$（即$\overset{-1}{D}$在$y$（no. 1）处的截面）。 映射
 
 $$x \to f(x, y) \quad (x \in A_y, f(x, y) \in C)$$
 
-被称为*由$f$定义的部分映射，相对于第二个参数*的值$y$，并由$f(\bullet, y)$或$f(\ , y)$（或有时$f_y$）表示；我们为所有 $(x, y) \in D$ 提供了 $f(\bullet, y)(x) = f(x, y)$。类似地，对于每个$x$，令$B_x$为所有$y$中的集合，使得$(x, y) \in D$。 映射
+被称为*由$f$定义的部分映射，相对于第二个参数*的值$y$，并由$f(\bullet, y)$或$f(\ , y)$（或有时$f_y$）表示；我们为所有 $(x, y) \in D$ 提供了 $f(\bullet, y)(x) = f(x, y)$。类似地，对于每个$x$，令$B_x$为所有$y$的集合，使得$(x, y) \in D$。 映射
 
 $$y \to f(x, y) \quad (y \in B_x, f(x, y) \in C)$$
 
 被称为*由$f$定义的部分映射，相对于第一个参数*的值$x$，并由$f(x, \bullet)$或$f(x, \ )$（或有时$f_x$）表示；我们为所有 $(x, y) \in D$ 提供了 $f(x, \bullet)(y) = f(x, y)$。
 
-¶ 如果对于每个 $y$（分别为 $x$），部分映射 $f(\bullet, y)$（分别为 $f(x, \bullet)$）是一个常数映射，我们说 $f$ *不依赖于*它的第一个（或第二个）参数；因此，这意味着每当 $(x, y)$ 和 $(x', y)$ 属于到 D 时，$f(x, y) = f(x', y)$（或每当 $(x, y)$ 和 $(x, y')$ 属于到 D 时，$f(x, y) = f(x, y')$）。对于 D 的每个$y$属于到第二个投影，让$g(y)$表示$x \in A_y$的$f(x, y)$的公共的值； 映射 $y \to g(y)$ 则 $\mathrm{pr}_2 D$ 的映射变为C，使得
+¶ 如果对于每个 $y$（分别为 $x$），部分映射 $f(\bullet, y)$（分别为 $f(x, \bullet)$）是常数映射，我们说 $f$ *不依赖于*它的第一个（或第二个）参数；因此，这意味着每当 $(x, y)$ 和 $(x', y)$ 属于到 D 时，$f(x, y) = f(x', y)$（或每当 $(x, y)$ 和 $(x, y')$ 属于到 D 时，$f(x, y) = f(x, y')$）。对于 D 的每个$y$属于到第二个投影，让$g(y)$表示$x \in A_y$的$f(x, y)$的公共的值； 映射 $y \to g(y)$ 则 $\mathrm{pr}_2 D$ 的映射变为C，使得
 
 $$g(y) = f(x, y) \qquad \text{for all } (x, y) \in D.$$
 
 ¶ 相反，令 $g$ 为集合 B 的映射到集合 C，并令 A 为任意集合。那么$A \times B$到C的映射$(x, y) \to g(y)$不依赖于它的第一个参数。
 
-¶ 令 $u$ 为 A 的映射到 C 和 B 的 $v$ 映射到 D。$A \times B$ 的映射 $z \to (u(\mathrm{pr}_1 z), v(\mathrm{pr}_2 z))$ 到 $C \times D$ 称为 (*规范*) *扩张 $u$ 和 $v$ 至乘积集合*，或简单地从 $u$ 和 $v$* *乘积（如果不存在混淆风险）；它的范围是$u\langle A\rangle \times v\langle B\rangle$。用$u \times v$表示。如果 $u$ 和 $v$ 是单射（或满射），则 $u \times v$ 是单射（或满射）。如果$u$和$v$是双射，则$u \times v$是双射，它的逆映射是$\overset{-1}{u} \times \overset{-1}{v}$。如果$u'$是C的映射到集合E，并且如果$v'$是集合F的D的映射，我们有
+¶ 令 $u$ 为 A 的映射到 C 和 B 的 $v$ 映射到 D。 $A \times B$ 到 $C \times D$ 的映射 $z \to (u(\mathrm{pr}_1 z), v(\mathrm{pr}_2 z))$ 称为 (*规范*) *扩张 $u$ and $v$ to 乘积集合*, or simply *乘积 of $u$ and $v$* (if there is no risk of confusion);它的范围是$u\langle A\rangle \times v\langle B\rangle$。用$u \times v$表示。 If $u$ and $v$ are injective (resp. surjective) then $u \times v$ is injective (resp. surjective). If $u$ and $v$ are bijective, then $u \times v$ is bijective, and its inverse 映射 is $\overset{-1}{u} \times \overset{-1}{v}$. If $u'$ is 映射 of C into 集合 E and if $v'$ is 映射 of D into 集合 F, we have
 
 $$(u' \times v') \circ (u \times v) = (u' \circ u) \times (v' \circ v).$$
 
-若U、V分别为$u$、$v$的图，则$u \times v$的图W为$(A \times B) \times (C \times D)$的有序对$((x,y), (z, t))$集合，使得$(x, z) \in U$和$(y, t) \in V$； 映射$((x, y), (z, t)) \to ((x, z), (y, t))$将W与乘积$U \times V$（$(A \times C) \times (B \times D)$的子集）一一放在对应中（cf.§5, no. 5）。
+如果U、V分别是$u$、$v$的图，则$u \times v$的图W是$(A \times B) \times (C \times D)$的有序对$((x,y), (z, t))$的集合，使得$(x, z) \in U$和$(y, t) \in V$； 映射 $((x, y), (z, t)) \to ((x, z), (y, t))$ puts W in one-to-one 对应 with 乘积 $U \times V$ (子集 of $(A \times C) \times (B \times D)$) (cf. §5, no. 5).
 
-### 习题{#ens-ii-s3-exercises}
+### 习题 {#ens-ii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

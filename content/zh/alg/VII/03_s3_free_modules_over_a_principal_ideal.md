@@ -13,16 +13,16 @@ pdf_pages: 0373-0374, 0418-0421
 extraction: ocr
 statements: 6
 exercises: 11
-content_sha256: a60c15d8ba1cee3a1a9c90848a53014e3b2478687f03bf6307f41598122fddff
+content_sha256: 3f79c419b70b84b4bdd1f1e7840f76f44ae67b1c296cff0ef0d9cbe56c2f2ed4
 translated_from: content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md
 translation_method: google
 source_content_sha256: fc7f397e634b76ed9e27c6fa8e0cbf059c23e62ee408af71f36a239a6f0c2d07
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 180cdd4a06e9c1cb851b6b5b67688ca7b30519d20c191e48050b1782bb970887
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 自由模超过主理想整环
@@ -66,4 +66,4 @@ Th 的证明。图1表明，$A^{(I)}$的每个子模都同构于直和$\bigoplus
 
 ### 习题{#alg-vii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

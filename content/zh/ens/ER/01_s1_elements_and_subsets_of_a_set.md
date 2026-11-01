@@ -13,51 +13,51 @@ pdf_pages: 0352-0356
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b286c2427a8a2e454cf8702806c13dc2528da59144cb0a9f845ba40885c34527
+content_sha256: 9d54b6e405a6cd57b94d7fef5935a1a92af66a751c868de26e81a55956d8904f
 translated_from: content/en/ens/ER/01_s1_elements_and_subsets_of_a_set.md
 translation_method: google
 source_content_sha256: 0e243e5f12383731f0a5a2c71334e71b3cefa638eb23c7b52b81096a04bed198
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: d9a7b490910d1b7555ed3f3be709196d001e362a6c5aa69e84586b678f6b7347
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 元素和子集的集合
+## 1. 元素和子集集合
 
-1. A *set* consists of *elements* which are capable of possessing certain *properties* and of having certain *relations* between themselves or with elements of other sets.
+1. *集合* 由 *元素* 组成，*元素* 能够拥有某些 *属性*，并在它们之间或与其他集合的元素之间具有某些 *关系*。
 
-2. Sets and elements are denoted in mathematical arguments by graphical symbols, which in general are letters (from various alphabets) or combinations of letters and other signs. Relations between elements of one or more sets are denoted by inserting the symbols which denote these elements into a scheme characteristic of the relation considered [^1]; and similarly for properties.
+2. 集合和元素在数学论证中用图形符号表示，通常是字母（来自各种字母表）或字母和其他符号的组合。一个或多个集合的元素之间的关系通过将表示这些元素的符号插入到关系的概形特性中来表示，并考虑[^1]；属性也类似。
 
 字母可以表示集合的*固定*元素或*任意*元素（也称为*变量*、*参数*或*通用*元素）。当任意元素被关系（或性质）中的固定元素替换时，任意元素被认为被赋予这个固定元素作为*值*。
 
 在序中，为了表示关系中出现的元素没有明确写下来，我们用记号表示关系，例如$\mathrm{R}\{x, y, z\}$（如果$x, y, z$是元素）。
 
-3. A relation or a property in which arbitrary elements feature [^2] is said to be an *identity* if it becomes a true proposition whatever values we give to these arbitrary elements. If R and S denote two relations (or properties), R is said to *imply* S if S is true whenever the arbitrary elements which enter in these relations are fixed in such a way that R is true. The relations (or properties) R and S are said to be *equivalent* if each implies the other.
+3. 关系或性质，其中任意元素特征[^2]被称为“身份”，如果它成为真正的命题，无论我们赋予这些任意元素什么值。如果 R 和 S 表示两个关系 （或属性），则只要输入这些关系中的任意元素以 R 为真的方式固定，如果 S 为真，则称 R *暗示* S。 关系（或属性）如果 R 和 S 彼此隐含对方，则称其为“等价”。
 
-4. Let $\mathrm{R}\{x,\ y,\ z\}$ be a relation between the variables $x$, $y$, $z$. The phrase "for all $x$, $\mathrm{R}\{x,\ y,\ z\}$" is a relation *between $y$ and $z$*, which will be considered to be true for a system of given values of these latter variables if R is true for these values of $y$ and $z$ and *every* value of $x$. The phrase "there exists $x$ such that $\mathrm{R}\{x,\ y,\ z\}$" (or "for some $x$, $\mathrm{R}\{x,\ y,\ z\}$") is again a relation between $y$ and $z$, which will be considered to be true for a system of given values of $y$ and $z$ if, these variables being thus fixed, there is *at least one* value of $x$ for which R is true. Similarly for a relation between any number of variables.
+4. 令变量$x$、$y$、$z$之间的$\mathrm{R}\{x,\ y,\ z\}$为关系。短语“对于所有$x$，$\mathrm{R}\{x,\ y,\ z\}$”是关系*在$y$和$z$*之间，如果R对于$y$的值为真，则对于给定的值的系统，这将被认为是正确的。 $z$ 和*每*值 $x$。短语“存在$x$使得$\mathrm{R}\{x,\ y,\ z\}$”（或“对于某些$x$，$\mathrm{R}\{x,\ y,\ z\}$”）再次是在$y$和$z$之间的关系，对于给定的值的系统将被认为是正确的$y$ 和 $z$ 如果这些变量因此被固定，则 $x$ 中*至少有一个* 值 R 为真。对于任何数变量之间的关系也是如此。
 
 如果$\overline{\mathrm{R}}$表示R的*否定*，那么“对于所有$x$，R”的否定就是“存在$x$使得$\overline{\mathrm{R}}$”； “存在$x$使得R”的否定是“对于所有$x$，$\overline{\mathrm{R}}$”。
 
-5. If R, S denote two relations, we regard "R and S" as a *single* relation, which is considered as true whenever *both* R *and* S are true. Likewise, "R or S" is a relation which is considered to be true whenever *at least one* of the relations R, S is true (and, in particular, whenever they are both true. The word "or" thus does not have the disjunctive sense here which it sometimes has in ordinary speech). Let $\overline{\mathrm{R}}$, $\overline{\mathrm{S}}$ denote the negations of R, S, respectively. Then the negation of "R and S" is "$\overline{\mathrm{R}}$ or $\overline{\mathrm{S}}$", and the negation of "R or S" is "$\overline{\mathrm{R}}$ and $\overline{\mathrm{S}}$".
+5. 如果 R、S 表示两个关系，我们将“R 和 S”视为*单个* 关系，只要 *R * 和 * S 都为真，就认为它为真。同样，“R 或 S”是关系，只要关系 R、S 中的*至少一个*为真，就被认为是真的（特别是，当它们都为真时。字“或”因此在这里不具有有时在普通语言中所具有的析取意义）。令$\overline{\mathrm{R}}$、$\overline{\mathrm{S}}$分别表示R、S的否定。那么“R和S”的否定是“$\overline{\mathrm{R}}$或$\overline{\mathrm{S}}$”，“R或S”的否定是“$\overline{\mathrm{R}}$和$\overline{\mathrm{S}}$”。
 
-6. By writing two symbols one on each side of the sign "$=$" (read "equals"), we have a relation called the relation of *equality*, which means that the two symbols represent the *same* element. The negation of this relation is obtained by writing the same symbols one on each side of the sign "$\neq$" (read "is not equal to" or "is different from").
+6. 通过在符号“$=$”（读作“等于”）的两侧写上两个符号，我们将关系称为*等式*的关系，这意味着这两个符号代表*相同*元素。这个关系的否定是通过在符号“$\neq$”的每一侧写上相同的符号来获得的（读作“不等于”或“不同于”）。
 
-7. Given a set E and a *property* of a generic element of E, those of the elements of E which have this property form a new set, called a *subset* of E. Two *equivalent* properties therefore define the *same* subset of E, and conversely.
+7. 给定集合 E 和 E 的泛型元素的 *性质*，E 的元素具有此性质形式一个新的集合，称为 E 的 *子集*。两个“等价”属性因此定义 *相同* E 的子集，反之亦然。
 
 设A为E的子集。当$x$是E的泛型元素时，性质“$x$属于到A”（即“$x$是A的元素”）写为“$x \in A$”； 元素中的集合有这个性质显然只是A。
 
 这个性质的否定写成“$x \notin A$”（读作“$x$不属于到A”）； E 的元素的集合具有这个性质，称为 A 的*补集*，写为 $\complement A$ 或 $E - A$。
 
-8. Some properties, for example $x = x$, are true for *all* elements of E. Any two such properties are equivalent, and the subset they define is the set E itself.
+8. 例 $x = x$ 的某些属性对于 E 的*所有* 元素都成立。任何两个这样的属性都是等价的，并且子集它们定义是集合 E 本身。
 
 另一方面，对于例 $x \neq x$，某些性质对于 E 的*任何* 元素来说并不成立。同样，任何两个这样的性质是等价的，并且子集和定义被称为 E 的*空子集*，用 $\emptyset$ 表示。
 
 注 E 和 $\emptyset$ 彼此“互补”。
 
-9. Let $a$ be a determinate element of E. Some properties, for example $x = a$, are true only for the *single* element $a$. Any two such properties are equivalent; the subset they define is denoted by $\{a\}$, and is called the subset *consisting of a alone*.
+9. 令 $a$ 为 E 的确定的元素。例 $x = a$ 的某些属性仅适用于*单个* 元素 $a$。任何两个这样的属性都是等价的； 子集、定义用$\{a\}$表示，称为单独*的子集*由……组成。
 
 10、元素均为集合E的*子集*的集合，称为E的子集*的*集合，记为$\mathfrak{P}(E)$。对于所有 $x \in E$，我们都有 $\emptyset \in \mathfrak{P}(E)$、$E \in \mathfrak{P}(E)$ 和 $\{x\} \in \mathfrak{P}(E)$。如果$x$表示E的泛型元素，X表示$\mathfrak{P}(E)$的泛型元素，则$x$和X之间的关系“$x \in X$”称为隶属度*关系。
 
@@ -129,11 +129,11 @@ $$\left.\begin{array}{l} X \cup (Y \cap Z) = (X \cup Y) \cap (X \cup Z) \\ X \ca
 
 (i) 关系“$Z \subset X$和$Z \subset Y$”相当于“$Z \subset X \cap Y$”。 关系“$X \subset Z$和$Y \subset Z$”相当于“$X \cup Y \subset Z$”。
 
-15. 根据恒等式 (8) 我们结论 ，如果 E 的子集 A 是通过应用 *仅* 运算 $\complement$、$\cup$、$\cap$ 从其他子集 X、Y、Z 获得任意序），则替换子集 X，Y，Z 各自的补码可以得到补码 $\complement A$，运算 $\cup$，$\cap$ 分别可以通过 $\cap$，$\cup$ 得到，而保留运算的序。这就是*二元性规则*。给定上述形式的子集之间的等式 $A = B$，考虑等效的等式 $\complement A = \complement B$。如果我们通过应用对偶规则得到的表达式替换$\complement A$和$\complement B$，然后我们分别通过X，Y，Z替换$\complement X$，$\complement Y$，$\complement Z$，反之亦然，我们得到等式称为$A = B$ 的*对偶*。我们可以对关系$A \subset B$做同样的事情，但是我们必须注意替换符号“$\subset$”被“$\supset$”。
+15. 根据恒等式 (8) 我们结论如果 E 的子集 A 是通过应用 *仅* 运算 $\complement$, $\cup$, $\cap$ 从其他子集 X, Y, Z 获得序)，那么补集$\complement A$可以由替换子集X获得，Y、Z由各自的补集获得，运算$\cup$、$\cap$分别由$\cap$、$\cup$获得，同时保持序共运算。 这就是*二元性规则*。 给定上述形式的子集之间的等式$A = B$，考虑等效的等式$\complement A = \complement B$。 如果我们通过应用对偶规则得到的表达式替换$\complement A$和$\complement B$，然后我们分别通过X，Y，Z替换，$\complement X$，$\complement Y$，$\complement Z$，反之亦然，我们得到等式称为*双*$A = B$。 我们可以对关系$A \subset B$做同样的事情，但是我们必须注意替换符号“$\subset$”和“$\supset$”。
 
-上述带有相同数的身份是彼此的对偶。
+上述带有相同数的恒等式是互为对偶的。
 
-16. 在某些问题中，我们必须考虑集合 E 的固定子集 A。如果X是E的任意子集，则集合$A \cap X$称为X在A上的*踪迹*，有时表示为$X_A$；在这种情况下，它被认为是 A 的子集。对于所有子集 X，E 的 Y 我们有
+16. 在某些问题中，我们必须考虑集合 E 的固定子集 A。如果X是E的任意子集，集合 $A \cap X$称为X在A上的*踪迹*，有时用$X_A$表示；在这种情况下，它被认为是 A 的子集。对于所有子集 X，E 的 Y 我们有
 
 $$(X \cup Y)_A = X_A \cup Y_A, \qquad (X \cap Y)_A = X_A \cap Y_A,$$
 
@@ -142,7 +142,7 @@ $$\complement_A X_A = (\complement_E X)_A,$$
 
 其中$\complement_E X$表示E中X的补集，$\complement_A X_A$表示A中$X_A$的补集。
 
-如果$\mathfrak{S}$表示E的子集的集合，则$\mathfrak{S}$的集合在A上的迹线的集合$\mathfrak{S}_A$称为A上$\mathfrak{S}$的*迹线*。
+如果$\mathfrak{S}$表示E的子集的集合，则$\mathfrak{S}$的集合在A上的迹线集合$\mathfrak{S}_A$称为A上$\mathfrak{S}$的*迹线*。
 
 [^1]: 当表示元素的符号是多个符号的组合并且要插入到关系中代替单个字母时，习惯上将其放在序中的括号中以避免可能的混淆。
-[^2]: 需要强调的是，当我们谈到集合 E 的泛型* 元素的 *性质时，这绝不意味着性质对于 E 的*每个* 元素都是正确的，而只是意味着它对于 *每个* 元素 *有一定的意义* E；对于其中一些元素来说可能是正确的，而对于其他人来说可能是错误的。对于关系也是如此。
+[^2]: 应该强调的是，当我们谈到集合 E 的泛型* 元素的 *性质时，这绝不意味着性质对于 E 的*每个* 元素都是正确的，而只是它对于 E 的*每个* 元素 *有一个含义*；对于其中一些元素来说可能是正确的，而对于其他人来说可能是错误的。 对于关系也是如此。

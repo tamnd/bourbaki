@@ -26,16 +26,16 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: 7b51ba95706df481df3da241acc9a00367de7e02f1e6a5d59ecd9aa5f82a917f
+content_sha256: 9594c6fc59f0f69a59e22a8938791cb41317e9218e45651ffbb02b784fc7c7d5
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 translation_method: google
 source_content_sha256: 581af5e1e6500b23403ced41ae2a03e6692f4156d4da25e5f960df6e8a7c1371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0060e0ac2b9c483ea1d381f443facc4c61e8fb63aa73b7eae37b604d14bce85f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。多项式的零
@@ -133,7 +133,7 @@ $$
 f_i(X) = \prod_{j \in U(i)} (X - \alpha_j)/(\alpha_i - \alpha_j),
 $$
 
-*其中$U(i)$是整数$j$的集合，使得$j \neq i$和$1 \leq j \leq n$。那么 $\beta_1 f_1 + \ldots + \beta_n f_n$ 是 $K[X]$ 的唯一元素 $f$，使得 $\deg f < n$ 和 $f(\alpha_i) = \beta_i$ 对应 $1 \leq i \leq n$。*
+*其中$U(i)$是整数$j$的集合，使得$j \neq i$和$1 \leq j \leq n$。那么 $\beta_1 f_1 + \ldots + \beta_n f_n$ 是 $K[X]$ 的唯一元素 $f$，这样$\deg f < n$ 和$f(\alpha_i) = \beta_i$ $1 \leq i \leq n$。*
 
 唯一性关闭来自Cor。至 Th。 1.设$f = \beta_1 f_1 + \ldots + \beta_n f_n$，那么由于$f_i$有次数$n - 1$，所以我们有$\deg f < n$。另一方面，$f_i(\alpha_j) = 0$代表$j \neq i$和$f_i(\alpha_i) = 1$，因此$f(\alpha_i) = \beta_i$代表$1 \leq i \leq n$。
 
@@ -145,9 +145,9 @@ $$
 
 #### 命题 7 {#alg-iv-s2-prop-7 .statement tag=06B0}
 
-— 令 $f \in \mathbf{A}[X]$ 且令 $a \in \mathbf{A}$ 为根关：为了使 $a$ 成为简单的根关，$a$ 不应是 $f$ 的导数 $Df$ 的根是必要且充分的。
+— 令 $f \in \mathbf{A}[X]$ 且令 $a \in \mathbf{A}$ 为根关：为了使 $a$ 成为简单的根关，$a$ 不应该是 $f$ 的导数 $Df$ 的根是充分必要的。
 
-到假设，我们有$f = (X - a)\ g$，其中$g \in \mathbf{A}[X]$。要使$a$成为$f$的简单根，$g(\alpha) \neq 0$是必要且充分的。现在我们有$Df = g + (X - \alpha)\ Dg$，从而$(Df)(\alpha) = g(\alpha)$。
+到假设，我们有$f = (X - a)\ g$，其中$g \in \mathbf{A}[X]$。要使$a$成为$f$的简单根，$g(\alpha) \neq 0$是充分必要的。现在我们有$Df = g + (X - \alpha)\ Dg$，从而$(Df)(\alpha) = g(\alpha)$。
 
 更一般地说：
 
@@ -155,21 +155,21 @@ $$
 
 — 设$f \in \mathbf{A}[X]$和$a \in \mathbf{A}$，并假设$a$相对于$f$有阶$k \geq 1$：则$a$相对于$Df$有阶$\geq k - 1$。如果$k . 1$在$\mathbf{A}$中可取消，则$a$相对于$Df$有阶$k - 1$。
 
-到假设，存在$g \in \mathbf{A}[X]$，使得$f = (X - a)^k g$和$g(a) \neq 0$。因此$Df = k(X - \alpha)^{k-1}g + (X - \alpha)^k Dg = (X - \alpha)^{k-1}(kg + (X - \alpha)\ Dg)$，它建立了命题的第一个部分。 $X = \alpha$的$kg + (X - \alpha)\ Dg$的值是$kg(a)$，如果$k . 1$在$\mathbf{A}$中可取消，则该值非零；这就证明了命题的第二个部分。
+到假设，存在$g \in \mathbf{A}[X]$，使得$f = (X - a)^k g$和$g(a) \neq 0$。因此$Df = k(X - \alpha)^{k-1}g + (X - \alpha)^k Dg = (X - \alpha)^{k-1}(kg + (X - \alpha)\ Dg)$，它建立了命题的第一个部分。 $X = \alpha$的$kg + (X - \alpha)\ Dg$的值是$kg(a)$，并且如果$k . 1$在$\mathbf{A}$中可取消，则该值非零；这就证明了命题的第二个部分。
 
 令$k$为整数$> 0$，使得$k . 1 = 0$包含在$\mathbf{A}$中。如果$f(X) = X^k$，则$0$是$f$的阶$k$根，以及$Df$的任意高阶的根。
 
 #### 推论{#alg-iv-s2-n2-cor-1 .statement tag=06B2}
 
-— 设$f \in \mathbf{A}[X]$、$a \in \mathbf{A}$和$p$整数$\geq 0$，进一步假设$p! . 1$在$\mathbf{A}$中可取消。那么，为了使$a$成为阶的根、$f$的$p$，$a$应该是$f, Df, ..., D^{p-1}f$的根而不是$D^pf$的根是充分必要的。
+— 设$f \in \mathbf{A}[X]$、$a \in \mathbf{A}$、$p$整数$\geq 0$，进一步假设$p! . 1$在$\mathbf{A}$中可取消。那么，为了使$a$成为阶的根、$f$的$p$，$a$应该是$f, Df, ..., D^{p-1}f$的根而不是$D^pf$的根是充分必要的。
 
-这是根据归纳于 $p$ 提出的第 8 号提案得出的。
+这是根据归纳在 $p$ 提出的第 8 号提案得出的。
 
 ### 3. 多项式函数无限整环
 
 #### 命题 9 {#alg-iv-s2-prop-9 .statement tag=06B3}
 
-— 假设 $A$ 是整环。令$I$为集合，$(\mathbf{H}_i)_{i \in I}$由$\mathbf{A}$和$H = \prod_{i \in I} \mathbf{H}_i \subset A'$组成的无限子集族。 Iff 是 $\mathbf{A}[(X_i)_{i \in I}]$ 的非零元素，并且是所有 $x \in H$ 的 $H_f$ 集合，使得 $f(x) \neq 0$，则 $H$ 和 $H_f$ 等价。
+— 假设 $A$ 为整环。令$I$为集合，$(\mathbf{H}_i)_{i \in I}$由$\mathbf{A}$和$H = \prod_{i \in I} \mathbf{H}_i \subset A'$组成的无限子集族。 Iff 是 $\mathbf{A}[(X_i)_{i \in I}]$ 的非零元素，以及所有 $x \in H$ 的 $H_f$ 集合，使得 $f(x) \neq 0$，则 $H$ 和 $H_f$ 等价。
 
 a) 首先假设$I$是有限的，并放入$n = \mathrm{Card}\ I$。 命题对于$n = 0$来说是清晰的；我们将通过$n$上的归纳来证明它。 $I$的选择元素$i_0$并放入$J = I - \{i_0\}$，$B = \mathbf{A}[(X_i)_{i \in J}]$。从$f \neq 0$开始，我们可以写成$f = \sum_{k=0}^m g_k X_{i_0}^k$，其中$g_0, \ldots, g_m \in B$和$g_m \neq 0$。通过所有$x \in \prod_{i \in s} H_i$的归纳假设集合K，使得$g_m(x) \neq 0$与$\prod_{i \in J} H_i$等价。对于 $x \in K$ 多项式
 $$
@@ -222,4 +222,4 @@ b) *对于所有* $x \in \mathbf{A}^1$ *这样* $g_1(x) \neq 0, \ldots, g_m(x) \
 
 ### 习题 {#alg-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

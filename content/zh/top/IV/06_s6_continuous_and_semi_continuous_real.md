@@ -21,27 +21,27 @@ subsections:
       pdf_page: 366
 statements: 15
 exercises: 15
-content_sha256: 5b79009da5753c231e283e8070112f85fef7cbbba44d0707772ad69cc4fd1d2a
+content_sha256: 0843833086c743480ae10ca744007f30f6015009bcea86adcfb1499d218a2018
 translated_from: content/en/top/IV/06_s6_continuous_and_semi_continuous_real.md
 translation_method: google
 source_content_sha256: a4a4561480f34bbe62b92e5864816f73a0e123a5320283ae8272978222d04a91
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 3893623cb4905cce5f7c6cbf32df8c02d1502f2c7c96324609eca9ddd35259ef
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 6.连续和半连续实值函数
+## 6. 连续和半连续实值函数
 
-### 1.连续实值函数
+### 1. 连续实值函数
 
 除了任意拓扑空间 (章 I, § 2) 中连续函数和值的一般性质外，连续实值函数还具有以下两个基本性质：
 
 #### 定理 1（威尔斯特拉斯）{#top-iv-s6-thm-1 .statement tag=0BSF}
 
-令$f$是定义在非空准紧空间$X$上的连续实值函数。那么至少有一个点$a \in X$使得$f(a) = \sup_{x \in X} (f(x))$，并且至少有一个点$b \in X$使得$f(b) = \inf_{x \in X} f(x)$。因为 $f(X)$ 是紧致的 (章 I, § 9, no. 4, 定理 2)，因此在 $\overline{\mathbf{R}}$ 中封闭；因此 $f(X)$ 包含它的界限。
+令$f$为定义在非空准紧空间$X$上的连续实值函数。那么至少有一个点$a \in X$使得$f(a) = \sup_{x \in X} (f(x))$，并且至少有一个点$b \in X$使得$f(b) = \inf_{x \in X} f(x)$。因为 $f(X)$ 是紧致的 (章 I, § 9, no. 4, 定理 2)，因此在 $\overline{\mathbf{R}}$ 中闭合；因此 $f(X)$ 包含它的界限。
 
 这个定理经常在形式中表述，非空拟紧空间上的连续实值函数达到其界限。
 
@@ -51,17 +51,17 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定理 2（博尔扎诺）{#top-iv-s6-thm-2 .statement tag=0BSH}
 
-令 $f$ 为定义在连接的空间 $X$ 上的连续实值函数。如果$a$和$b$是$X$中的任意两个点，且$\alpha$是实数属于到端点为$f(a)$和$f(b)$的闭区间，则至少有一个点$x \in X$使得$f(x) = \alpha$。
+令 $f$ 为定义在连接的空间 $X$ 上的连续实值函数。如果$a$和$b$是$X$中的任意两个点，并且如果$\alpha$是实数属于到端点为$f(a)$和$f(b)$的闭区间，则至少有一个点$x \in X$使得$f(x) = \alpha$。
 
 因为 $f(X)$ 是连通的 (章 I, § 11, no. 2, 命题 4)，因此是$\overline{\mathbf{R}}$ (§ 4, no. 2, 命题 5) 的区间；因此它是包含，端点为$f(a)$和$f(b)$的闭区间。
 
-这个定理通常用形式来表达，即连接的空间不能上的连续实值函数从一个值传递到另一个，而无需经过通过所有中间值*。
+这个定理通常用形式来表示，即连接的空间不能上的连续实值函数从一个值传递到另一个，而无需经过通过所有中间值*。
 
-这个性质绝不是连续函数的特征；在连接的空间上定义了函数的例，并且*在每个点* 处不连续，其中有这个性质 (习题 2)。
+这个性质绝不是连续函数的特征；在连接的空间上定义了函数的例，并且*在每个点*处不连续，其中有这个性质（习题2）。
 
-### 2.半连续函数
+### 2. 半连续函数
 
-令$f$为定义在拓扑空间$X$上的实值函数。为了使 $f$ 在点 $a \in X$ 连续，有必要且充分：
+令$f$为定义在拓扑空间$X$上的实值函数。要使 $f$ 在点 $a \in X$ 连续，满足以下条件是充分必要的：
 (i) 给定任何实数$h < f(a)$，存在$a$的邻域$V$，使得在每个点$x \in V$我们有$h < f(x)$；
 (ii) 给定任何实数$k > f(a)$，存在$a$的邻域$W$，使得在每个点$x \in W$我们有$k > f(x)$。
 
@@ -71,7 +71,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *实值函数$f$，定义在拓扑空间$X$上，据说是下半连续*（或*上半连续*）*在点$a \in X$，如果对于每个$h < f(a)$[或。每个$k > f(a)$]都有邻域$V$/$a$，这样$h < f(x)$[分别。 $k > f(x)$] *每个* $x \in V$。
 
-*实值函数被认为是下半连续*（或*上半连续*）*在$X$上，如果它是下半连续*（或*上半连续*）*在$X$*的每个点。
+*实值函数被称为下半连续*（或*上半连续*）*在$X$上，如果它是下半连续*（或*上半连续*）*在$X$*的每个点*。
 
 因此，实值函数$f$在点$a$处*连续*当且仅当它在$a$处*上半连续*和下半连续*。
 
@@ -151,18 +151,18 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 $$
 h \leq \inf_{x \in V} f(x) \leq \liminf_{x \to a} f(x)
 $$
-(§ 5, no. 6, 公式 (12))，等等 $f(a) \leq \liminf_{x \to a} f(x)$。 条件*足够*；因为如果满足，则对于每个$h < f(a)$，$a$都有邻域V，使得$h \leq \inf_{x \in V} f(x)$，因此$f$在$a$处是下半连续的。
+（§ 5, no. 6，公式（12）），等等$f(a) \leq \liminf_{x \to a} f(x)$。 条件*足够*；因为如果满足，则对于每个$h < f(a)$，$a$都有邻域V，使得$h \leq \inf_{x \in V} f(x)$，因此$f$在$a$处是下半连续的。
 
 #### 命题 4 {#top-iv-s6-prop-4 .statement tag=0BST}
 
-*设 f 是在拓扑空间 X 的稠密子集 A 上定义的任何实值函数。如果对于每个 $x \in X$，我们放置* $g(x) = \liminf_{y \to x, y \in A} f(y)$，*则 g 在 X* 上是下半连续的。
+*设 f 是在拓扑空间 X 的稠密子集 A 上定义的任意实值函数。如果对于每个 $x \in X$，我们放置* $g(x) = \liminf_{y \to x, y \in A} f(y)$，*则 g 在 X* 上是下半连续的。
 
 因为，给定任何$h < g(x)$，都存在$x$的*开*邻域V，这样，对于所有$z \in V \cap A$，我们有$h < f(z)$；现在 V 是其每个点 $y$ 的邻域；因此，我们对所有 $y \in V$ 都有 $\liminf_{z \to y, z \in A} f(z) = g(y) \geq h$，结果如下。
 
 函数$g$称为$f$的*下半连续正则化*。我们类似地对定义 $f$ 进行*上半连续正则化*。
 
-我们也可以将定义$g$作为X上下半连续函数$\varphi$的*最大的*，对于所有$x \in A$来说$\varphi(x) \leq f(x)$。如果 $f$ 是 A 上的*下半连续*，则 $g$ 是 $f$ 到 X 的 *扩张*，乘以命题 3。
+我们也可以将定义$g$作为X上下半连续函数$\varphi$的*最大的*，对于所有$x \in A$来说$\varphi(x) \leq f(x)$。如果 $f$ 是 A 上的*下半连续*，则 $g$ 是 $f$ 到 X 命题 3 的 *扩张*。
 
-### 习题 {#top-iv-s6-exercises}
+### 习题{#top-iv-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

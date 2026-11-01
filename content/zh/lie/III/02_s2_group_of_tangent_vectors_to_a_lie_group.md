@@ -25,29 +25,29 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: b7381b19120cd052b3dd4df59ee296e2f7fcfe2fd85380c4a9655ce321c4c255
+content_sha256: 963f4bda36ab07046752d9258f718da283697ab03423a39732073fada575a6d5
 translated_from: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
 translation_method: google
 source_content_sha256: 9312e1a966f1c5bc60ded7611d1345461f06db492fc343d729b16bcbbd46a1c0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 2c799a8e5f86a04dd77a0386b2ce07d96bd5075e758eaece4e03ee8cbc3ec844
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 群向量与李群的切线
 
-### 1. 合成律的切线
+### 1. 合成的切线律
 
-令X和Y为类C^r中的流形。我们知道（可微分和解析流形，R，8.1.4）X\times Y 是类C^r 的流形，并且映射 (T(pr_1), T(pr_2)), 乘积映射与规范投影的切线，是 T(X \times Y) 的类 C^{r-1} 到 T(X) \times T(Y) 的同构。\footnote{对于 r = 1，这意味着(T(pr_1), T(pr_2)) 是 T(X \times Y) 的同态到 T(X) \times T(Y)。} 这个同构与向量丛结构和基空间兼容X \times Y 并允许我们认同 T(X \times Y) 和 T(X) \times T(Y)。设a ε X，b ε Y，u ε T_a(X)，v ε T_b(Y)；上述识别允许我们将 (u, v) 视为 T_{(a, b)}(X × Y) 的元素；然后
+令X和Y为类C^r中的流形。我们知道（可微分和解析流形，R，8.1.4）X\times Y是类C^r的流形，并且映射（T（pr_1），T（pr_2）），乘积映射与规范投影的切线，是 T(X \times Y) 的类 C^{r-1} 到 T(X) \times T(Y) 的同构。\footnote{对于 r = 1，这意味着(T(pr_1), T(pr_2)) 是 T(X \times Y) 的同态到 T(X) \times T(Y)。} 这个同构与向量丛结构和基空间兼容X \times Y 并允许我们认同 T(X \times Y) 和 T(X) \times T(Y)。设a ε X，b ε Y，u ε T_a(X)，v ε T_b(Y)；上述识别允许我们将 (u, v) 视为 T_{(a, b)}(X × Y) 的元素；那么
 
 $$(u, v) = (u, 0) + (0, v)$$
 
 (u, 0) (resp. (0, v)) 是 u (resp. v) 的像在 X (resp. Y) 的浸没 x ↦ (x, b) (resp. y ↦ (a, y)) 到 X × Y 的切线映射下。准确地说，我们将 T_a(x) 的零元素写为 0_a。
 
-现在设 X, Y, Z 为类 C^r 的流形，以及 X × Y 的类 C^r 到 Z 的 f 映射。使用上述标识，映射的切线为，将 T(X) × T(Y) 的映射类 C^{r-1} 转换为 T(Z)。对于 u Î T_a(X) 且 v Î T_b(Y)，
+现在设X，Y，Z为类C^r的流形和X×Y到Z的类C^r的f映射。使用上述标识，映射的切线为，将 T(X) × T(Y) 的映射类 C^{r-1} 转换为 T(Z)。对于 u Î T_a(X) 且 v Î T_b(Y)，
 
 (1)
 $$T(f)(u, v) = T(f)(u, 0_b) + T(f)(0_a, v),$$
@@ -62,9 +62,9 @@ $$T(f)(0_a, 0_b) = 0_{f(a, b)}.$$
 
 (4) $T(f)(u, 0)$ 是 u 在映射到 $x \mapsto f(x, b)$ 的切线下的像。
 
-如果 X × Y 的映射 f 进入 Z 表示为 (x, y) ↦ xy，则 uv 常用于表示元素 T(f)(u, v)，因为 u ∈ T(X), v ∈ T(Y)。
+如果将 X × Y 的映射 f 代入 Z 表示为 (x, y) ↦ xy，则 uv 常用于表示元素 T(f)(u, v)，因为 u ∈ T(X)，v ∈ T(Y)。
 
-设X为类C^r流形和m：X×X→类合成X律 C^r 于 X。那么T(m)就是T(X)上类C^{r-1}合成律。称为合成与 m 的切线律。 T(X)在X上的规范投影 p与律 m和T(m)相容的；在其他字，
+设X为类C^r流形和m：X×X→类合成X律 C^r 于X。那么T(m)就是T(X)上类C^{r-1}合成律。称为合成与 m 的切线律。 T(X)在X上的规范投影p与律m和T(m)相容的；在其他字，
 
 (5)
 $$p \circ T(m) = m \circ (p \times p).$$
@@ -74,7 +74,7 @@ $$p \circ T(m) = m \circ (p \times p).$$
 (6)
 $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
-对于 X 中的所有 x, y；其他字、T(X)的零、截面$x \mapsto 0_x$与律 m和T(m)相容的。
+对于 X 中的所有 x, y；其他字、T(X)的零、截面$x \mapsto 0_x$与律 m 和 T(m) 相容的。
 
 #### 命题 1 {#lie-iii-s2-prop-1 .statement tag=0A8Y}
 
@@ -84,7 +84,7 @@ $$T(m)(0_x, 0_y) = 0_{m(x, y)}$$
 
 $$T(m) \circ (T(m) \times \mathrm{Id}_{T(X)}) = T(m) \circ (\mathrm{Id}_{T(X)} \times T(m))$$
 
-因此 $T(m)$ 是结合律。设$s$为$X \times X$的映射$(x, y) \mapsto (y, x)$到$X \times X$。如果 $m$ 是可交换的，则 $m \circ s = m$ 因此
+因此 $T(m)$ 是结合律。设 $s$ 为 $X \times X$ 的映射 $(x, y) \mapsto (y, x)$ 到 $X \times X$。如果 $m$ 是可交换的，则 $m \circ s = m$ 因此
 
 $$
 T(m) \circ T(s) = T(m).
@@ -94,7 +94,7 @@ $$
 
 #### 命题 2 {#lie-iii-s2-prop-2 .statement tag=0A8Z}
 
-*令$X$为类$C^r$流形，$X$和$e$上类$C^r$合成$m$律单位元素 $m$。
+*令$X$为类$C^r$流形，$X$和$e$上类$C^r$合成$m$律单位元素换$m$。
 
 (i) *向量 $0_e$ 是单位元素对应$T(m)$。
 (ii) *$T_e(X)$在$T(m)$和律下稳定，合成在$T_e(X)$上由$T(m)$诱导为向量空间加法在$T_e(X)$上。
@@ -116,11 +116,11 @@ $$
 
 #### 命题 3 {#lie-iii-s2-prop-3 .statement tag=0A90}
 
-*令$X_1, X_2, \ldots, X_p, Y$为类$C^r$流形、$\{1, p\}$、$m_i$$i$整数（分别为$n$）类合成律 $C^r$ $X_i$（分别为 $Y$）和$u$ 映射类 $C^r$ $X_1 \times X_2 \times \cdots \times X_p$ 进入$Y$。如果 $u$ 相对于指标 $i$ 变量具有分配性，则 $T(u)$ 相对于指标 $i$ 变量具有分配性。
+*设$X_1, X_2, \ldots, X_p, Y$为类$C^r$流形，$\{1, p\}$$i$整数，$m_i$（分别为$n$）类合成律 $C^r$ $X_i$（分别为 $Y$）和$u$ 映射类 $C^r$ $X_1 \times X_2 \times \cdots \times X_p$ 进入$Y$。如果 $u$ 相对于指标 $i$ 变量具有分配性，则 $T(u)$ 相对于指标 $i$ 变量具有分配性。
 
 证明类似于命题 1。
 
-### 2. 群与向量到李群的切线
+### 2. 向量到李群的切线群
 
 #### 命题 4 {#lie-iii-s2-prop-4 .statement tag=0A91}
 
@@ -180,7 +180,7 @@ $$
 
 对于 $n \geqslant 0$，其后面是从命题 7 到 $n$ 的归纳。另一方面，$e$ 到映射 $g \mapsto g^{-1}$ 的切线映射是映射 $x \mapsto -x$ (no. 1， 命题2)。
 
-设G为类C^r的李群、X流形和X上G的类C^r的左运算的(g,x)\mapsto gx律。 对于命题 1，我们推导出T(G)在T(X)上的类C^{r-1}的左运算的律，我们也将其表示为(u, v) \mapsto uv。 识别 G（分别 X) 与 T(G) 的像零截面（分别为 T(X))，由(6)可知，T(G)左运算的律在T(X)上扩展律在X上G的左运算。 对于所有 u \in T_g(G) 和 v \in T_x(X)，通过 (1)，
+设G为类C^r的李群、X流形和X上G的类C^r的左运算的(g,x)\mapsto gx律。 对于命题 1，我们推导出T(G)在T(X)上的类C^{r-1}的左运算的律，我们也将其表示为(u, v) \mapsto uv。 将 G（分别为 X）与 T(G) 的零截面的像（分别为 T(X)）进行识别，我们可以通过 (6) 看到 T(G) 的左运算的律在 T(X) 扩展上X 上 G 左侧运算的律。 对于所有 u \in T_g(G) 和 v \in T_x(X)，通过 (1)，
 
 $$
 uv = gv + ux.

@@ -68,23 +68,23 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: ba4e3735440ef1068f7ffbbeb36ba5a3de79a42309b3136630951f408d8d03e2
+content_sha256: 503b0bab18cfe5f1f01620828bd1a0920b816fc45d365132886587a9e36753c0
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
 translation_method: google
 source_content_sha256: 45e10d913c1a6d6fc187b08ddce9c5ebb593714b0771388b35b7618ac35e06d7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 87ca053881d925dad55d0adf1993ce476241734709b303fd82e19dfa3a03df75
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 根系的分类
 
-### 1.有限考克斯特群
+### 1. 有限考克塞特群
 
-在这个截面中，我们将要确定，直到同构，所有根系，因此所有晶体群（§ 2, no. 5）。更一般地，我们首先确定有限维实数向量空间中的反射生成的所有有限群：这相当于（第V, § 4, no. 8）确定所有有限的Coxeter群，或（第V, § 4, no. 8，第2章）确定有限的所有Coxeter矩阵阶使得相关的双线性形式是正的且非简并的。
+在这个截面中，我们将要确定，直到同构，所有根系，因此所有晶体群（§ 2, no. 5）。更一般地，我们首先确定有限维实数向量空间中的反射生成的所有有限群：这相当于（第 V, § 4, no. 8 章）确定所有有限 Coxeter 群，或（第 V, § 4, no. 8，第 2 章）确定有限维的所有 Coxeter 矩阵阶使得相关的双线性形式是正的且非简并的。
 
 令 $M = (m_{ij})_{i,j \in I}$ 为有限阶 $l$ 的 Coxeter 矩阵。放
 
@@ -100,15 +100,15 @@ $$
 
 用 $(X, f)$ 表示 $M$ 的 Coxeter 图（第 IV, § 1, no. 9）。如果$a$是$X$的边，则$f(a)$称为$a$的阶。
 
-在这个数的其余部分中，由$M$（第V, § 4, no. 3章）定义的Coxeter群$W(M)$被假设为有限的，因而$q$是正的且非退化的，$X$是一个森林（第V, § 4, no. 8章，提案 8）。我们还假设$X$是连通的（在其他字中，Coxeter群$W(M)$是不可约的），因而$X$是一棵树。
+在这个数的其余部分中，由$M$（第V, § 4, no. 3章）定义的Coxeter群$W(M)$被假设是有限的，因而$q$是正的且非退化的，$X$是一个森林（第V, § 4, no. 8章，提案 8）。我们还假设$X$是连通的（在其他字中，Coxeter群$W(M)$是不可约的），因而$X$是一棵树。
 
-从$q$为正且非退化的条件，我们将在$m_{ij}$上获得条件，这将使我们能够列出相应的 Coxeter图的所有可能性；剩下的只是表明这些可能性实际上已实现，而在其他字中，相应的群$W(M)$是有限的。
+从$q$为正且非退化的条件，我们将在$m_{ij}$上获得条件，这将使我们能够列出相应的 Coxeter图的所有可能性；剩下的只是证明这些可能性实际上已经实现，而在其他字中，相应的群$W(M)$是有限的。
 
 #### 引理 1 {#lie-vi-s4-lem-1 .statement tag=0AY2}
 
 对于所有 $i$、$\sum_{j \neq i} q_{ij}^2 < 1$。
 
-令$J$为$j \in I$的集合，使得$q_{ij} \neq 0$，在其他字中使得$\{i, j\}$是$X$的边。如果$j, j' \in J$和$j \neq j'$，$\{j, j'\}$不是边（否则$i, j, j'$将形式一条电路），所以$(e_j|e_{j'}) = 0$。让$F = \sum_{j \in J} \mathbf{R} e_j$。那么 $(e_j)_{j \in J}$ 是 $F$ 的正交基。从 $e_i$ 到 $F$ 的距离 $d$ 由 $d^2 = 1 - \sum_{j \in J} (e_i|e_j)^2 = 1 - \sum_{j \in J} q_{ij}^2 = 1 - \sum_{j \neq i} q_{ij}^2$ 给出，因此为引理。
+令$J$为$j \in I$的集合，使得$q_{ij} \neq 0$，在其他字中使得$\{i, j\}$是$X$的边。如果$j, j' \in J$和$j \neq j'$，$\{j, j'\}$不是边（否则$i, j, j'$将是形式一条电路），所以$(e_j|e_{j'}) = 0$。让$F = \sum_{j \in J} \mathbf{R} e_j$。那么 $(e_j)_{j \in J}$ 是 $F$ 的正交基。从 $e_i$ 到 $F$ 的距离 $d$ 由 $d^2 = 1 - \sum_{j \in J} (e_i|e_j)^2 = 1 - \sum_{j \in J} q_{ij}^2 = 1 - \sum_{j \neq i} q_{ij}^2$ 给出，因此为引理。
 
 #### 引理 2 {#lie-vi-s4-lem-2 .statement tag=0AY3}
 
@@ -209,11 +209,11 @@ $$
 
 (i) 如果边 {2, 3}, {3, 4}, ..., {l - 2, l - 1} 之一的大小为阶 $\geq 4$，则该边的大小为阶 4，并且图形如下：
 
-![4个节点连接成链的图](../images/chain_4.png)
+![具有 4 个节点连接成链的图](../images/chain_4.png)
 
 (ii) 如果边 {1, 2} 的大小为阶 5，则该图为以下之一：
 
-![5个节点连成链的图](../images/chains_5.png)
+![具有 5 个节点以链连接的图](../images/chains_5.png)
 
 我们可以假设 $l > 2$ (引理 4)。假设$\{i, i + 1\}$是阶$\geq 4$，还有$1 \leq i \leq l - 1$。放
 
@@ -253,7 +253,7 @@ $$
 
 因此$m = 4$。这就证明了(i)。如果$i = 1$和$m = 5$，则$2j + 2 > 4j \frac{3+\sqrt{5}}{8}$，或$j \frac{\sqrt{5}-1}{2} < 2, j < \sqrt{5} + 1 < 4$，等等$l = j + 1 \leq 4$。这就证明了(ii)。
 
-$^1$ 1 中与 1 不同的第 5 个根是 $z^4 + z^3 + z^2 + z + 1 = 0$ 的解。代入$x = \frac{1}{2}(z + \frac{1}{z})$，这个方程就变成了$(2x)^2 - 2 + 2x + 1 = 0$，或者$4x^2 + 2x - 1 = 0$，所以$x = \frac{-1 \pm \sqrt{5}}{4}$。因此，
+$^1$ 1 中与 1 不同的第 5 个根是 $z^4 + z^3 + z^2 + z + 1 = 0$ 中的解。代入$x = \frac{1}{2}(z + \frac{1}{z})$，这个方程就变成了$(2x)^2 - 2 + 2x + 1 = 0$，或者$4x^2 + 2x - 1 = 0$，所以$x = \frac{-1 \pm \sqrt{5}}{4}$。因此，
 
 $$
 2 \cos^2 \frac{\pi}{5} - 1 = \cos \frac{2\pi}{5} = \frac{\sqrt{5} - 1}{4}, \quad \cos^4 \frac{\pi}{5} = \frac{3 + \sqrt{5}}{8} > \frac{5}{8} > \frac{9}{16}, \quad \cos \frac{\pi}{5} = \frac{1 + \sqrt{5}}{4}.
@@ -261,7 +261,7 @@ $$
 
 #### 引理 10 {#lie-vi-s4-lem-10 .statement tag=0AYB}
 
-如果X有分支点i，则完整子图X - {i}是三个链的并，并且如果p - 1，q - 1，r - 1是这些链的长度，则三元组{p，q，r}等于三元组之一，直到置换 {1, 2, 2}，{1, 2, 3}，{1, 2, 4}，{1, 1, m}（对于某些 m $\geq 1$）。
+如果 X 具有分支点 i，则完整子图 X - {i} 是三个链的并，并且如果 p - 1、q - 1、r - 1 是这些链的长度，则三元组 {p, q, r} 等于三元组之一，直到置换 {1, 2, 2}，{1, 2, 3}，{1, 2, 4}，{1, 1, m}（对于某些 m $\geq 1$）。
 
 顶点 i 属于到 3 条边 (引理 2)，并且没有其他分支点 (引理 7)，因此完整子图 X - {i} 是 3 个链 X_1、X_2、X_3 的和，每个链都有一个链接到 i 的终端顶点X。令 {i_1, i_2}, {i_2, i_3}, ..., {i_{p-1}, i_p} 为 X_1 的边，{j_1, j_2}, {j_2, j_3}, ..., {j_{q-1}, j_q} 为 X_2 的边，{k_1, k_2}, {k_2, k_3}, ..., {k_{r-1}， k_r} X_3 的那些，其中 i_1、j_1、k_1 链接到 X 中的 i。我们可以假设$p \geq q \geq r \geq 1$。放
 
@@ -323,9 +323,9 @@ I_2(p) p (p = 5\ 或\ p \geq 7)。
 
 这些图中没有两个是同构的。
 
-事实上，令 W = (m_{ij}) 为 (W, S) 的 Coxeter 矩阵，并令 l = Card(S)。如果其中一个 m_{ij} 为 \geq 6，则 l = 2 (引理 4) 并且 (W, S) 的 Coxeter 图为型 G_2 或 I_2(p)，其中 p \geq 7。现在假设所有 m_{ij} \leq 5。
+事实上，令 W = (m_{ij}) 为 (W, S) 的 Coxeter 矩阵，并令 l = Card(S)。如果其中一个 m_{ij} 为 \geq 6，则 l = 2 (引理 4)，并且 (W, S) 的 Coxeter 图为型 G_2 或 I_2(p)，p \geq 7。现在假设所有 m_{ij} \leq 5。
 
-a) 如果 m_{ij} 不全等于 3，则 (W, S) 的图 X 是一个链，并且 m_{ij} 中恰好有一个等于 4 或 5 (引理 7)。如果 m_{ij} 之一等于 5，则引理 9 表明我们有型 H_3、H_4 或 I_2(5) 之一。如果 m_{ij} 之一等于 4，则引理 9 表明我们有型 B_1 或 F_4 之一。
+a) 如果 m_{ij} 不全部等于 3，则 (W, S) 的图 X 是一个链，并且 m_{ij} 中恰好有一个等于 4 或 5 (引理 7)。如果 m_{ij} 之一等于 5，则引理 9 表明我们有型 H_3、H_4 或 I_2(5) 之一。如果 m_{ij} 之一等于 4，则引理 9 表明我们有型 B_1 或 F_4 之一。
 
 b) 现在假设所有 m_{ij} 都等于 3。如果 X 是一条链，则 Coxeter 图为型 A_l。如果不是，则引理10表明它是型E_6、E_7、E_8或D_1。
 
@@ -337,7 +337,7 @@ b) 现在假设所有 m_{ij} 都等于 3。如果 X 是一条链，则 Coxeter �
 
 由 Th 的 Coxeter 图 A_1、B_1、...、I_2(p) 定义的 Coxeter 群。 1 是有限的。
 
-这对于 I_2(p) 来说很清楚，相应的群是阶 2p 的二面角群（第 IV, § 1, no. 9 章）。对于 H_4 相应的二次形式是
+这对于 I_2(p) 来说是清楚的，相应的群是阶 2p 的二面角群（第 IV, § 1, no. 9 章）。对于 H_4 相应的二次形式是
 
 $$
 \xi_1^2 + \xi_2^2 + \xi_3^2 + \xi_4^2 - \xi_1 \xi_2 - \xi_2 \xi_3 - 2(\cos \frac{\pi}{5}) \xi_3 \xi_4
@@ -349,11 +349,11 @@ $$
 = (\xi_2 - \frac{\xi_1 + \xi_3}{2})^2 + (\xi_4 - \frac{1 + \sqrt{5}}{4} \xi_3)^2 + \frac{3}{4} (\xi_1 - \frac{1}{3} \xi_3)^2 + \frac{7 - 3 \sqrt{5}}{24} \xi_3^2.
 $$
 
-由于$7 - 3 \sqrt{5}$是$> 0$，所以这个形式是正非简并的，而相应的Coxeter群是有限的。这同样适用于相应的到$H_3$，因为它与前面的子群同构（第IV, § 1, no. 8）。
+由于$7 - 3 \sqrt{5}$是$> 0$，所以这个形式是正非简并的，而相应的Coxeter群是有限的。这同样适用于相应的到 $H_3$，因为它与前面（第 IV, § 1, no. 8 章）的子群同构。
 
 对于型$A_l, B_l, \ldots, G_2$，我们将构造，在第5至13号中，根系具有相应的群作为Weyl群。我们将看到这些群不仅是有限的，而且是*晶体*（§ 2, no. 5）。
 
-### 2. DYNKIN 图
+### 2. 丹金图
 
 通过滥用语言，我们将调用具有以下属性的*规范图* 对 $(\Gamma, f)$：
 
@@ -452,15 +452,15 @@ $$
 
 正是直接的这样定义的图\tilde{X}和映射\tilde{f}不依赖于B的选择或标量乘积。
 
-若R的秩l等于1，则I=\{i\}且\alpha_0=-\alpha_1；因此 \tilde{f}(0, i) = 1。如果 l \geq 2，\alpha_0 不与 \alpha_i 和 \langle \alpha_0 | 中的任何一个成比例。 \alpha_i \rangle 为 \leq 0 （§ 1, no. 8，命题 25）。对于 \tilde{I} 的不同元素的任何对 (i, j)，唯一的可能性是前面数中由 1), 2), 3), 4) 表示的那些（对于例，n_{0i} = n(\alpha_0, \alpha_i) 和对于所有 i \in I，m_{0i} = s_{\alpha_0} s_{\alpha_i} 的阶)。
+若R的秩l等于1，则I=\{i\}且\alpha_0=-\alpha_1；因此 \tilde{f}(0, i) = 1。如果 l \geq 2，\alpha_0 不与 \alpha_i 和 \langle \alpha_0 | 中的任何一个成比例。 \alpha_i \rangle 为 \leq 0 （§ 1, no. 8，命题 25）。对于 \tilde{I} 的不同元素的任何对 (i, j)，唯一的可能性是前面数中由 1), 2), 3), 4) 表示的那些（对于例，n_{0i} = n(\alpha_0, \alpha_i) 和 m_{0i} = 阶的 s_{\alpha_0} s_{\alpha_i} 对于所有 i \in I)。
 
 在 l \geq 2 的情况下，完整的 Dynkin 图由图表表示，其约定与前面的数、有时相同，用虚线表示连接顶点 0 和其他顶点的键。我们注在这样的键上的不等式符号>，如果存在的话，总是指向不同于0的顶点，因为\alpha_0是最长的根（§ 1, no. 8，命题25）。图 (X, f) 是 (\tilde{X}, \tilde{f}) 删除顶点 0 得到的子图。
 
-A(R) 的作用在 (X, f) 扩展到作用在 (\tilde{X}, \tilde{f}) 上，保持 0 固定，而 W(R) 在 (\tilde{X}, \tilde{f}) 上作用微不足道。
+A(R) 的作用在 (X, f) 扩展到作用在 (\tilde{X}, \tilde{f}) 上，保持 0 固定，而 W(R) 在 (\tilde{X}, \tilde{f}) 上作用很简单。
 
-我们保留§ 2的记号、§ 2, no. 2的第5号提案以及Th。第 1 章V, § 3, no. 2，表明仿射 Weyl 群 W_a(R) 的 Coxeter 图 \Sigma 可以从 (\tilde{X}, \tilde{f}) 获得，其规则与从 (X, f) 获得 W(R) 的 Coxeter 图相同的规则。另一方面，令 G 为 W_a(R) (§ 2, no. 3) 的归一化器。对于 \Sigma 的任何 g \in G 对应自同构 \varphi(g) 且 \varphi(g) = \mathrm{Id} 如果 g \in W_a(R)。相反，根据第 11 章的第 11 章，给定自同构 \lambda 或 \Sigma，则有。 V, § 4, no. 9, 唯一元素 g = \psi(\lambda) 保留给定的凹室C，并且使得 \varphi(g) = \lambda。由于 G 是元素的子群 G_C 的半直乘积，保留 C 和 W_a(R) (§ 2, no. 3)，我们通过从 G/W_a （或从 G_C）到商同构推导出 \varphi 定义自动（\西格玛）。 直接的同构与从 A(R)/W(R) 到 G/W_a 重合的规范映射与从 A(R)/W(R) 到 Aut(\Sigma) 的同态由从 A(R)/W(R) 的同态诱发到Aut(\tilde{X}, \tilde{f}) 定义如上。由 § 2, no. 3，群 Aut(\Sigma) 同构于 的半直接乘积
+我们保留§ 2的记号、§ 2, no. 2的第5号提案以及Th。第 1 章V, § 3, no. 2，表明仿射 Weyl 群 W_a(R) 的 Coxeter 图 \Sigma 可以通过与从 (X, f) 获得 W(R) 的 Coxeter 图相同的规则从 (\tilde{X}, \tilde{f}) 获得。 另一方面，令 G 为 W_a(R) (§ 2, no. 3) 的归一化器。 对于 \Sigma 的任何 g \in G 对应自同构 \varphi(g) 且 \varphi(g) = \mathrm{Id} 如果 g \in W_a(R)。 相反，根据第 11 章的 Prop. 11，给定自同构 \lambda of \Sigma，则有。 V, § 4, no. 9, 唯一元素 g = \psi(\lambda) 保留给定的凹室C，并且使得 \varphi(g) = \lambda。 由于G是元素的子群G_C的半直接乘积，保留C和W_a(R) (§ 2, no. 3)，我们通过从G/W_a（或从G_C）到Aut(\Sigma)到商同构，推导出\varphi定义。 直接的同构与从 A(R)/W(R) 到 G/W_a 的规范映射重合与同态从 A(R)/W(R) 到 Aut(\Sigma) 由同态从 A(R)/W(R) 诱导到Aut(\tilde{X}, \tilde{f}) 定义如上。 由 § 2, no. 3，群 Aut(\Sigma) 同构于 的半直接乘积
 
-A(R)/W(R) 通过 P(R^*)/Q(R^*)。 P(R^*)/Q(R^*) 与群 $I_C = G_C \cap W'_a$ 同构（§ 2, no. 3 的记号）： Aut($\Sigma$) 的元素相应的到元素 $\gamma_i$ $I_C$变换顶点0到$\Sigma$的顶点$i$。
+A(R)/W(R) 通过 P(R^*)/Q(R^*)。 P(R^*)/Q(R^*) 与群 $I_C = G_C \cap W'_a$ 同构（§ 2, no. 3 的记号）：Aut($\Sigma$) 的元素相应的到 $I_C$ 的元素 $\gamma_i$ 变换顶点0到$\Sigma$的顶点$i$。
 
 #### 注 {#lie-vi-s4-n3-rem-1 .statement tag=0AYJ}
 
@@ -472,7 +472,7 @@ $$
 
 #### 定理 4 {#lie-vi-s4-thm-4 .statement tag=0AYK}
 
-令 (W, S) 为不可约 Coxeter 系统，且 S 有限。当且仅当 (W, S) 的 Coxeter 图与以下之一同构时，关联的二次形式（第 V, § 4, no. 1）为正且退化：
+令 (W, S) 为不可约 Coxeter 系统，且 S 有限。当且仅当 (W, S) 的 Coxeter 图与以下之一同构时，相关的二次形式（第 V, § 4, no. 1 章）为正且简并：
 
 $$
 \begin{array}{ll}
@@ -492,13 +492,13 @@ $$
 
 这些 Coxeter 图中没有两个是同构的。
 
-由章。 V, § 4, no. 9 和 § 2, no. 5 的第 8 条，二次形式为正且退化的 Coxeter 系统是对应到不可约约化根系的仿射 Weyl 群的那些。因此定理是根据第119号中完成的Dynkin图的确定得出的。下面5至13。
+由章。 V, § 4, no. 9 和 § 2, no. 5 的第 8 条，二次形式为正且退化的 Coxeter 系统是对应到不可约约化根系的仿射 Weyl 群的那些。因此，定理是根据第 7 号中完成的 Dynkin 图的确定得出的。下面5至13。
 
-### 4. 构造根系的预备知识
+### 4. 根系构造的预备课程
 
-令 V 为维数 $l \geq 1$ 的实数向量空间，配备标量乘积 $(x|y)$，L V 的离散子群，$\Lambda$ 有限数 > 0 的集合，且 $\alpha \in L$ 的 R 集合使得 $(\alpha|\alpha) \in \Lambda$。假设 R 生成 V，并且对于 R 的点中的任何对 $(\alpha, \beta)$，数 $2 \frac{(\alpha|\beta)}{(\alpha|\alpha)}$ 为整数。那么，R*是根系*V。事实上，R 显然满足 (RS_I)。让$\alpha \in R$；令$s_{\alpha}$为正交反射$x \mapsto x - 2 \frac{(x|\alpha)}{(\alpha|\alpha)} \alpha$：那么，如果$\beta \in R$，我们有$2 \frac{(\beta|\alpha)}{(\alpha|\alpha)} \in \mathbf{Z}$，所以$s_{\alpha}(\beta) \in L$，而且还有$\| s_{\alpha}(\beta) \| = \| \beta \|$，所以$s_{\alpha}(\beta) \in R$；因此，R满足(RS_{II})和(RS_{III})，并且如果$\Lambda$不包含形式$\lambda$和$4\lambda$中的两个数，则R被减小。
+令V为维数$l \geq 1$的实向量空间，配备标量乘积$(x|y)$，L为V的离散子群，$\Lambda$为集合的有限集合数 > 0，且 $\alpha \in L$ 的 R 集合使得 $(\alpha|\alpha) \in \Lambda$。假设 R 生成 V，并且对于 R 的点中的任意对 $(\alpha, \beta)$，数 $2 \frac{(\alpha|\beta)}{(\alpha|\alpha)}$ 为整数。那么，R*是根系*V。事实上，R 显然满足 (RS_I)。设 $\alpha \in R$；设$s_{\alpha}$为正交反射$x \mapsto x - 2 \frac{(x|\alpha)}{(\alpha|\alpha)} \alpha$：那么，如果$\beta \in R$，我们有$2 \frac{(\beta|\alpha)}{(\alpha|\alpha)} \in \mathbf{Z}$，所以$s_{\alpha}(\beta) \in L$，还有$\| s_{\alpha}(\beta) \| = \| \beta \|$，所以$s_{\alpha}(\beta) \in R$；因此，R满足(RS_{II})和(RS_{III})，并且如果$\Lambda$不包含形式$\lambda$和$4\lambda$中的两个数，则R被减小。
 
-现在令 V 为 $E = \mathbf{R}^n$ 的子空间。设E的$(\varepsilon_1, \ldots, \varepsilon_n)$为典范基；我们通过标量乘积为 E 配备标量乘积，其中基为正交，并为 E 配备认同 $E^*$（分别为 $V^*$ 和 V）。我们对E的定义子群$L_0, L_1, L_2, L_3$如下：
+现在令 V 为 $E = \mathbf{R}^n$ 的子空间。令$(\varepsilon_1, \ldots, \varepsilon_n)$为E的典范基；我们通过标量乘积为 E 配备标量乘积，其中基是正交的，并为 E 配备认同 $E^*$（分别为 $V^*$ 和 V）。我们对 E 定义子群 $L_0, L_1, L_2, L_3$ 如下：
 
 1) $L_0$ 是带有基 $(\varepsilon_i)$ 的 $\mathbf{Z}$ 模块。我们为所有 $\alpha, \beta \in L_0$ 提供了 $(\alpha|\beta) \in \mathbf{Z}$。 向量 $\alpha \in L_0$，其中 $(\alpha|\alpha) = 1$ 是 $\pm \varepsilon_i$ ($1 \leq i \leq n$)；那些$(\alpha|\alpha) = 2$是$i < j$的$\pm \varepsilon_i \pm \varepsilon_j$（$\pm \varepsilon_i \pm \varepsilon_j$中的两个符号$\pm$是彼此独立选择的；我们在截面的其余部分采用类似的约定）。
 
@@ -526,30 +526,30 @@ $$
 p(\frac{1}{2} \sum_{i=1}^n \varepsilon_i ) \in L_1 \Leftrightarrow p \equiv 0 \pmod{4}
 $$
 
-所以 $L_2/L_1$ 是阶 4 的循环。如果 $n$ 是偶数，
+所以$L_2/L_1$是阶 4的循环。如果$n$是偶数，
 
 $$
 p(\frac{1}{2} \sum_{i=1}^n \varepsilon_i ) \in L_1 \Leftrightarrow p \equiv 0 \pmod{2}
 $$
 
-所以$L_2/L_1$，其中包含阶 2 的两个不同的元素，与$\mathbf{Z}/2\mathbf{Z} \times \mathbf{Z}/2\mathbf{Z}$同构的。
+所以$L_2/L_1$，其中包含阶 2 中两个不同的元素，与$\mathbf{Z}/2\mathbf{Z} \times \mathbf{Z}/2\mathbf{Z}$同构的。
 
-我们将在接下来的九个中使用这个记号。和在盘子里。对于 Th 中 Dynkin 图的每个型。 3、我们要明确描述：
+我们将在接下来的九个项目中使用这个记号。和在盘子里。对于 Th 中 Dynkin 图的每个型。 3、我们要明确描述：
 
-(I)根系R和根的数。
+(I) 根系 R 和根的数。
 R 的 (II) 基 B，且相应的正根。 基 B 将由整数 1, ..., l 索引。
-(III) 考克斯特数小时(§ 1, no. 11)。
+（III）考克斯特数小时（§ 1, no. 11）。
 (IV) 最高根 $\tilde{\alpha}$（对于 B 定义的阶）和完整的 Dynkin 图 (no. 3)。我们将在 B 的每个顶点相应的根旁边注明。
 (V) 逆系 $R^-$，规范双线性形式和常数$\gamma(R)$ (§ 1, no. 12)。
 (VI) 相对于 B (§ 1, no. 10) 的基本权。
-(VII)和正根。
+正根的 (VII) 和。
 (VIII) 群 P(R)、Q(R)、P(R)/Q(R) 以及连接指标 (§ 1, no. 9)。
 (IX) W(R) 的指数（第V, § 6, no. 2，定义 2）。在情况 A_l、B_l、C_l 和 D_l 中，我们确定对称不变量。
 W(R) 的 (X) 阶（在某些情况下为结构）。
 
-(XI)群$A(R)/W(R)$，其在 Dynkin 图上的作用，以及$W(R)$的元素$w_0$即变换$B$到$-B$。
+(XI) 群 $A(R)/W(R)$，其在 Dynkin 图上的作用，以及 $W(R)$ 的元素 $w_0$ 即变换 $B$ 至 $-B$。
 
-完成的 Dynkin 图上的 $P(R^-)/Q(R^-)$ 的 (XII) 作用，以及$P(R^-)/Q(R^-)$ 上的 $A(R)/W(R)$ 作用。
+完成的 Dynkin 图上的 $P(R^-)/Q(R^-)$ 的 (XII) 作用以及$P(R^-)/Q(R^-)$ 上的 $A(R)/W(R)$ 作用。
 
 对于 Th 中的每个 Dynkin 图。 3、这些数据将被收集在板块I至IX中，并按照上述统一方式排序。我们还给予：
 
@@ -557,7 +557,7 @@ W(R) 的 (X) 阶（在某些情况下为结构）。
 
 ### 5. 系统型 $B_l$ ($l \geq 2$)
 
-(I) 我们在$V = \mathbf{R}^l$ (no. 4) 中考虑群 $L_0$。令$R$为$\alpha \in L_0$的集合，使得$(\alpha|\alpha) = 1$或$(\alpha|\alpha) = 2$，在向量$\pm \varepsilon_i$($1 \leq i \leq l$)和$\pm \varepsilon_i \pm \varepsilon_j$的其他字集合中（$1 \leq i < j \leq l$）。很明显，对于所有 $\alpha, \beta \in R$，$R$ 生成 $V$ 和 $2(\alpha|\beta)/(\alpha|\alpha) \in \mathbf{Z}$。因此，$R$ 是$V$ (no. 4) 中的约化根系。 根中的数是$n = 2l + 4^{l(l-1)/2} = 2l^2$。
+(I) 我们在$V = \mathbf{R}^l$ (no. 4) 中考虑群 $L_0$。令$R$为$\alpha \in L_0$的集合，使得$(\alpha|\alpha) = 1$或$(\alpha|\alpha) = 2$，在向量$\pm \varepsilon_i$($1 \leq i \leq l$)和$\pm \varepsilon_i \pm \varepsilon_j$的其他字集合 （$1 \leq i < j \leq l$）。很明显，对于所有 $\alpha, \beta \in R$，$R$ 生成 $V$ 和 $2(\alpha|\beta)/(\alpha|\alpha) \in \mathbf{Z}$。因此，$R$ 是$V$ (no. 4) 中的约化根系。 根中的数是$n = 2l + 4^{l(l-1)/2} = 2l^2$。
 
 (II) 放
 
@@ -655,25 +655,25 @@ $$ 1, 3, 5, \ldots, 2l - 1. $$
 
 (XI) Dynkin 图中唯一的自同构是单位元素。因而，$A(R) = W(R)$和$-1 \in W(R)$。从$-1$变换B到$-B$，我们结论即$w_0 = -1$。
 
-(XII) 群 $P(R^-)/Q(R^-)$ 与 $P(R)/Q(R)$ 对偶，因此与 $\mathbf{Z}/2\mathbf{Z}$ 同构的。它的非平凡的元素将顶点相应的排列为$\alpha_0$和$\alpha_1$，并保持其他顶点不变。
+(XII) 群 $P(R^-)/Q(R^-)$ 与 $P(R)/Q(R)$ 对偶，因此与 $\mathbf{Z}/2\mathbf{Z}$ 同构的。它的非平凡元素将顶点相应的排列为 $\alpha_0$ 和 $\alpha_1$ 并保持其他不变。
 
 ### 6. 系统型 $C_l$ ($l \geq 2$)
 
-(I)型$C_l$的根系的存在性已在no. 5中得到证明，因为我们已经看到型$B_l$的系统的逆系是型$C_l$。由此，通过取入$\mathbf{R}'$向量$\pm 2\varepsilon_i$($1 \leq i \leq l$)和$\pm \varepsilon_i \pm \varepsilon_j$($1 \leq i < j \leq l$)来获得型$C_l$的根系。 根中的数是$2l^2$。
+(I)型$C_l$的根系的存在性已在no. 5中得到证明，因为我们已经看到型$B_l$的系统的逆系是型$C_l$。因此，通过取入$\mathbf{R}'$向量$\pm 2\varepsilon_i$($1 \leq i \leq l$)和$\pm \varepsilon_i \pm \varepsilon_j$($1 \leq i < j \leq l$)来获得型$C_l$中的根系。 根中的数是$2l^2$。
 
-R的(II)基可以通过在no. 5中考虑系统的基的映射$\alpha \mapsto \frac{2\alpha}{(\alpha|\alpha)}$下取像来获得。我们得到：
+R的(II)基可以通过在no. 5中考虑系统的基的映射$\alpha \mapsto \frac{2\alpha}{(\alpha|\alpha)}$取像来获得。我们得到：
 
 $$
 \alpha_1 = \varepsilon_1 - \varepsilon_2, \quad \alpha_2 = \varepsilon_2 - \varepsilon_3, \ldots, \quad \alpha_{l-1} = \varepsilon_{l-1} - \varepsilon_l, \quad \alpha_l = 2\varepsilon_l.
 $$
 
-正根是$2\varepsilon_i$和$\varepsilon_i \pm \varepsilon_j$（$i < j$）。
+正根是 $2\varepsilon_i$ 和 $\varepsilon_i \pm \varepsilon_j$ ($i < j$)。
 
 (III) Coxeter 数与逆系相同：$h = 2l$。
 
 (IV)设$\tilde{\alpha} = 2\varepsilon_1 = 2\alpha_1 + 2\alpha_2 + \cdots + 2\alpha_{l-1} + \alpha_l$，即根。其坐标和相对于$(\alpha_i)$的坐标为$2l - 1 = h - 1$。因此，$\tilde{\alpha}$是最高根。我们有 $(\tilde{\alpha}|\alpha_i) = 0$ 对应 $i \neq l$、$(\tilde{\alpha}|\alpha_l) = 2$。因此，完整的 Dynkin 图为
 
-![C_l](https://i.imgur.com/3Q5z5QG.png) 的 Dynkin 图
+![C_l 的 Dynkin 图](https://i.imgur.com/3Q5z5QG.png)
 
 (V) 我们已经确定了$R^-$，即型$B_l$。通过§ 1, no. 12的公式(19)和no. 5(V)，$\Phi_R$的$2\varepsilon_i$长度平方是
 
@@ -711,7 +711,7 @@ $$
 
 (XI) 与no. 5相同的论证表明$A(R) = W(R)$和$w_0 = -1$。
 
-(XII) $P(R^-)/Q(R^-)$ 定义的单个非恒等元素是完整 Dynkin 图的唯一非平凡自同构：它将顶点相应的交换为 $\alpha_j$，将 $\alpha_{l-j}$ 交换为 $0 \leq j \leq l$。
+(XII) $P(R^-)/Q(R^-)$ 定义的单个非恒等元素是完整 Dynkin 图的唯一非平凡自同构：它将顶点相应的交换为 $\alpha_j$，将$\alpha_{l-j}$ 交换为 $0 \leq j \leq l$。
 
 ### 7. 系统型 $A_l$ ($l \geq 1$)
 
@@ -735,7 +735,7 @@ $$
 
 $l \geq 2$。 $(\tilde{\alpha}|\alpha_i) = 0$适用于$0 < i < l$和$(\tilde{\alpha}|\alpha_1) = (\tilde{\alpha}|\alpha_l) = 1$。因此完整的 Dynkin 图为：
 
-![Dynkin图](https://i.imgur.com/3Q5z5QG.png)
+![丁金图](https://i.imgur.com/3Q5z5QG.png)
 
 (V) 使用标量乘积识别V及其对偶，我们对所有$\alpha \in \mathbf{R}$有$\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$，因此$R^* = R$。
 
@@ -808,7 +808,7 @@ $$
 1, 2, 3, \ldots, l.
 $$
 
-(XI) 对于$l = 1$、$A(R) = W(R) = \mathbf{Z}/2\mathbf{Z}$ 和 $w_0 = -1$。
+(XI) 适用于 $l = 1$、$A(R) = W(R) = \mathbf{Z}/2\mathbf{Z}$ 和 $w_0 = -1$。
 
 对于$l \geq 2$，令$\varepsilon \in A(R)$为自同构，即变换$\alpha_i$到$\alpha_{l+1-i}$。很明显，由 $\varepsilon$ 导出的自同构是 Dynkin 图的唯一非平凡自同构。 群 $A(R)/W(R)$ 与 $\mathbf{Z}/2\mathbf{Z}$ 同构的。由于$-1$是$A(R)$的元素，而属于不通过(IX)和(X)$W(R)$，我们看到$A(R)$与$W(R) \times \mathbf{Z}/2\mathbf{Z}$同构的。我们有$w_0 = -\varepsilon$。
 
@@ -865,7 +865,7 @@ $$
 
 如果$l \geq 4$，我们有$(\tilde{\alpha}|\alpha_i) = 0$对应$i \neq 2$和$(\tilde{\alpha}|\alpha_2) = 1$。因此完整的 Dynkin 图为：
 
-![D_l](https://i.imgur.com/3Q5z5QG.png) 的 Dynkin 图
+![D_l 的 Dynkin 图](https://i.imgur.com/3Q5z5QG.png)
 
 (V) 从$(\alpha|\alpha) = 2$开始，对于所有$\alpha \notin R$，我们有$R^- = R$。
 $\Phi_{L'}$ 的根的长度是$h^{-1/2} = (2l-2)^{-1/2}$。因此
@@ -929,13 +929,13 @@ $$
 
 我们有$\omega_1 = \omega_l \omega_{l-1}$。
 
-对于$l$奇数，$P(R^-)/Q(R^-)$有阶 4中的两个元素，即$\omega_{l-1}$和$\omega_l$，以及阶 2中的一个元素，等于$\omega_1$。事实上，$\omega_1$将顶点相应的互换到$\alpha_0$和$\alpha_1$，因此它使$2 \leq j \leq l - 2$的顶点相应的到$\alpha_j$固定，并且必然为阶2。因而$\omega_l$是阶 4 和变换顶点相应的到 $\alpha_0$（分别为 $\alpha_l$，分别为 $\alpha_1$，分别为 $\alpha_{l-1}$）到相应的到 $\alpha_l$（分别为 $\alpha_1$，分别为 $\alpha_{l-1}$、$\alpha_0$），并将顶点相应的替换为 $\alpha_j$，将 $\alpha_{l-j}$ 替换为 $2 \leq j \leq l - 2$。我们有$\omega_1 = \omega_l^2$和$\omega_{l-1} = \omega_l^3$。
+对于$l$奇数，$P(R^-)/Q(R^-)$有阶 4中的两个元素，即$\omega_{l-1}$和$\omega_l$，以及阶 2中的一个元素，等于$\omega_1$。事实上，$\omega_1$将顶点相应的互换到$\alpha_0$和$\alpha_1$，因此对于$2 \leq j \leq l - 2$来说，它保留了固定的顶点相应的到$\alpha_j$，并且必然是阶2。因而$\omega_l$是阶 4 和变换顶点相应的到 $\alpha_0$（分别为 $\alpha_l$，分别为 $\alpha_1$，分别为 $\alpha_{l-1}$）到相应的到 $\alpha_l$（分别为 $\alpha_1$，分别为 $\alpha_{l-1}$、$\alpha_0$），并将顶点相应的替换为 $\alpha_j$，将 $\alpha_{l-j}$ 替换为 $2 \leq j \leq l - 2$。我们有$\omega_1 = \omega_l^2$和$\omega_{l-1} = \omega_l^3$。
 
-对于$l \neq 4$，$A(R)/W(R)$的非恒等元素将顶点相应的互换到$\alpha_{l-1}$和$\alpha_l$，从而互换$P(R^-)/Q(R^-)$的元素、$\omega_{l-1}$和$\omega_l$。对于$l$奇数，这样得到的$P(R^-)/Q(R^-)$中的自同构是映射$x \mapsto -x$。
+对于$l \neq 4$，$A(R)/W(R)$的非恒等元素将顶点相应的互换到$\alpha_{l-1}$和$\alpha_l$，从而互换$P(R^-)/Q(R^-)$的元素、$\omega_{l-1}$和$\omega_l$。对于$l$奇数，这样得到的$P(R^-)/Q(R^-)$中的自同构为映射$x \mapsto -x$。
 
 对于$l = 4$，$A(R)/W(R)$可以与$\{1, 3, 4\}$的置换的群识别，并通过指标的置换作用于$\{\omega_1, \omega_3, \omega_4\}$。
 
-### 9.系统型$F_4$
+### 9. 系统型 $F_4$
 
 (I) 考虑$\mathbf{R}^4$中的群$L_2$(no. 4)。令$R$为$\alpha \in L_2$的集合，使得$(\alpha|\alpha) = 1$或$(\alpha|\alpha) = 2$； 包含向量
 $$
@@ -957,7 +957,7 @@ $$
 
 完整的 Dynkin 图为
 
-![F_4](https://i.imgur.com/3Q5z5QG.png)的Dynkin图
+![F_4 的 Dynkin 图](https://i.imgur.com/3Q5z5QG.png)
 
 (V)公式$\alpha^* = \frac{2\alpha}{(\alpha|\alpha)}$给出$R^-$集合/向量$\pm 2\varepsilon_i, \pm \varepsilon_i \pm \varepsilon_j, \pm \varepsilon_1 \pm \varepsilon_2 \pm \varepsilon_3 \pm \varepsilon_4$。 $R^-$的Dynkin图是通过no. 2中解释的过程从$R$的Dynkin图获得的，我们看到$R^-$是型$F_4$。
 
@@ -1052,7 +1052,7 @@ $$
 $$
 即根。它相对于$(\alpha_i)$的坐标和是$29 = h - 1$，所以$\tilde{\alpha}$是最高根。它与除 $\alpha_8$ 和 $(\tilde{\alpha}|\alpha_8) = 1$ 之外的所有 $\alpha_i$ 正交。因而，完整的 Dynkin 图为：
 
-![E_8](../images/dynkin_e8.png)的Dynkin图
+![E_8 的 Dynkin 图](../images/dynkin_e8.png)
 
 (V) 由于$(\alpha|\alpha) = 2$，对于所有$\alpha \in R$，我们有$R^- = R$。
 
@@ -1125,7 +1125,7 @@ $$
 
 (IV)设$\tilde{\alpha} = \varepsilon_8 - \varepsilon_7 = 2\alpha_1 + 2\alpha_2 + 3\alpha_3 + 4\alpha_4 + 3\alpha_5 + 2\alpha_6 + \alpha_7$，即根。其相对于$(\alpha_i)$的坐标和为17 = $h - 1$。因此是最高根。对于 $2 \leq i \leq 7$ 和 $(\tilde{\alpha}|\alpha_1) = 1$，它与 $\alpha_i$ 正交。完整的 Dynkin 图为
 
-![E_7](https://i.imgur.com/3Q5z5QG.png)的 Dynkin 图
+![E_7 的 Dynkin 图](https://i.imgur.com/3Q5z5QG.png)
 
 (V) 从$(\alpha|\alpha) = 2$开始，对于所有$\alpha \in R$，我们有$R^- = R$。
 对于$\Phi_R$，根的平方长度是$\frac{1}{18}$，所以
@@ -1161,11 +1161,11 @@ $$
 \end{align*}
 $$
 
-（VIII）no. 10（VIII）和§ 1, no. 10。提案 28，我们有
+(VIII) 由no. 10 (VIII) 和§ 1, no. 10。提案 28，我们有
 $$
 Q(R) = Q(R_8) \cap V = L_3 \cap V \quad \text{and} \quad P(R) = p(P(R_8)) = p(L_3),
 $$
-其中 $p$ 表示 $E$ 与 $V$ 的正交投影。 群$Q(R)$有基$(\alpha_1, \ldots, \alpha_7)$； 群 $P(R)$ 由 $Q(R)$ 生成，并且
+其中 $p$ 表示 $E$ 到 $V$ 的正交投影。 群$Q(R)$有基$(\alpha_1, \ldots, \alpha_7)$； 群 $P(R)$ 由 $Q(R)$ 生成，并且
 $$
 p(\alpha_8) = \alpha_8 - \frac{1}{2}\omega.
 $$
@@ -1174,7 +1174,7 @@ $$
 
 连接指标为 2。
 
-(IX) $W(R)$的指数序列有7个项。 数 1, 5, 7, 11, 13, 17，与$h = 18$互质，在此序列中出现。最后一个指数 $m$ 必须等于 $m + m = 18$（第 V, § 6, no. 2、公式 (2)）。因此，指数序列为
+(IX) 序列 $W(R)$ 的指数有 7 个项。 数 1, 5, 7, 11, 13, 17，与$h = 18$互质，在此序列中出现。最后一个指数 $m$ 必须等于 $m + m = 18$（第 V, § 6, no. 2、公式 (2)）。因此，指数序列为
 
 $$ 1, 5, 7, 9, 11, 13, 17. $$
 
@@ -1184,7 +1184,7 @@ $$ 2.6.8.10.12.14.18 = 2^{10}.3^4.5.7. $$
 
 (XI) Dynkin 图中唯一的自同构是恒等式，因此$A(R) = W(R)$ 和 $w_0 = -1$。
 
-(XII) $P(R^-)/Q(R^-)$ 只有一个非单位元素。它将顶点相应的与$\alpha_0$和$\alpha_7$、$\alpha_1$和$\alpha_6$、$\alpha_3$和$\alpha_5$互换，并且使$\alpha_2$和$\alpha_4$固定。
+(XII) $P(R^-)/Q(R^-)$ 只有一个非单位元素。它将顶点相应的至 $\alpha_0$ 和 $\alpha_7$、$\alpha_1$ 和 $\alpha_6$、$\alpha_3$ 和 $\alpha_5$ 互换，并固定$\alpha_2$ 和 $\alpha_4$。
 
 ### 12. 系统型 E_6
 
@@ -1221,7 +1221,7 @@ $$
 
 即根。它相对于$(\alpha_i)$的坐标和是$11 = h - 1$，所以$\tilde{\alpha}$是最高根。它与 $\alpha_1, \alpha_3, \alpha_4, \alpha_5, \alpha_6$ 和 $(\tilde{\alpha}|\alpha_2) = 1$ 正交。完整的 Dynkin 图为
 
-![Dynkin图](../images/dynkin_graph.png)
+![丁金图](../images/dynkin_graph.png)
 
 (V) 从$(\alpha|\alpha) = 2$开始，对于所有$\alpha \in R$，我们有$R' = R$。对于$\Phi_R$，根的平方长度是$\frac{1}{12}$，所以
 $$
@@ -1278,9 +1278,9 @@ $$
 1, 4, 5, 7, 8, 11.
 $$
 
-(XI) 和 (XII) 由于根都具有相同的长度，因此 Dynkin 图的自同构是基础图的自同构。除了身份之外，只有自同构$\varepsilon$，其中变换$\alpha_1, \alpha_3, \alpha_4, \alpha_5, \alpha_6, \alpha_2$分别变成$\alpha_6, \alpha_5, \alpha_4, \alpha_3, \alpha_1, \alpha_2$。因此，$A(R)/W(R)$与$\mathbf{Z}/2\mathbf{Z}$同构的；由于$-1 \in W(R)$（第V, § 6, no. 2章，第3条命题第3条），$A(R)$与$W(R) \times \{1, -1\}$同构的，$w_0$可以与$-\varepsilon$识别。由此可见$A(R)/W(R)$定义自同构$x \mapsto -x$$P(R^-)/Q(R^-)$的非恒等元素。
+(XI) 和 (XII) 由于根都具有相同的长度，因此 Dynkin 图的自同构是基础图的自同构。除了身份之外，只有自同构$\varepsilon$，其中变换$\alpha_1, \alpha_3, \alpha_4, \alpha_5, \alpha_6, \alpha_2$分别变成$\alpha_6, \alpha_5, \alpha_4, \alpha_3, \alpha_1, \alpha_2$。因此，$A(R)/W(R)$与$\mathbf{Z}/2\mathbf{Z}$同构的；由于$-1 \in W(R)$（第V, § 6, no. 2章，第3条命题第3条），$A(R)$与$W(R) \times \{1, -1\}$同构的，$w_0$可以与$-\varepsilon$识别。由此可见$A(R)/W(R)$定义自同构$x \mapsto -x$$P(R^-)/Q(R^-)$的非恒等元。
 
-此外，$P(R^-)/Q(R^-)$有两个非恒等元素阶 3。它们是定义完成的Dynkin图的阶 3的两个自同构。
+此外，$P(R^-)/Q(R^-)$有两个非恒等元素阶 3。它们是完成的Dynkin图的阶 3的两个自同构定义。
 
 ### 13. 系统型 G_2
 
@@ -1313,7 +1313,7 @@ $$
 
 (IV)最高根为$\tilde{\alpha} = 3\alpha_1 + 2\alpha_2 = -\varepsilon_1 - \varepsilon_2 + 2\varepsilon_3$。我们有$(\tilde{\alpha}|\alpha_1) = 0, (\tilde{\alpha}|\alpha_2) = 3$。完整的 Dynkin 图为
 
-![Dynkin图](https://i.imgur.com/3Q5z5QG.png)
+![丁金图](https://i.imgur.com/3Q5z5QG.png)
 
 (V) 逆系是向量的以下集合：
 
@@ -1350,24 +1350,24 @@ $$
 \omega_1 = 2\alpha_1 + \alpha_2, \quad \omega_2 = 3\alpha_1 + 2\alpha_2 = \tilde{\alpha}.
 $$
 
-对于例，(VIII) Q(R) 由$\varepsilon_1 - \varepsilon_2$ 和$\varepsilon_1 - \varepsilon_3$ 生成。由 (VI) 和 (VII)，P(R) = Q(R)。连接指标为 1。
+对于例，(VIII) Q(R) 由$\varepsilon_1 - \varepsilon_2$ 和$\varepsilon_1 - \varepsilon_3$ 生成。由(VI)和(VII)，P(R) = Q(R)。连接指标为 1。
 
 (IX) 指数族有 2 个项；由于 1 和 $h - 1 = 5$ 是指数，因此它们是唯一的。
 
 (X) 我们有 $(\overline{\alpha_1, \alpha_2}) = \frac{5\pi}{6}$，所以 W(R) 同构于阶 12 的二面角群。
 
-(XI) Dynkin 图表唯一的自同构是身份，所以$\Lambda(R) = W(R)$和$w_0 = -1$。
+(XI) Dynkin 图表唯一的自同构是恒等式，因此$\Lambda(R) = W(R)$和$w_0 = -1$。
 
-### 14.不可约非约根系
+### 14. 不可约非约根系
 
-不可约的、非约化的根系统可以通过使用 Props 从不可约的、约化的系统中获得。 § 1 的 13 和 14。 no. 4。对于每个整数$l \geq 1$，存在直到同构，唯一的秩$l$的不可约、非约根系统：令R为型B_l的根系，最短根的A集合的R；取 R 和 2A 的并。通过记号和 no. 5，我们得到 $2l(l+1)$ 向量
+不可约的、非约化的根系统可以通过使用 Props 从不可约的、约化的系统中获得。 § 1 的 13 和 14。 no. 4。对于每个整数$l \geq 1$，存在直到同构，唯一的秩$l$的不可约、非约根系统：令R为型B_l的根系，A集合为R的最短根；取 R 和 2A 的并。利用 no. 5 的记号，我们得到 $2l(l+1)$ 向量
 
 $$
 \pm \varepsilon_i,\ \pm 2\varepsilon_i,\ \varepsilon_i \pm \varepsilon_j\ (i < j).
 $$
 
-### 习题 {#lie-vi-s4-exercises}
+### 习题{#lie-vi-s4-exercises}
 
 若R为根系，则用行列式1的$W(R)$元素$W^+(R)$集合表示。
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

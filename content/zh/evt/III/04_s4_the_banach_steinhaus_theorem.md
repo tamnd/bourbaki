@@ -25,23 +25,23 @@ subsections:
       pdf_page: 159
 statements: 24
 exercises: 22
-content_sha256: c13a7c17bb1f025b8de79bcc57cd616f1c38eb6e890c42153ef22953790bda8b
+content_sha256: 6aca54ea431e5ab4cffc93c807830643c39b47f51becb88aa8190e80118cecb6
 translated_from: content/en/evt/III/04_s4_the_banach_steinhaus_theorem.md
 translation_method: google
 source_content_sha256: 60bbc08b0bba45d478ba940cb18808c44414344f01456f8e5401229c26b9224a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e7260023cfde1cfc25d7a1a5ce277ec13e067ae27dbbbb6650fe1531078ce0c7
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。巴纳赫-斯坦豪斯定理
 
 *在本段中，E 表​​示局部凸空间，E' 表示其对偶。每当我们谈论 E' 上的弱拓扑时，我们指的是 $\sigma(E', E)$。*
 
-### 1.桶装和桶装空间
+### 1. 桶装和桶装空间
 
 #### 命题 1 {#evt-iii-s4-prop-1 .statement tag=07NZ}
 
@@ -115,7 +115,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 稍后我们将证明（IV，p. 14，推论）桶装空间的每一个乘积都是桶装的。
 
-### 2.巴纳赫斯坦豪斯定理
+### 2. 巴纳赫斯坦豪斯定理
 
 #### 定理 1 {#evt-iii-s4-thm-1 .statement tag=07OA}
 
@@ -155,7 +155,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 — 令 E 为连续复形函数的 Banach 空间（超过 $\mathbf{C}$）由……组成，其中 $\mathbf{R}$ 具有周期 1，且范数 $\|f\| = \sup_x |f(x)|$。
 
-对于每个整数$n \in \mathbf{Z}$和每个函数$f \in E$，令$c_n(f) = \int_0^1 f(x) e^{-2i\pi nx} dx$（$n$-$f$的第一个傅立叶系数）；每个映射$f \mapsto c_n(f)$都是E上的连续线性形式。令$(\alpha_n)$为复数的序列，这样，对于每个函数$f \in E$，与一般项$\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$的级数是收敛的。在这些条件下，映射$u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)]$是E上的连续线性形式； \* 在其他字中，$[0, 1]$上存在一个测度$\mu$，使得$u(f) = \int f(x) d\mu(x)$对于每个函数$f \in E$，$\alpha_n$是$\mu$的第$n$个傅里叶系数。*事实上，对于每个整数 $m > 0$、映射 $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ 是 E 上的连续线性形式 $u_m$，并且对于所有 $f \in E$，序列 $(u_m(f))$ 通过假设收敛到 $u(f)$。 断言然后是 Banach-Steinhaus 定理，因为 E 是桶装的。
+对于每个整数$n \in \mathbf{Z}$和每个函数$f \in E$，令$c_n(f) = \int_0^1 f(x) e^{-2i\pi nx} dx$（$n$-$f$的第一个傅立叶系数）；每个映射$f \mapsto c_n(f)$都是E上的连续线性形式。令$(\alpha_n)$为复数的序列，这样，对于每个函数$f \in E$，与一般项$\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$的级数是收敛的。在这些条件下，映射$u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)]$是E上的连续线性形式； \* 在其他字中，$[0, 1]$上存在一个测度$\mu$，使得$u(f) = \int f(x) d\mu(x)$对于每个函数$f \in E$，$\alpha_n$是$\mu$的第$n$个傅里叶系数。*事实上，对于每个整数 $m > 0$、映射 $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ 是 E 上的连续线性形式 $u_m$，并且对于所有 $f \in E$，序列 $(u_m(f))$ 通过假设收敛到 $u(f)$。 断言接下来是 Banach-Steinhaus 定理，因为 E 是桶装的。
 
 #### 推论 4 {#evt-iii-s4-thm-1-cor-4 .statement tag=07OH}
 
@@ -185,18 +185,18 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 推论 2 {#evt-iii-s4-thm-2-cor-2 .statement tag=07OL}
 
-— *每一个半完整的出生学空间都是桶装的。*
+— *每一个半完整的出生空间都是桶装的。*
 
-此类空间的对偶的每个单有界子集都是强有界的（cor. 1），因此等连续（III，p. 22，道具 10）。
+这样的空间的对偶的每个单有界子集都是强有界的（cor. 1），因此等连续（III，p. 22，道具 10）。
 
 #### 推论 3 {#evt-iii-s4-thm-2-cor-3 .statement tag=07OM}
 
 — *令 E 为局部凸空间。 E 的每个子集的边界为 $\sigma(E, E')$ 都是有界的。*
 
-设 A 为 E 的子集。说 A 的边界为 $\sigma(E, E')$ 意味着 E 上的每个连续线性形式都边界为 A ； 说 A 有界意味着 E 上的每个连续半范数都在 A 上有界。令 N 为 E 中 0 的闭包，以及从 E 到 E/N 的 $\pi$ 典范映射。 E 上的连续线性形式是形式 $f \circ \pi$ 与 $f \in (E/N)'$ 的映射，我们有一个类似的 E 上的连续半范数刻画。 替换 E 由 E/N 和 A 由 $\pi(A)$ 我们可以因此极限我们自己的情况是 E 是 Hausdorff。
+设 A 为 E 的子集。说 A 的边界为 $\sigma(E, E')$ 意味着 E 上的每个连续线性形式都边界为 A ； 说 A 有界意味着 E 上的每个连续半范数在 A 上都有界。令 N 为 E 中 0 的闭包，以及从 E 到 E/N 的 $\pi$ 典范映射。 E 上的连续线性形式是形式 $f \circ \pi$ 与 $f \in (E/N)'$ 的映射，我们有一个类似的 E 上的连续半范数刻画。 替换 E 由 E/N 和 A 由 $\pi(A)$ 我们可以因此极限我们自己的情况是 E 是 Hausdorff。
 
 设$\mathfrak{S}$为$E'$等连续子集的集合；当$E'$被分配拓扑$\sigma(E', E)$时，$E$可以用$(E')_{\mathfrak{S}}'$来识别（III，p. 19，cor.1）。 $E'$ 的每个闭等连续子集对于 $\sigma(E', E)$ 都是紧致的（III，p. 17，cor. 2），因此对于 $\sigma(E', E)$ 来说是完备的。现在应用 th 就足够了。 2.
 
 ### 习题 {#evt-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

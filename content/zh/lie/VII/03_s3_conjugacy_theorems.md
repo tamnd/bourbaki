@@ -33,31 +33,31 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: 7524d1d0345993b94022d41bcc68f6a40ee9b53f70ec1fa07754c9b3fe6d81ec
+content_sha256: 4d5ebef233cd08485065671865cc933e80bda2253228985fcf2a9bbf889e2242
 translated_from: content/en/lie/VII/03_s3_conjugacy_theorems.md
 translation_method: google
 source_content_sha256: 2f94c55e447063be8de93e14acb2f2791b356caa14408181f0dee22d40d924cb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 278a64f9b5e7f4b117196bc01bb1f8205b015d3eba6e259f419c02ae5ebc894f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 共轭定理
 
 在本段中，基域$k$的特征为0。
 
-### 1. 初级自同构
+### 1. 小学自同构
 
-设$\mathfrak{g}$为李代数。将自同构的群表示为Aut($\mathfrak{g}$)。如果 $x\in \mathfrak{g}$ 且 ad $x$ 幂零的，则 $e^{adx}\in$ Aut($\mathfrak{g}$)（第 I, §6, no. 8 章）。
+设$\mathfrak{g}$为李代数。用Aut($\mathfrak{g}$)表示自同构的群。如果 $x\in \mathfrak{g}$ 且 ad $x$ 幂零的，则 $e^{adx}\in$ Aut($\mathfrak{g}$)（第 I, §6, no. 8 章）。
 
 #### 定义 1 {#lie-vii-s3-def-1 .statement tag=00V0}
 
-形式 $e^{adx}$ 的自同构 $\mathfrak{g}$ 的有限乘积且$x$ 幂零称为$\mathfrak{g}$ 的初等自同构。 $\mathfrak{g}$的初等自同构的群用Aut$_e(\mathfrak{g})$表示。
+乘积 of 自同构 of $\mathfrak{g}$ of 形式 $e^{adx}$ 且 $x$ 幂零称为初等自同构 of $\mathfrak{g}$。 $\mathfrak{g}$的初等自同构的群用Aut$_e(\mathfrak{g})$表示。
 
-如果 $u\in$ Aut($\mathfrak{g}$)$,ue^{adx}u^{-1}=e^{adu(x)}$。由此可见，Aut$_e(\mathfrak{g})$ 是 Aut($\mathfrak{g}$) 的正常子群。如果$k=\mathbf{R}$或$\mathbf{C}$，则Aut$_e(\mathfrak{g})$包含在$\mathfrak{g}$的内自同构的群Int($\mathfrak{g}$)中(第III, §6, no. 2章，定义2)。
+如果$u\in$自动（$\mathfrak{g}$）$,ue^{adx}u^{-1}=e^{adu(x)}$。由此可见，Aut$_e(\mathfrak{g})$ 是 Aut($\mathfrak{g}$) 的正常子群。如果$k=\mathbf{R}$或$\mathbf{C}$，则Aut$_e(\mathfrak{g})$包含在$\mathfrak{g}$的内自同构的群Int($\mathfrak{g}$)中(第III, §6, no. 2章，定义2)。
 
 \* 在一般情况下，Aut$_e(\mathfrak{g})$ 包含在代数群 Aut($\mathfrak{g}$) 的恒等分量中。\*
 
@@ -65,13 +65,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令 V 为有限维向量空间，$\mathfrak{n}$ $\mathfrak{a}=\mathfrak{g}\mathfrak{l}(V)$ 由……组成幂零元的谎言子代数。
 
-(i) 单能元素的$\mathbf{G}\mathbf{L}(V)$由……组成的映射$x \rightarrow$exp$x$是从$\mathfrak{n}$到子群N的双射（第II, §6, no. 1、注4章）。我们有 $\mathfrak{n}=$ log(exp$\mathfrak{n}$)。 映射$f \rightarrow f\circ$对数是同构，从$\mathfrak{n}$上多项式函数的代数到限制的代数到End(V)上多项式函数的N。
+(i) 映射$x \rightarrow$exp$x$是双射从$\mathfrak{n}$到子群单能元素的$\mathbf{G}\mathbf{L}(V)$由……组成的N（第II, §6, no. 1，注 4).我们有 $\mathfrak{n}=$ log(exp$\mathfrak{n}$)。 映射$f \rightarrow f\circ$对数是同构，从$\mathfrak{n}$上多项式函数的代数到限制的代数到End(V)上的多项式函数N。
 
 (ii) 如果 $x\in \mathfrak{n}$ 和 $a\in \mathfrak{a}$，
 
 (exp ad$_{\mathfrak{a}}x$)$.a=$ (exp $x$)$a$(exp($-x$))。
 
-(iii) 令$V'$为有限维向量空间，$\mathfrak{n}'$从$\mathfrak{n}$到$\mathfrak{n}'$的$\mathfrak{g}\mathfrak{l}(V')$由……组成、幂零元、$\rho$同态的谎言子代数。设$\pi$为映射exp$x \rightarrow$exp$\rho (x)$，从exp$\mathfrak{n}$到exp$\mathfrak{n}'$。那么$\pi$就是群同态。
+(iii) 设$V'$为向量空间的有限维向量空间，$\mathfrak{n}'$从$\mathfrak{n}$到$\mathfrak{g}\mathfrak{l}(V')$由……组成的谎言子代数，幂零元，$\rho$同态到$\mathfrak{n}'$。设$\pi$为映射exp$x \rightarrow$exp$\rho (x)$，从exp$\mathfrak{n}$到exp$\mathfrak{n}'$。那么$\pi$就是群同态。
 
 根据恩格尔的定理，我们将可以确定V与$k^n$相结合，使得$\mathfrak{n}$是$\mathfrak{n}(n, k)$的子代数（下三角$\mathbf{M}_n(k)$由……组成的谎言子代数） 矩阵与零在对角线上）。对于$s\geq 0$，令$\mathfrak{n}_s(n, k)$为$(x_{ij})_{1\leq i,j\leq n}\in \mathbf{M}_n(k)$的集合，使得$x_{ij}= 0$代表$i-j < s$。然后
 
@@ -95,11 +95,11 @@ $i,j\geq 0$
 
 这紧随引理 1 (i)。
 
-特别地，如果$\mathfrak{n}$是$\mathfrak{g},e^{ad_{\mathfrak{g}}\mathfrak{n}}$的幂零根，则群是$\mathfrak{g}$的特殊自同构（第I, §6, no. 8章，定义6）。
+特别是，如果$\mathfrak{n}$是$\mathfrak{g},e^{ad_{\mathfrak{g}}\mathfrak{n}}$的幂零根，则群是$\mathfrak{g}$的特殊自同构（第I, §6, no. 8章，定义6）。
 
 #### 注 1 {#lie-vii-s3-n1-rem-1 .statement tag=00V3}
 
-令V为有限维向量空间，$\mathfrak{g}$为$\mathfrak{a}=\mathfrak{g}\mathfrak{l}$(V)的谎言子代数，$x$元素为$\mathfrak{g}$，使得ad$_{\mathfrak{g}}x$为零。那么存在$\mathfrak{a}$的幂零元$n$使得ad$_{\mathfrak{a}}n$扩展ad$_{\mathfrak{g}}x$。事实上，令 $s, n$ 为半单以及 $x$ 的幂零分量；那么 ad$_{\mathfrak{a}}s$ 和 ad$_{\mathfrak{a}}n$ 是 ad$_{\mathfrak{a}}x$ 的半单和幂零分量（第 I, §5, no. 4，引理 2），因而 ad$_{\mathfrak{a}}s$ 和 ad$_{\mathfrak{a}}n$ 使 $\mathfrak{g}$ 保持稳定，而 ad$_{\mathfrak{a}}s|\mathfrak{g}$ 和ad$_{\mathfrak{a}}n|\mathfrak{g}$是ad$_{\mathfrak{g}}x$的半单和幂零分量；因而，ad$_{\mathfrak{g}}x=$ ad$_{\mathfrak{a}}n|\mathfrak{g}$，这证明了我们的断言。鉴于引理 1 (ii)，$\mathfrak{g}$扩展的每个初等自同构到形式$u \rightarrow mum^{-1}$的$\mathfrak{a}$自同构，其中$m\in \mathbf{G}\mathbf{L}(V)$。
+令V为有限维向量空间，$\mathfrak{g}$为$\mathfrak{a}=\mathfrak{g}\mathfrak{l}$(V)的谎言子代数，$x$元素为$\mathfrak{g}$，使得ad$_{\mathfrak{g}}x$为零。那么存在$\mathfrak{a}$的幂零元$n$使得ad$_{\mathfrak{a}}n$扩展ad$_{\mathfrak{g}}x$。事实上，令$s, n$为半单且$x$的幂零分量；那么 ad$_{\mathfrak{a}}s$ 和 ad$_{\mathfrak{a}}n$ 是半单和 ad$_{\mathfrak{a}}x$ 的幂零分量（第 I, §5, no. 4，引理 2），因而 ad$_{\mathfrak{a}}s$ 和 ad$_{\mathfrak{a}}n$ 使 $\mathfrak{g}$ 保持稳定，而 ad$_{\mathfrak{a}}s|\mathfrak{g}$ 和ad$_{\mathfrak{a}}n|\mathfrak{g}$是ad$_{\mathfrak{g}}x$的半单和幂零分量；因而，ad$_{\mathfrak{g}}x=$ ad$_{\mathfrak{a}}n|\mathfrak{g}$，这证明了我们的断言。鉴于引理 1 (ii)，$\mathfrak{g}$扩展的每个初等自同构到形式$u \rightarrow mum^{-1}$的$\mathfrak{a}$自同构，其中$m\in \mathbf{G}\mathbf{L}(V)$。
 
 #### 注 2 {#lie-vii-s3-n1-rem-2 .statement tag=00V4}
 
@@ -111,7 +111,7 @@ $i,j\geq 0$
 
 ### 2. 嘉当子代数的共轭
 
-令$\mathfrak{g}$为李代数，$\mathfrak{h}$$\mathfrak{g}$的幂零子代数以及$\mathfrak{g}$中$\mathfrak{h}$的非零权的R集合，在其他字 $\mathfrak{h}$ 上的线性形式 $\lambda \not= 0$ 的集合，使得$\mathfrak{g}^{\lambda}(\mathfrak{h})\not= 0$、cf. §1, no. 3，提案 9 (iii)。假设
+令$\mathfrak{g}$为李代数，$\mathfrak{h}$$\mathfrak{g}$的幂零子代数，以及$\mathfrak{g}$中$\mathfrak{h}$的非零权的R集合，在其他字 $\mathfrak{h}$ 上的线性形式 $\lambda \not= 0$ 的集合，使得$\mathfrak{g}^{\lambda}(\mathfrak{h})\not= 0$、cf. §1, no. 3，提案 9 (iii)。假设
 
 $$
 \mathfrak{g}=\mathfrak{g}^0(\mathfrak{h})\oplus \sum_{\lambda\in R}\mathfrak{g}^{\lambda}(\mathfrak{h})
@@ -145,7 +145,7 @@ $F(h_0, x,0, . . . ,0) =e^{adx}h_0=h_0+$（广告$x$）$.h_0+$（广告2！$x$�
 
 假设 $k$ 是代数闭的。令$\mathfrak{g}$为$\mathfrak{g}$的李代数、$\mathfrak{h}$和$\mathfrak{h}'$嘉当子代数。存在$u\in E(\mathfrak{h})$和$u'\in E(\mathfrak{h}')$使得$u(\mathfrak{h}) =u'(\mathfrak{h}')$。
 
-我们保留引理 2 中的记号。根据$\mathfrak{h}$和$\mathfrak{h}'$是嘉当子代数，可以得出$\mathfrak{g}^0(\mathfrak{h}) =\mathfrak{h}$和$\mathfrak{g}^0(\mathfrak{h}') =\mathfrak{h}'$。根据应用程序的引理 2 和提案 3。 $I, E(\mathfrak{h})\mathfrak{h}_r$ 和 $E(\mathfrak{h}')\mathfrak{h}'_r$ 包含在 Zariski 拓扑中打开密集的子集 $\mathfrak{g}$。因此$E(\mathfrak{h})\mathfrak{h}_r\cap E(\mathfrak{h}')\mathfrak{h}'_r\not=\emptyset$。在其他字中，存在$u\in E(\mathfrak{h}), u'\in E(\mathfrak{h}'), h\in \mathfrak{h}_r, h'\in \mathfrak{h}'_r$使得$u(h) =u'(h')$；然后
+我们保留引理 2 中的记号。根据$\mathfrak{h}$和$\mathfrak{h}'$是嘉当子代数，可以得出$\mathfrak{g}^0(\mathfrak{h}) =\mathfrak{h}$和$\mathfrak{g}^0(\mathfrak{h}') =\mathfrak{h}'$。根据 App 的引理 2 和 Prop. 3。 $I, E(\mathfrak{h})\mathfrak{h}_r$ 和 $E(\mathfrak{h}')\mathfrak{h}'_r$ 包含在 Zariski 拓扑中打开密集的子集 $\mathfrak{g}$。因此$E(\mathfrak{h})\mathfrak{h}_r\cap E(\mathfrak{h}')\mathfrak{h}'_r\not=\emptyset$。在其他字中，存在$u\in E(\mathfrak{h}), u'\in E(\mathfrak{h}'), h\in \mathfrak{h}_r, h'\in \mathfrak{h}'_r$使得$u(h) =u'(h')$；那么
 
 $$
 u(\mathfrak{h}) =u(\mathfrak{g}^0(\mathfrak{h})) =\mathfrak{g}^0(u(h)) =\mathfrak{g}^0(u'(h')) =u'(\mathfrak{h}')
@@ -169,7 +169,7 @@ $$
 
 #### 定理 1 {#lie-vii-s3-thm-1 .statement tag=00V8}
 
-假设 $k$ 是代数闭的。设$\mathfrak{g}$为李代数。 群 E 在 Aut($\mathfrak{g}$) 中是正规的，并且在 $\mathfrak{g}$ 的嘉当子代数的集合上传递操作。
+假设 $k$ 是代数闭的。令$\mathfrak{g}$为李代数。 群 E 在 Aut($\mathfrak{g}$) 中是正规的，并且在 $\mathfrak{g}$ 的嘉当子代数的集合上传递操作。
 
 令$\mathfrak{h}$为$\mathfrak{g}$的嘉当子代数，以及$v\in$Aut($\mathfrak{g}$)。然后
 
@@ -187,7 +187,7 @@ $$
 
 (i) $\mathfrak{g}$的嘉当子代数都是相同的维数，即rk($\mathfrak{g}$)，以及相同的幂零性类。
 
-(ii) 元素 $x\in \mathfrak{g}$ 是正则当且仅当 $\mathfrak{g}^0(x)$ 是 $\mathfrak{g}$ 的嘉当子代数；每一个嘉当子代数都是这样得到的。
+(ii) 元素 $x\in \mathfrak{g}$ 是正则当且仅当 $\mathfrak{g}^0(x)$ 是 $\mathfrak{g}$ 的嘉当子代数；每嘉当子代数都是这样得到的。
 
 为了证明 (i)，我们可以假设 $k$ 是代数封闭的（cf. §2，命题 3 和命题 6），在这种情况下，它由 Th 推出。 no. 2 中的 1 个。 断言 (ii) 由 (i) 和 §2, Th 得出。 1(i)和(iv)。
 
@@ -223,13 +223,13 @@ rk($\mathfrak{g}'$)$\leq$ 暗淡$\mathfrak{h}'\leq$ 暗淡$\mathfrak{h}=$ rk($\m
 
 设 T 为不定式。令$k'=k(T)$和$\mathfrak{g}'=\mathfrak{g}\otimes_kk'$。如果$\mathfrak{h}$是$\mathfrak{g},\mathfrak{h}\otimes_kk'$的嘉当子代数是$\mathfrak{g}'$的嘉当子代数，因此$\mathfrak{g}'$的秩是$l$并且$\mathfrak{g}'$的嘉当子代数的幂零性类是$c$。
 
-选择正则元素$y$共$\mathfrak{g}$。有了记号和 §2, no. 2，我们就有 $a_l(y)\not= 0$。还用 $\mathfrak{g}'$ 上的 $a_l$ 多项式函数表示扩展 $a_l$。那么$k[T]$的元素$a_l(x+ Ty)$有主导系数$a_l(y)$。特别是，$x+ Ty$在$\mathfrak{g}'$中是规则的。令$\mathfrak{h}'$为$\mathfrak{g}'$中ad($x+ Ty$)的零空间。那么$\mathfrak{h}'=l$变暗，$\mathfrak{h}'$的幂零性类是$c$。把$\mathfrak{k}=\mathfrak{h}'\cap (\mathfrak{g}\otimes_kk[T])$；然后$\mathfrak{k}\otimes_{k[T]}k(T) =\mathfrak{h}'$。
+选择正则元素$y$共$\mathfrak{g}$。有了记号和 §2, no. 2，我们就有 $a_l(y)\not= 0$。还用 $\mathfrak{g}'$ 上的 $a_l$ 多项式函数表示扩展 $a_l$。那么$k[T]$的元素$a_l(x+ Ty)$有主导系数$a_l(y)$。特别是，$x+ Ty$在$\mathfrak{g}'$中是规则的。令$\mathfrak{h}'$为$\mathfrak{g}'$中ad($x+ Ty$)的零空间。那么暗淡$\mathfrak{h}'=l$，$\mathfrak{h}'$的幂零性类是$c$。把$\mathfrak{k}=\mathfrak{h}'\cap (\mathfrak{g}\otimes_kk[T])$；然后$\mathfrak{k}\otimes_{k[T]}k(T) =\mathfrak{h}'$。
 
-令$\varphi$为从$k[T]$到$k$的同态，使得$\varphi (T) = 0$，并且让$\psi$为从$\mathfrak{g}\otimes_kk[T]$到$\mathfrak{g}$的同态$1\otimes \varphi$。那么$\psi (\mathfrak{k})$是$\mathfrak{g}$的子代数，其幂零性类是$\leq c$，并且包含$\psi (x+ Ty) =x$。
+令$\varphi$为从$k[T]$到$k$的同态，使得$\varphi (T) = 0$，并让$\psi$为从$\mathfrak{g}\otimes_kk[T]$到$\mathfrak{g}$的同态$1\otimes \varphi$。那么$\psi (\mathfrak{k})$是$\mathfrak{g}$的子代数，其幂零性类是$\leq c$，并且包含$\psi (x+ Ty) =x$。
 
 在自由$k$[T]-模$\mathfrak{g}\otimes_kk[T],\mathfrak{k}$是秩$l$的子模，$(\mathfrak{g}\otimes_kk[T])/\mathfrak{k}$是挠元自由，所以子模$\mathfrak{k}$是$\mathfrak{g}\otimes_kk[T] ($代数，第 1 章VII, §4, no. 2，周四。 1）。因此，dim$_k\psi (\mathfrak{k}) =l$，即完成证明。
 
-### 4. 嘉当子代数与可解李代数的共轭
+### 4. 嘉当子代数可解李代数的共轭
 
 设$\mathfrak{g}$为可解李代数。用$\mathfrak{g}$的下降中央级数的项的$\mathscr{C}^{\infty}(\mathfrak{g})$交（第I, §1, no. 5章）表示。这是$\mathfrak{g}$的特征理想，并且是$\mathfrak{g}$的最小的理想$\mathfrak{m}$，使得$\mathfrak{g}/\mathfrak{m}$幂零的。由于$\mathscr{C}^{\infty}(\mathfrak{g})\subset [\mathfrak{g},\mathfrak{g}],\mathscr{C}^{\infty}(\mathfrak{g})$是$\mathfrak{g}$的幂零理想（第I, §5, no. 3章，Th.1的Cor.5）。根据no. 1的第1条，$e^{adx}$的集合，对于$x\in \mathscr{C}^{\infty}(\mathfrak{g})$，是包含在特殊自同构的群中的Aut($\mathfrak{g}$)的子群（第I, §6, no. 8章，定义6）。
 
@@ -279,7 +279,7 @@ $$
 
 (ii) $=\Rightarrow$ (i)：我们假设条件 (ii) 满足并证明(i)。到引理 3，我们就减少到$\varphi (\mathfrak{h}) =\varphi (\mathfrak{h}')$的情况。放入$\mathfrak{k}=$$\mathfrak{h}+\mathfrak{r}=\mathfrak{h}'+\mathfrak{r}$，这是$\mathfrak{g}$的可解子代数。那么$\mathfrak{h}$和$\mathfrak{h}'$是$\mathfrak{k}$的嘉当子代数，因此存在$x\in \mathscr{C}^{\infty}(\mathfrak{k})$使得$e^{ad_{\mathfrak{k}}x}\mathfrak{h}=\mathfrak{h}'$（Th.3）。由于 $\mathfrak{k}/\mathfrak{r}$ 幂零，$\mathscr{C}^{\infty}(\mathfrak{k})\subset \mathfrak{r}$；另一方面，$\mathscr{C}^{\infty}(\mathfrak{k})\subset [\mathfrak{k},\mathfrak{k}]\subset [\mathfrak{g},\mathfrak{g}]$，所以$x\in \mathfrak{r}\cap [\mathfrak{g},\mathfrak{g}]$；由章。 I, §5, no. 3，周四。 1、ad$_{\mathfrak{g}}x$是幂零的，所以$e^{ad_{\mathfrak{g}}x}$是$\mathfrak{g}$的初等自同构，将$\mathfrak{h}$变换为$\mathfrak{h}'$。
 
-### 5.李群情形
+### 5. LIE GROUP CASE
 
 #### 命题 6 {#lie-vii-s3-prop-6 .statement tag=00VG}
 
@@ -293,8 +293,8 @@ $$
 
 是$\mathfrak{g}$中$h_0$的邻域。
 
-令$h_0$和$\mathfrak{s}$如(i)中所示。令 T 为 F 在 $(0, h_0)$ 处的切线映射。然后$F(0, h) =h$代表所有$h\in \mathfrak{h}$，所以$T(0, h) =h$代表所有$h\in \mathfrak{h}$。另一方面，对于$\mathfrak{s}_0$足够小，映射$s \rightarrow$exp和$s$从$\mathfrak{s}_0$到End($\mathfrak{g}$)在0处的切线映射是映射$s \rightarrow$和$s$ $\mathfrak{s}$ 至结束（$\mathfrak{g}$）。因此 $T(s,0) = [s, h_0]$ 对于所有$s\in \mathfrak{s}$。现在，由 ad $h_0$ 通过通向商而引起的从 $\mathfrak{g}/\mathfrak{h}$ 到 $\mathfrak{g}/\mathfrak{h}$ 的映射是双射的。由此可知 T 是双射的，因此 (i)。由于所有 $s\in \mathfrak{s}$ 的 exp ad $s=$ Ad exp $s$ 都足够接近 0，因此 (iii) 和 (ii) 的第一个断言如下。每个 $x\in \Omega$ 都是形式 (广告 $a$)$(h)$ 以及 $a\in G$ 和 $h\in \mathfrak{h}_r$，因此 $\mathfrak{g}^0(x) =$ (广告 $a$)$(\mathfrak{g}^0(h)) =$ (广告 $a$)$(\mathfrak{h})$ 是Ad(G) 下的子代数共 $\mathfrak{g}$ 共轭至 $\mathfrak{h}$。
+令$h_0$和$\mathfrak{s}$如(i)中所示。令 T 为 F 在 $(0, h_0)$ 处的切线映射。然后$F(0, h) =h$代表所有$h\in \mathfrak{h}$，所以$T(0, h) =h$代表所有$h\in \mathfrak{h}$。另一方面，对于$\mathfrak{s}_0$足够小，从$\mathfrak{s}_0$到End($\mathfrak{g}$)的映射$s \rightarrow$exp和$s$在0处的切线映射是映射$s \rightarrow$和$s$ $\mathfrak{s}$ 至结束（$\mathfrak{g}$）。因此 $T(s,0) = [s, h_0]$ 对于所有$s\in \mathfrak{s}$。现在，由 ad $h_0$ 通过通向商而引起的从 $\mathfrak{g}/\mathfrak{h}$ 到 $\mathfrak{g}/\mathfrak{h}$ 的映射是双射的。由此可知 T 是双射的，因此 (i)。由于所有 $s\in \mathfrak{s}$ 的 exp ad $s=$ Ad exp $s$ 都足够接近 0，因此 (iii) 和 (ii) 的第一个断言如下。每个 $x\in \Omega$ 都是形式 (广告 $a$)$(h)$ 以及 $a\in G$ 和 $h\in \mathfrak{h}_r$，因此 $\mathfrak{g}^0(x) =$ (广告 $a$)$(\mathfrak{g}^0(h)) =$ (广告 $a$)$(\mathfrak{h})$ 是Ad(G) 下的 $\mathfrak{g}$ 共轭至 $\mathfrak{h}$ 中的子代数。
 
 ### 习题 {#lie-vii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

@@ -25,23 +25,23 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 4
-content_sha256: cf5a8dd058f3cfdefeea3efc725ab63c29ccfa46b87cf069900a1fc5ede7048c
+content_sha256: 7b81d04590a9b6c50c12a1e5e4d9a2d2ea6d52879d03103ac064945f42ea8495
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 translation_method: google
 source_content_sha256: f9d7400def142eff7395a68ad471a8fd0e9e5f47e8dd9c61b495ed3c4a325f89
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: aaed4cde8102cea70495ae3e102877e3a199644f042d6bbf779323265617f482
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 10。 李群的自同构群
 
-在本段中，假设 K 为特征零。
+在本段中，K 假设为特征零。
 
-### 1.无穷小自同构
+### 1. 无穷小自同构
 
 #### 引理 1 {#lie-iii-s10-lem-1 .statement tag=0AL6}
 
@@ -50,7 +50,7 @@ $$
 \beta(g) = \alpha(g)g^{-1} \in L(G).
 $$
 以下条件是等效的：
-(i) $\alpha$ 是群 G 中的同态到群 T(G)；
+(i) $\alpha$ 是群 G 中的同态变成群 T(G)；
 (ii) 对于 G 中的所有 $g, g'$，$\alpha(gg') = \alpha(g)g' + g\alpha(g')$；
 (iii) 对于 G 中的所有 $g, g'$，$\beta(gg_1) = \beta(g) + (\mathrm{Ad}\,g)\beta(g')$。
 
@@ -74,13 +74,13 @@ $$
 
 #### 引理 2 {#lie-iii-s10-lem-2 .statement tag=0AL8}
 
-设 $K'$ 为 K、A $K'$-流形、B 和 C $K$-流形的非离散闭子域，以及$f$ $A \times B$ 的$K'$解析映射， C。假设对于所有
+令$K'$为K、A、$K'$流形、B和C$K$流形的非离散闭子域，以及$f$$A \times B$的$K'$解析映射为C。假设对于所有
 
 李群
 
-$a \in A$，*映射*$b \mapsto f(a, b)$*的*B*到*C*是*K-*解析*。 *然后，对于* TB *到* TC *的所有* $t \in TA$、*映射* $u \mapsto (Tf)(t, u)$ *是*K-*解析*。
+$a \in A$，*映射*$b \mapsto f(a, b)$*的*B*到*C*是*K-*解析*。 *然后，对于* TB *到* TC *的所有* $t \in TA$，*映射* $u \mapsto (Tf)(t, u)$ *是*K-*解析*。
 
-我们固定$t \in TA$并写入$g(u) = (Tf)(t, u)$。显然 $g$ 是 K' 解析的。通过*可微解析流形*，R，5.14.6，足以证明映射到$g$的切线是K线性的。可以假设 A、B、C 在 K'、K、K 上的完全可范空间 E、F、G 中是 0 的开邻域，并且$t$ 在 0 处与 A 相切。我们认同 TA、TB、TC，其中 $A \times E, B \times F, C \times G$ 和$t$ 与 E 的元素。然后对于所有$(x, y) \in TB = B \times F$。
+我们固定$t \in TA$并写入$g(u) = (Tf)(t, u)$。显然 $g$ 是 K' 解析的。通过*可微解析流形*，R，5.14.6，足以证明映射到$g$的切线是K线性的。可以假设 A、B、C 在 K'、K、K 上的完全可范空间 E、F、G 中是 0 的开邻域，并且$t$ 在 0 处与 A 相切。我们认同 TA、TB、TC，其中 $A \times E, B \times F, C \times G$ 和$t$ 与 E 的元素。然后对于所有 $(x, y) \in TB = B \times F$。
 
 $$
 g(x, y) = (f(0, x), (D_1f)(0, x)(t) + (D_2f)(0, x)(y)).
@@ -182,7 +182,7 @@ $$
 
 这就证明了蕴涵((ii)和(iii))$\Rightarrow$(i)。最后，如果$G'$是连接的，则$G'$由$e_{G'}$的每个邻域生成，因此(ii)$\Rightarrow$(iii)。
 
-### 2. 李群的自同构群（真实或复杂案例）
+### 2. 李群的自同构群（真实或复杂的情况）
 
 在这个数中，我们假设$K = \mathbf{R}$或$\mathbf{C}$。
 
@@ -196,7 +196,7 @@ $$
 
 将$U \times \psi(B')$中的映射$(u, g) \mapsto (u, \psi^{-1}(g))$变为$U \times B'$；
 将$U \times B'$中的映射$(u, x) \mapsto u(x)$转换为$B$；
-将$B$中的映射$y \mapsto \psi(y)$转换为$G$。
+将 $B$ 的映射 $y \mapsto \psi(y)$ 转换为 $G$。
 
 因此这个映射是解析的。
 
@@ -204,7 +204,7 @@ $$
 $$
 p(\theta(u)g) = p(e), \quad p(\theta(u^{-1})g) = p(e)
 $$
-对于所有$g \in N$。通过 § 8, no. 2、定理 2 和推论 2 到定理 2，这证明了 (ii)。
+对于所有$g \in N$。由§ 8, no. 2、定理2和推论2至定理2，证明了(ii)。
 
 假设 N 是离散且正规的。让$w \in \mathrm{Aut}\ G$。然后
 $$
@@ -315,7 +315,7 @@ $$
 
 映射 $u \mapsto L(u)$ 是 Aut G 的同构到 Aut $L(G)$ (定理 1) 的谎言子群上。这个同构下的Int G的像是Ad G。但是Ad G是Aut$L(G)$的恒等分量（$§ 9$，no. 8，命题30（ii））。
 
-### 3. 李群的自同构群（超尺寸情况）
+### 3. 李群的自同构群（超距案例）
 
 #### 定理 2 {#lie-iii-s10-thm-2 .statement tag=0ALH}
 
@@ -342,4 +342,4 @@ $$
 
 ### 习题{#lie-iii-s10-exercises}
 
-§ 10](exercises/s10/)参见[习题。
+参见[习题为 § 10](exercises/s10/)。

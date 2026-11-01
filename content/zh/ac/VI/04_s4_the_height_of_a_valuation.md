@@ -33,40 +33,40 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: edea06520931b2926e8ffb8e041c60a172ee07bfd955a0542bcee774f4b0dcde
+content_sha256: 7410d67d1106756777f7e97e2eaa96596713f6eb0f8e73358b4fc27bd6757436
 translated_from: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
 translation_method: google
 source_content_sha256: c4cced628ead73d8a7f7dea6021c8771973779a0bf6c280142bacc5c87e4b329
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-03cc8516
 glossary_version: 34
 glossary_terms_sha256: 6f0b717ac2d38e6e7c34fcb2c208eac3996a0ddb4ca09b2881165c78436cac43
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: d0998a9bd80ce225884eb51dfb88b94167570132d7e43aad0d568af03105692e
 ---
 
 ## 4. 估值的高度
 
-### 1. 包含相同的环估值域
+### 1. 包含相同的评估环域
 
 #### 命题 1 {#ac-vi-s4-prop-1 .statement tag=04TV}
 
 *令$K$为域，且$A$为$K$的估值环。然后：*
 (a) *每个环$B$使得$A \subset B \subset K$是环对$K$的估值；
 (b) *此类环的最大理想$m(B)$包含在$A$中，并且它是$A$的素理想；
-(c) *映射$\mathfrak{p} \mapsto A$，是$A$素理想的集合递减双射到环$B$的集合，使得$A \subset B \subset K$；它的逆双射是映射$B \mapsto m(B)$。
+(c) *映射$\mathfrak{p} \mapsto A$，是$A$素理想的集合的递减双射到环$B$的集合，使得$A \subset B \subset K$；它的逆双射是映射$B \mapsto m(B)$。
 
-如果$B$是环使得$A \subset B \subset K$和$x \in K - B$，则$x \in K - A$，从而$x^{-1} \in m(A) \subset B$，这证明$B$是$K$的估值环并且$m(B) \subset m(A)$；由于$m(B) = m(B) \cap A$是$A$的素理想，我们已经证明了（a）和（b）。此外，$A_{m(B)} \subset B$；相反，如果$x \in B - A$，则$x^{-1} \in A$和$x^{-1} \notin m(B)$，因此$x \in A_{m(B)}$；因此$A_{m(B)} = B$。最后令$\mathfrak{p}$为$A$的素理想；我们写$B = A_{\mathfrak{p}}$；然后$m(B) \cap A = \mathfrak{p}$。 （章II, § 2, no. 5，命题11）和$m(B) \subset A$由（b）；因此$m(B) = \mathfrak{p}$，这表明映射$\mathfrak{p} \mapsto A$和叙述的$B \mapsto m(B)$是逆双射。
+如果$B$是环，使得$A \subset B \subset K$和$x \in K - B$，则$x \in K - A$，从而$x^{-1} \in m(A) \subset B$，这既证明$B$是$K$的估值环，又证明$m(B) \subset m(A)$；由于$m(B) = m(B) \cap A$是$A$的素理想，我们已经证明了（a）和（b）。此外，$A_{m(B)} \subset B$；相反，如果$x \in B - A$，则$x^{-1} \in A$和$x^{-1} \notin m(B)$，因此$x \in A_{m(B)}$；因此$A_{m(B)} = B$。最后令$\mathfrak{p}$为$A$的素理想；我们写$B = A_{\mathfrak{p}}$；然后$m(B) \cap A = \mathfrak{p}$。 （章II, § 2, no. 5，命题11）和$m(B) \subset A$由（b）；因此$m(B) = \mathfrak{p}$，它表明映射$\mathfrak{p} \mapsto A$，以及叙述的$B \mapsto m(B)$是逆双射。
 
 #### 推论{#ac-vi-s4-n1-cor-1 .statement tag=04TW}
 
 *K 包含于 A 的集合 & 子环完全按包含排序。*
 
-$A$素理想的集合完全按包含排序（$\S$ 1, no. 2, 定理 1 (e)），映射 $\mathfrak{p} \mapsto A_{\mathfrak{p}}$反转包含关系。
+$A$素理想的集合完全按包含排序（$\S$1，no. 2，定理1（e）），映射$\mathfrak{p} \mapsto A_{\mathfrak{p}}$反转包含关系。
 
 #### 命题 2 {#ac-vi-s4-prop-2 .statement tag=04TX}
 
-*令 K 为域，B 为 K 和 h 的估值环，h 是与 B 相关的地点和 K（$\kappa(B)$ 中的值）。然后将B中K的估值环的集合$\mathscr{A}$的映射$A \mapsto h_B(A)$定义双射转移到$\kappa(B)$的估值环的集合$\mathscr{A}'$。
+*令 K 为域，B 为 K 和 h 的估值环，h 是与 B 相关的地点和 K（$\kappa(B)$ 中的值）。然后将B中包含的K的估值环的集合$\mathscr{A}$的映射$A \mapsto h_B(A)$定义双射转移到$\kappa(B)$的估值环的集合$\mathscr{A}'$。
 
 如果$A \in \mathscr{A}$，则$h_B(A) \in \mathscr{A}'$：因为如果$x' = h_B(x)$（其中$x \in B$）是$\kappa(B) - h_B(A)$的元素，则$x \notin A$，因此$x^{-1} \in A$和$h_B(x)^{-1} \in h_B(A)$。另一方面，对于 $A \in \mathscr{A}$、$A \supset m(B)$ (命题 1 (b)) 以及映射，
 
@@ -80,9 +80,9 @@ $A \mapsto h_B(A)$ 是单射的。最后令$A' \in \mathscr{A}'$和$A = h_B(A') 
 
 #### 注 {#ac-vi-s4-n1-rem-1 .statement tag=04TZ}
 
-相反，令$f$是K的一个地方，值在$K'$中，而$f'$是$K'$的一个地方，值在$K''$中。那么$f' \circ f$就是K的一个地方，它的环包含在$f$地方的环中。
+相反，令 $f$ 为 K 的位置，值在 $K'$ 中，$f'$ 为 $K'$ 的位置，值在 $K''$ 中。那么$f' \circ f$就是K的一个地方，它的环包含在$f$地方的环中。
 
-### 2. 隔离子群有序群
+### 2. 隔离子群已订购群
 
 为了从估值的角度研究no. 1和点的情况，我们需要下面的定义1和命题3。
 
@@ -110,7 +110,7 @@ $$
 P' \cap (-P') = \{0\},
 $$
 
-因为，*如果*$x$和$y$是$P$的元素，使得$g(x) = -g(y)$，则$x + y \in H$、从而、$x \in H$和$y \in H$，因为$H$是孤立的；因此$g(x) = g(y) = 0$。因此，$P'$是$G/H$上有序群结构的正元素的集合（*代数*，章VI, § 1, no. 3，命题3）。最后，如果$G$是全序的，那么$P \cap (-P) = G$、从而$P' \cup (-P') = G/H$，因此$G/H$是全序的（*loc.cit.*）。
+因为，*如果*$x$和$y$是$P$的元素，使得$g(x) = -g(y)$，则$x + y \in H$、从而、$x \in H$和$y \in H$，因为$H$是孤立的；因此$g(x) = g(y) = 0$。因此，$P'$是$G/H$上有序群结构的正元素的集合（*代数*，章VI, § 1, no. 3，命题3）。最后，如果 $G$ 是全序的，则 $P \cap (-P) = G$、从而 $P' \cup (-P') = G/H$ 以及因此 $G/H$ 是全序的（*loc.cit.*）。
 
 #### 例 (2) {#ac-vi-s4-n2-exa-2 .statement tag=04U3}
 
@@ -205,7 +205,7 @@ $$
 
 *估值的高度等于其环中非零素理想的数。*
 
-### 5. 身高估值 1
+### 5. 身高估值1
 
 #### 命题 6 {#ac-vi-s4-prop-6 .statement tag=04UA}
 
@@ -255,4 +255,4 @@ $$
 
 ### 习题{#ac-vi-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

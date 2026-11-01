@@ -17,10 +17,10 @@ translation_method: google
 source_content_sha256: 9e0ecd11eb4436e4794e19710da53ec78deea64cf184c8d01618eac0fec088a7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: e07373a3c8817dff34b80a725d417df4b13e0afcc5236c849ce46d173653830c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 18. 渐近展开。

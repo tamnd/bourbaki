@@ -37,16 +37,16 @@ subsections:
       pdf_page: 98
 statements: 22
 exercises: 8
-content_sha256: 0cfc74a26f9a45a056c9bc654e4ba445c70ddfb3f7a6fb67c3a8c73900530d01
+content_sha256: 66e06c0b4c886b7bed2ef3de36682299a888a8fa7182ab9651957990b495a4f6
 translated_from: content/en/int/III/04_s4_products_of_measures.md
 translation_method: google
 source_content_sha256: 375b3e9104624766e0c67616cc70666473c13c687b42ef6fceaaffeead1b1903
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 69dc1ff869455b7e6e06942cb898619aa24611963e24029bfdb5318e0e1b14d3
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 乘积措施
@@ -176,7 +176,7 @@ $$
 \langle h(y), z' \rangle = \int \langle f(x, y), z' \rangle\, d\lambda(x),
 $$
 
-因此 $y \mapsto \langle h(y), z' \rangle$ 属于到 $\mathscr{K}(Y; C)$ 引理 2。因此定义了积分 $\int h\, d\mu$（并且*先验* 属于到 ${E'}^*$）；让我们证明
+因此 $y \mapsto \langle h(y), z' \rangle$ 属于通过引理 2 到 $\mathscr{K}(Y; C)$。 因此定义了积分 $\int h\, d\mu$（并且*先验* 属于到 ${E'}^*$）；让我们证明
 
 $$
 \iint f(x, y)\, d\lambda(x)\, d\mu(y) = \int d\mu(y) \int f(x, y)\, d\lambda(x)
@@ -190,11 +190,11 @@ $$
 \left\langle \int \int f d\lambda d\mu, z' \right\rangle = \int \int \langle f, z' \rangle d\lambda d\mu = \int d\mu \int \langle f, z' \rangle d\lambda \\
 = \int \left\langle \int f d\lambda, z' \right\rangle d\mu = \left\langle \int d\mu \int f d\lambda, z' \right\rangle
 $$
-由 (4), 从而 (5)。
+由（4），从而（5）。
 
-### 2. 乘积测度的性质
+### 2. 乘积措施的属性
 
-如果 $\lambda$（或 $\mu$）是 X（或 Y）上的度量，且 $\nu$ 是 $\lambda$ 通过 $\mu$ 的乘积度量，则 $\nu$ 到 $\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$ 的限制为无除了两个线性形式$\lambda$和$\mu$（A，II, §3, No. 2）中的*张量积*$\lambda \otimes \mu$之外，因为No. 1的关系（1）可以写成
+如果 $\lambda$（或 $\mu$）是 X（或 Y）上的度量，并且 $\nu$ 是 $\lambda$ 与 $\mu$ 的乘积度量，则 $\nu$ 到 $\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$ 的限制为无除了两个线性形式$\lambda$和$\mu$（A，II, §3, No. 2）中的*张量积*$\lambda \otimes \mu$之外，因为No. 1的关系（1）可以写成
 $$
 \langle g \otimes h, \nu \rangle = \langle g, \lambda \rangle \langle h, \mu \rangle = \langle g \otimes h, \lambda \otimes \mu \rangle
 $$
@@ -307,7 +307,7 @@ $$
 
 *约定当因子之一为0且另一个为$+\infty$*时，第二个成员将被0替换。 *特别是，如果* $\lambda$ *和* $\mu$ *有界，则* $\lambda \otimes \mu$ *有界*。
 
-由上述命题 3 和 §1, No. 8，Cor.根据第 10 条命题 1，我们可以将极限应用于$\lambda$ 和$\mu$ 是积极措施的情况。如果$\lambda = 0$或$\mu = 0$，结果是微不足道的；因此，让我们假设$\lambda \neq 0$和$\mu \neq 0$。我们首先证明$\|\lambda \otimes \mu\| \leq \|\lambda\| \cdot \|\mu\|$。我们可以假设$\lambda$和$\mu$是有界的。对于每$f \in \mathscr{K}_+(X \times Y)$，
+由上述命题 3 和 §1, No. 8，Cor.根据提案 10 的 1，我们可以将极限应用于$\lambda$ 和 $\mu$ 是积极措施的情况。如果$\lambda = 0$或$\mu = 0$，结果是微不足道的；因此，让我们假设$\lambda \neq 0$和$\mu \neq 0$。我们首先证明$\|\lambda \otimes \mu\| \leq \|\lambda\| \cdot \|\mu\|$。我们可以假设$\lambda$和$\mu$是有界的。对于每$f \in \mathscr{K}_+(X \times Y)$，
 
 $$
 \langle f, \lambda \otimes \mu \rangle = \int d\lambda(x) \int f(x, y) d\mu(y)
@@ -351,9 +351,9 @@ $$
 
 *当* $\mathscr{M}(X; \mathbf{C}) , \ \mathscr{M}(Y; \mathbf{C})$ *和* $\mathscr{M}(X \times Y; \mathbf{C})$ *配备严格紧致收敛的拓扑* (§ 1, No. 10)时，*双线性映射* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *of* $\mathscr{M}(X; \mathbf{C}) \times \mathscr{M}(Y; \mathbf{C})$ *进入* $\mathscr{M}(X \times Y; \mathbf{C})$ *对于集合是低连续的* $\mathscr{M}(X; \mathbf{C})$ *和* $\mathscr{M}(Y; \mathbf{C})$ *(TVS, III, § 5, No. 3)* 的子集有模糊界限。
 
-令$K \subset X , \ L \subset Y$为两个紧集，$A$为$\mathscr{K}(X \times Y, K \times L; \mathbf{C})$的紧凑子集，$B$为$\mathscr{M}(X; \mathbf{C})$的模糊边界且封闭的子集；众所周知，$B$是模糊紧致的（§ 1, No. 9，命题15），因此对于严格紧致收敛的拓扑也是紧致的（§ 1, No. 10，命题17）。另一方面，Banach 空间 $\mathscr{K}(X \times Y, K \times L; \mathbf{C})$ 与 $\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C}))$ 等距（No. 1，引理 1）；将$\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C})) \times \mathscr{M}(X; \mathbf{C})$的映射$\varphi$转化为$\mathscr{K}(Y, L; \mathbf{C})$，使得$\varphi(g, \lambda)$是由$h(y) = \int g(x, y) d\lambda(x)$定义的函数$h$，凭借§ 3, No. 4，道具是“单独连续的”。 8 和 9. 由于 $\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C}))$ 是桶状的，因此映射 $\varphi$ 相对于 $\mathscr{M}(X; \mathbf{C})$ 的模糊边界子集是“次连续的”（TVS，III, § 5, No. 3，第 6 条）；因而，映射到$A \times B$的限制是*连续的*（*loc.cit.*，Prop.4）。 映射之下的$A \times B$的像$C$因此是Banach空间$\mathscr{K}(Y, L; \mathbf{C})$的紧凑子集。现在，$C$正是函数$h(y) = \int f(x, y) d\lambda(x)$的集合，因为$f$超过$A$，$\lambda$超过$B$；根据No. 1的公式(3)，条件$\lambda \in B$和$\mu \in C^\circ$因此意味着$\lambda \otimes \mu \in A^\circ$。鉴于严格紧致收敛的定义或拓扑，这证明了命题（TVS，III, § 5, No. 3，Def.2）。
+令$K \subset X , \ L \subset Y$为两个紧集，$A$为$\mathscr{K}(X \times Y, K \times L; \mathbf{C})$的紧凑子集，$B$为$\mathscr{M}(X; \mathbf{C})$的模糊边界且封闭的子集；众所周知，$B$是模糊紧致的（§ 1, No. 9，命题15），因此对于严格紧致收敛的拓扑也是紧致的（§ 1, No. 10，命题17）。另一方面，Banach 空间 $\mathscr{K}(X \times Y, K \times L; \mathbf{C})$ 与 $\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C}))$ 等距（No. 1，引理 1）；将$\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C})) \times \mathscr{M}(X; \mathbf{C})$的映射$\varphi$转化为$\mathscr{K}(Y, L; \mathbf{C})$，使得$\varphi(g, \lambda)$是由$h(y) = \int g(x, y) d\lambda(x)$定义的函数$h$，凭借§ 3, No. 4，道具是“单独连续的”。 8 和 9. 由于 $\mathscr{K}(X, K; \mathscr{K}(Y, L; \mathbf{C}))$ 是桶状的，因此映射 $\varphi$ 相对于 $\mathscr{M}(X; \mathbf{C})$ 的模糊边界子集是“次连续的”（TVS，III, § 5, No. 3，第 6 条）；因而，映射到$A \times B$的限制是*连续的*（*loc.cit.*，Prop.4）。因而，映射下的$A \times B$的像$C$是Banach空间$\mathscr{K}(Y, L; \mathbf{C})$的紧凑子集。现在，$C$正是函数$h(y) = \int f(x, y) d\lambda(x)$的集合，因为$f$超过$A$，$\lambda$超过$B$；根据No. 1的公式(3)，条件$\lambda \in B$和$\mu \in C^\circ$因此意味着$\lambda \otimes \mu \in A^\circ$。鉴于严格紧致收敛的定义或拓扑，这证明了命题（TVS，III, § 5, No. 3，Def.2）。
 
-当严格紧致收敛的拓扑被模糊的拓扑取代时，命题6的结论就不再有效（Exer.2c））。但是，如果 B（分别为 C）是 $\mathscr{M}(X; \mathbf{C})$（分别为 $\mathscr{M}(Y; \mathbf{C})$）的模糊边界子集，则映射 $(\lambda, \mu) \mapsto \lambda \otimes \mu$ 下的 $B \times C$ 的像模糊地边界为 $\mathscr{M}(X \times Y; \mathbf{C})$，因此根据命题 6、§1, No. 10、命题 17 和 TVS 命题 4、III, §5, No. 3 (cf. Exer. 3)，映射到 $B \times C$ 的限制是模糊连续的。
+当严格紧致收敛的拓扑被模糊的拓扑取代时，命题6的结论就不再有效（Exer.2c））。但是，如果 B（分别为 C）是 $\mathscr{M}(X; \mathbf{C})$（分别为 $\mathscr{M}(Y; \mathbf{C})$）的模糊边界子集，则映射 $(\lambda, \mu) \mapsto \lambda \otimes \mu$ 下的 $B \times C$ 的像模糊地边界在 $\mathscr{M}(X \times Y; \mathbf{C})$ 中，因此根据命题 6、§1, No. 10、命题 17 和 TVS 命题 4、III, §5, No. 3 (cf. Exer. 3)，映射到 $B \times C$ 的限制是模糊连续的。
 
 ### 4. 有限数措施中的乘积
 
@@ -376,7 +376,7 @@ $$
 \langle f_1 \otimes f_2 \otimes \cdots \otimes f_n, \mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n \rangle = \prod_{i=1}^n \langle f_i, \mu_i \rangle.
 $$
 
-#### 命题 7（'措施乘积结合性'）{#int-iii-s4-prop-7 .statement tag=08ON}
+#### 命题 7（“措施乘积结合性”）{#int-iii-s4-prop-7 .statement tag=08ON}
 
 —
 *设*$(I_k)_{1 \leq k \leq r}$*为区间*$[1, n]$*的划分*$\mathbf{N}$； *然后*
@@ -384,9 +384,9 @@ $$
 \bigotimes_{k=1}^r \left( \bigotimes_{i \in I_k} \mu_i \right) = \bigotimes_{i=1}^n \mu_i
 $$
 
-对于$\bigotimes_{i=1}^n \mathscr{K}(X_i; \mathbf{C})$中的每个函数，这两个测量重合，通过(12)。
+对于，这两个措施重合，通过（12），对于$\bigotimes_{i=1}^n \mathscr{K}(X_i; \mathbf{C})$中的每个函数。
 
-函数 $f \in \mathscr{K}(X; \mathbf{C})$相对于乘积测量的积分表示为
+函数 $f \in \mathscr{K}(X; \mathbf{C})$ 关于乘积度量的积分表示为
 $$
 \int f d\mu_1 d\mu_2 \ldots d\mu_n,
 $$
@@ -406,15 +406,15 @@ $$
 $$
 \iiint \ldots \int f(x_1, x_2, \ldots, x_n) \mu_1(x_1) \mu_2(x_2) \ldots \mu_n(x_n)
 $$
-带有 $n$ 标志 $\int$；据说它是阶* $n$ 的 *倍数积分，或 *$n$ 元组积分*。凭借乘积的措施结合性和阶积分反转的定理（No. 1，Th.2），对于 $[1, n]$ 的每一个置换 $\sigma$，我们有，
+有 $n$ 标志 $\int$；据说它是阶* $n$ 的 *倍数积分，或 *$n$ 元组积分*。凭借乘积测量的结合性和阶积分反转的定理（No. 1，Th. 2），对于 $[1, n]$ 的每个置换 $\sigma$，我们有，
 $$
 \iiint \ldots \int f d\mu_1 d\mu_2 \ldots d\mu_n = \int d\mu_{\sigma(1)} \int d\mu_{\sigma(2)} \ldots \int fd\mu_{\sigma(n)}.
 $$
 (14)
 
-积分记号和公式 (14) 可以通过 Hausdorff 局部凸空间 $E$ 中的值以明显的方式扩展到函数 $f \in \mathscr{K}(X; E)$，使得 $f(X)$ 包含在 $E$ 的完全凸子集中。我们留给读者的任务是，将第 2 条和第 3 条关于两个措施的乘积的结果推广到任何有限数措施的乘积。
+积分记号和公式 (14) 可以以明显的方式扩展到函数 $f \in \mathscr{K}(X; E)$，其中值在 Hausdorff 局部凸空间 $E$ 中，使得 $f(X)$ 包含在以下的完全凸子集中$E$。我们留给读者的任务是将第 2 条和第 3 条关于两个措施的乘积的结果推广到任何有限数措施的乘积。
 
-特别是，我们称$n$的$\mathbf{R}^n$乘积上的*勒贝格测度*与$\mathbf{R}$上的勒贝格测度相同； 函数 $f \in \mathscr{K}(\mathbf{R}^n; E)$、满足前面的条件的积分表示为
+特别是，我们称 $n$ 测量中$\mathbf{R}^n$ 乘积上的“勒贝格测度”与$\mathbf{R}$ 上的勒贝格测度相同； 函数 $f \in \mathscr{K}(\mathbf{R}^n; E)$、满足前面的条件的积分表示为
 $$
 \iiint \ldots \int f(x_1, x_2, \ldots, x_n) dx_1 dx_2 \ldots dx_n
 $$
@@ -426,7 +426,7 @@ $\mathbf{R}^n$ 的勒贝格测度*在每个翻译下都是不变的*。
 
 ### 5. 逆极限措施
 
-令$X, Y$为两个紧凑的空间，$p : X \to Y$为连续的映射；那么$f \mapsto f \circ p$是$\mathscr{C}(Y; \mathbf{C})$到$\mathscr{C}(X; \mathbf{C})$的连续线性映射，因为$\|f \circ p\| \leq \|f\|$对于每个函数$f \in \mathscr{C}(Y; \mathbf{C})$；我们用$p'$表示这个映射。因此，它的转置 ${}^t p' : \mathscr{M}(X; \mathbf{C}) \to \mathscr{M}(Y; \mathbf{C})$ 使得，对于 $X$ 上的每个测度 $\mu$，${}^t p'(\mu)$ 是 $Y$ 上的测度，使得
+令$X, Y$是两个紧凑的空间，$p : X \to Y$是一个连续的映射；那么$f \mapsto f \circ p$是$\mathscr{C}(Y; \mathbf{C})$到$\mathscr{C}(X; \mathbf{C})$的连续线性映射，因为$\|f \circ p\| \leq \|f\|$对于每个函数$f \in \mathscr{C}(Y; \mathbf{C})$；我们用$p'$表示这个映射。因此，它的转置 ${}^t p' : \mathscr{M}(X; \mathbf{C}) \to \mathscr{M}(Y; \mathbf{C})$ 使得对于 $X$ 上的每个测度 $\mu$，${}^t p'(\mu)$ 是 $Y$ 上的测度，使得
 
 $$
 \langle {}^t p'(\mu), f \rangle = \langle \mu, f \circ p \rangle
@@ -515,7 +515,7 @@ $$
 
 因此，为了使$(\mu_J)$成为逆系措施，$\mu_\lambda = 0$适用于所有$\lambda \in L$或$\mu_\lambda(1) = 1$适用于所有$\lambda \in L$是必要且充分的。
 
-### 6. 无限乘积测量
+### 6. 无限乘积措施
 
 令$(X_\lambda)_{\lambda \in L}$为紧凑空间族，对于每个$\lambda \in L$，令$\mu_\lambda$为$X_\lambda$的测度。我们保留No. 5的例中的记号，因此对于$L$的每个有限子集$J$，特别是$\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$。
 
@@ -527,13 +527,13 @@ $$
 \mu(f_J \circ \mathrm{pr}_J) = \mu_J(f_J) \prod_{\lambda \in L - J} \mu_\lambda(1).
 $$
 
-此外，测量值 $\mu$ 为正，其总质量由下式给出
+此外，测量 $\mu$ 是正数，其总质量由下式给出
 
 $$
 \mu(1) = \prod_{\lambda \in L} \mu_\lambda(1).
 $$
 
-令$F$为形式$f_J \circ \mathrm{pr}_J$的$X$上函数的向量空间由……组成，其中$J$超过$L$的有限子集的有向集合，以及$f_J \in \mathscr{C}(X_J; \mathbf{C})$；我们再次说$F$是$X$上连续函数的空间，*仅依赖于有限的数变量*。 No. 5的引理3表明$F$在$\mathscr{C}(X; \mathbf{C})$中是稠密的，这就证明了唯一性断言。如果 $\mu_{\lambda_0} = 0$ 对于某些 $\lambda_0 \in L$，则测度 $\mu = 0$ 满足要求，因为在 (18) 的第二个成员中，如果 $\lambda_0 \in J$，我们有 $\mu_J(f_J) = 0$；如果 $\lambda_0 \notin J$，我们有 $\prod_{\lambda \in L - J} \mu_\lambda(1) = 0$。因此，我们可以假设 $\mu_\lambda \neq 0$ 对于所有 $\lambda \in J$，并且由于测量 $\mu_\lambda$ 是正数，这意味着 $\mu_\lambda(1) \neq 0$ 对于所有 $\lambda \in L$。然后让我们对每个 $\lambda \in L$ 集合 $\mu'_\lambda = \mu_\lambda / \mu_\lambda(1)$，这样 $\mu'_\lambda$ 是 $X_\lambda$ 的正测度，使得$\mu'_\lambda(1) = 1$。然后根据No. 5的第8条命题，总质量1的$X$上存在一个正测度$\mu'$，使得$\mu'(f_J \circ \mathrm{pr}_J) = \mu'_J(f_J)$对应于$L$的每个有限子集$J$和每个函数$f_J \in \mathscr{C}(X_J; \mathbf{C})$。积极措施
+令$F$为形式$f_J \circ \mathrm{pr}_J$的$X$上函数的向量空间由……组成，其中$J$超过$L$的有限子集有向集合，并且$f_J \in \mathscr{C}(X_J; \mathbf{C})$；我们再次说$F$是$X$上连续函数的空间，*仅依赖于有限的数变量*。 No. 5的引理 3表明$F$在$\mathscr{C}(X; \mathbf{C})$中是稠密的，这就证明了唯一性断言。如果$\mu_{\lambda_0} = 0$对于某些$\lambda_0 \in L$，则测度$\mu = 0$满足要求，因为在(18)的第二个成员中，如果$\lambda_0 \in J$，我们有$\mu_J(f_J) = 0$，如果$\lambda_0 \notin J$，我们有$\prod_{\lambda \in L - J} \mu_\lambda(1) = 0$。因此，我们可以假设 $\mu_\lambda \neq 0$ 对于所有 $\lambda \in J$，并且由于度量 $\mu_\lambda$ 是正数，这意味着 $\mu_\lambda(1) \neq 0$ 对于所有 $\lambda \in L$。然后让我们对每个 $\lambda \in L$ 集合 $\mu'_\lambda = \mu_\lambda / \mu_\lambda(1)$，这样 $\mu'_\lambda$ 是 $X_\lambda$ 的正测度，使得$\mu'_\lambda(1) = 1$。然后根据No. 5的第8条命题，总质量1的$X$上存在一个正测度$\mu'$，使得$\mu'(f_J \circ \mathrm{pr}_J) = \mu'_J(f_J)$对应于$L$的每有限子集$J$和函数$f_J \in \mathscr{C}(X_J; \mathbf{C})$。积极措施
 
 $$
 \mu = \left( \prod_{\lambda \in L} \mu_\lambda(1) \right) \mu'
@@ -548,20 +548,20 @@ $$
 \prod_{\lambda \in L} \mu_\lambda(1) = \prod_{\lambda \in J} \mu_\lambda(1) \cdot \prod_{\lambda \in L - J} \mu_\lambda(1).
 $$
 
-提案 9 中定义的措施$\mu$称为积极措施族$(\mu_\lambda)_{\lambda \in L}$的*乘积措施*，并用$\bigotimes_{\lambda \in L} \mu_\lambda$表示。
+提案 9 中定义的措施$\mu$称为积极措施系列$(\mu_\lambda)_{\lambda \in L}$的*乘积措施*，并用$\bigotimes_{\lambda \in L} \mu_\lambda$表示。
 
 #### 推论{#int-iii-s4-n6-cor-1 .statement tag=08OT}
 
-*假设9号命题的条件得到验证，令$(L_\rho)_{\rho \in R}$为$L$的划分。那么$(\mu_\lambda)_{\lambda \in L_\rho}$措施族中的每一个都承认乘积措施，乘积措施族$\left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right)_{\rho \in R}$都承认乘积措施，并且*
+*假设第9条命题的条件得到验证，令$(L_\rho)_{\rho \in R}$为$L$的划分。那么每个$(\mu_\lambda)_{\lambda \in L_\rho}$措施族都承认乘积措施，乘积措施族$\left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right)_{\rho \in R}$承认乘积措施，并且*
 
 $$
 \bigotimes_{\rho \in R} \left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right) = \bigotimes_{\lambda \in L} \mu_\lambda.
 $$
 
-对于$\mathbf{R}_+$（GT，IV, §7, No. 5，*注*）中的可乘族，这立即从公式（18）和（19）以及乘积的结合性得出。
+对于$\mathbf{R}_+$（GT，IV, §7, No. 5，*注*）中的可乘家庭，这立即来自公式（18）和（19）以及乘积的结合性。
 
-Exercises
+习题
 
 ### 习题{#int-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

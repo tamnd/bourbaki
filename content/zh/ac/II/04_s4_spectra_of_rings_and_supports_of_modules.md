@@ -29,40 +29,40 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: c59c243c3d54b92dd071300751e8fcd267c314e807596480e93c6e0dc13d4369
+content_sha256: 188fbe75f014e067a66ba75d4664268c13d54dda963a375a5a6d6077c9053bae
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
 translation_method: google
 source_content_sha256: aa56aa107c641a6f533bca5b5920334a1f4dfec7d2788424e0037a9fcb53cc7b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: f29a86e1fb438b7f14c564e05c4fbcfbb681f8d63162cd20872fd8c28bc67d3b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 4. 环的光谱和模的支持
 
-### 1.不可约空间
+### 1. 不可约空间
 
 #### 定义 1 {#ac-ii-s4-def-1 .statement tag=0498}
 
 如果 $X$ 的非空开集合的每个有限交都是非空的，则拓扑空间 $X$ 称为不可约。
 
-通过考虑$X$的开集合的空族，可以看出不可约空间是非空的；对于一个拓扑空间$X$是不可约的，它是非空的并且$X$的两个非空开集合的交总是非空（或者，相当于同一件事，两个闭集合的并不同于$X$ 始终与 $X$ 不同）。
+通过考虑$X$的开集合的空族，可以看出不可约空间是非空的；对于拓扑空间$X$是不可约的，它是非空的并且$X$的两个非空开集合的交始终非空（或者，相当于同一件事，两个闭集合的并不同于$X$ 始终与 $X$ 不同）。
 
 #### 命题 1 {#ac-ii-s4-prop-1 .statement tag=0499}
 
 令$X$为非空拓扑空间。以下条件是等效的：
 (a) $X$ 是不可约的；
-(b) $X$ 的每个非空开集合都稠密于 $X$；
+(b) $X$ 的每个非空开集合都密集于 $X$；
 (c) $X$ 的每个开路集合均已连接。
 
-通过定义，在$X$中密集的集合是集合，满足每个非空开集合，因此(a)和(b)是等价的。 (c) 蕴含 (a) 的是直接的，因为如果$U_1$和$U_2$是不相交的非空开集合，$U_1 \cup U_2$是断开连接集合。最后让我们证明（a）意味着（c）：如果$U$是一个断开的开集集合，它是两个不相交的非空集$U', U''$的并，这两个集在$U$中开集，因此也在$X$中开集，这意味着$X$不是不可约的。
+通过定义，在$X$中密集的集合是集合，它满足每个非空开集合，因此（a）和（b）是等价的。 (c) 蕴含 (a) 的是直接的，因为如果$U_1$和$U_2$是不相交的非空开集合，则$U_1 \cup U_2$是断开连接集合。最后让我们证明（a）意味着（c）：如果$U$是一个断开的开集集合，它是两个不相交的非空集$U', U''$的并，这两个集在$U$中开集，因此也在$X$中开集，这意味着$X$不是不可约的。
 
 仅当 Hausdorff 空间由单个点组成时，它才是不可约的。
 
-如果 $X$ 的子空间 $E$ 是不可约的，则拓扑空间 $X$ 的子集 $E$ 称为不可约集合。为此，对于集合 $U, V$ 中的每个对在 $X$ 中开放并满足 $E$，$U \cap V$ 也满足 $E$，或者（相当于同一件事），对于每个对集合$F, G$，$X$和满足$E \subset F \cup G$、$E \subset F$或$E \subset G$关闭。通过$n$上的归纳，我们推断，如果$(F_i)_{1 \leq i \leq n}$是$X$的闭集合的有限族，使得$E \subset \bigcup_{i=1}^n F_i$，则存在指标$i$使得$E \subset F_i$。
+如果 $X$ 的子空间 $E$ 是不可约的，则拓扑空间 $X$ 的子集 $E$ 称为不可约集合。为此，对于集合$U, V$中的每个对，在$X$开放并满足$E$，$U \cap V$也满足$E$，或者（相当于同一件事），对于每个对集合$F, G$，$X$和满足$E \subset F \cup G$、$E \subset F$或$E \subset G$关闭。通过$n$上的归纳，我们推断，如果$(F_i)_{1 \leq i \leq n}$是$X$的闭集合的有限族，使得$E \subset \bigcup_{i=1}^n F_i$，则存在指标$i$使得$E \subset F_i$。
 
 #### 命题 2 {#ac-ii-s4-prop-2 .statement tag=049A}
 
@@ -120,15 +120,15 @@ $\overline{E}$ 是 $\overline{Q}_i$ 的并，它们是不可约的 (命题 2)；
 
 #### 注 {#ac-ii-s4-n1-rem-1 .statement tag=049I}
 
-假设 $X$ 仅具有不同不可约成分 $X_i$ ($1 \leq i \leq n$) 的 ajinite 数；那么从 $X_i \notin \bigcup_{j \neq i} X_j$ 开始，$U_+ = \mathbf{C}(\bigcup_{j \neq i} X_j)$ 在 $X$ 开，在 $X_i$ 稠密；因此，$U_i$（$1 \leq i \leq n$）是$X$的非空开集合，它们是不可约的（命题2），成对的不相交的，并且它们的并稠密于$X$。
+假设 $X$ 仅具有不同不可约成分 $X_i$ ($1 \leq i \leq n$) 的 ajinite 数；那么从 $X_i \notin \bigcup_{j \neq i} X_j$ 开始，$U_+ = \mathbf{C}(\bigcup_{j \neq i} X_j)$ 在 $X$ 开，在 $X_i$ 稠密；因此，$U_i$ ($1 \leq i \leq n$) 是 $X$ 的非空开集合，不可约 (命题 2)，成对不相交的，且并稠密于$X$。
 
 #### 命题 7 {#ac-ii-s4-prop-7 .statement tag=049J}
 
-*设$U$是拓扑空间$X$的开子集。 映射$V \mapsto \overline{V}$（在$X$闭合）是集合的双射和$U$的不可约子集，它们在$U$到集合上闭合并且不可约子集和$X$于$X$关闭并满足$U$； 逆双射是 $Z \mapsto Z \cap U$。特别是，这个双射映射集合 & 不可约分量 & $U$ 到集合 & 不可约分量 & $X$ 满足 $U$。*
+*设$U$是拓扑空间$X$的开子集。 映射$V \mapsto \overline{V}$（在$X$闭合）是集合的双射和$U$的不可约子集，在$U$到集合闭合并且不可约子集和$X$于$X$关闭并满足$U$； 逆双射是 $Z \mapsto Z \cap U$。特别是，这个双射映射集合＆不可约成分＆$U$到集合＆不可约成分＆$X$满足$U$。*
 
 如果 $V$ 在 $U$ 内闭且不可约，则 $\overline{V}$ 不可约 (命题 2) 且$V = \overline{V} \cap U$。相反，如果 $Z$ 是不可约且在 $X$ 内闭且满足 $U$，则 $Z \cap U$ 是 $Z$ 的非空开子集，因此不可约 (命题 3) 且在 $Z$ 是稠密的，并且， $Z$已关闭，$Z = \overline{Z} \cap U$。这就证明了命题。
 
-### 2.诺特拓扑空间
+### 2. 诺特拓扑空间
 
 #### 定义 3 {#ac-ii-s4-def-3 .statement tag=049K}
 
@@ -141,9 +141,9 @@ $\overline{E}$ 是 $\overline{Q}_i$ 的并，它们是不可约的 (命题 2)；
 (i) 诺特空间中的每个子空间都是诺特。
 (ii) 令 $(A_i)_{i \in I}$ 为拓扑空间 $X$ 的有限覆盖。如果$X$中的子空间$A_i$为诺特，则$X$为诺特。
 
-(i) 设$X$为诺特空间、$X$中的$A$子空间和$A$中的子集中的$(F_i)$递减序列，其闭合时间为$A$；然后是$F_i = \overline{F_n} \cap A$以及$X$形式递减序列中$F_i$的闭包$\overline{F_n}$，以及$X$的已关闭的子集。由于序列是静止的，所以序列 $(F_i)$ 也是静止的。
+(i) 令$X$为诺特空间、$X$中的$A$子空间和$A$中的子集中的$(F_i)$递减序列，其闭合时间为$A$；然后是$F_i = \overline{F_n} \cap A$以及$X$形式递减序列中$F_i$的闭包$\overline{F_n}$，以及$X$的已关闭子集。由于序列是静止的，所以序列 $(F_i)$ 也是静止的。
 
-(ii) 令$(G_n)_{n \geq 0}$为$X$的闭子集的递减序列；到假设，序列 $(G_n \cap A_i)_{n \geq 0}$ 中的每一个都是静止的。由于$I$是有限的，因此存在整数$n_0$，使得对于$n \geq n_0$，$G_n \cap A_i = G_{n_0} \cap A_i$，对于所有$i \in I$。但是
+(ii) 令$(G_n)_{n \geq 0}$为$X$的闭子集的递减序列；到假设，序列 $(G_n \cap A_i)_{n \geq 0}$ 中的每一个都是静止的。由于$I$是有限的，因此存在整数$n_0$，因此对于$n \geq n_0$，$G_n \cap A_i = G_{n_0} \cap A_i$，对于所有$i \in I$。但是
 $$
 G_n = \bigcup_{i \in I} (G_n \cap A_i)
 $$
@@ -153,7 +153,7 @@ $$
 
 对于拓扑空间 $X$ 为诺特，$X$ 中的每个开集合是拟紧的是必要且充分的。
 
-为了证明条件是必要的，凭借命题8，证明每个诺特空间$X$是拟紧的就足够了。设$(U_i)_{i \in I}$是$X$的开覆盖； 集合 $U_i$ 的有限并的集合是非空的，因此承认极大元素 $V = \bigcup_{i \in H} U_i$，其中 $H$ 是 $I$ 的有限子集。到定义，$V \cup U_i = V$ 对于所有 $i \in I$，因此$V = X$。
+为了证明条件是必要的，凭借命题8，证明每个诺特空间$X$是拟紧的就足够了。设$(U_i)_{i \in I}$是$X$的开覆盖； 集合 $U_i$ 的有限并的集合是非空的，因此承认极大元素 $V = \bigcup_{i \in H} U_i$，其中 $H$ 是 $I$ 的有限子集。到定义，$V \cup U_i = V$适用于所有$i \in I$，因此$V = X$。
 
 相反，假设$X$的每个开集合都是拟紧的，并令$(U_i)$为$X$的开子集的递增序列。 $U_i$ 的并 $V$ 是开放的，因此是准紧凑的；由于$(U_i)$是$V$的开覆盖，因此存在$(U_i)$的有限子族，它是$V$的覆盖，因此对于某些指标$n$有$V = U_n$，这证明序列$(U_i)$是平稳的。
 
@@ -165,9 +165,9 @@ $$
 
 #### 命题 10 {#ac-ii-s4-prop-10 .statement tag=049O}
 
-*如果X是诺特空间，则X的不可约分量集合（以及X的连通分量更不必说集合）是有限的。*
+*如果X是诺特空间，X的不可约分量集合（以及X的连通分量更不必说集合）是有限的。*
 
-足以证明X是不可约闭子集的有限并（编号**1**，命题6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭的有限并的集合子集。令 Y 为 X 的闭子集，使得 Y 属于到 F 的每个闭子集 $\neq Y$ 到 F。如果 Y 不可约，则 $Y \in F$ 乘以定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和 $Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
+足以证明X是不可约闭子集的有限并（编号**1**，命题6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭的有限并的集合子集。设 Y 为 X 的闭子集，使得 Y 属于到 F 的每个闭子集$\neq Y$。如果 Y 不可约，则$Y \in F$乘定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和 $Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
 
 特别是，*Hausdorff* 诺特空间必然是*有限*。
 
@@ -369,7 +369,7 @@ $$
 Z_i \subset \mathrm{V}(Ab_i) = \mathrm{V}(Ab_i^p)
 $$
 
-和$V(Aa_i) \cap V(Ab_i) = V(Aa_i + Ab_i) = \varnothing$，因此有$U_i = V(Aa_i^p)$和$Z_i = V(Ab_i^p)$，从而通过替换建立我们的断言，通过$Aa_i^p$建立$a_i$，并通过$Ab_i^p$建立$b_i$。由此选择理想$a_i$和$b_i$，从$\sigma$是双射的事实可以得出，存在两个幂等$f_i \in a_i, e_i \in b_i$使得$1 = e_i + f_i, e_i f_i = 0, a_i = Af_i, b_i = Ae_i$。如果$i \neq j$，则$X = Z, \cup Z_j = V(Ae_i e_j)$，并且由于$e_i e_j$是幂等的，引理2表明$e_i e_j = 0$。最后$e = \sum_{i \in I} e_i$是幂等的，$e_i \in Ae$对于所有$i \in I$，从而$V(Ae) \subset Z$，对于所有$i$；由此可见
+和$V(Aa_i) \cap V(Ab_i) = V(Aa_i + Ab_i) = \varnothing$，因此有$U_i = V(Aa_i^p)$和$Z_i = V(Ab_i^p)$，这通过替换建立了我们的断言，通过$Aa_i^p$建立了$a_i$，并通过$Ab_i^p$建立了$b_i$。由此选择理想$a_i$和$b_i$，从$\sigma$是双射的事实可以得出，存在两个幂等$f_i \in a_i, e_i \in b_i$使得$1 = e_i + f_i, e_i f_i = 0, a_i = Af_i, b_i = Ae_i$。如果$i \neq j$，则$X = Z, \cup Z_j = V(Ae_i e_j)$，并且由于$e_i e_j$是幂等的，引理2表明$e_i e_j = 0$。最后$e = \sum_{i \in I} e_i$是幂等的，$e_i \in Ae$对于所有$i \in I$，从而$V(Ae) \subset Z$，对于所有$i$；由此可见
 
 $$
 V(Ae) = \varnothing = V(A.1)
@@ -540,16 +540,16 @@ $$
 
 (c) 给出自同构$u \in \mathbf{GL}(M)$的例，使得$1 - u$的核不是M的直因子（取A为正式幂级数的局部环$K[[X]]$） 域 K 和 $M = A$ 上的一个不确定值）。
 
-(d) 给出直因子 N 的例，M 的 P（必须是自由的），使得 $N + P$ 和 $N \cap P$ 不是 M 的直因子。（取 $A = K[X]/(X^2)$，其中 K 是域和 $M = A^2$。）
+(d) 给出直因子 N 的例，M 的 P（必然是自由的），使得 $N + P$ 和 $N \cap P$ 不是 M 的直因子。（取 $A = K[X]/(X^2)$，其中 K 是域和 $M = A^2$。）
 
 ¶ 15. 设 A 为（可交换的）环，M A-模。
 
 (a) 为了使 M 的子模 M' 是纯的（章 I, § 2，习题 24），对于 A 的每个最大理想$m$，$M'_m$ 是 $M_m$ 的纯子模（使用定理 1）是充分必要的no. 3）。
 
-(b) 假设 A 为局部环，最大理想为 $m$，M 为有限生成的自由A-模。对于 M 的有限生成的子模 M' 来说，它是 M 的直因子是充分必要的。（使用 no. 2、约化到证明的推论 1 到命题 5，如果 $M' \subset mM$、$M'$ 只能是如果 $M' = 0$，则为 M 的纯子模。）
+(b) 假设 A 为局部环，最大理想为 $m$，M 为有限生成的自由A-模。对于 M 的有限生成的子模 M' 来说，它是 M 的直因子是必要且充分的。（使用 no. 2、约化到证明的推论 1 到命题 5，如果 $M' \subset mM$、$M'$ 只能是如果 $M' = 0$，则为 M 的纯子模。）
 
-16. 令$(A_\lambda, f_{\mu\lambda})$为局部环的直接系统，使得$f_{\mu\lambda}$是本地同态；设$m_\lambda$为$A_\lambda$和$K_\lambda = A_\lambda/m_\lambda$的最大理想。那么$A = \varprojlim A_\lambda$就是局部环，其最大理想是$m = \varprojlim m_\lambda$，剩余类域就是$\bar{K} = \varprojlim K_\lambda$。此外，如果$m_\mu = A_\mu m_\lambda$适用于$\lambda < \mu$，则$m = Am$适用于所有$\lambda$。
+16. 设$(A_\lambda, f_{\mu\lambda})$为局部环的直接系统，使得$f_{\mu\lambda}$是局部同态；设$m_\lambda$为$A_\lambda$和$K_\lambda = A_\lambda/m_\lambda$的最大理想。那么$A = \varprojlim A_\lambda$就是局部环，其最大理想是$m = \varprojlim m_\lambda$，剩余类域就是$\bar{K} = \varprojlim K_\lambda$。此外，如果$m_\mu = A_\mu m_\lambda$适用于$\lambda < \mu$，则$m = Am$适用于所有$\lambda$。
 
 94
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -48,32 +48,32 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: 439a7a179fff8b6efa41f053bf74c6e2defcb1c7de747b090552ca2a3d624466
+content_sha256: d27ed9e712536a4c460989a006690351b6987dda74eb511d110372e282a17adf
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 translation_method: google
 source_content_sha256: b5c155c15f83267d7c6d79a662a997296ac1d37834b41153ee92fcd8c306ae20
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ae4c4527cfc3c7c2d794cc55a6762ce84d3d087b0d21345f08dec9451d8e3634
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 COXETER 群的几何表示
 
 在本段中，所有考虑的向量空间都是真实的向量空间。
 
-### 1. 形式与 Coxeter 群相关
+### 1. 形式与考克斯特相关群
 
-令 S 为集合，令 M = $(m(s, s')_{s, s' \in S})$ 为型 S 的 Coxeter 矩阵（第 IV, § 1, no. 9）。回想一下，这意味着：
+令 S 为集合，并令 M = $(m(s, s')_{s, s' \in S})$ 为型 S 的 Coxeter 矩阵（第 IV, § 1, no. 9）。回想一下，这意味着：
 
 (1) M 的元素为整数或$+\infty$。
 (2) M 是对称的。
 (3) $m(s, s) = 1$ 对于所有 s。
 (4) $m(s, s') \geq 2$ 为 $s \neq s'$。
 
-令$E = \mathbf{R}^{(S)}$，令$(e_s)_{s \in S}$为E的典范基，并令$B_M$为E的双线性形式，这样
+令$E = \mathbf{R}^{(S)}$，令$(e_s)_{s \in S}$为E的典范基，令$B_M$为E的双线性形式，这样
 
 $$
 B_M(e_s, e_{s'}) = -\cos \frac{\pi}{m(s, s')}.
@@ -114,7 +114,7 @@ B_M(z, z) = x^2 - 2xy \cos \frac{\pi}{m} + y^2 \\
 $$
 这表明$B_M$在$E_{s,s'}$上是正的，并且当且仅当$\sin \frac{\pi}{m} \neq 0$时它是非退化的。接下来是命题。
 
-反射 $\sigma_s$ 和 $\sigma_{s'}$ 使 $E_{s,s'}$ 保持稳定。我们要去$\sigma_s \sigma_{s'}$到$E_{s,s'}$的限制确定阶。我们区分两种情况：
+反射 $\sigma_s$ 和 $\sigma_{s'}$ 使 $E_{s,s'}$ 保持稳定。我们要去$\sigma_s \sigma_{s'}$$E_{s,s'}$限制确定阶。我们区分两种情况：
 
 $a) \ m = +\infty$。
 
@@ -126,7 +126,7 @@ $$
 $$
 (\sigma_s \sigma_{s'})^n(e_s) = 2nu + e_s \quad \text{for all } n \in \mathbf{Z}.
 $$
-由此可见，$\sigma_s \sigma_{s'}$到$E_{s,s'}$的限制是*无限阶*。
+由此可见，$\sigma_s \sigma_{s'}$到$E_{s,s'}$的限制是*无穷阶*。
 
 $b) \ m$ *是有限的*。
 
@@ -158,7 +158,7 @@ $$\sigma : W \to \mathbf{GL}(E)$$
 
 *这样*$\sigma(g_s) = \sigma_s$*对于所有人*$s \in S$。 *元素*$\sigma(W)$*保留双线性形式*$B_M$。
 
-要证明$\sigma$的存在性和唯一性，只要证明$(\sigma_s \sigma_{s'})^{m(s, s')} = 1$ if $m(s, s') \neq +\infty$就足够了。现在，如果 $s = s'$，则根据 $\sigma_s$ 为阶 2 的事实得出结论；如果$s \neq s'$，则由我们在no. 2中证明的结果得出。最后，由于反射$\sigma_s$保留了$B_M$，所以$\sigma(W)$的元素也保留了。
+要证明$\sigma$的存在性和唯一性，只要证明$(\sigma_s \sigma_{s'})^{m(s, s')} = 1$ if $m(s, s') \neq +\infty$就足够了。现在，如果 $s = s'$，则根据 $\sigma_s$ 为阶 2 的事实得出结论；如果$s \neq s'$，则由我们在no. 2中证明的结果得出。最后，由于反射$\sigma_s$保留$B_M$，所以$\sigma(W)$的元素也保留。
 
 #### 注 1 {#lie-v-s4-n3-rem-1 .statement tag=0ARE}
 
@@ -178,11 +178,11 @@ $$s \mapsto g_s \mapsto \sigma_s$$
 
 从 $S$ 到 $\mathbf{GL}(E)$ 是单射的。
 
-对于*b*)（或*c*）），我们注$g_s$的阶（或$g_s g_{s'}$的阶）*至多*2（或*至多*$m(s, s')$）。由于我们在no. 2中看到$\sigma_s$（$\sigma_s \sigma_{s'}$）的阶是2（$m(s, s')$），所以我们必须有等式。
+对于*b*)（或*c*）），我们注$g_s$的阶（或$g_s g_{s'}$的阶）*至多*2（或*至多*$m(s, s')$）。由于我们在no. 2中看到$\sigma_s$（$\sigma_s \sigma_{s'}$）的阶为2（$m(s, s')$），因此我们必须有等式。
 
 鉴于*a)*，$S$可以通过映射$s \mapsto g_s$与$W$的子集进行“识别”。
 
-1 这意味着，如果 $L_S$ 表示 $S$ 上的自由群，则 $W$ 是 $L_S$ 与最小的正常子群的商，即 $L_S$ 包含元素 $(ss')^{m(s, s')}$，对于$m(s, s') \neq +\infty$。
+1 这意味着，如果 $L_S$ 表示 $S$ 上的自由群，则 $W$ 是 $L_S$ 除以最小的正常子群与 $L_S$ 包含元素的商$(ss')^{m(s, s')}$，对于$m(s, s') \neq +\infty$。
 
 #### 推论{#lie-v-s4-n3-cor-1 .statement tag=0ARG}
 
@@ -194,7 +194,7 @@ $$s \mapsto g_s \mapsto \sigma_s$$
 
 因此，我们已经证明*每个 Coxeter 矩阵对应到 Coxeter 群*。
 
-### 4.矛盾表示
+### 4. 矛盾表示
 
 令 E* 为 E 的对偶。由于 W 通过 σ 作用于 E，因此它也通过结构的迁移作用于 E*。 相应的表示
 
@@ -228,13 +228,13 @@ $$
 
 *表示* σ *和* σ* *是单射*。
 
-事实上，如果 σ*(w) = 1，则 w(C) = C，因此 w = 1 × 定理。 σ 的单射性源自 σ* 的单射性。
+事实上，如果 σ*(w) = 1，则 w(C) = C，因此 w = 1 by 定理。 σ 的单射性源自 σ* 的单射性。
 
 #### 推论 3 {#lie-v-s4-thm-1-cor-3 .statement tag=0ARL}
 
 *如果 S 是有限的，则 σ(W) 是* \mathbf{GL}(E) *的离散子群 *并提供其规范的李群结构；类似地，σ*(W) 是* \mathbf{GL}(E^*) *.* 的离散子群
 
-设 x* ∈ C。 g ε \mathbf{GL}(E^*) 的集合 U，使得 g(x*) ε C 是 \mathbf{GL}(E^*) 中单位元素的邻域； 定理，
+设 x* ∈ C。 g ε \mathbf{GL}(E^*) 的集合 U 使得 g(x*) ε C 是 \mathbf{GL}(E^*) 中单位元素的邻域；通过定理，
 
 $$
 \sigma^*(W) \cap U = \{1\};
@@ -244,7 +244,7 @@ $$
 
 证明共定理 1。
 
-如果$w \in W$，则用$w$相对于$S$的$l(w)$长度来表示（第IV, § 1, no. 1章）。
+如果$w \in W$，则用$w$相对于$S$的$l(w)$长度表示（第IV, § 1, no. 1章）。
 
 我们将证明以下断言，其中$n$表示整数$\geqslant 0$：
 
@@ -257,7 +257,7 @@ $$
 w(C) \subset u(A_s \cap A_{s'}) \quad \text{and} \quad l(w) = l(u) + l(u^{-1}w).
 $$
 
-这些断言对于$n = 0$来说是微不足道的。我们根据概形，通过归纳在$n$上证明它们
+这些断言对于$n = 0$来说是微不足道的。我们根据概形，在$n$上用归纳证明它们
 
 $$
 ((P_n) \text{ and } (Q_n)) \Longrightarrow (P_{n+1}) \quad \text{and} \quad ((P_{n+1}) \text{ and } (Q_n)) \Longrightarrow (Q_{n+1}).
@@ -313,15 +313,15 @@ l(w) = 1 + l(sw) = 1 + l(v) + l(v^{-1}sw)
 
 设 w \in W，w \neq 1。我们可以将 w 写在形式 sw' 中，s \in S 且 l(w') = l(w) - 1。通过 (P_n)，应用于 w' 和 n = l(w')，我们有 w'(C) \子集 A_s，因为情况为 w'(C) \子集 s(A_s) 被排除，因为 l(sw') = l(w) = l(w') + 1。所以 w(C) = sw'(C) \子集 s(A_s)，并且由于 A_s 和 s(A_s) 是不相交的，所以我们有 C \cap w(C) = \var什么都没有。 Q.E.D.
 
-### 5.证明共引理1
+### 5. 证明共引理 1
 
-令 E_{s,s'}^* 为平面 E_{s,s'} = \mathbf{R}e_s \oplus \mathbf{R}e_{s'} (no. 2) 的对偶。 转置 of 单射 E_{s,s'} \to E 是一个满射
+令 E_{s,s'}^* 为平面 E_{s,s'} = \mathbf{R}e_s \oplus \mathbf{R}e_{s'} (no. 2) 的对偶。 单射 E_{s,s'} 的转置 \to E 是一个满射
 
 $$
 p : E^* \to E_{s,s'}^*
 $$
 
-与作用或群 W_{s,s'} 通勤。很明显，A_s、A_{s'} 和 A_s \cap A_{s'} 在 E_{s,s'}^* 的相应的子集的 p 下是逆像（被认为是 Coxeter 群的对位表示的空间） W_{s,s'})。此外，由于 W_{s,s'} 的元素的长度对于 \{s, s'\} 和对于 S 是相同的（第 IV, § 1, no. 8），所以我们最终被简化为 S = \{s, s'\} 的情况；如果 m = m(s, s')，群 W 则为阶 2m 的二面角群。
+与作用或群 W_{s,s'} 通勤。很明显，A_s、A_{s'} 和 A_s \cap A_{s'} 在 E_{s,s'}^* 的相应的子集的 p 下是逆像（被视为 Coxeter 的对角表示的空间） 群 W_{s,s'})。此外，由于 W_{s,s'} 的元素的长度对于 \{s, s'\} 和对于 S 是相同的（第 IV, § 1, no. 8），所以我们最终被简化为 S = \{s, s'\} 的情况；如果 m = m(s, s')，群 W 则为阶 2m 的二面角群。
 
 我们现在区分两种情况：
 a) m = +\infty.
@@ -332,7 +332,7 @@ s.\varepsilon = -\varepsilon + 2\varepsilon', \quad s'.\varepsilon = \varepsilon
 s.\varepsilon' = \varepsilon', \quad s'.\varepsilon' = 2\varepsilon - \varepsilon'.
 $$
 
-设D为$E^*$包含于$\varepsilon$和$\varepsilon'$的仿射线；上面的公式表明D在s和$s'$下是稳定的，并且s（或$s'$）到D的限制是相对于点$\varepsilon'$（或$\varepsilon$）的反射。让
+设D为$E^*$包含于$\varepsilon$和$\varepsilon'$的仿射线；上面的公式表明D在s和$s'$下是稳定的，并且s（分别为$s'$）到D的限制是相对于点$\varepsilon'$（分别为$\varepsilon$）的反射。让
 
 $$
 \theta : \mathbf{R} \to D
@@ -342,7 +342,7 @@ $$
 
 b) $m$ 是有限的。
 
-那么形式 $B_M$ 是非退化的 (no. 2)，所以我们用 E 来可以确定 $E^*$。我们已经看到 E 可以定向，使得半线 $\mathbf{R}_+ e_s$ 和 $\mathbf{R}_+ e_{s'}$ 之间的角度等于 $\pi - \frac{\pi}{m}$。设 D（分别为 $D'$）为从 $\mathbf{R}_+ e_s$（分别为 $\mathbf{R}_+ e_{s'}$）旋转 $\pi/2$（分别为 $-\pi/2$）获得的半线，cf. 图 2。室 C 为集合 $x \in E$，其标量乘积与$e_s$和$e_{s'}$是$> 0$；这是原点为 $D'$、末端为 D 的开角扇区。通过 § 2 的注，无 5，W 变换 C 的每元素 $v$ 进入与 C 位于 D 同一侧的角扇区（即包含在$A_s$中）或在相反一侧（即包含在$s(A_s)$中），并且在后一种情况下
+那么形式 $B_M$ 是非退化的 (no. 2)，所以我们用 E 可以确定 $E^*$。我们已经看到 E 可以定向，使得半线 $\mathbf{R}_+ e_s$ 和 $\mathbf{R}_+ e_{s'}$ 之间的角度等于 $\pi - \frac{\pi}{m}$。设 D（分别为 $D'$）为从 $\mathbf{R}_+ e_s$（分别为 $\mathbf{R}_+ e_{s'}$）旋转 $\pi/2$（分别为 $-\pi/2$）获得的半线，cf. 图 2。室 C 为集合 $x \in E$，其标量乘积与$e_s$和$e_{s'}$是$> 0$；这是原点为 $D'$、末端为 D 的开角扇区。通过 § 2 的注，无 5，W 变换 C 的每元素 $v$ 进入与 C 位于 D 同一侧的角扇区（即包含在$A_s$中）或在相反一侧（即包含在$s(A_s)$中），并且在后一种情况下
 
 $$
 l(sv) = l(v) - 1,
@@ -350,11 +350,11 @@ $$
 
 完成引理的证明。
 
-![图表显示两条半线 es 和 es'，一个角标记为 π/m，阴影区域标记为 D 和 D'，点 O 位于原点]（图 2）
+![图表显示两条半线 es 和 es'，一个角标记为 π/m，阴影区域标记为 D 和 D'，点 O 在原点]（图 2）
 
 图2
 
-### 6. 并会议厅中的 W 基本领域
+### 6. 并会议厅中 W 的基本领域
 
 我们保留 no. 4 中的记号。对于$s \in S$，用与$e_s$正交的$E^*$的$H_s$超平面表示，用$x^* \in E^*$的$\overline{A}_s$集合表示，使得$\langle x^*, e_s \rangle \geqslant 0$和$\overline{C}$交表示$\overline{A}_s$ 换$s \in S$。对于由$E^*$和$E$之间的对偶性定义的弱拓扑$\sigma(E^*, E)$（*拓扑向量空间*，第II, §6, no. 2章），$\overline{A}_s$是闭半空间，$\overline{C}$是闭凸锥。此外，$\overline{C}$是$C$的*闭包*；事实上，如果$x^* \in \overline{C}$和$y^* \in C$，那么对于每个实数$t > 0$和$x^* = \lim_{t \to 0} (x^* + t y^*)$，$x^* + t y^* \in C$。
 
@@ -410,7 +410,7 @@ $$
 
 从$[x^*z^*] \subset \overline{C}$开始。
 
-### 7. Coxeter 群几何表示的不可约性
+### 7. COXETER 群几何表示的不可约性
 
 我们保留前面的记号，并假设S是*有限*。
 
@@ -420,7 +420,7 @@ $$
 
 如果$x \in E^0$，则$\sigma_s(x) = x - 2B_M(e_s, x)e_s = x$对于所有$s \in S$。由于 W 由 S 生成，因此 W 对 $E^0$ 的作用微不足道。
 
-令$E'$为W下稳定的E的子空间。令$s, s' \in S$为在$(W, S)$的图$\Gamma$中*链接*的两个元素（第IV, §1, no. 9章）；回想一下，这意味着 $m(s, s') \geq 3$。假设$e_s \in E'$。然后$\sigma_{s'}(e_s) \in E'$，并且由于$\sigma_{s'}(e_s)$中$e_{s'}$的系数非零，所以我们有$e_{s'} \in E'$。由于 $\Gamma$ 是连通的，因此，如果 $E'$ 包含于 $e_s$ 之一，则包含全部都包含且重合与 E。除了这种情况，从 §2, no. 2 的第 3 条命题可以得出，对于所有 $s \in S$， $E'$包含在与$e_s$正交的超平面$H_s$中。由于$H_s$的交等于$E^0$，因此证明了命题。
+令$E'$为W下稳定的E的子空间。令$s, s' \in S$为在$(W, S)$的图$\Gamma$中*链接*的两个元素（第IV, §1, no. 9章）；回想一下，这意味着 $m(s, s') \geq 3$。假设$e_s \in E'$。然后$\sigma_{s'}(e_s) \in E'$，并且由于$\sigma_{s'}(e_s)$中$e_{s'}$的系数非零，所以我们有$e_{s'} \in E'$。由于 $\Gamma$ 是相连的，因此，如果 $E'$ 包含于 $e_s$ 之一，那么它包含全部以及重合与 E。除了这种情况，从 §2, no. 2 的第 3 条命题可以得出，对于所有 $s \in S$， $E'$包含在与$e_s$正交的超平面$H_s$中。由于$H_s$的交等于$E^0$，因此证明了命题。
 
 #### 推论{#lie-v-s4-n7-cor-1 .statement tag=0ARR}
 
@@ -499,15 +499,15 @@ $$
 
 $w \in W$ 以及所有 $s \in S$、$w(C_0)$ 不满足 $H_s$。由此可见，$C_0$包含在$\mathfrak{H}$的超平面的并的补集$U$中，并且由于$C_0$在$U$中连通、开闭，因此它是$E$相对于$\mathfrak{H}$的一个室。 Q.E.D.
 
-我们可以将§ 3中证明的所有性质应用于$W$和$C_0$。特别地，$\overline{C_0}$是$E$上$W$的作用的基本域（在其他字中，no. 6中定义的圆锥体$U$等于$E$的整体）。
+我们可以将§ 3中证明的所有性质应用于$W$和$C_0$。特别地，$\overline{C_0}$是$E$上$W$的作用的基本域（在其他字中，no. 6中定义的圆锥体$U$等于整个$E$）。
 
-相反，令$E$为有限维实数向量空间，并提供标量乘积$(x|y)$，并令$W$为$E$位移的基本有限群，保持0固定；假设 $W$ 是由反射生成的。令$C_0$为$E$相对于$W$（cf.§ 3）的房间，并令$S$为相对于$C_0$墙壁的正交反射的集合。那么 $(W, S)$ 就是有限 Coxeter 系统 ($§ 3$, no. 2, Th. 1)。此外，如果$s \in S$，用$H_s$表示$C_0$相应的到$s$的壁，并用$e_s$单位向量表示与$H_s$正交且在$H_s$的同一侧如$C_0$。如果 $(m(s, s'))$ 表示 $(W, S)$ 的 Coxeter 矩阵，Props。 $§ 3$的3和7表明
+相反，令$E$为有限维实数向量空间，并提供标量乘积$(x|y)$，并令$W$为$E$位移的基本有限群，保持0固定；假设 $W$ 是由反射生成的。令$C_0$为$E$相对于$W$（cf.§ 3）的房间，并令$S$为相对于$C_0$墙壁的正交反射的集合。那么 $(W, S)$ 就是有限 Coxeter 系统 ($§ 3$, no. 2, Th. 1)。此外，如果$s \in S$，用$H_s$表示$C_0$相应的到$s$的壁，并用$e_s$单位向量表示与$H_s$正交且在$H_s$的同一侧如$C_0$。如果 $(m(s, s'))$ 表示 $(W, S)$ 的 Coxeter 矩阵，则 Pros. $§ 3$的3和7表明
 
 $$
 (e_s|e_{s'}) = -\cos(\pi/m(s, s'))
 $$
 
-以及 $E$ 的 $e_s$ 形式基。 *因此，$E$上的$W$的自然表示可以与no. 3的表示$\sigma$进行识别。*
+以及 $E$ 的 $e_s$ 形式基。 *因此，$E$上的$W$的自然表示可以与no. 3的表示$\sigma$识别。*
 
 ### 9. $B_M$ 为正且退化的情况
 
@@ -585,4 +585,4 @@ $$
 
 在下面的习题中，$(W, S)$表示Coxeter系统。我们假设 $S$ 是有限的；它的基数称为秩或 $(W, S)$。我们通过$\sigma$（cf.第3和4）来认同$W$与$\mathbf{GL}(E)$的子群。
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

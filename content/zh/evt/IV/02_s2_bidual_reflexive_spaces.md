@@ -33,19 +33,19 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 26
-content_sha256: 6eb363c3fcc5339a3f4e05149ff01d54e328bebe316ebaecc0591c03ef2d1642
+content_sha256: 3e54b6f6c3ad0beee01b85bfb077506b0f9c7b5fbf5e3a18e55cf804f47031c0
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 translation_method: google
 source_content_sha256: b91386e65623979a9a9994a73c883cd7ba5db67a5bb1adc0fbb46df95c3c8a73
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7827e1e4f65328b8fcf609e3c1484cff1986b09b12bc708c6792e57b7282e255
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 2。双向。反身空间
+## § 2。双向。反射空间
 
 ### 1. 双向
 
@@ -53,17 +53,17 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 — *令 $E$ 为局部凸空间，$E'_b$ 为其强对偶。局部凸空间 $E'_b$ 的对偶称为 $E$ 的对偶，记为 $E''$。*
 
-对于每个$x \in E$，令$\tilde{x}$在$E'$上为线性形式$x' \mapsto \langle x, x' \rangle$；对于弱的拓扑$\sigma(E', E)$来说它是连续的，因此*更不必说*，对于强的拓扑在$E'$上；因此 $\tilde{x} \in E''$ 对于所有$x \in E$。 映射$c_E : x \mapsto \tilde{x}$从$E$到$E''$是线性映射，据说是*规范*。
+对于每个$x \in E$，令$\tilde{x}$在$E'$上为线性形式$x' \mapsto \langle x, x' \rangle$；对于弱拓扑$\sigma(E', E)$来说它是连续的，因此*更不必说*，对于强拓扑在$E'$上；因此 $\tilde{x} \in E''$ 对于所有$x \in E$。 映射$c_E : x \mapsto \tilde{x}$从$E$到$E''$是线性映射，据说是*规范*。
 
 #### 命题 1 {#evt-iv-s2-prop-1 .statement tag=07S9}
 
-— *$c_E : E \to E''$的核是$E$中0的闭包。如果 $E$ 是 Hausdorff，则 $c_E$ 是单射。*
+— $c_E : E \to E''$ 的 *核是 $E$ 中 0 的闭包。如果 $E$ 是 Hausdorff，则 $c_E$ 是单射。*
 
-到构造，$c_E$的核是$E$上连续线性形式的核交，*即*$E$中$\{0\}$的闭合（II， p. 24，cor。
+到构造，$c_E$的核是$E$上连续的线性形式的核交，*即*$E$中$\{0\}$的闭合（II， p. 24，cor。
 
 当$E$是Hausdorff时，我们通过映射$c_E$将认同$E$与$E''$的子空间进行计算。
 
-双向。反身空间
+双向。反射空间
 
 TVS IV.15
 
@@ -79,7 +79,7 @@ $E''$上的强拓扑是$\mathscr{S}$拓扑，其中$\mathscr{S}$是$E'$的所有
 
 — 令 $E$ 为局部凸 Hausdorff 空间。在阶中，$E$的强对偶$E'_b$被桶装，有必要且充分的是$E''$的每个子集（其边界为$\sigma(E'', E')$）包含在$\sigma(E'', E')$的边界子集的闭包中$E$。
 
-$E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集的双极（对于$E''$和$E'$之间的对偶性）。现在只需应用双极的定理（II、p. 45、cor.3）和桶装空间（III、p. 24）的定义即可。
+$E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集的双极（对于$E''$和$E'$之间的对偶性）。现在只需使用双极的定理（II、p. 45、cor.3）和桶装空间（III、p. 24）的定义即可。
 
 #### 注 {#evt-iv-s2-n1-rem-1 .statement tag=07SC}
 
@@ -105,7 +105,7 @@ $E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集�
 
 — *令 E 为局部凸半自反空间。 E 的每个闭向量子空间 M 都是半自反的；此外，$E'/M^\circ$（视为M的对偶）上的强拓扑是E'上的强拓扑的商。
 
-设B是M的有界子集。由于B在E中有界，并且M上的弱化拓扑$\sigma(M, M')$是由$\sigma(E, E')$（IV，p. 10，命题11）诱导的，因此赋予$\sigma(M, M')$的M中B的闭包是紧的。因此，通过th。 1、M是半自反的。推论最后一个断言由命题得出。 IV、p. 9的10，应用于E的所有闭、凸、有界子集的集合$\mathscr{S}$。
+设B是M的有界子集。由于B在E中有界，并且M上的弱化拓扑$\sigma(M, M')$是由$\sigma(E, E')$（IV，p. 10，命题11）诱导的，因此赋予$\sigma(M, M')$的M中B的闭包是紧的。因而，通过th。 1、M是半自反的。推论最后一个断言由命题得出。 IV、p. 9的10，应用于E的所有闭、凸、有界子集的集合$\mathscr{S}$。
 
 #### 注 1 {#evt-iv-s2-n2-rem-1 .statement tag=07SG}
 
@@ -119,7 +119,7 @@ $E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集�
 
 在上述推论的假设下，空间 E/M 不一定是半自反的（IV，p. 63，练习 10）。
 
-### 3.反身空间
+### 3. 自反空间
 
 #### 定义 3 {#evt-iv-s2-def-3 .statement tag=07SJ}
 
@@ -145,7 +145,7 @@ $E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集�
 
 令 E 为无限维实希尔伯特空间。令 F 表示空间 E，赋予弱化的拓扑。 空间 E 和 F 具有相同的对偶 E'，且 E 是自反 Banach 空间 (V, p. 17)。因而，F 是*半自反*。
 
-然而，E 上的强拓扑和弱拓扑是不同的，因此 F *不是自反的*。
+然而，E 上的强拓扑和弱拓扑是不同的，因而 F *不是自反的*。
 
 #### 注 2 {#evt-iv-s2-n3-rem-2 .statement tag=07SN}
 
@@ -184,13 +184,13 @@ $$
 
 — *在阶中，范式空间 E 是自反的，对于弱化的拓扑 $\sigma(E, E')$，E 中的单位球是紧凑的是必要且充分的。*
 
-我们观察到自反范数空间是完整的，因此是 Banach 空间，并且它的对偶是自反的 Banach 空间 。 4 个IV、p. 16。
+我们观察到自反范数空间是完整的，因此是 Banach 空间，并且它的对偶是自反 Banach 空间的属性。 4 个IV、p. 16。
 
 #### 命题 7 {#evt-iv-s2-prop-7 .statement tag=07SR}
 
 — *设 E 是自反 Banach 空间，M 是 E 的闭向量子空间。则 M 和 E/M 是自反 Banach 空间。*
 
-令 E' 为 E 的对偶和 $M^\circ$ M 在 E' 中的正交。作为规范的空间，我们用M的对偶$M'$（IV，p. 9，道具10）来计算可以确定空间$E'/M^\circ$。由于 M 是半自反的（IV，p. 16，推论），它是自反的，因而 $E'/M^\circ$ 也是如此；类似地，$M^\circ$是自反的，它的对偶$E/M^{\circ \circ} = E/M$也是如此。
+令 E' 为 E 的对偶和 $M^\circ$ M 在 E' 中的正交。作为规范化的空间，我们将可以确定空间$E'/M^\circ$与M的对偶$M'$（IV，p. 9，道具10）。由于 M 是半自反的（IV，p. 16，推论），因此它是自反的，因而 $E'/M^\circ$ 也是如此；类似地，$M^\circ$是自反的，它的对偶$E/M^{\circ \circ} = E/M$也是如此。
 
 #### 例 {#evt-iv-s2-n4-exa-1 .statement tag=07SS}
 
@@ -200,7 +200,7 @@ $$
 \| \mathbf{x} \| = \sup_{n \in \mathbf{N}} |x_n| \quad (\text{I, p. 4}) .
 $$
 
-令$c_0(\mathbf{N})$为序列的$\ell^\infty(\mathbf{N})$由……组成趋于0的闭向量子空间。最后，令$\ell^1(\mathbf{N})$为可和序列的向量空间，赋予范数
+令$c_0(\mathbf{N})$为序列趋于0的$\ell^\infty(\mathbf{N})$由……组成的闭向量子空间。最后，令$\ell^1(\mathbf{N})$为可和序列的向量空间，赋予范数
 
 (4) $$
 \| \mathbf{x} \|_1 = \sum_{n \in \mathbf{N}} |x_n| .
@@ -215,9 +215,9 @@ $$
 对于所有 $\mathbf{x} \in c_0(\mathbf{N})$ 和 $\mathbf{x}' \in \ell^1(\mathbf{N})$。类似地，$\ell^1(\mathbf{N})$的对偶可以用$\ell^\infty(\mathbf{N})$来识别，这样我们对于所有$\mathbf{x} \in \ell^1(\mathbf{N})$和所有$\mathbf{x}' \in \ell^\infty(\mathbf{N})$都有关系（5）。因而 $\ell^\infty(\mathbf{N})$ 是 $c_0(\mathbf{N})$ 的双数，后者空间不是自反的。
 
 \* 2) 每个希尔伯特空间都是自反Banach空间（V，p. 17）。
-\* 3) 令X为Hausdorff拓扑空间，而$\mu$为X的复测度。对于每个实数 $p > 1$，Banach 空间 $L^p(X, \mu)$ 是自反的，其对偶可以用 $L^q(X, \mu)$ 和 $p^{-1} + q^{-1} = 1$ 来识别（INT、V、第 2 版、§ 5, No. 8 和 IX, § 1, No. 10）。
+\* 3) 令X为豪斯多夫拓扑空间，$\mu$为X的复测度。对于每个实数 $p > 1$，Banach 空间 $L^p(X, \mu)$ 是自反的，其对偶可以用 $L^q(X, \mu)$ 和 $p^{-1} + q^{-1} = 1$ 来识别（INT、V、第 2 版、§ 5, No. 8 和 IX, § 1, No. 10）。
 
-### 5.蒙特尔空间
+### 5. 蒙特尔空间
 
 #### 定义 4 {#evt-iv-s2-def-4 .statement tag=07ST}
 
@@ -229,11 +229,11 @@ $$
 
 #### 例 2 {#evt-iv-s2-n5-exa-2 .statement tag=07SV}
 
-具有记号和假设的支柱。 III、p. 6、空间 E 中的 7 个，是 Banach 空间的感应极限，被装桶（III、p. 25）；此外，E 的每个有界子集都是相对紧凑的（III，p. 6，道具 7）。在其他字中，E是Montel空间。特别是，Gevrey 空间（III，p. 10）是Montel 空间。 \* 这对于函数细菌的空间 $\mathscr{H}(K)$ 由……组成分析在$\mathbf{C}^n$ (III, p. 10) 的紧凑子集 K 的邻域是正确的。*
+具有记号和假设的支柱。 III、p. 6、空间 E 中的 7 个，是 Banach 空间的感应极限，被装桶（III、p. 25）；此外，E 的每个有界子集都是相对紧凑的（III，p. 6，道具 7）。在其他字中，E是Montel空间。特别是，Gevrey 空间（III，p. 10）是Montel 空间。 \* 这对于函数细菌的空间 $\mathscr{H}(K)$ 由……组成在$\mathbf{C}^n$（III，p. 10）的紧凑子集 K 的邻域中解析是正确的。*
 
 #### 例 3 {#evt-iv-s2-n5-exa-3 .statement tag=07SW}
 
-Montel 空间 (II, p. 33) 的序列 $(E_n)$ 的严格归纳极限 E，使得对于所有 n，$E_n$ 在 $E_{n+1}$ 中闭合，是 Montel 空间；事实上，E 是 Hausdorff（II，p. 32，第 9 (i) 条），桶状（III，p. 25，cor.3），并且 E 的每个有界子集都包含在 $E_n$（III，p. 5，命题 6) 因此在 $E_n$ 中相对紧凑，因此在 E 中也是如此。
+Montel 空间 (II, p. 33) 的序列 $(E_n)$ 的每个严格归纳极限 E，使得对于所有 n，$E_n$ 在 $E_{n+1}$ 中闭合，是 Montel 空间；事实上，E 是 Hausdorff（II，p. 32，第 9 (i) 条），桶状（III，p. 25，cor.3），并且 E 的每个有界子集都包含在$E_n$（III，p. 5，命题 6) 因此在 $E_n$ 中相对紧凑，因此在 E 中也是如此。
 
 #### 例 4 {#evt-iv-s2-n5-exa-4 .statement tag=07SX}
 
@@ -310,4 +310,4 @@ Q.E.D.
 
 ### 习题{#evt-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

@@ -34,16 +34,16 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: 9f9b765cbd620b401676d3dd596b64bbe0f0e2df6a9d063724cad8526d9c0711
+content_sha256: 5c24510ba784a6855c2e4dde90bdf80756fb7b11cc5a51c94a72e7941fb179ac
 translated_from: content/en/alg/III/09_s9_norms_and_traces.md
 translation_method: google
 source_content_sha256: 35d7c75abeb9436ab650b86c4903e3125e8d6a5b2a7afd81b6be25b654009b6d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 02295e618b36bcdfdf21c33a01a5ff9185815fd1ce92289702e2a0da31fa923e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 9。 范数和痕迹
@@ -96,7 +96,7 @@ $$
 
 (13) $\mathrm{Pc}_{M/K}(a; X) = N_{M[X]/K[X]}(X - a).$
 
-### 2. 范数的性质以及相对于模的迹线
+### 2. 范数的性质以及与模相关的踪迹
 
 如果$M$和$M'$是两个*同构的*$A$模，且在$K$上具有有限基，那么，对于所有$a \in A$，
 
@@ -132,7 +132,7 @@ $$
 
 #### 命题 2 {#alg-iii-s9-prop-2 .statement tag=065U}
 
-令$A, A'$为两个$K$代数，$M$为$A$模，$M'$为$A'$模。假设$M$和$M'$分别是维数、$n$和$n'$的自由$K$模块，并将$M \otimes_K M'$视为$(A \otimes_K A')$模块（$§ 4$、no. 3、例） 2）。然后，对于$a \in A$和$a' \in A'$，
+令$A, A'$为两个$K$代数，$M$为$A$模，$M'$为$A'$模。假设$M$和$M'$是各自维数、$n$和$n'$的自由$K$模块，并将$M \otimes_K M'$视为$(A \otimes_K A')$模块（$§ 4$、no. 3、例） 2）。然后，对于$a \in A$和$a' \in A'$，
 
 $$
 \operatorname{Tr}_{M \otimes M'}(a \otimes a') = \operatorname{Tr}_M(a) \operatorname{Tr}_{M'}(a')
@@ -146,13 +146,13 @@ $$
 
 公式 (16) 源自II, § 4, no. 4、公式 (26)，公式 (17) 源自§ 8, no. 6、公式 (33)。
 
-### 3. 范数并在代数中追踪
+### 3. 范数并追踪代数
 
 #### 定义 2 {#alg-iii-s9-def-2 .statement tag=065V}
 
-令 $A$ 为 $K$ 代数，它是有限维自由 $K$ 模。对于每个元素$a \in A$，跟踪（分别为范数，\脚注{†这个概念不应与概念相混淆，因为代数中的范数超过了值域（\emph{一般拓扑}）， $a$相对于$A$和$K$的IX, § 3, no. 7.}分别是特征多项式）是$K$模$A$的自同态$x \mapsto ax$的迹（分别是行列式、特征多项式）。
+令 $A$ 为 $K$ 代数，它是有限维自由 $K$ 模。对于每个元素$a \in A$，跟踪（分别为范数，\脚注{†这个概念不应与概念相混淆，因为代数中的范数超过了值域（\emph{General 拓扑}）， $a$相对于$A$和$K$的IX, § 3, no. 7.}分别是特征多项式）是$K$模$A$的自同态$x \mapsto ax$的迹（分别是行列式、特征多项式）。
 
-$a \in A$相对于$A$和$K$的迹、范数和特征多项式分别用$\mathrm{Tr}_{A/K}(a)$、$N_{A/K}(a)$和$\mathrm{Pc}_{A/K}(a; X)$表示；当不存在混淆风险时，我们会从记号中省略 $K$ 甚至 $A$。 注 $a \in A$ 的迹（分别为范数，特征多项式）正是$a$ 相对于$A$-模$A_s$ 的迹（分别为范数，特征多项式）。
+$a \in A$相对于$A$和$K$的迹、范数和特征多项式分别用$\mathrm{Tr}_{A/K}(a)$、$N_{A/K}(a)$和$\mathrm{Pc}_{A/K}(a; X)$表示；当不存在混淆风险时，我们会从记号中省略 $K$ 甚至 $A$。 注 $a \in A$ 的迹（分别为范数，特征多项式）正是 $a$ 相对于 $A$ 模 $A_s$ 的迹（分别为范数，特征多项式）。
 
 假设 $A$ 是 $K$ 上的有限数有限维代数的乘积 $A_1 \times A_2 \times \cdots \times A_m$，它们是自由的 $K$ 模块。使用上面的注和命题 1 of no. 2，我们有，对于每个元素
 
@@ -224,7 +224,7 @@ $$
 
 从而$\mathrm{Tr}_{A/\mathbf{K}}(X) = n \cdot \mathrm{Tr}(X)$和$N_{A/\mathbf{K}}(X) = (\det(X))^n$。
 
-### 4. 范数的性质以及代数中的迹线
+### 4. 范数的性质和代数中的痕迹
 
 #### 命题 3 {#alg-iii-s9-prop-3 .statement tag=065X}
 
@@ -388,12 +388,12 @@ $$
 $$
 D(a)e_i = \sum_{j=1}^n e_j v_{ji}
 $$
-$v_{ji} = D(\lambda_{ji}) + \sum_{k=1}^n (\mu_{jk}\lambda_{ki} - \lambda_{jk}\mu_{ki})$。由于$\sum_{i,k} (\mu_{ik}\lambda_{ki} - \lambda_{ik}\mu_{ki}) = 0$，因此$\operatorname{Tr}_{A/\mathbf{K}}(D(a)) = \sum_{i=1}^n D(\lambda_{ii})$，其他字
+$v_{ji} = D(\lambda_{ji}) + \sum_{k=1}^n (\mu_{jk}\lambda_{ki} - \lambda_{jk}\mu_{ki})$。由于$\sum_{i,k} (\mu_{ik}\lambda_{ki} - \lambda_{ik}\mu_{ki}) = 0$，因此$\operatorname{Tr}_{A/\mathbf{K}}(D(a)) = \sum_{i=1}^n D(\lambda_{ii})$，在其他字
 $$
 \operatorname{Tr}_{A/\mathbf{K}}(D(a)) = D(\operatorname{Tr}_{A/\mathbf{K}}(a)). *
 $$
 
-### 5. 代数的判别式
+### 5. AN 代数的判别式
 
 #### 定义 3 {#alg-iii-s9-def-3 .statement tag=0664}
 
@@ -422,7 +422,7 @@ $$
 D_{A/\mathbf{K}}(x_1, \ldots, x_n) = (\det M)^2 D_{A/\mathbf{K}}(x'_1, \ldots, x'_n).
 $$
 
-上述公式特别表明，A的两个基对K的判别式相差K的可逆元的平方，因此生成是K的相同（主要）理想。这个理想$\Delta_{A/K}$称为A对K的判别理想；由公式 (32) A 的 n 个元素中的每个序列的判别式仅在项的阶不同，具有相同的判别式，因为置换矩阵的行列式等于$\pm 1$。
+上述公式特别表明，A的两个基对K的判别式相差K的可逆元的平方，因此生成是K的相同（主要）理想。这个理想$\Delta_{A/K}$称为A对K的判别式理想；由公式 (32) A 的 n 个元素中的每个序列的判别式仅在项的阶不同，具有相同的判别式，因为置换矩阵的行列式等于$\pm 1$。
 
 #### 例 {#alg-iii-s9-n5-exa-1 .statement tag=0665}
 
@@ -434,7 +434,7 @@ $$
 
 从而$D_{A/K}(e_1, e_2) = \beta^2 + 4\alpha$。
 
-(2) 设$A = K[X]/K[X]P$，其中$P(X) = X^3 + pX + q$，使得如果x是A中X的像，1，x，A在K和$x^3 = -px - q$上的$x^2$形式基。立即可以看出，$\operatorname{Tr}(1) = 3, \operatorname{Tr}(x) = 0, \operatorname{Tr}(x^2) = -2p$，考虑到关系$x^3 = -px - q, \operatorname{Tr}(x^3) = -3q$和$\operatorname{Tr}(x^4) = 2p^2$，从而很容易$D_{A/K}(1, x, x^2) = -4p^3 - 27q^2$。
+(2) 令$A = K[X]/K[X]P$，其中$P(X) = X^3 + pX + q$，使得如果x是A中X的像，1，x，A在K和$x^3 = -px - q$上的$x^2$形式基。立即可以看出，$\operatorname{Tr}(1) = 3, \operatorname{Tr}(x) = 0, \operatorname{Tr}(x^2) = -2p$，考虑到关系、$x^3 = -px - q, \operatorname{Tr}(x^3) = -3q$和$\operatorname{Tr}(x^4) = 2p^2$，从而很容易$D_{A/K}(1, x, x^2) = -4p^3 - 27q^2$。
 
 (3) 令A为K上型$(\alpha, \beta, \gamma)$的四元数代数和型$(\alpha, \beta, \gamma)$的A的$(1, i, j, k)$基；考虑§ 3, no. 5，公式(30)，很容易发现$\operatorname{Tr}(1) = 4, \operatorname{Tr}(i) = 2\beta, \operatorname{Tr}(j) = \operatorname{Tr}(k) = 0$，则
 
@@ -442,8 +442,8 @@ $$
 D_{A/K}(1, i, j, k) = -16\gamma^2(\beta^2 + 4\alpha)^2.
 $$
 
-(4) 令 $A = M_n(K)$ 并考虑 A 对 K (II, § 10, no. 3) 的典范基 $(E_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}$。如果对于所有 i 都有 $j \neq i$ 和 $\operatorname{Tr}_{A/K}(E_{ii}) = n$，那么 $\operatorname{Tr}_{A/K}(E_{ij}) = 0$ 就是直接的；毫无疑问，阶$n^2$的矩阵$(\operatorname{Tr}(E_{ij}E_{hk}))$是形式$n.P$，其中P是置换矩阵，从而$D_{A/K}((E_{ij})) = \pm n^{n^2}$。
+(4) 令 $A = M_n(K)$ 并考虑 A 对 K (II, § 10, no. 3) 的典范基 $(E_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}$。如果对所有 i 都有 $j \neq i$ 和 $\operatorname{Tr}_{A/K}(E_{ii}) = n$，则 $\operatorname{Tr}_{A/K}(E_{ij}) = 0$ 就是直接的；毫无疑问，阶$n^2$的矩阵$(\operatorname{Tr}(E_{ij}E_{hk}))$是形式$n.P$，其中P是置换矩阵，从而$D_{A/K}((E_{ij})) = \pm n^{n^2}$。
 
 ### 习题 {#alg-iii-s9-exercises}
 
-§ 9](exercises/s9/)参见[习题。
+参见[习题为 § 9](exercises/s9/)。

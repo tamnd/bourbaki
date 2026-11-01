@@ -37,23 +37,23 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: b155c1050c39b10ad8e34d2acc68d74a7ae4277bddf30178e9cc50d594e5efdb
+content_sha256: 9d18c87e86a3c8de0389a187ca79e7ffe8994c93101dd9704c935885df78e5f6
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
 translation_method: google
 source_content_sha256: b4ee00e28c0ad5363315a73bf228d2a58c397d50dececefce928f935c44c92bb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 194b570541e1f83280f18924d787775028256f9b4ab92f10b65917c9ef1d9e62
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。 像尺寸
 
 ### 1. 像积极措施
 
-令$X$是空间的局部紧凑空间，$\pi$是$T$到$X$的$\mu$可测映射。说对$(\pi, 1)$是*$\mu$适应*（§4, No. 1）相当于说，对于每个函数$f \in \mathscr{K}(X)$，函数$f \circ \pi$*本质上是$\mu$可积*。
+令$X$为空间的局部紧凑空间，$\pi$将$T$的$\mu$可测映射放入$X$。说对$(\pi, 1)$是*$\mu$适应*（§4, No. 1）相当于说，对于每个函数$f \in \mathscr{K}(X)$，函数$f \circ \pi$*本质上是$\mu$可积*。
 
 #### 命题 1 {#int-v-s6-prop-1 .statement tag=094O}
 
@@ -63,7 +63,7 @@ a) *对于每个函数* $f \in \mathscr{K}(X)$，$f \circ \pi$ *本质上是* $\
 
 b) *对于每个紧集* $K \subset X$，$\overline{\pi}^{-1}(K)$ *本质上是* $\mu$-*可积*。
 
-我们刚刚观察到 a) 意味着对 $(\pi, 1)$ 是 $\mu$ 适应的。因而（§ 4, No. 4，Th.2），对于每个紧集$K \subset X$，函数$\varphi_K \circ \pi = \varphi_A$，其中$A = \overline{\pi}^{-1}(K)$本质上是$\mu$可积，在其他字中，a）蕴含b）。
+我们刚刚观察到 a) 意味着对 $(\pi, 1)$ 是 $\mu$ 适应的。因而（§ 4, No. 4，Th.2），对于每个紧集$K \subset X$，函数$\varphi_K \circ \pi = \varphi_A$，其中$A = \overline{\pi}^{-1}(K)$本质上是$\mu$可积，在其他字中，a）意味着b）。
 
 相反，假设对于$X$的每个紧致子集$K$，$\overline{\pi}^{-1}(K)$本质上是$\mu$可积，并且让我们证明a）已被验证。事实上，让$S$成为$f$的支撑；由于 $S$ 是紧致的，设定 $A = \overline{\pi}^{-1}(S)$ 我们有假设，
 
@@ -87,13 +87,13 @@ $$
 \int f(x) \, d\nu(x) = \int f(\pi(t)) \, d\mu(t).
 $$
 
-#### 注 {#int-v-s6-n1-rem-1 .statement tag=094Q}
+#### 注{#int-v-s6-n1-rem-1 .statement tag=094Q}
 
-— 1) 如果 $\mu$ 是*有界*（特别是，如果 $\mu$ 具有紧凑支持），那么 $T$ 到 $X$ 的每个 $\mu$-可测量映射都是 $\mu$-本征（Ch. IV, § 5, No. 3、Th. 1 和No. 6，第 5)。
+— 1) 如果 $\mu$ 是*有界*（特别是，如果 $\mu$ 具有紧凑支持），则 $T$ 到 $X$ 的每个 $\mu$-可测量映射都是 $\mu$-本征（Ch. IV, § 5, No. 3、Th. 1 和No. 6，第 5)。
 
-2) 如果 $\pi$ 是 $\mu$-可测的，并且对于 $X$ 的每个紧致子集 $K$，$\overline{\pi}^{-1}(K)$ 是相对紧致的，那么 $\pi$ 是 $\mu$-真（第 IV, § 5, No. 5 章，第 7 条）和No. 6，Th 5）；特别是，$T$到$X$（GT，I, § 10, No. 2，Th.1）的每个“适当”连续映射对于$T$上的每个积极措施$\mu$来说都是$\mu$。更具体地说，对于$T$到X的每个“同胚”$\pi$都是如此；那么，度量$\nu = \pi(\mu)$就是X上的度量，即$\mu$乘$\pi$的迁移（第III, §1, No. 3）。
+2) 如果 $\pi$ 是 $\mu$-可测的，并且对于 $X$ 的每个紧致子集 $K$，$\overline{\pi}^{-1}(K)$ 是相对紧致的，那么 $\pi$ 是 $\mu$-真（第 IV, § 5, No. 5 章，第 7 条）和No. 6，Th 5）；特别是，$T$到$X$（GT，I, § 10, No. 2，Th.1）的每个“适当”连续映射对于$T$上的每个积极措施$\mu$来说都是$\mu$。更具体地说，对于$T$到X的每个“同胚”$\pi$都是如此；那么，措施$\nu = \pi(\mu)$就是X上的措施，即$\mu$乘$\pi$的迁移（第III, §1, No. 3）。
 
-3) 假设X中的拓扑承认可数的基；那么满足命题 1 的条件 b) 的每个 T 的映射 $\pi$ 到 X 都是 $\mu$ 可测的，因此是 $\mu$ 正确的。应用Th就足够了。第 4 章。 IV, §5, No. 5，在注意到上，X 是可度量的（GT，IX, §2, No. 9，Prop. 16 的 Cor.），并且，对于与 X 的拓扑兼容的任何度量，每个闭球都是紧集的可数并。
+3) 假设X中的拓扑承认可数的基；那么满足命题 1 的条件 b) 的每个 T 的映射 $\pi$ 到 X 都是 $\mu$ 可测的，因此是 $\mu$ 正确的。应用Th就足够了。第 4 章。 IV, §5, No. 5，在注意到上，X 是可度量的（GT，IX, §2, No. 9，Prop. 16 的 Cor.），并且，对于与 X 的拓扑兼容的任何度量，每个闭球都是可数的并紧集。
 
 ### 2. 关于积极措施像的积分
 
@@ -134,31 +134,31 @@ $$
 
 #### 命题 3 {#int-v-s6-prop-3 .statement tag=094W}
 
-— *对于 * X *的映射* f *进入拓扑空间* G *为* $\nu$* 可测量，* $f \circ \pi$ *为* $\mu$* 可测量是必要且充分的。*
+— *对于 * X *的映射* f * 到拓扑空间* G * 为* $\nu$* 可测量，* $f \circ \pi$ * 为* $\mu$* 可测量是必要且充分的。*
 
-这是§4, No. 3第3号提案的直接的推论。
+这是§4, No. 3第3条命题的直接的推论。
 
 #### 推论{#int-v-s6-n2-cor-1 .statement tag=094X}
 
 — 对于 X 的子集 A 为 $\nu$ 可测，$\pi^{-1}(A)$ 为 $\mu$ 可测是充分必要的。
 
-然而，T 的 $\mu$ 可测量子集 M 的 $\pi$ 下的像不一定是 $\nu$ 可测量，即使 $\pi$ 是连续的且 M 是 $\mu$ 可忽略不计（Exer.7 和 §8，Exer.7）。 1）。
+然而，T 的 $\mu$ 可测量子集 M 的 $\pi$ 下的像不一定是 $\nu$ 可测量，即使 $\pi$ 是连续的且 M $\mu$ 可忽略不计（Exer. 7 和 §8，Exer. 1）。
 
 #### 定理 1 {#int-v-s6-thm-1 .statement tag=094Y}
 
-— 设 f 是在 X 上定义的函数，值在 $\overline{\mathbf{R}}$ 或 Banach 空间 F 中定义。对于 f 本质上 $\nu$ 可积，$f \circ \pi$ 本质上 $\mu$ 可积是充分必要的，在这种情况下
+— 设 f 是在 X 上定义的函数，其中值在 $\overline{\mathbf{R}}$ 或 Banach 空间 F 中。 为了使 f 本质上 $\nu$ 可积，$f \circ \pi$ 本质上 $\mu$ 可积是必要且充分的，在这种情况下
 
 $$
 \int f(x)\, d\nu(x) = \int f(\pi(t))\, d\mu(t).
 $$
 
-此外，假设 $\pi$ 是连续且正确的。那么，为了使 f $\nu$ 可积，$f \circ \pi$ $\mu$ 可积是充分必要的。
+此外，假设 $\pi$ 是连续且正确的。那么，要使 f $\nu$ 可积，$f \circ \pi$ $\mu$ 可积是充分必要的。
 
-应用Th就足够了。 2 个，共 §4, No. 4。
+应用Th就足够了。 2 个§4, No. 4。
 
-#### 推论 {#int-v-s6-n2-cor-2 .statement tag=094Z}
+#### 推论{#int-v-s6-n2-cor-2 .statement tag=094Z}
 
-— 对于 X 的子集 A 本质上$\nu$可积，$\pi^{-1}(A)$本质上$\mu$可积是必要且充分的，在这种情况下$\nu(A) = \mu(\pi^{-1}(A))$。
+— 为了使X的子集 A本质上$\nu$可积，$\pi^{-1}(A)$本质上$\mu$可积是必要且充分的，在这种情况下是$\nu(A) = \mu(\pi^{-1}(A))$。
 
 特别是，对于每个紧集 $K \subset X$，$\nu(K) = \mu(\pi^{-1}(K))$。由此可见，Cor.命题 2 的第 3 条指出，如果 $\mu$ 是原子的 (§ 5, No. 10)，那么 $\pi(\mu) = \nu$ 也是原子的。对于，令 M 为 $t \in T$ 的集合，使得 $\mu(\{t\}) \neq 0$；由于$\mu$由M携带，$\nu$由$\pi(M)$携带；此外，对于每一个$x \in \pi(M)$，我们都有$\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$，因为$\pi^{-1}(x)$包含至少有M的一个点。因而$\nu$是原子的（§ 5, No. 10，命题15）。
 
@@ -166,7 +166,7 @@ $$
 
 #### 命题 4 {#int-v-s6-prop-4 .statement tag=0950}
 
-— 令 T、T'、T'' 为三个局部紧凑空间、$\mu$ T 的正测度、$\pi$ 将 T 的 $\mu$ 可测量映射放入 T'、将 T' 的 $\pi'$ 映射放入 T'' 以及$\pi'' = \pi' \circ \pi$。
+— 令 T、T'、T'' 为三个局部紧凑空间、$\mu$ T 的正测度、$\pi$ 将 T 的 $\mu$ 可测量映射放入 T'、将 T' 的 $\pi'$ 映射放入 T'' 以及 $\pi'' = \pi' \circ \pi$。
 
 a) 假设$\pi$是$\mu$-真值，令$\mu' = \pi(\mu)$。为了使$\pi'$成为$\mu'$-本征，$\pi''$是$\mu$-本征是必要且充分的，在这种情况下$\pi''(\mu) = \pi'(\pi(\mu))$（“度量的像的传递性”）。
 
@@ -277,13 +277,13 @@ $$
 
 #### 命题 7 {#int-v-s6-prop-7 .statement tag=0957}
 
-*令 $\theta$ 为 $T$、$\pi$ $T$ 的 $\theta$-适当映射的复杂测度，转换为局部紧凑的空间 $X$、$\nu$ 像测度$\pi(\theta)$。
+*令 $\theta$ 为 $T$、$\pi$ $T$ 的 $\theta$ 映射的复杂测度，转换为局部紧凑的空间 $X$、$\nu$ 像测度$\pi(\theta)$。
 
 a) 设$A$为$X$中的子集；如果 $\overline{\pi^{-1}}(A)$ 局部 $\theta$ 可以忽略不计，则 $A$ 局部 $\nu$ 可以忽略不计。
 
 b) 设$f$为$X$的映射为拓扑空间；如果 $f \circ \pi$ 是 $\theta$ 可测量，则 $f$ 是 $\nu$ 可测量。*
 
-c) 令$f$为$X$上定义的函数，其中值在Banach空间$F$中；如果$f \circ \pi$本质上是$\theta$可积，那么$f$本质上是$\nu$可积，并且
+c) 设$f$为$X$上定义的函数，其中值在Banach空间$F$中；如果$f \circ \pi$本质上是$\theta$可积，那么$f$本质上是$\nu$可积，并且
 
 $$
 \int f(\pi(t))\ d\theta(t) = \int f(x)\ d\nu(x).
@@ -291,11 +291,11 @@ $$
 
 考虑到公式 (8)，这些结果可以从 Cor 中推出。提案 2 的 2、提案 3 和 Th。 No. 2 中的 1 个。
 
-### 5.应用：勒贝格积分中变量的变换
+### 5. 应用：勒贝格积分中变量的变换
 
 令I为$\mathbf{R}$的区间（有界或无界），$a$其左端点和$b$在$\overline{\mathbf{R}}$中的右端点，以及$\mu$在I上的勒贝格测度。对于每个$\mu$可积函数$f$和每个区间$H \subset I$，左端点$\alpha$和右端点$\beta$，我们写$\int_{\alpha}^{\beta} f(t)\ dt$而不是$\int_H f(t)\ dt = \int_H f\ d\mu$，并且我们集合$\int_{\beta}^{\alpha} f(t)\ dt = -\int_{\alpha}^{\beta} f(t)\ dt$；因此赋予这些符号重合的含义与FRV、II, §§1和2中赋予它们的含义相同，当$f$是具有紧凑支持的受监管函数时（第IV, §4, No. 4、例）。
 
-令 $g$ 为定义在 I 上且*局部 $\mu$* 可积的数值函数，I 的 $x_0$ 点；每$x \in I$、集合
+设$g$是定义在I上的数值函数并且*局部$\mu$*可积，I的$x_0$点；每$x \in I$、集合
 
 $$
 G(x) = c + \int_{x_0}^{x} g(t)\ dt \quad (c \text{ a constant}).
@@ -418,4 +418,4 @@ $$
 
 ### 习题 {#int-v-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

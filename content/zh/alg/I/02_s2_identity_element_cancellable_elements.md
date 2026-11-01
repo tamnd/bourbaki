@@ -46,21 +46,21 @@ subsections:
       pdf_page: 47
 statements: 26
 exercises: 17
-content_sha256: cd164eb049a877336000d5dfcea021595a703af78ac84c06f999b3a0e5a83714
+content_sha256: b300f2f3e0dafcfc425bf6f40337fc1fdad6240475aac03049a48fa81cf49599
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
 translation_method: google
 source_content_sha256: 4e4d1e772eb5f248a858ce2f9c1dbddee958a8fa5c19120df031143b30855c75
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: bc647597dd984860af355cc6acc5499bd8eb7afbea6526cc0f9e0aa381f4b83b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。 单位元素；可取消元素； 可逆元
 
-### 1.单位元素
+### 1. IDENTITY ELEMENT
 
 #### 定义 1 {#alg-i-s2-def-1 .statement tag=056M}
 
@@ -117,15 +117,15 @@ $$
 
 *加法*书写的律的单位元素通常用0表示，称为*零*或*空元素*（或有时*原点*）。在律写作*乘法*时，通常用1表示并称为*单位元*（或*单位*）。
 
-### 2.可取消元素
+### 2. 可取消元素
 
 #### 定义 4 {#alg-i-s2-def-4 .statement tag=056Q}
 
-*给定集合 E 上的合成 $\top$ 律，E 的映射 $x \mapsto a \top x$（或 $x \mapsto x \top a$）自身被称为元素 $a \in E$ 的左翻译（或右翻译）。*
+*给定集合 E 上合成 $\top$ 的律，E 的映射 $x \mapsto a \top x$（或 $x \mapsto x \top a$）自身被称为元素 $a \in E$ 的左翻译（或右翻译）。*
 
-在经过到相反的律，左翻译变成右翻译，反之亦然。
+在经过与相反的律上，左翻译变成右翻译，反之亦然。
 
-令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；然后
+令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；那么
 $$
 \gamma_a(x) = a \top x, \qquad \delta_a(x) = x \top a.
 $$
@@ -147,19 +147,19 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-其他字、映射$x \mapsto \gamma_x$是同态从$E$到集合$E$的映射的$E^E$与律自身结合$(f, g) \mapsto f \circ g$； 映射 $x \mapsto \delta_x$ 是 $E$ 的同态变成集合 $E^E$ 与相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
+其他字、映射$x \mapsto \gamma_x$是同态从$E$到$E$的映射的集合$E^E$与律自身结合$(f, g) \mapsto f \circ g$； 映射 $x \mapsto \delta_x$ 是 $E$ 的同态变成集合 $E^E$ 与相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
 
 #### 定义 5 {#alg-i-s2-def-5 .statement tag=056S}
 
 *元素* $a$ *岩浆* $E$ *如果左（或右）平移* $a$ *是单射的，则称为左（或右）可取消（或常规）。左右可取消元素称为可取消（或常规）元素。*
 
-在其他字中，为了使$a$在律$\mathsf{T}$下可消去，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以消去a”）。如果律$\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的翻译就是$E$的恒等映射自身。
+在其他字中，为了使$a$在律$\mathsf{T}$下可取消，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以取消a”）。如果律$\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的翻译就是$E$的恒等映射自身。
 
 #### 例 {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
-(1) 每自然数可在加法下取消；每自然数$\neq 0$均可在乘法下取消。
+(1) 每自然数可在加法下取消；每个自然数$\neq 0$都可以在乘法下取消。
 
-(2) 在一个格子中，除了单位元素（至少元素）之外，律sup下不能有可取消的元素（如果存在的话）；同样对于 inf。特别是集合$E$子集集合，$\varnothing$是律$\cup$下唯一可取消的元素，而$E$是元素下唯一可取消的元素律$\cap$。
+(2) 在一个格子中，除了单位元素（至少元素）之外，律sup下不能有可取消的元素（如果存在的话）；同样对于 inf。特别是集合$E$子集集合，$\varnothing$是律$\cup$下唯一可取消的元素，$E$是元素下唯一可取消的元素律$\cap$。
 
 #### 命题 2 {#alg-i-s2-prop-2 .statement tag=056U}
 
@@ -167,7 +167,7 @@ $$
 
 如果 $\gamma_x$ 和 $\gamma_y$ 是单射的，那么 $\gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y$ (命题 1) 也是单射的。对于 $\delta_{x \mathsf{T} y}$ 也是如此。
 
-### 3.可逆元
+### 3. 可逆元
 
 #### 定义 6 {#alg-i-s2-def-6 .statement tag=056V}
 
@@ -386,7 +386,7 @@ $$
 
 更一般地，$-x$ 用于表示任意有理数整数 $x$ 的负数； 合成 $x + (-y)$ 缩写为 $x - y$ (cf. no. 8)。
 
-自然数之间的序关系$\leq$具有以下性质的特征：$m \leq n$当且仅当存在整数$p \in \mathbf{N}$使得$m + p = n$（*集合理论*，III, § 3, no. 6，命题 13 和 § 5, no. 2、命题 2)。有理数整数$x$和$y$之间的关系$y - x \in \mathbf{N}$是$\mathbf{Z}$上的*总计阶*关系，其中$\mathbf{N}$上的扩展序关系$\leq$。对于，对于所有$x \in \mathbf{Z}$，$x - x = 0 \in \mathbf{N}$；如果$y - x \in \mathbf{N}$和$z - y \in \mathbf{N}$，那么
+自然数之间的序关系$\leq$具有以下性质的特征：$m \leq n$当且仅当存在整数$p \in \mathbf{N}$使得$m + p = n$（*集合理论*，III, § 3, no. 6，命题 13 和 § 5, no. 2、命题 2)。有理整数 $x$ 和 $y$ 之间的关系 $y - x \in \mathbf{N}$ 是 $\mathbf{Z}$ 上的 *总计阶* 关系，其中 $\mathbf{N}$ 上的扩展序关系 $\leq$。对于，对于所有$x \in \mathbf{Z}$，$x - x = 0 \in \mathbf{N}$；如果$y - x \in \mathbf{N}$和$z - y \in \mathbf{N}$，那么
 
 $$
 z - x = (z - y) + (y - x) \in \mathbf{N},
@@ -394,7 +394,7 @@ $$
 
 对于$\mathbf{N}$在加法下是稳定的；如果$y - x \in \mathbf{N}$和$x - y \in \mathbf{N}$，则$y - x = 0$，因为0是$\mathbf{N}$中唯一的元素，其负属于到$\mathbf{N}$；对于任意有理数整数 $x$ 和 $y$、$y - x \in \mathbf{N}$ 或 $x - y \in \mathbf{N}$，对于 $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$；最后，如果$x$和$y$是自然数，则$y - x \in \mathbf{N}$当且仅当存在$p \in \mathbf{N}$使得$x + p = y$。这个序关系也用$\leq$表示。
 
-从此以后，当 $\mathbf{Z}$ 被认为是有序的集合时，它总是，否则会提到除非，根据刚刚定义的排序，自然数被标识为整数 $\geq 0$；它们也被称为*正*整数； 整数 $\leq 0$，正整数的负数，称为*负数* 整数； 整数 $> 0$（分别为 $< 0$）被称为*严格正数*（分别为*严格负数*）； 整数$> 0$中的集合是有时，用$\mathbf{N}^*$表示。
+从此以后，当 $\mathbf{Z}$ 被认为是有序的集合时，它始终是除非，否则会提到，根据刚刚定义的排序，自然数被标识为整数 $\geq 0$；它们也被称为*正*整数； 整数 $\leq 0$，正整数的负数，称为*负数* 整数； 整数 $> 0$（分别为 $< 0$）被称为*严格正数*（分别为*严格负数*）； 整数$> 0$中的集合是有时，用$\mathbf{N}^*$表示。
 
 设$x$、$y$、$z$为三个有理数整数；那么 $x \leq y$ 当且仅当 x + z \leq y + z。对于 x - y = (x + z) - (y + z)。这个性质用说表示，$\mathbf{Z}$上的序关系在平移下是不变的。
 
@@ -404,9 +404,9 @@ $$
 
 设 E 为幺半群，且 E 的 x 元素。
     (i) E 中存在 $\mathbf{N}$ 的唯一同态 f，对于所有$n \in \mathbf{N}$，$f(1) = x$ 和 $f(n) = \frac{n}{1} x$。
-    (ii) 如果 x 可逆，则 E 中存在 $\mathbf{Z}$ 的唯一同态 g，使得 $g(1) = x$ 和 g 重合，且 f 在 $\mathbf{N}$ 上。
+    (ii) 如果 x 可逆，则存在 $\mathbf{Z}$ 的唯一同态 g 进入 E，使得 $g(1) = x$ 和 g 重合，且 f 在 $\mathbf{N}$ 上。
 
-    为所有$n \in \mathbf{N}$、公式写$f(n) = \frac{n}{1} x$
+    为所有 $n \in \mathbf{N}$、公式写$f(n) = \frac{n}{1} x$
     $$
     \frac{0}{1} x = e \quad \text{and} \quad \left( \frac{m}{1} x \right) \cdot \left( \frac{n}{1} x \right) = \frac{m+n}{1} x
     $$
@@ -426,7 +426,7 @@ $$
     (7) $$ 1.x = x.1 = x $$
     (8) $$ (-1).x = x.(-1) = -x $$
 
-对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$映射 1 到$-x$的自同态$y \mapsto -xy$，从而$(-x).y = -xy$因此
+对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，并且$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$映射 1 到$-x$的自同态$y \mapsto -xy$，从而$(-x).y = -xy$因此
 $$
 (-x)(-y) = -(x(-y)) = -(-xy) = xy.
 $$
@@ -434,7 +434,7 @@ $$
 
 ### 7. 应用：III。广义幂
 
-令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；到引理 2 为止，此记号与 $n \in \mathbf{N}$ 和之前介绍的记号兼容。然后
+令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；通过引理 2，此记号与 $n \in \mathbf{N}$ 和之前介绍的记号兼容。然后
 $$
 \begin{align*}
 \text{(9)} \quad & \frac{m+n}{\top} x = \left( \frac{m}{\top} x \right) \top \left( \frac{n}{\top} x \right) \\
@@ -448,9 +448,9 @@ $$
 $$
 由于$-1$是$\mathbf{Z}$中1的负数，$\frac{-1}{\top} x$是E中$x = \frac{1}{\top} x$的倒数。如果我们在(9)中写出$n = -m$，则可见$\frac{-m}{\top} x$是$\frac{m}{\top} x$的倒数。
 
-### 8.记号
+### 8. 记号
 
-(a) 作为一般规则，可交换幺半群的律是可加写的。因此，约定$-x$表示$x$的负数。 记号 $x + (-y)$ 缩写为 $x - y$ 类似
+(a) 作为一般规则，可交换幺半群的律是可加写的。于是约定$-x$表示$x$的负数。 记号 $x + (-y)$ 缩写为 $x - y$ 类似
 $$
 x + y - z, \quad x - y - z, \quad x - y + z - t, \quad \text{etc. . . .}
 $$
@@ -495,4 +495,4 @@ $$
 
 ### 习题 {#alg-i-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+请参阅[习题为 § 2](exercises/s2/)。

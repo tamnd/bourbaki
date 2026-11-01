@@ -29,23 +29,23 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 9185bec37435fe5710567361a06fa270a3c89a11c4041cef7d21186244bf5e78
+content_sha256: 04394d470ee96d507072de662e5f719d515b4e7c5593bddf46e041334cbab770
 translated_from: content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md
 translation_method: google
 source_content_sha256: 1839a11c4384fe28967cd541901f8ab98cc088922894403c4f8106b9bf54bee7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 5bc48eda83d31966cfbf0a5e8351b81bdd40b2e75bb0fd8e6706a9da1bfec15c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 正则元素 / 李群
 
 在没有。根据本段的1、2和3，我们假设$k$是$\mathbf{R},\mathbf{C}$或特征为0的非离散完全超度量域。我们用G表示$k$上的有限维李群，用$\mathfrak{g}$表示其李代数，并用$e$表示其单位元素。如果$a\in G$，我们用$\mathfrak{g}^1(a)$表示Ad$(a)-1$的零空间，在其他字空间$\mathfrak{g}^1$(Ad($a$))(cf.§1, no. 1)。
 
-### 1.正则元素对于线性表示
+### 1. 正则元素线性表示
 
 #### 引理 1 {#lie-vii-s4-lem-1 .statement tag=00VU}
 
@@ -57,11 +57,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 (iii) 函数 $r_a^0$ 是局部常数。
 
-(iv) 点 $x\in M$的集合使得$r^0_a(x) =r_a(x)$是邻域上M的点的集合，其中$r_a$是常数。这是 M 的密集开子集。如果 $k=\mathbf{C}$ 且 M 是有限维且连通的，则它是开且连通的。
+(iv) 点 $x\in M$ 的集合，使得$r^0_a(x) =r_a(x)$ 是邻域上M 的点的集合，其中$r_a$ 是常数。这是 M 的密集开子集。如果 $k=\mathbf{C}$ 且 M 是有限维且连通的，则它是开且连通的。
 
 (i) 如果$r_a(x) =i$，则$a_i(x)\not= 0$，并且对于$x$的邻域中的所有$y$，我们有$a_i(y)\not= 0$，因而$r_a(y)\leq i$。
 
-(ii) 如果 $r^0_a(x) =i$、函数 $a_0, . . . , a_{i-1}$ 是 $x$ 的邻域上的零，并且对于此邻域中的任何 $y$，$r_a(y)\geq i$。因而，lim inf$_{y\rightarrow x}r_a(y)\geq i$。 $x$ 包含点 $y$ 的每个邻域使得$a_i(y)\not= 0$ 因而$r_a(y)\leq i$。因而 lim inf$_{y\rightarrow x}r_a(y) =i$。
+(ii) 如果 $r^0_a(x) =i$、函数 $a_0, . . . , a_{i-1}$ 是 $x$ 的邻域上的零，并且对于此邻域中的任何 $y$，$r_a(y)\geq i$。因而，lim inf$_{y\rightarrow x}r_a(y)\geq i$。 $x$ 包含点 $y$ 中的每个邻域使得 $a_i(y)\not= 0$ 从而$r_a(y)\leq i$。因而 lim inf$_{y\rightarrow x}r_a(y) =i$。
 
 (iii) 令$i=r_a^0(x)$且令V为$x$的邻域，使得$a_j(y) = 0$对于所有$y\in V$和所有$j < i$。那么$x\in M$**--** Z，其中Z表示邻域中M的点的集合，其中函数$a_i$是零。由于 Z 在 M 中是封闭的（可微分和解析流形，结果$, 5.3.5$）$, V\cap (M$ **--** Z）是 $x$ 的邻域。对于这个邻域中的每个点$y$，$r_a^0(y) =i$。
 
@@ -123,9 +123,9 @@ G 的解析线性表示 $\rho$ 的正则点是邻域中 G 的点，其中 $r_{\r
 
 #### 命题 2 {#lie-vii-s4-prop-2 .statement tag=00W0}
 
-设$G'$是$k$上的有限维李群，而$f$是从G到$G'$的开态射。 G的正则元素$f$下的像是$G'$的正则元素。如果$f$的核包含在G的中心中，则元素$g\in G$是规则的当且仅当$f(g)$是规则的。
+令$G'$是$k$上的有限维李群，而$f$是从G到$G'$的开态射。 G的正则元素$f$下的像是$G'$正则元素。如果$f$的核包含在G的中心中，则元素$g\in G$是规则的当且仅当$f(g)$是规则的。
 
-事实上，让$\mathfrak{g}'$是$G'$的李代数，而$\mathfrak{h}$是由$Tf|\mathfrak{g}$的核给出的$\mathfrak{g}$中的理想值。对于所有$g\in G$，令$\rho$为$\mathfrak{h}$上G的线性表示，由$\rho (g) =$Ad$g|\mathfrak{h}$定义，并令Ad$\circ f$为$\mathfrak{g}'$上G的线性表示，由$f$与$G'$ 的伴随表示。这些线性表示定义正合序列 G 模块：
+事实上，让$\mathfrak{g}'$是$G'$的李代数，而$\mathfrak{h}$是$\mathfrak{g}$中的理想，由$Tf|\mathfrak{g}$的核给出。对于所有$g\in G$，令$\rho$为$\mathfrak{h}$上G的线性表示，由$\rho (g) =$Ad$g|\mathfrak{h}$定义，并令Ad$\circ f$为$\mathfrak{g}'$上G的线性表示，由$f$与$G'$ 的伴随表示。这些线性表示定义正合序列 G 模块：
 
 $$
 0\rightarrow \mathfrak{h}\rightarrow \mathfrak{g}\rightarrow \mathfrak{g}'\rightarrow 0
@@ -249,9 +249,9 @@ $r_{Ad}(a) =$ 暗淡$\mathfrak{g}^1(a) =l=r_{Ad}^0(a)$，
 
 #### 注 {#lie-vii-s4-n3-rem-1 .statement tag=00WA}
 
-如果$k=\mathbf{C}$、子代数$\mathfrak{g}^1(a)$，对于$a$正则和属于到G的连通分量M，在Int($\mathfrak{g}$)下是共轭。事实上，令 R 为 G 的正则元素的集合。对于所有 $a\in R\cap M$，令 $M_a$ 为那些 $b\in R\cap M$ 的集合，使得 $\mathfrak{g}^1(a)$ 为 Int($\mathfrak{g}$) 下的共轭至 $\mathfrak{g}^1(a)$。我们有 Int($\mathfrak{g}$) $=$ Ad(G$^0$)，其中 $G^0$ 是 G 的恒等分量。根据命题的推论，$5, M_a$ 在 R 中是开的。因此，$M_a$ 在 R 中是开和闭的。因为 $k=\mathbf{C}, R\cap M$ 是连通的 (引理) 1)，因此$M_a= R\cap M$。
+如果$k=\mathbf{C}$、子代数$\mathfrak{g}^1(a)$，对于$a$正则和属于到G的连通分量M，在Int($\mathfrak{g}$)下是共轭。事实上，令 R 为 G 的正则元素的集合。对于所有 $a\in R\cap M$，令 $M_a$ 为那些 $b\in R\cap M$ 的集合，使得 $\mathfrak{g}^1(a)$ 是 Int($\mathfrak{g}$) 下的共轭到 $\mathfrak{g}^1(a)$。我们有 Int($\mathfrak{g}$) $=$ Ad(G$^0$)，其中 $G^0$ 是 G 的恒等分量。根据命题的推论，$5, M_a$ 在 R 中是开的。因此，$M_a$ 在 R 中是开和闭的。因为 $k=\mathbf{C}, R\cap M$ 是连通的 (引理) 1)，因此$M_a= R\cap M$。
 
-### 4. 小学应用自同构
+### 4. 适用于小学自同构
 
 #### 命题 9 {#lie-vii-s4-prop-9 .statement tag=00WB}
 
@@ -259,7 +259,7 @@ $r_{Ad}(a) =$ 暗淡$\mathfrak{g}^1(a) =l=r_{Ad}^0(a)$，
 
 根据“Lefschetz 原理”（代数，V, §14, no. 6，第$5$的Cor.2）$,k$是子域$(k_i)_{i\in I}$的升序有向并，承认$\mathbf{C}$为扩张域。令$(e_{\alpha})$为$\mathfrak{g}$的基超过$k$和$x_1, . . . , x_m$元素为$\mathfrak{g}$，这样ad($x_1$)$, . . .$、ad($x_m$)是幂零的且$a=e^{ad(x_1)}. . . e^{ad(x_m)}$。令$c^{\gamma}_{\alpha \beta}$为$\mathfrak{g}$相对于基$(e_{\alpha})$的结构常数，$(x^{\alpha}_r)$相对于基$(1\leq r\leq m)$的$x_r$的分量。存在指标$j\in I$，使得$c^{\gamma}_{\alpha \beta}$和$x^{\alpha}_r$都是属于到$k_j$。让$\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$；
 
-这是李代数超过$k_j$包含$x_1, . . . , x_m$，$a$到$\mathfrak{g}_j$的限制$a_j$是$\mathfrak{g}_j$的初等自同构。 $a_j$到$\mathfrak{g}_j\otimes_{k_j}\mathbf{C}$的扩张是$\mathfrak{g}_j\otimes \mathbf{C}$的初等自同构$a_j\otimes 1$。因此，让$G_j$是李群与李代数$\mathfrak{g}_j\otimes \mathbf{C}$和$G_j$的$s$元素，使得Ad($s$)$=a_j\otimes 1$。命题 8，应用于对 $(G_j, s)$，表明 $a_j\otimes 1-1$ 的零空间为维数 $n$，所以
+这是李代数超过$k_j$包含$x_1, . . . , x_m$，$a$到$\mathfrak{g}_j$的限制$a_j$是$\mathfrak{g}_j$的初等自同构。 $a_j$到$\mathfrak{g}_j\otimes_{k_j}\mathbf{C}$的扩张是$\mathfrak{g}_j\otimes \mathbf{C}$的初等自同构$a_j\otimes 1$。因此，令 $G_j$ 为李代数 $\mathfrak{g}_j\otimes \mathbf{C}$ 和 $G_j$ 的$s$ 元素的连通复合体李群，使得 Ad($s$) $=a_j\otimes 1$。命题 8，应用于对 $(G_j, s)$，表明 $a_j\otimes 1-1$ 的零空间为维数 $n$，所以
 
 $n\geq$ rk($\mathfrak{g}_j\otimes \mathbf{C}$) $=$ rk($\mathfrak{g}_j$) $=$ rk($\mathfrak{g}$)。
 
@@ -267,6 +267,6 @@ $n\geq$ rk($\mathfrak{g}_j\otimes \mathbf{C}$) $=$ rk($\mathfrak{g}_j$) $=$ rk($
 
 ### 习题 {#lie-vii-s4-exercises}
 
-记号和假设是第 1 号。 §4 的 1、2、3。
+记号和假设是no。 §4 的 1、2、3。
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -41,25 +41,25 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: 695fe573b09be6dab5072f74826a2cf590131bc7ab07ae50e2a342fe6506bdca
+content_sha256: 3603f184145de59adb97d761c1fead4a13ea021d246e24126c6a7c807db51620
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 translation_method: google
 source_content_sha256: d7699f39ec1644b116484ef30c5ca9df84de13c33a79612bcf054973c062c5c9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 417c7d1fc7f5d1243244e723902547cc43b02b941e30fe79b031cdee6c945a76
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 2。 运算采取措施
+## § 2。 运算关于措施
 
 与前面的截面一样，$T$表示豪斯多夫拓扑空间，$\mu$表示$T$的测度。请记住，所有措施均假定为积极的，没有提及相反的情况。
 
 ### 1. 对可测量的子空间进行诱导测量
 
-令$X$为$T$的子集，令$\nu$为$X$的紧凑子集的映射$\mu : K \mapsto \mu_K$限制至集合；显然$\nu$是$X$的预测值。另一方面，令$x \in X$和$V$是$x$在$T$中的开邻域，使得$\mu^\bullet(V) < +\infty$；然后
+令$X$为$T$的子集，并令$\nu$为$X$的紧致子集的映射$\mu : K \mapsto \mu_K$限制至集合；显然$\nu$是$X$的预测值。另一方面，令$x \in X$和$V$是$x$在$T$中的开邻域，使得$\mu^\bullet(V) < +\infty$；那么
 
 $$
 \nu^\bullet(X \cap V) = \sup_{\substack{K \text{ compact} \\ K \subset X \cap V}} \mu^\bullet(K) \leq \mu^\bullet(V) < +\infty
@@ -149,9 +149,9 @@ $$
 
 那么首先，$f$是局部$\mu$可积的：如果$x$是T的点，并且如果$V$是$x$的邻域，使得$\nu^\bullet(V) < +\infty$，则$\mu^\bullet(f \varphi_V) < +\infty$。接下来，命题 2 表明测度$\nu$ 和$f \cdot \mu$ 具有相同的本质上积分。因此它们是相等的（§1, No. 2，Prop. 2 的 Cor.）。基于紧凑空间的情况，$f$的唯一性是明显的，命题成立。
 
-注3)。 — 关于测量 $\nu = f \cdot \mu$ 约化的积分理论立即与第 1 章中处理的理论相关。 V。例如，令 $(K_\alpha)_{\alpha \in A}$ 为 T 对 $\mu$ 的压榨，因此也适用于 $\nu$，并令 $T'$ 为§1, No. 8 Scholium 中定义的局部紧致空间；我们可以将$\mu$（分别与$\nu$）与$T'$上的测量$\mu'$（分别与$\nu'$）相关联，这样，可测量的函数，本质上的可积函数和Banach空间中的值，以及基本的函数正函数的上积分对于$\mu$和$\mu'$（分别对于$\nu$和$\nu'$）是相同的。因此函数$f$是$\mu'$可测量的；它是局部$\mu'$可积的，因为$T'$是局部紧致的，并且$T'$的紧致子集仅与紧集$K_\alpha$（$\alpha \in A$）的有限数相交。最后，关系${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$证明了$\nu' = f \cdot \mu'$（第V, §5, No. 3章，第3条命题）。我们将抄写第 1 章结果的任务留给读者。 V, §5。
+注3)。 —关于测量$\nu = f \cdot \mu$约化的积分理论立即与第1章中处理的理论相关。 V。例如，令 $(K_\alpha)_{\alpha \in A}$ 为 T 对 $\mu$ 的压榨，因此也适用于 $\nu$，并令 $T'$ 为§1, No. 8 Scholium 中定义的局部紧致空间；我们可以将$\mu$（分别与$\nu$）与$T'$上的测量$\mu'$（分别与$\nu'$）相关联，这样可测量的函数，本质上的可积函数和Banach空间中的值，以及基本的函数正函数的上积分对于$\mu$和$\mu'$（分别对于$\nu$和$\nu'$）是相同的。因此函数 $f$ 是 $\mu'$ 可测量的；它是局部$\mu'$可积的，因为$T'$是局部紧致的，并且$T'$的紧致子集仅与紧集$K_\alpha$（$\alpha \in A$）的有限数相交。最后，关系${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$证明了$\nu' = f \cdot \mu'$（第V, §5, No. 3章，命题3）。我们将抄写第 1 章结果的任务留给读者。 V, §5。
 
-### 3. 像一个小节
+### 3. 像一个度量
 
 #### 定义 4 {#int-ix-s2-def-4 .statement tag=09OP}
 
@@ -159,11 +159,11 @@ $$
 
 #### 注 1 {#int-ix-s2-n3-rem-1 .statement tag=09OQ}
 
-当T和X局部紧致时，这个定义等价于Ch. V, §6, No. 1。
+当T和X局部紧致时，这个定义等价于Ch的。 V, §6, No. 1。
 
 #### 注 2 {#int-ix-s2-n3-rem-2 .statement tag=09OR}
 
-T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）是 $\mu$ - 对于每个小节 $\mu$ 都是正确的。对于，设 $x \in X$；由于 $\overline{\pi}(x)$ 是紧致的（前述，No. 2，Th.1），集合 $\overline{\pi}(x)$ 有一个开邻域 H，使得 $\mu^\bullet(H) < +\infty$。 集合$V = X - \pi(T - H)$；由于$\pi$闭，V在X、包含x开，并且满足$\overline{\pi}(V) \subset H$、从而$\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$。
+T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）对于每个小节 $\mu$ 来说是 $\mu$-真值。对于，设 $x \in X$；由于 $\overline{\pi}(x)$ 是紧致的（如上，No. 2，Th.1），集合 $\overline{\pi}(x)$ 有一个开邻域 H，使得 $\mu^\bullet(H) < +\infty$。 集合$V = X - \pi(T - H)$；由于$\pi$闭，V在X、包含x开，并且满足$\overline{\pi}(V) \subset H$、从而$\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$。
 
 #### 注 3 {#int-ix-s2-n3-rem-3 .statement tag=09OS}
 
@@ -171,11 +171,11 @@ T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）是 $\mu$ - 对于
 
 #### 注 4 {#int-ix-s2-n3-rem-4 .statement tag=09OT}
 
-如果 $\theta$ 是 T 上的复测度，如果 $\pi$ 对于正测度 $|\theta|$ 是正确的，则 $\pi$ 被称为 $\theta$-正确的。
+如果 $\theta$ 是 T 上的复测度，如果 $\pi$ 对于正测度 $|\theta|$ 是正确的，则 $\pi$ 被认为是 $\theta$-正确的。
 
 #### 命题 4 {#int-ix-s2-prop-4 .statement tag=09OU}
 
-令 $\pi$ 为 T 的 $\mu$-固有映射到拓扑空间 X。在X上存在且仅有一个测度$\nu$，使得$\nu^\bullet$等于像负担$\pi(\mu^\bullet)$（§1, No. 1），在其他字中，使得$\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$对于所有$g \in \mathscr{F}_+(X)$。
+设$\pi$是T的$\mu$真映射到拓扑空间X。在X上存在且仅有一个测度$\nu$，使得$\nu^\bullet$等于像负担$\pi(\mu^\bullet)$（§1, No. 1），在其他字中，使得$\nu^\bullet(g) = \mu^\bullet(g \circ \pi)$对于所有$g \in \mathscr{F}_+(X)$。
 
 唯一性是显而易见的（§1, No. 2，Prop. 2 的 Cor.）。为了证明存在性，我们首先要处理$\mu$被紧集 K携带的情况，使得$\pi$到K的限制是连续的。那么 $L = \pi(K)$ 是紧致的；令$\pi'$为由$\pi$诱导的K到L的连续映射，令$\nu'$为像在L上的测度$\pi'(\mu_K)$，$\nu$为由$\nu'$定义的X上的测度（§1, No. 3，例2）。对于每$g \in \mathscr{F}_+(X)$，
 
@@ -306,17 +306,17 @@ $$
 
 这些假设显然暗示X是苏斯林空间。
 
-让我们考虑$\mathfrak{P}(T)$上的集合函数$c : A \mapsto \nu^\bullet(\pi(A))$。 关系 $A \subset B$ 意味着 $c(A) \leq c(B)$；如果$(A_n)$是T的子集的递增序列，并且如果$A = \bigcup_{n \in \mathbf{N}} A_n$，则$c(A) = \sup_n c(A_n)$来自$\nu^\bullet$是负担。最后，令$A \subset T$、$\varepsilon$为数$> 0$； 选择 X 包含 $\pi(A)$ 的开子集 G，使得 $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$（§ 1, No. 9，命题 13）； T 包含 A 的开路子集 $H = \overline{\pi^{-1}(G)}$ 和 $c(H) \leq c(A) + \varepsilon$。因而，函数 c 是 T (TG, IX, §6, No. 10, Def. 9)(1) 上的右连续容量，而定理的容量 (*loc. cit.*, Th. 6) 意味着等式 $c(T) = \sup_K c(K)$，其中 K 超过紧凑子集的集合 T. 命题 8 则暗示了所需测度 $\mu$ 的存在。
+让我们考虑 $\mathfrak{P}(T)$ 上的集合函数 $c : A \mapsto \nu^\bullet(\pi(A))$。 关系 $A \subset B$ 意味着 $c(A) \leq c(B)$；如果$(A_n)$是T的子集的递增序列，并且如果$A = \bigcup_{n \in \mathbf{N}} A_n$，则$c(A) = \sup_n c(A_n)$来自$\nu^\bullet$是负担。最后，令$A \subset T$、$\varepsilon$为数$> 0$； 选择 X 包含 $\pi(A)$ 的开子集 G，使得 $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$（§ 1, No. 9，命题 13）； T 包含 A 的开路子集 $H = \overline{\pi^{-1}(G)}$ 和 $c(H) \leq c(A) + \varepsilon$。因而，函数 c 是 T 上的右连续容量（TG，IX, §6, No. 10，Def. 9）（1），并且定理在容量（*loc.cit.*，Th.6）上意味着等式$c(T) = \sup_K c(K)$，其中 K 超过紧凑子集的集合 T. 命题 8 则暗示了所需测度 $\mu$ 的存在。
 
 ### 5. 乘积两小节
 
-设S和T为两个拓扑空间，分别配备两个（正）预测$\lambda$和$\mu$，并令X为乘积空间$S \times T$。令 K 为 X 的紧凑子集；让我们分别用A和B表示K在S和T上的投影，以及集合
+设S和T为两个拓扑空间，分别配备两个（正）预测$\lambda$和$\mu$，并令X为乘积空间$S \times T$。令 K 为 X 的紧凑子集；让我们分别用A和B表示S和T上K的投影，以及集合
 
 $$
 \nu_K = (\lambda_A \otimes \mu_B)_K .
 $$
 
-因而，我们将定义作为X的预测。例如，令L为X包含K的紧子集，并令C和D为其两个投影；然后$A \subset C$，$B \subset D$，
+因而，我们将定义作为X的预测值。例如，令L为X包含K的紧子集，并令C和D为其两个投影；然后$A \subset C$，$B \subset D$，
 
 (1) 如果对于 T 中的每个紧集 K，当 U 越过开路集合 $U \supset K$ 时，$f(K) = \inf_U f(U)$，则称 T 上的容量 $f$ 是右连续的。 GT 中没有定义这个概念，翻译自 Ch 的早期版本。 IX。
 
@@ -333,7 +333,7 @@ $$
 
 对于$\lambda$和$\mu$是复杂预测措施的情况，定义显然是扩展，然后有$|\lambda \otimes \mu| = |\lambda| \otimes |\mu|$（第III, §4, No. 2，第3章和第IV, §5, No. 7，引理3）。
 
-我们保留 Ch 的记号。 III, §4 和章。 V, §8 相对于乘积测量和迭代积分。特别地，如果$f$和$g$是分别定义在$S$和$T$上的两个函数，且值在$\overline{\mathbf{R}}_+$或$\mathbf{C}$中，则函数$(s, t) \mapsto f(s)g(t)$在$S \times T$ 将表示为 $f \otimes g$。
+我们保留 Ch 的记号。 III, §4 和章。 V, §8 相对于乘积测量和迭代积分。特别地，如果$f$和$g$是分别定义在$S$和$T$上的两个函数，其中值在$\overline{\mathbf{R}}_+$或$\mathbf{C}$中，函数$(s, t) \mapsto f(s)g(t)$在$S \times T$ 将表示为 $f \otimes g$。
 
 #### 命题 10 {#int-ix-s2-prop-10 .statement tag=09P6}
 
@@ -357,14 +357,14 @@ $$
 
 由第 8 章第 8 条提案V, §8, No. 3。
 
-设$\eta$为$S \times T$满足 (4) 上的第二个预测值，并令$K$和$L$分别为$S$和$T$的紧子集，$f$和$g$元素分别为$\mathscr{F}_+(K)$和$\mathscr{F}_+(L)$。 关系 $(f \otimes g)^0 = f^0 \otimes g^0$ 在扩张之间除 0，因此（§1, No. 2，命题 2）
+设$\eta$为$S \times T$满足(4)上的第二个预测值，并令$K$和$L$分别为$S$和$T$的紧子集，$f$和$g$元素分别为$\mathscr{F}_+(K)$和$\mathscr{F}_+(L)$。 关系 $(f \otimes g)^0 = f^0 \otimes g^0$ 在扩张之间除 0，因此（§1, No. 2，命题 2）
 
 $$
 \eta^\bullet_{K \times L}(f \otimes g) = \eta^\bullet((f \otimes g)^0) = \eta^\bullet(f^0 \otimes g^0) \\
 = \lambda^\bullet(f^0)\mu^\bullet(g^0) = \lambda_K^\bullet(f)\mu_L^\bullet(g) .
 $$
 
-特别是，如果取$f \in \mathscr{K}_+(K)$、$g \in \mathscr{K}_+(L)$，则可以看到$\eta_{K \times L}$具有乘积度量$\lambda_K \otimes \mu_L$的特征性质（第III, §4, No. 1，Th.1）。因此$\eta_{K \times L} = \nu_{K \times L}$；由于$S \times T$的每个紧凑子集都包含在形式$K \times L$的集合中，因此诱导措施的传递性意味着$\eta = \nu$。
+特别是，如果取$f \in \mathscr{K}_+(K)$、$g \in \mathscr{K}_+(L)$，则可以看到$\eta_{K \times L}$具有乘积度量$\lambda_K \otimes \mu_L$的特征性质（第III, §4, No. 1，第1章）。因此$\eta_{K \times L} = \nu_{K \times L}$；由于$S \times T$的每个紧凑子集都包含在形式$K \times L$的集合中，因此诱导措施的传递性意味着$\eta = \nu$。
 
 #### 推论 1 {#int-ix-s2-prop-10-cor-1 .statement tag=09P7}
 
@@ -380,11 +380,11 @@ $$
 
 #### 推论 3 {#int-ix-s2-prop-10-cor-3 .statement tag=09P9}
 
-— *假设$\lambda$（或$\mu$）是$S$（或$T$）上的可求和族$(\lambda_\alpha)_{\alpha \in A}$（或$(\mu_\beta)_{\beta \in B}$）的和。然后族 $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ 可求和，其和为 $\lambda \otimes \mu$。*
+— *假设$\lambda$（分别$\mu$）是$S$（分别$T$）测度的可求和族$(\lambda_\alpha)_{\alpha \in A}$（分别$(\mu_\beta)_{\beta \in B}$）的和。然后族 $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ 可求和，其和为 $\lambda \otimes \mu$。*
 
 例如，令 $p$ 为负担$\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$；如果$f \in \mathscr{F}_+(S)$和$g \in \mathscr{F}_+(T)$，那么显然是$p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$。 Cor 的证明。然后，1 表明 $p$ 是局部有界的，因此族 $(\lambda_\alpha \otimes \mu_\beta)$ 是可求和的（§ 1, No. 7，命题 7）。它的和$\eta$则满足$\eta^\bullet = p$（§ 1, No. 7，第7条命题），而第10条命题意味着$\eta = \nu$。
 
-### 6. 两个度量关于乘积的积分
+### 6. 关于乘积两项措施的积分
 
 *在本编号中，$\lambda$和$\mu$分别表示$S$和$T$的措施，$\nu$表示乘积对$S \times T$的措施$\lambda \otimes \mu$。在加法中，如果$f$在$S \times T$上是正函数，则对于每个$s \in S$，我们在$T$上用$f_s$函数$t \mapsto f(s, t)$表示，并用$I_f$函数表示$s \mapsto \mu^\bullet(f_s)$ $S$。*
 
@@ -496,9 +496,9 @@ $$
 
 #### 注 {#int-ix-s2-n6-rem-1 .statement tag=09PG}
 
-— 令 $(K_\alpha)_{\alpha \in A}$ 为 $S$ 对 $\lambda$ 的压榨，并令 $M = S - \bigcup_{\alpha \in A} K_\alpha$； 定义以类似的方式$(L_\beta)_{\beta \in B}$和$N$用于$T$上的措施$\mu$。我们用$S'$表示局部紧致空间，即子空间$K_\alpha$或$S$的和和*离散*空间$M$； 空间$T'$的定义类似，我们集合$X' = S' \times T'$。局部紧凑空间$X'$是$X$的紧凑子空间族$(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$的和和子空间$P = (M \times T) \cup (S \times N)$，这是局部$\nu$可忽略的子集 $X$（观察到$P$通常不是离散的空间）。我们在$§ 1$、No. 8的*Scholium*中看到，在$S'$上存在一个测度$\lambda'$，使得可测函数、正函数的本质上积分、本质可积函数及其积分对于$\lambda$和$\lambda'$。我们将$T'$上的措施$\mu'$与$\mu$相关联，将$X'$上的$\nu'$与$\nu$相关联，与引用的Scholium一致；人们立即看到${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$代表$f \in \mathscr{F}_+(S)$和$g \in \mathscr{F}_+(T)$；因此，根据No. 5第10号提案，$\nu' = \lambda' \otimes \mu'$。由于$X'$的拓扑比$X$的更细大，因此每个$\nu$调节的函数都是$\nu'$调节的。该程序允许在没有新的证明 Lebesgue–Fubini 定理（第V、$§ 8$、No. 4、Th.1）的情况下扩展到目前的情况。
+— 令 $(K_\alpha)_{\alpha \in A}$ 为 $S$ 对 $\lambda$ 的压榨，并令 $M = S - \bigcup_{\alpha \in A} K_\alpha$； 定义以类似的方式$(L_\beta)_{\beta \in B}$和$N$用于$T$上的措施$\mu$。我们用$S'$表示局部紧致空间，即子空间$K_\alpha$或$S$的和和*离散*空间$M$； 空间 $T'$ 的定义类似，我们集合 $X' = S' \times T'$。局部紧凑空间$X'$是$X$的紧凑子空间族$(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$的和和子空间$P = (M \times T) \cup (S \times N)$，这是局部$\nu$可忽略的子集 $X$（观察到$P$通常不是离散的空间）。我们在$§ 1$、No. 8的*Scholium*中看到，在$S'$上存在一个测度$\lambda'$，使得可测函数、正函数的本质上积分、本质可积函数及其积分对于$\lambda$和$\lambda'$。我们将$T'$上的措施$\mu'$与$\mu$相关联，将$X'$上的$\nu'$与$\nu$相关联，与引用的Scholium一致；人们立即看到${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$代表$f \in \mathscr{F}_+(S)$和$g \in \mathscr{F}_+(T)$；因此，根据No. 5第10号提案，$\nu' = \lambda' \otimes \mu'$。由于$X'$的拓扑比$X$的更细大，因此每个$\nu$调节的函数都是$\nu'$调节的。该程序允许在没有新的证明 Lebesgue–Fubini 定理（第V，$§ 8$，No. 4，Th.1）的情况下扩展到目前的情况。
 
-### 7. 措施分解的结果
+### 7. 措施瓦解的结果
 
 #### 命题 13 {#int-ix-s2-prop-13 .statement tag=09PH}
 
@@ -571,24 +571,24 @@ $$
 
 令 $f = 1$ 可知，函数 $h_1 : t \mapsto \| \lambda_t \|$ 是 $\mu_1 = \mu$ 相对于 $\mu$ 的度量的密度，因此在$\mu$ 中局部等于 1 - $T$ 中几乎所有地方。
 
-E) *唯一性*:
-让$t \mapsto \lambda_t^i$（对于$i = 1, 2$）是$T$的两个映射到$\mathscr{M}_+(X)$满足条件a）和b）叙述。如C），选择对$X$进行$\mu$压榨$(X_n)_{n \in \mathbf{N}}$，使得$p_{X_n}$对于每个$n \in \mathbf{N}$和集合$N = X - \bigcup_{n \in \mathbf{N}} X_n$都是连续的。对于每个整数 $n \in \mathbf{N}$、选择，$X$、零在 $X_n$ 之外，有一个可数的集合 $D_n$ 正函数，其限制到 $X_n$ 形式规范空间$\mathscr{C}(X_n)$中的稠密集合（将GT的Th.1，X, §3, No. 3应用于可度量紧凑空间$X_n$）。我们集合$D = \bigcup_{n \in \mathbf{N}} D_n$。
+E）*唯一性*：
+让$t \mapsto \lambda_t^i$（对于$i = 1, 2$）是$T$的两个映射到$\mathscr{M}_+(X)$满足条件a）和叙述b）。如C），选择是$X$的$\mu$压榨$(X_n)_{n \in \mathbf{N}}$，使得$p_{X_n}$对于每个$n \in \mathbf{N}$都是连续的，并且集合$N = X - \bigcup_{n \in \mathbf{N}} X_n$。对于每个整数 $n \in \mathbf{N}$、选择，$X$、零在 $X_n$ 之外有一个可数的集合 $D_n$ 正函数，其限制到 $X_n$ 形式规范空间$\mathscr{C}(X_n)$中的稠密集合（将GT的Th.1，X, §3, No. 3应用于可度量紧凑空间$X_n$）。我们集合$D = \bigcup_{n \in \mathbf{N}} D_n$。
 
-设 $f \in D$；通过 D)，函数 $t \mapsto (\lambda_t^1)^\bullet(f)$ 和 $t \mapsto (\lambda_t^2)^\bullet(f)$ 是测量$\mu_f$相对于$\mu$的密度，因此$T$中存在局部可忽略的$\mu$集合$E_f$，使得$(\lambda_t^1)^\bullet(f) = (\lambda_t^2)^\bullet(f)$为$t \in T - E_f$。此外，根据(12)，$t \in T$的集合$F_i$使得$(\lambda_t^i)^\bullet(N) \neq 0$局部$\mu$-对于$i = 1, 2$可以忽略不计。由于$D$是可数的，集合$G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$局部$\mu$可以忽略不计；对于$t \in T - G$，根据§1, No. 8第9号提案，我们有$(\lambda_t^1)^\bullet(N) = (\lambda_t^2)^\bullet(N) = 0$和$(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$、从而$\lambda_t^1 = \lambda_t^2$。
+让$f \in D$；通过 D)，函数 $t \mapsto (\lambda_t^1)^\bullet(f)$ 和 $t \mapsto (\lambda_t^2)^\bullet(f)$ 是测量$\mu_f$相对于$\mu$的密度，因此$T$中存在局部$\mu$可忽略的集合$E_f$，使得$(\lambda_t^1)^\bullet(f) = (\lambda_t^2)^\bullet(f)$ 换$t \in T - E_f$。此外，根据(12)，$t \in T$的集合$F_i$使得$(\lambda_t^i)^\bullet(N) \neq 0$局部$\mu$-对于$i = 1, 2$可以忽略不计。由于$D$是可数的，集合$G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$局部$\mu$可以忽略不计；对于$t \in T - G$，根据§1, No. 8的第9号提案，我们有$(\lambda_t^1)^\bullet(N) = (\lambda_t^2)^\bullet(N) = 0$和$(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$，从而$\lambda_t^1 = \lambda_t^2$。
 
 Q.E.D.
 
-#### 注 {#int-ix-s2-n7-rem-1 .statement tag=09PJ}
+#### 注{#int-ix-s2-n7-rem-1 .statement tag=09PJ}
 
-— 1) 如果$X$是苏斯林空间，则$X$的每个紧致子空间都是苏斯林空间，因此可度量（TG，IX，附录I，第3条的Cor.2），$^{(2)}$
+— 1) 如果$X$是一个苏斯林空间，那么$X$的每个紧凑子空间都是一个苏斯林空间，因此是可度量的（TG，IX，附录I，Prop.2） 3),$^{(2)}$
 
 (1) 如果 $f \cdot \varphi_A$ 不可普遍测量，请使用下面的 *注 2*)。
-(2) 该结果未出现在 GT 中（cf. §1, No. 9 的 *注 1* 的脚注）。
+(2) 该结果未出现在 GT 中（cf. §1, No. 9 *注 1* 的脚注）。
 
-并且 X 上的每项措施都经过调节（§ 1, No. 9，注 1）。因此，根据第 13 条命题，X 上的每个测度$\nu$ 都承认对每个$\nu$-固有映射的分解。
+并且 X 上的每项措施都会经过审核（§ 1, No. 9、注 1）。因此，根据第 13 号提案，X 上的每个测度$\nu$ 都承认相对于每个$\nu$-固有映射的分解。
 
-2) 根据命题13的记号，令$f$为正$\nu$可测函数。一个可以证明，如第 1 章中所示。 V, § 3, No. 2，命题5，$t \in T$的集合使得$f$不可测$\lambda_t$，局部$\mu$可忽略不计，$t \mapsto \lambda_t^\bullet(f)$是$\mu$可测，关系(12)再次成立。
+2) 根据第13条命题的记号，令$f$为正的$\nu$可测函数。一个可以证明，如第 1 章中所示。 V, § 3, No. 2，第 5 条，$t \in T$ 的集合使得 $f$ 不可测 $\lambda_t$ 局部 $\mu$ 可忽略不计，$t \mapsto \lambda_t^\bullet(f)$ $\mu$ 可测，并且关系 (12) 再次成立。
 
 ### 习题{#int-ix-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+请参阅[习题为 § 2](exercises/s2/)。

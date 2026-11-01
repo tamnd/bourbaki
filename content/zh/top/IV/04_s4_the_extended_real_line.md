@@ -25,35 +25,35 @@ subsections:
       pdf_page: 351
 statements: 11
 exercises: 7
-content_sha256: 52cb78db57ff0c6801940676ed76242ab7b671f2c2ddda6ff4247b8a068f8c0f
+content_sha256: 47921f5fe943244839a457e3053e21ef68a4e1c75f742c1512ca8af9c13c83bd
 translated_from: content/en/top/IV/04_s4_the_extended_real_line.md
 translation_method: google
 source_content_sha256: 91dd5beb94c7b102f68de8b003d98eed8682578549dc7b95cc038872a79f0294
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 44dd10c616cc691f9f95145cb6f3e77f6bddd1d93ee7a6cf6170493ac094f602
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 4. 扩展实直线
 
-### 1. $\mathbf{R}$ 开区间的同态
+### 1. $\mathbf{R}$ 开区间同态
 
 #### 命题 1 {#top-iv-s4-prop-1 .statement tag=0BQK}
 
 $\mathbf{R}$ 的所有非空开区间都同胚于 $\mathbf{R}$。
 
-首先考虑有界开区间 $I = ]a, b[$ ($a < b$)。对于每个$x \in I$，放入$f(x) = -\left( \frac{1}{x-a} + \frac{1}{x-b} \right)$。这个函数是连续的，严格递增的在$I$上，因为我们已经看到$\frac{1}{x-b}$在$]-, b[$中是严格递减，而$\frac{1}{x-a}$在$]a, \to[$中是严格递减。由此可见，$f$ 是$I$ 在$\mathbf{R}$ 区间$f(I)$ 上的同胚（§ 2, no. 6，定理 5）。 $f(I)$ 既不上界也不下界；如果对于例，我们对所有 $x \in I$ 都有 $f(x) \leq c$，那么从 $b-x > 0$ 开始，就会得出 $1 - \frac{b-x}{x-a} \leq c(b-x)$；当$x$足够接近$b$时，这会导致矛盾（由于不等式两侧的连续性，在点$b$处是有理函数）。因此$f(I) = \mathbf{R}$，因此每个有界开区间同胚于$\mathbf{R}$。令$g$是$f$的逆：将$\mathbf{R}$的每个无界开区间映射转移到$I$中包含的区间$J$上，并在$I$中开。由于$I$在$\mathbf{R}$开放，$J$也在$\mathbf{R}$开放；因为它是有界的，所以它同胚于 $\mathbf{R}$；因此我们证明了每个无界开区间同胚于 $\mathbf{R}$。
+首先考虑有界开区间 $I = ]a, b[$ ($a < b$)。对于每个$x \in I$，放入$f(x) = -\left( \frac{1}{x-a} + \frac{1}{x-b} \right)$。这个函数是连续的，严格递增的在$I$上，因为我们已经看到$\frac{1}{x-b}$在$]-, b[$中是严格递减，而$\frac{1}{x-a}$在$]a, \to[$中是严格递减。由此可见，$f$ 是$I$ 在$\mathbf{R}$ 区间$f(I)$ 上的同胚（§ 2, no. 6，定理 5）。 $f(I)$ 既不上界也不下界；如果对于例，我们对所有$x \in I$有$f(x) \leq c$，那么从$b-x > 0$开始，就会有$1 - \frac{b-x}{x-a} \leq c(b-x)$；当$x$足够接近$b$时（由于不等式两侧的连续性，在点$b$处是有理函数），这会导致矛盾。因此$f(I) = \mathbf{R}$，因此每个有界开区间同胚于$\mathbf{R}$。令$g$为$f$的逆：将$\mathbf{R}$的每个无界开区间映射转移到包含在$I$中并在$I$中开的区间$J$上。由于$I$在$\mathbf{R}$开放，$J$也在$\mathbf{R}$开放；因为它是有界的，所以它同胚于 $\mathbf{R}$；因此我们证明了每个无界开区间同胚于 $\mathbf{R}$。
 
 #### 注 {#top-iv-s4-n1-rem-1 .statement tag=0BQL}
 
 为了表明所有*有界*开区间彼此同胚，注就足够了，如果$a \neq b$和$a' \neq b'$，则存在$\mathbf{R}$自身的同胚，形式$x \to ax + \beta$（并且只有一个）其中映射 $a$ 到 $a'$ 和 $b$ 到 $b'$，因此映射端点为 $a, b$ 的开（半开、闭）区间到端点为 $a', b'$ 的开（半开、闭）区间；读者可以通过计算$\alpha$和$\beta$轻松验证这一点。
 
-### 2.延长线
+### 2. 延长线
 
-我们现在将定义，通过*邻接*两个新的元素到$\mathbf{R}$，一个拓扑空间$\overline{\mathbf{R}}$，使得$\mathbf{R}$到$\mathbf{R}$的有界开区间$I$的每个同胚都可以扩展到$\overline{\mathbf{R}}$ 到与 $I$ 具有相同端点的闭区间。
+现在，我们将定义，通过*邻接*两个新的元素到$\mathbf{R}$，得到一个拓扑空间$\overline{\mathbf{R}}$，使得$\mathbf{R}$到$\mathbf{R}$的有界开区间$I$的每个同胚都可以扩展到$\overline{\mathbf{R}}$ 到与 $I$ 具有相同端点的闭区间。
 
 令$\overline{\mathbf{R}}$为集合，通过邻接(*集合理论*，R，§ 4, no. 5)两个新的元素到$\mathbf{R}$获得，用$-\infty$和$+\infty$表示。我们通过为所有$a \in \mathbf{R}$和$-\infty < +\infty$放置$-\infty < a$和$a < +\infty$来对$\mathbf{R}$到$\overline{\mathbf{R}}$进行扩展排序；显然，我们因此得到了一个线性排序的集合，其排序诱导是实直线在$\mathbf{R}$上的排序。接下来，考虑由 $\overline{\mathbf{R}}$ 开区间的集合生成的 $\overline{\mathbf{R}}$ 上的拓扑。由于$\overline{\mathbf{R}}$的开区间在$\mathbf{R}$上的迹是$\mathbf{R}$的开区间，因此实直线的$\mathbf{R}$拓扑上的拓扑诱导。
 
@@ -85,7 +85,7 @@ $\mathbf{R}$ 的所有非空开区间都同胚于 $\mathbf{R}$。
 
 ** $\overline{\mathbf{R}}$ *中的每个非空子集 *至少有上界和下确界。*
 
-$\mathbf{R}$ 中非空子集 $A$ 中最小的上界（或下确界）由$\sup A$（或$\inf A$）表示。显然
+$\mathbf{R}$ 的非空子集 $A$ 中的最小上界（或下确界）由$\sup A$（或$\inf A$）表示。显然
 
 (1)
 $$
@@ -104,17 +104,17 @@ $$
 
 #### 命题 6 {#top-iv-s4-prop-6 .statement tag=0BQS}
 
-*当且仅当$f$在$I$上严格单调且连续时，$\overline{\mathbf{R}}$到$\overline{\mathbf{R}}$的区间$I$的映射$f$是$I$到$f(I)$的同胚；那么$f(I)$就是$\overline{\mathbf{R}}$的区间。
+* $\overline{\mathbf{R}}$到$\overline{\mathbf{R}}$的区间$I$的映射$f$是$I$到$f(I)$的同胚当且仅当$f$在$I$上严格单调且连续；那么$f(I)$就是$\overline{\mathbf{R}}$的区间。
 
 最后，函数$\sup(x, y)$和$\inf(x, y)$在$\overline{\mathbf{R}} \times \overline{\mathbf{R}}$上*连续*。
 
 ### 3. 加法和乘法 $\overline{\mathbf{R}}$
 
-注首先根据公式$-(-\infty) = +\infty$和$-(+\infty) = -\infty$，函数$-x$可以通过连续性扩展到$\overline{\mathbf{R}}$；由此扩展的函数是$\overline{\mathbf{R}}$自身的同胚。
+注首先根据公式$-(-\infty) = +\infty$和$-(+\infty) = -\infty$，函数$-x$可以通过连续性扩展到$\overline{\mathbf{R}}$；由此扩展出的函数是$\overline{\mathbf{R}}$自身的同胚。
 
 接下来，考虑函数、$x + y$和$xy$，定义在$\mathbf{R} \times \mathbf{R}$上，值在$\mathbf{R}$中；通过考虑它们在拓扑空间* $\overline{\mathbf{R}}$中取值*，我们将看到它们也可以通过在$\overline{\mathbf{R}} \times \overline{\mathbf{R}}$的某些点处的连续性来扩展。
 
-就$x + y$而言，设$A' = ]-\infty, +\infty]$和$A'' = [-\infty, +\infty[$。然后我们有以下命题：
+就$x + y$而言，设$A' = ]-\infty, +\infty]$和$A'' = [-\infty, +\infty[$。那么我们有以下命题：
 
 #### 命题 7 {#top-iv-s4-prop-7 .statement tag=0BQT}
 
@@ -161,11 +161,11 @@ $$
 
 同样，我们看到$xy$在$\overline{\mathbf{R}} \times \overline{\mathbf{R}}$的点$(0, +\infty), (+\infty, 0), (0, -\infty), (-\infty, 0)$处没有极限。
 
-函数$xy$是$\overline{\mathbf{R}}^*$上合成的律，其中$\mathbf{R}$上乘法扩展律；这个律是结合律和交换律的（恒等式的扩张中的原理）；它的 1 为单位元素； $\overline{\mathbf{R}}^*$中的非常规元素是$+\infty$和$-\infty$。
+函数 $xy$ 是$\overline{\mathbf{R}}^*$ 合成律，其中 $\mathbf{R}$ 乘法扩展律；这个律是结合律和交换律的（扩张恒等式的原理）；它的 1 为单位元素； $\overline{\mathbf{R}}^*$中的非常规元素是$+\infty$和$-\infty$。
 
-如果$x \leq y$和$z > 0$，只要定义了不等式的两边，我们就有$xz \leq yz$。如果定义了乘积 $xy$，那么$|x| \cdot |y|$ 也定义了，我们就有了 $|xy| = |x| \cdot |y|$。
+如果$x \leq y$和$z > 0$，只要定义了不等式的两边，我们就有$xz \leq yz$。如果定义了乘积$xy$，那么$|x| \cdot |y|$也定义了，我们就有了$|xy| = |x| \cdot |y|$。
 
-最后分配律公式
+最后，分配律公式
 
 $$
 x(y + z) = xy + xz
@@ -175,6 +175,6 @@ $$
 
 注可能会出现 (4) 的左侧已定义而右侧未定义的情况：对于例，考虑$x = +\infty$、$y = 2$ 和 $z = -1$ 的情况。因此，在 $\overline{\mathbf{R}}$ 中应谨慎使用分配律公式。
 
-### 习题 {#top-iv-s4-exercises}
+### 习题{#top-iv-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+请参阅[习题为 § 4](exercises/s4/)。

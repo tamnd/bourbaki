@@ -26,21 +26,21 @@ subsections:
       pdf_page: 136
 statements: 20
 exercises: 2
-content_sha256: bdc1b996ee27a915cfc1a6e69c5a70eedf4c660b72c89a22d36c2523789c02f5
+content_sha256: 34d4af42d6acf4ce54821f459f560cdedb6895081872cf5bdd94690b0e411333
 translated_from: content/en/alg/V/04_s4_algebraically_closed_extensions.md
 translation_method: google
 source_content_sha256: 532bb2954789915d393a9084c98ffe495892d82e18cded4cc49d55be2b67ab31
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0fc7f175dd7ae05d51a7afad98b1e17be697247fc93ff2f4effbbea9bc29a5ff
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。 代数闭扩张
 
-### 1.代数闭域
+### 1. Algebraically closed fields
 
 #### 命题 1 {#alg-v-s4-prop-1 .statement tag=06ID}
 
@@ -75,7 +75,7 @@ K 的扩张域 E 中相对代数封闭的域 K 不一定是代数封闭的（实
 
 每个代数闭域都是无限的。
 
-令 K 为有限域并放入 $f(X) = 1 + \prod_{a \in K} (X - a)$。多项式 $f \in K[X]$ 是非常数，而 $f(a) = 1$ 对于每个 $a \in K$ 都是非常数。所以域 K 不满足 (AC')，因此不是代数封闭的。
+令 K 为有限域并放入 $f(X) = 1 + \prod_{a \in K} (X - a)$。首一多项式 $f \in K[X]$ 是非常数，而 $f(a) = 1$ 对于每个 $a \in K$ 都是非常数。所以域 K 不满足 (AC')，因此不是代数封闭的。
 
 #### 定理 1（斯坦尼茨）{#alg-v-s4-thm-1 .statement tag=06IH}
 
@@ -83,7 +83,7 @@ K 的扩张域 E 中相对代数封闭的域 K 不一定是代数封闭的（实
 
 由V，p. 13，Scholium，存在$\Omega$的扩张域$\Omega'$以及E到$\Omega'$的K同态u。设 $x \in E$；因为 x 是 K 上的代数，所以 u(x) 是 u(K) 上的代数，并且 *更不必说* 是 $\Omega$ 上的代数（V，p. 17，Cor. 2）；由于 $\Omega$ 是代数封闭的，因此我们有 $u(x) \in O$。由此可见，$u$映射$E$变为$O$。
 
-### 2.分裂扩张
+### 2. Splitting extensions
 
 #### 定义 2 {#alg-v-s4-def-2 .statement tag=06II}
 
@@ -126,9 +126,9 @@ f_i(X) = \prod_{k=1}^{d_i} (X - x_{i,k}) \text{ in } E[X]. $$
 
 #### 命题 5 {#alg-v-s4-prop-5 .statement tag=06IK}
 
-— *令 K 为$K[X]$、K 的 E 扩张中的域、$(f_i)_{i \in I}$ 非常数多项式族，以及 E 的 F、F' 子扩展，其中每个都是 $(f_i)_{i \in I}$ 的分裂扩张。然后$F = F'$。
+— *设 K 为 $K[X]$、K 的 E 扩张中的域、$(f_i)_{i \in I}$ 非常数多项式族，以及 E 的 F、F' 子扩展，它们各自为 $(f_i)_{i \in I}$ 的分裂扩张。然后$F = F'$。
 
-令$R_i$为E中$f_i$的根和$R = \bigcup_{i \in I} R_i$的集合。由于$f_i$是$F[X]$中第一个次数的多项式的乘积，因此我们有$R_i \subset F$。由Def。 2、我们有$F = K(R)$；同理我们发现$F = K(R)$。
+令$R_i$为E中$f_i$的根和$R = \bigcup_{i \in I} R_i$的集合。由于 $f_i$ 是位于 $F[X]$ 中的第一个次数多项式的乘积，因此我们有 $R_i \subset F$。由Def。 2、我们有$F = K(R)$；同理我们发现$F = K(R)$。
 
 #### 推论 {#alg-v-s4-n2-cor-1 .statement tag=06IL}
 
@@ -148,13 +148,13 @@ f_i(X) = \prod_{k=1}^{d_i} (X - x_{i,k}) \text{ in } E[X]. $$
 
 #### 例 2 {#alg-v-s4-n3-exa-2 .statement tag=06IO}
 
-令K为K的域和$\Omega$代数闭扩张。如果$\overline{K}$是K在$\Omega$中的相对代数闭包，则根据V，p. 20，命题2，K是K的代数闭包。\*特别地，所有代数数（V，p. 20，例2）的域是有理数的域Q的代数闭包。 \*
+设K为K的域和$\Omega$代数闭扩张。如果$\overline{K}$是K在$\Omega$中的相对代数闭包，则根据V，p. 20，命题2，K是K的代数闭包。\*特别地，所有代数数（V，p. 20，例2）的域是有理数的域Q的代数闭包。 \*
 
 #### 命题 6 {#alg-v-s4-prop-6 .statement tag=06IP}
 
 — *令 $\Omega$ 为域 K 的扩张。对于 $\Omega$ 为 K 的代数闭包，它应该是代数的，并且 $K[X]$ 中的每个非常数多项式都应将 $\Omega[X]$ 中的分裂的化为乘积因子次数 1。
 
-(AC) 需要条件。相反，假设$\Omega$是$K$上的代数，并且$K[X]$上的每个非常数多项式是次数1的因子的$\Omega[X]$中的乘积。令$\Omega'$是一个代数扩张的 $\Omega$ 并让 $x \in \Omega'$。由于$x$是$\Omega$上的代数，$\Omega$是$K$上的代数，$x$是$K$上的代数（V，p. 19，命题3）。令 $f$ 为 $x$ 在 $K$ 上的最小多项式。将$\Omega[X]$中的假设多项式$f \in K[X]$分裂的代入次数1、从而$x \in \Omega$的因子乘积。因此我们有 $\Omega' = \Omega$ 并且 $\Omega$ 是代数封闭的，因为它满足 (AC)。
+(AC) 需要条件。相反，假设$\Omega$是$K$上的代数，并且$K[X]$上的每个非常数多项式是次数1的因子的$\Omega[X]$中的乘积。令$\Omega'$是一个代数扩张的 $\Omega$ 并令 $x \in \Omega'$。由于$x$是$\Omega$上的代数，$\Omega$是$K$上的代数，$x$是$K$上的代数（V，p. 19，命题3）。令 $f$ 为 $x$ 在 $K$ 上的最小多项式。将假设将$\Omega[X]$中的多项式$f \in K[X]$分裂的代入次数1、从而$x \in \Omega$的因子乘积。因此我们有 $\Omega' = \Omega$ 并且 $\Omega$ 是代数封闭的，因为它满足 (AC)。
 
 #### 注 1 {#alg-v-s4-n3-rem-1 .statement tag=06IQ}
 
@@ -162,8 +162,8 @@ f_i(X) = \prod_{k=1}^{d_i} (X - x_{i,k}) \text{ in } E[X]. $$
 
 #### 命题 7 {#alg-v-s4-prop-7 .statement tag=06IR}
 
-— *令$\Omega$为域$K$的代数扩张。
-a) 如果 $\Omega$ 是代数闭集，则 $K$ 的每个代数扩张同构于 $\mathbf{R}$ 的子扩张。
+— *令 $\Omega$ 为域 $K$ 的代数扩张。
+a) 如果 $\Omega$ 是代数闭的，则 $K$ 的每个代数扩张同构于 $\mathbf{R}$ 的子扩张。
 b) 相反地假设$K$的有限次数的每个代数扩张同构于$\Omega$的子扩张；那么 $\Omega$ 是代数闭的。*
 
 断言 *a)* 由 Th 得出。 1（V，p. 20）。现在假设 *b)* 的假设并考虑一个非常数多项式 $f \in K[X]$。设E为$f$的分裂域（V，p. 21，命题4）；由于E是有限次数在$K$上的代数（V，p. 18，Th.2），我们可以假设E是$\Omega$的子扩展。那么多项式$f$就是$\Omega[X]$中次数1的多项式的乘积，并且第6命题表明$\Omega$是代数封闭的。
@@ -192,8 +192,8 @@ b) 相反地假设$K$的有限次数的每个代数扩张同构于$\Omega$的子
 
 #### 注 4 {#alg-v-s4-n3-rem-4 .statement tag=06IW}
 
-设 K 为 $K$ 的有限域和 $\Omega$ 代数闭包。那么 $\Omega$ 是无限的（$V,$ p. 20，命题 3）；由于 K 的有限次数的每个扩张都是有限域，因此 $\Omega$ 是 $K$ 的*无限* 次数的代数扩张。
+令 K 为 $K$ 的有限域和 $\Omega$ 代数闭包。那么 $\Omega$ 是无限的（$V,$ p. 20，命题 3）；由于 K 的有限次数的每个扩张都是有限域，因此 $\Omega$ 是 $K$ 的*无限* 次数的代数扩张。
 
 ### 习题 {#alg-v-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

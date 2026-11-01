@@ -50,16 +50,16 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: fe0fc13ca8d29d600f9e71ef1b570c41846466590fa8d28f1c56d4b423fe264b
+content_sha256: f2e7cece45c3734d7f27cdee804cded8b41223f057843f8f19b7872c7977d58c
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 translation_method: google
 source_content_sha256: 3510a553a6737e108ce1bbc1176deb8962c17c7a4a3f4de1c127471caa214100
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 599578eae478dcc3ae885ecea292ed1ad918940076a5eba86734110cb47e441f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 11。 阿贝尔的扩张
@@ -124,7 +124,7 @@ G' = μ_r(K) ⊃ G 且 G 是阶 r 的循环，因此等于 μ_r(K)。由于 G �
 
 令 (v_n) 为所有不可被 p 整除的整数中的严格递增的序列由……组成，如果 p ≠ 1；将 X = v_1 v_2 ... v_n 并用单位元的第 λ_n-th 根的 H_n 群表示；我们有 H_{n+1} ⊃ H_n 和 μ_∞(K) = U H_n。由于 H_n 是阶 X (Th. 1) 的循环，因此存在根单位元的序列 (a_n)，使得 a_n 生成 H_n 且 a_n = α_n^{v_n + 1}。
 
-进一步令β_n为1/λ_n的剩余类类 mod Z[1/p]，并令H'_n为由β_n生成的Q/Z[1/p]的循环子群。显然，β_n = v_{n+1} β_{n+1} 且 H'_n 为阶 λ_n，因为如果 p ≠ 1，则 X 不能被 p 整除。因此，对于所有 n ≥ 1 同构 φ_n ： H_n → H'_n 使得 φ_n(α_n) = β_n 且关系 α_n = α_{n+1}^{v_n + 1}，β_n = v_{n+1} β_{n+1}，证明 φ_n+，扩展 φ_n。最后，在 Q/Z[1/p] 上存在一个唯一的 μ_∞(K) 同构 φ 延伸同构 φ_n，即对于所有 n ≥ 1，φ(α_n) = β_n。
+进一步令β_n为1/λ_n的剩余类类 mod Z[1/p]，并令H'_n为由β_n生成的Q/Z[1/p]的循环子群。显然，β_n = v_{n+1} β_{n+1} 且 H'_n 为阶 λ_n，因为如果 p ≠ 1，则 X 不能被 p 整除。因此，对于所有 n ≥ 1 同构的 φ_n ： H_n → H'_n 使得 φ_n(α_n) = β_n 且关系 α_n = α_{n+1}^{v_n + 1}，β_n = v_{n+1} β_{n+1}，证明 φ_n+，扩展 φ_n。最后，在 Q/Z[1/p] 上存在一个唯一的 μ_∞(K) 同构的 φ 延伸同构 φ_n，即对于所有 n ≥ 1，φ(α_n) = β_n。
 
 #### 注 1 {#alg-v-s11-n2-rem-1 .statement tag=06OJ}
 
@@ -138,9 +138,9 @@ G' = μ_r(K) ⊃ G 且 G 是阶 r 的循环，因此等于 μ_r(K)。由于 G �
 
 对于每个素数数 l 设 μ_{l∞}(K) = U μ_{ln}(K)。当l是K的特征p时，我们有μ_{p∞}(K) = {1}。从 I、p. 80、Th。 4，我们推导出 μ_∞(K) 是子群 μ_{l∞}(K) 的直和，其中 l 运行于与 p 不同的所有素数数的集合。对于给定的素数数 l，只有两种情况是可能的：要么 μ_{l∞}(K) 是有限的，然后 μ_{l∞}(K) 同构于 Z/l^nZ 对于合适的 n (Th. 1)，或者 μ_{l∞}(K) 是无限的，然后 μ_{l∞}(K) 同构于 Z[l^{-1}]/Z (cf.) 注2）。
 
-### 3. 单位元的原语根
+### 3. 单位元的原始根
 
-设 n ≥ 1 为整数。通过 n 的欧拉指示符，写作 φ(n)，我们可以理解数或可逆元环 Z/nZ 整数模 n。到下一个命题$\varphi(n)$也是整数$k$的数与$n$素的，这样$0 \leq k < n$。
+设 n ≥ 1 为整数。通过 n 的欧拉指示符，写作 φ(n)，我们可以理解数或可逆元环 Z/nZ 整数模 n。到下一个命题$\varphi(n)$也是整数$k$的数与$n$素数，这样$0 \leq k < n$。
 
 #### 命题 3 {#alg-v-s11-prop-3 .statement tag=06OM}
 
@@ -173,7 +173,7 @@ $\varphi(n)$的计算是基于两个公式：
 (2) $\varphi(mn) = \varphi(m)\varphi(n)$ 如果 $m$ 和 $n$ 互质，
 (3) $\varphi(p^a) = p^{a-1}(p-1)$（$p$素的，$a \geq 1$）。
 
-第一个直接来自以下事实：环$\mathbf{Z}/mn\mathbf{Z}$和$(\mathbf{Z}/m\mathbf{Z}) \times (\mathbf{Z}/n\mathbf{Z})$是同构的（*I*，p. 112），并且$(A \times B)^* = A^* \times B^*$是两个环$A$和$B$。证明(3)我们注$p^a$的正除子是$1, p, p^2, \ldots, p^a$；因此，当且仅当它不能被$p$整除时，除了$1$之外，整数$k$没有公共的除子与$p^a$；由于$0$和$p^a - 1$之间存在$p$的$p^a - 1$倍数，所以我们确实找到了（3）。
+第一个直接来自以下事实：环$\mathbf{Z}/mn\mathbf{Z}$和$(\mathbf{Z}/m\mathbf{Z}) \times (\mathbf{Z}/n\mathbf{Z})$是同构的（*I*，p. 112），并且$(A \times B)^* = A^* \times B^*$对于两个环$A$和$B$。证明(3)我们注$p^a$的正除子是$1, p, p^2, \ldots, p^a$；因此，当且仅当它不能被$p$整除时，除了$1$之外，整数$k$没有公共的除子与$p^a$；由于$0$和$p^a - 1$之间存在$p$的$p^a - 1$倍数，所以我们确实找到了（3）。
 
 公式 (2) 和 (3) 立即表明
 $$
@@ -187,13 +187,13 @@ $$
 
 #### 命题 4 {#alg-v-s11-prop-4 .statement tag=06OP}
 
-— 令 $n \geq 1$ 为整数；假设 K 中存在单位元的第 n 个根（如果 K 是可分离闭的且$n . 1, \neq 0$，则对于例成立）。那么K中单位元的原语第n个根的数等于$\varphi(n)$。
+— 设$n \geq 1$为整数；假设 K 中存在单位元的第 n 个根（如果 K 是可分离闭的且$n . 1, \neq 0$，则对于例成立）。那么K中单位元的原语第n个根的数等于$\varphi(n)$。
 
 ### 4. 环切术扩张
 
-令$p$为K的特征指数，令$n \geq 1$为整数与$p$素的；通过 K 上 $n$ 级的分圆扩张，我们可以理解 K 上多项式 $X^n - 1$ 的任何分裂扩张 E (V, p. 21)。由于该多项式是可分的，因此 E 是 K 的伽罗瓦扩张，有限次数 (V，p. 57)。 E 中存在单位元的第 n 个本原根；如果$\zeta$是这样的根，那么单位元的每n个根都是$\zeta$的幂，因此$E = K(\zeta)$。
+令$p$为K的特征指数，令$n \geq 1$为整数与$p$素的；通过 K 上 $n$ 级的分圆扩张，我们可以理解 K 上多项式 $X^n - 1$ 的任何分裂扩张 E (V, p. 21)。由于该多项式是可分的，因此 E 是 K 的伽罗瓦扩张，有限次数 (V，p. 57)。 E 中存在单位元的第 n 个根；如果$\zeta$是这样的根，那么单位元的每n个根都是$\zeta$的幂，因此$E = K(\zeta)$。
 
-对于这个数的其余部分，我们将K的选择可分闭包$K_s$。对于$p$群$\mu_n(K_s)$的每个$n \geq 1$素数是阶$n$和域的循环
+对于这个数的其余部分，我们将 K 的选择可分闭包 $K_s$。对于$p$ 群 $\mu_n(K_s)$ 的每个$n \geq 1$素数是阶$n$和域的循环
 
 $$
 R_n(K) = K(\mu_n(K_s))
@@ -297,7 +297,7 @@ $$
 
 其中 $(p_1, \ldots, p_h)$ 超过 $n$ 素数除子的所有严格递增的序列的集合（cf. 谎言、II、p. 207，例 1）。
 
-### 5.分圆多项式的不可约性
+### 5. 分圆多项式的不可约性
 
 令$p$为$K$的特征指数，令$n$为整数素数顶。我们用$\mathbf{Z}[X]$的唯一同态下具有整数系数$\Phi_n$的多项式的$\Phi_n \in K[X]$像表示为$K[X]$，其中映射$X$到$X$。
 
@@ -327,11 +327,11 @@ c) $\mathrm{Gal}(\bar{Q}/Q)$ 到 $(\mathbf{Z}/n\mathbf{Z})^*$ 的同态 $\chi_n$
 
 我们假设$f \neq g$并通过反证法进行论证。多项式$f$和$g$在$Q[X]$和除$X^n - 1$中是不可约的，因此存在$u \in Q[X]$使得$X^n - 1 = fg u$（IV，p. 13，命题13）。 引理 2 (V, p. 82) 表明$f, g$ 和$u$ 具有整数系数。让我们用 $\bar{v}$ 表示系数为 $\mathbf{F}_p$ 的多项式，该多项式是从多项式 $v \in \mathbf{Z}[X]$ 通过归约 mod $p$ 获得的。因此我们在$\mathbf{F}_p[X]$中有$X^n - 1 = \bar{f} \bar{g} \bar{u}$。
 
-此外，我们有$g(\zeta^p) = 0$，因此$g(X^p)$是$\mathbf{Q}[X]$中$f(X)$的倍数。到引理 2 时，存在$h \in \mathbf{Z}[X]$，从而$g(X^p) = f(X) \cdot h(X)$。现在我们对每个多项式$v \in \mathbf{F}_p[X]$都有$v(X^p) = v(X)^p$。通过约简 mod $p$，我们得到 $\bar{g}^p = \bar{f} \bar{h}$。如果$v$是$\mathbf{F}_p[X]$除以$\bar{f}$的不可约多项式，那么它必定是除$\bar{g}$。从$\bar{f} \bar{g}$除$X^n - 1$开始，我们在$\mathbf{F}_p[X]$结论$v^2$除$X^n - 1$。这是荒谬的，因为多项式 $X^n - 1$ 在 $\mathbf{F}_p[X]$ 中是可分的。
+此外，我们有$g(\zeta^p) = 0$，因此$g(X^p)$是$\mathbf{Q}[X]$中$f(X)$的倍数。到引理 2 时，存在$h \in \mathbf{Z}[X]$，使得$g(X^p) = f(X) \cdot h(X)$。现在我们对每个多项式$v \in \mathbf{F}_p[X]$都有$v(X^p) = v(X)^p$。通过约简 mod $p$，我们得到 $\bar{g}^p = \bar{f} \bar{h}$。如果$v$是$\mathbf{F}_p[X]$除$\bar{f}$的不可约多项式，那么它必定是除$\bar{g}$。从 $\bar{f} \bar{g}$ 除 $X^n - 1$ 开始，我们在 $\mathbf{F}_p[X]$ 结论 $v^2$ 除 $X^n - 1$。这是荒谬的，因为多项式 $X^n - 1$ 在 $\mathbf{F}_p[X]$ 中是可分的。
 
-可以证明，对于$Q$上有限次数的每个阿贝尔的扩张$E$，都存在整数$n \geq 1$，使得$E$同构于$R_n(Q)$的子扩展。 \* 在其他字中，域$Q(\mu_{\infty}(C))$是阿贝尔的闭包$Q$。 *（《克罗内克-韦伯定理》）。
+可以证明，对于$Q$上有限次数的每一个阿贝尔的扩张$E$，都存在整数$n \geq 1$，使得$E$同构于$R_n(Q)$的子扩展。 \* 在其他字中，域$Q(\mu_{\infty}(C))$是阿贝尔的闭包$Q$。 *（《克罗内克-韦伯定理》）。
 
-### 6.循环扩张
+### 6. 循环扩张
 
 #### 定义 3 {#alg-v-s11-def-3 .statement tag=06OW}
 
@@ -345,7 +345,7 @@ c) $\mathrm{Gal}(\bar{Q}/Q)$ 到 $(\mathbf{Z}/n\mathbf{Z})^*$ 的同态 $\chi_n$
 
 3) 令$\mathbf{F}$为有限阶的域和$\sigma$自同构。 $\sigma$ 的不变量域 E 也是 $\sigma$ 生成的阶 $n$ 的循环群的不变量域，因此 (V, p. 66, Th. 3) F 为E 的次数 $n$ 的循环扩张。
 
-我们知道（I，p. 50）循环群的每个*子群*和每个*商群*都是循环的。因此（V，p. 68，Cor.4），如果E是域K、次数$n$的循环扩张，则E的每个子扩展F都是*K*上的循环，并且*E是F*上的循环。对于 $n$ 的每个除子 d，在 E 中包含的 K 上都存在一个唯一的次数 d 子域 F：对于阶 $n$ 的循环群，存在一个唯一的子群指标d。
+我们知道（I，p. 50）循环群的每个*子群*和每个*商群*都是循环的。因此（V，p. 68，Cor.4），如果E是域K、次数$n$的循环扩张，则E的每个子扩展F都是*K*上的循环，并且*E是F*上的循环。对于 $n$ 的每个除子 d，在 E 中包含的 K 上存在一个唯一的次数 d 子域 F：对于阶 $n$ 的循环群，存在一个唯一的子群指标d。
 
 #### 定理 3（*希尔伯特*）{#alg-v-s11-thm-3 .statement tag=06OX}
 
@@ -389,7 +389,7 @@ $$
 
 $0 \leqslant j \leqslant n - 1$。可以留给读者来建立关系(10)。我们显然有$m = f(a)$，从而$\operatorname{Im}\ u \supset \operatorname{Ker}\ t$。
 
-引理现已证明，让我们取$y \in E^*$和$x = y/\sigma(y)$；我们有$N_{E/K}(\sigma(y)) = N_{E/K}(y)$，从而$N_{E/K}(x) = 1$。相反，令$E^*$中的$x$使得$N_{E/K}(x) = 1$；将引理 4应用于$M = E^*$，$\Gamma$和$c_\sigma = x$中存在$\tau, \tau'$的$E^*$满足关系$c_{\tau \tau'} = c_\tau \cdot \tau(c_{\tau'})$族元素$(c_\tau)_{\tau \in \Gamma}$。由科.提案 9 的第 1 条（V，p. 65）对于所有$\tau \in \Gamma$，从而，特别是$x = c_\sigma = y/\sigma(y)$，都存在$y \in E^*$和$c_\tau = y/\tau(y)$。如果$y_1 \in E^*$满足$x = y_1/\sigma(y_1)$，那么我们有
+引理现已证明，让我们取$y \in E^*$和$x = y/\sigma(y)$；我们有$N_{E/K}(\sigma(y)) = N_{E/K}(y)$，从而$N_{E/K}(x) = 1$。相反，令$E^*$中的$x$使得$N_{E/K}(x) = 1$；将引理 4应用于$M = E^*$，$\Gamma$和$c_\sigma = x$中存在$\tau, \tau'$的$E^*$满足关系$c_{\tau \tau'} = c_\tau \cdot \tau(c_{\tau'})$族元素$(c_\tau)_{\tau \in \Gamma}$。由科.提案 9 的第 1 条（V，p. 65）对于所有 $\tau \in \Gamma$，从而，特别是 $x = c_\sigma = y/\sigma(y)$，都存在 $y \in E^*$ 和 $c_\tau = y/\tau(y)$。如果$y_1 \in E^*$满足$x = y_1/\sigma(y_1)$，那么我们有
 
 $$
 \sigma(y_1 y^{-1}) = y_1 y^{-1},
@@ -399,7 +399,7 @@ $$
 
 断言 b) 以类似的方式来自 Cor。第 9 号提案第 2 条（V、p. 65）。
 
-### 7. $\mathbf{Z}/n\mathbf{Z}$-模块的对偶性
+### 7. $\mathbf{Z}/n\mathbf{Z}$模块的对偶性
 
 在这个编号中，我们用$n$整数$> 0$和$T$表示阶$n$的循环群。如果$g^n = 1$对于所有$g \in G$来说，群$G$据说会被$n$消灭；此外，如果$G$是可交换的，$G$的群结构是一个独特的$\mathbf{Z}/n\mathbf{Z}$模块结构的基础。
 
@@ -455,7 +455,7 @@ $$
 
 如果 s_f 是双射且 H 是有限的，则我们有 Cor 。 2 到命题 7 关系 Card(G) = Card(Hom(H, T)) = Card(H)，因此 Card(G) 是有限的，并且通过另一个应用推论，Card(Hom(G, T)) = Card(H)。所以只要证明d_f是单射的就足够了。现在，如果 h \in \mathrm{Ker}(d_f)，则对于所有 g \in G，我们有 f(g, h) = 1，因此由于 s_f 是双射的，因此对于所有 \varphi \in \mathrm{Hom}(H, T)，\varphi(h) = 1；根据命题 7，这意味着 \mathrm{Hom}(\mathrm{Ker}(d_f), T) = \{1\}，因此 \mathrm{Ker}(d_f) = \{1\} 1 至提案 7。
 
-### 8.库默理论
+### 8. 库默理论
 
 在这个数中，我们用$n$整数>0表示，并且我们假设$\mu_n(K)$有$n$元素；由 V, p. 78 这也意味着 $n$ 与 K 的特征指数互质，并且 K 的代数闭包 $\Omega$ 中单位元的所有 n 个根都位于 K 中。
 
@@ -576,9 +576,9 @@ $$
 X^n - a = \prod_{b \in B} (X' - b),
 $$
 
-关系 $T^{n/r} - a = \Pi (T - b)$ 中的 T 为 $X'$ 的代换。到例 4，每个多项式 $X' - b$ 都是不可约的，因此 (14) 是 $X^n - a$ 的分解变为 $K[X]$ 中的不可约多项式。
+关系 $T^{n/r} - a = \Pi (T - b)$ 中的 T 为 $X'$ 的代换。通过例 4，每个多项式 $X' - b$ 都是不可约的，因此 (14) 是 $X^n - a$ 的分解变为 $K[X]$ 中的不可约多项式。
 
-### 9.Artin-Schreier理论
+### 9. 阿廷-施赖尔理论
 
 在这个数中，我们将使用$p$来表示素数数，并假设K具有特征$p$。我们用 K 的 $\Omega$ 代数闭包和 $\Omega$ 的加法群 $\varphi$ 自同态表示，定义为
 
@@ -663,4 +663,4 @@ Th。 5 的证明方法与 Th 相同。 4 (V, p. 89) 已作必要修改。
 
 ### 习题{#alg-v-s11-exercises}
 
-§ 11](exercises/s11/)参见[习题。
+参见[习题为 § 11](exercises/s11/)。

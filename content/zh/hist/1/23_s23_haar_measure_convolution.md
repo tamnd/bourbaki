@@ -11,19 +11,19 @@ pdf_pages: 0231-0236
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 13b49bd517f083bafa13bfa6d53ef965552a9a5b038dc81b8b4a05d931352f17
+content_sha256: cb0422757ad441923ef819b89394d25d2f06a394ed1da91ef1d2e143370e610a
 translated_from: content/en/hist/1/23_s23_haar_measure_convolution.md
 translation_method: google
 source_content_sha256: 6c5bfd83ec24e61d922eb5f7b88482c4f2f16c95ea8ff64abaf9cc786012597b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ff2320ef699cf8980312d05de44e66ebda86ccaf0e85648d1f9dcc00e468a36f
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 23.HAAR 措施。卷积。
+## 23. 哈尔措施。卷积。
 
 长度的概念，希腊人的面积和体积本质上是基于它们在位移下的不变性：“重合（$\varepsilon \phi \alpha \rho \mu o \xi o \nu \tau \alpha$）相等的事物”（Eucl. El.，书I，“公共的概念”4）；正是通过巧妙地使用这个原理，所有公式都可以通过给出经典“图形”（多边形，圆锥曲线，多面体，球体等）的面积或体积来获得，有时通过有限过程分解，有时通过“穷举”获得。$^1$在现代语言中，它可以说，希腊几何学家所做的就是证明“集合的函数”的存在性，它在位移下是可加的且不变的，但仅针对非常特殊的型的集合进行定义。积分演算可以被认为是对扩大集合的函数的定义域的需要的回应，并且，从Cavalieri到H. Lebesgue，正是这种关注将成为研究分析家的首要关注点；至于位移不变性的性质，它成为次要考虑因素，成为双或三重积分中变量的变换的一般公式的微不足道的推论，并且因为正交变换的行列式等于$\pm 1$。即使在非欧几里得几何中（然而位移的群不同），视图的点保持不变：一般来说，黎曼定义面积或体积的无穷小元素（或维数$\geq 3$的类似物）以$ds^2$开始经典欧氏公式的均值，以及它们在使$ds^2$保持不变的变换下的不变性因此几乎是同义反复。
 

@@ -37,25 +37,25 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: b7a156fdf5905e06c93c7efc93bc4afdc105033f7066698ca59f5ba76f5c785a
+content_sha256: e733aecfd9f74af067cc7d2cf05514d2b9ef8476eda8c9c3cc9b2256be71ed14
 translated_from: content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md
 translation_method: google
 source_content_sha256: 09376883a430ceee6e2f9d7416163648064cb06680a75c0f4d800750884c66c2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 49964c0e6a5b1f3fb2fbcbef5dda640157216c3e0d7cdc27f5ffaad9499a7b7e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。最大环面紧李群
 
-### 1. 嘉当子代数的紧代数
+### 1. 嘉当子代数 / 紧代数
 
 #### 引理 1 {#lie-ix-s2-lem-1 .statement tag=019Z}
 
-令 G 为李群，K 为 G 的紧致子群，且 F 不变双线性形式在 L(G) 上。让$x, y\in L(G)$。存在 K 的元素 $k$，使得对于所有 $u\in L(K)$ 都有 $F(u$，[(Ad $k$)$(x), y]) = 0$。
+设 G 为李群，K 为 G 的紧致子群，F 为L(G) 上的 F 不变双线性形式。让$x, y\in L(G)$。存在 K 的元素 $k$，使得对于所有 $u\in L(K)$ 都有 $F(u$,[(Ad $k$)$(x), y]) = 0$。
 
 从 K 到 $\mathbf{R}$ 的函数 $v \rightarrow$ F((Ad $v$)$(x), y$) 是连续的，因此在点 $k\in K$ 处有最小值。令 $u\in L(K)$ 并放入
 
@@ -71,7 +71,7 @@ $\frac{dh}{dt}(0) = F([u$,(广告$k$)$(x)], y) = F(u$,[(广告$k$)$(x), y])$,
 
 设$\mathfrak{g}$为紧李代数。 $\mathfrak{g}$（第VII, §2, no. 1，定义1）中的嘉当子代数是其最大交换子代数；特别是，$\mathfrak{g}$是其嘉当子代数的并。 群 Int($\mathfrak{g}$) 在 $\mathfrak{g}$ 的嘉当子代数的集合上进行传递运算。
 
-由于 $\mathfrak{g}$ 是还原性的，因此它的嘉当子代数是可交换的（第 VII, §2, no. 4 章，第 2 章第 3 章）。相反，令 $\mathfrak{t}$ 为 $\mathfrak{g}$ 中的交换子代数。根据 §1, no. 3，第 1 号提案，广告 $x$ 对于所有 $x\in \mathfrak{t}$ 来说是半单；由章。 VII, §2, no. 3，命题10，存在$\mathfrak{g}$包含$\mathfrak{t}$中的嘉当子代数。这就证明了定理的第一个断言。
+由于 $\mathfrak{g}$ 是还原性的，因此它的嘉当子代数是可交换的（第 VII, §2, no. 4 章，第 2 章第 3 章）。相反，令 $\mathfrak{t}$ 为 $\mathfrak{g}$ 的交换子代数。根据第 1 号提案 §1, no. 3，对于所有 $x\in \mathfrak{t}$，广告 $x$ 为半单；由章。 VII, §2, no. 3，命题10，存在$\mathfrak{g}$包含$\mathfrak{t}$中的嘉当子代数。这就证明了定理的第一个断言。
 
 现在让$\mathfrak{t}$和$\mathfrak{t}'$是$\mathfrak{g}$的两个嘉当子代数。我们证明存在$u\in$ Int($\mathfrak{g}$)使得$u(\mathfrak{t}) =\mathfrak{t}'$。根据§1, no. 3的命题1，我们可以假设$\mathfrak{g}$是形式L(G)，其中G是连通的紧李群，并且可以选择是$\mathfrak{g}$上的分离不变对称双线性形式F。令$x$（或$x'$）为$\mathfrak{g}$的正则元素，使得$\mathfrak{t}=\mathfrak{g}^0(x)$（或$\mathfrak{t}'=\mathfrak{g}^0(x')$）（第VII, §3, no. 3，第2章）。 应用引理 1，其中 K = G，我们看到存在 $k\in G$，使得 [(Ad $k$)$(x), x']$ 与 $\mathfrak{g}$ 关于 F 正交，因此是零；那么 (Ad $k$)$(x)\in \mathfrak{g}^0(x') =\mathfrak{t}'$，所以 $\mathfrak{g}^0$((Ad $k$)$(x)$) $=\mathfrak{t}'$，因为 (Ad $k$)$(x)$ 是常规的。我们结论（广告$k$）$(\mathfrak{t}) =\mathfrak{t}'$，因此定理。
 
@@ -79,11 +79,11 @@ $\frac{dh}{dt}(0) = F([u$,(广告$k$)$(x)], y) = F(u$,[(广告$k$)$(x), y])$,
 
 令$\mathfrak{t}$和$\mathfrak{t}'$为$\mathfrak{t}$的$\mathfrak{g},\mathfrak{a}$子集的嘉当子代数，以及将$\mathfrak{a}$带入$\mathfrak{t}'$的$\mathfrak{g}$的$u$自同构。 Int($\mathfrak{g}$) 存在元素$v$，使得$u\circ v$将$\mathfrak{t}$带到$\mathfrak{t}'$，并且重合与$u$在$\mathfrak{a}$上。
 
-设G = Int($\mathfrak{g}$)，并考虑G中$\mathfrak{a}$的固定器$Z_G(\mathfrak{a})$；这是G的谎言子群，其李代数$\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$由$\mathfrak{g}$的元素组成，与$\mathfrak{a}$的每个元素可交换（第III, §9, no. 3，第7章）。那么$\mathfrak{t}$和$u^{-1}(\mathfrak{t}')$就是紧李代数$\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$中的两个嘉当子代数。由 Th. 1、存在$Z_G(\mathfrak{a})$的元素$v$使得$v(\mathfrak{t}) =u^{-1}(\mathfrak{t}')$；任何这样的元素都具有所需的属性。
+设G = Int($\mathfrak{g}$)，并考虑G中$\mathfrak{a}$的固定器$Z_G(\mathfrak{a})$；这是G的谎言子群，其李代数$\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$由$\mathfrak{g}$的元素组成，与$\mathfrak{a}$的每个元素可交换（第III, §9, no. 3章，第7条命题）。那么$\mathfrak{t}$和$u^{-1}(\mathfrak{t}')$就是紧李代数$\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$中的两个嘉当子代数。由 Th. 1、存在$Z_G(\mathfrak{a})$的元素$v$使得$v(\mathfrak{t}) =u^{-1}(\mathfrak{t}')$；任何这样的元素都具有所需的属性。
 
 ### 2. 最大托里
 
-令 G 为李群。 G 的环面是闭子群，即环面 (§1, no. 2)，在其他字中任何可交换连通紧致子群。 G的环面的集合中的极大元素，按包含排序，称为G的最大环面。
+令 G 为李群。 G 的环面是闭子群，即环面 (§1, no. 2)，在其他字中任何可交换连通紧致子群。 G 环面的集合的极大元素按包含排序，称为 G 的最大环面。
 
 #### 定理 2 {#lie-ix-s2-thm-2 .statement tag=01A2}
 
@@ -131,51 +131,51 @@ G 包含于 $g$ (Th. $2c$)$)$ 存在最大环面 T，因此包含在 $C_0$ 中�
 
 让$g\in G$。如果 $g$ 是正则的（第 VII, §4, no. 2，定义 2），则它属于为唯一的最大值环面，这是其集中器的恒等分量。否则，它属于到无限多个最大环面。
 
-由于 Ad $g$ 是半单，因此 Ad $g-1$ 的零空间的维数也是 $g$ 的中心化器 C 的零空间。按地点。引文、第 8 号提案和 Th。 $1,g$ 是正则的当且仅当 $C_0$ 是 G 的最大环面。现在的结论来自 Cor. 3.
+由于 Ad $g$ 是半单，因此 Ad $g-1$ 的零空间的维数也是 $g$ 的中心化器 C 的零空间。按地点。引文、第 8 号提案和 Th。 $1,g$ 是正则当且仅当 $C_0$ 是 G 的最大环面。现在的结论来自 Cor. 3.
 
 #### 推论 5 {#lie-ix-s2-thm-2-cor-5 .statement tag=01A8}
 
 a) 令S为G的环面。S的扶正器是连通的；它是 G 包含 S 的最大环面的并。
 
-b) 设$\mathfrak{s}$为L(G)的交换子代数。 G中$\mathfrak{s}$的固定器已连接；它是 G 的最大环面的并，其中李代数包含 $\mathfrak{s}$。
+b) 设$\mathfrak{s}$为L(G)中的交换子代数。 G中$\mathfrak{s}$的固定器已连接；它是 G 的最大环面的并，其李代数包含 $\mathfrak{s}$。
 
-为了证明a)，只要证明如果G的元素$g$集中S，则存在G包含S和$g$的最大环面。现在，如果C是$g$的中心化子，我们就有$g\in C_0$（Cor.3）和$S\subset C_0$；如果 T 是连接的紧李群 $C_0$ 包含 S 的最大环面，则我们有 $g\in T$（Cor. 2），因此 a)。 断言 b) 由适用于子群与李代数 $\mathfrak{s}$ 的积分的 a) 得出，鉴于第 1 章。 III, §9, no. 3，提案 9。
+为了证明a)，只要证明如果G的元素$g$集中S，则存在G包含S和$g$的最大环面。现在，如果C是$g$的中心化器，我们有$g\in C_0$（Cor.3）和$S\subset C_0$；如果 T 是连接的紧李群 $C_0$ 包含 S 的最大环面，则我们有 $g\in T$（Cor. 2），因此 a)。 断言 b) 由应用于子群与李代数 $\mathfrak{s}$ 积分的 a) 得出，参见第 1 章。 III, §9, no. 3，提案 9。
 
 #### 注 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 
-这是从 Cor 得出的。 5 G 的最大环面是最大交换律子群。 逆命题不成立：对于例，在群 $\mathbf{S}\mathbf{O}(3,\mathbf{R})$ 中，最大环面为维数 1，因此对角线矩阵的不能包含子群，与 $(\mathbf{Z}/2\mathbf{Z})^2$ 同构的。此外，如果$g\in \mathbf{S}\mathbf{O}(3,\mathbf{R})$是非标量对角矩阵，则$g$是未连接扶正器的$\mathbf{S}\mathbf{O}(3,\mathbf{R})$的正则元素（cf.Cor.4）。
+这是从 Cor 得出的。 5 G 的最大环面是最大交换律子群。 逆命题不成立：对于例，在群 $\mathbf{S}\mathbf{O}(3,\mathbf{R})$ 中，最大环面为维数 1，因此对角线矩阵的不能包含子群，即同构于$(\mathbf{Z}/2\mathbf{Z})^2$。此外，如果$g\in \mathbf{S}\mathbf{O}(3,\mathbf{R})$是非标量对角矩阵，则$g$是未连接扶正器的$\mathbf{S}\mathbf{O}(3,\mathbf{R})$的正则元素（cf.Cor.4）。
 
 #### 推论 6 {#lie-ix-s2-thm-2-cor-6 .statement tag=01AA}
 
-G 的最大环面是它们自己的中心化器，并且是它们的李代数的固定器。
+G 的最大环面是它们自己的定中心器，并且是它们的李代数的固定器。
 
-令 T 为 G 的最大值环面和其扶正器 C；由于L(T) 是L(G) 的嘉当子代数，我们有L(T) = L(C)，因此C = T，因为C 是连通的（Cor. 5）。
+令 T 为 G 的最大环面和其扶正器 C；由于 L(T) 是 L(G) 的嘉当子代数，我们有 L(T) = L(C)，因此 C = T，因为 C 是连通的（Cor. 5）。
 
 #### 推论 7 {#lie-ix-s2-thm-2-cor-7 .statement tag=01AB}
 
-设T和$T'$是G的两个最大环面，T的A子集和G的$s$自同构，将A带入$T'$。存在 $g\in G$ 使得 $s\circ$ (Int $g$) 将 T 带到 $T'$ 和重合，并在 A 上使用 $s$。
+设T和$T'$是G的两个最大环面，T的A子集和G的$s$自同构，将A带入$T'$。存在 $g\in G$ 使得 $s\circ$ (Int $g$) 将 T 带到 $T'$ 和重合，其中 $s$ 在 A 上。
 
 设C为A的中心化子，则T和$s^{-1}(T')$为$C_0$的两个最大环面； $C_0$ 的每个元素 $g$ 使得 (Int $g$)$(T) =s^{-1}(T')$ 具有所需的属性。
 
 #### 推论 8 {#lie-ix-s2-thm-2-cor-8 .statement tag=01AC}
 
-设H为紧李群，T为H的最大环面。然后将$N_H(T)$的$H = N_H(T).H_0$和单射转化为H诱导同构，从$N_H(T)/N_{H_0}(T)$到$H/H_0$。
+设H为紧李群，T为H的最大环面。然后将$H = N_H(T).H_0$和$N_H(T)$的单射转化为H诱导同构，从$N_H(T)/N_{H_0}(T)$到$H/H_0$。
 
-让$h\in H$。那么$h^{-1}Th$是$H_0$的最大值环面，因此(Th.2)存在$g\in H_0$使得$hg\in N_H(T)$；因此$h$属于到$N_H(T).H_0$，因此第一个断言。第二个紧随其后。
+让$h\in H$。那么$h^{-1}Th$是$H_0$的最大环面，因此（Th.2）存在$g\in H_0$使得$hg\in N_H(T)$；因此$h$属于到$N_H(T).H_0$，因此第一个断言。第二个紧随其后。
 
 #### 注 3 {#lie-ix-s2-n2-rem-3 .statement tag=01AD}
 
-令 G 为连通的李群，其李代数是紧致的。 G 的嘉当子群是积分子群，其李代数是 L(G) 的嘉当子代数（连通紧凑群的嘉当子群因此是其最大环面）。 定理 2 及其推论对于 G 仍然有效，如果我们替换处处都是“Cartan 子群”的表达式“最大环面”。根据§1, no. 4的命题5，G是向量群V的直接乘积和连通紧凑群K，并且G的嘉当子群是V的乘积，其中K 的最大环面。此外，它从 Cor 得出注。由上式6可知，G的嘉当子群也可以定义为L(G)的嘉当子代数的固定剂。
+令 G 为连通的李群，其李代数是紧致的。 G 的嘉当子群是积分子群，其中李代数是 L(G) 的嘉当子代数（连通紧体群的嘉当子群因此是其最大环面）。 定理 2 及其推论对于 G 仍然有效，如果我们替换处处都是“Cartan 子群”的表达式“最大环面”。根据§1, no. 4的命题5，G是向量群V的直接乘积和连通紧凑群K，并且G的嘉当子群是乘积 V 具有 K 的最大环面。此外，它从 Cor 得出注。由上式6可知，G的嘉当子群也可以定义为L(G)的嘉当子代数的固定剂。
 
-定理2的$^*4)$部分c)也可以用以下方式证明。给 G 一个不变的黎曼度量（§1, no. 3，命题 3）。那么，对于G的任意元素$g$，都存在G的最大测地线经过到$g$和单位元素（Hopf-Rinow定理），并且可以验证这样的测地线的闭包是$G$的子圆环。\*
+定理2的$^*4)$部分c)也可以用以下方式证明。给 G 一个不变的黎曼度量（§1, no. 3，命题 3）。那么，对于G的任意元素$g$，都存在G的最大测地线经过到$g$和单位元素（Hopf-Rinow定理），并且可以验证这样的测地线的闭包是$G$.\*
 
-### 3. 子群和商群的最大环面
+### 3. 最大环面为子群和商群
 
 #### 命题 1 {#lie-ix-s2-prop-1 .statement tag=01AE}
 
 设 G 和 $G'$ 是两个相连的紧李群。
 
-a) 令$f: G\rightarrow G'$为李群的满射态射。 $G'$ 的最大环面是 G 的最大环面的 $f$ 之下的像。如果 $f$ 的核是 G 的中心（对于例离散），则 G 的最大环面是 G 的最大环面的 $f$ 之下的逆像 $G'$。
+a) 令$f: G\rightarrow G'$为李群的满射态射。 $G'$ 的最大环面是 G 的最大环面 $f$ 之下的像。如果 $f$ 的核位于 G 的中心（对于例离散），则 G 的最大环面是逆像在最大环面的 $f$ 之下$G'$的托里。
 
 b) 令 H 为 G 的连通闭子群。H 的每个最大值环面为交，其中 H 为 G 的最大值环面。
 
@@ -185,7 +185,7 @@ a) 令 T 为 G 的最大值环面；那么 L(T) 是 L(G) 的嘉当子代数 (no.
 
 相反，令$T'$为$G'$的最大值环面；我们证明存在 G 的最大环面 T，使得 $f(T) = T'$。令$T_1$为G的最大环面；那么$f(T_1)$是$G'$的最大环面，并且存在$g'\in G'$使得$T'=g'f(T_1)g^{'-1}$(Th.$2b$)$)$；如果$g\in G$使得$f(g) =g'$，我们有$T'=f(T)$和$T =gT_1g^{-1}$。
 
-b) 令 S 为 H 的最大值环面；这是 G 的环面，因此存在 G 包含 S 的最大环面 T。那么 $T\cap H$ 是 H 包含 S 的交换性子群，因此等于 S (no. 2, 注 2)。
+b) 令 S 为 H 的最大值环面；这是 G 的环面，因此存在 G 包含于 S 的最大环面 T。那么 $T\cap H$ 是 H 包含于 S 的交换性子群，因此等于 S (no. 2, 注 2)。
 
 c) 根据§1, no. 3，命题$2c), L(G)$是带有理想的L(H)的直乘积；因此，L(H)的嘉当子代数是交，其中L(H)是L(G)的嘉当子代数。因此，对于 $G, T\cap H$ 包含的任何最大环面 T，H 和 $S = T\cap H$ (no. 2，注 2) 的最大环面 S。
 
@@ -237,7 +237,7 @@ G 的每个积分子群 H 使得 rk H = rk G 都是闭的：事实上，前面�
 
 对于命题 4 的记号，G 包含于 H 的每个闭子群 $H'$ 且$(H': H)$ 是有限的，对 H 进行归一化，因此包含在 N 中；类似地，$H'$的归一化项包含在N中。特别地，N是它自己的归一化项。
 
-### 5.韦尔群
+### 5. 韦尔群
 
 令 G 为连通的紧李群，T 为 G 的最大值环面。用 $N_G(T)$ 表示 G 中 T 的归一化器；根据命题 4 (no. 4)，商群 $N_G(T)/T$ 是有限的。我们用 $W_G$(T) 或 W(T) 表示它，并称其为 G 的最大环面 T 的 Weyl 群，或 G 相对于 T 的 Weyl 群。由于 T 是可交换的，因此 T 上 $N_G(T)$ 的运算乘以 G 的内自同构诱导通过李群 T 上群 $W_G(T)$ 的商运算，称为规范运算。 6 Th. no. 2 的 2 个，这个运算是忠实的：关联的同态 $W_G(T)\rightarrow$ Aut T 是单射的。
 
@@ -287,7 +287,7 @@ $$
 \end{array}
 $$
 
-其中$p$和$q$是映射的商，$i$是典范嵌入。由于 $i$ 和 $q$ 是正确的（*一般拓扑*，第 I, §10, no. 1 章，命题 2 和 *一般拓扑*，第 III, §4, no. 1，命题 2 c)），并且由于 $p$ 是满射的，因此得出$j$ 是正确的（*一般拓扑*，第 I, §10, no. 1 章，命题 5），因此是同胚。
+其中$p$和$q$是商映射，$i$是典范嵌入。由于 $i$ 和 $q$ 是正确的（*一般拓扑*，第 I, §10, no. 1 章，命题 2 和 *一般拓扑*，第 III, §4, no. 1，命题 2 c)），并且由于 $p$ 是满射的，因此得出$j$ 是正确的（*一般拓扑*，第 I, §10, no. 1 章，命题 5），因此是同胚。
 
 #### 命题 7 {#lie-ix-s2-prop-7 .statement tag=01JE}
 
@@ -305,15 +305,15 @@ b) *$H$是连通的当且仅当$\mathrm{W}_{G}(\mathrm{T})$的每个元素在$H$
 
 #### 引理 2 {#lie-ix-s2-lem-2 .statement tag=01AO}
 
-令 H 为李群的李群、$f_T: T\rightarrow H$ 和 $\widetilde{f}: \widetilde{D}(G)\rightarrow H$ 态射，这样对于所有 $t\in \widetilde{T}$ 来说，$f_T(p(t)) = \widetilde{f}(t)$。存在李群$f: G\rightarrow H$的唯一态射使得$f\circ p= \widetilde{f}$并且使得$f$到T的限制是$f_T$。
+令H为李群的李群、$f_T: T\rightarrow H$和$\widetilde{f}: \widetilde{D}(G)\rightarrow H$态射，使得$f_T(p(t)) = \widetilde{f}(t)$对于所有$t\in \widetilde{T}$。存在李群$f: G\rightarrow H$的唯一态射使得$f\circ p= \widetilde{f}$并且使得$f$到T的限制是$f_T$。
 
 把$Z = C(G)_0$；由 §1, no. 4 提供，Cor.第 4 条命题 1，李群 $g: Z\times \widetilde{D}(G)\rightarrow G$ 中的态射，使得 $g(z, x) =z^{-1}p(x)$ 是一个覆盖层；它的核由对$(z, x)$组成，使得$p(x) =z$，其中$x\in p^{-1}(Z)\subset \widetilde{T}$。由于态射$(z, x) \rightarrow f_T(z^{-1}) \widetilde{f}(x)$从$Z\times \widetilde{D}(G)$到H映射Ker$g$到$\{e\}$，存在从G到H的态射$f$，使得对于$z\in Z$有$f\circ p= \widetilde{f}$和$f(z) =f_T(z)$。但我们也有 $f(t) =f_T(t)$ 对应 $t\in p( \widetilde{T})$；因为$T = Z.p( \widetilde{T})$，$f$到T的限制确实是$f_T$。
 
 #### 命题 8 {#lie-ix-s2-prop-8 .statement tag=01AP}
 
-令 G 为连通的紧李群，T 为 G 的最大环面，H 李群和李代数的 $\varphi : L(G)\rightarrow L(H)$ 同态。存在李群 $f: G\rightarrow H$ 的态射使得 $L(f) =\varphi$ 当且仅当存在李群 $f_T: T\rightarrow H$ 的态射使得 $L(f_T) =\varphi |L(T)$；然后$f_T=f|T$。
+令G为连通的紧李群，T为G的最大环面，H李群和$\varphi : L(G)\rightarrow L(H)$同态为李代数。存在李群 $f: G\rightarrow H$ 的态射使得 $L(f) =\varphi$ 当且仅当存在李群 $f_T: T\rightarrow H$ 的态射使得 $L(f_T) =\varphi |L(T)$；然后$f_T=f|T$。
 
-如果$f: G\rightarrow H$是李群的态射，使得$L(f) =\varphi$，$f$到T的限制$f_T$是从T到H的唯一态射，使得$L(f_T) =\varphi |L(T)$。相反，令 $f_T: T\rightarrow H$ 为李群的态射，使得 $L(f_T) =\varphi |L(T)$。令$\widetilde{D}(G)$和$p$如上； 映射$L(p)$诱导同构从$L( \widetilde{D}(G))$到L(G)的派生代数$\mathfrak{b}$。存在李群$\widetilde{f}: \widetilde{D}(G)\rightarrow H$的态射使得$L( \widetilde{f}) = (\varphi |\mathfrak{b})\circ L(p)$（第III, §6, no. 1，第1章）。从$\widetilde{T}$到H诱导的态射$t \rightarrow \widetilde{f}(t)$和$t \rightarrow f_T(p(t))$与李代数相同的同态，因此重合。 应用引理 2，我们推导出态射$f: G\rightarrow H$的存在性使得$L(f)$和$\varphi$重合在L(T)和$\mathfrak{b}$上。从$L(G) =\mathfrak{b}+ L(T)$开始，我们有$L(f) =\varphi$。
+如果$f: G\rightarrow H$是李群的态射，使得$L(f) =\varphi$，$f$到T的限制$f_T$是从T到H的唯一态射，使得$L(f_T) =\varphi |L(T)$。相反，令 $f_T: T\rightarrow H$ 为李群的态射，使得 $L(f_T) =\varphi |L(T)$。令$\widetilde{D}(G)$和$p$如上； 映射$L(p)$诱导同构从$L( \widetilde{D}(G))$到L(G)的派生代数$\mathfrak{b}$。存在李群 $\widetilde{f}: \widetilde{D}(G)\rightarrow H$ 中的态射，使得 $L( \widetilde{f}) = (\varphi |\mathfrak{b})\circ L(p)$（第 III, §6, no. 1，第 1 章）。从$\widetilde{T}$到H诱导的态射$t \rightarrow \widetilde{f}(t)$和$t \rightarrow f_T(p(t))$与李代数相同的同态，因此重合。 应用引理 2，我们推导出态射$f: G\rightarrow H$的存在性使得$L(f)$和$\varphi$重合在L(T)和$\mathfrak{b}$上。从$L(G) =\mathfrak{b}+ L(T)$开始，我们有$L(f) =\varphi$。
 
 #### 命题 9 {#lie-ix-s2-prop-9 .statement tag=01AQ}
 
@@ -323,4 +323,4 @@ b) *$H$是连通的当且仅当$\mathrm{W}_{G}(\mathrm{T})$的每个元素在$H$
 
 ### 习题{#lie-ix-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

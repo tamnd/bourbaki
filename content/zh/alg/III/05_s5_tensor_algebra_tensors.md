@@ -38,27 +38,27 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: b4a04cec10ebe312d9cf93931e571ebb82d447453b97cc2efe90b422b81ec2b9
+content_sha256: e2d11a13e9e9dc60ae11ff1e538dca5d42ae6daae19b627086d5dd4270ad5cf1
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
 translation_method: google
 source_content_sha256: d99f913e6231ffa43f0356d794c4b307be8a5cb9b275a18c87c2f41e23c6d2fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 49bb204824de13b60ca72d29222c0d1ea59bcba3b0d05096dbbdfeb3e2e025d5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 张量代数、张量
 
-### 1. 张量代数模中的定义
+### 1. 定义张量代数模
 
-设 A 为交换环，M A-模。对于每个整数$n \geqslant 0$，$n$模的A-模张量积等于M（也称为M的第n个张量幂*）由$\bigotimes^n M$或$M^{\otimes n}$表示，或$T^n(M)$、或$T^n_A(M)$、或$\mathrm{Tens}^n(M)$；然后$T^1(M) = M$；我们也写$T^0(M) = A$。 A-模 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ 用$T(M)$ 或$\mathrm{Tens}(M)$ 表示。我们将在$T(M)$上对型$\mathbf{N}$进行定义分级A-代数结构，通过定义整数$p \geqslant 0, q \geqslant 0$、A-线性映射的每个有序对
+设 A 为交换环，M 为 A-模。对于每个整数$n \geqslant 0$，$n$模的A-模张量积等于M（也称为M的第n个张量幂*）由$\bigotimes^n M$或$M^{\otimes n}$表示，或$T^n(M)$、或$T^n_A(M)$、或$\mathrm{Tens}^n(M)$；然后$T^1(M) = M$；我们也写$T^0(M) = A$。 A-模 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ 用$T(M)$ 或$\mathrm{Tens}(M)$ 表示。我们将在$T(M)$上对型$\mathbf{N}$进行定义分级A-代数结构，通过定义整数$p \geqslant 0, q \geqslant 0$、A-线性映射的每个有序对
 $$
 m_{pq} : T^p(M) \otimes_A T^q(M) \to T^{p+q}(M)
 $$
-（$§ 3$、no. 1、*注*）。对于 $p > 0$ 和 $q > 0$，$m_{pq}$ 为结合性同构（II、$§ 3$、no. 9），并且，当 $p = 0$（或 $q = 0$）时，$m_{0,q}$ 为$A \otimes_A T^q(M)$的典范同构到$T^q(M)$（分别为$m_{p,0}$是$T^p(M) \otimes_A A$的典范同构到$T^p(M)$（II、$§ 3$、no. 4、命题4））。然后，对于$x_i \in M$，$\alpha \in A$，
+（$§ 3$、no. 1、*注*）。对于 $p > 0$ 和 $q > 0$，$m_{pq}$ 为结合性同构（II、$§ 3$、no. 9），当 $p = 0$（或 $q = 0$）时，$m_{0,q}$ 为$A \otimes_A T^q(M)$的典范同构到$T^q(M)$（$m_{p,0}$是$T^p(M) \otimes_A A$的典范同构到$T^p(M)$（II、$§ 3$、no. 4、命题4））。然后，对于$x_i \in M$，$\alpha \in A$，
 $$
 \begin{align}
 (x_1 \otimes \cdots \otimes x_p) \cdot (x_{p+1} \otimes \cdots \otimes x_{p+q}) &= x_1 \otimes \cdots \otimes x_p \otimes x_{p+1} \otimes \cdots \otimes x_{p+q} \\
@@ -69,7 +69,7 @@ $$
 
 #### 定义 1 {#alg-iii-s5-def-1 .statement tag=061H}
 
-对于$M$中超过交换环$A$、张量代数的每个模$M$，用$T(M)$、或$\mathrm{Tens}(M)$、或$T_A(M)$表示，则为代数 $\bigoplus_{n \geq 0} T^n(M)$ 与 (1) 中定义的乘法。 典范嵌入 $\phi : T^1(M) \to T(M)$ (II, § 1, no. 12)（也用$\phi_M$表示）被称为$M$的典范嵌入到$T(M)$。
+对于$M$中超过交换环$A$、张量代数的每个模$M$，用$T(M)$、或$\mathrm{Tens}(M)$、或$T_A(M)$表示，有代数 $\bigoplus_{n \geq 0} T^n(M)$ 与 (1) 中定义的乘法。 典范嵌入 $\phi : T^1(M) \to T(M)$ (II, § 1, no. 12)（也用$\phi_M$表示）被称为$M$的典范嵌入到$T(M)$。
 
 #### 命题 1 {#alg-iii-s5-prop-1 .statement tag=061I}
 
@@ -99,7 +99,7 @@ $$
 
 #### 命题 2 {#alg-iii-s5-prop-2 .statement tag=061K}
 
-令$A$为交换环、$M$和$N$两个$A$模块，并且
+设$A$为交换环、$M$和$N$两个$A$模块，并且
 $$
 u : M \to N
 $$
@@ -164,7 +164,7 @@ $$
 \mathbf{T}^n(u) : \mathbf{T}^n(M) \to \mathbf{T}^n(N)
 $$
 
-是满射的，正如使用 II, § 3, no. 6、命题 6 在 $n$ 上看到的归纳一样；后者命题还通过$n$上的归纳显示，$T^n(u)$的核$\mathfrak{I}_n$是乘积生成的$T^n(M)$的子模
+是满射的，如归纳在 $n$ 上使用 II, § 3, no. 6、命题 6 所见；后者命题还通过$n$上的归纳表明，$T^n(u)$的核$\mathfrak{I}_n$是乘积生成的$T^n(M)$的子模
 $$
 x_1 \otimes x_2 \otimes \cdots \otimes x_n
 $$
@@ -255,7 +255,7 @@ $$
 
 $M$ 的子空间 $N$ 据说与 $z$ *相关联。
 
-### 3. 标量的环中的扩张
+### 3. 标量的环的扩张
 
 令$A, A'$为两个交换环和$\rho : A \to A'$环同态。令$M$为$A$模，$M'$为$A'$模，$u : M \to M'$为$A$同态；因为典范嵌入 $\phi_{M'} : M' \to T_{A'}(M')$ 也是 $A$ 同态（通过标量的限制），合成 $M \xrightarrow{u} M' \xrightarrow{\phi_{M'}} T_{A'}(M')$ 也是如此。推导出$A$-代数同态$T_A(M) \to \rho^*(T_{A'}(M'))$（no. 2），也记为$T(u) : T_A(M) \to T_{A'}(M')$，这是唯一的$A$-同态渲染交换交换图表
 
@@ -295,7 +295,7 @@ $$
 i : M \to B \otimes_A M.
 $$
 
-由于$T^0(B \otimes_A M)$包含在$T(B \otimes_A M)$中的中心中，因此可以应用§ 4, no. 2中的命题 5个以及A-代数同态
+由于$T^0(B \otimes_A M)$包含在$T(B \otimes_A M)$中的中心中，因此可以应用§ 4, no. 2中的5个命题，并且A-代数同态
 
 $$
 \psi': B \otimes_A T(M) \to T(B \otimes_A M)
@@ -307,11 +307,11 @@ $$
 \psi'(\beta \otimes (x_1 \otimes x_2 \otimes \cdots \otimes x_n)) = \beta((1 \otimes x_1) \otimes (1 \otimes x_2) \otimes \cdots \otimes (1 \otimes x_n)),
 $$
 
-这立即表明 $\psi'$ 也是 B 代数同态。只需证明$\psi \circ \psi'$和$\psi' \circ \psi$分别在$B \otimes_A T(M)$和$T(B \otimes_A M)$上是恒等映射即可。现在，这两个代数是由$B \otimes_A M$生成的，显然是$\psi \circ \psi'$和$\psi' \circ \psi$重合与恒等映射在$B \otimes_A M$、从而的结论。
+这立即表明 $\psi'$ 也是 B 代数同态。只需证明$\psi \circ \psi'$和$\psi' \circ \psi$分别在$B \otimes_A T(M)$和$T(B \otimes_A M)$上是恒等映射即可。现在，这两个代数是由$B \otimes_A M$生成的，显然是$\psi \circ \psi'$和$\psi' \circ \psi$，重合和恒等映射对$B \otimes_A M$，从而的结论。
 
 ### 4. 直极限张量代数
 
-设$(A_\alpha, \phi_{\beta \alpha})$为交换环的有向直接系统和$A_\alpha$模块(II, § 6, no. 2)的$(M_\alpha, f_{\beta \alpha})$直接系统；让$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$，这是一个$A$模块。对于 $\alpha \leq \beta$，$A_\alpha$-代数同态 (no. 3, 公式 (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ 是从 $A_\alpha$-同态 $f_{\beta \alpha}: M_\alpha \to M_\beta$ 规范导出的，并且从 (9) (no. 3) 可以得出 $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ 是*$A_\alpha$-代数的直接系统*。另一方面，令 $f'_\alpha: M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；推导出$A_\alpha$-代数同态$f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ (no. 3, 公式 (8))，并且还可以从 (9) (no. 3) 得出$f'_\alpha$构成$A_\alpha$同态的直接系统。
+令$(A_\alpha, \phi_{\beta \alpha})$为交换环的有向直接系统和$A_\alpha$模块(II, § 6, no. 2)的$(M_\alpha, f_{\beta \alpha})$直接系统；让$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$，这是一个$A$模块。对于 $\alpha \leq \beta$，$A_\alpha$-代数同态 (no. 3, 公式 (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ 是从 $A_\alpha$-同态 $f_{\beta \alpha}: M_\alpha \to M_\beta$ 规范导出的，并且从 (9) (no. 3) 可以得出 $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ 是*$A_\alpha$-代数的直接系统*。另一方面，令 $f'_\alpha: M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；推导出$A_\alpha$-代数同态$f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ (no. 3, 公式 (8))，并且从 (9) (no. 3) 还可以得出，$f'_\alpha$ 构成 $A_\alpha$ 同态的直接系统。
 
 #### 命题 6 {#alg-iii-s5-prop-6 .statement tag=061Q}
 
@@ -323,41 +323,41 @@ $$
 g_\alpha: T_{A\alpha}(M_\alpha) \to E'
 $$
 
-是规范的$A_\alpha$同态。显然，复合 $A_\alpha$-线性映射 $M_\alpha \xrightarrow{\phi_{M_\alpha}} T_{A\alpha}(M_\alpha) \xrightarrow{g_\alpha} E'$ 形式直接系统，因此存在且仅有一个 $A$-线性映射 $u = \lim \rightarrow (g_\alpha \circ \phi_{M_\alpha}): M \to E'$ 使得
+是规范的 $A_\alpha$ 同态。显然，复合 $A_\alpha$-线性映射 $M_\alpha \xrightarrow{\phi_{M_\alpha}} T_{A\alpha}(M_\alpha) \xrightarrow{g_\alpha} E'$ 形式直接系统，因此存在且仅有一个 $A$-线性映射 $u = \lim \rightarrow (g_\alpha \circ \phi_{M_\alpha}): M \to E'$ 使得
 
 $$
 u \circ f_\alpha = g_\alpha \circ \phi_{M_\alpha}
 $$
 
-对于所有$\alpha$。这个映射本身将 (no. 1, 命题 1) 唯一分解为 $M \xrightarrow{\phi_M} E \to E'$，其中 $h$ 是 $A$ 代数同态。只要证明$h \circ f' = 1_{E'}$和$f' \circ h = 1_E$就足够了。
+对于所有$\alpha$。这个映射本身将（no. 1，命题1）唯一分解为$M \xrightarrow{\phi_M} E \to E'$，其中$h$是$A$代数同态。只要证明$h \circ f' = 1_{E'}$和$f' \circ h = 1_E$就足够了。
 
-为此注，对于每个指标 $\alpha$，(no. 3, 公式 (8))
+为此注，对于每一个指标$\alpha$，(no. 3，公式 (8))
 
 $$
 h \circ f'_\alpha \circ \phi_{M_\alpha} = h \circ \phi_M \circ f_\alpha = u \circ f_\alpha = g_\alpha \circ \phi_{M_\alpha}
 $$
 
-从而，由no. 1、命题 1 的唯一性断言，
+从而，由 no. 1、命题 1、唯一性断言、
 
 $$
 h \circ f'_\alpha = g_\alpha
 $$
 
-对于所有$\alpha$；由此可见，$(h \circ f') \circ g_\alpha = g_\alpha$对于所有$\alpha$，因此$h \circ f' = 1_{E'}$乘以定义或直极限。
+对于所有$\alpha$；由此可见，$(h \circ f') \circ g_\alpha = g_\alpha$ 对于所有 $\alpha$，因此 $h \circ f' = 1_{E'}$ 乘以定义的直极限。
 
-另一方面，凭借no. 3，公式 (8)，
+另一方面，凭借 no. 3，公式 (8)，
 
 $$
 f' \circ u \circ f_\alpha = f' \circ g_\alpha \circ \phi_{M_\alpha} = f'_\alpha \circ \phi_{M_\alpha} = \phi_M \circ f_\alpha,
 $$
 
-直极限定义又$f' \circ u = \phi_M$ 从而；我们将no. 1、命题 1 的$f' \circ h \circ \phi_M = \phi_M$和唯一性性质结论给出$f' \circ h = 1_E$。
+从而又$f' \circ u = \phi_M$由直极限的定义；我们将no. 1、命题 1 的$f' \circ h \circ \phi_M = \phi_M$和唯一性性质结论给出$f' \circ h = 1_E$。
 
-命题 6 也可以由注意到证明，对于每个整数 $n \geq 1$，都有一个规范的 $A$-模块同构 $\lim \rightarrow T^n_{A_\alpha}(M_\alpha) \to T^n_A(M)$，如下由 II, § 6, no. 3、命题的 $n$ 上的归纳表示7.立即验证这些同构是$f'$中的限制。
+命题 6 也可以由注意到证明，对于每个整数 $n \geq 1$，都有一个规范的 $A$ 模块同构 $\lim \rightarrow T^n_{A_\alpha}(M_\alpha) \to T^n_A(M)$，如下由 $n$ 上的归纳得出II, § 6, no. 3、命题 7、立即验证这些同构是$f'$中的限制。
 
-### 5.张量代数直和。 张量代数自由模。 张量代数已分级模
+### 5. 张量代数直和。 张量代数自由模。 张量代数已分级模
 
-令$A$为$A$模块族中的交换环和$M = \bigoplus_{\lambda \in L} M_\lambda$直和。从II, § 3, no. 7，命题 7，到$n$上的归纳，$T^n(M)$是子模直和典范嵌入像
+令$A$为$A$模块族中的交换环和$M = \bigoplus_{\lambda \in L} M_\lambda$直和。由II, § 3, no. 7、命题7、$n$上的归纳得出，$T^n(M)$是子模直和典范嵌入像
 
 $$
 M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n} \to T^n(M) = M^{\otimes n}
@@ -399,13 +399,13 @@ $M$ 是自由 $A$ 模块 $N$ (II, § 2, no. 2, 命题 4) 的直因子，因此 $
 
 #### 命题 7 {#alg-iii-s5-prop-7 .statement tag=061U}
 
-*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$T^{\alpha, n}(M)$为$T^n(M)$的子模$M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$的（直接的）和，使得$\sum_{i=1}^n \alpha_i = \alpha$；那么 $(T^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一分级，与 $T(M)$ 上的代数结构兼容，并在 $M = T^1(M)$ 上引入给定的分级。*
+*令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级$A$模，以及$(M_\alpha)_{\alpha \in \Delta}$其毕业。对于每个有序对$(\alpha, n) \in \Delta \times \mathbf{N}$，令$T^{\alpha, n}(M)$为$T^n(M)$的子模$M_{\alpha_1} \otimes M_{\alpha_2} \otimes \cdots \otimes M_{\alpha_n}$的（直接的）和，使得$\sum_{i=1}^n \alpha_i = \alpha$；那么 $(T^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ 是型 $\Delta \times \mathbf{N}$ 的唯一分级，与 $T(M)$ 上的代数结构兼容，并在 $M = T^1(M)$ 上引入给定的分级。*
 
-在本号的开头已经看到了。 $T(M)$是$T^{\alpha, n}(M)$的直和，并且这是与代数结构兼容的毕业事实，紧随定义而来。如果$({T'}^{\alpha, n})$是型$\Delta \times \mathbf{N}$在$T(M)$上的另一个分级，与代数结构兼容，并且${T'}^{\alpha, 1}(M) = {T'}^{\alpha, 1}$适用于$\alpha \in \Delta$，则立即从定义得出，对于所有$n \geq 1$ 以及所有 $\alpha \in \Delta$、$T^{\alpha, n}(M) \subset {T'}^{\alpha, n}$；但由于$T(M)$也是$T^{\alpha, n}(M)$的直和，这意味着${T'}^{\alpha, n} = T^{\alpha, n}(M)$（II, § 1, no. 8，*注*）。
+在本号的开头已经看到了。 $T(M)$ 是 $T^{\alpha, n}(M)$ 的直和，并且这是与代数结构兼容的毕业事实，紧随定义而来。如果$({T'}^{\alpha, n})$是型$\Delta \times \mathbf{N}$在$T(M)$上的另一个分级，与代数结构兼容，并且${T'}^{\alpha, 1}(M) = {T'}^{\alpha, 1}$适合$\alpha \in \Delta$，则立即从定义得出，对于所有$n \geq 1$ 以及所有 $\alpha \in \Delta$、$T^{\alpha, n}(M) \subset {T'}^{\alpha, n}$；但由于$T(M)$也是$T^{\alpha, n}(M)$的直和，这意味着${T'}^{\alpha, n} = T^{\alpha, n}(M)$（II, § 1, no. 8，*注*）。
 
-### 6.张量和张量记号
+### 6. 张量和张量记号
 
-令$A$为交换环，$M$为$A$模，$M^*$为$M$（II, § 2, no. 3）的*对偶*，以及$I$和$J$两个*不相交的有限* 集合； $A$-模块$\bigotimes_{i \in I \cup J} E_i$，其中，如果$i \in I$则为$E_i = M$，如果$i \in J$则为$E_i = M^*$，由$T^I_J(M)$表示； $T^I_J(M)$的元素在$M$上被称为型*$(I, J)$的*张量。如果 $J = \varnothing$，则称为“逆变”；如果 $I = \varnothing$，则称为“协变”；否则称为“混合”。
+令 $A$ 为交换环，$M$ $A$ 模，$M^*$ $M$ (II, § 2, no. 3) 的*对偶*，以及 $I$ 和 $J$ 两个 *不相交的有限* 集合； $A$-模块$\bigotimes_{i \in I \cup J} E_i$，其中，如果$i \in I$则为$E_i = M$，如果$i \in J$则为$E_i = M^*$，由$T^I_J(M)$表示； $T^I_J(M)$的元素在$M$上被称为型*$(I, J)$的*张量。如果 $J = \varnothing$，则称为“逆变”；如果 $I = \varnothing$，则称为“协变”；否则称为“混合”。
 
 令$I', I''$为$I$的两个子集和$J', J''$为$J$的两个子集，使得$I' \cup I'' = I$，
 
@@ -571,4 +571,4 @@ $$
 
 ### 习题{#alg-iii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

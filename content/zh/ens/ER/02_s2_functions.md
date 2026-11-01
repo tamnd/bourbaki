@@ -13,27 +13,27 @@ pdf_pages: 0356-0362
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b80045e0253cacbeaf23f1f64a4d71f50babce89e9d337192991125970db4d7d
+content_sha256: 4100355bca359e59303b5ec1b9cb57ff596429b6de7e96af082e52e5d22f6370
 translated_from: content/en/ens/ER/02_s2_functions.md
 translation_method: google
 source_content_sha256: e080ea464bff6a7c05c7dc505f506fc7d9e94e4178becde6cca23d33e3bb7827
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 1b7c741f686bcc98ce64a1ef55890ae6da0650af9992831611338be7b3a70745
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.函数
+## 2. 函数
 
-1. 设 E 和 F 为两个集合，它们可能不同，也可能不同。 E 的变量元素 $x$ 和 F 的变量元素 $y$ 之间的关系被称为 $y$ 中的*泛函关系，如果对于所有 $x \in E$，存在唯一的 $y \in F$，它在给定的关系中$x$.*
+1. 设 E 和 F 为两个集合，它们可能不同，也可能不同。 E 的变量元素 $x$ 和 F 的变量元素 $y$ 之间的关系称为 $y$ 中的*泛函关系，如果对于所有 $x \in E$，存在唯一的 $y \in F$，它在给定的关系中$x$.*
 
-我们将*函数*命名为运算，这样它就与给定的关系和$x$中的每个元素$x \in E$元素$y \in F$相关联； $y$ 被认为是函数在元素 $x$ 的 *值*，并且函数被认为是由给定函数关系 *确定*。两个*等效*功能关系确定*相同*函数。这样的函数被称为“在F中取其值”并“在E上定义”。更简单地说，它也被称为*E*到*F的*映射。
+我们将*函数*的名称赋予运算，这样它就与给定的关系和$x$中的每个元素$x \in E$元素$y \in F$相关联； $y$ 被认为是函数在元素 $x$ 的 *值*，而函数被认为是由给定函数关系 *确定*。两个*等效*功能关系确定*相同*函数。这样的函数被称为“在F中取其值”并“在E上定义”。更简单地说，它也被称为*E*到*F的*映射。
 
-2. 集合 E 的映射到集合 F 是一个新的集合的 *元素*，* E 的映射到 * F 的 *集合。如果 $f$ 是其中任意元素 E 的元素 $x$ 处的 $f$ 的集合、值通常用 $f(x)$ 表示。在某些情况下，记号 $f_x$（称为*指示* 记号；集合 E 则称为*指标* 集合）更可取。 关系“$y = f(x)$”是$y$中的泛函关系，其中确定$f$。
+2. 集合 E 的映射到集合 F 是新的集合的 *元素*，* E 的映射到 * F 的 *集合。如果 $f$ 是这个新的元素 E 的元素 $x$ 处的$f$ 集合、值通常用$f(x)$ 表示。在某些情况下，记号$f_x$（称为*索引*记号；集合E则称为*指标*集合）是更可取的。 关系“$y = f(x)$”是$y$中的泛函关系，即确定$f$。
 
-当形式$y = \langle x \rangle$的关系（其中$\langle x \rangle$表示$x$可能出现的符号组合）是$y$、函数中的泛函关系时，确定通常表示为记号 $x \rightarrow \langle x \rangle$，甚至简单的$\langle x \rangle$；这是非常公共的的语言滥用。对于例，如果X和Y是集合E的两个泛型子集，则关系$Y = \complement X$在Y中泛函；将$\mathfrak{P}(E)$的映射转化为$\mathfrak{P}(E)$，其中确定表示为$X \rightarrow \complement X$，或简称为$\complement X$。
+当形式 $y = \langle x \rangle$ 的关系（其中$\langle x \rangle$表示可能出现$x$的符号组合）是$y$中的泛函关系时，函数它的确定通常表示为记号$x \rightarrow \langle x \rangle$，甚至简单地$\langle x \rangle$；这是非常公共的的语言滥用。对于例，如果X和Y是集合E的两个泛型子集，则关系$Y = \complement X$在Y中泛函； $\mathfrak{P}(E)$的映射转化为$\mathfrak{P}(E)$，确定表示为$X \rightarrow \complement X$，或简称为$\complement X$。
 
 我们通常会更简单地说，“让$f: E \rightarrow F$”，而不是说“让$f$是E到F的映射”。
 
@@ -51,21 +51,21 @@ $$\begin{array}{ccccc}
 
 E 的映射到 F 之间的等式“$f = g$”的关系相当于关系“对于所有 $x \in \mathrm{E}, f(x) = g(x)$”。
 
-3. 函数，定义在集合 E上，对于E的每个元素$x$取相同的值$a$，称为E上的*常数*函数；它由函数关系$y = a$决定。
+3. 函数，定义在集合 E上，对于E的每一个元素$x$取相同的值$a$，称为E上的*常数*函数；它由函数关系$y = a$决定。
 
-E 的映射到 E 中，与 E 的每个元素 $x$ 相关联，这个相同的元素被称为*恒等* 映射。它由函数关系$y = x$决定。
+E 的映射到 E 中，与 E 的每个元素 $x$ 相关联，这个相同的元素被称为*恒等式* 映射。它由函数关系$y = x$决定。
 
-如果 A 是 E 的任何子集，A 到 E 的映射与 A 的每个元素 $x$ 关联，相同的元素 $x$ 被视为 E 的元素，称为 A 到 E 的*规范* 映射。
+如果 A 是 E 的任何子集，则 A 到 E 的映射与 A 的每个元素 $x$ 关联，相同的元素 $x$ 被视为 E 的元素，称为 A 到 E 的*规范* 映射。
 
 令 $f$ 为集合 E 的映射自身。如果 $f(x) = x$，E 的元素$x$ 被认为是*固定*（或*不变*）*低于*$f$。
 
-E 的元素 $x$ 被称为在 E 的映射集合到 E 下是*固定*（或*不变*），如果它在它们每个下都是固定的。
+E 的元素 $x$ 被认为是在 E 的映射的集合下“固定”（或“不变”）到 E 中，如果它在它们每个下都是固定的。
 
-4. 设$f$为E到F中的映射，并令X为E的任意子集。则*X*下*$f$的*像为所有元素的F由……组成的子集Y $y$，其中有性质“存在$x \in$ E，使得$x \in$X和$f(x) = y$”。
+4. 令$f$为E到F中的映射，并令X为E中的任意子集。则*X*下*$f$的*像为所有F由……组成的子集Y 元素$y$，其中性质“存在$x \in$E，使得$x \in$X和$f(x) = y$”。
 
-X和Y之间的定义关系在Y中起作用，因此$\mathfrak{P}(\mathrm{E})$的确定映射进入$\mathfrak{P}(\mathrm{F})$。这个映射被称为*$f$的*规范扩张*到子集的集合；*通过滥用语言，它也被表示为$f$，我们写为$\mathrm{Y} = f(\mathrm{X})$。
+这个X和Y之间的定义关系在Y中起作用，因此$\mathfrak{P}(\mathrm{E})$的确定映射进入$\mathfrak{P}(\mathrm{F})$。这个映射被称为*$f$*到子集的集合的*规范扩张；*通过滥用语言，它也被表示为$f$，我们写作$\mathrm{Y} = f(\mathrm{X})$。
 
-对于所有 $f$ 和 $x$ 我们有
+对于所有 $f$ 和 $x$，我们有
 
 $$f(\emptyset) = \emptyset \quad \text{and} \quad f(\{x\}) = \{f(x)\}.$$
 

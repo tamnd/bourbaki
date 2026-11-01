@@ -26,23 +26,23 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: e986f7e60fe2a604b4e3072d5f40307c7b81ec0c757fc522f19819dcc35ab5de
+content_sha256: 9cb20d0d1de2f0987418b38d66262461555c2cbc60bbf5a9be4c4fc7efe7cbc8
 translated_from: content/en/alg/V/08_s8_norms_and_traces.md
 translation_method: google
 source_content_sha256: c2e7557b98c678b7ab7b76840a046be64717fd2ef2e68d0dbcc702987b154e2d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 644f9c9f22fd0d68700b44659b1aee1b1857cc22e0996dea53f7d6fbd6348cd0
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 范数和痕迹
 
 在本段中，K 表示域。
 
-### 1.回忆
+### 1. 记起
 
 令 A 为 K 上的有限次数 $n$ 的代数。对于每个 $x \in A$，我们用 A 的 $L_x$ 线性映射 $a \mapsto xa$ 表示其自身。我们回想一下（III，p. 543），$L_x$的迹称为x相对于A的迹，记为$\mathrm{Tr}_{A/K}(x)$；同样，$L_x$的行列式称为x相对于A的范数，并用$N_{A/K}(x)$表示。 A 的 n 元素的序列 $(x_1, ..., x_n)$ 的判别式是由定义矩阵 $(\mathrm{Tr}_{A/K}(x_i x_j))_{1 \leq i,j \leq n}$ 的行列式$D_{A/K}(x_1, ..., x_n)$ (III，p. 549)。
 
@@ -149,7 +149,7 @@ K 中只有解 $A, = \cdots = A, = 0$。如果我们放入 $x = \sum_{i=1}^n \la
 
 根据命题1，条件是必要的。相反，假设存在$a \in E$使得$\mathrm{Tr}_{E/K}(a) \neq 0$。给定E中的$x \neq 0$，如果我们放入$y = a x'$，则$\mathrm{Tr}_{E/K}(xy) \neq 0$。现在，命题 1 表明 E 是 K 上的 etale 代数，因此是 K 的可分扩张。
 
-### 3. 范数以及扩张有限次数中的痕迹
+### 3. 范数以及有限次数扩张的痕迹
 
 代数（III，p. 548）中的传递性公式在扩张或有限次数的情况下意味着以下命题。
 
@@ -181,7 +181,7 @@ $$
 
 #### 引理 3 {#alg-v-s8-lem-3 .statement tag=06LG}
 
-设 R 为交换环、$f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ $\mathbf{R}[X]$、A R-代数 $\mathbf{R}[X]/(f)$ 和 A 中 X 的 x 剩余类类。然后是 $\text{Tr}_{A/R}(x) = -a_1$ 和 $\text{N}_{A/R}(x) = (-1)^d a_d$。
+令 R 为交换环、$f(X) = X^d + \sum_{i=1}^d a_i X^{d-i}$ $\mathbf{R}[X]$、A R-代数 $\mathbf{R}[X]/(f)$ 和 A 中 X 的 x 剩余类类。然后是 $\text{Tr}_{A/R}(x) = -a_1$ 和 $\text{N}_{A/R}(x) = (-1)^d a_d$。
 
 由科。 (IV, p. 11) 序列 $(1, x, ..., x^{d-1})$ 是 A 的基 ；进一步我们有
 $$
@@ -243,4 +243,4 @@ $$
 
 ### 习题{#alg-v-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

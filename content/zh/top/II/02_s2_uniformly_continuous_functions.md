@@ -41,21 +41,21 @@ subsections:
       pdf_page: 186
 statements: 27
 exercises: 6
-content_sha256: e34dc42e87bc362d90cde5147876dc139cc50c3df38a5038f422aee429fb0c3c
+content_sha256: 99c5d44dc8cbadd2c900be1d8584ae263854c8ef8e8d28aa8dc3c76c9cafeb5e
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
 translation_method: google
 source_content_sha256: 92b674d0f20d1a67ab0b8298e6f5a7fe7434487139d32666270aa426c8d22f2f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 70128667984cf28708867ad56aeb6870a804248efb6e197118036374282aba07
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.均匀连续函数
+## 2. 均匀连续函数
 
-### 1.均匀连续函数
+### 1. 均匀连续函数
 
 #### 定义 1 {#top-ii-s2-def-1 .statement tag=0BDH}
 
@@ -63,7 +63,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 在更具表现力的项中，如果$f(x)$和$f(y)$彼此尽可能接近，只要$x$和$y$足够接近，我们可以说$f$是一致连续的。
 
-如果我们放入$g = f \times f$，那么定义 1 意味着*只要$V'$是$X'$的随从，$\overline{g^{-1}}(V')$就是$X$的随从*。
+如果我们放入$g = f \times f$，那么定义 1 意味着*当$V'$是$X'$的随从时，$\overline{g^{-1}}(V')$是$X$的随从*。
 
 #### 例 1 {#top-ii-s2-n1-exa-1 .statement tag=0BDI}
 
@@ -99,7 +99,7 @@ no. 1的命题 2表明我们可以将结构均匀连续映射视为态射（集�
 
 #### 定义 2 {#top-ii-s2-def-2 .statement tag=0BDN}
 
-如果$\mathfrak{U}_1$和$\mathfrak{U}_2$是同一个集合X上的两个均匀结构，则$\mathfrak{U}_1$被称为更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$比$\mathfrak{U}_1$更粗糙）如果，由 $X_i$ 集合 X 与一致的结构 $\mathfrak{U}_i$ ($i = 1,2$) 表示，恒等映射 $X_1 \to X_2$ 是一致连续的。
+如果$\mathfrak{U}_1$和$\mathfrak{U}_2$是同一个集合X上的两个均匀结构，则$\mathfrak{U}_1$被称为更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$比$\mathfrak{U}_1$更粗糙）如果，用 $X_i$ 集合 X 表示，且一致结构 $\mathfrak{U}_i$ ($i = 1,2$)，恒等映射 $X_1 \to X_2$ 是一致连续的。
 
 如果$\mathfrak{U}_1$比$\mathfrak{U}_2$是更细并且与$\mathfrak{U}_2$不同，我们说$\mathfrak{U}_1$严格比更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$严格比$\mathfrak{U}_1$更粗糙）。
 
@@ -109,11 +109,11 @@ no. 1的命题 2表明我们可以将结构均匀连续映射视为态射（集�
 
 在集合X上有序的集合均匀度中，离散均匀度最好，最粗的均匀度是集合随行体由单个元素$X \times X$组成。
 
-下面的命题是定义 1 of no. 1的直接的推论：
+下面的命题是直接的推论定义1 no. 1：
 
 #### 命题 3 {#top-ii-s2-prop-3 .statement tag=0BDP}
 
-如果$\mathfrak{U}_1$和$\mathfrak{U}_2$是集合X上的两个一致，则$\mathfrak{U}_1$是更细比$\mathfrak{U}_2$当且仅当$\mathfrak{U}_2$的每个随行人员都是$\mathfrak{U}_1$的随行人员。
+如果 $\mathfrak{U}_1$ 和 $\mathfrak{U}_2$ 是集合 X 上的两个一致，则当且仅当 $\mathfrak{U}_2$ 的每个随行人员都是 $\mathfrak{U}_1$ 的随行人员时，$\mathfrak{U}_1$ 比 $\mathfrak{U}_2$ 更细。
 
 #### 推论{#top-ii-s2-n2-cor-1 .statement tag=0BDQ}
 
@@ -123,7 +123,7 @@ no. 1的命题 2表明我们可以将结构均匀连续映射视为态射（集�
 
 #### 注 1 {#top-ii-s2-n2-rem-1 .statement tag=0BDR}
 
-均匀性 $\mathfrak{U}_1$ 可能严格小于均匀性 $\mathfrak{U}_2$ 更细，但两个导出的拓扑是相同的。下面的例展示了这一点：
+可能会出现均匀性 $\mathfrak{U}_1$ 比均匀性 $\mathfrak{U}_2$ 严格为更细，但两个导出的拓扑是相同的。下面的例展示了这一点：
 
 令 $X$ 为非空集合。对于 $X$ 的每个有限划分 $\varpi = (A_i)_{1 \leq i \leq n}$，令 $V_{\overline{\varpi}}$ 表示
 $$
@@ -135,7 +135,7 @@ $$
 
 如果 $f : X \to X'$ 是均匀连续的映射，那么如果我们通过更细均匀性对 $X$ 进行替换的均匀性，并通过更粗略的均匀性（no. 1、命题 2）对 $X'$ 进行均匀连续处理，则 $f$ 保持均匀连续。在其他字、更细中，$X$的均匀度和$X'$的均匀度越粗糙，$X$到$X'$的映射越均匀连续。
 
-### 3. 初始统一性
+### 3. 初始均匀性
 
 #### 命题 4 {#top-ii-s2-prop-4 .statement tag=0BDT}
 
@@ -165,7 +165,7 @@ $$
 
 *令$X$为集合，令$(Z_i)_{i \in I}$为制服空间的族，令$(J_\lambda)_{\lambda \in L}$为$I$的划分，令$(Y_\lambda)_{\lambda \in L}$为由$L$索引的集合族。对于每个$\lambda \in L$，令$h_\lambda$为$X$到$Y_\lambda$的映射；对于每个$\lambda \in L$和每个$i \in J_\lambda$，让$g_{i\lambda}$是$Y_\lambda$的映射到$Z_i$；让$f_i = g_{i\lambda} \circ h_\lambda$。让每个$Y_\lambda$携带最粗糙的均匀结构，其中映射$g_{i\lambda}$（$i \in J_\lambda$）是均匀连续的。那么 $X$ 上 $f_i$ 均匀连续的最粗均匀结构与 $X$ 上 $h_\lambda$ 均匀连续的最粗均匀结构相同。*
 
-### 4. 逆像均匀性；制服子空间
+### 4. 逆像统一性；制服子空间
 
 令$X$为集合，$Y$将$X$统一为空间，$f$映射到$Y$。 $X$ 上的最粗均匀性$\mathfrak{U}$（其中$f$ 均匀连续）称为$Y$ 的均匀结构 $f$ 下的*逆像*。从no. 3的命题 4，以及从公式得出交的逆像，$Y$形式的随从的$g = f \times f$下的逆像是随从的基本系统 $\mathfrak{U}$。由$\mathfrak{U}$诱发的拓扑是$Y$的拓扑在$f$下的*逆像*（no. 3，命题4的推论）。
 
@@ -179,17 +179,17 @@ $$
 
 #### 定义 3 {#top-ii-s2-def-3 .statement tag=0BDX}
 
-令$A$为均匀空间$X$的子集。 $A$上的均匀性，其周围的集合是$X$的周围的集合在$A \times A$上的迹，称为由$X$的均匀性在$A$上引起的均匀性。
+令$A$为均匀空间$X$的子集。 $A$上的均匀性，其周围的集合是$X$的周围的集合在$A \times A$上的迹，称为$X$的均匀性在$A$上引起的均匀性。
 
-由$A$上的均匀性诱发的拓扑与$X$的拓扑在$A$上诱发的拓扑相同； 集合 $A$，与$X$的均匀性和拓扑一起，称为$X$的均匀性子空间。
+由$A$上的均匀性诱发的拓扑与$X$的拓扑在$A$上诱发的拓扑相同； 集合$A$，与$X$的均匀性和拓扑一起，称为$X$的均匀性子空间。
 
-如果 $A$ 是均匀连续空间 $X$ 的子集并且 $f : X \to X'$ 是均匀连续映射，则限制 $f|A$ 是 $A$ 均匀连续映射 $X'$。如果$A' \subset X'$使得$f(X) \subset A'$，则$X$的映射进入$X'$的均匀子空间$A'$，与$f$具有相同的图，再次一致连续（no. 3，命题 4）。
+如果 $A$ 是均匀连续空间 $X$ 的子集并且 $f : X \to X'$ 是均匀连续映射，则限制 $f|A$ 是 $A$ 均匀连续映射 $X'$。如果$A' \subset X'$使得$f(X) \subset A'$，则$X$的映射进入$X'$的均匀子空间$A'$，与$f$具有相同的图，再次一致连续（no. 3，命题 4).
 
 如果$B \subset A \subset X$，则$X$的制服子空间$B$与$X$的制服子空间$A$的制服子空间$B$相同（诱导制服的传递性） 结构；no. 3，命题5)。
 
 #### 命题 6 {#top-ii-s2-prop-6 .statement tag=0BDY}
 
-令$A$为均匀空间$X$的稠密子集。然后，在$X \times X$，关闭了制服子空间$A$形式的随行人员，以及$X$随行人员的基本系统。
+令 $A$ 为均匀空间 $X$ 的密集子集。然后，在$X \times X$，制服子空间$A$形式的随行人员关闭，这是$X$随行人员的基本系统。
 
 $A \times A$ 在 $X \times X$ 中稠密（章 I, § 4, no. 3、命题 7）。令$V$为$A$的开放随从；它是交 $A \times A$ 以及开放的随从$U$ $X$。我们有$U \subset \overline{V}$（章I, § 1, no. 6，命题5），鉴于§ 1, no. 2，命题2的推论2，这个关系与$\overline{V} \subset \overline{U}$一起建立了命题。
 
@@ -197,17 +197,17 @@ $A \times A$ 在 $X \times X$ 中稠密（章 I, § 4, no. 3、命题 7）。令
 
 集合$X$上的每个$(\mathfrak{U}_i)_{i \in I}$制服系列在$X$上所有制服的有序集合中至少有上界$\mathfrak{U}$；我们只需要no. 3中的应用命题 4，将$Y_i$视为集合$X$，均匀性为$\mathfrak{U}_i$，将$f_i$视为恒等映射$X \to Y_i$。由$\mathfrak{U}$引起的拓扑只是由$\mathfrak{U}_i$引起的拓扑中最小的上界。
 
-从no. 3的命题4也可以得出，如果$X$不为空，并且$\mathfrak{U}_i$是$\mathfrak{U}_i$的随从过滤器，则$\mathfrak{U}$的随从过滤器是过滤器$\mathfrak{U}_i$中最小的上界（章） I, § 6, no. 2）。
+从no. 3的命题4也可以得出，如果$X$不为空且$\mathfrak{U}_i$是$\mathfrak{U}_i$的随从过滤器，则$\mathfrak{U}$的随从过滤器是过滤器$\mathfrak{U}_i$中最小的上界（章） I, § 6, no. 2）。
 
 #### 例 {#top-ii-s2-n5-exa-1 .statement tag=0BDZ}
 
-如果$\varpi$是非空集$X$的任何有限划分$(A_i)_{1 \leq i \leq n}$，则集合$V_\varpi = \bigcup_i (A_i \times A_i)$本身就构成了$X$上均匀性$\mathfrak{U}_\varpi$的基本系统（§ 1, no. 1， 例2); $X$ (no. 2, 注 1) 上的有限划分的均匀性是均匀性 $\mathfrak{U}_\varpi$ 中最小的上界。
+如果$\varpi$是非空集合$X$的任何有限划分$(A_i)_{1 \leq i \leq n}$，则集合$V_\varpi = \bigcup_i (A_i \times A_i)$本身就构成$X$上均匀性$\mathfrak{U}_\varpi$的基本随从系统（§ 1, no. 1， 例2); $X$ (no. 2, 注 1) 上的有限划分的均匀性是均匀性 $\mathfrak{U}_\varpi$ 中最小的上界。
 
 #### 注 {#top-ii-s2-n5-rem-1 .statement tag=0BE0}
 
-$X$上的均匀性族$(\mathfrak{U}_i)$在$X$上所有均匀性的有序集合中也有下确界，即$X$上所有均匀性的集合中最小的上界，其比每个$\mathfrak{U}_i$更粗糙（例如存在均匀性，因为 $X$ 上的所有均匀性中的集合至少有元素）。但是（假设$X$不为空）这种一致性的随行过滤器不一定是$\mathfrak{U}_i$的随行过滤器的交，因为后者过滤器不需要满足公理$(U_{III})$（习题4）。
+$X$上的均匀度族$(\mathfrak{U}_i)$在$X$上所有均匀度的有序集合中也有下确界，即$X$上所有均匀度的集合中最小的上界，它们比每个$\mathfrak{U}_i$更粗糙（例如存在均匀性，因为 $X$ 上的所有均匀性中的集合至少有元素）。但是（假设$X$不为空）这种一致性的随行过滤器不一定是$\mathfrak{U}_i$的随行过滤器的交，因为后者过滤器不需要满足公理$(U_{III})$（习题4）。
 
-### 6.制服乘积空间
+### 6. 制服乘积空间
 
 #### 定义 4 {#top-ii-s2-def-4 .statement tag=0BE1}
 
@@ -215,8 +215,8 @@ $X$上的均匀性族$(\mathfrak{U}_i)$在$X$上所有均匀性的有序集合�
 $$
 X = \prod_{i \in I} X_i
 $$
-*具有最粗的均匀性，投影* $pr_i : X \to X_i$
-* 是均匀连续的。这个均匀度被称为* $X_i$的均匀度的乘积，*和* $X$的均匀度空间* $X_i$ *被称为因子。
+*具有最粗的均匀度，投影* $pr_i : X \to X_i$
+* 是均匀连续的。这个均匀度被称为* $X_i$的均匀度的乘积，*和均匀度空间* $X_i$ *被称为* $X$的因子。
 
 由$X$上的乘积均匀性引起的拓扑与$X_i$拓扑的乘积相同（no. 3，命题4的推论）。
 
@@ -228,7 +228,7 @@ $$
 
 #### 推论{#top-ii-s2-n6-cor-1 .statement tag=0BE3}
 
-*令* $(X_i)_{i \in I}, (Y_i)_{i \in I}$ *为制服空间的两个系列，由相同的集合* $I$索引。 *对于每个*$i \in I$，*令*$f_i$*成为*$X_i$*的映射*进入*$Y_i$。 *如果* $f_i$ *中的每一个都是均匀连续的，那么乘积映射*
+*令* $(X_i)_{i \in I}, (Y_i)_{i \in I}$ *为制服空间的两个系列，由相同的集合* $I$索引。 *对于每个*$i \in I$，*让*$f_i$*成为*$X_i$*的映射*进入*$Y_i$。 *如果* $f_i$ *中的每一个都是均匀连续的，那么乘积映射*
 $$
 f : (x_i) \to (f_i(x_i)).
 $$
@@ -270,12 +270,12 @@ $$
 
 #### 命题 10 {#top-ii-s2-prop-10 .statement tag=0BE7}
 
-令$I$为有向集合，令$(X_\alpha, f_{\alpha\beta})$为由$I$索引的统一空间的逆系，并令$J$为$I$的共尾子集。对于每个$\alpha \in I$，令$f_\alpha$为$X = \varprojlim X_\alpha$到$X_\alpha$的典范映射，并令$g_\alpha$表示$f_\alpha \times f_\alpha$。那么集合$\overline{g}_\alpha^{-1}(V_\alpha)$的家族，其中$\alpha$贯穿$J$，并且对于每个$\alpha \in J$，$V_\alpha$贯穿$X_\alpha$随行人员的基本系统，是随行人员的基本系统 $X$。
+令$I$为有向集合，令$(X_\alpha, f_{\alpha\beta})$为由$I$索引的均匀空间的逆系，并令$J$为$I$的共尾子集。对于每个$\alpha \in I$，令$f_\alpha$为$X = \varprojlim X_\alpha$到$X_\alpha$的典范映射，并令$g_\alpha$表示$f_\alpha \times f_\alpha$。那么集合$\overline{g}_\alpha^{-1}(V_\alpha)$的家庭，其中$\alpha$贯穿$J$，并且对于每个$\alpha \in J$，$V_\alpha$贯穿$X_\alpha$随行人员的基本系统，是随行人员的基本系统 $X$。
 
 我们把证明留给读者；它是证明 of 命题 9 of 章 I, § 4, no. 4 的直接改编。
 
-最后，由$X_\alpha$均匀性的逆极限在$X = \varprojlim X_\alpha$上导出拓扑是$X_\alpha$拓扑的逆极限。
+最后，由$X_\alpha$均匀性的逆极限在$X = \varprojlim X_\alpha$上导出的拓扑是$X_\alpha$拓扑的逆极限。
 
-### 习题 {#top-ii-s2-exercises}
+### 习题{#top-ii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

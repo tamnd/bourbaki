@@ -37,28 +37,28 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 35
-content_sha256: c53b9f9ccca2598757991b69ecea43d8f556a41942be749e6af89f063bfcf519
+content_sha256: 89f0c64d6e9fe0d827afdae85b4ca45d826255b546492015737a1c956a76c0f2
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
 translation_method: google
 source_content_sha256: 412a1eb43c414ef74369ccfcd275c3769490e226305405794c9a0f41eee4ebea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 32bc3b2b0d4af384fd2da527b3b21df4a1fd2d262d7db2a4f6d6a3d0a6b105a2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2.初等分解
+## 2. 初等分解
 
 ### 1. 主要 S B 模块
 
 #### 命题 1 {#ac-iv-s2-prop-1 .statement tag=04KE}
 
-令 $A$ 为诺特环且 $M$ 为 $A$ 模块。以下条件是等效的：
+令$A$为诺特环且$M$为$A$模块。以下条件是等效的：
 (a) $\operatorname{Ass}(M)$ 减少为单个元素。
 
-(b) $M \neq 0$ 和$M$ 的每个位似要么是单射的，要么是几乎幂零的（$§ 1$，no. 4）。 *如果*满足这些条件，并且$p$是$a \in A$的集合，使得位似$a_M$几乎为零，则$\operatorname{Ass}(M) = \{p\}$。
+(b) $M \neq 0$ 和 $M$ 的每个位似要么是单射的，要么是几乎幂零的（$§ 1$，no. 4）。 *如果*这些条件满足并且$p$是$a \in A$的集合，使得位似$a_M$几乎为零，则$\operatorname{Ass}(M) = \{p\}$。
 
 这紧接着从$§ 1$、no. 4，推论到命题 9 和no. 1，推论 2 到命题 2。
 
@@ -68,9 +68,9 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 当没有歧义时，我们简单地说$Q$是“p-primary”或“primary”；显然，对于 $N$ 包含 $Q$ 中的每个子模 $N' \neq Q$，$Q$ 是 $N'$ 中的 p 主色。
 
-定义 1 特别适用于$N = A$的情况； $N$的子模是$A$的*理想*，因此，如果$\operatorname{Ass}(A/q)$有一个元素，或者，如果$A \neq q$和每个除子，则$A$的理想$q$被称为*主要* 环 $A/q$ 中的零 *幂幂*。如果 $q$ 是 p 主色，则从定义 1 可以得出，$p$ 是理想 $q$ 的*根式*（章 II、$§ 2$、no. 6）。
+定义 1 特别适用于$N = A$的情况； $N$的子模是$A$的*理想*，因此如果$\operatorname{Ass}(A/q)$有一个元素，那么$A$的理想$q$被称为*主要*，或者，如果$A \neq q$和每个除子环 $A/q$ 中的零 *幂幂*。如果 $q$ 是 p 基数，则从定义 1 可以得出，$p$ 是理想 $q$ 的*根式*（章 II、$§ 2$、no. 6）。
 
-#### 注{#ac-iv-s2-n1-rem-1 .statement tag=04KG}
+#### 注 {#ac-iv-s2-n1-rem-1 .statement tag=04KG}
 
 令 $q$ 为 $A$-模块 $N$ 的 p-primary 子模。如果$N/Q$是*有限生成的*，则存在整数$k > 0$，使得$p^k N \subset Q$乘以$§ 1$、no. 4、命题9。
 
@@ -124,9 +124,9 @@ $$
 
 （§ 1, no. 2，命题 5 的推论），因此$S^{-1}(M/N) = 0$（§ 1, no. 1，推论 1 到命题 2），从而 $S^{-1}M/S^{-1}N = 0$。
 
-(ii) 假设$p \cap S = \varnothing$。如果 N 相对于 M 是 p-primary，则 $\operatorname{Ass}_{S^{-1}A}(S^{-1}(M/N)) = \{S^{-1}p\}$（§ 1, no. 2，命题 5 的推论），因此 $S^{-1}M$ 的子模 $N' = S^{-1}N$ 是 $(S^{-1}p)$-primary；此外，如果$s \in S$和$m \in M$使得$sm \in N$，则$m \in N$，对于M/N中比s为单射的位似来说，从而$N = i_1(N')$（章II, § 2, no. 4，命题10）。相反，令$N'$为$S^{-1}M$的子模，它相对于$S^{-1}M$是$(S^{-1}p)$主要的；让我们写$N = i_1(N')$；然后$N' = S^{-1}N$（章II, § 2, no. 4，命题10）和$\operatorname{Ass}_{S^{-1}A}(S^{-1}(M/N)) = \operatorname{Ass}_{S^{-1}A}((S^{-1}M)/N') = \{S^{-1}p\}$。由于典范映射$M/N \to S(M/N)$是单射的，与M/N相关的A的素理想不满足S（§ 1, no. 2，命题6）；由此得出 $\operatorname{Ass}(M/N) = \{p\}$（§ 1, no. 2，命题 5 的推论），因此 N 相对于 M 是 p 主的。
+(ii) 假设$p \cap S = \varnothing$。如果 N 相对于 M 是 p-primary，则 $\operatorname{Ass}_{S^{-1}A}(S^{-1}(M/N)) = \{S^{-1}p\}$（§ 1, no. 2，命题 5 的推论），因此 $S^{-1}M$ 的子模 $N' = S^{-1}N$ 是 $(S^{-1}p)$-primary；此外，如果$s \in S$和$m \in M$使得$sm \in N$，则$m \in N$，对于M/N中比率s为单射的位似来说，从而$N = i_1(N')$（章II, § 2, no. 4，命题10）。相反，令$N'$为$S^{-1}M$的子模，它相对于$S^{-1}M$是$(S^{-1}p)$主要的；让我们写$N = i_1(N')$；然后$N' = S^{-1}N$（章II, § 2, no. 4，命题10）和$\operatorname{Ass}_{S^{-1}A}(S^{-1}(M/N)) = \operatorname{Ass}_{S^{-1}A}((S^{-1}M)/N') = \{S^{-1}p\}$。由于典范映射 $M/N \to S(M/N)$ 是单射的，因此与 M/N 相关的 A 素理想不满足 S (§ 1, no. 2, 命题 6)；由此可知 $\operatorname{Ass}(M/N) = \{p\}$（§ 1, no. 2，命题 5 的推论），因此 N 相对于 M 是 p 主的。
 
-### 2.初等分解的存在
+### 2. 初等分解的存在
 
 #### 定义 2 {#ac-iv-s2-def-2 .statement tag=04KO}
 
@@ -138,7 +138,7 @@ $$
 $$
 n\mathbf{Z} = (p_1^{\alpha_1}\mathbf{Z}) \cap \ldots \cap (p_k^{\alpha_k}\mathbf{Z})
 $$
-是 $\mathbf{Z}$ 中的 $n\mathbf{Z}$ 初等分解乘以 no. 1 的例 4。
+是$\mathbf{Z}$中$n\mathbf{Z}$的初等分解除以no. 1的例4。
 
 滥用语言，关系$N = \bigcap_{i \in I} \mathscr{Q}_i$在$M$中被称为$N$的初等分解。这相当于说$\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$是$M/N$中$\{0\}$的初等分解。如果$(\mathscr{Q}_i)_{i \in I}$是$M$中$N$的初等分解，则从$M/N$到$\bigoplus_{i \in I} (M/\mathscr{Q}_i)$的典范映射是单射的。相反，让$N$是$M$和$f$单同态的子模，从$M/N$到有限的直和$P = \bigoplus_{i \in I} P_i$，其中每个集合$\operatorname{Ass}(P_i)$都减少为单个元素$p_i$；令$f_i$为同态$M/N \to P_i$，将合成减去投影$P \to P_i$，令$Q_i/N$为核；那么与$M$不同的$Q_i$对于$M$（no. 1，定义1）和$N = \bigcap_{i \in I} Q_i$来说是主要的。此外，$\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$凭借§ 1, no. 1、命题3。
 
@@ -156,7 +156,7 @@ $$
 
 #### 定义 3 {#ac-iv-s2-def-3 .statement tag=04KR}
 
-令$M$为模超过诺特环和$N$子模除$M$。如果满足以下条件，则$M$中的$N$的初等分解$N = \bigcap_{i \in I} Q_i$称为约简：
+令 $M$ 为模超过诺特环和 $N$ 子模 $M$。如果满足以下条件，则$M$中的$N$的初等分解$N = \bigcap_{i \in I} Q_i$称为缩减：
 
 (a) *不存在指标* $i \in I$ *使得* $\bigcap_{j \neq i} Q_j \subset Q_i;$
 
@@ -189,17 +189,17 @@ $$
 
 令$A$为诺特环，$M$为$A$模，$M$的$N$子模以及$M$中$N$的$(Q_i)_{i \in I}$初等分解。然后$\mathrm{Card}(I) \geq \mathrm{Card}(\mathrm{Ass}(M/N))$；为了使$(Q_i)_{i \in I}$减少为初等分解，$\mathrm{Card}(I) = \mathrm{Card}(\mathrm{Ass}(M/N))$是必要且充分的。
 
-从命题 4 之前的注可知，$M$中存在$N$的减少初等分解$(R_j)_{j \in J}$，使得$\mathrm{Card}(J) \leq \mathrm{Card}(I)$；第一个断言紧接着第二个断言，后者是命题4的推论。
+从命题 4 之前的注可知，$M$ 中存在 $N$ 的减少的初等分解 $(R_j)_{j \in J}$，使得 $\mathrm{Card}(J) \leq \mathrm{Card}(I)$；第一个断言紧接着第二个断言，后者是命题4的推论。
 
 #### 命题 5 {#ac-iv-s2-prop-5 .statement tag=04KU}
 
 令 $A$ 为诺特环，$M$ $A$ 模块，$M$ 的$N$ 子模，$N = \bigcap_{i \in I} Q_i$ $N$ 的缩减初等分解 $M$，对于所有$i \in I$，让$\{p_i\} = \mathrm{Ass}(M/Q_i)$。如果$p_i$是$\mathrm{Ass}(M/N)$的最小值元素，则$Q_i$等于$N$相对于$p_i$的饱和度（章11，§ 2, no. 4）（cf.习题2）。
 
-显然，我们可以将注意力限制在$N = 0$，替换（如果需要）是$M$乘$M/N$的情况。如果$p_i$在$\mathrm{Ass}(M)$、$\mathrm{Ass}(M)$的元素、集合中最小，且不满足$A - p_i$、约化至$p_i$；然后从上面的公式（3）和典范映射$M \to M_0$的§ 1, no. 2、命题6、核得出命题，等于0相对于$p_i$的饱和度（章11， § 2, no. 4）。
+显然，我们可以将注意力限制在$N = 0$、替换（如果需要）为$M$乘以$M/N$的情况。如果$p_i$在$\mathrm{Ass}(M)$、$\mathrm{Ass}(M)$的元素、集合中最小，且不满足$A - p_i$、约化至$p_i$；然后从上面的公式（3）和典范映射$M \to M_0$的§ 1, no. 2、命题6、核得出命题，等于0相对于$p_i$的饱和度（章11， § 2, no. 4）。
 
-#### 注{#ac-iv-s2-n3-rem-1 .statement tag=04KV}
+#### 注 {#ac-iv-s2-n3-rem-1 .statement tag=04KV}
 
-素理想$p_i \in \mathrm{Ass}(M/N)$不是这个集合的最小元素，是有时，称为与$M/N$相关的*沉浸*素理想；如果 $M/N$ 是有限生成的，对于要浸没的 $p_0 \in \mathrm{Ass}(M/N)$，$V(p_0)$ *不是* $\mathrm{Supp}(M/N)$ 的不可约分量是充分必要的（章 II, § 4, no. 3，推论 2 到命题 14）；如果$(Q(p))_{p \in \mathrm{Ass}(M/N)}$和$(Q'(p))_{p \in \mathrm{Ass}(M/N)}$是$M$中$N$的两个约初等分解，则可能是$Q'(p_0) \neq Q(p_0)$（习题24（c））； $M$中$N$的*规范*减少初等分解可以始终通过在其中出现的主要子模上施加补充条件来定义（习题4）。
+素理想$p_i \in \mathrm{Ass}(M/N)$不是这个集合的最小元素，是有时，称为与$M/N$相关的*沉浸*素理想；如果 $M/N$ 是有限生成的，对于要浸没的 $p_0 \in \mathrm{Ass}(M/N)$，$V(p_0)$ *不是* $\mathrm{Supp}(M/N)$ 的不可约分量是必要且充分的（章 II, § 4, no. 3，推论 2 到命题 14）；如果$(Q(p))_{p \in \mathrm{Ass}(M/N)}$和$(Q'(p))_{p \in \mathrm{Ass}(M/N)}$是$M$中$N$的两个约初等分解，则可能是$Q'(p_0) \neq Q(p_0)$（习题24（c））； $M$中$N$的*规范*减少初等分解可以始终通过在其中出现的主要子模上施加补充条件来定义（习题4）。
 
 ### 4. 初等分解的本地化
 
@@ -243,7 +243,7 @@ D_I(M/N) \to D_J(S^{-1}M/S^{-1}N)
 $$
 是主观的。
 
-### 5. 环和模 OF 有限长度
+### 5. 环和模有限长度
 
 如果$A$-模块$M$是有限长度，我们将用$\operatorname{long}_A(M)$或$\operatorname{long}(M)$来表示这个长度。回想一下，每个阿廷环都是诺特（代数，章VIII, § 6, no. 5，推论3到命题12），并且每个有限生成模超过阿廷环都是有限长度（*loc.cit.*，推论1到命题12）。 命题12）。此外，每个阿廷的整环都是域（代数，章VIII, § 6, no. 4，命题9）。
 
@@ -489,4 +489,4 @@ $$
 
 ### 习题{#ac-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

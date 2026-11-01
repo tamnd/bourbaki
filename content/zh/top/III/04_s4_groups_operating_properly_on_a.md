@@ -37,21 +37,21 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: e063fffe7b33248e3875b4d5d46e513a9cc1046bda10803ba5f4599501e362dc
+content_sha256: eb44b0ebd1891b06a4e34dfb791a9a0c3d3a08bdb68eedb9abc99f4060f4b33f
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
 translation_method: google
 source_content_sha256: 2ea085e7d32aa31b87b7e5e944f3f6487ad556472cc1fd617b46f58ffb5fe66b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 5c2ce31120545ceb0bcd6fc0cba1eb4e0c0d1cc4f89bb13e07791a83cf980eaf
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 4. 群在拓扑空间上正确运行；拓扑群和空间与运算符的紧凑性
+## 4. 群在拓扑空间上正常运行；拓扑群和空间与运算符的紧凑性
 
-### 1. 群在拓扑空间上正确运行
+### 1. 群在拓扑上正常运行空间
 
 #### 定义 1 {#top-iii-s4-def-1 .statement tag=0BKR}
 
@@ -142,7 +142,7 @@ b) 是命题 1 的推论。对于 a)，由于 K 是紧的，所以 pr2 : (s, x) 
 
 设$C \subset X \times X$为$G$在$X$上定义的等价关系$R$的图；那么$C$是映射$\theta : (s, x) \to (x, s.x)$下$G \times X$的像。由于 $\theta$ 是正确的，$C$ 在 $X \times X$ 中闭合（章 I, § 10, no. 1，命题 1）。由于关系 $R$ 是开集 ($§ 2$, no. 4, 引理 2)，因此 $X/G$ 是 Hausdorff (章 I, § 8, no. 3, 命题 8)。
 
-现在假设 $G$ 是 Hausdorff。那么$X$的映射$x \to (e, x)$到$G \times X$是$X$到$G \times X$的闭子空间的同胚，因此是正确的（章I, § 10, no. 1，命题2）。如果我们把这个映射和$G \times X$的映射$(s, x) \to (x, s.x)$组合成$X \times X$，假设是正确的，我们得到$X$的真映射到$X \times X$，即对角线映射 $x \to (x, x)$。因此，$X \times X$的对角线$\Delta$在$X$中闭合，因此$X$是Hausdorff。
+现在假设 $G$ 是 Hausdorff。那么$X$的映射$x \to (e, x)$到$G \times X$是$X$到$G \times X$的闭子空间的同胚，因此是正确的（章I, § 10, no. 1，命题2）。如果我们将这个映射与$G \times X$的映射$(s, x) \to (x, s.x)$组合成$X \times X$，其中假设是正确的，我们得到$X$的真映射到$X \times X$，即对角线映射 $x \to (x, x)$。因此，$X \times X$的对角线$\Delta$在$X$中闭合，因此$X$是Hausdorff。
 
 #### 命题 4 {#top-iii-s4-prop-4 .statement tag=0BL2}
 
@@ -160,7 +160,7 @@ $\theta : (s, x) \to (x, s.x)$下$\{ x \} \times X$的逆像为$G \times \{ x \}
 
 #### 注 {#top-iii-s4-n2-rem-1 .statement tag=0BL3}
 
-命题 4 表明，如果拓扑群 $G$ 在齐次空间 $G/H$ 上正确运行，则子群 $H$ 是拟紧的（因此如果 $G$ 是 Hausdorff，则也是紧的）。可以证明，这对于$G$在$G/H$（习题3）上正常运行来说也是足够的条件。
+命题 4 表明，如果拓扑群 $G$ 在齐次空间 $G/H$ 上正确运行，则子群 $H$ 是拟紧的（因此如果 $G$ 是 Hausdorff，则也是紧的）。可以证明，这也是 $G$ 在 $G/H$（习题 3）上正常运行的充分条件。
 
 #### 命题 5 {#top-iii-s4-prop-5 .statement tag=0BL4}
 
@@ -190,7 +190,7 @@ $$
 
 相对于$U$分别收敛到$y_0$和$x_0$。由此可知$(s, x) \to \varphi(s).\psi(x)$和$(s, x) \to \psi(x)$相对于$U$收敛。由于$G'$在$X'$上正确运行，这意味着（no. 1）$(s, x) \to \varphi(s)$相对于$U$收敛到点$s'_0 \in G'$。由于$\varphi$是正确的，我们推断(章I, § 10, no. 2,定理1)$(s, x) \to s$相对于$U$收敛到点$s_0 \in G$。 $X$中极限的唯一性则显示$y_0 = s_0 x_0$，因此$G$在$X$（no. 1）上正常运行。
 
-### 3. 群在拓扑空间上自由运行
+### 3. 群在拓扑上自由操作空间
 
 #### 定义 2 {#top-iii-s4-def-2 .statement tag=0BL5}
 
@@ -210,7 +210,7 @@ $$
 
 集合$C$是$G \times X$的映射$\theta : (s, x) \to (x, s.x)$到$X \times X$的像。 我们知道 (章 I, § 10, no. 1, 命题 2) $\theta$ 是正确的当且仅当 $C$ 在 $X \times X$ 内闭，且（如果 $\theta'$ 表示映射 $\theta$ 被视为 $G \times X$ 的映射） $C$) $\theta'$ 是同胚。 现在假设意味着$\theta'$是双射并且它的逆是映射$(x, y) \to (\varphi(x, y), x)$。 因此，当且仅当$\varphi$连续时，$\theta'$是同胚。
 
-### 4. 局部紧凑群正常运行
+### 4. 局部紧凑群运行正常
 
 #### 命题 7 {#top-iii-s4-prop-7 .statement tag=0BL8}
 
@@ -244,7 +244,7 @@ b) 典范映射 U/K_x → X/G 是 U/K_x 到 X/G 中 x 的类的开邻域的同�
 
 *如果我们假设在加法中$K_x = \{ e \}$，则点$x$有一个开邻域$U$，使得典范映射$X \to X/G$的限制到$U$是$U$到开的同胚子集共 $X/G$。*
 
-### 5. 群在局部紧凑空间上连续运行
+### 5. 群在局部紧凑上连续运行空间
 
 #### 命题 9 {#top-iii-s4-prop-9 .statement tag=0BLB}
 
@@ -262,7 +262,7 @@ b) 典范映射 U/K_x → X/G 是 U/K_x 到 X/G 中 x 的类的开邻域的同�
 
 *令$G$为在非空空间$X$上正常运行的豪斯多夫拓扑群。如果 $X$ 是紧致的（或局部紧致），那么 $G$ 和 $X/G$ 也是紧致的。*
 
-由假设、$G \times X$的映射$\theta : (s, x) \to (x, s.x)$变为$X \times X$为宜；如果 $X \times X$ 是紧致的（或局部紧致），则章 I、$§ 10$、no. 4 的命题 9 的推论表明 $G \times X$ 也是紧致的（或局部紧致），因此从 $X \neq \emptyset$ 开始，$G$ 也是紧致的。 由于 $X/G$ 是 Hausdorff (no. 2, 命题 3)，$X$ 的紧致性（或局部紧致性）意味着 $X/G$ 的紧致性（或局部紧致性）[章 I, $§ 10$, no. 4, 命题 8（分别） 命题 9)]（参见$§ 2$、习题 29）。
+由假设、$G \times X$的映射$\theta : (s, x) \to (x, s.x)$变为$X \times X$为宜；如果 $X \times X$ 是紧致的（或局部紧致），则章 I、$§ 10$、no. 4 的命题 9 的推论表明 $G \times X$ 也是紧致的（或局部紧致），因此从 $X \neq \emptyset$ 开始，$G$ 也是紧致的。 由于 $X/G$ 是 Hausdorff (no. 2, 命题 3)，$X$ 的紧致性（或局部紧致性）意味着 $X/G$ 的紧致性（或局部紧致性）[章 I, $§ 10$, no. 4, 命题 8（分别为命题 9）]（参见$§ 2$、习题 29）。
 
 现在我们给出判据，它允许我们断言豪斯多夫拓扑群$G$在局部紧致空间$X$上正确运行。对于子集 $K, L$ $X$ 中的每个对，我们用所有 $s \in G$ 中的 $P(K, L)$ 集合表示，使得$s.K \cap L \neq \emptyset$。
 
@@ -297,7 +297,7 @@ $G \times K$的映射$(s, x) \to s.x$到$X$是连续的，因此在这个映射�
 
 a) 如果G在X上正确运行，则$\rho_K$是正确的。
 
-b) 如果X是局部紧致的并且$\rho_K$适合X的每个紧致子集 K，则G在X上正确运行。
+b) 如果 X 是局部紧致的，并且 $\rho_K$ 对于 X 的每个紧致子集 K 是合适的，则 G 在 X 上正确运行。
 
 映射 $\rho_K$ 因式分解为 $G \times K \xrightarrow{\theta_K} K \times X \xrightarrow{\mathrm{pr}_2} X$，其中 $\theta_K$ 是 $G \times X$ 的映射 $\theta : (s, x) \to (x, s.x)$ 的限制到 $G \times K$ 到 $X \times X$。由于 $\theta^{-1}(K \times X) = G \times K$，如果 $\theta$ 是真值，则 $\theta_K$ 是真值（章 I, § 10, no. 1，命题 3）。另一方面，由于 K 是紧的，投影 $\mathrm{pr}_2 : K \times X \to X$ 是真值（章 I, § 10, no. 2，定理 1，推论 5），因此 $\rho_K$ 是真值（同上，no. 1，命题 5）。
 
@@ -305,7 +305,7 @@ b) 如果X是局部紧致的并且$\rho_K$适合X的每个紧致子集 K，则G�
 
 #### 推论{#top-iii-s4-n5-cor-1 .statement tag=0BLI}
 
-设 G 是在拓扑空间 X 上正常运行的豪斯多夫拓扑群。如果 K 是 X 的任何紧致子集，并且如果 F 是 G 的任何闭子集，则 F.K 在 X 中是闭的。
+令 G 为在拓扑空间 X 上正确运行的豪斯多夫拓扑群。如果 K 是 X 的任何紧致子集，并且如果 F 是 G 的任何闭子集，则 F.K 在 X 中是闭的。
 
 这是从命题 12 和章 I, § 10, no. 1、命题 1 得出的。
 
@@ -313,7 +313,7 @@ b) 如果X是局部紧致的并且$\rho_K$适合X的每个紧致子集 K，则G�
 
 #### 命题 13 {#top-iii-s4-prop-13 .statement tag=0BLJ}
 
-设 G 为局部紧致群，并令 H 为 G 的闭子群。则齐次空间 $G/H$ 为局部紧致和拟紧致。
+令 G 为局部紧致群，并令 H 为 G 的闭子群。则齐次空间 $G/H$ 为局部紧致和拟紧致。
 
 由于 $G/H$ 是 Hausdorff (§ 2, no. 5, 命题 13)，因此它是局部紧致的，通过 no. 5 的命题 9 应用于在右侧 G 上运算的 H。因此，仍然需要证明 $G/H$ 是仿紧的。令V为G中e的对称紧邻域，令$G_0 = V^\infty$为由V生成的G的子群。 $G_0$ 开放（§ 2, no. 1，命题 4 的推论）并在 $G/H$（§ 2, no. 5、命题 12）上持续运行。如果我们可以证明轨道$G_0.z \ (z \in G/H)$中的每一个都是$G/H$的开子集和紧集的可数并，那么$G/H$是不同的轨道$G_0.z$的*拓扑和*因此是仿紧的 (章 I, , no. 10, 定理 5)。 $G_0 . z$ 在 $G/H$ 中开路是因为 $G_0$ 在 $G$ 中开路并且等价关系 $x^{-1} y \in H$ 是开路（$\S 2$、no. 4、引理 2）。另一方面，$G_0 z$是集合$V^n . z$($n \geq 1$)的并，由于$V^n$在$G$中是紧的，并且$G/H$是Hausdorff，所以$V^n . z$是紧的。这样就完成了证明
 
@@ -339,8 +339,8 @@ $C$ 是$G$ ($§ 2$, no. 2, 命题 7) 的闭法线子群，因此$G/C$ 是局部�
 
 令 $C$ 为 $G$ 的恒等分量。 $G$的组成部分是集合$sC$，其中$s \in G$（$§ 2$，no. 2，命题7）； $\varphi(sC)$ 是明显相连的，因此 $\varphi(sC)$ 也是如此（章 I, $§ 11$, no. 1, 命题 1）。但是$\varphi(sC) = \varphi(sCH)$，并且由于$sCH$相对于由$H$定义的等价关系是饱和的，并且由于这个等价关系是开放的（§ 2, no. 4，引理2），所以我们有$\overline{\varphi(sCH)} = \varphi(\overline{sCH}) = \varphi(s.\overline{CH})$（章I, § 5, no. 3， 命题7)。
 
-把$L = CH$。 $L$是$G$的闭子群，其中包含$C$和$H$；因此，要证明集合$\varphi(s.L) = s.\varphi(L)$是$G/H$的组成部分，只需证明$G/H$除以等价关系的商空间，其中类是集合$s.\varphi(L)$是完全不连通的。现在这个商空间同态于齐次空间 $G/L$ (章 I, § 3, no. 4, 命题 7)；因此，当$C \subset H$时，我们被减少到证明，$G/H$*完全断开连接*。由于$G/H$可以与$(G/C)/(H/C)$（§ 2, no. 7，命题22）等同，我们甚至可以假设$G$本身是完全断开的。 $G/H$ 包含邻域形式 $\varphi(V)$ 中的$\varphi(e)$的每个邻域，其中$V$是$G$中$e$的邻域，因此（推论 1）形式 $\varphi(K)$ 的包含邻域，其中 $K$ 是 $G$ 的*紧凑开放* 子群。因此$\varphi(K)$在$G/H$中既开又闭，这表明$G/H$中$\varphi(e)$的分量仅由$\varphi(e)$组成。通过翻译，对于$G/H$的每一个点的分量也是如此，推论得证。
+把$L = CH$。 $L$是$G$的闭子群，其中包含$C$和$H$；因此，要证明集合$\varphi(s.L) = s.\varphi(L)$是$G/H$的组成部分，只需证明$G/H$与等价关系的商空间（其类是集合$s.\varphi(L)$）是完全不连通的。现在这个商空间同态于齐次空间 $G/L$ (章 I, § 3, no. 4, 命题 7)；因此，我们减少到证明，当$C \subset H$时，$G/H$*完全断开连接*。由于$G/H$可以与$(G/C)/(H/C)$（§ 2, no. 7，命题22）等同，我们甚至可以假设$G$本身是完全断开的。 $G/H$ 包含邻域形式 $\varphi(V)$ 中的$\varphi(e)$的每个邻域，其中$V$是$G$中$e$的邻域，因此（推论 1）包含邻域 of 形式 $\varphi(K)$，其中 $K$ 是$G$ 的*紧凑开放* 子群。因此$\varphi(K)$在$G/H$中既开又闭，这表明$G/H$中$\varphi(e)$的分量仅由$\varphi(e)$组成。通过翻译，对于$G/H$的每一个点的分量也是如此，推论得证。
 
 ### 习题{#top-iii-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

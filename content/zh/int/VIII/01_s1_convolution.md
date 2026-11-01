@@ -32,23 +32,23 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 37524fd945ed51adf2a01c7b17cbda22665f109e7f94bee5701cfc643b1efcfc
+content_sha256: 4ebb72a64c37ed2e2f57013aa0bcb6f2438077b6c834efb95508349ce400d0e0
 translated_from: content/en/int/VIII/01_s1_convolution.md
 translation_method: google
 source_content_sha256: cafcb1e20437900405f17cddf757448f37ab32581cc26e5e2a03bda1d34c2c66
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 34dbf3cd795775435f5f17a2d8911112d23702de64b98fbb83ea744ddd14a994
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。卷积
 
-### 1.定义和例
+### 1. 定义和例
 
-回想一下（第 V, §6，第 1 和第 4 章；第 VI, §2, No. 10），如果 X 和 Y 局部紧致空间，$\mu$ X 上的测度，以及$\varphi$ 映射 X 到 Y 中， $\varphi$ 被认为是 $\mu$-适当的，如果： a) $\varphi$ 是 $\mu$-可测的； b) 对于 Y 的每个紧凑子集 K，$\varphi^{-1}(K)$ 本质上是 $\mu$ 可积。则 Y 上的像测度$\nu = \varphi(\mu)$存在，并具有以下性质：对于 Y 上的函数 f，与 Banach 空间或$\overline{\mathbf{R}}$ 中的值，对于 $\nu$ 本质上可积，$f \circ \varphi$ 是充分必要的所以对于$\mu$，在这种情况下，
+回想一下（第 V, §6，第 1 和第 4 章；第 VI, §2, No. 10），如果 X 和 Y 局部紧致空间，$\mu$ X 上的测度，以及 X 的 $\varphi$ 映射进入 Y， $\varphi$ 被认为是 $\mu$-适当的，如果： a) $\varphi$ 是 $\mu$-可测的； b) 对于 Y 的每个紧凑子集 K，$\varphi^{-1}(K)$ 本质上是 $\mu$ 可积。那么 Y 上的像测度 $\nu = \varphi(\mu)$ 存在，并且具有以下性质：对于 Y 上的函数 f，其中值在 Banach 空间或$\overline{\mathbf{R}}$ 中，对于 $\nu$ 本质上可积，$f \circ \varphi$ 是所以对于$\mu$，在这种情况下，
 
 $$
 \int_Y f(y)\, d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
@@ -56,11 +56,11 @@ $$
 
 #### 定义 1 {#int-viii-s1-def-1 .statement tag=09I0}
 
-*令$X_1, \ldots, X_n$局部紧致空间，$\mu_i$对$X_i$（$1 \leq i \leq n$）的测度；设X为$X_i$的乘积，$\mu$为$\mu_i$的乘积。令 $\varphi$ 为 X 的映射成为局部紧致空间 Y。有人说序列 $(\mu_i)$ 是 $\varphi$ 可卷积的，或者 $\mu_1, \ldots, \mu_n$ 是 $\varphi$ 可卷积的，如果 $\varphi$是$\mu$-正确的；在这种情况下，$\varphi$下$\mu$的像$\nu = \varphi(\mu)$称为$\mu_i$对$\varphi$的卷积乘积，并表示为$*_{\varphi}(\mu_i)_{1 \leq i \leq n}$，或$*_{i=1}^n \mu_i$，或$\mu_1 * \mu_2 * \cdots * \mu_n$。
+*令$X_1, \ldots, X_n$局部紧致空间，$\mu_i$对$X_i$（$1 \leq i \leq n$）的测度；设X为$X_i$的乘积，$\mu$为$\mu_i$。令 $\varphi$ 为 X 的映射成为局部紧致空间 Y。有人说序列 $(\mu_i)$ 是 $\varphi$ 可卷积的，或者 $\mu_1, \ldots, \mu_n$ 是 $\varphi$ 可卷积的，如果 $\varphi$是$\mu$-正确的；在这种情况下，$\varphi$下$\mu$的像$\nu = \varphi(\mu)$称为$\mu_i$对$\varphi$的卷积乘积，并表示为$*_{\varphi}(\mu_i)_{1 \leq i \leq n}$、或$*_{i=1}^n \mu_i$、或$\mu_1 * \mu_2 * \cdots * \mu_n$。
 
-当然，只有当$\varphi$毫无疑问时才使用最后两个记号。
+最后两个记号当然只有在$\varphi$毫无疑问时才使用。
 
-设 f 为 Y 上的函数，值为 Banach 空间或 $\overline{\mathbf{R}}$。在阶中，f对于$\mu_1 * \cdots * \mu_n$本质上可积，函数是充分必要的
+设 f 为 Y 上的函数，值位于 Banach 空间或$\overline{\mathbf{R}}$ 中。在阶中，f对于$\mu_1 * \cdots * \mu_n$本质上是可积的，函数是充分必要的
 
 $$
 (x_1, \ldots, x_n) \mapsto f(\varphi(x_1, \ldots, x_n))
@@ -99,7 +99,7 @@ $$
 
 #### 例 {#int-viii-s1-n1-exa-1 .statement tag=09I1}
 
-— 1) 对于任何$\varphi$，测量$\varepsilon_{x_i}$（其中$x_i \in X_i$代表$1 \leq i \leq n$）始终是可卷积的，并且具有与$y = \varphi(x_1, x_2, \ldots, x_n)$的卷积乘积$\varepsilon_y$。因而，如果每个$\mu_i$都有有限支撑，那么$\mu_i$是可卷积的，并且$\mu_1 * \cdots * \mu_n$有有限支撑。特别地，令 $M$ 为幺半群$^1$，配备局部紧致拓扑；如果在$M$中取$\varphi$为合成的律，则$M$与有限支撑形式的测量，对于卷积，代数正是幺半群的*代数* $M$（超过$\mathbf{R}$或超过$\mathbf{C}$，根据考虑实际或复杂的措施）（A，III, §2, No. 6）。
+— 1) 对于任何$\varphi$，测量$\varepsilon_{x_i}$（其中$x_i \in X_i$代表$1 \leq i \leq n$）始终是可卷积的，并且具有与$y = \varphi(x_1, x_2, \ldots, x_n)$的卷积乘积$\varepsilon_y$。因而，如果每个$\mu_i$都有有限支撑，那么$\mu_i$是可卷积的并且$\mu_1 * \cdots * \mu_n$有有限支撑。特别地，令 $M$ 为幺半群$^1$，配备局部紧致拓扑；如果在$M$中取$\varphi$为合成的律，则$M$与有限支撑形式的测量，对于卷积，代数正是幺半群的*代数* $M$（超过$\mathbf{R}$或超过$\mathbf{C}$，根据考虑实际或复杂的措施）（A，III, §2, No. 6）。
 
 2) 令$M$为配备离散拓扑的幺半群；假设对于每个$m \in M$，只有有限多个对$(m', m'') \in M \times M$使得$m'm'' = m$；这等于说，$M$中合成的律是$M \times M$到$M$的真映射； $M$ 然后形式代数用于卷积，代数就是*总计*
 
@@ -113,9 +113,9 @@ $$
 S(\mu) = \sum_{n=0}^{\infty} \mu(\{n\}) t^n
 $$
 
-在不确定的 $t$ 中。然后$S(\mu * \mu') = S(\mu)S(\mu')$。类似的注适用于任何数不定式中的正式级数。
+在不确定的 $t$ 中。然后$S(\mu * \mu') = S(\mu)S(\mu')$。类似的注适用于任何数不定式中的形式级数。
 
-$*b)$$M = N^*$，合成中的律为乘法。对于$N^*$上的每一个小节$\mu$，让我们将形式狄利克雷级数联系起来
+$*b)$$M = N^*$，合成中的律为乘法。对于 $N^*$ 上的每一个小节 $\mu$，让我们关联正式的狄利克雷级数
 
 $$
 D(\mu) = \sum_{n=1}^{\infty} \mu(\{n\}) n^{-s}.
@@ -123,9 +123,9 @@ $$
 
 然后$D(\mu * \mu') = D(\mu)D(\mu')$。
 
-3) 让$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射变成$Z$。如果$x \in X$和$\mu$是$Y$的测度，则说$\varepsilon_x$和$\mu$是$\varphi$可卷积的，则说将$Y$的映射$\varphi(x, \cdot)$转化为说 $Z$ 是$\mu$-正确的。那么就有$\varepsilon_x * \mu = \varphi(x, \cdot)(\mu)$。
+3) 令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$。如果$x \in X$和$\mu$是$Y$的测度，则说$\varepsilon_x$和$\mu$是$\varphi$可卷积的，则说将$Y$的映射$\varphi(x, \cdot)$转化为说 $Z$ 是$\mu$-正确的。那么就有$\varepsilon_x * \mu = \varphi(x, \cdot)(\mu)$。
 
-### 2.结合性
+### 2. 结合性
 
 以下引理完成了第 11 章的命题 11。 V, §8, No. 5:²
 
@@ -201,7 +201,7 @@ $$
 
 #### 命题 2 {#int-viii-s1-prop-2 .statement tag=09I6}
 
-— 令 $X_1, \ldots, X_n, Y$ 为局部紧致空间，$\mu_i$ $X_i$ ($1 \leq i \leq n$) 上的有界测度，$\mu_i$ 的$\mu$ 乘积，$\varphi$ $\mu$ 可测映射 $\prod_{i=1}^n X_i$ 变成$Y$。那么 $\mu_i$ 是 $\varphi$ 可卷积的，并且
+— 令 $X_1, \ldots, X_n, Y$ 为局部紧致空间，$\mu_i$ $X_i$ ($1 \leq i \leq n$) 的有界测度，$\mu_i$ 的$\mu$ 乘积，$\varphi$ $\mu$ 可测映射 $\prod_{i=1}^n X_i$ 变成$Y$。那么 $\mu_i$ 是 $\varphi$ 可卷积的，并且
 $$
 \left\| *_{i=1}^n \mu_i \right\| \leq \prod_{i=1}^n \| \mu_i \|.
 $$
@@ -233,11 +233,11 @@ $\prod_{i=1}^n \mathscr{M}^1(X_i)$ 到 $\mathscr{M}^1(Y)$ 是连续多重线性�
 
 — 令$X_1, \ldots, X_n, Y$局部紧凑空间，$\mu_i$右$X_i$（$1 \leq i \leq n$）的测度，$S_i$其支持，$\varphi$将$\prod_i X_i$连续映射引入$Y$，使得$\varphi$到$\prod_i S_i$中的限制是合适的。那么 $\mu_i$ 是 $\varphi$ 可卷积的。
 
-例如，令 $K$ 为 $Y$ 的紧凑子集。 $\mu = \mu_1 \otimes \cdots \otimes \mu_n$ 的支持度是 $S = \prod_i S_i$（第 III, §4, No. 2 章，提案 2）。因而$\overline{\varphi}(K) \cap \left( \prod_i X_i - S \right)$是$\mu$-可以忽略不计。另一方面，$\overline{\varphi}(K) \cap S$ 是紧凑的。因而$\overline{\varphi}(K)$是$\mu$可积的。
+例如，令 $K$ 为 $Y$ 的紧致子集。 $\mu = \mu_1 \otimes \cdots \otimes \mu_n$ 的支持度是 $S = \prod_i S_i$（第 III, §4, No. 2 章，提案 2）。因而$\overline{\varphi}(K) \cap \left( \prod_i X_i - S \right)$是$\mu$-可以忽略不计。另一方面，$\overline{\varphi}(K) \cap S$ 是紧凑的。因而$\overline{\varphi}(K)$是$\mu$可积的。
 
 #### 命题 5 {#int-viii-s1-prop-5 .statement tag=09I9}
 
-*令$X_1, \ldots, X_n, Y$局部紧致空间，$\mu_i$右$X_i$（$1 \leq i \leq n$）、$\mu$乘积的测量$\mu_i$，$\varphi$$\mu$-适当的映射 $\prod_i X_i$转化为$Y$，以及$S_i$$\mu_i$的支持。
+*令$X_1, \ldots, X_n, Y$局部紧凑空间，$\mu_i$右$X_i$（$1 \leq i \leq n$）、$\mu$乘积的测量，$\mu_i$，$\varphi$$\mu$-适当的映射 $\prod_i X_i$转化为$Y$，以及$S_i$$\mu_i$的支持。
 
 a) *右$*_{i} \mu_i$的支持包含在$\varphi \left( \prod_i S_i \right)$的闭包中。*
 
@@ -249,11 +249,11 @@ b) *如果$\varphi$连续且$\mu_i$为正，那么$*_{i} \mu_i$的支撑就是$\
 
 *如果$\varphi$是连续的并且$\mu_i$有紧支撑，那么$\mu_i$是可卷积的并且$*_{i} \mu_i$有紧支撑。*
 
-### 5.卷积的向量表达乘积
+### 5. 卷积的向量表达乘积
 
 #### 命题 6 {#int-viii-s1-prop-6 .statement tag=09IB}
 
-*令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$，并在$X, Y$上测量$\lambda, \mu$。为了使$\lambda$和$\mu$可$\varphi$可卷积，$X \times Y$的映射$(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$进入$\mathscr{M}(Z)$对于拓扑$\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$可标量$(\lambda \otimes \mu)$可积，在这种情况下*
+*令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$，并在$X, Y$上测量$\lambda, \mu$。为了使 $\lambda$ 和 $\mu$ $\varphi$ 可卷积，$X \times Y$ 的映射 $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ 进入 $\mathscr{M}(Z)$ 对于拓扑 $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$ 是可标量$(\lambda \otimes \mu)$可积的，在这种情况下*
 
 $$
 \lambda * \mu = \int_{X \times Y} (\varepsilon_x * \varepsilon_y) \, d\lambda(x) \, d\mu(y).
@@ -269,7 +269,7 @@ $$
 
 #### 命题 7 {#int-viii-s1-prop-7 .statement tag=09IC}
 
-*令 X, Y, Z 局部紧致空间，$\varphi$ $X \times Y$ 的连续映射进入 Z，并且 $\lambda, \mu$ 在 X, Y 上进行测量。假设对于每个 $x \in X$，$\varepsilon_x$ 和 $\mu$ $\varphi$-可卷积。为了使$\lambda$和$\mu$能够$\varphi$可卷积，X的映射$x \mapsto \varepsilon_x * |\mu|$进入$\mathscr{M}(Z)$对于拓扑$\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$是可标量$\lambda$可积的，其中案例$\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
+*令X，Y，Z局部紧致空间，$\varphi$将$X \times Y$的连续映射引入Z，并且$\lambda, \mu$测量X，Y。假设对于每个$x \in X$，$\varepsilon_x$和$\mu$ $\varphi$-可卷积。为了使$\lambda$和$\mu$能够$\varphi$可卷积，X的映射$x \mapsto \varepsilon_x * |\mu|$进入$\mathscr{M}(Z)$对于拓扑$\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$可标量$\lambda$可积，其中案例$\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$.*
 
 假设$\lambda$和$\mu$是$\varphi$可卷积的。对于每个$f \in \mathscr{K}(Z)$，$f \circ \varphi$是$(|\lambda| \otimes |\mu|)$可积，因此函数$x \mapsto \int_Y f(\varphi(x, y)) d|\mu|(y) = \langle f, \varepsilon_x * |\mu| \rangle$（由假设为所有$x \in X$定义）是$\lambda$可积；因此 $x \mapsto \varepsilon_x * |\mu|$ 对于 $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$ 是 $\lambda$ 标量可积的，并且
 
@@ -277,7 +277,7 @@ $$
 \langle f, \lambda * \mu \rangle = \int_X d\lambda(x) \int_Y f(\varphi(x, y)) d\mu(y) = \int_X \langle f, \varepsilon_x * \mu \rangle d\lambda(x),
 $$
 
-从而$\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$。相反，假设 X 的映射 $x \mapsto \varepsilon_x * |\mu|$ 到 $\mathscr{M}(Z)$ 对于 $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$ 是可标量 $\lambda$ 可积的。让$f \in \mathscr{K}_+(Z)$。那么函数 $(x, y) \mapsto f(\varphi(x, y))$ 是连续的并且（第 V, §8, No. 3 章，第 5 条命题）
+从而$\lambda * \mu = \int_X (\varepsilon_x * \mu) d\lambda(x)$。相反，假设 X 的映射 $x \mapsto \varepsilon_x * |\mu|$ 到 $\mathscr{M}(Z)$ 对于 $\sigma(\mathscr{M}(Z), \mathscr{K}(Z))$ 是可标量 $\lambda$ 可积的。让$f \in \mathscr{K}_+(Z)$。那么函数 $(x, y) \mapsto f(\varphi(x, y))$ 是连续的且（第 V, §8, No. 3 章，命题 5）
 
 $$
 \iint^* f(\varphi(x, y)) d|\lambda|(x) d|\mu|(y) = \int^* d|\lambda|(x) \int^* f(\varphi(x, y)) d|\mu|(y)
@@ -286,6 +286,6 @@ $$
 
 因此$f \circ \varphi$是$(\lambda \otimes \mu)$可积，因此$\lambda$和$\mu$是$\varphi$可卷积。
 
-### 习题 {#int-viii-s1-exercises}
+### 习题{#int-viii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

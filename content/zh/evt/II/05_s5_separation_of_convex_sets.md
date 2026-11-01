@@ -29,16 +29,16 @@ subsections:
       pdf_page: 76
 statements: 24
 exercises: 30
-content_sha256: b42cd5ccb11a71a132405c745dd5084723073327b41beb8ab28ec1b2687d165b
+content_sha256: 8046662f56bc627f2265de2fd3175a783675922efec37418353b89d0e9ebe7b8
 translated_from: content/en/evt/II/05_s5_separation_of_convex_sets.md
 translation_method: google
 source_content_sha256: 497d18fc81f060c697d16f5bff7ad7d5e4bacb2a2d64dfc57ebdfcc324868bea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: eaf263803596546550637881ca3cb9ef4f1390ed9878dde23789c8e9d489fdfd
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。凸面分离集合
@@ -75,18 +75,18 @@ Q.E.D.
 
 — *设* $A$ *为实拓扑向量空间* $E$中的开非空凸集合，并让* $B$ *为非空凸集合； *如果*$A$*不满足*$B$*则存在一个封闭的超平面将*$A$*与*$B$分开。
 
-对于集合 $C = A - B$ 是开、凸（II、p. 9，第 7 条）且非空，也是 $0 \notin C$。通过II、p. 36的定理 1，$E$上存在连续的线性形式$f \neq 0$，使得$C$中存在$f(z) > 0$。然后，对于所有 $x \in A$ 和 $y \in B$，我们有 $f(x) > f(y)$。写$\alpha = \inf_{x \in A} f(x)$； $\alpha$是有限的，我们对所有$x \in A$有$f(x) \geq \alpha$，对所有$y \in B$有$f(y) \leq \alpha$；封闭的超平面 $H$ 与方程 $f(z) = \alpha$ 将 $A$ 与 $B$ 分开。
+对于集合 $C = A - B$ 是开、凸（II、p. 9，道具 7）且非空，也是 $0 \notin C$。通过II、p. 36的定理 1，$E$上存在连续的线性形式$f \neq 0$，使得$C$中存在$f(z) > 0$。然后，对于所有 $x \in A$ 和 $y \in B$，我们有 $f(x) > f(y)$。写$\alpha = \inf_{x \in A} f(x)$； $\alpha$是有限的，我们对所有$x \in A$有$f(x) \geq \alpha$，对所有$y \in B$有$f(y) \leq \alpha$；封闭的超平面 $H$ 与方程 $f(z) = \alpha$ 将 $A$ 与 $B$ 分开。
 
 #### 注 {#evt-ii-s5-n2-rem-1 .statement tag=07FO}
 
-— 1) 超平面 $H$ 不满足 $A$ (II, p. 15, 命题 1; 如果 $A$ 和 $B$ 是两个凸非空*开* 集合不满足则存在闭超平面将$A$*严格*与$B$分开。
+— 1) 超平面 $H$ 不满足 $A$ (II, p. 15, 命题 1; 如果 $A$ 和 $B$ 是两个凸非空*开* 集合不满足则存在闭超平面将 $A$ *严格*与 $B$ 分开。
 2) 然而，当$B$不开时，即使$E$是有限维，即使$\overline{A}$不满足$\overline{B}$，也不一定存在将$A$与$B$严格分开的闭超平面。 （II，p. 78，练习 12）。
 
 #### 定义 3 {#evt-ii-s5-def-3 .statement tag=07FP}
 
-— *对于向量空间* $E$的子集* $A$ *，*超平面* $H$ *称为* $A$的支撑超平面，*如果* $H$ *包含至少有一个点* $A$ *和* $A$ 的所有点 *位于* $H$ 的同一侧。
+— *对于向量空间* $E$的子集* $A$ *，*超平面* $H$ *被称为* $A$的支撑超平面，*如果* $H$ *包含至少有一个点* $A$ *和* $A$ 的所有点 *位于* $H$ 的同一侧。
 
-令$f$为$E$上的线性形式，且零不相同；如果说方程 $f(x) = \alpha$ 的超平面是$A$ 的支持超平面，则意味着$\alpha$ 是集合 $f(A) \subset \mathbf{R}$ 的最小的或最大的成员。在其他字中，存在与等式$f(x) = 0$的超平面平行的$A$的支持超平面，当且仅当集合$f(A)$的界限之一是有限的并且属于到$f(A)$。
+令$f$为$E$上的线性形式，且与零不相同；如果说方程 $f(x) = \alpha$ 的超平面是$A$ 的支持超平面，则意味着$\alpha$ 是集合 $f(A) \subset \mathbf{R}$ 的最小的或最大的成员。在其他字中，存在与方程$f(x) = 0$的超平面平行的$A$的支持超平面，当且仅当集合$f(A)$的界限之一是有限的并且属于到$f(A)$。
 
 #### 命题 2 {#evt-ii-s5-prop-2 .statement tag=07FQ}
 
@@ -98,9 +98,9 @@ Q.E.D.
 
 #### 命题 3 {#evt-ii-s5-prop-3 .statement tag=07FR}
 
-— *在拓扑向量空间* $E$ 中，*令* $A$ *为闭凸集合，且*具有非空内部。然后$A$的每一个支撑超平面都被关闭，$A$属于的每个边界点到$A$的至少一个支撑超平面。
+— *在拓扑向量空间* $E$ 中，*令* $A$ *为闭凸集合，且*具有非空内部。然后$A$的每个支撑超平面都被关闭，并且$A$属于的每个边界点到$A$的至少一个支撑超平面。
 
-$A$ 的每个支撑超平面都是封闭的，因为 $A$ 的所有点都在超平面的同一侧（II、p. 15，第 17 条）。另外，如果$x_0$是$A$的边界点，则$x_0$不会属于到开非空凸集合$\overset{\circ}{A}$； 之后th。 II、p. 36中的1个存在超平面$H$且包含$x_0$且不满足$\overset{\circ}{A}$。由于 $A$ 是 $\overset{\circ}{A}$ 的闭包（II、p. 14，根据第 1 条到第 16 条），它由第 16 条命题得出。 $H$是$A$的支持超平面的II、p. 15的17。
+$A$ 的每个支撑超平面都是封闭的，因为 $A$ 的所有点都在超平面的同一侧（II，p. 15，道具 17）。另外，如果$x_0$是$A$的边界点，则$x_0$不会属于到开非空凸集合$\overset{\circ}{A}$； 之后th。 II、p. 36中的1个存在超平面$H$，且包含$x_0$不满足$\overset{\circ}{A}$。由于 $A$ 是 $\overset{\circ}{A}$ 的闭包（II、p. 14，根据第 1 条到第 16 条），它由第 16 条命题得出。 $H$是$A$的支持超平面的II、p. 15的17。
 
 ### 3. 局部凸空间中凸集合的分离
 
@@ -154,11 +154,11 @@ In a Hausdorff locally convex space $E$, let $A$ and $B$ be two closed non-empty
 
 设$f(z) = \alpha$与$\alpha < 0$为$H$的方程，则$f(z) = 0$为$H_0$的方程。如果存在$z \in A$使得$f(z) < 0$，那么就会存在$\lambda > 0$，使得$f(\lambda z) = \alpha$，并且作为$\lambda z \in A$，这将与假设矛盾。
 
-### 4. 凸函数的近似
+### 4. 近似凸函数
 
 #### 命题 5 {#evt-ii-s5-prop-5 .statement tag=07G0}
 
-*令$X$为局部凸空间$E$中的闭凸集合。那么$X$中定义的每个下半连续凸函数$f$就是$E$中连续仿射线性函数的限制到$X$的函数族的上包络线。*
+*设$X$为局部凸空间$E$中的闭凸集合。那么$X$中定义的每个下半连续凸函数$f$都是$E$中连续仿射线性函数的限制到$X$的函数族的上包络线。*
 
 对于点$(x, t)$的集合$A \subset E \times \mathbf{R}$，使得$x \in X$和$t \geqslant f(x)$是凸的（II，p. 17，命题19）并且是闭的，因为函数$(x, t) \mapsto f(x) - t$是下半连续的。然后令$x$为$X$中的任意点，并令$a \in \mathbf{R}$满足$a < f(x)$。由科。 II、p. 38中的1，$E \times \mathbf{R}$中存在闭超平面$H$，即包含$(x, a)$且不满足$A$。 $E \times \mathbf{R}$ 上的每个线性连续形式为形式
 
@@ -194,8 +194,8 @@ $E$中连续仿射函数的限制到$X$是函数，即$X$中的仿射（即凹�
 
 *令$f$为$X$中的连续仿射函数；则存在$L$的元素的序列$(h_n)$在$X$中均匀收敛到$f$。*
 
-对于，道具。 6 和 Dini 的定理（GT，X, § 4.1，第 1）表明，对于所有$n$，都存在$h_n \in L$，使得 $f \leq h_n \leq f + 1/n$。
+对于，道具。 6 和 Dini 的定理（GT，X, § 4.1，第 1）表明，对于所有$n$，都存在$h_n \in L$，使得$f \leq h_n \leq f + 1/n$。
 
 ### 习题{#evt-ii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

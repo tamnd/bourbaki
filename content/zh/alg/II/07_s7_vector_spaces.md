@@ -54,21 +54,21 @@ subsections:
       pdf_page: 336
 statements: 87
 exercises: 39
-content_sha256: 8ccd99e5f13341f26d930fcecbc72f4ab3ab9f7b3720ea55f54ae7ae45bf2607
+content_sha256: 71b844441adff4e009222c07647792a5609d4a04f048fa5b817ce97cf7f0c169
 translated_from: content/en/alg/II/07_s7_vector_spaces.md
 translation_method: google
 source_content_sha256: 4fff0cdb1537b620d81d2d1d46ed26cb35c156c51e85408f9907b6d12e29297b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b5c9439cdf9840dd229a0c66c92784ff163c2fc080eab608cf8d7b5cc26f7432
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。 向量空间
 
-### 1.基 / 向量空间
+### 1. 基 / 向量空间
 
 #### 定理 1 {#alg-ii-s7-thm-1 .statement tag=05RI}
 
@@ -78,21 +78,21 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定理 2 {#alg-ii-s7-thm-2 .statement tag=05RJ}
 
-给定域 K 上向量空间 E 的生成的系统 S 以及 S 中包含的自由子集 L E，则存在 E 的基 B，使得 L ⊂ B ⊂ S。
+给定向量空间 E 的生成的系统 S 在域 K 上，并且 S 中包含 E 的自由子集 L，则存在 E 的基 B，使得 L ⊂ B ⊂ S。
 
 定理 1 从叙述得出L = ∅。
 
-为了证明定理 2，我们注，根据§ 1, no. 11，S中包含的E的自由子集的集合Λ，按包含排序，是归纳集合（集合理论，III, § 2, no. 4）；自由子集包含 L 的集合 M 也包含在 S 中。根据 Zorn 的引理，M 承认极大元素 B，并且足以证明 B 生成的 E 的向量子空间等于 E。这可以立即得出B 的定义以及以下引理：
+为了证明定理 2，我们注，根据§ 1, no. 11，S中包含的E的自由子集的集合Λ，按包含排序，是归纳集合（集合理论，III, § 2, no. 4）；自由子集包含 L 的集合 M 也包含在 S 中。根据 Zorn 的引理，M 承认极大元素 B，并且足以证明由 B 生成的 E 的向量子空间等于 E。这可以立即得出B 的定义以及以下引理：
 
 #### 引理 1 {#alg-ii-s7-lem-1 .statement tag=05RK}
 
-令 (a_i)_{i \in I} 为 E 的元素自由族；如果 b \in E 不是 (a_i) 生成的属于到子空间 F，则 a_i 和 b 的 E 由……组成的子集是自由的。
+令 (a_i)_{i \in I} 为 E 的元素的自由族；如果 b \in E 不是 (a_i) 生成的属于到子空间 F，则 a_i 和 b 的 E 由……组成的子集是自由的。
 
 假设所有$i \in I$有关系$\mu b + \sum_i \lambda_i a_i = 0$，其中$\mu \in K$和$\lambda_i \in K$，家庭$(\lambda_i)$有有限支撑；如果$\mu \neq 0$，则$b = -\sum_i (\mu^{-1} \lambda_i) a_i$，因此$b \in F$与假设相反；因此$\mu = 0$和关系变成$\sum_i \lambda_i a_i = 0$，这意味着$\lambda_i = 0$对于所有$i \in I$乘以假设； 从而引理。
 
 #### 推论{#alg-ii-s7-n1-cor-1 .statement tag=05RL}
 
-对于向量空间 E 的子集 B，以下属性是等效的：
+对于子集 B 或向量空间 E，以下属性是等效的：
 (a) B 是 E 的基。
 (b) B 是 E 的最大自由子集。
 (c) B 是 E 的最小生成的系统。
@@ -105,15 +105,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 注 {#alg-ii-s7-n1-rem-1 .statement tag=05RN}
 
-对于$(a_i)_{i \in I}$ 元素向量空间 $E$ 超过域 $K$ 的家庭来说，要*自由*，有必要且充分的条件，对于所有 $\kappa \in I$、$a_\kappa$ 属于至无$E$的子空间由指标$i \neq \kappa$的$a_i$生成。我们知道这个条件对于任何模都是必要的（§ 1, no. 11，*注*1）。凭借引理 1 就足够了，正如通过*归谬法*立即论证并考虑$(a_i)$的最小相关亚族所见。
+对于$(a_i)_{i \in I}$ 元素向量空间 $E$ 超过域 $K$ 的家庭来说，要*自由*，有充分必要，对于所有 $\kappa \in I$、$a_\kappa$ 属于至无$E$的子空间由指标$i \neq \kappa$的$a_i$生成。我们知道这个条件对于任何模都是必要的（§ 1, no. 11，*注*1）。凭借引理 1 就足够了，正如通过*归谬法*立即论证并考虑$(a_i)$的最小相关亚族所见。
 
-### 2.维数向量空间
+### 2. 维数向量空间
 
 #### 定理 3 {#alg-ii-s7-thm-3 .statement tag=05RO}
 
-*相同向量空间* $E$ *超过域* $K$ *的两个基是等价的*。
+*两个基相同的向量空间* $E$ *超过域* $K$ *是等价的*。
 
-我们首先注，如果$E$承认一个*无限*基$B$，则从§ 1, no. 12，推论2到命题23，$E$的所有其他基等价于$B$。因此，我们可以将注意力集中在$E$具有有限基为$n$元素的情况。我们注，每一个超过$K$的*单生*向量空间，不减少到0，都是一个*简单*$K$-模块（I, § 4, no. 4，定义7），因为它是由它的每个元素$\neq 0$生成的，凭借关系$\mu a = (\mu \lambda)(\lambda^{-1}a)$适用于$\mu \in K$、$\lambda \in K$和$\lambda \neq 0$。因此，如果 $(a_i)_{1 \leq i \leq n}$ 是 $E$ 的基，则 $E = \bigoplus_{i=1}^n Ka_i$ 直至同构和子空间 $E_k = \bigoplus_{i=1}^\kappa Ka_i$ 对于 $0 \leq k \leq n$ 形式 a *Jordan-Hölder 级数* $E$、$E_k/E_{k-1}$与$Ka_k$同构的。在这种情况下，定理 3 紧随 Jordan-Hölder 定理（I, § 4, no. 7，定理 6）。
+我们首先注，如果$E$承认一个*无限*基$B$，则从§ 1, no. 12，推论2到命题23，$E$的所有其他基等价于$B$。因此，我们可以将注意力集中在$E$具有有限基为$n$元素的情况。我们注超过 $K$ 的每个*单生* 向量空间，不减少到 0，都是一个*简单* $K$-模块（I, § 4, no. 4，定义 7），因为它是由每个元素 $\neq 0$ 生成的，凭借关系$\mu a = (\mu \lambda)(\lambda^{-1}a)$适用于$\mu \in K$、$\lambda \in K$和$\lambda \neq 0$。因此，如果 $(a_i)_{1 \leq i \leq n}$ 是 $E$ 的基，则 $E = \bigoplus_{i=1}^n Ka_i$ 最大为同构，子空间 $E_k = \bigoplus_{i=1}^\kappa Ka_i$ 为 $0 \leq k \leq n$ 形式 a *Jordan-Hölder 级数* $E$、$E_k/E_{k-1}$与$Ka_k$同构的。在这种情况下，定理 3 紧随 Jordan-Hölder 定理（I, § 4, no. 7，定理 6）。
 
 证明可以独立于Jordan-Hölder 定理给出，通过$n$上的归纳表明，如果$E$承认$n$元素的基，则每隔一个基$B'$有*至多* $n$元素。 命题对于$n = 0$来说是明显的。如果$n \geq 1$、$B'$非空；然后让$a \in B'$。到定理 2 (no. 1) 时，存在 $B$ 的子集 $C$，使得 $\{a\} \cup C$ 是 $E$ 和 $a \notin C$ 的基，因为 $\{a\} \cup B$ 显然是生成的系统 / $E$。由于$B$是$E$的基，$C = B$是不可能的（no. 1，定理2的推论），因此$C$至多有$n - 1$元素。令$V$为由$C$生成的子空间，并由$B' - \{a\}$生成$V'$子空间； $V$和$V'$都是$E$的子空间$Ka$的补充，因此是同构的（§ 1, no. 10，命题13）。由于$V$承认基最多有$n - 1$元素，$B' - \{a\}$最多有$n - 1$元素乘以归纳假设，因此$B'$最多有$n$元素。
 
@@ -153,33 +153,33 @@ $$
 
 #### 注 {#alg-ii-s7-n2-rem-1 .statement tag=05RT}
 
-(1) 例可以由模给出，承认两个有限基不具有与元素相同的数 ($§ 1$, 习题 16(c))。然而：
+(1) 例可以由模给出，承认两个有限的基不具有与元素相同的数 ($§ 1$, 习题 16(c))。然而：
 
 #### 命题 3 {#alg-ii-s7-prop-3 .statement tag=05RU}
 
 *设A为环，使得域D中存在A的同态$\rho$；那么对于每个自由A-模 E，E 的任何两个基都是等价的。*
 
-考虑通过将标量的环扩展到D（$§ 5$，no. 1）而获得的D上的向量空间$\rho^*(E) = D \otimes_A E$，并令$\phi : x \mapsto 1 \otimes x$为E的典范映射到$\rho^*(E)$；如果$(a_\lambda)$是E的基，$(\phi(a_\lambda))$是$\rho^*(E)$的基（$§ 5$，no. 1，命题4）；然后从定理 3 得出命题。
+考虑通过将标量的环扩展到D（$§ 5$，no. 1）而获得D上的向量空间$\rho^*(E) = D \otimes_A E$，并令$\phi : x \mapsto 1 \otimes x$为E的典范映射到$\rho^*(E)$；如果$(a_\lambda)$是E的基，$(\phi(a_\lambda))$是$\rho^*(E)$的基（$§ 5$，no. 1，命题4）；然后从定理 3 得出命题。
 
 #### 推论{#alg-ii-s7-n2-cor-2 .statement tag=05RV}
 
-*如果A是交换环$\neq 0$且E自由A-模，则E的任意两个基是等价的。*
+*如果 A 为交换环 $\neq 0$ 且 E 自由A-模，则 E 的任意两个基等价。*
 
-A 中至少存在一个最大理想 m (I、$§ 8$、no. 6、定理 1)，且当 A/m 为域时，满足命题 3 中的条件。
+A 中存在至少一个最大理想 m (I、$§ 8$、no. 6、定理 1)，且当 A/m 为域时，满足命题 3 个条件。
 
 #### 注 {#alg-ii-s7-n2-rem-2 .statement tag=05RW}
 
-(2) 当自由A-模 E使得E的任意两个基等价时，E的任意基对A的基数也称为E的*维数*或*秩*，用$\dim_A E$或$\dim E$表示。
+(2) 当自由A-模 E 使得E 的任意两个基等价时，E 的任意基对A 的基数也称为E 的*维数* 或*秩*，记为$\dim_A E$ 或$\dim E$。
 
-(3) 令$A$为环，使得自由$A$模块的任意两个基等价，并令$K$为$A$的子域，使得$A$可被视为$K$上的*左向量空间*限制标量。每个自由$A$-模块$E$类似地可以被视为$K$上的左向量空间，然后从§ 1, no. 13，命题25得出
+(3) 令$A$为环，使得自由$A$模块的任意两个基等价，并令$K$为$A$的子域，使得$A$可被视为*左向量空间* $K$ 通过限制标量。每个自由的$A$-模块$E$同样可以被认为是左向量空间超过$K$，然后从§ 1, no. 13，命题25得出
 
 $$
 \dim_K E = \dim_K E \cdot \dim_K A_s.
 $$
 
-(4) 在章VIII中，我们将看到环满足的例是命题3的结论，但看不到假设。
+(4) 在章VIII中，我们将看到环满足的例是命题3的结论，但不会看到假设。
 
-### 3. 维数和子空间向量空间的维数
+### 3. 维数和子空间向量空间的余维数
 
 #### 命题 4 {#alg-ii-s7-prop-4 .statement tag=05RX}
 
@@ -189,11 +189,11 @@ $$
 \dim F + \dim(E/F) = \dim E.
 $$
 
-由于向量空间 $E/F$的商为自由模，我们知道（§ 1, no. 11，命题 21）$F$是$E$的直因子； 关系 (3) 是公式 (1) (no. 2) 的特例。
+由于向量空间$E/F$的商为自由模，我们知道（§ 1, no. 11，命题21）$F$是$E$的直因子； 关系 (3) 是公式 (1) (no. 2) 的特例。
 
 #### 推论 1 {#alg-ii-s7-prop-4-cor-1 .statement tag=05RY}
 
-*If $E, F, G$ are vector spaces over a field $K$, every exact sequence of linear mappings $0 \to E \to F \to G \to 0$ splits.*
+*如果$E, F, G$是向量空间超过域$K$，则线性映射$0 \to E \to F \to G \to 0$分裂的中的每正合序列。*
 
 这是另一个命题 4 (§ 1, no. 9) 的表达方式。
 
@@ -211,13 +211,13 @@ $$
 \sum_{2k+1 \leq n} \dim E_{2k+1} = \sum_{2k \leq n} \dim E_{2k}
 $$
 
-*成立，或​​者，如果所有空间都是有限维的，*
+*成立，或者，如果所有空间都是有限维的，*
 
 $$
 \sum_{i=1}^n (-i)^i \dim E_i = 0.
 $$
 
-设$I_k = \operatorname{Im}\ u_k = \operatorname{Ker}\ u_{k+1}$为$0 \leq k \leq n-1$；因此 $I_{k+1}$ 与 $E_{k+1}/I_k$ 同构的，因此 (公式 (3)) $\dim I_k + \dim I_{k+1} = \dim E_{k+1}$ 对应于 $0 \leq k \leq n-2$，此外还有 $\dim I_0 = \dim E_0$ 和 $I_{n-1} = E_n$，因此$\dim I_{n-1} = \dim E_n$。 替换$\dim E_i$将其表达式为式(5)两边$\dim I_k$的函数，我们在每一边都得到$\sum_{k=0}^{n-1} \dim I_k$，从而的推论。
+令 $I_k = \operatorname{Im}\ u_k = \operatorname{Ker}\ u_{k+1}$ 为 $0 \leq k \leq n-1$；因此，$I_{k+1}$与$E_{k+1}/I_k$同构的，因此 (公式 (3)) $\dim I_k + \dim I_{k+1} = \dim E_{k+1}$对应于$0 \leq k \leq n-2$，此外还有$\dim I_0 = \dim E_0$和$I_{n-1} = E_n$，因此$\dim I_{n-1} = \dim E_n$。 替换$\dim E_i$将其表达式为式(5)两侧$\dim I_k$的函数，我们在每一侧都得到$\sum_{k=0}^{n-1} \dim I_k$，从而的推论。
 
 #### 推论 3 {#alg-ii-s7-prop-4-cor-3 .statement tag=05S0}
 
@@ -231,7 +231,7 @@ $$
 
 $$ 0 \to M \cap N \to M \oplus N \to M + N \to 0 $$
 
-(§ 1, no. 8, 命题 10) 考虑到这一事实
+(§ 1, no. 8, 命题10) 考虑到这一事实
 
 $$
 \dim(M \oplus N) = \dim M + \dim N
@@ -241,13 +241,13 @@ $$
 
 #### 推论 4 {#alg-ii-s7-prop-4-cor-4 .statement tag=05S1}
 
-*对于向量空间 E 的每子空间 F，$\dim F \leq \dim E$；如果 E 是有限维的，关系 $\dim F = \dim E$ 等价于 $F = E$。*
+*对于向量空间 E 的每子空间 F，$\dim F \leq \dim E$；如果 E 是有限维的，则关系 $\dim F = \dim E$ 相当于 $F = E$。*
 
-第一个断言由 (3) 可知；进一步，如果$\dim E$是有限的，关系$\dim F = \dim E$通过(3)隐含$\dim(E/F) = 0$和维数0约化到0的向量空间。
+第一个断言由 (3) 可知；此外，如果 $\dim E$ 是有限的，关系 $\dim F = \dim E$ 通过 (3) 隐含$\dim(E/F) = 0$，并且维数 0 约化到 0 的向量空间。
 
 #### 推论 5 {#alg-ii-s7-prop-4-cor-5 .statement tag=05S2}
 
-*如果向量空间 E 是向量子空间的家庭$(F_i)$ 的和，那么*
+*如果向量空间 E是向量子空间家庭$(F_i)$的和，那么*
 
 (8) $$
 \dim E \leq \sum_i \dim F_i.
@@ -255,11 +255,11 @@ $$
 
 *如果进一步$\dim E$是有限的，则(8)的两侧相等当且仅当E是族$(F_i)$的直和。*
 
-不等式 (8) 由 (3) 得出，并且 E 同构于 $\bigoplus_i F_i$ (§ 1, no. 7, 公式 (28)) 的商。第二个断言是§ 1, no. 10的特例，推论5到命题16，对于（8）两侧的等式意味着$\dim F_i = 0$，除了指标的有限数。
+不等式 (8) 由 (3) 得出，并且 E 与 $\bigoplus_i F_i$ (§ 1, no. 7, 公式 (28)) 的商同构。第二个断言是§ 1, no. 10的特例，推论5到命题16，对于(8)两侧的等式意味着$\dim F_i = 0$，除了指标的有限数。
 
 #### 定义 2 {#alg-ii-s7-def-2 .statement tag=05S3}
 
-*给定向量空间 E，E 的子空间 F 的余维数（相对于 E），用 $\operatorname{codim}_E F$ 表示，或简称为 $\operatorname{codim} F$，是 $E/F$ 的维数（等于 E 中 F 的任何补充的余维数）。*
+*给定向量空间 E，E 的子空间 F 的余维（相对于 E），用 $\operatorname{codim}_E F$ 或简称 $\operatorname{codim} F$ 表示，是 $E/F$ 的维数（等于 E 中 F 的任何补充的余维）。*
 
 关系 (3) 则可写成
 
@@ -271,7 +271,7 @@ $$
 
 *令F，F'为向量空间E中的两个子空间，使得$F \subset F'$。然后$\operatorname{codim}_E F' \leq \operatorname{codim}_E F \leq \dim E$。如果 $\operatorname{codim}_E F$ 是有限的，关系 $\operatorname{codim}_E F' = \operatorname{codim}_E F$ 意味着 $F = F'$。*
 
-不等式 $\operatorname{codim}_E F \leq \dim E$ 从 (9) 中显而易见，如果 $\dim E$ 是有限的关系 $\operatorname{codim}_E F = \dim E$ 意味着$\dim F = 0$，因此$F = \{0\}$。 命题的余数由此得出，对于
+不等式 $\operatorname{codim}_E F \leq \dim E$ 从 (9) 中显而易见，并且如果 $\dim E$ 是有限的关系 $\operatorname{codim}_E F = \dim E$ 意味着$\dim F = 0$，因此$F = \{0\}$。由此得出命题的余数，对于
 $$
 \operatorname{codim}_E F' = \operatorname{codim}_{E/F'}(F'/F),
 $$
@@ -294,13 +294,13 @@ $$
 
 #### 命题 7 {#alg-ii-s7-prop-7 .statement tag=05S6}
 
-*如果$(F_i)$是子空间向量空间E的有限族，那么*
+*如果$(F_i)$是向量空间E的子空间的有限族，那么*
 $$
 \operatorname{codim}\left(\bigcap_i F_i\right) \leq \sum_i \operatorname{codim} F_i.
 $$
 如果$F = \bigcap_i F_i$，$E/F$同构于$E/F_i$的直和的子空间(§ 1, no. 7，公式(27))。
 
-向量空间 E 的向量子空间或维数 1（或维数 2）通常称为 *线经过至 0*（或 *平面经过至 0*）（或简称为 *线*（或*平面*）如果不产生混淆（cf.§ 9, no. 3）），与经典几何语言类比；如果 E 的子空间的余维为 1，则称为 *超平面经过到 0*（或简称为 *超平面*）。超平面也可以定义为集合 $\mathscr{S}$ 的*极大* 元素 E *与 E 不同*的向量子空间，按包含排序。 E 包含子空间 H 的子空间与 $E/H$ 的子空间之间存在一对一的对应 (I, § 4, no. 7, 定理 4)；如果 E 为维数 $\geq 1$，$\mathscr{S}$ 非空，并且说 H 在 $\mathscr{S}$ 中最大意味着 $E/H$ 包含没有子空间与 $\{0\}$ 和 $E/H$ 不同，这意味着$E/H$由其任何元素$\neq 0$生成，在其他字中它是维数1。
+维数 1（或维数 2）或向量空间 E 的向量子空间通常称为*线经过到0*（或*平面经过到0*）（或简称为*线*（或经过到0*））。 *平面*）如果不产生混淆（cf.§ 9, no. 3）），与经典几何语言类比；如果 E 的子空间的余维为 1，则称为 *超平面经过到 0*（或简称为 *超平面*）。超平面也可以定义为集合 $\mathscr{S}$ 的*极大* 元素 E 的向量子空间 *与 E 不同，按包含排序。 E 包含子空间 H 的子空间与 $E/H$ 的子空间之间存在一一对应的对应 (I, § 4, no. 7, 定理 4)；如果 E 为维数 $\geq 1$，$\mathscr{S}$ 非空，并且说 H 在 $\mathscr{S}$ 中最大意味着 $E/H$ 包含没有子空间与 $\{0\}$ 和 $E/H$ 不同，这意味着$E/H$由其任何元素$\neq 0$生成，在其他字中它是维数1。
 
 在有限维 $n \geq 1$ 中的向量空间中，超平面是维数* $n - 1$ 中的子空间 * 公式 (3)。
 
@@ -314,11 +314,11 @@ $$
 
 大多数属性都在这方面得到了证明。对于向量空间的子空间 ，对于定义了维数 ($§ 2,$ no. 7, 注 2) 的自由模的子模不成立。 *对于例，交换环的理想不一定承认基，因为存在整环$A$，其中某些理想不是主要的（VII，$§ 1,$no. 1）以及其中任何两个元素环是线性相关的（$§ 1,$ no. 11，注 1）。* 自由 $A$ 模块的子模 $E$ 可能是免费的，与 $E$ 不同，并且具有与维数相同的维数 $E$，如整环$A$中的主要理想所示；同样的例还证明，自由$A$模块的自由子模不一定承认补充。
 
-### 4.秩线性映射
+### 4. 秩线性映射
 
 #### 定义 3 {#alg-ii-s7-def-3 .statement tag=05S9}
 
-*设$E, F$是向量空间除域$K$。对于$E$的每个线性映射$u$到$F$，$F$的子空间$u(E)$的维数称为$u$的秩，并用$\mathrm{rg}(u)$表示。
+*令$E, F$是向量空间除域$K$的两倍。对于$E$的每个线性映射$u$到$F$，$F$的子空间$u(E)$的维数称为$u$的秩，并用$\mathrm{rg}(u)$表示。
 
 若 $N = \mathrm{Ker}(u)$, $E/N$ 同构于 $u(E)$, 从而关系
 $$
@@ -335,9 +335,9 @@ $$
 
 #### 命题 9 {#alg-ii-s7-prop-9 .statement tag=05SA}
 
-*令$E, F$是域$K$和$u : E \to F$线性映射的两个向量空间。*
+*令$E, F$是向量空间超过域$K$和$u : E \to F$线性映射。*
 （一）$\mathrm{rg}(u) \leq \inf(\dim E, \dim F)$。
-(ii) *假设$E$是有限维的；在阶和 $\mathrm{rg}(u) = \dim E$ 中，$u$ 是单射的必要且充分。*
+(ii) *假设$E$是有限维的；在阶和 $\mathrm{rg}(u) = \dim E$ 中，$u$ 是单射的是必要且充分的。*
 (iii) *假设$F$是有限维的；在阶和 $\mathrm{rg}(u) = \dim F$ 中，$u$ 是满射是必要且充分的。*
 
 这紧接着关系 (12) 和 (13)。
@@ -354,13 +354,13 @@ $$
 
 如果 E 是无限维向量空间，则 E 的单射（或满射）自同态不是双射 (习题 9)。
 
-设 K、K' 是两个域、$\sigma : K \to K'$ 一个 *同构的*，K 到 K'、E 向量 K 空间、E' 向量 K' 空间和 $u : K \to K'$ 一个 *半线性* 映射相对于 $\sigma$ （§ 1, no. 13）； E'的子空间$u(E)$的维数也称为$u$的*秩*。它也被视为 $u$ 的秩被视为 E 到 $\sigma_*(E')$ 的线性映射，因为 $u(E)$ 的每一个基也是 $\sigma_*(u(E))$ 的基。
+设 K、K' 是两个域、$\sigma : K \to K'$ K 到 K'、E 向量 K 空间、E' 向量 K' 空间的 *同构的* 和 $u : K \to K'$ 相对于 $\sigma$ 的 *半线性* 映射 （§ 1, no. 13）； E'的子空间$u(E)$的维数又称为$u$的*秩*。它也被视为 $u$ 的秩被视为 E 到 $\sigma_*(E')$ 的线性映射，因为 $u(E)$ 的每个基也是 $\sigma_*(u(E))$ 的基。
 
-### 5. 向量空间的双重
+### 5. 双向量空间
 
 #### 定理 4 {#alg-ii-s7-thm-4 .statement tag=05SC}
 
-* 向量空间* E * 的对偶 * $E^*$ * 的 * 维数至少等于 * E * 的维数。 *对于* $E^*$ * 是有限维的，* E * 如此是必要且充分的，然后* $\dim E^* = \dim E$。
+向量空间* E *的对偶* $E^*$ *的维数至少等于* E 的维数。 *对于* $E^*$ *是有限维的，* E * 如此是必要且充分的，然后* $\dim E^* = \dim E$。
 
 如果 K 是 E 标量的域，则 E 同构于空间 $K_s^{(I)}$，因此 $E^*$ 同构于 $K_d^I$ (§ 2, no. 6，命题 10)。由于$K_s^{(I)}$是$K_d^I$、$\dim E = \mathrm{Card}(I) \leq \dim E^*$的子空间（no. 3，推论4至命题4）；此外，如果 I 是有限的，则 $K_d^I = K_d^{(I)}$ (cf. 习题 3(d))。
 
@@ -386,7 +386,7 @@ $$
 $$
 *准确且分裂的*。
 
-这是因为每个向量子空间都是直因子（no. 3，命题4）以及§ 2, no. 1，命题1和2。
+这是因为每个向量子空间都是直因子（no. 3，命题4）并且来自§ 2, no. 1，命题1和2。
 
 #### 推论 {#alg-ii-s7-n5-cor-2 .statement tag=05SF}
 
@@ -597,13 +597,13 @@ $$
 
 #### 注 {#alg-ii-s7-n6-rem-1 .statement tag=05SU}
 
-当系统 (21) 的秩是*无穷大*时，定理 8 的条件就不再足够了。对于例，假设$x_i^*$是空间$E = K_s^{(I)}$上的*坐标形式*，$I$是无限的（§ 2, no. 6）；由于$x_i^*$是线性独立的，定理8的条件对于每个家庭$(\eta_i)$都成立，但是如果家庭$(\eta_i)$有有限支撑，系统(21)只有解。
+当系统 (21) 的秩 *无穷大*时，定理 8 的条件不再足够。对于例，假设$x_i^*$是空间$E = K_s^{(I)}$上的*坐标形式*，$I$是无限的（§ 2, no. 6）；由于$x_i^*$是线性独立的，定理8的条件对于每个家庭$(\eta_i)$都成立，但是如果家庭$(\eta_i)$有有限支撑，则系统(21)只有解。
 
 如果系统 (21) 只有*有限数个方程*，并且它的秩 *至多等于* 数方程 (no. 2, 命题 1)，则它始终为有限秩。类似地，如果 $E$ 为有限维 $n$（对于系统 (22) 对应，只有*有限数 n 个未知数*），其对偶 $E^*$ 为维数 $n$，因此系统 (21) 的秩至多等于 $n$（no. 3，推出 4 到命题 4）。由此我们推论：
 
 #### 推出 1 {#alg-ii-s7-thm-8-cor-1 .statement tag=05SV}
 
-*向量空间中的标量线性方程的系统，左手边线性独立形式的有限方程数的由……组成，总是承认解。*
+*向量空间中的标量线性方程的系统，左手边线性无关形式的有限方程数的由……组成，总是承认解。*
 
 #### 推出 2 {#alg-ii-s7-thm-8-cor-2 .statement tag=05SW}
 
@@ -621,7 +621,7 @@ $$
 
 #### 命题 14 {#alg-ii-s7-prop-14 .statement tag=05SY}
 
-*给出正合序列*
+*给定正合序列*
 
 (23)
 $$
@@ -635,7 +635,7 @@ $$
 
 作为序列 (23) 分裂的，这是 § 3, no. 7、推出 5 到命题 7 和 § 3, no. 6、命题 5 的特例。
 
-由于命题 14，当 $E'$ 为 $E$、$j : E' \to E$ 典范嵌入的向量子空间时，$E' \otimes_K F$ 通常被*标识*为*子-$\mathbf{Z}$*-模块$E \otimes_K F$通过单射$j \otimes 1_F$。有了这个约定：
+由于命题 14，当$E'$是$E$、$j : E' \to E$典范嵌入的向量子空间时，$E' \otimes_K F$通常被*标识*为$\mathbf{Z}$*子模块$E \otimes_K F$ 通过单射 $j \otimes 1_F$。有了这个约定：
 
 #### 推出{#alg-ii-s7-n7-cor-1 .statement tag=05SZ}
 
@@ -789,7 +789,7 @@ Let u be an element of $E \otimes_K F$ and $M \subset E$ and $N \subset F$ its a
 
 如果$u = \sum_{i=1}^r x_i \otimes y_i$，其中家庭$(x_i)$和$(y_i)$是免费的，则$u' = \sum_{i=1}^r (1 \otimes x_i) \otimes (1 \otimes y_i)$以及家庭$(1 \otimes x_i)$和$(1 \otimes y_i)$分别在$E_{(L)}$和$F_{(L)}$中是免费的（§ 5, no. 1，命题4）。
 
-### 9. 向量空间的标量扩张
+### 9. 扩张向量空间的标量
 
 回想一下 (I, § 9, no. 1, 定理 2)，域 K 的同态到非零环 A 必然是*单射的*。
 
@@ -841,13 +841,13 @@ $$
 
 (§ 5, no. 4) 是单射的；当 $E$ 是有限维时，它是双射的。
 
-第二个断言由§ 5, no. 4、命题 8得出。为了证明第一个注，$(E^*)_{(A)}$的每个元素都可以写成$\sum_i x_i^* \otimes \alpha_i$，其中$\alpha_i \in A$和$(x_i^*)_{1 \leq i \leq n}$是$E^*$中的自由族； $(E_{(A)})^*$ 线性形式 $y^*$ 中有对应，这样 $y^*(1 \otimes x) = \sum_i \rho(\langle x, x_i^* \rangle) \alpha_i$ 对于所有 $x \in E$。但是，$E$中存在一个$(x_i)_{1 \leq i \leq n}$族，使得$\langle x_i, x_j^* \rangle = \delta_{ij}$（no. 5，推论2到定理7），从而$y^*(1 \otimes x_i) = \alpha_i$；因此，关系$y^* = 0$意味着所有$i$都是$\alpha_i = 0$，这证明了我们的断言。
+第二个断言由§ 5, no. 4、命题 8得出。为了证明第一个注，$(E^*)_{(A)}$的每一个元素都可以写成$\sum_i x_i^* \otimes \alpha_i$，其中$\alpha_i \in A$和$(x_i^*)_{1 \leq i \leq n}$是$E^*$中的自由族； $(E_{(A)})^*$ 线性形式 $y^*$ 中有对应，这样 $y^*(1 \otimes x) = \sum_i \rho(\langle x, x_i^* \rangle) \alpha_i$ 对于所有 $x \in E$。但是，$E$中存在一个$(x_i)_{1 \leq i \leq n}$族，使得$\langle x_i, x_j^* \rangle = \delta_{ij}$（no. 5，推论2到定理7），从而$y^*(1 \otimes x_i) = \alpha_i$；因此，关系$y^* = 0$意味着所有$i$都有$\alpha_i = 0$，这证明了我们的断言。
 
 #### 命题 21 {#alg-ii-s7-prop-21 .statement tag=05TE}
 
-设$K$为域，且$K$的$L$扩张域。
+设$K$为域，且$L$扩张域等于$K$。
 
-(i) 对于超过 $K$ 的每向量空间 $E$，$\dim_L(E_{(L)}) = \dim_K E$。
+(i) 对于超过$K$的每向量空间$E$，$\dim_L(E_{(L)}) = \dim_K E$。
 
 (ii) 对于每个$K$-线性映射$u : E \to F$，其中$E$和$F$是向量空间超过$K$、$\operatorname{rg}(u_{(L)}) = \operatorname{rg}(u)$。
 
@@ -865,7 +865,7 @@ $$
 
 这是 § 5, no. 3、命题 7 的特例。
 
-### 10.模超过整环
+### 10. 模超过整环
 
 #### 命题 23 {#alg-ii-s7-prop-23 .statement tag=05TG}
 
@@ -1016,7 +1016,7 @@ $$
 
 #### 推论 1 {#alg-ii-s7-prop-27-cor-1 .statement tag=05TU}
 
-*如果 $E'$ 是 $E$ 的子模，则 $E'_{(K)}$ 规范地与 $E_{(K)}$ 的向量子空间进行标识，$(E/E')_{(K)}$ 与 $E_{(K)}/E'_{(K)}$ 进行规范地标识。*
+*如果 $E'$ 是 $E$ 中的子模，则 $E'_{(K)}$ 规范地与 $E_{(K)}$ 中的向量子空间进行标识，$(E/E')_{(K)}$ 与 $E_{(K)}/E'_{(K)}$ 进行规范标识。*
 
 应用命题 27 至正合序列即可
 
@@ -1032,10 +1032,10 @@ $$
 
 #### 推论 3 {#alg-ii-s7-prop-27-cor-3 .statement tag=05TW}
 
-*令$E$为$A$模块，$(x_\lambda)_{\lambda \in L}$为$E$的元素族。要使$(x_\lambda)$成为一个自由的家庭，向量$K$-空间$E_{(K)}$家庭$(1 \otimes x_\lambda)$自由是必要且充分的。*
+*令$E$为$A$模块，而$(x_\lambda)_{\lambda \in L}$为$E$的元素族。要使$(x_\lambda)$成为一个自由的家庭，向量$K$-空间$E_{(K)}$家庭$(1 \otimes x_\lambda)$自由是必要且充分的。*
 
 $(x_\lambda)$定义是$A$线性映射$f : A^{(L)} \to E$，使得$f(e_\lambda) = x_\lambda$对于所有$\lambda \in L$（$(e_\lambda)$是$A^{(L)}$的典范基）并且说$(x_\lambda)$是免费的意味着$f$ 是单射的。将推论 2 应用到 $f$、注意到即可，$A^{(L)}$ 是无扭转的 (命题 25)。
 
-### 习题{#alg-ii-s7-exercises}
+### 习题 {#alg-ii-s7-exercises}
 
-请参阅[§ 7](exercises/s7/)的[习题]。
+参见[习题为 § 7](exercises/s7/)。

@@ -33,25 +33,25 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 27
-content_sha256: aea5c3b5594657803e0e9f7b31beec863ad4eefa268a938e274f5adfe1277637
+content_sha256: cf4eb19138616f4bbcac0bc6f3a962b370002e17b31b5222360eb7a6168146f7
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
 translation_method: google
 source_content_sha256: e4eba8899949967667773f570b755a00419ebfdad78b7c56f68274079332363d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9c9ccda1c4a552673d6bdfe9e2b2f3a9be601166ea8f38f54246c2e7b50e5008
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 3. 诺特环上的$\mathfrak{m}$-adic 拓扑
 
 假设本段中考虑的所有过滤都是详尽的。
 
-### 1. 良好的过滤
+### 1. 良好的过滤效果
 
-令$\mathbf{A}$为过滤后的交换环，E为过滤后的$\mathbf{A}$模块，$(\mathbf{A}_n)$和$(E_n)$
+设$\mathbf{A}$为过滤后的交换环，E为过滤后的$\mathbf{A}$模块，$(\mathbf{A}_n)$和$(E_n)$
 
 $A$和$E$各自的过滤；假设$A_0 = A$。在多项式环 $A[X]$ 集合 $A' = \sum_{n \geq 0} A_n X^n$ 中是型 $\mathbf{N}$*的*分级亚A代数； $E \otimes_A A[X]$的子群$E' = \sum_{n \geq 0} E_n \otimes_A A X^n$是型$\mathbf{N}$的*分级$A'$模块*，因为
 $$
@@ -60,11 +60,11 @@ $$
 
 #### 定义 1 {#ac-iii-s3-def-1 .statement tag=04FX}
 
-*令$A$为交换环，$m$为$A$的理想，$E$为$A$模，$(E_n)$为子模的加法群$E$由……组成的过滤$E$。过滤 $(E_n)$ 被称为 m-good 如果：*
+*令$A$为交换环，$m$为$A$的理想，$E$为$A$模，$(E_n)$为加法群$E$由……组成对子模的过滤$E$。过滤 $(E_n)$ 被称为 m-good 如果：*
 (1) $m E_n \subset E_{n+1}$ 对于所有 $n \in \mathbf{Z}$；
 (2) *存在整数$n_0$使得*$m E_n = E_{n+1}$*对于*$n \geq n_0$。
 
-然后$q$乘归纳，$m^q E_n = E_{n+q}$乘$n \geq n_0, q \geq 1$。 注条件 (1) 意味着如果$A$ 被赋予$m$-adic 过滤，则$(E_n)$ 过滤与$E$ 上的$A$ 模块结构兼容。显然，在每个$A$-模块$E$上，$m$-adic 过滤都是良好的。如果 $A$-模块 $E$ 上的过滤是 m-good，则 $E$ 的任何商模上的商过滤是 m-good。
+然后$q$乘归纳，$m^q E_n = E_{n+q}$乘$n \geq n_0, q \geq 1$。 注条件 (1) 意味着如果$A$ 被给予$m$-adic 过滤，则过滤$(E_n)$ 与$E$ 上的$A$ 模块结构兼容。显然，在每个$A$-模块$E$上，$m$-adic 过滤都是良好的。如果 $A$-模块 $E$ 上的过滤是 m-good，则 $E$ 的任何商模上的商过滤是 m-good。
 
 #### 定理 1 {#ac-iii-s3-thm-1 .statement tag=04FY}
 
@@ -172,7 +172,7 @@ $$
 
 #### 命题 3 {#ac-iii-s3-prop-3 .statement tag=04G7}
 
-*令 $A$ 为诺特环，且 $m$ 为 $A$ 的理想，使得 $A$ 为 Hausdorff，并且相对于 m 进数拓扑而言是完整的。令$E$为过滤环$A$上的过滤$A$模，$A$的过滤$(E_n)$使得$E_0 = E$和$E$是相对于由$(E_n)$定义的拓扑的Hausdorff。那么下面的条件是等价的：
+*令 $A$ 为诺特环，且 $m$ 为 $A$ 的理想，使得 $A$ 为 Hausdorff，且相对于 m 进数拓扑完整。令$E$为过滤环$A$上的过滤$A$模，$A$的过滤$(E_n)$使得$E_0 = E$和$E$是相对于由$(E_n)$定义的拓扑的Hausdorff。那么下面的条件是等价的：
 (a) $E$ 是有限生成的 $A$ 模块，$(E_n)$ 是 m-good 过滤。
 (b) $\mathrm{gr}(E)$ 是有限生成的 $\mathrm{gr}(A)$ 模块。
 (c) 对于所有$n \geq 0$，$\mathrm{gr}_n(E)$是有限生成的$A$模块，并且存在$n_0$，使得对于$n \geq n_0$典范同态
@@ -181,13 +181,13 @@ $$
 $$
 是满射的。*
 
-从定义可以立即得出 (a) 蕴涵 (c)。 (b) 蕴含 (c) 的事实是 § 1, no. 3、引理 1 中的推论；相反，如果 (c) 成立，显然 $\mathrm{gr}(E)$ 是由 $p \leq n_0$ 的 $\mathrm{gr}_p(E)$ 的和生成为 $\mathrm{gr}(A)$ 模，因此假设承认生成元的有限系统。仍有待证明(c)蕴涵(a)；因为$\mathrm{gr}_n(E)$是有限生成的，$E_n = E$，显然首先是由归纳在$n$上生成的，$E/E_n$是所有$n$的有限生成的$A$模块；因此，足以证明，对于$n > n_0$，$E_n$是有限生成的$A$模块，并且$mE_n = E_{n+1}$。现在，考虑具有详尽和分离过滤$(E_{n+k})(k \geq 1)$的$A$模块$E_{n+1}$； $mE_n \subset E_{n+1}$； 假设 (c) 意味着$\mathrm{gr}_{n+1}(E) = E_{n+1}/E_{n+2}$中$mE_n$的像等于$\mathrm{gr}_{n+1}(E)$和生成分级的$\mathrm{gr}(A)$模$\mathrm{gr}(E_{n+1})$。由于 $\mathrm{gr}_{n+1}(E)$ 是由假设有限生成的 $A$ 模块，因此从 § 2, no. 9、命题 12 可以得出 $mE_n = E_{n+1}$ 和 $E_{n+1}$ 是有限生成的 $A$ 模块。
+从定义可以立即得出 (a) 蕴涵 (c)。 (b) 蕴含 (c) 的事实是 § 1, no. 3、引理 1 中的推论；相反，如果(c)成立，显然$\mathrm{gr}(E)$是由$\mathrm{gr}_p(E)$的和为$p \leq n_0$生成的$\mathrm{gr}(A)$模，因此假设承认生成元的有限系统。仍有待证明(c)蕴涵(a)；因为 $\mathrm{gr}_n(E)$ 是有限生成的，$E_n = E$，显然首先是由归纳在 $n$ 上生成的，$E/E_n$ 是所有 $n$ 的有限生成的 $A$ 模块；因此，足以证明，对于$n > n_0$，$E_n$是有限生成的$A$模块，并且$mE_n = E_{n+1}$。现在，考虑具有详尽和分离过滤$(E_{n+k})(k \geq 1)$的$A$模块$E_{n+1}$； $mE_n \subset E_{n+1}$； 假设(c)意味着$\mathrm{gr}_{n+1}(E) = E_{n+1}/E_{n+2}$中$mE_n$的像等于$\mathrm{gr}_{n+1}(E)$和生成分级的$\mathrm{gr}(A)$模$\mathrm{gr}(E_{n+1})$。由于 $\mathrm{gr}_{n+1}(E)$ 是由假设有限生成的 $A$ 模块，因此从 § 2, no. 9、命题 12 可以得出 $mE_n = E_{n+1}$ 和 $E_{n+1}$ 是有限生成的 $A$ 模块。
 
 ### 2. 诺特环上的 m-ADIC 拓扑
 
 #### 命题 4 {#ac-iii-s3-prop-4 .statement tag=04G8}
 
-*设$A$是可交换的诺特环，$m$是$A$的理想，$E$是有限生成的$A$模。 $E$ 定义上的所有 m-good 过滤均相同拓扑（即 m-adic 拓扑）。*
+*令$A$是可交换的诺特环，$m$是$A$的理想，而$E$是有限生成的$A$模。 $E$ 定义上的所有 m-good 过滤均相同拓扑（即 m-adic 拓扑）。*
 
 令 $(E_n)$ 为$E$ 上的 m-good 过滤。由于这种过滤是详尽的，$E$属于的每个元素到$E_n$之一，并且由于$E$是有限生成的并且$E_n$是$A$模块，因此存在整数$n_1$使得$E_{n_1} = E$。另一方面，令 $n_0$ 使得 $mE_n = E_{n+1}$ 对于$n \geq n_0$；那么，对于$n > n_0 - n_1$，
 $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$，证明命题。
@@ -232,19 +232,19 @@ $$
 
 令$A$为交换律诺特环，$m$为$A$的理想，$t$其根式（章II, § 2, no. 6）。如果$m'$是$m$-adic拓扑的定义理想，则存在整数$n > 0$，使得${m'}^n \subset m$（$§ 2$，no. 5），因此$m' \subset t$；相反，由于$A$是诺特，因此存在整数$k > 0$使得$t^k \subset m$（章II, § 2, no. 6，命题15），因此$t$是*最大的定义理想* $m$-adic 拓扑。
 
-### 3.扎里斯基环
+### 3. 扎里斯基环
 
 #### 命题 6 {#ac-iii-s3-prop-6 .statement tag=04GF}
 
-*令$A$为可交换的诺特环，且$m$为$A$的理想。以下属性是等效的：
+*设$A$是可交换的诺特环，而$m$是$A$的理想。以下属性是等效的：
 (a) $m$ 包含在$A$ 的雅各布森根中。
 (b) *每个有限生成的 $A$-模都是具有 $m$-adic 拓扑的 Hausdorff。*
-(c) *对于每个有限生成的$A$-模块$E$，$E$的每个子模相对于$E$上的$m$-adic 拓扑都是封闭的。*
+(c) *对于每个有限生成的$A$-模块$E$，$E$的每个子模相对于$E$上的$m$-adic 拓扑是封闭的。*
 (d) *$A$ 的每个最大理想相对于 $m$-adic 拓扑都是封闭的。*
 
 让我们证明 (a) 蕴涵 (b)。假设$m$包含在$A$的雅各布森根式中，并令$E$为有限生成的$A$模。如果$x \in E$和$m \in m$使得$(1 - m)x = 0$，则$x = 0$，因为$1 - m$在$A$中是可逆的。那么 (no. 2, 命题 5) $E$ 就是 Hausdorff 和 $m$-adic 拓扑。
 
-让我们证明（b）蕴涵（c）。假设(b)成立。令 $E$ 为有限生成的 $A$ 模块，并且 $F$ 子模为 $E$。那么$E/F$是带有$m$-adic 拓扑的Hausdorff，它是$m$-adic 拓扑在$E$上的商拓扑；那么 $F$ 在 $E$ 关闭。
+让我们证明(b)蕴涵(c)。假设(b)成立。令 $E$ 为有限生成的 $A$ 模块，并且 $F$ 子模为 $E$。那么$E/F$是带有$m$-adic 拓扑的Hausdorff，它是$m$-adic 拓扑在$E$上的商拓扑；那么 $F$ 在 $E$ 关闭。
 
 显然（c）意味着（d）。最后让我们证明（d）蕴涵（a）。从(d)可知，对于$A$的每个最大理想$a$，$A$-模$A/a$是具有$m$进数拓扑的Hausdorff。这意味着$m(A/a) \neq A/a$、除非、$A/a$上的$m$-adic 拓扑是最粗糙的拓扑和$A/a$减少到0，这是荒谬的，因为$A/a$是*ajield*。因此，$A/a$中$m$的典范像是与$A/a$不同的$A/a$的理想，因此减少到0；然后$m \subset a$，证明$m$包含在$A$的雅各布森根式中。
 
@@ -276,11 +276,11 @@ Zariski 环的每个 *商环* $A/b$ 都是 Zariski 环，因为它是诺特，�
 
 (ii) *如果 $A$ 与 $m$-adic 拓扑是 Zariski 环，则 $A'$ 与 $m'$-adic 拓扑是 Zariski 环。*
 
-(iii) *If $h$ is injective (thus identifying $A$ with a subring of $A'$), the $m'$-adic topology on $A'$ induces on $A$ the $m$-adic topology.*
+(iii) *如果 $h$ 是单射（因此将 $A$ 与 $A'$ 的子环识别），则 $A'$ 上的 $m'$-adic 拓扑 $A$ $m$-adic 上的诱导拓扑.*
 
-回想一下，$A'$ 重合上的$m'$-adic 过滤和*A-模* $A'$ 上的$m$-adic 过滤（§ 2, no. 1，*例 3*）。因此，断言 (i) 是no. 2 的命题 5 的特例，而断言 (iii) 是no. 2 的定理 2 的特例。最后让我们展示(ii)。假设 $A$ 是具有 $m$-adic 拓扑的 Zariski 环，并令 $E'$ 为有限生成的 $A'$-模；它也是有限生成的$A$-模块以及$E'$重合上的$m$-adic和$m'$-adic过滤；那么$E'$是带有$m'$进数拓扑的Hausdorff。最后，$A$-模块$A'$是诺特，因此环$A'$是诺特，这完成了证明，$A'$是Zariski环。
+回想一下，$A'$ 重合上的$m'$-adic 过滤和*A-模* $A'$ 上的$m$-adic 过滤（§ 2, no. 1，*例 3*）。因此，断言 (i) 是no. 2 的命题 5 的特例，而断言 (iii) 是no. 2 的定理 2 的特例。最后让我们展示(ii)。假设 $A$ 是具有 $m$-adic 拓扑的 Zariski 环，并让 $E'$ 是有限生成的 $A'$-模块；它也是有限生成的$A$-模块以及$E'$重合上的$m$-adic和$m'$-adic过滤；那么 $E'$ 就是 Hausdorff 和 $m'$-adic 拓扑。最后，$A$-模块$A'$是诺特，因此环$A'$是诺特，这完成了证明，$A'$是Zariski环。
 
-### 4. 诺特环的豪斯多夫补全
+### 4. 豪斯多夫完成诺特环
 
 令$A$为交换环，$m$为$A$的理想，$E$为$A$模；让$\hat{A}$和$\hat{E}$分别表示$A$和$E$相对于$m$进数拓扑和$j_E$典范映射$E \to \hat{E}$的豪斯多夫完成。 $\hat{A} \times E$到$\hat{E}$定义的$A$双线性映射$(a, x) \mapsto aj_E(x)$和$A$线性映射
 
@@ -288,7 +288,7 @@ $$
 \alpha_E : \hat{A} \otimes_A E \to \hat{E},
 $$
 
-称为*规范*。令$u : E \to F$为$A$模同态，令$\hat{u} : E \to \hat{F}$为由经过完成Hausdorff完成而获得的映射；对于$a \in \hat{A}$，$x \in E$，
+称为*规范*。令$u : E \to F$为$A$模同态，并令$\hat{u} : E \to \hat{F}$为通过经过完成Hausdorff完成而获得的映射；对于$a \in \hat{A}$，$x \in E$，
 
 $$
 \alpha_F(a \otimes u(x)) = aj_F(u(x)) = a\hat{u}(j_E(x)) = \hat{u}(\alpha_E(a \otimes x)),
@@ -310,7 +310,7 @@ $$
 
 *设A是可交换的诺特环，m是A和E、F、G三个有限生成A模的理想。然后：*
 
-(i) *如果* $E \xrightarrow{u} F \xrightarrow{v} G$ *是 A-线性映射的正合序列，序列* $\hat{E} \xrightarrow{\hat{u}} \hat{F} \xrightarrow{\hat{v}} \hat{G}$ *由经过获得的 Hausdorff 完备的（相对于 m-adic 拓扑）是准确的。*
+(i) *如果* $E \xrightarrow{u} F \xrightarrow{v} G$ *是 A-线性映射的正合序列，序列* $\hat{E} \xrightarrow{\hat{u}} \hat{F} \xrightarrow{\hat{v}} \hat{G}$ *通过经过获得的 Hausdorff 完备的（相对于 m-adic 拓扑）是准确的。*
 
 (ii) *规范 A-线性映射* $\alpha_E : \hat{A} \otimes_A E \to \hat{E}$ *是双射的。*
 
@@ -322,7 +322,7 @@ $$
 L \xrightarrow{u} L' \xrightarrow{v} E \longrightarrow 0
 $$
 
-（章I, § 2, no. 8，引理8）。我们推导出可交换的图表
+（章I, § 2, no. 8、引理8）。我们推导出可交换的图表
 
 $$
 \begin{array}{ccccccccc}
@@ -539,4 +539,4 @@ $$
 
 ### 习题{#ac-iii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

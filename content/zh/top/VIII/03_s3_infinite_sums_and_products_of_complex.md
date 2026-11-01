@@ -24,23 +24,23 @@ subsections:
       pdf_page: 123
 statements: 9
 exercises: 5
-content_sha256: 9cdc285d8fdf5ed38947dd2d59fab831d6c6f6d935840ccf81ea195dd48688ac
+content_sha256: 2d41d7c14761bbae4aad7aa57ef23a2997d4006666b72ecacdb789dd6aa1108b
 translated_from: content/en/top/VIII/03_s3_infinite_sums_and_products_of_complex.md
 translation_method: google
 source_content_sha256: 07d4fe8c1f201c515f0cbf75d3cd066fc09084c3035b0204be862ef63ea6d88e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: b2b08c621c1c47a5a5c660911d793b4cfb62bdbc702a387884cc585b26aea884
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3. 和和乘积的复数
+## 3. 复数的无限和和乘积
 
-### 1. 和的无限复数
+### 1. 复数的无限和
 
-由于域$\mathbf{C}$的加法群与加法群$\mathbf{R}^2$相同，因此无需专门研究可和族和$\mathbf{C}$中的级数，因为这已包含在章VII, § 3的一般理论中；我们留给读者习题将该理论的结果翻译成复数理论的语言。我们仅陈述以下命题，它是章VII, § 3, no. 1 命题 3 的推论：
+由于域$\mathbf{C}$的加法群与加法群$\mathbf{R}^2$相同，因此无需专门研究$\mathbf{C}$中的可和族和级数，因为这已包含在章VII, § 3的一般理论中；我们留给读者习题将该理论的结果翻译成复数理论的语言。我们仅陈述以下命题，它是章VII, § 3, no. 1 命题 3 的推论：
 
 #### 命题 1 {#top-viii-s3-prop-1 .statement tag=0C0I}
 
@@ -52,23 +52,23 @@ $$
 
 我们让读者来陈述四元数的相应的结果。
 
-### 2. $\mathbf{C}^*$ 的多重家庭
+### 2. $\mathbf{C}^*$ 的多个家庭
 
-在非零复数族$(z_i)_{i \in I}$不能乘法群$\mathbf{C}^*$中可乘除非$\lim z_i = 1$相对于$I$(章)有限子集补集的过滤器III, § 5, no. 2、命题 1)；此外，由于$\mathbf{C}^*$的每个点都有邻域的可数基数系统，指标$i$的集合，因此如果族$(z_i)$是可乘的，则$z_i \neq 1$是可数的（章III, § 5, no. 2，命题1 的推论）。
+在非零复数族$(z_i)_{i \in I}$不能乘法群$\mathbf{C}^*$中，相对于$I$(章III, § 5, no. 2)有限子集的补集的过滤器可乘除非$\lim z_i = 1$， 命题1);此外，由于$\mathbf{C}^*$的每个点都有邻域的可数基数系统，指标$i$的集合，因此如果族$(z_i)$是可乘的（章），则$z_i \neq 1$是可数的III, § 5, no. 2，命题 1) 的推论。
 
 #### 命题 2 {#top-viii-s3-prop-2 .statement tag=0C0J}
 
-*族* $(z_i)$ *复数* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *可乘当且仅当族* $(r_i)$ *绝对值的* $z_i$ *可乘于* $\mathbf{R}_+^*$ *和族* $(\theta_i)$ *的振幅* $z_i$ *可在群角度中求和* $\mathfrak{A}$。
+*复数* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *的族* $(z_i)$ *可乘当且仅当* $z_i$ *的绝对值的族* $(r_i)$ *可乘于* $\mathbf{R}_+^*$ *且* $z_i$ *的振幅族* $(\theta_i)$ *是可按群角度* $\mathfrak{A}$ 求和。
 
-考虑到群$\mathbf{C}^*$($\S$1、no. 3、命题1)中的结构，命题是命题4中的直接的推论章III、$\S$5、no. 4。
+鉴于群$\mathbf{C}^*$($\S$1、no. 3、命题1)的结构，命题为章的命题4直接的推论 III、$\S$5、no. 4。
 
-如果我们映射每个角度 $\theta$ 到它的度量之一（对于任何给定的基 $a$），其中属于到间隔 $] - \frac{1}{2} a, \frac{1}{2} a ]$，我们就有一个 $\mathfrak{A}$ 和 $\mathbf{R}$ 的*局部同构* （$\S$2，no. 2）；由于$\lim \theta_i = 0$相对于$I$的有限子集的补集过滤器，我们可以替换条件（在命题2的叙述中），族$\theta_i$应该在$\mathfrak{A}$中可求和： 条件 $(t_i)$ $\theta_i$ 的*测量*，其中属于到 $] - \frac{1}{2} a, \frac{1}{2} a ]$ 应可在 $\mathbf{R}$ 中求和。
+如果我们映射每个角度 $\theta$ 到它的一个度量（对于任何给定的基 $a$），属于到间隔 $] - \frac{1}{2} a, \frac{1}{2} a ]$，我们就有一个 $\mathfrak{A}$ 的*局部同构* 和 $\mathbf{R}$ ($\S$ 2， no. 2);由于$\lim \theta_i = 0$相对于$I$的有限子集的补集过滤器，我们可以替换条件（在命题2的叙述中）$\theta_i$应该可以通过条件在$\mathfrak{A}$中求和角度$\theta_i$的*测量*族$(t_i)$，其中属于到$] - \frac{1}{2} a, \frac{1}{2} a ]$应可在$\mathbf{R}$中求和。
 
-下面的定理给出了复数族的另一个标准，放入形式$(1 + u_i)$，可以与$\mathbf{C}^*$相乘。 （它概括了章 IV、$\S$ 7、no. 4 中的定理 4；另请参见章 IX、附录、no. 2、命题 1）：
+下面的定理给出了复数族的另一个标准，放入形式$(1 + u_i)$，可与$\mathbf{C}^*$相乘。 （它概括了章 IV、$\S$ 7、no. 4 中的定理 4；另请参见章 IX、附录、no. 2、命题 1）：
 
 #### 定理 1 {#top-viii-s3-thm-1 .statement tag=0C0K}
 
-*家庭* $(1 + u_i)_{i \in I}$ *可乘于* $\mathbf{C}^*$ *当且仅当家庭* $(|u_i|)$ *可求和于* $\mathbf{R}$。
+*族* $(1 + u_i)_{i \in I}$ *可乘于* $\mathbf{C}^*$ *当且仅当族* $(|u_i|)$ *可求和于* $\mathbf{R}$。
 
 对于 $I$ 中的每个有限子集 $J$，将
 
@@ -78,7 +78,7 @@ $$
 
 #### 引理 1 {#top-viii-s3-lem-1 .statement tag=0C0L}
 
-*对于每个有限子集*$J$*of*$I$，*让*$\varphi(J) = \sup_{L \subset J} (p_L - 1)$。 *然后对于每个子集* $L$ *of* $J$ *我们有*
+*对于每个有限子集* $J$ *of* $I$，*令* $\varphi(J) = \sup_{L \subset J} (p_L - 1)$。 *然后对于每个子集* $L$ *of* $J$ *我们有*
 
 $$
 |p_L - 1 - s_L| \leq \varphi(J) \sigma_L.
@@ -128,7 +128,7 @@ $$
 
 #### 注 1 {#top-viii-s3-n3-rem-1 .statement tag=0C0P}
 
-乘积与一般因子$|1 + u_n|$可以收敛，并且确实在$\mathbf{R}_i^*$绝对收敛，而乘积不与一般因子$1 + |u_n|$收敛（见习题4）；当然，如果所有$u_n$都是真实的，并且从某个指标开始，$> 0$都是真实的，那么这个不能就会发生。
+乘积与一般因子$|1 + u_n|$可以收敛，并且确实在$\mathbf{R}_i^*$绝对收敛，而乘积不与一般因子$1 + |u_n|$收敛（见习题4）；当然，如果所有$u_n$都是真实的并且从某个指标开始$> 0$，就会发生这种不能。
 
 #### 注 2 {#top-viii-s3-n3-rem-2 .statement tag=0C0Q}
 
@@ -136,4 +136,4 @@ $$
 
 ### 习题 {#top-viii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

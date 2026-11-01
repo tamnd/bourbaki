@@ -37,23 +37,23 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: c367cd463732b7ce94f70ebc70101e6596b16a604421fae5d59bfd7a8b73b7a7
+content_sha256: 537e3b56f7aa5d6a0df05db943387c9279e5928ede598d22f5e4eed624216d18
 translated_from: content/en/top/IV/01_s1_definition_of_real_numbers.md
 translation_method: google
 source_content_sha256: f4c12bd1cb845b5f3c66dbac6fe917b0b8b7c5cafbedd83622f13c0a4a7e7248
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c7022abfdb41f922b813dc3929be55a20ce5e94b93127cafb95884d60d199939
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1.定义 / 实数
+## 1. 定义 / 实数
 
 ### 1. 有理数数的有序群
 
-我们定义了有理数在集合$\mathbf{Q}$上的排序$x \leq y$；我们已经看到，这种排序使得$\mathbf{Q}$成为*线性排序*集合，并且它与$\mathbf{Q}$的*加法群*结构*相容的*，即对于每个$z \in \mathbf{Q}$关系$x \leq y$等价于$x + z \leq y + z$（即， *顺序在翻译下保持不变*）。我们回想一下记号（用于任何线性排序的群）
+我们定义了有理数在集合$\mathbf{Q}$上的排序$x \leq y$；我们已经看到，这种排序使$\mathbf{Q}$成为*线性排序*集合，并且它与$\mathbf{Q}$的*加法群*结构*相容的*，即对于每个$z \in \mathbf{Q}$关系$x \leq y$等价于$x + z \leq y + z$（即， *顺序在翻译下保持不变*）。我们回想一下记号（用于任何线性排序的群）
 
 $$
 x^+ = \sup (x, 0), \\
@@ -125,17 +125,17 @@ $$
 
 我们将在 $\mathbf{Q}$ 上使用此排序来定义 *拓扑与其加法群结构* 相容的。
 
-### 2. 有理线
+### 2. 理性线
 
-考虑*对称开区间* $]-a, +a[$的集合$\mathfrak{F}$，其中$a$穿过有理数$> 0$的集合；我们将证明$\mathfrak{F}$是拓扑中*$0$的邻域的*基本系统与$\mathbf{Q}$的加法群结构兼容。
+考虑*对称开区间* $]-a, +a[$的集合$\mathfrak{F}$，其中$a$贯穿有理数$> 0$的集合；我们将证明$\mathfrak{F}$是拓扑中*$0$的邻域的*基本系统与$\mathbf{Q}$的加法群结构兼容。
 
-群$\mathbf{Q}$是可交换的，显然满足公理$(\mathrm{GV}'_{\mathrm{II}})$；因此，足以证明公理$(\mathrm{GV}'_{\mathrm{I}})$在其他字中也满足，对于每个$a > 0$，都存在$b > 0$，使得条件$|x| < b$和$|y| < b$一起意味着$|x + y| < a$。三角形不等式表明我们可以取$b = a/2$。
+群$\mathbf{Q}$是可交换的，显然满足公理$(\mathrm{GV}'_{\mathrm{II}})$；因此，足以证明公理$(\mathrm{GV}'_{\mathrm{I}})$在其他字中也满足，对于每个$a > 0$，存在$b > 0$，使得条件$|x| < b$和$|y| < b$一起意味着$|x + y| < a$。三角形不等式表明我们可以取$b = a/2$。
 
 #### 定义 1 {#top-iv-s1-def-1 .statement tag=0BP1}
 
 *有理线是集合$\mathbf{Q}$和加法群拓扑的拓扑空间由……组成，其中对称开区间$]-a, +a[$$(a > 0)$形式是基本系统邻域 $0$。*
 
-*这样定义的拓扑群$\mathbf{Q}$称为有理线的加法群。*
+*如此定义的拓扑群$\mathbf{Q}$称为有理线的加法群。*
 
 如果$a$是任意有理数数$> 0$，则存在整数$n > 0$使得$1/n < a$；因此，开区间 $]-\frac{1}{n}, +\frac{1}{n}[$ $(n = 1, 2, \ldots)$ 形式是有理线上$0$ 的邻域的基本系统。
 
@@ -161,11 +161,11 @@ $$
 
 关系 $y - x \in \overline{\mathbf{Q}}_+$ 是$\mathbf{R}$ 的排序，使得$\mathbf{R}$ 成为线性排序的集合；与$\mathbf{R}$上的加法群结构兼容，以及$\mathbf{Q}$上的诱导排序$x \leq y$。
 
-我们首先证明关系$y - x \in \overline{\mathbf{Q}}_+$和$z - y \in \overline{\mathbf{Q}}_+$蕴含$z - x \in \overline{\mathbf{Q}}_+$。事实上，函数$x + y$在$\mathbf{R} \times \mathbf{R}$上连续，因此根据(8)我们有$\overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+$(章I, § 2, no. 1，定理1)。接下来，我们将证明关系$y - x \in \overline{\mathbf{Q}}_+$和$x - y \in \overline{\mathbf{Q}}_+$蕴含$x = y$；这将确定 $y - x \in \overline{\mathbf{Q}}_+$ 是对 $\mathbf{R}$ 的排序。足以证明$\overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+) = \{0\}$。现在函数 $x \to x^+$ 和 $x \to x^-$ 在 $\mathbf{Q}$ 上一致连续，因此可以通过连续性扩展到 $\mathbf{R}$ (章 II, , no. 6, 定理 2)；令$f$和$g$分别为扩张。到扩张时，我们为所有 $x \in \mathbf{R}$ 提供了 $x = f(x) - g(x)$； if $x \in \overline{\mathbf{Q}}_+$ then $g(x) = 0$，并且由于 $-\overline{\mathbf{Q}}_+$ 是 $-x$ 连续性对 $-\mathbf{Q}_+$ 的闭包，因此可以得出 if $x \in -\overline{\mathbf{Q}}_+$ then $f(x) = 0$。因此，如果 $x \in \overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+)$ 我们有 $f(x) = g(x) = 0$ 因此 $x = 0$
+我们首先证明关系$y - x \in \overline{\mathbf{Q}}_+$和$z - y \in \overline{\mathbf{Q}}_+$蕴含$z - x \in \overline{\mathbf{Q}}_+$。事实上，函数$x + y$在$\mathbf{R} \times \mathbf{R}$上连续，因此根据(8)我们有$\overline{\mathbf{Q}}_+ + \overline{\mathbf{Q}}_+ \subset \overline{\mathbf{Q}}_+$(章I, § 2, no. 1，定理1)。接下来，我们将证明关系$y - x \in \overline{\mathbf{Q}}_+$和$x - y \in \overline{\mathbf{Q}}_+$隐含$x = y$；这将确定 $y - x \in \overline{\mathbf{Q}}_+$ 是对 $\mathbf{R}$ 的排序。足以证明$\overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+) = \{0\}$。现在函数 $x \to x^+$ 和 $x \to x^-$ 在 $\mathbf{Q}$ 上一致连续，因此可以通过连续性扩展到 $\mathbf{R}$ (章 II, , no. 6, 定理 2)；令$f$和$g$分别为扩张。到扩张时，我们为所有 $x \in \mathbf{R}$ 提供了 $x = f(x) - g(x)$； if $x \in \overline{\mathbf{Q}}_+$ then $g(x) = 0$，并且由于 $-\overline{\mathbf{Q}}_+$ 是 $-x$ 连续性对 $-\mathbf{Q}_+$ 的闭包，因此可以得出 if $x \in -\overline{\mathbf{Q}}_+$ then $f(x) = 0$。因此，如果 $x \in \overline{\mathbf{Q}}_+ \cap (-\overline{\mathbf{Q}}_+)$ 我们有 $f(x) = g(x) = 0$ 因此 $x = 0$
 
 根据 (10)，我们得到 $\overline{\mathbf{Q}}_+ \cup (-\overline{\mathbf{Q}}_+) = \mathbf{R}$，因此 $\mathbf{R}$ 按$y - x \in \overline{\mathbf{Q}}_+$ *线性排序*。
 
-此外，由于关系$y - x \in \overline{\mathbf{Q}}_+$和$(y + z) - (x + z) \in \overline{\mathbf{Q}}_+$是等价的，因此$y - x \in \overline{\mathbf{Q}}_+$的排序与$\mathbf{R}$的加法群结构兼容。
+此外，由于关系$y - x \in \overline{\mathbf{Q}}_+$和$(y + z) - (x + z) \in \overline{\mathbf{Q}}_+$是等价的，所以$y - x \in \overline{\mathbf{Q}}_+$的排序与$\mathbf{R}$的加法群结构兼容。
 
 最后，如果 $x$ 和 $y$ 属于到 $\mathbf{Q}$ 关系 $y - x \in \overline{\mathbf{Q}}_+$ 和 $y - x \in \mathbf{Q}_+$ 等价，因此关系 $y - x \in \overline{\mathbf{Q}}_+$ 诱导关系 $x \leq y$ $\mathbf{Q}$。这样就完成了证明。
 
@@ -227,10 +227,10 @@ $$ ]x - a, x + a[ $$
 
 ### 6. $\mathbf{R}$ 的加性均匀性
 
-由于群 $\mathbf{R}$ 是线性排序的，函数 $x^+, x^-$ 和 $|x|$ 在 $\mathbf{R}$ 上的定义方式与 $\mathbf{Q}$ 和满足相同，上面为 $\mathbf{Q}$ 列出了所有关系，特别是关系 (1)至(7)。令$a$为实数 > 0，并令$U_a$为所有对$(x, y) \in \mathbf{R} \times \mathbf{R}$中的集合，使得$|x - y| < a$；由于$a$贯穿实数>0的集合（或数$1/n$的集合），集合$U_a$形式基本系统的一致性实直线的加法群$\mathbf{R}$（称为*实直线*的加性均匀性）。
+由于群 $\mathbf{R}$ 是线性排序的，函数 $x^+, x^-$ 和 $|x|$ 在 $\mathbf{R}$ 上的定义方式与 $\mathbf{Q}$ 和满足相同，上面为 $\mathbf{Q}$ 列出了所有关系，特别是关系 (1)至(7)。令$a$为实数 > 0，并令$U_a$为所有对$(x, y) \in \mathbf{R} \times \mathbf{R}$中的集合，使得$|x - y| < a$；由于$a$贯穿实数 > 0的集合（或数$1/n$的集合），集合$U_a$形式是均匀性的基本系统实直线的加法群$\mathbf{R}$（称为*实直线*的加性均匀性）。
 
 函数 $|x|$、$x^+$ 和 $x^-$ 在 $\mathbf{R}$ 上“均匀连续”，函数 $\sup(x, y)$ 和 $\inf(x, y)$ 在 $\mathbf{R} \times \mathbf{R}$ 上“均匀连续”；这些函数因此重合以及通过分别在$\mathbf{Q}$和$\mathbf{Q} \times \mathbf{Q}$上定义的连续性扩展相应的函数获得的相应的函数。
 
 ### 习题 {#top-iv-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

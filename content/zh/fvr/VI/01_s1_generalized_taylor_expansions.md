@@ -41,21 +41,21 @@ subsections:
       pdf_page: 297
 statements: 21
 exercises: 3
-content_sha256: 6d3ee3fc5c85d6c0e49027b788279a7d34abb5f57c8651e1083996e6f243b24e
+content_sha256: 22c860fd503cfbbb3fea49a0491d1db1d4f288ac83b4d84e97b95bc3376e48b8
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 translation_method: google
 source_content_sha256: 7b62ad591ac33887b2cec9de99a553da0d73b1a05da4f701901b379dc016e8a0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 00ff201d7c0e826897d147f22207c94c8c4121685cdde7b9e2eabcde2877f8b2
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。广义泰勒展开
 
-### 1.多项式代数上的合成运算符
+### 1. 多项式代数的合成运算符
 
 设 K 为特征 0 的交换域，K 上的一个不定多项式的 K[X] 代数（代数，IV.1）；在整个截面中，通过K[X]上的运算符，我们意味着向量空间K[X]（在K上）的线性映射U自身；因为对于这个空间，单项式 $X^n \ (n \geqslant 0)$ 形式基，U 由多项式 $U(X^n)$ 确定；具体来说，如果 $f(X) = \sum_{k=0}^\infty \lambda_k X^k$ 与 $\lambda_k \in K$，则
 $$
@@ -186,7 +186,7 @@ $$
 
 The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma$ of composition operators on $K[X]$ sometimes allows one to prove propositions on formal series most simply, by proving them for the corresponding composition operators (*cf.* VI, p. 274, prop. 6).
 
-### 2. 上诉附加到合成运算符的多项式
+### 2. 附加到合成运算符的上诉多项式
 
 给定合成运算符$U = \sum_{k=0}^{\infty} \alpha_k D^k \neq 0$，令$p$是整数$k$中最小的一个，使得$\alpha_k \neq 0$；我们可以说$p$是运算符$U$的*阶*。
 
@@ -265,7 +265,7 @@ $$
 
 ### 3. 生成的级数对于上诉多项式
 
-令 E 为不定 S 中*形式级数* 的环，系数为多项式 $K[X]$ 的环 (*Alg.*, IV.41)；在正式级数$g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$的其他字、环中，其中$\alpha_n$属于至$K[X]$。对于$K[X]$上的每个运算符$U$，我们通过将$U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$放入E的定义映射$U_X$自身。显然，E 是 S 中形式级数的模环 $K[[S]]$，系数为 $K$；通过$K[X]$上$U$的线性，我们可以立即验证对于每个元素$\theta \in K[[S]]$和每个$g \in E$都有$U_X(\theta g) = \theta U_X(g)$；在其他字中，$U_X$是模E自身的线性映射。
+令 E 为不定 S 中*形式级数* 的环，系数为多项式 $K[X]$ 的环 (*Alg.*, IV.41)；在正式级数$g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$的其他字、环中，其中$\alpha_n$属于至$K[X]$。对于$K[X]$上的每个运算符$U$，我们通过将$U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$放入E的定义映射$U_X$自身。显然，E 是 S 中形式级数环 $K[[S]]$ 的模，系数为$K$；通过$K[X]$上$U$的线性，我们可以立即验证对于每个元素$\theta \in K[[S]]$和每个$g \in E$都有$U_X(\theta g) = \theta U_X(g)$；在其他字中，$U_X$是模E自身的线性映射。
 
 #### 命题 6 {#fvr-vi-s1-prop-6 .statement tag=08I2}
 
@@ -287,17 +287,17 @@ $$
 
 现在(17)中的第一个项是$U_X(f(X + Y))$，并且由于$U = u(D)$，(17)中的第二个项是$U_Y(f(X + Y))$，所以恒等式(17)约化到(1)(VI，p. 270)。
 
-现在只需将 (15) 应用于合成运算符 $V^{-1} = D^p / u(D)$ 即可获得 (16)，因为到定义时，我们已经
+现在只需将（15）应用于合成运算符$V^{-1} = D^p / u(D)$即可获得（16），因为到定义，我们已经
 
 $$
 V^{-1}(\exp(XS)) = \sum_{n=0}^{\infty} \frac{1}{n!} u_n(X) S^n.
 $$
 
-注 (16) 也可以通过将形式级数 $S^p / u(S)$ 和 $\exp(XS)$ 相乘，并考虑 (6) 来获得。
+注 (16) 也可以通过将形式级数 $S^p / u(S)$ 与 $\exp(XS)$ 相乘，并考虑 (6) 来获得。
 
 有人说，形式级数 (16) 是附加到 $U$ 的阿佩尔多项式的生成的级数。
 
-### 4.伯努利多项式
+### 4. 伯努利多项式
 
 考虑合成运算符 $U$ 定义为
 
@@ -324,7 +324,7 @@ $$
 $$
 (20)
 
-公式 (7) 和 (9) of VI, p. 273，对于伯努利多项式，给出关系
+VI、p. 273的公式 (7) 和 (9)，对于伯努利多项式，给出关系
 
 $$
 \frac{dB_n}{dX} = n B_{n-1}(X)
@@ -336,7 +336,7 @@ B_n(X + 1) - B_n(X) = n X^{n-1}.
 $$
 (22)
 
-特别是，对于$n > 1$，有$B_n(1) - B_n(0) = 0$，考虑到(18)，给出归纳关系
+特别是，对于$n > 1$有$B_n(1) - B_n(0) = 0$，考虑到(18)，给出归纳关系
 
 $$
 \sum_{m=0}^{n-1} \binom{n}{m} b_m = 0 \quad \text{(for } n > 1)
@@ -348,7 +348,7 @@ $$
 \frac{S}{e^S - 1} = -\frac{S}{2} + \frac{S}{2} \frac{e^S + 1}{e^S - 1}
 $$
 
-自从 (VI, p. 272, 公式 (5))
+自 (VI, p. 272, 公式 (5))
 
 $$
 \frac{e^{-S} + 1}{e^{-S} - 1} = -\frac{e^S + 1}{e^S - 1}
@@ -392,19 +392,19 @@ B_3(X) &= X^3 - \frac{3}{2}X^2 + \frac{1}{2}X, & B_4(X) &= X^4 - 2X^3 + X^2 - \f
 \end{align*}
 $$
 
-### 5. 实变量函数上的合成运算符
+### 5. 实变量函数的合成运算符
 
-令I为$\mathbf{R}$包含区间$\mathbf{R}_+ = [0, +\infty[$中的一个区间；令 E 为向量空间超过域 $\mathbf{C}$，由具有复数值的实数变量函数组成，在 I 上定义。我们假设对于每个$a \geqslant 0$和每个函数$f \in E$函数$x \mapsto f(x + a)$属于到E；此外，我们假设*具有复系数*的多项式*和*指数* $e^{\lambda x}$的E包含限制到I，其中$\lambda$是任意*复数*数。 E 的任何线性映射 $U$ 到所有映射的空间从 I 到域 $\mathbf{C}$ 的复数将被称为 E 上的*运算符*；如果$f \in E$和$g = U(f)$使用记号会很方便
+令I为$\mathbf{R}$包含区间$\mathbf{R}_+ = [0, +\infty[$中的一个区间；令 E 为向量空间超过域 $\mathbf{C}$，由具有复数值的实数变量函数组成，在 I 上定义。我们假设对于每个$a \geqslant 0$和每个函数$f \in E$函数$x \mapsto f(x + a)$属于到E；此外，我们假设*具有复系数*的多项式*和*指数*$e^{\lambda x}$的E包含限制到I，其中$\lambda$是任意*复数*数。 E 的任何线性映射 $U$ 到所有映射的空间从 I 到域 $\mathbf{C}$ 的复数将被称为 E 上的*运算符*；如果$f \in E$和$g = U(f)$使用记号会很方便
 
 $$
 g(x) = U_{\xi}^{\xi}(f(\xi))
 $$
 
-其中$\xi$是右侧项函数符号中的*虚拟*变量（*cf.* II，p. 58）。对于每个$a \geqslant 0$，将函数$f \in E$关联到限制到函数$x \mapsto f(x + a)$的I的运算符被a*称为*平移运算符。
+其中 $\xi$ 是右侧项 (*cf.* II, p. 58) 函数符号中的*虚拟*变量。对于每个$a \geqslant 0$，将函数$f \in E$关联到限制到函数$x \mapsto f(x + a)$的I的运算符被a*称为*平移运算符。
 
 #### 定义 3 {#fvr-vi-s1-def-3 .statement tag=08I3}
 
-*有人说，E 上的运算符 U 是合成运算符，如果对于每个 $a \geqslant 0$，它可以通过 a* 与平移运算符进行置换。
+*有人说，E 上的运算符 U 是合成运算符，如果对于每个$a \geqslant 0$，它可以通过 a* 与平移运算符进行置换。
 
 上面介绍的记号中，这个定义就成为恒等式
 
@@ -420,7 +420,7 @@ $$
 
 其中$U_0$是E上的*线性形式*，它与每个函数$f \in E$关联$g = U(f)$的值$g(0)$。
 
-如果$f$是多项式，则有$f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$，公式(26)表明$U(f)$也是多项式；限制为$x$多项式的集合，系数为$\mathbf{C}$，（集合其中一个可以确定与代数$\mathbf{C}[X]$），运算符$U$则为def意义上的合成运算符。 VI、p. 270的I以及前面截面的所有结果都可以应用到它。
+如果$f$是多项式，则有$f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$，公式(26)表明$U(f)$也是多项式；限制为$x$多项式的集合，系数为$\mathbf{C}$，（集合其中一个可以确定与代数$\mathbf{C}[X]$），运算符$U$则为def意义上的合成运算符。 VI、p. 270中的I以及前面截面的所有结果都可以应用于它。
 
 我们再次为附加到运算符 $U$ 的 Appell 多项式写为 $u_n$。对于多项式 (VI, p. 274, 公式 (13)) 的广义泰勒展开，有对应，对于更一般的函数，结果如下：
 
@@ -567,25 +567,25 @@ $$
 \sum_{k=0}^n \int_{-\infty}^{+\infty} \frac{|\lambda \xi|^k}{k!} e^{-\xi^2/2} d\xi \leq 2 \int_0^{+\infty} e^{-(\xi^2/2) + |\lambda| \xi} d\xi.
 $$
 
-因而，级数$\sum_{n=0}^{\infty} e^{-\xi^2/2} \frac{(\lambda \xi)^n}{n!}$可以在$\mathbf{R}$上逐项积分（II，p. 72，cor.1），这证明级数$\sum_{n=0}^{\infty} \alpha_n \lambda^n$对于每个$\lambda \in \mathbf{C}$绝对收敛，并且和等于$u(\lambda) = e^{\lambda^2/2} = \sum_{n=0}^{\infty} \frac{\lambda^{2n}}{2^n n!}$；因此运算符 $U$ 是正则运算符。上面提到的应用引理表明，每$n \geq 0$就有$\alpha_{2n} = 1/2^n n!,\ \alpha_{2n+1} = 0$；因而，运算符 $U$ 的值为阶 0。
+因而，级数$\sum_{n=0}^{\infty} e^{-\xi^2/2} \frac{(\lambda \xi)^n}{n!}$可以在$\mathbf{R}$上逐项积分（II，p. 72，cor.1），这证明级数$\sum_{n=0}^{\infty} \alpha_n \lambda^n$对于每个$\lambda \in \mathbf{C}$绝对收敛，并且和等于$u(\lambda) = e^{\lambda^2/2} = \sum_{n=0}^{\infty} \frac{\lambda^{2n}}{2^n n!}$；因此运算符 $U$ 是正则运算符。上面提到的应用引理表明，每$n \geq 0$就有$\alpha_{2n} = 1/2^n n!,\ \alpha_{2n+1} = 0$；因而，运算符 $U$ 的值是阶 0。
 
 $$
 \frac{1}{u(\lambda)} = e^{-\lambda^2/2} = \sum_{n=0}^{\infty} \frac{(-1)^n \lambda^{2n}}{2^n n!},
 $$
 
-对于每一个$\lambda \in \mathbf{C}$，级数绝对收敛； 另一个应用引理可知$\beta_{2n} = \frac{(-1)^n (2n)!}{2^n n!},\ \beta_{2n+1} = 0$；此外，级数$\sum_{n=0}^{\infty} \frac{\lambda^n}{n!} u_n(x)$对于每个$\lambda \in \mathbf{C}$和每个$x \in \mathbf{R}$绝对收敛，并且有
+级数对于每个$\lambda \in \mathbf{C}$绝对收敛； 另一个应用引理可知$\beta_{2n} = \frac{(-1)^n (2n)!}{2^n n!},\ \beta_{2n+1} = 0$；进一步，级数$\sum_{n=0}^{\infty} \frac{\lambda^n}{n!} u_n(x)$对于每个$\lambda \in \mathbf{C}$和每个$x \in \mathbf{R}$绝对收敛，并且有
 
 $$
 \sum_{n=0}^{\infty} \frac{\lambda^n}{n!} u_n(x) = \exp \left( -\frac{\lambda^2}{2} + \lambda x \right) = \exp \left( \frac{x^2}{2} \right) \exp \left( -\frac{1}{2} (\lambda - x)^2 \right).
 $$
 
-在应用上，泰勒公式到函数$\exp(-x^2/2)$，然后可以得到多项式$u_n(x)$的以下表达式：
+在应用上，泰勒公式到函数$\exp(-x^2/2)$，然​​后可以得到多项式$u_n(x)$的以下表达式：
 
 $$
 u_n(x) = (-1)^n e^{\lambda^2/2} \frac{d^n}{dx^n} (e^{-x^2/2}).
 $$
 
-该多项式称为次数 $n$ 的*埃尔米特多项式*，通常用 $\mathrm{H}_n(x)$ 表示。 VI、p. 273的公式(7)、(8)和(9)，这里给出
+该多项式称为次数 $n$ 的*埃尔米特多项式*，通常用 $\mathrm{H}_n(x)$ 表示。 VI、p. 273的公式(7)、(8)、(9)，这里给出
 
 $$
 \frac{d \mathrm{H}_n}{dx} = n \mathrm{H}_{n-1}(x)
@@ -599,7 +599,7 @@ $$
 \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} e^{-\xi^2/2} \mathrm{H}_n(x+\xi) d\xi = x^n
 $$
 
-VI、p. 278 的公式 (27) 变为，对于 $h = 0$
+并且VI、p. 278的公式 (27) 变为，对于$h = 0$
 
 $$
 \sqrt{2\pi} f(x) = \sum_{m=0}^n \left( \int_{-\infty}^{+\infty} e^{\xi^2/2} f^{(m)}(\xi) d\xi \right) \frac{\mathrm{H}_m(x)}{m!}
@@ -608,7 +608,7 @@ $$
 - \int_{-\infty}^{+\infty} d\xi \int_0^\xi \frac{\mathrm{H}_n(x+\eta)}{n!} e^{-(\xi+\eta)^2/2} f^{(n+1)}(x+\xi-\eta) d\eta.
 $$
 
-### 7.欧拉-麦克劳林求和公式
+### 7. 欧拉-麦克劳林求和公式
 
 在VI、p. 280的公式(35)中，让我们将替换$x$乘以0，将$h$乘以$x$；因为 $\mathrm{B}_m(0) = b_m$ 是从 VI、p. 276 的关系 (24) 得出的，对于每个整数 $p > 0$ 可以写
 
@@ -622,7 +622,7 @@ $$
 $$
 R_p(x) = - \frac{1}{(2p+1)!} \int_0^1 \mathrm{B}_{2p+1}(t) f^{(2p+1)}(x+1-t) dt.
 $$
-在这个公式让我们依次通过$x+1, x+2, \ldots, x+n$替换$x$，并把得到的公式一一组合起来；我们得到
+在这个公式让我们依次通过替换$x$乘以$x+1, x+2, \ldots, x+n$，并将得到的公式一一组合起来；我们得到
 
 $$
 \begin{cases}
@@ -648,8 +648,8 @@ $$
 T_p(x, n) = - \frac{1}{(2p+1)!} \int_0^{n+1} \overline{B}_{2p+1}(1 - s) f^{(2p+1)}(x + s) ds.
 $$ (41)
 
-公式 (39) 称为*欧拉-麦克劳林求和公式*；它适用于每个复数函数，对于每个$x \geq x_0$，在区间$[x_0, +\infty[$上具有连续的$(2p + 1)^{th}$导数。我们将看到（VI，p. 288）如何估计这个公式中的*余数*$T_p(x, n)$。
+公式 (39) 称为*欧拉-麦克劳林求和公式*；它适用于每个复数函数，对于每个$x \geq x_0$，在区间$[x_0, +\infty[$上都有连续的$(2p + 1)^{th}$导数。我们将看到（VI，p. 288）如何估计这个公式中的*余数*$T_p(x, n)$。
 
-### 习题 {#fvr-vi-s1-exercises}
+### 习题{#fvr-vi-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

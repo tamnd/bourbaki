@@ -25,16 +25,16 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: bffbbeaad154b477da234b5973d1116df36b88b555fd1c4079611931d3de75a6
+content_sha256: c4713a69e1dab10bf0bc40839caed3c051e2b7396302c9724ef22817e83cf453
 translated_from: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 78359984fd72f570938f28fdd80715c249ddc585d312089e4556c2677edeb57f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 06577a377b9b4d15737985608d2ad6f8897fc1ed0ca3087f64a4911bb379e63e
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。可度量拓扑向量空间
@@ -174,10 +174,10 @@ $$
 
 *然后设 u 为 F 中 E 的线性映射。如果 u 的图在* $E \times F$ 中闭合，*则存在整数 n 和 E 在* $F_n$ *中的连续线性映射* $u_n$ *使得* $u = v_n \circ u_n$ *（这意味着 u 是连续的并且* $u(E) \subset v_n(F_n)$).*
 
-令 G 为$E \times F$ 中$u$ 的图。对于所有$n$，我们考虑$E \times F$中$E \times F_n$的连续线性映射$w_n : (x, y) \mapsto (x, v_n(y))$；由于 G 是闭集，集合 $w_n^{-1}(G) = G_n$ 是 $E \times F_n$ 的闭集向量子空间；如果$p_n$是第一个投影$\mathrm{pr}_1$的限制到$G_n$，我们有$p_n(G_n) = u^{-1}(v_n(F_n))$。由于 $p_n$ 是连续的且 $G_n$ 是完备的（因为 $G_n$ 在完备的空间 $E \times F_n$ 中是封闭的），$p_n(G_n)$ 到定理 1，要么是 E 中的微不足道，要么是 E 的全部。但是，到假设时，E 是$p_n(G_n)$的并，并且由于E是完整的，所以Baire的定理在E中$p_n(G_n)$不能都是微不足道的（GT，IX, § 5.3，第1）。因此存在整数 n 使得$p_n(G_n) = E$，或其他字 $u(E) \subset v_n(F_n)$。进一步，由于$v_n$是单射的，$G_n$是E在$F_n$中的线性映射$u_n$的图，由闭图定理(I，p. 19，cor.5)$u_n$是*连续的*；然后从定义得出$u = v_n \circ u_n$。
+令 G 为$E \times F$ 中$u$ 的图。对于所有$n$，我们考虑$E \times F_n$在$E \times F$中的连续线性映射$w_n : (x, y) \mapsto (x, v_n(y))$；由于 G 是闭集，集合 $w_n^{-1}(G) = G_n$ 是 $E \times F_n$ 的闭集向量子空间；如果$p_n$是第一个投影$\mathrm{pr}_1$的限制到$G_n$，我们有$p_n(G_n) = u^{-1}(v_n(F_n))$。由于 $p_n$ 是连续的并且 $G_n$ 是完备的（因为 $G_n$ 在完备的空间 $E \times F_n$ 中是封闭的），$p_n(G_n)$ 到定理 1 要么是 E 中的微不足道，要么是 E 的全部。但是，到假设时，E 是$p_n(G_n)$的并，并且由于E是完整的，所以Baire的定理在E中$p_n(G_n)$不能都是微不足道的（GT，IX, § 5.3，第1）。因此存在整数 n 使得$p_n(G_n) = E$，或其他字 $u(E) \subset v_n(F_n)$。进一步，由于$v_n$是单射的，$G_n$是E在$F_n$中的线性映射$u_n$的图，由闭图定理(I，p. 19，cor.5)$u_n$是*连续的*；然后从定义得出$u = v_n \circ u_n$。
 
 习题
 
-### 习题{#evt-i-s3-exercises}
+### 习题 {#evt-i-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

@@ -56,21 +56,21 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 30
-content_sha256: 55dc0773aa8759101027d82a2f90da92a5183bd9418b67d9bb8d788b1a27d509
+content_sha256: 826a0b059505119474ce418ddb246b0735fb3f4c1aa83635f1b80fa492f483d6
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
 translation_method: google
 source_content_sha256: e46166486e36efa944d66af30ebaacb93e9bc8f019659598c1d03449537e5e11
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9e866c08996d498993831d4a81da0d64f5880604af2e8c4ed828fb66a47f1bab
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。 HAAR 措施的构造
 
-### 1.定义和记号
+### 1. 定义和记号
 
 设 G 是一个在局部紧凑空间 X 中连续在左侧运行的拓扑群（GT，III, §2, No. 4）；对于$s \in G$和$x \in X$，令$sx$为$x$乘$s$的变换。我们用 $\gamma_X(s)$ 或 $\gamma(s)$ 表示 X 到 X 的同胚，定义为
 
@@ -245,7 +245,7 @@ $$
 (10') \quad d\mu(xs) = \chi(s)\,d\mu(x).
 $$
 
-如果将与G相反的群$G^0$视为$(x,s) \mapsto xs$在X中运算，则$\mu$在$G^0$下相对不变，乘子$\chi$也相同。
+如果将与G相反的群$G^0$视为$(x,s) \mapsto xs$在X中运算，则$\mu$在$G^0$下相对不变，乘子$\chi$相同。
 
 最后，令 G 为局部紧致群。根据公式$\gamma(s)x = sx$、$\delta(s)x = xs^{-1}$，它通过左右翻译自行运行。然后
 
@@ -279,13 +279,13 @@ $$
 (15) \quad \check{\mu}(A) = \mu(A^{-1}).
 $$
 
-我们同意用$d\mu(x^{-1})$代替$d\check{\mu}(x)$，然后(14)取形式
+我们同意写$d\mu(x^{-1})$代替$d\check{\mu}(x)$，然后(14)取形式
 
 $$
 \int_G f(x)\, d\mu(x^{-1}) = \int_G f(x^{-1})\, d\mu(x).
 $$
 
-### 2.存在和唯一性定理
+### 2. 存在和唯一性定理
 
 #### 定义 2 {#int-vii-s1-def-2 .statement tag=09D2}
 
@@ -293,7 +293,7 @@ $$
 
 #### 定理 1 {#int-vii-s1-thm-1 .statement tag=09D3}
 
-*在每个局部紧凑群上，都存在一个左（或右）哈尔测度，并且，直到常数因子，仅存在一个。*
+*在每个局部紧凑群上，都存在一个左（或右）哈尔测度，并且，直到常数因子，只存在一个。*
 
 A) *存在。* — 集合 $\mathscr{K}(G) = \mathscr{K}$、$\mathscr{K}_+(G) = \mathscr{K}_+$、$\mathscr{K}_+^* = \mathscr{K}_+ - \{0\}$。如果C是G的紧子集，我们用$f \in \mathscr{K}_+^*$的$\mathscr{K}_+^*(C)$集合表示，并在C中提供支持。对于$f \in \mathscr{K}$和$g \in \mathscr{K}_+^*$，G中存在数、$c_1, \ldots, c_n \geq 0$和元素$s_1, \ldots, s_n$，使得$f \leq \sum_{i=1}^n c_i \gamma(s_i)g$：对于，G中存在非空开集合U，使得$\inf_{s \in U} g(s) > 0$，并且支持$f$ 可以被 U 的有限数左翻译覆盖。令 $(f : g)$ 为数 $\sum_{i=1}^n c_i$ 的下确界，对于数 $\geq 0$ 和元素的所有系统 $(c_1, \ldots, c_n, s_1, \ldots, s_n)$ G 使得$f \leq \sum_{i=1}^n c_i \gamma(s_i)g$。然后：
 
@@ -406,13 +406,13 @@ $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
 $$
 
-独立于选择或 $a \in \mathbf{R}$； 直接的平移不变；因此它是定义对$T$的哈尔测度。 By 迁移 of 结构, one deduces from this that $I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$ is a Haar measure on 乘法群 $U$ of 复数 of absolute 值 1 (GT, VIII, §2, No. 1).
+独立于选择或 $a \in \mathbf{R}$； 直接的平移不变；因此，定义是$T$的哈尔测度。通过结构的迁移，由此推出$I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$是绝对值1（GT，VIII, §2, No. 1）的复数的乘法群$U$的哈尔测度。
 
 #### 命题 2 {#int-vii-s1-prop-2 .statement tag=09D6}
 
 — *让* $G$ *成为局部紧凑的群*，$\mu$ *左或右哈尔测量* $G$。 *对于* $G$ *要离散，* $\mu(\{e\}) > 0$ 是必要且充分的。 *为了*$G$*要紧凑，*$\mu^*(G) < +\infty$是必要且充分的。
 
-条件 are obviously necessary.让我们展示他们的充足性。设$V$是$e$的紧邻域。如果$\mu(\{e\}) > 0$，则$V$是自$\mu(V) < +\infty$以来的有限集合；由于 $G$ 是 Hausdorff，因此它是离散的。假设 $\mu^*(G) < +\infty$ 和 $\mu$ 对于例是左不变的。考虑有限子集 $\{s_1, \ldots, s_n\}$ $G$ 的集合 $\mathscr{E}$，使得$s_i V \cap s_j V = \varnothing$ $i \neq j$；然后
+条件显然是必要的。让我们展示他们的充足性。设$V$是$e$的紧邻域。如果$\mu(\{e\}) > 0$，则$V$是自$\mu(V) < +\infty$以来的有限集合；由于 $G$ 是 Hausdorff，因此它是离散的。假设 $\mu^*(G) < +\infty$ 和 $\mu$ 对于例是左不变的。考虑集合$\mathscr{E}$/有限子集$\{s_1, \ldots, s_n\}$/$G$，使得$s_i V \cap s_j V = \varnothing$对应$i \neq j$；那么
 
 $$
 n \mu(V) = \mu(s_1 V \cup \ldots \cup s_n V) \leq \mu^*(G),
@@ -420,9 +420,9 @@ $$
 
 因此$n \leq \mu^*(G)/\mu(V)$。因此，我们可以将选择放入$\mathscr{E}$极大元素$\{s_1, \ldots, s_n\}$。那么，对于每个$s \in G$，都存在一个$i$使得$s V \cap s_i V \neq \varnothing$，因此使得$s \in s_i V V^{-1}$。因此$G$是紧集$s_i V V^{-1}$的并，因此是紧致的。
 
-### 3.模数
+### 3. 模数
 
-Let $\mu$ be a left Haar measure on $G$. For every $s \in G$, $\delta(s)\mu$ is also left-invariant (No. 1, 公式 (11)), therefore (Th. 1) there exists a unique 数 $\Delta_G(s) > 0$ such that $\delta(s)\mu = \Delta_G(s)\mu$.凭借Th。 1、数$\Delta_G(s)$独立于$\mu$的选择。
+令$\mu$为$G$的左哈尔测度。对于每个$s \in G$，$\delta(s)\mu$也是左不变的（No. 1，公式（11）），因此（Th.1）存在一个唯一的数$\Delta_G(s) > 0$，使得$\delta(s)\mu = \Delta_G(s)\mu$。凭借Th。 1、数$\Delta_G(s)$独立于$\mu$的选择。
 
 #### 定义 3 {#int-vii-s1-def-3 .statement tag=09D7}
 
@@ -554,19 +554,19 @@ $$
 
 *如果 G 是离散的、紧致的或可交换的，则 G 是幺模的。*
 
-当 G 是“可交换的”时，这也是微不足道的。 注另外，如果 G 是*离散*，那么每个点的质量为 1 的 G 上的测度显然是 G 上的左右 Haar 测度，称为 G 上的*归一化* Haar 测度。如果 G 是*紧凑*，则 G 上存在且仅有一个 Haar 测度，使得 $\mu(G) = 1$；它被称为 G 的“归一化”Haar 测度。当 G 既是离散的又是紧致的（即有限的）时，前面的两个约定不一致；当我们遇到这种情况时，我们将始终明确指定标准化哈尔测度的含义。
+当 G 是“可交换的”时，这也是微不足道的。 注另外，如果 G 是*离散*，则每个点的质量为 1 的 G 上的测度显然是 G 上的左右 Haar 测度，称为 G 上的*归一化* Haar 测度。如果 G 是*紧凑*，则 G 上存在且仅有一个 Haar 测度，使得 $\mu(G) = 1$；它被称为 G 的“归一化”Haar 测度。当 G 既是离散的又是紧致的（即有限的）时，前面的两个约定不一致；当我们遇到这种情况时，我们将始终明确指定标准化哈尔测度的含义。
 
 幺模群的子群和商群并不总是幺模（§ 2，Exer.5）。不过，请参阅§ 2, No. 7 的第 10 号提案。
 
 *稍后我们将看到半单或幂零连通的李群是幺模的。*
 
-### 4. 自同构的模数
+### 4. 模数自同构
 
 设G是G的局部紧群，$\varphi$自同构，$\mu$G上的左Haar测度。显然，$\varphi^{-1}(\mu)$也是G上的左Haar测度。因此存在(No. 2，Th.1)一个且仅有一个数 $a > 0$使得$\varphi^{-1}(\mu) = a \mu$。截至 No. 2，周四。 1、这个数独立于$\mu$的选择。 注如果一个人从正确的 Haar 测度开始，对于例 $\Delta_G^{-1} \cdot \mu$ (No. 3)，我们会得到相同的标量 $a$：因为，因为 $\varphi^{-1}$ 使 $\Delta_G$ 不变（No. 3，注），一个有 $\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$。
 
 #### 定义 4 {#int-vii-s1-def-4 .statement tag=09DB}
 
-*数$a > 0$，因而$\varphi^{-1}(\mu) = a \mu$称为自同构$\varphi$的模，并表示为$\operatorname{mod}_G \varphi$或简称为$\operatorname{mod} \varphi$。*
+*数 $a > 0$，因而 $\varphi^{-1}(\mu) = a \mu$ 称为自同构 $\varphi$ 的模，并表示为 $\operatorname{mod}_G \varphi$ 或简称为 $\operatorname{mod} \varphi$。*
 
 如果 $f$ 是 G 上的 $\mu$ 可积函数，则
 
@@ -596,21 +596,21 @@ $$
 
 #### 命题 4 {#int-vii-s1-prop-4 .statement tag=09DC}
 
-*设 G 为局部紧致群、$\Gamma$ 拓扑群、以及 $\Gamma$ 的 $\gamma \mapsto u_\gamma$ 同态到 G 的自同构的群 $\mathscr{G}$，使得 $(\gamma, x) \mapsto u_\gamma(x)$是G中$\Gamma \times G$的连续映射。那么，映射$\gamma \mapsto \operatorname{mod}(u_\gamma)$是$\mathbf{R}_+^*$中$\Gamma$的连续表示。
+*设 G 为局部紧致群、$\Gamma$ 拓扑群，以及 $\Gamma$ 的 $\gamma \mapsto u_\gamma$ 同态到 G 的自同构的群 $\mathscr{G}$，使得 $(\gamma, x) \mapsto u_\gamma(x)$是G中$\Gamma \times G$的连续映射。那么，映射$\gamma \mapsto \operatorname{mod}(u_\gamma)$是$\mathbf{R}_+^*$中$\Gamma$的连续表示。
 
 这个映射显然是$\mathbf{R}_+^*$中$\Gamma$的表示（代数）；足以证明其连续性。令 $f \in \mathscr{K}(G)$ 并令 S 为其支持。*
 
-令$\gamma_0 \in \Gamma$和$U$是$u_{\gamma_0}^{-1}(S)$的相对紧凑邻域。 映射$\gamma \mapsto u_\gamma$是$\Gamma$到$\mathscr{G}$的连续映射，配备拓扑紧致收敛（GT，X, §3, No. 4，Th.3）；因此 $u_\gamma^{-1}(S) \subset U$ 对于 $\gamma$ 足够接近 $\gamma_0$。 No. 1的引理 1则证明$\int f(u_\gamma(x)) d\mu(x)$（其中$\mu$表示$G$的左哈尔测度）连续依赖于$\gamma$； 从而命题。
+令$\gamma_0 \in \Gamma$和$U$是$u_{\gamma_0}^{-1}(S)$的相对紧凑邻域。 映射$\gamma \mapsto u_\gamma$是$\Gamma$到$\mathscr{G}$的连续映射，配备拓扑紧致收敛（GT、X, §3, No. 4、Th.3）；因此 $u_\gamma^{-1}(S) \subset U$ 对于 $\gamma$ 足够接近 $\gamma_0$。 No. 1的引理 1则证明$\int f(u_\gamma(x)) d\mu(x)$（其中$\mu$表示$G$的左哈尔测度）连续依赖于$\gamma$； 从而命题。
 
-### 5. Haar 测量乘积
+### 5. 哈尔测量乘积
 
 #### 命题 5 {#int-vii-s1-prop-5 .statement tag=09DD}
 
-— *让* $(G_\iota)_{\iota \in I}$ *成为局部紧致群* 的族。 *对于每个* $\iota \in I$ *让* $\mu_\iota$ *成为* $G_\iota$ 上的左（或右）哈尔测度。 *假设存在* $I$ *的有限子集* $J$ *这样，对于每个* $\iota \in I - J$，$G_\iota$ *是紧凑的并且* $\mu_\iota(G_\iota) = 1$。 *然后乘积测量* $\bigotimes_{\iota \in I} \mu_\iota$ *是左（或右）Haar 测量* $G = \prod_{\iota \in I} G_\iota$。 *如果* $x = (x_\iota) \in G$ *那么*
+— *让* $(G_\iota)_{\iota \in I}$ *成为局部紧凑群*的族。 *对于每个* $\iota \in I$ *让* $\mu_\iota$ *成为* $G_\iota$ 上的左（或右）哈尔测度。 *假设存在* $I$ *的有限子集* $J$ *这样，对于每个* $\iota \in I - J$，$G_\iota$ *是紧凑的并且* $\mu_\iota(G_\iota) = 1$。 *然后乘积测量* $\bigotimes_{\iota \in I} \mu_\iota$ *是左（或右）Haar 测量* $G = \prod_{\iota \in I} G_\iota$。 *如果* $x = (x_\iota) \in G$ *那么*
 $$
 \Delta_G(x) = \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota).
 $$
-对于$I$的每一个有限子集$J$，$\bigotimes_{\iota \in J} \mu_\iota$是$\prod_{\iota \in J} G_\iota$上的左（或右）哈尔测度，如下从定义开始。因此 $\bigotimes_{\iota \in I} \mu_\iota$ 是$G$ 的左（或右）Haar 测度（第 III, §4, No. 6 章，第 9 条）。另一方面，如果 $\mu_\iota$ 是左哈尔措施，那么
+对于$I$的每个有限子集$J$，$\bigotimes_{\iota \in J} \mu_\iota$是$\prod_{\iota \in J} G_\iota$上的左（或右）哈尔测度，如下紧接定义。因此 $\bigotimes_{\iota \in I} \mu_\iota$ 是$G$ 的左（或右）Haar 测度（第 III, §4, No. 6 章，第 9 条）。另一方面，如果 $\mu_\iota$ 是左哈尔措施，那么
 $$
 \delta(x) \left( \bigotimes_{\iota \in I} \mu_\iota \right) = \bigotimes_{\iota \in I} \delta(x_\iota) \mu_\iota = \bigotimes_{\iota \in I} (\Delta_{G_\iota}(x_\iota) \mu_\iota) = \left( \prod_{\iota \in I} \Delta_{G_\iota}(x_\iota) \right) \bigotimes_{\iota \in I} \mu_\iota,
 $$
@@ -620,13 +620,13 @@ $$
 
 — 1) $\mathbf{R}^n$ 的勒贝格测度是加法群 $\mathbf{R}^n$ 的哈尔测度。
 
-2) 映射 $(r, u) \mapsto ru$ 是$\mathbf{R}_+^* \times \mathbf{U}$ 的同构到$\mathbf{C}^*$（GT，VIII, §1, No. 3）。如果通过该同构将$\mathbf{C}^*$与$\mathbf{R}_+^* \times \mathbf{U}$识别，并且如果$du$表示$\mathbf{U}$上的哈尔测度，则$r^{-1} dr du$是$\mathbf{C}^*$乘No. 2的例2上的哈尔测度。另一方面，将$[0, 1[$的双射$\theta \mapsto e^{2i\pi \theta}$到$\mathbf{U}$变换将$[0, 1[$上的勒贝格测度$d\theta$转换为$\mathbf{U}$上的哈尔测度到No. 2的例3。由此可见，如果$f \in \mathscr{H}(\mathbf{C}^*)$，则积分
+2) 映射 $(r, u) \mapsto ru$ 是$\mathbf{R}_+^* \times \mathbf{U}$ 的同构到$\mathbf{C}^*$（GT，VIII, §1, No. 3）。如果通过该同构将$\mathbf{C}^*$与$\mathbf{R}_+^* \times \mathbf{U}$识别，并且如果$du$表示$\mathbf{U}$上的哈尔测度，则$r^{-1} dr du$是No. 2的例2在$\mathbf{C}^*$上的哈尔测度。另一方面，将$[0, 1[$的双射$\theta \mapsto e^{2i\pi \theta}$到$\mathbf{U}$变换，将$[0, 1[$上的勒贝格测度$d\theta$转换为$\mathbf{U}$上No. 2的例3的哈尔测度。由此可见，如果$f \in \mathscr{H}(\mathbf{C}^*)$，则积分
 $$
 \int_0^{+\infty} \int_0^1 f(re^{2i\pi \theta}) r^{-1} dr\, d\theta
 $$
 定义 $\mathbf{C}^*$ 的哈尔测度。
 
-### 6. Haar 测量逆极限*
+### 6. 哈尔测量逆极限*
 
 令 G 为局部紧致群 （因此是完备的）。令$(K_\alpha)_{\alpha \in A}$为G的紧致法线子群的递减有向族，其中交$\{e\}$（以便由$K_\alpha$形成的滤波器基收敛于e）。 集合$G_\alpha = G / K_\alpha$；令$\varphi_\alpha : G \to G_\alpha$和$\varphi_{\beta \alpha} : G_\alpha \to G_\beta \ (\alpha \geq \beta)$为典范同态。那么，逆系$(G_\alpha, \varphi_{\beta \alpha})$中的逆极限可以用G来识别，并且这个逆极限到$G_\alpha$中的典范映射可以用$\varphi_\alpha$来识别（GT，III, §7, No. 3，命题2）。 映射 $\varphi_\alpha$ 和 $\varphi_{\beta \alpha}$ 是正确的（*loc.cit.*，§4, No. 1，第 1 条命题第 2 条）。这些假设在整个小节期间保持固定。
 
@@ -710,9 +710,9 @@ $\alpha$到$\mathbf{Z}_p$的限制显然是$\mathbf{Z}_p$的哈尔测度。
 
 *设 G，G' 是两个局部紧致群，V（分别为 V'），G 的中性元素（分别为 G'）的开邻域，以及 $\varphi$ G' 的局部同构，其中 G（GT，III, §1, No. 3，Def.2）定义在V'，这样$\varphi(V') = V$。令$\alpha'$为G'上的左哈尔测度，$\alpha'_V$，其限制至$V'$。那么$\varphi(\alpha'_{V'})$是$G$上唯一的左哈尔测度$\alpha$的限制到$V$。
 
-令$V_1$是$e$在$G$中的开邻域，使得$V_1 V_1^{-1} \subset V$。令$\mu$为$\varphi(\alpha'_{V'})$到$V_1$中的限制。令$U$为$V_1$的开子集，并令$s \in G$为$sU \subset V_1$。然后$s \in V_1 V_1^{-1} \subset V$，因此$s = \varphi(s')$对于一些$s' \in V'$。让$x \in U$。然后 $x = \varphi(x')$ 对应一些 $x' \in V'$，因此从 $sx \in sU \subset V$ 开始为 $sx = \varphi(s')\varphi(x') = \varphi(s'x')$。由于$G'$中的左翻译保留了$\alpha'$，我们可以看到第9条命题的$V_1$和$\mu$满足条件。令$\alpha$为$G$的左哈尔测度，归纳出$\mu$ $V_1$。对于每个$t \in V$，在$V_1$中存在$e$的开邻域$W$，使得$tW \subset V$。那么$\varphi(\alpha'_{V'})$到$tW$的限制可以通过从$\mu$到$W$的限制平移推出，因此是$\alpha$到$tW$的限制。因此，$\varphi(\alpha'_{V'})$是$\alpha$到$V$中的限制。
+令$V_1$是$e$在$G$中的开邻域，使得$V_1 V_1^{-1} \subset V$。令$\mu$为$\varphi(\alpha'_{V'})$到$V_1$中的限制。令$U$为$V_1$的开子集，并令$s \in G$为$sU \subset V_1$。然后$s \in V_1 V_1^{-1} \subset V$，因此$s = \varphi(s')$对于一些$s' \in V'$。让$x \in U$。然后 $x = \varphi(x')$ 对应一些 $x' \in V'$，因此从 $sx \in sU \subset V$ 开始为 $sx = \varphi(s')\varphi(x') = \varphi(s'x')$。由于$G'$中的左翻译保留了$\alpha'$，我们可以看到第9条命题的$V_1$和$\mu$满足条件。设$\alpha$为$G$的左哈尔测度，归纳出$\mu$ $V_1$。对于每个$t \in V$，在$V_1$中存在$e$的开邻域$W$，使得$tW \subset V$。那么$\varphi(\alpha'_{V'})$到$tW$的限制可以通过从$\mu$到$W$的限制翻译推出，因此是$\alpha$到$tW$的限制。因此，$\varphi(\alpha'_{V'})$是$\alpha$到$V$中的限制。
 
-有人说$\alpha$ *是从* $\alpha'$ *通过本地同构* $\varphi$推导出来的。
+有人说$\alpha$ *是通过本地同构* $\varphi$从* $\alpha'$ *推导出来的。
 
 #### 例 {#int-vii-s1-n7-exa-1 .statement tag=09DM}
 
@@ -735,7 +735,7 @@ $$
 
 *令$\mu$为$G$的左哈尔测度。为了使$G$上的非零的测度$\nu$相对左不变，它是形式$a \chi \cdot \mu$是充分必要的，其中$a \in \mathbf{C}^*$和$\chi$是$\mathbf{C}^*$中$G$的连续表示；那么它的乘子就是$\chi$。*
 
-条件就足够了（提案 10）。另一方面，如果 $\nu$ 是非零的与乘子 $\chi$ 的相对左不变测度，则 $\chi^{-1} \cdot \nu$ 是左不变的（命题 10），因此是形式 $a \mu$ 与 $a \in \mathbf{C}^*$ (No. 2，科 1)。
+条件就足够了（提案 10）。另一方面，如果 $\nu$ 是非零的与乘子 $\chi$ 相对左不变测度，则 $\chi^{-1} \cdot \nu$ 是左不变的（命题 10），因此是形式 $a \mu$ 与 $a \in \mathbf{C}^*$ (No. 2，科 1)。
 
 #### 推论 2 {#int-vii-s1-prop-10-cor-2 .statement tag=09DP}
 
@@ -762,13 +762,13 @@ $$
 
 因此$\nu'$与左乘子$\chi^{-1} \Delta_G^{-1}$和右乘子$\chi^{-1}$相对不变。
 
-对于每个相对不变的测度，可忽略、局部可忽略、可测量和局部可积函数的概念都是相同的。
+对于每个相对不变的度量，可忽略、局部可忽略、可测量和局部可积函数的概念都是相同的。
 
-### 9.准不变测度
+### 9. 准不变测度
 
 #### 命题 11 {#int-vii-s1-prop-11 .statement tag=09DQ}
 
-*设 G 为局部紧致群，$\mu$ G 上的左 Haar 测度。对于 G 上的测度 $\nu \neq 0$ 拟不变，$\nu$ 等于 $\mu$ 是充分必要的。*
+*设 G 为局部紧致群，$\mu$ G 上的左 Haar 测度。要使 G 上的测度 $\nu \neq 0$ 保持拟不变，$\nu$ 等于 $\mu$ 是充分必要的。*
 
 充足性是显而易见的。令$\nu \neq 0$为左准不变测度，并证明$\nu$等价于$\mu$。我们可以将自己限制在$\nu > 0$的情况。设 A 是 G 的紧子集。我们将证明，就像建立命题一样，条件 $\mu(A) = 0$、$\nu(A) = 0$ 是等价的（Ch. V, §5, No. 5、Th. 2）。
 
@@ -784,13 +784,13 @@ $$
 (37) \quad 0 = \int \varphi_A(xy)f(x)\,d\mu(x) = \Delta_G(y)^{-1} \int \varphi_A(x)f(xy^{-1})\,d\mu(x).
 $$
 
-令 B 为 G 的紧致子集，使得 $\nu(B) \neq 0$，并取 $\mathscr{K}_+(G)$ 中的 $f$ 函数等于 $AB^{-1}$ 上的 1。则存在 $y \in B$ 使得 (37) 得到验证。但由于$\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$对应$y \in B$，这就证明了$\mu(A) = 0$。
+设B是G的紧子集，使得$\nu(B) \neq 0$，并且$\mathscr{K}_+(G)$中的$f$函数等于$AB^{-1}$上的1。则存在 $y \in B$ 使得 (37) 得到验证。但由于$\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$对应$y \in B$，这就证明了$\mu(A) = 0$。
 
-c) 假设$\mu(A) = 0$。那么，对于每个 $f \in \mathscr{K}_+(G)$，(36) 的左侧是零，因此右侧也是。因而，存在局部 $\mu$ 可忽略不计的集合 M，使得 $\int \varphi_A(xy)\,d\nu(y) = 0$ 对应 $x \notin M$。从$\mu \neq 0$开始，对于某些$x \in G$、从而$\nu(A) = 0$，可以得出$\nu(xA) = 0$。
+c) 假设$\mu(A) = 0$。那么，对于每个 $f \in \mathscr{K}_+(G)$，(36) 的左侧是零，因此右侧也是。因而，存在局部 $\mu$ 可忽略不计的集合 M，使得 $\int \varphi_A(xy)\,d\nu(y) = 0$ 对于 $x \notin M$。从$\mu \neq 0$开始，对于某些$x \in G$、从而$\nu(A) = 0$，可以得出$\nu(xA) = 0$。
 
-应用命题 11 到 $G^0$，可以看到右侧准不变测度与左侧准不变测度相同。它们被简单地称为 G 上的准不变测度。
+应用命题 11 到 $G^0$，可以看到右侧的准不变测度与左侧的准不变测度相同。它们被简单地称为 G 上的准不变测度。
 
-### 10.局部紧凑域
+### 10. 局部紧凑域
 
 #### 定义 6 {#int-vii-s1-def-6 .statement tag=09DR}
 
@@ -806,15 +806,15 @@ c) 假设$\mu(A) = 0$。那么，对于每个 $f \in \mathscr{K}_+(G)$，(36) �
 
 — *函数 mod 在 K 上连续，并且* $\mathrm{mod}(ab) = \mathrm{mod}(a)\mathrm{mod}(b)$ *对于所有* $a, b$ *在 K* 中。
 
-最后一个断言是显而易见的。 No. 4 的命题 4 表明，函数 mod 在 $K^*$ 的每点处是连续的。它仍然只是显示其在 0 处的连续性。这对于离散 K 来说是显而易见的；因此我们假设 K 非离散。令$\alpha$为$K^+$的Haar测度，并令C为K的紧致子集，使得$\alpha(C) > 0$；对于$a \in K^*$，我们有$\alpha(aC) = \mathrm{mod}(a)\alpha(C)$。
+最后一个断言是显而易见的。 No. 4的命题4表明函数模在$K^*$的每点连续。它仍然只是显示其在 0 处的连续性。这对于离散 K 来说是显而易见的；因此我们假设 K 非离散。令$\alpha$为$K^+$的哈尔测度，令C为K的紧致子集，使得$\alpha(C) > 0$；对于$a \in K^*$，我们有$\alpha(aC) = \mathrm{mod}(a)\alpha(C)$。
 
-（1）军团（A、I, §9, No. 1），又译为“师环”（GT、III, §6, No. 7）。
+（1）军团（A，I, §9, No. 1），又译为“师环”（GT，III, §6, No. 7）。
 
 由于 K 不是离散的，$\alpha(\{0\}) = 0$（No. 2，命题 2）；因而，对于每个$\varepsilon > 0$，都存在一个为0的开邻域U，使得$\alpha(U) \leq \varepsilon$。由于 K 中的乘积是连续的，因而 $a$ 的 $aC \subset U$ 足够接近 0，然后是 $\mathrm{mod}(a) \leq \varepsilon / \alpha(C)$。
 
 #### 命题 13 {#int-vii-s1-prop-13 .statement tag=09DU}
 
-— *对于每个*$M > 0$，*让*$V_M$*成为*$x \in K$的集合*使得*$\mathrm{mod}(x) \leq M$。 *如果* K *是非离散的，则* $V_M$ *形式是* K 中* 0 *的紧邻域的基本系统。
+— *对于每个* $M > 0$，*让* $V_M$ *成为* $x \in K$ *的集合 *这样* $\mathrm{mod}(x) \leq M$。 *如果* K *是非离散的，则* $V_M$ *形式是* K 中* 0 *的紧邻域的基本系统。
 
 根据第 12 条命题，$V_M$ 是 0 的闭邻域。让我们证明它们是紧邻域。设 U 为 0 的紧邻域。K 中存在 $r \neq 0$，使得所有 $n > 0$ 都有 $\mathrm{mod}(r) < 1$ 和 $r^n \in U$：对于，令 W 为 0 的邻域，使得 $WU \subset U$；根据命题 12，K 中存在 $r \neq 0$，使得 $\mathrm{mod}(r) < 1$ 和 $r \in U \cap W$；然后$r^2 \in WU \subset U$，以及$r^n \in U$，对于$n > 0$，在$n$ 上归纳。我们将证明$V_M$包含在集合$r^{-q}U$（$q$整数$\geq 0$）的有限并中，这将证明$V_M$确实是紧致的。如果$x$是序列$(r^n)$的簇点，则$\mathrm{mod}(x)$是序列$(\mathrm{mod}(r)^n)$的簇点，因此$\mathrm{mod}(x) = 0$，$x = 0$；由于 U 是紧致的，因此 (GT, I, §9, No. 1, Cor. of Th. 1) $\lim_{n \to \infty} r^n = 0$。现在让$a \in V_M$。由于序列$(r^n a)_{n \geq 0}$趋于0，因此存在最小的整数$n \geq 0$使得$r^n a \in U$。如果$n > 0$则$r^{n-1} a \notin U$，因此$r^n a \in U \cap C(rU)$； $U \cap C(rU)$ 的闭包 X 是紧致的，因为 U 是紧致的，并且它不是包含 0，因为 $rU$ 是 0 的邻域；因此，在 X 中，$\mathrm{mod}(x)$ 的边界为数 $m > 0$。因此，如果$n > 0$，我们有$m \leq \mathrm{mod}(r^n a)$，从而$\mathrm{mod}(r^{-1})^n \leq M/m$。由于$\mathrm{mod}(r^{-1}) > 1$，整数$n$只能承担值的有限数，数不依赖于$a$，这完成了我们的断言的证明。
 
@@ -936,9 +936,9 @@ $$
 
 ### 11. 局部紧致域上的有限维代数
 
-令$K$为交换域，$A$是有限秩与单位元元素的$K$代数。对于每个$a \in A$，令$L_a, R_a$为自同态$x \mapsto ax$、向量空间$A$的$x \mapsto xa$，并令$N_{A/K}(a) \in K$、$N_{A^0/K}(a) \in K$为$a$的范数 $A$ 和反代数 $A^0$ 中的正则表示；回想一下$N_{A/K}(a) = \det(L_a)$，$N_{A^0/K}(a) = \det(R_a)$（A，III, §9, No. 3）。以下条件是等效的：$a$可逆，$L_a$在$\mathrm{Hom}_K(A, A)$中可逆，$R_a$在$\mathrm{Hom}_K(A, A)$中可逆，$N_{A/K}(a) \neq 0$，$N_{A^0/K}(a) \neq 0$。我们用$A$的可逆元的$A^*$集合来表示。
+令$K$为交换域，$A$是有限秩与单位元元素的$K$代数。对于每个$a \in A$，令$L_a, R_a$为向量空间$A$的自同态、$x \mapsto ax$、$x \mapsto xa$，并让$N_{A/K}(a) \in K$、$N_{A^0/K}(a) \in K$为$a$的范数 $A$ 和反代数 $A^0$ 中的正则表示；回想一下$N_{A/K}(a) = \det(L_a)$，$N_{A^0/K}(a) = \det(R_a)$（A，III, §9, No. 3）。以下条件是等效的：$a$可逆，$L_a$在$\mathrm{Hom}_K(A, A)$中可逆，$R_a$在$\mathrm{Hom}_K(A, A)$中可逆，$N_{A/K}(a) \neq 0$，$N_{A^0/K}(a) \neq 0$。我们用$A$的可逆元的$A^*$集合来表示。
 
-现在假设域 $K$ 是局部紧致的，因此代数 $A$ 是局部紧致的。那么$N_{A/K}$和$N_{A^0/K}$是$A$的映射连续到$K$，因此$A^*$在$A$开。由科. No. 10第15号提案1，
+现在假设域 $K$ 是局部紧凑的，因此代数 $A$ 是局部紧凑的。那么$N_{A/K}$和$N_{A^0/K}$是$A$的映射连续到$K$，因此$A^*$在$A$开。由科. No. 10第15号提案1，
 
 $$
 \mathrm{mod}_A L_a = \mathrm{mod}_K N_{A/K}(a), \quad \mathrm{mod}_A R_a = \mathrm{mod}_K N_{A^0/K}(a).
@@ -972,7 +972,7 @@ $$
 X_1 = \begin{pmatrix} 0 & i \\ i & 0 \end{pmatrix} \quad X_2 = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} \quad X_3 = \begin{pmatrix} i & 0 \\ 0 & -i \end{pmatrix}
 $$
 
-其中，与 $I_2$、$\mathbf{M}_2(\mathbf{C})$ 中的形式基一起超过 $\mathbf{C}$。很容易验证
+其中，与$I_2$、$\mathbf{M}_2(\mathbf{C})$中的形式基一起超过$\mathbf{C}$。很容易验证
 
 $$
 X_1^2 = X_2^2 = X_3^2 = -I_2, \qquad X_1 X_2 = -X_2 X_1 = X_3,
@@ -981,7 +981,7 @@ $$
 X_2 X_3 = -X_3 X_2 = X_1, \qquad X_3 X_1 = -X_1 X_3 = X_2.
 $$
 
-因此，映射$a + b i + c j + d k \mapsto a I_2 + b X_1 + c X_2 + d X_3$可以扩展到代数$\mathbf{C} \otimes_\mathbf{R} \mathbf{H}$到代数$\mathbf{M}_2(\mathbf{C})$的$\mathbf{C}$同构。由于$[\mathbf{H} : \mathbf{R}] = 4$，$\mathbf{C}$是$\mathbf{H}$的中和域（*Alg.*，第VIII, §10章，n° 5），$q = a + b i + c j + d k \in \mathbf{H}$的约化范数是
+因此，映射$a + b i + c j + d k \mapsto a I_2 + b X_1 + c X_2 + d X_3$可以扩展到代数$\mathbf{C} \otimes_\mathbf{R} \mathbf{H}$到代数$\mathbf{M}_2(\mathbf{C})$的$\mathbf{C}$同构。由于$[\mathbf{H} : \mathbf{R}] = 4$，$\mathbf{C}$是$\mathbf{H}$的中和域（*Alg.*，第VIII, §10，n° 5），并且$q = a + b i + c j + d k \in \mathbf{H}$的约化范数是
 
 $$
 \mathrm{Nrd}(q) = \det(a I_2 + b X_1 + c X_2 + d X_3)
@@ -1004,8 +1004,8 @@ $$
 
 对局部紧致域的结构将在CA，VI, §9进行更深入的研究。
 
-(2) 这也可从 Cor 中得出。命题 15 的第 1 条，以及左乘 $z = a + i b$ 相对于 $\mathbf{C}$ 的典范基 $1, i$ 与 $\mathbf{R}$ 的关系，有矩阵 $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$。
+(2) 这也可从 Cor 中得出。命题 15 的 1 以及左乘 $z = a + i b$ 相对于 $\mathbf{C}$ 的典范基 $1, i$ 与$\mathbf{R}$ 的矩阵 $\begin{pmatrix} a & -b \\ b & a \end{pmatrix}$ 的事实。
 
 ### 习题{#int-vii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

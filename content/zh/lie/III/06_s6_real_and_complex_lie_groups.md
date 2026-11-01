@@ -53,16 +53,16 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 5bbe9278db438c4ec8485e576912aece3b24261934b63a5c4873d1ff003e017c
+content_sha256: 49ed56cb4e63a83cabe904f9f51f7faf2b83b2b41c5100191341e9b510066651
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 translation_method: google
 source_content_sha256: e472279781ec8c0c5cc2af6e1e4dd1a20a67a73d7a8042acdd1dea73f6ae558d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8cc1a4abec58d48e3ac593a6433cd220a9ab496b6d5cd0dc749a0a5656e86618
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。真实而复杂李群
@@ -73,7 +73,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 引理 1 {#lie-iii-s6-lem-1 .statement tag=0AE8}
 
-*设 G 为单连通†拓扑群，W 为 e、H 群和 $W^3$ 的 f 映射的对称连通开邻域到 H 中，使得*
+*令 G 为单连通†拓扑群，W 为 E、H 群和 $W^3$ 的 f 映射的对称连通开邻域到 H，使得*
 
 $$
 f(xyz) = f(x)f(y)f(z)
@@ -87,9 +87,9 @@ $$
 (su', tf(u')) = (guu', hf(uu')) \in A(g, h, U)
 $$
 
-† 参见。 *将军拓扑*的章XI（出现）。在此章中证明，若$G_1, G_2$拓扑连通群，则$\phi$是$G_1$到$G_2$与离散核的开连续同态，且$G_2$单连通，则$\phi$为同胚。另一方面，回想一下简单连接的空间是连接的。
+† 参见。 *一般拓扑*的章XI（出现）。在此章中证明，若$G_1, G_2$拓扑连通群，则$\phi$是$G_1$到$G_2$与离散核的开连续同态，且$G_2$单连通，则$\phi$为同胚。另一方面，回想一下简单连接的空间是连通的。
 
-因此$A(s, t, U') \subset A(g, h, U)$。那么$G \times H$上的拓扑的$A(g, h, U)$形式基。我们将用这个拓扑表示$Y$集合$G \times H$，并用$p$表示$Y$的规范投影到$G$，这是开放的。 $p$到$A(g, h, U)$的限制是$A(g, h, U)$到$gU$的同胚。因此$(Y, p)$是$G$的覆盖空间。令$Y_0$为由$A(e, e, W)$生成的$Y$的子群，并令$\mathfrak{B}$为$A(e, e, U)$的集合。显然，$\mathfrak{B}$满足*一般拓扑*、章III, § 1, no. 2的条件（GV$_1'$）和（GV$_1''$）。 $y \in Y_0$的集合$Y_0'$使得$Y_0$的映射$z \mapsto yzy^{-1}$和$z \mapsto y^{-1}zy$进入$Y_0$在$(e, e)$是$Y_0$的子群连续。让$w \in W$。 $W$到$G$的映射$w' \mapsto ww'w^{-1}$是连续的，因此映射
+因此$A(s, t, U') \subset A(g, h, U)$。那么$G \times H$上的拓扑的$A(g, h, U)$形式基。我们用拓扑表示$Y$集合$G \times H$，并用$p$表示$Y$的规范投影到$G$，它是开放的。 $p$到$A(g, h, U)$的限制是$A(g, h, U)$到$gU$的同胚。因此$(Y, p)$是$G$的覆盖空间。令$Y_0$为$A(e, e, W)$生成的$Y$的子群，并令$\mathfrak{B}$为$A(e, e, U)$的集合。显然，$\mathfrak{B}$满足*一般拓扑*、章III, § 1, no. 2的条件（GV$_1'$）和（GV$_1''$）。 $y \in Y_0$的集合$Y_0'$使得$Y_0$的映射$z \mapsto yzy^{-1}$和$z \mapsto y^{-1}zy$进入$Y_0$在$(e, e)$处是$Y_0$的子群连续。让$w \in W$。 $W$到$G$的映射$w' \mapsto ww'w^{-1}$是连续的，因此映射
 
 $$
 (w', f(w')) \mapsto (ww'w^{-1}, f(ww'w^{-1}))
@@ -123,7 +123,7 @@ $\phi$ 的存在性由引理 1 和§ 4, no. 1、定理 1 (i) 推出。 $\phi$ �
 
 (2) 存在有限维连通李群$G$，使得$G$的每个有限维解析线性表示都有非离散核（习题3和4）。
 
-### 2.积分子群
+### 2. 积分子群
 
 #### 定义 1 {#lie-iii-s6-def-1 .statement tag=0AEC}
 
@@ -289,7 +289,7 @@ G 的子群 (G, G) 并不总是闭集 (§ 9, 习题 6)。
 
 通过迁移或结构，ad(a) 在 Aut(a) 下是不变的，因此 Int(a) 在 Aut(a) 中是正规的。根据§ 4, no. 4、推论1到命题8以及Int(a)连通的事实，Int(a)的元素是形式exp ad x的自同构的有限乘积，其中x ∈ a。一般来说，Int(a) 不是 Aut(a) (习题 14) 的谎言子群。
 
-### 3.从李代数到李群的通道
+### 3. 从李代数到李群的通道
 
 #### 定理 3 {#lie-iii-s6-thm-3 .statement tag=0AEW}
 
@@ -305,7 +305,7 @@ G 的子群 (G, G) 并不总是闭集 (§ 9, 习题 6)。
 
 #### 命题 5 {#lie-iii-s6-prop-5 .statement tag=0AEX}
 
-*设 G 为连通的实李群。假设$L(G)$有一个复范数李代数结构$L'$与其真实范数李代数结构兼容。 G 上存在且仅有一个与实李群结构和李代数 $L'$ 兼容的复合体李群结构。*
+*设 G 为连通的实李群。假设$L(G)$有一个复范数李代数结构$L'$与其真实范数李代数结构兼容。 G 上存在且仅存在一个与实李群结构和李代数 $L'$ 兼容的复数李群结构。*
 
 由$§ 4$，no. 2，推论2到定理2，足以证明$L'$的结构在Ad G下是不变的。设$\phi$是G的映射指数。由$§ 4$，no. 4，推论3(i)至命题8，$L(G)$中存在0的邻域V，使得$L'$的结构在Ad$\phi(V)$下不变。但 Ad $\phi(V)$ 生成 G 因为 G 是连通的。
 
@@ -317,13 +317,13 @@ G 的子群 (G, G) 并不总是闭集 (§ 9, 习题 6)。
 
 G 到 $\mathscr{L}(L(G))$ 的全纯映射 $g \mapsto \mathrm{Ad}\,g$ 是常数（*可微且解析流形*，R，3.3.7），因此对于所有$a \in L(G)$（$§ 3$，no. 12，$\mathrm{ad}\,a = 0$， 命题44）。因此 G 是可交换的（$§ 4$，推论 3 到定理 1）。
 
-### 4.指数映射
+### 4. 指数映射
 
 #### 定理 4 {#lie-iii-s6-thm-4 .statement tag=0AEZ}
 
 *设G为李群。存在且仅有一个定义在 $L(G)$ 上的 G 指数映射。*
 
-在 $L(G)$ 中存在 0 的凸开邻域 U，以及在 U 上定义的 G 的指数映射。可以假设，通过选择足够小的 U，
+在 $L(G)$ 中存在 0 的凸开邻域 U，并且在 U 上定义 G 的指数映射。可以假设，通过选择足够小的 U，
 $$
 \phi((\lambda + \lambda')a) = \phi(\lambda a)\phi(\lambda'a)
 $$
@@ -340,11 +340,11 @@ $$
 
 #### 例 {#lie-iii-s6-n4-exa-1 .statement tag=0AF0}
 
-设 $A$ 为完全规范单位结合词代数。那么$\exp_{A^*}$就是章II, § 7, no. 3定义的指数映射。
+令 $A$ 为完全规范单位结合律代数。那么$\exp_{A^*}$就是章II, § 7, no. 3定义的指数映射。
 
 #### 命题 7 {#lie-iii-s6-prop-7 .statement tag=0AF1}
 
-*令 $G$ 为李群，且 $L(G)$ 为 $a$ 元素。 $K$的映射$\lambda \mapsto \exp(\lambda a)$到$G$是李群$K$到$G$的唯一态射$\phi$，使得$(T_0 \phi)1 = a$。
+*令 $G$ 为李群，且 $L(G)$ 为 $a$ 元素。 $K$的映射$\lambda \mapsto \exp(\lambda a)$到$G$的结果是李群$K$到$G$的唯一态射$\phi$，使得$(T_0 \phi)1 = a$。
 
 $K \times K$的映射$(\lambda, \lambda') \mapsto \exp(\lambda a) \exp(\lambda' a)$和$(\lambda, \lambda') \mapsto \exp(\lambda + \lambda') a$进入$G$是解析的，重合在$(0, 0)$的邻域上。由于$K \times K$相连，因此这些映射相等。因此$\phi : \lambda \mapsto \exp(\lambda a)$是$K$到$G$的李群态射。 0 到 $\lambda \mapsto \lambda a$ 处的切线映射为映射 $\lambda \mapsto \lambda a$；和$T_e(\exp) = \mathrm{Id}_{L(G)}$；因此$(T_0 \phi)1 = a$。 命题的唯一性断言由定理 1 得出。*
 
@@ -506,7 +506,7 @@ $$
 
 #### 推论 3 {#lie-iii-s6-prop-13-cor-3 .statement tag=0AFI}
 
-*让$x \in E$。为了使$x$在$\varphi(G)$下不变，$x$被$L(\varphi)(L(G))$湮灭是必要且充分的（即$x$在$L(\varphi)$下在章、I, § 3、定义意义上不变） 3).*
+*让$x \in E$。为了使$x$在$\varphi(G)$下不变，$x$被$L(\varphi)(L(G))$湮灭是充分必要的（即$x$在$L(\varphi)$下在章、I, § 3、定义意义上不变） 3).*
 
 在命题 13 中取$E_1 = Kx$ 和$E_2 = 0$ 就足够了。
 
@@ -517,7 +517,7 @@ $$
 (i) $T\varphi(g) = \varphi'(g)T$ 对于所有 $g \in G$；
 (ii) $TL(\varphi)(a) = L(\varphi')(a)T$ 对于所有 $a \in L(G)$。
 
-令$\sigma$为$\mathscr{L}(E, E')$上$G$的线性表示，源自$\varphi$和$\varphi'$（§ 3, no. 11，推论1至命题41）。 条件 (i) 表示$T$ 在$\sigma(G)$ 下不变。 条件 (ii) 意味着$T$ 被$L(\sigma)(L(G))$ 湮灭。那么应用推论 3 就足够了。
+令$\sigma$为$\mathscr{L}(E, E')$上$G$的线性表示，源自$\varphi$和$\varphi'$（§ 3, no. 11，推论1至命题41）。 条件 (i) 意味着$T$ 在$\sigma(G)$ 下不变。 条件 (ii) 意味着$T$ 被$L(\sigma)(L(G))$ 湮灭。那么应用推论 3 就足够了。
 
 #### 推论 5 {#lie-iii-s6-prop-13-cor-5 .statement tag=0AFK}
 
@@ -531,7 +531,7 @@ $$
 
 为了使$L_t$（或$R_t$）右（或左）不变，$\varepsilon_g * t = t * \varepsilon_g$对于所有$g \in G$是必要且充分的，即$(\mathrm{Int}\, g)_* t = t$。存在整数$n$使得$t \in U_n(G)$。根据推论3和§ 3, no. 12的命题 45，$(\mathrm{Int}\, g)_* t = t$对于所有$g \in G$当且仅当$[a, t] = 0$对于所有$a \in L(G)$，即当且仅当$t$与$U(G)$通勤。
 
-### 6.正态积分子群
+### 6. 正态积分子群
 
 #### 引理 3 {#lie-iii-s6-lem-3 .statement tag=0AFM}
 
@@ -560,13 +560,13 @@ $\mathrm{Ad}\, g = T_e(\mathrm{Int}\, g)$。因此，通过结构的迁移，$(\
 
 *设 G 为有限维单连通李群。令 m, h 为 L(G) 的谎言子代数，使得 L(G) 是 m 通过 h 的半直乘积。设M、H为G的相应的积分子代数。则M和H是G的单联子群，并且作为李群，G是M与H的半直乘积。*
 
-到命题 14，H 是 G 的正规李子群，并且李群 G/H 是单连通的。令 $\pi$ 为 G 在 G/H 上的规范态射。 M 中存在 G/H 的态射 $\theta$，使得 $L(\theta)$ 是 $L(G)/L(H) = L(G)/h$ 到 $L(M) = m$ 的典范同构。然后
+到命题 14 时，H 是 G 的正规李子群，并且李群 G/H 是单连通的。令 $\pi$ 为 G 在 G/H 上的规范态射。 M 中存在 G/H 的态射 $\theta$，使得 $L(\theta)$ 是 $L(G)/L(H) = L(G)/h$ 到 $L(M) = m$ 的典范同构。然后
 
 $$
 L(\pi \circ \theta) = L(\pi) \circ L(\theta) = \mathrm{Id}_{L(G/H)}
 $$
 
-因此$\pi \circ \theta = \mathrm{Id}_{G/H}$。由 no. 1，推论 1 至命题 1，$\theta(G/H) = M$。通过§ 1, no. 4的命题8，M是G的谎言子群，李群G是H对M的半直乘积。
+因此$\pi \circ \theta = \mathrm{Id}_{G/H}$。由no. 1，推论1到命题1，$\theta(G/H) = M$。通过§ 1, no. 4的命题8，M是G的谎言子群，李群G是H对M的半直乘积。
 
 #### 推论 2 {#lie-iii-s6-prop-14-cor-2 .statement tag=0AFP}
 
@@ -599,11 +599,11 @@ $$
 = \pi(\rho_1(\pi_3(x))) \pi(\rho_1(\pi_3(x)))^{-1} x = x.
 $$
 
-如果现在 L(G) 包含 L(H) 的唯一理想是 L(G) 和 L(H)，则李代数 $L(G)/L(H)$ 要么是一维，要么是简单的。在这两种情况下，$L(G)$都是子代数乘以​​$L(H)$的半直接乘积；这在第一种情况下很明显，在第二种情况下，这是从章I, § 6，推论3到定理5。断言(i)然后从推论1得出。
+如果现在 L(G) 包含 L(H) 的唯一理想是 L(G) 和 L(H)，则李代数 $L(G)/L(H)$ 要么是一维的，要么是简单的。在这两种情况下，$L(G)$都是子代数乘以$L(H)$的半直接乘积；这在第一种情况下很明显，在第二种情况下，这是从章I, § 6，推论3到定理5。断言（i）然后从推论1得出。
 
 断言 (ii) 是显而易见的。 断言 (iii) 由 (i) 和 (ii) 得出。
 
-当 G 为无限维或 H 不正规时（习题 8 和 15），推论 2 的结论不再必然成立。
+当 G 是无限维或者 H 不是正规的（习题 8 和 15）时，推论 2 的结论不再必然成立。
 
 #### 推论 3 {#lie-iii-s6-prop-14-cor-3 .statement tag=0AFQ}
 
@@ -619,7 +619,7 @@ $$
 
 f 的唯一性从§ 3, no. 17、推论 2 到命题 59 以及 M 是连通的事实。我们证明f的存在性。存在M的开覆盖$(U_i)_{i \in I}$，并且对于所有$i \in I$，类$C^{r-1}$的映射$g_i : U_i \to G$，使得$g_i^{-1} \cdot dg = \alpha$在$U_i$上（§ 4, no. 6，定理5）。到§ 3, no. 17，推论2到命题59，$g_i g_j^{-1}$在$U_i \cap U_j$上局部恒定。让$g_i g_j^{-1} = g_{ij}$。令 $G_d$ 为群 G，并具有离散的拓扑。 $g_{ij} : U_i \cap U_j \to G_d$ 是连续的，$g_{ij} g_{jk} = g_{ik}$ 在 $U_i \cap U_j \cap U_k$ 上。由于M是单连通的，因此在$U_i \cap U_j$上存在连续的映射$\lambda_i : U_i \to G_d$使得$g_i g_j^{-1} = \lambda_i \lambda_j^{-1}$。令g为M到G的映射，其限制到$U_i$对于所有$i \in I$来说是$\lambda_i^{-1} g_i$。这个映射是类$C^{r-1}$和$g^{-1} dg = \alpha$。由$f = s(g(x))^{-1} g$定义的M到G的映射 f满足条件$f^{-1} \cdot df = \alpha$和$f(x) = s$。
 
-### 8.从无穷小运算的律到运算的律
+### 8. 从无穷小运算的律到运算的律
 
 #### 引理 4 {#lie-iii-s6-lem-4 .statement tag=0AFS}
 
@@ -731,7 +731,7 @@ $$
 
 令 E 为 $\mathbf{C}$、$v \in \mathscr{L}(E)$ 和 $g = \exp v$ 上的完全可范空间。假设每个$z \in \mathrm{Sp}\, v$都满足$-\pi < \mathscr{J}(z) < \pi$。那么，对于$E$的每个闭向量子空间$E'$，条件$v(E') \subset E'$和$g(E') = E'$是等价的。
 
-条件$v(E') \subset E'$意味着$g(E') \subset E'$和$g^{-1}(E') \subset E'$，因此意味着$g(E') = E'$。假设$g(E') = E'$。我们使用命题 17 的记号 $\Delta, \Delta'$。由于$\mathrm{Sp}\, v$ 是$\Delta$ 的紧凑子集，因此存在一个紧凑矩形$Q = (a, b) \times (a', b')$，使得$\mathrm{Sp}\, v \subset Q \subset \Delta$。 集合 $\Delta - Q$ 已连接。因此$\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$、集合$\exp Q$是紧致的并且集合$\Delta' - \exp Q$是连通的。后者的关闭包含 $]-\infty, 0]$ 因此
+条件$v(E') \subset E'$意味着$g(E') \subset E'$和$g^{-1}(E') \subset E'$，因此意味着$g(E') = E'$。假设$g(E') = E'$。我们使用命题 17 的记号 $\Delta, \Delta'$。由于$\mathrm{Sp}\, v$ 是$\Delta$ 的紧凑子集，因此存在一个紧凑矩形$Q = (a, b) \times (a', b')$，使得$\mathrm{Sp}\, v \subset Q \subset \Delta$。 集合 $\Delta - Q$ 已连接。因此 $\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$、集合 $\exp Q$ 是紧致的，集合 $\Delta' - \exp Q$ 是连通的。后者的关闭包含 $]-\infty, 0]$ 因此
 
 $$
 (\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q
@@ -745,11 +745,11 @@ $$
 
 令 $F = \mathscr{L}(E)$、$g'$ 为 F 的映射 $f \mapsto gfg^{-1}$ 入 F，$v'$ 为 F 的映射 $f \mapsto [v, f]$ 入 F。则 $g' = \exp v'$ (no. 4，推论 3 至命题 10 及§ 3, no. 11，推论 1 至命题 41)。 引理 6 证明$-\pi < \mathscr{J}(z) < \pi$ 对于所有$z \in \mathrm{Sp}\, v'$。那么就足以应用命题 19。
 
-### 10.有限维实李群的复化
+### 10. 有限维的复化实李群
 
 #### 引理 7 {#lie-iii-s6-lem-7 .statement tag=0AG4}
 
-设 B 为群，A 为 B 的正常子群，C 群 $B/A$，$i : A \to B$ 和 $p : B \to C$ 为规范的态射。令$A'$为群，并将A的$f$同态代入$A'$。设$\omega$为B的态射到$A'$的自同构群。假设对于$a \in A'$、$a' \in A'$、$b \in B$，
+设 B 为群，A 为 B 的正常子群，C 群 $B/A$，$i : A \to B$ 和 $p : B \to C$ 为规范的态射。令$A'$为群，并将A的$f$同态代入$A'$。设$\omega$为B的态射，代入$A'$的自同构群。假设对于$a \in A'$、$a' \in A'$、$b \in B$，
 
 $$
 f\left(bab^{-1}\right) = \omega(b)f(a), \quad \omega(a)a' = f(a)a'f(a)^{-1}.
@@ -915,10 +915,10 @@ $(G, \gamma)$，或简称为$\tilde{G}$，被称为$G$的万能复化。
 $$
 G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
-经过上的定义到$G/G_0$ 上$\tilde{G}/\tilde{G}_0$ 的商同构。
+定义在经过上除以 $G/G_0$ 的商同构到 $\tilde{G}/\tilde{G}_0$。
 
-(2) 假设$G$是单连通的。令 $g = L(G)$、$g_C$ 为$g$、$S'$ 的单连通复形李群与李代数 $g_C$ 和 $G$ 的$\sigma$ 态射复化为 $S'$，使得$L(\sigma)$ 是 $g$ 中的典范嵌入变成 $g_C$。我们再次使用命题20、部分(a)的证明记号。如果$H = S'$和$\phi = \sigma$，则$\phi^* = \mathrm{Id}_{S'}$。因此$(S', \sigma)$是$G$的万有复数。 注 $\sigma$ 不是一般单射 (习题 16)；然而*它的核是离散的*，因为$L(\sigma)$是单射的。另一方面，令$\theta$为由$g$定义的$g_C$的对合，并令$\eta$为$S'$的底层实李群的相应的自同构；设${S'}^\eta$为$S'$点集合在$\eta$下不变；这是 $S'$ 的真实谎言子群和李代数 $g$（§ 3, no. 8，推论 1 到命题 29）。根据no. 1，推论1到命题1，$\sigma(G)$是$S'$与李代数$g$的实积分子群，因此$\sigma(G)$*是*${S'}^\eta$的恒等分量；特别是$\sigma(G)$是$S'$的真实谎言子群。
+(2) 假设$G$是单连通的。令 $g = L(G)$、$g_C$ 为$g$、$S'$ 的单连通复形李群与李代数 $g_C$ 和 $G$ 的$\sigma$ 态射复化为 $S'$，使得$L(\sigma)$ 是 $g$ 的典范嵌入变成 $g_C$。我们再次使用命题20、部分(a)的证明记号。如果$H = S'$和$\phi = \sigma$，则$\phi^* = \mathrm{Id}_{S'}$。因此$(S', \sigma)$是$G$的万有复数。 注 $\sigma$ 不是一般单射 (习题 16)；然而*它的核是离散的*，因为$L(\sigma)$是单射的。另一方面，令$\theta$为由$g$定义的$g_C$的对合，并令$\eta$为$S'$的基础实李群的相应的自同构；设${S'}^\eta$为$S'$点集合在$\eta$下不变；这是 $S'$ 的真实谎言子群和李代数 $g$（§ 3, no. 8，推论 1 到命题 29）。根据no. 1，推论1到命题1，$\sigma(G)$是$S'$与李代数$g$的实积分子群，因此$\sigma(G)$*是*${S'}^\eta$的恒等分量；特别是$\sigma(G)$是$S'$的真实谎言子群。
 
-### 习题{#lie-iii-s6-exercises}
+### 习题 {#lie-iii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

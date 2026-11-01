@@ -24,16 +24,16 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 4b2c71871bc5a5915d7ce8bf98cd02a0814a96c4f3fb9ff128548e730e542664
+content_sha256: 04f748e71589d35c5b24005aa1ffb924bc249abd29b52f5ad4df9be6ae4742c7
 translated_from: content/en/top/V/04_s4_exponentials_and_logarithms.md
 translation_method: google
 source_content_sha256: 55a9b7eecb6aa809fbac52ae103f840e9203fcdc0fe64340d7af904b5c851e60
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 6ca82175c22f23a0f3dc2bcc0ca21bd93de5060ae2d3d0430cff97bcecc01140
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 4. 指数和对数
@@ -46,7 +46,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 因为$\mathbf{R}_+^* = ]0, +\infty[$是$\mathbf{R}$的开区间，因此与$\mathbf{R}$*同胚*（章IV, § 4, no. 1，命题1）。因此，通过 § 3 的定理 2，它是群 *同构的*到 $\mathbf{R}$。
 
-从推论到§ 1, no. 3的命题5，对于每个数$a > 0$，都有一个唯一的连续同态$f_a$，从$\mathbf{R}$到$\mathbf{R}_+^*$，使得$f_a(1) = a$。因此，对于所有 $x \in \mathbf{R}$ 和所有 $y \in \mathbf{R}$，我们有
+从推论到§ 1, no. 3的命题 5，对于每个数$a > 0$，$\mathbf{R}$到$\mathbf{R}_+^*$都有一个唯一的连续同态$f_a$，使得$f_a(1) = a$。因此，对于所有$x \in \mathbf{R}$和所有$y \in \mathbf{R}$，我们有
 
 $$
 f_a(x + y) = f_a(x) f_a(y), \qquad f_a(-x) = \frac{1}{f_a(x)},
@@ -58,9 +58,9 @@ $$
 f_a(n) = a^n.
 $$
 
-因此，对于所有 $x \in \mathbf{R}$，我们用 $a^x$ 表示 $f_a(x)$； 函数 $a^x$（对于 $a > 0$ 的所有值）称为*指数函数*。我们为所有 $x \in \mathbf{R}$ 提供了 $1^x = 1$；如果$a \neq 1$，$x \to a^x$是群$\mathbf{R}$到群$\mathbf{R}_+^*$的*同构的*。
+因此，对于所有 $x \in \mathbf{R}$，我们用 $a^x$ 表示 $f_a(x)$； 函数 $a^x$（对于$a > 0$的所有值）称为*指数函数*。我们为所有 $x \in \mathbf{R}$ 提供了 $1^x = 1$；如果$a \neq 1$，$x \to a^x$是群$\mathbf{R}$到群$\mathbf{R}_+^*$的*同构的*。
 
-如果$a \neq 1$，$\mathbf{R}_+^*$到$\mathbf{R}$（$x \to a^x$的倒数）的同构称为基* $a$的*对数，并且其在$x \in \mathbf{R}_+^*$的值表示为$\log_a x$。因此，有了这个记号，我们就有了
+如果$\mathbf{R}_+^*$的$a \neq 1$、同构到$x \to a^x$的倒数$\mathbf{R}$，称为基*$a$的*对数，其在$x \in \mathbf{R}_+^*$的值记为$\log_a x$。因此，有了这个记号，我们有
 
 (1) $$
 a^{x+y} = a^x a^y \qquad (x \in \mathbf{R}, y \in \mathbf{R}, a > 0);
@@ -89,13 +89,13 @@ $$
 (8) $$
 (a^x)^y = a^{xy} \qquad (x \in \mathbf{R}, \ y \in \mathbf{R}, \ a > 0),
 $$
-或者，更改记号，
+或者，改变记号，
 
 (9) $$
 x^y = a^{y \cdot \log_a x} \qquad (x > 0, y \in \mathbf{R}, a > 0, a \neq 1).
 $$
 
-公式 (8) 表明，对于每个整数 $n > 0$，我们都有 $(a^{1/n})^n = a$，这证明了为第 n 个根* $\sqrt[n]{a}$ 引入记号 $a^{1/n}$（在章 IV, § 3, no. 3 中定义）是合理的。
+公式 (8) 表明，对于每个整数 $n > 0$，我们都有$(a^{1/n})^n = a$，这证明为第 n 个根* $\sqrt[n]{a}$ 引入记号 $a^{1/n}$（在章 IV, § 3, no. 3 中定义）是合理的。
 
 公式 (7) 和 (9) 表明
 
@@ -107,7 +107,7 @@ $$
 (11) $$
 \log_a x = \log_a b \cdot \log_b x \qquad (x > 0, a > 0, b > 0, a \neq 1, b \neq 1),
 $$
-这是“基的变换”的公式。
+这是“变换 of 基”的公式。
 
 最后，让我们获得拓扑群$\mathbf{R}^*$的所有*连续同态*；如果$g$是这样一个连续的同态，
 
@@ -115,15 +115,15 @@ $$
 \log_a (g(a^x))
 $$
 
-是$\mathbf{R}$到$\mathbf{R}$的连续同态，因此（§ 1, no. 3，命题 5）存在$\alpha \in \mathbf{R}$，使得$\log_a (g(a^x)) = \alpha x$对于所有$x \in \mathbf{R}$；因此，通过 (8)，$g(x) = x^\alpha$ 对于所有$x > 0$。因此我们有相同的
+是 $\mathbf{R}$ 到 $\mathbf{R}$ 的连续同态，因此 (§ 1, no. 3, 命题 5) 存在$\alpha \in \mathbf{R}$，使得$\log_a (g(a^x)) = \alpha x$ 对于所有$x \in \mathbf{R}$；因此，通过(8)，$g(x) = x^\alpha$对于所有$x > 0$。因此我们有相同的
 
 (12) $$
 (xy)^\alpha = x^\alpha y^\alpha \text{ for all } x > 0, y > 0 \text{ and } \alpha \in \mathbf{R}.
 $$
 
-由于公式 (4)，其中约化每乘法到加法（唯一与习惯的系统很好地适应的运算），对数长期以来一直是数值计算中不可或缺的工具（参见历史注记到章）。
+由于公式 (4)，其中约化每隔乘法到加法（唯一与习惯的系统很好地适应的运算），对数长期以来一直是数值计算中不可或缺的工具（参见历史注记） 章）。
 
-用于此目的时，基选择为$a = 10$；并且有表给予值函数 $\log_{10} x$（达到一定的近似值）。在数学分析中，一个人被引导到选择一个不同的基（用$e$表示），即$\lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1$（cf.习题1）。
+当用于此目的时，基选择为$a = 10$；并且有表给予值或函数 $\log_{10} x$（达到一定的近似值）。在数学分析中，一个人被引导到选择一个不同的基（用$e$表示），即$\lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1$（cf.习题1）。
 
 ### 2. 函数 $a^x$ 和 $\log_a x$ 的行为
 
@@ -139,9 +139,9 @@ $$
 \lim_{x \to -\infty} a^x = 0 \quad (a > 1).
 $$
 
-另一方面，如果$a < 1$、函数、$a^x$为严格递减，当$x$趋于$+\infty$时趋向于0，当$x$趋于$-\infty$时趋于$+\infty$（图1）。
+另一方面，如果$a < 1$、函数$a^x$为严格递减，当$x$趋于$+\infty$时趋于0，当$x$趋于$-\infty$时趋于$+\infty$（图1）。
 
-![图表显示 y = a^x (a > 1) 和 y = a^x (a < 1)](https://i.imgur.com/1.png)
+![显示 y = a^x (a > 1) 和 y = a^x (a < 1) 的图表](https://i.imgur.com/1.png)
 
 图 1.
 
@@ -175,8 +175,8 @@ $$
 \prod_{n=0}^{\infty} (1 + u_n) = a^{S_{n=0}^{\infty} \log_a (1 + u_n)}.
 $$
 
-因此，对实数$> 0$的无穷乘积的研究就简化为对实数的无穷级数的研究，其项出现在对数的形式中；稍后我们将看到如何通过对数的微分性质来轻松研究这种性质的和。
+因此，对实数$> 0$的无穷乘积的研究就简化为对实数的无穷级数的研究，其中项出现在对数的形式中；稍后我们将看到如何通过对数的微分性质来轻松研究这种性质的和。
 
 ### 习题 {#top-v-s4-exercises}
 
-请参阅 § 4](exercises/s4/) 的 [习题。
+参见[习题为 § 4](exercises/s4/)。

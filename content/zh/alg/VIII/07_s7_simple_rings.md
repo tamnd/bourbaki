@@ -30,21 +30,21 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: 003cefbae4a7e566b11e5c817c232a30ccc27233f27e82ce8acda3caf34ca365
+content_sha256: b98921fcb38b90d3423e9fba1c136cabd3758d2695b55f28597bb4dd3db30232
 translated_from: content/en/alg/VIII/07_s7_simple_rings.md
 translation_method: google
 source_content_sha256: 0477da2a1cd441904c225c6cad3222346fc38778e44066ddeda16e447e7b81dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 710bf4122cf5e04bbef12d8ed4009d56d5b50f48c7c3b04cc036d68a83602fa4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。简单环
 
-### 1.简单环
+### 1. 简单环
 
 #### 命题 1 {#alg-viii-s7-prop-1 .statement tag=0081}
 
@@ -62,7 +62,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 让我们证明 (ii) 蕴涵 (iii)。 环 A不减为0；因而，存在单A-模 S。S 的湮没子是A 的真两侧理想。如果我们假设满足(ii)，则湮没子等于0。A-模 S 是忠实的，并且(ii) 蕴含(iii)。
 
-让我们证明 (iii) 蕴涵 (i)。假设满足(iii)。则存在整数 $m\geqslant 1$，使得 $A_s$ 同构于 $S^m$ 的子模 (VIII, p. 50, 命题 5, a))。由于$S^m$是型S的同型A-模，因此$A_s$同样成立（VIII，p. 61，命题2）；因此，(iii) 意味着(i)。
+让我们证明 (iii) 蕴涵 (i)。假设满足(iii)。则存在整数 $m\geqslant 1$，使得 $A_s$ 同构于 $S^m$ 的子模 (VIII, p. 50, 命题 5, a))。由于$S^m$是型S的同型A-模，因而$A_s$同样成立（VIII，p. 61，命题2）；因而，(iii) 意味着(i)。
 
 假设满足条件(i)至(iii)。我们在上面看到A-模$A_s$有有限长度并且是型S的同构。每个简单的左A-模同构于$A_s$的商，因此也同构于S。
 
@@ -94,15 +94,15 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 设A是一个简单的环，S是一个简单的左A-模，D是域End$_A(S)$的逆环。那么 S 是可逆的 $(A,D)$-双模。它也是D上的有限维右向量空间，从A到End$_D(S)$映射$a\mapsto a_S$是环同构。
 
-到命题 1，A-模 $A_s$ 具有有限长度并且与型 S 同型分支的。因此，存在整数 $m\geqslant 1$，使得 A-模 $A_s$ 和 $S^m$ 同构的。那么 A-模 S 是射影且有限生成的。它是生成的 (VIII、p. 80、定理 1)，并且引理 1 是从VIII、p. 101、(ii)$\Rightarrow$(i) 和 (ii)$\Rightarrow$(iii) 中的定理 1 得出的，适用于$(A,D)_{\mathbf{Z}}$-双模 S。
+到命题 1，A-模 $A_s$ 具有有限长度并且与型 S 同型分支的。因而，存在整数 $m\geqslant 1$，使得 A-模 $A_s$ 和 $S^m$ 同构的。那么 A-模 S 是射影且有限生成的。它是生成的 (VIII、p. 80、定理 1)，并且引理 1 是从VIII、p. 101、(ii)$\Rightarrow$(i) 和 (ii)$\Rightarrow$(iii) 中的定理 1 得出的，适用于$(A,D)_{\mathbf{Z}}$-双模 S。
 
 #### 引理 2 {#alg-viii-s7-lem-2 .statement tag=00R7}
 
 令 D 为有限维 $r\geqslant 1$ 的域和 V 右向量空间在 D 上。则 V 为环上的单模 E = End$_D(V)$，其交换子等于 $D_V$。 环 E is simple, and its left 长度 is equal to $r$.
 
-我们知道V是一个简单的E模（VIII，p. 45，例3）并且它的交换子等于$D_V$（VIII，p. 82，推论1）。 Let $(x_i)_{1\leqslant i\leqslant r}$ be 基 of V over 域 D. 映射 $u\mapsto (u(x_i))_{1\leqslant i\leqslant r}$ is 同构 from the E-module $E_s$ to the E-module $V^r$; consequently, the E-module $E_s$ is isotypical of 长度 $r$, so 环 E is simple.
+我们知道V是一个简单的E模（VIII，p. 45，例3）并且它的交换子等于$D_V$（VIII，p. 82，推论1）。 Let $(x_i)_{1\leqslant i\leqslant r}$ be 基 of V over 域 D. 映射 $u\mapsto (u(x_i))_{1\leqslant i\leqslant r}$ is 同构的 from the E-module $E_s$ to the E-module $V^r$; consequently, the E-module $E_s$ is isotypical of 长度 $r$, so 环 E is simple.
 
-现在让我们证明定理1。 回忆一下（II, §10, No. 7，p. 349），环$\mathbf{M}_r(D)$可以与右D-向量空间$D^r_d$的自同态环识别；此外，域 D 上的有限维 $r$ 的每个右向量空间都同构于 $D^r_d$ (II, §7, No. 1, p. 292)。 因此，定理 1 由引理 1 和 2 得出。
+现在让我们证明定理1。 回忆一下（II, §10, No. 7，p. 349），环$\mathbf{M}_r(D)$可以与右D-向量空间$D^r_d$的自同态环识别；此外，域 D 上的有限维 $r$ 的每个右向量空间都同构于 $D^r_d$ (II, §7, No. 1, p. 292)。 因而，定理 1 由引理 1 和 2 得出。
 
 #### 注 3 {#alg-viii-s7-n1-rem-3 .statement tag=0086}
 
@@ -138,7 +138,7 @@ c) 简单环的左长度等于它的右长度。
 
 设 K 为代数闭交换域，并设 A 为 K 上有限次数的代数。 代数当且仅当存在整数 $n\geqslant 1$ 且 A 与 $M_n(K)$ 同构时，A 才是简单的。那么它的中心与 K 同构。
 
-### 2.单环上的模
+### 2. Modules over a Simple Ring
 
 #### 引理 3 {#alg-viii-s7-lem-3 .statement tag=008B}
 
@@ -200,7 +200,7 @@ A-模 M 是 VIII、p. 122 中的生成的乘以命题 2。到定义，我们有$
 
 这给出了最后一个关系。
 
-### 3.次数
+### 3. Degrees
 
 考虑 B 的环 B 和子环 A。 赋予 B 一个 $(A$，A)-双模的结构，该限制标量从 $_sB_d$ 上的 $(B$，B)-双模结构推导出来。
 
@@ -246,7 +246,7 @@ $$
 
 设 K 为交换域。如果A在K上是有限次数的代数B的单子代数，则B在A上的左次数满足关系$[B : A]_s[A : K] = [B : K]$乘以VIII、p. 125的命题6。同样，我们有$[B : A]_d[A : K] = [B : K]$。接下来是等式$[B : A]_s= [B : A]_d$。
 
-### 4.单环的理想
+### 4. Ideals of Simple Rings
 
 令 D 为域且 V 右向量空间超过 D 的有限维 $n\geqslant 1$。 考虑简单的环 A = End$_D(V)$。 For any linear subspace W of V, we denote the set of elements $a$ of A satisfying $aW = 0$ (resp. $aV\subset W$) by $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W)$).
 
@@ -276,17 +276,17 @@ $$
 
 A-模$A_s$是最小左理想族$(\mathfrak{a}(H_i))_{i\in I}$的直和，$A_d$是最小右理想族$(\mathfrak{b}(L_i))_{i\in I}$的直和。
 
-考虑具体情况 $V = D^n_d$ 和认同 A 与矩阵环 $\mathbf{M}_n(D)$。用I表示$\mathbf{N}$中的区间$[1, n]$，用$(v_i)_{i\in I}$表示V的典范基； 集合$L_i=v_iD$，并用$E_{ij}$矩阵单位（II, §10, No. 3，p. 341）表示。然后我们就有$\varepsilon_i= E_{ii}$。左理想AE$_{ii}$等于DE$_{1i}+\cdots +$DE$_{ni}$，并由矩阵和所有列组成，除了第一个$i$等于零。右理想$E_{ii}A$等于DE$_{i1}+\cdots +$DE$_{in}$，并由矩阵组成，除了第$i$之外的所有行都等于零。我们还有关系
+考虑具体情况 $V = D^n_d$ 和认同 A 与矩阵环 $\mathbf{M}_n(D)$。用I表示$\mathbf{N}$中的区间$[1, n]$，用$(v_i)_{i\in I}$表示V的典范基； 集合$L_i=v_iD$，并用$E_{ij}$矩阵单位（II, §10, No. 3，p. 341）表示。然后我们就有$\varepsilon_i= E_{ii}$。左理想AE$_{ii}$等于DE$_{1i}+\cdots +$DE$_{ni}$，并由矩阵和所有列组成，除了第$i$等于零。右理想$E_{ii}A$等于DE$_{i1}+\cdots +$DE$_{in}$，并由矩阵组成，除了第$i$之外的所有行都等于零。我们还有关系
 
 $$
 E_{ii}A E_{jj}= E_{ii}A\cap A E_{jj}= D E_{ij}
 $$
 
-对于 1 和 $n$ 之间的 $i$ 和 $j$。
+对于 $i$ 和 $j$ 在 1 和 $n$ 之间。
 
 ### 习题{#alg-viii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。
 
 [^1]: 如果 A 和 B 为交换域，请注意不要将等于 [B : A] 的次数与 A 的扩张 B 的可分离次数混淆，定义在 V, §6, No. 5、p. 31 中，也用 $[B : A]_s$ 表示。
-[^2]: cf. A. H. Schofield，Artin 的问题倾斜域扩张，数学。过程。剑桥斐洛斯。苏克。 **97** (1985)，第 1-6 页。
+[^2]: cf.A. H. Schofield，Artin 的问题倾斜域扩张，数学。 过程。 剑桥斐洛斯。 苏克。 **97** (1985)，第 1-6 页。

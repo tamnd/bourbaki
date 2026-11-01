@@ -33,16 +33,16 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 3784fec667f71890008ae17538319804743061e9e7726c65e87afb24ae414fb8
+content_sha256: c1fd95523fb4fe23b24f51dc08373e95ad0c8d6479978294f5e1a159863421fa
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
 translation_method: google
 source_content_sha256: 109a4d05718fd73c2e0104fdb772994f028706b89a9a4001b0f091a0d03c8b4b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: dc61db6ecc55eea03817a6a1039f4b5ca763dab929e116d638abd7b0fb5cec48
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。紧凑性判据
@@ -74,7 +74,7 @@ b) 在阶中，A在E中相对紧，其在E中预紧且在$E_\sigma$中相对紧�
 
 现在假设 A 是 E 中的预紧式，并且包含在 $E_\sigma$ 的紧式子集 B 中。那么 B 在 $E_\sigma$ 中是完整的，因此在 E 中也是完整的 (IV, p. 5, *注 2*)。我们有 $\overline{A} \subset B$，因此 A 在 E 中相对紧凑。逆命题是明显的，*b)* 如下。
 
-### 2.连续函数的集合简单紧致性
+### 2. 连续函数的集合简单紧性
 
 在这个截面中，X表示X上连续函数的*紧凑*空间和$\mathscr{C}_s(X)$空间，其中值在域K中（等于$\mathbf{R}$或$\mathbf{C}$）。 空间 $\mathscr{C}_s(X)$ 被赋予X 上简单收敛的拓扑。
 
@@ -128,7 +128,7 @@ $$
 
 最后，从(1)$_m$，我们得到$|\gamma - u(a)| \geq \varepsilon$，所以$\gamma \neq u(a)$。这个与……矛盾断言(iv);这样我们就证明了(iv)蕴涵(i)。
 
-### 3. Eberlein 和 Šmulian 定理
+### 3. 埃伯莱因和斯穆利安定理
 
 #### 定理 1（埃伯莱因）{#evt-iv-s5-thm-1 .statement tag=07VT}
 
@@ -230,10 +230,10 @@ $$
 
 显然，如果$\mathscr{C}(A)'$被赋值为拓扑$\sigma(\mathscr{C}(A)', \mathscr{C}(A))$和$E$拓扑$\sigma(E, E')$，则$v$是连续的。
 
-Banach 空间 $\mathscr{C}(A)$ 的单位球（闭合）$B$ 紧凑，适合拓扑 $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$（III、p. 17、cor.3）。因而，对于$\sigma(E, E')$，$v(B)$ 是$E$ 的凸平衡且紧凑的子集。对于每个$a \in A$，$\mathscr{C}(A)$属于到$B$上的连续线性形式$\varepsilon_a : f \mapsto f(a)$，我们通过公式（7）和（8）得到$v(\varepsilon_a) = a$。因而，$A \subset v(B)$，等等$C \subset v(B)$。这证明$C$对于$\sigma(E, E')$是紧致的。
+Banach 空间 $\mathscr{C}(A)$ 的单位球（闭合）$B$ 紧凑适用于拓扑 $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$（III、p. 17、cor.3）。因而，$v(B)$ 是$\sigma(E, E')$ 的$E$ 的凸平衡且紧凑的子集。对于每个$a \in A$，$\mathscr{C}(A)$属于到$B$的连续线性形式$\varepsilon_a : f \mapsto f(a)$，我们通过公式（7）和（8）得到$v(\varepsilon_a) = a$。因而，$A \subset v(B)$，等等$C \subset v(B)$。这证明$C$对于$\sigma(E, E')$是紧致的。
 
 Q.E.D.
 
 ### 习题 {#evt-iv-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

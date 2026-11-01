@@ -42,16 +42,16 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: f97b44b5bd49cd76ec21dcf3aa60feb6b71472a0be863c3840d1b839c2b4ed2c
+content_sha256: 50a7e13c62fa459da4081330f945ecba9dda6b1b844dc3cb7f91e9653c28757a
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
 translation_method: google
 source_content_sha256: dfbb9d78abb1e74cb8df10a3c8d7099cfe102e2e7a75bb6d300412ab223621fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 47ae2aa73c86eb9a43c64fede365a1aa7f44b471de317253e9d06ef5b3d7b97b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。 群运行于集合
@@ -114,49 +114,49 @@ $$
 
 P;则映射$x \mapsto x_P$是G在P上的运算，也称为$h_1, h_2, h_3$对P的扩张。
 
-对于例，令K和L为$F_1, F_2, F_3$上的两个阶梯；取F为$K \times L$的子集的集合，P为K的映射的集合，代入L，用它们的图来识别。如果$w \in P$和$x \in G$，则$x_P(w)$是K到L的映射$k \mapsto x_L(w(x_K^{-1}(k)))$。
+对于例，令K和L为$F_1, F_2, F_3$上的两个阶梯；取F为$K \times L$的子集的集合，P为K的映射的集合代入L，用图来识别。如果$w \in P$和$x \in G$，则$x_P(w)$是K到L的映射$k \mapsto x_L(w(x_K^{-1}(k)))$。
 
-### 2.稳定子，修复者
+### 2. 稳定子，固定器
 
 #### 定义 3 {#alg-i-s5-def-3 .statement tag=05B4}
 
-*设 M 是在集合 E 和 A 和 B 子集 E 上运行的幺半群。$\alpha \in M$ 的集合，使得$\alpha A \subset B$（分别$\alpha A = B$）被称为 A 到 B 的传输器（分别是严格传输器）。A 到 A 的传输器（分别是严格传输器）被称为A 的稳定子（或严格的稳定子）。$\alpha \in M$的集合，使得所有$a \in A$的$\alpha a = a$被称为A的修复者。*
+*令 M 为在集合 E 和 A 和 B 子集 E 上运行的幺半群。$\alpha \in M$ 的集合，使得 $\alpha A \subset B$（分别$\alpha A = B$）称为 A 到 B 的传输器（或严格传输器）。从 A 到 A 的传输器（或严格传输器）称为稳定子 (resp. strict 稳定子) A. $\alpha \in M$ 的集合，使得所有 $a \in A$ 的 $\alpha a = a$ 被称为 A 的修复者。*
 
-M 的元素 $\alpha$ 被认为是稳定的（严格稳定，固定） E 的子集 A，如果 A 的 $\alpha$ 属于到稳定子（严格稳定子，再固定）。 M 的子集 P 被认为是稳定的（分别严格稳定，分别修复）E 的子集 A，如果 P 的所有元素都稳定（分别严格稳定，分别修复）A。A 的固定器包含在 A 的严格稳定子中，而 A 的严格稳定子本身又包含在 A 的稳定子中。
+M 的元素 $\alpha$ 被称为稳定（严格稳定、固定）。 如果 A 的 $\alpha$ 属于到稳定子（严格稳定子、固定），E 的子集 A 被称为稳定（严格稳定、固定）。 M 的子集 P 被称为稳定（严格稳定、固定）。如果 P 的所有元素都稳定（或严格稳定、或修复）A，则 E 的子集 A。A 的固定器包含在 A 的严格稳定子中，而 A 的严格稳定子本身又包含在 A 的稳定子中。
 
 #### 命题 1 {#alg-i-s5-prop-1 .statement tag=05B5}
 
-*设 M 为在 E 的集合 E 和 E 的 A 子集上运行的幺半群。*
-(a) *A的稳定子、严格稳定子和固定者是M的子幺半群。*
-(b) *令$\alpha$为M的可逆元；如果 $\alpha$ 属于为 A 的严格稳定子（或固定器），$\alpha^{-1}$ 也是如此。*
+*设 M 为在 E 的集合 E 和 A 子集上运行的幺半群。*
+(a) *A 的稳定子、严格稳定子和固定者是 M 的子幺半群。*
+(b) *令$\alpha$为M的可逆元；如果 $\alpha$ 属于到 A 的严格稳定子（或固定器），$\alpha^{-1}$ 也是如此。*
 
-令 e 为 M 的单位元素；那么 $ea = a$ 对于每个元素 $a \in A$，因此 e 属于到 A 的固定器。令 $\alpha$ 和 $\beta$ 为稳定 A 的 E 的元素。然后 $(\alpha \beta)A = \alpha(\beta A) \subset \alpha A \subset A$ 以及因此 A 的稳定子为M 的子幺半群。类似地，对于 A 的严格稳定子和固定器，从而 (a)。如果$\alpha A = A$，则$A = \alpha^{-1}(\alpha A) = \alpha^{-1}A$。如果对于所有$a \in A$，$\alpha a = a$，则$a = \alpha^{-1}(\alpha a) = \alpha^{-1}a$，从而 (b)。
+令 e 为 M 的单位元素；那么$ea = a$对于每个元素$a \in A$，因此e属于到A的固定者。令$\alpha$和$\beta$是稳定A的E的元素。然后$(\alpha \beta)A = \alpha(\beta A) \subset \alpha A \subset A$，因此A的稳定子是M的子幺半群。类似地对于严格的稳定子和 A 的固定器，从而 (a)。如果$\alpha A = A$，则$A = \alpha^{-1}(\alpha A) = \alpha^{-1}A$。如果对于所有$a \in A$，$\alpha a = a$，则$a = \alpha^{-1}(\alpha a) = \alpha^{-1}a$，从而 (b)。
 
-#### 推论 {#alg-i-s5-n2-cor-1 .statement tag=05B6}
+#### 推论{#alg-i-s5-n2-cor-1 .statement tag=05B6}
 
-*设G为集合E上的群，A为E的子集。A的严格稳定子S和固定器F为G的子群，F为S的正规子群。*
+*令G为集合E上的群，A为E的子集。A的严格稳定子S和固定器F是G的子群，F是S的正规子群。*
 
 第一个断言源自命题，F是S的同态的核进入与A上S的运算相关的$\mathfrak{S}_A$。
 
-群 G 忠实地在集合 E 上运行当且仅当 E 的固定器由 G 的单位元素组成。E 的固定器是将给定的 G 同态的核放入$\mathfrak{S}_E$；这个同态是单射的当且仅当它的核由单位元素（§ 4, no. 5，定理3）组成。
+群 G 忠实地在集合 E 上运行当且仅当 E 的固定器由 G 的单位元素组成。E 的固定器是 G 的给定同态到 $\mathfrak{S}_E$ 的核；当且仅当它的核由单位元素 (§ 4, no. 5, 定理 3) 组成时，这个同态是单射的。
 
-令 M 为幺半群，E 为 M 集合，E 的 $a$ 元素。固定器、$\{a\}$ 的严格稳定子和稳定子相等；这个幺半群同样被称为 $a$ 的固定者或稳定子。 E 的子集 A 的固定器是 A 的元素的固定器的交。如果 $a$ 的固定器是幺半群 M，则$a$ 称为 E 的不变量元素。如果 E 的每元素，则称 M 对 E 进行平凡操作。是不变的。
+令 M 为幺半群，E 为 M 集合，E 的 $a$ 元素。固定器，$\{a\}$ 的严格稳定子和稳定子相等；这个幺半群同样被称为 $a$ 的固定者或稳定子。 E 的子集 A 的固定器是 A 的元素的固定器的交。如果 $a$ 的固定器是幺半群 M，则$a$ 称为 E 的不变量元素。如果 E 的每个元素都是不变量，则称 M 对 E 进行平凡操作。
 
 #### 命题 2 {#alg-i-s5-prop-2 .statement tag=05B7}
 
-*令 G 为集合 E 上的群，对于所有 $x \in E$，令 $S_x$ 为 x 的稳定子。对于所有 $\alpha \in G$、$S_{\alpha x} = \alpha S_x \alpha^{-1}$。*
+*设 G 为集合 E 上的群，对于所有 $x \in E$，令 $S_x$ 为 x 的稳定子。对于所有 $\alpha \in G$、$S_{\alpha x} = \alpha S_x \alpha^{-1}$。*
 
-如果$s \in S_x$，则$\alpha s \alpha^{-1}(\alpha x) = \alpha s x = \alpha x$，从而$\alpha S_x \alpha^{-1} \subset S_{\alpha x}$。如 $x = \alpha^{-1}(\alpha x)$、$\alpha^{-1} S_{\alpha x} \alpha \subset S_x$、从而 $S_{\alpha x} \subset \alpha S_x \alpha^{-1}$。
+如果$s \in S_x$，则$\alpha s \alpha^{-1}(\alpha x) = \alpha s x = \alpha x$，从而$\alpha S_x \alpha^{-1} \subset S_{\alpha x}$。如$x = \alpha^{-1}(\alpha x)$、$\alpha^{-1} S_{\alpha x} \alpha \subset S_x$、从而$S_{\alpha x} \subset \alpha S_x \alpha^{-1}$。
 
-类似地，如果A和B是E的两个子集，并且T是A到B的传输子（或严格传输子），则$\alpha A$到$\alpha B$的传输子（或严格传输子）等于$\alpha T \alpha^{-1}$。
+类似地可以看出，如果A和B是E的两个子集，并且T是A到B的传输器（或严格传输器），则$\alpha A$到$\alpha B$的传输器（或严格传输器）等于$\alpha T \alpha^{-1}$。
 
-### 3.内自同构
+### 3. INNER AUTOMORPHISMS
 
-令 G 为群。 群G自同构集合Aut(G)是$\mathscr{G}_G$(§ 4, no. 1，例2)子群。
+设G为群。 群G的自同构的集合Aut(G)是$\mathscr{G}_G$的子群(§ 4, no. 1，例2)。
 
 #### 命题 3 {#alg-i-s5-prop-3 .statement tag=05B8}
 
-*设G为群。对于 G 的每个元素 x，映射 Int(x): $y \mapsto xyx^{-1}$ G 到其本身就是 G 的自同构。 映射 Int: $x \mapsto \operatorname{Int}(x)$ 到 Aut(G) 是群同态，其核是G 的中心且其像是 Aut(G) 的正常子群。*
+*设G为群。对于 G 的每个元素 x，映射 Int(x)：G 的 $y \mapsto xyx^{-1}$ 到其自身是 G 的自同构。 映射 Int：G 到 Aut(G) 的$x \mapsto \operatorname{Int}(x)$ 是群同态，其核是 G 的中心，其像是 Aut(G) 的正常子群。*
 
 如果$x, y$和$z$是G的元素，则$(xyx^{-1})(xz x^{-1}) = xyz x^{-1}$，因此Int(x)是G的自同态。对于G的$x$和$y$元素，
 
@@ -204,7 +204,7 @@ $g \in G$的集合对A进行归一化（或中心化），称为A的归一化器
 
 (2) 元素 $b \in G$的集合使得$bAb^{-1} \subset A$是G的子幺半群。即使当A是G的子群时，这个集合也不一定是G的子群(习题27)。
 
-### 4.轨道
+### 4. ORBITS
 
 #### 定义 5 {#alg-i-s5-def-5 .statement tag=05BC}
 
@@ -255,7 +255,7 @@ $$
 
 令G为群，H和K为G的两个子群。令H通过左平移对左侧的G进行操作，通过右平移对右侧的K进行操作；这两个运算通勤，这让我们可以考虑集合$H\backslash G/K$。 $H\backslash G/K$的元素称为G模H和K的双陪集。当$K = H$时，我们简单地说双模H的陪集。对于$G/H$到$H\backslash G/H$的典范映射为双射，H是充分必要的是 G 的正规子群。
 
-### 5.同质集合
+### 5. 同质集合
 
 #### 定义 6 {#alg-i-s5-def-6 .statement tag=05BE}
 
@@ -321,34 +321,34 @@ $1 \leq i \leq r$。令$S$为$\tau \in S_E$的集合，使得$\tau|_{F_i}$对于
 
 (3) *设$n$为整数$\geq 1$。正交群 $O(n, \mathbf{R})$ 在 $\mathbf{R}^n$ 中的单位球体 $S_{n-1}$ 上传递运算。 点 $(0, \ldots, 0, 1)$ 的稳定子与正交群 $O(n-1, \mathbf{R})$ 一致。因此齐次 $O(n, \mathbf{R})$-集 $S_{n-1}$ 同构于 $O(n, \mathbf{R})/O(n-1, \mathbf{R})$。*
 
-### 6.同质本金集合
+### 6. 同质本金集合
 
 #### 定义 7 {#alg-i-s5-def-7 .statement tag=05BL}
 
-*令$G$为群。如果存在$E$的元素$x$，使得$x$定义的轨道映射为双射，则集合$E$上$G$的运算称为简单传递。 集合 $E$，与$E$上$G$的简单传递左作用一起，称为左齐次主体$G$集合（或$G$下的左齐次主体集合）。*
+*令$G$为群。如果存在$E$的元素$x$使得$x$定义的轨道映射是双射，则集合$E$上$G$的运算称为简单传递。 集合 $E$，与$E$上$G$的简单传递左作用一起，称为左齐次主体$G$集合（或$G$下的左齐次主体集合）。*
 
-相当于说，$G$在$E$上自由传递地运行，或者也存在元素$x \in E$，使得$x$定义的轨道映射是$G$集$G$的同构（其中$G$通过左平移操作）到$E$；或者还满足以下两个条件：
+相当于说，$G$在$E$上自由且传递地运行，或者也存在元素$x \in E$，使得$x$定义的轨道映射是$G$集合$G$的同构（其中$G$通过左平移操作）到$E$；或者还满足以下两个条件：
 
 (i) $E$ 非空。
 (ii) 对于$E$的所有元素$x$和$y$，存在且仅有一个元素$\alpha \in G$使得$\alpha x = y$。
 
-条件 (ii) 也等价于以下条件：
+条件 (ii) 也相当于以下条件：
 
-(iii) 映射 $(\alpha, x) \mapsto (\alpha x, x)$ 是$G \times E$ 中的双射到$E \times E$。
+(iii) 映射 $(\alpha, x) \mapsto (\alpha x, x)$ 是$G \times E$ 的双射到$E \times E$。
 
 我们将定义右齐次主 G 集的任务留给读者。
 
 #### 例 {#alg-i-s5-n6-exa-1 .statement tag=05BM}
 
-(1) 让 G 通过左（或右）平移对自身进行运算。因此，在 G 上定义了左（或右）齐次主 G 集结构，其有时表示为 $G_s$（或 $G_d$）。
+(1) 让 G 通过左（或右）平移对自身进行操作。因此，在 G 上定义了左（或右）齐次主 G 集结构，其有时表示为 $G_s$（或 $G_d$）。
 
-(2) 设 E 是*可交换* 群 G 下的齐次集合。如果 G 忠实地在 E 上运行，则后者是齐次主 G 集。
+(2) 设 E 是*可交换* 群 G 下的齐次集合。如果 G 忠实地作用于 E，则后者是齐次主 G 集。
 
 (3) 令E和F是两个同构的集合，其中结构具有相同的类，并令Isom(E, F)是E到F上的同构的集合（给定结构）。 E 的自同构的群 Aut(E)（给定结构）在右侧的 Isom(E, F) 上通过律 $(\sigma, f) \mapsto f \circ \sigma$ 进行运算，并且 Isom(E, F) 是右齐次主 Aut(E) 集。类似地，群 Aut(F) 对左侧的 Isom(E, F) 进行律 $(\sigma, f) \mapsto \sigma \circ f$ 操作，并且 Isom(E, F) 是左齐次主 Aut(F) 集。
 
 (4) *向量空间的加法群下的齐次本金集合称为*仿射空间* (cf. II, § 9, no. 1)。*
 
-同质主 G 集$G_s$ (例 1) 的自同构的群是用$G^0$ (no. 5, 命题 5) 标识的 G 右平移的群。设E是齐次主G集，E的$a$元素。由$a$定义的轨道映射$\omega_a$是G集$G_s$的同构到E上。通过传输结构同构 $\psi_a$ 由 $G^0$ 导出至 Aut(E)。需要注意的是，$\psi_a$*一般取决于a*；更准确地说，对于$\alpha \in G$，
+齐次主 G 集$G_s$ (例 1) 的自同构的群是 G 的右平移的群，其由 $G^0$ (no. 5, 命题 5) 标识。设E是齐次主G集，E的$a$元素。由$a$定义的轨道映射$\omega_a$是G集$G_s$的同构到E上。通过传输结构同构 $\psi_a$ 由 $G^0$ 导出至 Aut(E)。需要注意的是，$\psi_a$*一般取决于a*；更准确地说，对于$\alpha \in G$，
 
 $$
 \psi_{\alpha a} = \psi_a \circ \operatorname{Int}_{G^0}(\alpha) = \psi_a \circ \operatorname{Int}(\alpha^{-1}).
@@ -368,7 +368,7 @@ $$
 \psi_{\alpha a}(x) = \omega_a \circ \delta_\alpha \circ \delta_x \circ \delta_\alpha^{-1} \circ \omega_a^{-1} = \omega_a \circ \delta_{\alpha^{-1} x \alpha} \circ \omega_a^{-1} = \psi_a(\alpha^{-1} x \alpha).
 $$
 
-### 7. 有限集合的置换群
+### 7. 有限的置换群集合
 
 如果 E 是有限集合且 $n$ 元素，则对称群 $\mathfrak{S}_E$ (§ 4, no. 1) 是阶 $n!$ 的有限群。当E为自然数的集合$\mathbf{N}$的区间$\{1, n\}$时，相应的对称的群记为$\mathfrak{S}_n$；任何集合与$n$元素的对称群与$\mathfrak{S}_n$同构的。
 
@@ -465,9 +465,9 @@ $$
 
 #### 定理 2 {#alg-i-s5-thm-2 .statement tag=05BU}
 
-*设 E 为有限集合。从 $\mathfrak{S}_n$ 到乘法群 $\{-1, +1\}$，存在且仅有一个同态 $\varepsilon$，使得每一个转置 $\tau$ 都有 $\varepsilon(\tau) = -1$。*
+*设 E 为有限集合。从 $\mathfrak{S}_n$ 到乘法群 $\{-1, +1\}$，存在且仅有一个同态 $\varepsilon$，使得每一个转置$\tau$都有$\varepsilon(\tau) = -1$。*
 
-唯一性由命题 8 推出。我们证明存在性。通过传输结构，可以假设$E = \{1, n\}$。使用上面的记号，令$\varepsilon(\sigma) = (-1)^{\nu(\sigma)}$。然后（引理2）
+唯一性由命题 8 推出。我们证明存在性。通过传输结构，可以假设$E = \{1, n\}$。使用上面的记号，令$\varepsilon(\sigma) = (-1)^{\nu(\sigma)}$。那么(引理2)
 
 $$
 \sigma(\sigma' p) = \sigma(\varepsilon(\sigma') p) = \varepsilon(\sigma') (\sigma p) = \varepsilon(\sigma') \varepsilon(\sigma) p.
@@ -483,7 +483,7 @@ $$
 
 #### 定义 10 {#alg-i-s5-def-10 .statement tag=05BV}
 
-*在定理2的记号中，数$\varepsilon(\sigma)$（也记作$\varepsilon_\sigma$）称为置换$\sigma$的签名。 同态 $\varepsilon$ 的核称为 E 的交错的群。*
+*在定理2的记号中，数$\varepsilon(\sigma)$（也表示为$\varepsilon_\sigma$）称为置换$\sigma$的签名。 同态 $\varepsilon$ 的核称为 E 的交错的群。*
 
 如果$\varepsilon(\sigma) = 1$（或$\varepsilon(\sigma) = -1$），则$\sigma$ 称为*偶*（或*奇*）。 E的交错的群用$\mathfrak{A}_E$表示。这是正常的子群 $\mathfrak{S}_E$。当$E = \{1, n\}$时，简称为$\mathfrak{A}_n$。当E的基数$n$是$\geq 2$时，它是指标2的子群，因此是阶$n! / 2$。可以证明，对于$n = 3$或$n \geq 5$，群$\mathfrak{A}_n$是一个简单的群（*cf.习题16*）。
 
@@ -501,4 +501,4 @@ $$
 
 ### 习题{#alg-i-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

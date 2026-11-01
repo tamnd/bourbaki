@@ -29,16 +29,16 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: 6af9b01a833452cd0bcfe5b768172b376fbbb9fee958cf73a1fbc6c7a4cf88c6
+content_sha256: f654bc4413f1ba5b1396e2c6ddf8a9a25457209afe0d97538d6819e9d42711be
 translated_from: content/en/int/V/01_s1_essential_upper_integral.md
 translation_method: google
 source_content_sha256: d19dbe1131a1bb0064d0db8332b6983acb2090fbcf25d4ea5abb63e1585fb1b0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8bd09ecd58a57e5e4890eb536e598cbf224a76f7383514d4fdc39a75447f70a9
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。基本上衣整体
@@ -129,14 +129,14 @@ $$
 
 — *对于每个数值函数* $f \geqslant 0$ *在* $T$、$\mu^\bullet(f) = \mu^*(f)$ 上是下半连续的。
 
-例如，令$g$为$\mathscr{K}_+(T)$中的函数，使得$g \leqslant f$。如果$K$是$g$的（紧）支持，则$\mu(g) \leqslant \mu^*(f \varphi_K) \leqslant \mu^\bullet(f)$。根据上积分的定义，得出 $\mu^*(f) \leqslant \mu^\bullet(f)$，因而 $\mu^*(f) = \mu^\bullet(f)$ (公式 (1))。
+例如，令$g$为$\mathscr{K}_+(T)$中的函数，使得$g \leqslant f$。如果$K$是$g$的（紧）支持，则$\mu(g) \leqslant \mu^*(f \varphi_K) \leqslant \mu^\bullet(f)$。根据上积分的定义，得出$\mu^*(f) \leqslant \mu^\bullet(f)$，因而$\mu^*(f) = \mu^\bullet(f)$ (公式 (1))。
 
-### 2. 审核函数和措施
+### 2. 审核函数及措施
 
 #### 命题 5 {#int-v-s1-prop-5 .statement tag=08ZU}
 
 — *设* $A$ *为* $T$ 的子集； *以下属性是等效的*：
-a) *集合*$A$*包含在*$\mu$*的序列并-可积开集合*。
+a) *集合* $A$ *包含在* $\mu$* 序列并-可积开集合*。
 b) *集合*$A$*包含在*$\mu$*的序列并-可积集合*。
 c) *集合* $A$ *包含在紧集的序列并和a*$\mu$*-可忽略的集合*。
 
@@ -144,7 +144,7 @@ c) *集合* $A$ *包含在紧集的序列并和a*$\mu$*-可忽略的集合*。
 
 #### 定义 2 {#int-v-s1-def-2 .statement tag=08ZV}
 
-—*$T$*的*子集*如果满足命题5*的等价条件，则称为*$\mu$*-调节。 *函数定义在* $T$上，*与向量空间或* $\overline{\mathbf{R}}$中的值，*如果它是零在a* $\mu$*-调节的补码上，则被认为是* $\mu$*-调节子集*$T$。 *测量* $\mu$ *如果* $T$ *是* $\mu$*-调节的集合*，则据说是经过调节的。
+—*$T$*的*子集*如果满足命题5*的等价条件，则称为*$\mu$*-调节。 *函数定义在* $T$上，*在向量空间或* $\overline{\mathbf{R}}$中使用值，*如果它是零在a* $\mu$*-调节的补码上，则被认为是* $\mu$*-调节子集*$T$。 *测量* $\mu$ *如果* $T$ *是* $\mu$*-调节集合*，则据说是经过调节的。
 
 如果$\mu$是调节措施，则$T$上的每个函数都是$\mu$调节，$T$的每个子集都是$\mu$调节。
 
@@ -192,7 +192,7 @@ $$
 \mu^\bullet(f) = \sup_n \mu^*(f \varphi_{A_n}).
 $$
 
-集合$A = \bigcup_n A_n$；第二个成员等于$\mu^*(f \varphi_A)$（第IV, §1, No. 3，Th.3），即$\mu^\bullet(f \varphi_A)$（根据上述第1条或第2条）。由于$\mu^\bullet(f) = \mu^\bullet(f \varphi_A) + \mu^\bullet(f \varphi_{\mathbf{C}_A})$（命题2），我们有$\mu^\bullet(f \varphi_{\mathbf{C}_A}) = 0$，由此得出3）。
+集合$A = \bigcup_n A_n$；第二个成员等于 $\mu^*(f \varphi_A)$ (Ch. IV, §1, No. 3, Th. 3)，即 $\mu^\bullet(f \varphi_A)$（根据上述第 1 条或第 2 条）。由于$\mu^\bullet(f) = \mu^\bullet(f \varphi_A) + \mu^\bullet(f \varphi_{\mathbf{C}_A})$（命题2），我们有$\mu^\bullet(f \varphi_{\mathbf{C}_A}) = 0$，由此得出3）。
 
 #### 推论 1 {#int-v-s1-prop-7-cor-1 .statement tag=08ZZ}
 
@@ -204,13 +204,13 @@ $$
 
 #### 命题 8 {#int-v-s1-prop-8 .statement tag=0901}
 
-a) *设H为函数$\geq 0$的集合，下半连续，指向关系$\leq$；那么*
+a) *设H为函数$\geq 0$的集合，下半连续，指向关系$\leq$；然后*
 
 $$
 \mu^\bullet \left( \sup_{h \in H} h \right) = \sup_{h \in H} \mu^\bullet(h).
 $$
 
-b) *设H为函数$\geq 0$的集合，上半连续，指向关系$\geq$；如果 H 函数 $h_0$ 中存在$\mu^\bullet(h_0) < +\infty$，则*
+b) *设H为函数$\geq 0$的集合，上半连续，定向关系$\geq$；如果 H 函数 $h_0$ 中存在$\mu^\bullet(h_0) < +\infty$，则*
 
 $$
 \mu^\bullet \left( \inf_{h \in H} h \right) = \inf_{h \in H} \mu^\bullet(h).
@@ -222,13 +222,13 @@ $$
 \mu^\bullet(h_0) - a \leq \mu^*(h_0 \varphi_K) = \mu(h_0 \varphi_K) \leq \mu^\bullet(h_0).
 $$
 
-函数$h\varphi_K$，其中$h$运行于上半连续函数的$H$、形式集合，指向关系$\geqslant$，其中包含可积函数。因此（第 IV, §4, No. 4 章，第 5 号提案第 2 条）：
+函数$h\varphi_K$，其中$h$经过上半连续函数的$H$、形式集合，指向关系$\geqslant$，其中包含可积函数。因此（第 IV, §4, No. 4 章，第 5 号提案第 2 条）：
 
 $$
 \mu^*(\eta\varphi_K) = \inf_{h \in H} \mu^*(h\varphi_K).
 $$
 
-但是（第 IV, §4, No. 4 章，第 5 条命题第 1 条）对于每个函数 $h \in H$，$\mu^\bullet(h_0\varphi_{C_K}) \leqslant a$、从而 $\mu^\bullet(h\varphi_{C_K}) \leqslant a$ 使得 $h \leqslant h_0$。因此，最后：
+但是（第 IV, §4, No. 4 章，第 5 条命题第 1 条）$\mu^\bullet(h_0\varphi_{C_K}) \leqslant a$，从而 $\mu^\bullet(h\varphi_{C_K}) \leqslant a$ 对于每个函数 $h \in H$ 使得 $h \leqslant h_0$。因此，最后：
 
 $$
 \mu^\bullet(\eta) \geqslant \mu^*(\eta\varphi_K) = \inf_{h \in H} \mu^*(h\varphi_K) \geqslant \inf_{h \in H} \mu^\bullet(h) - a.
@@ -236,15 +236,15 @@ $$
 
 不等式$\mu^\bullet(\eta) \leqslant \inf_{h \in H} \mu^\bullet(h)$是明显的，$a$是任意的，命题成立。
 
-### 3.本质上可积函数
+### 3. 本质上可积函数
 
-让$F$成为真正的巴纳赫空间；请记住，空间 $\mathscr{F}_F^p$（第 IV, §3, No. 3 章）和 $\mathscr{L}_F^p$（第 IV, §3, No. 4，定义 2）中的元素是 $\mu$ 调节的函数（第 IV, §5, No. 6、引理） 1）；由于$\mathscr{N}_F$仍将$T$的可忽略的映射的空间表示为$F$，我们将把$T$的局部可忽略的映射的空间$\mathscr{N}_F^\infty$引入$F$。
+设$F$为真正的Banach空间；回想一下空间 $\mathscr{F}_F^p$（第 IV, §3, No. 3 章）和 $\mathscr{L}_F^p$（第 IV, §3, No. 4，定义 2）中的元素是 $\mu$ 调节的函数（第 IV, §5, No. 6，引理 1）； $\mathscr{N}_F$仍将$T$的可忽略的映射的空间表示到$F$中，我们将把$T$的局部可忽略的映射的空间$\mathscr{N}_F^\infty$引入$F$。
 
 #### 引理 {#int-v-s1-n3-lem-1 .statement tag=0902}
 
 *设$g$和$g'$是两个$\mu$调节的映射，其中值在$F$中；如果 $g$ 和 $g'$ 几乎在任何地方都等于相同的函数 $f$，则 $g = g'$ 几乎在任何地方都相等。*
 
-例如，令$D$为$t \in T$的集合，使得$g(t) \neq g'(t)$； $D$ 局部可以忽略不计并且经过调节，因此可以忽略不计（第 7 号提案的第 1 条）。
+例如，令 $D$ 为 $t \in T$ 的集合，使得 $g(t) \neq g'(t)$； $D$ 局部可以忽略不计并且经过调节，因此可以忽略不计（第 7 号提案的 Cor. 1）。
 
 我们将用$\overline{\mathscr{F}}_F^p(T, \mu)$（或简称为$\overline{\mathscr{F}}_F^p(\mu)$，$\overline{\mathscr{F}}_F^p$，如果不会造成混淆）将$T$的映射$f$的集合表示为$F$，使得存在函数$g \in \mathscr{F}_F^p$等于$f$当地几乎到处都是。由于数$N_p(g)$仅依赖于$f$乘以引理，我们将写成$\overline{N}_p(f) = N_p(g)$。 函数$\overline{N}_p$显然是$\overline{\mathscr{F}}_F^p$的半范数，我们总是假设$\overline{\mathscr{F}}_F^p$配备有$\overline{N}_p$定义的拓扑。这个拓扑的0的闭包是空间$\mathscr{N}_F^\infty$； 关系 $\overline{\mathscr{F}}_F^p = \mathscr{F}_F^p + \mathscr{N}_F^\infty$、$\mathscr{N}_F^\infty \cap \mathscr{F}_F^p = \mathscr{N}_F$ (引理) 表明规范化的空间 $\overline{\mathscr{F}}_F^p / \mathscr{N}_F^\infty$ 可以与 $\mathscr{F}_F^p / \mathscr{N}_F$ 规范地一致，这是完整的（第 IV, §3, No. 3 章，第 5 条）；因此$\overline{\mathscr{F}}_F^p$本身是完整的。
 
@@ -332,7 +332,7 @@ $$
 
 令 $\theta$ 为复测度；我们集合$\overline{\mathscr{L}}_F^p(T, \theta) = \overline{\mathscr{L}}_F^p(T, |\theta|)$；如果 F 是复数 Banach 空间，则可以得到与上面相同的注。特别是，如果函数 f 与 F 中的值对于 $\theta$ 本质上可积，则它对于 $|\theta|$ 本质上可积。第 10 号提案的断言 b)，然后立即扩展采取复杂措施。
 
-### 4. 性质本质上积分特殊
+### 4. 性质特殊于必要的上积分
 
 下面的结果将在后续中经常使用。在叙述中，一个不能替换由普通上积分得到的必要上积分（见例 4）。
 
@@ -344,13 +344,13 @@ $$
 \lambda^\bullet(f) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-当$f$属于到$\mathscr{K}(T)$时，$\mathscr{M}(T)$中有向集合的上等的关系约化到定义（II, §2, No. 2，引理）。接下来假设$f \leq g$对于某些函数$g \in \mathscr{K}_+$（在其他字中，$f$是有界的并且是零在紧集K之外）；令$\alpha$为指标，使得$\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$，其中$\varepsilon$为数$> 0$；由于测量 $\nu = \lambda - \lambda_\alpha$ 是正数，因此我们有 $\nu^*(f) \leq \nu(g) \leq \varepsilon$ 或 $\lambda_\alpha^*(f) \geq \lambda^*(f) - \varepsilon$（第 IV, §1, No. 3 章，第 15 条命题）。由此可见（因为 $\varepsilon$ 是任意的）（5）的第二个成员是第一个成员 $\geq$；反之不等式是显而易见的，(5)是针对所考虑的特殊情况而成立的。接下来，假设$f$是K之外的零，但不一定有界，并且对于每个整数$n$，集合$f_n = \inf(f, n)$。然后
+当$f$属于到$\mathscr{K}(T)$时，$\mathscr{M}(T)$中有向集合的上等的关系约化到定义（第II, §2, No. 2，引理）。接下来假设$f \leq g$对于某些函数$g \in \mathscr{K}_+$（在其他字中，$f$是有界的并且是零在紧集K之外）；设$\alpha$为指标，使得$\lambda_\alpha(g) \geq \lambda(g) - \varepsilon$，其中$\varepsilon$为数$> 0$；由于度量 $\nu = \lambda - \lambda_\alpha$ 是正数，因此我们有 $\nu^*(f) \leq \nu(g) \leq \varepsilon$ 或 $\lambda_\alpha^*(f) \geq \lambda^*(f) - \varepsilon$（第 IV, §1, No. 3 章，第 15 条命题）。由此可见（因为 $\varepsilon$ 是任意的）（5）的第二个成员是第一个成员 $\geq$；反之不等式是显而易见的，(5)是针对所考虑的特殊情况而成立的。接下来，假设$f$是K之外的零，但不一定有界，并且对于每个整数$n$，集合$f_n = \inf(f, n)$。然后
 
 $$
 \lambda^\bullet(f) = \sup_{n \in \mathbf{N}} \lambda^\bullet(f_n) = \sup_{n \in \mathbf{N}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \sup_{n \in \mathbf{N}} \lambda_\alpha^\bullet(f_n) = \sup_{\alpha \in A} \lambda_\alpha^\bullet(f).
 $$
 
-最后，在$f$上没有生成限制，用$T$的紧凑子集的$\mathscr{K}$集合表示，我们有
+最后，在$f$上没有限制，用$T$的紧凑子集的$\mathscr{K}$集合表示，我们有
 $$
 \lambda^\bullet(f) = \sup_{K \in \mathscr{K}} \lambda^\bullet(f \varphi_K) = \sup_{K \in \mathscr{K}} \sup_{\alpha \in A} \lambda_\alpha^\bullet(f \varphi_K)
 $$
@@ -360,14 +360,14 @@ $$
 
 #### 推论 1 {#int-v-s1-prop-11-cor-1 .statement tag=0908}
 
-*为了使 T 的子集 N 局部 $\lambda$ 可以忽略不计，对于每个 $\alpha \in A$，N 局部 $\lambda_\alpha$ 可以忽略是充分必要的。*
+*为了使 T 的子集 N 局部 $\lambda$ 可忽略，对于每个 $\alpha \in A$，N 局部 $\lambda_\alpha$ 可忽略是必要且充分的。*
 
 #### 推论 2 {#int-v-s1-prop-11-cor-2 .statement tag=0909}
 
 *为了使 T 的映射 g 成为拓扑空间 G $\lambda$ 可测，它对于每个 $\alpha \in A$ $\lambda_\alpha$ 可测是充分必要的。*
 
-条件显然是必要的，因为每个 $\alpha$ 都有 $\lambda_\alpha \leq \lambda$（第 IV, §1, No. 3 章，提案 15）。相反，假设$g$对于所有$\alpha$来说是$\lambda_\alpha$可测的，用T的紧致子集K的$\mathscr{K}$集合表示，使得$g|K$是连续的，并令L为紧集，使得$L \cap K$ 是 $\lambda$——对于每个 $K \in \mathscr{K}$ 来说，可以忽略不计。由于集合$\mathscr{K}$是$\lambda_\alpha$密集，L对于每个$\alpha$来说$\lambda_\alpha$可以忽略不计（第IV, §5, No. 8，第12章），因此$\lambda$可以忽略不计（Cor.1）。由此可知 $\mathscr{K}$ 是 $\lambda$ 稠密的，而 $g$ 是 $\lambda$ 可测的（第 IV, §5, No. 10 章，第 15 条命题）。
+条件显然是必要的，因为$\lambda_\alpha \leq \lambda$对应于每个$\alpha$（第IV, §1, No. 3，第15条命题）。相反，假设$g$对于所有$\alpha$是$\lambda_\alpha$可测的，用T的紧致子集K的$\mathscr{K}$集合表示，使得$g|K$是连续的，并且让L是紧集使得$L \cap K$对于每个$K \in \mathscr{K}$，$\lambda$可以忽略不计。由于集合$\mathscr{K}$是$\lambda_\alpha$密集，L对于每个$\alpha$来说$\lambda_\alpha$可以忽略不计（第IV, §5, No. 8，第12章），因此$\lambda$可以忽略不计（Cor.1）。由此可知 $\mathscr{K}$ 是 $\lambda$ 稠密的，并且 $g$ 是 $\lambda$ 可测的（第 IV, §5, No. 10 章，第 15 条命题）。
 
 ### 习题{#int-v-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

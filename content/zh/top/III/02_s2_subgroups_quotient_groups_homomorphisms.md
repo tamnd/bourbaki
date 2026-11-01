@@ -53,19 +53,19 @@ subsections:
       pdf_page: 245
 statements: 46
 exercises: 31
-content_sha256: c4736f840af3c05f0480270a8cc101fd483b64b1462b98bee41403d9914299db
+content_sha256: 941d8b9549168235f120043f18ca12ff0d6ed59f08ab171c459e52d2c7840c7e
 translated_from: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
 translation_method: google
 source_content_sha256: e351a0c8f9f899d8ea24b29a23597820504f125d5656802211af972ada8b6d78
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 0bad4ff69855cd1e2170a76695f8bc62ff4663dd61501a3506dd820cf52738c1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2. 子群、商群、同态、同质空间、乘积群
+## 2. 子群、商群、同态、均质空间、乘积群
 
 ### 1. 拓扑群的子群
 
@@ -107,23 +107,23 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *拓扑群$G$的子群$H$是离散的当且仅当$H$有一个孤立的点。 Hausdorff 群的每个离散子群都是闭集。*
 
-如果$H$是离散的，则$H$的每个点都是孤立的。相反，如果 $H$ 有一个孤立的点，则通过平移，$H$ 的每个点都是孤立的，因此 $H$ 是离散的。如果$H$是离散的并且$G$是Hausdorff，则$e$存在邻域$V$使得$V \cap H = \{e\}$； $\{e\}$ 在 $G$ 闭合，因此 *更不必说* 在 $V$ 闭合，因此 $H$ 在 $e$ 局部闭合。因此 $H$ 在 $G$ 关闭于命题 4。
+如果$H$是离散的，则$H$的每个点都是孤立的。相反，如果 $H$ 有一个孤立的点，则通过平移，$H$ 的每个点都是孤立的，因此 $H$ 是离散的。如果$H$是离散的并且$G$是Hausdorff，则$e$存在邻域$V$使得$V \cap H = \{e\}$； $\{e\}$ 在 $G$ 闭合，因此 *更不必说* 在 $V$ 闭合，因此 $H$ 在 $e$ 局部闭合。因此 $H$ 在 $G$ 中被命题 4 关闭。
 
 #### 注 {#top-iii-s2-n1-rem-1 .statement tag=0BHY}
 
-令$H$为拓扑群$G$的任意子群。对于每个$x \in \overline{H}$，我们有$x \overline{H} = x$。 $\overline{H} = \overline{H}$，因为$x$的翻译是$G$到$G$的同胚。在其他字中，对于每个$x \in \overline{H}$，$xH$在$\overline{H}$中是“密集”。由此可见，如果 $H$ 不闭，则 $\overline{H} \cap CH$ 在 $\overline{H}$ 中是“稠密”的。
+令$H$为拓扑群$G$的任意子群。对于每个$x \in \overline{H}$，我们有$x \overline{H} = x$。 $\overline{H} = \overline{H}$，因为$x$的翻译是$G$到$G$的同胚。在其他字中，对于每个$x \in \overline{H}$，$xH$在$\overline{H}$中是*密集*。由此可见，如果 $H$ 不闭，则 $\overline{H} \cap CH$ 在 $\overline{H}$ 中是“稠密”的。
 
 ### 2. 拓扑群的组成部分
 
-令 $V$ 为 $G$ 中 $e$ 的*对称* 邻域。由$V$生成的子群，用$V^\infty$表示，由$V$的元素的有限序列的所有乘积$\prod_{i=1}^n x_i$组成。 $V^\infty$ 是“开”，因为它有 $e$ 作为内部点，因此被 no. 1 的命题 4“闭”。由此可见：
+令 $V$ 为 $G$ 中 $e$ 的*对称* 邻域。由$V$生成的子群，用$V^\infty$表示，由$V$的元素的有限序列的所有乘积$\prod_{i=1}^n x_i$组成。 $V^\infty$ 是“开”*，因为它有 $e$ 作为内部点，因此被 no. 1 的命题 4“闭”。由此可见：
 
 #### 命题 6 {#top-iii-s2-prop-6 .statement tag=0BHZ}
 
-*连通拓扑群是由单位元素的每个邻域生成的。*
+*连通拓扑群由单位元素的每个邻域生成。*
 
-命题的逆命题一般是假的，正如我们将在章IV（§ 2, no. 5）中看到的那样。如果单位元素的每一个邻域都生成一个拓扑群$G$，我们最多可以说的是$G$包含*除了$G$之外没有开放的子群*。
+这个命题的逆命题通常是假的，正如我们将在章 IV (§ 2, no. 5) 中看到的那样。如果单位元素的每一个邻域都生成一个拓扑群$G$，我们最多可以说的是$G$包含*除了$G$之外没有开放的子群*。
 
-\* 作为非连通群$G$的例，其具有与$G$不同的开子群，我们可以引用非零实数的*乘法群* $\mathbf{R}^*$，其中子群实数 $> 0$ 中的 $\mathbf{R}_+^*$ 既开又闭（参见章 IV, § 3, no. 2）。 \*
+\* 作为非连通群$G$的例，其具有与$G$不同的开子群，我们可以引用非零实数的*乘法群* $\mathbf{R}^*$，其中子群实数 $> 0$ 的$\mathbf{R}_+^*$ 既开又闭（参见章 IV, § 3, no. 2）。 \*
 
 #### 命题 7 {#top-iii-s2-prop-7 .statement tag=0BI0}
 
@@ -133,7 +133,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 $G$的单位元素$e$分量称为$G$的*恒等分量*。
 
-### 3.密集子群
+### 3. 密集子群
 
 下面的命题概括了no. 1的命题1：
 
@@ -145,7 +145,7 @@ $G$的单位元素$e$分量称为$G$的*恒等分量*。
 
 #### 命题 9 {#top-iii-s2-prop-9 .statement tag=0BI2}
 
-*令$H$为拓扑群$G$的稠密子群。如果$H$是由$H$中单位元素的每个邻域生成的，那么$G$是由$G$中单位元素的每个邻域生成的。*
+*令$H$为拓扑群$G$的稠密子群。如果$H$是由$H$中单位元素的每个邻域生成的，则$G$是由$G$中单位元素的每个邻域生成的。*
 
 令$V$为$G$中$e$的任意对称邻域。那么$V \cap H$是$H$中$e$的邻域，因此生成$H$。由此可见 $V$ 生成子群 $H'$ 其中包含 $H$；但 $H'$ 是开闭的（no. 1，命题 4 的推论），因此包含 $\overline{H} = G$。
 
@@ -211,7 +211,7 @@ $$
 
 令$G'$为另一个拓扑群在$X$上连续运行，并假设$s.(s'x) = s'(s.x)$对于所有$s \in G, s' \in G'$和X中的x \。那么由 G' 定义的等价关系 S 与 G 相容的，并且由于 S 是开路（引理 2），因此 G 会连续运行在 X/G' 上。类似地，G' 在 X/G 上连续运行。在这种情况下，X 上的两个群 G 和 G' 中的两个运算被称为可交换。
 
-### 5.同质空间
+### 5. 同质空间
 
 设G为拓扑群，G的H子群。H根据外法则$(t, x) \to xt$在G上连续运算，点$x \in G$的轨道为左陪集$xH$。因此，轨道的集合就是我们在代数中所说的齐次空间$G/H$。每当我们将$G/H$视为拓扑空间时，我们总是指G的轨道空间（相对于H）除非，但明确指出相反；即 G 的空间除以等价关系 $x^{-1}y \in H$。根据一般的定义，我们说这个空间的拓扑是G的拓扑与H的商。
 
@@ -247,7 +247,7 @@ $$
 
 对于某些 t ∈ G，每个 x ∈ X 都可以写成 x = t.x_0。如果 V 是 e 的邻域，则 V.x = (Vt).x_0 是 x 的邻域，因为我们可以写成 (Vt).x_0 = t((t^{-1}Vt).x_0)，并且断言根据以下事实得出：t^{-1}Vt 是 G 中 e 的邻域，并且 y → t.y 是 X 自身的同胚 (no. 4，引理 1)。由此可知，如果 U 是 G 的任意开子集，并且 x 是X 中的任意点，则 U.x 在 X 中开；因为如果 t ∈ U，则 t^{-1}U 是 e 的邻域，因此 (t^{-1}U).x 是 x 的邻域，并且 t.((t^{-1}U).x) = U.x 是 t.x 的邻域。因此 U.x 在 X 中是开集，因此 G 到 X 的映射 s → s.x 是开集。这样就完成了证明。
 
-### 6.商群
+### 6. QUOTIENT GROUPS
 
 #### 命题 16 {#top-iii-s2-prop-16 .statement tag=0BIG}
 
@@ -277,7 +277,7 @@ b) *商群 $G/H$ 是离散的当且仅当 $H$ 在 $G$ 中开路。*
 
 *如果 $H$ 是拓扑群 $G$ 的离散法线子群，则 $G/H$ 与 $G$ 局部同构。*
 
-令$V$为$G$中$e$的邻域，除了$e$之外，包含不存在$H$的任何点，并令$W$为邻域的对称开邻域 $e$在$G$中，使得$W^2 \subset V$。那么典范映射的$\varphi$到$G$到$G/H$的限制到$W$是*单射的*；因为如果$x, y \in W$和$\varphi(x) = \varphi(y)$，则$x^{-1}y \in W^2 \subset V$和$x^{-1}y \in H$，因此$x = y$。到命题 17，$\varphi$到$W$的限制是$W$到$\varphi(W)$的同胚；此外，由于$\varphi(xy) = \varphi(x)\varphi(y)$对于所有$x, y \in W$，我们结论认为$G$和$G/H$是局部同构的（§ 1, no. 3，命题3）。
+令$V$为$G$中$e$的邻域，除了$e$之外，不存在包含$H$中的任何点，并令$W$为邻域的对称开邻域 $e$在$G$中，使得$W^2 \subset V$。那么限制到 $W$ 的典范映射 $\varphi$ 的 $G$ 到 $G/H$ 是*内射*；因为如果$x, y \in W$和$\varphi(x) = \varphi(y)$，则$x^{-1}y \in W^2 \subset V$和$x^{-1}y \in H$，因此$x = y$。到命题 17，$\varphi$到$W$的限制是$W$到$\varphi(W)$的同胚；此外，由于$\varphi(xy) = \varphi(x)\varphi(y)$对于所有$x, y \in W$，我们结论认为$G$和$G/H$是局部同构的（§ 1, no. 3，命题3）。
 
 ### 7. 子群和商群商群
 
@@ -301,17 +301,17 @@ $A/(A \cap H)$到$\varphi(A)$的规范双射是一个连续的同态，因为它
 
 从$H_0 = H \cap G_0$开始，只要证明$U_0$是$G_0$的任意开子集且相对于关系$x^{-1}y \in H_0$饱和，则$U_0$是$G_0$的交和开子集 $G$相对于关系$x^{-1}y \in H$（章I, § 3, no. 6，命题10）饱和。令$U$为$G$的开子集，使得$U_0 = U \cap G_0$。从$U_0 = U_0 H_0$开始，很容易看出$U_0 = U H_0 \cap G_0$；但是$U H_0$在$G$开放，所以我们可以假设$U = U H_0$。 集合$U H$在$G$开放，相对于关系$x^{-1}y \in H$饱和；因此，如果我们证明$U H \cap G_0 = U_0$，命题就能得到证明。现在，如果$u \in U$和$h \in H$使得$u h \in G_0$，那么在$G$中存在$e$的对称邻域$V$使得$u V \subset U$；由于$V h$是$G$中$h$的邻域，因此存在$z \in V$使得$z h \in H_0$。但是我们有 $u z^{-1} \in U$ 和 $u h = (u z^{-1})(z h)$；因此$U H \cap G_0 \subset U H_0$。但是$U H_0 = U$，因此$U H \cap G_0 \subset U \cap G_0 = U_0$。这样就完成了证明。
 
-令$G$为在拓扑空间$X$上连续运行的拓扑群，并令$K$为$G$的正常子群，其包含在$X$的每个点的稳定子中。因此，对于每个$x \in X$，关系$s \equiv t \pmod{K}$意味着$s.x = t.x$和经过，我们将$G/K$的定义映射$s \to s.x$除以$X$。立即验证，对于外法则$(s', x) \to s'.x$，X有G/K作为群的算子。而且，相对于这个律，G/K在X上持续运行；对于X上的等式的关系和G上的关系$s \equiv t \pmod{K}$都是开等价关系，因此结果由映射的连续性得出
+令$G$为在拓扑空间$X$上连续运行的拓扑群，并令$K$为$G$的正常子群，其包含在$X$的每个点的稳定子中。因此，对于每个$x \in X$，关系$s \equiv t \pmod{K}$意味着$s.x = t.x$，而经过意味着我们将$G/K$的定义映射$s \to s.x$除以$X$。立即验证，对于外法则$(s', x) \to s'.x$，X有G/K作为群的算子。而且，相对于这个律，G/K在X上持续运行；对于X上的等式的关系和G上的关系$s \equiv t \pmod{K}$都是开等价关系，因此结果由映射的连续性得出
 
 $$(s, x) \to s'.x = s.x$$
 
 $G \times X$ 变为X（章 I, § 5, no. 3，推论命题 8，以及§ 3, no. 4、命题 6）。
 
-现在令 G 为在拓扑空间 X 上连续运行的拓扑群，并令 H 为 G 的任意正规子群；则H在X上连续运算。令 S 为 H 在 X 上定义的等价关系；则 S 开路（no. 4，引理 2）。 关系 S 兼容群 G (no. 4)；因为如果$y \equiv x \pmod{S}$则存在$t \in H$使得$y = t.x$；因此对于所有$s \in G$，我们有$s.y = (sts^{-1}).s.x$和$sts^{-1} \in H$，因为H在G中是正规的；因此$s.y \equiv s.x \pmod{S}$。如果$\psi$是X的典范映射到X/S，则群G因此相对于外法则在X/S上连续运行
+现在令 G 为在拓扑空间 X 上连续运行的拓扑群，并令 H 为 G 的任意正规子群；则H在X上连续运算。令 S 为 H 在 X 上定义的等价关系；则 S 开路（no. 4，引理 2）。 关系 S 兼容群 G (no. 4)；因为如果$y \equiv x \pmod{S}$则存在$t \in H$使得$y = t.x$；因此对于所有$s \in G$，我们有$s.y = (sts^{-1}).s.x$和$sts^{-1} \in H$，因为H在G中是正规的；因此$s.y \equiv s.x \pmod{S}$。如果$\psi$是X的典范映射到X/S，群G因此相对于外法则在X/S上连续运行
 
 $$(s, \psi(x)) \to \psi(s.x)$$
 
-（no. 4，命题11）。另外，X/S的点各自的稳定子中含有群H。正如我们在上面看到的，G/H 相对于外法则 $(s', \psi(x)) \to \psi(s.x)$ 连续运行在 $X/S = X/H$ 上。如果R表示G定义的X上的等价关系，则关系S意味着R，X/S上的等价关系R/S是群G/H定义的。因此（章I, § 3, no. 4，命题7）：
+（no. 4，命题11）。另外，X/S的点各自的稳定子中含有群H。正如我们在上面看到的，G/H 相对于外法则 $(s', \psi(x)) \to \psi(s.x)$ 连续运行在 $X/S = X/H$ 上。如果R在G定义的X上表示等价关系，则关系S意味着R，X/S上的等价关系R/S是由群G/H定义的。因此（章I, § 3, no. 4，命题7）：
 
 #### 命题 22 {#top-iii-s2-prop-22 .statement tag=0BIM}
 
@@ -321,13 +321,13 @@ $$(s, \psi(x)) \to \psi(s.x)$$
 
 *设G是拓扑群，H是G的法线子群，K是G的法线子群，其中包含H。那么G/K到$(G/H)/(K/H)$的规范双射就是拓扑的同构群.*
 
-我们已经知道，这个双射是群的同构，并且命题22（应用于在G上操作的群K）表明它是同胚。
+我们已经知道，这个双射是群的同构，而命题22（应用于在G右边运算的群K）表明它是同胚。
 
-### 8.连续同态和严格态射
+### 8. 连续同态和严格态射
 
 #### 命题 23 {#top-iii-s2-prop-23 .statement tag=0BIO}
 
-*拓扑群G的同态f到拓扑群$G'$在G上连续当且仅当它在G的一个点处连续。*
+*拓扑群 G 的同态 f 转换为拓扑群 $G'$ 在 G 上连续当且仅当它在 G 的一个点处连续。*
 
 假设$f$在点$a \in G$连续；那么如果$V'$是$f(a)$中的任意邻域，则$V = \overline{f^{-1}}(V')$是$a$中的邻域。因此，如果 $x$ 是 $G$ 中的任意点，我们有
 $$
@@ -335,7 +335,7 @@ f(xa^{-1}V) = f(x)[f(a)]^{-1}f(V) \subset f(x)[f(a)]^{-1}V',
 $$
 因此$f$在$x$连续。
 
-拓扑群 $G$ 到拓扑群 $G'$ 的连续同态也称为拓扑群结构的 $G$ 到 $G'$ 的 *态射*。
+拓扑群$G$到拓扑群$G'$的连续同态也称为拓扑群结构的$G$到$G'$的*态射*。
 
 设$f$是拓扑群$G$到拓扑群$G'$的连续同态； $G'$的单位元素$e'$的逆像$H = \overline{f^{-1}}(e')$是$G$的*普通子群*，$f(G)$是$G'$的*子群*。考虑正则分解$f = \psi \circ \dot{f} \circ \varphi$，其中$\varphi$是典范映射$G \to G/H$，$\psi$是典范嵌入$f(G) \to G'$，最后$\dot{f}$是商群的*连续双射同态* $G/H$到子群$f(G)$（章I, § 3, no. 5）； $\dot{f}$ 据说是与 $f$ *关联*的双射同态。一般来说，$\dot{f}$不是拓扑群的同构。
 
@@ -370,7 +370,7 @@ c) *$G$中单位元素每邻域$f$下像是$G'$中单位元素邻域。*
 
 令 $f$ 为拓扑群 G 到拓扑群 $G'$ 的连续同态，并令 H 为 G 的正规子群。$f$ 诱导同态 $g$ 群 $G/H$ 到商群 $f(G)/f(H)$。 这个同态$g$是连续的。 Moreover, if $f$ is a strict morphism of G into $G'$, then $g$ is a strict morphism of $G/H$ onto $f(G)/f(H)$; for if U is open in $G/H$, and if $\varphi$ (resp. $\varphi'$) denotes the canonical mapping of G onto $G/H$ [resp. of $f(G)$ onto $f(G)/f(H)$], then we have $g(u) = \varphi'(f(\overline{\varphi}^{-1}(u)))$, and since $\overline{\varphi}^{-1}(u)$ is open in G, it follows that $g(u)$ is open in $f(G)/f(H)$, which proves our assertion.
 
-### 9. 拓扑群的乘积
+### 9. 拓扑乘积群
 
 设$(G_i)_{i \in I}$是拓扑群的族。然后我们可以在乘积集合上定义群结构
 
@@ -426,7 +426,7 @@ $$
 
 #### 推论{#top-iii-s2-n9-cor-1 .statement tag=0BIX}
 
-*让* $(G_i)_{i \in I}$ *成为拓扑群的族，并且对于每个* $i \in I$ *让* $H_i$ *成为* $G_i$的正规子群； *让*$\varphi_i$*表示*$G_i$*的典范映射*到*$G_i/H_i$。 *让*$G = \prod_{i \in I} G_i, \ H = \prod_{i \in I} H_i$。 *那么* $G/H$ *到* $\prod_{i \in I} (G_i/H_i)$ *与连续同态* $(x_i) \to (\varphi_i(x_i))$ *相关的双射同态 *是拓扑群的同构。*
+*让* $(G_i)_{i \in I}$ *成为拓扑群的族，并且对于每个* $i \in I$ *让* $H_i$ *成为* $G_i$的正规子群； *让*$\varphi_i$*表示*$G_i$*的典范映射*到*$G_i/H_i$。 *让*$G = \prod_{i \in I} G_i, \ H = \prod_{i \in I} H_i$。 *则* $G/H$ *到* $\prod_{i \in I} (G_i/H_i)$ *与连续同态* $(x_i) \to (\varphi_i(x_i))$ *相关的双射同态 *是拓扑群的同构。*
 
 对于这个同态是群结构中的同构。
 
@@ -434,9 +434,9 @@ $$
 
 如果 $G$ 是一个*可交换的*拓扑群，加法书写，那么 $G \times G$ 到 $G$ 的映射 $(x, y) \to x + y$ 是一个*严格的态射*。因为从$(x + x') + (y + y') = (x + y) + (x' + y')$开始，它是$G \times G$到$G$的*同态*；也是连续的，在该映射下，$G \times G$原点的邻域$V \times V$的像是$G$原点的邻域$V + V$。
 
-### 10.半直接乘积
+### 10. 半直接乘积
 
-令$L, N$为群$G$之二子群，使得$LN = NL$；那么 $LN$ 是 $G$ 的 *子群*，因为
+令$L, N$为群$G$中的两个子群，使得$LN = NL$；那么 $LN$ 是 $G$ 的 *子群*，因为
 
 $$
 (LN)(LN)^{-1} = LNN^{-1}L^{-1} = LNL = LLN = LN
@@ -444,7 +444,7 @@ $$
 
 此外，$N \times L$到$G$的映射$\varphi : (x, y) \to xy$是*内射*当且仅当$N \cap L = \{e\}$。因为很明显，如果 $\varphi$ 是单射的，则 $N \cap L = \{e\}$；相反，关系$x'y' = xy$，其中$x, x' \in N$和$y, y' \in L$，意味着$x^{-1}x' = {yy'}^{-1} \in N \cap L$；因此，如果$N \cap L = \{e\}$，则$\varphi$是单射的。因此，$\varphi$是*双射的*当且仅当$LN = G$和$N \cap L = \{e\}$。
 
-如果$N$是$G$的*正常*子群（或者更一般地在$G$包含$N \cup L$的某些子群中是正常的），则自动满足条件$LN = NL$。此外，对于每个$y \in L$映射$\sigma_y : x \to yxy^{-1}$都是群$N$的*自同构*，并且对于$L$的任何两个元素$u, v$我们有
+如果$N$是$G$的*正常*子群（或者更一般地在$G$包含$N \cup L$的某些子群中是正常的），则自动满足条件$LN = NL$。此外，对于每个$y \in L$映射$\sigma_y : x \to yxy^{-1}$都是群$N$的*自同构*，并且对于$L$的任意两个元素$u, v$我们有
 
 $$(1)$$
 $$
@@ -497,7 +497,7 @@ $$f(x\sigma_y(x'))g(yy') = f(x)g(y)f(x')g(y^{-1})g(y)g(y') = f(x)g(y)f(x')g(y')$
 
 由于$h(x, y) = f(x)g(y)$，第二个断言是明显的；此外，从(4)可以得出$f(N)g(L) = g(L)f(N)$，第一个断言是从本小节开头的注得出的。
 
-命题27中定义的群S据说是N和L的*外部半直接乘积*（相对于$\sigma$）；我们通常会认同 N （分别为 L) 与正常的子群 $j_1(N)$ [分别。 S 的子群$j_2(L)$]。 如果对于所有$y \in L$，$\sigma_y$是$\Gamma$的单位元素，我们检索两个群的*乘积*的通常概念。
+The group S defined in Proposition 27 is said to be the *external semi-direct product* of N and L (relative to $\sigma$); we shall generally identify N (resp. L) with the normal subgroup $j_1(N)$ [resp. the subgroup $j_2(L)$] of S. 如果对于所有$y \in L$，$\sigma_y$是$\Gamma$的单位元素，我们检索两个群的*乘积*的通常概念。
 
 现在令 G 为群，并令 L 和 N 为 G 的两个子群，使得 LN = NL 并且 N 在 NL 中是*正常*，因此对于每个 $y \in L$，$\sigma_y : x \to yxy^{-1}$ 是 N 的自同构，$y \to \sigma_y$ 是 N 的同态 L 到 N 的自同构群 $\Gamma$。 从命题 27 可以得出，如果 S 是 N 的外部半直接乘积和 L（相对于 $\sigma$），则 $h : (x, y) \to xy$ 是 S 到 G 的 *同态*。 h 是双射当且仅当我们有 $N \cap L = \{e\}$ 和 $NL = G$ （命题 27 的推论）； G 则被称为其正常子群 N 及其子群 L 的*半直接乘积*，并且我们经常通过 h 与 S 进行认同 G。
 
@@ -529,4 +529,4 @@ S 到 G 上是连续的。但这个同态不一定是双连续的；当它是双
 
 ### 习题{#top-iii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

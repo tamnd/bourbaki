@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: 07f9a0ede5f4c5e394c02864754c6d680dbb4f9d6eb5a745c7ccb3b3fef1f87d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 45a15ae0c761f62a81e5a1f6f34488164bb06fdfb8c7e6e6ba6aa5f93ff94d2c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录 3 希尔伯特零点定理

@@ -29,25 +29,25 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: 34e7ee52cd6c6397aeeb129b048196d226d1211a8c13e7857ce228f44f771005
+content_sha256: 5fc03cb5591488bc6fb503a23ec6f387b4f3bdf6de053d3875ad1c031f930234
 translated_from: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 4e23a56fb861bed945b01d7c816d0a6e594b96b17aad3c28c11640248838980a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: c64dea22c022d5a22195a17804ae4574ec063b0baed627cbc2c7679f71a91111
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 8。 HAUSDOFF 的收敛性级数（超度量情况）
+## § 8。 HAUSDOFF 级数的收敛性（超度量情况）
 
 在本段中，我们假设 K 是特征零* 的非离散*完整值域，具有*超度量*绝对值值。我们用$p$表示K的剩余类域的特征（*交换代数*，章VI, § 3, no. 2）。
-如果$p \neq 0$，我们写$a = |p|$；我们知道（*交换代数*，章VI, § 6，第 2 和第 3 个）$0 < a < 1$，并且存在一个且只有一个对 K 的评估$v$，$\mathbf{R}$ 中的值，其限制到 $\mathbf{Q}$ 是$p$-adic 估值$v_p$，对于所有$x \in K$，$|x| = a^{v(x)}$。我们还写：
+如果$p \neq 0$，我们写$a = |p|$；我们知道（*交换代数*，章VI, § 6，第 2 和第 3 个）$0 < a < 1$，并且存在一个且只有一个对 K 的评估$v$，其中值位于$\mathbf{R}$，其限制到$\mathbf{Q}$是$p$-adic 估值$v_p$，对于所有$x \in K$，$|x| = a^{v(x)}$。我们还写：
 (1) $\theta = \frac{1}{p-1}.$
 
-如果$p = 0$，我们用$a$实数表示$0 < a < 1$，并用$v$表示对$\mathbf{K}$的评估，值在$\mathbf{R}$中，使得$|x| = a^{v(x)}$对于所有$x \in \mathbf{K}$（*loc.引用。*）。然后$v(x) = 0$换$x \in \mathbf{Q}^*$。我们还写：
+如果$p = 0$，我们用$a$实数表示，使得$0 < a < 1$，并用$v$表示对$\mathbf{K}$的评估，其中值在$\mathbf{R}$中，使得$|x| = a^{v(x)}$对于所有$x \in \mathbf{K}$（*loc.cit.*）。然后$v(x) = 0$换$x \in \mathbf{Q}^*$。我们还写：
 $$
 \theta = 0.
 $$
@@ -58,7 +58,7 @@ $$
 
 #### 引理 1 {#lie-ii-s8-lem-1 .statement tag=0A6Q}
 
-*令$n$为整数$\geqslant 0$，并令$n = n_0 + n_1 p + \cdots + n_k p^k$与$0 \leqslant n_i \leqslant p - 1$一起成为$n$的$p$进数展开。让$S(n) = n_0 + n_1 + \cdots + n_k$。然后*
+*令$n$为整数$\geqslant 0$，并令$n = n_0 + n_1 p + \cdots + n_k p^k$与$0 \leqslant n_i \leqslant p - 1$一起为$n$的$p$进数展开。让$S(n) = n_0 + n_1 + \cdots + n_k$。然后*
 $$
 v_p(n!) = \frac{n - S(n)}{p - 1}.
 $$
@@ -66,18 +66,18 @@ $$
 $$
 v_p(n!) = \sum_{j \geqslant 0} j ([n/p^j] - [n/p^{j+1}]) = \sum_{j \geqslant 1} [n/p^j].
 $$
-如下$[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$，引理。
+随着$[n/p^j] = \sum_{i \geqslant j} n_i p^{i-j}$，引理紧随其后。
 
 #### 引理 2 {#lie-ii-s8-lem-2 .statement tag=0A6R}
 
-每整数 $n \geqslant 1$ $v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ 和 $v(n) \leqslant (\log n)/(\log p)$。
+每整数 $n \geqslant 1$ 都有 $v(n) \leqslant v(n!) \leqslant (n - 1)\theta$ 和 $v(n) \leqslant (\log n)/(\log p)$。
 $v(n!) = v_p(n!) = (n - S(n))\theta \leqslant (n - 1)\theta$ 引理 1。
-另一方面，$n \geqslant p^{v(n)}$、从而$v(n) \leqslant (\log n)/(\log p)$。
+另一方面，$n \geqslant p^{v(n)}$，从而$v(n) \leqslant (\log n)/(\log p)$。
 令$I = \{ U, V \}$为两个元素中的集合，并令
 $$
 \mathbf{H} = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{\mathbf{L}}_{\mathbf{Q}}(I)
 $$
-是 Hausdorff 级数 (§ 6, no. 4, 定义 1)。令$\mathbf{Z}_{(p)}$相对于素理想$(p)$为$\mathbf{Z}$的局部环，并且在$\mathbf{Z}$上$\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$为$(e_b)_{b \in B}$基（§ 2, no. 11，定理1）。也是$\mathbf{L}_{\mathbf{Q}}(I)$超过$\mathbf{Q}$的基。
+是 Hausdorff 级数 (§ 6, no. 4, 定义 1)。令$\mathbf{Z}_{(p)}$相对于素理想$(p)$而言为$\mathbf{Z}$的局部环，并且相对于$\mathbf{Z}$而言$\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$的$(e_b)_{b \in B}$基（§ 2, no. 11，定理1）。也是$\mathbf{L}_{\mathbf{Q}}(I)$超过$\mathbf{Q}$的基。
 
 #### 命题 1 {#lie-ii-s8-prop-1 .statement tag=0A6S}
 
@@ -92,7 +92,7 @@ $$
 
 令$f$为整数，使得$f \leq (r + s - 1)\theta < f + 1$。对于所有 $b \in B$，关系 (4) 相当于 $v_p(\lambda_b) \geq -f$，即 $H_{r,s} \in p^{-f}L_{\mathbf{Z}(p)}$。但这也等价于 (5) 到 $H_{r,s} \in p^{-f}A_{\mathbf{Z}(p)}(I)$。
 
-通过§ 6, no. 4的公式(11)，足以证明，对于每个整数$m \geq 1$和所有整数$r_1, \ldots, r_m, s_1, \ldots, s_m$，这样
+通过§ 6, no. 4的公式(11)，足以证明，对于每个整数$m \geq 1$和所有整数$r_1, \ldots, r_m, s_1, \ldots, s_m$，使得
 $$
 r_1 + \cdots + r_m = r, \quad s_1 + \cdots + s_m = s,
 $$
@@ -109,11 +109,11 @@ $$
 $$
 因为它是整数，所以它是$\leq f$，从而完成了证明。
 
-### 2.规范李代数
+### 2. 规范李代数
 
 #### 定义 1 {#lie-ii-s8-def-1 .statement tag=0A6T}
 
-*K* 上的李代数范数为李代数和范数，使得
+*K* 上的李代数范数为李代数和范数使得
 $$
 \|x + y\| \leq \sup(\|x\|, \|y\|)
 $$
@@ -124,9 +124,9 @@ $$
 
 *在本段的其余部分中，g 表示完整的标准化李代数。*
 
-对于每个有限的集合I，我们定义就像§ 7, no. 1一样，将$\hat{L}(I)$的连续李代数同态$u \mapsto \tilde{u}$变成$\hat{P}(g^I; g)$。我们在§ 7中看到，如果$u = \sum_v u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，则$\tilde{u} = \sum_v \tilde{u}_v$，其中$\tilde{u}_v$是在§ 2, no. 4中定义的多项式映射$(t_i)_{i \in I} \mapsto u_v((t_i))$。 合成公式 (2) of § 7, no. 1，仍然有效。
+对于每个有限的集合I，我们定义就像§ 7, no. 1一样，将$\hat{L}(I)$的连续李代数同态$u \mapsto \tilde{u}$变成$\hat{P}(g^I; g)$。我们在§ 7中看到，如果$u = \sum_v u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，则$\tilde{u} = \sum_v \tilde{u}_v$，其中$\tilde{u}_v$是§ 2, no. 4中定义的多项式映射$(t_i)_{i \in I} \mapsto u_v((t_i))$。 合成公式 (2) of § 7, no. 1，仍然有效。
 
-### 3. 群由完整规范李代数定义
+### 3. 群由完整规范定义李代数
 
 令 $H = \sum_{r, s \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ 为 Hausdorff 级数 (§ 6, no. 4, 定义 1)。我们将证明相应的形式幂级数具有连续成分
 $$
@@ -142,7 +142,7 @@ $$
 \| \tilde{H}_{r,s} \| \leq a^{-(r+s-1)\theta}.
 $$
 
-令B为相对于I的大厅集合，并令$H_{r,s} = \sum_{b \in B} \lambda_b e_b$为$H_{r,s}$相对于相应的基的分解为$L(\{U, V\})$。然后
+令B为相对于I的大厅集合，并令$H_{r,s} = \sum_{b \in B} \lambda_b e_b$为$H_{r,s}$的分解相对于相应的基的$L(\{U, V\})$。然后
 $$
 |\lambda_b| \leq a^{-(r+s-1)\theta}.
 $$
@@ -222,7 +222,7 @@ $$
 $$
 \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H})
 $$
-在 $\hat{P}(g \times g \times g; g)$ (no. 2) 和 (19) 中通过 (16) 隐含 (18) 和 *可微分和解析流形*, R, 4.1.5。
+在 $\hat{P}(g \times g \times g; g)$ (no. 2) 和 (19) 中隐含 (18) by (16) 和 *可微分和解析流形*, R, 4.1.5。
 
 *在其他字（章III, § 1）中，$G$与豪斯多夫函数是李群。*
 
@@ -237,7 +237,7 @@ $$
 
 对于$A$中的$x, y$，并用这个范数*完备的*。 § 7, no. 3第二段和第三段的结果仍然有效。
 
-我们取$I = \{ U \}$并考虑$\hat{P}(A; A)$中级数$e(U) = \sum_{n \geq 1} \frac{U^n}{n!}$和$l(U) = \sum_{n \geq 1} (-1)^{n-1} \frac{U^n}{n}$的像$\tilde{e}$和$\tilde{l}$。然后：
+我们取$I = \{ U \}$，并在$\hat{P}(A; A)$中考虑级数、$e(U) = \sum_{n \geq 1} \frac{U^n}{n!}$和$l(U) = \sum_{n \geq 1} (-1)^{n-1} \frac{U^n}{n}$的像、$\tilde{e}$和$\tilde{l}$。然后：
 
 $$
 \left\| \left( \frac{U^n}{n!} \right)^{\sim} \right\| \leq a^{-(n-1)\theta}
@@ -270,7 +270,7 @@ $$
 $$
 完成证明。
 
-如果给$A$加上括号$[x, y] = xy - yx$，对于$\|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\|$，$A$将成为完整的规范李代数。 no. 3的命题2意味着$\tilde{H}$包含$G \times G$和$\tilde{H}$的绝对收敛域，因此定义是解析函数$h : G \times G \to A$；然后
+如果给$A$加上括号$[x, y] = xy - yx$，对于$\|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\|$，$A$将成为完整的规范李代数。 no. 3的命题2意味着$\tilde{H}$包含$G \times G$和$\tilde{H}$的绝对收敛域，因此定义是解析函数$h : G \times G \to A$；那么
 $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$
@@ -291,4 +291,4 @@ $\tilde{H}(A \times A; A)$（其中 m 表示 A 上的乘法）。然后从命题
 
 我们假设域$K$的残差特征$p$>0。我们用$\mathfrak{o}_K$环表示$K$的估值$v$。
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

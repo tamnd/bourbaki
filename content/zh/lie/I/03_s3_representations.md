@@ -45,21 +45,21 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: 74dfabc9ed80a079e0c041613909b25e547a285a68026557d919acccdc3f2d8b
+content_sha256: 0eb90d55caca6e180e1e803cd82574a5b06ccdeaac0dd6661a76263b83fa854b
 translated_from: content/en/lie/I/03_s3_representations.md
 translation_method: google
 source_content_sha256: a021ec46ba121f306f571608589128b59fe9512dee7105b93f2d9f49b1ae24bd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 788dfc3ecde3637e35c06042c5cc287a9739c47b77af638ac0c40533d8cfba51
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 表示
 
-### 1.表示
+### 1. REPRESENTATIONS
 
 #### 定义 1 {#lie-i-s3-def-1 .statement tag=09VS}
 
@@ -145,7 +145,7 @@ $$
 
 由于$a$模块$M$属于有限长度，因此$M$的子$a$模块的集合中存在最小元素$N$：它是$M$的简单子$a$模块。 The largest sub-$a$-module of $M$ which is pure of species $N$ is therefore $\neq \{0\}$ and is a sub-$g$-module of $M$ (Proposition 1) and is therefore identical with $M$.
 
-### 2. 张量积的表示
+### 2. 张量积表示
 
 我们在no. 1直和中定义了$g$的表示族。我们现在将定义其他运算放在表示上。
 
@@ -184,7 +184,7 @@ $$
 
 公式 (3) 表明，对于所有 $x \in g, x_T$ 来说，代数 $T$ 扩展 $x_M$ 都是唯一的 *推导*。我们知道（§ 2, no. 8）经过上的$x_T$定义除以$M$的对称代数$S$的商推导。因此，$S$可以被视为$T$的商$g$模，而$x_S$是$S$的推导。
 
-更具体地，通过$g$的伴随表示将$g$视为$g$模。令$U$为$g$的包络代数。通过 § 2 的命题 7，$x_M$ 定义在经过上除以 $U$ 的商推导，即由 $\sigma(x)$ 定义的内部推导（$\sigma$ 表示$g$ 的典范映射变为 $U$）。那么$U$可以被认为是$T$的商$g$模。如果$K$是特征0的域，则$S$到$U$的典范同构是$g$模同构（§ 2, no. 8）。
+更具体地，通过$g$的伴随表示将$g$视为$g$模。令$U$为$g$的包络代数。通过 § 2 的命题 7，经过上的 $x_M$ 定义到 $U$ 的商推导，即由 $\sigma(x)$ 定义的内部推导（$\sigma$ 表示$g$ 的典范映射变为 $U$）。那么$U$可以被认为是$T$的商$g$模。如果$K$是特征0的域，则$S$到$U$的典范同构是$g$模同构（§ 2, no. 8）。
 
 ### 3. 表示同态模
 
@@ -194,7 +194,7 @@ $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-是 $g_1^0 \times g_2$ 的典范映射进入这个包络线代数。因此，$M = \mathscr{L}_K(M_1, M_2)$上存在一个$(g_1^0 \times g_2)$模块结构，使得
+是典范映射的 $g_1^0 \times g_2$ 到这个包络线代数中。因此，$M = \mathscr{L}_K(M_1, M_2)$上存在一个$(g_1^0 \times g_2)$模块结构，使得
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
@@ -215,7 +215,7 @@ $$
 x_M \cdot u = x_{M_2} u - u x_{M_1}.
 $$
 
-将这些结果与命题 2 相结合，我们可以看到：
+将这些结果与命题 2 结合起来，我们可以看到：
 
 #### 命题 3 {#lie-i-s3-prop-3 .statement tag=09VY}
 
@@ -284,11 +284,11 @@ $$
 
 $g$-模块$\mathscr{L}(M_1, M_2^*)$和$(M_1 \otimes M_2)^*$在同构$\psi$下标识。如果$M_1$和$M_2$有有限的基，则$\phi$是同构（代数，章II, § 4, no. 2，命题2），这允许我们对$g$模块进行认同 $M_1^* \otimes M_2$和$\mathscr{L}(M_1, M_2)$；在这种情况下，我们可以使用认同、$g$模块$M_1^* \otimes M_2^*, \mathscr{L}(M_1, M_2^*)$和$(M_1 \otimes M_2)^*$。
 
-### 4.例
+### 4. 例
 
 #### 例 1 {#lie-i-s3-n4-exa-1 .statement tag=09W0}
 
-令$g$为李代数超过$K$，且$M$为$g$模。 $M$ 上的$g$-模块结构和$K$ 定义上的普通$g$-模块结构以及$M$ 上双线性形式的$K$-模块$N = \mathscr{L}(M, M; K)$ 上的$g$-模块结构。然后
+令$g$为李代数超过$K$，并且$M$为$g$模。 $M$ 上的$g$-模块结构和$K$ 定义上的普通$g$-模块结构以及$M$ 上双线性形式的$K$-模块$N = \mathscr{L}(M, M; K)$ 上的$g$-模块结构。然后
 
 $$
 (x_N \cdot \beta)(m, m') = -\beta(x_M \cdot m, m') + \beta(m, x_M \cdot m')
@@ -296,7 +296,7 @@ $$
 
 对于$M, \beta \in N$中的所有$x \in g, m, m'$。如果$\beta$是$N$的给定元素，$x \in g$的集合，则$x_N \cdot \beta = 0$是$g$的子代数。
 
-令$M$为$K$模块，$\beta$双线性形式位于$M$上。由上可知，$x \in gl(M)$中的集合使得
+令$M$为$K$模块，$\beta$双线性形式位于$M$上。由上可知，集合 / $x \in gl(M)$ 使得
 
 $$
 \beta(x \cdot m, m') + \beta(m, x \cdot m') = 0
@@ -364,7 +364,7 @@ x_P = \mathrm{ad}\, x_M
 $$
 在$\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$。
 
-### 5. 不变元素
+### 5. 不变量元素
 
 #### 定义 3 {#lie-i-s3-def-3 .statement tag=09W2}
 
@@ -404,7 +404,7 @@ x_M m \in M_2 \cap M_1 = \{0\}
 $$
 对于所有$x \in g$，因此$m \in M_0$，因此$m = 0$。因此$M_2 = \{0\}$，证明了$M_1 = M'$。
 
-### 6.不变双线性形式
+### 6. INVARIANT BILINEAR FORMS
 
 令 g 为 K 上的李代数。 g 在 g 上的伴随表示和 g 在 K 上的零表示定义 K-模上的 g 模结构
 
@@ -457,15 +457,15 @@ $$
 
 *假设 $K$ 是域并且李代数 $g$ 是超过 $K$ 的有限维*。 *令$a$为$g$的理想，$\beta$为$g$的杀戮形式，以及$\beta'$为$a$的杀戮形式。那么$\beta'$就是$\beta$到$a$的限制。
 
-令 $u$ 为向量空间 $g$ 的自同态，这使得 $a$ 保持稳定。设$v$为$u$到$a$的限制，以及向量空间$g/a$的$w$自同态，当经过为商时，由$u$导出。然后$\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$，如通过取$g$的基$(x_1, \ldots, x_n)$所示，其中第一个$p$元素形式基$a$。然后让$x \in a, y \in a$并将上面的公式应用到$u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$的情况。然后是$v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$和$w = 0$。因此$\beta(x, y) = \beta'(x, y)$。
+令 $u$ 为向量空间 $g$ 的自同态，这使得 $a$ 保持稳定。设$v$为$u$到$a$的限制，以及当经过为商时从$u$导出的向量空间$g/a$的$w$自同态。然后$\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$，如通过取$g$的基$(x_1, \ldots, x_n)$所示，其中第一个$p$元素形式基$a$。然后让$x \in a, y \in a$并将上面的公式应用到$u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$的情况。然后是$v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$和$w = 0$。因此$\beta(x, y) = \beta'(x, y)$。
 
 #### 命题 10 {#lie-i-s3-prop-10 .statement tag=09WC}
 
-*假设$K$是域，并且李代数$g$是$K$上的有限维。 $g$的杀戮形式$\beta$是完全不变的。*
+*假设$K$是域并且李代数$g$是$K$上的有限维。 $g$的杀戮形式$\beta$是完全不变的。*
 
 令 $D$ 为 $g$ 中的推导。存在李代数 $g'$ 包含 $g$ 作为余维 1 的理想和 $g'$ 的元素 $x_0$，使得 $Dx = [x_0, x]$ 对于所有 $x \in g$ (§ 1, no. 8， 例 1)。令$\beta'$为$g'$的杀戮形式。对于$g$、$\beta'([x, x_0], y) = \beta'(x, [x_0, y])$中的$x, y$，即$\beta'(Dx, y) + \beta'(x, Dy) = 0$。现在$\beta'$到$g$的限制是$\beta$（命题9）。因此命题。
 
-### 7.卡西米尔元素
+### 7. 卡西米尔元素
 
 #### 命题 11 {#lie-i-s3-prop-11 .statement tag=09WD}
 
@@ -490,7 +490,7 @@ $$
 
 因此，如果 n 不能被 K 的特征整除，则$c_M \neq 0$。另一方面，由于 U 的 c 属于到中心，$c_M$ 可以与所有 $x_M, x \in g$ 置换。如果进一步 M 是简单的，则 $c_M$ 因此在 $\mathscr{L}(M)$ 中是可逆的 (*代数*, 章 VIII, § 4, no. 3, 命题 2)。
 
-### 8. 基环的扩张
+### 8. 扩张基环
 
 设$K_1$为交换环，K的单位元和$\phi$同态变为$K_1$映射1比1。设g为谎言K-代数，U为其包络代数，M为左g模，即左U 型模块。那么$M_{(K_1)}$有一个规范的左$U_{(K_1)}$模块结构，因此有一个左$g_{(K_1)}$模块结构。设$\rho$和$\rho_{(K_1)}$为g的表示，$g_{(K_1)}$相应的为M和$M_{(K_1)}$：$\rho_{(K_1)}$据说是通过*扩展基环*从$\rho$导出的，结果为*代数*、章VIII, § 13, no. 4均可适用。如果$x \in g$，$\rho_{(K_1)}(x)$只是自同态$\rho(x) \otimes 1$ / $M_{(K_1)} = M \otimes_K K_1$。
 
@@ -514,4 +514,4 @@ $$
 
 ### 习题 {#lie-i-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

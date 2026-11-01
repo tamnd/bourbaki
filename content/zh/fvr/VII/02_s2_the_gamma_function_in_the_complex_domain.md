@@ -25,16 +25,16 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: 7c3a77b3bd4a239555c1f11585f4b20103f8b1e793b6cb7f4e68e3c86c3def91
+content_sha256: 49608219477f5e88f9c70c2a8b9f75ed428836230e12bd300097ab3e08c6de9c
 translated_from: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
 translation_method: google
 source_content_sha256: 1c81174cbd47bb500a623e0c569e0a38286f1c72eeae4b3d0069a0e65ec296a4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 51e773a2ab55a2544d9c991463669d91046868da392fc88f45c0d689b251ad91
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。复杂域中的 GAMMA 函数
@@ -201,7 +201,7 @@ $$
 $$
 f(0) = \prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) = \prod_{k=1}^{p-1} \Gamma \left( 1 - \frac{k}{p} \right) = \sqrt{\prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) \Gamma \left( 1 - \frac{k}{p} \right)}
 $$
-自 $f(0) > 0$ 起；补数’ 关系则给出
+自 $f(0) > 0$ 起；补数’ 关系然后给出
 $$
 f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
@@ -228,7 +228,7 @@ $$
 \frac{1}{n} \sum_{k=1}^q \log \Gamma \left( \frac{k}{n} \right) \leqslant \int_0^\alpha \log \Gamma(x)\ dx,
 $$
 
-$q$ 最大的整数使得$q/n \leqslant \alpha$。由于 $\int_0^\alpha \log \Gamma(x) dx$ 与 $\alpha$ 趋于 0，并且 $\frac{1}{n} \sum_{k=q+1}^n \log \Gamma \left( \frac{k}{n} \right)$ 趋于 $\int_\alpha^1 \log \Gamma(x) dx$，因为 $n$ 趋于 $+\infty$（II，p. 57，道具 5），因此有
+$q$ 最大的整数使得 $q/n \leqslant \alpha$。由于 $\int_0^\alpha \log \Gamma(x) dx$ 与 $\alpha$ 趋于 0，并且 $\frac{1}{n} \sum_{k=q+1}^n \log \Gamma \left( \frac{k}{n} \right)$ 趋于 $\int_\alpha^1 \log \Gamma(x) dx$，因为 $n$ 趋于 $+\infty$（II，p. 57，道具 5），因此有
 
 $$
 \int_0^1 \log \Gamma(x) dx = \lim_{n \to \infty} \frac{1}{n} \sum_{k=1}^n \log \Gamma \left( \frac{k}{n} \right).
@@ -264,7 +264,7 @@ $$
 \int_1^{x+1} \log \Gamma(t) dt = \int_0^x \log t dt + \frac{1}{2} \log 2\pi = x (\log x - 1) + \frac{1}{2} \log 2\pi.
 $$
 
-### 3.斯特林展开
+### 3. 斯特林展开
 
 令$x$和$y$为不位于实负半轴上的两个复数；由VII、p. 315的公式(3)，按照VII、p. 316的对数约定，$\log \Gamma(x) - \log \Gamma(y)$与表达式的$2\pi i$模极限全等
 
@@ -340,7 +340,7 @@ $$
 \log \Gamma(x) = g(x) + \delta + O \left( \frac{1}{x^{2p}} \right).
 $$
 
-现在我们将通过 prop 推导常数 $\delta$ 的值。 2 个VII，p. 318，申请了$p = 2$，一个已经有了，真正的$x$ 倾向于$+\infty$
+现在我们将通过 prop 推导常数 $\delta$ 的值。 VII、p. 318 中的 2 个，申请了$p = 2$，其中一个已拥有，真正的$x$ 倾向于$+\infty$
 
 $$
 \begin{align*}
@@ -390,13 +390,13 @@ $$
 \frac{\Gamma(n+\alpha)}{\Gamma(n)} \sim n^{\alpha} \quad (= e^{\alpha \log n}).
 $$
 
-类似地，对于每一个复数 $a$ 而不是整数 $\leqslant 0$ ，都有一个
+类似地，对于每个复数 $a$ 而不是整数 $\leqslant 0$ ，有一个
 
 $$
 a(a+1)(a+2)\ldots(a+n) = \frac{\Gamma(n+a+1)}{\Gamma(a)} \sim \frac{\sqrt{2\pi}}{\Gamma(a)} \, n^{n+a+1/2} \, e^n
 $$
 
-对于每个复数 $a$ 不是整数 $\geqslant 0$
+并且对于每个复数 $a$ 不是整数 $\geqslant 0$
 
 $$
 \binom{a}{n} = \frac{(-1)^n}{\Gamma(-a)} \frac{\Gamma(n-a)}{\Gamma(n+1)} \sim \frac{(-1)^n}{\Gamma(-a)} \, n^{-a-1}.
@@ -426,6 +426,6 @@ $$
 
 在阶到确定中为常数。
 
-### 习题 {#fvr-vii-s2-exercises}
+### 习题{#fvr-vii-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+请参阅[习题为 § 2](exercises/s2/)。

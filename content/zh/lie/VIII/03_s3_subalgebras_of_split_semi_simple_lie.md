@@ -33,27 +33,27 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 179d4b98e235c64dbe95e566deb57f2ea4334161e511001bf98bed96f715dd74
+content_sha256: 3079211df2821fa3dcae426e7c6ad2d21e0ea0d9a4b99b2ca3f72ac532252e16
 translated_from: content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 043e172960e451fa011db5fc5b2cdd69d22334e7720054bdacde767c930f9a50
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 90b06bfe7db1c3607794304649ca02c1bafd592a892a7b8e1be547fb1f9f4755
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。 子代数分裂的半单李代数
 
 在本段中，我们用 $(\mathfrak{g},\mathfrak{h})$ 分裂的半单李代数表示，用 R 表示根系。
 
-### 1. 子代数在广告下稳定$\mathfrak{h}$
+### 1. 子代数广告下稳定$\mathfrak{h}$
 
 #### 引理 1 {#lie-viii-s3-lem-1 .statement tag=00ZO}
 
-令V为$\mathfrak{g}$的向量子空间且R(V)集合为$\alpha \in R$，使得$\mathfrak{g}^{\alpha}\subset V$。那么，$(V\cap \mathfrak{h}) +\sum_{\alpha\in R(V)}\mathfrak{g}^{\alpha}$是V的最大的向量子空间在广告$\mathfrak{h}$下稳定。
+令V为$\mathfrak{g}$的向量子空间且R(V)集合为$\alpha \in R$，使得$\mathfrak{g}^{\alpha}\subset V$。那么，$(V\cap \mathfrak{h}) +\sum_{\alpha\in R(V)}\mathfrak{g}^{\alpha}$在广告$\mathfrak{h}$下是稳定的V的最大的向量子空间。
 
 向量子空间 V 的 W 在 ad $\mathfrak{h}$ 下稳定当且仅当
 
@@ -105,7 +105,7 @@ $\mathfrak{h}_{P\cap(-P)}\subset \mathfrak{h}'$ 和 $\mathfrak{g}^{(P+P)\cap R}\
 
 (i) 在ad$\mathfrak{h}$下稳定的$\mathfrak{g}$子代数是形式$\mathfrak{h}'+\mathfrak{g}^P$的向量子空间，其中P是R的闭子集，$\mathfrak{h}'$是向量子空间 $\mathfrak{h}$ 包含 $\mathfrak{h}_{P\cap(-P)}$。
 
-(ii) 令$\mathfrak{h}',\mathfrak{h}''$为$\mathfrak{h}$和$P,Q$的向量子空间，并用$\mathfrak{h}'\supset \mathfrak{h}_{P\cap(-P)},\mathfrak{h}''\subset \mathfrak{h}'$和$Q\subset P$闭闭R的子集。那么$\mathfrak{h}''+\mathfrak{g}^Q$是$\mathfrak{h}'+\mathfrak{g}^P$的理想当且仅当
+(ii) 设$\mathfrak{h}',\mathfrak{h}''$为$\mathfrak{h}$和$P,Q$的向量子空间，并且用$\mathfrak{h}'\supset \mathfrak{h}_{P\cap(-P)},\mathfrak{h}''\subset \mathfrak{h}'$和$Q\subset P$封闭R的子集。那么$\mathfrak{h}''+\mathfrak{g}^Q$是$\mathfrak{h}'+\mathfrak{g}^P$的理想当且仅当
 
 $(P + Q)\cap R\subset Q$ 和$\mathfrak{h}_{P\cap(-Q)}\subset \mathfrak{h}''\subset \bigcap_{\alpha\in P,\alpha  \notin Q}$ 克尔$\alpha$。
 
@@ -197,7 +197,7 @@ $$
 
 (ii) $\mathfrak{h}+\mathfrak{g}^P$ 是可还原的当且仅当 $P =-P$。
 
-断言 (i) 源自提案 2 (iii)。如果 $P =-P,\mathfrak{h}+\mathfrak{g}^P$ 是还原性的（命题 2 (iv)）。假设 $\mathfrak{a}=\mathfrak{h}+\mathfrak{g}^P$ 是可还原的。然后
+断言(i) 由命题 2 (iii) 得出。如果 $P =-P,\mathfrak{h}+\mathfrak{g}^P$ 是还原性的（命题 2 (iv)）。假设 $\mathfrak{a}=\mathfrak{h}+\mathfrak{g}^P$ 是可还原的。然后
 
 $$
 \mathfrak{g}^P= [\mathfrak{h},\mathfrak{g}^P]\subset [\mathfrak{a},\mathfrak{a}]\subset \mathfrak{h}+\mathfrak{g}^P
@@ -205,13 +205,13 @@ $$
 
 所以 $[\mathfrak{a},\mathfrak{a}]$ 是形式 $\mathfrak{h}'+\mathfrak{g}^P$ 和 $\mathfrak{h}'\subset \mathfrak{h}$；因为 $[\mathfrak{a},\mathfrak{a}]$ 是半单，$P =-P$（命题 2 (ii)）。
 
-### 2.理想
+### 2. 理想
 
 #### 命题 6 {#lie-viii-s3-prop-6 .statement tag=00ZV}
 
 令 $R_1, . . . ,R_p$ 为 R 的不可约分量。对于 $i= 1, . . . , p$，输入 $\mathfrak{g}_i=\mathfrak{h}_{R_i}+\mathfrak{g}^{R_i}$。那么$\mathfrak{g}_1, . . . ,\mathfrak{g}_p$就是$\mathfrak{g}$的简单分量。
 
-$\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\mathfrak{g}$是$\mathfrak{g}_i$的直和，因此乘积是$\mathfrak{g}_i$。令$\mathfrak{a}$和$\mathfrak{b}$是$\mathfrak{g}$的互补理想。那么$\mathfrak{a}$和$\mathfrak{b}$是半单并且在ad$\mathfrak{h}$下稳定，所以存在R的子集$P,Q$使得$\mathfrak{a}=\mathfrak{h}_P+\mathfrak{g}^P,\mathfrak{b}=\mathfrak{h}_Q+\mathfrak{g}^Q$。那么对于杀戮形式来说，$\mathfrak{h}_P,\mathfrak{h}_Q$是$\mathfrak{h}$中彼此的正交补，因此P和Q是R的不可约分量的并。这证明了$\mathfrak{g}_i$是$\mathfrak{g}$的最小理想。
+$\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\mathfrak{g}$是$\mathfrak{g}_i$的直和，因此乘积是$\mathfrak{g}_i$。令$\mathfrak{a}$和$\mathfrak{b}$是$\mathfrak{g}$的互补理想。那么$\mathfrak{a}$和$\mathfrak{b}$是半单并且在ad$\mathfrak{h}$下稳定，所以存在R的子集$P,Q$使得$\mathfrak{a}=\mathfrak{h}_P+\mathfrak{g}^P,\mathfrak{b}=\mathfrak{h}_Q+\mathfrak{g}^Q$。那么对于杀戮形式来说$\mathfrak{h}_P,\mathfrak{h}_Q$是$\mathfrak{h}$中彼此的正交补，所以P和Q是R的不可约分量的并。这证明了$\mathfrak{g}_i$是$\mathfrak{g}$的最小理想。
 
 #### 推论 1 {#lie-viii-s3-prop-6-cor-1 .statement tag=01IZ}
 
@@ -223,13 +223,13 @@ $\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\
 
 #### 推论 2 {#lie-viii-s3-prop-6-cor-2 .statement tag=00ZW}
 
-一个可分割的简单李代数绝对简单。
+可拆分的简单李代数绝对简单。
 
 这是从 Cor 得出的。 1.
 
 如果$\mathfrak{g}$是型$A_l(l\geq 1)$或$B_l(l\geq 1)$或$C_l(l\geq 1)$或$D_l(l\geq 3),\mathfrak{g}$，则称为经典的可分割简单李代数。如果$\mathfrak{g}$是型$E_6, E_7, E_8, F_4$，或者$G_2,\mathfrak{g}$，则据说是一个特殊的可分割简单李代数。
 
-### 3.博雷尔子代数
+### 3. 博雷尔子代数
 
 #### 命题 7 {#lie-viii-s3-prop-7 .statement tag=00ZX}
 
@@ -241,7 +241,7 @@ $\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\
 
 (iii)$P\cap (-P) =\emptyset$和$P\cup (-P) = R$。
 
-(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{b}$ 可解，则$P\cap (-P) =\emptyset$。那么存在 R 的室 C 使得 $P\subset R_+(C)$ （第 VI, §1, no. 7 章，第 22 条命题）。那么$\mathfrak{h}+\mathfrak{g}^{R_+(C)}$是$\mathfrak{g}$包含$\mathfrak{b}$的可解子代数，因此如果$\mathfrak{b}$极大，则等于$\mathfrak{b}$。
+(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{b}$ 可解，则$P\cap (-P) =\emptyset$。那么存在 R 的室 C 使得 $P\subset R_+(C)$ （第 VI, §1, no. 7 章，第 22 条命题）。那么 $\mathfrak{h}+\mathfrak{g}^{R_+(C)}$ 是 $\mathfrak{g}$ 包含 $\mathfrak{b}$ 的可解子代数，因此如果 $\mathfrak{b}$ 极大，则等于 $\mathfrak{b}$。
 
 (ii) $=\Rightarrow$ (iii)：这很清楚。
 
@@ -287,7 +287,7 @@ $\mathfrak{h}^*_{\mathbf{Q}}$上存在总共阶与其向量空间结构兼容，
 
 这就证明了(i)。还表明ad$_{\mathfrak{b}}(h+x)$的特征多项式为$T\prod_{\alpha\in R_+(C)}^l(T-\alpha (h))$。由前文可知
 
-set of elements of $\mathfrak{b}$ nilpotent in $\mathfrak{g}$, as well as the largest nilpotent ideal of $\mathfrak{b}$, are equal to $\mathfrak{n}$. 根据提案 5 (i)，我们有 $\mathfrak{n}= [\mathfrak{b},\mathfrak{b}]$。 最后，断言 (iii) 源自§2、第 4 条命题 (ii) 和第 1 章。 VI, §1, no. 6，提案 19。
+set of elements of $\mathfrak{b}$ nilpotent in $\mathfrak{g}$, as well as the largest nilpotent ideal of $\mathfrak{b}$, are equal to $\mathfrak{n}$. 根据提案 5 (i)，我们有 $\mathfrak{n}= [\mathfrak{b},\mathfrak{b}]$。 最后，断言 (iii) 源自§2、第 4 (ii) 条命题和第 4 章。 VI, §1, no. 6，提案 19。
 
 #### 推论{#lie-viii-s3-n3-cor-1 .statement tag=0102}
 
@@ -315,13 +315,13 @@ $$
 = 2(l+n)-p+p-(l+ 2n) =l
 $$
 
-根据§2第1号提案，没有。 $2,\mathfrak{n}\subset \mathfrak{b}^{\bot},\mathfrak{n}'\subset \mathfrak{b}^{'\bot}$。 $\mathfrak{p}\cap \mathfrak{n}$的元素在$\mathfrak{g}$（命题9（ii））中是幂零的，并且属于到$\mathfrak{b}'$，因此到$\mathfrak{n}'$（命题9（ii））。因而，$\mathfrak{p}\cap \mathfrak{n}\subset \mathfrak{n}\cap \mathfrak{n}'\subset \mathfrak{b}^{\bot}\cap \mathfrak{b}^{'\bot}$，所以$\mathfrak{s}^{\bot}\cap \mathfrak{p}\cap \mathfrak{n}= 0$。鉴于(3)，我们看到$\mathfrak{s}^{\bot}\cap \mathfrak{p}$是$\mathfrak{b}$中$\mathfrak{n}$的补集。令$z$为$\mathfrak{g}$中正则$\mathfrak{h}$的元素；存在$y\in \mathfrak{n}$使得$y+z\in \mathfrak{s}^{\bot}\cap \mathfrak{p}$；根据命题 9 (i)，ad$_{\mathfrak{g}}(y+z)$ 与 ad$_{\mathfrak{g}}z$ 具有相同的特征多项式，因而 $x=y+z$ 在 $\mathfrak{g}$ 中是正则，在 $\mathfrak{b}$ 和 $\mathfrak{b}'$ 中是更不必说（第 VII, §2, no. 2 章，命题 9）。由于$\mathfrak{g},\mathfrak{b},\mathfrak{b}'$具有相同的秩，$\mathfrak{b}^0(x) =\mathfrak{g}^0(x) ={\mathfrak{b}'}^0(x)$同时是$\mathfrak{b}$、$\mathfrak{g}$和$\mathfrak{b}'$的嘉当子代数（第VII, §3, no. 3第2章）。最后，$\mathfrak{g}$的嘉当子代数是Cor的分裂。提案 9。
+根据§2第1号提案，没有。 $2,\mathfrak{n}\subset \mathfrak{b}^{\bot},\mathfrak{n}'\subset \mathfrak{b}^{'\bot}$。 $\mathfrak{p}\cap \mathfrak{n}$的元素在$\mathfrak{g}$（命题9（ii））中是幂零的，并且属于到$\mathfrak{b}'$，因此到$\mathfrak{n}'$（命题9（ii））。因而，$\mathfrak{p}\cap \mathfrak{n}\subset \mathfrak{n}\cap \mathfrak{n}'\subset \mathfrak{b}^{\bot}\cap \mathfrak{b}^{'\bot}$，所以$\mathfrak{s}^{\bot}\cap \mathfrak{p}\cap \mathfrak{n}= 0$。鉴于(3)，我们看到$\mathfrak{s}^{\bot}\cap \mathfrak{p}$是$\mathfrak{b}$中$\mathfrak{n}$的补集。令$z$为$\mathfrak{g}$中$\mathfrak{h}$正则的元素；存在$y\in \mathfrak{n}$使得$y+z\in \mathfrak{s}^{\bot}\cap \mathfrak{p}$；根据命题 9 (i)，ad$_{\mathfrak{g}}(y+z)$ 与 ad$_{\mathfrak{g}}z$ 具有相同的特征多项式，因而 $x=y+z$ 在 $\mathfrak{g}$ 中是正则，在 $\mathfrak{b}$ 和 $\mathfrak{b}'$ 中是更不必说（第 VII, §2, no. 2 章，命题 9）。由于$\mathfrak{g},\mathfrak{b},\mathfrak{b}'$具有相同的秩，$\mathfrak{b}^0(x) =\mathfrak{g}^0(x) ={\mathfrak{b}'}^0(x)$同时是$\mathfrak{b}$、$\mathfrak{g}$和$\mathfrak{b}'$的嘉当子代数（第VII, §3, no. 3第2章）。最后，$\mathfrak{g}$的嘉当子代数是Cor的分裂。提案 9。
 
 #### 推论{#lie-viii-s3-n3-cor-2 .statement tag=0104}
 
 群 Aut$_e(\mathfrak{g})$ 在对 $(\mathfrak{t},\mathfrak{b})$ 的集合上传递操作，其中 $\mathfrak{t}$ 是 $\mathfrak{g}$ 的分裂嘉当子代数，$\mathfrak{b}$ 是博雷尔子代数 $(\mathfrak{g},\mathfrak{t})$。
 
-令$(\mathfrak{t}_1,\mathfrak{b}_1)$和$(\mathfrak{t}_2,\mathfrak{b}_2)$是两个这样的对。 $\mathfrak{b}_1\cap \mathfrak{b}_2$中包含$\mathfrak{g}$，存在分裂嘉当子代数$\mathfrak{t}$（命题10）。由科。根据第 9 条命题，我们被简化为 $\mathfrak{t}_1=\mathfrak{t}_2=\mathfrak{t}$ 的情况。令 S 为 $(\mathfrak{g},\mathfrak{t})$ 的根系。 S 存在基 $B_1,B_2$，使得$\mathfrak{b}_i$ 与$B_i(i= 1,2)$ 相关联，并且存在$s\in W(S)$，其中变换 $B_1$ 与$B_2$ 相关联。最后，存在$a\in$Aut$_e(\mathfrak{g})$使得$a|\mathfrak{t}=s($§2, no. 2，Cor。的 Th。 2）。然后是$a(\mathfrak{t}) =\mathfrak{t}$和$a(\mathfrak{b}_1) =\mathfrak{b}_2$。
+令$(\mathfrak{t}_1,\mathfrak{b}_1)$和$(\mathfrak{t}_2,\mathfrak{b}_2)$是两个这样的对。 $\mathfrak{b}_1\cap \mathfrak{b}_2$ 中包含$\mathfrak{g}$，存在分裂嘉当子代数 $\mathfrak{t}$（命题10）。由科。根据第 9 条命题，我们被简化为 $\mathfrak{t}_1=\mathfrak{t}_2=\mathfrak{t}$ 的情况。令 S 为 $(\mathfrak{g},\mathfrak{t})$ 的根系。 S 存在基 $B_1,B_2$，使得$\mathfrak{b}_i$ 与$B_i(i= 1,2)$ 相关联，并且存在$s\in W(S)$，其中变换 $B_1$ 与$B_2$ 相关联。最后，存在$a\in$Aut$_e(\mathfrak{g})$使得$a|\mathfrak{t}=s($§2, no. 2，Cor。的 Th。 2）。然后是$a(\mathfrak{t}) =\mathfrak{t}$和$a(\mathfrak{b}_1) =\mathfrak{b}_2$。
 
 ### 4. 抛物线子代数
 
@@ -399,7 +399,7 @@ b) 设 $F\in \mathscr{F}$。显然$P(F)\in \mathscr{P}$。另一方面，F 包�
 
 #### 命题 12 {#lie-viii-s3-prop-12 .statement tag=0109}
 
-令R中的$\mathscr{H}$为$\mathfrak{h}_{\mathbf{R}}$超平面由……组成集合根核集合。 令$\mathscr{F}$为$\mathfrak{h}_{\mathbf{R}}$相对于$\mathscr{H}$的面的集合。 令$\mathscr{S}$为$(\mathfrak{g},\mathfrak{h})$的抛物线子代数的集合。 对于每个 $\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P\in \mathscr{S}$，令 $F(\mathfrak{p})$ 为与 P 关联的面。 那么从$\mathscr{S}$到$\mathscr{F}$，$\mathfrak{p} \rightarrow F(\mathfrak{p})$就是双射。 如果$\mathfrak{p}_1,\mathfrak{p}_2\in \mathscr{P}$，
+令R中的$\mathscr{H}$为$\mathfrak{h}_{\mathbf{R}}$超平面由……组成集合根核集合。 令$\mathscr{F}$为$\mathfrak{h}_{\mathbf{R}}$相对于$\mathscr{H}$的面的集合。 令$\mathscr{S}$为$(\mathfrak{g},\mathfrak{h})$的抛物线子代数的集合。 对于每个$\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P\in \mathscr{S}$，令$F(\mathfrak{p})$为与P相关的面。那么$\mathfrak{p} \rightarrow F(\mathfrak{p})$是从$\mathscr{S}$到$\mathscr{F}$的双射。 如果$\mathfrak{p}_1,\mathfrak{p}_2\in \mathscr{P}$，
 
 $$
 \mathfrak{p}_1\supset \mathfrak{p}_2\Leftarrow \Rightarrow F(\mathfrak{p}_1)\subset \overline{F(\mathfrak{p}_2)}
@@ -417,19 +417,19 @@ $(\mathfrak{g},\mathfrak{h})$ 包含于 Borel 代数 $\mathfrak{b}$ 的抛物线
 
 根据命题，$2,\mathfrak{s}$ 是$\mathfrak{g}$ 的约简，$\mathfrak{g}^Q$ 是$\mathfrak{p}$ 的幂零理想。如果 $\mathfrak{n}$ 是 $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ 的最大的幂零理想（命题 2 (i)）；如果$x\in \mathfrak{n}\cap \mathfrak{h}$，ad$_{\mathfrak{p}}x$是幂零的，所以$\alpha (x) = 0$对于所有$\alpha \in P$，因而$x= 0$；这就证明了$\mathfrak{n}=\mathfrak{g}^Q$。从$[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$开始，$\mathfrak{p}$包含于$\mathfrak{g}^Q$的幂零根等于$\mathfrak{g}^Q$。让$z=h+\sum_{\alpha\in P}u_{\alpha}$（其中$h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha}$）为
 
-元素中心 $\mathfrak{p}$。对于所有$h'\in \mathfrak{h}, 0 = [h', z] =\sum\alpha (h')u_{\alpha}$，因而$u_{\alpha}= 0$对于所有$\alpha \in P$；由此可见，$[h,\mathfrak{g}^{\beta}] = 0$适用于所有$\beta \in P$，因而$h= 0$。
+$\mathfrak{p}$ 中心元素。对于所有$h'\in \mathfrak{h}, 0 = [h', z] =\sum\alpha (h')u_{\alpha}$，因而$u_{\alpha}= 0$对于所有$\alpha \in P$；由此可见，$[h,\mathfrak{g}^{\beta}] = 0$适用于所有$\beta \in P$，因而$h= 0$。
 
-### 5.非分裂情形
+### 5. NON-SPLIT CASE
 
 #### 命题 14 {#lie-viii-s3-prop-14 .statement tag=010C}
 
 设$k'$为$k$和$\mathfrak{g}'=\mathfrak{g}\otimes_kk'$的扩张。设$\mathfrak{m}$为$\mathfrak{g}$和$\mathfrak{m}'=\mathfrak{m}\otimes_kk'$的子代数。如果 $\mathfrak{m}'$ 是抛物线（分别为 Borel ），则 $\mathfrak{g}',\mathfrak{m}$ 的子代数是 $\mathfrak{g}$ 的抛物线（分别为 Borel ）子代数。
 
-根据命题8和命题11，足以证明$\mathfrak{g}$的$\mathfrak{m}$包含分裂嘉当子代数。设$\mathfrak{b}$为$\mathfrak{g}$中的博雷尔子代数。那么 $\mathfrak{b}'=\mathfrak{b}\otimes_kk'$ 是 $\mathfrak{g}'$ 的博雷尔子代数，所以 $\mathfrak{m}'\cap \mathfrak{b}'$ 包含嘉当子代数 $\mathfrak{g}'$（命题 10）。令 $\mathfrak{t}$ 为 $\mathfrak{m}\cap \mathfrak{b}$ 中的嘉当子代数。那么$\mathfrak{t}\otimes_kk'$是$\mathfrak{m}'\cap \mathfrak{b}'$的嘉当子代数，因此是$\mathfrak{g}'$（第VII, §3, no. 3章，第3条）。因而，$\mathfrak{t}$是$\mathfrak{g}$的嘉当子代数，并且由于它包含在$\mathfrak{b}$中，所以它是分裂。
+根据命题8和命题11，足以证明$\mathfrak{g}$的$\mathfrak{m}$包含分裂嘉当子代数。令$\mathfrak{b}$为$\mathfrak{g}$的博雷尔子代数。那么 $\mathfrak{b}'=\mathfrak{b}\otimes_kk'$ 是 $\mathfrak{g}'$ 的博雷尔子代数，所以 $\mathfrak{m}'\cap \mathfrak{b}'$ 包含嘉当子代数 $\mathfrak{g}'$（命题 10）。设$\mathfrak{t}$为$\mathfrak{m}\cap \mathfrak{b}$的嘉当子代数。那么$\mathfrak{t}\otimes_kk'$是$\mathfrak{m}'\cap \mathfrak{b}'$的嘉当子代数，因此是$\mathfrak{g}'$（第VII, §3, no. 3章，第3条）。因而，$\mathfrak{t}$是$\mathfrak{g}$的嘉当子代数，并且由于它包含在$\mathfrak{b}$中，所以它是分裂。
 
 #### 定义 3 {#lie-viii-s3-def-3 .statement tag=010D}
 
-令 $\mathfrak{a}$ 为半单（或更一般地还原）李代数且$\overline{k}$ 代数闭包为 $k$。如果 $\mathfrak{m}\otimes_k\overline{k}$ 是 $\mathfrak{a}\otimes_k\overline{k}$ 的抛物线（分别 Borel ）子代数，则 $\mathfrak{a}$ 的子代数 $\mathfrak{m}$ 被称为抛物线（分别 Borel ）。
+令 $\mathfrak{a}$ 为半单（或更一般地还原）李代数，且$\overline{k}$ 代数闭包为 $k$。如果 $\mathfrak{m}\otimes_k\overline{k}$ 是 $\mathfrak{a}\otimes_k\overline{k}$ 的抛物线（分别 Borel ）子代数，则 $\mathfrak{a}$ 的子代数 $\mathfrak{m}$ 被称为抛物线（分别 Borel ）。
 
 如果 $\mathfrak{a}$ 是可分割的，则第 14 条命题表明，这个定义相当于定义 2（分别相当于定义 1）。
 
@@ -441,4 +441,4 @@ $(\mathfrak{g},\mathfrak{h})$ 包含于 Borel 代数 $\mathfrak{b}$ 的抛物线
 
 ### 习题{#lie-viii-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

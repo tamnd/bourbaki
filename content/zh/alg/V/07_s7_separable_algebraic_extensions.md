@@ -50,23 +50,23 @@ subsections:
       pdf_page: 160
 statements: 39
 exercises: 5
-content_sha256: 725c15629c6c31d8f541842e58e27f1b00f4659abc8dc15252f7a99d3bf535b4
+content_sha256: b959cbb59a62b651098342237c5b99e8978e924e1444211a6179dce933836cdb
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
 translation_method: google
 source_content_sha256: 6efc8ea4adffb96079107da26548dc480864f6a35c138ba6f08fe110dc1e0941
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 18ddc9d7d7ccb17ab461ee7b4493b1732cd93693654885da1edffa103b93a0e4
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。可分离代数扩张
 
 在本段中，$K$ 表示域。
 
-### 1.可分代数扩张
+### 1. 可分离代数扩张
 
 #### 定义 1 {#alg-v-s7-def-1 .statement tag=06K0}
 
@@ -93,7 +93,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 — *特征 0 的域或有限域的每个代数扩张都是可分的。*
     这是从 *V*、p. 7、提案 5 得出的。
 
-### 2.可分离多项式
+### 2. 可分离多项式
 
 #### 命题 3 {#alg-v-s7-prop-3 .statement tag=06K4}
 
@@ -160,11 +160,11 @@ d) *域$K$具有特征$0$，或者具有特征$p \neq 0$和$f \not\in K[X^p]$*�
 
 设$\Omega$为$K$的代数闭包； iff 是可分离的，$f$ 在 $\Omega[X]$ 中没有重复的因子（命题 3，d））。相反，如果$L$是$K$的完美扩张，使得$f$在$L[X]$中没有重复的因子，则$f$在$L[X]$中可分离（Cor.1和注2），因此$K[X]$（注1）。
 
-### 3.可分离代数元素
+### 3. 可分离代数元素
 
 #### 定义 3 {#alg-v-s7-def-3 .statement tag=06KA}
 
-— 令 E 为 K 的扩张。如果 K 的代数扩张 K(x) 可分，则 E 的元素 x 在 K 上是可分的，则称其在 K 上可分。
+— 设 E 为 K 的扩张。如果 K 的代数扩张 K(x) 可分，则 E 的元素 x 在 K 上是可分的，则称其在 K 上可分。
 
 #### 命题 5 {#alg-v-s7-prop-5 .statement tag=06KB}
 
@@ -187,7 +187,7 @@ a) 和 b) 的等价由命题 3 得出，b) 和 c) 的等价由命题 3 和 4 得
 #### 推论 3 {#alg-v-s7-prop-5-cor-3 .statement tag=06KE}
 
 — 假设 K 具有特征 $p \neq 0$。对于 E 到属于到 K 的元素 x，它是 K 上的可分代数和 p 根式是必要且充分的。
-所规定的条件显然是必要的。相反，假设 x 在 K 上是可分的代数，并且在 K 上是高度 e 的 p 根式。由于 x 在 K 上是可分的，因此 x 在 K 上的最小多项式 f 不会属于到 K[X^p]（命题 4 和 5）；因为 x 是 K 上高度为 e 的 p 根，所以我们有 $f(X) = X^{p^e} - x^{p^e}$ (V, p. 24, 命题 1)；我们结论$e = 0$，所以$x \in K$。
+所规定的条件显然是必要的。相反，假设 x 在 K 上是可分的代数，并且在 K 上是高度 e 的 p 根式。由于 x 在 K 上是可分的，因此 x 在 K 上的最小多项式 f 不属于到 K[X^p]（命题 4 和 5）；因为 x 是 K 上高度为 e 的 p 根，所以我们有 $f(X) = X^{p^e} - x^{p^e}$ (V, p. 24, 命题 1)；我们结论那个$e = 0$，所以$x \in K$。
 
 #### 命题 6 {#alg-v-s7-prop-6 .statement tag=06KF}
 
@@ -203,23 +203,23 @@ $$
 K(x_1, \ldots, x_m) = K[x_1, \ldots, x_m] \quad (\text{V, p. 18, Cor. 1}).
 $$
 
-到 A 上的假设时，代数 $K[x_1], \ldots, K[x_m]$ 已在 K 上完成；因此$K[x_1] \otimes \cdots \otimes K[x_m]$（V，p. 32，Cor.1）也是如此。现在 F 同构于代数与 $K[x_1] \otimes \cdots \otimes K[x_m]$ 的商子代数，etale 也同构（V，p. 30，命题 3）。
+到 A 上的假设时，代数 $K[x_1], \ldots, K[x_m]$ 在 K 上已完成；因此$K[x_1] \otimes \cdots \otimes K[x_m]$（V，p. 32，Cor.1）也是如此。现在 F 同构于代数与 $K[x_1] \otimes \cdots \otimes K[x_m]$ 的商子代数，etale 也同构（V，p. 30，命题 3）。
 
 #### 推论{#alg-v-s7-n3-cor-1 .statement tag=06KG}
 
 — *为了使代数扩张 E 在 K 上可分，E 的每个元素应该是其在 K 上的最小多项式的简单根是必要且充分的。应用命题 5 和 6 就足够了。*
 
-### 4. 原始元素的定理
+### 4. 原语元素的定理
 
 设$E$为$K$中的扩张；如果 $E = K[x]$，则 $E$ 的元素 $x$ 被称为“原始”。为了使扩张 $E$ 拥有原语元素，$[E : K]$ 必须是有限的。
 
 #### 定理 1 {#alg-v-s7-thm-1 .statement tag=06KH}
 
-— *令 E 为 K 的扩张。则以下条件是等价的：
+— *令 E 为 K 的扩张。则以下条件是等效的：
 a) E 拥有原语元素；
-b) E 只存在有限数个子扩展。
+b) 仅存在 E 的有限数子扩展。
 当E为有限次数中的可分扩张时，满足这些条件。*
-首先假设$E$拥有原语元素$x$，并让$f$为$x$在K上的最小多项式。对于每个一元多项式$g \in E[X]$除以$E[X]$中的$f$，用$E_g$表示子扩张$E$ 由 g 的系数生成。由于可能的多项式 g 在数中是有限的（如果 $E[X]$ 中的 $f$ 分裂的进入 r 莫式不可约多项式的乘积，数以 $2^r$ 为界），子扩展 $E_g$ 是有限的数。因此，为了证明 b)，只需证明 $E$ 的每个子扩展 L 都是 $E_g$ 之一。现在如果$L$是E的子扩展，那么我们有$L[x] = E$；如果 g 是 $x$ 在 L 上的最小多项式，我们有 $[E : L] = \deg(g)$。此外，g 在 $L[X]$ 中偏离除子，因此在 $E[X]$ 中；所以我们有$E_g \subset L$和$E = E_g[x]$。从$g(x) = 0$开始，我们有$[E : E_g] \leq \deg(g)$，因此有$[E : E_g] \leq [E : L]$，还有$L = E_g$，正如我们希望展示的那样。
+首先假设$E$拥有原语元素$x$，并让$f$为$x$在K上的最小多项式。对于每个一元多项式$g \in E[X]$除以$E[X]$中的$f$，用$E_g$表示子扩张$E$ 由 g 的系数生成。由于可能的多项式 g 在数中是有限的（如果 $E[X]$ 中的 $f$ 分裂的进入 r 莫式不可约多项式的乘积，数以 $2^r$ 为界），子扩展 $E_g$ 是有限的数。因此，为了证明 b)，只需证明 $E$ 的每个子扩展 L 都是 $E_g$ 之一。现在如果$L$是E的子扩展，那么我们有$L[x] = E$；如果 g 是 $x$ 在 L 上的最小多项式，我们有 $[E : L] = \deg(g)$。此外，g在$L[X]$中是除子，因此在$E[X]$中；所以我们有$E_g \subset L$和$E = E_g[x]$。从$g(x) = 0$开始，我们有$[E : E_g] \leq \deg(g)$，因此有$[E : E_g] \leq [E : L]$，还有$L = E_g$，正如我们希望展示的那样。
 
 接下来我们观察条件 b) 意味着扩张 E 是有限次数：通过注 2 of V，p. 18 足以证明它是代数；现在，如果 z 是 $E$ 超越 $K$ 的元素，则子外延 $K(z^n), n \in \mathbf{N}$ 是两两不同的。
 
@@ -242,7 +242,7 @@ B) 现在假设域 $K$ 是无限的。如果b)成立，则扩张$E$为有限次�
 
 这样就完成了Th中a)和b)的等价的证明。 1. 最后，如果扩张 $E$ 可分，且有限次数、条件 b) 成立，则由 V、p. 30，命题 3。
 
-### 5.可分离代数扩张的稳定性性质
+### 5. 可分离代数扩张的稳定性性质
 
 #### 命题 8 {#alg-v-s7-prop-8 .statement tag=06KK}
 
@@ -272,7 +272,7 @@ b) *相反，如果 E' 在 K' 上可分离，并且 E 和 K' 在 K 上线性不�
 
 在假设 *b)* 下，设 F 是有限次数的 E 在 K 上的子扩展。则 F 和 K' 在 K 上线性不相交的，因此 K'-代数 $F_{(K')} = K' \otimes_K F$ 同构于 $K'(F)$。由于 $K'(F)$ 是有限次数 E' 在 K' 上的子扩展，并且 E' 是代数且在 K' 上可分，因此 K'-代数 $K'(F)$ 是 etale。在其他字中，K'-代数 $F_{(K')}$ 是 etale，现在 Cor.命题 4 的 2 (V, p. 32) 表明 F 在 K 上是 etale 的。因此我们证明 E 在 K 上是可分的。
 
-### 6. 可分离性标准
+### 6. 可分离性准则
 
 #### 命题 11 {#alg-v-s7-prop-11 .statement tag=06KN}
 
@@ -369,7 +369,7 @@ b) *如果E和E'是K的两个可分闭包，则存在E到E'的K同构。_
 
 设 F 为 Ω_s 的可分离代数扩张 ；由于 Ω 是代数闭的，因此存在 F 到 Ω 的 0,-同态 u (*V*, p. 20, Th. 1)。根据命题 9 (V, p. 42) $u(F)$ 在 K 上可分，因此$u(F) = \Omega_s$。因此 F 是 $\Omega_s$ 的平凡扩张，因此 $\Omega_s$ 是可分离闭的，从而 *a)*。
 
-设E为K的可分闭包。由于E是K的代数扩张，因此存在E到Ω的K同态v（*V*，p. 20，Th.1）。因此 $v(E)$ 是 K 上的可分代数，从而 $v(E) \subset \Omega_s$。根据 *V*、p. 42、第 9 条命题，$\Omega_s$ 在 $v(E)$ 上是可分的，并且由于域 $v(E)$ 是可分闭的，所以我们有 $v(E) = \Omega_s$。由此可见 v 是 E 在 $\Omega_s$ 上的 K 同构的。现在 *b)* 是直接的推论。
+令E为K的可分闭包。由于E是K的代数扩张，因此存在E到Ω的K同态v（*V*，p. 20，Th.1）。因此$v(E)$是K上的可分代数，从而$v(E) \subset \Omega_s$。根据 *V*、p. 42、第 9 条命题，$\Omega_s$ 在 $v(E)$ 上是可分的，并且由于域 $v(E)$ 是可分闭的，所以我们有 $v(E) = \Omega_s$。由此可见 v 是 E 在 $\Omega_s$ 上的 K 同构的。现在 *b)* 是直接的推论。
 
 #### 推论{#alg-v-s7-n8-cor-1 .statement tag=06KZ}
 
@@ -383,19 +383,19 @@ b) *如果E和E'是K的两个可分闭包，则存在E到E'的K同构。_
 
 #### 注 2 {#alg-v-s7-n8-rem-2 .statement tag=06L1}
 
-\* 设 E 是 K 的代数和可分扩张。如果 K 的每个代数和可分扩张同构于 E 的子外延，则 E 是 K 的可分闭包。如果 E' 是 K 的可分闭包，则扩张 E 和 E' 中的每一个都同构于一个子外延另一个的；因此E和E'是K的同构扩张（V，p. 52，命题1，a））。
+\* 设 E 是 K 的代数和可分扩张。如果 K 的每个代数和可分扩张同构于 E 的子外延，则 E 是 K 的可分闭包。因为如果 E' 是 K 的可分闭包，则扩张 E 和 E' 中的每一个都同构于另一个的子外延；因此E和E'是K的同构扩张（V，p. 52，命题1，a））。
 
 ### 9. 可分离与不可分离扩张次数有限次数
 
-设 E 为 K 的有限次数的扩张和 K 的 $\Omega$ 代数闭包。回想一下（V，p. 31），通过 E 与 K 的*可分离的次数*，写成$[E : K]_s$，我们理解数 E 的 K 同态变为 $\Omega$。
+设 E 为 K 的有限次数的扩张和 K 的 $\Omega$ 代数闭包。回想一下 (V, p. 31)，通过 E 在 K 上*可分离的次数*，写成 $[E : K]_s$，我们将 E 的 K 同态的数理解为$\Omega$。
 
 #### 命题 15 {#alg-v-s7-prop-15 .statement tag=06L2}
 
-*设E为E中K的相对可分闭包；然后*$[E : K]_s = [E_s : K]$。
+*设E为E中K的相对可分闭包；那么*$[E : K]_s = [E_s : K]$。
 
-域 $\Omega$ 是完美的，E 是 $E_s$ 上的 p 根式，根据 V、p. 44，第 13 条；因此，第 3 条命题（V，p. 26）表明，E 的每个 K 同态都以一种独特的方式进入 $\Omega$ 扩展，而 E 的 K 同态则进入 $\Omega$；因此我们有$[E : K]_s = [E_s : K]$。由于E是K的有限次数的可分扩张，所以它是K上的etale代数；所以我们有$[E_s : K]_s = [E_s : K]$乘以V，p. 32，命题4，结果如下。
+域 $\Omega$ 是完美的，E 是 $E_s$ 上的 p 根式，根据 V、p. 44，第 13 条；因此，命题 3 (V, p. 26) 表明，E 的每个 K 同态都以一种独特的方式进入 $\Omega$ 扩展，而 E 的 K 同态则进入 $\Omega$；因此我们有$[E : K]_s = [E_s : K]$。由于E是K的有限次数的可分扩张，所以它是K上的etale代数；所以我们有$[E_s : K]_s = [E_s : K]$乘以V，p. 32，命题4，结果如下。
 
-与前面的记号一起，E在$E_s$上的次数被称为E在K上的*不可分割的次数*，并用$[E : K]_i$表示。因此我们有
+与前面的记号一起，E在$E_s$上的次数称为E在K上的*不可分割的次数*，并用$[E : K]_i$表示。因此我们有
 
 (1)
 $$
@@ -403,11 +403,11 @@ $$
 $$
 根据第 15 号提案。
 
-当 K 的特征为 0 时，$E = E_s$，$[E : K]_s = [E : K]$ 和 $[E : K]_i = 1$。如果 K 具有特征 $p \neq 0$，数 $[E : K]_i$ 是 p 的幂，因为 E 是 $E_s$ 上的 p 根（V、p. 44，命题 13 和 p. 26，命题 4）。需要注意的是，$[E : K]_i$不一定等于$p$除$[E : K]_s$的最高幂，也不一定等于E在K中的相对偏基闭包的次数$[E_s : K]$（V，p. 152，Ex. 3 和 2)。
+当K的特征为0时，$E = E_s$，$[E : K]_s = [E : K]$和$[E : K]_i = 1$。如果 K 具有特征 $p \neq 0$，数 $[E : K]_i$ 是 p 的幂，因为 E 是 $E_s$ 上的 p 根（V、p. 44，命题 13 和 p. 26，命题 4）。需要注意的是，$[E : K]_i$不一定等于$p$除$[E : K]_s$的最高幂，也不一定等于E在K中的相对偏根闭包的次数$[E_s : K]$（V、p. 152、例3和例2）。
 
 #### 命题 16 {#alg-v-s7-prop-16 .statement tag=06L3}
 
-*令$\Omega$为K和E、F的扩张，是$\Omega$、有限次数在K上的两个子扩展。*
+*令 $\Omega$ 为 K 的扩张和 E、F $\Omega$、有限次数在 K 上的两个子扩展。*
 
 a) *如果$E \subset F$，则*$[F : K]_s = [F : E]_s \cdot [E : K]_s$，*和*$[F : K]_i = [F : E]_i \cdot [E : K]_i$。
 
@@ -419,16 +419,16 @@ $$
 
 c) *我们有*$[K(E \cup F) : K]_s \leq [E : K]_s \cdot [F : K]_s$，*和*$[K(E \cup F) : K]_i \leq [E : K]_i \cdot [F : K]_i$，*和等式，如果E和F在K*上线性不相交的成立。
 
-关于a)中可分离的次数，断言由(9)(V，p. 32)得出。由于$[F : K] = [F : E] \cdot [E : K]$，断言关于不可分割的次数由此和(1)得出。
+关于a)中可分离的次数的断言由(9)(V，p. 32)得出。由于$[F : K] = [F : E] \cdot [E : K]$，关于不可分割的次数的断言由此和(1)得出。
 
-由科. 13 号提案 (V, p. 44) 和 15 号提案，我们有
+由科.提案 13 (V, p. 44) 和提案 15 中的 1，我们有
 
 (2) $$ [K'(E) : K']_s = [K'(E_s) : K'] , \quad [K'(E) : K']_i = [F'(E) : K'(E_s)] ; $$
 
-当 K' 在 K 上从 E 线性不相交的时，则 E 从 K' 在 K 上线性不相交的并且 E 从 K'(E_s) 在 E_s 上线性不相交的（V，p. 15，命题 8）。 断言 b) 现在源自第 5 号提案 (V、p. 14)。
+当 K' 在 K 上从 E 线性不相交的时，则 E 从 K' 在 K 上线性不相交的且 E 从 K'(E_s) 在 E_s 上线性不相交的（V、p. 15，命题 8）。 断言 b) 现在源自第 5 号提案 (V, p. 14)。
 
-由 a) 我们有 $$ [K(E \cup F) : K] = [F(E) : F] . [F : K]_s ; $$ b) 我们有 $$ [F(E) : F] , \leq [E : K] , \text{ with equality if } E \text{ and } F \text{ are linearly disjoint over } K. $$ 因此我们得到不等式 $$ [K(E \cup F) : K] , \leq [E : K] , . [F : K] , \text{ with equality if } E \text{ and } F \text{ are linearly disjoint over } K. $$ 断言 c) 关于不可分的次数以类似的方式证明。
+由 a) 我们有 $$ [K(E \cup F) : K] = [F(E) : F] . [F : K]_s ; $$ b) 我们有 $$ [F(E) : F] , \leq [E : K] , \text{ with equality if } E \text{ and } F \text{ are linearly disjoint over } K. $$ 因此我们得到关于不可分的次数的不等式 $$ [K(E \cup F) : K] , \leq [E : K] , . [F : K] , \text{ with equality if } E \text{ and } F \text{ are linearly disjoint over } K. $$ 断言以类似的方式证明。
 
 ### 习题{#alg-v-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

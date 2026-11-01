@@ -65,45 +65,45 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: 7e9d41562b097d12327dcba95606d158c6af2dcba32b4633b37829600d0d5cb7
+content_sha256: a25fa39f60c2ee40aa13c842092f21c52b298cf605ed475d9c1739fe42abf3b8
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 translation_method: google
 source_content_sha256: 1339023eced66ef1b9e52222dbf004f549e42eec4f38ebac19c97f31df6e572b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7adcf5f66e8062143e4007b11a34816e0c97caa94ea7e02e42b0de0dcec3b04d
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 1。订购群。分割性
 
-概念和截面中提出的结果涉及序关系在交换幺半群中的研究（I，p. 12，Def.2），最重要的情况是阿贝尔的群。 除非另有明确说明，我们将在所有群和正在研究的幺半群中对合成律使用加法记号。另一方面，随着我们的进展，我们将介绍有序群和幺半群理论的某些重要代数应用，并且我们将相应地将某些结果转换为适合这些应用的乘法记号。
+概念和截面中提出的结果涉及序关系在交换幺半群（I，p. 12，定义2）中的研究，最重要的情况是阿贝尔的群。 除非 explicitly stated otherwise, we will use additive 记号 for 合成律 in all 群 and monoids under study.另一方面，随着我们的进展，我们将介绍有序群和幺半群理论的某些重要代数应用，并且我们将相应地将某些结果转换为适合这些应用的乘法记号。
 
-### 1.有序幺半群的定义和群
+### 1. 有序幺半群的定义和群
 
 #### 定义 1 {#alg-vi-s1-def-1 .statement tag=06WE}
 
 — 一个可交换幺半群结构（写成加法）和集合$M$上的排序（写成$\leq$）被认为是兼容的，如果它们满足满足以下公理：
 
-(OM) 对于每个$z \in M$，关系$x \leq y$意味着$x + z \leq y + z$。
+(OM) For each $z \in M$, 关系 $x \leq y$ implies $x + z \leq y + z$.
 
-集合$M$配备可交换幺半群结构和兼容的排序称为有序幺半群；如果它的交换幺半群结构是群结构，那么它被称为有序群。
+集合 $M$ equipped with a commutative monoid 结构 and an ordering which are compatible is called an ordered monoid; if its commutative monoid 结构 is 群结构, then it is called an ordered 群.
 
-以类似的方式，我们可以定义概念一个非交换有序幺半群（VI，p. 30，例 1）。
+In an analogous fashion, we can 定义概念 of a noncommutative ordered monoid (VI, p. 30, Ex. 1).
 
-如果一个排序与给定的幺半群结构兼容，那么相反的排序也是如此。
+If an ordering is compatible with a given monoid 结构, then so is the opposite ordering.
 
 #### 例 1 {#alg-vi-s1-n1-exa-1 .statement tag=06WF}
 
-有理数整数的加法群和有理数数的群按照I，第21页和117页中定义的顺序排序。 *对于实数的加法群也是如此（Gen.Top.， IV，第 3 页）。 \*
+有理数整数的加法群和有理数数的群按照I第21页和第117页中定义的顺序排列。 *对于实数的加法群也是如此（Gen.Top.， IV，第 3 页）。 \*
 
 #### 例 2 {#alg-vi-s1-n1-exa-2 .statement tag=06WG}
 
-*在集合$E$上定义的有限数值函数的加法群是一个有序的群，其排序为“$f(x) \leq g(x)$对于所有$x \in E$”，写作$f \leq g$。这个关系表示函数$f$的图形位于函数$g$的图形下方。读者偶尔思考一下项这个图形解释可能会很方便。 \*
+*在集合$E$上定义的有限数值函数的加法群是一个有序的群，其排序为“$f(x) \leq g(x)$对于所有$x \in E$”，写作$f \leq g$。 This 关系 says that the graph of 函数 $f$ lies below that of 函数 $g$. The reader may find it convenient to think in 项 of this graphical interpretation occasionally. \*
 
-根据一般定义（集合理论，IV，p. 264），从有序幺半群M到有序幺半群M'的双射映射$f$称为M到M'的*同构*，如果M'的结构是通过沿 $f$ 传输 M 获得。这相当于说 $f$ 是映射 *onto* M'，这样
+根据一般定义（集合理论，IV，p. 264），从有序幺半群M到有序幺半群M'的双射映射$f$称为M到M'的*同构*，如果M'的结构是通过沿 $f$ 传输 M 获得。 This is equivalent to 说 that $f$ is 映射 *onto* M' such that
 
 $$
 f(x + y) = f(x) + f(y)
@@ -111,9 +111,9 @@ $$
 
 （也就是说，幺半群M的同态到幺半群M'上），并且关系$x \leq y$和$f(x) \leq f(y)$是等价的（从而特别是$f(x) = f(y)$意味着$x = y$，即$f$是单射的）。
 
-#### 命题 1（« 加法不等式 »）{#alg-vi-s1-prop-1 .statement tag=06WH}
+#### 命题 1 (« 加法 of inequalities ») {#alg-vi-s1-prop-1 .statement tag=06WH}
 
-— *在有序幺半群 M* 中，令 $(x_i)$ 和 $(y_i)$ ($1 \leq i \leq n$) 为 n 元素中的两个序列，使得 $x_i \leq y_i$ 对于所有 $i$；那么一个人有
+— *In an ordered monoid M*, let $(x_i)$ and $(y_i)$ ($1 \leq i \leq n$) be two 序列 of n 元素 such that $x_i \leq y_i$ for all $i$;那么一个人有
 
 $$
 x_1 + \cdots + x_n \leq y_1 + \cdots + y_n
@@ -131,7 +131,7 @@ $$
 x_1 + x_2 \leq x_1 + y_2 \quad \text{and} \quad x_1 + y_2 \leq y_1 + y_2 ,
 $$
 
-这是假设的推论和 (OM)。既然如此，关系
+which are 推出 of the hypotheses and of (OM).既然如此，关系
 
 $$
 x_1 + x_2 = y_1 + y_2
@@ -143,19 +143,19 @@ $$
 x_1 + x_2 = x_1 + y_2 = y_1 + y_2 ,
 $$
 
-如果$x$和$y_2$可以取消，则从而$x_2 = y_2$和$x_1 = y_1$，这就证明了第二个断言。
+从而 $x_2 = y_2$ and $x_1 = y_1$ if $x$, and $y_2$ are cancellable, which proves the second 断言.
 
 #### 命题 2 {#alg-vi-s1-prop-2 .statement tag=06WI}
 
-*在有序的群 G* 关系 $x \leq y$ *和* $x + z \leq y + z$ *等价*。
+*In an ordered 群 G* 关系 $x \leq y$ *and* $x + z \leq y + z$ *are equivalent*.
 
 事实上，可以通过向两边添加 $z$ 或 $(-z)$ 来从对方获得每一个。
 
-这个事实可以用说来表达，在有序的群 G 中，排序是*平移不变*。在其他字中，翻译是有序群的*排序*的*自同构*。
+This fact can be expressed by 说 that, in an ordered 群 G, the ordering is *translation-invariant*.在其他字中，翻译是有序群的*排序*的*自同构*。
 
 #### 推出 {#alg-vi-s1-n1-cor-1 .statement tag=06WJ}
 
-— 在有序的群 $G$、关系 $x \leq y$、$0 \leq y - x$、$x - y \leq 0$ 和 $-y \leq -x$ 等价。
+— In an ordered 群 $G$, 关系 $x \leq y$, $0 \leq y - x$, $x - y \leq 0$ and $-y \leq -x$ are equivalent.
 
 事实上，我们应用命题2，依次取$z = -x$、$z = -y$和$z = -(x + y)$。
 
@@ -163,55 +163,55 @@ $$
 
 ### 2. 预购幺半群和群
 
-回想一下，如果集合$E$的元素之间的关系$x \leq y$是自反且传递的，则称为先序关系（集合理论，III，p. 133）。 关系 « $x \leq y$ 和 $y \leq x$ » 是 $E$ 上的等价关系 $S$，与关系 $x \leq y$ 相容的；在经过上求商，在 $E/S$ 上关系 $\leq$ 诱导序关系，称为与 $\leq$ 关联的序关系。
+回想一下，如果集合$E$的元素之间的关系$x \leq y$是自反且传递的，则称为先序关系（集合理论，III，p. 133）。 关系 « $x \leq y$ and $y \leq x$ » is 等价关系 $S$ on $E$, compatible with 关系 $x \leq y$; on 经过 to the quotient, 关系 $\leq$ 诱导序关系 on $E/S$, called 序关系 associated to $\leq$.
 
 #### 定义 2 {#alg-vi-s1-def-2 .statement tag=06WK}
 
-— 集合 $M$ 上的前序关系（写为 $\leq$）和可交换幺半群结构（写为加法）如果满足满足以下公理，则称它们是兼容的：
+— 集合 $M$ 上的前序关系（写作 $\leq$）和可交换幺半群结构（附加写作）如果满足满足以下公理，则称它们是兼容的：
 
 (POM) 对于每个 $z \in M$，关系 $x \leq y$ 意味着 $x + z \leq y + z$。
 
-集合$M$配备了可交换幺半群结构和兼容的先序关系称为先序幺半群。
+集合 $M$ 配备可交换幺半群结构和兼容的先序关系称为先序幺半群。
 
-令 $M$ 为预定幺半群，$S$ 等价关系 « $x \leq y$ 和 $y \leq x$ »。根据(POM) 关系 $x \equiv x' \pmod{S}$，对于所有$y \in M$，意味着$x + y \leq x' + y$和$x' + y \leq x + y$，即$x + y \equiv x' + y \pmod{S}$。在其他字等价关系$S$与$M$（I，p. 11）中的加法兼容。因此，加法律在 $M$ 上除以 $S$ 的商，以及与 $\leq$ 相关的排序，给出有序幺半群的 $M/S$ 结构。在 $M$ 是预购的群的情况下，群 $M/S$ 是所有元素 $x$ $M$ 除以子群由……组成的商，使得 $x \leq 0$ 和$0 \leq x$。
+令 $M$ 为预定幺半群，$S$ 等价关系 « $x \leq y$ 和 $y \leq x$ »。根据(POM) 关系 $x \equiv x' \pmod{S}$，对于所有$y \in M$，意味着$x + y \leq x' + y$和$x' + y \leq x + y$，即$x + y \equiv x' + y \pmod{S}$。 In other 字等价关系 $S$ is compatible with 加法 in $M$ (I, p. 11).因此，加法律在$M$上除以$S$的商，以及与$\leq$相关的排序，给出了有序幺半群的$M/S$结构。在 $M$ 是预购的群的情况下，群 $M/S$ 是所有元素 $x$ $M$ 除以子群由……组成的商，使得 $x \leq 0$ 和$0 \leq x$。
 
-### 3.积极元素
+### 3. 正元素
 
-令$G$为已预订的群，具有前序关系$\leq$；如果$0 \leq x$和$0 \leq y$，那么我们通过（POM）推导出$y \leq x + y$，因此通过传递性推导出$0 \leq x + y$；这表示元素$x \in G$的集合$G_+$使得$0 \leq x$在加法下闭合；而且，关系$x \leq y$相当于$0 \leq y - x$，即$y - x \in G_+$。反之：
+Let $G$ be a pre-ordered 群 with pre-order relation $\leq$;如果$0 \leq x$和$0 \leq y$，那么我们通过（POM）推导出$y \leq x + y$，因此通过传递性推导出$0 \leq x + y$；这表示元素$x \in G$的集合$G_+$使得$0 \leq x$在加法下闭合； moreover, 关系 $x \leq y$ is equivalent to $0 \leq y - x$, that is to $y - x \in G_+$.反之：
 
 #### 命题 3 {#alg-vi-s1-prop-3 .statement tag=06WL}
 
-— 如果$P$是阿贝尔的群$G$、包含$0$的子集且$P + P \subset P$，则关系$y - x \in P$是兼容的前序关系群结构共 $G$。为了使关系使$G$成为有序的群，有$P \cap (-P) = \{0\}$是必要且充分的；在此排序下，要使$G$成为全序群，加法$P \cup (-P) = G$是必要且充分的。
+— 如果$P$是阿贝尔的群$G$、包含$0$的子集且$P + P \subset P$，则关系$y - x \in P$是兼容的前序关系群结构共 $G$。 For this 关系 to make $G$ an ordered 群 it is necessary and sufficient to have $P \cap (-P) = \{0\}$; for $G$ to be a totally ordered 群 under this ordering it is necessary and sufficient to have in 加法 $P \cup (-P) = G$.
 
-关系 $y - x \in P$是自反且及物的，并且（如果写成$x \leq y$）满足公理*POM*，这是直接的。 为了证明第二个断言，注足以证明$P \cap (-P)$是子群$G'$由……组成元素$x$，使得$0 \leq x$和$x \leq 0$。 最后，说$G$是完全有序的意味着，对于$G$的元素$x, y$中的每个对，至少有元素$x - y, y - x$属于到$P$之一，从而完成证明。
+直接的关系 $y - x \in P$ 是自反且及物的，并且（如果写成 $x \leq y$）满足公理 *POM*。为了证明第二个断言，$P \cap (-P)$是子群$G'$由……组成元素$x$就足够了注，这样$0 \leq x$和$x \leq 0$。最后，说$G$是完全有序的意味着，对于$G$的元素$x, y$中的每个对，至少有元素$x - y, y - x$属于到$P$之一，从而完成证明。
 
 #### 定义 3 {#alg-vi-s1-def-3 .statement tag=06WM}
 
-*在有序群 $G$ 中，任何元素 $x$ 使得 $0 \leq x$（或$x \leq 0$）称为正（或负）元素。*
+*在有序的群$G$中，任何元素$x$，使得$0 \leq x$（或$x \leq 0$）被称为正（或负）元素。*
 
 注 $0$ 是唯一的元素 *既是正数又是负数* ；任何元素$x$使得$0 < x$（或$x < 0$）被称为*严格正数*（或*严格负数*）。
 
 #### 例 {#alg-vi-s1-n3-exa-1 .statement tag=06WN}
 
-— 在加法群 $\mathbf{Z} \times \mathbf{Z}$ 中，令 $P$ 为元素 $(x, y)$ 满足两个不等式 $ax + by \geq 0$ 和 $cx + dy \geq 0$ 的集合，其中 $a, b, c, d$ 为整数（* 或实数 *) 使得 $ad - bc \neq 0$; «锥体»$P$满足命题3的前两个条件，这样就可以定义与$\mathbf{Z} \times \mathbf{Z}$的群结构兼容的各种排序； 群在任何这些排序下都不是完全排序的。
+— 在加法群$\mathbf{Z} \times \mathbf{Z}$中，令$P$为元素$(x, y)$满足的集合两个不等式$ax + by \geq 0$和$cx + dy \geq 0$，其中$a, b, c, d$为整数（*或实数 *) 使得 $ad - bc \neq 0$; «锥体»$P$满足命题3的前两个条件，这样就可以定义与$\mathbf{Z} \times \mathbf{Z}$的群结构兼容的各种排序； 群在任何这些排序下都不是完全排序的。
 
 #### 注 {#alg-vi-s1-n3-rem-1 .statement tag=06WO}
 
-— 凭借条件 $P + P \subset P$，有序群中的关系 $x \geq 0$ 意味着对于每个自然数 $n$ 都有 $nx \geq 0$。若加法中$G$的正值元素$x$有有限阶$n$，则$-x = (n-1)x$为正；自从
+— 由于条件$P + P \subset P$，有序群中的关系$x \geq 0$意味着$nx \geq 0$对应于每个自然数$n$。若加法中$G$的正元素$x$有有限阶$n$，则$-x = (n-1)x$为正；自从
 
 $$
 P \cap (-P) = \{0\},
 $$
 
-这意味着$x = 0$。特别是，如果$G$的每个元素都有有限的阶，则$P = \{0\}$； 关系 $x \leq y$ 等价于$x = y$（*离散*排序）。
+这意味着$x = 0$。特别是，如果$G$的每个元素都有有限的阶，则$P = \{0\}$； 关系 $x \leq y$ 相当于$x = y$（*离散*排序）。
 
-### 4. 过滤群
+### 4. 已过滤群
 
-回想一下（*集合理论*，III，p. 145），如果对于$G$的元素的每个对$(x, y)$，有序的集合$G$是*右*（分别是*左*）*过滤*\脚注{1}存在$z \in G$使得$x \leq z$和$y \leq z$（分别为$z \leq x$和$z \leq y$）。每个右过滤有序群 $G$ 也被左过滤，反之亦然：事实上，由于存在 $z \in G$ 使得 $-x \leq z$ 和 $-y \leq z$，我们有 $-z \leq x$ 和 $-z \leq y$（VI，p. 3，Cor.）。因此，我们将简单地讨论过滤后的群。
+回想一下（*集合理论*，III，p. 145），有序的集合$G$是*右*（分别是*左*）*过滤*\脚注{1}如果对于元素的每个对$(x, y)$ $G$ 存在$z \in G$使得$x \leq z$和$y \leq z$（分别为$z \leq x$和$z \leq y$）。每个右过滤有序群 $G$ 也被左过滤，反之亦然：事实上，由于存在 $z \in G$ 使得 $-x \leq z$ 和 $-y \leq z$，我们有 $-z \leq x$ 和 $-z \leq y$（VI，p. 3，Cor.）。因此，我们将简单地讨论过滤后的群。
 
 #### 命题 4 {#alg-vi-s1-prop-4 .statement tag=06WP}
 
-*对于要过滤的有序群$G$，它由其正元素生成是必要且充分的，即每个元素都是两个正元素的差。*
+*对于要过滤的有序群$G$，它由其正数元素生成是必要且充分的，即每个元素都是两个正数元素的差。*
 
 事实上，如果$G$被过滤，那么对于每个$x \in G$，都存在一个正的元素$z$，使得$x \leq z$，而$x$是两个正的元素$z$和$z - x$的差。相反，如果$x = u - v$和$y = w - t$且$u, v, w, t$为正，则元素$u + w$大于$x$且大于$y$。
 
@@ -223,15 +223,15 @@ $$
 
 *如果* $x_i = u_i - v_i$，*与* $u_i$ *和* $v_i$ *为正，则足以将* $z$ *成为家庭的和* $(v_i)$。
 
-### 5. 关系能被域整除
+### 5. 域能整除关系
 
-这里我们将定义某些有序的群，它在代数中起着重要的部分的作用。 记号通常用于这些群是乘法；因此，将之前在加法记号中获得的结果应用到这些群中，就以翻译为乘法记号为前提——这对读者来说不会有任何困难。 *在整个截面中，字母A代表整环，K代表分数*的域（*l*，p. 116）。
+这里我们将定义某些有序的群，它在代数中起着重要的部分的作用。 记号通常用于这些群是乘法；因此，将之前在加法记号中获得的结果应用到这些群中，前提是转换为乘法记号 — 这对读者来说不会有任何困难。 *在整个截面中，字母A代表整环，K代表分数*的域（*l*，p. 116）。
 
-在$\mathbf{K}$的非零元素的乘法群$\mathbf{K}^*$中，A的非零元素的集合P在乘法下闭合，因为A是环。因此，定义是$\mathbf{K}^*$上$x^{-1}y \in P$的先序关系，即“存在$z \in P$使得$y = zx$”，这使得$\mathbf{K}^*$*预先排序群*（乘法写）（*VI*， p. 3，提案 3）。将与 A (I, p. 97) 的元素相关的术语扩展到$\mathbf{K}^*$、关系$x^{-1}y \in P$也可以表示为： *x 除 y*，或 x 是 y* 的 *除子，或y 是 x* 的 *倍数（相对于环 A）；我们将关系 $x^{-1}y \in P$ 称为 $\mathbf{K}^*$ 相对于环 A 的 *整除性关系*。 关系 « x '除 y » 表示为 $x \mid y$，其否定$x \nmid y$。 P 的元素正是 1* 的 *倍数。
+在$\mathbf{K}$的非零元素的乘法群$\mathbf{K}^*$中，A的非零元素的集合P在乘法下闭合，因为A是环。因此，定义是$x^{-1}y \in P$在$\mathbf{K}^*$上的先序关系，即“存在$z \in P$使得$y = zx$”，这使得$\mathbf{K}^*$*预先排序群*（乘法写）（*VI*， p. 3，提案 3）。将与 A 的元素 (I, p. 97) 相关的术语扩展到 $\mathbf{K}^*$、关系 $x^{-1}y \in P$ 也可以表示为： *x 除 y*，或 x 是 y* 的 *除子，或者 y 是 x* 的 *倍数（相对于环 A）；我们将关系 $x^{-1}y \in P$ 称为 $\mathbf{K}^*$ 相对于环 A 的 *整除性关系*。 关系 « x '除 y » 表示为 $x \mid y$，其否定$x \nmid y$。 P 的元素正是 1* 的 *倍数。
 
 #### 注 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
 
-$\mathbf{K}^*$中的关系在本质上取决于特定的环A。如果$A = K$我们得到“平凡”关系，其中$x \mid y$对于元素的每个对$(x, y)$ $\mathbf{K}^*$。设 p 和 q 为素数数；有理数数 r/s，其分母不是 $p$（或 q）形式子环 $\mathbf{Z}_{(p)}$（或 $\mathbf{Z}_{(q)}$）或 $\mathbf{Q}$ 的倍数；如果 $p \neq q$、数 $p/q$ 在一个关系下倍数为 1 而在另一个关系下不为 1，则 $\mathbf{Q}^*$ 中的关系相对于这两个环的整除性是不同的。
+$\mathbf{K}^*$中的关系在本质上取决于特定的环 A。如果$A = K$我们得到“平凡”关系，其中$x \mid y$对于元素的每个对$(x, y)$ $\mathbf{K}^*$。设 p 和 q 为素数数；有理数数 r/s，其分母不是 $p$（或 q）形式子环 $\mathbf{Z}_{(p)}$（或 $\mathbf{Z}_{(q)}$）或 $\mathbf{Q}$ 的倍数；如果 $p \neq q$、数 $p/q$ 在一个关系下倍数为 1 而在另一个关系下不为 1，则 $\mathbf{Q}^*$ 中的关系相对于这两个环的整除性是不同的。
 
 #### 注 2 {#alg-vi-s1-n5-rem-2 .statement tag=06WS}
 
@@ -249,15 +249,15 @@ $\mathbf{K}^*$中的关系在本质上取决于特定的环A。如果$A = K$我�
 
 注 $x \equiv x'$ (mod y) 并不意味着 $zx \equiv zx'$ (mod y) 除非 $z \in A$。因此，在$\mathbf{Q}$中，相对于$\mathbf{Z}$，我们有$4 \equiv 2$（mod 2），但没有$2 \equiv 1$（mod 2）。
 
-关系 $x | y$ 显然等价于$(x) \supset (y)$。 映射$x \mapsto (x)$从$K^*$到K的主分数理想$\neq (0)$的集合$\mathscr{P}^*$，因此定义，在经过到商，双射映射从$K^*/A^*$ 到$\mathscr{P}^*$；通过这个映射将$K^*/A^*$的群结构翻译成$\mathscr{P}^*$，我们得到两个主分数理想(x)和(y)的定义乘积是理想(xy)，它仅取决于(x)和(y)。有了这个律和序关系$(x) \supset (y)$，集合$\mathscr{P}^*$就是一个有序的群，与$K^*/A^*$同构的。按照惯例，我们将通过上面的映射来认同 $\mathscr{P}^*$ 与 $K^*/A^*$。
+关系 $x | y$ 显然等价于$(x) \supset (y)$。 映射$x \mapsto (x)$从$K^*$到K的主分数理想$\neq (0)$的集合$\mathscr{P}^*$，因此定义，在经过上的商，双射映射从$K^*/A^*$ 到$\mathscr{P}^*$；通过这个映射将$K^*/A^*$的群结构翻译成$\mathscr{P}^*$，我们得到两个主分数理想(x)和(y)的定义乘积是理想(xy)，它仅取决于(x)和(y)。有了这个律和序关系$(x) \supset (y)$，集合$\mathscr{P}^*$就是一个有序的群，与$K^*/A^*$同构的。按照惯例，我们将通过上面的映射来认同 $\mathscr{P}^*$ 与 $K^*/A^*$。
 
 注关系 « x 除 y »，在正整数的情况下，意味着 x 小于 y，对应包含 $(x) \supset (y)$，其中理想 (x) “大于”理想 (y)。我们可以通过注意到例 7 比 91 具有更多的倍数 »来记住这个“阶反转”。
 
 如果我们对 K 的所有元素扩展关系 $x | y$，这个关系仍然等价于 K 的所有主分式理想的集合 $\mathscr{P}$ 中的$(x) \supset (y)$（其中 $(0)$ 是包含关系下的最小的元素）。
 
-与之前的截面一样，我们通常会在续集中使用加法记号。然而，与整除性相关的术语将在相应的加法术语之后引入，在符号（DIV）之前的段落中（其中所使用的记号是现在的截面）。在阶中，为了使读者的任务更容易，某些结果将被翻译成整除性的语言，即第7号提案的翻译，对于例，被表示为“命题7（DIV）”。
+与之前的截面一样，我们通常会在续集中使用加法记号。然而，与整除性相关的术语将在相应的加法术语之后引入，在符号（DIV）之前的段落中（其中所使用的记号是目前的截面）。在阶中，为了使读者的任务更容易，某些结果将被翻译成整除性的语言，即第7号提案的翻译，对于例，被表示为“命题7（DIV）”。
 
-### 6. 订购群时的基本运算
+### 6. 初级运算订购群
 
 令 H 为有序群 G 的子群；显然，G 的排序限制与 H 的群结构是兼容的；我们总是以这种方式订购H，否则除非。如果 P 是 G 的正元素的集合，则 H 的正元素的集合是 H ∩ P。
 
@@ -273,7 +273,7 @@ $\mathbf{K}^*$中的关系在本质上取决于特定的环A。如果$A = K$我�
 
 词典乘积 G 的正元素的集合由0和那些至少指标的非零的分量为正的非零元素组成。
 
-### 7. 已订购群的递增同态
+### 7. 已订购群中的递增同态
 
 令 G 和 G' 为二阶群；在从 G 的底层加法群到 G' 的同态 f 中，考虑递增映射是有意义的，即 x ≤ y 意味着 f(x) ≤ f(y)。由于关系 $f(y - x) = f(y) - f(x)$，因此从 G 到 G' 的递增同态的特征在于，在这样的同态下，G 的正元素的像是 G' 的正元素；如果 P（分别为 P'）表示 G（分别为 G'）的正元素的集合，则可以写为 $f(P) \subset P'$。很明显，将子群 G 的典范嵌入放入有序的群 G'，以及将群的乘积的投影有序放入其因子之一，是递增同态。
 
@@ -354,7 +354,7 @@ b) P 的元素中的每个对在 P 中都有一个下确界。
 
 相反，注首先，在假设 a) (resp. b)) 下，P 的元素 x, y 的每个对都有一个上界 (resp. infimum) *in* G 等于其上界 a (resp. infimum b) *in* P。这对于 a 来说是显而易见的，因为任何上界 x 和 y 为正；对于 b，令 x 和 y 的 $z \in G$ 为下界；那么存在$u \in P$使得$z + u \in P$，因为$G = P - P$；现在 $\inf_P(x + u, y + u)$ 大于 $b + u$，形式 $b + c + u$ ($c \geq 0$)；因为 $b + c$ 小于 x 且小于 y，所以我们有 $c = 0$；因此$\inf_P(x + u, y + u) = b + u$，这意味着$z + u \leq b + u$，因此$z \leq b$和b肯定是G中x和y的下确界。现在，如果x和y是G的任意元素，我们将它们转换为P：令$v \in P$使得$x + v$和$y + v$为正（VI，p. 5，提案 5）；在假设 a) (resp. b)) 下，$P$ 中存在 $x + v$ 和 $y + v$ 的上确界（resp. 下确界），因此根据我们刚才所见，在 $G$ 中也存在；通过翻译，$x$和$y$在$G$有一个上确界（分别为下确界）；根据命题 7，其中一个的存在意味着另一个，这表明条件是充分的。
 
-### 10.分解定理
+### 10. The decomposition theorem
 
 #### 定理 1 (分解定理) {#alg-vi-s1-thm-1 .statement tag=06WZ}
 
@@ -371,13 +371,13 @@ $$
 x = a + b, \quad x' = c + d, \quad y = a + c \quad \text{and} \quad y' = b + d .
 $$
 
-2) 现在让我们证明，如果 $p < m$ 和 $q = n$ ($m > 2,\ n \geq 2$) 定理为真，那么$p = m$ 和 $q = n$ 也为真。到假设，我们就有了$x, + \sum_{i=1}^{m-1} x_i = \sum_{j=1}^n y_j$。 定理对于$p = 2$和$q = n$成立，$n$正项存在两个有限序列$(z_j'), (z_j'')$，使得对于$1 \leq j \leq n$有$\sum_{i=1}^{m-1} x_i = \sum_{j=1}^n z_j'$、$x_m = \sum_{j=1}^n z_j''$和$y_j = z_j' + z_j''$。另一方面，由于定理对于$p = m - 1$和$q = n$成立，因此存在双序列$(u_{ij})_{1 \leq i \leq m-1, 1 \leq j \leq n}$，使得$x_i = \sum_{j=1}^n u_{ij}$对于$1 \leq i \leq m - 1$，以及$z_j' = \sum_{i=1}^{m-1} u_{ij}$对于$1 \leq j \leq n$。推杆
+2) 现在让我们证明，如果定理对于 $p < m$ 和 $q = n$ ($m > 2,\ n \geq 2$) 为真，那么对于 $p = m$ 和 $q = n$ 也为真。到假设，我们就有了$x, + \sum_{i=1}^{m-1} x_i = \sum_{j=1}^n y_j$。 定理对于$p = 2$和$q = n$成立，$n$正项存在两个有限序列$(z_j'), (z_j'')$，使得对于$1 \leq j \leq n$有$\sum_{i=1}^{m-1} x_i = \sum_{j=1}^n z_j'$、$x_m = \sum_{j=1}^n z_j''$和$y_j = z_j' + z_j''$。另一方面，由于定理对于$p = m - 1$和$q = n$成立，因此存在双序列$(u_{ij})_{1 \leq i \leq m-1, 1 \leq j \leq n}$，使得$x_i = \sum_{j=1}^n u_{ij}$对于$1 \leq i \leq m - 1$，以及$z_j' = \sum_{i=1}^{m-1} u_{ij}$对于$1 \leq j \leq n$。推杆
 $$
 z_{ij} = u_{ij} \quad \text{for} \quad 1 \leq i \leq m - 1 , \quad \text{and} \quad z_{mj} = z_j'' \quad (1 \leq j \leq n) ,
 $$
 我们当然得到定理的双序列满足条件。
 
-3）通过交换、$x_i$和$y_j$，我们以同样的方式看到，如果定理对于$p = m$和$q < n$（$m \geq 2,\ n > 2$）为真，那么对于$p = m$和$q = n$也为真。因此，定理由双归纳从情况$p = q = 2$开始证明，因为每当$p \leq 1$或$q \leq 1$时它都是平凡的真。
+3）通过交换、$x_i$和$y_j$，我们以同样的方式看到，如果定理对于$p = m$和$q < n$（$m \geq 2,\ n > 2$）为真，那么对于$p = m$和$q = n$也为真。因此，定理由双归纳从情况$p = q = 2$开始证明，因为只要$p \leq 1$或$q \leq 1$它都是平凡的真。
 
 #### 推论 {#alg-vi-s1-n10-cor-1 .statement tag=06X0}
 
@@ -385,7 +385,7 @@ $$
 
 元素$y$和$z = \left( \sum_{i=1}^n x_i \right) - y$两个中的应用定理1至序列$(x_i)$和序列由……组成就足够了。
 
-### 11.正负部分
+### 11. 正负部分
 
 #### 定义 4 {#alg-vi-s1-def-4 .statement tag=06X1}
 
@@ -393,7 +393,7 @@ $$
 
 尽管有它的名字，负数部分 $x^-$ 是正数元素。
 
-显然是$x^- = (-x)^+$和$|-x| = |x|$。让我们也注下面的公式，其中第一个是定义的直接的推论以及翻译下的顺序不变性，第二个是从第一个VI、p. 10的第7条命题得出的：
+显然是$x^- = (-x)^+$和$|-x| = |x|$。让我们也注下面的公式，其中第一个是定义的直接的推论以及翻译下的顺序不变性，第二个是从第一个VI，p. 10的第7条命题得出的：
 
 $$
 \begin{cases}
@@ -446,31 +446,31 @@ $$
 
 #### 命题 9 {#alg-vi-s1-div-prop-9 .statement tag=06X4}
 
-— 如果 K 的主分数理想群 $\mathscr{P}^*$ 是格序的，则 $K^*$ 的每个元素 x 都可以写成形式 $x = uv^{-1}$，其中 u 和 v 是 A 的元素，使得 $1 = \gcd(u, v)$；对于 x 的任何其他表达式 $x = u'{v'}^{-1}$ 作为 A 的两个元素的商，我们有 $u' = uw$ 和 $v' = vw$，其中 w 是 $u', v'$ 的 gcd；特别是如果 $1 = \gcd(u', v')$ 那么 u' 和 v' 分别是 u 和 v 的关联。
+— 如果 K 的主分数理想的群 $\mathscr{P}^*$ 是格序的，则 $K^*$ 的每个元素 x 都可以写成形式 $x = uv^{-1}$，其中 u 和 v 是 A 的元素，使得 $1 = \gcd(u, v)$；对于 x 的任何其他表达式 $x = u'{v'}^{-1}$ 作为 A 的两个元素的商，我们有 $u' = uw$ 和 $v' = vw$，其中 w 是 $u', v'$ 的 gcd；特别是如果 $1 = \gcd(u', v')$ 那么 u' 和 v' 分别是 u 和 v 的关联。
 
 $K^*$ 的元素 x 的这种表达式$uv^{-1}$ 通常称为约化分数。
 
-### 12.Coprime 元素
+### 12. 共质元素
 
 #### 定义 5 {#alg-vi-s1-def-5 .statement tag=06X5}
 
 — 在有序群中，如果 $\inf(x, y) = 0$，则两个元素 x 和 y 称为互质。
 
-在某些情况下，如果$\inf(|x|, |y|) = 0$（cf. INT，II, § 1），定义两个元素互质，或者在整除理论中引入相应的术语，这是很自然的。我们不会在这里这样做。
+在某些情况下，如果 $\inf(|x|, |y|) = 0$ (cf. INT, II, § 1) 或在整除理论中引入相应的术语，定义两个元素互质是很自然的。我们不会在这里这样做。
 
-两个互质元素必然是正数。 x 的正负部分 $x^+$ 和 $x^-$ 互质（VI，p. 12，命题 9，a））。一个家庭 $(x_i)_{i \in I}$ 的元素 $x_i$ 被认为是 *setwise coprime* if $\inf_{i \in I} x_i = 0$;如果$x_i$都是$\geq 0$，那么存在I的有限子集J就足够了，使得相应的元素是集合互质的。如果$\inf(x_i, x_j) = 0$对于不同指标的每个对$(\ell, \kappa)$，则称家庭$(x_i)$的元素是“成对互质”。
+两个互质元素必然为正。 x 的正负部分 $x^+$ 和 $x^-$ 互质（VI，p. 12，命题 9，a））。一个家庭 $(x_i)_{i \in I}$ 的元素 $x_i$ 被认为是 *setwise coprime* 如果 $\inf_{i \in I} x_i = 0$；如果$x_i$都是$\geq 0$，那么存在I的有限子集 J就足够了，使得相应的元素是集合互质的。如果$\inf(x_i, x_j) = 0$对于不同指标的每个对$(\ell, \kappa)$，则称家庭$(x_i)$的元素是*成对互质*。
 
 $x_i$ 可以是集合互质而不是成对互质。
 
 如果 x 和 y 互质，我们也说 x 与 y 互质，或者 y 与 X 互质
 
-(DIV) 如果主理想 (x) 和 (y) 为非零的并且在 $\mathscr{P}^*$ 中互质，则称 K 的两个元素 x 和 y 为*互质*；这等于说，1 是 x 和 y 的 gcd，并且意味着 x 和 y *属于* 到 A。对于例，约简分数的分子和分母是互质的。成对和集合互质元素的概念定义类似。
+(DIV) 如果主理想 (x) 和 (y) 为非零的并且在 $\mathscr{P}^*$ 中互质，则称 K 的两个元素 x 和 y 为*互质*；这相当于说，1 是 x 和 y 的 gcd，并且意味着 x 和 y *属于* 到 A。对于例，约简分数的分子和分母是互质的。成对和集合互质元素的概念定义类似。
 
 (DIV) 当 x 和 y 互质时，它们通常被称为“与 1 互质另一个”；避免这个术语很方便，这可能会导致与素数数的概念混淆（I，p. 50，Def. 16）。
 
 #### 命题 10 {#alg-vi-s1-prop-10 .statement tag=06X6}
 
-*设 x、y 和 z 为有序群的三个元素；对于 x – z 和 y – z 互质，z = inf (x, y).* 是充分必要的
+*设 x、y 和 z 为有序群的三个元素 ；对于 x – z 和 y – z 互质，z = inf (x, y).* 是充分必要的
 
 事实上关系 $z = \inf(x, y)$ 和 $0 = \inf(x - z, y - z)$ 是等价的。
 
@@ -543,12 +543,12 @@ $$
 
 #### 命题 12 {#alg-vi-s1-prop-12 .statement tag=06XJ}
 
-— 令 $x_i$ ($1 \leq i \leq n$) 成为群晶格中的 n 两对互质元素。然后
+— 令 $x_i$ ($1 \leq i \leq n$) 为群晶格中的 n 两对互质元素。然后
 $$
 \sup(x_1, \ldots, x_n) = x_1 + \cdots + x_n .
 $$
 
-这是从公式$u + v = \sup(u, v) + \inf(u, v)$（VI，p. 10，命题7）通过$n$上的归纳得出的，使用$x_i$对于$2 \leq i \leq n$来说与$x_1 + \ldots + x_{i-1}$互质（Cor.4到命题7）。 11）。
+这是从公式$u + v = \sup(u, v) + \inf(u, v)$（VI，p. 10，命题7）通过$n$上的归纳得出，使用$x_i$对于$2 \leq i \leq n$来说与$x_1 + \ldots + x_{i-1}$互质（Cor.4到命题7）。 11）。
 
 #### 注 {#alg-vi-s1-n12-rem-1 .statement tag=06XK}
 
@@ -556,7 +556,7 @@ VI、p. 10的第7条命题还表明，$x$和$y$互质的充要条件是$x + y = 
 
 #### 命题 12 {#alg-vi-s1-div-prop-12 .statement tag=06XL}
 
-— *令$a_i$为$\mathbf{A}$的成对互质元素的有限数$n$；那么乘积 $a_1 \ldots a_n$ 是 $a_1, \ldots, a_n$ 的 lcm。*
+— *令$a_i$为$\mathbf{A}$的成对互质元素的有限数$n$；那么乘积 $a_1 \ldots a_n$，是 $a_1, \ldots, a_n$ 的 lcm。*
 
 #### 命题 13 {#alg-vi-s1-prop-13 .statement tag=06XM}
 
@@ -585,7 +585,7 @@ $$
 
 #### 注 {#alg-vi-s1-n12-rem-2 .statement tag=06XO}
 
-将第 13 条命题的应用公式应用于二人家庭元素 $(x, y)$，我们得到以下公式，它表达了以下事实：合成sup, inf 中的律中的每一个合成sup, inf 在有序群的格子中都是*可分配的*关于另一个：
+将第 13 条命题的应用公式代入一个二人家庭元素$(x, y)$，我们得到以下公式，它表达了以下事实：合成sup, inf中的每个律在群有序的格子中是*分配*相对于其他：
 
 $$
 \begin{align*}
@@ -594,9 +594,9 @@ $$
 \end{align*}
 $$
 
-这个分配律性质是晶格有序 *群* 所特有的，而不是扩展任意晶格，甚至晶格有序幺半群（cf. VI、p. 33、Ex. 24）。
+这个分配律性质是格序 *群* 所特有的，而不是扩展到任意格，甚至不是格序幺半群（cf. VI、p. 33、Ex. 24）。
 
-### 13.不可约元
+### 13. 不可约元
 
 #### 定义 6 {#alg-vi-s1-def-6 .statement tag=06XP}
 
@@ -660,8 +660,8 @@ d) $G$由其不可约元生成，$G$的每个不可约元都有性质（P）。
 
 根据命题 14，很明显 b) 蕴含 c)。让我们证明 c) 蕴含 d)。由于$G$已被过滤，因此足以（VI，p. 4，命题4）检查$G$的正元素的集合$F$（即不可约元的和）是否等于$G_+ - \{0\}$。如果这不是真的，则从 (MIN) 可以得出，$G_+ - \{0\}$ 中$F$ 的补集将具有最小元素 $a$；通过定义$a$不是不可约的，两个严格正数元素$x$和$y$的和也是不可约的；因为$x < a$和$y < a$，这些元素属于到$F$，和不可约元也是如此，因此$a$也是如此，这是一个矛盾。最后，d) 隐含了第 15 条命题中的 a)。
 
-我们将应用Th。 2 主理想整环（VII，p. 4）和独特因式分解域（AC，VII, § 3）中的整除理论，以及戴德金环（AC，VII, § 2）中的理想研究。
+我们将应用Th。 2 主理想整环（VII，p. 4）和独特因式分解域（AC，VII, § 3）中的整除性理论，以及戴德金环（AC，VII, § 2）中的理想研究。
 
 ### 习题 {#alg-vi-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

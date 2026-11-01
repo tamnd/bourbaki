@@ -34,27 +34,27 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 102bfff51066216ec385725f3ac27b1a7ab9c16967f7b37f92dbb52499c41a6e
+content_sha256: 9ab7b7886737446ca53002e227a4797c7a05c5430125796af8e516280c57d01e
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
 translation_method: google
 source_content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 74c3527833fd50da04d044511b2c33f55246c1eeb31132caa20fb7c8c6365b20
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 5。标量的环的扩张
 
-### 1. 模标量中的环的扩张
+### 1. 模标量的环的扩张
 
 设$A, B$为两个环和$\rho : A \to B$环同态；我们考虑由这个同态（$§ 1$，no. 13）定义的正确$A$模块$\rho^*(B_d)$；这个$A$模块也有一个左$B$模块结构，即$B_s$的结构，并且，正如$B$中$a \in A, b, b'$的$b'(b\rho(a)) = (b'b)\rho(a)$一样，$B$上的这两个模结构是兼容的（$§ 1$，no. 14）。这允许我们，对于每个左$A$-模块$E$，到定义张量积$\rho_*(B_d) \otimes_A E$上的左$B$-模块结构，使得$B$和$x \in E$中的$\beta, \beta'$有$\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ （$§ 3$，no. 3）。这个左$B$模块据说是通过$\rho$*将标量的环扩展到$B$*从$E$派生出来的，如果不引起混淆的话，它用$\rho^*(E)$或$E_{(B)}$表示。
 
 #### 命题 1 {#alg-ii-s5-prop-1 .statement tag=05QD}
 
-*对于$E$的每个左$A$-模块$E$、映射$\phi : x \mapsto 1 \otimes x$进入$A$-模块$\rho_*(\rho^*(E))$是$A$线性且集合$\phi(E)$生成 $B$-模块$\rho^*(E)$。此外，对于$E$到$A$-模块$\rho_*(F)$的每个左$B$-模块$F$和每个$A$-线性映射$f$，存在且仅有一个$B$-线性映射$\bar{f}$ $\rho^*(E)$ 转换为 $F$，这样 $\bar{f}(1 \otimes x) = f(x)$ 对于所有 $x \in E$。*
+*对于每个左$A$-模块$E$，$E$的映射$\phi : x \mapsto 1 \otimes x$进入$A$-模块$\rho_*(\rho^*(E))$是$A$线性和集合$\phi(E)$生成 $B$-模块$\rho^*(E)$。此外，对于$E$到$A$-模块$\rho_*(F)$的每个左$B$-模块$F$和每个$A$-线性映射$f$，存在且仅有一个$B$-线性映射$\bar{f}$ $\rho^*(E)$ 转换为 $F$，这样 $\bar{f}(1 \otimes x) = f(x)$ 对于所有 $x \in E$。*
 
 $B$可以通过$\rho$被视为$(B, A)$双模；那么有一个规范的 $\mathbf{Z}$-模块同构
 
@@ -169,15 +169,15 @@ $$
 
 *对于每个射影 A-模 E，B-模* $\rho^*(E)$ *都是射影。如果进一步* $\rho$ *是单射的，则 E 的典范映射到* $\rho^*(E)$ *是单射的。*
 
-到假设时，存在自由A-模 M 包含 E，并且其中 E 承认补充 F。 紧接着从§ 3, no. 7、命题 7 可以得出$M_{(B)}$ 与$E_{(B)}$ 和$F_{(B)}$ 的直和相同，并且如果$\phi$和$\psi$是典范映射$E \to E_{(B)}$和$F \to F_{(B)}$，典范映射$M \to M_{(B)}$只是$x + y \mapsto \phi(x) + \psi(y)$。将命题 4 应用于 A-模 M 立即得出推论。
+假设存在自由A-模 M 包含 E，其中 E 承认补充 F。 紧随§ 3, no. 7、命题 7，$M_{(B)}$ 与 $E_{(B)}$ 和 $F_{(B)}$ 的直和等同，并且如果$\phi$和$\psi$是典范映射$E \to E_{(B)}$和$F \to F_{(B)}$，典范映射$M \to M_{(B)}$只是$x + y \mapsto \phi(x) + \psi(y)$。将命题 4 应用于 A-模 M 立即得出推论。
 
-当 E 为右A-模时，我们类似地写为 $\rho^*(E) = E \otimes_A \rho_*(B_s)$，这次将 B 视为 (A, B) 双模，并且 $\rho^*(E)$ 上的右B-模结构使得 $\beta \in B' \ \beta' \in B$ 和 $x \in E$ 为 $(x \otimes \beta)\beta' = x \otimes (\beta\beta')$。我们留给读者的任务是，将右模的结果相应的说明为这一数字的结果。以及以下内容。
+当 E 为右A-模时，我们类似地写为 $\rho^*(E) = E \otimes_A \rho_*(B_s)$，此时 B 被视为 (A, B) 双模，并且 $\rho^*(E)$ 上的右B-模结构使得 $(x \otimes \beta)\beta' = x \otimes (\beta\beta')$ 对于 $\beta \in B' \ \beta' \in B$ 和 $x \in E$。我们留给读者的任务是，将右模的结果相应的说明为该编号的结果。以及以下内容。
 
-注 (4)。考虑由 $\rho$ 定义的左A-模 $\rho_*(B_s)$，对于每个左A-模 E，考虑 $\mathbf{Z}$ 模
+注 (4)。考虑由 $\rho$ 定义的左A-模 $\rho_*(B_s)$，对于每个左A-模 E，考虑 $\mathbf{Z}$ 模块
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-由于 $\rho_*(B_s)$ 有右B-模结构，左B-模结构是在 $\tilde{\rho}(E)$ (§ 1, no. 14) 上导出的，因此，如果 $u \in \tilde{\rho}(E)$ 和 $b' \in B$，$b'u$ 是同态 $b \mapsto u(bb')$ $\rho_*(B_s)$ 进入 E。我们进一步定义 A-线性映射，称为规范
+由于$\rho_*(B_s)$有右B-模结构，左B-模结构是在$\tilde{\rho}(E)$（§ 1, no. 14）上导出的，因此，如果$u \in \tilde{\rho}(E)$和$b' \in B$，$b'u$是同态将$\rho_*(B_s)$的$b \mapsto u(bb')$转化为E。我们进一步将定义A-线性映射，称为规范
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -185,7 +185,7 @@ $$
 $$
 \operatorname{Hom}_A(\rho_*(B_s) \otimes_B F, E) \to \operatorname{Hom}_B(F, \operatorname{Hom}_A(\rho_*(B_s), E))
 $$
-（§ 1, no. 1，命题1）。由于左A-模 $\rho^*(B_s) \otimes_B F$ 凭借 § 3, no. 4、命题 4 被规范地识别为 $\rho_*(F)$，因此我们获得规范的 $\mathbf{Z}$-模同构，即上述的逆
+（§ 1, no. 1，命题1）。由于左A-模 $\rho^*(B_s) \otimes_B F$ 凭借 § 3, no. 4、命题 4 被规范地识别为 $\rho_*(F)$，因此我们获得规范的 $\mathbf{Z}$-模块同构，即上述的逆
 $$
 \operatorname{Hom}_B(F, \tilde{\rho}(E)) \to \operatorname{Hom}_A(\rho_*(F), E)
 $$
@@ -194,13 +194,13 @@ $$
 \tilde{\sigma}(\tilde{\rho}(E)) \to (\sigma \circ \rho)^*(E).
 $$
 
-### 2. 标量的环的限制和扩张之间的关系
+### 2. 标量的环的关系介于限制和扩张之间
 
 设$\rho : A \to B$为环同态。对于每个左A-模 E，一个规范的 A-线性映射
 $$
 \phi_E : E \to \rho_*(\rho^*(E))
 $$
-在no. 1中定义，使得$\phi_E(x) = 1 \otimes x$。现在我们考虑左B-模 F 和应用命题 1 (no. 1) 到同态 $l_{\rho_*(F)} : \rho_*(F) \to \rho_*(F)$：我们得到 B-线性映射
+在no. 1中定义，使得$\phi_E(x) = 1 \otimes x$。我们现在考虑左B-模 F 和应用命题 1 (no. 1) 到同态 $l_{\rho_*(F)} : \rho_*(F) \to \rho_*(F)$：我们得到 B-线性映射
 
 $$
 \psi_F : \rho^*(\rho_*(F)) \to F
@@ -240,7 +240,7 @@ $$
 
 *对于所有$x \in E$和所有$y \in F$，映射$y \otimes x$到$y \otimes (1 \otimes x)$，并且这个同态是双射的。*
 
-通过定义，(14)的右侧是$F \otimes_B (B \otimes_A E)$，其中B被视为(B,A)-双模，并且在§ 3, no. 8、命题8中定义了规范的$\mathbf{Z}$同构$(F \otimes_B B) \otimes_A E \to F \otimes_B (B \otimes_A E)$；另一方面，§ 3, no. 4、命题 4 的典范同构$F \to F \otimes_B B$，对于两侧的右A-模结构来说，是同构，由$\rho$定义。 从而所需的同构。
+通过定义，(14) 的右侧为 $F \otimes_B (B \otimes_A E)$，其中 B 被视为 (B, A)-双模，并且在 § 3, no. 8、命题 8 中定义了规范的 $\mathbf{Z}$ 同构 $(F \otimes_B B) \otimes_A E \to F \otimes_B (B \otimes_A E)$；另一方面，§ 3, no. 4、命题 4 的典范同构$F \to F \otimes_B B$，对于两侧的右A-模结构来说，是同构，由$\rho$定义。 从而所需的同构。
 
 当 A 和 B *可交换*时，同构 (14) 是 *A-模* 同构
 
@@ -248,11 +248,11 @@ $$
 \rho_*(F) \otimes_A E \to \rho_*(F \otimes_B \rho^*(E)).
 $$
 
-### 3. 同态模运营商的环中的扩张
+### 3. 扩张环同态模运营商
 
 令 $A$ 为*可交换* 环、$B$ 环、$\rho : A \to B$ 环同态和 $E, F$ 两个 $A$ 模块；由于$B$是一个$(A, A)$双模（通过$\rho$）并且$F$可以被认为是一个$(A, A)$-双模，因此在$\mathbf{Z}$-模块上有$B \otimes_A F$*两个*$A$-模块结构，其下分别$a(b \otimes y) = (\rho(a)b) \otimes y$ 和 $a(b \otimes y) = b \otimes (ay)$ 对应 $a \in A,\ b \in B,\ y \in F$。我们将用$G'$和$G''$来表示这样定义的两个$A$模块；而且$G'$只是$A$模块$\rho_*(\rho^*(F))$。
 
-既然如此，在§ 4, no. 2、公式的典范同态的定义、公式(7)中，我们将$A$的替换$B$、环$B$的$B$模$F$视为$A$-模通过$\rho$和$G$通过$F$视为$(A, A)$双模；由于 $A$ 是可交换的，我们可以将获得的*规范* $\mathbf{Z}$*-同态* 写为
+既然这样，在§ 4, no. 2、公式的典范同态的定义、公式(7)中，我们将$A$的替换$B$、环$B$的$B$模$F$视为$A$-模通过$\rho$和$G$通过$F$视为$(A, A)$双模；由于 $A$ 是可交换的，我们可以将获得的*规范* $\mathbf{Z}$*-同态* 写为
 
 $$
 (15) \quad B \otimes_A \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(E, G'').
@@ -264,7 +264,7 @@ $$
 (16) \quad \operatorname{Hom}_A(E, G') = \operatorname{Hom}_A(E, \rho_*(\rho^*(F))) \to \operatorname{Hom}_B(\rho^*(E), \rho^*(F)).
 $$
 
-现在假设$\rho(A)$包含在$B$的*中心*中，在这种情况下，$\rho$也被称为*中心*同态*（或者$\rho$被称为定义一个$A$*-代数*结构） $B$、cf.III, § 1, no. 3)*。那么$G'$和$G''$的$A$模结构是*相同的*并且组合同态(16)和(15)，我们因此得到一个规范的$\mathbf{Z}$*-同态*
+现在假设$\rho(A)$包含在$B$的*中心*中，在这种情况下，$\rho$也被称为*中心*同态*（或者$\rho$被称为定义一个$A$*-代数*结构） $B$、cf.III, § 1, no. 3)*。那么$G'$和$G''$的$A$模结构*相同*，并且组合同态(16)和(15)，我们因此得到一个规范的$\mathbf{Z}$*-同态*
 
 $$
 (17) \quad \omega : B \otimes_A \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_B(E_{(B)}, F_{(B)})
@@ -278,7 +278,7 @@ $$
 
 其中$r_b$表示$B$中右乘法乘以$b$。
 
-此外，$\omega$是*中心*同态的假设意味着$(bb')\rho(a) = b\rho(a))b'$对于$B$和$a \in A$中的$b,\ b'$；在其他字中，$B_d$的*正确*$B$模块结构与其$A$模块结构*相容的；因此，$B \otimes_A \operatorname{Hom}_A(E, F)$上的定义*右*$B$*-模块*结构（§ 3, no. 4）以及$F_{(B)} = B \otimes_A F$上，最后，由于$F_{(B)}$上的左和右$B$-模块结构*相容的*，所以*右* $B$*-模块* 结构也在 $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14) 上获得。然后立即验证（17）是这些结构的*正确*$B$*-模块*同态*。
+此外，$\omega$是*中心*同态的假设意味着$(bb')\rho(a) = b\rho(a))b'$对于$B$和$a \in A$中的$b,\ b'$；在其他字中，$B_d$的*右*$B$模块结构与其$A$模块结构*相容的；因此，$B \otimes_A \operatorname{Hom}_A(E, F)$上的定义*右*$B$*-模块*结构（§ 3, no. 4）以及$F_{(B)} = B \otimes_A F$上，最后，由于$F_{(B)}$上的左和右$B$-模块结构*相容的*，所以*右* $B$*-模块* 结构也在 $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14) 上获得。然后立即验证（17）是这些结构的*正确*$B$*-模块*同态*。
 
 #### 命题 7 {#alg-ii-s5-prop-7 .statement tag=05QN}
 
@@ -290,7 +290,7 @@ $$
 
 由于 (16) 是双射，命题由 § 4, no. 2 推出。 命题 2，应用于典范同态 (15)。
 
-### 4. 由扩张标量获得模的对偶
+### 4. 由扩张标量获得的模的双重
 
 设 A、B 为两个环、$\rho : A \to B$ 环同态，E 左A-模且 E* 为对偶。我们将定义一个规范的 B-*线性* 映射
 
@@ -304,7 +304,7 @@ $$
 v : \mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s) \to \mathrm{Hom}_A(E, A \otimes_A \rho_* (B_s)) = \mathrm{Hom}_A(E, \rho_* (B_s))
 $$
 
-典范同构给出$§ 3$、no. 4、命题4的标识。另一方面，(19)的右侧可写为$\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$；由于 B 是 (B, A)-双模，因此存在规范的 $\mathbf{Z}$ 同构 ($§ 4$, no. 1, 命题 1)
+$§ 3$、no. 4、命题 4 的典范同构给出的标识。 另一方面，(19)的右侧可写为$\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$；由于 B 是 (B, A)-双模，因此存在规范的 $\mathbf{Z}$ 同构 ($§ 4$, no. 1, 命题 1)
 
 $$
 \beta : \mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s) \to \mathrm{Hom}_A(E, \mathrm{Hom}_B(B_s, B_s))
@@ -316,7 +316,7 @@ $$
 \langle \xi \otimes x, v_E(x^* \otimes \eta) \rangle = \xi_p (\langle x, x^* \rangle) \eta,
 $$
 
-对于 B 中的 $x \in E, x^* \in E^*, \xi, \eta$，这立即表明 $v_E$ 是 B-*线性*。此外，对于每 A-线性映射 $u : E \to F$ 图表
+对于 B 中的 $x \in E, x^* \in E^*, \xi, \eta$，这立即表明 $v_E$ 是 B-*线性*。此外，对于每个 A-线性映射 $u : E \to F$ 图表
 
 $$
 \begin{array}{ccc}
@@ -332,9 +332,9 @@ $$
 
 *如果 A-模* E、$\rho_* (B_s)$ *之一是射影且有限生成的，则同态* $v_E$ *是双射*。
 
-这是从上面和 § 4, no. 2、命题 2 得出的。
+这是从上面和§ 4, no. 2、命题 2 得出的。
 
-特别假设 E 是有限生成的自由A-模，并令 $(e_i)_{1 \leq i \leq n}$ 为 E 的基和 $(e_i^*)$ 对偶基；然后$(E^*)_{(B)}$的典范同构（19）映射基$(e_i^* \otimes 1)$到$E_{(B)}$的基$(1 \otimes e_i)$的对偶基。
+特别假设 E 是有限生成的自由A-模，并令 $(e_i)_{1 \leq i \leq n}$ 为 E 和 $(e_i^*)$ 对偶基的基；然后$(E^*)_{(B)}$的典范同构（19）映射基$(e_i^* \otimes 1)$到$E_{(B)}$的基$(1 \otimes e_i)$对偶基。
 
 ### 5. 有限性准则
 
@@ -342,16 +342,16 @@ $$
 
 设 B 为环，B 的 A 子环，P 为射影左A-模。那么，如果$P_{(B)}$是有限生成的B-模，则P本身就是有限生成A-模。
 
-我们知道（§ 2, no. 6，命题 12），存在 P 的元素的$(a_\lambda)_{\lambda \in L}$ 族和对偶 P* 的元素的$(a_\lambda^*)_{\lambda \in L}$族，使得对于所有$x \in P$，$\langle x, a_\lambda^* \rangle$族属于有限支撑并且$x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$。由于$P_{(B)}$是有限生成的，因此存在P的元素的有限族$(y_i)_{i \in I}$，使得$P_{(B)}$由元素$1 \otimes y_i$生成。对于每个指标 i，家庭 $\langle y_i, a_\lambda^* \rangle$ 有有限支撑。因此，存在L的有限子集 H，使得$\langle y_i, a_\lambda^* \rangle = 0$对于$i \in I$和$\lambda \notin H$。自从
+我们知道（§ 2, no. 6，命题 12），存在 P 的元素的族$(a_\lambda)_{\lambda \in L}$和对偶 P* 的元素的族$(a_\lambda^*)_{\lambda \in L}$，这样，对于所有$x \in P$，$\langle x, a_\lambda^* \rangle$的族有限支撑和$x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$。由于$P_{(B)}$是有限生成的，因此存在P的元素的有限族$(y_i)_{i \in I}$，使得$P_{(B)}$由元素$1 \otimes y_i$生成。对于每个指标 i，家庭 $\langle y_i, a_\lambda^* \rangle$ 有有限支撑。因此，存在L的有限子集 H，使得$i \in I$和$\lambda \notin H$有$\langle y_i, a_\lambda^* \rangle = 0$。自从
 $$
 \langle 1 \otimes y_i, 1 d_B \otimes a_\lambda^* \rangle = \langle y_i, a_\lambda^* \rangle,
 $$
-由此可见 $1 d_B \otimes a_\lambda^* = 0$ 对应 $\lambda \notin H$。因此，对于所有 $x \in P$，
+由此可知 $1 d_B \otimes a_\lambda^* = 0$ 对应 $\lambda \notin H$。因此，对于所有$x \in P$，
 $$
 \langle x, a_\lambda^* \rangle = \langle 1 \otimes x, 1_B \otimes a_\lambda^* \rangle = 0
 $$
 $\lambda \notin H$。这表明A-模 P 由$a_\lambda$ 生成，使得$\lambda \in H$。
 
-### 习题 {#alg-ii-s5-exercises}
+### 习题{#alg-ii-s5-exercises}
 
-§ 5](exercises/s5/)参见[习题。
+参见[习题为 § 5](exercises/s5/)。

@@ -62,21 +62,21 @@ subsections:
       pdf_page: 136
 statements: 32
 exercises: 16
-content_sha256: e42f7ed69de4578198417c1b99ff73e7978ac58955d88817d40f2edc082d08fb
+content_sha256: da89a9461accee5454717207ba2befa1c44712c398c7d929cd991d71446f4e1c
 translated_from: content/en/alg/I/08_s8_rings.md
 translation_method: google
 source_content_sha256: 9e2e678718b8b04bcfb806c30df7ec34dec70b897c7a14a41eee1a9ca40499a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 75e2174d60d6adf608583b457bd44cb153490ce77a18cfefbd61c9a5b09d7b2b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。 环
 
-### 1.环
+### 1. RINGS
 
 #### 定义 1 {#alg-i-s8-def-1 .statement tag=05H2}
 
@@ -129,46 +129,46 @@ $$(12) \quad (-x)^n = \begin{cases} x^n & \text{if } n \text{ is even} \\ -x^n &
 
 与上述术语一致，每一个元素$y \in \mathbf{A}$都会被视为左右除子为0；但是，由于语言滥用，一般来说，项“0的右（或左）除子”被保留给元素$y$，使得在满足关系$xy = 0$（或$yx = 0$）中存在$x \neq 0$。在其他字中，零的右（或左）除子是右（或左）不可取消的元素。
 
-让$x \in \mathbf{A}$。如果存在整数 $n > 0$ 和 $x^n = 0$，则$x$ 称为幂零。 元素 $1 - x$ 是可逆的，其逆等于
+让$x \in \mathbf{A}$。如果存在整数 $n > 0$ 和$x^n = 0$，则$x$ 称为幂零。 元素 $1 - x$ 是可逆的，其逆等于
 $$
 1 + x + x^2 + \cdots + x^{n-1}.
 $$
 
-由于 A 是加法下的交换律群，因此定义了 $n \in \mathbf{Z}$ 和 $x \in \mathbf{A}$ 的元素 $nx$ (§ 2, no. 8)。由于$\gamma_x$和$\delta_x$是加法群A、$\gamma_x(ny) = n\gamma_x(y)$和$\delta_y(nx) = n\delta_y(x)$的自同态，从而
+由于 A 是加法下的交换律群，$n \in \mathbf{Z}$和$x \in \mathbf{A}$的元素$nx$已被定义（§ 2, no. 8）。由于$\gamma_x$和$\delta_x$是加法群A、$\gamma_x(ny) = n\gamma_x(y)$和$\delta_y(nx) = n\delta_y(x)$的自同态，从而
 $$
 x.(ny) = (nx).y = n.(xy).
 $$
 特别是$nx = (n.1)x$。
 
-集合加法和乘法满足公理为环，但保证乘法下存在单位元素，则称为伪环。
+集合加法和乘法满足公理为环，但保证乘法下存在单位元素，称为伪环。
 
-### 2.推论 / 分配律
+### 2. 推论分配律
 
-乘法的分配律相对于加法允许我们应用命题 1 of § 3, no. 4，这给出
+乘法的分配律相对于加法允许我们得到 § 3, no. 4 的应用命题 1，这给出
 $$
 \prod_{i=1}^n \left( \sum_{\lambda \in L_i} x_{i,\lambda} \right) = \sum_{\alpha_1, \ldots, \alpha_n} \prod_{i=1}^n x_{i, \alpha_i}
 $$
-其中和扩展在序列$(\alpha_1, \ldots, \alpha_n)$属于到$L_1 \times \cdots \times L_n$，对于$i = 1, \ldots, n$，环A的元素的$(x_{i,\lambda})_{\lambda \in L_i}$家庭是有限支撑。
+其中和扩展在所有序列$(\alpha_1, \ldots, \alpha_n)$属于到$L_1 \times \cdots \times L_n$，对于$i = 1, \ldots, n$，环A的元素的家庭$(x_{i,\lambda})_{\lambda \in L_i}$是有限支撑。
 
 #### 命题 1 {#alg-i-s8-prop-1 .statement tag=05H3}
 
-设 A 为交换环和 $(x_\lambda)_{\lambda \in L}$ A 的元素的有限族。对于正整数 $\beta = (\beta_\lambda)_{\lambda \in L}$ 的每个族，令 $|\beta| = \sum_{\lambda \in L} \beta_\lambda$。然后
+令 A 为交换环和 $(x_\lambda)_{\lambda \in L}$ A 的元素的有限族。对于正整数 $\beta = (\beta_\lambda)_{\lambda \in L}$ 的每个族，令 $|\beta| = \sum_{\lambda \in L} \beta_\lambda$。然后
 $$
 \left( \sum_{\lambda \in L} x_\lambda \right)^n = \sum_{|\beta|=n} \frac{n!}{\prod_{\lambda \in L} \beta_\lambda!} \prod_{\lambda \in L} x_\lambda^{\beta_\lambda}.
 $$
-我们将公式 (13) 与$L_i = L$ 相结合，将$x_{i,\lambda} = x_\lambda$ 应用于$1 \leq i \leq n$。然后
+我们将公式 (13) 与$L_i = L$ 一起应用，将$x_{i,\lambda} = x_\lambda$ 应用于$1 \leq i \leq n$。然后
 $$
 \left( \sum_{\lambda \in L} x_\lambda \right)^n = \sum_{\alpha_1, \ldots, \alpha_n} x_{\alpha_1} \cdots x_{\alpha_n},
 $$
 和延伸至所有序列$\alpha = (\alpha_1, \ldots, \alpha_n) \in L^n$。
 
-设$\alpha$在$L^n$内；对于所有$\lambda \in L$，让$U_\lambda^\alpha$表示整数$i$的集合，这样$1 \leq i \leq n$和$\alpha_i = \lambda$，并让$\Phi(\alpha) = (U_\lambda^\alpha)_{\lambda \in L}$。 $\Phi$是$L^n$双射到由$L$索引的$\{1, 2, \ldots, n\}$划分集合上，是直接的。对于所有$\beta \in \mathbf{N}^L$使得$|\beta| = n$，让$L_\beta^n$表示$\alpha \in L^n$的集合，使得$\mathrm{Card}\ U_\beta^\alpha = \beta_\lambda$对于所有$\lambda \in L$。由此可见，家庭$(L_\beta^n)_{|\beta|=n}$是$L^n$的划分，并且
+设$\alpha$在$L^n$中；对于所有$\lambda \in L$，让$U_\lambda^\alpha$表示整数$i$的集合，使得$1 \leq i \leq n$和$\alpha_i = \lambda$，并让$\Phi(\alpha) = (U_\lambda^\alpha)_{\lambda \in L}$。 $\Phi$为$L^n$双射到由$L$索引的$\{1, 2, \ldots, n\}$划分集合上为直接的。对于所有$\beta \in \mathbf{N}^L$，使得$|\beta| = n$，让$L_\beta^n$表示$\alpha \in L^n$的集合，使得$\mathrm{Card}\ U_\beta^\alpha = \beta_\lambda$对于所有$\lambda \in L$。由此可见，家庭$(L_\beta^n)_{|\beta|=n}$是$L^n$的划分，并且
 
 $$
 \mathrm{Card}\ L_\beta^n = \frac{n!}{\prod_{\lambda \in L} \beta_\lambda!}
 $$
 
-（§ 5, no. 5）。
+(§ 5, no. 5)。
 
 最后，对于$\alpha \in L_\beta^n$，
 
@@ -176,7 +176,7 @@ $$
 x_{\alpha_1} \cdots x_{\alpha_n} = \prod_{\lambda \in L} \prod_{i \in U_\lambda^\alpha} x_{\alpha_i} = \prod_{\lambda \in L} \prod_{i \in U_\lambda^\alpha} x_\lambda = \prod_{\lambda \in L} x_\lambda,
 $$
 
-从而
+whence
 
 $$
 \sum_{(\alpha_1, \ldots, \alpha_n)} x_{\alpha_1} \cdots x_{\alpha_n} = \sum_{|\beta|=n} \sum_{\alpha \in L_\beta^n} x_{\alpha_1} \cdots x_{\alpha_n}
@@ -188,7 +188,7 @@ $$
 
 #### 推论 1（二项式公式）{#alg-i-s8-prop-1-cor-1 .statement tag=05H4}
 
-*设 x 和 y 为交换环 A 中的两个元素。那么*：
+*设 x 和 y 为交换环 A 中的两个元素。则*：
 
 $$
 (x + y)^n = \sum_{p=0}^n \binom{n}{p} x^p y^{n-p}.
@@ -200,7 +200,7 @@ $$
 (x + y)^n = \sum_{p+q=n} \frac{n!}{p! q!} x^p y^q,
 $$
 
-和延伸超过正整数 $p, q$ 的有序对和 $p + q = n$。由此立即得出二项式公式（*集合理论*，III, § 5, no. 8）。
+和用 $p + q = n$ 延伸超过正整数 $p, q$ 的有序对。二项式公式立即由此得出（*集合理论*，III, § 5, no. 8）。
 
 #### 推论 2 {#alg-i-s8-prop-1-cor-2 .statement tag=05H5}
 
@@ -232,7 +232,7 @@ $$
 (-1)^n n! x_1 x_2 \cdots x_n = \sum_{H \subset I} (-1)^{\mathrm{Card}\, H}(x_H)^n.
 $$
 
-设$C$为$I$的映射到$\{0, 1\}$的集合。如果将每个$H \subset I$映射到其特征函数，则将$\mathscr{P}(I)$映射到$C$即可获得双射。因此，(16) 的右侧等于：
+设$C$为$I$的映射到$\{0, 1\}$的集合。如果将每个$H \subset I$映射到其特征函数，则将$\mathscr{P}(I)$映射到$C$，即可获得双射。因此，(16) 的右侧等于：
 
 $$
 \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} \left( \sum_{i \in I} a(i) x_i \right)^n
@@ -250,7 +250,7 @@ $$
 c_{i_1 \ldots i_n} = \sum_{a \in C} (-1)^{a(1)+\cdots+a(n)} a(i_1) \ldots a(i_n).
 $$
 
-(1) 假设$(i_1, \ldots, i_n)$不是$I$的置换。存在与$i_1, \ldots, i_n$不同的$j \in I$。令$C'$为$a \in C$的集合，使得$a(j) = 0$。对于所有$a \in C'$，令$a^*$为$a$的和以及$\{j\}$的特征函数。然后 $a^*(1) + \cdots + a^*(n) = a(1) + \cdots + a(n) + 1$ 因此
+(1) 假设$(i_1, \ldots, i_n)$不是$I$的置换。存在与$i_1, \ldots, i_n$不同的$j \in I$。令 $C'$ 为 $a \in C$ 的集合，使得 $a(j) = 0$。对于所有$a \in C'$，令$a^*$为$a$的和以及$\{j\}$的特征函数。然后 $a^*(1) + \cdots + a^*(n) = a(1) + \cdots + a(n) + 1$ 因此
 
 $$
 c_{i_1 \ldots i_n} = \sum_{a \in C'} (-1)^{a(1)+\cdots+a(n)} a(i_1) \ldots a(i_n) + (-1)^{a^*(1)+\cdots+a^*(n)} a^*(i_1) \ldots a^*(i_n)
@@ -261,7 +261,7 @@ $$
 
 (2) 假设存在$\sigma \in S_n$使得$i_1 = \sigma(1), \ldots, i_n = \sigma(n)$。那么$a(i_1) \ldots a(i_n) = 0$除非$a$只需要值1。因此$c_{i_1 \ldots i_n} = (-1)^n$。
 
-### 3.例环
+### 3. 例 / 环
 
 I。 零环。设 A 为环。对于A中的$0 = 1$，A由单个元素组成是充分必要的。 条件显然已经足够了。另一方面，如果$0 = 1$，那么对于所有$x \in A$，$x = x.1 = x.0 = 0$。这样的环称为零环。
 
@@ -288,7 +288,7 @@ $$(g + h)f = gf + hf.$$
 
 VII。 *零平方的伪环。* 如果 $xy = 0$ 对于所有 $x, y \in A$，则称伪环 A 为零平方。设 G 是可交换的群。如果给集合 G 赋予群 G 的加法和乘法 $(x, y) \mapsto 0$，则获得零平方的伪环。如果 $G = \{0\}$，则仅为环，在这种情况下，它为零环。
 
-### 4.环同态
+### 4. RING HOMOMORPHISMS
 
 #### 定义 2 {#alg-i-s8-def-2 .statement tag=05H7}
 
@@ -321,7 +321,7 @@ $$
 
 它是双射的，因为关系$x' = axa^{-1}$等价于$x = a^{-1}x'a$。因此，它是环 A 的自同构，称为与 $a$ 伴随的 *内自同构*。
 
-### 5.子环
+### 5. SUBRINGS
 
 #### 定义 3 {#alg-i-s8-def-3 .statement tag=05H9}
 
@@ -345,7 +345,7 @@ $$
 
 (4) 设$G$是带有运算符的可交换群；让$\Omega$表示运算符的集合，并在$G$上表示$\Omega$的$\alpha \mapsto f_\alpha$作用。令$E$为不带运算符$G$的群的自同态环，以及带运算符$G$的群的自同态的$F$集合。通过定义，$F$ 由自同态 $\phi$ 和 $G$ 组成，使得 $\phi \cdot f_\alpha = f_\alpha \cdot \phi$ 代表所有 $\alpha \in \Omega$。因此$F$是环$E$中的子环。 $F$ 被称为群的自同态环，运算符为 $G$ (cf. II, § 1, no. 2)。令$F_1$为由$f_\alpha$生成的$E$的子环。那么$F$就是$F_1$在$E$的中心化子。
 
-### 6.理想
+### 6. 理想
 
 #### 定义 4 {#alg-i-s8-def-4 .statement tag=05HB}
 
@@ -405,13 +405,13 @@ $$
 
 #### 命题 4 {#alg-i-s8-prop-4 .statement tag=05HG}
 
-*设$A$为环，$(a_\lambda)_{\lambda \in L}$为$A$的左理想族。 $\bigcup_{\lambda \in L} a_\lambda$ 生成的左理想由和 $\sum_{\lambda \in L} y_\lambda$ 组成，其中 $(y_\lambda)_{\lambda \in L}$ 是一个具有有限支撑的族，使得 $y_\lambda \in a_\lambda$ 对于所有 $\lambda \in L$。*
+*设$A$为环，$(a_\lambda)_{\lambda \in L}$为$A$的左理想族。 $\bigcup_{\lambda \in L} a_\lambda$ 生成的左理想由和 $\sum_{\lambda \in L} y_\lambda$ 组成，其中 $(y_\lambda)_{\lambda \in L}$ 是一个具有有限支撑的族，使得 $y_\lambda \in a_\lambda$ 代表所有 $\lambda \in L$。*
 
-对于所有 $\lambda \in L$，令 $a$ 为和 $\sum_{\lambda \in L} y_\lambda$ 的集合，其中$y_\lambda \in a_\lambda$。 公式 $\sum_{\lambda \in L} x_\lambda + \sum_{\lambda \in L} y_\lambda = \sum_{\lambda \in L} (x_\lambda + y_\lambda)$和$a \cdot \sum_{\lambda \in L} x_\lambda = \sum_{\lambda \in L} a x_\lambda$表明$a$是$A$的左理想。设$\lambda \in L$和$x \in a_\lambda$；将 $\mu \neq \lambda$ 写为 $y_\lambda = x$ 和 $y_\mu = 0$；然后$x = \sum_{\lambda \in L} y_\lambda$，从而$x \in a$，最后$a_\lambda \subset a$。如果对于所有 $\lambda \in L$ 都有一个左理想 $a'$ 包含 $a_\lambda$，则显然包含 $a$，因此 $a$ 由 $\bigcup_{\lambda \in L} a_\lambda$ 生成。
+对于所有 $\lambda \in L$，令 $a$ 为和 $\sum_{\lambda \in L} y_\lambda$ 中的集合，其中$y_\lambda \in a_\lambda$。 公式 $\sum_{\lambda \in L} x_\lambda + \sum_{\lambda \in L} y_\lambda = \sum_{\lambda \in L} (x_\lambda + y_\lambda)$和$a \cdot \sum_{\lambda \in L} x_\lambda = \sum_{\lambda \in L} a x_\lambda$表明$a$是$A$的左理想。设$\lambda \in L$和$x \in a_\lambda$；将 $\mu \neq \lambda$ 写为 $y_\lambda = x$ 和 $y_\mu = 0$；然后$x = \sum_{\lambda \in L} y_\lambda$，从而$x \in a$，最后$a_\lambda \subset a$。如果对于所有 $\lambda \in L$ 都有一个左理想 $a'$ 包含 $a_\lambda$，则显然包含 $a$，因此 $a$ 由 $\bigcup_{\lambda \in L} a_\lambda$ 生成。
 
 由$\bigcup_{\lambda \in L} a_\lambda$生成的理想$a$称为左理想*$a_\lambda$的*和，记为$\sum_{\lambda \in L} a_\lambda$（cf.II, § 1, no. 7）。特别地，两个左理想的和$a_1 + a_2$由和$a_1 + a_2$组成，其中$a_1 \in a_1$和$a_2 \in a_2$。
 
-### 7.商环
+### 7. 商环
 
 设$A$为环。如果$a$是$A$的双面理想，$A$的两个元素$x$和$y$被认为是*全等模*$a$，写作$x \equiv y$（模$a$）或$x \equiv y(a)$，如果$x - y \in a$。这是$A$的等价关系。 关系$x \equiv y(a)$和$x' \equiv y'(a)$意味着$x + x' \equiv y + y'(a)$，$a$的$xx' \equiv xy'(a)$是左理想，$xy' \equiv yy'(a)$对于$a$是右理想，从而$xx' \equiv yy'(a)$。相反，如果$R$在$A$上是等价关系，与加法和乘法兼容，则$x \equiv 0$ mod的集合$a$。 $R$ 是双面理想，$x \equiv y$ mod。 $R$ 相当于 $x \equiv y$ mod。 $a$。
 
@@ -457,29 +457,29 @@ $$
 (b) $f$ 的像 $B' = f(B)$ 是$B$ 的子环。
 (c) 令 $\pi : A \to A/a$ 和 $i : B' \to B$ 为规范的态射。 $A/a$到$B'$中存在且仅有一个态射$\bar{f}$，使得$f = i \circ \bar{f} \circ \pi$和$\bar{f}$是同构。
 
-因为$f$是$A$的加法群到$B$的态射，所以$a$是$A$的子群。如果$x \in a$和$a \in A$，则$f(ax) = f(a)f(x) = 0$，因此$ax \in a$，类似地$xa \in a$；因此$a$是$A$的双面理想。 断言 (b) 是显而易见的。由于$f$是$a$上的零，因此$A/a$中存在态射$\bar{f}$进入$B'$，使得$f = i \circ \bar{f} \circ \pi$（定理2）。 $\bar{f}$的唯一性以及$\bar{f}$是同构的事实源自集合理论，II, § 6, no. 4。
+由于$f$是$A$的加法群的态射到$B$的$a$是$A$的子群。如果$x \in a$和$a \in A$，则$f(ax) = f(a)f(x) = 0$，因此$ax \in a$，类似地$xa \in a$；因此$a$是$A$的双面理想。 断言 (b) 是显而易见的。由于$f$在$a$上是零，因此$A/a$中存在态射$\bar{f}$进入$B'$，使得$f = i \circ \bar{f} \circ \pi$（定理2）。 $\bar{f}$的唯一性以及$\bar{f}$是同构的事实源自集合理论，II, § 6, no. 4。
 
-### 8.子环和商环的理想
+### 8. 子环和商环的理想
 
 #### 命题 5 {#alg-i-s8-prop-5 .statement tag=05HK}
 
-令$A$和$A'$为$A$的两个环、$f$同态分解为$A'$和$f$的$a$核。
+令$A$和$A'$为$A$的两个环、$f$同态转化为$A'$和$f$的$a$核。
 (a) 设$B'$为$A'$中的子环。那么$B = f^{-1}(B')$就是$A$包含$a$中的子环。如果 $f$ 是满射，则当经过到 $B/a$ 的商同构到 $B'$ 时，$f(B) = B'$ 和 $f|_B$ 定义。
 (b) 令 $b'$ 为 $A'$ 的左（或右、两侧）理想。那么$b = f^{-1}(b')$是$A$包含$a$的左（或右，两侧）理想。
 
 (c) *如果$b'$是$A'$的双面理想，则规范态射$A' \to A'/b'$和$f : A \to A'$定义的复合映射，当经过为商时，单射态射$\bar{f}$ $A/b$ 变为 $A'/b'$。如果 $f$ 是满射，$\bar{f}$ 是 $A/b$ 的同构到 $A'/b'$。
 
-(d) *假设 $f$ 是满射。令 $\Phi$ 为 $A$ 包含 $a$ 的子环（分别为左理想、右理想、双边理想）中的集合。令 $\Phi'$ 为 $A'$ 的子环（分别为左理想、右理想、两侧理想）的集合。 映射 $B \to f(B)$ 和 $B' \mapsto \bar{f}(B')^{-1}$ 是 $\Phi$ 到 $\Phi'$ 的逆双射和 $\Phi'$ 到 $\Phi$。
+(d) *假设 $f$ 是满射。令 $\Phi$ 为 $A$ 包含 $a$ 的子环（分别为左理想、右理想、双边理想）的集合。令 $\Phi'$ 为 $A'$ 的子环（分别为左理想、右理想、两侧理想）中的集合。 映射 $B \to f(B)$ 和 $B' \mapsto \bar{f}(B')^{-1}$ 是 $\Phi$ 到 $\Phi'$ 的逆双射和$\Phi'$ 到 $\Phi$。
 
 (a) 和 (b) 是显而易见的，除了 (a) 的最后一个断言是从 no. 7、定理 3 得出的。
 
 (c) 中考虑的复合态射 $g : A \to A' \to A'/b'$ 具有核 $b$，因此 $\bar{f}$ 是 $A/b$ 到 $A'/b'$ 的单射态射 (§ 8, no. 7, 定理 3)。如果 $f$ 是满射，则 $g$ 是满射，因此 $\bar{f}$ 是满射。
 
-假设 $f$ 是满射。综上所述，映射$\theta : B' \mapsto \bar{f}(B')^{-1}$等于$\Phi'$的映射变成$\Phi$。显然，映射 $\eta : B \mapsto f(B)$ 是 $\Phi$ 的映射到 $\Phi'$。然后$\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$从而（d）。
+假设 $f$ 是满射。由上式可知，映射$\theta : B' \mapsto \bar{f}(B')^{-1}$等于$\Phi'$中的映射变成$\Phi$。显然，映射 $\eta : B \mapsto f(B)$ 是 $\Phi$ 的映射到 $\Phi'$。然后$\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$从而（d）。
 
 #### 注 {#alg-i-s8-n8-rem-1 .statement tag=05HL}
 
-上面的记号、$\theta$和$\eta$按集合同构排序（$\Phi$和$\Phi'$按包含排序）。
+在上面的记号、$\theta$和$\eta$中，集合同构排序（$\Phi$和$\Phi'$按包含排序）。
 
 #### 推论{#alg-i-s8-n8-cor-1 .statement tag=05HM}
 
@@ -491,7 +491,7 @@ $$
 
 ### 9. 乘法理想
 
-设$A$为环以及$a$和$b$$A$的两侧理想。 形式$x_1 y_1 + \cdots + x_n y_n$的元素的集合与$n \geq 0, x_i \in a$和$y_i \in b$对于$1 \leq i \leq n$，显然是$A$的双面理想，用$ab$表示，称为双面理想的*乘积* $a$ 和 $b$。在这个乘法下，$A$的双面理想的集合是一个幺半群，而单位元是双面理想$A$。如果$a, b, c$是$A$的两侧理想，则$a(b+c) = ab + ac, (b+c)a = ba + ca$。如果 $A$ 是可交换的，则乘法的理想也是可交换的。
+令$A$为环以及$a$和$b$$A$的两侧理想。 形式$x_1 y_1 + \cdots + x_n y_n$的元素的集合与$n \geq 0, x_i \in a$和$y_i \in b$对于$1 \leq i \leq n$，显然是$A$的双面理想，用$ab$表示，称为双面理想的*乘积* $a$ 和 $b$。在这个乘法下，$A$的双面理想的集合是一个幺半群，单位元是双面理想$A$。如果$a, b, c$是$A$的两侧理想，则$a(b+c) = ab + ac, (b+c)a = ba + ca$。如果 $A$ 是可交换的，则乘法的理想也是可交换的。
 
 $ab \subset aA \subset a$ 和 $ab \subset Ab \subset b$，因此
 
@@ -531,7 +531,7 @@ $$
 \subset \sum_{\tau \in S_n} b_{\tau(1)} b_{\tau(2)} \cdots b_{\tau(n)} \subset b_1 \cap b_2 \cap \cdots \cap b_n.
 $$
 
-### 10.乘积环
+### 10. 乘积 / 环
 
 设$(A_i)_{i \in I}$是环的一个家庭。设$A$为乘积集合$\prod_{i \in I} A_i$。在 $A$ 加法和乘法上由公式定义
 $$
@@ -559,13 +559,13 @@ e_{J \cup K} &= e_J + e_K & \text{for } J \subset I, K \subset I, J \cap K = \va
 \end{align*}
 $$
 
-让$A_J = \prod_{i \in J} A_i$。令$\eta_J$为$A$到$A_J$的规范投影。对于$x = (x_i)_{i \in J} \in A_J$，令$\varepsilon_J(x)$为$A$的元素$(y_i)_{i \in I}$，对于$i \in J$由$y_i = x_i$定义，对于$i \in I - J$由$y_i = 0_i$定义。那么$\eta_J$在$A_J$上就是$A$环同态，$\varepsilon_J$在$A$上和图表上就是$A_J$加法群单同态
+让$A_J = \prod_{i \in J} A_i$。令$\eta_J$为$A$到$A_J$的规范投影。对于$x = (x_i)_{i \in J} \in A_J$，令$\varepsilon_J(x)$为$A$的元素$(y_i)_{i \in I}$，对于$i \in J$由$y_i = x_i$定义，对于$i \in I - J$由$y_i = 0_i$定义。则$\eta_J$在$A_J$上是$A$环同态，$\varepsilon_J$在$A$上和图表上是$A_J$加法群单同态
 
 $$
 A_J \xrightarrow{\varepsilon_J} A \xrightarrow{\eta_{I-J}} A_{I-J}
 $$
 
-$\eta_{I-J}$的核$a_J$等于$\varepsilon_J$的像。那么$\varepsilon_J(xx') = \varepsilon_J(x)\varepsilon_J(x')$对于所有$x, x' \in A_J$；但$\varepsilon_J$不是一般的环同态对于$\varepsilon_J(1) = e_J$。显然$a_J = e_J A = A e_J$。
+$\eta_{I-J}$的核$a_J$等于$\varepsilon_J$的像。那么$\varepsilon_J(xx') = \varepsilon_J(x)\varepsilon_J(x')$对于所有$x, x' \in A_J$；但 $\varepsilon_J$ 并不是一般的环同态代表 $\varepsilon_J(1) = e_J$。显然$a_J = e_J A = A e_J$。
 
 让$e_{(i)} = e_i$和$a_i = a_{(i)} = e_i A = A e_i$代表所有$i \in I$。然后$e_i^2 = e_i$，
 
@@ -573,15 +573,15 @@ $$
 e_i e_j = e_j e_i = 0
 $$
 
-$i \neq j$。如果$I$是有限的，则$\sum_{i \in I} e_i = 1$、加法群、$A$是双面理想$a_i$的直和，如果$x \in A$其在$a_i$中的分量是$x e_i$。立即推导出以下命题。
+$i \neq j$。如果$I$是有限的，则$\sum_{i \in I} e_i = 1$、加法群、$A$是双面理想$a_i$的直和，并且如果$x \in A$其在$a_i$中的分量是$x e_i$。立即推导出以下命题。
 
 #### 命题 8 {#alg-i-s8-prop-8 .statement tag=05HP}
 
-*假设 $I$ 是有限的。如果 $b$ 是 $A$ 的左理想或右理想，则 $b$ 是 $b \cap a_i$ 的直和。*
+*假设 $I$ 是有限的。如果$b$是$A$的左理想或右理想，则$b$是$b \cap a_i$的直和。*
 
-### 11.直接分解环
+### 11. 直接分解 / 环
 
-设$A$为环和$(b_i)_{i \in I}$，$A$的双面理想族。我们将拨打同态
+设$A$为环和$(b_i)_{i \in I}$，$A$的双面理想族。我们会拨打同态
 
 $$
 x \mapsto (\phi_i(x))_{i \in I},
@@ -649,16 +649,16 @@ $\mathbf{Z}$的理想是$\mathbf{Z}$的子群的加法，因此形式$n.\mathbf{
 
 *设$n_1, \ldots, n_d$为整数$\geqslant 1$，它们在对和$n = n_1 \ldots n_r$互质。 $\mathbf{Z}$的典范同态进入乘积环$\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$是核$n\mathbf{Z}$和$\mathbf{Z}/n\mathbf{Z}$的定义环同构到$\prod_{i=1}^{r} \mathbf{Z}/n_i\mathbf{Z}$的满射。*
 
-让$a_i = n_i\mathbf{Z}$代表$i = 1, \ldots, r$。 假设，$a_i + a_j = \mathbf{Z}$ $i \neq j$。然后从命题 9 得出命题。
+让$a_i = n_i\mathbf{Z}$换成$i = 1, \ldots, r$。 假设，$a_i + a_j = \mathbf{Z}$ $i \neq j$。然后从命题 9 得出命题。
 
 上述结果以及有关分解到素数因子的结果，将推广到致力于研究主理想整环的章 VII, § 1 和致力于研究阶乘域的 *交换代数*、章 VII, § 3 中。
 
-### 12. 环的分数
+### 12. 环 / 分数
 
 #### 定理 4 {#alg-i-s8-thm-4 .statement tag=05HW}
 
-*设 A 为 A 的交换环，S 子集。设 $A_S$ 为 A 的分数的幺半群（仅提供乘法），分母为 S (§ 2, no. 4)。令 $\varepsilon : A \to A_S$ 为规范的态射。在$A_S$上存在且仅有一个加法满足以下条件：
-(a) $A_S$，加上加法及其乘法，就是交换环；
+*设 A 为 A 的交换环，S 子集。设 $A_S$ 为 A 的分数的幺半群（仅提供乘法），分母为 S (§ 2, no. 4)。让 $\varepsilon : A \to A_S$ 成为规范的态射。在$A_S$上存在且仅有一个加法满足以下条件：
+(a) $A_S$，加上这个加法及其乘法，就是交换环；
 (b) $\varepsilon$ 为环同态。*
 
 假设已经为 $A_S$ 满足条件 (a) 和 (b) 找到了加法。
@@ -669,7 +669,7 @@ $$
 x = \varepsilon(aq)\varepsilon(pq)^{-1}, \quad y = \varepsilon(bp)\varepsilon(pq)^{-1},
 $$
 
-whence
+从而
 
 (23)
 $$
@@ -680,9 +680,9 @@ x + y &= (\varepsilon(aq) + \varepsilon(bp))\varepsilon(pq)^{-1} \\
 \end{align*}
 $$
 
-这就证明了加法的唯一性。
+这就证明了唯一性或加法。
 
-我们现在 *定义* 加法在 $A_S$ 设定 $x + y = (aq + bp)/pq$。有必要证明这个定义不依赖于$a, b, p, q$的选择。现在，如果$a', b' \in A, p', q' \in S'$使得$x = a'/p', y = b'/q'$，则在$S'$中存在$s$和$t$使得$ap's = a'ps, bq't = b'qt$，从而
+我们现在*定义* 加法于$A_S$由设定$x + y = (aq + bp)/pq$。有必要证明这个定义不依赖于$a, b, p, q$的选择。现在，如果$a', b' \in A, p', q' \in S'$使得$x = a'/p', y = b'/q'$，则$S'$中存在$s$和$t$使得$ap's = a'ps, bq't = b'qt$，从而
 
 $$
 (aq + bp)(p'q')(st) = (a'q' + b'p')(pq)(st)
@@ -694,13 +694,13 @@ $$
 (aq + bp)/pq = (a'q' + b'p')/p'q'.
 $$
 
-It is easily verified that addition in $A_S$ is associative and commutative, that $0/1$ is identity element for addition, that $(-a)/p$ is the negative of $a/p$ and that $x(y + z) = xy + xz$ for all $x, y, z \in A_S$. 若$a, b \in A$，则
+很容易验证$A_S$中的加法是结合律和交换律，对于加法来说$0/1$是单位元素，$(-a)/p$是$a/p$的负数，对于所有$x, y, z \in A_S$来说$x(y + z) = xy + xz$。如果$a, b \in A$，那么
 
 $$
 \varepsilon(a + b) = (a + b)/1 = a/1 + b/1 = \varepsilon(a) + \varepsilon(b)
 $$
 
-因此$\varepsilon$是环同态。
+因此 $\varepsilon$ 是环同态。
 
 #### 定义 8 {#alg-i-s8-def-8 .statement tag=05HX}
 
@@ -710,13 +710,13 @@ $A[S^{-1}]$的零是$0/1$，$A[S^{-1}]$的单位是$1/1$。
 
 我们将回到*交换代数*、章II, § 2中$A[S^{-1}]$的属性。
 
-若$S$为$A$可取消元素集合，环$A[S^{-1}]$称为$A$的分数总环。然后通过映射 $\varepsilon$ 将$A$ 与 $A[S^{-1}]$ 的子环进行识别，然后它是单射的 (I, § 2, no. 4, 命题 6)。
+若$S$为$A$可取消元素集合，环$A[S^{-1}]$称为$A$的分数总环。然后通过映射 $\varepsilon$ 将$A$ 与$A[S^{-1}]$ 的子环进行识别，然后它是单射的 (I, § 2, no. 4, 命题 6)。
 
 #### 定理 5 {#alg-i-s8-thm-5 .statement tag=05HY}
 
-*设$A$为$A$的交换环、$S$子集、$B$环和$A$的$f$同态到$B$，使得每个$f(S)$ 的元素可逆。 $A[S^{-1}]$ 中存在且仅有一个 $\bar{f}$ 进入$B$，使得 $f = \bar{f} \circ \varepsilon$。*
+*设$A$为$A$的交换环、$S$子集、$B$环和$A$的$f$同态到$B$，使得每个$f(S)$ 的元素是可逆的。 $A[S^{-1}]$ 中存在且仅有一个 $\bar{f}$ 进入$B$，使得 $f = \bar{f} \circ \varepsilon$。*
 
-我们知道（§ 2, no. 4，定理 1），乘法幺半群$A[S^{-1}]$到乘法幺半群$B$之间存在且仅有一个态射$\bar{f}$使得$f = \bar{f} \circ \varepsilon$。设$a, b \in A, p, q \in S'$（由$S$生成的$A$的稳定乘法子幺半群）。由于$f(A)$的元素在对通勤，
+我们知道（§ 2, no. 4，定理 1），乘法幺半群$A[S^{-1}]$到乘法幺半群$B$之间存在且仅有一个态射$\bar{f}$使得$f = \bar{f} \circ \varepsilon$。令$a, b \in A, p, q \in S'$（由$S$生成的$A$的稳定乘法子幺半群）。由于$f(A)$的元素在对通勤，
 $$
 \bar{f}(a/p + b/q) = \bar{f}((aq + bp)/pq) = f(aq + bp)f(pq)^{-1}
 = (f(a)f(q) + f(b)f(p))f(p)^{-1}f(q)^{-1}
@@ -727,4 +727,4 @@ $$
 
 ### 习题{#alg-i-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

@@ -29,16 +29,16 @@ subsections:
       pdf_page: 45
 statements: 23
 exercises: 25
-content_sha256: 505f7f1fb1065a86a1bb8ec6895319008a189042f312d65ffbd261ffdd5c4c4c
+content_sha256: 8133804eb6068b31f2e3d90f6e596aa98f6ef346b8975ffd820a4c93ed1f7912
 translated_from: content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md
 translation_method: google
 source_content_sha256: f3bb356dcd01c2f124b6edbcb7551016f358669cd0b6cfe2c6628e4d9303177e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 758f10a23eac38a355b2d46b5f13fd2b9e9190b95e026593d0d03e81f29567ea
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 4。实变量的凸函数
@@ -57,17 +57,17 @@ e) $p(AC) \leq p(BC)$。
 
 当替换“之上”（或“之下”）乘以“严格之上”（或“严格之下”）且符号 $\leq$ 乘以 < 时，引理仍然成立（图 1）。
 
-![图表显示点 A、B、C 和段标记为 x 值 a、b、c](../images/fig_1.png)
+![显示用 x 值 a、b、c 标记的点 A、B、C 和段的图表](../images/fig_1.png)
 
 图1
 
-### 1.凸面的定义函数
+### 1. 定义凸面函数
 
 #### 定义 1 {#fvr-i-s4-def-1 .statement tag=085P}
 
 我们说，在区间 $I \subset \mathbf{R}$ 上定义的有限数值函数 $f$，在 $I$ 上是凸的，如果，无论 $I$ 的点 $x, x'$，($x < x'$)，每点 $M_z$ $f$的图$G$，使得$x \leq z \leq x'$位于线段$M_xM_{x'}$下方（或者，如果该线段的每个点位于$G$上方，结果相同）（图2）。
 
-![图表显示点 M_x、M_z、M_{x'} 和曲线 G](../images/fig_2.png)
+![显示点 M_x、M_z、M_{x'} 和曲线 G 的图表](../images/fig_2.png)
 
 图2
 
@@ -77,7 +77,7 @@ $$
 f(\lambda x + (1 - \lambda)x') \leq \lambda f(x) + (1 - \lambda)f(x')
 $$
 
-对于点中的每对、I中的$(x, x')$以及每$\lambda \in [0, 1]$。
+对于点中的每个对、I中的$(x, x')$以及每个$\lambda \in [0, 1]$。
 
 定义 1 等价于：*位于$f$的图G之上的$\mathbf{R}^2$中的点的集合是凸的*。事实上，这个条件显然足以让$f$在I上凸；这也是必要的，因为如果$f$在I上凸，并且$(x, y), (x', y')$是位于G上方的两个点，则其中一个有$y \geq f(x),\ y' \geq f(x')$，从中，对于$0 \leq \lambda \leq 1$，
 
@@ -141,11 +141,11 @@ $$
 
 注位于 def 之前。图 2 显示，对于凸函数 $f$ 在 $I$ 上严格凸，$I$ 中不包含任何区间（不减少到单个点）是必要且充分的，使得 $f$ 的限制与该区间是*仿射线性*。
 
-上述例中，第一个和第三个不是严格凸的；另一方面，$x^2$在$\mathbf{R}$上严格凸；类似的计算表明 $1/x$ 在 $[0, +\infty[$ 上严格凸。
+上面的例中，第一个和第三个不是严格凸的；另一方面，$x^2$在$\mathbf{R}$上严格凸；类似的计算表明 $1/x$ 在 $[0, +\infty[$ 上严格凸。
 
 #### 命题 1 {#fvr-i-s4-prop-1 .statement tag=085V}
 
-*令 $f$ 为区间 $I \subset \mathbf{R}$ 上的凸（或严格凸）有限实数函数。对于$p \geq 2$的每个家庭$(x_i)_{1 \leq i \leq p}$与$I$不同的点，以及$p$实数的每个家庭$(\lambda_i)_{1 \leq i \leq p}$，这样$0 < \lambda_i < 1$和$\sum_{i=1}^p \lambda_i = 1$，我们有*
+*令 $f$ 为区间 $I \subset \mathbf{R}$ 上的凸（或严格凸）有​​限实数函数。对于$p \geq 2$的每个家庭$(x_i)_{1 \leq i \leq p}$与$I$不同的点，以及$p$实数的每个家庭$(\lambda_i)_{1 \leq i \leq p}$，使得$0 < \lambda_i < 1$和$\sum_{i=1}^p \lambda_i = 1$，我们有*
 
 $$
 f\left( \sum_{i=1}^p \lambda_i x_i \right) \leq \sum_{i=1}^p \lambda_i f(x_i)
@@ -157,7 +157,7 @@ $$
 f\left( \sum_{i=1}^p \lambda_i x_i \right) < \sum_{i=1}^p \lambda_i f(x_i)).
 $$
 
-由于命题（对于凸函数）约化到不等式（1）对于$p = 2$，我们用归纳来论证$p > 2$。 数$\mu = \sum_{i=1}^{p-1} \lambda_i$为$> 0$；如果$a$和$b$分别是$x_i$的最小的和最大的，那么$a \leq \frac{\sum_{i=1}^{p-1} \lambda_i x_i}{\sum_{i=1}^{p-1} \lambda_i} \leq b$就是直接的；在其他字，点$x = \frac{1}{\mu} \sum_{i=1}^{p-1} \lambda_i x_i$属于到$I$，归纳假设暗示$\mu f(x) \leq \sum_{i=1}^{p-1} \lambda_i f(x_i)$；此外，从（1）我们有
+由于$p = 2$的命题（对于凸函数）约化到不等式（1），我们用归纳来论证$p > 2$。 数$\mu = \sum_{i=1}^{p-1} \lambda_i$为$> 0$；如果$a$和$b$是$x_i$的最小的和最大的，那么$a \leq \frac{\sum_{i=1}^{p-1} \lambda_i x_i}{\sum_{i=1}^{p-1} \lambda_i} \leq b$就是直接的；在其他字，点$x = \frac{1}{\mu} \sum_{i=1}^{p-1} \lambda_i x_i$属于到$I$，归纳假设意味着$\mu f(x) \leq \sum_{i=1}^{p-1} \lambda_i f(x_i)$；此外，从（1）我们有
 
 $$
 f\left( \sum_{i=1}^p \lambda_i x_i \right) = f(\mu x + (1 - \mu)x_p) \leq \mu f(x) + (1 - \mu)f(x_p) \leq \sum_{i=1}^p \lambda_i f(x_i).
@@ -173,17 +173,17 @@ $$
 
 （分别$f(\lambda x + (1 - \lambda)x') > \lambda f(x) + (1 - \lambda)f(x')$）。
 
-### 2.凸家族函数
+### 2. 凸族函数
 
 #### 命题 2 {#fvr-i-s4-prop-2 .statement tag=085W}
 
-令 $f_i$ ($1 \leq i \leq p$) 为 $p$ 在区间 $I \subset \mathbf{R}$ 上凸函数，且 $c_i$ ($1 \leq i \leq p$) 为 $p$ 任意正数；那么函数$f = \sum_{i=1}^p c_i f_i$在$I$上是凸的。此外，如果对于至少一个指标$j$函数$f_j$在$I$和$c_j > 0$上严格凸，则$f$在$I$上严格凸。
+Let $f_i$ ($1 \leq i \leq p$) be $p$ convex functions on an interval $I \subset \mathbf{R}$, and $c_i$ ($1 \leq i \leq p$) be $p$ arbitrary positive numbers; then the function $f = \sum_{i=1}^p c_i f_i$ is convex on $I$. 此外，如果对于至少一个指标 $j$ 函数 $f_j$ 在 $I$ 和 $c_j > 0$ 上严格凸，则 $f$ 在 $I$ 上严格凸。
 
-接下来紧接着将应用不等式 (1) （或 (2)） 与每个 $f_i$ 相乘，将 $f_i$ 的不等式乘以 $c_i$，然后逐项相加。
+接下来紧接着将应用不等式 (1)（或 (2)）与每个 $f_i$ 相乘，将 $f_i$ 的不等式乘以 $c_i$，然后逐项相加。
 
 #### 命题 3 {#fvr-i-s4-prop-3 .statement tag=085X}
 
-令 $(f_\alpha)$ 为区间 $I \subset \mathbf{R}$ 上的凸函数族；如果该族的上包络$g$在$I$的每个点处是有限的，则$g$在$I$上是凸的。
+设$(f_\alpha)$是区间$I \subset \mathbf{R}$上的凸函数族；如果该族的上包络$g$在$I$的每个点处是有限的，则$g$在$I$上是凸的。
 
 事实上，位于$g$图上方的点$(x, y) \in \mathbf{R}^2$的集合是位于函数$f_\alpha$图上方的点形成的凸集合的交；所以它是凸的。
 
@@ -193,11 +193,11 @@ $$
 
 要看到这一点，只需在不等式 (1) 中沿着 $\mathfrak{F}$ 传递到极限即可。
 
-### 3.凸函数的连续性和可微性
+### 3. 凸的连续性和可微性函数
 
 #### 命题 5 {#fvr-i-s4-prop-5 .statement tag=085Z}
 
-对于实数有限函数$f$在区间$I$上凸（或严格凸），对于所有$a \in I$梯度是必要且充分的
+对于实数有限函数$f$，在区间$I$上凸（或严格凸），对于所有$a \in I$，梯度是必要且充分的
 
 $$
 p(M_a M_x) = \frac{f(x) - f(a)}{x - a}
@@ -211,7 +211,7 @@ $I \cap \mathbf{C}\{a\}$ 上的$x$ 为递增（分别为严格递增的）函数
 
 令 $f$ 为区间 $I \subset \mathbf{R}$ 上的有限实数函数凸。那么在 $I$ 函数 $f$ 的每个内部点 $a$ 都是连续的，具有有限的右导数和左导数，以及 $f'_g(a) \leq f'_d(a)$。
 
-事实上，对于 $x \in I$ 和 $x > a$ 函数 $x \mapsto \frac{f(x) - f(a)}{x - a}$ 是递增 （命题 5）并且有界如下，因为如果 $y < a$ 和 $y \in I$ 我们有
+事实上，对于 $x \in I$ 和 $x > a$ 函数 $x \mapsto \frac{f(x) - f(a)}{x - a}$ 是递增 （命题 5）并且有界于下，因为如果 $y < a$ 和 $y \in I$ 我们有
 
 $$
 \frac{f(y) - f(a)}{y - a} \leq \frac{f(x) - f(a)}{x - a}
@@ -232,13 +232,13 @@ f'_d(a) \leq \frac{f(x) - f(a)}{x - a}
 $$
 (7)
 
-对于 $x \in I$ 和 $x > a$。在最后一个不等式中让$x$逼近$a$（$x > a$），我们得到$f'_g(a) \leq f'_d(a)$。 点$a$处左右导数的存在显然保证了$f$在此点的连续性。
+对于 $x \in I$ 和 $x > a$。在最后一个不等式中让$x$逼近$a$（$x > a$），我们得到$f'_g(a) \leq f'_d(a)$。 点$a$处左右导数的存在显然保证了$f$在点处的连续性。
 
 #### 推论 1 {#fvr-i-s4-prop-6-cor-1 .statement tag=0861}
 
 *令 $f$ 为 I 上的凸（或严格凸）函数；如果$a$和$b$是I的两个内部点，使得$a < b$其中一个有*（图3）
 
-![显示凸函数的图，其切线位于点 a 和 b，分别标记为 M_a 和 M_b。](../images/fig_3.png)
+![该图显示了凸函数，其切线位于点 a 和 b，分别标记为 M_a 和 M_b。](../images/fig_3.png)
 
 图3
 
@@ -281,15 +281,15 @@ $$
 #### 注 {#fvr-i-s4-n3-rem-1 .statement tag=0863}
 
 如果$f$是开区间I上的严格凸函数，则$f'_d$是I上的严格递增的，因此根据prop，存在三种可能的情况。 I、p. 13 中的 2 个：
-1. $f$ 是 I 上的严格递减；
+1. $f$在I上是严格递减；
 2. $f$在I上是严格递增的；
 3. 存在一个$a \in I$，使得$f$对于$x \leq a$来说是严格递减，对于$x \geq a$来说是严格递增的。
 
-当$f$在I上凸，但不是严格凸时，$f$可以在I所包含的区间上恒定；设$J = ]a, b[$为最大的开区间，其中$f$为常数（即$f'_d(x) = 0$所在区间的内部）；那么$f$在点$x \in I$形成的区间上是严格递减使得$x \leq a$（如果存在），严格递增的在点$x \in I$形成的区间上使得$x \geq b$（如果存在）。
+当$f$在I上凸，但不是严格凸时，$f$可以在I所包含的区间上恒定；设$J = ]a, b[$为最大的开区间，其中$f$为常数（即$f'_d(x) = 0$所在区间的内部）；那么$f$在点$x \in I$形成的区间上是严格递减，使得$x \leq a$（如果存在），严格递增的在点$x \in I$形成的区间上使得$x \geq b$（如果存在）。
 
-在所有情况下，我们都可以看到$f$在$I$（在$\overline{\mathbf{R}}$）的左端点拥有*右极限*，并且在右端点拥有*左极限*；这些极限可能是有限的或无限的（*cf.* I、p. 46、练习 5、6 和 7）。通过滥用语言，有时说，连续函数（$\overline{\mathbf{R}}$中的值）等于$I$内部的$f$，并通过连续性延伸到$I$的端点，是*$\overline{I}$上的*凸。
+在所有情况下，$f$在$I$（在$\overline{\mathbf{R}}$）的左端点拥有*右极限*，在右端点拥有*左极限*；这些极限可能是有限的或无限的（*cf.* I、p. 46、练习 5、6 和 7）。通过滥用语言，有时说，连续的函数（$\overline{\mathbf{R}}$中的值）等于$I$内部的$f$，并通过连续性延伸到$I$的端点，是*$\overline{I}$上的*凸。
 
-### 4. 判据凸性
+### 4. 判据用于凸性
 
 #### 命题 7 {#fvr-i-s4-prop-7 .statement tag=0864}
 
@@ -347,18 +347,18 @@ $$
 f(x) \leq \frac{1}{2} \left( f(x + h) + f(x - h) \right).
 $$
 
-我们只需证明条件 *足够*。事实上，如果在$f$的图G的点$M_a$处，线D局部位于G之上，那么它在这个点处局部位于G上；因为，在相反的情况下，对于例，点$M_{a+h}$将严格低于D，而点$M_{a-h}$将低于D：因此，线段$M_{a-h}M_{a+h}$的中点将严格高于D（图5），并且，由于假设，$M_a$将*更不必说* 严格低于 D，这是荒谬的。
+我们只需证明条件 *足够*。事实上，如果在$f$的图G的点$M_a$处，线D局部位于G之上，那么它在点处局部位于G上；因为，在相反的情况下，对于例，点$M_{a+h}$将严格低于D，而点$M_{a-h}$将低于D：因此，线段$M_{a-h}M_{a+h}$的中点将严格高于D（图5），并且由于假设，$M_a$将*更不必说* 严格低于 D，这是荒谬的。
 
-![显示凸函数与点 M_{a-h}、M_a、M_{a+h} 和标记为 D 的切线的图。](https://i.imgur.com/3Q5z5QG.png)
+![该图显示凸函数与点 M_{a-h}、M_a、M_{a+h} 和标记为 D 的切线。](https://i.imgur.com/3Q5z5QG.png)
 
 图5
 
 #### 推论 2 {#fvr-i-s4-prop-9-cor-2 .statement tag=086A}
 
-*令 $f$ 为在开区间 $I \subset \mathbf{R}$ 上定义的有限实数函数。如果对于每个点 $x \in I$ 都有一个开区间 $J_x \subset I$ 包含 $x$ 并且使得 $f$ 到 $J_x$ 的限制在 $J_x$ 上凸，那么 $f$ 在$I$.*
+*令 $f$ 为在开区间 $I \subset \mathbf{R}$ 上定义的有限实数函数。如果对于每个点 $x \in I$ 存在一个开区间 $J_x \subset I$ 包含 $x$ 并且使得 $f$ 到 $J_x$ 的限制在 $J_x$ 上凸，那么 $f$ 在$I$.*
 
 显然$f$满足prop的标准。 9.
 
 ### 习题 {#fvr-i-s4-exercises}
 
-§ 4](exercises/s4/)参见[习题。
+参见[习题为 § 4](exercises/s4/)。

@@ -37,21 +37,21 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: f63bbdbb639355e6620887852f284e26bff57038ed8be77560389eff0d290db8
+content_sha256: 64f7fb80d7653a7879611aa1968956eb46ee7788a9004cfd4569d94c25f4db88
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
 translation_method: google
 source_content_sha256: 4363fec5ea39b1d12c9673dd8324ba6983ab374b2f5f144cb72fb7d26d6dfd8e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: dced6682959ef3596947ebf7c25448482fd79eacc96d0f9c54d94566f9e634b1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。整合积极措施
 
-### 1. 空间措施中的函数和值
+### 1. 函数与值在空间措施中
 
 令 $X$ 为局部紧致空间，$\mathscr{M}_+(X)$ $X$ 上的正测度凸锥。在章的其余部分中，$\mathscr{M}_+(X)$将配备由$\mathscr{M}(X)$上模糊的拓扑引起的拓扑（第III, §1, No. 9）；因此，说局部紧致空间$T$到$\mathscr{M}_+(X)$的映射$\Lambda : t \mapsto \lambda_t$是连续的意味着，对于每个函数$f \in \mathscr{K}(X)$，数值函数$t \mapsto \lambda_t(f)$是连续的。在这种情况下，我们还可以说$\Lambda$在$T$上是模糊连续的。说映射$\Lambda : t \mapsto \lambda_t$是$\mu$可测意味着$T$的紧凑子集$K$的集合，使得$\Lambda$到$K$的限制模糊连续，是
 
@@ -161,13 +161,13 @@ $2^\circ$$\int^* f(x) d\nu_\alpha(x) = \int^* d\mu_\alpha(t) \int^* f(x) d\lambd
 
 *令 X 为具有可数基的局部紧凑空间。那么，在$\mathscr{K}(X)$中存在可数子集 S，具有以下性质：对于每个函数$f \in \mathscr{K}(X)$，存在S的元素的序列$(f_n)$和正函数$\varphi \in S$，使得，对于每个数 $\varepsilon > 0$，$|f_n - f| \leq \varepsilon \varphi$，前提是 n 为足够大。*
 
-令 $X'$ 为 X 的 Alexandroff 紧致化，它是一个可度量的紧致空间（GT、IX, §2, No. 9、Prop. 16 和 Cor.）；我们认同$\mathscr{K}(X)$与子集$\mathscr{C}(X')$。令 $S'$ 为 Banach 空间 $\mathscr{C}(X')$ (GT, X, §3, No. 3, Th. 1) 的可数稠密子集；我们可以假设对于每个$n \in \mathbf{N}$，$S'$包含都有常数函数$n$。令$(U_n)$为X中相对紧开集合的序列，且并X，使得$\overline{U}_n \subset U_{n+1}$对于所有n（GT，I, §9, No. 9，命题15），并令$\varphi_n$为$\mathscr{K}_+(X)$ 中的函数等于 $\overline{U}_n$ 上的 1。我们用S表示形式$\varphi_n g$（$n \in \mathbf{N}, g \in S'$）$\mathscr{K}(X)$的可数元素的集合。如果$f \in \mathscr{K}(X)$，令$(g_n)$为$S'$的元素的序列均匀​​收敛于$f$，令k为整数，使得$f$的支持度包含在$U_k$中。最后，令 m 为整数，即范数函数 $g_n$ 的上界。 函数 $f_n = \varphi_k g_n$ 属于至 S 和满足叙述，以及 $\varphi = m \varphi_k$。
+令 $X'$ 为 X 的 Alexandroff 紧致化，这是一个可度量的紧致空间（GT、IX, §2, No. 9、Prop. 16 和 Cor.）；我们认同$\mathscr{K}(X)$与子集$\mathscr{C}(X')$。令 $S'$ 为 Banach 空间 $\mathscr{C}(X')$ (GT, X, §3, No. 3, Th. 1) 的可数稠密子集；我们可以假设对于每个 $n \in \mathbf{N}$，$S'$ 包含都是常数函数 $n$。令$(U_n)$为X中相对紧开集合的序列，且并X，使得$\overline{U}_n \subset U_{n+1}$对于所有n（GT，I, §9, No. 9，命题15），并令$\varphi_n$为$\mathscr{K}_+(X)$中的函数等于$\overline{U}_n$中的1。我们用 S 表示形式 $\varphi_n g$ ($n \in \mathbf{N}, g \in S'$) 的$\mathscr{K}(X)$ 元素可数集合。如果$f \in \mathscr{K}(X)$，令$(g_n)$为$S'$的元素的序列一致收敛于$f$，并令k为整数，使得$f$的支持度包含在$U_k$中。最后，令 m 为整数，即范数函数 $g_n$ 的上界。 函数 $f_n = \varphi_k g_n$ 属于至 S 和满足叙述，以及 $\varphi = m \varphi_k$。
 
-引理已经成立，并且映射$t \mapsto \lambda_t(g)$本质上是$\mu$可积，对于T的每个$g \in S$，映射$t \mapsto (\lambda_t(g))_{g \in S}$到$\mathbf{R}^S$是$\mu$可测（第IV, §5, No. 3， 1）。 T 的紧致子集 K 的集合 $\mathscr{K}$，使得该映射到 K 的限制是连续的，因此是 $\mu$ 稠密的，并且足以证明 $\Lambda$ 的限制对于每个$K \in \mathscr{K}$是连续的。现在，令$f$为引理的S满足叙述的$\mathscr{K}(X)$、$f_n$和$\varphi$元素中的任意元素； 函数$t \mapsto \lambda_t(f)$则为连续函数$t \mapsto \lambda_t(f_n)$在K上的一致极限；因此它在 K 上连续，命题得证。
+引理已成立，并且映射 $t \mapsto \lambda_t(g)$ 对于 T 的每个 $g \in S$、映射 $t \mapsto (\lambda_t(g))_{g \in S}$ 本质上是 $\mu$ 可积为 $\mathbf{R}^S$ 的 $\mu$ 可测（第 IV, §5, No. 3、Th.1）。 T 的紧致子集 K 的集合 $\mathscr{K}$，使得该映射到 K 的限制是连续的，因此是 $\mu$ 稠密的，并且足以证明 $\Lambda$ 到每个 $K \in \mathscr{K}$ 的限制是连续的。现在，令$f$为引理的S满足叙述的$\mathscr{K}(X)$、$f_n$和$\varphi$元素中的任意元素； 函数$t \mapsto \lambda_t(f)$则为连续函数$t \mapsto \lambda_t(f_n)$在K上的一致极限；因此它在 K 上连续，命题得证。
 
 ### 2. 正函数的叠加积分
 
-对于截面的其余部分，如果没有明确指出相反的情况，我们将用X表示局部紧凑空间，用$\Lambda : t \mapsto \lambda_t$表示将T的$\mu$-充分的映射转化为$\mathscr{M}_+(X)$，并用$\nu$表示$\Lambda$。
+对于截面的其余部分，如果没有明确指出相反的情况，我们将用X表示局部紧凑的空间，用$\Lambda : t \mapsto \lambda_t$将T的$\mu$充分映射表示为$\mathscr{M}_+(X)$，并用$\nu$表示$\Lambda$的积分。
 
 #### 命题 3 {#int-v-s3-prop-3 .statement tag=0913}
 
@@ -184,25 +184,25 @@ $$
 \int^* f(x)\, d\nu(x) \geqslant \int^* d\mu(t) \int^* f(x)\, d\lambda_t(x).
 $$
 
-c) 如果 $\lambda_t^\bullet(1) < +\infty$ 局部$\mu$-几乎所有地方，那么
+c) 如果$\lambda_t^\bullet(1) < +\infty$局部$\mu$-几乎无处不在，那么
 
 $$
 \int^\bullet f(x)\, d\nu(x) \geqslant \int^\bullet d\mu(t) \int^* f(x)\, d\lambda_t(x) = \int^\bullet d\mu(t) \int^* f(x)\, d\lambda_t(x).
 $$
 
-令g为X上的下半连续函数，使得$f \leqslant g$。对于每$t \in T$，
+令 g 为 X 上的下半连续函数，使得 $f \leqslant g$。对于每个$t \in T$，
 
 $$
 \int^* f(x)\, d\lambda_t(x) \leqslant \int^* g(x)\, d\lambda_t(x),
 $$
 
-因此，根据(4)和§1的第4条命题，
+因此，根据(4)和§1的命题4，
 
 $$
 \int^\bullet d\mu(t) \int^* f(x)\, d\lambda_t(x) \leqslant \int^\bullet d\mu(t) \int^* g(x)\, d\lambda_t(x) = \int^* g(x)\, d\nu(x).
 $$
 
-第一个不等式 (6) 是从 $\int^* f(x)\, d\nu(x)$ 的定义得出的（第 IV, §1, No. 3，定义 3），第二个不等式紧接着从它得出。如果$\Lambda$是模糊连续的，则使用（5）而不是（4）来以类似的方式证明不等式（7）。
+然后，第一个不等式 (6) 从 $\int^* f(x)\, d\nu(x)$ 的定义得出（Ch. IV, §1, No. 3，定义 3），第二个不等式立即从它得出。如果$\Lambda$是模糊连续的，则使用（5）而不是（4）来以类似的方式证明不等式（7）。
 
 让我们转到 (8) 的证明。 映射 $t \mapsto \lambda_t^*(1)$ 是可测量的，并且局部有限 $\mu$ - 几乎无处不在。 $T$的紧致子集的集合$\mathscr{K}$，$t \mapsto \lambda_t^*(1)$到$K$的限制是有限且连续的，因此是$\mu$稠密，§2, No. 3的第4条意味着存在一个可和族$(\mu_\alpha)_{\alpha \in A}$积极措施，支持属于到$\mathscr{K}$，这样$\mu = \sum_{\alpha \in A} \mu_\alpha$。 映射 $\Lambda$ 是 $\mu_\alpha$ - 对于每个 $\alpha \in A$ 来说足够了； 集合$\nu_\alpha = \int \lambda_t d\mu_\alpha(t)$。命题 1 表明，将 $\nu = \sum_{\alpha \in A} \nu_\alpha$ 和关系 (4) 应用于测度 $\mu_\alpha$ 和函数 1，表明 $\nu_\alpha$ 是有界测度（因为 $\lambda_t^*(1)$ 在 $\operatorname{Supp}(\mu_\alpha)$ 上有界）。然后让我们将$\mu_\alpha$测度写成公式(6)，替换通过$\int^\bullet$第一个成员中的符号$\int^*$，这根据§1的第7条命题是合法的；然后
 
@@ -271,7 +271,7 @@ $$
 t \mapsto \int^\bullet f(x)\, d\lambda_t(x) \quad (\text{resp. } \int^* f(x)\, d\lambda_t(x))
 $$
 
-是 $\mu$ 可测的，并且公式 (9) (resp. (10)) 成立。最后，在b)的假设下，函数$t \mapsto \int^* f(x)\, d\lambda_t(x)$具有有限的上积分，因此确实是$\mu$调节的。
+是 $\mu$ 可测的，且公式 (9) (resp. (10)) 成立。最后，在b)的假设下，函数$t \mapsto \int^* f(x)\, d\lambda_t(x)$具有有限上积分，因此确实是$\mu$调节的。
 
 为了证明c），让我们再次采用第3条第证明的措施$\mu_\alpha$和$\nu_\alpha$；由于 $f$ 是 $\nu_\alpha$ 可测量且 $\nu_\alpha$ 可调节，断言 a) 意味着 $t \mapsto \int^\bullet f(x)\, d\lambda_t(x)$ 是 $\mu_\alpha$ 可测量，并且
 
@@ -279,7 +279,7 @@ $$
 \int^\bullet f(x)\, d\nu_\alpha(x) = \int^\bullet d\mu_\alpha(t) \int^\bullet f(x)\, d\lambda_t(x).
 $$
 
-它仅保留到$\alpha$、应用道具上的和。 §2, No. 2 的 1 和 2。
+它仅保留到 $\alpha$、应用道具上的和。 §2, No. 2 的 1 和 2。
 
 如果 $f$ 不被假定为 $\nu$ 调节的，并且如果在 c) 中没有得到假设，则关系 (9) 可能不成立（例 3）。
 
@@ -297,7 +297,7 @@ $$
 
 #### 定理 1 {#int-v-s3-thm-1 .statement tag=0919}
 
-— 设 $f$ 为函数，其中值在 Banach 空间 $F$ 或 $\overline{\mathbf{R}}$ 中，并令 $H$ 为 $t \in T$ 的集合，其中 $f$ 不是$\lambda_t$-可积。
+— 设 $f$ 为函数，其中值在 Banach 空间 $F$ 或 $\overline{\mathbf{R}}$ 中，并令 $H$ 为 $t \in T$ 的集合，其中$f$ 不是$\lambda_t$-可积。
 
 a) *如果 $f$ 是 $\nu$ 可积，则 $H$ 局部 $\mu$ 可忽略不计，函数 $t \mapsto \int f(x)\, d\lambda_t(x)$（为 $t \notin H$ 定义）本质上是 $\mu$ 可积，并且*
 
@@ -361,7 +361,7 @@ $$
 
 函数 $f$ 和 $f'$ 在局部 $\mu$ 上相等——几乎在任何地方。另一方面，对于 T 中的每个紧集 K，$N \cap K$ 是 K 的 Borel 子集，因为族 $(K_i)$ 是局部可数的。由此可见，N 是普遍可测的集合，$f'$ 是普遍可测的函数（第 IV, §5, No. 10 章，第 16 条命题）。
 
-### 5.扩散
+### 5. 扩散
 
 #### 定义 3 {#int-v-s3-def-3 .statement tag=091E}
 
@@ -434,7 +434,7 @@ $$
 
 #### 命题 12 {#int-v-s3-prop-12 .statement tag=091L}
 
-— *令$\mu$为$T$上属于对$\Lambda$域的正测度，并令$f$为$X$上定义的通用可测函数$\geq 0$。如果$f$针对测度$\mu \Lambda$进行调节，或者如果测度$\lambda_t$有界，则函数$\Lambda f$是$\mu$可测且*
+— *令$\mu$为$T$上属于对$\Lambda$域的正测度，并令$f$为在$X$上定义的通用可测函数$\geq 0$。如果$f$针对测度$\mu \Lambda$进行调节，或者如果测度$\lambda_t$有界，则函数$\Lambda f$是$\mu$可测且*
 
 $$
 \langle \mu \Lambda, f \rangle = \langle \mu, \Lambda f \rangle .
@@ -448,13 +448,13 @@ $$
 
 #### 命题 13 {#int-v-s3-prop-13 .statement tag=091N}
 
-— *令$T, X, Y$为三个局部紧凑空间，$\Lambda : t \mapsto \lambda_t$为$T$在$X$中的有界扩散，$H : x \mapsto \eta_x$为$X$在$Y$中的有界扩散。 映射$t \mapsto \lambda_t H$则为$T$在$Y$的有界扩散，用$\Lambda H$表示，并且*
+— *令$T, X, Y$为三个局部紧凑空间，$\Lambda : t \mapsto \lambda_t$为$T$在$X$中的有界扩散，$H : x \mapsto \eta_x$为$X$在$Y$中的有界扩散。那么映射$t \mapsto \lambda_t H$就是$T$在$Y$的有界扩散，用$\Lambda H$表示，并且*
 
 $$
 \| \Lambda H \| \leq \| \Lambda \| \| H \|.
 $$
 
-*令$f$为函数$\geq 0$定义在$Y$上，$\mu$为$T$上的测度。假设$\mu$属于到$\Lambda$的域，并且*μΛ属于到H的域；然后 μ 属于到 ΛH 的域，并且
+*令$f$为$Y$上定义的通用可测函数$\geq 0$，以及$\mu$为$T$上的测度。假设$\mu$属于到$\Lambda$的域，并且*μΛ属于到H的域；然后 μ 属于到 ΛH 的域，并且
 
 $$
 \langle \mu(\Lambda H), f \rangle = \langle \mu \Lambda, Hf \rangle = \langle \mu, \Lambda Hf \rangle;
@@ -464,7 +464,7 @@ $$
 (\mu \Lambda)H = \mu(\Lambda H); \quad \Lambda(Hf) = (\Lambda H)f.
 $$
 
-集合$\gamma_t = \lambda_t H$；我们将用T的$\Gamma$映射$\Lambda H$表示为$\mathscr{M}_+(Y)$，并用$\Gamma f$函数$t \mapsto \langle \gamma_t, f \rangle$（滥用记号，因为我们还不知道$\Gamma$是否是扩散）。然后$\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, Hf \rangle$乘以(13)；由于函数 $Hf$ 是正数并且在 X（第 12 条命题的修正）上普遍可测，因此它首先遵循 $\Gamma f = \Lambda(Hf)$，然后$\Gamma f$ 在 T 上普遍可测（相同的参考）。显然，所有$\gamma_t$的总质量最多等于$\| \Lambda \| \| H \|$。因而，$\Gamma g$ 是普遍可测的，并且对于每个函数 $g \in \mathscr{K}_+(Y)$ 都是有界的；因而，对于 T 上的每个有界测度，$\Gamma$ 本质上是可标量可积的，特别是对于具有紧凑支持的每个测度。更一般地，如果 $\mu$ 是 $\Lambda$ 域中的测度，使得 $\mu \Lambda$ 属于到 H 的域，那么，对于 $g \in \mathscr{K}_+(Y)$，
+集合$\gamma_t = \lambda_t H$；我们将用T的$\Gamma$映射$\Lambda H$表示为$\mathscr{M}_+(Y)$，并用$\Gamma f$函数$t \mapsto \langle \gamma_t, f \rangle$（滥用记号，因为我们还不知道$\Gamma$是否是扩散）。然后$\langle \gamma_t, f \rangle = \langle \lambda_t H, f \rangle = \langle \lambda_t, Hf \rangle$乘以(13)；由于函数 $Hf$ 是正数并且在 X（第 12 条命题的修正）上普遍可测，因此它首先遵循 $\Gamma f = \Lambda(Hf)$，然后 $\Gamma f$ 在 T 上普遍可测（相同的参考）。显然，所有$\gamma_t$的总质量最多等于$\| \Lambda \| \| H \|$。因而，$\Gamma g$ 是普遍可测的，并且对于每个函数 $g \in \mathscr{K}_+(Y)$ 都是有界的；因而，对于 T 上的每个有界测度，$\Gamma$ 本质上是可标量可积的，特别是对于具有紧凑支持的每个测度。更一般地，如果 $\mu$ 是 $\Lambda$ 域中的测度，使得 $\mu \Lambda$ 属于到 H 域，那么，对于 $g \in \mathscr{K}_+(Y)$，
 
 $$
 \langle \mu, \Gamma g \rangle = \langle \mu, \Lambda(Hg) \rangle = \langle \mu \Lambda, Hg \rangle = \langle (\mu \Lambda)H, g \rangle.
@@ -478,19 +478,19 @@ $$
 
 或者也$\mu \Gamma = (\mu \Lambda)H$，因为$g$在$\mathscr{K}_+(Y)$中是任意的。
 
-重新考虑普遍可测量的函数 $f \geqslant 0$。我们有
+重新考虑普遍可测量的函数$f \geqslant 0$。我们有
 
 $$
 \langle \mu \Gamma, f \rangle = \langle (\mu \Lambda)H, f \rangle = \langle \mu \Lambda, Hf \rangle = \langle \mu, \Lambda(Hf) \rangle = \langle \mu, \Gamma f \rangle.
 $$
 
-当$f$是下半连续并且$\mu$运行在紧支持的正测度集合上时，这些关系表示$\Gamma$是T在Y中的扩散。断言则只不过是明确在上述证明过程中获得的关系。
+当$f$是下半连续且$\mu$运行在紧支持的正测度集合时，这些关系表示$\Gamma$是T在Y中的扩散。断言则只不过是明确在上述证明过程中获得的关系。
 
 #### 定义 4 {#int-v-s3-def-4 .statement tag=091O}
 
 *记号是命题13的那些，扩散$\Lambda H$称为有界扩散H和$\Lambda$的组合扩散（或合成）。*
 
-令$X_1, X_2, X_3, X_4$分别为$X_2$中的$X_1$、$X_3$中的$X_2$、$X_4$中的$X_3$的四个局部紧致空间和$\Lambda_1, \Lambda_2, \Lambda_3$三个有界扩散。从第 13 条命题可以立即得出结论：
+令$X_1, X_2, X_3, X_4$分别为$X_2$中$X_1$、$X_3$中$X_2$、$X_4$中$X_3$的四个局部紧凑空间和$\Lambda_1, \Lambda_2, \Lambda_3$三个有界扩散。从第 13 条命题可以立即得出结论：
 
 $$
 (\Lambda_1 \Lambda_2) \Lambda_3 = \Lambda_1 (\Lambda_2 \Lambda_3).
@@ -516,4 +516,4 @@ $$
 
 ### 习题{#int-v-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

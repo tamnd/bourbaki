@@ -46,19 +46,19 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: d19ce9dab9162f9d61b851dcc99302caed1f731f7cd0ac4a5216a0f14f9098f9
+content_sha256: ded7307b975953747d6105dfdea47b45b7ccaa73b1d11bdc3868e47ccc8fd780
 translated_from: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md
 translation_method: google
 source_content_sha256: f366c2c3ce31096fbcd7ad9041a4e06384cc60f8e5e5fd661e93b1a5434b90dc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8508cb4b71f8ef39a37146f8fd921fffce0eb5763cae3a86b2aafc17624ee495
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 20。 线性表示代数
+## § 20。 线性表示 / 代数
 
 在这个截面中，K是交换环，A是K-代数。从No. 2开始，我们假设K是域，并用$A^*$表示向量空间A对K的对偶。在这个截面中，记号$A^*$永远不会指代环A的乘法群。
 
@@ -70,13 +70,13 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 我们也说对$(M, \pi )$是代数A的线性表示。当M是自由K-模时，M的维数称为$\pi$的次数（或维数）。
 
-令$\pi$为M中A的线性表示。M上的加法律和M上的外法则$(a, x)\mapsto \pi (a)(x)$定义左A-模结构，我们用$M_{\pi}$表示。我们说$M_{\pi}$是表示$\pi$中的模。 M 上的K-模结构是通过$M_{\pi}$ 上的A-模结构通过限制标量获得的。
+令$\pi$为M中A的线性表示。M上的加法律和M上的外法则$(a, x)\mapsto \pi (a)(x)$定义左A-模结构，我们用$M_{\pi}$表示。我们说$M_{\pi}$是表示$\pi$中的模。 M 上的K-模结构是通过$M_{\pi}$ 上的A-模结构通过标量限制获得的。
 
 相反，令 E 为左A-模。设 M 为从 E 通过从 A 到 K 的标量限制推导出来的 K-模，并令 $\pi$ 为从 A 到 End$_K(M)$ 的同态 $a\mapsto a_E$。那么$\pi$就是A在M中的表示，我们有$E = M_{\pi}$。我们说 $\pi$ 是线性表示与 A-模 E 相关联。
 
-研究 A 的 A-模或线性表示效果相同。我们会将模的某些定义翻译为线性表示的语言。
+研究 A 的 A-模或线性表示效果相同。我们将把模的某些定义翻译成线性表示的语言。
 
-令$\pi$为M中A的线性表示。同态$\pi$的核是A的双面理想，简单来说就是A-模$M_{\pi}$的湮没子。 同态 $\pi$ 是单射当且仅当 A-模 $M_{\pi}$ 忠实；然后我们说$\pi$是A的忠实表示。
+设$\pi$为M中A的线性表示。同态$\pi$的核是A的双面理想，简单来说就是A-模$M_{\pi}$的湮没子。 同态 $\pi$ 是单射当且仅当 A-模 $M_{\pi}$ 忠实；然后我们说$\pi$是A的忠实表示。
 
 令$(M, \pi )$和$(M', \pi ')$为A的线性表示。A-线性映射从$M_{\pi}$到$M'_{\pi'}$是满足关系的K-线性映射$u: M\rightarrow M'$
 
@@ -92,9 +92,9 @@ $$
 
 $a\in A$。如果 A-模 $M_{\pi}$ 和 $M'_{\pi'}$ 同构的，我们就说 $\pi$ 和 $\pi '$ 同构的。如果 $M_{\pi}$ 是 $M'_{\pi'}$ 的子模（分别是商模），我们就说 $\pi$ 是 $\pi '$ 的子表示（分别是表示）。
 
-假设给定 A 的线性表示的族$(M_i, \pi_i)$。令 M 为K-模，即 $M_i$ 的直和；对于任何$a\in A$，令$\pi (a)$为M的自同态$(x_i)_{i\in I}\mapsto (\pi_i(a)(x_i))_{i\in I}$。则$\pi$为M中A的线性表示。A-模$M_{\pi}$为A-模的直和 $(M_i)_{\pi}(i\in I)$；我们说$\pi$是$\pi_i$的直和，我们写成$\pi =\bigoplus\pi_{i^i}$。
+假设给定 A 的线性表示族$(M_i, \pi_i)$。设M为K-模，即$M_i$的直和；对于任何$a\in A$，令$\pi (a)$为M的自同态$(x_i)_{i\in I}\mapsto (\pi_i(a)(x_i))_{i\in I}$。则$\pi$为M中A的线性表示。A-模$M_{\pi}$为A-模的直和 $(M_i)_{\pi}(i\in I)$；我们说$\pi$是$\pi_i$的直和，我们写成$\pi =\bigoplus\pi_{i^i}$。
 
-如果 A-模 $M_{\pi}$ 是简单的，我们就说 M 中 A 的表示 $\pi$ 是简单的或不可约的；我们说 A 在 M 上的表示 $\pi$ 是半单或完全可约，如果 A-模 $M_{\pi}$ 是半单。
+如果 A-模 $M_{\pi}$ 是简单的，我们就说 M 中 A 的表示 $\pi$ 是简单的或不可约的；我们说 A 在 M 上的表示 $\pi$ 是半单，或者如果 A-模 $M_{\pi}$ 是半单，则完全可约。
 
 令$\pi$为M中A的线性表示。令$M^*$为K-模对偶M。映射$a\mapsto^t(\pi (a))$从$A^o$到End$_K(M^*)$是$\pi$的转置表示。
 
@@ -102,21 +102,21 @@ $a\in A$。如果 A-模 $M_{\pi}$ 和 $M'_{\pi'}$ 同构的，我们就说 $\pi$
 
 假设 K 为域，L 为非零的交换K-代数。
 
-设$\pi$和$\pi '$为代数A的线性表示。从VIII、p. 37、定理3可知，表示、$\pi$和$\pi '$同构当且仅当$\pi_{(L)}$和$\pi '_{(L)}$ 是。
+设$\pi$和$\pi '$为代数A的线性表示。从VIII，p. 37，定理3得出表示，$\pi$和$\pi '$同构当且仅当$\pi_{(L)}$ 和 $\pi '_{(L)}$ 是。
 
-假设K是域。令 L 为 K 的扩张。考虑 A-模的格罗滕迪克群 $R_K(A)$（分别为 $R_L(A_{(L)})$），它们是 K 上的有限维（分别是 $A_{(L)}$ 模，它们是 L 上的有限维）。我们已经看到群同态
+假设 K 为域。令 L 为 K 的扩张。考虑 A-模的格罗滕迪克群 $R_K(A)$（分别为 $R_L(A_{(L)})$），它们是 K 上的有限维（分别是 $A_{(L)}$ 模，它们是 L 上的有限维）。我们看到群同态
 
 $$
 u: R_K(A)\longrightarrow R_L(A_{(L)})
 $$
 
-由标量扩张定义是单射的；此外，当且仅当$u(\xi )$为(VIII，p. 195，定理 1)时，元素$\xi \in R_K(A)$才有效。
+由标量扩张定义是单射的；此外，当且仅当$u(\xi )$为（VIII，p. 195，定理 1）时，元素$\xi \in R_K(A)$才有效。
 
-### 2. 代数的限制对偶
+### 2. 代数限制对偶
 
 从现在开始我们假设 K 是域。
 
-对于$a\in A$，从A到A用$\boldsymbol{\gamma }(a)$映射$x\mapsto ax$和$\boldsymbol{\delta }(a)$映射$x\mapsto xa$表示。则$\boldsymbol{\gamma }$是A中A的线性表示，称为左正则表示；同样，$\boldsymbol{\delta }$是A中$A^o$的线性表示，称为（滥用语言）A的右正则表示。通过换位，我们从代数A和$A^o$的$\boldsymbol{\delta }$和$\boldsymbol{\gamma }$推出线性表示 $A^*$ 左A-模结构上的向量空间 $A^*$ 定义以及左$A^o$ 模块结构。这两个结构对应到$(A$，A)-双模结构在$A^*$上，外法则由公式定义
+对于$a\in A$，从A到A用$\boldsymbol{\gamma }(a)$映射$x\mapsto ax$和$\boldsymbol{\delta }(a)$映射$x\mapsto xa$表示，则$\boldsymbol{\gamma }$是A中A的线性表示，称为左正则表示；同样，$\boldsymbol{\delta }$是A中$A^o$的线性表示，称为（滥用语言）A的右正则表示。通过换位，我们从代数A和$A^o$的$\boldsymbol{\delta }$和$\boldsymbol{\gamma }$推出线性表示在向量空间$A^*$中$A^*$左A-模结构上的定义和左$A^o$模块结构。这两个结构对应到 $(A$，A)-双模结构在 $A^*$ 上，外法则由公式定义
 
 $$
 \langle af, b\rangle =\langle f, ba\rangle \tag{3}
@@ -126,17 +126,17 @@ $$
 \langle f a, b\rangle =\langle f, ab\rangle \tag{4}
 $$
 
-对于 $a, b,\in A$ 和 $f\in A^*$。
+$a, b,\in A$ 和 $f\in A^*$。
 
-回想一下 (II, §2, No. 4, p. 234, 定义 4)，如果 E 是 A 的线性子空间，则其在 $A^*$ 中的正交$E'$ 是 A 上线性形式的集合，而 A 的限制到 E 为零。同样地，$A^*$的线性子空间F在A中的正交$F'$是线性形式属于的核与F的交。
+回想一下 (II, §2, No. 4, p. 234, 定义 4)，如果 E 是 A 的线性子空间，则其在 $A^*$ 中的正交 $E'$ 是 A 上线性形式的集合，而 A 上的限制为零。同样地，$A^*$的线性子空间F在A中的正交$F'$是线性形式属于的核与F的交。
 
-我们知道(II, §7, No. 5,p. 299,定理7)从有限余维A的线性子空间集合到子空间的线性集合映射$\varphi : E\mapsto E'$为双射 $A^*$ 共有限维。逆映射 $\varphi^{-1}$ 将 $A^*$ 的有限维子空间 F 发送到 A 中与其正交的 $F'$。
+我们知道（II, §7, No. 5，p. 299，定理 7）映射$\varphi : E\mapsto E'$是从有限余维A的线性子空间的集合到集合的双射子空间 $A^*$ 有限维。逆映射$\varphi^{-1}$将$A^*$的有限维子空间F发送到A中的正交$F'$。
 
 #### 命题 1 {#alg-viii-s20-prop-1 .statement tag=00ME}
 
-a) 映射 $\varphi$ 诱导双射从 A 的有限余维的集合理想到右A-子模的集合（分别为左A-子模、子双模） $A^*$ 有限维超过 K。
+a) 映射 $\varphi$ 诱导双射从左（或右，两侧）集合有限余维到右 A-子模（或左）的集合理想K 上有限维的 $A^*$ 的A-子模、子双模)。
 
-b) 有限余维包含的 A 的每个左理想或右理想都是有限余维的两侧理想。
+b) A 有限余维包含的每个左理想或右理想有限余维的两侧理想。
 
 公式 (3)和(4)证明，若E是A的左理想，则$E'$是$A^*$的右A-子模；如果V是$A^*$的右A-子模，则$V'$是A的左理想。右理想和双边理想的情况类似地处理。这就证明了a）。
 
@@ -162,7 +162,7 @@ K-代数 A 的，记为 θ(A)，是有限余维 A 的两侧理想的正交线 $A
 
 K 上有限维的 $A^*$ 的两个 $(A$, A)-子双模的和在 K 上有有限维。因而，θ(A) 是 $A^*$ 的 $(A$, A)-子双模。
 
-### 3.模的系数
+### 3. Coefficients of a Module
 
 设E为左A-模。令 $E^*$ 为向量空间 E 与 K 的对偶；我们赋予它天然的右A-模结构。给定 E 的元素 $x$ 和 $E^*$ 的 $x^*$，我们用 $c_E(x, x^*)$ 线性形式表示
 
@@ -250,7 +250,7 @@ $$
 
 #### 命题 3 {#alg-viii-s20-prop-3 .statement tag=00ML}
 
-设$(V, \pi )$为代数A的有限维线性表示。$\pi$的核$\mathfrak{a}$是有限余维A的双面理想，$\Theta_{\pi}(A)$是$\mathfrak{a}$的正交$A^*$。 转置的映射 $\pi$ 定义同构，从K-向量空间 $\pi (A)$ 到 $\Theta_{\pi}(A)$ 的对偶。
+设$(V, \pi )$为代数A的有限维线性表示。$\pi$的核$\mathfrak{a}$是有限余维A的双面理想，$\Theta_{\pi}(A)$是$\mathfrak{a}$的正交$A^*$。 转置的映射 $\pi$ 定义同构从K-向量空间 $\pi (A)$ 到 $\Theta_{\pi}(A)$ 的对偶。
 
 由于 End$_K(V)$ 是有限维的，$K,\mathfrak{a}$ 是有限余维 A 的双面理想。 向量空间$\Theta_{\pi}(A)$是$A^*$的有限维子空间，其在A中的正交等于$\mathfrak{a}$；通过 II, §7, No. 5、p. 301、空间 $\Theta_{\pi}(A)$ 的定理 7 因此是 $\mathfrak{a}$ 在 $A^*$ 的正交。此外，由于$\mathfrak{a}$是$\pi$的核，映射$\pi$定义同构的转置从$\pi (A)$的对偶到$\mathfrak{a}$的正交$A^*$（II, §7, No. 5，p. 299，定理 5 的推论）。
 
@@ -316,29 +316,29 @@ b) $(A,A)$-双模块$\Theta_S(A)$很简单。
 
 让我们证明$S\otimes_DS^*$是一个简单的$(A$，A)-双模。根据VIII，p. 63的推论2，$S\otimes_DS^*$的每个$(A$，A)-子双模都是形式$S\otimes_DH$，其中H是$S^*$的$(D$，A)-子双模。由于 $S^*$ 是单右A-模 (VIII, p. 380, 定理 1, c))，我们有 H = 0 或 $H = S^*$；接下来是断言。
 
-同态$\lambda_S$是$(A$，A)-线性且非零的；由于 $S\otimes_DS^*$ 是简单的双模，因此 $\lambda_S$ 是单射 (VIII, p. 47, 命题 2, a))。
+同态$\lambda_S$是$(A$，A)-线性且非零的；由于 $S\otimes_DS^*$ 是简单的双模，$\lambda_S$ 是单射 (VIII, p. 47, 命题 2, a))。
 
 #### 注 {#alg-viii-s20-n5-rem-1 .statement tag=00MR}
 
-当域 K 是代数闭集时，我们有 D = K by VIII、p. 47 的定理 1，并且 $\lambda_S$ 是 $(A$ 的同构，A) 从 $S\otimes_KS^*$ 到 $\Theta_S(A)$ 的双模。
+当域 K 是代数闭时，我们有 D = K by VIII、p. 47 的定理 1，并且 $\lambda_S$ 是 $(A$ 的同构，A) 从 $S\otimes_KS^*$ 到 $\Theta_S(A)$ 的双模。
 
-### 6.表示的特征标
+### 6. 表示的特征标
 
-令 E 为 K 上有限维的左A-模。E 的特征标或 E 的迹，用 Tr$_E$ 表示，为线性形式 $a\mapsto$ Tr($a_E$)。令 $(e_1, . . . , e_n)$ 为 E 的基，$(e^*_1, . . . , e^*_n)$ 为对偶基。到定义，我们有关系
+令 E 为 K 上有限维的左A-模。E 的特征标或 E 的迹，用 Tr$_E$ 表示，为线性形式 $a\mapsto$ Tr($a_E$)。设 $(e_1, . . . , e_n)$ 为 E 的基，$(e^*_1, . . . , e^*_n)$ 为对偶基。到定义，我们有关系
 
-(7) Tr$_E=\sum_{i=1}^nc_E(e_i, e^*_i)$。
+（7）Tr$_E=\sum_{i=1}^nc_E(e_i, e^*_i)$。
 
 线性形式Tr$_E$属于至$\Theta_E(A)$。如果 E 和 $E'$ 是两个同构 A-模，我们有 Tr$_E=$ Tr$_{E'}$。所以Tr$_E$仅取决于E的同构类。
 
-令$\pi$为A在有限维的向量空间V在K上的线性表示。$\pi$或$\pi$的有时特征标的迹定义为A-模的特征标 $V_{\pi}$。我们用 Tr$_{\pi}$ 表示。如果$(e_1, . . . , e_n)$是K上V的基，并且对于这个基，如果$(\pi_{ij}(a))$是$\pi (a)$的矩阵，那么我们有
+令$\pi$为A在有限维的向量空间V在K上的线性表示。$\pi$或$\pi$的有时特征标的迹定义为特征标 A-模$V_{\pi}$。我们用 Tr$_{\pi}$ 表示。如果$(e_1, . . . , e_n)$是K上V的基，并且对于这个基，$(\pi_{ij}(a))$是$\pi (a)$的矩阵，那么我们有
 
-(8) Tr$_{\pi}(a) =\sum_{i=1}^n\pi_{ii}(a)$。
+（8）Tr$_{\pi}(a) =\sum_{i=1}^n\pi_{ii}(a)$。
 
 线性形式Tr$_{\pi}$属于至$\Theta_{\pi}(A)$。
 
 #### 命题 5 {#alg-viii-s20-prop-5 .statement tag=00MS}
 
-设 S 为 K 上有限维的单A-模，设 D 为 S 的交换子的对数域，设 Z 为 D 的中心。以下性质是等价的：
+令 S 为 K 上有限维的单A-模，令 D 为 S 的交换子的相反域，并令 Z 为 D 的中心。以下性质是等价的：
 
 (i) S 的特征标 Tr$_S$ 不是零。
 
@@ -461,25 +461,25 @@ $\chi_F(a; T)$ 由类似的公式给出。因为我们有假设，所以我们�
 
 Tr$_M(b) =$ Tr$_{A/K}(f(b))$
 
-以及两个类似的关系，其中替换 M 与 N 以及 $f$ 与 $g$。我们知道（VIII，p. 386，推论 1）B-模 M 和 N 是同构的，当且仅当对于每个$b\in \mathscr{B}$，我们都有 Pc$_M(b; X) =$ Pc$_N(b; X)$。当域 K 的特征为 0 时，这个关系也相当于对于每个 $b\in \mathscr{B}$ 的 Tr$_M(b) =$ Tr$_N(b)$（VIII，p. 384，命题 6 的推论）。当 K 具有特征 0 时，属性 (i) 和 (ii) 以及 (i) 和 (iii) 的等价如下。
+以及两个类似的关系，其中替换 M 与N 以及$f$ 与$g$。我们知道（VIII，p. 386，推论 1）B-模 M 和 N 是同构的，当且仅当我们对于每个 $b\in \mathscr{B}$ 都有 Pc$_M(b; X) =$ Pc$_N(b; X)$。当域 K 的特征为 0 时，这个关系也相当于对于每个 $b\in \mathscr{B}$ 的 Tr$_M(b) =$ Tr$_N(b)$（VIII，p. 384，命题 6 的推论）。当 K 具有特征 0 时，属性 (i) 和 (ii) 以及 (i) 和 (iii) 的等价如下。
 
 ### 7. 集合类模的系数
 
-令$\mathscr{C}$为A-模的类的遗传集合（VIII，p. 183，定义1）。我们假设型$\mathscr{C}$的每个A-模都是K上的有限维，并用型$\mathscr{C}$的A-模的系数$\Theta_{\mathscr{C}}(A)$集合表示。由VIII、p. 378、集合$\Theta_{\mathscr{C}}(A)$的命题2也是A-线性映射$u: E\rightarrow A^*$的像中的并，其中E经过$\mathscr{C}$；它也是子空间的并 $\Theta_E(A)$ $A^*$，其中 E 穿过$\mathscr{C}$（前述）。 $A^*$的$(A$，A)-子双模族$(\Theta_E(A))_{E\in\mathscr{C}}$是有向的，所以它的并$\Theta_{\mathscr{C}}(A)$是$(A$，A)-$A^*$的子双模。
+令$\mathscr{C}$为A-模的类的遗传集合（VIII，p. 183，定义1）。我们假设型$\mathscr{C}$的每个A-模都是K上的有限维，并用型$\mathscr{C}$的A-模的系数$\Theta_{\mathscr{C}}(A)$集合表示。由VIII、p. 378、集合$\Theta_{\mathscr{C}}(A)$的命题2也是A-线性映射$u: E\rightarrow A^*$的像的并，其中E穿过$\mathscr{C}$；它也是子空间 $\Theta_E(A)$ $A^*$ 的并，其中 E 穿过 $\mathscr{C}$（前述）。 $A^*$的$(A$，A)-子双模族$(\Theta_E(A))_{E\in\mathscr{C}}$是有向的，所以它的并$\Theta_{\mathscr{C}}(A)$是$(A$，A)-$A^*$的子双模。
 
 #### 命题 7 {#alg-viii-s20-prop-7 .statement tag=00MZ}
 
-当且仅当 K 上的有限维的 $A^*$ 的左A-子模包含在 $\Theta_{\mathscr{C}}(A)$ 中，当且仅当它是型 $\mathscr{C}$。
+K 上有限维的$A^*$ 的左A-子模包含在$\Theta_{\mathscr{C}}(A)$ 当且仅当它是型 $\mathscr{C}$ 时。
 
 令V为有限维的$A^*$在K上的左A-子模。我们在VIII、p. 379、注3中看到我们有$V\subset \Theta_V(A)$。如果V是型$\mathscr{C}$，那么我们有$\Theta_V(A)\subset \Theta_{\mathscr{C}}$（A），所以V包含在$\Theta_{\mathscr{C}}(A)$中。相反，假设V包含在$\Theta_{\mathscr{C}}(A)$中。由于$\Theta_{\mathscr{C}}(A)$是有向族$(\Theta_E(A))_{E\in\mathscr{C}}$的并，并且V是K上的有限维，因此存在型$\mathscr{C}$的模E，使得V包含在$\Theta_E(A)$中。现在，存在自然数$n$，使得$\Theta_E(A)$同构于$E^n$商（VIII，p. 378，命题2）。由于$\mathscr{C}$是遗传性的，V是型$\mathscr{C}$。
 
 #### 推论{#alg-viii-s20-n7-cor-1 .statement tag=00N0}
 
-设 E 为 K 上有限维的 A-模。则当且仅当 $\Theta_E(A)$ 包含在 $\Theta_{\mathscr{C}}(A)$ 中时，E 为型 $\mathscr{C}$。
+设 E 为 K 上有限维的 A-模。则 E 为型 $\mathscr{C}$ 当且仅当 $\Theta_E(A)$ 包含在 $\Theta_{\mathscr{C}}(A)$ 中。
 
 条件显然是必要的。
 
-相反，假设$\Theta_{\mathscr{C}}(A)$包含于$\Theta_E(A)$。 A-模 $\Theta_E(A)$ 是 K (VIII, p. 378, 命题 2) 上的有限维，因此它是型 $\mathscr{C}$ × 命题 7。现在，存在整数 $n\geqslant 0$ 使得 E 为同构于 $\Theta_E(A)^n$ (VIII, p. 378, 命题 2) 的A-子模。由于$\mathscr{C}$是遗传性的，所以E是型$\mathscr{C}$。
+相反，假设 $\Theta_{\mathscr{C}}(A)$ 包含于 $\Theta_E(A)$。 A-模 $\Theta_E(A)$ 是 K (VIII, p. 378, 命题 2) 上的有限维，因此它是型 $\mathscr{C}$ × 命题 7。现在，存在整数 $n\geqslant 0$使得E与$\Theta_E(A)^n$的A-子模同构（VIII，p. 378，命题2）。由于$\mathscr{C}$是遗传性的，所以E是型$\mathscr{C}$。
 
 ### 8. 余代数结构受限双轨
 
@@ -675,8 +675,8 @@ $$
 
 最后一个性质意味着E是一个拓扑A-模。
 
-令 $\Theta^*$ 为余代数 θ 的对偶代数。我们赋予$\Theta^*$最粗糙的拓扑，其中映射$\varphi \mapsto \varphi (u)$从$\Theta^*$到K，对于$u$穿过θ，是连续的。 代数上的拓扑 $\Theta^*$ 与$\Theta^*$ 上的加法群结构兼容。 形式$\Theta_E$(A)的集合$\Theta^*$的正交，其中E是型$\mathscr{C}$的A-模，形式邻域0的基本系统。现在，这样的集合是θ 的子余代数，因此其正交是 $\Theta^*$ 的理想。因此，$\Theta^*$ 上的拓扑与其环结构兼容。规范的代数同态 $\eta : A\rightarrow \Theta^*$（将 $a\in A$ 发送到 θ 上的线性形式 $f\mapsto f(a)$）定义同构来自 A 的完整 Hausdorff 空间 $\widehat{A}$（Gen. Top.， II, §3, No. 7、p. 191) 至 $\Theta^*$。
+令 $\Theta^*$ 为余代数 θ 的对偶代数。我们赋予$\Theta^*$最粗糙的拓扑，其中映射$\varphi \mapsto \varphi (u)$从$\Theta^*$到K，对于$u$穿过θ，是连续的。 代数上的拓扑 $\Theta^*$ 与$\Theta^*$ 上的加法群结构兼容。 形式$\Theta_E$(A)的集合$\Theta^*$的正交，其中E是型$\mathscr{C}$的A-模，形式邻域0的基本系统。现在，这样的集合是θ 的子余代数，因此其正交是$\Theta^*$ 的理想。因此，$\Theta^*$ 上的拓扑与其环结构兼容。规范的代数同态 $\eta : A\rightarrow \Theta^*$（将 $a\in A$ 发送到 θ 上的线性形式 $f\mapsto f(a)$）定义同构来自 A 的完整 Hausdorff 空间 $\widehat{A}$（Gen. Top.， II, §3, No. 7、p. 191) 至 $\Theta^*$。
 
 ### 习题 {#alg-viii-s20-exercises}
 
-§ 20](exercises/s20/)参见[习题。
+参见[习题为 § 20](exercises/s20/)。

@@ -49,29 +49,29 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: e2413fed206d04f068008ef1521fd745c91a43486b41a7af5cafc687220ddd16
+content_sha256: 2d90f7c219044d635e39a81e176a299299684196a4b76cf02a930bba7eb25303
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
 translation_method: google
 source_content_sha256: 4ac8e46f4200ac7e7f332753e43fe2ec6dc6c4857b2b82b1a42df8d051c7b1e2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 4fdafe7fd69f5667602a1318858b11d656e7de4e459a8cc7ac7abdfc3eae8f69
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## § 1。指数和循环函数的导数
+## § 1。指数和循环的导数函数
 
 ### 1. 指数函数的导数； 数$e$
 
-我们知道，加法群$\mathbf{R}$的每个连续同态到实数$\neq 0$的乘法群$\mathbf{R}^*$都是形式$x \mapsto a^x$的函数（称为指数函数），其中$a$是数$> 0$（TG，V，p.11）；如果$a \neq 1$，则为$\mathbf{R}$的同构到乘法群，数$> 0$的$\mathbf{R}_+^*$，而从$\mathbf{R}_+^*$到$\mathbf{R}$的逆同构用$\log_a x$表示，称为基 $a$ 的对数。
+我们知道，加法群$\mathbf{R}$的每个连续同态到实数$\neq 0$的乘法群$\mathbf{R}^*$都是形式$x \mapsto a^x$的函数（称为指数函数），其中$a$为数$> 0$（TG、V、p.11）；如果$a \neq 1$，则为$\mathbf{R}$的同构到乘法群，$\mathbf{R}_+^*$到数$> 0$，而从$\mathbf{R}_+^*$到$\mathbf{R}$的逆同构用$\log_a x$表示，称为基 $a$ 的对数。
 
 我们将看到，对于每个$x \in \mathbf{R}$，函数$f(x) = a^x$都有形式$c.a^x$的导数（显然是$c = f'(0)$）。这是由以下一般定理得出的结果：
 
 #### 定理 1 {#fvr-iii-s1-thm-1 .statement tag=089Q}
 
-*设 E 为域 $\mathbf{R}$ 上的完全范数代数，其中单位元 $\mathbf{e}$，并令 $\mathbf{f}$ 为加法群 $\mathbf{R}$ 到乘法群 G 的连续群同态 E 的可逆元。则映射 $\mathbf{f}$ 在每个 $x \in \mathbf{R}$ 处可微，并且*
+*设 E 为域 $\mathbf{R}$ 上的完全范数代数，其中单位元 $\mathbf{e}$，并令 $\mathbf{f}$ 为加法群 $\mathbf{R}$ 到乘法群 G 的连续群同态 E 的可逆元。则映射 $\mathbf{f}$ 在每个 $x \in \mathbf{R}$ 处可微，且*
 
 $$
 \mathbf{f}'(x) = \mathbf{f}(x)\mathbf{f}'(0).
@@ -91,19 +91,19 @@ $$
 
 因而，$f'(x) = g'(x)b^{-1} = f(x)c$，其中$c = (f(a) - e)b^{-1}$，显然是$f'(0) = c$。
 
-相反，可以直接证明（III，p. 115，练习1），或者通过线性微分方程理论（IV，p. 188），$\mathbf{R}$的每个可微的映射 f 都可以变成完全赋范的代数 E，使得$f'(x) = f(x)c$和$f(0) = e$，是加法群$\mathbf{R}$的同态变成乘法群G。
+相反，可以直接证明（III，p. 115，练习1），或者通过线性微分方程理论（IV，p. 188），$\mathbf{R}$的每个可微分映射 f 都可以变成完全赋范的代数 E，使得$f'(x) = f(x)c$和$f(0) = e$，是加法群$\mathbf{R}$的同态变成乘法群G。
 
 #### 命题 1 {#fvr-iii-s1-prop-1 .statement tag=089R}
 
 *对于每个数$a > 0$和$\neq 1$，指数函数$a^\lambda$在每个点$x \in \mathbf{R}$承认导数等于$(\log_e a)a^\lambda$，其中e是数$> 1$（独立于$a$).*
 
-应用th。 1 到 E 为域 $\mathbf{R}$ 的情况本身现在表明，$a^\lambda$ 在每个点处具有等于 $\varphi(a).a^\lambda$ 的导数，其中 $\varphi(a)$ 为实数 $\neq 0$ 仅取决于 $a$。设$b$为第二个数、$> 0$和$\neq 1$； 函数 $b^\lambda$ 的导数等于 $\varphi(b).b^\lambda$；另一方面，我们有$b^\lambda = a^\lambda \log_a b$，所以（I，p. 9，命题5）$b^\lambda$的导数等于$\log_a b.\varphi(a)b^\lambda$；比较这两个表达式我们得到
+应用th。 1 到 E 为域 $\mathbf{R}$ 的情况本身现在表明，$a^\lambda$ 在每个点处具有等于 $\varphi(a).a^\lambda$ 的导数，其中 $\varphi(a)$ 为实数 $\neq 0$ 仅取决于 $a$。令$b$为第二个数、$> 0$和$\neq 1$； 函数 $b^\lambda$ 的导数等于 $\varphi(b).b^\lambda$；另一方面，我们有$b^\lambda = a^\lambda \log_a b$，所以（I，p. 9，命题5）$b^\lambda$的导数等于$\log_a b.\varphi(a)b^\lambda$；比较这两个表达式我们得到
 
 $$
 \varphi(b) = \varphi(a).\log_a b.
 $$ (2)
 
-推断出存在一个唯一的数$b$使得$\varphi(b) = 1$；由（2）这个关系相当于$b = a^{1/\varphi(a)}$。通常用 e 表示实数；从 (2) 中，一个人有 $\varphi(a) = \log_e a$，这完成了道具的证明。 1.
+推断出存在一个唯一的数$b$使得$\varphi(b) = 1$；由（2）这个关系相当于$b = a^{1/\varphi(a)}$。通常用 e 表示实数；从（2）开始，一个人有$\varphi(a) = \log_e a$，这完成了道具的证明。 1.
 
 人们经常写$\exp x$而不是$e^x$。
 
@@ -121,7 +121,7 @@ $$ (3)
 
 *基 e 的对数称为 Naperian 对数（或自然对数）。*
 
-对于 Naperian 对数，我们通常在记号中省略基。 除非相反，记号 $\log x$ ($x > 0$) 将表示 $x$ 的*纳佩里安对数*。有了这个记号，道具。 1 可以写成恒等式
+对于 Naperian 对数，我们通常在记号中省略基。 除非相反，记号 $\log x$ ($x > 0$) 将表示 $x$ 的 *Naperian 对数*。有了这个记号，道具。 1 可以写成恒等式
 
 $$
 D(a^\lambda) = (\log a)a^\lambda
@@ -159,9 +159,9 @@ $$
 $$
 (8)
 
-### 2. $\log_a x$ 的导数
+### 2. $\log_a x$的导数
 
-由于$a^x$对于$a \neq 1$在$\mathbf{R}$上严格单调，应用微分逆函数的规则（I，p. 17，道具6）给出，对于所有$x > 0$
+由于对于 $a \neq 1$，$a^x$ 在 $\mathbf{R}$ 上严格单调，应用微分逆函数的规则（I，p. 17，道具 6）给出，对于所有 $x > 0$
 $$
 D(\log_a x) = \frac{1}{x \log a}
 $$
@@ -176,22 +176,22 @@ $$
 $$
 D(\log |x|) = -\frac{1}{|x|} = \frac{1}{x}
 $$
-如果$x < 0$；其他字，任何$x \neq 0$为$D(\log |x|) = 1/x$。一个结论，如果在区间$I$上，实函数$u$不是零并且允许有限导数，则$\log |u(x)|$允许在$I$上等于$u'/u$的导数；该导数称为 $u$ 的*对数导数*。可知$|u|^{\alpha}$的对数导数为$\alpha u'/u$，乘积的对数导数等于因子的对数导数的和；这些规则通常提供计算计算函数导数的最快方法。他们再次给予，特别是，公式
+如果$x < 0$；在其他字，$D(\log |x|) = 1/x$对于任何$x \neq 0$。一个结论，如果在区间$I$上，实函数$u$不是零并且允许有限导数，则$\log |u(x)|$允许在$I$上等于$u'/u$的导数；该导数称为 $u$ 的*对数导数*。可知$|u|^{\alpha}$的对数导数为$\alpha u'/u$，乘积的对数导数等于因子的对数导数的和；这些规则通常提供计算计算函数导数的最快方法。他们再次给予，特别是，公式
 $$
 D(x^{\alpha}) = \alpha x^{\alpha-1} \qquad (\alpha \text{ an arbitrary real number, } x > 0)
 $$
-另一个方法（II，p. 69）已经展示过。
+另一个方法 (II, p. 69) 已显示。
 
 #### 例 {#fvr-iii-s1-n2-exa-1 .statement tag=089U}
 
-如果 $u$ 在区间 $I$ 上是函数 $\neq 0$，且 $v$ 是任意实数函数，则 $\log(|u|^v) = v \cdot \log |u|$，因此如果 $u$ 和 $v$ 可微分
+如果$u$在区间$I$上是函数$\neq 0$，并且$v$是任意实数函数，则$\log(|u|^v) = v \cdot \log |u|$，所以如果$u$和$v$可微分
 $$
 \frac{1}{|u|^v} D(|u|^v) = v' \log |u| + v \frac{u'}{u}.
 $$
 
-### 3. 通函函数的衍生品； 数$\pi$
+### 3. 函数通函的衍生品； 数$\pi$
 
-我们已经定义了，一般的拓扑（*Gen.Top.*，VIII，p. 106），加法群$\mathbf{R}$的连续同态$x \mapsto \mathbf{e}(x)$到绝对值复数的乘法群$\mathbf{U}$ 值1；这是一个周期函数，主周期为 1，且$\mathbf{e}\left(\frac{1}{4}\right) = i$。人们知道（*loc.cit.*），$\mathbf{R}$到$\mathbf{U}$的每个连续同态都是形式$x \mapsto \mathbf{e}(x/a)$，并且人们将$\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$（*三角函数*，或*圆形函数*，到基 $a$);最后的函数是连续的映射，从$\mathbf{R}$到$[-1, +1]$，主要周期为$a$。我们有 $\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$，函数 $\sin_a x$ 是递增在区间 $[-a/4, a/4]$ 上。
+我们已经定义了，一般的拓扑（*Gen.Top.*，VIII，p. 106），绝对值的加法群$\mathbf{R}$到乘法群$\mathbf{U}$的连续同态$x \mapsto \mathbf{e}(x)$到复数值1；这是一个周期函数，主周期为 1，且$\mathbf{e}\left(\frac{1}{4}\right) = i$。人们知道（*loc.cit.*），$\mathbf{R}$到$\mathbf{U}$的每个连续同态都是形式$x \mapsto \mathbf{e}(x/a)$，并且人们将$\cos_a x = \mathscr{R}(\mathbf{e}(x/a)), \sin_a x = \mathscr{I}(\mathbf{e}(x/a))$（*三角函数*，或*圆形函数*，到基 $a$);最后的函数是从$\mathbf{R}$到$[-1, +1]$连续的映射，主要周期为$a$。我们有$\sin_a(x + a/4) = \cos_a x, \quad \cos_a(x + a/4) = -\sin_a x$，函数$\sin_a x$在区间$[-a/4, a/4]$上是递增。
 
 #### 命题 3 {#fvr-iii-s1-prop-3 .statement tag=089V}
 
@@ -207,7 +207,7 @@ $$
 D \left( e \left( \frac{x}{a} \right) \right) = \frac{2\pi i}{a} e \left( \frac{x}{a} \right).
 $$
 
-我们可以看到，当 $a = 2\pi$ 时，这个公式被简化了；这就是为什么人们只在数学分析中使用相对于基$2\pi$的循环函数；对于这些函数，我们同意在记号中省略基；与除非相反地明确提及，记号、$\cos x$、$\sin x$和$\tan x$分别表示$\cos_{2\pi} x$、$\sin_{2\pi} x$和$\tan_{2\pi} x$。
+可以看出，当 $a = 2\pi$ 时，公式得到了简化；这就是为什么人们只在数学分析中使用相对于基$2\pi$的循环函数；对于这些函数，我们同意在记号中省略基；与除非相反地明确提及，记号、$\cos x$、$\sin x$和$\tan x$分别表示$\cos_{2\pi} x$、$\sin_{2\pi} x$和$\tan_{2\pi} x$。
 
 根据这些约定，$a = 2\pi$、公式 (12) 可以写成
 
@@ -237,7 +237,7 @@ $$
 
 ### 4. 反圆函数
 
-函数 $\sin x$到区间$[-\pi/2, +\pi/2]$的限制为严格递增的； 1 用 $\operatorname{Arc}\sin x$ 表示其倒数，因此它是区间 $[-1, +1]$ 到 $[-\pi/2, +\pi/2]$ 的严格递增的连续映射（图 6）。 公式用于微分逆函数 (I, p. 9, 命题 6) 给出此函数的导数
+函数$\sin x$到区间$[-\pi/2, +\pi/2]$的限制为严格递增的； 1 用 $\operatorname{Arc}\sin x$ 表示其倒数，因此它是区间 $[-1, +1]$ 到 $[-\pi/2, +\pi/2]$ 的严格递增的连续映射（图 6）。 公式用于微分逆函数 (I, p. 9, 命题 6) 给出此函数的导数
 
 $$
 D(\operatorname{Arc}\sin x) = \frac{1}{\cos(\operatorname{Arc}\sin x)}.
@@ -276,7 +276,7 @@ $$
 \lim_{x \to -\infty} \operatorname{Arc tan} x = -\frac{\pi}{2}, \quad \lim_{x \to +\infty} \operatorname{Arc tan} x = \frac{\pi}{2},
 $$
 
-并且，通过应用公式对 III、p. 95 的逆函数和公式 (15) 进行微分，我们有
+并且，通过应用公式对 III、p. 95 的逆函数和公式 (15) 求微分，我们有
 
 $$
 \mathrm{D}\left( \operatorname{Arc tan} x \right) = \frac{1}{1 + x^2}.
@@ -438,7 +438,7 @@ $$
 $$
 公式概括了III、p. 93 的公式 (10)。
 
-### 8. 有理数原语函数
+### 8. 有理数函数的原语
 
 公式 (31) 允许我们使用实数或复数系数来计算实数变量 $x$ 的任意有理数函数 $r(x)$ 的原语。我们知道（A.VII.7）这样的函数可以（以独特的方式）写成项的有限和，即：
 
@@ -465,7 +465,7 @@ $$
 \frac{2}{1 + u^2} \int \left( \frac{2u}{1 + u^2}, \frac{1 - u^2}{1 + u^2} \right).
 $$
 
-### 9. 复杂循环函数；双曲线函数
+### 9. 复杂循环函数；双曲函数
 
 对于每个复数 $z$，欧拉的公式 (25) (III, p. 99) 和 $e^z$ 的定义允许我们定义扩展到 $\mathbf{C}$ 函数 $\cos x$ 和 $\sin x$ $\mathbf{R}$，通过放置，为所有$z \in \mathbf{C}$
 
@@ -580,8 +580,8 @@ $$
 \sinh z = \frac{1}{2} (e^z - e^{-z}) = -i \sin iz.
 $$
 
-这些函数因此是扩展到$\mathbf{C}$在$\mathbf{R}$上定义的双曲线函数。
+这些函数因此扩展到$\mathbf{C}$在$\mathbf{R}$上定义的双曲线函数。
 
 ### 习题{#fvr-iii-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

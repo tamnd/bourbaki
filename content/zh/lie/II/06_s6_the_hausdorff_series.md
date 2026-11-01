@@ -33,16 +33,16 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 6
-content_sha256: 386c2bfe43a8eb15f8ed9586f9f2056968c45cb2f2e7bbe01c4b505bf987619d
+content_sha256: e5a60f055131d9779fce9f912b1a6ea0247430f9de2aad0dd061e526131c5b73
 translated_from: content/en/lie/II/06_s6_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 415bac69237edc26c3196e7b8c6ae4c55426a40b051a938d4b7c3803c5c86eba
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 045ce1d28a980285113df13bed2fc27b294e56664d9ba15e5e83ab3024522ec9
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 6。豪斯多夫级数
@@ -73,9 +73,9 @@ $$
 
 *指数映射是 $m$ 到 $1 + m$ 的同胚，对数映射是逆同胚。*
 
-对于$x \in A_\alpha$，$\frac{x^n}{n!} \in A_{n\alpha}$。由此可见，定义指数的级数对于$\alpha > 0$均匀收敛于集合$A_\alpha$；由于$A_\alpha$在$m$和$m = \bigcup_{\alpha > 0} A_\alpha$开，所以指数映射是连续的。类似地可以证明对数映射是连续的。
+对于$x \in A_\alpha$，$\frac{x^n}{n!} \in A_{n\alpha}$。由此可见，定义指数的级数对于$\alpha > 0$均匀收敛于集合$A_\alpha$；由于$A_\alpha$在$m$和$m = \bigcup_{\alpha > 0} A_\alpha$开集，所以指数映射是连续的。类似地可以证明对数映射是连续的。
 
-设 $e$ 和 $l$ 为形式幂级数，没有常数项
+令 $e$ 和 $l$ 为形式幂级数，没有常数项
 
 $$
 e(X) = \sum_{n \geq 1} \frac{X^n}{n!}, \quad l(X) = \sum_{n \geq 1} (-1)^{n-1} X^n / n.
@@ -99,7 +99,7 @@ $$
 \log \exp x = x, \quad \exp \log(1 + x) = 1 + x
 $$
 
-对于$x$在$m$，从而命题。
+$x$ $m$、从而命题。
 
 #### 注 {#lie-ii-s6-n1-rem-1 .statement tag=0A62}
 
@@ -125,41 +125,41 @@ $$
 \log b = \sum_{n \geq 1} (-1)^{n-1} (b - 1)^n / n.
 $$
 
-我们从关系$e(l(X)) = l(e(X)) = X$推出映射$a \mapsto \exp a$是E的幂零元的集合的双射到E的单能元素的集合，并且$b \mapsto \log b$是逆映射。
+我们从关系$e(l(X)) = l(e(X)) = X$推出映射$a \mapsto \exp a$是E的幂零元的集合的双射到E的单能元素的集合，并且$b \mapsto \log b$是映射的逆。
 
-### 2.豪斯多夫群
+### 2. 豪斯多夫群
 
-设X为集合。我们使用记号或§ 5，没有。 1 和 2. 自由的李代数 L(X) 被识别为 A(X) 中的典范像 (§ 3, no. 1, 定理 1)。我们用$\hat{L}(X)$表示$\hat{A}(X)$中L(X)的闭包，即形式$a = \sum_{n \geq 1} a_n$的$\hat{A}(X)$的元素的集合，使得$a_n \in L^n(X)$对于所有$n \geq 0$；这是过滤了$\hat{A}(X)$的谎言子代数。
+设X为集合。我们使用§ 5的记号，没有。 1 和 2. 自由的李代数 L(X) 由 A(X) 中的典范像标识 (§ 3, no. 1, 定理 1)。我们用$\hat{L}(X)$表示$\hat{A}(X)$中L(X)的闭包，即形式$a = \sum_{n \geq 1} a_n$的$\hat{A}(X)$的元素的集合，使得$a_n \in L^n(X)$对于所有$n \geq 0$；这是过滤了$\hat{A}(X)$的谎言子代数。
 
 #### 定理 1 {#lie-ii-s6-thm-1 .statement tag=0A63}
 
-*$\hat{A}(X)$到$\hat{L}(X)$的指数映射的限制是$\hat{L}(X)$的双射到马格努斯群$\Gamma(X)$的闭子群。*
+*$\hat{A}(X)$到$\hat{L}(X)$的指数映射的限制是$\hat{L}(X)$的双射到马格努斯群$\Gamma(X)$的闭子群上。*
 
-我们写$A(X) = A, A^n(X) = A^n, \hat{A}(X) = \hat{A}, L^n(X) = L^n, \hat{L}(X) = \hat{L}, \Gamma(X) = \Gamma$。令 B 为代数 $A \otimes A$，型 $\mathbf{N}$ 的分级由 $B^n = \sum_{i+j=n} A^i \otimes A^j$ 定义。令 $\hat{B} = \prod_{n \geq 0} B^n$ 为关联的完整过滤代数 (*交换代数*, 章 III, § 2, no. 12, *例* 1)。 § 3, no. 1中定义的余积$c : A \to A \otimes A$，推论1到定理1的等级为次数0，因此扩展通过连续性到同态$\hat{c} : \hat{A} \to \hat{B}$给出：
+我们写$A(X) = A, A^n(X) = A^n, \hat{A}(X) = \hat{A}, L^n(X) = L^n, \hat{L}(X) = \hat{L}, \Gamma(X) = \Gamma$。令 B 为代数 $A \otimes A$，型 $\mathbf{N}$ 的分级由 $B^n = \sum_{i+j=n} A^i \otimes A^j$ 定义。令 $\hat{B} = \prod_{n \geq 0} B^n$ 为关联的完整过滤代数 (*交换代数*, 章 III, § 2, no. 12, *例* 1)。 余积$c : A \to A \otimes A$在§ 3, no. 1中定义，推论1到定理1的等级为次数0，因此扩展通过连续性到同态$\hat{c} : \hat{A} \to \hat{B}$给出：
 
 $$
 \hat{c}\left( \sum_{n \geq 0} a_n \right) = \sum_{n \geq 0} c(a_n) \quad \text{for } a_n \in A^n.
 $$
 
-我们还将定义连续同态$\delta'$和$\hat{A}$的$\delta''$转化为$\hat{B}$
+我们还将$\hat{A}$的定义连续同态$\delta'$和$\delta''$转化为$\hat{B}$
 
 $$
 \delta'\left( \sum_{n \geq 0} a_n \right) = \sum_{n \geq 0} (a_n \otimes 1), \qquad \delta''\left( \sum_{n \geq 0} a_n \right) = \sum_{n \geq 0} (1 \otimes a_n) \quad \text{for } a_n \in A^n.
 $$
 
-根据推论2到§ 3, no. 1的定理1，$L^n$是$a_n \in A^n$的集合，使得$c(a_n) = a_n \otimes 1 + 1 \otimes a_n$。由此可见，$\hat{L}$ 是 $a \in \hat{A}$ 的集合，使得
+根据§ 3, no. 1的推论2到定理1，$L^n$是$a_n \in A^n$的集合，使得$c(a_n) = a_n \otimes 1 + 1 \otimes a_n$。由此可知 $\hat{L}$ 是 $a \in \hat{A}$ 的集合，使得
 
 $$
 \hat{c}(a) = \delta'(a) + \delta''(a).
 $$
 
-令$\Delta$为等于1的常数项的$b \in \hat{A}$和满足关系的集合
+令 $\Delta$ 为等于 1 的常数项的 $b \in \hat{A}$ 和满足关系的集合
 
 $$
 \hat{c}(b) = \delta'(b) \cdot \delta''(b),
 $$
 
-在$b = \sum_{n \geq 0} b_n$的其他字、集合中，使得$b_n \in \mathbf{A}^n$适用于所有$n \geq 0$，$b_0 = 1$和$c(b_n) = \sum_{i+j=n} b_i \otimes b_j$适用于$n \geq 0$。后者刻画表明$\Delta$是$\Gamma$的闭子集；因为$\hat{\epsilon}$、$\delta'$和$\delta''$是环同态，并且$\delta'(\hat{\mathbf{A}})$中的每个元素与$\delta''(\hat{\mathbf{A}})$、限制中的每个元素通勤到映射$c$中的$\Gamma$和$\delta'\delta''$是群同态并且$\Delta$是$\Gamma$中的子群。
+在$b = \sum_{n \geq 0} b_n$的其他字、集合中，使得$b_n \in \mathbf{A}^n$对于所有$n \geq 0$，$b_0 = 1$和$c(b_n) = \sum_{i+j=n} b_i \otimes b_j$对于$n \geq 0$。后者刻画表明$\Delta$是$\Gamma$的闭子集；因为 $\hat{\epsilon}$、$\delta'$ 和 $\delta''$ 分别为环同态，$\delta'(\hat{\mathbf{A}})$ 的每元素与 $\delta''(\hat{\mathbf{A}})$ 的每元素、限制到 $\Gamma$ 通勤映射$c$和$\delta'\delta''$是群同态，$\Delta$是$\Gamma$的子群。
 
 By Proposition 1 of no. 1, the exponential mapping of $\hat{\mathbf{A}}$ is a bijection of the set $\hat{\mathbf{A}}^+$ of elements of $\hat{\mathbf{A}}$ with no constant term onto $\Gamma$. 设$a \in \hat{\mathbf{A}}^+$和$b = \exp a$。 由于$\hat{\epsilon}$是连续的环同态，
 
@@ -226,11 +226,11 @@ $$
 $$
 对于同态 $\sigma \circ \hat{f}_t$ 是连续的，对于$i \in I$，映射 $T_i$ 到 $\sigma(t_i)$。
 
-令$u = (u_j)_{j \in J}$是$\hat{L}(I)$的元素的*有限*族，并令$v \in \hat{L}(J)$；将$v$中的$u_j$替换为$T_j$，我们得到$\hat{L}(I)$的元素$w = v((u_j)_{j \in J})$，用$v \circ u$表示。然后
+令$u = (u_j)_{j \in J}$是$\hat{L}(I)$的元素的*有限*族，并令$v \in \hat{L}(J)$；将$v$中的$T_j$替换为$u_j$，我们得到$\hat{L}(I)$的元素$w = v((u_j)_{j \in J})$，用$v \circ u$表示。然后
 $$
 w((t_i)_{i \in I}) = v((u_j((t_i)_{i \in I}))_{j \in J})
 $$
-对于$g$的元素的每个“有限”族$t = (t_i)_{i \in I}$，正如通过在方程$w = v((u_j)_{j \in J})$上使用连续的同态$\hat{f}_t$操作可以看到的。
+对于$g$的元素的每个“有限”族$t = (t_i)_{i \in I}$，正如通过在方程$w = v((u_j)_{j \in J})$上使用连续的同态$\hat{f}_t$进行操作所看到的那样。
 
 设$u = \sum_{\nu \in \mathbf{N}^{I}} u_\nu \in \hat{L}(I)$，其中$u_\nu \in L^\nu(I)$。 $g^I$到$g$的映射$\tilde{u}$$(t_i) \mapsto u((t_i))$是*连续的*：对于每个开集合$g_\alpha$和$\alpha > 0$$\tilde{u}_\alpha$的族是一致可求的，并且足以证明每个$\tilde{u}_\nu$ 是连续的，即 $|\nu|$ 上的直接的乘归纳。
 
@@ -242,7 +242,7 @@ $$
 
 #### 定义 1 {#lie-ii-s6-def-1 .statement tag=0A67}
 
-*元素* $H = U \circledast V = \log(\exp U \cdot \exp V)$ (no. 2) *李代数* $\hat{L}_\mathbf{Q}(\{U, V\})$ *被称为不定式* U * 和* V 中的 Hausdorff 级数。
+*元素* $H = U \circledast V = \log(\exp U \cdot \exp V)$ (no. 2) *李代数* $\hat{L}_\mathbf{Q}(\{U, V\})$ *在不定式* U * 和* V 中称为 Hausdorff 级数。
 
 我们用$H_n$（或$H_{r,s}$）表示总次数 n（或$(r, s)$）中H的齐次分量。然后
 
@@ -268,7 +268,7 @@ $$
 \left( \prod_{i=1}^{m-1} \frac{(\mathrm{ad}\, U)^{r_i}}{r_i!} \frac{(\mathrm{ad}\, V)^{s_i}}{s_i!} \right) (U).
 $$
 
-在$\hat{A}_\mathbf{Q}(\{U, V\})$，$\exp U \cdot \exp V = 1 + W$，其中$W = \sum_{r+s \geq 1} \frac{U^r V^s}{r! s!}$，从而
+在$\hat{A}_\mathbf{Q}(\{U, V\})$、$\exp U \cdot \exp V = 1 + W$，其中$W = \sum_{r+s \geq 1} \frac{U^r V^s}{r! s!}$、从而
 
 $$
 H = \sum_{m \geq 1} (-1)^{m-1} W^m / m \text{ (no. 2)}, \text{ that is:}
@@ -325,9 +325,9 @@ $$
 
 ### 5. 代换在豪斯多夫级数
 
-由于 $K$ 是域包含 $\mathbf{Q}$，因此 Hausdorff 级数可以被视为李形式幂级数，系数为 $K$。因此，如果$g$是用$g = \bigcup_{\alpha > 0} g_\alpha$进行完整Hausdorff过滤的李代数，则$g$中的$a, b$，$a$和$b$可以替代$H$中的$U$和$V$ （cf.no. 3和§ 2, no. 5、注）。
+由于 $K$ 是域包含 $\mathbf{Q}$，因此 Hausdorff 级数可以被视为李形式幂级数，系数为 $K$。因此，如果$g$是一个完整的Hausdorff过滤李代数和$g = \bigcup_{\alpha > 0} g_\alpha$，那么对于$g$中的$a, b$，$a$和$b$可以替代$H$中的$U$和$V$ （cf.no. 3和§ 2, no. 5、注）。
 
-特别地，令 $A$ 为完整的豪斯多夫过滤单位联想代数。我们将$\alpha \in \mathbf{R}$写为$m = \bigcup_{\alpha > 0} A_\alpha$和$m_\alpha = A_\alpha \cap m$；因此$m_\alpha = A_\alpha$对应$\alpha > 0$，$m_\alpha = m$对应$\alpha \leqslant 0$。加上括号$[a, b] = ab - ba$，$m$是完整的Hausdorff滤波李代数，可以应用上面的内容。有了这个记号，我们就得到了以下结果，它完成了no. 1的命题 1。
+特别地，令 $A$ 为完整的豪斯多夫过滤单位联想代数。我们将$\alpha \in \mathbf{R}$写为$m = \bigcup_{\alpha > 0} A_\alpha$和$m_\alpha = A_\alpha \cap m$；因此$m_\alpha = A_\alpha$对应$\alpha > 0$，$m_\alpha = m$对应$\alpha \leqslant 0$。加上括号$[a, b] = ab - ba$，$m$是一个完整的Hausdorff过滤的李代数，可以应用上面的内容。有了这个记号，我们就得到了以下结果，它完成了no. 1的命题 1。
 
 #### 命题 3 {#lie-ii-s6-prop-3 .statement tag=0A6A}
 
@@ -380,7 +380,7 @@ a \mathbin{\mathbf{h}} b = H(a, b) \quad \text{for } a, b \text{ in } \hat{L}(X)
 $$
 因此 Hausdorff 群运算由 Hausdorff 级数给出。
 
-(3) 令 $g$ 为李代数，并由下中央级数定义积分过滤 ($\mathscr{C}^n g$)。假设存在$m \geq 1$使得$\mathscr{C}^m g = \{0\}$。 拓扑源自过滤$(\mathscr{C}^n g)_{n \geq 1}$，李代数$g$是Hausdorff，完整甚至离散。然后$P(a_1, \ldots, a_r) = 0$对于$g$中的$a_1, \ldots, a_r$以及次数$\geq m$的每个齐次李多项式$P$；特别是，$H_{r,s}(a, b) = 0$对于$r + s \geq m$和级数$H(a, b) = \sum_{r,s} H_{r,s}(a, b)$只有一个有限的数非零项。 $g$ 上的群运算 $(a, b) \mapsto H(a, b)$ 则为多项式映射 (§ 2, no. 4)。
+(3) 令 $g$ 为李代数，并由下中央级数定义积分过滤 ($\mathscr{C}^n g$)。假设存在$m \geq 1$使得$\mathscr{C}^m g = \{0\}$。 拓扑源自过滤$(\mathscr{C}^n g)_{n \geq 1}$，李代数$g$是Hausdorff，完整甚至离散。然后$P(a_1, \ldots, a_r) = 0$对于$g$中的$a_1, \ldots, a_r$以及次数$\geq m$的每个齐次李多项式$P$；特别是，$r + s \geq m$和级数$H(a, b) = \sum_{r,s} H_{r,s}(a, b)$的$H_{r,s}(a, b) = 0$只有非零项的有限数。 $g$ 上的群运算 $(a, b) \mapsto H(a, b)$ 则为多项式映射 (§ 2, no. 4)。
 
 #### 命题 5 {#lie-ii-s6-prop-5 .statement tag=0A6E}
 
@@ -389,7 +389,7 @@ $$
 K_{n,1}(U, V) = \frac{1}{(n+1)!} (\operatorname{ad} U)^n(V) \quad \text{for } n \geq 0.
 $$
 
-我们写$K(U, V) = H(U + V, -U)$，$K_1(U, V) = \sum_{n \geq 0} K_{n,1}(U, V)$。我们用 L（或 R）左（或右）乘法表示 $U$ 在 $\hat{A}(\{U, V\})$ 上。
+我们写$K(U, V) = H(U + V, -U)$，$K_1(U, V) = \sum_{n \geq 0} K_{n,1}(U, V)$。我们用L（或R）左（或右）乘法表示$U$在$\hat{A}(\{U, V\})$上。
 
 我们可以写
 $$
@@ -401,7 +401,7 @@ $$
 $$
 e^{U}V e^{-U} = \sum_{n \geq 0} \frac{1}{n!} (\operatorname{ad} U)^n V.
 $$
-我们现在对计算对 $A(\{U, V\})$ 的理想 $\sum_{m \geq 0} \sum_{n \geq 2} A^{m,n}(\{U, V\})$ 取模。对于所有$n \geq 1$，
+我们现在对$A(\{U, V\})$的理想$\sum_{m \geq 0} \sum_{n \geq 2} A^{m,n}(\{U, V\})$取模计算。对于所有$n \geq 1$，
 $$
 (U + V)^n \equiv U^n + \sum_{i=1}^{n-1} U^i V U^{n-1-i}
 $$
@@ -433,6 +433,6 @@ $$
 $$
 然后应用§ 2, no. 11的*注*就足够了。
 
-### 习题 {#lie-ii-s6-exercises}
+### 习题{#lie-ii-s6-exercises}
 
-§ 6](exercises/s6/)参见[习题。
+参见[习题为 § 6](exercises/s6/)。

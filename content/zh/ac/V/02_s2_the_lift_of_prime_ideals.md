@@ -29,16 +29,16 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: 8dd3920dfe5e9f928ad739bf619bef9ac5ae004dc3a115c9816956f1356d99e2
+content_sha256: 9811fd8ef0c1431b9a672e9ec88364e31b052ac20cf478999569f8c0db54c806
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
 translation_method: google
 source_content_sha256: 89a50149d078678d4ea98a688a9a6bd071b42b62e0d62c0a7d340a9d004553ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 9274221945b8b984a9c8d33027aa6ac65899ce1a5a5e6739678e4c3198fa39ad
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 2. 素理想的提升
@@ -49,11 +49,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 令$\mathbf{A}, \mathbf{A}'$为两个环和$h : \mathbf{A} \to \mathbf{A}'$环同态。如果$a = \overline{h}^1(a')$，则据说理想的$a' \in A'$高于$\mathbf{A}$的理想$a$。
 
-说$A'$的素理想$p'$位于$\mathbf{A}$的理想$p$之上，因此意味着$p$是与$h$相关的连续映射“$h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$”下的$p'$的像 （章11，§ 4, no. 3）。
+因此，说$A'$的素理想$p'$位于$\mathbf{A}$的理想$p$之上，意味着$p$是与$h$相关的连续映射“$h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$”下的$p'$的像 （章11，§ 4, no. 3）。
 
-注对于存在高于$\mathbf{A}$理想$(0)$的理想$A'$，$h : \mathbf{A} \to \mathbf{A}'$是单射的是必要且充分的。
+注对于$A'$ 的理想存在于$\mathbf{A}$ 的理想$(0)$ 之上，$h : \mathbf{A} \to \mathbf{A}'$ 是单射的充分必要。
 
-令$a$为$\mathbf{A}$的理想；通过商同态 $h$ 给出同态 $h_1 : \mathbf{A}/a \to \mathbf{A}'/a'$；说$a'$是位于$a$之上的$A'$的理想，相当于说即$aA' \subset a'$，而$a'/aA'$是位于$(0)$之上的$\mathbf{A}'/aA'$的理想。
+令$a$为$\mathbf{A}$的理想；通过商同态 $h$ 给出同态 $h_1 : \mathbf{A}/a \to \mathbf{A}'/a'$；说$a'$是位于$a$之上的$A'$的理想，相当于说是$aA' \subset a'$，而$a'/aA'$是位于$(0)$之上的$\mathbf{A}'/aA'$的理想。
 
 #### 引理 1 {#ac-v-s2-lem-1 .statement tag=04PK}
 
@@ -67,7 +67,7 @@ S^{-1}\mathbf{A} & \xrightarrow{h_1} & S^{-1}\mathbf{A}'
 \end{array}
 $$
 
-令$p$为$\mathbf{A}$的素理想，使得$p \cap S = \varnothing$。那么$a' \mapsto S^{-1}a'$是位于$p$之上的$\mathbf{A}'$理想的集合$\mathscr{F}$的满射映射到位于$S^{-1}p$之上的$S^{-1}\mathbf{A}'$理想的集合$\mathscr{F}_1$并且映射$a'_1 \mapsto i'(a'_1)$是$\mathscr{F}_1$的双射到理想属于到$\mathscr{F}$的集合并且相对于$h(S)$饱和；特别地，$p' \mapsto S^{-1}p'$是位于$p$上方的$\mathbf{A}'$素理想的集合的双射到位于$S^{-1}p$上方的$S^{-1}\mathbf{A}'$素理想的集合。
+令$p$为$\mathbf{A}$的素理想，使得$p \cap S = \varnothing$。那么$a' \mapsto S^{-1}a'$是位于$p$上方的$\mathbf{A}'$理想的集合$\mathscr{F}$的满射映射到位于$S^{-1}p$上方的$S^{-1}\mathbf{A}'$理想的集合$\mathscr{F}_1$并且映射$a'_1 \mapsto i'(a'_1)$是$\mathscr{F}_1$的双射到理想属于到$\mathscr{F}$的集合上并且相对于$h(S)$饱和；特别地，$p' \mapsto S^{-1}p'$是位于$p$上方的$\mathbf{A}'$素理想的集合的双射到位于$S^{-1}p$上方的$S^{-1}\mathbf{A}'$素理想的集合。
 
 我们知道$S^{-1}p$是$S^{-1}\mathbf{A}$的素理想，$i_1(S^{-1}p) = p$（章11，§ 2, no. 5，命题11）；如果存在$S^{-1}\mathbf{A}'$的理想$b'$位于$S^{-1}p$之上，则$h(i_1(b')) = i(h_1(b')) = p$；如$S^{-1}i'(b') = b'$（前述），这已经表明$\mathscr{F}$的像位于映射$a' \mapsto S^{-1}a'$包含$\mathscr{F}_1$之下。另一方面，如果$a' \in \mathscr{F}$、$a \in A$和$s \in S$，则有以下等价
 
@@ -177,13 +177,13 @@ $$
 h(S)^{-1}A' = S^{-1}A',
 $$
 
-凭借章II、$§ 2$、no. 3、命题 8，足以证明，如果$A'$的素理想$q'$不满足$h(S)$，那么它也不满足$S'$。现在，假设 $q' \cap h(S) = \varnothing$ 并令 $q = h^{-1}(q')$；然后$q \cap S = \varnothing$，其他字$q \subset \mathfrak{p}$。由于$q'$位于$q$上方定义，因此从推论2到命题1，存在指标$c$，使得$q' \subset p'_c$进而$q' \cap S' = \varnothing$，从而完成证明。
+凭借章II、$§ 2$、no. 3、命题8，足以证明，如果$A'$的素理想$q'$不满足$h(S)$，那么它也不满足$S'$。现在，假设 $q' \cap h(S) = \varnothing$ 并令 $q = h^{-1}(q')$；然后$q \cap S = \varnothing$，其他字$q \subset \mathfrak{p}$。由于$q'$位于$q$上方定义，因此从推论2到命题1，存在指标$c$，使得$q' \subset p'_c$进而$q' \cap S' = \varnothing$，从而完成证明。
 
 #### 命题 3 {#ac-v-s2-prop-3 .statement tag=04PY}
 
-令$h : A \to A'$为环同态，使得$A'$是有限生成的$A$模；那么，对于$A$的每个素理想$\mathfrak{p}$，位于$\mathfrak{p}$之上的$A'$素理想的集合是有限的。
+令$h : A \to A'$为环同态，使得$A'$是有限生成的$A$模；那么，对于$A$的每个素理想$\mathfrak{p}$，位于$\mathfrak{p}$之上的$A'$的素理想集合是有限的。
 
-让$S = A - p$；通过引理 1，我们可以通过 $S^{-1}A$ 实现替换 $A$，通过 $S^{-1}A'$ 实现 $A'$（这是一个有限生成的 $S^{-1}A$ 模块），通过 $S^{-1}p$ 实现$p$；在其他字中，我们可以假设$A$是局部环，$p$是它的最大理想。然后（通过本号开头的注），$A$可以用$A/p$代替，$A'$可以用$A'/pA'$代替，$p$可以用$(0)$代替，因为$A'/pA' = (A/p) \otimes_A A'$是有限生成的$(A/p)$模块。这样，当$A$为域和$p = (0)$时，我们最终将问题减少为证明命题；那么$A'$是有限秩的$A$代数，因此是阿廷的，我们知道在这样的代数中只有有限的数素理想（章IV, § 2, no. 5，命题9）。
+让$S = A - p$；通过引理 1，我们可以通过 $S^{-1}A$ 实现替换 $A$，通过 $S^{-1}A'$ 实现 $A'$（这是一个有限生成的 $S^{-1}A$ 模块），通过 $S^{-1}p$ 实现 $p$；在其他字中，我们可以假设$A$是局部环，$p$是它的最大理想。然后（通过本号开头的注），$A$可以替换为$A/p$，$A'$替换为$A'/pA'$，$p$替换为$(0)$，因为$A'/pA' = (A/p) \otimes_A A'$是有限生成的$(A/p)$模块。这样，当$A$为域和$p = (0)$时，我们最终将问题减少为证明命题；那么$A'$是有限秩的$A$代数，因此是阿廷的，我们知道在这样的代数中只有有限的数素理想（章IV, § 2, no. 5，命题9）。
 
 ### 2. 分解群和惯性群
 
@@ -362,13 +362,13 @@ $$
 
 *如果惯性群$\mathscr{G}^T(p')$的阶与k的特征指数p互质，则域$k'$就是k的伽罗瓦扩张。*
 
-当记号为证明为命题5时，多项式$\pi'(P)$在$k^T = k'_s$中有系数，并且其所有根等于$\pi'(x)$；我们立即推断出 $\pi'(P)$ 是 $\pi'(x)$ 与 $k'_s$ 的最小多项式的幂；但后者的次数等于p的幂，因而，由于$\pi'(P)$的次数等于$\mathscr{G}^T$的阶，假设意味着$\pi'(x) \in k'_s$，而其他字$k'_s = k'$。
+当记号为证明为命题5时，多项式$\pi'(P)$在$k^T = k'_s$中有系数，并且其所有根等于$\pi'(x)$；我们立即推断出$\pi'(P)$是$\pi'(x)$在$k'_s$上的最小多项式的幂；但后者的次数等于p的幂，因而，由于$\pi'(P)$的次数等于$\mathscr{G}^T$的阶，假设意味着$\pi'(x) \in k'_s$，而其他字$k'_s = k'$。
 
-### 3. 分解和整体闭域的惯性
+### 3. 分解和积分闭域的惯性
 
 #### 引理 4 {#ac-v-s2-lem-4 .statement tag=04QB}
 
-*设 A 为积分闭域，K 为分数的域，p 为 K 的特征指数，K' 为 K 的基数扩张，A' 子环为 K' 包含 A 并在 A 上积分。对于 A 的每个素理想 p，都存在一个唯一的素理想* p' $A'$位于$p$和$p'$之上的是$x \in A'$的集合，因此存在整数$m \geq 0$，其中$x^{p^m} \in p$。
+*设 A 为积分闭域，K 为分数的域，p 为 K 的特征指数，K' 为 K 的基数扩张，A' 为 K' 包含 A 的子环，并在 A 上积分。对于 A 的每个素理想 p，都存在一个唯一的素理想* p' $A'$位于$p$和$p'$之上的是$x \in A'$的集合，因此存在整数$m \geq 0$，其中$x^{p^m} \in p$。
 
 $p'$ 的存在源自no. 1、定理 1。如​​果$x \in p'$，则存在$m \geq 0$，使得$x^{p^m} \in K$、从而 $x^{p^m} \in A$，因为$A$ 是积分闭集，因此$x^{p^m} \in p' \cap A = p$。相反，如果 $x \in A'$ 满足 $x^{p^m} \in p \subset p'$，则 $x \in p$，因为 $p'$ 是素数。
 
@@ -480,11 +480,11 @@ $$
 L(K^{\mathbf{Z}}(p' \cap K_{\alpha})) \subset L(K^{\mathbf{Z}}) \quad (\text{resp. } L(K^T(p' \cap K_{\beta})) \subset L(K^T)).
 $$
 
-现在假设$L$是$K$的伽罗瓦扩张；每个$\sigma \in G^{\mathbf{Z}}$的限制到$L$然后留下不变的$p(L) = p' \cap L$，因此相对于$K$，$p(L)$的属于到分解群。相反，令$\tau$是$L$属于的自同构到这个群，并让$\sigma$是$\tau$的扩张到$K'$的$K$自同构；我们写$q' = \sigma.p'$。由于$p'$和$q'$都位于$p(L)$之上，因此存在自同构$\rho \in \mathscr{H}$使得$q' = \rho.p'$，从而$\rho^{-1}\sigma \in G^{\mathbf{Z}}$和$\tau$是$\rho^{-1}\sigma$的限制到$L$；在其他字中，$p(L)$的分解群相对于$K$与限制的群到自同构$\sigma \in G^{\mathbf{Z}}$的$L$相同，这证明了第二个断言。
+现在假设$L$是$K$的伽罗瓦扩张；每个$\sigma \in G^{\mathbf{Z}}$的限制到$L$然后留下不变的$p(L) = p' \cap L$，因此相对于$K$，$p(L)$的属于到分解群。相反，令$\tau$是$L$属于的自同构到这个群，并令$\sigma$是$\tau$的扩张到$K'$的$K$自同构；我们写$q' = \sigma.p'$。由于$p'$和$q'$都位于$p(L)$之上，因此存在自同构$\rho \in \mathscr{H}$使得$q' = \rho.p'$，从而$\rho^{-1}\sigma \in G^{\mathbf{Z}}$和$\tau$是$\rho^{-1}\sigma$的限制到$L$；在其他字中，$p(L)$的分解群相对于$K$与限制的群到自同构$\sigma \in G^{\mathbf{Z}}$的$L$相同，这证明了第二个断言。
 
-(ii) 说$L \subset K^{\mathbf{Z}}$意味着当$[K':K]$有限时，(ii)的$\mathscr{H} \supset G^{\mathbf{Z}}$和断言是no. 2、命题 4 (ii)和(iii)的特例。在一般情况下，参数如命题 6 中的证明所示。
+(ii) 说$L \subset K^{\mathbf{Z}}$意味着当$[K':K]$有限时，(ii)的$\mathscr{H} \supset G^{\mathbf{Z}}$和断言是no. 2、命题 4 (ii)和(iii)的特例。一般情况下，参数如命题 6 中的证明所示。
 
-### 4.第二个存在定理
+### 4. 第二次存在定理
 
 #### 定理 3 {#ac-v-s2-thm-3 .statement tag=04QK}
 
@@ -498,12 +498,12 @@ $$
 
 在定理 3 的$A$和$A'$的假设下，令$p$为$A$的素理想。 $p$之上的$A'$素理想是$A'$包含$pA'$素理想中集合$\mathscr{E}$的最小值元素。
 
-位于$p$之上的$A'$的素理想在$\mathscr{E}$中是最小的，因为no. 1，推论1到命题1。相反，让$q'$是$\mathscr{E}$的最小元素。如$q' \cap A \supset p$、定理 3 所示，存在$A'$ 的素理想$p'$ 位于$p$ 之上，使得$q' \supset p'$。由于$p'$包含于$pA'$，假设在$q'$上生成意味着$q' = p'$，因此$q'$位于$p$之上。
+位于$p$之上的$A'$的素理想在$\mathscr{E}$中是最小的，因为no. 1，推论1到命题1。相反，让$q'$是$\mathscr{E}$的最小元素。如$q' \cap A \supset p$、定理 3 所示，存在$A'$ 的素理想$p'$ 位于$p$ 之上，使得$q' \supset p'$。由于 $p'$ 包含于 $pA'$，在 $q'$ 上生成的假设意味着$q' = p'$，因此 $q'$ 位于 $p$ 之上。
 
-\* 令$V, V'$为两个仿射代数簇，且$V'$至$V$的$f$态射，使得$f(V')$在$V$中稠密。设$A$（或$A'$）为$V$（或$V'$）上正则的函数的环；给定 $f$ 后，我们得到可以确定 $A$，子环为 $A'$；假设$A'$是$A$的积分。 no. 1的定理 1表明，对于V的每个不可约子簇W，都存在V'的不可约子簇W'，使得f(W')是W的稠密子集；特别是，V的每个点都是V'的不可约子簇的像，这表明f是满射的。类似地，f 的限制到 V' 的每个不可约子品种 W' 映射 W' 到 V 的不可约子品种。推论 2 到定理 1，no. 1 表明，如果 W 和 X 是 V 的两个不可约子变体，使得 W ⊃ X 并且如果 W' 是 V' 的不可约子变体，使得 f(W') = W，则存在W' 中包含 V' 的不可约子变体 X'，且 f(X') = X。
+\* 令$V, V'$为两个仿射代数簇，且$V'$至$V$的$f$态射，使得$f(V')$在$V$中稠密。令$A$（或$A'$）为$V$（或$V'$）上常规函数的环；被赋予$f$后，我们可以确定$A$，子环为$A'$；假设$A'$是$A$的积分。 no. 1的定理 1表明，对于V的每个不可约子簇W，都存在V'的不可约子簇W'，使得f(W')是W的稠密子集；特别是，V的每个点都是V'的不可约子簇的像，这表明f是满射的。类似地，f 的限制到V' 映射 W' 的每个不可约子品种 W' 到 V 的不可约子品种。推论 2 到定理 1、no. 1 表明，如果 W 和 X 是 V 的两个不可约子变体，使得 W ⊃ X 并且如果 W' 是 V' 的不可约子变体，使得 f(W') = W，则存在W' 中包含 V' 的不可约子变体 X'，且 f(X') = X。
 
-如果 A 是整闭的，则 V 称为正规的。 定理 3 表明，如果 V 是正规的，如果 W 和 X 是 V 的不可约子变体，使得 W ⊃ X 且如果 X' 是 V' 的不可约子变体，使得f(X') = X，则存在 V' 包含于 X' 的子品种 W'，且 f(W') = W。最后，定理 3 的推论表明，如果 V 是正规子品种且 W 是不可约子品种V 的V' 的不可约子集 W' 使得 f(W') = W 只是 $\overline{f}(W)$ 的不可约分量。
+如果 A 是整闭的，则 V 称为正规的。 定理 3 表明，如果 V 是正规的，如果 W 和 X 是 V 的不可约子簇，使得 W ⊃ X 并且如果 X' 是 V' 的不可约子簇，使得f(X') = X，则存在 V' 包含于 X' 的子品种 W'，且 f(W') = W。最后，定理 3 的推论表明，如果 V 是正规子品种且 W 是不可约子品种V 的V' 的不可约子变体 W' 使得 f(W') = W 只是 $\overline{f}(W)$ 的不可约分量。
 
 ### 习题{#ac-v-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

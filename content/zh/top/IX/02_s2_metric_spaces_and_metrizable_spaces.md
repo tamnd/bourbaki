@@ -52,19 +52,19 @@ subsections:
       pdf_page: 165
 statements: 33
 exercises: 25
-content_sha256: fd284d9b234ea4114b3e74774ec8cfce01b1554ddb8ae0450c644f3176770b06
+content_sha256: 514856bbe1193f54564456d069f6e272568591b5ff649fc66552cb8596fa5e22
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 translation_method: google
 source_content_sha256: d331e64864dcc1e0126c3bba0d6705f7cf12cadc6c25e95836fc8a8baa92e612
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 8eb8706659f4e41c16839fb6b319500366aeb97ca3393869ce18db509a214506
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 2. 公制空间和可度量空间
+## 2. 公制空间和可计量空间
 
 ### 1. 指标和指标空间
 
@@ -106,7 +106,7 @@ and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other wo
 
 § 1, no. 3的命题 1表明$\overline{d}$是$\hat{X}$上的有限伪度量，$\overline{d}$在$\hat{X}$上定义的均匀性是完成得到的均匀性；由于后一个均匀性是 Hausdorff，因此 $\overline{d}$ 是一个*度量*。每当我们将度量空间$X$视为度量空间时，总是可以理解，$\hat{X}$上的度量是通过连续性扩展$X$上的度量而获得的。
 
-### 2. 指标的结构空间
+### 2. 结构指标空间
 
 令$X$和$X'$为两个度量空间，$d$为$X$的度量，$d'$为$X'$的度量。根据一般的定义（*集合理论*，R，§ 8, no. 5），$X$到$X'$的一对一映射$f$是度量空间结构的*同构* $X$ 到 $X'$ 如果
 
@@ -161,7 +161,7 @@ d(x, z) \leq d(x, y) + d(y, z) \leq d(x, y) + d(y, A) + \varepsilon
 $$
 由三角形不等式。
 
-*更不必说* $d(x, A) \leq d(x, y) + d(y, A) + \varepsilon$，并且由于$\varepsilon$是任意的，因此得出$d(x, A) \leq d(x, y) + d(y, A)$。同样我们有
+*更不必说* $d(x, A) \leq d(x, y) + d(y, A) + \varepsilon$，由于$\varepsilon$是任意的，因此$d(x, A) \leq d(x, y) + d(y, A)$。同样我们有
 $$
 d(y, A) \leq d(x, y) + d(x, A),
 $$
@@ -175,7 +175,7 @@ $$
 
 我们可以用 $X$ 的两个子集 $A, B$ 得到 $d(A, B) = 0$，从而得到 $\overline{A} \cap \overline{B} = \varnothing$，前提是子集都不由单个点组成。 例、实直线$\mathbf{R}$、整数$> 0$集合和序列$(n + 1/2^n)_{n \geq 1}$点集合两个不相交的关闭集合，其距离部分为零。
 
-然而，如果 $A$ 是*紧凑*且 $B$ 是*封闭*，关系 $d(A, B) = 0$ 意味着 $A \cap B \neq \varnothing$，因为凭借关系
+然而，如果 $A$ 是*紧凑*并且 $B$ 是*封闭*，关系 $d(A, B) = 0$ 意味着 $A \cap B \neq \varnothing$，因为凭借关系
 $$
 d(A, B) = \inf_{x \in A} d(x, B)
 $$
@@ -186,11 +186,11 @@ $$
 \delta(A) = \sup_{x \in A, y \in A} d(x, y).
 $$
 
-“W_a-small 集合”（章II, § 3, no. 1）的概念与直径$\leq a$的集合相同。当且仅当 $\delta(A) = 0$ 时，非空集合 $A$ 由单个点组成。
+“W_a-small 集合”（章 II, § 3, no. 1）的概念与直径$\leq a$的集合相同。当且仅当 $\delta(A) = 0$ 时，非空集合 $A$ 由单个点组成。
 
-如果 $X$ 的子集 $A$ 是“有界”（相对于公制 $d$），则其直径是“有限”；同样，如果对于每个点 $x_0 \in X$，$A$ 都包含在具有中心 $x_0$ 的球中。有界集合的每个子集都是有界的，有界集合的有限族中的并是有界集合。
+如果 $X$ 的子集 $A$ 是“有界”（相对于公制 $d$），则其直径是*有限*；同样，如果对于每个点 $x_0 \in X$，$A$ 都包含在具有中心 $x_0$ 的球中。有界集合中的每个子集都是有界的，有界集合的有限族中的并是有界集合。
 
-注 $X$ 的子集可以相对于度量 $d$ 有界，但相对于等价于 $d$ (cf. § 1, no. 2) 的度量则无界。
+注 $X$ 的子集可以相对于度量 $d$ 有界，但相对于等价于 $d$ (cf. § 1, no. 2) 的度量无界。
 
 ### 3. 函数的振荡
 
@@ -218,7 +218,7 @@ In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary
 
 *令$f$为函数，定义在拓扑空间$Y$的子集$X$上，将其值作为完整度量空间$X'$。那么$f$在点$x \in \overline{X}$相对于$X$有极限当且仅当$f$在$x$的振荡是零。*
 
-### 4.可计量制服空间
+### 4. 可计量制服空间
 
 #### 定义 2 {#top-ix-s2-def-2 .statement tag=0C2M}
 
@@ -247,7 +247,7 @@ In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary
 
 对于这样的空间是豪斯多夫（Hausdorff），其均匀性具有可数的基本随从系统（章II, § 2, no. 6）。
 
-### 5.可度量拓扑空间
+### 5. 可度量拓扑空间
 
 #### 定义 3 {#top-ix-s2-def-3 .statement tag=0C2Q}
 
@@ -283,7 +283,7 @@ $\mathbf{R}$的子空间$\mathbf{R}_+^*$提供了其中的例。 $\mathbf{R}$的
 
 Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable topological spaces is metrizable. 另外，可度量化空间的任意族 $(X_i)_{i \in I}$ 的和 $X$ (章 I, § 2, no. 4) 也是可度量化的。 For if $d_i$ is a metric compatible with the topology of $X_i$ for each $i \in I$, we may assume that $d_i$ is bounded and that the diameter of $X_i$ is $\leq 1$; we can then define a distance $d$ compatible with the topology of $X$ by putting $d(x, y) = d_i(x, y)$ if $x$ and $y$ both belong to the same $X_i$, and $d(x, y) = 1$ otherwise.
 
-### 6.使用可数序列
+### 6. 使用可数序列
 
 命题 6 是可度量空间理论中点的可数序列扮演的部分的起源；对于许多问题，它们可以用来代替过滤器。这是因为可度量空间的点的邻域滤波器（因此也是收敛滤波器）由空间的点的收敛序列确定：因为点的邻域滤波器具有可数的基，因此基本滤波器更细的交比其自身（章I, § 6, no. 8，命题11），即与序列相关的基本滤波器的序列收敛到所讨论的点。
 
@@ -295,7 +295,7 @@ Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable to
 
 *在可度量的空间* $X$ 中，*点* $x$ *位于非空子集* $A$ *of* $X$ *当且仅当存在序列 of 点 of* $A$ *其中收敛于*$x$。
 
-我们已经从章 I, § 7, no. 3 知道条件 *足够*。要看出它是*必要的*，请考虑 $x$ 的邻域的可数基本系统 $(V_n)$，使得每个$n$都有$V_{n+1} \subset V_n$。如果$x$位于$A$的闭包中，则每个$V_n$满足$A$，并且如果$x_n$位于$V_n \cap A$，则序列$(x_n)$收敛于$x$(**)。
+我们已经从章 I, § 7, no. 3 知道条件 *足够*。要看出它是*必要的*，请考虑$x$的邻域的可数基本系统$(V_n)$，使得每个$n$都有$V_{n+1} \subset V_n$。如果$x$位于$A$的闭包中，则每个$V_n$满足$A$，并且如果$x_n$位于$V_n \cap A$，则序列$(x_n)$收敛到$x$(**)。
 
 从命题 8 我们推导出：
 
@@ -303,7 +303,7 @@ Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable to
 
 *度量空间* $X$ *当且仅当* $X$ 中的每个柯西序列 *收敛*时才是完备的。
 
-令 $\hat{X}$ 为 $X$ 的补全。如果存在点$x \in \hat{X}$不属于到$X$，则$X$的点有序列$(x_n)$收敛到$x$，这是非收敛柯西$X$ 中序列。
+令 $\hat{X}$ 为 $X$ 的补全。如果存在点$x \in \hat{X}$不属于到$X$，那么$X$的点有序列$(x_n)$收敛到$x$，这是一个非收敛柯西$X$ 中序列。
 
 #### 命题 10 {#top-ix-s2-prop-10 .statement tag=0C2X}
 
@@ -312,13 +312,13 @@ Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable to
 条件是必要的，从章I, § 7, no. 4，命题9，推论1。为了证明它是充分的，考虑$X'$中$f(a)$的邻域的过滤器$\mathscr{B}'$； 假设意味着$\overline{f}^{-1}(\mathscr{B}')$比每个与序列相关的收敛到$a$的基本滤波器更粗糙，也就是说每个收敛到$a$的基本滤波器；但是
 
 (*) 参见 J. Dieudonné, 注 de Tératopologie (I), Revue scientifique (Revue Rose), 1939, p. 39。
-(**) 这个命题在某些空间中仍然有效，其中至少有一个点不具有邻域的任何可数基本系统；对于例，空间是通过在无穷大处邻接点来压缩不可数离散空间获得的（章 I, § 9, no. 8，定理 4）。
+(**) 这个命题在某些空间中仍然有效，其中至少有一个点不具有邻域的任何可数基本系统；对于例，空间是通过在无穷大处邻接点来压缩不可数离散空间而获得的（章I, § 9, no. 8，定理4）。
 
-这些过滤器中的交是邻域过滤器$a$（章I, § 6, no. 8，命题11）。于是就有了这样的结果。
+这些过滤器中的交是$a$的邻域过滤器（章I, § 6, no. 8，命题11）。于是就有了这样的结果。
 
-注命题 8 和 10 在任何空间 $X$ 中有效，其中每个点都有一个可数基数系统邻域。
+注命题 8 和 10 在任何空间 $X$ 中有效，其中每个点都有邻域的可数基数系统。
 
-### 7. 在可度量空间上半连续函数
+### 7. 可测量空间上的半连续函数
 
 #### 命题 11 {#top-ix-s2-prop-11 .statement tag=0C2Y}
 
@@ -386,7 +386,7 @@ $$
 
 设 H 为子集 N 由……组成指标 n，使得 U_n 包含在 V_i 的至少一个中； 序列 (U_n)_{n \in H} 是 X 的覆盖，因为每个点 x \in X 属于到某个 V_i，并且由于 V_i 是开放的，因此存在指标 n 使得 x \in U_n \子集 V_i。因此，在 I 中存在映射 $\psi$，使得对于 H 中的每个 n \，U_n \子集 V_{\psi(n)}；取J = $\psi(H)$，可数，命题得证。
 
-### 9. 紧凑公制空间；紧凑可测量空间
+### 9. 紧凑公制空间；紧凑型可测量空间
 
 均匀空间 (章 II, § 4, no. 2, 定理 3) 的预紧性准则对于度量空间产生以下命题：
 
@@ -428,15 +428,15 @@ a) *$X$的拓扑有一个可数的基。*
 b) $X'$ *可度量。*
 c) $X$ *可度量且$\sigma$-紧凑。*
 
-$a \Longrightarrow b$：令$U_n$为$X$的拓扑的可数基。 点 $x \in X$ 包含的每一个邻域都是$x$ 的紧凑邻域，而$x$ 的包含邻域又等于一些$U_n$。因此，$U_n$、形式、基、拓扑和$X$相对紧致，因此我们可以假设所有$U_n$都是相对紧致的。因此，$X$是紧集$\overline{U}_n$的可数并，即它是$\sigma$紧；这意味着 $X'$ 点 $\omega$ 具有开放邻域的可数基本系统 $V_n$（章 I, § 9, no. 9，命题 15，推论 2）。因此，点$y \in X'$包含中的每个邻域要么是$U_n$之一，要么是$V_n$之一，即$y$中的邻域，因此$U_n$和$V_n$ 形式拓扑 $X'$ 的可数基。因此 $X'$ 可以通过命题 16 来度量。
+$a \Longrightarrow b$：令$U_n$为$X$的拓扑的可数基。 点 $x \in X$ 包含的每个邻域都是$x$ 的紧凑邻域，而$x$ 的包含邻域又等于一些$U_n$。因此，$U_n$、形式、基、拓扑和$X$相对紧凑，因此我们可以假设所有$U_n$都是相对紧凑的。因此，$X$是紧集$\overline{U}_n$的可数并，即它是$\sigma$紧；这意味着 $X'$ 点 $\omega$ 具有开放邻域的可数基本系统 $V_n$（章 I, § 9, no. 9，命题 15，推论 2）。因此，点$y \in X'$包含中的每个邻域要么是$U_n$之一，要么是$V_n$之一，即$y$中的邻域，因此$U_n$和$V_n$ 形式拓扑 $X'$ 的可数基。因此 $X'$ 可以通过命题 16 来度量。
 
 b) $\Longrightarrow c)$：如果 $X'$ 可度量，则 $\omega$ 的可数基数系统为邻域，因此 $X$ 是 $\sigma$-紧致章 I, § 9, no. 9、命题 15，推论 2。
 
-c) $\Longrightarrow a)$：到假设时，有递增序列$(V_n)$相对紧凑的开放集合覆盖$X$并且使得$\overline{V}_n \subset V_{n+1}$（章I, § 9, no. 9，命题） 15）。 子空间 $\overline{V}_n$ 是紧凑且可度量的，因此具有可数基 (命题 16)，因此 $V_n$ 也是可数的。令$(U_{mn})_{m \geq 1}$为$V_n$的拓扑中的基。对于$x \in X$和$x$的每个邻域$W$，存在$n$使得$x \in V_n$，因此存在$m$使得$x \in U_{mn} \subset V_n \cap W$。因此，拓扑 $X$ 的集合 $U_{mn}$ ($m \geq 1, n \geq 1$) 形式基。
+c) $\Longrightarrow a)$：到假设，有递增序列$(V_n)$相对紧凑的开放集合覆盖$X$并且使得$\overline{V}_n \subset V_{n+1}$（章I, § 9, no. 9，命题） 15）。 子空间 $\overline{V}_n$ 是紧凑且可度量的，因此具有可数基 (命题 16)，因此 $V_n$ 也是可数的。令$(U_{mn})_{m \geq 1}$为$V_n$的拓扑中的基。对于$x \in X$和$x$的每个邻域$W$，存在$n$使得$x \in V_n$，因此存在$m$使得$x \in U_{mn} \subset V_n \cap W$。因此集合$U_{mn}$($m \geq 1, n \geq 1$)形式基拓扑$X$。
 
-### 10.可计量空间的商空间
+### 10. 可计量空间的商空间
 
-如果 $X$ 是可度量的空间并且 $R$ 是 $X$ 上的等价关系，则空间 $X/R$ 的商不一定是可度量的（即使 $X$ 是局部紧凑的 \* 并且 $X/R$ 是正常的） *）。然而：
+如果 $X$ 是可度量的空间并且 $R$ 是 $X$ 上的等价关系，则商空间 $X/R$ 不一定是可度量的（即使 $X$ 是局部紧致 \* 且 $X/R$ 是正常的） *）。然而：
 
 #### 命题 17 {#top-ix-s2-prop-17 .statement tag=0C37}
 
@@ -468,4 +468,4 @@ Q.E.D.
 
 ### 习题{#top-ix-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

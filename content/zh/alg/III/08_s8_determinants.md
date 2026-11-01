@@ -58,23 +58,23 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 31569ae9228a4e4019a73d7a2933db908880a3b6947af30e8af47f49b7dc653b
+content_sha256: f281b092c6f86d76b736510213fa01e2fda06d5adaec7511bdb538064fb89a32
 translated_from: content/en/alg/III/08_s8_determinants.md
 translation_method: google
 source_content_sha256: a8722fe29a021a8f3f62eb7c41ed5736542a85db99ded2b20167525ac22836eb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 842c553f12f6e257c7097d87f36a00a3280802058d0b07ab161f79aaa5bdf8f8
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 8。决定因素
 
-### 1. 自同态的决定因素
+### 1. AN 自同态的决定因素
 
-令$M$为$A$模，其有限基为$n$元素，$u$自同态为$M$。 $A$-模块$\bigwedge^n(M)$是单生的自由模，即与$A$同构的（no. 8，推论1到定理1）； $\bigwedge^n(u)$是该模的自同态，因此是唯一确定的比率$\lambda \in A$的位似$z \mapsto \lambda z$（II, § 2, no. 3，命题5）。
+设 $M$ 为 $A$ 模，其有限基为 $n$ 元素，$u$ 自同态为 $M$。 $A$-模块$\bigwedge^n(M)$是单源自由模，即与$A$同构的（no. 8，推论1到定理1）； $\bigwedge^n(u)$ 是模的自同态，因此是唯一确定的比率$\lambda \in A$ 的位似 $z \mapsto \lambda z$（II, § 2, no. 3，命题 5）。
 
 #### 定义 1 {#alg-iii-s8-def-1 .statement tag=0642}
 
@@ -86,7 +86,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 $$
 u(x_1) \wedge u(x_2) \wedge \cdots \wedge u(x_n) = (\det u) \cdot x_1 \wedge x_2 \wedge \cdots \wedge x_n
 $$
-对于 $n$ 元素 $M$ 的每序列 $(x_i)_{1 \leq i \leq n}$。如果 $\det(u) = 1$，$u$ 被称为*单模*。
+每序列 $(x_i)_{1 \leq i \leq n}$ $n$ 元素 $M$。如果 $\det(u) = 1$，$u$ 被称为*单模*。
 
 #### 命题 1 {#alg-iii-s8-prop-1 .statement tag=0643}
 
@@ -97,7 +97,7 @@ $$
 \det(u \circ v) = (\det u)(\det v).
 $$
 
-(ii) $\det(1_M) = 1$； *对于每个自同构* $u$ *of* $M$, $\det u$ *可逆于* $A$ *和*
+(ii) $\det(1_M) = 1$； *对于* $M$、$\det u$ *中的每个自同构* $u$ *可逆于* $A$ *和*
 
 (3)
 $$
@@ -106,13 +106,13 @@ $$
 
 如果 $n$ 是 $M$ 的维数，则紧随关系 $\bigwedge^n(u \circ v) = (\bigwedge^n(u)) \circ (\bigwedge^n(v))$ § 7, no. 2、公式 (3))。
 
-设 $M$ 为自由 $A$ 模，具有有限基 $(e_i)_{1 \leq i \leq n}$；给定 $n$ 元素的序列 $(x_i)_{1 \leq i \leq n}$ $M$，这个序列 *相对于*给定的基 $(e_i)$ 的行列式，当不会引起混淆时用 $\det(x_1, x_2, \ldots, x_n)$ 表示基，是自同态 $u$ 与 $M$ 的行列式，使得 $u(e_i) = x_i$ 对应 $1 \leq i \leq n$。然后公式 (1)
+设 $M$ 为自由 $A$ 模，具有有限基 $(e_i)_{1 \leq i \leq n}$；给定 $n$ 元素的序列 $(x_i)_{1 \leq i \leq n}$ $M$，这个序列 *相对于*给定的基 $(e_i)$ 的行列式，当不会引起混淆时用 $\det(x_1, x_2, \ldots, x_n)$ 表示基，是自同态 $u$ 或 $M$ 的行列式，使得 $u(e_i) = x_i$ 对应 $1 \leq i \leq n$。然后公式 (1)
 
 $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n = \det(x_1, x_2, \ldots, x_n) \ e_1 \wedge e_2 \wedge \cdots \wedge e_n
 $$
 
-这个关系将$M^n$的映射$(x_i) \mapsto \det(x_1, x_2, \ldots, x_n)$表征为$A$。它表明这个映射是一个 *交错的 n 线性形式*。由于，凭借§ 7, no. 4、命题 7，交错的 $n$线性形式的$A$模与$\bigwedge^n(M)$的对偶同构，而$\bigwedge^n(M)$与$A$同构，可见*每$M^n$ 上的交错的 n 线性形式可以写成*
+这个关系将$M^n$的映射$(x_i) \mapsto \det(x_1, x_2, \ldots, x_n)$表征为$A$。它表明这个映射是一个 *交错的 n 线性形式*。由于，凭借§ 7, no. 4，命题 7，交错的$n$线性形式的$A$模与$\bigwedge^n(M)$的对偶同构，而$\bigwedge^n(M)$与$A$同构的，可见*每交错的 $M^n$ 上的 n 线性形式可以写成*
 
 $$(x_1, \ldots, x_n) \mapsto \alpha \det(x_1, x_2, \ldots, x_n)$$
 
@@ -120,7 +120,7 @@ $$(x_1, \ldots, x_n) \mapsto \alpha \det(x_1, x_2, \ldots, x_n)$$
 
 #### 命题 2 {#alg-iii-s8-prop-2 .statement tag=0644}
 
-*设 $M$ 为自由 $A$ 模块，其有限基 $(e_i)_{1 \leq i \leq n}$ 和 $v$ 自同态为 $M$。对于 $n$ 元素 $M$ 中的每序列 $(x_i)_{1 \leq i \leq n}$，*
+*设 $M$ 为自由 $A$ 模块，其有限基 $(e_i)_{1 \leq i \leq n}$ 和 $v$ 自同态为 $M$。对于 $n$ 元素 $M$ 中的每个序列 $(x_i)_{1 \leq i \leq n}$，*
 
 $$
 \det(v(x_1), \ldots, v(x_n)) = (\det v) \det(x_1, \ldots, x_n).
@@ -134,7 +134,7 @@ $$
 
 因此，(5) 由(2) 得出。
 
-### 2. 有限维自由模的自同构的刻画
+### 2. 有限维自由模的刻画自同构
 
 #### 定理 1 {#alg-iii-s8-thm-1 .statement tag=0645}
 
@@ -151,19 +151,19 @@ $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n = (\det u) e_1 \wedge e_2 \wedge \cdots \wedge e_n.
 $$
 
-由§ 7, no. 9、定理 2 $M$的$x_i$到形式基的充要条件是，$\det u$是$A$的可逆元；这就证明了(a)和(e)的等价。观察到 (a) 显然隐含了条件 (b)、(c) 和 (d) 中的每一个；仍有待证明条件 (b)、(c) 和 (d) 中的每一个都蕴涵 (e)。现在，如果存在$M$的自同态$v$使得$v \circ u = 1_M$或$u \circ v = 1_M$，则$(\det v)(\det u) = 1$以及$\det u$在$A$中是可逆的。如果 $u$ 是满射，$\bigwedge^n(u)$ (§ 7, no. 2, 命题 3) 也是满射，在 $A$ 中 det $u$ 的其他字位似是满射，这立即意味着 det $u$ 是可逆的。
+由§ 7, no. 9，定理 2 $M$的$x_i$到形式基的充要条件是，$\det u$是$A$的可逆元；这就证明了(a)和(e)的等价。观察到 (a) 显然隐含了条件 (b)、(c) 和 (d) 中的每一个；还需要证明条件 (b)、(c) 和 (d) 中的每一个都蕴涵 (e)。现在，如果存在$M$的自同态$v$使得$v \circ u = 1_M$或$u \circ v = 1_M$，则$(\det v)(\det u) = 1$以及$\det u$在$A$中是可逆的。如果 $u$ 是满射，$\bigwedge^n(u)$ (§ 7, no. 2, 命题 3) 也是满射，在 $A$ 中 det $u$ 的其他字位似是满射，这立即意味着 det $u$ 是可逆的。
 
 #### 命题 3 {#alg-iii-s8-prop-3 .statement tag=0646}
 
 *令$M$为有限维自由$A$模。对于 $M$ 的每个自同态 $u$，以下条件是等效的：*
   (f) $u$ 是单射的；
-  (g) det $u$ 不是 $A$ 中零的除子。
+  (g) det $u$ 不是 $A$ 中的零的除子。
 
-与定理 1 的证明相同的记号，对于$u$是单射的，$x_i$线性无关是充分必要的。通过§ 7, no. 9，命题 12，关系$\lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$（与$\lambda \in A$）暗示$\lambda = 0$是必要且充分的。但这相当于$\lambda (\det u) = 0$，因为$e_1 \wedge \cdots \wedge e_n$是$\Lambda^n(M)$的基； 从而命题。
+与定理 1 的证明相同的记号，对于$u$是单射的，$x_i$线性无关是充分必要的。通过§ 7, no. 9，命题 12，关系$\lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$（与$\lambda \in A$）暗示$\lambda = 0$是必要且充分的。但这等价于$\lambda (\det u) = 0$，因为$e_1 \wedge \cdots \wedge e_n$是$\Lambda^n(M)$的基； 从而命题。
 
 #### 注 {#alg-iii-s8-n2-rem-1 .statement tag=0647}
 
-当$A$为域时，定理2的条件(e)相当于命题3的条件(g)，因为它们都意味着$\det u \neq 0$。因而，在这种情况下，定理 1 和命题 3 的所有条件都是等价的（cf. II, § 7, no. 4，命题 9 的推论）。
+当$A$为域时，定理2的条件(e)相当于命题3的条件(g)，因为它们都意味着$\det u \neq 0$。因而，在这种情况下，定理 1 和命题 3 中的所有条件都是等价的（cf. II, § 7, no. 4，命题 9 的推论）。
 
 ### 3. 平方矩阵的行列式
 
@@ -327,7 +327,7 @@ $$
 
 *其中$\sigma$贯穿$I$的置换的群$S_I$，$\varepsilon_\sigma$是$\sigma$*（I, § 5, no. 7）的签名。
 
-注意可能仅限于$I = \{1, n\} \subset \mathbf{N}$的情况，然后足以应用公式（12），其中$(e_i)_{1 \leq i \leq n}$是$A^n$的典范基，$x_i$是$X$的列（cf.no. 3， 公式 (6))。
+注意可能仅限于$I = \{1, n\} \subset \mathbf{N}$的情况，然后就足以应用公式（12），其中$(e_i)_{1 \leq i \leq n}$是$A^n$的典范基，$x_i$是$X$的列（cf.no. 3， 公式 (6))。
 
 特别是，对于阶 3 的矩阵行列式
 
@@ -347,9 +347,9 @@ $$
 
 #### 命题 8 {#alg-iii-s8-prop-8 .statement tag=064G}
 
-*对于超过交换环的每个平方矩阵 $X$，转置矩阵 ${}^t X$ 的行列式等于 $X$ 的行列式。*
+*对于交换环上的每个平方矩阵 $X$，转置矩阵 ${}^t X$的行列式等于$X$的行列式。*
 
-假设$X$等于型（I，I）。对于置换的每个有序对 $\sigma, \tau$ $S_I$，（因为乘法是可交换的）
+假设$X$等于型（I，I）。对于置换 $\sigma, \tau$ $S_I$ 中的每个有序对，（因为乘法是可交换的）
 
 $$
 \prod_{i \in I} \xi_{\sigma(i), i} = \prod_{j \in I} \xi_{\sigma(\tau(j)), \tau(j)}.
@@ -365,7 +365,7 @@ $$
 
 #### 推论 1 {#alg-iii-s8-prop-8-cor-1 .statement tag=064H}
 
-对于 $\mathbf{A}^n$ 的 n 向量 $x_1, \ldots, x_n$，令 $Y(x_1, \ldots, x_n)$ 表示第 i 行为 $x_i$ 的阶 n 的平方矩阵，对于 $1 \leq i \leq n$。然后映射
+对于 $\mathbf{A}^n$ 的 n 向量 $x_1, \ldots, x_n$，让 $Y(x_1, \ldots, x_n)$ 表示阶 n 的平方矩阵，其第 i 行是 $x_i$，对于 $1 \leq i \leq n$。然后映射
 $$
 (x_1, \ldots, x_n) \mapsto \det(Y(x_1, \ldots, x_n))
 $$
@@ -382,7 +382,7 @@ $$
 
 #### 推论 3 {#alg-iii-s8-prop-8-cor-3 .statement tag=064J}
 
-设 $u$ 为有限维自由 $\mathbf{A}$-模 $M$ 的自同态和对偶 $M^*$ (II, § 2, no. 5, 定义 5) 的 $^t u$ 转置自同态；然后
+设 $u$ 为有限维自由 $\mathbf{A}$-模 $M$ 的自同态和对偶 $M^*$ (II, § 2, no. 5, 定义 5) 的 $^t u$ 转置自同态；那么
 $$
 \det(^t u) = \det(u).
 $$
@@ -476,7 +476,7 @@ $$
 
 ### 6. 行列式的展开
 
-令I为全序有限索引集合。对于I的每个子集 H，让H'表示补集I - H。令$X = (\xi_{ij})$为型的平方矩阵（I，I），可以将其视为矩阵 $M = A^I$的自同态$u$相对于M的典范基$(e_i)_{i \in I}$。令$n = \operatorname{Card}(I)$并令H为I的子集，$q \leq n$元素和K子集 I 与 $n - q$ 元素；那么我们可以写(no. 5,命题10)
+令I为全序有限索引集合。对于I的每个子集 H，令H'表示补集I - H。令$X = (\xi_{ij})$为型（I，I）的平方矩阵，可以将其视为矩阵 $M = A^I$的自同态$u$相对于M的典范基$(e_i)_{i \in I}$。令$n = \operatorname{Card}(I)$并令H为I的子集，其中$q \leq n$元素和K子集 I 与 $n - q$ 元素；那么我们可以写(no. 5,命题10)
 
 $$
 (\bigwedge^q(u))(e_H) = \sum_R \det(X_{R, H}) e_R
@@ -485,7 +485,7 @@ $$
 (\bigwedge^{n-q}(u))(e_K) = \sum_S \det(X_{S, K}) e_S
 $$
 
-其中 R（分别为 S) runs through the set of subsets of I with $q$ (resp. $n - q$) elements. 由 $§ 7$, no. 8, 公式 (19) 和 (20) 得出
+其中 R（或 S）穿过 I 的子集和集合，以及 $q$（或 $n - q$）元素。由 $§ 7$, no. 8, 公式 (19) 和 (20) 得出
 
 $$
 e_R \wedge e_S = 0
@@ -497,7 +497,7 @@ $$
 (20) \quad (\wedge^q(u)(e_H)) \wedge (\wedge^{n-q}(u)(e_K)) = \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) e_I
 $$
 
-其中$R$穿过$I$的子集的集合$\mathscr{F}_q(I)$以及$q$元素。
+其中$R$穿过$I$的子集和$q$元素的集合$\mathscr{F}_q(I)$。
 
 如果我们取$K = H'$，则从$\wedge^n(u)$（§ 7, no. 2，公式（4））和§ 7, no. 3的定义得出，推论1到命题5，（20）的右侧是$\rho_{H, H'} \wedge^n(u)(e_I)$。因此 (no. 1, 公式 (1) 和 § 7, no. 2, 公式 (4))
 
@@ -511,9 +511,9 @@ $$
 (22) \quad \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) = 0 \quad \text{for } K \neq H'.
 $$
 
-(21) 的右侧被称为矩阵 $X$ 行列式的 *拉普拉斯展开*，由 q 列（其指标属于到 H）和 n - q 列（其指标属于到 H* 的补码 H'）。次要的 $\det(X_{R, H})$ 和 $\det(X_{R', H'})$ 是有时称为*互补*。
+(21) 的右侧被称为矩阵 $X$ 行列式的 *拉普拉斯展开* *由 q 列（其指标属于到 H）和 n - q 列（其指标） 属于到 H* 的补码 H'。次要的 $\det(X_{R, H})$ 和 $\det(X_{R', H'})$ 是有时称为*互补*。
 
-拉普拉斯展开的一个重要简单情况是，其中$I = \{1, n\}$和$q = 1$，因此$H = \{i\}$；对于$I$中的每一个子集$R = \{j\}$，其中一个元素，然后$\det X_{R, H} = \xi_{ji}$。 $\det X_{R', H'}$的小数是平方矩阵的行列式，从矩阵规范导出（no. 5），通过在$X$中抑制指标$j$和列的行指标获得$i$。我们用$X^{ji}$表示这个平方矩阵。显然$\rho_{H, H'} = (-1)^{i-1}$和$\rho_{R, R'} = (-1)^{j-1}$；因此（21）在这种情况下变成
+拉普拉斯展开的一个重要简单情况是$I = \{1, n\}$和$q = 1$，因此$H = \{i\}$；对于$I$的每一个子集$R = \{j\}$，其中一个元素然后$\det X_{R, H} = \xi_{ji}$。 $\det X_{R', H'}$的小数是平方矩阵的行列式，从矩阵规范导出（no. 5），通过在$X$中抑制指标$j$和列的行获得指标$i$。我们用$X^{ji}$表示这个平方矩阵。显然$\rho_{H, H'} = (-1)^{i-1}$和$\rho_{R, R'} = (-1)^{j-1}$；因此（21）在这种情况下变成
 
 $$
 (23) \quad \det X = \sum_{j=1}^n (-1)^{i+j} \xi_{ji} \det(X^{ji})
@@ -525,7 +525,7 @@ $$
 (24) \quad \sum_{j=1}^n (-1)^{ji} \xi_{ji} \det(X^{jk}) = 0 \quad \text{for } k \neq i.
 $$
 
-公式 (23) 被称为指标 i* 的列 X 的行列式的*展开。标量 $(-1)^{i+j} \det(X^{ji})$ 被称为 $X$ 中指标 $j$ 和 $i$ 的*辅因子*（或者，滥用语言，$\xi^{ji}$ 的辅因子）。
+公式 (23) 被称为 X 与指标 i* 的列的行列式 *展开。标量$(-1)^{i+j} \det(X^{ji})$被称为指标、$j$和$i$的*辅因子*（或者，滥用语言，$\xi^{ji}$的辅因子）在$X$中。
 
 $X$的辅因子**矩阵是矩阵
 
@@ -625,7 +625,7 @@ $$
 \det X = (\det Y)(\det Z).
 $$
 
-设$n$为矩阵$X$的阶，$h$为$Y$，$(e_i)_{1 \leq i \leq n}$典范基为$\mathbf{A}^n$，$x_i$($1 \leq i \leq n$)列 $X$； 假设意味着 $\mathbf{A}^n$ 的列 $x_1, \ldots, x_h$ 属于到子模与基 $e_1, \ldots, e_h$，然后定义 (no. 3, 公式 (6))
+令$n$为矩阵$X$的阶，$Y$的$h$，$\mathbf{A}^n$的$(e_i)_{1 \leq i \leq n}$典范基和$x_i$（$1 \leq i \leq n$）列 $X$； 假设意味着 $\mathbf{A}^n$ 的列 $x_1, \ldots, x_h$ 属于到子模与基 $e_1, \ldots, e_h$，然后定义 (no. 3, 公式 (6))
 
 $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n = (\det Y)e_1 \wedge e_2 \wedge \cdots \wedge e_h.
@@ -666,7 +666,7 @@ $$
 \det(\operatorname{diag}(\alpha_1, \alpha_2, \ldots, \alpha_n)) = \alpha_1 \alpha_2 \ldots \alpha_n.
 $$
 
-(3) 设$M, M'$为维数$n, n'$、$M$的$u$自同态和$M'$的$u'$自同态的两个自由$A$模块。然后
+(3) 令$M, M'$分别为维数$n, n'$、$M$的$u$自同态和$M'$的$u'$自同态的两个自由$A$模块。然后
 
 (33) $$
 \det(u \otimes u') = (\det u)^{n'} (\det u')^n.
@@ -683,7 +683,7 @@ X & 0 & \ldots & 0 \\
 \end{pmatrix}
 $$
 
-从而，凭借*例 2*，
+从而，凭借*例2*，
 
 $$
 \det(u \otimes 1_{M'}) = (\det X)^{n'} = (\det u)^{n'}
@@ -691,7 +691,7 @@ $$
 
 这立即给出公式 (33)。
 
-### 7. 线性方程的应用
+### 7. 在线性方程中的应用
 
 考虑在 (*可交换*) 环 $A$ (II, § 2, no. 8) 上的 $n$ 未知数中的系统或 $n$ 标量线性方程：
 
@@ -710,9 +710,9 @@ $$
 
 #### 命题 13 {#alg-iii-s8-prop-13 .statement tag=064Q}
 
-*对于$n$关于交换环的未知数中的系统或$n$线性方程，无论其右侧如何，都至少承认一个解，矩阵或系统的行列式是可逆的是必要且充分的；在这种情况下，系统承认单个解。*
+*对于交换环上$n$未知数中的系统或$n$线性方程，无论其右侧如何，至少承认一个解，矩阵或系统的行列式是可逆的必要且充分；在这种情况下，系统承认单个解。*
 
-若$\mathbf{A}$中$\det L$不是零的除子，则式(34)等价于式
+若$\mathbf{A}$中$\det L$不是零的除子，则式(34)等价于
 $$
 (\det L)L.x = (\det L)y.
 $$
@@ -726,7 +726,7 @@ $$
 $$
 (\det L)\xi_i = \sum_{j=1}^n (-1)^{i+j}(\det L^{ij})\eta_j = \det L_i \quad (1 \leq i \leq n)
 $$
-其中，$L_i$表示矩阵由指标$i$的$L$与$y$的替换列获得。 公式 (37) 被称为 *Cramer 的公式* 对于系统 (34)； (34) 的每个解也是 (37) 的解。相反，我们从 (36) 推导出来，考虑到 no. 6 的公式 (28)，
+其中，$L_i$表示矩阵由替换列、指标$i$的$L$通过$y$获得。 公式 (37) 被称为 *Cramer 的公式* 对于系统 (34)； (34) 的每个解也是 (37) 的解。相反，我们从 (36) 推导，考虑到 no. 6 的公式 (28)，
 (38)
 $$
 (\det L)(L.x - y) = 0
@@ -738,27 +738,27 @@ $$
 $$
 系统 (34) 使得 $\det L$ 可逆，也称为 *Cramer 系统*。
 
-特别是令 $y = 0$；然后从 no. 2 的命题 3 得出：
+特别是令 $y = 0$；然后从命题 3 of no. 2 得出：
 
 #### 命题 14 {#alg-iii-s8-prop-14 .statement tag=064R}
 
-*对于$n$未知数超过交换环的齐次线性系统的$n$方程要承认非零解，其矩阵的行列式是零的除子是必要且充分的。*
+*对于交换环上$n$未知数中$n$的齐次线性系统要承认非零解，其矩阵的行列式是零的除子是必要且充分的。*
 
-### 8. 交换域的情况
+### 8. 交换域案例
 
 当环$\mathbf{A}$为交换域时，以上均适用；但有一些简化和额外的结果。
 
-因此，在这种情况下，命题 12 of § 7, no. 9 可以表述如下：
+因此，在这种情况下，§ 7, no. 9的命题12可以表述如下：
 
 #### 命题 15 {#alg-iii-s8-prop-15 .statement tag=064S}
 
-令 $\mathbf{E}$ 大于交换域的向量空间；对于 $p$ 向量 $x_i \in \mathbf{E}$ ($1 \leq i \leq p$) 线性无关，$x_1 \wedge x_2 \wedge \cdots \wedge x_p \neq 0$ 是充分必要的。
+令$\mathbf{E}$大于向量空间超过交换域；为了使 $p$ 向量 $x_i \in \mathbf{E}$ ($1 \leq i \leq p$) 线性无关，$x_1 \wedge x_2 \wedge \cdots \wedge x_p \neq 0$ 是充分必要的。
 
-#### 推论{#alg-iii-s8-n8-cor-1 .statement tag=064T}
+#### 推论 {#alg-iii-s8-n8-cor-1 .statement tag=064T}
 
-设$X$为型$(m, n)$除交换域的矩阵。 $X$的秩等于最大的整数$p$，使得阶$p$的$X$中至少存在一个小数，即$\neq 0$。
+令$X$为型$(m, n)$除以交换域的矩阵。 $X$的秩等于最大的整数$p$，使得阶$p$的$X$中至少存在一个小数，即$\neq 0$。
 
-$X$的秩是$X$的线性无关列的最大值数（II, § 10, no. 12，定义7）。然后从 no. 5 的命题 15 和公式 (17) 得出推论。
+$X$的秩是$X$的线性无关列的最大值数（II, § 10, no. 12，定义7）。然后从命题 15 和公式 (17) of no. 5 得出推论。
 
 现在考虑交换域 $\mathbf{K}$ 上 $n$ 未知数中 $m$ 线性方程的系统的情况：
 
@@ -770,17 +770,17 @@ $$
 
 #### 命题 16 {#alg-iii-s8-prop-16 .statement tag=064U}
 
-令 $L = (\lambda_{ij})$ 为系统 (41) 中的矩阵（型 $(m, n)$）。令$M$为型$(m, n+1)$中的矩阵，在$L$上加上第$(n+1)$个列$(\eta_i)$(II, § 10, no. 1)。令 $p$ 为 $L$ 的秩（由应用命题 15 的推论计算）。假设$L$的次要$\Delta$（通过抑制$L$中指标$\geq p + 1$的行和列的行列式矩阵）是$\neq 0$（这总是可以通过在行上合适的置换来实现） $L$ 以及 $L$ 的列上合适的置换）。那么，要使系统 (41) 至少有一个解，$M$ 阶 $p + 1$ 的所有次数，阶 $p + 1$ $M$ 的子矩阵的行列式是充分必要的，其列有指标$1, 2, \ldots, p$和$n+1$，为零。如果是这样，系统(41)中的解就是前$p$方程中的系统由……组成；如果它们被写成
+令 $L = (\lambda_{ij})$ 为系统 (41) 中的矩阵（型 $(m, n)$）。令$M$为型$(m, n+1)$中的矩阵，在$L$上加上第$(n+1)$个列$(\eta_i)$(II, § 10, no. 1)。令 $p$ 为 $L$ 的秩（由应用命题 15 的推论计算）。假设$L$的次要$\Delta$（通过抑制$L$中指标$\geq p + 1$的行和列的行列式矩阵）是$\neq 0$（这总是可以通过在行上的合适的置换来实现） $L$ 以及$L$ 的列上合适的置换）。那么，要使系统 (41) 至少有一个解，$M$ 的阶 $p + 1$ 的所有次数是阶 $p + 1$ $M$ 的子矩阵的行列式，其列有指标$1, 2, \ldots, p$和$n+1$，为零。如果是这样，系统(41)中的解就是前$p$方程中的系统由……组成；如果它们被写成
 
 $$
 \sum_{j=1}^p \lambda_{ij} \xi_j = \eta_i - \sum_{k=p+1}^n \lambda_{ik} \xi_k \quad (1 \leq i \leq p)
 $$
 
-这个系统的所有解都是通过取指标$k > p$任意值和应用Cramer的公式（no. 7，公式（37））的$\xi_k$得到计算$\xi_j$指标$j \leq p$。
+这个系统的所有解都是通过取指标$k > p$任意值和应用Cramer的公式（no. 7，公式（37））的$\xi_k$得到计算 $\xi_j$ 指标 $j \leq p$。
 
-我们知道（II, § 10, no. 12，命题 12），系统（41）至少有一个解，矩阵$L$和$M$有相同的秩是充分必要的。将 $L$ 的行和列排列为叙述的满足条件，令 $a_i$ ($1 \leq i \leq p$) 表示 $L$ 的第一个 $p$ 列，并且$y = (\eta_i)$$M$的第$(n+1)$-第列；因为$L$的所有列都由$a_i$的假设线性组合，所以说$M$与$L$有相同的秩$p$意味着$y$是$a_i$的线性组合，或者也可以是（命题15）$a_1 \wedge \cdots \wedge a_p \wedge y = 0$。 叙述中的可能性条件是后者关系的翻译，考虑到no. 5的公式(17)。此外，由于$M$的前$p$行是线性无关的，指标$> p$的行是其中的线性组合，因此(42)的每个解也是(41)的解。 最后一个断言那么直接的推论命题 13 no. 7。
+我们知道（II, § 10, no. 12，命题 12），系统（41）至少有一个解，矩阵$L$和$M$有相同的秩是充分必要的。将 $L$ 的行和列排列为叙述的满足条件，令 $a_i$ ($1 \leq i \leq p$) 表示 $L$ 的第一个 $p$ 列， $y = (\eta_i)$ $M$ 的第 $(n+1)$-第列；由于 $L$ 的所有列均由 $a_i$ 的假设线性组合组成，所以说 $M$ 与 $L$ 具有相同的秩 $p$ 意味着 $y$ 是$a_i$ 的线性组合，或者 $a_1 \wedge \cdots \wedge a_p \wedge y = 0$ 的 (命题 15)。 叙述中的可能性条件是后者关系的翻译，考虑到no. 5的公式(17)。此外，由于$M$的前$p$行是线性无关的，指标$> p$的行是其中的线性组合，因此(42)的每个解也是(41)的解。 最后一个断言那么直接的推论命题 13 no. 7。
 
-### 9.幺模群$\mathbf{SL}(n, A)$
+### 9. 幺模群$\mathbf{SL}(n, A)$
 
 让$\mathbf{M}_n(A)$表示$A$上的阶$n$的方阵的环。考虑映射$\det : \mathbf{M}_n(A) \to A$。 $\mathbf{M}_n(A)$的可逆元群$\mathbf{GL}(n, A)$（与$A$-模块$A^n$的自同构群同构（II, § 10, no. 7））在这个映射下就是逆像 $A$可逆元乘法群$A^*$（no. 3、命题5）。 注另一方面，映射 $\det : \mathbf{GL}(n, A) \to A^*$ 是群同态（no. 3，命题 5）。
 
@@ -919,7 +919,7 @@ $$
 
 令 $M$ 为有限维自由 $A$ 模，且为 $M$ 的 $u$ 自同态。自由$A[X]$模$M[X]$的自同态$X - \bar{u}$的行列式称为$u$的特征多项式，记为$\chi_u(X)$。
 
-如果 $M$ 为秩 $n$，则由 (49) 得出
+如果 $M$ 是秩 $n$，则由 (49) 得出
 
 $$
 \chi_u(X) = \sum_{j=0}^n (-1)^j \operatorname{Tr}(\wedge^j(u)) X^{n-j}
@@ -941,4 +941,4 @@ $$
 
 ### 习题{#alg-iii-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

@@ -25,16 +25,16 @@ subsections:
       pdf_page: 158
 statements: 11
 exercises: 4
-content_sha256: 93bb2e37c2c057771f9a8f1470b7a4198123caa98f3bbe0c2d79ad5e3329fe96
+content_sha256: 61513a01a76e03ac48f16095f9e0216cb15ed29dc17fe94bd9f4f87eb0b9fb75
 translated_from: content/en/lie/II/03_s3_enveloping_algebra_of_the_free_lie.md
 translation_method: google
 source_content_sha256: 1d39611cf30ae9228e327035d9d7254aba6ff04ead058f79653b16b5bbbadc54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 389e7b6e5a8214fc104f226850e1d6eab76d00ccdfd8b01a71ecb95eae76a6de
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 3。包容代数免费李代数
@@ -45,11 +45,11 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 #### 定理 1 {#lie-ii-s3-thm-1 .statement tag=0A42}
 
-*令*$\alpha : L(X) \to A(X)$*成为唯一的李代数同态将*$X$*的典范嵌入延伸到*$A(X)$*(§ 2, no. 2,命题1)*。 *令* $\sigma : L(X) \to U(L(X))$ 为 $L(X)$ 的典范映射入其包络线代数，并令 $\beta : U(L(X)) \to A(X)$ 为唯一单位代数同态，使得 $\beta \circ \sigma = \alpha$ (章 I, § 2, no. 1, 命题 1）。然后：
-(a) $\alpha$ 是单射，$\alpha(L(X))$ 是 $A(X)$ 的直因子子模。
+*令*$\alpha : L(X) \to A(X)$*成为唯一的李代数同态将*$X$*的典范嵌入延伸到*$A(X)$*(§ 2, no. 2,命题1)*。 *令* $\sigma : L(X) \to U(L(X))$ 为 $L(X)$ 的典范映射入其包络线代数，并令 $\beta : U(L(X)) \to A(X)$ 为唯一单位代数同态，使得 $\beta \circ \sigma = \alpha$ (章 I, § 2, no. 1, 命题) 1）。然后：
+(a) $\alpha$ 是单射的，$\alpha(L(X))$ 是 $A(X)$ 的直因子子模。
 (b) $\beta$ 是双射的。
 
-令 B 为 B 中 X 的 K-代数和 $\phi$ 映射；通过§ 2, no. 2的命题 1，存在李代数同态$\psi : L(X) \to B$使得$\psi | X = \phi$；通过章I, § 2, no. 1的命题1，存在一个单位代数同态$\theta : U(L(X)) \to B$使得$\theta \circ \sigma = \psi$因此使得$(\theta \circ \sigma) | X = \phi$。由于$\sigma(X)$生成是单位代数$U(L(X))$，同态$\theta$是唯一的单位代数同态满足后者条件。这表明有序对$(U(L(X)), \sigma | X)$是解与$A(X)$相同的普遍映射问题；将$\phi$取X的典范嵌入代入$A(X)$，可推导出$\beta$为同构，从而证明(b)。
+令B为B的X的单位K-代数和$\phi$映射；通过§ 2, no. 2的命题 1，存在李代数同态$\psi : L(X) \to B$使得$\psi | X = \phi$；通过章I, § 2, no. 1的命题1，存在一个单位代数同态$\theta : U(L(X)) \to B$使得$\theta \circ \sigma = \psi$因此使得$(\theta \circ \sigma) | X = \phi$。由于$\sigma(X)$生成是单位代数$U(L(X))$，同态$\theta$是唯一的单位代数同态满足后者条件。这表明有序对$(U(L(X)), \sigma | X)$是解，普遍映射问题与$A(X)$相同；将$\phi$取X的典范嵌入代入$A(X)$，可推导出$\beta$为同构，从而证明(b)。
 
 最后，由于$L(X)$是自由K-模（§ 2, no. 11，定理1的推论），$\sigma$是单射，$\sigma(L(X))$是$U(L(X))$的直因子子模（章I, § 2, no. 7，推论） 3 至定理 1)。由(b)证明(a)。
 
@@ -77,13 +77,13 @@ $$
 
 (2) 如果仅假设环 K 的加法群无扭转，则推论 2 至定理 1 仍然有效。首先假设$K = \mathbf{Z}$； $A(X)$ 的每个原语元素都是 $A_q(X)$ 的原语元素，因此位于 $L_q(X) \cap A(X) = L(X)$ 中（推论 2 和公式 (1)）。一般情况下，K 在 $\mathbf{Z}$ 上是平坦的，我们应用 § 1, no. 2 的注 2 和 § 2, no. 5 的命题 3。
 
-(3) 令$\Delta$为可交换幺半群，将$X$的$\phi_0$映射转化为相关幺半群的$\Delta$和$\phi : Mo(X) \to \Delta$同态；如果 $A(X)$ 的毕业等级 $(A^\delta(X))_{\delta \in \Delta}$ 在 *代数*、章 III, § 3, no. 1、*例* 3 中定义，并且 $L(X)$ 的毕业等级 $(L^\delta(X))_{\delta \in \Delta}$ 在 § 2, no. 6 中定义，我们立即有，对于 $\delta \in \Delta$， $L^\delta(X) \subset L(X) \cap A^\delta(X)$。由于$L$是$\delta \in \Delta$的$L^\delta(X)$的和，而$\delta \in \Delta$的$L(X) \cap A^\delta(X)$的和是直接的，这意味着
+(3) 令$\Delta$为可交换幺半群，将$X$的$\phi_0$映射转化为相关幺半群的$\Delta$和$\phi : Mo(X) \to \Delta$同态；如果$A(X)$被赋予*代数*、章III, § 3, no. 1、*例* 3中定义的毕业$(A^\delta(X))_{\delta \in \Delta}$以及$L(X)$在§ 2, no. 6中定义的毕业$(L^\delta(X))_{\delta \in \Delta}$，我们立即有，对于$\delta \in \Delta$， $L^\delta(X) \subset L(X) \cap A^\delta(X)$。由于$L$是$\delta \in \Delta$的$L^\delta(X)$的和，而$\delta \in \Delta$的$L(X) \cap A^\delta(X)$的和是直接的，这意味着
 
 $$
 L^\delta(X) = L(X) \cap A^\delta(X).
 $$
 
-(4) 设$A$为单位结合律代数，且$t = (t_i)_{i \in I}$为元素和$A$的族。我们有图表
+(4) 设$A$为单位结合律代数且$t = (t_i)_{i \in I}$为元素和$A$的族。我们有图表
 
 $$
 \begin{array}{ccc}
@@ -93,9 +93,9 @@ A(I)
 \end{array}
 $$
 
-其中$i$是典范嵌入，$f_t$是由$t$定义的李代数同态，$g_t$是单位代数同态，使得$g_t(i) = t_i$代表$i \in I$。 图表对于 $g_t \circ i$ 和 $f_t$ 重合在 $I$ 上是可交换的。因此，如果 § 2, no. 4、重合中定义了 $P \in L(I)$、元素 $P((t_i)_{i \in I})$，而 *代数*、章 III, § 2, no. 8、*例* 中定义了元素 $P((t_i)_{i \in I})$ 2。
+其中$i$是典范嵌入，$f_t$是李代数同态，由$t$定义，$g_t$是单位代数同态，使得$g_t(i) = t_i$代表$i \in I$。 图表对于 $g_t \circ i$ 和 $f_t$ 重合在 $I$ 上是可交换的。因此，如果 § 2, no. 4、重合中定义了 $P \in L(I)$、元素 $P((t_i)_{i \in I})$，而 *代数*、章 III, § 2, no. 8、*例* 中定义了元素 $P((t_i)_{i \in I})$ 2。
 
-### 2.投影算子$A^+(X)$到$L(X)$
+### 2. 投影算子 $A^+(X)$ 到 $L(X)$
 
 令 $\pi$ 为 $A^+(X)$ 的线性映射到 $L(X)$ 定义为
 
@@ -107,8 +107,8 @@ $X$ 中的 $n > 0, x_1, \ldots, x_n$。
 
 #### 命题 1 {#lie-ii-s3-prop-1 .statement tag=0A46}
 
-(a) * $\pi$ 到 $L(X)$ 的限制 $\pi_0$ 是 $L(X)$ 的推导。*
-(b) *对于每个整数$n \geq 1$以及$L^n(X)$、$\pi(u) = n.u$中的所有$u$。*
+(a) *$\pi$到$L(X)$的限制$\pi_0$是$L(X)$的推导。*
+(b) *对于每个整数 $n \geq 1$ 以及 $L^n(X)$、$\pi(u) = n.u$ 中的所有 $u$。*
 
 (a) 令$E$为模$L(X)$的内同态代数和$A(X)$的$\theta$同态进入$E$，使得$\theta(x) = \operatorname{ad} x$对于所有$x \in X$。 $\theta$到$L(X)$的限制是$L(X)$的李代数同态到$E$，其中$X$上的重合与$L(X)$的伴随表示， 从而
 
@@ -155,9 +155,9 @@ $$
 
 #### 注{#lie-ii-s3-n2-rem-1 .statement tag=0A48}
 
-假设 K 是特征零的域，并让 Q 是 $A(X) = U(L(X))$ 的投影算子到 $L(X)$，与$U(L(X))$、cf. § 1, no. 5 的规范分级相关。 *对于$\alpha \in \mathbf{N}^{(X)}$、$Q(A^\alpha(X)) \subset L^\alpha(X)$。*只要验证Q的像和核的等级为$A(X)$的子模，等级为型$\mathbf{N}^{(X)}$即可。这对于像来说是显而易见的，它等于 $L(X)$。另一方面，令$n$为整数$\geq 1$。 $y^n$生成的$A(X)$的向量子空间，其中$y \in L(X)$等于$\sum_{\sigma \in S_n} y_{\sigma(1)} y_{\sigma(2)} \cdots y_{\sigma(n)}$生成的$A(X)$的向量子空间，其中$y_1, y_2, \ldots, y_n$是齐次的元素 $L(X)$；那么这个子空间就是$A(X)$的分级子模。
+假设 K 是特征零的域，并让 Q 是 $A(X) = U(L(X))$ 的投影算子到 $L(X)$，与 $U(L(X))$、cf. § 1, no. 5 的规范分级相关。 *对于$\alpha \in \mathbf{N}^{(X)}$，$Q(A^\alpha(X)) \subset L^\alpha(X)$。*只要验证Q的像和核的等级为$A(X)$的子模，等级为型$\mathbf{N}^{(X)}$即可。这对于像来说是显而易见的，它等于 $L(X)$。另一方面，令$n$为整数$\geq 1$。 $y^n$生成的$A(X)$的向量子空间，其中$y \in L(X)$，等于$\sum_{\sigma \in S_n} y_{\sigma(1)} y_{\sigma(2)} \cdots y_{\sigma(n)}$生成的$A(X)$的向量子空间，其中$y_1, y_2, \ldots, y_n$是齐次元素 $L(X)$；那么这个子空间就是$A(X)$的分级子模。
 
-（注，如果 Card(X) $\geq 2$、投影算子 P 和 Q *不在 $A^+(X)$ 上实现重合*。让 $x, y$ 与 $x \neq y$ 一起位于 X 中并写入
+（注，如果 Card(X) $\geq 2$，投影算子 P 和 Q *不在 $A^+(X)$ 上重合*。让 $x, y$ 与 $x \neq y$ 位于 X 中，并写
 
 $$
 z = x[x, y] + [x, y]x = x^2y - yx^2.
@@ -171,7 +171,7 @@ $$
 
 #### 引理 1 {#lie-ii-s3-lem-1 .statement tag=0A49}
 
-令 n 为整数 > 0，$T_1, \ldots, T_n$ 不确定，$u_1, \ldots, u_n$ 元素为 $\mathbf{Z}$。令 $(c(\alpha))_{\alpha \in \mathbf{N}^n - \{0\}}$ 为元素 $\mathbf{Z}$ 的族，使得
+令 n 为整数 > 0，$T_1, \ldots, T_n$ 不确定，$u_1, \ldots, u_n$ 元素为 $\mathbf{Z}$。令 $(c(\alpha))_{\alpha \in \mathbf{N}^n - \{0\}}$ 为元素和 $\mathbf{Z}$ 的族，使得
 
 $$
 1 - \sum_{i=1}^n u_i T_i = \prod_{\alpha \neq 0} (1 - T^\alpha)^{c(\alpha)}.
@@ -236,7 +236,7 @@ $$
 
 *令 $X$ 为有限集合和 $n = \mathrm{Card}(X)$。*
 
-(a) *对于每个整数$r \geqslant 1$，$K$-模块$L^r(X)$不含秩*
+(a) *对于每个整数 $r \geqslant 1$，$K$-模块 $L^r(X)$ 不含秩*
 
 $$
 c(r) = \frac{1}{r} \sum_{d|r} \mu(d) n^{r/d},
@@ -274,16 +274,16 @@ $$
 P(T) = \left( 1 - \sum_{x \in X} T_x \right)^{-1}.
 $$
 
-(2) 对于所有$\alpha \in \mathbf{N}^X - \{0\}$，令$(e_{\alpha,j})_{1 \leq j \leq c(\alpha)}$为$L^\alpha(X)$的基，并给出有序对$(\alpha, j)$的集合$I$，使得$\alpha \in \mathbf{N}^X - \{0\}$和$1 \leq j \leq c(\alpha)$有全序。由 no. 1 的定理 1 和庞加莱-伯霍夫-维特定理（章 I, § 2, no. 7，推出 3 到定理 1），元素
+(2) 对于所有$\alpha \in \mathbf{N}^X - \{0\}$，令$(e_{\alpha,j})_{1 \leq j \leq c(\alpha)}$为$L^\alpha(X)$中的基，并给出有序对$(\alpha, j)$中的集合$I$，使得$\alpha \in \mathbf{N}^X - \{0\}$和$1 \leq j \leq c(\alpha)$全序。由 no. 1 的定理 1 和庞加莱-伯霍夫-维特定理（章 I, § 2, no. 7，推出 3 到定理 1），元素
 $$
 y_m = \prod_{(\alpha, j) \in I} (e_{\alpha, j})^{m(\alpha, j)},
 $$
-其中指标$m$穿过$\mathbf{N}^{(I)}$、形式基或$A(X)$。每个$y_m$都是多次$\sum_{(\alpha, j) \in I} m(\alpha, j) \alpha$。让 $u(m)$ 表示这个多次。由此可见
+其中指标 $m$ 贯穿 $\mathbf{N}^{(I)}$、形式基和 $A(X)$。每个$y_m$都是多次$\sum_{(\alpha, j) \in I} m(\alpha, j) \alpha$。让 $u(m)$ 表示这个多次。由此可见
 $$
 P(T) = \sum_{m \in \mathbf{N}^{(I)}} T^{u(m)} = \sum_{m \in \mathbf{N}^{(I)}} \prod_{(\alpha, j) \in I} T^{m(\alpha, j)\alpha}
 = \prod_{(\alpha, j) \in I} \sum_{r=0}^\infty T^{r\alpha} = \prod_{(\alpha, j) \in I} (1 - T^\alpha)^{-1},
 $$
-终于从而
+从而终于
 $$
 P(T) = \prod_{\alpha \in \mathbf{N}^X - \{0\}} (1 - T^\alpha)^{-c(\alpha)}.
 $$
@@ -317,4 +317,4 @@ $$
 
 字母$X$表示集合。
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

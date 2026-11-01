@@ -37,16 +37,16 @@ subsections:
       pdf_page: 88
 statements: 30
 exercises: 29
-content_sha256: 2dcf2e1a153ec2812d632456ffc28d653137b4b791ac5f2aff8fa758f3785fc2
+content_sha256: cdc6dfb498f11c27541b4048cc62c946e4f8587374b37483a1303e84ec91d27e
 translated_from: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
 translation_method: google
 source_content_sha256: daafa83709f77ca8c5f24c854acb749ef62cc4f8fd95a86660a5a0aa731a2fec
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 7fb80677d38f3ff49835dadeb9cce34e9e0d84d2318c6144f8d5b90f676f576c
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 8. 豪斯多夫空间和常规空间
@@ -60,8 +60,8 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 (H) $X$ 中任意两个不同的点都有不相交的邻域。
 （嗨）$X$的任何点的封闭邻域的交仅由点组成。
 (嗨)乘积空间$X \times X$的对角线是闭集合。
-(Hiii) 对于每个集合 $I$，乘积空间 $Y = X^I$ 的对角线在 $Y$ 中闭合。
-(HIV) $X$ 上的过滤器没有超过 1 个极限点。
+(Hiii) 对于每个集合 $I$，乘积空间 $Y = X^I$ 的对角线在 $Y$ 内闭合。
+(HIV) $X$ 上没有一个过滤器具有多个极限点。
 (Hv) 如果$X$上的过滤器$\mathfrak{F}$收敛到$x$，则$x$是$\mathfrak{F}$的唯一簇点。
 
 我们将证明其含义
@@ -82,7 +82,7 @@ $$
 
 (Hv) $\Longrightarrow$ (Hiv)：清楚，因为过滤器的每个极限点也是一个簇点。
 
-(Hiv) $\Longrightarrow$ (H)：假设 $x \neq y$ 并且 $x$ 中的每一个邻域 $V$ 都满足 $y$ 中的每一个邻域 $W$。然后，同时具有$x$和$y$的滤波器的集合$V \cap W$形式基为极限点，这与假设相反。
+(Hiv) $\Longrightarrow$ (H)：假设 $x \neq y$ 并且 $x$ 中的每一个邻域 $V$ 都满足 $y$ 中的每一个邻域 $W$。那么同时具有$x$和$y$的滤波器的集合$V \cap W$形式基为极限点，这与假设相反。
 
 (H) $\Longrightarrow$ (Hiii)：设$(x) = (x_i)$为$X^I$的点，它不属于到对角线$\Delta$。那么至少有两个指标$\lambda, \mu$使得$x_\lambda \neq x_\mu$。令$V_\lambda$（或$V_\mu$）为$X$中$x_\lambda$（或$x_\mu$）的邻域，使得$V_\lambda \cap V_\mu = \varnothing$；那么集合 $W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i$（其中 $X_i = X$ 如果 $i \neq \lambda, \mu$）是 $X^I$ (§ 4, no. 1) 中 $x$ 的邻域，且不满足 $\Delta$。因此$\Delta$于$X^I$关闭。
 
@@ -111,7 +111,7 @@ $$
 
 *令$f, g$为拓扑空间$X$的两个连续的映射变为豪斯多夫空间$Y$；那么所有$x \in X$中的集合使得$f(x) = g(x)$在$X$中闭合。*
 
-对于这个集合是$Y \times Y$在映射$x \mapsto (f(x), g(x))$下的对角线的逆像，它是连续的（§ 4, no. 1，命题1）。因此，结果由 (Hii) 和 § 2, no. 1、定理 1 得出。
+对于这个集合是$Y \times Y$在映射$x \mapsto (f(x), g(x))$下的对角线的逆像，它是连续的（§ 4, no. 1，命题1）。因此，结果由 (Hii) 和§ 2, no. 1、定理 1 得出。
 
 #### 推论 1（原理 / 扩张恒等式）{#top-i-s8-prop-2-cor-1 .statement tag=0B69}
 
@@ -123,13 +123,13 @@ $$
 
 *如果$f$是拓扑空间$X$到Hausdorff空间$Y$的连续映射，则$f$的图在$X \times Y$中闭合。*
 
-对于该图，是所有 $(x, y) \in X \times Y$ 中的集合使得 $f(x) = y$，并且两个映射、$(x, y) \to y$ 和 $(x, y) \to f(x)$ 是连续的。
+对于该图，是所有 $(x, y) \in X \times Y$ 的集合使得 $f(x) = y$，并且两个映射 $(x, y) \to y$ 和 $(x, y) \to f(x)$ 是连续的。
 
 #### 命题 3 {#top-i-s8-prop-3 .statement tag=0B6B}
 
-*令 $(x_i)_{1 \leq i \leq n}$ 为 Hausdorff 空间 $X$ 的不同点的有限族；那么每个$x_i$在$X$中有邻域$V_i$，使得$V_i$（$1 \leq i \leq n$）互为不相交的。*
+*令 $(x_i)_{1 \leq i \leq n}$ 为 Hausdorff 空间 $X$ 的不同点的有限族；那么每个$x_i$在$X$中有邻域$V_i$，这样$V_i$（$1 \leq i \leq n$）就互为不相交的。*
 
-证明由归纳在 $n$ 上：情况 $n = 2$ 只是公理 (H)。设$W_i$ ($1 \leq i \leq n - 1$) 为$x_i$ 的邻域，使得$W_i$ 互为不相交的。另一方面，对于$1 \leq i \leq n - 1$，$x_i$有邻域$T_i$和$x_n$有邻域$U_i$不相交。如果我们将 $1 \leq i \leq n - 1$ 的$V_i$ 变为 $W_i \cap T_i$ 并且
+证明由归纳在 $n$ 上：情况 $n = 2$ 只是公理 (H)。令$W_i$ ($1 \leq i \leq n - 1$) 为$x_i$ 的邻域，使得$W_i$ 互为不相交的。另一方面，对于$1 \leq i \leq n - 1$，$x_i$有邻域$T_i$和$x_n$有邻域$U_i$不相交。如果我们将 $1 \leq i \leq n - 1$ 的$V_i$ 变为 $W_i \cap T_i$ 并且
 $$
 V_n = \bigcap_{i=1}^{n-1} U_i,
 $$
@@ -149,7 +149,7 @@ $$
 
 *令$X$为拓扑空间，并假设对于$X$的不同点$x, y$的每个对，存在$X$的连续映射$f$进入Hausdorff 空间$X'$使得$f(x) \neq f(y)$。那么 $X$ 就是 Hausdorff。*
 
-令$V'$和$W'$分别为$X'$中$f(x)$和$f(y)$的不相交的和邻域；那么$\overline{f}^{-1}(V')$和$\overline{f}^{-1}(W')$分别是$x$和$y$在$X$中的不相交的邻域。
+令$V'$和$W'$分别为$X'$中$f(x)$和$f(y)$的不相交的和邻域；那么$\overline{f}^{-1}(V')$和$\overline{f}^{-1}(W')$分别是$X$中$x$和$y$的不相交的邻域。
 
 #### 推论{#top-i-s8-n1-cor-2 .statement tag=0B6F}
 
@@ -181,27 +181,27 @@ $$
 
 #### 推论 2 {#top-i-s8-prop-7-cor-2 .statement tag=0B6J}
 
-*令$(X_\alpha, f_{\alpha \beta})$为拓扑空间的逆系。如果 $X_\alpha$ 是 Hausdorff，则 $X = \varprojlim X_\alpha$ 是 Hausdorff，并且是 $\prod_\alpha X_\alpha$ 的闭子空间。
+*设$(X_\alpha, f_{\alpha \beta})$为拓扑空间的逆系。如果 $X_\alpha$ 是 Hausdorff，则 $X = \varprojlim X_\alpha$ 是 Hausdorff，并且是 $\prod_\alpha X_\alpha$ 的闭子空间。
 
 第一个断言源自$X$是Hausdorff空间$\prod_\alpha X_\alpha$（命题7）的子空间。为了证明 $X$ 在乘积空间内闭合，令 $F_{\alpha \beta}$ ($\alpha \leq \beta$) 为 $\prod_\alpha X_\alpha$ 由……组成的子集点 $x$，其中 $\operatorname{pr}_\alpha x = f_{\alpha \beta}(\operatorname{pr}_\beta x)$； $F_{\alpha \beta}$ 在$\prod_\alpha X_\alpha$（no. 1、命题 2）关闭，因此交 $X$ 也关闭。
 
 显然，Hausdorff 空间 (§ 2, no. 4, 例 3) 的任何 *和* 都是 Hausdorff 空间。
 
-### 3. 豪斯多夫商空间
+### 3. 豪斯多夫商数空间
 
 让我们寻找条件，其中商空间 $X/R$ 是 *Hausdorff*（在这种情况下，等价关系 $R$ 被称为 *Hausdorff*）。首先，如果 $X/R$ 是 Hausdorff，则单个点的 $X/R$ 由……组成的子集 *闭*（no. 1，命题 4），因此*每个等价类* mod $R$ *闭于* $X$。但这个必要的条件还不够。
 
-$X/R$中的开集合的定义产生以下必要且充分的条件：$X/R$是Hausdorff当且仅当$X$中的任意两个不同的等价类包含在不相交的饱和开子集中$X$。我们会给其他更有用的条件。
+$X/R$中的开集合的定义产生以下必要且充分的条件：$X/R$是Hausdorff当且仅当$X$中的任意两个不同的等价类包含在不相交的的饱和开子集中$X$。我们会给其他更有用的条件。
 
 #### 命题 8 {#top-i-s8-prop-8 .statement tag=0B6K}
 
 *商空间 $X/R$ 成为 Hausdorff 的必要条件是条件 $R$ 的图 $C$ 在 $X \times X$ 中闭合。如果等价关系$R$打开，这个条件也足够了。*
 
-设$\varphi : X \to X/R$为典范映射；那么$C$是$(X/R) \times (X/R)$的对角线$\Delta$在$\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$下的逆像。因此，命题的第一个部分来自$\varphi \times \varphi$的连续性[公理（Hii）和§ 2, no. 1的定理1]。如果 $R$ 开路，则$(X/R) \times (X/R)$ 可以用商空间 $(X \times X)/(R \times R)$ 来识别（$§ 5$，no. 3，推论命题 8），然后$\Delta$ 可以用典范像来识别集合$C$的$(X \times X)/(R \times R)$，相对于$R \times R$饱和。因此 $\Delta$ 在 $X \times X$ 中闭合，因此 $X$ 是 Hausdorff。
+设$\varphi : X \to X/R$为典范映射；那么$C$是$(X/R) \times (X/R)$的对角线$\Delta$在$\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$下的逆像。因此，命题的第一个部分来自$\varphi \times \varphi$的连续性[公理（Hii）和§ 2, no. 1的定理1]。如果 $R$ 是开路，则$(X/R) \times (X/R)$ 可以用商空间 $(X \times X)/(R \times R)$ 来识别（$§ 5$，no. 3，推论命题 8），然后$\Delta$ 可以用典范像来识别集合$C$的$(X \times X)/(R \times R)$，相对于$R \times R$饱和。因此 $\Delta$ 在 $X \times X$ 中闭合，因此 $X$ 是 Hausdorff。
 
 如果 $R$ 不开，则有例，其中 $C$ 闭，但 $R$ 不是 Hausdorff（习题 10 和 28）。
 
-为了证明$X/R$是Hausdorff，我们还可以no. 1的应用命题5：$M$和$N$是$R$的两个不同的等价类，开子集应该有一个连续的映射$f$就足够了$X$的$A$，相对于$R$和包含$M$和$N$饱和，变成Hausdorff空间$X'$，使得1)$f$在每个等价类模上是恒定的$A$中包含$R$，2) $f$在$M$和$N$上取不同的值。因为$A/R_A$可以用$X/R$的开子集来识别（$§ 3$，no. 6，命题10，推论1），我们可以将no. 1的应用命题5到映射 $g : A/R_A \to X'$ 由 $f$ 引发，因为 $g$ 是连续的 ($§ 3$、no. 4、命题 6)。
+为了证明$X/R$是Hausdorff，我们还可以no. 1的应用命题5：$M$和$N$是$R$的两个不同的等价类，只要有一个开子集的连续映射$f$就足够了$X$的$A$，相对于$R$和包含$M$和$N$饱和，变成Hausdorff空间$X'$，使得1)$f$在每个等价类模上是恒定的$A$中包含$R$，2) $f$在$M$和$N$上取不同的值。因为$A/R_A$可以用$X/R$的开子集来识别（$§ 3$，no. 6，命题10，推论1），我们可以将no. 1的应用命题5到映射 $g : A/R_A \to X'$ 由 $f$ 引发，因为 $g$ 是连续的 ($§ 3$、no. 4、命题 6)。
 
 特别是：
 
@@ -213,9 +213,9 @@ $X/R$中的开集合的定义产生以下必要且充分的条件：$X/R$是Haus
 
 *如果 $X$ 是 Hausdorff 空间，并且如果 $X$ 对于等价关系 $R$ 具有连续的截面 $s$，则 $X/R$ 是 Hausdorff 并且 $s(X/R)$ 是闭的$X$.*
 
-对于 ($§ 3$, no. 5) $X/R$ 同胚于 $X$ 的子空间 $s(X/R)$，即 Hausdorff。此外，$s(X/R)$是所有$x \in X$中的集合，使得$s(\varphi(x)) = x$，其中$\varphi : X \to X/R$是典范映射；因此，第二个断言是从no. 1、命题2得出的。
+对于 ($§ 3$, no. 5) $X/R$ 同胚于 $X$ 的子空间 $s(X/R)$，即 Hausdorff。此外，$s(X/R)$是所有$x \in X$中的集合，使得$s(\varphi(x)) = x$，其中$\varphi : X \to X/R$是典范映射；因此，第二个断言源自no. 1、命题2。
 
-### 4.常规空间
+### 4. 普通空间
 
 #### 命题 11 {#top-i-s8-prop-11 .statement tag=0B6N}
 
@@ -223,7 +223,7 @@ $X/R$中的开集合的定义产生以下必要且充分的条件：$X/R$是Haus
 
 (O_{III}) $X$的任意点的闭邻域的集合是点的邻域的基本系统。
 
-(O'_{III}) 给定 $X$ 的任何闭子集 $F$ 和任何点 $x \notin F$，$x$ 的邻域和 $F$ 的邻域不存在相交。
+(O'_{III}) 给定 $X$ 的任何闭子集 $F$ 和任何点 $x \notin F$，存在 $x$ 的邻域和 $F$ 的邻域，它们不相交。
 
 (O_{III}) \Longrightarrow(O'_{III})：如果$F$闭且$x \notin F$，则$x$的邻域$C_F$中包含$x$的闭邻域$V$； $V$和$C_V$分别是$x$和$F$的邻域，公共的中没有点。
 
@@ -259,7 +259,7 @@ $X$ 是 no. 2 的命题 6 的 Hausdorff。 令$x$为$X$的任意点，并令$V$�
 
 比常规拓扑更细的拓扑不必是常规的 (习题 20)。
 
-### 5. 扩张通过连续性； 双极限
+### 5. 扩张连续性； 双极限
 
 #### 定理 1 {#top-i-s8-thm-1 .statement tag=0B6U}
 
@@ -292,7 +292,7 @@ b) $\lim_{x_2, \mathfrak{F}_2} f(x_1, x_2) = g(x_1)$ 对于所有 $x_1 \in X_1$ 
 
 那么$\lim_{x_1, \mathfrak{F}_1} g(x_1)$存在并且等于$\lim_{\mathfrak{F}_1 \times \mathfrak{F}_2} f$。
 
-令$X'_1 = X_1 \cup \{\omega_1\}$（或$X'_2 = X_2 \cup \{\omega_2\}$）为拓扑空间*与过滤器相关*$\mathfrak{F}_1$（或$\mathfrak{F}_2$）（§ 6, no. 5，例）。在乘积空间$X' = X'_1 \times X'_2$中，令$X''$为子空间$X_1 \times X'_2$和$\{(\omega_1, \omega_2)\}$中的并。 $X$显然是$X''$的稠密子空间，并且假设暗示当$(y_1, y_2)$趋向于$X''$的任何点$(x_1, x_2)$同时保留在$X$时，$f(y_1, y_2)$趋向于极限。 $f$ 的扩张通过连续到 $X''$ 可以从定理 1 得出。由于 $(\omega_1, \omega_2)$ 也位于$X_1 \times \{\omega_2\}$ 相对于 $X''$ 的闭包，因此结果立即得出（§ 7, no. 5）。
+令$X'_1 = X_1 \cup \{\omega_1\}$（或$X'_2 = X_2 \cup \{\omega_2\}$）为拓扑空间 *与过滤器相关联* $\mathfrak{F}_1$（或$\mathfrak{F}_2$）（§ 6, no. 5，例）。在乘积空间$X' = X'_1 \times X'_2$中，令$X''$为子空间$X_1 \times X'_2$和$\{(\omega_1, \omega_2)\}$中的并。 $X$显然是$X''$的稠密子空间，并且假设暗示当$(y_1, y_2)$趋向于$X''$的任何点$(x_1, x_2)$同时保持在$X$时，$f(y_1, y_2)$趋向于极限。 $f$ 的扩张通过连续到 $X''$ 可以从定理 1 得出。由于 $(\omega_1, \omega_2)$ 也位于 $X_1 \times \{\omega_2\}$ 相对于 $X''$ 的闭包中，因此结果立即得出（§ 7, no. 5）。
 
 ### 6. 等价关系常规空间
 
@@ -300,13 +300,13 @@ b) $\lim_{x_2, \mathfrak{F}_2} f(x_1, x_2) = g(x_1)$ 对于所有 $x_1 \in X_1$ 
 
 *让*$X$*成为常规空间*，$R$*于*$X$关闭等价关系。 *然后* $C$ *的* $R$ *在* $X \times X$ *中的图形是闭合的*。
 
-令$(a, b)$为$C$闭包中$X \times X$的点，并令$V$（或$W$）为$a$的*封闭*邻域（或$b$的邻域）在$X$；然后是点$(x, y) \in C \cap (V \times W)$。从$x \in V$、$y$属于到$V$相对于$R$的饱和度$S$；因此，$b$中的每个邻域$W$都满足$S$。到假设 $S$ *关闭*，因此$b \in S$。现在令$B$为$\{b\}$相对于$R$的饱和，则$a$的每个闭邻域$V$都满足$B$；由于假设$B$是*关闭*并且$X$是*常规*，因此$a \in B$因此是$(a, b) \in C$。这样就完成了证明。
+令$(a, b)$为$C$闭包中$X \times X$的点，并令$V$（或$W$）为$a$的*封闭*邻域（或$b$的邻域）在$X$；然后是点$(x, y) \in C \cap (V \times W)$。从$x \in V$、$y$属于到$V$相对于$R$的饱和度$S$；因此，$b$中的每个邻域$W$都满足$S$。到假设 $S$ *关闭*，因此$b \in S$。现在令$B$为$\{b\}$相对于$R$的饱和，则$a$的每个闭邻域$V$都满足$B$；由于假设$B$是*关闭的*并且$X$是*常规*，因此$a \in B$因此是$(a, b) \in C$。这样就完成了证明。
 
 #### 推论{#top-i-s8-n6-cor-1 .statement tag=0B6X}
 
 *在常规空间上，每个打开和关闭的等价关系都是 Hausdorff*。
 
-这是从命题 14 和命题 8 of no. 3 得出的。
+这是从 no. 3 的命题 14 和命题 8 得出的。
 
 #### 命题 15 {#top-i-s8-prop-15 .statement tag=0B6Y}
 
@@ -318,4 +318,4 @@ b) $\lim_{x_2, \mathfrak{F}_2} f(x_1, x_2) = g(x_1)$ 对于所有 $x_1 \in X_1$ 
 
 ### 习题{#top-i-s8-exercises}
 
-§ 8](exercises/s8/)参见[习题。
+参见[习题为 § 8](exercises/s8/)。

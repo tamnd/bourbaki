@@ -37,19 +37,19 @@ subsections:
       pdf_page: 48
 statements: 24
 exercises: 16
-content_sha256: 491aeac6e8261fed6eccc66d9907e087e9fccc82d0e5eaaf353c15a1a3d953f3
+content_sha256: a3efe873390abc2423188408c2a79ecc1f745f1007b90132de9cc50a67eccbed
 translated_from: content/en/top/I/03_s3_subspaces_quotient_spaces.md
 translation_method: google
 source_content_sha256: 49505713ae8eafd390ab9e7460fda1c5af09d0a5526d97705cb0bdc2a371a4da
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: a6413408ab87a315e27b616ad9c8e25963be4a5aaa96f5c3f737404275ee7bf1
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 3. 子空间;商空间
+## 3. 子空间；商空间
 
 ### 1. 拓扑空间的子空间
 
@@ -111,7 +111,7 @@ b) $(A_i)_{i \in I}$ 是$X$ (§ 1, no. 5) 的局部有限闭覆盖。*
 
 Let $X$ and $Y$ be two topological spaces, $f$ a mapping of $X$ into $Y$, $B$ a subset of $Y$ which contains $f(X)$. 诱导的拓扑的定义作为初始拓扑（§ 2, no. 3，命题4）表明$f$在$x \in X$连续当且仅当$X$的映射进入*子空间*$B$ $Y$与$f$具有相同的图，在$x$处连续。
 
-Now let $A$ be a subset of $X$; if $f$ is continuous at $x \in A$ (resp. continuous on $X$), its restriction $f|A$ is a mapping of the subspace $A$ into $Y$, which is continuous at $x$ (resp. continuous on $A$) by Proposition 2 of § 2, no. 1. 我们将有时说映射$f : X \to Y$相对于$A$在$x \in A$*是*连续的（分别是。 *相对于$A$*连续）如果其限制$f|A$在$x$连续（分别在$A$连续）。
+Now let $A$ be a subset of $X$; if $f$ is continuous at $x \in A$ (resp. continuous on $X$), its restriction $f|A$ is a mapping of the subspace $A$ into $Y$, which is continuous at $x$ (resp. continuous on $A$) by Proposition 2 of § 2, no. 1. We shall sometimes say that a mapping $f : X \to Y$ is *continuous relative to $A$ at $x \in A$* (resp. *continuous relative to $A$*) if its restriction $f|A$ is continuous at $x$ (resp. continuous on $A$).
 
 需要注意的是，在$X$的任意一个点处，$f|A$可以连续而不需要$f$连续；这种现象的例是由$X$的子集$A$的特征函数$\varphi_A$提供的，$A$及其补集在$X$中都是稠密的（$§ 2$，习题11），将$\varphi_A$视为$X$的映射转化为离散的空间$\{0, 1\}$。 $\varphi_A$在$X$的任意一个点都不连续，但它的限制到$A$是常数，因此是连续的。
 
@@ -121,17 +121,17 @@ Now let $A$ be a subset of $X$; if $f$ is continuous at $x \in A$ (resp. continu
 
 *设* $(A_i)_{i \in I}$ *是拓扑空间* $X$ *其内部覆盖* $X$的子集族，*或者是* $X$的局部有限封闭覆盖。 *让*$f$*成为*$X$*的映射*进入拓扑空间*$X'$。 *如果* $f$ *中的限制 *对每个子空间* $A_i$ *是连续的，则* $f$ *是连续的。*
 
-因为如果$F'$是$X'$的闭子集并且如果$F = \overline{f}(F')$，则对于每个$i \in I$（$§ 2$，no. 1，定理1），$F \cap A_i$在$A_i$中闭，因此$F$于$X$截止至命题 3 / no. 1；现在的结果来自定理 1 of $§ 2$, no. 1。
+因为如果$F'$是$X'$的闭子集并且如果$F = \overline{f}(F')$，那么对于每个$i \in I$（$§ 2$，no. 1，定理1），$F \cap A_i$在$A_i$中是闭的，因此$F$于$X$截止至命题 3 / no. 1；现在的结果来自定理 1 of $§ 2$, no. 1。
 
 ### 3. 局部休息子空间
 
 #### 定义 2 {#top-i-s3-def-2 .statement tag=0B1B}
 
-*子集* $L$ *拓扑空间* $X$ *据说在点* $x \in L$ *如果存在邻域* $V$ *of* $x$ *in* $X$ *使得*$L \cap V$*是子空间*$V$的闭子集。 *L 据说在* $X$ 局部关闭 *如果它在每个* $x \in L$ 局部关闭。
+*子集* $L$ *拓扑空间* $X$ *据说在点* $x \in L$ *如果存在邻域* $V$ *of* $x$ *in* $X$ *使得*$L \cap V$*是子空间*$V$的闭子集。 *L 据说在* $X$ 局部闭合 *如果它在每个* $x \in L$ 局部闭合。
 
 #### 注 {#top-i-s3-n3-rem-1 .statement tag=0B1C}
 
-令 $F$ 为 $X$ 的子集，使得*对于每个点* $x$ *of* $X$ *有邻域* $V$ *of* $x$ *使得* $V \cap F$ *闭于子空间* $V$； *然后从命题 3 of no. 1 得出* $F$ *在* $X$ 结束。 *另一方面，下面的命题5表明，一般情况下，存在局​​部封闭的集合，而在*$X$中并未封闭。
+令 $F$ 为 $X$ 的子集，使得*对于每个点* $x$ *of* $X$ *有邻域* $V$ *of* $x$ *使得* $V \cap F$ *闭于子空间*$V$； *然后从命题 3 of no. 1 得出* $F$ *在* $X$ 结束。 *另一方面，下面的命题5表明，一般情况下，存在局​​部封闭的集合，而在*$X$中并未封闭。
 
 #### 命题 5 {#top-i-s3-prop-5 .statement tag=0B1D}
 
@@ -151,13 +151,13 @@ c) $L$ 在 $X$ 中的闭包 $\overline{L}$ 中打开。
 
 这紧接着上面的命题 5 和§ 2, no. 1 的定理 1。
 
-### 4.商空间
+### 4. 商空间
 
 #### 定义 3 {#top-i-s3-def-3 .statement tag=0B1F}
 
-*设$X$为空间、$R$等价关系在$X$上。 $X$ 与 $R$ 的商空间是商集 $X/R$ 与拓扑的商，即 $X$ 拓扑与关系 $R$ 的商 (§ 2, no. 4, 例 1)*。
+*设$X$为空间，$R$等价关系在$X$上。 $X$ 与 $R$ 的商空间是商集 $X/R$ 与拓扑的商，即 $X$ 拓扑与关系 $R$ 的商 (§ 2, no. 4, 例 1)*。
 
-除非恰恰相反，每当我们将$X/R$称为拓扑空间时，就可以理解为我们指的是$X$除以$R$的商空间。我们经常说，这个拓扑空间是通过识别$X$的点而获得的空间，其中属于与相同的等价类模$R$。
+除非相反，明确指出，每当我们将$X/R$称为拓扑空间时，应理解我们指的是$X$除以$R$的商空间。我们经常说，这个拓扑空间是通过识别$X$的点而获得的空间，其中属于与相同的等价类模$R$。
 
 令$\varphi$为典范映射$X \to X/R$。通过定义（§ 2, no. 4、命题 6 及其推论），$X/R$ 中的开（或闭）集合为集合 $A$，使得 $\varphi^{-1}(A)$ 在 $X$ 中开（或闭）；在其他字中，$X/R$中的开路（或闭路）集合与$X$的开路（或闭路）子集是一对一的对应，它们相对于$R$饱和，并且是其中的典范像子集。
 
@@ -167,17 +167,17 @@ c) $L$ 在 $X$ 中的闭包 $\overline{L}$ 中打开。
 
 这是§ 2, no. 4、命题 6 的特例；它表达了这样一个事实：商拓扑是映射$\varphi$的最终拓扑。
 
-命题 6 表明$X/R$到$Y$的连续映射和$X$到$Y$的连续映射之间存在一对一的对应 *在每个等价类模上都是恒定的$R$*。
+命题 6 显示$X/R$到$Y$的连续映射和$X$到$Y$的连续映射之间存在一对一的对应 *在每个等价类模上都是恒定的$R$*。
 
 #### 例 {#top-i-s3-n4-exa-1 .statement tag=0B1H}
 
-*考虑实直线$\mathbf{R}$上的等价关系$x \equiv y \pmod{1}$； 关系与 $\mathbf{R}$ 的商空间称为*一维环面*，并用 $T$ 表示。 点 $x \in \mathbf{R}$的等价类由所有点$x + n$组成，其中$n$贯穿有理整数的集合$\mathbf{Z}$。到命题 6，$T$上的连续函数和$\mathbf{R}$上的连续函数之间存在一对一的对应，它们是周期为1的*周期性*。我们将在章中回到这个重要的例 V, § 1.*
+*考虑实直线$\mathbf{R}$上的等价关系$x \equiv y \pmod{1}$； 关系与$\mathbf{R}$ 的商空间称为*一维环面*，并用$T$ 表示。 点 $x \in \mathbf{R}$的等价类由所有点$x + n$组成，其中$n$贯穿有理数整数的集合$\mathbf{Z}$。到命题 6，$T$上的连续函数和$\mathbf{R}$上的连续函数之间存在一对一的对应，它们是周期为1的*周期性*。我们将在章中回到这个重要的例 V, § 1.*
 
 #### 推论{#top-i-s3-n4-cor-1 .statement tag=0B1I}
 
 *设$X, Y$为$X$（或$Y$）上的两个拓扑空间、$R$（或$S$）等价关系，并令$f : X \to Y$为连续的映射，与等价关系$R$和$S$（集合理论R，§ 5, no. 8）；那么由$f$（集合理论R，§ 5, no. 8）诱导的映射$g : X/R \to Y/S$是连续的。*
 
-这是商结构的一般性质的特例（集合理论，章 IV, § 2, no. 6，标准 CST 20）。
+这是商结构的一般性质的特殊情况（集合理论，章 IV, § 2, no. 6，标准 CST 20）。
 
 #### 命题 7（空间的商传递性）{#top-i-s3-prop-7 .statement tag=0B1J}
 
@@ -185,7 +185,7 @@ c) $L$ 在 $X$ 中的闭包 $\overline{L}$ 中打开。
 
 这是最终拓扑传递性的特例（§ 2, no. 4、命题7。参见集合理论、章IV, § 2, no. 3、标准 CST 21）。
 
-### 5.连续映射的规范分解
+### 5. 连续映射的规范分解
 
 令$X$和$Y$为两个拓扑空间，$f : X \to Y$在$X$上连续的映射，$R$等价关系$f(x) = f(y)$。考虑*规范的分解*
 
@@ -228,11 +228,11 @@ $X_i$开放，断言是从no. 1的命题3开始。
 $$
 \varphi : X \to X/R
 $$
-是典范映射，与$\varphi$相关的*连续截面*$s : X/R \to X$也称为$X$的*连续截面*相对于$R$（cf.*集合理论*，章 II, § 6, no. 2);那么$X$的子空间$s(X/R)$同胚于$X/R$。如果给定$s(X/R)$，则$s$是唯一确定的； $s(X/R)$ 通常被滥用语言称为 $X$ 相对于 $R$ 的（连续）*截面*。
+是典范映射，与$\varphi$相关的*连续截面*$s : X/R \to X$也称为$X$的*连续截面*相对于$R$（cf.*集合理论*，章 II, § 6, no. 2); $X$ 的子空间 $s(X/R)$ 同胚于 $X/R$。如果给定$s(X/R)$，则$s$是唯一确定的； $s(X/R)$ 通常被滥用语言称为 $X$ 相对于 $R$ 的（连续）*截面*。
 
-拓扑空间相对于等价关系的连续截面不一定存在（习题12）。
+拓扑空间相对于等价关系的连续截面不需要存在 (习题 12)。
 
-### 6. 空间子空间的商
+### 6. 子空间的商空间
 
 令$X$为$X$、$R$等价关系在$X$、$f$规范映射$X \to X/R$上的拓扑空间、$A$子空间， $g$限制共$f$至$A$。 $A$上的等价关系$g(x) = g(y)$只是由$A$上的$R$*诱发*的关系$R_A$（*集合理论* R，§ 5, no. 5）。令 $g = \psi \circ h \circ \varphi$ 为 $g$ 的规范分解，这样，如果 $j$ 是 $A$ 的典范嵌入到 $X$，我们就有一个可交换的图表 (*)
 
@@ -279,4 +279,4 @@ X，其相对于R是饱和的；相反，如果 B 是交，A 是开（或闭）�
 
 ### 习题{#top-i-s3-exercises}
 
-§ 3](exercises/s3/)参见[习题。
+参见[习题为 § 3](exercises/s3/)。

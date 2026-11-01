@@ -40,25 +40,25 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: fba93c4635af8ccc858ed89d651f7ecfd3f5ac2b0681718b9eab31550691c1ca
+content_sha256: 245354b9720ef5f7eea32f58c6def3d30a085856b760ae1e23e5913ac82ced09
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
 translation_method: google
 source_content_sha256: d7aeccab1a27d0a0619f437c65961e9feffe9a183de0171b993a7c7681af0384
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: ef345c0a68298bb22cf70e53958a36b3cadbb9b157cb7dc199704cb4cbba542b
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 2。奶系统
 
 本段中字母 G、B、N、S、T、W 的含义见下文no. 1。
 
-### 1. 定义和第一个属性
+### 1. 定义和第一批房产
 
-设 G 为 G 的群，B 子群。群 $B \times B$ 通过 $(b, b').g = bg{b'}^{-1}$ 对 $b, b' \in B$ 和 $g \in G$ 作用于 G。 G 上$B \times B$的轨道对于$g \in G$来说是集合$BgB$，并且被称为G关于B的双陪集。它们是G的形式划分； 相应的商用$B \backslash G / B$表示。如果C和$C'$是双陪集，则$CC'$是双陪集中的并。
+令 G 为 G 的群，B 子群。群 $B \times B$ 通过 $(b, b').g = bg{b'}^{-1}$ 对 $b, b' \in B$ 和 $g \in G$ 作用于 G。 G 上$B \times B$的轨道对于$g \in G$来说是集合$BgB$，并且被称为G关于B的双陪集。它们是G的形式划分； 相应的商由$B \backslash G / B$表示。如果C和$C'$是双陪集，则$CC'$是双陪集中的并。
 
 #### 定义 1 {#lie-iv-s2-def-1 .statement tag=0AN8}
 
@@ -104,7 +104,7 @@ C(w) \cup C(sw) & \text{if } C(w) \subset C(s).C(w).
 \end{cases}
 $$
 
-(T4) 出发，$B \neq C(s).C(s)$；将$w = s$带入(3)并使用关系$s^2 = 1$，我们得到
+(T4) 出发，$B \neq C(s).C(s)$；将$w = s$代入(3)并使用关系$s^2 = 1$，我们得到
 
 $$
 C(s).C(s) = B \cup C(s).
@@ -122,7 +122,7 @@ $$
 C(s).C(s).C(w) = C(w) \cup C(sw).
 $$
 
-将集合取逆代入公式(2)、(3)、(5)，再将替换$w$乘以$w^{-1}$，可得公式
+将集合取逆代入公式(2)、(3)、(5)，再乘以$w^{-1}$替换$w$，可得公式
 
 $$
 C(w).C(s) \subset C(w) \cup C(ws)
@@ -145,15 +145,15 @@ C(s_1 \ldots s_q).C(w) \subset \bigcup_{(i_1, \ldots, i_p)} C(s_{i_1} \ldots s_{
 $$
 其中 $(i_1, \ldots, i_p)$ 表示区间 $[1, q]$ 中严格递增的序列的集合整数。
 
-我们通过归纳对$q$进行争论，$q = 0$的情况是微不足道的。如果$q \geqslant 1$，我们就有$C(s_1 \ldots s_q).C(w) \subset C(s_1).C(s_2 \ldots s_q).C(w)$。通过归纳假设，$C(s_2 \ldots s_q).C(w)$包含在$C(s_{j_1} \ldots s_{j_p} w)$的并中，其中
+我们通过归纳对$q$进行争论，$q = 0$的情况是微不足道的。如果$q \geqslant 1$，我们有$C(s_1 \ldots s_q).C(w) \subset C(s_1).C(s_2 \ldots s_q).C(w)$。到归纳假设，$C(s_2 \ldots s_q).C(w)$包含在$C(s_{j_1} \ldots s_{j_p} w)$的并中，其中
 $$
 2 \leq j_1 < \cdots < j_p \leq q.
 $$
 通过(T3)，集合$C(s_1).C(s_{j_1} \ldots s_{j_p} w)$包含在集合$C(s_1 s_{j_1} \ldots s_{j_p} w)$和$C(s_{j_1} \ldots s_{j_p} w)$的并中。这就证明了引理。
 
-### 2.AN例
+### 2. AN 例
 
-设$k$为域，$n$整数$\geq 0$，$(e_i)$典范基为$k^n$。令$G = \mathbf{GL}(n, k)$，令$B$为$G$的上三角子群，令$N$为矩阵的$G$由……组成的子群，每一行中恰好有一个非零元素，并且列。 $N$ 的元素排列$ke_i$ 行；这就产生了满同态$N \to \mathscr{S}_n$，其核是对角线矩阵的子群$T = B \cap N$，并且允许我们用$\mathscr{S}_n$来认同$W = N/T$。我们用$W$相应的的$s_j$($1 \leq j \leq n-1$)元素表示$j$和$j+1$的转置；设$S$为$s_j$中的集合。 *四倍* $(G, B, N, S)$ *是奶系统*。的确：
+令$k$为域，$n$整数$\geq 0$，$(e_i)$典范基为$k^n$。令$G = \mathbf{GL}(n, k)$，令$B$为$G$的上三角子群，令$N$为矩阵的$G$由……组成的子群，每一行中恰好有一个非零元素， 列。 $N$ 的元素排列$ke_i$ 行；这就产生了满同态$N \to \mathscr{S}_n$，其核是对角线矩阵的子群$T = B \cap N$，并且允许我们用$\mathscr{S}_n$来计算认同$W = N/T$。我们用$W$相应的的$s_j$($1 \leq j \leq n-1$)元素表示$j$和$j+1$的转置；设$S$为$s_j$的集合。 *四倍* $(G, B, N, S)$ *是奶系统*。确实：
 
 Axiom (T1) 源自 Cor。 *代数* 第 14 号提案第 2 条II, § 10, no. 13。
 
@@ -171,13 +171,13 @@ $$
 $$
 G_j \subset (B \cap G_j)(B' \cap G_j) \cup (\cap G_j) s_j (B' \cap G_j).
 $$
-认同 $G_j$ 与 $\mathbf{GL}(2, k)$；然后，群 $B \cap G_j$ 与$\mathbf{GL}(2, k)$ 的上三角子群 $B_2$ 进行识别，而群 $B' \cap G_j$ 在$w(j) < w(j+1)$ 时与$B_2$ 以及下三角子群进行识别$B_2^-$ 否则。在第一种情况下，要证明的公式可以写成
+认同 $G_j$ 与 $\mathbf{GL}(2, k)$；然后，群 $B \cap G_j$ 与$\mathbf{GL}(2, k)$ 的上三角子群 $B_2$ 进行识别，而群 $B' \cap G_j$ 在$w(j) < w(j+1)$ 时与$B_2$ 以及下三角子群进行识别$B_2^-$ 否则。第一种情况，需要证明的公式可以写成
 
 $$
 \mathbf{GL}(2, k) = B_2 \cup B_2 s B_2 \quad \text{where } s = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix};
 $$
 
-对于例，这是因为在射影线$\mathbf{P}_1(k)$上，对于$\mathbf{GL}(2, k)$的作用，$B_2$是点的稳定子，并且传递地作用于该点的补集。对于第二种情况，需要证明的公式可以写成
+对于例，这是因为在射影线$\mathbf{P}_1(k)$上，对于$\mathbf{GL}(2, k)$的作用，$B_2$是点的稳定子，并且传递地作用于该点的补集。在第二种情况下，需要证明的公式可以写成
 
 $$
 \mathbf{GL}(2, k) = B_2 B_2^- \cup B_2 s B_2^-;
@@ -185,29 +185,29 @@ $$
 
 从$B_2^- = s B_2 s$开始，这是前面的公式通过在右侧乘以$s$得出的。
 
-### 3. G 的分解转换为双陪集
+### 3. G 的分解变成双陪集
 
 #### 定理 1 {#lie-iv-s2-thm-1 .statement tag=0ANC}
 
-*我们有$G = \mathrm{BWB}$。 映射$w \mapsto C(w)$是$W$到集合$B \backslash G / B$的双射，$G$的双陪集相对于$B$。*
+*我们有$G = \mathrm{BWB}$。 映射$w \mapsto C(w)$是$W$到集合$B \backslash G / B$的$G$相对于$B$的双陪集的双射。*
 
 显然，$\mathrm{BWB}$在$x \mapsto x^{-1}$下是稳定的，引理1表明在乘积下是稳定的。由于它包含$B$和$N$，所以它等于$G$。
 
 仍有待证明 $C(w) \neq C(w')$ if $w \neq w'$。为此，我们将通过归纳对整数$q$证明以下断言：
 
-(A_q) 如果$w$和$w'$不同于元素或$W$，使得$l_S(w) \geq l_S(w') = q$，则$C(w) \neq C(w')$。
+(A_q) 如果$w$和$w'$不同于$W$的元素，使得$l_S(w) \geq l_S(w') = q$，则$C(w) \neq C(w')$。
 
 （对于$l_S(w)$中的定义，请参阅§ 1, no. 1。）
 
 这个断言对于$q = 0$来说是明确的，从那时起$w' = 1$和$w \neq 1$，因此$C(w') = B$和$C(w) \neq B$。
 
-假设 $q \geq 1$ 和 $w, w'$ 满足 (A_q) 的假设。存在$s \in S$使得$sw'$为长度$q - 1$。我们有
+假设 $q \geq 1$ 和 $w, w'$ 满足 (A_q) 的假设。存在$s \in S$使得$sw'$是长度$q - 1$。我们有
 
 $$
 l_S(w) > l_S(sw')
 $$
 
-因此$w \neq sw'$。此外，$sw \neq sw'$；通过公式 (3) of § 1, no. 1，我们有
+因此$w \neq sw'$。此外，$sw \neq sw'$；通过 § 1, no. 1 的公式 (3)，我们有
 
 $$
 l_S(sw) \geq l_S(w) - 1 \geq l_S(sw') = q - 1.
@@ -231,7 +231,7 @@ $$
 
 对 $(W, S)$ 是 Coxeter 系统。此外，对于$s \in S$和$w \in W$，关系$C(sw) = C(s).C(w)$和$l_S(sw) > l_S(w)$是等价的。
 
-对于任意 $s \in S$，令 $P_s$ 为元素 $w \in W$ 中的集合，使得
+对于任何$s \in S$，令$P_s$为元素$w \in W$中的集合，使得
 $$
 C(s).C(w) = C(sw).
 $$
@@ -266,7 +266,7 @@ $$
 $$
 C(s).C(w') = C(s)w'B,
 $$
-公式 (10) 表明$C(s)w'$ 满足$C(w')$ 并且*更不必说* $C(s)w's'B$ 满足$C(w')s'B$。从公式 (11) 和 (12) 可知双陪集 $C(sw)$ 等于双陪集 $C(ws')$ 和 $C(w)$ 之一；从 $sw \neq w$ 开始1 允许我们结论 $sw = ws'$。
+公式 (10) 表明$C(s)w'$ 满足$C(w')$ 并且*更不必说* $C(s)w's'B$ 满足$C(w')s'B$。从公式 (11) 和 (12) 可以得出，双陪集 $C(sw)$ 等于双陪集 $C(ws')$ 和 $C(w)$ 之一；从 $sw \neq w$ 开始1 允许我们结论 $sw = ws'$。
 
 #### 推论 1 {#lie-iv-s2-thm-2-cor-1 .statement tag=0ANF}
 
@@ -285,7 +285,7 @@ $$
 w = s_1 \ldots s_q, \quad \text{with } s_i \in S.
 $$
 
-如果$u = s_2 \ldots s_q$，则$w = s_1 u$和$l_S(s_1 u) > l_S(u)$，因此$C(w) = C(s_1).C(u)$乘以定理。所需的公式由$q$上的归纳得出。
+如果$u = s_2 \ldots s_q$，则$w = s_1 u$和$l_S(s_1 u) > l_S(u)$，因此$C(w) = C(s_1).C(u)$乘以定理。所需的公式由 $q$ 上的归纳得出。
 
 #### 推论 2 {#lie-iv-s2-thm-2-cor-2 .statement tag=0ANG}
 
@@ -323,7 +323,7 @@ $$
 
 *令$w \in W$且$H_w$为由$C(w).C(w^{-1})$生成的$G$的子群。然后：*
 
-a) *对于 $w$ 中任何减少的分解 $(s_1, \ldots, s_q)$，*
+a) *对于任何减少的分解 $(s_1, \ldots, s_q)$ 或 $w$，*
 
 $$
 C(s_j) \subset H_w \quad \text{for } 1 \leq j \leq q.
@@ -343,7 +343,7 @@ $W$的元素$t$属于至子集$T_w$在§ 1, no. 4的引理2中定义。由科. 2
 
 #### 例 {#lie-iv-s2-n4-exa-1 .statement tag=0ANI}
 
-Th。 2，应用于no. 2中描述的山雀系统，表明*对称群*$\mathfrak{S}_n$，具有连续元素的转置集合，*是Coxeter群*。
+Th。 2，应用于no. 2中描述的山雀系统，表明*对称群*$\mathfrak{S}_n$，其中集合是连续元素的转置，*是Coxeter群*。
 
 ### 5. 子群 G 包含于 B
 
@@ -351,9 +351,9 @@ Th。 2，应用于no. 2中描述的山雀系统，表明*对称群*$\mathfrak{S
 
 #### 定理 3 {#lie-iv-s2-thm-3 .statement tag=0ANJ}
 
-a) 对于 S 的任何子集 X，集合 G_X 是 G 的子群，由 $\bigcup_{s \in X} C(s)$ 生成。
+a) 对于 S 的任意子集 X，集合 G_X 是由 $\bigcup_{s \in X} C(s)$ 生成的 G 的子群。
 
-b) 映射X↦G_X是G包含B的子群的$\mathscr{P}(S)$到集合的双射。
+b) 映射X↦G_X是G包含B的子群的$\mathscr{P}(S)$到集合双射。
 
 c) 令 (X_i)_{i \in I} 为子集和 X 的族。如果$X = \bigcap_{i \in I} X_i$，则$G_X = \bigcap_{i \in I} G_{X_i}$。
 
@@ -442,9 +442,9 @@ $$
 
 (i) 令$P_1$和$P_2$是$G$的两个抛物线子群，其中交是抛物线，并令$g \in G$使得$gP_1g^{-1} \subset P_2$。然后是$g \in P_2$和$P_1 \subset P_2$。
 
-(ii) 两个抛物线子群其交是抛物线，则不是共轭。
+(ii) 两个抛物线子群且交是抛物线，则不是共轭。
 
-(iii) 设$Q_1$和$Q_2$为包含在$G$的子群$Q$中的$G$的两个抛物线子群。然后任意 $g \in G$ 使得 $gQ_1g^{-1} = Q_2$ 属于到 $Q$。
+(iii) 设$Q_1$和$Q_2$为包含在$G$的子群$Q$中的$G$的两个抛物线子群。然后任意$g \in G$使得$gQ_1g^{-1} = Q_2$属于到$Q$。
 
 (iv) 每个抛物线子群都是其自己的归一化器$^6$。
 
@@ -522,7 +522,7 @@ $$
 
 从 $G'$ 包含于 $G_1$ 开始，我们有 $G = G'T$，因此有 $N = N'T$。将$N'$包含在N中，因此定义，在经过上商，同构$\alpha : W' \to W$。让$S' = \alpha^{-1}(S)$。
 
-*我们现在证明 (G', B', N', S') 是 Tits 系统*。从$G = BNB$和$B = TU = UT$开始，我们有$G = UNU$。由于U是$G'$的子群，因此有$G' = UN'U$；从$U \subset B'$开始，这证明了(T1)。公理 (T2) 满足，因为 $\alpha$ 是同构。令$w \in W$且$w' = \alpha^{-1}(w)$为相应的元素除以$W'$。我们有
+*我们现在证明 (G', B', N', S') 是山雀系统*。从$G = BNB$和$B = TU = UT$开始，我们有$G = UNU$。由于U是$G'$的子群，因此有$G' = UN'U$；从$U \subset B'$开始，这证明了(T1)。公理 (T2) 满足，因为 $\alpha$ 是同构。令 $w \in W$ 且令 $w' = \alpha^{-1}(w)$ 为 $W'$ 的相应的元素。我们有
 
 $$
 BwB = BwB' = Bw'B', \quad \text{since } B = B'T.
@@ -532,7 +532,7 @@ $$
 
 B'\setminus G'/B' 到 B\setminus G/B。 Axiom (T3) 紧随其后。公理 (T4) 由 B = B'T 得出。
 
-子群 H 在 G' 中是正规的。将引理 2 应用于 (G', B', N', S')，存在 S' 的子集 X'，使得 B'H = G'_X'，并且 S' 的每一个元素 - X' 与 X' 的每元素进行交换。鉴于假设(4)，只有两种可能：
+子群 H 在 G' 中是正规的。将引理 2 应用于 (G', B', N', S')，存在 S' 的子集 X'，使得 B'H = G'_X'，并且 S' 的每个元素 - X' 与 X' 的每个元素进行交换。鉴于假设(4)，只有两种可能：
 
 a) X' = \varnothing，即 B'H = B'，所以 H \子集 B' \子集 B。如果 g \in G，则 g = g_1 t，g_1 \in G_1，t \in T，并且 H \子集 g_1 B g_1^{-1} 因为 G_1 标准化了 H。因此 H \子集 g B g^{-1}，并且由于 Z 是 g B g^{-1} 的交，所以我们有 H \子集 Z。
 
@@ -548,13 +548,13 @@ $$ U/(U \cap H) \cong UH/H = G_1 H/H \cong G_1/(G_1 \cap H). $$
 
 #### 推论{#lie-iv-s2-n7-cor-1 .statement tag=0ANW}
 
-Th 假设下。 5、 群 G_1/(G_1 \cap Z) 要么是简单非交换矩阵，要么是约化到单位元素。
+Th 假设以下。 5、 群 G_1/(G_1 \cap Z) 要么是简单非交换矩阵，要么是约化到单位元素。
 
 Th。图 5 显示 G_1/(G_1 \cap Z) 是简单的或约化到单位元素。另一方面，假设(3)意味着它等于它的换位子子群。由此得出推论。
 
 #### 注 1 {#lie-iv-s2-n7-rem-1 .statement tag=0ANX}
 
-假设 (2)、(3)、(4) 未在证明中使用，即 (G', B', N', S') 是山雀系统。
+假设 (2), (3), (4) 未在证明中使用，即 (G', B', N', S') 是山雀系统。
 
 #### 注 2 {#lie-iv-s2-n7-rem-2 .statement tag=0ANY}
 
@@ -568,7 +568,7 @@ Th。图 5 显示 G_1/(G_1 \cap Z) 是简单的或约化到单位元素。另一
 
 #### 例 1 {#lie-iv-s2-n7-exa-1 .statement tag=0AO0}
 
-令 k 为域，n 整数 \geqslant 0，G = \mathbf{GL}(n, k)，并令 (G, B, N, S) 为 no. 2 中描述的山雀系统。令U为G的严格上三角子群，即矩阵的B由……组成的子群，其对角线元素等于1。Th中的条件 (1)。 5 是直接的，(2) 也是如此，因为 U 是可溶的。如果$n \geq 2$则满足条件(4)。可以证明（cf. *代数*，第 II, § 10 章，练习 13），如果 $n \geq 3$ 和 Card$(k) \geq 4$，则满足 (3)。在这些条件下，我们结论认为$G_1 / (G_1 \cap Z)$是*简单的*并且$G_1 \cap Z$是$G_1$的中心（cf.*注*2）。
+令 k 为域，n 整数 \geqslant 0，G = \mathbf{GL}(n, k)，并令 (G, B, N, S) 为 no. 2 中描述的山雀系统。令U为G的严格上三角子群，即矩阵的B由……组成的子群，其对角线条目等于1。Th中的条件 (1)。 5 是直接的，(2) 也是如此，因为 U 是可溶的。如果$n \geq 2$则满足条件(4)。可以证明（cf. *代数*，第 II, § 10 章，练习 13），如果 $n \geq 3$ 和 Card$(k) \geq 4$，则满足 (3)。在这些条件下，我们结论认为$G_1 / (G_1 \cap Z)$是*简单的*并且$G_1 \cap Z$是$G_1$的中心（cf.*注*2）。
 
 当 $k$ 可交换时，$G_1 = \mathbf{SL}(n, k)$ (cf. *代数*，第 III, § 8, no. 9)。
 
@@ -576,6 +576,6 @@ Th。图 5 显示 G_1/(G_1 \cap Z) 是简单的或约化到单位元素。另一
 
 令$g$为$\mathbf{C}$上的简单李代数，并令$G$为$g$的内自同构的群（cf.第III, § 6, no. 2章，第2条）。通过使用 Th. 5, 可以证明 $G$ 是简单非交换矩阵。*
 
-### 习题 {#lie-iv-s2-exercises}
+### 习题{#lie-iv-s2-exercises}
 
-§ 2](exercises/s2/)参见[习题。
+参见[习题为 § 2](exercises/s2/)。

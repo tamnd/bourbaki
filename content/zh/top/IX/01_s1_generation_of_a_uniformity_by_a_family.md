@@ -36,21 +36,21 @@ subsections:
       pdf_page: 152
 statements: 19
 exercises: 22
-content_sha256: d56f7babfdafe0295d9943c70977d7bdedf69c91630068ea19efc677a8d7fdd1
+content_sha256: 5fb14ded2eea75f474c5ddf07fd12f1e5f1a1f0f0d7928bf3f580d97de53b72a
 translated_from: content/en/top/IX/01_s1_generation_of_a_uniformity_by_a_family.md
 translation_method: google
 source_content_sha256: d0027c85d9e629ba1cedaa3e0f5665d96575e833d7b0b7fe5a972750416a6a6d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 04187ea656534bf0a8681a915a1bc4631881bec2e803140e76454f694b1eaae5
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
-## 1. 通过伪测量学家族产生均匀性；可统一空间
+## 1. 伪测量学家族的均匀性的产生；统一空间
 
-### 1. 伪测量
+### 1. 伪计量学
 
 定义I。 *如果X是集合，则X上的伪度量是X×X的任意映射 f进入扩展实直线$\overline{\mathbf{R}}$的区间[0, +∞]，满足以下条件：
 
@@ -64,11 +64,11 @@ $$
 
 #### 例 1 {#top-ix-s1-n1-exa-1 .statement tag=0C17}
 
-在实数空间 $\mathbf{R}^n$，欧氏距离 (章 VI, § 2, no. 1) 是伪度量。
+在实数空间 $\mathbf{R}^n$，欧氏距离 (章 VI, § 2, no. 1) 是伪测量。
 
 #### 例 2 {#top-ix-s1-n1-exa-2 .statement tag=0C18}
 
-如果X是任何集合，则对于所有$x \in X, f(x, y) = +\infty$，函数在$X \times X$上由条件$f(x, x) = 0$定义，如果$x \neq y$是X上的伪度量。
+如果X是任何集合，则对于所有$x \in X, f(x, y) = +\infty$，$X \times X$上的条件$f(x, x) = 0$定义函数 f，如果$x \neq y$是X上的伪度量。
 
 #### 例 3 {#top-ix-s1-n1-exa-3 .statement tag=0C19}
 
@@ -84,7 +84,7 @@ $$
 
 注：
 1) 上面的例2表明，对于$X$的元素的某些对，伪度量可以取值$+\infty$。
-2) 如果$f$是$X$上的伪度量，我们一般可以有$f(x, y) = 0$而没有$x = y$，如上面的例3所示（cf.§ 2）。
+2) 如果$f$是$X$的伪度量，那么我们一般可以有$f(x, y) = 0$而没有$x = y$，如上面的例3所示（cf.§ 2）。
 
 从三角形不等式可以得出，如果$f(x, z)$和$f(y, z)$是有限的，那么$f(x, y)$也是有限的；此外，在这种情况下我们有
 $$
@@ -102,9 +102,9 @@ $$
 $$
 [章IV, § 5, no. 7，公式（17）]。
 
-### 2. 通过一系列伪测量实现均匀性的定义
+### 2. 定义通过伪测量学家族实现一致性
 
-我们在章VI, § 2, no. 3中看到，如果对于每个实数$s > 0$，我们用$U_s$集合表示$\mathbf{R}^n$的点的所有对$(x, y)$，其欧氏距离为$\leq s$，则$U_s$形式是$\mathbf{R}^n$均匀性的基本系统，如$s$贯穿实数$> 0$的集合。
+我们在章VI, § 2, no. 3中看到，如果对于每个实数$s > 0$，我们用$U_s$集合来表示$\mathbf{R}^n$的点的所有对$(x, y)$，其欧氏相距$\leq s$，则$\mathbf{R}^n$均匀度的$U_s$形式基本随行系统与$s$贯穿实数$> 0$的集合。
 
 更一般地，让$f$是集合$X$的伪度量：对于每个$s > 0$，让$U_s$表示$f^{-1}([0, s])$，并让我们证明，当$s$贯穿所有实数$> 0$的集合时， $U_s$ 形式 $X$ 均匀性的基本系统。公理$U_1$由于$\mathrm{(EC_1)}$而得到满足：如果$s = t$，我们有$U_s \subset U_t$，因而$U_s$满足$B_1$：到$\mathrm{(EC_{11})}$，我们有$U_s \cup U_s$，因此满足$U_{2s}$；最后，到$\mathrm{(EC_{111})}$时，我们得到了$U_s = U_{2s}$，这样$U_{2s}$就得到了满足。 （参见章II, § 1, no. 1、定义2）。因此我们可以做出以下定义：
 
@@ -162,7 +162,7 @@ $$
 g_i(x, y) = |f_i(x) - f_i(y)|.
 $$
 
-### 3. 伪测量学族定义的均匀性属性
+### 3. 伪测量学族定义的均匀性的性质
 
 令 $\mathscr{U}$ 为由一系列有限伪度量 $(f_i)$ 在集合 $X$ 上定义的均匀性。如果我们赋予$X \times X$本身$\mathscr{U}$的均匀性乘积，那么每个实值函数$f_i$在$X \times X$上都是“均匀连续”；对于 (1) 我们有
 
@@ -188,21 +188,21 @@ $$
 
 *设$X$为豪斯多夫均匀空间，其均匀性$\mathscr{U}$由一系列有限伪度量*$(f_i)$定义，*并让*$\hat{X}$*为$X$的完成*。那么函数$f_i$可以通过连续性扩展到$\hat{X} \times \hat{X}$；扩展的函数$\bar{f}_i$是$\hat{X} \times \hat{X}$上的有限伪度量，$(f_i)$定义族是$\hat{X}$的均匀性。
 
-首先，$f_i$可以通过连续性扩展到$\hat{X} \times \hat{X}$，因为它们在$X \times X$上一致连续；扩展的函数$\bar{f}_i$在$\hat{X} \times \hat{X}$上均匀连续（章II, § 3, no. 6，定理2）；此外，凭借扩张的原理不等式（章 IV, § 5, no. 2、定理 1），它们是 $\hat{X}$ 上的伪度量。令$\mathscr{U}_1$表示通过补全获得的$\hat{X}$上的均匀性，令$\mathscr{U}_2$表示由伪度量族$(\bar{f}_i)$定义的均匀性。那么$\mathscr{U}_2$比$\mathscr{U}_1$更粗糙；对于每个$\bar{f}_i$相对于$\mathscr{U}_1$在$\hat{X} \times \hat{X}$上一致连续，因此对于每个$a > 0$，存在$\mathscr{U}_1$的随从$V$，这样，每当$(x, y) \in V$时，我们就有$|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$，即[因为$\bar{f}_i(x, x) = 0$]、$V \subset \bar{f}_i([0, a])$；因此$\mathscr{U}_2$的每个随从都是$\mathscr{U}_1$的随从。另一方面，$\mathscr{U}_1$和$\mathscr{U}_2$诱导在$X$上具有相同的均匀性$\mathscr{U}$。由于$\hat{X}$相对于$\mathscr{U}_1$是完备的，因此$\mathscr{U}_1$和$\mathscr{U}_2$是相同的（章II, § 3, no. 7，命题14）。
+首先，$f_i$可以通过连续性扩展到$\hat{X} \times \hat{X}$，因为它们在$X \times X$上一致连续；且扩展函数$\bar{f}_i$在$\hat{X} \times \hat{X}$上均匀连续（章II, § 3, no. 6，定理2）；此外，由于不等式（章IV, § 5, no. 2，定理1）的原理或扩张，它们是$\hat{X}$上的伪度量。 令$\mathscr{U}_1$表示通过补全获得的$\hat{X}$上的均匀性，并令$\mathscr{U}_2$表示由伪度量族$(\bar{f}_i)$定义的均匀性。 那么$\mathscr{U}_2$比$\mathscr{U}_1$更粗糙；对于每个$\bar{f}_i$相对于$\mathscr{U}_1$在$\hat{X} \times \hat{X}$上一致连续，因此对于每个$a > 0$，存在$\mathscr{U}_1$的随从$V$，这样，每当$(x, y) \in V$时，我们就有$|\bar{f}_i(x, y) - \bar{f}_i(x, x)| \leq a$，即[自$\bar{f}_i(x, x) = 0$]， $V \subset \bar{f}_i([0, a])$；因此$\mathscr{U}_2$的每个随从都是$\mathscr{U}_1$的随从。 另一方面，$\mathscr{U}_1$和$\mathscr{U}_2$诱导在$X$上具有相同的均匀性$\mathscr{U}$。 由于$\hat{X}$相对于$\mathscr{U}_1$是完备的，因此$\mathscr{U}_1$和$\mathscr{U}_2$是相同的（章II, § 3, no. 7，命题14）。
 
-### 4.定义均匀性的伪测量学家族的构造
+### 4. 定义均匀性的伪测量学家族的构造
 
 通过一系列伪测量来定义均匀性的意义在于，所有的均匀性都可以通过这种方式获得。即：
 
 #### 定理 1 {#top-ix-s1-thm-1 .statement tag=0C1G}
 
-给定集合 $X$ 上的均匀性 $\mathscr{U}$，$X$ 上存在一系列伪测量，使得该族定义的均匀性与 $\mathscr{U}$ 相同。
+给定集合 $X$ 上的均匀性 $\mathscr{U}$，$X$ 上存在一系列伪度量，使得该族定义的均匀性与 $\mathscr{U}$ 相同。
 
-对于均匀性 $\mathscr{U}$ 的每个周边$V$，定义归纳对称周边$(U_n)$ 的序列，使得对于所有$n \geq 1$ 具有$U_1 \subset V$ 和$U_{n+1} \subset U_n$。 序列 $(U_n)$ 是均匀度 $\mathscr{U}_V$ 比 $\mathscr{U}$ 粗糙的基础系统；此外，很明显，$\mathscr{U}$是所有均匀性$U_V$中最小的上界，因为$V$穿过$\mathscr{U}$的随行人员过滤器。因此，定理 1 是以下命题中的推论：
+对于均匀性$\mathscr{U}$的每个周边$V$，定义归纳对称周边$(U_n)$的序列，使得对于所有$n \geq 1$有$U_1 \subset V$和$U_{n+1} \subset U_n$。 序列 $(U_n)$ 是均匀度 $\mathscr{U}_V$ 比 $\mathscr{U}$ 粗糙的基础系统；此外，很明显，$\mathscr{U}$是所有均匀性$U_V$中最小的上界，因为$V$穿过$\mathscr{U}$的随行人员过滤器。因此，定理 1 是以下命题中的推论：
 
 #### 命题 2 {#top-ix-s1-prop-2 .statement tag=0C1H}
 
-如果 $X$ 上的均匀性 $\mathscr{U}$ 具有可数的基本随从系统，则 $X$ 上存在伪度量 $f$，使得 $\mathscr{U}$ 与 $f$ 定义的均匀性相同。
+如果$X$上的均匀性$\mathscr{U}$具有可数的随行基数系统，则$X$上存在伪度量$f$，使得$\mathscr{U}$与$f$定义的均匀性相同。
 
 设$(V_n)$是$\mathscr{U}$的随行人员的可数基本系统。 定义归纳序列 $(U_n)$ $\mathscr{U}$ 的对称周边，使得 $U_1 \subset V_1$ 和
 $$
@@ -239,7 +239,7 @@ Q.E.D.
 
 $X$上的均匀性$\mathscr{U}$由$X$上所有伪度量的族$\Phi$定义，这些伪度量在$X \times X$上一致连续。显然，$\Phi$族定义的均匀性比$\mathscr{U}$更粗糙；相反，定理 1 表明存在$\Phi$ 的子族，其定义均匀度$\mathscr{U}$，因此$\Phi$ 定义的均匀度比$\mathscr{U}$ 更细。
 
-### 5.统一空间
+### 5. 可统一空间
 
 在章II, § 4, no. 1中，我们提出了表征可均匀拓扑空间的问题。 解由以下定理给出：
 
@@ -285,7 +285,7 @@ $X$上的均匀性$\mathscr{U}$由$X$上所有伪度量的族$\Phi$定义，这�
 
 K1。 如果$x, y$是$X$的任意两个不同的点，则根据公理(H)和(O_IV)，存在指标$i$使得$f_i(x) \neq f_i(y)$，因此$g$是$X$的*一对一*映射到$K^1$。 Moreover, it is immediate that $g$ is an isomorphism of the coarsest uniformity on $X$ for which all the $f_i$ are uniformly continuous, onto the uniformity induced on $g(X)$ by the product uniformity of $K^1$; *更不必说*，$g$是$X$到$g(X)$的同胚。
 
-### 6. 在均匀化空间上半连续函数
+### 6. 均匀化空间上的半连续函数
 
 在章IV, § 6, no. 2，定理4的推论中，我们证明了拓扑空间上连续实值族函数的上包络线是下半连续函数。如果空间是*可统一的*，则命题有逆命题：
 
@@ -297,7 +297,7 @@ K1。 如果$x, y$是$X$的任意两个不同的点，则根据公理(H)和(O_IV
 
 条件*足够*。首先考虑$f$在$[-1, +1]$中取值的情况。我们必须证明，对于每个$x_0 \in X$和每个数$a < f(x_0)$，在$X$上都存在连续的实值函数$g$，使得$g \leq f$和$g(x_0) \geq a$。如果$a \leq -1$，我们可以取$g$作为常数$-1$。如果$-1 < a < f(x_0)$，则$x_0$有邻域$V$，使得所有$x \in V$都有$f(x) \geq a$。由于$X$是可统一的，$X$上有一个连续实值函数$h$，$[0, 1]$中有值，这样对于所有$x \in C_V$都有$h(x_0) = 0$和$h(x) = 1$。然后我们可以取$g(x) = a - (a + 1)h(x)$，并且我们有一个连续的函数满足指定的条件。 注这个函数在$[-1, +1]$ 中取其值。
 
-一般情况是转移结构；因为$[-1, +1]$在$\overline{\mathbf{R}}$上存在严格递增的同胚（章IV, § 4, no. 2，命题2），并且半连续函数的定义仅涉及阶结构并且拓扑共 $\overline{\mathbf{R}}$。
+一般情况下转移结构；因为$[-1, +1]$在$\overline{\mathbf{R}}$上存在严格递增的同胚（章IV, § 4, no. 2，命题2），并且半连续函数的定义仅涉及阶结构并且拓扑共 $\overline{\mathbf{R}}$。
 
 #### 注 {#top-ix-s1-n6-rem-1 .statement tag=0C1P}
 
@@ -305,4 +305,4 @@ K1。 如果$x, y$是$X$的任意两个不同的点，则根据公理(H)和(O_IV
 
 ### 习题 {#top-ix-s1-exercises}
 
-§ 1](exercises/s1/)参见[习题。
+参见[习题为 § 1](exercises/s1/)。

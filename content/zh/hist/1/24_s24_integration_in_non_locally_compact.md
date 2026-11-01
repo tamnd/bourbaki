@@ -17,10 +17,10 @@ translation_method: google
 source_content_sha256: d3f6db62824aa99fd727987d1aa4bd72ddbdc655b2f55dc83418c551647ff9bf
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: cd5a0469e35c3d926c07bd6df6a89c8ed5b09ecbd4b5c886d41199dc622a336a
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 24. 非局部紧集成空间。

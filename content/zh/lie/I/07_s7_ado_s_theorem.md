@@ -25,16 +25,16 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 22778fe457c12f8a4a88e2e3e633c1d23d021919bf25e767291cc74f721900ec
+content_sha256: 06e1bad11597fa4c8ede97a54917985866eab1f64b228656a8c03602e12683d5
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 translation_method: google
 source_content_sha256: 756c418e98cb289633fa81395166a73f8430efbf678bc03b436549d132075ff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 644c68fbc0d0e6659fdc47f8311b5d1d24ef69a1e96126d873172968dbf47751
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。阿多的定理
@@ -47,7 +47,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 特别是，如果 U 是李代数 g 的包络代数，并且 $\rho$ 是 g 的表示（用 U 的表示标识）在 n 维向量空间 E 上，则 g 模 E 与 $(C(\rho))^n$ 的子 g 模同构。
 
-### 2.扩张定理
+### 2. 扩张定理
 
 设$g = h + g'$为李代数，即理想$g'$的直和和子代数$h$，U为g的包络代数，$U' \subset U$为$g'$的包络代数。 $U'$ 上存在且仅有一个 g 模结构，使得： (α) 对于 $x \in g'$ 和 $u \in U'$，$x_{U'}u = -ux$； (β) 对于$x \in h$和$u \in U'$，$x_{U'}u = xu - ux$（后者元素肯定在$U'$中，因为由x定义的U的内部推导离开$g'$，因此$U'$稳定）。对于条件 (α) 和 (β) 定义，唯一将 g 的线性映射 $x \mapsto x_{U'}$ 转换为 $\mathscr{L}_K(U')$。因此，只要验证$[x, y]_{U'} = [x_{U'}, y_{U'}]$就足够了；只需要考虑以下几种情况：
 
@@ -105,15 +105,15 @@ $$
 
 *令$g = g' + h$为李代数，即理想的$g'$和子代数$h$的和。令 $\sigma$ 为 $g$ 的有限维表示。假设$\sigma(x)$对于所有$x \in g'$和所有$x \in h$都是幂零的。那么$\sigma(x)$对于所有$x \in g$来说是幂幂的。*
 
-经过除以核与 $\sigma$ 的商，$\sigma$ 可以被认为是忠实的。那么$g'$和$h$是幂零的，因此$g$（即$h$除以$g'$的商的扩张）是可解的。那么$h$和$g'$包含在$\sigma$的最大的幂零理想中（§ 5, no. 3，推论6到定理1）。
+经过除以核与 $\sigma$ 的商，$\sigma$ 可以被认为是忠实的。那么$g'$和$h$是幂零的，因此$g$是可解的，它是$h$除以$g'$的商的扩张。那么$h$和$g'$包含在$\sigma$的最大的幂零理想中（§ 5, no. 3，推论6到定理1）。
 
 改善定理 1、cf. 习题 4。
 
-### 3. ADO 定理
+### 3. 阿多的定理
 
 #### 命题 1 {#lie-i-s7-prop-1 .statement tag=0A1I}
 
-*令$g$为李代数，$n$为最大的幂零理想，$a$为$g$和$\rho$有限维表示为$a$，使得每一个元素 $\rho(a)$ 幂零。然后$\rho$承认有限维扩张$\sigma$到$g$，使得$\sigma(n)$的每个元素都是幂零的。*
+*设$g$为李代数，$n$其最大的幂零理想，$a$$g$和$\rho$有限维表示为$a$，使得每元素 $\rho(a)$ 幂零。然后$\rho$承认有限维扩张$\sigma$到$g$，使得$\sigma(n)$的每个元素都是幂零的。*
 
 令 $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ 为 $n$ 的子代数的序列，使得 $n_{i-1}$ 是 $1 \leq i \leq p$ 余维 1 的 $n_i$ 的理想 (§ 4, no. 1, 命题 1 (e))。因此，代数$n_i$是$n_{i-1}$的直和和一维子代数。由于$\mathrm{ad}_{n}x$对于所有$x \in n$都是幂零的，因此可以（定理 1）一一找到$\rho$到$n_1, n_2, \ldots, n_p = n$的有限维扩张$\rho_1, \rho_2, \ldots, \rho_p = \rho'$，使得$\rho'(n)$的每个元素都是幂零的。
 
@@ -136,10 +136,10 @@ $$
 \lambda \mapsto \begin{pmatrix} 0 & 0 \\ \lambda & 0 \end{pmatrix}.
 $$
 
-很容易推断出，$g$的中心$c$，即一维代数的乘积，承认有限维忠实的表示$\sigma$，使得$\sigma(c)$的每个元素都是幂零的。令$\sigma_1$为$\sigma$到$g$的有限维扩张，使得$\sigma_1(n)$的每个元素都是幂零的（命题1）；如果$k$表示$\sigma_1$的核，则$k \cap c = \{0\}$。另一方面，令$\sigma_2$为$g$的伴随表示，其核为$c$； $\sigma_2(n)$ 中的每一个元素都是幂零的。 $\sigma_1$和$\sigma_2$的直和$\rho$是有限维的； $\rho(n)$的每一个元素都是幂零的； $\rho$的核包含在$k$和$c$中，是零，所以$\rho$是忠实的。
+很容易推断出，$g$的中心$c$，即一维代数的乘积，承认有限维忠实的表示$\sigma$，使得$\sigma(c)$的每个元素都是幂零的。令$\sigma_1$为$\sigma$到$g$的有限维扩张，使得$\sigma_1(n)$的每个元素都是幂零的（命题1）；如果$k$表示$\sigma_1$的核，则$k \cap c = \{0\}$。另一方面，令$\sigma_2$为$g$的伴随表示，其核为$c$； $\sigma_2(n)$ 中的每一个元素都是幂零的。 $\sigma_1$和$\sigma_2$的直和$\rho$是有限维的； $\rho(n)$ 中的每一个元素都是幂零的； $\rho$的核包含在$k$和$c$中，是零，所以$\rho$是忠实的。
 
 ### 习题 {#lie-i-s7-exercises}
 
 § 7 的约定仍然有效，除非另有提及。
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

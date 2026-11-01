@@ -25,21 +25,21 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 2f3243dfd03ca7cee887d05d1cad75158cf2235475d24da778b32185111664e7
+content_sha256: 138e95c8c081c7aa347704a0ed885a2e7169b29442024bfb9ebbf1077f6672c5
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 translation_method: google
 source_content_sha256: 34250eb8b3431aeea58b08571a7b95394319981a39c9d593e7466689b9edb3b6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 92f12a47d4428512addec4e7a91bea6111e4b9b5c95623ee120e9e22d095c1ce
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。极端点和极端生成元
 
-### 1.紧凸集合的极值点
+### 1. 紧凸集合的极值点
 
 #### 定义 1 {#evt-ii-s7-def-1 .statement tag=07IP}
 
@@ -152,7 +152,7 @@ c) $\Rightarrow$ a)。这是 Krein-Milman 定理的明显推论。
 
 如果 A 是 Hausdorff 局部凸空间中的紧凸集合，则可能会发生 A 的极值点不属于到 A 的任何支持超平面（II，p. 78，执行 11）。 定理 1 (II, p. 56) 的证明表明，在任何情况下，A 都是 A 的极值点集合的凸闭包络，其中属于到支撑超平面。
 
-### 2.凸锥体的极值生成元
+### 2. 凸锥体的极值生成元
 
 令 C 为向量空间 E 中顶点为 0 的凸锥体；显然，除了顶点之外，C中没有其他点可以是极值点；当且仅当 C 是指向且正确的时，顶点是 C 的极值点。
 
@@ -235,11 +235,11 @@ $$
 
 通过道具。 II、p. 38中的4个，存在一个封闭的超平面$H$，它将0与$K$严格分开。现在，$\{0\}$和$K$的并的凸包络$A$是紧致的（II，p. 14，命题15），并且是$\lambda K$和$0 \leq \lambda \leq 1$的并。由于 0 和 $K$ 严格位于 $H$ 的相对侧，因此对于每个 $x \in K$ 都存在 $\lambda$，使得 $0 < \lambda < 1$ 和 $\lambda x \in H$。由于$C$是$\lambda \geq 1$的$\lambda A$的并，我们看到$H$满足$C$中包含的从0开始的每条半线，并且$H \cap A = H \cap C$是紧凑的。此外，$C$也是$\lambda \geq 0$的$\lambda(H \cap C)$的并；令$C_n$为$0 \leq \lambda \leq n$的$\lambda(H \cap C)$的并。显然$C_n$是$\{0\}$和$n(H \cap C)$的并的凸包络，因此它是紧的。另外，对于所有$x \in E$，在$E$和整数$n$中存在$x$的闭邻域$V$，使得$V \cap C \subset C_n$；事实上，如果$H$由方程$f(z) = \alpha$定义，其中$\alpha > 0$，则足以将$V$取由$nH$和包含0确定的闭半空间，其中$n$比$n\alpha > f(x)$大。这表明$C$是局部紧致的（取$x \in C$），并且它在$E$是封闭的。我们也可以将$K$视为完成$\hat{E}$的子集，因此$C$也在$\hat{E}$中闭合并因此完成。
 
-给定 Hausdorff 拓扑向量空间 $E$ 中的圆锥体 $C$ 和封闭的超平面 $H$，使得 $H$ 不包含，$C$ 和 $C$ 的顶点 $s$ 为最小的圆锥体有顶点 $s$ 包含 $H \cap C$，那么我们称交 $H \cap C$ 圆锥体 $C$ 的“唯一”。命题 6 表明，在 Hausdorff 局部凸空间 $E$、最小的顶点为 0、包含的圆锥中，0 不属于的紧凸圆锥集合 $K$ 是紧底圆锥，并且每个凸圆锥都有紧底圆锥$S$，局部紧凑且完整。
+给定 Hausdorff 拓扑向量空间 $E$ 中的圆锥体 $C$ 和封闭的超平面 $H$，使得 $H$ 不包含，$C$ 和 $C$ 的顶点 $s$ 为最小的顶点为 $s$ 包含 $H \cap C$ 的圆锥体，那么我们称交 $H \cap C$ 圆锥体 $C$ 的“唯一”。命题6表明，在Hausdorff局部凸空间$E$、最小的顶点0、包含的圆锥中，0不属于的紧凸圆锥集合$K$是紧底圆锥，并且每个凸圆锥都有紧底圆锥$S$，局部紧凑且完整。
 
 #### 例 1 {#evt-ii-s7-n3-exa-1 .statement tag=07JC}
 
-$E$、向量空间、有限维中的每一个真闭凸锥体都有一个紧凑的底部。事实上，通过II，p. 52，道具。 11 我们只需要考虑$E = \mathbf{R}^n$和$C = \mathbf{R}_+^n$的情况。如果$(e_i)_{1 \leq i \leq n}$是$\mathbf{R}^n$的典范基，很明显，作为$e_i$（$1 \leq i \leq n$）的凸包络的紧凑凸集合是$\mathbf{R}_+^n$的紧凑底。
+$E$、向量空间、有限维中的每一个真闭凸锥，都有一个紧凑的底部。事实上，通过II，p. 52，道具。 11 我们只需要考虑$E = \mathbf{R}^n$和$C = \mathbf{R}_+^n$的情况。如果$(e_i)_{1 \leq i \leq n}$是$\mathbf{R}^n$的典范基，显然，作为$e_i$（$1 \leq i \leq n$）的凸包络的紧凑凸集合是$\mathbf{R}_+^n$的紧凑底。
 
 #### 例 2 {#evt-ii-s7-n3-exa-2 .statement tag=07JD}
 
@@ -247,4 +247,4 @@ $E$、向量空间、有限维中的每一个真闭凸锥体都有一个紧凑�
 
 ### 习题 {#evt-ii-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

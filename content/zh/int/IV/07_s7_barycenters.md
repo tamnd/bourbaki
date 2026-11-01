@@ -37,29 +37,29 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 35239c8d0fc02dd4661e7b491a6fc0b09c4708520e68d10a504e71de8b5183f2
+content_sha256: 190c712eb9ce22ad95395085825798ccb004b70d6c83cf5f0e3a2eefc2c37d0e
 translated_from: content/en/int/IV/07_s7_barycenters.md
 translation_method: google
 source_content_sha256: a0b29318ee51bbadb84b433570743b81dc51c686140364de87fd714982b23900
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: abe05df311fcfcf6dba0226da04f16b4b7e2d3e9c085970b00f3cbb881d710a6
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## § 7。重心
 
 ### 1. 定义重心
 
-令 E 为 $\mathbf{R}$ 上的 Hausdorff 局部凸空间，$E'$ 其对偶，${E'}^*$ $E'$ 的代数对偶，E 被规范地识别为 ${E'}^*$ 的线性子空间。令 K 为 E 的紧子集； K 的典范嵌入到 E 中是连续的且有紧支撑，因此对于 K 上的每个测度 $\mu$，整的 $\int x\, d\mu(x)$ 被定义并且是 ${E'}^*$ 的元素（第 III, §3, No. 1）。而且，在K上，弱拓扑$\sigma({E'}^*, E')$诱发的拓扑与原来的拓扑相同。最后，如果C是配备$\sigma({E'}^*, E')$的${E'}^*$中K的闭凸包络，则对于原始拓扑（或弱化的拓扑$\sigma(E, E')$），$C \cap E$是E中K的闭凸包络。
+令 E 为 $\mathbf{R}$ 上的 Hausdorff 局部凸空间，$E'$ 其对偶，${E'}^*$ $E'$ 的代数对偶，E 被规范地识别为 ${E'}^*$ 的线性子空间。令 K 为 E 的紧子集； K 的典范嵌入到 E 中是连续的且具有紧支撑，因此对于 K 上的每个测度 $\mu$，整的 $\int x\, d\mu(x)$ 被定义并且是 ${E'}^*$ 的元素（第 III, §3, No. 1）。而且，在K上，弱拓扑$\sigma({E'}^*, E')$诱发的拓扑与原来的拓扑相同。最后，如果C是配备$\sigma({E'}^*, E')$的${E'}^*$中K的闭凸包络，那么对于原始拓扑（或弱化的拓扑$\sigma(E, E')$），$C \cap E$就是E中K的闭凸包络。
 
 #### 定义 1 {#int-iv-s7-def-1 .statement tag=08YJ}
 
 *令 K 为 Hausdorff 局部凸空间 E 的紧子集。对于总质量等于 1 的 K 上的每个正测度 $\mu$，向量 $b_\mu = \int x\, d\mu(x)$（属于到 ${E'}^*$）称为 $\mu$ 的重心。*
 
-#### 例{#int-iv-s7-n1-exa-1 .statement tag=08YK}
+#### 例 {#int-iv-s7-n1-exa-1 .statement tag=08YK}
 
 — 令 $\mu$ 为 K 的*离散*测量值，正数且总质量为 1；因此，它是形式$\mu = \sum_{i=1}^n \lambda_i \varepsilon_{x_i}$，其中$x_i \in K$和$\lambda_i$是实数，使得$\lambda_i \geq 0$对于所有$i$和$\sum_{i=1}^n \lambda_i = 1$。从$\int x\, d\varepsilon_y(x) = y$（第III, §3, No. 1，*例 3*）开始，$b_\mu = \int x\, d\mu(x) = \sum_i \lambda_i x_i$。特别是，对于每个 $x \in K$，x 是度量 $\varepsilon_x$ 的重心。
 
@@ -73,7 +73,7 @@ prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
 
 *如果 E 中 K 的闭凸包络C 是紧的，则 K 属于到 E 上总质量 1 的每个正测量的重心。*
 
-因为，C 也是 ${E'}^*$ 中 K 的闭凸包络，配备了弱拓扑 $\sigma(E', E')$，并且足以将 K 的典范嵌入应用到 E 第 4 章的 Prop. 4 中。 III, §3, No. 2。
+因为，C 也是 ${E'}^*$ 中 K 的闭凸包络，配备了弱拓扑 $\sigma(E', E')$，并且足以将 K 的典范嵌入应用到第 4 章的 E 命题 4 中。 III, §3, No. 2。
 
 #### 注 {#int-iv-s7-n1-rem-1 .statement tag=08YN}
 
@@ -89,7 +89,7 @@ $$
 $$
 \int h_\alpha(x) d\mu(x) \leq \int^* f(x) d\mu(x)
 $$
-每$\alpha$；现在，$\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x, z'_\alpha \rangle d\mu(x)$ 自 $\mu$ 的总质量为 1；但是 $\int \langle x, z'_\alpha \rangle d\mu(x) = \langle b_\mu, z'_\alpha \rangle$ 乘以重心定义。因此$\sup_\alpha \int h_\alpha(x) d\mu(x) = \sup_\alpha h_\alpha(b_\mu) = f(b_\mu)$、从而结论。
+每$\alpha$；现在，$\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x, z'_\alpha \rangle d\mu(x)$ 自 $\mu$ 的总质量为 1；但 $\int \langle x, z'_\alpha \rangle d\mu(x) = \langle b_\mu, z'_\alpha \rangle$ 乘以重心定义。因此$\sup_\alpha \int h_\alpha(x) d\mu(x) = \sup_\alpha h_\alpha(b_\mu) = f(b_\mu)$、从而结论。
 
 当 $\mu$ 是总质量 1 的 K 上的离散正测度时，命题 2 重新产生不等式，即定义 K 上的凸函数。
 
@@ -97,13 +97,13 @@ $$
 
 — 对于 K 上的每个有界且下半连续的凸数值函数函数 g，$g(b_\mu) \leq \int g d\mu$。
 
-只要 $\inf_{x \in K} g(x) = a$ 是有限的，就足以满足注的要求，并应用第 2 条命题到 $g - a$。
+只要 $\inf_{x \in K} g(x) = a$ 是有限的，并且满足注即可，并将命题 2 应用于 $g - a$。
 
 ### 2. 极值点和重心
 
 #### 命题 3 {#int-iv-s7-prop-3 .statement tag=08YQ}
 
-— 令 K 为 Hausdorff 局部凸空间 E 的紧凸子集，K 的 x 点。总质量 1 的 K（正）上的每个测量 $\mu$，并承认 x 作为重心，都位于承认 x 作为重心的总质量 1 的离散正测量的集合的模糊闭包中。
+— 令 K 为 Hausdorff 局部凸空间 E 的紧凸子集，K 的 x 点。总质量 1 的正 K 上的每个测量 $\mu$，并承认 x 作为重心，都位于承认 x 作为重心的总质量 1 的离散正测量的集合的模糊闭包中。
 
 对于模糊拓扑，令U为$\mu$的邻域；我们可以假设 U 由 K 上的测量 $\nu$ 组成，使得
 $$
@@ -207,19 +207,19 @@ $$
 
 *设E是$\mathbf{R}$上的豪斯多夫局部凸空间，K是E的可度量紧凸子集。那么，K上存在严格凸数值函数。*
 
-For, the Banach 空间 $\mathscr{C}(K; \mathbf{R})$ is separable (GT, X, §3, No. 3, Th. 1), therefore so is 子空间 $\mathscr{A}$ of $\mathscr{C}(K; \mathbf{R})$ formed by 限制 to K of the *continuous affine linear 函数 on* E. Thus let $(h_n)$ 是序列稠密于 $\mathscr{A}$，并设 $\alpha_n > \sup_{\mathbf{x} \in K} |h_n(\mathbf{x})|$。 Then each of 函数 $h_n^2 / n^2 \alpha_n^2$ is convex in K (TVS, II, §2, No. 8, *例*), and 级数 with general 项 $h_n^2 / n^2 \alpha_n^2$ is normally convergent, therefore its 和 $u$ is continuous and convex in K. It remains to see that $u$ is strictly convex, and for this it suffices to prove that for any two distinct 点 $\mathbf{x}, \mathbf{x}'$ of K, there is 整数 $n$ such that 限制 of $h_n^2$ to the segment with endpoints $\mathbf{x}, \mathbf{x}'$ is strictly convex;但为此，$h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$就足够了（*loc.cit.*）。 Now, there exists 函数 $h \in \mathscr{A}$ such that $h(\mathbf{x}) \neq h(\mathbf{x}')$ (TVS, II, §4, No. 1, Cor. 1 of Prop. 2) and since 序列 $(h_n)$ is dense in $\mathscr{A}$, there exists an $n$ such that $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$.
+因为，Banach 空间 $\mathscr{C}(K; \mathbf{R})$ 是可分离的 (GT, X, §3, No. 3, Th. 1)，因此由限制到 K 的 *E 上的*连续仿射线性函数形成的 $\mathscr{C}(K; \mathbf{R})$ 的子空间 $\mathscr{A}$ 也是可分离的。因此令$(h_n)$ 是序列稠密于 $\mathscr{A}$，并设 $\alpha_n > \sup_{\mathbf{x} \in K} |h_n(\mathbf{x})|$。那么函数$h_n^2 / n^2 \alpha_n^2$在K上都是凸的（TVS，II, §2, No. 8，*例*），而级数与一般的项$h_n^2 / n^2 \alpha_n^2$是正常收敛的，因此它的和$u$在K上是连续的凸的。还有待观察$u$是严格凸的，为此只要证明对于K的任何两个不同的点$\mathbf{x}, \mathbf{x}'$，都存在整数$n$使得$h_n^2$的限制到端点为$\mathbf{x}, \mathbf{x}'$的线段是严格凸的；但为此，$h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$就足够了（*loc.cit.*）。现在，存在函数 $h \in \mathscr{A}$ 使得 $h(\mathbf{x}) \neq h(\mathbf{x}')$（TVS，II, §4, No. 1，命题 2 的 Cor.1），并且由于序列 $(h_n)$ 在 $\mathscr{A}$ 中是稠密的，因此存在 $n$ 使得 $h_n(\mathbf{x}) \neq h_n(\mathbf{x}')$。
 
 Q.E.D.
 
 #### 推论{#int-iv-s7-n2-cor-2 .statement tag=08YW}
 
-*Let E be a Hausdorff locally convex 空间 over $\mathbf{R}$, C a proper convex cone in E with vertex 0, that is complete and metrizable for the uniform 结构 induced by the weakened uniform 结构 of E. Let M be 并 of the extremal 生成元 C。 For every $\mathbf{x} \in C$ there exist a compact convex 子集 K of C and a measure $\lambda \geq 0$ on K of total mass 1, such that $K - (M \cap K)$ is $\lambda$-negligible and the barycenter of $\lambda$ is equal to $\mathbf{x}$.
+*设 E 为在 $\mathbf{R}$ 上的 Hausdorff 局部凸空间，C E 中顶点为 0 的真凸锥体，对于由 E 的弱均匀结构引起的均匀结构是完整且可度量的。设 M 为极值生成元的并 C。对于每个$\mathbf{x} \in C$，都存在C的紧凸子集 K 和总质量为 1 的 K 上的测度 $\lambda \geq 0$，使得 $K - (M \cap K)$ $\lambda$ 可忽略不计，$\lambda$ 的重心等于 $\mathbf{x}$。
 
-For, $\mathbf{x}$ 属于 to a cap K of C (TVS, II, §7, No. 2, Prop. 5), and $M \cap K$ 包含集合 of extremal 点 of K (*loc. cit.*, Cor. 1 of Prop. 4）。然后应用 Th 就足够了。 1.
+对于，$\mathbf{x}$属于到C的上限K（TVS，II, §7, No. 2，提案5），以及K的极值点的$M \cap K$包含集合（*loc.cit.*，提案第1条） 4).然后应用 Th 就足够了。 1.
 
 ### 3. 应用：I。连续实数向量空间函数
 
-Let X be 非空 compact 空间, $\mathscr{H}$ a linear 子空间 of the Banach 空间 $\mathscr{C}(X; \mathbf{R})$ that 包含 the constants and *separates* 点 of X （GT，X, §4, No. 1，默认 1）。我们为$\mathscr{H}$配备由$C(X; \mathbf{R})$诱导的范数空间拓扑，并用$\mathscr{H}'$表示该范数空间的对偶。 For every $x \in X$, 映射 $f \mapsto f(x)$ is a continuous 线性形式 on $\mathscr{H}$ (限制 to $\mathscr{H}$ of the Dirac measure $\varepsilon_x$), thus is 元素 of $\mathscr{H}'$ that will be表示为 $i_{\mathscr{H}}(x)$，因此
+令X为非空紧致空间，$\mathscr{H}$巴拿赫空间$\mathscr{C}(X; \mathbf{R})$的线性子空间，包含常数并*分离*点与X （GT，X, §4, No. 1，默认 1）。我们为$\mathscr{H}$配备由$C(X; \mathbf{R})$诱导的范数空间拓扑，并用$\mathscr{H}'$表示该范数空间的对偶。对于每个$x \in X$，映射$f \mapsto f(x)$是$\mathscr{H}$上的连续线性形式（狄拉克测度$\varepsilon_x$的限制到$\mathscr{H}$），因此$\mathscr{H}'$的元素将是表示为 $i_{\mathscr{H}}(x)$，因此
 
 $$
 \langle f, i_{\mathscr{H}}(x) \rangle = f(x)
@@ -227,7 +227,7 @@ $$
 
 对于每个函数$f \in \mathscr{H}$和每个$x \in X$。
 
-当$\mathscr{H}'$配备弱拓扑$\sigma(\mathscr{H}', \mathscr{H})$时，X到$\mathscr{H}'$的映射$i_{\mathscr{H}}$是单射且连续的；第二个断言紧接在定义和(9)之后； as for the first, 注 that if $x, x'$ are two distinct 点 of X, by 假设 there exists 函数 $h \in \mathscr{H}$ such that $h(x) \neq h(x')$, therefore, by (9), $\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$ and *更不必说*$i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$。 像 $i_{\mathscr{H}}(X)$ is therefore a *compact* 子集 of $\mathscr{H}'$ (for the weak 拓扑), and $i_{\mathscr{H}}$ is a *homeomorphism* of X onto $i_{\mathscr{H}}(X)$.
+当$\mathscr{H}'$配备弱拓扑$\sigma(\mathscr{H}', \mathscr{H})$时，X到$\mathscr{H}'$的映射$i_{\mathscr{H}}$是单射且连续的；第二个断言紧接在定义和(9)之后；对于第一个，注，如果$x, x'$是X的两个不同的点，则通过假设，存在函数$h \in \mathscr{H}$，使得$h(x) \neq h(x')$，因此，通过（9），$\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$和*更不必说*$i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$。因此，像$i_{\mathscr{H}}(X)$是$\mathscr{H}'$的*紧*子集（对于弱拓扑），$i_{\mathscr{H}}$是X到$i_{\mathscr{H}}(X)$的*同胚*。
 
 #### 命题 4 {#int-iv-s7-prop-4 .statement tag=08YX}
 
@@ -301,25 +301,25 @@ b) *对于每个函数 $h \in \mathscr{H}$，集合 F 与 X 的点的集合相�
 
 c) *对于每个点 $x \in X$，在 X 上存在总质量 1 的正测量值 $\mu$，使得每个函数 $h \in \mathscr{H}$ 都有 $\operatorname{Supp}(\mu) \subset F$ 和 $h(x) = \int h \, d\mu$。*
 
-让$G = i_{\mathscr{H}}(F)$。 条件 *a)* 表示 C 的极值点的 G 包含集合。 条件 *b)* 表示 G 满足$i_{\mathscr{H}}(X)$ 的交与$i_{\mathscr{H}}(X)$ 的每个闭支撑超平面。最后，条件 *c)* 表示$i_{\mathscr{H}}(X)$的每个点都是G中包含支持的测度的重心；根据命题 1 No. 1，这也相当于说，$i_{\mathscr{H}}(X)$ 的闭凸包络等于 G 的闭凸包络。因此，条件 *a)*、*b)* 和 *c)* 的等价由 TVS、II, §7, No. 1、Cor 得出。提案 2。
+让$G = i_{\mathscr{H}}(F)$。 条件 *a)* 表示 C 的极值点的 G 包含集合。 条件 *b)* 表示 G 满足$i_{\mathscr{H}}(X)$ 的交以及$i_{\mathscr{H}}(X)$ 的每个闭支撑超平面。最后，条件 *c)* 表示$i_{\mathscr{H}}(X)$的每个点都是G中包含支持的测度的重心；根据 No. 1，命题 1，这也相当于说，$i_{\mathscr{H}}(X)$ 的闭凸包络等于 G 的闭凸包络。条件 *a)*、*b)* 和 *c)* 的等价因此可从 TVS、II, §7, No. 1、Cor 得出。提案 2。
 
 #### 命题 8 {#int-iv-s7-prop-8 .statement tag=08Z1}
 
-*假设X是可度量的。那么X的$\mathscr{H}$-极值点的集合$\operatorname{Ch}_{\mathscr{H}}(X)$是X中开集合可数族的交，并且对于每个$x \in X$，存在总质量1的正测度$\mu$ X 这样*
+*假设X是可度量的。那么X的$\mathscr{H}$-极值点的集合$\operatorname{Ch}_{\mathscr{H}}(X)$是X中开集合可数族的交，并且对于每个$x \in X$，存在总质量1的正测度$\mu$在 X 这样*
 
 $$
 \mu(X - \operatorname{Ch}_{\mathscr{H}}(X)) = 0 \quad \text{and} \quad \int h \, d\mu = h(x)
 $$
 
-*对于每个$h \in \mathscr{H}$。*
+*每$h \in \mathscr{H}$。*
 
 这是Th的翻译。 No. 2 的 1，通过同胚 $x \mapsto i_{\mathscr{H}}(x)$ 乘以结构的迁移，如命题 5 所示。
 
-当X上定义的函数中的集合$\mathscr{P}$替换$\mathscr{H}$时，可以扩展该编号的某些数，其中$\mathbf{R} \cup \{+\infty\}$中的值是下半连续的，$\mathscr{P}$假设为包含常数和满足 $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$（例 2）。
+当X上定义的函数的集合$\mathscr{P}$替换$\mathscr{H}$时，该编号的某些数可以扩展，其中$\mathbf{R} \cup \{+\infty\}$中的值是下半连续的，假设$\mathscr{P}$为包含常数和满足 $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$（例 2）。
 
 #### 例 {#int-iv-s7-n3-exa-1 .statement tag=08Z2}
 
-— 取$\mathbf{R}^3$中X为单位球$\|x\| \leq 1$，令$\mathscr{H}$为仿射线性X、包含限制至X上连续函数的向量空间 $\mathbf{R}^3$和满足上的函数*最大原理*，即对于每个非常数函数$h \in \mathscr{H}$，X的点的集合（其中h达到其上等）包含在球体内$S_2$。然后很容易从 Props 中得出结论。 5和7即$\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$。 向量空间 $\mathscr{H}$ 满足前面的条件的一个重要例是X 上连续的函数的集合以及开球$\|x\| < 1$ 中的*谐波*。对于这些函数，可以证明质量 1 的正测度 $\mu$，使得所有 $h \in \mathscr{H}$ 的 $\operatorname{Supp}(\mu) \subset S_2$ 和 $h(x) = \int h \, d\mu$ 均已给出，如果 $\|x\| < 1$，由泊松公式给出
+— 取X为$\mathbf{R}^3$中的单位球$\|x\| \leq 1$，令$\mathscr{H}$为X、包含限制上连续函数的向量空间得$\mathbf{R}^3$和满足上的仿射线性函数的X*最大值原理*，即，对于点的每个非常数函数$h \in \mathscr{H}$、集合 h 达到最高值的X 包含在球体$S_2$ 中。然后很容易从 Props 中得出结论。 5和7表示$\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$。 向量空间 $\mathscr{H}$ 满足前面的条件的重要例是X 上连续的函数的集合和开球$\|x\| < 1$ 中的*和谐*。对于这些函数，可以证明质量 1 的正测度 $\mu$，使得所有 $h \in \mathscr{H}$ 的 $\operatorname{Supp}(\mu) \subset S_2$ 和 $h(x) = \int h \, d\mu$ 均已给出，如果 $\|x\| < 1$，由泊松公式给出
 
 $$
 d\mu(z) = \frac{1 - \|z\|^2}{\|z - x\|^3} d\sigma(z),
@@ -327,9 +327,9 @@ $$
 
 其中 $\sigma$ 是在正交群下对 $S_2$ 不变的测量，并且使得 $\sigma(S_2) = 1$（Ch. VII, §3，Exer. 8）。*
 
-### 4. 应用：II。连续复形函数的向量空间
+### 4. 应用：II。连续复形向量空间函数
 
-令$X$为非空紧凑空间，$\mathscr{H}$复数Banach空间$\mathscr{C}(X; \mathbf{C})$的线性子空间，包含为常量并分隔$X$的点。 函数$f \in \mathscr{H}$的实数部分$\Re(f)$的集合是实数向量空间$\mathscr{C}(X; \mathbf{R})$的线性子空间$\mathscr{H}_r$；对于每个 $f \in \mathscr{H}$、集合 $\mathscr{H}_r$ 以及包含 $\mathscr{I}(f) = \Re(-if)$；由此可见，$\mathscr{H}_r$将点与$X$分开，因为关系$h(x) = h(y)$对于所有$h \in \mathscr{H}_r$意味着$\Re(f(x)) = \Re(f(y))$和$\mathscr{I}(f(x)) = \mathscr{I}(f(y))$，因此$f(x) = f(y)$对于所有$f \in \mathscr{H}$。 $X$中的$\mathscr{H}_r$-极值点又称为$\mathscr{H}$-极值，其中集合记为$\mathrm{Ch}_{\mathscr{H}}(X)$，后者集合的闭包记为$\check{S}_{\mathscr{H}}(X)$。 Props 的类似物。 5和7如下：
+令$X$为非空紧凑空间，$\mathscr{H}$复数Banach空间$\mathscr{C}(X; \mathbf{C})$的线性子空间，包含为常量并分离$X$的点。 函数$f \in \mathscr{H}$的实数部分$\Re(f)$的集合是实数向量空间$\mathscr{C}(X; \mathbf{R})$的线性子空间$\mathscr{H}_r$；对于每个$f \in \mathscr{H}$，集合$\mathscr{H}_r$还有包含$\mathscr{I}(f) = \Re(-if)$；由此可见，$\mathscr{H}_r$将点与$X$分开，因为对于所有$h \in \mathscr{H}_r$来说关系$h(x) = h(y)$意味着$\Re(f(x)) = \Re(f(y))$和$\mathscr{I}(f(x)) = \mathscr{I}(f(y))$，因此对于所有$f \in \mathscr{H}$来说$f(x) = f(y)$。 $X$中的$\mathscr{H}_r$-极值点又称为$\mathscr{H}$-极值，其中集合记为$\mathrm{Ch}_{\mathscr{H}}(X)$，后者集合的闭包记为$\check{S}_{\mathscr{H}}(X)$。 Props 的类似物。 5和7如下：
 
 #### 命题 9 {#int-iv-s7-prop-9 .statement tag=08Z3}
 
@@ -349,7 +349,7 @@ $$
 a）$F$包含$\check{S}_{\mathscr{H}}(X)$。
 b) 对于每个函数$f \in \mathscr{H}$，$F$与$X$的点的集合相交，其中$|f|$达到其最高值。
 c) 对于每个点$x \in X$，$X$上存在总质量1的正测量$\mu$，使得每个函数$f \in \mathscr{H}$都有$\mathrm{Supp}(\mu) \subset F$和$f(x) = \int f d\mu$。
-让我们证明条件a)和c)的等价：让$f = f_1 + i f_2$和$f_1, f_2$在$\mathscr{H}_r$中； 关系$f(x) = \int f d\mu$相当于两个关系$f_1(x) = \int f_1 d\mu$和$f_2(x) = \int f_2 d\mu$；因此，适用于No. 3第7号提案的条件a)和c)中的$\mathscr{H}_r$等价就足够了。 a) 蕴含 b) 的事实由命题 9 得出。让我们证明 b) 蕴含 a)；这是一个问题，如果 b) 得到验证，那么对于每个 $h \in \mathscr{H}_r$，F 与点的集合相交，其中 $h$ 在 X 中达到其下确界。 条件 b) 意味着 F 是非空；由于 F 是紧致的，因此存在 $a \in F$，使得对于所有 $y \in F$ 都有 $h(a) \leq h(y)$。令 $f \in \mathscr{H}$ 使得 $h = \mathscr{R}(f)$；对于每个 $\varepsilon > 0$、函数 $g = f - h(a) + \varepsilon$ 属于到 $\mathscr{H}$，以及
+让我们证明条件a)和c)的等价：让$f = f_1 + i f_2$和$f_1, f_2$在$\mathscr{H}_r$中； 关系$f(x) = \int f d\mu$相当于两个关系$f_1(x) = \int f_1 d\mu$和$f_2(x) = \int f_2 d\mu$；因此，适用于No. 3第7号提案的条件a)和c)中的$\mathscr{H}_r$等价就足够了。 a) 蕴含 b) 的事实由命题 9 得出。让我们证明 b) 蕴含 a)；这是一个问题，如果 b) 得到验证，那么对于每个 $h \in \mathscr{H}_r$，F 与点的集合相交，其中 $h$ 在 X 中达到其下确界。 条件 b) 意味着 F 是非空；由于 F 是紧致的，因此存在 $a \in F$，使得对于所有 $y \in F$ 都有 $h(a) \leq h(y)$。令 $f \in \mathscr{H}$ 使得 $h = \mathscr{R}(f)$；对于每个 $\varepsilon > 0$、函数 $g = f - h(a) + \varepsilon$ 属于至 $\mathscr{H}$，以及
 $$
 \mathscr{R}(g(y)) = h(y) - h(a) + \varepsilon \geq \varepsilon
 $$
@@ -357,7 +357,7 @@ $$
 $$
 |g(y) - b|^2 = |g(y)|^2 - 2b \mathscr{R}((g(y))) + b^2 \leq c^2 - 2b\varepsilon + b^2 = b^2,
 $$
-在其他字中，函数$|g - b|$的F中上界为$\leq b$。由于F上的$g - b \in \mathscr{H}$，假设意味着$|g - b| \leq b$，从而
+在其他字中，函数$|g - b|$的F中上界是$\leq b$。由于 F 上的 $g - b \in \mathscr{H}$, 假设意味着 $|g - b| \leq b$, 从而
 $$
 b^2 \geq |g - b|^2 = |g|^2 - 2b \mathscr{R}(g) + b^2
 $$
@@ -365,7 +365,7 @@ $$
 
 #### 注 {#int-iv-s7-n4-rem-1 .statement tag=08Z5}
 
-如果$f$是连续实数函数，则$|f|$达到其最高值的点就是点，其中函数$f, -f$之一达到其最高值。对于连续实数函数满足的向量空间$\mathscr{H}$，No. 3的假设，Props。因此，9 和 10 是 Props 的微不足道的推论。分别为5和7。
+如果$f$是连续实数函数，则$|f|$达到其最高值的点是点，其中函数$f, -f$之一达到其最高值。对于连续实数函数满足的向量空间$\mathscr{H}$，No. 3的假设，Props。因此，9 和 10 是 Props 的微不足道的推论。分别为5和7。
 
 ### 5. 应用：III。 代数连续函数
 
@@ -476,7 +476,7 @@ $$
 
 From these results, one deduces that there does not exist an *analytic isomorphism* of an open neighborhood of $X_1$ onto an open neighborhood of $X_2$ that *transforms* $X_1$ *into* $X_2$; for, if $v$ were the restriction to $X_1$ of such a mapping, one would have $\mathscr{A}_2 = v \mathscr{A}_1 v^{-1}$ and so $v$ would transform $S_3$ into a space homeomorphic to $T^2$, which is absurd since $S_3$ is simply connected but $T^2$ is not. 然而，我们会观察到空间 $X_1$ 和 $X_2$ 是“同胚”，两者都是 $\mathbf{R}^4$ 中的有界凸集合，内部为非空。*
 
-### 6. 表示积分的唯一性
+### 6. 积分表示的唯一性
 
 设E为豪斯多夫弱局部凸空间（TVS，II, §6, No. 2），C为E中的真尖凸锥。我们知道C是E的元素$\geqslant 0$的集合，对于序关系与向量空间结构兼容当 C 被称为晶格有序时，它当然是由所理解的 E 在 C 上诱导的阶 。
 
@@ -553,10 +553,10 @@ $$
 \inf(f_1 - f_2, f_3 - f_4) &= -\sup(f_2 - f_1, f_4 - f_3) \in \mathscr{S} - \mathscr{S}.
 \end{align*}
 $$
-从$h|M \in \mathscr{S}$开始，$\mathscr{S} - \mathscr{S}$包含为常数函数。如果x和y是M的两个不同的点，则E上存在一个连续的线性形式将x和y分开，并且这个形式是两个在C上为正的连续线性形式的差（TVS，II, §6, No. 8，引理1）。由上可知，对于$\alpha, \beta$实数，存在$f \in \mathscr{S} - \mathscr{S}$使得$f(x) = \alpha, f(y) = \beta$。那么$\mathscr{S} - \mathscr{S}$在$\mathscr{C}(M)$中对于拓扑一致收敛是稠密的（GT，X, §4, No. 1，Prop.2的Cor.）。从 $\mathscr{S} - \mathscr{S}$ 上的 $\lambda$ 和 $\lambda'$ 重合开始，我们有 $\lambda = \lambda'$。
+从$h|M \in \mathscr{S}$开始，$\mathscr{S} - \mathscr{S}$包含为常数函数。如果x和y是M的两个不同的点，则E上存在将x和y分开的连续线性形式，并且这个形式是C上为正的两个连续线性形式的差（TVS，II, §6, No. 8，引理1）。由上可知，对于$\alpha, \beta$实数，存在$f \in \mathscr{S} - \mathscr{S}$使得$f(x) = \alpha, f(y) = \beta$。那么$\mathscr{S} - \mathscr{S}$在$\mathscr{C}(M)$中对于拓扑一致收敛是稠密的（GT，X, §4, No. 1，Prop.2的Cor.）。从 $\mathscr{S} - \mathscr{S}$ 上的 $\lambda$ 和 $\lambda'$ 重合开始，我们有 $\lambda = \lambda'$。
 
 习题
 
-### 习题{#int-iv-s7-exercises}
+### 习题 {#int-iv-s7-exercises}
 
-§ 7](exercises/s7/)参见[习题。
+参见[习题为 § 7](exercises/s7/)。

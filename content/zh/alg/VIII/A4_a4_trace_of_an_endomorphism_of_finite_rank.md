@@ -23,23 +23,23 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: a26e3a4f8ab64026fb031583ed226b499569fa6fd96b250ee22aa41c5dbe7e9b
+content_sha256: 0ba269d90a91d67171d782dc026ea59bcf6612c67c95378de155f7bf78318aa6
 translated_from: content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md
 translation_method: google
 source_content_sha256: b21c8fa64810e183438c648b465f555368181eb6b34b8b9afdc829259a3d239d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-0c690ed9
+translation_run: translate-zh-50f48bb3
 glossary_version: 34
 glossary_terms_sha256: 746a03d70aef6f87a26cd9c519fe35acfd2719cfcd6352613465818eea9242da
-prompt_sha256: 31637ca47e680e9beb1f7812fc32fe615d0a63ad61fc456e4edc9253ad1563e9
+prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 ---
 
 ## 附录 4 自同态有限秩的痕迹
 
 ### 1. 线性映射 / 有限秩
 
-设A为环，设E和F为A-模。我们用从E到F的线性映射的Hom$^f_A(E,F)$集合来表示，其中像包含在F的有限生成的子模中。它是Hom$_A(E,F)$的子群。当A为域时，从有限秩的E到F为线性映射的集合(II, §7, No. 4、p. 298、定义3)。 集合结束$^f_A(E) =$坎$^f_A(E,E)$。
+令A为环，令E和F为A-模。我们用从E到F的线性映射的Hom$^f_A(E,F)$集合来表示，其中像包含在F的有限生成的子模中。它是Hom$_A(E,F)$的子群。当A为域时，从有限秩的E到F为线性映射的集合(II, §7, No. 4、p. 298、定义3)。 集合结束$^f_A(E) =$坎$^f_A(E,E)$。
 
 令$E,F,G$为A-模，令$u: E\rightarrow F$和$v: F\rightarrow G$为A-线性映射。如果$u\in$Hom$^f_A(E,F)$或$v\in$Hom$^f_A(F,G)$，则$v\circ u$属于到Hom$^f_A(E,G)$。
 
@@ -63,7 +63,7 @@ $$
 u=\theta (\sum_{j\in J}^tu(f_j^*)\otimes f_j) \tag{2}
 $$
 
-一般情况下，存在自由A-模L和同态$i: F\rightarrow L$和$p: L\rightarrow F$使得$p\circ i= 1_F$。 同态$i\circ u$属于到霍姆$^f_A(E,L)$。通过上述，存在有限的集合 J，并且对于每个 $j\in J$，$E^*$ 的元素 $x^*_j$ 和 L 的 $y_j$ 这样我们有
+一般情况下，存在自由A-模L和同态$i: F\rightarrow L$和$p: L\rightarrow F$使得$p\circ i= 1_F$。 同态$i\circ u$属于到霍姆$^f_A(E,L)$。通过上述，存在有限的集合 J，并且对于每个$j\in J$，$E^*$的元素$x^*_j$和L的$y_j$这样我们有
 
 $$
 i(u(x)) =\sum_{j\in J}\langle x, x^*_j\rangle y_j
@@ -77,7 +77,7 @@ $$
 
 每 $x\in E$，因此 $u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))$。
 
-### 2.有限秩自同态的痕迹
+### 2. 有限秩自同态的痕迹
 
 在这个小节中，A表示交换环。令 E 为射影 A-模。那么End$^f_A(E)$就是End$_A$(E)的A-子模，从$E^*\otimes_AE$到End$^f_A(E)$，End$_A(E)$定义同构$\theta_E$是A-模的典范映射$E^*\otimes_AE\rightarrow$ （引理1）。考虑以公式 $\tau (x^*\otimes x) =\langle x, x^*\rangle$ 为特征的规范线性形式 $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3, p. 273)。与同构$\theta^{-1}_E$合成，可推导出线性形式Tr：End$^f_A(E)\rightarrow A$，称为踪迹形式。当A-模 E 有限生成时，我们恢复II, §4, No. 3、p. 273 的定义。
 
