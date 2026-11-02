@@ -1,0 +1,550 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: VI
+chapter_title: VALUATIONS
+section: 8
+section_title: Extensions of a valuation to an algebraic extension
+lang: ja
+source: ac-i-vii
+book_pages: 416-431, 461-469
+pdf_pages: 0434-0449, 0479-0487
+extraction: ocr
+subsections:
+    - "no": 1
+      title: RAMIFICATION INDEX. RESIDUE CLASS DEGREE
+      page: 416
+      pdf_page: 434
+    - "no": 2
+      title: EXTENSION OF A VALUATION AND COMPLETION
+      page: 418
+      pdf_page: 436
+    - "no": 3
+      title: THE RELATION $\sum_i e_i f_i \leq n$
+      page: 420
+      pdf_page: 438
+    - "no": 4
+      title: INITIAL RAMIFICATION INDEX
+      page: 422
+      pdf_page: 440
+    - "no": 5
+      title: THE RELATION $\sum_i e_i f_i = n$
+      page: 423
+      pdf_page: 441
+    - "no": 6
+      title: VALUATION RINGS IN AN ALGEBRAIC EXTENSION
+      page: 427
+      pdf_page: 445
+    - "no": 7
+      title: THE EXTENSION OF ABSOLUTE VALUES
+      page: 428
+      pdf_page: 446
+statements: 36
+exercises: 21
+content_sha256: fef2b30d9bbbd9b8b33a84c58928473396afec118af5708dc76bb73ed7a791d8
+translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
+translation_method: google
+source_content_sha256: cdeab4f8e3ec406096d5a84060f974fac6c1348ec20e61d5f464c6c18df5b822
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: 779a018c4fae6377545655bdc2f48c6cbfa5ce1c1b650bf8a1d8c61b8e194462
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 8. 代数に対する評価の拡大拡大
+
+### 1. 派生現象添字。 剰余類次数
+
+Let $\mathbf{K}$ be a field, $\mathbf{L}$ an extension of $\mathbf{K}$ and $\mathbf{A}'$ a valuation ring of $\mathbf{L}$. As has been seen in § 1, no. 4, the ring $\mathbf{A} = \mathbf{K} \cap \mathbf{A}'$ is a valuation ring of $\mathbf{K}$ and
+$$
+m(\mathbf{A}) = m(\mathbf{A}') \cap \mathbf{K}.
+$$
+If $v'$ is a valuation associated with $\mathbf{A}'$, the restriction $v$ of $v'$ to $\mathbf{K}$ is a valuation on $\mathbf{K}$ associated with $\mathbf{A}$; the order group $\Gamma_v$ of $v$ is a subgroup of the order group $\Gamma_{v'}$ of $v'$.
+
+#### 定義 1 {#ac-vi-s8-def-1 .statement tag=04W4}
+
+*添字* $[\mathfrak{p}_v : \Gamma_{v'}]$ *は* $v'$ *上* $v$ *(または上* $\mathbf{K}$*) の分枝添字と呼ばれ、* $e(v'/v)$ *(または* $e(A'/A)$、*またはときどき*) で表されます。 $e(L/K)$*)。
+
+この添字は自然数または$+\infty$です。 $v'_0$ が $v'$ と *同等* の評価額である場合、 $e(v'/v)$ は $v'_0$ $v$ を *超える* 枝分かれ添字とも呼ばれます。 $e(v'/v) = 1$ の場合、$v'$ は $v$ に対して *分岐されていない* と呼ばれます。
+
+一方、$v$の剰余体$\kappa(\mathbf{A})$は、剰余体の$\kappa(\mathbf{A}')$、$v'$の部分体と同一視されます。
+
+#### 定義 2 {#ac-vi-s8-def-2 .statement tag=04W5}
+
+*次数* $[\kappa(\mathbf{A}') : \kappa(\mathbf{A})]$ *は、* $v'$ *over* $v$ *(または over* $\mathbf{K}$*) の剰余類次数と呼ばれ、* $f(v'/v)$ *(または* $f(A'/A)$、*またはときどき* $f(L/K)$*)。
+
+この次数は自然数または$+\infty$です。
+
+#### 補題 1 {#ac-vi-s8-lem-1 .statement tag=04W6}
+
+*$\mathbf{K}, \mathbf{K}', \mathbf{K}''$ *3 体として、次のように* $K \subset K' \subset K''$、$v''$ *評価* $K''$ *および* $v$ *および* $v'$ *その制限から* $\mathbf{K}$ *および* $\mathbf{K}'$。 *次に、関係:*
+$$(1)\quad e(v''/v) = e(v''/v') e(v'/v), \qquad f(v''/v) = f(v''/v') f(v'/v).$$
+
+これは明らかです。
+
+#### 補題 2 {#ac-vi-s8-lem-2 .statement tag=04W7}
+
+Let $K$ be a field, $L$ a finite extension of $K$ of degree $n$, $v'$ a valuation on $L$ and $v$ its restriction to $K$. それでは不等式
+
+$$
+e(v'/v) f(v'/v) \leq n
+$$
+
+保持します。特に、$e(v'/v)$ と $f(v'/v)$ は有限です。
+
+それぞれ $e(v'/v)$ と $f(v'/v)$ 以下の自然数 $r$ と $s$ を考えてみましょう。 $rs \leq n$ を示すだけで十分です。 In view of the definition of $r$, there exist elements $x_i$ of $L$ ($1 \leq i \leq r$) such that $v'(x_i) \not\equiv v'(x_j)$ (mod. $\Gamma_v$) for $i \neq j$. In view of the definition of $s$, there exist elements $y_k$ ($1 \leq k \leq s$) of the ring $A'$ of $v'$ whose canonical images $\bar{y}_k$ in $\kappa(A')$ are linearly independent over $\kappa(A)$; obviously $v'(y_k) = 0$ for all $k$. $rs$ 元 $x_i y_k$ が $K$ に対して線形独立であることを示します。これにより、不等式 $rs \leq n$ が確実に確立されます。
+
+次に、形の非自明な線形関係が存在すると仮定します。
+
+$$
+\sum_{i,k} a_{ik} x_i y_k = 0 \quad (a_{ik} \in K).
+$$
+
+選ぶ添字 $j, m$ にしてみましょう。
+
+$$
+v'(a_{jm} x_j y_m) \leq v'(a_{ik} x_i y_k)
+$$
+
+注文したすべての対 $(i, k)$;次に$a_{jm} \neq 0$。 $i \neq j$ の場合、$v'(a_{ik} x_i y_k) = v'(a_{jm} x_j y_m)$ は不可能です。これは、これが意味することになります。
+
+$$
+v'(x_i) - v'(x_j) = v'(a_{jm}) - v'(a_{ik}) \in \Gamma_v,
+$$
+
+$x_i$の選択とは反対です。 (3) に $(a_{jm} x_j)^{-1}$ を掛けると、形の関係が得られます。
+
+$$
+\sum_k b_k y_k + z = 0, \text{ where } b_k = \frac{a_{jk} x_j}{a_{jm} x_j} \in A', \quad z \in A'
+$$
+
+そして$v'(b_k) \geq 0, v'(z) > 0$。 よって、$\kappa(A')$、関係、形 $\sum_k \bar{b}_k \bar{y}_k = 0$。 $b_m = 1$として、この矛盾する仮定は$y_k$に作成されました。
+
+#### 命題 1 {#ac-vi-s8-prop-1 .statement tag=04W8}
+
+$K$を体、$L$を$K$の代数拡大、$v'$を$L$、$v$を制限から$K$と$A$にするとします。 $v$と$v'$の$A'$環。この場合、$\Gamma_{v'}/\Gamma_v$ は捩れ群であり、$\kappa(A')$ は $\kappa(A)$ の代数拡大です。
+
+$(L_\alpha)$ を $L$ の有限部分拡張の族とする。 $\Gamma_\alpha = v'(L_\alpha^*)$と書きましょう。 群 $\Gamma_{v'}$ は、$\Gamma_\alpha$ の右方向ファミリー からなるの和集合です。 群 $\Gamma_\alpha/\Gamma_v$ は有限 (補題 2) であるため、$\Gamma_{v'}/\Gamma_v$ は捩れ群です。この議論は、$\kappa(A')$ が $\kappa(A)$ の代数拡大であることを証明するのと同様です。
+
+#### 系 1 {#ac-vi-s8-prop-1-cor-1 .statement tag=04W9}
+
+*$v'$の高さは$v$の高さと同じです。*
+
+これは、命題 1 と次の補題から続きます。
+
+#### 補題 3 {#ac-vi-s8-lem-3 .statement tag=04WA}
+
+*$G'$を、$G$の完全に順序付けられた群、$G$部分群、$\mathscr{G}'$（それぞれ$\mathscr{G}$）、$G'$の孤立した部分群（それぞれ$G$）の集合とする。 写像 $H' \mapsto H' \cap G$ 写像 $\mathscr{G}'$ から $\mathscr{G}$ へ。 $G'/G$ が捩れ群である場合、この写像は全単射です。*
+
+明らかに $H' \in \mathscr{G}'$ は $H' \cap G \in \mathscr{G}$ を意味します。さて、$H \in \mathscr{G}$; $H'$ は、$h \in H$ 満たす $-h \leq x' \leq h$ が存在するように、$x' \in G'$ の集合を表します。 $H'$ が $G'$ の孤立した部分群であることがすぐに検証されます。次に、$H$ が孤立しているため、$H' \cap G = H$ になります。したがって、写像 $H' \mapsto H' \cap G$ は全射です。最後に、$G'/G$ が捩れ群であると仮定します。 $H'_1$ と $H'_2$ を $H'_1 \cap G = H'_2 \cap G$ となるような $G'$ の 2 つの孤立した部分群とします。次に、たとえば、$H'_1 \supset H'_2$ (cf. § 4, no. 4);その場合、$H'_1/H'_2$ は完全に順序付けされた群であり、$H'_1/(H'_1 \cap G)$ の剰余群と同型であり、それ自体は $G'/G$ の部分群と同一視されます。したがって、$H'_1/H'_2$ は捩れ群となり、簡約するは 0 になります。
+
+#### 系 2 {#ac-vi-s8-lem-3-cor-2 .statement tag=04WB}
+
+*$v'$が不適切である(それぞれ高さ1)ためには、$v$が不適切である(それぞれ高さ1である)ことが必要かつ十分です。
+
+#### 系 3 {#ac-vi-s8-lem-3-cor-3 .statement tag=04WC}
+
+*$L$が$K$の有限拡大であると仮定します。 $v'$ が離散的であるためには、$v$ が離散的であることが必要かつ十分です。*
+$v'$ が離散の場合、$\Gamma_{v'}$ は $\mathbf{Z}$ (系 2) の非ゼロ部分群と同型であるため、$\mathbf{Z}$ と同型です。逆に、$v$ が離散的である場合、$\Gamma_v$ は $\mathbf{Z}$ と同型であり、$\Gamma_{v'}/\Gamma_v$ は有限群 (補題 2) です。従って、$\Gamma_{v'}$ は、階数 1 の有限生成可換群であり、ねじれがありません。従って、$\mathbf{Z}$ と同型です。
+
+### 2. 評価と完了の拡大
+
+#### 定義 3 {#ac-vi-s8-def-3 .statement tag=04WD}
+
+*$K$ を離れ、$v$ は $K$ と $K$ の $L$ 拡大の評価とします。 拡大する $v$ である $L$ の評価のファミリー $(v'_i)_{i \in I}$ および $v$ を拡張する $L$ のすべての評価が、一意の $v'_i$ と同等であるようなものを、拡大の完全な系と呼びます$v$ ～ $L$.*
+
+#### 命題 2 {#ac-vi-s8-prop-2 .statement tag=04WE}
+
+*$K$を離れ、$v$は$K$の評価、$\hat{K}$は$v$に関する$K$の完了、$\hat{v}$は$v$から$\hat{K}$までの連続拡大、そして$L$ は、次数 $n$ の $K$ の有限の拡大です。
+(a) $v'$ を $v$ を拡張した $L$ の評価額とします。 $\hat{L}_{v'}$ は、$v'$ と $8'$ に対する $L$ の完了、$v'$ から $\hat{L}_{v'}$ までの連続する拡大を表します。 $\hat{K}$ を $\hat{L}_{v'}$ の $K$ の終結と識別し、
+$$
+e(\hat{v}'|\hat{v}) = e(v'|v), \quad f(\hat{v}'|\hat{v}) = f(v'|v),
+$$
+$$
+[\hat{L}_{v'} : \hat{K}] \leq n,
+$$
+$$
+e(v'|v)f(v'|v) \preceq [\hat{L}_{v'} : \hat{K}].
+$$
+(b) *不適切でない評価 $v$ を拡張した $L$ のペアごとの独立評価の各集合は有限です。 $v'_1, \ldots, v'_s$ は、v を拡張する L のすべての評価が v_i' の 1 つに依存するように、* v を拡張する $L$ のペアごとの独立した評価を表すものとします。 L_i を体 L とし、位相を v_i' で定義し、その補完を $\hat{L}_i$ とします。 $n_i = [\hat{L}_i : \hat{K}]$と書きます。それから標準写像
+
+$$
+\phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
+$$
+
+(対角線写像 $L \to \prod_{i=1}^s L_i$ を連続的に延長) は全射法であり、その核は $\hat{K} \otimes_K L$ のヤコブソン根基であり、
+
+$$
+\sum_{i=1}^s n_i \leq n.
+$$
+
+まず (a) を証明しましょう。 v が不正ではないと仮定します。 v と $\hat{v}$ (それぞれ $v'$ と $\hat{v}'$) は同じ位数群と同じ剰余体 (§ 5, no. 3, 命題 5 (b) と (f)) を持っているので、(4) が成り立ちます。 補題 2 を使ってそこから (6) を推定します。最後に、L によって生成された $\hat{L}_{v'}$ のサブ$\hat{K}$ 空間ベクトルは閉じられており (§ 5, no. 2、系から命題 4)、どこでも密なので、$\hat{L}_{v'}$ に等しくなります。これは (5) を示しています。
+
+次に (b) に進みます。 v は不適切ではないと仮定することもできます。 $(v_1', \ldots, v_r')$ を、$\prod_{i=1}^r L_i$ の L の像を拡張したL 上のペアごとの独立評価の有限族とします。対角線の下では、写像はどこでも密であり (§ 7, no. 2、定理 1)、$\prod_{i=1}^r L_i$ は密です。 $\prod_{i=1}^r \hat{L}_i$。従って、$\prod_{i=1}^r \hat{L}_i$の$\hat{K} \otimes_K L$の標準像はどこでも密集しています。一方、この像は$\prod_{i=1}^r \hat{L}_i$の$\hat{K}$部分空間ベクトルです。 (5) により、$\prod_{i=1}^r \hat{L}_i$ は $\hat{K}$ 上の有限次元であるため、$\hat{K} \otimes_K L$ の像は閉じています (§ 5, no. 2、系 ～ 命題 4) ため、$\prod_{i=1}^r \hat{L}_i$ と等しくなります。 K 上の $\hat{K} \otimes_K L$ の次元は n なので、$\sum_{i=1}^r n_i \leq n$。これは特に、整数 r が n によって上に制限されていること、および (b) の最初の主張を示していることを示しています。
+
+ここでは、$(v_1', \ldots, v_s')$ を主張と同様に扱います。という事実
+
+$$
+\phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
+$$
+
+は全射的であり、関係 (7) はすでに示されています。 $\phi$ の核 n が $\hat{K} \otimes_K L$ のジェイコブソン根基 $t$ であることを検証する必要があります。 $\prod_{i=1}^s \hat{L}_i$ は半単純、$t \subset n$ であるため。 On the other hand, for every maximal ideal m of $\hat{K} \otimes_K L$, the quotient field $L(m) = (\hat{K} \otimes_K L)/m$ is a composite extension of $\hat{K}$ and L over K (Algebra,
+
+章 VIII, § 8、命題 1)。 $\vartheta$ (§ 3, no. 3, 命題 5) を延長するL(m) の評価が存在します。 制限 $v'$ から L 拡大する $v$ まで。 $[L(m): \hat{K}]$ が有限であるため、$L(m)$ は w ($§ 5$, no. 2, 命題 4) に関して完全です。ここで、$L(m)$ の L の終結は体含む $\mathbf{K}$ および L であるため、$L(m)$ と等しくなります。その結果、$L(m)$ は完了 $\hat{L}_{v'}$ と同一視され、m は $\hat{L}_{v'}$ への $\hat{K} \otimes_K L$ の標準写像の核です。さて、仮定までに、$v'$ と $v'_i$ が依存するような添字 $i$ が存在します。 よって $L_{v'} = L_i$ ($§ 7$、no. 2、命題 3)。従って、$n \subset m$ は、$n \subset r$ を証明し、証明を完成させます。
+
+#### 系 1 {#ac-vi-s8-prop-2-cor-1 .statement tag=04WF}
+
+*K が v に関して完全であり、v が不適切でない場合、v を拡張する L に関する 2 つの評価が依存します。*
+
+$\hat{K} \otimes_K L = L$以降はこれに続きます。
+
+#### 系 2 {#ac-vi-s8-prop-2-cor-2 .statement tag=04WG}
+
+*$\hat{K}$ または L が K 上で分離可能な場合、標準写像*
+
+$$
+\phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
+$$
+
+*は同型*です。
+
+$\hat{K} \otimes_K L$ のジェイコブソン根基は、零 (*代数*, 章 VIII, § 7, no. 3, 定理 1) になります。
+
+#### 注意 {#ac-vi-s8-n2-rem-1 .statement tag=04WH}
+
+命題 2 (b) は、K (*代数*、章 VIII, § 8) 上の$\hat{K}$ と L のすべての合成拡大が、補完 $\hat{L}_i$ の 1 つと同型であり、これらは合成拡大であり、そのうちの 2 つが同型ではないことを示しています。
+
+### 3. ザ関係 $\sum_i e_i f_i \leq n$
+
+Let K be a field, $v$ a valuation on K and L a finite extension of K of degree $n$. $(v'_1, \ldots, v'_r)$ を $v$ を拡張した L の評価額とします。 *同じものは 2 つありません。それらが *独立している*場合 ($v$ の高さが 1 の場合は常に当てはまります)、
+
+$$
+\sum_{i \in I} e(v'_i|v) f(v'_i|v) \leq n
+$$
+
+命題 2（式(6)、(7)）により計算されます。この結果が一般的な場合に当てはまることがわかります。正確に言うと:
+
+#### 定理 1 {#ac-vi-s8-thm-1 .statement tag=04WI}
+
+*Kを体、vはKの評価、Lは次数nのKの有限拡大とします。それから：*
+
+(a) *v の拡大から L までのすべての完全な系 $(v'_i)_{i \in I}$ は有限です。*
+
+(b) $\sum_{i \in I} e(v'_i|v) f(v'_i|v) \leq n$ およびなおさら $\operatorname{Card}(I) \leq n$
+
+(c) *$v'_i$ の環のうち、包含性に関して比較できるものは 2 つありません。*
+
+$v$ が不適切であれば定理は自明であるため、$v$ は不適切ではないと仮定します。 $(v'_1, \ldots, v'_s)$ を $v$ を拡張した L の評価の有限族とする、いいえ
+
+関係 $\sum_i e_i f_i \leq n$
+
+そのうちの 2 つは同等です。まず、$\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$ を証明します。これで(a)と(b)が証明されます。
+
+s については帰納法で議論し、したがって 0, 1, ..., s - 1 の評価の場合には不等式が確立されていると仮定します。 2 つの場合を区別します。
+
+(1) 少なくとも 2 つの独立した評価 $v'_i$ が存在すると仮定します。次に、次のような $[1, s]$ の (§ 7, no. 2, 注意 1) 分割 $[1, s] = I_1 \cup \ldots \cup I_t$ が存在します。
+(i) $v'_i$ と $v'_j$ が依存するためには、$i$ と $j$ 属するが同じ $I_k$ であることが必要かつ十分です。
+(ii) $k$ 全員にカード$(I_k) < s$。
+
+私たちはそれぞれ $I_k$ 添字 $i(k)$ で選ぶです。 $\hat{L}_{i(k)}$ は、$v'_{i(k)}$ と $n(k) = [\hat{L}_{i(k)} : \hat{K}]$ に関して $L$ の完了を表すものとします。 $L$ のすべての $i \in I_k$、$v'_i$ 定義するについては、$v'_{i(k)}$ (§ 7, no. 2、命題 3) と同じ位相であるため、$\hat{L}_{i(k)}$ の評価$\bar{v}'_i$ に拡張される可能性があります。 制限から $\hat{K}$ は 0 です。 $i \in I$ の $v'_i$ は 2 つとして同等ではないため、$\bar{v}'_i$ にも同じことが当てはまります。 帰納法の仮定を順序付けられた対 $(\hat{K}, \hat{L}_{i(k)})$ に適用すると、命題 2 (a)、公式 (4) により、$\sum_{i \in I_k} e(v'_i/v)f(v'_i/v) \leq n(k)$ が示されます。 $\sum_{k=1}^t n(k) \leq n$ (命題 2 (b)、公式 (7)) として、確かに $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$ です。
+
+(2) 次に、$v'_i$ のいずれか 2 つが依存している場合に移ります。 $A'_i$ を $v'_i$ ($1 \leq i \leq s$) の環とします。 $v$の環には$A$、すべての$i$には$A'_i \cap K = A$と書きます。 $B'$ を $A'_1, \ldots, A'_s$ によって生成された $L$ の部分環とします。 $B = B' \cap K$と書きます。次に$B \supseteq A$。 Then $B$ is the ring of a valuation $w$ on $K$ and $B'$ the ring of a valuation $w'$ which is not improper and extends $w$ (§ 7, no. 2, Proposition 4); the field $\kappa(B')$ is an extension of $\kappa(B)$ of degree $f(w'/w)$. $A'_i$ の標準像 $\bar{A}'_i, \bar{A}$ と $\kappa(B')$ の $A$ を考えてみましょう。その場合、$\bar{A}$は、$\kappa(B)$の評価$\bar{v}$の環であり、$\bar{A}'_i$は、$\bar{v}$を拡張した$\kappa(B')$の評価$\bar{v}'_i$の環です。 $A'_i$ 生成する $B'$ と同様、$\bar{A}'_i$ 生成する $\kappa(B')$、したがって $\bar{v}'_i$ もすべて依存しているわけではありません (§ 7, no. 2、命題 4)。 証明の最初の部分から、
+
+$$
+\sum_{i=1}^s e(\bar{v}'_i/\bar{v})f(\bar{v}'_i/\bar{v}) \leq [\kappa(B') : \kappa(B)] = f(w'/w)
+$$
+
+したがって
+
+$$
+\sum_{i=1}^s e(w'/w)e(\bar{v}'_i/\bar{v})f(\bar{v}'_i/\bar{v}) \leq e(w'/w)f(w'/w) \leq n \quad \text{(no. 1, Lemma 1).}
+$$
+
+したがって、(a)と(b)の証明は、次のことを証明すれば完了します。
+
+$$
+f(\bar{v}'_i/\bar{v}) = f(\bar{v}'_i/v), \quad e(w'/w)e(\bar{v}'_i/\bar{v}) = e(v'_i/v).
+$$
+
+このため、$v$ と $\bar{v}$ (それぞれ $v'_i$ と $\bar{v}'_i$) が同じ剰余体 (§ 4, no. 1、系 ～ 命題 2) を持つことに注意してください。これは最初の方程式を証明します。 2 番目の場合、§4, no. 3 の注意により、次の可換図式が存在します。ここで、行は完全系列で、垂直矢印は標準単射を表します。
+
+$$
+\begin{array}{ccccccccc}
+0 & \to & \Gamma_{\bar{v}} & \to & \Gamma_v & \to & \Gamma_w & \to & 0 \\
+& & \downarrow & & \downarrow & & \downarrow & & \\
+0 & \to & \Gamma_{\bar{v}_i'} & \to & \Gamma_{v_i'} & \to & \Gamma_{w'} & \to & 0
+\end{array}
+$$
+
+完全系列があると推測します。
+
+$$
+0 \to \Gamma_{\bar{v}_i'}/\Gamma_{\bar{v}} \to \Gamma_{v_i'}/\Gamma_v \to \Gamma_{w'}/\Gamma_w \to 0
+$$
+
+章 I, § 1, no. 4, 命題 2 により、2 番目の公式 (8) が証明されます。
+
+定理 1 の証明を完了するには、(c) を証明する必要があります。 $v_i'$ 含むの$v_j'$ の環が$\Gamma_{v_i'}$ と剰余群 $\Gamma_{v_j'}/H$ が同一視される場合、$H$ は孤立した部分群 (§ 4, no. 3) です。 複合標準写像として
+
+$$
+\Gamma_v \to \Gamma_{v_j} \to \Gamma_{v_j'}/H = \Gamma_{v_i'}
+$$
+
+は単射です、$H \cap \Gamma_v = \{0\}$、よって $H = \{0\}$ (補題 3、no. 1)。この場合、$v_i'$ と $v_j'$ は等しく、よって $i = j$ となります。
+
+#### 注意 {#ac-vi-s8-n3-rem-1 .statement tag=04WJ}
+
+評価$v_i'$ ($i \in I$) の環 $A_i'$ の共通部分 C は、L (§ 1, no. 3、系 3 ～ 定理 3) の $A$ の積分閉包です。さらに、(c) と § 7, no. 1、命題 1 および 2 から、C は半局所リングであり、その最大理想はすべての $i \in I$ に対して共通部分 $m_i = C \cap m(A_i')$ および $A_i' = C$ であることがわかります。
+
+### 4. 初期の影響添字
+
+#### 定義 4 {#ac-vi-s8-def-4 .statement tag=04WK}
+
+G を有限添字の G の全順序可換群と H 部分群とする。メジャーの数部分集合 G からなる厳密にポジティブな元と含むすべての元 > O は、G の H の最初の添字と呼ばれ、$\varepsilon(G, H)$ で表されます。
+
+この初期の添字は、次の命題により自然数になります。
+
+#### 命題 3 {#ac-vi-s8-prop-3 .statement tag=04WL}
+
+定義 4 の仮説の下では、G の厳密に正の元の集合に最小値元がない場合、すべての H に対して $\varepsilon(G, H) = 1$ になります。 G の最小値元 > O が存在し、$G'$ が部分群を表す場合、生成する、
+
+$$
+\varepsilon(G, H) = (G : (G \cap H)).
+$$
+
+最初のケースでは、G で x を元 > 0 とします。$0 < y < x$ が無限となるような $y \in G$ の集合なので、この集合のうち 2 つの元が存在し、これらは H を法として別個に合同です。それらの差は、$0 < z < x$ となる H の元 z です。したがって、すべてのメジャー 部分集合含むはすべて、H 含む x の厳密に正の元であり、したがってすべての元 > G です。
+
+2 番目のケースでは、$x$ を G の最小元 >0 とし、$n$ を $nx \in H$ となる最小整数 >0 とします。明らかに$n = (G : (G \cap H))$。一方、$z \in G$の集合に対して$y \leq z \ (y \in G)$となるように$M(y)$を書くと、定義4の主な集合がちょうど$M(x), M(2x), \ldots, M(nx)$であることがすぐに分かります。
+
+#### 系 {#ac-vi-s8-n4-cor-1 .statement tag=04WM}
+
+*頭文字添字 $\varepsilon(G, H)$ 割る添字* $(G : H)$ *かつ* $G$ *が $\mathbf{Z}$ と同型である場合、それに等しい。
+
+特に$\varepsilon(G, H) \leq (G : H)$。
+
+#### 定義 5 {#ac-vi-s8-def-5 .statement tag=04WN}
+
+*$K$ *を体、L を * $K$、$w$ の有限拡大としておきます* $L$、$v$ *その制限から* $K$ *および* $\Gamma_w$ *そして* $\Gamma_v$ *彼らの位数群。 * $\Gamma_w$ * の* $\Gamma_v$ * の最初の添字は、* $v$ * (または* $K$* に関して)* $w$ の最初の分岐添字と呼ばれ、* $\varepsilon(w/v)$ で表されます。
+
+上記より、個別評価の場合は系、$\varepsilon(w/v)$、割る、$e(w/v)$、等式となります。
+
+#### 命題 4 {#ac-vi-s8-prop-4 .statement tag=04WO}
+
+*定義 5 の仮説の下で、* $A$ * および* $m$ *(それぞれ* $A'$ *および* $m'$) *は環であり、評価の理想* $v$ *(それぞれ* $w$*) とします。 *それから*
+
+$$
+[A'/mA': A/m] = \varepsilon(w/v) f(w/v).
+$$
+
+$A'$ 含む $mA'$ の理想と、$A'$ 対応するから主要な部分集合 $\Gamma_w$ からなる元 >0 および含む元 >0 とは異なります。 $\Gamma_v$ (§ 3, no. 5、系 ～ 命題 7)。したがって、それらは数から $\varepsilon(w/v)$ において等しく、包含のもとで完全に順序付けられた集合形であるため、この数は商環 $A'/mA'$ の長さに等しい。ここで、$A'$ 上の長さ 1 の加群は、$A'/m'$ 上の 1 次元ベクトル空間であるため、$A$ 上の長さ $f(w/v)$ の加群です。したがって、$A'/mA'$ は $A'$ を超える長さ $\varepsilon(w/v)$ であるため、$A$ を超える長さ $\varepsilon(w/v) f(w/v)$、つまり $A/m$ を超えます。
+
+### 5. ザ関係 $\sum_i e_i f_i = n$
+
+#### 命題 5 {#ac-vi-s8-prop-5 .statement tag=04WP}
+
+*$K$ *を体とし、評価* $K$、$A$ *その環、理想は、L* $K$ *次数* $n$の有限拡大、 $B$ *統合閉鎖* $A$ *in* $L$ *および* $(v'_i)_{1 \leq i \leq s}$ *完了系 of 拡大 of* $v$ *to* $L$。 *それから*
+
+$$
+[B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v).
+$$
+
+$A_i$ を $v'_i$ の環とします。次に $A_i = B_{m_i}$ で、$m_i$ は $B$ (no. 3、注意) の最大理想のファミリーを貫きます。 $m_i$ (章 II, § 2, no. 4) に対する $mB$ の彩度を $q_i$ とします。 章 V、系 3 から命題 1、no. 1、§ 2、標準準同型 $B/mB \to \prod_{i=1}^s B/q_i$ は同型、$m_i$ が B の唯一の最大理想です含む $q_i$。したがって、$B/q_i$ は正準的に $(B/q_i)_{m_i}$ (章 II, § 3, no. 3, 命題 8) と同型です。つまり、
+$$
+B_{m_i}/mB_{m_i} = A_i/mA_i.
+$$
+したがって、no. 4 の命題 4 による結果は、標準同型 $B/mB \to \prod_{i=1}^s A_i/mA_i$、よってになります。
+
+#### 系 {#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
+
+※同じ仮説と記法で、
+$$
+[B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n.
+$$
+$\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$ (no. 4、系 ～ 命題 3) と $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n$ (no. 3、定理 1) であることがわかっています。
+
+#### 定理 2 {#ac-vi-s8-thm-2 .statement tag=04WR}
+
+*仮説と命題 5 の記法を使用すると、次の条件は等価です。
+(a) B は有限生成A-加群です。
+(b) B は自由A-加群です。
+(c) $[B/mB : A/m] = n;$
+(d) すべての i に対して $\sum_{i=1}^n \varepsilon(v'_i/v) f(v'_i/v) = n$ および $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$。
+
+(a)と(b)の同値は、補題1、§ 3, no. 6から続きます。 明らかに (b) は (c) (*代数*, 章 11, § 1, no. 5, 公式 (19)) を意味します。 (c)と(d)の同値は、系から命題5に続きます。 (c) が (b) を意味することを示すことはまだ残っています。
+
+一般に、M が A-加群の場合、$A/m$ に対する V(M) ベクトル空間 $M/mM$ で表します。 仮定 (c) は $\dim(V(B)) = n$ を意味します。 $x_1, \ldots, x_n$ を B の元とし、その V(B) 形基底の V(B) の標準像を、L $\subset B$ をそれらが生成するとするサブ A モジュールとします。 L はねじれがなく有限生成されるため、自由です (§ 3, no. 6、補題 1)。 $B = L$ がわかります。 $y \in B$ にしましょう。 $M = L + Ay$と書きます。これも自由A-加群です。 標準単射 $L \to M \to B$ は標準準同型 $V(L) \to V(M) \to V(B)$ を与えます。 Lの階数とMは$\leq n$であるため、V(L)とV(M)の次元も同様です。さて、仮定までに、$V(L) \to V(B)$は全射、$V(B)$はn次元であるため、$V(L)$と$V(M)$はn次元、$V(L) \to V(M)$は全射です。 M は有限生成されるため、$L \to M$ は全射法 (章 II, § 3, no. 2、系 1 ～ 命題 4)、よって $L = M, y \in L$ および $B = L$ です。したがって、Bは無料です。
+
+#### 注意 (1) {#ac-vi-s8-n5-rem-1 .statement tag=04WS}
+
+v が *離散* の場合、$\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$ (no. 4) および条件 (d) 簡約するから $\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) = n.$
+
+#### 系 1 {#ac-vi-s8-thm-2-cor-1 .statement tag=04WT}
+
+*同じ仮説と記法を使用して、v が離散的であり、L が分離可能であるとさらに仮定します。それから*
+
+$$
+\sum_{i=1}^{s} e(v_i'/v) f(v_i'/v) = n.
+$$
+
+A が主イデアル整域 (章 V, § 1, no. 6, 系 2 ～ 命題 18) であるため、A の積分閉包 B は階数 $n$ の自由A-加群になります。
+
+#### 系 2 {#ac-vi-s8-thm-2-cor-2 .statement tag=04WU}
+
+*Kを体とし、vはKが完全であることに関するKの離散評価、Lは次数nのKの有限拡大とします。 次に、v は一意 (最大同値) 拡大 $v'$ から L を認め、$v'$ の環 A' は v の環 A と $e(v'/v) f(v'/v) = n$ にわたって有限生成された自由加群です。
+
+adic 位相 ($m = m(A)$); 環 A は K で閉じられているので完了です。 $A'/mA'$ が有限次元ベクトル ($A/m$) 空間 (no. 4, 命題 4) であるため、A' は有限生成A-加群 (章 III, § 2, no. 9, 系 3 ～ 命題) であると結論する 12)。 したがって、それは無料であり、$e(v'/v) f(v'/v) = n$によって
+
+$$
+\phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
+$$
+
+(no. 2、命題 2)。 *は全単射です。すべての $x \in L$ について、特性多項式 $P_{C_{L/K}}(x; X)$ は特性多項式 $P_{C_{\hat{L}_i/\bar{K}}}(x; X)$ ($1 \leq i \leq s$) の積に等しくなります。特に、
+
+$$
+\begin{cases}
+\operatorname{Tr}_{L/K}(x) = \sum_{i=1}^s \operatorname{Tr}_{\hat{L}_i/\bar{K}}(x) \\
+N_{L/K}(x) = \prod_{i=1}^s N_{\hat{L}_i/\bar{K}}(x) \\
+v(N_{L/K}(x)) = \sum_{i=1}^s n_i v_i'(x).
+\end{cases}
+$$
+
+((9) の最後の関係は意味があります。なぜなら、no. 1 の 1 x 系 2 から命題 1 までの高さの $v_i'$ は、v と同様に、$\mathbf{R}$ の部分群の値を取ると仮定できるからです。)
+
+$v'_i$ は 2 つとして同等ではなく、高さ 1 であるため、それらは独立しており、no. 2 の命題 2 は、すべての $i$ と $\sum_{i=1}^s n_i \leq n$ に対して $e(v'_i/v) f(v'_i/v) \leq n_i$ であることを示します。したがって、これらの不等式から最初の主張と関係 $\sum_{i=1}^s e(v'_i/v) f(v'_i/v) = n$ が得られます。 同型 $\phi$ 自己準同型では、$\hat{K} \otimes_K L$ ($x \in L$ の場合) の $z \mapsto z(1 \otimes x)$ は、$\prod_{i=1}^s \hat{L}_i$ の自己準同型に変換され、それぞれの因子は不変のままで、それぞれの因子から乗法で減算されます。 $x$ ($L$ はその完成形 $\hat{L}_i$ に標準的に埋め込まれています)。 よって主張は、$x$ の特性多項式と (9) の最初の 2 つの式に関連します。最後に、E を $\hat{K}$, 含む $\hat{L}_i$ の有限準ガロア拡張とします。 $\hat{K}$ が完了し、高さ 1 の $\hat{\nu}$ であるため、$\hat{\nu}$ (no. 2、系 1 ～ 命題 2) を延長する E には、評価が 1 つだけ (同値まで) $w$ 存在します。すると、E のすべての $\hat{K}$-自己同型 $\sigma$ に対して、 $w(\sigma(x)) = v'_i(x)$ になります。したがって、
+$$
+\vartheta(N_{\hat{L}_i/\hat{K}}(x)) = n_i v'_i(x)
+$$
+(代数, 章 VIII, § 12, no. 2, 公式 (15))、これは (9) の公式を証明します。
+
+#### 系 4 {#ac-vi-s8-thm-2-cor-4 .statement tag=04WV}
+
+*系 3 の仮説の下で、L が K の分離拡大である場合、それぞれの $\hat{L}_i$ は $\hat{K}$ の分離拡大です。さらに、L が K のガロア拡大とガロア群 $\mathscr{G}$ であり、$\mathscr{G}_i$ が B の $v'_i$ の理想の分解群を表す場合 (章 V, § 2, no. 2, 定義) 2) その場合、$\hat{L}_i$ は $\hat{K}$ のガロア拡大であり、そのガロア群は $\mathscr{G}_i$ と同型です。*
+
+明らかに $\hat{L}_i = \hat{K}(L)$;したがって、L が K 上で分離可能である場合、$\hat{L}_i$ は $\hat{K}$ 上で分離可能です (代数, 章 V, § 7, no. 6, 命題 10)。ここで、L がガロアであると仮定します。すべての自己同型 $\sigma \in \mathscr{G}_i$ は L で連続しており、$v'_i$ によって定義される位相は、包含性 (§ 7, no. 2、系 1 ～ 定理) に関して$v'_i$ の理想のうちの 2 つが比較できないという事実です。 1) $v'_i = v'_i \circ \sigma$ が $\mathscr{G}_i$ の定義によって必然的に暗示される。したがって、$\sigma$ は連続性によって $\hat{L}_i$ の $\hat{K}$ 自己同型 $\hat{\sigma}$ に拡張できます。これは、$\hat{L}_i$ の $\hat{K}$ 自己同型の数が少なくとも $\mathrm{Card}(\mathscr{G}_i)$ に等しいことを証明します。しかし、評価$v'_i$ は$\mathscr{G}$ (章 V, § 2, no. 3, 命題 6)、$s = (\mathscr{G}_i)$、よっての下でペアごとに共役であるため、
+$$
+\mathrm{Card}(\mathscr{G}_i) = n/s \leq n.
+$$
+一方、$n = sn$、系 3 による。これは、$\hat{L}_i$ が $\hat{K}$ のガロア拡大であり、自己同型 $\sigma \in \mathscr{G}_i$ の連続性による拡大が $\hat{L}_i$ の唯一の $\hat{K}$ 自己同型であることを証明します。
+
+*注意 (2)*。上記の結果拡大するの部分を、*必ずしも可換ではない* 体 K (cf. § 3, no. 1) の評価の場合に当てはめます。 L を K の拡大体とし、$v'$ を L の評価、$v$ を K および A' に対する制限、A を評価 $v'$ のそれぞれの環とします。 $v$;次に、no. 1 のように分岐添字 $e(v'/v)$ が定義されます。一方、$\kappa(A)$は$\kappa(A')$の部分体と同一視され、$v$に対する$v'$の(左)剰余階数は、左の次元と等しい数$f(v'/v)$と定義されます。この次元が有限の場合、ベクトル $\kappa(A)$-スペース $\kappa(A')$、その逆の場合は $+\infty$ です。次に、L が有限次元 $n$ の左ベクトル K 空間である場合、no. 1 の補題 2 とその証明は変更されずに渡されます。また、K が$v$ に関して完全であれば、系 2 の主張からno. 5 の定理 2 も（$u'$ の存在を除く）成り立ちます（$n$ はL の次元を次のように表します）左のベクトル K-space) と次の証明:
+
+そもそも、L の $v'$ によって定義された位相はハウスドルフであり、その左のベクトル K 空間構造と互換性があるため、$v$ から L の 2 つの拡大は同じ位相を与えます。 L ($§ 5$, no. 2, 命題 4)。これは、これらの拡大が同値 ($§ 6$, no. 2) まで同じであることを証明します。次に、$m = m(A)$ の場合、$A'/mA'$ は、次元 $e(v'/v) f(v'/v)$ の左ベクトル $(A/m)$-空間であることを示します。 $e = e(v'/v)$と書くと、$v(K^*) = Z$と$v'(L^*) = e^{-1}Z$が想定されるかもしれません。 $u'$ を $v'(u') = e^{-1}$ となるような L の元とし、$v(u) = 1$ となるような K の $u$ 元とします。したがって、$u = z{u'}^e$、ここで、$z \in L$ は $v'(z) = 0$ となります。 m は $u$ (A の左または右イデアルとして) $mA' = {u'}^eA' = A'{u'}^e$ によって生成されるため、$0 \leq k \leq e - 1$ の場合、$A'{u'}^k/A'{u'}^{k+1}$ は次元 $f(v'/v)$ の左ベクトル $(A/m)$-空間であることを証明すれば十分です。しかし、$t \mapsto t{u'}^k$ は、左A-加群 A の左A-加群 $A'{u'}^k$ 写像 $A'u'$ から $A'{u'}^{k+1}$ への同型であり、したがって、商をとることによって、次の$(A/m)$ 同型写像が得られます。 $A'/A'u'$を$A'{u'}^k/A'{u'}^{k+1}$、よってに主張を$f(v'/v)$の定義、$u'$生成するで$A'$の最大理想を実現します。 証明は、K と L が可換である場合と同様に完了します (有限生成されたねじりのない A 加群が自由であるという事実は、$§ 3$、no. 6、補題 1 のように証明されています)。
+
+### 6. 代数拡大における評価環
+
+#### 命題 6 {#ac-vi-s8-prop-6 .statement tag=04WW}
+
+Kを体、$v$をKの評価、Aを環、LをKの代数拡大、そして$A'$をLにおけるAの積分閉包とします。 23をLの評価環の集合とし、拡大する$v$と$A'$の最大理想の$\mathfrak{M}'$集合とします。次に、写像 $V \mapsto m(V) \cap A'$ は、$\mathfrak{M}'$ 上の 23 の全単射であり、$m' \mapsto A'_{m'}$ は逆全単射です。
+
+$A'$ のすべての最大理想 $m'$ は、$m' \cap A$ が A の最大理想 (章 V, § 2, no. 1, 命題 1) であり、$A'_{m'}$ が次の評価環 V によって支配されるようなものです。 L (したがって、L を $v$ に拡張した評価額の環) ($§ 1$、no. 2、系から定理 2)。 体 L は、K 上で有限である L の部分拡張 K の有向族の和集合であり、位数で、$V = A'_{m'}$ がすべての $\alpha$ に対して $V \cap K = A'_{m'} \cap K$ であることを証明するだけで十分です。さて、$A'_\alpha = A' \cap K_\alpha$と書くと、$A'_\alpha$はKにおけるAの積分閉包であり、したがってKの評価の環の共通部分であり、拡大する$v$とこれらの環$V_\alpha$は有限です。 数と $A'_\alpha$ ($1 \leq i \leq n$) の局所環 $(A'_\alpha)_{i|m_\alpha}$ で、$m'_{i\alpha}$ は $A'_\alpha$ (no. 3、注意) の明確な最大理想です。しかし、$m' \cap A'_\alpha$ は $m'_{i\alpha}$ の 1 つであり、$V \cap K_\alpha$ は対応する局所環 $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$ に等しく、証明と $V = A'_{m'}$ が完成します。逆に、$V \in \mathfrak{V}$ の場合は $A' \subset V$ (§ 3, no. 3, 命題 6)、$m' = m(V) \cap A'$ の場合は $m' \cap A = m$ となるため、$m'$ は $A'$ (章 V, § 2, no. 1, 命題 1) そして上記の議論は、$V = A'_{m'}$ を示しています。
+
+#### 命題 7 {#ac-vi-s8-prop-7 .statement tag=04WX}
+
+*K を、K と f の準ガロア拡張である体、L と、同じ体 F 内の値を含む L の $f'$ 位とします。K に対して制限がオフで、$f'$ であるとします。 一致する。この場合、$f' = f \circ s$* となるような L の K 自己同型 s が存在します。
+
+A を K の場所の共通の制限と $f'$ の環とします。 環オフおよび $f'$ 含む L (§ 1, no. 3、系 3 から定理 3) の A の統合閉包 $A'$ およびしたがって (章 V, § 2, no. 3, 系 1 から命題 6) 制限オフと $f \circ s$ から $A'$ が等しいような L の K 自己同型 s が存在します。これら制限のうち、$m'$ が共通の核である場合、$m' \cap A$ が A の最大イデアルであるため、$m'$ は $A'$ と場所 $f'$ と $f \circ s$ の最大イデアルになります。 環 $A'_{m'}$ の一致する;しかし、命題 6 までに、$A'_{m'}$ を支配するL の唯一の評価環は環 $A'_{m'}$ そのものであるため、$f'$ と $f \circ s$ の場所の環は同じになります。
+
+#### 系 1 {#ac-vi-s8-prop-7-cor-1 .statement tag=04WY}
+
+*K を体、v を K の評価、L K の準ガロア拡張、$v'$ と $v''$ v の 2 つの拡大を L とする。このとき、$v''$ は $v' \circ s$ と等価となる、L の K 自己同型 s が存在します。
+
+$f'$ と $f''$ を、$v'$ と $v''$ に関連付けられた K の場所とします。それらの置き換えることが同等の位置にある必要がある場合、両方とも v (no. 1, 命題 1) の剰余体の代数閉包で値を取ると仮定できます。この場合、 $f'' = f' \circ s$ (命題 7) となる L の K 自己同型 s が存在します。したがって、場所と評価 (§ 3, no. 3) の間の対応により、$v''$ は $v' \circ s$ と同等になります。
+
+#### 系 2 {#ac-vi-s8-prop-7-cor-2 .statement tag=04WZ}
+
+*K を体、f を K の位 (それぞれ v)、L を K の根数拡大とします。すると、f (それぞれ v) から L のすべての拡大は等価になります。
+
+L は準ガロア拡張であり、その唯一の自己同型が恒等式です。したがって、系 2 は命題 7 (それぞれ系 1) から続きます。
+
+#### 命題 8 {#ac-vi-s8-prop-8 .statement tag=04X0}
+
+*Kを体、vはKの評価、Lは次数nのKの有限準ガロア拡張、$(v'_i)_{1 \leq i \leq g}$はvの拡大からLまでの完全な系とします。この場合、$e(v'_i/v)$ と $f(v'_i/v)$ は i とは独立して値 e と $\mathfrak{f}$ を持ちます。次に$ef g \leq n$。 v の環 A の L の積分閉包が有限生成A-加群である場合、$ef g = n$.*
+
+これは、定理 1 (no. 3) と 2 (no. 5) の直後に続きます。
+
+### 7. 絶対的な値の拡大
+
+#### 命題 9 {#ac-vi-s8-prop-9 .statement tag=04X1}
+
+*K を体、L K の代数拡大、および $\mathfrak{f}$ を K 上の絶対値値とします。すると、$\mathfrak{f}$ は L 上の絶対値値に拡張できます。
+
+まず、$K$ に、$f(x) = e^{-v(x)}$ となるような実質値の評価$v$ が存在すると仮定します。 $L$ には $v'$ という評価が存在し、その制限 ～ $K$ は $v$ ($§ 3$、no. 3、命題 5) に相当します。この場合、$v'$ の高さは 0 または 1 (no. 1、系 2 ～ 命題 1) であるため、実数の値を持つと想定できます。 写像 $x \mapsto e^{-v'(x)}$ から $K$ の制限は、$f$ と同等の絶対値であるため、$s > 0$ を含む形 $f^s$ (*一般的な位相*、章) IX、$§ 3$、no. 2、命題 5)。私たちは結論する
+
+$$
+x \mapsto e^{-v'(x)/s}
+$$
+
+$f$ を延長した $L$ 上の絶対的な値です。
+
+ここで、$f$ が超計量ではないとします。次に、$K$ は $\mathbf{C}$ の部分体と同一視され、$f(x) = |x|^s$ ただし、$0 \leq s \leq 1$ ($§ 6$, no. 4, 定理 2) となります。 $\mathbf{C}$ は代数的に閉じているため、$L$ は $\mathbf{C}$ の部分体および絶対値値 $x \mapsto |x|^s$ 拡大する $f$ と同一視されます。
+
+#### 命題 10 {#ac-vi-s8-prop-10 .statement tag=04X2}
+
+*$K$を体、$f$を$K$上の絶対値とし、$K$が完全で、$f$と$L$の代数拡大に関して離散的でないようにします。 $K$。次に、$f$ は、$L$ 上の絶対値値 $f'$ に一意に拡張でき、$L$ が有限次数 $n$ の場合、*
+
+$$
+f'(x) = (f(N_{L/K}(x)))^{1/n}
+$$
+
+*全員* $x \in L$。
+
+$f'$ の存在は、$§ 6$、no. 4 の補題 2 から、命題 9 とその一意性 ($L$ のすべての有限部分拡張にわたって、したがって $L$ 全体にわたって) に続きます。 $f'$ を $K$ の代数閉包までの一意の拡大とし、$L$ が有限次数 $n$ であると仮定します。 $N_{L/K}(x) = \prod_{i=1}^n x_i$ は、各 $x_i$ が $K$ 上の $x$ の共役であることがわかります (*代数*、章 VIII、$§ 12$、no. 2、命題 4)。 In view of the uniqueness of $f'$, $f'(x_i) = f'(x)$ for all $i$, whence the stated formula.
+
+#### 命題 11 {#ac-vi-s8-prop-11 .statement tag=04X3}
+
+*$K$を体、$f$を$K$の非ウルトラメトリック絶対値値、$\hat{K}$を$f$に関する$K$の完了、$\hat{f}$を$\hat{K}$までの連続拡大とします。 $L$ は、次数 $n$ の $K$ の有限の拡大です。
+
+(a) *$f'$ を $f$ を拡張した $L$ 上の絶対値値とする。 $\hat{L}_{f'}$ は $f'$ に関する $L$ の完了を示し、$\hat{K}$ は $\hat{L}_{f'}$ における $K$ の終結と同一視されます。それから* $[\hat{L}_{f'} : K] \leq n$。
+
+(b) $f$ を拡張した$L$ 上の *絶対値は、数で有限です。それらを * $f'_1, \ldots, f'_s$ * で表し、* $f'_i$ * に関して $L$ を * $\hat{L}_i$ で表すと、*標準写像*
+
+$$
+\hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
+$$
+
+*は同型で*
+
+$$
+\sum_{i=1}^s [\hat{L}_i : \hat{K}] = n.
+$$
+
+(10)
+
+証明は、命題 2 (no. 2) の類似の主張と同じです。参考文献
+
+§ 7, no. 2、定理 1; § 5, no. 2、系 ～ 命題 4 は次のように置き換える必要があります。
+
+§ 7, no. 3、定理 2;トポロジカルベクトル空間、章 I,
+§ 2, no. 3、系 1 ～ 定理 2。
+
+2 つの拡大が L に達し、同じ定義する位相が等しいことに注目してください (一般位相、章 IX, § 3, no. 2、命題 5)。最後に、$f$ は超計量ではないため、K は標数 0 であり、したがって $\hat{K} \otimes_K L$ のヤコブソン根基は零になります。
+
+注意
+(1) 命題 11 (b) は、K 上の $\hat{K}$ と L のすべての合成拡大が補完 $\hat{L}_i$ の 1 つと同型であり、これらは合成拡大であり、そのうち 2 つが同型ではないことを示しています。
+(2) 補完 $\hat{K}$ と $\hat{L}_i$ は $\mathbf{R}$ または $\mathbf{C}$ ($§ 6$, no. 4, 定理 2) と同型であることがわかっています。 $\hat{K}$ が $\mathbf{C}$ と同型である場合、すべての $i$ について $\hat{L}_i$ も同様であり、(10) は拡大 $f_i'$ の数が *n* に等しいことを示します。 If $\hat{K}$ is isomorphic to $\mathbf{R}$ (for example if $K = \mathbf{Q}$), let $r_1$ (resp. $r_2$) denote the number of indices $i$ such that $\hat{L}_i$ is isomorphic to $\mathbf{R}$ (resp. $\mathbf{C}$); then (10) may be written:
+
+$$
+r_1 + 2r_2 = n.
+$$
+
+#### 命題 12 {#ac-vi-s8-prop-12 .statement tag=04X4}
+
+*Kを体、fをK上の絶対値、LをKの準ガロア拡張、$f'$と$f''$2つ拡大をLとする。このとき、$f'' = f' \circ s$* となるような L の K 自己同型 s が存在します。
+
+$f$ が超計量である場合、系 1 から命題 7 (no. 6) は、$f''$ と $f' \circ s$ が絶対値値と等価であるような L の K 自己同型 s が存在することを示します。その場合、すべての $x \in L$ に対して $f''(x) = (f'(s(x)))^a$ となる実数 $a > 0$ が存在します。 $f$ が不適切でない場合は、$f(x) \neq 1$ となるように $x \in K^*$ を取得します。これは、$a = 1$ を示します。 $f$ が不適切な場合、$f'$ と $f''$ (系 2 から命題 1、no. 1) も不適切であり、s は恒等式自己同型であるとみなされる可能性があります。
+
+$f$ がウルトラメトリックでない場合、$\mathbf{C}$ の部分体および実数指数 $a' > 0, a'' > 0$ 上に、L の Q 同型$u', u''$ が存在します。そのため、$f'(x) = |u'(x)|^{a'}$ と
+
+$$
+f''(x) = |u''(x)|^{a''}
+$$
+
+すべての$x \in L$ ($§ 6$、no. 4、定理 2)。 $x = 2$ を取ると、$a' = a''$ であることがわかります。 $u'$ と $u''$ の制限は、$\hat{K}$ の同型 $u_1$ と $u_2$ から $\mathbf{R}$ (それぞれ $\mathbf{C}$) への連続性により K 拡大するに変換されます。この場合、$u_2 \circ \bar{u}_1^{-1}$ は *値* 体 $\mathbf{R}$ (または $\mathbf{C}$) の自己同型であり、したがって同一性 (または同一性または自己同型 $c : \zeta \to \bar{\zeta}$) です。 置き換えることが$c \circ u'$までに$u'$になる必要がある場合、$u'$と$u''$の制限をKに一致すると仮定できることがわかります。この共通の制限, $u'$ および $u''$ を用いて、$\mathbf{C}$ の部分体と K を同定すると、$\mathbf{C}$ の部分体に対する L の K 同型写像です。 L は K の準ガロア拡張であるため、$u'' = u' \circ s$ となるような L の K 自己同型 s が存在します。 $a' = a''$ なので、直ちに $f'' = f' \circ s$ と推測します。
+
+注意 (3)。 $\hat{K}$ が $\mathbf{R}$ と同型である場合、命題 12 は、$L$ (命題 11 の記法) のすべての補完 $\hat{L}_t$ が 1 つの他のと同型であることを示します。したがって、上記の注意 2 の記法では、$r_1 = n$ と $r_2 = 0$、または $r_1 = 0$ と $2r_2 = n$ のいずれかになります。
+
+### 練習問題 {#ac-vi-s8-exercises}
+
+[§ 8 に対して練習問題](exercises/s8/)を参照してください。

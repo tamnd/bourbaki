@@ -1,0 +1,350 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: VI
+chapter_title: VALUATIONS
+section: 6
+section_title: Absolute values
+lang: ja
+source: ac-i-vii
+book_pages: 403-411, 459-460
+pdf_pages: 0421-0429, 0477-0478
+extraction: ocr
+subsections:
+    - "no": 1
+      title: PRELIMINARIES ON ABSOLUTE VALUES
+      page: 403
+      pdf_page: 421
+    - "no": 2
+      title: ULTRAMETRIC ABSOLUTE VALUES
+      page: 405
+      pdf_page: 423
+    - "no": 3
+      title: ABSOLUTE VALUES ON Q
+      page: 406
+      pdf_page: 424
+    - "no": 4
+      title: STRUCTURE OF FIELDS WITH A NON-ULTRAMETRIC ABSOLUTE VALUE
+      page: 407
+      pdf_page: 425
+statements: 11
+exercises: 2
+content_sha256: a1d46d2369a3ec432e53e8b8b0688941a3f3e6525f5bc9a2b8f87abe68624c7f
+translated_from: content/en/ac/VI/06_s6_absolute_values.md
+translation_method: google
+source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: ee35565757998288aa7356d048ecb54695e8bf21e35eef84668428d69a7a91e0
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 6. 絶対値
+
+### 1. 絶対値の予選
+
+$K$ を体とします (可換かどうか)。 $K$ の絶対値は、以下の $K$ から $\mathbf{R}_+$ 満たすまでの任意の写像 $f$ であることを思い出してください (一般位相、章 IX, § 3, no. 2、定義 2)。公理:
+
+(VA,) 関係 $f(x) = 0$ は $x = 0$ と同等です。
+(VAII) $K$ のすべての $x, y$ に対して $f(xy) = f(x)f(y)$。
+(VAIll) $K$ のすべての $x, y$ に対して $f(x + y) \leq f(x) + f(y)$。
+
+(VA,) と (VAII) から、$f(1) = 1, f(-1) = 1$ と
+$$
+f(x^{-1}) = \frac{1}{f(x)}
+$$
+$x \neq 0$用。
+
+$K$ から $\mathbf{R}$ までの写像 $f$ と実数 $A > 0$ について、$(\mathrm{U}_A)$ は関係を表すものとします
+$$
+f(x + y) \leq A \cdot \sup(f(x), f(y)) \quad \text{for all } x, y \text{ in } K.
+$$
+
+$K$ から $\mathbf{R}_+$ 満たす (VAI) および (VAII) の写像 $f$ の $\mathscr{V}(K)$ 集合によって、次のような $A > 0$ ($f$ に応じて) が存在します。 $(\mathrm{U}_A)$ が成立します。
+
+$\in \mathscr{V}(K)$ の場合、$x = 1, y = 0$ を $(\mathrm{U}_A)$ に入れると、
+$$
+1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
+$$
+
+#### 命題 1 {#ac-vi-s6-prop-1 .statement tag=04VA}
+
+$K$ から $\mathbf{R}$ までの写像 $f$、満たす (VA,) および (VAII) から属するから $\mathscr{V}(K)$ までの場合、$f(1 + x)$ が $x \in K$ の集合で制限されることが必要かつ十分です。 $f(x) \leq 1$ のようになります。
+
+$f$が$(\mathbf{U}_A)$を満たす場合、$f(x) \leq 1$であれば$f(1 + x) \leq A$となります。逆に、$x \in K$ に対して $f(x + 1) \leq A$ が $f(x) \leq 1$ になるとします (これは $A \geq f(1) = 1$ を意味します)。次に、$x = 0$ または $y = 0$ の場合、条件 $(\mathbf{U}_A)$ が満たされます。一方、$x \neq 0$ と $y \neq 0$ の場合、例えば $f(y) \leq f(x)$ であるため、$(\mathbf{VA}_s)$、$f(yx^{-1}) \leq 1$、したがって $f(1 + yx^{-1}) \leq A$ となり、$(\mathbf{VA}_{II})$ により、$f(x + y)f(x)^{-1} \leq A$ が得られます。 よって
+
+$$
+f(x + y) \leq Af(x) \leq A \sup(f(x), f(y)).
+$$
+
+$f$ が $K$ の絶対値である場合、$(\mathbf{VA}_{III})$ から開始して整数 $n > 0$ で帰納法によって $f(n.1) \leq n$ が計算されます。逆に:
+
+#### 命題 2 {#ac-vi-s6-prop-2 .statement tag=04VB}
+
+*$f$ を $K$ ～ $\mathbf{R}_+$ 所属 ～ $\mathscr{V}(K)$ の写像とします。すべての整数 $n > 0$ に対して $f(n.1) \leq C$ となる $C > 0$ が存在する場合、$f$ は $K$ 上の絶対的な値になります。*
+
+$r > 0$の帰納法までに、$(\mathbf{U}_A)$ 関係から推測します
+
+$$(1)$$
+$$
+f(x_1 + x_2 + \cdots + x_{2^r}) \leq A^r \sup_{1 \leq i \leq 2^r} f(x_i)
+$$
+
+すべての家族に$(x_i)$/$2^r$元/$K$。私たちは集合 $n = 2^r - 1$;すべての $x \in K$ について、(1) から推測します。
+
+$$
+(f(1 + x))^n = f((1 + x)^n) = f\left( \sum_{i=0}^n \binom{n}{i} x^i \right) \leq A^r \sup \left( f\left( \binom{n}{i} \right) (f(x))^i \right)
+$$
+$$
+\leq CA^r \sum_{i=0}^n \binom{n}{i} (f(x))^i = CA^r (1 + f(x))^n
+$$
+
+$f\left( \binom{n}{i} \right) \leq C \binom{n}{i}$の場合。したがって
+$$
+f(1 + x) \leq C^{1/n} A^{r/n} (1 + f(x)).
+$$
+
+$r$ が $+\infty$ になる傾向があるとすると、すべての $x \in K$ に対して $f(1 + x) \leq 1 + f(x)$ が得られます。 適用この不等式に $x$ を $xy^{-1}$ で置き換え（$y \neq 0$）、$(\mathbf{VA}_{II})$ を考慮すると、関係 $(\mathbf{VA}_{III})$ が得られ、命題が証明されます。
+
+#### 系 1 {#ac-vi-s6-prop-2-cor-1 .statement tag=04VC}
+
+*$K$から$\mathbf{R}_+$までの写像$f$が絶対的な値となるためには、満たす条件$(\mathbf{VA}_I)$、$(\mathbf{VA}_{II})$、$(\mathbf{U}_2)$であることが必要十分です。
+
+$(\mathbf{VA}_{II})$ が意味するため、それは必要です
+$$
+f(x + y) \leq f(x) + f(y) \leq 2 \sup(f(x), f(y)).
+$$
+
+逆に、$f$ が $(\mathbf{VA}_I)$、$(\mathbf{VA}_s)$、$(\mathbf{U}_2)$ を満たすとします。すべての整数 $n > 0$ について、$r$ を $2^r \geq n$ となる最小の整数とします。 (1) で $A$ が 2 に置き換えられ、添字 $i \leq n$ の $x_i$ が 1 に置き換えられ、添字 $i > n$ の $x_i$ が 0 に置き換えられると、次のようになります。
+$$
+f(n.1) \leq 2^r < 2n;
+$$
+その場合、命題 2 は $C = 2$ に適用できるため、$f$ は絶対的な値になります。
+
+#### 系 2 {#ac-vi-s6-prop-2-cor-2 .statement tag=04VD}
+
+$K$ ～ $\mathbf{R}_+$ ～ 属する ～ $\mathscr{V}(K)$ の写像 $f$ については、形 $g^t$ であることが必要かつ十分です。ここで、$t > 0$ と $g$ は絶対的な値です$K$。
+
+$f$ が $(\mathbf{U}_A)$ を満たすということは、$f^s$ が $(\mathbf{U}_{A^s})$ を満たすというと同等です。 $A^s \leq 2$、系となるような $s > 0$ が存在するため、1 は、$s$ のそのような値に対して、$f^s$ が絶対的な値であることを示します。
+
+### 2. ウルトラメトリックアブソリュート値
+
+$K$ から $\mathbf{R}_+$ の写像 $f$ は、条件 $(\mathrm{VA}_I)$、$(\mathrm{VA}_{II})$、$(\mathrm{U},)$ を満たす場合、超計量絶対値値と呼ばれます (これは明らかに $f$ が絶対値値であることを意味します)。
+
+#### 命題 3 {#ac-vi-s6-prop-3 .statement tag=04VE}
+
+$f$を$K$から$\mathbf{R}_+$の写像とします。次のプロパティは同等です。
+(a) $f$ は超計量絶対値値です。
+(b) $K$ には $v$ 、$\mathbf{R}$ と実数 $a$ には値があり、$0 < a < 1$ と $f = a''$ となる評価が存在します。
+(c) $f$ 属するから $\mathscr{V}(K)$ および $f(n.1) \leq 1$ 整数 $n > 0$ ごと。
+(d) すべての $s > 0$ に対して、$f^s$ は絶対的な値です。
+
+$0 < c < 1$、写像 $t \mapsto c^t$ が、順序付けられた群 $\mathbf{R}_+^*$ の順序付けられた群 $\mathbf{R}$ (通常の順序と逆の順序で) の同型となるようなすべての実数 $c$ について。これは(a)と(b)の同値を示しています。明らかに (a) は (c) を意味します。 (c) は (d) を暗示します。なぜなら、(c) から次のように推測できるからです。
+$$
+(f(n.1))^s \leq 1 \leq n
+$$
+すべての整数 $n > 0$ と命題の no. 1 の 2 は、$f''$ が絶対的な値であることを示します。最後に (d) は (a) を意味します: iff" が絶対的な値である場合、それは $(\mathbf{U}_2)$ を満たし、したがって $f$ はすべての $s > 0$ について $(\mathbf{U}_{2^{1/s}})$ を満たし、したがって $(\mathbf{U}_1)$ も満たされ、$s$ は $+\infty$ になる傾向があります。
+
+#### 系 {#ac-vi-s6-n2-cor-1 .statement tag=04VF}
+
+$K$ が特性 $p > 0$ の (必ずしも可換ではない) 体である場合、$\mathscr{V}(K)$ 上のすべての写像は超計量絶対値値です。
+
+ゼロ以外のすべての元 $z = n.1$ ($n$ 整数 $> 0$) 属するから $K$ の素数部分体 $\mathbf{F}_p$ は、関係 $z^{p-1} = 1$ を満たします。これは、次のことを意味します。 $f(z) = 1$ そして私たちは命題を適用する 3 (c) をするかもしれません。
+
+実数 $c$ が $0 < c < 1$ になるとすると、次の式は
+$$
+f(x) = c^{v(x)}, \quad v(x) = \log, f(x)
+$$
+したがって、$K$ の超測定的絶対値値と、$K$ の実質値の評価との間に 1 対 1 の対応を確立します。不当な評価対応するから不当な絶対値値 (一般位相、章 IX, § 3, no. 2)。 $v_1, v_2$ を、実質値と $f_1, f_2$ 対応する絶対値を持つ $K$ の 2 つの評価とします。 $v_1$ と $v_2$ が同等であるためには、$f_1$ と $f_2$ が同等であることが必要かつ十分です。 $v_1$ と $v_2$ がというと同等であると言うには、関係 $v_1(x) \geq 0$ と $v_2(x) \geq 0$は同等であるか、関係 $f_1(x) \leq 1$ と $f_2(x) \leq 1$ は同等です。したがって、*一般位相*、章 IX, § 3, no. 2 の命題を適用する 5 で十分です。さらに (*loc. cit.*) $f_1$ と $f_2$ によって K 上で定義されたトポロジーが同一であるためには、$f_1$ と $f_2$ が同等であることが必要かつ十分です。
+
+### 3. Q の絶対値
+
+#### 命題 4 {#ac-vi-s6-prop-4 .statement tag=04VG}
+
+※$f$を$\mathbf{Q}$～$\mathbf{R}_+$所属～$\mathscr{V}(\mathbf{Q})$の写像とします。次に:*
+
+(i) *$f$ のいずれかが、$\mathbf{Q}$ の不適切な絶対値値です。*
+
+(ii) *または、$0 < a < 1$ と $f = a^{v_p}$ となるような実数 $a$ と素数数 $p$ が存在します。ここで、$v_p$ は $p$ 進評価です。*
+
+(iii) *または、すべての $x \in \mathbf{Q}$ に対して $f(x) = |x|^s$ となるような $s > 0$ が存在します。*
+
+*$f$が$\mathbf{Q}$で絶対的な値になるように注意する(iii)では、$0 < s \leq 1$であることが必要かつ十分です。
+
+まず、整数 $n > 0$ ごとに $f(n) \leq 1$ と仮定します。 no. 2 の命題 3 までに、実数 $b$ が存在し、$\mathbf{Q}$ には $0 < b < 1$ と $f = b^v$ のような評価$v$ が存在します。さて、私たちは (§ 3, no. 4, *例 4*)、$\mathbf{Q}$ の唯一の評価は (同値まで) 不適切な評価と $p$ の adic 評価 $v_p$ であることを知っています。したがって、ケース (i) またはケース (ii) のいずれかになります。
+
+これから、$f(h) > 1$ となる整数 $h > 0$ が存在すると仮定します。 no. 1, 系 2 から命題 2 までには、$f^\rho$ が絶対値値となるような数 $\rho > 0$ が存在します。書きましょう
+
+$$
+g(x) = \rho \log(f(x))/\log|x|
+$$
+
+すべての有理数数 $x \neq 0$ に対して。 $a, b$ を 2 整数 $\geq 2$ とします。すべての整数 $n \geq 2$ について、$q(n)$ は $n \log a/\log b$ の積分部分を表し、他の語では、$a^n < b^{m+1}$ となる最小の整数 $m$ を表します。したがって、$a^n$ から基底 $b$ への展開は次のようになります。
+
+$$
+a^n = c_0 + c_1 b + \ldots + c_{q(n)} b^{q(n)}
+$$
+
+ここで、$0 \leq c_i < b$は$0 \leq i \leq q(n)$です。 $f^\rho$ は絶対的な値、$f^\rho(c_i) \leq c_i \leq b$ であるため、(2) から次のように推測されます。
+
+$$
+(f(a))^{n\rho} = (f(a^n))^\rho \leq b(1 + (f(b))^\rho + \ldots + (f(b))^{q(n)\rho})
+$$
+$$
+\leq b(q(n) + 1)(\sup(1, (f(b))^\rho))^{q(n)}.
+$$
+
+この不等式の両辺の対数をとり、$n \log a$で割ると、次のようになります。
+
+$$
+g(a) \leq \frac{\log b}{n \log a} + \frac{\log(q(n) + 1)}{q(n)} \cdot \frac{q(n)}{n \log a} + \frac{\sup(0, \rho \log f(b))}{\log a} \cdot \frac{q(n)}{n}.
+$$
+
+注意現在、$n$ は $+\infty$ になる傾向があり、$q(n)/n$ は $\log a/\log b$ になる傾向があります。したがって、$q(n)$ は $+\infty$ になる傾向があり、
+
+$$
+\log(q(n) + 1)/q(n)
+$$
+
+0 になる傾向があります (実変数の写像、章 III, § 2, no. 1)。 (3) で極限を取ると、次のようになります。
+
+(4) $$
+g(a) \leq \frac{\sup(0, \rho \log f(b))}{\log b} = \sup(0, g(b)).
+$$
+
+しかし、$f(h) > 1$、よって $g(h) > 0$; (4) で $a$ を $h$ に置き換えると、$\sup(0, g(b)) > 0$ が得られます。
+
+$$
+\sup(0, g(b)) = g(b).
+$$
+
+次に、少なくとも 2 に等しい整数 $a, b$ については、$g(a) \leq g(b)$、したがって $g(a) = g(b)$ となり、$a$ と $b$ の役割を交換します。他の語では、整数 $a \geq 2$ ごとに $g(a) = A$ となるような定数 $\lambda$ が存在します。 $s = \lambda / \rho$ と書くと、整数 $a \geq 2$ ごとに $f(a) = |a|^s$ になります。 $f(xy) = f(x)f(y)$ と $f(-x) = f(x)$ として、すべての $x \in Q$ に対して $f(x) = |x|^s$ です。最後に、$0 < s \leq 1$ の場合、$x \mapsto |x|^s$ は絶対的な値 (一般位相、章 IX, § 3, no. 2) であることがわかります。逆に、$s$ が $x \mapsto |x|^s$ が $Q$ 上で絶対的な値であるような場合、$(1 + 1)^s \leq 1^s + 1^s$、つまり $2^s \leq 2$、よって $s \leq 1$ になります。
+
+### 4. 構造の体と非ウルトラメトリック絶対値値
+
+#### 定理 1 (ゲルファント・マズール) {#ac-vi-s6-thm-1 .statement tag=04VH}
+
+次の 2 つのプロパティを使用して、$K$ を体 $\mathbf{R}$ よりも代数とします。
+(1) $K$ は (必ずしも可換ではない) 体です。
+(2) $K$ の代数構造と互換性のある$K$ ノルム $x \mapsto \|x\|$ が存在します (一般位相、章 IX, § 3, no. 7、定義 9)。
+この場合、代数 $K$ は、代数 $\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ のいずれかと同型です。
+
+$K$ のすべての $x, y$ について、常に $\|xy\| \leq \|x\| \cdot \|y\|$ と仮定できることを思い出してください (上記参照)。 ノルムで定義される $K$ 位相 (代数構造と互換性があります) を与えます。
+
+(A) 最初のケース: $K$ は可換であり、$j^2 = -1$ となるような $j \in K$ が存在します。
+
+次に、$K$の部分体上に体$\mathbf{C}$の同型$\sigma$が存在し、$\mathbf{R}$の$\xi, \eta$に対して$\sigma(\xi + i\eta) = \xi . 1 + \eta . j$が存在します。私たちは、不合理な還元によって、$K = \sigma(\mathbf{C})$ を証明します。次に、$x \in K - \sigma(\mathbf{C})$ が存在すると仮定します。したがって、すべての $z \in \mathbf{C}, x - \sigma(z)$ は $K$ で反転可能です。 $F(z) = (x - \sigma(z))^{-1}$ と書きましょう。 $\sigma$ は連続で、その逆は $K$ で連続です (一般位相、章 IX, § 3, no. 7、命題 13 が $K$ の完了代数に適用されます)、$F$ は連続写像です$\mathbf{C}$から$K$まで。また、$z \neq 0$ についても書くことがあります。
+
+$$
+F(z) = (\sigma(z))^{-1}(x(\sigma(z))^{-1} - 1)^{-1}.
+$$
+
+しかし、$\mathbf{C}$ では $z$ が無限大になる傾向があるのと同様に、$(\sigma(z))^{-1} = \sigma(z^{-1})$ も 0 になる傾向があるため、$F(z)$ は 0 になる傾向があることがわかります。他の語、$z \mapsto \|F(z)\|$ は、$\mathbf{C}$ 上の連続実数値写像、$\geq 0$ であり、無限遠の点で 0 になる傾向があるため、隣接することによって得られるコンパクト空間 $\tilde{C}$ 上の連続写像と考えることができます。 $C$ 点無限遠まで。したがって、$C$上の$\| F \|$の最小の上界$a$は有限であり、複素数$z$の$> 0$と集合$P$は$\| F(z) \| = a$が閉じていて空ではない(*一般) 位相*、章 IV, § 6, no. 1、定理 1)。
+
+$z \in P$ にしましょう。 $y = x - \sigma(z)$ と書き、$t$ を複素数 $\neq 0$ として、$a$ の定義によって $\| \sigma(t) \| < \alpha^{-1}$、よって $\| \sigma(t) \cdot y^{-1} \| < 1$ となります。したがって、$(\sigma(t) y^{-1})^n$の数列と$n(\sigma(t) y^{-1})^n$のそれは、$n$が$+\infty$になる傾向があるのと同様に、$K$で0になる傾向があり、$R$のノルムの対応する数列も同様です。一方、すべての多項式 $H(T) = \prod_{k=1}^p (T - \sigma(c_k))$ について、有理数写像の体 $K(T)$ では、$c_k$ が異なる複素数であることに注意してください。
+
+$$
+\frac{H'(T)}{H(T)} = \sum_{k=1}^p \frac{1}{T - \sigma(c_k)}
+$$
+
+We apply this formula to the polynomial
+
+$$
+H(T) = T^n - (\sigma(t))^n = \prod_{k=0}^{n-1} (T - \sigma(\omega_n^k t)),
+$$
+
+ここで、$\omega_n = \exp(2\pi i / n)$ は、すべての $\sigma(\omega_n^k t)$ とは異なる $T$ 元 $y \in K$ に置き換えられます。 (可換体 $K$) ということになります。
+
+$$
+\frac{ny^{n-1}}{y^n - (\sigma(t))^n} = \frac{1}{y - \sigma(t)} + \sum_{k=1}^{n-1} \frac{1}{y - \sigma(\omega_n^k t)}.
+$$
+
+$F$ と $y$ の定義を考慮すると、次のようになります。
+
+$$
+\begin{align}
+F(z + t) + \sum_{k=1}^{n-1} F(z + \omega_n^k t) - nF(z) \\
+= \frac{ny^{n-1}}{y^n - (\sigma(t))^n} - \frac{n}{y} = \frac{1}{y} \cdot \frac{n(\sigma(t) y^{-1})^n}{1 - (\sigma(t) y^{-1})^n}.
+\end{align}
+$$
+
+しかし、上で作成した $t$ と注意の選択のおかげで、(7) の最後の式は、$n$ が $+\infty$ になる傾向があるように、0 になる傾向があります。したがって
+
+$$
+\| F(z + t) \| = \lim_{n \to +\infty} \| nF(z) - \sum_{k=1}^{n-1} F(z + \omega_n^k t) \|.
+$$
+
+さて、$\alpha$、よっての定義による$\| F(z) \| = \alpha$と$\| F(z + \omega_n^k t) \| \leq \alpha$
+
+$$
+\| nF(z) - \sum_{k=1}^{n-1} F(z + \omega_n^k t) \| \geq n \| F(z) \| - \sum_{k=1}^{n-1} \| F(z + \omega_n^k t) \| \geq n \alpha - (n-1)\alpha = \alpha.
+$$
+
+従って、(8) により、n を $+\infty$、$\|F(z + t)\| \geq a$ の傾向とし、$a$ の定義により、これは意味します。
+$$
+\|F(z + t)\| = \alpha,
+$$
+その他の語 $z + t \in P$。これは、集合 $P$ が $\mathbf{C}$ で *開いている* ことを証明します。これも閉じていて空ではなく、$\mathbf{C}$ が接続されているため、$P = \mathbf{C}$ と $\|F\|$ は$\mathbf{C}$ で一定です。この写像は、無限遠では点、$\mathbf{C}$では$\|F(z)\| = 0$、特に$\|F(0)\| = \|x^{-1}\| = 0$では0になる傾向があり、これは不合理です。
+
+(B) *2 番目のケース。 K は可換であり、* $-1$ * は K* の元の平方ではありません。
+L を $T^2 + 1$ の K 根 j に隣接して得られる可換体とします。 L は、$(1, j)$ を基底として認める K よりもベクトル空間であり、L は明らかに $\mathbf{R}$ よりも代数です。明らかに、写像 $x + yj \to \|x\| + \|y\|$ は、L のノルムは、$\mathbf{R}$ のベクトル空間として、その構造と互換性があります。一方、Lの$z = x + yj, z' = x' + y'j$については、
+$$
+\begin{align*}
+\|zz'\| &= \|xx' - yy'\| + \|xy' + x'y\| \\
+&\leq \|x\|.\|x'\| + \|y\|.\|y'\| + \|x\|.\|y'\| + \|x'\|.\|y\| \\
+&= (\|x\| + \|y\|)(\|x'\| + \|y'\|) = \|z\|.\|z'\|.
+\end{align*}
+$$
+従って、このように定義されたノルムは、L の R-代数構造と互換性があります。場合によっては、(A) L は R-代数と $\mathbf{C}$ と同型です。現在、$\mathbf{C}$ と異なる$\mathbf{C}$ の唯一の部分 R 代数は $\mathbf{R}$ であるため、K は $\mathbf{R}$ と同型です。
+
+(C) *Third case: K is not commutative*
+Let Z be the centre of K and x an element of K not in Z; the subfield $Z(x)$ of K is commutative and the norm induced by that on K is compatible with the R-algebra structure on $Z(x)$; as $Z \neq Z(x)$ and Z and $Z(x)$ are R-algebras isomorphic to $\mathbf{R}$ or $\mathbf{C}$ by virtue of (A) and (B), Z is necessarily isomorphic to $\mathbf{R}$ and $Z(x)$ to $\mathbf{C}$. 従って、すべての $x \in K, Z(x)$ は Z 上の階数 $\leq 2$ になります。 これで、次の補題ができました。
+
+#### 補題 1 {#ac-vi-s6-lem-1 .statement tag=04VI}
+
+*D を体と中心 L とし、すべての $x \in D, L(x)$ が次数 $\leq m$ の L の拡大になるようにします。すると、L 上の D の階数は $\leq m^2$ になります。*
+
+私たちは明らかに、$D \neq L$ の場合に注意を限定するかもしれません。このとき、D には、有限 *分離可能な * 代数可換拡大 E of L of 次数 $> 1$ (*代数*, 章 VIII, § 10, no. 3, 補題 1) が存在します。 E の適切な x (*代数*、章 V, § 7, no. 7、命題 12 および章 VII, § 5, no. 7) に対する $E = L(x)$ として、仮定 $[E : L] \leq m$ によって表されます。 $[E : L]$ が有限かつ可能な限り大きくなるように分離拡大 E が取られ、次のような中心 E の体である D の E の *セントラライザー* $E' \supset E$ を考慮するとします。
+$$
+[D : E'] = [E : L] \leq m
+$$
+
+(代数、章 VIII, § 10, no. 2、定理 2)。 E $\#$ E' の場合、$\mathbf{E}'$ には、次数 $> 1$ (代数, 章 VIII, § 10, no. 3, 補題 1) の $\mathbf{E}$ の有限可分代数拡大 F が存在します。従って、F は、E の定義とは反対に、次数 $> [\mathrm{E}: \mathrm{L}]$ の L (代数, 章 V, § 7, no. 4, 命題 7) の有限可分代数拡大になります。従って、$\mathbf{E}' = \mathbf{E}$、よって $[\mathrm{D}: \mathrm{L}] = [\mathrm{D}: \mathrm{E}][\mathrm{E}: \mathrm{L}] \leq m^2$。
+
+適用この補題を $m = 2$ と K にすると、K は有限階数の R の非可換拡大体であるため、四元数 $\mathbf{H}$ (代数, 章) の体と同型であることがわかります。 VIII, § 11, no. 2、定理 2）。
+
+注意 (1) ノルム化された代数に捧げられた章を、ゲルファント・マズール定理の短い証明に与えます。これは、R 上のすべてのハウスドルフ局所凸トポロジカル代数 K に対して有効であり、その原理は次のとおりです。 (C)) K が $\mathbf{C}$ を超える可換代数の場合。 $x \in \mathbf{K} - \mathbf{C}.1$ の場合、$\mathbf{C}$ から K までの写像 $z \mapsto (x - z.1)^{-1}$ は連続であり、$\mathbf{C}$ で微分可能です。局所的に凸な空間 K の双対 $\mathbf{K}'$ のすべての元 $x'$ について、$z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ は $\mathbf{C}$ 上の有界積分写像となり、したがって以下のように Liouville の定理と我々結論するによって定数となります。 定理 1 の証明の部分 (A) は、これはすべての $z \in \mathbf{C}$ とすべての $x' \in \mathbf{K}'$ に対して必然的に $\langle (x - z.1)^{-1}, x' \rangle = 0$ を意味します。ハーン・バナッハ定理は、$(x - z.1)^{-1} \neq 0$以降、この結論が不合理であることを示しています。 定理 1 の証明の部分 (A) の引数は、外観上のみ上記の引数と異なることに注意してください。この引数は、単位元と移行の根の合計である解析的写像の最大原理を証明するのに役立つ特別なケースにすぎないからです。 極限は、中心 0 の円に沿った積分 $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ を計算するのと同等であり、写像 F の特定の形のおかげで、コーシーの公式の使用はここでは避けられています。
+
+#### 定理 2 (オストロフスキ) {#ac-vi-s6-thm-2 .statement tag=04VJ}
+
+K を a (必ずしも可換ではない) 体および f 元 $\mathscr{V}(K)$ とし、これは超計量絶対値値ではありません。次に、体 $\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ のいずれかのどこでも密な部分体上に、すべての $x \in K$ に対して $f(x) = |j(x)|^s$ となるような、K の一意の実数 $s > 0$ と同型 j が存在します (*)。 f が K 上で絶対的な値であるためには、 $s \leq 1$ であることが必要かつ十分です。
+
+no. 2、系から命題 3 まで、K は標数 0 であるため、$\mathbf{Q}$ よりも代数になります。すべての $x \in \mathbf{Q}$ に対して、$h(x) = f(x.1)$ と書きます。明らかに $h \in \mathscr{V}(\mathbf{Q})$ であるため、no. 3 の命題 4 が適用される可能性があります。この命題の主張のケース (i) と (ii) のどちらも成り立ちません。これは、すべての整数 $n > 0$ に対して $f(n.1) \leq 1$ を意味し、f は超計量絶対値値となるからです。
+
+(*) $\mathbf{H}$ に $|z|^2 = z.\bar{z} = \bar{z}.z$ を書き、$\bar{z}$ は $z$ の共役四元数です。
+
+no. 2, 命題 3. 次に、すべての x ∈ Q に対して h(x) = |x|^s となるような実数 s > 0 が存在します。つまり f(x.1) = |x|^s; g = f^{1/s} と書きます。次に、すべての整数 n に対して g ∈ V(K) および g(n.1) = n となります。したがって、no. 1 の命題 2 は、g が K 上の絶対的な値であることを示します。
+
+x ∈ Q および y ∈ K の場合、g(xy) = |x|g(y) であるため、g は K 上のノルムであり、その Q 代数構造 (Q 上の通常の絶対値値を使用) と互換性があります。 したがって、K の完了 K は、Q = R に対するノルム代数です (一般位相、章 IX, § 3, no. 7)。 ĝ を K 上のノルムとし、g の連続拡大とします。 g は K 上の絶対値であるため、K は体であり、ĝ は K 上の絶対値です (一般位相、章 IX, § 3, no. 3、命題 6)。 By Theorem 1 there exists an R-algebra isomorphismf of K̂ onto one of the fields R, C or H and g'(x) = |j(x)| is therefore an absolute value on K̂; as K̂ is finite-dimensional over R and g' and ĝ coincide on the subfield R . 1 of K̂, g' = ĝ by the following lemma:
+
+#### 補題 2 {#ac-vi-s6-lem-2 .statement tag=04VK}
+
+L を (必ずしも可換ではない) 体と L の K 部分体とし、L が K 上のアジナイト次元左ベクトル空間であるようにします。 g を L とその制限上の絶対値値から K までとします。 f に関して離散、L は g に関して完全です。さらに g' が K に対する同じ制限付きで L 上で他の絶対値値であれば、g' = g となります。
+
+g によって定義された位相はハウスドルフであり、L 上の左のベクトル K 空間構造と互換性があるため、最初の主張はトポロジカルベクトル空間、章 I, § 2, no. 3、定理 2 から続きます。さらに、L のトポロジーも続きます。 g と g' によって定義されるものは同一です (上記参照)。したがって、g' = g^s となる実数 s > 0 が存在します (一般位相, 章 IX, § 3, no. 2, 命題 5)。 x を K の元とし、f(x) ≠ 1 とします。方程式 g'(x) = g(x) は s = 1 であることを証明します。
+
+定理 2 の証明に戻ると、j が f から K の制限を表す場合、j は R、C、または H のどこでも密な部分体上で K の同型であり、g(x) = |j(x)| であることがわかります。 x ∈ K の場合、よって f(x) = |j(x)|^s。
+
+最後に、iff は K 上の絶対値であり、h は Q 上の絶対値であり、no. 3、命題 4 により s ≤ 1 であることに注意してください。逆に、s ≤ 1 の場合、g は (一般位相, 章 IX, § 3, no. 2) であるため、f = g^s は K 上の絶対値値です。これは主張の最後の主張を証明します。
+
+注意
+
+(2) K が体で、R 上の正規化代数である場合、ノルムは必ずしも K 上の絶対的な値ではありません。たとえば、ξ + iη → |ξ| + |η| C のノルムは、その R-代数構造と互換性があります。
+
+(3) 代数、章 VIII の一般的な結果を使用しない定理 1 のケース (C) の証明については、練習問題 2 を参照してください。
+
+### 練習問題 {#ac-vi-s6-exercises}
+
+[§ 6 に対して練習問題](exercises/s6/)を参照してください。

@@ -1,0 +1,124 @@
+---
+book: alg
+book_title: Algebra
+chapter: ""
+chapter_title: ""
+section: 0
+section_title: TO THE READER
+kind: reader
+lang: ja
+source: alg-viii
+source_edition: 2023, Springer Nature
+pdf_pages: 0005-0008
+extraction: native
+statements: 0
+exercises: 0
+content_sha256: ce18e22808f991314a6663747f5ba3e8167bdaf2fecebbfd77179eb4b709a314
+translated_from: content/en/alg/00_to_the_reader_viii.md
+translation_method: google
+source_content_sha256: 45c519005c823d57f7f33b57a1c790671b15643486bc9d05ac797484615076c1
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: ea45641e73498d57b798f29e9dff17a511313fba0250a670293ed4c9a894eed4
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 読者へ
+
+新版
+
+1. 数学系列の元は、最初に数学を取り上げ、完全な証明を与えます。したがって、原理的には、読者部分に特別な数学の知識は必要なく、数学推論へのある程度の精通と、抽象的思考のための一定の能力のみが必要です。それにもかかわらず、この本は主に、少なくとも大学の数学の最初の 1 年または 2 年の内容について十分な知識を持っている人を対象としています。
+
+2. 説明の選択された方法は公理的であり、一般的には一般的なものから具体的なものへと進みます。 証明の要件は、主題に厳密に固定された位数を課します。したがって、特定の考慮事項の有用性は、読者がすでにかなり広範な数学の知識を持っている章か 〜でない限りになるまで明らかではないということになります。
+
+3. 系列は書籍に分割され、各書籍は章に分割されます。フランス語版で全文または部分がすでに出版されている書籍を以下にリストします。英語訳がある場合は、対応する英語タイトルを括弧内に記載します。本書全体を通じて、参照は入手可能な場合は英語版、それ以外の場合はフランス語版を示します。
+
+テオリ・デ・アンサンブル (理論/集合) Ref. E (集合理論)
+
+代数 (代数[^1]) — A (代数)
+
+Topologie générale (一般位相) — TG (Gen. Top.)
+
+変数の機能
+
+(1 つの実数変数の写像) — FVR (FRV)
+
+[^1]: これまでのところ、章 I から VIII までのみが翻訳されています。 v
+
+Espaces ベクトルトポロジー
+
+(トポロジカルベクトル空間) — EVT (Top. Vect. Sp.)
+
+Integration (統合) — INT (Int.)
+
+代数可換
+
+(可換代数[^2]) — AC (通信アルゴリズム)
+
+差異と分析の多様性 — VAR
+
+群と嘘の代数
+
+(リー群とリー代数) — LIE (嘘)
+
+スペクトル理論 — TS
+
+トポロジー代数 — TA
+
+In the first six Books (in the order mentioned above), every statement in the text assumes known only the definitions and results already discussed in the same chapters or in the previous chapters in the following order: Set Theory; アルゴリズム、章 I から III; 将軍 トップ、章 I から III; Alg./A、章 IV から; 将軍 トップ、章 IV から。 FRV; トップ。 ベクト。 特別区; 内部。 7 冊目以降、読者は必要に応じて、各書籍または章の冒頭に、使用された他の書籍または章の正確な表示を見つけることができます (最初の 6 冊は常に既知であると想定されます)。
+
+4. ただし、特定の文章は上記のルール集合に従っていません。これらは 2 つのアスタリスク $*$ の間に配置されます。 。 。 。場合によっては、これは次の目的でのみ行われます。
+
+$$
+*
+$$
+
+他の情報源から得られる可能性のある結果に言及する例を含めることで、読者が本文を理解しやすくなります。他の場合には、問題の章で既知であると想定される結果だけでなく、系列の他の場所で証明された結果も使用します。これらの文章は、既知の章含むおよび章を参照していると想定されている部分で自由に使用されています。読者の皆様には悪循環がないことをご確認いただければ幸いです。
+
+5. 一部の書籍（出版済みまたは準備中）には、結果の概要が含まれる場合があります。 These summaries 含む the essential 定義 and results of the Book, without any 証明.
+
+6. The logical framework of each 章 consists of 章’s 定義, axioms, and 定理. These are the main 部分 to keep in mind for subsequent use.重要度の低い結果や、定理から簡単に復元できる結果には、「命題」、「補題」、「結果」、「注意」などのラベルが付けられます。最初に読むときにスキップされる可能性のある結果は、
+
+[^2]: これまでのところ、章 I から VII までのみが翻訳されています。
+
+小さなフォント。基本的な定理に関する解説が「スコリウム」という名前で時々登場します。
+
+To avoid tedious repetitions, it is sometimes convenient to introduce notation or abbreviations that are in force only within a specific chapter or section or subsection of a chapter (for example, in a chapter where all rings are commutative, the word “ring” may always refer to a “commutative ring”). このような規則は、適用される章、切断、または小節の冒頭で明示的に記載されています。
+
+本書の前の章と同様、別の方法で体が可換 〜でない限りであるとは想定されていないことに注意してください。
+
+7. 一部の文章は、読者に重大な誤りを警告するように設計されています。これらの通路は欄外に標識（「危険な曲がり角」）で示されています。
+
+8. 練習問題は、一方では、読者が本文をよく理解できたことを確認できるようにすることを目的としており、他方では、本文に記載のない結果を知ることができるようにすることを目的としています。最も難しい練習問題には $\P$ のマークが付いています。
+
+9. この系列で使用される用語には特に注意を払っています。私たちは、そこから逸脱する正当な理由があると思われる場合を除き、一般に受け入れられている用語を遵守してきました。
+
+10. 私たちは、簡潔さを犠牲にすることなく、常に厳密に正しい言葉を使用するよう特別な努力を払ってきました。可能な限り、文章内で言語の乱用や記法に注意を引いています。これがなければ、数学的な文章は読めないどころか、衒学的になる危険性があります。
+
+11. 本文は理論の独断的な説明で構成されているため、含む文献への言及はほとんどありません。参考文献はときどき歴史注意にまとめられています。 The bibliography that follows these 注意含む, in general, only those books and original 覚書 that were of 最大の importance in the evolution of 理論 under discussion.完成したふりをするものではありません。
+
+練習問題に関しては、多くの異なる情報源 (元の論文、教科書、練習問題のコレクション) から取得されているため、その出所を示すことは有用ではないと考えています。
+
+12. 新版のこの本の章では、定理、公理、定義、注意などへの言及は、本（No. 3 にリストされている略語を使用）、章、切断、小節、ページを順に示すことによって与えられます。どこで見つけられますか。本書への言及は、本書と同じ場合には省略されます。たとえば、本代数では、
+
+集合理論、III, § 4, No. 2、p. 167、系 3
+
+refers to Corollary 3 of § 4, No. 2 on page 167 of Chapter III of the Book Set Theory;
+
+II, § 1, No. 11、p. 215、命題 17
+
+書籍代数の章IIの215ページにある§ 1, No. 11の命題17を指します。
+
+結果の概要は文字 R で示されます。たとえば、トップ。ベクト。 Sp., R は、書籍 Topological ベクトル空間の「結果の要約」を指します。
+
+一部の書籍は後で新版として出版されるため、それらの書籍への参照は、連続して書籍、章、切断、および小節で構成され、問題の結果は次のようになります。
+
+通信アルゴリズム、III, § 4, No. 5、系の命題 6.
+
+フランス語版の各巻に言及する場合は、直立大文字の頭字語が使用され、フランス語の用語とタイポグラフィが使用されます。例えば、
+
+TA、II, § 2、n$^o4$、p. 158、系デラ命題 1
+
+Book Topologie Algébrique の章 II の 158 ページにある系 of 命題 1 of § 2, No. 4 を指します。

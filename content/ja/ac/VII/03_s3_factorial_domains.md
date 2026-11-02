@@ -1,0 +1,382 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: VII
+chapter_title: DIVISORS
+section: 3
+section_title: Factorial domains
+lang: ja
+source: ac-i-vii
+book_pages: 502-512, 563-571
+pdf_pages: 0520-0530, 0581-0589
+extraction: ocr
+subsections:
+    - "no": 1
+      title: DEFINITION OF FACTORIAL DOMAINS
+      page: 502
+      pdf_page: 520
+    - "no": 2
+      title: CHARACTERIZATIONS OF FACTORIAL DOMAINS
+      page: 502
+      pdf_page: 520
+    - "no": 3
+      title: DECOMPOSITION INTO EXTREMAL ELEMENTS
+      page: 504
+      pdf_page: 522
+    - "no": 4
+      title: RINGS OF FRACTIONS OF A FACTORIAL DOMAIN
+      page: 505
+      pdf_page: 523
+    - "no": 5
+      title: POLYNOMIAL RINGS OVER A FACTORIAL DOMAIN
+      page: 505
+      pdf_page: 523
+    - "no": 6
+      title: FACTORIAL DOMAINS AND ZARISKI RINGS
+      page: 506
+      pdf_page: 524
+    - "no": 7
+      title: PRELIMINARIES ON AUTOMORPHISMS OF RINGS OF FORMAL POWER SERIES
+      page: 506
+      pdf_page: 524
+    - "no": 8
+      title: THE PREPARATION THEOREM
+      page: 507
+      pdf_page: 525
+    - "no": 9
+      title: FACTORIALITY OF RINGS OF FORMAL POWER SERIES
+      page: 511
+      pdf_page: 529
+statements: 19
+exercises: 27
+content_sha256: 90fe55e722361c78e8e6c9c542d5341920ffc6dd2eb47525b8c14dcb0b9fa4c2
+translated_from: content/en/ac/VII/03_s3_factorial_domains.md
+translation_method: google
+source_content_sha256: 7c78792af87db965faba28fa907fb71b383afe818bec0650262706d6b261062c
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: 07551768e0a7074fae73fe383849c21aa62894f0b26833bdf4ff0f7634194ab2
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 3. 階乗ドメイン
+
+### 1. 階乗ドメインの定義
+
+#### 定義 1 {#ac-vii-s3-def-1 .statement tag=051N}
+
+すべての除数イデアルが主となるクルール領域は、階乗 (または一意因数分解) 領域と呼ばれます。
+
+その他の語では、因子類(§ 1, no. 2)の群が0になります。
+
+例
+(1) すべての主イデアル整域は階乗です (そして、思い出してください、デデキント領域です)。逆に、すべての階乗デデキント領域は主イデアル整域 x § 2, no. 2, 定理 1 (c) です。
+(2) 特に、K が体の場合、環 K[X] および K[[X]] は階乗領域です (一般化については、以下の定理 2 および命題 8 を参照)。
+(3) 代数多様体の単純な点の \* 局所環は階乗領域です。 $\mathbf{C}^n$ の原点にある写像分析の細菌の環は階乗領域です。 \*
+
+### 2. 階乗領域の特徴付け
+
+環 $A$ を考えると、次の条件を考慮する必要があります。
+
+(M) $A$ の積分主イデアの空でないすべての族には極大元があります。
+
+#### 定理 1 {#ac-vii-s3-thm-1 .statement tag=051O}
+
+$A$を整域とします。次の条件は同等です。
+(a) $A$ は階乗です。
+(b) $A$ の非ゼロ分数主イデアルの順序付き群は、$\mathbf{Z}$ と同型の群の直和 (積位数によって順序付けられる)。
+(c) 条件 (M) が満たされ、$A$ の 2 つの主イデアルのうち共通部分が主イデアルである。
+(d) 条件 (M) が満たされ、$A$ のすべての極値元 $p$ に対して、理想的な $Ap$ が素数になります。
+(e) $A$ はクルル領域であり、高さ 1 のすべての素イデアルが主です。
+
+A の分数の K 体と、A の非ゼロ分数主イデアルの順序付けられた群を $\mathscr{P}^*$ (または $\mathscr{P}^*(A)$) で表すことにします。 証明は、証明によって実行され、次のような意味になります。
+
+(a) ⇔ (b) ⇔ (c) ⇔ (d) ⇔ (e)
+
+(a) が (b) を意味することを示します。 A が階乗の場合、$\mathscr{P}^*$ は A の因子の群と同型であり、したがって群 $\mathbf{Z}$ の直和 ($§ 1$, no. 3, 定理 2) と同型です。
+
+注意さて、関係 「A の 2 つの整数主イデアルの共通部分が主イデアルである」ということは、A の元のすべての順序付けられた対が $lcm$ を認める、つまり $\mathscr{P}^*$ が格子順序付けされた群であることを意味します。 (代数、章、VI、$§ 1$、no. 9、命題8)。したがって、(b) が (c) を含意するという事実 (そしてそれと同等である) は、代数, 章 VI, $§ 1$, no. 13, 定理から得られます。 2. (c) が (d) を含意するという事実は、代数から得られます。 章 VI、$§ 1$、no. 13、命題 14 (DIV)。
+
+(d) が (b) を意味するという事実は、代数, 章 VI, $§ 1$, no. 13, 定理 2 が群 $\mathscr{S}^*$ に適用されることからわかります。
+
+(b) が (e) を意味することを示します。 (b) が成り立つ場合、$\mathbf{Z}^{(l)}$ には $\mathscr{P}^*$ の同型が存在します。 $(v_i(x))_{i \in I}$ は、$\mathbf{Z}^{(l)}$ 対応するの元を理想の $Ax$ ($x \in K^*$) に表します。各 $v_i$ は K の離散評価であり、A は $v_i$ の環の共通部分であり、$x \in K^*$ については、添字の有限の数を除き、$v_i(x) = 0$ であることがすぐに分かります。 $i$;したがって、A は Krull ドメインです。一方、q を高さ 1 の A の素イデアルとします。それは含む非ゼロ元 a であり、必ずしも可逆ではなく、したがって (素イデアルの定義によって) A の極値元の 1 つでもあります。 $Ap$ は素数であり、零、$q = Ap$ ではないため、q が主であることが証明されます。
+
+最後に、(e) が (a) を意味することを示します。 a を A の約数イデアルとします。高さ 1 の A には、$n_i \in \mathbf{Z}$ で $\operatorname{div} a = \sum_i n_i \operatorname{div} p_i$ となる素数イデアル $p_i$ が存在します。 (e) が成り立つ場合、a が約数であるため、$p_i$ は形 $Ap_i$、よって $\operatorname{div} a = \operatorname{div} \left( \prod_i Ap_i^{n_i} \right)$ となり、したがって $a = \prod_i Ap_i^{n_i}$ になります。
+
+#### 命題 1 {#ac-vii-s3-prop-1 .statement tag=051P}
+
+* A を Krull ドメインとします。 A のすべての約数イデアルが可逆である場合、A のすべての最大イデアル m に対して、$A_m$ は階乗になります。 A のすべての約数イデアルが有限に生成されると仮定した場合 (特に A がネーター の場合)、逆は真です。*
+
+Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull domain ($§ 1$, no. 4, Proposition 6), every divisorial ideal $a$ of $A_{,,}$ is the intersection of two principal fractional ideals ($§ 1$, no. 5, Corollary 2 to Proposition 9); hence $a = bA_m$, where $b$ is a divisorial ideal of $A$ (Chapter II, $§ 2$, no. 4); as $b$ is invertible by hypothesis, we deduce from Chapter II, $§ 5$, no. 6, Theorem 4 that $a$ is principal and hence $A_{,,}$ is a factorial domain (no. 1, Definition 1). 逆に、すべての $A_{,,}$ が階乗で、$c$ が $A$ の有限生成された除数イデアルである場合、$§ 1$、no. 5、系 2 から命題 9 のように、$cA_m$ は $A_{,,}$ の除数イデアルです。 章 II、$§ 2$、no. 4; 仮定により、$cA_m$ は主であるため、章 11、$§ 5$、no. 6、定理 4 から、$c$ は可逆であることがわかります。
+
+### 3. 分解から極度の元
+
+$A$ を整域、$K$ を分数の体、$U$ 乗法群を $A$ の可逆元とします。 (代数、章、VI、$§ 1$、no. 5) $A$ の非ゼロ分数主イデアルの群 $\mathscr{P}^*$ 上に $K^*/U$ の標準同型があることを思い出してください。 定理 1 の条件 (b) は次のように翻訳できます。
+
+#### 命題 2 {#ac-vii-s3-prop-2 .statement tag=051Q}
+
+※$A$を整域とします。 $A$ が階乗であるためには、すべての $a \in A - \{0\}$ が形 $a = u \prod_{p \in P} p^{n(p)}$ で一意に記述できるように、$A$ の部分集合 $P$ が存在することが必要かつ十分です。ここで、$u \in U$ と $n(p)$ は正の整数です。 零ただし、そのうちの有限の数を除きます。*
+
+$P$ がこの条件を満たす場合、明らかにそのすべての元は *極値* であり、$A$ のすべての極値元は $P$ の一意元に関連付けられます。 $P$ は、$A$ (代数、章 VII、$§ 1$、no. 3、定義 2) の極値元* の * 代表系と呼ばれることを思い出してください。
+
+常に $A$ が階乗であると仮定します。 群 $\mathscr{P}^*$ が格子であることがわかりました (no. 2, 定理 1)。したがって、代数、章、VI、$§ 1$、番号の結果を適用できます。特に、$K^*$ のすべての元は、*既約分数* の形で本質的に一意の方法で記述される可能性があります。 $K^*$ の 2 つの元 $a, b$ には g.c.d. があります。そしてLCM。 $a = u \prod_{p \in P} p^{n(p)}$ の場合と
+$$
+b = u' \prod_{p \in P} p^{m(p)}
+$$
+$a$ の分解と $b$ が極値元の積である場合、次のようになります。
+$$
+\text{(1)} \quad \text{g.c.d.}(a, b) = w \prod_{p \in P} p^{\inf(m(p), n(p))}
+$$
+$$
+\text{(2)} \quad \text{l.c.m.}(a, b) = w' \prod_{p \in P} p^{\sup(m(p), n(p))}
+$$
+
+ここで、$w, w'$ は U です。特に、代数、章 VIII, § 1, no. 3 の結果を復元します。
+
+すべての $p \in P$ に対して、写像 $a \mapsto n(p)$ は、環が明らかに $A_{A_p}$ である K の離散評価 $v_p$ です。 定理 1(e) から、$v_p$ は A の本質的な評価にすぎず、理想 $Ap$ ($p \in P$) は高さ 1 の A の主な理想にすぎないことがわかります。
+
+### 4. 階乗領域の分数の環
+
+#### 命題 3 {#ac-vii-s3-prop-3 .statement tag=051R}
+
+*A をクルル領域、S を含む 0 ではなく A の乗算部分集合とします。*
+
+(i) *A が階乗の場合、$S^{-1}A$ は階乗です。*
+(ii) *S が元 $p_i$ の族によって生成され、主イデアル $Ap_i$ が素数であり、$S^{-1}A$ が階乗である場合、A は階乗です。*
+
+これは、no. 1 の定義 1 と § 1, no. 10、命題 17 の直後に続きます。
+
+### 5. 階乗領域上の多項式環
+
+A を階乗領域、K を分数の体 、および $f$ を $K[X]$ の非ゼロ元とします。 $K^*$ の元 c は、g.c.d の場合、$f$ の *コンテンツ* と呼ばれます。 係数オフ。 $\nu$ を A にとって不可欠な K の評価とし、$\bar{\nu}$ その標準的な拡大から $K[X]$ ($\bar{\nu}\left(\sum a_i X^i\right) = \inf \nu(a_i)$; cf. 章 VI, § 10, no. 1, 命題 2 で定義) とします。次に$\bar{\nu}(f) = \nu(c)$。
+
+#### 補題 1 (ガウス) {#ac-vii-s3-lem-1 .statement tag=051S}
+
+*$f, f'$を非ゼロ、$K[X]$とcの元、$c'$コンテンツオフ、$f', f'$とします。すると、$cc'$は$ff'$の内容になります。*
+
+dを$ff'$の内容とする。 A にとって不可欠な K のすべての評価 $\nu$ について、$\bar{\nu}$ がその標準的な拡大から $K[X]$ を表すものとします。それから
+$$
+\nu(d) = \bar{\nu}(ff') = \bar{\nu}(f) + \bar{\nu}(f') = \nu(c) + \nu(c') = \nu(cc').
+$$
+したがって、$cc'd^{-1}$ は A の可逆元です。
+
+#### 定理 2 {#ac-vii-s3-thm-2 .statement tag=051T}
+
+*Let A be a factorial domain, K its field of fractions, $(p_\lambda)$ a representative system of extremal elements of A and $(P_\lambda)$ a representative system of irreducible polynomials of $K[X]$, each $P_\lambda$ having 1 as a content. 次に:*
+(i) *A[X] は階乗領域です。*
+(ii) *$p_\lambda$と$P_\lambda$の集合は、A[X]の極値元の代表系です。
+
+$f$ を $A[X]$ の非ゼロ元とします。 環 $K[X]$ $f$ は、形で一意に分解できます。
+$$
+f = a \prod_\lambda P_\lambda^{n(\lambda)} \quad (a \in K^*, n(\lambda) \geq 0).
+$$
+
+補題 1 は、$a$ がコンテンツオフであることを証明します。したがって$a \in A$です。 $A$ は階乗であるため、$a$ は形で一意に分解できます。
+
+$$
+a = u \prod p_i^{m(i)} \quad (u \text{ invertible in } A,\ m(i) \geqslant 0).
+$$
+
+よっての存在と分解の一意性:
+
+$$
+f = u \prod p_i^{m(i)} \bigcap_{\lambda} p_{\lambda}^{n(\lambda)}.
+$$
+
+この定理は、$A$のすべての元が$A$と$A[X]$の極値元に*同じ*分解を認めることを証明していることに注意してください。 g.c.d.したがって、$A$ の元の家族の は、$A$ と $A[X]$ で同じです。
+
+また、$A$ が階乗領域である場合にのみ、$A[X]$ * が階乗領域であることを示すために、§ 1, no. 10 の命題を用いる 18 を使用することもできます。
+
+#### 系 {#ac-vii-s3-n5-cor-1 .statement tag=051U}
+
+*$A$ が階乗ドメインの場合、ドメイン $A[X_1, \ldots, X_n]$ は階乗ドメインです。*
+
+$n$ で帰納法が議論します。
+
+この系は、不定数の無限族 (cf. 練習問題 2) の場合に拡張できます。
+
+### 6. 階乗ドメインとザリスキー 環
+
+#### 命題 4 {#ac-vii-s3-prop-4 .statement tag=051V}
+
+*$A$ をザリスキー 環とし、$\hat{A}$ をその完成とします。 $\hat{A}$ が階乗ドメインの場合、$A$ は階乗ドメインです。*
+
+これは、no. 1、定義 1 および § 1, no. 10、命題 16 に続きます。
+
+#### 系 {#ac-vii-s3-n6-cor-1 .statement tag=051W}
+
+*ネーター 局所環 $A$ の完成が階乗領域である場合、$A$ は階乗領域です。
+
+### 7. 自己同型環の正式な冪系列の予選
+
+#### 補題 2 {#ac-vii-s3-lem-2 .statement tag=051X}
+
+*$f(X_1, X_2, \ldots, X_n)$ を、環 $E$ の係数を含む正式な冪系列 $\neq 0$ とします。そのような整数 $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) が存在します*
+
+$$
+f(T^{u(1)}, \ldots, T^{u(n-1)}, T) \neq 0.
+$$
+
+整数 $u(i) \geqslant 1$ ($1 \leqslant i \leqslant k - 1$) が $f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_k, \ldots, X_n) \neq 0$ となるように決定されたとします。 決定する整数 $u(k) \geqslant 1$ を次のようにします
+
+$$
+f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_n^{u(k)}, X_{k+1}, \ldots, X_n) \neq 0.
+$$
+
+補題は帰納法によって証明されます。
+
+系列 $f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_k, \ldots, X)$ は、$X_k$ の系列および $E[[X_{k+1}, \ldots, X_{n-1}]]$ の係数を持つ $X_n$ とみなされることに注意してください。したがって、$n = 2$ に対して補題を確立するだけで十分であることがわかります。
+
+したがって、しましょう
+$$
+f = \sum_{i,j} e_{ij} X^i Y^j \in E[[X, Y]]
+$$
+ここで$f \neq 0$。 $G \subset \mathbf{N} \times \mathbf{N}$ を、$e_{ij} \neq 0$ となるような順序付けられた対 $(i, j)$ の空でない集合とします。 $\mathbf{N} \times \mathbf{N}$ に辞書順を与えます。 $(c, d)$ を $G$ の最小の元とします。 選ぶ整数 $p > d$。の展開で、
+$$
+f(T^p, T) = \sum_{(i, j) \in G} e_{ij} T^{ip + j}
+$$
+次数 $cp + d$ のうち項を探します。 $ip + j = cp + d, i \geq c + 1$ が不可能な場合、これにより、
+$$
+ip + j \geq (c + 1)p + j \geq (c + 1)p > cp + d;
+$$
+$i < c$ も不可能です。なぜなら、$(c, d)$ は $G$ の最小の元だからです。したがって、$i = c$、次に $j = d$ となります。したがって、$f(T^p, T)$の次数$cp + d$の項は$e_{cd} T^{cp + d}$になります。 $e_{cd} \neq 0, f(T^p, T) \neq 0$から。 よって補題。
+
+環 $E[[X_1, \ldots, X_n]]$ において、定数項を持たない形式的な冪系列の理想を $a$ とします。 $w_1, \ldots, w_n$ が $a$ の元である場合、写像 $f(X_1, \ldots, X_n) \mapsto f(w_1, \ldots, w_n)$ は一意な自己準同型 $s$ 環 $E[[X_1, \ldots, X_n]]$ であり、$1 \leq i \leq n$ (章に対して $s(X_i) = w_i$) であることを思い出してください。 III, § 4, no. 5、命題 6)。
+
+$w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$ を採用します。ここで、$u(i)$ は整数 $\geq 1$ です。 $s'$ を $E[[X_1, \ldots, X_n]]$ の自己準同型とし、写像 $X_1$ から $X_1 - X_n^{u(1)}, \ldots, X_{n-1}$ $X_{n-1} - X_n^{u(n-1)}$ および $X_n$ から $X_n$ とします。すると、$1 \leq i \leq n$ に対して $s'(s(X_i)) = X_i$ となり、したがって $s' \circ s$ が恒等式自己同型になります。 $s \circ s'$についても同様です。したがって、$s$ は *自己同型* です。
+
+#### 補題 3 {#ac-vii-s3-lem-3 .statement tag=051Y}
+
+*$f$を$E[[X_1, \ldots, X_n]]$のゼロ以外の元とします。 * によって定義される $E$ の自己同型 $s$ となるような整数 $u(i) \geq 1 (1 \leq i \leq n-1)$ が存在します。
+$$
+s(X_i) = X_i + X_n^{u(i)} \quad (1 \leq i \leq n-1)
+$$
+*および $s(X_n) = X_n$、写像 $f$ から元 $g$ は、$g(0, \ldots, 0, X_n) \neq 0$ となります。*
+
+$g(0, \ldots, 0, X_n) = f(X_n^{u(1)}, \ldots, X_n^{u(n-1)}, X_n)$。したがって、補題 3 は補題 2 の帰結です。
+
+### 8. 準備定理
+
+このNo. A は *ローカル* 環、$m$ はその最大理想、$k = A/m$ はその剰余体を表します。 A が *Hausdorff であり、$m$-進数位相で完全*であると仮定します。 $B = A[[X]]$ にしましょう。それは局所環であり、その最大理想値 $\mathfrak{n}$ は $m$ と $X$ によって生成されます。 $\mathfrak{A}$ 進数位相を使用すると、B はハウスドルフで完全です (章 III, § 2, no. 6、命題 6)。
+
+すべてのフォーマル冪系列
+$$
+f = \sum_{i=0}^{\infty} a_i X^i \in B,
+$$
+私たちは書きます
+$$
+\tilde{f} = \sum_{i=0}^{\infty} \bar{a}_i X^i \in k[[X]],
+$$
+ここで、$\bar{a}_i$は$k$の$a_i$の標準像を表します。 系列 $\tilde{f}$ は *縮小系列* オフと呼ばれます。 $\tilde{f} \neq 0$ の場合、$\tilde{f}$ の位数 (つまり、$a_s \notin m$ のような最小の整数 $s$) は *縮小位数* オフと呼ばれます。
+
+#### 命題 5 {#ac-vii-s3-prop-5 .statement tag=051Z}
+
+*$f \in B$ を系列とし、その減算された系列は非ゼロです。 $s$ はその縮小された位数を表し、$M$ は基底 $\{1, X, \ldots, X^{s-1}\}$ を含む $B$ のサブ A モジュールを表します。この場合、$B$ は $M$ の直和であり、$f$ は $B$ の零の因子ではありません。*
+
+(a) $f \mid B \cap M = (0)$ を示します。 関係があるとします。
+$$
+\left( \sum_{i=0}^{\infty} b_i X^i \right) f = r_0 + r_1 X + \cdots + r_{s-1} X^{s-1} \qquad (b_i \in A, r_j \in A).
+$$
+$b_i$ (したがって $r_j$) はすべて零であることを示します。これは特に、$f$ が $B$ の零の因子ではないことを証明します。 $A$ はハウスドルフであるため、すべての $i \geq 0$ とすべての $n \geq 0$ に対して $b_i \in m^n$ であることを示せば十分です。 $n = 0$の場合は明らかです。私たちは二重帰納法で論じます。つまり、すべての $i$ に対して $b_i \in m^{n-1}$ が、$i < k$ に対して $b_i \in m^n$ であると仮定し、これが $b_k \in m^n$ を意味することを示します。このため、(3) で $f = \sum_{i=1}^{\infty} a_i X^i$ を書き、$X^{s+k}$ の係数を比較します。次に:
+$$
+(b_0 a_{s+k} + \cdots + b_{k-1} a_{s+1}) + b_k a_s + (b_{k+1} a_{s-1} + \cdots + b_{k+s} a_0) = 0.
+$$
+$i < k$の$b_i \in m^n$以降、最初のブラケット属するから$m^n$の項。 2 番目のものも同様に、$i$ はすべて $b_i \in m^{n-1}$ で、$i \leq s-1$ は $a_i \in m$ です。したがって、$b_k a_s \in m^n$、そして$a_s$は$A$の可逆元であるため、$b_k \in m^n$です。
+
+(b) $f \mid B + M = B$ であることがわかります。私たちは書きます
+$$
+g = a_s + a_{s+1} X + a_{s+2} X^2 + \cdots;
+$$
+$B$の可逆元です。それから
+$$
+f - X^s g = a_0 + a_1 X + \cdots + a_{s-1} X^{s-1};
+$$
+したがって、$h$ 属するの $fg^{-1} - X^s = (f - X^s g) g^{-1} = -h$、係数を $m$ に書くとします。次に、$r$を$B$の元とします。 $n$ の帰納法までに、B の元の定義する数列 $(q^{(n)})$: $q^{(0)}$ を一意の系列満たすとします:
+$$
+r \equiv X^s q^{(0)} \pmod{M};
+$$
+$h = \sum_{i=0}^m h_i X^i$ と $q^{(n)} = \sum_{i=0}^\infty q_i^{(n)} X^i$ を書くと、$q_i^{(n)}$ は次のように定義されます。
+$$
+q_i^{(n)} = \sum_{j=0}^{i+s} h_j q_{i+s-j}^{(n-1)}
+$$
+(6) からすぐに次のことがわかります。
+$$
+X^s q^{(n)} \equiv h q^{(n-1)} \pmod{M}.
+$$
+すべての $j$ に対して $h_j \in m$ であるため、(6) から、$n$ の帰納法によって、すべての $i$ とすべての $n$ に対して $q_i^{(n)} \in m^n$ が得られます。 A が完了すると、系列となります。
+$$
+q^{(0)} + q^{(1)} + \ldots + q^{(n)} + \ldots
+$$
+(5)と(7)より、Bの元$q$に収束します。
+$$
+X^s(q^{(0)} + q^{(1)} + \ldots + q^{(n)}) \equiv r + h(q^{(0)} + \ldots + q^{(n-1)}) \pmod{M}.
+$$
+M が閉じているため、極限 (8) では $r \equiv (X^s - h)q \pmod{M}$ が得られます。
+$$
+r \in fg^{-1}q + M \subset fB + M.
+$$
+章 III, § 2 の結果を使用して、関係 $B = fB + M$ (cf. 練習問題 12) を表示することもできます。ここで続く方法は、収束する系列にも適用できるという利点があります。
+
+#### 系 {#ac-vii-s3-n8-cor-1 .statement tag=0520}
+
+*仮説と命題 5の記法で、$s \geq 1$、つまり$f \in Bm + BX$と仮定します。次に、$B' = A[[T]]$ から $B = A[[X]]$ までの A 準同型性 $h$ は、 B 上で $h(T) = f$ (章 III, § 2, no. 9, 命題 11 (a)) 定義するが成り立ち、$\{1, X, \ldots, X^{s-1}\}$ を次のように認める自由な$B'$ 加群構造になります。 基底。特に $h$ は単射法です。*
+
+$B'$ モジュール B に、$n \geq 0$ (章 111、§ 2, no. 1) に対する $f^n B$ で構成される (T)-進数フィルタリングを与えます。 Then $B/fB$ is a free module over the ring $A = B'/TB'$ and the images of the $X^i$ ($0 \leq i \leq s-1$) in this A-module form a basis of it (Proposition 5); as moreover $f$ is not a divisor of zero in B (Proposition 5), $Bf^n/Bf^{n+1}$ is also a free $(B'/TB')$-module of rank s, so that condition (GR) of Chapter 111, § 2, no. 8 is satisfied (replacing A by B' and M by B). 一方、B' はハウスドルフであり、(T) 進濾過に関して完全であり、gr(B) は上記により有限生成された gr(B') 加群であるため、B が有限生成された B' であることが最初にわかります (章 III, § 2, no. 9, 系 1 ～ 命題 12)。 加群。 系の最初の主張が、章 III, § 2, no. 9、命題 13 と続きます。 2 つ目はその直後に続きます。
+
+#### 定義 2 {#ac-vii-s3-def-2 .statement tag=0521}
+
+*多項式* $F \in \mathbf{A}[X]$ *形* の場合は区別されると呼ばれます
+$$
+F = X^s + a_{s-1} X^{s-1} + \cdots + a_0,
+$$
+*どこに* $a_i \in \mathfrak{m}$ *for* $0 \leq i \leq s - 1$。
+
+2 つの区別された多項式の積が区別された多項式であることに注意してください。
+
+#### 命題 6 (準備定理) {#ac-vii-s3-prop-6 .statement tag=0522}
+
+*$f \in B$ *を系列とし、その減算された系列は零ではなく、* $s$ *その減算された位数とします。次に、一意の順序付けられた対* $(u, F)$ *そのような* $u$ * は、* $B$、$F$ * 次数* $s$ * および* $f = uF$ の可逆元であることが存在します。
+
+$G = g_0 + \cdots g_{s-1} X^{s-1}$ ($g_i \in \mathbf{A}$) を $F = X^s + G$ と書きます。 関係 $f = uF$ は $F = u^{-1}f$、つまり $X^s = u^{-1}f - G$ に相当します。したがって、命題 5 は、$G$ と $u^{-1}$ の一意性を示し、したがって $F$ と $u$ の一意性を示します。また、$v \in B$ と $X^s = v - G$ のような多項式 $G = g_0 + \cdots + g_{s-1} X^{s-1}$ ($g_i \in \mathbf{A}$) が存在することも示しています。 $v$ が $B$ で反転可能であること、および $g_i \in \mathfrak{m}$ がすべての $i$ に対して反転可能であることを示すことが残っています。さて、$k$の$g_i$の標準像に$\bar{g}_i$を書き、$f, g$の縮小された系列に$\bar{f}, \bar{v}$を書きます。
+$$
+X^s + \bar{g}_0 + \bar{g}_1 X + \cdots + \bar{g}_{s-1} X^{s-1} = \bar{f} \bar{v};
+$$
+$\bar{f}$ は位数 $s$ であり、すべての $i$ に対して $\bar{g}_i = 0$ であり、$\bar{v}$ は位数 0 であるため、$v$ は反転可能です。
+
+#### 命題 7 {#ac-vii-s3-prop-7 .statement tag=0523}
+
+*区別された多項式* $F$ と* $g, h$ * $B$ の 2 つの形式的な冪系列を * $F = gh$ とします。 *その後、 可逆元* $u$ *of* $B$ *そのような* $ug$ * と* $u^{-1}h$ * は区別された多項式であり* $F = (ug)(u^{-1}h)$ が存在します。
+
+実際、$g$ と $h$ を縮小した系列は $\neq 0$ です。したがって、命題 6 までに、$ug$ と $vh$ が区別される多項式となるように、$B$ のうち可逆元 $u, v$ が存在します。この場合、$uvF = (ug)(vh)$ は識別多項式であり、$uv$ は可逆です。 移行を縮小した系列にすると、$F$ と $uvF$ が同じ縮小した位数、つまり同じ次数を持つことがすぐにわかります。したがって、命題 6 の一意性主張は、$F = uvF$、よって $uv = 1$ を示します。
+
+#### 系 {#ac-vii-s3-n8-cor-2 .statement tag=0524}
+
+*さらに、* $\mathbf{A}$ * が整域であり、* $F$ * 次数* $s$ の識別多項式であると仮定します。 *$F$ *$\mathbf{A}[X]$ で極端であるためには、 *$B = \mathbf{A}[[X]]$ で極端であることが必要かつ十分です。
+
+$F$ が $\mathbf{A}[X]$ で極値ではないため、$F = f_1 f_2$ であると仮定します。ここで、$f_1$ と $f_2$ は $\mathbf{A}[X]$ の不可逆要素です。 $f_1$ と $f_2$ の優勢な係数の積が 1 に等しい場合、これらの係数は $\mathbf{A}$ で反転可能であり、仮定は、$f_1$ と $f_2$ が次数であることを意味します。 $> 0$ と $< s$;縮小多項式 $\bar{f}_1, \bar{f}_2$ 満たす $\bar{f}_1 \bar{f}_2 = X^s$ のように、$\bar{f}_1$ も $\bar{f}_2$ も $k[[X]]$ では可逆ではありません。なぜなら、$\bar{f}_1$ が可逆であれば、$\bar{f}_2$ は位数になるからです。 $s$、それは不条理です。 *なおさら*、$f_1$ も $f_2$ も $B$ では可逆的ではなく、$F$ は $B$ で極値ではありません。
+
+逆に、F が $A[[X]]$ で極値でない場合、$F = gh$ になります。ここで、g も B の可逆性もありません。したがって、それらの縮小された位数は $\geq 1$ になります。この場合、命題 7 の識別された多項式 $ug$ と $u^{-1}h$ は定数ではなく、これは F が $A[X]$ で極値ではないことを示しています。
+
+### 9. 形式的冪系列の環の階乗性
+
+#### 命題 8 {#ac-vii-s3-prop-8 .statement tag=0525}
+
+C を環とします。これは、体または離散評価環のいずれかです。この場合、形式冪系列 $C[[X_1, \ldots, X_n]]$ の定義域は階乗になります。
+
+$p$ を C の最大理想とし、$p$ の $x$ 生成元とします (C が体の場合、$\pi = 0$)。 C に $p$ 進数位相、つまりハウスドルフを与えましょう。 C はネーター 局所環であるため、$B = C[[X_1, \ldots, X_n]]$ はネーター 局所環であり、その完成は $\hat{C}[[X_1, \ldots, X_n]]$ (章 III, §2, no. 6, 命題 6) です。 系から命題 4 (no. 6) までに、$\hat{C}[[X_1, \ldots, X_n]]$ が階乗であることを証明するのに十分です。ここで、C が体であれば、$\hat{C} = C$ になります。 C が離散評価環である場合、同じことが $\hat{C}$ (章 VI, §5, no. 3、命題 5) にも当てはまります。したがって、証明の残りでは、C が完了したと仮定します。
+
+自明な事例 $n = 0$ から始めて帰納法によって議論すると、$A = C[[X_1, \ldots, X_{n-1}]]$ が階乗であることが証明されたと仮定します。 同一視する B を $A[[X_n]]$ で表し、A の最大理想 ($\pi, X_1, \ldots, X_{n-1}$ によって生成される) を m で表します。 B のゼロ以外のすべての元 g は、本質的に一意の方法で、極値元の積であることを証明します。
+
+K を体 $C/C\pi$ とします。 $B/B\pi$ は $K[[X_1, \ldots, X_n]]$ と同一視されるため、理想的な $Bx$ は素数、$x$ は極値です。したがって、$x \neq 0$ の場合、$B_{B\pi}$ は正規化された離散評価 w (章 VI, §3, no. 6, 命題 9) の環です。したがって、B のゼロ以外のすべての元 g は、$g = \pi^{w(g)} f$ と書くことができます。ここで、$f \in B$ および f は、$\pi$ の倍数ではありません。したがって、$f$ が極値元の本質的に固有の積であることを示すだけで十分です。さて、$K[[X_1, \ldots, X_n]]$の$f$の標準像は零ではありません。したがって、補題 3 (no. 7) は、$f'(0, \ldots, 0, X_n)$ の係数がすべて $Cx$ に含まれないように、写像 $f$ から元 $f'$ までの B の自己同型が存在することを示します。これは、$X_n$ の正式な冪系列とみなされる系列 $f'$ の係数がすべて m ではないことを意味します。 $f'$に対する主張を証明するだけで十分です。
+
+以下では、B のすべての元は、A の係数を含む $X_n$ の正式な冪系列と見なされます。 命題までに no. 8 の 6 (C 以降に適用されるため、A は分離可能かつ完全であり、縮小されたものになります) 系列 off' は $\neq 0$)、$f'$ は、B で、一意の区別された多項式 F に関連付けられます。 no. 8 の命題 7 によって、すべての系列が割る $f'$ (または、同じに相当するもの、 割る F) は、割る F とすべての分解 off' が可逆因子以内で形 $f' = u F_1 \cdots F_q$ である識別多項式に関連付けられます。ここで、$u$ は可逆で、$F_i$ は極値の識別多項式です。 (B では) $F = F_1 \cdots F_q$ のようになります。 no. 8の系から命題7までに、$F_i$も$\mathbf{A}[X_n]$で極端になります。さて、$\mathbf{A}$ は帰納法の仮定による階乗であるため、$\mathbf{A}[X_n]$ (定理 2, no. 5) も同様です。したがって、これらはモニックであるため、$F_i$ は $F$ (置換まで) によって一意に決定されます。これは、分解 $f' = u F_1 \ldots F_r$ の一意性を示しています。その存在は、$B$ がネーター であり、証明が完成するという事実から導かれます。
+
+注意
+(1) 環 $\mathbf{A}[[X]]$ が階乗 (練習問題 8) ではないような階乗環 $\mathbf{A}$ が存在します。ただし、$\mathbf{A}$ が主イデアル整域の場合、$\mathbf{A}[[X_1, \ldots, X_n]]$ は階乗 (練習問題 9) になります。
+(2) \* 後で、ホモロジー 方法によって、すべての正規局所環が階乗 (cf. § 4, no. 7、系 3 から命題 16) であることがわかります。これにより、概念的に単純な命題 8 の他の証明が得られます。 \*
+
+### 練習問題 {#ac-vii-s3-exercises}
+
+[§ 3 に対して練習問題](exercises/s3/)を参照してください。

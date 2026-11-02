@@ -1,0 +1,462 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: II
+chapter_title: LOCALIZATION
+section: 3
+section_title: Local rings. Passage from the local to the global
+lang: ja
+source: ac-i-vii
+book_pages: 80-94, 136-139
+pdf_pages: 0100-0114, 0156-0159
+extraction: ocr
+subsections:
+    - "no": 1
+      title: LOCAL RINGS
+      page: 80
+      pdf_page: 100
+    - "no": 2
+      title: MODULES OVER A LOCAL RING
+      page: 82
+      pdf_page: 102
+    - "no": 3
+      title: PASSAGE FROM THE LOCAL TO THE GLOBAL
+      page: 87
+      pdf_page: 107
+    - "no": 4
+      title: LOCALIZATION OF FLATNESS
+      page: 91
+      pdf_page: 111
+    - "no": 5
+      title: SEMI-LOCAL RINGS
+      page: 92
+      pdf_page: 112
+statements: 39
+exercises: 14
+content_sha256: 505781cb745dfa07e7ddd6791c1de046aba8efbe521c3e3ff77f22d1e6e2d704
+translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
+translation_method: google
+source_content_sha256: 5f8c454a02fa9609498046c6e41e498f87f8eae9c6d223e684879450c3339532
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: 0eafd195d6a3d27b21bc8518f7491b0ea12bcd952b57914f032dbcd1b73bd3da
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 3. 局所環。ローカルからグローバルへ
+
+### 1. 局所環
+
+#### 命題 1 {#ac-ii-s3-prop-1 .statement tag=047R}
+
+$\mathbf{A}$ を $\mathbf{A}$ の非反転要素の環と $I$ 集合とします。 集合 $I$ は、$\mathbf{A}$ とは異なる$\mathbf{A}$ の理想の和集合です。さらに、次の条件は同等です。
+(a) $I$ は理想です。
+(b) $\mathbf{A}$ とは異なる$\mathbf{A}$ の理想の集合には最大の元があります。
+(c) $\mathbf{A}$ は独特の最大理想を持っています。
+
+関係 $x \in I$ は $1 \notin xA$ と同等であるため、$xA \neq \mathbf{A}$ となります。 $a$ が $\mathbf{A}$ と $x \in a$ とは異なる $\mathbf{A}$ の理想である場合、$xA \subset a$、したがって $xA \neq \mathbf{A}$ と $x \in I$ になります。したがって、$\mathbf{A}$ とは異なる$\mathbf{A}$ のすべての理想は $I$ に含まれ、主要な理想 $xA \neq \mathbf{A}$ までのすべての元 $x \in I$ 属するが含まれます。これは最初の主張を証明し、これは (a)、(b)、(c) の同値を直ちに暗示します。
+
+注意 (1)。 (c) が成り立つ場合、$I$ は環 $\mathbf{A}$ (代数, 章 VIII, §6, no. 3, 定義 3) のジェイコブソン根基であることに注意してください。
+
+#### 定義 1 {#ac-ii-s3-def-1 .statement tag=047S}
+
+環 $\mathbf{A}$ は、命題 1 の同等の条件 (a)、(b)、(c) を満たす場合、局所環と呼ばれます。ヤコブソン根基による$\mathbf{A}$ の商 (これは、$\mathbf{A}$ の固有の最大理想となります) は次のようになります。 $\mathbf{A}$の剰余体と呼ばれます。
+
+#### 定義 2 {#ac-ii-s3-def-2 .statement tag=047T}
+
+$\mathbf{A}, \mathbf{B}$ を 2 つの局所環と $m, n$ のそれぞれの最大理想とする。 準同型 $u : \mathbf{A} \to \mathbf{B}$ が $u(m) \subset n$ の場合、ローカルと呼ばれます。
+
+これは、$\bar{u}^{-1}(n)$ が理想的な含む $m$ であり、含む 1 ではないため、$m$ に等しいため、$\bar{u}^{-1}(n) = m$ がというに相当します。 商をとり、$\mathbf{A}$ の剰余体から $\mathbf{B}$ の$u$ 単射準同型 $\mathbf{A}/m \to \mathbf{B}/n$ を正規に導き出します。
+
+例
+(1) 体は局所環です。 0になる環は局所環ではありません。
+(2) $\mathbf{A}$ を局所環とし、$k$ を剰余体とします。形式的冪系列 $B = \mathbf{A}[[X_1, \ldots, X_n]]$ の環は、局所環です。$B$ の非反転要素は形式的な冪系列であり、その定数項は $\mathbf{A}$ で反転できません。 (代数, 章 IV, §5, no. 6, 命題 4)。 $\mathbf{A}$ の $B$ への標準単射はローカルの準同型であり、剰余体の対応する単射は同型です。
+(3) $b$ を、単一の最大理想 $m$ にのみ含まれる環 $\mathbf{A}$ の理想とする。この場合、$A/b$ は、最大理想値 $m/b$ と剰余体が正準的に $A/m$ と同型である *局所環* です。これは特に、$b = m^k$、$m$ が $A$ ($§ 1$、no. 1、系 ～ 命題 1) の任意の最大理想である場合に当てはまります。 $A$ 自体が最大理想値 $m$ を持つ局所環である場合、$A$ のすべての理想値 $b \neq A$ に対して、$A/b$ は局所環、標準準同型 $A \to A/b$ はローカル準同型であり、 対応する準同型の剰余体は *同型* です。
+
+(4) $X$ を、実数値写像の点 $x_0$ における$X$ および $A$ 環のトポロジカル空間、$x_0$ 点とする。 $x_0$ の近傍 (*一般位相*、章 I, § 6, no. 10)。明らかに、連続する写像 $f$ の $x_0$ の胚が $A$ で反転可能であるためには、 $f(x_0) \neq 0$ であることが必要かつ十分であり、これは $x_0$ の近傍の $f(x) \neq 0$ を意味します。したがって、環 $A$ は局所環であり、その最大理想値 $m$ は、零 *at* $x_0$ である写像の細菌の集合です。 $A$ の商、写像 $g \mapsto g(x_0)$ を $\mathbf{R}$ にすると、剰余体 $A/m$ の *同型* が $\mathbf{R}$ に与えられます。
+
+#### 命題 2 {#ac-ii-s3-prop-2 .statement tag=047U}
+
+*$A$を環、$p$を$A$の主要な理想とする。 環 $A$、ローカルです。その最大の理想は、$A$の$p$の標準像によって生成された理想$pA_p = p_v$です。その剰余体は、$A/p$ の分数の体と標準的に同型です。
+
+$S = A - p$ と $j : A \to A_v$ を標準準同型とします。 $p$が素数であるという仮定は、$p$が$S$に関して飽和していることを意味し、したがって$j^{-1}(pA_p) = p$($§ 2$、no. 4、命題10)となり、$A$の理想が$S$を満たさないことを意味します。 $p$ に含まれる最初の 2 つの主張は、$§ 2$、no. 5、命題 11 (ii) の特殊なケースです。さらに、 if は標準準同型 $A \to A/p$、$f(S)$ は元の集合 $\neq 0$ 整域 $A/p$ であるため、最後の主張は $§ 2$ の特殊なケースです。 no. 5、命題 11 (i)。
+
+#### 定義 3 {#ac-ii-s3-def-3 .statement tag=047V}
+
+*$A$を環、$p$を$A$の主な理想とします。 環 $A$ は、曖昧さがない場合、$p$ では $A$ の局所環、または $p$ の局所環と呼ばれます。
+
+*Remark (2).* If $A$ is a local ring and $m$ its maximal ideal, the elements of $A - m$ are invertible (Proposition 1) and hence $A_{m'}$ is canonically identified with $A$ ($§ 2$, no. 1, Remark 5).
+
+例
+(5) $p$ を素数数とします。 局所環 $\mathbf{Z}_{(p)}$ は有理数数 $a/b$ の集合であり、$a, b$ は$b$ 素数頂点を持つ有理数整数です。 $\mathbf{Z}_{(p)}$ の剰余体は素数体 $\mathbf{F}_p = \mathbf{Z}/(p)$ と同型です。
+
+(6) $V$ をアフィン代数多様体、$V$ 上の正則写像の $A$ 環、$W$ $V$ および$p$ $A$ の (必然的に素数) イデアルであるとします。 写像のからなるは、$W$ の点ごとに零になります。 環 $A$ は、$V$ の $W$ の局所環と呼ばれます。 \*
+
+#### 命題 3 {#ac-ii-s3-prop-3 .statement tag=047W}
+
+$A$ を環、$p$ を $A$ と $S = A - p$ の主要な理想とします。 $A_p$ とは異なる、$A_p$ のすべての理想 $b'$ について、$b$ を $A$ の理想 $(i_A^S)^{-1}(b')$ とし、$b' = bA_p$ とします。
+
+(i) $f$ を標準準同型 $A \to A/b$ とします。 $A$ から $(A/b)_{p/b}$ まで、$f$ ($§ 2$、no. 1、命題 2) と正統的に関連付けられた準同型は全射的であり、その核は $b'$ であり、定義するをとると$A_p/b'$ の商、標準同型が $(A/b)_{p/b}$ に。
+
+(ii) $A_p$の素イデアルの集合に限定された写像$b' \to b = (i_A^S)^{-1}(b')$は、$p$に含まれる$A$の素イデアルの集合上に、この集合の（包含に関して）同型となる。 $A_p$において$b'$が素数であれば、環$(A_p)_{b'}$上に環$A_b$の同型が存在し、すべての$a \in A, s \in A - b$に対して写像$a/s$から$(a/1)/(s/1)$になります。
+
+これは、$§ 2$、no. 5、命題 11 の特殊なケースにすぎません。
+
+注意
+(3) $a$ が$p$ に含まれない$A$ のイデアルであるとすると、$aA_p = A$、$(A/a)_p = 0$ ($§ 2$、no. 5、注意) となります。
+(4) $A, B$ を 2 つ環、$\rho : A \to B$ 準同型、$q$ $B$ の素イデアル、$p$ を $A$ の素イデアル $\rho^{-1}(q)$ とします。 $\rho(A - p) \subset B - q$、標準準同型 $\rho_q : A \to B_q$ は $\rho$ ($§ 2$、no. 1、命題 2) から派生し、$\rho_q(pA_p) \subset qB_q$ は明らかであるため、$\rho$ はローカルです。 準同型。
+
+### 2. 加群局所環
+
+#### 命題 4 {#ac-ii-s3-prop-4 .statement tag=047X}
+
+$A$ を必ずしも可換ではない環とし、$m$ を $A$ のヤコブソン根基に含まれる $A$ の右イデアル、$M$ を左加群 $A$ とします。 次の条件のいずれかが成立すると仮定します。
+(i) $M$ は有限に生成される。
+(ii) $m$ は無能です。
+したがって、関係 $(A_d/m) \otimes_A M = 0$ は $M = 0$ を意味します。
+
+仮定 (i) に対する主張は、正確には、代数、章、VIII、$§ 6$、no. 3 の系 3 から命題 6 です。一方、関係 $(A_d/m) \otimes_A M = 0$ は $M = mM$ と同等であるため、整数 $n > 0$ ごとに $M = m^nM$ を意味します。 よって主張仮定 (ii) に関して。
+
+#### 系 1 {#ac-ii-s3-prop-4-cor-1 .statement tag=047Y}
+
+$A$ を必ずしも可換ではない環とし、$m$ は $A$、$M$、$N$ の 2 つの左 $A$ モジュールと $u : M \to N$ のヤコブソン根基に含まれる $A$ の右イデアルとします。 $A$-線形マッピング。 $N$ が有限生成されるか、$m$ がゼロポテントである場合、
+$$
+1 \otimes u : (A_d/m) \otimes_A M \to (A_d/m) \otimes_A N
+$$
+が全射であれば、$u$は全射です。
+
+$(A_d/m) \otimes_A (N/u(M))$ は標準的には次と同型です
+$$
+((A_d/m) \otimes_A N)/\operatorname{Im}(1 \otimes u)
+$$
+
+(代数, 章 II, , no. 6, 系 1 ～ 命題 6); 仮定は $(A_d/m) \otimes_A (N/u(M)) = 0$ を意味するため、命題 4 により $N/u(M) = 0$ となります。
+
+#### 系 2 {#ac-ii-s3-prop-4-cor-2 .statement tag=047Z}
+
+*$A$ を必ずしも可換ではない環とし、$m$ は$A$ のヤコブソン根基に含まれる$A$ の両側イデアル、$M$ は左$A$ 加群、$(x_i)_{i \in I}$ は族であるとします。 $M$の元。 $M$ が有限生成されるか、$m$ がゼロポテントで、元 $1 \otimes x_i$ ($i \in I$) 生成するの場合、左の $(A/m)$ モジュール $(A/m) \otimes_A M$、$x_i$ 生成する $M$.*
+
+$(e_i)_{i \in I}$ を左側の $A$ モジュール $A_s^{(I)}$ の標準基底とします。すべての $i \in I$ に対して $u(e_i) = x_i$ となるように、$A$ 線形マッピング $u : A_s^{(I)} \to M$ に系を適用する 1 を加えるだけで十分です。
+
+#### 命題 5 {#ac-ii-s3-prop-5 .statement tag=0480}
+
+*$A$ を、必ずしも可換ではない環とし、$m$ は、$A$ のヤコブソン根基と左$A$ 加群の$M$ に含まれる$A$ の両側イデアルとします。次の条件のいずれかが成立すると仮定します。
+(i) $M$ は有限に提示されます。
+(ii) $m$ は無能です。
+次に、$(A/m) \otimes_A M = M/mM$ が空き左 $(A/m)$ 加群であり、$m \otimes_A M$ から $M$ までの標準準同型が単射である場合、$M$ は空き $A$ 加群です。正確に言うと、$(x_i)_{i \in I}$ が $M$ の元のファミリーであり、$(1 \otimes x_i)$ が $(A/m)$ モジュール $M/mM$ の基底である場合、$(x_i)$ は $M$ の基底です*。
+
+$a \in A$、$x \in M$、$\bar{a}$ が $A/m$ の $a$ の類である場合、$\bar{a} \otimes x = 1 \otimes (ax)$、したがって仮定は、次のような $M$ の元の家族 $(x_i)_{i \in I}$ が存在することを意味します。 $(1 \otimes x_i)$ は、$(A/m)$ モジュール $(A/m) \otimes_A M$ の基底です。 $x_i$ 生成する $M$ (系 2 ～ 命題 4) であることはすでにわかっています。それらが $A$ にわたって線形独立であることがわかります。この目的を達成するために、無料の $A$ モジュール $L = A_s^{(I)}$ を考えてみましょう。 $(e_i)$ をその標準基底とし、$u : A_s^{(I)} \to M$ をすべての $i \in I$ に対して $u(e_i) = x_i$ となるような $A$ 線形マッピングとします。 $R$ が $u$ の核である場合、$R = 0$ であることを証明します。 仮定 (i) では、$(A/m) \otimes_A M$ は有限生成された $(A/m)$ 加群であるため、$I$ は必然的に有限であり、$R$ は章 I, § 2, no. 8、補題によって有限生成された $A$ 加群です。 9. そうすると、命題 4 までに、(仮定のどちらかの下で) $R = mR$ を証明できれば十分です。
+
+$j$ を標準単射 $R \to L$ とします。次に、可換図式があります。
+
+$$
+\begin{array}{ccccc}
+m \otimes R & \xrightarrow{1 \otimes j} & m \otimes L & \xrightarrow{1 \otimes u} & m \otimes M \\
+\downarrow^a & & \downarrow^c & & \downarrow^c \\
+R & \xrightarrow{j} & L & \xrightarrow{u} & M
+\end{array}
+$$
+
+2 つの行が正確である場合、$j$ は単射的であり、$1 \otimes u$ は全射的です (章)
+
+$$
+0 \xrightarrow{d} \mathrm{Coker}(a) \longrightarrow \mathrm{Coker}(b) \xrightarrow{v} \mathrm{Coker}(c)
+$$
+
+(章 I, § 1, no. 4、命題 2); v が全単射であることを検証するだけで十分です。その場合、Coker(a) = 0、他の語では a が全射であり、その結果 R = mR であると推論します。ここで、Coker(b) = (A/m) \otimes_A L となり、
+
+$$
+\mathrm{Coker}(c) = (A/m) \otimes_A M
+$$
+
+そして定義 v(1 \otimes e_i) = 1 \otimes x_i; により、 (1 \otimes e_i) は (A/m) \otimes_A L の基底であるため、x_i の定義は v が全単射であることを示します。
+
+#### 系 1 {#ac-ii-s3-prop-5-cor-1 .statement tag=0481}
+
+A が必ずしも可換環である必要はなく、m は A と M 左A-加群のジェイコブソン根基であるとします。 A/m が体で、m \otimes_A M から M までの標準準同型が単射であり、命題 5 の条件 (i), (ii) のいずれかが満たされるとします。 M の元の族 (y_\lambda) が M の直因子の基底であるためには、その族 (1 \otimes y_\lambda) が M/mM で自由であることが必要かつ十分です。
+
+この条件が成り立つ場合、(y_\lambda) は M の元の族 (x_i) のサブ族であり、(1 \otimes x_i) は M/mM (代数, 章 II, § 7, no. 1, 定理 2) の基底であると仮定できます。 命題 5 は、(x_i) が M の基底であることを証明します。
+
+#### 系 2 {#ac-ii-s3-prop-5-cor-2 .statement tag=0482}
+
+A が必ずしも可換環である必要はなく、m は A と M 左A-加群のジェイコブソン根基であるとします。 A/m が体で、次の条件のいずれかが成立すると仮定します。
+(i) M は有限に提示されます。
+(ii) m は無能です。
+従って、次のプロパティは同等です。
+(a) M は無料です。
+(b) M は射影です。
+(c) M はフラットです。
+(d) 標準準同型 m \otimes_A M \to M は単射です。
+(e) Tor_1^A(A/m, M) = 0。
+
+(a) \Rightarrow (b) \Rightarrow (c) \Rightarrow (d) の意味は明らかです。 A/m が体であるため、 (A/m) \otimes_A M は自由な (A/m) モジュールであり、 命題 5 は (d) が (a) を暗黙的に示すことを示します。
+
+最後に、Tor_1^A(A, M) = 0 であることがわかり、 完全系列 0 \to m \to A \to A/m \to 0 から完全系列が導出されます。
+
+$$
+0 \to \mathrm{Tor}_1^A(A/m, M) \to m \otimes_A M \to M;
+$$
+
+これは、Tor$_1^A(A/m, M)$ が標準準同型 $m \otimes_A M \to M$ の核と同型であることを証明します。 (d)と(e)のよって同値。 \*
+
+$A/m$ が体であるような、ジェイコブソン根基 $m$ のすべての環 $A$ について、*すべての* 射影 $A$ 加群が自由である (練習問題 3) ことがわかります。
+
+#### 命題 6 {#ac-ii-s3-prop-6 .statement tag=0483}
+
+*$A$ を必ずしも可換ではない環とし、$m$ をそのヤコブソン根基とします。 $A/m$ が体であるとします。 $M$ と $N$ を 2 つの有限生成された自由な $A$ モジュールと $u: M \to N$ 準同型とします。次のプロパティは同等です*:
+
+(a) $u$ は、$M$ の同型から $N$ の直因子になります。
+(b) $1 \otimes u: (A/m) \otimes_A M \to (A/m) \otimes_A N$ は単射です。
+(c) $u$ は単射的であり、$\operatorname{Coker}(u)$ は自由な $A$ モジュールです。
+(d) 転置準同型 ${}^t u: N^* \to M^*$ は全射です。
+
+(*代数*, 章 II, § 1, no. 11, 命題 21) $N/u(M)$ が無料の場合、$u(M)$ は $N$ の直因子であることがわかります。したがって、(c) は (a) を意味します。逆に、(a) は、$N$ の $u(M)$ の補数と同型の $\operatorname{Coker}(u)$ が、有限生成された射影 $A$ 加群であり、*なおさら* が有限に提示される (章 I, § 2, no. 8, 補題 8) ことを意味します。したがって、この加群は系 2 から命題 5 までは無料であり、(a) は (c) を意味します。 一方、(a) は明らかに (b) を意味します。 簡単にするために、$M' = (A/m) \otimes_A M$、$N' = (A/m) \otimes_A N$と書きます。 $M$ と $N$ は有限に生成されるため、$(A/m)$ モジュール $M'$ と $N'$ の双対 ${M'}^*$ と ${N'}^*$ は、$M^* \otimes_A (A/m)$ と $N^* \otimes_A (A/m)$ および ${}^t(1 \otimes u)$ で正規に識別されます。 $({}^t u) \otimes 1$ (*代数*、章 II, § 5, no. 4、命題 8); $M'$ と $N'$ は体 $A/m$, 仮定よりもベクトル空間であるため、$1 \otimes u$ が単射であるということは、${}^t(1 \otimes u)$ が全射であることを意味します (*代数*, 章 11, § 7, no. 5、命題 10); 系 1 から命題 4 は、${}^t u$ が全射であることを示し、したがって、(b) が (d) を意味することを証明しました。 最後に、(d) が (a) を意味することを示します。 ${}^t u$ が全射であると仮定します。 $M^*$ は自由なので、$M^*$ から $N^*$ までの準同型 $f$ が存在し、$1_{M^*} = {}^t u \circ f$ (*代数*, 章 II, § 1, no. 11, 命題 21) になります。 $M$ と $N$ は自由で有限に生成されるため、$N$ から $M$ まで$f = {}^t g$ となる準同型 $g$ が存在します。したがって、${}^t 1_M = 1_{M^*} = {}^t u \circ {}^t g = {}^t(g \circ u)$、よって $1_M = g \circ u$;これは、$u$ が $M$ の同型から $N$ の直因子である部分加群であることを証明します (*代数*, 章 11, § 1, no. 9, 系 2 から命題15）。
+
+#### 系 {#ac-ii-s3-n2-cor-1 .statement tag=0484}
+
+*命題 6 の仮説の下では、次のプロパティは同等です*:
+
+(a) $u$ は $M$ の $N$ 上の同型です。
+(b) $M$ と $N$ は同じ階数 (*代数*、章 II, § 7, no. 2) を持ち、$u$ は全射です。
+(c) $1 \otimes u: M/mM \to N/mN$ は全単射です。
+
+明らかに (a) は (b) を意味します。 (b) $1 \otimes u$ が全射であることを意味します。さらに、M と N が同じ階数を持つという仮定は、$A/m$ に対してベクトル空間 $(A/m) \otimes_A M$ と $(A/m) \otimes_A N$ も同じであることを意味します。したがって、$1 \otimes u$ は全単射です (*代数*, 章 II, , no. 4、系 ～ 命題 9)、および (b) は (c) を意味します。最後に、条件 (c) は、命題 6 によって、N が $u(M)$ の直和と自由な部分加群 P であり、$u$ が $u(M)$ 上の M の同型であることを意味します。 $P \neq 0$ の場合、$(A/m) \otimes_A P \# 0$ と $1 \otimes u$ は全射ではありません。したがって、(c) は (a) を意味します。
+
+命題はこの番号で上記で証明されました。通常、$A$ が *局所環* であり、$m$ がその *最大理想* である場合に適用されます。 系 2 から命題 5 は次のように完了します。
+
+#### 命題 7 {#ac-ii-s3-prop-7 .statement tag=0485}
+
+*$A$を縮小した局所環、$m$をその最大イデアル、$(p_i)_{i \in I}$を$A$、$A/p_i$と$M$の分数の$K_i$体の最小素イデアルの族とする。有限生成された $A$ モジュール。 $M$ が自由になるためには、次のことが必要かつ十分です*
+
+$$(1)\qquad [(A/m) \otimes_A M : (A/m)] = [K, \otimes_A M : K]\qquad \text{for all } i \in I.$$
+
+M が自由であれば、明らかに (1) の 2 つの辺はすべての $i \in I$ について M の階数に等しい。ここで、条件が満たされ、(1) の両辺の $n$ 共通の値で表されるとします。 系 2 から命題 4 までの M には、$n$ 生成元 $x_j$ ($1 \leq j \leq n$) の系があります。まず、$A$ が *整域* であると仮定します。この場合、すべての $i \in I$ に対して $p_i = 0$ になります。 元 $1 \otimes x_j$ ($1 \leq j \leq n$) 生成するベクトル空間 $K \otimes M$ 体 of 分数 K of $A$;しかし、仮定のように、この空間は K 上で次元 $n$ であり、元 $1 \otimes x_j$ は K 上で線形独立です。 (*代数*, 章 II, § 1, no. 13, *注意* 1) となります。 $x_j$ は $A$ に対して線形独立であるため、M の形基底です。
+
+一般的な場合、移行では、$L = A''$ から M への全射準同型 $v$ が存在します。可換図式を考えてみましょう。
+
+$$
+\begin{array}{ccc}
+L & \xrightarrow{v} & M \\
+|u| \downarrow & & \downarrow u' \\
+\prod_i ((A/p_i) \otimes L) & \xrightarrow{v'} & \prod_i ((A/p_i) \otimes M)
+\end{array}
+$$
+
+ここで、$u$ (それぞれ $u'$) は写像 $x \mapsto (\phi_i(x))$ (それぞれ $y \mapsto (\psi_i(y))$)、
+
+$$
+\phi_i : L \to (A/p_i) \otimes L
+$$
+
+(それぞれ $\psi_i : M \to (A/p_i) \otimes M$) は標準写像であり、$v'$ は $1_{A/p_i} @ v_e$ の積です。次に、$(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$、そして、$A/p_i$ はローカルの整域であるため、引数の最初の部分から、それぞれの $1_{A/p_i} \otimes v$ は同型であることがわかります。それなら$v'$もそうです。一方、$A$が減ると、$L$が空いているので$\bigcap_i p_i = (0)$ ($§ 2$, no. 6, 命題 13)、よって $\bigcap_i (p_i L) = 0$ となります(*代数*, 章) II、$§ 3$、no. 7、*注意*); $p_i L$ は $\phi_i$ の核であるため、これは $u$ が単射であることを示しています。したがって、$v' \circ u = u' \circ v$ は単射であるため、$v$ は単射であり、$v$ は定義によって全射であるため、これは $M$ が自由であることを示しています。
+
+### 3. ローカルからグローバルへ
+
+#### 命題 8 {#ac-ii-s3-prop-8 .statement tag=0486}
+
+*$A$を環、$m$を$A$の最大理想とし、$M$を$A$モジュールとします。 $m$ が $A$ 含む $a$ および $aM = 0$ の唯一の最大理想であるような、$A$ の理想 $a$ が存在する場合、標準準同型 $M \to M$ は全単射です。*
+
+$A/a$ は、最大理想値 $m/a$ を持つ局所環になります。 $M$ は $(A/a)$ モジュールと考えることができます。 $A/a$ の $s$ のすべての $s \in A - m$ 標準像は可逆であるため、$M$ のホモテティー $x \mapsto sx$ は全称の解として、$M$ の定義から全単射です。 問題 ($§ 2$、no. 2); よって命題。
+
+特に、$m^k M = 0$ となるような $k \geqslant 0$ が存在する場合、準同型 $M \to M_m$ は全単射になります ($§ 1$, no. 1, 系 ～ 命題 1)。
+
+#### 命題 9 {#ac-ii-s3-prop-9 .statement tag=0487}
+
+*$A$を環、$m$を$A$、$M$を$A$モジュール、$k$を整数$\geqslant 0$とします。 標準準同型 $M \to M_m/m^k M_m$ は全射法で、$M/m^k M$ の核 $m^k M$ と定義する同型が $M_m/m^k M_m$ に重なります。*
+
+$k = 0$ の場合は自明なので、$k \geqslant 1$ と仮定します。 命題 8 から、標準準同型 $M/m^k M \to (M/m^k M)_m$ は全単射であることがわかります。一方、$(M/m^k M)_m$ は正規的に $M_m/(m^k M)_m$ (§ 2, no. 4、定理 1) と識別されるため、$(m^k M)_m = m^k M_m$ (§ 2, no. 7、系 ～ 命題 18)、よってには同型が存在します。 $M/m^k M$ から $M_m/m^k M_m$ へ、元の写像類から $x \in M$ から $x/1$ の類へ。
+
+#### 系 {#ac-ii-s3-n3-cor-1 .statement tag=0488}
+
+*$A$を環、$m_1, m_2, \ldots, m_n$を$A$、$M$を$A$モジュール、$k_1, k_2, \ldots, k_n$を整数$\geqslant 0$とします。 $M$ から $\prod^n M_m/m_{i_1}^{k_1} M_m$ までの標準準同型は全射的で、その核は $\left( \bigcap^n m_{i_1}^{k_1} \right) M$ です。*
+
+これは、命題 9 と $§ 1$、no. 2、命題 6 から簡単に続き、$m_{i_1}^{k_1}$ は対 ($§ 1$、no. 2、命題 3) で相対的に素になります。
+
+*このNo.の残りの部分では、 $A$ は、$A$ の最大理想の環と $\Omega(A)$ (または $\Omega$) 集合を表します。*
+
+#### 命題 10 {#ac-ii-s3-prop-10 .statement tag=0489}
+
+* $\mathbf{A}_m$ の *A-加群* $\bigoplus_{m \in \Omega} \mathbf{A}_m$、*直和 *$m \in \Omega$ は、*忠実にフラット*です。
+
+それぞれの $\mathbf{A}_m$ はフラット A-加群 (§ 2, no. 4, 定理 1) であるため、$E = \bigoplus_{m \in \Omega} \mathbf{A}_m$ はフラット (章 I, § 2, no. 3, 命題 2) です。さらに、$A$ のすべての最大理想 $m$ に対して、$mA_m$ は $\mathbf{A}_m$ の固有の最大理想であるため、$mA_m \neq A_m$、よっては$mE \neq E$ となり、その結果、$E$ は忠実にフラット (章) になります。 I, § 3, no. 1、命題 1 (d))。
+
+#### 定理 1 {#ac-ii-s3-thm-1 .statement tag=048A}
+
+*$M, N$ *2 を A-加群、$u : M \to N$ を A 準同型とし、すべて* $m \in \Omega$、*$u_m : M, \to N_m$ *対応する* $A_m$-*準同型* (§ 2, no. 2, 注意 5)。 *$u$ *が単射法 (それぞれ全単射、全単射、零) であるためには、すべて* $m \in \Omega$、$u_m$ *が単射法 (それぞれ全単射、全単射、零)* であることが必要かつ十分です。
+
+すべての $m \in \Omega$ に対して、$u_m$ は単射法 (全単射、全単射、零) であるということは、準同型 $\bigoplus_m u_m : \bigoplus M, \to \bigoplus N$ が同じ性質を持つというと同等です。ただし、$\bigoplus_m M_m = M \otimes_A E, \bigoplus_m N_m = N \otimes_A E$ と $\bigoplus_m u_m = u \otimes 1$、ここで $E = \bigoplus_m \mathbf{A}_m$; $E$ は忠実にフラット (命題 10) であるため、定理は章 I, § 3, no. 1、命題 1 (c) および命題 2 から続きます。
+
+#### 系 1 {#ac-ii-s3-thm-1-cor-1 .statement tag=048B}
+
+*$M$ *を A-加群、N 部分加群 of* $M$ *および* $x$ *元 of* $M$ とします。 *$x \in N$については、*すべて* $m \in R$、*$x$の*標準像、*$M$、*属するから*$N$であることが必要かつ十分です。
+
+$\bar{x}$ を $M/N$ の $x$ の類とします。 $x \in N$ ということは、$A$ から $M/N$ までの A-線型写像 $u : a \mapsto a\bar{x}$ が零であることを意味します。ここで、$(M/N)_m$ は $M_m/N_m$ (§ 2, no. 4、定理 1) と識別され、$u_m : A_m \to M_m/N_m$ は写像 $A \mapsto \lambda \bar{x}_m$ と識別されます。ここで、$\bar{x}_m$ は類 mod です。 $M$の$x$の標準像の$N$。 関係 $u = 0$ は、すべての $m$ に対する定理 1 による $u_m = 0$ に等しいので、系が証明されます。
+
+#### 系 2 {#ac-ii-s3-thm-1-cor-2 .statement tag=048C}
+
+*$M$ *を A-加群とし、すべて* $m \in \Omega$ について、 *$f_m$ *を標準写像* $M \to M_m$ とします。 *準同型* $x \mapsto (f_m(x))$ *の* $M$ *から* $\prod_{m \in \Omega} M_m$ *は単射*です。
+
+$N = 0$ の場合、適用系 1 の場合、関係 $x = 0$ はすべての $m \in \Omega$ に対して $f_m(x) = 0$ に等しいことがわかります。
+
+#### 系 3 {#ac-ii-s3-thm-1-cor-3 .statement tag=048D}
+
+(i) *$b$ *$A$ *および* $a$ *元の* $A$ を理想とします。 *$a \in b$ については、*すべての* $m \in \Omega$ について、* $a$ の *標準像が* $A_m$ *属するから* $bA_m$ になることが必要かつ十分です。
+
+(ii) 特に、b と c を A の 2 つの元とします。c が b の倍数であるためには、A の c のすべての $m \in \Omega$、標準像が b の倍数であることが必要かつ十分です。
+
+$bA_m = b_m$ (§ 2, no. 7、系 ～ 命題 18) として、(i) は系 1 の特殊なケースです。 (ii) (i) を理想 $Ab$ に適用すると、次のようになります。
+
+#### 系 4 {#ac-ii-s3-thm-1-cor-4 .statement tag=048E}
+
+A を整域、K を分数の体、M をねじれのない A モジュールとし、M が $K \otimes_A M$ のサブ A モジュールと正規に識別されるようにします。次に、すべての $m \in \Omega$ について、$M_m$ は $K \otimes_A M$ と $M = \bigcap_{m \in \Omega} M_m$ のサブ A モジュールで正規に識別されます。
+
+M は $K \otimes_A M$ の部分加群で識別されるため、M は $(K \otimes_A M)_m = K_m \otimes_A M$ (§ 2, no. 4, 定理 1) のサブモジュールで識別されます。 $K_m = K$ のように、$M_m$ にはねじれがないことがすぐにわかります。さらに、図式の可換性
+
+$$
+\begin{array}{ccc}
+M & \longrightarrow & K \otimes_A M \\
+\downarrow & & \uparrow \\
+M_m & \longrightarrow & (K \otimes_A M)_m
+\end{array}
+$$
+
+標準写像 $M \to M_m$ が単射であることを証明します。 系は、A-加群 $K \otimes_A M$ とその部分加群 M に適用される系 1 から続きます。
+
+特に、整域 A ごとに、
+
+(2)
+$$
+A = \bigcap_{m \in \Omega} A_m.
+$$
+
+#### 系 5 {#ac-ii-s3-thm-1-cor-5 .statement tag=048F}
+
+A を環とします。 n 元を含む A-加群 $A^n$ の生成元のすべての系は、$A^n$ の基底です。
+
+$(e_i)_{1 \leq i \leq n}$ を、$A''$ の標準基底、$(x_i)_{1 \leq i \leq n}$ 系、$A^n$ の生成元とし、$1 \leq i \leq n$ に対して$u(e_i) = x_i$ となるように、元および$u : A^n \to A''$ A-線型写像とします。 仮定までに $u$ は全射法であり、$u$ が単射法であることを示す必要があります。 定理 1 により、これはすぐに A が局所環の場合に帰着できます。 $m$ が A の最大理想値である場合、$(A/m)^n$ の元 $1 \otimes x_i$ ($1 \leq i \leq n$) では、自由な $(A/m)$ モジュール $(A/m)^n$ の生成元の形系になります。 $A/m$ は体なので、この系は $(A/m)^n$ の基底です。 $A^n$ は自由A-加群であるため、命題 5 から $(x_i)$ は $A^n$ の基底であると推定されます。
+
+#### 命題 11 {#ac-ii-s3-prop-11 .statement tag=048G}
+
+M を A-加群、N 有限生成A-加群、$u : M \to N$ 準同型とします。 u が全射的であるためには、$u$ から商を取って導出されるすべての $m \in S_2$、準同型 $M/mM \to N/mN$ が全射的であることが必要かつ十分です。
+
+定理 1 から、$u$ が全射であるためには、$u_m : M_m \to N_m$ がすべての $m \in \Omega$ に対して全射であることが必要かつ十分であることがわかります。 $A$ は局所環で、$N_m$ は有限生成された $A_m$ 加群であるため、これは、商を取ることで得られる準同型 $u'_m : M_m/mM_m \to N_m/mN_m$ が全射であるというになります (no. 2, 系 1 命題 4）へ。しかし、$M_m/mM_m$ (それぞれ $N_m/mN_m$) は $M/mM$ (それぞれ $N/mN$) (命題 9)、よって命題と同一視されます。
+
+#### 命題 12 {#ac-ii-s3-prop-12 .statement tag=048H}
+
+※E、F、GをA-加群と$v : G \to F$、$u : E \to F$準同型の3つとします。 E が有限に存在すると仮定します。 $u$ 因子が $E \xrightarrow{w} G \xrightarrow{v} F$ になるような準同型 $w : E \to G$ が存在するには、すべての $m \in S_2$ に対して、$u_m : E_m \to F$、因子がなるような準同型 $w^m : E_m \to G$ が存在することが必要かつ十分です。 $E \xrightarrow{w^m} G_m \xrightarrow{v_m} F$、*
+
+上記主張の $w$ 満たすの存在は、次の性質と同等です: 写像の $u$ 属する ～ 像 P
+
+$$
+r = \operatorname{Hom}(1_E, v) : \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F).
+$$
+
+現在、$(\operatorname{Hom}_A(E, F))_m$ (それぞれ $(\operatorname{Hom}_A(E, G))_m$) は正規的に $\operatorname{Hom}_{A_m}(E_m, F_m)$ (それぞれ $\operatorname{Hom}_{A_m}(E_m, G_m)$) (§ 2, no. 7、命題 19 (i)) と識別され、$(\operatorname{Hom}_A(E, F))_m$ の $u$ の標準像は $u_m$ と識別されます。 $r_m$ は $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ と同一視され、$P_m$ は $r_m$ の像と同一視されます。 命題は、系 1 から定理 1 に続き、$\operatorname{Hom}_A(E, F)$ とその部分加群 P に適用されます。
+
+#### 系 1 {#ac-ii-s3-prop-12-cor-1 .statement tag=048I}
+
+*M/N が有限に表現されるように、M を M の A-加群および N 部分加群とします。 N が M の直因子であるためには、すべての $m \in S_2$、N が M の直因子であることが必要かつ十分です。*
+
+N が M の直因子であるということは、M/N 因子上の同一性準同型が $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ に変換されることを意味します。ここで、$\phi$ は標準準同型および $w$ 準同型 (*代数*, 章 II, § 1, no. 9, 命題 14); $(M/N)_m = M_m/N_m$ と $\phi_m$ は標準準同型 $M_m \to M_m/N_m$ であるため、系は命題 12 から簡単に続きます。
+
+#### 系 2 {#ac-ii-s3-prop-12-cor-2 .statement tag=048J}
+
+*M を有限生成された自由A-加群と、有限生成された自由A-加群である M の N 部分加群とします。 N が M の直因子であるためには、すべての $m \in \Omega$、$mN = N \cap (mM)$ が必要かつ十分です。*
+
+定義までに M/N は有限に提示されます。一方、N と M は、有限生成された自由な $A_n$ モジュールです。 $N$ が $M$ の直因子であるためには、標準写像 $N_m / mN_m \to M_m / mM_m$ が単射法 (no. 2, 命題 6) であることが必要かつ十分です。これは、標準写像 $N / mN \to M / mM$ が単射法 (命題 9) でなければならないというというと同じであり、その核が $(N \cap mM) / mN$ であるため、系が証明されます。
+
+命題 12 (それぞれ系 1) は、$A$ がネーター および $E$ (それぞれ $M/N$) の *有限生成* $A$ モジュール (章 I, § 2, no. 8、補題) の場合に適用されます。 8)。
+
+### 4. 平坦度の局在化
+
+#### 命題 13 {#ac-ii-s3-prop-13 .statement tag=048K}
+
+*$S$ を環 $A$ の乗算部分集合と $M$ を $A$ モジュールとします。 $M$ が j flat (それぞれ忠実にフラット) の場合、$S^{-1}M$ は aj flat (それぞれ忠実にフラット) $S^{-1}A$ モジュールとフラット $A$ モジュールです。*
+
+$S^{-1}M = M \otimes_A S^{-1}A$ として、最初の主張は、章 I, § 2, no. 7、系 2 から命題 8 (それぞれ章 I, § 3, no. 3、命題 5) に続きます。さらに、$S^{-1}A$ はフラットな $A$ モジュール ($§ 2$、no. 4、定理 1) です。従って、$M$ がフラットな $A$ モジュールである場合、章 I, § 2, no. 7、系 3 ～ 命題 8 により、$S^{-1}M$ も同様になります。
+
+#### 注意 {#ac-ii-s3-n4-rem-1 .statement tag=048L}
+
+If $N$ is an $S^{-1}A$-module, $S^{-1}N$ is identified with $N$ and this is consequently *equivalent* to saying that $N$ is a flat $S^{-1}A$-module or a flat $A$-module.
+
+#### 命題 14 {#ac-ii-s3-prop-14 .statement tag=048M}
+
+*$A$を環、$B$を可換$A$代数、$T$を$B$の乗算部分集合とします。 $N$ が $A$ モジュールと同様にフラットな $B$ モジュールである場合、$T^{-1}N$ はフラットな $A$ モジュールです。*
+
+$T^{-1}N = T^{-1}B \otimes_B N$; 命題は、章 I, § 2, no. 7、命題 8 に続き、$A$ が $B$ に、$B$ が $A$ に、$E$ が $T^{-1}B$ に、$F$ が $N$ に置き換えられて適用されます。
+
+#### 命題 15 {#ac-ii-s3-prop-15 .statement tag=048N}
+
+*$A, B$ を 2 つの環、$\phi : A \to B$ 準同型、および $N$ を $B$ モジュールとします。次のプロパティは同等です。
+(a) $N$ はフラットな $A$ モジュールです。
+(b) *$B$ のすべての最大理想 $n$ に対して、$N_n$ は平坦な $A$ 加群です。*
+(c) *$B$ の各極大理想 $n$ について、$m = \phi(n)$ と書くと、$N_n$ は平坦な $A_m$ 加群になります。
+
+すべての $a \notin m$ に対して、$a$ によって誘発される $N_n$ のホモテティー は全単射であるため、$N_n$ は (b) および (c) の $(N_n)_m$ および同値と正準的に同一視されます。
+
+命題 13 に続く注意; (a) が (b) を含意するという事実は、命題 14 の特殊なケースです。 (b) が (a) を含意すること、つまり、(b) が成り立つ場合、すべての単射詞 A-加群準同型 $u : M \to M'$、準同型 $v = 1 @ u : N \otimes_A M \to N @^* M'$ が単射詞であることを証明する必要があります。さて、$v$ は B-加群準同型でもあり、それが単射的であるためには、$B$ (no. 3, 定理 1) のすべての最大理想 $n$ に対して $v_n : (N \otimes_A M)_n \to (N \otimes_A M')_n$ がそうであることが必要かつ十分です。として
+$$
+(N \otimes_A M)_n = B_n \otimes_B (N @_A M) = N_n \otimes_A M,
+$$
+$v_n$ は単なる準同型 $1 \otimes u : N_n \otimes_A M \to N_n \otimes_A M'$ ですが、$N_n$ は仮定によるフラット A-加群であるため、単射法です。
+
+#### 系 {#ac-ii-s3-n4-cor-1 .statement tag=048O}
+
+*A-加群 M が平坦 (または忠実に平坦) であるためには、A、M のすべての最大理想 m が平坦 (または忠実に平坦) A_m モジュールであることが必要かつ十分です。
+
+条件の必然性は、命題 13 から得られます。逆に、$M,$ が $A$ のすべての最大理想$m$ に対する平坦な $A_m$ 加群である場合、$M$ は、以下の場合に適用される命題 15 により平坦な A-加群になります。 $\phi$がアイデンティティです。最後に、$M,$ がすべての $m$ に対して忠実に平坦な $A_m$ 加群である場合、$mM_m = mA_mM_m \neq M,$ 従って、すべての $m$ (no. 3、命題 9) に対して$mM \neq M$ となり、$M$ が忠実に平坦な A-加群であることが証明されます。 (章 I, § 3, no. 1、命題 1 (d))。
+
+### 5. セミローカルリング
+
+#### 命題 16 {#ac-ii-s3-prop-16 .statement tag=048P}
+
+※Aを環とします。次のプロパティは同等です。
+(a) A の最大イデアルの集合は有限です。
+(b) ヤコブソン根基による A の商は、体の有限数の直接合成です。*
+
+ヤコブソン根基 $\mathfrak{R}$ による A の商が、体の有限数の直接合成であると仮定します。その場合、$A/\mathfrak{R}$ は有限の数の理想のみを持ち、 *なおさら* は有限の数の最大理想だけを持ちます。すべての最大理想含む $\mathfrak{R}$ (*代数*、章 VIII, § 6, no. 2、定義 2) のように、A の最大理想は標準準同型の下での $A/\mathfrak{R}$ の最大理想の逆像です。 $A \to A/\mathfrak{R}$;従って、それらは数で有限になります。
+
+逆に、A には有限の数の個別の最大理想 $m_1, \ldots, m_n$ しかないとします。 $A/m_i$ は体であり、§ 1, no. 2、命題 5 から標準写像 $A \to \prod_{i=1}^n A/m_i$ は全射であることがわかります。 核 $\bigcap_{i=1}^n m_i$ はジェイコブソン根基 $\mathfrak{R}$ (*代数*, 章 VIII, § 6, no. 2, 定義 2) であるため、$A/\mathfrak{R}$ は $\prod_{i=1}^n A/m_i$ と同型です。
+
+#### 定義 4 {#ac-ii-s3-def-4 .statement tag=048Q}
+
+環は、命題 16 の等価な条件 (a)、(b) を満たす場合、準ローカルと呼ばれます。
+
+#### 例 {#ac-ii-s3-n5-exa-1 .statement tag=048R}
+
+すべての局所環は準ローカルです。セミローカル リングのすべての商はセミローカルです。セミローカルリングのすべての有限積はセミローカルです。
+
+A がネーター セミローカル リングで、B が A-代数 (つまり有限生成A-加群) である場合、B はセミローカル (章 IV, § 2, no. 5、系 3 ～ 命題 9) です。
+
+局所環 $A_{\mathfrak{p}}$ の構成を一般化した他の例は、次の命題によって提供されます。
+
+#### 命題 17 {#ac-ii-s3-prop-17 .statement tag=048S}
+
+A を A の主な理想である環と $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$ とします。
+$$ S = \bigcap_1^n (A - \mathfrak{p}_i) = A - \bigcup_1^n \mathfrak{p}_i. $$
+
+(a) 環 $S^{-1}A$ は準ローカルです。 $q_1, \ldots, q_r$ が $\mathfrak{p}_i$ の集合の別個の極大元 (包含に関して) である場合、$S^{-1}A$ の最大の理想は $S^{-1}q_j$ ($1 \leq j \leq r$) であり、これらの理想は別個です。
+
+(b) 環 $A_{\mathfrak{p}_i}$ は、$1 \leq i \leq n$ に対して正準的に $(S^{-1}A)_{S^{-1}\mathfrak{p}_i}$ と同型です。
+
+(c) A が整域の場合、A の分数の体では $S^{-1}A = \bigcap_1^n A_{\mathfrak{p}_i}$ になります。
+
+(a) The ideals of A not meeting S are the ideals contained in the union of the $\mathfrak{p}_i$ and hence in at least one of the $\mathfrak{p}_i$ (§ 1, no. 1, Proposition 2); the $q_j$ are therefore the maximal elements of the set of ideals not meeting S; consequently, the $S^{-1}q_j$ are the maximal ideals of $S^{-1}A$ by § 2, no. 5, Proposition 11 (ii).
+
+(b) は、§ 2, no. 5、命題 11 (iii) の特殊なケースです。
+
+(c) A が整域であるとします。 $\mathfrak{p}_i \subset \mathfrak{p}_k$ の場合は $A_{\mathfrak{p}_i} \supset A_{\mathfrak{p}_k}$;従って、(c) を証明するには、2 つの $\mathfrak{p}_i$ は比較できないと仮定することができます。次に、(a) と no. 3、系 4 から定理 1 から $S^{-1}A = \bigcap_1^n (S^{-1}A)_{S^{-1}\mathfrak{p}_i}$ が続きます。 よって (b) のおかげで (c)。
+
+A が整域である場合、$S^{-1}A$ および命題 17 も同様に、局所環 (cf. 章 III, § 2, no. 13) の直接の合成ではない準ローカルリングの例を提供します。
+
+#### 系 {#ac-ii-s3-n5-cor-1 .statement tag=048T}
+
+A を A の主要な理想である整域と $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$ とします。包含に関して比較できる 2 つのものはありません。 A の分数の体で $A = \bigcap_1^n A_{\mathfrak{p}_i}$ の場合、A の最大イデアルは $\mathfrak{p}_1, \ldots, \mathfrak{p}_n$ です。
+
+設定 $S = \bigcap_{i=1}^n (\mathbf{A} - p_i)$、$S^{-1}\mathbf{A} = \mathbf{A}$ 作: 命題 17 (c);従って、$S$ の元は、すべての $i$ に対して、$\mathbf{A}$ と $S^{-1}p_i = p_i$ で反転可能です。次に、命題 17 (a) により、主張が続きます。
+
+### 練習問題 {#ac-ii-s3-exercises}
+
+[§ 3 に対して練習問題](exercises/s3/)を参照してください。
