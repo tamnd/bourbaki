@@ -1,0 +1,210 @@
+---
+book: evt
+book_title: Topological Vector Spaces
+chapter: IV
+chapter_title: DUALITY IN TOPOLOGICAL VECTOR SPACES
+section: 4
+section_title: Strict morphisms of Fréchet spaces
+lang: ja
+source: evt-i-v
+book_pages: TVS IV.26-TVS IV.32, TVS IV.62-TVS IV.67
+pdf_pages: 0208-0214, 0244-0249
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Characterizations of strict morphisms
+      page: 27
+      pdf_page: 209
+    - "no": 2
+      title: Strict morphisms of Fréchet spaces
+      page: 28
+      pdf_page: 210
+    - "no": 3
+      title: Criteria for surjectivity
+      page: 31
+      pdf_page: 213
+statements: 13
+exercises: 23
+content_sha256: 1079ca63823faeac260266bc07ac033c4f87c5a124096ca6110c51ab9bc967b9
+translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
+translation_method: google
+source_content_sha256: c407d8cd0dfb8dde36f5bdedd16c24376ca0dd13486d65d99b3e2de383541cec
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: e2ce4099f8e6afe9d25338188506eff16c326ecfd0a3e3be21da7a8e029d7a69
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 4。厳格射のフレシェ空間
+
+すべての局所凸空間 E について、S(E) が E 上のすべての連続セミノルムの集合を表すものとします。すべての $p \in S(E)$ について、$H_p$ が $|f| \leqslant p$ となるような E 上のすべての線型形式 f の集合を表すものとします。家族 $(H_p)_{p \in S(E)}$ は、$E'$ の等連続部分集合の系統学からなるでは基底です。
+
+### 1. 厳格な射の特徴付け
+
+#### 命題 1 {#evt-iv-s4-prop-1 .statement tag=07UR}
+
+E と F を 2 つの局所凸空間とし、u を E から F まで連続的な線形写像とします。 u が厳密な射である位数において、次の条件が満たされることが必要かつ十分です。
+
+(MS) u の核でヌルであるすべての準ノルム $p \in S(E)$ に対して、$p \leq q \circ u$ となるような q が S(F) に存在します。
+
+N を u の核 、M を像とします。あなたの正規の分解を紹介します。
+
+$$
+E \xrightarrow{\pi} E/N \xrightarrow{\tilde{u}} M \xrightarrow{} F .
+$$
+
+N ではヌルである E 上の連続半ノルムは、$p_1$ が S(E/N) にわたる半ノルム $p_1 \circ \pi$ です。同様に、S(M) は、$q_1 \leq q/F$ を伴う $q \in S(F)$ が存在する準ノルム $q_1$ で構成されます。最後に、u は、全単射連続線形写像 $\tilde{u}$ が連続逆行列を持つ場合に限り、厳密な射です。これは、S(E/N) のすべての準ノルムが形 $q_1 \circ \tilde{u}$ であり、S(M) では $q_1$ であることも意味します。提案 1 は、これら注意の直後に続きます。
+
+#### 命題 2 {#evt-iv-s4-prop-2 .statement tag=07US}
+
+E と F を局所的に凸な 2 つのハウスドルフ空間とし、u を E から F まで連続する線形写像とします。u が厳密な射である位数において、その転置 $^t u : F' \to E'$ 満たすが以下であることが必要かつ十分です。 条件:
+
+a) $^t u$の像は、$\sigma(E', E)$のため$E'$に閉店します。
+
+b) $^t u$の像に含まれる$E'$の各等連続部分集合は、$F'$の等連続部分集合の$^t u$の下にある像です。
+
+もしそうなら、$\operatorname{Ker} ^t u = (\operatorname{Im} u)^{\circ}$と$\operatorname{Im} ^t u = (\operatorname{Ker} u)^{\circ}$があり、コーカー$^t u$からカーuの双対上に、そしてカー$^t u$からコーカーuの双対上に標準同型が存在します。
+
+N を u の核と I 像とします。コルによって。 $^t u$のII、p. 47、核の2はIの直交であり、$^t u$の像の$\sigma(E', E)$に対する閉包はNの直交$N^{\circ}$です。 a) と b) は次の条件と同等になります。
+
+b') $N^{\circ}$ に含まれる$E'$ の各等連続部分集合は、$F'$ の等連続部分集合の $^t u$ の下にある像です。
+
+$N^{\circ}$はE/Nの二重で識別できるので、prop。 9、IV、p. 8の(i)は、$N^{\circ}$に含まれる$E'$の等連続部分集合が、形$H_p$の集合に含まれる集合であることを示します。ここで、pは連続です。 E では準ノルム、N では消滅します。条件 b') は、N でヌルであるすべての準ノルム $p \in S(E)$ に対して、$H_p \subset ^t u(H_q)$ となるような $q \in S(F)$ が存在すると言います。 Hahn-Banach 定理 (II、p. 23、cor. 1 および 2、p. 63、th. 1 および cor. 1) によれば、$^t u(H_q) = H_{q \circ u}$、関係 $H_p \subset H_{p'}$ および $p \leq p'$ はすべて同等ですS(E) の準標準 $p$ と $p'$。従って、関係 $H_p \subset ^t u(H_q)$ は関係 $p \leq q \circ u$ と等価です。プロップにより。 1、性質 b') は、u が厳密な射であることを意味します。
+
+u が厳密な射であると仮定します。 $^t u$の核はIの直交であり、$^t u$の像はNの直交であることをすでに見ました。$u$の余核は空間$F/I$とその二重缶です$I^\circ = \mathrm{Ker}\ ^t u$ で識別されます。同様に、$N = \mathrm{Ker}\ u$ の双対は $E'/N^\circ$ (IV, p. 8)、つまり、$N^\circ$ は $^t u$ の像であるため、*つまり* $^t u$ の余核と識別できます。
+
+#### 注意 {#evt-iv-s4-n1-rem-1 .statement tag=07UT}
+
+— 記法の支柱付き。 2、性質 $b'$) は、$u$ が弱体化トポロジ (II、p. 49、cor. 3) に対して厳密な射であることも意味します。
+
+#### 命題 3 {#evt-iv-s4-prop-3 .statement tag=07UU}
+
+*E と F を 2 つの局所凸空間とし、u を E から F への連続線形写像とします。E がハウスドルフであり、F が計量可能であると仮定します。あなたが厳格な射であるためには、$^t u$ の像が弱い位相 $\sigma(E', E)$ のために $E'$ で閉じられることが必要かつ十分です。*
+
+必然性はpropから得られます。 2.
+
+逆に、$^t u$ の像が $\sigma(E', E)$ に対して閉じられていると仮定し、プロップの証明のように $u$ の正規の分解を導入します。 1. 上記の注意により、$\tilde{u}$ の逆写像 $\tilde{u}^{-1}$ が弱体化トポロジに対して連続します。しかし、F の部分空間 $M = u(E)$ は計量可能であるため、生まれつきの (III, p. 12, 提案 2)。従って (IV、p. 7、提案 7、(ii))、$\tilde{u}^{-1}$ は連続であるため、$u$ は厳密な射です。
+
+### 2. フレシェ空間の厳格射
+
+#### 定理 1 {#evt-iv-s4-thm-1 .statement tag=07UV}
+
+*E と F を 2 つのフレシェ空間とし、u を E から F まで連続する線形写像とします。次の条件は同等です。
+
+a) $u$ は厳密な射です。
+b) $u$ は、弱体化トポロジに対する厳密な射です。
+c) $u$ の像は F で閉まっています。
+d) $^t u$ は、弱いトポロジーの場合、$F'$ から $E'$ への厳密な射です。
+e) $^t u$ の像は、弱い位相 $\sigma(E', E)$ のために $E'$ にクローズされます。
+f) $^t u$ の像は$E'$ で位相 $\beta(E', E)$ が強いためクローズされます。
+g) $^t u$ は、$F'_c$ から $E'_c$ への厳密な射です (コンパクトな収束の位相を備えた双対)。
+
+a)、b)、および e) の同値は prop から続きます。その前のIV、p. 28、注意の3つ。 a) と c) のそれは正確に cor です。 I、p. 19の3つ。 IV の注意、p. 28 は、d) が、$u$ の像が F の弱体化された位相 $\sigma(F, F')$ に対して閉じているという事実と同等であることを示しています。 c) と d) の同値が prop から続きます。 IV、p. 4の2つ。
+
+ここで e) と f) の同値を証明します。 f) が e) を意味することを証明できれば十分です。 $^t u$の像が$E'$の$\beta(E', E)$で閉店したとします。 Banach-Dieudonné 定理 (IV, p. 25, cor. 2) を考慮すると、E の 0 のすべての凸平衡近傍 U について、共通部分 $B = ^t u(F') \cap U$ が $\sigma(E', E)$ に対してコンパクトであることを証明するだけで十分です。フレシェ空間 E の強力な双対 $E'_b$ が完成します (IV、p. 22、提案 2)。従って、$E'_b$ の閉じた部分集合 B が完成し、したがって標準の空間 $E'_B$ が完成します。 (III、p. 8、系)。 $(V_n)$ を F の 0 の近傍の基本的な系を形成する減少列とします。すると、$F'$ は集合 $C = V_n^\circ$ の和集合であり、これは $\sigma(F', F)$ に対してコンパクトです。 $E'_B = \bigcup_n B_n$、$B_n = E'_B \cap ^t u(C_n)$と。 $E'_B$ はベア空間であり、集合 $B_n$ はそれぞれ凸バランスで閉じているため、$B \subset r.B_n$ となる実数 $r > 0$ と整数 $n$ が存在します。次に、$B = U^\circ \cap {}^t u(r.C_n)$ です。 集合 $U^\circ$ と $r.C_n$ はコンパクトであり、${}^t u$ は弱いトポロジに対して連続であるため、$B$ は $\sigma(E', E)$ に対してコンパクトです。これで、e)とf)の同値の証明が完了します。
+
+最後に g) の同値とその前の条件が prop から続きます。 GTの18、X, § 2, No. 10と続く補題。
+
+#### 補題 1 {#evt-iv-s4-lem-1 .statement tag=07UW}
+
+*E と F を 2 つのハウスドルフ局所凸かつ準完全な空間とし、u を E から F への連続線形写像とする。${}^t u$ が $F'_c$ から $E'_c$ への厳密な射となるためには、像が必要かつ十分である。 u の $u(E)$ は閉じられており、$u(E)$ のすべてのコンパクト部分集合は E のコンパクト部分集合の u の下にある像になります。
+
+By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topology of compact convergence coincides with that of convex compact convergence (IV, p. 4), we can identity E (resp. F) with the dual $E'_c$ (resp. $F'_c$). この場合、$u$ は ${}^t u$ の転置であり、E (それぞれ F) の等連続部分集合は比較的コンパクトな集合です。 補題 1 が prop から続きます。 2 (IV、p. 27)。弱体化した位相 $\sigma(F, F')$ (IV、p. 4、提案 2) に対して閉じられている場合に限り、$u(E)$ が F で閉じられるためです。
+
+#### 系 1 {#evt-iv-s4-lem-1-cor-1 .statement tag=07UX}
+
+※仮定の下。 1、次の条件は同等です:*
+(i) *u は厳密な単射詞射 ;*
+(ii) *${}^t u$ は、弱いトポロジの厳密な全射法射です。*
+(iii) *${}^t u$ は全射法です。*
+
+含意 (i) $\Rightarrow$ (ii) は、条件 a)、d)、および e) の同値からすぐに続きます。 1 と IV、p. 6 からのプロップ。 5. (ii) が (iii) を意味することは明らかです。最後に、(iii) が (i) を意味することを証明します: ${}^t u$ が全射である場合、$u$ は a) と e) の同値によって厳密な射です。 1 ; $u$ が単射であることは prop から続きます。 IV、p. 6の5。
+
+#### 系 2 {#evt-iv-s4-lem-1-cor-2 .statement tag=07UY}
+
+* 仮定の下。 1、次の条件は同等です:*
+(i) *u は全射法です ;*
+(ii) *u は厳密な全射法射 ;*
+(iii) *${}^t u$ は、弱いトポロジの厳密な単射語射です。*
+
+(i) と (ii) の同値は、Banach の th に続きます。 (I、p. 17、th.1)。
+
+のa)とc)の同値を考慮すると、 1、条件 (ii) は、$u$ が厳密な射であり、その像が $\sigma(F, F')$ に対して F で密であることを示しています。 同値の(ii)と(iii)は、次のa)とd)の同値から続きます。 1とプロップから。 IV、p. 6 の 5。
+
+$u : E \to F$ がフレシェ空間の厳密な射である場合、転置 ${}^t u$ は必ずしも $F'_b$ から $E'_b$ への厳密な射であるとは限りません (IV、p. 62、演習 3)。ただし、次のような部分的な結果が得られます。
+
+#### 系 3 {#evt-iv-s4-lem-1-cor-3 .statement tag=07UZ}
+
+— th の仮説のもとで。 1 の場合、次の性質は、a) から g) までのプロパティを意味します。
+h) $^t u$ は、$F'_b$ から $E'_b$ までの厳密な射です。
+E と F が両方とも Banach 空間、または両方とも Montel 空間である場合、性質 h) は th の特性 a) ～ g) と同等です。 1.
+$^t u$ が $F'_b$ から $E'_b$ への厳密な射であると仮定します。 $^t u$ の像 H が $E'_b$ で閉じられ、そこから cor の最初の主張が得られることを証明します。 3が続きます。
+G を F の $u$ の像の閉包とします。 空間 G に F のそれによって誘発された位相が割り当てられている場合、フレシェ空間です。 写像 $u : E \to F$ は $u = j \circ v$ として因数分解されます。ここで、j は G から F への標準単射であり、$v \in \mathscr{L}(E; G)$ です。次に、ハーン・バナッハ th による $^t u = ^t v \circ ^t j$ があり、$^t j$ は全射法です。 (II、p. 24、提案2);また、$v(E)$ は G で密であるため、$^t v$ は単射法です (IV、p. 6、提案 5)。 仮定、写像 $^t u$ $F'_b$ から H までがオープンします。 $^t j$ は全射連続なので、写像 $^t v$ 誘導するは $G'_b$ から H への同型写像です。しかし、フレシェ空間 G の双対 $G'_b$ は完全です (IV, p. 22, prop. 2);その結果、H が完了したため、$E'_b$ で閉じられます。
+E と F がモンテル空間である場合、$E'$ (それぞれ $F'$) 一致するにコンパクトな収束の位相を伴う強い位相は、g) を再定式化したものにすぎません。
+E と F がバナッハ空間である場合、$E'_b$ と $F'_b$ も同様であり、条件 h) は、a) と c) の同値を $^t u : F'_b \to E'_b$ に適用することで、f) と等価になります。
+
+#### 系 4 {#evt-iv-s4-lem-1-cor-4 .statement tag=07V0}
+
+— E と F がバナッハ空間であると仮定します。 $^t u$ が全射的であるためには、すべての $x \in E$ に対して $\| x \| \leq r. \| u(x) \|$ となるような実数 $r > 0$ が存在することが必要かつ十分です。
+これは単に cor の条件 (i) と (iii) の同値を再定式化したものです。 1.
+
+#### 系 5 {#evt-iv-s4-lem-1-cor-5 .statement tag=07V1}
+
+— E と F を 2 つのフレシェ空間とし、u を E から F まで連続する線形写像とします。次の条件は同等です。
+a) u は E から F まで同型です。
+b) 弱体化トポロジでは、u は E から F まで同型です。
+c) 弱いトポロジーの場合、$^t u$ は $F'$ から $E'$ までの同型です。
+d) $^t u$ は、強力なトポロジーの場合、$F'$ から $E'$ までの同型です。
+e) $^t u$ は、$F'_c$ から $E'_c$ までの同型です。
+同型は厳密な全単射射に他ならないので、a) と b) の同値は th の条件 a) と b) の同値から続きます。 1.
+a) が条件 c)、d)、e) のそれぞれを意味していることは明らかです。
+逆に、条件 c)、d)、e)のいずれかを満たすとする。から続きます。 1とそのコル。 3、u は E から F への厳密な射であり、$^t u$ は明らかに全単射であることがわかります。 N (それぞれ I) を u の核 (それぞれ像) とします。 $^t u$ は全単射なので、$\operatorname{Im} ^t u = E'$ と $\operatorname{Ker} ^t u = \{ 0 \}$ があり、したがって、小道具により $N^\circ = E'$ と $I^\circ = \{ 0 \}$ が得られます。 IV、p. 27の2つ。しかし、N (それぞれ I) は E (それぞれ F) の閉じたベクトル部分空間であり、双極子 (II, p. 44) の定理は $N = \{ 0 \}$ と $I = F$ を意味するため、u は全単射です。したがって、u が同型であることが証明されました。
+
+### 3. 主観性の基準
+
+#### 命題 4 {#evt-iv-s4-prop-4 .statement tag=07V2}
+
+— E と F を 2 つのフレシェ空間とし、u を E から F まで連続する線形写像とします。次の条件は同等です。
+
+(i) u は全射です。
+
+(ii) すべての準規範 $p \in S(E)$ に対して、線型形式 $f \in F'$ 満たす $|f \circ u| \leq p$ ごとに $|f| \leq q$ が得られるように、$q \in S(F)$ が存在します。
+
+(iii) すべての準ノルム $p \in S(E)$ に対して、次の $q \in S(F)$ 満たすが存在します性質 : 線型形式 $f \in F'$ が $|f \circ u| \leq p$ を満たす場合、$f$ は点で null ですが、$q$ は null であり、すべてについて$y \in F$、$r \in S(F)$、$r(u(x) - y) = 0$には$x \in E$が存在します。
+
+(iv) すべての準規範 $p \in S(E)$ について、次のようになります。
+
+$$
+\sup_{\substack{f \in F \\ |f \circ u| \leq p}} |f(y)| < +\infty \quad \text{for all} \quad y \in F .
+$$
+
+次の論理スキームに従って命題を証明します
+
+![図式 (i)、(ii)、(iii)、および (iv) 間の論理関係を示します。](https://i.imgur.com/3Q5z5QG.png)
+
+$u$ が全射である場合、それは厳密な射 (IV, p. 28, th. 1) であり、すべての $y \in F$ 満たす $q(y) \leq 1$ について、すべての半規範 $p \in S(E)$ に対して、半規範 $q \in S(F)$ が存在します。 $x \in E$ 満たす $p(x) \leq 1$ と $u(x) = y$ (i) は (ii) と (iii) を意味するとすぐに推測します。 (ii) が (iv) を意味することは明らかです。
+
+(iii) が (iv) を含意していることを証明するには、$p$ と $q$ を (iii) のようにします。 $y \in F$ とすると、(iii) により、$q(u(x) - y) = 0$ となるような $E$ に $x$ が存在します。 $f \in F'$ が $|f \circ u| \leq p$ を満たす場合、$f(u(x) - y) = 0$ が得られます。
+
+$$
+|f(y)| = |f(u(x))| \leq p(x)
+$$
+
+そして、関係 (1) は満たされます。
+
+最後に、(iv) が (i) を意味することを証明します。 $p \in S(E)$ と $q$ を $f \in F'$ 満たす $|f \circ u| \leq p$ に対する写像 $|f|$ の上位包絡線とします。 (iv) により、$q$ は $F$ では有限であり、$F$ では明らかに下位の半連続半ノルムです。 $F$ はバレル (III、p. 25、系) なので、$q \in S(F)$ になります。 $B_p$ (それぞれ $B_q$) は、$p(x) \leq 1$ (それぞれ $q(y) \leq 1$) となるようなすべての $x \in E$ (それぞれ $y \in F$) の集合を表すものとします。 $q \circ u \leq p$があるので、$u(B_p) \subset B_q$です。 $F'$ の $u(B_p)$ の極は線型形式 $f \in F'$ で構成され、$|f \circ u| \leq p$ となるため、$|f| \leq q$ となります。他の語では、$u(B_p)^{\circ} \subset B_q^{\circ}$ が得られ、最後にその $\overline{u(B_p)} = B_q$ は双極性の定理から続きます (II、p. 45、cor. 3)。 $U$ が $E$ の 0 の近傍である場合、$B_p \subset U$ となるような $p \in S(E)$ が存在するため、$\overline{u(U)}$ 含む近傍 $F$ の 0 の $B_q$ が存在します。これは、$u$ が全射であることを意味します (I, p. 17, th. 1)。
+
+#### 系 {#evt-iv-s4-n3-cor-1 .statement tag=07V3}
+
+— E と F がバナッハ空間であると仮定します。次の条件は同等です。
+(i) u は全射です。
+(ii) すべての $f \in F'$ に対して $\|f\| \leq r.\|^{t}u(f)\|$ となるような実数 r > 0 が存在します。
+(iii) すべての $y \in F$ に対して、$\sup_{\substack{f \in F' \\ \|f \circ u\| \leq 1}} |f(y)| < + \infty$ が得られます。
+
+条件 (ii) および (iii) は、実際には、prop の条件 (ii) および (iv) を再定式化したものです。バナッハ空間の4。
+
+### 練習問題 {#evt-iv-s4-exercises}
+
+[§ 4 に対して練習問題](exercises/s4/)を参照してください。

@@ -1,0 +1,80 @@
+---
+book: ens
+book_title: Theory of Sets
+chapter: ER
+chapter_title: SUMMARY OF RESULTS
+section: 5
+section_title: Equivalence relations and quotient sets
+lang: ja
+source: ens-i-iv
+source_edition: 2004, Springer
+book_pages: 370-373
+pdf_pages: 0375-0378
+extraction: ocr
+statements: 0
+exercises: 0
+content_sha256: e72b18685c1e4fb25dfc10d1c48205dfd11162d1bde856c9edf89d237a39f045
+translated_from: content/en/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md
+translation_method: google
+source_content_sha256: de7dfd40c6cfa021011ad6534250a579d1efe1882e81ad993bcb4259f6eb1c68
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: a76ebd7c9f1c9c46fd04b4c495121b64a73bfe73785ef2376ae0e4368749b44a
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## 5. 同値関係と商集合
+
+1. $(A_i)_{i\in I}$ を集合 E の分割とします。 関係 $R\{x,y\}$: E の 2 つの一般的な元 $x,y$ の間には、次の条件を満たす、「$x\in A_i$ と $y\in A_i$ となるような $i\in I$ が存在します」 :
+
+(a) $R\{x,x\}$ は恒等式 (R の再帰性) です。
+
+(b) $R\{x,y\}$ と $R\{y,x\}$ は等価です (R の対称性)。
+
+(c) 関係 $R\{x,y\}$ および $R\{y,z\}$ は $R\{x,z\}$ (R の推移性) を意味します。
+
+C が関係 R で定義される $E\times E$ の部分集合を表す場合、条件 (a)、(b)、(c) はそれぞれ次の条件 : $(a')\ \Delta\subset C$ と等価です。 $(b')\ \overline{C}=C$; $(c')\ C\circ C\subset C$。 $(a')$ と $(c')$ から、$C\circ C=C$ になります。
+
+2. 逆に、$R\{x,y\}$ を再帰的、対称的、推移的な関係とし、C を $E\times E$ におけるそのグラフとします。 Then the image $\mathfrak{F}$ of E under the mapping $x\mapsto C(x)$ of E into $\mathfrak{P}(E)$ is a partition of E, and the relation “there exists a subset X ∈ $\mathfrak{F}$ such that x ∈ X and y ∈ X” is equivalent to
+$R\{x,y\}$.
+
+条件 (a)、(b)、(c) を満たすすべての関係は、E 上で同値関係と呼ばれます。 The partition $\mathfrak{F}$ which it defines, considered as a subset of $\mathscr{P}(E)$, is called the quotient set of E by the relation R, and is denoted by E/R; its elements are called equivalence classes with respect to R. E の写像 $x \mapsto C(x)$ を E/R に、これをそれぞれ写像 E の元 x から含む x を加えた同値類を、E/R への E の標準写像と呼びます。
+
+等式 $x = y$ の関係は同値関係です。 対応する商集合上の E の標準写像はちょうど $x \mapsto \{x\}$ であり、全単射です。
+
+R が同値関係の場合、記法 「$x \equiv y$ (mod R)」は $R\{x,y\}$ の同義語として使用されるときどきです。 「x は R を法とした y に等しい」と読み取られます。
+
+3. 積集合 $E \times F$、関係 z と z′ の間の「$\operatorname{pr}_1 z = \operatorname{pr}_1 z'$」は同値関係 R で、商集合 $(E \times F)/R$ は E と 1 対 1 で対応に入れることができます（これが名前の由来です） 商集合）。
+
+より一般的には、f を集合 E の集合 F の写像とします。 すると関係「$f(x)=f(y)$」はEの同値関係になります。 この関係をRとすると、写像$z \mapsto f^{-1}(z)$（$f^{-1}(z)$はE/Rの元とみなします）はE/R上の$f(E)$の全単射になります。
+
+したがって、f は、与えられた順序において、次の 3 つの写像のうちの合成と見なすことができます。
+(1) 部分集合 $f(E)$ の標準写像を集合 F に変換します。
+(2) $f(E)$ に対する E/R の全単射写像、その逆関数が定義されたばかりです。
+(3) Eの標準写像をE/Rに。
+
+この写像の分解は、その正準分解または正準因数分解と呼ばれます。
+
+4. 集合 E 上のすべての同値関係 R は、前の小節と同様に、写像によって定義できます。なぜなら、C が R のグラフである場合、関係 “$C(x)=C(y)$” は $R\{x,y\}$ に相当します。
+
+5. R を集合 E の同値関係とし、A を E の部分集合とします。 このとき、A の 2 つの一般的な元 x, y の間の関係 $R\{x,y\}$ は、A 上の同値関係であり、A 上の R によって誘導される関係と呼ばれ、$R_A$ で表されます。 f を E/R 上の E の標準写像とし、g を A の $A/R_A$ のものとする。 E/R の元と $A/R_A$ 対応するの元が、それぞれ f と g の下の同じ E の元の像である場合、f の下の A の像 $f(A)$ と商の間に 1 対 1 の対応ができます。 集合 $A/R_A$。 φ が A から E への標準写像を表す場合、この対応は写像 $z \to f(\varphi(g^{-1}(z)))$ とその逆関数によって実現され、どちらも *正準 * とも呼ばれます。
+
+6. E の部分集合 A は、R に関する $x$ の $x \in A$ 同値類が A に含まれる場合、E の同値関係 R に関して *飽和* していると言われます。他の語では、R に関して飽和した集合は *和集合ですR*に関しては同値類。 $f$ が E/R 上の E の標準写像である場合、集合が形 $f^{-1}(X)$ の場合、$X \subset E/R$ は飽和します。
+
+AをEの部分集合とします。含むAが$f^{-1}(f(A))$である飽和した集合の共通部分とします。この集合は、A の同値類の元の和集合としても定義でき、A の *飽和* (R に関して) と呼ばれます。
+
+7. $P\{x,y,z\}$ を関係とし、そこには E の汎用元 $x$ が現れます。そのとき、P は、関係 “$P\{x,y,z\}$ と $x \equiv x'$ (mod R)” * が暗黙的に示す場合、同値関係* R と *互換性* があると言われます ($x$) $P\{x',y,z\}$。
+
+$f$ を E/R 上の E の標準写像とし、$t$ を E/R の汎用元とします。 関係 「$P\{x,y,z\}$ となるような $x \in f^{-1}(t)$ が存在する」は、「すべての $x \in f^{-1}(t)$、$P\{x,y,z\}$ に対して」と等価になります。後者は$t$、$y$、$z$の間の関係で、移行から商*（$x$に関して）のP *によって*誘発*されたと言われています。それを$P'\{t,y,z\}$で表すと、$P\{x,y,z\}$は$P'\{f(x),y,z\}$と同等になります。
+
+任意の引数数を含む関係に対する類似の定義と、関係がその引数の*いくつか* で R と互換性がある場合に対応します。たとえば、A が E の部分集合である場合、関係 “$x \in A$” が ($x$ で) R と互換性があると言うのは、A が R に関して飽和しているというというと同等です。$\varphi$ が E の写像から集合 F である場合、汎関数は関係 “$y=\varphi(x)$” は R と互換性があります ($x$ で) は、$\varphi$ が R に関して各同値類で定数であることを意味します。 移行から商、したがって R は $y$ とジェネリックの間で誘導する関係になります。 E/R の元 $t$;この関係は $y$ で機能するため、E/R の決定する写像 $\varphi'$ が F になり、満たすが ID $\varphi(x)=\varphi'(f(x))$ になります。
+
+8. R を集合 E の同値関係とし、S を集合 F の同値関係とし、$f$ を E から F への写像とする。写像 $f$ は、関係の場合 *R および S* と互換性があると言われる$x \equiv x'$ (mod R) *暗黙* $f(x) \equiv f(x')$ (mod S)。 $g$ が F/S 上の F の標準写像である場合、合成写像 $g \circ f$ は、R に関して、同値類 $z$ の元と同じ値を持ちます。この共通の値を $h(z)$ で表すと、$h$ は E/R から F/S への写像であり、移行から商まで * の f によって誘導されると言われます。
+
+9. R を E 上で同値関係とし、S を E/R 上で同値関係とします。 $f$ が E/R 上の E の標準写像である場合、「$f(x)\equiv f(y)\pmod S$」は E 上の同値関係 T です。 したがって、T に関する同値類は、R に関する同値類の E における和集合であり、S に関して互いに等価です。 関係「$x\equiv y\pmod R$」は「$x\equiv y\pmod T$」を意味します。 If $g$ and $\varphi$ are the canonical mappings of $E$ onto $E/R$ and $E/T$, respectively, we obtain a one-to-one correspondence (called canonical) between $(E/R)/S$ and $E/T$ by making an element of $(E/R)/S$ and an element of $E/T$ correspond to each other if they are the images of the same element of E under $g$ and $\varphi$, respectively.
+
+逆に、「$x\equiv y\pmod R$」が「$x\equiv y\pmod T$」を意味するように、R と T が E 上の 2 つの同値関係であるとします。この場合、T は x と y の両方において (no. 7 の意味で) R と互換性があります。 移行から商 $E/R$ (x と y に関して)、T 誘導する同値関係 S から $E/R$ まで。 $\varphi$ が再び$E/R$ 上の E の標準写像を表す場合、関係 「$\varphi(x)=\varphi(y)\pmod S$」は「$x\equiv y\pmod T$」と同等です。 同値関係 S は T の商を R と呼び、T/R で表されます。前の段落から、$(E/R)/(T/R)$ と $E/T$ の間に 1 対 1 の対応 (正規の対応) が存在することがわかります。
+
+10. ここで、E、F を任意の 2 つの集合とします。これらは区別される場合もあれば、区別されない場合もあります。 $\{x, y\}$ を E の同値関係とし、$\{z, t\}$ を F の同値関係とします。次に、積集合の元 $(x,z)$ と $(y,t)$ の間の関係 $\{x, y\}\times\{z, t\}$ $E\times F$ は $E\times F$ の同値関係で、S によって R の積と呼ばれ、$R\times S$ で示されます。 $R\times S$ に関するすべての同値類は、R に関しては同値類の積であり、S に関しては同値類です。u が $E/R$ の一般的な元を表し、v が $F/S$ の一般的な元を表す場合、 $(u,v)\mapsto u\times v$ は、$(E/R)\times(F/S)$ の $(E\times F)/(R\times S)$ 上の全単射 (正規と呼ばれます) です。

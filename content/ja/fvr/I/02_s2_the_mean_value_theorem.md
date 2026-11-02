@@ -1,0 +1,384 @@
+---
+book: fvr
+book_title: Functions of a Real Variable
+chapter: I
+chapter_title: DERIVATIVES
+section: 2
+section_title: THE MEAN VALUE THEOREM
+lang: ja
+source: fvr-i-vii
+book_pages: 12-19, 37-39
+pdf_pages: 0027-0034, 0052-0054
+extraction: ocr
+subsections:
+    - "no": 1
+      title: ROLLE'S THEOREM
+      page: 12
+      pdf_page: 27
+    - "no": 2
+      title: THE MEAN VALUE THEOREM FOR REAL-VALUED FUNCTIONS
+      page: 13
+      pdf_page: 28
+    - "no": 3
+      title: THE MEAN VALUE THEOREM FOR VECTOR FUNCTIONS
+      page: 15
+      pdf_page: 30
+    - "no": 4
+      title: CONTINUITY OF DERIVATIVES
+      page: 18
+      pdf_page: 33
+statements: 21
+exercises: 14
+content_sha256: c7b1bbe58ed67d1e76c97d007a4cbcf8fc3c58d172559ebb2584a00b0a4fca6a
+translated_from: content/en/fvr/I/02_s2_the_mean_value_theorem.md
+translation_method: google
+source_content_sha256: cd3afa585ab839f9102101bc5e9f950b6b2590f43edbec61f3394622431f01ca
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: 8a7de113b4bc132b35cd42cabd03c74e03b510946fd949de2705ecc159f38c38
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 2。平均値定理
+
+§ 1 で実証された仮説と結論は、指標では局所的です。それらは、固定された点の任意に小さい近傍についてのみ考慮されている写像の特性に関係しています。対照的に、この切断で扱う質問には、区間のすべてに写像の性質が含まれています。
+
+### 1. ロールズ定理
+
+#### 命題 1 (「ロールの定理」) {#fvr-i-s2-prop-1 .statement tag=083Z}
+
+$f$ を、閉じた区間 $I = [a, b]$ ($a < b$) 上で有限かつ連続である実数写像とし、]$a, b$[ の点ごとに導関数 (有限であるかどうか) を持ち、$f(a) = f(b)$ となるようなものとします。すると、$f'(c) = 0$ となるような ]$a, b$[ の点 $c$ が存在します。
+
+$f$ が定数である場合、命題は明らかです。そうでない場合、$f$ は、例えば値 $> f(a)$ をとり、I の内側の点 $c$ で最小の上界に達します (Gen. Top.、IV、 p. 359、その1）。 $f$ はこの点で相対最大値を持つため、$f'(c) = 0$ (I、p. 20、提案 7) が得られます。
+
+#### 系 {#fvr-i-s2-n1-cor-1 .statement tag=0840}
+
+$f$ を、$[a, b]$ ($a < b$) 上で有限連続であり、点ごとに導関数 (有限であるかどうか) を持つ実数の写像とします。すると、$f(b) - f(a) = f'(c)(b - a)$ となるような ]$a, b$[ の点 $c$ が存在します。
+
+プロップを適用するだけです。 1 から写像 $f(x) - \frac{f(b) - f(a)}{b - a}(x - a)$ まで。
+
+This corollary signifies that there is a point $M_c = (c, f(c))$ on the graph $C$ of $f$ such that $a < c < b$ and such that the tangent to $C$ at this point is parallel to the line joining the points $M_a = (a, f(a))$ and $M_b = (b, f(b))$.
+
+### 2. 実数値写像の平均値定理
+
+次の重要な結果は、プロップする系の帰結です。 1: ]$a, b$[ に $m \leq f'(x) \leq M$ がある場合、$m \leq \frac{f(b) - f(a)}{b - a} \leq M$ もあります。他の語では、端点 $a, b$ を持つ区間全体における $f'$ の導関数* の *限界は、 $\frac{f(b) - f(a)}{b - a}$ の *同じ限界* (写像の「増分」と区間の変数の「増分」の比) を意味します。続編では、この基本的な結果をより正確にし、一般化します。
+
+#### 命題 2 {#fvr-i-s2-prop-2 .statement tag=0841}
+
+* $f$ * を、閉じた境界区間* $I = [a, b]$ *(ここで* $a < b$*) 上で有限かつ連続である実数写像とし、可算数の* $[a, b)$ * における相対補数の右導関数* (有限であるかどうか) * をすべて点とします。 部分集合* $A$ *この区間のうち。もし* $f'_d(x) \geq 0$ *所属から* $A$ではなく* $[a, b[$の点ごとに、*そのときは* $f(b) \geq f(a)$になります。 *さらに* $f'_d(x) > 0$ * $[a, b[$ のうち少なくとも 1 つの点の場合、*その後* $f(b) > f(a)$ になります。
+
+$\varepsilon > 0$ を任意とし、可算個の集合 $A$ を列挙して得られる $(a_n)_{n \geq 1}$ 数列で表します。 $J$ を点 $y \in I$ の集合とすると、次のようになります。
+
+$$
+f(x) - f(a) \geq -\varepsilon(x - a) - \varepsilon \sum_{a_n < x} \frac{1}{2^n}
+$$
+
+(1)
+
+すべての $x$ に対して、$a \leq x \leq y$、和は右側の 2 番目の項ですべての添字 $n$ を引き継ぎ、$a_n < x$ になります。 $[a, b[$ の点ごとに $f'_d(x) \geq 0$ が $a_n$ とは異なる場合、$J = I$ であることを示します。
+
+$a \in J$ であるため、$J$ が空ではないことは明らかです。さらに、この集合の定義は、$y \in J$ の場合、$a \leq x \leq y$ に対して $x \in J$ があることを示しています。したがって、$J$ は、左側の端点 $a$ を持つ *区間* です (*Gen. トップ.*、IV、p. 336、小道具。 1); $c$ をその右側の終点とします。 1 つは $c \in J$ です。 $c = a$ の場合、これは明らかです。そうでない場合は、$x < c$ ごとに不等式 (1)、および *なおさら* が得られます。
+
+$$
+f(x) - f(a) \geq -\varepsilon(c - a) - \varepsilon \sum_{a_n < c} \frac{1}{2^n}
+$$
+
+このことから、この不等式において$x$が$c$になる傾向があるとすると（$f$は連続なので）、$c$は(1)を満たします。
+
+そうなると、$c = b$ が必要であることがわかります。確かに、$c < b$ があれば、間違いなく $c \notin A$ もあるでしょう。現在 $f'_d(c)$ が存在し、仮定までの $f'_d(c) \geq 0$ 以降、$c < y \leq b$ となるような $y$ が存在し、$c \leq x \leq y$ については次のようになります。
+
+$$
+f(x) - f(c) \geq -\varepsilon(x - c)
+$$
+
+ここから、(1) を考慮して、$x$ を $c$ に置き換えると、
+
+$$
+f(x) - f(a) \geq -\varepsilon(x - a) - \varepsilon \sum_{a_n < c} \frac{1}{2^n} \geq -\varepsilon(x - a) - \varepsilon \sum_{a_n < x} \frac{1}{2^n}
+$$
+
+これは、$c$の定義と矛盾する$y \in J$を意味します。したがって、一部の添字 $k$ に対して $c = a_k$ が得られます。 $f$ は点 $a_k$ で連続であるため、$c < y \leq b$ となるような $y$ があり、$c < x \leq y$ については
+$$
+f(x) - f(c) \geq -\frac{\varepsilon}{2^k}
+$$
+ここから、(1) を考慮して、$x$ を $c$ に置き換えると、
+$$
+f(x) - f(a) \geq -\varepsilon(c-a) - \varepsilon \sum_{a_n < x} \frac{1}{2^n} \geq -\varepsilon(x-a) - \varepsilon \sum_{a_n < x} \frac{1}{2^n}
+$$
+それは再び矛盾を引き起こします。したがって、$c = b$ があり、帰結には
+$$
+f(b) - f(a) \geq -\varepsilon(b-a) - \varepsilon \sum_{a_n < b} \frac{1}{2^n} \geq -\varepsilon(b-a) - \varepsilon. \tag{2}
+$$
+$\varepsilon > 0$ は任意であるため、(2) から $f(b) \geq f(a)$ を推定します。これは、命題の最初の部分を示します。
+
+この結果は区間 $[x, y]$ に適用され、$a \leq x < y \leq b$ は $f$ が I で *増加する* であることを証明します。 $f(b) = f(a)$ があれば、$f$ は I では *一定* であり、その後 $[a, b[$ の点ごとに $f'_d(x) = 0$ であると推測できます。 2 番目の部分がこれに続きます。
+
+#### 系 {#fvr-i-s2-n2-cor-1 .statement tag=0842}
+
+*$f$を$[a, b]$($a < b$)上の有限連続実数写像とし、この区間の可算部分集合$A$の$[a, b[$の補数の右導関数点を持たせます。 $f$がIに増加するになるには、属するから$A$までではない$[a, b[$の点ごとに$f'_d(x) \geq 0$になることが必要かつ十分です。 $f$ が真に増加するであるためには、前の条件が成り立ち、さらに点 $x$ の集合が成り立ち、$f'_d(x) > 0$ が $[a, b]$ に密集していることが必要かつ十分です。
+
+#### 注意 1 {#fvr-i-s2-n2-rem-1 .statement tag=0843}
+
+提案 2 は、1 つの置き換える区間 $[a, b[$ が ]$a, b$ および語 「右微分」と「左微分」によって成り立つ場合に真のままです。
+
+#### 注意 2 {#fvr-i-s2-n2-rem-2 .statement tag=0844}
+
+閉じた区間 I 上の $f$ の *連続性* の仮定 ($[a, b[$ の点ごとの *正しい連続性* $^4$ だけではありません) が、プロップの有効性にとって不可欠です。 2 (*cf.* I、p. 36、演習 8 )。
+
+#### 注意 3 {#fvr-i-s2-n2-rem-3 .statement tag=0845}
+
+プロップの結論。 「例外的な」点の集合 $A$ が I のどこにも密ではないが、可算ではないと単に仮定する場合、2 は保証されません (*cf.* I、p. 37、例題 3)。
+
+提案 2 には、次の基本的な定理が含まれます (これはより一般的であると思われます)。
+
+**定理 1** (値定理を意味します)。 *$f$ と $g$ を、閉じた境界区間 $I = [a, b]$ で定義された 2 つの有限連続実数値写像とし、
+
+区間 $I \subset \mathbf{R}$ で定義された $^4$ 写像は、制限から区間 $I \cap [x_0, +\infty[$ がこれに対して点 $x_0$ で連続している場合、点 $x_0 \in I$ で *右連続* であると言われます区間;この写像の右側極限がこの点に存在し、この点での写像の値に等しいと言うのと同じことになります。
+
+この区間の可算部分集合の $[a,\ b[$ における相対補数の右導関数 (有限であるかどうかにかかわらず) 点 。さらに、$f'_d(x)$ と $g'_r(x)$ は、I の可算部分集合の点を除いて同時に無限ではなく、次のような有限の数 $m$、$M$ があると仮定します。
+
+$$
+mg'_r(x) \leq f'_d(x) \leq Mg'_r(x)
+$$
+
+ただし、$M = 0$ (それぞれ $m = 0$) および $g'_r(x) = \pm \infty$ の場合、I (置き換えること $Mg'_r(x)$ (それぞれ $mg'_r(x)$)) の可算部分集合の点を除きます。これらの条件の下では、
+
+$$
+m(g(b) - g(a)) < f(b) - f(a) < M(g(b) - f(a))
+$$
+
+ただし、すべての $x \in I$ に対して 1 つが $f(x) = Mg(x) + k$ または $f(x) = mg(x) + k$ ($k$ 定数) である場合を除きます。
+
+プロップを適用するだけで十分です。 2 から写像 $Mg - f$ および $f - mg$ ですが、私たちの仮説では、これらは I の可算数部分集合の点を除いて正の右導関数を持ちます。
+
+#### 注意 {#fvr-i-s2-n2-rem-4 .statement tag=0846}
+
+Th. I の不可算部分集合上で $f'_d$ と $g'$ が同時に無限になることを許可すると、1 は失敗します (cf. I、p. 37、演習 3)。
+
+#### 系 {#fvr-i-s2-n2-cor-2 .statement tag=0847}
+
+$f$ を $[a,\ b]$ ($a < b$) 上の有限連続写像とし、この区間の可算部分集合の $[a,\ b[$ における相対補数 B の右導関数 (有限であってもなくても) 点を持たせます。 $m$ と $M$ が B の $f'_d$ の最大のより低く、最小の上界である場合、次の結果が得られます。
+
+$$
+m(b - a) < f(b) - f(a) < M(b - a)
+$$
+
+$f$ がアフィン線形写像ではない場合。 $f$ がアフィン線形の場合、
+
+$$
+m = M = \frac{f(b) - f(a)}{b - a}.
+$$
+
+$m$ と $M$ が有限の場合、不等式 (5) は (4) の帰結です。これら数のどちらかが無限である場合は自明です。
+
+#### 注意 {#fvr-i-s2-n2-rem-5 .statement tag=0848}
+
+不等式 (5) は、連続写像できないが区間の点において $+\infty$ に等しい右導関数を持つことを証明しています (cf. I, p. 38、練習問題 6)。
+
+### 3. ベクトル写像の平均値定理
+
+#### 定理 2 {#fvr-i-s2-thm-2 .statement tag=0849}
+
+$f$ をベクトル写像として定義し、$\mathbf{R}$ ($a < b$) の閉じた境界区間 $I = [a,\ b]$ 上で連続し、$\mathbf{R}$ 上の正規の空間 E に値を取り込みます。 $g$ を I 上の連続的な増加する実数写像とします。 $f$ と $g$ が、この区間の可算部分集合 A の $[a,\ b[$ における相対補数の正しい導関数点を持っていると仮定します (点 $x \notin A$ のいくつかで $g'_r(x)$ が無限になることを許容します)。このうち点はあります
+
+$$
+\| f'_d(x) \| \leq g'_r(x).
+$$
+
+これらの仮説のもとでは、
+
+$$
+\| f(b) - f(a) \| \leq g(b) - g(a).
+$$
+
+証明はプロップと同様に進みます。 2. $\varepsilon > 0$ を任意とし、位数の中に A を列挙して$(a_n)$ 数列を得る。 J を点 $y \in I$ の集合とし、すべての $x$ について、$a \leq x \leq y$ が
+
+$$
+\| f(x) - f(a) \| \leq g(x) - g(a) + \varepsilon (x - a) + \varepsilon \sum_{a_n < x} \frac{1}{2^n};
+$$
+
+$J = I$ を示しましょう。プロップのように、すぐにわかります。 2、J は区間で、左側の端点は $a$ です。 c がその右側の端点の場合、$c \in J$;実際、すべての $x < c$ について、1 つは (8)、および *なおさら* になります。
+
+$$
+\| f(x) - f(a) \| \leq g(c) - g(a) + \varepsilon (c - a) + \varepsilon \sum_{a_n < c} \frac{1}{2^n}
+$$
+
+ここから、この不等式において$x$が$c$になる傾向があるとすると、$f$の連続性から$c$は(8)を満たすことがわかります。
+
+$c = b$ がなければならないことを示しましょう。したがって、$c < b$ とさらに $c \notin A$ があると仮定します。その場合、$f'_d(c)$ と $g'_r(c)$ が存在し、満たす (6);まず第一に、$g'_r(c)$ (必然的に $\geq 0$) が有限であると仮定します。その場合、いつでも $f'_d(c) = u g'_r(c)$ を $\| u \| \leq 1$ と書くことができます。 写像 $f(x) - u g(x)$ には点 $c$ で零右導関数があるため、$c < y \leq b$ となるような $y$ が存在し、$c \leq x \leq y$ については
+
+$$
+\| f(x) - f(c) - u(g(x) - g(c)) \| \leq \varepsilon (x - c)
+$$
+
+どれから
+
+$$
+\| f(x) - f(c) \| \leq g(x) - g(c) + \varepsilon (x - c)
+$$
+
+そして、$x$ が $c$ に置き換えられる (8) を考慮すると、
+
+$$
+\begin{align*}
+\| f(x) - f(a) \| &\leq g(x) - g(a) + \varepsilon (x - a) + \varepsilon \sum_{a_n < c} \frac{1}{2^n} \\
+&\leq g(x) - g(a) + \varepsilon (x - a) + \varepsilon \sum_{a_n < x} \frac{1}{2^n}.
+\end{align*}
+$$
+
+したがって、$y \in J$ が得られますが、これは矛盾です。次に $c \notin A$ と $g'_r(c) = +\infty$ を仮定します。次に、$c < y \leq b$ となるような $y$ があり、一方では $c \leq x \leq y$ が得られます。
+
+$$
+\| f(x) - f(c) \| \leq (\| f'_d(c) \| + 1) (x - c)
+$$
+
+一方では
+
+$$
+g(x) - g(c) \geq (\| f'_d(c) \| + 1) (x - c)
+$$
+
+どれから
+
+$$
+\| f(x) - f(c) \| \leq g(x) - g(c)
+$$
+
+上記と同様に結論するが 1 つあります。最後に、$c = a_k$ がある場合、$c < y \leq b$ となるような $y$ があり、$c < x \leq y$ については次のようになります。
+
+$$
+\| f(x) - f(c) \| \leq \frac{\varepsilon}{2^k}
+$$
+
+ここから、(8) を考慮して、$x$ を $c$ に置き換えると、
+
+$$
+\begin{align*}
+\| f(x) - f(a) \| &\leq g(c) - g(a) + \varepsilon (c - a) + \varepsilon \sum_{a_n < x} \frac{1}{2^n} \\
+&\leq g(x) - g(a) + \varepsilon (x - a) + \varepsilon \sum_{a_n < x} \frac{1}{2^n}
+\end{align*}
+$$
+
+これはまた矛盾を伴います。 証明はプロップとして終了します。 2.
+
+Q.E.D.
+
+#### 注意 1 {#fvr-i-s2-n3-rem-1 .statement tag=084A}
+
+Here again, in 主張 of th. 2 ]$a, b]$ によって置き換える区間 $[a, b[$ と、「左微分」によって「右微分」ができます。
+
+#### 注意 2 {#fvr-i-s2-n3-rem-2 .statement tag=084B}
+
+(7) の等式の場合を同一視するする方法と、これを一般化する方法を後で示します。 2 を、証明の他の方法の助けを借りて、E が任意の局所凸空間である場合に当てはめます。これにより、 を推定することができます。 2番目から。 1.
+
+#### 系 {#fvr-i-s2-n3-cor-1 .statement tag=084C}
+
+区間 $I \subset \mathbf{R}$ 上の連続ベクトル写像の場合、$\mathbf{R}$ 上の正規化された空間 E にある値が、I で定数であるためには、補数のすべて点で零右微分があれば十分です。 (I に対して) I の可算部分集合 。
+
+#### 注意 {#fvr-i-s2-n3-rem-3 .statement tag=084D}
+
+証明 of ths. 1 と 2 は、本質的な方法で体 $\mathbf{R}$ の特殊なトポロジー特性に依存します。 点ごとに零導関数をもつ K の非定数線形写像が存在する、価値のある体 K の例を与えることができます (cf. I, p. 37、演習​​ 2)。
+
+#### 命題 3 {#fvr-i-s2-prop-3 .statement tag=084E}
+
+$f$ をベクトル写像とし、$\mathbf{R}$ 上のノルム空間 E の値を、区間 $I \subset \mathbf{R}$ で定義され連続し、可算部分集合の補数 B (I に対して) で右微分可能とします。 I; then for all 点 $x_0 \in B, x \in I, y \in I$, one has (supposing that $x < y$, for example)
+
+$$
+\| f(y) - f(x) - f'_d(x_0)(y - x) \| \leq (y - x) \sup_{z \in B, x < z < y} \| f'_d(z) - f'_d(x_0) \|.
+$$ (9)
+
+実際、これを適用するだけで十分です。 2、置き換えること $f$ by 写像
+
+$$
+f(z) - f'_d(x_0)z,
+$$
+
+および $g$ は、導関数が $\sup_{z \in B, x < z < y} \| f'_d(z) - f'_d(x_0) \|$ である線形写像によって計算されます。
+
+複素変数の定理 2 拡大するからベクトル写像:
+
+#### 命題 4 {#fvr-i-s2-prop-4 .statement tag=084F}
+
+*$f$ を、体 $\mathbf{C}$ の凸開部分集合 $A$ 上で定義された複素変数の連続微分可能写像とし、体上の正規化空間 $E$ に値を含めます。 $\mathbf{C}$。すべての $z \in A$ に対して $\|f'(z)\| \leq m$ を持っている場合、その人は、点の対 $a, b$ の $A$ ごとに $\|f(b) - f(a)\| \leq m |b - a|$ を持っています。
+
+$0 \leq t \leq 1$ に $g(t) = \frac{1}{b - a} f(a + t(b - a))$ を入れます。 $g'(t) = f'(a + t(b - a))$、適用日から。 2 を写像 $g$ にすると、すぐに命題が得られます。
+
+#### 系 {#fvr-i-s2-n3-cor-2 .statement tag=084G}
+
+*複素変数のベクトル写像 $f$ は、開いた集合 $A \subset \mathbf{C}$ 上で定義され連続しており、$\mathbf{C}$ 上の正規化された空間の値では、定数であるためには、すべての微分値が零であれば十分です。 $A$中点.*
+
+Indeed, let $a$ be an arbitrary point of $A$; the set $B$ of points $z$ of $A$ where $f(z) = f(a)$ is *closed* because $f$ is continuous; it is also *open*, as is shown by applying prop. 4 (with $m = 0$) to a convex open neighbourhood, contained in $A$, of an arbitrary point of $B$; so is identical to $A$.
+
+#### 命題 5 {#fvr-i-s2-prop-5 .statement tag=084H}
+
+*$f$ を複素変数のベクトル写像とし、凸型の開いた集合 $A \subset \mathbf{C}$ 上で定義され、連続で微分可能な、体 $\mathbf{C}$ 上の正規化空間で値をとります。その場合、点 $x_0, x$ と $y$ が $A$ であっても、*
+$$
+\|f(y) - f(x) - f'_d(x_0)(y - x)\| \leq |y - x| \sup_{z \in A} \|f'(z) - f'(x_0)\|.
+$$
+(10)
+
+を適用すれば十分です。 2から写像
+$$
+g(t) = f(x + t(y - x)) - f'(x_0)(y - x)t
+$$
+区間 $[0, 1]$に。
+
+### 4. デリバティブの継続性
+
+#### 命題 6 {#fvr-i-s2-prop-6 .statement tag=084I}
+
+*$I$ を $\mathbf{R}$ のオープン区間とし、$x_0$ を $I$ のエンドポイントの 1 つとし、$f$ ベクトル写像を$I$ で定義され連続し、値を完全ノルムにします。 空間 $E$ $\mathbf{R}$ を超えます。 $f$ は、$I$ の可算数部分集合の $I$ の補数 $B$ の点に右導関数があるとします。 次に、$x$ が $x_0$ になる傾向があるため、$f'_d(x)$ が極限を持つためには、$B$ と $\neq x_0$ に留まり、$(x, y)$ が $(x_0, x_0)$ になる傾向があるため、$\frac{f(y) - f(x)}{y - x}$ が極限 $c$ を持つことが必要かつ十分です。 $x \in I, y \in I, x \neq x_0, y \neq x_0$と$x \neq y$。 これら条件 $f$ 拡大するでは、点 $x_0$ への連続性により、右導関数 $f'_d(x)$ は $c$ になる傾向があり、$x$ は $x_0$ (B に留まりながら) および写像になる傾向があります。 $f$ 拡張 ($I \cup \{x_0\}$ で定義) は、$x_0$ で$c$ に等しい導関数を持ちます。
+
+たとえば、$x_0$ が I の右側のエンドポイントであると仮定します。まず、B と $\neq x_0$ に留まりながら、$f'_d(x)$ が $c$ になる傾向があり、$x$ が $x_0$ になる傾向がある場合、$\frac{f(y) - f(x)}{y - x}$ は $c$ になる傾向があることを示します。これは th の直後に続きます。 2 を写像 $f(z) - cz$ に適用すると、次のようになります。
+
+$$
+\| f(y) - f(x) - c(y - x) \| \leq (y - x) \sup_{z \in B,\ x < z < y} \| f'_d(z) - c \|
+$$
+
+$x < y < x_0$の場合。逆に、$\frac{f(y) - f(x)}{y - x}$ が $c$ になる傾向がある場合、$\varepsilon > 0$ ごとに条件 $|x - x_0| < h,\ |y - x_0| < h\ (x \neq x_0,\ y \neq x_0)$ が意味するような $h > 0$ が存在します。
+
+$$
+\| f(y) - f(x) - c(y - x) \| \leq \varepsilon |y - x|.
+$$
+
+しかし、$|x - x_0| < h$ のようなすべての $x \in B$ と $\neq x_0$ に対して、関係 $x < y < x + k$ が伴うような $k > 0$ ($x$ に応じて) が存在します。
+
+$$
+\| f(y) - f(x) - f'_d(x)(y - x) \| \leq \varepsilon |y - x|
+$$
+
+そこから (11) を考慮すると次のようになります。
+
+$$
+\| f'_d(x) - c \| \leq 2\varepsilon
+$$
+
+$|x - x_0| < h,\ x \in B$ と $x \neq x_0$ の場合。これは、$f'_d(x)$ が $c$ になる傾向があることを証明しています。さらに、関係 (11) から、すぐに次のことがわかります。
+
+$$
+\| f(y) - f(x) \| \leq (\|c\| + \varepsilon) |y - x|,
+$$
+
+これは、(コーシーの基準によって) $x$ が I と $\neq x_0$ に留まりながら、点に向かう傾向があるため、$f$ が点 $x_0$ で極限 $d$ を持つことを証明します。ここで、(11) で $x$ を $x_0$ に近づけると、$y \in I,\ y \neq x_0$ と $|y - x_0| \leq h$ について、次のようになります。
+
+$$
+\left\| \frac{f(y) - d}{y - x_0} - c \right\| \leq \varepsilon
+$$
+
+これは、$c$ が写像 $f$ の点 $x_0$ での微分であり、連続性によって $I \cup \{x_0\}$ まで拡張されたものであることを証明します。
+
+#### 注意 {#fvr-i-s2-n4-rem-1 .statement tag=084J}
+
+に基づく同様の議論。 1 は、$f$ が実数写像で、$f'_d(x)$ が点 $x_0$ で $+\infty$ になる傾向がある場合、比率が
+
+$$
+(f(y) - f(x))/(y - x)
+$$
+
+$+\infty$ になる傾向もあり、その逆もある。さらに、$f$ が点 $x_0$ (現在の仮定の帰結ではない) に有限の極限がある場合、写像 $f$ は連続性によって $x_0$ に拡張され、この時点で$+\infty$ に等しい微分になります。 点。
+
+### 練習問題 {#fvr-i-s2-exercises}
+
+[§ 2 に対して練習問題](exercises/s2/)を参照してください。

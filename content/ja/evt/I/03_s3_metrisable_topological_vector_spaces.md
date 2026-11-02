@@ -1,0 +1,183 @@
+---
+book: evt
+book_title: Topological Vector Spaces
+chapter: I
+chapter_title: TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING
+section: 3
+section_title: Metrisable topological vector spaces
+lang: ja
+source: evt-i-v
+book_pages: TVS I.28-TVS I.29
+pdf_pages: 0024-0030, 0036-0037
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Neighbourhoods of 0 in a metrisable topological vector space
+      page: 16
+      pdf_page: 24
+    - "no": 2
+      title: Properties of metrisable vector spaces
+      page: 17
+      pdf_page: 25
+    - "no": 3
+      title: Continuous linear functions in a metrisable vector space
+      page: 17
+      pdf_page: 25
+statements: 11
+exercises: 9
+content_sha256: ad14f247f26d2152acfec2fa40a51d77a2dc47965294af1141ad6b822b803166
+translated_from: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
+translation_method: google
+source_content_sha256: 78359984fd72f570938f28fdd80715c249ddc585d312089e4556c2677edeb57f
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: e8476d3e1ce4c33f52759a0c0f54c8e419592cec0f576be4af7066a3b449e9bd
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 3。メトライザブル トポロジカルベクトル空間
+
+### 1.  測定可能なトポロジにおける 0 の近傍ベクトル空間
+
+位相幾何学的なベクトル空間 E は、その位相が可測である場合、*可測である*と言います。したがって、その加法群およびその位相の構造と比較して、E は測定可能な群 (GT, IX, § 3.1) です。
+
+We know that, for a topological group to be metrisable, it is necessary and sufficient that there exists an enumerable fundamental system of neighbourhoods of the neutral element $e$, whose intersection is the single element $e$ (GT, IX, § 3.1, prop. 1).
+
+また、計量可能なトポロジカルベクトル空間 E の一様構造は、*不変距離* $d(x, y) = |x - y|$ によって定義できることもわかっています。ここで、$x \mapsto |x|$ は、条件を満たす $\mathbf{R}_+$ における E の連続写像です: 1) $|-x| = |x|$; 2) $|x + y| \leq |x| + |y|$; 3) 関係 $|x| = 0$ は $x = 0$ と同等です (GT、IX, § 3.1、提案 3)。
+
+私たちは (GT, IX.§ 3.1, prop. 2)、E の 0 の近傍の減少列 $(W_n)$ を使用して、近傍の基本的な系および $W_{n+1} + W_{n+1} + W_{n+1} \subset W_n$ を形成して、そのような距離 d をどのように定義できるかを見ました。 E が非離散値除算環 K にわたる計量可能なベクトル空間である場合、$W_n$ は均衡していると仮定することもできます (I、p. 7、提案 4)。 $d$ の定義 (*上記引用*) のプロセスに戻ると、*関係* $|\lambda| \leq 1 \implies |\lambda x| \leq |x|$ であることがわかります。さらに、I、p. 2 の条件 (EVT$_I$) と (EVT$_{II}$) は、$x_0 \in E$ ごとに $\lambda$ が K* で 0 になる傾向があるため、$|\lambda x_0|$ * 0 になる傾向と、$|\lambda_0 x|$ * が 0 になる傾向があることの両方を暗示しています。 $|x|$ は $\lambda_0 \in K$ ごとに 0* になる傾向があります。逆に、写像 $|x|$ が前述のすべての特性を持ち、$W_n$ が $|x| \leq 2^{-n}$ となるような $x \in E$ の集合である場合、$W_n$ 形は、a のバランスの取れた近傍の基本的な系になります。 E のベクトル空間構造と互換性のある E のメトリサブル位相。
+
+#### 注意 {#evt-i-s3-n1-rem-1 .statement tag=07A5}
+
+測定可能なベクトル空間のうち最も重要な類の 1 つは、標準の空間 (I、p. 3) です。しかし、位相できないがノルム (I, § 3、例題 1) によって定義される計量可能なベクトル空間が存在することに注意する必要があります。重要な例は後で勉強します。
+
+### 2. メトリサブルベクトル空間のプロパティ
+
+計量可能なトポロジカルベクトル空間 E のすべてのベクトル部分空間は計量可能です。同じことが、クローズドベクトル部分空間 M (GT、IX, § 3.1、提案 4) による E のすべての商空間 E/M にも当てはまります。計量可能なトポロジベクトル空間の数え切れない族のすべての積は計量可能です (GT、IX, § 2.4、cor. 2)。 K_0 が完全な値除算環であり、K が K_0 内のどこでも密な部分除算環である場合、K 上の計量可能ベクトル空間 E の完成 $\hat{E}$ は、K_0 上の計量可能ベクトル空間 (I、p. 6 および GT、IX, § 2, No. 1、提案1）。最後に、E が完全な計量可能なベクトル空間である場合、E のすべての閉じたベクトル部分空間 M について、商空間 E/M は完了します (GT、IX, § 3.1、提案 4)。
+
+### 3. 計測可能なベクトル空間における連続線形写像
+
+#### 定理 1 (バナッハ) {#evt-i-s3-thm-1 .statement tag=07A6}
+
+E と F を非離散値除算環 K にわたる 2 つの計量可能ベクトル空間とし、u を F における E の連続線形写像とします。E が完全であると仮定します。したがって、次の条件は同等です。
+(i) u は厳密な全射法射です。
+(ii) F は完全であり、u は全射です。
+(iii) u の像は F (GT、IX, § 5.2) では貧弱ではありません。
+(iv) E の 0 の近傍 V ごとに、集合 $\overline{u(V)}$ は F の 0 の近傍です。
+
+まず、(i) は (ii) を意味します。u を厳密な全射法射とし、N を u の核とします。次に、F 上の E/N の誘導する同型です。しかし、E は計量可能で完全であるため、E/N は完全です (GT, IX, § 3.1, prop. 4)。したがって、F は完全です。
+
+次の (ii) は (iii) を意味します。 F を完全、u を全射とする。 u の像は正確に F であるため、Baire の定理 (GT, IX, § 5.3) と比べて F が貧弱ではありません。
+
+次の補題は、(iii) が (iv) を意味することを示しています。
+
+#### 補題 1 {#evt-i-s3-lem-1 .statement tag=07A7}
+
+E と F を非離散値の除算環 K にわたる 2 つの位相的ベクトル空間とし、u を E の像が微々たるものではないような F における E の連続線形写像とする。次に、E の 0 の近傍 V ごとに、F の 0 の集合 $\overline{u(V)}$ は近傍になります。
+
+W + W ⊂ V (I, § 1.5、提案 4) となるように、W を E の 0 のバランスの取れた近傍とします。 |α| となるような α を K の元とします。 > 1;この場合、E は集合 $\alpha^n W$ の和集合であり、n は $\mathbf{N}$ で変化します。実際、すべての x ∈ E に対して、x ∈ βW (I, p. 7, prop. 4) となる β ∈ K が存在し、|β| となる整数 n ≥ 0 が存在します。 < |α|^n の場合、W は釣り合っているので x ∈ $\alpha^n W$ となります。 Hence, u(E) is the union of the sequence of sets $u(\alpha^n W) = \alpha^n u(W)$, and as u(E) is not meagre in F, one at least of the sets $\alpha^n \overline{u(W)}$ possesses an interior point (GT, IX, § 5.3, def. 2) and therefore $\overline{u(W)}$ has an interior point.
+
+$y_0$ を $\overline{u(W)}$ の内部点とします。 $-u(W) = u(W)$ なので、$-\overline{u(W)} = \overline{u(W)}$ より、$0 = y_0 + (-y_0)$ は $\overline{u(W)} + \overline{u(W)}$ の内部点であることがわかります。 ベクトル加法は$F$ の$F \times F$ の連続写像であるため、集合 $\overline{u(W)} + \overline{u(W)}$ は集合の閉包に含まれます。
+
+$$
+u(W) + u(W) = u(W + W) \subset u(V);
+$$
+
+したがって、$\overline{u(V)}$ は $F$ の 0 の近傍です。
+
+前に証明は、(iv) が (i) 次の補題を証明することを意味します。ここで、すべての計量空間において、$B_r(x)$ は中心 $x$ と半径 $r$ の *閉じた* 球を表すという規則を作成します。
+
+#### 補題 2 {#evt-i-s3-lem-2 .statement tag=07A8}
+
+*E と F を 2 つの計量空間とし、E も完全であると仮定します。次の性質を持つ F の E の線形写像であるとします。 数 $r > 0$ が何であれ、数 $\rho(r) > 0$ が存在するため、すべての $x \in E$ について、*
+
+$$
+B_{\rho(r)}(u(x)) \subset \overline{u(B_r(x))}.
+$$
+
+*これらの条件では、すべての $a > r$、像 $u(B_a(x))$ 含むがボール $B_{\rho(r)}(u(x))$ です。*
+
+$(r_n)$ を、$r_1 = r$ と $a = \sum_{n=1}^{\infty} r_n$ となるような、数 $> 0$ の無限数列とします。それぞれの添字 $n$ には、次のような数 $\rho_n > 0$ ($\rho_1 = \rho(r)$ を含む) が存在します。
+
+$$
+B_{\rho_n}(u(x)) \subset \overline{u(B_{r_n}(x))}
+$$
+
+すべての$x \in E$; $\lim_{n \to \infty} \rho_n = 0$ と仮定することができますし、そうするでしょう。
+
+$x_0$ を E の点とし、$y$ を $B_{\rho(r)}(u(x_0))$ の点とします。 $y$ 属するから $u(B_a(x_0))$ を示します。
+
+このため、E の点の数列 $(x_n)_{n>0}$ は、すべての $n \geq 1$ に対して $x_n \in B_{r_n}(x_{n-1})$ と $u(x_n) \in B_{\rho_{n+1}}(y)$ が得られるように帰納的に定義されます。 $x_i$ が $0 \leq i \leq n-1$ 満たすこれら関係に対して定義されている場合、$y \in B_{\rho_n}(u(x_{n-1}))$ になります。以来
+
+$$
+B_{\rho_n}(u(x_{n-1})) \subset \overline{u(B_{r_n}(x_{n-1}))},
+$$
+
+$y$ の像 $u(x_n)$ 属するから近傍 $B_{\rho_{n+1}}(y)$ までの点 $x_n \in B_{r_n}(x_{n-1})$ が存在し、数列 $(x_n)$ の存在が確立されます。
+
+$x_{n+p}$ からの $x_n$ の距離は $n$ が大きい場合に任意に小さい $r_{n+1} + r_{n+2} + \cdots + r_{n+p}$ より小さいため、数列 $(x_n)$ は E のコーシー 数列です。E が完全なので、数列 $(x_n)$ は次のように収束します。 Eの点 $x$。$x$から$x_0$の距離は$\sum_{n=1}^{\infty} r_n = a$より小さいので、$x \in B_a(x_0)$です。しかし、$u$ は連続であるため、数列 $u(x_n)$ は $u(x)$ に収束します。 $u(x_n) \in B_{\rho_{n+1}}(y)$ なので、$y = u(x)$、そして補題が証明されます。
+
+定理に戻り、(iv) が (i) を意味することを示します。 $u$ が条件 (iv) を満たすとします。 空間 E と F のそれぞれについて、平行移動下で不変である距離と、定義するの位相 (I、p. 16) を考慮します。 仮定により、集合 $\overline{u(B_r(0))}$ は、$r > 0$ ごとに F で 0 の近傍となり、$B_{\rho(r)}(0) \subset u(B_r(0))$ となる数 $\rho(r) > 0$ が存在します。翻訳すると、すべての $r > 0$ とすべての $x \in E$ に対して結論するが $B_{\rho(r)}(u(x)) \subset \overline{u(B_r(x))}$ となります。 補題 2 から、実数正の数 $(a, r), a > r > 0$ の対ごとに、$B_{\rho(r)}(0) \subset u(B_a(0))$ が得られます。したがって、$u$ は F 上の E の厳密な射です。(iv) は (i) を暗示し、定理の証明が完了することを示しました。
+
+#### 系 1 {#evt-i-s3-lem-2-cor-1 .statement tag=07A9}
+
+*E と F が非離散値除算環にわたる 2 つの完全計量可能ベクトル空間である場合、F 上の E のすべての全単射連続線形写像は同型です。
+
+特に、E と F が 2 つの完全な *正規化* 空間である場合、すべての $x \in E$ に対して $\|u(x)\| \geq a.\|x\|$ となる数 $a > 0$ が存在します。
+
+#### 系 2 {#evt-i-s3-lem-2-cor-2 .statement tag=07AA}
+
+*E を非離散値分割環上のベクトル空間とし、$\mathscr{T}_1$ と $\mathscr{T}_2$ をそのベクトル空間構造と互換性のある E 上の 2 つのトポロジーとし、それぞれについて E が計量可能で完全であるとします。次に、$\mathscr{T}_1$ と $\mathscr{T}_2$ が比較可能な場合、それらは同一です。*
+
+#### 系 3 {#evt-i-s3-lem-2-cor-3 .statement tag=07AB}
+
+*E と F を、非離散値除算環にわたる 2 つの完全計量可能なベクトル空間とします。 F における E の連続線形写像 u が厳密な射であるべきであるという位数では、$u(E)$ が F で閉じられていることが必要十分です。
+
+条件が必要なのは、$u$ が厳密な射である場合、像 $u(E)$ は商 $E/u^{-1}(0)$ と同型であり、完全 (I, p. 17) であるため、F で閉じられます。 条件で十分です。なぜなら、$u(E)$ が F で閉じている場合、$u(E)$ は完全な計量可能なベクトル空間でなければならず、したがって、定理により 1 $u$ は$u(E)$ 上の E の厳密な射になります。
+
+#### 系 4 {#evt-i-s3-lem-2-cor-4 .statement tag=07AC}
+
+*E を非離散値除算環にわたる完全な計量可能ベクトル空間とする。 M と N が 2 つの閉じたベクトル部分空間、つまり E の (代数的) 補数である場合、E は M と N の直接トポロジー 和です。
+
+というのは、$M \times N$ は完全可測ベクトル空間と E 上の $M \times N$ の写像 $(y, z) \mapsto y + z$ は連続で全単射であるため、同型 (cor. 1) です。
+
+#### 系 5 (閉じたグラフ定理) {#evt-i-s3-lem-2-cor-5 .statement tag=07AD}
+
+— *E と F を、非離散値の除算環にわたる 2 つの完全な計量可能なベクトル空間とします。 位数において、FのEの線形写像uが連続であるということは、積空間$E \times F$において、そのグラフが閉じていることで必要かつ十分である*。
+
+ハウスドルフ空間への連続写像のグラフが閉じているため、条件が必要です (GT、I, § 8.1、cor. 2)。これが十分であることを確認するには、完全計量可能空間 $E \times F$ の閉じたベクトル部分空間である $u$ のグラフ G 自体が計量可能で完全であることを意味していることに注意してください。 E 上の G の射影 $z \mapsto \mathrm{pr}_1(z)$ は全単射の連続線形写像であるため、同型 (cor. 1)。その逆数写像は $x \mapsto (x, u(x))$ であるため、$u$ は E で連続であることになります。
+
+We can express this corollary in the following form : $u$ is continuous if the following situation holds : if the sequence $(x_n)$ of points of E both converges to 0 and *is such that the sequence* $(u(x_n))$ *converges to* $y$, then it is necessarily the case that $y = 0$.
+
+#### 例 {#evt-i-s3-n3-exa-1 .statement tag=07AE}
+
+— E を $I = [0, 1]$ で定義された実数値写像の空間のベクトル部分空間とします。 $\| f \|$ を E 上のノルムとし、E が *完全* であり、その位相が単純収束の位相よりもより細かいになるようにします。さらに、写像の E 含む集合 $\mathscr{C}^\infty(I)$ が I で無限微分可能であるとします。 I の連続 $k$ 次微分を持つすべての写像のうち E 含む集合 $\mathscr{C}^k(I)$ となる整数 $k \geq 0$ が存在することを示します。
+
+整数 $m > 0,\ n \geq 0$ のすべての対について、$V_{mn}$ を写像 $f \in \mathscr{C}^\infty(I)$ の集合とし、$0 \leq h \leq n$ とすべての $x \in I$ について$|f^{(h)}(x)| \leq 1/m$ とします。 $V_{m,n}$ 形は、$\mathscr{C}^\infty(I)$ のベクトル空間構造と互換性のあるメトリサブル位相の 0 の近傍の基本的な系であり、さらに $\mathscr{C}^\infty(I)$ はこの位相 (FVR, II、p. 2、1)。 $u$ を E の $\mathscr{C}^\infty(I)$ の標準写像とします。 $u$ が *連続* であることを示します。コルから。上記の 5 では、$\mathscr{C}^\infty(I)$ で数列 $(f_n)$ が 0 に収束し、E で極限 $f$ に収束する場合、必然的に $f = 0$ になることを証明するのに十分です。しかし、これは明らかです。なぜなら、仮定により、$f$ は $(f_n)$ の単純な収束極限であるからです。したがって、関係となる整数 $k \geq 0$ と数 $a > 0$ が存在します。
+
+$$
+p_k(f) = \sup_{\substack{x \in I \\ 0 \leq h \leq k}} |f^{(h)}(x)| \leq a
+$$
+
+$\| f \| \leq 1$ はすべての $f \in \mathscr{C}^\infty(I)$ を意味します。
+
+しかし、$p_k$ は空間 $\mathscr{C}^k(I)$ 上のノルムであり、$\mathscr{C}^\infty(I)$ は部分空間であり、このノルムに対して $\mathscr{C}^k(I)$ のどこでも密です (多項式の集合はすでに $\mathscr{C}^k(I)$ のどこでも密です、ヴァイエルシュトラス石定理の明らか帰結）。 E の前に、$\mathscr{C}^\infty(I)$ (ノルム $p_k$ を運ぶ) の恒等写像は連続しているため、空間 $\mathscr{C}^k(I)$ (E が完了しているため) 全体に連続的に拡張できます。これは私たちの主張を証明します。
+
+#### 命題 1 {#evt-i-s3-prop-1 .statement tag=07AF}
+
+*E、F を非離散値除算環 K 上の 2 つのトポロジー ベクトル空間とします。次のように仮定します。
+
+1) E *測定可能で完全*です。
+2) *K 上の完全計量可能なベクトル空間の数列* $(F_n)$ * が存在し、各 n に対して単射連続線形写像* $v_n$ *of* $F_n$ *が F に存在し、F は部分空間の和集合* になります。 $v_n(F_n)$。
+
+*次に、u を F の E の線形写像とします。u のグラフが * $E \times F$ で閉じられている場合、*そのとき、整数 n と連続線形写像* $u_n$ *E の * $F_n$ *そのような* $u = v_n \circ u_n$ *(これは、u が連続であることを意味し、* $u(E) \subset v_n(F_n)$).*
+
+$E \times F$の$u$のグラフをGとする。すべての $n$ について、$E \times F$ の $E \times F_n$ の連続する線形写像 $w_n : (x, y) \mapsto (x, v_n(y))$ を考慮します。 G が閉じているため、集合 $w_n^{-1}(G) = G_n$ は $E \times F_n$ の閉じたベクトル部分空間です。 $p_n$ が最初の射影 $\mathrm{pr}_1$ の制限から $G_n$ である場合、$p_n(G_n) = u^{-1}(v_n(F_n))$ になります。 $p_n$ は連続であり、$G_n$ は完全であるため ($G_n$ は完全な空間 $E \times F_n$ で閉じているため)、$p_n(G_n)$ は、定理 1 までに E がわずかであるか、E の全体になります。しかし、仮定までに、E は$p_n(G_n)$の和集合、そしてEが完了しているため、$p_n(G_n)$のできないはすべてBaireの定理によるEでは貧弱です（GT、IX, § 5.3、th.1）。したがって、$p_n(G_n) = E$ のような整数 n が存在するか、他の語 $u(E) \subset v_n(F_n)$ が存在します。さらに、$v_n$ は単射なので、$G_n$ は$F_n$ の E の線形写像 $u_n$ のグラフであり、閉じたグラフ定理 (I, p. 19, cor. 5) により、$u_n$ は *連続* です。 定義からは $u = v_n \circ u_n$ となります。
+
+練習問題
+
+### 練習問題 {#evt-i-s3-exercises}
+
+[§ 3 に対して練習問題](exercises/s3/)を参照してください。

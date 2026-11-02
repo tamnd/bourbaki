@@ -1,0 +1,320 @@
+---
+book: evt
+book_title: Topological Vector Spaces
+chapter: V
+chapter_title: HILBERTIAN SPACES (ELEMENTARY THEORY)
+section: 2
+section_title: Orthogonal families in a hilbertian space
+lang: ja
+source: evt-i-v
+book_pages: TVS V.17-TVS V.25, TVS V.70-TVS V.73
+pdf_pages: 0275-0283, 0328-0331
+extraction: ocr
+subsections:
+    - "no": 1
+      title: External hilbertian sum of hilbertian spaces
+      page: 17
+      pdf_page: 275
+    - "no": 2
+      title: Hilbertian sum of orthogonal subspaces of a hilbertian space
+      page: 18
+      pdf_page: 276
+    - "no": 3
+      title: Orthonormal families
+      page: 21
+      pdf_page: 279
+    - "no": 4
+      title: Orthonormalisation
+      page: 23
+      pdf_page: 281
+statements: 23
+exercises: 16
+content_sha256: e119ca007eca832241f3ff1a27057c9d9231d84611ecb9c36b16164cbf6c14bd
+translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
+translation_method: google
+source_content_sha256: a7de25f8e6403d336b77dd0506a5e00a8938e7643c273332f7c1b37ad5210590
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: 7a7d580839a966129835c268238a10a618b401ae29444a0cbeb57232484e4b37
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 2。ヒルバーシアンの直交族空間
+
+### 1. ヒルバーティアン空間の外部ヒルバーティアン和
+
+#### 命題 1 {#evt-v-s2-prop-1 .statement tag=07Z7}
+
+*$(E_i)_{i \in I}$ を、$\sum_{i \in I} \|x_i\|^2$ が有限となるようなすべての族 $x = (x_i)_{i \in I}$ のヒルバート空間、P 積ベクトル空間 $\prod_{i \in I} E_i$ および P からなるの E 部分集合とする。
+
+a) E は P のベクトル部分空間です。
+
+b) E のすべての $x = (x_i)_{i \in I}$ と $y = (y_i)_{i \in I}$ について、族 $(\langle x_i|y_i \rangle)_{i \in I}$ は合計可能です。 $\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$ を置くと、E でエルミート形をポジティブに区切る定義するになります。
+
+c) このように定義されたスカラー 積の場合、E はヒルバーシアン空間です。 $E_i$の直和SはEに密集しています。
+
+E の $x = (x_i)_{i \in I}$ と $y = (y_i)_{i \in I}$ については、
+$$
+\|x_i + y_i\|^2 \leq 2(\|x_i\|^2 + \|y_i\|^2),
+$$
+したがって、$x + y = (x_i + y_i)_{i \in I}$ 属するは E になります。これは a) を証明します。
+
+コーシー・シュワルツ不等式により、
+$$
+|\langle x_i|y_i \rangle| \leq \|x_i\| \cdot \|y_i\| \leq \frac{1}{2}(\|x_i\|^2 + \|y_i\|^2)
+$$
+したがって $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$ です。 $x \neq 0$ の場合、$\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$ があるため、主張 b) が続きます。
+
+S はすべての族 $x = (x_i)_{i \in I}$ の P からなるの部分空間であり、$x_i \neq 0$ が有限であるすべての $i \in I$ の集合であることを思い出します。 S が E 内で密であることがすぐにわかります。したがって、ノルム $\|x\| = \langle x|x \rangle^{1/2}$ によって得られる位相 $\mathscr{T}_1$ に対して E が *完全* であることを証明する必要があります。 $\mathscr{T}_2$ を、$\prod_{i \in I} E_i$ の積位相によって E で誘発された位相とします。すべての $r > 0$ について、$B_r$ をすべての $x \in E$ の集合とし、$\|x\| \leq r$ とします。この関係は、I のすべての有限部分集合 J に対して $\sum_{i \in J} \|x_i\|^2 \leq r^2$ があることを意味し、したがって $B_r$ は $\prod_{i \in I} E_i$ の閉じた部分集合であり、したがって完全でもあります。 E が $\mathscr{T}_1$ に対して完了しているという事実は、GT、III, § 3, No. 5、cor から続きます。 2 支柱に。 10.
+
+#### 定義 1 {#evt-v-s2-def-1 .statement tag=07Z8}
+
+*$(E_i)_{i \in I}$ *ヒルバーティアン空間の家族としましょう。 prop で定義されたヒルバーシアン空間 E。 1 は族* $(E_i)_{i \in I}$ の外部ヒルバーティアン和と呼ばれ、* $\bigoplus_{i \in I} E_i$ * または* $\bigoplus_{i \in I} E_i$^1 と書きます。
+
+$f_i$ を $E_i$ から E への写像とし、変換 $z \in E_i$ から元 $(x_k) \in E$ とし、すべての $k \neq i$ と $x_i = z$ に対して $x_k = 0$ とします。 $f_i$ は、ヒルバート空間 $E_i$ から E の閉じたベクトル部分空間への同型であることは明らかです。 $f_i$ は $E_i$ から E への *標準写像* であると言い、一般的に同一視する $E_i$ と、この同型による E の像 。この規則では、$E_i$ と $E_k$ は $i \neq k$ の E で *直交* し、E は部分空間 $E_i$ の和集合によって生成された閉じたベクトル部分空間です。
+
+I が有限の場合、E は $E_i$ の直和です。 E から $E_i$ への正準射影子はすべての $i \in I$ に対して連続であるため、E は $E_i$ のトポロジー 直和でもあります (GT、III, § 6, No. 2、提案 2)。 $I = \{1, n\}$の場合は、$\bigoplus_{i=1}^n E_i$の代わりに$E_1 \oplus E_2 \oplus ... \oplus E_n$と書きます。
+
+#### 例 {#evt-v-s2-n1-exa-1 .statement tag=07Z9}
+
+— E を添字のヒルバーティアン空間および I 集合とする。 $\ell^2_E(I)$ は、族 $(E_i)_{i \in I}$ の外部ヒルベルト和を表すものとします。ここで、すべての $i \in I$ については $E_i = E$ です。他の語では、$\ell^2_E(I)$ はすべてのファミリーの空間 $x = (x_i)_{i \in I}$ の E の元であり、$\sum_{i \in I} \|x_i\|^2 < +\infty$ にはスカラー 積 $\langle x|y \rangle = \sum_{i \in I} \langle x_i|y_i \rangle$ (平方の合計可能なファミリーの空間) が与えられます。 I によってインデックス付けされた E の元)。 $\ell^2(I) = \ell^2_K(I)$を入れます。
+
+### 2. ヒルバーシアン空間の直交ヒルバーシアン部分空間和
+
+#### 定義 2 {#evt-v-s2-def-2 .statement tag=07ZA}
+
+*ヒルバーティアン空間 E は、家族* $(E_i)_{i \in I}$ *が閉じたベクトル部分空間のとき* のヒルバーティアン和であると言われます。
+
+1) *2 つの異なる添字* $i, k$ *in I、部分空間* $E_i$ * および* $E_k$ * は * E で直交します。
+2) *クローズドベクトル部分空間は、* $E_i$ *is* E の和集合によって生成されます。
+
+1 この記法を、空間 $E_i$ (A, II, § 1, No. 6) の«代数» 直和と混同しないように注意しなければなりません。
+
+#### 定理 1 {#evt-v-s2-thm-1 .statement tag=07ZB}
+
+— E をヒルバーティアン空間とし、これは E の閉じたベクトル部分空間の族 $(E_i)_{i \in I}$ のヒルバーティアン和とします。 同型 $f$ が存在し、E から族 $(E_i)$ の外部ヒルバーティアン和 $\bigoplus_{i \in I} E_i = F$ 上に 1 つだけ存在します。そのため、E までの$f$ のすべての $i \in I$、制限は、以下から標準写像 $f_i$ になります。 $E_i$をFに。
+
+$S \subset F$ を $E_i$ の« 代数 » 直和とし、$g$ を S から E への線形写像 $(x_i)_{i \in I} \mapsto \sum_{i \in I} x_i$ とします。 We shall show that $g$ is an isomorphism from the prehilbertian space S onto the (prehilbertian) subspace $g(S)$ of E, generated by the union of the $E_i$ : for, for two elements $x = (x_i)_{i \in I}$, $y = (y_i)_{i \in I}$, we have
+
+$$
+\langle g(x)|g(y) \rangle = \langle \sum_{i \in I} x_i|\sum_{i \in I} y_i \rangle = \sum_{(i,k) \in I \times I} \langle x_i|y_k \rangle .
+$$
+
+しかし、$i \neq k$, $\langle x_i|y_k \rangle = 0$ by 仮定の場合、
+
+$$
+\langle g(x)|g(y) \rangle = \sum_{i \in I} \langle x_i|y_i \rangle = \langle x|y \rangle ;
+$$
+
+これは私たちの主張を証明します。 S は F で密で、$g(S)$ は E で密であるため、F から E へは同型 $g$ 拡大するから同型 $\overline{g}$ になります (V, p. 8, cor.)。 $\overline{g}$ の逆同型 $f$ が必須の写像であることは明らかです。その一意性は、$E_i$の和集合によって生成されたEの閉じた部分空間がEそのものであるという事実から導き出されます。
+
+E が部分空間の族 $(E_i)_{i \in I}$ のヒルバーティアン和である場合、多くの場合、同型 $f$ によって $E_i$ の外部ヒルバーティアン和 F と同一視する E が成り立ちます。 集合 I が有限である場合、E が $(E_i)_{i \in I}$ 族のヒルベルト和であるというというは、 $E_i$ が 2 行 2 の直交であり、ベクトル空間 E が $(E_i)_{i \in I}$ 族の直和であることを意味します。 部分空間。
+
+#### 系 1 {#evt-v-s2-thm-1-cor-1 .statement tag=07ZC}
+
+— E をヒルバーティアン空間とします。これは、E の閉じたベクトル部分空間の族 $(E_i)_{i \in I}$ のヒルバーティアン和です。すべての $i \in I$ について、$p_{E_i}$ を E から $E_i$ へのオルソプロジェクター (V、p. 13) とします。
+
+a) すべての $x \in E$ について、ファミリー $(\|p_{E_i}(x)\|^2)_{i \in I}$ は $\mathbf{R}$ で合計可能であり、ファミリー $(p_{E_i}(x))_{i \in I}$ は E で合計可能であり、次のようになります。
+
+$$
+\|x\|^2 = \sum_{i \in I} \|p_{E_i}(x)\|^2 , \quad x = \sum_{i \in I} p_{E_i}(x) .
+$$
+
+b) 逆に、$(x_i)_{i \in I}$ が、すべての $i \in I$ と $\sum_{i \in I} \|x_i\|^2 < + \infty$ に対して $x_i \in E_i$ となるような E の元の族である場合、この族は合計可能であり、和 $x$ は、すべてに対して $p_{E_i}(x) = x_i$ である E の唯一の点です。 $i \in I$。
+
+c) E の点 $x, y$ のすべての対について、次のようになります。
+
+$$
+\langle x|y \rangle = \sum_{i \in I} \langle p_{E_i}(x)|p_{E_i}(y) \rangle .
+$$
+
+これらの特性は実際、$E_i$ の外部ヒルバーティアン和にとって明らかであり、同型によって E に転送できます。
+
+#### 系 2 {#evt-v-s2-thm-1-cor-2 .statement tag=07ZD}
+
+— E を、I、部分空間の個別の添字 $i, k$ のすべての対に対して、E の完全なベクトル部分空間のハウスドルフ プレヒルベルト空間、$(E_i)_{i \in I}$ とする。 $E_i$ と $E_k$ は直交しています。 $E_i$の和集合によって生成されたEの閉じたベクトル部分空間をVとします。すべての $i \in I$ について、$p_{E_i}$ を E から $E_i$ へのオルソプロジェクターとします。 $x \in E$ にしましょう。
+
+1) $\sum_{i \in I} \|p_{E_i}(x)\|^2 \leq \|x\|^2$ があります。
+
+2) 次の条件は同等です: a) $x \in V$; b) $\sum_{i \in I} \|p_{E_i}(x)\|^2 = \|x\|^2$; c) 族 $(p_{E_i}(x))_{i \in I}$ は E で合計可能であり、$x = \sum_{i \in I} p_{E_i}(x)$ があります。
+
+3) V が完了したとします。すると、族 $(p_{E_i}(x))_{i \in I}$ は E で要約可能であり、
+$$
+p_V(x) = \sum_{i \in I} p_{E_i}(x), \quad \|p_V(x)\|^2 = \sum_{i \in I} \|p_{E_i}(x)\|^2,
+$$
+ここで、$p_V$ は E から V へのオルソプロジェクターを表します。
+
+$\hat{E}$ を E のヒルベルト空間完成とします。私たちは同一視する東に$\hat{E}$の部分空間が密集しています。 $E_i$は完了しており、$\hat{E}$の部分空間は閉じられています。 $\hat{E}$のVの閉包$\overline{V}$は、$E_i$の和集合と$V = \overline{V} \cap E$によって生成された$\hat{E}$の閉包ベクトル部分空間です。 空間 $\hat{E}$ は、$E_i$ と部分空間 W のヒルベルト和であり、$\hat{E}$ における $\overline{V}$ の直交補数です。すべての $i \in I$ に $x_0 = p_W(x)$ と $x_i = p_{E_i}(x)$ を入れます。コルによって。 1、$\hat{E}$には$\|x\|^2 = \|x_0\|^2 + \sum_{i \in I} \|x_i\|^2$、$x = x_0 + \sum_{i \in I} x_i$があります。これは、主張 1)、および 2) の条件 b) および c) が条件 $x_0 = 0$、したがって条件 $x \in V$ と同等であるという事実を意味します。最後に、V が完了し、$x' = p_V(x)$ を置くと、$x' - x_i = (x - x_i) - (x - p_V(x))$ が得られます。したがって、$x' - x_i$ は$E_i$ に直交し、すべての$i \in I$ に対して$x_i = p_{E_i}(x')$ となります。 性質 2) をベクトル $x'$ に適用するだけで十分です。
+
+#### 注意 {#evt-v-s2-n2-rem-1 .statement tag=07ZE}
+
+E を、個別の添字 $i, k$、部分空間 $V_i$ および $V_k$ のすべての対に対して直交するような E のベクトル部分空間のハウスドルフプレヒルベルト空間、$(V_i)_{i \in I}$ とする。 Then, for every $k \in I$, the intersection of $V_k$ and of the closed vector subspace $W_k$ generated by the union of the $V_i$ for all $i \neq k$ reduces to 0 for, if $x$ belongs to $V_k$ and also to $W_k$, then it is orthogonal to all the $V_i$ for $i \neq k$, hence to $W_k$. 特に、$x$ はそれ自体に直交しているため、零です。
+
+#### 命題 2 {#evt-v-s2-prop-2 .statement tag=07ZF}
+
+— E をヒルバーティアン空間および $(V_\lambda)_{\lambda \in L}$ を E の閉じたベクトル部分空間の族とする。すべての $\lambda \in L$ について、$(W_{\lambda \mu})_{\mu \in M_\lambda}$ を $V_\lambda$ の閉じたベクトル部分空間の族とし、$V_\lambda$ はこの族の和集合によって生成された閉じたベクトル部分空間とします。 E が $(W_{\lambda \mu})_{\lambda \in L, \mu \in M_\lambda}$ 族のヒルバーティアン和である位数では、E が $(V_\lambda)_{\lambda \in L}$ 族のヒルバーティアン和であり、各 $\lambda \in L$ について、$V_\lambda$ が族のヒルバーティアン和であることが必要かつ十分です。 $(W_{\lambda \mu})_{\mu \in M_\lambda}$ (「ヒルベルト行列和の結合性」)。
+
+条件が必要であることを示すには、$\alpha \neq \beta$ の場合に $V_\alpha$ と $V_\beta$ が直交することを確認するだけで十分です。しかし、$W_{\alpha \mu}$ ($\mu \in M_\alpha$) のすべての元は、すべての $W_{\beta v}$ ($v \in M_\beta$) と直交しており、したがって、それらが生成するである閉じたベクトル部分空間 $V_\beta$ と直交します。同じ議論は、$V_\beta$ のすべての元が $V_\alpha$ に直交し、すべての $W_{\alpha \mu}$ ($\mu \in M_\alpha$) に直交することを示します。
+
+条件が十分であることを示すには、それが満たされる場合、E が $W_{\lambda \mu}$ ($\lambda \in L$, μ ∈ M_λ) の和集合によって生成された閉じたベクトル部分空間 F に等しいことを検証するだけで十分です。ただし、各 λ ∈ L に対して、F 含むは、μ ∈ M_λ となるように W_{λμ} の和集合によって生成された閉じたベクトル部分空間、つまり F 含む V_λ です。したがって、F は V_λ の和集合によって生成された閉じたベクトル部分空間であり、これは仮定によって E になります。
+
+### 3. 正規直交家族
+
+#### 定義 3 {#evt-v-s2-def-3 .statement tag=07ZG}
+
+プレヒルバーシャン空間では、ベクトルの族 (e_i)_{i∈I} は、e_i と e_k がすべての i ≠ k に対して直交である場合に直交であると言われ、すべての加法 $\|e_i\| = 1$ にある場合に正規直交であると言われます。 $i \in I$。
+
+S からそれ自体への恒等写像によって定義される族が正規直交であるような E の部分集合 S は正規直交集合であると言われます。 (e_i)_{i∈I} が正規直交族の場合、写像 $i \mapsto e_i$ は単射的です。そうすれば、正規直交家族や正規直交集合について無関心に話すことができます。
+
+(e_i)_{i∈I} が正規直交族である場合、完全な 1 次元ベクトル部分空間 D_i = Ke_i は 2 × 2 直交します。すべての x ∈ E について、D_i 上の x の直交射影は $⟨e_i|x - \lambda_i e_i⟩ = 0$ と $\lambda_i e_i$ であり、$⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$ が得られます。 部分空間 D_i に適用された No. 2 の結果は、次の命題を意味します。
+
+#### 命題 3 {#evt-v-s2-prop-3 .statement tag=07ZH}
+
+ハウスドルフ プレヒルバーティアン空間 E では、すべての正規直交ファミリは位相的に独立しています。
+
+この性質は、K が R に等しいか、または E に等しいため、E の完了による E の双対の同定または E への空間共役の同定により、位相的に独立した族 (IV、p. 1 および II、p. 43、cor. 2) の特徴付けの直後に続くことに注意します。 C (V、p. 17、注意)。
+
+#### 命題 4 {#evt-v-s2-prop-4 .statement tag=07ZI}
+
+E をハウスドルフ プレヒルベルト空間、(e_i)_{i∈I} を E の正規直交族、V e_i によって生成された E の閉じたベクトル部分空間とします。
+
+1) すべての x ∈ E について、次のようになります。
+
+$$
+\sum_{i\in I} |⟨e_i|x⟩|^2 \leq \|x\|^2
+$$
+
+(ベッセルの不等式);ここでは、$⟨e_i|x⟩ \neq 0$ が可算であるように、すべての $i \in I$ のうち集合です。さらに、次の条件は同等です: a) $x \in V$; b) $\|x\|^2 = \sum_{i\in I} |⟨e_i|x⟩|^2$; c) 族 $⟨e_i|x⟩.e_i$ は E と $x = \sum_{i\in I} ⟨e_i|x⟩.e_i$ で合計可能です。
+
+2) V が完了している場合、すべての $⟨e_i|x⟩.e_i$ の族は、すべての $x \in E$ および $\sum_{i\in I} ⟨e_i|x⟩.e_i = p_V(x), \sum_{i\in I} |⟨e_i|x⟩|^2 = \|p_V(x)\|^2$ について E で合計可能です。
+
+3) V が完了したとします。 $\sum_{i\in I} |\lambda_i|^2 < +\infty$ のようなスカラーのすべての族 $(\lambda_i)_{i\in I}$ に対して、すべての $i \in I$ に対して $⟨e_i|x⟩ = \lambda_i$ となるような固有の点 $x \in V$ が存在します。 $(\mu_i)_{i\in I}$ が $\sum_{i\in I} |\mu_i|^2 < +\infty$ のような 2 番目のスカラー族である場合、および $y \in V$ がすべての $i \in I$ に対して $⟨e_i|y⟩ = \mu_i$ である場合、$⟨x|y⟩ = \sum_{i\in I} \overline{\lambda_i} \mu_i$ になります。
+
+#### 命題 5 {#evt-v-s2-prop-5 .statement tag=07ZJ}
+
+— $(e_i)_{i \in I}$ をハウスドルフ プレヒルベルト空間 E の正規直交族とします。次のプロパティは同等です。
+a) 家族$(e_i)$は全員です。
+b) すべての $x \in E$ について、族 $\langle e_i | x \rangle \cdot e_i$ は E で合計可能であり、$x = \sum_{i \in I} \langle e_i | x \rangle \cdot e_i$ が得られます。
+c) $x \in E$ ごとに、
+
+$$
+\|x\|^2 = \sum_{i \in I} |\langle e_i | x \rangle|^2
+$$
+
+(パーシヴァルの関係)。
+
+E がヒルバーティアンである場合、これらの条件は次と同等です。
+d) $i \in I$ に対する関係 $\langle e_i | x \rangle = 0$ は、$x = 0$ を意味します。
+
+条件の同値 a)、b)、c) は prop の直後に続きます。 4. E がヒルベルトの場合、条件 a) と d) の同値は cor から求まります。 V、p. 16の1。
+
+#### 定義 4 {#evt-v-s2-def-4 .statement tag=07ZK}
+
+— ハウスドルフ プレヒルバーティアン空間 E の正規直交家族全体は、E の正規直交基底と呼ばれます。
+
+ハウスドルフ プレヒルベルト空間 E の正規直交基底は、E の完成の正規直交基底でもあります。
+
+$(e_i)_{i \in I}$ を E の正規直交値基底とします。すべての $x \in E$、数 $\langle e_i | x \rangle$ は、言葉の乱用により、基底 $(e_i)$ に対する $x$ の座標と呼ばれます。 E のすべての $x$ と $y$ について、次のようになります。
+
+$$
+\langle x | y \rangle = \sum_{i \in I} \overline{\langle e_i | x \rangle} \langle e_i | y \rangle .
+$$
+
+E の正規直交基底は、一般に、A、II、p. 25 で定義される意味での、体 K 上の E の基底ではありません。混乱を避けるために、loc の意味でプレヒルバーティアン空間 E の基底と常に言うことにします。引用。は K に対する E の代数基底です。
+
+E と F を 2 つのハウスドルフ プレヒルベルト空間と、E から F への連続線形写像である $u$ とします。$(e_i)_{i \in I}$ (それぞれ $(f_j)_{j \in J}$) を E (それぞれ F) の正規直交値基底とします。置く
+
+$$
+u_{ji} = \langle f_j | u(e_i) \rangle
+$$
+
+$i \in I,\ j \in J$の場合。ファミリ $(u_{ji})_{(i,j) \in I \times J}$ は、正規直交基底 $(e_i)$ および $(f_j)$ に関して、$u$ の行列と呼ばれます。 $x \in E$ と $y = u(x)$ としましょう。 $x$ と $y$ の座標に対してそれぞれ $\xi_i = \langle e_i | x \rangle$ と $\eta_j = \langle f_j | y \rangle$ を書くと、すべての $j \in J$ に対して $\eta_j = \sum_{i \in I} u_{ji} \xi_i$ が得られます。 $(e_i)$ が E の代数基底であり、$(f_j)$ が F の代数基底であるとき、私たちの定義は A の代数 II, § 10, No. 4 と一致します。
+
+#### 例 {#evt-v-s2-n3-exa-1 .statement tag=07ZL}
+
+E を $\mathbf{R}$ 上のすべての複素数値連続写像の空間とし、$x \in \mathbf{R}$ と $n \in \mathbf{Z}$ では $f(x + n) = f(x)$ とします。 E に次のように定義されるスカラー 積を代入します。
+
+$$
+\langle f | g \rangle = \int_0^1 \overline{f(t)}\ g(t)\ dt .
+$$
+
+この場合、E はハウスドルフ プレヒルバーティアン空間ですが、完全ではありません。 整数 $n \in \mathbf{Z}$ ごとに、$e_n(x) \in \mathbf{e}(nx)$ とします。族 $(e_n)_{n \in \mathbf{Z}}$ が E で正規直交であるのは明らかです。また、E 上の一様収束の位相は、ノルム $\|f\|_2 = \langle f|f \rangle^{1/2}$ から推定される位相よりもより細かいです。ファミリ $(e_n)_{n \in \mathbf{Z}}$ は一様収束 (GT, X, § 4, No. 4) の E で合計され、プレヒルバーシャン空間 E の *なおさら* です。 したがって、$(e_n)_{n \in \mathbf{Z}}$ は E の正規直交基底です。
+
+### 4. 直交正規化
+
+#### 定理 2 {#evt-v-s2-thm-2 .statement tag=07ZM}
+
+*ヒルバーシアン空間 E の正規直交集合 L ごとに、E 含む L の正規直交基底 B が存在します。*
+
+実際、$\mathfrak{D}$ を、包含によって線形に順序付けされた E のすべての正規直交部分集合の族とします。この族が有限の指標 (S, III, § 4, No. 5) を持つのは明らかです。したがって、$\mathfrak{D}$ 含む L には、th による *最大* ファミリー B が存在します。 Sの1、III, § 4, No. 5。 B が合計集合であることを証明する必要があります。そうでない場合は、B のすべてのベクトル (V、p. 22、定数 5) に直交するベクトル $y \neq 0$ が存在し、y に適切なスカラーを乗算すると、$\|y\| = 1$ と仮定できます。その場合、$B \cup \{y\}$ は B および含む B とは異なる正規直交集合になります。これは B の矛盾する定義です。したがって定理です。
+
+#### 系 1 {#evt-v-s2-thm-2-cor-1 .statement tag=07ZN}
+
+*すべてのヒルバーシアン空間には、正規直交基底が存在します。*
+
+を適用するだけで十分です。 2 件$L = \varnothing$ に。
+
+#### 系 2 {#evt-v-s2-thm-2-cor-2 .statement tag=07ZO}
+
+*すべてのヒルバーシアン空間は空間 $\ell^2(I)$ と同型です。*
+
+より正確には、$(e_i)_{i \in I}$ をヒルバーシアン空間 E の正規直交値基底とします。小道具によります。 4 (V、p. 21) および 5 (V、p. 22)、写像 $\phi$ によって定義されます
+$$
+\phi(x) = (\langle e_i|x \rangle)_{i \in I}
+$$
+E から $\ell^2(I)$ へのヒルバーティアン空間同型です。 逆同型 $\psi$ は次のように定義されます
+$$
+\psi((\lambda_i)_{i \in I}) = \sum_{i \in I} \lambda_i e_i .
+$$
+
+#### 命題 6 {#evt-v-s2-prop-6 .statement tag=07ZP}
+
+*E をハウスドルフ プレヒルベルト空間とし、$(a_n)_{n \in I}$ (原点 1 の $\mathbf{N}$ の I 区間) を E のベクトルの可算 (有限であるかどうかに関係なく) 独立族とする。正規直交族 $(e_n)_{n \in I}$ が存在し、E には次の式が 1 つだけ存在します。プロパティ:
+
+1) $e_1, e_2, ..., e_p$ によって生成された E のすべての整数 $p \in I$、ベクトル部分空間は、$a_1, a_2, ..., a_p$ によって生成された E のベクトル部分空間と同一です。
+2) すべての整数 $p \in I$、数 $\langle a_p|e_p \rangle$ は実数、$> 0$ です。
+
+実際、$V_n$ を、$a_1, a_2, ..., a_n$ によって生成された (次元 n のうち) 部分空間とします。 $n + 1 \in I$ と $b_{n+1} = a_{n+1} - p_{V_n}(a_{n+1})$ ($p_{V_n}$ は完全な部分空間 $V_n$ へのオルソプロジェクター) の場合、線 $K b_{n+1}$ は $V_{n+1}$ の $V_n$ の直交になります。 $e_n$ 満たす条件 1) 命題の場合、$e_{n+1} = \lambda b_{n+1}$ が必要です。 条件 $\|e_{n+1}\| = 1$ は $|\lambda|^2 \|b_{n+1}\|^2 = 1$ を暗示し、条件 $\langle a_{n+1}|e_{n+1} \rangle > 0$ は $\lambda \langle a_{n+1}|b_{n+1} \rangle > 0$ を暗示します。これは完全に決定する $\lambda$ であり、帰納法によって決定する、正規直交族 $(e_n)_{n \in I}$ を 1 つだけ作成して、命題の満たす条件 1) と 2) ができることを証明しました。
+
+数列 $(e_n)_{n \in I}$ は、独立した族 $(a_n)_{n \in I}$ から *直交正規化* によって得られると言われています。 $(e_n)$ 族によって生成されたベクトル部分空間が、$(a_n)$ 族によって生成されたベクトル部分空間と同一であることは明らかです。特に、$(a_n)$ が合計数列である場合、$(e_n)$ も合計であり、これは E の正規直交基底です。したがって、次のようになります。
+
+#### 系 {#evt-v-s2-n4-cor-1 .statement tag=07ZQ}
+
+*すべてのハウスドルフ プレヒルベルト空間 E 満たすの可算性の最初の公理には、可算直交正規直交基底が存在します。
+
+E が可算性の最初の公理を満たす場合、E には合計数列が存在し、そのような数列 (A, II, § 7, No. 1, th. 2) から常に独立した全体族を抽出できます。
+
+正規直交関数基底を持たないハウスドルフプレヒルバーティアン空間の例を与えることができます (V, p. 70, exerc. 2)。
+#### 例 {#evt-v-s2-n4-exa-1 .statement tag=07ZR}
+
+I を $\mathbf{R}$ の区間 $(-1, 1)$ と、I の実数値連続写像の E ベクトル空間とします。 $x$ は、I から $\mathbf{R}$ までの標準単射を表し、E の元とみなします。 Stone-Weierstrass によれば、定理数列 $(x^n)_{n \in \mathbf{N}}$ は、一様収束 GT の位相に対する E の合計です。 X, § 4, No. 2）。
+E を、スカラー 積が次のように与えられる実際のハウスドルフ プレヒルベルト空間として考えます。
+$$
+\langle f | g \rangle = \int_{-1}^{1} f(t) \, g(t) \, dt .
+$$
+数列 $(x^n)_{n \in \mathbf{N}}$ は、プレヒルバーティアン空間 E で合計されます。$(\Pi_n)_{n \in \mathbf{N}}$ を、数列 $(x^n)_{n \in \mathbf{N}}$ の直交正規化によって得られた数列とします。ルジャンドル多項式 $P_n$ が次のように定義される場合、$\Pi_n = (n + \frac{1}{2})^{1/2} P_n$ であることがわかります。
+$$
+P_n(x) = \frac{1}{2^n n!} \left( \frac{d}{dx} \right)^n (x^2 - 1)^n .
+$$
+
+#### 命題 7 {#evt-v-s2-prop-7 .statement tag=07ZS}
+
+*ヒルバーシアン空間 E では、2 つの正規直交基底は等力です。*
+
+B と C を E の 2 つの正規直交基底とします。有限の正規直交基底は空間の代数基底であるため、2 つの集合 B、C のうちの 1 つが有限である場合は自明です。したがって、B と C が無限大であると仮定します。すべての $x \in B$ について、$C_x$ をすべての $y \in C$ の C からなるの部分集合とし、$\langle x | y \rangle \neq 0$ とします。 集合 $C_x$ は可算です (V、p. 21、提案 4)。 B は正規直交基底および $y \neq 0$ であるため、すべての $y \in C$ に対して、$y \in C_x$ となる $x \in B$ が存在します。他の語 C は、$x$ が B の範囲にあるため、可算数集合 $C_x$ の和集合です。したがって、C の基数は $\mathbf{N} \times B$ の基数よりも小さく、したがって B の基数よりも小さくなります (S, III, § 6, No. 3,コル4）;同様に、B の基数は C の基数よりも小さくなります。これで証明は完了です。
+
+ヒルバーシアン空間 E の任意の正規直交関数基底の基数は、E の *ヒルバーシアン次元* と呼ばれます。
+
+#### 系 1 {#evt-v-s2-prop-7-cor-1 .statement tag=07ZT}
+
+*ヒルバーシアン空間 E に 2 つの正規直交基底が与えられると、最初の基底を 2 番目の基底に変換する E の自己同型が存在します。
+
+#### 系 2 {#evt-v-s2-prop-7-cor-2 .statement tag=07ZU}
+
+— ヒルバート空間 $\ell^2(I)$ と $\ell^2(J)$ が同型である位数では、I と J が等能であることが必要かつ十分です。
+
+### 練習問題 {#evt-v-s2-exercises}
+
+[§ 2 に対して練習問題](exercises/s2/)を参照してください。

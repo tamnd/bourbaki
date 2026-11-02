@@ -1,0 +1,324 @@
+---
+book: evt
+book_title: Topological Vector Spaces
+chapter: I
+chapter_title: TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING
+section: 1
+section_title: Topological vector spaces
+lang: ja
+source: evt-i-v
+pdf_pages: 0009-0019, 0030-0033
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Definition of a topological vector space
+      page: 0
+      pdf_page: 9
+    - "no": 2
+      title: Normed spaces on a valued division ring
+      page: 3
+      pdf_page: 11
+    - "no": 3
+      title: Vector subspaces and quotient spaces of a topological vector space; products of topological vector spaces; topological direct sums of subspaces
+      page: 4
+      pdf_page: 12
+    - "no": 4
+      title: Uniform structure and completion of a topological vector space
+      page: 5
+      pdf_page: 13
+    - "no": 5
+      title: Neighbourhoods of the origin in a topological vector space over a valued division ring
+      page: 6
+      pdf_page: 14
+    - "no": 6
+      title: Criteria of continuity and equicontinuity
+      page: 8
+      pdf_page: 16
+    - "no": 7
+      title: Initial topologies of vector spaces
+      page: 9
+      pdf_page: 17
+statements: 27
+exercises: 14
+content_sha256: 8af34f6cf52089ad7867d28489539d328af755b75b78665e3df9089c3a3b6c3b
+translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
+translation_method: google
+source_content_sha256: 99f7362e5facc0f5a48166a8143125835c4c5eb7fc7a7fc95d4ea773e2bc3c95
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: 6a77e11955a392f95c733492940996224b23fb49a87058fa0f71d041914194cb
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 1。トポロジカルベクトル空間
+
+### 1. トポロジー ベクトル空間の定義
+
+#### 定義 1 {#evt-i-s1-def-1 .statement tag=077V}
+
+— *位相分割環* $\mathbf{K}$ (GT, III, § 6.7) *および集合* $E$ *そのような* $E$ *は*
+$1^\circ$ * 左ベクトル空間の構造* $\mathbf{K}$;
+$2^\circ$ *位相は、* $E$ (GT、III, § 1.1) * および加法の満たすの加法群の構造と互換性があります:*
+*(EVT)* *写像* $(\lambda, x) \mapsto \lambda x$ *of* $\mathbf{K} \times E$ *in* $E$ *連続です* *then* $E$ *は左トポロジカルベクトル空間 over* (または on) $\mathbf{K}$ と呼ばれます。
+
+$E$ が *位相左* $\mathbf{K}\text{-module}$ (GT, III, § 6.6) であるというと同等です。
+$\mathbf{K}$ に対する左ベクトル空間構造と、集合 $E$ 上の指定された位相は、$E$ の位相と加法群構造が互換性があり、 加法、公理 (EVT) は有効です。これは、$E$の$E \times E$と$\mathbf{K} \times E$の2つの写像$(x, y) \mapsto x + y$と$(\lambda, x) \mapsto \lambda x$がそれぞれ連続しているというというと同じで、そのとき写像$x \mapsto -x = (-1)x$は連続で、位相は連続です。 $E$ は、加法群構造と互換性があります。
+
+$E$ が $\mathbf{K}$ 上の左トポロジー ベクトル空間である場合、$E$ はそのベクトル空間構造のみを備え、トポロジー ベクトル空間 $E$ の*基礎となる*と言います。
+
+#### 例 {#evt-i-s1-n1-exa-1 .statement tag=077W}
+
+— 1) If $E$ is a left vector space over a *discrete* topological division ring $\mathbf{K}$, the *discrete* topology on $E$ is compatible with the vector space structure of $E$ (this is not so if $\mathbf{K}$ is non-discrete and $E$ is not the single point 0).
+2) Let $A$ be a topological ring (GT, III, § 6.3) and let $\mathbf{K}$ be a subring of $A$ that is also a division ring and such that the topology induced on $\mathbf{K}$ by that of $A$ is compatible with the division ring structure of $\mathbf{K}$; then the topology of $A$ is compatible with its left vector space structure on $\mathbf{K}$.
+3) Let $\mathbf{K}$ be any topological division ring and $I$ an arbitrary set. 積ベクトル空間 $K_s^I(A, II, § 1.5)$、積位相はベクトル空間構造 (GT、III, § 6.4) と互換性があります。 Or we can say that the space $K_s^I$ of mappings of $I$ in $\mathbf{K}$ with *pointwise* or *simple convergence* topology is a topological vector space on $\mathbf{K}$ (TG, X, p. 4).
+4) Let $X$ be a topological space; on the set $E = \mathscr{C}(X; \mathbf{R})$ of finite real-valued *continuous* functions defined over $X$, the *compact convergence* topology (GT, X, § 1.3) is compatible with the vector space structure of E on $\mathbf{R}$. なぜなら、$u_0$ を E の点とし、H を X の圧縮部分集合とし、$\varepsilon$ を任意の厳密に正の数とします。 実数値写像 $u_0$ は H で制限されます。 $a = \sup_{t \in H} |u_0(t)|$ にしましょう。 $u$ が E のいずれかの点である場合、すべての $t \in H$
+
+$$
+|\lambda u(t) - \lambda_0 u_0(t)| \leq |\lambda| \cdot |u(t) - u_0(t)| + a |\lambda - \lambda_0|.
+$$
+
+したがって、すべての $t \in H$ に対して $|\lambda - \lambda_0| \leq \varepsilon$ と $|u(t) - u_0(t)| \leq \varepsilon$ がある場合、$t \in H$ については、
+$|\lambda u(t) - \lambda_0 u_0(t)| \leq \varepsilon (\varepsilon + |\lambda_0| + a)$、公理 (EVT) が満たされていることを示します。同様に、コンパクト収束位相が E の加法群構造と互換性があることを検証できます。
+
+一方、X がコンパクトでない場合、*一様収束* 位相 (X) は E のベクトル空間構造と必ずしも互換性がありません。たとえば、$X = \mathbf{R}$ で、$u_0$ が $\mathbf{R}$ の無制限連続写像である場合、E の $\mathbf{R}$ の写像 $\lambda \mapsto \lambda u_0$ は、E の一様収束位相では連続ではありません。
+
+5) E を位相分割環 K 上で有限次元 $n$ のベクトル空間とする。 ベクトル K 空間の同型 $u : K_s^n \to E$ が存在し、さらに、$v$ が E 上の $K_s^n$ の 2 番目の同型である場合、$v = u \circ f$ と書くことができます。ここで、$f$ はベクトルの自己同型です。 Kスペース$K_s^n$。 $K_s^n$ で、 ベクトル空間構造 (*例 3*) と互換性のある *積* 位相を考えてみましょう。 $K_s^n$ のすべての線形写像はそれ自体この位相に対して連続であるため、ベクトル空間 $K_s^n$ のすべての自己同型は *共連続* です。したがって、$K_s^n$の積位相を、E上の$K_s^n$のいずれかである同型によってEに*転送*すると、Eで得られる位相は、使用される特定の同型から*独立しています。私たちはそれを E 上の *標準位相* と呼びます。 K が評価を伴う非離散完全除算環である場合、それを別の方法で特徴付けます (I, § 1.3)。 K 上のトポロジカルベクトル空間内の E のすべての線形写像は、E 上の正規の位相に対して *連続* です。
+
+デフと同じように。 1、K 上の *正しい* 位相ベクトル空間、位相分割環を定義できます。しかし、K 上のすべての右ベクトル空間は、K (A, II, § 1.1) の反対の除算環 $K^0$ の左ベクトル空間と考えることができ、K の位相は除算環 $K^0$ の構造と互換性があります。このため、通常は左トポロジカルベクトル空間のみを考慮します。私たちが修飾なしに「トポロジカルベクトル空間」について話すときは、左ベクトル空間を指していることを理解してください。
+
+K' が K の部分分割環で、E が K 上のトポロジー ベクトル空間である場合、スカラーの体を K' に制限することによって得られる、E の位相が K' に対する E のベクトル空間構造と互換性があることは明らかです。この手順で得られた K' 上のトポロジカルベクトル空間は、K 上のトポロジカルベクトル空間 E の*基礎となる*と言います。
+
+トポロジカルなベクトル空間 E が *Hausdorff* である位数では、E のすべての $x \neq 0$ に対して、含む $x$ ではなく 0 の近傍が存在することが必要かつ十分です (GT, III, § 1.2)。
+
+E の加法群構造と互換性のある位相分割環 K 上のベクトル空間 E 上の位相を考えてみましょう。
+
+$$
+\lambda x - \lambda_0 x_0 = (\lambda - \lambda_0) x_0 + \lambda_0 (x - x_0) + (\lambda - \lambda_0) (x - x_0)
+$$
+
+公理 (EVT) は、3 つの公理のうち次の系に相当します。
+
+*(EVT$_1'$)* *すべて* $x_0 \in E$、*写像* $\lambda \mapsto \lambda x_0$ *は* $\lambda = 0$で連続です。
+
+*(EVT$_2'$)* *すべて* $\lambda_0 \in K$、*写像* $x \mapsto \lambda_0 x$ *は* $x = 0$で連続です。
+
+*(EVT$_3'$)* *写像* $(\lambda, x) \mapsto \lambda x$ *は* $(0, 0)$で連続です。
+
+特に:
+
+#### 命題 1 {#evt-i-s1-prop-1 .statement tag=077X}
+
+— すべての $\alpha \in K$ とすべての点 $b \in E$、$E$ の写像 $x \mapsto \alpha x + b$ はそれ自体連続です。さらに、$\alpha \neq 0$ とすると、この写像は$E$ 自身に対する同写写像です。
+
+命題の 2 番目の部分は、$\alpha \neq 0$ の場合、$x \mapsto \alpha^{-1}x - \alpha^{-1}b$ は $x \mapsto \alpha x + b$ の逆数写像であるという事実の結果です。
+
+#### 系 {#evt-i-s1-n1-cor-1 .statement tag=077Y}
+
+— $A$ が $E$ のオープン (またはクローズ) 集合である場合、$K$ のすべての $\alpha \neq 0$ に対して、$E$ では $\alpha A$ がオープン (またはクローズ) です。
+
+$E$ と $F$ を、同じトポロジ分割環 $K$ 上の 2 つのトポロジベクトル空間とします。 A bijection $f$ of $E$ on $F$ is an isomorphism of the topological vector space $E$ on the topological vector space $F$ if and only if $f$ is linear and bicontinuous. 特に、$K$ の $\gamma \neq 0$ 属するから中心の場合、ホモテティー $x \mapsto \gamma x$ は、$E$ のトポロジカルベクトル空間構造の自己同型です。
+
+### 2. 価値のある部門環で基準空間
+
+(GT, IX, § 3.2) を思い出してください。除算環 $K$ の絶対値は、$\mathbf{R}_+$ の $K$ の写像 $\xi \mapsto |\xi|$ であり、$\xi = 0$ の場合にのみ $|\xi| = 0$ となり、 $|\xi \eta| = |\xi| \cdot |\eta|$、および$|\xi + \eta| \leq |\xi| + |\eta|$;絶対値定義する $K$ 上の距離 $|\xi - \eta|$、したがってハウスドルフ位相は $K$ の除算環構造と互換性があります。すべての $\xi \neq 0$ に対して $|\xi| = 1$ である場合、絶対的な値は不適切であると呼ばれ、$K$ 上の定義するが離散的な位相である場合、位相と呼ばれます。一方、$K$ に $|\alpha| \neq 1$ となる $\alpha \neq 0$ が存在する場合、$K$ には $|\beta| < 1$ となる $\beta \neq 0$ が存在します ($\beta = \alpha$ または $\beta = \alpha^{-1}$ を取るだけで十分です)、そして数列 $(\beta^n)_{n \geq 1}$ は 0 に収束するため、$K$ の位相は離散的ではありません。
+
+一方、(GT、IX, § 3.3) $E$ が非離散値除算環 $K$ でベクトル空間である場合、$E$ のノルムは、$E$ の写像 $x \mapsto \|x\|$ であることを思い出します。 $\mathbf{R}_+$、$x = 0$ の場合に限り $\|x\| = 0$、スカラー $\lambda \in K$ および $\|x + y\| \leq \|x\| + \|y\|$ ごとに $\|\lambda x\| = |\lambda| \cdot \|x\|$ となるようなもの。距離$\|x - y\|$は、ノルムによって$E$上に定義され、したがって$E$のベクトル空間構造と互換性のある位相になります（上記参照）。 〜でない限りその逆は明示的に述べられており、規範化された空間は、そのノルムによって定義されるトポロジカルベクトル空間の構造の項で考慮されます。規格化された空間は、トポロジカルベクトル空間の中で最も重要なものの 1 つです。
+
+It is known (GT, IX, § 3.3) that two distinct norms on $E$ can define the same topology on $E$; for this it is necessary and sufficient that the two norms be equivalent (loc. cit.). The structure of normed spaces is thus richer than the structure of topological vector spaces; if $E$ and $F$ are two normed spaces one must be careful to distinguish between the idea of isomorphism of the normed space structure of $E$ with that of $F$, and the idea of isomorphism of the topological vector space structure of $E$ with that of $F$.
+
+#### 例 {#evt-i-s1-n2-exa-1 .statement tag=077Z}
+
+I を添字の任意の集合とします。 ノルム $\|x\|$ は、K、$\mathscr{B}(I; K)$ ($\mathscr{B}_K(I)$ または $\ell_K^\infty(I)$ とも書きます) のI の有界写像 $x = (\xi_i)$ の集合で定義できることが (GT、X, § 3.2) 知られています。 $\|x\| = \sup_{i \in I} |\xi_i|$。 I が有界のトポロジー 空間、集合であるとき、K の I の連続写像は、空間 $\mathscr{B}(I; K)$ の閉じた部分空間 (GT、X, § 3.1、cor. 2)。 $\mathscr{B}(I; K)$ の他の部分空間は、絶対的に加算可能な族 $x = (\xi_i)$ (GT、X, § 3.6) の集合 $\ell_K^1(I)$ です。この部分空間他のノルム $\|x\|_1 = \sum_{i \in I} |\xi_i|$ に対して定義するができますが、これは一般にノルム $\|x\| = \sup_{i \in I} |\xi_i|$ (I、p. 23、練習問題 6) と同等ではありません。 ノルムを特定せずに、$\ell_K^1(I)$ を標準の空間として考える場合、それは常にノルム $\|x\|$ であることを意味します。 $\mathscr{B}(I; \mathbf{R})$ と $\ell_R^1(I)$ の代わりに $\mathscr{B}(I)$ と $\ell^1(I)$ を書きます。
+
+### 3. トポロジー ベクトル空間のベクトル部分空間および商空間。トポロジカルベクトル空間の積;トポロジカル直和/部分空間
+
+トポロジカル加群 (GT, III, § 6.6) について述べたことはすべて、特にトポロジカルベクトル空間に当てはまります。 M がトポロジカルベクトル空間 E のベクトル部分空間である場合、E のベクトル空間構造と M に誘導される位相は M のベクトル空間構造と互換性があり、E における M の閉包 $\overline{M}$ は E のベクトル部分空間です。 E by Mの商位相はE/Mのベクトル空間構造と互換性があります。
+
+If E is a topological vector space, the closure N of $\{0\}$ in E (intersection of neighbourhoods of 0) is a closed vector subspace of E; the quotient vector subspace E/N, which is necessarily Hausdorff whether E is or not, is called the Hausdorff vector space associated with E.
+
+$(E_i)_{i \in I}$ を同じ位相分割環 K 上の位相ベクトルベクトル空間の族とし、E を $E_i$ の積ベクトル空間とします。 $E_i$ のトポロジーの積位相は、E のベクトル空間構造と互換性があります。 積空間 E、部分空間 F、$E_i$ の直和はどこでも密集しています (GT、 III, § 2.9、提案 25)。
+
+体 $\mathbf{R}$ または体 $\mathbf{C}$ 上のトポロジカルベクトル空間の型については、家族 $(E_i)$ の直和上で定義する (II、p. 29) 位相となります。トポロジカルなベクトル空間、つまり一般に、$E_i$ の積位相によって引き起こされる位相とは異なります。
+
+演算子 (GT、III, § 6.2) を使用したトポロジカル群の安定な部分群の有限直和について述べたことはすべて、トポロジカルベクトル空間、置き換えること « 安定した部分群 » に « ベクトル部分空間 » によって適用されます。
+
+#### 注意 {#evt-i-s1-n3-rem-1 .statement tag=0780}
+
+ハウスドルフ トポロジカルベクトル空間 E の閉じたベクトル部分空間 M が与えられると、E で閉じた M に対して相補的な (代数的) ベクトル部分空間が存在するとは限りません (たとえ E がノルム空間; cf. であっても) IV、p. 55、演習 16 (c)); なおさら E には必ずしも M の位相補数が存在するわけではありません (cf. I, p. 26、演習 8)。ただし、§ 2 で、K が非離散値の除算環である場合、E のすべての閉じた部分空間 M は、有限余次元とともに E にトポロジー的補数を持ちます (I, p. 14、提案 3)。
+
+### 4. 均一構造とトポロジカルベクトル空間の完成
+
+トポロジー ベクトル空間 E の位相は E 上の加法群構造と互換性があるため、定義する E 上の均一な構造 (GT, III, § 3)。私たちがトポロジー ベクトル空間の均一構造について話すとき、私たちは常にこの構造 〜でない限りを意味しますが、その逆は明示的に述べられています。トポロジカルベクトル空間 F におけるトポロジカルベクトル空間 E のすべての連続線形写像は一様連続です (GT, III, § 3.1, prop. 3)。 形 $x \mapsto \alpha x + b$ の E 自体のすべての写像は一様連続です。 F の E の線形写像の等連続集合は一様等連続です (GT, X, § 2.2, 提案 5)。
+
+#### 注意 1 {#evt-i-s1-n4-rem-1 .statement tag=0781}
+
+B が K の事前圧縮集合である場合、E の 0 の近傍 V ごとに、BU $\subset$ V となるように、E に 0 の近傍 U が存在します。たとえば、W が E の 0 の近傍で、W + W $\subset$ V となる場合、 (EVT$_{\text{III}}$) から、K には 0 の近傍 T$_0$ があり、E には 0 の近傍 U$_0$ があり、T$_0$U$_0$ $\subset$ W になります。 B はプレコンパクトであるため、有限個の点が存在します。 $\lambda_i \in B$ ($1 \leq i \leq n$) は、$\lambda_i + T_0$ が B を覆うようにします。 (EVT$_{\text{II}}$) から、E には 0 の近傍 U $\subset$ U$_0$ があり、すべての $i$ に対して $\lambda_i U \subset W$ となる。明らかに U には必要なプロパティがあります。同様の方法で ((EVT$_{\text{II}}$) の代わりに (EVT$_{\text{I}}$) を使用して)、H が E の事前圧縮集合である場合、E の 0 の近傍 V ごとに、TH $\subset$ となるような、K の 0 の近傍 T が存在することが示されます。 V。
+
+#### 注意 2 {#evt-i-s1-n4-rem-2 .statement tag=0782}
+
+1) から、B が K の事前圧縮集合であり、H が E の事前圧縮集合である場合、B $\times$ H に限定された写像 $(\lambda, x) \mapsto \lambda x$ は一様連続であることがわかります。 なぜなら、V が E の 0 の近傍である場合、K の 0 の近傍 T と E の 0 の U が存在し、TH + BU $\subset$ V となります。 Since we can write $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$, we see that for $\lambda, \lambda'$ in B, x, x' in H, $\lambda - \lambda' \in T$ and $x - x' \in U$, we have $\lambda x - \lambda' x' \in V$, which proves our assertion.
+
+位相幾何学ベクトル空間は、その一様構造を考慮して完全一様空間である場合、完全と呼ばれます。
+
+#### 定義 2 {#evt-i-s1-def-2 .statement tag=0783}
+
+*非離散値除算環で完全にノルム化された空間はバナッハ空間と呼ばれます。
+
+#### 例 {#evt-i-s1-n4-exa-1 .statement tag=0784}
+
+K が非離散値除算環の場合、空間 $\mathscr{B}(I ; K)$ (I, p. 4, 例) が完成します (GT, X, § 3.1, cor. 1)。これは、ノルム $\|x\|_1 = \sum_{i \in I} |\xi_i|$ を伴う空間 $\ell_K^1(I)$ (I、p. 4、例) にも当てはまります。つまり、この空間と $x_n = (\xi_{m_i})_{i \in I}$ で $x_n$ がコーシー 数列である場合、みんなのために $i \in I$
+
+$$
+|\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;
+$$
+
+したがって、各 $i \in I$ について、数列 $(\xi_{m_i})_{n \geq 1}$ は K の極限 $\xi_i$ に収束します。さらに、I の各有限部分集合 J について、
+
+$$
+\sum_{i \in J} |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;
+$$
+
+そして、$\sum_{i \in J} |\xi_{m_i} - \xi_{n_i}| \leq a$ のような J、m、n とは独立した定数 $a > 0$ が存在することがすぐにわかります。 m に $+ \infty$ の傾向があるとすると、$\sum_{i \in I} |\xi_i| \leq a + \|x_n\|_1$ から $\sum_{i \in J} |\xi_i - \xi_{m_i}| \leq \varepsilon$ を推定します。これは、$z = (\xi_i)_{i \in I}$ 属するから $\ell_K^1(I)$ であることを示します。さらに、すべての $\varepsilon > 0$ に対して、$n \geq n_0$ と I のすべての有限集合 J に対して、$\sum_{i \in J} |\xi_i - \xi_{m_i}| \leq \varepsilon$ が存在するように、$n_0$ が存在します。 Iの有限部分集合の有向集合に関して移行から極限を見ると、$n \geq n_0$の$\|z - x_n\|_1 \leq \varepsilon$がわかります。これは、$z$が数列の$(x_n)$の極限であることを示しています。標準の空間 $\ell_K^1(I)$。
+
+$K$ をハウスドルフ位相分割環、$E$ を $K$ 上の位相分割ベクトル空間とし、完成した環 $\hat{K}$ が *分割環* であると仮定します (これは、$K$ が価値のある分割である場合に当てはまります) 環, GT, IX, § 3.3) その後、$E$ のハウスドルフ完成 $\hat{E}$ は、$\hat{K}$ (GT, III, § 6.5) 上の *完全なトポロジー ベクトル空間* の構造を運びます。この構造を伴う $\hat{E}$ は、トポロジカルベクトル空間 $E$ の *ハウスドルフ完成* である、または単に $E$ が *ハウスドルフ* であるときの $E$ の *完成* であると言います。
+
+### 5. トポロジカルな原点の近傍ベクトル空間価値のある分割環
+
+#### 定義 3 {#evt-i-s1-def-3 .statement tag=0785}
+
+*Let $K$ be a valued division ring and $E$ a left vector space over $K$; we say that a subset $M$ of $E$ is balanced if, for all $x \in M$ and all $\lambda \in K$ such that $|\lambda| \leq 1$, it is true that $\lambda x \in M$ (or in other words if $\lambda M \subset M$ when $|\lambda| \leq 1$).*
+
+#### 命題 2 {#evt-i-s1-prop-2 .statement tag=0786}
+
+*価値のある分割環 $K$ 上のトポロジー ベクトル空間 $E$ では、均衡のとれた集合 $M$ の閉包は均衡のとれた集合です。*
+
+$B$ が $\xi \in K$ と $|\xi| \leq 1$ の集合である場合。その後、$B$ は $K$ で閉じられます。しかし、$B \times M$ は連続する写像 $(\lambda, x) \mapsto \lambda x$ によって $M$ にマッピングされます。したがって、$B \times \overline{M}$ は $\overline{M}$ (GT, I, § 2.1, th. 1) にマッピングされ、$\overline{M}$ がバランスしていることが証明されます。
+
+$M$ が、$\lambda x$ と $x \in M$ の価値のある除算環 $K$、集合 $M_1$ 上のベクトル空間 $E$ の任意の集合である場合、および$|\lambda| \leq 1$ であるような $\lambda \in K$ は、明らかに最小の集合含む $M$ のバランスがとれています。 $M_1$は、$M$の*バランスエンベロープ*と呼ばれます。
+
+#### 命題 3 {#evt-i-s1-prop-3 .statement tag=0787}
+
+*$K$ を局所的にコンパクトで非離散の分割環とし、$E$ を $K$ 上のハウスドルフ トポロジカルベクトル空間 (それぞれトポロジカルベクトル空間) とします。 $E$ のすべてのコンパクト (またはプリコンパクト) 集合 $H$ では、$H$ のバランスの取れたエンベロープがコンパクトです (それぞれプリコンパクト)。
+
+$B$が$K$のボール$|\xi| \leq 1$を表す場合、$H$のバランスエンベロープは写像$m : (\lambda, x) \mapsto \lambda x$が連続する$B \times H$の$H_1$、像になります。 $E$ がハウスドルフである場合、$B$ がコンパクトである場合、$H$ がコンパクトである場合、$B \times H$ も同様であるため、$H_1$ になります。 $H$ がプリコンパクトの場合、$m$ から $B \times H$ の制限は一様連続 (I、p. 5、*注意* 2) であり、$B \times H$ がプリコンパクトであるため、その像も次のようになります。 $m$ (GT、II, § 4.2、提案 2)。
+
+閉じた集合の平衡エンベロープは必ずしも閉じているわけではないことに注意してください。たとえば、$\mathbf{R}^2$ では、方程式 $xy = 1$ で定義される双曲線の平衡包絡線が閉じていません。
+
+The union of a family of balanced sets in $E$ is balanced, which implies that for every set $M$ of $E$ there is a largest balanced subset $N$ of $M$ called the *balanced core of* $M$; also $N$ is not empty if and only if $0 \in M$. $x \in N$ ということは、$|\lambda| \leq 1$ などのすべての $\lambda \in K$ に対して、$\lambda x \in M$ が存在するか、または ($0 \in M$ の場合) すべての $\mu \in K$ に対して |μ| が存在することを意味します。 ≥ 1 の場合、x ∈ μM となります。 0 ∈ M の場合、M の平衡コア N は共通部分 $\bigcap_{|\mu| \geq 1} \mu M$ となります。 これは特に、M が閉じている場合、N も閉じていることを示しています。
+
+#### 定義 4 {#evt-i-s1-def-4 .statement tag=0788}
+
+*K を非離散値の除算環とし、E を 2 つの部分集合 A と B を持つ K 上の左ベクトル空間とします。|λ| ですべての λ ∈ K に対して λA ⊃ B となる α > 0 が存在する場合、A は B を吸収すると言います。 ≥ α (または、μ ≠ 0 および |μ| ≤ α⁻¹ の場合、μB ⊂ A の場合と同等)。 E の集合 A は、単一の点の集合からなるごとに吸収する場合、吸収剤と呼ばれます。*
+
+A を E のバランスの取れた集合とします。 E の集合 B を吸収するには、λA ⊃ B となる λ ≠ 0 が存在するだけで十分です。実際、 |μ| の場合≥ |λ| であるため、λA = (λμ⁻¹) μA となり、μA は平衡しているため、|λμ⁻¹| ≤ 1 の場合、λA ⊂ μA となり、B ⊂ μA となります。特にバランスのとれた E の集合 A が吸収性であるためには、すべての x ∈ E について、K に λ ≠ 0 が存在し、λx ∈ A となることが必要かつ十分です。E 生成するベクトル空間 E のすべての吸収剤集合。吸収剤集合のすべての有限共通部分は吸収剤です。 集合。
+
+#### 命題 4 {#evt-i-s1-prop-4 .statement tag=0789}
+
+*非離散値除算環 K 上のトポロジー ベクトル空間 E では、次のような 0 の閉じた近傍の基本系 $\mathfrak{B}$ が存在します。
+*(EV₁)* すべての集合 V ∈ $\mathfrak{B}$ はバランスが取れており、吸収力があります。
+*(EV₂)* K のすべての V ∈ $\mathfrak{B}$ および λ ≠ 0 に対して、 λV ∈ $\mathfrak{B}$ (非零比の相等性の下で $\mathfrak{B}$ の不変性) が得られます。
+*(EV₃)* V ∈ $\mathfrak{B}$ ごとに、W + W ⊂ V となる W ∈ $\mathfrak{B}$ が存在します。
+
+逆に、E を K 上のベクトル空間とし、$\mathfrak{B}$ を E 満たす条件 (EV₁)、(EV₂)、および (EV₃) 上のフィルター 基底とします。次に、E には位相 (そしてそれは一意です) が存在し、E のベクトル空間構造と互換性があり、その $\mathfrak{B}$ は 0 の近傍の基本的な系です。
+
+公理 (EVT'₃) によって、最初に、*バランスコア*、V、0 の近傍である V₁ 自体が 0 の近傍であることを示します。 なぜなら、α > 0 および 0 の近傍 W が存在するため、次のとおりです。 ≤ α かつ x ∈ W の場合、λx ∈ V となります。 K は非離散であるため、|μ| を持つ K には μ ≠ 0 が存在します。 ≤ α および μW は 0 の近傍であり、μW ⊂ V です。 また、v ∈ K および |v| の場合も同様です。 ≤ 1 の場合 |vμ| ≤ α であるため、vμW ⊃ V となります。 したがって、μW ⊃ V₁ および V₁ は 0 の近傍です。 また、V が休業と同様に、V₁ も休業となります。 したがって、 *クローズバランス* の集合 $\mathfrak{B}$ 近傍 0 形 E の 0 の基本波系近傍。 (EVT₁') により、0 のすべての近傍は *吸収性 * になります。さらに、$\mathfrak{B}$ は (EV₂) (*cf.* I、p. 3、cor.) を満たします。最後に、点 (0, 0) での (x, y) ↦ x + y の連続性により、E の 0 の近傍のすべての基本系は (EV₃) を満たします。 集合 $\mathfrak{B}$ は命題の条件を満たします。
+
+ここで、E を K 上のベクトル空間とし、$\mathfrak{B}$ を E 満たす (EV₁)、(EV₂)、および (EV₃) 上のフィルター 基底とします。公理 (EV₁) は、まず、すべての V ∈ $\mathfrak{B}$ について、−V = V および 0 ∈ V であることを示しています。これらの関係と公理 (EV₃) は、$\mathfrak{B}$ が 0 の近傍の基本的な系であり、E の *加法群* 構造と互換性がある E の位相であることを示しています (GT, III, § 1.2)。一方、公理(EVT'_I)、(EVT'_II)、(EVT'_III)は、(EV_I)、(EV_II)の明らか帰結なので、上で定義した位相は公理(EVT)を満たし、命題が証明されます。
+
+#### 注意 1 {#evt-i-s1-n5-rem-1 .statement tag=078A}
+
+中心 0 を使用したオープン ボール (それぞれクローズ ボール) の非離散値除算環集合の正規化空間では、0 の近傍の基本系 、つまり満たす条件 (EV_I)、(EV_II)、(EV_III) です。
+
+#### 注意 2 {#evt-i-s1-n5-rem-2 .statement tag=078B}
+
+スカラー K の除算環が体 \mathbf{R} または体 \mathbf{C} の場合、2 つの公理 (EV_I) と (EV_III) だけを満たす E 上のすべてのフィルター 基底 \mathfrak{B} は、次の基本系です。 位相に対する 0 の近傍は、E のベクトル空間構造と互換性があります。実際、これらの条件において、K のすべての $\lambda \neq 0$ とすべての $V \in \mathfrak{B}$ に対して、$\lambda W \subset V$ となるような $W \in \mathfrak{B}$ が存在することを証明するだけで済みます。さて、(EV_III) から、$2\,W_1 \subset V$ を伴う $W_1 \in \mathfrak{B}$ が存在し、帰納的に、正の整数 $n$ ごとに、$2^n W_n \subset V$ となるような $W_n \in \mathfrak{B}$ が存在すると推測します。 V は均衡しているため、$n$ を $2^n = |2^n| > |\lambda|$ ほど大きくすると、$W = W_n$ は必要に応じて条件を満たします。
+
+この結果は、すべての非離散値除算環 K には当てはまりません。そのような除算環では、すべての正の整数 $m$ ($\varepsilon$ は除算環 ; cf. の単位元を示します) について $|m\varepsilon| = m$ であるとは必ずしも当てはまりません。 I、p. 22、1) を実行します。
+
+#### 注意 3 {#evt-i-s1-n5-rem-3 .statement tag=078C}
+
+K が離散除算環の場合、E 上の任意の位相に対して、条件 (EVT'_I) および (EVT'_III) が真になります。図 4 から、E が K 上のトポロジー ベクトル空間である場合、E 満たす条件 (EV_II) および (EV_III) には 0 の閉じた近傍の基本系である $\mathfrak{B}$ が存在することが簡単にわかります。逆に、K 上のベクトル空間 E 上のフィルター 基底 $\mathfrak{B}$ が、$\mathfrak{B}$ および (EV_II)、(EV_III) のすべての集合に対して 0 属するが真である場合、$\mathfrak{B}$ は、近傍の基本系になります。 0 の位相は E のベクトル空間構造と互換性があります。
+
+### 6. 連続性と等連続性の基準
+
+E と F を同じ分割環 K 上のトポロジー ベクトル空間とする。 F の E の線形写像 $f$ が連続であるためには、原点で連続であれば十分です (GT、III, § 2.8、提案 23)。この命題は次のように一般化されます。
+
+#### 命題 5 {#evt-i-s1-prop-5 .statement tag=078D}
+
+— $E_i (1 \leq i \leq n)$ と F を非離散値体 K 上のトポロジー ベクトル空間とします。 位数では、F の $\prod_{i=1}^n E_i$ の多線形写像 $f$ が積空間 $\prod_{i=1}^n E_i$ で連続であれば十分です。 $(0, 0, ..., 0)$。
+
+$(a_1, a_2, ..., a_n)$ を $\prod_{i=1}^n E_i$ の任意の点とします。 F の 0 の近傍 W ごとに、$E_i$ ($1 \leq i \leq n$) の 0 の近傍 $V_i$ が存在し、関係 $z_i \in V_i$ が意味することを示さなければなりません。
+
+$$
+f(a_1 + z_1, a_2 + z_2, ..., a_n + z_n) - f(a_1, a_2, ..., a_n) \in W .
+$$
+
+これで、次のように書くことができます
+
+$$
+f(a_1 + z_1, ..., a_n + z_n) - f(a_1, ..., a_n) = \sum_H u_H
+$$
+
+where $H$ varies over the $2^n - 1$ subsets of the set of integers $\{ 1, 2, ..., n \}$, excluding the set $\{ 1, 2, ..., n \}$ itself, and where $u_H = f(y_1, y_2, ..., y_n)$, with $y_i = a_i$ if $i \in H$ and $y_i = z_i$ if $i \notin H$. There exist $2^n - 1$ balanced neighbourhoods $W_H$ of 0 in $F$ such that $\sum_H W_H \subset W$; on the other hand as $f$ is continuous at $(0, 0, ..., 0)$ by hypothesis, there exists in each $E_i$ a neighbourhood $U_i$ of 0 ($1 \leq i \leq n$) such that the $n$ relations $x_i \in U_i$ imply that $f(x_1, ..., x_n) \in \bigcap_H W_H$. $U_i$は吸収性があるので、$K$には$\lambda_i a_i \in U_i$となるように$\lambda_i \neq 0$が存在します。 $\lambda$ を、部分集合 $H$ ごとに $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ となるように、$K$ の元とします。 近傍 $V_i = \lambda^{-n} U_i$ が、必要な条件を満たすことを示します。 We can write $u_H = \mu f(x_1, ..., x_n)$ where $x_i \in U_i$ for $1 \leq i \leq n$ and $\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$, $p$ being the number of integers of $\{ 1, 2, ..., n \}$ not in $H$. 上記の$|\mu| \leq 1$より、$W_H$が均衡しているため、$u_H \in \mu W_H \subset W_H$となります。 命題が成立します。
+
+#### 命題 6 {#evt-i-s1-prop-6 .statement tag=078E}
+
+*prop と同様に、$E_i (1 \leq i \leq n)$ と $F$ に同じ仮説を使用します。 5、位数において、$F$の$\prod_{i=1}^n E_i$の多重線形写像の集合$\mathscr{E}$が等連続であること、集合が$(0, 0, ..., 0)$で等連続であれば十分です*。
+
+というのは、プロップのデモンストレーションで。 5 $U_i (1 \leq i \leq n)$ は、関係 $x_i \in U_i (1 \leq i \leq n)$ が *すべての* 写像 $f \in \mathscr{E}$ に対して $f(x_1, ..., x_n) \in \bigcap_H W_H$ を暗示するように解釈できます。
+
+### 7. ベクトル空間の初期トポロジ
+
+#### 命題 7 {#evt-i-s1-prop-7 .statement tag=078F}
+
+*$(E_v)_{v \in I}$ を位相分割環 $K$ 上の位相ベクトルベクトル空間の族とする。 $E$ を $K$ のベクトル空間とし、それぞれの $v \in I$ について、$f_v$ を $E_v$ の $E$ の線形写像とします。次に、各写像 $f_v$ を連続にする $E$ の最も粗い位相は、$E$ のベクトル空間構造と互換性のある位相 $\mathscr{T}$ です。さらに、すべての $x \in E$ について、$\phi(x)$ が積空間 $F = \prod_{v \in I} E_v$ の点 $(f_v(x))$ を表す場合、位相 $\mathscr{T}$ は、位相の逆像になります。 線形写像 $\phi$ の下の部分空間 $F$ の $\phi(E)$。*
+
+命題の最後の部分は、GT、I, § 4.1、prop の特殊なケースです。 3. 命題が次の補題に続きます。
+
+#### 補題 {#evt-i-s1-n7-lem-1 .statement tag=078G}
+
+— *$M$と$N$を$N$の$M$の2つのベクトル空間と$g$線形写像とします。 $\mathscr{T}_0$ が $N$ のベクトル空間構造と互換性のある位相である場合、$g$ による $\mathscr{T}_0$ の逆像は $M$ のベクトル空間構造と互換性があります。
+
+たとえば、$(\lambda, x) \mapsto \lambda x$ は $K \times M$ の各点 $(\lambda_0, x_0)$ で連続であることを示します。 $y_0 = g(x_0)$を入れます。 $M$ 含む近傍の形 $g(U)$ の 0 の近傍ごとに、$U$ は $N$ の 0 の近傍です。 仮定により、$K$ には 0 の近傍 $V$ が存在し、$N$ には 0 の近傍 $W$ が存在するため、関係 $\lambda - \lambda_0 \in V$ と $y - y_0 \in W$ は $\lambda y - \lambda_0 y_0 \in U$ を暗示します。したがって、関係 $\lambda - \lambda_0 \in V$、$x - x_0 \in g(W)$ は $\lambda x - \lambda_0 x_0 \in g(U)$ を暗示します。同様に、$(x, y) \mapsto x - y$ が $M \times M$ で連続であることを示すことができます。
+
+それぞれの添字 $i \in I$ について、$\mathscr{B}_i$ を $E_i$ の 0 の近傍の基本系とします。 位相 $\mathscr{T}$ の定義から、この位相に対する 0 の近傍のフィルターは、ファミリー $f_i^{-1}(\mathscr{B}_i)$ の集合の和集合によって生成されます。他の語、集合の形 $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ 形では、$\mathscr{T}$ の 0 の近傍の基本的な系、$(i_k)_{1 \leq k \leq n}$ は、添字の有限列のいずれかですI、および各添字 $k$、$V_{i_k}$ について、$\mathscr{B}_{i_k}$ のいずれかの集合。
+
+#### 系 1 {#evt-i-s1-prop-7-cor-1 .statement tag=078H}
+
+*G を K 上のトポロジー ベクトル空間とする。E の G の写像の集合 H が等連続である位数において、H で u が変化するすべての $i \in I$、集合 $f_i \circ u$ が等連続であることが必要十分である。
+
+これは GT、X, § 2.2、プロップの特殊なケースです。 3.
+
+#### 系 2 {#evt-i-s1-prop-7-cor-2 .statement tag=078I}
+
+*空間 $E_i$ がハウスドルフである場合、$\mathscr{T}$ がハウスドルフである位数では、E のすべての $x \neq 0$ に対して、添字 $i \in I$ が存在する必要があり、$f_i(x) \neq 0$ となるようにする必要十分です。
+
+$\phi(E)$ はハウスドルフ空間であり、$\mathscr{T}$ がハウスドルフである位数では、$\phi$ が単射であることが明らかに必要かつ十分です。 写像 $\phi$ により、$\prod_{i \in I} E_i$ の部分空間 $\phi(E)$ を使用して同一視する E ($\mathscr{T}$ を使用) ができることに注意してください。
+
+#### 系 3 {#evt-i-s1-prop-7-cor-3 .statement tag=078J}
+
+※$E_i$が完了し、$\phi(E)$が$F = \prod_{i \in I} E_i$で閉じられたとします。 E は位相 $\mathscr{T}$ で完了します。*
+
+部分空間 $\phi(E)$ については、F が完了します (GT、II, § 3.4、提案 8 および § 3.5、提案 10)。したがって、逆像位相の E にも同じことが当てはまります (GT、I, § 7.6、提案 10 および GT、 II, § 3.1、提案 4)。
+
+#### 例 {#evt-i-s1-n7-exa-1 .statement tag=078K}
+
+— $\mathscr{D}'(\mathbf{R})$ を $\mathbf{R}$ の分布の空間とします。 $p$ 数について、$1 \leq p \leq +\infty$ となるように、$j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ を連続である標準単射とします ($L^p(\mathbf{R})$ が標準の空間位相と $\mathscr{D}'(\mathbf{R})$ が強い位相のとき)。 すべての分布 $f \in \mathscr{D}'(\mathbf{R})$ について、$f$ の導関数を $D(f)$ で表します。 $f \mapsto D(f)$ は $\mathscr{D}'(\mathbf{R})$ の連続した自己準同型であることを思い出してください。 次に、E を $D(f) \in L^p(\mathbf{R})$ である $f \in L^p(\mathbf{R})$ から形成された $L^p(\mathbf{R})$ のベクトル部分空間とし、標準単射 $i : E \to L^p(\mathbf{R})$ と写像 $D : E \to L^p(\mathbf{R})$ を連続にする最も粗い位相を与えます ($L^p(\mathbf{R})$ はそのノルムを保持します)。 空間位相）。 この位相、空間 E は *完全* です。 たとえば、写像 $\phi : f \mapsto (f, D(f))$ による $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ の E の像は、写像による $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ の $\mathscr{D}'(\mathbf{R})$ の像 G の $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ 上のトレースであるため、*閉じられています*。
+
+$$
+\phi_0 : f \mapsto (f, D(f));
+$$
+
+ここで、G は $\phi_0$ のグラフであるため、$\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (GT, I, § 8.1、提案 2 の cor. 2) で閉じられており、$\phi(E)$ は $i \times i$ による G の逆像であり連続であるため、$\phi(E)$ が F で閉じていることがわかります。 \*
+
+#### 系 4 {#evt-i-s1-prop-7-cor-4 .statement tag=078L}
+
+*E をトポロジー分割環 K 上のベクトル空間とし、$(\mathscr{T}_i)_{i \in I}$ を E のベクトル空間構造と互換性のあるトポロジーのファミリーとします。トポロジ $\mathscr{T}_i$ の上界 $\mathscr{T}$ は、E のベクトル空間構造と互換性があります。*
+
+なぜなら、$E_t$ が位相 $\mathscr{T}_t$ によって $E$ から得られたトポロジー ベクトル空間を表し、$f_t$ が $E_t$ 上の $E$ の恒等式写像を表す場合、$\mathscr{T}$ が最も粗いからです。 位相は $f_t$ を連続させます。
+
+### 練習問題 {#evt-i-s1-exercises}
+
+[§ 1 に対して練習問題](exercises/s1/)を参照してください。
