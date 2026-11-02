@@ -1,0 +1,667 @@
+---
+book: alg
+book_title: Algebra
+chapter: VI
+chapter_title: ORDERED GROUPS AND FIELDS
+section: 1
+section_title: Ordered groups. Divisibility
+lang: ja
+source: alg-iv-vii
+source_edition: 2003, Springer
+pdf_pages: 0312-0330, 0341-0348
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Definition of ordered monoids and groups
+      page: 0
+      pdf_page: 312
+    - "no": 2
+      title: Pre-ordered monoids and groups
+      page: 3
+      pdf_page: 314
+    - "no": 3
+      title: Positive elements
+      page: 3
+      pdf_page: 314
+    - "no": 4
+      title: Filtered groups
+      page: 4
+      pdf_page: 315
+    - "no": 5
+      title: Divisibility relations in a field
+      page: 5
+      pdf_page: 316
+    - "no": 6
+      title: Elementary operations on ordered groups
+      page: 7
+      pdf_page: 318
+    - "no": 7
+      title: Increasing homomorphisms of ordered groups
+      page: 7
+      pdf_page: 318
+    - "no": 8
+      title: Suprema and infima in an ordered group
+      page: 8
+      pdf_page: 319
+    - "no": 9
+      title: Lattice ordered groups
+      page: 10
+      pdf_page: 321
+    - "no": 10
+      title: The decomposition theorem
+      page: 11
+      pdf_page: 322
+    - "no": 11
+      title: Positive and negative parts
+      page: 12
+      pdf_page: 323
+    - "no": 12
+      title: Coprime elements
+      page: 13
+      pdf_page: 324
+    - "no": 13
+      title: Irreducible elements
+      page: 17
+      pdf_page: 328
+statements: 53
+exercises: 36
+content_sha256: 41af84d302efb363e86cf2d2b317fb73ca805a752d74783f86aa29ce2e0d2c22
+translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
+translation_method: google
+source_content_sha256: 1339023eced66ef1b9e52222dbf004f549e42eec4f38ebac19c97f31df6e572b
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-b071ad41
+glossary_version: 34
+glossary_terms_sha256: 21efbfd8997de74f05d5b3e7fc4530e2a115b3422d23d9822380621821c3a3fe
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 1。 群を注文しました。可分性
+
+概念とこの切断で提示された結果は、可換モノイド (I、p. 12、定義 2) における位数関係の研究に関するものであり、最も重要なケースはアーベル群の場合です。 〜でない限り明示的にそうでない場合は、研究中のすべての群およびモノイドの合成法則に対して加法記法を使用します。一方、我々は、順序付けられた群とモノイドの理論の重要な代数応用を提示し、それに応じて、結果の一部をこれらの応用に適した乗算記法に変換します。
+
+### 1. 定義 of ordered monoids and 群
+
+#### 定義 1 {#alg-vi-s1-def-1 .statement tag=06WE}
+
+— 可換モノイド構造 (加法的に書かれる) と集合 $M$ 上の順序付け ($\leq$ で書かれる) は、次の公理満たすを満たす場合に互換性があると言われます。
+
+(OM) それぞれの $z \in M$、関係 $x \leq y$ は $x + z \leq y + z$ を意味します。
+
+可換モノイド構造と互換性のある順序を備えた集合 $M$ を順序モノイドと呼びます。可換モノイド構造が群構造である場合、それは順序付けられた群と呼ばれます。
+
+同様の方法で、非可換順序モノイド (VI、p. 30、例 1) の定義する概念を計算できます。
+
+順序付けが特定のモノイド構造と互換性がある場合、その逆の順序付けも同様です。
+
+#### 例 1 {#alg-vi-s1-n1-exa-1 .statement tag=06WF}
+
+有理数整数の加法群と有理数数は、I、21 および 117 ページで定義されている順序に従って群に並べられます。 *同じことが実数の加法群にも当てはまります (Gen. Top., IV、3 ページ）。 \*
+
+#### 例 2 {#alg-vi-s1-n1-exa-2 .statement tag=06WG}
+
+*集合 $E$ で定義された有限数値写像の加法群は、順序 « すべての $x \in E$ に対して $f(x) \leq g(x)$ » の下で順序付けされた群であり、$f \leq g$ と書かれます。この関係は、写像$f$のグラフが写像$g$のグラフの下にあることを示しています。読者は、この図解の項を時々考えると便利だと思われるかもしれません。 \*
+
+一般定義 (集合理論, IV, p. 264) によれば、順序モノイド M から順序モノイド M' への全単射写像 $f$ は、次の場合に M から M' への *同型* と呼ばれます。 M' の構造は、M を $f$ に沿って輸送することによって M から得られます。これは、$f$ が写像 *onto* M' であるというと同等です。
+
+$$
+f(x + y) = f(x) + f(y)
+$$
+
+(つまり、モノイド M の準同型をモノイド M' に置き換えます)、関係 $x \leq y$ と $f(x) \leq f(y)$ は等価です (よって、特に $f(x) = f(y)$ は $x = y$ を意味します。つまり、$f$ は単射法です)。
+
+#### 命題 1 (« 加法の不等式 ») {#alg-vi-s1-prop-1 .statement tag=06WH}
+
+— *順序付きモノイド M* では、$(x_i)$ と $(y_i)$ ($1 \leq i \leq n$) を n 元の 2 つの数列とし、すべての $i$ について $x_i \leq y_i$ とします。それから、1つは持っています
+
+$$
+x_1 + \cdots + x_n \leq y_1 + \cdots + y_n
+$$
+
+*さらに、すべての元 $x_i, y_i$ がキャンセル可能である場合 (I、p. 15、定義 5) (特に M が群の場合)、および一部の $i$ について $x_i < y_i$ の場合、*
+
+$$
+x_1 + \cdots + x_n < y_1 + \cdots + y_n .
+$$
+
+一般的なケース簡約するを帰納法からケース $n = 2$ に変換します。これは、キャンセル可能な元の和が 2 番目の主張に対してキャンセル可能であるという事実を使用します (I、p. 15、提案 2)。 The first 主張 follows from 関係
+
+$$
+x_1 + x_2 \leq x_1 + y_2 \quad \text{and} \quad x_1 + y_2 \leq y_1 + y_2 ,
+$$
+
+これらは仮説と (OM) の帰結です。 This being the case, 関係
+
+$$
+x_1 + x_2 = y_1 + y_2
+$$
+
+暗示するだろう
+
+$$
+x_1 + x_2 = x_1 + y_2 = y_1 + y_2 ,
+$$
+
+よって $x_2 = y_2$ と $x_1 = y_1$ $x$ と $y_2$ がキャンセル可能であることは、2 番目の主張を証明します。
+
+#### 命題 2 {#alg-vi-s1-prop-2 .statement tag=06WI}
+
+*注文した場合、群 G* 関係 $x \leq y$ *および* $x + z \leq y + z$ *は同等*です。
+
+実際、$z$ または $(-z)$ を両辺に追加することで、一方が他方からそれぞれを取得できます。
+
+この事実は、順序付けされた群 G では順序付けが *翻訳不変* であるというというによって表現できます。他の語では、翻訳は、順序付けられた群の *順序付け* の *自己同型* です。
+
+#### 系 {#alg-vi-s1-n1-cor-1 .statement tag=06WJ}
+
+— 順序付きでは、群 $G$、関係 $x \leq y$、$0 \leq y - x$、$x - y \leq 0$、$-y \leq -x$ は同等です。
+
+実際には、提案 2 を適用し、$z = -x$、$z = -y$、$z = -(x + y)$ を順に取っていきます。
+
+特に、この系から、$G$ が順序付けされた群である場合、$G$ からの写像 $x \mapsto -x$ は、$G$ の順序付けを逆の順序にすることがわかります。
+
+### 2. Pre-ordered monoids and 群
+
+集合 $E$ の元の間の関係 $x \leq y$ が再帰的かつ推移的である場合、それは事前順序関係 (集合理論, III, p. 133) と呼ばれることを思い出してください。 関係 « $x \leq y$ および $y \leq x$ » は、$E$ の同値関係 $S$ であり、関係 $x \leq y$ と互換性があります。 移行から商、関係 $\leq$ 誘導する位数関係 $E/S$ は、$\leq$ に関連付けられている位数関係と呼ばれます。
+
+#### 定義 2 {#alg-vi-s1-def-2 .statement tag=06WK}
+
+— 事前順序関係 ($\leq$ で書かれる) と集合 $M$ 上の可換モノイド構造 (加法的に書かれる) は、次の公理満たすを満たす場合に互換性があると言われます。
+
+(POM) それぞれの $z \in M$、関係 $x \leq y$ は $x + z \leq y + z$ を意味します。
+
+互換性のある可換モノイド構造と事前順序関係を備えた集合$M$を事前順序モノイドと呼びます。
+
+$M$ を事前順序付けされたモノイド、$S$ 同値関係 « $x \leq y$ および $y \leq x$ » とします。 (POM) 関係 $x \equiv x' \pmod{S}$ は、すべての $y \in M$、つまり $x + y \equiv x' + y \pmod{S}$ に対して $x + y \leq x' + y$ と $x' + y \leq x + y$ を意味します。その他の語同値関係 $S$ は、$M$ (I、p. 11) の加法と互換性があります。したがって、$M$ の加法法則の $S$ による商は、$\leq$ に関連付けられた順序と合わせて、順序モノイドの $M/S$ 構造を与えます。 $M$ が事前注文された群である場合、群 $M/S$ は、元 $x$ の部分群からなるによる $M$ の商になります。 $x \leq 0$と$0 \leq x$。
+
+### 3. 陽性元
+
+$G$ を、予約注文関係 $\leq$ を持つ予約注文群とします。 $0 \leq x$ と $0 \leq y$ の場合、(POM) によって $y \leq x + y$ が推定され、したがって推移性によって $0 \leq x + y$ が推定されます。これは、元 $x \in G$ の集合 $G_+$ が、$0 \leq x$ が加法で閉じられることを示しています。さらに、関係 $x \leq y$ は $0 \leq y - x$、つまり $y - x \in G_+$ と同等です。逆に:
+
+#### 命題 3 {#alg-vi-s1-prop-3 .statement tag=06WL}
+
+— $P$ がアーベル群 $G$、含む $0$ の部分集合であり、$P + P \subset P$ である場合、関係 $y - x \in P$ は予約注文です関係は$G$の群構造と互換性があります。この関係が $G$ を順序付けられた群にするためには、 $P \cap (-P) = \{0\}$ があれば十分です。この順序の下で、$G$ が完全に順序付けされた群になるには、加法 $P \cup (-P) = G$ があれば十分です。
+
+関係 $y - x \in P$ が再帰的かつ推移的であり、($x \leq y$ と書かれていれば) 公理 *POM* を満たすのは明らかです。 2 番目の主張を証明するには、$P \cap (-P)$ が元 $x$ の部分群 $G'$ からなるであり、$0 \leq x$ と $x \leq 0$ であることに注意するだけで十分です。最後に、$G$ が完全に順序付けされているということは、元 $x, y$ $G$ のそれぞれの対に対して、元 $x - y, y - x$ 属するから $P$ の少なくとも 1 つがあり、証明が完成することを意味します。
+
+#### 定義 3 {#alg-vi-s1-def-3 .statement tag=06WM}
+
+*順序付き群 $G$ では、$0 \leq x$ (または $x \leq 0$) が正 (または負) 元となるような元 $x$ を指します。
+
+$0$ は *正と負の両方* である唯一の元であることに注意してください。 $0 < x$ (または $x < 0$) が *厳密に正* (それぞれ *厳密に負*) と呼ばれるような、任意の元 $x$。
+
+#### 例 {#alg-vi-s1-n3-exa-1 .statement tag=06WN}
+
+— 加法群 $\mathbf{Z} \times \mathbf{Z}$ において、$P$ を元 $(x, y)$ 満たすの 2 つの不等式 $ax + by \geq 0$ と $cx + dy \geq 0$ の集合とします。$a, b, c, d$ は整数 (* または実数 *) $ad - bc \neq 0$; « cone» $P$ は、提案 3 の最初の 2 つの条件を満たします。このようにして、$\mathbf{Z} \times \mathbf{Z}$ の群構造と互換性のあるさまざまな順序を定義できます。 群は、これらの順序のいずれにも基づいて完全には順序付けされていません。
+
+#### 注意 {#alg-vi-s1-n3-rem-1 .statement tag=06WO}
+
+— 条件 $P + P \subset P$、関係 $x \geq 0$ により、群の順序付けは、自然数 $n$ ごとに $nx \geq 0$ を意味します。 加法で $G$ の正の元 $x$ が有限の位数 $n$ を持つ場合、$-x = (n-1)x$ は正です。それ以来
+
+$$
+P \cap (-P) = \{0\},
+$$
+
+これは $x = 0$ を意味します。特に、$G$ のすべての元が有限の位数を持つ場合、$P = \{0\}$ になります。 関係 $x \leq y$ は、$x = y$ (*離散* 順序) と等価になります。
+
+### 4. フィルタ済み群
+
+(*集合理論*, III, p. 145) を思い出してください。順序付けられた集合 $G$ は、各対 $(x, y)$ の場合、*右* (それぞれ *左*) *フィルタリング*\footnote{1} です。 $G$ の元には、$x \leq z$ と $y \leq z$ (それぞれ $z \leq x$ と $z \leq y$) となるような $z \in G$ が存在します。右にフィルタリングされた順序付けされた群 $G$ も左にフィルタリングされ、その逆も可能です。実際、$-x \leq z$ と $-y \leq z$ のような $z \in G$ が存在するため、$-z \leq x$ と $-z \leq y$ (VI, p. 3, Cor.) が得られます。したがって、フィルタリングされた群について簡単に説明します。
+
+#### 命題 4 {#alg-vi-s1-prop-4 .statement tag=06WP}
+
+*順序付けされた群 $G$ がフィルタリングされるには、その正の元によって生成されることが必要かつ十分です。つまり、すべての元が 2 つの正の元の差であることです。
+
+実際、$G$ がフィルタリングされている場合、$x \in G$ ごとに、$x \leq z$ のような正の元 $z$ が存在し、$x$ は 2 つの正の元 $z$ と $z - x$ の差です。逆に、$x = u - v$ と $y = w - t$ が$u, v, w, t$ 正である場合、元 $u + w$ は$x$ より大きく、$y$ より大きくなります。
+
+1 *loc で使用される用語。 cit.* は *指示されています*。
+
+#### 命題 5 {#alg-vi-s1-prop-5 .statement tag=06WQ}
+
+— *もし* $(x_i)$ * がフィルタリングされた群 G の元の有限族である場合、* $x_i + z$ * が各 i について正である* $z \in G$ が存在します。
+
+*$x_i = u_i - v_i$、*$u_i$ *そして* $v_i$ *陽性の場合、*$z$ *家族の和になる* $(v_i)$ を取るだけで十分です。
+
+### 5. 体での割り算関係
+
+ここでは、代数で重要な部分を担う、定義する特定の順序付け群を行います。通常、これらの群に使用される記法は乗法です。したがって、加算法記法で以前に得られた結果をこれらの群に適用することは、乗法記法への変換を前提としています。これは読者にとって何ら困難ではありません。 *この切断を通して、文字 A は整域を表し、K は分数* (*l*、p. 116) の体を表します。
+
+In the multiplicative group $\mathbf{K}^*$ of nonzero elements of $\mathbf{K}$, the set P of nonzero elements of A is closed under multiplication, since A is a ring. したがって、定義するは$x^{-1}y \in P$による$\mathbf{K}^*$の事前順序関係、つまり«$y = zx$となるような$z \in P$が存在します»、これにより、$\mathbf{K}^*$は群*より前に順序付けられます(乗算的に書かれます)(*VI*, p. 3、提案 3)。 A (I、p. 97) の元に関連する用語を $\mathbf{K}^*$、関係 $x^{-1}y \in P$ に拡張すると、次のように表すこともできます: *x 割る y*、または x は y* の *因子、または y は x* の *倍数 (環 A と比較);そして、環 A に対する $\mathbf{K}^*$ の *割り算関係* を関係 $x^{-1}y \in P$ と呼びます。 関係 « x '割る y » は $x \mid y$ とその否定 $x \nmid y$ で表されます。 P の元は、1* の *倍数に他なりません。
+
+#### 注意 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
+
+$\mathbf{K}^*$ の割り算関係は、本質的に特定の環 A に依存します。 $A = K$ が«自明» 関係を取得すると、その下で、元の対 $(x, y)$ ごとに $x \mid y$ が得られます。 $\mathbf{K}^*$。 p と q を素数数とします。分母が $p$ (それぞれ q) の倍数形部分環 $\mathbf{Z}_{(p)}$ (それぞれ $\mathbf{Z}_{(q)}$) の $\mathbf{Q}$ ではない有理数数 r/s。これら 2 つの環に対する $\mathbf{Q}^*$ の割り算関係は、$p \neq q$、数 $p/q$ が一方関係の下では 1 の倍数であるが、他方の下ではそうではない場合には区別されます。
+
+#### 注意 2 {#alg-vi-s1-n5-rem-2 .statement tag=06WS}
+
+($\mathbf{K}^*$だけではなく) $\mathbf{K}$ の関係 $x \mid y$ のときどき拡大する定義から元の対までを実行します。この関係は、« 次のような $z \in A$ が存在することを意味します。 $y = zx$ »;したがって、すべての $x \in K$ に対して $x \mid 0$ が得られます。 これにより、 制限を使用せずに次の結果を述べることができます。 if $x \mid y$ and $x \mid z$ then $x \mid (y - z)$; $x \mid y$ と $x \nmid z$ の場合は $x \nmid (y - z)$ です。 同様に、すべての対応する用語を拡大する処理できます。
+
+To obtain an *order relation* (No. 2) from the divisibility relation we have to pass to the quotient group of $\mathbf{K}^*$ by the subgroup $\mathbf{A}^*$ of elements $x \in \mathbf{K}^*$ such that $x \mid 1$ and $1 \mid x$; these are the elements of P which are *divisors of 1*, that is to say the *invertible* elements of $A$; by abuse of language they are often called the units of the ring A. 剰余群 $\mathbf{K}^*/\mathbf{A}^*$ は、順序付けられた群になります。 $\mathbf{A}^*$ の同じ剰余類に属する属するである $\mathbf{K}^*$ の 2 つの元 $x$ と $y$ は *関連* であると言われます。これは、$x \mid y$ と $y \mid x$ を意味します。 一方、y が x を除算せずに x 割る y である場合、x は厳密には割る y、または x は y の厳密な因子である、または y は x の厳密な倍数であると言います。
+
+K は A の分数の体であるため、$K^*/A^*$ は *フィルターされた* 群であることに注意してください (VI、p. 4、提案 4)。
+
+$K^*$ の 2 つの元 x と y が結合していると言うのは、割り算可能性関係の推移性により、それらは K に *同じ* 倍数を持っていることになり、というになります。すべての $x \in K$ について、すべての元 zx の $Ax$ 集合と $z \in A$ で表します。 集合 $Ax$ は、A-加群とみなされる K の部分加群です。 $x \in A$ の場合に関連する用語を拡張して、環 A に対する体 K の主分数イデアルと呼びます。対照的に、環 A のイデアルは積分であると言われます。
+
+$A \neq K$ の場合、主分数イデアル $\neq \{0\}$ は、環とみなされる K のイデアルではないことに注意してください。
+
+主な分数イデアル $Ax$ も (x) で示されます。 $x \in Ay$ には $x \equiv 0$ (モディ)、$x - x' \in Ay$ には $x \equiv x'$ (モディ) と書きます。 $x \equiv x'$ (mody) の場合、$z \in K$ に対して $zx \equiv zx'$ (mod $zy$)。
+
+$x \equiv x'$ (mod y) は $zx \equiv zx'$ (mod y) 〜でない限り $z \in A$ を意味するものではないことに注意してください。したがって、$\mathbf{Q}$ では、$\mathbf{Z}$ と比較して、$4 \equiv 2$ (mod 2) はありますが、$2 \equiv 1$ (mod 2) はありません。
+
+関係 $x | y$ は明らかに $(x) \supset (y)$ と同等です。 The mapping $x \mapsto (x)$ from $K^*$ onto the set $\mathscr{P}^*$ of principal fractional ideals $\neq (0)$ of K thus defines, on passing to the quotient, a bijective mapping from $K^*/A^*$ onto $\mathscr{P}^*$; translating the group structure of $K^*/A^*$ to $\mathscr{P}^*$ by means of this mapping, we are led to define the product of two principal fractional ideals (x) and (y) to be the ideal (xy ), which depends only on (x) and (y). この法則と位数関係 $(x) \supset (y)$ を備えた集合 $\mathscr{P}^*$ は、$K^*/A^*$ と同型の順序付き群です。 慣例により、上記の写像を介して $K^*/A^*$ を同一視する $\mathscr{P}^*$ とします。
+
+関係 « x 割る y » は、正の整数の場合、x が y より小さいことを意味し、対応するには $(x) \supset (y)$ が含まれ、理想 (x) が理想 (y) より « 大きい» ことに注意してください。たとえば、7 は 91 よりも倍数 » が多いことに注意することで、この« 位数逆転 » を念頭に置くことができます。
+
+K のすべての元を拡大する関係 $x | y$ にしても、この関係は、K のすべての主分数イデアルの集合 $\mathscr{P}$ の $(x) \supset (y)$ と等価です (ここで、$(0)$ は以下の最小の元です) 関係が含まれます)。
+
+前回の切断と同様に、続編でも基本的に加算剤記法を使用します。ただし、可分性に関する用語は、対応する加法用語に続いて、記号(DIV)の付いた段落で導入されます(ここで使用されている記法は現在の切断のものであることが理解されます)。 位数では、読者の作業を容易にするために、特定の結果が割り算の言語に翻訳されます。たとえば、提案 7 の翻訳は、« 命題 7 (DIV) » と表示されます。
+
+### 6. 小学校演算注文済み群
+
+Let H be a subgroup of an ordered group G; it is clear that the restriction to H of the ordering of G is compatible with the group structure of H; we will always take H to be ordered in this way, unless otherwise stated. P が G の正の元の集合である場合、H の正の元の集合は H ∩ P です。
+
+$(G_\alpha)$ を順序付けられた群の族とします。 順序集合の積の定義 (集合理論, III, p. 137) 積群 G = $\prod G_\alpha$ には順序付け関係 « G の 2 つの元の間の $(x_\alpha) \leq (y_\alpha)$ » は定義により、« すべての α の $x_\alpha \leq y_\alpha$ » と同じになります。この順序が G の群構造と互換性があるのは明らかです。この順序により、G は順序付き群になり、これを順序付き群 $G_\alpha$ の積と呼びます。 G の正の元は、成分がすべて正である元です。すべての因子 $G_\alpha$ が同じ順序の群 H と同一である場合、G は添字集合 I から H への写像の群 H'、2 つの間の関係 « f ≤ g » I から H への写像は、« f(α) ≤ g(α) for all α ∈ I » と同じになります。正の写像は、正の値のみを取るものです。順序群の家族 $(G_\alpha)$ の直和は、その積 (II、p. 202) の順序部分群として定義されます。
+
+Let $(G_i)_{i \in I}$ be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $\prod G_i$, the relation « $(x_i) < (y_i)$ » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». 完全に順序集合のよく順序付けられた族の積は、辞書編集的な順序に従って完全に順序付けされていることを思い出してください。 一般的なケースでは、すぐに検証されるように、G の辞書編集的な順序はその群構造と互換性があります。この順序を装備すると、群 G は順序付き群となり、順序付き群 $(G_i)$ のよく順序付けられた族の辞書編集的積と呼ばれます。
+
+#### 注意 1 {#alg-vi-s1-n6-rem-1 .statement tag=06WT}
+
+最も一般的なケースでは、整列した添字集合 I は N の有限区間 (1, n) になります。
+
+#### 注意 2 {#alg-vi-s1-n6-rem-2 .statement tag=06WU}
+
+辞書編集上の積 G の正の元の集合は、0 と、最小添字の非零成分が正である非零元で構成されます。
+
+### 7. 注文数群のうち増加する準同型
+
+G と G' を 2 つの順序群とします。 G の基礎となる加法群から G' の加法群への準同型 f のうち、増加する写像、つまり x ≤ y が f(x) ≤ f(y) を意味するようなものを考慮することは理にかなっています。 関係 $f(y - x) = f(y) - f(x)$ のため、G から G' への増加する準同型は、そのような準同型の下で G の正の元の像が G' の正の元であるという事実によって特徴付けられるということになります。 P (または P') が G (または G') の正の元の集合を表す場合、これは $f(P) \subset P'$ と書くことができます。 It is clear that the canonical injection of a subgroup G into an ordered group G', and the projection of a product of ordered groups onto one of its factors, are increasing homomorphisms.
+
+同型 (VI, p. 2) $f$ の順序付き群 G から順序付き群 G' は、$f$ とその逆準同型の両方が増加するとなるような G から G' への全単射準同型です。 語 $f(P) = P'$。
+
+G の基礎となる群から G' の基礎となる同型が逆同型が増加するでなくても増加するになる可能性があります。これは、たとえば、$G = G'$ の場合、$f$ が G 上の ID 写像である場合、および $P \subset P'$ ではなく $P \neq P'$ である場合に当てはまります。したがって、$\mathbf{Z}$ では、$P'$ を (通常の) 正の整数の集合とし、P を偶数正の整数の集合とすることができます。
+
+(DIV) K を、位数 2 の体 $F_2$ 上の有理数写像 $F_2(X)$ の体とします。 The divisibility relations relative to the rings $F_2[X] = A'$ and $F_2[X^2, X^3] = A$ define two distinct ordered group structures on $K^*$, such that $A \subset A'$ (they are ordered group structures since 1 is the only unit in A and the only unit in A').
+
+### 8. 順序付けられた Suprema と infima 群
+
+(集合理論、III、p. 141) が、順序付けられた集合 E の部分集合 F の上界の集合 (つまり、$z \in E$ の集合である場合) を思い出してください。すべての $x \in F$ に対して $x \leq z$) が最小の元 a を持っている場合、この元は一意であり、F の最高値と呼ばれます。F が家族 $(x_i)_i$ の元の集合である場合、E の元の最高値です。存在し、 $\sup x_i$ (または $\sup x_i$ または単に $\sup(x_i)$) で示されます。有限族 $(x_i)$ ($1 \leq i \leq n$) の場合、この最高値は $\sup_{\text{LEI}} (x_1, \ldots, x_n)$ とも表されます。下限は同様の方法で定義され、inf で表されます。 演算 sup と inf は結合的で可換です。
+
+(集合理論、前掲) を思い出してください。F が順序付き集合 E の部分集合であり、F の元の族 $(x_i)$ である場合、E の $\sup(x_i)$ ($\sup_E(x_i)$ で示される可能性があります) の存在は、 F の $x_i$ の最高値 (存在する場合は $\sup_F(x_i)$ と表示される場合があります)。両方が存在する場合は、$\sup_E(x_i) \leq \sup_F(x_i)$ ということだけがわかります。ただし、$\sup_E(x_i)$ が存在し、F に属するがあれば、$\sup_F(x_i)$ が存在し、$\sup_E(x_i)$ と等しくなります。たとえば、多項式環 $A = K[X, Y]$ (K 体) では、主イデアル AX と AY は、A のイデアルの順序付けられた集合では最高値としてイデアル $AX + AY$ を持ちますが (関係 $\subset$ の下)、イデアル A は最高値として持ちます。 A の主要な理想すべての集合。
+
+(DIV) 主分数イデアル (d) が $\mathscr{P}^*$ の最高値である場合、$K^*$ の元 d は、$K^*$ の元の族 $(x_i)$ の最大の共通の因子、または略して gcd と呼ばれます。 関係 $\subset$) の理想族 $((x_i))$ の場合、または他の語では、$z \in K^*$ の関係 $z \mid d$ が « すべての $i$ の $z \mid x_i$ » と同等です。 In the same way we will say that $m \in K^*$ is a least common multiple or an lcm of the family $(x_i)$ if $(m)$ is the infimum in $\mathscr{P}^*$ of the family of ideals $((x_i))$, that is if m | z is equivalent to « x_i | z for all i ». $(m) = \cap_{i} (x_i)$; と言うのは同じことになります。実際、すべての $i$ に対する条件 $x_i | z$ は $z \in A x$ と等価であり、すべての $i$ に対して、つまり $z \in \cap_{i} (x_i)$ と等価であり、条件 $m | z$ は $z \in (m)^1$ と等価です。
+
+主分数イデアル (d) が $(d) = \sum (x_i)$ を満たす場合、d は族 $(x_i)$ の gcd であることに注意してください。しかし逆に、$(x_i)$ の gcd は必ずしも上記の条件満たすであるとは限りません (cf. VI、p. 33、例 24)。
+
+gcd と lcm は、存在する場合、$K^*$ の単位元の法部分群 U を法として明確に定義されています。つまり、指定されたファミリーの 2 つの gcd (または 2 つの lcm) が関連付けられています。言葉の乱用により、そのような元が存在する場合は常に、ファミリー $(x_i)$ の gcd または lcm のいずれかを gcd$(x_i)$ および lcm$(x_i)$ と書くことがよくあります。
+
+(DIV) 言葉の乱用により、私たちは K の家族 $(x_i)$ のうち元に gcd のときどき拡大する概念を与えられました。そのうちのいくつかは零になる可能性があります。この gcd は、関係 $z | d$ が « すべての $i$ に対して $z | x_i$ » と同等となるように、元 d として定義されます。すべての $x_i$ が零であれば、明らかに d は 0 です。それ以外の場合、d は非零 $x_i$ の gcd です。同様に、一部の元が零である家族の lcm は 0 です。
+
+順序付けされた群 G、明らか帰結では、順序付けの変換の下での不変性 (VI、p. 2、提案 2) は次のとおりです。
+
+(1)
+$$
+\sup(z + x_i) = z + \sup(x_i)
+$$
+一方が定義されると、もう一方も定義され、両者は等しいという意味で。同様に、写像 $x \mapsto -x$ は G の順序を逆の順序 (VI, p. 3, Cor.) にするという事実から次のようになります。
+
+(2)
+$$
+\inf(-x_i) = -(\sup(x_i)),
+$$
+この関係は、前のものと同じ意味で理解されます。
+
+#### 命題 6 {#alg-vi-s1-prop-6 .statement tag=06WV}
+
+— $(x_i)_{i \in A}, (y_\beta)_{\beta \in B}$ を、順序付けられた群 G の 2 つの族元とし、それぞれが最高値を持ちます。その場合、家族 $(x_\alpha + y_\beta)_{(\alpha, \beta) \in A \times B}$ には至高の権利があり、
+$$
+\sup_{(\alpha, \beta) \in A \times B} (x_\alpha + y_\beta) = \sup_{\alpha \in A} x_\alpha + \sup_{\beta \in B} y_\beta.
+$$
+実際、すべての $\alpha$ と $\beta$ に対する $x_\alpha + y_\beta \leq z$ から、すべての $\beta$ に対して $\sup(x_i) + \sup(y_\beta) \leq z$、したがって $\sup(x_i) + \sup(y_\beta) \leq z$ が推定されます。
+
+1 A が整数の環 (または体の係数と不定の 1 つで多項式環) の場合、これらの定義一致するは I、p. 112 (それぞれ IV、 p. 12、定義 1)。
+
+### 9. 格子を注文しました群
+
+空でないすべての有限部分集合が最高値と下限値を持つ順序付けされた集合が格子 (E、III、p. 13) と呼ばれることを思い出してください。 群の順序の格子の積、特に完全に順序付けられた群の積が、群の順序の格子であることは明らかです。対照的に、群順序付けされた格子の部分群は、必ずしも格子順序付けされているわけではありません。
+
+したがって、積順序付け群 $Z \times Z$ では、« 対角線 » ($n + n' = 0$ となるような対 $(n, n')$ の集合) は離散順序付けで順序付けされており、したがって群順序付けされた格子ではありません。 * 1 つの実数変数 (VI、p. 1、例 2) の多項式の加法群は、フィルター処理された群 ($p(x)$ と $q(x)$ の両方が $(p(x))^2 + (q(x))^2 + 1$ 未満であるため) であり、格子順序ではないことがわかります。 \*
+
+#### 命題 7 {#alg-vi-s1-prop-7 .statement tag=06WW}
+
+— *x と y が順序付き群 G の 2 つの元で、元 $\inf(x, y)$、$\sup(x, y)$ のいずれかが存在する場合、もう一方と $x + y = \inf(x, y) - \sup(x, y)$ も存在します。
+
+実際、関係 (1) と (2) (VI, p. 9) によれば、次のようになります。
+
+$$
+\sup(a - x, a - y) = a + \sup(-x, -y) = a - \inf(x, y),
+$$
+
+$a = x + y$ を取るだけで十分です。
+
+#### 命題 7 {#alg-vi-s1-div-prop-7 .statement tag=06WX}
+
+— * $a, b \in K^*$ で、d が a と b の gcd であり、m が a と b の lcm である場合、積 dm は ab のアソシエイトです。
+
+#### 命題 8 {#alg-vi-s1-prop-8 .statement tag=06WY}
+
+— *P を、順序付けされた群 G の正の元の集合とします。G が格子順序付けされるためには、$G = P - P$ が必要かつ十分であり、誘導順序付けを備えた加法 P では、次の条件のいずれかを満たす必要があります。
+
+a) P の元のそれぞれの対には P に最高値があります。
+b) P の元のそれぞれの対は P に下限を持ちます。
+
+これら条件の必要性は明らかです。実際、関係 $G = P - P$ は G がフィルタリングされると述べています (VI、p. 4、提案 4)。一方、P の 2 つの元の *in* G の上端と下端は正であり、P の上端と下端も正です。
+
+逆に、注意まず、仮定 a) (または b)) の下で、P の元 x, y のすべての対には、その最高値 a (または下限 b) *in* P に等しい上限 (または下限) *in* G があります。これは、a については明らかです。 x と y の上界は正です。 b の場合、x と y の $z \in G$ を下界とします。その場合、$G = P - P$ 以降、$z + u \in P$ となるような $u \in P$ が存在します。現在、$\inf_P(x + u, y + u)$ は $b + u$ より大きく、形 $b + c + u$ ($c \geq 0$) も同様です。 $b + c$ は x より小さく、y より小さいので、$c = 0$ になります。したがって、$\inf_P(x + u, y + u) = b + u$、これは$z + u \leq b + u$、したがって、$z \leq b$を意味し、bは確かにGのxとyの下限です。 さて、xとyがGの任意の元である場合、それらをPに変換します。$v \in P$は、$x + v$と$y + v$が正になるようにします。 (VI、p. 5、提案 5); 仮定 a) (それぞれ b)) では、$P$ の $x + v$ と $y + v$ の最高値 (それぞれ下限) が存在し、したがって、今見たことで $G$ にも存在します。翻訳によると、$x$ と $y$ には $G$ に最高値 (それぞれ下限) があります。提案 7 により、これらの一方の存在は他方を暗示しており、これは条件で十分であることを示しています。
+
+### 10. 分解定理
+
+#### 定理 1 (分解定理) {#alg-vi-s1-thm-1 .statement tag=06WZ}
+
+— ** $(x_i)_{1 \leq i \leq p}$ * と* $(y_j)_{1 \leq j \leq q}$ * を、群* $G$ の順序の格子の正の元の 2 つ有限列とする* $$
+\sum_{i=1}^p x_i = \sum_{j=1}^q y_j ;
+$$ * 場合、正の二重数列* $(z_{ij})_{1 \leq i \leq p, 1 \leq j \leq q}$ * が存在します元 of* $G$ *そのような* $x_i = \sum_{j=1}^q z_{ij}$ *全員* $i$、*および* $y_j = \sum_{i=1}^p z_{ij}$ *全員* $j$。
+
+1) $p = q = 2$の場合、まず定理を証明しましょう。 $x, x', y, y'$ を $x + x' = y + y'$ となるように $G$ の正の元とし、$a = \sup(0, x - y')$ を置きます。以来
+$$
+x - y' = y - x'
+$$
+が $x$ より小さく、$y$ より小さい場合、$b = x - a$ と $c = y - a$ は、$d = a - (x - y')$ と同様に正になります。また、
+$$
+x = a + b, \quad x' = c + d, \quad y = a + c \quad \text{and} \quad y' = b + d .
+$$
+
+2) 次に、$p < m$ と $q = n$ ($m > 2,\ n \geq 2$) について定理が真である場合、$p = m$ と $q = n$ についても真であることを示します。 仮定までに$x, + \sum_{i=1}^{m-1} x_i = \sum_{j=1}^n y_j$になります。 定理が$p = 2$と$q = n$に当てはまる場合、$1 \leq j \leq n$に対して$\sum_{i=1}^{m-1} x_i = \sum_{j=1}^n z_j'$、$x_m = \sum_{j=1}^n z_j''$、$y_j = z_j' + z_j''$のように、$n$の正の項のうち2つの有限列$(z_j'), (z_j'')$が存在します。一方、$p = m - 1$と$q = n$には定理が成り立つため、$1 \leq i \leq m - 1$には$x_i = \sum_{j=1}^n u_{ij}$、$1 \leq j \leq n$には$z_j' = \sum_{i=1}^{m-1} u_{ij}$という二重数列$(u_{ij})_{1 \leq i \leq m-1, 1 \leq j \leq n}$が存在します。パッティング
+$$
+z_{ij} = u_{ij} \quad \text{for} \quad 1 \leq i \leq m - 1 , \quad \text{and} \quad z_{mj} = z_j'' \quad (1 \leq j \leq n) ,
+$$
+確かに定理の 2 倍の数列満たす条件が得られます。
+
+3) 交換することによって、$x_i$ と $y_j$ によって、定理が $p = m$ と $q < n$ ($m \geq 2,\ n > 2$) に真である場合、$p = m$ と $q = n$ にも真であることがわかります。したがって、定理は、$p = q = 2$ の場合から始まる二重の帰納法によって証明されます。これは、$p \leq 1$ または $q \leq 1$ の場合は常に自明に真であるためです。
+
+#### 系 {#alg-vi-s1-n10-cor-1 .statement tag=06X0}
+
+— $y, x_1, x_2, \ldots, x_n$ を $y \leq \sum_{i=1}^n x_i$ となるように $G$ の $n + 1$ 正の元とします。次に、$y_i \leq x_i$ と $y = \sum_{i=1}^n y_i$ のような $n$ 正の元 $y_i$ ($1 \leq i \leq n$) が存在します。
+
+元 $y$ と $z = \left( \sum_{i=1}^n x_i \right) - y$ の 2 つのうち、定理を適用する 1 から数列 $(x_i)$ と数列からなるまでにすれば十分です。
+
+### 11. ポジティブとネガティブ部分
+
+#### 定義 4 {#alg-vi-s1-def-4 .statement tag=06X1}
+
+— 群 $G$ の順序の格子では、元 $x \in G$ の正の部分 (それぞれ負の部分、絶対値) は元 $\sup(x, 0)$ (それぞれ $\sup(-x, 0)$, $\sup(x, -x)$)、これは $x^+$ (それぞれ $x^-$、$|x|$) で示されます。
+
+その名前にもかかわらず、マイナスの部分 $x^-$ はプラスの元です。
+
+明らかに$x^- = (-x)^+$と$|-x| = |x|$です。 次の式にも注目してください。最初の式は定義の明らか帰結であり、翻訳中の順序の不変性を表し、2 番目は VI、p. 10 の提案 7 による最初の式に続きます。
+
+$$
+\begin{cases}
+\sup(x, y) = x + (y - x)^+ \\
+\inf(x, y) = y - (y - x)^+
+\end{cases}
+$$
+
+#### 命題 9 {#alg-vi-s1-prop-9 .statement tag=06X2}
+
+— a) 群 $G$ と順序付けされた格子の各元 $x$ に対して、$x = x^+ - x^-$ と $\inf(x^+, x^-) = 0$ があります。
+
+b) 2 つの正の元の差としての $x$ のすべての式、たとえば $x = u - v$ に対して、$w = \inf(u, v)$ を伴う $u = x^+ + w$ と $v = x^- + w$ が得られます。特に$\inf(u, v) = 0$ の場合は、$u = x^+$ と $v = x^-$ です。
+
+c) 関係 « $x \leq y$ » は « $x^+ \leq y^+$ および $x^- \geq y^-$ » と同等です。
+
+d) $|x| = x^+ + x^- \geq 0$ があります。
+
+e) $G$ の任意の $x$ と $y$ については、不等式 $|x + y| \leq |x| + |y|$ があり、より一般的には、$G$ の元の有限族 $(x_i)$ については $\left| \sum_{i=1}^n x_i \right| \leq \sum_{i=1}^n |x_i|$ が得られます。
+
+f) $G$ の$x$ と $y$ については、$||x| - |y|| \leq |x - y|$ があります。
+
+a)とb)を同時に証明します。 $x = u - v$ に $u$ と $v$ がプラスの場合、$u$ は $x$ となるため、$u \geq \sup(x, 0) = x^+$ と $w = u - x^+$ はプラスになります。一方、私たちは
+
+$$
+x^+ - x = \sup(x, 0) - x = \sup(x - x, -x) = x
+$$
+
+そこから $x = x^+ - x^-$ と $v - x^- = w$ が導き出されます。 $z \leq x^-$ の場合は $z \leq x^+ - x$、つまり $x \leq x^+ - z$ です。 $z \leq x^+$ もあれば、$x^z - z$ は正なので、$x^i$ の定義により $x^i \leq x^+ - z$ になります。したがって、$z \leq 0$ があり、これは $\inf(u, v) = w$ を翻訳すると、$\inf(x^+, x^-) = 0$、よってを意味します。
+
+c) 関係 $x \leq y$ は $\sup(y, 0) \geq x$ と $\sup(y, 0) \geq 0$ を意味するため、$x^i \leq y^i$ となります。同様に、$-y \leq -x$ の場合、$x^- \geq y^-$ が推定されます。 逆の暗示は、$x = x^+ - x$ と $y = y^+ - y$ の直後に続きます。
+
+d) $x \leq x^+$ と $-x \leq x^-$ なので、次のことが明らかです。
+$$
+|x| = \sup(x, -x) \leq x^+ + x
+$$
+逆に、$a \geq x$ と $a \geq -x$ の場合、c) から $a^+ \geq x^+$、$a^+ \geq x^-$、$a^- \leq x^-$、$a^- \leq x^+$ が推測されます。 $a^-$ は正、$\inf(x^i, x^-) = 0$ であるため、最後の 2 つの不等式は $a^- = 0$ と $a = a^+$ を意味します。最初の 2 つの不等式は $a \geq \sup(x^+, x^-)$ を与え、a) と VI、p. 10 の提案 7 により、$\sup(x^+, x^-)$ は $x^+ + x^-$ に等しくなります。
+
+e) $x$ と $y$ が $|x|$ と $y$ なので、$x + y \leq |x| + |y|$ になります。 $-x \leq |x|$ と $-y \leq |y|$ なので、$-x - y \leq |x| + |y|$ になります。 よって最初の不等式。 2 番目は n の帰納法と続きます。
+
+f) 置き換えること x と y を e) の y と x - y によって得ると、
+$$
+|x| - |y| \leq |x - y|
+$$
+同様に $|y| - |x| \leq |y - x| = |x - y|$ もあります。 よって記載の結果。
+
+#### 注意 {#alg-vi-s1-n11-rem-1 .statement tag=06X3}
+
+d) から、$|x| = 0$ は $x = 0$ を意味すると推測します ($x^+$ と $x^-$ は正であるため)。したがって、$x \neq 0$ は $|x| > 0$ を意味します。
+
+#### 命題 9 {#alg-vi-s1-div-prop-9 .statement tag=06X4}
+
+— K の主分数イデアルの群 $\mathscr{P}^*$ が格子順序付けされている場合、$K^*$ のすべての元 x は形 $x = uv^{-1}$ に書き込むことができます。ここで、u と v は $1 = \gcd(u, v)$ となる A の元です。 A の 2 つの元の商としての x の他の式 $x = u'{v'}^{-1}$ の場合、$u' = uw$ と $v' = vw$ が得られます。ここで、w は $u', v'$ の gcd です。特に $1 = \gcd(u', v')$ の場合、u' と v' はそれぞれ u と v の関連付けになります。
+
+$K^*$ の元 x に対するこのような式 $uv^{-1}$ は、多くの場合、約分数と呼ばれます。
+
+### 12. コプライム元
+
+#### 定義 5 {#alg-vi-s1-def-5 .statement tag=06X5}
+
+— 順序付き群では、$\inf(x, y) = 0$ の場合、2 つの元 x と y は互いに素と呼ばれます。
+
+場合によっては、$\inf(|x|, |y|) = 0$ (cf. INT, II, § 1) の場合、定義する 2 元が互いに素になるか、理論の割り算で対応するの用語を導入することが自然です。ここではそうしません。
+
+2 つの互いに素な元は必ず正です。 x の正と負の部分 $x^+$ と $x^-$ は互いに素です (VI, p. 12、提案 9、a))。家族 $(x_i)_{i \in I}$ の元 $x_i$ は、$\inf_{i \in I} x_i = 0$ であれば *集合的に互いに素*であると言われます。 $x_i$ がすべて $\geq 0$ である場合、対応する元が集合的に互いに素であるような I の有限部分集合 J が存在するだけで十分です。家族 $(x_i)$ の元は、個別の添字のすべての対 $(\ell, \kappa)$ が $\inf(x_i, x_j) = 0$ であれば *対で互いに素*であると言われます。
+
+$x_i$ は、ペアごとに互いに素でなくても、セットごとに互いに素になる可能性があります。
+
+x と y が互いに素である場合、x は y と互いに素である、または y は X と互いに素であるとも言います。
+
+(DIV) 主イデアル (x) と (y) が非零であり、$\mathscr{P}^*$ で互いに素である場合、K の 2 つの元 x と y は *互いに素* であると言われます。これは、1 が x と y の gcd であるというに相当し、A に対する x と y *属する* を意味します。たとえば、換算された分数の分子と分母は互いに素です。ペアごとおよびセットごとの互いに素な元の概念も同様に定義されます。
+
+(DIV) x と y が互いに素であるとき、それらはしばしば「1 に対する素数他の」と言われます。この用語は、素数数の概念 (I、p. 50、定義 16) との混乱を招く可能性があるため、避けるのが便利です。
+
+#### 命題 10 {#alg-vi-s1-prop-10 .statement tag=06X6}
+
+*x、y、z を順序付けられた群の 3 つの元とします。 x – z と y – z が互いに素であるためには、z = inf (x, y) であることが必要かつ十分です。*
+
+実際、関係 $z = \inf(x, y)$ と $0 = \inf(x - z, y - z)$ は同等です。
+
+**命題 10 (DIV).** — *a、b、c を K の 3 つの元とし、c $\neq 0$ とします。 商 $ac^{-1}$ と $bc^{-1}$ が互いに素であるためには、 c が a と b の gcd であることが必要かつ十分です。*
+
+#### 命題 11 {#alg-vi-s1-prop-11 .statement tag=06X7}
+
+*$(x_i), (y_j)$ が群で順序付けされた格子の正の元の 2 つの有限族である場合、*
+
+$$
+\inf \left( \sum_i x_i, \sum_j y_j \right) \leq \sum_{i,j} \inf(x_i, y_j)
+$$
+
+家族 $(x_i)$ と $(y_j)$ の元の数について帰納法が議論すると、x、y、z が正の元である場合、次のことを証明するのに十分です。
+
+$$
+\inf(x, y + z) \leq \inf(x, y) + \inf(x, z).
+$$
+
+確かに、$t = \inf(x, y + z)$ を入れてください。 VI, p. 12, Cor. によると、$t = t_1 + t_2$ を $0 \leq t_1 \leq y$ と $0 \leq t_2 \leq z$ で書くことができます。 $t_1$ と $t_2$ は正であるため、$t_1 \leq x$ と $t_2 \leq x$、よって $t_1 \leq \inf(x, y)$ と $t_2 \leq \inf(x, z)$ も存在します。
+
+#### 系 1 {#alg-vi-s1-prop-11-cor-1 .statement tag=06X8}
+
+*x と y が 2 つの互いに素な元で、z が群の順序の格子の正の元である場合、$\inf(x, z) = \inf(x, y + z)$ です。*
+
+実際、提案 11 により $\inf(x, y + z) \leq \inf(x, z)$、$y \geq 0$ から $\inf(x, z) \leq \inf(x, y + z)$、よって系。
+
+#### 系 2 {#alg-vi-s1-prop-11-cor-2 .statement tag=06X9}
+
+— 群の順序の格子で、x と y が互いに素で、z が $\geq 0$ と $x \leq y + z$ の場合、$x \leq z$ になります。
+
+#### 系 3 {#alg-vi-s1-prop-11-cor-3 .statement tag=06XA}
+
+— 群の順序の格子では、x が y および z と互いに素である場合、$y + z$ とも互いに素です。
+
+#### 系 4 {#alg-vi-s1-prop-11-cor-4 .statement tag=06XB}
+
+— $(x_i)_{1 \leq i \leq n}$ と $(y_j)_{1 \leq j \leq m}$ が、群 G で順序付けされた格子の元の 2 つの有限族で、各 $x_i$ が各 $y_j$ と互いに素である場合、$x_1 + \ldots + x_n$ は $y_1 + \ldots + y_m$ と互いに素です。
+これはコルからの続きです。 3 by 帰納法 on m と n。
+
+#### 系 5 {#alg-vi-s1-prop-11-cor-5 .statement tag=06XC}
+
+— 整数 $n \geq 0$ には、$(nx)^+ = nx^+$ と $(nx)^- = nx^-$ があります。 $n \in \mathbf{Z}$ 全員に対して、$|nx| = |n| \cdot |x|$ があります。
+確かに $nx = nx^+ - nx^-$; $x^+$ と x は互いに素であるため、$n \geq 0$ (Cor. 4) の場合、$nx^+$ と $nx^-$ も素です。最初の主張の後に、VI、p. 12 の提案 9 b) が続きます。 2 番目は、$n \geq 0$ の場合の提案 9 d) による最初の結果に続きます。 関係 $|-x| = |x|$ の結果として、ケース $n < 0$ がこれから続きます。
+
+#### 命題 11 {#alg-vi-s1-div-prop-11 .statement tag=06XD}
+
+— 集合 $\mathscr{P}^*$ が格子であると仮定し、$(a_i)$、$(b_j)$ を A の元の 2 つの有限族とする。すると、$\prod_i a_i$ と $\prod_j b_j$ のすべての gcd 割る積 $\prod_{i,j} \gcd(a_i, b_j)$。
+
+#### 系 1 {#alg-vi-s1-div-prop-11-cor-1 .statement tag=06XE}
+
+— a、b、c が A の 3 つの元で、a が b と互いに素である場合、a と c のすべての gcd は、a と bc の gcd でもあります。
+
+#### 系 2 (ユークリッドの補題) {#alg-vi-s1-div-prop-11-cor-2 .statement tag=06XF}
+
+— a、b、c を A の 3 つの元とします。a が b および割る bc と互いに素である場合、それは割る c となります。
+
+#### 系 3 {#alg-vi-s1-div-prop-11-cor-3 .statement tag=06XG}
+
+— x が y および z に対して互いに素である場合、x は yz に対して互いに素です。
+
+#### 系 4 {#alg-vi-s1-div-prop-11-cor-4 .statement tag=06XH}
+
+— $(x_i)$ と $(y_j)$ が A の元の 2 つの有限族で、各 $x_i$ が各 $y_j$ と互いに素である場合、$x_i$ の積は $y_j$ の積と互いに素です。
+
+#### 系 5 {#alg-vi-s1-div-prop-11-cor-5 .statement tag=06XI}
+
+— d が x と y の gcd である場合、$d^n$ は、各正の整数 n の $x^n$ と $y^n$ の gcd です。
+実際、$xd^1$ と $yd^1$ は互いに素であり (提案 10 (DIV))、したがって $x^n d^{-n}$ と $y^n d^{-n}$ も同様です (提案 4)。
+
+#### 命題 12 {#alg-vi-s1-prop-12 .statement tag=06XJ}
+
+— $x_i$ ($1 \leq i \leq n$) を、群の順序の格子内でペアごとに互いに素である元とします。それから
+$$
+\sup(x_1, \ldots, x_n) = x_1 + \cdots + x_n .
+$$
+
+これは、$2 \leq i \leq n$ に対して $x_i$ が $x_1 + \ldots + x_{i-1}$ と互いに素であるという事実を利用して、$n$ における帰納法による公式 $u + v = \sup(u, v) + \inf(u, v)$ (VI, p. 10、提案 7) に続きます (提案 7 への訂正 4)。 11)。
+
+#### 注意 {#alg-vi-s1-n12-rem-1 .statement tag=06XK}
+
+VI、p. 10 の提案 7 は、$x$ と $y$ が互いに素であるために必要かつ十分な条件が $x + y = \sup(x, y)$ であることも示しています。
+
+#### 命題 12 {#alg-vi-s1-div-prop-12 .statement tag=06XL}
+
+— *$a_i$ を、$\mathbf{A}$ のペアごとの互いに素な元の有限数 $n$ とします。 積 $a_1 \ldots a_n$ は、$a_1, \ldots, a_n$ の lcm です。*
+
+#### 命題 13 {#alg-vi-s1-prop-13 .statement tag=06XM}
+
+— *群 $G$ の順序の格子で、$(x_\alpha)$ を下限 (または上限) を持つ族とし、$z$ を $G$ の任意の元とします。その場合、家族 $(\sup(z, x_\alpha))$ (それぞれ $(\inf(z, x_\alpha))$) には下限 (それぞれ上限) があり、*
+
+$$
+\begin{align*}
+\inf_{\alpha} (\sup(z, x_\alpha)) &= \sup \left( z, \inf_{\alpha} x_\alpha \right) \\
+\sup_{\alpha} (\inf(z, x_\alpha)) &= \inf \left( z, \sup_{\alpha} x_\alpha \right)
+\end{align*}
+$$
+
+それぞれ。
+
+家族 $(x_\alpha)$ に下限 $y$ があるとします。 $\sup(z, y)$ が家族 $(\sup(z, x_\alpha))$ の下限であることを示します。
+
+実際、$\sup(z, x_\alpha) = z + (x_\alpha - z)^+$ と、簡約するをケース $z = 0$ に変換することができます。つまり、$(x_\alpha^+)$ には $y^+$ に等しい下限があることを示さなければなりません。 $y \leq x_\alpha$ 以降、すべての $\alpha$ に対して $y^+ \leq x_\alpha^+$ が得られます (VI、p. 12、提案 9、c))。逆に、すべての $a$ に対して $a \leq x_\alpha^+$ であれば、$a \leq x_\alpha + x_\alpha^-$ になります (提案 9、a))。現在 $y^- \geq x_\alpha^-$ 以来 $y \leq x_\alpha$;したがって、すべての $a$ に対して $a \leq x_\alpha + y^-$、つまり $a \leq y + y^- = y^+$ になります。
+
+もう一方の公式は、反対側の位数関係に変化します。
+
+#### 系 {#alg-vi-s1-n12-cor-1 .statement tag=06XN}
+
+— *群 $G$ と命令された格子の元 $z$ が、下限 $y$ を持つ族の各元 $x_\alpha$ と互いに素である場合、$z$ は $y$ と互いに素です。*
+
+2番目の公式(4)の明らか帰結です。
+
+#### 注意 {#alg-vi-s1-n12-rem-2 .statement tag=06XO}
+
+適用提案 13 の公式を 2 つの家族元 $(x, y)$ に適用すると、次の公式が得られます。これは、群の順序の格子内の合成 sup、inf のそれぞれの法則が、他方に対して *分配的*であるという事実を表します。
+
+$$
+\begin{align*}
+\sup(z, \inf(x, y)) &= \inf(\sup(z, x), \sup(z, y)) \\
+\inf(z, \sup(x, y)) &= \sup(\inf(z, x), \inf(z, y)) .
+\end{align*}
+$$
+
+この分布性性質は格子順序 *群* に特有であり、任意の格子や格子順序モノイド (cf. VI、p. 33、例 24) にも拡大するは当てはまりません。
+
+### 13. 既約元
+
+#### 定義 6 {#alg-vi-s1-def-6 .statement tag=06XP}
+
+— *元順序付き群 G の x は、G の厳密に正の元の集合における最小の元である場合、既約であると言われます。
+
+x を注文した群 G の既約元とします。 y が G の正の元である場合、元 inf(x, y) が存在する場合、それは x または 0 に等しいことしかありません。したがって、群 G の順序の格子では、すべての正の y は既約元 x より大きいか、または既約元 x と互いに素です。特に、2 つの異なる既約元は互いに素です。
+
+(DIV) 理想 (p) が順序付けられた群 $\mathscr{P}^*$ の既約元である場合、A の元 p は *既約* と呼ばれます。これは、p が零でもなく可逆的でもなく、割る p が p または 1 に関連する $A$ の任意の元が、$\mathscr{P}^*$ が格子順序である場合、すべての $a \in A$ が p と互いに素であるか、p の倍数のいずれかであることを示しています。
+
+#### 例 (DIV) {#alg-vi-s1-n13-exa-1 .statement tag=0EEO}
+
+1) 整数 $p > 0$ は、*素数* (I、p. 50) である場合に限り、$\mathbf{Z}$ で既約です。
+
+2) 体 K 上の 1 つの不定多項式は、通常の意味 (IV, p. 13) で既約である場合に限り、既約です。
+
+#### 命題 14 {#alg-vi-s1-prop-14 .statement tag=06XQ}
+
+— *順序付き群 G の元 $x > 0$ が既約であるためには、次の満たす性質だけで十分です :*
+
+(P) *関係 $x \leq y + z,\ y \geq 0,\ z \geq 0$ は $x \leq y$ または $x \leq z$ を暗示します。*
+*この条件はGが格子順序の場合に必要です。*
+
+G が格子順序であり、x が既約である場合、y が x より大きいか、x と互いに素であることがわかりました。後者の場合は Cor. VI、p. 15 の 2 は、z が x より大きいことを示します。逆に、条件が満たされているとします。$0 \leq y \leq x$ の場合、$x = y + z\ (z \geq 0)$ を入れると、$x \leq y$ または $x \leq z$ のいずれかになります。最初のケースでは $x = y$ です。 2 番目では、$x \leq x - y$ があるので、$y \leq 0$、そして、$y = 0$ になります。これは、x が確かに既約であることを示しています。
+
+#### 命題 14 {#alg-vi-s1-div-prop-14 .statement tag=06XR}
+
+— *A の非零元 p が既約であるためには、それが単位元ではなく、A の 2 つの元のうち、どちらかを分割せずにできない割る積になるだけで十分です。 $\mathscr{P}^*$ が格子オーダーの場合、この条件が必要です。*
+
+#### 注意 {#alg-vi-s1-n13-rem-1 .statement tag=06XS}
+
+命題 14 (DIV) は次のように表すこともできます。p が A の非零元で、イデアル (p) が *素数* (I, p. 117、定義 3) である場合、p は既約です。逆に、$\mathscr{P}^*$ が格子順序であり、p が既約であれば、イデアル (p) は素数になります。
+
+#### 命題 15 {#alg-vi-s1-prop-15 .statement tag=06XT}
+
+— *順序付き群 G において、$(p_i)_{i \in I}$ を G 満たす条件 (P) のペアごとに異なる正の元の族とする (したがって既約)。それから写像*
+
+$$
+(n_i)_{i \in I} \mapsto \sum_{i \in I} n_i p_i
+$$
+
+は、$p_\iota$ によって生成された $G$ の順序付けされた部分群に、順序付けられた群 $\mathbf{Z}^{(I)}$ の同型、順序付けられた群 $Z$ (VI、p. 7) の直和が入ります。
+
+関係 $\sum_{\iota \in I} n_\iota p_\iota \geq 0$ がすべての $\iota$ に対して $n_\iota \geq 0$ と同等であることを示すだけで十分です。特に関係 $\sum_{\iota \in I} n_\iota p_\iota = 0$ はすべての $\iota$ に対して $n_\iota = 0$ を意味するため、これは族 $(p_\iota)$ が線形独立であることを示します。ここで、$I'$ (それぞれ $I''$) を、$\iota$ のうちの $I$ からなるの有限部分集合とし、$n_\iota > 0$ (それぞれ $n_\iota < 0$) とします。我々は持っています
+
+$$
+\sum_{\iota \in I'} n_\iota p_\iota \geq \sum_{\iota \in I''} (-n_\iota)p_\iota .
+$$
+
+特に、$\lambda \in I''$ の場合、これは $p_\lambda \leq \sum_{\iota \in I'} n_\iota p_\iota$ を意味し、性質 (P) から帰納法が続き、一部の $\iota \in I'$ には $p_\lambda \leq p_\iota$ が必要になります。 $p_\iota$ は既約なので、これは $p_\lambda = p_\iota$ を意味しますが、これは不合理です。したがって、$I'$ は空であり、命題が証明されます。
+
+#### 定理 2 {#alg-vi-s1-thm-2 .statement tag=06XU}
+
+— $G$ をフィルタリングされた群とします。したがって、次のプロパティは同等です。
+a) $G$ は、形 $\mathbf{Z}^{(I)}$ の順序付き群と同型です。
+b) $G$ は格子順序付けされており、次の条件を満たします。
+(最小値) $G$ の正の元の各空でない集合には、最小値元があります。
+c) $G$ は条件 (MIN) を満たし、$G$ のすべての既約元は性質 (P) を持ちます。
+d) $G$ はその既約元によって生成され、$G$ のすべての既約元には性質 (P) があります。
+
+まず、a) が b) を意味することを示しましょう。 群 $\mathbf{Z}^{(I)}$ は、完全に順序付けされた群の直和として、格子順序付けされます。 On the other hand let $E$ be a nonempty set of positive elements of $\mathbf{Z}^{(I)}$ and let $x = \sum n_\iota e_\iota$ be an element of $E$ (where $(e_\iota)$ denotes the natural basis of $\mathbf{Z}^{(I)}$) ; there are a finite number $\prod (n_\iota + 1)$ of elements $y$ of $\mathbf{Z}^{(I)}$ such that $0 \leq y \leq x$, so the set $F$ of elements of $E$ which are less than or equal to $x$ is $a$ fortiori finite ; since it is nonempty, it contains a minimal element (Set Theory, III, p. 170, Cor. 2), which is clearly a minimal element of $E$.
+
+提案 14 により、b) が c) を意味することは明らかです。c) が d) を意味することを示しましょう。 $G$はフィルタリングされているので、既約元の和である$G$の正の元の集合$F$が$G_+ - \{0\}$に等しいことを確認するだけで十分です（VI、p. 4、提案4）。これが真実でない場合、(MIN) から、$G_+ - \{0\}$ の $F$ の補数は最小値元 $a$ を持つことになります。 定義 $a$ は既約ではないため、厳密に正である 2 つの元 $x$ と $y$ のうち和も既約ではありません。 $x < a$と$y < a$から、これらの元属するから$F$となり、既約元の和も同様となり、$a$も同様ということになり、矛盾しています。最後に、d) は提案 15 による a) を意味します。
+
+We will apply Th. 2 to the theory of divisibility in principal ideal domains (VII, p. 4) and in unique factorisation domains (AC, VII, § 3), as well as to the study of ideals in a Dedekind ring (AC, VII, § 2).
+
+### 練習問題 {#alg-vi-s1-exercises}
+
+[§ 1 に対して練習問題](exercises/s1/)を参照してください。

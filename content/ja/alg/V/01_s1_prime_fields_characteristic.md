@@ -1,0 +1,284 @@
+---
+book: alg
+book_title: Algebra
+chapter: V
+chapter_title: COMMUTATIVE FIELDS
+section: 1
+section_title: Prime fields. Characteristic
+lang: ja
+source: alg-iv-vii
+source_edition: 2003, Springer
+pdf_pages: 0115-0123, 0259-0260
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Prime fields
+      page: 0
+      pdf_page: 115
+    - "no": 2
+      title: Characteristic of a ring and of a field
+      page: 2
+      pdf_page: 116
+    - "no": 3
+      title: Commutative rings of characteristic p
+      page: 3
+      pdf_page: 117
+    - "no": 4
+      title: Perfect rings of characteristic p
+      page: 5
+      pdf_page: 119
+    - "no": 5
+      title: Characteristic exponent of a field. Perfect fields
+      page: 7
+      pdf_page: 121
+    - "no": 6
+      title: Characterization of polynomials with zero differential
+      page: 7
+      pdf_page: 121
+statements: 23
+exercises: 5
+content_sha256: 5be2ca86e41d1d07c79f16c93ce408beb7a3761a753d03ea86b9623b8040ddf8
+translated_from: content/en/alg/V/01_s1_prime_fields_characteristic.md
+translation_method: google
+source_content_sha256: 2397d756974854b3ee958d9e41606c68fd59ce8ff67222f074fcb59adc452c32
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: fdcdc7c0303a8320e6dea44d0f72ff679a7749b8daad9cfb5f5a0c769f4a6572
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 1。プライム体。特性
+
+### 1. プライム体
+
+The field of fractions of the ring Z of rational integers is called the field of rational numbers and is denoted by Q (I, p. 117). すべての素数数 p 商環 $\mathbf{Z}/(p)$ は、p 元の有限 $^1$ 体であり、続編では $\mathbf{F}_p$ で示されます。 体 Q は含む Z であるため無限であり、したがってどの体 $\mathbf{F}_p$ とも同型ではありません。 p と $p'$ が別個の素数数である場合、体 $\mathbf{F}_p$ と $\mathbf{F}_{p'}$ は別個の基数を持ち、したがって同型ではありません。
+
+#### 定義 1 {#alg-v-s1-def-1 .statement tag=06G3}
+
+体は、Q または体 $\mathbf{F}_p$ のいずれかと同型である場合、素数であると言われます。
+
+Q の部分体含む環 Z、したがって Z の分数 Q の体。 $\mathbf{F}_p$ のすべての部分環は必ず $\mathbf{F}_p$ に等しくなります。したがって、素数体のすべての部分体は必然的にそれに等しくなります (以下の Th. 1 の cf. Cor. 2)。 P を素数体および A 環とする。 f と $f'$ が A への P の 2 つ準同型である場合、$x \in P$ の集合となり、$f(x) = f'(x)$ は P の部分体となるため、これまで述べてきたことから、$f = f'$ がなければなりません。特に、素数体の自己準同型は恒等写像だけです。
+
+$^1$ 言葉の乱用により、その根底にある集合が有限である場合、環または体は有限であると言います。
+
+#### 定理 1 {#alg-v-s1-thm-1 .statement tag=06G4}
+
+— $A$ を環とします。 $A$の部分体が存在するとします。次に、$A$ には固有の部分体 $P$ があり、これは素数体です。さらに、$P$は$A$の中心と$A$のすべての部分体に含まれています。
+
+$K$を$A$の部分体、$A$の$C$中心とし、$K' = K \cap C$を置きます。その場合、$K'$ は $A$ の部分体です。 $f$ を $\mathbf{Z}$ の一意な準同型を $A$ に、$p$ をその核にします。 $A$ のすべての部分環、特に $K'$、含む $f(\mathbf{Z})$;したがって、イデアル $p$ は素数 (I, p. 116-117) です。 $p = (0)$ の場合、$\mathbf{Z}$ の $K'$ への準同型 $f$ は単射です。したがって、拡大する (I, p. 116) から $\mathbf{Q}$ の同型 $\bar{f}$ が $K'$ の部分体 $P$ になります。 $p \neq (0)$ の場合、厳密には $p = (p)$ (I, p. 111) のような正の整数 $p$ が存在します。 $p = ab$ と $a > 1$ と $b > 1$ がある場合、これは $a \notin p, b \notin p$ と $ab \in p$ を意味し、$p$ が素数であるという事実と矛盾します。 したがって、数 $p$ は素数であり、$F_p = \mathbf{Z}/p$ の商 $f$ 定義する同型から $K'$ の部分体 $P$ に進みます。 どちらの場合も、$P$は$A$の中心$C$に含まれる$A$の部分体であり、素数体です。 $L$ を $A$ の部分体とします。すると、$P \cap L$ は $P$ の部分体で、$P$ は素数なので、$P \cap L = P$、よって $P \subset L$ になります。 $P'$ が $A$ の部分体で、素数体である場合、$P'$ は素数体であるため、これまでに述べたように、$P \subset P'$、よって $P = P'$ になります。
+
+#### 系 1 {#alg-v-s1-thm-1-cor-1 .statement tag=06G5}
+
+— $K$ を体とします。素数体である$K$の一意の部分体が存在し、これは$K$の最小の部分体です。
+
+#### 系 2 {#alg-v-s1-thm-1-cor-2 .statement tag=06G6}
+
+— 体が素数であるためには、それ自体以外に含む部分体が存在しないことが必要かつ十分です。
+
+### 2. 環と体の特徴
+
+$A$ が部分体である場合にのみ、環 $A$ の特性を定義するとします。この場合、$f$ を $\mathbf{Z}$ の環準同型を$A$ に変換したものとし、$n$ を$f$ の核である$\mathbf{Z}$ の理想的な正の整数生成するとします。 (I、p. 111);次に、整数 $n$ を $A$ の特性と呼びます。
+
+$A$ を特性が定義される環とします。その場合、$A$ は簡約するから 0 にはなりません。 1 体である $A$ の一意の部分体 $P$ が存在します。これを$A$の素数部分体と呼ぶことにします。木曜日証明までに1 次の 2 つの可能性があります。
+a) $A$ の標数は 0、$P$ は $Q$ と同型、
+b) $A$ の標数は数 $p$ の素数であり、$P$ は $\mathbf{F}_p$ と同型です。
+
+$A$ の特性が零である場合、$Q$ から$A$ への一意の環準同型が存在します。その像は、$A$ の中心に含まれる $A$ の素数部分体です。したがって、環構造と互換性のある$A$の固有の$Q$-代数構造が存在します。 $A$ の標数が素数数 $p$ であるとき、置き換えること体 $Q$ by 体 $\mathbf{F}_p$ に対応するの性質があります。
+
+#### 命題 1 {#alg-v-s1-prop-1 .statement tag=06G7}
+
+— $A$ を 0 に減らさない環とします。
+a) $A$ が標数 0 であるためには、整数 $n \neq$ ごとに、$A$ の写像 $x \mapsto n \cdot x$ が全単射であることが必要かつ十分です。
+
+b) $p$ を素数数とします。 $A$ が特性 $p$ であるためには、すべての $x \in A$ に対して $p \cdot x = 0$ であることが必要かつ十分です。
+
+$f$ を $\mathbf{Z}$ の一意な準同型を $A$ にします。 整数 $n$ ごとに $n \cdot x = f(n)x$ があり、$A$ のすべての $x$ があります。 $A$ が標数 0 であるためには、$f$ が $\mathbf{Q}$ の拡大するから準同型を $A$ に変換すること、つまり、$f(n)$ が $n \neq 0$ ごとに $A$ で反転可能であることが必要かつ十分です。 (I、p. 113);これは$a$を証明します。同様に、$A$ が特性 $p$ であるためには、$f$ が $p\mathbf{Z}$、つまり $f(p) = 0$ を全滅させるか、すべての $x \in A$ に対して $p \cdot x = 0$ を全滅させることが必要かつ十分です。これは$b$を証明します。
+
+$A$ が必ずしも可換体であるとは限りません。 $A$ の中心は (可換) 体です。したがって、$A$ の特性と素数部分体が定義されます。
+
+#### 注意 1 {#alg-v-s1-n2-rem-1 .statement tag=06G8}
+
+$A$と$A'$を0にならない2つの環とします。$A$の特性が定義され、$A'$に$A$の$u$が準同型あるとします。 $A$ の素数部分体の $u$ の下の像は、$A'$ の部分体 $P'$ であり、$P$ と同型なので素数です。したがって、$A'$ の特性が定義され、$A$ の特性と等しいことがわかります。 $A$ と $A'$ が特性 0 (それぞれ $p \neq 0$) の場合、写像 $u$ は、$\mathbf{Q}$ (それぞれ $\mathbf{F}_p$) に対する代数の準同型です。
+
+#### 注意 2 {#alg-v-s1-n2-rem-2 .statement tag=06G9}
+
+注意 1 は、$A$ が特性 0 の環 (それぞれ $p \neq 0$) である場合、環 $A'$ 含む $A$ の部分環、または $A$ の任意の商にも同じことが当てはまることを示します。両側イデアル$a \neq A$によって。 特に、$K$ が体の場合、$K$ のすべての部分体と $K$ のすべての拡大体は、$K$ と同じ特性を持ちます。
+
+#### 注意 3 {#alg-v-s1-n2-rem-3 .statement tag=06GA}
+
+$A$ を体 $K$ を超えて 0 に減らさない代数とします。 $K$の$A$への写像$\lambda \mapsto \lambda \cdot 1$は環準同型であるため、注意1は$A$の特性が定義され、$K$の特性と等しいことを示します。
+
+#### 注意 4 {#alg-v-s1-n2-rem-4 .statement tag=06GB}
+
+体 $\mathbf{Q}$ は無限であるため、特性 0 のすべての環は無限です。つまり、すべての有限体にはゼロ以外の特性があるということになります。
+
+#### 注意 5 {#alg-v-s1-n2-rem-5 .statement tag=06GC}
+
+$A$ を 0 に減らさない環とし、その加法群はねじれのない $\mathbf{Z}$ 加群であり、$B = \mathbf{Q} \otimes_{\mathbf{Z}} A$ を置きます。 $A$ の $B$ への写像 $x \mapsto 1 \otimes x$ は単射法 (II, p. 314) であるため、$A$ は標数 0 の環の部分環と同型です。
+
+### 3. 特性 p の可換環
+
+この番号と次の番号では、$p$ は素数数を表します。
+
+#### 定理 2 {#alg-v-s1-thm-2 .statement tag=06GD}
+
+— $A$ を特性 $p$ の可換環とします。 写像 $a \mapsto a^p$ は環 $A$ の自己準同型です、つまり関係があります
+
+(1) $$(a + b)^p = a^p + b^p$$
+(2) $$(ab)^p = a^p b^p$$
+
+$A$の$a, b$用。
+
+公式 (2) は、$A$ の可換性から続きます。 (1) を証明するには、二項式公式 $(a + b)^p = a^p + b^p + \sum_{i=1}^{p-1} \binom{p}{i} \cdot a^i b^{p-i}$ を使用します。すべての $x \in A$ に対して $p \cdot x = 0$ であるため、次の補題を証明するだけで十分です。
+
+#### 補題 1 {#alg-v-s1-lem-1 .statement tag=06GE}
+
+$p$ を 1 ～ $p - 1$ の範囲の素数数および $i$ 整数とすると、二項係数 $\binom{p}{i}$ は整数が $p$ で割り切れます。
+
+$i$ で帰納法によって議論し、ケース $i = 1$ は公式 $\binom{p}{1} = p$ から明らかになります。 $2 \leq i \leq p - 1$ と $\binom{i}{i-1}$ が $p$ で割り切れるとします。次に、整数 $i \binom{p}{i} = (p - i + 1) \binom{p}{i-1}$ 属するが$\mathbf{Z}$ の主理想$p\mathbf{Z}$ になります。 $i \notin p\mathbf{Z}$ から、$\binom{p}{i} \in p\mathbf{Z}$ があり、補題が続きます。
+
+$A$ を特性 $p$ の可換環と $f$ 整数 $\geq 0$ とします。 Thさんから2 $f$ の帰納法により、写像 $a \mapsto a^{p^f}$ は環 $A$ の自己準同型であると推定されます。特に関係があります
+
+$$
+(a_1 + \cdots + a_n)^{p^f} = a_1^{p^f} + \cdots + a_n^{p^f}
+$$
+
+$A$ の任意の $a_1, \ldots, a_n$ に対して。 写像 $a \mapsto a^p$ は、$A$ の *フロベニウス自己準同型* と呼ばれるときどきです。 $A = \mathbf{F}_p$ と $a_i = 1$ を使用すると、(3) 関係から次のようになります。
+
+$$
+n^{p^f} \equiv n \mod p \quad (n \in \mathbf{Z}, f \in \mathbf{N}) .
+$$
+
+For each subset $S$ of $A$ we denote by $S^{p^f}$ the set of elements of $A$ of the form $x^{p^f}$ with $x \in S$^1. 特に、$K$ が $A$ の部分環である場合、集合 $K^{p^f}$ は $A$ の部分環です。 If $K$ is a subring of $A$ and $S$ a subset of $A$ we denote by $K[S]$ the subring of $A$ generated by $K \cup S$; when $A$ is a field, we denote by $K(S)$ the field of fractions of $K[S]$, that is, the subfield of $A$ generated by $K \cup S$.
+
+#### 命題 2 {#alg-v-s1-prop-2 .statement tag=06GF}
+
+— *$A$を特性$p$の可換環、$A$の$K$部分環、$A$の$S$部分集合、および$f$正の整数とします。*
+
+a) *$K[S]^{p^f} = K^{p^f}[S^{p^f}]$ があり、$A$ が体であれば、$K(S)^{p^f} = K^{p^f}(S^{p^f})$。*
+
+b) *$K$モジュール$K[S]$が$A$の元のファミリー$(a_i)_{i \in I}$によって生成される場合、$K$モジュール$K[S^{p^f}]$はファミリー$(a_i^{p^f})_{i \in I'}$によって生成されます*
+
+Since $K[S]$ is the subring of $A$ generated by $K \cup S$, its image $KISlp^f$ under the endomorphism $\pi : a \mapsto a^{p^f}$ of the ring $A$ is the subring of $A$ generated by the image $K^{p^f} \cup S^{p^f}$ of $K \cup S$ under $\pi$, whence $K[S]^{p^f} = K^{p^f}[S^{p^f}]$. 体の場合も同様に扱われます。これは a) を証明します。
+
+ファミリ $(a_i^{p^f})_{i \in I}$ 生成するが $K^{p^f}$ モジュール $K[S]^{p^f}$ であることは明らかです。 $K$ モジュール $K[S^{p^f}]$ は、$S$ の任意の $x_1, \ldots, x_n$ を含む形 $x_1^{p^f} \cdots x_n^{p^f} = (x, \ldots x_n)^{p^f}$ の積によって生成されます。したがって、集合 $K[S]^{p^f}$ によっても生成されます。 主張 b) はここから直接続きます。
+
+^1 もちろん、集合 $S^{p^f}$ を、$p^f$ 集合の $S$ の集合積や、$p^f$ 元の積の集合と混同しないでください。 所属から$S$まで。
+
+### 4. 特性 p の完璧な環
+
+#### 定義 2 {#alg-v-s1-def-2 .statement tag=06GG}
+
+— 標数 $p \neq 0$ の環 $A$ が可換であり、写像 $a \mapsto a^p$ が全単射であれば完全であると言われます。
+
+環 $A$ が特性 $p$ の完全である場合、写像 $a \mapsto a^{p^f}$ は、整数 $f \geq 0$ ごとに環 $A$ の自己同型になります。逆の自己同型は$a \mapsto a^{1/p^f}$または$a \mapsto a^{p^{-f}}$で表され、この自己同型の下の部分集合$S$の$A$の像は$S^{1/p^f}$または$S^{p^{-f}}$と書かれます。すべての $a \in A$ と、(どのような記号であっても) 整数 $e$ と $f$ が $(a^{p^e})^{p^f} = a^{p^{e+f}}$ であることは明らかです。
+
+$A$を特性$p$の可換環とします。 整数 $f \geq 0$ ごとに、自己準同型の核環 $A$ の $a \mapsto a^p$ に $\mathfrak{n}_f$ を書きましょう。すると、$(\mathfrak{n}_f)_{f \geq 0}$は$A$の理想の増加する数列になります。すべての正の整数は $p$ の冪でメジャー化されるため、イデアル $\mathfrak{n} = \bigcup_{f \geq 0} \mathfrak{n}_f$ は $A$ のすべての冪零元で構成されます。特に、$A$ が完全な場合、$A$ のすべての冪零元は零になります。
+
+#### 定義 3 {#alg-v-s1-def-3 .statement tag=06GH}
+
+— $A$ を特性 $p \neq 0$ の可換環とします。 $A$ の完全閉包によって、対 $(A, u)$ がわかります。ここで、$A$ は特性 $p$ の完全環であり、$u$ は $A$ の準同型から $A$ 満たすになります。 普遍性に続く:
+
+(PC) *B が標数 p の完全環で、v が A から B への準同型である場合、$v = h \circ u$ となる A から B への一意な準同型 h が存在します。*
+
+普遍性 (PC) は、次の意味で、完全閉包の一意性を同時に暗示します。 : $(A, u)$ と $(A', u')$ が $A$ の 2 つの完全閉包である場合、$A$ の固有の同型 $h$ が存在します。 $A'$ は、$u' = h \circ u$ (cf. *E、IV*、p. 23) となります。ここで、完全な閉包の *存在* を確立します。
+
+#### 定理 3 {#alg-v-s1-thm-3 .statement tag=06GI}
+
+— $A$ を特性 $p \neq 0$ の可換環とします。 $A$ の完全な閉包 $(A, u)$ が存在します。さらに、$u$の核は、$A$のすべての冪零元の集合であり、各$x \in A$には、$x^{p^n} \in u(A)$となるような整数$n \geq 0$が存在します。
+
+整数 $n \geq 0$ ごとに $A_n = A$ を入れます。 $m \geq n$ のとき、$A_n$ の定義する準同型 $\pi_{m,n}$ が $\pi_{m,n}(a) = a^{p^{m-n}}$ までに $A_m$ になります。 We thus obtain a direct system of rings $(A_n, \pi_{m,n})$ (I, p. 120); let $A$ be the direct limit of this system and $u_n$ the canonical homomorphism of $A_n = A$ into $A$; we also put $u = u_0$. $u$ の直接極限核 $\mathfrak{n}$ の構成は、準同型 π_{n,0} の核の和集合です: $A$ の \mapsto a^{p^n} を $A$ に変換すると、次のようになります。 $A$ のすべての冪零元。 環 $A$ は、V、p. 3 の注意 1 による標数 $p$ の可換です。
+
+環 $A$ は、部分環の昇順数列 $(u, (A))_n$ の和集合です。 $u_n(A)^{p^n} = A$ があります。したがって、各 $x \in \hat{A}$ には、$x^{p^n} \in u(A)$ となる整数 $n \geq 0$ が存在します。 $u_n(A) = u_{n+1}(A)^p$、よって $\hat{A}^p = A$もございます。 $x \in A$ を $x^p = 0$ となるようにします。 選ぶ整数 $n \geq 1$ と元 $a \in A$ は $x = u_n(a)$ になります。次に、$u_{n-1}(a) = u_n(a)^p = 0$ です。直接の極限の定義により、$\pi_m^{1,n-1}(a) = 0$、つまり$a^{p^{m-n}} = 0$となるような整数$m$が存在します。したがって、$\pi_{m,n}(a) = 0$、よって、$u_n(a) = 0$、つまり $x = 0$ になります。したがって、環 $A$ は特性 $p$ の完全なものです。
+
+$v$ を $A$ の準同型として特性 $p$ の完全な環 $B$ とします。 すべての整数 $n \geq 0$ に対して、写像 $b \mapsto b^{p^n}$ は $B$ の自己同型であるため、$v(a) = v_n(a)^{p^n}$ によって特徴付けられる $B$ には $A, = A$ の準同型 $v_n$ が存在します。 We then have $v_m \circ \pi_{m,n} = v_n$ for $m \geq n \geq 0$; by definition of the direct limit there exists a homomorphism $h$ of $A$ into $B$ such that $v_n = h \circ u$, for all $n \geq 0$; in particular we have $v = v_0 = h \circ u_0 = h \circ u$. 最後に、$h'$ を $A$ の準同型を $B$ にして、$h' \circ u = v$ とします。 $x \in A$ にしましょう。これまで見てきたように、$x^{p^n} = u(a)$ となるような整数 $n \geq 0$ と元 $a \in A$ が存在します。 それでは、
+
+$$
+h(x)^{p^n} = h(u(a)) = v(a) = h'(u(a)) = h'(x)^{p^n},
+$$
+
+そして、$B$ は完全なので、$h(x) = h'(x)$ が見つかります。したがって、$h' = h$ があり、これで $(A, u)$ が $A$ の完全な閉包である証明が完成します。
+
+#### 命題 3 {#alg-v-s1-prop-3 .statement tag=06GJ}
+
+— *$B$を特性$p$の完全環と$B$の$A$部分環とする。 $\mathbf{A}^{p^{-\infty}} = \bigcup_{f \geq 0} \mathbf{A}^{p^{-f}}$と書いて、$\mathbf{A}^{p^{-\infty}}$の$A$の$j$標準単射で表します。次に、$\mathbf{A}^{p^{-\infty}}$ は $B$ 含む $A$ の最小のの完全な部分環であり、$(\mathbf{A}^{p^{-\infty}}, j)$ は $A$ の完全な閉包です*。
+
+それぞれの整数 $f \in \mathbf{Z}$ は、$\pi_f$ 自己同型 $b \mapsto b^{p^f}$ の $B$ で表されます。 部分環の数列 $B$ の $\pi_{-f}(A)$ ($f \geq 0$ の場合) は昇順であり、その和集合 $\mathbf{A}^{p^{-\infty}}$ は、$B$ の部分環になります。 $\pi_1(\mathbf{A}^{p^{-\infty}}) = \bigcup_{f \geq 0} \pi_{-(f-1)}(A) = \mathbf{A}^{p^{-m}}$ があるため、$\mathbf{A}^{p^{-\infty}}$ は $B$ の完全な部分環です。最後に、$B_0$ を $B$ 含む $A$ の完全な部分環とします。 整数 $f \geq 0$ ごとに、$\pi_{-f}(A) \subset \pi_{-f}(B_0) = B_0$、よって $\mathbf{A}^{p^{-\infty}} \subset B_0$ があります。
+
+$v$ が $A$ の準同型を特性 $p$ の完全な環 $B'$ にすると、整数 $f \geq 0$ ごとに $\pi_{-f}(A)$ の定義する準同型 $h_f$ を次のようにすることができます。 $B'$ による $h_f(\pi_{-f}(a)) = v(a)^{p^{-f}}$ によるすべての $a \in A$ 。 We see at once that $h_{f+1}$ agrees with $h_f$ on $\pi_{-f}(A)$; thus there exists a homomorphism $h$ of $\mathbf{A}^{p^{-\infty}}$ into $B'$ which induces $h_f$ on $\pi_{-f}(A)$ for all $f \geq 0$ and in particular, $h$ extends $h_0 = v$. $h'$が$v$の他の拡大から$A^{p^{-\infty}}$の準同型をBにすると、Thの証明のように等式$h' = h$が成立する可能性があります。 3.
+
+### 5. 体の特徴指数。 完全体
+
+$K$ を体とします。 $K$ の *特性指数* により、$K$ が特性 0 の場合、整数は *1* に等しく、これがゼロ以外の場合は $K$ の特性に等しいことがわかります。
+
+#### 命題 4 {#alg-v-s1-prop-4 .statement tag=06GK}
+
+— *$K$を特性指数qの体とします。すべての整数 $f \geq 0$ 写像 $x \mapsto x^{q^f}$ は、部分体 ($K^{q^f}$ で示される) の 1 つにおける K の同型です。*
+これはThから続きます。 q ≠ 1 の場合は 2、q = 1 の場合は自明です。
+同様に、$A$ が特性指数 q の体である場合、q = *1* の場合は自明である場合にも、拡大する提案 2 を行うことができます。
+
+#### 定義 4 {#alg-v-s1-def-4 .statement tag=06GL}
+
+— *指数 q の *体 K は、$K^q = K$ があれば完全であると言われます。 $K^q \neq K$ のとき、K は不完全と呼ばれます。*
+これにより、定義体は、特性 0 の場合は完全、特性 $p \neq 0$ の完全な環であれば、Def の意味で完全になります。 2. $K$ が特性 $p \neq 0$ の体で、$(K, u)$ が $K$ の完全閉包である場合、提案 3 *(V, p. 6)* により、K は体となり、$u$ は K の同型になります。 $\hat{K}$中部分体。 多くの場合、$K$ は $\hat{K}$ の $u$ の下にある像と同一視され、$\hat{K} = K^{p^{-\infty}}$ が得られます (提案 **3**)。
+K を特性 *0* の体とします。 $K$ の特性指数は *1* になります。 慣例により、記法 $x^{q^{-f}}$ と $S^{q^{-f}}$ はそれぞれ x と S を意味するとみなされます*($K$ の元 $x$ と $K$ の部分集合 S の場合)*。 特に、$K^{q^{-\infty}} = K$ を置き、$K$ の完全閉包を $K$ とすることに同意します。
+
+#### 命題 5 {#alg-v-s1-prop-5 .statement tag=06GM}
+
+— *K が標数 0 の体であるか、有限、 \* 、または代数的に閉じている \* である場合、それは完全です。特にすべての素数体は完璧です。*
+$K$ が特性 $p \neq 0$ を持っているとします。 $K$ が有限である場合、$K$ の部分体 $K^p$ は、$K$、よって $K^p = K$ と同じ基数を持ちます。 \* $K$ が代数的に閉じている場合、多項式 $X^p - a$ は、各 $a \in K$ に対して $K$ に根 $x$ が含まれます *(V, p. 20, 定義 1)* よって $x^p = a$それで$K^p = K$。 \* 最後に、素数体は標数 *0* または有限です。
+$K_0$ を特性 $p \neq 0$ の体と、$K_0$ 上の不定$X$ の有理分数の$K = K_0(X)$ 体とします。その場合、$K$ は *不完全* です。なぜなら、$(u(X)/v(X))^p = X$ のような $K$ *(u, v 多項式は $K_0[X]$ にあります)* の元 $u(X)/v(X)$ が存在しないからです。これは、この関係を形 $u(X)^p = Xv(X)^p$ に書き、両側の次数を比較するとわかります。
+
+### 6. 零微分を含む多項式の特徴付け
+
+#### 命題 6 {#alg-v-s1-prop-6 .statement tag=06GN}
+
+— *K を可換環、A を多項式代数 $K[X_i]_{i \in I}$、S を $dF = 0$ となるような A の元 F の集合とします。*
+
+a) *K が特性 0 の環の場合、S = K.*
+b) *K が特性 $p \neq 0$ の環の場合、$S = K[X_i^p]_{i \in I}$;さらに、K が完全であれば、$K = A^P$.*
+
+A の写像 $F \mapsto dF$ から A の K 微分の加群 $\Omega_K(A)$ は K 線形であり、関係を満たします。
+
+$$
+d(FF') = F \cdot dF' + F' \cdot dF
+$$
+
+(III、p. 569)。したがって、S は部分代数です。
+
+K が特性 $p \neq 0$ の場合、$T = K[X_i^p]_{i \in I}$ を置きます。したがって、K が完全であれば $T = A^P$ が得られます ($V$、p. 4、提案 2)。さらに、すべての $i \in I$ に対して $d(X_i^p) = pX_i^{p-1} \cdot dX_i = 0$ があるため、含む T の部分代数 S が得られます。K が標数 0 の場合、$T = K$ を代入しても、$T \subset S$ が見つかります。 S が T に含まれていることを示すことはまだ残っています。
+
+I のすべての有限部分集合 J に対して、$A_J$ を家族 $(X_j)_{j \in J}$ によって生成された A の部分代数とします。 $A_\emptyset = K$ と $A = \bigcup_{J \in I} A_J$ があります。したがって、関係 $S \cap A_J \subset T$ を証明すれば十分であり、これは J の基数の帰納法までに達成されます。したがって、J を I の有限部分集合とし、$S \cap A_J \subset T$ とし、私を $I - J$ の元とします。 $J' = J \cup \{ i \}$。 A のすべての元 F は、形で 1 つの方法でのみ記述できます。
+
+$$
+F = \sum_{n=0}^\infty F_n \cdot X_i^n,
+$$
+
+すべての $n \geq 0$ に対して $F_n \in A_J$ を使用し、その後
+
+$$
+dF = \sum_{n=0}^\infty X_i^n \cdot dF_n + \sum_{n=0}^\infty nX_i^{n-1}F_n \cdot dX_i.
+$$
+
+F 属するが S であるとします。ファミリ $(dX_r)_{r \in J}$ は A-加群 $\Omega_K(A)$ (III、p. 570) の基底であり、$dF_n$ は $F_n \in A_J = K[X_j]_{j \in J}$ であるため、$j \in J$ の差動$dX_j$ の線形結合です。 (6) により、整数 $n \geq 0$ ごとに $dF_n = 0$ と $nF_n = 0$ が得られます。 $dF_n = 0$ 以降のすべての $n$ に対して、帰納法の仮定 $F_n \in T$ までに。
+
+a) K が標数 0 の場合、提案 1 ($V$, p. 2) により、すべての $n \geq 1$、よって $F_n = 0$ に対して $nF_n = 0$ が得られます。したがって、$F = F_0$、よって $F \in T$ となります。
+
+b) K が標数 $p \neq 0$ である場合、A は体 $\mathbf{F}_p$ よりも代数であり、関係 $nF_n = 0$ は、$p$ で割り切れないすべての整数 $n$ に対して $F_n = 0$ を意味します。したがって、$F = \sum_{m=0}^m F_{mp} X_i^{mp}$、よって $F \in T$ となります。
+
+#### 注意 {#alg-v-s1-n6-rem-1 .statement tag=06GO}
+
+— K の加法群にねじれがないときでも、$S = K$ が残ります。これは、上記の証明または V、p. 3 の注意 5 から続きます。
+
+#### 系 {#alg-v-s1-n6-cor-1 .statement tag=06GP}
+
+— K を体とし、F(X) を K に係数をもつ多項式とし、その導関数 F'(X) は零とします。
+a) K が標数 0 の場合、F ∈ K。
+b) K が標数 p ≠ 0 の場合、F(X) = G(X^p) となる多項式 G(X) が存在します。
+dF = F であるからです。 dX = 0。
+
+### 練習問題 {#alg-v-s1-exercises}
+
+[§ 1 に対して練習問題](exercises/s1/)を参照してください。

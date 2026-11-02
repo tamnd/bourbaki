@@ -1,0 +1,247 @@
+---
+book: alg
+book_title: Algebra
+chapter: V
+chapter_title: COMMUTATIVE FIELDS
+section: 2
+section_title: Extensions
+lang: ja
+source: alg-iv-vii
+source_edition: 2003, Springer
+book_pages: A V.9-A V.15, A V.146-A V.147
+pdf_pages: 0123-0129, 0260-0261
+extraction: ocr
+subsections:
+    - "no": 1
+      title: The structure of an extension
+      page: 9
+      pdf_page: 123
+    - "no": 2
+      title: Degree of an extension
+      page: 10
+      pdf_page: 124
+    - "no": 3
+      title: Adjunction
+      page: 10
+      pdf_page: 124
+    - "no": 4
+      title: Composite extensions
+      page: 12
+      pdf_page: 126
+    - "no": 5
+      title: Linearly disjoint extensions
+      page: 13
+      pdf_page: 127
+statements: 19
+exercises: 4
+content_sha256: 23b0e11e5bef5d2249851e269b43ca1a05b93be39564cab9b0792bb729112f54
+translated_from: content/en/alg/V/02_s2_extensions.md
+translation_method: google
+source_content_sha256: 101cc4d1109f50a0e0cf391686f5376a9cdac7d1f76b8f5bb4664a68d107975c
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-eeeca2ef
+glossary_version: 34
+glossary_terms_sha256: 92e21daa64cd5dc3599581fe344db73c904b4ec8eed0f4aef9c521b448899248
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 2。 拡大
+
+### 1. 拡大中構造
+
+#### 定義 1 {#alg-v-s2-def-1 .statement tag=06GV}
+
+— K を体とします。 K の拡大によって、その基礎となる環が体である K-代数がわかります。 拡大 E の部分拡張 (または部分 K 拡張) によって、体である E の部分 K 代数を理解します。
+E を K の拡大とする。 写像 u : A ↦ λ 。 K の 1 を E にすると、環準同型になります。 K の I, p. 115, u 誘導する同型によって E の部分体 u(K) に。
+逆に、K、E が体で、u が K から E への準同型である場合、u は K の拡大の E 構造に定義するになります (III, p. 433)。言葉の乱用によって、人ときどきは (E, u) が K の拡大であると言います。
+u(K) = E の場合、つまり E が K 上の次元 1 のベクトル空間である場合、拡大は自明であると言われます。
+L を K の拡大体とします。 L を K の拡大と考えると、これによって K の拡大 (L, j) がわかります。ここで、j は K の L への標準単射か、または L です対応する K-代数構造。 L の部分拡張は、K と L の間の中間体、つまり L 含む K の部分体になります。 L' が K の他の拡大体である場合、a L の L' への K 準同型性は、L の L' への準同型 f となり、すべての x ∈ K に対して f(x) = x となります。 f が体 L のいずれかの自己準同型である場合、次のようになります。 f の下で不変である L の元の集合は L の部分体 K' であり、その f は L の K' 準同型写像です。
+特に、P を体 L の素数部分体とする。 L は P の拡大と考えることができ、L のすべての自己準同型は P 準同型性です。
+(E, u) を K の拡大とします。 K の u 定義する同型が E の部分体 K_1 にあるため、一般に、u を使って K を K_1 と識別することは難しくありません。このような識別をできない許可する 1 つのケースは、K = E であり、したがって u が K の自己準同型である場合です。ほとんどの場合、u は K の自己同型、または体 K の特性が ≠ 0 の場合、写像 u ↦ u'' になります。
+K のすべての拡大は拡大 (L, j) と同型であることは明らかです。ここで、L は部分体としての体含む K であり、j は K の L への標準単射です。
+
+### 2. 拡大中次数
+
+$A$ を体 $K$ よりも代数とします。特に、$K$ よりもベクトル空間です。このベクトル空間の次元は、$K$を超えて$A$の次数と呼ばれ、$[A : K]$（II、p. 293）と書きます。したがって、定義までに $[A : K]$ は、$K$ を超える $A$ のいずれかの基底の基数になります。この定義は、特に$K$の拡大の場合に当てはまります。
+
+次数 1 の拡大は些細なことです。 次数 2 (または 3 など) の拡大は 2 次 (または 3 次など) と呼ばれます。 有限次数の拡大は、言葉の乱用により、ときどきが有限の拡大と呼ばれます。
+
+#### 定理 1 {#alg-v-s2-thm-1 .statement tag=06GW}
+
+*$E$を$K$の拡大と、$E$に対する$A$代数とします。次に$[A : K] = [A : E] \cdot [E : K]$です。特に、$F$ が $E$ の拡大である場合、*
+
+$$
+[F : K] = [F : E] \cdot [E : K].
+$$
+
+The theorem is just a special case of II, p. 222, Prop. 25; more precisely, if $(a_i)$, , , is a basis of $A$ over $E$ and $(b_j)$, $\in M$ a basis of $E$ over $K$, then the family $(a_\lambda b_\mu)_{(\lambda,\mu) \in L \times J}$ is a basis of $A$ over $K$.
+
+#### 系 1 {#alg-v-s2-thm-1-cor-1 .statement tag=06GX}
+
+*$K \subset E \subset F$と$[F : K]$が有限となるように、$K, E, F$を3つの体とします。すると、次数 $[E : K]$ と $[F : E]$ は $[F : K]$ の因子になります。
+
+次数 $[F : K]$ が素数の場合、$K$ と $F$ 以外に $F$ の部分拡張は存在しません。ただし、$[F : K]$ が素数でない場合、$K$ と $F$ (cf. V, p. 146, 練習問題 1) 以外に $F$ の部分拡張が必ずしも存在するとは限らないことに注意してください。*
+
+#### 系 2 {#alg-v-s2-thm-1-cor-2 .statement tag=06GY}
+
+*$K, E$ と $F$ を 3 つの体として、$K \subset E \subset F$ とします。 $[F : K]$ が有限であると仮定すると、関係 $[E : K] = [F : K]$ は $E = F$ に相当し、関係 $[F : E] = [F : K]$ は $E = K$ に相当します。
+
+$L$ が $L'$ の拡大体である場合、$[L : L'] = 1$ は $L' = L$ と同等です。*
+
+#### 命題 1 {#alg-v-s2-prop-1 .statement tag=06GZ}
+
+*$A$を体$K$に対する有限次数の代数とします。 元 $a \in A$ が $A$ の零の左 (または右) 因子ではない場合、$A$ で反転可能です。
+
+ベクトル空間 $A$ の場合、$K$ は有限次元で、仮定により、線形写像 $x \mapsto ax$ (それぞれ $x \mapsto xa$) は $A$ の$A$ 単射詞になります。したがって、これは全単射 (II, p. 298, Cor.) であり、したがって (I, p. 16, 注意) $a$ は $A$ で可逆です。*
+
+#### 系 {#alg-v-s2-n2-cor-1 .statement tag=06H0}
+
+*$A$ を体 $K$ 上の有限次数の可換代数とします。 $A$ が整域の場合、それは体です。*
+
+### 3. 随伴
+
+$E$ を体 $K$ の拡大とします。 $E$の元の家族$x = (x_i)_{i \in I}$が与えられると、家族のメンバーをE含むの最小部分拡張$K(x_i)_{i \in I}$（$I$がNの区間(1,n)の場合は$K(x)$または$K(x_1, \ldots, x_r)$）で表します。 $(x_i)_i$; $K(x_i)_i \in I$は$(x_i)_i, I$族の元のKに対する随伴によって得られ、$(x_i)_i, I$族（またはその元の集合）はKに関して（またはKを超えて）$K(x_i)_i \in I$の生成する族であると言います。 体 $K(x_i)_i \in I$ は、家族 $(x_i)_i \in I$ の元の集合 A にのみ依存します。 $K(A)$ とも表します。特に$K(E) = E$と$K(\emptyset) = K . 1$があります。これまで述べてきたことは、E が体含む K である場合、特に部分体に当てはまります。
+
+A は一般に代数 $K(A)$ の生成する集合ではなく、他の場合には $K(A) \neq K[A]$ の語ではないことに注意してください。 「それにもかかわらず、$K(A)$ が K (V, p. 18, Cor. 1) の代数拡大であるとき、$K(A) = K[A]$ がわかるでしょう。 \*
+
+#### 命題 2 {#alg-v-s2-prop-2 .statement tag=06H1}
+
+— *M と N が体 K の拡大のいずれか 2 つの部分集合である場合、* $K(M \cup N) = K(M)(N) = K(N)(M)$ です。
+
+$K(M \cup N)$ 含む $K(M)$ と N、したがって $K(M)(N)$ の場合; $K(M)(N)$ は体含む $K \cup M \cup N$ なので、含む $K(M \cup N)$、よって命題になります。
+
+We shall sometimes write $K(M, N)$ instead of $K(M \cup N)$.
+
+#### 注意 {#alg-v-s2-n3-rem-1 .statement tag=06H2}
+
+— P を体 E (V, p. 2) の素数部分体とします。 E のすべての部分集合 A に対して、$P(A)$ は E 含む A の最小の部分体です。特に K が E の部分体である場合、$P(K \cup A) = K(A)$ が得られます。 K と K' が E の 2 つの部分体である場合、$P(K \cup K') = K(K') = K'(K)$ が得られます。この体は、E 含む K または K' の最小の部分体、または E の部分体の集合の K と K' の上界を包含順に並べたものです。私たちはときどき、この体はEのKとK'によって生成された体だと言います。
+
+#### 命題 3 {#alg-v-s2-prop-3 .statement tag=06H3}
+
+— *$\mathscr{F}$ を、関係 $\subset$ を基準とした体 E の部分体の集合とします。 $\mathscr{F}$の体の和集合Lは体です*。
+
+なぜなら、xとyがLの2つの元である場合、$x \in R,\ y \in S$となるような$\mathscr{F}$の2つの体R、Sが存在します。 T を $\mathscr{F}$ 含む R と S の体とします。次に、$x \in T,\ y \in T$、したがって $x + y,\ xy$ および $x^{-1}$ ($x \neq 0$ の場合) 属するから T、したがって L になります。
+
+#### 系 {#alg-v-s2-n3-cor-1 .statement tag=06H4}
+
+— *E を体 K と $A \subset E$ の拡大とします。 体 $K(A)$ は体 $K(F)$ の和集合で、F は A のすべての有限部分集合の集合を超えます。*
+
+体 $K(F)$ の集合は、$F \subset F'$ が $K(F) \subset K(F')$ を暗示するため、関係 $\subset$ によって指示されます。したがって、これら体のうち和集合 L は、体含む $K \cup A$ であり、$K(A)$ に含まれるため、$K(A)$ と同一です。
+
+#### 定義 2 {#alg-v-s2-def-2 .statement tag=06H5}
+
+— *体 K の *拡大 E は、有限生成族を持つ場合、有限生成されると言われます。 * $E = K(x)$ となるような x が E に存在する場合、それは単次性と呼ばれます。
+
+コル。提案 3 は、体 K のすべての拡大 E が、E に含まれる有限生成された拡大の有向和集合であることを示しています。 E の基底 (K 上のベクトル空間とみなされる) も K 上の E の生成する族であるため、有限次数の K のすべての拡大 E も有限に生成されることは明らかです。 逆が成り立たないことは後でわかります。
+
+### 4. 複合拡大
+
+E と F を 2 つの体 K の 2 つの拡大とします。 $E$ と F の合成拡大によって、任意のトリプル $(L, u, v)$ を理解できます。ここで、L は K の拡大、$u$ は E の L への K 準同型であり、 $v$ は F の L への K 準同型で、体 L は $u(E) \cup v(F)$ によって生成されます (cf. 図 1)。
+
+![図式表示中拡大 E、F、K、L、準同型 u、v、r](../images/fig_1.png)
+
+図1
+
+一般的な定義 (E, IV, p. 6) 同型の E と F の合成拡大 $(L, u, v)$ の合成拡大 $(L', u', v')$ は、E と F の L の K-同型写像 $\varphi$ である$L'$ は $u' = \varphi \circ u$ と $v' = \varphi \circ v$ のようになります。
+
+$(L, u, v)$ を E と F の合成拡大とします。K-線型写像 $E \otimes_K F$ の $w$ を L に変換すると、$x \otimes y$ が $u(x)v(y)$ に送信され、K-代数準同型になります。この番号では、$u * v$ で表します。その像は、$u(E) \cup v(F)$によって生成されたLの部分環です。
+
+#### 命題 4 {#alg-v-s2-prop-4 .statement tag=06H6}
+
+— E、F を K の 2 つの拡大とします。
+
+a) $(L, u, v)$ を E と F の合成拡大とします。次に、準同型の$u * v$を$E \otimes_K F$からLに核pにするのが最も理想的です。
+
+b) p を $E \otimes_K F$ の素イデアルとする。このとき、p が $u * v$ の核となるような E と F の合成拡大 $(L, u, v)$ が存在し、そのような合成拡大はいずれも 2 つ同型です。
+
+Assertion a) follows from the fact that the kernel of a homomorphism of a ring into a field is a prime ideal (I, p. 116-117).
+
+p を、A の $E \otimes_K F$、A 商環 $(E \otimes_K F)/p$、A の分数の L 体の素イデアルとします。$x \in E$ (それぞれ $y \in F$) について、$u(x)$ (それぞれ $v(y)$) で表します。 剰余類 $x \otimes 1$ の mod p (それぞれ $1 \otimes y$)。この場合、$u$ (それぞれ $v$) は、E (それぞれ F) の L と $u(E) \cup v(F)$ 生成する A を環として、したがって L を体に変換する K 準同型です。したがって、$(L, u, v)$ は E と F の合成拡大です。 $u * v$ は $E \otimes_K F$ の標準準同型を L に変換し、その核は p に等しいことがすぐにわかります。
+
+$(L', u', v')$ を、$u' * v'$ の核が p に等しいような E と F の合成拡大とします。 $u * v$ と $u' * v'$ は同じ核を持っているため、$u' * v'$ の像 $A'$ 上に A の同型 $\psi$ が存在し、$u' * v' = \psi \circ (u * v)$ によって特徴付けられます。しかし、$A'$は$u'(E) \cup v'(F)$によって生成された$L'$の部分環であるため、L'はA'の分数の体です。したがって、$\psi$ 拡大するから準同型 $\varphi$ の L が L に移動し、$\varphi$ が $(L, u, v)$ の同型から $(L', u', v')$ に移動することは明らかです。
+
+#### 注意 {#alg-v-s2-n4-rem-1 .statement tag=06H7}
+
+— If $p$ and $p'$ are two distinct prime ideals of $E \otimes_K F$, the corresponding *composite extensions* of $E$ and $F$ (constructed by the procedure of the above proof) are not isomorphic. しかし、それでもなお、それらは K の *拡大* と同型である可能性があります (*V*、p. 146、例 2)。
+
+#### 系 {#alg-v-s2-n4-cor-1 .statement tag=06H8}
+
+※EとF*の複合拡大も存在します。
+
+なぜなら、可換環 $E \otimes_K F$ は 0 に減らないので、素イデアルを持ちます。クルルの定理 (*I*, p. 104) は、極大イデアルの存在を証明し、すべての極大イデアルは素数です。
+
+We can make this corollary more precise as follows. $(E, u)$ と $(F, v)$ を K の 2 つの拡大とします。 選ぶ可換環 $E \otimes_K F$ の最大理想 m に $L = (E \otimes_K F)/m$ を置きます。すると、LはKの拡大になります。 $x \in E$ については、$x \otimes 1$ mod m の剰余類に $u'(x)$ を書き込み、同様に、すべての $y \in F$ に $1 \otimes y$ mod $m$ の剰余類に $v'(y)$ を入れます。 次に、体準同型の可換図式が得られます。
+
+$$
+\begin{array}{ccc}
+F & \xrightarrow{v'} & L \\
+| & & | \\
+K & \xrightarrow{u} & E .
+\end{array}
+$$
+
+E の同型拡大による置き換えること $(L, u')$ により、L 含む E は部分体であり、$u'$ は L における E の標準単射であると仮定できます。 記法を変更すると、次の schorium が得られます。
+
+#### スクリウム {#alg-v-s2-n4-sch-1 .statement tag=06H9}
+
+※KとEを2つの体と、Kのu準同型をEとします。 K' が部分体として体含む K である場合、u*' を延長して E' に K' の体 E' 含む E として部分体と準同型 u' が存在します。
+
+### 5. 直線的に互いに素拡大
+
+*この番号全体を通して、R は体 K* の拡大を示します。
+
+A と B を R の 2 つの部分 K 代数とする。写像 $x \otimes y$ から $xy$ までの代数準同型 $\varphi : A \otimes_K B \to R$ が存在する。 $\varphi$の像は、A U Bによって生成された$\Omega$の部分環Cです。さらに、$(b_\mu)$がK上のBの基底とAの$(a_\lambda)$基底である場合、II、p. 256によりますK を超えると、C 一致すると線形結合の集合 $\sum_{\mu} \alpha_{\mu} b_{\mu}$ ここで、$\alpha_{\mu} \in A$、$\sum_{\lambda} \beta_{\lambda} a_{\lambda}$ のすべての集合 $\beta_{\lambda} \in B$、およびすべての $\sum_{\lambda,\mu} \gamma_{\lambda\mu} a_{\lambda} b_{\mu}$ の集合、 $\gamma_{\lambda\mu} \in K$。
+
+$\varphi$ が C 上の $A \otimes_K B$ の *同型* である場合、A と B は K より *互いに素を線形に超える* と言えます。次に、$A \cap B = K$ が得られます。 K に関して B (それぞれ A) のすべての空き部分集合は、A (それぞれ B) に関しても空きになります。逆に、A と B が K 上で線形互いに素であるためには、(たとえば) A に関して自由な K 上に B の *1 つ* 基底が存在するだけで十分です (II、p. 256 および III、p. 469)。
+
+特に、A と B が $\Omega$ の *サブ拡張* である場合を考えてみましょう。
+
+#### 命題 5 {#alg-v-s2-prop-5 .statement tag=06HA}
+
+*E と F を、$\Omega$ に含まれる K の 2 つの拡大とします。*
+
+*a)* *F が K 上で有限次数を持つ場合、$E \cup F$ によって生成された $\Omega$ の部分環は体であり、$E(F)$ と一致し、E 上で $E(F)$ の次数は有限です。 E と F が K 上で線形互いに素である場合にのみ、* $[E(F):E] \leq [F:K]$、*with 等式が得られます。その場合、$E(F)$ は $E \otimes_K F$ に対して E-*同型* です。
+
+*b)* *さらに E が K 上で有限次数である場合、$E(F) = K(E \cup F)$ は K 上で有限次数です。E と F が K 上で線形互いに素である場合に限り、* 等式をもつ $[K(E \cup F):K] \leq [E:K][F:K]$ が得られます。
+
+C を $E \cup F$ によって生成された $\Omega$ の部分環とします。 $(b_j)_{1 \leq j \leq n}$ が K 上の F の基底である場合、C は $b_j$ によって生成された $\Omega$ の部分 E 空間ベクトルであるため、C は E 上の *有限* 階数 $\leq n$ の代数です。 環 C は体に含まれるため、整域となり、したがって Cor による *体* となります。提案 1 (V、p. 10)、よって $C = E(F)$ および $[E(F):E] \leq [F:K]$ に。 関係 $[E(F):E] = [F:K]$ は、$b_j$ が E 上で線形独立していることを意味します。したがって、E と F は K 上で線形互いに素です。これは命題の部分 *a)* を証明します。 $[E(F):K] = [E(F):E][E:K]$ のため、部分 *b)* がすぐに続きます。
+
+E と F を $\Omega$ に含まれる K の拡大とします。 E と F が K に対して無限次数である場合、部分環 $C = K[E \cup F]$ は必ずしも体 $^1$ であるとは限りません。ただし、Cの分数*の*体、次に一致すると$K(E \cup F)$。より一般的には、A を E の部分環として、E は A の分数の体であり、B は F の部分環で、F は B の分数の体であるとします。次に、C が $A \cup B$ によって生成された $\Omega$ の部分環である場合、$K(E \cup F)$ 一致するは、C の分数* の *体となります。後者の体が最小の部分体であるため、 $\Omega$ 含む C そしてそれ含む E と F。さらに:
+
+#### 命題 6 {#alg-v-s2-prop-6 .statement tag=06HB}
+
+*E と F を $\Omega$ に含まれる K の 2 つの拡大とし、A と B を K 上の $\Omega$ の 2 つ部分代数として、E が A の分数の体と F が B の分数の体であるようにします。すると、E と F が K 上で線形に互いに素になるようにします。 A と B が K 上で直線的に互いに素になることが必要かつ十分です。*
+
+条件は明らかに必要です。逆に、A と B が K 上で線形互いに素である場合、A と F も同様です。なぜなら、$\Omega$ の元の族が B に関して自由であれば、B の分数 F の体に関して自由だからです (II, p. 315, Cor. 1 および p. 316, Cor. 3);ここで、同じ議論は、E と F が K に対して線形に互いに素であることを示しています。
+
+$^1$ たとえば、2 つの不定数 X と Y および $E = K(X), F = K(Y)$ において、$\Omega$ が有理分数の体 $K(X, Y)$ である場合を考えるだけで十分です。
+
+#### 命題 7 {#alg-v-s2-prop-7 .statement tag=06HC}
+
+— E と F を $\Omega$ に含まれる K の 2 つの拡大とします。 E と F が K に対して線形互いに素である場合、E のすべての部分拡張と F のすべての部分拡張は K に対して線形互いに素です。 逆に、E と F の有限生成された部分拡張 E'、F' のすべての対について、E' と F' が K に対して線形互いに素である場合、E と F は K に対して線形互いに素です。 K.
+
+E と F が K 上で線形に互いに素となるための条件は次のように表現できます: $(a_\alpha)$ が E の自由ファミリーであり、$(b_\beta)$ が F の自由ファミリーである場合、関係 $\sum_{\alpha,\beta} \lambda_{\alpha\beta} a_\alpha b_\beta = 0$ (ここで、$\lambda_{\alpha\beta} \in K$ は接尾辞のそれぞれ対に対して $\lambda_{\alpha\beta} = 0$ を意味します)。しかし、この条件は、有限な自由族の各対に対して成立する場合、自由族の各対に対して満たされます。
+
+したがって、直観的に言えば、線形分離は有限指標 » の性質 « であると言えます。
+
+#### 命題 8 {#alg-v-s2-prop-8 .statement tag=06HD}
+
+— E、F、G を、$\Omega$ に含まれる体 K の 3 つの拡大とし、$F \subset G$ とします。 E と G が K 上で線形互いに素であるためには、E と F が K 上で線形互いに素であること、および E(F) と G が F 上で線形互いに素であることが必要かつ十分です。
+
+$$
+\begin{array}{ccccc}
+E & \longrightarrow & E(F) \\
+K & \longrightarrow & F & \longrightarrow & G.
+\end{array}
+$$
+
+図2
+
+条件が必要です。E と G が K に対して線形に互いに素であると仮定します。同じことが E と F にも当てはまります (提案 7)。一方、B が K 上の E の基底である場合、これは F 上の代数 F[E] の基底でもあります。 B は G 上で仮定だけ自由であるため、F[E] と G は F 上で線形に互いに素となり、提案 6 より同じことが $E(F) = F(E)$ と G にも当てはまります。
+
+条件で十分です。同じ記法では、B が F 上で自由であることを意味します。したがって、F 上で F[E] の基底になります。 F[E] と G は F 上で仮定線形互いに素であるため、B は G 上で自由であり、これは E と G が K 上で線形互いに素であることを示しています。
+
+### 練習問題 {#alg-v-s2-exercises}
+
+[§ 2 に対して練習問題](exercises/s2/)を参照してください。
