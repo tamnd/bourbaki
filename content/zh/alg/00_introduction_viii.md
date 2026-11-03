@@ -13,16 +13,16 @@ pdf_pages: 0016-0017
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: de6d941e8377f398fe75c6bc2d2505c4537693c0ad8ee8041904a1b5c2a7f4ac
+content_sha256: 61312cfd3ed188d70b5c33924f97b7a7a344df518f0bbaa880e5733f34e0a175
 translated_from: content/en/alg/00_introduction_viii.md
 translation_method: google
 source_content_sha256: 3a27474e22da5ab050bc67f0a1903ddafde7fa4c0b5017a746af7a3b7f6022e1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 99b8353491a4b7c285b230a242ed1f788631493be83f007f0f48f92f95df72b6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 简介
@@ -33,19 +33,19 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 就环而言，我们给出了几个结果来帮助人们理解阿廷环：
 
-a) 阿廷环的雅各布森根式是它的零根 (§10)，相应的商是半单环 (§8)。
+a) 阿廷环的雅各布森根基是它的零根（§10），相应的商是半单环（§8）。
 
 b) 半单环同构于简单环 (§7) 的有限族中的乘积。
 
 c) 根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，简单的环在域上与矩阵代数同构。
 
-直到森田等价（§6），有限次数（即简单的环）的代数由其阿贝尔的群中的类（称为布劳尔群）确定。我们给出了这个群（§15和§16）的几个描述，以及例（§18和§19）。
+直到森田等价（§6），有限次数的代数是一个简单的环，由它的阿贝尔的群中的类决定，称为布劳尔群。我们给出了这个群（§15和§16）的几个描述，以及例（§18和§19）。
 
-对于模，我们提供两个自然分解：第一个，在合成列（I, §4, No. 7，p. 41，定义 9）中的项，由Jordan–Hölder提供定理（I, §4, No. 7， p. 43、定理6)。第二个，对应到直和，是在模或有限长度的情况下由Krull–Remak–Schmidt 定理（VIII，p. 37，定理2）给出，在这里，我们从以下结果中推导出来半原始模（VIII、p. 32、
+对于模，我们提供两个自然分解：第一个，合成列（I, §4, No. 7，p. 41，定义 9）中的项，由Jordan–Hölder提供定理（I, §4, No. 7， p. 43、定理6)。第二个，对应到直和，是在有限长度的模的情况下由Krull–Remak–Schmidt 定理（VIII，p. 37，定理2）给出，在这里，我们从以下结果中推断出东屋半原始模（VIII、p. 32、
 
 十七
 
-定理 1)。我们还考虑与模相关的不变量，这些不变量对于上面提到的分解具有相加作用；对于这些不变量，§11中描述的格罗滕迪克群是通用问题的解。当我们研究模的结构而不是环时，环同构的概念对我们有利，被森田等价取代。
+定理1)。我们还考虑与模相关的不变量，它们对上面提到的分解具有相加作用；对于这些不变量，§11中描述的格罗滕迪克群是通用问题的解。当我们研究模的结构超过环时，环同构的概念对我们有利，被森田等价取代。
 
 对于半单模，即单模的直和，模的描述概念（VIII，p. 69，定义5）允许我们描述同态模以及它的子模。
 

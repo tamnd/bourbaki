@@ -12,16 +12,16 @@ pdf_pages: 0004-0006
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b96cc9ea196e1dd5d93f8aa5fadd9598f370166aebf5d33a594feebee6c8417d
+content_sha256: ab5be067dd76403f0c01af33899823eb2a0bdb76276f34d5a9053ab7e7eb96e9
 translated_from: content/en/int/00_to_the_reader_vii_ix.md
 translation_method: google
 source_content_sha256: 0b7b4874543c4b1c022753df5b3549321332349ffebf20695d43d3017ad5a5da
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6b5f28fda697e52b17cc175112a8e9829a394dfba5aa6a7e46013a1644c31de2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 致读者
@@ -51,7 +51,7 @@ Espaces Vectoriels Topologiques（拓扑向量空间） — EVT (TVS)
 
 5. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as "propositions", "lemmas", "corollaries", "remarks", etc. Those which may be omitted on a first reading are printed in small type. A commentary on a particularly important theorem occasionally appears under the name of "scholium".
 
-为了避免繁琐的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（对于例，在仅与交换环，字有关的章） “环”始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免乏味的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅与交换环、字有关的章中，“环”将始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ("dangerous bend").
 

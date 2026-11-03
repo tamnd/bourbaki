@@ -14,16 +14,16 @@ pdf_pages: 0451-0451
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ee75317ee304bbf5a389b0ea958230ea1c5420ea03d5b7665c5977fac6c3e1b0
+content_sha256: 0a751757ff2b61d10ce047911cab545ad97d10e498ff3321a6473bcc074ea780
 translated_from: content/en/alg/III/00_frontmatter.md
 translation_method: google
 source_content_sha256: 6265d61279faab9dcf08066eb99e498297b3d05106b7e1efab665fe26a7b784b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 63bd3e7c5b96449b2eea87f07709c7d2bbb434039200b331234aee3541d9de01
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 章 III
@@ -44,7 +44,7 @@ $$
 \lambda \mapsto \alpha(\lambda) + \beta(\lambda)
 $$
 
-of $L$ into $N$; with this law of composition the set $N^{(L)}$ of mappings of $L$ into $N$ of finite support is the free commutative monoid derived from $L$ and
+将$L$转化为$N$；根据这个组合定律，$L$到有限支持的$N$的映射的集合$N^{(L)}$是从$L$导出的自由交换幺半群，并且
 
 $$
 x^\alpha x^\beta = x^{\alpha + \beta}.

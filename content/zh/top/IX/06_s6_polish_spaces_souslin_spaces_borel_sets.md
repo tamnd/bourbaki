@@ -48,19 +48,19 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 19
-content_sha256: 52e2051e1e37d6d5dc9efdb3f9d9e963ba5308d89fae81216da392952ad877e8
+content_sha256: 0e12b2e749ee36e949a9408f531600ba5c84464753607cb3917ace34a82743a0
 translated_from: content/en/top/IX/06_s6_polish_spaces_souslin_spaces_borel_sets.md
 translation_method: google
 source_content_sha256: 29c13eb3d7cf0721a55e24e7530e1acd68312f601ca3f6f347a6bce38b4c8832
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e661fa132b63cfeb277ef1335760527018e9c047e0a436291df86659be2f923e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 6. 抛光空间、苏兰空间、波雷尔集合
+## 6. 波兰语空间、苏斯林空间、波雷尔集合
 
 ### 1. 波兰语空间
 
@@ -74,35 +74,35 @@ a) *波兰语空间的每个闭合子空间都是波兰语*。
 b) *波兰可数家族的乘积空间是波兰人*。
 c) *波兰可数家族的和空间是波兰人*。
 
-可数型的可度量空间的每个子空间都是可数型的可度量，并且完整的空间的每个闭子空间都是完整的； （章II, § 3, no. 4、命题8）。可数型可度量空间的每个可数乘积又可数型可度量：($§ 2$，no. 8)，并且完整度量空间的每个可数乘积是一个完整度量空间到与其拓扑兼容的度量（章 II, § 3, no. 5、命题 10 和章 IX, § 2, no. 4、定理 1，推论 2）。最后，令$(X_n)$为非空波兰语空间的序列，并考虑乘积空间$Y = \mathbf{N} \times \prod_n X_n$，其中$\mathbf{N}$携带离散拓扑；已经证明，$Y$是波兰语空间。另一方面，对于每个$n$，令$a_n$为$X_n$的点，并令$f_n$为$X_n$的映射到$Y$，这样对于每个$x \in X_n$，我们有
+可数型的可度量空间的每个子空间都是可数型的可度量，并且完整的空间的每个闭子空间都是完整的； （章II, § 3, no. 4、命题8）。可数型可度量空间的每个可数乘积又可数型可度量：($§ 2$，no. 8)，并且完整度量空间的每个可数乘积是一个完整度量空间到与其拓扑（章 II, § 3, no. 5、命题 10 和章 IX, § 2, no. 4、定理 1、推论 2）兼容的度量。最后，令$(X_n)$为非空波兰空间的序列，并考虑乘积空间$Y = \mathbf{N} \times \prod_n X_n$，其中$\mathbf{N}$携带离散拓扑；已经证明，$Y$是波兰语空间。另一方面，对于每个$n$，令$a_n$为$X_n$的点，并令$f_n$为$X_n$的映射到$Y$，这样对于每个$x \in X_n$，我们有
 
 $$
 f_n(x) = (n, (y_p)),
 $$
 
-其中 $y_p = a_p$ 如果 $p \neq n$ 和 $y_n = x$。如果$X$是$X_n$的拓扑和，很明显，$X$的映射$f$进入$Y$，与$X_n$上的$f_n$一致，因为每个$n$都是一个$X$同胚到$f(X)$；此外，对于每个 $n$，$f_n(X_n)$ 在 $Y$ 中闭合，并且族 $(f_n(X_n))$ 是局部有限的，因为 $\mathbf{N}$ 是离散的；因此 $f(X) = \bigcup_n f_n(X_n)$ 在 $Y$ 中闭合（章 I, § 1, no. 5，命题 4），因此 $f(X)$ 是波兰语空间，由 a) 得到。
+其中 $y_p = a_p$ 如果 $p \neq n$ 和 $y_n = x$。如果$X$是$X_n$的拓扑和，很明显，$X$的映射$f$进入$Y$，这与$X_n$上的$f_n$一致，因为每个$n$都是一个$X$同胚到$f(X)$；此外，对于每个 $n$，$f_n(X_n)$ 在 $Y$ 中闭合，并且族 $(f_n(X_n))$ 是局部有限的，因为 $\mathbf{N}$ 是离散的；因此 $f(X) = \bigcup_n f_n(X_n)$ 在 $Y$ 中闭合（章 I, § 1, no. 5，命题 4），因此 $f(X)$ 是波兰语空间，由 a) 得到。
 
 #### 命题 2 {#top-ix-s6-prop-2 .statement tag=0C8A}
 
 波兰语空间的每个空位子空间都是波兰语。
 
-令$X$为波兰空间，令$d$为$X$与其拓扑兼容的度量，并令$U \neq X$为$X$的开子集。令 $V$ 为所有点 $(t, x)$ 中 $\mathbf{R} \times X$ 由……组成的子集，使得
+令$X$为波兰语空间，令$d$为$X$与其拓扑兼容的度量，并令$U \neq X$为$X$的开放子集。令 $V$ 为所有点 $(t, x)$ 中 $\mathbf{R} \times X$ 由……组成的子集，使得
 $$
 t \cdot d(x, X - U) = 1;
 $$
 $V$ 由 § 2, no. 2 的命题 3 闭合，因此是波兰语 (命题 1)。由于投影 $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ 的限制到 $V$ 是 $V$ 到 $U$ 的同胚（$§ 2,$ no. 2，命题 3），$U$ 是波兰语子空间共 $X$。
 
-#### 推论{#top-ix-s6-n1-cor-1 .statement tag=0C8B}
+#### 推论 {#top-ix-s6-n1-cor-1 .statement tag=0C8B}
 
 每个局部紧凑、可度量的空间 $X$ 都是波兰语。
 
-设 $X$ 为将点无限邻接于 $X$ 所获得的紧空间； $X'$ 是可计量且可数的型（$§ 2,$ no. 9，命题 16 的推论），$X$ 就其独特的均匀性而言是完整的（章 II、$§ 4,$ no. 1， 定理1)。因此 $X$ 是波兰语空间；由于$X$在$X'$中开放，因此$X$是波兰语。
+设 $X$ 为将点无限邻接于 $X$ 所获得的紧空间； $X'$ 是可计量且可数的型（$§ 2,$ no. 9、推论到命题 16），并且 $X$ 就其独特的一致性而言是完整的（章 II、$§ 4,$） no. 1，定理1)。因此 $X$ 是波兰语空间；由于$X$在$X'$中开放，因此$X$是波兰语。
 
 #### 命题 3 {#top-ix-s6-prop-3 .statement tag=0C8C}
 
 令 $X$ 为 Hausdorff 拓扑空间。那么$X$波兰语子空间序列$(A_n)$交就是波兰语子空间。
 
-设$f$为$X$到$X^\mathbf{N}$的对角线映射（[集合理论，章II，$§ 5,$no. 3；回想一下$f(x) = (x, x, \ldots)$，其中$x_n = x$对于所有$n \in \mathbf{N}$]。我们将使用以下引理：
+令 $f$ 为 $X$ 到 $X^\mathbf{N}$ 的对角线映射 ([集合理论, 章 II, $§ 5,$ no. 3；回想一下 $f(x) = (x, x, \ldots)$ 其中$x_n = x$ 对于所有$n \in \mathbf{N}$]。我们将使用以下引理：
 
 #### 引理 1 {#top-ix-s6-lem-1 .statement tag=0C8D}
 
@@ -128,7 +128,7 @@ $V$ 由 § 2, no. 2 的命题 3 闭合，因此是波兰语 (命题 1)。由于�
 
 #### 推论 1 {#top-ix-s6-thm-1-cor-1 .statement tag=0C8G}
 
-*空间* $X$ *是波兰式当且仅当它同胚于立方体* $\mathbf{I}^{\mathbf{N}}$ 中开集合的可数交，*其中* $\mathbf{I}$ *是间隔* $[0, 1]$ *属于* $\mathbf{R}$。
+*空间* $X$ *是波兰式当且仅当它同胚于立方体* $\mathbf{I}^{\mathbf{N}}$ 中开集合的可数交，*其中* $\mathbf{I}$ *是区间* $[0, 1]$ *的* $\mathbf{R}$。
 
 条件显然是充分的，而且是必要的，因为可数型的每个可度量空间都同胚于$\mathbf{I}^{\mathbf{N}}$的子空间（§ 2, no. 8，命题12）。
 
@@ -140,13 +140,13 @@ $V$ 由 § 2, no. 2 的命题 3 闭合，因此是波兰语 (命题 1)。由于�
 $$
 \overline{f}^{-1}(Z) = \bigcap_n \overline{f}^{-1}(Z_n),
 $$
-和集合$\overline{f}^{-1}(Z_n)$在$X$开放。
+和集合$\overline{f}^{-1}(Z_n)$在$X$营业。
 
-### 2. 苏林空间
+### 2. 苏斯林空间
 
 #### 定义 2 {#top-ix-s6-def-2 .statement tag=0C8I}
 
-*拓扑空间* $X$ *如果可度量并且存在波兰语空间* $P$ *和* $P$ *在* $X$上的连续映射，则称其为苏斯林空间。 *子集* $A$ *拓扑空间* $X$ *称为苏斯林集合如果子空间* $A$ *是苏斯林空间。*
+*拓扑空间* $X$ *如果可度量并且存在波兰空间* $P$ *和* $P$ *在* $X$上的连续映射，则称其为苏斯林空间。 *子集* $A$ *拓扑空间* $X$ *称为苏斯林集合如果子空间* $A$ *是苏斯林空间。*
 
 显然，每个波兰语空间都是苏斯林，并且将 $X$ 的连续映射下的苏斯林空间 $X$ 的像转换为可度量的空间 $Y$ 是苏斯林空间。
 
@@ -180,21 +180,21 @@ $$
 
 这些子空间当然是可度量的。 $A_n$的和的规范映射到$X$的子空间$\bigcup_n A_n$的存在表明后者是苏斯林空间；并且$\bigcap_n A_n$凭借命题 5和7以及no. 1的引理 1而成为Souslin。
 
-一般来说，即使在波兰语空间中，Souslin子空间的补语也不一定是Souslin（cf.习题6）；然而，参见no. 6、定理 2，推论。
+一般来说，即使在波兰语空间中，Souslin子空间的补语也不一定是Souslin（cf.习题6）；然而，参见no. 6、定理2、推论。
 
 #### 命题 9 {#top-ix-s6-prop-9 .statement tag=0C8O}
 
-*令X为可度量的空间，并令A为X的相对紧凑的苏斯林子空间。那么存在 K 的空间 K、子集的紧凑可度量空间 K、递减序列 $(B_n)$，其中每一个都是紧集的可数并，以及连续的映射 $f : K \to X$，使得 $A = f\left(\bigcap_n B_n\right)$。*
+*令X为可度量的空间，并令A为X的相对紧凑的苏斯林子空间。那么存在 K 的空间 K、子集的紧凑可度量空间 K、递减序列 $(B_n)$，其中每一个都是紧集的可数并，以及连续的映射 $f : K \to X$，使得$A = f\left(\bigcap_n B_n\right)$。*
 
-替换 X by $\overline{A}$ 如果有必要，我们可以假设 X 是紧的，并且 A 在 X 中是稠密的。由于 A 是苏斯林空间，因此存在波兰语空间 P 和连续映射 $g : P \to X$，使得 $g(P) = A$。根据no. 1，定理 1，推论1，我们可以假设P是立方体$I^\mathbf{N}$的开子集的递减序列$(U_n)$的交。令 K 为空间 $I^\mathbf{N} \times X$，它是紧凑且可度量的（§ 2, no. 4，定理 1，推论 2）。令$G \subset P \times X$为g的图，令$\overline{G}$为K中G的闭包，令f表示$K = I^\mathbf{N} \times X$到X的投影；那么显然我们有$f(G) = A$。由于g是连续的，所以G在$P \times X$（章I, § 8, no. 1，命题2，推论2）和$G = \overline{G} \cap (P \times X)$中是闭的；因此$G = \bigcap_n B_n$，其中
+替换 X by $\overline{A}$ 如果有必要，我们可以假设 X 是紧的，并且 A 在 X 中是稠密的。由于 A 是苏斯林空间，因此存在波兰语空间 P 和连续的映射 $g : P \to X$，使得 $g(P) = A$。由no. 1、定理 1、推论 1，我们可以假设P是立方体$I^\mathbf{N}$的开子集的递减序列$(U_n)$的交。令 K 为空间 $I^\mathbf{N} \times X$，它是紧凑且可度量的 (§ 2, no. 4, 定理 1, 推论 2)。令$G \subset P \times X$为g的图，令$\overline{G}$为G在K中的闭包，令f表示$K = I^\mathbf{N} \times X$到X的投影；那么显然我们有$f(G) = A$。由于 g 是连续的，因此 G 在 $P \times X$ (章 I, § 8, no. 1, 命题 2, 推论 2) 和 $G = \overline{G} \cap (P \times X)$ 中闭；因此$G = \bigcap_n B_n$，其中
 
 $$
 B_n = \overline{G} \cap (U_n \times X).
 $$
 
-由于每个$U_n$是$I^\mathbf{N}$（§ 2, no. 5，命题7）中闭集合的可数并，因此每个$B_n$是紧集和证明的可数并已完成。
+由于每个$U_n$是$I^\mathbf{N}$（§ 2, no. 5，命题7）中封闭的集合的可数并，因此每个$B_n$是紧集和证明的可数并已完成。
 
-### 3. 依波路集合
+### 3. 波莱尔集合
 
 #### 定义 3 {#top-ix-s6-def-3 .statement tag=0C8P}
 
@@ -202,7 +202,7 @@ $$
 
 a) *右 $\mathfrak{L}$ 属于到 $\mathfrak{L}$ 中每个集合的补集*。
 
-b) *$\mathfrak{L}$属于到$\mathfrak{L}$的每个可数交/集合*。
+b) *$\mathfrak{L}$ 属于到 $\mathfrak{L}$ 的每个可数交集合*。
 
 如果$\mathfrak{L}$是X上的$\sigma$代数，$\mathfrak{L}$属于到$\mathfrak{L}$的集合的每个*可数并*（对于这个并的补集是交集合 $\mathfrak{L}$）。
 
@@ -214,7 +214,7 @@ X的所有子集中的集合$\mathfrak{B}(X)$显然是$\sigma$代数。 X上的$
 
 #### 命题 10 {#top-ix-s6-prop-10 .statement tag=0C8R}
 
-令$f$是拓扑空间$X$到拓扑空间$Y$的连续映射。那么$Y$中的每个Borel集合在$f$下的逆像是$X$中的一个Borel集合。
+令$f$是拓扑空间$X$到拓扑空间$Y$的连续映射。那么$Y$中的每个Borel集合的$f$下的逆像是$X$中的一个Borel集合。
 
 令$\mathfrak{I}$为$Y$的所有子集$A$中的集合，使得$f^{-1}(A)$是$X$中的Borel集合。紧接着，$\mathfrak{I}$是$\sigma$代数，其中包含是$Y$的所有闭子集；因此 $\mathfrak{I}$ 包含于 $Y$ 中的所有 Borel 集合。
 
@@ -224,27 +224,27 @@ X的所有子集中的集合$\mathfrak{B}(X)$显然是$\sigma$代数。 X上的$
 
 令$\mathfrak{I}$为$X$的所有子集$A$中的集合，使得$A$和$\overline{A}$都是Souslin集合。通过 no. 2 的命题 8，$\mathfrak{I}$ 是$\sigma$ 代数。 $X$ 属于至 $\mathfrak{I}$ 的每个关闭子集 $F$，$F$ 和 $\overline{F}$ 均为 Souslin 集合（no. 2，命题 5）；因此$\mathfrak{I}$包含于$X$的所有Borel集合（cf.no. 6，定理2，推论）。
 
-#### 推论{#top-ix-s6-n3-cor-1 .statement tag=0C8T}
+#### 推论 {#top-ix-s6-n3-cor-1 .statement tag=0C8T}
 
 令 $f$ 为苏斯林空间 $X$ 到可度量空间 $Y$ 的连续映射。如果$B$是$X$中的任何Borel集合，则$f(B)$是$Y$中的Souslin集合。
 
-因为$B$是苏斯林空间，因此$f(B)$乘注跟随定义2（no. 2）也是如此。
+因为$B$是苏斯林空间，因此定义2（no. 2）之后的$f(B)$乘注也是如此。
 
 #### 注 1 {#top-ix-s6-n3-rem-1 .statement tag=0C8U}
 
-即使$X$和$Y$是波兰语空间，一般情况下，$X$中的Borel集合的像在$X$到$Y$的连续映射下也不是Borel 集合 in $Y$（cf. 习题 6；以及 no. 7、定理 3 推论）。
+即使$X$和$Y$是波兰语空间，一般情况下，$X$中的Borel 集合的像在$X$到$Y$的连续映射下也不是Borel 集合 $Y$（cf. 习题 6；以及 no. 7、定理 3 推论）。
 
 #### 注 2 {#top-ix-s6-n3-rem-2 .statement tag=0C8V}
 
-令$X$为拓扑空间，并令$Y$为$X$的Borel子集。那么空间$Y$的Borel集合正好是$Y$中包含的$X$的Borel集合。对于 (i) $X$ 中的 Borel 集合包含在 $Y$ 形式 $Y$ 上的$\sigma$-代数，其中包含 $Y$ 中的闭集合，因此包含 $Y$ 的所有 Borel 集合； (ii) $X$的子集$A$使得$A \cap Y$是$Y$形式的Borel集合$X$上的$\sigma$代数，其中包含所有闭$X$ 的集合，因此包含 $X$ 的所有 Borel 集合。
+令$X$为拓扑空间，并令$Y$为$X$的Borel子集。那么空间$Y$的Borel集合正好是$Y$中包含的$X$的Borel集合。对于 (i) $X$ 中的 Borel 集合包含在 $Y$ 形式 $Y$ 上的$\sigma$-代数，其中包含 $Y$ 中的闭集合，因此包含 $Y$ 的所有 Borel 集合； (ii) $X$的子集$A$使得$A \cap Y$是$Y$形式的Borel集合$X$上的$\sigma$代数，其中包含所有闭$X$ 的集合，因此包含所有 Borel 集合 $X$。
 
-### 4. 零维空间和卢辛空间
+### 4. 零维空间和 lusin 空间
 
 #### 定义 5 {#top-ix-s6-def-5 .statement tag=0C8W}
 
 如果拓扑空间是 Hausdorff 并且每个点都有一个邻域的基本系统（既开又闭），则称它是零维的。
 
-每个零维空间$X$都是完全不连通的；因为点$x$的分量包含在所有开闭的集合包含$x$中（章I，§II，no. 5），并且这些集合中的交是如果 $X$ 是零维，则只是 $\{ x \}$。
+每个零维空间$X$都是完全不连通的；对于点 $x$ 中的分量包含在所有开放和封闭的集合包含 $x$ 中（章 I、§ II、no. 5），以及其中的交如果 $X$ 是零维，则集合只是 $\{ x \}$。
 
 相反，局部紧致完全断开空间是零维的（章 II, § 4, no. 4，命题 6）；但存在完全断开的可度量空间，它们不是零维的[习题 3 b)]。
 
@@ -272,9 +272,9 @@ Lusin 空间的每个可数乘积都是 Lusin 空间；这是从 no. 1 的命题
 
 对于每个$n$，令$P_n$为零维波兰空间，并令$f_n$为$P_n$到$A_n$的连续双射。如果$P$是$P_n$的拓扑和，则$P$是波兰语（no. 1，命题1）且零维，并且映射$f : P \to X$与$f_n$在$P_n$上一致$n$是$P$到$X$的连续双射；因此结果。
 
-现在让我们证明$\mathbf{R}$的区间$I = [0, 1]$是Lusin空间。令$J$为所有无理数数中$I$由……组成的子空间；那么 $J$ 是波兰语（no. 1，命题 3 的推论）； J 也是零维的，因为如果 x 是 J 的任意点，形式 ]r, s[ 的 R 区间在 J 上的迹，其中 r 和 s 是有理数且 r < x < s，形式 J 中 x 的开和闭邻域的基数系统（因为 ]r 在 J 上的迹， s[ 和 [r, s] 相同）。因此 J 是 I 的 Lusin 子空间。现在 J 和 I 的子空间分别由单个有理数点形式和 I 的可数划分组成，因此 I 是引理 2 的 Lusin 空间。
+现在让我们证明$\mathbf{R}$的区间$I = [0, 1]$是Lusin空间。令$J$为所有无理数数的$I$由……组成中的子空间；那么 $J$ 是波兰语（no. 1、推论到命题 3）； J 也是零维的，因为如果 x 是 J 的任意点，形式 ]r, s[ 的 R 的区间 J 上的迹，其中 r 和 s 是有理数且 r < x < s，形式 J 中 x 的开和闭邻域的基本系统（因为迹在]r、s[和[r,s]的J相同）。因此 J 是 I 的 Lusin 子空间。现在 J 和 I 的子空间分别由单个有理数点形式和 I 的可数划分组成，因此 I 是引理 2 的 Lusin 空间。
 
-设 P 为任意波兰语空间。根据推论 1 到定理 1 (no. 1)，P 同胚于立方体 IN 的子空间，它是 IN 中开集合的可数交。由于I是Lusin空间，证明开头的注表明P是Lusin空间，命题12的证明因此是完整的。
+设 P 为任意波兰语空间。通过推论 1 到定理 1 (no. 1)，P 同胚于立方体 IN 的子空间，它是 IN 中开集合的可数交。由于I是Lusin空间，证明开头的注表明P是Lusin空间，因此命题12的证明是完整的。
 
 ### 5. 筛子
 
@@ -282,7 +282,7 @@ Lusin 空间的每个可数乘积都是 Lusin 空间；这是从 no. 1 的命题
 
 筛子是序列 C = (C_n, p_n)_{n \geq 0} 这样，对于每个 n，C_n 是可数集合，p_n 是 C_{n+1} 到 C_n 的满射。
 
-对于整数 m, n 的每个对，使得 0 \leq m \leq n，如果 m = n，则令 p_{mn} 表示 C_m 的恒等映射到其自身上，如果 m < n，则将 C_n 的满射 p_m \circ p_{m+1} \circ \cdots \circ p_{n-1} 表示到 C_m 上。显然，每当 m \leq n \leq q 时，p_{mq} = p_{mn} \circ p_{nq}，因此我们可以考虑族 (C_n) 的逆极限 L(C) 相对于映射 (p_{mn}) 族（集合理论，章 III, § 7）。如果每个C_n被赋予离散的拓扑，则L(C)是拓扑空间(章I, § 4, no. 4)的逆极限；因此，L(C) 称为与筛C 相关的拓扑空间。 L(C)是拓扑乘积$\prod_n C_n$的闭子空间，紧接着L(C)是零维波兰语空间(no. 4)。
+对于整数 m, n 的每个对，使得 0 \leq m \leq n，如果 m = n，则令 p_{mn} 表示 C_m 的恒等映射到自身上，如果 m < n，则将 C_n 的满射 p_m \circ p_{m+1} \circ \cdots \circ p_{n-1} 表示到 C_m 上。显然，每当 m \leq n \leq q 时，p_{mq} = p_{mn} \circ p_{nq}，因此我们可以考虑族 (C_n) 的逆极限 L(C) 相对于映射 (p_{mn}) (集合理论， 章III, § 7）。如果每个C_n被赋予离散的拓扑，则L(C)是拓扑空间(章I, § 4, no. 4)的逆极限；因此，L(C) 称为与筛C 相关的拓扑空间。 L(C)是拓扑乘积$\prod_n C_n$的闭子空间，紧接着L(C)是零维波兰语空间(no. 4)。
 
 公制空间 X 的筛分由筛子 C = (C_n, p_n) 组成，对于 C_n 的每个整数 n \geq 0 映射 \varphi_n 到直径为 X 的非空封闭子集的集合中\leq 2^{-n}，这样：
 
@@ -309,7 +309,7 @@ b) 对于每个 n 和每个 c \in C_n，\varphi_n(c) 是集合 \varphi_{n+1}(c')
 
 X 是波兰语和零维（或波兰语），然后前面的论证证明了结果。
 
-### 6. 苏林的分离集合
+### 6. 苏林分离集合
 
 #### 定理 2 {#top-ix-s6-thm-2 .statement tag=0C93}
 
@@ -339,11 +339,11 @@ $$
 
 为了证明定理 2，令$Y_n$表示集合$X_i$的并，使得$i \neq n$；那么 $Y_n$ 是 $X$ (no. 2, 命题 8) 的苏斯林子空间。对于每个指标 $n$，存在一个 Borel 集合 $B'_n$，其中包含 $X_n$ 且不满足 $Y_n$，通过引理 5。令 $B_n$ 为 $B'_n$ 的交且$\bigcap_{i < n} (X - B'_i)$。那么$B_n$是Borel集合，互为不相交的，并且对于每个$n$来说$B_n \supset X_n$。
 
-#### 推论{#top-ix-s6-n6-cor-1 .statement tag=0C96}
+#### 推论 {#top-ix-s6-n6-cor-1 .statement tag=0C96}
 
 *如果可度量空间的可数划分由Souslin 集合构成，那么这些集合就是Borel 集合。特别是，可度量空间中的每个 Souslin 集合（其补集是 Souslin 集合）都是 Borel 集合。*
 
-### 7. 卢辛空间和波雷尔集合
+### 7. Lusin 空间和 Borel 集合
 
 #### 定理 3 {#top-ix-s6-thm-3 .statement tag=0C97}
 
@@ -355,7 +355,7 @@ $$
 
 *在 Lusin 空间 $X$ 中，每个 Borel 集合都是 $X$ 的 Lusin 子空间。*
 
-令$\mathfrak{T}$为$X$的所有子集$A$中的集合，使得$A$和$\complement A$都是$X$的Lusin子空间。由于$X$中的每个闭集合和每个开集合都是$X$（no. 4）的Lusin子空间，$\mathfrak{T}$包含都闭$X$的子集，因此引理将如果我们能证明$\mathfrak{T}$是$X$上的$\sigma$代数，就可以证明。为此，只要证明如果$(A_n)$是$\mathfrak{T}$的集合的序列，那么$\bigcap_n A_n$和$\bigcup_n A_n$就是$X$的Lusin子空间。现在我们在no. 4中看到，Lusin子空间的每个可数交都是一个Lusin子空间。另一方面，如果$B_n$是$A_n$和$\bigcap_{i < n} \complement A_i$中的交，则从假设和前面的注可以得出，$B_n$是Lusin子空间；并且由于 $\bigcup_n A_n = \bigcup_n B_n$，子空间 $\bigcup_n A_n$ 是 no. 4 的引理 2 的 Lusin 子空间。
+令$\mathfrak{T}$为$X$的所有子集$A$中的集合，使得$A$和$\complement A$都是$X$的Lusin子空间。由于$X$中的每个闭集合和每个开集合都是$X$（no. 4）的Lusin子空间，$\mathfrak{T}$包含都闭$X$的子集，因此引理将如果我们能证明$\mathfrak{T}$是$X$上的$\sigma$代数，就可以证明。为此，只要证明如果$(A_n)$是$\mathfrak{T}$的集合的序列，那么$\bigcap_n A_n$和$\bigcup_n A_n$就是$X$的Lusin子空间。现在我们在no. 4中看到，Lusin子空间的每个可数交都是一个Lusin子空间。另一方面，如果$B_n$是$A_n$和$\bigcap_{i < n} \complement A_i$的交，则从假设和前面的评论可以得出$B_n$是Lusin子空间；并且由于 $\bigcup_n A_n = \bigcup_n B_n$，子空间 $\bigcup_n A_n$ 是 no. 4 的引理 2 的 Lusin 子空间。
 
 #### 引理 7 {#top-ix-s6-lem-7 .statement tag=0C99}
 
@@ -375,11 +375,11 @@ g'_n(c),\ g'_{n-1}(c_{n-1}),\ ...\ ,\ g'_0(c_0)。
 
 令x为B的点。那么，对于每个整数n，存在唯一的c ∈ C_n，使得x ∈ h_n(c)；让我们用 c_n(x) 来表示这个 c。 序列 (c_n(x))_{n≥0} 属于至 L(C)。 递减序列 (g_n(c_n(x))) 由定义收敛到点 a ∈ A；这些集合的闭包的序列也收敛于X中的a，因此更不必说也收敛于序列(h_n(c_n(x)))。现在 x 属于对所有集合 h_n(c_n(x))，因此 x = a ∈ A。由此证明了引理 7，并由此证明了定理 3。
 
-#### 推论{#top-ix-s6-n7-cor-1 .statement tag=0C9A}
+#### 推论 {#top-ix-s6-n7-cor-1 .statement tag=0C9A}
 
 *如果 f 是 Lusin 空间（或者，特别是波兰语空间）X 到可度量空间 Y 的连续内射映射，则 f(X) 是 Y 中的 Borel 集合。*
 
-### 8. 依波路截面
+### 8. 波莱尔截面
 
 #### 定理 4 {#top-ix-s6-thm-4 .statement tag=0C9B}
 
@@ -411,7 +411,7 @@ $$
 
 特别是，闭等价关系 R 满足定理 4 的假设。当 X 是紧致可度量空间时，定理 4 因此适用于任何 Hausdorff 等价关系 R，因为 Hausdorff 等价关系位于紧致上空间已关闭（章I, § 10, no. 4、命题8）。
 
-### 9. 苏林容量集合
+### 9. 苏斯林容量集合
 
 #### 定义 8 {#top-ix-s6-def-8 .statement tag=0C9D}
 
@@ -438,11 +438,11 @@ $$
 
 令 f 为 X 上的容量；如果 $f(A) = \sup_k f(K)$，则X 的子集 A 被认为是有能力的（相对于 f），其中 K 穿过 A 的紧致子集的集合。
 
-\* 对于例，如果 f 是外部测度 \mu^*，则每个开路集合都是可容的；可积集合 A 使得 \mu^*(A) < +\infty 恰好是 \mu 可积集合。 \*
+\* 例如，如果 f 是外部测度 \mu^*，则每个开路集合都是有能力的；可积集合 A 使得 \mu^*(A) < +\infty 恰好是 \mu 可积集合。 \*
 
 #### 命题 14 {#top-ix-s6-prop-14 .statement tag=0C9G}
 
-令 K 为紧致空间，令 f 为 K 上的容量。 If A is the intersection of a decreasing sequence $(A_n)$ of subsets of K, each of which is a countable union of closed sets, then A is capacitable.
+令 K 为紧致空间，令 f 为 K 上的容量。 如果 A 是 K 子集的递减序列 $(A_n)$ 的交集，其中每个子集都是闭集的可数并集，则 A 是可数的。
 
 足以证明，对于每个$a < f(A)$，都有一个闭合的集合$C \subset A$，使得$f(C) \geq a$。 让我们首先证明，存在闭集合的序列$(B_n)_{n \geq 1}$使得$B_n \subset A_n$并且这样，如果我们通过$n \geq 1$的条件$C_0 = A, C_n = C_{n-1} \cap B_n$归纳出定义序列$(C_n)$，那么对于每个$f(C_n) > a$ $n \geq 0$。 假设已经为$i < n$定义了$B_i$；到假设，我们有$C_{n-1} \subset A \subset A_n$和$f(C_{n-1}) > a$；因为$A_n$是闭集合$D_j$的递增序列的并，所以从(CAII)得出
 $$
@@ -474,7 +474,7 @@ $$
 
 #### 注 {#top-ix-s6-n9-rem-1 .statement tag=0C9J}
 
-\* 如果$\mu$是局部紧凑可度量空间$X$的正测度，则$X$的每个Souslin子集$A$都是$\mu$可测的。因为如果$K$是$X$的任何紧致子集，则$K \cap A$是一个相对紧致的苏斯林集合，因此对于$\mu^*$是可积的，因而$\mu$可积。 注 $X$ 中 Souslin 集合的补集，虽然一般不是 Souslin 集合，但是 $\mu$ 可测*。
+\* 如果$\mu$是局部紧凑可度量空间$X$的正测度，则$X$的每个Souslin子集$A$都是$\mu$可测的。因为如果$K$是$X$的任何紧致子集，则$K \cap A$是一个相对紧致的苏斯林集合，因此对于$\mu^*$是可积的，因而$\mu$可积。请注意，Souslin 集合在 $X$ 中的补集，虽然一般不是 Souslin 集合，但是 $\mu$ 可测*。
 
 ### 习题 {#top-ix-s6-exercises}
 

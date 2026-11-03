@@ -12,16 +12,16 @@ pdf_pages: 0005-0007
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: bc2ce1981053b542e7aa5e6db51a0037986f0c0ac459f29951a86453f041cea3
+content_sha256: 9d2f800d6059a6609562a2308bed02862ec3f27500fcd4e9163a46c3a48a59f2
 translated_from: content/en/top/00_to_the_reader_i_iv.md
 translation_method: google
 source_content_sha256: 1fcf4a0d74f5fdeb40d85588a3a85bcc7b377eb8269f88e8294c7a20efa351bf
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: cfc4af233fba9974b8af092837f6e898cfe99f0d9a6c36b48e07e77e94d81449
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 给读者的建议
@@ -36,7 +36,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 5. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as "propositions," "lemmas", "corollaries", "remarks", etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of "scholium".
 
-为了避免繁琐的重复，有时方便地引入记号或仅在章或章的某个截面内有效的缩写（对于例，在章中，仅与交换环，字相关） “环”始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免乏味的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅涉及交换环、字“环”的章中）表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ☡ ("dangerous bend").
 
@@ -48,7 +48,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 10. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in Historical Notes, usually at the end of each chapter. These notes also contain indications, where appropriate, of the unsolved problems of the theory.
 
-每个历史注记包含后面的参考书目一般只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整；特别是，仅涉及确定优先问题的参考文献几乎总是被省略。
+每个历史注记包含后面的参考书目一般只有那些在讨论中的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整；特别是，仅涉及确定优先问题的参考文献几乎总是被省略。
 
 至于习题，我们认为总体上不值得指出它们的起源，因为它们来自许多不同的来源（原始论文、教科书、习题的集合）。
 

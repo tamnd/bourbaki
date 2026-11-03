@@ -52,19 +52,19 @@ subsections:
       pdf_page: 165
 statements: 33
 exercises: 25
-content_sha256: 514856bbe1193f54564456d069f6e272568591b5ff649fc66552cb8596fa5e22
+content_sha256: b181f26c2ed160e045321500686ff75e9cf14ffc10a4eb4a1fd4c5d47bfe4057
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 translation_method: google
 source_content_sha256: d331e64864dcc1e0126c3bba0d6705f7cf12cadc6c25e95836fc8a8baa92e612
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8eb8706659f4e41c16839fb6b319500366aeb97ca3393869ce18db509a214506
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 2. 公制空间和可计量空间
+## 2. 公制空间和可度量空间
 
 ### 1. 指标和指标空间
 
@@ -96,7 +96,7 @@ $$
 f(x, y) \leq f(x, x') + f(x', y) = f(x', y)
 $$
 
-and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other words, $f$ is a function *compatible* (in $x$ and $y$) with the equivalence relation $R$ (*Set Theory*, R, § 5, no. 7). 设$\overline{f}$是$f$在商集上诱导函数； $\overline{f}$定义在$(X/R) \times (X/R)$上，并且如果$x$和$y$是$X$的任意两个点，并且如果$\dot{x}$和$\dot{y}$表示$x$的等价类（模$R$）并且分别为$y$，则我们有$\overline{f}(\dot{x}, \dot{y}) = f(x, y)$。 紧接着，$\overline{f}$ 是$X/R$ 上的一个*度量*；它被称为与伪度量 $f$ *关联*的度量；此外，$X/R$上的定义均匀性正是与$\mathscr{U}$通过该均匀性的定义*关联的豪斯多夫均匀性（章II, § 3, no. 8，注）。 因此，通过经过到合适的商空间，由单个伪度量定义的统一结构可以减少到度量空间的结构。
+类似地$f(x', y) \leq f(x, y)$，所以$f(x, y) = f(x', y)$；换句话说，$f$是一个具有等价关系$R$（*集合论*，R，§ 5, no. 7）的函数*相容的*（在$x$和$y$中）。 设$\overline{f}$是$f$在商集上诱导函数； $\overline{f}$定义在$(X/R) \times (X/R)$上，并且如果$x$和$y$是$X$的任意两个点，并且如果$\dot{x}$和$\dot{y}$表示$x$的等价类（模$R$）并且分别为$y$，则我们有$\overline{f}(\dot{x}, \dot{y}) = f(x, y)$。 紧接着，$\overline{f}$ 是$X/R$ 上的一个*度量*；它被称为与伪度量 $f$ *关联*的度量；此外，$X/R$上的定义均匀性正是与$\mathscr{U}$通过该均匀性的定义*关联的豪斯多夫均匀性（章II, § 3, no. 8，注）。 因此，通过经过到合适的商空间，由单个伪度量定义的统一结构可以减少到度量空间的结构。
 
 指标空间的*完成*的命题 1 of § 1, no. 3 确定结构：
 
@@ -106,9 +106,9 @@ and similarly $f(x', y) \leq f(x, y)$, so that $f(x, y) = f(x', y)$; in other wo
 
 § 1, no. 3的命题 1表明$\overline{d}$是$\hat{X}$上的有限伪度量，$\overline{d}$在$\hat{X}$上定义的均匀性是完成得到的均匀性；由于后一个均匀性是 Hausdorff，因此 $\overline{d}$ 是一个*度量*。每当我们将度量空间$X$视为度量空间时，总是可以理解，$\hat{X}$上的度量是通过连续性扩展$X$上的度量而获得的。
 
-### 2. 结构指标空间
+### 2. 度量的结构空间
 
-令$X$和$X'$为两个度量空间，$d$为$X$的度量，$d'$为$X'$的度量。根据一般的定义（*集合理论*，R，§ 8, no. 5），$X$到$X'$的一对一映射$f$是度量空间结构的*同构* $X$ 到 $X'$ 如果
+令$X$和$X'$为两个度量空间，$d$为$X$的度量，$d'$为$X'$的度量。根据一般的定义 (*集合理论*, R, § 8, no. 5) $X$ 到 $X'$ 的一对一映射 $f$ 是度量空间的 *同构* $X$的结构到$X'$的结构如果
 
 $$(1)$$
 $$
@@ -117,7 +117,7 @@ $$
 
 对于所有$x \in X$和所有$y \in X$。
 
-注，如果$f$是$X$的映射到满足恒等式(1)的$X'$，则$f$必须是*双射的*，因此$X$的同构到$X'$；这样的同构也称为$X$到$X'$的*等距*（或*等距*映射）。
+请注意，如果 $f$ 是 $X$ 的映射到 $X'$ 上，且满足恒等式 (1)，则 $f$ 必须是*双射的*，因此 $X$ 的同构到 $X'$ 上；这样的同构也称为$X$到$X'$的*等距*（或*等距*映射）。
 
 X到X'的等距当然是X的均匀性（分别为拓扑）到X'的均匀性（分别为拓扑）的同构；这些叙述中的逆命题是假的，正如不同等效度量 (§ 1, no. 2) 的存在所表明的那样。
 
@@ -173,9 +173,9 @@ $$
 
 #### 注 {#top-ix-s2-n2-rem-2 .statement tag=0C2J}
 
-我们可以用 $X$ 的两个子集 $A, B$ 得到 $d(A, B) = 0$，从而得到 $\overline{A} \cap \overline{B} = \varnothing$，前提是子集都不由单个点组成。 例、实直线$\mathbf{R}$、整数$> 0$集合和序列$(n + 1/2^n)_{n \geq 1}$点集合两个不相交的关闭集合，其距离部分为零。
+我们可以用 $X$ 的两个子集 $A, B$ 得到 $d(A, B) = 0$，从而得到 $\overline{A} \cap \overline{B} = \varnothing$，前提是子集都不由单个点组成。 For example, on 实直线 $\mathbf{R}$, 集合 of 整数 $> 0$ and 集合 of 点 of 序列 $(n + 1/2^n)_{n \geq 1}$ are two 不相交的 closed 集合 whose distance 部分是零。
 
-然而，如果 $A$ 是*紧凑*并且 $B$ 是*封闭*，关系 $d(A, B) = 0$ 意味着 $A \cap B \neq \varnothing$，因为凭借关系
+然而，如果 $A$ 是*紧凑*且 $B$ 是*封闭*，关系 $d(A, B) = 0$ 意味着 $A \cap B \neq \varnothing$，因为凭借关系
 $$
 d(A, B) = \inf_{x \in A} d(x, B)
 $$
@@ -186,15 +186,15 @@ $$
 \delta(A) = \sup_{x \in A, y \in A} d(x, y).
 $$
 
-“W_a-small 集合”（章 II, § 3, no. 1）的概念与直径$\leq a$的集合相同。当且仅当 $\delta(A) = 0$ 时，非空集合 $A$ 由单个点组成。
+“W_a-small 集合”（章II, § 3, no. 1）的概念与直径$\leq a$的集合相同。当且仅当 $\delta(A) = 0$ 时，非空集合 $A$ 由单个点组成。
 
-如果 $X$ 的子集 $A$ 是“有界”（相对于公制 $d$），则其直径是*有限*；同样，如果对于每个点 $x_0 \in X$，$A$ 都包含在具有中心 $x_0$ 的球中。有界集合中的每个子集都是有界的，有界集合的有限族中的并是有界集合。
+如果 $X$ 的子集 $A$ 是“有界”（相对于公制 $d$），则其直径是“有限”；同样，如果对于每个点 $x_0 \in X$，$A$ 都包含在具有中心 $x_0$ 的球中。有界集合的每个子集都是有界的，有界集合的有限族中的并是有界集合。
 
-注 $X$ 的子集可以相对于度量 $d$ 有界，但相对于等价于 $d$ (cf. § 1, no. 2) 的度量无界。
+Note that 子集 of $X$ can be bounded with respect to a metric $d$ but unbounded with respect to a metric equivalent to $d$ (cf. § 1, no. 2).
 
 ### 3. 函数的振荡
 
-与直径概念相关的是函数$f$的振动，定义在任意集合$X$上，并以公制空间$X'$取其值；如果$A$是$X$的任意非空子集，则直径$\delta(f(A))$称为$f$在$A$的振荡。
+Related to 概念 of diameter is that of the oscillation of 函数 $f$, defined on an arbitrary 集合 $X$ and taking its 值 in a metric 空间 $X'$;如果$A$是$X$的任意非空子集，则直径$\delta(f(A))$称为$f$在$A$的振荡。
 
 此外，如果$X$是拓扑空间$Y$的子集，并且如果$x \in \overline{X}$，数
 $$
@@ -212,13 +212,13 @@ $$
 $$
 这表明$\omega$在点$a$处是上半连续的。
 
-In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary and sufficient that for each $\varepsilon > 0$ there should exist a neighbourhood $V$ of $x$ such that $f(V \cap X)$ is contained in a ball of radius $\varepsilon$; if $x \in X$, this condition expresses the fact that $f$ is continuous at the point $x$ (with respect to $X$); if $x \in \overline{X} \cap \mathbf{C}X$, the image under $f$ of the trace on $X$ of the neighbourhood filter of $x$ in $Y$ is a Cauchy filter base on $X'$; in particular:
+为了使$\omega(x; f) = 0$在点$x \in \overline{X}$，对于每个$\varepsilon > 0$，应该存在$x$的邻域$V$，使得$f(V \cap X)$包含在半径为$\varepsilon$的球中是必要且充分的；如果$x \in X$，这个条件表示$f$在点$x$连续（相对于$X$）；若$x \in \overline{X} \cap \mathbf{C}X$，则$Y$中$x$邻域滤波器在$X$上的轨迹$f$下的图像是基于$X'$的柯西滤波器；尤其：
 
 #### 命题 5 {#top-ix-s2-prop-5 .statement tag=0C2L}
 
 *令$f$为函数，定义在拓扑空间$Y$的子集$X$上，将其值作为完整度量空间$X'$。那么$f$在点$x \in \overline{X}$相对于$X$有极限当且仅当$f$在$x$的振荡是零。*
 
-### 4. 可计量制服空间
+### 4. 可计量化制服空间
 
 #### 定义 2 {#top-ix-s2-def-2 .statement tag=0C2M}
 
@@ -257,7 +257,7 @@ In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary
 
 $\mathbf{R}$的子空间$\mathbf{R}_+^*$提供了其中的例。 $\mathbf{R}$的加性均匀性引起的均匀性和$\mathbf{R}_+^*$的乘性均匀性引起的均匀性都是可度量的，并且与$\mathbf{R}_+^*$的拓扑兼容；但它们没有可比性。
 
-我们注还可以存在与*可度量*拓扑空间（习题7）的拓扑兼容的*不可度量*一致性。
+我们还注意到，可能存在与*可度量*拓扑空间（习题 7）的拓扑兼容的*不可度量*一致性。
 
 我们将满足于拓扑空间的可度量性的*必要*条件（对于必要且充分的条件，cf.§ 4，习题22）。首先，空间不能是可度量的除非它是完全规则的（事实上，我们将在§ 4, no. 1，命题2中看到，可度量的空间必然是“正常的”，这是一个更强的条件）。另一方面，定理1表明：
 
@@ -281,11 +281,11 @@ $\mathbf{R}$的子空间$\mathbf{R}_+^*$提供了其中的例。 $\mathbf{R}$的
 
 存在空间，其中每个点都有邻域的可数基本系统，但其中存在闭集合，其不可数开集合的交（习题15）；这样的空间是不可度量的。
 
-Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable topological spaces is metrizable. 另外，可度量化空间的任意族 $(X_i)_{i \in I}$ 的和 $X$ (章 I, § 2, no. 4) 也是可度量化的。 For if $d_i$ is a metric compatible with the topology of $X_i$ for each $i \in I$, we may assume that $d_i$ is bounded and that the diameter of $X_i$ is $\leq 1$; we can then define a distance $d$ compatible with the topology of $X$ by putting $d(x, y) = d_i(x, y)$ if $x$ and $y$ both belong to the same $X_i$, and $d(x, y) = 1$ otherwise.
+推论 2 of 定理 1, no. 4，表明可数化拓扑空间的可数乘积是可数化的。 另外，可度量化空间的任意族 $(X_i)_{i \in I}$ 的和 $X$ (章 I, § 2, no. 4) 也是可度量化的。 对于每个$i \in I$，如果$d_i$是与$X_i$的拓扑兼容的度量，我们可以假设$d_i$是有界的并且$X_i$的直径是$\leq 1$；然后，如果$x$和$y$都属于同一个$X_i$，则通过放置$d(x, y) = d_i(x, y)$来定义与$X$的拓扑兼容的距离$d$，否则放置$d(x, y) = 1$。
 
 ### 6. 使用可数序列
 
-命题 6 是可度量空间理论中点的可数序列扮演的部分的起源；对于许多问题，它们可以用来代替过滤器。这是因为可度量空间的点的邻域滤波器（因此也是收敛滤波器）由空间的点的收敛序列确定：因为点的邻域滤波器具有可数的基，因此基本滤波器更细的交比其自身（章I, § 6, no. 8，命题11），即与序列相关的基本滤波器的序列收敛到所讨论的点。
+命题 6 是部分的起源，由点的可数序列在可度量的空间的理论中发挥；对于许多问题，它们可以用来代替过滤器。这是因为可度量空间的点的邻域滤波器（因此也是收敛滤波器）由空间的点的收敛序列确定：因为点的邻域滤波器具有可数的基，因此基本滤波器更细的交比其本身（章I, § 6, no. 8，命题11），即与序列相关的基本滤波器的序列收敛到所讨论的点。
 
 另一方面，收敛序列的概念不适合拓扑空间的研究，其中存在点，其邻域滤波器没有可数基。特别地，Hausdorff非离散拓扑空间可以被构造，其中，在每点$x$，$x$的邻域的任何可数族的交又是$x$(*)的邻域；在这样的空间中，唯一收敛的序列是那些从某个指标开始所有项都相等的序列。
 
@@ -309,20 +309,20 @@ Corollary 2 of Theorem 1, no. 4, shows that a countable product of metrizable to
 
 *让* $X$ *成为可度量的空间，并让* $f$ *成为* $X$ *的映射 *成为拓扑空间* $X'$。 *那么* $f$ *在点* $x \in X$ *当且仅当* $(x_n)$ *是* $X$ *的点的序列，收敛到* $x$，*序列* $(f(x_n))$ *收敛到* $f(x)$ *在* $X'$。
 
-条件是必要的，从章I, § 7, no. 4，命题9，推论1。为了证明它是充分的，考虑$X'$中$f(a)$的邻域的过滤器$\mathscr{B}'$； 假设意味着$\overline{f}^{-1}(\mathscr{B}')$比每个与序列相关的收敛到$a$的基本滤波器更粗糙，也就是说每个收敛到$a$的基本滤波器；但是
+条件是必要的，从章I, § 7, no. 4、命题9、推论1。为了证明它是充分的，考虑$X'$中$f(a)$的邻域的过滤器$\mathscr{B}'$； 假设意味着$\overline{f}^{-1}(\mathscr{B}')$比每个与序列相关的收敛到$a$的基本滤波器更粗糙，也就是说每个收敛到$a$的基本滤波器；但是
 
 (*) 参见 J. Dieudonné, 注 de Tératopologie (I), Revue scientifique (Revue Rose), 1939, p. 39。
-(**) 这个命题在某些空间中仍然有效，其中至少有一个点不具有邻域的任何可数基本系统；对于例，空间是通过在无穷大处邻接点来压缩不可数离散空间而获得的（章I, § 9, no. 8，定理4）。
+(**) 这个命题在某些空间中仍然有效，其中至少有一个点不具有邻域的任何可数基本系统；例如，空间是通过在无穷远处邻接点来压缩不可数离散空间而获得的（章I, § 9, no. 8，定理4）。
 
 这些过滤器中的交是$a$的邻域过滤器（章I, § 6, no. 8，命题11）。于是就有了这样的结果。
 
-注命题 8 和 10 在任何空间 $X$ 中有效，其中每个点都有邻域的可数基数系统。
+请注意，命题 8 和 10 在任何空间 $X$ 中均有效，其中每个点都有一个可数基数系统邻域。
 
-### 7. 可测量空间上的半连续函数
+### 7. 可度量空间上的半连续函数
 
 #### 命题 11 {#top-ix-s2-prop-11 .statement tag=0C2Y}
 
-*令$X$为可度量的空间，并令$f$为$X$上的下半连续函数，其值位于$\overline{\mathbf{R}}$的闭区间$[a, b]$中。那么$f$是$X$上连续函数的递增序列的上包络线，在$[a, b]$中取值。*
+*令$X$为可度量的空间，并令$f$为$X$上的下半连续函数，其将其值置于$\overline{\mathbf{R}}$的封闭区间$[a, b]$中。那么$f$是$X$上连续函数的递增序列的上包络线，在$[a, b]$中取值。*
 
 通过转移结构，我们可以假设$a = 0$和$b = 1$。
 
@@ -336,19 +336,19 @@ $$
 $$
 A_k = f^{-1}\left( \left[ \frac{k}{n}, +\infty \right[ \right) \quad (0 \leq k \leq n - 1);
 $$
-函数 $g_n = \frac{1}{n} \sum_{k=1}^{n-1} \varphi_{A_k}$ 是下半连续，对于所有$n$，我们都有$0 \leq f(x) - g_n(x) \leq 1/n$；因此$f$是序列$(g_n)$的上包络线。另一方面，$g_n$是线性组合，具有开集合的特征函数的有限数的正系数，因此是连续函数$\geq 0$的可数序列$(h_{mn})_{m \geq 0}$的上包络线，通过(i)；因此$f = \sup_{m,n} h_{mn}$。如果我们把
+函数 $g_n = \frac{1}{n} \sum_{k=1}^{n-1} \varphi_{A_k}$ 是下半连续，对于所有$n$，我们都有$0 \leq f(x) - g_n(x) \leq 1/n$；因此$f$是序列$(g_n)$的上包络线。另一方面，$g_n$是线性组合，其中开集合的特征函数的有限数的正系数，因此是连续函数$\geq 0$的可数序列$(h_{mn})_{m \geq 0}$的上包络线，通过(一)；因此$f = \sup_{m,n} h_{mn}$。如果我们把
 $$
 f_n = \sup_{p \leq n, q \leq n} h_{pq},
 $$
 我们看到序列$(f_n)$是连续函数$\geq 0$的递增序列，以$f$为上包络线，并且从$g_n \leq n - 1/n$开始不取值1。
 
-### 8. 可计量空间可数型
+### 8. 可数型的可度量空间
 
 #### 定义 4 {#top-ix-s2-def-4 .statement tag=0C2Z}
 
 *如果拓扑具有可数基，则可度量的空间被称为可数型 （或可分离）。*
 
-显然，可数型的可度量空间的每个子空间又是可数型。 乘积空间拓扑基定义(章I, § 4, no. 1)和no. 4的推论2到定理1表明可数可计量空间可数族乘积型是可数型的可度量空间。 同样，可数型的可度量空间的可数族中的和是可数型 (no. 5) 的可度量空间。
+显然，可数型的可度量空间的每个子空间又是可数型。 乘积空间拓扑基的定义（I, § 4, no. 1章）和no. 4定理1的推论2表明，可数类型的可度量空间族的乘积是可数类型的可度量空间。 同样，可数型的可度量空间的可数族中的和是可数型 (no. 5) 的可度量空间。
 
 #### 命题 12 {#top-ix-s2-prop-12 .statement tag=0C30}
 
@@ -378,7 +378,7 @@ $$
 
 这表明W是B中包含的$x_0$的邻域，因此$\varphi$是X到$\varphi(X)$的同胚。
 
-注对于任意拓扑空间 X，性质 b) 并不一定意味着存在可数基，即使X是紧的并且X的每个点都有一个可数系统邻域 （习题13；cf.章I, § 1，习题7）。
+请注意，对于任意拓扑空间 X，性质 b) 并不一定意味着存在可数基，即使 X 是紧致的并且 X 的每个点都有一个可数基数系统邻域 (习题) 13；cf.章I, § 1，习题7)。
 
 #### 命题 13 {#top-ix-s2-prop-13 .statement tag=0C31}
 
@@ -386,7 +386,7 @@ $$
 
 设 H 为子集 N 由……组成指标 n，使得 U_n 包含在 V_i 的至少一个中； 序列 (U_n)_{n \in H} 是 X 的覆盖，因为每个点 x \in X 属于到某个 V_i，并且由于 V_i 是开放的，因此存在指标 n 使得 x \in U_n \子集 V_i。因此，在 I 中存在映射 $\psi$，使得对于 H 中的每个 n \，U_n \子集 V_{\psi(n)}；取J = $\psi(H)$，可数，命题得证。
 
-### 9. 紧凑公制空间；紧凑型可测量空间
+### 9. 紧凑公制空间；紧凑可度量空间
 
 均匀空间 (章 II, § 4, no. 2, 定理 3) 的预紧性准则对于度量空间产生以下命题：
 
@@ -402,9 +402,9 @@ $$
 
 *可度量拓扑空间X是紧的当且仅当X的点的每个无限序列在X中都有一个簇点。*
 
-章 I, § 9, no. 1 的公理 (C) 表明条件是*必要的*。为了显示*充分性*，让 d 成为与拓扑或 X 兼容的度量。我们首先证明这样定义的度量空间X是*完整的*：X中的每个柯西序列都有一个集群点，因此是收敛的（章II, § 3, no. 2，命题5，推论2）；因此X在命题 9时是完整的。接下来我们将证明X是*预紧式*；如果不是这样，那么到命题 14 时，将存在实数 $\alpha > 0$，使得 X 无法被直径为 $\leq \alpha$ 的 X 的子集的任何有限数覆盖。然后，我们可以在 n 上对所有 $p < n$ 进行定义归纳点 X 条件 $d(x_p, x_n) > \frac{1}{2} \alpha$ 的无限序列 $(x_n)$；并且这样的序列不能有簇点，因为每个半径为$< \frac{1}{2} \alpha$包含的球最多只能有序列中的一个点。
+章 I, § 9, no. 1 的公理 (C) 表明条件是*必要的*。为了显示*充分性*，让 d 成为与拓扑或 X 兼容的度量。我们首先证明这样定义的度量空间X是*完整的*：X中的每个柯西序列都有一个集群点，因此是收敛的（章II, § 3, no. 2，命题5，推论2）；因此X在命题 9时是完整的。接下来我们将证明X是*预紧式*；如果不是这样，那么到命题 14 时，将存在实数 $\alpha > 0$，使得 X 无法被直径为 $\leq \alpha$ 的 X 的子集的任何有限数覆盖。然后，我们可以在n上对所有$p < n$进行定义乘归纳，对X乘条件$d(x_p, x_n) > \frac{1}{2} \alpha$的无限点乘以序列$(x_n)$；并且这样的序列不能有簇点，因为每个半径为$< \frac{1}{2} \alpha$包含的球最多有序列中的一个点。
 
-#### 推论{#top-ix-s2-n9-cor-1 .statement tag=0C34}
+#### 推论 {#top-ix-s2-n9-cor-1 .statement tag=0C34}
 
 *可度量拓扑空间X的子集A是相对紧凑的当且仅当A的点的每个无限序列在X中都有一个簇点。*
 
@@ -420,7 +420,7 @@ $$
 
 条件*足够*。设$(U_n)$是$X$的拓扑的可数基。 $X \times X$的对角线$\Delta$每点邻域因此形式$U_n \times U_n$包含邻域； 应用 Borel-Lebesgue 公理到 $X \times X$ 的紧子集 $\Delta$，因此 $\Delta$ 包含的每个邻域是形式集合的有限并 $U_n \setminus U_n$，即 $\Delta$ 的邻域。因此，$\Delta$的邻域是有限的，形式$U_n \times U_n$形式集合并是$X$均匀性的基本系统（章） II, § 4, no. 1, 定理 1)，因此结果来自no. 4的定理 1。
 
-#### 推论{#top-ix-s2-n9-cor-2 .statement tag=0C36}
+#### 推论 {#top-ix-s2-n9-cor-2 .statement tag=0C36}
 
 *令$X$为局部紧致空间，并令$X'$为通过在无穷大$\omega$至$X$处邻接点而获得的紧致空间（章I, § 9, no. 8）。那么下面的叙述是等价的：*
 
@@ -428,23 +428,23 @@ a) *$X$的拓扑有一个可数的基。*
 b) $X'$ *可度量。*
 c) $X$ *可度量且$\sigma$-紧凑。*
 
-$a \Longrightarrow b$：令$U_n$为$X$的拓扑的可数基。 点 $x \in X$ 包含的每个邻域都是$x$ 的紧凑邻域，而$x$ 的包含邻域又等于一些$U_n$。因此，$U_n$、形式、基、拓扑和$X$相对紧凑，因此我们可以假设所有$U_n$都是相对紧凑的。因此，$X$是紧集$\overline{U}_n$的可数并，即它是$\sigma$紧；这意味着 $X'$ 点 $\omega$ 具有开放邻域的可数基本系统 $V_n$（章 I, § 9, no. 9，命题 15，推论 2）。因此，点$y \in X'$包含中的每个邻域要么是$U_n$之一，要么是$V_n$之一，即$y$中的邻域，因此$U_n$和$V_n$ 形式拓扑 $X'$ 的可数基。因此 $X'$ 可以通过命题 16 来度量。
+$a \Longrightarrow b$：令$U_n$为$X$的拓扑的可数基。 点 $x \in X$ 包含的每个邻域都是$x$ 的紧凑邻域，而$x$ 的包含邻域又等于一些$U_n$。因此，$U_n$、形式、基、拓扑和$X$相对紧凑，因此我们可以假设所有$U_n$都是相对紧凑的。因此，$X$是紧集$\overline{U}_n$的可数并，即它是$\sigma$紧；这意味着在 $X'$ 点 $\omega$ 中，有一个开放邻域 (章 I, § 9, no. 9, 命题 15, 推论 2) 的可数基本系统 $V_n$。因此，点$y \in X'$包含中的每个邻域要么是$U_n$之一，要么是$V_n$之一，即$y$中的邻域，因此$U_n$和$V_n$ 形式拓扑 $X'$ 的可数基。因此 $X'$ 可以通过命题 16 来度量。
 
-b) $\Longrightarrow c)$：如果 $X'$ 可度量，则 $\omega$ 的可数基数系统为邻域，因此 $X$ 是 $\sigma$-紧致章 I, § 9, no. 9、命题 15，推论 2。
+b) $\Longrightarrow c)$：如果 $X'$ 可度量，则 $\omega$ 的可数基数系统为邻域，因此 $X$ 是 $\sigma$-紧致章 I, § 9, no. 9、命题 15、推论2。
 
-c) $\Longrightarrow a)$：到假设，有递增序列$(V_n)$相对紧凑的开放集合覆盖$X$并且使得$\overline{V}_n \subset V_{n+1}$（章I, § 9, no. 9，命题） 15）。 子空间 $\overline{V}_n$ 是紧凑且可度量的，因此具有可数基 (命题 16)，因此 $V_n$ 也是可数的。令$(U_{mn})_{m \geq 1}$为$V_n$的拓扑中的基。对于$x \in X$和$x$的每个邻域$W$，存在$n$使得$x \in V_n$，因此存在$m$使得$x \in U_{mn} \subset V_n \cap W$。因此集合$U_{mn}$($m \geq 1, n \geq 1$)形式基拓扑$X$。
+c) $\Longrightarrow a)$：到假设，有相对紧凑的开放集合的递增序列$(V_n)$覆盖$X$并且使得$\overline{V}_n \subset V_{n+1}$（章I, § 9, no. 9， 命题15)。 子空间 $\overline{V}_n$ 是紧凑且可度量的，因此具有可数基 (命题 16)，因此 $V_n$ 也是可数的。令$(U_{mn})_{m \geq 1}$为$V_n$的拓扑中的基。对于$x \in X$和$x$的每个邻域$W$，存在$n$使得$x \in V_n$，因此存在$m$使得$x \in U_{mn} \subset V_n \cap W$。因此拓扑的集合 $U_{mn}$ ($m \geq 1, n \geq 1$) 形式基 $X$。
 
-### 10. 可计量空间的商空间
+### 10. 可测量的商空间空间
 
-如果 $X$ 是可度量的空间并且 $R$ 是 $X$ 上的等价关系，则商空间 $X/R$ 不一定是可度量的（即使 $X$ 是局部紧致 \* 且 $X/R$ 是正常的） *）。然而：
+如果 $X$ 是可度量的空间并且 $R$ 是 $X$ 上的等价关系，则商空间 $X/R$ 不一定是可度量的（即使 $X$ 是局部紧凑的 \* 且$X/R$ 是正常的 *)。然而：
 
 #### 命题 17 {#top-ix-s2-prop-17 .statement tag=0C37}
 
-紧致可度量空间的每个豪斯多夫商空间都是紧致且可度量的。
+紧致可度量化空间的每个 Hausdorff 商空间都是紧致且可度量化的。
 
-同样，如果 $f$ 是紧凑可度量化空间 $X$ 到 Hausdorff 空间 $X'$ 的连续映射，则 $f(X)$ 是 $X'$ (章) 的可度量化子空间 (章) I, § 9, no. 4，定理 2，推论 4)。
+同样，如果 $f$ 是紧凑可度量空间 $X$ 到 Hausdorff 空间 $X'$ 的连续映射，则 $f(X)$ 是 $X'$ (章) 的可度量子空间 I, § 9, no. 4、定理2、推论4)。
 
-令$X$为紧凑可度量空间，并令$R$为$X$上的等价关系，使得$X/R$为Hausdorff。那么$X/R$是紧致的（章I, § 9, no. 4，定理2），因此到命题16就足以证明$X/R$的拓扑有一个可数的基。为此，我们使用 $R$ 是闭集（章 I, § 10, no. 4、命题 8）以及类 mod $R$ 是紧致的事实。令$\varphi$为$X$的典范映射到$X/R$，并令$(U_n)$为$X$的拓扑的可数基。令$z$为$X/R$中的任意点，并令$V$为$X/R$中$z$的邻域；那么$\overline{\varphi}^{-1}(V)$就是紧集$\overline{\varphi}^{-1}(z)$中的$X$中的邻域。如果 $x$ 是 $\overline{\varphi}^{-1}(z)$ 中的任意点，则存在集合 $U_n$ 包含于 $x$ 且包含在 $\overline{\varphi}^{-1}(V)$ 中，因此根据 Borel-Lebesgue 公理，存在有限开覆盖 $(U_{n_k})_{1 \leq k \leq r}$ $\overline{\varphi}^{-1}(z)$，如果$W$表示$\bigcup_k U_{n_k}$，则$W$是$\overline{\varphi}^{-1}(V)$中包含的$\overline{\varphi}^{-1}(z)$的邻域。由于$R$是闭集，因此$\varphi(W)$是$X/R$中$z$的邻域，包含在$V$中（章I, § 5, no. 4，命题10）。令$\mathscr{B}$表示形式$\varphi(W)$集合的内部集合，其中$W$贯穿形式集合所有有限并的集合$\mathscr{F}$ $U_n$；然后我们证明了$\mathscr{B}$是$X/R$的拓扑的基，并且由于$\mathfrak{F}$是可数的，所以$\mathscr{B}$也是可数的。
+令$X$为紧凑可度量空间，并令$R$为$X$上的等价关系，使得$X/R$为Hausdorff。那么$X/R$是紧致的（章I, § 9, no. 4，定理2），因此到命题16就足以证明$X/R$的拓扑有一个可数的基。为此，我们使用 $R$ 是闭集（章 I, § 10, no. 4、命题 8）以及类 mod $R$ 是紧致的事实。令$\varphi$为$X$的典范映射到$X/R$，并令$(U_n)$为$X$的拓扑的可数基。令$z$为$X/R$中的任意点，并令$V$为$X/R$中$z$的邻域；那么$\overline{\varphi}^{-1}(V)$就是紧集$\overline{\varphi}^{-1}(z)$中的$X$中的邻域。如果 $x$ 是 $\overline{\varphi}^{-1}(z)$ 中的任意点，则存在集合 $U_n$ 包含于 $x$ 且包含在 $\overline{\varphi}^{-1}(V)$ 中，因此根据 Borel-Lebesgue 公理，存在有限开覆盖 $(U_{n_k})_{1 \leq k \leq r}$ $\overline{\varphi}^{-1}(z)$，如果$W$表示$\bigcup_k U_{n_k}$，则$W$是$\overline{\varphi}^{-1}(V)$中包含的$\overline{\varphi}^{-1}(z)$的邻域。由于$R$是闭集，因此$\varphi(W)$是$X/R$中$z$的邻域，包含在$V$中（章I, § 5, no. 4，命题10）。令$\mathscr{B}$表示形式$\varphi(W)$集合的内部集合，其中$W$贯穿形式集合所有有限并的集合$\mathscr{F}$ $U_n$；然后我们证明了$\mathscr{B}$是拓扑或$X/R$的基，并且由于$\mathfrak{F}$是可数的，所以$\mathscr{B}$也是可数的。
 
 #### 命题 18 {#top-ix-s2-prop-18 .statement tag=0C38}
 
@@ -456,7 +456,7 @@ c) $\Longrightarrow a)$：到假设，有递增序列$(V_n)$相对紧凑的开�
 
 (ii) 像位于半径为$1/2^i$的开球的$\varphi$下方，其中中心位于$H_i$的点处，形式为$K$的开敞覆盖物，对于$1 \leq i \leq n$。
 
-令$\mathscr{B}_{n+1}$为半径为$1/2^{n+1}$的所有开球的集合，其中心$x$使得$d(x, H_n) < 1/2^n$（$d$是$X$的度量）。 $H_n$的性质表明集合$\varphi(B)$，对于$B \in \mathscr{B}_{n+1}$，形式是$K$的开覆盖；因而，存在有限的集合$L_{n+1} \subset X$，使得像位于半径为$1/2^{n+1}$的开球的$\varphi$之下，其中心属于到$L_{n+1}$形式是$K$的开球覆盖物。 Taking $H_{n+1} = H_n \cup L_{n+1}$, we see that we can define inductively an infinite sequence $(H_n)$ of finite subsets of $X$ with properties (i) and (ii) above. 让$H = \bigcup_n H_n$，并让我们证明$H$是*预紧*。 对于每个$p > 0$和每个点$z_{n+p} \in H_{n+p}$，存在点$z_{n+i} \in H_{n+i}$（$0 \leq i \leq p - 1$）中的序列，使得
+令$\mathscr{B}_{n+1}$为半径为$1/2^{n+1}$的所有开球的集合，其中心$x$使得$d(x, H_n) < 1/2^n$（$d$是$X$的度量）。 $H_n$的性质表明集合$\varphi(B)$，对于$B \in \mathscr{B}_{n+1}$，形式是$K$的开覆盖；因而，存在有限的集合$L_{n+1} \subset X$，使得像位于半径为$1/2^{n+1}$的开球的$\varphi$之下，其中心属于到$L_{n+1}$形式是$K$的开球覆盖物。 取 $H_{n+1} = H_n \cup L_{n+1}$，我们发现我们可以归纳地定义具有上述属性 (i) 和 (ii) 的 $X$ 有限子集的无限序列 $(H_n)$。 让$H = \bigcup_n H_n$，并让我们证明$H$是*预紧*。 对于每个$p > 0$和每个点$z_{n+p} \in H_{n+p}$，存在点$z_{n+i} \in H_{n+i}$（$0 \leq i \leq p - 1$）中的序列，使得
 
 $$
 d(z_{n+i}, z_{n+i+1}) < 1/2^{n+i} \quad \text{for } 0 \leq i \leq p - 1;

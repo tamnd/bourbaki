@@ -12,19 +12,19 @@ pdf_pages: 0425-0426
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d23fd322ae2f1d54eb6621765e4a0770750984071902b916712bd7f59414a53f
+content_sha256: b746173bb86d7f4062f564c7e75dc25c6f09270d9b23da0404849814f7790125
 translated_from: content/en/top/index_of_notation_i_iv.md
 translation_method: google
 source_content_sha256: 0663de6d7747e67e8ecb942be67857c3c08f52886c9ceb70a1642b445cc9cd3f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f707298c52be9b9b8e7cbe3adac334d1ca9f7c606d7b102435a6655265bc1190
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 参考文献数表示章、截面以及阶中的子部分（或习题）。
 

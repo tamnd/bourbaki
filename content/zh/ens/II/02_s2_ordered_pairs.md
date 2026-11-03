@@ -22,21 +22,21 @@ subsections:
       pdf_page: 81
 statements: 4
 exercises: 2
-content_sha256: 0e5a4994d5eaf1cece33bec2f57d2b9dc3654eae12743db1842cf513b07b762a
+content_sha256: b59954db7d7f6fa7e1ea197ca759c4fc81d6ac0537440c1b58aed70ae97ff9fc
 translated_from: content/en/ens/II/02_s2_ordered_pairs.md
 translation_method: google
 source_content_sha256: 30cc0208eaab54246e96f854154d361c7bc5ca97861fad03285d7ff5c5137aa4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0f2c415b9c3e468c68f94caad5757f77fcc008980d0031c1d06ddff66afa6f13
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. 有序对
 
-### 1. 有序对的公理
+### 1. 有序对公理
 
 正如我们在§1, no. 1中所说，符号$\supset$是集合论中权2的实数符号。如果T，U是项，则$\supset$TU是项，实际上用(T, U)表示。在这个记号中，有序对*的*公理如下：
 

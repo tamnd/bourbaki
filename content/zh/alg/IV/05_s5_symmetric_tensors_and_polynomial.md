@@ -68,16 +68,16 @@ errata:
     - says: we have $u_\omega \in U^H$ for all $w \in \Omega$
       read: we have $u_\omega \in U^H$ for all $\omega \in \Omega$
       why: The proof on page 56 sets the subscript of u round and the quantifier of the same letter roman, in one clause.
-content_sha256: 4ed39ce902ab7833776ba9d11f5c61250eda7f6f5dd78da87f31a31c2dc285d6
+content_sha256: eee739285015b3bc9a00d29523b204d9557cc2bad3c1d693654d95ff1aed67e4
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 translation_method: google
 source_content_sha256: 0718f77b4c960447aa7b0aaceb1e4b634413b342ee6a1fdee7d6efa83b9be82a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8de4763142dfdc93500ca0c5e1a40af6a57dd42e5e67194c0c538df9809e288b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。对称张量和多项式映射
@@ -129,7 +129,7 @@ $$
 \mathrm{Tr}_{H/hGh^{-1}}(hm) = \mathrm{Tr}_{H/G} m .
 $$
 
-(ii) 令 F 为 G 中的有限指标的子群，并令$m \in M^F$，则
+(ii) 令 F 为 G 中有限指标的 G 子群，并令 $m \in M^F$，则
 
 $$
 \mathrm{Tr}_{H/G}(\mathrm{Tr}_{G/F} m) = \mathrm{Tr}_{H/F} m
@@ -158,7 +158,7 @@ $$
 
 ### 2. 定义对称张量
 
-设 M 为 A-模。我们记得（III，p. 501）$\mathfrak{S}_n$在A-模$T^n(M)$的左侧进行运算，这样
+令 M 为 A-模。我们记得（III，p. 501）$\mathfrak{S}_n$在A-模$T^n(M)$的左侧进行运算，这样
 
 $$
 \sigma(x_1 \otimes x_2 \otimes \ldots \otimes x_n) = x_{\sigma^{-1}(1)} \otimes x_{\sigma^{-1}(2)} \otimes \ldots \otimes x_{\sigma^{-1}(n)}
@@ -170,7 +170,7 @@ TS(M) = $\bigoplus_{n=0}^{\infty} TS^n(M)$;这是$\mathbf{T}(M)$的分级子A模
 
 ### 3. 乘积对称张量
 
-令$p, q \in \mathbf{N}$和$S_{p|q}$为所有置换$\sigma \in S_{p-q}$中的$S_{p+q}$由……组成中的子群，这使得$\mathbf{N}$的区间$(1, p)$和$(p+1, p+q)$保持稳定。如果$\sigma \in S_p$和$\sigma' \in S_q$，我们可以将$S_{p|q}$的定义元素$\sigma''$通过将$\sigma''(n) = \sigma(n)$放入$1 \leq n \leq p$并将$\sigma''(p+n) = p + \sigma'(n)$放入$1 \leq n \leq q$； 映射 $(\sigma, \sigma') \mapsto \sigma''$ 是 $S_p \times S_q$ 的同构到 $S_{p|q}$。
+令$p, q \in \mathbf{N}$和$S_{p|q}$为所有置换$\sigma \in S_{p-q}$中的$S_{p+q}$由……组成中的子群，这使得$\mathbf{N}$中的区间$(1, p)$和$(p+1, p+q)$保持稳定。如果$\sigma \in S_p$和$\sigma' \in S_q$，我们可以将$S_{p|q}$的定义元素$\sigma''$通过将$\sigma''(n) = \sigma(n)$放入$1 \leq n \leq p$并将$\sigma''(p+n) = p + \sigma'(n)$放入$1 \leq n \leq q$； 映射 $(\sigma, \sigma') \mapsto \sigma''$ 是 $S_p \times S_q$ 的同构到 $S_{p|q}$。
 
 设$z \in TS^p(M)$，$z' \in TS^q(M)$，则$T^{p+q}(M)$的元素$z \otimes z'$在$S_{p|q}$下不变；因此我们可以得到定义元素 $\operatorname{Tr}_{S_{p+q}/S_{p|q}}(z \otimes z')$ 或 $TS^{p+q}(M)$。我们将为$TS(M)$配备A双线性乘法$(y, y') \mapsto yy'$，这样对于$p, q \in \mathbf{N}$，$z \in TS^p(M)$，$z' \in TS^q(M)$我们有
 
@@ -199,7 +199,7 @@ $$
 
 — (i) A-代数 $TS(M)$ 是结合律、交换律和单位律。
 
-(ii) 令$p_1, \ldots, p_n$为整数$> 0$，并令$S_{p_1| \ldots |p_n}$为所有$\sigma \in S_{p_1+\cdots+p_n}$中的集合，留下$\mathbf{N}$的下列区间保持稳定：
+(ii) 令$p_1, \ldots, p_n$为整数$> 0$，并令$S_{p_1| \ldots |p_n}$为所有$\sigma \in S_{p_1+\cdots+p_n}$中的集合，留下$\mathbf{N}$的以下区间稳定：
 
 $$
 (1, p_1), (p_1+1, p_1+p_2), \ldots, (p_1+\cdots+p_{n-1}+1, p_1+\cdots+p_n).
@@ -219,7 +219,7 @@ $$
 z_2 \ldots z_n = \operatorname{Tr}_{\mathfrak{S}_{p_2 + \cdots + p_n}/\mathfrak{S}_{p_2}| \cdots | p_n} (z_2 \otimes \ldots \otimes z_n)
 $$
 
-已经证明了，让我们把所有置换中置换的限制到$(1, p_1)$是恒等式，认同$\mathfrak{S}_{p_2 + \cdots + p_n}$和$\mathfrak{S}_{p_1 + \cdots + p_n}$由……组成的子群。然后
+已经证明了，让我们将所有置换中的限制到$(1, p_1)$的置换中的认同$\mathfrak{S}_{p_2 + \cdots + p_n}$和$\mathfrak{S}_{p_1 + \cdots + p_n}$由……组成的子群恒等式。然后
 
 $$
 \operatorname{Tr}_{\mathfrak{S}_{p_1}|p_2+\cdots+p_n/\mathfrak{S}_{p_1}|p_2| \cdots | p_n} (z_1 \otimes z_2 \otimes \ldots \otimes z_r) =
@@ -340,24 +340,24 @@ $$
 = \sum_{p_1 + p_2 = p} \gamma_{p_1}(x_1) \gamma_{p_2}(x_2).
 $$
 
-为了证明(iii)，令$S_{p_1, ..., p_n}$为$(1, p_1 + ... + p_n)$的置换的集合，其中限制为区间
+为了证明(iii)，令$S_{p_1, ..., p_n}$为$(1, p_1 + ... + p_n)$的置换集合，其限制到区间
 $$(1, p_1), (p_1 + 1, p_1 + p_2), ..., (p_1 + ... + p_{n-1} + 1, p_1 + ... + p_n)$$
 是递增。根据 I、p. 60、例 2 和命题 2，(ii) 我们有
 $$
 \gamma_{p_1}(x_1) \gamma_{p_2}(x_2) ... \gamma_{p_n}(x_n) = \sum_{\rho \in S_{p_1, p_2, ..., p_n}} \rho(x_1 \otimes x_1 \otimes ... \otimes x_1 \otimes x_2 \otimes x_2 \otimes ... \otimes x_2 \otimes ... \otimes x_n \otimes x_n \otimes ... \otimes x_n)
 $$
-（与$p_i$因子$x_i$），这个和等于
+（$p_i$ 因子 $x_i$）并且这个和等于
 $$
 \sum_{\varphi \in E} x_{\varphi(1)} \otimes x_{\varphi(2)} \otimes ... \otimes x_{\varphi(p)}.
 $$
 
 在(iii)中，让我们放入$n = 2, x_1 = x_2 = x, p_1 = q$和$p_2 = r$，然后我们得到(iv)(I，loc.cit.)。
 
-最后 (v) 源自第 2、(ii) 条和I、p. 100 的提案 2，应用于环 $\mathbf{T}(M)$ 的元素 $x_i$。
+最后(v)源自第2、(ii)条和I、p. 100的提案2，应用于环$\mathbf{T}(M)$的元素$x_i$。
 
 #### 注 1 {#alg-iv-s5-n4-rem-1 .statement tag=06CY}
 
-令 $(x_i)_{i \in I}$ 为 M 的元素的家庭。对于每个 $\nu \in \mathbf{N}^{(I)}$ 放置
+设$(x_i)_{i \in I}$是M的元素的家庭。对于每个$\nu \in \mathbf{N}^{(I)}$放
 $$
 x_\nu = \prod_{i \in I} \gamma_{\nu_i}(x_i).
 $$
@@ -369,7 +369,7 @@ $$
 
 #### 注 2 {#alg-iv-s5-n4-rem-2 .statement tag=06CZ}
 
-令$\mathscr{M}$为$(1, p)$的映射到I的集合。我们将 $\mathscr{M}$ 中的定义映射 $\rho \mapsto \rho^*$ 代入$\mathbf{N}^{(I)}$，将
+设$\mathscr{M}$为I为$(1, p)$映射集合。我们将 $\mathscr{M}$ 中的定义映射 $\rho \mapsto \rho^*$ 代入$\mathbf{N}^{(I)}$，将
 $$
 \rho^*(i) = \operatorname{Card} \rho^{-1}(i)
 $$
@@ -746,7 +746,7 @@ M 到 N 的次数 1 的齐次多项式映射是 M 到 N 的 A-线性映射。
 
 #### 例 2 {#alg-iv-s5-n9-exa-2 .statement tag=06DF}
 
-令$(N_i)_{i \in I}$是A-模、$f_i$映射到$N_i, i \in I$的族，以及$f : M \to \prod_{i \in I} N_i$映射和组件$f_i$。要使 f 为次数 q 中的齐次多项式映射，每个 $f_i$ 为次数 q 中的齐次多项式映射是充分必要的。
+令$(N_i)_{i \in I}$为A-模的族，将M的$f_i$映射放入$N_i, i \in I$，并将$f : M \to \prod_{i \in I} N_i$映射与分量$f_i$组成。要使 f 为次数 q 中的齐次多项式映射，每个 $f_i$ 为次数 q 中的齐次多项式映射是充分必要的。
 
 #### 例 3 {#alg-iv-s5-n9-exa-3 .statement tag=06DG}
 
@@ -840,7 +840,7 @@ $$
 
 — *令 M 和 N 为 A-模并假设 M 是自由的。令映射(M, N) 为 M 到 N 的所有映射中的 A-模。 映射(M, N) 中的子模 $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ 表示为 $\mathbf{Pol}_A(M, N)$ 或简称为 $\mathbf{Pol}(M, N)$；它的元素称为M到N的多项式映射。*
 
-令$(e_i)_{i \in I}$为M的基，并假设$l$是有限的；由命题 13 (IV, p. 54) 映射 $f$ 将 M 代入 N 是多项式当且仅当不定式 $X_i$ 中存在一个多项式 F，其系数在 N 中，使得
+令$(e_i)_{i \in I}$为M的基，并假设$l$是有限的；根据命题 13 (IV, p. 54) 映射 $f$，将 M 代入 N 是多项式当且仅当在不定式 $X_i$ 中存在多项式 F，且 N 中有系数，使得
 
 $$
 f \left( \sum_{i \in I} x_i e_i \right) = F(x)
@@ -880,7 +880,7 @@ $$
 f = m_0 + m_1 X + \cdots + m_n X^n \in N[X].
 $$
 
-*假设存在$\alpha_0, \alpha_1, \ldots, \alpha_r \in A$使得$f(\alpha_0) = \cdots = f(\alpha_r) = 0$，并且使得对于N中的比率$\alpha_i - \alpha_j$的$i \neq j$位似是单射的，则$f = 0$。*
+*假设存在$\alpha_0, \alpha_1, \ldots, \alpha_r \in A$使得$f(\alpha_0) = \cdots = f(\alpha_r) = 0$，并且使得对于$\alpha_i - \alpha_j$在N中的比率$i \neq j$位似是单射的，则$f = 0$。*
 
 （这个引理概括了IV、p. 16的Cor.。）
 
@@ -917,7 +917,7 @@ $$
 
 ### 11. 关系 $\mathbf{S}(M^*)$、TS(M)*gr 和 Pol(M, A) 之间
 
-令 M 为自由A-模，我们将为分级对偶 TS(M)*gr 配备可交换、结合和单位分级 $^1$ 代数的结构，源自 TS(M) 的分级余数结构 (III，p. 580)。到 III、p. 497 时，存在评分为 A-代数的唯一同态
+令 M 为自由A-模，我们将为分级对偶 TS(M)*gr 配备可交换、结合和单位分级 $^1$ 代数的结构，源自 TS(M) 的分级余数结构 (III， p. 580）。到 III、p. 497 时，存在分级 A-代数的唯一同态
 $$
 \theta : \mathbf{S}(M^*) \to \mathbf{TS}(M)^{*gr}
 $$
@@ -929,13 +929,13 @@ $^1$ A 分级为次数 – k 的 TS(M) 的同态进入 A 在此被视为 TS(M)*g
 
 — *如果 A-模 M 是自由且有限生成的，则 $0$ 是分级代数的同构。*
 
-设$(e_i)_{i \in I}$为$M$之基，且$(e_i^*)_{i \in I}$对偶基为$M^*$。对于 $\nu \in \mathbf{N}^I$ 投入
+设$(e_i)_{i \in I}$为$M$之基，且$(e_i^*)_{i \in I}$为$M^*$之对偶基。对于 $\nu \in \mathbf{N}^I$ 投入
 
 $$
 e_\nu = \prod_{i \in I} \gamma_{\nu_i}(e_i) \in \mathbf{TS}(M)
 $$
 
-根据第 4 条（*IV*，p. 47），$(e_\nu)_\nu,_{\mathbf{N}^I}$ 家庭是$TS(M)$ 中的基；设$(e_\nu^*)$是$\mathbf{TS}(M)^{*gr}$右$(e_\nu)$的基。根据III、p. 505、Th。 1 足以证明对于任何 $\nu \in \mathbf{N}^I$ 我们有
+根据第 4 条（*IV*，p. 47），家庭$(e_\nu)_\nu,_{\mathbf{N}^I}$ 是 $TS(M)$ 中的基；设$(e_\nu^*)$是$\mathbf{TS}(M)^{*gr}$右$(e_\nu)$的基。根据III、p. 505、Th。 1 足以证明对于任何 $\nu \in \mathbf{N}^I$ 我们有
 
 $$
 e_\nu^* = \prod_{i \in I} (e_i^*)^{\nu_i},

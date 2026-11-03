@@ -37,19 +37,19 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 4b1a19430c4dc001ba10230100a3f9c2404091828022d83ae00207ad4a6e155e
+content_sha256: cfa7484f9763107ec0eafea3efea5af8be45896278eed86ebf8b06eec1ac2893
 translated_from: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 952a7b9240fa2d193986215a77b227fd820dee9114e1cdbfa00e8cbcdb6611b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e6ed198a1a15a7024f5b42baded9c2dff1a789ce3192b38eec56998316e7c1ba
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 5。 自同构半单李代数
+## § 5。 自同构 / 半单李代数
 
 在本段中，$\mathfrak{g}$表示半单李代数。
 
@@ -61,7 +61,7 @@ $\varepsilon :$自动($\mathfrak{g},\mathfrak{h}$)$\rightarrow A(R)$
 
 是同态 / 群。
 
-对于任何根系 R 和 R 的任何基 B，我们用 R 的自同构的 Aut(R$,B$) 群表示，使 B 保持稳定。 Recall (Chap. VI, §1, no. 5, Prop. 16 and §4, no. 2, Cor. of Prop. 1) that A(R) is the semi-direct product of Aut(R$,B$) and W(R), and that $A(R)/W(R)$ is canonically isomorphic to the group of automorphisms of the Dynkin graph of R.
+对于任何根系 R 和 R 的任何基 B，我们用 R 的自同构的 Aut(R$,B$) 群表示，使 B 保持稳定。 回想一下（第 16 章第 VI, §1, no. 5 章和第 1 条命题§4, no. 2），A(R) 是 Aut(R$,B$) 和 W(R) 的半直积，并且 $A(R)/W(R)$ 与 R 的 Dynkin 图的自同构群是规范同构的。
 
 #### 命题 1 {#lie-viii-s5-prop-1 .statement tag=011N}
 
@@ -73,11 +73,11 @@ $\varepsilon |G : G\rightarrow$ 自动(R$,B$)
 
 是 Th 双射的。 2 个§4, no. 4。
 
-### 2. 自同构分裂的半单李代数
+### 2. 自同构 / 分裂的半单李代数
 
 令 E 为可​​交换的群，且 $A =\bigoplus_{\gamma\in E}A^{\gamma}$ 为 E 分级的代数。对于从群 E 到乘法群 $k^*$ 的任何同态 $\varphi$，令 $f(\varphi )$ 为从 A 到 A 的 $k$ 线性映射，其中限制与每个$A^{\gamma}$ 的位似的比率$\varphi (\gamma )$；显然，$f(\varphi )$是分级代数A的自同构，$f$是同态，从群Hom(E$, k^*$)到分级代数A的自同构的群。
 
-令$\mathfrak{h}$为$\mathfrak{g}$的分裂嘉当子代数，以及$(\mathfrak{g},\mathfrak{h})$的R根系。回想一下，P(R)（分别为 Q(R)）表示 R 的权（分别为根式权）的群。
+令$\mathfrak{h}$为$\mathfrak{g}$的分裂嘉当子代数，以及$(\mathfrak{g},\mathfrak{h})$的R根系。回想一下，P(R)（分别为 Q(R)）表示 R 的权（分别为根基权）的群。
 
 $T_P=$Hom(P(R)$, k^*$)$T_Q=$Hom(Q(R)$, k^*$)。
 
@@ -159,7 +159,7 @@ $$
 
 #### 命题 3 {#lie-viii-s5-prop-3 .statement tag=011T}
 
-复合材料的像同态
+复合像同态
 
 $T_P\longrightarrow^qT_Q\longrightarrow^f$自动($\mathfrak{g},\mathfrak{h}$)
 
@@ -207,7 +207,7 @@ b) Aut$_e(\mathfrak{g},\mathfrak{h})$ 的像在 $\varepsilon$ 包含 W(R) 下（
 
 c) 仍有待证明Aut$_0(\mathfrak{g},\mathfrak{h})\subset \varepsilon^{-1}(W(R))$。鉴于b)，只需证明$\varepsilon$(Aut$_0(\mathfrak{g},\mathfrak{h})$)$\cap$Aut(R$,B$)，其中B表示R的基，约化至$\{1\}$。
 
-令 $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ 使得 $\varepsilon (s)\in$ Aut(R$,B$)。由 $\varepsilon (s)$ 生成的 A(R) 的子群在 R 上具有轨道的有限数。令 U 为基数 $r$ 和 $\mathfrak{g}^U=\sum_{\beta\in U}\mathfrak{g}^{\beta}$ 的轨道。设 $\beta_1\in U$，并代入$\beta_i=\varepsilon (s)^{i-1}\beta_1$
+令 $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ 使得 $\varepsilon (s)\in$ Aut(R$,B$)。由$\varepsilon (s)$生成的A(R)的子群在R上具有轨道的有限数。令U为这样的轨道、基数$r$和$\mathfrak{g}^U=\sum_{\beta\in U}\mathfrak{g}^{\beta}$。设 $\beta_1\in U$，并代入$\beta_i=\varepsilon (s)^{i-1}\beta_1$
 
 $1\leq i\leq r$，所以$U =\{\beta_1, . . . , \beta_r\}$。令$X_{\beta_1}$为$\mathfrak{g}^{\beta_1}$的非零元素，并将$X_{\beta_i}=s^{i-1}X_{\beta_1}$作为$1\leq i\leq r$。存在$c_U\in k^*$使得$s^rX_{\beta_1}=$$c_UX_{\beta_1}$，因此对于所有$i$来说$s^rX_{\beta_i}=c_UX_{\beta_i}$，因而$s^r|\mathfrak{g}^U=c_U.1$。设 $\varphi \in T_Q$ 和 $s'=s\circ f(\varphi )$，通过 a) 是 Aut$_0(\mathfrak{g},\mathfrak{h})$ 的元素。我们有 ${s'}^r|\mathfrak{g}^U=c'_U.1$，其中
 
@@ -229,7 +229,7 @@ $$
 \varepsilon(s)=\varepsilon(s')\varepsilon(f(\varphi))^{-1}=1.
 $$
 
-#### 推论{#lie-viii-s5-n2-cor-1 .statement tag=01J0}
+#### 推论 {#lie-viii-s5-n2-cor-1 .statement tag=01J0}
 
 — 令 $B$ 为 $R$ 中的基。 群$\operatorname{Aut}(\mathfrak g,\mathfrak h)$同构于群$\operatorname{Aut}(R,B)$和$\operatorname{Aut}_0(\mathfrak g,\mathfrak h)$的半直接乘积。
 
@@ -259,9 +259,9 @@ $$
 
 #### 推论 1 {#lie-viii-s5-prop-5-cor-1 .statement tag=01J2}
 
-— 令$(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$为$\mathfrak g$的框架，并且$G$群（与$\operatorname{Aut}(R,B)$同构）为$\mathfrak g$的自同构，使该框架保持不变。那么$\operatorname{Aut}(\mathfrak g)$就是$G$和$\operatorname{Aut}_0(\mathfrak g)$的半直接乘积。
+— 令$(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$为$\mathfrak g$的框架，而$G$群（与$\operatorname{Aut}(R,B)$同构）为$\mathfrak g$的自同构，使该框架保持不变。那么$\operatorname{Aut}(\mathfrak g)$就是$G$和$\operatorname{Aut}_0(\mathfrak g)$的半直接乘积。
 
-事实上，$\operatorname{Aut}(\mathfrak g)$变换$(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$的每个元素都会进入$\mathfrak g$的框架。根据命题 5，$\operatorname{Aut}(\mathfrak g)$ 模$\operatorname{Aut}_0(\mathfrak g)$ 的每个陪集恰好在一个点中满足$G$。
+事实上，$\operatorname{Aut}(\mathfrak g)$变换$(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$的每个元素都会进入$\mathfrak g$的框架。根据命题 5，$\operatorname{Aut}(\mathfrak g)$ 模$\operatorname{Aut}_0(\mathfrak g)$ 的每个陪集恰好满足 $G$ 中的一个点。
 
 Q.E.D.
 
@@ -269,7 +269,7 @@ Q.E.D.
 
 #### 推论 2 {#lie-viii-s5-prop-5-cor-2 .statement tag=01J3}
 
-Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$，当$\mathfrak{g}$是型$A_1,B_n(n\geq 2)$、$C_n(n\geq 2)$、$E_7,E_8,F_4,G_2$的可分割简单李代数时。当$\mathfrak{g}$为型、$A_n(n\geq 2)$、$D_n(n\geq 5)$、$E_6$时，商Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$为阶2；当$\mathfrak{g}$为型$D_4$时，它与$\mathfrak{S}_3$同构的。
+Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$，当$\mathfrak{g}$是型$A_1,B_n(n\geq 2)$、$C_n(n\geq 2)$、$E_7,E_8,F_4,G_2$的可分割简单李代数时。当$\mathfrak{g}$为型$A_n(n\geq 2)$、$D_n(n\geq 5)$、$E_6$时，商Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$为阶2；当$\mathfrak{g}$为型$D_4$时，它与$\mathfrak{S}_3$同构的。
 
 这是从 Cor 得出的。 1 和章。 VI，板片I至IX。
 
@@ -353,7 +353,7 @@ $$
 0 = H(t^m_1, . . . , t^m_l) =\sum_{n_1,...,n_l\in\mathbf{Z}}c_{n_1,...,n_l}t^{mn_1}_1. . . t^{mn_l}_l
 $$
 
-对于所有$t_1, . . . , t_l\in k^*$。因此，$c_{n_1,...,n_l}$是$l$变量中多项式的系数，该多项式在$k^{*l}$上消失；因此它们都是零。
+对于所有$t_1, . . . , t_l\in k^*$。因此，$c_{n_1,...,n_l}$是$l$变量中的多项式的系数，该多项式在$k^{*l}$上消失；因此它们都是零。
 
 #### 命题 10 {#lie-viii-s5-prop-10 .statement tag=0127}
 
@@ -363,13 +363,13 @@ $$
 
 (ii) 群 Aut$_e(\mathfrak{g})$ 和 Aut$_0(\mathfrak{g})$ 在 Zariski 拓扑连接。
 
-根据提案$3,f(q(T_P))\subset$ Aut$_e(\mathfrak{g})$。对于所有 $s\in$ Aut$_e(\mathfrak{g})$，第 9 号提案关闭了 Zariski 拓扑包含 $s.f(T_Q)$ 中的 $s.f(q(T_P))$。因此，Aut$_e(\mathfrak{g})$ 包含 Aut$_e(\mathfrak{g}).f(T_Q) =$ Aut$_0(\mathfrak{g})$ 关闭（提案 6）。这就证明了(i)。
+根据提案$3,f(q(T_P))\subset$ Aut$_e(\mathfrak{g})$。对于所有 $s\in$ Aut$_e(\mathfrak{g})$，第 9 号提案关闭了 Zariski 拓扑包含 $s.f(T_Q)$ 中的 $s.f(q(T_P))$。因此，Aut$_e(\mathfrak{g})$ 包含 Aut$_e(\mathfrak{g}).f(T_Q) =$ 关闭Aut$_0(\mathfrak{g})$（提案 6）。这就证明了(i)。
 
 设Aut$_e(\mathfrak{g}) =\Omega \cup \Omega '$为由Zariski拓扑中相对开放的子集形成的Aut$_e(\mathfrak{g})$的划分，并与$\Omega \not=\emptyset$。如果$\omega \in \Omega$且$x$是$\mathfrak{g}$的幂零元，则从$k$到Aut$_e(\mathfrak{g})$的映射$\tau :t \rightarrow \omega$exp($t$ad$x$)是多项式，因此在Zariski拓扑中连续；因而，$\tau (k)$是连通的；从$\omega \in \tau (k)$开始，我们有$\tau (k)\subset \Omega$。因而，$\Omega$.(exp ad $kx$)$\subset \Omega$，因而$\Omega$.Aut$_e(\mathfrak{g})\subset \Omega$和$\Omega =$Aut$_e(\mathfrak{g})$。这证明Aut$_e(\mathfrak{g})$已连接。由此可见，通过 (i)，Aut$_0(\mathfrak{g})$ 已连接。 Q.E.D.
 
-我们将看到（§8, no. 4，命题 6 的 Cor.），Aut$_0(\mathfrak{g})$ 在 Zariski 拓扑中的V 中闭合，并且它是 Aut($\mathfrak{g}$) 的单位元素的连通分量。另一方面，Aut$_e(\mathfrak{g})$ 在 Zariski 拓扑中一般不会关闭。
+我们将看到（§8, no. 4，第 6 条命题），Aut$_0(\mathfrak{g})$ 在 Zariski 拓扑中的V 处闭合，并且它是 Aut($\mathfrak{g}$) 的单位元素的连通分量。另一方面，Zariski 拓扑中的 Aut$_e(\mathfrak{g})$ 一般不会关闭。
 
-\*假设$(\mathfrak{g},\mathfrak{h})$是分裂的。 群 Aut$_0(\mathfrak{g})$ 是连接的半单代数群 G 与平凡中心（伴随群）的群 $G(k)$ 的 $k$ 点。 群$f(T_Q)$等于$H(k)$，其中H是G与李代数$\mathfrak{h}$的嘉当子群。 G 的通用覆盖$\widetilde{G}$（代数意义上）中 H 的逆像 $\widetilde{H}$ 具有 $T_P$ 作为其 $k$ 点的群。 $G(k) =$ Aut$_0(\mathfrak{g})$ 中的 $\widetilde{G}(k)$ 的像是群 Aut$_e(\mathfrak{g})$。\*
+\*假设$(\mathfrak{g},\mathfrak{h})$是分裂的。 群 Aut$_0(\mathfrak{g})$ 是半单代数群 G 与平凡中心（伴随群）相连的群 $G(k)$ 的 $k$ 点。 群 $f(T_Q)$ 等于 $H(k)$，其中 H 是 G 与李代数 $\mathfrak{h}$ 的嘉当子群。 G 的通用覆盖$\widetilde{G}$（代数意义上）中 H 的逆像 $\widetilde{H}$ 具有 $T_P$ 作为其 $k$ 点的群。 $G(k) =$ Aut$_0(\mathfrak{g})$ 中的 $\widetilde{G}(k)$ 的像是群 Aut$_e(\mathfrak{g})$。\*
 
 ### 5. 李群情形
 
@@ -383,7 +383,7 @@ $$
 
 (iii) Aut$_e(\mathfrak{g})$ 是 Aut($\mathfrak{g}$) 的开子群。
 
-(iv) 如果$k=\mathbf{R}$或$\mathbf{C}$，Aut$_e(\mathfrak{g})$是Aut($\mathfrak{g}$)的恒等分量，在其他字Int($\mathfrak{g}$)中。
+(iv) 如果$k=\mathbf{R}$或$\mathbf{C}$，Aut$_e(\mathfrak{g})$是Aut($\mathfrak{g}$)的恒等式分量，在其他字Int($\mathfrak{g}$)中。
 
 由章。 III, §3, no. 8，科。第 29 条命题 2，以及第 36 条命题 no. 10，Aut($\mathfrak{g},\mathfrak{h}$) 是 Aut($\mathfrak{g}$) 的谎言子群，其李代数是 ad $x(x\in \mathfrak{g})$ 的集合，使得 (ad $x$)$\mathfrak{h}\subset \mathfrak{h}$，在其他情况下字广告$\mathfrak{h}$。
 
@@ -391,7 +391,7 @@ $$
 
 对于所有 $\alpha \in R$，exp ad $\mathfrak{g}^{\alpha}\subset$ Aut$_e(\mathfrak{g})$。鉴于(ii)，Aut($\mathfrak{g}$)中Aut$_e(\mathfrak{g})$包含邻域为1，从而证明(iii)。
 
-假设$k=\mathbf{R}$或$\mathbf{C}$。那么Aut$_e(\mathfrak{g})$包含在Aut($\mathfrak{g}$)的恒等分量C中(VII, §3, no. 1)，并由(iii)在Aut($\mathfrak{g}$)中打开。因此Aut$_e(\mathfrak{g}) = C$。最后，C = Int($\mathfrak{g}$) 由章节。 III, §9, no. 8，提案 30 (i)。
+假设$k=\mathbf{R}$或$\mathbf{C}$。那么Aut$_e(\mathfrak{g})$包含在Aut($\mathfrak{g}$)的恒等式分量C中(VII, §3, no. 1)，并由(iii)在Aut($\mathfrak{g}$)中打开。因此Aut$_e(\mathfrak{g}) = C$。最后，C = Int($\mathfrak{g}$) 由章节。 III, §9, no. 8，提案 30 (i)。
 
 ### 习题 {#lie-viii-s5-exercises}
 

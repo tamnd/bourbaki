@@ -13,16 +13,16 @@ pdf_pages: 0016-0017
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 142b9195994a423fea08df54bade398319b38136203aa6bb2abfa86922c53d89
+content_sha256: 0a9bd59b6e42fa839a69279e81aa24fc4ac51d3d9532528fc09fef14b55b70db
 translated_from: content/en/fvr/00_introduction.md
 translation_method: google
 source_content_sha256: 85e0ba02d9e87d1ef4af523569a61f14e491623624b2c9c740da85ac45ab1be5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: a09638cf7500f7e73c1667bd3f996c031d663b6dd895b05a13dd51cad4425c92
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 介绍
@@ -47,7 +47,7 @@ $$
 
 对于所有$t \in K$（$|t|$是K中$t$的绝对值值）。
 
-$\mathbf{R}$ 的线段 [0, 1] 称为具有端点 $x, y$ 的*闭合线段*。有人说，如果对于$A$中的任何$x, y$，具有端点$x$和$y$的闭线段包含在$A$中，则$E$的子集$A$是“凸”。对于例，仿射线性簇是凸的；任何闭合线段也是如此；在 $\mathbf{R}^n$ 中任何平行四面体 (*Gen.Top.*, VI, p. 34) 都是凸的。凸集合的每个交都是凸的。
+$\mathbf{R}$ 的线段 [0, 1] 称为具有端点 $x, y$ 的*闭合线段*。有人说，如果对于$A$中的任何$x, y$，具有端点$x$和$y$的闭线段包含在$A$中，则$E$的子集$A$是“凸”。例如，仿射线性簇是凸的；任何闭合线段也是如此；在 $\mathbf{R}^n$ 中任何平行四面体 (*Gen.Top.*, VI, p. 34) 都是凸的。凸集合的每个交都是凸的。
 
 如果原点（以及 $E$ 的任何点）具有 *凸* 邻域的基本系统，我们就说域 $\mathbf{R}$ 上的拓扑向量空间 $E$ 是“局部凸”。每个 *normed* 空间都是局部凸的；事实上，$\|x\| \leq r \ (r > 0)$形式是$E$中0的邻域的基本系统，并且每个球都是凸的，因为关系$\|x\| \leq r,\ \|y\| \leq r$意味着
 

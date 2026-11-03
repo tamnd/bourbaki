@@ -53,16 +53,16 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 27
-content_sha256: 82e8f79102cc4a535de91013ed2195dd887f200950e92587a7f3ef209d953705
+content_sha256: fe3cae52bc56b849738530e8e4211a08c515642da48c975c1e323718a003901e
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
 translation_method: google
 source_content_sha256: f78c02d6746badeb5841481f1c8cf6849e885db53fc5c1bf28fc919724113c17
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 222718c96f0c9912147077695b468cb0c2f68a85e083f94f66d4141138d8109c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。矢量测量
@@ -95,7 +95,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 ### 2. 关于矢量测量的积分
 
-令 $m$ 为 $T$ 上的矢量测度，值为 $F$。对于每个 $z' \in F'$，映射 $z' \circ m$ 是 $T$ 上的标量度量，线性依赖于 $z'$。如果 $f$ 是在 $T$ 上定义的数字函数，我们会滥用语言说，对 $(f, m)$ 有性质 $P$，如果对于每个 $z' \in F'$，对 $(f, |z' \circ m|)$有性质$P$。对于例，如果对于每个$z' \in F'$，函数$f$对于$|z' \circ m|$本质上是可积的，我们可以说$f$对于*$m$是*本质上可积的。同样的道理，$f$ 本质上对于$(z' \circ m)^+$ 和$(z' \circ m)^-$ 的每一个测度都是可积的（第 V, §2, No. 2 章，第 3 条命题第 2 条）。
+令 $m$ 为 $T$ 上的矢量测度，值为 $F$。对于每个 $z' \in F'$，映射 $z' \circ m$ 是 $T$ 上的标量度量，线性依赖于 $z'$。如果 $f$ 是在 $T$ 上定义的数字函数，我们会滥用语言说，对 $(f, m)$ 有性质 $P$，如果对于每个 $z' \in F'$，对 $(f, |z' \circ m|)$有性质$P$。例如，如果对于每个$z' \in F'$，函数$f$对于$|z' \circ m|$本质上可积，我们可以说$f$对于*$m$本质上是可积的。同样的道理，$f$ 本质上对于$(z' \circ m)^+$ 和$(z' \circ m)^-$ 的每一个测度都是可积的（第 V, §2, No. 2 章，第 3 条命题第 2 条）。
 
 #### 命题 1 {#int-vi-s2-prop-1 .statement tag=09A6}
 
@@ -123,19 +123,19 @@ $$
 \left| \int f d(z' \circ m) \right| \leq \int |f| d|z' \circ m|.
 $$
 
-很明显，有限数值函数对于$m$本质上可积的集合在$\mathbf{R}$上是向量空间；我们将用$\mathscr{L}(m)$来表示这个空间配备了最粗糙的局部凸拓扑，使所有线性形式$f \mapsto \int f d(z' \circ m)$连续，其中$z'$运行超过$F'$。 注一般而言，局部凸空间 $\mathscr{L}(m)$ *不是 Hausdorff*。
+很明显，有限数值函数对于$m$本质上可积的集合在$\mathbf{R}$上是向量空间；我们将用$\mathscr{L}(m)$来表示这个空间配备了最粗糙的局部凸拓扑，使所有线性形式$f \mapsto \int f d(z' \circ m)$连续，其中$z'$运行超过$F'$。请注意，一般来说，局部凸空间 $\mathscr{L}(m)$ *不是 Hausdorff*。
 
 #### 例 {#int-vi-s2-n2-exa-1 .statement tag=09A8}
 
-— 让我们将 $\mathscr{K}(T)$ 的 $m$ 恒等映射代入其自身。由于 $\mathscr{K}(T)$ 的对偶是 $T$ 上标量测量的空间 $\mathscr{M}(T)$，因此函数 $f \in \mathscr{L}(m)$ 本质上是对*每个*标量测量 $\mu$ (cf. Exer. 1) 可积的那些，并且积分$\int f dm$ 线性形式 $\mu \mapsto \int f d\mu$ $\mathscr{M}(T)$。一个不能对于每一个度量$\mu \in \mathscr{M}(T)$除非$f = 0$都有$\int f d\mu = 0$，就像在取$\mu = \varepsilon_t$时看到的那样，其中$t$在$T$中是任意的；在其他字中，映射$f \mapsto \int f dm$是$\mathscr{L}(m)$的*单射*到$\mathscr{M}(T)$的代数对偶，其中扩展恒等映射是$\mathscr{K}(T)$。因此，关系 $\int f dm \in F = \mathscr{K}(T)$ 相当于$f \in \mathscr{K}(T)$。
+— 让我们将 $\mathscr{K}(T)$ 的 $m$ 恒等映射代入其自身。由于 $\mathscr{K}(T)$ 的对偶是 $T$ 上标量测量的空间 $\mathscr{M}(T)$，因此函数 $f \in \mathscr{L}(m)$ 本质上是对*每个*标量测量 $\mu$ (cf. Exer. 1) 可积的那些，并且积分$\int f dm$ 是线性形式 $\mu \mapsto \int f d\mu$ $\mathscr{M}(T)$。一个不能对于每一个度量$\mu \in \mathscr{M}(T)$除非$f = 0$都有$\int f d\mu = 0$，就像在取$\mu = \varepsilon_t$时看到的那样，其中$t$在$T$中是任意的；在其他字中，映射$f \mapsto \int f dm$是$\mathscr{L}(m)$的*单射*到$\mathscr{M}(T)$的代数对偶，其中扩展恒等映射是$\mathscr{K}(T)$。因此，关系 $\int f dm \in F = \mathscr{K}(T)$ 相当于$f \in \mathscr{K}(T)$。
 
-令 $u$ 为 $F$ 的连续线性映射成为 Hausdorff 局部凸空间 $G$，并让我们再次用 $u$ 表示其扩张，通过将 ${F'}^*$ 的线性映射双转置为${G'}^*$（§ 1, No. 1）。有了这个约定：
+令 $u$ 为 $F$ 的连续线性映射成为 Hausdorff 局部凸空间 $G$，并让我们通过将${F'}^*$ 的线性映射双转置为 $u$ 再次表示其扩张为${G'}^*$（§ 1, No. 1）。有了这个约定：
 
 #### 命题 2 {#int-vi-s2-prop-2 .statement tag=09A9}
 
 *每个数值函数* $f$ *本质上可积* $m$ *本质上可积* $u \circ m$、*和* $\int f d(u \circ m) = u(\int f dm)$。
 
-考虑到所有$y \in G'$的等式$y' \circ u \circ m = {}^t u(y') \circ m$，命题是显而易见的。
+考虑到所有 $y \in G'$ 的等式 $y' \circ u \circ m = {}^t u(y') \circ m$，命题是显而易见的。
 
 一般来说，如果$f \in \mathscr{L}(m)$，$\int f dm$属于积分到${F'}^*$，但不积分到$F$（参见上面的*例*）。然而：
 
@@ -149,9 +149,9 @@ $$
 
 *如果，对于 T 的每个紧致子集 K，像在 $f \in \mathscr{H}(T, K)$ 的集合的 m 之下，使得 $\sup_{t \in T} |f(t)| \leq 1$ 在 F 中是弱相对紧致，则 $\int f dm \in F$ 对于每个有界且具有紧支撑的函数 $f \in \mathscr{L}(m)$，并且每函数 $f \in \mathscr{L}(m)$ $\int f dm \in F''$。*
 
-第一个断言可以立即从命题3推导出来：如果$f$有界并且有紧支撑，并且如果U是$f$支撑的相对紧开邻域，那么$m$到子空间$\mathscr{H}(U)$的限制是$m_U$的测度U满足第3条的条件和$\int f dm_U = \int f dm$（第V, §7, No. 1，Th.1），因此$\int f dm \in F$。
+第一个断言可以立即从命题3推导出来：如果$f$有界并且具有紧支撑，并且如果U是$f$支撑的相对紧开邻域，则$m$到子空间$\mathscr{H}(U)$的限制是$m_U$的测度U满足第3条的条件和$\int f dm_U = \int f dm$（第V, §7, No. 1，Th.1），因此$\int f dm \in F$。
 
-现在让 $f$ 为 $\mathscr{L}(m)$ 中的任意元素；对于 T 的每个紧凑子集 K 和每个整数 $n > 0$，令 $f_{n,K}$ 为 T 上的数值函数，定义如下： if $t \notin K$, $f_{n,K}(t) = 0$；如果$t \in K$和$|f(t)| \leq n$，$f_{n,K}(t) = f(t)$；最后，如果$t \in K$和$|f(t)| > n$，则$f_{n,K}(t) = nf(t)/|f(t)|$。 It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. 从$|f_{n,K}| \leq |f|$开始，它遵循勒贝格的定理和第10章第10条命题。 V, §1, No. 3，应用于每个标量度量$|z'\circ m|$，$f_{n,K}$相对于前面的过滤器在$\mathscr{L}(m)$中收敛到$f$。 因而，整的$\int f dm$位于$m(f_{n,K})$的集合M的${F'}^*$（对于拓扑$\sigma({F'}^*, F')$）的闭包中。 但推论的第一个部分表明$M \subset F$，另一方面，对于每个$z' \in F'$，都有$|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$，这表明M有界于$F_\sigma$，因此也在F中（TVS，IV, §1, No. 1，命题1）。 因而，§1, No. 2的引理1表明$\int f dm \in F''$。
+现在让 $f$ 为 $\mathscr{L}(m)$ 中的任意元素；对于 T 的每个紧凑子集 K 和每个整数 $n > 0$，令 $f_{n,K}$ 为 T 上的数值函数，定义如下： if $t \notin K$, $f_{n,K}(t) = 0$；如果$t \in K$和$|f(t)| \leq n$，$f_{n,K}(t) = f(t)$；最后，如果$t \in K$和$|f(t)| > n$，则$f_{n,K}(t) = nf(t)/|f(t)|$。 很明显，对于每个 $t \in T$，$f(t)$ 是 $f_{n,K}(t)$ 相对于 Fréchet 滤波器的乘积滤波器和 T 的紧凑子集（递增有向）有序集的分段滤波器的限制。 从$|f_{n,K}| \leq |f|$开始，它遵循勒贝格的定理和第10章第10条命题。 V, §1, No. 3，应用于每个标量度量$|z'\circ m|$，$f_{n,K}$相对于前面的过滤器在$\mathscr{L}(m)$中收敛到$f$。 因而，整的$\int f dm$位于$m(f_{n,K})$的集合M的${F'}^*$（对于拓扑$\sigma({F'}^*, F')$）的闭包中。 但推论的第一个部分表明$M \subset F$，另一方面，对于每个$z' \in F'$，都有$|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$，这表明M有界于$F_\sigma$，因此也在F中（TVS，IV, §1, No. 1，命题1）。 因而，§1, No. 2的引理1表明$\int f dm \in F''$。
 
 #### 推论 2 {#int-vi-s2-prop-3-cor-2 .statement tag=09AC}
 
@@ -191,7 +191,7 @@ $$
 
 $^1$ 专业人士。
 
-#### 推论{#int-vi-s2-n3-cor-1 .statement tag=09AF}
+#### 推论 {#int-vi-s2-n3-cor-1 .statement tag=09AF}
 
 — *如果空间 F 是有限维的，则 F 中具有值的每个向量测度 m 都是可大化的。在阶中，数值函数对于m本质上可积，它对于|m|*本质上可积是必要且充分的（其中|x|表示F上的任何范数）。
 
@@ -227,7 +227,7 @@ b) $\mathscr{L}^1((\mu_\iota)_{\iota \in I})$ 的每个元素都位于 $\mathscr
 
 现在让我们证明 b);我们可以将自己限制在元素$f \geq 0$或$\mathscr{L}^1((\mu_\iota)_\iota \in I)$的情况。对于每个$\iota \in I$和每个$\varepsilon > 0$，都存在T的紧子集$K(\iota, \varepsilon)$，使得$f$到$K(\iota, \varepsilon)$的限制是连续的并且$|\mu_\iota(|f - f\varphi_{K(\iota, \varepsilon)}|)| \leq \varepsilon$。很明显，$f$处于$f\varphi_{K(\iota, \varepsilon)}$的集合C闭包中（其中$\iota \in I,\ \varepsilon > 0$）。凭借Urysohn的定理，$\mathscr{L}_0$中包含集合C；此外，它是有界的，因为$\mu_\kappa(f\varphi_{K(\iota, \varepsilon)}) \leq \mu_\kappa(f)$对于所有$\iota \in I,\ \kappa \in I$和$\varepsilon > 0$。
 
-Let us now prove Prop. 6: for every function $g \in \mathscr{K}(T)$ and every continuous seminorm q on F, $q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$ (Prop. 5), which implies that the mapping $g \mapsto \int g\,dm$ of $\mathscr{K}(T)$ into F is continuous when $\mathscr{K}(T)$ is equipped with the topology induced by that of $\mathscr{L}^1((q(m))_{q \in Q})$ (Q the set of continuous semi-norms on F). 因而，根据前面的引理和TVS的第10条命题III, §1, No. 6，这个映射可以通过连续性进行扩展，首先将$\mathscr{L}_0$的连续线性映射$v_0$延伸到F中，然后将$\mathscr{L}^1((q(m))_{q \in Q})$的连续线性映射$v$延伸到F中。 此外，对于每个$z' \in F'$关系$\langle z', v(f) \rangle = \int f\,d(z' \circ m)$成立，通过$v$的定义，对于每个$f \in \mathscr{K}(T)$；由于$|z' \circ m| \leq q(m)$对于$q(z) = |\langle z', z \rangle|$，映射$f \mapsto \int f\,d(z' \circ m)$在$\mathscr{L}^1((q(m))_{q \in Q})$上是连续的，因此再次根据连续性，关系$\langle z', v(f) = \int f\,d(z' \circ m)$对于每个函数$f \in \mathscr{L}^1((q(m))_{q \in Q})$成立。 接下来是$v(f) = \int f\,dm$，从而完成证明。
+现在让我们证明命题6：对于每个函数$g \in \mathscr{K}(T)$和F上的每个连续半范数q，$q\left( \int g\,dm \right) \leq \int |g|\,d(q(m))$（命题5），这意味着当$\mathscr{K}(T)$配备了$\mathscr{L}^1((q(m))_{q \in Q})$的拓扑（Q是F上的连续半范数的集合）时，$\mathscr{K}(T)$到F的映射$g \mapsto \int g\,dm$是连续的。 因而，根据前面的引理和TVS的第10条命题III, §1, No. 6，这个映射可以通过连续性进行扩展，首先将$\mathscr{L}_0$的连续线性映射$v_0$延伸到F中，然后将$\mathscr{L}^1((q(m))_{q \in Q})$的连续线性映射$v$延伸到F中。 此外，对于每个$z' \in F'$关系$\langle z', v(f) \rangle = \int f\,d(z' \circ m)$成立，通过$v$的定义，对于每个$f \in \mathscr{K}(T)$；由于$|z' \circ m| \leq q(m)$对于$q(z) = |\langle z', z \rangle|$，映射$f \mapsto \int f\,d(z' \circ m)$在$\mathscr{L}^1((q(m))_{q \in Q})$上是连续的，因此再次根据连续性，关系$\langle z', v(f) = \int f\,d(z' \circ m)$对于每个函数$f \in \mathscr{L}^1((q(m))_{q \in Q})$成立。 接下来是$v(f) = \int f\,dm$，从而完成证明。
 
 ### 4. 使用基 $\mu$ 进行矢量测量
 
@@ -279,7 +279,7 @@ b) 由于测度$\lambda_J$有基$\mu$，因此它们的上界$q(m)$也有（第V
 
 ### 5. 邓福德-佩蒂斯定理
 
-令 $\mu$ 为 T 的正测度。 A vectorial measure m on T, with values in F, is said to be *scalarly of base* $\mu$ (or to have base $\mu$ scalarly) if, for every $z' \in F'$, the scalar measure $z' \circ m$ has base $\mu$. 如果 $F$ 中带有值的向量测度 $m$ 具有基 $\mu$，则它标量地具有基 $\mu$：对于，如果 $m = f \cdot \mu$，则对于每个 $z' \in F'$，$z' \circ m = \langle z', f \rangle \cdot \mu$。 但是，存在基$\mu$标量的向量测度，但没有基$\mu$（Exer.17），另一方面，对于任何正测度$\nu$，存在非基$\nu$标量的向量测度； 注然而，根据 Lebesgue-Nikodym 定理，在 *范数* 空间中，每个 * 可大化的 * 测量 $m$ 和值都是基 $|m|$ 的标量。
+令 $\mu$ 为 T 的正测度。 如果对于每个 $z' \in F'$，标量测度 $z' \circ m$ 的基数为 $\mu$，则 T 上的矢量测度 m（其值在 F 中）被称为 *基数* $\mu$ 的标量（或具有基数 $\mu$ 标量）。 如果 $F$ 中带有值的向量测度 $m$ 具有基 $\mu$，则它标量地具有基 $\mu$：对于，如果 $m = f \cdot \mu$，则对于每个 $z' \in F'$，$z' \circ m = \langle z', f \rangle \cdot \mu$。 但是，存在基$\mu$标量的向量测度，但没有基$\mu$（Exer.17），另一方面，对于任何正测度$\nu$，存在非基$\nu$标量的向量测度； 注然而，根据 Lebesgue-Nikodym 定理，在 *范数* 空间中，每个 * 可大化的 * 测量 $m$ 和值都是基 $|m|$ 的标量。
 
 #### 例 {#int-vi-s2-n5-exa-1 .statement tag=09AP}
 
@@ -299,17 +299,17 @@ b) 由于测度$\lambda_J$有基$\mu$，因此它们的上界$q(m)$也有（第V
 
 #### 定义 5 {#int-vi-s2-def-5 .statement tag=09AR}
 
-— 令 F 为 Hausdorff 局部凸空间，$F'_s$，其对偶配备拓扑$\sigma(F', F)$。我们将 T 的映射 $f$ 的 $\mathscr{L}_{F'_s}^\infty$ 向量空间表示为 $F'_s$，使得 $f$ 是标量 $\mu$ 可测量的，并且几乎在任何地方（对于$\mu$）都在局部标量上等于 T 的映射为等连续$F'$ 中的子集。我们用$L_{F'_s}^\infty$表示$\mathscr{L}_{F'_s}^\infty$的空间除以T的局部$\mu$-可忽略的映射与$F'_s$的标量局部空间的商。
+— 令 F 为 Hausdorff 局部凸空间，$F'_s$，其对偶配备拓扑$\sigma(F', F)$。我们将 T 的映射 $f$ 的 $\mathscr{L}_{F'_s}^\infty$ 向量空间表示为 $F'_s$，使得 $f$ 是标量 $\mu$ 可测量的，并且几乎在任何地方（对于$\mu$）都在局部标量上等于 T 的映射为等连续$F'$ 中的子集。我们将$\mathscr{L}_{F'_s}^\infty$的$L_{F'_s}^\infty$商空间表示为$\mu$-可忽略的T的映射到$F'_s$的局部标量空间。
 
-当F满足§1, No. 5的假设时，第13条命题，$\mathscr{L}_{F'_s}^\infty$中的函数对于弱拓扑$\sigma(F', F)$来说是$\mu$可测的，但对于$F'$上的强拓扑不一定是可测的，即使F 是 Banach 空间（§1，Exer.17）。在相同的条件下，T到$F'_s$的局部$\mu$可忽略的映射与T到$F'_s$的局部$\mu$可忽略的映射相同（§1, No. 1，注2）。
+当F满足§1, No. 5、第13条命题的假设时，$\mathscr{L}_{F'_s}^\infty$中的函数对于弱拓扑$\sigma(F', F)$来说是$\mu$可测的，但对于$F'$上的强拓扑不一定是可测的，即使F 是 Banach 空间（§1，Exer.17）。在相同的条件下，T到$F'_s$的局部$\mu$可忽略的映射与T到$F'_s$的局部$\mu$可忽略的映射相同（§1, No. 1，注2）。
 
-当F是可分离范数空间时，$\mathscr{L}_{F'_s}^\infty$的元素是T的映射$f$进入$F'_s$，使得$f$是标量$\mu$可测的并且$|f|$是有测度的；然后，通过为范数$N_\infty$（第IV, §6, No. 3）配备定义，可以在空间$L_{F'_s}^\infty$上实现空间结构。
+当F是可分离范数空间时，$\mathscr{L}_{F'_s}^\infty$的元素是T的映射$f$进入$F'_s$，使得$f$是标量$\mu$可测的并且$|f|$在测度上是有界的；然后，通过为范数$N_\infty$（第IV, §6, No. 3）配备定义，可以在空间$L_{F'_s}^\infty$上实现空间结构。
 
 #### 引理 3 {#int-vi-s2-lem-3 .statement tag=09AS}
 
 令 F 为 Hausdorff 局部凸空间、$f$ 元素 $\mathscr{L}_{F'_s}^\infty$。对于每一个$z \in F$，都有$\langle z, f \rangle \in \mathscr{L}^\infty$，并且F到$L^\infty$的线性映射$z \mapsto \pi(\langle z, f \rangle)$是连续的；此外，如果 F 是范数空间，则$N_\infty(\langle z, f \rangle) \leq |z| \cdot \sup_{t \in T} |f(t)|$。
 
-由定义可知，$\langle z, f \rangle$是$\mu$可测且有测界； 替换如果需要$f$通过函数属于到$L_{F'_s}^\infty$的相同类，我们可以在加法中假设$f(T) \subset V^\circ$，其中V是F中0的平衡凸邻域（它不会修改$\langle z, f \rangle$ 除了局部可忽略不计的集合，取决于$z$）。那么关系$z \in V$意味着$|\langle z, f(t) \rangle| \leq 1$对于所有$t \in T$，这就证明了$z \mapsto \pi(\langle z, f \rangle)$的连续性。最后的断言是显而易见的。
+由定义可知$\langle z, f \rangle$是$\mu$可测且有测界； 替换如果需要$f$通过函数属于到$L_{F'_s}^\infty$的相同类，我们可以在加法中假设$f(T) \subset V^\circ$，其中V是F中0的平衡凸邻域（它不会修改$\langle z, f \rangle$ 除了局部可忽略不计的集合，取决于$z$）。那么关系$z \in V$意味着$|\langle z, f(t) \rangle| \leq 1$对于所有$t \in T$，这就证明了$z \mapsto \pi(\langle z, f \rangle)$的连续性。最后的断言是显而易见的。
 
 #### 引理 4 {#int-vi-s2-lem-4 .statement tag=09AT}
 
@@ -319,9 +319,9 @@ b) 由于测度$\lambda_J$有基$\mu$，因此它们的上界$q(m)$也有（第V
 
 #### 定理 1 {#int-vi-s2-thm-1 .statement tag=09AU}
 
-— 令 F 为 Hausdorff 局部凸空间且包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'_s}^\infty$和每个$z \in F$，令$v_f(z) = \pi(\langle z, f \rangle) \in L^\infty$； 映射 $f \mapsto v_f$ 定义，通过求商，将$L_{F'}^\infty$的线性双射放到空间$\mathscr{L}(F; L^\infty)$上，将$F$的连续线性映射连入$L^\infty$。 *如果 $F$ 是标准化的空间，则此双射是等距。*
+— 令 F 为 Hausdorff 局部凸空间且包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'_s}^\infty$和每个$z \in F$，令$v_f(z) = \pi(\langle z, f \rangle) \in L^\infty$； 映射$f \mapsto v_f$定义，通过商，$L_{F'}^\infty$的线性双射到空间$\mathscr{L}(F; L^\infty)$，$F$的连续线性映射进入$L^\infty$。 *如果 $F$ 是标准化的空间，则此双射是等距。*
 
-In view of Lemma 3, the first assertion will be demonstrated if one proves that for every continuous mapping $u$ of $F$ into $L^\infty$, there exists a function $f \in \mathscr{L}_{F'}^\infty$ such that $\pi(\langle z, f \rangle) = u(z)$ for all $z \in F$, and that the class of $f$ in $L_{F'}^\infty$ is uniquely determined by this condition. 第二个点是直接的，因为如果$\pi(\langle z, f \rangle) = \pi(\langle z, f_1 \rangle)$对于所有$z \in F$，那么$f_1 - f$在标量上局部可以忽略不计。 另一方面，存在将 $u(F)$ 提升到 $\mathscr{L}^\infty$ (引理 2) 的$\rho$。 对于每个$t \in T$，映射$z \mapsto \rho(u(z))(t)$是$F$上的连续线性形式，即$F'$的元素$f(t)$。 对于每个$z \in F$，函数$f$从$\langle z, f \rangle = \rho(u(z)) \in \mathscr{L}^\infty$开始可按比例$\mu$测量；一个有 $\pi(\langle z, f \rangle) = u(z)$；最后，对于$L^\infty$的单位球的$u$下的每个$t \in T$和每个$z$属于到逆像$V$，
+根据引理3，如果证明对于$F$到$L^\infty$的每个连续映射$u$，都存在一个函数$f \in \mathscr{L}_{F'}^\infty$，使得$\pi(\langle z, f \rangle) = u(z)$对于所有$z \in F$，并且$L_{F'}^\infty$中$f$的类是由该条件唯一确定的，则第一个断言得到证明。 第二个点是直接的，因为如果$\pi(\langle z, f \rangle) = \pi(\langle z, f_1 \rangle)$对于所有$z \in F$，那么$f_1 - f$在标量上局部可以忽略不计。 另一方面，存在将 $u(F)$ 提升到 $\mathscr{L}^\infty$ (引理 2) 的$\rho$。 对于每个$t \in T$，映射$z \mapsto \rho(u(z))(t)$是$F$上的连续线性形式，即$F'$的元素$f(t)$。 对于每个$z \in F$，函数$f$从$\langle z, f \rangle = \rho(u(z)) \in \mathscr{L}^\infty$开始可按比例$\mu$测量；一个有 $\pi(\langle z, f \rangle) = u(z)$；最后，对于$L^\infty$的单位球的$u$下的每个$t \in T$和每个$z$属于到逆像$V$，
 
 $$
 |\langle z, f(t) \rangle| = |\rho(u(z))(t)| \leq N_\infty(u(z)) \leq 1,
@@ -339,31 +339,31 @@ $$
 
 #### 推论 1 {#int-vi-s2-thm-1-cor-1 .statement tag=09AV}
 
-*令$F$为豪斯多夫局部凸空间包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'}^\infty$、每个$z \in F$和每个函数$g \in \mathscr{L}^1$，让$\Phi_f(z, \tilde{g}) = \int \langle z, f(t) \rangle g(t)\, d\mu(t)$。 映射 $f \mapsto \Phi_f$ 定义，通过求商，将$L_{F'}^\infty$的线性双射放到$F \times L^1$上连续双线性形式的空间$\mathscr{B}(F, L^1)$上。 *如果 $F$ 是标准化的空间，则此双射是等距。*
+*令$F$为豪斯多夫局部凸空间包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'}^\infty$、每个$z \in F$和每个函数$g \in \mathscr{L}^1$，让$\Phi_f(z, \tilde{g}) = \int \langle z, f(t) \rangle g(t)\, d\mu(t)$。 映射$f \mapsto \Phi_f$定义，通过商，$L_{F'}^\infty$的线性双射到$F \times L^1$上连续双线性形式的空间$\mathscr{B}(F, L^1)$。 *如果 $F$ 是标准化的空间，则此双射是等距。*
 
-我们可以假设 $f(T)$ 是 $F'$ 的等连续子集。则可知$\Phi_f$单独连续，且记号为Th。 1 和附录，有一个（考虑到 $L^\infty$ 是 $L^1$（第 V, §5, No. 8，第 4 章）的对偶）$^l \Phi_f = v_f$。然后从 Th 得出推论。上面的 1 以及来自附录、No. 1、命题 1 及其推论。
+我们可以假设 $f(T)$ 是 $F'$ 的等连续子集。则可知$\Phi_f$单独连续，且记号为Th。 1 和附录，有一个（考虑到 $L^\infty$ 是 $L^1$（第 V, §5, No. 8，第 4 章）的对偶）$^l \Phi_f = v_f$。 推论然后从 Th 开始。上面的 1 以及来自附录、No. 1、第 1 号提案及其推论。
 
 #### 推论 2（邓福德-佩蒂斯定理）{#int-vi-s2-thm-1-cor-2 .statement tag=09AW}
 
-— *令 $F$ 为 Hausdorff 局部凸空间包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'}^\infty$和每个函数$g \in \mathscr{L}^1$，让$w_f(\tilde{g}) = \int gf\, d\mu \in F'$（引理4）。 映射 $f \mapsto w_f$ 定义，通过求商，将 $L_{F_s}^\infty$ 的线性双射* 代入 $L^1$ 的线性映射 $u$ 的空间 $\mathscr{R}(L^1, F')$ 代入$F'$，这样$L^1$的单位球在$u$下的像是$F'$的等连续子集。 *如果$F$是规范的空间（在这种情况下，$\mathscr{R}(L^1, F')$是$L^1$的连续线性映射到$F$的强对偶的空间），双射$f \mapsto w_f$是一个等距。*
+— *令 $F$ 为 Hausdorff 局部凸空间包含可数稠密子集。对于每个函数$f \in \mathscr{L}_{F'}^\infty$和每个函数$g \in \mathscr{L}^1$，让$w_f(\tilde{g}) = \int gf\, d\mu \in F'$（引理4）。 映射$f \mapsto w_f$定义，通过商，$L_{F_s}^\infty$的线性双射*到线性映射$u$的空间$\mathscr{R}(L^1, F')$进入$L^1$ $F'$使得$L^1$的单位球的$u$下的像是$F'$的等连续子集。 *如果$F$是规范的空间（在这种情况下，$\mathscr{R}(L^1, F')$是$L^1$的连续线性映射到$F$的强对偶的空间），双射$f \mapsto w_f$是一个等距。*
 
-考虑到$L^\infty$是$L^1$的对偶，这是从前面的推论以及附录、No. 1、命题1及其推论得出的。
+考虑到$L^\infty$是$L^1$的对偶，这是从前面的推论以及附录、No. 1、第1条命题及其推论得出的。
 
 #### 注 {#int-vi-s2-n5-rem-1 .statement tag=09AX}
 
-— 很明显，对于$F'$上的每个$\mathscr{G}$拓扑，映射$u \in \mathscr{R}(L^1, F')$都是连续的（$\mathscr{G}$由有界子集覆盖$F$）。相反，如果还假设$F$是*桶状*，则$L^1$的每个连续线性映射进入$F'$，配备$\mathscr{G}$拓扑变换单位球，$L^1$进入有界子集 $F'$，因此是等连续的（TVS，III, §4, No. 2，Th.1）。
+— 很明显，对于$F'$上的每个$\mathscr{G}$拓扑，映射$u \in \mathscr{R}(L^1, F')$都是连续的（$\mathscr{G}$由有界子集覆盖$F$）。相反，如果还假设$F$是*桶状*，则$L^1$的每个连续线性映射进入$F'$，配备$\mathscr{G}$拓扑变换单位球$L^1$进入有界子集等于 $F'$，因此是等连续的（TVS、III, §4, No. 2、Th.1）。
 
 #### 推论 3 {#int-vi-s2-thm-1-cor-3 .statement tag=09AY}
 
-*令 $F$ 为 Hausdorff 局部凸空间包含可数稠密子集，$m$ $T$ 上的向量测度，值位于 $F$ 的弱对偶 $F'$ 中。如果像位于$\mathscr{K}(T)$中的集合$B$、函数$g$的$m$下，使得$\mu(|g|) \leq 1$包含在$F'$的闭凸等连续子集$H'$中，则$m$ 有基 $\mu$，并且对于 $\mu$ 存在 $m$ 的密度 $f$，使得 $f(t) \in H'$ 对于所有 $t \in T$。*
+*令 $F$ 为 Hausdorff 局部凸空间包含可数稠密子集，$m$ $T$ 上的向量测度，值位于 $F$ 的弱对偶 $F'$ 中。如果像位于$\mathscr{K}(T)$中的集合$B$、函数$g$的$m$下，使得$\mu(|g|) \leq 1$包含在$F'$的闭凸等连续子集$H'$中，则$m$ 有基 $\mu$，并且相对于 $\mu$ 存在 $m$ 的密度 $f$，使得 $f(t) \in H'$ 对于所有 $t \in T$。*
 
-假设意味着当 $\mathscr{K}(T)$ 配备由 $\mathscr{L}^1(\mu)$ 诱发的拓扑（由半范数$N_1$ 定义）时，$m$ 是连续的；因此，它可以扩展到$\mathscr{L}^1(\mu)$的连续线性映射$u$到$F$弱对偶的完成$G$；但由于$H'$是$G$的紧凑子集和像在$f \in \mathscr{L}^1$的集合$\overline{B}$的$u$下，因此$N_1(f) \leq 1$包含在$G$中$H'$的闭包中，一个有 $u(\overline{B}) \subset H'$，因此 $u$ 映射 $\mathscr{L}^1$ 变成 $F'$。 Since the relation $N_1(f) \leq \varepsilon$ implies that $u(f) \in \varepsilon H'$, one has $u(g) = 0$ if $g$ is $\mu$-negligible, and Cor. 2 may therefore be applied to the mapping of $L^1$ into $F'$ obtained from $u$ by passing to the quotient; whence the corollary.
+假设意味着当$\mathscr{K}(T)$配备由$\mathscr{L}^1(\mu)$（由半范数$N_1$定义）诱导的拓扑时，$m$是连续的；因此，它可以扩展到$\mathscr{L}^1(\mu)$的连续线性映射$u$到$F$弱对偶的完成$G$；但由于$H'$是$G$的紧凑子集和像在集合$\overline{B}$的$u$下$f \in \mathscr{L}^1$，因此$N_1(f) \leq 1$包含在$H'$的闭包中$G$，一个有$u(\overline{B}) \subset H'$，因此$u$映射$\mathscr{L}^1$变成$F'$。由于关系$N_1(f) \leq \varepsilon$意味着$u(f) \in \varepsilon H'$，如果$g$是$\mu$可忽略不计，则有$u(g) = 0$，并且Cor。因此，2 可以应用于 $L^1$ 的映射到从 $u$ 经过到商获得的$F'$； 从而推论。
 
 #### 推论 4 {#int-vi-s2-thm-1-cor-4 .statement tag=09AZ}
 
-*令 $F$ 为可分离范数空间，$m$ 为 $T$ 的测度，其中值位于强对偶 $F'$ 中，可对 $F'$ 的范数进行可大化。那么 $m$ 是基 $|m|$ 的测度，如果 $m = f \cdot |m|$ 那么 $|f(t)| = 1$ 几乎在所有地方都适用于 $|m|$。*
+*令$F$为可分离范数空间，而$m$为$T$的测度，其中值位于强对偶$F'$中，可对$F'$的范数进行大化。那么 $m$ 是一个具有基 $|m|$ 的度量，如果 $m = f \cdot |m|$ 那么 $|f(t)| = 1$ 几乎在任何地方都适用于 $|m|$。*
 
-到假设，对于每个$z \in F$使得$|z| \leq 1$，对于每个函数$g \in \mathscr{K}(T)$，都有$|\langle z, m(g) \rangle| \leq |m|(|g|)$，因而$|m(g)| \leq |m|(|g|)$（TVS，IV, §2, No. 4，公式（1））。由于 $F'$ 中的每个球都是等连续的，Cor. 3适用并表明$m$有基$|m|$；此外，如果$m = f \cdot |m|$，则$f$对于$\sigma(F', F)$（§1, No. 5，命题13）和$|m| = |f| \cdot |m|$（No. 4，命题8）是$|m|$可测的，这证明了推论（V, §5, No. 3，Cor.2）命题 3）。
+到假设，对于每一个$z \in F$使得$|z| \leq 1$，对于每一个函数$g \in \mathscr{K}(T)$都有$|\langle z, m(g) \rangle| \leq |m|(|g|)$，因而$|m(g)| \leq |m|(|g|)$（TVS，IV, §2, No. 4，公式（1））。由于 $F'$ 中的每个球都是等连续的，Cor. 3适用并表明$m$有基$|m|$；此外，如果$m = f \cdot |m|$，则$f$对于$\sigma(F', F)$（§1, No. 5，第13条命题）和$|m| = |f| \cdot |m|$（No. 4，第8条命题）来说是$|m|$可测的，这就证明了推论（V, §5, No. 3，Cor.提案 3 中的 2）。
 
 如果将此推论应用于$F$（如果是有限维）的情况，则可以将第9条命题的第一个部分恢复为特殊情况。
 
@@ -377,7 +377,7 @@ $$
 \left| \int \langle f, g \rangle \, d\mu \right| \leq \overline{N}_1(f) N_\infty(g) .
 $$
 
-*对于每个类$\dot{g} \in L_{F'_s}^\infty$，令$\theta(\dot{g})$为$L^1_F$上的连续线性形式，由$\overline{\mathscr{L}}^1_F$上的线性形式$f \mapsto \int \langle f, g \rangle \, d\mu$通过商推导出来；那么$\theta$是$L_{F'_s}^\infty$到Banach空间$L^1_F$的强对偶$(L^1_F)'$的线性等距。
+*对于每个类$\dot{g} \in L_{F'_s}^\infty$，令$\theta(\dot{g})$为$L^1_F$上的连续线性形式，由$\overline{\mathscr{L}}^1_F$上的线性形式$f \mapsto \int \langle f, g \rangle \, d\mu$通过商推出；那么$\theta$是$L_{F'_s}^\infty$到Banach空间$L^1_F$的强对偶$(L^1_F)'$的线性等距。
 
 对于 T 的每个紧致子集 K 和每个 $\varepsilon > 0$，都存在 K 的紧致子集 $K'$，使得 $f$（分别为 $g$）到 $K'$ 的 $\mu(K - K') \leq \varepsilon$ 和限制是连续的将 $K'$ 的映射转换为 F（分别转换为 $F'_s$）；因而$g(K')$是弱紧致的，因此在$F'$上等连续（TVS，III, §4, No. 2，Th.1或IV, §1，Exer.10）。现在，F 的 $F \times F'$ 到乘积上的规范双线性形式的限制和 $F'$ 的等连续子集对于 F 的拓扑和 $\sigma(F', F)$ 的乘积拓扑是连续的（GT， X, §2, No. 1，第 1 条第 4 条）；由此可见，$\langle f, g \rangle$到$K'$的限制是连续的，因而$\langle f, g \rangle$是$\mu$可测的。而且，
 
@@ -419,9 +419,9 @@ $$
 
 当记号为No. 6时，$\int \langle f, g \rangle\,d\mu$的积分就是$I_{\Phi,m}(f)$与$\Phi(x,x') = \langle x, x' \rangle$和$m = g \cdot \mu$的积分。
 
-#### 推出{#int-vi-s2-n7-cor-1 .statement tag=09B2}
+#### 推出 {#int-vi-s2-n7-cor-1 .statement tag=09B2}
 
-*如果* $m$ *和* $m'$ *是* $T$上的两个主要度量，*其中值位于* $G$中，*则* $I_{\Phi,m+m'} = I_{\Phi,m} + I_{\Phi,m'}$ *和* $I_{\Phi,\lambda m} = \lambda I_{\Phi,m}$ *对于每个标量* $\lambda$。
+*如果* $m$ *和* $m'$ *是* $T$、*与值在* $G$、*则* $I_{\Phi,m+m'} = I_{\Phi,m} + I_{\Phi,m'}$ *和* $I_{\Phi,\lambda m} = \lambda I_{\Phi,m}$ *对于每个标量* $\lambda$ 的两个主要度量。
 
 第二个断言是直接的。第一个表示对于每个函数$f$，它既是$|m|$可积又是$|m'|$可积，
 
@@ -429,9 +429,9 @@ $$
 I_{\Phi,m+m'}(f) = I_{\Phi,m}(f) + I_{\Phi,m'}(f).
 $$
 
-函数 $f$ 是 $(|m| + |m'|)$ 可积（第 V, §2, No. 2 章，命题 3 的 Cor.1），因此 *更不必说* $(|m + m'|)$ 可积，并且 (6) 的第一个成员确实有意义。为了证明 (6)，只需对 $f$ 在 $(|m| + |m'|)$ 可积集合上移动函数就足够了，因为这些函数中的集合在 $\mathscr{L}_F^1(|m| + |m'|)$ 中是稠密的，并且 (6) 的两个成员在后者空间中是连续的，通过凭借（4）。但对于$f = a \varphi_X$，其中$X$是$(|m| + |m'|)$可积的，(6) 约化到$\Phi(a, \int \varphi_X\,dm) + \Phi(a, \int \varphi_X\,dm')$、从而的两个成员是推论。
+函数 $f$ 是 $(|m| + |m'|)$ 可积（第 V, §2, No. 2 章，命题 3 的 Cor.1），因此 *更不必说* $(|m + m'|)$ 可积，并且 (6) 的第一个成员确实有意义。为了证明 (6)，只需对 $f$ 在 $(|m| + |m'|)$ 可积集合上移动函数就足够了，因为这些函数中的集合在 $\mathscr{L}_F^1(|m| + |m'|)$ 中是稠密的，并且 (6) 的两个成员在后者空间中是连续的，通过凭借（4）。但是对于$f = a \varphi_X$，其中$X$是$(|m| + |m'|)$可积的，(6)约化到$\Phi(a, \int \varphi_X\,dm) + \Phi(a, \int \varphi_X\,dm')$的两个成员，从而推论。
 
-#### 注{#int-vi-s2-n7-rem-1 .statement tag=09B3}
+#### 注 {#int-vi-s2-n7-rem-1 .statement tag=09B3}
 
 — 当$m$为形式$b\mu$时，其中$b \in G$和$\mu$是$T$的实测度，
 
@@ -502,25 +502,25 @@ $$
 
 #### 命题 12 {#int-vi-s2-prop-12 .statement tag=09B5}
 
-*令 m 为 T、p 和 q 共轭指数的复测度（第 IV, §6, No. 4 章）。 双线性形式 $(f,g) \mapsto \int fg\, dm$ 在乘积 $\mathscr{L}_C^p(m) \times \mathscr{L}_C^q(m)$ 上定义且连续； 不等式$|\int fg\, dm| \leq N_p(f)N_q(g)$成立，$N_q(g)$是从线性形式$f \mapsto \int fg\, dm$通过商推导出$\mathscr{L}_C^p(m)$上的连续线性形式的范数。
+*令 m 为 T、p 和 q 共轭指数（第 IV, §6, No. 4）的复测度。 双线性形式 $(f,g) \mapsto \int fg\, dm$ 在乘积 $\mathscr{L}_C^p(m) \times \mathscr{L}_C^q(m)$ 上定义且连续； 不等式$|\int fg\, dm| \leq N_p(f)N_q(g)$成立，$N_q(g)$是从线性形式$f \mapsto \int fg\, dm$经过商推导出$\mathscr{L}_C^p(m)$上的连续线性形式的范数。
 
 此外，如果$1 \leq p < +\infty$，则复数向量空间$\mathscr{L}_C^p(m)$上的每个连续线性形式都是型$f \mapsto \int fg\, dm$，其中$g$是$\mathscr{L}_C^q(m)$中的函数，其类在$\mathscr{L}_C^q(m)$是唯一确定的。
 
-从$m = h \cdot |m|$开始，$|h(t)| = 1$几乎无处不在，第一个断言立即来自Hölder的不等式（第IV, §6, No. 4，第2章）；第二个来自第 3 章的命题 3。 IV, §6, No. 4。最后，如果$u$是$\mathscr{L}_C^p$上的连续线性形式，则其限制到$\mathscr{L}_C^p$的（实数）子空间$\mathscr{L}^p$是$\mathscr{L}^p$到$\mathbf{C}$的连续$\mathbf{R}$线性映射；如果$1 \leq p < +\infty$，则它是型$f \mapsto \int fg_1\, d|m| + i \int fg_2\, d|m|$，其中$g_1$和$g_2$属于到$\mathscr{L}^q$（第V, §5, No. 8，第4章）； 从而决赛断言，于设定$g = (g_1 + ig_2)h^{-1}$。
+从 $m = h \cdot |m|$ 开始，$|h(t)| = 1$ 几乎无处不在，第一个断言立即来自 Hölder 的不等式（第 IV, §6, No. 4，第 2 章）；第二个来自第 3 章的命题 3。 IV, §6, No. 4。最后，如果$u$是$\mathscr{L}_C^p$上的连续线性形式，则其限制到$\mathscr{L}_C^p$的（实数）子空间$\mathscr{L}^p$是$\mathscr{L}^p$到$\mathbf{C}$的连续$\mathbf{R}$线性映射；如果$1 \leq p < +\infty$，则它是型$f \mapsto \int fg_1\, d|m| + i \int fg_2\, d|m|$，其中$g_1$和$g_2$属于到$\mathscr{L}^q$（第V, §5, No. 8，第4章）； 从而决赛断言，于设定$g = (g_1 + ig_2)h^{-1}$。
 
 ### 9. 有界复杂测度⁶
 
-对于 $T$ 上的每个复杂度量 $m$，一个集合
+对于$T$上的每个复杂度量$m$，一个集合
 
 $$
 \|m\| = \sup_{\|f\| \leq 1,\, f \in \mathscr{H}_C(T)} |m(f)|.
 $$
 
-有人说，如果$\|m\| < +\infty$，则$m$是*有界的*；同样的说法，$m$在$\mathscr{H}_C(T)$上是连续的，并且具有一致收敛的拓扑，因此可以扩展到连续复数函数趋向的Banach空间$\mathscr{H}_C(T)$上的连续线性形式（范数$\|m\|$）无穷远处为 0。
+有人说，如果$\|m\| < +\infty$，则$m$是*有界的*；同样的说法是，$m$在$\mathscr{H}_C(T)$上连续，并具有一致收敛的拓扑，因此可以扩展到连续复数函数倾向的Banach空间$\mathscr{H}_C(T)$上的连续线性形式（范数$\|m\|$）无穷远处为 0。
 
 #### 引理 5 {#int-vi-s2-lem-5 .statement tag=09B6}
 
-*令 m 为 T 上的复数测度，f 为 m 可积复数函数。然后$\int |f|\, d|m| = \sup |\int fh\, dm|$，因为h在$\mathscr{H}_C(T)$中运行超过函数的集合，使得$|h(t)| \leq 1$对于所有$t \in T$*。
+*令 m 为 T 上的复数测度，f 为 m 可积复数函数。然后$\int |f|\, d|m| = \sup |\int fh\, dm|$，因为h在$\mathscr{H}_C(T)$中运行函数的集合，使得$|h(t)| \leq 1$对于所有$t \in T$*。
 
 ⁶参见。章。 III, §1, No. 8。
 
@@ -544,7 +544,7 @@ $$
 $$
 因此$\mu$是有界的并且$\|\mu\| \leq \|m\|$。 从而命题。
 
-#### 推论{#int-vi-s2-n9-cor-1 .statement tag=09B8}
+#### 推论 {#int-vi-s2-n9-cor-1 .statement tag=09B8}
 
 — *令 m 为有界复数测度。每个函数 $f \in \mathscr{L}_\mathbf{F}^\infty(m)$ 都是 m 可积的，并且 $\left| \int f \, dm \right| \leq N_\infty(f)\|m\|$。*
 

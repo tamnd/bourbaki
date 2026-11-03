@@ -30,16 +30,16 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 15f67e5b564094c79fc03340b58b42d82e3e0d581ab4938d1f46656029e4bb73
+content_sha256: f876f1a3279724d4563c51f0fa012da87ba4ed6fa24300d763b15455b0374fbd
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 translation_method: google
 source_content_sha256: 798b6543b06067240b5dab1244bfefa178a908e9f4cf2fdc3e29b8faab35c2bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6e34b702193043724d519c0bca430eb16897d6f9726fe8b135b802d31d97f97d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。 挠元模超过主理想整环
@@ -64,11 +64,11 @@ $$
 
 #### 注 1 {#alg-vii-s2-n1-rem-1 .statement tag=0725}
 
-相反，令$M'_i$为每个i的$(A/b_i)$模，并考虑A-模$M'_i$的A-模M、直和；然后用$M'_i$在重合之上构造子模$M_i$（对于注来说就足够了，如果$i \neq j$则$M'_j$的非零元素不会被$b_i$消灭，因为$b_i + b_j = A$）。因此，粗略地说，考虑A-模 M 或$(M_i)$ 模超过环 $A/b_i = A_i$ 的情况是一样的。
+相反，令$M'_i$为每个i的$(A/b_i)$模，并考虑A-模$M'_i$的A-模M、直和；然后用$M'_i$在重合之上构造子模$M_i$（只要注意，如果$i \neq j$，则$M'_j$的非零元素不会被$b_i$消灭，因为$b_i + b_j = A$）。因此，粗略地说，考虑A-模 M 或模的家庭$(M_i)$ 超过环 $A/b_i = A_i$ 相当于同样的事情。
 
 #### 注 2 {#alg-vii-s2-n1-rem-2 .statement tag=0726}
 
-由上式证明、M的投影算子到分量$M_i$是同位。
+由上式证明，M的投影算子到分量$M_i$是同位。
 
 #### 注 3 {#alg-vii-s2-n1-rem-3 .statement tag=0727}
 
@@ -76,25 +76,25 @@ A-模 M 是循环的当且仅当每个 $M_i$ 都是循环的：如果 $M = Am$�
 
 #### 注 4 {#alg-vii-s2-n1-rem-4 .statement tag=0728}
 
-令 M 和 N 为两个 A-模，其分量为 $(M_i)$ 和 $(N_i)$。令$u \in \mathrm{Hom}_A(M, N)$是从M到N的A线性映射；那么对于所有 i 和所有 $m \in M_i$，我们有 $u(m) \in N_i$，所以 u 诱导 $A_i$-线性映射 $u_i \in \mathrm{Hom}_{A_i}(M_i, N_i)$。很容易检查映射 $u \mapsto (u_i)$ 是 Z 模的同构（当 A 是可交换时，分别是 A-模）
+设M和N为两个A-模，其中分量$(M_i)$和$(N_i)$。令$u \in \mathrm{Hom}_A(M, N)$是从M到N的A线性映射；那么对于所有 i 和所有 $m \in M_i$，我们有 $u(m) \in N_i$，所以 u 诱导 $A_i$-线性映射 $u_i \in \mathrm{Hom}_{A_i}(M_i, N_i)$。很容易检查映射 $u \mapsto (u_i)$ 是 Z 模的同构（当 A 是可交换时，分别是 A-模）
 
 $$
 \mathrm{Hom}_A(M, N) \to \prod_{i \in I} \mathrm{Hom}_{A_i}(M_i, N_i).
 $$
 
-### 2. 规范分解挠元模超过主理想整环
+### 2. 挠元模超过主理想整环的规范分解
 
 令 M 为模大于交换环 A。对于每个 $a \in A$，令 $M(\alpha)$ 表示 M 的自同态 $x \mapsto \alpha x$ 的核。如果 $a$ 和 $\beta$ 是 A 的两个元素，使得$\alpha$除$\beta$，那么显然是$M(a) \subset M(\beta)$。特别是，当 n 穿过有理数整数 $\geq 1$ 的集合时，子模 $M(\alpha^n)$ 形式递增序列；因此，$M(\alpha^n)$的并$M$是M的子模，M的元素的由……组成被a的一些幂湮灭。对于 M 的每个子模 N，显然有 $N_1 = N \cap M_a$。
 
 #### 定义 1 {#alg-vii-s2-def-1 .statement tag=0729}
 
-设$\pi$为主理想整环A的不可约元； A-模 M 称为 rr-primary *if*，对于所有 $x \in M$，存在整数 $n \geq 1$，使得 $\pi^n x = 0$（在其他字，如果 M 等于子模 $M_\pi$）。
+设$\pi$为主理想整环A的不可约元； A-模 M 称为 rr-primary *if*，对于所有 $x \in M$，存在整数 $n \geq 1$ 使得 $\pi^n x = 0$ （在其他字，如果 M 等于子模 $M_\pi$）。
 
 显然，形式$A/(\pi^s)$的每个循环模都是rr-primary。对于任意 A-模 M，子模 $M_\pi$ 是 rr-primary。
 
 #### 引理 1 {#alg-vii-s2-lem-1 .statement tag=072A}
 
-设 M 为模大于主理想整环 A；对于所有$a \in A$使得$a \neq 0$，令$\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$是$\alpha$的分解变成不可约因子（VII，p. 4）。被a消灭的M的元素的子模$N = M(a)$是子模$M(\pi_i^{n(i)})$的直和，而将每个$x \in M(\alpha)$发送到其$M(\pi_i^{n(i)})$中的组件的映射有形式$x \mapsto \gamma_i x \ (\gamma_i \in A)$。而且
+设 M 为模大于主理想整环 A；对于所有$a \in A$使得$a \neq 0$，令$\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$是$\alpha$的分解变成不可约因子（VII，p. 4）。被a消灭的M的元素的子模$N = M(a)$是子模$M(\pi_i^{n(i)})$的直和，并且将每个$x \in M(\alpha)$发送到$M(\pi_i^{n(i)})$中其分量的映射有形式 $x \mapsto \gamma_i x \ (\gamma_i \in A)$。而且
 $$
 M(\pi_i^{n(i)}) = N \cap M_{\pi_i} = N_{\pi_i}
 $$
@@ -107,16 +107,16 @@ $$
 
 #### 定理 1 {#alg-vii-s2-thm-1 .statement tag=072C}
 
-令 M 为挠元模超过主理想整环 A；对于A的每个不可约元$\pi$，令$M_\pi$是元素的M由……组成的子模被$\pi$的一些幂消灭。若P为A的不可约元的代表系统，则M为$\pi \in P$为其子模$M_\pi$的直和。
+设 M 为挠元模超过主理想整环 A；对于A的每个不可约元$\pi$，令$M_\pi$是元素的M由……组成的子模被$\pi$的一些幂消灭。若P为A的不可约元的代表系统，则M为$\pi \in P$为其子模$M_\pi$的直和。
 对于某些 $a \neq 0$，每个元素 $x \in M$ 属于到子模 $M(\alpha)$，因此引理 1 是元素的有限数的和，其中每个属于到一些子模 $M_\pi$。另一方面，如果 $\sum_{\pi \in P} x_\pi = \sum_{\pi \in P} y_\pi$，其中 $x_\pi, y_\pi \in M_\pi$ 代表所有 $\pi \in P$，并且几乎所有 $x_\pi$ 和 $y_\pi$ 都是零，则引理 2 表明 A 中存在 $\gamma \neq 0$，使得所有$x_\pi$ 和 $y_\pi$ 属于至相同的子模 $M(\gamma)$； 应用引理 1 到 $M(\gamma)$ 显示 $x_\pi = y_\pi$ 对于所有 $\pi \in P$，从而完成证明。
 
-显然，如果$\pi$和$\pi'$是不可约元的两个关联，则$M_\pi = M_{\pi'}$；因此，对于给定的模 M，子模 $M_\pi$ 仅取决于 A 的理想$(\pi)$；它被称为模 M 的 rr 主分量，而 M 的分解作为 $M_\pi$ 的直和被称为 M 的规范分解作为其 rr 主分量的直和。
+显然，如果$\pi$和$\pi'$是不可约元的两个关联，则$M_\pi = M_{\pi'}$；因此，对于给定的模 M，子模 $M_\pi$ 仅取决于 A 的理想$(\pi)$；它被称为模 M 的 rr-primary 分量，M 的分解作为 $M_\pi$ 的直和被称为 M 的规范分解作为其 rr-primary 分量的直和。
 
 #### 推出 1 {#alg-vii-s2-thm-1-cor-1 .statement tag=072D}
 
-— *挠元模M 的每个子模N 是其子模N∩M 的直和*。
+— *挠元模 M 的每个子模 N 是其子模 N ∩ M 的直和*。
 
-这是因为 N ∩ M, 是 N 的 π 主分量 N,。
+这是因为 N ∩ M, 是 N 的 π 一次分量 N,。
 
 #### 推出 2 {#alg-vii-s2-thm-1-cor-2 .statement tag=072E}
 
@@ -146,17 +146,17 @@ $$
 
 #### 注 1 {#alg-vii-s2-n2-rem-1 .statement tag=072H}
 
-— 显然，τ 初级模的每个元素 ≠ 0 的湮没子都有形式 $A\pi^k$ (k > 0 整数)，因为它是 τ 的主要理想包含幂。令x为M的元素；对于每个$\pi \in P$，令$x_\pi$为x在$M_\pi$中的分量； x 的湮没子是非零的 $x_\pi$ 的湮没子的 lcm，但根据上面的描述，在这种情况下它等于非零的 $x_\pi$ 的湮没子的 *乘积*（VI，p. 16，Prop. 12（DIV））。
+— 显然，τ 初级模的每个元素 ≠ 0 的湮没子都有形式 $A\pi^k$ (k > 0 整数)，因为它是 τ 的主要理想包含幂。令x为M的元素；对于每个$\pi \in P$，令$x_\pi$为$M_\pi$中x的分量； x 的湮没子是非零的 $x_\pi$ 的湮没子的 lcm，但根据上面的描述，在这种情况下它等于非零的 $x_\pi$ 的湮没子的 *乘积*（VI，p. 16，Prop. 12（DIV））。
 
 #### 命题 2 {#alg-vii-s2-prop-2 .statement tag=072I}
 
-— *如果 M 是在主理想整环 A 上有限生成的挠元模，则 M 的 n 个主分量为零，除了其中的有限数，并且 M 的投影算子在这些分量 $M_\pi$ 上是同位*。
+— *如果 M 是在主理想整环 A 上有限生成的挠元模，则 M 的 n 次分量是零，除了其中有限的数，并且 M 的投影算子在这些分量 $M_\pi$ 上是同位*。
 
 这紧随引理 1，因为到引理 2，$\mathscr{A}$中存在$\alpha \neq 0$，使得$M = M(\alpha)$。
 
 #### 注 2 {#alg-vii-s2-n2-rem-2 .statement tag=072J}
 
-— 通过 VII、p. 7、注 3，有限生成的挠元 A-模是循环的当且仅当其每个 π 主分量都是循环的。
+— 通过VII、p. 7、注 3，有限生成的挠元A-模是循环的当且仅当其每个π-primary 分量都是循环的。
 
 一个重要的特殊情况，Th。 1和命题2适用于$A = \mathbf{Z}$； $\mathbf{Z}$-模块只是一个 *阿贝尔的群*。如果阿贝尔的群是挠元$\mathbf{Z}$模块，即如果它的所有元素都有*有限的阶*，则阿贝尔的群被称为*挠元群*。那么$P$被取为素数数$> 0$的集合；对于每个素数数 $p > 0$，如果其所有元素都有阶（即 $p$ 的幂），则 (阿贝尔的) 群被称为 $p$ 扭转。在这个术语，Th。图 1 显示*每个挠元阿贝尔的群都是 p 扭转群的直和*。在有限群的情况下，这也是从 I、p. 80、Th 得出的。 4.
 
@@ -180,13 +180,13 @@ $$
 
 *其中 $a \in A$ 和 $r_{ph} \in R_p$ 对于所有 $h$ 和 $p$，并且几乎所有 $r_{ph}$ 都是零。*
 
-Consider $K$ as an $A$-module;那么$A$就是子模由1生成。商模$K/A$是$K$除以等价关系$x' - x \in A$的商，也可以写成VI的记号，p. 6，为$x \equiv x'$（模 1）；让$f$表示从$K$到$M = K/A$的自然同态。
+将 $K$ 视为 $A$ 模块；那么$A$是由1生成的子模。商模$K/A$是由等价关系$x' - x \in A$生成$K$的商，也写成VI、p. 6的记号为$x \equiv x'$（模 1）；让$f$表示从$K$到$M = K/A$的自然同态。
 
-商模 $M$ 是一个 *挠元模*，对于 $M$ 中的每一个元素，都有形式 $f(a/b)$ ($a \in A, b \in A, b \neq 0$)、从而 $b f(a/b) = f(a) = 0$。因此，Th。 1 of VII, p. 8 applies.设$M_p$($p \in P$)为$M$的元素子模被$p$的幂湮灭；那么$f^{-1}(M_p)$就是形式$a p^{-n}$$K$元素子环$A_p$，其中$a \in A$和$n \geq 0$是整数。 模 $M$ 是 $M_p$ 的直和，因此每个 $x \in K$ 与 $A_p$ 的和模 1 到元素全等；在其他字中，公式 (1) 成立，与 $s(p)$ 整数 $> 0$ 和 $a$，$A$ 的有限多个元素使得 $a$ 不是倍数 $p$。
+商模 $M$ 是一个 *挠元模*，对于 $M$ 的每一个元素都有形式 $f(a/b)$ ($a \in A, b \in A, b \neq 0$), 从而 $b f(a/b) = f(a) = 0$。因此，Th。 VII、p. 8 中的 1 个适用。设$M_p$($p \in P$)为$M$的元素子模被$p$的幂湮灭；那么$f^{-1}(M_p)$就是形式$a p^{-n}$$K$元素子环$A_p$，其中$a \in A$和$n \geq 0$是整数。 模 $M$ 是 $M_p$ 的直和，因此每个 $x \in K$ 与 $A_p$ 的和模 1 到元素全等；在其他字，公式 (1) 中，$s(p)$ 整数 $> 0$ 和$a$，$A$ 的有限多个元素使得 $a$ 不是倍数 $p$。
 
-我们现在展示这些条件在$s(p)$和$a$上，完全是确定$H$和$s(p)$。事实上，$H$ 是$p \in P$ 的集合，这样$f(x)$ 在$M_p$ 中的分量就是$\neq 0$。另一方面，如果$s$和$s'$是两个整数$> 0$，使得 s \geq s' 并且如果$a$和$a'$是$A$的元素不能被$p$整除，这样 $ap^{-s} \equiv a'p^{-s'} \pmod{1}$, then we deduce that $a \equiv a'p^{s-s'} \pmod{p^s}$;如果$s > s'$则$a \equiv 0 \pmod{p}$，与假设相矛盾。这个论证还表明每个 $a_i$ 都是明确定义的 mod $p^{s(p)}$。
+我们现在展示这些条件在$s(p)$和$a$上，完全是确定$H$和$s(p)$。事实上，$H$ 是$p \in P$ 的集合，这样$M_p$ 中$f(x)$ 的分量就是$\neq 0$。另一方面，如果$s$和$s'$是两个整数$> 0$，使得 s \geq s' 并且如果$a$和$a'$是$A$的元素不能被$p$整除，这样$ap^{-s} \equiv a'p^{-s'} \pmod{1}$，则推导出$a \equiv a'p^{s-s'} \pmod{p^s}$；如果$s > s'$则$a \equiv 0 \pmod{p}$，与假设相矛盾。这个论证还表明每个 $a_i$ 都是明确定义的 mod $p^{s(p)}$。
 
-为了完成证明，我们首先注，在$A$中的每个剩余类类模$p^i$中，存在形式$\sum_{h=0}^{s-1} r_h p^h$的唯一元素，以及$r_h \in R_p$对应$0 \leq h \leq s-1$。事实上，我们在$s$上继续进行归纳（性质是从$R_p$的定义推导出来的$s = 1$）：让$x \in A$； 假设 $x$ mod $p^{s-1}$ 的剩余类类中有形式 $\sum_{h=0}^{s-2} r_h p^h$ ($r_h \in R_p$) 唯一元素；那么$x - \sum_{h=0}^{s-2} r_h p^h$就是$p^{s-1}$的倍数$ap^{s-1}$；现在存在唯一元素$r_s$，$R_p$使得$a \equiv r_s \pmod{p}$； 从而$x \equiv \sum_{h=0}^{s-1} r_h p^h \pmod{p^s}$。要获得公式 (2)，现在只需将此事实应用于公式 (1) 中的每个 $a_p$ 即可。综上所述，唯一性就很清楚了。
+为了完成证明，我们首先注意到，在$A$中的每个剩余类类模$p^i$中，存在形式$\sum_{h=0}^{s-1} r_h p^h$的唯一元素，以及$r_h \in R_p$对应$0 \leq h \leq s-1$。事实上，我们在$s$上继续进行归纳（性质是从$R_p$的定义得出$s = 1$）：让$x \in A$； 假设 $x$ mod $p^{s-1}$ 的剩余类类中有形式 $\sum_{h=0}^{s-2} r_h p^h$ ($r_h \in R_p$) 唯一元素；那么$x - \sum_{h=0}^{s-2} r_h p^h$就是$p^{s-1}$的倍数$ap^{s-1}$；现在存在唯一元素 $r_s$，其中 $R_p$ 使得 $a \equiv r_s \pmod{p}$； 从而$x \equiv \sum_{h=0}^{s-1} r_h p^h \pmod{p^s}$。要获得公式 (2)，现在只需将此事实应用于公式 (1) 中的每个 $a_p$ 即可。综上所述，唯一性就很清楚了。
 
 以下是 Th 最重要的应用。 2：
 
@@ -253,29 +253,29 @@ k 上从而第二个断言 by 归纳。
 
 令$p > 2$为素数数，令$n > 0$为整数；那么群$U(p^n)$是阶$p^{n-1}$的循环；如果 $n \geq 2$ 则整数 $x$ 的剩余类类 mod $p^n$ 等于 1 mod $p$ 是 $U(p^n)$ 的生成元当且仅当 $x$ 不等于 1 mod $p^2$。设$m > 1$为整数；那么群$U(2^m)$是阶$2^{m-2}$的循环；如果 $m \geq 3$，则整数 $x$ 的剩余类类 mod $2^m$ 与 1 mod 4 全等，是 $U(2^m)$ 的生成元当且仅当$x$ 不等于 1 mod 8。
 
-由于$U(p^n)$有阶$p^{n-1}$，$U(p^n)$的每元素$u$的阶是$p$的幂，$u$是$U(p^n)$的生成元当且仅当$u^{p^{n-2}} \neq 1$。 现在，如果$u$是$x = 1 + py$的类，那么$u^{p^{n-2}}$是$1 + p^{n-1}y$的类，乘以引理3，从而$u$生成$U(p^n)$当且仅当$y \not\equiv 0 \mod p$，其他字$x \not\equiv 1 \mod p^2$。 对于例、类 $1 + p$ 生成 $U(p^n)$。 Similarly, the class $u$ of $x$ mod $2^n$ generates $U(2^n)$ if and only if $u^{2^{n-3}} \neq 1$, which means that $x$ is not congruent to 1 mod 8, by Lemma 3; this is satisfied by $x = 5$.
+由于$U(p^n)$有阶$p^{n-1}$，$U(p^n)$的每元素$u$的阶是$p$的幂，$u$是$U(p^n)$的生成元当且仅当$u^{p^{n-2}} \neq 1$。 现在，如果$u$是$x = 1 + py$的类，那么$u^{p^{n-2}}$是$1 + p^{n-1}y$的类，乘以引理3，从而$u$生成$U(p^n)$当且仅当$y \not\equiv 0 \mod p$，其他字$x \not\equiv 1 \mod p^2$。 例如，类$1 + p$生成$U(p^n)$。 类似地，当且仅当$u^{2^{n-3}} \neq 1$时，$x$ mod $2^n$的类$u$生成$U(2^n)$，这意味着根据引理3，$x$不等于1 mod 8；这由$x = 5$满足。
 
 #### 引理 4 {#alg-vii-s2-lem-4 .statement tag=072N}
 
 令$A$为主理想整环，并令$0 \to N \to M \to P \to 0$为$A$模块的正合序列。假设存在互质元素$a, b \in A$使得$aN = 0$和$bP = 0$。然后正合序列分裂的。如果加法、$N$和$P$都是循环的，那么$M$也是循环的。
 
-自 $abM = 0$ 起，模 $M$ 为挠元。第一个断言来自Cor。 3 个VII、p. 9。如果$N$和$P$是循环的，那么它们是有限生成的，因此$M$也是有限生成的（II，p. 17，Cor.5）；由于$M$的每个$p$主成分与$N$或$P$的$p$主成分同构，因此从VII、p. 10的注2得出，$M$是循环的。
+自 $abM = 0$ 起，模 $M$ 为挠元。第一个断言来自Cor。 3 个VII、p. 9。如果$N$和$P$是循环的，那么它们是有限生成的，因此$M$也是有限生成的（II，p. 17，Cor.5）；由于$M$的每个$p$-primary 分量同构于$N$或$P$的$p$-primary 分量，因此从VII、p. 10的注 2得出， $M$是循环的。
 
 #### 定理 3 {#alg-vii-s2-thm-3 .statement tag=072O}
 
-如果$a = \prod p_i^{n(i)}$是整数$a > 1$的素数分解，则环$\mathbf{Z}/a\mathbf{Z}$的可逆元的群$(\mathbf{Z}/a\mathbf{Z})^*$同构于群的乘积 $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$。如果$p > 2$是素数数且$n \geq 1$整数，则群$(\mathbf{Z}/p^n\mathbf{Z})^*$是阶$p^n \ ^1(p - 1)$的循环。 群 $(\mathbf{Z}/2\mathbf{Z})^*$ 是微不足道的；对于 $n \geq 2$ 群 $(\mathbf{Z}/2^n\mathbf{Z})^*$ 是由 5 mod $2^n$ 的剩余类类生成的阶 $2^n \ ^2$ 的循环群的直接乘积和循环群阶 2 由……组成剩余类类 1 和 $-1$ mod $2^n$。
+如果$a = \prod p_i^{n(i)}$是整数$a > 1$的素数分解，则环$\mathbf{Z}/a\mathbf{Z}$的可逆元的群$(\mathbf{Z}/a\mathbf{Z})^*$同构于群的乘积 $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$。如果$p > 2$是素数数且$n \geq 1$整数，则群$(\mathbf{Z}/p^n\mathbf{Z})^*$是阶$p^n \ ^1(p - 1)$的循环。 群 $(\mathbf{Z}/2\mathbf{Z})^*$ 是微不足道的；对于 $n \geq 2$ 群 $(\mathbf{Z}/2^n\mathbf{Z})^*$ 是由 5 mod $2^n$ 的剩余类类生成的阶 $2^n \ ^2$ 的循环群的直接乘积和循环阶 2 的群剩余类类 1 的由……组成以及$-1$ mod $2^n$。
 
 $U(p^n)$的阶$p^n \ ^1$和$(\mathbf{Z}/p\mathbf{Z})^*$的$p - 1$互质；由于 $U(p^n)$ 和 $(\mathbf{Z}/p\mathbf{Z})^*$ 是循环的（命题 3 和 V、p. 78、引理 1），群 $(\mathbf{Z}/p^n\mathbf{Z})^*$ 是循环的（将引理 4 应用于正合序列 (3)）。如果$n \geq 2$则同态$v : (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^*$到子群$(1, -1)$的限制是双射；因此，群$(\mathbf{Z}/2^n\mathbf{Z})^*$是子群的直接乘积和$v$的核$U(2^n)$；结果由命题 3 得出。
 
 #### 注 {#alg-vii-s2-n4-rem-1 .statement tag=072P}
 
-设$p > 2$为素数数，并令$x$为整数全等于1 mod $p$，且不等于1 mod $p^2$；有正合序列
+设 $p > 2$ 为素数数，并令 $x$ 为整数全等于 1 mod $p$，且不等于 1 mod $p^2$；有正合序列
 
 $$
 \{0\} \to \mathbf{Z}/p^n \ ^1\mathbf{Z} \xrightarrow{u} (\mathbf{Z}/p^n\mathbf{Z})^* \xrightarrow{\nu} (\mathbf{Z}/p\mathbf{Z})^* \to \{1\}
 $$
 
-群，其中$v$是自然投影，其中$u$是映射$r \mapsto x^r$的商。令 $\mathbf{Z}_p$ 为 $p$-adic 整数 ($V$, p. 96) 的环，并令 $x$ 为 $\mathbf{Z}_p$ 的元素，使得 $x - 1 \in p\mathbf{Z}_p$ 和$x - 1 \notin p^2\mathbf{Z}_p$； 经过至逆极限、正合序列 (5) 诱导正合序列
+群，其中$v$是自然的投影，而$u$是由映射$r \mapsto x^r$在商上诱发的。令 $\mathbf{Z}_p$ 为 $p$-adic 整数 ($V$, p. 96) 的环，并令 $x$ 为 $\mathbf{Z}_p$ 的元素，使得 $x - 1 \in p\mathbf{Z}_p$ 和$x - 1 \notin p^2\mathbf{Z}_p$； 经过至逆极限、正合序列 (5) 诱导正合序列
 
 $$
 \{0\} \to \mathbf{Z}_p \xrightarrow{u} \mathbf{Z}_p^* \xrightarrow{v} (\mathbf{Z}/p\mathbf{Z})^* \to \{1\}

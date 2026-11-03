@@ -13,19 +13,19 @@ pdf_pages: 0352-0356
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9d54b6e405a6cd57b94d7fef5935a1a92af66a751c868de26e81a55956d8904f
+content_sha256: 3f84591fd946a3a76f1687347a6aa78bc34a2b33684a37576f839ef1bd49e7a7
 translated_from: content/en/ens/ER/01_s1_elements_and_subsets_of_a_set.md
 translation_method: google
 source_content_sha256: 0e243e5f12383731f0a5a2c71334e71b3cefa638eb23c7b52b81096a04bed198
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d9a7b490910d1b7555ed3f3be709196d001e362a6c5aa69e84586b678f6b7347
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 1. 元素和子集集合
+## 1. 元素和子集 / 集合
 
 1. *集合* 由 *元素* 组成，*元素* 能够拥有某些 *属性*，并在它们之间或与其他集合的元素之间具有某些 *关系*。
 
@@ -51,13 +51,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 这个性质的否定写成“$x \notin A$”（读作“$x$不属于到A”）； E 的元素的集合具有这个性质，称为 A 的*补集*，写为 $\complement A$ 或 $E - A$。
 
-8. 例 $x = x$ 的某些属性对于 E 的*所有* 元素都成立。任何两个这样的属性都是等价的，并且子集它们定义是集合 E 本身。
+8. 有些属性，例如 $x = x$，对于 E 的*所有* 元素都成立。任何两个这样的属性都是等价的，并且子集它们定义就是集合 E 本身。
 
-另一方面，对于例 $x \neq x$，某些性质对于 E 的*任何* 元素来说并不成立。同样，任何两个这样的性质是等价的，并且子集和定义被称为 E 的*空子集*，用 $\emptyset$ 表示。
+另一方面，某些属性，例如 $x \neq x$，对于 E 的*任何* 元素来说并不成立。同样，任何两个这样的属性是等价的，并且子集和定义被称为 E 的*空子集*，用 $\emptyset$ 表示。
 
-注 E 和 $\emptyset$ 彼此“互补”。
+请注意，E 和 $\emptyset$ 是彼此的“互补”。
 
-9. 令 $a$ 为 E 的确定的元素。例 $x = a$ 的某些属性仅适用于*单个* 元素 $a$。任何两个这样的属性都是等价的； 子集、定义用$\{a\}$表示，称为单独*的子集*由……组成。
+9. 令 $a$ 为 E 的确定的元素。某些属性，例如 $x = a$，仅对于*单个* 元素 $a$ 为真。任何两个这样的属性都是等价的； 子集、定义用$\{a\}$表示，称为单独*的子集*由……组成。
 
 10、元素均为集合E的*子集*的集合，称为E的子集*的*集合，记为$\mathfrak{P}(E)$。对于所有 $x \in E$，我们都有 $\emptyset \in \mathfrak{P}(E)$、$E \in \mathfrak{P}(E)$ 和 $\{x\} \in \mathfrak{P}(E)$。如果$x$表示E的泛型元素，X表示$\mathfrak{P}(E)$的泛型元素，则$x$和X之间的关系“$x \in X$”称为隶属度*关系。
 

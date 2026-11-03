@@ -13,16 +13,16 @@ pdf_pages: 0356-0362
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4100355bca359e59303b5ec1b9cb57ff596429b6de7e96af082e52e5d22f6370
+content_sha256: 3929d49880a97282fd9f9f6641c052d08894c0b3a1fab9a828bfb86f5276c240
 translated_from: content/en/ens/ER/02_s2_functions.md
 translation_method: google
 source_content_sha256: e080ea464bff6a7c05c7dc505f506fc7d9e94e4178becde6cca23d33e3bb7827
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1b7c741f686bcc98ce64a1ef55890ae6da0650af9992831611338be7b3a70745
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. 函数
@@ -33,7 +33,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 2. 集合 E 的映射到集合 F 是新的集合的 *元素*，* E 的映射到 * F 的 *集合。如果 $f$ 是这个新的元素 E 的元素 $x$ 处的$f$ 集合、值通常用$f(x)$ 表示。在某些情况下，记号$f_x$（称为*索引*记号；集合E则称为*指标*集合）是更可取的。 关系“$y = f(x)$”是$y$中的泛函关系，即确定$f$。
 
-当形式 $y = \langle x \rangle$ 的关系（其中$\langle x \rangle$表示可能出现$x$的符号组合）是$y$中的泛函关系时，函数它的确定通常表示为记号$x \rightarrow \langle x \rangle$，甚至简单地$\langle x \rangle$；这是非常公共的的语言滥用。对于例，如果X和Y是集合E的两个泛型子集，则关系$Y = \complement X$在Y中泛函； $\mathfrak{P}(E)$的映射转化为$\mathfrak{P}(E)$，确定表示为$X \rightarrow \complement X$，或简称为$\complement X$。
+当形式 $y = \langle x \rangle$ 的关系（其中$\langle x \rangle$表示可能出现$x$的符号组合）是$y$中的泛函关系时，函数它的确定通常表示为记号$x \rightarrow \langle x \rangle$，甚至简单地$\langle x \rangle$；这是非常公共的的语言滥用。例如，如果X和Y是集合E的两个泛型子集，则关系$Y = \complement X$在Y中起作用； $\mathfrak{P}(E)$的映射转化为$\mathfrak{P}(E)$，确定表示为$X \rightarrow \complement X$，或简称为$\complement X$。
 
 我们通常会更简单地说，“让$f: E \rightarrow F$”，而不是说“让$f$是E到F的映射”。
 
@@ -53,17 +53,17 @@ E 的映射到 F 之间的等式“$f = g$”的关系相当于关系“对于�
 
 3. 函数，定义在集合 E上，对于E的每一个元素$x$取相同的值$a$，称为E上的*常数*函数；它由函数关系$y = a$决定。
 
-E 的映射到 E 中，与 E 的每个元素 $x$ 相关联，这个相同的元素被称为*恒等式* 映射。它由函数关系$y = x$决定。
+E 的映射到 E 中，与 E 的每个元素 $x$ 相关联，这个相同的元素被称为*恒等* 映射。它由泛函关系$y = x$决定。
 
 如果 A 是 E 的任何子集，则 A 到 E 的映射与 A 的每个元素 $x$ 关联，相同的元素 $x$ 被视为 E 的元素，称为 A 到 E 的*规范* 映射。
 
-令 $f$ 为集合 E 的映射自身。如果 $f(x) = x$，E 的元素$x$ 被认为是*固定*（或*不变*）*低于*$f$。
+设 $f$ 为集合 E 的映射自身。如果 $f(x) = x$，E 的元素$x$ 被认为是*固定*（或*不变*）*低于*$f$。
 
-E 的元素 $x$ 被认为是在 E 的映射的集合下“固定”（或“不变”）到 E 中，如果它在它们每个下都是固定的。
+如果 E 的元素 $x$ 在 E 的映射的集合下是*固定*（或*不变*），则如果它在它们每个下都是固定的。
 
 4. 令$f$为E到F中的映射，并令X为E中的任意子集。则*X*下*$f$的*像为所有F由……组成的子集Y 元素$y$，其中性质“存在$x \in$E，使得$x \in$X和$f(x) = y$”。
 
-这个X和Y之间的定义关系在Y中起作用，因此$\mathfrak{P}(\mathrm{E})$的确定映射进入$\mathfrak{P}(\mathrm{F})$。这个映射被称为*$f$*到子集的集合的*规范扩张；*通过滥用语言，它也被表示为$f$，我们写作$\mathrm{Y} = f(\mathrm{X})$。
+这个X和Y之间的定义关系在Y中起作用，因此$\mathfrak{P}(\mathrm{E})$的确定映射进入$\mathfrak{P}(\mathrm{F})$。这个映射被称为*$f$的*规范扩张*到子集的集合；*通过滥用语言，它也被表示为$f$，我们写作$\mathrm{Y} = f(\mathrm{X})$。
 
 对于所有 $f$ 和 $x$，我们有
 
@@ -113,33 +113,33 @@ E 在给定子集 A 上的子集 X 的 *迹* $X_A$ 是 A 的典范映射到 E (n
 
 (15) $$\overset{-1}{f}(\complement X) = \complement \overset{-1}{f}(X).$$
 
-注公式 (12) 和 (14) 之间的差异；如果我们将 F 中的任意映射替换为 E 中的 $\overset{-1}{f}$，则 (14) 不适用于所有 X 和 Y。同样，对于任意映射的扩张，不存在 (15) 的类似物。
+注 the difference between 公式 (12) and (14);如果我们将 F 中的任意映射替换为 E 中的 $\overset{-1}{f}$，则 (14) 不适用于所有 X 和 Y。同样，对于任意映射的扩张，不存在 (15) 的类似物。
 
 此外，我们还有$\overset{-1}{f}(\emptyset) = \emptyset$；但对于 F 的非空子集 X，我们也可以有 $\overset{-1}{f}(X) = \emptyset$。在序中，$X \neq \emptyset$ 应该暗示 $\overset{-1}{f}(X) \neq \emptyset$，$f$ 应该是 E *到* F 上的映射是充分必要的。
 
-8. 如果 E 到 F 的映射 $f$ 使得对于所有 $y \in F$ 存在*至多一个* $x \in E$ 使得 $y = f(x)$ （在其他字中，集合 $\overset{-1}{f}(y)$ 要么为空，要么由单个元素组成），那么 $f$ 被称为 E 到 F 的*一对一* 映射，或*内射* 映射，或 *单射的*。那么，对于所有子集 X，E 的 Y，
+8. 如果 E 到 F 的映射 $f$ 使得对于所有 $y \in F$ 存在*至多一个* $x \in E$ 使得 $y = f(x)$ （在其他字中，集合 $\overset{-1}{f}(y)$ 要么为空，要么由单个元素组成）， then $f$ is said to be a *one-to-one* 映射 of E into F, or an *injective* 映射, or an *单射的*.那么，对于所有子集 X，E 的 Y，
 
 (16) $$f(X \cap Y) = f(X) \cap f(Y).$$
 
-9. 如果 E 到 F 的映射 $f$ 使得对于所有 $y \in F$ *恰好存在一个* $x \in E$ 使得 $y = f(x)$ （在其他字中，$\overset{-1}{f}(y)$ 由单个元素组成），则 $f$ 被称为E *到* F 的 *一对一* 映射，或 *双射的* 映射，或 *双射的*。这样的映射可以被表征为E到F上的映射和E到F上的“一对一”映射。
+9. 如果 E 到 F 的映射 $f$ 使得对于所有 $y \in F$ *存在恰好一个* $x \in E$ 使得 $y = f(x)$ （在其他字中，$\overset{-1}{f}(y)$ 由单个元素组成），则 $f$ 被称为 a *one-to-one* 映射 of E *onto* F, or a *bijective* 映射, or a *双射的*. Such 映射 may be characterized as being both 映射 of E onto F and a *one-to-one* 映射 of E into F.
 
-如果$f$是E到F的一对一映射，则关系$y=f(x)$不仅在$y$中起作用，而且在$x$中也*起作用。作为$x$中的泛函关系，它确定是F到E上的一对一的映射，称为映射$f$的*逆*。
+If $f$ is a one-to-one 映射 of E onto F, 关系 $y=f(x)$ is not only functional in $y$, but also *functional in $x$. As a functional 关系 in $x$, it 确定 a one-to-one 映射 of F onto E, called the *inverse* of 映射 $f$.
 
-注 $f$ 的逆矩阵 *扩张与 $f$ 的扩张的逆矩阵相同。
+Note that the *扩张 of the inverse of $f$ is the same as the inverse of 扩张 of $f$.
 
-令 $g$ 为 $f$ 的倒数。那么关系“$y=f(x)$”和“$x=g(y)$”*等价*。 $g$的倒数是$f$。如果 $f$ 是 E 到 F 的一对一映射，我们不仅有关系 (16)，而且对于 E 的所有子集 X，
+令 $g$ 为 $f$ 的倒数。 Then 关系 “$y=f(x)$” and “$x=g(y)$” are *equivalent*. $g$的倒数是$f$。 If $f$ is a one-to-one 映射 of E onto F, we have not only 关系 (16) but also, for all 子集 X of E,
 
 $$f(\mathrm{C}X)=\mathrm{C}f(X).$$
 
-此外，$f$的扩张是$\wp(E)$到$\wp(F)$的一一对应的映射。
+Moreover, 扩张 of $f$ is a one-to-one 映射 of $\wp(E)$ onto $\wp(F)$.
 
-E 到 F 上的一对一映射及其逆映射据说*实现了 E 和 F 之间的一对一对应*；或者，我们说 E 和 F * 通过这些映射* 一对一地放入对应中。
+A one-to-one 映射 of E onto F, together with its inverse 映射, are said to *realize a one-to-one 对应 between E and F*; alternatively, we say that E and F *are put in one-to-one 对应 by these 映射*.
 
-集合 E 的一对一映射称为 E 的 *置换*。恒等映射是置换。如果置换与其逆元相同，则称为*对合*；对于例，$\wp(E)$的映射$X\rightarrow \mathrm{C}X$自身是对合的。
+A one-to-one 映射 of 集合 E onto itself is called a *置换* of E. 恒等映射 is 置换. If 置换 is identical with its inverse, it is said to be *involutory*; for example, 映射 $X\rightarrow \mathrm{C}X$ of $\wp(E)$ onto itself is involutory.
 
-10. 在下面的命题中，X表示E的任意子集，Y表示F的任意子集：
+10. In the following 命题, X denotes an arbitrary 子集 of E, and Y an arbitrary 子集 of F:
 
-(a) 如果 $f$ 是 E *到* F 的映射，我们有
+(a) If $f$ is 映射 of E *into* F, we have
 
 (17)
 $$f^{-1}(Y)=f^{-1}(Y\cap f(E)),$$
@@ -150,21 +150,21 @@ $$X\subset f^{-1}(f(X)),$$
 (19)
 $$f(f^{-1}(Y))\subset Y.$$
 
-(b) 性质“对于所有 Y，$f(f^{-1}(Y))=Y$”和“$f$ 是 E 到 F 上的映射”是*等价的*。
+(b) The properties “for all Y, $f(f^{-1}(Y))=Y$” and “$f$ is 映射 of E onto F” are *equivalent*.
 
-(c) 属性“对于所有 X、$f^{-1}(f(X))=X$”和“$f$ 是 E 到 F 的*一对一*映射”是*等价的*。
+(c) The properties “for all X, $f^{-1}(f(X))=X$” and “$f$ is a *one-to-one* 映射 of E into F” are *equivalent*.
 
 (d) 属性“对于所有 X 和 Y，
 
 $$f^{-1}(f(X))=X\qquad\text{and}\qquad f(f^{-1}(Y))=Y$$
 
-和“$f$是E到F的*一对一*映射”是*等价*。
+and “$f$ is a *one-to-one* 映射 of E onto F” are *equivalent*.
 
 11. 令E、F、G为三个集合，它们可能不同，也可能不同。设$f$为E入F的映射，$g$为F入G的映射。E入G的映射，其值在E的任意元素$x$处为$g(f(x))$，称为合成* $g$和$f$，并用$g \circ f$表示，或者在不存在歧义的情况下简单地用$gf$表示。
 
 等式 $h = g \circ f$ 被称为 $h$ 的*因式分解*。
 
-注，如果G与E不同，我们可能不会谈论$f$和$g$的合成（其中序），并且记号$f \circ g$没有任何意义。如果G与E相同，则$f \circ g$和$g \circ f$不是相同的集合除非的元素，F也与E相同；即使是这样，通常情况也是$f \circ g \neq g \circ f$。因此$f$和$g$的合成的*序*是必不可少的。
+请注意，如果 G 与 E 不同，我们可能不会谈论 $f$ 和 $g$ 中的合成（即序），并且记号 $f \circ g$ 没有任何意义。如果G与E相同，则$f \circ g$和$g \circ f$不是相同的集合除非的元素，F也与E相同；即使是这样，通常情况也是$f \circ g \neq g \circ f$。因此$f$和$g$的合成的*序*是必不可少的。
 
 令$\varphi$为$g$和$f$的合成，令X为E的任意子集，令Z为G的任意子集。那么我们有
 
@@ -193,10 +193,10 @@ E入H的这个映射写为$h \circ g \circ f$，称为这个序中三个映射$h
 
 14. 集合 E *到* 集合 F 的映射也称为 F *通过* E 的*参数表示*；那么E就被称为这个表示的*参数集合*，E的元素取*参数*的名称。
 
-集合 F 的元素* 家族由 F 的定义子集赋予参数表示；在其他字中，被赋予F的元素家族，相当于将一些集合E的映射赋予F。这个映射下的E的像称为家族*的元素的*集合。 注 F 的元素的两个不同家族可能具有与其元素的集合相同的 F 子集。
+集合 F 的元素* 家族由 F 的定义子集赋予参数表示；在其他字中，被赋予F的元素家族，相当于将一些集合E的映射赋予F。这个映射下的E的像称为家族*的元素的*集合。请注意，F 的元素的两个不同家族可能具有与其元素的集合相同的 F 子集。
 
 对于集合 F 的每个子集 A，我们总是可以将元素的族关联起来，其元素的集合是 A。将 A 的 *典范映射* 定义的族考虑到 F 就足够了。
 
-F 的元素系列，由集合 I 的映射 $\iota\mapsto x_\iota$ 定义到 F 中，用 $(x_\iota)_{\iota\in I}$ 表示，或者如果指标集合不存在歧义，则简单地表示为 $(x_\iota)$。
+F 的元素系列，由集合 I 的映射 $\iota\mapsto x_\iota$ 定义到 F 中，用 $(x_\iota)_{\iota\in I}$ 表示，或者如果指标集合不会产生歧义，则简单地表示为 $(x_\iota)$。
 
-如果J是I的子集，则$(x_\iota)_{\iota\in J}$族被称为$(x_\iota)_{\iota\in I}$族J的*亚族*相应的；它由限制到映射$\iota\mapsto x_\iota$的J定义。
+如果J是I中的子集，则$(x_\iota)_{\iota\in J}$族被称为$(x_\iota)_{\iota\in I}$族J的*亚族*相应的；它由限制到映射$\iota\mapsto x_\iota$的J定义。

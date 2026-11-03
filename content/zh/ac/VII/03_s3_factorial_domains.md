@@ -49,21 +49,21 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 27
-content_sha256: 7be8bfa0fc7b731da15cf3aec51fe08585da7b43ef60c69dd1f00197c829ae6f
+content_sha256: 0a0399486f7e0151229a1d1ab15186620fff8a7b94ac33fef43fbd65a4db18fa
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
 translation_method: google
 source_content_sha256: 7c78792af87db965faba28fa907fb71b383afe818bec0650262706d6b261062c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0943a3d468ed7c6584f2afd3719d6dc31ec621127542bbf1f512c09d23170d19
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 阶乘域
 
-### 1. 阶乘域的定义
+### 1. 定义阶乘域
 
 #### 定义 1 {#ac-vii-s3-def-1 .statement tag=051N}
 
@@ -109,19 +109,19 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 *设 A 为克鲁尔域。如果 A 的每个除数理想都是可逆的，那么对于 A 的每个最大理想 m，$A_m$ 都是阶乘。如果还假设 A 的每个除数理想都是有限生成的（特别是如果 A 为诺特），则逆命题为真。*
 
-假设 $A$ 的每个除理想都是可逆的；由于$A_{,,}$是一个克鲁尔域（$§ 1$，no. 4，命题6），$A_{,,}$的每个除数理想$a$是两个主分数理想（$§ 1$，no. 5）的交，推论2到命题9);因此$a = bA_m$，其中$b$是$A$的除数理想（章II，$§ 2$，no. 4）；由于 $b$ 可通过假设可逆，我们从章 II、$§ 5$、no. 6、定理 4 推出$a$ 是主数，因此 $A_{,,}$ 是阶乘域（no. 1，定义1）。相反，如果所有$A_{,,}$都是阶乘，并且$c$是$A$的有限生成除数理想，则$cA_m$是$A_{,,}$的除数理想，如下从$§ 1$，no. 5，推论2到命题9， 章II、$§ 2$、no. 4；由假设 $cA_m$ 为主，因此从章 11, $§ 5$, no. 6, 定理 4 可以得出 $c$ 是可逆的。
+假设 $A$ 的每个除理想都是可逆的； as $A_{,,}$ is a Krull domain ($§ 1$, no. 4, 命题 6), every divisorial ideal $a$ of $A_{,,}$ is 交 of two principal fractional ideals ($§ 1$, no. 5, 推出 2 to 命题9);因此$a = bA_m$，其中$b$是$A$的除数理想（章II，$§ 2$，no. 4）； as $b$ is invertible by 假设, we deduce from 章 II, $§ 5$, no. 6, 定理 4 that $a$ is principal and hence $A_{,,}$ is a factorial domain （no. 1，定义1）。 Conversely, if all the $A_{,,}$ are factorial and $c$ is a finitely generated divisorial ideal of $A$, $cA_m$ is a divisorial ideal of $A_{,,}$, as follows from $§ 1$, no. 5, 推出 2 to 命题 9 和章 II、$§ 2$、no. 4；由假设 $cA_m$ 为主，因此从章 11, $§ 5$, no. 6, 定理 4 可以得出 $c$ 是可逆的。
 
-### 3. 分解进入极端元素
+### 3. 分解进入极值元素
 
-设$A$为整环，$K$为分数的域以及$A$的可逆元$U$乘法群。回想一下（代数，章VI，$§ 1$，no. 5），$K^*/U$的典范同构存在于群$\mathscr{P}^*$非零分数主理想$A$上。 定理 1 的条件 (b) 可以翻译如下：
+设$A$为整环，$K$为分数的域以及$A$的可逆元$U$乘法群。 Recall (代数, 章 VI, $§ 1$, no. 5) that there is 典范同构 of $K^*/U$ onto 群 $\mathscr{P}^*$ of non-zero fractional principal ideals of $A$. 定理 1 的条件 (b) 可以翻译如下：
 
 #### 命题 2 {#ac-vii-s3-prop-2 .statement tag=051Q}
 
-*令$A$为整环。对于$A$是阶乘，$A$存在子集$P$是充分必要的，使得每个$a \in A - \{0\}$可以唯一地写在形式$a = u \prod_{p \in P} p^{n(p)}$中，其中$u \in U$和$n(p)$是正整数除了其中有限的数之外，还有零。*
+*令$A$为整环。 For $A$ to be factorial, it is necessary and sufficient that there exist 子集 $P$ of $A$ such that every $a \in A - \{0\}$ may be written uniquely in 形式 $a = u \prod_{p \in P} p^{n(p)}$, where $u \in U$ and the $n(p)$ are 正整数除了其中有限的数之外，还有零。*
 
-如果$P$满足这个条件，显然它的所有元素都是*极值*，并且$A$的每个极值元素都与$P$的唯一元素相关联。回想一下，$P$被称为$A$的极值元素*的*代表系统（代数，章VII，$§ 1$，no. 3，定义） 2）。
+If $P$ satisfies this 条件, clearly all its 元素 are *extremal* and every extremal 元素 of $A$ is associated with 唯一元素 of $P$. Recall that $P$ is then called a *representative 系统 of extremal 元素* of $A$ (代数, 章 VII, $§ 1$, no. 3, 定义 2）。
 
-始终假设 $A$ 是阶乘。可知(no. 2,定理1)群$\mathscr{P}^*$是一个格子。因此，我们可以应用代数、章、VI、$§ 1$、第 3 条的结果。 9和13。特别是，$K^*$的每个元素都可以以本质上唯一的方式写成*不可约分数*的形式。 $K^*$ 中的任意两个元素 $a, b$ 都有 g.c.d。和一个 L.C.M.；如果$a = u \prod_{p \in P} p^{n(p)}$并且
+始终假设 $A$ 是阶乘。可知(no. 2,定理1)群$\mathscr{P}^*$是一个格子。因此，我们可以应用代数、章、VI、$§ 1$的结果。 9和13。特别是，$K^*$的每个元素都可以以本质上唯一的方式写成*不可约分数*的形式。 $K^*$ 中的任意两个元素 $a, b$ 都有 g.c.d。和一个 L.C.M.；如果$a = u \prod_{p \in P} p^{n(p)}$并且
 $$
 b = u' \prod_{p \in P} p^{m(p)}
 $$
@@ -148,15 +148,15 @@ $$
 
 这紧接着 no. 1 和 § 1, no. 10、命题 17 中的定义 1。
 
-### 5. 多项式环阶乘域
+### 5. 阶乘域上的多项式环
 
-设 A 为阶乘域，K 为分数的域，$f$ 为 $K[X]$ 的非零元素；如果是 g.c.d，则 $K^*$ 的元素 c 将被称为 $f$ 的*内容*。的系数关闭。令 $\nu$ 为对 A 至关重要的 K 的估值，$\bar{\nu}$ 其规范的扩张至 $K[X]$（由 $\bar{\nu}\left(\sum a_i X^i\right) = \inf \nu(a_i)$、cf. 章 VI, § 10, no. 1、命题 2 定义）；然后$\bar{\nu}(f) = \nu(c)$。
+设 A 为阶乘域，K 为分数的域，$f$ 为 $K[X]$ 的非零元素；如果是 g.c.d，则 $K^*$ 的元素 c 将被称为 $f$ 的*内容*。 系数折扣。 Let $\nu$ be a valuation on K which is essential for A and $\bar{\nu}$ its canonical 扩张 to $K[X]$ (defined by $\bar{\nu}\left(\sum a_i X^i\right) = \inf \nu(a_i)$; cf. 章 VI, § 10, no. 1, 命题 2);然后$\bar{\nu}(f) = \nu(c)$。
 
 #### 引理 1（高斯）{#ac-vii-s3-lem-1 .statement tag=051S}
 
 *令$f, f'$为$K[X]$和c的非零元素，$c'$内容关闭，$f', f'$。那么$cc'$就是$ff'$的内容。*
 
-令d为$ff'$的内容。对于对 A 至关重要的 K 的每一个评估$\nu$，让$\bar{\nu}$表示其规范的扩张到$K[X]$。然后
+令d为$ff'$的内容。对于对 A 来说必不可少的 K 的每一个评估$\nu$，让$\bar{\nu}$表示其规范的扩张到$K[X]$。然后
 $$
 \nu(d) = \bar{\nu}(ff') = \bar{\nu}(f) + \bar{\nu}(f') = \nu(c) + \nu(c') = \nu(cc').
 $$
@@ -164,7 +164,7 @@ $$
 
 #### 定理 2 {#ac-vii-s3-thm-2 .statement tag=051T}
 
-*设A是阶乘域，K是分数的域，$(p_\lambda)$是A的极值元素的代表系统，$(P_\lambda)$是$K[X]$的不可约多项式的代表系统，每个$P_\lambda$以1为内容。然后：*
+*Let A be a factorial domain, K its 域 of 分数, $(p_\lambda)$ a representative 系统 of extremal 元素 of A and $(P_\lambda)$ a representative 系统 of irreducible polynomials of $K[X]$, each $P_\lambda$以1为内容。然后：*
 (i) *A[X] 是阶乘域；*
 (ii) *$p_\lambda$和$P_\lambda$的集合是A[X]的极值元素的代表系统。*
 
@@ -173,7 +173,7 @@ $$
 f = a \prod_\lambda P_\lambda^{n(\lambda)} \quad (a \in K^*, n(\lambda) \geq 0).
 $$
 
-引理 1 证明$a$ 是一个内容关闭。因此$a \in A$。由于$A$是阶乘，$a$可以在形式中唯一分解：
+引理 1 证明$a$ 是内容关闭。因此$a \in A$。由于$A$是阶乘，$a$可以在形式中唯一分解：
 
 $$
 a = u \prod p_i^{m(i)} \quad (u \text{ invertible in } A,\ m(i) \geqslant 0).
@@ -185,11 +185,11 @@ $$
 f = u \prod p_i^{m(i)} \bigcap_{\lambda} p_{\lambda}^{n(\lambda)}.
 $$
 
-注，这个定理证明$A$的每个元素都承认*相同*分解进入$A$和$A[X]$的极值元素。 g.c.d.因此，元素和$A$ 的家庭在$A$ 和$A[X]$ 中是相同的。
+请注意，这个定理证明$A$的每个元素都承认*相同*分解进入$A$和$A[X]$中的极值元素。 g.c.d.因此，元素和$A$ 的家庭在$A$ 和$A[X]$ 中是相同的。
 
 我们还可以用 § 1, no. 10 的应用命题 18 来证明 $A[X]$ *是*阶乘域当且仅当 $A$ 是阶乘域。
 
-#### 推论{#ac-vii-s3-n5-cor-1 .statement tag=051U}
+#### 推论 {#ac-vii-s3-n5-cor-1 .statement tag=051U}
 
 *如果 $A$ 是阶乘域，则域 $A[X_1, \ldots, X_n]$ 也是阶乘。*
 
@@ -197,7 +197,7 @@ $$
 
 这个推论可以扩展到无限族不定数的情况 (cf. 习题 2)。
 
-### 6. 阶乘域和 ZARISKI 环
+### 6. 阶乘域和 zariski 环
 
 #### 命题 4 {#ac-vii-s3-prop-4 .statement tag=051V}
 
@@ -205,15 +205,15 @@ $$
 
 这是从no. 1、定义 1 和§ 1, no. 10、命题 16 得出的。
 
-#### 推论{#ac-vii-s3-n6-cor-1 .statement tag=051W}
+#### 推论 {#ac-vii-s3-n6-cor-1 .statement tag=051W}
 
 *如果诺特局部环 $A$的补全是阶乘域，则$A$是阶乘域。*
 
-### 7. 正式幂级数自同构环的预赛
+### 7. 正式幂级数环自同构预赛
 
 #### 引理 2 {#ac-vii-s3-lem-2 .statement tag=051X}
 
-*令$f(X_1, X_2, \ldots, X_n)$为形式幂级数$\neq 0$，系数为环$E$。存在整数 $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) 这样*
+*令$f(X_1, X_2, \ldots, X_n)$为正式的幂级数$\neq 0$，系数位于环$E$中。存在整数 $u(i) \geqslant 1$ ($1 \leqslant i \leqslant n - 1$) 这样*
 
 $$
 f(T^{u(1)}, \ldots, T^{u(n-1)}, T) \neq 0.
@@ -227,13 +227,13 @@ $$
 
 然后引理将由归纳证明。
 
-观察级数 $f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_k, \ldots, X)$ 可以被视为$X_k$ 和$X_n$ 中的级数，系数在$E[[X_{k+1}, \ldots, X_{n-1}]]$ 中。因此我们看到，为$n = 2$建立引理就足够了。
+请注意，级数 $f(X_n^{u(1)}, \ldots, X_n^{u(k-1)}, X_k, \ldots, X)$ 可以被视为$X_k$ 中的级数和$X_n$ 以及$E[[X_{k+1}, \ldots, X_{n-1}]]$ 中的系数。由此可见，只要为$n = 2$建立引理就足够了。
 
 因此让
 $$
 f = \sum_{i,j} e_{ij} X^i Y^j \in E[[X, Y]]
 $$
-其中$f \neq 0$。令$G \subset \mathbf{N} \times \mathbf{N}$为有序对$(i, j)$的非空集合，使得$e_{ij} \neq 0$。让 $\mathbf{N} \times \mathbf{N}$ 得到字典顺序。令 $(c, d)$ 为 $G$ 中最小的元素。 选择整数$p > d$。在展开中
+其中$f \neq 0$。令$G \subset \mathbf{N} \times \mathbf{N}$为有序对$(i, j)$的非空集合，使得$e_{ij} \neq 0$。让 $\mathbf{N} \times \mathbf{N}$ 得到字典顺序。令$(c, d)$为$G$中最小的元素。 选择整数$p > d$。在展开中
 $$
 f(T^p, T) = \sum_{(i, j) \in G} e_{ij} T^{ip + j}
 $$
@@ -243,7 +243,7 @@ ip + j \geq (c + 1)p + j \geq (c + 1)p > cp + d;
 $$
 $i < c$也不可能，因为$(c, d)$是$G$中最小的元素；因此$i = c$，然后$j = d$。因此，$f(T^p, T)$中次数$cp + d$的项是$e_{cd} T^{cp + d}$。从$e_{cd} \neq 0, f(T^p, T) \neq 0$开始。 从而引理。
 
-在环 $E[[X_1, \ldots, X_n]]$ 中，令 $a$ 为没有常数项的形式幂级数的理想。如果$w_1, \ldots, w_n$是$a$的元素，请记住映射$f(X_1, \ldots, X_n) \mapsto f(w_1, \ldots, w_n)$是环$E[[X_1, \ldots, X_n]]$的唯一内同态$s$，这样$s(X_i) = w_i$对于$1 \leq i \leq n$ （章III, § 4, no. 5、命题6）。
+在环 $E[[X_1, \ldots, X_n]]$ 中，令 $a$ 为形式幂级数的理想，没有常数项。 If $w_1, \ldots, w_n$ are 元素 of $a$, recall that 映射 $f(X_1, \ldots, X_n) \mapsto f(w_1, \ldots, w_n)$ is 唯一内同态 $s$ of 环 $E[[X_1, \ldots, X_n]]$ such that $s(X_i) = w_i$ for $1 \leq i \leq n$ （章III, § 4, no. 5、命题6）。
 
 我们取$w_1 = X_1 + X_n^{u(1)}, \ldots, w_{n-1} = X_{n-1} + X_n^{u(n-1)}, w_n = X_n$，其中$u(i)$是整数$\geq 1$。令$s'$为$E[[X_1, \ldots, X_n]]$的自同态，其中映射$X_1$到$X_1 - X_n^{u(1)}, \ldots, X_{n-1}$到$X_{n-1} - X_n^{u(n-1)}$以及$X_n$到$X_n$。那么$s'(s(X_i)) = X_i$对应$1 \leq i \leq n$，因此$s' \circ s$是恒等式自同构； $s \circ s'$ 类似。因此 $s$ 是 *自同构*。
 
@@ -257,7 +257,7 @@ $$
 
 $g(0, \ldots, 0, X_n) = f(X_n^{u(1)}, \ldots, X_n^{u(n-1)}, X_n)$。因此，引理 3 是引理 2 的推论。
 
-### 8. 准备定理
+### 8. 准备工作定理
 
 在这个没有。 A 将表示*局部* 环，$m$ 其最大理想，$k = A/m$ 其剩余类域。假设 A 是 *Hausdorff 且完整*，具有 $m$-adic 拓扑。让$B = A[[X]]$；是局部环，其最大理想$\mathfrak{n}$由$m$和$X$生成；与 $\mathfrak{A}$-adic 拓扑一起，B 是 Hausdorff 且完整 (章 III, § 2, no. 6，命题 6)。
 
@@ -283,17 +283,17 @@ We show that the $b_i$ (and hence the $r_j$) are all 零, which will prove in pa
 $$
 (b_0 a_{s+k} + \cdots + b_{k-1} a_{s+1}) + b_k a_s + (b_{k+1} a_{s-1} + \cdots + b_{k+s} a_0) = 0.
 $$
-第一个括号中的项从属于到$m^n$，因为$b_i \in m^n$代表$i < k$；对于第二个中的情况也是如此，因为 $b_i \in m^{n-1}$ 代表所有 $i$，$a_i \in m$ 代表$i \leq s-1$。因此$b_k a_s \in m^n$，并且由于$a_s$是$A$的可逆元，所以$b_k \in m^n$。
+项在第一个括号属于到 $m^n$ 中，因为 $b_i \in m^n$ 为 $i < k$；对于第二个中的情况也是如此，因为 $b_i \in m^{n-1}$ 代表所有 $i$，$a_i \in m$ 代表$i \leq s-1$。因此$b_k a_s \in m^n$，并且由于$a_s$是$A$的可逆元，因此$b_k \in m^n$。
 
 (b) 我们证明$f \mid B + M = B$。我们写
 $$
 g = a_s + a_{s+1} X + a_{s+2} X^2 + \cdots;
 $$
-它是$B$中的可逆元。然后
+是$B$中的可逆元。然后
 $$
 f - X^s g = a_0 + a_1 X + \cdots + a_{s-1} X^{s-1};
 $$
-因此，如果我们写成$fg^{-1} - X^s = (f - X^s g) g^{-1} = -h$，则$h$属于到$m$的系数。然后令$r$为$B$的元素。在$n$上归纳我们B的元素定义序列$(q^{(n)})$：我们取$q^{(0)}$为唯一的级数满足：
+因此，如果我们将$h$属于中的$fg^{-1} - X^s = (f - X^s g) g^{-1} = -h$、系数写到$m$。然后令$r$为$B$的元素。在$n$上归纳我们B的元素定义序列$(q^{(n)})$：我们取$q^{(0)}$为唯一的级数满足：
 $$
 r \equiv X^s q^{(0)} \pmod{M};
 $$
@@ -305,7 +305,7 @@ $$
 $$
 X^s q^{(n)} \equiv h q^{(n-1)} \pmod{M}.
 $$
-作为所有$j$的$h_j \in m$，它还可以从（6）通过$n$上的归纳得出，对于所有$i$和所有$n$，$q_i^{(n)} \in m^n$。由于 A 是完整的，因此级数
+作为对所有 $j$ 的 $h_j \in m$，它还可以从 (6) 得出，通过 $n$ 上的归纳，对于所有 $i$ 和所有 $n$，$q_i^{(n)} \in m^n$。由于 A 是完整的，因此级数
 $$
 q^{(0)} + q^{(1)} + \ldots + q^{(n)} + \ldots
 $$
@@ -321,9 +321,9 @@ $$
 
 #### 推论 {#ac-vii-s3-n8-cor-1 .statement tag=0520}
 
-*根据命题 5 的假设和记号，假设$s \geq 1$，从而$f \in Bm + BX$。然后$B' = A[[T]]$到$B = A[[X]]$的A-同态$h$使得$h(T) = f$(章III, § 2, no. 9,命题11(a))定义在B上一个自由的$B'$-模块结构承认$\{1, X, \ldots, X^{s-1}\}$为基。特别是 $h$ 是单射的。*
+*根据命题 5 的假设和记号，假设$s \geq 1$，从而$f \in Bm + BX$。 Then the A-homomorphism $h$ of $B' = A[[T]]$ to $B = A[[X]]$ such that $h(T) = f$ (章 III, § 2, no. 9, 命题 11 (a)) 定义 on B a free $B'$-module structure admitting $\{1, X, \ldots, X^{s-1}\}$ as 基。特别是 $h$ 是单射的。*
 
-让 $B'$-模块 B 被给予 (T)-adic 过滤，它由 $n \geq 0$ 的 $f^n B$ (章 111, § 2, no. 1) 组成。 那么$B/fB$是A-模形式基（命题5）中$X^i$（$0 \leq i \leq s-1$）的环$A = B'/TB'$和像的自由模；而且$f$不是B中零的除子（命题5），$Bf^n/Bf^{n+1}$也是秩s的自由$(B'/TB')$模，因此章111的条件（GR），满足§ 2, no. 8（替换 A by B' 且 M by B）。 另一方面，由于 B' 是 Hausdorff 并且相对于 (T)-adic 过滤是完备的，并且 gr(B) 是由上述有限生成的 gr(B')-模，因此首先可以看出（章 III, § 2, no. 9，推论 1 到命题 12）B 是有限生成的 B' 模。 推论的第一个断言是从章 III, § 2, no. 9、命题 13 得出的。 第二个紧随其后。
+让 $B'$-模块 B 被给予 (T)-adic 过滤，它由 $n \geq 0$ 的 $f^n B$ (章 111, § 2, no. 1) 组成。那么$B/fB$是自由模超过环$A = B'/TB'$和像的$X^i$（$0 \leq i \leq s-1$）在这个A-模形式基（命题5）； as moreover $f$ is not 除子 of 零 in B (命题 5), $Bf^n/Bf^{n+1}$ is also a free $(B'/TB')$-module of 秩 s, so that 条件 (GR) of 章 111,满足§ 2, no. 8（替换 A by B' 和 M by B）。 On the other hand, since B' is Hausdorff and complete with respect to the (T)-adic filtration and gr(B) is a finitely generated gr(B')-module by the above, it is seen first (章 III, § 2, no. 9, 推论 1 to 命题 12) that B is a finitely generated B' 模. 推论的第一个断言紧接在章 III, § 2, no. 9、命题 13 之后。第二个紧随其后。
 
 #### 定义 2 {#ac-vii-s3-def-2 .statement tag=0521}
 
@@ -333,11 +333,11 @@ F = X^s + a_{s-1} X^{s-1} + \cdots + a_0,
 $$
 *其中*$a_i \in \mathfrak{m}$*对于*$0 \leq i \leq s - 1$。
 
-注两个可区分多项式中的乘积是可区分多项式。
+请注意，两个可区分多项式中的乘积是可区分多项式。
 
 #### 命题 6（准备定理）{#ac-vii-s3-prop-6 .statement tag=0522}
 
-*设*$f \in B$*为级数，其减少的级数不是零，并且*$s$*其减少的阶。 Then there exists a unique ordered pair* $(u, F)$ *such that* $u$ *is an invertible element of* $B$, $F$ *a distinguished polynomial of degree* $s$ *and* $f = uF$.
+*设*$f \in B$*为级数，其减少的级数不是零，并且*$s$*其减少的阶。 Then there exists a unique 有序对* $(u, F)$ *such that* $u$ *is 可逆元 of* $B$, $F$ *distinguished polynomial of 次数* $s$ *and* $f = uF$.
 
 我们写 $F = X^s + G$，其中 $G = g_0 + \cdots g_{s-1} X^{s-1}$ ($g_i \in \mathbf{A}$)。 关系$f = uF$相当于$F = u^{-1}f$，即$X^s = u^{-1}f - G$。因此，命题 5 显示$G$ 和$u^{-1}$ 的唯一性，因此也显示$F$ 和$u$。它还表明存在 $v \in B$ 和多项式 $G = g_0 + \cdots + g_{s-1} X^{s-1}$ ($g_i \in \mathbf{A}$) 使得 $X^s = v - G$；仍然需要证明$v$在$B$中是可逆的，并且$g_i \in \mathfrak{m}$对于所有$i$是可逆的。现在，将$k$中的$g_i$的典范像写成$\bar{g}_i$，将$f, g$的减少的级数写成$\bar{f}, \bar{v}$，
 $$
@@ -351,27 +351,27 @@ $$
 
 事实上，$g$和$h$减少的级数是$\neq 0$；因此，到命题 6，存在$B$的可逆元$u, v$，使得$ug$和$vh$是可区分的多项式。那么 $uvF = (ug)(vh)$ 是可区分多项式，$uv$ 是可逆的。 经过到缩小的级数，立即可以看出$F$和$uvF$具有相同的缩小的阶，即相同的次数。因此，命题 6 中的唯一性断言显示$F = uvF$、从而 $uv = 1$。
 
-#### 推论{#ac-vii-s3-n8-cor-2 .statement tag=0524}
+#### 推论 {#ac-vii-s3-n8-cor-2 .statement tag=0524}
 
 *进一步假设*$\mathbf{A}$*是整环并且*$F$*次数*$s$的可分辨多项式。 *对于* $F$ *在* $\mathbf{A}[X]$ 中为极值，*它在* $B = \mathbf{A}[[X]]$ 中为极值是必要且充分的。
 
-假设$F$在$\mathbf{A}[X]$中不是极值，则$F = f_1 f_2$，其中$f_1$和$f_2$是$\mathbf{A}[X]$的不可逆元素； $f_1$和$f_2$的主系数乘积等于1，这些系数在$\mathbf{A}$和假设中可逆，意味着$f_1$和$f_2$分别为次数、$> 0$和$< s$；由于约化多项式 $\bar{f}_1, \bar{f}_2$ 满足 $\bar{f}_1 \bar{f}_2 = X^s$，$\bar{f}_1$ 和 $\bar{f}_2$ 都不能在 $k[[X]]$ 中可逆，因为，如果 $\bar{f}_1$ 可逆，$\bar{f}_2$ 将是阶 $s$，这是荒谬的。 *更不必说*，$f_1$和$f_2$在$B$中都不可逆，并且$F$在$B$中不是极值。
+假设$F$在$\mathbf{A}[X]$中不是极值，则$F = f_1 f_2$，其中$f_1$和$f_2$是$\mathbf{A}[X]$的不可逆元素； 乘积 of the dominant 系数 of $f_1$ and $f_2$ being equal to 1, these 系数 are invertible in $\mathbf{A}$ and 假设 implies that $f_1$ and $f_2$ are of 次数 $> 0$和$< s$； as the reduced polynomials $\bar{f}_1, \bar{f}_2$ 满足 $\bar{f}_1 \bar{f}_2 = X^s$, neither $\bar{f}_1$ nor $\bar{f}_2$ can be invertible in $k[[X]]$, for, if $\bar{f}_1$ were invertible, $\bar{f}_2$ would be of 阶 $s$，这是荒谬的。 *更不必说*，$f_1$和$f_2$在$B$中都不可逆，并且$F$在$B$中不是极值。
 
-相反，如果 F 在 $A[[X]]$ 中不是极值，则 $F = gh$，其中 g 及其在 B 中的可逆都不是；因此，它们减少的阶为 $\geq 1$；则命题 7 的可区分多项式$ug$和$u^{-1}h$不是常数，这表明F在$A[X]$中不是极值。
+相反，如果 F 在 $A[[X]]$ 中不是极值，则 $F = gh$，其中 g 及其在 B 中的可逆都不是；因此，他们减少的阶为 $\geq 1$；则命题 7 的可区分多项式$ug$和$u^{-1}h$不是常数，这表明F在$A[X]$中不是极值。
 
 ### 9. 形式幂级数的环阶乘
 
 #### 命题 8 {#ac-vii-s3-prop-8 .statement tag=0525}
 
-令 C 为环，即域或离散估值环。那么形式幂级数 $C[[X_1, \ldots, X_n]]$ 的定义域是阶乘。
+令C为环，即域或离散估值环。那么形式幂级数 $C[[X_1, \ldots, X_n]]$ 的定义域是阶乘。
 
-令$p$为C和$p$的$x$生成元（如果C是域，则$\pi = 0$）。让 C 被赋予 $p$-adic 拓扑，即 Hausdorff。由于C是诺特局部环，$B = C[[X_1, \ldots, X_n]]$是诺特局部环，它的完成度是$\hat{C}[[X_1, \ldots, X_n]]$（章III, §2, no. 6，命题6）。由命题 4 (no. 6)的推论，足以证明$\hat{C}[[X_1, \ldots, X_n]]$是阶乘。现在，如果C是域，那么$\hat{C} = C$；如果C是离散估值环，则$\hat{C}$也是如此（章VI, §5, no. 3，命题5）。因此，我们假设证明的剩余部分C是完整的。
+令$p$为C和$p$的$x$生成元（如果C是域，则$\pi = 0$）。让 C 被赋予 $p$-adic 拓扑，即 Hausdorff。由于C是诺特局部环，$B = C[[X_1, \ldots, X_n]]$是诺特局部环，其完成度是$\hat{C}[[X_1, \ldots, X_n]]$（章III, §2, no. 6，命题6）。由推论到命题 4 (no. 6)，足以证明$\hat{C}[[X_1, \ldots, X_n]]$是阶乘。现在，如果C是域，那么$\hat{C} = C$；如果C是离散估值环，则$\hat{C}$也是如此（章VI, §5, no. 3，命题5）。因此，我们假设在证明的剩余部分中C是完整的。
 
 从琐碎的情况$n = 0$开始，通过归纳进行论证，我们假设已经证明了$A = C[[X_1, \ldots, X_{n-1}]]$是阶乘。我们将认同 B 与$A[[X_n]]$ 并用m 表示A 的最大理想（由$\pi, X_1, \ldots, X_{n-1}$ 生成）。我们将证明 B 的每个非零元素 g 以本质上唯一的方式是极值元素的乘积。
 
-设K为域$C/C\pi$；由于$B/B\pi$与$K[[X_1, \ldots, X_n]]$相同，理想的$Bx$是素数，$x$是极值。如果$x \neq 0$，$B_{B\pi}$因此是规范离散估值w的环（章VI, §3, no. 6，命题9）；因此，B 的每个非零元素 g 可以写为 $g = \pi^{w(g)} f$，其中 $f \in B$ 且 f 不是 $\pi$ 的倍数。因此，只需证明 $f$ 是极值元素本质上唯一的乘积。现在$K[[X_1, \ldots, X_n]]$中$f$的典范像不是零； 引理 3 (no. 7)因此表明B存在自同构，其中映射$f$到元素$f'$，使得$f'(0, \ldots, 0, X_n)$的系数不全部在$Cx$中；这意味着级数$f'$的系数（被视为$X_n$中的正式幂级数）并不全部以m为单位。足以证明我们的断言适合$f'$。
+设K为域$C/C\pi$；由于$B/B\pi$与$K[[X_1, \ldots, X_n]]$相同，理想的$Bx$是素数，$x$是极值。如果$x \neq 0$，$B_{B\pi}$因此是规范离散估值w的环（章VI, §3, no. 6，命题9）；因此，B 的每个非零元素 g 可以写为 $g = \pi^{w(g)} f$，其中 $f \in B$ 且 f 不是 $\pi$ 的倍数。因此，只需证明 $f$ 是极值元素本质上唯一的乘积。现在$K[[X_1, \ldots, X_n]]$中$f$的典范像不是零； 引理 3 (no. 7) therefore shows that there exists 自同构 of B which 映射 $f$ to 元素 $f'$ such that 系数 of $f'(0, \ldots, 0, X_n)$ are not all in $Cx$;这意味着级数$f'$中的系数被视为$X_n$中的正式幂级数，并不都是m。足以证明我们的断言换成$f'$。
 
-接下来，B 的所有元素将被视为 $X_n$ 中的形式幂级数，其系数在 A 中。通过 no. 8 的命题 6 （从 C 开始适用，因此 A 是可分且完整的，并且减少的级数 off' 为$\neq 0$），$f'$在B中与一个唯一的可区分多项式F相关联。通过no. 8的命题7，每个级数其中除$f'$（或者，相当于相同的除F）与一个可区分多项式相关联， 除 F 和每个分解 off' 是在可逆因子内，形式 $f' = u F_1 \cdots F_q$，其中 $u$ 是可逆的，$F_i$ 是极值可区分多项式（在 B 中），使得 $F = F_1 \cdots F_q$。根据 no. 8 命题 7 的推论，$F_i$ 在 $\mathbf{A}[X_n]$ 中也是极值。现在，由于$\mathbf{A}$是归纳假设的阶乘，$\mathbf{A}[X_n]$也是如此（定理2，no. 5）；因此，由于它们是单调的，$F_i$由$F$唯一确定（最多置换）。这显示了分解 $f' = u F_1 \ldots F_r$ 的唯一性；它的存在源于$B$是诺特，从而完成了证明。
+In what follows, all 元素 of B will be considered as formal 幂级数 in $X_n$ with 系数 in A. By 命题 6 of no. 8 (applicable since C and therefore A are separable and complete and the reduced 级数 off' is $\neq 0$), $f'$ is associated, in B, with a unique distinguished polynomial F. By 命题 7 of no. 8, every 级数 which 除 $f'$ (or, what amounts to the same, which 除 F) is associated with a distinguished polynomial which 除 F and every 分解 off' is, to within invertible 因子, of 形式 $f' = u F_1 \cdots F_q$, where $u$ is invertible and the $F_i$ are extremal distinguished polynomials (in B) such that $F = F_1 \cdots F_q$。到no. 8的推论到命题7时，$F_i$也在$\mathbf{A}[X_n]$中达到极值。现在，由于 $\mathbf{A}$ 是归纳假设的阶乘，$\mathbf{A}[X_n]$ 也是如此（定理 2, no. 5）；因此，由于它们是单调的，$F_i$由$F$唯一确定（最多置换）。这显示了分解 $f' = u F_1 \ldots F_r$ 的唯一性；它的存在源于$B$是诺特，从而完成了证明。
 
 注
 (1) 存在阶乘环 $\mathbf{A}$，使得环 $\mathbf{A}[[X]]$ 不是阶乘 (习题 8)。但是，如果 $\mathbf{A}$ 是主理想整环，则 $\mathbf{A}[[X_1, \ldots, X_n]]$ 是阶乘 (习题 9)。

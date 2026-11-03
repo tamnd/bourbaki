@@ -70,16 +70,16 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: 76a00aba2e24807f97bdb6dde3b8c3f64fac283077469587c0a30dca8cf045a3
+content_sha256: c3ce659c61fa8d676bf432fd9d820ee5056465c10eb079ccc3e897ce4dc1325b
 translated_from: content/en/alg/II/01_s1_modules.md
 translation_method: google
 source_content_sha256: 7b2cea857b009f809085412ca64248b0f317359a2bcbd7a3a189e12a6f0b01fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: bc7f2af2bf3dd67c19b4532baa1af3a3f193a7ac366fe57a89e144aae57bfd75
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 模
@@ -163,13 +163,13 @@ $$
 
 #### 定义 3 {#alg-ii-s1-def-3 .statement tag=05JS}
 
-*如果存在有限支撑的A的元素的族$(\lambda_i)_{i \in I}$，则A-模E的元素x被称为线性组合，且E的$(a_i)_{i \in I}$族的A中的系数为元素，使得$x = \sum_{i \in I} \lambda_i a_i$。*
+*如果存在有限支撑的A的元素的族$(\lambda_i)_{i \in I}$，则A-模E的元素x被称为线性组合，并且E的元素的族$(a_i)_{i \in I}$的A中的系数，使得$x = \sum_{i \in I} \lambda_i a_i$。*
 
 一般来说，有几个不同的家族$(\lambda_i)$满足这个条件（cf.no. 11）。
 
-注 0 是 E 的元素空族中唯一的线性组合（按照 I, § 2, no. 1 的约定）。
+请注意，0 是 E 的元素空族中唯一的线性组合（按照 I, § 2, no. 1 的约定）。
 
-### 2. LINEAR MAPPINGS
+### 2. 线性映射
 
 #### 定义 4 {#alg-ii-s1-def-4 .statement tag=05JT}
 
@@ -193,9 +193,9 @@ $$
 #### 例 {#alg-ii-s1-n2-exa-1 .statement tag=05JV}
 
 (1) 令E为A-模且E的元素；将 A-模 $A_s$ 的映射 $\lambda \mapsto \lambda a$ 放入 E 中是线性映射 $\theta_a$，使得 $\theta_a(1) = a.$
-*(2) 设I为实直线$\mathbf{R}$的开区间，I上可微实值函数的E向量空间和I上定义的所有实值函数的F向量空间。 映射 $x \mapsto x'$ 与每个可微分函数 x 相关联，其导数是从 E 到 F 的线性映射。*
+*(2) 设I为实直线$\mathbf{R}$的开区间，I上可微实值函数的E向量空间以及I上定义的所有实值函数的F向量空间。 映射 $x \mapsto x'$ 与每个可微分函数 x 相关联，其导数是从 E 到 F 的线性映射。*
 
-注，A-模E上的位似$x \mapsto \alpha x$不一定是线性映射：在其他字，关系$\alpha(\lambda x) = \lambda(\alpha x)$不一定对所有$\lambda \in A$和$x \in E$成立。然而，当 A 的 $\alpha$ 属于到中心时，关系成立； $x \mapsto \alpha x$ 则称为中心位似 (cf. no. 13)。
+请注意，A-模 E 上的位似$x \mapsto \alpha x$不一定是线性映射：在其他字中，关系$\alpha(\lambda x) = \lambda(\alpha x)$不一定适用于所有$\lambda \in A$和$x \in E$。然而，当 A 的 $\alpha$ 属于到中心时，关系成立； $x \mapsto \alpha x$ 则称为中心位似 (cf. no. 13)。
 
 如果$u : E \to F$是线性映射，那么，对于E的元素的每个家庭$(x_i)_{i \in I}$和A的元素的每个家庭$(\lambda_i)_{i \in I}$，使得家庭$(\lambda_i x_i)_{i \in I}$的支持是有限的，
 
@@ -203,7 +203,7 @@ $$
 u\left( \sum_{i \in I} \lambda_i x_i \right) = \sum_{i \in I} \lambda_i u(x_i)
 $$
 
-如下紧接着（3）和（4G）由归纳以家庭支持$(\lambda_i x_i)$为基数。
+如下紧随（3）和（4G）由家庭$(\lambda_i x_i)$的支持归纳于基数。
 
 #### 命题 1 {#alg-ii-s1-prop-1 .statement tag=05JW}
 
@@ -215,7 +215,7 @@ $$
 
 这些命题紧随定义 4 之后。
 
-命题 1 和 2 表明，线性映射可以看作A-模结构的类的*态射*（*集合理论*，IV, § 2, no. 1）；从此以后，我们将始终假设态射中的选择已经完成。
+命题 1 和 2 表明线性映射可以看作A-模结构类的*态射* (*集合理论*, IV, § 2, no. 1)；从此以后，我们将始终假设态射中的选择已经完成。
 
 给定两个左（右）A-模 E 和 F，令 Hom(E, F) 或 Hom_A(E, F) 表示 E 的线性映射到 F 的集合。
 
@@ -267,9 +267,9 @@ $$
 (3) 设$E$为$A$模，$x$元素为$E$的$a$为$A$的左理想。 元素 $\alpha x$的集合，其中$\alpha$贯穿$a$，是$E$的子模，用$ax$表示。
 (4) 在被视为$\mathbf{Z}$模(no. 1)的交换群$G$中，$G$的每个子群也是子模。
 
-*(5) 设$I$为实直线$\mathbf{R}$的开区间；在$I$上定义且连续的实值函数的集合$C$是在$I$上定义的所有实值函数的向量空间$\mathbf{R}^I$的向量子空间。类似地，$I$上可微的函数的集合$D$是$C_*$的向量子空间*
+*(5) 令$I$为实直线$\mathbf{R}$的开区间；在$I$上定义且连续的实值函数的集合$C$是在$I$上定义的所有实值函数的向量空间$\mathbf{R}^I$向量子空间。类似地，$I$上可微的函数的集合$D$是$C_*$的向量子空间*
 
-令 $E$ 为 $A$ 模块。每个$E$上与模结构兼容的等价关系（I, § 1, no. 6）都是形式$x - y \in M$，其中$M$是E（I, § 4, no. 4）的稳定子群，即E的子模。立即验证商群 E/M (I, § 4, no. 4) 上有运算符的群的结构为A-模结构，其中典范映射 $E \to E/M$ 是线性的；有了这个结构，E/M 被称为 E 与子模 M 的 *商模*。 向量空间 E 的商模被称为 E 的*商向量空间*（或简称为*商空间*）。
+令 $E$ 为 $A$ 模块。每个$E$上与模结构兼容的等价关系（I, § 1, no. 6）都是形式$x - y \in M$，其中$M$是E（I, § 4, no. 4）的稳定子群，即E的子模。立即验证群的结构与商群 E/M (I, § 4, no. 4) 上的运算符为A-模结构，其中典范映射 $E \to E/M$ 是线性的；有了这个结构，E/M被子模M称为E的*商模*。向量空间E的商模被称为E的*商向量空间*（或简称为*商空间*）。
 
 *例* (6)。 左A-模 $A_s$ 环定义商模 $A_s/a$ 中各左理想$a$；由于滥用记号，这个商模通常被表示为$A/a$。
 
@@ -285,13 +285,13 @@ $u$的核、像、coimage和余核分别用Ker$u$、Im$u$、Coim$u$、Coker$u$�
 
 #### 注 {#alg-ii-s1-n3-rem-1 .statement tag=05JY}
 
-令 M 为 A-模 E 和 $\phi : E \to E/M$ 典范同态的子模。对于A-线性映射$u : E \to F$为形式$v \circ \phi$，其中$v$是E/M到F中的线性映射，$M \subset \mathrm{Ker}(u)$是充分必要的；因为，如果这个条件成立，关系$x - y \in M$意味着$u(x) = u(y)$，因此$u$与这个等价关系兼容，并且显然从$u$取商得出的映射$v : E/M \to F$是线性的。
+令 M 为 A-模 E 和 $\phi : E \to E/M$ 典范同态的子模。对于A-线性映射$u : E \to F$为形式$v \circ \phi$，其中$v$是E/M到F中的线性映射，$M \subset \mathrm{Ker}(u)$是充分必要的；因为，如果这个条件成立，关系$x - y \in M$意味着$u(x) = u(y)$，因此$u$与这个等价关系兼容，并且显然从$u$通过取商得出的映射$v : E/M \to F$是线性的。
 
 ### 4. 正合序列
 
 #### 定义 5 {#alg-ii-s1-def-5 .statement tag=05JZ}
 
-*设F、G、H为三个A-模；令 f 为 F 的同态到 G 以及 G 的同态到 H。 有序对 (f, g) 称为正合序列 if*
+*设F、G、H为三个A-模；令 f 为 F 的同态入 G，g 同态入 H。 有序对 (f, g) 称为正合序列 if*
 
 $$
 g^{-1}(0) = f(F)
@@ -314,13 +314,13 @@ $$
 E \xrightarrow{f} F \xrightarrow{g} G \xrightarrow{h} H.
 $$
 
-如果图表 $E \xrightarrow{f} F \xrightarrow{g} G$ 精确，则该图表被称为*精确于*F；如果 $F \xrightarrow{g} G \xrightarrow{h} H$ 是精确的，则它被称为*精确于* G。如果图表 (13) *精确于* F *和* G，则简单地称为*精确*，或*正合序列*。 正合序列与任意数项的定义类似。
+如果图表 $E \xrightarrow{f} F \xrightarrow{g} G$ 精确，则此图表被称为*精确于*F；如果 $F \xrightarrow{g} G \xrightarrow{h} H$ 是精确的，则它被称为*精确于* G。如果图表 (13) *精确于* F *和* G，则简单地称为*精确*，或*正合序列*。 正合序列与任意数项的定义类似。
 
 #### 注 {#alg-ii-s1-n4-rem-1 .statement tag=05K0}
 
-(1) 若有序对$(f, g)$为正合序列，则$g \circ f = 0$；但当然这个性质并不表征正合序列，因为它只意味着$f$的像*包含于*在$g$的核中。
+(1) 若有序对$(f, g)$为正合序列，则$g \circ f = 0$；但当然，这个性质并不表征正合序列，因为它只意味着$f$的像“包含于”在$g$的核中。
 
-下面的叙述中，E、F、G表示A-模，0 A-模缩减为单位元素；箭头代表A-模同态。由于从模 0 到模 E（分别是 E 到 0）只有一个同态，因此在正合序列中为这些同态命名时没有点它们出现的地方。
+下面叙述中，E、F、G表示A-模，0 A-模缩减为单位元素；箭头代表A-模同态。由于从模 0 到模 E（分别是 E 到 0）中只有一个同态，因此在正合序列中为这些同态命名时没有点它们出现的地方。
 
 #### 命题 3 {#alg-ii-s1-prop-3 .statement tag=05K1}
 
@@ -328,7 +328,7 @@ $$
 $$
 0 \longrightarrow E \xrightarrow{f} F
 $$
-*要成为正合序列，*$f$*是单射的*是必要且充分的。
+*要成为正合序列，* $f$ *是单射的*是必要且充分的。
 
 (b) *对于*
 $$
@@ -357,7 +357,7 @@ $$
 
 *（其中$i$是典范嵌入，$p$典范满射）是正合序列。*
 
-命题紧接在no. 2的定义和命题2之后。
+命题紧接在 no. 2 的定义和命题 2 之后。
 
 #### 注 {#alg-ii-s1-n4-rem-2 .statement tag=05K2}
 
@@ -409,7 +409,7 @@ $$
 
 (5) 正合序列扩展的定义立即到群，它们不一定可交换；在这种情况下，当然使用乘法记号，并将公式中的0替换为1（如果不产生混淆）。 命题 3 的部分 (a)、(b)、(c) 仍然有效，并且 (d) 当 F 是 E 的正规子群时。 注 2 和命题 3(e) 在条件上，$f(E)$ 是正规的F 的子群； 注 3 和 4 无需修改即可有效。
 
-### 5. 乘积模
+### 5. 乘积 / 模
 
 设$(E_i)_{i \in I}$是环A上的模的族。立即验证$E_i$上模结构的乘积（$I, § 4,$no. 8）是A-模结构乘积集合$E = \prod_{i \in I} E_i$。这样结构集合E就称为模$E_i$的乘积模；如果$x = (x_i), y = (y_i)$是E的两个元素，那么
 
@@ -465,27 +465,27 @@ $$
 \operatorname{Coim}(f) \to \prod_{i \in I} \operatorname{Coim}(f_i), \qquad \operatorname{Coker}(f) = \prod_{i \in I} \operatorname{Coker}(f_i)
 $$
 
-通过分别与$\prod_i E_i$、模$\operatorname{Ker}(f)$的元素$x = (x_i)$的类（分别与$\prod_i F_i$、模$\operatorname{Im}(f)$的元素$y = (y_i)$的类）相关联而获得$x_i$ 模组的类。 $\operatorname{Ker}(f_i)$（分别是$y_i$ mod. $\operatorname{Im}(f)$ 的类系列）。
+通过分别与$\prod_i E_i$、模$\operatorname{Ker}(f)$的元素$x = (x_i)$类（分别与$\prod_i F_i$、模$\operatorname{Im}(f)$的元素$y = (y_i)$类）相关联而获得$x_i$ 模组的类。 $\operatorname{Ker}(f_i)$（分别是$y_i$ mod. $\operatorname{Im}(f)$ 的类系列）。
 
 特别是，对于 $f$ 是单射的（分别是满射、双射的、零），对于所有 $i \in I$、$f_i$ 是单射（分别是满射、双射的、零）是必要和充分的。
 
-如果，对于所有$i \in I$，我们认为$E_i$的子模$F_i$，模$\prod_{i \in I} F_i$是$\prod_{i \in I} E_i$的子模，并且根据命题5的推论，有典范同构
+如果对于所有$i \in I$，我们认为$E_i$的子模$F_i$，模$\prod_{i \in I} F_i$是$\prod_{i \in I} E_i$的子模，并且凭借推论到命题5，有典范同构
 
 $$
 \prod_{i \in I} (E_i/F_i) \to \left( \prod_{i \in I} E_i \right) / \left( \prod_{i \in I} F_i \right).
 $$
 
-模的乘积的一个重要的例是，所有因子模都等于相同的模$F$；那么他们的乘积$F^I$只是$I$的映射到$F$的集合。 $I$ 上等于 $x$ 的常数函数的对角线映射 $F \to F^I$ 映射 $x \in F$ 是线性的。如果 $(E_i)_{i \in I}$ 是一系列 $A$ 模块，并且对于所有 $i \in I$，$f_i : F \to E_i$ 是线性映射，则 $F$ 的线性映射 $x \mapsto (f_i(x))$ 到 $\prod_{i \in I} E_i$ 的合成将$F^I$的映射$(x_i) \mapsto (f_i(x_i))$分解为$\prod_{i \in I} E_i$和对角线映射$F \to F^I$。
+模的乘积的一个重要的例是，所有因子模都等于相同的模$F$；那么他们的乘积$F^I$就是$I$的映射到$F$的集合。 $I$ 上等于 $x$ 的常数函数的对角线映射 $F \to F^I$ 映射 $x \in F$ 是线性的。如果 $(E_i)_{i \in I}$ 是一系列 $A$ 模块，并且对于所有 $i \in I$，$f_i : F \to E_i$ 是线性映射，则 $F$ 的线性映射 $x \mapsto (f_i(x))$ 到 $\prod_{i \in I} E_i$ 的合成将$F^I$的映射$(x_i) \mapsto (f_i(x_i))$分解为$\prod_{i \in I} E_i$和对角线映射$F \to F^I$。
 
 ### 6. 直和 / 模
 
-让$(E_i)_{i \in I}$是A-模的一个家庭，$F = \prod_{i \in I} E_i$是他们的乘积。 $x \in F$的集合$E$，使得除了指标的有限数之外，$\mathrm{pr}_i x = 0$显然是$F$的子模，称为族的外部直和（或简称为直和） 模 $(E_i)$ 并表示为 $\bigoplus_{i \in I} E_i$ (I, § 4, no. 9)。当I有限时，则$\bigoplus_{i \in I} E_i = \prod_{i \in I} E_i$；如果$I = \{p, q\}$（$\mathbf{Z}$的间隔），我们也写
+让$(E_i)_{i \in I}$是A-模的一个家庭，$F = \prod_{i \in I} E_i$是他们的乘积。 $x \in F$的集合$E$，使得除了指标的有限数之外，$\mathrm{pr}_i x = 0$显然是$F$的子模，称为族的外部直和（或简称为直和） 模 $(E_i)$ 并表示为 $\bigoplus_{i \in I} E_i$ (I, § 4, no. 9)。当I有限时，则$\bigoplus_{i \in I} E_i = \prod_{i \in I} E_i$；如果$I = \{p, q\}$（$\mathbf{Z}$的区间），我们也写
 
 $$
 \bigoplus_{i \in I} E_i = E_p \oplus E_{p+1} \oplus \cdots \oplus E_q.
 $$
 
-对于所有$\kappa \in I$，令$j_\kappa$为映射$E_\kappa \to F$，它与$F$的每个$x_\kappa \in E_\kappa$元素相关联，使得$\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$对应于$i \neq \kappa$和$\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$； 直接的是$j_\kappa$是$E_\kappa$的单射线性映射到$E_i$的直和$E$，我们称之为典范嵌入； $E$的子模$j_\kappa(E_\kappa)$，与$E_\kappa$同构的，称为指标$\kappa$的$E$的分量子模。通常通过 $j_\kappa$ 来识别$E_\kappa$。
+对于所有$\kappa \in I$，令$j_\kappa$为映射$E_\kappa \to F$，它与$F$的每个$x_\kappa \in E_\kappa$元素相关联，使得$\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$对应于$i \neq \kappa$和$\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$； 直接的是$j_\kappa$是$E_\kappa$的单射线性映射到$E_i$的直和$E$，我们称之为典范嵌入； $E$子模$j_\kappa(E_\kappa)$，与$E_\kappa$同构的，称为指标$\kappa$$E$分量子模。它通常通过 $j_\kappa$ 与$E_\kappa$ 来识别。
 
 对于所有$x \in E = \bigoplus_{i \in I} E_i$，因此我们有
 
@@ -536,19 +536,19 @@ $$
 $$
 y = \sum_{i \in I} f_i(g_i(y)).
 $$
-注如果I是有限的，最后一个条件也可以写成
+请注意，如果I是有限的，则最后一个条件也可以写为
 $$
 \sum_{i \in I} f_i \circ g_i = 1_F.
 $$
 显然条件是必要的，因为他们已经满足了$g_i = \operatorname{pr}_i \circ f_i^{-1}$。相反，如果它们成立，则对于所有 $y \in F$，定义了$g(y) = \sum_i j_i(g_i(y))$，并且 $g$ 是 F 到 E 的线性映射，是直接的。对于所有 $y \in F$，$f(g(y)) = \sum_i f_i(g_i(y)) = y$ 除假设。另一方面，对于所有$x \in E$，$g_\kappa(f(x)) = g_\kappa \left( \sum_i f_i(\operatorname{pr}_i(x)) \right) = g_\kappa(f_\kappa(\operatorname{pr}_\kappa(x))) = \operatorname{pr}_\kappa(x)$乘以假设；
 
-因此$g(f(x)) = \sum_i j_i(g_i(f(x))) = \sum_i j_i(\mathrm{pr}_i(x)) = x$，证明了推论。
+因此$g(f(x)) = \sum_i j_i(g_i(f(x))) = \sum_i j_i(\mathrm{pr}_i(x)) = x$，证明推论。
 
 #### 命题 7 {#alg-ii-s1-prop-7 .statement tag=05KA}
 
-(i) *设* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *为两个系列的* $A$*-具有相同索引集合* $I$的模块； *对于线性映射* $f_i : E_i \to F_i$ ($i \in I$) 的每个家庭，*限制到* $\bigoplus_{i \in I} E_i$ *线性映射* $(x_i) \mapsto (f_i(x_i))$ *是线性映射* $f : \bigoplus_{i \in I} E_i \to \bigoplus_{i \in I} F_i$ *表示为* $\bigoplus_{i \in I} f_i$ *或* $\bigoplus_i f_i$ *（其中* $f = f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ *如果* $I = [p, q]$ *是* $\mathbf{Z}$* 中的一个区间）。*
+(i) *设* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *为两个系列的* $A$*-具有相同索引集合* $I$的模块； *对于线性映射* $f_i : E_i \to F_i$ ($i \in I$) 的每个家庭，*限制到* $\bigoplus_{i \in I} E_i$ *线性映射* $(x_i) \mapsto (f_i(x_i))$ *是线性映射* $f : \bigoplus_{i \in I} E_i \to \bigoplus_{i \in I} F_i$ *表示为* $\bigoplus_{i \in I} f_i$ *或* $\bigoplus_i f_i$ *（其中* $f = f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ *如果* $I = [p, q]$ *是区间在* $\mathbf{Z}$* 中）。*
 
-(ii) *让*$(G_i)_{i \in I}$*成为*$A$*模块的第三个系列，其中*$I$*作为索引集合，并且对于所有*$i \in I$，*让*$g_i : F_i \to G_i$*为线性映射；我们写* $g = \bigoplus_i g_i$。 *对于序列* $E_i \xrightarrow{f_i} F_i \xrightarrow{g_i} G_i$ *准确地说，序列* 是充分必要的
+(ii) *让*$(G_i)_{i \in I}$*成为*$A$*模块的第三个系列，其中*$I$*作为索引集合，并且对于所有*$i \in I$，*让*$g_i : F_i \to G_i$*成为线性映射；我们写* $g = \bigoplus_i g_i$。 *对于序列* $E_i \xrightarrow{f_i} F_i \xrightarrow{g_i} G_i$ *准确地说，序列* 是充分必要的
 $$
 \bigoplus_i E_i \xrightarrow{f} \bigoplus_i F_i \xrightarrow{g} \bigoplus_i G_i
 $$
@@ -566,7 +566,7 @@ $$
 $$
 \mathrm{Coim}(f) \to \bigoplus_{i \in I} \mathrm{Coim}(f_i), \qquad \mathrm{Coker}(f) \to \bigoplus_{i \in I} \mathrm{Coker}(f_i)
 $$
-*定义如no. 5，命题 5的推论。特别是，对于* $f$ *为单射（分别为满射、双射的、零），每个* $f_i$ *为单射（分别为满射、双射的、零）*是必要且充分的。
+*定义如no. 5、推论至命题 5。特别是，对于*$f$*为单射（分别为满射、双射的、零），每个*$f_i$*为单射（分别为满射、双射的、零）是必要且充分的。 零)*。
 
 如果对于所有$i \in I$，我们认为$E_i$、模$\bigoplus_{i \in I} F_i$的子模$F_i$是$\bigoplus_{i \in I} E_i$的子模，并且根据推论1到命题7，有典范同构
 $$
@@ -586,7 +586,7 @@ $$
 \end{array}
 $$
 
-（其中$\phi$和$\phi'$是推论1到命题6中定义的典范同构）是可交换的。
+（其中$\phi$和$\phi'$是在推论1到命题6中定义的典范同构）是可交换的。
 
 验证立即从定义开始。
 
@@ -596,41 +596,41 @@ $$
 
 回想一下，直和扩展的定义立即到*群*的$(E_i)_{i \in I}$族，它们不一定是可交换的，乘法记号当然替换加法记号；然后我们说“*restricted 乘积*”或“*restricted 和*”而不是“*直和*”(I, § 4, no. 9)。
 
-注，$E$是乘积$F = \prod_{i \in I} E_i$的*正常*子群，并且每个$j_k(E_k)$是$F$的*正常*子群；此外，对于两个不同的指标$\lambda, \mu$，$j_\lambda(E_\lambda)$的每一个元素与$j_\mu(E_\mu)$的每一个元素都是“可置换”的。 命题 6 扩展对于假设的一般情况，对于两个不同的指标$\lambda, \mu$，$f_\lambda(E_\lambda)$的每个元素在$M$中与$f_\mu(E_\mu)$的每个元素都是“可置换”的（I, § 4, no. 9，命题12）。受限制的和的“*结合性*”的性质紧随其后。 命题 7 及其推论 1 和 2 无需修改就成立。
+请注意，$E$是乘积$F = \prod_{i \in I} E_i$的*正常*子群，并且每个$j_k(E_k)$都是$F$的*正常*子群；此外，对于两个不同的指标$\lambda, \mu$，$j_\lambda(E_\lambda)$的每一个元素与$j_\mu(E_\mu)$的每一个元素都是“可置换”的。 命题 6 扩展对于假设的一般情况，对于两个不同的指标 $\lambda, \mu$，$f_\lambda(E_\lambda)$的每个元素在$M$中与$f_\mu(E_\mu)$的每个元素都是“可置换”的（I, § 4, no. 9，命题12）。受限制的和的“*结合性*”的性质紧随其后。 命题 7 及其推论 1 和 2 无需修改就成立。
 
-### 7. 交和和子模
+### 7. 交和和 / 子模
 
-对于$A$模块$E$的子模的每个族$(M_i)_{i \in I}$，交$\bigcap_{i \in I} E_i$是$E$的子模。如果，对于每个$i \in I$，$\phi_i$表示典范同态$E \to E/M_i$，$\bigcap_{i \in I} M_i$是$E$的同态$\phi : x \mapsto (\phi_i(x))$到$\prod_{i \in I} (E/M_i)$的*核*，在其他字中，有*正合序列*
+对于$A$模块$E$的子模的每个族$(M_i)_{i \in I}$，交$\bigcap_{i \in I} E_i$是$E$的子模。如果对于每个$i \in I$，$\phi_i$表示典范同态$E \to E/M_i$，$\bigcap_{i \in I} M_i$是$E$的同态$\phi : x \mapsto (\phi_i(x))$到$\prod_{i \in I} (E/M_i)$的*核*，在其他字中，有*正合序列*
 
 $$
 0 \longrightarrow \bigcap_{i \in I} M_i \longrightarrow E \xrightarrow{\phi} \prod_{i \in I} (E/M_i).
 $$
 
-线性映射 $\phi$ 和映射
+线性映射$\phi$和映射
 $$
 E / \left( \bigcap_{i \in I} M_i \right) \to \prod_{i \in I} (E / M_i)
 $$
-由经过求商得到的，称为规范的。
+由经过到商得到的，称为规范的。
 
-尤其：
+特别是：
 
 #### 命题 8 {#alg-ii-s1-prop-8 .statement tag=05KE}
 
-*如果一个家庭* $(M_i)_{i \in I}$ * of 子模 of* $E$ *将交简化为* $0$ *E 与* $\prod_{i \in I} (E / M_i)$ 的子模典型同构。
+*如果一个家庭* $(M_i)_{i \in I}$ * of 子模 of* $E$ *将交简化为* $0$ *E 与* $\prod_{i \in I} (E / M_i)$ 的子模是标准同构的。
 
-给定 $A$ 模块 $E$ 的子集 $X$，$E$ 包含 $X$ 的子模交 $F$ 被称为子模 *由 $X$ *生成*，并且$X$ 称为 $F$ (I, § 4, no. 3) 的 *生成的集合* (或 *生成的系统*)；对于$E$的元素的族$(a_i)_{i \in I}$，由$a_i$的集合生成的子模称为由$(a_i)$的族生成的子模。
+给定 $A$ 模块 $E$ 的子集 $X$，$E$ 包含 $X$ 的子模的交 $F$ 被称为子模 *生成* $X$ 和 $X$ 称为 $F$ (I, § 4, no. 3) 的 *生成的集合* (或 *生成的系统*)；对于$E$的元素的族$(a_i)_{i \in I}$，由$a_i$的集合生成的子模称为由$(a_i)$的族生成的子模。
 
 如果 $A$ 模块具有*有限* 生成的集合，则称为“有限生成”。
 
 #### 命题 9 {#alg-ii-s1-prop-9 .statement tag=05KF}
 
-*The submodule generated by a family* $(a_i)_{i \in I}$ *of elements of an* $A$*-module* $E$ *is the set of linear combinations of the family* $(a_i)$.
+*子模由一个家族*$(a_i)_{i \in I}$*一个*$A$*-模块*$E$*的元素*是该家族*$(a_i)$的线性组合集合。
 
-$E$中的每个子模，其中包含所有$a_i$以及$a_i$中的包含线性组合。反过来，no. 1的公式（1）和（2）证明$a_i$的线性组合的集合是$E$的子模，显然包含所有$a_i$因此是最小的子模包含他们。
+$E$中的每子模，其中包含所有$a_i$以及$a_i$中的包含线性组合。反过来，no. 1的公式（1）和（2）证明$a_i$的线性组合的集合是$E$的子模，显然包含所有$a_i$，因此最小的子模包含他们。
 
 #### 推论 1 {#alg-ii-s1-prop-9-cor-1 .statement tag=05KG}
 
-*设*$u : E \to F$*为*$E$*的线性映射、S子集和*$M$*子模*$E$*由*$S$生成。 *那么*$u(M)$*是*$F$*的子模*由*$u(S)$生成。
+*设*$u : E \to F$*为线性映射，*$E$*的S子集和*$M$*子模*$E$*由*$S$生成。 *那么*$u(M)$*是*$F$*的子模*由*$u(S)$生成。
 
 特别地，$E$的任意有限生成的子模在$u$下的像是$F$的有限生成的子模。
 
@@ -642,11 +642,11 @@ $E$中的每个子模，其中包含所有$a_i$以及$a_i$中的包含线性组�
 
 #### 推论 2 {#alg-ii-s1-prop-9-cor-2 .statement tag=05KI}
 
-*The submodule generated by the union of a family* $(M_i)_{i \in I}$ *of submodules of a module* $E$ *is identical with the set of sums* $\sum_{i \in I} x_i$, *where* $(x_i)_{i \in I}$ *runs through the set of families of elements of* $E$ *of finite support such that* $x_i \in M_i$ *for all* $i \in I$.
+*由族* $(M_i)_{i \in I}$ *模块的子模块* $E$ *与和集* $\sum_{i \in I} x_i$相同的子模块，*其中* $(x_i)_{i \in I}$ *贯穿* $E$ *有限支持的元素族集合，使得* $x_i \in M_i$ *对于所有* $i \in I$。
 
 显然$\bigcup_{i \in I} M_i$的元素的每一个线性组合都是上面的形式； 逆命题是显而易见的。
 
-The submodule of E generated by the union of a family $(M_i)_{i \in I}$ of submodules of E is called the *sum* of the family $(M_i)$ and is denoted by $\sum_{i \in I} M_i$.
+由 E 的子模块族 $(M_i)_{i \in I}$ 并集生成的 E 子模块称为族 $(M_i)$ 的*和*，并用 $\sum_{i \in I} M_i$ 表示。
 
 如果对于所有$i \in I$，$h_i$是典范嵌入$M_i \to E$和$\bigoplus_{i \in I} M_i$的$h : (x_i) \mapsto \sum_i h_i(x_i)$线性映射到E相应的到家庭$(h_i)$（no. 6，命题6），$\sum_{i \in I} M_i$是$h$的*像*；在其他字中，有一个*正合序列*
 
@@ -658,7 +658,7 @@ $$
 
 *如果* $(M_\lambda)_{\lambda \in L}$ *是A-模 E 的子模的右有向族，和* $\sum_{\lambda \in L} M_\lambda$ *与并* $\bigcup_{\lambda \in L} M_\lambda$相同。
 
-$\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ *在没有假设的情况下始终为真；另一方面，对于每个有限子族* $(M_\lambda)_{\lambda \in J}$ *of* $(M_\lambda)_{\lambda \in L}$，*存在假设 a* $\mu \in L$ *使得* $M_\lambda \subset M_\mu$ *对于所有* $\lambda \in J$，*因此* $\sum_{\lambda \in L} M_\lambda \subset M_\mu$ *因此从推论2得出* $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$。
+$\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ *在没有假设的情况下始终为真；另一方面，对于每个有限子族* $(M_\lambda)_{\lambda \in J}$ *of* $(M_\lambda)_{\lambda \in L}$，*存在假设 a* $\mu \in L$ *这样* $M_\lambda \subset M_\mu$ *对于所有* $\lambda \in J$，*因此* $\sum_{\lambda \in L} M_\lambda \subset M_\mu$ *因此从推论 2 得出* $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$。
 
 #### 推论 4 {#alg-ii-s1-prop-9-cor-4 .statement tag=05KK}
 
@@ -702,17 +702,17 @@ z' - t' = z'' - t'' = z.
 $$
 令 $w$ 为类 mod。 $z; r(w)$ 的$(M \cap N)$ 是类 mod。 $z$的$M$，因此还有$z'$的$x$；类似地，$s(w) = y$，它完成了证明那个$\operatorname{Ker}(p - q) = \operatorname{Im} v$。
 
-### 8. 直和子模
+### 8. 直和 / 子模
 
 #### 定义 6 {#alg-ii-s1-def-6 .statement tag=05KN}
 
 *A-模* $E$ *据说是一家人的直和* $(M_\iota)_{\iota \in I}$ *子模的* $E$ *如果典范映射* $\bigoplus_{\iota \in I} M_\iota \to E$ *(no. 6)* *就是同构*。
 
-这相当于说每个$x \in E$都可以*以独特的方式*写成形式$x = \sum_{\iota \in I} x_\iota$，其中$x_\iota \in E_\iota$代表所有$\iota \in I$； 元素 $x_\iota$ 因此相应的到$x$被称为$E_\iota$中$x$的*分量*； 映射 $x \mapsto x_\iota$ 是*线性*。
+这相当于说每个$x \in E$都可以*以独特的方式*写成形式$x = \sum_{\iota \in I} x_\iota$，其中$x_\iota \in E_\iota$代表所有$\iota \in I$； 元素$x_\iota$因此相应的到$x$被称为$E_\iota$中$x$的*分量*； 映射 $x \mapsto x_\iota$ 是*线性*。
 
 #### 注 {#alg-ii-s1-n8-rem-1 .statement tag=05KO}
 
-(1) 令$(M_\iota)_{\iota \in I}, (N_\iota)_{\iota \in I}$为模$E$的子模的两个族，具有相同的索引集合；假设$E$*同时*是$(M_\iota)$族和$(N_\iota)$族的直和，并且对于所有$\iota \in I$来说*那个*$N_\iota \subset M_\iota$。然后$N_\iota = M_\iota$*对于所有*$\iota \in I$，如下所示，立即从no. 6开始，推论1到命题7应用于典范嵌入$f_\iota : N_\iota \to M_\iota$。
+(1) 令$(M_\iota)_{\iota \in I}, (N_\iota)_{\iota \in I}$为模$E$的子模的两个族，具有相同的索引集合；假设$E$*同时*是$(M_\iota)$族和$(N_\iota)$族的直和，并且对于所有$\iota \in I$来说*那个*$N_\iota \subset M_\iota$。然后$N_\iota = M_\iota$ *对于所有* $\iota \in I$，如下所示，立即从no. 6、推论 1 到命题 7 应用于典范嵌入 $f_\iota : N_\iota \to M_\iota$。
 
 #### 命题 11 {#alg-ii-s1-prop-11 .statement tag=05KP}
 
@@ -722,7 +722,7 @@ $$
 
 (b) *关系* $\sum_{i \in I} x_i = 0$，*其中* $x_i \in M_i$ *对于所有* $i \in I$，*意味着* $x_i = 0$ *对于所有* $i \in I$。
 
-(c) *For all* $\kappa \in I$, *the intersection of* $M_\kappa$ *and* $\sum_{i \neq \kappa} M_i$ *reduces to* 0.
+(c) *对于所有* $\kappa \in I$，** $M_\kappa$ *和* $\sum_{i \neq \kappa} M_i$ *的交集减少到* 0。
 
 (a) 和 (b) 等价的是直接的，因为关系 $\sum_i x_i = \sum_i y_i$ 等价于 $\sum_i (x_i - y_i) = 0$。另一方面，根据定义6，(a)通过将$\bigoplus_{i \in I} M_i$的元素的表达式唯一性隐含为元素$x_i \in M_i$的直和。最后，关系$\sum_i x_i = 0$，其中$x_i \in M_i$对于所有$i$，可以写成，对于所有$\kappa \in I$，$x_\kappa = \sum_{i \neq \kappa} (-x_i)$； 条件 (c) 那么对于所有 $\kappa \in I$ 意味着 $x_\kappa = 0$，因此 (c) 意味着 (b)。
 
@@ -734,20 +734,20 @@ $$
 
 *设E为A-模。*
 
-(i) *如果 E 是直和族* $(M_\lambda)_{\lambda \in L}$ *的子模，且对于所有* $x \in E$、$e_\lambda(x)$ *是 x 的分量* $M_\lambda$、$(e_\lambda)$ *是投影算子的正交族，使得* $x = \sum_{\lambda \in L} e_\lambda(x)$ *对于所有* $x \in E$。
+(i) *If E is the direct sum of a family* $(M_\lambda)_{\lambda \in L}$ *of submodules and, for all* $x \in E$, $e_\lambda(x)$ *is the component of x in* $M_\lambda$, $(e_\lambda)$ *is an orthogonal family of projectors such that* $x = \sum_{\lambda \in L} e_\lambda(x)$ *for all* $x \in E$.
 
 (ii) *相反，如果* $(e_\lambda)_{\lambda \in L}$ *是$\operatorname{End}(E)$中投影算子的正交族，使得* $x = \sum_{\lambda \in L} e_\lambda(x)$ *对于所有* $x \in E$，*E是子模* $M_\lambda = e_\lambda(E)$族的直和。
 
-性质 (i) 由定义推出，(ii) 是no. 6的特例，推论2至命题 6，适用于典范嵌入 $M_\lambda \to E$ 和映射 $e_\lambda : E \to M_\lambda$。
+性质 (i) 源自定义，(ii) 是no. 6、推论 2 到命题 6 的特例，应用于典范嵌入 $M_\lambda \to E$ 和映射 $e_\lambda : E \to M_\lambda$。
 
-注，当L有限时，对于所有$x \in E$，条件$x = \sum_{\lambda \in L} e_\lambda(x)$也可以写成$\operatorname{End}(E)$。
+请注意，当L有限时，所有$x \in E$的条件$x = \sum_{\lambda \in L} e_\lambda(x)$也可以写成$\operatorname{End}(E)$。
 
 (31)
 $$
 1_E = \sum_{\lambda \in L} e_\lambda.
 $$
 
-#### 推论{#alg-ii-s1-n8-cor-1 .statement tag=05KS}
+#### 推论 {#alg-ii-s1-n8-cor-1 .statement tag=05KS}
 
 *对于E的每个投影算子 e，E是e的像*$M = e(E)$*和核*$N = e^{-1}(0)$*的直和；对于所有* $x = x_1 + x_2 \in E$ *与* $x_1 \in M$ *和* $x_2 \in N$、$x_1 = e(x)$； *1 − e 是像 N 和核 M* 的 E 的投影算子。
 
@@ -757,11 +757,11 @@ $(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *在* $\operatorname{End}(E)$ *因此* $1 - e
 
 #### 注 {#alg-ii-s1-n8-rem-2 .statement tag=05KT}
 
-(2) 令E、F为两个A-模，使得E是子模的有限族$(M_i)_{1 \leq i \leq m}$的直和，并且F直和属于子模的有限族$(N_j)_{1 \leq j \leq n}$。然后可知（no. 6，推论 1 到命题 6）$\mathrm{Hom}_A(E, F)$ 与乘积 $\prod_{i,j} \mathrm{Hom}_A(M_i, N_j)$ 被规范地识别；准确地说，对于一个家庭$(u_{ji})$，其中$u_{ji} \in \mathrm{Hom}_A(M_i, N_j)$还有对应线性映射$u : E \to F$定义如下。 $u$中的定义限制足以满足每个$M_i$和每个$x_i \in M_i$，
+(2) 令E、F为两个A-模，使得E是子模的有限族$(M_i)_{1 \leq i \leq m}$的直和，并且F直和属于子模的有限族$(N_j)_{1 \leq j \leq n}$。然后已知（no. 6、推论 1 到命题 6）$\mathrm{Hom}_A(E, F)$ 被规范地标识为乘积 $\prod_{i,j} \mathrm{Hom}_A(M_i, N_j)$；准确地说，对于一个家庭$(u_{ji})$，其中$u_{ji} \in \mathrm{Hom}_A(M_i, N_j)$还有对应线性映射$u : E \to F$定义如下。对于每个$M_i$和每个$x_i \in M_i$来说，$u$的定义限制就足够了，
 $$
 u(x_i) = \sum_{j=1}^n u_{ji}(x_i).
 $$
-现在让 G 为子模的有限族 $(P_k)_{1 \leq k \leq p}$ 的第三个A-模、直和；令$v$为F到G的线性映射，并让$(v_{kj}) \in \prod_{j,k} \mathrm{Hom}_A(N_j, P_k)$规范地为它的相应的族。对于所有$x_i \in M_i$，
+现在让 G 为子模的有限族 $(P_k)_{1 \leq k \leq p}$ 的第三个A-模、直和；令$v$为F到G中的线性映射，并令$(v_{kj}) \in \prod_{j,k} \mathrm{Hom}_A(N_j, P_k)$规范地为它的相应的族。对于所有$x_i \in M_i$，
 $$
 v(u(x_i)) = \sum_{j=1}^n v(u_{ji}(x_i)) = \sum_{k=1}^p \sum_{j=1}^n v_{kj}(u_{ji}(x_i)).
 $$
@@ -771,7 +771,7 @@ w_{ki} = \sum_{j=1}^n v_{kj} \circ u_{ji} \in \mathrm{Hom}_A(M_i, P_k)
 $$
 族$(w_{ki})$对应规范地从E到G（cf.§ 10, no. 5）合成线性映射$w = v \circ u$。
 
-### 9. SUPPLEMENTARY SUBMODULES
+### 9. 补子模
 
 #### 定义 8 {#alg-ii-s1-def-8 .statement tag=05KU}
 
@@ -785,7 +785,7 @@ no. 8的命题11表明，$M_1$和$M_2$互补，$M_1 + M_2 = E$和$M_1 \cap M_2 =
 
 这个线性映射从$M_1 + M_2 = E$开始就是满射，并且它是单射的，因为它的核是$M_1$的交和$E \to E/M_2$的核$M_2$，因此约化到$\{0\}$。
 
-#### 推论{#alg-ii-s1-n9-cor-1 .statement tag=05KW}
+#### 推论 {#alg-ii-s1-n9-cor-1 .statement tag=05KW}
 
 如果$M_2$和$M_2'$是E的相同子模$M_1$、有序对$(x, x') \in M_2 \times M_2'$的集合的两个补充，则$x - x' \in M_1$是$M_2$的同构的图$M_2'$。
 
@@ -795,15 +795,15 @@ no. 8的命题11表明，$M_1$和$M_2$互补，$M_1 + M_2 = E$和$M_1 \cap M_2 =
 
 *如果$E$中有补子模，则$A$模块$E$的子模$M$称为$E$的直因子。*
 
-当这样时，$E/M$同构于$M$（命题13）的补充。
+在这种情况下，$E/M$同构于$M$（命题13）的补充。
 
-子模不一定承认补充（习题11）。当子模为直因子时，一般有几个不同的补充；然而，这些补充在规范上与另一个同构（命题13的推论）。
+子模不一定承认补充（习题11）。当子模为直因子时，一般有几个不同的补充；然而，这些补充在规范上与另一个同构（推论到命题 13）。
 
 #### 命题 14 {#alg-ii-s1-prop-14 .statement tag=05KY}
 
-*为了使模$E$的子模$M$成为直因子，只要存在$E$的投影算子且像为$M$或投影算子即可。 $E$，其核为 $M$。*
+*为了使模$E$的子模$M$成为直因子，存在$E$的投影算子且像为$M$或投影算子是充分必要的$E$，其核为 $M$。*
 
-这紧随no. 8、命题 12 和推论。
+这紧接着no. 8、命题 12 和推论。
 
 #### 命题 15 {#alg-ii-s1-prop-15 .statement tag=05KZ}
 
@@ -811,21 +811,21 @@ no. 8的命题11表明，$M_1$和$M_2$互补，$M_1 + M_2 = E$和$M_1 \cap M_2 =
 $$
 (33)\quad 0 \longrightarrow E \xrightarrow{f} F \xrightarrow{g} G \longrightarrow 0
 $$
-*以下命题等效：*
+*以下命题是等效的：*
 (a) *$F$中的子模$f(E)$为直因子。*
-(b) *存在与$f$相关的线性回缩$r : F \to E$（集合理论，II, § 3, no. 8，定义11）。*
-(c) *存在与$g$相关的线性截面$s : G \to F$（集合理论，II, § 3, no. 8，定义11）。*
+(b) *存在与 $f$ 相关的线性回缩$r : F \to E$ (集合理论、II, § 3, no. 8、定义 11)。*
+(c) *存在与 $g$ (集合理论, II, § 3, no. 8, 定义 11) 相关的线性截面 $s : G \to F$。*
 *这样的话，$f + s : E \oplus G \to F$就是同构。*
 
 如果$\mathrm{End}(F)$中存在投影算子$e$，使得$e(F) = f(E)$、同态$f^{-1} \circ e : F \to E$是与$f$相关的线性回缩；反之，如果存在这样的收缩$r$，则$f \circ r$在$F$中投影算子是直接的，而像是$f(E)$，因此(a)和(b)是等价的(命题14)。如果$f(E)$在$F$中承认补充$E'$且$j : E' \to F$是典范嵌入，则$g \circ j$是$E'$的同构到$G$和逆同构，视为$G$到$F$的映射，是与$g$相关的线性截面。相反，如果存在这样的截面$s$，则$F$中$s \circ g$是投影算子，而核是$f(E)$，因此(a)和(c)是等价的(命题14)。此外，$s$是$G$到$s(G)$的双射，并且由于$s(G)$是$f(E)$的补充，所以$f + s$是同构。
 
-注，被给予$r$（或$s$）相当于在$F$中被给予$f(E)$的补充，即$r$的核（或$s$的像）。
+请注意，给出$r$（或$s$）相当于在$F$中给出$f(E)$的补充，即$r$的核（$s$的像）。
 
 当正合序列(33)满足命题15的条件时，可以说*分裂的*或$(F, f, g)$被认为是$G$的*平凡*扩张乘以$E$(I, § 6, no. 1)。
 
 #### 推论 1 {#alg-ii-s1-prop-15-cor-1 .statement tag=05L0}
 
-设$u : E \to F$为线性映射。对于存在线性映射$v : F \to E$使得$u \circ v = 1_F$（$u$被称为右可逆且$v$被称为$u$的右逆），$u$是满射且其核是充分必要的直因子 $E$。 $E$的子模$\operatorname{Im}(v)$则为$\operatorname{Ker}(u)$的补充。
+令$u : E \to F$为线性映射。对于存在线性映射$v : F \to E$使得$u \circ v = 1_F$（$u$被称为右可逆且$v$被称为$u$的右逆），$u$是满射且其核是充分必要的直因子 $E$。 $E$的子模$\operatorname{Im}(v)$则为$\operatorname{Ker}(u)$的补充。
 
 显然 $u$ 是满射的；由于 $v$ 是截面与 $u$ 相关联，因此结论是从命题 15 得出的。
 
@@ -843,19 +843,19 @@ $$
 $$
 到$\operatorname{Hom}_A(E, F)$。在这个同构下，$\operatorname{Hom}_A(M, F)$的像是线性映射$w : E \to F$的集合，这样对于所有$x \in N$来说$w(x) = 0$。
 
-(2) 如果$M, N$是$E$的两个子模，使得$M \cap N$是$M$和$N$的直因子，则$M \cap N$也是$M + N$的直因子：如果$P$（分别$Q$）是$M$（分别$N$）中$M \cap N$的补充，$M + N$是$M \cap N, P$和$Q$的直和，经立即验证。
+(2) 如果$M, N$是$E$的两个子模，使得$M \cap N$是$M$和$N$的直因子，则$M \cap N$也是$M + N$的直因子：如果立即验证，$P$（分别$Q$）是$M$（分别$N$）中$M \cap N$的补充，$M + N$是$M \cap N, P$和$Q$的直和，已立即验证。
 
-### 10. 模有限长度
+### 10. 模 / 有限长度
 
-回想一下（I, § 4, no. 4，定义 7），如果$A$-模块$M$没有减少到0，并且包含没有子模与$M$和$\{0\}$不同，则称其为简单模块。如果一个$A$-模$M$有一个Jordan-Hölder级数$(M_i)_{0 \leq i \leq n}$和数$n$这个级数的商（不依赖于Jordan-Hölder级数），则称其为有限长度。考虑$M$）则称为$M$（I, § 4, no. 7，定义 11）的长度；我们用$\operatorname{long}(M)$或$\operatorname{long}_A(M)$来表示。 $A$-模减少到 0 是长度 0；如果$M$是有限长度的非零$A$模，则$\operatorname{long}(M) > 0$。
+回想一下（I, § 4, no. 4，定义 7），如果$A$-模块$M$没有减少到0，并且包含没有子模与$M$和$\{0\}$不同，则称其为简单模块。如果一个$A$-模块$M$有一个Jordan-Hölder级数$(M_i)_{0 \leq i \leq n}$和这个级数的商的数$n$（这不依赖于Jordan-Hölder），那么它被称为有限长度考虑$M$的级数）则称为$M$的长度（I, § 4, no. 7，定义11）；我们用$\operatorname{long}(M)$或$\operatorname{long}_A(M)$来表示。 $A$-模减少到 0 是长度 0；如果$M$是有限长度的非零$A$模，则$\operatorname{long}(M) > 0$。
 
 #### 命题 16 {#alg-ii-s1-prop-16 .statement tag=05L3}
 
-Let $M$ be an $A$-module and $N$ a submodule of $M$; for $M$ to be of finite length, it is necessary and sufficient that $N$ and $M/N$ be so, and then
+令$M$为$A$模块，$N$为$M$的子模块；对于 $M$ 具有有限长度，$N$ 和 $M/N$ 是有限长度是必要且充分的，然后
 $$
 \operatorname{long}(N) + \operatorname{long}(M/N) = \operatorname{long}(M).
 $$
-The proof has been given in I, § 4, no. 7, Proposition 10.
+证明已在命题 10 I, § 4, no. 7 中给出。
 
 #### 推论 1 {#alg-ii-s1-prop-16-cor-1 .statement tag=05L4}
 
@@ -882,7 +882,7 @@ $$
 $$
 \sum_{k=0}^n (-1)^k \operatorname{long}(M_k) = 0.
 $$
-对于$n = 1$，推论是显而易见的，对于$n = 2$，推论只是命题 16；我们在归纳关于$n$争论。如果$M'_{n-1} = \operatorname{Im}(u_{n-2})$，则乘以归纳假设，
+推论对于$n = 1$来说是显而易见的，对于$n = 2$来说只是命题16；我们以归纳对$n$争论。如果$M'_{n-1} = \operatorname{Im}(u_{n-2})$，那么，通过归纳假设，
 $$
 \sum_{k=0}^{n-2} (-1)^k \operatorname{long}(M_k) + (-1)^{n-1} \operatorname{long}(M'_{n-1}) = 0.
 $$
@@ -898,7 +898,7 @@ $$
 $$
 \operatorname{long}(M + N) + \operatorname{long}(M \cap N) = \operatorname{long}(M) + \operatorname{long}(N).
 $$
-将推论3应用到正合序列(29)(no. 7)就足够了。
+应用推论3至正合序列(29)(no. 7)就足够了。
 $$
 0 \to M \cap N \to M \oplus N \to M + N \to 0
 $$
@@ -913,17 +913,17 @@ $$
 
 此外，为了使(40)的两侧相等，M是$N_i$的直和是必要且充分的。
 
-已经看出(no. 7,公式(28))存在一个规范满射线性映射$h : \bigoplus_i N_i \to M$；因此，推论由（35）得出。
+已经看出(no. 7,公式(28))存在一个规范满射线性映射$h : \bigoplus_i N_i \to M$；因此推论由 (35) 得出。
 
 #### 推论 6 {#alg-ii-s1-prop-16-cor-6 .statement tag=05L9}
 
-*设M和N是A-模E中的两个子模，使得E/M和E/N是有限长度中的模；那么 E/(M \cap N) 是有限长度并且*
+*设M和N为A-模E中的两个子模，使得E/M和E/N为有限长度中的模；那么 E/(M \cap N) 是有限长度并且*
 
 $$
 \text{(41)} \quad \text{long}(E/(M \cap N)) + \text{long}(E/(M + N)) = \text{long}(E/M) + \text{long}(E/N).
 $$
 
-只需将推论 3 应用到正合序列 (30)
+应用推论 3 至正合序列即可 (30)
 
 $$
 0 \to E/(M \cap N) \to (E/M) \oplus (E/N) \to E/(M + N) \to 0
@@ -947,11 +947,11 @@ $$
 
 #### 注 {#alg-ii-s1-n10-rem-1 .statement tag=05LB}
 
-除了 no. 7、命题 9 之外，*所有* 的结果。 2 到 10 对于任意 *可交换群与运算符*、子模（分别为商模）在叙述中被稳定的子群（分别为商群被稳定的子群）替换是有效的；我们还约定用运算符“线性映射”调用群的同态。 no. 7、命题 9 的推论对于带有运算符的交换群也是有效的：这对于推论 4 和 5 以及推论 2 来说都是显而易见的，因为对于每个运算符 $\alpha$ 都有 $\alpha \left( \sum_{i \in I} x_i \right) = \sum_{i \in I} \alpha x_i$，并且推论 3 由此推出。对于推论 1，只要注如果 N 是 F 包含 $u(S)$ 的稳定子群，$u^{-1}(N)$ 是 E 包含 S 的稳定子群，因此$u^{-1}(N)$ 包含 M，因此$u(M) \subset N$。
+除了 no. 7、命题 9 之外，*所有* 的结果。 2 到 10 对于任意*可交换的群与运算符*有效，子模（分别为商模）在叙述中被稳定的子群（分别为商群被稳定的子群）替换；我们还约定用运算符“线性映射”调用群的同态。 no. 7、命题 9 的推论对于带有运算符的可交换群也有效：这对于推论 4 和 5 以及推论 2 来说都是显而易见的，因为$\alpha \left( \sum_{i \in I} x_i \right) = \sum_{i \in I} \alpha x_i$ 对于每个运算符 $\alpha$，并且由此得出推论 3。至于推论 1，只要注意，如果 N 是 F 包含 $u(S)$ 的稳定子群，则 $u^{-1}(N)$ 是 E 包含 S 的稳定子群，因此 $u^{-1}(N)$ 包含 M，因此 $u(M) \subset N$。
 
-### 11. 自由的家庭。 基
+### 11. 自由家庭。 基
 
-设 A 为环，T 集合并考虑 A-模 $A_s^{(T)}$。通过定义，它是A-模的家庭$(M_t)_{t \in T}$的外部直和，全部等于$A_s$，并且对于所有$t \in T$，有典范嵌入$j_t : A_s \to A_s^{(T)}$（no. 6）。我们写j_t(1) = e_t，这样$e_t = (\delta_{tt'})_{t' \in T}$，其中如果$t' \neq t$则$\delta_{tt'}$等于0，如果$t' = t$则等于1（“克罗内克符号”；$(t, t') \mapsto \delta_{tt'}$只是$T \times T$对角线的特征函数）；每个 $x = (\xi_t)_{t \in T} \in A_s^{(T)}$ 都可以被唯一地写成：
+令 A 为环，T 集合并考虑 A-模 $A_s^{(T)}$。到定义，它是A-模的家庭$(M_t)_{t \in T}$的外部直和，全部等于$A_s$，并且对于所有$t \in T$，有典范嵌入$j_t : A_s \to A_s^{(T)}$（no. 6）。我们写j_t(1) = e_t，这样$e_t = (\delta_{tt'})_{t' \in T}$，其中如果$t' \neq t$则$\delta_{tt'}$等于0，如果$t' = t$则等于1（“克罗内克符号”；$(t, t') \mapsto \delta_{tt'}$只是$T \times T$对角线的特征函数）；每个 $x = (\xi_t)_{t \in T} \in A_s^{(T)}$ 都可以被唯一地写成：
 $$
 x = \sum_{t \in T} \xi_t e_t.
 $$
@@ -963,12 +963,12 @@ $T$到$A_s^{(T)}$的映射$\phi : t \mapsto e_t$称为规范；如果 $A$ 非零
 
 条件 $f = g \circ \phi$ 意味着$g(e_t) = f(t)$ 对于所有$t \in T$，相当于对于所有$\xi \in A$ 和所有$t \in T$ 的$g(\xi e_t) = \xi f(t)$，也意味着$g \circ j_t$ 是线性映射 $\xi \mapsto \xi f(t)$将所有 $t \in T$ 的 $A_s$ 转换为 $E$；因此，命题是no. 6、命题 6 的特例。
 
-线性映射$g$据说是由$E$的元素的$(f(t))_{t \in T}$家族“决定”；通过定义
+线性映射$g$据说是由$E$的元素的$(f(t))_{t \in T}$家族“决定”； 定义
 $$
 g\left( \sum_{t \in T} \xi_t e_t \right) = \sum_{t \in T} \xi_t f(t).
 $$
 
-The kernel $R$ of $g$ is the set of $(\xi_t) \in A_s^{(T)}$ such that $\sum_t \xi_t f(t) = 0$; it is sometimes said that the module $R$ is *the module of linear relations between the elements of the family* $(f(t))_{t \in T}$. 正合序列
+$g$的核$R$是$(\xi_t) \in A_s^{(T)}$的集合，使得$\sum_t \xi_t f(t) = 0$；有时有人说模块$R$是*族元素之间线性关系的模块*$(f(t))_{t \in T}$。 正合序列
 $$
 0 \longrightarrow R \longrightarrow A_s^{(T)} \overset{g}{\longrightarrow} E
 $$
@@ -996,13 +996,13 @@ $$
 
 #### 定义 10 {#alg-ii-s1-def-10 .statement tag=05LF}
 
-*A family* $(a_t)_{t \in T}$ *of elements of an* $\mathbf{A}$*-module* $E$ *is called a free family* (resp. *a basis of* $E$) *if the linear mapping* $A_s^{(T)} \to E$ *determined by this family is injective* (resp. *bijective*). *如果有基*，则称模为自由。
+*族* $(a_t)_{t \in T}$ ** $\mathbf{A}$*-模块* $E$ *称为自由族*（分别为* $E$的*基础） *如果线性映射* $A_s^{(T)} \to E$ *由该族确定是单射*（分别是*双射的*）。 *如果有基*，则称模为自由。
 
 特别是，如果 $G$（相加地写）是一个 *自由* $\mathbf{Z}$*-模块* (cf. I, § 7, no. 7)，则可交换的群 $G$ 被称为 *自由*。
 
-定义 10 与推论 2 到命题 17 一起表明，$\mathbf{A}$-模块$E$ 的基是$E$ 的*自由生成的系列*。因此，$E$的元素的每个自由族都是子模和生成的基。
+定义 10 与推论 2 到命题 17 一起表明$\mathbf{A}$-模块$E$ 的基是$E$ 的*自由生成的系列*。因此，$E$的元素的每个自由族都是子模和生成的基。
 
-到定义时，$\mathbf{A}$ 模块 $A_s^{(T)}$ 是免费的，$(e_t)_{t \in T}$ 系列是该 $\mathbf{A}$ 模块的基（称为*规范*）。当$\mathbf{A} \neq \{0\}$、$T$经常被规范的双射$t \mapsto e_t$等同于$e_t$的集合；这相当于将 $A_s^{(T)}$ 的元素写为 $\sum_{t \in T} \xi_t \cdot t$ 而不是 $\sum_{t \in T} \xi_t a_t$。当采用这个约定时，$A_s^{(T)}$的元素被称为*正式的线性组合*（系数在$\mathbf{A}$）*元素的*$T$。
+到定义时，$\mathbf{A}$ 模块 $A_s^{(T)}$ 是免费的，$(e_t)_{t \in T}$ 系列是该 $\mathbf{A}$ 模块的基（称为*规范*）。当$\mathbf{A} \neq \{0\}$、$T$经常被规范的双射$t \mapsto e_t$等同于$e_t$的集合；这相当于将 $A_s^{(T)}$ 的元素写为 $\sum_{t \in T} \xi_t \cdot t$ 而不是 $\sum_{t \in T} \xi_t a_t$。当采用此约定时，$A_s^{(T)}$的元素被称为*正式的线性组合*（$\mathbf{A}$中的系数）*$T$的元素。
 
 定义 10 和命题 17 立即给出以下结果：
 
@@ -1014,7 +1014,7 @@ f(a_t) = b_t \quad \text{for all } t \in T.
 $$
 *对于* $f$ *成为单射*（或*满射*），*必要且充分的是* $(b_t)$ *成为* $F$（或* $F$的*生成的系统）中的自由家庭。
 
-当一个家庭$(a_t)_{t \in T}$不自由时，它被称为*相关*。 定义 10 也可以表达如下：说$(a_t)_{t \in T}$是*自由的*意味着关系$\sum_{t \in T} \lambda_t a_t = 0$（其中$(\lambda_t)$属于有限支撑）意味着$\lambda_t = 0$对于所有$t \in T$；说$(a_t)_{t \in T}$是$E$的*基*，意味着每个$x \in E$在形式$x = \sum_{t \in T} \xi_t a_t$中都可以用一种且只有一种方式写出来；对于所有 $t \in T$，$\xi_t$ 被称为指标* $t$ *相对于基* $(a_t)$ 的*$x$ *的*分量*（或*坐标*）； 映射 $x \to \xi_t$ 从 $E$ 到 $A_s$ 是*线性*。
+当一个家庭$(a_t)_{t \in T}$不自由时，它被称为*相关*。 定义 10 也可以表达如下：说$(a_t)_{t \in T}$是*自由的*意味着关系$\sum_{t \in T} \lambda_t a_t = 0$（其中$(\lambda_t)$属于有限支撑）意味着$\lambda_t = 0$对于所有$t \in T$；说$(a_t)_{t \in T}$是$E$的*基*，意味着每个$x \in E$在形式$x = \sum_{t \in T} \xi_t a_t$中都可以用一种且只有一种方式写出来；对于所有$t \in T$，$\xi_t$被称为*分量*（或*坐标*）*$x$*指标*$t$*相对于基*$(a_t)$； 映射 $x \to \xi_t$ 从 $E$ 到 $A_s$ 是*线性*。
 
 假设$\mathbf{A} \neq \{0\}$；那么，在一个$\mathbf{A}$-模块$E$中，一个自由族$(a_t)_{t \in T}$的两个元素其指标是不同的，它们本身是*不同的*：因为如果$a_{t'} = a_{t''}$对于$t' \neq t''$，则$\sum_{t \in T} \lambda_t a_t = 0$与$\lambda_{t'} = 1$，$\lambda_{t''} = -1$和$T$ 的元素的$\lambda_t = 0$ 与$t'$ 和$t''$ 不同。 如果 $S$ 的恒等映射定义的族本身是自由的（分别是 $E$ 的基），则 $E$ 的子集 $S$ 将被称为 *自由子集* （分别是 $E$ 的 *基*）；然后，由索引集合到$S$ 的双射映射定义的每个族都是自由的（分别是基）。 $E$ 的自由子集的元素也称为“线性无关”。
 
@@ -1028,7 +1028,7 @@ $$
 
 这立即从定义开始。
 
-命题 18 表明 E 的自由子集按包含排序，集合是归纳的（*集合理论*，III, § 2, no. 4）；因为它是非空的（因为$\varnothing$属于），所以它有极大元素$(a_l)_{l \in I}$（Zorn的引理）。由此得出（如果$A \neq \{0\}$）对于所有$x \in E$，存在A的元素$\mu \neq 0$和元素A的族$(\xi_l)$，使得$\mu x = \sum_l \xi_l a_l$（cf.§ 7, no. 1）。
+命题 18 表明 E 的自由子集的集合按包含排序，是归纳的 (*集合理论*, III, § 2, no. 4)；因为它是非空的（因为$\varnothing$属于），所以它有极大元素$(a_l)_{l \in I}$（Zorn的引理）。由此可见（如果$A \neq \{0\}$）对于所有$x \in E$，存在A的元素$\mu \neq 0$和元素A的族$(\xi_l)$，使得$\mu x = \sum_l \xi_l a_l$（cf.§ 7, no. 1）。
 
 #### 命题 19 {#alg-ii-s1-prop-19 .statement tag=05LI}
 
@@ -1038,49 +1038,49 @@ $$
 
 #### 注 {#alg-ii-s1-n11-rem-1 .statement tag=05LJ}
 
-(1) 到定义 10，如果$A \neq \{0\}$和$(a_l)_{l \in I}$是自由族，元素$a_\kappa$不能等于指标$l \neq \kappa$的$a_l$中的线性组合。但反过来说，一个家庭$(a_l)$满足这个条件不一定是一个自由的家庭。对于例，令A为整环和$a, b$两个不同的非零元素；在 A 中，自 $(-b)a + ab = 0$ 起，被视为 A-模、$a$ 和 $b$ 形式相关的系统。但一般来说，不存在元素$x \in A$使得$b = xa$的$a = xb$（cf.然而§ 7, no. 1，*注*）。
+(1) 到定义 10，如果$A \neq \{0\}$和$(a_l)_{l \in I}$是自由族，元素$a_\kappa$不能等于指标$l \neq \kappa$的$a_l$中的线性组合。但反过来说，一个家庭$(a_l)$满足这个条件不一定是自由家庭。例如，令 A 为整环和 $a, b$ 两个不同的非零元素；在 A 中，自 $(-b)a + ab = 0$ 起，被视为 A-模、$a$ 和 $b$ 形式相关的系统。但一般来说，不存在元素$x \in A$使得$b = xa$的$a = xb$（cf.然而§ 7, no. 1，*注*）。
 
-如果$\{x\}$是一个自由的子集，模E的元素$x$被称为*自由*，也就是说，如果关系$\alpha x = 0$蕴涵$\alpha = 0$。免费子集中的每个元素都是免费的，特别是 0 不能属于到 $A \neq \{0\}$ 时的任何免费子集。
+如果$\{x\}$是一个自由的子集，关系$\alpha x = 0$意味着$\alpha = 0$，则模E的元素$x$被称为*自由*。空闲子集中的每个元素都是空闲的，特别是 0 不能属于到 $A \neq \{0\}$ 时的任意空闲子集。
 
 #### 注 {#alg-ii-s1-n11-rem-2 .statement tag=05LK}
 
-(2) 自由模可以有元素$\neq 0$，但例、A-模$A_s$是免费的，但A中零的右除子不是免费的$A_s$的元素。
+(2) 自由模可以有不自由的元素$\neq 0$：例如，A-模$A_s$是自由的，但A中零的右除子不自由$A_s$的元素。
 
 (3) 在加法群 $\mathbf{Z}/(n)$ ($n$ 整数 $\geq 2$) 被视为 $\mathbf{Z}$ 模块时，没有元素是空闲的，并且 *更不必说* $\mathbf{Z}/(n)$ 不是自由模。
 
-(4) 可能会出现 A-模中的每一个元素 $\neq 0$ 都是空闲的，而模都是空闲的。对于例，有理数的域 $\mathbf{Q}$ 是一个$\mathbf{Z}$ 模块，与此性质，对于 $\mathbf{Q}$ 的两个元素 $\neq 0$ 总是形式相关因此，$\mathbf{Q}$的系统和基只能是包含单个元素$a$；但$\mathbf{Q}$的元素不是形式$na$和$n \in \mathbf{Z}$的全部（cf.VII, § 3）。
+(4) 可能会出现 A-模中的每个元素 $\neq 0$ 都是空闲的，而模是空闲的。例如，有理数的域$\mathbf{Q}$是一个$\mathbf{Z}$模块，其中性质，对于$\mathbf{Q}$的两个元素$\neq 0$总是形式相关的系统和基因此，$\mathbf{Q}$只能包含单个元素$a$；但$\mathbf{Q}$的元素不是形式$na$和$n \in \mathbf{Z}$的全部（cf.VII, § 3）。
 
 #### 命题 20 {#alg-ii-s1-prop-20 .statement tag=05LL}
 
 *每个 A-模 E 都同构于自由A-模的商模。*
 
-如果T是E的生成的集合，则存在满射线性映射$A_s^{(T)} \to E$（推论2到命题17），并且如果R是这个映射的核，则E同构于$A_s^{(T)}/R$。
+如果T是E的生成的集合，则存在满射线性映射$A_s^{(T)} \to E$（推论2到命题17），并且如果R是这个映射的核，则E与$A_s^{(T)}/R$同构的。
 
 特别是我们可以取$T = E$；然后有一个满射线性映射$A_s^{(E)} \to E$，称为*规范*。
 
-特别是，说 A-模 E 是*有限生成* (no. 7) 意味着它同构于自由A-模与*有限基* 的商，或者还存在形式的正合序列
+特别是，说 A-模 E 是*有限生成* (no. 7) 意味着它与自由A-模的商具有*有限的基* 同构的，或者还存在形式的正合序列
 
 $$
 A_s^n \to E \to 0 \quad (n \text{ an integer } > 0).
 $$
 
-注，如果$A \neq \{0\}$*有限生成*自由模E的每个基必然是*有限*，因为如果S是有限生成系统并且B基是E，则S的每个元素是B 的元素的有限数的线性组合，如果 B' 是 B 的所有元素的集合，因此在 S 的元素的表达式中，B' 是有限的，并且每个 $x \in E$ 是 的线性组合 B' 的元素，因此$B' = B$。
+请注意，如果$A \neq \{0\}$*有限生成*自由模块E的每个基必然是*有限*，因为如果S是有限生成系统并且B是E的基，则S的每个元素是B的有限数量的元素的线性组合，并且如果B'是B的所有元素的集合，因此在S的元素的表达式中，B'是有限的并且每个$x \in E$是B'的元素的线性组合，因此$B' = B$。
 
 #### 命题 21 {#alg-ii-s1-prop-21 .statement tag=05LM}
 
-*每正合序列共A-模*
+*每正合序列A-模*
 
 $$
 0 \longrightarrow G \xrightarrow{g} E \xrightarrow{f} F \longrightarrow 0
 $$
 
-*其中F为自由A-模、分裂的* (no. 9)。 *准确地说，如果*$(b_\lambda)_{\lambda \in L}$*是F的基，并且对于每个*$\lambda \in L$、$a_\lambda$*是E的元素，使得*$f(a_\lambda) = b_\lambda$、*家庭*$(a_\lambda)_{\lambda \in L}$*是免费的并且生成补子模至 g(G)*。
+*其中F为自由A-模、分裂的* (no. 9)。 *准确地说，如果*$(b_\lambda)_{\lambda \in L}$*是F的基，并且对于每个*$\lambda \in L$、$a_\lambda$*是E的元素，使得*$f(a_\lambda) = b_\lambda$、*家庭*$(a_\lambda)_{\lambda \in L}$*是自由的并且生成补子模到g(G)*。
 
 存在且仅有一个线性映射 $h : F \to E$，使得 $h(b_\lambda) = a_\lambda$ 对于所有 $\lambda \in L$（推论 3 到命题 17）。由于 h 是与 f 相关的线性截面，因此从 I, § 4, no. 9、命题 15 得出命题。
 
 #### 注 {#alg-ii-s1-n11-rem-3 .statement tag=05LN}
 
-(5) 令$(a_i)_{1 \leq i \leq n}$为A-模E的*基*，并令$(b_i)_{1 \leq i \leq n}$为由关系给出的E的元素族
+(5) 设$(a_i)_{1 \leq i \leq n}$为A-模E的*基*，并令$(b_i)_{1 \leq i \leq n}$为由关系给出的E的元素族
 
 $$
 b_i = \lambda_{1i} a_1 + \cdots + \lambda_{ii} a_i \quad (1 \leq i \leq n)
@@ -1092,7 +1092,7 @@ a_n = -\lambda_{nn}^{-1}\lambda_{1n}a_1 - \cdots - \lambda_{nn}^{-1}\lambda_{n-1
 $$
 可以看出，$(b_i)_{1 \leq i \leq n}$是E的生成的系统，从而完成证明。这个结果很容易推广到索引集合 I 有序的族$(a_i)_{i \in I}$。
 
-### 12. 湮没子。忠实的模。单源模
+### 12. 湮没子。忠实模。单源模
 
 #### 定义 11 {#alg-ii-s1-def-11 .statement tag=05LO}
 
@@ -1124,19 +1124,19 @@ no. 7的命题 9表明，如果E是单生的A-模且a是元素生成的E，则E�
 
 #### 命题 22 {#alg-ii-s1-prop-22 .statement tag=05LR}
 
-*设A为环。 $A_s$ 中的每个商模都是单生的。相反，令 E 为单生 A-模，E 的 c 生成元且 a 其湮没子； 线性映射 $\xi \mapsto \xi c$ 定义，当经过为商时，$A_s/a$ 的同构到 E.*
+*设A为环。 $A_s$ 中的每个商模都是单生的。相反，令 E 为单生 A-模，E 的 c 生成元且 a 其湮没子； 线性映射 $\xi \mapsto \xi c$ 定义，当经过到商时，$A_s/a$ 的同构到 E.*
 
-由于$A_s$本身是单生的，由1生成，第一个断言从no. 7（推论1）到命题9。第二个是明显的，因为$\xi \mapsto \xi c$是由假设满射并且有核a。
+由于$A_s$本身是单生的，由1生成，第一个断言从no. 7、推论1到命题9。第二个是明显的，因为$\xi \mapsto \xi c$是由假设满射并且有核a。
 
-注，如果 A 不可交换，则单生 A-模 E 的两个不同生成元 c、c' 的湮没子通常是*不同的*，并且也不同于模 E 的湮没子。 另一方面，如果 A 是*可交换的*，则湮没子 E 的生成元 c 包含在 E 的每个元素的湮没子中，因此是整个 E 的湮没子。
+请注意，如果 A 不可交换，则两个不同的生成元 c 的湮没子、单生 A-模 E 的 c' 通常是*不同的*，并且也与模 E 的湮没子不同。另一方面，如果 A 是*可交换的*，则 E 的生成元 c 的湮没子包含在E 的每元素的湮没子，因此是整个 E 的湮没子。
 
-#### 推论{#alg-ii-s1-n12-cor-1 .statement tag=05LS}
+#### 推论 {#alg-ii-s1-n12-cor-1 .statement tag=05LS}
 
 *单生 A-模 E 的每个子模都同构于商模 b/a，其中 a 和 b 是 A 的两个左理想，使得 a ⊂ b。单源 A-模的每个商模都是单源的。*
 
 第二个断言是直接的，第一个命题22和I, § 4, no. 6、定理4。
 
-注另一方面，单生的模的子模不一定是单生的。对于例，如果A是交换环，其中存在非主理想（VII, § 1, no. 1），这些理想是单生A-模 A的非单生子模。
+注另一方面，单生的模的子模不一定是单生的。例如，如果 A 为交换环，其中存在非主理想 (VII, § 1, no. 1)，则这些理想是单生 A-模 A 的非单生子模。
 
 由定义得出，由E的元素族$(a_i)$生成的A-模E的子模是单源子模的*和*
 
@@ -1146,19 +1146,19 @@ E的Aa_i；对于 (a_i) 是 E 的基，每个 a_i 是 E 的自由元素并且 Aa
 
 令 E 为非零子模的无限族 (M_i)_{i \in I} 的A-模、直和。对于 E 的每个生成的系统 S，Card(S) \geq Card(I)。
 
-对于所有 x \in S，令 C_x 为指标 i \in I 的有限集合，使得 M_i 中 x 的分量为 \neq 0，并令 C = \bigcup_{x \in S} C_x。对于 i \in C 和假设，每个 x \in S 属于乘以 M_i 的 E 直和定义到子模，因此 S 生成 E 意味着 C = I；由于I乘假设无限，S也是如此（集合理论，III, § 5, no. 1，推论1到命题1）；因此 Card(I) = Card(C) \leq Card(S) （集合理论，III, § 6, no. 3，推论 3 到定理 2）。
+对于所有 x \in S，令 C_x 为指标 i \in I 的有限集合，使得 M_i 中 x 的分量为 \neq 0，并令 C = \bigcup_{x \in S} C_x。对于 i \in C 和假设，每个 x \in S 属于乘以 M_i 的 E 直和定义到子模，因此 S 生成 E 意味着 C = I；由于 I 与假设无穷大，因此 S 也是无穷大（集合理论、III, § 5, no. 1、推论 1 到命题 1）；因此 Card(I) = Card(C) \leq Card(S) (集合理论, III, § 6, no. 3, 推论 3 到定理 2)。
 
 #### 推论 1 {#alg-ii-s1-prop-23-cor-1 .statement tag=05LU}
 
 在命题 23 的假设下，假设每个 M_i 是单源的，并且 E 是非零单源子模的第二个族 (N_\lambda)_{\lambda \in L} 的直和。那么卡(L) = 卡(I)。
 
-如果 b_\lambda 是 N_\lambda 的生成元，则 b_\lambda 的集合是 E 的生成的系统，因此 Card(L) \geq Card(I)。特别是 L 是无限的，并且交换 (M_i) 和 (N_\lambda) 的角色，类似的 Card(I) \geq Card(L)，从而的推论。
+如果 b_\lambda 是 N_\lambda 的生成元，则 b_\lambda 的集合是 E 的生成的系统，因此 Card(L) \geq Card(I)。特别是L是无限的，交换(M_i)和(N_\lambda)的角色，类似Card(I)\geq Card(L)，从而推论。
 
 #### 推论 2 {#alg-ii-s1-prop-23-cor-2 .statement tag=05LV}
 
 如果模 E 承认无限基 B，则 E 的每个生成的系统都有基数 \geq Card(B) 并且 E 的每个基等价于 B。
 
-### 13. 标量的变换环
+### 13. 标量环的变换
 
 设 A, B 为环 B 到环 A 中的两个环和 \rho 同态。对于每个 A-模 E， 外法则 (\beta, x) \mapsto \rho(\beta)x 定义 (与加法) B-模据说结构与E上的\rho和A-模结构相关；这个 B-模用 \rho_*(E) 或 E_{[B]} 表示（如果不会引起混淆，甚至可以简单地用 E 表示）。特别地，如果 B 是 A 的子环并且 \rho : B \to A 是典范嵌入，则 E_{[B]} 称为通过将标量 A 到 B 的环限制而获得的 B-模；由于滥用语言，当同态 \rho 是任意的时，也会使用此表达式。
 
@@ -1171,7 +1171,7 @@ $$
 \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_B(E_{[B]}, F_{[B]}).
 $$
 
-这个映射不一定是双射的；在其他字 B-线性映射 E_{[B]} \to F_{[B]} 不一定是 A 线性的。对于例，E_{[B]} 的子 B 模不一定是 E 的子 A 模：如果 A 为域且 B 子域为 $A$，则向量子空间 $B_s$ 为向量 $B$-空间如果$B \neq A$，则$(A_s)_{[B]}$不是向量子$A$空间。
+这个映射不一定是双射的；在其他字 B-线性映射 E_{[B]} \to F_{[B]} 不一定是 A 线性的。例如，E_{[B]} 的子 B 模块不一定是 E 的子 A 模块：如果 A 为域且 B 子域为 $A$，则向量子空间 $B_s$ 为向量 $B$-空间$(A_s)_{[B]}$ 不是如果$B \neq A$，则向量子$A$空间。
 
 直接的，对于$A$模块的每个$(E_i)_{i \in I}$族，$B$模块$\rho_*\left(\prod_{i \in I} E_i\right)$（或$\rho_*\left(\bigoplus_{i \in I} E_i\right)$）等于$\prod_{i \in I} \rho_*(E_i)$（或$\bigoplus_{i \in I} \rho_*(E_i)$）。
 
@@ -1187,9 +1187,9 @@ $\rho_*(E)$的每个生成的系统都是$E$的生成的系统，但逆命题不
 
 命题紧随定义之后。
 
-注即使$\rho$是单射的，$\rho_*(E)$中的自由族在$E$中也不一定是自由的。
+请注意，即使$\rho$是单射的，$\rho_*(E)$中的自由族在$E$中也不一定是自由的。
 
-*对于例，1和$\sqrt{2}$不将$\mathbf{R}$中的形式空闲系统视为向量$\mathbf{R}$空间，尽管它们将$\mathbf{R}$中的形式空闲系统视为向量 $\mathbf{Q}$-空间 (cf. 注 1).*
+*例如，1和$\sqrt{2}$不将$\mathbf{R}$中的形式空闲系统视为向量$\mathbf{R}$-空间，尽管它们将形式$\mathbf{R}$中的空闲系统视为向量$\mathbf{Q}$-空间(cf.注1).*
 
 #### 命题 25 {#alg-ii-s1-prop-25 .statement tag=05LX}
 
@@ -1228,7 +1228,7 @@ $$
 
 令C为第三个环，$\rho': C \to B$同态，G为C模块。如果$v: G \to F$是相对于$\rho'$的半线性映射，则合成$w = u \circ v$是G到E相对于同态$\rho'' = \rho \circ \rho'$的半线性映射。如果$\rho$是*同构*并且$u: F \to E$是相对于$\rho$的*双射的*半线性映射，则逆映射$u': E \to F$是*相对于逆同构*$\rho': A \to B$的$\rho$的半线性映射。
 
-由此可见，对于通过给定A上的集合环结构的有序对(A，E)和E上的左A-模结构来定义结构的类，*二态性*$(u, \phi)$可取为*态射* （*集合理论*，IV, § 2, no. 1）；在下文中我们将始终假设选择或态射已经制作完成。
+由此可见，对于通过给出A上的集合环结构的有序对(A，E)和E上的左A-模结构来定义结构的类，*二态性*$(u, \phi)$可取为*态射* （*集合理论*，IV, § 2, no. 1）；我们将在下文中始终假设态射中的选择已经制作完成。
 
 *注(3)*。令$A_1, A_2$为两个环，$A = A_1 \times A_2$为它们的乘积，并让$e_1 = (1, 0),\ e_2 = (0, 1)$在A中，使得$A_1$和$A_2$规范地等同于A的双面理想$Ae_1$和$Ae_2$。对于每个A-模E， $e_1E$和$e_2E$是E的子A模块$E_1,\ E_2$，分别被$e_2$和$e_1$湮灭，因此，将$A/Ae_2$与$A_1$和$A/Ae_1$与$A_2$、$E_1$规范地识别（或$E_2$）被赋予一个$A_1$-模块（或$A_2$-模块）结构。此外，E是$E_1$和$E_2$的*直和*，因为每个$x \in E$都可以写成$x = e_1x + e_2x$和关系，$e_1x = e_2y$意味着$e_1x = e_1^2x = e_1e_2y = 0$。相反，对于$A_1$-模块$F_1$和$A_2$-模块$F_2$的每个有序对由……组成，令$E_1$为A-模$(p_1) * (F_1)$、$E_2$A-模 $(p_2) * (F_2)$、$p_1$和$p_2$分别是A的投影到$A_1$和$A_2$；然后在A-模$E = E_1 \oplus E_2,\ E_1 = e_1E,\ E_2 = e_2E$。因此，A-模的研究被简化为$A_1$-模块和$A_2$-模块的研究。特别是，E 的每个子模 M 都是形式 $M_1 \oplus M_2$，其中 $M_1 = e_1M$ 和 $M_2 = e_2M$。
 
@@ -1258,15 +1258,15 @@ $$
 
 显然，当 E 是环的两个族 $(A_\lambda)_{\lambda \in L}, (B_\mu)_{\mu \in M}$ 上的多模块时，E 也是任意两个子族 $(A_\lambda)_{\lambda \in L'}, (B_\mu)_{\mu \in M'}$ 上的多模块，其中 $\lambda \in L'$ 和 $\mu \in M'$ 的 $A_\lambda$ 模块和 $B_\mu$ 模块结构是最初给出的结构。
 
-由于多模块是特定的例与运算符的可交换群，因此 nos 的结果。 2至10（cf.no. 10，*注*）可以应用于它们；特别是，如果 E、F 是两个 $((A_\lambda), (B_\mu))$ 多模，则 *同态* $u : E \to F$ 是映射，这是所有 $\lambda \in L$ 的 $A_\lambda$ 同态，以及所有 $\mu \in M$ 的 $B_\mu$ 同态。 $((A_\lambda), (B_\mu))$-多模的稳定子群是 $((A_\lambda), (B_\mu))$-多模（称为*子多模*），以及此类子群的商（称为*商多模*）； 乘积和直和类似。
+由于多模块是特定的例与运算符的可交换群，因此 nos 的结果。 2至10（cf.no. 10，*注*）可以应用于它们；特别是，如果 E、F 是两个 $((A_\lambda), (B_\mu))$ 多模，则 *同态* $u : E \to F$ 是映射，这是所有 $\lambda \in L$ 的 $A_\lambda$ 同态，以及所有 $\mu \in M$ 的 $B_\mu$ 同态。 $((A_\lambda), (B_\mu))$-多模块的稳定子群是$((A_\lambda), (B_\mu))$-多模块（称为*子多模块*），商也是这样的子群（称为*商多模块*）； 乘积和直和类似。
 
-设 E 为 $((A_\lambda), (B_\mu))$ 多模块，对于每个 $\lambda \in L$（分别为 $\mu \in M$），令 $\phi_\lambda : A'_\lambda \to A_\lambda$（分别为 $\psi_\mu : B'_\mu \to B_\mu$）为环同态；显然，与E上给出的$\phi_\lambda$和$A_\lambda$模块结构相关联的$A'_\lambda$模块结构以及与E上给出的$\psi_\mu$和$B_\lambda$模块结构相关联的$B'_\mu$模块结构与E上给出的另一个兼容，因此E上的定义兼容$((A'_\lambda), (B'_\mu))$-多模块结构，据说与给定的$((A_\lambda), (B_\mu))$-多模块结构以及$\phi_\lambda$和$\psi_\mu$“关联”。
+设 E 为 $((A_\lambda), (B_\mu))$ 多模块，对于每个 $\lambda \in L$（分别为 $\mu \in M$），令 $\phi_\lambda : A'_\lambda \to A_\lambda$（分别为 $\psi_\mu : B'_\mu \to B_\mu$）为环同态；显然，与 E 上给出的 $\phi_\lambda$ 和 $A_\lambda$ 模块结构相关联的 $A'_\lambda$ 模块结构以及与 E 上给出的 $\psi_\mu$ 和 $B_\lambda$ 模块结构相关联的 $B'_\mu$ 模块结构与另一个兼容，因此 E 上的定义兼容$((A'_\lambda), (B'_\mu))$-多模块结构，据说与给定的$((A_\lambda), (B_\mu))$-多模块结构以及$\phi_\lambda$和$\psi_\mu$“关联”。
 
 如果E、F是两个$((A_\lambda), (B_\mu))$多模块，则E到F中的同态的加法群表示为$\operatorname{Hom}_{(A_\lambda), (B_\mu)}(E, F)$（或简称为$\operatorname{Hom}(E, F)$）。 no. 2的公式(6)到(8)显然对于$((A_\lambda), (B_\mu))$-多模块同态有效，特别是$\operatorname{Hom}(E, E) = \operatorname{End}(E)$有一个*环*结构；
 
 此外，Hom(E, F) 具有规范的 *left* End(F) 模块结构和 *right* End(E) 模块结构，这两个结构是兼容的；在其他字中，Hom(E, F) 有一个规范的 (End(F), End(E))-**双模** 结构。
 
-现在假设 E 有一个多模块结构，其左（右）运算符的环一方面是 $\lambda \in L$ 的 $A_\lambda$（分别是 $\mu \in M$ 的 $B_\mu$），另一方面是另一个系列 $(A'_{\lambda'})_{\lambda' \in L'}$ 的环（分别是 $(B'_{\mu'})_{\mu' \in M'}$）。 Suppose similarly that F has a multimodule structure whose rings of left (resp. right) operators are on the one hand the $A_\lambda$ for $\lambda \in L$ (resp. the $B_\mu$ for $\mu \in M$) and on the other the rings of another family $(A''_{\lambda''})_{\lambda'' \in L''}$ (resp. $(B''_{\mu''})_{\mu'' \in M''}$); to abbreviate we shall say that E is an (($A_\lambda$), ($A'_{\lambda'}$); ($B_\mu$), ($B'_{\mu'}$))-multimodule and F an (($A_\lambda$), ($A''_{\lambda''}$); ($B_\mu$), ($B''_{\mu''}$))-multimodule. 将 E 和 F 视为 (($A_\lambda$), ($B_\mu$))-多模块，从而“限制”运算符到子族 ($A_\lambda$) 和 ($B_\mu$)。 根据本文开头所述，在 E 和 F 定义上给出的多模块结构规范地环同态
+现在假设 E 有一个多模块结构，其左（右）运算符的环一方面是 $\lambda \in L$ 的 $A_\lambda$（分别是 $\mu \in M$ 的 $B_\mu$），另一方面是另一个系列 $(A'_{\lambda'})_{\lambda' \in L'}$ 的环（分别是 $(B'_{\mu'})_{\mu' \in M'}$）。 类似地，假设 F 具有多模块结构，其左（或右）运算符的环一方面是 $\lambda \in L$ 的 $A_\lambda$（分别是 $\mu \in M$ 的 $B_\mu$），另一方面是另一个族 $(A''_{\lambda''})_{\lambda'' \in L''}$（分别是 $(B''_{\mu''})_{\mu'' \in M''}$）的环；为了缩写，我们可以说 E 是一个 (($A_\lambda$), ($A'_{\lambda'}$); ($B_\mu$), ($B'_{\mu'}$))-多模块，F 是 (($A_\lambda$), ($A''_{\lambda''}$); ($B_\mu$), ($B''_{\mu''}$))-多模块。 将 E 和 F 视为 (($A_\lambda$), ($B_\mu$))-多模块，从而“限制”运算符到子族 ($A_\lambda$) 和 ($B_\mu$)。 根据本文开头所述，在 E 和 F 定义上给出的多模块结构规范地环同态
 
 $$
 A'_{\lambda'} \to \operatorname{End}_{(A_\lambda), (B_\mu)}(E), \qquad {B'_{\mu'}}^0 \to \operatorname{End}_{(A_\lambda), (B_\mu)}(E),
@@ -1275,7 +1275,7 @@ $$
 A''_{\lambda''} \to \operatorname{End}_{(A_\lambda), (B_\mu)}(F), \qquad B''_{\mu''} \to \operatorname{End}_{(A_\lambda), (B_\mu)}(F);
 $$
 
-moreover, two elements of $\operatorname{End}_{(A_\lambda), (B_\mu)}(E)$ (resp. $\operatorname{End}_{(A_\lambda), (B_\mu)}(F)$) respective images of elements of two distinct rings among the $A'_{\lambda'}$, or the ${B'_{\mu'}}^0$ (resp. the $A''_{\lambda''}$ or the $B''_{\mu''}$) are permutable; it follows that the above homomorphisms define on $\operatorname{Hom}_{(A_\lambda), (B_\mu)}(E, F)$ a *multimodule* structure whose rings of *left* operators are the $A''_{\lambda''}$ ($\lambda'' \in L''$) and the $B'_{\mu'}$ ($\mu' \in M'$) and whose rings of *right* operators are the $A'_{\lambda'}$ ($\lambda' \in L'$) and the $B''_{\mu''}$ ($\mu'' \in M''$).
+此外，$\operatorname{End}_{(A_\lambda), (B_\mu)}(E)$（分别为$\operatorname{End}_{(A_\lambda), (B_\mu)}(F)$）的两个元素分别是$A'_{\lambda'}$或${B'_{\mu'}}^0$（分别为$A''_{\lambda''}$或$B''_{\mu''}$）中两个不同环的元素图像是可置换的；由此可见，上述同态在$\operatorname{Hom}_{(A_\lambda), (B_\mu)}(E, F)$上定义了一个*多模块*结构，其*左*运算符的环是$A''_{\lambda''}$（$\lambda'' \in L''$）和$B'_{\mu'}$（$\mu' \in M'$），其*右*运算符的环是$A'_{\lambda'}$（$\lambda' \in L'$）和$B''_{\mu''}$ （$\mu'' \in M''$）。
 
 如果现在 $E'$ 是 (($A_\lambda$), ($A'_{\lambda'}$); ($B_\mu$), ($B'_{\mu'}$))-多模块，$F'$ 是 (($A_\lambda$), ($A''_{\lambda''}$); ($B_\mu$), ($B''_{\mu''}$))-多模块， $\operatorname{Hom}_{(A_\lambda), (B_\mu)}(E', F')$ 是
 
@@ -1295,7 +1295,7 @@ $$
 
 (1) 令F为A-模且C为环A的*中心*；由于中心同位与所有同位交换，F 有一个 *双模* 结构，其环左运算符是 A 和 C。如果 E 为另一个 A-模，$\operatorname{Hom}_A(E, F)$ 因此具有规范的 C-*模* 结构（其中，对于 $f \in \operatorname{Hom}_A(E, F)$ 和 $\gamma \in C$，$\gamma f$ 为同态 $x \mapsto \gamma f(x)$）；如果E'，F'是两个A-模，$u : E' \to E, v : F \to F'$两个A同态，映射$\operatorname{Hom}(u, v)$是C-*线性*。
 
-(2) 设E为左A-模；由于 A 具有规范的 (A, A) 双模结构，因此对于任何索引集合 T 都有直和 $A^{(T)}$；由上可知，$\mathrm{Hom}_A(A_s^{(T)}, E)$有一个规范的*左A-模* 结构，源自$A_s^{(T)}$上的*右*A-模结构：对于$f \in \mathrm{Hom}_A(A_s^{(T)}, E)$和$\alpha \in A$，$\alpha f$是线性映射$x \mapsto f(x\alpha)$。 no. 11定义典范映射$j_{E, T}$的推论2至命题17从乘积模$E^T$到$\mathrm{Hom}_A(A_s^{(T)}, E)$，$j_{E, T}$下的像 $(x_t)_{t \in T}$为线性映射$f : A_s^{(T)} \to E$，使得$f(e_t) = x_t$对于所有$t \in T$（其中$(e_t)$是$A_s^{(T)}$的典范基）；已知（*loc.cit.*）$j_{E, T}$是*双射的*，并且从上面给出的定义在$\mathrm{Hom}_A(A_s^{(T)}, E)$上的A-模结构得出$j_{E, T}$是*A-线性的*。最后，如果$u : E \to F$是A-模同态，图表
+(2) 设E为左A-模；由于 A 具有规范的 (A, A) 双模结构，因此对于任何索引集合 T 都有直和 $A^{(T)}$；由上可知，$\mathrm{Hom}_A(A_s^{(T)}, E)$有一个规范的*左A-模*结构，源自$A_s^{(T)}$上的*右*A-模结构：对于$f \in \mathrm{Hom}_A(A_s^{(T)}, E)$和$\alpha \in A$，$\alpha f$是线性映射$x \mapsto f(x\alpha)$。 no. 11命题17的推论2定义了从产品模块$E^T$到$\mathrm{Hom}_A(A_s^{(T)}, E)$的规范映射$j_{E, T}$，族$(x_t)_{t \in T}$的$j_{E, T}$下的图像是线性映射$f : A_s^{(T)} \to E$，使得$f(e_t) = x_t$对于所有$t \in T$（其中$(e_t)$是$A_s^{(T)}$的规范基础）；已知（*loc.cit.*）$j_{E, T}$是*双射的*，并且从上面给出的$\mathrm{Hom}_A(A_s^{(T)}, E)$上A-模结构的定义可以得出$j_{E, T}$是*A-线性的*。 最后，如果$u : E \to F$是A-模同态，图表
 
 $$
 \begin{array}{ccc}
@@ -1307,7 +1307,7 @@ $$
 
 是*可交换的*。
 
-注，当T由单个元素组成时，$j_E : E \to \mathrm{Hom}_A(A_s, E)$就是no. 2，*例* 1中定义的映射$x \mapsto \theta_x$。
+请注意，当 T 由单个元素组成时，$j_E : E \to \mathrm{Hom}_A(A_s, E)$ 只是 no. 2、*例* 1 中定义的映射 $x \mapsto \theta_x$。
 
 ### 习题{#alg-ii-s1-exercises}
 

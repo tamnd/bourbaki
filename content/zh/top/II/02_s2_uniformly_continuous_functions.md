@@ -41,16 +41,16 @@ subsections:
       pdf_page: 186
 statements: 27
 exercises: 6
-content_sha256: 99c5d44dc8cbadd2c900be1d8584ae263854c8ef8e8d28aa8dc3c76c9cafeb5e
+content_sha256: 8802a170472393281c931208f18725c91a9f628c921861f815e262d3a8d31412
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
 translation_method: google
 source_content_sha256: 92b674d0f20d1a67ab0b8298e6f5a7fe7434487139d32666270aa426c8d22f2f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 70128667984cf28708867ad56aeb6870a804248efb6e197118036374282aba07
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. 均匀连续函数
@@ -93,13 +93,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 这直接来自于乘积映射 $f \times f$ 项中定义 1 的解释。
 
-### 2. 均匀性比较
+### 2. 均匀度比较
 
-no. 1的命题 2表明我们可以将结构均匀连续映射视为态射（集合理论，章IV, § 2, no. 1）；我们将来总是假设态射是这样选择的。根据一般的定义（集合理论，章IV, § 2, no. 2），这允许我们在给定的集合X上对集合均匀性进行定义序关系：
+no. 1的命题 2 表明我们可以将结构的均匀连续映射视为态射（集合理论，章IV, § 2, no. 1）；我们将来总是假设态射是这样选择的。根据一般的定义（集合理论，章IV, § 2, no. 2），这使我们能够在给定的集合上对集合均匀性进行定义序关系 X：
 
 #### 定义 2 {#top-ii-s2-def-2 .statement tag=0BDN}
 
-如果$\mathfrak{U}_1$和$\mathfrak{U}_2$是同一个集合X上的两个均匀结构，则$\mathfrak{U}_1$被称为更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$比$\mathfrak{U}_1$更粗糙）如果，用 $X_i$ 集合 X 表示，且一致结构 $\mathfrak{U}_i$ ($i = 1,2$)，恒等映射 $X_1 \to X_2$ 是一致连续的。
+如果$\mathfrak{U}_1$和$\mathfrak{U}_2$是同一个集合X上的两个均匀结构，则$\mathfrak{U}_1$被称为更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$比$\mathfrak{U}_1$更粗糙）如果，由 $X_i$ 集合 X 与一致的结构 $\mathfrak{U}_i$ ($i = 1,2$) 表示，恒等映射 $X_1 \to X_2$ 是一致连续的。
 
 如果$\mathfrak{U}_1$比$\mathfrak{U}_2$是更细并且与$\mathfrak{U}_2$不同，我们说$\mathfrak{U}_1$严格比更细比$\mathfrak{U}_2$（并且$\mathfrak{U}_2$严格比$\mathfrak{U}_1$更粗糙）。
 
@@ -109,21 +109,21 @@ no. 1的命题 2表明我们可以将结构均匀连续映射视为态射（集�
 
 在集合X上有序的集合均匀度中，离散均匀度最好，最粗的均匀度是集合随行体由单个元素$X \times X$组成。
 
-下面的命题是直接的推论定义1 no. 1：
+下面的命题是定义 1 of no. 1的直接的推论：
 
 #### 命题 3 {#top-ii-s2-prop-3 .statement tag=0BDP}
 
 如果 $\mathfrak{U}_1$ 和 $\mathfrak{U}_2$ 是集合 X 上的两个一致，则当且仅当 $\mathfrak{U}_2$ 的每个随行人员都是 $\mathfrak{U}_1$ 的随行人员时，$\mathfrak{U}_1$ 比 $\mathfrak{U}_2$ 更细。
 
-#### 推论{#top-ii-s2-n2-cor-1 .statement tag=0BDQ}
+#### 推论 {#top-ii-s2-n2-cor-1 .statement tag=0BDQ}
 
-设$\mathfrak{U}_1$和$\mathfrak{U}_2$为集合X上的两个一致度，并假设$\mathfrak{U}_1$比$\mathfrak{U}_2$为更细；那么$\mathfrak{U}_1$诱发的拓扑比$\mathfrak{U}_2$诱发的拓扑为更细。
+设$\mathfrak{U}_1$和$\mathfrak{U}_2$为集合X上的两个一致度，并假设$\mathfrak{U}_1$比$\mathfrak{U}_2$为更细；那么由$\mathfrak{U}_1$诱发的拓扑比由$\mathfrak{U}_2$诱发的拓扑为更细。
 
 这是直接从项和邻域中的拓扑比较得出的（章 I, , no. 2, 命题 3）
 
 #### 注 1 {#top-ii-s2-n2-rem-1 .statement tag=0BDR}
 
-可能会出现均匀性 $\mathfrak{U}_1$ 比均匀性 $\mathfrak{U}_2$ 严格为更细，但两个导出的拓扑是相同的。下面的例展示了这一点：
+均匀性 $\mathfrak{U}_1$ 可能比均匀性 $\mathfrak{U}_2$ 严格为更细，但两个导出的拓扑是相同的。下面的例展示了这一点：
 
 令 $X$ 为非空集合。对于 $X$ 的每个有限划分 $\varpi = (A_i)_{1 \leq i \leq n}$，令 $V_{\overline{\varpi}}$ 表示
 $$
@@ -135,7 +135,7 @@ $$
 
 如果 $f : X \to X'$ 是均匀连续的映射，那么如果我们通过更细均匀性对 $X$ 进行替换的均匀性，并通过更粗略的均匀性（no. 1、命题 2）对 $X'$ 进行均匀连续处理，则 $f$ 保持均匀连续。在其他字、更细中，$X$的均匀度和$X'$的均匀度越粗糙，$X$到$X'$的映射越均匀连续。
 
-### 3. 初始均匀性
+### 3. 初始均匀度
 
 #### 命题 4 {#top-ii-s2-prop-4 .statement tag=0BDT}
 
@@ -145,29 +145,29 @@ $$
 \text{(1)} \quad U(V_{i_1}, \ldots, V_{i_n}) = \overline{g_{i_1}}(V_{i_1}) \cap \cdots \cap \overline{g_{i_n}}(V_{i_n})
 $$
 
-集合 $\mathfrak{S}$。那么$\mathfrak{B}$是$X$上均匀性$\mathfrak{U}$的基本系统，这是$X$上关于家庭$(f_i)$的初始均匀性结构（集合理论，章IV, § 2, no. 3），特别是$\mathfrak{U}$ 是 $X$ 上的最粗糙均匀性，其中所有映射 $f_i$ 都是均匀连续的。但除此之外，令 $h$ 为空间 $Z$ 到 $X$ 的映射；则 $h$ 是一致连续的（当 $X$ 具有均匀性 $\mathfrak{U}$ 时）当且仅当映射 $f_i \circ h$ 中的每一个都是一致连续的。
+集合 $\mathfrak{S}$。那么$\mathfrak{B}$是$X$上均匀性$\mathfrak{U}$的基本随行人员系统，这是$X$上关于家庭$(f_i)$的初始制服结构（集合理论，章） IV, § 2, no. 3），特别是$\mathfrak{U}$是$X$上最粗糙的均匀性，其中所有映射$f_i$都是均匀连续的。但除此之外，让 $h$ 成为空间 $Z$ 到 $X$ 的映射；则 $h$ 是一致连续的（当 $X$ 具有均匀性 $\mathfrak{U}$ 时）当且仅当映射 $f_i \circ h$ 是一致连续的。
 
-立即可见$\mathfrak{B}$满足公理$(B_1)$和$(U'_1)$。如果$W_i = \overline{g}_i^{-1}(V_i)$，则$\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$和$\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$；因此$\mathfrak{B}$也满足公理$(U'_{II})$和$(U'_{III})$，因此是$X$上一致性$\mathfrak{U}$的基本系统。此外，从$\mathfrak{U}$和定义1和no. 1的定义可以立即得出，对于每个指标$i \in I$，$f_i$是一致连续的；因此，如果 $h$ 是，则 (no. 1, 命题 2) $f_i \circ h$ 对于每个 $i \in I$ 是均匀连续的。相反，假设$f_i \circ h$对于每个$i \in I$是一致连续的，并考虑集合$U(V_{i_1}, \ldots, V_{i_n})$；通过假设，对于每个$k$使得$1 \leq k \leq n$，有一个$Z$的随从$W_k$使得关系$(z, z') \in W_k$意味着$[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$；如果
+立即可见$\mathfrak{B}$满足公理$(B_1)$和$(U'_1)$。如果$W_i = \overline{g}_i^{-1}(V_i)$，则$\overline{W}_i = \overline{g}_i^{-1}(\overline{V}_i)$和$\dot{W}_i = \dot{g}_i^{-1}(\dot{V}_i)$；因此，$\mathfrak{B}$也满足公理$(U'_{II})$和$(U'_{III})$，因此是$X$上一致性$\mathfrak{U}$的基本系统。此外，从$\mathfrak{U}$、定义1和no. 1的定义可以立即得出，对于每个指标$i \in I$，$f_i$是一致连续的；因此，如果 $h$ 是，则 (no. 1, 命题 2) $f_i \circ h$ 对于每个 $i \in I$ 是均匀连续的。相反，假设$f_i \circ h$对于每个$i \in I$是一致连续的，并考虑集合$U(V_{i_1}, \ldots, V_{i_n})$；通过假设，对于每个$k$，使得$1 \leq k \leq n$，都有一个$Z$的随从$W_k$，使得关系$(z, z') \in W_k$意味着$[f_{i_k}(h(z)), f_{i_k}(h(z'))] \in V_k$；如果
 $$
 W = \bigcap_k W_k,
 $$
-每当 $z$ 和 $z'$ $W$ 接近时，这些 $n$ 关系同时满足，这样我们就有 $(h(z), h(z')) \in U(V_{i_1}, \ldots, V_{i_n})$，证明是完整的。
+每当 $z$ 和 $z'$ $W$ 接近时，这些 $n$ 关系就同时满足，这样我们就有了 $(h(z), h(z')) \in U(V_{i_1}, \ldots, V_{i_n})$，并且证明是完整的。
 
-#### 推论{#top-ii-s2-n3-cor-1 .statement tag=0BDU}
+#### 推论 {#top-ii-s2-n3-cor-1 .statement tag=0BDU}
 
-*$X$上的拓扑由最粗糙均匀性$\mathfrak{U}$引起，其中$f_i$均匀连续，也是最粗糙拓扑，其中$f_i$连续。*
+*$X$上的拓扑是由最粗均匀性$\mathfrak{U}$（其中$f_i$均匀连续）引起的，也是最粗拓扑（其中$f_i$是连续的）。*
 
 这后者中的拓扑是点邻域定义直接的推论（章I, § 2, no. 3、命题4）。
 
-初始结构（*集合理论*，章IV, § 2, no. 3，标准 CST 10）的一般属性特别意味着以下*传递性* 性质：
+初始结构（*集合理论*、章 IV, § 2, no. 3，标准 CST 10）的一般属性特别意味着以下 *传递性* 性质：
 
 #### 命题 5 {#top-ii-s2-prop-5 .statement tag=0BDV}
 
 *令$X$为集合，令$(Z_i)_{i \in I}$为制服空间的族，令$(J_\lambda)_{\lambda \in L}$为$I$的划分，令$(Y_\lambda)_{\lambda \in L}$为由$L$索引的集合族。对于每个$\lambda \in L$，令$h_\lambda$为$X$到$Y_\lambda$的映射；对于每个$\lambda \in L$和每个$i \in J_\lambda$，让$g_{i\lambda}$是$Y_\lambda$的映射到$Z_i$；让$f_i = g_{i\lambda} \circ h_\lambda$。让每个$Y_\lambda$携带最粗糙的均匀结构，其中映射$g_{i\lambda}$（$i \in J_\lambda$）是均匀连续的。那么 $X$ 上 $f_i$ 均匀连续的最粗均匀结构与 $X$ 上 $h_\lambda$ 均匀连续的最粗均匀结构相同。*
 
-### 4. 逆像统一性；制服子空间
+### 4. 逆像均匀性；制服子空间
 
-令$X$为集合，$Y$将$X$统一为空间，$f$映射到$Y$。 $X$ 上的最粗均匀性$\mathfrak{U}$（其中$f$ 均匀连续）称为$Y$ 的均匀结构 $f$ 下的*逆像*。从no. 3的命题 4，以及从公式得出交的逆像，$Y$形式的随从的$g = f \times f$下的逆像是随从的基本系统 $\mathfrak{U}$。由$\mathfrak{U}$诱发的拓扑是$Y$的拓扑在$f$下的*逆像*（no. 3，命题4的推论）。
+令$X$为集合，$Y$将$X$统一为空间，$f$映射到$Y$。 $X$ 上的最粗均匀性$\mathfrak{U}$（其中$f$ 均匀连续）称为$Y$ 的均匀结构 $f$ 下的*逆像*。从no. 3的命题 4，以及从公式得出交的逆像，$Y$形式的随从的$g = f \times f$下的逆像是随从的基本系统 $\mathfrak{U}$。由$\mathfrak{U}$诱发的拓扑是$Y$的拓扑的$f$下的*逆像*（no. 3、推论至命题4）。
 
 #### 注 {#top-ii-s2-n4-rem-1 .statement tag=0BDW}
 
@@ -191,11 +191,11 @@ $$
 
 令 $A$ 为均匀空间 $X$ 的密集子集。然后，在$X \times X$，制服子空间$A$形式的随行人员关闭，这是$X$随行人员的基本系统。
 
-$A \times A$ 在 $X \times X$ 中稠密（章 I, § 4, no. 3、命题 7）。令$V$为$A$的开放随从；它是交 $A \times A$ 以及开放的随从$U$ $X$。我们有$U \subset \overline{V}$（章I, § 1, no. 6，命题5），鉴于§ 1, no. 2，命题2的推论2，这个关系与$\overline{V} \subset \overline{U}$一起建立了命题。
+$A \times A$ 在 $X \times X$ 中稠密（章 I, § 4, no. 3、命题 7）。令$V$为$A$的开放随从；它是交 $A \times A$ 以及开放的随从$U$ $X$。我们有$U \subset \overline{V}$（章I, § 1, no. 6，命题5），鉴于命题2中的§ 1, no. 2，推论2，这个关系与$\overline{V} \subset \overline{U}$一起建立了命题。
 
-### 5. 集合中最少上界的均匀性
+### 5. 至少上界 / 集合均匀度
 
-集合$X$上的每个$(\mathfrak{U}_i)_{i \in I}$制服系列在$X$上所有制服的有序集合中至少有上界$\mathfrak{U}$；我们只需要no. 3中的应用命题 4，将$Y_i$视为集合$X$，均匀性为$\mathfrak{U}_i$，将$f_i$视为恒等映射$X \to Y_i$。由$\mathfrak{U}$引起的拓扑只是由$\mathfrak{U}_i$引起的拓扑中最小的上界。
+集合$X$上的每个$(\mathfrak{U}_i)_{i \in I}$制服系列在$X$上所有制服的有序集合中至少有上界$\mathfrak{U}$；我们只需要no. 3中的应用命题 4个，将$Y_i$视为集合$X$，均匀度为$\mathfrak{U}_i$，将$f_i$视为恒等映射$X \to Y_i$。由$\mathfrak{U}$引发的拓扑只是由$\mathfrak{U}_i$引发的拓扑中最小的上界。
 
 从no. 3的命题4也可以得出，如果$X$不为空且$\mathfrak{U}_i$是$\mathfrak{U}_i$的随从过滤器，则$\mathfrak{U}$的随从过滤器是过滤器$\mathfrak{U}_i$中最小的上界（章） I, § 6, no. 2）。
 
@@ -218,7 +218,7 @@ $$
 *具有最粗的均匀度，投影* $pr_i : X \to X_i$
 * 是均匀连续的。这个均匀度被称为* $X_i$的均匀度的乘积，*和均匀度空间* $X_i$ *被称为* $X$的因子。
 
-由$X$上的乘积均匀性引起的拓扑与$X_i$拓扑的乘积相同（no. 3，命题4的推论）。
+由$X$上的乘积均匀性引起的拓扑与$X_i$拓扑的乘积相同（no. 3，推论至命题4）。
 
 #### 命题 7 {#top-ii-s2-prop-7 .statement tag=0BE2}
 
@@ -226,7 +226,7 @@ $$
 
 从$f_i = pr_i \circ f$开始，这是命题 4 of no. 3的特例。
 
-#### 推论{#top-ii-s2-n6-cor-1 .statement tag=0BE3}
+#### 推论 {#top-ii-s2-n6-cor-1 .statement tag=0BE3}
 
 *令* $(X_i)_{i \in I}, (Y_i)_{i \in I}$ *为制服空间的两个系列，由相同的集合* $I$索引。 *对于每个*$i \in I$，*让*$f_i$*成为*$X_i$*的映射*进入*$Y_i$。 *如果* $f_i$ *中的每一个都是均匀连续的，那么乘积映射*
 $$
@@ -234,7 +234,7 @@ f : (x_i) \to (f_i(x_i)).
 $$
 *相反，如果* $X_i$ *非空且* $f$ *一致连续，则每个* $f_i$ *一致连续。*
 
-f 可以写成$x \to (f_i(\mathrm{pr}_i x))$，因此推论的第一个部分是从命题7得出的。第二个部分是通过考虑$\prod_{i \in I} X_i$的点$a = (a_i)$并重复章的论证来证明的I、no. 1、推论 1 到命题 1，其中短语“在$a$（分别$a_\kappa$）处连续”替换为“均匀连续”
+f 可以写成$x \to (f_i(\mathrm{pr}_i x))$，因此推论的第一个部分是从命题7得出的。第二个部分是通过考虑$\prod_{i \in I} X_i$的点$a = (a_i)$并重复章的论证来证明的I、no. 1、推论 1 至命题 1，其中短语“在$a$（分别$a_\kappa$）处连续”替换为“均匀连续”
 
 初始均匀性传递性（no. 3，命题 5）的一般准则表明，对于拓扑空间（章I, § 4, no. 1）的乘积，均匀空间的乘积是结合律并且以下内容正确：
 
@@ -242,7 +242,7 @@ f 可以写成$x \to (f_i(\mathrm{pr}_i x))$，因此推论的第一个部分是
 
 *令$X$为集合，让$(Y_i)_{i \in I}$为制服空间的族，对于每个$i \in I$，让$f_i$为$X$到$Y_i$的映射。令$f$为$X$到$Y = \prod_{i \in I} Y_i$的映射$x \to (f_i(x))$，并令$U$为$X$上的最粗糙均匀度，其中$f_i$是均匀连续的。那么 $U$ 是逆像在 $f(X)$ 上由乘积均匀性在 $Y$ 上引起的均匀性的 $f$ 下。*
 
-#### 推论{#top-ii-s2-n6-cor-2 .statement tag=0BE5}
+#### 推论 {#top-ii-s2-n6-cor-2 .statement tag=0BE5}
 
 *对于每个$i \in I$，令$A_i$为$Y_i$的子空间。那么$\prod_{i \in I} Y_i$上的乘积均匀度在$A = \prod_{i \in I} A_i$上引起的均匀度与子空间$A_i$均匀度的乘积相同。*
 

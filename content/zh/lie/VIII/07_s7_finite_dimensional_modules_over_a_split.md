@@ -41,21 +41,21 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: f02699083a9012f38f4c75f161da5855ca5a7166a037162ab4f266e9df53b164
+content_sha256: df2bd461d39fc301d62173b912c04f15df22792c69c43ff80eb92ed8e13fe9ac
 translated_from: content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md
 translation_method: google
 source_content_sha256: ed5e53f6a5d3e5a763b2ce062b4bcc72122e2012ef339cee5d3bb3a328b965ff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f398a86649a76bf46c8ffd60bef262b426784016735d4765982893a2b2080982
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。有限维模超过分裂的半单李代数
 
-在本段中，我们保留了§6的一般记号。我们用 R 的权的 P（或 Q）群（或 R 的根权）表示。我们用P（或Q）的元素的$P_+$（或$Q_+$）集合表示，对于B定义的序关系为正。我们用R相对于B的主导权的$P_{++}$集合表示（第1章） VI, §1, no. 10）。 $\mathfrak{h}^*$ 属于的元素 $\lambda$ 到 P（分别为 $P_{++}$）当且仅当所有 $\lambda (H_{\alpha}),\alpha \in B$ 均为整数（分别为整数 $\geq 0$）。我们有$P_{++}\subset P_+$（第VI, §1, no. 6章）。如果$w\in W$，我们用$\varepsilon (w)$表示$w$的行列式，它等于1或$-1$。我们放$\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$。
+在本段中，我们保留了§6的一般记号。我们用 R 的权的 P（或 Q）群（或 R 的根基权）表示。我们用P（或Q）的元素的$P_+$（或$Q_+$）集合表示，对于B定义的序关系为正。我们用R相对于B的主导权的$P_{++}$集合表示（第1章） VI, §1, no. 10）。 $\mathfrak{h}^*$ 属于的元素 $\lambda$ 到 P（分别为 $P_{++}$）当且仅当所有 $\lambda (H_{\alpha}),\alpha \in B$ 均为整数（分别为整数 $\geq 0$）。我们有$P_{++}\subset P_+$（第VI, §1, no. 6章）。如果$w\in W$，我们用$w$的$\varepsilon (w)$行列式表示，等于1或$-1$。我们放$\rho =\frac{1}{2}\sum_{\alpha\in R_+}\alpha$。
 
 ### 1. 有限维简单 $\mathfrak{g}$ 模块的权
 
@@ -79,7 +79,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (ii) 如果$\rho$是单射的，$\Phi$到$\mathfrak{h}$的限制是非简并的。
 
-断言 (i) 由命题 1 得出，因为 P 的元素在 $\mathfrak{h}_{\mathbf{Q}}$ 上有理数值。如果 $\rho$ 是单射的，$\Phi$ 是非简并的（第 I, §6, no. 1 章，命题 1），因而 $\Phi$ 到 $\mathfrak{h}$ 的限制是非简并的（第 VII, §1, no. 3 章，命题 10 (iii)）。
+断言 (i) 由命题 1 得出，因为 P 的元素在 $\mathfrak{h}_{\mathbf{Q}}$ 上有有理值。如果 $\rho$ 是单射的，$\Phi$ 是非简并的（第 I, §6, no. 1 章，命题 1），因而 $\Phi$ 到 $\mathfrak{h}$ 的限制是非简并的（第 VII, §1, no. 3 章，命题 10 (iii)）。
 
 #### 引理 1 {#lie-viii-s7-lem-1 .statement tag=013A}
 
@@ -157,15 +157,15 @@ $$
 
 我们用V表示一个简单的$\mathfrak{g}$模块，用$\mathscr{X}$表示它的权的集合。
 
-a) 假设 V 是有限维的。那么 $\mathscr{X}$ 是有限且非空的（命题 1），极大元素 $\omega$ 也是如此。让$\alpha \in B$。然后$\omega +\alpha  \notin \mathscr{X}$，证明$\omega$是V的最高权（§6, no. 2，引理2）。另一方面，存在从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$需要$H$到$H_{\alpha}$的同态；根据§1，提案 2 (i)，$\omega (H_{\alpha})$ 是整数 $\geq 0$，所以$\omega \in P_{++}$。
+a) Assume that V is finite dimensional.那么 $\mathscr{X}$ 是有限且非空的（命题 1），极大元素 $\omega$ 也是如此。让$\alpha \in B$。然后$\omega +\alpha  \notin \mathscr{X}$，证明$\omega$是V的最高权（§6, no. 2，引理2）。另一方面，存在从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$需要$H$到$H_{\alpha}$的同态；根据§1，提案 2 (i)，$\omega (H_{\alpha})$ 是整数 $\geq 0$，所以$\omega \in P_{++}$。
 
-b) 假设V有最高权$\omega \in P_{++}$。令$\alpha \in B$和$e$为V中权$\omega$的原语元素。将$e_j=X_{-\alpha}^je$换成$j\geq 0$，
+b) Assume that V has 最高权 $\omega \in P_{++}$.令$\alpha \in B$和$e$为V中权$\omega$的原语元素。 Put $e_j=X_{-\alpha}^je$ for $j\geq 0$,
 
-$m=\omega (H_{\alpha})\in \mathbf{N}$，N = $\sum_{j=0}^mke_j$。根据 §1, no. 2，提案 $1,X_{\alpha}e_{m+1}$ = 0。
+$m=\omega (H_{\alpha})\in \mathbf{N}$, and N = $\sum_{j=0}^mke_j$. By §1, no. 2, Prop. $1,X_{\alpha}e_{m+1}$ = 0.
 
 如果 $\beta \in B$ 和 $\beta \not=\alpha$，则 $[X_{\beta}, X_{-\alpha}] = 0$，因此 $X_{\beta}e_{m+1}=X_{\beta}X_{-\alpha}^{m+1}e$ = $X_{-\alpha}^{m+1}X_{\beta}e= 0$。如果$e_{m+1}\not= 0$，我们结论认为$e_{m+1}$是原始的，这是荒谬的（§6，命题3（i））；所以$e_{m+1}= 0$。因此，通过 §1, no. 2，Cor。根据命题1，N在$H_{\alpha}, X_{\alpha}$和$X_{-\alpha}$生成的子代数$\mathfrak{s}_{\alpha}$下是稳定的。现在$\mathfrak{s}_{\alpha}$在$\mathfrak{g}$中被还原，因此V的有限维子空间在$\mathfrak{s}_{\alpha}$下稳定的和是V的$\mathfrak{g}$子模（第I, §6, no. 6，道具。） 7);由于和非零，因此它等于V。由此可见$(X_{\alpha})_V$和$(X_{-\alpha})_V$是局部幂零的。鉴于引理 1 (ii)，$\mathscr{X}$在$s_{\alpha}$下是稳定的，这对于所有$\alpha$都成立。因此$\mathscr{X}$在W下是稳定的。现在P上W的每个轨道都满足$P_{++}$（第VI, §1, no. 10）。另一方面，如果 $\lambda \in \mathscr{X}\cap P_{++}$，则 $\lambda =\omega -\sum_{\alpha\in B}n_{\alpha}\alpha =\sum_{\alpha\in B}n'_{\alpha}\alpha$ 以及 $n_{\alpha}\in \mathbf{N}$ 和 $n'_{\alpha}\geq 0$ 对于所有 $\alpha \in B$
 
-（第V, §3, no. 5、引理6章）。所以$\mathscr{X}\cap P_{++}$是有限的，因此$\mathscr{X}$也是有限的。由于每个权都有有限的重数（§6, no. 1，命题 1 (ii)），V 是有限维的。
+(Chap. V, §3, no. 5, 引理 6). So $\mathscr{X}\cap P_{++}$ is finite and hence so is $\mathscr{X}$.由于每个权都有有限的重数（§6, no. 1，命题 1 (ii)），V 是有限维的。
 
 #### 推论 1 {#lie-viii-s7-thm-1-cor-1 .statement tag=013H}
 
@@ -177,23 +177,23 @@ $\lambda \in P_{++}$的$\mathfrak{g}$模$E(\lambda )$构成有限维简单$\math
 
 $\mathfrak{g}$-模$E(\lambda )$，其中$\lambda$是基本权，称为基本$\mathfrak{g}$-模； 相应的表示称为$\mathfrak{g}$的基数表示；它们是绝对不可约的（§6, no. 2，命题 3 (iv)）。
 
-如果V是有限维$\mathfrak{g}$模且$\lambda \in P_{++}$，则型$E(\lambda )$的V的同典型分量称为最高权$\lambda$的V的同典型分量。
+如果V是有限维$\mathfrak{g}$模且$\lambda \in P_{++}$，则型$E(\lambda )$的V的等典型分量称为最高权$\lambda$的等典型分量 V。
 
 #### 注 1 {#lie-viii-s7-n2-rem-1 .statement tag=013J}
 
-令 $E(\lambda ),s\in$ Aut($\mathfrak{g}$) 上的 $\mathfrak{g}$ $\lambda \in P_{++},\rho_{\lambda}$ 表示，以及 Aut(R$,B$) 上的 $s$ $\sigma$ 典范像 $($§5, no. 3，Cor.提案 5 中的 1）。那么$\rho_{\lambda}\circ s$就相当于$\rho_{\sigma \lambda}$；事实上，如果 $s\in$ Aut$_0(\mathfrak{g}),\rho_{\lambda}\circ s$ 和 $\rho_{\sigma \lambda}$ 等价于 $\rho_{\lambda}$（命题 2）；并且，如果$s$使$\mathfrak{h}$和B稳定，则$\rho_{\lambda}\circ s$是最高权$\sigma \lambda$的简单。
+令 $E(\lambda ),s\in$ Aut($\mathfrak{g}$) 上的 $\mathfrak{g}$ $\lambda \in P_{++},\rho_{\lambda}$ 表示，以及 Aut(R$,B$) 上的 $s$ $\sigma$ 典范像 $($§5, no. 3，Cor.提案 5 中的 1）。 Then $\rho_{\lambda}\circ s$ is equivalent to $\rho_{\sigma \lambda}$;事实上，如果 $s\in$ Aut$_0(\mathfrak{g}),\rho_{\lambda}\circ s$ 和 $\rho_{\sigma \lambda}$ 等价于 $\rho_{\lambda}$（命题 2）；并且，如果$s$使$\mathfrak{h}$且B稳定，则$\rho_{\lambda}\circ s$是最高权$\sigma \lambda$的简单。
 
 特别是，基本的表示被$s$排列，并且这个置换是恒等式当且仅当$s\in$Aut$_0(\mathfrak{g})$。
 
 #### 命题 3 {#lie-viii-s7-prop-3 .statement tag=013K}
 
-令V为有限维$\mathfrak{g}$模，$\mathscr{X}$为权的集合。令$t\in \mathbf{Z}$的$\lambda \in \mathscr{X},\alpha \in R$、I集合使得I的$\lambda +t\alpha \in \mathscr{X},p$（分别$-q$）最大的（分别最小的）元素。令$m_t$为$\lambda +t\alpha$中的重数。
+令V为有限维$\mathfrak{g}$模，$\mathscr{X}$为权的集合。令$t\in \mathbf{Z}$的$\lambda \in \mathscr{X},\alpha \in R$、I集合使得I的$\lambda +t\alpha \in \mathscr{X},p$（分别$-q$）最大的（分别最小的）元素。 Let $m_t$ be 重数 of $\lambda +t\alpha$.
 
-(i) I = $-q, p$ 和 $q-p=\lambda (H_{\alpha})$。
+(i) I = $-q, p$ and $q-p=\lambda (H_{\alpha})$.
 
 (ii) 对于任何整数、$u\in 0, p+q,\lambda + (p-u)\alpha$和$\lambda + (-q+u)\alpha$，共轭低于$s_{\alpha}$和$m_{-q+u}=m_{p-u}$。
 
-(iii) 如果$t\in \mathbf{Z}$和$t <(p-q)/2$，则$(X_{\alpha})_V$映射$V^{\lambda+t\alpha}$内射到$V^{\lambda+(t+1)\alpha}$。
+(iii) 如果$t\in \mathbf{Z}$和$t <(p-q)/2$，则$(X_{\alpha})_V$映射$V^{\lambda+t\alpha}$注入$V^{\lambda+(t+1)\alpha}$。
 
 (iv) 函数 $t \rightarrow m_t$ 在 $-q,(p-q)/2$ 上是递增，在$(p-q)/2, p$ 上是递减。
 
@@ -225,7 +225,7 @@ $$
 
 让$\mu\in P_{++}$和$\nu \in Q_+$。如果$\mu+\nu \in \mathscr{X}$，则$\mu\in \mathscr{X}$。
 
-写出 $\nu =\sum_{\alpha\in B}c_{\alpha}.\alpha$，其中 $c_{\alpha}\in \mathbf{N}$ 代表所有 $\alpha \in B$。推论很清楚
+写出 $\nu =\sum_{\alpha\in B}c_{\alpha}.\alpha$，其中 $c_{\alpha}\in \mathbf{N}$ 代表所有 $\alpha \in B$。 推论清晰
 
 当$\sum_{\alpha\in B}c_{\alpha}= 0$时；假设$\sum_{\alpha\in B}c_{\alpha}>0$，并根据归纳对$\sum_{\alpha\in B}c_{\alpha}$进行论证。令$(\cdot  | \cdot )$为$\mathfrak{h}^*_{\mathbf{R}}$上的W不变非简并正对称双线性形式。那么$(\nu |\sum_{\alpha\in B}c_{\alpha}.\alpha )>0$，所以存在$\beta \in B$使得$c_{\beta}\geq 1$和
 
@@ -257,7 +257,7 @@ $(\nu |\beta )>0$，因而$\nu (H_{\beta})\geq 1$。从$\mu\in P_{++}$开始，�
 
 (iv) 我们有$\mathscr{X}= W.(\mathscr{X}\cap P_{++})$。 $P_{++}$ 属于的元素 $\lambda$ 到 $\mathscr{X}\cap P_{++}$ 当且仅当$\omega -\lambda \in Q_+$。
 
-(i) 令 $\mathscr{X}'$ 为 P 包含 $\omega$ 的最小的 R 饱和子集。我们有 $\mathscr{X}'\subset \mathscr{X}$（命题 4）。假设$\mathscr{X}\not=\mathscr{X}'$。令 $\lambda$ 为 $\mathscr{X}$ **--** $\mathscr{X}'$ 中的极大元素。由于$\lambda \not=\omega$，存在$\alpha \in B$使得$\lambda +\alpha \in \mathscr{X}$。按照命题 3 引入 $p$ 和 $q$。因为 $\lambda$ 在 $\mathscr{X}$ **--** $\mathscr{X}',\lambda +p\alpha \in \mathscr{X}'$ 中最大。根据命题 3 (ii)，由于 $\mathscr{X}'$ 在 W 下是稳定的，$\lambda -q\alpha \in \mathscr{X}'$ 是稳定的。因此，对于区间 $-q, p$ 内的每个整数 $u$，$\lambda +u\alpha \in \mathscr{X}'$ 都是稳定的。这与……矛盾 $\lambda  \notin \mathscr{X}'$ 并证明 (i)。
+(i) 令 $\mathscr{X}'$ 为 P 包含 $\omega$ 的最小的 R 饱和子集。我们有 $\mathscr{X}'\subset \mathscr{X}$（命题 4）。假设$\mathscr{X}\not=\mathscr{X}'$。令 $\lambda$ 为 $\mathscr{X}$ **--** $\mathscr{X}'$ 中的极大元素。由于$\lambda \not=\omega$，存在$\alpha \in B$使得$\lambda +\alpha \in \mathscr{X}$。按照命题 3 引入 $p$ 和 $q$。因为 $\lambda$ 在 $\mathscr{X}$ **--** $\mathscr{X}',\lambda +p\alpha \in \mathscr{X}'$ 中最大。根据提案 3 (ii)，由于 $\mathscr{X}'$ 在 W 下是稳定的，$\lambda -q\alpha \in \mathscr{X}'$ 是稳定的。因此，$\lambda +u\alpha \in \mathscr{X}'$ 对于区间 $-q, p$ 中的每个整数 $u$。这与……矛盾 $\lambda  \notin \mathscr{X}'$ 并证明 (i)。
 
 (ii) 显然$\omega$是$\mathscr{X}$的R极值元素；因此，它的 W 变换在 $\mathscr{X}$ 中也是 R 极值。令$\lambda$为$\mathscr{X}$的R极值元素；我们将证明$\lambda \in W.\omega$。由于存在$w\in W$使得$w\lambda \in P_{++}$（第VI, §1, no. 10章），我们可以假设$\lambda \in P_{++}$。设 $\alpha \in B$；引入$p$和$q$，如命题3。由于$\lambda$是R极值，$p= 0$或$q= 0$。自从
 
@@ -285,7 +285,7 @@ $\|\mu\|<$ 上($\|\mu+\alpha \|,\|\mu-\alpha \|$)$\leq$ 上$_{\lambda\in\mathscr
 
 (iv) 我们有第 1 章的$\mathscr{X}= W.(\mathscr{X}\cap P_{++})$。 VI, §1, no. 10。如果 $\lambda \in \mathscr{X}$，则$\omega -\lambda \in Q_+($§6, no. 1，命题 1)。如果 $\lambda \in P_{++}$ 和 $\omega -\lambda \in Q_+$，则 $\lambda \in \mathscr{X}$（第 3 条命题第 2 条）。
 
-#### 推论{#lie-viii-s7-n2-cor-1 .statement tag=013P}
+#### 推论 {#lie-viii-s7-n2-cor-1 .statement tag=013P}
 
 令$\mathscr{X}$为P的有限R饱和子集。存在一个有限维$\mathfrak{g}$模，其权的集合为$\mathscr{X}$。
 
@@ -399,27 +399,27 @@ $$
 
 令 $E,F$ 为有限维简单 $\mathfrak{g}$ 模，分别为最高权 $\lambda , \mu$。
 
-(i) 最高权 $\lambda +\mu$ 的$E\otimes F$ 分量是简单子模，由$(E\otimes F)^{\lambda+\mu}= E^{\lambda}\otimes F^\mu$ 生成。
+(i) 最高权$\lambda +\mu$$E\otimes F$分量为简单子模，由$(E\otimes F)^{\lambda+\mu}= E^{\lambda}\otimes F^\mu$生成。
 
-(ii) $E\otimes F$ 中任意简单子模的最高权是 $\leq \lambda +\mu$（cf. §9，命题 2）。
+(ii) $E\otimes F$ 中任意简单子模中的最高权是 $\leq \lambda +\mu$（cf. §9，命题 2）。
 
-如果$\alpha , \beta \in P$并且如果$E^{\alpha}\otimes F^{\beta}\not= 0$，则$\alpha \leq \lambda$和$\beta \leq \mu$。因而，$(E\otimes F)^{\lambda+\mu}$等于$E^{\lambda}\otimes F^\mu$，因此是维数1，$\lambda +\mu$是$E\otimes F$的最高权。 $E^{\lambda}\otimes F^\mu$ 的每个非零元素都是本原的。根据§6, no. 2的命题4，最高权$\lambda +\mu$的$E\otimes F$的同型成分长度为1。
+如果$\alpha , \beta \in P$并且如果$E^{\alpha}\otimes F^{\beta}\not= 0$，则$\alpha \leq \lambda$和$\beta \leq \mu$。因而，$(E\otimes F)^{\lambda+\mu}$等于$E^{\lambda}\otimes F^\mu$，因此是维数1，$\lambda +\mu$是$E\otimes F$的最高权。 $E^{\lambda}\otimes F^\mu$ 的每个非零元素都是本原的。根据§6, no. 2的命题4，最高权$\lambda +\mu$的$E\otimes F$同型分量的长度为1。
 
 #### 注 {#lie-viii-s7-n4-rem-1 .statement tag=013X}
 
-保留命题 9 中的记号。令C 为最高权$\lambda +\mu$ 的$E\otimes F$ 的同型成分。那么C只依赖于E和F，而不依赖于$\mathfrak{h}$和基B的选择。在其他字中，令$\mathfrak{h}'$为$(\mathfrak{g},\mathfrak{h}')$的$\mathfrak{g}, R'$根系分裂嘉当子代数，和 $R'$ 的 $B'$ 基；令$\lambda ', \mu'$为$E,F$相对于$\mathfrak{h}'$和$B'$的最高权；令$C'$为最高权$\lambda '+\mu'$的$E\otimes F$的同型成分；然后$C'= C$。事实上，为了证明这一点，我们可以通过基域的扩张来假设 $k$ 是代数封闭的。然后存在$s\in$ Aut$_e(\mathfrak{g})$，需要$\mathfrak{h}$到$\mathfrak{h}', R$到$R', B$到$B'$。令$S\in \mathbf{S}\mathbf{L}(E\otimes F)$具有no. 1命题2中的性质。那么 $S((E\otimes F)^{\lambda+\mu}) = (E\otimes F)^{\lambda'+\mu'}$ 和 S(C) = C。因此$(E\otimes F)^{\lambda'+\mu'}\subset C'\cap S(C) = C'\cap C$，所以$C'= C$。因此，对于 2 个类有限维简单 $\mathfrak{g}$ 模块，我们可以规范地关联第三个；在其他字中，我们定义了有限维简单$\mathfrak{g}$模合成律的类集合$\mathfrak{S}_{\mathfrak{g}}$。有了这个结构，$\mathfrak{S}_{\mathfrak{g}}$ 与加法幺半群 $P_{++}$ 是标准同构的。
+保留第9条命题的记号，令C为最高权$\lambda +\mu$的$E\otimes F$的同型分量。那么C只依赖于E和F，而不依赖于$\mathfrak{h}$和基B的选择。在其他字中，令$\mathfrak{h}'$为$(\mathfrak{g},\mathfrak{h}')$的$\mathfrak{g}, R'$根系分裂嘉当子代数，和 $R'$ 的 $B'$ 基；令$\lambda ', \mu'$为$E,F$相对于$\mathfrak{h}'$和$B'$的最高权；令$C'$为最高权$\lambda '+\mu'$的$E\otimes F$的同型分量；然后$C'= C$。事实上，为了证明这一点，我们可以通过基域的扩张来假设 $k$ 是代数封闭的。然后存在$s\in$ Aut$_e(\mathfrak{g})$，需要$\mathfrak{h}$到$\mathfrak{h}', R$到$R', B$到$B'$。令$S\in \mathbf{S}\mathbf{L}(E\otimes F)$具有no. 1命题2中的性质。那么 $S((E\otimes F)^{\lambda+\mu}) = (E\otimes F)^{\lambda'+\mu'}$ 和 S(C) = C。因此$(E\otimes F)^{\lambda'+\mu'}\subset C'\cap S(C) = C'\cap C$，所以$C'= C$。因此，对于 2 个类有限维简单 $\mathfrak{g}$ 模块，我们可以规范地关联第三个；在其他字中，我们定义了有限维简单$\mathfrak{g}$模合成律类的集合$\mathfrak{S}_{\mathfrak{g}}$。有了这个结构，$\mathfrak{S}_{\mathfrak{g}}$ 与加法幺半群 $P_{++}$ 是标准同构的。
 
 #### 推论 1 {#lie-viii-s7-prop-9-cor-1 .statement tag=01J5}
 
-令$(\varpi_{\alpha})_{\alpha\in B}$是相对于B的基本权族。令$\lambda =\sum_{\alpha\in B}m_{\alpha}\varpi_{\alpha}\in P_{++}$。对于所有$\alpha \in B$，让$E_{\alpha}$是最高权$\varpi_{\alpha}$的简单$\mathfrak{g}$模块。在$\mathfrak{g}$模$\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$中，最高权$\lambda$的同型成分为长度1。
+令$(\varpi_{\alpha})_{\alpha\in B}$是相对于B的基本权族。令$\lambda =\sum_{\alpha\in B}m_{\alpha}\varpi_{\alpha}\in P_{++}$。对于所有$\alpha \in B$，让$E_{\alpha}$是最高权$\varpi_{\alpha}$的简单$\mathfrak{g}$模块。在$\mathfrak{g}$模$\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$中，最高权$\lambda$的同型分量为长度1。
 
-这是根据归纳在 $\sum_{\alpha\in B}m_{\alpha}$ 提出的第 9 号提案得出的。
+这是根据归纳在 $\sum_{\alpha\in B}m_{\alpha}$ 上提出的第 9 号提案得出的。
 
 #### 推论 2 {#lie-viii-s7-prop-9-cor-2 .statement tag=013Y}
 
-假设$k$是$\mathbf{R}$或$\mathbf{C}$或非离散完全超度量域。令 G 为李群和李代数 $\mathfrak{g}$。假设，对于 $\mathfrak{g}$ 的任何基本表示 $\rho$，存在 G 的解析线性表示 $\rho '$，使得 $\rho = L(\rho ')$。那么，对于 $\mathfrak{g}$ 的任意有限维线性表示 $\pi$，存在 G 的解析线性表示 $\pi '$，使得 $\pi = L(\pi ')$。
+假设$k$是$\mathbf{R}$或$\mathbf{C}$或非离散完全超度量域。令 G 为李群和李代数 $\mathfrak{g}$。假设，对于$\mathfrak{g}$的任何基本表示$\rho$，存在G的解析线性表示$\rho '$使得$\rho = L(\rho ')$。那么，对于 $\mathfrak{g}$ 的任意有限维线性表示 $\pi$，存在 G 的解析线性表示 $\pi '$，使得$\pi = L(\pi ')$。
 
-我们使用Cor的记号。 1. 在$X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$上存在G的表示$\sigma$，使得$L(\sigma )$对应到X的$\mathfrak{g}$模结构（第41条第III, §3, no. 11章，Cor.3）。令 C 为最高权 $\lambda$ 的 X 的同型组件。鉴于章。 III, §3, no. 11，第40条命题，足以证明C在$\sigma (G)$下稳定。设 $g\in G$ 和 $\varphi =$ Ad($g$)。然后 $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ 代表所有 $a\in \mathfrak{g}$。另一方面，$\varphi$是$\mathfrak{g}$的自同构，需要$\mathfrak{h}$到$\mathfrak{h}', R$到$R'= R(\mathfrak{g},\mathfrak{h}'), B$到基$B'$$R'$，以及$\varpi_{\alpha}$到最高权 $E_{\alpha}$相对于$\mathfrak{h}'$和$B'$的$\varpi '_{\alpha}$（因为$\varphi$变换$E_{\alpha}$变成与$E_{\alpha}$同构的$\mathfrak{g}$模块）。因此，$\varphi$需要$\lambda$到$\sum m_{\alpha}\varpi '_{\alpha}$。上面注，$\sigma (g)(C) = C$。
+我们使用Cor的记号。 1. 在$X =\bigotimes_{\alpha\in B}(\bigotimes^{m_{\alpha}}E_{\alpha})$上存在G的表示$\sigma$，使得$L(\sigma )$对应到X的$\mathfrak{g}$模结构（第41条第III, §3, no. 11章，Cor.3）。令C为最高权$\lambda$的X的同型分量。鉴于章。 III, §3, no. 11，第40条命题，足以证明C在$\sigma (G)$下稳定。设 $g\in G$ 和 $\varphi =$ Ad($g$)。然后 $\sigma (g)a_X\sigma (g)^{-1}= (\varphi (a))_X$ 代表所有 $a\in \mathfrak{g}$。另一方面，$\varphi$是$\mathfrak{g}$的自同构，需要$\mathfrak{h}$到$\mathfrak{h}', R$到$R'= R(\mathfrak{g},\mathfrak{h}'), B$到基$B'$，$R'$，以及$\varpi_{\alpha}$到最高权 $E_{\alpha}$相对于$\mathfrak{h}'$和$B'$的$\varpi '_{\alpha}$（因为$\varphi$变换$E_{\alpha}$变成与$E_{\alpha}$同构的$\mathfrak{g}$模块）。因此，$\varphi$需要$\lambda$到$\sum m_{\alpha}\varpi '_{\alpha}$。上面注，$\sigma (g)(C) = C$。
 
 #### 命题 10 {#lie-viii-s7-prop-10 .statement tag=013Z}
 
@@ -513,7 +513,7 @@ $$
 $$
 -m=-\omega\left(\sum_{\alpha\in R_+}H_\alpha\right)<\lambda\left(\sum_{\alpha\in R_+}H_\alpha\right)<\omega\left(\sum_{\alpha\in R_+}H_\alpha\right)=m.
 $$
-设G为$\mathfrak{sl}(2,k)$模E的型V$(m)$的同型分量。由上可知，G为长度1和包含$E^\omega,E^{-\omega}$。根据c)，$\Phi$到G的限制非零。通过§1, no. 3，注 3，$\pi$是偶数或奇数，因为限制是对称的或交错的。鉴于b)，这完成了证明。
+令G为$\mathfrak{sl}(2,k)$模E的型V$(m)$的同型分量。由上可知，G为长度1和包含$E^\omega,E^{-\omega}$。根据c)，$\Phi$到G的限制非零。通过§1, no. 3，注 3，$\pi$是偶数或奇数，因为限制是对称的或交错的。鉴于b)，这完成了证明。
 
 #### 定义 2 {#lie-viii-s7-def-2 .statement tag=01J6}
 
@@ -535,11 +535,11 @@ $$
 $$
 是有限维$\mathfrak a$模的正合序列，则$[F]=[F']+[F'']$。
 
-设 F 为有限维半单 $\mathfrak{a}$ 模；对于所有$E\in \mathfrak{S}_{\mathfrak{a}}$，令$n_E$为型E的F的同型组件的长度；那么 [F] = $\sum_{E\in\mathfrak{S}_{\mathfrak{a}}}n_E.E$。如果 $F,F'$ 是有限维半单 $\mathfrak{a}$ 模，并且如果 [F] = $[F']$，则 F 和 $F'$ 同构的。
+设 F 为有限维半单 $\mathfrak{a}$ 模；对于所有$E\in \mathfrak{S}_{\mathfrak{a}}$，令$n_E$为型E的F的同型分量的长度；那么 [F] = $\sum_{E\in\mathfrak{S}_{\mathfrak{a}}}n_E.E$。如果 $F,F'$ 是有限维半单 $\mathfrak{a}$ 模，并且如果 [F] = $[F']$，则 F 和 $F'$ 同构的。
 
 #### 引理 3 {#lie-viii-s7-lem-3 .statement tag=0145}
 
-令 G 为阿贝尔的群加法写，且 $\varphi :\mathscr{F}_{\mathfrak{a}}\rightarrow G$ 映射；通过滥用记号，我们用任何有限维$\mathfrak{a}$模F的类的$\varphi$下的$\varphi (F)$像表示。假设，对于任何正合序列
+设G为阿贝尔的群相加，且$\varphi :\mathscr{F}_{\mathfrak{a}}\rightarrow G$映射；通过滥用记号，我们用任何有限维$\mathfrak{a}$模F的类的$\varphi$下的$\varphi (F)$像表示。假设，对于任何正合序列
 
 $$
 0\longrightarrow F'\longrightarrow F\longrightarrow F''\longrightarrow 0
@@ -675,11 +675,11 @@ Weyl 群 W 在群 P 上按自同构运行，因此在 $\mathbf{Z}^P$ 上运行�
 
 (ii) 同态从$\mathscr{R}(\mathfrak{g})$到$\mathbf{Z}[P]$诱导同构从环$\mathscr{R}(\mathfrak{g})$到环$\mathbf{Z}[P]^W$。
 
-(iii) 令 E 为有限维 $\mathfrak{g}$ 模。如果 ch $E =\sum_{\lambda\in P_{++}}m_{\lambda}$ch[$\lambda ]$，最高权 $\lambda$ 的 E 的同型成分有长度 $m_{\lambda}$。
+(iii) 令 E 为有限维 $\mathfrak{g}$ 模。如果 ch $E =\sum_{\lambda\in P_{++}}m_{\lambda}$ch[$\lambda ]$，最高权 $\lambda$ 的 E 的同型分量有长度 $m_{\lambda}$。
 
 家族$([\lambda ])_{\lambda\in P_{++}}$是$\mathbf{Z}$模块$\mathscr{R}(\mathfrak{g})$的基，家族(ch[$\lambda ]$)$_{\lambda\in P_{++}}$是$\mathbf{Z}$模块$\mathbf{Z}[P]^W$的基（引理6，以及第1章）。 VI, §3, no. 4，提案 3）。这就证明了(ii)和(iii)。 断言 (i) 源自 (ii)、引理 6 和第 1 章。 VI, §3, no. 4，周四。 1.
 
-#### 推论{#lie-viii-s7-n7-cor-1 .statement tag=014C}
+#### 推论 {#lie-viii-s7-n7-cor-1 .statement tag=014C}
 
 令$E,E'$为有限维$\mathfrak{g}$模。那么 E 同构于 $E'$ 当且仅当 ch E = ch $E'$。
 

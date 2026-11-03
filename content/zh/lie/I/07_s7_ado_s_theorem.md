@@ -25,25 +25,25 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 06e1bad11597fa4c8ede97a54917985866eab1f64b228656a8c03602e12683d5
+content_sha256: e64a064518611f2494e44a91cda812413b46ff947c9285dc07b7554957488e23
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 translation_method: google
 source_content_sha256: 756c418e98cb289633fa81395166a73f8430efbf678bc03b436549d132075ff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 644c68fbc0d0e6659fdc47f8311b5d1d24ef69a1e96126d873172968dbf47751
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。阿多的定理
 
 *回想一下，$K$表示特征0的域，并且所有李代数都被假设为$K$上的有限维。*
 
-### 1. 表示的系数
+### 1. 系数 / 表示
 
-令 U 为 K 上的结合律代数与单位元，U* 向量空间 U 和 U 在向量空间 E 上的 $\rho$ 表示对偶。对于 $e \in E$ 和 $e' \in E^*$，令 $\theta(e, e') \in U^*$ 为相应的的系数$\rho$（代数、章VIII, § 13, no. 3）。回想一下，$\theta(e, e')(x) = \langle \rho(x)e, e' \rangle$和映射$e \mapsto \theta(e, e')$用于将U模块E的$e'$同态固定到U的核心正则表示的U模块U*中（前述，命题1）；因此，由$\rho$的系数生成的U*的向量子空间（子空间，在本段中我们将用$C(\rho)$表示）是U*的子U模块。如果$(e'_i)_{i \in I}$是元素生成的E*在K上的族，映射$e \mapsto (\theta(e, e'_i))$是E到$C(\rho)^I$的单射U同态；对于$\theta(e, e'_i) = 0$对于所有$i$意味着$\langle e, e'_i \rangle = \langle \rho(1)e, e'_i \rangle = \theta(e, e'_i)(1) = 0$对于所有$i$，因此$e = 0$。
+设 U 是 K 上的结合律代数与单位元，U* 向量空间 U 和 U 在向量空间 E 上的 $\rho$ 表示对偶。对于 $e \in E$ 和 $e' \in E^*$，令 $\theta(e, e') \in U^*$ 为相应的系数 / $\rho$（代数、章 VIII, § 13, no. 3）。回想一下，$\theta(e, e')(x) = \langle \rho(x)e, e' \rangle$和映射$e \mapsto \theta(e, e')$用于将U模块E的$e'$同态固定到U的核心正则表示的U模块U*中（前述，命题1）；因此，由$\rho$的系数生成的U*的向量子空间（子空间，在本段中我们将用$C(\rho)$表示）是U*的子U模块。如果$(e'_i)_{i \in I}$是元素生成的E*在K上的族，映射$e \mapsto (\theta(e, e'_i))$是E到$C(\rho)^I$的单射U同态；对于$\theta(e, e'_i) = 0$对于所有$i$意味着$\langle e, e'_i \rangle = \langle \rho(1)e, e'_i \rangle = \theta(e, e'_i)(1) = 0$对于所有$i$，因此$e = 0$。
 
 特别是，如果 U 是李代数 g 的包络代数，并且 $\rho$ 是 g 的表示（用 U 的表示标识）在 n 维向量空间 E 上，则 g 模 E 与 $(C(\rho))^n$ 的子 g 模同构。
 
@@ -62,7 +62,7 @@ $$
 = (x_{U'}y_{U'} - y_{U'}x_{U'})u;
 $$
 
-(3) $x \in h, y \in h$: then $[x, y]_{U'}$ and $[x_{U'}, y_{U'}]$ are two derivations of $U'$ whose restrictions to $g'$ coincide with those of $\mathrm{ad}_g[x, y]$ and $[\mathrm{ad}_g x, \mathrm{ad}_g y]$; hence these derivations are equal.
+(3) $x \in h, y \in h$：则$[x, y]_{U'}$和$[x_{U'}, y_{U'}]$是$U'$的两个导数，其对$g'$的限制与$\mathrm{ad}_g[x, y]$和$[\mathrm{ad}_g x, \mathrm{ad}_g y]$的限制一致；因此这些推导是相等的。
 
 我们还将考虑 g 在 ${U'}^*$ 上的对偶表示 $x \mapsto {}^t x_{U'}$。对于$x \in g'$，${}^t x_{U'}$是$U'$中的x对乘法的右转置；因此，$U'$的相应的表示是$U'$的核心正则表示。
 
@@ -95,9 +95,9 @@ $$
 {I'}^d \subset I \subset I'
 $$
 
-且$I' \cap g'$是$\rho'$的最大的幂零理想。根据§ 2, no. 6，命题 6 的推论，${I'}^d$ 是$U'$ 中的有限余维。如果将$U'$映射$g'$的$x \in h$、推导$u \mapsto xu - ux$转化为$[h, g'] \subset I'$，则将$U'$转化为$I'$，从而将${I'}^d$转化为${I'}^d$。另一方面，显然${I'}^d$是$U'$的子$g'$模块。因此${I'}^d$是$U'$的子$g$模块。 ${U'}^*$中${I'}^d$的正交是一个有限维子$g$模，其中包含$C(\rho')$，因此$S$。这表明 $S$ 是 $K$ 上的有限维。 For $x \in I' \cap g'$, $x^d$ is obviously contained in 湮没子 of the $g$-module $U'/{I'}^d$ and hence also in 湮没子 of the $g$-module $S$.
+且$I' \cap g'$是$\rho'$的最大的幂零理想。从§ 2, no. 6、推论到命题6，${I'}^d$是$U'$中的有限余维。如果将$U'$映射$g'$的$x \in h$、推导$u \mapsto xu - ux$转化为$[h, g'] \subset I'$，则将$U'$转化为$I'$，从而将${I'}^d$转化为${I'}^d$。另一方面，显然${I'}^d$是$U'$的子$g'$模块。因此${I'}^d$是$U'$的子$g$模块。 ${U'}^*$中${I'}^d$的正交是一个有限维子$g$模，其中包含$C(\rho')$，因此$S$。这表明 $S$ 是 $K$ 上的有限维。对于$x \in I' \cap g'$，$x^d$显然包含在$g$模块$U'/{I'}^d$的湮没子中，因此也包含在$g$模块$S$的湮没子中。
 
-我们在no. 1中看到$g'$模块$V'$同构于乘积$(C(\rho'))^n$的子$g'$模块。因此，$g$-模块$S^n$提供了$\rho'$到$g$的有限维扩张$\rho$。此外，$\rho(x)$对于$x \in I' \cap g'$是幂零的； as $I' \cap g'$ is an ideal of $g$ (for it 包含于 $[h, g']$ by 假设), we see that $I' \cap g'$ is contained in 最大的 nilpotency ideal of $\rho$.从而(a)得证。
+我们在no. 1中看到，$g'$模块$V'$同构于乘积$(C(\rho'))^n$的子$g'$模块。因此，$g$-模块$S^n$提供了$\rho'$到$g$的有限维扩张$\rho$。此外，$\rho(x)$对于$x \in I' \cap g'$是幂零的；由于$I' \cap g'$是$g$的理想（对于包含$[h, g']$乘以假设），我们看到$I' \cap g'$包含在$\rho$的最大的幂零理想中。从而(a)得证。
 
 最后假设对于$\mathrm{ad}_{\psi}x$的所有$x \in h$限制到$g'$都是幂零的。由于$h$的元素通过推导对$U'$进行操作，因此对于所有$u \in U'$和所有$x \in h$整数$e$，存在$(x_{U'})^e.u = 0$；因此，从$x_{U'}$在$U'/{I'}^d$和$S$（有限维空间）上派生的自同态是幂零的。因此$\rho(x)$对于所有$x \in h$来说是幂幂的。我们之前已经看到，对于 $x \in I' \cap g'$ 也是如此。由于$I' \cap g'$是$g'$包含于$[h, g']$的理想，和$h + (I' \cap g')$也是$g$的理想。 定理 1 的断言 (b) 然后由以下引理得出：
 
@@ -105,21 +105,21 @@ $$
 
 *令$g = g' + h$为李代数，即理想的$g'$和子代数$h$的和。令 $\sigma$ 为 $g$ 的有限维表示。假设$\sigma(x)$对于所有$x \in g'$和所有$x \in h$都是幂零的。那么$\sigma(x)$对于所有$x \in g$来说是幂幂的。*
 
-经过除以核与 $\sigma$ 的商，$\sigma$ 可以被认为是忠实的。那么$g'$和$h$是幂零的，因此$g$是可解的，它是$h$除以$g'$的商的扩张。那么$h$和$g'$包含在$\sigma$的最大的幂零理想中（§ 5, no. 3，推论6到定理1）。
+经过到商乘以$\sigma$的核，$\sigma$可以被认为是忠实的。那么$g'$和$h$是幂零的，因此$g$是可解的，它是$h$的商除以$g'$的扩张。那么$h$和$g'$就包含在$\sigma$的最大的幂零理想中（§ 5, no. 3，推论6到定理1）。
 
 改善定理 1、cf. 习题 4。
 
-### 3. 阿多的定理
+### 3. 阿多定理
 
 #### 命题 1 {#lie-i-s7-prop-1 .statement tag=0A1I}
 
-*设$g$为李代数，$n$其最大的幂零理想，$a$$g$和$\rho$有限维表示为$a$，使得每元素 $\rho(a)$ 幂零。然后$\rho$承认有限维扩张$\sigma$到$g$，使得$\sigma(n)$的每个元素都是幂零的。*
+*令$g$为李代数，$n$其最大的幂零理想，$a$$g$和$\rho$有限维表示的幂零理想$a$使得每元素 $\rho(a)$ 幂零。然后$\rho$承认一个有限维扩张$\sigma$到$g$，使得$\sigma(n)$的每个元素都是幂零的。*
 
 令 $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ 为 $n$ 的子代数的序列，使得 $n_{i-1}$ 是 $1 \leq i \leq p$ 余维 1 的 $n_i$ 的理想 (§ 4, no. 1, 命题 1 (e))。因此，代数$n_i$是$n_{i-1}$的直和和一维子代数。由于$\mathrm{ad}_{n}x$对于所有$x \in n$都是幂零的，因此可以（定理 1）一一找到$\rho$到$n_1, n_2, \ldots, n_p = n$的有限维扩张$\rho_1, \rho_2, \ldots, \rho_p = \rho'$，使得$\rho'(n)$的每个元素都是幂零的。
 
-令$r$为$g$的根式，并令$n = r_0 \subset r_1 \subset \cdots \subset r_q = r$为$r$的子代数的序列，使得$r_{i-1}$是$1 \leq i \leq q$的余维1的$r_i$的理想（§ 5, no. 1， 命题 2 (d))。因此，代数$r_i$是$r_{i-1}$的直和和一维子代数。作为$[r, r] \subset n$，可以（定理 1）一一找到$\rho'$到$r_1, r_2, \ldots, r_q = r$的有限维扩张$\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$，使得$\rho''(n)$的每个元素都是幂零的。
+令$r$为$g$的根基，并令$n = r_0 \subset r_1 \subset \cdots \subset r_q = r$为$r$的子代数的序列，使得$r_{i-1}$是余维1的$r_i$对于$1 \leq i \leq q$的理想（§ 5, no. 1，命题2（d））。因此，代数$r_i$是$r_{i-1}$的直和和一维子代数。作为$[r, r] \subset n$，可以（定理 1）一一找到$\rho'$到$r_1, r_2, \ldots, r_q = r$的有限维扩张$\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$，使得$\rho''(n)$的每个元素都是幂零的。
 
-最后$g$是$r$和子代数$s$的直和（§ 6, no. 8，定理5）。作为$[s, r] \subset n$，可以（定理 1）找到$\rho''$到$g$的有限维扩张$\sigma$，使得$\sigma(n)$的每个元素都是幂零的。
+最后，$g$是$r$和子代数$s$的直和（§ 6, no. 8，定理5）。作为$[s, r] \subset n$，可以（定理 1）找到$\rho''$到$g$的有限维扩张$\sigma$，使得$\sigma(n)$的每个元素都是幂零的。
 
 #### 定理 2 {#lie-i-s7-thm-2 .statement tag=0A1J}
 
@@ -129,9 +129,9 @@ $$
 
 #### 定理 3（废话）{#lie-i-s7-thm-3 .statement tag=0A1K}
 
-*设$g$为李代数，$n$其最大的幂零理想。存在 $g$ 的有限维忠实表示 $\varphi$，使得 $\varphi(n)$ 的每个元素都是幂零的。*
+*设$g$为李代数，$n$为最大的幂零理想。存在 $g$ 的有限维忠实表示 $\varphi$，使得 $\varphi(n)$ 的每个元素都是幂零的。*
 
-一维李代数 $K$ 承认有限维忠实表示 $\tau$，使得 $\tau(K)$ 的每个元素都是幂零的，对于例表示
+一维李代数 $K$ 承认有限维忠实表示 $\tau$，使得 $\tau(K)$ 的每个元素都是幂零的，例如表示
 $$
 \lambda \mapsto \begin{pmatrix} 0 & 0 \\ \lambda & 0 \end{pmatrix}.
 $$

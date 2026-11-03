@@ -65,16 +65,16 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: 108f00c3cb8c670c64c921029432e39341bf1b93f447b881689394107365c555
+content_sha256: 76f882a54073d036479c193166b45a8985593317bf6d3a4121f8afb75e5204f9
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
 translation_method: google
 source_content_sha256: 0a34905c17ca45e9431cd3c4d11e11fd5e18faa0d9245992a206dca25aae5226
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5bf385348ac2bb6809cc60d33c3ef4fa430a0dd0e2288f4aaa90cab963463e26
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。过滤后的环和模的一般结果
@@ -83,8 +83,8 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#ac-iii-s2-def-1 .statement tag=04DH}
 
-An increasing (resp. decreasing) sequence $(G_n)_{n \in \mathbf{Z}}$ of subgroups of a group $G$ is called an increasing (resp. decreasing) filtration on $G$.
-A group with a filtration is called a filtered group.
+组 $G$ 的子组的递增（或递减）序列 $(G_n)_{n \in \mathbf{Z}}$ 称为 $G$ 上的递增（或递减）过滤。
+带有过滤的组称为过滤组。
 
 如果$(G_n)_{n \in \mathbf{Z}}$是群$G$上的递增（或递减）过滤，并且我们写成$G'_n = G_{-n}$，则显然$(G'_n)_{n \in \mathbf{Z}}$是$G$上的递减（或递增）过滤。因此，我们可以将我们的研究限制在递减过滤，因此，当我们谈到过滤时，我们指的是递减过滤，否则说明为除非。
 
@@ -119,17 +119,17 @@ $$
 
 The $E_n$ are all $A_n$-modules; if $B = \bigcup_{n \in \mathbf{Z}} A_n$, clearly $\bigcup_{n \in \mathbf{Z}} E_n$ is a $B$-module and so is $\bigcap_{n \in \mathbf{Z}} E_n$ by the same argument as above for $\bigcap_{n \in \mathbf{Z}} A_n$. 如果$A_n = A$，则所有$E_n$都是$E$的子模。
 
-Examples
+例
 
 (1) 设$A$为型$\mathbf{Z}$的分级环；对于所有$i \in \mathbf{Z}$，令$A_{(i)}$为$A$中次数$i$的齐次元素的子群。让我们写$A_n = \sum_{i \geq n} A_{(i)}$；那么就是直接的，$(A_n)$是一个详尽且分离的递减过滤，与$A$上的环结构兼容；据说该过滤与分级$(A_{(i)})_{i \in \mathbf{Z}}$相关，而过滤后的环$A$据说与给定的分级环$A$相关。
 
 现在让$E$是型$\mathbf{Z}$的分级模超过分级环$A$并且对于所有$i \in \mathbf{Z}$让$E_{(i)}$是次数的同质元素的子群 $i$ / $E$。让我们写$E_n = \sum_{i \geq n} E_{(i)}$；那么$(E_n)$是彻底且分离的递减过滤，它与过滤后的环$A$上的$E$上的模结构兼容；据说该过滤与分级$(E_{(i)})_{i \in \mathbf{Z}}$相关，而过滤后的模$E$据说与给定的分级模$E$相关。
 
-(2) Let $A$ be a filtered ring, $(A_n)_{n \in \mathbf{Z}}$ its filtration and $E$ an $A$-module. 让我们写$E_n = A_n E$；由(1)可知
+(2) 设$A$为滤波环，$(A_n)_{n \in \mathbf{Z}}$为滤波环，$E$为$A$模。 让我们写$E_n = A_n E$；由(1)可知
 $$
 A_m E_n = A_m A_n E \subset A_{m+n} E = E_{m+n},
 $$
-并从 (2) 得出 $E_0 = E$；那么$(E_n)$是一个穷举过滤，它与$E$上的$A$模块结构兼容。 据说该过滤源自$A$上给定的过滤$(A_n)$； 注它不一定是分离的，即使$(A_n)$被分离并且$E$和$A_n$是有限生成的$A$-模块（cf.，习题2；但是参见§ 3, no. 3，命题5和no. 2， 命题 4) 的推论
+并从 (2) 得出 $E_0 = E$；那么$(E_n)$是一个穷举过滤，它与$E$上的$A$模块结构兼容。 据说该过滤源自$A$上给定的过滤$(A_n)$；请注意，它不一定是分离的，即使$(A_n)$是分离的，并且$E$和$A_n$是有限生成的$A$模块（cf.，习题2；但是参见§ 3, no. 3，命题5和no. 2，推论到命题4)
 
 (3) 设$A$为环，且$m$为$A$的双面理想。让我们为$n \geq 0$写为$A_n = m^n$，为$n < 0$写为$A_n = A$； 直接的$(A_n)$是$A$的穷举过滤，称为$m$-adic过滤。设$E$为$A$模块；由$A$上的$m$-adic过滤衍生而来的过滤$(E_n)$称为$E$上的$m$-adic过滤；在其他字，$E_n = m^n E$为$n \geq 0$，$E_n = E$为$n < 0$。
 
@@ -139,20 +139,20 @@ $$
 
 (5) 在环 $A$ 集合 $A_n$ 上，$A_n = 0$ $n > 0$，$A_n = A$ $n \leq 0$ 形式与 (例 1) 的平凡毕业相关的所谓平凡过滤$A$；在$A$-模块$E$上，子$A$-模块的每个过滤$(E_n)$由……组成然后与过滤后的环$A$上的$E$上的模结构兼容。那么可以说，如果 $\mathbf{Z}$ 被给予平凡的过滤，则每个过滤交换群 $G$ 都是过滤的 $\mathbf{Z}$ 模块。
 
-设$G$为过滤后的群，$(G_n)_{n \in \mathbf{Z}}$为过滤后的群；显然，对于$G$的每一个子群$H$，$(H \cap G_n)_{n \in \mathbf{Z}}$据说是由$G$上的过滤引起的；如果 $G$ 上的内容是详尽的（或分离的）。类似地，若$H$是$G$的正规子群，$((H.G_n)/H)_{n \in \mathbf{Z}}$族就是群$G/H$的过滤，称为$G$过滤在$H$下的商；如果 $(G_n)$ 是详尽的。如果$G'$是另一个过滤了群并且$(G'_n)_{n \in \mathbf{Z}}$过滤了，那么$(G_n \times G'_n)$是$G \times G'$上的过滤，称为$G$和$G'$上过滤的乘积，这是详尽的（分别是分离的）如果$(G_n)$ 和 $(G'_n)$ 是。
+设$G$为过滤后的群，$(G_n)_{n \in \mathbf{Z}}$为过滤后的群；显然，对于$G$的每一个子群$H$，$(H \cap G_n)_{n \in \mathbf{Z}}$据说是由$G$上的过滤引起的；如果 $G$ 上的内容是详尽的（或分离的）。同样，如果$H$是$G$的正常子群，则族$((H.G_n)/H)_{n \in \mathbf{Z}}$是群$G/H$上的过滤，在$G$上过滤的$H$下称为商；如果 $(G_n)$ 是详尽的。如果$G'$是另一个过滤了群并且$(G'_n)_{n \in \mathbf{Z}}$过滤了，那么$(G_n \times G'_n)$是$G \times G'$上的过滤，称为$G$和$G'$上过滤的乘积，这是详尽的（分别是分离的）如果$(G_n)$ 和 $(G'_n)$ 是。
 
-现在让$A$是过滤后的环，$(A_n)$是它的过滤；在$A$的每个子环$B$上，显然$A$上引起的过滤与$B$上的环结构兼容。如果$b$是$A$的双边理想，则$A$在$A/b$上的商过滤与该环的结构兼容，对于
+现在让$A$是过滤后的环，$(A_n)$是它的过滤；在$A$的每个子环$B$上，显然$A$上引起的过滤与$B$上的环结构兼容。如果$b$是$A$的双面理想，则$A$上的$A/b$上的商过滤与此环上的结构兼容，对于
 $$
 (A_n + b)(A_m + b) \subset A_{n+m} + b.
 $$
 如果$A'$经过另一个过滤环，则$A \times A'$上的乘积过滤与此环的结构兼容。
 
-Finally let $E$ be a filtered $A$-module and $(E_n)$ its filtration; on every submodule $F$ of $E$, the filtration induced by that on $E$ is compatible with the $A$-module structure on $F$ and, on the quotient module $E/F$, the quotient filtration of that on $E$ is compatible with the $A$-module structure, as
+最后让$E$是一个过滤的$A$模块，$(E_n)$是它的过滤；在$E$的每个子模块$F$上，$E$上的子模块引起的过滤与$F$上的$A$模块结构兼容，并且在商模块$E/F$上，$E$上的商过滤与$A$模块结构兼容，
 $$
 A_n(F + E_m) \subset F + A_n E_m \subset F + E_{m+n}.
 $$
 
-注，如果 E 上的过滤源自 A 上的过滤 (例 2)，则 E/F 上的商过滤也是如此，但*不是*一般情况下*F 上的过滤会引起*（习题 1；但请参阅 no. 2、定理 2）
+请注意，如果 E 上的过滤源自 A (例 2) 上的过滤，则 E/F 上的商过滤也是如此，但通常*不是*在*F 上引起的过滤（习题 1；但请参见 no. 2、定理 2）
 
 如果E'是另一个过滤A-模，则E×E'上的乘积过滤与其A-模结构兼容。如果 E 和 E' 上的过滤源自 A (例 2) 上的过滤，那么它们的乘积过滤也是如此。
 
@@ -192,7 +192,7 @@ $$
 v(yx^{-1}) = v(xy^{-1}) \geq \inf(v(x), v(y)).
 $$
 
-### 3. 分级模与过滤模相关
+### 3. 与过滤的模关联的分级模
 
 设 G 是可交换的群 （加法写）和 (G_n) 对 G 的过滤。让我们写
 
@@ -229,13 +229,13 @@ $$
 \mathrm{gr}(A) \times \mathrm{gr}(E) \to \mathrm{gr}(E).
 $$
 
-If this definition is first applied to the case $E = A_0$, the mapping (10) is an internal law of composition on $\mathrm{gr}(A)$, which it is immediately verified is *associative* and has an identity element which is the canonical image in $\mathrm{gr}_0(A)$ of the unit element of A; it therefore defines on $\mathrm{gr}(A)$ a ring structure and the graduation $(\mathrm{gr}_n(A))_{n \in \mathbf{Z}}$ is by definition compatible with this structure. 由此定义的分级环$\mathrm{gr}(A)$（型$\mathbf{Z}$）称为与过滤后的环A相关的*分级环；如果 A 是可交换的，那么它显然是可交换的； $\mathrm{gr}_0(A)$ 是$\mathrm{gr}(A)$ 的子环。 另一方面，映射（10）是$\mathrm{gr}(E)$上的$\mathrm{gr}(A)$模外法则，模公理是微不足道的满足，并且$\mathrm{gr}(E)$上的毕业$(\mathrm{gr}_n(E))_{n \in \mathbf{Z}}$显然与这个模结构兼容。 由此定义的分级$\mathrm{gr}(A)$-模块$\mathrm{gr}(E)$（型$\mathbf{Z}$）称为与过滤后的A-模E关联的*分级模。
+如果这个定义首先应用于情况$E = A_0$，则映射（10）是$\mathrm{gr}(A)$上的内部组合法则，它立即被验证是*结合的*并且具有一个恒等元素，该恒等元素是A的单位元素的$\mathrm{gr}_0(A)$中的规范图像；因此，它在$\mathrm{gr}(A)$上定义了一个环形结构，并且分级$(\mathrm{gr}_n(A))_{n \in \mathbf{Z}}$根据定义与该结构兼容。 由此定义的分级环$\mathrm{gr}(A)$（型$\mathbf{Z}$）称为与过滤后的环A相关的*分级环；如果 A 是可交换的，那么它显然是可交换的； $\mathrm{gr}_0(A)$ 是$\mathrm{gr}(A)$ 的子环。 另一方面，映射（10）是$\mathrm{gr}(E)$上的$\mathrm{gr}(A)$模外法则，模公理是微不足道的满足，并且$\mathrm{gr}(E)$上的毕业$(\mathrm{gr}_n(E))_{n \in \mathbf{Z}}$显然与这个模结构兼容。 由此定义的分级$\mathrm{gr}(A)$-模块$\mathrm{gr}(E)$（型$\mathbf{Z}$）称为与过滤后的A-模E关联的*分级模。
 
 *例*
 
 #### 例 1 {#ac-iii-s2-n3-exa-1 .statement tag=04DK}
 
-令 A 为 A 的交换环和 $t$ 元素，它不是 0 的除子。让我们给 A *(t)*-*adic 过滤* (no. 1, *例 3*)。那么相关的分级环 $\mathrm{gr}(A)$ 与 *多项式环* $(A/(t))[X]$ 是规范同构的。对于 $\mathrm{gr}_n(A) = 0$ $n < 0$ 以及定义环 $\mathrm{gr}_0(A)$ 是环 $A/(t)$。我们现在注凭借$t$关系$at^n \equiv 0$（mod.$t^{n+1}$）上的假设等价于$a \equiv 0$（mod.$t$）；如果$\tau$是$\mathrm{gr}_1(A)$中$t$的典范像，则$\mathrm{gr}_n(A)$中的每个元素可以唯一地写在形式$\alpha \tau^n$中，其中$\alpha \in \mathrm{gr}_0(A)$； 从而我们的断言。
+令 A 为 A 的交换环和 $t$ 元素，它不是 0 的除子。让我们给 A *(t)*-*adic 过滤* (no. 1, *例 3*)。那么相关的分级环 $\mathrm{gr}(A)$ 与 *多项式环* $(A/(t))[X]$ 是规范同构的。对于 $\mathrm{gr}_n(A) = 0$ $n < 0$ 以及定义环 $\mathrm{gr}_0(A)$ 是环 $A/(t)$。我们现在注意到，凭借 $t$ 关系 $at^n \equiv 0$ (mod. $t^{n+1}$) 上的假设等价于 $a \equiv 0$ (mod. $t$)；如果$\tau$是$\mathrm{gr}_1(A)$中$t$的典范像，则$\mathrm{gr}_n(A)$中的每个元素可以唯一地写在形式$\alpha \tau^n$中，其中$\alpha \in \mathrm{gr}_0(A)$； 从而我们的断言。
 
 #### 例 2 {#ac-iii-s2-n3-exa-2 .statement tag=04DL}
 
@@ -292,20 +292,20 @@ $$
 v(ab) = v(a) + v(b).
 $$
 
-#### 推论{#ac-iii-s2-n3-cor-1 .statement tag=04DQ}
+#### 推论 {#ac-iii-s2-n3-cor-1 .statement tag=04DQ}
 
 设 A 为过滤后的环和其过滤后的 $(A_n)_{n \in \mathbf{Z}}$；让我们集合$B = \bigcup_{n \in \mathbf{Z}} A_n$，$n = \bigcap_{n \in \mathbf{Z}} A_n$。如果环 $\mathrm{gr}(A)$ 没有零的除子，则也没有环 $B/n$。
 如果 a 和 b 是 B 的元素，而不是属于到 n，则 $v(a) \neq +\infty$ 和 $v(b) \neq +\infty$、从而 $v(ab) \neq +\infty$，因此$ab \notin n$。
 
-注，环 A 可以是整环，且过滤 (A_n) 是彻底且分离的，而 $\mathrm{gr}(A)$ 不会是整环 (习题 2)。
+请注意，环 A 可以是整环，且过滤 (A_n) 是详尽且分离的，而 $\mathrm{gr}(A)$ 不会是整环 (习题 2)。
 
 #### 注 {#ac-iii-s2-n3-rem-1 .statement tag=04DR}
 
-令 G 为群，它不一定与过滤 $(G_n)_{n \in \mathbf{Z}}$ 交换，使得 $G_{n+1}$ 在 G 中是正规的，对于所有 $n \in \mathbf{Z}$；再次让$\mathrm{gr}_n(G) = G_n/G_{n+1}$。 $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$族的受限乘积，即乘积$\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$由……组成的元素$(\xi_n)$的子群，其所有分量（最多除了有限的数）都等于单位元素，也称为与G相关的分级群，记为$\mathrm{gr}(G)$。
+令 G 为群，它不一定与过滤 $(G_n)_{n \in \mathbf{Z}}$ 交换，使得 $G_{n+1}$ 在 G 中是正规的，对于所有 $n \in \mathbf{Z}$；再次让$\mathrm{gr}_n(G) = G_n/G_{n+1}$。 $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$家庭的受限乘积，即乘积$\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$由……组成中元素$(\xi_n)$的子群，除了至多有限的数之外，所有分量，等于单位元素，也称为与G相关的分级群，记为$\mathrm{gr}(G)$。
 
 ### 4. 同态与过滤兼容
 
-令G、G'为两个交换律群（相加地写），(G_n)对G的过滤和(G'_n)对G'的过滤； 同态 h : G → G' 被称为与 G 和 G' 上的过滤兼容，如果 h(G_n) ⊂ G'_n 对于所有 n ∈ Z。复合同态 G_n $\xrightarrow{h} G'_n \longrightarrow G'_n/G'_{n+1}$ 在 G_{n+1} 上是零，因此通过取商得到定义同态 h_n : G_n/G_{n+1} → G'_n/G'_{n+1};因此，存在唯一的加法群同态 gr(h) : gr(G) → gr(G')，这样，对于所有 n ∈ Z，gr(h) 重合其中 h_n 位于 gr_n(G) = G_n/G_{n+1} 上。 gr(h) 称为与 h 相关的分级群同态。如果 G'' 是第三个过滤群并且 h' : G' → G'' 同态与过滤兼容，则 h' ∘ h 是同态与过滤兼容并且
+令G、G'为两个交换律群（相加地写），(G_n) 对G 的过滤和(G'_n) 对G' 的过滤； 同态 h : G → G' 被称为与 G 和 G' 上的过滤兼容，如果 h(G_n) ⊂ G'_n 对于所有 n ∈ Z。复合同态 G_n $\xrightarrow{h} G'_n \longrightarrow G'_n/G'_{n+1}$ 在 G_{n+1} 上是零，因此通过取定义商同态 h_n : G_n/G_{n+1} → G'_n/G'_{n+1};因此，存在唯一的加法群同态 gr(h) : gr(G) → gr(G')，这样，对于所有 n ∈ Z，gr(h) 重合，其中 h_n 位于 gr_n(G) = G_n/G_{n+1} 上。 gr(h) 称为与 h 相关的分级群同态。如果 G'' 是第三个过滤群并且 h' : G' → G'' 同态与过滤兼容，则 h' ∘ h 是同态与过滤兼容并且
 
 (12)
 $$
@@ -314,7 +314,7 @@ $$
 
 #### 命题 2 {#ac-iii-s2-prop-2 .statement tag=04DS}
 
-设 G 是 G 的过滤交换群和 H 子群；令 H 为诱导过滤，G/H 为商过滤。如果 j : H → G 为典范嵌入并且 p : G → G/H 典范满射，则 j 和 p 与过滤兼容且序列
+设 G 是 G 的过滤交换群和 H 子群；让 H 被赋予诱导过滤和 G/H 商过滤。如果 j : H → G 为典范嵌入并且 p : G → G/H 典范满射，则 j 和 p 与过滤兼容且序列
 
 (13)
 $$
@@ -336,9 +336,9 @@ G_n \cap (H + G_{n+1}) = (H \cap G_n) + G_{n+1}
 $$
 因此 x = y + z 其中 y ∈ H ∩ G，且 z ∈ G, +_1；这证明了 xi 是类 mod。 G，j(y)的+_1，在gr(j)下gr(H)的其他字它属于到像。
 
-注给定正合序列 0 → G' \xrightarrow{u} G \xrightarrow{v} G'' → 0 过滤交换性群，其中 u 和 v 与过滤兼容， 序列 0 \longrightarrow \operatorname{gr}(G') \xrightarrow{\operatorname{gr}(u)} \operatorname{gr}(G) \xrightarrow{\operatorname{gr}(v)} \operatorname{gr}(G'') \longrightarrow 0 不一定是精确的 (习题 4)。
+请注意，给定过滤交换群的正合序列 0 → G' \xrightarrow{u} G \xrightarrow{v} G'' → 0，其中 u 和 v 与过滤兼容，序列 0 \longrightarrow \operatorname{gr}(G') \xrightarrow{\operatorname{gr}(u)} \operatorname{gr}(G) \xrightarrow{\operatorname{gr}(v)} \operatorname{gr}(G'') \longrightarrow 0 不一定是精确的 (习题 4)。
 
-如果现在A和B是两个过滤的环和h：A→B环同态，与过滤兼容，则立即验证分级的群同态gr(h)：gr(A)→gr(B)也是环同态。特别是，如果通过诱导过滤，A' 是 A 的子环，则 gr(A') 可以被规范地识别为 gr(A) 的分级子环 (命题 2)；如果 b 是 A 的两侧理想，并且 A/b 被给予商过滤，则 gr(A/b) 被规范地识别为等级为环 gr(A)/gr(b) (命题 2) 的商。
+如果现在A和B是两个过滤的环和h：A→B环同态，与过滤兼容，则立即验证分级的群同态gr(h)：gr(A)→gr(B)也是环同态。特别是，如果通过诱导过滤，A' 是 A 的子环，则 gr(A') 可以被规范地识别为 gr(A) 的分级子环 (命题 2)；如果 b 是 A 的双面理想，并且 A/b 被给予商过滤，则 gr(A/b) 被规范地识别为商分级环 gr(A)/gr(b) (命题 2)。
 
 最后，令 A 为过滤后的环，E、F 为过滤后的 A-模，并且 u : E → F 同态与过滤兼容。那么直接的 gr(u) : gr(E) → gr(F) 是 gr(A)-线性映射，因此是分级 gr(A)-模块的次数 0 的齐次同态。此外，如果 u' : E → F 是另一个 A 同态，与过滤兼容，那么 u + u' 也是如此，并且
 
@@ -346,9 +346,9 @@ $$
 \operatorname{gr}(u + u') = \operatorname{gr}(u) + \operatorname{gr}(u').
 $$
 
-Remarks
+注
 
-(1) 与过滤兼容的清晰过滤环同态（在给定的过滤环 A 上分别过滤的模的同态）可以视为过滤的环结构的态射（分别过滤的A-模结构）(集合)理论，章IV, § 2, no. 1）。
+(1) 与过滤兼容的清晰过滤环同态（在给定的过滤环 A 上分别过滤的模的同态）可以视为过滤的环结构的态射（分别过滤的A-模结构）(集合) 理论、章IV, § 2, no. 1）。
 
 (2) 令 E 和 F 是经过过滤的环 A 上的两个模，并让它们具有从 A 上的过滤 (A_n) 导出的过滤 (no. 1，例 2)。那么每个 A-线性映射 u : E → F 都与过滤兼容，因为
 
@@ -356,13 +356,13 @@ $$
 u(A_nE) = A_nu(E) \subset A_nF.
 $$
 
-(3) 注与过滤兼容的过滤后的 A-模同态 u : E → F 可以满足 gr(u) = 0 而不是零；对于自同态 x ↦ nx 的加法群 $\mathbf{Z}$ 的例以及 (n)-adic 过滤（对于任何整数 n > 1）都是如此。对于 E 到 F 的两个同态 u, v，关系 gr(u) = gr(v)，与过滤兼容，因此并不一定意味着 u = u。
+(3) 请注意，与过滤兼容的过滤后A-模同态 u : E → F 可能满足 gr(u) = 0 而不是零；例如自同态 x ↦ nx of 加法群 $\mathbf{Z}$ 的 (n)-adic 过滤（对于任何整数 n > 1）。对于 E 到 F 的两个同态 u, v，关系 gr(u) = gr(v)，与过滤兼容，因此并不一定意味着 u = u。
 
 (4) 定义在本号开头。 扩展立即到两个群 G, G'，它们不一定是可交换的，并通过子群 $G_n, G'_n$ 过滤，使得 $G_{n+1}$（或 $G'_{n+1}$）在 G 中是正规的，（或$G'_n$）。 命题 2 对于 G 的相同假设也是有效的，并且假设 H 在 G 中是不变的，证明除了记号之外保持不变。
 
-### 5. 由过滤定义的拓扑
+### 5. 拓扑由过滤定义
 
-Let G be a group filtered by a family $(G_n)_{n \in \mathbf{Z}}$ of normal subgroups of G. G上存在唯一的拓扑，它与群结构兼容，并且G_n构成G的单位元素e的邻域的基系统（通则拓扑、章III, § 1, no. 2、例）；它在由过滤 (G_n) 定义的 G 上称为拓扑。 当我们使用关于过滤的群的拓扑概念时，我们的意思是，另外说明的除非，而拓扑由过滤定义。 注 G_n，即 G 的子群，既是开闭的（一般拓扑、章 III, § 2, no. 1，命题 4 的推论）。
+设 G 是由 G 的正规子群族 $(G_n)_{n \in \mathbf{Z}}$ 过滤的群。 G上存在唯一的拓扑，它与群结构兼容，并且G_n构成G的单位元素e的邻域的基系统（通则拓扑、章III, § 1, no. 2、例）；它在由过滤 (G_n) 定义的 G 上称为拓扑。 当我们使用关于过滤的群的拓扑概念时，我们的意思是，另外说明的除非，而拓扑由过滤定义。 请注意，G_n 是 G 的子群，既是开集又是闭集（一般拓扑、章 III, § 2, no. 1、推论到命题 4）。
 
 由于每个G，在G上都是正规的，所以G上的左右均匀性重合；我们推断 G 承认 Hausdorff 完成群$\hat{G}$（一般拓扑、章III, § 3, no. 4、定理 1 和no. 1、命题 2）。
 
@@ -374,11 +374,11 @@ $$
 
 （一般拓扑、章III, § 3, no. 1、公式(1)）；特别是$\bigcap_{n \in \mathbf{Z}} G$，是$\{e\}$的闭包；因此可以看出，对于 G 上的拓扑来说，要成为 Hausdorff，过滤 (G_n) 被分离是必要且充分的。为了使G上的拓扑是离散的，存在$n \in \mathbf{Z}$使得$G_+ = \{e\}$是必要且充分的（在这种情况下$G_m = \{e\}$对于$m \geq n$）；那么过滤（G_n）称为离散的。
 
-由于与 G 伴随的 Hausdorff 群为 $H = G / \left( \bigcap_{n \in \mathbf{Z}} G_n \right)$，因此可以规范地识别关联的分级群 gr(G) 和 gr(H)（如果对 H 进行商过滤）。
+由于与 G 伴随的 Hausdorff 群为 $H = G / \left( \bigcap_{n \in \mathbf{Z}} G_n \right)$，因此可以规范地识别关联的分级群 gr(G) 和 gr(H)（如果 H 被给予商过滤）。
 
-不让G'被另一个过滤群和$u : G \to G'$同态与过滤兼容； G 和 G' 上的拓扑定义立即表明$u$ 是连续的 (*)。如果 H 是 G 的子群（或正常子群），则 G 上的拓扑（或 G 上相对于 H 的商拓扑）在 H 上诱导的拓扑是 H 上的拓扑（或 G/H），由 G 上的商（或商拓扑）诱导的过滤定义G) 上的那个。 G 和 G' 上的乘积拓扑是由 G 和 G' 上的过滤乘积定义的拓扑。
+不让G'被另一个过滤群和$u : G \to G'$同态与过滤兼容； G 和 G' 上的拓扑定义立即表明$u$ 是连续的 (*)。如果 H 是 G 的子群（或正常子群），则 G 上的拓扑（相对于 G 上的 H 的商拓扑）在 H 上引起的拓扑是 H 上的拓扑（或正常子群），由 G 上的过滤引起的（或正常子群）定义。 G) 上的商拓扑。 G 和 G' 上的乘积拓扑是由 G 和 G' 上的过滤乘积定义的拓扑。
 
-令 v 为 G 上的阶函数 (no. 2)。G 上的假设意味着对于 G 中的所有 x、y 而言，$v(xy x^{-1}) = v(y)$ 以及$v(xy^{-1}) = v(yx^{-1}) = v(x^{-1}y) = v(y^{-1}x)$。令 $\rho$ 为实数，使得$0 < \rho < 1$（对于例取
+令 v 为 G 上的阶函数 (no. 2)。G 上的假设意味着 $v(xy x^{-1}) = v(y)$，因此对于 G 中的所有 x、y 为 $v(xy^{-1}) = v(yx^{-1}) = v(x^{-1}y) = v(y^{-1}x)$。令 $\rho$ 为实数，使得 $0 < \rho < 1$（例如取
 
 (*) 在整个章中，我们将在一般拓扑、章III, § 2, no. 8中所谓的“连续表示”的意义上使用字“连续同态”； 字“同态”永远不会用于一般意义上的拓扑、章、III, § 2, no. 8、定义 1；对于这个概念，我们将始终在阶中使用项“严格态射”以避免任何混淆。
 
@@ -414,25 +414,25 @@ $$
 E_{i+s} + E_{j+r} + E_{i+j}.
 $$
 
-然后，给定整数$n$，$ax - a_0x_0 \in E_n$提供$i \geq n - s, j \geq n - r$和$i + j \geq n$，即只要$i$和$j$是足够大。
+然后，给定整数$n$，$ax - a_0x_0 \in E_n$提供$i \geq n - s, j \geq n - r$和$i + j \geq n$，即只要$i$和$j$都是足够大。
 
-#### 推论{#ac-iii-s2-n5-cor-1 .statement tag=04DU}
+#### 推论 {#ac-iii-s2-n5-cor-1 .statement tag=04DU}
 
 *环 B 是拓扑环，B-模 F 是拓扑B-模。*
 
-第一个断言是由应用命题3到$F = B$得到的。
+第一个断言是通过应用命题3到$F = B$得到的。
 
 特别可以看出，过滤“穷举”的过滤环 A 是拓扑环；如果是这样的话，每个过滤“详尽”的过滤A-模都是拓扑A-模。
 
 #### 命题 4 {#ac-iii-s2-prop-4 .statement tag=04DV}
 
-*设 A 为交换环，通过穷举过滤 (A_n) 过滤，p 为 A 的理想。假设环 $\operatorname{gr}(A)$ 的理想 $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ 是素数。那么 A 中 p 的闭包是一个素理想。*
+*设 A 为交换环通过穷举过滤 (A_n) 过滤，p 为 A 的理想。假设环 $\operatorname{gr}(A)$ 的理想 $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ 是素数。那么 A 中 p 的闭包是一个素理想。*
 
-我们知道 gr(A/p) 与 gr(A)/gr(p) (no. 4, 命题 2) 同构的，因此整环；我们结论，$A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$是整环（no. 3，命题1的推论）。那么$p$的闭包$\bigcap_{n \in \mathbf{Z}} (p + A_n)$就是素理想。
+我们知道 gr(A/p) 与 gr(A)/gr(p) (no. 4, 命题 2) 同构的，因此整环；我们结论，$A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$是整环（no. 3，推论到命题1）。那么$p$的闭包$\bigcap_{n \in \mathbf{Z}} (p + A_n)$就是素理想。
 
-令$A$为环，且$m$为$A$的双面理想；通过 $m$-adic 过滤（no. 1、例 3）在 $A$ 上定义的拓扑称为 *m-adic 拓扑*；由于 *m*-adic 过滤是详尽的，$A$ 是一个拓扑环与此拓扑（命题 3 的推论）。类似地，对于每个$A$-模块$E$，由$m$-adic 过滤定义的拓扑称为$E$ 上的*m-adic 拓扑*； $E$是拓扑下的拓扑$A$模块。
+令$A$为环且$m$为$A$的两侧理想；通过 $m$-adic 过滤（no. 1、例 3）在 $A$ 上定义的拓扑称为 *m-adic 拓扑*；由于 *m*-adic 过滤是详尽的，$A$ 是一个拓扑环，其中拓扑（推论到命题 3）。类似地，对于每个$A$-模块$E$，由$m$-adic 过滤定义的拓扑称为$E$ 上的*m-adic 拓扑*； $E$是拓扑下的拓扑$A$模块。
 
-令$m'$为$A$的另一个两侧理想；为了使$A$上的$m'$-adic 拓扑比$m$-adic 拓扑*更细*，存在整数$n > 0$使得${m'}^n \subset m$是充分必要的； 条件是必要的，如果满足，${m'}^{hn} \subset m^h$ 对于所有 $h > 0$，因此条件就足够了。如果$A$是*可交换的诺特环*，则相当于说$V(m) \subset V(m')$在$A$的素数谱中（章II, § 4, no. 3，推论2到命题11和§ 2, no. 6， 命题15)。
+令$m'$为$A$的另一个两侧理想；为了使$A$上的$m'$-adic 拓扑比$m$-adic 拓扑*更细*，存在整数$n > 0$使得${m'}^n \subset m$是充分必要的； 条件是必要的，如果满足，${m'}^{hn} \subset m^h$ 对于所有 $h > 0$，因此条件就足够了。如果$A$是*可交换的诺特环*，那么相当于说$V(m) \subset V(m')$在$A$的素数谱中（章II, § 4, no. 3，推论2到命题11并且§ 2, no. 6、命题15)。
 
 ### 6. 完全过滤模
 
@@ -450,35 +450,35 @@ $$
 
 (d) *对于$L$的有限子集的补集的过滤器$\mathscr{F}$收敛到0的$G'$的元素的*每个族*$(x_\lambda)_{\lambda \in L}$*可在$G'$*中求和。
 
-对于$G$上的滤波器是柯西滤波器（或收敛滤波器），其在典范映射$G \to G'$下的像是柯西（或收敛）滤波器是必要且充分的（*一般拓扑*，章II, § 3, no. 1， 命题 4); 从而首先是 (a) 和 (b) 的等价；另一方面，由于$G'$是可度量的，(b)和(c)的等价来自*一般拓扑*的命题9，章IX, § 2, no. 6。
+对于$G$上的滤波器是柯西滤波器（或收敛滤波器），其在典范映射$G \to G'$下的像是柯西（或收敛）滤波器是必要且充分的（*一般拓扑*，章II, § 3, no. 1， 命题 4); 从而首先是(a)和(b)的等价；另一方面，由于$G'$是可度量的，(b)和(c)的等价来自*一般拓扑*的命题9，章IX, § 2, no. 6。
 
-现在假设 $G$ 是可交换的。假设$G'$是完备的，并令$(x_\lambda)_{\lambda \in L}$是$G'$的元素族，相对于$\mathscr{F}$收敛于0。对于$G$中0的每个邻域$V'$，即$G'$的子群，存在$L$的有限子集$J$，使得条件$\lambda \in L - J$蕴涵$x_\lambda \in V'$；那么$\sum_{\lambda \in H} x_\lambda \in V'$对于$L$的每个有限子集$H$不满足$J$，这表明家庭$(x_\lambda)_{\lambda \in L}$是可求和的（*一般拓扑*，章III, § 5, no. 2，定理1）。
+现在假设 $G$ 是可交换的。假设$G'$是完备的，并令$(x_\lambda)_{\lambda \in L}$是$G'$的元素族，相对于$\mathscr{F}$收敛于0。对于$G$中0的每个邻域$V'$，即$G'$的子群，存在$L$的有限子集$J$，使得条件$\lambda \in L - J$蕴含$x_\lambda \in V'$；那么$\sum_{\lambda \in H} x_\lambda \in V'$对于$L$的每个有限子集$H$不满足$J$，这表明家庭$(x_\lambda)_{\lambda \in L}$是可求和的（*一般拓扑*，章III, § 5, no. 2，定理1）。
 
 相反，假设条件(d)成立，并令$(x_n)$是$G'$上的柯西序列；那么族 $(x_{n+1} - x_n)$ 是可求和的，特别是级数与一般项 $x_{n+1} - x_n$ 是收敛的，因此序列 $(x_n)$ 是收敛的。
 
-令$G$为过滤后的群，其过滤$(G_r)$由$G$的正常子群组成； 商群 $G/G_n$ 是*离散*，因此是完整的，因为 $G_r$ 在 $G$ 中开放。令$f_n$为典范映射$G \to G/G_n$，对于$m \leq n$令$f_{mn}$为典范映射$G/G_n \to G/G_m$； $(G/G_n, f_{mn})$ 是离散群的逆系，其中 $\mathbf{Z}$ 作为索引集合（*常规拓扑*、章 III, § 7, no. 3）。令$\tilde{G}$为该逆系的拓扑群逆极限，并且对于所有$n$，令$g_n : \tilde{G} \to G/G_n$为典范映射；设$f : G \to \tilde{G}$为映射$(f_n)$的逆系逆极限，使得$f_n = g_n \circ f$对于所有$n$；最后，让$j$是$G$的典范映射到其豪斯多夫完成$\hat{G}$；当$G/G_n$完整时，存在一个独特的拓扑群同构$i : \hat{G} \to \tilde{G}$，使得$f = i \circ j$（*loc.cit.*，推论1到命题2）；我们将其称为$\hat{G}$到$\tilde{G}$的*规范*同构。
+令$G$为过滤后的群，其过滤$(G_r)$由$G$的正常子群组成； 商群 $G/G_n$ 是*离散*，因此是完整的，因为 $G_r$ 在 $G$ 中开放。令$f_n$为典范映射$G \to G/G_n$，对于$m \leq n$令$f_{mn}$为典范映射$G/G_n \to G/G_m$； $(G/G_n, f_{mn})$ 是离散群的逆系，其中 $\mathbf{Z}$ 作为索引集合（*常规拓扑*、章 III, § 7, no. 3）。令$\tilde{G}$为该逆系的拓扑群逆极限，并且对于所有$n$，令$g_n : \tilde{G} \to G/G_n$为典范映射；设$f : G \to \tilde{G}$为映射$(f_n)$的逆系逆极限，使得$f_n = g_n \circ f$对于所有$n$；最后，让$j$是$G$的典范映射到其豪斯多夫完成$\hat{G}$；当$G/G_n$完整时，存在唯一的拓扑群同构$i : \hat{G} \to \tilde{G}$，使得$f = i \circ j$（*loc.cit.*，推论1到命题2）；我们将其称为$\hat{G}$到$\tilde{G}$的*规范*同构。
 
-令$H$为另一个过滤群，其过滤$(H_r)$由$H$的正常子群组成，并令$u : G \to H$为同态与过滤（no. 4）相容的。 集合$\tilde{H} = \lim H/H_n$；对于所有$n$、$u$定义，通过对同态$u_n : G/G_n \to H/H_n$求商，而$u_n$显然是形式逆系与映射； 集合$\tilde{u} = \lim u_n$。此外，令$\hat{H}$为$H$和$ti : \hat{G} \to H$同态的豪斯多夫完成，由$u$通过经过导出到豪斯多夫完成（*一般拓扑*，章II, § 3, no. 7， 命题15)。紧随定义，如果$\hat{G}$通过典范同构与$\tilde{G}$识别，$\hat{H}$与$\tilde{H}$识别，则$ti$与$\tilde{u}$识别。我们结论特别指出，如果对于所有$n$，$u_n$是同构，那么$ti$是拓扑群的同构。
+令$H$为另一个过滤群，其过滤$(H_r)$由$H$的正常子群组成，并令$u : G \to H$为同态与过滤（no. 4）相容的。 集合 $\tilde{H} = \lim H/H_n$;对于所有$n$，$u$定义，通过取商同态$u_n : G/G_n \to H/H_n$和$u_n$显然是形式逆系的映射； 集合 $\tilde{u} = \lim u_n$.此外，令$\hat{H}$为$H$和$ti : \hat{G} \to H$同态的豪斯多夫完成，由$u$通过经过导出到豪斯多夫完成（*一般拓扑*，章II, § 3, no. 7， 命题 15).紧接着从定义可以得出，如果通过典范同构将$\hat{G}$与$\tilde{G}$识别，并且$\hat{H}$与$\tilde{H}$识别，则$ti$与$\tilde{u}$识别。我们结论特别指出，如果对于所有$n$，$u_n$是同构，那么$ti$是拓扑群的同构。
 
 *完全过滤的群和环的例*
 
 #### 例 1 {#ac-iii-s2-n6-exa-1 .statement tag=04DX}
 
-令$G$为完全过滤后的群。带有诱导过滤的$G$的每个*关闭*子群均已完成（*常规拓扑*、章II, § 3, no. 4、命题8）。 $G$的每一个商群加上商过滤就完成了（*通用拓扑*、章IX, § 3, no. 1、*注* 1）。
+令$G$为完全过滤后的群。带有诱导过滤的$G$的每个*关闭*子群均已完成（*常规拓扑*、章II, § 3, no. 4、命题8）。每$G$的商群加上商过滤就完成了（*一般拓扑*、章IX, § 3, no. 1、*注* 1）。
 
 #### 例 2 {#ac-iii-s2-n6-exa-2 .statement tag=04DY}
 
-令$A$为过滤后的交换环，其过滤我们用$(a_n)_{n \in \mathbf{Z}}$表示；设$A'$为正式幂级数$A[[X_1, \ldots, X_s]]$的环。对于所有$e = (e_1, \ldots, e_s) \in \mathbf{N}^s$，我们写成$|e| = \sum_{i=1}^s e_i$，$X^e = \prod_{i=1}^s X_i^{e_i}$，这样每个元素$P \in A'$都可以唯一地写成$P = \sum_{e \in \mathbf{N}^s} \alpha_{e,P} X^e$，其中$\alpha_{e,P} \in A$。对于所有$n \in \mathbf{Z}$，令$a'_n$表示$P \in A'$的集合，使得$\alpha_{e,P} \in a_{n-|e|}$对于所有$e \in \mathbf{N}^s$；我们证明$a'_n$是$A'$的*理想*。显然$a'_n$是$A'$的加法子群；另一方面，如果$P \in a'_n$和$Q \in A'$，那么对于所有$e \in \mathbf{N}^s$，$\alpha_{e,PQ} = \sum_{e'+e''=e} \alpha_{e',Q}\alpha_{e'',P}$；因为关系$e' + e'' = e$意味着$|e''| \leq |e|$，$PQ \in a'_n$。此外，如果$Q \in a'_m$，那么，对于$e' + e'' = e$，$\alpha_{e',Q}\alpha_{e'',P} \in a_{m-|e'|}a_{n-|e''|} \subset a_{m+n-|e|}$，这证明$(a'_n)_{n \in \mathbf{Z}}$是与$A'$上的环结构兼容的“过滤”（显然对于$1 \in a'_0$）。当将来我们将 $A'$ 称为过滤后的环时，我们的意思是，除非另有说明，经过过滤（啊）。显然，$\bigcap_{n \in \mathbf{Z}} a'_n$ 是形式幂级数的集合，其所有系数为属于至 $\bigcap_{n \in \mathbf{Z}} a_n$；那么，如果$A$是Hausdorff，那么$A'$也是Hausdorff。如果$a_0 = A$，则$a'_0 = A'$。
+令$A$为过滤后的交换环，其过滤我们用$(a_n)_{n \in \mathbf{Z}}$表示；设$A'$为正式幂级数$A[[X_1, \ldots, X_s]]$的环。对于所有$e = (e_1, \ldots, e_s) \in \mathbf{N}^s$，我们写成$|e| = \sum_{i=1}^s e_i$，$X^e = \prod_{i=1}^s X_i^{e_i}$，这样每个元素$P \in A'$都可以唯一地写成$P = \sum_{e \in \mathbf{N}^s} \alpha_{e,P} X^e$，其中$\alpha_{e,P} \in A$。对于所有$n \in \mathbf{Z}$，令$a'_n$表示$P \in A'$的集合，使得$\alpha_{e,P} \in a_{n-|e|}$对于所有$e \in \mathbf{N}^s$；我们证明$a'_n$是$A'$的*理想*。显然$a'_n$是$A'$的加法子群；另一方面，如果$P \in a'_n$和$Q \in A'$，那么对于所有$e \in \mathbf{N}^s$，$\alpha_{e,PQ} = \sum_{e'+e''=e} \alpha_{e',Q}\alpha_{e'',P}$； as 关系 $e' + e'' = e$ implies $|e''| \leq |e|$, $PQ \in a'_n$.此外，如果$Q \in a'_m$，那么，对于$e' + e'' = e$，$\alpha_{e',Q}\alpha_{e'',P} \in a_{m-|e'|}a_{n-|e''|} \subset a_{m+n-|e|}$，这证明$(a'_n)_{n \in \mathbf{Z}}$是与$A'$上的环结构兼容的“过滤”（显然对于$1 \in a'_0$）。当将来我们将 $A'$ 称为过滤后的环时，我们的意思是，除非另有说明，经过过滤（啊）。显然，$\bigcap_{n \in \mathbf{Z}} a'_n$是正式幂级数的集合，所有系数属于到$\bigcap_{n \in \mathbf{Z}} a_n$；那么，如果$A$是Hausdorff，那么$A'$也是Hausdorff。如果$a_0 = A$，则$a'_0 = A'$。
 
 #### 命题 6 {#ac-iii-s2-prop-6 .statement tag=04DZ}
 
 *对于上面的记号，假设$a_0 = A$，并让$h$表示映射$P \mapsto (\alpha_{e,P})_{e \in \mathbf{N}^s}$。那么$h$就是加法拓扑群$A$到加法拓扑群$A^{\mathbf{N}^s}$的同构。 多项式环 $A[X_1, \ldots, X_s]$ 密集于 $A'$；如果 $A$ 完整，则 $A'$ 也完整。*
 
-显然 $h$ 是双射的； $V_n = h(a'_n)$是$(a_e) \in A^{\mathbf{N}^s}$的集合，使得$a_e \in a_{n-|e|}$对于所有$e \in \mathbf{N}^s$使得$|e| \leq n$；由于元素$e$在数中是有限的，$V_n$在$A^{\mathbf{N}^s}$中是0的邻域。相反，如果$V$是$A^{\mathbf{N}^s}$中0的邻域，则存在$\mathbf{N}^s$和整数$v$的有限子集$E$，使得所有$e \in E$都有条件$a_e \in a_v$暗示$(a_e) \in V$；如果对于$e \in E$，$n$是整数$v + |e|$的最大的，则$h(a'_n) \subset V$，这就证明了命题6的第一个断言。
+显然 $h$ 是双射的； $V_n = h(a'_n)$是$(a_e) \in A^{\mathbf{N}^s}$的集合，使得$a_e \in a_{n-|e|}$对于所有$e \in \mathbf{N}^s$使得$|e| \leq n$；由于元素$e$在数中是有限的，$V_n$在$A^{\mathbf{N}^s}$中是0的邻域。相反，如果$V$是$A^{\mathbf{N}^s}$中0的邻域，则存在$\mathbf{N}^s$和整数$v$的有限子集$E$，使得所有$e \in E$都有条件$a_e \in a_v$ imply $(a_e) \in V$;如果对于$e \in E$，$n$是整数$v + |e|$的最大的，则$h(a'_n) \subset V$，这就证明了命题6的第一个断言。
 
 此外，根据上面定义的$n$和$E$，$h(P - \sum_{e \in E} \alpha_{e,P}X^e) \in V$对于所有$P \in A'$，这表明$A[X_1, \ldots, X_s]$在$A'$中是稠密的。 最后一个断言从第一个开始，并且完整的空间的乘积是完整的。
 
-令$m$为$A$的理想，并假设$(a_i)$为$m$-adic过滤；那么，如果$n$是由$m$和$X_i$（$1 \leq i \leq s$）生成的$A'$的理想，则过滤$(a_i)$是$n$-adic过滤。显然，对于所有$k \geq 0$，$n^k$由元素$aX^e$生成，使得$a \in m^{k-|e|}$对于所有$e \in \mathbf{N}^s$，使得$|e| \leq k$，从而$n^k \subset a \&$。让我们反过来证明$a'_k \subset n^k$。对于所有 $P \in a'_k$、$P = P' + P''$，其中 $P' = \sum_{|e| < k} \alpha_{e,P}X^e$、$P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$。显然可以写成$P'' = \sum_{|e|=k} X^e Q_e$，其中$Q_e$分别是$A'$、从而、$P'' \in n^k$的元素；另一方面，显然 $\alpha_{e,P}X^e \in n^k$ 对于所有 $e \in \mathbf{N}^s$，从而 $P' \in n^k$。然后$n^k = a'_k$。
+令$m$为$A$的理想，并假设$(a_i)$为$m$-adic过滤；那么，如果$n$是由$m$和$X_i$（$1 \leq i \leq s$）生成的$A'$的理想，则过滤$(a_i)$是$n$-adic过滤。显然，对于所有$k \geq 0$，$n^k$由元素$aX^e$生成，使得$a \in m^{k-|e|}$对于所有$e \in \mathbf{N}^s$，使得$|e| \leq k$，从而$n^k \subset a \&$。让我们反过来证明$a'_k \subset n^k$。对于所有 $P \in a'_k$、$P = P' + P''$，其中 $P' = \sum_{|e| < k} \alpha_{e,P}X^e$、$P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$。显然可以写成$P'' = \sum_{|e|=k} X^e Q_e$，其中$Q_e$分别是$A'$、从而、$P'' \in n^k$的元素；另一方面，显然 $\alpha_{e,P}X^e \in n^k$ 对于所有 $e \in \mathbf{N}^s$，从而 $P' \in n^k$。 Then $n^k = a'_k$.
 
 #### 推论 {#ac-iii-s2-n6-cor-1 .statement tag=04E0}
 
@@ -492,7 +492,7 @@ $$
 
 将刚刚所说的内容应用到案例$m = \{0\}$就足够了。
 
-### 7. 全过滤的线性紧致性模
+### 7. 完全过滤的线性紧致特性模
 
 回想一下，如果 E 是 A-模，E 的仿射子集（或仿射线性簇）是任何空的子集 F 或形式 $a + M$，其中 $a \in E$ 且 M 是 E 的子模，称为 F 的方向（代数， 章II, § 9，第 1 和第 3）。
 
@@ -500,7 +500,7 @@ $$
 
 设A是过滤后的环，E是过滤后的A-模，E是过滤后的$(E_n)$；假设$E_0 = E$，$E_n$是E的子模，A-模$E/E_n$是阿廷的，最后拓扑群E是Hausdorff且完备的。则E的非空闭仿射子集递减序列交非空。
 
-我们在no. 6中看到，由于E是豪斯多夫且完备的，所以它与$\tilde{E} = \lim_{\leftarrow} E/E_n$一致。令$(W_p)$为E的非空闭仿射子集的递减序列，并且对于所有$n \geq 0$，令$W_{p,n}$为$E/E_n$中$W_p$的典范像；我们将构造序列 $x = (x_n) \in \tilde{E}$ 使得 $x_n \in W_{p,n}$ 适合所有 $p$ 和所有 $n$；因此$x \in W_p + E_n$对于所有$p$和所有$n$，并且由于$W_p$是封闭的，$x \in W_p$对于所有$p$（no. 5），这将证明命题。
+我们在no. 6中看到，由于E是豪斯多夫且完备的，所以它与$\tilde{E} = \lim_{\leftarrow} E/E_n$相同。令$(W_p)$为E的非空闭仿射子集的递减序列，并且对于所有$n \geq 0$，令$W_{p,n}$为$E/E_n$中$W_p$的典范像；我们将构造序列 $x = (x_n) \in \tilde{E}$ 使得 $x_n \in W_{p,n}$ 适合所有 $p$ 和所有 $n$；因此$x \in W_p + E_n$对于所有$p$和所有$n$，并且由于$W_p$是封闭的，$x \in W_p$对于所有$p$（no. 5），这将证明命题。
 
 作为$E/E_0 = 0$，我们取$x_0 = 0$。假设为$0 \leq i \leq n - 1$定义了$x_i$，令$W'_{p,n}$为$W_{p,n}$的元素的集合，其中$E/E_{n-1}$中的典范像为$x_{n-1}$；由于$x_{n-1} \in W_{p,n-1}$和$W_{p,n-1}$是$W_{p,n}$的典范像，$W'_{p,n}$非空，显然是$E/E_n$的仿射子集；而且序列$(W'_{p,n})_{p \in \mathbf{N}}$是递减。由于$E/E_n$是阿廷的，所以这个序列是静止的（否则$E/E_n$的子模的序列，即$W'_{p,n}$的方向将是严格递减，这是荒谬的）。那么将$x_n$取为$\bigcap_{p \in \mathbf{N}} W'_{p,n}$的元素就足够了，然后可以通过归纳来执行$(x_n)$的构造。
 
@@ -508,11 +508,11 @@ $$
 
 假设 A 和 E 满足命题 7 的假设。令 $(F_p)$ 为 E 的闭子模的递减序列，使得 $\bigcap F_p = 0$。那么，对于E中0的每个邻域V，存在$p$使得$F_p \subset V$（在其他字中，滤波器$(F_p)$的基收敛于0）。
 
-我们可以假设V是$E_n$之一，在这种情况下$E/V$是阿廷的。让我们写$F'_p = (F_p + V)/V$；作为$E/V$的子模的$F'_p$形式递减序列，存在整数$j$使得对于所有$p > j$有$F'_p = F'_j$。我们将看到$F'_j = \{0\}$，它将完成证明。设$x \in F'_j$并设W，为F的元素集合，其$E/V$中的像为$x$($p \geq j$)；通过j（W）的定义，是E的非空闭仿射子集，显然$W_{p+1} \subset W$；
+我们可以假设V是$E_n$之一，在这种情况下$E/V$是阿廷的。 Let us write $F'_p = (F_p + V)/V$;作为$E/V$的子模的$F'_p$形式递减序列，存在整数$j$使得对于所有$p > j$有$F'_p = F'_j$。我们将看到$F'_j = \{0\}$，它将完成证明。设$x \in F'_j$并设W，为F的元素集合，其$E/V$中的像为$x$($p \geq j$)；通过j（W）的定义，是E的非空闭仿射子集，显然$W_{p+1} \subset W$；
 
 那么从命题 7 可以得出，对于所有 W, 都存在元素 y 属于。作为W，$\subset F,$和$\bigcap_{p \in \mathbf{N}} F_p = \{0\}, y = 0$；因为 x 是 E/V 中 y 的典范像，$x = 0$（cf.习题 15 到 21）。
 
-### 8. 相关分级模同态的提升
+### 8. 相关分级模同态提升
 
 #### 定理 1 {#ac-iii-s2-thm-1 .statement tag=04E3}
 
@@ -520,17 +520,17 @@ $$
 
 (i) 假设过滤$(X_n)$ 是彻底的。为了使$\mathrm{gr}(u)$是单射的，$\bar{u}^{-1}(Y_n) = X_n$对于所有$n \in \mathbf{Z}$是必要且充分的。
 
-(ii) 假设以下假设之一成立： (α) X 完备且 Y Hausdorff； (β) Y 是离散的。那么，要使 $\mathrm{gr}(u)$ 成为满射，$Y_n = u(X_n)$ 对于所有 $n \in \mathbf{Z}$ 是充分必要的。
+(ii) 假设以下假设之一成立： (α) X 完备且 Y Hausdorff； (β) Y is discrete.那么，要使 $\mathrm{gr}(u)$ 成为满射，$Y_n = u(X_n)$ 对于所有 $n \in \mathbf{Z}$ 是充分必要的。
 
 (i) 说映射 $\mathrm{gr}_n(u)$ 是单射意味着
 $$
 X_n \cap \bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}.
 $$
-如果$(Y_{n+1}) = X_{n+1}$，显然就是这种情况。相反，如果
+如果$(Y_{n+1}) = X_{n+1}$，显然就是这种情况。 Conversely, if
 $$
 X_n \cap \bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}
 $$
-对于所有$n$，我们通过归纳在$k$上推断出$X_{n-k} \cap \bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}$对于所有$n \in \mathbf{Z}$和所有$k \geq 0$。由于过滤$(X_n)$是详尽的，我们看到，对于所有$n$，$X_n$是$X_{n-k}$（$k \geq 0$）的并，因此对于所有$n$来说$\bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}$，因此$X_{n+1} \subset \bar{u}^{-1}(Y_{n+1})$，完成证明。
+对于所有$n$，我们通过归纳在$k$上推断出$X_{n-k} \cap \bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}$对于所有$n \in \mathbf{Z}$和所有$k \geq 0$。由于过滤$(X_n)$是详尽的，我们看到，对于所有$n$，$X_n$是$X_{n-k}$（$k \geq 0$）的并，因此对于所有$n$来说$\bar{u}^{-1}(Y_{n+1}) \subset X_{n+1}$，因此$X_{n+1} \subset \bar{u}^{-1}(Y_{n+1})$，完成证明.
 
 (ii) 说映射 $\mathrm{gr}_n(u)$ 是满射意味着
 $$
@@ -548,7 +548,7 @@ X_n 在 X 中闭合，因此是完备的，这个序列在 X_n 中至少有一�
 $$
 \bar{u}^{-1}(e') \subset \bigcap_n \bar{u}^{-1}(Y_n) = \bigcap_n X_n = \{e\}
 $$
-由假设，从而推论。
+通过假设、从而推论。
 
 #### 推论 2 {#ac-iii-s2-thm-1-cor-2 .statement tag=04E5}
 
@@ -572,9 +572,9 @@ $$
 
 #### 命题 9 {#ac-iii-s2-prop-9 .statement tag=04E7}
 
-*设 A 为局部环，m 为其最大理想值，M、N 为两个 A-模，u : N \to M 为 A 同态。 M 和 N 被赋予 m-adic 过滤并假设： (1) M 满足性质 (GR)； (2) \operatorname{gr}_0(u) : \operatorname{gr}_0(N) \to \operatorname{gr}_0(M) 是单射的。那么 \operatorname{gr}(u) : \operatorname{gr}(N) \to \operatorname{gr}(M) 是单射的，N 和 P = \operatorname{Coker}(u) 满足性质 (GR) 和 $m^n N = \bar{u}^{-1}(m^n M)$ 对于每个整数 $n > 0$。*
+*设 A 为局部环，m 为其最大理想，M、N 为两个A-模，u : N \to M 为 A 同态。 M 和 N 被赋予 m-adic 过滤并假设： (1) M 满足性质 (GR)； (2) \operatorname{gr}_0(u) : \operatorname{gr}_0(N) \to \operatorname{gr}_0(M) 是单射的。那么 \operatorname{gr}(u) : \operatorname{gr}(N) \to \operatorname{gr}(M) 是单射的，N 和 P = \operatorname{Coker}(u) 满足性质 (GR) 和 $m^n N = \bar{u}^{-1}(m^n M)$ 对于每个整数 $n > 0$。*
 
-立即验证图表
+立即核实图表
 $$
 \begin{array}{ccc}
 \operatorname{gr}(A) \otimes_{\operatorname{gr}_0(A)} \operatorname{gr}_0(N) & \xrightarrow{1 \otimes \operatorname{gr}_0(u)} & \operatorname{gr}(A) \otimes_{\operatorname{gr}_0(A)} \operatorname{gr}_0(M) \\
@@ -597,7 +597,7 @@ $$
 
 下排是精确的（no. 4，命题 2），上排也是如此，因为no. 4的命题 2以及$\mathrm{gr}_0(A)$是域。此外，$\mathrm{gr}(j)$是单射的（no. 4，命题2），因此$\mathrm{gr}_0(j)$是单射的，应用于$j$的参数的第一个部分表明$\gamma_{N'}$是双射的；由于$\gamma_M$也是假设的双射，我们结论认为$\gamma_P$是双射的（章I, § 1, no. 4，推论2到命题2）。
 
-#### 推论{#ac-iii-s2-n8-cor-1 .statement tag=04E8}
+#### 推论 {#ac-iii-s2-n8-cor-1 .statement tag=04E8}
 
 在命题 9 的假设下，如果我们还假设$N$ 是具有$m$-adic 过滤的Hausdorf，则$u$ 是单射的。
 
@@ -605,81 +605,81 @@ $$
 
 \* 注。假设命题 9 的假设成立，并且以下条件之一也成立：
 (1) $m$ 幂零的；
-(2) $A$ 是诺特，$P$ 理想的是 Hausdorff (cf. § 5, no. 1)；
-那么 $P$ 是一个扁平的 $A$ 模块。这是因为$\gamma_P$是双射且§ 5, no. 2、定理 1 (iv)，因为$A/m$是域。 \*
+(2) $A$ 是诺特并且 $P$ 是理想的 Hausdorff (cf. § 5, no. 1)；
+那么$P$是一个扁平的$A$模。这是因为$\gamma_P$是双射且§ 5, no. 2、定理 1 (iv)，因为$A/m$是域。 \*
 
-### 9. 相关分级模元素家庭的提升
+### 9. 相关分级模元素的家庭提升
 
-令$A$为过滤后的交换环，$(A_n)_{n \in \mathbf{Z}}$为其过滤，$C$子环为$A$，这样$C \cap A_1 = \{0\}$。 典范映射 $A_0 \to A_0/A_1 = \mathrm{gr}_0(A)$ 的限制到 $C$ 是单射的，这使得我们可以用 $\mathrm{gr}_0(A)$ 的子模进行认同 $C$；这是我们在类似情况下通常会做的。 如果 $A_1 \neq A$ 和 $K$ 是 $A$ 中的任意子域，则 $K \cap A_1 = (0)$ 因为 $K \cap A_1$ 是 $K$ 而不是包含 1 的理想；那么$K$可以用$\mathrm{gr}_0(A)$的子域来识别。
+令 $A$ 为过滤后的交换环，$(A_n)_{n \in \mathbf{Z}}$ 为其过滤，$C$ 子环为 $A$，这样$C \cap A_1 = \{0\}$。 典范映射 $A_0 \to A_0/A_1 = \mathrm{gr}_0(A)$ 的限制到 $C$ 是单射的，这使得我们可以用子模的 $\mathrm{gr}_0(A)$ 来认同 $C$；这是我们在类似情况下通常会做的。如果 $A_1 \neq A$ 和 $K$ 是 $A$ 中的任意子域，则 $K \cap A_1 = (0)$，因为 $K \cap A_1$ 是 $K$ 而不是包含 1 的理想；那么$K$可以用$\mathrm{gr}_0(A)$的子域来识别。
 
 #### 命题 10 {#ac-iii-s2-prop-10 .statement tag=04E9}
 
-设$A$为过滤后的交换环，$(A_n)$为过滤后的交换环；假设存在$A_0$的子环$C$，使得$C \cap A_n = \{0\}$和$C$可以与$\mathrm{gr}_0(A)$的子环识别。设$(x_i)_{1 \leq i \leq q}$是$A$的元素的有限族；假设$x_i \in A_n$对于$1 \leq i \leq q$，并让$\xi_i$是对于$1 \leq i \leq q$的$\mathrm{gr}_{n_i}(A)$中$x_i$的类。
+设$A$为过滤后的交换环，$(A_n)$为过滤后的交换环；假设存在$A_0$的子环$C$，使得$C \cap A_n = \{0\}$和$C$被$\mathrm{gr}_0(A)$的子环识别。令$(x_i)_{1 \leq i \leq q}$为$A$的元素的有限族；假设$x_i \in A_n$，对于$1 \leq i \leq q$，并让$\xi_i$是$x_i$中的类，对于$\mathrm{gr}_{n_i}(A)$，对于$1 \leq i \leq q$。
 
 (i) 如果$\mathrm{gr}(A)$的元素的族$(\xi_i)$在$C$上是代数自由的，则族$(x_i)$在$C$上是代数自由的。
 
-(ii) 如果$A$上的过滤是详尽且离散的，并且$(\xi_i)$是$C$-代数$\mathrm{gr}(A)$的生成元的系统，则$(x_i)$是$C$-代数的生成元的系统 $A$。
+(ii) 如果对$A$的过滤是详尽且离散的，并且$(\xi_i)$是$C$代数$\mathrm{gr}(A)$的生成元的系统，则$(x_i)$是生成元的系统 $C$-代数$A$。
 
-令$A'$为代数$\mathbf{C}[X_1, \ldots, X_q]$除以$\mathbf{C}$的多项式；让$A'$得到型$\mathbf{Z}$的分级$(A'_n)$，其中$A_n$是$\mathbf{C}$的集合-单项式$X_1^{s(1)} \ldots X_q^{s(q)}$的线性组合，使得$\sum_{i=1}^q n_i s(i) = n$。设$u$为同态$f \mapsto f(x_1, \ldots, x_q)$，从$\mathbf{C}$-代数$A'$到$\mathbf{C}$-代数$A$；通过定义，$u(A'_n) \subset A_n$对于所有$n \in \mathbf{Z}$，因此$u$与过滤$(A')$相容的，其过滤后的环结构与其分级环结构，cf.no. 1，例1)。既然如此，(i) 的假设意味着
+令$A'$为代数$\mathbf{C}[X_1, \ldots, X_q]$除以$\mathbf{C}$的多项式；让$A'$得到型$\mathbf{Z}$的分级$(A'_n)$，其中$A_n$是$\mathbf{C}$的集合-单项式$X_1^{s(1)} \ldots X_q^{s(q)}$的线性组合，使得$\sum_{i=1}^q n_i s(i) = n$。设$u$为同态$f \mapsto f(x_1, \ldots, x_q)$，从$\mathbf{C}$-代数$A'$到$\mathbf{C}$-代数$A$；通过定义，$u(A'_n) \subset A_n$对于所有$n \in \mathbf{Z}$，因此$u$与过滤$(A')$相容的，其过滤的环结构与其分级环结构，cf.no. 1，例1)。既然如此，(i) 的假设意味着
 
 $$
 \mathrm{gr}(u): A' = \mathrm{gr}(A') \to \mathrm{gr}(A)
 $$
 
-是单射的；由于$A'$上的过滤是穷举且分离的，因此可以应用no. 8的推论1至定理1，并且$u$是单射的，这证明了(i)的结论。类似地，(\&) 上的假设 (ii) 意味着 $\mathrm{gr}(u)$ 是满射；由于$A$是离散的，其过滤是穷举的，因此可以应用no. 8的推论2至定理1，并且$u$是满射的，这证明了(ii)的结论。
+是单射的；由于$A'$上的过滤是穷举且分离的，所以可以应用no. 8的推论 1到定理 1，并且$u$是单射的，这就证明了(i)的结论。类似地，(\&) 上的假设 (ii) 意味着 $\mathrm{gr}(u)$ 是满射；由于$A$是离散的并且其过滤是穷举的，因此可以应用no. 8的推论2到定理1，并且$u$是满射的，这证明了(ii)的结论。
 
 #### 命题 11 {#ac-iii-s2-prop-11 .statement tag=04EA}
 
-令 $A$ 为 $A_0$ 的完整豪斯多夫过滤交换环、$C$ 子环，使得 $C \cap A_n = 0$ 和 $(x_i)_{1 \leq i \leq q}$ 为 $A$ 的元素的有限族，使得 $x_i \in A_{n_i}$ 其中$n_i > 0$ 为 $1 \leq i \leq q$；对于$1 \leq i \leq q$，令$\xi_i$为$\mathrm{gr}_{n_i}(A)$中$x_i$的类。
+令$A$为$A_0$的完整Hausdorff过滤交换环、$C$子环，使得$C \cap A_n = 0$和$(x_i)_{1 \leq i \leq q}$为$A$的元素的有限族，使得$x_i \in A_{n_i}$其中$n_i > 0$ 为 $1 \leq i \leq q$；对于$1 \leq i \leq q$，令$\xi_i$为$\mathrm{gr}_{n_i}(A)$中$x_i$的类。
 
-(i) 从形式幂级数$A'' = \mathbf{C}[[X_1, \ldots, X_q]]$到$A$，从代数存在唯一的$C$同态$v$，使得$v(X_i) = x_i$对应于$1 \leq i \leq q$。
+(i) 从形式幂级数 $A'' = \mathbf{C}[[X_1, \ldots, X_q]]$ 到$A$ 的代数存在唯一的$C$同态$v$，使得$v(X_i) = x_i$对应于$1 \leq i \leq q$。
 
 (ii) 如果族 $(\xi_i)$ 在 $C$ 上是代数自由的，则同态 $v$ 是单射的。
 
 (iii) 如果对 $A$ 的过滤是穷举的，并且$(\xi_i)$族是$C$代数$\mathrm{gr}(A)$的生成元的系统，则同态$v$是满射的。
 
-对于所有$i$，$n_i \geq 1$，对于每个单项式$X_1^{s(1)} \ldots X_q^{s(q)}$，$\sum_{i=1}^q n_i s(i) \geq \sum_{i=1}^q s(i)$，另一方面，如果$r$是$n_i$的最大的，则$\sum_{i=1}^q n_i s(i) \leq r \cdot \sum_{i=1}^q s(i)$。如果$A''_n$表示形式幂级数的集合，其非零项$a_s X_1^{s(1)} \ldots X_q^{s(q)}$满足$\sum_{i=1}^q n_i s(i) \geq n$，则从no. 6推论命题6 $A''$ 是 Hausdorff，并配有彻底的过滤 $(A''_n)$ 并且
+对于所有$i$，$n_i \geq 1$，对于每个单项式$X_1^{s(1)} \ldots X_q^{s(q)}$，$\sum_{i=1}^q n_i s(i) \geq \sum_{i=1}^q s(i)$，另一方面，如果$r$是$n_i$的最大的，则$\sum_{i=1}^q n_i s(i) \leq r \cdot \sum_{i=1}^q s(i)$。如果$A''_n$表示形式幂级数的集合，其非零项$a_s X_1^{s(1)} \ldots X_q^{s(q)}$满足$\sum_{i=1}^q n_i s(i) \geq n$，则从no. 6，推论到命题6 $A''$ 是 Hausdorff，并配有彻底的过滤 $(A''_n)$ 并且
 
 $$
 A' = \mathbf{C}[X_1, \ldots, X_q]
 $$
 
-$A''$ 是稠密的；此外，命题 10 的证明中定义的同态$u$在$A'$上是连续的，并且可以唯一地扩展到连续的同态$v : A \to A$，因为$A$是Hausdorff且完备的（通则拓扑， 章 III, § 3, no. 3, 命题 5)，证明(i)；还有，$\mathrm{gr}(A'') = \mathrm{gr}(A')$和$\mathrm{gr}(v) = \mathrm{gr}(u)$；鉴于$A$的假设，(ii)和(iii)分别由推论1和2得出no. 8的定理1。
+$A''$ 是稠密的；此外，命题 10 的证明中定义的同态$u$在$A'$上是连续的，并且可以唯一地扩展到连续的同态$v : A \to A$，因为$A$是Hausdorff且完备的（通则拓扑， 章 III, § 3, no. 3, 命题 5), 证明 (i);还有，$\mathrm{gr}(A'') = \mathrm{gr}(A')$和$\mathrm{gr}(v) = \mathrm{gr}(u)$；鉴于$A$的假设，(ii)和(iii)分别由推论1和2得出no. 8的定理1。
 
-命题 (ii) (或 (iii)) 的结论是有时，由说表达，家庭$(x_i)$在$C$上正式自由（或$A$的生成元的正式系统）。
+命题 (ii) (或 (iii)) 的结论由说表达为有时，家庭$(x_i)$在$C$上正式自由（或生成元的正式系统或$A$）。
 
 #### 命题 12 {#ac-iii-s2-prop-12 .statement tag=04EB}
 
 令$A$为过滤后的环，$E$为过滤后的$A$模块，$(A_n)$和$(E_n)$分别对$A$和$E$进行过滤。假设$A$已完成，且过滤$(E_n)$已彻底分离。令$(x_i)_{i \in I}$为$E$的元素的有限族，对于$i \in I$，令$n(i)$为整数，使得$x_i \in E_{n(i)}$；最后令$\xi_i$为$\mathrm{gr}_{n(i)}(E)$中$x_i$的类。那么，如果$(\xi_i)$是$\mathrm{gr}(A)$-模块$\mathrm{gr}(E)$的生成元的系统，则$(x_i)$是$A$-模块$E$的生成元的系统。
 
-在$A$-模块$L = A'$中，令$L_0$表示集合$(a_i)$，使得$a_i \in A_{n - n(i)}$对于所有$i \in I$；如果$p$和$q$是$n(i)$中最小的且最大的，则定义$(L_n)$在$L$上定义的$A^I_{n-q} \supset L_0 \supset A^I_{n-p}$和拓扑与乘积拓扑相同；因此 $L$ 是一个完整的过滤 $A$ 模块。由于$L$是自由的，因此存在$A$-线性映射$u : L \to E$使得$u((a_i)) = \sum_{i \in I} a_i x_i$并且它显然与过滤兼容；我们必须证明 $u$ 是满射的，为此，根据推论 2 到定理 1、no. 8 就足以证明
+In the $A$-module $L = A'$, let $L_0$ denote 集合 $(a_i)$ such that $a_i \in A_{n - n(i)}$ for all $i \in I$;如果$p$和$q$是$n(i)$中最小的且最大的，则定义$(L_n)$在$L$上定义的$A^I_{n-q} \supset L_0 \supset A^I_{n-p}$和拓扑与乘积拓扑相同；因此 $L$ 是一个完整的过滤 $A$ 模块。 As $L$ is free, there exists an $A$-linear mapping $u : L \to E$ such that $u((a_i)) = \sum_{i \in I} a_i x_i$ and it is obviously compatible with the filtrations;我们必须证明 $u$ 是满射的，为此，凭借推论 2 到定理 1、no. 8 就足以证明
 
 $$
 \mathrm{gr}(u) : \mathrm{gr}(L) \to \mathrm{gr}(E)
 $$
 
-是满射的，或者对于所有$x \in E_n$，存在一个族$(a_i)$，使得$a_i \in A_{n-n(i)}$对于所有$i \in I$和$x \equiv \sum_{i \in I} a_i x_i \pmod{E_{n+1}}$。令$\xi$为$\mathrm{gr}_n(E)$中$x$的类；由于$\xi_i$生成$\mathrm{gr}(A)$-模块$\mathrm{gr}(E)$，存在$\alpha_i \in \mathrm{gr}(A)$使得$\xi = \sum_{i \in I} \alpha_i \xi_i$，如果需要的话我们可以假设$\alpha_i \in \mathrm{gr}_{n-n(i)}(A)$乘以替换是$\alpha_i$乘以次数的同质分量$n - n(i)$。那么$\alpha_i$是元素$a_i \in A_{n-n(i)}$中的像，而家庭$(a_i)$有所需的性质。
+是满射的，或者对于所有$x \in E_n$，存在一个族$(a_i)$，使得$a_i \in A_{n-n(i)}$对于所有$i \in I$和$x \equiv \sum_{i \in I} a_i x_i \pmod{E_{n+1}}$。设$\xi$为$\mathrm{gr}_n(E)$中$x$的类；由于$\xi_i$生成$\mathrm{gr}(A)$-模块$\mathrm{gr}(E)$，存在$\alpha_i \in \mathrm{gr}(A)$使得$\xi = \sum_{i \in I} \alpha_i \xi_i$，如果需要的话我们可以假设$\alpha_i \in \mathrm{gr}_{n-n(i)}(A)$乘以替换是$\alpha_i$乘其同构分量次数$n - n(i)$。那么$\alpha_i$是元素$a_i \in A_{n-n(i)}$中的像，而家庭$(a_i)$有所需的性质。
 
 #### 推论 1 {#ac-iii-s2-prop-12-cor-1 .statement tag=04EC}
 
-令$A$是一个完整的过滤环，而$E$是一个过滤的$A$模块，其过滤是彻底且分离的。如果 $\mathrm{gr}(E)$ 是有限生成的（分别为诺特）$\mathrm{gr}(A)$ 模块，则 $E$ 是有限生成的（分别为诺特）$A$ 模块。
+Let $A$ be a complete filtered 环 and $E$ a filtered $A$-module whose filtration is exhaustive and separated.如果 $\mathrm{gr}(E)$ 是有限生成的（分别为诺特）$\mathrm{gr}(A)$ 模块，则 $E$ 是有限生成的（分别为诺特）$A$ 模块。
 
-如果 $\mathrm{gr}(E)$ 是有限生成的，则存在齐次生成元的有限系统，并且命题 12 表明 $E$ 是有限生成的。现在假设$\mathrm{gr}(E)$是诺特，并令$F$是$E$的子模；由$E$在$F$上引起的过滤是详尽且分离的，并且$\mathrm{gr}(F)$被识别为gr(E)的子gr(A)模块(no. 4，命题2)，因此由假设有限生成；我们结论F是有限生成A-模，因此E是诺特。
+If $\mathrm{gr}(E)$ is finitely generated, there is a finite 系统 of homogeneous 生成元 and 命题 12 shows that $E$ is finitely generated.现在假设$\mathrm{gr}(E)$是诺特，令$F$是$E$的子模；由$E$在$F$上引起的过滤是详尽且分离的，并且$\mathrm{gr}(F)$被识别为gr(E)的子gr(A)模块(no. 4，命题2)，因此由假设有限生成；我们结论F是有限生成A-模，因此E是诺特。
 
 #### 推论 2 {#ac-iii-s2-prop-12-cor-2 .statement tag=04ED}
 
-设 A 是一个完整的豪斯多夫过滤环，其过滤是详尽的。如果 gr(A) 是左诺特环，则 A 也是。
+设 A 是一个完整的 Hausdorff 过滤环，其过滤是详尽的。 If gr(A) is 左诺特环, so is A.
 
-应用推论 1 且 E = A 就足够了。
+It is sufficient to 应用推论 1 with E = A.
 
 #### 推论 3 {#ac-iii-s2-prop-12-cor-3 .statement tag=04EE}
 
-设 A 为完全过滤的环，(A_n) 为它的过滤，E 为 Hausdorff 过滤的 A-模，(E_n) 为它的过滤，F 为 E 的有限生成的子模；假设 A_∞ = A 且 E_0 = E。
+令 A 为完全过滤的环，(A_n) 其过滤，E 为 Hausdorff 过滤的 A-模，(E_n) 其过滤，F 为 E 的有限生成的子模； suppose that A_∞ = A and E_0 = E.
 
 (i) 如果对于所有 k ≥ 0，E_k = E_{k+1} + A_k F，则 F = E。
 (ii) 如果进一步假设 E 上的过滤源自 A 上的过滤 (no. 1, 例 2)，关系 E = E_1 + F 意味着 F = E。
 
-令 xi_i (1 ≤ i ≤ n) 为类 mod。 F 的生成元的有限系统的 E_1。根据给定的假设，对于所有 k ≥ 0，gr_k(E) 的每个元素都可以用形式 $\sum_{i=1}^n \alpha_i \xi_i$ 表示，其中 $\alpha_i \in \mathrm{gr}(A)$; $\xi_i$ 因此生成 gr(A)-模 gr(E)，它凭借命题 12 证明了 (i)。如果 E 上的过滤源自 A 上的过滤，则关系 E = E_1 + F 意味着
+Let ξ_i (1 ≤ i ≤ n) be 类 mod. F 的生成元的有限系统的 E_1。根据给定的假设，对于所有 k ≥ 0，gr_k(E) 的每个元素都可以用形式 $\sum_{i=1}^n \alpha_i \xi_i$ 表示，其中 $\alpha_i \in \mathrm{gr}(A)$; $\xi_i$ 因此生成 gr(A)-模 gr(E)，它凭借命题 12 证明了 (i)。如果 E 上的过滤源自 A 上的过滤，则关系 E = E_1 + F 意味着
 
 $$
 E_k = A_k E = A_k E_1 + A_k F = A_k A_1 E + A_k F \subset A_{k+1} E + A_k F \\
@@ -690,11 +690,11 @@ $$
 
 #### 命题 13 {#ac-iii-s2-prop-13 .statement tag=04EF}
 
-设A为环，m是A的双面理想，包含在A和E的雅各布森根中A-模。让 A 和 E 接受 m 进过滤 (no. 1, 例 3)。假设以下条件之一成立：
-(a) E 为有限生成A-模，A 为豪斯多夫；
+Let A be 环, m a two-sided ideal of A contained in the Jacobson 根基 of A and E A-模. Let A and E be given the m-adic filtrations (no. 1, 例 3).假设以下条件之一成立：
+(a) E is 有限生成A-模 and A is Hausdorff;
 (b) m 是幂零的。
 
-对于 E 为自由A-模，E/mE 是自由 (A/m) 模且 E 满足性质 (GR) (no. 8) 是必要且充分的。
+For E to be 自由A-模, it is necessary and sufficient that E/mE be a free (A/m)-module and that E 满足性质 (GR) (no. 8).
 
 如果E是E的自由A-模和$(e_\lambda)$基，则对于所有$k > 0$（代数，章II, § 3, no. 7，$m^k E$是E的子模$m^k e_\lambda$中的直和， 注);则 $m^k E / m^{k+1} E$ 与 $m^k e_\lambda / m^{k+1} e_\lambda$ 的直和进行识别（代数、章 11、§ 1, no. 6、命题 7）。我们首先（对于$k = 0$）推导出（A/m）模块$E / mE$的$E / mE = (A / m) \otimes_A E$形式基中$e_\lambda$的类$1 \otimes e_\lambda$，因为典范映射
 
@@ -702,25 +702,25 @@ $$
 (m^k / m^{k+1}) \otimes_A (E / mE) \to m^k E / m^{k+1} E
 $$
 
-对于所有 $k \geq 0$ 都是双射的；因此 $\gamma_E$ 是双射的。 注证明的这个部分既不使用条件(a)也不使用条件(b)。
+对于所有 $k \geq 0$ 都是双射的；因此 $\gamma_E$ 是双射的。请注意，证明的这个部分既不使用条件 (a)，也不使用条件 (b)。
 
-相反，假设叙述的条件成立，并令$(x_i)_{i \in I}$是E的元素族，其类模。 $(A/m)$模块$E/mE$的$mE$形式基；令L为自由A-模$A_s^{(I)}$，$(f_i)_{i \in I}$为典范基，$u : L \to E$A-线性映射，这样$u(f_i) = x_i$对于所有$i \in I$。假设已经暗示$u$是满射（章II, § 3, no. 2，推论1到命题4），并且仍然需要证明$u$是单射的。现在，每个假设 (a) 和 (b) 都意味着 A 是 Hausdorff，因此使用 m 进过滤，L 也是 Hausdorff，因为 $m^kL = (m^k)^{(I)}$ (代数, 章 II, § 3, no. 7, 注) 和 $\operatorname{gr}(L)$ 被标识为从证明的第一个部分开始$\operatorname{gr}(A) \otimes_{A/m} (L/mL)$； 同态 $u$ 与过滤兼容，并且可以将 $\operatorname{gr}(u) = \gamma_E \circ v$ 写入其中 $v$ 是 $\operatorname{gr}(L)$ 的双射到
+相反，假设叙述的条件成立，并令$(x_i)_{i \in I}$是E的元素族，其类模。 $(A/m)$模块$E/mE$的$mE$形式基；令L为自由A-模$A_s^{(I)}$，$(f_i)_{i \in I}$为典范基，$u : L \to E$A-线性映射，使得$u(f_i) = x_i$对于所有$i \in I$。假设已经暗示 $u$ 是满射的（章 II, § 3, no. 2、推出 1 到命题 4），还需要证明 $u$ 是单射的。现在，每个假设 (a) 和 (b) 都意味着 A 是 Hausdorff，因此使用 m 进过滤，L 也是 Hausdorff，因为 $m^kL = (m^k)^{(I)}$ (代数, 章 II, § 3, no. 7, 注) 和 $\operatorname{gr}(L)$ 被标识为从证明的第一个部分开始$\operatorname{gr}(A) \otimes_{A/m} (L/mL)$； 同态 $u$ 与过滤兼容，并且可以将 $\operatorname{gr}(u) = \gamma_E \circ v$ 写入其中 $v$ 是 $\operatorname{gr}(L)$ 的双射到
 $$
 \operatorname{gr}(A) \otimes_{A/m} (E/mE)
 $$
 映射类关闭，模组。 mM 到 $1 \otimes \bar{x}_i$，其中 $\bar{x}_i$ 是 $x_i$ mod 的类。 $mE$。那么假设意味着$\operatorname{gr}(u)$是单射的，并且借助推论1到定理1、no. 8得出结论。
 
-### 10. 应用：例诺特环
+### 10. 应用：例 / 诺特环
 
 #### 引理 1 {#ac-iii-s2-lem-1 .statement tag=04EG}
 
-令 A 为型 $\mathbf{Z}$ 的分级环，其分级 $(A_n)$ 使得所有 $n < 0$ 为 $A_n = 0$ 或所有 $n > 0$ 为 $A_n = 0$。令 M 为型 $\mathbf{Z}$ 的分级 A-模。为了使M成为诺特A-模，M的每个分级子模是有限生成的充分必要。
+令A为型$\mathbf{Z}$的分级环，其分级$(A_n)$使得对于所有$n < 0$为$A_n = 0$或对于所有$n > 0$为$A_n = 0$。令 M 为型 $\mathbf{Z}$ 的分级 A-模。为了使M成为诺特A-模，M的每个分级子模是有限生成的充分必要。
 
-由于$n \mapsto -n$是群$\mathbf{Z}$中的自同构，我们可能会将注意力限制在所有$n > 0$的案例$A_n = 0$上。令 A' 和 M' 分别表示环 A 和模 M，以及与它们各自的等级（no. 1，例 1）相关的过滤，它们是详尽且分离的； A 上的假设意味着 A' 是离散的，因此是完整的。如果E是M的子A-模，则对E进行诱导过滤得到的过滤后的A'-模E'是Hausdorff，其过滤是穷举的；此外，$\operatorname{gr}(E')$ 与 $M = \operatorname{gr}(M')$ 的分级子 A 模块相同，因此由假设有限生成。然后从no. 9的推论1到命题12得出结论。
+由于$n \mapsto -n$是群$\mathbf{Z}$中的自同构，我们可能会将注意力限制在所有$n > 0$的案例$A_n = 0$上。令 A' 和 M' 分别表示环 A 和模 M，以及与它们各自的分级（no. 1，例 1）相关的过滤，它们是详尽且分离的； A 上的假设意味着 A' 是离散的，因此是完整的。如果E是M的子A-模，则对E进行诱导过滤得到的过滤后的A'-模E'是Hausdorff，其过滤是穷举的；此外，$\operatorname{gr}(E')$ 与 $M = \operatorname{gr}(M')$ 的分级子 A 模块相同，因此由假设有限生成。然后从no. 9的推论1到命题12得出结论。
 
 #### 定理 2 {#ac-iii-s2-thm-2 .statement tag=04EH}
 
-令A为型$\mathbf{N}$的分级环，M为型$\mathbf{N}$的A-模分级，以及$(A_n)$和$(M_n)$各自的分级。假设存在元素 $a \in A_0$，使得所有 $n > 0$ 都存在 $A_n = A_0 a^n$ 和 $M_n = a^n M_0$。那么，如果M是诺特$A_0$模，则M是诺特A-模。
+令A为型$\mathbf{N}$的分级环，M为型$\mathbf{N}$的A-模分级，以及$(A_n)$和$(M_n)$各自的分级。假设存在元素$a \in A_0$，使得所有$n > 0$都存在$A_n = A_0 a^n$和$M_n = a^n M_0$。那么，如果M是诺特$A_0$模，则M是诺特A-模。
 
 凭借引理 1 足以证明 M 的每个分级子模 N 都是有限生成的。对于所有$r \geq 0$，令$N_r = N \cap M_r$且令L_r为$m \in M_0$的集合，使得$a^r m \in N_r$。作为
 $$
@@ -755,37 +755,37 @@ $$
 
 *对于每个交换律诺特环 C 和每个整数 $n > 0$、多项式环 C[X_1, ..., X_n] 都是诺特。*
 
-这是从归纳在 $n$ 上得出的推论 1 得出的。
+这是从推论 1 到 $n$ 上的归纳开始的。
 
 #### 推出 3 {#ac-iii-s2-thm-2-cor-3 .statement tag=04EK}
 
 *如果C是交换律诺特环，则每个有限生成的交换律C-代数是诺特环。*
 
-这样的代数同构于多项式代数 C[X_1, ..., X_n] (§ 1, no. 1) 的商。
+这样的代数同构于多项式代数C[X_1, ..., X_n] (§ 1, no. 1)的商。
 
 #### 推出 4 {#ac-iii-s2-thm-2-cor-4 .statement tag=04EL}
 
 *设 A 为型 $\mathbf{N}$ 的等级交换环，并令 $(A_n)$ 为其毕业。对于 A 为诺特，$A_n$ 为诺特且 A 为 ajinitely 生成的 A,-代数是充分必要的。*
 
-根据推论3，条件是充分的。反之，假设A是诺特； $m = \sum_{n \geq 1} A_n$是A的理想，然后有限生成；那么 A 是有限生成的 A,-代数（§ 1, no. 2，命题 1 的推论）；另一方面，与$A/m$同构的$A_n$是诺特环。
+条件满足推论 3。反之，假设A 是诺特； $m = \sum_{n \geq 1} A_n$是A的理想，然后有限生成；则 A 是有限生成的 A,-代数 (§ 1, no. 2, 推论到命题 1)；另一方面，与$A/m$同构的$A_n$是诺特环。
 
 #### 推出 5 {#ac-iii-s2-thm-2-cor-5 .statement tag=04EM}
 
 *设 A 为交换环，m 是 A 的一个理想，使得 $A/m$ 为诺特，$m/m^2$ 是 ajinitely 生成的 $(A/m)$ 模，A 是 Hausdorff，并由 m 进数拓扑完成。那么 gr(A) 和 A 是诺特。*
 
-gr(A) 是由 $m/m^2$ (no. 3, 例 3) 生成的 $(A/m)$ 模，因此根据推论 3，环 gr(A) 是诺特。 由此我们推断 A 本身是诺特 (no. 9,推出 2 至命题 12)。
+gr(A) 是由 $m/m^2$ (no. 3, 例 3) 生成的 $(A/m)$ 模，因此环 gr(A) 是诺特 by 推出 3。 由此我们推断 A 本身是诺特 （no. 9、推出 2 至命题 12）。
 
 #### 推出 6 {#ac-iii-s2-thm-2-cor-6 .statement tag=04EN}
 
 对于每个可交换的诺特环 C 和每个整数 n > 0，形式幂级数 $\mathbf{C}[[X_1, \ldots, X_n]]$ 的环是诺特。
 
-这是从推论 5 和 no. 6 得出的，推论到命题 6，因为如果 m 是形式幂级数的$A = \mathbf{C}[[X_1, \ldots, X_n]]$ 由……组成的理想且没有常数项，$A/m$ 同构于C 和 $m/m^2$ 到C-模块$\mathbf{C}"$。
+这是从推论 5 和 no. 6、推论到命题 6 得出的，因为如果 m 是形式幂级数的 $A = \mathbf{C}[[X_1, \ldots, X_n]]$ 由……组成的理想值，且没有常数项， $A/m$与C同构，$m/m^2$与C模块$\mathbf{C}"$同构。
 
 注
 
-(1) 如果 C 是交换域，则推论 2、3 和 6 特别适用。
+(1) 推出 2、3 和 6 特别适用于 C 是交换域。
 
-\* (2) 设 g 在可交换的诺特环 C 上为李代数，并假设 g 是有限生成的 C 模。令 g 的包络代数 U 为 no. 3、例 4 中定义的递增过滤 $(U_n)$。 对于相应的拓扑，U 是离散的，因此是 Hausdorff 和完备的；相关的分级环 gr(U) 是有限生成的 C 代数，是对称代数 $\mathscr{S}(g)$ 的商，因此 gr(U) 是诺特环 （推出 3），我们推断出 U 是左且右诺特环（no. 9，推出 2 至命题 12）。 \*
+\* (2) 设 g 在可交换的诺特环 C 上为李代数，并假设 g 是有限生成的 C 模。令 g 的包络代数 U 给出在 no. 3、例 4 中定义的递增过滤 $(U_n)$。对于相应的拓扑，U 是离散的，因此是 Hausdorff 和完备的；相关的分级环 gr(U) 是有限生成的 C 代数，是对称代数 $\mathscr{S}(g)$ 的商，因此 gr(U) 是诺特环 (推出 3)，我们推断U 是左和右诺特环（no. 9、推出 2 到命题 12）。 \*
 
 ### 11. 完整的 m-ADIC 环和逆极限
 
@@ -795,7 +795,7 @@ $$
 h_{ij}: A/m^{j+1} \to A/m^{i+1} \quad (i \leq j);
 $$
 
-注 $h_{ij}$ 是满射，如果 $n_{ij}$ 是它的核，那么
+请注意 $h_{ij}$ 是满射，如果 $n_{ij}$ 是其核，则
 
 $$
 n_{ij} = m^{i+1}/m^{j+1} = (m/m^{j+1})^{i+1} =
@@ -805,7 +805,7 @@ $$
 
 #### 命题 14 {#ac-iii-s2-prop-14 .statement tag=04EO}
 
-令$(A_i, h_{ij})$为离散交换环的逆系，其索引集合为$\mathbf{N}$，并令$(M_i, u_{ij})$为模的逆系超过环的逆系 $(A_i, h_{ij})$。让$n_j$表示$h_{0j}: A \to A$的核，并且集合$A = \lim A_i$，$M = \lim M_i$。假设
+令$(A_i, h_{ij})$为离散交换环的逆系，其索引集合为$\mathbf{N}$，并令$(M_i, u_{ij})$为模的逆系超过环的逆系 $(A_i, h_{ij})$。让$n_j$表示$h_{0j}: A \to A$的核，并且集合$A = \lim A_i$、$M = \lim M_i$。假设
 
 (a) 对于所有 $i \in \mathbf{N}$，$h_{ii}$ 是 A 上的恒等映射，并且对于 $i \leq j$，$h_{ij}$ 和 $u_{ij}$ 是满射；
 (b) 对于$i \leq j$，$h_{ij}$和$u_{ij}$的核分别是$n_j^{i+1}$和$n_j^{i+1} M_j$。
@@ -816,9 +816,9 @@ $$
 
 准确地说，M 的每个有限子集 S 使得 $u_0(S)$ 生成 M，是 M 的生成元的系统。
 
-(i)中的断言遵循一般拓扑、章II, § 3, no. 5、命题10的推论以及定理1的推论1。
+(i)中的断言遵循一般拓扑、章II, § 3, no. 5、推论至命题10以及推论1至定理1。
 
-对于所有$i \in \mathbf{N}$，让我们写成$m_{i+1} = \mathrm{Ker}(h_i), N_{i+1} = \mathrm{Ker}(u_i)$；那么
+对于所有$i \in \mathbf{N}$，让我们写成$m_{i+1} = \mathrm{Ker}(h_i), N_{i+1} = \mathrm{Ker}(u_i)$；然后
 
 $$
 m_{i+1} = \lim_{k \geq 0} h_{i,t+k}^{-1}(0) = \lim_{\leftarrow} n_{i+1}^{t+k}
@@ -830,13 +830,13 @@ $$
 h_{i+k}(m_{i+1}) = n_{i+k}^{t+1}, \quad u_{i+k}(N_{i+1}) = n_{i+k}^{t+1} M_{i+k}.
 $$
 
-让我们证明$m_i N_j \subset N_{i+j}$对应于$i \geq 1$和$j \geq 1$，相当于证明即$u_{i+j-1}(m_i N_j) = 0$；现在
+让我们证明 $i \geq 1$ 和 $j \geq 1$ 的$m_i N_j \subset N_{i+j}$，相当于证明 $u_{i+j-1}(m_i N_j) = 0$；现在
 
 $$
 u_{i+j-1}(m_i N_j) = h_{i+j-1}(m_i) u_{i+j-1}(N_j)
 $$
 
-等于$n_{i+j-1}^{t'}(n_{i+j-1}^{t'} M_{i+j-1}) = 0$，因为对于所有$k \geq 0$，$n_k^{k+1}$（即$h_{kk}$的核）等于0。我们类似地看到$m_i m_j \subset m_{i+j}$。如果对于$i \leq 0$我们集合$m_i = A$和$N_i = M$，$(m_i)_{i \in \mathbf{Z}}$是A的过滤，$(N_i)_{i \in \mathbf{Z}}$是与A上的过滤兼容的M的过滤； A 和 M 上的拓扑显然是由这些过滤定义的。既然如此，令$a$为A的理想，使得S生成M的$h_1(a) = n_1$和$M'$子模；我们将证明这一点
+等于$n_{i+j-1}^{t'}(n_{i+j-1}^{t'} M_{i+j-1}) = 0$，因为对于所有$k \geq 0$，$n_k^{k+1}$（$h_{kk}$的核）等于0。我们类似地看到$m_i m_j \subset m_{i+j}$。如果对于$i \leq 0$我们集合$m_i = A$和$N_i = M$，$(m_i)_{i \in \mathbf{Z}}$是A的过滤，$(N_i)_{i \in \mathbf{Z}}$是与A上的过滤兼容的M的过滤； A 和 M 上的拓扑显然是由这些过滤定义的。既然如此，令$a$为A的理想，使得S生成M的$h_1(a) = n_1$和$M'$子模；我们将证明这一点
 
 $$
 N_i = a^i M' + N_{i+1} \quad \text{for } i \geq 0.
@@ -848,7 +848,7 @@ $$
 u_i(N_i) = a_i^i M'_i.
 $$
 
-如果 $i = 0$ 为 $N_0 = M$ 且 $M'_0 = M$ 为假设，则这是正确的。如果$i \geq 1$，则$u_i(N_i) = n_i^i M_i$乘以(16)。由于$h_{1i}$是满射，$h_{0i} = h_{01} \circ h_{1i}$、$h_i$的$h_{1i}$映射核$n_i$，到$h_1$的核$n_1$和$n_i = h_{1i}(n_1)$；那么
+如果 $i = 0$ 为 $N_0 = M$ 且 $M'_0 = M$ 为假设，则这是正确的。如果$i \geq 1$，则$u_i(N_i) = n_i^i M_i$乘以(16)。由于$h_{1i}$是满射，$h_{0i} = h_{01} \circ h_{1i}$、$h_i$的$h_{1i}$映射核$n_i$，到$h_1$的核$n_1$和$n_i = h_{1i}(n_1)$；然后
 
 $$
 h_{1i}(a_i) = h_1(a) = n_1 = h_{1i}(n_i)
@@ -860,39 +860,39 @@ $$
 n_i^i M_i = (a_i + n_i^2)^i (M'_i + n_i M_i).
 $$
 
-现在，$a_i^k n_i^{i+1-k} \subset n_i^{i+1} = 0$代表$0 \leq k \leq i$；那么它肯定遵循$u_i(N_i) = n_i M_i = a_i^i M'_i$，从而证明了（17）。
+现在，$a_i^k n_i^{i+1-k} \subset n_i^{i+1} = 0$换$0 \leq k \leq i$；那么当然可以得出$u_i(N_i) = n_i M_i = a_i^i M'_i$，从而证明(17)。
 
-此外$m_1 = h_1(n_1)$，从而$a \subset m_1$，因此$a^i \subset m_1^i \subset m_i$，从而
+此外，$m_1 = h_1(n_1)$，从而$a \subset m_1$，因此$a^i \subset m_1^i \subset m_i$，从而
 
-$N_i \subset m_i M' + N_{i+1}$；另一方面，显然$m_i M \subset N_i$，因此对于所有$i \geq 0$，$N_i = m_i M' + N_{i+1}$；那么从推论3到no. 9的命题12即$M' = M$，从而完成证明。
+$N_i \subset m_i M' + N_{i+1}$；另一方面，显然 $m_i M \subset N_i$ 因此对于所有 $i \geq 0$ 来说都是 $N_i = m_i M' + N_{i+1}$；然后从推论 3 到命题 12（no. 9），即$M' = M$，从而完成证明。
 
 #### 推论 1 {#ac-iii-s2-prop-14-cor-1 .statement tag=04EP}
 
-*使用记号和命题14的假设，进一步假设$M_0$是有限生成的$A$模块，并且$A$的理想$n_1$是有限生成的。设$m_1$为$h_1$的核； $A$和$M$上的拓扑分别是环和模上的$m_1$-adic拓扑；准确地说，对于$h_i$和$u_i$的所有$i \geq 0$、核分别是$m_1^{i+1}$和$m_1^{i+1} M$；进一步 $m_1 / m_1^2$ 是有限生成的 $A$ 模块。*
+*使用记号和命题14的假设，进一步假设$M_0$是有限生成的$A$模块，并且$A$的理想$n_1$是有限生成的。设$m_1$为$h_1$中的核； $A$和$M$上的拓扑分别是这个环和这个模上的$m_1$-adic拓扑；准确地说，对于$h_i$和$u_i$的所有$i \geq 0$、核分别是$m_1^{i+1}$和$m_1^{i+1} M$；进一步 $m_1 / m_1^2$ 是有限生成的 $A$ 模块。*
 
-我们保留命题 14 证明记号；这里的假设允许我们假设理想的 $a$ 是有限生成的。令$i \geq 0$为任意整数；对于所有 $j \geq 0$，通过 (17)，$N_{i+j} = a^j(a^i M) + N_{i+j+1} \subset m_j(a^i M) + N_{i+j+1}$；反之，$m_j(a^i M) \subset m_j m_i M \subset m_{i+j} M \subset N_{i+j}$、从而
+我们保留命题14的证明的记号；这里的假设允许我们假设理想的 $a$ 是有限生成的。令$i \geq 0$为任意整数；对于所有 $j \geq 0$，通过 (17)，$N_{i+j} = a^j(a^i M) + N_{i+j+1} \subset m_j(a^i M) + N_{i+j+1}$；反之，$m_j(a^i M) \subset m_j m_i M \subset m_{i+j} M \subset N_{i+j}$、从而
 
 $$
 N_{i+j} = m_j(a^i M) + N_{i+j+1}.
 $$
 
-由于 $a$ 和 $M$ 是有限生成的 $A$ 模，$a^i M$ 也是如此。 应用 no. 9到模$N_i$的推论3到命题12，通过$N_{ij} = N_i$定义的过滤$(N_{ij})_{j \in \mathbf{Z}}$，如果$j < 0$，$N_{ij} = N_{i+j}$如果$j \geq 0$，我们得到$N_i = a^i M$， 从而$N_i \subset m_1^i M$。还有$m_1^i M \subset m_i M \subset N_i$、从而$N_i = m_1^i M$。 应用对于$M = A$、$u_{ij} = h_{ij}$的情况，我们得到$m_i = m_1^i$。此外，由(17)得到$m_1 = a + m_1^2$，从而证明了推论的最后一个断言。
+由于 $a$ 和 $M$ 是有限生成的 $A$ 模块，$a^i M$ 也是如此。 no. 9至模$N_i$中的应用推论3至命题12，其中过滤$(N_{ij})_{j \in \mathbf{Z}}$由$N_{ij} = N_i$定义，如果$j < 0$，$N_{ij} = N_{i+j}$如果$j \geq 0$，我们得到$N_i = a^i M$，从而$N_i \subset m_1^i M$。还有$m_1^i M \subset m_i M \subset N_i$、从而$N_i = m_1^i M$。 应用对于$M = A$、$u_{ij} = h_{ij}$的情况，我们得到$m_i = m_1^i$。此外，由(17)得到$m_1 = a + m_1^2$，从而证明了最后一个断言或推论。
 
 #### 推论 2 {#ac-iii-s2-prop-14-cor-2 .statement tag=04EQ}
 
-*在推论1的假设下，$A$为诺特，$A$为诺特是必要且充分的。*
+*在推论 1的假设下，$A$为诺特，$A$为诺特是充分必要的。*
 
-条件是必要的，因为 $A$ 同构于 $A$ 的商；根据 no. 10、推出 5 到定理 2 就足够了。
+条件是必要的，因为 $A$ 同构于 $A$ 的商；凭借no. 10、推出 5 至定理 2 就足够了。
 
-### 12. 已过滤的模的 HAUSDOFF 完成
+### 12. 过滤模的 hausdorff 补全
 
-令$G$为过滤后的群，其过滤$(G_n)$由$G$的正常子群组成；我们已经回忆过（no. 6）拓扑群$G$的*豪斯多夫完成*$\hat{G}$被规范地等同于*离散*群$G/G_n$、典范同态$i : G \to \hat{G}$的逆极限$\lim \leftarrow G/G_n$具有与$G$相关的像豪斯多夫群（$\hat{G}$中处处密集）和核$G$中$\{0\}$的闭包$\bigcap G_n$。 子群 $G_n$ $G$ 的 Hausdorff 完成$\hat{G}_n$ 与$\hat{G}$ 中$i(G_n)$ 的闭包一致（*一般拓扑*、章 II, § 3, no. 9，推出 1 到命题） 18)，并且自$G$起，于$\hat{G}$关闭，
+令$G$为过滤后的群，其过滤$(G_n)$由$G$的正常子群组成；我们已经回忆过（no. 6）拓扑群$G$的*豪斯多夫完成*$\hat{G}$被规范地等同于*离散*群$G/G_n$、典范同态$i : G \to \hat{G}$的逆极限$\lim \leftarrow G/G_n$具有与$G$相关的像豪斯多夫群（$\hat{G}$中处处密集）和核$G$中$\{0\}$的闭包$\bigcap G_n$。 子群 $G_n$ $G$ 的 Hausdorff 完成$\hat{G}_n$ 与 $\hat{G}$ 中$i(G_n)$ 的闭包相同（*一般拓扑*、章 II, § 3, no. 9、推出 1 至命题 18)，自 $G$ 起，$\hat{G}$ 关闭，
 
 $$
 G, = i^{-1}(\hat{G}_n) = i^{-1}(\hat{G}_n \cap i(G)).
 $$
 
-Moreover, the $\hat{G}_n$ form a fundamental system of neighbourhoods of 0 in $\hat{G}$ (*General Topology*, Chapter 111, § 3, no. 4, Proposition 7) and are therefore normal open subgroups of $\hat{G}$ (General Topology, Chapter 111, § 2, no. 3, Proposition 8); the topology on $\hat{G}$ is defined by the filtration $(\hat{G}_n)$, which is always separated by definition. 由于 $i(G)$ 在 $\hat{G}$ 中是稠密的，并且 $\hat{G}_n$ 是开集，
+此外，$\hat{G}_n$在$\hat{G}$（*一般拓扑*，第111章，§ 3, no. 4，命题7）中形成了0邻域的基本系统，因此是$\hat{G}$的常开子群（一般拓扑，第111章，§ 2, no. 3，命题8）； $\hat{G}$ 上的拓扑由过滤 $(\hat{G}_n)$ 定义，过滤总是由定义分隔开。 由于 $i(G)$ 在 $\hat{G}$ 中是稠密的，并且 $\hat{G}_n$ 是开集，
 
 $$
 \hat{G} = i(G) \cdot \hat{G}_n
@@ -934,7 +934,7 @@ $$
 
 #### 命题 15 {#ac-iii-s2-prop-15 .statement tag=04ER}
 
-令$A$为过滤后的环，$E$为过滤后的$A$模块，$A$和$E$各自的过滤$(A_n), (E_n)$是详尽的。那么$(\hat{A}_n)$是与$\hat{A}$上的环结构兼容的过滤，而$(\hat{E}_n)$是在过滤后的环$\hat{A}$上与$\hat{E}$上的模结构兼容的过滤；此外，这些过滤是详尽的，并且分别$\hat{A}$和$\hat{E}$上的拓扑定义。最后，分级$\mathbf{Z}$-模块中的典范映射$\operatorname{gr}(A) \to \operatorname{gr}(\hat{A})$和$\operatorname{gr}(E) \to \operatorname{gr}(\hat{E})$分别是分级环同构和分级$\operatorname{gr}(A)$-模块同构。
+令$A$为过滤后的环，$E$为过滤后的$A$模块，$A$和$E$各自的过滤$(A_n), (E_n)$是详尽的。那么$(\hat{A}_n)$是与$\hat{A}$上的环结构兼容的过滤，$(\hat{E}_n)$是在过滤后的环$\hat{A}$上与$\hat{E}$上的模结构兼容的过滤；此外，这些过滤是详尽的，并且分别$\hat{A}$和$\hat{E}$上的拓扑定义。最后，分级$\mathbf{Z}$-模块中的典范映射$\operatorname{gr}(A) \to \operatorname{gr}(\hat{A})$和$\operatorname{gr}(E) \to \operatorname{gr}(\hat{E})$分别是分级环同构和分级$\operatorname{gr}(A)$-模块同构。
 
 接下来，对于每个制服空间$X$，$j_X$将表示从$X$到其Hausdorff完成$\hat{X}$的典范映射和$X_0 = j_X(X)$$\hat{X}$的制服子空间，这是Hausdorff 空间与 $X$ 相关。回想一下，$X$上的拓扑是$X_0$上的$j_X$下的逆像（一般拓扑，
 
@@ -942,9 +942,9 @@ $$
 
 #### 引理 2 {#ac-iii-s2-lem-2 .statement tag=04ES}
 
-*令$X \xrightarrow{f} Y \xrightarrow{g} Z$为拓扑群严格态射的正合序列（代数、章II, § 1, no. 4、注）。假设$X, Y, Z$承认豪斯多夫完成群并且单位元素$\mathscr{E} X, Y, Z$承认邻域的可数基数系统。那么$\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$就是严格态射的正合序列。*
+*令$X \xrightarrow{f} Y \xrightarrow{g} Z$为拓扑群严格态射的正合序列（代数、章II, § 1, no. 4、注）。假设$X, Y, Z$承认豪斯多夫完成群并且单位元素$\mathscr{E} X, Y, Z$承认邻域的可数基本系统。那么$\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$就是严格的态射的正合序列。*
 
-令$N_1, N_g$分别为核关闭和$g$；让我们写
+设$N_1, N_g$分别为核off和$g$；让我们写
 
 $$
 f = f_3 \circ f_2 \circ f_1
@@ -952,7 +952,7 @@ $$
 
 其中$f_1$是典范映射$X \to X/N_f$，$f_2$是$X/N_f$到$N$的同构，$f_3$是典范嵌入$N \to Y$。我们已经知道$f_2$是$(X/N_f)^*$到$\hat{N}_g$的同构，并且我们刚刚回想起$f_1$是$N$到$\hat{Y}$的单射严格态射；如果我们证明$\hat{f}_1$是一个满射严格态射，那么$\hat{f}$是一个严格态射（一般拓扑，章III, § 2, no. 8，注2）。设$g_1$为典范映射$Y \to Y/N_g$；如果我们证明$\hat{g}_1$是核$\hat{N}_g$的满射严格态射，我们将如上所述看到$\hat{g}$是严格的态射并且序列$\hat{X} \xrightarrow{\hat{f}} \hat{Y} \xrightarrow{\hat{g}} \hat{Z}$将是精确的。因此，我们将问题减少到证明，如果$Y = X/N$（其中$N$是$X$的正常子群）并且$f : X \to Y$是典范映射，$\hat{f}$是一个*满射严格态射， 核* $\hat{N}$。
 
-设$f_0 : X_0 \to Y_0$为映射，其中重合与$f$在$X_0$上；因为 $j_X$（分别为 $j_Y$）是 $X$ 到 $X$ 的满射严格态射，（分别为 $Y$ 到 $Y_0$），$f_0$ 是满射严格态射（一般拓扑、章、III, § 2, no. 8、注 3)。现在$X_0$和$Y_0$是可度量的（一般拓扑，章IX, § 3, no. 1，命题1）；那么从一般拓扑，章IX, § 3, no. 1，推论1到命题4和引理1，$\hat{f}_0 = \hat{f}$是满射严格态射并且有核闭包$\hat{N}_0'$*in* $X$ 核 $N_0'$ $f_0$。那么我们只要证明$\hat{N}_0' = \hat{N}$就足够了。现在$N_0'$显然是包含$N_0 = j_X(N)$；足以证明$N_0'$包含在$N_0$*in*$X$的闭包$\overline{N}_0$中。现在，
+设$f_0 : X_0 \to Y_0$为映射，其中重合与$f$在$X_0$上；因为$j_X$（或$j_Y$）是$X$到$X$的满射严格态射，（或$Y$到$Y_0$），$f_0$是态射的满射严格（一般拓扑、章、III, § 2, no. 8、注 3)。现在$X_0$和$Y_0$是可度量的（一般拓扑，章IX, § 3, no. 1，命题1）；那么从一般拓扑，章IX, § 3, no. 1，推论1到命题4和引理1，$\hat{f}_0 = \hat{f}$是满射严格态射并且有核闭包$\hat{N}_0'$ *在* $X$ 中，核 $N_0'$ 中，$f_0$。那么我们只要证明$\hat{N}_0' = \hat{N}$就足够了。现在$N_0'$显然是包含$N_0 = j_X(N)$；足以证明$N_0'$包含在$N_0$*in*$X$的闭包$\overline{N}_0$中。现在，
 
 $$
 u = j_X^{-1}(X_0 - \overline{N}_0) = X - j_X^{-1}(\overline{N}_0)
@@ -968,7 +968,7 @@ $$
 $$
 *特别是$\hat{E}$是有限生成的$\hat{A}$模块。*
 
-The equation $A_n E = E_n$ implies, by virtue of the continuity of the external law on the $A$-module $8, \hat{A}_n \hat{E} \subset 8$, and obviously $\hat{A}_n \hat{E} \supset \hat{A}_n i(E)$. 到假设时，存在满同态$u : L \to E$，其中$L = A_s^I$、$I$是有限的集合；让$L$被给予乘积过滤，$L_n = A_n^I$的由……组成，其中定义在$L$乘积拓扑；然后是$\hat{L} = \hat{A}_s^I$和$\hat{L}_n = \hat{A}_n^I$（*一般拓扑*、章II, § 3, no. 9、推论2到命题18）。 设$j : L \to \hat{L}$为典范映射且$(e_i)_{i \in I}$典范基为$L$；对于元素$\sum_{i \in I} a_{ij}(e_i)$（其中$a_i \in \hat{A}$代表所有$i \in I$）到属于到$\hat{L}_n$，$a_i \in \hat{A}_n$对于所有$i$是必要且充分的；然后$\hat{L}_n = \hat{A}_n . j(L)$。 正是如此，通过定义$u(\hat{L}_n) = A_n E = E_n$，因此$u$是$L$到$E$的*严格态射*（*一般拓扑*，章III, § 2, no. 8，命题24）。 引理 2 然后表明$\hat{u} : \hat{L} \to \hat{E}$ 是一个*满射严格态射*。 由于$\hat{L}_n$是开子群关，$\hat{u}(\hat{L}_n)$是$\hat{E}$的开（因此闭）子群；但是$\hat{u}(\hat{L}_n) = \hat{A}_n \hat{u}(j(L)) = \hat{A}_n i(E)$，以及$i(E_n) \subset A_n i(E) \subset \hat{A}_n i(E)$，最后$\hat{E}_n \subset \hat{A}_n i(E) \subset \hat{A}_n \hat{E} \subset \hat{E}_n$，因此$\hat{E}_n = \hat{A}_n \hat{E} = \hat{A}_n i(E)$； 设定$n = 0$，我们得到(25)的第二个公式。
+由于$A$模$8, \hat{A}_n \hat{E} \subset 8$上的外部定律的连续性，方程$A_n E = E_n$意味着$\hat{A}_n \hat{E} \supset \hat{A}_n i(E)$。 到假设时，存在满同态$u : L \to E$，其中$L = A_s^I$、$I$是有限的集合；让$L$被给予乘积过滤，$L_n = A_n^I$的由……组成，其中定义在$L$乘积拓扑；然后是$\hat{L} = \hat{A}_s^I$和$\hat{L}_n = \hat{A}_n^I$（*一般拓扑*、章II, § 3, no. 9、推论2到命题18）。 设$j : L \to \hat{L}$为典范映射且$(e_i)_{i \in I}$典范基为$L$；对于元素$\sum_{i \in I} a_{ij}(e_i)$（其中$a_i \in \hat{A}$代表所有$i \in I$）到属于到$\hat{L}_n$，$a_i \in \hat{A}_n$对于所有$i$是必要且充分的；然后$\hat{L}_n = \hat{A}_n . j(L)$。 正是如此，通过定义$u(\hat{L}_n) = A_n E = E_n$，因此$u$是$L$到$E$的*严格态射*（*一般拓扑*，章III, § 2, no. 8，命题24）。 引理 2 然后表明$\hat{u} : \hat{L} \to \hat{E}$ 是一个*满射严格态射*。 由于$\hat{L}_n$是开子群关，$\hat{u}(\hat{L}_n)$是$\hat{E}$的开（因此闭）子群；但是$\hat{u}(\hat{L}_n) = \hat{A}_n \hat{u}(j(L)) = \hat{A}_n i(E)$，以及$i(E_n) \subset A_n i(E) \subset \hat{A}_n i(E)$，最后$\hat{E}_n \subset \hat{A}_n i(E) \subset \hat{A}_n \hat{E} \subset \hat{E}_n$，因此$\hat{E}_n = \hat{A}_n \hat{E} = \hat{A}_n i(E)$； 设定$n = 0$，我们得到(25)的第二个公式。
 
 #### 推论 1 {#ac-iii-s2-prop-16-cor-1 .statement tag=04EU}
 
@@ -986,47 +986,47 @@ The equation $A_n E = E_n$ implies, by virtue of the continuity of the external 
 $$
 (\hat{m})^n = m^n . \hat{A} = \hat{A}.A_n
 $$
-（cf.习题12）。
+(cf. 习题 12).
 
 过滤环的 Hausdorff 补全的例
 
-(1) 令$A$为型$\mathbf{N}$的分级环，令$(A_n)_{n \geq 0}$为其毕业；让它被给予相关的分离和详尽的过滤（no. 1，例1）。 加法群 $A$ 与 $B = \prod_{n \in \mathbf{N}} A_n$ 的子群被规范地标识；如果$B$给定离散拓扑的拓扑乘积，则在$A$上诱导的拓扑是由$A$上的过滤定义的拓扑；另外，$B$是完全拓扑群，$A$在$B$中是稠密的（一般拓扑、章III, §2, no. 9、命题25）。然后，加法拓扑群 $B$ 与 Hausdorff 加法群 $A$ 的完备性 $\hat{A}$ 进行识别，并且从命题 15 可以得出，它具有唯一的环结构，这使其成为拓扑环的完备性$A$。对于环、注中的定义乘法，如果我们写成$A'_n = \sum_{i > n} A_i$，则双边理想$A'_n$在$B$中的闭包是集合$B$，$x = (x_i) \in B$使得$x_i = 0$ 换$i \leq n$。然后令$x = (x_i), y = (y_i)$为$B$和$z = (z_i)$的两个元素和它们的乘积。然后，对于所有 $n > 0$、$x \equiv x'_n$ (mod. $B_n$)、$y \equiv y'_n$ (mod. $B_n$)，其中 $x'_n = (x_i)_{0 \leq i \leq n}$、$y'_n = (y_i)_{0 \leq i \leq n}$、从而 $z \equiv x'_n y'_n$ (mod. $B_n$)。但是$x'_n$和$y'_n$属于到$A$，因此可以看出，对于所有$n \in \mathbf{N}$，
+(1) 令$A$为型$\mathbf{N}$的分级环，令$(A_n)_{n \geq 0}$为其毕业；让它被给予相关的分离和详尽的过滤（no. 1，例1）。 加法群 $A$ 与 $B = \prod_{n \in \mathbf{N}} A_n$ 的子群被规范地标识；如果$B$给定离散拓扑的拓扑乘积，则在$A$上诱导的拓扑是由$A$上的过滤定义的拓扑；另外，$B$是完全拓扑群，$A$在$B$中是稠密的（一般拓扑、章III, §2, no. 9、命题25）。然后，加法拓扑群 $B$ 与 Hausdorff 加法群 $A$ 的完备性 $\hat{A}$ 进行识别，并且从命题 15 可以得出，它具有唯一的环结构，这使其成为拓扑环的完备性 $A$.对于环中的定义乘法，请注意，如果我们写成$A'_n = \sum_{i > n} A_i$，则双边理想$A'_n$在$B$中的闭包是$x = (x_i) \in B$的集合$B$，使得$x_i = 0$为 $i \leq n$.然后令$x = (x_i), y = (y_i)$为$B$和$z = (z_i)$的两个元素和它们的乘积。然后，对于所有 $n > 0$、$x \equiv x'_n$ (mod. $B_n$)、$y \equiv y'_n$ (mod. $B_n$)，其中 $x'_n = (x_i)_{0 \leq i \leq n}$、$y'_n = (y_i)_{0 \leq i \leq n}$、从而 $z \equiv x'_n y'_n$ (mod. $B_n$)。但是$x'_n$和$y'_n$属于到$A$，因此可以看出，对于所有$n \in \mathbf{N}$，
 
 $$
 z_n = \sum_{j=0}^n x_j y_{n-j}.
 $$
 
-特别是，我们再次获得no. 6的命题 6的推论：如果$C$是交换环，多项式环$C[X_1, \ldots, X_r]$的完成，以及与其通常毕业相关的过滤（总计次数）被规范地识别为正式的环幂级数$C[[X_1, \ldots, X_r]]$（cf.代数、章IV, §5, no. 10）。
+特别是，我们再次获得no. 6的推论到命题6：如果$C$是交换环，则多项式环$C[X_1, \ldots, X_r]$的完成，以及与其通常分级相关的过滤（总计次数）被规范地识别为环正式幂级数 $C[[X_1, \ldots, X_r]]$（cf. 代数、章 IV, §5, no. 10）。
 
 *(2) 设$K$为完整的交换域，并有估价。在$K$上的$r$变量中收敛级数的环被规范地等同于形式幂级数$K[[X_1, \ldots, X_r]]$的环。 \*
 
-(3) 令$a$为主理想整环的非零不可逆元素； $A$ 上的 (a)-adic 拓扑也称为 $a$-adic 拓扑；它是 Hausdorff，对于理想 $(a^n)$ 约化到 0（代数、章 VII, §1, no. 3）的交。 注相对于此拓扑完成$A$不一定是整环（cf.no. 13、注3）。相关的分级环 $\mathrm{gr}(A) = \mathrm{gr}(\hat{A})$ 与 $(A/a)[X]$ (no. 3, 例 1) 自然同构。如果$A = \mathbf{Z}$，$\mathbf{Z}$相对于n进数拓扑（$n > 1$）的补全用$\mathbf{Z}_n$表示，其元素称为$n$-adic整数。
+(3) 令$a$为主理想整环的非零不可逆元素； $A$ 上的 (a)-adic 拓扑也称为 $a$-adic 拓扑；它是 Hausdorff，对于理想 $(a^n)$ 约化到 0（代数、章 VII, §1, no. 3）的交。注意，$A$相对于这个拓扑的补全不一定是整环（cf.no. 13，注3）。相关的分级环 $\mathrm{gr}(A) = \mathrm{gr}(\hat{A})$ 与 $(A/a)[X]$ (no. 3, 例 1) 自然同构。如果$A = \mathbf{Z}$，$\mathbf{Z}$相对于n进数拓扑（$n > 1$）的补全用$\mathbf{Z}_n$表示，其元素称为$n$-adic整数。
 
 $\mathbf{Z}/n^k \mathbf{Z}$的每个元素都承认形式$\sum_{i=0}^{k-1} a_i n^i$的唯一代表，其中$0 \leq a_i \leq n - 1$代表所有$i$；而且，$\mathbf{Z}/n^{k-1} \mathbf{Z}$中的典范像是$\sum_{i=0}^{k-2} a_i n^i$的类。这些注以及 $Z$ 与逆极限 $\lim_{\leftarrow} \mathbf{Z}/n^k \mathbf{Z}$ 的规范标识立即表明，$Z$ 中的每个元素都可以唯一地写在形式 $\sum_{i=0}^{\infty} a_i n^i$ 其中 $0 \leq a_i < n$ 中，反之亦然级数收敛于$\mathbf{Z}$。
 
-### 13. 半局部环的 HAUSDOFF 完成
+### 13. 半局部环的hausdorff完成
 
 #### 命题 17 {#ac-iii-s2-prop-17 .statement tag=04EW}
 
-令$A$为交换环和$(m_{\lambda})_{\lambda \in L}$一组$A$的理想，与$A$不同，使得$m_{\lambda}$和$m_{\mu}$对于$\lambda \neq \mu$互质。对于整数$\geq 0$、有限支撑、集合$a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$的每个家庭$s = (s(\lambda))_{\lambda \in L}$（等于$\lambda$的$m_{\lambda}^{s(\lambda)}$的乘积，使得$s(\lambda) \neq 0$；cf. 章 11、§ 1, no. 2、命题 3 和 5)； $a_s$形式邻域的基本系统为0，相对于拓扑$\mathscr{T}$与$A$上的环结构兼容；令 $\hat{A}$ 为 $A$ 相对于此拓扑的 Hausdorff 完成。另一方面，对于所有$\lambda \in L$，令$A_{\lambda}$为环$A$，并带有$m_{\lambda}$进数拓扑，并令$\hat{A}_{\lambda}$为其豪斯多夫完成。如果 $u : A \to \prod_{\lambda \in L} A_{\lambda}$ 表示对角线同态，则 $u$ 是连续的且相应的同态 $\hat{u} :$
+令$A$为交换环和$(m_{\lambda})_{\lambda \in L}$一组$A$的理想，与$A$不同，使得$m_{\lambda}$和$m_{\mu}$对于$\lambda \neq \mu$互质。对于整数$\geq 0$、有限支撑、集合$a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$的每个家庭$s = (s(\lambda))_{\lambda \in L}$（等于$\lambda$的$m_{\lambda}^{s(\lambda)}$的乘积，使得$s(\lambda) \neq 0$；cf. 章 11、§ 1, no. 2、命题 3 和 5)； $a_s$形式相对于拓扑$\mathscr{T}$与$A$上的环结构兼容，邻域的基本系统为0；令 $\hat{A}$ 为 $A$ 相对于此拓扑的 Hausdorff 完成。另一方面，对于所有$\lambda \in L$，令$A_{\lambda}$为环$A$，并带有$m_{\lambda}$进数拓扑，并令$\hat{A}_{\lambda}$为其Hausdorff补全。如果 $u : A \to \prod_{\lambda \in L} A_{\lambda}$ 表示对角线同态，则 $u$ 是连续的且相应的同态 $\hat{u} :$
 
 $$
 \hat{A} \to \left( \prod_{\lambda \in L} A_{\lambda} \right)^{\hat{}} = \prod_{\lambda \in L} \hat{A}_{\lambda}
 $$
 
-（一般拓扑、章III, § 6, no. 5和章II, § 3, no. 9，推论2至命题18）是拓扑环同构。
+（一般拓扑、章III, § 6, no. 5和章II, § 3, no. 9、推论2到命题18）是拓扑环同构。
 
 第一个断言源自一般拓扑、章III, § 6, no. 3、例3。让我们集合$B = \prod_{\lambda \in L} A_{\lambda}$；由于$A$上的拓扑比每个$m_{\lambda}$进拓扑中的更细，映射$\mathrm{pr}_{\lambda} \circ u$是连续的，因此$u$是连续的。另外，$u(a_s)$是$B$的对角线$A$和$B$的开集合$\bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$的交；由此可见，$u$是从加法群$A$到$B$以及像$A$的严格态射。现在$\Delta$在$B$中是稠密的。令$b = (a_{\lambda})_{\lambda \in L}$为$B$的元素； $B$ 包含集合（共形式 $b + V$）中的每个$b$邻域，其中$V = \bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$为家庭$s = (s(\lambda))_{\lambda \in L}$，有限支撑为整数 $\geq 0$。由于$m_{\lambda}^{s(\lambda)}$在对（章II, § 1, no. 2，命题3）中互质，因此存在$x \in A$使得$x \equiv a_{\lambda} \pmod{m_{\lambda}^{s(\lambda)}}$对于所有$\lambda$（前述，命题5），因此$(b + V) \cap A \neq \varnothing$。 群 $B/\Delta$ 的 Hausdorff 完成度为 $\{0\}$； 应用引理 2 of no. 12到正合序列$0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$，我们看到$\hat{u}$是$\hat{A}$的同构到$\hat{B}$。
 
-#### 推论{#ac-iii-s2-n13-cor-1 .statement tag=04EX}
+#### 推论 {#ac-iii-s2-n13-cor-1 .statement tag=04EX}
 
 令$A$为主理想整环，$P$为$A$的极值元素的代表系统（代数，章VII, § 1, no. 3）。 $A$上的拓扑相对于$\mathbf{A}$形式的理想$\neq 0$，邻域的基本系统为0，与$\mathbf{A}$上的环结构兼容，是Hausdorff，并且$\mathbf{A}$的完备性为对于$x$进拓扑，这个拓扑与$\mathbf{A}$补全的乘积规范同构，其中$x$贯穿$P$。
 
 主要理想 $(x)$ 其中 $\pi \in P$ 是最大且不同的，因此相对素数，我们已经看到 (no. 12, 例 3) $x$-adic 拓扑是 Hausdorff，因此拓扑在命题 17 的叙述中定义，即更细比每个 $x$-adic 拓扑。
 
-如果在$\mathbf{A} = \mathbf{Z}$时应用命题 17的推论，我们用$\hat{\mathbf{Z}}$表示$\mathbf{Z}$相对于拓扑的完成，其中$\mathbf{Z}$形式的所有理想$\neq 0$是邻域的基本系统 0，环同构于$p$进数整数环乘积$\prod_{p \in P} \mathbf{Z}_p$（P为素数数的集合）。
+如果在$\mathbf{A} = \mathbf{Z}$时应用命题17的推论，我们用$\hat{\mathbf{Z}}$表示$\mathbf{Z}$相对于拓扑的完成，对于该拓扑，$\mathbf{Z}$的所有理想$\neq 0$形成0邻域的基本系统，环同构于$p$-adic环的乘积$\prod_{p \in P} \mathbf{Z}_p$整数（P 是质数集合）。
 
-Remarks
+注
 
 (1) 显然，在命题 17 的条件下，拓扑 $\mathscr{T}$ 是$\mathbf{A}$ 上$m_\lambda$-adic 拓扑中最小的上界。
 
@@ -1034,26 +1034,26 @@ Remarks
 
 #### 命题 18 {#ac-iii-s2-prop-18 .statement tag=04EY}
 
-令 $\mathbf{A}$ 为交换环，$(m_i)_{1 \leq i \leq q}$ $\mathbf{A}$、t 乘积理想$m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$ 和$S$ 乘法子集 $\bigcap_{i=1}^q (\mathbf{A} - m_i)$ 的有限族。让 $\mathbf{A}$ 被赋予 $r$-adic 拓扑，环 $B = S^{-1} \mathbf{A}$ $rB$-adic 拓扑以及每个局部环 $A_n$ $(m_i A_{m_i})$-adic 拓扑。设$u : \mathbf{A} \to B$、$v_i : B \to A_{m_i}$为典范同态（章II, §2, no.1，推论2到命题2）和$v$同态$(v_i) : B \to \prod_{i=1}^q A_n$。 同态 $u$ 和 $v$ 是连续的，相应的同态 $\hat{u} : \hat{\mathbf{A}} \to$ 和 $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ 是拓扑环同构。
+令 $\mathbf{A}$ 为交换环，$(m_i)_{1 \leq i \leq q}$ $\mathbf{A}$、t 乘积理想$m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$ 和$S$ 乘法子集 $\bigcap_{i=1}^q (\mathbf{A} - m_i)$ 的有限族。让 $\mathbf{A}$ 被赋予 $r$-adic 拓扑，环 $B = S^{-1} \mathbf{A}$ $rB$-adic 拓扑以及每个局部环 $A_n$ $(m_i A_{m_i})$-adic 拓扑。令$u : \mathbf{A} \to B$、$v_i : B \to A_{m_i}$为典范同态（章II, §2, no.1、推论2至命题2）和$v$同态$(v_i) : B \to \prod_{i=1}^q A_n$。 同态 $u$ 和 $v$ 是连续的，相应的同态 $\hat{u} : \hat{\mathbf{A}} \to$ 和 $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ 是拓扑环同构。
 
 $m_i \cap S = \varnothing$ 对于 $1 \leq i \leq q$，因此 $B$ 的理想 $m'_i = m_i B$ 是最大的（章 II, §2, no. 5，命题 11）并且
 $$
 rB = m'_1 \cap m'_2 \cap \cdots \cap m'_q
 $$
 
-（章II, § 2, no. 4）；最后，$B_{m'_i} = A_i$，直至典范同构（章 11、§ 2, no. 5、命题 11）。由于$\bar{u}^1(rB) = r$和$\bar{v}_i^1(m_iA_{m_i}) \supset rB$，$u$和$v$是连续的。那么就足以证明，
+（章II, § 2, no. 4）；最后，$B_{m'_i} = A_i$，直到典范同构（章 11、§ 2, no. 5、命题 11）。由于$\bar{u}^1(rB) = r$和$\bar{v}_i^1(m_iA_{m_i}) \supset rB$，$u$和$v$是连续的。那么就足以证明，
 
 $$
 w = v \circ u : A \to \prod_{i=1}^4 A_{m_i},
 $$
 
-$\hat{w}$ 是 $\hat{A}$ 的同构到 $\prod_{i=1}^q \hat{A}_{m_i}$，因为将此结果应用于$B$，$m'_i$ 将显示$\hat{v}$ 是同构，因此也是 $\hat{u}$。 注 $m_i$ 包含幂 $c$ 中的幂的每一个乘积，因此$r$-adic 拓扑是 $m_i$-adic 中最小的上界拓扑结构；此外，如果$A_i$用$m_i$-adic拓扑和$\phi : A \to \prod_{i=1}^q A$表示环$A$，则映射、$\hat{\phi} : \hat{A} \to \prod_{i=1}^4 \hat{A}_i$的对角线为同构（命题17）。那么，如果$u_i : A_i \to A_{m_i}$是典范映射，那么$\hat{u}_i : \hat{A}_i \to \hat{A}_{m_i}$就是同构，那么这一切就等于证明。现在，对于所有$n$，映射
+$\hat{w}$ 是 $\hat{A}$ 的同构到 $\prod_{i=1}^q \hat{A}_{m_i}$，因为将此结果应用于$B$，$m'_i$ 将显示$\hat{v}$ 是同构，因此也是 $\hat{u}$。请注意，$c$的$m_i$包含幂的幂的每个乘积，因此$r$-adic拓扑是$m_i$-adic拓扑中最小的上界；此外，如果$A_i$用$m_i$进数拓扑和$\phi : A \to \prod_{i=1}^q A$表示环$A$，则映射、$\hat{\phi} : \hat{A} \to \prod_{i=1}^4 \hat{A}_i$的对角线为同构（命题17）。那么，如果$u_i : A_i \to A_{m_i}$是典范映射，那么$\hat{u}_i : \hat{A}_i \to \hat{A}_{m_i}$就是同构，那么这一切就等于证明。现在，对于所有$n$，映射
 
 $$
 u_{i,n} : A/m_i^n \to A_{m_i}/m_i^n A_{m_i}
 $$
 
-由 $u_i$ 取商得出同构 (章 II, §3, no. 3, 命题 9)；我们的断言源自以下事实：$\hat{A}_i$（分别为 $\hat{A}_{m_i}$）是离散环 $A/m_i^n$（分别为 $A_{m_i}/m_i^n A_{m_i}$）（cf. no. 6）的逆极限。
+由$u_i$取商得出同构（章II, §3, no. 3，命题9）；我们的断言源自以下事实：$\hat{A}_i$（分别为 $\hat{A}_{m_i}$）是离散环 $A/m_i^n$（分别为 $A_{m_i}/m_i^n A_{m_i}$）（cf. no. 6）的逆极限。
 
 注 (3)。我们看到整环$A$可以使得它的Hausdorff完成$\hat{A}$承认零的非零除数。
 
@@ -1067,15 +1067,15 @@ $$
 
 设$A$是一个完整的Hausdorf拓扑环，其中存在$A$的0由……组成的加法子群的邻域的基系统$\mathscr{G}$。
 (i) 对于所有$x \in A$，使得$\lim_{n \to m} x^n = 0$、$1 - x$在$A$中可逆，并且其逆等于$\sum_{n=0}^\infty x^n$。
-(ii) 设$a$为$A$的双面理想，使得$\lim_{n \to \infty} x^n = 0$对于所有$x \in a$。为了使 $\mathbf{A}$ 的元素 y 可逆，其类 mod 是充分必要的。 a 在 $\mathbf{A}/a$ 中可逆；特别是a包含在$\mathbf{A}$的雅各布森根中。
+(ii) 设$a$为$A$的双面理想，使得$\lim_{n \to \infty} x^n = 0$对于所有$x \in a$。为了使 $\mathbf{A}$ 的元素 y 可逆，其类 mod 是充分必要的。 a 在 $\mathbf{A}/a$ 中可逆；特别是 a 包含在 $\mathbf{A}$ 的 Jacobson 根基中。
 
-(一) 作为
+(i) As
 
 $$
 (1 - x)(1 + x + \cdots + x^n) = (1 + x + \cdots + x^n)(1 - x) = 1 - x^{n+1},
 $$
 
-证明级数与一般项 $x^n$ 收敛于 $\mathbf{A}$；现在，到假设，对于$\mathbf{A}$中0的每个邻域$V \in \mathfrak{S}$，存在整数$p > 0$，这样对于所有$n \geq p$都有$x^n \in V$。我们结论
+证明级数与一般项 $x^n$ 收敛于 $\mathbf{A}$；现在，到假设，对于$\mathbf{A}$中0的每个邻域$V \in \mathfrak{S}$，存在整数$p > 0$，这样对于所有$n \geq p$都有$x^n \in V$。 We 结论 that
 
 $$
 x^p + x^{p+1} + \ldots + x^q \in V
@@ -1083,22 +1083,22 @@ $$
 
 对于所有$q \geq p$和我们的断言则遵循柯西准则（*一般拓扑*，章III, § 5, no. 2，定理1）。
 
-(ii) 假设存在$y' \in \mathbf{A}$使得$yy' \equiv 1$(mod.a)和$y'y \equiv 1$(mod.a)。 a 上的假设通过(i)暗示$yy'$和$y'y$在$\mathbf{A}$中可逆，因此$y$在$\mathbf{A}$中可逆。特别是，每个$x \in a$使得$1 - x$在$\mathbf{A}$中可逆，并且由于a是$\mathbf{A}$的双面理想，因此它包含在$\mathbf{A}$的Jacobson根式中（*代数*，章VIII, § 6, no. 3， 定理1)。
+(ii) 假设存在$y' \in \mathbf{A}$使得$yy' \equiv 1$(mod.a)和$y'y \equiv 1$(mod.a)。 a 上的假设通过(i)暗示$yy'$和$y'y$在$\mathbf{A}$中可逆，因此$y$在$\mathbf{A}$中可逆。特别地，每个$x \in a$使得$1 - x$在$\mathbf{A}$中可逆，并且由于a是$\mathbf{A}$的双面理想，因此它包含在$\mathbf{A}$的雅各布森根基中（*代数*，章VIII, § 6, no. 3， 定理 1).
 
 建立了这个引理后，就足以将其应用于拓扑环$\hat{\mathbf{A}}$和理想$\hat{\mathfrak{m}}$，因为对于所有$x \in \hat{\mathfrak{m}}$，$x^n \in (\hat{\mathfrak{m}})^n \subset (\mathfrak{m}^n)^{\wedge}$和序列$(x^n)$因此趋于0。
 
-如果我们取$\mathbf{A} = \mathbf{Z}$，$\mathbf{Z}$的每个最大理想都是形式$p\mathbf{Z}$，其中$p$是素数。 $p$-adic 数 $\mathbf{Z}_p$的环则为局部环，其中$p\mathbf{Z}_p$是最大理想（推论2到命题16），并且其剩余类域同构于$\mathbf{Z}/p\mathbf{Z} = \mathbf{F}_p$，并且$\mathbf{Z}_{(p)}$ 与$p\mathbf{Z}_{(p)}$-adic 拓扑被识别为$\mathbf{Z}$、包含于 $\mathbf{Z}$ 的拓扑子环。
+如果我们取$\mathbf{A} = \mathbf{Z}$，$\mathbf{Z}$的每个最大理想都是形式$p\mathbf{Z}$，其中$p$是素数。 $p$-adic 数 $\mathbf{Z}_p$ 的环则为局部环，其中 $p\mathbf{Z}_p$ 是最大理想（推论 2 到命题 16），其剩余类域同构于$\mathbf{Z}/p\mathbf{Z} = \mathbf{F}_p$和$\mathbf{Z}_{(p)}$以及$p\mathbf{Z}_{(p)}$-adic 拓扑被识别为$\mathbf{Z}$、包含于$\mathbf{Z}$的拓扑子环。
 
-#### 推论{#ac-iii-s2-n13-cor-2 .statement tag=04F1}
+#### 推论 {#ac-iii-s2-n13-cor-2 .statement tag=04F1}
 
-令 $\mathbf{A}$ 为半局部环 (章 II, § 3, no. 5)，$m_i$ 其独特的最大理想 $(1 \leq i \leq q)$ 和
+令 $\mathbf{A}$ 为半局部环 (章 II, § 3, no. 5)，$m_i$ 其独特的极大理想 $(1 \leq i \leq q)$ 和
 
 $$
 r = m_1 \cap m_2 \cap \cdots \cap m_q
 $$
 
-这是雅各布森激进的。 $\mathbf{A}$ 相对于 r-adic 拓扑的 Hausdorff 补全 $\hat{\mathbf{A}}$ 是一个半局部环，与乘积 $\prod_{i=1}^q \hat{\mathbf{A}}_{m_i}$ 自然同构，其中 $\hat{\mathbf{A}}_{m_i}$ 是局部环 $\mathbf{A}_{m_i}$ 的 Hausdorff 补全环相对于$(m_i \mathbf{A}_{m_i})$-adic 拓扑。
+its Jacobson 根基. $\mathbf{A}$ 相对于 r-adic 拓扑的 Hausdorff 补全 $\hat{\mathbf{A}}$ 是一个半局部环，与乘积 $\prod_{i=1}^q \hat{\mathbf{A}}_{m_i}$ 自然同构，其中 $\hat{\mathbf{A}}_{m_i}$ 是局部环 $\mathbf{A}_{m_i}$ 的 Hausdorff 补全环到 $(m_i \mathbf{A}_{m_i})$-adic 拓扑。
 
-### 习题{#ac-iii-s2-exercises}
+### 习题 {#ac-iii-s2-exercises}
 
-参见[习题为 § 2](exercises/s2/)。
+See the [习题为 § 2](exercises/s2/).

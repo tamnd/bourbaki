@@ -33,16 +33,16 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: 25ca4228e9190435f83e15a3098eeec53b98d097f477b51c0f42302453bcc317
+content_sha256: 6d2d94870a0fecf6c6ab4598fc598becb6e3d88c9e9e06f0cf2449c84ecefd0b
 translated_from: content/en/lie/VIII/01_s1_the_lie_algebra_sl_2_k_and_its.md
 translation_method: google
 source_content_sha256: d56ad334c8b961365f3d72d7c521802edd95553bc6c867158ffa18290345692f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7730eff5470fca5f9e58afb5e51b0372e5aaec572aa40387ee9f7593c4586e37
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 李代数 $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) 及其表示
@@ -131,9 +131,9 @@ $$
 
 令 E 为 $\mathfrak{s}\mathfrak{l}(2, k)$ 模。如果E的元素是$H_E$和属于到$X_{+E}$的核的非零特征向量，则称它是本原的。
 
-E 的非零元素 $e$ 是原语当且仅当 $ke$ 在运算的 $kH+kX_+$ 下稳定；这是从引理 3 开始的例。
+E 的非零元素 $e$ 是原语当且仅当 $ke$ 在运算的 $kH+kX_+$ 下稳定；例如，这来自引理 3。
 
-例元素 $X_+$ 是$\mathfrak{s}\mathfrak{l}(2, k)$ 的伴随表示的权 2 的原语。对于$k^2$上$\mathfrak{s}\mathfrak{l}(2, k)$的恒等式表示，$k^2$的元素$(1,0)$是权1的原语。
+例元素 $X_+$ 是权 2 的原语，对于$\mathfrak{s}\mathfrak{l}(2, k)$ 的伴随表示。对于$k^2$上$\mathfrak{s}\mathfrak{l}(2, k)$的恒等式表示，$k^2$的元素$(1,0)$是权1的原语。
 
 #### 引理 4 {#lie-viii-s1-lem-4 .statement tag=00XW}
 
@@ -181,13 +181,13 @@ $$
 =n(\lambda -n+ 1)e_{n-1}
 $$
 
-#### 推论{#lie-viii-s1-n2-cor-1 .statement tag=00XY}
+#### 推论 {#lie-viii-s1-n2-cor-1 .statement tag=00XY}
 
 $e$生成的E的子模是$e_n$生成的向量子空间。
 
 这是从公式 (2) 得出的。
 
-整数$n\geq 0$，使得$e_n\not= 0$构成$\mathbf{N}$中的一个区间，并且$e$生成的子模的$k$上有相应的元素$e_n$形式基 （事实上，它们是线性独立的，因为它们是不同的权的非零元素）。这个基将被认为与原语元素$e$相关联。
+整数$n\geq 0$使得$e_n\not= 0$在$\mathbf{N}$中构成区间，并且相应的元素$e_n$形式基超过$k$生成子模 $e$（事实上，它们是线性独立的，因为它们是不同的权的非零元素）。这个基将被认为与原语元素$e$相关联。
 
 #### 命题 2 {#lie-viii-s1-prop-2 .statement tag=00XZ}
 
@@ -201,9 +201,9 @@ $e$生成的E的子模是$e_n$生成的向量子空间。
 
 (iv) V 的每个原语元素都与 $e$ 成比例；
 
-(v) 模 V 的交换子被约化为标量；特别是V绝对简单。
+(v) 模 V 的交换子减少为标量；特别是V绝对简单。
 
-令$m$为最大的整数，使得$e_m\not= 0$。然后$0 =X_+e_{m+1}=$$(\lambda -m)e_m$，所以$\lambda =m$；由于$(e_0, e_1, . . . , e_m)$是V的基，这证明了(i)和(ii)。 断言 (iii) 源自等式 $He_n= (\lambda -2n)e_n$。我们有 $X_+e_n\not= 0$ 对应 $1\leq n\leq m$，因此 (iv)。设$c$为模V的交换子元素。那么$Hc(e) =cH(e) =\lambda c(e)$，所以存在$\mu\in k$使得$c(e) =\mu e$；然后
+令$m$为最大的整数，使得$e_m\not= 0$。然后$0 =X_+e_{m+1}=$$(\lambda -m)e_m$，所以$\lambda =m$；由于$(e_0, e_1, . . . , e_m)$是V的基，这证明了(i)和(ii)。 断言 (iii) 源自等式 $He_n= (\lambda -2n)e_n$。我们有 $X_+e_n\not= 0$ 对应 $1\leq n\leq m$，因此 (iv)。设$c$为模V交换子元素。那么$Hc(e) =cH(e) =\lambda c(e)$，所以存在$\mu\in k$使得$c(e) =\mu e$；然后
 
 $$
 cX_-^qe=X_-^qce=\mu X_-^qe
@@ -211,7 +211,7 @@ $$
 
 对于所有 $q\geq 0$，因此 $c=\mu.1$，证明 (v)。
 
-#### 推论{#lie-viii-s1-n2-cor-2 .statement tag=00Y0}
+#### 推论 {#lie-viii-s1-n2-cor-2 .statement tag=00Y0}
 
 令 E 为有限维 $\mathfrak{s}\mathfrak{l}(2, k)$ 模。
 
@@ -219,7 +219,7 @@ $$
 
 (ii) 对于任何$p\in \mathbf{Z}$，令$E_p$为$H_E$相应的到特征值$p$的特征空间。令$i$为整数$\geq 0$。 映射 $X_{-E}^i|E_p: E_p\rightarrow E_{p-2i}$ 是 $i\leq p$ 的单射，$i=p$ 的双射，$i\geq p$ 的满射。 映射 $X_{+E}^i|E_{-p}: E_{-p}\rightarrow E_{-p+2i}$ 是 $i\leq p$ 的单射，$i=p$ 的双射，$i\geq p$ 的满射。
 
-(iii) E 的长度等于dim Ker$X_{+E}$和dim Ker$X_{-E}$。
+(iii) E 的长度等于dim Ker$X_{+E}$ 和dim Ker$X_{-E}$。
 
 (iv) 对于$p$偶数（或奇数），令$E'$（或$E''$）为$E_p$的和。则$E'$（或$E''$）为奇数（或偶数）维数 E 简单子模和；和$E = E'\oplus E''$。 $E'$的长度暗淡$E_0$，$E''$的暗淡$E_1$。
 
@@ -239,7 +239,7 @@ $$
 X_+v=uHv=-vX_-v= 0
 $$
 
-考虑 $k^2($代数的对称代数 $\mathbf{S}(k^2)$，第 1 章。 III, §6, no. 1，防御。 1）。 $\mathfrak{s}\mathfrak{l}(2, k)$ 扩展的元素与 $\mathbf{S}(k^2)$ 的推导唯一，给出 $\mathfrak{s}\mathfrak{l}(2, k$) 模块的 $\mathbf{S}(k^2)$ 结构（第 I, §3, no. 2 章）。 Let $V(m)$ be the set of homogeneous elements of $\mathbf{S}(k^2)$ of degree $m$. 那么$V(m)$是维数$m+ 1$的$\mathbf{S}(k^2)$的$\mathfrak{s}\mathfrak{l}(2, k$)子模，$V(1) =k^2$的第$m$对称幂（第III，附录）。 如果 $m, n$ 是整数使得 $0\leq n\leq m$，则将
+考虑 $k^2($代数的对称代数 $\mathbf{S}(k^2)$，第 1 章。 III, §6, no. 1，防御。 1）。 $\mathfrak{s}\mathfrak{l}(2, k)$ 扩展的元素与 $\mathbf{S}(k^2)$ 的推导唯一，给出 $\mathfrak{s}\mathfrak{l}(2, k$) 模块的 $\mathbf{S}(k^2)$ 结构（第 I, §3, no. 2 章）。 令$V(m)$为$\mathbf{S}(k^2)$度$m$的齐次元素集合。 那么$V(m)$是维数$m+ 1$的$\mathbf{S}(k^2)$的$\mathfrak{s}\mathfrak{l}(2, k$)子模，$V(1) =k^2$的第$m$对称幂（第III，附录）。 如果 $m, n$ 是整数使得 $0\leq n\leq m$，则将
 
 $$
 e^{(m)}_n=(m)u^{m-n}v^n\in V(m)
@@ -309,13 +309,13 @@ $$
 
 #### 推论{#lie-viii-s1-n3-cor-1 .statement tag=00Y7}
 
-型 $V(m)$ 的 E 的同型成分有长度
+型$V(m)$的E的同型分量有长度
 
 昏暗(P$_m\cup  \{0\}$.
 
 ### 4. 线性表示特殊线性群(2$\boldsymbol{, k}$)
 
-回想一下（代数，III, §8, no. 9），我们用阶 2 的方阵的 $\mathbf{S}\mathbf{L}(2, k)$ 群表示，$k$ 中的系数其行列式等于 1。如果 $x\in \mathfrak{s}\mathfrak{l}(2, k)$ 幂零的，则$x^2= 0 ($代数，第 1 章VII, §5，科。提案 5 中的 3) 和 $e^x= 1 +x\in \mathbf{S}\mathbf{L}(2, k)$。如果 E 是有限维向量空间并且 $\rho$ 是 E 上 $\mathfrak{s}\mathfrak{l}(2, k)$ 的线性表示，则 $\rho (x)$ 幂零的，因此定义 $e^{\rho(x)}$（第 I, §6, no. 3 章）。
+回想一下（代数，III, §8, no. 9），我们用阶 2 的方阵的$\mathbf{S}\mathbf{L}(2, k)$ 群和$k$ 中的系数表示，其中行列式等于1。如果$x\in \mathfrak{s}\mathfrak{l}(2, k)$ 幂零的，然后$x^2= 0 ($代数，章。 VII, §5，科。提案 5 中的 3) 和 $e^x= 1 +x\in \mathbf{S}\mathbf{L}(2, k)$。如果 E 是有限维向量空间并且 $\rho$ 是 E 上 $\mathfrak{s}\mathfrak{l}(2, k)$ 的线性表示，则 $\rho (x)$ 幂零的，因此定义 $e^{\rho(x)}$（第 I, §6, no. 3 章）。
 
 #### 定义 2 {#lie-viii-s1-def-2 .statement tag=00Y8}
 
@@ -399,7 +399,7 @@ $(1t)(($ 1 $0)((1t)$
 
 = 0 1 $-t^{-1}$ 1 0 1
 
-$($0吨)
+$($0吨）
 
 =$-t^{-1}$0
 
@@ -453,7 +453,7 @@ $$
 
 如果$E = V(n)$，则从公式 (4) 和 (6) 得出命题。一般情况来自 Th。 1.
 
-#### 推论{#lie-viii-s1-n5-cor-1 .statement tag=00YD}
+#### 推论 {#lie-viii-s1-n5-cor-1 .statement tag=00YD}
 
 令 $E = E'\oplus E''$ 为 Cor 中定义的 E 的分解。提案 2. $\mathbf{S}\mathbf{L}(2, k)$ 的元素 $(-10)$ 在 $E'$ 上按 +1 运算
 

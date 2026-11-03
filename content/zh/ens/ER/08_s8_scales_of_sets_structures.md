@@ -13,23 +13,23 @@ pdf_pages: 0388-0390
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a30131ceb2256b02a867dd4d2d0de214761bc748cb3d1a09fa82914f007c5caa
+content_sha256: 1dd1f97844784d4ba467f9cbe66df3dea108aa96298dd707e5af99f4fe327cc5
 translated_from: content/en/ens/ER/08_s8_scales_of_sets_structures.md
 translation_method: google
 source_content_sha256: 1729e7f56fb13a5cfb4b19ed30304bcfc4d735d7f99cdf7c9579aa41117e6f82
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: df21e6b836f0466e28732c7b36df2d340248e921d98cfdee1547d0980cd1ddd7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 8. 集合的音阶。 结构
 
-1. 给定，对于例，三个*不同的* 集合 E、F、G，我们可以通过取子集的集合，或通过单独形成其中一个的乘积，或再次通过在某个特定条件下形成其中两个的乘积，从它们中得到形式其他集合。 序。这样我们就得到*十二*新的集合。如果我们将这些添加到三个原始集合 E，F，G，我们可以在这十五个集合上重复相同的运算，省略那些给我们已经获得的集合；等等。一般来说，通过此过程获得的任何一个集合（根据显式概形）被称为属于到E、F、G上集合*的*规模*为基*。
+1. 例如，给定三个*不同* 集合 E、F、G，我们可以通过取子集的集合，或者通过单独形成其中一个的乘积，或者再次通过在某个序中取其中两个乘积，来从它们中获得形式其他集合。这样我们就得到*十二*新的集合。如果我们将这些添加到三个原始集合 E，F，G，我们可以在这十五个集合上重复相同的运算，省略那些给我们已经获得的集合；等等。一般来说，通过此过程获得的集合中的任何一个（根据显式概形）被称为属于到E、F、G上集合*的*规模*为基*。
 
-对于例，令M、N、P为该尺度的三个集合，并令$R\{x,y,z\}$分别为M、N、P的泛型元素$x$、$y$、$z$之间的*关系*。 那么$M \times N \times P$的R定义子集，因此（通过规范的对应）$(M \times N) \times P$的子集，即$\mathfrak{P}((M \times N) \times P)$的元素。 因此，在同一标度中给出多个集合的元素之间的 *关系* 与在标度中给出另一个集合的 *元素* 相同。 Likewise, to give a mapping of M into N, for example, amounts (by considering the graph of this mapping) to giving a subset of $M \times N$, i.e., an element of $\mathfrak{P}(M \times N)$, which is again a set in the scale. 最后，给出 M 中的两个元素（对于例）相当于给出乘积集合 $M \times M$ 中的单个元素。
+例如，令 M、N、P 为该尺度的三个集合，并令 $R\{x,y,z\}$ 分别为 M、N、P 的泛型元素 $x$、$y$、$z$ 之间的 *关系*。那么$M \times N \times P$的R定义子集，因此（通过规范的对应）$(M \times N) \times P$的子集，即$\mathfrak{P}((M \times N) \times P)$的元素。因此，在同一标度中给出多个集合的元素之间的 *关系* 与在标度中给出另一个集合的 *元素* 相同。同样，例如，要将 M 的映射放入 N 中，（通过考虑此映射的图形），相当于将 $M \times N$ 的子集赋予，即 $\mathfrak{P}(M \times N)$ 的元素，这在标度中又是集合。最后，给出 M 中的两个元素（例如）相当于给出乘积集合 $M \times M$ 中的单个元素。
 
 因此，在一个比例中被赋予一定的集合的元素的数，这些集合的通用元素之间的关系，以及这些集合中的某些子集的映射进入其他，所有这些都在最终的数学分析中被赋予了一个*量表中集合之一的单个元素*。
 
@@ -37,7 +37,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 $$C \cap C^{-1} = \Delta.$$
 
-一般来说，以集合的规模考虑集合 M，为了例，其基由三个集合 E、F、G组成。让我们给自己一个数，它是M的泛型元素的明确陈述的属性，并令T为交 M 的子集由这些属性定义。 T 的元素 $\sigma$ 被认为是 E、F、G 上 *类* T 的定义 *结构*。因此，类 T 的结构的特征在于从 E、F、G 形成 M 的概形以及定义 T 的属性，这些属性称为这些结构的*公理*。我们为相同类的所有结构指定一个特定的名称。每个命题，即命题“$\sigma \in T$”（即定义T的公理）的推论，都被称为属于到类T的结构的*理论*；对于例，§ 6属于中所述的命题相对于有序集的结构理论。
+一般来说，考虑集合范围内的集合 M，其基为了例而由三个集合 E、F、G 组成。 让我们给自己一个 M 的泛型元素的明确规定属性的某个数，并让 T 为由这些属性定义的 M 的子集的交。 T 的元素 $\sigma$ 被称为 E、F、G 上 *类* T 的定义 a *结构*。 因此，类 T 的结构的特征在于由 E、F、G 形成 M 的概形，以及定义 T 的属性，这些属性被称为这些结构的*公理*。 我们为相同类的所有结构指定一个特定的名称。 作为命题“$\sigma \in T$”（即定义 T 的公理）的结果的每个命题都被认为属于物种 T 的结构的“理论”；例如，§ 6中陈述的命题属于有序集合结构理论。
 
 在最后的例，公理可以表示为完全任意的基集合E。因此，我们给结构和满足这些公理赋予相同的名称，独立于定义它们的集合；从这些公理推导出来的命题在任何集合中都是有效的，因为它们的公式不涉及集合E的任何特殊性质。只要公理具有这种性质[^1]，这样的注就适用。
 
@@ -45,7 +45,7 @@ $$C \cap C^{-1} = \Delta.$$
 
 最后，为了简化语言，通常给集合赋予一个特定的名称，它被赋予了确定的类的结构。因此，我们说的是*有序的集合*，在这个级数的稍后部分中，我们将定义概念*群，环，域，拓扑空间，均匀空间*等，所有这些都是字表示集合具有一定的结构。
 
-3. 考虑相同类 T 的结构，其中 T 是集合 M 的子集，规模为集合。 如果我们将新的“公理”与定义 T 的公理相连接，则公理的系统由此获得包含在 T 中的 M 的定义子集 U。 据说类 U 的结构比类 T 的结构“更丰富”。 对于*全序* 集合的例、结构比有序集的结构丰富，因为$\mathfrak{P}(E \times E)$的元素C其中定义这样的结构必须满足附加公理
+3. 考虑相同类 T 的结构，其中 T 是集合 M 的子集，规模为集合。 如果我们将新的“公理”与定义 T 的公理相连接，则公理的系统由此获得包含在 T 中的 M 的定义子集 U。 据说类 U 的结构比类 T 的结构“更丰富”。 例如，*全序* 集合的结构比有序集的结构更丰富，因为$\mathfrak{P}(E \times E)$的元素C其中定义这样的结构必须满足附加公理
 
 $$C \cup \overline{C}^{-1} = E \times E.$$
 
@@ -67,8 +67,8 @@ $$C \cup \overline{C}^{-1} = E \times E.$$
 
 6. 给定在集合范围内定义集合M的子集T的公理系统，我们应该确保，之前谈到结构和满足这些公理，集合T*不一定是空的*；否则公理将被称为“矛盾”或“不一致”。
 
-7. 可能会发生这样的情况：在集合上定义结构的公理中的系统可以针对任意集合进行陈述，但是当我们考虑两个结构满足这些公理并定义在两个不同的集合 E、F 上时，我们从公理发现这些公理结构（如果存在）必然是*同构的*（这特别意味着 E 和 F 是*等价的*）。那么结构满足这些公理的理论被称为*单价*；否则它们被称为“多价”。
+7. 可能会发生这样的情况：在集合上定义结构的公理中的系统可以针对任意集合进行陈述，但是当我们考虑两个结构满足这些公理并定义在两个不同的集合 E、F 上时，我们从公理发现这些公理结构（如果存在）必然是*同构的*（这特别意味着 E 和 F 是*等价的*）。那么结构满足这些公理中的理论被称为*单价*；否则它们被称为“多价”。
 
-整数理论、实数理论和经典欧氏几何是单价理论； 有序集理论、群理论和拓扑理论是多价理论。对多价理论的研究是现代数学区别于古典数学的最显着特征。
+整数的理论、实数的理论以及经典的欧氏几何都是单价理论； 有序集、群、理论和拓扑中的理论是多价理论。对多价理论的研究是现代数学区别于古典数学的最显着特征。
 
 [^1]: The reader may have observed that the indications given here are left rather vague; they are not intended to be other than heuristic, and indeed it seems scarcely possible to state general and precise definitions for structures outside of the framework of formal mathematics (see Chapter IV).

@@ -30,16 +30,16 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 6244229fd4868e4c1e0815e93fd25a42e678f521cbfb67fe6c2fc529717bd871
+content_sha256: 7caf734f626960e52189abff9db1d90027f5e37f7cecf1604727c706d6bfa141
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 translation_method: google
 source_content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1aabfd97cdc0d75295047736cb0846f114c0911cdfbb7613ff380cc5244d9b93
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。 关系张量积和同态模之间
@@ -60,7 +60,7 @@ $$
 H \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G).
 $$
 
-另一方面，$\operatorname{Hom}_{\mathbf{Z}}(E, G)$定义了左A-模结构，$\operatorname{Hom}_{\mathbf{Z}}(F, G)$（§ 3, no. 3）定义了右A-模结构；因此，我们可以考虑$\mathbf{Z}$模块$\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$和$\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$。 $E \times F$到G的映射$f$规范地等同于E到集合的映射到F到G的映射的$G^F$（*集合理论*，II, § 5, no. 2）；通过将后者映射属于表达为 $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$，我们精确地得到$f$ 是双向可加的，条件 (1)； 从而还有典范同构
+另一方面，$\operatorname{Hom}_{\mathbf{Z}}(E, G)$定义了左A-模结构，$\operatorname{Hom}_{\mathbf{Z}}(F, G)$定义了右A-模结构（§ 3, no. 3）；因此，我们可以考虑$\mathbf{Z}$模块$\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$和$\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$。 $E \times F$ 的映射 $f$ 到 G 中，与 E 的映射到集合 $G^F$ 的映射到 G 中被规范地识别（*集合理论*，II, § 5, no. 2）；通过将后者映射属于表达为 $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$，我们准确地得到$f$ 是双向可加的，条件 (1)； 从而还有典范同构
 
 (3)
 $$
@@ -117,7 +117,7 @@ $$
 
 与 $\Gamma$-*双线性* 映射的 $E \times F$ 的 $\Gamma$ 模典型地同构为 G，其中满足 (1)。更具体地说：
 
-#### 推论{#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
+#### 推论 {#alg-ii-s4-n1-cor-1 .statement tag=05PQ}
 
 *如果C为交换环且E、F、G为三个C模块，则C模块*
 $$
@@ -130,7 +130,7 @@ $$
 
 ### 2. 同态** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
 
-设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块$\mathrm{Hom}_A(E, G)$典型地具有*右*B-*模* 结构 (§ 1, no. 14)，使得$(u\beta)(x) = u(x)\beta$代表$\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
+设 A、B 为两个环、E 左A-模、F 左B-模，G 为 (A, B)-*双模*。 $\mathbf{Z}$-模块 $\mathrm{Hom}_A(E, G)$ 具有规范的*右* B-*模* 结构 (§ 1, no. 14)，使得 $(u\beta)(x) = u(x)\beta$ 对应 $\beta \in B$、$u \in \mathrm{Hom}_A(E, G)$、$x \in E$。另一方面，$G \otimes_B F$ 典型地具有 *左A-模* 结构 (§ 3, no. 4)。我们将定义一个*典范的$\mathbf{Z}$同态*
 
 $$
 \nu : \mathrm{Hom}_A(E, G) \otimes_B F \to \mathrm{Hom}_A(E, G \otimes_B F).
@@ -190,17 +190,17 @@ $$
 
 是可交换的，垂直箭头是双射的。
 
-交换律源自引理1，另一个断言源自§ 1, no. 6，推论2至命题6和§ 3, no. 7、命题7。
+交换律源自引理1，其他断言源自§ 1, no. 6、推论2至命题6以及§ 3, no. 7、命题7。
 
 #### 引理 3 {#alg-ii-s4-lem-3 .statement tag=05PU}
 
-在引理 2 的假设下，对于$\nu_F$ 是单射的（或满射的），$\nu_M$ 和$\nu_N$ 是单射的（或满射的）是必要且充分的。
+在引理 2 的假设下，对于$\nu_F$ 是单射（或满射），$\nu_M$ 和$\nu_N$ 是单射（或满射）是必要且充分的。
 
-这是从引理 2 和§ 1, no. 6，推论1 到命题 6 得出的。
+这是从引理 2 和 § 1, no. 6、推论 1 到命题 6。
 
-那么引理 3 与§ 2, no. 2、命题 4 一起表明，只要考虑$F$ 是自由模的情况就足够了。但是，如果$(b_\mu)$是$F$的基，则$\mathrm{Hom}_A(E, G) \otimes_B F$的每个元素可以唯一地写为$\sum_\mu u_\mu \otimes b_\mu$，其中$u_\mu \in \mathrm{Hom}_A(E, G)$（§ 3, no. 7，推论1到命题7）；这个元素在$\nu$下的像就是$A$-线性映射$x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$；对于所有$x \in E$，不能为零，对于所有$x \in E$和所有$\mu$，除非$u_\mu(x) = 0$，相当于对于所有$\mu$，说即$u_\mu = 0$；因此 $\nu$ 是单射的。当$F$也承认有限的基时，引理3表明（通过$F$的基中元素的数上的归纳），要证明$\nu$是满射的，这样做就足够了当$F = B_s$时；但在这种情况下，(7) 的两侧被规范地标识为 $\mathrm{Hom}_A(E, G)$ (§ 3, no. 4, 命题 4)，并且 $\nu$ 成为恒等式。
+那么引理 3 与§ 2, no. 2、命题 4 一起表明，只要考虑$F$ 是自由模的情况就足够了。但是，如果$(b_\mu)$是$F$的基，则$\mathrm{Hom}_A(E, G) \otimes_B F$的每个元素可以唯一地写为$\sum_\mu u_\mu \otimes b_\mu$，其中$u_\mu \in \mathrm{Hom}_A(E, G)$（§ 3, no. 7，推论1到命题7）；这个元素在$\nu$下的像就是$A$-线性映射$x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$；对于所有$x \in E$，不能为零，对于所有$x \in E$和所有$\mu$，除非$u_\mu(x) = 0$，相当于对于所有$\mu$，说为$u_\mu = 0$； hence $\nu$ is injective.当$F$也承认有限的基时，引理3表明（通过$F$的基中的元素的数上的归纳），证明$\nu$是满射的，这样做就足够了当$F = B_s$时；但在这种情况下，(7) 的两侧被规范地标识为 $\mathrm{Hom}_A(E, G)$ (§ 3, no. 4, 命题 4)，并且$\nu$ 成为恒等式。
 
-(ii) 为了在 $E$ 是射影且有限生成时显示命题，这次我们修复 $F$ 和 $G$ 并写入，对于每个左 $A$-模块 $E$，
+(ii) 为了在 $E$ 是投影且有限生成时显示命题，这次我们修复 $F$ 和 $G$ 并写入，对于每个左 $A$-模块 $E$，
 
 $$
 T(E) = \mathrm{Hom}_A(E, G) \otimes_B F, \qquad T'(E) = \mathrm{Hom}_A(E, G \otimes_B F)
@@ -212,11 +212,11 @@ $$
 T(v) = \mathrm{Hom}(v, 1_G) \otimes 1_F, \qquad T'(v) = \mathrm{Hom}(v, 1_G \otimes 1_F);
 $$
 
-另一方面，我们写 $\nu_E$ 而不是 $\nu$。然后我们有两个引理：
+另一方面，我们写 $\nu_E$ 而不是 $\nu$。 Then we have the two 引理:
 
 #### 引理 4 {#alg-ii-s4-lem-4 .statement tag=05PV}
 
-对于每个同态 $v : E \to E'$、图表
+For every 同态 $v : E \to E'$, 图表
 
 $$
 \begin{array}{ccc}
@@ -276,7 +276,7 @@ $$
 u(x) = \sum_i \xi_i u(e_i) = \sum_i \langle x, e_i^* \rangle u(e_i)
 $$
 
-因此$u = \sum_i \theta(e_i^* \otimes u(e_i))$，在其他字
+因此$u = \sum_i \theta(e_i^* \otimes u(e_i))$，其他字
 
 $$
 \theta^{-1}(u) = \sum_i e_i^* \otimes u(e_i).
@@ -290,7 +290,7 @@ $$
 \theta_E(x^* \otimes x) \circ \theta_E(y^* \otimes y) = \theta_E((y^* \langle y, x^* \rangle) \otimes x).
 $$
 
-*注* (2)。令 E 为*右* A-模； 替换 E 通过(11)中的$E^*$，我们得到一个规范的$\mathbf{Z}$同态
+*注* (2)。令 E 为*右*A-模； 替换 E 通过(11)中的$E^*$，我们得到一个规范的$\mathbf{Z}$同态
 
 $$
 E^{**} \otimes_A F \to \mathrm{Hom}_A(E^*, F).
@@ -308,11 +308,11 @@ $$
 x^* \mapsto \langle x, x^* \rangle y.
 $$
 
-如果 E *和* F 是*射影* 模，则映射 (15) 是*内射*。因为 $c_E$ 是单射的（§ 2, no. 7，推论 4 到命题 13），并且由于 F 是射影，$\mathbf{Z}$ 同态 $c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$ 也是单射的（§ 3, no. 7，推论 6 到命题 7）；最后可知(命题2)同态(14)是单射的，从而结论。
+如果 E *和* F 是*射影* 模，则映射 (15) 是*内射*。因为$c_E$是单射的（§ 2, no. 7，推论 4到命题 13），并且由于F是射影，所以$\mathbf{Z}$同态$c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$也是单射的（§ 3, no. 7，推论6到命题7）；最后可知(命题2)同态(14)是单射的，从而结论。
 
-如果 E 是*射影*且*有限生成*，则映射 (15) 是*双射的*，因为它所组成的两个映射则为双射（§ 2, no. 7，推论 4 到上面的命题 13 和命题 2）。
+如果 E 是*射影*且*有限生成*，则映射 (15) 是*双射*，因为它所组成的两个映射也是双射的（上面的§ 2, no. 7、推论 4 到命题 13 和命题 2）。
 
-### 3. 自同态的踪迹
+### 3. 自同态的痕迹
 
 令 $C$ 为*可交换* 环，而 $E$ 为 $C$ 模。 $E^* \times E$到$C$的映射$(x^*, x) \mapsto \langle x, x^* \rangle$则为$C$*-双线性*，因为对于所有$\gamma \in C$、$\langle \gamma x, x^* \rangle = \gamma \langle x, x^* \rangle$和$\langle x, x^* \gamma \rangle = \langle x, x^* \rangle \gamma$；我们推导出一个规范的 $C$*-线性* 映射
 
@@ -320,7 +320,7 @@ $$
 \tau : E^* \otimes_C E \to C
 $$
 
-这样 $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5)。现在还假设 $E$ 是一个*有限生成的射影* $C$ 模； no. 2的典范同构(11)是一个$C$*-模块*同构，因此我们可以通过在$C$-模块上传输结构*规范的线性形式*$\mathrm{Tr} = \tau \circ \theta_E^{-1}$来实现定义 $\mathrm{End}_C(E)$。对于所有$u \in \mathrm{End}_C(E)$，标量$\mathrm{Tr}(u)$称为自同态$u$的*迹*；每个$u \in \mathrm{End}_C(E)$都可以写成形式$x \mapsto \sum_i \langle x, x_i^* \rangle y_i$，其中$x_i^* \in E^*$和$y_i \in E_i$凭借no. 2，推论命题2；那么
+这样 $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5)。现在还假设 $E$ 是一个*有限生成的射影* $C$ 模； no. 2的典范同构 (11) 是一个$C$*-模块* 同构，因此我们可以通过在$C$-模块上传输结构*规范线性形式* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$来实现定义 $\mathrm{End}_C(E)$。对于所有$u \in \mathrm{End}_C(E)$，标量$\mathrm{Tr}(u)$称为自同态$u$的*迹*；每个$u \in \mathrm{End}_C(E)$都可以写成形式$x \mapsto \sum_i \langle x, x_i^* \rangle y_i$，其中$x_i^* \in E^*$和$y_i \in E_i$凭借no. 2、推论到命题2；然后
 
 $$
 \mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(cf. § 10, no. 11).}
@@ -367,7 +367,7 @@ $$
 
 $$(u_1 \circ u_2 \circ \cdots \circ u_{i-1}) \circ (u_i \circ u_{i+1} \circ \cdots \circ u_p).$$
 
-注另一方面，这不一定是真的
+请注意，另一方面，这并不一定是真的
 
 $$\operatorname{Tr}(u \circ v \circ w) = \operatorname{Tr}(u \circ w \circ v)$$
 
@@ -417,7 +417,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 对于有序对$(E_1, E_2)$，程序类似，这次应用引理4和5两次；我们把细节留给读者。
 
-注当 $E_1 = C^{(I)}$、$E_2 = C^{(J)}$ 自由时（无论是否有限生成），则 $\operatorname{Hom}(E_1, F_1) = F_1^I$、$\operatorname{Hom}(E_2, F_2 = F_2^J$ 和
+请注意，当 $E_1 = C^{(I)}$、$E_2 = C^{(J)}$ 自由时（无论是否有限生成），则 $\operatorname{Hom}(E_1, F_1) = F_1^I$、$\operatorname{Hom}(E_2, F_2 = F_2^J$ 和
 $$
 \operatorname{Hom}(E_1 \otimes E_2, F_1 \otimes F_2) = (F_1 \otimes F_2)^{I \times J}
 $$
@@ -429,13 +429,13 @@ $$
 $$
 对于任何三个$C$-模块$E, F, G$，这只是$A = B = C$的no. 2的同态(7)。
 
-注当 $F = C$ 典范同态 (22) 再次给出 (11) (no. 2) 对于交换环的情况。
+请注意，对于交换环的情况，当 $F = C$ 典范同态 (22) 再次给出 (11) (no. 2) 时。
 
-现在假设$F_1 = F_2 = C$；由于$F_1 \otimes F_2$与$C$等同，所以有这次典范同态
+现在假设$F_1 = F_2 = C$；由于$F_1 \otimes F_2$与$C$相同，所以有这次典范同态
 $$
 \mu : E^* \otimes F^* \to (E \otimes F)^*
 $$
-对于两个$C$-模块$E, F$；对于$x^* \in E^*, y^* \in F^*$，$x^* \otimes y^*$在典范同态（23）下的像在$E \otimes F$上是线性形式$u$，使得
+对于两个$C$-模块$E, F$；对于$x^* \in E^*, y^* \in F^*$，典范同态（23）下$x^* \otimes y^*$的像是$E \otimes F$上的线性形式$u$，使得
 $$
 u(x \otimes y) = \langle x, x^* \rangle \langle y, y^* \rangle.
 $$
@@ -461,7 +461,7 @@ $$
 \text{Tr}(u_1 \otimes u_2) = \text{Tr}(u_1)\text{Tr}(u_2).
 $$
 
-根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下的$x_1 \otimes x_2$的像除以定义
+根据线性，只需考虑 u₁ 为形式 $x_1 \mapsto \langle x_1, x_1^* \rangle y_1$ 且 u2 为形式 $x_2 \mapsto \langle x_2, x_2^* \rangle y_2$ 的情况即可；那么$u_1 \otimes u_2$下$x_1 \otimes x_2$的像除以定义
 
 $$
 \langle x_1, x_1^* \rangle \langle x_2, x_2^* \rangle (y_1 \otimes y_2) = \langle x_1 \otimes x_2, x_1^* \otimes x_2^* \rangle (y_1 \otimes y_2)
@@ -483,14 +483,14 @@ $$
 
 凭借公式 (24) 是*可交换的*。
 
-我们注还指出，在C-模块E、F上没有任何假设，有规范的*同构*
+我们还注意到，在 C 模块 E、F 上没有任何假设，有规范的 *同构*
 
 (28) $$(E \otimes F)^* \to \text{Hom}(E, F^*)$$
 (29) $$(E \otimes F)^* \to \text{Hom}(F, E^*)$$
 
 对于 G = C，A = B = C，这只是 no. 1 的同构 (6) 和 (5)。
 
-因此，在 E × F 上的 *双线性形式*、E 到 F* 的 *同态和 F 到 E* 的 *同态之间定义了规范的一对一对应：如果 u（或 v）是 E 到 F* 的同态（或 F 到 E* 的相应的） 双线性形式由下式给出
+因此，在 E × F 上的 *双线性形式*、E 到 F* 的 *同态和 F 到 E* 的 *同态之间定义了规范的一对一对应：如果 u（或 v）是 E 到 F* 的同态（或 F 到 E* 的相应的），相应的双线性形式由下式给出
 
 $$(x, y) \mapsto \langle y, u(x) \rangle \quad (\text{resp. } (x, y) \mapsto \langle x, v(y) \rangle).$$
 

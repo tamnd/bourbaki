@@ -12,20 +12,20 @@ pdf_pages: 0142-0144
 extraction: ocr
 statements: 5
 exercises: 0
-content_sha256: 798f09d87dc7fb125abe17279199bbb748f3185a617754d4ce9d7dc9ef773ceb
+content_sha256: 84996d1fcf40ccd2c0454cba7479dac5f6c813fb21e12ad194c08eb765c47d81
 translated_from: content/en/lie/V/A_a_complements_on_linear_representations.md
 translation_method: google
 source_content_sha256: 10a851bfe0a82fc5cdd717550427141554add5045f831510966ac7b21ab52629
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7cef04f96c2ad3eaa2066889e0b46cadc7fbee1e03ad9c40445efa6299925e44
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
-# 对线性表示的补充
+# 线性表示的补充
 
 以下命题概括了第13章的第13条命题。 1、§ 3, no. 8。
 
@@ -41,13 +41,13 @@ $$
 a_\lambda u(e_i) = u(a_\lambda e_i) \quad \text{for all } \lambda \text{ and all } i.
 $$
 
-Put $a_\lambda e_i = \sum_j \gamma_{\lambda ij} e_j, \ a_\lambda e'_i = \sum_j \gamma'_{\lambda ij} e'_j,$ where the $\gamma_{\lambda ij}$ and $\gamma'_{\lambda ij}$ belong to K, and $u(e_i) = \sum_j \xi_{ij} e'_j,$ where the $\xi_{ij}$ belong to L. 条件 (1) 可以写成
+在$\gamma_{\lambda ij}$和$\gamma'_{\lambda ij}$属于K的地方放入$a_\lambda e_i = \sum_j \gamma_{\lambda ij} e_j, \ a_\lambda e'_i = \sum_j \gamma'_{\lambda ij} e'_j,$，在$\xi_{ij}$属于L的地方放入$u(e_i) = \sum_j \xi_{ij} e'_j,$。 条件 (1) 可以写成
 
 $$
 \sum_j \xi_{ij} \gamma'_{\lambda jk} = \sum_j \gamma_{\lambda ij} \xi_{jk}
 $$
 
-对于所有$\lambda, i, k$。通过假设，齐次线性方程 (2) 有解 $(\xi_{ij}) \in L^{m^2}$，使得 $\det(\xi_{ij}) \neq 0$。由于系统 (2) 属于的系数为 K，我们知道（代数，第 II, § 8, no. 5 命题 6），这个系统也承认 $K^{m^2}$ 中非平凡的解；令E为$M_m(K) = K^{m^2}$的向量子空间，而不是由这些解形成的零。令$(c_l)_{1 \leq l \leq p}$为$E$的基，并为任何矩阵$(\xi_{ij}) \in E$放入$(\xi_{ij}) = \sum_l \eta_l c_l$；那么 $\det(\xi_{ij})$ 是一个多项式 $P(\eta_1, \ldots, \eta_p)$，系数为 $K$。另一方面，我们知道（*loc.cit.*）$L^{m^2}$中的（2）的解是形式$\sum_l \zeta_l c_l$，这次是$\zeta_l \in L$；对于这样的解，$\det(\xi_{ij})$等于$P(\zeta_1, \ldots, \zeta_p)$。考虑到这一点，如果我们对所有$\eta_1, \ldots, \eta_p \in K$都有$P(\eta_1, \ldots, \eta_p) = 0$，则$P$的系数将是零，因为$K$是无限的；那么我们对于所有 $\zeta_1, \ldots, \zeta_p \in L$ 就会有 $P(\zeta_1, \ldots, \zeta_p) = 0$，这与我们的假设相反。因此，我们可以找到矩阵$(\xi_{ij}) \in E$使得$\det(\xi_{ij}) \neq 0$，并且相应的线性映射$V \to W$是同构。
+对于所有$\lambda, i, k$。通过假设，齐次线性方程 (2) 有解 $(\xi_{ij}) \in L^{m^2}$，使得 $\det(\xi_{ij}) \neq 0$。由于系统 (2) 属于的系数到 K，我们知道（代数，第 II, § 8, no. 5 章，命题 6），这个系统也承认 $K^{m^2}$ 中的非平凡解；令E为$M_m(K) = K^{m^2}$的向量子空间，而不是由这些解形成的零。令$(c_l)_{1 \leq l \leq p}$为$E$的基，并为任何矩阵$(\xi_{ij}) \in E$放入$(\xi_{ij}) = \sum_l \eta_l c_l$；那么 $\det(\xi_{ij})$ 是一个多项式 $P(\eta_1, \ldots, \eta_p)$，系数位于 $K$ 中。另一方面，我们知道（*loc.cit.*）$L^{m^2}$中的（2）的解是形式$\sum_l \zeta_l c_l$，这次是$\zeta_l \in L$；对于这样的解，$\det(\xi_{ij})$等于$P(\zeta_1, \ldots, \zeta_p)$。考虑到这一点，如果我们对所有$\eta_1, \ldots, \eta_p \in K$都有$P(\eta_1, \ldots, \eta_p) = 0$，则$P$的系数将是零，因为$K$是无限的；那么我们对于所有 $\zeta_1, \ldots, \zeta_p \in L$ 就会有 $P(\zeta_1, \ldots, \zeta_p) = 0$，这与我们的假设相反。因此，我们可以找到矩阵$(\xi_{ij}) \in E$使得$\det(\xi_{ij}) \neq 0$，并且相应的线性映射$V \to W$是同构。
 
 c) *一般情况*。设$\Omega$为$L$的代数闭扩张，$\Omega$中$K$的$K_0$代数闭包。 假设意味着$V \otimes_K \Omega$ 和$W \otimes_K \Omega$ 是同构的$(A \otimes_K \Omega)$ 模块。由于$K_0$是无限的，部分b)表明$V \otimes_K K_0$和$W \otimes_K K_0$是同构的$(A \otimes_K K_0)$模。在b)中保留记号，系统 (2) 承认解$(\xi_{ij}) \in K_0^{m^2}$，使得$\det(\xi_{ij}) \neq 0$。但是$\xi_{ij}$全部属于到有限次数的代数扩张$K_1$超过$K$。 $(A \otimes_K K_1)$-模块$V \otimes_K K_1$和$W \otimes_K K_1$是同构的，证明是通过使用a)完成的。
 
@@ -69,15 +69,15 @@ $$
 $$
 因此$f$与$\rho(G)$可交换，因此$\ker(f)$是$F$的补集，在$G$下稳定。
 
-#### 推论{#lie-v-a0-n0-cor-1 .statement tag=0AU1}
+#### 推论 {#lie-v-a0-n0-cor-1 .statement tag=0AU1}
 
 *设G为阶q中的有限群，且K为交换域，其特性不为除q。那么 G 在 K 上的群代数是半单。*
 
-事实上，根据第 2 条命题，在这个代数之上，每模就是半单。
+事实上，根据第 2 条命题，这个代数上的每一个模都是半单。
 
 #### 命题 3 {#lie-v-a0-prop-3 .statement tag=0AU2}
 
-令$A$为交换环，$M$为$A$模块，$G$有限群作用于$M$，$A'$为$A$模块。假设$G$的阶$q$在$A$中可逆。设$M^G$为$M$元素集合在$G$下不变。然后典范同态从$M^G \otimes_A A'$到$M \otimes_A A'$，定义同构从$M^G \otimes_A A'$到模，$M \otimes_A A'$在$G$下不变的元素$(M \otimes_A A')^G$。
+令$A$为交换环，$M$为$A$模块，$G$有限群作用于$M$，$A'$为$A$模块。假设$G$的阶$q$在$A$中可逆。设$M^G$为$M$元素集合在$G$下不变。然后典范同态从$M^G \otimes_A A'$到$M \otimes_A A'$，定义同构从$M^G \otimes_A A'$到$M \otimes_A A'$在$G$不变的元素到模$(M \otimes_A A')^G$。
 
 事实上，对于所有$x \in M$，让$Q$是$M$的投影到由$Q(x) = q^{-1} \sum_{g \in G} g(x)$定义的$M^G$上。如果$i$将$M^G$的典范嵌入代入$M$，则$Q \circ i$是$M^G$的恒等式映射，所以$(Q \otimes 1_{A'}) \circ (i \otimes 1_{A'})$是$M^G \otimes_A A'$的恒等式映射。由于$Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'})$，$i \otimes 1_{A'}$的像是$(M \otimes A')^G$。另一方面，$i \otimes 1_{A'}$是所说的之前的内射。
 

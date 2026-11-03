@@ -58,16 +58,16 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 540a79bf80a847196db62e466b6efe559a501212450316e9c72f82f88ddb2fb0
+content_sha256: 8ad2513d82a7451c4399431cad019ebcfec2055a8e6fd23c66f65b200147752a
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
 translation_method: google
 source_content_sha256: ed1a3cc64fa97276bda6bff686f4a827b57d0250dbe6c9cb5ce9dddcfe06ceb5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ad8ed474e9a7b73881c945e4ba9d390b5d08a49aea25acd46520b65797fc4943
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 10。 伽罗瓦扩张
@@ -87,7 +87,7 @@ $a) \Rightarrow c)$：假设K是$\Gamma$的不变量的域。令 $x \in N$，在
 $$
 g(X) = \prod_{y \in A} (X - y).
 $$
-A 的每自同构 $a \in \Gamma$ 诱导置换，因此多项式 $g \in N[X]$ 的系数保持不变。因此我们有$g \in K[X]$，并且从$g(x) = 0$开始，多项式g是$K[X]$中$f$的倍数（V，p. 16，Th.1）。此外，$f$和g是单数且g除$f$（IV，p. 16，命题5）；因此我们有$f = g$，这意味着$x$在$K$上的最小多项式$f$是次数1的不同多项式的$N[X]$中的乘积。
+A 的每自同构 $a \in \Gamma$ 诱导置换，因此留下多项式 $g \in N[X]$ 的不变式系数。因此我们有$g \in K[X]$，并且从$g(x) = 0$开始，多项式g是$K[X]$中$f$的倍数（V，p. 16，Th.1）。此外，$f$和g是单数且g除$f$（IV，p. 16，命题5）；因此我们有$f = g$，这意味着$x$在$K$上的最小多项式$f$是次数1的不同多项式的$N[X]$中的乘积。
 
 c) ⇒ a): 令 x 为 N 的元素而不是 K 的属于。用 K 包含于 N 的 Ω 代数闭包表示作为子扩展 (V, p. 23, Th. 2)。设 f 为 x 在 K 上的最小多项式，其次数 ≥ 2 乘以假设，并令 A 为 N 中 $f(X)$ 的根的集合。如果条件 c) 成立，则有 $f(X) = \prod_{y \in A} (X - y)$，因此 (V， p. 53，Cor. 1) A 是 Ω 中 x 的共轭的集合。由于 f 次数 ≥ 2，因此 A 元素 $y \neq x$ 中存在，因此 Ω 的 K-自同构 u 使得 $u(x) = y$。现在在假设 c) 下，K 的扩张 N 是拟伽罗瓦，因此 $u(N) = N$ (V, p. 54, Cor. 1)；由此可见，u 诱导 N 的 K-自同构 a，使得 $\sigma(x) = y \neq x$，因此 K 是 Γ 的不变量的域。
 
@@ -95,7 +95,7 @@ c) ⇒ a): 令 x 为 N 的元素而不是 K 的属于。用 K 包含于 N 的 Ω
 
 — 如果 K 的扩张 N 是代数且满足 Th 的等价条件 a), b), c)，则称其为伽罗瓦 (Galois)。 1.
 
-Let N be a field, Γ a group of automorphisms of N and $N_0$ the field of invariants of Γ. 当 N 是超过 $N_0$ 的代数时，它是 $N_0$ 的伽罗瓦扩张。 这不一定总是这样：对于例，假设 K 是无限的，并取 N 为有理分式 K(X) 的域；对于每个$a \in K$，令$\sigma_a$为K(X)的自同构，其中映射$f(X)$到$f(X + a)$。 集合 of all $a$, is 群 of 自同构 of K(X) whose 域 of invariants is easily seen to be K;然而 K(X) 不是 K 上的代数。
+令 N 为一个域，Г为 N 的自同构群，$N_0$ 为 Г 的不变量域。 当 N 是超过 $N_0$ 的代数时，它是 $N_0$ 的伽罗瓦扩张。 这不一定总是如此：例如，假设 K 是无限的，并取 N 为有理分式 K(X) 的域；对于每个$a \in K$，令$\sigma_a$为K(X)的自同构，其中映射$f(X)$到$f(X + a)$。 集合 of all $a$, is 群 of 自同构 of K(X) whose 域 of invariants is easily seen to be K;然而 K(X) 不是 K 上的代数。
 
 设 Ω 为 K 的代数闭包，令 A 表示 Ω 的元素集合可在 K 上分离，并且 B 表示共轭的集合在 A 的元素的 K 上可分离。则 B 由代数且可在 K 上分离的元素组成。因此 (V， p. 39，命题 6 和 p. 56，命题 5) 域 K(B) 是 K 的可分离拟伽罗瓦扩展；在其他字中，A(V,p. 55)生成的拟伽罗瓦扩张是K的伽罗瓦扩张；我们还可以说它是由 O 的子集 A 生成的 K 的伽罗瓦扩张。
 
@@ -115,7 +115,7 @@ Let N be a field, Γ a group of automorphisms of N and $N_0$ the field of invari
 
 命题 2 意味着以下结果：令 R 为 K 和 E₁, ..., Eₙ 的代数闭包，包含在 R 中的 K 上有限次数的可分离代数扩张，则存在包含在 R 和包含 E₁, ..., Eₙ 中的 K 的伽罗瓦扩张 N，有限次数。
 
-### 2. The Galois group
+### 2. 伽罗瓦群
 
 #### 定义 2 {#alg-v-s10-def-2 .statement tag=06MF}
 
@@ -137,21 +137,21 @@ c) x 和 y 是 f 的相同不可约因子的根。
 
 #### 例 2 {#alg-v-s10-n2-exa-2 .statement tag=06MH}
 
-\* 令 f = X³ + X² − 2X − 1 ∈ Q[X]。多项式 f 是不可约的，如果不是，那么它就有根 x ∈ Q；当写 x = a/b 且 a、b ∈ Z、a 和 b 互质时，我们应该找到 a(a² + ab − 2b²) = b3 和 a3 = b(b2 + 2ab − a2)；但这意味着除 b 且 b 除 a，因此 x = ±1，这是不可能的。将 ψ = e^{2\pi i / 7} ∈ C；则多项式 f 有根 α = ψ + ψ⁻1, β = Σ2 + Σ⁻2, γ = Σ3 + Σ⁻3。我们有 β = a² − 2 和 γ = a³ − 3α，因此扩张 Q(α) 是 Q 上的伽罗瓦。 Q(α) 在 Q 上的伽罗瓦群是阶 3 的循环，由元素 σ 生成，使得 σ(α) = β, σ(β) = γ, σ(γ) = α。 \*
+\* 令 f = X³ + X² − 2X − 1 ∈ Q[X]。多项式 f 是不可约的，如果不是，那么它就有根 x ∈ Q；当写 x = a/b 且 a、b ∈ Z、a 和 b 互质时，我们应该找到 a(a² + ab − 2b²) = b3 和 a3 = b(b2 + 2ab − a2)；但这意味着除 b 且 b 除 a，因此 x = ±1，这是不可能的。将 xi = e^{2\pi i / 7} ∈ C；则多项式 f 有根 α = ψ + ψ⁻1, β = Σ2 + Σ⁻2, γ = Σ3 + Σ⁻3。我们有 β = a² − 2 和 γ = a3 − 3α，因此扩张 Q(α) 是 Q 上的伽罗瓦。Q(α) 在 Q 上的伽罗瓦群是阶 3 的循环，由元素 σ 生成，使得 σ(α) = β, σ(β) = γ, σ(γ) = α。 \*
 
 #### 例 3 {#alg-v-s10-n2-exa-3 .statement tag=06MI}
 
-假设$K = \mathbf{Q}$并取$f = X^3 - 2$。将整数的分解代入素数因子的乘积（I，p. 51），我们很容易看出2不是$\mathbf{Q}$的元素的立方。因此，多项式 $f$ 是不可约的，否则，$\mathbf{Q}$ 中将有根。令$A = \{ x_1, x_2, x_3 \}$为$\Omega$中的$f$根集合和$f$中的$\Gamma$伽罗瓦群。它传递地作用于 $A$；因此它的阶可以被三整除。另一方面，商 $j = \frac{x_2}{x_1}$ 与 1 不同，我们有 $j^3 = 1$。因此$j$满足关系$j^2 + j + 1 = 0$；现在多项式 $T^2 + T + 1 = \left( T + \frac{1}{2} \right)^2 + \frac{3}{4}$ 在 $\mathbf{Q}$ 中没有根，这表明 (例 1) $[\mathbf{Q}(j) : \mathbf{Q}] = 2$。因此$[\mathbf{N} : \mathbf{Q}]$可以被2整除，并且$\Gamma$的阶可以被6整除。由于$\Gamma$包含在阶6的群$\mathfrak{S}_A$中，所以我们有$\Gamma = \mathfrak{S}_A$。
+假设$K = \mathbf{Q}$并取$f = X^3 - 2$。将整数的分解代入素数因子的乘积（I，p. 51），我们很容易看出2不是$\mathbf{Q}$的元素的立方。因此，多项式 $f$ 是不可约的，否则，$\mathbf{Q}$ 中将有根。令$A = \{ x_1, x_2, x_3 \}$为$\Omega$中的$f$根集合和$f$中的$\Gamma$伽罗瓦群。它传递地作用于 $A$；因此它的阶可以被三整除。另一方面，商$j = \frac{x_2}{x_1}$与1不同，我们有$j^3 = 1$。因此$j$满足关系$j^2 + j + 1 = 0$；现在多项式 $T^2 + T + 1 = \left( T + \frac{1}{2} \right)^2 + \frac{3}{4}$ 在 $\mathbf{Q}$ 中没有根，这表明 (例 1) $[\mathbf{Q}(j) : \mathbf{Q}] = 2$。因此$[\mathbf{N} : \mathbf{Q}]$可以被2整除，并且$\Gamma$的阶可以被6整除。由于$\Gamma$包含在阶6的群$\mathfrak{S}_A$中，所以我们有$\Gamma = \mathfrak{S}_A$。
 
 #### 例 4 {#alg-v-s10-n2-exa-4 .statement tag=06MJ}
 
 假设$K$具有特征$p \neq 0$，并令$K(T)$为有理分式和$U = T^p - T$的域。将$E = K[U]$和$F = K[T]$放入，则$E[X]$的多项式$f(X) = X^p - X - U$在$F$中有根$T, T+1, ..., T+p-1$。令$\sigma$为$F$的$K$自同构，使得$\sigma(T) = T+1$。我们有$\sigma^i(T) = T+i$和$\sigma(U) = U$。 群$G = \{ 1, \sigma, ..., \sigma^{p-1} \}$是阶$p$的循环，其不变量包含$E$的域；由于$[F : E] \leq p$，戴德金的定理（V，p. 27，Cor.2）意味着$E$是$G$和$[F : E] = p$的不变量的域。因此多项式 $f$ 不可约于 $E[X]$； $E$的扩张$F$是Galois，其伽罗瓦群$G$是阶$p$的循环，群$\Gamma$是群的循环置换共 $T, T+1, ..., T+p-1$。
 
-对于此例中的推广，请参阅V、p. 93、例 2。
+对于这个例中的推广，请参见V、p. 93、例2。
 
 #### 例 5 {#alg-v-s10-n2-exa-5 .statement tag=06MK}
 
-令$F = K(X_1, ..., X_n)$为$n$中有理分式的域，不定$X_1, ..., X_n$，系数在$K$中。放
+设$F = K(X_1, ..., X_n)$为$n$中有理分式的域，$X_1, ..., X_n$与$K$中的系数不确定。放
 $$
 s_k = \sum_{1 \leq i_1 < ... < i_k \leq n} X_{i_1} ... X_{i_k}
 $$
@@ -167,9 +167,9 @@ $$
 
 #### 例 6 {#alg-v-s10-n2-exa-6 .statement tag=06ML}
 
-假设 f 是次数 > 0 的单调，K 的特征 ≠ 2。定义在 A 上有一个全序，用 ≤ 表示，并设置 δ(f) = $\prod_{\alpha < \beta} (\beta - a)$、$(\alpha, \beta) \in A \times A$，并且对于每个 $\sigma \in \mathfrak{S}_A$ 放置 $\delta_\sigma(f) = \prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha))$。我们有$\delta_\sigma(f) = \varepsilon(u) \delta(f)$，其中$\varepsilon(u)$是$\sigma$（I，p. 64）和$\delta(f) \neq 0$的签名。对于每个$\tau \in \mathrm{Gal}(N/K)$，我们有$\tau(\delta(f)) = \delta_{\tau|_A}(f)$。因此，当且仅当$\delta(f) \in K$时，$\Gamma$包含在交错的群$\mathfrak{A}_A$中。此外，$\delta(f)^2 = \prod_{\alpha < \beta} (\beta - a)' = d(f)$是多项式f（IV，p. 81）的判别式。因此$\Gamma \subset \mathfrak{A}_A$当且仅当$d(f)$是K的元素的平方。因此，在例2中我们有$d(f) = 49 = 7^2$，在例3中，$d(f) = -108$（IV，p. 85）。
+假设 f 是次数 > 0 的单调，K 的特征 ≠ 2。定义在 A 上有一个全序，用 ≤ 表示，并设置 δ(f) = $\prod_{\alpha < \beta} (\beta - a)$，$(\alpha, \beta) \in A \times A$，并且对于每个 $\sigma \in \mathfrak{S}_A$ 放置$\delta_\sigma(f) = \prod_{\alpha < \beta} (\sigma(\beta) - \sigma(\alpha))$。我们有$\delta_\sigma(f) = \varepsilon(u) \delta(f)$，其中$\varepsilon(u)$是$\sigma$（I，p. 64）和$\delta(f) \neq 0$的签名。对于每个$\tau \in \mathrm{Gal}(N/K)$，我们有$\tau(\delta(f)) = \delta_{\tau|_A}(f)$。因此，当且仅当$\delta(f) \in K$时，$\Gamma$包含在交错的群$\mathfrak{A}_A$中。此外，$\delta(f)^2 = \prod_{\alpha < \beta} (\beta - a)' = d(f)$是多项式f（IV，p. 81）的判别式。因此，$\Gamma \subset \mathfrak{A}_A$当且仅当$d(f)$是K的元素的平方。因此，在例2中我们有$d(f) = 49 = 7^2$，在例3中，$d(f) = -108$（IV，p. 85）。
 
-令 N 为 K 的伽罗瓦扩张，并令 L 为 N 的子扩展，N 是 K 上的伽罗瓦。N 诱导的每个 K-自同构 $\sigma$ 都是 L 的 K-自同构 $\sigma_L$ (V, p. 55, 注 1)。因此映射$\sigma \mapsto \sigma_L$是$\mathrm{Gal}(N/K)$的同态变成$\mathrm{Gal}(L/K)$，称为限制同态。
+设 N 为 K 的伽罗瓦扩张，并令 L 为 N 的子扩展，它是 K 上的伽罗瓦。 N 诱导的每个 K-自同构 $\sigma$ 都是 L 的 K-自同构 $\sigma_L$ (V, p. 55, 注1)。因此映射$\sigma \mapsto \sigma_L$是$\mathrm{Gal}(N/K)$除以$\mathrm{Gal}(L/K)$的同态，称为限制同态。
 
 #### 命题 3 {#alg-v-s10-prop-3 .statement tag=06MM}
 
@@ -183,7 +183,7 @@ $$
 
 令A为有限次数的N在K上的所有子扩展的集合。对于$\sigma \in \Gamma$和$E \in A$，我们将为$\Gamma$的元素$\tau$的集合写$U_E(\sigma)$，它们具有相同的限制 $\sigma$到E。如果$E = K(x_1, ..., x_n)$，集合$U_E(\sigma)$由元素$\tau \in \Gamma$组成，使得$\tau(x_i) = \sigma(x_i), ..., \tau(x_n) = \sigma(x_n)$。由此可见，$(U_F(\sigma))_{F \in \mathscr{F}}$族是$\Gamma$中$\sigma$的邻域过滤器的基。
 
-When N is of finite degree over K, we have $N \in A$ and $U_N(\sigma) = \{\sigma\}$, hence the topology of $\mathrm{Gal}(N/K)$ is discrete; we recall (V, p. 58), that the group $\mathrm{Gal}(N/K)$ is finite in this case.
+当N在K上有有限次时，我们有$N \in A$和$U_N(\sigma) = \{\sigma\}$，因此$\mathrm{Gal}(N/K)$的拓扑是离散的；我们记得（V，p. 58），在这种情况下群$\mathrm{Gal}(N/K)$是有限的。
 
 $\mathrm{Gal}(N/K)$的拓扑的描述表明，对于N的每个子扩展L，$\mathrm{Gal}(N/K)$*到*$\mathrm{Gal}(L/K)$*的*限制同态*是连续的*，它是N上的伽罗瓦。
 
@@ -211,7 +211,7 @@ $\Gamma$的每个元素$\sigma$都有基邻域由……组成的开路和闭路�
 
 ### 4. 伽罗瓦血统
 
-*In this No.* we denote by $N$ *a field*, $\Gamma$ *a group of automorphisms of* $N$, $e$ *the neutral element of* $\Gamma$ *and* $K$ *the field of invariants of* $\Gamma$.
+*在此No.*中，我们用$N$*域*、$\Gamma$** $N$、$e$** $\Gamma$*的中性元素*和*$K$**$\Gamma$的不变量域表示。
 
 令 $V$ 为向量空间超过 $N$。我们记得（II，p. 317）$V$上的*K结构*是$V$的向量子K空间$V_0$，使得K-线性映射$\varphi : N \otimes_K V_0 \to V$，其中映射$h \otimes x$到$\lambda x$是双射。令$V_0$是这样一个K-结构；对于每个$\sigma \in \Gamma$，我们放入$u_\sigma = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0}) \circ \varphi^{-1}$；那么对于元素$\lambda_i$的$N$和$e_i$的$V_0$从而的每个家庭我们都有$u_\sigma \left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{i \in I} \sigma(\lambda_i) e_i$，我们得到关系
 $$
@@ -232,21 +232,21 @@ $$
 
 *很明显，$K$*是*$x \in N$*的集合*使得*$\sigma(xy) = x \sigma(y)$*对于所有*$\sigma \in \Gamma$*和所有*$y \in N$。 *命题因此由 Th 得出。 1*（II，p. 324）。
 
-#### 推论{#alg-v-s10-n4-cor-1 .statement tag=06MQ}
+#### 推论 {#alg-v-s10-n4-cor-1 .statement tag=06MQ}
 
 — 令$V_0$为$K$上的向量空间，并令$W$为$N \otimes_K V_0$的向量子N空间。假设对于所有 $\sigma \in \Gamma$，$W$ 在映射 $\sigma \otimes \mathrm{Id}_{V_0}$ 下是稳定的。令$W_0$为$x \in V_0$的集合，使得$1 \otimes x \in W$；那么$W_0$是$V_0$的唯一向量子K空间，使得$W = N \otimes_K W_0$。
 
-注形式 $1 \otimes x \ (x \in V_0)$ 的元素的集合是$N \otimes_K V_0$ 上的K 结构就足够了，对于$\sigma \in \Gamma$，我们有$u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$。
+只需指出形式$1 \otimes x \ (x \in V_0)$的元素的集合是$N \otimes_K V_0$上的K结构，对于$\sigma \in \Gamma$我们有$u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$。
 
 #### 命题 7 {#alg-v-s10-prop-7 .statement tag=06MR}
 
-— 令$V$在$N$、$(u_\sigma)_\sigma$上成为向量空间，将$V$的映射组成的族纳入自身满足 (1) 至(4) 和$x \in V$的$V_0$集合，使得$u_\sigma(x) = x$对于所有$\sigma \in \Gamma$。
+— 令$V$为$N$、$(u_\sigma)_\sigma$之上的向量空间，将$V$的映射组成的族自身纳入满足 (1) 至 (4) 和$V_0$集合的$x \in V$，使得$u_\sigma(x) = x$ 对于所有$\sigma \in \Gamma$。
 
-a) $V_0$是$V$的向量子K空间和$N \otimes_K V_0$的K-线性映射$\varphi$进入$V$，其中映射$\lambda \otimes x$到$\lambda x$是单射的。
+a) $V_0$是$V$和$N \otimes_K V_0$的K-线性映射$\varphi$到$V$的向量子K空间，其中映射$\lambda \otimes x$到$\lambda x$是单射的。
 
-b) 如果 $\Gamma$ 是有限的，则 $\varphi$ 是双射的，$V_0$ 是 $V$ 上的 K 结构。
+b) 如果 $\Gamma$ 是有限的，则 $\varphi$ 是双射，$V_0$ 是 $V$ 上的 K 结构。
 
-显然$V_0$是$V$的向量子K空间。
+显然，$V_0$是$V$的向量子K空间。
 
 公式$u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$表明$\varphi$的核$W$在映射$\sigma \otimes \mathrm{Id}_{V_0}$下是稳定的；由科。根据命题6，因此存在$V_0$的子空间$W_0$使得$W = N \otimes_K W_0$。如果$x$属于到$W_0$，我们就有$x = \varphi(1 \otimes x) = 0$，因此$W_0 = 0$，所以$W = 0$。这就证明了a）。
 
@@ -280,25 +280,25 @@ $$
 (u_\sigma h)(\tau) = h(\tau \sigma)
 $$
 
-对于 $h \in V$ 和 $\tau \in \Gamma$。 *(1)-(4)*的验证为直接的。 Denote by $V$, 集合 of $h \in V$ such that $u_\sigma(h) = h$ for all $\sigma \in \Gamma$. For each $x \in M$ let $\theta(x)$ be the constant 映射 of $\Gamma$ into $M$ with 值 $x$;那么$\theta$是$M$到$V$的K同构。 If we 定义同态 $\varphi : N \otimes_K V, \to V$ as above, we have $\psi = \varphi \circ (\mathrm{Id}_N \otimes \theta)$ and now Prop. 8 follows from Prop. 7.
+对于 $h \in V$ 和 $\tau \in \Gamma$。 *(1)-(4)*的验证为直接的。用$h \in V$的$V$、集合表示，使得$u_\sigma(h) = h$适用于所有$\sigma \in \Gamma$。对于每个$x \in M$，令$\theta(x)$为$\Gamma$到$M$的常数映射，其中值$x$；那么$\theta$是$M$到$V$的K同构。如果我们如上所述定义同态 $\varphi : N \otimes_K V, \to V$，我们就有$\psi = \varphi \circ (\mathrm{Id}_N \otimes \theta)$，现在第 8 条提案是从第 7 条提案得出的。
 
-#### 推出{#alg-v-s10-n4-cor-2 .statement tag=06MT}
+#### 推论 {#alg-v-s10-n4-cor-2 .statement tag=06MT}
 
-— *Let* $\psi$ *be K-线性映射 of* $N \otimes_K N$ *into 乘积向量空间* $N^\Gamma$ *such that* $\psi(x \otimes y)\,(a) = \sigma(x)\,y$ *for* $x,\,y$ *in* $N$ *and* $\sigma \in \Gamma$. *那么* $\psi$ *是单射的，并且当* $\Gamma$ *是有限的时，它是双射的。*
+— *让* $\psi$ *成为* $N \otimes_K N$ *的K-线性映射 *进入乘积向量空间* $N^\Gamma$ *使得* $\psi(x \otimes y)\,(a) = \sigma(x)\,y$ *对于* $x,\,y$ *在* $N$ *和* $\sigma \in \Gamma$。 *那么* $\psi$ *是单射的，并且当* $\Gamma$ *是有限的时，它是双射的。*
 
 这是第 8 条提案的特殊情况$M = N$。
 
 #### 注 1 {#alg-v-s10-n4-rem-1 .statement tag=06MU}
 
-设F是K的扩张和$N$F的子扩展，并令$\Gamma$是$N$的自同构的*有限*群，其中K是不变量的域。 Prop. 8 implies the existence of 同构 of K-代数 $0 : N \otimes_F F \to F^\Gamma$ characterized by $\theta(x \otimes y)\,(a) = \sigma(x)\,y$ for $x \in N,\,y \in F$ and $\sigma \in \Gamma$.
+设F是K的扩张和$N$F的子扩展，并令$\Gamma$是$N$的自同构的*有限*群，其中K是不变量的域。命题8暗示存在K-代数$0 : N \otimes_F F \to F^\Gamma$的同构，其特征在于$x \in N,\,y \in F$和$\sigma \in \Gamma$的$\theta(x \otimes y)\,(a) = \sigma(x)\,y$。
 
 #### 注 2 {#alg-v-s10-n4-rem-2 .statement tag=06MV}
 
-记号 K, N and $\Gamma$ has the same meaning as 之前. For each 整数 $n \geqslant 1$, let $A_n$ be 张量积 of n K-代数 identical with $N$; let $B_n$ be 集合 of 映射 of $\Gamma^{n-1}$ into $N$. By 归纳 on $n$ we can deduce from the Cor. of Prop. 8 the existence of 同构 $\varphi_n : A_n \to B_n$, 映射 $x_1 \otimes \ldots \otimes x_n$ to 函数 $(\sigma_1, \ldots, a, ) \quad \sigma_1(x_1) \cdot \sigma_n(x_{n-1})\,x_n$.
+记号 K、N 和$\Gamma$ 与之前含义相同。对于每个整数$n \geqslant 1$，令$A_n$为与$N$相同的n个K-代数中的张量积；令$B_n$变为$N$为$\Gamma^{n-1}$映射集合。通过 $n$ 上的归纳，我们可以从 Cor 中推出。提案 8 存在同构 $\varphi_n : A_n \to B_n$、映射 $x_1 \otimes \ldots \otimes x_n$ 至函数 $(\sigma_1, \ldots, a, ) \quad \sigma_1(x_1) \cdot \sigma_n(x_{n-1})\,x_n$。
 
 ### 5. *伽罗瓦上同调*
 
-令$N$为域，$\Gamma$$N$的自同构的*有限*群和$\Gamma$的不变量K域。对于每个整数$n \geqslant 1$，我们用阶$n$的方阵的$\mathbf{GL}(n, N)$群表示，系数在$N$和非零行列式（II；p. 349）。 We let 群 $\Gamma$ operate on 群 $\mathbf{GL}(n, N)$ by the rule $\sigma(A) = (\sigma(a_{ij}))$ for $A = (a_{ij})$.
+令$N$为域，$\Gamma$$N$的自同构的*有限*群和$\Gamma$的不变量K域。对于每个整数$n \geqslant 1$，我们用阶$n$的方阵$\mathbf{GL}(n, N)$群和$N$中的系数和非零行列式（II； p. 349）。我们让群$\Gamma$按照规则$\sigma(A) = (\sigma(a_{ij}))$对$A = (a_{ij})$操作群$\mathbf{GL}(n, N)$。
 
 #### 命题 9 {#alg-v-s10-prop-9 .statement tag=06MW}
 
@@ -310,11 +310,11 @@ $$
 U_\sigma \cdot \sigma(U_\tau) = A^{-1}\,\sigma(A)\,\sigma(A^{-1}\,\tau(A)) = A^{-1}\sigma\tau(A) = U_{\sigma \tau}.
 $$
 
-条件 *足够*：我们 $N^n$ 的认同元素，其中矩阵 $n$ 行和一个列，系数在 $N$ 中。我们让群$\Gamma$作用于$N^n$：
+条件 *足够*：我们将 $N^n$ 中的认同元素与 $n$ 行中的矩阵以及 $N$ 中的一个列与系数进行比较。我们让群$\Gamma$作用于$N^n$
 $$
 \sigma(x) = (\sigma(x_i))_{1 \leq i \leq n} \quad \text{for} \quad x = (x_i)_{1 \leq i \leq n}.
 $$
-对于每个 $a \in \Gamma$，我们将 $N^n$ 的 $u_\sigma$ 映射 $x \mapsto U_\sigma \cdot \sigma(x)$ 表示为自身。 V、p. 62的公式(1)至(3)验证为直接的。此外，我们有$u_\varepsilon \circ u_\varepsilon = u_\varepsilon$，并且由于$u_\varepsilon$是双射，所以我们有$u_\varepsilon = \mathrm{Id}_{N^n}$。令$V_0$为向量$x \in N^n$中的集合，使得$u_\sigma(x) = x$对于所有$\sigma \in \Gamma$。根据命题7（V，p. 63），$V_0$是$N^n$上的K结构；特别是存在$V_0$向量$b_1, \ldots, b_n$，在$N$上形成$N^n$的基。因此，矩阵 $B$ 与列 $b_1, \ldots, b_n$ 是可逆的，关系 $u_\sigma(b_i) = b_i$ 对于 $1 \leq i \leq n$ 相当于 $U_\sigma \cdot \sigma(B) = B$。写出$A = B^{-1}$，我们得到所有$a \in \Gamma$的$U_\sigma = A^{-1} \sigma(A)$。
+对于每个 $a \in \Gamma$，我们将 $N^n$ 的 $u_\sigma$ 映射 $x \mapsto U_\sigma \cdot \sigma(x)$ 表示为自身。 V、p. 62的公式(1)至(3)验证为直接的。此外，我们有$u_\varepsilon \circ u_\varepsilon = u_\varepsilon$，并且由于$u_\varepsilon$是双射，所以我们有$u_\varepsilon = \mathrm{Id}_{N^n}$。令 $V_0$ 为向量 $x \in N^n$ 中的集合，使得 $u_\sigma(x) = x$ 对于所有 $\sigma \in \Gamma$。根据命题7（V，p. 63），$V_0$是$N^n$上的K结构；特别是存在$V_0$向量$b_1, \ldots, b_n$在$N$上形成$N^n$的基。因此，矩阵 $B$ 与列 $b_1, \ldots, b_n$ 是可逆的，关系 $u_\sigma(b_i) = b_i$ 对于 $1 \leq i \leq n$ 相当于 $U_\sigma \cdot \sigma(B) = B$。写出$A = B^{-1}$，我们得到所有$a \in \Gamma$的$U_\sigma = A^{-1} \sigma(A)$。
 
 #### 推论 1 {#alg-v-s10-prop-9-cor-1 .statement tag=06MX}
 
@@ -326,7 +326,7 @@ $$
 
 对于$N$中的所有$b$和$\Gamma$中的$\sigma, \tau$，我们有$\sigma \tau(b) - b = [\sigma(b) - b] + \sigma[\tau(b) - b]$，从而是必要性。
 
-相反，假设$a_{\sigma \tau} = a_\sigma + \sigma(a_\tau)$对于$\Gamma$中的任何$\sigma$和$\tau$。将$U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix}$换成$\sigma \in \Gamma$；那么我们在$\Gamma$中有$U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$对应$\sigma, \tau$；根据命题 9，因此存在矩阵 $A = \begin{pmatrix} x & y \\ z & t \end{pmatrix}$ 且行列式非零，使得 $\sigma(A) = A U_\sigma$ 对于所有 $a \in \Gamma$；写下关系 $\sigma(A) = A U_\sigma$ 我们发现
+相反，假设$a_{\sigma \tau} = a_\sigma + \sigma(a_\tau)$对于$\Gamma$中的任何$\sigma$和$\tau$。将$U_\sigma = \begin{pmatrix} 1 & a_\sigma \\ 0 & 1 \end{pmatrix}$换成$\sigma \in \Gamma$；那么我们在$\Gamma$中有$U_{\sigma \tau} = U_\sigma \cdot \sigma(U_\tau)$对应$\sigma, \tau$；根据命题 9，因此存在矩阵 $A = \begin{pmatrix} x & y \\ z & t \end{pmatrix}$ 且行列式非零，使得对于所有$a \in \Gamma$ 都有$\sigma(A) = A U_\sigma$；写下关系 $\sigma(A) = A U_\sigma$ 我们发现
 $$
 \begin{pmatrix} \sigma(x) & \sigma(y) \\ \sigma(z) & \sigma(t) \end{pmatrix} = \begin{pmatrix} x & x a_\sigma + y \\ z & z a_\sigma + t \end{pmatrix} \quad (\sigma \in \Gamma).
 $$
@@ -343,20 +343,20 @@ $$
 
 #### 定理 2（阿丁）{#alg-v-s10-thm-2 .statement tag=06MZ}
 
-— *令$N$为域，$N$的自同构的$\Gamma$群以及$\Gamma$的不变量$K$域。设$V$是有限维*的$N$在K上的向量子K空间。那么V的每个K-线性映射u进入N是线性组合，N中的系数为限制到V 元素共 $\Gamma$。
+— *令$N$为域，$N$的自同构的$\Gamma$群以及$\Gamma$的不变量$K$域。设$V$是有限维*的$N$在K上的向量子K空间。那么V的每个K-线性映射u进入N是线性组合，系数在限制到V的N中元素 / $\Gamma$。
 
-设u为N中V的K-线性映射，并令$V_{(N)} = N \otimes_K V$为从V通过标量扩张导出的向量N空间；用 $\tilde{u}$ 表示 $V_{(N)}$ 上的 N 线性形式，使得 $\tilde{u}(x \otimes y) = x \cdot u(y)$ 代表 $x \in N$ 和 $y \in V$。对于每个$a \in \Gamma$，在$V_{(N)}$上都存在一个N线性形式h，使得$h_\sigma(x \otimes y) = x \sigma(y)$对于$x \in N$和$y \in V$。 $V_{(N)} = N \otimes_K V$到$N \otimes_K N$的典范映射是单射的。现在科。命题8（V，p. 64）表明，$V_{(N)}$上线性形式 h的核的交减少到0。因此（II，p. 302，Cor.1）存在$a_1, \ldots, \sigma_n$ $\Gamma$和$a_1, \ldots, a_n$在$N$中，使得$\tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i}$从而$u(x) = \sum_{i=1}^n a_i \sigma_i(x)$对于所有$x \in V$。
+设u为N中V的K-线性映射，并令$V_{(N)} = N \otimes_K V$为从V通过标量扩张导出的向量N空间；用 $\tilde{u}$ 表示 $V_{(N)}$ 上的 N 线性形式，使得 $\tilde{u}(x \otimes y) = x \cdot u(y)$ 代表 $x \in N$ 和 $y \in V$。对于每个$a \in \Gamma$，在$V_{(N)}$上都存在一个N线性形式h，使得$h_\sigma(x \otimes y) = x \sigma(y)$对于$x \in N$和$y \in V$。 $V_{(N)} = N \otimes_K V$到$N \otimes_K N$的典范映射是单射的。现在科。命题8（V，p. 64）表明线性形式 h的核在$V_{(N)}$上的交减少到0。因此（II，p. 302，Cor.1）存在$a_1, \ldots, \sigma_n$ $\Gamma$和$a_1, \ldots, a_n$在$N$中，使得$\tilde{u} = \sum_{i=1}^n a_i h_{\sigma_i}$从而$u(x) = \sum_{i=1}^n a_i \sigma_i(x)$对于所有$x \in V$。
 
-让我们用因子的离散拓扑的乘积拓扑将N的所有映射中的集合$N^N$装备到N中。 Th。 2 表示线性组合的集合的系数在 $\Gamma$ 的元素的 N 中，在 N 的 K-线性映射的集合中稠密。
+让我们用因子的离散拓扑的乘积拓扑将N的所有映射中的集合$N^N$装备到N中。 Th。 2表示$\Gamma$的元素的N中的线性组合的集合和系数稠密于N的K-线性映射的集合自身。
 
 #### 定理 3 {#alg-v-s10-thm-3 .statement tag=06N0}
 
-— 令 N 为 N 的域、N 的自同构的 $\Gamma$ 有限群，以及 $\Gamma$ 的不变量的 K 域。设 n 为 $\Gamma$ 的基数。
+— 令 N 为 N 的域、N 的自同构的 $\Gamma$ 有限群以及 $\Gamma$ 的不变量 K 域。令 n 为 $\Gamma$ 的基数。
 a) 我们有 $[N : K] = n$，N 是 K 的伽罗瓦扩张，其中伽罗瓦群 $\Gamma$。
 b) 令 $\sigma_1, \ldots, \sigma_n$ 为 $\Gamma$ 的元素和 N 除以 K 的 $(x_1, \ldots, x_n)$ 基，然后为 $\det (\sigma_i(x_j)) \neq 0$。
 c) 让 u 成为 N 中的 K-线性映射。存在 N 的元素的唯一族$(a_\sigma)_\sigma$，使得$u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ 对于所有 $x \in N$。
 
-我们用 N 代数结构装备环 $N \otimes_K N$，其外法则由 $\lambda(x \otimes y) = x \otimes \lambda y$ 给出，对于 N 中的$\lambda, x, y$。则向量 N 空间 $NO, N$ 的维数为 $[N : K]$。 乘积向量 N 空间 $N^\Gamma$ 的维数等于 n。 映射 $\psi$ 在 Cor 中定义。命题 8 (V, p. 64) 是 $NO, N$ 到 $N^\Gamma$, 从而 $[N : K] = n$ 的 N 同构。设A是N的K-自同构的群。我们有$\Gamma \subset A$，因此K是A的不变量的域，N是K的伽罗瓦扩张。此外，根据戴德金的定理，A的阶至多等于$[N : K]$ （V，p. 27，Cor.2）并且由于$\Gamma$的阶等于$[N : K]$，我们有$\Gamma = A$。因此$\Gamma$是N除以K的伽罗瓦群，这证明了a)。
+我们用 N 代数结构装备环 $N \otimes_K N$，其外法则由 N 中$\lambda, x, y$ 的$\lambda(x \otimes y) = x \otimes \lambda y$ 给出。则向量 N 空间 $NO, N$ 的维数为 $[N : K]$。 乘积向量 N 空间 $N^\Gamma$ 的维数等于 n。 映射 $\psi$ 在 Cor 中定义。命题 8 (V, p. 64) 是 $NO, N$ 到 $N^\Gamma$, 从而 $[N : K] = n$ 的 N 同构。设A是N的K-自同构的群。我们有$\Gamma \subset A$，因此K是A的不变量的域，N是K的伽罗瓦扩张。此外，根据戴德金的定理，A的阶至多等于$[N : K]$ （V，p. 27，Cor.2）并且由于$\Gamma$的阶等于$[N : K]$，所以我们有$\Gamma = A$。因此$\Gamma$是N除以K的伽罗瓦群，这证明了a)。
 
 将b)的记号放入$f_i = \psi(x_i \otimes 1)$；我们有 $f_i(\sigma) = \sigma(x_i)$ 对应 $1 \leq i \leq n$ 和 $\sigma \in \Gamma$。由于$\psi$是向量N空间的同构，序列$(f_1, \ldots, f_n)$是N除以N的基，从而$\det (f_j(\sigma_i)) \neq 0$，即
 
@@ -366,9 +366,9 @@ $$
 
 这证明了b)。
 
-最后，c) 由 Th 得出。 2（V，p. 65）证明了一个族$(a_\sigma)_{\sigma \in \Gamma}$的存在，使得$u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$（对于所有$x \in N$）和来自Dedekind的定理（V，p. 27，Cor.2）证明唯一性共 $(a_\sigma)_{\sigma \in \Gamma}$。
+最后，c) 由 Th 得出。 2（V，p. 65）证明了一个家庭$(a_\sigma)_{\sigma \in \Gamma}$的存在，使得$u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$（对于所有$x \in N$）和来自Dedekind的定理（V，p. 27，Cor.2）证明唯一性共 $(a_\sigma)_{\sigma \in \Gamma}$。
 
-### 7. 伽罗瓦理论的基础定理
+### 7. 伽罗瓦基本定理理论
 
 #### 定理 4 {#alg-v-s10-thm-4 .statement tag=06N1}
 
@@ -380,15 +380,15 @@ A) 关系 $E = k(g(E))$（对于$E \in \mathscr{K}$）是以下更精确的引�
 
 设 E 是 N 的子扩张。则 N 是 E 的伽罗瓦扩张，$\mathrm{Gal}(N/E)$ 是 $\mathrm{Gal}(N/K)$ 的闭子群以及导出的拓扑。
 
-设 $x \in N$； $E[X]$ 中 x 在 E 除上的最小多项式 f x 在 K 上的最小多项式 $g$（V，p. 17，Cor. 2）。由于 N 是 K 上的伽罗瓦，因此多项式 g 是次数 1 的不同因子的 $N[X]$ 中的乘积；因此 f 也是如此，因此 N 是 E 上的伽罗瓦。
+设 $x \in N$； the minimal polynomial f of x over E 除 in $E[X]$ the minimal polynomial $g$ of x over K (V, p. 17, Cor. 2).由于 N 是 K 上的伽罗瓦，因此多项式 g 是次数 1 的不同因子的 $N[X]$ 中的乘积； hence the same is true of f and so N is Galois over E.
 
-令$\Gamma$是N在K上的伽罗瓦群，A是N在E上的伽罗瓦群。通过定义，A是所有$\sigma$的$\Gamma$由……组成的子群，使得$\sigma(x) = x$对于所有$x \in E$。现在，对于 $\Gamma$ 的每个 $x \in E$ 映射 $\sigma \mapsto \sigma(x)$ 到离散空间中，N 是连续的，因此 D 在 $\Gamma$ 中是封闭的。让$\sigma \in \Gamma$；对于N中的$x_1, \ldots, x_n$，令$U(x_1, \ldots, x_n)$为所有$\tau \in \Gamma$中的集合，使得$\tau(x_i) = \sigma(x_i)$对于$1 \leq i \leq n$；把
+令$\Gamma$是N在K上的伽罗瓦群，A是N在E上的伽罗瓦群。通过定义，A是所有$\sigma$的$\Gamma$由……组成的子群，使得$\sigma(x) = x$对于所有$x \in E$。现在，对于 $\Gamma$ 的每个 $x \in E$ 映射 $\sigma \mapsto \sigma(x)$ 到离散空间中，N 是连续的，因此 D 在 $\Gamma$ 中是封闭的。让$\sigma \in \Gamma$； for $x_1, \ldots, x_n$ in N let $U(x_1, \ldots, x_n)$ be 集合 of all $\tau \in \Gamma$ such that $\tau(x_i) = \sigma(x_i)$ for $1 \leq i \leq n$;把
 
 $$
 V(x_1, \ldots, x_n) = U(x_1, \ldots, x_n) \cap \Delta.
 $$
 
-那么集合$U(x_1, \ldots, x_n)$（分别$V(x_1, \ldots, x_n)$）的家族是$\Gamma$（分别A）中$\sigma$的邻域的基。因此A上的拓扑是由$\Gamma$引起的。
+Then the family of 集合 $U(x_1, \ldots, x_n)$ (resp. $V(x_1, \ldots, x_n)$) is 基 of 邻域 of $\sigma$ in $\Gamma$ (resp. A).因此A上的拓扑是由$\Gamma$引起的。
 
 B) 关系 $A = g(k(\Delta))$（对于$A \in g$）是以下更精确的引理中的推论：
 
@@ -396,9 +396,9 @@ B) 关系 $A = g(k(\Delta))$（对于$A \in g$）是以下更精确的引理中�
 
 设 A 为 $\Gamma$ 的子群。令 E 为 A 的不变量的域；那么 N over E 的伽罗瓦群就是 A 在 $\Gamma$ 中的闭包。
 
-N 在 E 上的伽罗瓦群在 $\Gamma$ (引理 1) 和包含 A 中闭合，因此包含 A 的闭包 $\bar{\Delta}$。令 $\sigma$ 为 N 的 E 自同构，并令 $x_1, \ldots, x_n$ 在 N 中。因为 N 是 E 上的伽罗瓦(引理 1) 存在 (V, p. 57, 命题 2) N 的子扩张 $N_0$，伽罗瓦在 E 上的有限次数和包含 $x_1, \ldots, x_n$。设$A_0$为$\mathrm{Gal}(N_0/E)$下$\mathrm{Gal}(N/E)$的限制同态下$\mathrm{Gal}(N/E)$的子群A像。由于$[N_0 : E]$是有限的，戴德金的定理（V，p. 27，Cor.2）表明$\mathrm{Gal}(N_0/E)$是有限的。因此$A_0$是有限的，并且由于E是$A_0$的不变量的域，所以我们有$\Delta_0 =$
+N 在 E 上的伽罗瓦群在 $\Gamma$ (引理 1) 和包含 A 中闭合，因此包含 A 的闭包 $\bar{\Delta}$。令 $\sigma$ 为 N 的 E 自同构，并令 $x_1, \ldots, x_n$ 在 N 中。因为 N 是 E 上的伽罗瓦 (引理 1) there exist (V, p. 57, Prop. 2) a subextension $N_0$ of N, Galois of 有限次数 over E and 包含 $x_1, \ldots, x_n$. Let $A_0$ be 像 of 子群 A of $\mathrm{Gal}(N/E)$ under 限制同态 of $\mathrm{Gal}(N/E)$ into $\mathrm{Gal}(N_0/E)$. Since $[N_0 : E]$ is finite, Dedekind's 定理 (V, p. 27, Cor. 2) shows that $\mathrm{Gal}(N_0/E)$ is finite. Hence $A_0$ is finite, and since E is 域 of invariants of $A_0$, we have $\Delta_0 =$
 
-Gal(N_0/E) (V、p. 66、Th.3)。特别是，$\sigma$至$N_0$中的$\Delta_0$包含限制。因此，存在$\tau \in A$使得$\sigma$和$\tau$具有相同的限制至$N_0$、从而$\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$。由此可见，$\sigma$ 是$\Gamma$ 中$A$ 的极限点，因此是$\mathrm{Gal}(N/E) \subset \overline{\Delta}$。
+Gal(N_0/E) (V、p. 66、Th.3)。 In particular, $\Delta_0$ 包含限制 of $\sigma$ to $N_0$. Therefore there exists $\tau \in A$ such that $\sigma$ and $\tau$ have the same 限制 to $N_0$, 从而 $\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$. It follows that $\sigma$ is 极限点 of $A$ in $\Gamma$, and hence $\mathrm{Gal}(N/E) \subset \overline{\Delta}$.
 
 #### 推论 1 {#alg-v-s10-lem-2-cor-1 .statement tag=06N4}
 
@@ -408,7 +408,7 @@ Gal(N_0/E) (V、p. 66、Th.3)。特别是，$\sigma$至$N_0$中的$\Delta_0$包�
 
 #### 推论 2 {#alg-v-s10-lem-2-cor-2 .statement tag=06N5}
 
-*令$(E_i)_{i \in I}$为子域、N包含K的家庭；输入$L = \bigcap_{i \in I} E_i$和$M = K\left( \bigcup_{i \in I} E_i \right)$。那么g(L)是最小的闭子群的包含$U_{i \in I} g(E_i)$，我们有$g(M) = \bigcap_{i \in I} g(E_i)$。*
+*设$(E_i)_{i \in I}$是子域的N包含K的家庭；输入$L = \bigcap_{i \in I} E_i$和$M = K\left( \bigcup_{i \in I} E_i \right)$。那么g(L)是最小的闭子群的包含$U_{i \in I} g(E_i)$，我们有$g(M) = \bigcap_{i \in I} g(E_i)$。*
 
 第一个断言来自Cor。 1，第二个是直接的。
 
@@ -420,25 +420,25 @@ Gal(N_0/E) (V、p. 66、Th.3)。特别是，$\sigma$至$N_0$中的$\Delta_0$包�
 
 #### 推论 4 {#alg-v-s10-lem-2-cor-4 .statement tag=06N7}
 
-*设 E 为 N 包含 K 的子域，并设 $A = g(E)$。为了使 E 成为 K 上的伽罗瓦，A 应该是 $\Gamma$ 的正规子群是充分必要的。在这种情况下，将 $\Gamma$ 的限制同态代入 $\mathrm{Gal}(E/K)$ 定义，通过商将 $\Gamma / \Delta$ 的拓扑群同构代入 $\mathrm{Gal}(E/K)$。*
+*设 E 为 N 包含 K 的子域，并设 $A = g(E)$。为了使 E 成为 K 上的伽罗瓦，A 应该是 $\Gamma$ 的正规子群是充分必要的。在这种情况下，$\Gamma$的限制同态进入$\mathrm{Gal}(E/K)$定义，通过商将$\Gamma / \Delta$的拓扑群同构进入$\mathrm{Gal}(E/K)$。*
 
 由于 N 在 K 上可分，因此 E 也是如此（V，p. 36，命题 1）。因此，E 是 K 上的伽罗瓦当且仅当它是 K 上的拟伽罗瓦；这也意味着$\sigma(E) = E$对于N的每个K-自同构$\sigma$（V，p. 52，命题1和p. 54，命题3）。由科. 3 这相当于所有 $\sigma \in \Gamma$ 的 $\sigma \Delta \sigma^{-1} = A$。
 
-限制同态 $\varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K)$ 是连续且满射的（V、p. 60，命题 3），且其核显然等于 $A = \mathrm{Gal}(N/E)$。由于$\Gamma$是紧的，$\Gamma / \Delta$到$\mathrm{Gal}(E/K)$的同态通过商的方式从$\varphi$导出，是拓扑群的同构（Gen.Top.，I，p. 87，Cor.2）。
+限制同态 $\varphi : \mathrm{Gal}(N/K) \to \mathrm{Gal}(E/K)$ 是连续且满射的（V、p. 60，命题 3），并且其核显然等于 $A = \mathrm{Gal}(N/E)$。由于$\Gamma$是紧的，$\Gamma / \Delta$到$\mathrm{Gal}(E/K)$的同态从$\varphi$通过到商导出，是拓扑群的同构（Gen.Top.，I，p. 87，Cor.） 2）。
 
 #### 推论 5 {#alg-v-s10-lem-2-cor-5 .statement tag=06N8}
 
-*设 E 为 N 包含 K 的子域。对于 E 的有限次数超过 K，g(E) 在 $\Gamma$ 中开是充分必要的。当这种情况发生时，指标 $(\Gamma : g(E))$ 是有限的并且等于 [E : K]。*
+*设 E 为 N 包含 K 的子域。对于 E 的有限次数大于 K，g(E) 在 $\Gamma$ 中开是充分必要的。当这种情况发生时，指标$(\Gamma : g(E))$是有限的并且等于[E : K]。*
 
-为了使$g(E)$开，存在N的子扩展F、有限次数在K上的子扩展F是必要且充分的，使得在V的记号中，p. 60。
+为了使$g(E)$开，必须存在N的子扩展F，有限次数在K上，这样在V的记号中，有p. 60。
 
-g(E)包含$U_F(\mathrm{Id}_N) = g(F)$。 关系 $g(E) \supset g(F)$ 相当于 Cor 的 $E \subset F$。 1 (V, p. 68), 从而 Cor 的第一个断言。 5.
+g(E)包含$U_F(\mathrm{Id}_N) = g(F)$。 Cor. 关系 $g(E) \supset g(F)$ 相当于 $E \subset F$。 1 (V, p. 68), 从而 Cor 的第一个断言。 5.
 
 假设 $[E : K]$ 是有限的。设$\Omega$为$K$包含$N$的代数闭包作为子外延（V，p. 23，Th.2），并令$\mathscr{H}$为$K$的集合-同态$E$ 变为$\Omega$。 $\mathscr{H}$的每个元素都是由$\Omega$的$K$自同构引起的（V，p. 52，命题1），并且由于$N$是$K$，映射的拟伽罗瓦$\Gamma$到$\mathscr{H}$的$\sigma \mapsto \sigma|_E$是满射。为了使$\Gamma$中的$\sigma$和$\sigma'$具有相同的限制至$E$，$\sigma^{-1}\sigma' \in g(E)$、从而卡$A? = (\Gamma : g(E))$是充分必要的。最后，由于 $E$ 是 $K$ 的 etale 代数，我们有卡片 $\mathscr{H} = [E : K]$（V，p. 32，命题 4），所以结论是我们有 $(\Gamma : g(E)) = [E : K]$。
 
 #### 推论 6 {#alg-v-s10-lem-2-cor-6 .statement tag=06N9}
 
-— 对于$i = 1, 2$，令$E_i$为$N$的$N$和$\Gamma_i$伽罗瓦群在$E_i$上的子扩展。以下条件是等效的：
+— 对于$i = 1, 2$，令$E_i$为$N$在$E_i$上的$N$和$\Gamma_i$伽罗瓦群的子扩展。以下条件是等效的：
 a) 群 $\Gamma$ 是子群 $\Gamma_1$ 和 $\Gamma_2$ 的直接乘积。
 b) 扩张 $E_1$ 和 $E_2$ 是 $K$ 上的伽罗瓦，我们有 $E_1 \cap E_2 = K$ 和
 $$
@@ -460,7 +460,7 @@ $$
 $$
 通过a)我们看到映射$\sigma \mapsto (\varphi_1(\sigma), \varphi_2(\sigma))$是$\mathrm{Gal}(N/K)$到$\mathrm{Gal}(E_1/K) \times \mathrm{Gal}(E_2/K)$的拓扑群同构。
 
-### 8. Change of base field
+### 8. 基域变换
 
 令$N$为$K$之伽罗瓦扩张且$N$之$\Gamma$伽罗瓦群超过$K$；进一步令$N'$为$K'$的伽罗瓦扩张和伽罗瓦群$\Gamma'$。 我们将认同$K$（或$K'$）及其像放在$N$（或$N'$）中。 设$u$为$K$的同态入$K'$，$v$同态入$N$入$N'$，其限制至$K$等于$u$（cf.）
 
@@ -474,17 +474,17 @@ $$
 
 ![图表显示 N, N', K, K' 之间的映射 v 和 u]（图 1）
 
-映射 $v^*$ 是 $\mathrm{Gal}(N'/K')$ 的同态到 $\mathrm{Gal}(N/K)$。对于每个$x \in N$，$\Gamma'$的映射$a \mapsto v^*(o)(x) = v^{-1}(\sigma(v(x)))$进入离散空间$N$是连续的，因此$v^*$是连续的。
+映射 $v^*$ 是 $\mathrm{Gal}(N'/K')$ 的同态到 $\mathrm{Gal}(N/K)$。对于每个$x \in N$，$\Gamma'$的映射$a \mapsto v^*(o)(x) = v^{-1}(\sigma(v(x)))$转化为离散的空间$N$是连续的，因此$v^*$是连续的。
 
 三个特殊情况很重要：
 
-a) 如果$F$是$K$的伽罗瓦扩张并且$E$是$F$的子扩展，我们知道（V，p. 67，引理1）$F$是$E$的伽罗瓦扩张。让我们将上述内容应用到$N = F$、$K' = E$、$N' = F$和$v = \mathrm{Id}_F$的情况。那么$v^*$仅仅是典范嵌入
+a) 如果$F$是$K$的伽罗瓦扩张并且$E$是$F$的子扩展，我们知道（V，p. 67，引理 1）$F$是伽罗瓦扩张 $E$。让我们将上述内容应用到$N = F$、$K' = E$、$N' = F$和$v = \mathrm{Id}_F$的情况。那么$v^*$仅仅是典范嵌入
 
 $$
 j : \mathrm{Gal}(F/E) \to \mathrm{Gal}(F/K) .
 $$
 
-这就是有时，称为膨胀同态。
+这就是有时称为膨胀同态。
 
 b) 假设在加法 $E$ 中，伽罗瓦在 $K$ 上。让我们将上述内容应用到$N = E$、$K' = K$、$N' = F$和$v$是$E$的典范嵌入到$F$的情况。那么$v^*$就是限制同态
 
@@ -492,7 +492,7 @@ $$
 \pi : \mathrm{Gal}(F/K) \to \mathrm{Gal}(E/K)
 $$
 
-我们知道（V，p. 60，命题 3）$\pi$ 是满射，核 $\mathrm{Gal}(F/E)$ 并且通过取商可以将定义 $\mathrm{Gal}(F/K)/\mathrm{Gal}(F/E)$ 的拓扑群同构推到 $\mathrm{Gal}(E/K)$ (V， p. 68，Cor.4）。
+我们知道（V，p. 60，命题 3）$\pi$ 是满射，核 $\mathrm{Gal}(F/E)$ 并且通过将商定义 $\mathrm{Gal}(F/K)/\mathrm{Gal}(F/E)$ 的拓扑群同构带到$\mathrm{Gal}(E/K)$（V、p. 68、Cor.4）。
 
 c) 假设$v^{-1}(K') = K$和$N' = K'(v(N))$；让我们证明同态
 
@@ -500,11 +500,11 @@ $$
 v^* : \mathrm{Gal}(N'/K') \to \mathrm{Gal}(N/K) ,
 $$
 
-是一个拓扑群同构、有时，称为平移。由于群$\mathrm{Gal}(N'/K')$是紧致的，群$\mathrm{Gal}(N/K)$是分离的，$v^*$是连续的；因此足以证明 $v^*$ 是双射的（Gen. Top., I, p. 87, Cor. 2）。现在$v^*$的核的每个元素$\sigma$都是$N'$的自同构，其中诱导是$K'$和$v(N)$上的恒等式，因此是$a = \epsilon$，因为$N' = K'(v(N))$；由此可见 $v^*$ 是单射的。此外，$v^*$的像是$\mathrm{Gal}(N/K)$的闭子群$A$
+是一个拓扑群同构，有时，称为平移。由于群$\mathrm{Gal}(N'/K')$是紧致的，群$\mathrm{Gal}(N/K)$是分离的，$v^*$是连续的；因此足以证明 $v^*$ 是双射的（Gen. Top., I, p. 87, Cor. 2）。现在$v^*$的核的每个元素$\sigma$都是$N'$的自同构，其中诱导是$K'$和$v(N)$上的恒等式，因此$a = \epsilon$因为$N' = K'(v(N))$；由此可见 $v^*$ 是单射的。此外，$v^*$的像是$\mathrm{Gal}(N/K)$的闭子群$A$
 
-（Gen. Top.，I，p. 81，*同上。*）$A$的不变量域等于$v^{-1}(K') = K$；因此我们有 $A = \mathrm{Gal}(N/K)$ (V, p. 67, Th. 4)，所以 $v^*$ 是满射。
+（Gen. Top.，I，p. 81，*同上。*）并且$A$的不变量域等于$v^{-1}(K') = K$；因此我们有 $A = \mathrm{Gal}(N/K)$ (V, p. 67, Th. 4)，所以 $v^*$ 是满射。
 
-一般情况可以减少合成。首先我们注，$K'(v(N))$是$v^*$核$A$$N'$中的不变量域；因为$A$是$\mathrm{Gal}(N'/K')$的正规子群，$K'$的扩张$K'(v(N))$是Galois（V，p. 68，Cor.4）。因此$v^*$由同态组成
+一般情况可以减少合成。首先，我们注意到$K'(v(N))$是核的$N'$、$v^*$的$A$中的不变量域；因为$A$是$\mathrm{Gal}(N'/K')$的正规子群，$K'$的扩张$K'(v(N))$是Galois（V，p. 68，Cor.4）。因此$v^*$由同态组成
 
 $$
 \mathrm{Gal}(N'/K') \to \mathrm{Gal}(K'(u(N))/K') \xrightarrow{\psi} \mathrm{Gal}(N/v^{-1}(K')) \xrightarrow{j} \mathrm{Gal}(N/K);
@@ -520,9 +520,9 @@ $$
 
 #### 定理 5 {#alg-v-s10-thm-5 .statement tag=06NB}
 
-*令$N'$为由两个子扩展$K'$和$N$生成的$K$的扩张。假设 $N$ 是 $K$ 上的伽罗瓦，其中伽罗瓦群 $\Gamma$ 以及 $K' \cap N = K$。那么$K'$的扩张$N'$就是伽罗瓦，$K' \otimes_K N$的典范同态$\varphi$到$N'$就是同构。令 $\sigma \in \mathrm{Gal}(N/K)$ 并令 $\sigma'$ 为 $\mathrm{Gal}(N'/K')$ 的元素，其中对应在翻译同构下；那么我们就有 $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$.*
+*令$N'$为由两个子扩展$K'$和$N$生成的$K$的扩张。假设$N$是$K$之上的伽罗瓦，其中伽罗瓦群$\Gamma$和$K' \cap N = K$。那么$K'$的扩张$N'$就是伽罗瓦，$K' \otimes_K N$的典范同态$\varphi$到$N'$就是同构。令 $\sigma \in \mathrm{Gal}(N/K)$ 并令 $\sigma'$ 为 $\mathrm{Gal}(N'/K')$ 的元素，其中对应在翻译同构下；那么我们就有 $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$.*
 
-我们有 $N' = K'(N)$ 且 $N$ 是代数且可在 $K$ 上分离；因此（V，p. 42，命题10），$K'$的扩张$N'$是代数且可分的。由科. 4 of V、p. 54 扩张 $N'$ $K'$ 是拟伽罗瓦。因此 $K'$ 的扩张 $N'$ 是伽罗瓦。 c) 上面的映射$\sigma \mapsto \sigma|_N$是$\mathrm{Gal}(N'/K')$的同态$\lambda$到$\mathrm{Gal}(N/K)$。
+我们有 $N' = K'(N)$ 且 $N$ 是代数且可在 $K$ 上分离；因此（V，p. 42，命题10），$K'$的扩张$N'$是代数且可分的。由科. V 的 4 个、$K'$ 的 p. 54 扩张 $N'$ 是拟伽罗瓦。因此 $K'$ 的扩张 $N'$ 是伽罗瓦。通过c)，上面的映射$\sigma \mapsto \sigma|_N$是$\mathrm{Gal}(N'/K')$的同态$\lambda$到$\mathrm{Gal}(N/K)$。
 
 我们有$N = K'[N]$，因为$N$是$K$的代数（V，p. 18，Cor.1），因此$\varphi$是满射。如果 $a$ 属于到 $\mathrm{Gal}(N/K)$，我们有
 
@@ -566,13 +566,13 @@ $$
 
 也就是说，对于所有 $x \in N$，$\mathrm{Tr}_{N/K}(x) = t \cdot x$。
 
-让我们定义作用在右边，通过 $\Gamma$ 在 $N$ 通过 $x^\sigma = \sigma^{-1}(x)$。以类似的方式，我们可以将乘法群$N^*$视为右$Z^{(\Gamma)}$模块，外法则写作$(x, u) \mapsto x^u$。对于例、记号$x^{2a + 3r + \pi}$，其中$a, r, \pi$是$\Gamma$的元素，表示乘积$(x^a)^2 \cdot (x^r)^3 \cdot x^\pi$。如果如上所述，$N$ 的有限次数超过$K$ 和 $t = \sum_{\sigma \in \Gamma} a$，则我们有 $N_{N/K}(x) = \prod_{\sigma \in \Gamma} x^\sigma$，即，对于所有 $x \in N^*$，我们有 $N_{N/K}(x) = x'$。
+让我们定义作用在右边，通过 $\Gamma$ 在 $N$ 通过 $x^\sigma = \sigma^{-1}(x)$。以类似的方式，我们可以将乘法群$N^*$视为右$Z^{(\Gamma)}$模块，外法则写作$(x, u) \mapsto x^u$。例如，记号$x^{2a + 3r + \pi}$，其中$a, r, \pi$是$\Gamma$的元素，表示乘积$(x^a)^2 \cdot (x^r)^3 \cdot x^\pi$。如果$N$是有限次数超过$K$和$t = \sum_{\sigma \in \Gamma} a$，如上所述，那么我们有$N_{N/K}(x) = \prod_{\sigma \in \Gamma} x^\sigma$，也就是说，对于所有$x \in N^*$，我们有$N_{N/K}(x) = x'$。
 
-假设此后$N$ 是有限次数超过$K$。给定$x \in N$，对于$\{x\}$是$\mathbf{K}^{(\Gamma)}$模块$N$的基，族$(\sigma(x))_{\sigma \in \Gamma}$应该是$N$的基超过$K$是充分必要的。这样的基被称为$N$超过$K$*的*正常基。
+假设此后$N$是有限次数超过$K$。给定$x \in N$，对于$\{x\}$是$\mathbf{K}^{(\Gamma)}$模块$N$的基，族$(\sigma(x))_{\sigma \in \Gamma}$应该是$N$的基超过$K$是充分必要的。这样的基被称为$N$超过$K$*的*正常基。
 
 #### 定理 6 {#alg-v-s10-thm-6 .statement tag=06NF}
 
-*令$N$为有限次数之伽罗瓦扩张超过$K$，令$\Gamma$为$N$之伽罗瓦群超过$K$。那么存在正常的基为$N$超过$K$；在其他字中，$\mathbf{K}^{(\Gamma)}$模块$N$不含秩1。*
+*设$N$为有限次数之伽罗瓦扩张超过$K$，令$\Gamma$为$N$之伽罗瓦群超过$K$。那么存在正常的基为$N$超过$K$；在其他字中，$\mathbf{K}^{(\Gamma)}$模块$N$不含秩1。*
 
 我们将给出这个叙述中的两个证明。第一个使用以下引理，将在章VIII（§ 2, No. 5）中证明。
 
@@ -652,7 +652,7 @@ $\Gamma$ 假设子群 $A_i, \ldots, A_n$ 已开放，Cor. V、p. 68 的 5，显�
 
 #### 命题 12 {#alg-v-s10-prop-12 .statement tag=06NK}
 
-— 对于每个有限 $\Gamma$ 集 $X$ 代数 $\Theta(X)$ ，$K$ 的 etale，次数等于 $X$ 的基数。此外，$K$之上的每个etale代数都同构于形式$\Theta(X)$的代数。
+— 对于每个有限 $\Gamma$ 集 $X$ 代数 $\Theta(X)$ ，次数的$K$ 等于$X$ 的基数。此外，$K$上的每个etale代数同构于形式$\Theta(X)$的代数。
 
 #### 注 {#alg-v-s10-n10-rem-1 .statement tag=06NL}
 
@@ -676,14 +676,14 @@ c) 域 $N_r$ 和 $N$，在 $K$ 上呈线性不相交的，我们有 $N = K[N, \c
 
 $\Omega$ 映射 $N$ 到 $N$ 的每个 $K$ 自同构，因此 $N_r$ 到 $N_r$，所以 $N_r$ 是 $K$ 的拟伽罗瓦扩展 ($V$， p. 54，提案 3）。由此可见，$N_s$ 是$K$ 的伽罗瓦扩张。 $N_r \cap N$ 的每个元素，在 $K$ 上都是可分离的代数和 $p$ 根式，因此属于到 $K$（$V$，p. Cor. 3）；因此我们有$K_r \cap K_s = K$。现在$N$是$N_r$上的$p$根式（$V$，p. 44，命题13），并且是$N_r$上的可分离代数（$V$，p. 56，Th.1），因此$p$-激进且可分离超过$K(N_r \cup N_s)$。因此我们有$N = K(N_r \cup N_s)$ ($V$, p. 39, Cor.3) 和断言 b), c) 从Th 开始。 5（$V$，p. 71）。
 
-#### 推论{#alg-v-s10-n11-cor-1 .statement tag=06NN}
+#### 推论 {#alg-v-s10-n11-cor-1 .statement tag=06NN}
 
-— 令$p$为$K$、$\overline{K}$、代数闭包的$K$、$K_s$的特征指数，$\overline{K}$中$K$的相对可分闭包和$K^{p^{-\infty}}$为$K$的完美闭包。那么$K^{p^\infty} \otimes K_s$到$\overline{K}$的典范同态就是同构。
+— 令$p$$K$的特征指数，$K$的$\overline{K}$代数闭包，$K_s$，$\overline{K}$和$K^{p^{-\infty}}$中$K$的相对可分闭包完美闭包$K$。那么$K^{p^\infty} \otimes K_s$到$\overline{K}$的典范同态就是同构。
 
 #### 注 {#alg-v-s10-n11-rem-1 .statement tag=06NO}
 
-令$R$（或$S$）为$K$的$p$根（或可分离代数）扩张。 Then 代数 $R \otimes_K S$ is 域 : for $R$ (resp. $S$) is isomorphic to a subextension of $K^{p^\infty}$ (resp. $K_s$) and it suffices to apply the above Cor.以及$V$、p. 17的第1条建议。
+令$R$（或$S$）为$K$的$p$根式（或可分离代数）扩张。那么代数$R \otimes_K S$是域：因为$R$（分别$S$）同构于$K^{p^\infty}$（分别$K_s$）的子扩展，并且足以应用上述Cor。以及$V$、p. 17的第1号提案。
 
-### 习题{#alg-v-s10-exercises}
+### 习题 {#alg-v-s10-exercises}
 
 参见[习题为 § 10](exercises/s10/)。

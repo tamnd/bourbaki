@@ -29,19 +29,19 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 8d0f4969c62e2c80e958e8e48fc80a071082385fb4970f3049f695eb835246c7
+content_sha256: 72a24e03e4fdfb9db63739480d81f812c8b449118cf2147d14169c87d4df300f
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
 translation_method: google
 source_content_sha256: a7de25f8e6403d336b77dd0506a5e00a8938e7643c273332f7c1b37ad5210590
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 86eef560d8ada79cb14461ff21ca37c2cd99af1b29edb6d85d47cb272e65aed5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。希尔伯特矩阵中的正交族空间
+## § 2。希尔伯特空间中的正交族
 
 ### 1. 希尔伯特空间的外部希尔伯特和
 
@@ -114,7 +114,7 @@ $$
 
 #### 推论 1 {#evt-v-s2-thm-1-cor-1 .statement tag=07ZC}
 
-— 令 E 为希尔伯特空间，它是 E 的闭向量子空间族$(E_i)_{i \in I}$ 的希尔伯特和；对于所有$i \in I$，令$p_{E_i}$为从E到$E_i$的正射投影（V，p. 13）。
+— 令 E 为希尔伯空间，它是 E 的闭向量子空间族$(E_i)_{i \in I}$ 的希尔伯和；对于所有$i \in I$，令$p_{E_i}$为从E到$E_i$的正射投影（V，p. 13）。
 
 a) 对于所有$x \in E$，族$(\|p_{E_i}(x)\|^2)_{i \in I}$可在$\mathbf{R}$中求和，族$(p_{E_i}(x))_{i \in I}$可在E中求和，并且我们有
 
@@ -144,9 +144,9 @@ $$
 $$
 p_V(x) = \sum_{i \in I} p_{E_i}(x), \quad \|p_V(x)\|^2 = \sum_{i \in I} \|p_{E_i}(x)\|^2,
 $$
-其中$p_V$表示从E到V的正射投影。
+其中 $p_V$ 表示从 E 到 V 的正射投影。
 
-令 $\hat{E}$ 为 E 的希尔伯特空间补全；我们认同 E，稠密子空间为 $\hat{E}$； $E_i$完成后，关闭$\hat{E}$的子空间。 $\hat{E}$中V的闭包$\overline{V}$是由$E_i$的并和$V = \overline{V} \cap E$生成的$\hat{E}$的闭包向量子空间。 空间$\hat{E}$是$E_i$和子空间W的希尔伯特和，$\overline{V}$在$\hat{E}$的正交补集；将 $x_0 = p_W(x)$ 和 $x_i = p_{E_i}(x)$ 放入所有 $i \in I$。由科。 1，我们有$\|x\|^2 = \|x_0\|^2 + \sum_{i \in I} \|x_i\|^2$，$\hat{E}$中有$x = x_0 + \sum_{i \in I} x_i$。这意味着断言 1)，并且 2) 的条件 b) 和 c) 相当于条件 $x_0 = 0$，因此相当于条件 $x \in V$。最后，如果V是完整的，并且如果我们放入$x' = p_V(x)$，我们就有$x' - x_i = (x - x_i) - (x - p_V(x))$，因此$x' - x_i$与$E_i$正交，因此$x_i = p_{E_i}(x')$对于所有$i \in I$；现在将性质 2) 应用于向量 $x'$ 就足够了。
+令 $\hat{E}$ 为 E 的希尔伯特空间补全；我们认同 E，稠密子空间为 $\hat{E}$； $E_i$ 完成后，关闭 $\hat{E}$ 的子空间。 $\hat{E}$中V的闭包$\overline{V}$是由$E_i$的并和$V = \overline{V} \cap E$生成的$\hat{E}$的闭包向量子空间。 空间$\hat{E}$是$E_i$和子空间W的希尔伯特和，$\overline{V}$在$\hat{E}$的正交补集；将 $x_0 = p_W(x)$ 和 $x_i = p_{E_i}(x)$ 放入所有 $i \in I$。由科。 1，我们有$\|x\|^2 = \|x_0\|^2 + \sum_{i \in I} \|x_i\|^2$，$\hat{E}$中有$x = x_0 + \sum_{i \in I} x_i$。这意味着断言 1)，并且 2) 的条件 b) 和 c) 相当于条件 $x_0 = 0$，因此相当于条件 $x \in V$。最后，如果V是完整的，并且如果我们放入$x' = p_V(x)$，我们就有$x' - x_i = (x - x_i) - (x - p_V(x))$，因此$x' - x_i$与$E_i$正交，因此$x_i = p_{E_i}(x')$对于所有$i \in I$；现在将性质 2) 应用于向量 $x'$ 就足够了。
 
 #### 注 {#evt-v-s2-n2-rem-1 .statement tag=07ZE}
 
@@ -174,7 +174,7 @@ E 的子集 S 使得由恒等映射从 S 到自身定义的族是正交的，则
 
 在 Hausdorff prehilbertian 空间 E 中，每个正交族在拓扑上都是独立的。
 
-我们注认为，这个性质紧随拓扑独立族刻画（IV，p. 1和II，p. 43，cor.2），因为E的对偶性与E的完成或与空间共轭到E的识别根据： K 等于 R 或 C (V、p. 17、注)。
+我们注意到，这个性质紧随拓扑独立族的刻画（IV，p. 1和II，p. 43，cor.2），因为根据K等于R或空间共轭来识别E的对偶与E的完成或空间共轭到E C（V、p. 17、注）。
 
 #### 命题 4 {#evt-v-s2-prop-4 .statement tag=07ZI}
 
@@ -271,14 +271,14 @@ $$
 
 #### 命题 6 {#evt-v-s2-prop-6 .statement tag=07ZP}
 
-*设 E 为 Hausdorff prehilbertian 空间，并令 $(a_n)_{n \in I}$（I $\mathbf{N}$ 的间隔，原点为 1）为 E 的向量可数（有限或非）独立族。在 E 中存在一个正交规范族 $(e_n)_{n \in I}$，且只有一个，具有以下性质：属性：
+*设 E 为 Hausdorff prehilbertian 空间，并设 $(a_n)_{n \in I}$（$\mathbf{N}$ 的 I 区间，原点为 1）是 E 的向量可数（有限或非）独立族。存在正交族 $(e_n)_{n \in I}$，且仅一，在E中，具有以下属性：
 
 1) 对于每个整数$p \in I$，$e_1, e_2, ..., e_p$生成的E的向量子空间与$a_1, a_2, ..., a_p$生成的E的向量子空间相同；
 2) 对于每个整数 $p \in I$，数 $\langle a_p|e_p \rangle$ 都是实数，$> 0$。
 
-事实上，令 $V_n$ 为$a_1, a_2, ..., a_n$ 生成的子空间（维数 n）。如果$n + 1 \in I$和$b_{n+1} = a_{n+1} - p_{V_n}(a_{n+1})$（其中$p_{V_n}$是完整的子空间$V_n$上的正射投影），则线$K b_{n+1}$是$V_{n+1}$中$V_n$的正交。如果命题的$e_n$满足条件1)，我们必须有$e_{n+1} = \lambda b_{n+1}$； 条件$\|e_{n+1}\| = 1$则意味着$|\lambda|^2 \|b_{n+1}\|^2 = 1$并且条件$\langle a_{n+1}|e_{n+1} \rangle > 0$意味着$\lambda \langle a_{n+1}|b_{n+1} \rangle > 0$；这完全确定$\lambda$，并且我们已经证明，我们可以通过归纳，一个正交族$(e_n)_{n \in I}$，并且只有一个确定，从而命题的满足条件1）和2）。
+事实上，令 $V_n$ 为$a_1, a_2, ..., a_n$ 生成的子空间（维数 n）。如果$n + 1 \in I$和$b_{n+1} = a_{n+1} - p_{V_n}(a_{n+1})$（其中$p_{V_n}$是完整的子空间$V_n$上的正射投影），则线$K b_{n+1}$是$V_{n+1}$中$V_n$的正交。如果命题的$e_n$满足条件1)，我们必须有$e_{n+1} = \lambda b_{n+1}$； 条件$\|e_{n+1}\| = 1$则意味着$|\lambda|^2 \|b_{n+1}\|^2 = 1$并且条件$\langle a_{n+1}|e_{n+1} \rangle > 0$意味着$\lambda \langle a_{n+1}|b_{n+1} \rangle > 0$；这完全确定$\lambda$，并且我们已经证明，我们可以通过归纳，一个正交族$(e_n)_{n \in I}$，并且只有一个，来确定，从而命题的满足条件1）和2）。
 
-据说序列$(e_n)_{n \in I}$是通过独立族$(a_n)_{n \in I}$的“正交归一化”获得的。显然，$(e_n)$族生成的向量子空间与$(a_n)$族生成的向量子空间相同。特别是，如果 $(a_n)$ 是总序列，则 $(e_n)$ 也是总序列，那么它就是 E 的正交基；因此我们得到：
+据说序列$(e_n)_{n \in I}$是通过独立族$(a_n)_{n \in I}$的“正交归一化”获得的。显然，$(e_n)$族生成的向量子空间与$(a_n)$族生成的向量子空间相同。特别是，如果 $(a_n)$ 是总序列，则 $(e_n)$ 也是，那么它就是 E 的正交基；因此我们得到：
 
 #### 推论 {#evt-v-s2-n4-cor-1 .statement tag=07ZQ}
 
@@ -289,12 +289,12 @@ $$
 我们可以给出 Hausdorff prehilbertian 空间的例，不具有任何正交标准基（V，p. 70，练习 2）。
 #### 例 {#evt-v-s2-n4-exa-1 .statement tag=07ZR}
 
-令I为I上实值连续函数的$\mathbf{R}$和E向量空间的区间$(-1, 1)$。令$x$表示从I到$\mathbf{R}$的典范嵌入，视为E的元素。根据Stone-Weierstrass，定理序列$(x^n)_{n \in \mathbf{N}}$是均匀收敛GT的拓扑在E中的总和， X, § 4, No. 2）。
+令I为$\mathbf{R}$的区间$(-1, 1)$和I上的实值连续函数的E向量空间。令$x$表示从I到$\mathbf{R}$的典范嵌入，视为E的元素。根据Stone-Weierstrass，定理序列$(x^n)_{n \in \mathbf{N}}$是均匀收敛GT的拓扑在E中的总和， X, § 4, No. 2）。
 将 E 视为实数 Hausdorff prehilbertian 空间，其中标量乘积由下式给出
 $$
 \langle f | g \rangle = \int_{-1}^{1} f(t) \, g(t) \, dt .
 $$
-序列 $(x^n)_{n \in \mathbf{N}}$ 则在前希尔伯特空间 E 中求和。令 $(\Pi_n)_{n \in \mathbf{N}}$ 为通过序列 $(x^n)_{n \in \mathbf{N}}$ 正交归一化获得的序列。我们可以证明 $\Pi_n = (n + \frac{1}{2})^{1/2} P_n$，其中勒让德多项式 $P_n$ 定义为
+序列 $(x^n)_{n \in \mathbf{N}}$ 则在前希尔伯特空间 E 中求和。令 $(\Pi_n)_{n \in \mathbf{N}}$ 为通过序列 $(x^n)_{n \in \mathbf{N}}$ 正交化获得的序列。我们可以证明 $\Pi_n = (n + \frac{1}{2})^{1/2} P_n$，其中勒让德多项式 $P_n$ 定义为
 $$
 P_n(x) = \frac{1}{2^n n!} \left( \frac{d}{dx} \right)^n (x^2 - 1)^n .
 $$
@@ -313,8 +313,8 @@ $$
 
 #### 推论 2 {#evt-v-s2-prop-7-cor-2 .statement tag=07ZU}
 
-— 在阶希尔伯空间 $\ell^2(I)$ 和 $\ell^2(J)$ 同构中，I 和 J 等价是充分必要的。
+— 在阶中，希尔伯特空间、$\ell^2(I)$和$\ell^2(J)$同构的，I和J等价是充分必要的。
 
-### 习题{#evt-v-s2-exercises}
+### 习题 {#evt-v-s2-exercises}
 
 参见[习题为 § 2](exercises/s2/)。

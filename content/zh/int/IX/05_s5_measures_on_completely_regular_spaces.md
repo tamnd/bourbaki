@@ -41,19 +41,19 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 77601149dec8d7e2c22af1babfcdfa071a1ae86257adbb249a5b8ee839431706
+content_sha256: 297d5e27879154280ddc52514fa7dedcde792e57238f6990af28cb6513f33132
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
 translation_method: google
 source_content_sha256: 0a375a056c9792c3ccd44cccce1d823b83bccfdd6973e87e8cb9fdf911d4ef53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 864b80947d1ee203e8e5457ada2123306fa945356d757f6636e9566d0685101c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 5。完全正常的措施空间
+## § 5。措施完全正常空间
 
 如果T是拓扑空间，F是Banach空间，则记号$C^b(T; F)$表示T上有界连续函数的空间，F中值，配备一致收敛的范数。如果$F = \mathbf{R}$，则此记号缩写为$C^b(T)$，如果没有歧义则缩写为$C^b$，并且用$C^b_+(T)$或$C^b_+$表示$C^b(T)$中正函数的圆锥体。 T 上有界复测度的空间将表示为 $M^b(T; \mathbf{C})$，有界实测度的空间将表示为 $M^b(T)$ 或 $M^b$，有界正测度的锥体将表示为 $M^b_+(T)$ 或 $M^b_+$。
 
@@ -65,7 +65,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 设T是完全正则空间，K是T的紧子集，U是T包含K的开子集。
 a) 存在 T 的开子集 U'，使得 $K \subset U' \subset \overline{U'} \subset U$。
-b) 令 f 为在 K 上定义的连续函数，其中值位于I $\mathbf{R}$ 区间（分别在 $\mathbf{C}$ 中）。 T 上存在有界连续函数 $f'$，I 中有值（$\mathbf{C}$），扩展 f 且 $T - U$ 上有零。
+b) 令 f 为在 K 上定义的连续函数，其中值在 $\mathbf{R}$ 的区间 I 中（分别在 $\mathbf{C}$ 中）。 T 上存在有界连续函数 $f'$，I 中有值（$\mathbf{C}$），扩展 f 且 $T - U$ 上有零。
 
 处理T是紧致空间X的子空间的情况就足够了。令V为X的开子集，使得$V \cap T = U$；用$V'$表示X包含K中的开集合，使得$\overline{V'} \subset V$，用g表示X上的连续函数，以及I中的值（分别在$\mathbf{C}$中）在$X - V$上扩展f和零（GT，IX, §4, No. 1，提案1）。 条件 a) 通过取 $U' = V' \cap T$ 来满足，b) 通过将 $f'$ 取为 g 到 T 的限制来满足。
 
@@ -76,7 +76,7 @@ a) 令 $\mu$ 为 T 上的正测度，f 为 T 上定义的数值函数 $\geq 0$ �
 
 (1) $\mu^\bullet(f) = \sup_{g \in I_f} \mu^\bullet(g)$（分别为$\mu^\bullet(f) = \inf_{g \in S_f} \mu(g)$），
 
-其中$I_f$（或$S_f$）表示有界连续函数$g$的集合，使得$0 \leq g \leq f$（或$g \geq f$）。
+其中 $I_f$（分别为 $S_f$）表示有界连续函数 $g$ 的集合，使得 $0 \leq g \leq f$（分别为 $g \geq f$）。
 
 b) 令 $\theta$ 为 $T$ 上的复测度，$f$ 为$T$ 及下半连续上定义的数值函数 $\geq 0$。然后
 
@@ -114,7 +114,7 @@ $$
 
 — *令 $\eta$ 和 $\eta'$ 为完全正则空间 $T$ 上的两个复杂测度，使得 $\eta(f) = \eta'(f)$ 对于每个函数 $f \in \mathscr{C}^b(T)$ 可积为 $|\eta|$ 和 $|\eta'|$。然后$\eta = \eta'$.*
 
-让我们在设定 $\theta = \eta - \eta'$ 上再次讨论命题 1 的第二个部分的证明。 我们可以要求开集合 U 对于$|\eta|$ 和$|\eta'|$ 可积。 The function $g$ is then integrable for these two measures, and the relation $\theta(g) = 0$ implies $a < 0$; therefore $|\theta|^*(f) = 0$ for every positive lower semi-continuous function $f$, whence finally $|\theta| = 0$, on taking $f = +\infty$.
+让我们在设定 $\theta = \eta - \eta'$ 上再次讨论命题 1 的第二个部分的证明。 我们可以要求开集合 U 对于$|\eta|$ 和$|\eta'|$ 可积。 然后函数$g$对于这两个度量是可积的，并且关系$\theta(g) = 0$蕴涵$a < 0$；因此，对于每个正下半连续函数$f$，$|\theta|^*(f) = 0$，最终$|\theta| = 0$，取$f = +\infty$。
 
 #### 命题 3 {#int-ix-s5-prop-3 .statement tag=09R0}
 
@@ -148,11 +148,11 @@ $$
 |\nu|^*(X - K) = \sup_{g \in \mathscr{G}} |\nu(g)| = \sup_{g \in \mathscr{G}} |I(g_T)| \leq \varepsilon.
 $$
 
-令$(K_n)_{n \geq 1}$为T的紧凑子集的序列，使得每个$K_n$对于$\varepsilon = 1/n$满足(M)，并令$S = \bigcup K_n$； S 是 X 中的 Borel 集合，包含在 T 中，并且对于所有 n 而言为 $|\nu|^*(X - T) \leq |\nu|^*(X - S) \leq |\nu|^*(X - K_n) \leq 1/n$，因此 T 是 $\nu$ 可测的，$\nu$ 集中在 T 上。令 $f$ 为 T 上的有界连续函数；由于 X 是 T 的 Stone-Čech 紧化，因此 $f$ 可以通过连续性扩展到函数 $g \in \mathscr{C}(X; \mathbf{C})$。现在令$\mu$为$\nu$在$T$上引起的测度；一个有 $\mu(f) = \nu(f^0)$。 (1) 由于$\nu$集中于$T$，函数、$f^0$和$g$几乎处处都相等$\nu$，因此$\mu(f) = \nu(g) = I(g_T) = I(f)$，它完成了证明。
+令$(K_n)_{n \geq 1}$为T的紧凑子集的序列，使得每个$K_n$对于$\varepsilon = 1/n$满足(M)，并令$S = \bigcup K_n$； S is a Borel 集合 in X, contained in T, and $|\nu|^*(X - T) \leq |\nu|^*(X - S) \leq |\nu|^*(X - K_n) \leq 1/n$ for all n, so that T is $\nu$-measurable and $\nu$ is concentrated on T. Let $f$ be a bounded continuous 函数 on T; since X is the Stone–Čech compactification of T, $f$ may be extended by continuity to 函数 $g \in \mathscr{C}(X; \mathbf{C})$.现在令$\mu$为$\nu$在$T$上引起的测度；一个有 $\mu(f) = \nu(f^0)$。 (1) Since $\nu$ is concentrated on $T$, 函数 $f^0$ and $g$ are equal $\nu$-almost everywhere, therefore $\mu(f) = \nu(g) = I(g_T) = I(f)$, which completes 证明.
 
-#### 推论{#int-ix-s5-n2-cor-1 .statement tag=09R3}
+#### 推论 {#int-ix-s5-n2-cor-1 .statement tag=09R3}
 
-— *使用第 5 条中的记号，假设 $T$ 上存在有界正测度 $\mu$，使得 $|I(f)| \leq \mu(|f|)$ 对于所有 $f \in \mathscr{C}^b(T; \mathbf{C})$；那么$T$上存在一个复杂测度$\theta$，使得$\theta(f) = I(f)$适用于所有$f \in \mathscr{C}^b(T; \mathbf{C})$。
+— *如命题 5 中的记号，假设$T$上存在有界正测度$\mu$，使得$|I(f)| \leq \mu(|f|)$对于所有$f \in \mathscr{C}^b(T; \mathbf{C})$；那么$T$上存在一个复杂测度$\theta$，使得$\theta(f) = I(f)$适用于所有$f \in \mathscr{C}^b(T; \mathbf{C})$。
 
 ### 3. 有界测度的紧密收敛
 
@@ -160,28 +160,28 @@ $$
 $$
 (f, \mu) \mapsto \int f(t) \, d\mu(t)
 $$
-在$\mathscr{C}^b(T) \times \mathscr{M}^b(T)$上将这两个空间置于分离的二元性中。因为，很明显，$\mathscr{C}^b(T)$中的二元性与$\varepsilon_x \ (x \in T)$属于到$\mathscr{M}^b(T)$的测量事实相分离；它在 $\mathscr{M}^b(T)$ 中由 No. 1 的命题 2 分离。
+on $\mathscr{C}^b(T) \times \mathscr{M}^b(T)$ puts these two 空间 in a separating duality.因为，很明显，$\mathscr{C}^b(T)$中的二元性与$\varepsilon_x \ (x \in T)$属于到$\mathscr{M}^b(T)$的测量事实相分离； it is separating in $\mathscr{M}^b(T)$ by Prop. 2 of No. 1.
 
 #### 定义 1 {#int-ix-s5-def-1 .statement tag=09R4}
 
-*与前面的$\mathscr{C}^b(T)$和$\mathscr{M}^b(T)$之间的对偶性相关的$\mathscr{M}^b(T)$上的弱拓扑被称为$\mathscr{M}^b(T)$上紧收敛的拓扑（或紧拓扑）。*
+*weak 拓扑 on $\mathscr{M}^b(T)$ associated with the preceding duality between $\mathscr{C}^b(T)$ and $\mathscr{M}^b(T)$ is called 拓扑 of tight convergence (or the tight 拓扑) on $\mathscr{M}^b(T)$.*
 
-紧的拓扑是Hausdorff，由注先于定义。我们经常使用副词“tightly”来表示“在紧密拓扑的意义上”。如果没有相反的情况，$\mathscr{M}^b(T)$将在截面的剩余时间内配备紧身的拓扑。
+紧的拓扑是Hausdorff，由注先于定义。我们经常使用副词“tightly”来表示“在紧密拓扑的意义上”。如果没有提及相反的情况，$\mathscr{M}^b(T)$将在截面的其余部分配备紧身的拓扑。
 
-$\mathscr{C}^b(T)$的每个元素是$\mathscr{C}_+^b(T)$的元素的线性组合。对于$\mathscr{M}^b(T)$上的过滤器$\mathfrak{F}$紧密收敛到有界测度$\lambda$，有必要且充分：
+Every 元素 of $\mathscr{C}^b(T)$ is 线性组合 of 元素 of $\mathscr{C}_+^b(T)$.对于$\mathscr{M}^b(T)$上的过滤器$\mathfrak{F}$紧密收敛到有界测度$\lambda$，有必要且充分：
 $$
 \lim_{\mu} \mu(f) = \lambda(f) \quad \text{with respect to } \mathfrak{F} \text{ for every } f \in \mathscr{C}_+^b(T).
 $$
 
 #### 注 1 {#int-ix-s5-n3-rem-1 .statement tag=09R5}
 
-如果$T$是局部紧致的，则紧的拓扑比模糊拓扑在$\mathscr{M}^b(T)$上引起的拓扑要强于更细，并且这两种拓扑重合仅当$T$是紧致的时。因为，如果 $T$ 不是紧致的，则映射 $t \mapsto \varepsilon_t$ 相对于 $T$ 的相对紧致子集的补集过滤器模糊地收敛到 0，但不会紧密收敛到 0，因为函数 1 属于到 $\mathscr{C}^b(T)$ （对于模糊收敛和紧收敛之间的关系，参见命题9）。
+If $T$ is locally compact, the tight 拓扑 is 更细 than 拓扑 induced on $\mathscr{M}^b(T)$ by the vague 拓扑, and these two topologies 重合 only when $T$ is compact. For, if $T$ is not compact, 映射 $t \mapsto \varepsilon_t$ converges vaguely to 0 with respect to the filter of complements of relatively compact 子集 of $T$, but does not converge tightly to 0, because 函数 1 属于 to $\mathscr{C}^b(T)$ (for 关系 between vague convergence and tight convergence, see Prop. 9).
 
-(1) 这个关系仅在上面（§ 2, No. 1，命题1）$f$和$\nu$为正的情况下成立。 扩张目前的情况，其中$f$和$\nu$是复杂且有界的，通过线性度是直接的。
+(1) This 关系 was only established above (§ 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. 扩张目前的情况，其中$f$和$\nu$是复杂且有界的，通过线性度是直接的。
 
 #### 注 2 {#int-ix-s5-n3-rem-2 .statement tag=09R6}
 
-从命题 4 可以立即看出，$\mathscr{M}_+^b(T)$ 在$\mathscr{M}^b(T)$ 中是封闭的。
+It follows at once from Prop. 4 that $\mathscr{M}_+^b(T)$ is closed in $\mathscr{M}^b(T)$.
 
 #### 注 3 {#int-ix-s5-n3-rem-3 .statement tag=09R7}
 
@@ -228,7 +228,7 @@ $$
 \lim_{\lambda \to \mu, \lambda \in W} \lambda(f^0) = \mu(f^0).
 $$
 
-Let $f^\infty$ be the function on $X$ that coincides with $f$ on $T$ and with $+\infty$ on $X - T$, and let $f'$ and $f''$ be, respectively, the upper semi-continuous regularization of $f^0$ and the lower semi-continuous regularization of $f^\infty$ (GT, IV, §6, No. 2). The relations
+Let $f^\infty$ be the function on $X$ that coincides with $f$ on $T$ and with $+\infty$ on $X - T$, and let $f'$ and $f''$ be, respectively, the upper semi-continuous regularization of $f^0$ and the lower semi-continuous regularization of $f^\infty$ (GT, IV, §6, No. 2). 关系
 
 $$
 f'(x) = \limsup_{y \to x} f^0(y), \quad f''(x) = \liminf_{y \to x} f^\infty(y)
@@ -242,7 +242,7 @@ $$
 
 但是在这两个公式中可以通过$f^0$来替换$f'$和$f''$，因为$\lambda$和$\mu$是由$T$承载的；这样我们就得到了想要的关系。
 
-命题 8 的叙述仅对正测度有效：$\mathscr{M}^b(T)$到$\mathscr{M}^b(X)$的映射$\mu \mapsto i(\mu)$是单射且连续的，但通常不是$\mathscr{M}^b(T)$与其像的同胚。对于例，取$X = \mathbf{R}$、$T = \mathbf{R} - \{0\}$； $\lambda_t = \varepsilon_t - \varepsilon_{-t}$ ($t > 0$) 在 $X$ 中紧密收敛于 0，因为 $t$ 趋向于 0，但在 $T$ 中并不紧密收敛于 0（$]0, +\infty[$ 属于到 $\mathscr{C}^b(T)$ 的特征函数）（但是cf. No. 5 的 Cor。
+命题 8 的叙述仅对正测度有效：$\mathscr{M}^b(T)$到$\mathscr{M}^b(X)$的映射$\mu \mapsto i(\mu)$是单射且连续的，但通常不是$\mathscr{M}^b(T)$与其像的同胚。例如取$X = \mathbf{R}$、$T = \mathbf{R} - \{0\}$；当$t$趋于0时，$\lambda_t = \varepsilon_t - \varepsilon_{-t}$ ($t > 0$) 在$X$中紧密收敛于0，但在$T$中并不紧密收敛于0（$]0, +\infty[$属于到$\mathscr{C}^b(T)$的特征函数）（然而cf. No. 5 的 Cor。
 
 #### 命题 9 {#int-ix-s5-prop-9 .statement tag=09RB}
 
@@ -326,7 +326,7 @@ $$
 
 从 $\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$ 开始，只需证明映射 $a_j$ ($j = 1, 2, 3, 4$) 相对于 $\mathfrak{U}$ 紧密收敛。但措施$a_j(\mu)$的集合$H_j$，其中$\mu$超过H，凭借关系$|a_j(\mu)| \leq |\mu|$满足普罗霍罗夫的条件，并且包含在$\mathscr{M}_+^b(T)$中；因此，在特殊情况下，$\mathscr{M}_+^b(T)$相对紧凑，然后定理紧随其后。
 
-#### 推论{#int-ix-s5-n5-cor-1 .statement tag=09RI}
+#### 推论 {#int-ix-s5-n5-cor-1 .statement tag=09RI}
 
 — 令 T 为完全正则空间 X 的子空间，并令 H 为满足 Prokhorov 条件的 $\mathscr{M}^b(T)$ 的子集。如果i表示T到X的典范嵌入，那么限制到$\mathscr{M}^b(T)$到$\mathscr{M}^b(X)$的映射$\mu \mapsto i(\mu)$的H是H到像的同胚。
 
@@ -390,7 +390,7 @@ $$
 
 设$T$是$\mathscr{M}^b(T)$的完全正则空间、$M$子集，满足普罗霍罗夫的条件、$H$和$C^b(T)$的有界子集。与刚才的论证非常接近的一个论证可以用来证明，当$M$配备了紧收敛的拓扑和$H$配备了紧收敛的拓扑时，$M \times H$到$\mathbf{C}$的映射$(\lambda, g) \mapsto \lambda(g)$是连续的。
 
-#### 推出{#int-ix-s5-n6-cor-1 .statement tag=09RN}
+#### 推出 {#int-ix-s5-n6-cor-1 .statement tag=09RN}
 
 *设$T$是一个完全正则的空间，$X$是一个拓扑空间，$f$是一个在$T \times X$上定义的复值函数，连续且有界。对于$T$上的每个有界测度$\mu$，令$F_\mu$为$X$上的函数，由$F_\mu(x) = \int_T f(t, x) d\mu(t)$对所有$x \in X$定义。
 
@@ -415,7 +415,7 @@ $$
 (\mathscr{L}\mu)(\chi) = \int_M \chi(m)\, d\mu(m).
 $$
 
-由 Th. GT中的3，$M \times X$到$\mathbf{C}$的X, §3, No. 4、映射$(m, \chi) \mapsto \chi(m)$是连续且有界的。 No. 6第13条命题的推论意味着以下结果：
+由 Th. GT中的3，$M \times X$到$\mathbf{C}$的X, §3, No. 4、映射$(m, \chi) \mapsto \chi(m)$是连续且有界的。 No. 6第13条命题的推论则意味着以下结果：
 
 #### 命题 14 {#int-ix-s5-prop-14 .statement tag=09RO}
 
@@ -444,7 +444,7 @@ $S \cap X_0$；则$\mathfrak{A}$是$E$的子代数稳定在映射$f \mapsto \ove
 
 最后，让我们转到c)。由于函数$\Phi$和$\mathscr{L} \mu$在点$1 \in S$连续，并且在$S \cap X_0$上相等，并且由于$1$在$S \cap X_0$的闭包中，所以我们有$\Phi(1) = \mathscr{L} \mu(1)$。其他字，$\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$。 No. 3 的第 9 条命题表明 $\mu$ 是过滤器 $\mathfrak{F}$ 的紧极限。 $S$的每个元素都是$M$上的有界连续函数，这意味着$\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathscr{L} \mu(s)$对于所有$s \in S$。
 
-#### 推论{#int-ix-s5-n7-cor-1 .statement tag=09RQ}
+#### 推论 {#int-ix-s5-n7-cor-1 .statement tag=09RQ}
 
 — *令$S$为$X$的完整子幺半群，使得$S \cap X_0$包含1的闭包。令$L$为限制的$\mathscr{C}^b(S; \mathbf{C})$由……组成到$S$的子集措施$\lambda \in \mathscr{M}_+^b(M)$的拉普拉斯变换。*
 
@@ -456,9 +456,9 @@ c) *在$L$上点式收敛的拓扑和紧凑收敛重合的拓扑。*
 
 断言 a) 和 b) 是 Th 的直接的推论。 3； 断言 c) 由 b) 和命题 14 得出，因为紧凑收敛的拓扑比逐点收敛的更细 。
 
-必须警惕的是，L 在 S 上所有有界复形函数的集合中不是封闭的，配备了逐点收敛的拓扑。假设下面的例 2 的例记号（M = \mathbf{R}_+，S 用 \mathbf{R}_+ 标识）。措施$\varepsilon_n$（$n \in \mathbf{N}$）的拉普拉斯变换为$\mathbf{R}_+$上的函数$t \mapsto e^{-nt}$；由于$n$趋向于$+\infty$，这些函数逐点收敛到函数，对于$t = 0$等于1，对于$t \neq 0$等于0，而属于不会收敛到L。
+必须警惕的是，L 在 S 上所有有界复形函数的集合中不是封闭的，配备了逐点收敛的拓扑。假设下面的例 2 中的记号（M = \mathbf{R}_+，S 用 \mathbf{R}_+ 标识）。措施$\varepsilon_n$（$n \in \mathbf{N}$）的拉普拉斯变换为$\mathbf{R}_+$上的函数$t \mapsto e^{-nt}$；由于$n$趋向于$+\infty$，这些函数逐点收敛到函数，对于$t = 0$等于1，对于$t \neq 0$等于0，而属于不会收敛到L。
 
-*例 1).* — 取正整数的M集合N，配备加法的律和离散拓扑。设 D 为 \mathbf{C} 的单位圆盘（绝对值 $\leq 1$ 复数集合），配备由 \mathbf{C} 诱导的拓扑和由律诱导的乘法。对于每个$z \in D$，让我们用N的$f(z)$特征标$n \mapsto z^n$表示。对于N的每个特征标$\chi$，用$g(\chi)$复数$\chi(1) \in D$表示。我们立即验证$f$和$g$是D和X之间的互逆同胚，这将允许我们从现在开始到*认同*X和D。特征标在无穷远趋于0的集合可以被识别为绝对值<1的复数的集合$D_0$。最后，\mathbf{R}的区间]0, 1]是D的完整子幺半群，1在$]0, 1[ \cap D_0 = ]0, 1[$的闭包中。
+*例 1).* — 取正整数的M集合N，配备加法的律以及离散的拓扑。设 D 为 \mathbf{C} 的单位圆盘（绝对值 $\leq 1$ 复数集合），配备由 \mathbf{C} 诱导的拓扑和由律诱导的乘法。对于每个$z \in D$，让我们用N的$f(z)$特征标$n \mapsto z^n$表示。对于N的每个特征标$\chi$，用$g(\chi)$复数$\chi(1) \in D$表示。立即验证$f$和$g$是D和X之间的互逆同胚，这将允许我们从现在开始到*认同*X和D。特征标在无穷远趋于0的集合可以被识别为绝对值<1的复数的集合$D_0$。最后，\mathbf{R}的区间]0, 1]是D的满子幺半群，1在$]0, 1[ \cap D_0 = ]0, 1[$的闭包中。
 
 N 上的每个测度 $\mu$ 都可以以唯一的方式写成形式 $\mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n$，并且 $\mu$ 是有界的当且仅当 $\sum_n |u_n| < +\infty$；那么就有 $\mathscr{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n$ 换 $z \in D$。这个函数在D上连续；习惯上称其为可和序列 $(u_n)_{n \in \mathbf{N}}$ 的 *生成的函数*。转录成这种语言，Th。 3 产生以下结果（考虑No. 3的第 9 条命题）：
 
@@ -470,7 +470,7 @@ $$
 \lim_{\alpha, \mathfrak{F}} u_{\alpha,n} = u_n \quad \text{for all } n , \quad \lim_{\alpha, \mathfrak{F}} \sum_{n \in \mathbf{N}} u_{\alpha,n} = \sum_{n \in \mathbf{N}} u_n ,
 $$
 
-*$\Phi_\alpha$在]0, 1[上逐点收敛，相对于$\mathfrak{F}$，到函数$\Phi$在点1连续。在这种情况下，$\Phi(x) = \sum_{n \in \mathbf{N}} u_n x^n$对于所有$x \in ]0, 1[$。*
+*$\Phi_\alpha$在]0, 1[上逐点收敛，相对于$\mathfrak{F}$，到函数 $\Phi$在点 1连续。在这种情况下，$\Phi(x) = \sum_{n \in \mathbf{N}} u_n x^n$对于所有$x \in ]0, 1[$。*
 
 取M为幺半群$\mathbf{N}^n$，可以得到类似的结果，其中$n$表示整数 > 1；然后，空间X可以被识别为$D^n$，并且可以将选择$]0, 1[^n$视为完整的子幺半群。我们把抄写 Th 的任务留给读者。在这种情况下为3。
 

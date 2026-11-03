@@ -62,16 +62,16 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: f586ea0dd974245a3eca451ebf8fd3e2e4ebecc1c0eccadb3fc00a7eca30974a
+content_sha256: 40649667505641f75e4c75e4920c549f8184e668b107ff809bd5e15b6d5e90cd
 translated_from: content/en/alg/III/10_s10_derivations.md
 translation_method: google
 source_content_sha256: aaeacce850abcb26b3dc2f0a2b6232e064f49c1f74a413c96833e391ff1f75f3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: a33304f0f6180dfc7d85eb137994eed1d5f7129e9692f68cd8db9c3e64194dd2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 10。 推导
@@ -106,7 +106,7 @@ $$
 \varepsilon(p, q) = (-1)^{pq} \quad \text{for } p, q \text{ in } \mathbf{Z}.
 $$
 
-### 2. 定义推导将军
+### 2. 推导通用定义
 
 考虑交换环$K$，型$\Delta : A, A', A'', B, B', B''$的六个分级$K$模块，以及三个$K$线性映射
 $$
@@ -234,7 +234,7 @@ $$
 d(x_p x_q) = (p + q)x_p x_q = d(x_p)x_q + x_p d(x_q).
 $$
 
-### 4. 合成 / 推导
+### 4. 合成 of 推导
 
 我们假设在这个没有。 no. 2的情况(I)成立，即$A, A', A''$是型$\Delta$的三个分级$K$模块，并且我们被给予$K$双线性映射$\mu : A \times A' \to A''$相应的到分级$K$-次数 0、$A \otimes_K A' \to A''$ 的线性映射。 $A \oplus A' \oplus A''$的分级自同态$f$使得$f(A) \subset A, f(A') \subset A'$和$f(A'') \subset A''$形式分级关联代数$\mathrm{Endgr}_K(A \oplus A' \oplus A'')$的分级子代数（§ 3, no. 1， 例2)。特别是，可以组合 $(A, A', A'')$ 的两个 $\varepsilon$ 导数，但不应认为两个 $\varepsilon$ 导数中的合成是 $\varepsilon$ 导数。
 
@@ -256,7 +256,7 @@ $$
 $$
 *是次数 $\delta_1 + \delta_2$ 的 $\varepsilon$ 派生。此外，如果$d$是次数$\delta$的$(A, A', A'')$的$\varepsilon$衍生，并且如果$\varepsilon_{\delta, \delta} = -1$，则$d^2 = d \circ d$是推导。*
 
-假设$x \in A$齐次于次数$\xi$；对于所有$y \in A'$，
+假设$x \in A$齐次于次数$\xi$； for all $y \in A'$,
 $$
 d_1(d_2(xy)) = ((d_1 d_2)(x))y + \varepsilon_{\delta_1, \delta_2 + \xi}(d_2 x)(d_1 y)
 + \varepsilon_{\delta_2, \xi}(d_1 x)(d_2 y) + \varepsilon_{\delta_1 + \delta_2, \xi} x((d_1 d_2)(y))
@@ -281,13 +281,13 @@ $$
 
 #### 推论 {#alg-iii-s10-n4-cor-1 .statement tag=066G}
 
-*假设$\Delta = \mathbf{Z}$。然后：*
+*Suppose that $\Delta = \mathbf{Z}$.然后：*
 (i) *反推导的平方是推导。*
 (ii) *两个推导的括号是推导。*
 (iii) *反推导的括号和偶数次数的推导是反推导。*
 (iv) *如果$d_1$和$d_2$是反导数，则$d_1 d_2 + d_2 d_1$是推导。*
 
-在这个数开头的假设下，现在考虑$(A, A', A'')$的*成对可置换推导*的有限序列$D = (d_i)_{1 \leq i \leq n}$。对于代数 $K[X_1, \ldots, X_n]$ 中的每个多项式 $P(X_1, \ldots, X_n)$，然后定义 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ 的元素 $P(d_1, \ldots, d_n)$ (§ 2, no. 9)； 记号缩写为$P(D)$。
+在这个数开头的假设下，现在考虑$(A, A', A'')$的*成对可置换推导*的有限序列$D = (d_i)_{1 \leq i \leq n}$。对于代数 $K[X_1, \ldots, X_n]$ 中的每个多项式 $P(X_1, \ldots, X_n)$，然后定义 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ 的元素 $P(d_1, \ldots, d_n)$ (§ 2, no. 9)；它的缩写记号是$P(D)$。
 
 #### 命题 2 {#alg-iii-s10-prop-2 .statement tag=066H}
 
@@ -295,7 +295,7 @@ $$
 $$
 F(T + T') = F(T_1 + T'_1, \ldots, T_n + T'_n).
 $$
-*假设*
+*Suppose that*
 $$
 P(T + T') = \sum_i Q_i(T) R_i(T')
 $$
@@ -320,7 +320,7 @@ $$
 (F(T')f)(a, a') = f(a, F(D)a')
 $$
 
-和$(F(T'')f) = F(D)(f(a, a'))$。因此，要证明(12)，只需证明
+and $(F(T'')f) = F(D)(f(a, a'))$.因此，要证明(12)，只需证明
 
 $$
 (P(T'') - \sum_i Q_i(T)R_i(T')).\mu = 0
@@ -347,7 +347,7 @@ $$
 
 其中 $G_i$ 是 $B$ 的元素。因此，关系 (14) 是关系 (15) 的直接的推论。
 
-#### 推论（莱布尼兹公式）{#alg-iii-s10-n4-cor-2 .statement tag=066I}
+#### 推论（莱布尼茨的公式）{#alg-iii-s10-n4-cor-2 .statement tag=066I}
 
 *设 $d_i$ ($1 \leq i \leq n$) 为 $(A, A', A'')$ 的 $n$ 推导，可用 1 另一个置换。对于所有 $\alpha = (\alpha_1, \ldots, \alpha_n) \in \mathbf{N}^n$，我们写*
 
@@ -373,9 +373,9 @@ $$
 (T + T')^\alpha = \sum_{\beta + \gamma = \alpha} ((\beta, \gamma)) T^\beta {T'}^\gamma
 $$
 
-和命题2。
+and 命题 2.
 
-### 5. 推导代数 A 变成 A-模
+### 5. 推导的代数变成 A-模
 
 我们假设在这个没有。 no. 2 的情况 (II) 成立。然后有一个分级的 K-代数 A 和一个分级的 K-模 E，还有两个 K-线性映射次数 0
 
@@ -383,7 +383,7 @@ $$
 E \otimes_K A \to E, \quad A \otimes_K E \to E
 $$
 
-表示为
+denoted by
 
 $$
 x \otimes a \mapsto x.a \quad \text{and} \quad a \otimes x \mapsto a.x \quad \text{for } a \in A \text{ and } x \in E.
@@ -391,11 +391,11 @@ $$
 
 #### 命题 3 {#alg-iii-s10-prop-3 .statement tag=066J}
 
-令 $d : A \to E$ 为次数 $\delta$ 的 $\varepsilon$ 派生。那么$\mathrm{Ker}(d)$就是A级的子代数；如果A承认单位元，则它属于到$\mathrm{Ker}(d)$。
+令 $d : A \to E$ 为次数 $\delta$ 的 $\varepsilon$ 派生。那么$\mathrm{Ker}(d)$就是A级的子代数；如果A承认单位元，它就属于到$\mathrm{Ker}(d)$。
 
 显然$\mathrm{Ker}(d)$是A的分级子K模块；此外，no. 2的关系(8)表明，如果$x$和$y$是两个齐次的元素属于到$\mathrm{Ker}(d)$，则$d(xy) = 0$，因此$xy \in \mathrm{Ker}(d)$。最后，如果 A 承认单位元 1（次数 0、cf. § 3, no. 1），no. 2 的关系 (8)，其中 $x$ 和 $y$ 被 1 替代，则给出 $d(1) = d(1) + d(1)$，因此$d(1) = 0$。
 
-#### 推论{#alg-iii-s10-n5-cor-1 .statement tag=066K}
+#### 推论 {#alg-iii-s10-n5-cor-1 .statement tag=066K}
 
 令$d_1$和$d_2$是同一次数$\delta$从A到E的两个$\varepsilon$派生。如果$d_1$和$d_2$在代数A的生成的系统的每个元素取相同的值，则$d_1 = d_2$。
 
@@ -433,7 +433,7 @@ d(x_1 x_2 \ldots x_n) = \sum_{i=1}^n \varepsilon_{\delta, \xi_1 + \cdots + \xi_{
 $$
 公式 (21) 对于 $n = 0$ 来说是微不足道的，并由归纳在 $n$ 上证明，考虑到 (4) (no. 2)。
 
-#### 推论{#alg-iii-s10-n5-cor-2 .statement tag=066O}
+#### 推论 {#alg-iii-s10-n5-cor-2 .statement tag=066O}
 
 *假设$\mathbf{A}$是单位交换结合律代数，$\mathbf{E}$是$\mathbf{A}$模。如果 $d : \mathbf{A} \to \mathbf{E}$ 是推导，那么对于每个整数 $n \geq 0$，
 $$
@@ -450,7 +450,7 @@ $$
 
 #### 命题 7 {#alg-iii-s10-prop-7 .statement tag=066P}
 
-*假设 $A$ 是分级的单位结合律代数，而 $E$ 是分级的 $(A, A)$ 双模。令$d : A \to E$是次数$\delta$的$\varepsilon$衍生，$a$是次数$\alpha$的$Z_\varepsilon$的齐次元素。那么映射 $x \mapsto a(dx)$ 是次数 $\delta + \alpha$ 的 $\varepsilon$ 派生。*
+*假设 $A$ 是分级的单位关联性代数，而 $E$ 是分级的 $(A, A)$ 双模。令$d : A \to E$是次数$\delta$的$\varepsilon$衍生，$a$是次数$\alpha$的$Z_\varepsilon$的齐次元素。那么映射 $x \mapsto a(dx)$ 是次数 $\delta + \alpha$ 的 $\varepsilon$ 派生。*
 
 我们写$d'(x) = a(dx)$；对于 $A$ 和 $y \in A$ 中次数 $\xi$ 的$x$齐次，根据 (23) 和 (1) (no. 1)，
 
@@ -461,7 +461,7 @@ $$
 
 命题 7 表示$\varepsilon$的K-模-从$A$到$E$的派生是型$\Delta$的*分级$Z_\varepsilon$*-模块。
 
-### 6. 推导代数
+### 6. 推导 / 代数
 
 设$A$为分级的K-代数；对于每个*同质*元素$a \in A$，让$\mathrm{ad}_\varepsilon(a)$，或者简单地$\mathrm{ad}(a)$（如果不会引起混淆），将$A$的K-线性映射表示为$A$
 
@@ -503,7 +503,7 @@ $$
 
 当$A$结合时，$\mathrm{ad}_\varepsilon(a)$称为$a$定义的$A$的*内部$\varepsilon$推导*。
 
-#### 推论{#alg-iii-s10-n6-cor-1 .statement tag=066R}
+#### 推论 {#alg-iii-s10-n6-cor-1 .statement tag=066R}
 
 *令 $A$ 为关联分级代数。对于两个齐次元素, $a, b$ 或 $A$,*
 $$
@@ -539,11 +539,11 @@ $$
 $$
 对于次数、$\xi$和$y \in A$的$x \in A$齐次，$\delta$和$\delta'$分别表示$d$和$d'$的次数。
 
-#### 推论{#alg-iii-s10-n7-cor-1 .statement tag=066T}
+#### 推论 {#alg-iii-s10-n7-cor-1 .statement tag=066T}
 
 *设$S$为代数$A$中的生成的系统。在阶和$d' \circ \rho = \theta \circ d$中，$d'(\rho(x)) = \theta(d(x))$对于所有$x \in S$来说是必要且充分的。*
 
-这是命题 9 和 no. 5 的直接的推论，命题 3 的推论。
+这是命题 9 和no. 5、推论到命题 3 中的直接的推论。
 
 在命题 9 的条件下，我们知道$B$（通过$\rho$）有一个$(A, A)$双模结构（II, § 1, no. 14，*例 1*）。
 
@@ -629,7 +629,7 @@ $$
 (a, 0)((0, x)(a', 0)) = ((a, 0)(0, x))(a', 0).
 $$
 
-### 9. 扩张推导
+### 9. 扩张 / 推导
 
 #### 命题 14 {#alg-iii-s10-prop-14 .statement tag=066Y}
 
@@ -659,9 +659,9 @@ $$
 (b, t)(b', t') = (bb', bt' + tb')
 $$
 
-其中 $(1, 0)$ 为单位元 (no. 8, 命题 13)。 在典范嵌入 $t \mapsto (0, t)$ 下，$\mathbf{E}$ 被识别为$B \oplus \mathbf{E}$ 的双面理想，使得 $\mathbf{E}^2 = \{0\}$。 另一方面，$h_0(a) = (a, d_0(a))$定义的映射$h_0 : B \oplus \mathbf{E}$是单位环同态（no. 8，命题12）；在这个映射下，$B \oplus \mathbf{E}$就变成了$\mathbf{A}$代数。 此外，如果对于所有$x \in M$，我们写为$h_1(x) = (x, d_1(x))$，则从$h_0$的定义和(29)得出$h_1(ax) = h_0(a)h_1(x)$；在其他字$h_1$是$M$到$B \oplus \mathbf{E}$的$\mathbf{A}$线性映射。 那么存在一个且仅有一个$\mathbf{A}$-代数同态，$h : B \to B \oplus \mathbf{E}$使得$h|_M = h_1$（并且必然$h|_{\mathbf{A}} = h_0$）：对于，如果$B = T(M)$，则从$§ 5$，no. 1，命题1得出；如果 $B = S(M)$, 条件 (30) 表明$h(x)h(y) = h(y)h(x)$ 对于 $M$ 中的所有$x, y$ 且结论由 $§ 6$, no. 1, 命题 2 得出；最后，如果$B = \bigwedge(M)$，条件（31）表明，从$x \wedge x = 0$开始，对于所有$x \in M$，$(h(x))^2 = 0$，结论来自$§ 7$，no. 1，命题1。 同态$h$使得合成$p \circ h : B \to B$加上增强$\rho : B \oplus \mathbf{E} \to B$是身份$l_B$，对于$p \circ h$和$l_B$重合通过定义对于$\mathbf{A}$的元素和这些元素中的$M$和集合是$B$的生成的系统。 We can therefore write $h(b) = (b, d(b))$ for all $b \in B$ and the mapping $b \mapsto d(b)$ of $B$ into $\mathbf{E}$ is a derivation with the required properties, by virtue of Proposition 12 of no. 8.
+其中 $(1, 0)$ 为单位元 (no. 8, 命题 13)。 在典范嵌入 $t \mapsto (0, t)$ 下，$\mathbf{E}$ 被识别为$B \oplus \mathbf{E}$ 的双面理想，使得 $\mathbf{E}^2 = \{0\}$。 另一方面，$h_0(a) = (a, d_0(a))$定义的映射$h_0 : B \oplus \mathbf{E}$是单位环同态（no. 8，命题12）；在这个映射下，$B \oplus \mathbf{E}$就变成了$\mathbf{A}$代数。 此外，如果对于所有$x \in M$，我们写为$h_1(x) = (x, d_1(x))$，则从$h_0$的定义和(29)得出$h_1(ax) = h_0(a)h_1(x)$；在其他字$h_1$是$M$到$B \oplus \mathbf{E}$的$\mathbf{A}$线性映射。 那么存在一个且仅有一个$\mathbf{A}$-代数同态，$h : B \to B \oplus \mathbf{E}$使得$h|_M = h_1$（并且必然$h|_{\mathbf{A}} = h_0$）：对于，如果$B = T(M)$，则从$§ 5$，no. 1，命题1得出；如果 $B = S(M)$, 条件 (30) 表明$h(x)h(y) = h(y)h(x)$ 对于 $M$ 中的所有$x, y$ 且结论由 $§ 6$, no. 1, 命题 2 得出；最后，如果$B = \bigwedge(M)$，条件（31）表明，从$x \wedge x = 0$开始，对于所有$x \in M$，$(h(x))^2 = 0$，结论来自$§ 7$，no. 1，命题1。 同态$h$使得合成$p \circ h : B \to B$加上增强$\rho : B \oplus \mathbf{E} \to B$是身份$l_B$，对于$p \circ h$和$l_B$重合通过定义对于$\mathbf{A}$的元素和这些元素中的$M$和集合是$B$的生成的系统。 因此，我们可以为所有$b \in B$写出$h(b) = (b, d(b))$，并且根据no. 8的命题12，$B$到$\mathbf{E}$的映射$b \mapsto d(b)$是具有所需属性的导数。
 
-#### 推论{#alg-iii-s10-n9-cor-1 .statement tag=066Z}
+#### 推论 {#alg-iii-s10-n9-cor-1 .statement tag=066Z}
 
 *令$M$为型$\Delta$的分级$K$模； $K$-代数$T(M)$、$S(M)$和$\bigwedge(M)$的相应的分度为型$\Delta' = \Delta \times \mathbf{Z}$（$§ 5$、no. 5、命题7、$§ 6$、 no. 6、命题 10 和 $§ 7$、no. 7、命题 11）。另一方面，$M$ 的分级为型 $\Delta'$，使得所有 $\alpha \in \Delta$ 为 $M_{\alpha, 1} = M_{\alpha}$，$\alpha \in \Delta$ 和 $n \neq 1$ 为 $M_{\alpha, n} = \{0\}$。令 $\varepsilon'$ 为交换因子超过 $\Delta'$。*
 
@@ -691,7 +691,7 @@ $$
 
 no. 2 的注 2 应用于 E 上的外部B-模律之一（B 等于$\mathbf{T}(M)$、$S(M)$ 或$\Lambda(M)$）修改；这样修改后的外法则仍然是，通过(1)(no. 1)，在E上得到的B-模律和B-模律仍然与其他B-模结构兼容。那么它就足以满足应用命题 14 与 $A = K$ 和 $d_0 = 0$ 的要求。
 
-例 (1)。在命题 14 注的应用中，如果 $d_0 = 0$ 条件 (29) 只是意味着 $d_1$ 是 A 线性的。如果我们特别采用$E = B$和从B上的环结构导出的(B，B)双模结构，当$d_1$被取为M的自同态s的合成和典范嵌入$M \to B$时，条件(30)和(31)自动满足；这对于 (30) 来说是显而易见的，因为 $S(M)$ 是可交换的，而对于 (31) 来说，这是根据 x 和 $s(x)$ 在 $\Lambda(M)$ 中等于次数 1 的事实得出的。因此可以看出，M 的每个自同态 s 都可以唯一地扩展到 $\mathbf{T}(M)$ 的推导 $D_s$（分别为 $S(M)$、$\Lambda(M)$），即次数 0。此外，对于 M 的两个自同态 s，t，
+例 (1)。在命题 14 的应用中，请注意，如果 $d_0 = 0$ 条件 (29) 只是意味着 $d_1$ 是 A 线性的。如果我们特别采用$E = B$和从B上的环结构导出的(B，B)双模结构，当$d_1$被取为M的自同态s的合成和典范嵌入$M \to B$时，条件(30)和(31)自动满足；这对于 (30) 来说是显而易见的，因为 $S(M)$ 是可交换的，而对于 (31) 来说，这是根据 x 和 $s(x)$ 在 $\Lambda(M)$ 中等于次数 1 的事实得出的。因此可以看出，M 的每个自同态 s 都可以唯一地扩展到 $\mathbf{T}(M)$ 的推导 $D_s$（分别为 $S(M)$、$\Lambda(M)$），即次数 0。此外，对于 M 的两个自同态 s，t，
 
 $$
 [D_s, D_t] = D_{[s, t]}
@@ -715,7 +715,7 @@ $$
 
 #### 命题 15 {#alg-iii-s10-prop-15 .statement tag=0670}
 
-*如果$M$是有限秩$n$的自由$K$模块，那么，对于$M$的每个自同态$s$，推导$D_s$的限制到$\Lambda^n(M)$是位似比率 $\operatorname{Tr}(s)$.*
+*如果$M$是有限秩$n$的自由$K$模块，则对于$M$的每个自同态$s$，推导$D_s$的限制到$\Lambda^n(M)$是位似比率 $\operatorname{Tr}(s)$.*
 
 令$(e_j)_{1 \leq j \leq n}$为$M$的基并写成$e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$。如果
 $$
@@ -726,7 +726,7 @@ $$
 D_s(e) = \sum_{i=1}^n e_1 \wedge \cdots \wedge e_{i-1} \wedge s(e_i) \wedge e_{i+1} \wedge \cdots \wedge e_n = \left( \sum_{j=1}^n \alpha_{jj} \right) e.
 $$
 
-*例 (2).* 在命题 14、部分 (iii) 的推论中，设$\Delta = \{0\}$，$\Lambda(M)$ 的毕业则为型 $\mathbf{Z}$ 的通常毕业；另一方面取$\varepsilon(p, q) = (-1)^{pq}$。然后，对于$M$上的每个线性形式$x^* \in M^*$，$x \mapsto \langle x, x^* \rangle$是$M$的次数$-1$到$\Lambda(M)$满足关系的分级$K$线性映射(34);那么存在$\Lambda(M)$、次数$-1$的*反导数*$i(x^*)$，使得（凭借no. 5的公式(21)）
+*例 (2).* 在推论至命题 14、部分(iii)中，设$\Delta = \{0\}$，$\Lambda(M)$的毕业即为型$\mathbf{Z}$的通常毕业；另一方面取$\varepsilon(p, q) = (-1)^{pq}$。然后，对于$M$上的每个线性形式$x^* \in M^*$，$x \mapsto \langle x, x^* \rangle$是$M$的次数$-1$到$\Lambda(M)$满足关系的分级$K$线性映射(34);那么存在$\Lambda(M)$、次数$-1$的*反导数*$i(x^*)$，使得（凭借no. 5的公式(21)）
 $$
 i(x^*)(x_1 \wedge \cdots \wedge x_n)
 = \sum_{i=1}^n (-1)^{i-1} \langle x_i, x^* \rangle x_1 \wedge \cdots \wedge x_{i-1} \wedge x_{i+1} \wedge \cdots \wedge x_n
@@ -811,7 +811,7 @@ d_{13}(v \circ u) = (d_{23}v) \circ u + v \circ (d_{12}u)
 $$
 从定义立即得到验证。
 
-### 10. 通用问题适用于推导；非交换情况
+### 10. 通用问题适用于推导；非交换的情况
 
 在 $§ 10$ 的其余部分中，所有代数都被假定为结合且单位的，并且所有代数同态被假定为单位的。
 
@@ -854,7 +854,7 @@ $$
 f\left( \sum_i x_i \otimes y_i \right) = \sum_i x_i \cdot f(1 \otimes y_i - y_i \otimes 1) = -\sum_i x_i \cdot dy_i.
 $$
 
-相反，由于$A \times A$到$E$的映射$(x, y) \mapsto -x \cdot dy$是$K$双线性，因此存在一个且仅有一个$K$线性映射$g : A \otimes_K A \to E$使得$g(x \otimes y) = -x \cdot dy$；只需验证 $g$ 到 $I$ 的限制 $f$ 是左 A 线性且右A-模结构即可。第一个断言从$(xx') \cdot dy = x \cdot (x' \cdot dy)$开始就很明显；证明第二个注，如果$\sum_i x_i \otimes y_i \in I$和$x \in A$，那么
+相反，由于$A \times A$到$E$的映射$(x, y) \mapsto -x \cdot dy$是$K$双线性，因此存在一个且仅有一个$K$线性映射$g : A \otimes_K A \to E$使得$g(x \otimes y) = -x \cdot dy$；只需验证 $g$ 到 $I$ 的限制 $f$ 是左 A 线性且右A-模结构即可。第一个断言从$(xx') \cdot dy = x \cdot (x' \cdot dy)$开始就很明显；要证明第二个，请注意，如果 $\sum_i x_i \otimes y_i \in I$ 和 $x \in A$，则
 
 $$
 \sum_i x_i \cdot d(y_i x) = \sum_i x_i \cdot dy_i \cdot x + \sum_i (x_i y_i) \cdot dx
@@ -870,7 +870,7 @@ $$
 
 左侧是$(A, A)$双模同态的$K$模到$E$的$A$。
 
-### 11. 通用问题适用于推导；交换案例
+### 11. 通用问题适用于推导；交换情况
 
 现在假设 $A$ 是一个*可交换的* $K$-代数，而 $E$ 是一个 $A$-*模*； $E$可以被认为是一个$(A, A)$双模，其两个外法则与给定的$A$-模律相同。另一方面，$A \otimes_K A$上的$(A, A)$双模结构与$A \otimes_K A$上的*交换环*结构产生的$(A \otimes_K A)$模结构相同，因为在这种情况下，对于$A$中的$x, y, u, v$，
 
@@ -896,7 +896,7 @@ $$
 \mathfrak{J} \otimes_K ((A \otimes_K A)/\mathfrak{J})
 $$
 
-到$\mathfrak{J}/\mathfrak{J}^2$（§ 4, no. 1，推论1到命题1），一个规范的$K$-模块同构
+到$\mathfrak{J}/\mathfrak{J}^2$（§ 4, no. 1，推论 1 到命题 1），一个规范的$K$-模块同构
 
 $$
 \operatorname{Hom}_{A \otimes_K A}(\mathfrak{J}, E) \to \operatorname{Hom}_A(\mathfrak{J}/\mathfrak{J}^2, E).
@@ -944,7 +944,7 @@ $$
 
 与$D_i P \in K[X_1, \ldots, X_n]$，并且根据上述，映射$P \mapsto D_i P$是$K[X_1, \ldots, X_n]$相应的到$\Omega_K(S(M))$上的坐标形式对于基$(dX_i)$的*K-导数*；我们还写 $\frac{\partial P}{\partial X_i}$ 而不是 $D_i P$，这称为 P 相对于 $X_i$ 的*偏导数*。
 
-### 12. K-差速器的功能特性
+### 12. K-微分的函数性质
 
 #### 命题 19 {#alg-iii-s10-prop-19 .statement tag=0677}
 
@@ -1091,7 +1091,7 @@ $$
 d'(xy) = d(xy) \otimes 1 = (x.dy + y.dx) \otimes 1 = dy \otimes u(x) + dx \otimes u(y) = 0
 $$
 
-从$u(x) = u(y) = 0$开始。因此，我们从 $d'$ 乘以经过得到商 A-线性映射
+从$u(x) = u(y) = 0$开始。因此我们从$d'$，经经过到商，A-线性映射
 
 $$
 \bar{d} : \mathfrak{J}/\mathfrak{J}^2 \to \Omega_K(A) \otimes_A B
@@ -1109,21 +1109,21 @@ $$
 
 *那么准确。*
 
-注，$\Omega_K(A) \otimes_A B$与$\Omega_K(A)/\mathfrak{J}\Omega_K(A)$相同，并且在该商模中，$\bar{d}$的像是$d(\mathfrak{J})$的像；因此，$\Omega_K(A) \otimes_A B$除以$\operatorname{Im}(\bar{d})$的商等于商$\Omega_K(A)/N$，其中N是由$\mathfrak{J}\Omega_K(A)$和$d(\mathfrak{J})$生成的子A模块。此外，复合映射
+注意，$\Omega_K(A) \otimes_A B$与$\Omega_K(A)/\mathfrak{J}\Omega_K(A)$标识，并且$\bar{d}$的像在这个商模中是$d(\mathfrak{J})$的像；因此，$\operatorname{Im}(\bar{d})$对$\Omega_K(A) \otimes_A B$的商被识别为商$\Omega_K(A)/N$，其中N是由$\mathfrak{J}\Omega_K(A)$和$d(\mathfrak{J})$生成的子A模块。此外，复合映射
 
 $$
 A \xrightarrow{d_{A/K}} \Omega_K(A) \longrightarrow \Omega_K(A)/N
 $$
 
-是 K 导数 (no. 7, 命题 9)，并且由于它是 $\mathfrak{J}$ 乘以 N 的定义的零，因此它是定义，当经过求商时，K 导数$D_0 : B \to \Omega_K(A)/N$。
+是 K 导数 (no. 7, 命题 9)，并且，由于它是 $\mathfrak{J}$ 上的定义 N 的零，所以它是定义，当经过到商时，它是 K 导数$D_0 : B \to \Omega_K(A)/N$。
 
-考虑普遍映射问题的解的唯一性，约化到证明，对于每个B-模E和每个K-导数D：B→E，存在唯一的B-线性映射g： Ω_K(A)/N → E 使得 D = g ∘ D_0。但是，复合映射 D ∘ u: A → E 是 K 导数 (no. 7, 命题 9)，因此存在且仅有一个 A-线性映射 f: Ω_K(A) → E 使得 f ∘ d_{A/K} = D ∘ u。这个关系已经表明f在d(Σ)上是零；同样 ΣE = {0}，因为 E 为 B-模，f 在 ΣΩ_K(A) 上为零；因此 f 在 N 和定义上是零，当经过为商时，B-线性映射 g: Ω_K(A)/N → E 使得 g ∘ D_0 = D； g 的唯一性由 f 的唯一性推出。
+考虑普遍映射问题的解的唯一性，约化到证明，对于每个B-模E和每个K-导数D：B→E，存在唯一的B-线性映射g： Ω_K(A)/N → E 使得 D = g ∘ D_0。但是，复合映射 D ∘ u: A → E 是 K 导数 (no. 7, 命题 9)，因此存在且仅有一个 A-线性映射 f: Ω_K(A) → E 使得 f ∘ d_{A/K} = D ∘ u。这个关系已经表明 f 是 d(Σ) 上的零；同样 ΣE = {0}，因为 E 为 B-模，f 在 ΣΩ_K(A) 上为零；因此f在N和定义上是零，当经过到商、B-线性映射g：Ω_K(A)/N → E使得g ∘ D_0 = D； g 的唯一性由 f 的唯一性推出。
 
 千万不要认为，即使 u: A → B 是单同态，Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) 是单射的 (习题 5)。然而我们有以下命题：
 
 #### 命题 23 {#alg-iii-s10-prop-23 .statement tag=067B}
 
-设A是K-代数的积分，B是分数的域，u：A→B典范嵌入。则 Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) 为同构。
+设 A 为 K-代数的积分，B 为分数的域，u：A → B 典范嵌入。则 Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) 同构的。
 
 利用图表 (42) 中垂直箭头是双射的事实，约化到证明，对于 B 上的每个向量空间 E，映射 C(u)： D_K(B, E) → D_K(A, E) 是双射的。但这源于以下事实：A 到 E 的每个 K 推导都可以唯一地扩展到 B 到 E 的 K 推导（no. 5，命题 5）。
 

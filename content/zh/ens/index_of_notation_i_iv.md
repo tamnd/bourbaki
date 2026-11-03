@@ -14,19 +14,19 @@ pdf_pages: 0391-0395
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: cd137115472e39ca73fff217fe706a52f7d6222e813fa7eac6b1be3414b77f74
+content_sha256: b36637aadd558072169d6b0aa82b2d49251254cf14f9e831628b9a803fcefc9e
 translated_from: content/en/ens/index_of_notation_i_iv.md
 translation_method: google
 source_content_sha256: 08e1f4f2fc466917cf33ec4c3fbfaa919e48e8719ffafb49fbba7f2921ef04fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f00e989b38100f3b7d5f491d1403077330f8ba57cb05d928a2c074334fbfafc4
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标的记号
+## 指标 / 记号
 
 参考号数表示章、截面和小节，其中序。 （R 指结果摘要。）
 
@@ -144,15 +144,15 @@ $\operatorname{Eq}(X,Y),\ \operatorname{Card}(X)$ : III.3.1
 
 $0,1,2$ : III.3.1
 
-$\mathfrak{c}\leq\mathfrak{d}$（$\mathfrak{c},\mathfrak{d}$基数）：III.3.2
+$\mathfrak{c}\leq\mathfrak{d}$ ($\mathfrak{c},\mathfrak{d}$ 基数) : III.3.2
 
-$\sup_{i\in I}a_i,\ ((a_i)_{i\in I}$红衣主教家族）：III.3.2
+$\sup_{i\in I}a_i,\ ((a_i)_{i\in I}$ 基数一家人) : III.3.2
 
-$\sum_{i\in I}a_i,\ \prod_{i\in I}a_i,\ \prod_{i\in I}((a_i)_{i\in I}$红衣主教家族）：III.3.3
+$\sum_{i\in I}a_i,\ \prod_{i\in I}a_i,\ \prod_{i\in I}((a_i)_{i\in I}$ 基数一家人) : III.3.3
 
-$a+b,\ ab$（$a,b$基数）：III.3.3
+$a+b,\ ab$ ($a,b$ 基数) : III.3.3
 
-$a^b$（$a,b$红衣主教）：III.3.5
+$a^b$ ($a,b$ 基数) : III.3.5
 
 $3,4$ : III.4.1
 
@@ -162,7 +162,7 @@ $(t_i)_{i\in I},\ (t_i)_{a\leq i\leq b}$ : III.5.4
 
 $\prod_{i\in I}X_i,\ \prod_{i=a}^{b}X_i$ : III.5.4
 
-$\varphi_A$ ($A$ 子集 / 集合 $E$) : III.5.5
+$\varphi_A$ ($A$ 子集共集合 $E$) : III.5.5
 
 $\frac{a}{b},\ a/b$ ($a,b$ 整数 $b$ 除 $a$) : III.5.6
 
@@ -222,7 +222,7 @@ $\{x,y,z\}$：R.1.13
 
 $X_A$（X子集）：R.1.16
 
-$\mathscr{E}_A$（$\mathscr{E}$集合/子集）：R.1.16
+$\mathscr{E}_A$（$\mathscr{E}$集合 / 子集）：R.1.16
 
 $f(x),\ f_x,\ x\to f(x)$（$f$映射、$x$元素）：R.2.2
 

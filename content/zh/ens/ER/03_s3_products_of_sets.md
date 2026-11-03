@@ -13,19 +13,19 @@ pdf_pages: 0362-0367
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: abab37f20ef4df0deaea6bee4e0643dbcb500259c82c018ab4d11cd533268958
+content_sha256: 12cdeef2da89aa773416e275f67d996347452d4fed1983e167b2669235e09b0c
 translated_from: content/en/ens/ER/03_s3_products_of_sets.md
 translation_method: google
 source_content_sha256: 911c36b076fa6fa142fe625cbd3bb6de17b251c6493dfaffdaf76058fad82252
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f504b8e89b3ab31360333e9601a1059c80d7b33a69723ed9d365576150318345
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 3. 乘积集合
+## 3. 乘积 / 集合
 
 1. 设 E、F 为两个集合，它们可能不同，也可能不同。 *有序对* $(x,y)$，其第一个元素 $x$ 是 E 的任意元素，第二个元素 $y$ 是 F 的任意元素，是新的集合的元素，称为E的*乘积为F*，记为$E\times F$； E和F称为$E\times F$的*因子*。仅当两个有序对具有相同的第一个元素和相同的第二个元素时，才认为它们是相同的；在其他字、关系“$(x,y)=(x',y')$”等价于关系“$x=x'$和$y=y'$”。如果$z$是$E\times F$中的任意元素，则关系“$x$是有序对$z$的第一个元素”是$x$中的泛函关系；将$E\times F$的确定映射放到E上，称为*第一个坐标函数*，或*第一个投影*，用$\operatorname{pr}_1$表示。我们也说“$x$是$z$”或“$x = \mathrm{pr}_1 z$”的第一个坐标（或投影），而不是说“$x$是有序对$z$”的第一个元素。同样，我们定义*第二个坐标函数*，或*第二个投影*，它是$\mathrm{E} \times \mathrm{F}$的映射*到*$\mathrm{F}$，用$\mathrm{pr}_2$表示。
 
@@ -81,13 +81,13 @@ $$\overset{-1}{\overgroup{\mathrm{X} \times \mathrm{Y}}} = \mathrm{Y} \times \ma
 
 相反，令C为$\mathrm{E} \times \mathrm{F}$的子集，使得对于每个$x \in \mathrm{E}$，存在*至多*一个*$y \in \mathrm{F}$使得$(x, y) \in \mathrm{C}$。那么集合* $\mathrm{pr}_1(\mathrm{C})$ 的泛型元素 $x$ * 和 F 的泛型元素 $y$ 之间的关系 $(x, y) \in \mathrm{C}$ 是 $y$ 中的泛函关系且将$\mathrm{pr}_1(\mathrm{C})$的确定映射放入图为C的F中。
 
-The set of subsets C of $\mathrm{E} \times \mathrm{F}$ which have the property "for all $x \in \mathrm{E}$ there is at most one $y \in \mathrm{F}$ such that $(x, y) \in \mathrm{C}$" (a set which is a subset of $\mathfrak{P}(\mathrm{E} \times \mathrm{F})$) can therefore be put into one-to-one correspondence with *the set of mappings of subsets of* E *into* F.
+$\mathrm{E} \times \mathrm{F}$的子集C具有“对于所有$x \in \mathrm{E}$而言，至多有一个$y \in \mathrm{F}$使得$(x, y) \in \mathrm{C}$”（作为$\mathfrak{P}(\mathrm{E} \times \mathrm{F})$的子集的集合）的属性，因此可以与*E子集到*F的*映射集一一对应。
 
 令$f$为E到F的单射映射，并令$g$为$f$的逆，被视为E到$f(\mathrm{E})$的双射。如果C是$f$的图，那么$g$的图就是$\overset{-1}{\mathrm{C}}$。
 
 6. 如果$f$是E到F的映射，C是它在E$\times$F中的图，关系“$y = f(x)$”等价于“$(x, y) \in \mathrm{C}$”。 关系“$y \in f(\mathrm{X})$”相当于“存在$x$使得$x \in \mathrm{X}$和$(x,\ y) \in \mathrm{C}$”。
 
-现在令 K 为 E $\times$ F 的*任意* 子集，并令 X 为 E 的任意子集。令 K(X) 表示所有元素 $y$ 中的 F 由……组成的子集，其中满足关系“存在$x$使得$x \in \mathrm{X}$和$(x, y) \in \mathrm{K}$”；因此，这个关系相当于“$y \in \mathrm{K}(\mathrm{X})$”。 $\mathfrak{P}(\mathrm{E})$ 的映射 $\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$ 到$\mathfrak{P}(\mathrm{F})$ 据说是由 E $\times$ F 的子集* K *定义的。 注 K(X) 是集合的第二个投影 $\mathrm{K} \cap (\mathrm{X} \times \mathrm{F})$。如果K是E的映射$f$到F的图，则映射$\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$是$f$到集合的规范扩张到子集。
+现在令 K 为 E $\times$ F 的*任意* 子集，并令 X 为 E 的任意子集。令 K(X) 表示所有元素 $y$ 中的 F 由……组成的子集，其中满足关系“存在$x$使得$x \in \mathrm{X}$和$(x, y) \in \mathrm{K}$”；因此，这个关系相当于“$y \in \mathrm{K}(\mathrm{X})$”。 $\mathfrak{P}(\mathrm{E})$ 的映射 $\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$ 到 $\mathfrak{P}(\mathrm{F})$ 据说是由 E $\times$ F 的子集* K *定义的。请注意，K(X) 是集合 $\mathrm{K} \cap (\mathrm{X} \times \mathrm{F})$ 的第二个投影。如果K是E的映射$f$到F的图，那么映射$\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$是$f$到集合的规范扩张到子集。
 
 7. 如果$x$是E的泛型元素，那么$x \rightarrow \mathrm{K}(\{x\})$就是E到$\mathfrak{P}(\mathrm{F})$的映射，其中值$\mathrm{K}(\{x\})$（也用$\mathrm{K}(x)$表示，滥用语言）被称为*K *at*的*截面 $x$。 关系 $(x,\ y) \in \mathrm{K}$ 相当于$y \in \mathrm{K}(x)$。
 
@@ -103,7 +103,7 @@ The set of subsets C of $\mathrm{E} \times \mathrm{F}$ which have the property "
 
 如果 K 和 K$'$ 是 E $\times$ F 的两个子集，使得 $\mathrm{K} \subset \mathrm{K}'$，则对于所有 $\mathrm{X} \subset \mathrm{E}$，我们有 $\mathrm{K}(\mathrm{X}) \subset \mathrm{K}'(\mathrm{X})$；特别是，对于所有$x \in \mathrm{E}$，$\mathrm{K}(x) \subset \mathrm{K}'(x)$。相反，如果 $\mathrm{K}(x) \subset \mathrm{K}'(x)$ 对于所有 $x \in \mathrm{E}$，则$\mathrm{K} \subset \mathrm{K}'$。
 
-9. A relation between a generic element of E and a generic element of F defines a subset K of E $\times$ F and a subset $\overset{-1}{\mathrm{K}}$ of F $\times$ E, and hence a mapping $\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$ of $\mathfrak{P}(\mathrm{E})$ into $\mathfrak{P}(\mathrm{F})$ and a mapping $\mathrm{Y} \rightarrow \overset{-1}{\mathrm{K}}(\mathrm{Y})$ of $\mathfrak{P}(\mathrm{F})$ into $\mathfrak{P}(\mathrm{E})$.
+9. E 的泛型元素和 F 的泛型元素之间的关系定义了 E $\times$ F 的子集 K 和 F $\times$ E 的子集 $\overset{-1}{\mathrm{K}}$，因此定义了 $\mathfrak{P}(\mathrm{E})$ 的 $\mathrm{X} \rightarrow \mathrm{K}(\mathrm{X})$ 到 $\mathfrak{P}(\mathrm{F})$ 的映射以及 $\mathfrak{P}(\mathrm{F})$ 到 $\mathfrak{P}(\mathrm{E})$ 的映射 $\mathrm{Y} \rightarrow \overset{-1}{\mathrm{K}}(\mathrm{Y})$。
 
 如果K是E到F的映射$f$的图，映射$\mathrm{Y} \rightarrow \overset{-1}{\mathrm{K}}(\mathrm{Y})$是$f$的逆扩张。
 
@@ -131,7 +131,7 @@ $$\text{“}A \subset A' \text{ and } B \subset B'\text{”} \qquad \text{implie
 
 $$(32) \qquad A \circ \Delta = \Delta' \circ A = A.$$
 
-12. 设E、F、G为三个集合，它们可能不同，也可能不同。它们的*乘积*$E \times F \times G$是有序*三元组*$(x, y, z)$的集合，其中$x \in E$、$y \in F$和$z \in G$，关系“$(x, y, z) = (x', y', z')$”相当于“$x = x'$和$y = y'$并且$z = z'$”。 $E \times F \times G$在E、F、G上的三个映射$(x, y, z) \to x$、$(x, y, z) \to y$、$(x, y, z) \to z$分别称为*第一、第二、*和*第三坐标函数*（或*投影*）；类似地，对于例，*投影与指标* 1, 2 是映射
+12. 设E、F、G为三个集合，它们可能不同，也可能不同。它们的*乘积*$E \times F \times G$是有序*三元组*$(x, y, z)$的集合，其中$x \in E$、$y \in F$和$z \in G$，关系“$(x, y, z) = (x', y', z')$”相当于“$x = x'$和$y = y'$并且$z = z'$”。 $E \times F \times G$在E、F、G上的三个映射$(x, y, z) \to x$、$(x, y, z) \to y$、$(x, y, z) \to z$分别称为*第一、第二、*和*第三坐标函数*（或*投影*）；同样，例如，*投影与指标* 1, 2 是映射
 
 $$
 (x, y, z) \mapsto (x, y)
@@ -141,9 +141,9 @@ $E \times F \times G$到$E \times F$，并用$\mathrm{pr}_{1,2}$表示。
 
 第定义和命题。 2、3 和 4 很容易推广到三个集合中的乘积。
 
-此外，我们可以不考虑三个集合中的乘积$E \times F \times G$，而是等效地考虑通过双应用运算形成两个集合的积而获得的乘积$(E \times F) \times G$。事实上，$(x, y, z) \mapsto ((x, y), z)$是$E \times F \times G$到$(E \times F) \times G$的一对一的映射，称为*规范*。类似地，我们将$E \times F \times G$的定义一对一映射映射到集合$E \times (F \times G)$，以及通过排列三个字母E、F、G从$E \times F \times G$、$(E \times F) \times G$和$E \times (F \times G)$获得的所有集合。
+此外，我们可以不考虑三个集合中的乘积$E \times F \times G$，而是等效地考虑通过双应用运算形成两个集合的积而获得的乘积$(E \times F) \times G$。事实上，$(x, y, z) \mapsto ((x, y), z)$是$E \times F \times G$到$(E \times F) \times G$的一对一的映射，称为*规范*。类似地，我们将$E \times F \times G$的定义一对一映射放到集合$E \times (F \times G)$上，以及通过排列三个字母E、F、G从$E \times F \times G$、$(E \times F) \times G$和$E \times (F \times G)$获得的所有集合。
 
-存在类似的定义以及乘积超过三个集合的属性。
+存在类似的定义以及超过三个集合的乘积属性。
 
 13. 如果在任意集合$E'$中取其值的函数$f$定义在三个集合$E$、$F$、$G$中的乘积上，则称为*三个变量*的函数，每个变量都经过集合、$E$、$F$、$G$之一。 $f$的值在$E \times F \times G$的元素$(x, y, z)$处由$f(x, y, z)$表示。
 
@@ -151,7 +151,7 @@ $E \times F \times G$到$E \times F$，并用$\mathrm{pr}_{1,2}$表示。
 
 同样，如果$b$是$F$的元素，则$z \mapsto f(a, b, z)$是$G$的映射到$E'$，称为$f$相应的到值确定的部分映射 $x$、$y$ 中的$a$、$b$。
 
-相反，令$g$是$E$的映射到$E'$。 Then $(x, y, z) \mapsto g(x)$ is a mapping $h$ of $E \times F \times G$ into $E'$ such that every partial mapping of $E$ into $E'$ determined by $h$, corresponding to any values of $y$ and $z$, is identical with $g$. 这个事实通常用说来表达，即参数$x$的函数总是可以被设想为在给定时刻需要考虑的所有参数的函数，当然，其中包括$x$。
+相反，令$g$是$E$的映射到$E'$。 那么$(x, y, z) \mapsto g(x)$是$E \times F \times G$到$E'$的映射$h$，使得由$h$确定的$E$到$E'$的每个部分映射，对应于$y$和$z$的任何值，与$g$相同。 这个事实通常用说来表达，即参数$x$的函数总是可以被设想为在给定时刻需要考虑的所有参数的函数，当然，其中包括$x$。
 
 14. 令$f$、$g$、$h$分别为$E$的三个映射入$E'$、$F$入$F'$、$G$入$G'$。 $E \times F \times G$到$E' \times F' \times G'$的映射$(x, y, z) \mapsto (f(x), g(y), h(z))$记为$f \times g \times h$，称为$f$、$g$、$h$到乘积的*扩张*。如果 $f$、$g$、$h$ 三个都是单射（分别是满射、双射的），则 $f \times g \times h$ 是单射（分别是满射、双射的）。
 

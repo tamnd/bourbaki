@@ -53,23 +53,23 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: 8bae861d2e6e615a610aeca4a1bcace5bf749e40a985c7bf84bacb4e38ab6948
+content_sha256: 89f0f99c13f9835a53b2b645bfd883e85822c6315be578cdc90016aa0b70d162
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
 translation_method: google
 source_content_sha256: d9ff9314ec23606af6278353311f4d40b921e4f3cdc62b45c0636a8821d2e713
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d84d2690b9ad73b390c04574e38dbd510e25d791aaa71eb3a4870cce597b575b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 空间除以群的商；同质空间
+## § 2。 商 / 空间 by 群；均质空间
 
 ### 1. 一般结果
 
-令 X 为局部紧致空间，其中局部紧致群 H 按 $(x, \xi) \mapsto x\xi$ ($x \in X, \xi \in H$) 在右侧连续正确地运算。 H 定义的 X 中的等价关系是开集（GT，III, §2, No. 4，引理 2），X/H 是 Hausdorff（*loc.cit.*，§4, No. 2，命题 3），因此是局部紧致的（GT，I, §10, No. 4，命题 10）。我们用 X 的 $\pi$ 典范映射表示到X/H。 X的子集Y的饱和度为$YH = \pi^{-1}(\pi(Y))$。如果 K 是 X 的紧致子集，则 $\pi(K)$ 是紧致的并且 K 的饱和度 $\pi^{-1}(\pi(K))$ 在 X 中闭合。每个X/H 的紧凑子集是像在$\pi$ 的X 紧凑子集之下（GT，I, §10, No. 4，提案10）。 *我们假设一劳永逸地给出 H* 上的左 Haar 测度 $\beta$。
+令 X 为局部紧致空间，其中局部紧致群 H 通过 $(x, \xi) \mapsto x\xi$ ($x \in X, \xi \in H$) 在右侧连续正确地运算。 H 定义的 X 中的等价关系是开集（GT，III, §2, No. 4，引理 2），X/H 是 Hausdorff（*loc.cit.*，§4, No. 2，命题 3），因此是局部紧致的（GT，I, §10, No. 4，命题 10）。我们用 X 的 $\pi$ 典范映射表示到X/H。 X的子集Y的饱和度为$YH = \pi^{-1}(\pi(Y))$。如果 K 是 X 的紧致子集，则 $\pi(K)$ 是紧致的并且 K 的饱和度 $\pi^{-1}(\pi(K))$ 在 X 中闭合。每个X/H 的紧凑子集是像在$\pi$ 的X 紧凑子集之下（GT，I, §10, No. 4，提案10）。 *我们假设一劳永逸地给出 H* 上的左 Haar 测度 $\beta$。
 
 令$\chi$为H在$\mathbf{R}_+^*$中的连续表示。如果X上的函数g对于所有$x \in X$和$\xi \in H$满足$g(x\xi) = \chi(\xi)g(x)$，则其支持度S在H下是不变的，因此可以写成$\pi^{-1}(\pi(S))$。我们用$\mathscr{K}^\chi(X)$表示X上连续实值函数g形成的Riesz空间，即满足$g(x\xi) = \chi(\xi)g(x)$($x \in X, \xi \in H$)，其支持是X的紧致子集的饱和；我们用$\mathscr{K}^\chi(X)$的元素$\geqslant 0$中的$\mathscr{K}_+^\chi(X)$集合来表示。特别地，$\mathscr{K}^1(X)$正是X上连续函数的集合，在轨道上恒定，其支持是紧凑子集的饱和。
 
@@ -89,7 +89,7 @@ c) *如果g是X上的连续实值函数并且满足$g(x\xi) = \chi(\xi)g(x)$，�
 
 d) *如果*$\eta \in \mathbf{H}$，*则*$(\delta(\eta)f)^{\chi} = \chi(\eta)\Delta_{\mathbf{H}}(\eta)^{-1}f^{\chi}$。
 
-令$x_0 \in X$和$V$是$x_0$在$X$的紧邻域。 $\xi \in \mathbf{H}$的集合使得$V\xi$与$S$相交，也是$\xi \in \mathbf{H}$的集合使得$V\xi$与$S \cap VH$相交，因此在$\mathbf{H}$中是紧的，因为$S \cap VH$是紧的并且$\mathbf{H}$在$X$（GT、III, §4, No. 5、Th.1）下正常运行；那么§1, No. 1的引理1证明了a)和$f^{\chi}$的连续性。 b) 的其余部分是显而易见的。最后，c) 和 d) 由以下计算得出：
+令$x_0 \in X$和$V$是$x_0$在$X$的紧邻域。 $\xi \in \mathbf{H}$的集合使得$V\xi$与$S$相交，也是$\xi \in \mathbf{H}$的集合使得$V\xi$与$S \cap VH$相交，因此在$\mathbf{H}$中是紧致的，因为$S \cap VH$是紧致的并且$\mathbf{H}$在$X$（GT、III, §4, No. 5、Th.1）下正常运行；那么§1, No. 1的引理1证明了a)和$f^{\chi}$的连续性。 b) 的其余部分是显而易见的。最后，c) 和 d) 由以下计算得出：
 
 $$
 (fg)^{\chi}(x) = \int_{\mathbf{H}} f(x\xi)g(x\xi)\chi(\xi)^{-1}\,d\beta(\xi) = \int_{\mathbf{H}} f(x\xi)g(x)\chi(\xi)\chi(\xi)^{-1}\,d\beta(\xi)
@@ -123,7 +123,7 @@ c) $g = (uh)^{\chi}$。
 一个人有 $u^{1}(x) > 0$ 对应 $x \in K$，因此 $\inf_{x \in KH} u^{1}(x) = \inf_{x \in K} u^{1}(x) > 0$。
 断言 b) 由此立即得出。最后，根据命题 1 c) 得到$(uh)^{\chi} = u^{1}h$，并且显然$u^{1}h = g$。
 
-令 I 为 $\mathscr{K}^{\chi}(X)$ 上的相对有界线性形式 (Ch. II, §2, No. 2)。 Then $f \mapsto I(f^{\chi})$ is a relatively bounded 线性形式 on $\mathscr{K}(X)$, that is, a *measure* $\mu_{I}$ on $X$. 映射 $I \mapsto \mu_{I}$ is injective by Prop. 2. The measures $\mu_{I}$ on $X$ so obtained may be characterized as follows:
+令 I 为 $\mathscr{K}^{\chi}(X)$ 上的相对有界线性形式 (Ch. II, §2, No. 2)。那么$f \mapsto I(f^{\chi})$是$\mathscr{K}(X)$上的相对有界线性形式，即$X$上的*测度*$\mu_{I}$。 映射 $I \mapsto \mu_{I}$ 由命题 2 内射。如此获得的 $X$ 上的测度 $\mu_{I}$ 可以表征如下：
 
 #### 命题 3 {#int-vii-s2-prop-3 .statement tag=09F1}
 
@@ -138,7 +138,7 @@ $$
 \mu(f \cdot g^1) = \mu(f^\chi \cdot g) .
 $$
 
-d) If $f \in \mathscr{K}(X)$ is such that $f^\chi = 0$, then $\mu(f) = 0$.
+d) 如果$f \in \mathscr{K}(X)$使得$f^\chi = 0$，则$\mu(f) = 0$。
 
 a) $\Rightarrow$ b): 如果 $\mu(f) = I(f^\chi)$ 那么，考虑到提案 1 d)，
 
@@ -150,7 +150,7 @@ $$
 
 从而$\delta(\xi)\mu = \chi(\xi)^{-1} \Delta_H(\xi)\mu$。
 
-b) $\Rightarrow$ c)：假设满足假设 b)。 注 that 函数 $(x, \xi) \mapsto f(x)g(x\xi)$ and $(x, \xi) \mapsto f(x\xi)g(x)$ on $X \times H$ are continuous with compact support (because $H$ operates properly in $X$);这成立了，Th。第 2 章。 III, §4, No. 1 允许我们写：
+b) $\Rightarrow$ c)：假设满足假设 b)。请注意，$X \times H$上的函数$(x, \xi) \mapsto f(x)g(x\xi)$和$(x, \xi) \mapsto f(x\xi)g(x)$是连续的，具有紧凑的支持（因为$H$在$X$中可以正常运行）；这成立了，Th。第 2 章。 III, §4, No. 1 允许我们写：
 
 $$
 \int_X f(x) d\mu(x) \int_H g(x\xi) d\beta(\xi) = \int_H d\beta(\xi) \int_X f(x)g(x\xi) d\mu(x)
@@ -220,9 +220,9 @@ b) *相反，令 $\mu$ 为 $X$ 的度量，使得 $\delta(\xi)\mu = \Delta_H(\xi
 
 #### 定义 1 {#int-vii-s2-def-1 .statement tag=09F4}
 
-*根据命题 4 中的假设和记号，$\lambda$ 称为 $\mu$ 除以 $\beta$ 的商，并表示为 $\frac{\mu}{\beta}$ 或 $\mu/\beta$。*
+*根据命题 4 中的假设和记号，$\lambda$ 被 $\beta$ 称为 $\mu$ 的商，并表示为 $\frac{\mu}{\beta}$ 或 $\mu/\beta$。*
 
-The mapping $\lambda \mapsto \lambda^\#$ of $\mathscr{M}(X/H)$ into $\mathscr{M}(X)$ is none other than the transpose of the mapping $f \mapsto f^b$ of $\mathscr{K}(X)$ into $\mathscr{K}(X/H)$. 设$\mathfrak{F}$为$\mathscr{M}(X/H)$上的过滤器；说$\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$对于所有$f \in \mathscr{K}(X)$相当于说，$\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$对于所有$f' \in \mathscr{K}(X/H)$；因此，对于模糊拓扑，映射$\lambda \mapsto \lambda^\#$是$\mathscr{M}(X/H)$的*同构*到$\mathscr{M}(X)$的线性子空间。 这个子空间是*模糊封闭的*，因为它是$\mu \in \mathscr{M}(X)$的集合，使得$\delta(\xi)\mu = \Delta_H(\xi)\mu$对于所有$\xi \in H$。 显然条件$\lambda \geqslant 0$和$\lambda^\# \geqslant 0$是等价的。
+$\mathscr{M}(X/H)$到$\mathscr{M}(X)$的映射$\lambda \mapsto \lambda^\#$无非是$\mathscr{K}(X)$的$f \mapsto f^b$到$\mathscr{K}(X/H)$的映射转置。 设$\mathfrak{F}$为$\mathscr{M}(X/H)$上的过滤器；说$\lim_{\lambda,\mathfrak{F}} \lambda^\#(f) = 0$对于所有$f \in \mathscr{K}(X)$相当于说，$\lim_{\lambda,\mathfrak{F}} \lambda(f') = 0$对于所有$f' \in \mathscr{K}(X/H)$；因此，对于模糊拓扑，映射$\lambda \mapsto \lambda^\#$是$\mathscr{M}(X/H)$的*同构*到$\mathscr{M}(X)$的线性子空间。 这个子空间是*模糊封闭的*，因为它是$\mu \in \mathscr{M}(X)$的集合，使得$\delta(\xi)\mu = \Delta_H(\xi)\mu$对于所有$\xi \in H$。 显然条件$\lambda \geqslant 0$和$\lambda^\# \geqslant 0$是等价的。
 
 公式 (6) 可以与通常的双积分的记号类比，写成
 $$
@@ -342,7 +342,7 @@ $$
 
 因而 P $\lambda$ 可忽略不计，g $\lambda$ 可测量。
 
-如果 N 局部 $\lambda$ 可以忽略不计，则 $\pi^{-1}(N)$ 局部 $\lambda^\#$ 可以忽略不计（第 V, §6, No. 6 章，第 10 条命题第 1 条）。如果 g 是 $\lambda$ 可测的，则 $g \circ \pi$ 是 $\lambda^\#$ 可测的（*同上。*）。最后，假设 h 是局部 $\lambda$ 可积的。那么我们已经知道$h \circ \pi$是$\lambda^\#$可测的。对于每个 $f \in \mathscr{K}_+(X)$，根据第 5 条命题，
+如果 N 局部 $\lambda$ 可以忽略不计，则 $\pi^{-1}(N)$ 局部 $\lambda^\#$ 可以忽略不计（第 V, §6, No. 6 章，第 10 条命题第 1 条）。如果 g 是 $\lambda$ 可测的，则 $g \circ \pi$ 是 $\lambda^\#$ 可测的（*同上。*）。最后，假设 h 是局部 $\lambda$ 可积的。那么我们已经知道$h \circ \pi$是$\lambda^\#$可测的。对于每一个 $f \in \mathscr{K}_+(X)$，根据第 5 条命题，我们有：
 
 $$
 \int_X^* f(x)|h|(\pi(x)) \, d\lambda^\#(x) = \int_{X/H}^* |h|(u)f^b(u) \, d\lambda(u) < +\infty,
@@ -386,33 +386,33 @@ $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
 $$
 
-从而完成 a) 的证明。 断言 b) 则立即跟随，因为对于例，$\lambda^+$ 正是$\sup(\lambda, 0)$。 为了证明 c)，只要注 $|\lambda| = \sup \mathscr{R}(\alpha \lambda)$ 超过绝对值 1 的复数 $\alpha$，另一方面，对于每个 $\mu \in \mathscr{M}(X/H)$ $\mathscr{R}(\mu^\#) = (\mathscr{R}\mu)^\#$ 就足够了。
+完成a)的证明。 断言 b) 然后立即跟随，因为，例如，$\lambda^+$ 正是$\sup(\lambda, 0)$。为了证明 c)，只需注意绝对值 1 的 $|\lambda| = \sup \mathscr{R}(\alpha \lambda)$ 超过复数 $\alpha$，另一方面，对于每个$\mu \in \mathscr{M}(X/H)$，$\mathscr{R}(\mu^\#) = (\mathscr{R}\mu)^\#$ 就足够了。
 
 #### 注 1 {#int-vii-s2-n3-rem-1 .statement tag=09FC}
 
-命题 6 a) 可以用说来表示，$\lambda$ 是 $\pi$ 下$\lambda^\#$ 的*伪图像*测度（第 VI, §3, No. 2 章，定义 1）。
+命题 6 a) 可以用说表示，$\lambda$ 是 $\pi$ 下 $\lambda^\#$ 的*伪图像*测度（第 VI, §3, No. 2 章，定义 1）。
 
 #### 注 2 {#int-vii-s2-n3-rem-2 .statement tag=09FD}
 
-假设 $H$ 是*紧凑*并且 $\beta$ 是标准化的。 $X$的每个紧致子集的饱和度都是紧致的。因此，如果$f \in \mathscr{K}(X/H)$则$f \circ \pi \in \mathscr{K}(X)$；并且，对于 $X/H$ 上的每一个正向措施 $\lambda$，命题 5 c) 给出
+假设 $H$ 是*紧凑*并且 $\beta$ 是标准化的。 $X$的每个紧凑子集的饱和度都是紧凑的。因此，如果$f \in \mathscr{K}(X/H)$则$f \circ \pi \in \mathscr{K}(X)$；并且，对于 $X/H$ 上的每个积极措施$\lambda$，提案 5 c) 给出
 
 $$
 \int_X (f \circ \pi)(x)\, d\lambda^\#(x) = \int_{X/H} f(u)\, d\lambda(u).
 $$
 
-在其他字中，$\lambda$是$\pi$下$\lambda^\#$的*像*。
+在其他字中，$\lambda$是$\lambda^\#$在$\pi$下的*像*。
 
 #### 注 3 {#int-vii-s2-n3-rem-3 .statement tag=09FE}
 
-科。命题 6 的 3 c）立即表明，在复杂测度的情况下，小节的结果仍然有效（涉及上积分的情况除外）。
+科。命题 6 的 3 c）立即表明，在复杂测量的情况下，小节的结果仍然有效（涉及上积分的除外）。
 
 #### 注 4 {#int-vii-s2-n3-rem-4 .statement tag=09FF}
 
-令$m$为$X/H$上的向量测度，值在$E$中，并令$q$为$E$上的下半连续半范数。为了使 $m$ 成为 $q$ 可大化（Ch. VI, §2, No. 3，定义 3），$m^\#$ 是可大化的，在这种情况下是 $q(m^\#) = q(m)^\#$。这是从定义和 Cor 立即得出的结论。 3a）。
+令$m$为$X/H$上的向量测度，$E$中的值，并令$q$为$E$上的下半连续半范数。为了使 $m$ 成为 $q$ 可大化（第 VI, §2, No. 3，定义 3），$m^\#$ 是这样的充分必要，在这种情况下为 $q(m^\#) = q(m)^\#$。这是从定义和 Cor 立即得出的结论。 3a）。
 
 另一方面，令 $\mu$ 为$X/H$ 的正测度。对于 $m$ 为基 $\mu$ 的标量，$m^\#$ 为基 $\mu^\#$ 的标量是必要且充分的：这是从 Cor 得出的。 1.
 
-最后，如果 $m$ 具有基 $\mu$，其中密度 $f$ 相对于 $\mu$（第 VI, §2, No. 4，定义 4），则 $m^\#$ 具有基 $\mu^\#$，其中密度 $f \circ \pi$：这是根据提案 6 c) 得出的。
+最后，如果 $m$ 有基 $\mu$，其中密度 $f$ 相对于 $\mu$（第 VI, §2, No. 4，定义 4），则 $m^\#$ 有基 $\mu^\#$，其中密度 $f \circ \pi$：这是根据提案 6 c) 得出的。
 
 ### 4. $X/H$ 是仿紧的情况
 
@@ -468,13 +468,13 @@ $$
 $$
 其中$M = \sup |f|$；因而$h \cdot ((kf) \circ \pi)$是$\lambda^\#$可积，因而$kf$是$\lambda$可积，已被证明；这证明$k$确实是局部$\lambda$可积的。
 
-#### 推论{#int-vii-s2-n4-cor-1 .statement tag=09FL}
+#### 推论 {#int-vii-s2-n4-cor-1 .statement tag=09FL}
 
 — *连续线性映射* $f \mapsto f^b$ *of* $L^1(X, \lambda^\#)$ *进入* $L^1(X/H, \lambda)$ *由第 5 条定义是满射*。
 
-首先假设 $X/H$ 是仿紧的，并令 $h$ 在第 8 条的 $X$ 满足条件上为函数。如果 $k$ 是$X/H$ 上的$\lambda$ 可积数值函数，那么$h \cdot (k \circ \pi)$是$\lambda^\#$可积且$(h \cdot (k \circ \pi))^b = k$（命题9）。
+首先假设$X/H$是仿紧的，并令$h$在第8条命题的$X$满足条件上为函数。如果$k$是$X/H$上的$\lambda$可积数值函数，那么$h \cdot (k \circ \pi)$是$\lambda^\#$可积且$(h \cdot (k \circ \pi))^b = k$（命题9）。
 
-一般情况下，设$u \in L^1(X/H, \lambda)$。 在紧集$K_n$的可数并之外，存在函数$f \in \mathscr{L}^1(X/H, \lambda)$和类$u$和零。 Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. 那么$V$是$X/H$的开子集，紧致子集$\overline{U}_n$的可数并，因此是仿紧致（GT，I, § 9, No. 10，Th.5）。 集合 $Y = \overline{\pi}^{-1}(V)$ 并令$\lambda_V$（分别$\lambda_Y^\#$）为$\lambda$（分别$\lambda^\#$）在$V$（分别$Y$）上引起的测度。 很明显，$Y/H$可以与$V$识别（GT，I, § 3，命题10），并且$\lambda_Y^\#$可以与$(\lambda_V)^\#$识别。 此外，$f$是$V$之外的零以及属于至$\mathscr{L}^1(V, \lambda_V)$。 因此，存在$g \in \mathscr{L}^1(Y, \lambda_Y^\#)$使得$g^b = f$几乎在$V$中无处不在。 在$X - Y$上将$g$扩展0，得到函数$g_1 \in \mathscr{L}^1(X, \lambda^\#)$，显然$L^1(X/H, \lambda)$中$g_1^b$的类正是$u$。
+一般情况下，设$u \in L^1(X/H, \lambda)$。 在紧集$K_n$的可数并之外，存在函数$f \in \mathscr{L}^1(X/H, \lambda)$和类$u$和零。 让我们递归地定义$X/H$的相对紧开集$U_n$的序列，使得$U_{n+1} \supset K_n \cup \overline{U}_n$，并让$V$作为$U_n$的并集。 那么$V$是$X/H$的开子集，紧致子集$\overline{U}_n$的可数并，因此是仿紧致（GT，I, § 9, No. 10，Th.5）。 集合 $Y = \overline{\pi}^{-1}(V)$ 并令$\lambda_V$（分别$\lambda_Y^\#$）为$\lambda$（分别$\lambda^\#$）在$V$（分别$Y$）上引起的测度。 很明显，$Y/H$可以与$V$识别（GT，I, § 3，命题10），并且$\lambda_Y^\#$可以与$(\lambda_V)^\#$识别。 此外，$f$是$V$之外的零以及属于至$\mathscr{L}^1(V, \lambda_V)$。 因此，存在$g \in \mathscr{L}^1(Y, \lambda_Y^\#)$使得$g^b = f$几乎在$V$中无处不在。 在$X - Y$上将$g$扩展0，得到函数$g_1 \in \mathscr{L}^1(X, \lambda^\#)$，显然$L^1(X/H, \lambda)$中$g_1^b$的类正是$u$。
 
 #### 注 3 {#int-vii-s2-n4-rem-3 .statement tag=09FM}
 
@@ -496,7 +496,7 @@ $$
 
 令$G$为局部紧致群，$H$为$G$的闭子群。考虑关于 $H$ 的左陪集齐次空间 $G/H$，其中 $G$ 在左侧连续运算。我们将证明在$G/H$上存在且仅有一个非零的准不变测度类。
 
-注，$H$通过正确的翻译连续正确地在$G$上运行；商空间正是 $G/H$，是仿紧的（GT、III、$§ 4$、No. 6，命题 13）。因此，我们可以应用第 1 至第 4 条的结果，其中$X = G$。因此，我们将$\mathscr{K}(G)$的映射$f \mapsto f^b$放到$\mathscr{K}(G/H)$上，并将$\mathscr{M}(G/H)$的$\lambda \mapsto \lambda^\#$放到$\mathscr{M}(G)$上（一旦$H$上的左哈尔测度$\beta$已被修复）。 $G$ 在 $G/H$ 中向左运算，这一事实产生了补充性质：
+请注意，通过正确的翻译，$H$可以连续且正确地对$G$进行操作； 商空间，正是$G/H$，是仿紧致的（GT、III、$§ 4$、No. 6，第 13 条命题）。因此，我们可以应用第 1 至第 4 条的结果，其中$X = G$。 We thus have 映射 $f \mapsto f^b$ of $\mathscr{K}(G)$ onto $\mathscr{K}(G/H)$, and $\lambda \mapsto \lambda^\#$ of $\mathscr{M}(G/H)$ into $\mathscr{M}(G)$ (once a left Haar measure $\beta$ on $H$ has been fixed). $G$ 在 $G/H$ 中向左运算，这一事实产生了补充性质：
 
 $$
 \begin{align*}
@@ -518,7 +518,7 @@ $$
 
 令$\lambda$为$G/H$上的$\neq 0$测度，$\mu$为$G$上的左哈尔测度。以下属性是等效的：
 a) $\lambda$ 在 $G$ 下是准不变的；
-b) 为了使$G/H$中的子集$A$局部$\lambda$可忽略不计，$\overline{\pi}^{-1}(A)$局部$\mu$可忽略不计是充分必要的；
+b) for 子集 $A$ of $G/H$ to be locally $\lambda$-negligible, it is necessary and sufficient that $\overline{\pi}^{-1}(A)$ be locally $\mu$-negligible;
 c) 测量$\lambda^\#$ 相当于$\mu$。
 
 假设情况如此，令$\lambda^\# = \rho \cdot \mu$，其中$\rho$是局部$\mu$可积函数，且无处不在非零的。那么，对于每个$s \in G$，$\gamma_{G/H}(s)\lambda$相对于$\lambda$的密度$\theta_s$是这样的：
@@ -688,25 +688,25 @@ $$
 
 #### 推论 1 {#int-vii-s2-thm-3-cor-1 .statement tag=09FW}
 
-为了在G下$G/H$非零的上存在相对不变的正测度，在$\mathbf{R}_+^*$中存在$G$的连续表示延伸表示$\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$是充分必要的。
+为了在G下$G/H$非零的存在相对不变的正测度，在$\mathbf{R}_+^*$中存在$G$的连续表示延伸表示$\xi \mapsto \Delta_H(\xi)/\Delta_G(\xi)$是充分必要的。
 
-注当$H$ 是幺模时，条件成立。
+请注意，当$H$是幺模时，条件成立。
 
 #### 推论 2 {#int-vii-s2-thm-3-cor-2 .statement tag=09FX}
 
-— 为了在 $G$ 下存在$G/H$ 非零的正测度不变量，$\Delta_G$ 重合与 $\Delta_H$ 在 $H$ 上是充分必要的。
+— 为了在 $G$ 下存在$G/H$ 非零的正测度不变量，$\Delta_G$ 重合与 $\Delta_H$ 在$H$ 上是必要且充分的。
 
 #### 推论 3 {#int-vii-s2-thm-3-cor-3 .statement tag=09FY}
 
 — 假设 $H$ 是幺模的，并且$G/H$ 非零的上存在有界正测度 $\nu$ 在 $G$ 下相对不变。那么$\nu$是不变的，$G$是幺模的。
 
-令 $\chi$ 为 $\nu$ 的乘子。对于每个$s \in G$，$\nu$和$\gamma(s)\nu$具有相同的有限总质量（§ 1, No. 1，公式（6））；从$\gamma(s)\nu = \chi(s)^{-1}\nu$开始，我们有$\chi(s) = 1$。因而$\nu$是不变的。由科. 2、$\Delta_G(s) = 1$为所有$s \in H$。令$G'$为$t \in G$的集合，使得$\Delta_G(t) = 1$。这是 $G$ 包含 $H$ 的闭合法线子群。设$\pi$是$G/H$到$G/G'$的典范映射。那么$\pi(\nu)$就是非零的，在$G$下有界正测度不变量。因此群 $G/G'$ 的左 Haar 测度是有界的，因而 $G/G'$ 是紧致的（§ 1, No. 2，命题 2）。因而，$\Delta_G$下的$G$的像是$\mathbf{R}_+^*$的紧凑子群；这个子群减少到$\{1\}$，因而$\Delta_G = 1$在所有$G$上。
+设$\chi$为$\nu$的乘子。对于每个$s \in G$，$\nu$和$\gamma(s)\nu$具有相同的有限总质量（§ 1, No. 1，公式（6））；从$\gamma(s)\nu = \chi(s)^{-1}\nu$开始，我们有$\chi(s) = 1$。因而$\nu$是不变的。由科. 2、$\Delta_G(s) = 1$为所有$s \in H$。令$G'$为$t \in G$的集合，使得$\Delta_G(t) = 1$。这是 $G$ 包含 $H$ 的闭合法线子群。令$\pi$为$G/H$的典范映射到$G/G'$。那么$\pi(\nu)$就是非零的，在$G$下有界正测度不变量。因此群 $G/G'$ 的左 Haar 测度是有界的，因而 $G/G'$ 是紧致的（§ 1, No. 2，命题 2）。因而，$\Delta_G$下的$G$的像是$\mathbf{R}_+^*$的紧凑子群；这个子群减少到$\{1\}$，因而$\Delta_G = 1$在所有$G$上。
 
 ### 7. Haar 测量商群
 
 #### 命题 10 {#int-vii-s2-prop-10 .statement tag=09FZ}
 
-— 令$G$为局部紧凑群，$G'$闭法线子群，$G''$群$G/G'$，$G$的$\pi$典范映射到$G/G'$，以及$\alpha, \alpha', \alpha''$ 在 $G, G', G''$ 留下了哈尔措施。
+— 令 $G$ 为局部紧凑群，$G'$ 子群，$G''$ 群 $G/G'$，$\pi$ 典范映射 $G$ 到$G/G'$和$\alpha, \alpha', \alpha''$在$G, G', G''$上留下了哈尔措施。
 
 a) 如果需要，将$\alpha$乘以常数因子，我们可以假设$\alpha'' = \alpha/\alpha'$。特别是，如果 $f \in \mathscr{K}(G)$ 那么
 
@@ -716,13 +716,13 @@ $$
 
 b) 对于所有$\xi \in G'$，一个人有$\Delta_G(\xi) = \Delta_{G'}(\xi)$；特别是，如果 $G$ 是幺模的，那么 $G'$ 也是幺模的。
 
-c) The kernel of the representation $\Delta_G$ of $G$ in $\mathbf{R}_+^*$ is the largest unimodular closed normal subgroup of $G$.
+c) $\mathbf{R}_+^*$ 中$G$的表示$\Delta_G$的核是$G$的最大幺模闭正规子群。
 
 应用Th。 No. 6与$\chi = 1$的3（并且知道这里存在$G$下$G/G'$不变量的测度，即$\alpha''$），我们得到a）和b）； c)紧随b)而来。
 
 #### 命题 11 {#int-vii-s2-prop-11 .statement tag=09G0}
 
-— 我们维持命题 10 的记号。令 $u$ 为 $G$ 的自同构，使得 $u(G') = G'$。令$u'$为$u$到$G'$的限制，并通过商从$u$推导出$G''$的$u''$自同构。然后
+— 我们维持命题 10 的记号。令 $u$ 为 $G$ 的自同构，使得 $u(G') = G'$。设$u'$为$u$到$G'$的限制，并且从$u$通过商推导出$G''$的$u''$自同构。然后
 
 $$
 \operatorname{mod}_G(u) = \operatorname{mod}_{G'}(u') \operatorname{mod}_{G''}(u'').
@@ -737,7 +737,7 @@ $$
 $$
 从而命题。
 
-#### 推论{#int-vii-s2-n7-cor-1 .statement tag=09G1}
+#### 推论 {#int-vii-s2-n7-cor-1 .statement tag=09G1}
 
 — *对于每个* $x \in G$，
 $$
@@ -747,9 +747,9 @@ $$
 
 这是从第 11 条命题和 §1, No. 4 的公式 (33) 得出的。
 
-### 8. A transitivity property
+### 8. 传递性性质
 
-令 $X$ 为局部紧致空间，其中局部紧致群 $H$ 通过 $(x, \xi) \mapsto x\xi$ ($x \in X,\ \xi \in H$) 连续且*正确地*作用于右侧。 令$H'$为$H$的闭子群；那么$H'$在$X$的右侧连续且*正确地*运行。 We shall denote by $\pi, \pi', p$ the canonical mappings of $X$ onto $X/H$, of $X$ onto $X/H'$, and of $H$ onto $H/H'$.
+令 $X$ 为局部紧致空间，其中局部紧致群 $H$ 通过 $(x, \xi) \mapsto x\xi$ ($x \in X,\ \xi \in H$) 连续且*正确地*作用于右侧。 令$H'$为$H$的闭子群；那么$H'$在$X$的右侧连续且*正确地*运行。 我们用$\pi, \pi', p$表示$X$到$X/H$、$X$到$X/H'$以及$H$到$H/H'$的规范映射。
 
 设$\beta, \beta'$为$H, H'$的左哈尔测度；假设 $\Delta_H$ 和 $\Delta_{H'}$ *重合在* $H'$ 上；然后可以对$H/H'$进行形式测度$\beta/\beta'$，在$H$下保持左不变（No. 6，Th.3）。另一方面，令 $\mu$ 为 $X$ 的正测度，使得
 $$
@@ -757,13 +757,13 @@ $$
 $$
 对于$\xi \in H$；然后可以对$X/H$采取形式措施$\mu/\beta$，对$X/H'$实施$\mu/\beta'$（No. 2，提案4）。我们将把$\mu/\beta'$写为$\mu/\beta$的*整的*，由$X/H$的点索引的$X/H'$度量系列。当$H' = \{e\}$时，我们又会陷入No. 3的境地。
 
-$X \times H$到$X/H'$的映射$(x, \xi) \mapsto \pi'(x\xi)$是连续的；由于$\pi'(x\xi) = \pi'(x\xi\xi')$对于所有$\xi' \in H'$这个映射定义，通过商，将$X \times (H/H')$的*连续*映射转化为$X/H'$； 从而，对于$X$中的每个固定$x$，$H/H'$的部分映射$\omega_x$进入$X/H'$，通过从H的映射$\psi_x : \xi \mapsto x\xi$到X的商推导出来。 注 $\psi_{x\xi} = \psi_x \circ \gamma_H(\xi)$，因此 $\omega_{x\xi} = \omega_x \circ \gamma_{H/H'}(\xi)$ 对于所有 $\xi \in H$。
+$X \times H$到$X/H'$的映射$(x, \xi) \mapsto \pi'(x\xi)$是连续的；由于$\pi'(x\xi) = \pi'(x\xi\xi')$对于所有$\xi' \in H'$这个映射定义，通过到商，$X \times (H/H')$的*连续*映射进入$X/H'$； 从而，对于$X$中的每个固定$x$，$H/H'$的部分映射$\omega_x$进入$X/H'$，通过从H的映射$\psi_x : \xi \mapsto x\xi$到商推导出来X。请注意，$\psi_{x\xi} = \psi_x \circ \gamma_H(\xi)$，因此对于所有$\xi \in H$，$\omega_{x\xi} = \omega_x \circ \gamma_{H/H'}(\xi)$。
 
 #### 引理 7 {#int-vii-s2-lem-7 .statement tag=09G2}
 
 *令K为X/H'的紧致子集，且L为X的紧致子集。那么 $\bigcup_{x \in L} \omega_x^{-1}(K)$ 在 H/H'._ 中是相对紧凑的
 
-令 $K_1$ 为 X 的紧凑子集，使得 $\pi'(K_1) = K$。令$K_2$为$\xi \in H$的集合，使得$L\xi$与$K_1$相交。那么 $K_2$ 是紧致的（GT，III, §4, No. 5，Th.1）。令$\xi \in H$ 使得$p(\xi) \in \bigcup_{x \in L} \omega_x^{-1}(K)$。因此，存在一个$x \in L$使得$\omega_x(p(\xi)) \in K$，在其他字使得$\pi'(x\xi) \in K$。由于$\pi'(K_1) = K$，存在$\xi' \in H'$使得$x\xi\xi' \in K_1$。那么$\xi\xi' \in K_2$，因此$p(\xi) = p(\xi\xi') \in p(K_2)$。因此我们证明了$\bigcup_{x \in L} \omega_x^{-1}(K) \subset p(K_2)$。
+令 $K_1$ 为 X 的紧致子集，使得 $\pi'(K_1) = K$。令$K_2$为$\xi \in H$的集合，使得$L\xi$与$K_1$相交。那么 $K_2$ 是紧致的（GT，III, §4, No. 5，Th.1）。令$\xi \in H$ 使得$p(\xi) \in \bigcup_{x \in L} \omega_x^{-1}(K)$。因此，存在一个$x \in L$使得$\omega_x(p(\xi)) \in K$，在其他字使得$\pi'(x\xi) \in K$。由于$\pi'(K_1) = K$，存在$\xi' \in H'$使得$x\xi\xi' \in K_1$。那么$\xi\xi' \in K_2$，因此$p(\xi) = p(\xi\xi') \in p(K_2)$。因此我们证明了$\bigcup_{x \in L} \omega_x^{-1}(K) \subset p(K_2)$。
 
 这个引理首先表明映射$\omega_x$是*正确的*。因而，可以在 $X/H'$ 上进行形式测量$\omega_x(\beta/\beta')$，该措施集中在$\omega_x(H/H') = \pi'(\psi_x(H)) = \pi'(xH)$。若$f \in \mathscr{K}(X/H')$、引理7和§1, No. 1、引理1则表明函数$x \mapsto \langle f, \omega_x(\beta/\beta') \rangle$在X上连续；此外，当Supp $f$ 不与$\pi'(xH)$ 相交时，$\langle f, \omega_x(\beta/\beta') \rangle$ 为零，在其他字中，当$\pi(x)$ 不与$X/H$ 中Supp $f$ 的属于到典范像时。
 
@@ -773,9 +773,9 @@ $$
 \omega_{x\xi}(\beta/\beta') = \omega_x(\gamma_{H/H'}(\xi)(\beta/\beta')) = \omega_x(\beta/\beta').
 $$
 
-将X的映射$x \mapsto \omega_x(\beta/\beta')$化为$\mathscr{M}(X/H')$，因此定义通过将$X/H$的商映射$u \mapsto (\beta/\beta')_u$化为$\mathscr{M}(X/H')$。上式表明，对于每个 $f \in \mathscr{K}(X/H')$，映射 $u \mapsto \langle f, (\beta/\beta')_u \rangle$ 是连续的且有紧支撑。因而，映射$u \mapsto (\beta/\beta')_u$*是一个模糊连续且*$(\mu/\beta)$*-关于*$X/H'$*和*$X/H$*作为指标集合*的充分测度系列。
+X的映射$x \mapsto \omega_x(\beta/\beta')$进入$\mathscr{M}(X/H')$，因此定义通过商映射$u \mapsto (\beta/\beta')_u$从$X/H$进入$\mathscr{M}(X/H')$。上式表明，对于每个 $f \in \mathscr{K}(X/H')$，映射 $u \mapsto \langle f, (\beta/\beta')_u \rangle$ 是连续的且有紧支撑。因而，映射 $u \mapsto (\beta/\beta')_u$ *是一个模糊连续且* $(\mu/\beta)$*-关于* $X/H'$，*与* $X/H$ *作为指标集合* 的充分措施族。
 
-设$x \in X$和$u = \pi(x) \in X/H$。令$f$在$X/H'$上为函数，而值在Banach空间或$\overline{\mathbf{R}}$中。由 Ch. V, §4，Th。 2、要使 $f$ $(\beta/\beta')_u$ 可积，$H/H'$ 上的函数 $p(\xi) \mapsto f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ $(\beta/\beta')$ 可积是充分必要的，在这种情况下
+设$x \in X$和$u = \pi(x) \in X/H$。令$f$为$X/H'$上的函数，其中值位于Banach空间或$\overline{\mathbf{R}}$中。由 Ch. V, §4，Th。 2、要使 $f$ $(\beta/\beta')_u$ 可积，$H/H'$ 上的函数 $p(\xi) \mapsto f(\omega_x(p(\xi))) = f(\pi'(x\xi))$ $(\beta/\beta')$ 可积是充分必要的，在这种情况下
 
 $$
 (21) \quad \int_{X/H'} f(u') d(\beta/\beta')_u(u') = \int_{H/H'} f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi}) \qquad (\dot{\xi} = p(\xi)).
@@ -840,7 +840,7 @@ $$
 \pi(x) \mapsto \int_{H/H'}^* f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi})
 $$
 
-是$(\mu/\beta)$-可测量的，并且
+$(\mu/\beta)$-可测量，并且
 
 $$
 \int_{X/H'}^* f d(\mu/\beta') = \int_{X/H}^* d(\mu/\beta)(\dot{x}) \int_{H/H'}^* f(\pi'(x\xi)) d(\beta/\beta')(\dot{\xi}).
@@ -854,7 +854,7 @@ $$
 
 #### 推论 2 {#int-vii-s2-prop-12-cor-2 .statement tag=09G5}
 
-— 令 $G$ 为 $G$ 的局部紧致群、$A$ 和 $B$ 闭子群，使得 $A \supset B$。假设在关于$B$的左陪集的齐次空间$G/B$上，存在非零的正测度$\alpha$，它在$G$下不变并且有界。
+— 令$G$为群、$A$和$B$闭子群的$G$，使得$A \supset B$。假设在关于$B$的左陪集的齐次空间$G/B$上，存在非零的正测度$\alpha$，它在$G$下不变并且有界。
 
 a) $G/A$中$\alpha$的典范像是非零的正测度，在$G$下不变，并且有界。
 
@@ -870,7 +870,7 @@ c) 在$A$关于$B$的左陪集的齐次空间$A/B$上，存在$A$下且有界的
 
 *当G为李群且李代数$g$时，条件强加于X，且若子代数相应的至X且Y有和$g$，则满足Y。*
 
-群$X \times Y$在左侧G中连续运行，经过律$(x, y) \cdot s = x s y^{-1}$（$x \in X, y \in Y, s \in G$）。让$Z = X \cap Y$。 $X \times Y$中e的稳定子是对$(z, z)$形成的$X \times Y$的子群$Z_0$，其中$z \in Z$、子群与$Z$自然同构。因此集合 $\Omega$ 可以与左陪集的齐次空间 $(X \times Y)/Z_0$ 等同；更准确地说，将$X \times Y$的映射$(x, y) \mapsto xy^{-1}$放到$\Omega$定义上，通过商，将$(X \times Y)/Z_0$的连续双射放到$\Omega$上。我们假设这个映射*是同胚*。 （如果 G 在无穷大可数，则尤其如此：cf. App.I。）
+群$X \times Y$在左侧G中连续运行，经过律$(x, y) \cdot s = x s y^{-1}$（$x \in X, y \in Y, s \in G$）。让$Z = X \cap Y$。 $X \times Y$中e的稳定子是对$(z, z)$形成的$X \times Y$的子群$Z_0$，其中$z \in Z$、子群与$Z$自然同构。因此集合 $\Omega$ 可以与左陪集的齐次空间 $(X \times Y)/Z_0$ 等同；更准确地说，将$X \times Y$的映射$(x, y) \mapsto xy^{-1}$转移到$\Omega$定义，通过商，将$(X \times Y)/Z_0$的连续双射转移到$\Omega$。我们假设这个映射 *是同胚*。 （如果 G 在无穷大可数，则尤其如此：cf. App.I。）
 
 #### 命题 13 {#int-vii-s2-prop-13 .statement tag=09G6}
 
@@ -882,9 +882,9 @@ $$
 \gamma((x, y)) \mu = \delta(y) \gamma(x) \mu = \Delta_G(y) \mu .
 $$
 
-将$\Omega$与齐次空间$(X \times Y)/Z_0$识别，并在$Z_0$上选择合适的Haar测度，可以看到$\mu^\#$是$X \times Y$的左Haar测度的乘积，即$\mu_X \otimes \mu_Y$除以函数$(x, y) \mapsto \Delta_G(y)^{-1}$ （No. 6、引理6）。另一方面，$\mu$是，直到常数因子，$\mu^\#$的像在$X \times Y$的典范映射到$\Omega$（No. 3，注2）。
+将$\Omega$与齐次空间$(X \times Y)/Z_0$识别，并在$Z_0$上选择合适的Haar测度，可以看到$\mu^\#$是$X \times Y$的左Haar测度的乘积，即$\mu_X \otimes \mu_Y$除以函数$(x, y) \mapsto \Delta_G(y)^{-1}$ （No. 6，引理6）。另一方面，$\mu$是，直到常数因子，$\mu^\#$的像在$X \times Y$的典范映射到$\Omega$上（No. 3，注2）。
 
-#### 推论{#int-vii-s2-n9-cor-1 .statement tag=09G7}
+#### 推论 {#int-vii-s2-n9-cor-1 .statement tag=09G7}
 
 — *令 f 为 $\Omega$ 上定义的函数，其中值在 Banach 空间或$\overline{\mathbf{R}}$ 中。为了使 f $\mu$ 可积，函数 $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ $(\mu_X \otimes \mu_Y)$ 可积是必要且充分的，在这种情况下*
 
@@ -894,13 +894,13 @@ $$
 
 其中 $a$ 是与 f 无关的常数 $> 0$。
 
-根据第 13 号提案和第 13 章 V, §4, No. 4, Th. 2, for f to be $\mu$-integrable, it is necessary and sufficient that the function $(x, y) \mapsto f(xy^{-1})$ be integrable for $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$, or again that the function $(x, y) \mapsto f(xy^{-1}) \Delta_G(y)^{-1}$ be integrable for $\mu_X \otimes \mu_Y$, or again that the function $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ be integrable for $\mu_X \otimes \mu_Y$. 公式 (23) 由类似的论证得出。
+根据第 13 号提案和第 13 章V, §4, No. 4，周四。 2、对于 f $\mu$ 可积，函数 $(x, y) \mapsto f(xy^{-1})$ 对于 $\mu_X \otimes (\Lambda^{-1} \cdot \mu_Y)$ 可积，或者函数 $(x, y) \mapsto f(xy^{-1}) \Delta_G(y)^{-1}$ 对于 $\mu_X \otimes \mu_Y$ 可积，或者函数 $(x, y) \mapsto f(xy) \Delta_G(y) \Delta_Y(y)^{-1}$ 是充分必要的可积 $\mu_X \otimes \mu_Y$。 公式 (23) 由类似的论证得出。
 
 #### 命题 14 {#int-vii-s2-prop-14 .statement tag=09G8}
 
 — 假设命题13的条件成立，并且在加法中，Y是正规的。
 
-a) $\mu_G$ 到 $\Omega$ 的限制，直到常数因子，在 $X \times Y$ 的映射 $(x, y) \mapsto xy$ 到 $\Omega$ 下，$\mu_X \otimes \mu_Y$ 的像。
+a) $\mu_G$ 到 $\Omega$ 的限制，直到常数因子，在$X \times Y$ 的映射 $(x, y) \mapsto xy$ 到$\Omega$ 下，$\mu_X \otimes \mu_Y$ 的像。
 
 b) 对于 $x \in X$ 和 $y \in Y$，
 
@@ -927,11 +927,11 @@ $$
 \end{align*}
 $$
 
-从而 b).
+从而b)。
 
 #### 注 {#int-vii-s2-n9-rem-1 .statement tag=09G9}
 
-当 G 是 X 乘 Y 的拓扑半直乘积（GT，III, §2, No. 10）时，命题 14 特别适用。在这种情况下，$Z = \{e\}$和$\Omega = G$。由于$x \in X,\ y \in Y$的$yx = xi_x(y)$，测量$\mu_G$也是，直到常数因子，$(\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y$的像在映射$(x, y) \mapsto yx$的$X \times Y$下进入G。
+当 G 是 X 与 Y 的拓扑半直接乘积（GT，III, §2, No. 10）时，命题 14 特别适用。在这种情况下，$Z = \{e\}$和$\Omega = G$。由于$yx = xi_x(y)$对于$x \in X,\ y \in Y$，测量$\mu_G$也是，直到常数因子，$(\operatorname{mod}\ i_x)\mu_X \otimes \mu_Y$的像在$X \times Y$的映射$(x, y) \mapsto yx$下进入G。
 
 ### 10. 基本领域的集成
 
@@ -1004,7 +1004,7 @@ $$
 
 这就证明了a）。 断言 b) 类似地证明。 断言 c) 可以从 a) 和 Ch. 推导出来。 V, §4，提案 3 和 Th。 2.
 
-#### 推论{#int-vii-s2-n10-cor-1 .statement tag=09GE}
+#### 推论 {#int-vii-s2-n10-cor-1 .statement tag=09GE}
 
 — 我们维持 Th 的假设和记号。 4. 令F'为第二μ可测基本域。设 u 在 X 上为函数，值在 Banach 空间或$\overline{\mathbf{R}}$ 中，在 H 下不变。假设 u 在 F 上可 μ 可积。则 u 在 F' 上可 μ 可积，并且
 

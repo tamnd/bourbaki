@@ -29,19 +29,19 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: 5fc03cb5591488bc6fb503a23ec6f387b4f3bdf6de053d3875ad1c031f930234
+content_sha256: 7229f0c0d4b7e07e693535cad406d7ce44a1733597fbb1decad75f7facf04eb7
 translated_from: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 4e23a56fb861bed945b01d7c816d0a6e594b96b17aad3c28c11640248838980a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c64dea22c022d5a22195a17804ae4574ec063b0baed627cbc2c7679f71a91111
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 8。 HAUSDOFF 级数的收敛性（超度量情况）
+## § 8。 hausdorff 级数的收敛性（超度量情况）
 
 在本段中，我们假设 K 是特征零* 的非离散*完整值域，具有*超度量*绝对值值。我们用$p$表示K的剩余类域的特征（*交换代数*，章VI, § 3, no. 2）。
 如果$p \neq 0$，我们写$a = |p|$；我们知道（*交换代数*，章VI, § 6，第 2 和第 3 个）$0 < a < 1$，并且存在一个且只有一个对 K 的评估$v$，其中值位于$\mathbf{R}$，其限制到$\mathbf{Q}$是$p$-adic 估值$v_p$，对于所有$x \in K$，$|x| = a^{v(x)}$。我们还写：
@@ -109,7 +109,7 @@ $$
 $$
 因为它是整数，所以它是$\leq f$，从而完成了证明。
 
-### 2. 规范李代数
+### 2. 标准李代数
 
 #### 定义 1 {#lie-ii-s8-def-1 .statement tag=0A6T}
 
@@ -126,9 +126,9 @@ $$
 
 对于每个有限的集合I，我们定义就像§ 7, no. 1一样，将$\hat{L}(I)$的连续李代数同态$u \mapsto \tilde{u}$变成$\hat{P}(g^I; g)$。我们在§ 7中看到，如果$u = \sum_v u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，则$\tilde{u} = \sum_v \tilde{u}_v$，其中$\tilde{u}_v$是§ 2, no. 4中定义的多项式映射$(t_i)_{i \in I} \mapsto u_v((t_i))$。 合成公式 (2) of § 7, no. 1，仍然有效。
 
-### 3. 群由完整规范定义李代数
+### 3. 群由完全规范的李代数定义
 
-令 $H = \sum_{r, s \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ 为 Hausdorff 级数 (§ 6, no. 4, 定义 1)。我们将证明相应的形式幂级数具有连续成分
+令 $H = \sum_{r, s \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ 为 Hausdorff 级数 (§ 6, no. 4, 定义 1)。我们将证明相应的正式幂级数与连续分量
 $$
 \tilde{H} = \sum_{r, s \geq 0} \tilde{H}_{r,s} \in \hat{P}(g \times g, g)
 $$
@@ -226,7 +226,7 @@ $$
 
 *在其他字（章III, § 1）中，$G$与豪斯多夫函数是李群。*
 
-### 4. 完全范数结合指数代数
+### 4. 完全赋范结合律中的指数代数
 
 在这个没有。 A 将表示单位结合词代数与范数 $x \mapsto \| x \|$ 满足条件：
 $$

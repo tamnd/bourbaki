@@ -29,16 +29,16 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: 188fbe75f014e067a66ba75d4664268c13d54dda963a375a5a6d6077c9053bae
+content_sha256: 2737ef5ada731cadc0440d84085b5f350041aa72f71d5f512917f74d1eb546ae
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
 translation_method: google
 source_content_sha256: aa56aa107c641a6f533bca5b5920334a1f4dfec7d2788424e0037a9fcb53cc7b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f29a86e1fb438b7f14c564e05c4fbcfbb681f8d63162cd20872fd8c28bc67d3b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 4. 环的光谱和模的支持
@@ -94,39 +94,39 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 命题 5 {#ac-ii-s4-prop-5 .statement tag=049E}
 
-*设$X$为拓扑空间。 $X$ 的每个不可约子集都包含在 $X$ 的不可约组件中，$X$ 是其不可约组件的并。*
+*设$X$为拓扑空间。 $X$ 的每个不可约子集都包含在 $X$ 的不可约分量中，$X$ 是其不可约分量的并。*
 
 为了证明第一个断言，凭借佐恩的引理，足以证明$X$的不可约子集的集合 3是*归纳*。设$\mathscr{G}$为$\mathfrak{S}$的子集，全包含排序；我们证明集合 $F \in \mathscr{G}$ 的并 $E$ 是不可约的。令$U, V$为满足$E$的两个$X$开集合；由于$\mathscr{G}$是全序的，因此存在集合$F \in \mathscr{G}$满足$U$和$V$；由于$F$是不可约的，$U \cap V$满足$F$，因此也满足$E$，这证明$E$是不可约的，因此3是归纳的。第二个断言紧随第一个，因为单个点的$X$由……组成中的每个子集都是不可约的。
 
-#### 推论{#ac-ii-s4-n1-cor-1 .statement tag=049F}
+#### 推论 {#ac-ii-s4-n1-cor-1 .statement tag=049F}
 
-*拓扑空间 $X$ 的每个连通分量都是 $X$ 的不可约分量的并。*
+*拓扑空间$X$的每个连通的分量是$X$的不可约分量的并。*
 
-$X$ 的每个不可约子空间都由命题 1 连接，因此包含在 $X$ 的连通分量中。
+$X$ 的每个不可约子空间都由命题 1 连接，因此包含在 $X$ 的连接分量中。
 
-注 $X$ 的两个不同的不可约分量在公共的 (习题 11) 中可能有点。
+请注意，$X$ 的两个不同的不可约分量可能在公共的 (习题 11) 中具有点。
 
 #### 命题 6 {#ac-ii-s4-prop-6 .statement tag=049G}
 
-*设$X$是空间和$(P_i)_{1 \leq i \leq n}$ajinite覆盖$X$由……组成和不可约闭集合。那么$X$的不可约分量是$P_i$的集合的极大元素（相对于包含）。*
+*令 $X$ 为空间和$(P_i)_{1 \leq i \leq n}$ ajinite 覆盖$X$ 由……组成和不可约闭集合。那么$X$的不可约分量就是$P_i$的集合的极大元素（相对于包含）。*
 
 我们可以将自己限制在没有两个 $P_i$ 具有可比性的情况。如果$E$是$X$的不可约子集，则$E \subset \bigcup_{i=1}^n P_i$，因此$E$包含在闭集合$P_i$之一中；这证明$P_i$是$X$唯一最大不可约子集。
 
-#### 推论{#ac-ii-s4-n1-cor-2 .statement tag=049H}
+#### 推论 {#ac-ii-s4-n1-cor-2 .statement tag=049H}
 
-*设$X$为拓扑空间和$E$子空间，仅具有不同不可约成分$Q_i$（$1 \leq i \leq n$）的ajinite数；那么$X$中闭包$\overline{E}$的不可约分量是$Q_i$（$1 \leq i \leq n$）的闭包$\overline{Q}_i$和$i \neq j$的$\overline{Q}_i \# \overline{Q}_j$。*
+*设$X$为拓扑空间和$E$子空间，仅具有不同不可约分量$Q_i$（$1 \leq i \leq n$）的ajinite数；那么$X$中的闭包$\overline{E}$的不可约分量是$Q_i$（$1 \leq i \leq n$）的闭包$\overline{Q}_i$和$i \neq j$的$\overline{Q}_i \# \overline{Q}_j$。*
 
-$\overline{E}$ 是 $\overline{Q}_i$ 的并，它们是不可约的 (命题 2)；因为$Q_i$在$E$、$\overline{Q}_i \cap E = Q_i$关闭；作为 $Q_i \notin Q_j$ 对于 $i \neq j$、$\overline{Q}_i \notin \overline{Q}_j$、从而命题 6 的推论。
+$\overline{E}$ 是 $\overline{Q}_i$ 的并，不可约 (命题 2)；因为$Q_i$在$E$、$\overline{Q}_i \cap E = Q_i$关闭；由于命题 6，$Q_i \notin Q_j$ 代表$i \neq j$、$\overline{Q}_i \notin \overline{Q}_j$、从而推论。
 
 #### 注 {#ac-ii-s4-n1-rem-1 .statement tag=049I}
 
-假设 $X$ 仅具有不同不可约成分 $X_i$ ($1 \leq i \leq n$) 的 ajinite 数；那么从 $X_i \notin \bigcup_{j \neq i} X_j$ 开始，$U_+ = \mathbf{C}(\bigcup_{j \neq i} X_j)$ 在 $X$ 开，在 $X_i$ 稠密；因此，$U_i$ ($1 \leq i \leq n$) 是 $X$ 的非空开集合，不可约 (命题 2)，成对不相交的，且并稠密于$X$。
+假设 $X$ 仅具有不同不可约分量 $X_i$ ($1 \leq i \leq n$) 的 ajinite 数；那么从 $X_i \notin \bigcup_{j \neq i} X_j$ 开始，$U_+ = \mathbf{C}(\bigcup_{j \neq i} X_j)$ 在 $X$ 开，在 $X_i$ 稠密；因此，$U_i$ ($1 \leq i \leq n$) 是 $X$ 的非空开集合，不可约 (命题 2)，成对不相交的，且并稠密于$X$。
 
 #### 命题 7 {#ac-ii-s4-prop-7 .statement tag=049J}
 
-*设$U$是拓扑空间$X$的开子集。 映射$V \mapsto \overline{V}$（在$X$闭合）是集合的双射和$U$的不可约子集，在$U$到集合闭合并且不可约子集和$X$于$X$关闭并满足$U$； 逆双射是 $Z \mapsto Z \cap U$。特别是，这个双射映射集合＆不可约成分＆$U$到集合＆不可约成分＆$X$满足$U$。*
+*设$U$是拓扑空间$X$的开子集。 映射$V \mapsto \overline{V}$（在$X$闭合）是集合的双射和$U$的不可约子集，它们在$U$到集合上闭合并且不可约子集和$X$于$X$关闭并满足$U$； 逆双射是 $Z \mapsto Z \cap U$。特别是，这个双射映射集合和不可约分量和 $U$ 到集合和不可约分量和 $X$ 满足 $U$。*
 
-如果 $V$ 在 $U$ 内闭且不可约，则 $\overline{V}$ 不可约 (命题 2) 且$V = \overline{V} \cap U$。相反，如果 $Z$ 是不可约且在 $X$ 内闭且满足 $U$，则 $Z \cap U$ 是 $Z$ 的非空开子集，因此不可约 (命题 3) 且在 $Z$ 是稠密的，并且， $Z$已关闭，$Z = \overline{Z} \cap U$。这就证明了命题。
+如果 $V$ 在 $U$ 内闭且不可约，则 $\overline{V}$ 不可约 (命题 2) 且$V = \overline{V} \cap U$。相反，如果 $Z$ 是不可约且在 $X$ 内闭且满足 $U$，则 $Z \cap U$ 是 $Z$ 的非空开子集，因此不可约 (命题 3) 且在 $Z$ 内稠密，并且， $Z$已关闭，$Z = \overline{Z} \cap U$。这就证明了命题。
 
 ### 2. 诺特拓扑空间
 
@@ -134,14 +134,14 @@ $\overline{E}$ 是 $\overline{Q}_i$ 的并，它们是不可约的 (命题 2)；
 
 如果按包含排序的 $X$ 的每个非空闭集子集具有最小元素，则拓扑空间 $X$ 称为诺特。
 
-这相当于说，$X$的每个非空开集子集，按包含排序，都有极大元素，或者闭集（或开集）集合的每个递减（或递增）序列都是平稳的（集合理论， 章 111、§ 6, no. 5、命题 6)。
+这相当于说，$X$的每个非空开集子集，按包含排序，都有极大元素，或者闭集（或开集）集合的每个递减（或递增）序列都是静止的（集合） 理论、章111、§ 6, no. 5、命题6)。
 
 #### 命题 8 {#ac-ii-s4-prop-8 .statement tag=049L}
 
 (i) 诺特空间中的每个子空间都是诺特。
 (ii) 令 $(A_i)_{i \in I}$ 为拓扑空间 $X$ 的有限覆盖。如果$X$中的子空间$A_i$为诺特，则$X$为诺特。
 
-(i) 令$X$为诺特空间、$X$中的$A$子空间和$A$中的子集中的$(F_i)$递减序列，其闭合时间为$A$；然后是$F_i = \overline{F_n} \cap A$以及$X$形式递减序列中$F_i$的闭包$\overline{F_n}$，以及$X$的已关闭子集。由于序列是静止的，所以序列 $(F_i)$ 也是静止的。
+(i) 令$X$为诺特空间、$X$中的$A$子空间以及$A$中的子集中的$(F_i)$递减序列，其闭合于$A$；然后$F_i = \overline{F_n} \cap A$以及$X$的关闭子集的$X$形式递减序列中的$F_i$的闭包$\overline{F_n}$。由于序列是静止的，所以序列 $(F_i)$ 也是静止的。
 
 (ii) 令$(G_n)_{n \geq 0}$为$X$的闭子集的递减序列；到假设，序列 $(G_n \cap A_i)_{n \geq 0}$ 中的每一个都是静止的。由于$I$是有限的，因此存在整数$n_0$，因此对于$n \geq n_0$，$G_n \cap A_i = G_{n_0} \cap A_i$，对于所有$i \in I$。但是
 $$
@@ -165,13 +165,13 @@ $$
 
 #### 命题 10 {#ac-ii-s4-prop-10 .statement tag=049O}
 
-*如果X是诺特空间，X的不可约分量集合（以及X的连通分量更不必说集合）是有限的。*
+*如果X是诺特空间，则X的不可约分量的集合（以及X的相连分量的更不必说集合）是有限的。*
 
-足以证明X是不可约闭子集的有限并（编号**1**，命题6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭的有限并的集合子集。设 Y 为 X 的闭子集，使得 Y 属于到 F 的每个闭子集$\neq Y$。如果 Y 不可约，则$Y \in F$乘定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和 $Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
+足以证明X是不可约闭子集的有限并（编号**1**，命题6）。让我们证明，诺特归纳的原理可以应用，取E为X的闭子集的集合，按包含排序，F为不可约闭的有限并的集合子集。设 Y 为 X 的闭子集，使得 Y 属于到 F 的每个闭子集$\neq Y$。如果 Y 不可约，则$Y \in F$乘以定义；否则，Y 是与 Y 不同的两个闭子集 $Y_1,\ Y_2$ 的并。则 F 的$Y_1 \in F$ 和 $Y_2 \in F$ 乘以假设，从而 $Y \in F$ 乘以定义。
 
 特别是，*Hausdorff* 诺特空间必然是*有限*。
 
-### 3. 环的主光谱
+### 3. 环的素数谱
 
 设A为A的素理想环和X集合。对于A的每个子集M，我们用包含M的素理想$V(M)$集合表示；显然，如果$a$是M生成的A的理想，则$V(M) = V(a)$；如果 M 由单个元素 f 组成，我们写 $V(f)$ 而不是 $V(\{f\})$，我们有 $V(f) = V(Af)$。 映射 $M \mapsto V(M)$ 相对于 A 和 X 中的包含而言是 *递减*。此外，以下公式成立：
 
@@ -190,23 +190,23 @@ $$
 $$
 V(a \cap a') = V(aa') = V(a) \cup V(a')
 $$
-对于A中的每一个对理想$a,\ a'$，公式 (1)和(2)是显而易见的；另一方面，公式(3)意味着，对于A的素理想$p$到包含理想$a$或$a'$之一，其充分必要为包含$aa'$或包含$a \cap a'$；那么它是 § 1, no. 1、命题 1 的推论。第二个公式 (1) 有以下逆命题：如果 $a$ 是 $A$ 的理想，使得 $V(a) = \varnothing$，则 $a = A$，因为不存在 的最大理想$A$包含$a$。最后，如果 $a$ 是 $A$ 的理想且 $r(a)$ 是它的*根式*（$§ 2$、no. 6、定义 4），那么
+对于A中的每一个对理想$a,\ a'$，公式 (1)和(2)是显而易见的；另一方面，公式(3)意味着，对于A的素理想$p$到包含理想$a$或$a'$之一，其充分必要为包含$aa'$或包含$a \cap a'$；那么它是 § 1, no. 1、命题 1 的推论。第二个公式 (1) 有以下逆命题：如果 $a$ 是 $A$ 的理想，使得 $V(a) = \varnothing$，则 $a = A$，因为不存在 的最大理想$A$包含$a$。最后，如果$a$是$A$的理想，$r(a)$是它的*根基*（$§ 2$，no. 6，定义4），那么
 
 $$
 V(a) = V(r(a))
 $$
 
-如下从$§ 2$，no. 6，推论1到命题13。
+如下从$§ 2$、no. 6、推论 1 到命题 13。
 
-公式 (1) 到 (3) 表明 $X$ 满足的子集 $V(M)$ 拓扑的 * 闭集合* 公理 (*一般拓扑*, 章 I, $§ 1$、no. 4）。
+公式 (1) 到 (3) 表明$X$ 满足的子集 $V(M)$ 拓扑的*闭集合* 公理（*一般拓扑*，章 I， $§ 1$、no. 4）。
 
 #### 定义 4 {#ac-ii-s4-def-4 .statement tag=049P}
 
-*令$A$为环。 $A$素理想的集合$X$，其中拓扑的闭集合为集合$V(M)$，其中$M$贯穿$\mathfrak{P}(A)$，称为$A$的素谱，记为$\mathrm{Spec}(A)$。这样定义的拓扑称为 $X$ 上的光谱或 Zariski 拓扑。*
+*令$A$为环。 $A$的素理想的集合$X$，其中拓扑的闭集合为集合$V(M)$，其中$M$贯穿$\mathfrak{P}(A)$，称为$A$的素谱，记为$\mathrm{Spec}(A)$。这样定义的拓扑称为 $X$ 上的光谱或 Zariski 拓扑。*
 
 显然关系$\mathrm{Spec}(A) = \varnothing$等价于$A = \{0\}$。
 
-设$X$为环$A$的素谱；对于所有$f \in A$，让我们用$X_f$集合表示$A$的素理想*而不是包含*$f$；那么$X_f = X - V(f)$和$X_f$因此是一个*开*集合。根据(2)，$X$的每个闭子集是形式$V(f)$的闭集合的交，因此谱拓扑的$X$、形式a *基* $X$。此外，从定义可以立即得出
+设$X$为环$A$的素谱；对于所有$f \in A$，让我们用$X_f$集合表示$A$的素理想*而不是包含*$f$；那么$X_f = X - V(f)$和$X_f$因此是一个*开*集合。根据(2)，$X$的每个闭子集是形式$V(f)$的闭集合的交，因此谱拓扑的$X$、形式a *基* $X$。此外，从定义可以立即得出：
 
 $$
 X_0 = O,\quad X_1 = X,
@@ -232,40 +232,40 @@ $$
 #### 命题 11 {#ac-ii-s4-prop-11 .statement tag=049Q}
 
 *令$A$为环，$a$为$A$的理想，$Y$子集为$X = \mathrm{Spec}(A)$。
-(i) $V(a)$ 在 $X$ 中闭合，$\mathfrak{J}(Y)$ 是 $A$ 的理想，等于其根式。
-(ii) $\mathfrak{J}(V(a))$ *是* $a$ *的根式，并且* $V(\mathfrak{J}(Y))$ *是* $Y$ *在* $X$中的闭包。
+(i) $V(a)$ 在 $X$ 内闭合，$\mathfrak{J}(Y)$ 是 $A$ 的理想，它等于其根基。
+(ii) $\mathfrak{J}(V(a))$ *是* $a$ *的根基，并且* $V(\mathfrak{J}(Y))$ *是* $Y$ *在* $X$*中的闭包。
 
-(iii) 映射 3 和 V 定义递减双射，其中一个是另一个的逆，位于 X 的闭子集的集合和 A 理想的集合之间，其中等于它们的根号。
+(iii) 映射 3 和 V 定义递减双射，其中一个是另一个的逆，位于 X 的闭子集的集合和 A 理想的集合之间，其中等于它们的根基。
 
-断言 (i) 和 (ii) 的第一个断言由定义和 § 2, no. 6 推出，推论 1 到命题 13. 如果闭合集合 V(M)（对于某些 M ⊂ A） 包含 Y，则对于每个素理想 p ∈ Y，M ⊂ p，从而 M ⊂ J(Y)，因而 V(M) ⊃ V(J(Y))；因为 Y ⊂ V(J(Y))，V(J(Y)) 是 X 包含 Y 的最小的闭集合，从而完成 (ii) 的证明。最后，由 (ii) 得出，如果 a 是等于其根式的素理想，则 J(V(a)) = a，如果 Y 闭于 X，则 V(J(Y)) = Y；这就证明了(iii)。
+断言 (i) 和 (ii) 的第一个断言是从定义和 § 2, no. 6、推论 1 到命题 13。如果闭集集合 V(M)（对于某些 M ⊂ A） 包含 Y，则对于每个素理想 p ∈ Y，M ⊂ p，从而 M ⊂ J(Y)，因而 V(M) ⊃ V(J(Y))；因为 Y ⊂ V(J(Y))，V(J(Y)) 是X 包含 Y 的最小的闭集合，从而完成 (ii) 的证明。最后，由 (ii) 得出，如果 a 是等于其根基的素理想，则 J(V(a)) = a，如果 Y 闭于 X，则V(J(Y)) = Y；这就证明了(iii)。
 
 从命题 11 可以立即得出，如果 M 是 A 中的任意子集并且 Y 是 X 中的任意子集，则 V(M) = V(J(V(M))) 且 J(Y) = J(V(J(Y)))。
 
 #### 推论 1 {#ac-ii-s4-prop-11-cor-1 .statement tag=049R}
 
-对于X的闭子集的每个族(Y_λ)_{λ ∈ L}，J(∩_{λ ∈ L} Y_λ)是理想J(Y_λ)的和的根式。
+对于X的闭子集的每个族(Y_λ)_{λ L}，J(∩_{λ L} Y_λ)是理想J(Y_λ)的和的根基。
 
-由命题 11 (iii) 可知，J(∩_{λ ∈ L} Y_λ) 是最小的理想值，等于其根式，且包含所有 J(Y_λ)；这个理想则包含 Σ_{λ ∈ L} J(Y_λ) ，因此也是 Σ_{λ ∈ L} J(Y_λ) 的根式（§ 2, no. 6，推论 2 到命题 13），从而推论。
+由命题 11 (iii) 可知 J(∩_{λ ∈ L} Y_λ) 是最小的理想值，等于其根基和包含所有 J(Y_λ)；这个理想则包含 Σ_{λ ∈ L} J(Y_λ) 因此也有根基 Σ_{λ ∈ L} J(Y_λ) (§ 2, no. 6, 推论 2 到命题 13), 从而推论。
 
 #### 推论 2 {#ac-ii-s4-prop-11-cor-2 .statement tag=049S}
 
-设 r(a) 表示 A 的理想 a 的根式；如果a和b是A的两个理想，关系V(a)⊂V(b)等价于b⊂r(a)和r(b)⊂r(a)。
+设 r(a) 表示 A 的理想 a 的根基；如果a和b是A的两个理想，关系V(a)⊂V(b)等价于b⊂r(a)和r(b)⊂r(a)。
 
-直接的关系 b ⊂ r(a) 和 r(b) ⊂ r(a) 是等价的，并且由于 V(a) = V(r(a))，推论立即从命题 11, (iii) 得出。
+直接的关系 b ⊂ r(a) 和 r(b) ⊂ r(a) 是等价的，并且由于 V(a) = V(r(a))，推论紧随命题 11, (iii)。
 
 #### 推论 3 {#ac-ii-s4-prop-11-cor-3 .statement tag=049T}
 
 令(f_λ)_{λ ε L}为A的元素族。对于元素 g ε A 至满足 X_g ⊂ ∪_{λ ε L} X_{f_λ}，存在整数 n 是充分必要的> 0 使得 g^n 属于达到 f_λ 生成的理想值。
 
-关系 X_g ⊂ ∪_{λ ε L} X_{f_λ} 等价于 V(g) ⊃ ∩_{λ ε L} V(f_λ) 并且应用推论 2 就足够了。
+关系 X_g ⊂ ∪_{λ ε L} X_{f_λ} 等价于 V(g) ⊃ ∩_{λ ε L} V(f_λ) 并且足以应用推论 2。
 
-推论 4，对于 A 的两个元素 f, g 到满足 X_f = X_g，存在两个整数 m > 0, n > 0 使得 f^m ∈ Ag 且 g^n ∈ Af 是充分必要的。
+推论 4，对于 A 的两个元素 f, g 到满足 X_f = X_g，存在两个整数 m > 0, n > 0 使得 f^m ∈ Ag 且 g^n ∈ Af 是充要的。
 
 #### 推论 5 {#ac-ii-s4-prop-11-cor-5 .statement tag=049U}
 
 对于$f \in A$到满足$X_f = \varnothing$，$f$幂零是充分必要的。
 
-这直接从推论 4 得出。
+这紧接着推论 4。
 
 #### 推论 6 {#ac-ii-s4-prop-11-cor-6 .statement tag=049V}
 
@@ -279,7 +279,7 @@ $$
 
 对于所有$f \in A$，$X = \mathrm{Spec}(A)$中的开集合$X_f$是拟紧的；特别是，空间$X$是准紧的。
 
-作为拓扑的$X_g$形式基，足以证明，如果$(g_\lambda)_{\lambda \in L}$是$A$的元素的族，使得$X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$，则存在有限子族$(g_{\lambda_i})_{i \in I}$使得$X_f = \bigcup_{i \in I} X_{g_{\lambda_i}}$。但关系$X_f = \bigcup_{\lambda \in L} X_{g_\lambda}$意味着存在整数$n > 0$和一个有限子族$(g_{\lambda_i})_{i \in I}$，使得“f”属于达到该子族生成的理想（推论3到命题11）； 从而命题。
+作为拓扑的$X_g$形式基，足以证明，如果$(g_\lambda)_{\lambda \in L}$是$A$的元素的族，使得$X_f \subset \bigcup_{\lambda \in L} X_{g_\lambda}$，则存在有限子族$(g_{\lambda_i})_{i \in I}$使得$X_f = \bigcup_{i \in I} X_{g_{\lambda_i}}$。但关系$X_f = \bigcup_{\lambda \in L} X_{g_\lambda}$意味着存在整数$n > 0$和一个有限子族$(g_{\lambda_i})_{i \in I}$，使得“f”属于达到该子族生成的理想值（推论3到命题11）； 从而命题。
 
 #### 命题 13 {#ac-ii-s4-prop-13 .statement tag=049Y}
 
@@ -291,7 +291,7 @@ $$
 
 #### 注 {#ac-ii-s4-n3-rem-1 .statement tag=049Z}
 
-如果$h$是满射并且$a$是它的核，则从谱拓扑的定义得出$^a h$是$X'$到闭子空间$V(a)$的同胚$X$；对于$A'$的素理想$p'$到包含理想的$b'$$A'$，$\overline{h}(p')$包含$\overline{h}(b')$是充分必要的；我们首先看到$^a h$是单射的，取$b'$为素数；此外，对于$A'$的每个理想$b'$，$V(b')$的$^a h$下的像来说，$V(\overline{h}(b'))$，从而我们的断言，形式$\overline{h}(b')$的理想都是$A$ 其中包含 $a$。
+如果$h$是满射且$a$是它的核，则从谱拓扑的定义得出$^a h$是$X'$到闭子空间$V(a)$的同胚$X$；对于$A'$的素理想$p'$到包含理想的$b'$$A'$，$\overline{h}(p')$包含$\overline{h}(b')$是充分必要的；我们首先看到$^a h$是单射的，取$b'$为素数；此外，对于$A'$的每个理想$b'$，$V(b')$的$^a h$下的像来说，$V(\overline{h}(b'))$，从而我们的断言，形式$\overline{h}(b')$的理想都是$A$ 其中包含 $a$。
 
 #### 推论 {#ac-ii-s4-n3-cor-1 .statement tag=04A0}
 
@@ -303,7 +303,7 @@ $$
 
 *设$A$为环。为了使 $X = \mathrm{Spec}(A)$ 的子集 $Y$ 不可约，理想的 $\mathfrak{J}(Y)$ 为素数是充分必要的。*
 
-写$p = \mathfrak{J}(Y)$，我们注，对于元素$f \in A$，关系$f \in p$相当于$Y \subset V(f)$。假设$Y$是不可约的，并令$f, g$是$A$的元素，使得$fg \in p$。然后
+写$p = \mathfrak{J}(Y)$，我们注意到，对于元素$f \in A$，关系$f \in p$相当于$Y \subset V(f)$。假设$Y$是不可约的，并令$f, g$是$A$的元素，使得$fg \in p$。然后
 $$
 Y \subset V(fg) = V(f) \cup V(g);
 $$
@@ -313,13 +313,13 @@ $$
 
 #### 推论 1 {#ac-ii-s4-prop-14-cor-1 .statement tag=04A2}
 
-*要使环$A$使得$X = \mathrm{Spec}(A)$不可约，$A$与其零根$\mathfrak{N}$的商为整环是必要且充分的。*
+*为了使环$A$使得$X = \mathrm{Spec}(A)$不可约，$A$的商通过其零根$\mathfrak{N}$为整环是必要且充分的。*
 
-由命题 11 (i)，$\mathfrak{J}(X)$是理想$(0)$的根式，即$\mathfrak{N}$。
+通过命题 11 (i)，$\mathfrak{J}(X)$ 是理想$(0)$ 的根基，即$\mathfrak{N}$。
 
 #### 推论 2 {#ac-ii-s4-prop-14-cor-2 .statement tag=04A3}
 
-*The mapping $p \mapsto V(p)$ is a bijection of $X = \mathrm{Spec}(A)$ onto the set of irreducible closed subsets of $X$; in particular the irreducible components of a closed subset $Y$ of $X$ are the sets $V(p)$, where $p$ runs through the set of minimal elements of the set of prime ideals of $A$ which contain $\mathfrak{J}(Y)$.*
+*映射$p \mapsto V(p)$是$X = \mathrm{Spec}(A)$到$X$的不可约闭子集集合的双射；特别是$X$的闭子集$Y$的不可约分量是集合$V(p)$，其中$p$贯穿$A$素理想集合的最小元素集合，其中包含$\mathfrak{J}(Y)$。*
 
 对于$A$的每个素理想$p$和$Y = V(\mathfrak{J}(Y))$对于$X$的每个闭子集$Y$来说$\mathfrak{J}(V(p)) = p$，第一个断言是从命题14得出的；另一方面，对于$Y \supset V(p)$，有必要且充分：
 $$
@@ -329,13 +329,13 @@ $$
 
 #### 推论 3 {#ac-ii-s4-prop-14-cor-3 .statement tag=04A4}
 
-*诺特环$A$的最小素理想的集合是有限的。*
+*诺特环$A$的最小素理想集合是有限的。*
 
-$X = \mathrm{Spec}(A)$只有有限的数不可约分量（推论7到命题11和no. 2，命题10），并且推论来自上面的推论2。
+$X = \mathrm{Spec}(A)$只有不可约分量的有限数（推论7到命题11和no. 2、命题10），而推论是从上面的推论2得出的。
 
 #### 命题 15 {#ac-ii-s4-prop-15 .statement tag=04A5}
 
-令 $A$ 为环，$I$ $A$ 幂等$e_i \neq 0$ 的正交族$(e_i)_{i \in I}$ 的有限集合和$E$ 集合，使得$\sum_{i \in I} e_i = 1$。对于所有$(e_i)_{i \in I} \in E$，我们集合$\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$，$\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$。那么$\overline{\omega}$是$E$的双射到$X = \mathrm{Spec}(A)$的划分$(U_i)_{i \in I}$集合$P$开成集合并且$\sigma$是双射将$A$的理想$\neq 0$的家庭$(a_i)_{i \in I}$$E$转移到集合$S$，使得$A$是$a_i$的直和。
+令 $A$ 为环，$I$ $A$ 幂等$e_i \neq 0$ 的正交族$(e_i)_{i \in I}$ 的有限集合和$E$ 集合，使得$\sum_{i \in I} e_i = 1$。对于所有$(e_i)_{i \in I} \in E$，我们集合$\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$，$\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$。那么$\overline{\omega}$是$E$的双射到$X = \mathrm{Spec}(A)$的划分$(U_i)_{i \in I}$集合$P$开成集合并且$\sigma$是双射将$A$的理想$\neq 0$的家庭$(a_i)_{i \in I}$的$E$转移到集合$S$，使得$A$是$a_i$的直和。
 
 设$(e_i)_{i \in I}$为$E$和集合$Y_i = \mathrm{V}(A(1 - e_i))$中的元素；如果$i \neq j$，则$1 = 1 - e_i + e_i(1 - e_j) \in A(1 - e_i) + A(1 - e_j)$，从而$Y_i \cap Y_j = \varnothing$（公式（1）和（2））。另一方面，
 
@@ -349,7 +349,7 @@ $$
 
 #### 引理 2 {#ac-ii-s4-lem-2 .statement tag=04A6}
 
-*如果* $e, f$ *是* $A$ *的两个幂等，使得* $Ae$ *和* $Af$ *具有相同的根式*，则$e = f$。
+*如果* $e, f$ *是* $A$ *的两个幂等，使得* $Ae$ *和* $Af$ *具有相同的根基*，则$e = f$。
 
 假设整数 $m \geq 0, n \geq 0$ 存在$e = e^m \in Af$ 和 $f = f^n \in Ae$；设$x, y$为$A$的元素，使得$e = xf, f = ye$；然后$ef = x^2 = x = e$，类似地$ef = ye^2 = ye = f$，从而$e = f$。
 
@@ -387,19 +387,19 @@ $$
 ah : \operatorname{Spec}(A') \to \operatorname{Spec}(A)
 $$
 
-是一个同胚，$A$包含$r$乘假设的每个素理想。 命题 15 表明，$A$ 中存在一个幂等的有限正交族 $(e_i)_{i \in I}$，使得$\sum_{i \in I} e_i = 1$ 以及$V(A'(1 - e'_i))$ 的$ah$ 下的像为$V(A(1 - e_i))$。但显然 $V(A(1 - e_i))$ 也是 $ah$ 下的像
+是同胚，$A$包含$r$乘假设的每个素理想。 命题 15 表明$A$ 中存在一个幂等的有限正交族$(e_i)_{i \in I}$，使得$\sum_{i \in I} e_i = 1$ 且$V(A'(1 - e'_i))$ 的$ah$ 下的像为$V(A(1 - e_i))$。但显然 $V(A(1 - e_i))$ 也是 $ah$ 下的像
 
 $$
 V(A'(1 - h(e'_i)));
 $$
 
-由于$1 - e'_i$和$1 - h(e_i)$是幂等的，引理2表明$e'_i = h(e_i)$、从而的推论。
+由于$1 - e'_i$和$1 - h(e_i)$是幂等的，引理2表明$e'_i = h(e_i)$、从而推论。
 
 #### 推论 2 {#ac-ii-s4-lem-2-cor-2 .statement tag=04A8}
 
-对于要连接的环$A$的素谱$X = \operatorname{Spec}(A)$来说，$A$包含除了$0$和$1$之外没有幂等是充分必要的。
+对于要连接的环 $A$的素谱$X = \operatorname{Spec}(A)$来说，$A$包含除了$0$和$1$之外没有幂等是充分必要的。
 
-说$X$不连通，意味着$X$存在集合，它是开闭的，与$\varnothing$和$X$不同。
+说$X$不连通，是指$X$存在集合，它是开闭的，与$\varnothing$和$X$不同。
 
 ### 4. 模的支持
 
@@ -407,15 +407,15 @@ $$
 
 令 $A$ 为环且 $M$ 为 $A$ 模块。 $A$的素理想$p$的集合，使得$M_p \neq 0$称为$M$的支撑，记为$\operatorname{Supp}(M)$。
 
-由于$A$的每个最大理想都是素数，因此从§ 3, no. 3，推论2到定理1，$A$模$M$等于$0$，$\operatorname{Supp}(M) = \varnothing$是充分必要的。
+由于$A$的每个最大理想都是素数，因此紧接着从§ 3, no. 3、推论2到定理1，对于$A$模$M$等于$0$，$\operatorname{Supp}(M) = \varnothing$是充分必要的。
 
 #### 例 {#ac-ii-s4-n4-exa-1 .statement tag=04AA}
 
-令$a$为$A$的理想；在记号/no. 3中，我们有
+令$a$为$A$的理想；在 no. 3 的记号中，我们有
 $$
 V(a) = \operatorname{Supp}(A/a).
 $$
-如果 $p$ 是 $A$ 的质数，使得 $a \notin p$，则 $(A/a)_p = 0$ (§ 3, no. 1, 注 3)；另一方面，如果$a \subset p$、$aA_p$包含在$A$的最大理想$pA_p$中，且$(A/a)_p$同构于$A_p/aA_p$，因此不为零（§ 3, no. 1、命题3）； 从而我们的断言。
+如果 $p$ 是 $A$ 的质数，使得 $a \notin p$，则 $(A/a)_p = 0$ (§ 3, no. 1, 注 3)；另一方面，如果$a \subset p$、$aA_p$包含在$A$的最大理想$pA_p$中，并且$(A/a)_p$同构于$A_p/aA_p$，因此不为零（§ 3, no. 1、命题 3）； 从而我们的断言。
 特别是$\operatorname{Supp}(A) = \operatorname{Spec}(A)$。
 
 #### 命题 16 {#ac-ii-s4-prop-16 .statement tag=04AB}
@@ -429,14 +429,14 @@ $$
 $$
 \operatorname{Supp}(M) = \bigcup_{i \in I} \operatorname{Supp}(N_i).
 $$
-(i) 从正合序列 $0 \to N \to M \to M/N \to 0$，我们推导出对于 $A$ 的每个素理想 $p$，正合序列
+(i) 从正合序列$0 \to N \to M \to M/N \to 0$，对于$A$的每个素理想$p$，我们推导出正合序列
 $$
 0 \to N_p \to M_p \to (M/N)_p \to 0
 $$
 （§ 2, no. 4，定理1）。对于$M$而言，要减少到0，$N_p$和$(M/N)_p$是必要且充分的。在其他字中，关系$p \notin \operatorname{Supp}(M)$等价于“p$\notin \operatorname{Supp}(N)$和$p \notin \operatorname{Supp}(M/N)$”，从而证明了(i)。
-(ii) 对于$A$、$M$的每个素理想$p$，都是子模$(N_i)_p$ (§ 2, no. 4)族的和。说$M, \neq 0$意味着存在$i \in I$使得$(N_i)_p \neq 0$，从而 (ii)。
+(ii) 对于$A$、$M$的每个素理想$p$，是子模$(N_i)_p$（§ 2, no. 4）族的和。说$M, \neq 0$意味着存在$i \in I$使得$(N_i)_p \neq 0$，从而 (ii)。
 
-#### 推论{#ac-ii-s4-n4-cor-1 .statement tag=04AC}
+#### 推论 {#ac-ii-s4-n4-cor-1 .statement tag=04AC}
 
 *令$A$为环，$M$为$A$模，$M$的生成元为$(m_i)_{i \in I}$系统，以及$a$，$m_i$的湮没子。然后*
 $$
@@ -451,23 +451,23 @@ $$
 #### 命题 17 {#ac-ii-s4-prop-17 .statement tag=04AD}
 
 *令$A$为环，$M$为$A$模块，$a$为湮没子；如果 $M$ 是有限生成的，则* $\operatorname{Supp}(M) = V(a)$ *和* $\operatorname{Supp}(M)$ *因此封闭于* $\operatorname{Spec}(A)$。
-令$(m_i)_{1 \leq i \leq n}$为$M$生成元系统且令$a$为$m_i$湮没子；然后$a = \bigcap_{i=1}^n a_i$，因此$V(a) = \bigcup_{i=1}^n V(a_i)$（no. 3，方程（3））和命题从推论得出命题16。
+令$(m_i)_{1 \leq i \leq n}$为$M$生成元系统且令$a$为$m_i$湮没子；那么$a = \bigcap_{i=1}^n a_i$，因此$V(a) = \bigcup_{i=1}^n V(a_i)$（no. 3，方程（3））和命题从推论到命题16。
 
 #### 推论 1 {#ac-ii-s4-prop-17-cor-1 .statement tag=04AE}
 
-令$A$为环，$M$为有限生成的$A$模块，$a$元素为$A$。对于$a$到属于，对于$M$支持的每个素理想，$M$的位似与比率$a$是幂幂的充要条件。
+令$A$为环，$M$为有限生成的$A$模块，$a$元素为$A$。对于$a$到属于，对于$M$的支持的每个素理想，$M$的位似与比率$a$是幂幂的充要条件。
 
-由命题 17 可知，素理想属于到$\operatorname{Supp}(M)$ 的交是$M$ 湮没子 $a$ 的根式（no. 3，命题 11 (ii)）。说$a$属于这个部首相当于说，存在幂$a^k \in a$，因此存在$a^k M = 0$。
+从命题 17 可以得出，素理想属于到$\operatorname{Supp}(M)$ 的交是湮没子 $a$ 根基 $M$ (no. 3, 命题 11 (ii))。说$a$属于到这个根基相当于说，存在幂$a^k \in a$，因此存在$a^k M = 0$。
 
 #### 推论 2 {#ac-ii-s4-prop-17-cor-2 .statement tag=04AF}
 
 令$A$为诺特环，$M$为有限生成的$A$模，$a$为$A$的理想。对于$\operatorname{Supp}(M) \subset V(a)$，存在整数$k$使得$a^k M = 0$是充分必要的。
 
-如果$b$是$M$的湮没子，则关系$\operatorname{Supp}(M) \subset V(a)$等于$V(b) \subset V(a)$乘命题17，因此等于$a \subset r(b)$，其中$r(b)$是$b$的根式（no. 3，推论 2 至命题 11）。由于$A$是诺特，所以这个条件也等价于整数$k > 0$的存在使得$a^k \subset b$(§ 2, no. 6，命题15)。
+如果$b$是$M$的湮没子，则关系$\operatorname{Supp}(M) \subset V(a)$等于$V(b) \subset V(a)$乘命题17，因此等于$a \subset r(b)$，其中$r(b)$是根基 $b$（no. 3、推论 2 至命题 11）。由于$A$是诺特，所以这个条件也等价于整数$k > 0$的存在使得$a^k \subset b$(§ 2, no. 6，命题15)。
 
 #### 命题 18 {#ac-ii-s4-prop-18 .statement tag=04AG}
 
-设$M, M'$是有限生成模除环$A$；那么
+设$M, M'$是有限生成模除环$A$；然后
 
 $$
 \operatorname{Supp}(M \otimes_A M') = \operatorname{Supp}(M) \cap \operatorname{Supp}(M').
@@ -493,7 +493,7 @@ $$
 
 因此到$k \otimes_B (E \otimes_B E')$、从而引理。
 
-#### 推出{#ac-ii-s4-n4-cor-2 .statement tag=04AI}
+#### 推出 {#ac-ii-s4-n4-cor-2 .statement tag=04AI}
 
 令 $M$ 为有限生成的 $A$ 模块，$n$ 为湮没子。对于 $A$、$\operatorname{Supp}(M/aM) = V(a) \cap V(n) = V(a + n)$ 的每个理想 $a$。
 
@@ -536,9 +536,9 @@ $$
 
 ### 习题{#ac-ii-s4-exercises}
 
-(b) 令 $n = \dim(M)$。 维数 1（或$n - 1$）的 M 中的直因子称为*线*（或超平面）。如果 M 中存在超平面 H，其元素在 $u$ 下不变，则自同构 $u \in \mathbf{GL}(M)$ 与恒等式不同，称为*横传*；那么$u(x) = x + a\phi(x)$，其中$\phi$是M上的线性形式，使得$H = \mathrm{Ker}(\phi)$和$a \in H$；获得逆命题。如果 A 是可交换的，则证明行列式 1 的每个自同构 $u \in \mathbf{GL}(M)$ 都是乘积平移（观察到，在 $u$ 的矩阵中，相对于 M 的任何基，每列包含至少有一个A 的可逆元和形式 $I + E_{ij} \ (i \neq j)$ 的矩阵是平移的矩阵）。
+(b) 令 $n = \dim(M)$。 维数 1（或$n - 1$）的 M 中的直因子称为*线*（或超平面）。如果 M 中存在超平面 H，其元素在 $u$ 下不变，则自同构 $u \in \mathbf{GL}(M)$ 与恒等式不同，称为*横传*；那么$u(x) = x + a\phi(x)$，其中$\phi$是M上的线性形式，使得$H = \mathrm{Ker}(\phi)$和$a \in H$；获得逆命题。如果 A 是可交换的，则证明行列式 1 的每个自同构 $u \in \mathbf{GL}(M)$ 都是乘积横流（观察到，在 $u$ 的矩阵中，对于 M 的任何基，至少每列包含 A 的一个可逆元和形式 $I + E_{ij} \ (i \neq j)$ 的矩阵是横向对流的矩阵）。
 
-(c) 给出自同构$u \in \mathbf{GL}(M)$的例，使得$1 - u$的核不是M的直因子（取A为正式幂级数的局部环$K[[X]]$） 域 K 和 $M = A$ 上的一个不确定值）。
+(c) 给出自同构$u \in \mathbf{GL}(M)$的例，使得$1 - u$的核不是M的直因子（取A为正式幂级数的局部环$K[[X]]$） 域 K 和 $M = A$ 上的一个不确定）。
 
 (d) 给出直因子 N 的例，M 的 P（必然是自由的），使得 $N + P$ 和 $N \cap P$ 不是 M 的直因子。（取 $A = K[X]/(X^2)$，其中 K 是域和 $M = A^2$。）
 
@@ -546,9 +546,9 @@ $$
 
 (a) 为了使 M 的子模 M' 是纯的（章 I, § 2，习题 24），对于 A 的每个最大理想$m$，$M'_m$ 是 $M_m$ 的纯子模（使用定理 1）是充分必要的no. 3）。
 
-(b) 假设 A 为局部环，最大理想为 $m$，M 为有限生成的自由A-模。对于 M 的有限生成的子模 M' 来说，它是 M 的直因子是必要且充分的。（使用 no. 2、约化到证明的推论 1 到命题 5，如果 $M' \subset mM$、$M'$ 只能是如果 $M' = 0$，则为 M 的纯子模。）
+(b) 假设 A 为局部环，最大理想为 $m$，M 为有限生成的自由A-模。为了使 M 的有限生成的子模 M' 是纯的，它是 M 的直因子是充分必要的。（使用 no. 2 的推论 1 到命题 5，约化到证明，如果 $M' \subset mM$，如果$M' = 0$，则$M'$只能是M的纯子模。）
 
-16. 设$(A_\lambda, f_{\mu\lambda})$为局部环的直接系统，使得$f_{\mu\lambda}$是局部同态；设$m_\lambda$为$A_\lambda$和$K_\lambda = A_\lambda/m_\lambda$的最大理想。那么$A = \varprojlim A_\lambda$就是局部环，其最大理想是$m = \varprojlim m_\lambda$，剩余类域就是$\bar{K} = \varprojlim K_\lambda$。此外，如果$m_\mu = A_\mu m_\lambda$适用于$\lambda < \mu$，则$m = Am$适用于所有$\lambda$。
+16. 令$(A_\lambda, f_{\mu\lambda})$为局部环的直接系统，使得$f_{\mu\lambda}$是本地同态；设$m_\lambda$为$A_\lambda$和$K_\lambda = A_\lambda/m_\lambda$的最大理想。那么$A = \varprojlim A_\lambda$就是局部环，其最大理想是$m = \varprojlim m_\lambda$，剩余类域就是$\bar{K} = \varprojlim K_\lambda$。此外，如果$m_\mu = A_\mu m_\lambda$适用于$\lambda < \mu$，则$m = Am$适用于所有$\lambda$。
 
 94
 

@@ -55,16 +55,16 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: 00499ed4ad8a0d20262161707cf22f5dda93985058060b2e4467e31b1b7fa3b3
+content_sha256: bd723f81f7289152e2a761c1cec796fad18ffdf1bfe6beb2aee682a966dfcd09
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
 translation_method: google
 source_content_sha256: b6c3b59be706d899df8c14677f2a1f585996a74c952028c811d04e381a1ed6be
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2230651e800e9e5a857fb4eb554b5446d54dcb9d4cf8d210d9a89176335b6290
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 6。对称函数
@@ -174,20 +174,20 @@ $$
 (-1)^{n+1}s_n = X_n^n + \sum_{k=1}^{n-1} (-1)^{n-k} s_{n-k} X_n^k ;
 $$
 
-在其他字中，$(-1)^{n+1}s_n$是$X$中的次数$n$的一元多项式，系数为$C$。通过IV，p. 11，我们有以下性质：
+在其他字中，$(-1)^{n+1}s_n$是$X$、次数$n$以及$C$中的系数的一元多项式。通过IV，p. 11，我们有以下性质：
 (E) $C[T]$到$C[X_n] = S'$的C-代数同态$\varphi$，其中映射 T到$s_n$是单射，并且$S'$是自由模超过$\varphi$的像，其中基$(1, X_n, ..., X_n^{n-1})$。
 
-$C$ 的元素 $s_1, ..., s_{n-1}$ 在代数上独立于 A，由 (D) 得到；因此$\varphi$的单射性意味着$s_1, ..., s_{n-1}, s_n$在代数上独立于A，从而 b)。
+$C$ 的元素 $s_1, ..., s_{n-1}$ 在代数上独立于 A，由 (D) 得到；因此 $\varphi$ 的单射性意味着 $s_1, ..., s_{n-1}, s_n$ 在代数上独立于 A, 从而 b)。
 
-为了证明c)，$\varphi$的像等于$C[s_n]_E = S$，因此根据(E)，$S'$在基$(1, X_1, ..., X_n^{n-1})$上超过S自由模。现在断言 c) 源自归纳假设 (C) 和II、p. 222 的第 25 条提案。这样就完成了证明。
+为了证明c)，$\varphi$的像等于$C[s_n]_E = S$，因此根据(E)，$S'$在基$(1, X_1, ..., X_n^{n-1})$上超过S自由模。现在断言 c) 源自归纳假设 (C) 和II、p. 222 的第25 号提案。这样就完成了证明。
 
-令 $f$ 为 $X_1, ..., X_n$ 的对称多项式，次数 $m$ 齐次。由 Th. 1 (IV, p. 62) 存在多项式$Q \in A[Y_1, ..., Y_n]$使得$f = Q(s_1, ..., s_n)$。前面的证明提供了一种显式计算$Q$的方法，通过双归纳对$n$和$m$进行显式计算。正如我们所看到的，存在一个多项式 $P \in A[Y_1, ..., Y_{n-1}]$ 和一个在 $X_1, ..., X_n$ 中对称的多项式 h，其齐次于次数 $m-n$，使得
+令 $f$ 为 $X_1, ..., X_n$ 的对称多项式，次数 $m$ 齐次。由 Th. 1 (IV, p. 62) 存在多项式$Q \in A[Y_1, ..., Y_n]$使得$f = Q(s_1, ..., s_n)$。 The preceding 证明 provides a means of explicit calculation of $Q$, by 双归纳 on $n$ and $m$.正如我们所看到的，存在一个多项式 $P \in A[Y_1, ..., Y_{n-1}]$ 和一个在 $X_1, ..., X_n$ 中对称的多项式 h，其齐次于次数 $m-n$，使得
 
 $$
 f = P(s_1, ..., s_{n-1}) + s_n h .
 $$
 
-对于每个多项式 $u \in A[X_1, ..., X_n]$ 我们将
+For every polynomial $u \in A[X_1, ..., X_n]$ we put
 
 $$
 u'(X_1, ..., X_{n-1}) = u(X_1, ..., X_{n-1}, 0)
@@ -294,7 +294,7 @@ $$
 
 #### 注 {#alg-iv-s6-n1-rem-1 .statement tag=06EH}
 
-— 令 n 和 k 为两个正整数。 我们用$N^n$中长度 k 元素的$\Delta_{k,n}$集合表示，并进一步装备$A$，，与序关系，写成$a \leq \beta$，由$N^n$上的词典阶诱导（*集合理论*、III、p. 157），以及$\sigma \in \mathfrak{S}_n, a \in N^n$和$l \leq i \leq n$的群$\mathfrak{S}_n$与$(\sigma a)(i) = a(\sigma^{-1}(i))$的$N^n$的定义作用。 此外，我们用元素$a = (\alpha(1), \ldots, \alpha(k))$或$\mathbf{N}^k$的$D_k$集合表示，这样
+— 令 n 和 k 为两个正整数。 我们用$\Delta_{k,n}$表示$N^n$中长度为k的元素集合，并进一步装备$A$，，具有由$N^n$上的字典顺序导出的顺序关系，写作$a \leq \beta$（*集合理论*，III，p. 157），并定义群$\mathfrak{S}_n$的动作$N^n$ $(\sigma a)(i) = a(\sigma^{-1}(i))$ $\sigma \in \mathfrak{S}_n, a \in N^n$ 和 $l \leq i \leq n$。 此外，我们用元素$a = (\alpha(1), \ldots, \alpha(k))$或$\mathbf{N}^k$的$D_k$集合表示，这样
 $$
 \alpha(1) \geq \alpha(2) \geq \cdots \geq \alpha(k), \quad \alpha(1) + \cdots + \alpha(k) = k.
 $$
@@ -320,9 +320,9 @@ $$
 (13)\quad S(\alpha) = \sum_{\beta \in D_k} c_{\alpha\beta} \cdot \mathbf{M}(\beta) \quad (\alpha \in D_k) .
 $$
 
-可以证明(cf.IV、p. 101、习题13)矩阵$C = (c_{\alpha\beta})_{\alpha,\beta \in D_k}$使得$c_{\alpha\alpha} = 1$和$c_{\alpha\beta} = 0$对于$\alpha < \beta$；概括在II、p. 351中引入的术语，我们可以说$C$属于到下总三角形群。 矩阵 D 与 C 的倒数也是如此。 矩阵 C的值和$2 \leq k \leq 5$时的D，在表（IV，p. 103-105）中给出。
+可以证明(cf.IV、p. 101、习题13)矩阵$C = (c_{\alpha\beta})_{\alpha,\beta \in D_k}$使得$c_{\alpha\alpha} = 1$和$c_{\alpha\beta} = 0$对于$\alpha < \beta$；概括在II、p. 351中引入的术语，我们可以说$C$属于到下总三角形群。 矩阵 D 与 C 的逆也是同样的情况。 矩阵C的值和$2 \leq k \leq 5$时的D，在表（IV，p. 103-105）中给出。
 
-现在假设$n < k$，让我们认同$N^n$，其中子集为$N^k$乘以映射$(a(1), \ldots, a(n)) \mapsto (a(1), \ldots, a(n), 0, \ldots, 0)$。对于$D_k \cap N^n$中的每个$a$，我们再次用(11)在$\mathfrak{S}_n$的运算和定义$\mathbf{M}(\alpha)$下的$\Delta_{k,n}$中的$a$的$O(\alpha)$轨道表示。进一步，我们通过（12）计算定义$S(\alpha)$，则$(\mathbf{M}(a))_{a \in D_k \cap N^n}$和$(S(a))_{a \in D_k \cap N^n}$族是A-模$S_k^{(n)}$的基。通过IV、p. 64的公式(9)，我们得到类似于(13)的公式，其中$D_k$被$D_k \cap N^n$替代，具有相同的整数$c_{\alpha\beta}$。
+现在假设$n < k$，让我们认同$N^n$，其中子集为$N^k$乘以映射$(a(1), \ldots, a(n)) \mapsto (a(1), \ldots, a(n), 0, \ldots, 0)$。对于$D_k \cap N^n$中的每个$a$，我们再次用(11)在$\mathfrak{S}_n$的运算和定义$\mathbf{M}(\alpha)$下的$\Delta_{k,n}$中的$a$的$O(\alpha)$轨道表示。进一步，我们通过（12）计算定义$S(\alpha)$，则$(\mathbf{M}(a))_{a \in D_k \cap N^n}$和$(S(a))_{a \in D_k \cap N^n}$族是A-模$S_k^{(n)}$的基。通过IV、p. 64的公式(9)，我们得到公式，类似于(13)，其中$D_k$被$D_k \cap N^n$替代，具有相同的整数$c_{\alpha\beta}$。
 
 #### 例 4 {#alg-iv-s6-n1-exa-4 .statement tag=06EI}
 
@@ -350,7 +350,7 @@ $$
 
 令$f \in K(X_1, \ldots, X_n)$为对称有理分数，并令$u_1, v_1$为$K[X_1, \ldots, X_n]$的两个元素，使得$f = \frac{u_1}{v_1}$。我们放入$v = \prod_{\sigma \in S_n} \psi_\sigma(v_1) \in K[X_1, \ldots, X_n]$和$u = fv \in K[X_1, \ldots, X_n]$；那么$v$是对称的，因此$u$是对称的，因为$f$是对称的，并且$f = \frac{u}{v}$，从而的结果。
 
-#### 推论{#alg-iv-s6-n2-cor-1 .statement tag=06EK}
+#### 推论 {#alg-iv-s6-n2-cor-1 .statement tag=06EK}
 
 — *令 $s_1, s_2, \ldots, s_n$ 为 $X_1, \ldots, X_n$ 中的初等对称多项式。对于每个有理分式 $g \in K(S_1, S_2, \ldots, S_n)$ 序列 $(s_1, s_2, \ldots, s_n)$ 都可代入 $g$ 且映射 $g \mapsto g(s_1, s_2, \ldots, s_n)$ 是 $K(S_1, S_2, \ldots, S_n)$ 的同构到对称有理分式的域 $X_1, \ldots, X_n$.*
 
@@ -394,7 +394,7 @@ $$
 
 **设 J 为 I、r 整数的有限子集，使得 Card $J \geq r$ 和 fa 对称形式幂级数，其与 $X_i$ ($i \in I$) 中的次数 r 齐次。令$\bar{f}$为形式的幂级数，通过用0替换$X_i$中$I - J$中的每个i而获得。如果$\bar{f} = 0$，那么我们就有$f = 0$。**
 
-让我们输入$f = \sum_{|\alpha| = r} a_\alpha X^\alpha$（其中$|\alpha|$是多索引$a = (\alpha_i)_{i \in I}$的长度$\sum_{i \in I} \alpha_i$）。如果$a$是长度$r$的多重索引，$J'$是$a$的支持（$i \in I$的集合使得$\alpha_i \neq 0$），则卡$J' \leq r$，因此存在置换 $\sigma \in S_I$使得$\sigma(J') \subset J$。将$\beta_i = \alpha_{\sigma^{-1}(i)}$代入$i \in I$，则单项式$X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$仅取决于不定式$X_j$ ($j \in J$)、从而 $a_\beta = 0$乘以假设$\overline{f} = 0$。由于$f$是对称的，所以我们有$a_\alpha = a_\beta$，并且由于$\alpha$是任意的，所以我们有结论即$f = 0$。
+Let us put $f = \sum_{|\alpha| = r} a_\alpha X^\alpha$ (where $|\alpha|$ is 长度 $\sum_{i \in I} \alpha_i$ of the multiindex $a = (\alpha_i)_{i \in I}$).如果$a$是长度$r$的多重索引，$J'$是$a$的支持（$i \in I$的集合使得$\alpha_i \neq 0$），则卡$J' \leq r$，因此存在置换 $\sigma \in S_I$使得$\sigma(J') \subset J$。将$\beta_i = \alpha_{\sigma^{-1}(i)}$代入$i \in I$，则单项式$X^\beta = \prod_{i \in I} X_{\sigma(i)}^{\alpha_i}$仅取决于不定式$X_j$ ($j \in J$)、从而 $a_\beta = 0$乘以假设$\overline{f} = 0$。由于$f$是对称的，所以我们有$a_\alpha = a_\beta$，并且由于$\alpha$是任意的，所以我们有结论即$f = 0$。
 
 #### 引理 2 {#alg-iv-s6-lem-2 .statement tag=06EN}
 
@@ -402,7 +402,7 @@ $$
 
 $I$ 有限的情况由 Th 得出。 1（IV，p. 62）。
 
-假设$I$是无限的，并且$I$中的选择有限子集$J$、包含$r$元素。我们保留引理 1 中的记号；我们注，$S_n \ (n \geq 1)$中权$r$的每个等量多项式仅取决于$S_1, \ldots, S_r$，而$\overline{s}_1, \ldots, \overline{s}_r$是$r$不定式$X_j \ (j \in J)$中的初等对称多项式。如果$P$是$S_n$和$h = f - \psi_1(P)$中权$r$的等量多项式，则$\overline{h} = \overline{f} - P(\overline{s}_1, \ldots, S_r)$和引理1表明关系$f = \psi_1(P)$等于$\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$。由 Th. 1 (IV, p. 62) 存在唯一的多项式$P \in A[S]$，等压于权 $r$，并且结果为$\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$，从而。
+假设$I$是无限的，并且$I$中的选择有限子集$J$、包含$r$元素。我们保留引理 1 中的记号； we remark that every isobaric polynomial of 权 $r$ in the $S_n \ (n \geq 1)$ depends only on $S_1, \ldots, S_r$ and that $\overline{s}_1, \ldots, \overline{s}_r$ are the elementary symmetric polynomials in the $r$ indeterminates $X_j \ (j \in J)$.如果$P$是$S_n$和$h = f - \psi_1(P)$中权$r$的等量多项式，那么$\overline{h} = \overline{f} - P(\overline{s}_1, \ldots, S_r)$和引理1表明关系$f = \psi_1(P)$等于$\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$。由 Th. 1 (IV, p. 62) 存在唯一的多项式$P \in A[S]$，等压于权 $r$，并且结果为$\overline{f} = P(\overline{s}_1, \ldots, \overline{s}_r)$，从而。
 
 #### 引理 3 {#alg-iv-s6-lem-3 .statement tag=06EO}
 
@@ -412,7 +412,7 @@ $I$ 有限的情况由 Th 得出。 1（IV，p. 62）。
 
 由于$S_k$中给定权的单项式只有有限数，因此每个形式的幂级数$f \in B$都可以以独特的方式写为$f = \sum_{r \geq 0} P_r$，其中$P_r$是以下的等量多项式权$r$在$B \cap A[S]$。对于每个整数$m \geq 0$，让$b_m$成为上述型的所有正式幂级数的$B$由……组成的理想，这样$P_r = 0$对于$0 \leq r < m$。 序列$(b_m)_{m \geq 0}$是$B$中$0$邻域基。
 
-上面的记号$\psi_1(P_r)$是$X_i$中的对称形式幂级数，齐次于次数$r$，所以这是次数$r$的齐次分量$\psi_1(f)$。 引理 2 显示对于每个整数 $m \geq 0$，$\psi_1$ 是$B$ 的代数同态到$A[[X]]^{sym}$、映射 $b_m$ 到$c_m$；现在引理 3 显示 $\psi_1$ 是双连续的，这完成了定理 2 的证明。
+上面的记号$\psi_1(P_r)$是$X_i$中的对称形式幂级数，齐次于次数$r$，所以这是次数$r$的齐次分量 $\psi_1(f)$。 引理 2 显示对于每个整数 $m \geq 0$，$\psi_1$ 是$B$ 的代数同态到$A[[X]]^{sym}$、映射 $b_m$ 到$c_m$；现在引理 3 显示 $\psi_1$ 是双连续的，这完成了定理 2 的证明。
 
 ### 4. 和 / 幂
 
@@ -438,7 +438,7 @@ $$
 p_d = \sum_{k=1}^{d-1} (-1)^{k-1} s_k p_{d-k} + (-1)^{d+1} d s_d
 $$
 
-让我们将定义通过$A(u) = \sum_{n \geq 0} n u_n$在$\mathbf{A}[[\mathbf{X}]]$中连续推导$A$，其中对于$\mathbf{A}[[\mathbf{X}]]$中的每个$u$，$u_n$是$u$的次数$n$的齐次分量。根据 (16) 和 *IV* 的第 2 条，p. 27 我们有
+让我们定义通过$A(u) = \sum_{n \geq 0} n u_n$在$\mathbf{A}[[\mathbf{X}]]$中连续推导$A$，其中对于$\mathbf{A}[[\mathbf{X}]]$中的每个$u$，$u_n$是次数$n$的齐次分量 $u$。根据 (16) 和 *IV* 的第 2 条，p. 27 我们有
 
 $$
 1 + \sum_{k \geq 1} s_k = \prod_{i \in I} (1 + X_i)
@@ -456,7 +456,7 @@ $$
 \sum_{k \geq 1} k s_k = \left( 1 + \sum_{k \geq 1} s_k \right) \cdot \left( \sum_{k \geq 1} (-1)^{k-1} p_k \right)
 $$
 
-现在引理 4 接下来是次数 d 的同质成分的比较。
+现在引理 4 接下来是次数 d 的齐次分量的比较。
 
 #### 注 {#alg-iv-s6-n4-rem-1 .statement tag=06EQ}
 
@@ -492,7 +492,7 @@ $$
 p_k = s_1 p_{k-1} - s_2 p_{k-2} + \cdots + (-1)^{n+1} s_n p_{k-n} \quad (\text{for } k > n) .
 $$
 
-上述关系的第一个$n$对于任何$I$都成立；我们找到例
+上述关系的第一个$n$对于任何$I$都成立；我们发现例如
 
 $$
 p_1 = s_1 , \quad p_2 = s_1^2 - 2 s_2 , \quad p_3 = s_1^3 - 3 s_1 s_2 + 3 s_3 .
@@ -511,7 +511,7 @@ $$
 \lambda_I : A[[P]] \to A[[X]]^{\mathrm{sym}}
 $$
 
-这样对于每个整数 $k \geq 1$ *(IV, p. 28)* 都有 $\lambda_I(P_k) = p_k$。 If we assign to $P_k$ the weight k, then $\lambda_I$ transforms an isobaric polynomial of weight $n$ in the $P_k$ into a formal power series which is homogeneous of degree $n$ in the $X_i$.
+这样对于每个整数 $k \geq 1$ *(IV, p. 28)* 都有 $\lambda_I(P_k) = p_k$。 如果我们为$P_k$分配权重k，则$\lambda_I$将$P_k$中权重$n$的等量多项式转换为$X_i$中$n$次齐次的形式幂级数。
 
 #### 命题 3 {#alg-iv-s6-prop-3 .statement tag=06ER}
 
@@ -527,7 +527,7 @@ $$
 
 由于$k! . 1$在$\mathbf{A}$、IV、引理 2 中是可逆的，p. 35证明了拓扑$\mathbf{A}$-代数$\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$的自同构$T$的存在性，其中映射 $s_k$ 至 $p_k$ 为 $l \leq k \leq n$。现在，第 3 号提案，a) 是直接的推论。
 
-#### 推论{#alg-iv-s6-n4-cor-1 .statement tag=06ES}
+#### 推论 {#alg-iv-s6-n4-cor-1 .statement tag=06ES}
 
 — *令$\xi_1, \ldots, \xi_n, \eta_1, \ldots, \eta_n$为$\mathbf{A}$的元素，并假设$\mathbf{A}$为整环。*
 
@@ -541,9 +541,9 @@ $$
 
 $1 \leq k \leq n$。 *那么存在置换$\sigma \in \mathfrak{S}_n$使得$\eta_i = \xi_{\sigma(i)}$对应$1 \leq i \leq n$。*
 
-在假设 a) 下，我们有 $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$。如果我们用$\eta_n$代替$X$，我们会发现$\prod_{i=1}^n (\eta_n - \xi_i) = 0$，并且由于$\mathbf{A}$是整环，所以存在整数$\sigma(n)$使得$l \ s \ \sigma(n) \leq n$和$\eta_n = \xi_{\sigma(n)}$。现在断言 a) 很容易跟随归纳，因为 $\mathbf{A}[X]$ 是整环。
+在假设 a) 下，我们有 $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$。如果我们用$\eta_n$代替$X$，我们会发现$\prod_{i=1}^n (\eta_n - \xi_i) = 0$，并且由于$\mathbf{A}$是整环，所以有整数$\sigma(n)$使得$l \ s \ \sigma(n) \leq n$和$\eta_n = \xi_{\sigma(n)}$。现在断言 a) 很容易跟随归纳，因为 $\mathbf{A}[X]$ 是整环。
 
-在 b) 的假设下，存在 $n$ 不定式中的命题 3 首一多项式$\Pi_1, \ldots, \Pi_n$，其系数在$\mathbf{A}$ 的分数的域中，使得 $1 \leq k \leq n$ 具有$s_k = \Pi_k(p_1, \ldots, p_n)$。现在关系 (23) 意味着
+在 b) 的假设下，存在由命题 3 得出的多项式 $\Pi_1, \ldots, \Pi_n$ 在 $n$ 不定式中，系数在 $\mathbf{A}$ 的分数的域中，使得 $s_k = \Pi_k(p_1, \ldots, p_n)$ 对于 $1 \leq k \leq n$。现在关系 (23) 意味着
 
 $$
 s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)
@@ -551,15 +551,15 @@ $$
 
 对于$1 \leq k \leq n$，因此 b) 由 a) 得出。
 
-### 5. 多项式的根中对称函数
+### 5. 多项式的根中的对称函数
 
-考虑一个次数 $n$ 的一元多项式，系数为 $\mathbf{A}$：
+考虑次数 $n$ 的一元多项式，其中系数在 $\mathbf{A}$ 中：
 
 $$
 f = X^n + a_1 X^{n-1} + \cdots + a_{n-1} X + a_n.
 $$
 
-我们定义一个结合律、交换律和单位 $\mathbf{A}$-代数 $E_f$ 与生成元 $x_1, \ldots, x$ 和关系
+我们定义一个结合律、交换律和单位$\mathbf{A}$-代数$E_f$与生成元$x_1, \ldots, x$和关系
 
 $$
 \sum_{i_1 < \ldots < i_k} x_{i_1} \ldots x_{i_k} = (-1)^k a_k \quad (1 \leq k \leq n).
@@ -603,18 +603,18 @@ B = a \oplus \bigoplus_{\nu \in S} AX^\nu,
 $$
 从而提案 5，因为 $E_f = B/a$。
 
-#### 推论{#alg-iv-s6-n5-cor-1 .statement tag=06EV}
+#### 推论 {#alg-iv-s6-n5-cor-1 .statement tag=06EV}
 
-— *A 的典范同态到一元多项式 $f \in A[X]$ 的通用分解代数是单射的。*
+— *A 的典范同态到一元多项式$f \in A[X]$ 的通用分解代数是单射的。*
 
 对于$E_f$形式部分单位元A-模$E_f$基。
 
 #### 命题 6 {#alg-iv-s6-prop-6 .statement tag=06EW}
 
-— *令 $f \in A[X]$ 为次数 n 的一元多项式，并令 P 为 $X_1, ..., X_n$ 中的对称多项式，系数在 A 中。则恰好存在 A 的一个元素 a ，其性质如下：
+— *令 $f \in A[X]$ 为次数 n 的一元多项式，并令 P 为 $X_1, ..., X_n$ 中的对称多项式，且 A 中系数。则 A 中正好存在一个元素 a，其性质如下：
 (FS) 对于 B[X] 中的任何环同态 $\rho : A \to B$ 和分解 $^0f(X) = \prod_{i=1}^n (X - \xi_i)$，我们有 $\rho(a) = P(\xi_1, ..., \xi_n)$。*
 
-写$f = X^n + \sum_{k=1}^n a_k X^{n-k}$，然后写Th。 1, IV, p. 62 存在n个不定式中的多项式$\Pi$，系数在A中，使得$P = \Pi(s_1, ..., s_n)$。把$a = \Pi(-a_1, a_2, ..., (-1)^n a_n)$。在假设 (FS) 下，我们有
+写$f = X^n + \sum_{k=1}^n a_k X^{n-k}$，然后写Th。 1, IV, p. 62 存在n个不定式中的多项式$\Pi$，A中的系数，使得$P = \Pi(s_1, ..., s_n)$。把$a = \Pi(-a_1, a_2, ..., (-1)^n a_n)$。在假设 (FS) 下，我们有
 $$
 s_k(\xi_1, ..., \xi_n) = (-1)^k \rho(a_k)
 $$
@@ -641,13 +641,13 @@ $$
 那么 $P^*(f)$ 只是结果 $\operatorname{res}(f, g)$，由 Cor. 1 个IV、p. 80。
 3) 代入$A(X_1, ..., X_n) = \prod_{i < j} (X_i - X_j)^2$，那么$\Delta^*(f)$就是一元多项式$f$ (IV, p. 82, 公式 (46)) 的判别式。 \*
 
-4）放入$P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$；另外，定义代数$E = A[X]/(f)$，并在$E$中将$X$的像写入$x$。我们记得，$A$-模块$E$是免费的，其中基$(1, x, \ldots, x^{n-1})$（IV，p. 11，Cor.）。让我们展示一下
+4）放入$P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$；另外，将$X$的像记入$E$，记入定义代数$E = A[X]/(f)$，并记入$x$。我们记得，$A$-模块$E$是免费的，其中基$(1, x, \ldots, x^{n-1})$（IV，p. 11，Cor.）。让我们展示一下
 
 $$
 \text{Tr}_{E/A}(x^k) = P^*(f)
 $$
 
-每整数 $k \geq 1$ 放入 $\pi_k = \text{Tr}_{E/A}(x^k)$。考虑到牛顿的关系（IV，p. 70），我们只需要建立关系
+每整数$k \geq 1$放入$\pi_k = \text{Tr}_{E/A}(x^k)$。考虑到牛顿的关系（IV，p. 70），我们只需要建立关系
 
 $$
 \begin{align*}
@@ -668,7 +668,7 @@ $$
 y = x^k + a_1 x^{k-1} + \cdots + a_{k-1} x + a_k \cdot 1 ;
 $$
 
-令$M = (m_{ij})$为$E$中线性映射$u \mapsto yu$相对于基$(x')_{0,\ldots,n}$的矩阵。我们轻松获得关系
+令$M = (m_{ij})$为$E$中线性映射$u \mapsto yu$相对于基$(x')_{0,\ldots,n}$的矩阵。我们很容易得到关系
 
 $$
 \begin{align*}
@@ -721,7 +721,7 @@ a) $a_{ij} = t_{p-i+j}$ 为$0 \leq j \leq q-1$，
 b) $a_{ij} = u_{j-i}$ 为$q \leq j \leq p + q - 1$，
 其中，如果 $k \notin (0, p)$，$t_k$ 被视为 0；如果 $k \notin (0, q)$，$u_k = 0$。
 
-对于例，当$p = 2$和$q = 3$时，我们有矩阵
+例如，当$p = 2$和$q = 3$时，我们有矩阵
 $$
 \begin{pmatrix}
 t_2 & 0 & 0 & u_3 & 0 \\
@@ -734,13 +734,13 @@ $$
 
 #### 定义 1 {#alg-iv-s6-def-1 .statement tag=06EX}
 
-*对于上述记号，矩阵$M(f, g, p, q)$的行列式被称为次数$p$和$q$的对$(f, g)$的结果，或者简称为$f$和$g$的结果，如果$p = \deg f$ 和$q = \deg g$。*
+*上述矩阵$M(f, g, p, q)$的记号行列式称为对$(f, g)$对于次数$p$和$q$的结果，或者简称为$f$和$g$的结果，如果$p = \deg f$ 和$q = \deg g$。*
 
 当 $p = \deg f$、$q = \deg g$ 时，结果表示为 $\operatorname{res}_{p,q}(f, g)$ 或简称为 $\operatorname{res}(f, g)$。
 
 #### 例 1 {#alg-iv-s6-n6-exa-1 .statement tag=06EY}
 
-给定 $\Lambda$ 中的 $\Lambda, \mu$，我们有公式
+给定$\Lambda$中的$\Lambda, \mu$，我们有公式
 $$
 \operatorname{res}_{p,0}(f, \lambda) = \lambda^p, \quad \operatorname{res}_{0,q}(\mu, g) = \mu^q
 $$
@@ -758,7 +758,7 @@ $$
 
 #### 注 1 {#alg-iv-s6-n6-rem-1 .statement tag=06F0}
 
-矩阵 $M(g, f, q, p)$ 是由 $M(f, g, p, q)$ 通过列、从而 $pq$ 转置获得
+矩阵 $M(g, f, q, p)$ 由 $M(f, g, p, q)$ 通过列、从而 $pq$ 转置获得
 $$
 \operatorname{res}_{q,p}(g, f) = (-1)^{pq} \operatorname{res}_{p,q}(f, g)
 $$
@@ -772,7 +772,7 @@ $$
 
 #### 注 3 {#alg-iv-s6-n6-rem-3 .statement tag=06F2}
 
-给定 $A$ 中的 $\lambda, \mu$，我们有
+给定$A$中的$\lambda, \mu$，我们有
 $$
 \operatorname{res}_{p,q}(\lambda f, \mu g) = \lambda^q \mu^p \operatorname{res}_{p,q}(f, g) .
 $$
@@ -780,7 +780,7 @@ $$
 
 #### 注 4 {#alg-iv-s6-n6-rem-4 .statement tag=06F3}
 
-假设$p + q \geq 1$。由 $\varphi$ 包含的III、p. 532、公式 (28)、像得到常数多项式$\operatorname{res}_{p,q}(f, g)$。因此存在多项式 $(u, v)$ 的对，其中 $u \in S_q, v \in S_p$ 使得
+假设$p + q \geq 1$。由 $\varphi$ 包含的III、p. 532、公式 (28)、像常数多项式$\operatorname{res}_{p,q}(f, g)$。因此存在多项式 $(u, v)$ 的对，其中 $u \in S_q, v \in S_p$ 使得
 $$
 \operatorname{res}_{p,q}(f, g) = uf + vg ,
 $$
@@ -788,7 +788,7 @@ $$
 $$
 \operatorname{res}_{p,q}(f, g) \in A \cap (f, g) .
 $$
-当 $\operatorname{res}_{p,q}(f, g)$ 在 $A$ 中可取消时，对 $(u, v)$ 是唯一的：因为此时 $\varphi$ 是单射的（III，p. 524，命题 3）。
+当$\operatorname{res}_{p,q}(f, g)$在$A$中可取消时，对$(u, v)$是唯一的：因为此时$\varphi$是单射的（III，p. 524，命题3）。
 
 #### 注 5 {#alg-iv-s6-n6-rem-5 .statement tag=06F4}
 
@@ -801,19 +801,19 @@ $$
 $$
 \omega^{-1}(u, v) = (u, -uh + v) .
 $$
-$w$相对于基$B_1$的矩阵是下三角形，其对角线元素等于$1$。另一方面，$\varphi \circ w$映射$(u, v)$至$u(f + gh) + vg$。现在公式(29)意味着代表$\varphi$和$\varphi \circ w$的矩阵具有相同的行列式，这是从关系$\det w = 1$得出的。
+$w$相对于基$B_1$的矩阵是下三角形，其对角线元素等于$1$。另一方面，$\varphi \circ w$映射$(u, v)$至$u(f + gh) + vg$。现在公式(29)意味着矩阵代表$\varphi$和$\varphi \circ w$具有相同的行列式，这是从关系$\det w = 1$得出的。
 
 假设$f$是次数$p$的单调；将$E = A[X]/(f)$放入$E$中，用$X$的$x$典范像表示。我们知道（IV，p. 11）$E$是一个免费的$A$模块，具有基$(1, x, \ldots, x^{p-1})$。因此，我们可以对 $E$ 的任意元素 $u$ 进行定义范数 $N_{E/A}(u)$ (III, p. 543, Def. 2)。
 
 #### 命题 7 {#alg-iv-s6-prop-7 .statement tag=06F5}
 
-— *假设 f 是次数 p 的一元函数；有了上面的记号我们就有了*¹
+— *假设f是次数 p的monic；有了上面的记号，我们就有了*¹
 $$
 \operatorname{res}_{p,q}(f, g) = N_{E/A}(g(x)) .
 $$
 (30)
 
-1 因此，当 $f$ 是次数 $p$ 的单调时，所得$\operatorname{res}_{p,q}(f, g)$ 独立于$q$。然后我们简单地用 $\operatorname{res}(f, g)$ 来表示它。
+1 因此，当 $f$ 是次数 $p$ 的单调时，结果 $\operatorname{res}_{p,q}(f, g)$ 独立于 $q$。然后我们简单地用 $\operatorname{res}(f, g)$ 来表示它。
 
 让我们将$S_q \times S_p$的定义A-线性映射$0$乘以$\theta(u, v) = uf + v$进入$S_{p+q}$。然后将$S_q \times S_s$中的$0$映射基$B_1$转化为序列
 $$
@@ -825,7 +825,7 @@ $$
 $$
 \varphi'(uf + v) = uf + vg
 $$
-对于$S_q \times S_s$中的任何对$(u, v)$。现在我们有$A[X] = S_{p+q} + (f)$和$fS_q = S_s \cap (f)$，因此通过将$S_{p+q}/fS_q$的商同构$\gamma$到E上，将$S_{p-s}$的典范嵌入转化为$A[X]$定义。令$\psi$为E 中的乘法与 $g(x)$。 公式 (31) 表明 $\varphi'$ 诱导 $fS_q$ 上的恒等式和 $S_{p+q}/fS_q$ 上的 $\gamma^{-1}\psi\gamma$ 恒等式。因此，我们有$\det \varphi' = \det \psi$，从而 (30)，因为$\det \varphi' = \operatorname{res}_{p,q}(f, g)$和$\det \psi = N_{E/A}(g(x))$，通过定义。
+对于$S_q \times S_s$中的任何对$(u, v)$。现在我们有$A[X] = S_{p+q} + (f)$和$fS_q = S_s \cap (f)$，因此$S_{p-s}$的典范嵌入进入$A[X]$定义，通过到$S_{p+q}/fS_q$的商同构$\gamma$到E。令$\psi$为E 中的乘法与 $g(x)$。 公式 (31) 显示 $\varphi'$ 诱导 $fS_q$ 上的恒等式和 $S_{p+q}/fS_q$ 上的 $\gamma^{-1}\psi\gamma$ 恒等式。因此，我们有 $\det \varphi' = \det \psi$，从而 (30)，因为 $\det \varphi' = \operatorname{res}_{p,q}(f, g)$ 和 $\det \psi = N_{E/A}(g(x))$，除定义。
 
 #### 推论 1 {#alg-iv-s6-prop-7-cor-1 .statement tag=06F6}
 
@@ -842,7 +842,7 @@ $$
 (ii) 首一多项式$f$和$g$在$A[X]$互质；
 \* (iii) 对于 A 的任意扩张 L，首一多项式 $f$ 和 $g$ 在 L 中没有公共的根。 \*
 
-我们可以立即将约化应用于 $f$ 是单调的情况（IV，p. 77，注 3）。
+我们可以立即将约化转换为 $f$ 是单调的情况（IV，p. 77，注 3）。
 (i)和(ii)的等价只是Cor的翻译。 1，由Def。 IV、p. 12 中的 1 个； (ii) 和 (iii) 的等价就是 Cor。 7 个IV、p. 13。
 
 #### 推论 3 {#alg-iv-s6-prop-7-cor-3 .statement tag=06F8}
@@ -860,13 +860,13 @@ $$
 
 #### 命题 8 {#alg-iv-s6-prop-8 .statement tag=06F9}
 
-— 假设 f 和 g 分别是次数 p 和 q 的一元函数。有了上面的记号，A-模 F 与基 $(x^i y^j)_{0 \leq i < p,\ 0 \leq j < q}$ 是自由的，我们有
+— 假设 f 和 g 分别是次数 p 和 q 的一元函数。有了上面的记号，A-模 F 与基 $(x^i y^j)_{0 \leq i < p,\ 0 \leq j < q}$ 是免费的，我们有
 
 $$
 \text{res}(f, g) = N_{F/A}(x - y).
 $$
 
-输入$E = A[X]/(f)$和$E' = A[Y]/(g)$。由 II、p. 253 提供，Cor。 1、从典范同态$A[X] \otimes A[Y] \to A[X, Y]$导出$E @ E'$入F的同态$\sigma$是双射的；这证明了F的断言关于基。我们现在认同E及其像在F中$\sigma$下。那么$E[Y]/(g(Y))$到F的E-代数同态，其中映射Y到y是同构。
+输入$E = A[X]/(f)$和$E' = A[Y]/(g)$。由 II、p. 253 提供，Cor。 1、从典范同态$A[X] \otimes A[Y] \to A[X, Y]$导出$E @ E'$入F的同态$\sigma$是双射；这证明了F的断言关于基。我们现在认同E及其像在F中$\sigma$。那么$E[Y]/(g(Y))$到F的E-代数同态，其中映射Y到y是同构。
 
 到范数 (III, p. 546) 的传递性，我们有
 
@@ -874,7 +874,7 @@ $$
 N_{F/A}(x - y) = N_{E/A}(N_{F/E}(x - y)).
 $$
 
-根据命题 7 (IV, p. 77)，$N_{F/E}(x - y)$ 是 E[Y] 中多项式 g(Y) 和 x − Y 的结果，因此等于 g(x) (IV, p. 78, Cor. 3)。根据公式 (34) 和命题 7 (IV, p. 77)，我们有
+根据命题 7 (IV, p. 77)，$N_{F/E}(x - y)$ 是 E[Y] 中多项式 g(Y) 和 x − Y 的结果，因此等于 g(x) (IV, p. 78，Cor. 3)。根据公式 (34) 和命题 7 (IV, p. 77)，我们有
 
 $$
 N_{F/A}(x - y) = N_{E/A}(g(x)) = \text{res}(f, g)
@@ -891,19 +891,19 @@ $$
 \text{res}_{p + p_1, q}(ff_1, g) = \text{res}_{p, q}(f, g) \cdot \text{res}_{p_1, q}(f_1, g).
 $$
 
-我们有 $\text{res}_{p, q}(f, g) = (-1)^{pq} \text{res}_{q, p}(g, f)$ (IV, p. 76)；所以证明(35)就足够了。 同样，注 3（前述）表明，如果公式 (35) 对于多项式 $f$ 成立，则它适用于形式 Af 的所有多项式，其中 $A \in A$。 最后，当 f 是次数 p 的 monic 时，公式 (35) 由命题 7 (IV, p. 77) 通过公式 $N_{E/A}(ab) = N_{E/A}(a) \cdot N_{E/A}(b)$ 得出。 In all we conclude that (35) holds when the coefficient $t_p$ of $X^p$ in f is invertible.
+我们有$\text{res}_{p, q}(f, g) = (-1)^{pq} \text{res}_{q, p}(g, f)$（IV，p. 76）；所以证明(35)就足够了。同样，注 3（前述）表明，如果公式 (35) 对于多项式 $f$ 成立，那么它对于形式 Af 的所有多项式都成立，其中 $A \in A$。最后，当 f 是次数 p 的 monic 时，公式 (35) 由命题 7 (IV, p. 77) 得出公式 $N_{E/A}(ab) = N_{E/A}(a) \cdot N_{E/A}(b)$。总之，当 f 中 $X^p$ 的系数 $t_p$ 可逆时，结论 (35) 成立。
 
 #### 引理 5 {#alg-iv-s6-lem-5 .statement tag=06FB}
 
-令t为A的元素。存在交换环C包含A作为子环，C包含A的子环B，C可逆的B的元素$\tau$并且环同态$p : B \to A$使得p到A的$p(\tau) = t$和限制等于Id。
+令t为A的元素。存在交换环C包含A作为子环，子环B的C包含A，元素$\tau$B在 C 和环同态 $p : B \to A$ 中可逆，使得 p 到 A 的 $p(\tau) = t$ 和限制等于 Id。
 
-只需取幺半群$\mathbf{N}$的B代数$A^{(\mathbf{N})}$即可，即一个不定$\tau$中的多项式代数$A[\tau]$，对于群的C代数$A^{(\mathbf{Z})}$ $\mathbf{Z}$ 并将 $A(\tau)$ 的 p 同态 $P \mapsto P(t)$ 代入 A。
+只需取幺半群$\mathbf{N}$的B代数$A^{(\mathbf{N})}$即可，即一个不定$\tau$中的多项式代数$A[\tau]$，对于C代数$A^{(\mathbf{Z})}$ 群 $\mathbf{Z}$ 并将 $A(\tau)$ 的 p 同态 $P \mapsto P(t)$ 代入 A。
 
 记号为引理 5，我们取 t = t_p，让我们把
 $$
 F = \tau X^p + t_{p-1} X^{p-1} + \cdots + t_1 X + t_0
 $$
-在 B[X] 中。 F 中$X^p$的系数在C中可逆；如果我们将 F, g, $g_1$ 视为 C[X] 的多项式，我们有
+在 B[X] 中。 F 中 $X^p$ 的系数在 C 中可逆；如果我们将 F, g, $g_1$ 视为 C[X] 的多项式，我们有
 $$
 \operatorname{res}_{p,q+q_1}(F, gg_1) = \operatorname{res}_{p,q}(F, g) \cdot \operatorname{res}_{p,q_1}(F, g_1)
 $$
@@ -919,11 +919,11 @@ $$
 $$
 \operatorname{res}_{p,q}(f, g) = \lambda^q \mu^p \prod_{\substack{1 \leq i \leq p \\ 1 \leq j \leq q}} (\alpha_i - \beta_j) .
 $$
-断言 (i) 直接从公式 (28)、(32) 和 (36) 得出。现在断言 (ii) 由 (i) 推出。
+断言 (i) 直接从公式 (28)、(32) 和 (36) 得出。现在断言 (ii) 由 (i) 得出。
 
 #### 推论 2 {#alg-iv-s6-lem-5-cor-2 .statement tag=06FD}
 
-— 对于每一个整数 $r \geq 0$ 我们有
+— 对于每个整数 $r \geq 0$，我们有
 $$
 \operatorname{res}_{p,q+r}(f, g) = t_p^r \cdot \operatorname{res}_{p,q}(f, g) .
 $$
@@ -1043,13 +1043,13 @@ $$
 \operatorname{dis}(f) = \Delta(a_1, \ldots, a_m).
 $$
 此外，A 是次数 $\leq 2m-2$，如果我们将权 i 分配给 $A_i$，则 A 是权 $m(m-1)$ 的同量异位。
-a) A 的唯一性 ：如果 A 满足 (48)，我们特别有 $A = \operatorname{dis}(F)$，其中 F 是系数为 $\mathbf{Z}[A_1, \ldots, A_m]$ 的多项式 $X^m + \sum_{i=1}^m A_i X^{m-i}$。
+a) A 的唯一性 ：如果 A 满足 (48)，我们特别有 $A = \operatorname{dis}(F)$，其中 F 是多项式 $X^m + \sum_{i=1}^m A_i X^{m-i}$，其中系数位于 $\mathbf{Z}[A_1, \ldots, A_m]$。
 b) **A* 的存在性：令 $s_1, \ldots, s_m$ 为不定式 $X_1, \ldots, X_m$ 中的初等对称多项式。存在一个多项式 $A \in \mathbf{Z}[A_1, \ldots, A_m]$，等压于权 $m(m-1)$，使得
 $$
 \Delta(-s_1, s_2, \ldots, (-1)^m s_m) = \prod_{i < j} (X_i - X_j)^2;
 $$
 
-右边是一个对称多项式 P，在 $Z[X_1, ..., X_m]$ (IV, p. 62, Th. 1) 中齐次于次数 m(m − 1)。现在公式(46)意味着dis(f)=P(f)，在IV、p. 74的记号中，并且(48)直接由此得出。
+右边是对称多项式 P，在 $Z[X_1, ..., X_m]$ (IV, p. 62, Th. 1) 中齐次于次数 m(m − 1)。现在公式(46)意味着dis(f)=P(f)，在IV、p. 74的记号中，并且(48)直接由此得出。
 
 c) A 的次数：结果 (IV, p. 76) 的关系 (47) 和定义意味着公式
 
@@ -1071,7 +1071,7 @@ $a_{0j} = 0$ 如果$j \neq 0 , \ j \neq m-1$
 
 在这些公式中，$A_i = 1$和$A_i = 0$被理解为$i < 0$或$i > m$。现在 (50) 立即表明 A 是次数 $\leq 2m-2$，正如我们必须证明的那样。
 
-命题 10 允许我们将判别式扩展定义与非单调多项式。令 $m \geq 1$ 为整数，则在 $Z[A_0, A_1, ..., A_m]$ 中存在唯一齐次多项式次数 $2m-2$、$\tilde{\Delta}$，使得
+命题 10 允许我们将判别式扩展定义与非单调多项式。令 $m \geq 1$ 为整数，则在 $Z[A_0, A_1, ..., A_m]$ 中存在唯一的次数 $2m-2$、$\tilde{\Delta}$ 的齐次多项式，使得
 
 $$
 \Delta(A_1, ..., A_r) = \tilde{\Delta}(1, A_1, ..., A_r)
@@ -1083,7 +1083,7 @@ $$
 A_0^{2m-2} \Delta(A_1/A_0, ..., A_m/A_0)
 $$
 
-属于至子环 $Z[A_0, A_1, ..., A_m]$ 共 $Q(A_0, A_1, ..., A_m)$。如果 $A_i$ 对于 $0 \leq i \leq m$ 具有权 i，则 $\tilde{\Delta}$ 是权 $m(m-1)$ 的同量异位素。 Iff 是次数 $\leq m$ 的多项式，例如
+属于至子环 $Z[A_0, A_1, ..., A_m]$ 共 $Q(A_0, A_1, ..., A_m)$。如果 $A_i$ 有权 i 代表 $0 \leq i \leq m$，则 $\tilde{\Delta}$ 是权 $m(m-1)$ 的同量异位素。 Iff 是次数 $\leq m$ 的多项式，例如
 
 $$
 f = a_0 X^m + a_1 X^{m-1} + \cdots + a_{m-1} X + a_m ,
@@ -1109,7 +1109,7 @@ $$
 \operatorname{dis}_m(f) = \lambda^{2m-2} \prod_{i < j} (\alpha_i - \alpha_j)^2 .
 $$
 
-(iii) 令$a_0$为$X^m$在$f$中的系数；那么我们有
+(iii) 令$a_0$为$f$中$X^m$的系数；那么我们有
 
 $$
 \text{res}_{m,m-1}(f, Df) = \text{res}_{m-1,m}(Df, f) = (-1)^{m(m-1)/2} a_0 \text{ dis}_m(f) .
@@ -1117,7 +1117,7 @@ $$
 
 断言 (i) 很清楚。
 
-由于 $\tilde{\Delta}$ 是次数 $2m - 2$ 的齐次，我们有
+由于$\tilde{\Delta}$是次数$2m - 2$的齐次，我们有
 
 $$
 \text{dis}_m(\lambda f) = \lambda^{2m-2} \text{dis}_m(f)
@@ -1141,7 +1141,7 @@ $$
 \text{dis}_{m+n}(fg) = \text{dis}_m(f) \cdot \text{dis}_n(g) \cdot \text{res}_{m,n}(f,g)^2 .
 $$
 
-通过推理为之前，我们被简化为$f$和$g$分别是次数、$m$和$n$的单调。现在输入$B = E_f \otimes E_g$，其中$E_f$（或$E_g$）是$f$（或$g$）的通用分解代数（IV，p. 73）。那么$A$是$B$的子环，并且在$B[X]$中我们有分解
+到推理为之前，我们就被简化为$f$和$g$分别是次数、$m$和$n$的单调。现在输入$B = E_f \otimes E_g$，其中$E_f$（或$E_g$）是$f$（或$g$）的通用分解代数（IV，p. 73）。那么$A$是$B$的子环，在$B[X]$中我们有分解
 
 $$
 f = \prod_{i=1}^m (X - \alpha_i), \quad g = \prod_{j=1}^n (X - \beta_j) .
@@ -1159,11 +1159,11 @@ $$
 \prod_{k < k'} (\gamma_k - \gamma_{k'}) = \prod_{i < i'} (\alpha_i - \alpha_{i'}) \cdot \prod_{j < j'} (\beta_j - \beta_{j'}) \cdot \prod_{i,j} (\alpha_i - \beta_j)
 $$
 
-将关系平方，通过 (40) 和 (46) 得到 (57)。
+通过对关系进行平方，我们可以通过 (40) 和 (46) 得到 (57)。
 
 #### 推论 2 {#alg-iv-s6-prop-11-cor-2 .statement tag=06FJ}
 
-— 如果$a_0$是$X^m$在$f$中的系数，我们有
+— 如果$a_0$是$f$中$X^m$的系数，我们有
 
 $$
 \text{dis}_{m+1}(f) = a_0^2 \text{dis}_m(f)
@@ -1173,7 +1173,7 @@ $$
 
 #### 推论 3 {#alg-iv-s6-prop-11-cor-3 .statement tag=06FK}
 
-— 令 $A$ 为域，并令 $f$ 为 $A[X]$ 中的非常数多项式。为了使$f$和$Df$互质，$\mathrm{dis}(f) \neq 0$是充分必要的。
+— 令$A$为域，并令$f$为$A[X]$的非常数多项式。为了使$f$和$Df$互质，$\mathrm{dis}(f) \neq 0$是充分必要的。
 这是根据第 11 号提案 (iii) 和 Cor. 得出的。 2 个IV、p. 78。
 
 #### 注 {#alg-iv-s6-n7-rem-1 .statement tag=06FL}
@@ -1182,7 +1182,7 @@ Cor 的双重应用。上面的 2 显示，对于次数 $\leq m - 2$ 的每个�
 
 #### 例 3 {#alg-iv-s6-n7-exa-3 .statement tag=06FM}
 
-让$m = 2$。根据示例2 (IV, p. 81)，我们有$\Delta(A_1, A_2) = A_1^2 - 4A_2$，从而 $\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$。在其他字中，我们有
+让$m = 2$。通过示例2（IV，p. 81），我们有$\Delta(A_1, A_2) = A_1^2 - 4A_2$，从而$\tilde{\Delta}(A_0, A_1, A_2) = A_1^2 - 4A_0A_2$。在其他字中，我们有
 $$
 \mathrm{dis}_2(a_0X^2 + a_1X + a_2) = a_1^2 - 4a_0a_2 .
 $$
@@ -1193,7 +1193,7 @@ $$
 $$
 F = A_0X^3 + 3A_1X^2 + 3A_2X + A,
 $$
-系数为 $Q[A_0, A_1, A_2, A_3]$。我们有
+$Q[A_0, A_1, A_2, A_3]$ 中有系数。我们有
 $$
 DF = 3(A_0X^2 + 2A_1X + A_2) ,
 $$
@@ -1208,7 +1208,7 @@ $$
 $$
 \mathrm{dis}_3(F) = - 27 \mathrm{res}_{2,2}(A_0X^2 + 2A_1X + A_2,\ A_1X^2 + 2A_2X + A_3) .
 $$
-到例 3 of IV, p. 80 我们因此有
+到例 3 of IV, p. 80 我们有
 $$
 \tilde{\Delta}(A_0, 3A_1, 3A_2, A_3) = - 27 (A_0A_3 - A_1A_2)^2 - 108 (A_1A_3 - A_2^2)(A_1^2 - A_0A_2) .
 $$

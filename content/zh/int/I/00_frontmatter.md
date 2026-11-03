@@ -21,16 +21,16 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 8e30353d8f396e9b0cde8ea49c650506585c76d878f18875d1b078b39b85e51a
+content_sha256: db8372a99b6ddfb41f9565353c2f5134fb26a3abf3be4efc0cd8a45ed80d8f2c
 translated_from: content/en/int/I/00_frontmatter.md
 translation_method: google
 source_content_sha256: f9fb1f9ad9415bc967e08205858a5af5eecf03e7f2b0b9123eb6a2caf75a5af8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ac3540840cc1cb0421105095ec958e436783d536bf45fec779d6716c610d3236
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 章 I
@@ -47,7 +47,7 @@ $2^\circ$$M$在P中是递增，在其他字关系$f \leqslant g$意味着$M(f) \
 
 $3^\circ$$M$在P中是凸的，在其他字（TVS，II, §2, No. 8）满足关系$M(f + g) \leqslant M(f) + M(g)$。
 
-*例.* — 假设X是有限的集合，对于例，$[1, n]$为$\mathbf{N}$；用 $x_i$ ($1 \leqslant i \leqslant n$) 表示向量 $\mathbf{x} \in \mathbf{R}^n$、函数的坐标
+*例.* — 假设X是有限的集合，例如区间$[1, n]$等于$\mathbf{N}$；用 $x_i$ ($1 \leqslant i \leqslant n$) 表示向量 $\mathbf{x} \in \mathbf{R}^n$、函数的坐标
 $$
 M_1(\mathbf{x}) = \sum_{i=1}^n x_i \quad \text{and} \quad M_\infty(\mathbf{x}) = \sup_{1 \leqslant i \leqslant n} x_i
 $$
@@ -117,13 +117,13 @@ $$
 
 （*霍尔德的不等式*）。
 
-By Prop. 1, it all comes down to proving that, in $\mathbf{R}^2$, the set defined by the relations $t_1 \geq 0$, $t_2 \geq 0$, $t_1^\alpha t_2^\beta \geq 1$ is convex, or again (FRV, I, §4, No. 1, Def. 1) that the function $u(t) = t^{-\alpha/\beta}$ is convex for $0 < t < +\infty$. 现在，设定$r = \alpha/\beta$，我们有$D^2 u(t) = r(r+1)t^{-r-2}$，并且从$r > 0$开始，$]0, +\infty[$上有$D^2 u(t) > 0$，这证明了命题（FRV，I, §4, No. 4，Prop.8的Cor.）。
+根据命题 1，一切都归结为证明，在 $\mathbf{R}^2$ 中，由关系 $t_1 \geq 0$、$t_2 \geq 0$、$t_1^\alpha t_2^\beta \geq 1$ 定义的集合是凸的，或者再次证明（FRV、I, §4, No. 1、Def.1）函数 $u(t) = t^{-\alpha/\beta}$ 对于 $0 < t < +\infty$ 是凸的。 现在，设定$r = \alpha/\beta$，我们有$D^2 u(t) = r(r+1)t^{-r-2}$，并且从$r > 0$开始，$]0, +\infty[$上有$D^2 u(t) > 0$，这证明了命题（FRV，I, §4, No. 4，Prop.8的Cor.）。
 
 推论。 — *令 $\alpha_i$ ($1 \leq i \leq n$) 为 $n$ 数 $\geq 0$ 这样*
 $$
 \sum_{i=1}^n \alpha_i = 1,
 $$
-*并令$f_i$ ($1 \leq i \leq n$) 为定义在$X$上的$n$ 函数 $\geq 0$，使得$M(f_i)$ 对于$1 \leq i \leq n$ 是有限的。在这些条件下，*
+*并令$f_i$ ($1 \leq i \leq n$) 为$n$ 函数 $\geq 0$ 定义在$X$ 上，使得$M(f_i)$ 对于$1 \leq i \leq n$ 是有限的。在这些条件下，*
 
 $$
 M(f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}) \leq (M(f_1))^{\alpha_1} (M(f_2))^{\alpha_2} \cdots (M(f_n))^{\alpha_n}.
@@ -183,9 +183,9 @@ $$
 
 推论。 — *假设* $M(1) = 1$； *然后，对于每个有限数值函数* $f$ *定义在* $X$，*映射* $p \mapsto N_p(f)$ *是递增在* $]0, +\infty[$。
 
-应用不等式 (9) 对于$g = 1$的情况，我们看到对于所有$q > 0$都有$N_r(f) \leq N_p(f)$；由于由$1/r = 1/p + 1/q$定义的数$r$会越过数的集合，因此当$q$会越过数$> 0$的集合时，$0 < r < p$，推论得证。
+应用不等式 (9) 对于$g = 1$的情况，我们看到对于所有$q > 0$都有$N_r(f) \leq N_p(f)$；因为由$1/r = 1/p + 1/q$定义的数$r$运行在数的集合上，因此当$q$运行在数$> 0$的集合上时，$0 < r < p$就证明了推论。
 
-命题 5. — *对于每个有限数值函数* $f$ *定义在* $X$、*集合* $I$ *的值的* $1/p$ ($p > 0$) *这样* $N_p(f)$ *是有限要么是空要么是一个区间；如果* $I$ *不减少到点，则映射* $\alpha \mapsto \log N_{1/\alpha}(f)$ *要么在* $I$ *上凸，要么等于* $-\infty$ *在* $I$的内部。
+命题 5. — *对于每个有限数值函数* $f$ *定义在* $X$、*集合* $I$ *的值的* $1/p$ ($p > 0$) *这样* $N_p(f)$ *是有限要么为空，要么为区间；如果* $I$ *不减少到点，则映射* $\alpha \mapsto \log N_{1/\alpha}(f)$ *要么在* $I$ *上凸，要么等于* $-\infty$ *在* $I$的内部。
 
 令$r$和$s$是两个不同的数$> 0$，使得$1/r$和$1/s$属于到$I$；这一切都归结为证明如果
 
@@ -221,9 +221,9 @@ $$
 
 习题
 
-1) 根据No. 1的假设，证明X上有界函数的集合使得$M(|f|)$是有限的，是$\mathbf{R}^X$的子代数A，并且在函数上有界函数的集合 X使得$M(|f|) = 0$是A中的理想。此外，如果$M(1)$是有限的，则证明当A在X中配备一致收敛的拓扑时，映射$f \mapsto M(f)$是连续的。
+1) 根据No. 1的假设，证明X上有界函数的集合使得$M(|f|)$是有限的，是$\mathbf{R}^X$的子代数A，并且在函数上有界函数的集合 X 使得 $M(|f|) = 0$ 是 A 中的理想。此外，如果 $M(1)$ 是有限的，则证明当 A 在 X 中具备一致收敛的拓扑时，映射 $f \mapsto M(f)$ 是连续的。
 
-2) 令X为$\mathbf{R}$的区间$[0, +\infty[$，S由在X上定义的函数形成的凸锥体，使得$0 \leq f(x) \leq kx$在X上（对于有限的数$k > 0$，取决于$f$）。 集合$M(f) = 0$对于$f \in S$，以及$M(f) = +\infty$对于每个正函数$f$定义在X而不是属于到S。证明$M$满足条件 No. 1，以及$M(x) = 0$和$M(x^r) = +\infty$，对于每个数$r > 0$不等于1。
+2) 设X为$\mathbf{R}$的区间$[0, +\infty[$，S由在X上定义的函数形成的凸锥体，使得$0 \leq f(x) \leq kx$在X上（对于有限的数$k > 0$，取决于$f$）。 集合$M(f) = 0$对于$f \in S$，以及$M(f) = +\infty$对于每个正函数$f$定义在X而不是属于到S。证明$M$满足条件 No. 1，以及$M(x) = 0$和$M(x^r) = +\infty$，对于每个数$r > 0$不等于1。
 
 3）给出例，其中X是集合，有两个元素，$N_p(\mathbf{x})$对于每个$p > 0$和每个$\mathbf{x} \in \mathbf{R}^2$都是有限的，但是如果存在$p$的值使得映射$p \mapsto N_p(\mathbf{x})$在这些点处不可微分。
 

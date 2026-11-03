@@ -13,16 +13,16 @@ pdf_pages: 0375-0378
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a9e8d258324b6e5d3c7503548fddd116fb74498464031ee4674a24cd9d13e361
+content_sha256: ec19296ea2256fb6b333634c650609819e0b015b99839c2eec200eb84ca649f4
 translated_from: content/en/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md
 translation_method: google
 source_content_sha256: de7dfd40c6cfa021011ad6534250a579d1efe1882e81ad993bcb4259f6eb1c68
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e4ed284e58b906f07b2b0b07337d8624f58f9c7607c88ade7d8cf660a8568982
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 5. 等价关系和商集
@@ -67,14 +67,14 @@ $R\{x,y\}$。
 
 7. 设$P\{x,y,z\}$为关系，其中出现E的泛型元素$x$。则称P与等价关系*R*相容的*（在$x$中）*与等价关系*R，如果关系“$P\{x,y,z\}$和$x \equiv x'$（mod R）”*意味着* $P\{x',y,z\}$。
 
-令$f$为E到E/R的典范映射，并令$t$为E/R的泛型元素。 关系“存在$x \in f^{-1}(t)$使得$P\{x,y,z\}$”相当于“对于所有$x \in f^{-1}(t)$，$P\{x,y,z\}$”；后者是 $t$、$y$、$z$ 之间的关系，据说是由 P *在经过上“诱导”得到商*（相对于 $x$）。如果我们用$P'\{t,y,z\}$表示，那么$P\{x,y,z\}$就相当于$P'\{f(x),y,z\}$。
+令$f$为E到E/R的典范映射，并令$t$为E/R的泛型元素。 关系“存在$x \in f^{-1}(t)$使得$P\{x,y,z\}$”相当于“对于所有$x \in f^{-1}(t)$，$P\{x,y,z\}$”；后者是$t$、$y$、$z$之间的关系，据说是由P *在经过到商*（相对于$x$）*诱导的。如果我们用$P'\{t,y,z\}$表示，那么$P\{x,y,z\}$就相当于$P'\{f(x),y,z\}$。
 
-对于涉及任何数参数的关系，以及关系在 *几个* 参数中与 R 兼容的情况，都有类似的定义。对于例，如果A是E的子集，则说关系“$x \in A$”与R兼容（在$x$中）相当于说，A相对于R是饱和的。如果$\varphi$是E的映射， 集合 F，说泛函关系“$y=\varphi(x)$”与 R 相容的（在 $x$ 中），就是说 $\varphi$ 在每个等价类上相对于 R 是恒定的。 经过为商，R 因此诱导关系之间$y$ 和 E/R 的通用元素 $t$；这个关系在$y$中起作用，因此E/R的确定映射$\varphi'$进入F，满足身份$\varphi(x)=\varphi'(f(x))$。
+对于涉及任何数参数的关系，以及关系在 *几个* 参数中与 R 兼容的情况，都有类似的定义。例如，如果A是E的子集，则说关系“$x \in A$”与R兼容（在$x$中），则相当于说，A相对于R是饱和的。如果$\varphi$是E的映射到集合F，则可以说泛函关系 “$y=\varphi(x)$” 与 R 相容的（在 $x$ 中），就是说 $\varphi$ 在每个等价类上相对于 R 是恒定的。 经过到商，R 因此诱导关系在 $y$ 和 a 之间E/R 的通用元素 $t$；这个关系在$y$中起作用，因此E/R的确定映射$\varphi'$进入F，满足身份$\varphi(x)=\varphi'(f(x))$。
 
-8. 设 R 为集合 E 上的等价关系，设 S 为集合 F 上的等价关系，并设 $f$ 为 E 到 F 的映射。 如果关系，映射 $f$ 被认为与 R 和 S* 相容的$x \equiv x'$ (mod R) *意味着* $f(x) \equiv f(x')$ (mod S)。如果$g$是F到F/S上的典范映射，则复合函数$g \circ f$对于R而言在等价类$z$的所有元素具有相同的值；如果我们用$h(z)$表示这个公共的值，那么$h$是E/R到F/S的映射，并且据说是*由f在经过上引出的商*。
+8. 设 R 为集合 E 上的等价关系，设 S 为集合 F 上的等价关系，并设 $f$ 为 E 到 F 的映射。 如果关系，映射 $f$ 被认为与 R 和 S* 相容的$x \equiv x'$ (mod R) *意味着* $f(x) \equiv f(x')$ (mod S)。如果$g$是F到F/S上的典范映射，则复合函数$g \circ f$对于R而言在等价类$z$的所有元素具有相同的值；如果我们用$h(z)$表示这个公共的值，那么$h$是E/R到F/S的映射，并且据说是由f在经过到商*诱导的。
 
-9. 令 E 上的 R 为等价关系，并令 E/R 上的 S 为等价关系。如果$f$是E到E/R的典范映射，则“$f(x)\equiv f(y)\pmod S$”是E上的等价关系T。因此，相对于T的等价类相对于R是等价类的E中的并，它们相对于S彼此相等； 关系“$x\equiv y\pmod R$”意味着“$x\equiv y\pmod T$”。如果$g$和$\varphi$分别是$E$的典范映射到$E/R$和$E/T$，我们通过以下方式获得$(E/R)/S$和$E/T$之间的一对一的对应（称为规范） $(E/R)/S$的元素和$E/T$对应的元素彼此，如果它们分别是$g$和$\varphi$下E的相同元素的像。
+9. 令 R 为 E 上的等价关系，并令 S 为 E/R 上的等价关系。如果$f$是E到E/R上的典范映射，则“$f(x)\equiv f(y)\pmod S$”是E上的等价关系T。因此，相对于T的等价类相对于R是等价类的E中的并，它们相对于S彼此相等； 关系“$x\equiv y\pmod R$”意味着“$x\equiv y\pmod T$”。如果$g$和$\varphi$分别是$E$的典范映射到$E/R$和$E/T$，我们通过以下方式获得$(E/R)/S$和$E/T$之间的一对一的对应（称为规范） $(E/R)/S$的元素和$E/T$对应的元素彼此，如果它们分别是$g$和$\varphi$下E的相同元素的像。
 
-相反，让 R 和 T 是 E 上的两个等价关系，这样“$x\equiv y\pmod R$”意味着“$x\equiv y\pmod T$”。那么 T 在 x 和 y 上都与 R 相容的（在no. 7的意义上）；通过经过商 $E/R$（相对于 x 和 y），T 诱导等价关系 S 在 $E/R$ 上。如果$\varphi$再次将E的典范映射表示到$E/R$上，则关系“$\varphi(x)=\varphi(y)\pmod S$”相当于“$x\equiv y\pmod T$”。 等价关系 S称为T与R的商，记为T/R。从上一段我们看到，$(E/R)/(T/R)$和$E/T$之间存在一对一的对应（规范的对应）。
+相反，让 R 和 T 是 E 上的两个等价关系，这样“$x\equiv y\pmod R$”意味着“$x\equiv y\pmod T$”。那么 T 在 x 和 y 上都与 R 相容的（在 no. 7 的意义上）；由经过到商 $E/R$（相对于 x 和 y），T 诱导等价关系 S 在 $E/R$ 上。如果$\varphi$再次将E的典范映射表示到$E/R$上，则关系“$\varphi(x)=\varphi(y)\pmod S$”相当于“$x\equiv y\pmod T$”。 等价关系 S 用 R 称为 T 的商，记为 T/R。从上一段我们看到，$(E/R)/(T/R)$和$E/T$之间存在一对一的对应（规范的对应）。
 
-10. 现在令 E、F 为任意两个集合，它们可能不同，也可能不同。设E上的$\{x, y\}$为等价关系，F上的$\{z, t\}$为等价关系。然后关系$\{x, y\}\times\{z, t\}$在元素$(x,z)$和$(y,t)$之间乘积集合 $E\times F$是$E\times F$上的等价关系，用S称为R的乘积，记为$R\times S$。每个$R\times S$的等价类对于R来说是等价类的乘积，对于S来说是等价类。如果u表示$E/R$的泛型元素，而v表示$F/S$的泛型元素，则$(u,v)\mapsto u\times v$ 是 $(E/R)\times(F/S)$ 到 $(E\times F)/(R\times S)$ 的双射（称为规范）。
+10. 现在令 E、F 为任意两个集合，它们可能不同，也可能不同。设E上的$\{x, y\}$为等价关系，F上的$\{z, t\}$为等价关系。则乘积集合$E\times F$的元素$(x,z)$与$(y,t)$之间的关系$\{x, y\}\times\{z, t\}$为$E\times F$上的等价关系，用S称为R的乘积，记为$R\times S$。对于$R\times S$，每个等价类对于R来说是等价类的乘积，对于S来说是等价类。如果u表示$E/R$的泛型元素，而v表示$F/S$的泛型元素，则$(u,v)\mapsto u\times v$ 是$(E/R)\times(F/S)$ 到$(E\times F)/(R\times S)$ 的双射（称为规范）。

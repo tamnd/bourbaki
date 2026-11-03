@@ -29,21 +29,21 @@ subsections:
       pdf_page: 425
 statements: 11
 exercises: 2
-content_sha256: 39e4148374e1cd42b59e94428c507d5c064acc378a7202af90d38f5f818bd57e
+content_sha256: 83ada07c3c20ab0a84a219a7938919f863394c550626014dc40cea0c5afb29ac
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
 translation_method: google
 source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 934cddf20bd4feaa591eccccb7c1d23ff83c2f3017f7c02182ff346669e5245e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 6. 绝对值
 
-### 1. 绝对值的初步介绍
+### 1. 绝对值的预赛
 
 设$K$为域（可交换或不可交换）。回想一下（一般拓扑、章 IX, § 3, no. 2、定义 2），$K$ 上的绝对值是从 $K$ 到 $\mathbf{R}_+$ 满足的任何映射 $f$ 以下公理：
 
@@ -64,7 +64,7 @@ $$
 
 我们用映射$f$的$\mathscr{V}(K)$集合表示，从$K$到$\mathbf{R}_+$满足（VAI）和（VAII），并且存在$A > 0$（取决于$f$），使得$(\mathrm{U}_A)$成立。
 
-注当且仅当$\in \mathscr{V}(K)$，然后将$x = 1, y = 0$放入$(\mathrm{U}_A)$，
+请注意，当且仅当$\in \mathscr{V}(K)$时，然后将$x = 1, y = 0$放入$(\mathrm{U}_A)$中，
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
@@ -73,7 +73,7 @@ $$
 
 对于从$K$到$\mathbf{R}$、满足(VA,)和(VAII)到属于到$\mathscr{V}(K)$的映射$f$，$f(1 + x)$以$x \in K$的集合为界是充分必要的这样$f(x) \leq 1$。
 
-如果$f$满足$(\mathbf{U}_A)$，则$f(1 + x) \leq A$如果$f(x) \leq 1$。相反，假设 $f(x + 1) \leq A$ 对于 $x \in K$ 使得 $f(x) \leq 1$ （这意味着 $A \geq f(1) = 1$）；那么，如果$x = 0$或$y = 0$，满足条件$(\mathbf{U}_A)$；另一方面，如果$x \neq 0$和$y \neq 0$，我们可以假设例为$f(y) \leq f(x)$，因此，通过$(\mathbf{VA}_s)$，$f(yx^{-1}) \leq 1$，因此$f(1 + yx^{-1}) \leq A$，根据$(\mathbf{VA}_{II})$，$f(x + y)f(x)^{-1} \leq A$给出； 从而
+如果$f$满足$(\mathbf{U}_A)$，则$f(1 + x) \leq A$如果$f(x) \leq 1$。相反，假设 $f(x + 1) \leq A$ 对于 $x \in K$ 使得 $f(x) \leq 1$ （这意味着 $A \geq f(1) = 1$）；那么，如果$x = 0$或$y = 0$，满足条件$(\mathbf{U}_A)$；另一方面，如果$x \neq 0$和$y \neq 0$，我们可以假设$f(y) \leq f(x)$，因此，通过$(\mathbf{VA}_s)$，$f(yx^{-1}) \leq 1$，因此$f(1 + yx^{-1}) \leq A$，根据$(\mathbf{VA}_{II})$，$f(x + y)f(x)^{-1} \leq A$给出； 从而
 
 $$
 f(x + y) \leq Af(x) \leq A \sup(f(x), f(y)).
@@ -127,16 +127,16 @@ $$
 
 对于$K$到$\mathbf{R}_+$到属于到$\mathscr{V}(K)$的映射$f$来说，它是形式$g^t$是充分必要的，其中$t > 0$和$g$是值的绝对值 $K$。
 
-说$f$满足$(\mathbf{U}_A)$相当于说$f^s$满足$(\mathbf{U}_{A^s})$；由于存在$s > 0$使得$A^s \leq 2$，推论1表明对于$s$这样的值，$f^s$是绝对的值。
+说$f$满足$(\mathbf{U}_A)$相当于说$f^s$满足$(\mathbf{U}_{A^s})$；因为存在$s > 0$使得$A^s \leq 2$，推论1表明对于$s$这样的值，$f^s$是绝对的值。
 
-### 2. 绝对超距值
+### 2. 超量绝对值值
 
-$K$到$\mathbf{R}_+$的映射$f$被称为超量绝对值，如果它满足条件$(\mathrm{VA}_I)$，$(\mathrm{VA}_{II})$和$(\mathrm{U},)$（这显然意味着$f$是绝对值）。
+$K$ 到 $\mathbf{R}_+$ 的映射 $f$ 称为超量绝对值，如果它满足条件 $(\mathrm{VA}_I)$、$(\mathrm{VA}_{II})$ 和 $(\mathrm{U},)$（这显然意味着 $f$ 是绝对值） 值）。
 
 #### 命题 3 {#ac-vi-s6-prop-3 .statement tag=04VE}
 
 设$f$为$K$到$\mathbf{R}_+$中的映射。以下属性是等效的：
-(a) $f$ 是超量绝对值。
+(a) $f$ 是超量绝对值值。
 (b) $K$ 存在估价$v$，$\mathbf{R}$ 中有值，实数 $a$，使得$0 < a < 1$ 和$f = a''$。
 (c) 每整数 $n > 0$ $f$ 属于至 $\mathscr{V}(K)$ 和 $f(n.1) \leq 1$。
 (d) 对于所有 $s > 0$，$f^s$ 是绝对的值。
@@ -145,9 +145,9 @@ $K$到$\mathbf{R}_+$的映射$f$被称为超量绝对值，如果它满足条件
 $$
 (f(n.1))^s \leq 1 \leq n
 $$
-对于no. 1中的每个整数$n > 0$和命题2，表明$f''$是绝对的值。最后 (d) 意味着 (a)：对于 iff” 是绝对值，它满足 $(\mathbf{U}_2)$，因此 $f$ 对于所有 $s > 0$ 满足 $(\mathbf{U}_{2^{1/s}})$，因此也满足 $(\mathbf{U}_1)$，让 $s$ 趋于 $+\infty$。
+对于no. 1中的每个整数$n > 0$和命题2，表明$f''$是绝对的值。最后 (d) 意味着 (a)：对于 iff” 是绝对的值，它满足$(\mathbf{U}_2)$，因此$f$对于所有$s > 0$满足$(\mathbf{U}_{2^{1/s}})$，因此也满足$(\mathbf{U}_1)$，让$s$趋于$+\infty$。
 
-#### 推出{#ac-vi-s6-n2-cor-1 .statement tag=04VF}
+#### 推出 {#ac-vi-s6-n2-cor-1 .statement tag=04VF}
 
 如果$K$是特征$p > 0$的（不一定可交换的）域，则$\mathscr{V}(K)$上的每个函数都是超度量绝对值。
 
@@ -159,7 +159,7 @@ f(x) = c^{v(x)}, \quad v(x) = \log, f(x)
 $$
 因此，在$K$上的超测量绝对值和$K$与实际值的估值之间建立一对一的对应。不正确的估值对应到不正确的绝对值（一般拓扑、章IX, § 3, no. 2）。令$v_1, v_2$为$K$的两个估值，真实值和$f_1, f_2$相应的绝对值；为了使$v_1$和$v_2$等价，$f_1$和$f_2$是等价的：$v_1$和$v_2$相当于说，关系$v_1(x) \geq 0$和$v_2(x) \geq 0$是等价的，或者关系$f_1(x) \leq 1$和$f_2(x) \leq 1$是等价的；因此，满足*常规拓扑*、章 IX, § 3, no. 2 中的应用命题 5 即可。此外（*loc.cit.*）为了使$f_1$和$f_2$在K上定义的拓扑相同，$f_1$和$f_2$等效是充分必要的。
 
-### 3. Q 上绝对值
+### 3. Q 上的绝对值
 
 #### 命题 4 {#ac-vi-s6-prop-4 .statement tag=04VG}
 
@@ -175,7 +175,7 @@ $$
 
 首先假设每个整数$n > 0$对应$f(n) \leq 1$。到 no. 2 的命题 3 时，存在实数 $b$ 以及$\mathbf{Q}$ 的估值$v$，使得$0 < b < 1$ 和$f = b^v$。现在，我们知道（§ 3, no. 4，*例 4*）$\mathbf{Q}$上唯一的估值是（最多等价）不正确的估值和$p$-adic估值$v_p$；因此，我们有情况 (i) 或情况 (ii)。
 
-假设从现在开始存在整数$h > 0$使得$f(h) > 1$；由no. 1，推论2到命题2，存在数$\rho > 0$，使得$f^\rho$是绝对的值；让我们写
+假设从现在开始存在整数$h > 0$使得$f(h) > 1$；由no. 1、推论 2 到命题 2，存在数 $\rho > 0$，使得$f^\rho$ 是绝对值；让我们写
 
 $$
 g(x) = \rho \log(f(x))/\log|x|
@@ -222,7 +222,7 @@ $$
 
 然后，对于任何至少等于 2 的整数 $a, b$，$g(a) \leq g(b)$ 以及$g(a) = g(b)$，交换$a$ 和 $b$ 的角色。在其他字中，存在一个常数$\lambda$，使得每个整数$a \geq 2$都有$g(a) = A$；如果我们写 $s = \lambda / \rho$，那么对于每个整数 $a \geq 2$ 来说，$f(a) = |a|^s$。作为$f(xy) = f(x)f(y)$和$f(-x) = f(x)$，$f(x) = |x|^s$适用于所有$x \in Q$。最后，如果$0 < s \leq 1$，我们知道$x \mapsto |x|^s$是绝对的值（一般拓扑、章IX, § 3, no. 2）；反之，如果$s$使得$x \mapsto |x|^s$是$Q$上的绝对值，则$(1 + 1)^s \leq 1^s + 1^s$，即$2^s \leq 2$、从而$s \leq 1$。
 
-### 4. 结构的域与非超距绝对值值
+### 4. 结构的域以及非超量度绝对值值
 
 #### 定理 1（盖尔范德-马祖尔）{#ac-vi-s6-thm-1 .statement tag=04VH}
 
@@ -241,9 +241,9 @@ $$
 F(z) = (\sigma(z))^{-1}(x(\sigma(z))^{-1} - 1)^{-1}.
 $$
 
-但是，随着$z$在$\mathbf{C}$中趋于无穷大，$(\sigma(z))^{-1} = \sigma(z^{-1})$趋于0，可以看出$F(z)$趋于0；在其他字中，$z \mapsto \|F(z)\|$是$\mathbf{C}$上的连续实值函数、$\geq 0$，在点无穷大处趋于0，因此可以将其视为通过邻接获得的紧凑空间$\tilde{C}$上的连续函数到无穷远$C$点。因此，$C$上$\| F \|$的最小上界$a$是有限的，并且复数$z$的$> 0$和集合$P$，使得$\| F(z) \| = a$是封闭且非空的（*一般拓扑*、章 IV, § 6, no. 1、定理 1)。
+但是，随着$z$在$\mathbf{C}$中趋于无穷大，$(\sigma(z))^{-1} = \sigma(z^{-1})$趋于0，可以看出$F(z)$趋于0；在其他字中，$z \mapsto \|F(z)\|$是$\mathbf{C}$上的连续实值函数、$\geq 0$，在点无穷大处趋向于0，因此可以将其视为通过邻接获得的紧凑空间$\tilde{C}$上的连续函数到无穷远$C$点。因此，$C$上$\| F \|$的最小上界$a$是有限的，并且复数$z$的$> 0$和集合$P$，使得$\| F(z) \| = a$是封闭且非空的（*一般拓扑*、章 IV, § 6, no. 1、定理 1)。
 
-令 $z \in P$；让我们写出$y = x - \sigma(z)$，并让$t$为复数$\neq 0$，这样$\| \sigma(t) \| < \alpha^{-1}$，从而$\| \sigma(t) \cdot y^{-1} \| < 1$除以$a$的定义。因此，$(\sigma(t) y^{-1})^n$的序列和$n(\sigma(t) y^{-1})^n$在$K$中趋于0，就像$n$趋于$+\infty$一样，$R$中范数的相应的序列也是如此。另一方面注对于每个多项式 $H(T) = \prod_{k=1}^p (T - \sigma(c_k))$，其中 $c_k$ 不同复数，在有理数函数的域 $K(T)$ 中
+令 $z \in P$；让我们写出$y = x - \sigma(z)$，并让$t$为复数$\neq 0$，这样$\| \sigma(t) \| < \alpha^{-1}$，从而$\| \sigma(t) \cdot y^{-1} \| < 1$除以$a$的定义。因此，$(\sigma(t) y^{-1})^n$的序列和$n(\sigma(t) y^{-1})^n$在$K$中趋于0，就像$n$趋于$+\infty$一样，$R$中范数的相应的序列也是如此。另一方面，请注意，对于每个多项式 $H(T) = \prod_{k=1}^p (T - \sigma(c_k))$，其中 $c_k$ 与复数不同，在有理数函数的域 $K(T)$ 中
 
 $$
 \frac{H'(T)}{H(T)} = \sum_{k=1}^p \frac{1}{T - \sigma(c_k)}
@@ -255,7 +255,7 @@ $$
 H(T) = T^n - (\sigma(t))^n = \prod_{k=0}^{n-1} (T - \sigma(\omega_n^k t)),
 $$
 
-其中 $\omega_n = \exp(2\pi i / n)$，并替换为 $T$ 元素 $y \in K$，这与所有 $\sigma(\omega_n^k t)$ 不同。由此可见（在交换域$K$）
+其中 $\omega_n = \exp(2\pi i / n)$，并替换为 $T$ 元素 $y \in K$，这与所有 $\sigma(\omega_n^k t)$ 不同。由此可见（在交换域$K$中）
 
 $$
 \frac{ny^{n-1}}{y^n - (\sigma(t))^n} = \frac{1}{y - \sigma(t)} + \sum_{k=1}^{n-1} \frac{1}{y - \sigma(\omega_n^k t)}.
@@ -270,7 +270,7 @@ F(z + t) + \sum_{k=1}^{n-1} F(z + \omega_n^k t) - nF(z) \\
 \end{align}
 $$
 
-但凭借上述$t$和注的选择，(7)中的最后一个表达式趋于0，因为$n$趋于$+\infty$；因此
+但凭借上述$t$和注的选择，(7)中最后一个表达式趋于0，因为$n$趋于$+\infty$；因此
 
 $$
 \| F(z + t) \| = \lim_{n \to +\infty} \| nF(z) - \sum_{k=1}^{n-1} F(z + \omega_n^k t) \|.
@@ -315,13 +315,13 @@ $$
 
 将应用这个引理与$m = 2$对应到K，可以看出K是有限秩的R的非交换扩张域，因此同构于四元数$\mathbf{H}$的域（代数，章） VIII, § 11, no. 2、定理2)。
 
-注 (1) 我们将在章中给出范数代数的 Gelfand-Mazur 定理的较短证明，它对于 R 上的每个 Hausdorff 局部凸拓扑代数 K 有效，并且其原理如下：它被减少（如情况 (B)）和(C))对于K是交换代数大于$\mathbf{C}$的情况；如果$x \in \mathbf{K} - \mathbf{C}.1$，我们考虑如上$\mathbf{C}$到K的映射$z \mapsto (x - z.1)^{-1}$，它在$\mathbf{C}$上连续且可微。对于局部凸空间 K 的对偶 $\mathbf{K}'$ 的每个元素 $x'$，$z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ 是 $\mathbf{C}$ 上的有界积分函数，因此由刘维尔定理和我们结论恒定，如部分 (A) 定理 1 的证明，这对于所有$z \in \mathbf{C}$和所有$x' \in \mathbf{K}'$必然意味着$\langle (x - z.1)^{-1}, x' \rangle = 0$； Hahn-Banach 定理表明这个结论是荒谬的，因为$(x - z.1)^{-1} \neq 0$。 注定理 1 的证明部分 (A) 中的论证仅在外观上与上述不同，因为该论证只是用于证明解析函数的最大原理的特例，即对根的求和单位元和经过到极限相当于计算沿中心0的圆的积分$\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$，并且由于函数F的特殊形式，这里避免使用柯西公式。
+注 (1) 我们将在章中给出范数代数的 Gelfand-Mazur 定理的较短证明，它对于 R 上的每个 Hausdorff 局部凸拓扑代数 K 有效，并且其原理如下：它被减少（如情况 (B)）和(C))对于K是交换代数大于$\mathbf{C}$的情况；如果$x \in \mathbf{K} - \mathbf{C}.1$，我们考虑如上$\mathbf{C}$到K的映射$z \mapsto (x - z.1)^{-1}$，它在$\mathbf{C}$上连续且可微。对于局部凸空间 K 的对偶 $\mathbf{K}'$ 的每个元素 $x'$，$z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ 是 $\mathbf{C}$ 上的有界积分函数，因此由刘维尔定理和我们结论恒定，如部分 (A) 定理 1 的证明，这对于所有$z \in \mathbf{C}$和所有$x' \in \mathbf{K}'$必然意味着$\langle (x - z.1)^{-1}, x' \rangle = 0$； Hahn-Banach 定理表明这个结论是荒谬的，因为$(x - z.1)^{-1} \neq 0$。请注意，定理 1 的证明的部分 (A) 中的论证仅在外观上与上述不同，因为该论证只是用于证明解析函数的最大原理、单位元的根的和以及的特例。 经过到极限相当于计算沿中心0的圆的积分$\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$，并且由于函数F的特殊形式，这里避免使用柯西公式。
 
 #### 定理 2（奥斯特洛夫斯基）{#ac-vi-s6-thm-2 .statement tag=04VJ}
 
 设 K 为 a（不一定可交换）域和 f 元素 $\mathscr{V}(K)$，它不是超度量绝对值。那么存在唯一的 K 的实数 $s > 0$ 和同构 j 到域 $\mathbf{R}, \mathbf{C}$ 或 $\mathbf{H}$ 之一的处处稠密子域，使得$f(x) = |j(x)|^s$ 对于所有$x \in K$ (*)。要使 f 成为 K 上的绝对值，$s \leq 1$ 是充分必要的。
 
-根据 no. 2，推论命题 3，K 的特征为 0，因此代数大于 $\mathbf{Q}$；对于所有$x \in \mathbf{Q}$，我们写为$h(x) = f(x.1)$；显然$h \in \mathscr{V}(\mathbf{Q})$，因此可以应用no. 3中的命题 4；这个命题的叙述的情况 (i) 和 (ii) 都不成立，因为这意味着对于每个整数 $n > 0$ 都有 $f(n.1) \leq 1$，并且 f 将是超度量绝对值
+从no. 2、推论到命题3，K的特征为0，因此代数超过$\mathbf{Q}$；对于所有$x \in \mathbf{Q}$，我们写为$h(x) = f(x.1)$；显然$h \in \mathscr{V}(\mathbf{Q})$，因此可以应用no. 3中的命题 4；这个命题的叙述的情况 (i) 和 (ii) 都不成立，因为这意味着对于每个整数 $n > 0$ 都有 $f(n.1) \leq 1$，并且 f 将是超度量绝对值
 
 (*) 在 $\mathbf{H}$ 上我们写 $|z|^2 = z.\bar{z} = \bar{z}.z$，$\bar{z}$ 是 $z$ 的共轭四元数。
 
@@ -337,11 +337,11 @@ no. 2, 命题 3. 则存在实数 s > 0，对于所有 x ∈ Q，h(x) = |x|^s，�
 
 返回定理 2 的证明，可以看出，如果j 表示f 到K 的限制，则j 是K 的同构到R、C 或H 的处处稠密子域，且g(x) = |j(x)|对于 x ∈ K，从而 f(x) = |j(x)|^s。
 
-最后注，iff是K上的绝对值，h是Q上的绝对值，且s ≤ 1 by no. 3，命题 4；反之，如果 s ≤ 1，则 f = g^s 是 K 上的绝对值，因为 g 是 (一般拓扑, 章 IX, § 3, no. 2)；这就证明了最后一个断言或叙述。
+最后注意，iff 是 K 上的绝对值，h 是 Q 上的绝对值，并且 s ≤ 1 by no. 3，命题 4；反之，如果 s ≤ 1，则 f = g^s 是 K 上的绝对值，因为 g 是 (一般拓扑, 章 IX, § 3, no. 2)；这就证明了最后一个断言或叙述。
 
-Remarks
+注
 
-(2) 如果 K 是域并且 R 上的范数代数，范数不一定是 K 上的绝对值；对于例, Ψ + iη → | Ψ| + |η| C 上的范数与其 R-代数结构兼容。
+(2) 如果 K 是域并且 R 上的范数代数，范数不一定是 K 上的绝对值；例如， ψ + iη → | ψ| + |η| C 上的范数与其 R-代数结构兼容。
 
 (3) 对于定理 1 的情况(C)的证明，不使用代数、章 VIII的一般结果，参见习题 2。
 

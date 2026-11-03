@@ -34,16 +34,16 @@ subsections:
       pdf_page: 127
 statements: 19
 exercises: 4
-content_sha256: 3e94caf9ded9b1ef9db1789b4b9254c3cad186f72b799bb0b8614a3c239e7bfb
+content_sha256: d7a05298e28a52cb1e536a8c4d6860dcf97cbcaa7a1f684d428ad3cc7e6fc47e
 translated_from: content/en/alg/V/02_s2_extensions.md
 translation_method: google
 source_content_sha256: 101cc4d1109f50a0e0cf391686f5376a9cdac7d1f76b8f5bb4664a68d107975c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4b44960bba394b624c6ee9680d912dc77861b1f8afe6646ca51abd0afffa8478
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。 扩张
@@ -52,20 +52,20 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#alg-v-s2-def-1 .statement tag=06GV}
 
-— 令 K 为域。通过 K 的扩张，我们了解K-代数，其基础环为域。通过扩张 E 的子扩展（或子 K 扩展），我们理解 E 的子 K 代数为域。
-令 E 为 K 的扩张。 映射 u : A ↦ λ 。 K 转入 E 的 1 为环同态；由 K 的 I、p. 115、u 诱导同构到 E 的子域 u(K)。
-相反，如果 K、E 是域并且 u 是 K 的同态到 E 中，则 u 定义在 K 的扩张的 E 结构 (III，p. 433) 上。通过滥用语言，一个有时说（E，u）是K的扩张。
-如果 u(K) = E，即，如果 E 是维数 1 除以 K 的向量空间，则称扩张是平凡的。
-令L为K的扩张域。当我们将L视为K的扩张时，我们通过K的扩张（L，j）来理解，其中j是K的典范嵌入到L，或者也为L 相应的K-代数结构。那么L的子外延就是K和L之间的中间域，即L包含K的子域。如果L'是K的另一个扩张域，则L 到 L' 的 K 同态就是 L 的同态 f 到 L'，这样对于所有 x ∈ K，f(x) = x。我们注如果 f 是域的任意自同态 L，则L不变量的元素在f下的集合是L的子域K'，则f是L的K'-自同态。
-特别地，令 P 为域 L 的素数子域。我们可以将L视为P的扩张，并且L的每个自同态都是一个P-自同态。
-令 (E, u) 为 K 的扩张；由于 K 的 u 定义同构到 E 的子域 K_1，一般来说，通过 u 来识别 K 和 K_1 没有困难。我们不能允许这样的识别的一种情况是，其中K = E并且u因此是K的自同态；最常见的是，当域 K 的特征 ≠ 0 时，u 是 K 的自同构，或映射 u ↦ u''。
+— 令 K 为域。 通过 K 的扩张，我们了解K-代数，其基础环是域。 通过扩张 E 的子扩展（或子 K 扩展），我们可以理解 E 的子 K 代数，即域。
+令 E 为 K 的扩张。 映射 u : A ↦ λ 。 K 换成 E 的 1 为环同态；由 K 的 I、p. 115、u 诱导同构到 E 的子域 u(K)。
+相反，如果 K、E 是域并且 u 是 K 到 E 的同态，则 u 定义在 K 的扩张的 E 结构 (III，p. 433) 上。 通过滥用语言，一个有时说（E，u）是K的扩张。
+如果 u(K) = E，即，如果 E 是 K 上维数 1 的向量空间，则扩张被认为是平凡的。
+设 L 为 K 的扩张域。 当我们将L视为K的扩张时，我们可以通过K的扩张（L，j）来理解，其中j是K的典范嵌入到L，或者也可以是L和相应的K-代数结构。 那么L的子外延就是K和L之间的中间域，即L包含K的子域。 如果 L' 是 K 的另一个扩张域，则 L 到 L' 的 K 同态就是 L 到 L' 的同态 f，使得对于所有 x ∈ K，f(x) = x。 我们注意到，如果f是域L中的任何自同态，那么L的元素的集合在f下的不变量是L的子域K'，并且f是L的K'自同态。
+特别地，令 P 为域 L 的质数子域。 我们可以将L视为P的扩张，并且L的每个自同态都是P-自同态。
+令 (E, u) 为 K 的扩张；由于 K 的 u 定义同构到 E 的子域 K_1，因此通过 u 来识别 K 和 K_1 一般没有困难。 我们不能允许这样的识别的一种情况是，其中 K = E 并且 u 是 K 的自同态；最常见的是，当域 K 的特征 ≠ 0 时，u 是 K 的自同构，或映射 u ↦ u''。
 显然，K 的每个扩张都同构于扩张 (L, j)，其中 L 是域包含 K 作为子域，j 是 K 的典范嵌入到 L。
 
 ### 2. 次数 / 扩张
 
-令 $A$ 为代数超过域 $K$。特别是向量空间超过$K$；这个向量空间的维数在$K$上称为$A$的次数，写成$[A : K]$(II、p. 293)。因此，定义$[A : K]$是$A$超过$K$的任何基的基数。该定义特别适用于扩张或$K$的情况。
+令 $A$ 为代数超过域 $K$。特别是向量空间超过$K$；这个向量空间的维数在$K$上称为$A$的次数，写成$[A : K]$(II、p. 293)。因此，定义$[A : K]$是$A$的任何基超过$K$的基数。该定义尤其适用于扩张或$K$的情况。
 
-次数 1 的扩张是微不足道的。 次数 2（或 3 等）的扩张称为二次（或三次等）。 An extension of finite degree is sometimes called, by abuse of language, a finite extension.
+次数 1 的扩张是微不足道的。 次数 2（或 3 等）的扩张称为二次（或三次等）。 有限度的扩展有时被滥用语言称为有限扩展。
 
 #### 定理 1 {#alg-v-s2-thm-1 .statement tag=06GW}
 
@@ -81,7 +81,7 @@ $$
 
 *令$K, E, F$为三个域，使得$K \subset E \subset F$和$[F : K]$是有限的。那么次数$[E : K]$和$[F : E]$就是$[F : K]$的除子。
 
-如果次数 $[F : K]$ 是素数，则除了 $K$ 和 $F$ 之外，$F$ 没有子扩张。但注，当$[F : K]$不是素数时，除了$K$和$F$之外，不一定存在$F$的子扩张（cf.V、p. 146、习题1）。*
+如果次数 $[F : K]$ 是素数，则除了 $K$ 和 $F$ 之外，$F$ 没有子扩张。但请注意，当$[F : K]$不是素数时，除了$K$和$F$之外，不一定存在$F$的子扩展（cf.V、p. 146、习题1）。*
 
 #### 推论 2 {#alg-v-s2-thm-1-cor-2 .statement tag=06GY}
 
@@ -95,13 +95,13 @@ $$
 
 对于 $K$ 上的向量空间 $A$ 来说，有限维是有限维，通过假设，以及 $A$ 的线性映射 $x \mapsto ax$（分别是 $x \mapsto xa$）到 $A$ 单射的；因此它是双射 (II, p. 298, Cor.) 并且因此 (I, p. 16, 注) $a$ 在 $A$ 中是可逆的。*
 
-#### 推论{#alg-v-s2-n2-cor-1 .statement tag=06H0}
+#### 推论 {#alg-v-s2-n2-cor-1 .statement tag=06H0}
 
 *令$A$为有限次数中的交换代数除以域$K$。如果$A$是整环，那么它就是域。*
 
 ### 3. 伴随
 
-设$E$为域$K$中的扩张。给定$E$的元素的族$x = (x_i)_{i \in I}$，我们用$K(x_i)_{i \in I}$（或$K(x)$或$K(x_1, \ldots, x_r)$，当$I$是N的区间（1，n）时）表示E包含的最小子扩张$(x_i)_i$；我们说$K(x_i)_i \in I$是由$(x_i)_i, I$族的元素的伴随到K获得的，并且$(x_i)_i, I$族（或其元素的集合）是关于K（或超过K）的$K(x_i)_i \in I$族生成的族。 域$K(x_i)_i \in I$仅取决于家庭$(x_i)_i \in I$的元素集合A；我们也用$K(A)$来表示它。特别是我们有 $K(E) = E$ 和 $K(\emptyset) = K . 1$。所有上述内容尤其适用于 E 为域包含 K 为子域时。
+设$E$为域$K$中的扩张。给定$E$的元素的家庭$x = (x_i)_{i \in I}$，我们用$K(x_i)_{i \in I}$（或$K(x)$或$K(x_1, \ldots, x_r)$，当$I$是区间N的区间（1，n））表示E包含的最小子扩展家庭成员$(x_i)_i$；我们说$K(x_i)_i \in I$是由$(x_i)_i, I$族的元素的伴随到K获得的，并且$(x_i)_i, I$族（或其元素的集合）是关于K（或超过K）的$K(x_i)_i \in I$族生成的族。 域$K(x_i)_i \in I$仅取决于家庭$(x_i)_i \in I$的元素的集合A；我们也用$K(A)$来表示它。特别是我们有 $K(E) = E$ 和 $K(\emptyset) = K . 1$。所有上述内容尤其适用于 E 为域包含 K 为子域时。
 
 应该注意的是，A一般不是代数$K(A)$的生成的集合，其他字$K(A) \neq K[A]$。 “尽管如此，当$K(A)$是K的代数扩张时，我们将看到$K(A) = K[A]$（V，p. 18，Cor.1）。 \*
 
@@ -123,9 +123,9 @@ $$
 
 因为如果x和y是L的两个元素，则存在$\mathscr{F}$的两个域R，S使得$x \in R,\ y \in S$；令 T 为 $\mathscr{F}$ 包含 R 和 S 中的域；然后$x \in T,\ y \in T$，因此$x + y,\ xy$和$x^{-1}$（如果$x \neq 0$）属于到T，因此到L。
 
-#### 推论{#alg-v-s2-n3-cor-1 .statement tag=06H4}
+#### 推论 {#alg-v-s2-n3-cor-1 .statement tag=06H4}
 
-— *令 E 为域 K 和 $A \subset E$ 中的扩张。 域$K(A)$是域$K(F)$的并，其中F的范围超过A的所有有限子集的集合。*
+— *令 E 为域 K 和 $A \subset E$ 的扩张。 域 $K(A)$ 是域 $K(F)$ 中的并，其中 F 的范围超过 A 的所有有限子集中的集合。*
 
 对于域$K(F)$的集合来说，关系$\subset$有向，因为$F \subset F'$蕴含$K(F) \subset K(F')$。因此，这些域中的并L是域包含$K \cup A$并包含在$K(A)$中，因此与$K(A)$相同。
 
@@ -165,13 +165,13 @@ b) 令p为$E \otimes_K F$的素理想；则存在 E 和 F 的复合扩张 $(L, u
 
 — 如果$p$和$p'$是$E \otimes_K F$的两个不同的素理想，相应的*$E$和$F$的复合扩张*（通过上述证明的过程构造）不是同构的。然而，它们仍然可以同构为 K 的 *扩张*（*V*，p. 146，例 2）。
 
-#### 推论{#alg-v-s2-n4-cor-1 .statement tag=06H8}
+#### 推论 {#alg-v-s2-n4-cor-1 .statement tag=06H8}
 
-*There exist composite 扩张 of E and F*.
+*存在E和F*的复合扩张。
 
 因为由于交换环$E \otimes_K F$没有减少到0，所以它有素理想：克鲁尔的定理（*I*，p. 104）证明了极大理想的存在，并且每个极大理想都是素数。
 
-我们可以如下使这个推论更加精确。令$(E, u)$和$(F, v)$为K的两个扩张； 选择交换环 $E \otimes_K F$ 的最大理想 m 并放入 $L = (E \otimes_K F)/m$；那么 L 是 K 的扩张。对于 $x \in E$，将 $x \otimes 1$ mod m 的剩余类类写为 $u'(x)$，同样将剩余类类写成 $v'(y)$ $1 \otimes y$ mod $m$ 适用于所有 $y \in F$。然后我们有一个可交换的图表域同态
+我们可以使这个推论更精确，如下所示。令$(E, u)$和$(F, v)$为K的两个扩张； 选择交换环 $E \otimes_K F$ 的最大理想 m 并放入 $L = (E \otimes_K F)/m$；那么 L 是 K 的扩张。对于 $x \in E$，将 $x \otimes 1$ mod m 的剩余类类写为 $u'(x)$，同样将剩余类类写成 $v'(y)$ $1 \otimes y$ mod $m$ 适用于所有 $y \in F$。然后我们有一个可交换的图表域同态
 
 $$
 \begin{array}{ccc}
@@ -181,11 +181,11 @@ K & \xrightarrow{u} & E .
 \end{array}
 $$
 
-通过替换$(L, u')$通过E的同构扩张，我们可以假设L包含E为子域并且$u'$是L中E的典范嵌入。通过改变记号，我们得到以下 scholium ：
+通过替换$(L, u')$通过E的同构扩张，我们可以假设L包含E为子域，并且$u'$是E在L中的典范嵌入。通过改变记号，我们得到以下 scholium ：
 
 #### 学院{#alg-v-s2-n4-sch-1 .statement tag=06H9}
 
-*设K和E为K到E的两个域和u同态。如果K'为域包含K为子域，则存在域E'包含E为子域且将 K' 的同态 u' 转化为 E'，延伸 u*'。
+*设K和E为K到E的两个域和u同态。如果K'为域包含K为子域，则存在域E'包含E为子域并且将 K' 的同态 u' 转化为 E'，延伸 u*'。
 
 ### 5. 线性不相交的扩张
 
@@ -193,7 +193,7 @@ $$
 
 设A和B是R的两个子K代数。存在代数同态$\varphi : A \otimes_K B \to R$，其中映射$x \otimes y$到$xy$。 $\varphi$的像是由A U B生成的$\Omega$的子环C。此外，由II，p. 256，如果$(b_\mu)$是B在K上的基和$(a_\lambda)$ A 的基超过 K，然后 C 重合与线性组合 $\sum_{\mu} \alpha_{\mu} b_{\mu}$ 的集合其中 $\alpha_{\mu} \in A$，所有 $\sum_{\lambda} \beta_{\lambda} a_{\lambda}$ 的集合其中 $\beta_{\lambda} \in B$ 以及所有 $\sum_{\lambda,\mu} \gamma_{\lambda\mu} a_{\lambda} b_{\mu}$ 中的集合，其中 $\gamma_{\lambda\mu} \in K$。
 
-如果$\varphi$是$A \otimes_K B$到C的*同构*，我们可以说A和B在*K上*线性不相交的。然后我们有 $A \cap B = K$； B（分别A）相对于K的每个自由子集对于A（分别B）都是自由的；相反，对于 A 和 B 在 K 上线性不相交的，只要存在 B 在 K 上的 *一个* 基（对于例）就足够了，它相对于 A 是自由的（II，p. 256 和 III，p. 469）。
+如果$\varphi$是$A \otimes_K B$到C的*同构*，我们可以说A和B在*K上*线性不相交的。然后我们有 $A \cap B = K$； B（或 A）相对于 K 的每个自由子集对于 A（或 B）也是自由的；相反，对于 A 和 B 在 K 上线性不相交的，只要存在 B 在 K 上的*一个* 基（例如），并且相对于 A 是自由的（II、p. 256 和 III、p. 469）就足够了。
 
 特别考虑 A 和 B 是 $\Omega$ 的*子扩展*的情况。
 
@@ -213,15 +213,15 @@ $$
 
 *设E和F为$\Omega$中包含的K的两个扩张，A和B为K上的$\Omega$的两个子代数，使得E为A的分数的域和B的分数的域。则对于E和F要在 K 上线性不相交的，A 和 B 在 K 上线性不相交的是必要且充分的。*
 
-条件显然是必要的。相反，如果 A 和 B 在 K 上线性不相交的，A 和 F 也是如此，因为如果 $\Omega$ 的元素族对于 B 是自由的，那么它对于 B 的分数 F 的域也是自由的（II，p. 315，Cor. 1）和 p. 316，Cor.3)；现在，相同的论证表明 E 和 F 在 K 上呈线性不相交的。
+条件显然是必要的。相反，如果 A 和 B 在 K 上线性不相交的，A 和 F 也是如此，因为如果 $\Omega$ 的元素族对于 B 是自由的，那么它对于 B 的分数 F 的域也是自由的（II，p. 315，Cor. 1）和p. 316，Cor.3）；现在，相同的论证表明 E 和 F 在 K 上呈线性不相交的。
 
-$^1$ 对于例，只需考虑两个不定数X 以及Y 和$E = K(X), F = K(Y)$ 中$\Omega$ 是有理分式的域 $K(X, Y)$ 的情况就足够了。
+$^1$ 例如，只要考虑两个不定式X和Y和$E = K(X), F = K(Y)$中$\Omega$是有理分式的域$K(X, Y)$的情况就足够了。
 
 #### 命题 7 {#alg-v-s2-prop-7 .statement tag=06HC}
 
 — 令 E 和 F 为 $\Omega$ 中包含的 K 的两个扩张；如果 E 和 F 在 K 上线性不相交的，则 E 的每个子扩展和 F 的每个子扩展在 K 上线性不相交的。相反，如果对于 E 和 F 的每个对有限生成的子扩展 E'、F' 分别，E' 和 F' 在 K 上线性不相交的，则 E 和 F 在 K 上线性不相交的不相交的超过 K。
 
-对于 E 和 F 的条件在 K 上线性不相交的可以表示如下：如果 $(a_\alpha)$ 是 E 中的自由族并且 $(b_\beta)$ 是 F 中的自由族，则关系 $\sum_{\alpha,\beta} \lambda_{\alpha\beta} a_\alpha b_\beta = 0$，其中 $\lambda_{\alpha\beta} \in K$ 意味着每个$\lambda_{\alpha\beta} = 0$ 对后缀。但是，如果对于每个对个有限自由族都成立，那么这个条件对于每个对个自由族都满足。
+对于 E 和 F 的条件在 K 上线性不相交的可以表示如下：如果 $(a_\alpha)$ 是 E 中的自由族并且 $(b_\beta)$ 是 F 中的自由族，则关系 $\sum_{\alpha,\beta} \lambda_{\alpha\beta} a_\alpha b_\beta = 0$，其中 $\lambda_{\alpha\beta} \in K$ 意味着每个 $\lambda_{\alpha\beta} = 0$ 对后缀。但是，如果对于每个对有限自由族成立，那么对于每个对自由族来说，这个条件都满足。
 
 因此，直观地说，我们可以说线性析取是有限特征标的性质 «。
 
@@ -238,10 +238,10 @@ $$
 
 图 2.
 
-条件是必要的：假设 E 和 G 在 K 上线性不相交的。E 和 F 也同样成立（命题 7）；另一方面，如果 B 是 E 对 K 的基，这也是代数 F[E] 对 F 的基；因为 B 在假设上自由于 G，所以 F[E] 和 G 在 F 上线性不相交的，根据命题 6，$E(F) = F(E)$ 和 G 也是如此。
+条件是必要的：假设 E 和 G 在 K 上线性不相交的。E 和 F 也同样成立（命题 7）；另一方面，如果 B 是 E 除以 K 的基，则这也是代数 F[E] 除 F 的基；因为 B 在假设上自由于 G，所以 F[E] 和 G 在 F 上线性不相交的，根据命题 6，$E(F) = F(E)$ 和 G 也是如此。
 
-条件是足够的：与相同的记号意味着 B 在 F 上是自由的，因此它是 F[E] 在 F 上的基；由于 F[E] 和 G 在 F 上假设线性不相交的，B 在 G 上自由，这表明 E 和 G 在 K 上不相交的线性。
+条件就足够了：同样的记号意味着 B 在 F 上是自由的，因此它是 F[E] 在 F 上的基；由于 F[E] 和 G 在 F 上假设线性不相交的，B 在 G 上自由，这表明 E 和 G 在 K 上线性不相交的。
 
-### 习题 {#alg-v-s2-exercises}
+### 习题{#alg-v-s2-exercises}
 
 参见[习题为 § 2](exercises/s2/)。

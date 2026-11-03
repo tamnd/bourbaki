@@ -45,21 +45,21 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: dfc25c3c6e0ba67365f5c1f3b8b981fd39fb7e5552b4f141645414bac46b7a17
+content_sha256: e3e853f6483cfd0809a6b24bdf51444fde14d2f0a23c84214824c2f3249af190
 translated_from: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
 translation_method: google
 source_content_sha256: cf2d3140178ddd9a073d777e8eb5efd04f0920704426c6cc3aa6359b95506798
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 91b1eeb0a681e121c6bdb89a2ecf41104a373be1960359ead4d5b72f34e7416e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。连续空间线性映射
+## § 3。连续线性映射的空间
 
-### 1. The spaces $\mathscr{L}_\mathfrak{S}(E; F)$
+### 1. 空间 $\mathscr{L}_\mathfrak{S}(E; F)$
 
 设 F 为拓扑向量空间，E 为任意集合，$\mathfrak{S}$ E 的子集系列。考虑向量空间 $F^E$ 与 $\mathfrak{S}$ 收敛性的一致结构（GT，X, § 1, No. 2）。我们知道这个结构与$F^E$的交换律群结构兼容（GT，X, § 1, No. 4，cor.2）。这样推导出来的拓扑称为$\mathfrak{S}$*-拓扑*。如果X是$F^E$的子集，或更一般地，集合与映射$j : X \to F^E$，则$F^E$上$\mathfrak{S}$*-拓扑*的j下的宇宙像称为$\mathfrak{S}$*-拓扑* X。
 
@@ -75,11 +75,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 考虑到上面的注 1) 和 2)，我们看到$\mathfrak{S}$*-拓扑*与H的向量空间结构兼容的必要且充分的条件是集合$H \cap T(M, V)$在H中*吸收*（I， p. 7，道具 4)；但这意味着对于 F 中的每个 $u \in H$、每个子集 $M \in \mathfrak{S}$ 以及每个平衡 0 的邻域 V，都存在 $\lambda \neq 0$ 使得 $u(M) \subset \lambda V$；也就是说 (III, p. 2) $u(M)$ 有界于 F。最后，命题的最后一个断言由以下事实得出：如果 V 是凸的，则 $T(M, V)$ 也是凸的。
 
-#### 推论{#evt-iii-s3-n1-cor-1 .statement tag=07ML}
+#### 推论 {#evt-iii-s3-n1-cor-1 .statement tag=07ML}
 
 *设E和F是两个局部凸空间，$\mathfrak{S}$E的有界子集族，以及从E到F的连续线性映射的$\mathscr{L}(E; F)$向量空间。则$\mathfrak{S}$*-拓扑*与向量空间结构兼容$\mathscr{L}(E; F)$ 并且是局部凸的。*
 
-如果$u$是从E到F的连续线性映射并且M是E的有界子集，则$u(M)$在F中有界（III，p. 4，cor.1），注就足够了。
+只要注意一下，如果$u$是从E到F的连续线性映射并且M是E的有界子集，则$u(M)$在F中有界（III，p. 4，cor.1）。
 
 给定两个局部凸向量空间 E 和 F，以及 E 的有界子集的族 $\mathfrak{S}$，令 $\mathscr{L}_\mathfrak{S}(E; F)$ 表示通过将 $\mathfrak{S}$*-topology* 分配给 $\mathscr{L}(E; F)$ 获得的局部凸空间。
 
@@ -125,7 +125,7 @@ $$
 r(u) = \sup_{x \in A} q(u(x)) .
 $$
 
-例
+例如
 
 $$
 r(u) = \sup_{p(x) < 1} q(u(x)) .
@@ -167,13 +167,13 @@ $$
 
 令E和F为两个Hausdorff局部凸空间，并假设F是完备的；令 $\hat{E}$ 为 E 的补全。由于从 E 到 F 扩展的每个连续线性映射 $u$ 唯一地到从 $\hat{E}$ 到 F 的连续线性映射 $\bar{u}$，我们可以确定空间 $\mathscr{L}(E; F)$ 并且$\mathscr{L}(\hat{E}; F)$由映射$u \mapsto \bar{u}$。在加法中，令$\mathfrak{S}$是E的有界子集族； $\mathscr{L}(E; F)$ 重合上的$\mathfrak{S}$拓扑与$\mathscr{L}(\hat{E}; F)$上的$\mathfrak{S}$拓扑以及$\hat{\mathfrak{S}}$拓扑，其中$\hat{\mathfrak{S}}$表示集合的$\hat{E}$中的闭包族$\mathfrak{S}$。
 
-对于例，如果 E 是 *normed*，$\mathscr{L}(E; F)$ 上有界收敛的拓扑与 $\mathscr{L}(\hat{E}; F)$ 上有界收敛的拓扑相同：因为，$\hat{E}$ 的每个有界子集都包含在 E 的有界子集的闭包中。 $\hat{E}$的单位球是E的单位球的闭包，由公式 (3) (III, p. 14)得出，如果F是Banach空间，映射$u \mapsto \bar{u}$是等距$\mathscr{L}(E; F)$ 到$\mathscr{L}(\hat{E}; F)$。
+例如，如果 E 是 *normed*，则 $\mathscr{L}(E; F)$ 上的有界收敛的拓扑与 $\mathscr{L}(\hat{E}; F)$ 上的有界收敛的拓扑相同：因为，$\hat{E}$ 的每个有界子集都包含在 E 的有界子集的闭包中。因为单位 ball $\hat{E}$ 是 E 的单位球的闭包，从公式 (3) (III, p. 14) 可以得出，如果 F 是 Banach 空间，映射 $u \mapsto \bar{u}$ 是从 $\mathscr{L}(E; F)$ 到的等距$\mathscr{L}(\hat{E}; F)$。
 
-我们观察到，如果 E 不是规范的空间，则可能存在 $\hat{E}$ 的有界子集，它们不包含在 E 的任何有界子集的闭包中（对于例，如果 E 是无限维 Banach 空间的弱对偶）；然而，如果 E 是可度量的并且满足可数性第一公理（III，p. 39，练习 16），情况就会如此。
+我们观察到，如果 E 不是规范的空间，则可能存在 $\hat{E}$ 的有界子集，它们不包含在 E 的任何有界子集的闭包中（例如，如果 E 是无限维 Banach 空间的弱对偶）；然而，如果 E 是可度量的并且满足可数性第一公理（III，p. 39，练习 16），情况就会如此。
 
 ### 4. $\mathscr{L}(E; F)$ 等连续子集
 
-设E和F是两个局部凸空间。为了使 $\mathscr{L}(E; F)$ 的子集 H 等连续，它在 E 中的点 0 处等连续是必要且充分的（I，p. 9，命题 6）；这意味着对于 F 中的每个邻域 V 0，集合 $\bigcap_{u \in H} u^{-1}(V)$ 是 E 中的 0 邻域；或者对于 F 上的每个连续半范数 $p$，函数 $\sup_{u \in H} (p \circ u)$ 是 E 上的连续半范数。此外，(I，p. 5)，H 是一致等连续的。我们注等连续子集的凸平衡包络线是等连续的，因为如果$p$是F上的连续半范数并且$\tilde{H}$H的凸平衡包络线，对于H中的$u_i$，我们有不等式$p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$，因而$\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$。
+设E和F是两个局部凸空间。为了使 $\mathscr{L}(E; F)$ 的子集 H 等连续，它在 E 中的点 0 处等连续是必要且充分的（I，p. 9，命题 6）；这意味着对于 F 中的每个邻域 V 0，集合 $\bigcap_{u \in H} u^{-1}(V)$ 是 E 中的 0 邻域；或者对于 F 上的每个连续半范数 $p$，函数 $\sup_{u \in H} (p \circ u)$ 是 E 上的连续半范数。此外，(I，p. 5)，H 是一致等连续的。我们注意到，等连续子集的凸平衡包络线是等连续的，因为如果 $p$ 是 F 上的连续半范数，且 $\tilde{H}$ H 的凸平衡包络线，则对于 H 中的 $u_i$，我们有不等式 $p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$，因而$\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$。
 
 因而，等连续子集族是$\mathscr{L}(E; F)$上的凸出生学（III，p. 2，def.2）。
 
@@ -181,7 +181,7 @@ $$
 
 *设E、F为两个局部凸空间，F为Hausdorff。令从E到F的所有映射中的空间$F^E$被分配为简单收敛的拓扑。然后*
 
-(i) *从 E 到 F 的线性映射的集合在 $F^E$ 内闭合。*
+(i) *从E到F的线性映射的集合在$F^E$闭合。*
 
 (ii) *如果 H 是 $\mathscr{L}(E; F)$ 的等连续子集，则 $F^E$ 中 H 的闭包 $\overline{H}$ 包含在 $\mathscr{L}(E; F)$ 中并且是等连续的。*
 
@@ -197,11 +197,11 @@ $$
 \bigcap_{x,y,\lambda,\mu} A(x, y, \lambda, \mu) .
 $$
 
-因而，这个集合在$F^E$中关闭。
+因而，这个集合在$F^E$中闭合。
 
 #### 推论 1 {#evt-iii-s3-prop-4-cor-1 .statement tag=07MU}
 
-— *对于 $\mathscr{L}(E; F)$ 的等连续子集 H 在 $\mathscr{L}_s(E; F)$ 中相对紧致，对于所有 $x \in E$、所有 $u(x)$ 的集合 $H(x)$，当 $u$ 范围超过 H 时，在 F 中相对紧致是必要和充分的。*
+— *对于 $\mathscr{L}(E; F)$ 的等连续子集 H 在 $\mathscr{L}_s(E; F)$ 中相对紧致，对于所有 $x \in E$、所有 $u(x)$ 的集合 $H(x)$，当 $u$ 在 H 范围内时，在 F 中相对紧致是必要和充分的。*
 
 事实上，这个条件对于$\overline{H}$在$F^E$中是紧致的是充分必要的（GT，I, § 9, No. 5，cor.）。
 
@@ -241,7 +241,7 @@ $$
 
 线性形式 $f \mapsto \hat{f}(y)$的集合是$\mathscr{L}^1(\mu)$的对偶的等连续子集。
 
-另一方面，我们知道所有特征函数闭有界区间的集合 T 是$\mathscr{L}^1(\mu)$的总子集；我们很容易验证，对于所有$f \in T$，傅里叶变换$\hat{f}$是一个连续的函数趋于无穷大零。我们推断这对于所有$f \in \mathscr{L}^1(\mu)$都成立（“黎曼-勒贝格定理”）。
+另一方面，我们知道闭有界区间的所有特征函数的集合T是$\mathscr{L}^1(\mu)$的总子集；我们很容易验证，对于所有$f \in T$，傅里叶变换$\hat{f}$是一个连续的函数趋于无穷大零。我们推断这对于所有$f \in \mathscr{L}^1(\mu)$都成立（“黎曼-勒贝格定理”）。
 
 关系$\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$表明映射$f \mapsto \hat{f}$是$\mathbf{R}$上所有有界函数从$\mathscr{L}^1(\mu)$到空间$\mathscr{B}(\mathbf{R})$的连续映射，且结构一致收敛。由于$\hat{f}$对于所有$f \in T$都是连续的，因此$\hat{f}$对于所有$f \in L^1(\mu)$都是连续的。 $\hat{f}$趋于无穷远零的事实源于以下事实：所有连续函数趋于无穷远零的子空间$C_0(\mathbf{R})$在$\mathscr{B}(\mathbf{R})$处闭合。
 
@@ -249,31 +249,31 @@ $$
 
 #### 推论{#evt-iii-s3-n4-cor-1 .statement tag=07MZ}
 
-— *假设 F 是豪斯多夫。设 H 是 $\mathscr{L}(E; F)$ 的等连续子集。如果 H 上的滤波器 $\Phi$ 从 E 到 F 简单地收敛到映射 $u_0$，则 $u_0$ 是从 E 到 F 的连续线性映射，并且 $\Phi$ 在 E 的每个预紧子集上均匀收敛到 $u_0$。*
+— *假设 F 是豪斯多夫。令 H 为 $\mathscr{L}(E; F)$ 的等连续子集。如果 H 上的滤波器 $\Phi$ 从 E 到 F 简单地收敛到映射 $u_0$，则 $u_0$ 是从 E 到 F 的连续线性映射，并且 $\Phi$ 在 E 的每个预紧子集上均匀收敛到$u_0$。*
 
-第一个断言来自 prop. 4 (III, p. 16) 和 prop 中的第二个。 5（III，p. 17）。
+第一个断言来自 prop。 4 (III, p. 16) 和 prop 中的第二个。 5（III，p. 17）。
 
 #### 命题 6 {#evt-iii-s3-prop-6 .statement tag=07N0}
 
-— *令 H 为 $\mathscr{L}(E; F)$ 的等连续子集。如果F是可度量的，并且E中存在可数总集合，则E中简单收敛的H上的一致结构是可度量的。如果在加法中，F中存在可数总集合，则H中存在可数处处稠密集合（对于E的紧子集一致收敛的拓扑）。
+— *令 H 为 $\mathscr{L}(E; F)$ 的等连续子集。如果F是可度量的，并且如果E中存在可数总集合，则E中简单收敛的H上的一致结构是可度量的。如果在加法中，F中存在可数总集合，则H中存在可数处处稠密集合（对于E的紧子集一致收敛的拓扑）。
 
-令$(a_n)$为E中的总序列。则映射$u \mapsto (u(a_n))$是$\mathscr{L}(E; F)$的同构，其中$\mathscr{L}(E; F)$具有$a_n$的集合简单收敛的一致结构，穿上子空间 $F^\mathbf{N}$ 的制服。如果 F 是可度量的（分别是可度量的并且满足可数性的第一个公理），那么对于 $F^\mathbf{N}$ 也是如此（GT，IX, § 2, No. 4，cor.2 和§ 2, No. 8，推论），并且命题由命题得出。 5（III，p. 17）。
+令$(a_n)$为E中的总序列。则映射$u \mapsto (u(a_n))$是$\mathscr{L}(E; F)$的同构，其中$\mathscr{L}(E; F)$具有在$a_n$的集合上简单收敛的一致结构，穿上子空间 $F^\mathbf{N}$ 的制服。如果 F 是可度量的（分别是可度量的并且满足可数性第一公理），那么对于 $F^\mathbf{N}$（GT、IX, § 2, No. 4、cor.2 和 § 2, No. 8、推论）也是如此，并且命题由 prop.1 得出。 5（III，p. 17）。
 
 #### 推论 1 {#evt-iii-s3-prop-6-cor-1 .statement tag=07N1}
 
 — *令 E 为局部凸可度量空间，F 为标准化空间。假设 E 和 F 都是满足可数性第一公理。那么$\mathscr{L}(E; F)$是等连续子集的可数族的并，并且$\mathscr{L}(E; F)$中存在可数集合，对于E的预紧子集一致收敛的拓扑来说是稠密的。
 
-设 B 为 F 的单位球，$(V_n)$ E 中 0 的邻域的可数基本系统。对于每个整数 n，所有 $u \in \mathscr{L}(E; F)$ 的集合 $H_n$，使得 $u(V_n) \subset B$ 等连续且$\mathscr{L}(E; F)$ 是$H_n$ 的并。然后从命题得出推论。 6.*
+设 B 为 F 的单位球，$(V_n)$ E 中 0 的邻域的可数基本系统。对于每个整数 n，所有 $u \in \mathscr{L}(E; F)$ 的集合 $H_n$，使得 $u(V_n) \subset B$ 等连续且$\mathscr{L}(E; F)$ 是$H_n$ 的并。 推论然后从 prop. 6.*
 
 #### 推论 2 {#evt-iii-s3-prop-6-cor-2 .statement tag=07N2}
 
-— *第一个可数公理赋范空间满足的对偶E'中的每个闭球，对于弱拓扑σ(E', E)来说都是一个紧凑可度量空间，并且对于这个拓扑，在E'*中存在一个可数稠密子集。
+— *可数第一公理范数空间满足的对偶 E' 中的每个闭球，对于弱拓扑 σ(E', E) 来说都是一个紧凑可度量空间，并且对于这个拓扑，E'* 中存在可数稠密子集。
 
 这是从道具得出的。 6 以及从 III、p. 17 开始，cor。 3.
 
 ### 5. $E'$ 等连续子集
 
-在这个截面中，E表示局部凸的空间，$E'$是它的对偶。每当我们谈论 E 中集合 M 的极坐标 $M^\circ$（或 $E'$）时，我们总是指的是，除非，否则，M 的极坐标相对于 E 和 $E'$ 之间的对偶性。回想一下，如果V是E中0的闭凸平衡邻域，我们有$V^{\circ\circ} = V$（II，p. 45，cor.3）。
+在这个截面中，E表示局部凸的空间，$E'$是它的对偶。每当我们谈论 E 中集合 M 的极坐标 $M^\circ$（或$E'$）时，我们总是指的是，除非，否则，M 的极坐标相对于 E 和 $E'$ 之间的对偶性。回想一下，如果V是E中0的闭凸平衡邻域，我们有$V^{\circ\circ} = V$（II，p. 45，cor.3）。
 
 #### 命题 7 {#evt-iii-s3-prop-7 .statement tag=07N3}
 
@@ -283,9 +283,9 @@ $$
 (ii) $M$ *包含在 E* 中 0 的邻域极坐标中；
 (iii) *M 的极坐标是 E* 中 0 的邻域。
 
-如果 M 是等连续的，则存在 0 的凸平衡邻域 V，使得对于所有 $x \in V$ 和所有 $u \in M$ 都有 $|u(x)| \leq 1$；那么我们就有了 $M \subset V^\circ$ 并且 (i) 蕴涵 (ii)。对于相同的记号，如果$M \subset V^\circ$则$V \subset V^{\circ\circ} \subset M^\circ$并且(ii)意味着(iii)。最后，如果$M^\circ$包含凸平衡邻域V为0，则$M \subset M^{\circ\circ} \subset V^\circ$和关系$x \in \varepsilon V,\ u \in M$对于所有$\varepsilon > 0$意味着$|u(x)| \leq \varepsilon$，这证明(iii)蕴涵(i)。
+如果 M 是等连续的，则存在 0 的凸平衡邻域 V，使得对于所有 $x \in V$ 和所有 $u \in M$ 都有 $|u(x)| \leq 1$；那么我们就有了 $M \subset V^\circ$ 并且 (i) 蕴涵 (ii)。对于相同的记号，如果$M \subset V^\circ$则$V \subset V^{\circ\circ} \subset M^\circ$并且(ii)意味着(iii)。最后，如果$M^\circ$包含凸平衡邻域V为0，则$M \subset M^{\circ\circ} \subset V^\circ$和关系$x \in \varepsilon V,\ u \in M$对于所有$\varepsilon > 0$意味着$|u(x)| \leq \varepsilon$，这证明(iii)隐含(i)。
 
-我们注从$E'$到K的每个$x \in E$定义映射$j(x): u \mapsto u(x)$到K。因此我们可以讨论E上的$\mathscr{S}$拓扑，其中$\mathscr{S}$是$E'$的子集的族：这是$K^{E'}$ 上$\mathscr{S}$ 拓扑的$j$ 下的逆像。我们立即验证，如果 $\mathscr{S}$ 是 $E'$ 上的凸出生学，那么对于 E 上的 $\mathscr{S}$ 拓扑，$\mathscr{S}$ 形式集合的极坐标是 0 的邻域的基本系统。 尤其是当$\mathscr{S}$是$E'$与螺旋等连续的子集族。 7 意味着：
+我们注意到每个$x \in E$定义映射$j(x): u \mapsto u(x)$从$E'$到K。因此我们可以讨论E上的$\mathscr{S}$拓扑，其中$\mathscr{S}$是$E'$的子集族：这是逆像下$K^{E'}$ 上$\mathscr{S}$ 拓扑的$j$。我们立即验证，如果$\mathscr{S}$是$E'$上的凸出生学，那么对于E上的$\mathscr{S}$拓扑，$\mathscr{S}$形式的集合的极坐标是邻域的基本系统为0。尤其是当$\mathscr{S}$是$E'$和支柱的等连续子集族。 7 意味着：
 
 #### 推论 1 {#evt-iii-s3-prop-7-cor-1 .statement tag=07N4}
 
@@ -345,7 +345,7 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 — *令 $E$ 为 Hausdorff 且完全局部凸空间。在阶中，$E'$上的线性形式对于弱拓扑$\sigma(E', E)$是连续的（即从$E$的元素产生），其限制对于每个等连续的子集就足够了$E'$ 对于 $\sigma(E', E)$ 是连续的。*
 
-#### 注 {#evt-iii-s3-n6-rem-1 .statement tag=07NB}
+#### 注{#evt-iii-s3-n6-rem-1 .statement tag=07NB}
 
 — 假设在加法中，$E$中存在可数总数集合；那么 $E'$ 的每个等连续子集都可度量为拓扑 $\sigma(E', E)$（III，p. 18，道具 6）；因此，要验证$E'$上的线性形式$u$是弱连续的，只需验证$E'$中每个*等连续的序列*$(x'_n)$（对于$\sigma(E', E)$收敛到0），我们就有$\lim_{n \to \infty} u(x'_n) = 0$。
 
@@ -353,7 +353,7 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 *令$(E_i)_{i \in I}$为Hausdorff局部凸空间族，并令$E$为其拓扑直和。那么从$\hat{E}_i$的直和到$\hat{E}$的典范映射就是同构。特别是，当且仅当所有 $E_i$ 都完整时，$E$ 才完整。*
 
-我们知道$E$的对偶可以与$E_i$的对偶的乘积识别（II，p. 30，公式（1））。设$u \in \hat{E}$，并令$u_i \in {E_i'}^*$为$u$的限制（视为${E'}^*$的元素）到$E_i' \subset E'$。除了指标$i \in I$的有限数之外，直接的足以证明$u_i = 0$。相反，假设存在不同的指标使得$u_{i_n} \neq 0$存在序列$(i_n)_{n \in \mathbf{N}}$。那么存在$x_{i_n} \in E_{i_n}'$使得$u_{i_n}(x_{i_n}) = n$。所有$x_{i_n}$中的集合$H$在$E'$中等连续，并且$u$到$H$中的限制无界，这是不可能的。
+我们知道，$E$的对偶可以与$E_i$的对偶的乘积识别（II，p. 30，公式（1））。令$u \in \hat{E}$，并令$u_i \in {E_i'}^*$为$u$的限制（视为${E'}^*$的元素）到$E_i' \subset E'$。除了指标$i \in I$的有限数之外，直接的足以证明$u_i = 0$。相反，假设存在不同的指标使得$u_{i_n} \neq 0$存在序列$(i_n)_{n \in \mathbf{N}}$。那么存在$x_{i_n} \in E_{i_n}'$使得$u_{i_n}(x_{i_n}) = n$。所有$x_{i_n}$中的集合$H$在$E'$中等连续，而$u$到$H$中的限制无界，这是不可能的。
 
 ### 7. $\mathscr{S}$-$\mathscr{L}(E; F)$上的出生学
 
@@ -371,7 +371,7 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 *设 E 为出生学空间（特别是可度量的局部凸空间），F 为局部凸空间。以有界收敛的拓扑为界的$\mathscr{L}(E; F)$的每个子集 H 是等连续的。*
 
-对于 F 中 0 的每个凸平衡邻域 $V$，集合 $\bigcap_{u \in H} u^{-1}(V)$ 吸收 E 的每个有界子集，因此 E 中 0 的邻域；这就证明H是等连续的。
+对于 F 中 0 的每个凸平衡邻域 $V$，集合 $\bigcap_{u \in H} u^{-1}(V)$ 吸收 E 的每个有界子集，因此 E 中 0 的邻域； this proves that H is equicontinuous.
 
 ### 8. 完成子集 / $\mathscr{L}_{\mathscr{S}}(E; F)$
 
@@ -385,15 +385,15 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 — 令 M 为 $\mathscr{L}_{\mathscr{S}}(E; F)$ 的*完整*一致子空间。对于E的有界子集$\mathscr{S}' \supset \mathscr{S}$的每个集合，$\mathscr{S}'$拓扑比$\mathscr{L}(E; F)$上的$\mathscr{S}$拓扑更细；另一方面，对于$\mathscr{S}'$拓扑，存在系统为0的邻域，对于简单收敛的拓扑是封闭的（III，p. 13，*注2*），并且对于更不必说* $\mathscr{S}$-拓扑。我们结论（GT，III, § 3, No. 5，cor.1）M对于$\mathscr{S}'$拓扑来说是*完整的。
 
-#### 推论{#evt-iii-s3-n8-cor-1 .statement tag=07NH}
+#### 推论 {#evt-iii-s3-n8-cor-1 .statement tag=07NH}
 
-*令 E 和 F 为两个局部凸空间，H 为 $\mathscr{L}(E; F)$ 的等连续子集。如果 F 是 Hausdorff 且准完备，并且 H 上的滤波器 $\Phi$ 简单地收敛于 E 的总子集 T 的点，则存在从 E 到 F 的连续线性映射 u，使得 $\Phi$ 在 E 的每个预紧子集上均匀收敛到 u。
+*令 E 和 F 为两个局部凸空间，H 为 $\mathscr{L}(E; F)$ 的等连续子集。如果 F 是 Hausdorff 且准完备，并且 H 上的滤波器 $\Phi$ 简单地收敛于 E 的总子集 T 的所有点，则存在从 E 到 F 的连续线性映射 u，使得 $\Phi$ 在 E 的每个预紧子集上均匀收敛到 u。
 
 因为，凭借道具。 5 (III, p. 17) $\Phi$ 是 E 中预紧收敛一致结构的柯西滤波器；通过道具。如图11所示，H在$\mathscr{L}_{pc}(E; F)$中的闭包$\overline{H}$是完全的，因此$\Phi$一致收敛于E到映射$u \in \overline{H}$的每个预紧子集。
 
 #### 注 2 {#evt-iii-s3-n8-rem-2 .statement tag=07NI}
 
-令 $(u_n)$ 为从 Banach 空间 E 到 Banach 空间 F 的连续线性映射的序列；可能会发生，$(u_n(x))$ 在 E 的处处密集向量子空间 T 的每个点处都有极限，而序列 $(u_n)$ 不受范数空间 $\mathscr{L}(E; F)$ 的限制。对于例，取E为$\mathbf{R}$上所有连续数值函数的空间，在无穷大处趋向于零，且范数$\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$，令T为具有紧支撑的连续数值函数的子空间。对于所有$f \in T$，从E到$\mathbf{R}$的连续线性映射$f \mapsto nf(n)$的序列收敛于0，但不受$\mathscr{L}_b(E; \mathbf{R})$的限制。同样例表明，在空间$\mathscr{L}(T; \mathbf{R})$中，序列$(v_n)$对于有界收敛的拓扑可能是简单收敛且无界的。
+令 $(u_n)$ 为从 Banach 空间 E 到 Banach 空间 F 的连续线性映射的序列；可能会发生，$(u_n(x))$ 在 E 的处处密集向量子空间 T 的每个点处都有极限，而序列 $(u_n)$ 不受范数空间 $\mathscr{L}(E; F)$ 的限制。例如，取E为$\mathbf{R}$上所有连续数值函数的空间，在无穷大处趋于零，且范数$\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$，并令T为具有紧支持的连续数值函数的子空间。对于所有 $f \in T$，从 E 到 $\mathbf{R}$ 的连续线性映射 $f \mapsto nf(n)$ 的序列收敛于 0，但不受$\mathscr{L}_b(E; \mathbf{R})$ 的限制。同样例表明，在空间$\mathscr{L}(T; \mathbf{R})$中，序列$(v_n)$对于有界收敛的拓扑可能是简单收敛且无界的。
 
 另一方面，连续线性映射$f \mapsto \sum_{k=1}^n f(k)$的序列对于简单收敛的拓扑来说是$\mathscr{L}(T; \mathbf{R})$中的柯西序列，但对于这个拓扑并不倾向于$\mathscr{L}(T; \mathbf{R})$中的极限。
 

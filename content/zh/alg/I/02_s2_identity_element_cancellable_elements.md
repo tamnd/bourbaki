@@ -46,25 +46,25 @@ subsections:
       pdf_page: 47
 statements: 26
 exercises: 17
-content_sha256: b300f2f3e0dafcfc425bf6f40337fc1fdad6240475aac03049a48fa81cf49599
+content_sha256: 4b39b24fac0172ff70c6575f58c2a6d6e5fd6bda66546e220ffbf5a8e6361389
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
 translation_method: google
 source_content_sha256: 4e4d1e772eb5f248a858ce2f9c1dbddee958a8fa5c19120df031143b30855c75
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: bc647597dd984860af355cc6acc5499bd8eb7afbea6526cc0f9e0aa381f4b83b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。 单位元素；可取消元素； 可逆元
 
-### 1. IDENTITY ELEMENT
+### 1. 单位元素
 
 #### 定义 1 {#alg-i-s2-def-1 .statement tag=056M}
 
-Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called an identity element if, for all $x \in E$, $e \top x = x \top e = x$.
+根据集合$E$上的组合定律$\top$，如果对于所有$x \in E$，$e \top x = x \top e = x$，$E$的元素$e$被称为单位元素。
 
 给定律$\top$下最多存在一个单位元素，因为如果$e$和$e'$是单位元素，则$e = e \top e' = e'$。 单位元素对于每个元素都是可置换的：它是中心元素。
 
@@ -88,34 +88,34 @@ Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called a
 
 单一岩浆族（或幺半群）的乘积是单一岩浆（或幺半群）。
 
-单位岩浆（或幺半群）的每个商岩浆都是单位岩浆（或幺半群）。
+单一岩浆（或幺半群）的每个商岩浆都是单一岩浆（或幺半群）。
 
 令$E$为单一岩浆，$e$为单位元素。 $E$的子岩浆$A$使得$e \in A$被称为$E$的单一子岩浆。显然 $e$ 是岩浆 $A$ 的单位元素。每交 $E$ 的单位子岩浆都是 $E$ 的单位子岩浆。如果$X$是$E$的子集，则存在$E$包含$X$的最小的单一子岩浆；称为$X$生成的$E$单一次岩浆；如果 $X$ 为空，则它等于 $\{e\}$。如果$E$是幺半群，则$E$的单位次岩浆称为$E$的子幺半群。
 
-如果$F$是没有单位元素的岩浆，则$F$的子岩浆可能拥有单位元素。对于例，如果 $F$ 是结合律且 $h$ 是 $F$ (I, § 1, no. 4) 的幂等元素，则 $h \uparrow x \uparrow h$ 的集合（其中 $x$ 穿过 $F$）是$F$的次岩浆，$h$为单位元素。
+如果$F$是没有单位元素的岩浆，则$F$的子岩浆可能拥有单位元素。例如，如果 $F$ 是结合律，$h$ 是 $F$ (I, § 1, no. 4) 的幂等元素，则 $h \uparrow x \uparrow h$ 的集合（其中 $x$ 穿过 $F$）是以下岩浆： $F$ 与$h$ 为单位元素。
 
-如果 $E$ 是具有单位元素 $e$ 的岩浆，则 $E$ 的子岩浆 $A$ 使得 $e \notin A$ 可能仍拥有单位元素。
+如果$E$是具有单位元素$e$的岩浆，则$E$的子岩浆$A$使得$e \notin A$可能仍具有单位元素。
 
 #### 定义 3 {#alg-i-s2-def-3 .statement tag=056P}
 
 令 $E$ 为单一岩浆。 $E$的单位元素称为$E$元素空族的合成。
 
-如果$(x_\alpha)_{\alpha \in \varnothing}$是E的元素的空族，则其合成$e$也用$\prod_{\alpha \in \varnothing} x_\alpha$表示。对于例，我们写
+如果$(x_\alpha)_{\alpha \in \varnothing}$是E的元素的空族，则其合成$e$也用$\prod_{\alpha \in \varnothing} x_\alpha$表示。例如，我们写
 $$
 \prod_{q \leq i \leq p} x_i = e
 $$
-当$p < q$（$p, q \in \mathbf{N}$）时。类似地，我们将任意 $x$ 写为 $\prod^0 x = e$。 *使用这些定义定理 1 和 3 § 1 保持为真，如果假设集合 A 和 B_i 非空被抑制。* 类似地，公式 $\prod^{m+n} x = \left( \prod^m x \right) \prod^n \left( \prod^n x \right)$ 和 $\prod^{mn} x = \prod^m \left( \prod^n x \right)$ 对于 $m \geq 0, n \geq 0$ 也为真。
+当$p < q$（$p, q \in \mathbf{N}$）时。类似地，我们将任意 $x$ 写为 $\prod^0 x = e$。 *有了这些定义定理，§ 1的1和3保持为真，如果假设，集合A和B_i非空被抑制。*类似地，公式$\prod^{m+n} x = \left( \prod^m x \right) \prod^n \left( \prod^n x \right)$和$\prod^{mn} x = \prod^m \left( \prod^n x \right)$对于$m \geq 0, n \geq 0$也为真。
 
-令 E 为单一岩浆，其律表示为 $\top$，$e$ 表示为单位元素。 E 的元素家​​庭$(x_i)_{i \in I}$ 的*支持*是指标 $i \in I$ 的集合，使得$x_i \neq e$。令$(x_i)_{i \in I}$是E*与有限支撑*的元素的族。以下两种情况我们应定义合成$\prod_{i \in I} x_i$：
+令 E 为单一岩浆，其律表示为 $\top$，$e$ 表示为单位元素。 E 的元素家庭$(x_i)_{i \in I}$ 的*支持*是指标 $i \in I$ 的集合，使得$x_i \neq e$。令$(x_i)_{i \in I}$是E*与有限支撑*的元素的族。以下两种情况我们应定义合成$\prod_{i \in I} x_i$：
 
-(a) 集合 I 全序；
+(a) 集合 I 是全序的；
 (b) E 是结合律，并且 $x_i$ 是成对可置换的。
 
-在这两种情况下，令 S 为家庭的支持$(x_i)$。如果 J 是 I 包含 S 的有限子集，则 $\prod_{i \in J} x_i = \prod_{i \in S} x_i$，如 J 中元素的数上的归纳所示，在情况 (a) 中，应用定理 1 为 § 1，并且在情况 (b) 中，定理 3 / § 1。令$\prod_{i \in I} x_i$表示合成$\prod_{i \in J} x_i$的公共的值，对于I包含S的所有有限子集。当I是$\mathbf{N}$的区间$[p, \to]$时，我们也写$\prod_{i = p}^\infty x_i$。
+在这两种情况下，令 S 为家庭的支持$(x_i)$。如果 J 是 I 包含 S 的有限子集，则 $\prod_{i \in J} x_i = \prod_{i \in S} x_i$，如 J 中元素的数上的归纳所示，在情况 (a) 中，应用定理 1 为 § 1，并且在情况 (b) 中，定理 3 / § 1。令$\prod_{i \in I} x_i$表示合成$\prod_{i \in J} x_i$的公共的值，对于I包含S的所有有限子集。当I是$\mathbf{N}$的区间$[p, \to]$时，我们还写$\prod_{i = p}^\infty x_i$。
 
-有了这些定义和记号，§ 1和注中的定理 1和3，继定理 3 扩展之后，送给有限支撑的家庭。
+有了这些定义和记号，§ 1和注中的定理 1和3，继定理 3 扩展之后，为有限支撑的家庭提供。
 
-*加法*书写的律的单位元素通常用0表示，称为*零*或*空元素*（或有时*原点*）。在律写作*乘法*时，通常用1表示并称为*单位元*（或*单位*）。
+*加法*书写的律的单位元素通常用0表示，并称为*零*或*空元素*（或有时*原点*）。在律写作*乘法*时，通常用1表示并称为*单位元*（或*单位*）。
 
 ### 2. 可取消元素
 
@@ -125,7 +125,7 @@ $$
 
 在经过与相反的律上，左翻译变成右翻译，反之亦然。
 
-令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；那么
+令$\gamma_a, \delta_a$（或$\gamma(a), \delta(a)$）表示$a \in E$的左右平移；然后
 $$
 \gamma_a(x) = a \top x, \qquad \delta_a(x) = x \top a.
 $$
@@ -147,13 +147,13 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-其他字、映射$x \mapsto \gamma_x$是同态从$E$到$E$的映射的集合$E^E$与律自身结合$(f, g) \mapsto f \circ g$； 映射 $x \mapsto \delta_x$ 是 $E$ 的同态变成集合 $E^E$ 与相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
+其他字、映射$x \mapsto \gamma_x$是同态从$E$到$E$的映射的集合$E^E$与律自身结合$(f, g) \mapsto f \circ g$； 映射 $x \mapsto \delta_x$ 是 $E$ 中的同态变成集合 $E^E$ 以及相反的律。如果 $E$ 是幺半群，则这些同态是单位的。
 
 #### 定义 5 {#alg-i-s2-def-5 .statement tag=056S}
 
 *元素* $a$ *岩浆* $E$ *如果左（或右）平移* $a$ *是单射的，则称为左（或右）可取消（或常规）。左右可取消元素称为可取消（或常规）元素。*
 
-在其他字中，为了使$a$在律$\mathsf{T}$下可取消，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以取消a”）。如果律$\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的翻译就是$E$的恒等映射自身。
+在其他字中，为了使$a$在律$\mathsf{T}$下可消去，关系$a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$中的每一个都暗示$x = y$是必要且充分的（据说这些等式中的每一个都“可以消去a”）。如果律$\mathsf{T}$下存在单位元素$e$，则在该律下可以取消：$\gamma_e$和$\delta_e$的翻译就是$E$的恒等映射自身。
 
 #### 例 {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
@@ -183,11 +183,11 @@ $$
 
 (1) 单位元素是它自己的逆元。
 
-(2) 在 E 的映射的集合到 E 元素中，如果 f 是满射（或单射），则 f 是左可逆的（或右可逆的）。左逆（或右逆）则为与 f（集合理论、II, § 3, no. 8、定义 11）关联的退化（或截面）。为了使 f 可逆，f 为双射是充分必要的。那么它的唯一逆元就是 f 的逆双射。
+(2) 在 E 的映射的集合到 E 元素中，如果 f 是满射（或单射），则 f 是左可逆的（或右可逆的）。左逆（或右逆）是与 f (集合理论、II, § 3, no. 8、定义 11) 关联的退化（或截面）。为了使 f 可逆，f 为双射是充分必要的。那么它的唯一逆元就是 f 的逆双射。
 
 设 E 和 F 是两个单位岩浆，f 是 E 到 F 中的单位同态。如果 x' 是 E 中 x 的逆，f(x') 是 F 中 f(x) 的逆。因此，如果 x 是 E 的可逆元，则 f(x) 是 F 的可逆元。
 
-In particular, if R is an equivalence relation compatible with the law on a unital magma E, the canonical image of an invertible element of E is invertible in E/R.
+特别是，如果 R 是与单位岩浆 E 定律兼容的等价关系，则 E 的可逆元素的规范图像在 E/R 中是可逆的。
 
 #### 命题 3 {#alg-i-s2-prop-3 .statement tag=056X}
 
@@ -237,7 +237,7 @@ $$
 
 设 E 为幺半群；如果 E 的元素的有序序列 $(x_\alpha)_{\alpha \in A}$ 的每个元素 $x_\alpha$ 都有一个逆 $x'_\alpha$，合成 $\prod_{\alpha \in A} x_\alpha$ 都有逆 $\prod_{\alpha \in A'} x'_\alpha$，其中 A' 是通过替换从 A 导出的全序集阶在 A 上，与对面的阶相接。
 
-该推论由 A 中元素的数上的命题 4 通过归纳得出。
+这个推论是从A中元素的数上的归纳从命题4得出的。
 
 特别是，如果 x 和 x' 是倒数，则对于每个整数 $n \geq 0$，$\prod^n x$ 和 $\prod^n x'$ 都是倒数。
 
@@ -259,7 +259,7 @@ $$
 
 在幺半群中，中心可逆元的逆是中心元素。
 
-### 4. 交换幺半群的分数幺群
+### 4. 可交换幺半群的分数幺半群
 
 在这个数中，e 表示幺半群的单位元素，x* 表示 E 的可逆元 x 的逆。
 
@@ -277,7 +277,7 @@ R 是自反且对称的，即直接的。令$x = (a, p), y = (b, q)$和$z = (c, 
 $$
 aq s = bps, \quad br t = cqt,
 $$
-从而由此可见
+从而 it follows that
 $$
 ar(stq) = bpsrt = cp(stq)
 $$
@@ -290,11 +290,11 @@ aqs = bps, \qquad a'q's' = b'p's',
 $$
 从而由此得出$(aa')(qq')(ss') = (bb')(pp')(ss')$，因此$R \{ xx', yy' \}$ 代表$ss' \in S'$。因此，等价关系 $R$ 与$E \times S'$ 上的合成的律兼容。
 
-商 magma $(E \times S')/R$ 是一个交换幺半群。
+商岩浆 $(E \times S')/R$ 是可交换幺半群。
 
 #### 定义 7 {#alg-i-s2-def-7 .statement tag=0576}
 
-*令$E$为可交换幺半群，$E$的$S$子集和由$S$生成的$E$的$S'$子幺半群。商幺半群$(E \times S')/R$，其中等价关系$R$如引理1中所述，用$E_S$表示，称为$E$的分数†的幺半群，与$S$相关（或与$S$).*
+*令$E$为可交换幺半群，$E$的$S$子集和由$S$生成的$E$的$S'$子幺半群。 商幺半群$(E \times S')/R$，其中等价关系$R$如引理1中所述，用$E_S$表示，称为$E$的分数†的幺半群，与$S$相关（或与 $S$).*
 
 对于$(a, p)$模$R$的$a \in E$和$p \in S'$类，一般用$a/p$表示，称为分子$a$分母$p$的分数。然后到定义$(a/p).(a'/|p') = aa'/|pp'$。 分数$a/p$和$a'/|p'$相等当且仅当$S'$和$spa' = sp'a$中存在$s$；如果是，则$S'$中存在$\sigma$和$\sigma'$，以及$a\sigma = a'\sigma'$和$p\sigma = p'\sigma'$。特别是，$a \in E$对应$a/p = sa/sp$，$S'$对应$s, p$。 $E_S$的单位元素是分数$e/e$。
 
@@ -327,7 +327,7 @@ $$
 $$
 对于 $a \in E$ 和 $p \in S'$，从而唯一性 $\bar{f}$。
 
-令 g 为 $E \times S'$ 的映射到由 $g(a,p) = f(a)f(p)^*$ 定义的 F 中。我们证明 g 是 F 中 $E \times S'$ 的同态。首先，
+令g为$E \times S'$的映射到由$g(a,p) = f(a)f(p)^*$定义的F中。我们证明 g 是 F 中 $E \times S'$ 的同态。首先，
 $$
 g(e,e) = f(e)f(e)^* = e.
 $$
@@ -344,15 +344,15 @@ $$
 
 #### 推论 {#alg-i-s2-n4-cor-1 .statement tag=0579}
 
-*设E和F是两个可交换幺半群，S和T分别是E和F的子集，E的f同态进入F，使得$f(S) \subset T$和$\varepsilon : E \to E_S, \eta : F \to F_T$典范同态。存在且仅有一个同态 $g : E_S \to F_T$ 使得 $g \circ \varepsilon = \eta \circ f$。*
+*设E和F是两个可交换幺半群，S和T分别是E和F的子集，E的f同态变成F，使得$f(S) \subset T$和$\varepsilon : E \to E_S, \eta : F \to F_T$典范同态。存在且仅有一个同态 $g : E_S \to F_T$ 使得 $g \circ \varepsilon = \eta \circ f$.*
 
-E 的同态 $\eta \circ f$ 到 S 的每元素到 $F_T$ 的 $F_T$ 映射到可逆元。
+E 的同态 $\eta \circ f$ 到 S 的每元素到 $F_T$ 的可逆元到 $F_T$ 映射。
 
 #### 注 {#alg-i-s2-n4-rem-1 .statement tag=057A}
 
-(1) 定理 1 也可以用说表示，对于 E，$(E_S, \varepsilon)$ 是普遍映射问题的解，相对于幺半群，E 的幺半群同态和同态转化为幺半群， S 的映射元素到可逆元（*集合理论*、IV、、no. 1）。由此可见 (*loc.cit.*)，这个问题中的所有其他解以独特的方式同构于 $(E_S, \varepsilon)$
+(1) 定理 1 也可以用说表示，对于 E，$(E_S, \varepsilon)$ 是普遍映射问题的解，相对于幺半群，E 的幺半群同态和同态转化为幺半群， S 的映射元素到可逆元 (*集合理论*, IV, , no. 1)。由此可见 (*loc.cit.*)，这个问题中的所有其他解都以独特的方式同构于 $(E_S, \varepsilon)$
 
-(2) 对于解对于上述普遍映射问题的存在性，无需假设幺半群E是可交换的，由*集合理论*可知，IV, § 3, no. 2(cf.习题17)。
+(2) 对于解对于上述普遍映射问题的存在性，不必假设幺半群E是可交换的，由*集合理论*，IV, § 3, no. 2(cf.习题17)如下。
 
 我们提到了分数幺半群的两个重要特例。
 
@@ -366,7 +366,7 @@ E 的同态 $\eta \circ f$ 到 S 的每元素到 $F_T$ 的 $F_T$ 映射到可逆
 
 ### 5. 应用：I。理性整数
 
-考虑自然数的交换幺半群 $\mathbf{N}$ 和律合成加法；在此律下，$\mathbf{N}$ 的所有元素均可取消（*集合理论*、III, § 5, no. 2、推论 3）。 $\mathbf{N}$之差群记为$\mathbf{Z}$；它的元素称为*有理整数*；它的律称为有理整数*的*加法，也用+表示。 从$\mathbf{N}$到$\mathbf{Z}$的典范同态是单射的，我们将$\mathbf{N}$的每个元素认同及其在$\mathbf{Z}$中的像。 $\mathbf{Z}$的元素由定义等价类确定，在$\mathbf{N} \times \mathbf{N}$中由关系在$(m_1, n_1)$和$(m_2, n_2)$之间确定，写为$m_1 + n_2 = m_2 + n_1$； $\mathbf{N}$的元素$m$与元素$(m + n, n)$的类由……组成进行识别，其中$n \in \mathbf{N}$；它承认元素$(n, m + n)$的$\mathbf{Z}$类为负。 $\mathbf{N} \times \mathbf{N}$的每个元素$(p, q)$如果$p \geq q$可以写在形式$(m + n, n)$中，如果$p \leq q$则可以写在形式$(n, m + n)$中；由此可见，$\mathbf{Z}$是$\mathbf{N}$的*并，以及集合是$\mathbf{N}$*的元素的负数。 The identity element 0 is the only element of $\mathbf{N}$ whose negative belongs to $\mathbf{N}$.
+考虑自然数的交换幺半群 $\mathbf{N}$ 和律合成加法；在此律下，$\mathbf{N}$的所有元素均可取消（*集合理论*、III, § 5, no. 2、推论3）。 $\mathbf{N}$之差群记为$\mathbf{Z}$；它的元素称为*有理整数*；它的律称为有理整数*的*加法，也用+表示。 从$\mathbf{N}$到$\mathbf{Z}$的典范同态是单射的，我们将$\mathbf{N}$的每个元素认同及其在$\mathbf{Z}$中的像。 $\mathbf{Z}$的元素由定义等价类确定，在$\mathbf{N} \times \mathbf{N}$中由关系在$(m_1, n_1)$和$(m_2, n_2)$之间确定，写为$m_1 + n_2 = m_2 + n_1$； $\mathbf{N}$的元素$m$与元素$(m + n, n)$的类由……组成进行识别，其中$n \in \mathbf{N}$；它承认元素$(n, m + n)$的$\mathbf{Z}$类为负。 $\mathbf{N} \times \mathbf{N}$的每个元素$(p, q)$如果$p \geq q$可以写在形式$(m + n, n)$中，如果$p \leq q$则可以写在形式$(n, m + n)$中；由此可见，$\mathbf{Z}$是$\mathbf{N}$的*并，以及集合是$\mathbf{N}$*的元素的负数。 单位元 0 是 $\mathbf{N}$ 中唯一一个负数属于 $\mathbf{N}$ 的元素。
 
 对于每个自然数$m$，$-m$表示$m$的负有理数整数，$-\mathbf{N}$表示$m \in \mathbf{N}$的元素$-m$的集合。然后
 
@@ -386,7 +386,7 @@ $$
 
 更一般地，$-x$ 用于表示任意有理数整数 $x$ 的负数； 合成 $x + (-y)$ 缩写为 $x - y$ (cf. no. 8)。
 
-自然数之间的序关系$\leq$具有以下性质的特征：$m \leq n$当且仅当存在整数$p \in \mathbf{N}$使得$m + p = n$（*集合理论*，III, § 3, no. 6，命题 13 和 § 5, no. 2、命题 2)。有理整数 $x$ 和 $y$ 之间的关系 $y - x \in \mathbf{N}$ 是 $\mathbf{Z}$ 上的 *总计阶* 关系，其中 $\mathbf{N}$ 上的扩展序关系 $\leq$。对于，对于所有$x \in \mathbf{Z}$，$x - x = 0 \in \mathbf{N}$；如果$y - x \in \mathbf{N}$和$z - y \in \mathbf{N}$，那么
+自然数之间的序关系$\leq$具有以下性质的特征：$m \leq n$当且仅当存在整数$p \in \mathbf{N}$使得$m + p = n$(*集合理论*,III, § 3, no. 6, 命题 13 和 § 5, no. 2、命题 2)。有理数整数 $x$ 和 $y$ 之间的关系 $y - x \in \mathbf{N}$ 是 $\mathbf{Z}$ 上的 *总计阶* 关系，其中 $\mathbf{N}$ 上的扩展序关系 $\leq$。对于，对于所有$x \in \mathbf{Z}$，$x - x = 0 \in \mathbf{N}$；如果$y - x \in \mathbf{N}$和$z - y \in \mathbf{N}$，那么
 
 $$
 z - x = (z - y) + (y - x) \in \mathbf{N},
@@ -394,17 +394,17 @@ $$
 
 对于$\mathbf{N}$在加法下是稳定的；如果$y - x \in \mathbf{N}$和$x - y \in \mathbf{N}$，则$y - x = 0$，因为0是$\mathbf{N}$中唯一的元素，其负属于到$\mathbf{N}$；对于任意有理数整数 $x$ 和 $y$、$y - x \in \mathbf{N}$ 或 $x - y \in \mathbf{N}$，对于 $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$；最后，如果$x$和$y$是自然数，则$y - x \in \mathbf{N}$当且仅当存在$p \in \mathbf{N}$使得$x + p = y$。这个序关系也用$\leq$表示。
 
-从此以后，当 $\mathbf{Z}$ 被认为是有序的集合时，它始终是除非，否则会提到，根据刚刚定义的排序，自然数被标识为整数 $\geq 0$；它们也被称为*正*整数； 整数 $\leq 0$，正整数的负数，称为*负数* 整数； 整数 $> 0$（分别为 $< 0$）被称为*严格正数*（分别为*严格负数*）； 整数$> 0$中的集合是有时，用$\mathbf{N}^*$表示。
+从此以后，当 $\mathbf{Z}$ 被认为是有序的集合时，它始终是除非，否则会提到，根据刚刚定义的排序，自然数被标识为整数 $\geq 0$；它们也被称为*正*整数； 整数 $\leq 0$，正整数的负数，称为*负数* 整数； 整数 $> 0$（分别为 $< 0$）被称为*严格正数*（分别为*严格负数*）； 整数$> 0$的集合是有时，用$\mathbf{N}^*$表示。
 
-设$x$、$y$、$z$为三个有理数整数；那么 $x \leq y$ 当且仅当 x + z \leq y + z。对于 x - y = (x + z) - (y + z)。这个性质用说表示，$\mathbf{Z}$上的序关系在平移下是不变的。
+设$x$、$y$、$z$为三个有理数整数；那么 $x \leq y$ 当且仅当 x + z \leq y + z。对于 x - y = (x + z) - (y + z)。这个性质由说表示，$\mathbf{Z}$上的序关系在翻译下是不变的。
 
-### 6. 应用：II。有理数乘法整数
+### 6. 应用：II。有理乘法整数
 
 #### 引理 2 {#alg-i-s2-lem-2 .statement tag=057B}
 
 设 E 为幺半群，且 E 的 x 元素。
     (i) E 中存在 $\mathbf{N}$ 的唯一同态 f，对于所有$n \in \mathbf{N}$，$f(1) = x$ 和 $f(n) = \frac{n}{1} x$。
-    (ii) 如果 x 可逆，则存在 $\mathbf{Z}$ 的唯一同态 g 进入 E，使得 $g(1) = x$ 和 g 重合，且 f 在 $\mathbf{N}$ 上。
+    (ii) 如果 x 可逆，则在 E 中存在 $\mathbf{Z}$ 的唯一同态 g，使得 $g(1) = x$ 和 g 重合，且 f 在 $\mathbf{N}$ 上。
 
     为所有 $n \in \mathbf{N}$、公式写$f(n) = \frac{n}{1} x$
     $$
@@ -412,9 +412,9 @@ $$
     $$
     (no. 1) 将f 是$\mathbf{N}$ 的同态的事实表达到E 中，显然是$f(1) = x$。如果$f'$是将$\mathbf{N}$的同态代入E，使得$f'(1) = x$，则$f = f'$乘以§ 1, no. 4，命题1，(iv)。
 
-现在假设 x 是可逆的。根据no. 3，推论2到命题4，$f(n) = \frac{n}{1} x$对于每个整数$n \geq 0$都是可逆的。通过构造，$\mathbf{Z}$ 是 $\mathbf{N}$ 之差的群，因此 (no. 4, 定理 1) f 扩展与 $\mathbf{Z}$ 的同态 g 唯一到 E。如果 $g'$ 是$\mathbf{Z}$的同态与$g'(1) = x$进入E，$g'$至$\mathbf{N}$的限制$f'$是$\mathbf{N}$的同态与$f'(1) = x$进入E。因此$f' = f$，从而$g' = g$。
+现在假设 x 是可逆的。从 no. 3、推论 2 到命题 4，$f(n) = \frac{n}{1} x$ 对于每个整数 $n \geq 0$ 都是可逆的。通过构造，$\mathbf{Z}$ 是 $\mathbf{N}$ 之差的群，因此 (no. 4, 定理 1) f 扩展与 $\mathbf{Z}$ 的同态 g 唯一到 E。如果 $g'$ 是$\mathbf{Z}$的同态与$g'(1) = x$进入E，$g'$至$\mathbf{N}$的限制$f'$是$\mathbf{N}$的同态与$f'(1) = x$进入E。因此$f' = f$，从而$g' = g$。
 
-    我们将引理 2应用于幺半群E为$\mathbf{Z}$的情况；因此，对于每个整数$m \in \mathbf{Z}$，都存在$\mathbf{Z}$的自同态$f_m$，其特征为$f_m(1) = m$。如果m在$\mathbf{N}$，$\mathbf{N}$的映射$n \mapsto mn$进入$\mathbf{N}$是岩浆$\mathbf{N}$的自同态（集合理论，III, § 3, no. 3，推论到命题5）；因此$f_m(n) = mn$对于$\mathbf{N}$中的所有$m, n$。
+    我们将引理 2应用于幺半群E为$\mathbf{Z}$的情况；因此，对于每个整数$m \in \mathbf{Z}$，都存在$\mathbf{Z}$的自同态$f_m$，其特征为$f_m(1) = m$。如果m在$\mathbf{N}$，$\mathbf{N}$的映射$n \mapsto mn$进入$\mathbf{N}$，则岩浆$\mathbf{N}$的自同态（集合理论，III, § 3, no. 3，推论到命题5);因此$f_m(n) = mn$对于$\mathbf{N}$中的所有$m, n$。
 
     因此，$\mathbf{N}$上的乘法可以通过$\mathbf{Z}$中的$m, n$的公式$mn = f_m(n)$延长至$\mathbf{Z}$上的乘法。我们将建立公式：
 
@@ -426,15 +426,15 @@ $$
     (7) $$ 1.x = x.1 = x $$
     (8) $$ (-1).x = x.(-1) = -x $$
 
-对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，并且$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$映射 1 到$-x$的自同态$y \mapsto -xy$，从而$(-x).y = -xy$因此
+对于 $\mathbf{Z}$ 中的 $x, y, z$。 （*在其他字中，$\mathbf{Z}$是交换环。*）公式$x(y+z) = xy + xz$和$x.0 = 0$表示$f_x$是加性幺半群$\mathbf{Z}$的自同态，$f_x(1) = x$可以写成$x.1 = x$。 $\mathbf{Z}$ 映射 1 到 $xy$ 的自同态 $f_x \circ f_y$，因此等于 $f_{xy}$、从而 (3)。 现在$f_x(-y) = -f_x(y)$，即$x(-y) = -xy$；类似地，$\mathbf{Z}$的自同态$y \mapsto -xy$将1映射到$-x$，由此产生$(-x).y = -xy$，因此
 $$
 (-x)(-y) = -(x(-y)) = -(-xy) = xy.
 $$
-对于$\mathbf{N}$中的$m, n$、$mn = nm$（集合理论、III, § 3, no. 3、命题5的推论）、从而$(-m).n = n(-m)$和$(-m)(-n) = (-n)(-m)$；作为 $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$、$xy = yx$ 对应 $\mathbf{Z}$ 中的 $x, y$；这个公式意味着(5)由(4)引出并完成公式(6)到(8)的证明。
+对于$\mathbf{N}$、$mn = nm$中的$m, n$（集合论，III, § 3, no. 3，命题5的推论），由此产生$(-m).n = n(-m)$和$(-m)(-n) = (-n)(-m)$；作为 $\mathbf{Z} = \mathbf{N} \cup (-\mathbf{N})$、$xy = yx$ 对应 $\mathbf{Z}$ 中的 $x, y$；该式意味着(5)由(4)推导出来，完成了式(6)至(8)的证明。
 
 ### 7. 应用：III。广义幂
 
-令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；通过引理 2，此记号与 $n \in \mathbf{N}$ 和之前介绍的记号兼容。然后
+令 E 为幺半群，其中单位元素 $e$ 和合成的律表示为 $\top$。如果 $x$ 在 E 中可逆，则令 $g_x$ 为 $\mathbf{Z}$ 的同态到 E 映射 1 到 $x$。让$g_x(n) = \frac{n}{\top} x$代表所有$n \in \mathbf{Z}$；到引理 2 为止，此记号与 $n \in \mathbf{N}$ 和之前介绍的记号兼容。然后
 $$
 \begin{align*}
 \text{(9)} \quad & \frac{m+n}{\top} x = \left( \frac{m}{\top} x \right) \top \left( \frac{n}{\top} x \right) \\
@@ -446,7 +446,7 @@ $$
 $$
 \text{(12)} \quad \frac{mn}{\top} x = \frac{n}{\top} \left( \frac{m}{\top} x \right).
 $$
-由于$-1$是$\mathbf{Z}$中1的负数，$\frac{-1}{\top} x$是E中$x = \frac{1}{\top} x$的倒数。如果我们在(9)中写出$n = -m$，则可见$\frac{-m}{\top} x$是$\frac{m}{\top} x$的倒数。
+由于$-1$是$\mathbf{Z}$中1的负数，$\frac{-1}{\top} x$是E中$x = \frac{1}{\top} x$的倒数。如果我们将$n = -m$写在（9）中，可以看出$\frac{-m}{\top} x$是$\frac{m}{\top} x$的倒数。
 
 ### 8. 记号
 
@@ -474,7 +474,7 @@ $$
 m.(n.x) = (mn).x
 $$
 
-其中$m$和$n$属于到$\mathbf{N}$，或者如果$x$承认负数，甚至到$\mathbf{Z}$。在后一种情况下，关系$(-1).x = -x$也成立。我们还有注公式
+其中$m$和$n$属于到$\mathbf{N}$，或者如果$x$承认负数，甚至到$\mathbf{Z}$。在后一种情况下，关系$(-1).x = -x$也成立。我们还注意到公式
 
 (17) $$
 n.(x + y) = n.x + n.y.

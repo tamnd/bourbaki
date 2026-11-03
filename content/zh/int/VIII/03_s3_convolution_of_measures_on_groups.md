@@ -25,19 +25,19 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: f623685fe3c5cb415a35041b396c446990bff63ca3e311909a62c585b57f30e9
+content_sha256: bd6cd5c85f3b5110c572cf5e48306ea01efa076671c36c117ba158e8fad4ae4f
 translated_from: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
 translation_method: google
 source_content_sha256: fbb17d2d8dfca6f7e44cfa7592c87c0769532c38cc2550dc3a50ed837fd6ab29
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: b8803f15902e2f655ddeb1e3bb645c0fb04bf7302d500133d4f009eb1cdcee6c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。 群上的测量卷积
+## § 3。 群上的度量卷积
 
 ### 1. 代数措施
 
@@ -181,7 +181,7 @@ $$
 
 这是从 §1, No. 2，Cor. 得出的。提案 1。
 
-#### 推论{#int-viii-s3-n1-cor-1 .statement tag=09JI}
+#### 推论 {#int-viii-s3-n1-cor-1 .statement tag=09JI}
 
 *设 G 为 G 上的局部紧致群，$\mu_1, \ldots, \mu_n$ 的度量。为了使序列 $(\mu_i)_{1 \leq i \leq n}$ 可卷积，序列 $(\check{\mu}_{n-i})_{0 \leq i \leq n-1}$ 是可卷积的充分必要，在这种情况下*
 
@@ -193,13 +193,13 @@ $$
 
 ### 2. 群在空间上运行的案例
 
-令 X 为局部紧致空间，其上局部紧致群 G 在左侧连续运算
+令 X 为局部紧致空间，其上局部紧致群 G 在左侧连续运算：
 
 $$
 (s, x) \mapsto s \cdot x.
 $$
 
-如果 $\mu_1, \ldots, \mu_n$ 是 G 上的测度，$\nu$ 是 X 上的测度，如果它们对于 $G^n \times X$ 的映射 $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ 进入X 是这样，那么这些将被认为是可卷积的，并且它们的卷积乘积可以这样理解映射。
+如果 $\mu_1, \ldots, \mu_n$ 是 G 上的测度，$\nu$ 是 X 上的测度，如果它们对于 $G^n \times X$ 的映射 $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ 到 X 都是可卷积的，并且它们的卷积乘积可以这样理解映射。
 
 如果$s \in G$和$x \in X$，那么
 
@@ -280,7 +280,7 @@ $$
 
 定义共 $\gamma(\lambda)$。
 
-#### 推论{#int-viii-s3-n3-cor-1 .statement tag=09JO}
+#### 推论 {#int-viii-s3-n3-cor-1 .statement tag=09JO}
 
 * $\mathscr{C}'(G) \times \mathscr{M}(X)$到$\mathscr{M}(X)$的映射$(\lambda, \mu) \mapsto \lambda * \mu$相对于$\mathscr{C}'(G)$的等连续子集和$\mathscr{M}(X)$的紧致子集是次连续的（$\mathscr{C}'(G)$和$\mathscr{M}(X)$配备紧致收敛的拓扑）分别为$\mathscr{C}(G)$和$\mathscr{H}(X)$）。*
 

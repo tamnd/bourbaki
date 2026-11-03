@@ -34,16 +34,16 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 468b9d093970c66703b4448d2936d61b07b0fad553ea0e61ab08105bbd338fd7
+content_sha256: 56388dbd23c8d0dbd0e40c49840723ed685622dc2a48cdcb71f5e58dbc8125cf
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
 translation_method: google
 source_content_sha256: b07b7ce28c5ec4cebf51e51a369145ff5f0d99cab971bd69c71b3b417b968e57
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: a4059062375a279deb2d56011bf5ed0b00be8460e31d526b645325c871200707
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 4. 自然整数。有限集合
@@ -52,7 +52,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#ens-iii-s4-def-1 .statement tag=03R9}
 
-*如果 $\alpha \ne \alpha + 1$，基数 $\alpha$ 被认为是有限的。有限基数也称为自然整数（如果不存在混淆风险，则简称为整数 [^1]）。如果 $\operatorname{Card}(E)$ 是有限基数，则集合 $E$ 被称为有限；然后$\operatorname{Card}(E)$被称为$E$的元素的数。*
+*如果 $\alpha \ne \alpha + 1$，则基数 $\alpha$ 被认为是有限的。有限的基数也称为自然的整数（如果不存在混淆风险，则简称为整数 [^1]）。如果 $\operatorname{Card}(E)$ 是有限的基数，则称集合 $E$ 是有限的； $\operatorname{Card}(E)$则称为$E$的元素的数。*
 
 如果一个家庭 (章 II, § 3, no. 4) 的指标集合是有限的，则称其为“有限”。
 
@@ -60,25 +60,25 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 命题 1 {#ens-iii-s4-prop-1 .statement tag=03RA}
 
-*基数$\alpha$是有限的当且仅当$\alpha + 1$是有限的。*
+*基数 $\alpha$ 是有限的当且仅当 $\alpha + 1$ 是有限的。*
 
-对于关系$\alpha = \mathfrak{b}$和$\alpha + 1 = \mathfrak{b} + 1$，基数$\alpha$和$\mathfrak{b}$之间是等价的（§ 3, no. 4，命题8）；因此，关系 $\alpha \ne \alpha + 1$ 和 $\alpha + 1 \ne (\alpha + 1) + 1$ 是等价的。
+对于关系 $\alpha = \mathfrak{b}$ 和 $\alpha + 1 = \mathfrak{b} + 1$，基数 $\alpha$ 和 $\mathfrak{b}$ 是等效的（§ 3, no. 4、命题 8）；因此，关系 $\alpha \ne \alpha + 1$ 和 $\alpha + 1 \ne (\alpha + 1) + 1$ 是等价的。
 
-¶ 显然$0 \ne 1$；因此$0$是整数。由此可见$1$和$2$是整数。基数$2 + 1$和$(2 + 1) + 1$是整数，分别用$3$和$4$表示。
+¶ 显然$0 \ne 1$；因此$0$是整数。由此可见$1$和$2$是整数。 基数$2 + 1$和$(2 + 1) + 1$是整数，分别用$3$和$4$表示。
 
 ### 2. 整数之间的不等式
 
 #### 命题 2 {#ens-iii-s4-prop-2 .statement tag=03RB}
 
-*令$n$为整数。那么每个基数$\alpha$使得$\alpha \le n$是整数。如果$n \ne 0$，则存在唯一的整数$m$，使得$n = m + 1$，并且关系$\alpha < n$相当于$\alpha \le m$。*
+*令$n$为整数。然后每个基数$\alpha$使得$\alpha \le n$是整数。如果$n \ne 0$，则存在唯一的整数$m$，使得$n = m + 1$，并且关系$\alpha < n$相当于$\alpha \le m$。*
 
-如果$\alpha \le n$，则存在基数$\mathfrak{b}$使得$n = \alpha + \mathfrak{b}$（§ 3, no. 6，命题13）。那么 $(\alpha + 1) + \mathfrak{b} = (\alpha + \mathfrak{b}) + 1 = n + 1$ (§ 3, no. 3, 命题 5, 推论);从$n \ne n + 1$开始，我们有
+如果$\alpha \le n$，则存在基数$\mathfrak{b}$使得$n = \alpha + \mathfrak{b}$（§ 3, no. 6，命题13）。然后$(\alpha + 1) + \mathfrak{b} = (\alpha + \mathfrak{b}) + 1 = n + 1$(§ 3, no. 3,命题5,推论);从$n \ne n + 1$开始，我们有
 
 $$
 (\alpha + 1) + \mathfrak{b} \ne \alpha + \mathfrak{b}.
 $$
 
-因此$\alpha + 1 \ne \alpha$，这意味着$\alpha$是整数。如果$n \ne 0$，我们有$n \ge 1$（§ 3, no. 2），因此存在一个唯一的基数$m$，使得$n = m + 1$（§ 3, no. 6，命题13和no. 4，命题8）。从$m \leqslant n$开始，$m$就是整数，已经证明。最后，如果整数$a$使得$a < n$，我们有$n = a + b$，$b \neq 0$（§ 3, no. 6，命题13）；因为$b$是整数，所以我们有$b = c + 1$和$n = m + 1 = (a + c) + 1$。由此可见$m = a + c$ (§ 3, no. 4, 命题 8)，因此$a \leqslant m$。相反，如果$a \leqslant m$，我们有
+因此$\alpha + 1 \ne \alpha$，这意味着$\alpha$是整数。如果$n \ne 0$，我们有$n \ge 1$（§ 3, no. 2），因此存在唯一的基数$m$，使得$n = m + 1$（§ 3, no. 6，命题13和no. 4，命题8）。从$m \leqslant n$开始，$m$就是整数，已经证明。最后，如果整数$a$使得$a < n$，我们有$n = a + b$，其中$b \neq 0$（§ 3, no. 6，命题13）；因为$b$是整数，所以我们有$b = c + 1$和$n = m + 1 = (a + c) + 1$。由此可见$m = a + c$ (§ 3, no. 4, 命题 8)，因此$a \leqslant m$。相反，如果$a \leqslant m$，我们有
 
 $$a \leqslant m + 1 = n;$$
 
@@ -104,7 +104,7 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 #### 推论 3 {#ens-iii-s4-prop-2-cor-3 .statement tag=03RE}
 
-*如果* $f$ *是有限集合* E *到集合* F 的映射，*则* $f(\mathrm{E})$ *是* F 的有限子集。
+*如果* $f$ *是有限集合* E *到集合* F的映射，*那么* $f(\mathrm{E})$ *是* F的有限子集。
 
 对于 $\mathrm{Card}\ (f(\mathrm{E})) \leqslant \mathrm{Card}\ (\mathrm{E})$（§ 3, no. 2、命题 3）。
 
@@ -114,13 +114,13 @@ $$\mathrm{Card}\ (\mathrm{X}) < \mathrm{Card}\ (\mathrm{E})$$
 
 (a) $f$ *为单射*；
 (b) $f$ *是一个满射*；
-(c) $f$ *为双射.*
+(c) $f$ *是双射。*
 
-只要证明(a)和(b)是等价的就足够了。如果$f$是单射的，则$\mathrm{Card}(f(\mathrm{E})) = \mathrm{Card}\,(\mathrm{E}) = \mathrm{Card}\,(\mathrm{F})$，从而$f(\mathrm{E}) = \mathrm{F}$（推论2）。如果$f$不是单射，则令$x$和$x'$是E的两个元素，使得$x \neq x'$和$f(x) = f(x')$。然后，代入$\mathrm{E}' = \mathrm{E} - \{x\}$，根据推论2，我们有$f(\mathrm{E}') = f(\mathrm{E})$，从而$\mathrm{Card}(f(\mathrm{E})) \leqslant \mathrm{Card}\,(\mathrm{E}') < \mathrm{Card}\,(\mathrm{E})$；但从$\mathrm{Card}\,(\mathrm{F}) = \mathrm{Card}\,(\mathrm{E})$开始，就得出$f(\mathrm{E}) \neq \mathrm{F}$。
+只要证明(a)和(b)是等价的就足够了。如果 $f$ 是单射，则 $\mathrm{Card}(f(\mathrm{E})) = \mathrm{Card}\,(\mathrm{E}) = \mathrm{Card}\,(\mathrm{F})$, 从而 $f(\mathrm{E}) = \mathrm{F}$ (推论 2)。如果$f$不是单射，则令$x$和$x'$是E的两个元素，使得$x \neq x'$和$f(x) = f(x')$。然后，放入$\mathrm{E}' = \mathrm{E} - \{x\}$，根据推论 2，我们有$f(\mathrm{E}') = f(\mathrm{E})$，从而$\mathrm{Card}(f(\mathrm{E})) \leqslant \mathrm{Card}\,(\mathrm{E}') < \mathrm{Card}\,(\mathrm{E})$；但从$\mathrm{Card}\,(\mathrm{F}) = \mathrm{Card}\,(\mathrm{E})$开始，就得出$f(\mathrm{E}) \neq \mathrm{F}$。
 
 ### 3. 归纳原理
 
-C61（原理 / 归纳）。 *设* $R\{n\}$ *理论上为关系* $\mathscr{T}$ *（其中n不是* $\mathscr{T}$*的常量）。* *假设关系*
+C61（原理 / 归纳）。 *设* $R\{n\}$ *为理论* $\mathscr{T}$ *中的关系 *（其中n不是* $\mathscr{T}$*的常量）。* *假设关系*
 
 $$R\{0\} \quad \text{and} \quad (\forall n)((n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\})$$
 
@@ -134,7 +134,7 @@ $$(\forall n)((n \text{ is an integer}) \Rightarrow R\{n\})$$
 
 $$(\exists n)(n \text{ is an integer and } (\text{not } R\{n\}))$$
 
-是真的。令$q$为整数，这样“不是$R\{q\}$”（辅助常数的方法；cf.章I, § 3, no. 3和§ 4, no. 1）。 整数$n$，其中“$n \leqslant q$和（不是$R\{n\}$）”形式是一个良序非空集合（§ 3, no. 2，注），因此它至少有元素$s$。如果$s = 0$，则“不是$R\{0\}$”，与假设相反。如果 $s > 0$，则$s = s' + 1$，其中 $s'$ 是整数，使得 $s' < s$ (no. 2，命题 2)。通过$s$的定义，我们有$R\{s'\}$，但是假设意味着$R\{s\}$为真，与$s$的定义相反。
+是真的。令$q$为整数，使得“不是$R\{q\}$”（辅助常数的方法；cf.章I, § 3, no. 3和§ 4, no. 1）。 整数$n$，其中“$n \leqslant q$和（不是$R\{n\}$）”形式是一个良序非空集合（§ 3, no. 2，注），因此它至少有元素$s$。如果$s = 0$，则“不是$R\{0\}$”，与假设相反。如果 $s > 0$，则$s = s' + 1$，其中 $s'$ 是整数，使得 $s' < s$ (no. 2，命题 2)。通过$s$的定义，我们有$R\{s'\}$，但是假设意味着$R\{s\}$为真，与$s$的定义相反。
 
 在序申请归纳原理特别需要证明关系
 
@@ -144,7 +144,7 @@ $$(n \text{ is an integer and } R\{n\}) \Rightarrow R\{n+1\}.$$
 
 #### 注 {#ens-iii-s4-n3-rem-1 .statement tag=077T}
 
-有各种判据，经常以“归纳的原理”的名称使用。它们都可以很容易地从 C61 推导出来，我们在这里指出其中最重要的：
+有各种判据，经常以“归纳的原理”的名义使用。它们都可以很容易地从 C61 推导出来，我们在这里指出其中最重要的：
 
 (1) 设$S\{n\}$为关系
 
@@ -194,7 +194,7 @@ $$R\{a\} \text{ and } (\forall n)((n \text{ is an integer and } a \leqslant n < 
 
 $$(\forall n)((n \text{ is an integer and } a \leqslant n \leqslant b) \Rightarrow R\{n\})$$
 
-是真的。 证明与上例类似；我们将$S\{n\}$视为关系“$(a \leqslant n < b) \Rightarrow R\{n\}$”（“*归纳限制在一个区间*”）。
+是真的。 证明与上例类似；我们将$S\{n\}$视为关系“$(a \leqslant n < b) \Rightarrow R\{n\}$”（“*归纳限制为区间*”）。
 
 (4) 设$a$、$b$为两个整数，使得$a \leqslant b$，并令$\mathrm{R}\{n\}$为关系，使得
 
@@ -208,9 +208,9 @@ $$(\forall n)((n \text{ is an integer and } a \leqslant n \leqslant b) \Rightarr
 
 $(n$ 是整数和$a \leqslant n < b$ 并且（不是$\mathrm{R}\{n\}$））$\Rightarrow$ 不是$\mathrm{R}\{n+1\}$。
 
-如果对于某些$n$，这样我们有$a \leqslant n \leqslant b$（不是$\mathrm{R}\{n\}$），则可以从（3）得出（不是$\mathrm{R}\{b\}$），与假设、从而相反，结果（*“降序归纳”*）。
+如果对于某些$n$，这样我们有$a \leqslant n \leqslant b$（不是$\mathrm{R}\{n\}$），则可以从（3）得出（不是$\mathrm{R}\{b\}$），与假设、从而结果相反（*“降序归纳”*）。
 
-### 4. 有限子集共有序集
+### 4. 有限子集 / 有序集
 
 #### 命题 3 {#ens-iii-s4-prop-3 .statement tag=03L9}
 
@@ -226,7 +226,7 @@ $(n$ 是整数和$a \leqslant n < b$ 并且（不是$\mathrm{R}\{n\}$））$\Rig
 
 *每个有限有序集合都有极大元素。*
 
-对于这样的集合由推论 1 (cf. § 2, no. 4, 定理 2) 归纳。
+对于这样的集合可归纳为推论 1 (cf. § 2, no. 4, 定理 2)。
 
 ### 5. 有限特征标的性质
 
@@ -234,7 +234,7 @@ $(n$ 是整数和$a \leqslant n < b$ 并且（不是$\mathrm{R}\{n\}$））$\Rig
 
 *令*E *为集合。 集合* $\mathfrak{S}$ *of 子集 of* E * 被认为是有限的特征标，如果关系* $\mathrm{X} \in \mathfrak{S}$ *等价于关系“每有限子集 of* X *属于到* $\mathfrak{S}$”。
 
-A property $P\{X\}$ of a subset $X$ of a set $E$ is said to be *of finite character* if the set of subsets $X$ of $E$ for which $P\{X\}$ is true is of finite character.
+如果 $P\{X\}$ 为真的 $E$ 的子集 $X$ 的集合具有有限字符，则集合 $E$ 的子集 $X$ 的属性 $P\{X\}$ 被称为“有限字符”。
 
 *例*
 
@@ -254,7 +254,7 @@ A property $P\{X\}$ of a subset $X$ of a set $E$ is said to be *of finite charac
 
 *集合$E$的子集的每个集合$\mathfrak{S}$，其有限特征标都有极大元素（按包含排序时）。*
 
-通过定理 2 of § 2, no. 4 足以证明 $\mathfrak{S}$ 是归纳性的。为此，我们将证明，如果$\mathfrak{G}$是完全按包含排序的$\mathfrak{S}$中的任何子集，则$\mathfrak{G}$属于到$\mathfrak{S}$的集合到并$X$（§ 2, no. 4，定理） 2、推论2)。由于$\mathfrak{S}$是有限的特征标，因此足以证明$X$属于到$\mathfrak{S}$的每一个有限子集$Y$。现在，对于每个$y \in Y$，都存在集合$Z_y \in \mathfrak{G}$，这样$y \in Z_y$。由于集合 $Z_y$ $(y \in Y)$ 的集合是有限的且按包含全序，因此有最大元素 $S$（no. 4，推论 1 至命题 3）；在其他字中，存在集合$S \in \mathfrak{G}$使得$Y \subset S$。但是由于 $S \in \mathfrak{S}$ 和 $Y$ 是 $S$ 的有限子集，我们有 $Y \in \mathfrak{S}$，因为 $\mathfrak{S}$ 是有限的特征标；这样就完成了证明。
+通过定理 2 of § 2, no. 4 足以证明 $\mathfrak{S}$ 是归纳性的。为此，我们将证明，如果$\mathfrak{G}$是完全按包含排序的$\mathfrak{S}$中的任何子集，则$\mathfrak{G}$属于到$\mathfrak{S}$的集合到并$X$（§ 2, no. 4，定理） 2、推论2)。由于$\mathfrak{S}$是有限的特征标，因此足以证明$X$属于到$\mathfrak{S}$的每一个有限子集$Y$。现在，对于每个$y \in Y$，都存在集合$Z_y \in \mathfrak{G}$，这样$y \in Z_y$。由于集合 $Z_y$ $(y \in Y)$ 的集合是有限的并且按包含全序，因此它有最大元素 $S$ (no. 4, 推论 1 到命题 3)；在其他字中，存在集合$S \in \mathfrak{G}$使得$Y \subset S$。但由于$S \in \mathfrak{S}$和$Y$是$S$的有限子集，我们有$Y \in \mathfrak{S}$，因为$\mathfrak{S}$是有限的特征标；这样就完成了证明。
 
 ### 习题{#ens-iii-s4-exercises}
 

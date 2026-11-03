@@ -14,19 +14,19 @@ pdf_pages: 0693-0700
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 46d1d88ca7d487ad9033141fcbb057f45b186b375b3c7491ea2dfbf828e2cb50
+content_sha256: 6bfea1a1e6a028d8a8adf6d89efa8ea18d3b5099e4aa4bfd379193a89e4bf7d9
 translated_from: content/en/alg/index_of_notation_i_iii.md
 translation_method: google
 source_content_sha256: ab977e714dfb7bd1ea0574a28a3bda3573a0bef633fce16f45d52989cb947e43
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c18ff7917ee0a95e567d5d9784302ba235a41bc2088f37a48d5822ab950aa0f6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 $x+y$、$x.y$、$xy$、$x\top y$、$x\perp y$：I, § 1, no. 1。
 $X\top Y$、$X+Y$、$XY$（$X$、$Y$子集）：I, § 1, no. 1。

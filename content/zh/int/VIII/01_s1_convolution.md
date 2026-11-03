@@ -32,16 +32,16 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 4ebb72a64c37ed2e2f57013aa0bcb6f2438077b6c834efb95508349ce400d0e0
+content_sha256: 490231caf2eb1712049feb12778e19801790d1ea1c1180e681778be1f307745b
 translated_from: content/en/int/VIII/01_s1_convolution.md
 translation_method: google
 source_content_sha256: cafcb1e20437900405f17cddf757448f37ab32581cc26e5e2a03bda1d34c2c66
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 34dbf3cd795775435f5f17a2d8911112d23702de64b98fbb83ea744ddd14a994
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。卷积
@@ -105,7 +105,7 @@ $$
 
 (1) Monoïde，Exer 意义上的。第 17 章。 VII, §1。
 
-幺半群 $M$ (A, III, §2, No. 10) 的代数；我们注以下两种特殊情况：
+幺半群 $M$ (A, III, §2, No. 10) 的代数；我们注意到以下两种特殊情况：
 
 a) $M = N$，合成中的律为加法。对于$N$上的每一个小节$\mu$，让我们将正式的级数联系起来
 
@@ -113,9 +113,9 @@ $$
 S(\mu) = \sum_{n=0}^{\infty} \mu(\{n\}) t^n
 $$
 
-在不确定的 $t$ 中。然后$S(\mu * \mu') = S(\mu)S(\mu')$。类似的注适用于任何数不定式中的形式级数。
+在不确定的 $t$ 中。然后$S(\mu * \mu') = S(\mu)S(\mu')$。类似的注适用于任何数不定式中的正式级数。
 
-$*b)$$M = N^*$，合成中的律为乘法。对于 $N^*$ 上的每一个小节 $\mu$，让我们关联正式的狄利克雷级数
+$*b)$$M = N^*$，合成中的律为乘法。对于$N^*$上的每一个小节$\mu$，让我们将形式狄利克雷级数联系起来
 
 $$
 D(\mu) = \sum_{n=1}^{\infty} \mu(\{n\}) n^{-s}.
@@ -123,7 +123,7 @@ $$
 
 然后$D(\mu * \mu') = D(\mu)D(\mu')$。
 
-3) 令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$。如果$x \in X$和$\mu$是$Y$的测度，则说$\varepsilon_x$和$\mu$是$\varphi$可卷积的，则说将$Y$的映射$\varphi(x, \cdot)$转化为说 $Z$ 是$\mu$-正确的。那么就有$\varepsilon_x * \mu = \varphi(x, \cdot)(\mu)$。
+3) 让$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射变成$Z$。如果$x \in X$和$\mu$是$Y$的测度，则说$\varepsilon_x$和$\mu$是$\varphi$可卷积的，则说将$Y$的映射$\varphi(x, \cdot)$转化为说 $Z$ 是$\mu$-正确的。那么就有$\varepsilon_x * \mu = \varphi(x, \cdot)(\mu)$。
 
 ### 2. 结合性
 
@@ -253,7 +253,7 @@ b) *如果$\varphi$连续且$\mu_i$为正，那么$*_{i} \mu_i$的支撑就是$\
 
 #### 命题 6 {#int-viii-s1-prop-6 .statement tag=09IB}
 
-*令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$，并在$X, Y$上测量$\lambda, \mu$。为了使 $\lambda$ 和 $\mu$ $\varphi$ 可卷积，$X \times Y$ 的映射 $(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$ 进入 $\mathscr{M}(Z)$ 对于拓扑 $\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$ 是可标量$(\lambda \otimes \mu)$可积的，在这种情况下*
+*令$X, Y, Z$局部紧致空间，$\varphi$将$X \times Y$的连续映射引入$Z$，并在$X, Y$上测量$\lambda, \mu$。为了使$\lambda$和$\mu$可$\varphi$可卷积，$X \times Y$的映射$(x, y) \mapsto \varepsilon_{\varphi(x,y)} = \varepsilon_x * \varepsilon_y$进入$\mathscr{M}(Z)$对于拓扑$\sigma(\mathscr{M}(Z), \mathscr{H}(Z))$可标量$(\lambda \otimes \mu)$可积，在这种情况下*
 
 $$
 \lambda * \mu = \int_{X \times Y} (\varepsilon_x * \varepsilon_y) \, d\lambda(x) \, d\mu(y).

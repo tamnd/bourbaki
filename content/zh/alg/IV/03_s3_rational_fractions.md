@@ -30,16 +30,16 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: 324098e6486cedfaa879331829f23bc9b9a30109a516ec746ab910ecdd9619cf
+content_sha256: d14e3f46ece3d756f60745e414fc052e6da6103066ce5441893112bb03fa6c87
 translated_from: content/en/alg/IV/03_s3_rational_fractions.md
 translation_method: google
 source_content_sha256: adebb07e34c4e82901da99d345bb6f746140b39d50f239de82732119ccaa1a31
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 539b55005f56f4445947fdd6a1bd57c4fbc1138de8845f6de407ec52b321795d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。 有理分式
@@ -48,7 +48,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#alg-iv-s3-def-1 .statement tag=06BL}
 
-*设 K 为交换域和 I 集合。 The field of fractions (I, p. 116) of the integral domain $K[(X_i)_{i \in I}]$ is denoted by $K((X_i)_{i \in I})$ or $K(X_i)_{i \in I}$. 它的元素在不定式 $X_i$ 中称为有理分式，系数为 K。*
+*设 K 为交换域和 I 集合。 积分域$K[(X_i)_{i \in I}]$的分数域(I、p. 116)用$K((X_i)_{i \in I})$或$K(X_i)_{i \in I}$表示。 它的元素在不定式 $X_i$ 中称为有理分式，在 K 中称为系数。*
 
 对于 $I = \{1, 2, \ldots, n\}$，我们写 $K(X_1, X_2, \ldots, X_n)$ 来代替 $K((X_i)_{i \in I})$。
 
@@ -56,7 +56,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 现在令 K 为交换域、I 集合和 J ⊂ I。令 B = K[(X_i)_{i ∈ J}]，则 K[(X_i)_{i ∈ I}] = B[(X_i)_{i ∈ I - J}]，由上可知，K((X_i)_{i ∈ I}) 可以等同于 K'((X_i)_{i ∈ I - J})，其中 K' = K((X_i)_{i ∈ J})。
 
-### 2. Degrees
+### 2. 次数
 
 令 K 为交换域。对于 K((X_i)_{i I}) 的每个元素 r，都存在 u, v ∈ K[(X_i)_{i ∈ I}]，使得 v ≠ 0 且 r = $\frac{u}{v}$。 关系$\frac{u}{v} = \frac{u_1}{v_1}$，其中v≠0，v_1≠0相当于uv_1=vu_1；如果 r ≠ 0，则 u ≠ 0 且 u_1 ≠ 0，因此 deg u + deg v_1 = deg v + deg u_1 (IV, p. 9)，或者 deg u − deg v = deg u_1 − deg v_1。因此，有理数整数 deg u − deg v 仅取决于 r；我们称之为次数，或者r的总次数，并用deg r表示。我们同意写 deg 0 = −∞。如果 J ⊂ I，我们同样可以关于指标 j ∈ J 的 X_j 定义次数。当 r 是多项式时，这些概念重合与 IV、p. 2 中定义的概念重合相同。
 
@@ -105,7 +105,7 @@ $$
 
 \* 映射 r ↦ −deg r 因此是域 K((X_i)_{i ∈ I}) 的离散估值。 \*
 
-### 3. Substitutions
+### 3. 代换
 
 设 K 为交换域，E 为单位结合律 K-代数，$x = (x_i)_{i \in I}$ E 的成对可置换族元素。设所有非零 $v \in B$ 的 $B = K[(X_i)_{i \in I}]$ 和 $S_x$ 集合，使得 $v(x)$ 在 E 中可逆。 $u \in B,\ v \in S_x$和$f = \frac{u}{v} \in K((X_i)_{i \in I})$。 元素 $u(x)\ v(x)^{-1} = v(x)^{-1}u(x)$ 在 E 中定义；此外，如果 $u_1,\ v_1$ 是两个多项式，例如 $f = \frac{u_1}{v_1}$ 和 $v_1 \in S_x$，则 $uv_1 = vu_1$，因此 $u(x)v_1(x) = v(x)u_1(x)$ 等等
 $$
@@ -120,7 +120,7 @@ $$
 
 令$f_1 = \frac{u_1}{v_1},\ f_2 = \frac{u_2}{v_2}$为$K((X_i)_{i \in I})$的两个元素，使得$v_1,\ v_2 \in S_x$。我们有$f_1 + f_2 = \frac{u_1v_2 + u_2v_1}{v_1v_2},\ f_1f_2 = \frac{u_1u_2}{v_1v_2}$和$v_1,\ v_2 \in S_x$。因此$S_x^{-1}B$是$K((X_i)_{i \in I})$的K-子代数。 命题的其余部分是清楚的。
 
-#### 推论{#alg-iv-s3-n3-cor-1 .statement tag=06BO}
+#### 推论 {#alg-iv-s3-n3-cor-1 .statement tag=06BO}
 
 *设L为交换域，L的K子域，$x = (x_i)_{i \in I}$L的元素，$x_i$的M集合由……组成，所有的U集合 $f \in K((X_i)_{i \in I})$使得x可以将U的$f$和$\varphi$同态$f \mapsto f(x)$替换为L。那么$\varphi(U)$就是$KUM$生成的L的子域。*
 

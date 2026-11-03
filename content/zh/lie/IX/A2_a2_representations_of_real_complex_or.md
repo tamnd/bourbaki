@@ -22,53 +22,53 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: 8d34c19d22c5ee56118378336c4fda6b1b16e1b5b7b1cf46249c212cd666d722
+content_sha256: e40896c41aaf533c0934a60db9c421f09e9e0da02ec19115464eb02ead978a96
 translated_from: content/en/lie/IX/A2_a2_representations_of_real_complex_or.md
 translation_method: google
 source_content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9548fcbf4728d606d98468e12b0652e84d52140156171a6ddae5a6c978ec4c7d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录 II
 
-# 实数、复数或四元数型的表示
+# 表示实数、复数或四元数型
 
-### 1. 表示实代数
+### 1. 表示 / 实代数
 
 用$\mathbf{C}$的$\sigma$自同构$\alpha  \rightarrow \overline{\alpha}$表示；如果 W 是复数向量空间，则用 W 表示 $\mathbf{C}$ 向量空间 $\sigma_*(W)$（即群 W，其中律为运算 $(\alpha , w) \rightarrow \overline{\alpha w}$，对于 $\alpha \in \mathbf{C}, w\in W$）。
 
 #### 命题 1 {#lie-ix-a2-prop-1 .statement tag=01IS}
 
-设 A 为 $\mathbf{R}$ 代数（结合和单位），V $\mathbf{R}$ 上的有限维单A-模。那么，我们一定处于以下三种情况之一：
+设 A 是一个 $\mathbf{R}$ 代数（结合和单位）和 V $\mathbf{R}$ 上的有限维单A-模。那么，我们一定处于以下三种情况之一：
 
-$\alpha )$ V（代数，第VIII, § 5, no. 1）的交换子与$\mathbf{R}$同构的，且$A_{(\mathbf{C})}$模$V_{(\mathbf{C})}$是简单的；
+V（代数，第VIII, § 5, no. 1章）的$\alpha )$交换子与$\mathbf{R}$同构的，并且$A_{(\mathbf{C})}$-模$V_{(\mathbf{C})}$很简单；
 
-$\beta )$ V 的交换子与 $\mathbf{C}$ 同构的； $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是由$\sigma \otimes 1_V$互换的两个非同构简单$A_{(\mathbf{C})}$-子模块的直和；
+V的$\beta )$交换子与$\mathbf{C}$同构的； $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是由$\sigma \otimes 1_V$互换的两个非同构简单$A_{(\mathbf{C})}$-子模块的直和；
 
-$\gamma )$ V 的交换子与 $\mathbf{H}$ 同构的； $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是由$\sigma \otimes 1_V$互换的两个同构简单$A_{(\mathbf{C})}$-子模块的直和。
+V的$\gamma )$交换子与$\mathbf{H}$同构的； $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是由$\sigma \otimes 1_V$互换的两个同构简单$A_{(\mathbf{C})}$-子模块的直和。
 
-V的交换子E是域，$\mathbf{R}($代数的有限扩张，第1章。 VIII, §3, no. 2，命题 2)，因此同构于 $\mathbf{R},\mathbf{C}$ 或 $\mathbf{H}($代数，第 1 章。 VIII, §15）。 The $A_{(\mathbf{C})}$-module $V_{(\mathbf{C})}$ is semi-simple (Algebra, Chap. VIII, §11, no. 4), and its commutant can be identified with $\mathbf{C}\otimes_{\mathbf{R}}E ($Algebra, Chap. VIII, §11, no. 2, Lemma 1).
+V的交换子E是域，$\mathbf{R}($代数的有限扩张，第1章。 VIII, §3, no. 2，命题 2)，因此同构于 $\mathbf{R},\mathbf{C}$ 或 $\mathbf{H}($代数，第 1 章。 VIII, §15）。 $A_{(\mathbf{C})}$-模块$V_{(\mathbf{C})}$是半单（代数，第VIII, §11, no. 4章），其交换子可以用$\mathbf{C}\otimes_{\mathbf{R}}E ($代数来识别，第7章。 VIII, §11, no. 2、引理 1)。
 
-如果 E 与 $\mathbf{R}$ 同构的，则 $V_{(\mathbf{C})}$ 的交换子与 $\mathbf{C}$ 同构的，并且 $V_{(\mathbf{C})}$ 是一个简单的 $A_{(\mathbf{C})}$ 模（代数，第 VIII, §11, no. 4 章）。
+如果E同构于$\mathbf{R}$，$V_{(\mathbf{C})}$的交换子同构于$\mathbf{C}$，并且$V_{(\mathbf{C})}$是一个简单的$A_{(\mathbf{C})}$模（代数，第VIII, §11, no. 4章）。
 
-若E不与$\mathbf{R}$同构的，则包含域同构于$\mathbf{C}$；由此可见，V有一个$A_{(\mathbf{C})}$模块结构，用$V^c$表示。那么$V^c$是一个简单的$A_{(\mathbf{C})}$-模块，$\mathbf{C}$-线性映射$\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$使得$\psi (\alpha \otimes v) =$$(\alpha v,\overline{\alpha v})$对于$\alpha \in \mathbf{C},v\in V$来说，是同构（代数，第V, §10, no. 4，道具） 8).此外，这个同构下的$\sigma \otimes 1_V$对应到$V^c\oplus \overline{V}^c$的$\mathbf{R}$自同构$(v, v') \rightarrow (v', v)$，因此互换了两个$A_{(\mathbf{C})}$子模块$\psi^{-1}(V^c)$和$\psi^{-1}(V^c)$。
+若E不与$\mathbf{R}$同构的，则包含域同构于$\mathbf{C}$；由此可见，V有一个$A_{(\mathbf{C})}$模块结构，用$V^c$表示。那么$V^c$是一个简单的$A_{(\mathbf{C})}$模块，而$\mathbf{C}$线性映射$\psi : V_{(\mathbf{C})}\rightarrow V^c\oplus \overline{V}^c$使得$\psi (\alpha \otimes v) =$$(\alpha v,\overline{\alpha v})$对于$\alpha \in \mathbf{C},v\in V$来说是同构（代数，第1章）。 V, §10, no. 4，提案 8）。此外，在这个同构下的$\sigma \otimes 1_V$对应到$V^c\oplus \overline{V}^c$的$\mathbf{R}$自同构$(v, v') \rightarrow (v', v)$，因此互换了两个$A_{(\mathbf{C})}$子模块$\psi^{-1}(V^c)$和$\psi^{-1}(V^c)$。
 
-$V_{(\mathbf{C})}$的交换子$E_{(\mathbf{C})}$因此为包含$\mathbf{C}\times \mathbf{C}$，通过$V^c\oplus \overline{V}^c$上的同位运算。当且仅当 $E_{(\mathbf{C})}$ 约化到 $\mathbf{C}\times \mathbf{C}$ 时，不存在从$V^c$到$\overline{V}^c$的$A_{(\mathbf{C})}$模的同构，即，如果E与$\mathbf{C}$同构。这样就完成了证明。
+$V_{(\mathbf{C})}$的交换子$E_{(\mathbf{C})}$因此包含$\mathbf{C}\times \mathbf{C}$，通过$V^c\oplus \overline{V}^c$上的同位运算。当且仅当 $E_{(\mathbf{C})}$ 约化到 $\mathbf{C}\times \mathbf{C}$ 时，不存在从 $V^c$ 到 $\overline{V}^c$ 的 $A_{(\mathbf{C})}$ 模块中的同构，即，如果 E 与 $\mathbf{C}$ 同构。这样就完成了证明。
 
 #### 命题 2 {#lie-ix-a2-prop-2 .statement tag=01IT}
 
 设 A 为 $\mathbf{R}$ 代数（结合和单位），W 为 $\mathbf{C}$ 上的有限维简单 $A_{(\mathbf{C})}$ 模。那么，我们一定处于以下三种情况之一：
 
-a) 存在从W到$\overline{W}$与$\theta \circ \theta = 1_W$的$A_{(\mathbf{C})}$同构$\theta$。那么$\theta$的固定点的集合V是W上的$\mathbf{R}$结构，并且单A-模具有交换子$\mathbf{R}.1_V$。而且，$W_{[\mathbf{R}]}$是两个同构单A-模的直和。
+a) 存在从W到$\overline{W}$与$\theta \circ \theta = 1_W$的$A_{(\mathbf{C})}$同构$\theta$。那么$\theta$的固定点的集合V是W上的$\mathbf{R}$结构，单A-模与交换子$\mathbf{R}.1_V$。而且，$W_{[\mathbf{R}]}$是两个同构单A-模的直和。
 
-b) $A_{(\mathbf{C})}$模W和$\overline{W}$不是同构的；那么 $W_{[\mathbf{R}]}$ 是单A-模且有交换子 $\mathbf{C}.1_W$。
+b) $A_{(\mathbf{C})}$模W和$\overline{W}$不是同构的；那么 $W_{[\mathbf{R}]}$ 是单A-模和交换子 $\mathbf{C}.1_W$。
 
-c) 存在从W到$\overline{W}$与$\theta \circ \theta =-1_W$的$A_{(\mathbf{C})}$同构$\theta$。那么A-模$W_{[\mathbf{R}]}$是简单的，它的交换子是域$\mathbf{C}.1_W\oplus \mathbf{C}.\theta$，与$\mathbf{H}$同构。
+c) 存在从W到$\overline{W}$与$\theta \circ \theta =-1_W$的$A_{(\mathbf{C})}$同构$\theta$。那么A-模$W_{[\mathbf{R}]}$就简单了，它的交换子就是域$\mathbf{C}.1_W\oplus \mathbf{C}.\theta$，与$\mathbf{H}$同构。
 
 复杂的向量空间Hom$_{A_{(\mathbf{C})}}(W,W)$是维数$\leq 1 ($代数，第1章。 VIII, §3, no. 2);如果$\theta \in$Hom$_{A_{(\mathbf{C})}}(W,W)$，则W的自同态$\theta \circ \theta$为位似，比率为$\alpha \in \mathbf{C}$。对于所有$w\in W$，我们有$\alpha \theta (w) =\theta \circ \theta \circ \theta (w) =$$\theta (\alpha w) = \overline{\alpha \theta}(w)$，所以$\alpha$是真实的。如果$\theta '=\lambda \theta$，与$\lambda \in \mathbf{C}$，则$\theta '\circ \theta '=|\lambda |^2\theta \circ \theta$；因此，恰好实现了以下三种可能性之一：
 
@@ -78,19 +78,19 @@ b) 坎$_{A_{(\mathbf{C})}}(W,W) =\{0\}$；
 
 c) 存在$\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ 和$\theta \circ \theta =-1_W$。
 
-在情况a)中，$\theta$的固定点的集合V是W上的$\mathbf{R}$结构（代数，第V，p. 61，第7条命题）；由于$V_{(\mathbf{C})}$与W同构，A-模V对于交换子$\mathbf{R}.1_V$（命题1）来说是简单的，而$W_{[\mathbf{R}]}$并不简单。
+在情况a)中，$\theta$的固定点的集合V是W上的$\mathbf{R}$结构（代数，第V，p. 61，第7条）；由于 $V_{(\mathbf{C})}$ 与 W 同构，A-模 V 与交换子 $\mathbf{R}.1_V$ 是简单的（命题 1），而 $W_{[\mathbf{R}]}$ 则不简单。
 
 反之，如果$W_{[\mathbf{R}]}$不简单，则令V为$W_{[\mathbf{R}]}$的简单A-子模；因为$A_{(\mathbf{C})}$-模W很简单，$V +iV = W$和$V\cap iV =\{0\}$，即$W = V\oplus iV$。因而，V是W上的$\mathbf{R}$结构，并且同构$\theta$从W到$\overline{W}$，使得$v$的$\theta (v+iv') =v-iv'$和V中的$v'$满足$\theta \circ \theta = 1_W$。
 
-因而，在情况 b) 和 c) 中，A-模 $W_{[\mathbf{R}]}$ 很简单；根据命题 1，其交换子 E 在情况 b) 中与 $\mathbf{C}$ 同构的，在情况 c) 中与 $\mathbf{H}$ 同构的。此外，很明显，在情况 c) 中，E 包含 $\mathbf{C}.1_W$ 和$\mathbf{C}.\theta$，因此命题。
+因而，在情况 b) 和 c) 中，A-模 $W_{[\mathbf{R}]}$ 很简单；根据命题 1，其交换子 E 同构于情况 b) 中的 $\mathbf{C}$，以及情况 c) 中的$\mathbf{H}$。此外，很明显，在情况 c) 中，E 包含 $\mathbf{C}.1_W$ 和$\mathbf{C}.\theta$，因此命题。
 
 对于命题中的假设，在$a),b)$或c）情况下，$A_{(\mathbf{C})}$模W分别被称为实模、复模或四元数型（相对于A）。
 
-对于$K =\mathbf{R}$或$\mathbf{C}$，用K上的有限维简单$A_{(K)}$模的类的$\mathfrak{S}_K(A)$集合表示。群$\Gamma =$Gal($\mathbf{C}/\mathbf{R}$)在$\mathfrak{S}_{\mathbf{C}}(A)$上运算；前面的两个命题在$\mathfrak{S}_{\mathbf{R}}(A)$和商集$\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$之间建立了一个双射对应。
+对于$K =\mathbf{R}$或$\mathbf{C}$，用K上的有限维简单$A_{(K)}$模的类的$\mathfrak{S}_K(A)$集合表示。群$\Gamma =$Gal($\mathbf{C}/\mathbf{R}$)在$\mathfrak{S}_{\mathbf{C}}(A)$上运算；前两个命题在$\mathfrak{S}_{\mathbf{R}}(A)$和商集$\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$之间建立双射对应。
 
-### 2. 表示紧凑型群
+### 2. 紧凑型表示群
 
-令 G 为紧拓扑群，并令 $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ 为 G 在有限维复数向量空间上的连续表示。如果$\mathbf{C}^{(G)}$-模W（相对于代数$A =\mathbf{R}^{(G)}$）就是这种情况，我们可以说$\rho$是实数、复数或四元数型不可约的。令 H 为 W 上的分离正数厄米特形式，在 G 下不变。
+令 G 为紧拓扑群，并令 $\rho : G\rightarrow \mathbf{G}\mathbf{L}(W)$ 为 G 在有限维复数向量空间上的连续表示。如果$\mathbf{C}^{(G)}$-模W（相对于代数$A =\mathbf{R}^{(G)}$）就是这种情况，我们可以说$\rho$是实数、复数或四元数型的不可约。令 H 为 W 上的分离正数厄米特形式，在 G 下不变。
 
 #### 命题 3 {#lie-ix-a2-prop-3 .statement tag=01IU}
 

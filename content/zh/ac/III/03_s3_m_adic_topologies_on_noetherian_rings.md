@@ -33,16 +33,16 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 27
-content_sha256: cf4eb19138616f4bbcac0bc6f3a962b370002e17b31b5222360eb7a6168146f7
+content_sha256: 2ebbe41ae0f7363869c9efef804aa1e47b0f9fcf248afe7fb8e10ab617423f28
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
 translation_method: google
 source_content_sha256: e4eba8899949967667773f570b755a00419ebfdad78b7c56f68274079332363d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9c9ccda1c4a552673d6bdfe9e2b2f3a9be601166ea8f38f54246c2e7b50e5008
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 诺特环上的$\mathfrak{m}$-adic 拓扑
@@ -64,7 +64,7 @@ $$
 (1) $m E_n \subset E_{n+1}$ 对于所有 $n \in \mathbf{Z}$；
 (2) *存在整数$n_0$使得*$m E_n = E_{n+1}$*对于*$n \geq n_0$。
 
-然后$q$乘归纳，$m^q E_n = E_{n+q}$乘$n \geq n_0, q \geq 1$。 注条件 (1) 意味着如果$A$ 被给予$m$-adic 过滤，则过滤$(E_n)$ 与$E$ 上的$A$ 模块结构兼容。显然，在每个$A$-模块$E$上，$m$-adic 过滤都是良好的。如果 $A$-模块 $E$ 上的过滤是 m-good，则 $E$ 的任何商模上的商过滤是 m-good。
+然后$q$乘归纳，$m^q E_n = E_{n+q}$乘$n \geq n_0, q \geq 1$。请注意，条件 (1) 意味着如果$A$ 被给予$m$-adic 过滤，则过滤$(E_n)$ 与$E$ 上的$A$ 模块结构兼容。显然，在每个$A$-模块$E$上，$m$-adic 过滤都是良好的。如果$A$模块$E$上的过滤是m-好，则商在$E$的任何商模上的过滤是m-好。
 
 #### 定理 1 {#ac-iii-s3-thm-1 .statement tag=04FY}
 
@@ -82,7 +82,7 @@ $$
 $$
 f \otimes X^n = \sum_k t_k (e_k \otimes X^{n(k)})
 $$
-其中$t_k \in A'$； 替换如果需要为$t$，则根据其齐次分量次数$n - n(k)$，我们可以假设为$t_k = a_k X^{n-n(k)}$，其中$a_k \in m^{n-n(k)}$。
+其中$t_k \in A'$； 替换如果需要为$t$，则根据次数$n - n(k)$的齐次分量，我们可以假设$t_k = a_k X^{n-n(k)}$，其中$a_k \in m^{n-n(k)}$。
 
 如唯一元素 $X^n$ 形式基 of A-模 AX”，等式$f \otimes X^n = \left( \sum_k a_k e_k \right) \otimes X^n$蕴涵$f = \sum_k a_k e_k$。则$E_n \subset m^{n-n_0} E_{n_0}$；由于相反包含是明显的，
 
@@ -96,7 +96,7 @@ $$
 
 *设 A 为交换律诺特环，且 m 为 A 的理想。则 $A[X]$ 的子环 $A' = \sum_{n \geq 0} m^n X^n$ 为诺特。*
 
-$A'$是$mX$生成的A-代数；因为A是诺特，$mX$是有限生成A-模，然后从§ 2, no. 10、推论3到定理2得出结论。
+$A'$是$mX$生成的A-代数；因为A是诺特，$mX$是有限生成A-模，那么结论是从§ 2, no. 10，推论3到定理2。
 
 #### 命题 1 {#ac-iii-s3-prop-1 .statement tag=04G0}
 
@@ -104,9 +104,9 @@ $A'$是$mX$生成的A-代数；因为A是诺特，$mX$是有限生成A-模，然
 
 由于 F 与 E 的子模同构，因此它是有限生成的，因为 A 是诺特并且 E 是有限生成的。令$(E_n)$、$(F_n)$分别为E和F上的过滤，由有限生成的子模组成；保留引理 1 中的记号，我们集合 $E' = \sum_{n \geq 0} E_n \otimes_A A X^n, F' = \sum F_n \otimes_A A X^n$；由于假设$F_n$同构于$E_n$的子模，我们看到F'同构于$E'$的子模。通过定理 1，$E'$ 是有限生成的 $A'$ 模，因此 F' 也是如此，因为 A' 是诺特 (引理 1)。因此根据定理 1 得出结论。
 
-#### 推出 1（Artin-Rees 引理）{#ac-iii-s3-prop-1-cor-1 .statement tag=04G1}
+#### 推出 1（阿廷-里斯引理）{#ac-iii-s3-prop-1-cor-1 .statement tag=04G1}
 
-*设 A 为可交换诺特环，m 是 A 的理想，E 有限生成A-模和 E 的 F 子模。E 上的 m-adic 过滤在 F 上引起的过滤是 m-good。*
+*设 A 为交换律诺特环，m 是 A 的理想，E 有限生成A-模和 F 子模 E。E 上的 m 进过滤在 F 上引起的过滤是 m 好的。*
 
 在其他字中，存在整数$n_0$使得
 
@@ -118,15 +118,15 @@ $$
 
 #### 推出 2 {#ac-iii-s3-prop-1-cor-2 .statement tag=04G2}
 
-*设 A 为可交换的诺特环且 a, b 是 A 的两个理想。存在整数 h > 0 使得 $a^h \cap b \subset ab$。*
+*设 A 是可交换的诺特环，并且 a, b 是 A 的两个理想。存在整数 h > 0 使得 $a^h \cap b \subset ab$。*
 
-存在 n，使得推论 1 的 $a^{n+1} \cap b = a(a^n \cap b) \subset ab$ 应用于$E = A, F = b$。
+存在 n 使得 $a^{n+1} \cap b = a(a^n \cap b) \subset ab$ × 推出 1 应用于 $E = A, F = b$。
 
 #### 推出 3 {#ac-iii-s3-prop-1-cor-3 .statement tag=04G3}
 
-*设 A 是可交换的诺特环，m 是 A 的理想，并且 x 元素是 $A$，它不是 $O$ 的除子。存在整数$k > 0$，对于所有$n \geq k$，关系$xy \in m^n$意味着$y \in m^{n-k}$。
+*设 A 是可交换的诺特环，m 是 A 的理想和 $A$ 的 x 元素，它不是 $O$ 的除子。存在整数$k > 0$，对于所有$n \geq k$，关系$xy \in m^n$意味着$y \in m^{n-k}$。
 
-推出 1 应用于 $E = A, F = A x$ 表明存在 $k$，使得对于所有 $n \geq k$，$m^n \cap Ax = m^{n-k}(m^k \cap Ax)$。那么，如果$xy \in m^n$，
+推出 1 应用于$E = A, F = A x$表明存在$k$，使得对于所有$n \geq k$，$m^n \cap Ax = m^{n-k}(m^k \cap Ax)$。那么，如果$xy \in m^n$，
 
 $$
 xy \in m^n \cap Ax \subset m^{n-k}x
@@ -134,7 +134,7 @@ $$
 
 并且，由于$x$不是$0$的除子，我们推断出$y \in m^{n-k}$。
 
-在运输者的记号（章I, § 2, no. 10）中，推论3的结论为
+在运输者的记号（章I, § 2, no. 10）中，推论3的结论是
 
 (2)
 $$
@@ -143,7 +143,7 @@ $$
 
 #### 推出 4 {#ac-iii-s3-prop-1-cor-4 .statement tag=04G4}
 
-令 $A$ 为可交换的诺特环，$m$ $A$、$E$ 的理想，分别生成 $A$ 模以及 $(E_n)$ 和 $(E'_n)$ 两个过滤由……组成子模 $E$。假设当$A$被给予$m$-adic过滤时，过滤$(E_n)$和$(E'_n)$与$E$上的$A$模块结构兼容。如果过滤 $(E_n)$ 为 $m$-良好，并且对于所有 $n \in \mathbf{Z}$ 为 $E'_n \subset E_n$，则过滤 $(E'_n)$ 为 $m$-良好。
+设 $A$ 是可交换的诺特环，$m$ $A$，$E$ 的理想$A$-模和$(E_n)$ 和$(E'_n)$ 两个过滤由……组成子模 $E$。假设当$A$被给予$m$-adic过滤时，过滤$(E_n)$和$(E'_n)$与$E$上的$A$模块结构兼容。如果过滤 $(E_n)$ 为 $m$-良好，并且对于所有 $n \in \mathbf{Z}$ 为 $E'_n \subset E_n$，则过滤 $(E'_n)$ 为 $m$-良好。
 这是命题 1 的特例。
 
 #### 引理 2 {#ac-iii-s3-lem-2 .statement tag=04G5}
@@ -189,7 +189,7 @@ $$
 
 *令$A$是可交换的诺特环，$m$是$A$的理想，而$E$是有限生成的$A$模。 $E$ 定义上的所有 m-good 过滤均相同拓扑（即 m-adic 拓扑）。*
 
-令 $(E_n)$ 为$E$ 上的 m-good 过滤。由于这种过滤是详尽的，$E$属于的每个元素到$E_n$之一，并且由于$E$是有限生成的并且$E_n$是$A$模块，因此存在整数$n_1$使得$E_{n_1} = E$。另一方面，令 $n_0$ 使得 $mE_n = E_{n+1}$ 对于$n \geq n_0$；那么，对于$n > n_0 - n_1$，
+令 $(E_n)$ 为$E$ 上的 m-good 过滤。由于这种过滤是详尽的，$E$属于的每个元素到$E_n$之一，并且由于$E$是有限生成的并且$E_n$是$A$模块，因此存在整数$n_1$使得$E_{n_1} = E$。另一方面，令 $n_0$ 使得 $mE_n = E_{n+1}$ 对于$n \geq n_0$； then, for $n > n_0 - n_1$,
 $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$，证明命题。
 
 #### 定理 2（克鲁尔）{#ac-iii-s3-thm-2 .statement tag=04G9}
@@ -200,73 +200,73 @@ $m^n E \subset E_{n+n_1} = m^{n+n_1-n_0} E_{n_0} \subset m^{n+n_1-n_0} E$，证�
 
 #### 推论 {#ac-iii-s3-n2-cor-1 .statement tag=04GA}
 
-*令$A$是可交换的诺特环，$m$是$A$的理想，$E$是$A$模，$F$是有限生成的$A$模。每个$A$-线性映射$u : E \to F$都是严格的态射*（一般拓扑、章 111、§ 2, no. 8）*对于$m$-adic拓扑*。
+*设$A$是可交换的诺特环，$m$是$A$的理想，$E$是$A$模，$F$是有限生成的$A$模。每个$A$-线性映射$u : E \to F$都是严格的态射*（一般拓扑、章 111、§ 2, no. 8）*对于$m$-adic拓扑*。
 
-由于$u(m^nE) = m^n u(E)$，$u$是$E$到$u(E)$的严格态射，对于这两个模上的$m$-adic拓扑，以及$u(E)$上的$m$-adic拓扑由$m$-adic 拓扑于 $F$ 定理 2。
+由于$u(m^nE) = m^n u(E)$，$u$是$E$到$u(E)$的严格态射，对于这两个模上的$m$-adic拓扑，以及$u(E)$上的$m$-adic拓扑由$m$-adic 拓扑于 $F$ 由定理 2。
 
 #### 命题 5 {#ac-iii-s3-prop-5 .statement tag=04GB}
 
 *设$A$是可交换的诺特环，$m$是$A$的理想，$E$是有限生成的$A$模。 $E$*中$\{0\}$的闭包*$\bigcap_{n=1}^m m^nE$*相对于$m$-adic拓扑是$x \in E$的集合，其中存在元素$m \in m$使得*$(1 - m)x = 0$。
 
-如果$x = mx$，其中$m \in m$，$x = m^n x \in m^nE$对于每个整数$n \geq 0$，因此$x \in F = \bigcap_{n=0}^m m^nE$。 Conversely, if $x \in F$, $Ax$ is contained in the intersection of the neighbourhoods of 0 in $E$; it then follows from Theorem 2 that the $m$-adic topology on $Ax$, which is induced by that on $E$, is the coarsest topology; as $mx$ is by definition a neighbourhood of 0 with this topology, $mx = Ax$ and hence there exists $m \in m$ such that $x = mx$.
+如果$x = mx$，其中$m \in m$，$x = m^n x \in m^nE$对于每个整数$n \geq 0$，因此$x \in F = \bigcap_{n=0}^m m^nE$。 反之，如果$x \in F$，则$Ax$包含在$E$中0的邻域的交集中；然后根据定理 2，由 $E$ 上的拓扑推导出$Ax$ 上的$m$-adic 拓扑是最粗拓扑；因为$mx$根据定义是具有此拓扑的0的邻域，$mx = Ax$，因此存在$m \in m$使得$x = mx$。
 
 我们也可以说 $mF = F$ 因为
 $$
 F = \bigcap_{n=1}^\infty m^{n+1}E \subset m. \bigcap_{n=1}^\infty m^nE = mF;
 $$
-由于$A$是诺特，$F$是有限生成的$A$模块；那么应用章II, § 2, no. 2、推论3到命题4就足够了。
+由于$A$是诺特，$F$是有限生成的$A$模块；然后应用章 II, § 2, no. 2、推论 3 到命题 4 就足够了。
 
 #### 推论（克鲁尔）{#ac-iii-s3-n2-cor-2 .statement tag=04GC}
 
-*设$A$是可交换的诺特环，而$m$是$A$的理想。 理想的* $\bigcap_{n=1}^m m^n$ *是元素* $x \in A$ *的集合，其中存在* $m \in m$ *使得* $(1 - m)x = 0$。 *In particular, for* $\bigcap_{n=1}^\infty m^n = \{0\}$, *it is necessary and sufficient that no element of* $1 + m$ *be a divisor of* $0$ *in* $A$.
+*设$A$是可交换的诺特环，而$m$是$A$的理想。 理想的* $\bigcap_{n=1}^m m^n$ *是元素* $x \in A$ *的集合，其中存在* $m \in m$ *使得* $(1 - m)x = 0$。 *特别是，对于*$\bigcap_{n=1}^\infty m^n = \{0\}$，*$1 + m$*中的任何元素都不能成为*$0$*中*$A$的约数，这是充分必要的。
 
 应用命题5到$E = A$就足够了。
 
 #### 注 {#ac-iii-s3-n2-rem-1 .statement tag=04GD}
 
-假设 $A$ 是 *诺特* 在此推论中至关重要。对于例，令$A$为映射从$\mathbf{R}$对其自身无限微分的环，并令$m$为函数$f$的$A$由……组成的（极大）理想，使得$f(0) = 0$。 $\bigcap_{n=0}^\infty m^n$是函数$f$的集合是直接的，使得$f^{(n)}(0) = 0$对于所有$n \geq 0$并且存在这样的函数与$f(x) \neq 0$，对于所有$x \neq 0$，对于例函数 $f$ 由 $f(x) = e^{-1/x^2}$ 定义为 $x \neq 0$ 和 $f(0) = 0$。
+$A$是*诺特*的假设在这个推论中是必不可少的。例如，令 $A$ 为映射从 $\mathbf{R}$ 与其自身无限微分的环，并令 $m$ 为函数 $f$ 的 $A$ 由……组成的（极大）理想，使得 $f(0) = 0$。 $\bigcap_{n=0}^\infty m^n$是函数$f$的集合，因此直接的，对于所有$n \geq 0$，存在$f^{(n)}(0) = 0$，对于所有$x \neq 0$，存在这样的函数和$f(x) \neq 0$，例如函数 $f$ 由 $f(x) = e^{-1/x^2}$ 定义为 $x \neq 0$ 和 $f(0) = 0$。
 
 #### 定义 1 {#ac-iii-s3-def-1-bis .statement tag=04GE}
 
 *设$\mathbf{A}$为拓扑环。如果$\mathbf{A}$的双边理想$m$使得$\mathbf{A}$上的给定拓扑是$m$进数拓扑，则$m$称为定义理想&$\mathbf{A}$上的拓扑。*
 
-令$A$为交换律诺特环，$m$为$A$的理想，$t$其根式（章II, § 2, no. 6）。如果$m'$是$m$-adic拓扑的定义理想，则存在整数$n > 0$，使得${m'}^n \subset m$（$§ 2$，no. 5），因此$m' \subset t$；相反，由于$A$是诺特，因此存在整数$k > 0$使得$t^k \subset m$（章II, § 2, no. 6，命题15），因此$t$是*最大的定义理想* $m$-adic 拓扑。
+令$A$是可交换的诺特环，$m$是$A$的理想，$t$是根基（章II, § 2, no. 6）。如果$m'$是$m$-adic拓扑的定义理想，则存在整数$n > 0$，使得${m'}^n \subset m$（$§ 2$，no. 5），因此$m' \subset t$；相反，由于$A$是诺特，因此存在整数$k > 0$使得$t^k \subset m$（章II, § 2, no. 6，命题15），因此$t$是*最大的定义理想* $m$-adic 拓扑。
 
 ### 3. 扎里斯基环
 
 #### 命题 6 {#ac-iii-s3-prop-6 .statement tag=04GF}
 
 *设$A$是可交换的诺特环，而$m$是$A$的理想。以下属性是等效的：
-(a) $m$ 包含在$A$ 的雅各布森根中。
+(a) $m$ 包含在 $A$ 的 Jacobson 根基中。
 (b) *每个有限生成的 $A$-模都是具有 $m$-adic 拓扑的 Hausdorff。*
 (c) *对于每个有限生成的$A$-模块$E$，$E$的每个子模相对于$E$上的$m$-adic 拓扑是封闭的。*
 (d) *$A$ 的每个最大理想相对于 $m$-adic 拓扑都是封闭的。*
 
-让我们证明 (a) 蕴涵 (b)。假设$m$包含在$A$的雅各布森根式中，并令$E$为有限生成的$A$模。如果$x \in E$和$m \in m$使得$(1 - m)x = 0$，则$x = 0$，因为$1 - m$在$A$中是可逆的。那么 (no. 2, 命题 5) $E$ 就是 Hausdorff 和 $m$-adic 拓扑。
+让我们证明 (a) 蕴涵 (b)。假设$m$包含在$A$的Jacobson根基中，并令$E$为有限生成的$A$模。如果$x \in E$和$m \in m$使得$(1 - m)x = 0$，则$x = 0$，因为$1 - m$在$A$中是可逆的。那么 (no. 2, 命题 5) $E$ 就是 Hausdorff 和 $m$-adic 拓扑。
 
-让我们证明(b)蕴涵(c)。假设(b)成立。令 $E$ 为有限生成的 $A$ 模块，并且 $F$ 子模为 $E$。那么$E/F$是带有$m$-adic 拓扑的Hausdorff，它是$m$-adic 拓扑在$E$上的商拓扑；那么 $F$ 在 $E$ 关闭。
+让我们证明(b)蕴涵(c)。假设(b)成立。令 $E$ 为有限生成的 $A$ 模块，并且 $F$ 子模为 $E$。那么$E/F$是带有$m$-adic 拓扑的Hausdorff，它是$E$上的$m$-adic 拓扑的商拓扑；那么 $F$ 在 $E$ 关闭。
 
-显然（c）意味着（d）。最后让我们证明（d）蕴涵（a）。从(d)可知，对于$A$的每个最大理想$a$，$A$-模$A/a$是具有$m$进数拓扑的Hausdorff。这意味着$m(A/a) \neq A/a$、除非、$A/a$上的$m$-adic 拓扑是最粗糙的拓扑和$A/a$减少到0，这是荒谬的，因为$A/a$是*ajield*。因此，$A/a$中$m$的典范像是与$A/a$不同的$A/a$的理想，因此减少到0；然后$m \subset a$，证明$m$包含在$A$的雅各布森根式中。
+显然（c）意味着（d）。最后让我们证明（d）蕴涵（a）。从(d)可知，对于$A$的每个最大理想$a$，$A$-模$A/a$是具有$m$进数拓扑的Hausdorff。这意味着$m(A/a) \neq A/a$、除非、$A/a$上的$m$-adic 拓扑是最粗糙的拓扑和$A/a$减少到0，这是荒谬的，因为$A/a$是*ajield*。因此，$A/a$中$m$的典范像是与$A/a$不同的$A/a$的理想，因此减少到0；然后$m \subset a$，证明$m$包含在$A$的Jacobson根基中。
 
 #### 定义 2 {#ac-iii-s3-def-2 .statement tag=04GG}
 
-*拓扑环 $A$ 被称为 Zariski 环，如果它是可交换的且诺特，并且在 $A$ 满足上存在拓扑的定义理想 $m$，相当于命题的条件 6.*
+*拓扑环 $A$ 被称为 Zariski 环，如果它是可交换的且诺特，并且在 $A$ 满足上存在拓扑的定义理想$m$，相当于条件命题 6.*
 
-Zariski 环 $A$ 必然是 *Hausdorff* (命题 6)，并且其拓扑的*每个*定义理想都包含在 $A$ 的雅各布森根中。
+Zariski 环 $A$ 必然是 *Hausdorff* (命题 6)，并且其拓扑的*每个*定义理想都包含在 $A$ 的 Jacobson 根基中。
 
 *扎里斯基的例环*
 
 #### 例 1 {#ac-iii-s3-n3-exa-1 .statement tag=04GH}
 
-令$A$是可交换的诺特环，而$m$是$A$的理想。如果 $A$ 是 *Hausdorff 并与 m-adic 拓扑* 完备的，则$A$ 是一个 Zariski 环与此拓扑，凭借 § 2, no. 13、引理 3。
+令$A$是可交换的诺特环，并且$m$是$A$的理想。如果 $A$ 是 *Hausdorff 并与 m-adic 拓扑* 一起完成，则$A$ 是一个 Zariski 环与此拓扑，凭借 § 2, no. 13、引理 3。
 
 #### 例 2 {#ac-iii-s3-n3-exa-2 .statement tag=04GI}
 
-Zariski 环的每个 *商环* $A/b$ 都是 Zariski 环，因为它是诺特，并且，如果 $m$ 是 $A$ 的定义理想，则 $m(A/b) = (m + b)/b$ 包含在 $A/b$ 的雅各布森根中（*代数*、章VIII, § 6, no. 3、命题7）。
+Zariski 环的每个 *商环* $A/b$ 都是 Zariski 环，因为它是诺特，并且，如果 $m$ 是 $A$ 的定义理想，则 $m(A/b) = (m + b)/b$ 包含在 Jacobson 根基中$A/b$（*代数*、章VIII, § 6, no. 3、命题7）。
 
 #### 例 3 {#ac-iii-s3-n3-exa-3 .statement tag=04GJ}
 
-令 $A$ 为 *诺特半局部* 环，$r$ 为其雅各布森根式。那么 $A$ 与 $r$-adic 拓扑是 Zariski 环。当我们将诺特半局部环视为拓扑环时，这始终是拓扑的问题（除非另有说明）。
+令 $A$ 为 *诺特半本地* 环，而 $r$ 为 Jacobson 根基。那么 $A$ 与 $r$-adic 拓扑是 Zariski 环。当我们将诺特半局部环视为拓扑环时，这始终是拓扑的问题（除非另有说明）。
 
 #### 命题 7 {#ac-iii-s3-prop-7 .statement tag=04GK}
 
@@ -280,7 +280,7 @@ Zariski 环的每个 *商环* $A/b$ 都是 Zariski 环，因为它是诺特，�
 
 回想一下，$A'$ 重合上的$m'$-adic 过滤和*A-模* $A'$ 上的$m$-adic 过滤（§ 2, no. 1，*例 3*）。因此，断言 (i) 是no. 2 的命题 5 的特例，而断言 (iii) 是no. 2 的定理 2 的特例。最后让我们展示(ii)。假设 $A$ 是具有 $m$-adic 拓扑的 Zariski 环，并让 $E'$ 是有限生成的 $A'$-模块；它也是有限生成的$A$-模块以及$E'$重合上的$m$-adic和$m'$-adic过滤；那么 $E'$ 就是 Hausdorff 和 $m'$-adic 拓扑。最后，$A$-模块$A'$是诺特，因此环$A'$是诺特，这完成了证明，$A'$是Zariski环。
 
-### 4. 豪斯多夫完成诺特环
+### 4. hausdorff完成诺特环
 
 令$A$为交换环，$m$为$A$的理想，$E$为$A$模；让$\hat{A}$和$\hat{E}$分别表示$A$和$E$相对于$m$进数拓扑和$j_E$典范映射$E \to \hat{E}$的豪斯多夫完成。 $\hat{A} \times E$到$\hat{E}$定义的$A$双线性映射$(a, x) \mapsto aj_E(x)$和$A$线性映射
 
@@ -316,13 +316,13 @@ $$
 
 (iii) *A-模* $\hat{A}$ *平坦。*
 
-我们已经看到，$u$和$v$是拓扑群严格的态射（no. 2，定理2的推论）。 断言 (i) 然后从 § 2, no. 12, 引理 2 得出。当 $E = A$ 时，断言 (ii) 是明显的，并且 E 是自由有限生成A-模的情况可以立即简化为该情况。在一般情况下，E 承认有限表示
+我们已经看到，$u$和$v$是拓扑群严格的态射（no. 2、推论到定理2）。 断言 (i) 然后从 § 2, no. 12、引理 2 得出。当 $E = A$ 时，断言 (ii) 是明显的，并且 E 是自由有限生成A-模的情况可以立即简化为该情况。在一般情况下，E 承认有限表示
 
 $$
 L \xrightarrow{u} L' \xrightarrow{v} E \longrightarrow 0
 $$
 
-（章I, § 2, no. 8、引理8）。我们推导出可交换的图表
+（章I, § 2, no. 8，引理8）。我们推导出可交换的图表
 
 $$
 \begin{array}{ccccccccc}
@@ -332,15 +332,15 @@ $$
 \end{array}
 $$
 
-第一行是精确的 (章 I, § 2, no. 1, 引理 1)，第二行 (i) 也是如此。我们已经知道 $\alpha_E$ 是满射 (§ 2, no. 12, 命题 16)；另一方面，由于 $\alpha_L$ 和 $\alpha_{L'}$ 是双射，$1 \otimes v$ 是满射，$\alpha_E$ 凭借章 I, § 1, no. 4 是单射的，推论 2 到命题 2；这表明 (ii)。
+第一行是精确的 (章 I, § 2, no. 1, 引理 1)，第二行 (i) 也是如此。我们已经知道 $\alpha_E$ 是满射 (§ 2, no. 12, 命题 16)；另一方面，由于 $\alpha_L$ 和 $\alpha_{L'}$ 是双射，$1 \otimes v$ 是满射，$\alpha_E$ 凭借章 I, § 1, no. 4、推论 2 到命题 2 是单射的； this shows (ii).
 
-然后从(i)和(ii)得出，如果$a$是A的理想（必然是有限生成的），则典范映射$\hat{A} \otimes_A a \to \hat{A}$是单射的，是$\hat{a} \to \hat{A}$和$\alpha_E$的合成，这证明$\hat{A}$是平的$A$模（章I, § 2, no. 3，命题1）。
+然后从(i)和(ii)得出，如果$a$是A的理想（必然是有限生成的），则典范映射$\hat{A} \otimes_A a \to \hat{A}$是单射的，是$\hat{a} \to \hat{A}$和$\alpha_E$的合成，这证明$\hat{A}$是平坦的$A$模（章I, § 2, no. 3，命题1）。
 
 在定理 3 的条件下，$\hat{A} \otimes_A E$通常通过典范映射$\alpha_E$与$E$识别。如果 $u : E \to F$ 是有限生成的 $A$ 模块中的同态，则$\hat{u} : E \to \hat{F}$ 则凭借图表的交换律与 $1 @ u$ 进行识别 (4)。
 
 #### 推论 1 {#ac-iii-s3-thm-3-cor-1 .statement tag=04GM}
 
-设$A$是可交换的诺特环，$m$是$A$的理想，$E$是有限生成的$A$模，$F$和$G$两个子模 $E$。让$A, E, F, G$被赋予$m$-adic拓扑，并让$i$从$E$到$e$为典范映射。然后：
+设$A$是可交换的诺特环，$m$是$A$的理想，$E$是有限生成的$A$模，$F$和$G$两个子模 $E$.让$A, E, F, G$被赋予$m$-adic拓扑，并让$i$是从$E$到$e$的典范映射。然后：
 
 $$
 \hat{F} = \hat{A}.i(F), \quad (F + G)^{\wedge} = \hat{F} + \hat{G}, \quad (F \cap G)^{\wedge} = \hat{F} \cap \hat{G},
@@ -358,9 +358,9 @@ $$
 
 #### 推论 2 {#ac-iii-s3-thm-3-cor-2 .statement tag=04GN}
 
-令 $A$ 为交换诺特环，$m$ $A$ 的理想，$\hat{A}$ $A$ 相对于 $m$-adic 拓扑的豪斯多夫完成。如果元素$a \in A$不是$A$中的0的除子，则$\hat{A}$中的典范像$a'$也不是$\hat{A}$中的0的除子。
+令 $A$ 为交换诺特环，$m$ $A$ 的理想，$\hat{A}$ $A$ 相对于 $m$-adic 拓扑的豪斯多夫完成。如果元素$a \in A$不是$A$中的0的除子，则$\hat{A}$中的典范像$a'$不是$\hat{A}$中的0的除子。
 
-由于 $\hat{A}$ 是扁平 $A$ 模，因此推论是章 I, § 2, no. 4、命题 3 (i) 的特例。
+由于 $\hat{A}$ 是扁平 $A$ 模，推论是章 I, § 2, no. 4、命题 3 (i) 的特例。
 
 #### 推论 3 {#ac-iii-s3-thm-3-cor-3 .statement tag=04GO}
 
@@ -370,26 +370,26 @@ $$
 $$
 B = A[X_1, \ldots, X_n]
 $$
-对于$m$-adic 拓扑，其中$m$是没有常数项的多项式的集合（$§ 2,$no. 12，例1）；因为 $B$ 是诺特（$§ 2,$ no. 10，推论 2 到定理 2），$A[[X_1, \ldots, X_n]]$ 是定理 3 的扁平 $B$ 模，并且，因为 $B$ 是免费的 $A$ 模， $A[[X_1, \ldots, X_n]]$ 是扁平 $A$ 模（章 I, § 2, no. 7，推论 3 到命题 8）。
+对于$m$-adic 拓扑，其中$m$是没有常数项的多项式的集合（$§ 2,$no. 12，例1）；因为$B$是诺特（$§ 2,$no. 10，推论2到定理2），$A[[X_1, \ldots, X_n]]$是定理3的扁平$B$模，并且$B$是免费的$A$-模块，$A[[X_1, \ldots, X_n]]$ 是扁平 $A$-模块（章 I, § 2, no. 7、推论 3 到命题 8）。
 
 #### 命题 8 {#ac-iii-s3-prop-8 .statement tag=04GP}
 
-令 $A$ 为交换诺特环，$m$ $A$，$\hat{A}$ $A$ 相对于 $m$-adic 拓扑和 $j$ 的豪斯多夫完成式典范映射从$A$到$\hat{A}$。的：
+令 $A$ 为交换诺特环，$m$ $A$，$\hat{A}$ $A$ 相对于 $m$-adic 拓扑和 $j$ 的豪斯多夫完成典范映射从$A$到$\hat{A}$。的：
 (i) $\hat{A}$ 是 Zariski 环，$\hat{m} = \hat{A}.j(m)$ 是 $\hat{A}$ 的定义理想。
 
-(ii) *映射* $n \mapsto A = \hat{A}.j(n)$ *是* $A$ *包含* 最大理想集合双射* $m$ *到* $\hat{A}$ *最大理想集合和* $q \mapsto j^{-1}(q)$ *是逆双射*。
+(ii) *映射* $n \mapsto A = \hat{A}.j(n)$ *是* $A$ *包含* 最大理想集合双射* $m$ *到* $\hat{A}$ *最大理想集合和* $q \mapsto j^{-1}(q)$ *is 逆双射*.
 
-(iii) *设*$n$*为*$A$*包含*$m$的最大理想。 *同态* $j': A_n \to \hat{A}_{\hat{n}}$ *源自* $j$ *是单射；如果* $A$，*通过* $j$ *与* $\hat{A}$的子环进行识别，** $(nA_n)$*-adic 拓扑 on* $A_n$ *由* $A$*-adic 拓扑 on*诱导$\hat{A}_{\hat{n}}$ *和* $A_n$ *密集于* $A$，*与* $A$*-adic 拓扑*。
+(iii) *设* $n$ *为* $A$ *包含* $m$ 的最大理想。 *同态* $j': A_n \to \hat{A}_{\hat{n}}$ *源自* $j$ *是单射；如果* $A$，*通过* $j$ *与* $\hat{A}$的子环进行识别，** $(nA_n)$*-adic 拓扑 on* $A_n$ *由* $A$*-adic 拓扑 on*诱导$\hat{A}_{\hat{n}}$ *和* $A_n$ *密集于* $A$，*与* $A$*-adic 拓扑*。
 
-让我们展示（i）。由于$m$是有限生成的理想，$(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$（§ 2, no. 12，推论2到命题16）和$\hat{A}$上的拓扑是$m$-adic拓扑。由于$\hat{A}/\hat{m}$与$A/m$同构的，它是诺特环，并且$\hat{m} = m \hat{A}$是有限生成的$A$模块，因此$\hat{A}$是诺特（§ 2, no. 10，推论5 定理2);最后，由于 $\hat{A}$ 是 Hausdorff 并且相对于 $m$-adic 拓扑来说是完整的，$\hat{A}$ 是 Zariski 环 (no. 3, *例* 1)。
+Let us show (i).由于$m$是有限生成的理想，$(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$（§ 2, no. 12、推论 2到命题16）和$\hat{A}$上的拓扑是$m$进数拓扑。由于 $\hat{A}/\hat{m}$ 与 $A/m$ 同构的，因此它是诺特环并且 $\hat{m} = m \hat{A}$ 是有限生成的 $A$ 模，因此 $\hat{A}$ 是诺特 (§ 2, no. 10, 推论 5 到定理 2);最后，由于 $\hat{A}$ 是 Hausdorff 并且相对于 $m$-adic 拓扑来说是完整的，$\hat{A}$ 是 Zariski 环 (no. 3, *例* 1)。
 
-断言 (ii) 紧接着从$j$派生的典范同态$A/m + \hat{A}/\hat{m}$是双射的事实以及$\hat{A}$包含于$\hat{m}$的每个最大理想，因为$\hat{A}$是Zariski环和Jacobson根式$\hat{A}$ 然后包含 $m$（no. 3，命题 6）。
+断言 (ii) 紧接着从$j$派生的典范同态$A/m + \hat{A}/\hat{m}$是双射的事实以及$\hat{A}$包含于$\hat{m}$的每个最大理想，因为$\hat{A}$是Zariski环和Jacobson 根基 $\hat{A}$ 然后包含 $m$（no. 3，命题 6）。
 
 最后让我们证明(iii)。作为$n = j^{-1}(A)$，$j(A - n) \subset \hat{A} - \hat{n}$和$j$当然是定义同态$j': A_n \to \hat{A}_{\hat{n}}$（章II, § 2, no. 1，命题2）。让我们证明 $j'$ 是单射的；让$a \in A, s \in A - n$这样
 $$
 j'(a/s) = j(a)/j(s) = 0;
 $$
-则存在$s' \in \hat{A} - \hat{n}$，使得$\hat{A}$中$j(a)$的$s'j(a) = 0$（章II, § 2, no. 1，*注* 3）和湮没子因此不包含在$\hat{n}$中。现在，如果$A$中$b$是$a$的湮没子，则$\hat{A}$中$j(a)$的湮没子是$b$（推论1到定理3）；因此$b \notin n$，它表明$a/s = 0$。
+则存在$s' \in \hat{A} - \hat{n}$，使得$\hat{A}$中的$j(a)$的$s'j(a) = 0$（章II, § 2, no. 1，*注* 3）和湮没子因此不包含在$\hat{n}$中。现在，如果$A$中$a$的$b$是湮没子，则$\hat{A}$中$j(a)$的湮没子是$b$（推论1到定理3）；因此$b \notin n$，它表明$a/s = 0$。
 
 此外，还有一个可交换的图表
 $$
@@ -399,15 +399,15 @@ h \downarrow & & h' \downarrow \\
 \hat{A}/\hat{n}^k & \longrightarrow & \hat{A}_{\hat{n}}/(\hat{n}\hat{A}_{\hat{n}})^k
 \end{array}
 $$
-其中$h$和$h'$分别源自$j$和$j'$，水平箭头是章II, § 3, no. 3、命题9的典范同构。 由于$n^k$是$A$的开放理想（因为它包含$m^k$），$h$是双射的，因此$h'$也是双射的。 这首先表明$A_n$上的$(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$以及拓扑是由$A_n$上的⟦⟦⟧诱导的；此外，$\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$对于所有$k > 0$，因此$A_n$在$A_n$中处处稠密。
+其中$h$和$h'$分别源自$j$和$j'$，水平箭头是章II, § 3, no. 3、命题9的典范同构。 由于$n^k$是$A$的开放理想（因为它包含$m^k$），$h$是双射的，因此$h'$也是双射的。 这首先表明$(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$，因此$A_n$上的拓扑是由$A_n$上的拓扑诱导的；此外，$\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$对于所有$k > 0$，因此$A_n$在$A_n$中处处稠密。
 
-#### 推论{#ac-iii-s3-n4-cor-1 .statement tag=04GQ}
+#### 推论 {#ac-iii-s3-n4-cor-1 .statement tag=04GQ}
 
-*设* $A$ *为诺特局部*（或*半局部*）*环和*$m$ *其雅各布森激进式。那么* $\hat{A}$ *是诺特局部*（或*半局部*）*环，其雅各布森根式是* $\hat{m}$。
+*设*$A$*为诺特本地*（或*半本地*）*环和*$m$*其雅各布森根基。那么* $\hat{A}$ *是诺特本地*（或*半本地*）*环，其 Jacobson 根基是* $\hat{m}$。
 
-$\hat{A}$ 是诺特命题 8 (i)，其余部分由命题 8 (ii) 和推论 1 中的第三个公式到定理 3。
+$\hat{A}$ 是诺特 by 命题 8 (i)，其余部分来自命题 8 (ii) 和推论 1 到定理 3 中的第三个公式。
 
-### 5. 完成 ZARISKI 环
+### 5. 完成 zariski 环
 
 #### 命题 9 {#ac-iii-s3-prop-9 .statement tag=04GR}
 
@@ -427,7 +427,7 @@ $\hat{A}$ 是诺特命题 8 (i)，其余部分由命题 8 (ii) 和推论 1 中�
 
 令 $A$ 为 Zariski 环，$E$ 为有限生成的 $A$ 模块。如果 $\hat{E}$ 是免费的 $A$ 模块，则 $E$ 是免费的 $A$ 模块。
 
-令 $m$ 为 $A$ 的定义理想，因此它包含在 $A$ 的雅各布森根式中。 我们应用章II, § 3, no. 5、命题5的标准：典范映射$j_E : E \to \hat{E}$定义双射$i_E : E/mE \to \hat{E}/(mE)^{\wedge}$；同样典范映射$j_A : A \to \hat{A}$定义双射$i_A : A/m \to \hat{A}/\hat{m}$，即环同构。 然后$(mE)^{\wedge} = \hat{A}.mE = \hat{m}\hat{E}$ (no. 4, 定理 3)，因此$\hat{E}/(mE)^{\wedge}$被赋予一个$(\hat{A}/\hat{m})$模块结构，因此（通过$i_A$）一个$(A/m)$模块结构。 It is immediate that $i_E$ is $(A/m)$-linear, so that it is an $(A/m)$-module isomorphism. 由于 $\hat{E}/\hat{m}\hat{E}$ 是免费的 $(\hat{A}/\hat{m})$ 模块，$E/mE$ 是免费的 $(A/m)$ 模块。
+令 $m$ 为 $A$ 的定义理想，因此它包含在 $A$ 的 Jacobson 根基中。 我们应用章II, § 3, no. 5、命题5的标准：典范映射$j_E : E \to \hat{E}$定义双射$i_E : E/mE \to \hat{E}/(mE)^{\wedge}$；同样典范映射$j_A : A \to \hat{A}$定义双射$i_A : A/m \to \hat{A}/\hat{m}$，即环同构。 然后$(mE)^{\wedge} = \hat{A}.mE = \hat{m}\hat{E}$ (no. 4, 定理 3)，因此$\hat{E}/(mE)^{\wedge}$被赋予一个$(\hat{A}/\hat{m})$模块结构，因此（通过$i_A$）一个$(A/m)$模块结构。 直接可知$i_E$是$(A/m)$线性的，因此它是$(A/m)$模同构。 由于 $\hat{E}/\hat{m}\hat{E}$ 是免费的 $(\hat{A}/\hat{m})$ 模块，$E/mE$ 是免费的 $(A/m)$ 模块。
 
 另一方面，令$\nu : m \otimes_A E \to E$为典范同态；因为 $(m \otimes_A E) \otimes_A \hat{A}$ 与 $m \otimes_A \hat{E}$ 和 $E \otimes_A \hat{A}$ 与 $\hat{E}$ (no. 4, 定理 3)、假设被规范地标识为 $\hat{E}$ 是一个自由的 $\hat{A}$ 模块，这意味着同态 $\nu \otimes 1 : \hat{m} \otimes_{\hat{A}} \hat{E} \to \hat{E}$ 是单射。由于 $\hat{A}$ 是一个忠实的扁平 $A$ 模 (命题 9)，我们结论 $\nu$ 是单射 (章 I, § 3, no. 1, 命题 2) 和条件对于应用上述标准确实是实现了。
 
@@ -435,7 +435,7 @@ $\hat{A}$ 是诺特命题 8 (i)，其余部分由命题 8 (ii) 和推论 1 中�
 
 令$A$为Zariski环，使得$\hat{A}$为整环，并令$a$为$A$的理想。如果$\hat{A}$的理想$a\hat{A}$为主，则$a$为主。
 
-这是推论2的一个特例。
+这是推论 2 的特例。
 
 #### 推出 4 {#ac-iii-s3-prop-9-cor-4 .statement tag=04GV}
 
@@ -445,9 +445,9 @@ $\hat{A}$ 是诺特命题 8 (i)，其余部分由命题 8 (ii) 和推论 1 中�
 
 #### 推出 5 {#ac-iii-s3-prop-9-cor-5 .statement tag=04GW}
 
-令$A$是可交换的诺特环，$E, F$两个有限生成的$A$模，$u : E \to F$是$A$同态。对于 $A$ 的每个最大理想 $m$，令 $A(m)$（分别为 $E(m), F(m)$）表示 $A$（分别为 $E, F$）相对于 $m$-adic 拓扑和 $u(m) : E(m) \to F(m)$ 的 Hausdorff 完成相应的同态至$u$。对于 $u$ 是单射的（分别是满射、双射的、零），$u(m)$ 对于每个最大理想 $m \notin A$ 都是必要且充分的。
+设$A$是可交换的诺特环、$E, F$两个有限生成的$A$模，$u : E \to F$是$A$同态。对于 $A$ 的每个最大理想 $m$，令 $A(m)$（分别为 $E(m), F(m)$）表示 $A$（分别为 $E, F$）相对于 $m$-adic 拓扑和 $u(m) : E(m) \to F(m)$ 的 Hausdorff 完成相应的同态至$u$。对于 $u$ 是单射的（分别是满射、双射的、零），$u(m)$ 对于每个最大理想 $m \notin A$ 都是必要且充分的。
 
-我们知道，要使 $u$ 成为单射（或满射、双射的、零），$u_m : E_m \to F$ 对于 $A$ 的每个最大理想 $m$ 都是必要且充分的（章 II, § 3, no. 3、定理 1）。我们现在注，$A$是诺特局部环（章II, § 2, no. 4，推论2到命题10），因此是Zariski环，并且存在规范的$A$-代数同构$\hat{A}_m \to A(m)$（§ 2, no. 13，命题18）。另一方面（从no. 4开始），有一个可交换的图表
+我们知道，要使 $u$ 成为单射（或满射、双射的、零），$u_m : E_m \to F$ 对于 $A$ 的每个最大理想 $m$ 都是必要且充分的（章 II, § 3, no. 3、定理 1）。我们现在注意到$A$是诺特局部环（章II, § 2, no. 4，推论2到命题10），因此是Zariski环并且存在规范的$A$-代数同构$\hat{A}_m \to A(m)$（§ 2, no. 13，命题18）。另一方面（从no. 4开始），有一个可交换的图表
 
 $$
 \begin{array}{ccc}
@@ -457,13 +457,13 @@ F_m \otimes_{A_m} A(m) & \longrightarrow & F \otimes_A A(m) \longrightarrow F(m)
 \end{array}
 $$
 
-其中左侧的水平箭头来自张量积和同构 $E_m \to E \otimes_A A_m, F_m \to F \otimes_A A_m$ 的结合性；由于$E$和$F$是有限生成的$A$模块，因此从no. 4，定理3可以得出，这个图表的行由同构组成；因此，我们被简化为证明，$u_m$是单射（分别是满射、双射的、零）等价于$u_m \otimes 1$。但这源于以下事实：$\hat{A}_m$（因此也是$A(m)$）是命题 9（章I, § 3, no. 1、命题 1 和 2）的忠实平坦$A_m$模。
+其中左侧的水平箭头来自张量积和同构 $E_m \to E \otimes_A A_m, F_m \to F \otimes_A A_m$ 的结合性；由于$E$和$F$是有限生成的$A$模块，因此从no. 4，定理3可以得出，图表的行由同构组成；因此我们被简化为证明，$u_m$是单射（分别是满射、双射的、零）等价于$u_m \otimes 1$。但这源于以下事实：$\hat{A}_m$（因此也是$A(m)$）是命题 9（章I, § 3, no. 1、命题 1 和 2）的忠实平坦$A_m$模。
 
 #### 命题 10 {#ac-iii-s3-prop-10 .statement tag=04GX}
 
-令 $A, B$ 为两个 Zariski 环、$\hat{A}, \hat{B}$ 它们的完成，$f : A \to B$ 连续的环同态和 $\hat{f} : \hat{A} \to \hat{B}$ 同态从 $f$ 通过经过获得到完成；如果 $\hat{f}$ 是双射的，则 $A$-模 $B$ 是忠实平坦的。
+令 $A, B$ 为两个 Zariski 环、$\hat{A}, \hat{B}$ 它们的完成，$f : A \to B$ 连续的环同态和$\hat{f} : \hat{A} \to \hat{B}$ 同态从 $f$ 通过经过获得到完成；如果 $\hat{f}$ 是双射的，则 $A$-模 $B$ 是忠实平坦的。
 
-由于 $A$ 和 $B$ 是 Hausdorff，因此 $\hat{f}$ 是双射的假设首先意味着 $f$ 是单射的。通过off方法将$A$与$f(A)$（代数地）识别，并通过$\hat{f}$将$\hat{A}$与$\hat{B}$进行识别，然后我们得到包含物$A \subset B \subset \hat{A} = \mathbf{8}$；我们知道$\hat{A}$是一个忠实平坦的$A$模块和一个忠实平坦的$B$模块（命题9）；我们结论认为$B$是一个忠实的扁平$A$模块（章I, § 3, no. 4，注2）。
+由于 $A$ 和 $B$ 是 Hausdorff，因此 $\hat{f}$ 是双射的假设首先意味着 $f$ 是单射的。通过 off 方法将 $A$ 与 $f(A)$ 进行（代数）识别，并通过 $\hat{f}$ 方法将 $\hat{A}$ 与 $\hat{B}$ 进行识别，然后我们得到包含物 $A \subset B \subset \hat{A} = \mathbf{8}$；我们知道$\hat{A}$是一个忠实平坦的$A$模块和一个忠实平坦的$B$模块（命题9）；我们结论认为$B$是一个忠实的扁平$A$模块（章I, § 3, no. 4，注2）。
 
 #### 命题 11 {#ac-iii-s3-prop-11 .statement tag=04GY}
 
@@ -475,7 +475,7 @@ $$
 
 对于所有$k \geq 1$，$B$上的$n$-adic 拓扑是由$\hat{\mathbf{A}}$上的$m$-adic 拓扑诱导的，$B$是一个忠实的平坦$\mathbf{A}$-模，并且有同构 $\hat{\mathbf{A}}$ 到 $B$ 的$n$-adic补全$\hat{B}$，其中扩展典范嵌入$\mathbf{A} \to B$。
 
-验证关系$n^k = \hat{m}^k \cap B$就足够了，因为$B$在$\hat{\mathbf{A}}$中是稠密的，并且$n$-adic拓扑是由$m$-adic拓扑诱导的，最后一个断言将从*一般得出拓扑*、章 II, § 3, no. 9，推论 1 到命题 18 以及命题 10 中的最后一个，单射 $j_A : \mathbf{A} \to \hat{\mathbf{A}}$（分别为 $j : B \to \hat{\mathbf{A}}$）定义通过取商单同态
+验证关系$n^k = \hat{m}^k \cap B$就足够了，因为$B$在$\hat{\mathbf{A}}$中是稠密的，并且$n$-adic拓扑是由$m$-adic拓扑诱导的，最后一个断言将从*一般得出拓扑*、章 II, § 3, no. 9、推论 1 到命题 18 以及命题 10 中的最后一个。单射 $j_A : \mathbf{A} \to \hat{\mathbf{A}}$（分别为$j : B \to \hat{\mathbf{A}}$）定义商单同态
 
 $$
 i_1 : \mathbf{A}/(\hat{m} \cap \mathbf{A}) \to \hat{\mathbf{A}}/\hat{m}
@@ -519,7 +519,7 @@ $1 + (S^{-1}m)$的每个元素都是形式
 $$
 1 + (m/(1 + m')) = (1 + m + m')/(1 + m)
 $$
-其中 $m \in m$ 和 $m' \in m$；因此它在 $S^{-1}A$ 中是可逆的，这证明 $S^{-1}m$ 包含在 $S^{-1}A$ 的雅各布森根式中；因为 $S^{-1}A$ 是诺特（章 II, § 2, no. 4，推论 2 到命题 10），$S^{-1}A$ 是带有 $(S^{-1}m)$-adic 拓扑的 Zariski 环，这证明了 (i)。让我们展示 (ii)。对于所有$n > 0$，
+其中 $m \in m$ 和 $m' \in m$；因此它在 $S^{-1}A$ 中是可逆的，这证明 $S^{-1}m$ 包含在 $S^{-1}A$ 的 Jacobson 根基中；由于 $S^{-1}A$ 是诺特（章 II, § 2, no. 4、推论 2 到命题 10），$S^{-1}A$ 是带有 $(S^{-1}m)$-adic 拓扑的 Zariski 环，这证明了 (i)。让我们展示 (ii)。对于所有$n > 0$，
 $$
 \bar{f}^{-1}((S^{-1}m)^nE) = \bar{f}'(S^{-1}(m^nE)) = m^nE:
 $$

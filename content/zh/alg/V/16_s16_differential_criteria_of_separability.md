@@ -42,19 +42,19 @@ subsections:
       pdf_page: 250
 statements: 32
 exercises: 9
-content_sha256: a011d76a772dc099f5c649918e54acd6a5159f245e32e49d09ebbf255162a68c
+content_sha256: 640ee94c4d8f0cb2ca237f24ad4e8276f4b06c0028ded27c7ddc573e24f7c1fc
 translated_from: content/en/alg/V/16_s16_differential_criteria_of_separability.md
 translation_method: google
 source_content_sha256: 74e20434a4632131b94714a4b2546c552d9b686ae8250258434122a026af180b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 422a0004b2311c631ab43605267e2606750bb400a4bac5fc5cad2270436a928e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 16。可分离性差异判据
+## § 16。可分离性差判据
 
 ### 1. 推导的扩张：环的情况
 
@@ -74,9 +74,9 @@ $$
 D(f(x)) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i \quad \text{for all} \quad f \in K[X_i]_{i \in I}
 $$
 
-将 $E = K[X_i]_{i \in I}$ 写入 $\varphi$，表示 E 的 K 同态到 A 上，其中对于所有 $i \in I$，映射 $X_i$ 到 $x_i$；因此，对于所有 $f \in E$，我们都有 $\varphi(f) = f(x)$。我们将 M 视为 E 模，通过同态 $\varphi : E \to A$ 和定义映射 $D'$ 将 E 通过 $D'(f) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i$ 转换为 M（注，$(D_i f)_{i \in I}$ 系列中的每个 $f \in E$ 都有有限支撑）。很明显，$D'$ 是 E 到 M 中唯一的推导，将 A 延伸，并且对于每个 $i \in I$，映射 $X_i$ 到 $m_i$。
+将 $E = K[X_i]_{i \in I}$ 写入 $\varphi$，表示 E 的 K 同态到 A 上，其中对于所有 $i \in I$，映射 $X_i$ 到 $x_i$；因此，对于所有 $f \in E$，我们都有 $\varphi(f) = f(x)$。我们将 M 视为 E 模，通过同态 $\varphi : E \to A$ 和定义映射 $D'$ 将 E 通过 $D'(f) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i$ 引入 M（请注意，族$(D_i f)_{i \in I}$ 对于每个 $f \in E$ 都有有限支撑）。很明显，$D'$是E到M中唯一的推导延伸A，并且对于每个$i \in I$，映射$X_i$到$m_i$。
 
-令 D 为 A 到 M 的推导，使得对于所有 $c \in K$ 为 $D(c \cdot 1) = \Delta(c)$，对于所有 $i \in I$ 为 $D(x_i) = m_i$。那么$D \circ \varphi$是E到M的推导延伸A和映射$X_i$到$m_i$对于所有$i \in I$。因此我们有 $D \circ \varphi = D'$，即关系 (2) 成立。这证明了 D 的唯一性 ；而且(1)是$f, (x) = 0$和(2)中的推论。
+令 D 为 A 到 M 的推导，使得对于所有 $c \in K$ 为 $D(c \cdot 1) = \Delta(c)$，对于所有 $i \in I$ 为 $D(x_i) = m_i$。那么$D \circ \varphi$是E到M的推导延伸A并且对于所有$i \in I$来说映射$X_i$延伸到$m_i$。因此我们有 $D \circ \varphi = D'$，即关系 (2) 成立。这证明了 D 的唯一性 ；而且(1)是$f, (x) = 0$和(2)中的推论。
 
 反之假设 (1) 成立；在其他字中，我们对所有$\lambda \in A$都有$D'(f_\lambda) = 0$。设 $f \in a$； $E$中存在有限支撑$(q_\lambda)_{\lambda \in \Lambda}$的族，使得$f = \sum_{\lambda \in \Lambda} q_\lambda \cdot f_\lambda$。我们有
 $$
@@ -125,11 +125,11 @@ b) $K$-$L$的微分的向量$L$-空间$\Omega_K(L)$具有$(dx_i)_{i \in I}$族�
 
 断言 b) 已在IV、p. 23 和断言 a) 中得到证明，由此可直接得出。
 
-#### 推论{#alg-v-s16-n2-cor-1 .statement tag=06UN}
+#### 推论 {#alg-v-s16-n2-cor-1 .statement tag=06UN}
 
 — 设 $P$ 为 $K$ 的子域。 $\Omega_P(K) \otimes_K L$典范映射$\alpha$入$\Omega_P(L)$单射且族$(d_{L/P} x_i)_{i \in I}$，是$\Omega_P(L)$子空间基（超过$L$）对$\alpha : \Omega_P(K) \otimes_K L \to \Omega_P(L)$像的补充。
 
-命题 3, a) 表明，在 $L$ 扩展上，每一次将 $K$ $P$ 推导为向量空间 $V$，再将 $L$ $P$ 推导为 $V$； $\alpha$ 的单射性则由命题 2 得出。推论的第二个断言由序列 $(\mathbf{E}_{P,K,L})$ 和命题 3, b) 的精确性得出（考虑到公式 (4)）。
+命题 3, a) 表明，在 $L$ 扩展上，每一次将 $K$ $P$ 推导为向量空间 $V$，再将 $L$ $P$ 推导为 $V$； $\alpha$ 的单射性则由命题 2 得出。推论的第二个断言由序列 $(\mathbf{E}_{P,K,L})$ 和命题 3, b) 的精确性得出（考虑公式 (4)）。
 
 #### 命题 4 {#alg-v-s16-prop-4 .statement tag=06UO}
 
@@ -145,13 +145,13 @@ b) 如果$A$是$K$到$V$的推导，则存在$L$到$V$的唯一推导$D$，其�
 
 还需要证明$A$的扩张的存在性。 Zorn 的引理 (E, III, p. 20) 意味着存在在 $L$ 包含的子域 $L_0$ 上定义的 $A$ 到推导的最大扩张 $D_0$ $K$。
 
-令 $x$ 位于 $L$ 和 $g$ 中，$x$ 在 $L_0$ 上的最小多项式。由于 $L$ 是代数且在 $K$ 上可分，$x$ 是代数且在 $L_0$ 上可分（$V$、p. 39，第 6 条命题和 p. 39，Cor. 2）；因此 $x$ 是 $g$（$V$、p. 39，命题 5）、从而 $g'(x) \neq 0$（IV、p. 17、命题 7）的简单根。如果我们像$V$、p. 127那样定义$g^{D_0}(x)$，则存在$V$的元素$u$使得$g^{D_0}(x) + g'(x) \cdot u = 0$；根据命题1（V，p. 127），存在$L_0(x)$的推导$D$延伸到$V$延伸$D_0$，从而$D(x) = u$。鉴于 $(L_0, D_0)$ 的最大特征标，我们因此有 $L_0(x) = L_0$、从而 $x \in L_0$。由于$x$是任意的，我们结论即$L_0 = L$。
+令 $x$ 位于 $L$ 和 $g$ 中，$x$ 在 $L_0$ 上的最小多项式。由于 $L$ 是代数且在 $K$ 上可分，$x$ 是代数且在 $L_0$ 上可分（$V$、p. 39，第 6 条命题和 p. 39，Cor. 2）；因此$x$是$g$（$V$，p. 39，命题5），从而$g'(x) \neq 0$（IV，p. 17，命题7）的简单根。如果我们像$V$、p. 127一样定义$g^{D_0}(x)$，则存在$V$的元素$u$使得$g^{D_0}(x) + g'(x) \cdot u = 0$；根据命题1（V，p. 127），存在$L_0(x)$的推导$D$延伸到$V$延伸$D_0$，从而$D(x) = u$。鉴于 $(L_0, D_0)$ 的最大特征标，我们因此有 $L_0(x) = L_0$、从而 $x \in L_0$。由于$x$是任意的，我们结论即$L_0 = L$。
 
 #### 推论 1 {#alg-v-s16-prop-4-cor-1 .statement tag=06UP}
 
 — 如果 $L$ 是代数且可在 $K$ 上分离，则我们有 $\Omega_K(L) = 0$。
 
-推论来自于命题 4，a)，因为向量$L$-空间$\Omega_K(L)$是由规范$K$-推导$d_{L/K} : L \to \Omega_K(L)$的像生成的。
+推论由命题 4, a) 得出，因为向量 $L$-空间 $\Omega_K(L)$ 是由规范的 $K$-推导 $d_{L/K} : L \to \Omega_K(L)$ 的像生成的。
 
 #### 推论 2 {#alg-v-s16-prop-4-cor-2 .statement tag=06UQ}
 
@@ -161,9 +161,9 @@ b) 如果$A$是$K$到$V$的推导，则存在$L$到$V$的唯一推导$D$，其�
 
 #### 推论 3 {#alg-v-s16-prop-4-cor-3 .statement tag=06UR}
 
-— *设 E 为域 K 的扩张，D 推导将 E 转化为 E，将映射 K 转化为 K。如果 L 是 E 的子扩展，且是代数且可在 K 上分离，则 $D(L) \subset L$。*
+— *令 E 为域 K 的扩张，将 E 的 D 推导转化为 E，将映射 K 转化为 K。如果 L 是 E 的子扩展，且是代数且可在 K 上分离，则 $D(L) \subset L$。*
 
-设A为K的推导入L，与K上的D一致。根据命题4（V，p. 129），存在L的推导D'入L延伸A。现在我们可以考虑D'和限制D'' D 到 L 作为 $L$ 的推导到 E ；因为他们在 K 上达成一致，所以根据第 4 条命题我们有 $D' = D''$，从而
+设A为K的推导到L，与K上的D一致。根据命题4（V，p. 129），存在L的推导D'到L延伸A。现在我们可以考虑将D'和限制D''延伸到L将 $L$ 的推导代入 E ；因为他们在 K 上达成一致，所以根据第 4 条命题我们有 $D' = D''$，从而
 
 $$
 D(L) = D''(L) = D'(L) \subset L .
@@ -171,7 +171,7 @@ $$
 
 #### 注 {#alg-v-s16-n2-rem-1 .statement tag=06US}
 
-— 1）稍后（V，p. 131，Cor.3 和p. 135，Cor.2）我们将向 Cor. 证明逆命题。提案 4 中的 1 条。
+— 1）稍后（V，p. 131，Cor.3和p. 135，Cor.2）我们将向Cor.证明逆命题。提案 4 中的 1 条。
 
 2) 素数域的每个代数扩张都是可分的（V，p. 37，Cor.）。由于素数域的每个推导都是零，所以素数域的代数扩张的每个推导都是零（命题4）。
 
@@ -179,9 +179,9 @@ $$
 
 #### 定理 1 {#alg-v-s16-thm-1 .statement tag=06UT}
 
-— *令 K 为特征 0 的域、K 的 L 扩张以及 L 上的 V 向量空间。设A是K的推导进入V，$(x_i)_{i \in I}$，L对K的超越基和$(u_i)_{i \in I}$，V的元素的族。那么存在一个唯一的 L 的推导 D 延伸到V 延伸 A，并且对于所有 $i \in I$ 都有 $D(x_i) = u_i$。*
+— *令 K 为特征 0 的域、K 的 L 扩张以及 L 上的 V 向量空间。设A是K的推导到V，$(x_i)_{i \in I}$，L对K的超越基和$(u_i)_{i \in I}$，V的元素族。那么存在一个唯一的L到V延伸A的推导D，并且对于所有$i \in I$都有$D(x_i) = u_i$。*
 
-把$E = K(x_i)_{i \in I}$；命题3（V，p. 128）表明，扩展到E的唯一推导$D_0$进入V，使得$D_0(x_i) = u_i$适用于所有$i \in I$。 域 $L$ 是 E 的代数扩张，并且由于 L 的特征为 0，L 在 E 上可分（V，p. 37，Cor.）。因此（V，p. 129，命题4）$D_0$扩展到$L$的唯一推导D到V。
+把$E = K(x_i)_{i \in I}$；命题3（V，p. 128）表明，扩展到E的唯一推导$D_0$到V，使得$D_0(x_i) = u_i$对于所有$i \in I$。 域 $L$ 是 E 的代数扩张，并且由于 L 的特征为 0，L 在 E 上可分（V，p. 37，Cor.）。因此（V，p. 129，命题4）$D_0$扩展到$L$的唯一推导D到V。
 
 #### 推论 1 {#alg-v-s16-thm-1-cor-1 .statement tag=06UU}
 
@@ -189,7 +189,7 @@ $$
 
 #### 推论 2 {#alg-v-s16-thm-1-cor-2 .statement tag=06UV}
 
-— *令 E 为 L 和 U 向量 L 子空间$\Omega_K(L)$ 的子扩展，由 E 的元素微分生成。对于元素 x 来说，$dx \in U$ 是必要且充分的。*
+— *令 E 为 L 和 U 向量 L 子空间$\Omega_K(L)$ 的子扩展，由 E 的元素微分生成。对于元素 x 在 E 上的代数，$dx \in U$ 是充分必要的。*
 
 对于每个 $y \in L$ 令 D(y) 为 $dy$ mod U 的剩余类类。则 D 是 L 到 $\Omega_K(L)/U$ 的 E 导数。由于 K 的特征为 0，因此 E 的每个代数扩张都是可分的 (V, p. 37, Cor.) ；如果$x \in L$是E上的代数，则根据命题4（V，p. 129）我们有$Dx = 0$，即$dx \in U$。
 
@@ -211,16 +211,16 @@ $$
 a) 对于 $(x_i)_{i \in I}$，为了在 K 上保持代数自由，$\Omega_K(L)$ 中的微分 $dx_i$（对于 $i \in I$）在 L 上应该是线性自由的。
 b) 为了使L成为$K(x_i)_{i \in I}$上的代数，对于$i \in I$生成向量空间$\Omega_K(L)$在L上的微分$dx_i$是必要且充分的。
 c) 为了使$(x_i)_{i \in I}$成为L对K的超越基，族$(dx_i)_{i \in I}$应该是$\Omega_K(L)$对L的基是充分必要的。
-对于每个$i \in I$，令$E_i$为子域$K(x_j)_{j \in I, j \neq i}$ / L。对于族 $(x_i)_{i \in I}$，要在 K 上保持代数自由，对于每个 $i \in I$，$x_i$ 应该超越 $E_i$ 是必要且充分的（$V$，p. 108，命题 5）。由科. 2 Th。 1 这意味着对于每个$i \in I$，微分$dx_i$不是线性组合，其系数在L中，$dx_j$与$j \neq i$在I中的微分；后者条件仅意味着家庭$(dx_i)_{i \in I}$在L、从而 a) 上是免费的。
-断言 b) 立即从 Cor 得出。 2 Th。 1和c)是a)和b)的推论。
+对于每个$i \in I$，令$E_i$为子域$K(x_j)_{j \in I, j \neq i}$/L。对于族 $(x_i)_{i \in I}$，要在 K 上保持代数自由，对于每个 $i \in I$，$x_i$ 应该超越 $E_i$ 是必要且充分的（$V$，p. 108，命题 5）。由科. 2 Th。 1 这意味着对于每个 $i \in I$，$dx_i$ 的差值不是线性组合，而L 中的系数是$dx_j$ 与I 中的$j \neq i$ 的差值；后者条件仅意味着家庭$(dx_i)_{i \in I}$在L、从而 a) 上是免费的。
+断言 b) 立即来自Cor。 2 Th。 1和c)是a)和b)的推论。
 
-#### 推论{#alg-v-s16-n3-cor-1 .statement tag=06UZ}
+#### 推论 {#alg-v-s16-n3-cor-1 .statement tag=06UZ}
 
 — *当 K 的特征为 0 时，我们有 $[\Omega_K(L) : L] = \operatorname{tr} \cdot \deg_K L$。
 
 ### 4. 推导在可分扩张
 
-We have seen ($V$, p. 122, Th. 1) that every extension $L$ of a field $K$ of characteristic 0 is separable; moreover, every derivation of K into a vector space over $L$ extends then to a derivation of $L$ ($V$, p. 130, Cor. 1). 更一般地，我们有以下叙述：
+我们已经看到（$V$，p. 122，Th.1），特征为0的字段$K$的每个扩展$L$都是可分离的；此外，K 在 $L$ 上的向量空间的每次推导都会扩展到 $L$ 的推导（$V$，p. 130，Cor.1）。 更一般地，我们有以下叙述：
 
 #### 定理 3 {#alg-v-s16-thm-3 .statement tag=06V0}
 
@@ -229,13 +229,13 @@ We have seen ($V$, p. 122, Th. 1) that every extension $L$ of a field $K$ of cha
 
 Lane 准则 (V、p. 124、注)、域、$L^p$ 和 $K$ 与不相交的与 $K^p$ 呈线性关系。 由于$A$是$K$到$V$的$K^p$线性映射，因此扩展以独特的方式将$K[L^p] = K(L^p)$到$V$的$L^p$线性映射$A'$。 很明显，$A'$是$K(L^p)$的推导进入$V$，在$L^p$上消失；因此，它将$L$的扩展（V，p. 103，Cor.3）到推导转换为$V$。
 
-相反，假设$K$的每个推导和$L$扩展中的值到$L$的推导都进入$L$。 Let $B$ be a p-basis of $K$ (V, p. 99) and let $A$ be the set of families $(\alpha_h)_{h \in R}$ with finite support consisting of integers between $()$ and $p - 1$. 对于每个$b \in B$，存在$K$到$K$的推导$\Delta_b$，其特征在于每个$b' \in B$（V，p. 103）的$\Delta_b(b') = \delta_{bb'}$（克罗内克符号）。 到假设，$L$的每个$b \in B$推导$D_b$都存在延伸$\Delta_b$的$L$。 对于$B$中的$b, b'$，我们有$D_b(b') = \delta_{bb'}$，这证明在$\Omega_{1/p}(L)$中，微分$db$（对于$b \in B$）在$L$上是线性无关的。 因此 (V, p 102, Th.1), $B$ 在 $L^p$ 上是无 p 的。 由此可见（V，p. 98，命题1和p. 124，注）$K$的扩张$L$是可分的。
+相反，假设$K$的每个推导和$L$扩展中的值到$L$的推导都进入$L$。 令$B$为$K$（V，p. 99）的p基，令$A$为具有有限支持的族$(\alpha_h)_{h \in R}$的集合，由$()$和$p - 1$之间的整数组成。 对于每个$b \in B$，存在$K$到$K$的推导$\Delta_b$，其特征在于每个$b' \in B$（V，p. 103）的$\Delta_b(b') = \delta_{bb'}$（克罗内克符号）。 到假设，$L$的每个$b \in B$推导$D_b$都存在延伸$\Delta_b$的$L$。 对于$B$中的$b, b'$，我们有$D_b(b') = \delta_{bb'}$，这证明在$\Omega_{1/p}(L)$中，微分$db$（对于$b \in B$）在$L$上是线性无关的。 因此 (V, p 102, Th.1), $B$ 在 $L^p$ 上是无 p 的。 由此可见（V，p. 98，命题1和p. 124，注）$K$的扩张$L$是可分的。
 
-#### 推论{#alg-v-s16-n4-cor-1 .statement tag=06V1}
+#### 推论 {#alg-v-s16-n4-cor-1 .statement tag=06V1}
 
-— *如果$L$是$K$的可分扩张，则典范映射$\alpha_p : \Omega_p(K) \otimes_K L \to \Omega_p(L)$对于$K$的每个子域$P$是单射的。相反，如果存在 $K$ 的完美子域 $P$（对于例 $K$ 的质数子域），使得映射 $\alpha_p$ 是单射的，则 $L$ 在 $K$ 上可分。*
+— *如果$L$是$K$的可分扩张，则典范映射$\alpha_p : \Omega_p(K) \otimes_K L \to \Omega_p(L)$对于$K$的每个子域$P$是单射的。相反，如果存在$K$的完美子域$P$（例如$K$的质数子域），使得映射$\alpha_p$是单射的，则$L$在$K$上可分。*
 
-第一个断言源自命题 2 (V, p. 128) 和 Th。 3.反之，令$P$为$K$的完美子域；我们有$P = P^p \subset K^p$，因此$K$到向量$L$空间的每个推导都是$P$衍生；现在，推论的第二个断言来自Cor。 2 (V、p. 130) 和 Th。 3.
+第一个断言源自 Prop. 2 (V, p. 128) 和 Th。 3.反之，令$P$为$K$的完美子域；我们有$P = P^p \subset K^p$，因此$K$到向量$L$空间的每个推导都是$P$衍生； 推论的第二个断言现在来自 Cor。 2 (V、p. 130) 和 Th。 3.
 
 ### 5. 指标 / 线性映射
 
@@ -264,7 +264,7 @@ $$
 \chi(g \circ f) = \chi(f) + \chi(g).
 $$
 
-设$h = g \circ f$，分别用N、N'、N''核off、g、h表示，并用C、C'、C''表示它们的余核。我们有$N \subset N'' \subset U$和$f(N'') = f(U) \cap N'$；因此存在线性映射$\bar{f} : N'' \to N'$与N''上的f一致并且与核N一致。V的典范映射$\pi$到N'的$C = V / f(U)$诱导映射$\pi'$到C，其核是 $f(U) \cap N' = \bar{f}(N'')$。通过将 $C = V/f(U)$ 的商 g 定义映射 $\bar{g}$ 代入 $C'' = W/g(f(U))$，其中核显然是 $(N' + f(U))/f(U) = \pi'(N')$。最后，$C'' = W/g(f(U))$的典范映射$\rho$到$C' = W/g(V)$有核$g(V)/g(f(U)) = \bar{g}(C)$。到和以上，我们已经确定了序列的准确性
+设$h = g \circ f$，分别用N、N'、N''核off、g、h表示，并用C、C'、C''表示它们的余核。我们有$N \subset N'' \subset U$和$f(N'') = f(U) \cap N'$；因此存在线性映射$\bar{f} : N'' \to N'$与N''上的f一致并且与核N一致。V的典范映射$\pi$到N'的$C = V / f(U)$诱导映射$\pi'$到C，其核是 $f(U) \cap N' = \bar{f}(N'')$。通过$C = V/f(U)$的商g定义映射$\bar{g}$进入$C'' = W/g(f(U))$，其核显然是$(N' + f(U))/f(U) = \pi'(N')$。最后，$C'' = W/g(f(U))$的典范映射$\rho$到$C' = W/g(V)$有核$g(V)/g(f(U)) = \bar{g}(C)$。到和以上，我们已经确定了序列的正确性
 
 $$
 0 \to N \xrightarrow{i} N'' \xrightarrow{\bar{f}} N' \xrightarrow{\pi'} C \xrightarrow{\bar{g}} C'' \xrightarrow{\rho} C' \to 0
@@ -290,7 +290,7 @@ $$
 
 令 P 为 P 的完美域、L 扩张，K 为 L 的子扩展；我们假设L是K的有限生成的扩张。那么规范的L线性映射$a : \Omega_p(K) \otimes_K L \to \Omega_p(L)$的指标等于L在K上的超越次数。
 
-如果$E$和$F$是$L$的两个子扩展，使得$E \subset F$，我们用$\alpha(F/E)$表示$\Omega_p(E) \otimes_E F$到$\Omega_p(F)$的规范$F$线性映射，并且当它被定义时，指标 $\alpha(F/E)$将被写成$d(F/E)$。如果$E, F$和$G$是$L$的三个子扩展使得$E \subset F \subset G$，我们有一个可交换的图表
+如果$E$和$F$是$L$的两个子扩展，使得$E \subset F$，我们用$\alpha(F/E)$表示$\Omega_p(E) \otimes_E F$到$\Omega_p(F)$的规范$F$线性映射，并且当它被定义时，指标为$\alpha(F/E)$将被写成$d(F/E)$。如果$E, F$和$G$是$L$的三个子扩展使得$E \subset F \subset G$，我们有一个可交换的图表
 
 $$
 \begin{array}{ccc}
@@ -306,7 +306,7 @@ $$
 d(G/E) = d(G/F) + d(F/E).
 $$
 
-由于 $L$ 是 $K$ 的有限生成的扩张，公式 (5) 和 Cor. $V$、p. 111表明，考虑$x$存在使得$L = K(x)$的情况就足够了；进一步，如果$x$是$K$上的代数，则存在$L$的特征指数幂$q$，使得$x^q$是$K$上的可分代数（$V$，p. 44，命题1） 13）。因此在以下三种特殊情况下建立等式$d(L/K) = \operatorname{tr} . \deg_K L$就足够了：
+由于 $L$ 是 $K$ 的有限生成的扩张，公式 (5) 和 Cor. $V$、p. 111表明，考虑$x$存在使得$L = K(x)$的情况就足够了；进一步如果$x$是$K$上的代数，则存在$L$的特征指数的幂$q$，使得$x^q$是$K$上的可分代数（$V$， p. 44，提案 13）。因此在以下三种特殊情况下建立等式$d(L/K) = \operatorname{tr} . \deg_K L$就足够了：
 
 a) $x$ 超越 $K$：则 $a$ 是单射，其余核是秩 1 超过 $L$（$V$，p. 129，Cor.）；所以我们有$d(L/K) = 1$，还有$\operatorname{tr} . \deg_K L = 1$。
 
@@ -318,7 +318,7 @@ c) *域$L$具有特征$p \neq 0$，$x \notin K$和$x^p = a$在$K$*中：$a$的�
 
 — *令$L$为超越次数$s$的域$K$的有限生成扩张。 向量空间 $\Omega_K(L)$ 是维数 $\geq s$ 超过$L$，等式当且仅当$L$ $K$ 可分离。*
 
-设 P 为 K 的素数子域。设 N 为 α 的核，然后通过序列 $(\mathbf{E}_{P,K,L})$ (V, p. 128) 和 Th 的精确性。 4、我们有$[ \Omega_K(L) : L ] = s + [N : L]$；通过V，p. 132，Cor.，扩张L，K 是可分离的当且仅当$N = 0$。现在推论如下。
+设 P 为 K 的素数子域。设 N 为 α 的核，然后通过序列 $(\mathbf{E}_{P,K,L})$ (V, p. 128) 和 Th 的精确性。 4、我们有$[ \Omega_K(L) : L ] = s + [N : L]$；通过V，p. 132，Cor.，扩张L，K 是可分离的当且仅当$N = 0$。现在是推论。
 
 #### 推出 2 {#alg-v-s16-thm-4-cor-2 .statement tag=06V6}
 
@@ -326,15 +326,15 @@ c) *域$L$具有特征$p \neq 0$，$x \notin K$和$x^p = a$在$K$*中：$a$的�
 
 #### 推出 3 {#alg-v-s16-thm-4-cor-3 .statement tag=06V7}
 
-— *令 K 为特征 $p \neq 0$ 的域和L 超越次数 s 的 K 的有限生成的扩张。如果$[K : K^p]$是有限的，$[L : L^p]$也是有限的，我们有$[L : L^p] = p^s$。 $[K : K^p]$.* 令 P 为 K 的素数子域。如果 $[K : K^p]$ 是有限的，则向量空间 $\Omega_P(K) = \Omega_{K^p}(K)$ 在 K 上有有限维 m，并且我们有 $[K : K^p] = p^m$ (V, p. 103, Th. 2)； 向量空间 $\Omega_P(K) \otimes_K L$ 则有限维 m 超过 L。此外，由于K在$K^p$上为有限次数，所以域$K(L^p)$在$K^p(L^p) = L^p$上为有限次数；由于域L是K的有限生成的扩张并且是$K(L^p)$上的代数，因此它是$K(L^p)$的有限次数的扩张(V，p. 18，Th.2)；因此，我们结论，L是有限次数超过$L^p$（V，p. 10，Th.1）。那么$\Omega_P(L)$是有限维n的向量空间超过L，我们有$[L : L^p] = p^n$（V，p. 103，Th.2）。通过引理 1 (V, p. 132)，L线性映射$\alpha : \Omega_P(K) \otimes_K L \to \Omega_P(L)$因此具有指标$n - m$，从而$n - m = s$。 4（V、p. 133）和$p^n = p^s \cdot p^m$。
+— *令 K 为特征 $p \neq 0$ 的域，L 超越次数 s 的 K 的有限生成的扩张。如果$[K : K^p]$是有限的，$[L : L^p]$也是有限的，我们有$[L : L^p] = p^s$。 $[K : K^p]$.* 令 P 为 K 的素数子域。如果 $[K : K^p]$ 是有限的，则向量空间 $\Omega_P(K) = \Omega_{K^p}(K)$ 在 K 上有有限维 m，并且我们有 $[K : K^p] = p^m$ (V, p. 103, Th. 2)；那么向量空间$\Omega_P(K) \otimes_K L$就是有限维米超过L。此外，由于K在$K^p$上为有限次数，所以域$K(L^p)$在$K^p(L^p) = L^p$上为有限次数；由于域L是K的有限生成的扩张并且是$K(L^p)$上的代数，因此它是$K(L^p)$的有限次数的扩张(V，p. 18，Th.2)；因此，我们结论，L是有限次数超过$L^p$（V，p. 10，Th.1）。那么$\Omega_P(L)$是有限维n的向量空间除以L，我们有$[L : L^p] = p^n$（V，p. 103，Th.2）。通过引理 1 (V, p. 132)，L线性映射$\alpha : \Omega_P(K) \otimes_K L \to \Omega_P(L)$因此具有指标$n - m$，从而$n - m = s$。 4（V、p. 133）和$p^n = p^s \cdot p^m$。
 
 #### 注 1 {#alg-v-s16-n6-rem-1 .statement tag=06V8}
 
-令 K 为特征 $p \neq 0$ 的域和 K 的L 扩张。当且仅当$L = K(L^p)$（V，p. 103，命题 6）时，我们才有$\Omega_K(L) = 0$。因此，如果L是在K上有限生成的，那么它是一个代数，并且可分扩张当且仅当我们有$L = K(L^p)$。当L不是在K上有限生成时，这个结果通常不再成立，如L是K的完美闭包的情况所示。
+令 K 为特征 $p \neq 0$ 的域和 K 的L 扩张。当且仅当$L = K(L^p)$（V，p. 103，命题 6），我们才有 $\Omega_K(L) = 0$。因此，如果L是在K上有限生成的，那么它是一个代数，并且可分扩张当且仅当我们有$L = K(L^p)$。当L不是在K上有限生成时，这个结果通常不再成立，如L是K的完美闭包的情况所示。
 
 #### 注 2 {#alg-v-s16-n6-rem-2 .statement tag=06V9}
 
-令K为由元素$x_1, \ldots, x_n$生成的K的$K[X_1, \ldots, X_n]$和L扩张的域、$F_1, \ldots, F_m$多项式。假设多项式 $F_1, \ldots, F_m$ 生成是所有多项式 F 的$K[X_1, \ldots, X_n]$ 由……组成的理想，使得$F(x_1, \ldots, x_n) = 0$。从命题1（V，p. 127）和模的微分（III，p. 569）的泛性质，我们很容易推导出以下结果： L上的向量空间$\Omega_K(L)$由下式生成： $dx_1, \ldots, dx_n$；我们有关系
+令K为由元素$x_1, \ldots, x_n$生成的K的$K[X_1, \ldots, X_n]$和L扩张的域、$F_1, \ldots, F_m$多项式。假设多项式 $F_1, \ldots, F_m$ 生成是所有多项式 F 的$K[X_1, \ldots, X_n]$ 由……组成的理想，使得$F(x_1, \ldots, x_n) = 0$。从命题1（V，p. 127）和模的微分（III，p. 569）的泛性质，我们很容易推导出以下结果：向量空间$\Omega_K(L)$超过L的生成方式为$dx_1, \ldots, dx_n$；我们有关系
 
 $$
 \sum_{i=1}^n D_i F_j(x_1, \ldots, x_n) \cdot dx_i = 0 \quad \text{(for } 1 \leq j \leq m \text{)} ;
@@ -356,17 +356,17 @@ $$
 
 将$M = K(x_i)_{i \in I}$代入$\Omega_K(L)$，并用$\Omega_K(M) \otimes_M L$的$\alpha$典范映射表示。如果$(x_i)_{i \in I}$是$L$在$K$上的分离超越基，则家庭$(d_{M/K} x_i)_{i \in I}$，是向量$M$-空间$\Omega_K(M)$的基（$V$， p. 128，命题 3)，$\alpha$ 是向量 $L$ 空间的同构，因为 $L$ 是代数且可在 $M$ 上分离（$V$、p. 130，Cor.2）。从$\alpha(d_{M/K} x_i \otimes 1) = d_{L/K} x_i$开始，族$(d_{L/K} x_i)_{i \in I}$因此是$\Omega_K(L)$的基超过$L$。
 
-相反，假设$L$是$K$的可分离有限生成的扩张，并且族$(d_{L/K} x_i)_{i \in I}$是向量空间$\Omega_K(L)$在$L$上的基。由科. $V$、p. 134的1，$L$对$K$的超越次数等于$\Omega_K(L)$对$L$的维数，因此是$I$的基数。从正合序列$(E_{K,M,L})$（$V$，p. 128）我们有$\Omega_M(L) = 0$；因为$L$是$M$的有限生成的扩张，Cor。 $V$、p. 135 的 2 表明 $L$ 是代数且在 $M = K(x_i)_{i \in I}$ 上可分；由于$L$对$K$的超越次数是有限的并且等于$I$的基数，因此族$(x_i)_{i \in I}$是$L$对$K$的超越基（$V$， p. 110，Cor.1)。
+相反，假设$L$是$K$的可分离有限生成的扩张，并且族$(d_{L/K} x_i)_{i \in I}$是向量空间$\Omega_K(L)$在$L$上的基。由科. $V$、p. 134的1，$L$对$K$的超越次数等于$\Omega_K(L)$对$L$的维数，因此等于$I$的基数。从正合序列$(E_{K,M,L})$（$V$，p. 128）我们有$\Omega_M(L) = 0$；因为$L$是$M$的有限生成的扩张，Cor。 $V$、p. 135 的 2 表明 $L$ 是代数且在 $M = K(x_i)_{i \in I}$ 上可分；由于$L$对$K$的超越次数是有限的并且等于$I$的基数，因此族$(x_i)_{i \in I}$是$L$对$K$的基的超越（$V$， p. 110，Cor.1)。
 
 #### 推出 {#alg-v-s16-n7-cor-1 .statement tag=06VC}
 
 *令$L$为$K$的可分离有限生成扩张，并令$S$为$L$的子集，使得$L = K(S)$。那么存在$L$对$K$的分离超越基$B$，包含在$S$中。
 
-由于$\Omega_K(L)$是由元素与$S$的微分生成的，因此存在$S$的$s$元素$x_1, \ldots, x_s$，使得$(dx_1, \ldots, dx_s)$是$\Omega_K(L)$的基 $L$。现在应用 Th 就足够了。 5.
+由于$\Omega_K(L)$是由$S$的元素的微分生成的，因此存在$S$的$s$元素$x_1, \ldots, x_s$，使得$(dx_1, \ldots, dx_s)$是$\Omega_K(L)$的基 $L$。现在应用 Th 就足够了。 5.
 
 #### 注 {#alg-v-s16-n7-rem-1 .statement tag=06VD}
 
-— 设$L$是特征$p \neq 0$的域$K$的可分离有限生成扩张；可能存在不分离的基对$L$的超越。只要观察到$\{X^p\}$是$K(X)$的超越基，而$K(X)$是$K(X^p)$的次数$p$的p根式扩展就足够了。
+— 设$L$是特征$p \neq 0$的域$K$的可分离有限生成扩张；可能存在不分离的$L$的超越基。只要观察到$\{X^p\}$是$K(X)$的超越基，而$K(X)$是$K(X^p)$的次数$p$的p根式扩展就足够了。
 
 #### 命题 5 {#alg-v-s16-prop-5 .statement tag=06VE}
 
@@ -374,11 +374,11 @@ $$
 
 足以证明对于 M 的每个有限子集 S，$L(S)$ 在 L 上是可分的（V，p. 122，命题 8）。令S为M的有限子集。由于域$K(S)$可在K上分离，因此它具有分离超越基B（Th.5的Cor.）。由于L和M在K上的代数不相交的，B是$L(B)$在L上的超越基（V，p. 113，命题12）。此外，S 的每个元素都是代数且在 $K(B)$ 上可分，因此在 $L(B)$ 上（V，p. 39，Cor. 2）。我们推论（V，p. 39，命题 6）$L(S) = L(B)(S)$ 是代数且在 $L(B)$ 上可分，因此 $L(S)$ 在 L 上可分。
 
-#### 推出{#alg-v-s16-n7-cor-2 .statement tag=06VF}
+#### 推出 {#alg-v-s16-n7-cor-2 .statement tag=06VF}
 
 — *如果 L 和 M 是可分扩张，在 K 上代数不相交的，则域 $K(L \cup M)$ 在 K 上可分。*
 
-因为 $K(L \cup M) = L(M)$ 可以通过命题 5 在 L 上分离（因为 M 可以在 K 上分离），并且 L 可以在 K 上分离，从而的推论（V、p. 122、命题 9）。
+因为$K(L \cup M) = L(M)$可以通过命题5在L上分离（因为M可以在K上分离）并且L可以在K上分离，从而推论（V，p. 122，命题9）。
 
 假设扩张L和M在代数上不相交的在命题5及其推论中是不可或缺的。 令 K 为特征 $p \neq 0$ 的不完美域和形式 $K(x, a)$ 的 E 扩张，其中 x 超越 K 且在 K 上高度为 1 的 p 根式；输入$L = K(x)$和$M = K(x + a)$。 那么$x + a$是K上的超越（如果不是，$x = (x + a) - a$将是K上的代数）并且域L和M在K上可分。 然而，$K(L \cup M) = K(x, a)$ 是次数 $p$ 在 $L = K(x)$ 上的 p 根式，并且在 L 上不可分，在 K 上也不可分。
 

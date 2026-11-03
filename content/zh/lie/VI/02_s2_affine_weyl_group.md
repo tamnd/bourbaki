@@ -32,23 +32,23 @@ subsections:
       pdf_page: 204
 statements: 19
 exercises: 5
-content_sha256: 5da2e4166c2cb1b39047624cf7f9775e5ec8a01f893074b4c5d1409789842ae0
+content_sha256: 0945669d5eefd9bc9be61d4cd821097cf4592937d284e2b1b2be3b607817b15f
 translated_from: content/en/lie/VI/02_s2_affine_weyl_group.md
 translation_method: google
 source_content_sha256: 24853977ccd587f6d7666eece984ab52f995a7fdeb9b746a17dbd0f73263b057
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0334004ab2b4de3fb5046bd164b9e56585bef3a5a3be23ea24dae1f57ca55c99
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。艾芬·韦尔群
+## § 2。仿射外尔群
 
-在本段中（no. 5除外），我们用实向量空间$V$中的$R$约化根系来表示。我们用$W$表示$R$的Weyl群； we 认同 it with 群 of 自同构 of the dual $V^*$ of $V$ (§ 1, no. 1), and we provide $V^*$ with a scalar 乘积 invariant under $W$.设$E$为$V^*$的仿射空间；对于$v \in V^*$，我们用$t(v)$表示$E$通过向量$v$的翻译。 Finally, we denote by $P$ (resp. $Q$) 群 of translations $t(v)$ whose 向量 $v$ 属于 to 群 of 权 $P(R^{\sim})$ (resp. to 权$Q(R^{\sim})$的根式群），$R$的逆根系$R^{\sim}$。
+在本段中（no. 5除外），我们用实向量空间$V$中的$R$约化根系来表示。 我们用$W$表示$R$的Weyl群；我们将其识别为$V$ (§ 1, no. 1) 的对偶$V^*$ 的一组自同构，并且我们为$V^*$提供了$W$下的标量积不变量。 设$E$为$V^*$底层的仿射空间；对于$v \in V^*$，我们用$t(v)$表示$E$通过向量$v$的翻译。 最后，我们用$t(v)$的$P$（分别为$Q$）群表示，其中向量$v$属于到权$P(R^{\sim})$的群（分别到群） 根基权 $Q(R^{\sim})$) 是 $R$ 的逆根系 $R^{\sim}$。
 
-### 1. 艾芬·韦尔群
+### 1. 仿射外尔群
 
 对于 $\alpha \in \mathbf{R}$ 和 $k \in \mathbf{Z}$，令 $L_{\alpha,k}$ 为 E 的超平面，定义如下：
 
@@ -99,19 +99,19 @@ $$
 
 其中 $n(\alpha,\beta) = \langle \beta^\sim, \alpha \rangle$ 是整数，因此是第二个断言。
 
-因而，我们可以将章 V, § 3 的结果应用到 $W_a$ 作用于 E。为了避免与 $V^*$ 中的 Weyl 群 W 的室发生任何混淆，我们将称由超平面 $L_{\alpha,k}$ 的系统确定的室（对于$\alpha \in \mathbf{R}$ 和 $k \in \mathbf{Z}$) 在 E *凹室*。 *群$W_a$因此简单地传递作用于壁龛的集合，壁龛的关闭是$W_a$作用于E*的基本域（第V, § 3, no. 2，Th.1和no. 3，Th.2）。很明显，Weyl 群 W 与 V* 的正交群中的 $W_a$ 典范像 $U(W_a)$ 相同（cf. 第 V, § 3, no. 6 章）。由此可见，W_a 是本质的（第 V, § 3, no. 7 章），并且当且仅当根系 R 是（§ 1, no. 2，第 5 条命题的修正）时，W_a 是不可约的。如果 R 是不可约的，则每个壁龛都是一个开单纯形（第 V, § 3, no. 9 章，第 8 条命题）。在一般情况下，R 的仿射空间 E（第V, § 3, no. 8章）对应到分解的规范乘积分解为不可约分量。特别是，壁龛是乘积的开放式单体。
+因而，我们可以将章 V, § 3 的结果应用到 $W_a$ 作用于 E。为了避免与 $V^*$ 中的 Weyl 群 W 的室发生任何混淆，我们将称由超平面 $L_{\alpha,k}$ 的系统确定的室（对于$\alpha \in \mathbf{R}$ 和 $k \in \mathbf{Z}$) 在 E *凹室*。 *群$W_a$因此简单地传递作用于壁龛的集合，壁龛的关闭是$W_a$作用于E*的基本域（第V, § 3, no. 2，Th.1和no. 3，Th.2）。很明显，Weyl 群 W 与 V* 的正交群中的 $W_a$ 典范像 $U(W_a)$ 相同（cf. 第 V, § 3, no. 6 章）。由此可见，W_a 是本质的（第 V, § 3, no. 7 章），并且当且仅当根系 R 是（§ 1, no. 2，第 5 条命题的修正）时，W_a 是不可约的。如果 R 是不可约的，则每个壁龛都是一个开单纯形（第 V, § 3, no. 9 章，第 8 条命题）。在一般情况下，R 的仿射空间 E（V, § 3, no. 8）对应到分解的规范乘积分解变为不可约分量。特别是，壁龛是乘积的开放式单体。
 
 注还有Cor。的 Th。第 1 章V, § 3, no. 2 表明 s_{\alpha,k} 是 W_a 中唯一的反射。
 
-### 2. 权特别权
+### 2. 权和特别权
 
 #### 命题 3 {#lie-vi-s2-prop-3 .statement tag=0AX2}
 
 W_a 的特殊点（第V, § 3, no. 10，定义1）是R' 的权。
 
-设 x_0 \in E 且设 \alpha \in R。 超平面 L 平行于 Ker \alpha 和经过通过 x_0 有方程 \langle \alpha, x \rangle = \langle \alpha, x_0 \rangle。为了等于某个 L_{\beta,k}，一方面需要 \alpha 和 \beta 成比例，因而，由于 R 被减小，所以 \beta = \pm \alpha，另一方面 \langle \alpha, x_0 \rangle 为整数。紧接着，x_0 是 W_a 的特殊点当且仅当 \langle \alpha，x_0 \rangle \in \mathbf{Z} 对于所有 \alpha \in R，在其他字中，当且仅当 x_0 \in P(R') (§ 1, no. 9)。
+令 x_0 \in E 且令 \alpha \in R。 超平面 L 平行于 Ker \alpha 和经过通过 x_0 有方程 \langle \alpha, x \rangle = \langle \alpha, x_0 \rangle。为了等于某个 L_{\beta,k}，一方面需要 \alpha 和 \beta 成比例，因而，由于 R 被减小，所以 \beta = \pm \alpha，另一方面 \langle \alpha, x_0 \rangle 为整数。紧接着，x_0 是 W_a 的特殊点当且仅当 \langle \alpha，x_0 \rangle \in \mathbf{Z} 对于所有 \alpha \in R，在其他字中，当且仅当 x_0 \in P(R') (§ 1, no. 9)。
 
-#### 推论{#lie-vi-s2-n2-cor-1 .statement tag=0AX3}
+#### 推论 {#lie-vi-s2-n2-cor-1 .statement tag=0AX3}
 
 (i) 如果 \overline{\omega} \in P(R')，则存在凹室 C，使得 \overline{\omega} 是 \overline{C} 的极值点。
 (ii) 如果 C 是一个凹室，则 \overline{C} \cap Q(R') 约化为单个点，这是 \overline{C} 的极值点。
@@ -128,7 +128,7 @@ W_a 的特殊点（第V, § 3, no. 10，定义1）是R' 的权。
 
 这是从第 11 章提案得出的。 V, § 3, no. 10。
 
-现在假设 R 是不可约的。设 (\alpha_i)_{i \in I} 为 R (§ 1, no. 5, Def. 2) 的基，并令 (\overline{\omega}_i)_{i \in I} 为对偶基。 \overline{\omega}_i 是 R' 相应的至基 (\alpha_i) 的室 D' 的基本权。让
+现在假设 R 是不可约的。设 (\alpha_i)_{i \in I} 为 R (§ 1, no. 5, Def. 2) 的基，并令 (\overline{\omega}_i)_{i \in I} 为对偶基。 \overline{\omega}_i 是 R' 相应的到基 (\alpha_i) 的室 D' 的基本权。让
 
 $$
 \tilde{\alpha} = \sum_{i \in I} n_i \alpha_i
@@ -138,17 +138,17 @@ $$
 
 #### 命题 5 {#lie-vi-s2-prop-5 .statement tag=0AX5}
 
-令 C 为 C' 中包含的壁龛，且包含 0 位于其闭包中（命题 4）。
+令 C 为 C' 中包含的凹室，且包含 0 位于其闭包中（命题 4）。
 
 (i) $C$ 是 $x \in E$ 的集合，使得 $\langle \alpha_i, x \rangle > 0$ 对于所有 $i \in I$ 和 $\langle \tilde{\alpha}, x \rangle < 1$。
 
 (ii) 集合 $\overline{C} \cap P(R^-)$ 由 0 和 $\overline{\omega}_i$ 组成 $i \in J$。
 
-令$D$为$x \in E$的集合，使得$\langle \tilde{\alpha}, x \rangle < 1$和集合$C_1 = C' \cap D$。从$0 \in \overline{C}$开始，我们有$C \subseteq D$，因此有$C \subseteq C_1$。我们将证明，对于所有$\alpha \in R$和所有$k \in \mathbf{Z}$，集合、$C$和$C_1$位于超平面$L_{\alpha,k}$的同一侧。这将证明$C_1 \subseteq C$，因此将建立断言(i)。如果$k = 0$，则整个腔室$C'$位于$L_{\alpha,0}$的一侧，这在本例中建立了我们的断言。如果$k \neq 0$，我们可以通过替换$\alpha$乘$-\alpha$，假设$k > 0$。然后从$0 \in \overline{C}$开始，在$C$上$\langle \alpha, x \rangle < k$。另一方面，$\tilde{\alpha} - \alpha$ 对 $C'$ 为正（§ 1, no. 8，命题 25）。因而，对于$y \in C_1$，我们有$\langle \alpha, y \rangle \leq \langle \tilde{\alpha}, y \rangle < 1 \leq k$。因而，$C$和$C_1$位于$L_{\alpha,k}$的同一侧。
+令$D$为$x \in E$的集合，使得$\langle \tilde{\alpha}, x \rangle < 1$和集合$C_1 = C' \cap D$。从$0 \in \overline{C}$开始，我们有$C \subseteq D$，因此有$C \subseteq C_1$。我们将证明，对于所有 $\alpha \in R$ 和所有 $k \in \mathbf{Z}$，集合 $C$ 和 $C_1$ 位于超平面 $L_{\alpha,k}$ 的同一侧。这将证明$C_1 \subseteq C$，因此将建立断言(i)。如果$k = 0$，则整个腔室$C'$位于$L_{\alpha,0}$的一侧，这在本例中建立了我们的断言。如果$k \neq 0$，我们可以通过替换$\alpha$乘$-\alpha$，假设$k > 0$。然后从$0 \in \overline{C}$开始，在$C$上$\langle \alpha, x \rangle < k$。另一方面，$\tilde{\alpha} - \alpha$ 对 $C'$ 为正（§ 1, no. 8，命题 25）。因而，对于$y \in C_1$，我们有$\langle \alpha, y \rangle \leq \langle \tilde{\alpha}, y \rangle < 1 \leq k$。因而，$C$和$C_1$位于$L_{\alpha,k}$的同一侧。
 
 现在让$\overline{\omega} \in P(R^-)$。然后$\overline{\omega} = \sum_i p_i \overline{\omega}_i$、$p_i \in \mathbf{Z}$ (§ 1, no. 10) 和$\overline{\omega} \in \overline{C'}$ 当且仅当整数 $p_i$ 为正。如果$\overline{\omega} \in \overline{C'}$，则$\overline{\omega} \in \overline{C}$当且仅当$\langle \tilde{\alpha}, \overline{\omega} \rangle = \sum_i n_i p_i$是$\leq 1$，因而(ii)。
 
-#### 推论{#lie-vi-s2-n2-cor-2 .statement tag=0AX6}
+#### 推论 {#lie-vi-s2-n2-cor-2 .statement tag=0AX6}
 
 壁龛 $C$ 是一个开放单纯形，顶点为 0 和 $\overline{\omega}_i / n_i, i \in I$。
 
@@ -166,17 +166,17 @@ $$
 $$
 因而，$g \in G$当且仅当，一方面${}^t u$排列根，在其他字属于到$A(R)$，另一方面$\langle \alpha, v \rangle \in \mathbf{Z}$对于所有$\alpha \in R$，即$v \in P(R^-)$。在其他字中，*群*$G$*是*$A(R)$*通过*$P$的半直接乘积。由于$Q \subseteq P$和$W \subseteq A(R)$，*商群*$G/W_a$*是*$A(R)/W$*通过*$P(R^-)/Q(R^-)$的半直接乘积；立即检查$P(R^-)/Q(R^-)$上$A(R)/W$的相应的作用是否是规范的作用（§ 1, no. 9）。
 
-我们用 P 与 W 的半直接乘积形成的 G 的 $W'_a$ 子群表示。这是 G 的正常子群，并且 $G/W'_a$ 与 $A(R)/W$ 自然同构；此外，从$P(R^-)$到$W'_a/W_a$的规范映射由经过给出从$P(R^-)/Q(R^-)$到$W'_a/W_a$的商同构。
+我们用 P 与 W 的半直接乘积形成的 G 的 $W'_a$ 子群表示。这是 G 的正常子群，并且 $G/W'_a$ 与 $A(R)/W$ 自然同构；此外，从$P(R^-)$到$W'_a/W_a$的规范映射给出了从$P(R^-)/Q(R^-)$到$W'_a/W_a$的经过到商同构。
 
-现在令C为E的凹室，并令$G_C$为元素$g \in G$的子群由……组成，使得$g(C) = C$。由于$W_a$在壁龛上是简单传递的，*群G是$G_C$通过$W_a$*的半直接乘积。 相应的同构从$G/W_a$到$G_C$尤其产生典范同构从$P(R^-)/Q(R^-)$到群$\Gamma_C = G_C \cap W'_a$。
+现在令C为E的凹室，并令$G_C$为元素$g \in G$的子群由……组成，使得$g(C) = C$。由于$W_a$在壁龛上是简单传递的，*群G是$G_C$通过$W_a$*的半直接乘积。从$G/W_a$到$G_C$的相应的同构尤其产生从$P(R^-)/Q(R^-)$到群$\Gamma_C = G_C \cap W'_a$的典范同构。
 
-假设R是不可约的，并保留no. 2命题5的记号。放入$R_0 = R$，并让$R_i$（$i \in I$）为由$a_j$生成的根系，对于$j \neq i$。对于$i = 0$（或$i \in I$），令$w_i$为$W(R_i)$的唯一元素（用W的子群标识），其中变换相对于基的$R_i$的正根 $(\alpha_j)_{j \neq i}$ 变为负根（$\S$ 1、no. 6，第 17 号提案第 3 条）。
+假设R是不可约的，并保留no. 2命题5的记号。放入$R_0 = R$，令$R_i$($i \in I$)为由$a_j$生成的根系，对于$j \neq i$。对于$i = 0$（或$i \in I$），令$w_i$为$W(R_i)$的唯一元素（用W的子群标识），其中变换相对于基的$R_i$的正根 $(\alpha_j)_{j \neq i}$ 变为负根（$\S$ 1、no. 6，第 17 号提案第 3 条）。
 
 #### 命题 6 {#lie-vi-s2-prop-6 .statement tag=0AX7}
 
 *对于所有 $i \in J$，元素 $\gamma_i = t(\overline{\omega}_i)w_iw_0$ 属于至 $\Gamma_C$，映射 $i \mapsto \gamma_i$ 是从 J 至 $\Gamma_C - \{1\}$ 的双射。*
 
-我们注首先根$w_i(\tilde{\alpha})$是形式
+我们首先注意到根$w_i(\tilde{\alpha})$是形式
 $$
 n_i \alpha_i + \sum_{j \neq i} b_{ij} \alpha_j,
 $$
@@ -201,17 +201,17 @@ $$
 
 *$P(R^-)/Q(R^-)$非零元素中$P(R^-)$的代表的$(\overline{\omega}_i)_{i \in J}$形式系统。*
 
-事实上，如果我们将认同 $\Gamma_c$ 与 $P(R^-)/Q(R^-)$ 进行比较，则元素 $\gamma_i$ 就可以与 $\overline{\omega}_i$ mod 的类识别。 $Q(R^-)$。
+事实上，如果我们用认同$\Gamma_c$和$P(R^-)/Q(R^-)$，元素$\gamma_i$就可以用$\overline{\omega}_i$模的类来识别。 $Q(R^-)$。
 
 #### 注 1 {#lie-vi-s2-n3-rem-1 .statement tag=0AX9}
 
-映射 $\gamma \mapsto \gamma(0)$ 是双射从 $\Gamma_C$ 到 $\overline{C} \cap P(R^-)$。
+映射 $\gamma \mapsto \gamma(0)$ 是 $\Gamma_C$ 到 $\overline{C} \cap P(R^-)$ 的双射。
 
 #### 注 2 {#lie-vi-s2-n3-rem-2 .statement tag=0AXA}
 
 群$G$也是$E$的自同构的群中$W_a$的归一化器，仅提供其仿射结构（cf.练习3）。
 
-### 4. 应用：WEYL 的阶群
+### 4. 应用：外尔阶群
 
 #### 引理 1 {#lie-vi-s2-lem-1 .statement tag=0AXB}
 
@@ -247,13 +247,13 @@ $$
 
 命题现在通过比较公式 (5)、(6) 和 (7)。
 
-### 5. 根系和群由反射生成
+### 5. 由反射生成的根系和群
 
 #### 命题 8 {#lie-vi-s2-prop-8 .statement tag=0AXD}
 
 设 F 为有限维 l 的实希尔伯特空间。令 $\mathfrak{H}$ 为 F 和 G 群的仿射超平面的集合，该仿射超平面由关于超平面 $H \in \mathfrak{H}$ 的正交反射 $s_H$ 生成。假设第 1 章的条件。满足V, § 3（即$g(H) \in \mathfrak{H}$对于所有$H \in \mathfrak{H}$和$g \in G$，并且G正确地作用于F）。还假设 0 是 G 的特殊点，并且属于到 G 的翻译群 T 为秩 l。那么$V = F^*$中存在唯一的约化根系R，使得典范同构从F到$V^*$变换G到R的仿射Weyl群$W_a$。
 
-我们注首先T上的假设意味着G是必要的：否则，仿射空间F将分解为乘积$F_0 \times F_1$，其中$\dim F_1 < l$，群G被识别为适当作用于的位移的群 $F_1$（第 V, § 3, no. 8 章，第 6 条命题），并且 T 不会是秩 l。
+我们首先注意到，T 上的假设意味着 G 是必需的：否则，仿射空间 F 将分解为乘积 $F_0 \times F_1$，其中 $\dim F_1 < l$、群 G 等同于正确作用于 $F_1$ 的位移的群（第 1 章）。 V, § 3, no. 8，命题 6)，并且 T 不会是秩 l。
 
 令$\mathfrak{H}_0$为$H \in \mathfrak{H}$的集合，使得$0 \in H$。对于$H \in \mathfrak{H}_0$，令$\mathfrak{H}_H$为与H平行的$\mathfrak{H}$的元素的集合。由于0是特殊的点，所以对于$H \in \mathfrak{H}_0$，$\mathfrak{H}$是$\mathfrak{H}_H$的并。由于 T 为秩 l，因此存在 $v \in F$，使得向量 v 属于翻译为 T 和 $v \notin H$。 超平面 $H + kv$ 对于 $k \in \mathbf{Z}$ 是成对不同的，属于到 $\mathfrak{H}_H$。现在令 a 为与 H 正交的 F 的单位向量：则 $H + (v|a)a \in \mathfrak{H}_H$ 并且由于 $\mathfrak{H}$ 是局部有限的（第 V, § 1, no. 1，引理 1），因此有最小的实数 $\lambda > 0$ 使得$H + \lambda a \in \mathfrak{H}$。我们将证明对于 $k \in \mathbf{Z}$，$\mathfrak{H}_H$ 是超平面 $H + k\lambda a$ 的集合。确实，
 
@@ -324,21 +324,21 @@ d) 最后，很明显，如果 $H, H' \in \mathscr{H}_0, H \neq H'$、线性形�
 
 (ii) $\Longrightarrow$ (i)：令$V' \subseteq V$为G下V不变量上的$\mathbf{Q}$结构。令A为$V'$生成的的有限子集，$\mathbf{Q}$向量空间$V'$。 替换 A 乘以 $\bigcup_{s \in G} s(A)$，我们可以假设 A 在 G 下是稳定的。设 B 是由 A 生成的 V 的子群。则 B 在 G 下是稳定的，具有有限型并且无扭转，因此有基在 $\mathbf{Z}$ 上，两者都是$\mathbf{Q}$以上的$V'$的基和$\mathbf{R}$以上的V的基。
 
-(iii) $\Longrightarrow$ (ii)：这源自于 § 1, no. 1 的第 1 条命题，对于例。
-(iv)$\Longrightarrow$(iii)：令$G'$为群满足条件(iv)。 $G'$翻译的群是秩l，而0是第9章第9章的$G'$的特殊点。 V, § 3, no. 10。命题6证明$V^*$中存在约化根系$R_0$，使得$G'$与$W_\alpha(R_0)$一致； 群 G 就是 $R_0$ 的逆根系的 Weyl 群。
+(iii) $\Longrightarrow$ (ii)：例如，这源自§ 1, no. 1 的提案 1。
+(iv)$\Longrightarrow$(iii)：令$G'$为群满足条件(iv)。 $G'$翻译的群是秩l，而0是第9章第9章对$G'$的特殊点。 V, § 3, no. 10。命题6证明$V^*$中存在约化根系$R_0$，使得$G'$与$W_\alpha(R_0)$一致； 群 G 就是 $R_0$ 的逆根系的 Weyl 群。
 
 (i) $\Longrightarrow$ (iv)：假设 G 保持稳定，离散子群 M 为 V，秩 l。对于任何反射$s \in G$，$s(x) - x \in M$对于所有$x \in M$，因此与$H_s$正交的线$D_s$满足M；设$\alpha_s, -\alpha_s$为循环群$D_s \cap M$的生成元； $\alpha_s$和$-\alpha_s$的集合A在G下稳定，因此M的生成子群$M'$在G下稳定；离散群 $M'$ 为秩 l 因为 G 是必要的。令$G'$为V的仿射变换的群，即G的半直接乘积和向量属于到$M'$的平移的群。令 $G'_1$ 为 $G'$ 反射生成的 $G'$ 的子群。我们将证明$G'_1 = G'$，这将完成证明。首先，$G'_1 \supseteq G$，因为 G 是通过反射生成的。另一方面，对于 G 的任何反射 s，令 $t_s$ 为向量 $\alpha_s$ 的平移。变换$s \circ t_s$是反射，而$s \circ t_s \in G'$；因此$t_s$是$G'$的两次反射的乘积；对于 G 的每个反射 s 都是如此，向量属于到 $M'$ 的平移都在 $G'_1$ 中。
 
 #### 定义 2 {#lie-vi-s2-def-2 .statement tag=0AXG}
 
-群 G 满足等价于第 9 条的条件称为晶体群。
+群 G 满足相当于第 9 条的条件，称为晶体群。
 
 #### 注 2 {#lie-vi-s2-n5-rem-2 .statement tag=0AXH}
 
-令 G 为有限群，由反射生成且本质。则 G 是晶体当且仅当其 Coxeter 矩阵的每个元素是整数 $1, 2, 3, 4, 6$ 之一。事实上，这个条件是§ 1, no. 5的*注3*)所必需的。事实上，它是足够的，这可以从 § 4 中给出的有限 Coxeter 群的分类得出（对于直接证明，请参见第 V, § 4 章，练习 6）。
+令 G 为有限群，由反射生成且本质。则 G 是晶体当且仅当其 Coxeter 矩阵的每个元素是整数 $1, 2, 3, 4, 6$ 之一。事实上，这个条件是§ 1, no. 5的*注3*)所必需的。事实上，它是充分的，可以从 § 4 中给出的有限 Coxeter 群的分类得出（对于直接证明，请参见第 V, § 4 章，练习 6）。
 
 ### 习题 {#lie-vi-s2-exercises}
 
 我们用实数向量空间$V$来表示$R$约化根系。
 
-See the [习题为 § 2](exercises/s2/).
+参见[习题为 § 2](exercises/s2/)。

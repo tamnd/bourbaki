@@ -22,25 +22,25 @@ subsections:
       pdf_page: 56
 statements: 7
 exercises: 4
-content_sha256: 9715d04b4f510f6cd72e84f33eb032a824a415b19fb143a0f43cfd8543beceb8
+content_sha256: c669756b29b487f372adf2f3ecc0a23cdb064e487063b46b059a34a8714d400a
 translated_from: content/en/lie/VII/A1_a1_polynomial_maps_and_zariski_topology.md
 translation_method: google
 source_content_sha256: 35b05a39838f20b88ddf3fc98b3fdd147867c98e1efaf99bb5c98caf247537a5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8e00d862c9dc9914765ea32bb0a09a4b797910c2c6e2d69908a272ea9d4b1773
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 附录 I 多项式映射和 ZARISKI 拓扑
+## 附录 I 多项式映射和 zariski 拓扑
 
 在这个附录中，$k$被假设为无穷大。
 
 ### 1. 扎里斯基拓扑
 
-令 V 为有限维向量空间。 We denote by $A_V$ the algebra of polynomial functions on V with values in $k($Algebra, Chap. IV, §5, no. 10, Def. 4). 这是分级代数； 次数 1 的分量是 V 的对偶 $V^*$ 和 $V^*$ 的单射到 $A_V$ 扩展到同构，从对称代数 $\mathbf{S}(V^*)$ 到$A_V($代数，第 1 章IV, §5, no. 11、注 2)。
+令 V 为有限维向量空间。我们用V上的多项式函数的$A_V$代数和第1章$k($代数中的值来表示。 IV, §5, no. 10，防御。 4).这是评级代数；它的次数 1 的分量是V的对偶$V^*$，以及$V^*$的单射从对称代数$\mathbf{S}(V^*)$到$A_V$扩展到同构到$A_V($代数，第 1 章IV, §5, no. 11、注 2)。
 
 如果 $(e_1, . . . , e_n)$ 是 V 的基，并且 $(X_1, . . . ,X_n)$ 序列是不定式，则映射从 $k[X_1, . . . ,X_n]$ 到 $A_V$ 取 $k[X_1, . . . ,X_n]$ 到函数的任何元素 $f$
 
@@ -56,7 +56,7 @@ $$
 
 事实上，让$H'$是从$k[X_1, . . . ,X_n]$到$k$的代数同态的集合。从$H'$到$k^n$，映射$\chi  \rightarrow (\chi (X_1), . . . , \chi (X_n))$显然是双射。
 
-#### 推论{#lie-vii-a1-n1-cor-1 .statement tag=00XD}
+#### 推论 {#lie-vii-a1-n1-cor-1 .statement tag=00XD}
 
 对于任何$x\in V$，设$\mathfrak{m}_x=$ Ker($h_x$)。那么映射$x \rightarrow \mathfrak{m}_x$是$A_V$的理想$\mathfrak{m}$从V到集合的双射，使得$A_V/\mathfrak{m}=k$。
 
@@ -72,7 +72,7 @@ Cor 的映射 $x \rightarrow \mathfrak{m}_x$。命题1可以被认为是从V到$
 
 由于$A_V$是诺特，Spec(A$_V$)是诺特（交换代数，第II, §4, no. 3章，第11号提案第7章），诺特空间的每个子空间是诺特 （前述，no. 2，第 8 号提案）。与Cor的记号。命题1中，$\mathfrak{m}_x$的交是$\{0\}$，$\{0\}$是$A_V$的素理想；因此 V 是不可约的（前述，no. 3，第 14 条命题）。
 
-### 2. DOMINANT POLYNOMIAL MAPS
+### 2. 支配多项式映射
 
 令 $V,W$ 为有限维向量空间。令 $f$ 为从 V 到 W 的多项式映射（代数，第 IV, §5, no. 10 章，定义 4）。如果 $\psi \in A_W,\psi \circ f\in A_V$（参见第 17 条提案）。 映射$\psi  \rightarrow \psi \circ f$是从$A_W$到$A_V$的同态，据说与$f$相关。它的核由函数$\psi \in A_W$组成，在$f(V)$上消失（因此也在Zariski拓扑中的$f(V)$闭合时消失）。
 
@@ -116,7 +116,7 @@ $$
 
 其中 $\rho$ 是次数 $> m$ 的齐次多项式映射的和。由此可见$\psi_m\circ f_1= 0$。由于 $f_1$ 是满射，$\psi_m= 0$ 是矛盾的。
 
-#### 推论{#lie-vii-a1-n2-cor-1 .statement tag=00XI}
+#### 推论 {#lie-vii-a1-n2-cor-1 .statement tag=00XI}
 
 如果$k$是代数闭的，并且如果$f$满足命题4的假设，则像位于V包含的任何稠密开子集的$f$下，W的稠密开子集。
 

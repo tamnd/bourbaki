@@ -21,16 +21,16 @@ subsections:
       pdf_page: 366
 statements: 15
 exercises: 15
-content_sha256: 0843833086c743480ae10ca744007f30f6015009bcea86adcfb1499d218a2018
+content_sha256: ee66cc5bdde6e6afbd666a7eab9f27389ed98f8ef8b486dc319e5f6ce734a5bf
 translated_from: content/en/top/IV/06_s6_continuous_and_semi_continuous_real.md
 translation_method: google
 source_content_sha256: a4a4561480f34bbe62b92e5864816f73a0e123a5320283ae8272978222d04a91
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 3893623cb4905cce5f7c6cbf32df8c02d1502f2c7c96324609eca9ddd35259ef
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 6. 连续和半连续实值函数
@@ -51,9 +51,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定理 2（博尔扎诺）{#top-iv-s6-thm-2 .statement tag=0BSH}
 
-令 $f$ 为定义在连接的空间 $X$ 上的连续实值函数。如果$a$和$b$是$X$中的任意两个点，并且如果$\alpha$是实数属于到端点为$f(a)$和$f(b)$的闭区间，则至少有一个点$x \in X$使得$f(x) = \alpha$。
+令 $f$ 为在连接的空间 $X$ 上定义的连续实值函数。如果$a$和$b$是$X$中的任意两个点，并且如果$\alpha$是实数属于到端点为$f(a)$和$f(b)$的闭区间，则至少有一个点$x \in X$使得$f(x) = \alpha$。
 
-因为 $f(X)$ 是连通的 (章 I, § 11, no. 2, 命题 4)，因此是$\overline{\mathbf{R}}$ (§ 4, no. 2, 命题 5) 的区间；因此它是包含，端点为$f(a)$和$f(b)$的闭区间。
+因为$f(X)$是连通的（章I, § 11, no. 2，命题4），因此是$\overline{\mathbf{R}}$的区间（§ 4, no. 2，命题5）；因此它是包含封闭的区间，端点为$f(a)$和$f(b)$。
 
 这个定理通常用形式来表示，即连接的空间不能上的连续实值函数从一个值传递到另一个，而无需经过通过所有中间值*。
 
@@ -61,7 +61,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 ### 2. 半连续函数
 
-令$f$为定义在拓扑空间$X$上的实值函数。要使 $f$ 在点 $a \in X$ 连续，满足以下条件是充分必要的：
+令$f$为定义在拓扑空间$X$上的实值函数。要使 $f$ 在点 $a \in X$ 连续，满足以下条件是必要且充分的：
 (i) 给定任何实数$h < f(a)$，存在$a$的邻域$V$，使得在每个点$x \in V$我们有$h < f(x)$；
 (ii) 给定任何实数$k > f(a)$，存在$a$的邻域$W$，使得在每个点$x \in W$我们有$k > f(x)$。
 
@@ -69,9 +69,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#top-iv-s6-def-1 .statement tag=0BSI}
 
-*实值函数$f$，定义在拓扑空间$X$上，据说是下半连续*（或*上半连续*）*在点$a \in X$，如果对于每个$h < f(a)$[或。每个$k > f(a)$]都有邻域$V$/$a$，这样$h < f(x)$[分别。 $k > f(x)$] *每个* $x \in V$。
+*实值函数$f$，定义在拓扑空间$X$上，据说是下半连续*（或*上半连续*）*在点$a \in X$，如果对于每个$h < f(a)$[或。每个$k > f(a)$]都有邻域$V$ / $a$使得$h < f(x)$[分别。 $k > f(x)$] *每个* $x \in V$。
 
-*实值函数被称为下半连续*（或*上半连续*）*在$X$上，如果它是下半连续*（或*上半连续*）*在$X$*的每个点*。
+*实值函数被认为是下半连续*（或*上半连续*）*在$X$上，如果它是下半连续*（或*上半连续*）*在$X$*的每个点*。
 
 因此，实值函数$f$在点$a$处*连续*当且仅当它在$a$处*上半连续*和下半连续*。
 
@@ -91,7 +91,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 对于倾向于$f(a)$的实数$< f(a)$的递增序列$(h_n)$来说，这个条件就足够了。
 
-将$\overline{\mathbf{R}}$赋予拓扑，其中开集合为$\varnothing$，并且$\overline{\mathbf{R}}$的所有开区间在右侧无界（即有限$a$的所有区间$]a, +\infty[$，以及区间$[--\infty, +\infty] = ]\leftarrow, \rightarrow[]$）。那么实值函数$f$在$a$处是下半连续的当且仅当它在$a$处连续时，将映射考虑到赋予此拓扑的$\overline{\mathbf{R}}$。
+将$\overline{\mathbf{R}}$赋予拓扑，其中开集合为$\varnothing$，并且$\overline{\mathbf{R}}$的所有开区间在右侧无界（即，所有区间$]a, +\infty[$为有限$a$，且区间 $[--\infty, +\infty] = ]\leftarrow, \rightarrow[]$）。那么实值函数$f$在$a$处是下半连续的当且仅当它在$a$处连续时，当将映射考虑到赋予此拓扑的$\overline{\mathbf{R}}$时。
 
 #### 命题 1 {#top-iv-s6-prop-1 .statement tag=0BSL}
 
@@ -101,7 +101,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 为了使 $f$ 在 $X$ 上成为下半连续，对于所有实数 $k$ 属于到$\mathbf{R}$ 的稠密子集，$f^{-1}([k, +\infty])$ 在 $X$ 中开路就足够了。
 
-#### 推论{#top-iv-s6-n2-cor-1 .statement tag=0BSM}
+#### 推论 {#top-iv-s6-n2-cor-1 .statement tag=0BSM}
 
 *拓扑空间$X$的子集$A$在$X$中是开（或闭）当且仅当其特征函数（*）$\varphi_A$在$X$上是下（或上）半连续。*
 
@@ -109,17 +109,17 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定理 3 {#top-iv-s6-thm-3 .statement tag=0BSN}
 
-*令$f$为非空准紧空间$X$上的下半连续函数。那么至少有一个点$a \in E$使得$f(a) = \inf_{x \in X} f(x)$（在其他字中，$f$在$X$中达到其下确界）。*
+*令$f$为非空拟紧空间$X$上的下半连续函数。那么至少有一个点$a \in E$使得$f(a) = \inf_{x \in X} f(x)$（在其他字中，$f$在$X$中达到其下确界）。*
 
-对于每个 $k \in f(X)$，请考虑集合 $A_k = \overline{f}([-\infty, k])$。这些集合非空，并且形式是$X$上的过滤器基；因为它们被命题 1 封闭，所以它们至少有一个公共的点 $a$ [准紧空间的公理 (C'')]。因此，对于每个$x \in X$，我们有$f(a) \leq f(x)$，然后是定理。
+对于每个$k \in f(X)$，考虑集合$A_k = \overline{f}([-\infty, k])$。这些集合非空，形式是$X$上的过滤器基；由于它们被命题 1 封闭，因此它们至少有一个公共的点 $a$ [准紧空间的公理 (C'')]。因此，对于每个$x \in X$，我们有$f(a) \leq f(x)$，然后是定理。
 
-(*) 我们记得（集合理论，章III, § 5, no. 5）集合$X$的子集$A$的特征函数$\varphi_A$是在$X$上定义的函数这样$\varphi_A(x) = 1$ 代表所有 $x \in A$，$\varphi_A(x) = 0$ 代表所有 $x \in \complement_A$。
+(*) 我们记得（集合理论、章 III, § 5, no. 5），集合 $X$ 的子集 $A$ 的特征函数 $\varphi_A$ 定义于函数 $X$，使得$\varphi_A(x) = 1$适用于所有$x \in A$，$\varphi_A(x) = 0$适用于所有$x \in \complement_A$。
 
-#### 推论{#top-iv-s6-n2-cor-2 .statement tag=0BSO}
+#### 推论 {#top-iv-s6-n2-cor-2 .statement tag=0BSO}
 
 令$f$为非空准紧空间$X$上的下半连续函数。如果 $f(x) > -\infty$ 对于所有 $x \in X$，则 $f$ 的边界在 $X$ 内。
 
-注，对于上半连续函数，此定理和相应的定理包括Weierstrass的定理作为特殊情况（no. 1，定理1）。
+请注意，上半连续函数的定理和相应的定理包括Weierstrass的定理作为特殊情况（no. 1，定理1）。
 
 #### 命题 2 {#top-iv-s6-prop-2 .statement tag=0BSP}
 
@@ -135,9 +135,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 设 $g$ 为上层信封。对于每个$h < g(a)$，有指标$i$使得$h < f_i(a) \leq g(a)$，以及$a$的邻域$V$使得$h < f_i(x)$对于所有$x \in V$；因此，对于所有 $x \in V$，$a$ 更不必说 $h < g(x)$。
 
-从命题 2 可以得出，下半连续函数的有限数的下包络线同样是下半连续；但对于下半连续函数的无限族的下包络线来说，这通常不是正确的。对于例，如果$r$是任何有理数数，则让$f_r$表示函数，它在$r$等于0，并且对于所有实数$x \neq r$等于1； $f_r$ 的下包络为函数 $g$，对于每个有理数数等于 0，对于每个无理数数等于 1（“狄利克雷函数”），并且这个函数在无理数处不是下半连续的点。
+从命题 2 可以得出，下半连续函数的有限数的下包络线同样是下半连续；但对于下半连续函数的无限族的下包络线来说，这通常不是正确的。例如，如果$r$是任何有理数数，则让$f_r$表示函数，它在$r$等于0，并且对于所有实数$x \neq r$等于1； $f_r$ 的下包络为函数 $g$，对于每个有理数数等于 0，对于每个无理数数等于 1（“狄利克雷函数”），并且这个函数在无理数处不是下半连续的点。
 
-#### 推论{#top-iv-s6-n2-cor-3 .statement tag=0BSR}
+#### 推论 {#top-iv-s6-n2-cor-3 .statement tag=0BSR}
 
 空间 $X$ 上的连续实值族函数的上包络线在 $X$ 上是下半连续的。
 

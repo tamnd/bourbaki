@@ -49,16 +49,16 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: 060dd3531ac14334f290b9979e527af1cf441937b1e87ab4908fc49314ed0ed7
+content_sha256: d5d7fd2b68833cdefdc9044c8d343404260318aa22688a96973c3c3d6b49a4c6
 translated_from: content/en/top/II/03_s3_complete_spaces.md
 translation_method: google
 source_content_sha256: 4fff5edd8ba62b0c67040f4aad9934e1ca08a8f7749a27d75004f56f99335c47
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: b6a4557b3eb0a0836aa687a2958cb6405d4db1c3ae9bb48915e5eaf26c0131e3
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 完成空间
@@ -115,7 +115,7 @@ $$
 
 #### 推论 1 {#top-ii-s3-prop-4-cor-1 .statement tag=0BEK}
 
-*如果在均匀空间$X$诱导上的柯西滤波器在$X$的子集$A$上的滤波器，则该滤波器是在均匀子空间$A$上的柯西滤波器。*
+*如果均匀空间 $X$ 诱导上的柯西滤波器在 $X$ 的子集 $A$ 上的滤波器，则该滤波器是均匀子空间 $A$ 上的柯西滤波器。*
 
 #### 推论 2 {#top-ii-s3-prop-4-cor-2 .statement tag=0BEL}
 
@@ -123,7 +123,7 @@ $$
 
 ### 2. 最小柯西滤波器
 
-均匀空间 $X$ 上柯西滤波器的最小元素（相对于包含而言）集合称为 $X$ 上的*最小柯西滤波器*。
+均匀空间 $X$ 上柯西滤波器的最小元素（相对于包含）集合称为$X$ 上的*最小柯西滤波器*。
 
 #### 命题 5 {#top-ii-s3-prop-5 .statement tag=0BEM}
 
@@ -135,7 +135,7 @@ $$
 
 *对于每个$x \in X$，$X$中$x$的邻域滤波器$\mathfrak{B}(x)$是最小柯西滤波器。*
 
-取命题 5中的$\mathfrak{F}$作为$X$中所有子集的过滤器，其中包含$x$，并取$\mathfrak{B}$由单个元素$\{x\}$组成。
+取命题 5 中的$\mathfrak{F}$作为$X$中所有子集的滤波器，其中包含$x$，并取$\mathfrak{B}$由单个元素$\{x\}$组成。
 
 #### 推论 2 {#top-ii-s3-prop-5-cor-2 .statement tag=0BEO}
 
@@ -147,13 +147,13 @@ $$
 
 *每个柯西滤波器比收敛到点* $x$ 的滤波器更粗糙，*也收敛到* $x$。
 
-这是推论 2 的推论。
+这是推论 2 中的推论。
 
 #### 推论 4 {#top-ii-s3-prop-5-cor-4 .statement tag=0BEQ}
 
-*如果* $\mathfrak{F}$ *是最小柯西滤波器，则* $\mathfrak{F}$ *的每个集合都有一个非空内部，其中也有属于到* $\mathfrak{F}$ *（在其他字、$\mathfrak{F}$有基由……组成）打开集合)*。
+*如果* $\mathfrak{F}$ *是一个最小柯西滤波器，那么每个集合的* $\mathfrak{F}$ *都有一个非空的内部，其中也有属于到* $\mathfrak{F}$ *（在其他字，$\mathfrak{F}$有基由……组成）打开集合)*。
 
-设$V$为$X$的任意随从；那么就有一个开放的随从$U \subset V$（$\S$1，no. 2，推论2到命题2）。对于$X$中的每个子集$M$，$U(M)$都是开集并且包含在$V(M)$中；因此，鉴于命题 5，结果如下。
+设$V$为$X$的任意随从；然后是一个开放的随从$U \subset V$（$\S$1，no. 2，推论2到命题2）。对于$X$中的每个子集$M$，$U(M)$是开集并包含在$V(M)$中；因此，鉴于命题 5，结果如下。
 
 ### 3. 完成空间
 
@@ -183,7 +183,7 @@ $$
 $$
 V = \bigcup_i (A_i \times A_i)
 $$
-相应的随行人员，则$A_i$属于至$\mathfrak{F}$中至少之一（章I, § 6, no. 4，推论命题5），且$A_i$为V小。另一方面，$X$是无限离散的空间，因此不是紧致的，因而$X$上存在不收敛的超滤波器。
+相应的随行人员，则$A_i$属于至$\mathfrak{F}$（章I, § 6, no. 4、推论至命题5）至少其中之一，而$A_i$为V-小。另一方面，$X$是无限离散的空间，因此不是紧致的，因而$X$上存在不收敛的超滤波器。
 
 #### 定义 3 {#top-ii-s3-def-3 .statement tag=0BET}
 
@@ -199,9 +199,9 @@ $$
 
 #### 命题 6 {#top-ii-s3-prop-6 .statement tag=0BEV}
 
-*令$\mathfrak{F}$为集合$X$的过滤器，并令$f$为$X$的映射成为完整的统一空间$X'$。那么$f$相对于$\mathfrak{F}$有极限当且仅当$f$下$\mathfrak{F}$的像是柯西滤波器基。*
+*令$\mathfrak{F}$为集合$X$的过滤器，并让$f$为$X$的映射成为完整的均匀空间$X'$。那么$f$相对于$\mathfrak{F}$有极限当且仅当$f$下$\mathfrak{F}$的像是柯西滤波器基。*
 
-该标准显示了完整空间在涉及极限的概念的所有问题中的重要性：如果函数在完整的空间中取其值，我们可以证明极限的*存在*无需事先知道值共极限*；如果定义或极限是我们可以使用的唯一收敛标准，那么这是不可能的。
+这个标准显示了完整的空间在涉及概念或极限的所有问题中的重要性：如果函数在完整的空间中取其值，我们可以证明极限的*存在*无需事先知道值共极限*；如果极限中的定义是我们可以使用的唯一收敛标准，那么这是不可能的。
 
 *更细* 比完整空间均匀度的均匀度不必是完整空间 (习题 2) 的均匀度。然而，我们有以下命题：
 
@@ -209,7 +209,7 @@ $$
 
 *令$\mathfrak{U}_1, \mathfrak{U}_2$为集合$X$上的两个均匀性，并令$\mathfrak{T}_1, \mathfrak{T}_2$分别为由这些均匀性引起的拓扑。假设$\mathfrak{U}_1$比$\mathfrak{U}_2$是更细，并且$\mathfrak{U}_1$有一个基本的系统随行人员，这些随行人员在拓扑$\mathfrak{T}_2 \times \mathfrak{T}_2$的$X \times X$关闭。那么$X$上的滤波器$\mathfrak{F}$收敛于拓扑$\mathfrak{T}_1$当且仅当它是均匀性$\mathfrak{U}_1$中的柯西滤波器并且收敛于拓扑$\mathfrak{T}_2$。*
 
-条件显然是必要的，因为 $\mathfrak{T}_2$ 比 $\mathfrak{T}_1$ 更粗糙。反之，假设满足条件，则令$x$相对于$\mathfrak{T}_2$为$\mathfrak{F}$的极限点；我们将证明$x$是$\mathfrak{F}$相对于$\mathfrak{T}_1$的极限。设$V$是$\mathfrak{U}_1$的对称周边，它在拓扑$\mathfrak{T}_2 \times \mathfrak{T}_2$中闭合。 假设、$\mathfrak{F}$ 包含集合 $M$，其中V小；因而，如果$x' \in M$我们有$M \subset V(x')$。但$V(x')$于拓扑$\mathfrak{T}_2$关闭；因而$x$位于$M$相对于$\mathfrak{T}_2$的闭包，必须属于到$V(x')$。由此可见$M \subset \hat{V}(x)$、命题得证。
+条件显然是必要的，因为 $\mathfrak{T}_2$ 比 $\mathfrak{T}_1$ 更粗糙。反之，假设满足条件，则令$x$相对于$\mathfrak{T}_2$为$\mathfrak{F}$的极限点；我们将证明$x$是$\mathfrak{F}$相对于$\mathfrak{T}_1$的极限。设$V$是$\mathfrak{U}_1$的对称周边，它在拓扑$\mathfrak{T}_2 \times \mathfrak{T}_2$中闭合。 假设、$\mathfrak{F}$ 包含集合 $M$，即 V 小；因而，如果$x' \in M$我们有$M \subset V(x')$。但$V(x')$于拓扑$\mathfrak{T}_2$关闭；因而$x$位于$M$相对于$\mathfrak{T}_2$的闭包，必须属于到$V(x')$。由此可见$M \subset \hat{V}(x)$、命题得证。
 
 #### 推出 {#top-ii-s3-n3-cor-1 .statement tag=0BEX}
 
@@ -217,7 +217,7 @@ $$
 
 对于每个关于$U_1$的柯西滤波器都是关于$U_2$的柯西滤波器，因此收敛于拓扑$\mathfrak{T}_2$。
 
-注当$\mathfrak{T}_1 = \mathfrak{T}_2$（§ 1, no. 2，推论2至命题2）时，满足命题7的推论假设。
+请注意，当$\mathfrak{T}_1 = \mathfrak{T}_2$（§ 1, no. 2，推出 2 至命题 2）时，满足推论至命题 7 的假设。
 
 ### 4. 子空间完整空间
 
@@ -227,21 +227,21 @@ $$
 
 令$X$为完整的空间，并令$A$为$X$的闭子空间。如果$\mathfrak{F}$是$A$上的柯西滤波器，则它是$X$（no. 1，命题3）上的柯西滤波器基，因此收敛到点$x \in X$；但由于$A$是封闭的，我们有$x \in A$，因此$\mathfrak{F}$收敛于子空间$A$。
 
-现在令$\overline{A}$为Hausdorff制服空间$X$的非闭子集，并令$b \in \overline{A} - A$。 $X$中$b$的邻域滤波器$\mathfrak{B}$在$A$上的迹$\mathfrak{B}_A$是$A$上的柯西滤波器；但它不能收敛于点$c \in A$，否则$c$将是$\mathfrak{B}$的极限点（no. 2，命题5，推论3），这是荒谬的，因为$b \neq c$和$X$ 是豪斯多夫。
+现在令$\overline{A}$为Hausdorff制服空间$X$的非闭子集，并令$b \in \overline{A} - A$。 $X$中$b$的邻域滤波器$\mathfrak{B}$在$A$上的迹$\mathfrak{B}_A$是$A$上的柯西滤波器；但它不能收敛于点$c \in A$，否则$c$将是$\mathfrak{B}$的极限点（no. 2，命题5，推论3），这是荒谬的，因为$b \neq c$ 和$X$ 是豪斯多夫。
 
 #### 命题 9 {#top-ii-s3-prop-9 .statement tag=0BEZ}
 
 令$X$为均匀空间，并令$A$为$X$的密集子集，使得$A$上的每个柯西滤波器基收敛于$X$。那么$X$就完成了。
 
-足以证明$X$上的每个最小柯西滤波器$\mathfrak{F}$是收敛的。由于$A$是稠密的，并且$\mathfrak{F}$的每个集合都有一个非空的内部（no. 2，推论4到命题5），$\mathfrak{F}$在$A$上的迹$\mathfrak{F}_A$是一个柯西滤波器$A$，因此收敛到点$x_0 \in X$。由于$\mathfrak{F}$比$\mathfrak{F}_A$生成的$X$上的过滤器更粗糙，因此$\mathfrak{F}$收敛到$x_0$（no. 2，推论3到命题5）。
+足以证明$X$上的每个最小柯西滤波器$\mathfrak{F}$是收敛的。由于$A$是稠密的，并且$\mathfrak{F}$的每个集合都有一个非空的内部（no. 2、推论 4到命题 5），$\mathfrak{F}$在$A$上的迹$\mathfrak{F}_A$是一个柯西滤波器$A$，因此收敛到点$x_0 \in X$。由于$\mathfrak{F}$比$\mathfrak{F}_A$生成的$X$上的过滤器更粗糙，因此$\mathfrak{F}$收敛到$x_0$（no. 2，推论3到命题5）。
 
-### 5. 乘积和逆极限完整的空间
+### 5. 完整的空间的乘积和逆极限
 
 #### 命题 10 {#top-ii-s3-prop-10 .statement tag=0BF0}
 
 完整制服空间的每一个乘积都是完整的。反之，如果非空制服空间的乘积是完整的，那么每个因子都是完整的制服空间。
 
-第一个断言是乘积空间上柯西滤波器和收敛滤波器刻画的推论（no. 1，推论2到命题4和章I, § 7, no. 6，推论） 1 至命题 10)。相反，假设
+第一个断言是乘积空间上的柯西滤波器和收敛滤波器刻画的推论（no. 1、推论2到命题4和章） I, § 7, no. 6、推论 1 至命题 10)。相反，假设
 
 $$
 X = \prod_{i \in I} X_i
@@ -253,25 +253,25 @@ $$
 \mathfrak{F} = \prod_{i \in I} \mathfrak{F}_i \text{ on } X;
 $$
 
-$\mathfrak{F}$ 是柯西滤波器（no. 1，推论 2 到命题 4），因此是收敛的，因此每个 $\operatorname{pr}_x \mathfrak{F} = \mathfrak{F}_x$ 也是收敛的（章 I, § 7, no. 6，推论 1 到命题 10）。
+$\mathfrak{F}$ 是柯西滤波器 (no. 1, 推论 2 到命题 4)，因此是收敛的，因此每个 $\operatorname{pr}_x \mathfrak{F} = \mathfrak{F}_x$ 也是收敛的 (章 I, § 7, no. 6, 推论 1 到命题 10）。
 
-#### 推论{#top-ii-s3-n5-cor-1 .statement tag=0BF1}
+#### 推论 {#top-ii-s3-n5-cor-1 .statement tag=0BF1}
 
 *设*$(X_\alpha, f_{\alpha\beta})$*为均匀空间的逆系。**如果*$X_\alpha$*是豪斯多夫且完备，那么*$X = \varprojlim X_\alpha$也是。
 
-对于 $X$ 是 Hausdorff，并且可以用 $\prod_{i \in I} X_\alpha$ 的 *封闭* 子空间来识别（章 I, § 8, no. 2，推论 2 到命题 7）；因此，从命题 10 和命题 8 (no. 4) 可以得出推论。
+对于 $X$ 是 Hausdorff，可以用 $\prod_{i \in I} X_\alpha$ 的 *封闭* 子空间来识别（章 I, § 8, no. 2、推论 2 到命题 7）；因此，推论由命题 10 和命题 8 (no. 4) 得出。
 
-完整豪斯多夫均匀空间$X_\alpha$的逆极限可以是*空*，即使所有$X_\alpha$非空并且所有$f_{\alpha\beta}$都是满射，如离散空间的情况所示（*集合理论*，章） III, § 1，习题32）。然而，我们有以下定理：
+完整豪斯多夫均匀空间$X_\alpha$的逆极限可以是*空*，即使所有$X_\alpha$非空并且所有$f_{\alpha\beta}$都是满射，如离散空间的情况所示（*集合理论*， 章III, § 1、习题32）。然而，我们有以下定理：
 
 #### 定理 1（米塔格-莱弗勒）{#top-ii-s3-thm-1 .statement tag=0BF2}
 
-*令* $(X_\alpha, f_{\alpha\beta})$ *为完整Hausdorff制服空间的逆系，由有向集合* $I$ *索引，其具有可数的共尾子集；还假设，对于每个* $\alpha \in I$，$X_\alpha$ *都有可数的基本随行人员系统* (*)。 *最后，假设对于每个* $\alpha \in I$ *有指标* $\beta \geq \alpha$ *满足以下条件*：
+*令* $(X_\alpha, f_{\alpha\beta})$ *为完整豪斯多夫制服空间的逆系，由有向集合* $I$ *索引，其具有可数的共尾子集；还假设，对于每个* $\alpha \in I$、$X_\alpha$ *都有可数的基本随行人员系统* (*)。 *最后，假设对于每个* $\alpha \in I$ *有指标* $\beta \geq \alpha$ *满足以下条件*：
 
 (ML$_{\alpha\beta}$) *对于每个* $\gamma \geq \beta$，$f_{\alpha\gamma}(X_\gamma)$ *密集于* $f_{\alpha\beta}(X_\beta)$。
 
 *令*$X = \varprojlim X_\alpha$*并令*$f_\alpha$*为典范映射*$X \to X_\alpha$。 *然后对于每个* $\alpha \in I$ *和每个* $\beta \geq \alpha$ *满足* (ML$_{\alpha\beta}$)，$f_\alpha(X)$ *稠密于* $f_{\alpha\beta}(X_\beta)$ *（因而，如果* $X_\alpha$ *都非空，则* $X$ *非空）*。
 
-设$(\lambda_n)$为$I$中指标共尾的序列。从指标 $\alpha_0 \in I$ 和定义开始，递归递增序列 $(\alpha_n)$，使得 $\alpha_n \geq \lambda_n$ 且 (ML$_{\alpha_n, \alpha_{n+1}}$) 为真。显然序列
+设$(\lambda_n)$为$I$中指标共尾的序列。从指标 $\alpha_0 \in I$ 和定义递归递增序列 $(\alpha_n)$ 使得 $\alpha_n \geq \lambda_n$ 且 (ML$_{\alpha_n, \alpha_{n+1}}$) 为真。显然序列
 
 (*) *这个条件表示 Hausdorff 制服空间* $X_\alpha$ *是可度量的； cf.章IX, § 2, no. 4、定理1.*
 
@@ -287,7 +287,7 @@ $\overset{2}{V}_{k+1, n} \subset V_{kn}$,
 (3)
 $(f_{n, n+1} \times f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$。
 
-实际上，令 (U_{kn})_{k∈\mathbf{N}} 为 X_{α_n} 随从的基本系统。如果我们假设 V_{kn} 已经为给定的 n 和所有 k ∈ \mathbf{N} 定义，那么由于 f_{n, n+1} 是一致连续的，我们可以通过 k 上的归纳定义周围环境 V_{k, n+1} 来满足 (3) 且
+实际上，令 (U_{kn})_{k∈\mathbf{N}} 为 X_{α_n} 随从的基本系统。如果我们假设 V_{kn} 已经为给定的 n 和所有 k ∈ \mathbf{N} 定义，那么由于 f_{n, n+1} 是均匀连续的，我们可以通过 k 上的归纳定义周围的 V_{k, n+1} 来满足 (3) 且
 
 $\overset{2}{V}_{k+1, n+1} \subset V_{k, n+1} \cap U_{k+1, n+1}$
 
@@ -303,7 +303,7 @@ $$ [x_n, f_{n, n+1}(x_{n+1})] \in V_{k+n, n} $$
 (5)
 $$ [f_{mn}(x_n), f_{m, n+1}(x_{n+1})] \in V_{k+n, m} $$
 
-由此我们结论对于固定的m序列(f_{mn}(x_n))_{n≥m}是X_{α_m}中的柯西序列，因此收敛到点z_m；对于归纳，从 (5) 可以得出，对于整数的每个对 p ≥ m, q > 0，我们有
+由此我们结论对于固定 m 序列 (f_{mn}(x_n))_{n≥m} 是 X_{α_m} 中的柯西序列，因此收敛到点 z_m；对于归纳，从 (5) 可以得出，对于整数的每个对 p ≥ m, q > 0，我们有
 
 (6)
 $$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] \in V_{k+p+q-1, m} \circ V_{k+p+q-2, m} \circ ... \circ V_{k+p, m} $$
@@ -318,7 +318,7 @@ $$ [f_{mp}(x_p), f_{m, p+q}(x_{p+q})] \in V_{k+p+q-1, m} \circ V_{k+p+q-2, m} \c
 
 #### 推出 2 {#top-ii-s3-thm-1-cor-2 .statement tag=0BF4}
 
-*设* $I$ *为有向集合，它有一个可数的共尾子集。设* $(X_\alpha, f_{\alpha \beta})$ *和* $(X'_\alpha, f'_{\alpha \beta})$ *为集合中的两个逆系，由* $I$索引，*并且对于每个* $\alpha \in I$ *让* $u_\alpha : X_\alpha \to X'_\alpha$ *为映射，使得* $u_\alpha$ *形式逆系共映射。让*$u = \varprojlim u_\alpha$。 *设*$x = (x'_\alpha)$*为*的元素
+*设* $I$ *为有向集合，它有一个可数的共尾子集。设*$(X_\alpha, f_{\alpha \beta})$*和*$(X'_\alpha, f'_{\alpha \beta})$*为集合中的两个逆系，并由*$I$索引，*并且对于每个*$\alpha \in I$*让*$u_\alpha : X_\alpha \to X'_\alpha$*为映射，使得*$u_\alpha$ *形式逆系共映射。让*$u = \varprojlim u_\alpha$。 *设*$x = (x'_\alpha)$*为*的元素
 
 $$
 X' = \varprojlim X'_\alpha
@@ -376,11 +376,11 @@ Q.E.D.
 
 *设$X_1, X_2$为两个完整的豪斯多夫均匀空间，并令$Y_1, Y_2$分别为$X_1, X_2$的稠密子空间。然后每$Y_1$的同构$f$到$Y_2$扩展到$X_1$的同构到$X_2$。*
 
-$f$ 在 $Y_1$ 中均匀连续，因而 (定理 2) 扩展到均匀连续映射 $\bar{f} : X_1 \to X_2$。同样，$f$扩展的逆$g$到均匀连续的映射$\bar{g} : X_2 \to X_1$。因而，函数$\bar{g} \circ \bar{f}$是$X_1$自身的连续映射，其限制到$Y_1$是恒等映射；通过扩张的原理恒等式（章 I、$\S$ 8、no. 1、推论 1 到命题 2），$\bar{g} \circ \bar{f}$ 因此是 $X_1$ 的恒等映射；类似地，$\bar{f} \circ \bar{g}$是$X_2$的恒等式映射。因而 (*集合理论*, R, $\S$ 2, no. 12) $\bar{f}^{-1}$ 和 $\bar{g}$ 是双射并且互为倒数；它们也是一致连续的，因此是同构 ($\S$ 2, no. 1, 命题 2)。
+$f$ 在 $Y_1$ 中均匀连续，因而 (定理 2) 扩展到均匀连续映射 $\bar{f} : X_1 \to X_2$。同样，$f$扩展的逆$g$到均匀连续的映射$\bar{g} : X_2 \to X_1$。因而，函数$\bar{g} \circ \bar{f}$是$X_1$自身的连续映射，其限制到$Y_1$是恒等映射；通过扩张的原理恒等式 (章 I, $\S$ 8, no. 1, 推论 1 到命题 2) $\bar{g} \circ \bar{f}$ 因此是恒等映射 $X_1$；类似地，$\bar{f} \circ \bar{g}$是$X_2$的恒等式映射。因而 (*集合理论*, R, $\S$ 2, no. 12) $\bar{f}^{-1}$ 和 $\bar{g}$ 是双射并且互为倒数；它们也是一致连续的，因此是同构 ($\S$ 2, no. 1, 命题 2)。
 
 应该注意的是，如果$f$是$Y_1$在$Y_2$上的*双射的*一致连续映射，则其连续性的扩张*不需要既不是单射也不是满射*（习题 3）。
 
-### 7. 完成制服空间
+### 7. 完成一套制服空间
 
 #### 定理 3 {#top-ii-s3-thm-3 .statement tag=0BF9}
 
@@ -390,11 +390,11 @@ $f$ 在 $Y_1$ 中均匀连续，因而 (定理 2) 扩展到均匀连续映射 $\
 
 *如果$(i_1, X_1)$是完整Hausdorff均匀空间$X_1$的另一个对由……组成和具有性质（P）的均匀连续映射$i_1 : X \to X_1$，则有唯一同构$\varphi : \hat{X} \to X_1$使得$i_1 = \varphi \circ i$。*
 
-定理的第一个叙述表示对$(i, \hat{X})$是普遍映射问题的解（集合理论，章IV，， no. 1），其中$\Sigma$-集合是完全豪斯多夫均匀空间，$\sigma$-态射是均匀连续映射，$\alpha$-映射是$X$均匀连续映射成完全豪斯多夫均匀空间。因而，从对 $(i, \hat{X})$ 到唯一的同构的唯一性可以从解的普遍映射问题的一般属性得出（前述）。还需要证明对$(i, \hat{X})$的存在
+定理的第一个叙述表示对$(i, \hat{X})$是普遍映射问题中的解（集合理论，章） IV, , no. 1)，其中$\Sigma$-集合是完全豪斯多夫一致空间，$\sigma$-态射是一致连续的映射，$\alpha$-映射是一致连续映射 $X$ 变成完整的 Hausdorff 制服空间。因而，从对 $(i, \hat{X})$ 到唯一的同构的唯一性可以从普遍映射问题的解的一般属性得出（前述）。还需要证明对$(i, \hat{X})$的存在
 
-1) 定义共 $\hat{X}$。令 $\hat{X}$ 为 $X$ 上的最小柯西滤波器 (no. 2) 的集合。我们将在$\hat{X}$穿定义制服结构。为此，如果$V$是$X$的任何对称周边，则令$\tilde{V}$表示所有对$(\mathscr{K}, \mathfrak{Y})$最小柯西滤波器的集合，这些滤波器在公共的中具有$V$小集合。我们将证明集合$\tilde{V}$形式是$\hat{X}$上制服结构的基本系统：
+1) 定义共 $\hat{X}$。令 $\hat{X}$ 为 $X$ 上的最小柯西滤波器 (no. 2) 的集合。我们将在$\hat{X}$穿定义制服结构。为此，如果 $V$ 是 $X$ 的任何对称周边，则令 $\tilde{V}$ 表示所有对 $(\mathscr{K}, \mathfrak{Y})$ 最小柯西滤波器的集合，这些滤波器在公共的中具有 $V$-小集合。我们将证明集合$\tilde{V}$形式是$\hat{X}$上制服结构的基本随行人员系统：
 
-(i) 由于每个 $\mathscr{K} \in \hat{X}$ 都是柯西滤波器，因此对于 $X$ 的每个对称随行人员 $V$，我们有定义 $(\mathscr{K}, \mathscr{K}) \in \tilde{V}$；因此满足公理$(U'_1)$。
+(i) 由于每个 $\mathscr{K} \in \hat{X}$ 都是柯西滤波器，因此对于 $X$ 的每个对称周边$V$，我们有定义 $(\mathscr{K}, \mathscr{K}) \in \tilde{V}$；因此满足公理$(U'_1)$。
 
 (ii) 如果$V$和$V'$是$X$的两个对称周边，则$W = V \cap V'$是对称周边，并且每个$W$小的集合也是$V$小和$V'$小；因此$\tilde{W} \subset \tilde{V} \cap \tilde{V}'$，证明$(B_1)$。
 
@@ -404,7 +404,7 @@ $f$ 在 $Y_1$ 中均匀连续，因而 (定理 2) 扩展到均匀连续映射 $\
 
 接下来我们证明制服空间 $\hat{X}$ 是 Hausdorff。令$\mathscr{K}, \mathfrak{Y}$为$X$上的两个最小柯西滤波器，使得$(\mathscr{K}, \mathfrak{Y}) \in \hat{X}$适用于$X$的所有对称随行人员$V$。紧接着是集合$M \cup N$，其中$M \in \mathscr{K}$和$N \in \mathfrak{Y}$、$\mathfrak{B}$过滤器的形式基比$\mathscr{K}$和$\mathfrak{Y}$更粗糙。现在$\mathfrak{B}$是一个柯西滤波器，因为对于$X$的每个对称周边$V$，对于$\mathscr{K}$和$\mathfrak{Y}$，都有假设一个$V$小集合$P$属于，并且因此属于至 $\mathfrak{B}$。通过最小柯西滤波器的定义，我们有$\mathscr{K} = \mathfrak{B} = \mathfrak{Y}$，这表明$\hat{X}$是Hausdorff。
 
-2) $i$的定义； $X$的统一结构是$\hat{X}$的$i$之下的逆像。我们知道，对于$X$中$x$的每个$x \in X$邻域过滤器$\mathfrak{B}(x)$来说，都是最小柯西过滤器（no. 2，命题5，推论1）。所以我们定义$i(x) = \mathfrak{B}(x)$。设 $f = i \times i$；我们将证明，对于$X$的每个对称随行人员$V$，我们有$j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$，这将证明我们的断言（§ 2, no. 4）。现在，如果$[i(x), i(y)] \in \tilde{V}$，则有一个$V$小集合$M$，它是$x$和$y$中每一个的邻域，因此$(x, y) \in V$。相反，如果$(x, y) \in V$，则立即看出集合$V(x) \cup V(y)$比$V$小，并且是$x$和$y$中每一个的邻域。
+2) $i$的定义； $X$的统一结构是$\hat{X}$的$i$之下的逆像。我们知道，对于$X$中$x$的每个$x \in X$邻域过滤器$\mathfrak{B}(x)$都是最小柯西过滤器（no. 2，命题5，推论1）。所以我们定义$i(x) = \mathfrak{B}(x)$。设 $f = i \times i$；我们将证明，对于$X$的每个对称随行人员$V$，我们有$j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$，这将证明我们的断言（§ 2, no. 4）。现在，如果$[i(x), i(y)] \in \tilde{V}$，则有一个$V$小集合$M$，它是$x$和$y$中每一个的邻域，因此$(x, y) \in V$。相反，如果$(x, y) \in V$，则立即看出集合$V(x) \cup V(y)$比$V$小，并且是$x$和$y$中每一个的邻域。
 
 3) $\hat{X}$是完备的，$i(X)$在$\hat{X}$中是稠密的。 点 $\mathfrak{X} \in X$ 邻域 $\tilde{V}(\mathfrak{X})$ 在 $i(X)$ 上的迹是所有 $i(x)$ 的集合，使得
 
@@ -412,10 +412,10 @@ $$
 (\mathfrak{X}, i(x)) \in \tilde{V}.
 $$
 
-这个关系意味着$X$中有一个$x$的$V$-小邻域，其中属于到$\mathfrak{X}$，即$x$是$V$-小的内部点集合共 $\mathfrak{X}$。令$M$为$\mathfrak{X}$的所有$V$-小集合的内部的并；然后 $M$ 属于到 $\mathfrak{X}$（no. 2，命题 5，推论 4），根据上述内容，得出 $\tilde{V}(\mathfrak{X}) \cap i(X) = i(M)$。我们结论认为：
+这个关系意味着$X$中有一个$x$的$V$-小邻域，其中属于到$\mathfrak{X}$，即$x$是$V$-小的内部点集合共 $\mathfrak{X}$。令$M$为$\mathfrak{X}$的所有$V$-小集合的内部的并；然后$M$属于到$\mathfrak{X}$（no. 2，命题5，推论4），从上面的内容可以得出$\tilde{V}(\mathfrak{X}) \cap i(X) = i(M)$。我们结论认为：
 
 (i) $\tilde{V}(\mathfrak{X}) \cap i(X)$ 不为空，因此 $i(X)$ 在 $\hat{X}$ 中是稠密的。
-(ii) $i(X)$ 属于上的$\tilde{V}(\mathfrak{X})$到$X$上的滤波器基$i(\mathfrak{X})$的踪迹；因此这个过滤器基在$\hat{X}$收敛到点$\mathfrak{X}$。
+(ii) $i(X)$ 属于上的$\tilde{V}(\mathfrak{X})$到$X$上的滤波器基$i(\mathfrak{X})$的踪迹；因此这个滤波器基在$\hat{X}$收敛到点$\mathfrak{X}$。
 
 现在让 $\mathfrak{F}$ 成为 $i(X)$ 上的柯西滤波器；那么从上面的2)和no. 1的命题4，$\overline{i^1}(\mathfrak{F})$是$X$上的柯西滤波器$\mathfrak{G}$的基。令 $\mathfrak{X}$ 为比 $\mathfrak{G}$ 更粗糙的最小柯西滤波器（no. 2，命题 5）；那么$i(\mathfrak{X})$是$i(X)$（no. 1，命题3）上的柯西滤波器基，并且$\mathfrak{F} = i[\overline{i^1}(\mathfrak{F})]$比基是$i(\mathfrak{X})$的滤波器是更细。由于后者收敛于 $\hat{X}$，$\mathfrak{F}$ 也收敛，命题 9 of no. 4 因此表明 $\hat{X}$ 是完备的。
 
@@ -425,28 +425,28 @@ $$
 f(x) = \lim f(\mathfrak{B}(x)),
 $$
 
-因此，如果我们输入$g_0(i(x)) = \lim f(\mathfrak{B}(x))$，我们就有$f = g_0 \circ i$；所以还需要证明$g_0$在$i(X)$中一致连续。令$U$为$Y$的周边，并令$V$为$X$的对称周边，使得关系$(x, x') \in V$蕴涵$(f(x), f(x')) \in U$；我们在 2) 中看到关系 $(i(x), i(x')) \in \tilde{V}$ 蕴含 $(x, x') \in V$，因此也蕴涵
+因此，如果我们输入$g_0(i(x)) = \lim f(\mathfrak{B}(x))$，我们就有$f = g_0 \circ i$；所以还需要证明$g_0$在$i(X)$中一致连续。令$U$为$Y$的周边，并令$V$为$X$的对称周边，使得关系$(x, x') \in V$蕴含$(f(x), f(x')) \in U$；我们在 2) 中看到关系 $(i(x), i(x')) \in \tilde{V}$ 蕴含 $(x, x') \in V$，因此也蕴涵
 $$
 (g_0(i(x)), g_0(i(x'))) \in U,
 $$
 这证明了我们的断言。
 
-通过连续到 $\hat{X}$ (no. 6, 定理 2)，令$g$为$g_0$的扩张；那么$f = g \circ i$，很明显，$g$是$\hat{X}$到$Y$满足这个关系的唯一连续映射，因为$i(X)$在$\hat{X}$中是稠密的（章） I, § 8, no. 1，命题 2，推论 1)。
+通过连续到 $\hat{X}$ (no. 6, 定理 2)，令$g$为$g_0$的扩张；那么$f = g \circ i$，很明显，$g$是$\hat{X}$到$Y$满足这个关系的唯一连续映射，因为$i(X)$在$\hat{X}$中是稠密的（章） I, § 8, no. 1、命题2、推论1)。
 
 Q.E.D.
 
 #### 定义 4 {#top-ii-s3-def-4 .statement tag=0BFA}
 
-*完成Hausdorff一致空间*$\hat{X}$*定义在定理3的证明称为*$X$的Hausdorff完成，*和映射*$i : X \to \hat{X}$*称为*$X$*的典范映射成它的豪斯多夫完成。*
+*完成Hausdorff一致空间*$\hat{X}$*定义在定理3的证明称为*$X$的Hausdorff完成，*和映射*$i : X \to \hat{X}$*称为典范映射*$X$*成它的豪斯多夫完成。*
 
-我们注还有以下事实：
+我们还注意到以下事实：
 
 #### 命题 12 {#top-ii-s3-prop-12 .statement tag=0BFB}
 
-(i) *The subspace* $i(X)$ *is dense in* $\hat{X}$.
-(ii) *The graph of the equivalence relation* $i(x) = i(x')$ *is the intersection of the entourages of* $X$.
-(iii) *The uniform structure of* $X$ *is the inverse image under* $i$ *of that of* $\hat{X}$ *[or of that of the subspace* $i(X)$].
-(iv) *The entourages of* $i(X)$ *are the images under* $i \times i$ *of the entourages of* $X$, *and the closures in* $\hat{X} \times \hat{X}$ *of the entourages of* $i(X)$ *form a fundamental system of entourages of* $\hat{X}$.
+(i) *子空间* $i(X)$ *密集于* $\hat{X}$。
+(ii) *等价关系图*$i(x) = i(x')$ *是*$X$周边的交集。
+(iii)*$X$*的均匀结构*是*$i$*下*$\hat{X}$*的逆像[或子空间*$i(X)$]的逆像。
+(iv)*$i(X)$*的随行人员是*$i \times i$*随行人员*$X$*中的图像，*以及*$\hat{X} \times \hat{X}$*中*$i(X)$*的随行人员的闭包，形成*$\hat{X}$的随行人员的基本系统。
 
 (i)和(iii)已在定理3的证明过程中得到证明；凭借先前证明的一般结果（§ 2, no. 4、注和命题 6），(iv) 是 (i) 和 (iii) 的推论。 关系
 $$
@@ -454,7 +454,7 @@ i(x) = i(x')
 $$
 定义表示 $x$ 和 $x'$ 具有相同的邻域过滤器。但这意味着，通过定义，$(x, x') \in V$对于$X$的每个随行人员$V$，并且逆命题是显而易见的。
 
-#### 推论{#top-ii-s3-n7-cor-1 .statement tag=0BFC}
+#### 推论 {#top-ii-s3-n7-cor-1 .statement tag=0BFC}
 
 *如果* $X$ *是豪斯多夫均匀空间，则典范映射* $i : X \to \hat{X}$ *是* $X$ 的同构 *到* $\hat{X}$ 的密集子空间。
 
@@ -464,7 +464,7 @@ $$
 
 如果这样识别，X上的最小柯西滤波器就是$\hat{X}$的点的邻域滤波器在X上的迹；这是从定理 3 的证明得出的。
 
-命题 12 的推论描述了 Hausdorff 制服空间的完成：
+推论到命题 12 表征 Hausdorff 制服空间的完成：
 
 #### 命题 13 {#top-ii-s3-prop-13 .statement tag=0BFE}
 
@@ -476,7 +476,7 @@ $$
 
 *令X为完整的豪斯多夫均匀空间，$\mathfrak{U}$其均匀性，并令Z为X的稠密子空间。如果 $\mathfrak{U}'$ 是 X 上的均匀性，比 $\mathfrak{U}$ 更粗糙，并且诱导与 Z 上的 $\mathfrak{U}$ 具有相同的均匀性，则 $\mathfrak{U} = \mathfrak{U}'$。*
 
-让X'表示集合X，均匀度为$\mathfrak{U}'$。 典范映射$X' \to \hat{X}'$和恒等映射$X \to X'$的合成是均匀连续的映射$\varphi : X \to \hat{X}'$。由于对于$\mathfrak{U}'$诱导的均匀结构，Z是Hausdorff，因此$\varphi$到Z的限制是通过Z的假设同构到$\hat{X}'$的稠密子空间$\varphi(Z)$； （no. 6，定理 2 的推论）$\varphi$ 本身是X 的同构到$\hat{X}'$，因此$X' = \hat{X}'$ 和$\mathfrak{U}' = \mathfrak{U}$。
+让X'表示集合X，均匀度为$\mathfrak{U}'$。 典范映射$X' \to \hat{X}'$和恒等映射$X \to X'$的合成是均匀连续的映射$\varphi : X \to \hat{X}'$。由于对于$\mathfrak{U}'$诱导的均匀结构，Z是Hausdorff，因此$\varphi$到Z的限制是通过Z的假设同构到$\hat{X}'$的稠密子空间$\varphi(Z)$；由此可见（no. 6、推论到定理 2）$\varphi$ 本身是 X 的同构到 $\hat{X}'$，因此是 $X' = \hat{X}'$ 和 $\mathfrak{U}' = \mathfrak{U}$。
 
 #### 命题 15 {#top-ii-s3-prop-15 .statement tag=0BFG}
 
@@ -494,7 +494,7 @@ $$
 
 应用定理 3 至函数 $i' \circ f : X \to \hat{X}'$。
 
-#### 推论{#top-ii-s3-n7-cor-2 .statement tag=0BFH}
+#### 推论 {#top-ii-s3-n7-cor-2 .statement tag=0BFH}
 
 *如果$f : X \to X'$和$g : X' \to X''$是两个均匀连续的映射和$h = g \circ f$，则$\hat{h} = \hat{g} \circ \hat{f}$。*
 
@@ -502,25 +502,25 @@ $$
 
 (*) 其他字、$i' \circ f = \hat{f} \circ i$。
 
-### 8. HAUSDOFF 制服空间与制服空间相关
+### 8. hausdorff 制服空间与制服空间相关
 
 #### 命题 16 {#top-ii-s3-prop-16 .statement tag=0BFI}
 
 令$X$为$X$的一致空间和$i$典范映射进入其Hausdorff完成$\hat{X}$。对于 $X$ 的每个均匀连续映射 $f$ 到 Hausdorff 均匀空间 $Y$，有一个唯一的均匀连续映射 $h : i(X) \to Y$，使得 $f = h \circ i$。
 
-我们可以将认同 $Y$ 与子空间完成 $\hat{Y}$（no. 7，命题 12 的推论），然后 $f$ 可以被认为是 $X$ 的均匀连续映射到$\hat{Y}$。凭借定理 3，$f$则为形式$f = g \circ i$，其中$g$是$\hat{X}$到$\hat{Y}$的均匀连续的映射。如果$h$是$g$到$i(X)$的限制，那么显然是$f = h \circ i$，并且$h$映射$i(X)$变成$Y$。 $h$的唯一性是微不足道的。
+我们可以将认同$Y$和子空间完成$\hat{Y}$（no. 7，推论到命题12），然后$f$可以被认为是$X$的均匀连续映射到$\hat{Y}$。凭借定理 3，$f$ 就是形式 $f = g \circ i$，其中$g$ 是$\hat{X}$ 到$\hat{Y}$ 的均匀连续的映射。如果$h$是$g$到$i(X)$的限制，那么显然是$f = h \circ i$，并且$h$映射$i(X)$变成$Y$。 $h$ 的唯一性是微不足道的。
 
-因此，对$(i, i(X))$是普遍映射问题的解（集合理论，章IV, § 3, no. 1），这次我们将$\Sigma$集合视为Hausdorff均匀集空间，并且$\sigma$-态射（或$\alpha$-映射）均匀连续映射（或$X$的均匀连续映射到Hausdorff均匀空间）。
+因此，对$(i, i(X))$是普遍映射问题的解（集合理论，章IV, § 3, no. 1），这次我们将$\Sigma$集合视为Hausdorff均匀集空间，并且 $\sigma$-态射（分别为 $\alpha$-映射）均匀连续映射（分别为 $X$ 的均匀连续映射到 Hausdorff 均匀空间）。
 
 #### 定义 5 {#top-ii-s3-def-5 .statement tag=0BFJ}
 
 在定理 3 的证明中定义的豪斯多夫制服空间 $i(X)$ 称为与 $X$ 关联的豪斯多夫制服空间。
 
-因此，$X$ 的豪斯多夫完成是与$X$ 相关的豪斯多夫均匀空间的完成。
+因此，$X$ 的豪斯多夫完备性是与 $X$ 相关的豪斯多夫制服空间的完备性。
 
-#### 推论{#top-ii-s3-n8-cor-1 .statement tag=0BFK}
+#### 推论 {#top-ii-s3-n8-cor-1 .statement tag=0BFK}
 
-令 $X, Y$ 为两个一致的空间和 $X', Y'$ 伴随的 Hausdorff 空间。对于每个均匀连续映射$f : X \to Y$，都有一个唯一的均匀连续映射$f' : X' \to Y'$，其中图表
+令 $X, Y$ 为两个统一的空间和 $X', Y'$ 伴随的 Hausdorff 空间。对于每个均匀连续映射$f : X \to Y$，都有一个唯一的均匀连续映射$f' : X' \to Y'$，其中图表
 
 $$
 \begin{array}{ccc}
@@ -544,9 +544,9 @@ $$
 
 #### 注 {#top-ii-s3-n8-rem-1 .statement tag=0BFM}
 
-令 $R$ 为 $X$ 上的等价关系 $i(x) = i(x')$。我们已经看到（no. 7，命题12），$R$的图$C$是$X$所有随从的交。很明显，$X$中的每个开集合（因此也是每个闭集合）相对于$R$来说是“饱和”的；考虑到拓扑的逆像的定义，我们结论空间 $X/R$ 到$i(X)$ 的商双射由$i$ 引出的规范双射是一个*同胚*。因此，与$X$相关的豪斯多夫空间可以被识别为*qua*拓扑空间与$X/R$。 典范映射 $i : X \to i(X)$ 是开闭的，甚至是适当的（章 I、$§ 10$、no. 2、例）。
+令 $R$ 为 $X$ 上的等价关系 $i(x) = i(x')$。 We have seen (no. 7, 命题 12) that the graph $C$ of $R$ is 交 of all the entourages of $X$. It is clear that every open 集合 (and therefore also every closed 集合) in $X$ is *saturated* with respect to $R$;考虑到拓扑的逆像的定义，我们结论认为由$i$引发的商空间$X/R$到$i(X)$的规范双射是一个*同胚*。 The Hausdorff 空间 associated with $X$ can therefore be identified, *qua* topological 空间, with $X/R$. 典范映射 $i : X \to i(X)$ is open and closed, and even proper (章 I, $§ 10$, no. 2, 例).
 
-令$X'$为另一个统一空间，$X'$所有随从的$C'$交，以及$R'$等价关系，其图为$C'$。令 $f : X \to X'$ 为*连续* 映射。由于$f(x)$的任意邻域的$f$下的逆像是$x$的邻域，因此$C'(f(x))$包含$C(x)$的$f$下的逆像，因此$f$ 与 $R$ 和 $R'$ *相容的*，诱导是连续的映射 $X/R \to X'/R'$ (章 I、$§ 3$、no. 4，命题的推论6).这将推论推广到命题 16。
+Let $X'$ be 另一个 uniform 空间, $C'$ 交 of all the entourages of $X'$, and $R'$ 等价关系 whose graph is $C'$.令 $f : X \to X'$ 为*连续* 映射。由于$f(x)$的任意邻域的$f$下的逆像是$x$的邻域，因此$C'(f(x))$包含$C(x)$的$f$下的逆像，因此$f$ 与 $R$ 和 $R'$ *相容的*，诱导是连续的映射 $X/R \to X'/R'$（章 I、$§ 3$、no. 4、推论至命题6)。这将推论推广到命题 16。
 
 ### 9. 完成子空间和乘积空间
 
@@ -572,12 +572,12 @@ $$
 
 #### 推论 1 {#top-ii-s3-prop-18-cor-1 .statement tag=0BFO}
 
-*令$X$为均匀空间，并令$i$为$X$的典范映射进入其Hausdorff完成$\hat{X}$；设$A$为$X$和$j : A \to X$典范嵌入的子空间。那么$\hat{j} : \hat{A} \to \hat{X}$是$\hat{A}$的同构到$\hat{X}$中$i(A)$的闭包上。*
+*令$X$为均匀空间，并让$i$为$X$的典范映射进入其Hausdorff完成$\hat{X}$；设$A$为$X$和$j : A \to X$典范嵌入中的子空间。那么$\hat{j} : \hat{A} \to \hat{X}$是$\hat{A}$的同构到$\hat{X}$中$i(A)$的闭包上。*
 
 #### 推论 2 {#top-ii-s3-prop-18-cor-2 .statement tag=0BFP}
 
 *令$(Y_\lambda)_{\lambda \in L}$为制服空间的家族。那么乘积空间 $\prod_{\lambda \in L} Y_\lambda$ 的 Hausdorff 补全与乘积 $\prod_{\lambda \in L} \hat{Y}_\lambda$ 自然同构。*
 
-### 习题 {#top-ii-s3-exercises}
+### 习题{#top-ii-s3-exercises}
 
 参见[习题为 § 3](exercises/s3/)。

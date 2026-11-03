@@ -30,27 +30,27 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: 3933f6ae2616bd0cd257302272e580cc189d94d9ed19478160a1bc94aa9e0f02
+content_sha256: 0d6d2229e4b0a8226a9791a4cfdff8dbbc83b060b37e621aca95971c2251d7bc
 translated_from: content/en/alg/I/10_s10_inverse_and_direct_limits.md
 translation_method: google
 source_content_sha256: 3a49dcd1591d3ccd8d3da36eb91e210dee0ffea0f51202486e0a783d55ffe2f0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e97ccb15c4ac6c8ad251873a057cb8cd5630523ce2ae6172f6774bc78e0f1f1a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 10。逆与直极限
+## § 10。逆和直极限
 
-在本段中，I将表示非空预订集合，$\alpha \leq \beta$表示I上的预订。 The notion of inverse (resp. direct) system of sets relative to the indexing set I is defined in *Set Theory*, III, § 7, no. 1 (resp. *Set Theory*, III, § 7, no. 5, under the hypothesis that I is right directed).
+在本段中，I将表示非空预订集合，$\alpha \leq \beta$表示I上的预订。 相对于索引集合I的逆（或直接）集合系统的概念在*集合论*，III, § 7, no. 1中定义（或*集合论*，III, § 7, no. 5，假设I是右向的）。
 
 ### 1. 逆系岩浆
 
 #### 定义 1 {#alg-i-s10-def-1 .statement tag=05JH}
 
-*An inverse system of magmas relative to the indexing set I is an inverse system of sets* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *relative to I, each* $\mathbf{E}_\alpha$ *having a magma structure and each* $f_{\alpha\beta}$ *being a magma homomorphism.*
+*相对于索引集合I的岩浆逆系统是集合的逆系统* $(\mathbf{E}_\alpha, f_{\alpha\beta})$ *相对于I，每个* $\mathbf{E}_\alpha$ *具有岩浆结构并且每个* $f_{\alpha\beta}$ *是岩浆同态。*
 
 令 $(\mathbf{E}_\alpha, f_{\alpha\beta})$ 为律乘法书写的岩浆的逆系。 逆极限集合$E = \lim_{\leftarrow} \mathbf{E}_\alpha$是$(x_\alpha)_{\alpha \in I}$家族的乘积岩浆$\prod_{\alpha \in I} \mathbf{E}_\alpha$由……组成的子集，使得$x_\alpha = f_{\alpha\beta}(x_\beta)$代表$\alpha \leq \beta$。如果$(x_\alpha)$和$(y_\alpha)$属于到E，那么对于$\alpha \leq \beta$，$x_\alpha = f_{\alpha\beta}(x_\beta)$和$y_\alpha = f_{\alpha\beta}(y_\beta)$，因此$x_\alpha y_\alpha = f_{\alpha\beta}(x_\beta) f_{\alpha\beta}(y_\beta) = f_{\alpha\beta}(x_\beta y_\beta)$；因此E是$\prod_{\alpha \in I} \mathbf{E}_\alpha$的次岩浆。 E 将得到由 $\prod_{\alpha \in I} \mathbf{E}_\alpha$ 引起的律；获得的岩浆称为
 
@@ -70,7 +70,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 令 $\mathfrak{C} = (E_\alpha, f_{\alpha \beta})$ 和 $\mathfrak{C}' = (E'_\alpha, f'_{\alpha \beta})$ 为相对于相同索引集合的两个逆系岩浆（分别为幺半群、群、环）。 $\mathfrak{C}$的同态到$\mathfrak{C}'$是映射$u_\alpha : E_\alpha \to E'_\alpha$的逆系$(u_\alpha)_{\alpha \in I}$，这样每个$u_\alpha$都是同态。在这些条件下，$\lim \leftarrow E_\alpha$到$\lim \leftarrow E'_\alpha$的映射$u = \lim \leftarrow u_\alpha$是同态（cf.集合理论，III, § 7, no. 2）。
 
-### 2. 逆极限作用
+### 2. 逆极限 / 作用
 
 假设给定两个集合、$(\Omega_\alpha, \phi_{\alpha \beta})$和$(E_\alpha, f_{\alpha \beta})$相对于相同索引集合$I$的逆系。假设对于 $E_\alpha$ 上的 $\Omega_\alpha$ 的所有 $\alpha \in I$ 作用给出，使得
 
@@ -90,7 +90,7 @@ $$
 
 #### 定义 2 {#alg-i-s10-def-2 .statement tag=05JI}
 
-*A direct system of magmas relative to the indexing set I is a direct system of sets* $(E_\alpha, f_{\beta\alpha})$ *relative to I, each* $E_\alpha$ *having a magma structure and each* $f_{\beta\alpha}$ *being a magma homomorphism.*
+*相对于索引集合I的岩浆直接系统是集合的直接系统*$(E_\alpha, f_{\beta\alpha})$*相对于I，每个*$E_\alpha$*具有岩浆结构并且每个*$f_{\beta\alpha}$*是岩浆同态。*
 
 令$(E_\alpha, f_{\beta\alpha})$为岩浆的直接系统。 E 将把 $E_\alpha$ 的直极限集合 $\lim_{\longrightarrow} E_\alpha$ 和 $f_\alpha$ 典范映射表示为 E。回想一下
 
@@ -158,7 +158,7 @@ $$
 
 *设* $(E_\alpha, f_{\beta \alpha})$ *为岩浆的直接系统，并让* $E$ *为其直极限* $f_\alpha : E_\alpha \to E$ *典范同态。假设给定岩浆*$F$*和同态*$u_\alpha : E_\alpha \to F$*使得*$u_\alpha = u_\beta \circ f_{\beta \alpha}$*对于*$\alpha \leq \beta$。 *存在且仅有一个同态* $u : E \to F$ *使得* $u_\alpha = u \circ f_\alpha$ *对于所有* $\alpha \in I$。 *如果岩浆* $E_\alpha$ *和* $F$ *和同态* $f_{\beta \alpha}$ *和* $u_\alpha$ *是单一的，同态* $u$ *是单一的。*
 
-我们知道（*集合理论*，III, § 7, no. 6，命题6）存在且仅有一个映射$u : E \to F$，使得$u_\alpha = u \circ f_\alpha$对于所有$\alpha \in I$。我们验证$u$是同态：让$x, y$在$E$中，$\alpha$在$I$中，$x_\alpha, y_\alpha$在$E_\alpha$中，使得$x = f_\alpha(x_\alpha)$和$y = f_\alpha(y_\alpha)$。然后$xy = f_\alpha(x_\alpha y_\alpha)$，从而
+我们知道 (*集合理论*, III, § 7, no. 6, 命题 6) 存在且仅有一个映射 $u : E \to F$，使得 $u_\alpha = u \circ f_\alpha$ 对于所有 $\alpha \in I$。我们验证$u$是同态：让$x, y$在$E$中，$\alpha$在$I$中，$x_\alpha, y_\alpha$在$E_\alpha$中，这样$x = f_\alpha(x_\alpha)$和$y = f_\alpha(y_\alpha)$。然后$xy = f_\alpha(x_\alpha y_\alpha)$，从而
 $$
 u(xy) = u(f_\alpha(x_\alpha y_\alpha)) = u_\alpha(x_\alpha y_\alpha) = u_\alpha(x_\alpha)u_\alpha(y_\alpha) \\
 = u(f_\alpha(u_\alpha))u(f_\alpha(y_\alpha)) = u(x)u(y).
@@ -169,7 +169,7 @@ u(e) = u(f_\alpha(e_\alpha)) = u_\alpha(e_\alpha) = e'
 $$
 因为 $u_\alpha$ 是单位的。因此 $u$ 是单位的。
 
-类比岩浆的概念或直接系统，可以公式化幺半群的直接系统或群。 命题 1 表明幺半群$(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ 的直接系统中的极限岩浆E 是幺半群。我们证明，如果 $E_\alpha$ 是群，则 E 是群：令 $x \in E, \alpha \in I$ 和 $x_\alpha \in E_\alpha$ 使得 $x = f_\alpha(x_\alpha)$； E 的元素 $y = f_\alpha(x_\alpha^{-1})$ 是 x (§ 2, no. 3) 的倒数。当直接系统是幺半群或群时，命题2的泛性质立即结束。
+类比岩浆的直接系统的概念，可以公式化幺半群的直接系统或群。 命题 1 表明幺半群$(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ 的直接系统中的极限岩浆E 是幺半群。我们证明，如果 $E_\alpha$ 是群，则 E 是群：令 $x \in E, \alpha \in I$ 和 $x_\alpha \in E_\alpha$ 使得 $x = f_\alpha(x_\alpha)$； E 的元素 $y = f_\alpha(x_\alpha^{-1})$ 是 x (§ 2, no. 3) 的倒数。当直接系统是幺半群或群时，命题2的泛性质立即结束。
 
 留给读者的是环的定义直接系统。令$(A_\alpha, f_{\beta\alpha})$为直接系统；让$A = \lim \overrightarrow{A_\alpha}$和$f_\alpha : A_\alpha \to A$典范同态。 A 上存在（命题 2），并且只有一个加法和乘法，其特征在于$A_\alpha$和$x = f_\alpha(x_\alpha), y = f_\alpha(y_\alpha)$中的$\alpha \in I, x_\alpha, y_\alpha$具有$x + y = f_\alpha(x_\alpha + y_\alpha), xy = f_\alpha(x_\alpha y_\alpha)$。在加法下，A 是可交换的群，乘法是结合律和单位律。最后，对于A中的$x, y, z$，I中的选择$\alpha$和$x_\alpha, y_\alpha$以及$A_\alpha$中的$z_\alpha$，
 $$
@@ -198,7 +198,7 @@ $$
 
 令$\mathfrak{E} = (E_\alpha, f_{\beta\alpha})$和$\mathfrak{E}' = (E'_\alpha, f'_{\beta\alpha})$为两个直接系统岩浆（分别为幺半群、群、环）。 $\mathfrak{E}$的同态到$\mathfrak{E}'$是映射$u_\alpha : E_\alpha \to E'_\alpha$的直接系统$(u_\alpha)_{\alpha \in I}$，这样每个$u_\alpha$都是同态。在这些条件下，从$E = \lim E_\alpha$到$E' = \lim E'_\alpha$的映射$u = \lim u_\alpha$是同态（cf.*集合理论*，III, § 7, no. 6）。
 
-### 4. 直极限作用
+### 4. 直极限 / 作用
 
 假设相对于相同索引集合$I$，给定集合$(\Omega_\alpha, \phi_{\beta \alpha})$和$(E_\alpha, f_{\beta \alpha})$的两个直接系统，并且对于$E_\alpha$上$\Omega_\alpha$的每个$\alpha \in I$作用。假设
 

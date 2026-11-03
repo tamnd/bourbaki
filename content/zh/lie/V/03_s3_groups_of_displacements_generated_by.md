@@ -52,19 +52,19 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: cb0f26177e813ab019fe62726b9f673feee803acee33fb0324266d10256d4b20
+content_sha256: ae3cfdc45dc5b5f1363f4634e38245bc3d7e0921e908122e69286f00dc0b6a06
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
 translation_method: google
 source_content_sha256: 02728aeee7ef61f463bfc0d76019e202b4db8d0c85c8b58d13411941173aa716
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: fc66cc87e72b49e2751fa6dd8e78d2c17111a61c72a79a7f8d5d350fd25f974c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。反射产生的位移群
+## § 3。反射产生的位移的群
 
 在本段中，我们用 E 表示有限维 d 的实仿射空间，用 T 空间表示 E 的平移。我们假设 T 具有标量乘积（即非简并、正、对称双线性形式），用 $(t|t')$ 表示。对于$t \in T$，输入$\|t\| = (t|t)^{1/2}$。 函数 $d(x, y) = \|x - y\|$ 是 E 上的距离，即 E (§ 1) 的定义拓扑。
 
@@ -150,13 +150,13 @@ $$
 
 最后，令 H 为超平面，使得 $s_H \in W$。如果 H 没有属于到 $\mathfrak{H}$，则至少会有一个室 $C'$ 满足 H（§ 1, no. 3，提案 7）。 $H \cap C'$的每个点在$s_H$下都是不变的，因此属于对于室$C'$和$s_H(C')$来说是不变的；因此，$C' = s_H(C')$，其中与……矛盾 (iii) 从$s_H \neq 1$开始。
 
-#### 推出{#lie-v-s3-n2-cor-1 .statement tag=0AQ5}
+#### 推出 {#lie-v-s3-n2-cor-1 .statement tag=0AQ5}
 
 *设$\Sigma$为生成的W的反射集合。那么属于到W的每个反射都是$\Sigma$的共轭到元素。*
 
-令$\mathfrak{H}'$为形式$w(H)$的超平面与$w \in W$和$H \in \mathfrak{H}$的集合，使得$s_H \in \Sigma$。由于W是由族$(s_H)_{H \in \mathfrak{H}'}$产生的，并且由于$\mathfrak{H}'$在W下是稳定的，因此我们可以应用该族的所有结果。改为 $\mathfrak{H}'$ 而不是 $\mathfrak{H}$；但是 Th。如图 1 所示，(iv) 表明 W 中的每个反射都是形式 $s_H$ 和 $H \in \mathfrak{H}'$，因此得出推论。
+令$\mathfrak{H}'$为形式$w(H)$的超平面与$w \in W$和$H \in \mathfrak{H}$的集合，使得$s_H \in \Sigma$。由于W是由族$(s_H)_{H \in \mathfrak{H}'}$产生的，并且由于$\mathfrak{H}'$在W下是稳定的，因此我们可以应用该族的所有结果。改为 $\mathfrak{H}'$ 而不是 $\mathfrak{H}$；但是 Th。 1，(iv)表明W中的每个反射都是形式$s_H$和$H \in \mathfrak{H}'$，因此推论。
 
-### 3. 基本领域、稳定器
+### 3. 基本域，稳定剂
 
 回想一下（*积分*，第 VII, § 2, no. 10 章，定义 2），如果 E 中 W 的每个轨道恰好在一个点中满足 D，则 E 的子集 D 被称为群 W 的*基本域*。这相当于以下对或条件：
 
@@ -177,15 +177,15 @@ b) *如果$x, y \in D$和$w \in W$使得$y = w(x)$，那么$y = x$（甚至虽�
 （三）$w(\overline{F}) = \overline{F}$；
 
 (iv) $w$修复$F$中的至少一个点；
-(v) $w$修复$F$的每点；
-(vi)$w$修复$\overline{F}$的每一个点；
-(vii) $W$的$w$属于至子群由相对于$C$包含$F$的墙壁的反射产生。
+(v) $w$修复$F$的每一个点；
+(vi) $w$修复$\overline{F}$的每点；
+(vii) $W$的$w$属于至子群由相对于$C$包含$F$墙壁的反射产生。
 
 对于$E$的每个子集$A$，用固定$A$的每个点的元素$W$由……组成$W(A)$子群来表示。
 
 #### 命题 2 {#lie-v-s3-prop-2 .statement tag=0AQ8}
 
-令$A$为$E$的非空子集，令$\mathfrak{H}_A$为超平面$H \in \mathfrak{H}$包含$A$的集合，令$A'$为交 $H \in \mathfrak{H}_A$，并令 $F$ 为 $E$ 在 $A'$ 中开的一个面（§ 1, no. 3，第 7 条）。那么$W(A) = W(A') = W(F)$和$W(A)$是由$\mathfrak{H}_A$相对于超平面的反射生成的。
+令$A$为$E$的非空子集，令$\mathfrak{H}_A$为超平面$H \in \mathfrak{H}$包含$A$的集合，令$A'$为交 $H \in \mathfrak{H}_A$ 的一个面，并令 $F$ 为 $E$ 在 $A'$ 中开的一个面（§ 1, no. 3，第 7 条）。然后$W(A) = W(A') = W(F)$和$W(A)$是由$\mathfrak{H}_A$相对于超平面的反射生成的。
 
 我们首先证明以下断言：
 
@@ -229,7 +229,7 @@ $$
 
 令 C 为 E 和 S 集合相对于 C 墙壁的反射室。令 $w \in W$ 和$(s_1, \ldots, s_q)$ 为 w 相对于 S 的减少的分解。如果 $x \in \overline{C}$ 由 w 固定，则$s_j(x) = x$ 对于所有 j：这由上面的命题 1 和 Cor.1 得出。第 7 章提案 1 IV, § 1。
 
-### 4. 考克塞特矩阵和考克塞特 W 图
+### 4. Coxeter 矩阵和 W 的 coxeter 图
 
 令 C 为一个室，$S = S(C)$ 集合相对于 C 和 $M = (m(s, s'))$ Coxeter 矩阵的墙壁进行正交反射系统 (W, S)（第 IV, § 1, no. 9 章）：回想一下$m(s, s')$ 是 W 的元素 $ss'$（对于$s, s' \in S$）的阶（有限或无限）。如果$C'$是另一个室，唯一元素$w \in W$使得$w(C) = C'$定义双射
 
@@ -257,7 +257,7 @@ $$
 
 如果$H_i$和$H_j$平行，则$s_i s_j$是平移（§ 2, no. 4，命题5），所以$m_{ij} = \infty$。此外，$e_i = e_j$或$e_i = -e_j$。现在，在C的闭包中存在点$a$（或$a'$），属于到$H_i$（或$H_j$），但不存在$H_j$（或$H_i$）。然后$(a' - a|e_i) > 0$和$(a - a'|e_j) > 0$，排除$e_i = e_j$情况并证明(i)。
 
-现在假设$H_i$和$H_j$不平行。 选择原点$a \in H_i \cap H_j$和认同T与E通过双射$t \mapsto a + t$。 令 V 为通过 $a$ 与 $H_i \cap H_j$ 和经过正交的平面。 Put $\Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C)$ (where $D_H(C)$ denotes the open half-space bounded by H and containing C ($§ 1$, no. 1)) and let D (resp. $D'$) be the half-line in V contained in $H_i \cap V$ (resp. $H_j \cap V$) and in the closure of $\Gamma$. 对于V的合适方向，集合$\Gamma$是V中开放半线$\Delta$的并，使得
+现在假设$H_i$和$H_j$不平行。 选择原点$a \in H_i \cap H_j$和认同T与E通过双射$t \mapsto a + t$。 令 V 为通过 $a$ 与 $H_i \cap H_j$ 和经过正交的平面。 将$\Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C)$（其中$D_H(C)$表示以H为界并包含C（$§ 1$，no. 1））的开半空间）并让D（或$D'$）为包含在$H_i \cap V$（或$H_j \cap V$）和闭包中的V中的半线$\Gamma$。 对于V的合适方向，集合$\Gamma$是V中开放半线$\Delta$的并，使得
 $$
 0 < (\widehat{D}, \widehat{\Delta}) < (\widehat{D}, \widehat{D'}).
 $$
@@ -269,7 +269,7 @@ $$
 
 公式 (4) 实际上对所有$i, j \in I$有效：事实上，如果$m_{ij} = \infty$则$\pi / m_{ij} = 0$，如果$i = j$则$m_{ij} = 1$和$(e_i|e_j) = 1$。
 
-### 5. 系统 OF 向量且带有负标量乘积
+### 5. 向量的系统具有负标量乘积
 
 #### 引理 3 {#lie-v-s3-lem-3 .statement tag=0AQE}
 
@@ -397,7 +397,7 @@ $$
 
 设 F 是 F 的自同构的有限维实仿射空间和 G 群。对于所有 $g \in G$，用与 g 伴随的 F 的平移 V 的空间的 U(g) 自同构表示。假设像 U(G) 是$\mathbf{GL}(V)$的有限子群；那么 V 在 U(G) 下有一个标量乘积不变量（积分，第 VII, § 3, no. 1 章，命题 1）。如果在加法中，当G具有离散的拓扑时，G可以正确地作用于F，并且如果它是通过反射生成的，那么我们可以将本段的结果应用于G。
 
-### 7. W ON T 的线性表示的分解
+### 7. T 上 W 线性表示分解
 
 令 I 为 W (no. 4) 的 Coxeter 图的顶点的集合，并令 J 为 I 的子集，这样 J 中的任何顶点都不会链接到 I - J 中的任何顶点。令 C 为一个室，s 为规范双射从I到集合相对于C墙壁的反射，并令$W_{J,C}$为由像s(J)生成的子群。这是从第 1 章得出的结论。 IV, § 1, no. 9，第8条命题，W是两个子群$W_{J,C}$和$W_{I-J,C}$的直接乘积。令C'为另一个室，将I的$s'$相应的单射放入W。我们已经看到(no. 4)，如果将$w \in W$变换C放入C'，则$s'(i) = ws(i)w^{-1}$ 换$i \in I$。由于$W_{J,C}$在W中是正规的，因此对于所有$i \in J$来说$s'(i) \in W_{J,C}$。我们推断子群$W_{J,C}$不依赖于C。从现在起我们简单地用$W_J$来表示。
 
@@ -407,7 +407,7 @@ $W_{J,C}$的定义显然是扩展到I的任意子集J。但如果 J 中存在一
 
 #### 命题 5 {#lie-v-s3-prop-5 .statement tag=0AQN}
 
-*令 $J_1, \ldots, J_s$ 为 W 的 Coxeter 图的连通分量的顶点集合。对于 $1 \leq p \leq s$，输入*
+*令$J_1, \ldots, J_s$为W的Coxeter图的连通分量的顶点的集合。对于$1 \leq p \leq s$，输入*
 
 $$
 W_p = W_{J_p}, \quad T_p = T_{J_p}, \quad T'_p = T_{J_p}^0, \quad \text{and} \quad T_0 = \bigcap_{1 \leq p \leq s} T'_p.
@@ -415,7 +415,7 @@ $$
 
 (i) *群 W 是群 $W_p$ ($1 \leq p \leq s$) 的直接乘积。*
 (ii) *空间 T 是子空间 $T_0, T_1, \ldots, T_s$ 的正交直和，在 U(W) 下都是稳定的。*
-(iii) *对于所有 q，使得 T 的 $1 \leq q \leq s$、子空间 $T'_q$ 包含 U(W_q) 下的向量不变量；它是$1 \leq p \leq s$和$p \neq q$的$T_p$中的直和。*
+(iii) *对于所有 q，T 的 $1 \leq q \leq s$、子空间 $T'_q$ 由 U(W_q) 下的向量不变量组成；它是$1 \leq p \leq s$和$p \neq q$的$T_p$中的直和。*
 
 (iv) 令 C 为一个房间。 子空间 T_p（对于$1 \leq p \leq s$）由向量$e_i(C)$为$i \in J_p$生成（在no. 4的记号中）。
 
@@ -427,25 +427,25 @@ $$
 
 如果向量的子空间 T_0 在 U(W) 约化到 $\{0\}$ 下的 T 不变量中，则称 W 是本质的；如果 T 上 W 的表示 U 是不可约的，则称 W 是不可约的。
 
-#### 推论{#lie-v-s3-n7-cor-1 .statement tag=0AQO}
+#### 推论 {#lie-v-s3-n7-cor-1 .statement tag=0AQO}
 
 假设$W \neq \{1\}$。那么 W 是不可约的当且仅当它是必要的并且它的 Coxeter 图是连通的。
 
 #### 注 {#lie-v-s3-n7-rem-1 .statement tag=0AQP}
 
-根据命题 5 的假设，$0 \leq p \leq s$ 的子空间 T_p 是 T 上 W 的线性表示 U 的同型组成部分（代数，第 VIII, §3, no. 4 章）。由此可见（前述，第 11 条），W 下 T 稳定的每个向量子空间 V 是子空间 $V \cap T_p$ 对于$0 \leq p \leq s$ 的直和；此外（参见第 10 条命题），每一次自同态与运营商 U(w) 的$w \in W$ 通勤都会使$0 \leq p \leq s$ 的 T_p 和诱导上的位似 $1 \leq p \leq s$ 保持稳定。特别是，W 下 T 不变量上的双线性形式 $\Phi$ 为双线性形式，由下式给出
+根据命题 5 的假设，$0 \leq p \leq s$ 的子空间 T_p 是 T 上 W 的线性表示 U 的同型分量（代数，第 VIII, §3, no. 4 章）。由此可见（前述，第 11 条），W 下 T 稳定的每个向量子空间 V 是子空间 $V \cap T_p$ 对于 $0 \leq p \leq s$ 的直和；此外（前述，第 10 条），每自同态与运营商 U(w) 通勤 $w \in W$ 都会使$0 \leq p \leq s$ 的 T_p 和诱导上的位似 $1 \leq p \leq s$ 保持稳定。特别是，W 下 T 不变量上的双线性形式 $\Phi$ 为双线性形式，由下式给出
 
 $$
 \Phi \left( \sum_k t_k , \sum_k t'_k \right) = \Phi_0(t_0, t'_0) + \sum_{1 \leq p \leq s} a_p(t_p|t'_p),
 $$
 
-其中$\Phi_0$在T_0上是双线性形式，$a_p$（对于$1 \leq p \leq s$）是实数：事实上，这样的形式$\Phi$可以唯一地写成形式$(t, t') \mapsto (A(t)|t')$，其中A是T的自同态乘坐 U(w) 通勤 $w \in W$。
+其中$\Phi_0$是T_0上的双线性形式，$a_p$（对于$1 \leq p \leq s$）是实数：事实上，这样的形式$\Phi$可以唯一地写成形式$(t, t') \mapsto (A(t)|t')$，其中A是T的自同态乘坐 U(w) 通勤 $w \in W$。
 
-### 8. 乘积分解仿射空间 E
+### 8. 仿射空间 E 的乘积分解
 
-我们保留命题5的记号。对于$0 \leq p \leq s$，令$E_p$为$E$中群$T'_p$轨道集合，并令$\varphi_p$为规范的映射 $E$ 至 $E_p$。 $T$在$E$上的作用传递给商；特别是，$T_p$作用于$E_p$，并且直接的（对于例，以$E$为起点），$E_p$是仿射空间，承认$T_p$作为其空间的翻译。把$E' = E_0 \times \cdots \times E_s$；这是一个仿射空间，其中 $T = T_0 \oplus \cdots \oplus T_s$ 作为其空间平移。设$\varphi : E \to E'$为$\varphi_p$的乘积映射；由于$\varphi$与$T$的作用可交换，这是双射，甚至是仿射空间的同构。接下来，我们通过$\varphi$来认同$E$和$E'$；然后将映射$\varphi_p$与$E'$的规范投影识别到$E_p$。
+我们保留命题5的记号。对于$0 \leq p \leq s$，令$E_p$为$E$中群$T'_p$轨道的集合，并令$\varphi_p$为规范的映射从$E$到$E_p$。 $E$上的$T$的作用传递到商；特别是，$T_p$作用于$E_p$，直接的（例如，以$E$为起点），$E_p$是仿射空间，承认$T_p$作为其空间翻译。把$E' = E_0 \times \cdots \times E_s$；这是一个仿射空间，其中 $T = T_0 \oplus \cdots \oplus T_s$ 作为其空间平移。设$\varphi : E \to E'$为$\varphi_p$的乘积映射；由于$\varphi$与$T$的作用可交换，这是仿射空间的双射甚至同构。接下来，我们通过$\varphi$来认同$E$和$E'$；然后将映射$\varphi_p$与$E'$的规范投影识别到$E_p$。
 
-由于$W$使$T'_p$稳定，$E$上$W$的作用传递给$E_p$上$W$的定义作用（对于$0 \leq p \leq s$），因此通过限制 $E_p$ $W_p$ 的作用（$1 \leq p \leq s$）。另一方面，令$C$为室，令$i \in I$且令$p$为整数，使得$i \in J_p$。对于任意$x \in E$，我们有
+由于$W$使$T'_p$保持稳定，$E$上$W$的作用传递给商上的商和$E_p$上$W$的定义作用（对于$0 \leq p \leq s$），因而$E_p$ 上的$W_p$ 限制作用（$1 \leq p \leq s$）。另一方面，令$C$为室，令$i \in I$且令$p$为整数，使得$i \in J_p$。对于任意$x \in E$，我们有
 $$
 s_i(C)(x) = x - \lambda.e_i(C) \quad \text{with } \lambda \in \mathbf{R}.
 $$
@@ -461,9 +461,9 @@ $$
 
 #### 命题 6 {#lie-v-s3-prop-6 .statement tag=0AQQ}
 
-(i) *群$W_p$是欧氏仿射空间$E_p$位移的群；它是由反射产生的；配备分立拓扑，可正确作用于$E_p$； it is irreducible.*
+(i) *群$W_p$是欧氏仿射空间$E_p$位移的群；它是由反射产生的；配备离散的拓扑，它可以正确地作用于$E_p$；它是不可约的。*
 
-(ii) *令$\mathfrak{H}_p$为超平面$H$之$E_p$之集合，使得$s_H \in W_p$。 集合 $\mathfrak{H}$ 由超平面和形式* 组成
+(ii) *令 $\mathfrak{H}_p$ 为超平面 $H$ $E_p$ 的集合，使得 $s_H \in W_p$。 集合 $\mathfrak{H}$ 由超平面或形式* 组成
 $$
 H = E_0 \times E_1 \times \cdots \times E_{p-1} \times H_p \times E_{p+1} \times \cdots \times E_s,
 $$
@@ -479,7 +479,7 @@ $$
 H_i = E_0 \times E_1 \times \cdots \times E_{p-1} \times H'_i \times E_{p+1} \times \cdots \times E_s
 $$
 
-其中 H'_i = L_i + \varphi_p(x) = \varphi_p(H_i)。 It is now immediate that s_i acts in E_p by the reflection associated to the hyperplane H'_i of E_p. Thus, the group W_p is a group of displacements generated by reflections in E_p; the verification of the properness criterion (D'2) is immediate. 最后，命题 5 (v) 表明 W_p 是不可约的。 这就证明了(i)。
+其中 H'_i = L_i + \varphi_p(x) = \varphi_p(H_i)。 现在，s_i 通过与 E_p 的超平面 H'_i 相关的反射立即作用于 E_p。因而，组W_p是一组由E_p中的反射产生的位移；正确性标准 (D'2) 的验证是立即进行的。 最后，命题 5 (v) 表明 W_p 是不可约的。 这就证明了(i)。
 
 (ii) 由 Cor.的 Th。 1, 集合 \mathscr{H}_p 由超平面或形式 w_p(H'_i) 组成，对于 J_p 中的 i 和 W_p 中的 w_p。此外，如果对于所有 p，w = w_1 \ldots w_s 且 w_p \in W_p，公式 (5) 和 (6) 意味着
 
@@ -503,7 +503,7 @@ $$
 
 因而，集合 C_p 都不为空，并且由于 C 不满足任何到 \mathscr{H} 的超平面属于，集合 C_p 不满足任何到 \mathscr{H}_p 的超平面属于。 § 1, no. 3的命题5现在表明C_p是E_p中\mathscr{H}_p定义的室之一。通过使用§ 1, no. 2的命题4，很容易看出对于i \in J_p，C_p的墙是超平面 H'_i = \varphi_p(H_i)。
 
-### 9. 结构房间
+### 9. 结构室
 
 令 C 为一个房间，令 \mathscr{M} 为 C 壁的集合，对于 H \in \mathscr{M} 令 e_H 为单位向量与 H 正交，位于 H 的同一侧，与 C 相同。
 
@@ -607,7 +607,7 @@ $$
 
 因为$w' \in W_a$的$w'(C)$的并在$E$中稠密，$U \cap w'(C) = U \cap w'(C')$的并在$U$中稠密，并且$w' \in W_a$的$w'(\overline{C})$的并因此包含 $U$。最后，如果$H$是$C'$的墙，则存在点$c \in U \cap H$和$c$的开邻域$V \subset U$，使得$V \cap C'$是$V$的交，并且开半空间由$H$包含$C'$；从$V \cap C' = V \cap U \cap C' = V \cap U \cap C = V \cap C$开始，$H$是$C$的墙。如果 $W$ 是无限且不可约的，$C$ 是一个开单纯形（no. 9，命题 8），因此比开单纯形锥体 $C'$ 多一个壁。
 
-#### 推论{#lie-v-s3-n10-cor-1 .statement tag=0AQZ}
+#### 推论 {#lie-v-s3-n10-cor-1 .statement tag=0AQZ}
 
 *假设$W$是必需的。*
 

@@ -52,19 +52,19 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: a0c24b83f74219097ab48db3ccc2b022d8670bcf118939a60510b4c5e3e04f36
+content_sha256: de2686a0d66f63a87cdd58e4f3c577343668240caccccedc1b39443420bde957
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 translation_method: google
 source_content_sha256: a5649ad91c991534fecdc842feb81de5c325d32e755f63251c2a1e0724811493
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: df89c55a2777785ad9b9bd9837a1afea5c7b7a5cca3c7baf1e4ee4c973fe55d4
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。局部紧凑措施空间
+## § 1。局部紧凑的措施空间
 
 ### 1. 连续函数带紧凑支撑
 
@@ -92,11 +92,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (iii) *如果$X$是局部紧凑空间的族$(X_\lambda)_{\lambda \in L}$的和，则映射$f \mapsto (f|X_\lambda)_{\lambda \in L}$是拓扑直和上空间$\mathscr{K}(X; E)$的同构家庭空间$(\mathscr{K}(X_\lambda; E))_{\lambda \in L}$.*
 
-(i) 注，在$\mathscr{K}(X; E)$上，$X$一致收敛的拓扑与$\mathscr{K}(X; E)$的向量空间结构兼容，因为对于每个$f \in \mathscr{K}(X; E)$，有（紧）支持$S$， 集合 $f(X) = f(S) \cup \{0\}$ 是紧致的，因此有界于 $E$（TVS，III, §3, No. 1，命题 1）。由于这个拓扑$\mathscr{T}_0$是局部凸的，并且诱导在$K$均匀收敛的每个$\mathscr{K}(X, K; E)$拓扑上，所以$\mathscr{K}(X; E)$上的直极限拓扑$\mathscr{T}$也是如此（TVS， II, §4, No. 4,*注*);此外，$\mathscr{T}$比$\mathscr{T}_0$是更细，并且$\mathscr{T}_0$是Hausdorff，因此$\mathscr{T}$是Hausdorff。最后，假设函数$f \in \mathscr{K}(X; E)$属于到$\mathscr{K}(X, K; E)$的闭包；到定义，存在$X$的紧子集$K' \supset K$，使得$f \in \mathscr{K}(X, K'; E)$。综上所述，$f$属于到空间$\mathscr{K}(X, K'; E)$中的$\mathscr{K}(X, K; E)$关闭，因此属于到$\mathscr{K}(X, K; E)$。
+(i) 请注意，在 $\mathscr{K}(X; E)$ 上，$X$ 一致收敛的拓扑与 $\mathscr{K}(X; E)$ 的向量空间结构兼容，因为对于每个$f \in \mathscr{K}(X; E)$，具有（紧凑）支持$S$、集合 $f(X) = f(S) \cup \{0\}$ 是紧致的，因此有界于 $E$（TVS，III, §3, No. 1，命题 1）。由于这个拓扑$\mathscr{T}_0$是局部凸的，诱导在$K$均匀收敛的每个$\mathscr{K}(X, K; E)$拓扑上，直极限拓扑$\mathscr{T}$在$\mathscr{K}(X; E)$上也是如此（TVS， II, §4, No. 4,*注*);此外，$\mathscr{T}$比$\mathscr{T}_0$是更细，并且$\mathscr{T}_0$是Hausdorff，因此$\mathscr{T}$是Hausdorff。最后，假设函数$f \in \mathscr{K}(X; E)$属于到$\mathscr{K}(X, K; E)$的闭包；到定义，存在$X$的紧子集$K' \supset K$，使得$f \in \mathscr{K}(X, K'; E)$。综上所述，$f$属于到空间$\mathscr{K}(X, K'; E)$中的$\mathscr{K}(X, K; E)$关闭，因此属于到$\mathscr{K}(X, K; E)$。
 
-(ii) 直极限（TVS，II, §4, No. 4，命题 5）中的连续性准则立即表明映射 $f \mapsto (\mathrm{pr}_i \circ f)$ 是连续的，并且逆矩阵映射也是如此（对于后者，满足注即可，如果对于每个函数 $f_i \in \mathscr{K}(X; E_i)$，1表示$f'_i$映射
+(ii) 直极限（TVS，II, §4, No. 4，命题 5）中的连续性准则立即表明映射 $f \mapsto (\mathrm{pr}_i \circ f)$ 是连续的，并且逆矩阵映射也是如此（对于后者，只需注意，如果对于每个函数 $f_i \in \mathscr{K}(X; E_i)$， 1 表示 $f'_i$ 映射
 
-² *极限感性*，在 S、A 和 GT 中翻译为“直极限”。
+² *极限感性*，在S、A、GT中翻译为“直极限”。
 
 将X转化为E，使得$\mathrm{pr}_i \circ f'_i = f_i$和$\mathrm{pr}_j \circ f'_i = 0$对应于$j \neq i$，则映射$f_i \mapsto f'_i$中的每一个都是连续的）。
 
@@ -122,11 +122,11 @@ We shall say that a subset H of $\mathscr{K}(X; E)$ is *strictly compact* if it 
 
 我们记得，根据阿斯科利的定理（GT，X, §2, No. 5，Th.2的Cor.3），$\mathscr{K}(X, K; E)$中包含的$\mathscr{K}(X; E)$的严格紧致子集$H$具有以下条件特征：$1^\circ$是封闭的； $2^\circ$ 等连续；对于每个$x \in K$，$3^\circ$，集合$H(x)$在$E$中相对紧凑。
 
-#### 推论{#int-iii-s1-n1-cor-1 .statement tag=08L7}
+#### 推论 {#int-iii-s1-n1-cor-1 .statement tag=08L7}
 
 *令 $X$ 为拟紧致、局部紧致空间；如果 $E$ 是准完备局部凸空间，则空间 $\mathscr{K}(X; E)$ 是准完备的。*
 
-根据命题 2, (ii)，对于注，对于 $X$ 的每个紧致子集 $K$，$\mathscr{K}(X, K; E)$ 是 $C(K; E)$ 的闭子空间，这是准完备的，因为每个有界子集 $C(K; E)$ 由函数在 $E$ 的同一边界子集中取值组成。
+凭借命题 2，(ii)，注意到对于$X$的每个紧致子集$K$，$\mathscr{K}(X, K; E)$是$C(K; E)$的封闭子空间，这是准完备的，因为$C(K; E)$的每个有界子集包含函数在 $E$ 的同一有界子集中取值。
 
 ### 2. 近似性质
 
@@ -184,7 +184,7 @@ Th。 4)，E a Banach 空间。范数空间$C^b(X;E)$中$\mathscr{K}(X;E)$的闭
 
 #### 命题 5 {#int-iii-s1-prop-5 .statement tag=08LC}
 
-— 令 X 为局部紧致空间，E 为实数（或复数）局部凸空间。 For every compact subset K of X, the vector space $\mathscr{K}(X,K;\mathbf{R}) \otimes_{\mathbf{R}} E$ (resp. $\mathscr{K}(X,K;\mathbf{C}) \otimes_{\mathbf{C}} E$) (identified with a set of mappings of X into E, cf. A, II, §7, No. 7, Cor. of Prop. 15) is dense in $\mathscr{K}(X,K;E)$; the vector space $\mathscr{K}(X;\mathbf{R}) \otimes_{\mathbf{R}} E$ (resp. $\mathscr{K}(X;\mathbf{C}) \otimes_{\mathbf{C}} E$) is dense in $\mathscr{K}(X;E)$.
+— 令 X 为局部紧致空间，E 为实数（或复数）局部凸空间。 对于X的每个紧子集K，向量空间$\mathscr{K}(X,K;\mathbf{R}) \otimes_{\mathbf{R}} E$（分别为$\mathscr{K}(X,K;\mathbf{C}) \otimes_{\mathbf{C}} E$）（用X到E，cf.A，II, §7, No. 7，Prop.15的Cor.的一组映射来标识）在$\mathscr{K}(X,K;E)$中是稠密的；向量空间 $\mathscr{K}(X;\mathbf{R}) \otimes_{\mathbf{R}} E$（或 $\mathscr{K}(X;\mathbf{C}) \otimes_{\mathbf{C}} E$）在 $\mathscr{K}(X;E)$ 中是稠密的。
 
 由于第二个断言是第一个明显的推论，因此足以证明后者。我们应用引理 2，并将$\Phi$减少为$\mathscr{K}(X,K;E)$的单个元素$f$；那么，对于每个 $x \in X$，
 
@@ -256,13 +256,13 @@ $$
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty
 $$
-对于X的每个紧凑子集 K，并且$\mu$等于上面定义的度量。如果 N 是 $x\in X$ 的集合，那么 $\alpha(x)\neq0$、条件强加于 $\alpha$ 意味着对于 X 的每个紧凑子集 K，$K\cap N$ 是*可数的*。还有人说 $\mu$ 是由位于点* $x\in N$ 的*质量* $\alpha(x)$ *定义的。如果假设对于每个紧集 $K\subset X$，$N\cap K$ 是*有限的*，那么显然
+对于X的每个紧凑子集 K，并且$\mu$等于上面定义的度量。如果 N 是 $x\in X$ 的集合，则$\alpha(x)\neq0$、条件强加于 $\alpha$ 意味着对于X 的每个紧凑子集 K，$K\cap N$ 是*可数的*。还有人说 $\mu$ 是由位于点* $x\in N$ 的*质量* $\alpha(x)$ *定义的。如果假设对于每个紧集 $K\subset X$，$N\cap K$ 是*有限的*，那么显然
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty;
 $$
 说N是X的*封闭*和*离散*子空间是一样的，因为X的每个点都有一个紧邻域包含，只有N的点的有限数，反之，如果是这种情况，那么每个X的紧凑子集可以被有限的数这样的邻域覆盖。当 N 是封闭且离散的时，由函数 $\alpha$ 定义的每个原子测度，使得 $\mathbf C N$ 上的 $\alpha(x)=0$ 称为 X 上的离散测度（cf. §2, No. 5）。
 
-### II。 *勒贝格测度。* 对于每个函数 $f\in\mathscr K(\mathbf R;\mathbf C)$，都存在 $\mathbf R$ 的紧凑区间 $[a,b]$，其外部 $f$ 为零。整的
+### II。 *勒贝格测度。*对于每个函数$f\in\mathscr K(\mathbf R;\mathbf C)$，都存在一个$\mathbf R$的紧凑区间$[a,b]$，其中$f$是零。整的
 
 $$
 \mathrm I(f)=\int_{-\infty}^{+\infty}f(x)\,dx=\int_a^b f(x)\,dx
@@ -270,15 +270,15 @@ $$
 
 因此被定义；此外，通过平均值的定理（FRV，II, §1, No. 5，命题6），我们有$|\mathrm I(f)|\leq(b-a)\|f\|$；这表明$f\mapsto\mathrm I(f)$是$\mathbf R$的测度，称为*勒贝格测度*。
 
-对于$\mathbf R$的每个区间J（有界或无界），类似地，我们将J*上的*勒贝格测度称为$f\mapsto\int_Jf(x)\,dx$、线性形式在$\mathscr K(J;\mathbf C)$上的测度（该积分有意义，因为存在J中包含的紧致区间$[a,b]$，其中$f$是零）。
+对于 $\mathbf R$ 的每一个区间 J（有界或无界），类似地，我们将 J* 上的*勒贝格测度称为$f\mapsto\int_Jf(x)\,dx$、线性形式在 $\mathscr K(J;\mathbf C)$ 上的测度（该积分有意义，因为存在包含在 J 中的紧凑区间 $[a,b]$，其中 $f$ 是零）。
 
-### III。令 $g$ 为紧凑区间 $I\subset\mathbf R$ 到 $\mathbf C$ 的连续映射，在 I 中具有连续导数。设$\Gamma=g(I)$，它是$\mathbf C$的紧凑子空间； 映射
+### III。设$g$是紧致区间$I\subset\mathbf R$到$\mathbf C$的连续映射，在I有连续导数。设$\Gamma=g(I)$，它是$\mathbf C$的紧致子空间； 映射
 
 $$
 f\mapsto\int_I f(g(t))g'(t)\,dt
 $$
 
-凭借平均值的定理，$\mathscr C(\Gamma;\mathbf C)$ 到 $\mathbf C$ 是连续的线性形式，因此是$\Gamma$*上的*复杂测度；相对于该度量的积分也写为$\int_\Gamma f(z)\,dz$，甚至虽然，它不仅取决于$\Gamma$，还取决于$g$。
+凭借平均值定理，将 $\mathscr C(\Gamma;\mathbf C)$ 转换为 $\mathbf C$ 是连续的线性形式，因此是 *对 $\Gamma$* 的复杂测度；相对于该度量的积分也写为$\int_\Gamma f(z)\,dz$，甚至虽然，它不仅取决于$\Gamma$，还取决于$g$。
 
 #### 注 {#int-iii-s1-n3-rem-1 .statement tag=08LG}
 
@@ -290,7 +290,7 @@ $$
 \mu(f)=\mu(f\circ\sigma)
 $$
 
-每函数 $f\in\mathscr K(X;\mathbf C)$；测度 $\mu$ 也被认为是*在同胚下不变* $\sigma$。
+每函数 $f\in\mathscr K(X;\mathbf C)$；测度 $\mu$ 也被称为*在同胚*$\sigma$ 下不变。
 
 #### 例 {#int-iii-s1-n3-exa-1 .statement tag=08LH}
 
@@ -302,7 +302,7 @@ $$
 
 通过变量变化公式 (FRV, II, §2, No. 1, 公式 (1))。对于推广，请参见第 1 章。 VII, §1, No. 2，周四。 1.
 
-### 4. 通过连续函数测量的乘积
+### 4. 连续函数的测量乘积
 
 令$X$是局部紧凑的空间，$g$是$X$到$\mathbf{C}$的连续映射。显然，$f \mapsto gf$ 是 $\mathscr{K}(X; \mathbf{C})$ 的线性映射自身；让我们证明这个映射是连续的。事实上，对于$X$的每个紧凑子集$K$，以及每个函数$f \in \mathscr{K}(X, K; \mathbf{C})$，我们有$gf \in \mathscr{K}(X, K; \mathbf{C})$；此外，如果$b_K = \sup_{x \in K} |g(x)|$则$\|gf\| \leq b_K \|f\|$，从而我们的断言（TVS，II, §4, No. 4，提案5）。因此，该连续线性映射（TVS，II, §6, No. 4）的转置等于 $\mathscr{M}(X; \mathbf{C})$ 的线性映射自身，表示为 $\mu \mapsto g \cdot \mu$（或 $\mu \mapsto g\mu$，如果不会导致混淆）。如果 $\nu = g \cdot \mu$ 因此，对于每一个函数 $f \in \mathscr{K}(X; \mathbf{C})$，
 
@@ -416,7 +416,7 @@ $$
 
 对于每个函数 $f \in \mathscr{K}(\mathrm{X}; \mathbf{R})$。
 
-This inequality is also true if $f \in \mathscr{K}(\mathrm{X}; \mathbf{C})$; for, on multiplying $f$ by a complex number of absolute value 1 (which does not change either side of the inequality), one can suppose that $\int f\, d\mu \geq 0$. 然后
+如果 $f \in \mathscr{K}(\mathrm{X}; \mathbf{C})$，则该不等式也成立；因为，将$f$乘以绝对值1的复数（这不会改变不等式的任一侧），可以假设$\int f\, d\mu \geq 0$。 然后
 
 $$
 \left| \int f\, d\mu \right| = \int f\, d\mu = \int (\Re f)\, d\mu \leq \int |\Re f|\, d|\mu| \leq \int |f|\, d|\mu|.
@@ -538,13 +538,13 @@ $$
 
 — 1) 由单位质量在点 $a \in X$ 定义的测量$\varepsilon_a$ 有界，且$\|\varepsilon_a\| = 1$。
 
-2) $\mathbf{R}$ 上的勒贝格测度无界；事实上，对于每个整数$n > 0$，都存在函数$f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$，其中值在$[0, 1]$中，并且在区间$[ -n, n ]$上等于1（No. 2，引理1）；因此 $\|f\| = 1$ 和
+2) $\mathbf{R}$ 上的勒贝格测度无界；事实上，对于每个整数$n > 0$，都存在函数$f \in \mathscr{K}(\mathbf{R}; \mathbf{C})$，其中值在$[0, 1]$中并且在区间$[ -n, n ]$上等于1（No. 2，引理1）；因此 $\|f\| = 1$ 和
 
 $$
 \int_{-\infty}^{+\infty} f(x)\, dx \geq \int_{-n}^{n} f(x)\, dx = 2n ,
 $$
 
-这就证明不存在任何有限的数 M 满足关系 (19)。
+证明不存在有限数 M 满足关系 (19).
 
 3) 实直线$\mathbf{R}$、映射
 
@@ -623,39 +623,39 @@ $$
 
 #### 推论 2 {#int-iii-s1-prop-11-cor-2 .statement tag=08LV}
 
-— 对于 $X$ 上的每个实际测量 $\mu$，
+— 对于 $X$ 上的每一个实际测量 $\mu$，
 
 $$
 \| \mu \| = \| \mu^+ \| + \| \mu^- \|.
 $$
 
-对于（第 10 号提案的 Cor. 1），$\mu$ 的范数等于 $|\mu| = \mu^+ + \mu^-$。
+对于（第 10 号提案第 1 条），$\mu$ 的范数等于$|\mu| = \mu^+ + \mu^-$。
 
 #### 命题 12 {#int-iii-s1-prop-12 .statement tag=08LW}
 
-— 如果 $\mu$ 是 $X$ 上的有界测度，且 $g$ 是 $X$ 到 $\mathbf{C}$ 的有界连续映射，则测度 $g \cdot \mu$ 是有界的且 $\| g \cdot \mu \| \leq \| g \| \cdot \| \mu \|$。
+— 如果 $\mu$ 是 $X$ 上的有界测度，并且 $g$ 是 $X$ 到 $\mathbf{C}$ 的有界连续映射，则测度 $g \cdot \mu$ 是有界的且 $\| g \cdot \mu \| \leq \| g \| \cdot \| \mu \|$。
 
-对于每个函数 $f \in \mathscr{K}(X; \mathbf{C})$，
+对于每函数 $f \in \mathscr{K}(X; \mathbf{C})$，
 
 $$
 |\mu(fg)| \leq \| \mu \| \cdot \| fg \| \leq \| \mu \| \cdot \| g \| \cdot \| f \|.
 $$
 
-### 9. 空间措施含糊不清拓扑
+### 9. 对空间措施含糊不清拓扑
 
 令 $X$ 为局部紧致空间。在空间$\mathscr{M}(X; \mathbf{C})$上，我们可以考虑$\mathscr{K}(X; \mathbf{C})$中的逐点收敛的拓扑，我们将其称为$\mathscr{M}(X; \mathbf{C})$上的模糊拓扑。
 
-自$\mathscr{K}(X; \mathbf{C}) = \mathscr{K}(X; \mathbf{R}) + i \mathscr{K}(X; \mathbf{R})$以来，$\mathscr{M}(X; \mathbf{C})$上的模糊拓扑由*半范数*$\sup_{1 \leq i \leq n} |\mu(f_i)|$定义，其中$(f_i)_{1 \leq i \leq n}$是$\mathscr{K}(X; \mathbf{R})$（或$\mathscr{K}_+(X)$）中函数的任何有限序列。说$\mathscr{M}(X; \mathbf{C})$上的过滤器$\mathfrak{F}$*模糊地**到度量$\mu_0$意味着
+从$\mathscr{K}(X; \mathbf{C}) = \mathscr{K}(X; \mathbf{R}) + i \mathscr{K}(X; \mathbf{R})$开始，$\mathscr{M}(X; \mathbf{C})$上的模糊拓扑由*半范数*$\sup_{1 \leq i \leq n} |\mu(f_i)|$定义，其中$(f_i)_{1 \leq i \leq n}$是$\mathscr{K}(X; \mathbf{R})$（或$\mathscr{K}_+(X)$）中函数的任何有限序列。说$\mathscr{M}(X; \mathbf{C})$上的过滤器$\mathfrak{F}$*模糊地**到度量$\mu_0$意味着
 
 $$
 \mu_0(f) = \lim_{\mu, \mathfrak{F}} \mu(f)
 $$
 
-对于每个函数 $f \in \mathscr{K}(X; \mathbf{R})$。对于每个函数 $f \in \mathscr{K}(X; \mathbf{C})$，映射 $\mu \mapsto \mu(f)$ 是空间 $\mathscr{M}(X; \mathbf{C})$ 上的*模糊连续* 线性形式。
+每函数 $f \in \mathscr{K}(X; \mathbf{R})$。对于每个函数 $f \in \mathscr{K}(X; \mathbf{C})$，映射 $\mu \mapsto \mu(f)$ 是空间 $\mathscr{M}(X; \mathbf{C})$ 上的*模糊连续* 线性形式。
 
 #### 命题 13 {#int-iii-s1-prop-13 .statement tag=08LX}
 
-*令X为局部紧致空间，并且对于每个$x \in X$，令$\varepsilon_x$为点x处的狄拉克测度。 映射 $x \mapsto \varepsilon_x$ 是 X 到空间 $\mathscr{M}(X; \mathbf{C})$ X 测度的子空间的同态，配备了模糊拓扑。此外，如果$X'$表示在无穷大$\omega$处与X点邻接而获得的紧空间，则当x趋于$\omega$时，$\varepsilon_x$趋于0。*
+*令X为局部紧致空间，对于每个$x \in X$，令$\varepsilon_x$为点x处的狄拉克测度。 映射$x \mapsto \varepsilon_x$是X测度的X到空间$\mathscr{M}(X; \mathbf{C})$的子空间的同胚，配备模糊拓扑。此外，如果$X'$表示在无穷远$\omega$处与X点邻接而获得的紧空间，则当x趋于$\omega$时，$\varepsilon_x$趋于0。*
 
 对于每个函数 $f \in \mathscr{K}(X; \mathbf{C})$，$\langle f, \varepsilon_x \rangle = f(x)$；由于 $f$ 是连续的，因此证明映射 $x \mapsto \varepsilon_x$ 是连续的。如果$x, y$是X的两个不同的点，则存在函数$f \in \mathscr{K}(X; \mathbf{C})$使得$f(x) = 1, f(y) = 0$(No. 2，引理1)，从而证明$\varepsilon_x \neq \varepsilon_y$；因此映射 $x \mapsto \varepsilon_x$ 是单射的。此外，对于每个函数$f \in \mathscr{K}(X; \mathbf{C})$，$\langle f, \varepsilon_x \rangle$趋向于定义，就像$x$趋向于$\omega$一样，因此$x \mapsto \varepsilon_x$可以通过连续性扩展到$X' = X \cup \{ \omega \}$，方法是在以下位置将值0分配给它点$\omega$。这个扩展的映射也是单射的，因为$\varepsilon_x \neq 0$对于所有$x \in X$。因此，它是紧凑空间$X'$到$\mathscr{M}(X; \mathbf{C})$的子空间的同胚，因为$\mathscr{M}(X; \mathbf{C})$是模糊拓扑的Hausdorff（GT，I, §9, No. 4，Th.2的Cor.2）。
 
@@ -667,7 +667,7 @@ $$
 
 应该注意的是，对于模糊制服结构（TVS，II, §6, No. 7）来说，空间$\mathscr{M}(X; \mathbf{C})$（或$\mathscr{M}(X; \mathbf{R})$）本身*不一定完整*。
 
-#### 推论{#int-iii-s1-n9-cor-1 .statement tag=08LZ}
+#### 推论 {#int-iii-s1-n9-cor-1 .statement tag=08LZ}
 
 *如果A和B是$\mathscr{M}_+(X)$的两个模糊闭子集，则$A + B$在$\mathscr{M}_+(X)$中模糊闭（因此也在$\mathscr{M}(X; \mathbf{C})$中）。*
 
@@ -675,7 +675,7 @@ $$
 
 #### 命题 15 {#int-iii-s1-prop-15 .statement tag=08M0}
 
-— 设 $H$ 为 $\mathscr{M}(X; \mathbf{C})$ 的子集。以下属性是等效的：
+— 令 $H$ 为 $\mathscr{M}(X; \mathbf{C})$ 的子集。以下属性是等效的：
 
 a) $H$ 是有模糊界限的。
 b) $H$ 隐约相对紧凑。
@@ -684,7 +684,7 @@ d) 对于$X$的每个紧凑子集$K$，存在数$M_K \geq 0$，使得$|\mu(f)| \
 
 由于 $\mathscr{K}(X; \mathbf{C})$ 是桶状空间（No. 1，命题 2），属性 a)、b) 和 c) 的等价源自 TVS、III, §4, No. 1、Scholium。
 
-显然，d) 暗示了 a)。最后，如果 $H$ 是等连续的，则 $\mu \in H$ 到 $\mathscr{K}(X, K; \mathbf{C})$ 的度量中的限制的集合也是等连续的，从而条件 d)，因为 $\mathscr{K}(X, K; \mathbf{C})$ 是规范的空间。
+显然，d) 暗示了 a)。最后，如果 $H$ 是等连续的，则 $\mu \in H$ 到 $\mathscr{K}(X, K; \mathbf{C})$ 的度量的限制的集合也是等连续的，从而条件 d)，因为 $\mathscr{K}(X, K; \mathbf{C})$ 是规范的空间。
 
 \* 我们将在第 1 章中看到。 IV, §4, No. 6 命题 15 的条件也等价于条件，对于 $X$ 的每个紧凑子集 $K$，存在一个常数 $M_K$，使得对于每个测度都有 $|\mu|(K) \leq M_K$ $\mu \in H$.*
 
@@ -694,25 +694,25 @@ d) 对于$X$的每个紧凑子集$K$，存在数$M_K \geq 0$，使得$|\mu(f)| \
 
 #### 推论 2 {#int-iii-s1-prop-15-cor-2 .statement tag=08M2}
 
-— $\mu$ 的集合测量使得$\|\mu\| \leq a$（$a$任何有限的数$> 0$）是模糊紧凑的。
+— $\mu$ 的集合使得$\|\mu\| \leq a$（$a$任何有限的数$> 0$）是模糊紧致的。
 
 #### 推论 3 {#int-iii-s1-prop-15-cor-3 .statement tag=08M3}
 
 — 如果 $X$ 是紧致的，则$X$ 上的$\mu$ 正措施集合使得 $\|\mu\| = 1$ 是模糊紧致的。
 
-因为，它是模糊的紧集（Cor.2）措施中的交，例如$\|\mu\| \leq 1$和分别由关系、$\mu \geq 0$和$\mu(1) = 1$定义的模糊封闭的集合（No. 8，第10号提案的Cor.2）。
+因为，它是模糊的紧集（Cor.2）测度中的交，例如$\|\mu\| \leq 1$和分别由关系、$\mu \geq 0$和$\mu(1) = 1$定义的模糊封闭的集合（No. 8，第10号提案的Cor.2）。
 
 #### 推论 4 {#int-iii-s1-prop-15-cor-4 .statement tag=08M4}
 
-— 在空间$\mathscr{M}(X; \mathbf{C})$中，映射$\mu \mapsto \|\mu\|$对于模糊的拓扑来说是下半连续的。
+— 在空间 $\mathscr{M}(X; \mathbf{C})$ 中，映射 $\mu \mapsto \|\mu\|$ 对于模糊的拓扑是下半连续的。
 
-这就是推论 2 的直接的推论。
+这是推论 2 中的直接的推论。
 
 应该注意的是，对于模糊的拓扑（Exer.9），$\mathscr{M}(X; \mathbf{C})$的映射$\mu \mapsto |\mu|$本身不一定是连续的。
 
 #### 命题 16 {#int-iii-s1-prop-16 .statement tag=08M5}
 
-— 令$K$为$X$的紧致子集，$H$为$\mathscr{M}(X; \mathbf{C})$的模糊边界子集；那么，当$\mathscr{K}(X, K; \mathbf{C})$配备一致收敛的拓扑且$H$配备模糊拓扑时，双线性形式$(f, \mu) \mapsto \langle f, \mu \rangle$在$\mathscr{K}(X, K; \mathbf{C}) \times H$上连续。
+— 令$K$为$X$的紧凑子集，$H$为$\mathscr{M}(X; \mathbf{C})$的模糊边界子集；那么，当$\mathscr{K}(X, K; \mathbf{C})$配备一致收敛的拓扑且$H$配备模糊拓扑时，双线性形式$(f, \mu) \mapsto \langle f, \mu \rangle$在$\mathscr{K}(X, K; \mathbf{C}) \times H$上连续。
 
 因为，存在数 $M \geqslant 0$ 使得
 $$
@@ -727,11 +727,11 @@ $$
 
 ### 10. $\mathscr{M}(X; \mathbf{C})$ 的紧凑收敛
 
-回想一下，$\mathscr{M}(X; \mathbf{C})$上的*紧致收敛*的拓扑是$\mathscr{K}(X; \mathbf{C})$的紧致子集中一致收敛的拓扑。我们将在$\mathscr{K}(X; \mathbf{C})$的严格紧致子集（No. 1）中的一致收敛的$\mathscr{M}(X; \mathbf{C})$拓扑上调用*拓扑严格紧致收敛*。
+回想一下，$\mathscr{M}(X; \mathbf{C})$ 上的*紧致收敛* 的拓扑是 $\mathscr{K}(X; \mathbf{C})$ 的紧致子集中一致收敛的拓扑。我们将在$\mathscr{K}(X; \mathbf{C})$的严格紧致子集（No. 1）中的一致收敛的$\mathscr{M}(X; \mathbf{C})$拓扑上称为*拓扑严格紧致收敛*。
 
 #### 命题 17 {#int-iii-s1-prop-17 .statement tag=08M6}
 
-*在空间 $\mathscr{M}(X; \mathbf{C})$ 上，考虑以下拓扑：*
+*在空间$\mathscr{M}(X; \mathbf{C})$上，考虑以下拓扑：*
 $\mathscr{T}_1$：*拓扑，总共子集 T $\mathscr{K}(X; \mathbf{C})$；*
 $\mathscr{T}_2$: *模糊拓扑;*
 $\mathscr{T}_3$：*严格紧致收敛的拓扑；*
@@ -742,12 +742,12 @@ $\mathscr{T}_4$：*紧凑收敛的拓扑。*
 
 $\mathscr{M}(X; \mathbf{C})$ 的模糊边界子集 $H$ 是等连续的（No. 9，命题 15），因此第一个断言来自 TVS，III, §3, No. 7，命题 9，第二个来自 GT，X, §2, No. 4，Th。 1.
 
-Recall that when $X$ is *paracompact*, the topology of strictly compact convergence coincides with the topology of compact convergence (No. 1, Prop. 2).
+回想一下，当 $X$ 为 *paracompact* 时，严格紧致收敛的拓扑与紧致收敛的拓扑一致（No. 1，命题 2）。
 
 #### 命题 18 {#int-iii-s1-prop-18 .statement tag=08M7}
 
-*On the cone $\mathscr{M}_+(X)$, the topologies induced by the following topologies coincide:*
-$\mathscr{T}_1$: *the topology of pointwise convergence in a linear subspace V of $\mathscr{K}(X; \mathbf{C})$ that is dense in $\mathscr{K}(X; \mathbf{C})$ and satisfies the property (P) (No. 7, Prop. 9);*
+*在锥体$\mathscr{M}_+(X)$上，由以下拓扑引起的拓扑重合：*
+$\mathscr{T}_1$：*$\mathscr{K}(X; \mathbf{C})$的线性子空间V中的逐点收敛拓扑，该子空间在$\mathscr{K}(X; \mathbf{C})$中稠密，并且满足性质(P)（No. 7，性质9）；*
 
 \textit{\mathscr{T}_2：模糊的拓扑；}
 
@@ -775,7 +775,7 @@ $$
 
 Q.E.D.
 
-#### 推论{#int-iii-s1-n10-cor-1 .statement tag=08M8}
+#### 推论 {#int-iii-s1-n10-cor-1 .statement tag=08M8}
 
 — *如果 X 是仿紧致的，则由紧致收敛重合的模糊拓扑和拓扑在 $\mathscr{M}_+(X)$ 上导出的拓扑。*
 

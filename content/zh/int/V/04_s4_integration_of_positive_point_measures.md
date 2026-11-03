@@ -29,16 +29,16 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: 17b7b89a32ff98b31d214b2e9ece40ef2e3e76589abd6e0bed46aae4788f2b10
+content_sha256: 01f1aa87122da0055a14c8a7a497eb1082a9034a5c034f94b85b69726ac84e4b
 translated_from: content/en/int/V/04_s4_integration_of_positive_point_measures.md
 translation_method: google
 source_content_sha256: dd55e7fee706c3d9d06f24460ca7220536b2e52fe66b64ab093af515c9c25f41
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ce435c6dce8bf0a134ce5a5bafc4ff223acfbe1fe9a83a1f699c58c4ee6f9960
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。整合积极的点措施
@@ -57,15 +57,15 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 如果对 $(\pi, g)$ 是 $\mu$ 适应的，那么 T 到 $\mathscr{M}_+(X)$ 的映射 $\Lambda : t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ 本质上是 $\mu$ 可积的，模糊地 $\mu$ 可测量的，$\mu$ 是充分的。相反，如果$\Lambda$本质上是$\mu$可标量可积且模糊地$\mu$可测量，则函数$g$是$\mu$可测量且$\pi$到集合的限制 $t \in T$的$S$使得$g(t) \neq 0$是$\mu$可测量的。
 
-假设对$(\pi, g)$是$\mu$适配的；对于每个函数$f \in \mathscr{K}(X)$，函数$t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$本质上是$\mu$可积的。让我们证明 $t \mapsto \lambda_t$ 是模糊可测的 $\mu$。因为，我们首先注，如果$\pi$和$g$是连续的，那么映射$t \mapsto \lambda_t$是模糊连续的。在一般情况下，紧凑子集 $K$ $T$ 的集合使得 $\pi$ 的限制和 $g$ 到 $K$ 连续，是 $\mu$ 稠密（第 IV, §5, No. 10 章，提案 1）。 15);如果$K$是这样的集合，那么$t \mapsto \lambda_t$到$K$的限制是模糊连续的，从而是叙述的第一个断言。 §3, No. 1 的命题 2 表明$\Lambda$ $\mu$ 是足够的。
+假设对$(\pi, g)$是$\mu$适配的；对于每个函数$f \in \mathscr{K}(X)$，函数$t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$本质上是$\mu$可积的。让我们证明 $t \mapsto \lambda_t$ 是模糊可测的 $\mu$。因为，我们首先注意到，如果$\pi$和$g$是连续的，那么映射$t \mapsto \lambda_t$是模糊连续的。在一般情况下，紧凑子集 $K$ $T$ 的集合使得 $\pi$ 的限制和 $g$ 到 $K$ 是连续的 $\mu$ 稠密（第 IV, §5, No. 10 章，提案 1）。 15);如果$K$是这样的集合，那么$t \mapsto \lambda_t$到$K$的限制是模糊连续的，从而是叙述的第一个断言。 §3, No. 1 的命题 2 表明$\Lambda$ $\mu$ 是足够的。
 
-相反，假设 $\Lambda$ 本质上是 $\mu$ 可积且模糊地 $\mu$ 可测；那么 $\mu$ 就足够了（§3, No. 1，提案 2）。由于函数 1 在 $X$ 上是下半连续的，函数 $t \mapsto \lambda_t(1) = g(t)$ 是 $\mu$ 可测（§3，定义 1）。因此集合 $S$ 是可测量的（第 IV, §5, No. 5 章，第 7 条命题）。 紧集 $K \subset S$的集合$\mathfrak{K}$使得$g|K$是连续的并且$\Lambda|K$是模糊连续的，在$S$中是$\mu$密集（第IV, §5, No. 10章，第15条）；如果$K \in \mathfrak{K}$，那么映射$t \mapsto \varepsilon_{\pi(t)} = \frac{1}{g(t)} \lambda_t$的限制到$K$因此是模糊连续的，这意味着$\pi|K$的连续性（第III, §1, No. 9章，第13条命题）。由于$\mathfrak{K}$在$S$中是$\mu$密集，因此$\pi$到$S$的限制是$\mu$可测。
+相反，假设 $\Lambda$ 本质上是 $\mu$ 可积且模糊地 $\mu$ 可测；那么 $\mu$ 就足够了（§3, No. 1，提案 2）。由于函数 1 在 $X$ 上是下半连续的，函数 $t \mapsto \lambda_t(1) = g(t)$ 是 $\mu$ 可测（§3，定义 1）。因此，集合 $S$ 是可测量的（第 IV, §5, No. 5 章，第 7 条命题）。 紧集 $K \subset S$的集合$\mathfrak{K}$使得$g|K$是连续的并且$\Lambda|K$是模糊连续的，在$S$中是$\mu$稠密的（第IV, §5, No. 10章，第15条）；如果$K \in \mathfrak{K}$，那么映射$t \mapsto \varepsilon_{\pi(t)} = \frac{1}{g(t)} \lambda_t$的限制到$K$因此是模糊连续的，这意味着$\pi|K$的连续性（第III, §1, No. 9章，第13条命题）。由于$\mathfrak{K}$在$S$中是$\mu$密集，因此$\pi$到$S$的限制是$\mu$可测。
 
 我们将利用以下引理：
 
 #### 引理 {#int-v-s4-n1-lem-1 .statement tag=0923}
 
-*设$T$和$X$为两个拓扑空间、$\pi$，$T$到$X$的真连续映射（GT，I, §10, No. 1，定义1）。令$g$为$T$上定义的下半连续数值函数。对于每个$x \in X$，令$f(x)$为集合$\overline{\pi}^{-1}(x)$中函数$g(t)$的下确界（如果$\overline{\pi}^{-1}(x) = \varnothing$则下确界等于$+\infty$；cf.S，III, §1, No. 9）。那么$f$在$X$上是下半连续的。*
+*设$T$和$X$是$T$到$X$的两个拓扑空间，$\pi$真连续映射（GT，I, §10, No. 1，定义1）。令$g$为$T$上定义的下半连续数值函数。对于每个$x \in X$，令$f(x)$为集合$\overline{\pi}^{-1}(x)$中函数$g(t)$的下确界（如果$\overline{\pi}^{-1}(x) = \varnothing$则下确界等于$+\infty$；cf.S，III, §1, No. 9）。那么$f$在$X$上是下半连续的。*
 
 对于每个（有限）实数$a$，用$x \in X$的$B_a$集合表示，使得$f(x) \leq a$，并用$t \in T$的$A_a$集合表示，使得$g(t) \leq a$；这一切都归结为表明 $B_a$ 是封闭的（GT，IV, §6, No. 2，提案 1）。现在，$A_a$ 是封闭的（相同的参考文献），正确的映射 $\pi$ 是封闭的（GT，I, §10, No. 1，提案 1）；因此，我们将证明减少为 $\pi(A_a) = B_a$。对于所有$t \in T$，明显的关系$f(\pi(t)) \leq g(t)$意味着$\pi(A_a) \subset B_a$。另一方面，令 $x \in B_a$； 集合 $\overline{\pi}^{-1}(x)$ 是拟紧的（GT，I, §10, No. 2，Th.1）和非空，因此存在一个 $t \in \overline{\pi}^{-1}(x)$ 使得
 
@@ -129,13 +129,13 @@ $$
 
 (5) 的第二个成员有一个类似的关系，因此 (1) 通过对 $\alpha$ 求和而从 (5) 得出。
 
-#### 推论{#int-v-s4-n2-cor-1 .statement tag=0925}
+#### 推论 {#int-v-s4-n2-cor-1 .statement tag=0925}
 
-— *在阶中，X的子集对于$\nu$来说在局部可以忽略不计，$\pi^{-1}(N)$的交和点$t \in T$的集合是必要且充分的，其中$g(t) > 0$在局部$\mu$可以忽略不计。*
+— *在阶中，X的子集对于$\nu$来说在局部可以忽略不计，$\pi^{-1}(N)$的交和点$t \in T$的集合是必要且充分的，其中$g(t) > 0$是局部的$\mu$可以忽略不计。*
 
 #### 命题 2 {#int-v-s4-prop-2 .statement tag=0926}
 
-— *令$\pi$为T到X的真连续映射（GT，I, §10, No. 1），并令g为T上的连续有限数值函数，使得$g(t) > 0$对于所有$t \in T$。 对 $(\pi, g)$ 则适用于 $\mu$，如果有集合*
+— *令$\pi$为T到X的真连续映射（GT，I, §10, No. 1），并令g为T上的连续有限数值函数，使得$g(t) > 0$对于所有$t \in T$。 对 $(\pi, g)$ 则适用于 $\mu$，如果有一个集合*
 $$
 \nu = \int g(t) \varepsilon_{\pi(t)}\, d\mu(t),
 $$
@@ -198,17 +198,17 @@ $$
 
 首先假设$f$是$\nu$可测的。通过$S$的紧致子集$K$的假设、集合$\mathscr{K}$，使得$\pi$到$K$的限制是连续的，在$S$中是$\mu$稠密的（第1章） IV, §5, No. 10，提案 15）。为了证明$f \circ \pi$到$S$的限制是$\mu$可测的，因此只需证明对于每个$K \in \mathscr{K}$，紧致子集$H$的$K$的集合，使得$f \circ \pi$到$H$的限制是连续的，在$K$中是$\mu$稠密的（第IV, §5, No. 8章，第13条命题）。但到假设时，存在紧集$\pi(K)$的划分，由$\nu$可忽略的集合$N$和紧集$(C_n)$的序列组成，使得限制 $f$ 到每个 $C_n$ 是连续的。 $K$的条件、$K \cap \overline{\pi}(N)$和集合$K \cap \overline{\pi}(C_n)$形式划分；但 $K \cap \overline{\pi}(N)$ 是 $\mu$——由于 Cor 的缘故，可以忽略不计。的 Th。 No. 2、集合 $K \cap \overline{\pi}(C_n)$ 的 1 是紧的，$f \circ \pi$ 的限制到后者集合是连续的，这就证明$f \circ \pi$ 到$S$ 的限制是$\mu$-可测量。
 
-相反，假设情况是这样；为了证明$f$是$\nu$可测的，只需证明$X$的紧致子集$L$的集合$\mathscr{L}$，使得$f$到$L$的限制是连续的， $\nu$-密集（第 IV, §5, No. 10 章，第 15 条命题）。令 $N$ 为 $X$ 的子集，使得对于每个 $L \in \mathscr{L}$，$N \cap L$ $\nu$ 可以忽略不计，并且让我们证明 $N$ 局部 $\nu$ 可以忽略不计。为此，我们必须证明$\overline{\pi}(N) \cap S$在局部$\mu$可以忽略不计（No. 2的Th.1的Cor.）。现在，$S$的紧凑子集$H$的集合$\mathscr{H}$，使得$\pi$和$f \circ \pi$的限制到$H$是连续的，是由假设 $\mu$-$S$ 密集（第 IV, §5, No. 10 章，第 15 条命题）。因而，只要证明$\overline{\pi}(N) \cap H$对于每个$H \in \mathscr{H}$来说都是$\mu$，可以忽略不计。现在，$\pi(H)$是紧凑的，并且可以用等价关系$\pi(t) = \pi(t')$与$H$的商空间来识别，$\pi$可以用$H$的典范映射识别到该商空间上（GT， I, §5, No. 2，提案 3）。由于$f \circ \pi$到$H$的限制是连续的，因而$f$到$\pi(H)$的限制是连续的，在其他字$\pi(H) \in \mathscr{L}$中，因而$N \cap \pi(H)$是$\nu$可忽略不计。由科。的 Th。 No. 2、$\overline{\pi}(N \cap \pi(H)) \cap S$ 中的 1 个局部$\mu$-可以忽略不计；因此集合也是如此
+相反，假设情况是这样；为了证明$f$是$\nu$可测的，只需证明$X$的紧致子集$L$的集合$\mathscr{L}$，使得$f$到$L$的限制是连续的， $\nu$-密集（第 IV, §5, No. 10 章，第 15 条命题）。令 $N$ 为 $X$ 的子集，使得对于每个 $L \in \mathscr{L}$，$N \cap L$ $\nu$ 可以忽略不计，并且让我们证明 $N$ 局部 $\nu$ 可以忽略不计。为此，我们必须证明$\overline{\pi}(N) \cap S$在局部$\mu$可以忽略不计（No. 2的Th.1的Cor.）。现在，$S$的紧凑子集$H$的集合$\mathscr{H}$，使得$\pi$和$f \circ \pi$的限制到$H$是连续的，是由假设 $\mu$-$S$ 密集（第 IV, §5, No. 10 章，第 15 条命题）。因而，只要证明$\overline{\pi}(N) \cap H$对于每个$H \in \mathscr{H}$来说都是$\mu$，可以忽略不计。现在，$\pi(H)$是紧凑的，可以通过等价关系$\pi(t) = \pi(t')$与$H$的商空间进行识别，$\pi$在这个商空间上与$H$的典范映射进行识别（GT，I, §5, No. 2，提案 3）。由于$f \circ \pi$到$H$的限制是连续的，因而$f$到$\pi(H)$的限制是连续的，在其他字$\pi(H) \in \mathscr{L}$中，因而$N \cap \pi(H)$是$\nu$可忽略不计。由科。的 Th。 No. 2、$\overline{\pi}(N \cap \pi(H)) \cap S$ 中的 1 个局部$\mu$-可以忽略不计；因此集合也是如此
 
 $$
 H \cap \overline{\pi}(N) \subset \overline{\pi}(N \cap \pi(H)) \cap S;
 $$
 
-但由于 $H$ 是紧凑的，$H \cap \overline{\pi}(N)$ 是 $\mu$ 可以忽略不计，从而完成证明。
+但由于$H$是紧凑的，$H \cap \overline{\pi}(N)$是$\mu$可以忽略不计，它完成了证明。
 
 #### 注 {#int-v-s4-n3-rem-1 .statement tag=0928}
 
-如果 $f$ 是 $X$ 的映射变成 Banach 空间 $F$，则同样可以说 $f \circ \pi$ 到 $S$ 的限制是 $\mu$ 可测的，或者说函数 $(f \circ \pi)g$（在$T$上定义）是$\mu$可测量，因为$g$是$\mu$可测量，在$S$中不是零，并且在$T - S$上是零 （第IV, §5, No. 10，第 15 条提案）。
+如果 $f$ 是 $X$ 的映射变成 Banach 空间 $F$，则可以说 $f \circ \pi$ 到 $S$ 的限制是 $\mu$ 可测，或者说函数 $(f \circ \pi)g$（在$T$上定义）是$\mu$可测量的，因为$g$是$\mu$可测量的，在$S$中不是零，并且在$T - S$上是零 （第IV, §5, No. 10，第 15 条提案）。
 
 ### 4. 将函数与值整合到 Banach 空间中，相对于点度量的积分
 

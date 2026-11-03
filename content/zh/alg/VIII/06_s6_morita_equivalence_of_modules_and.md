@@ -42,19 +42,19 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: 0daef8d30578412aeb6f8080ff1c4517f23b3d8e79f2edee89a0dd17e475061d
+content_sha256: dfe308b4a65914b2b5e06083fa30c3d68208d788f592791a05dfe9e49555c424
 translated_from: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md
 translation_method: google
 source_content_sha256: e8ef2b43442fbc25b56375b83b63be74c37d7c8014a9723fb60c9bc369cd90cb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0119eec1cbbdcd17db2c5c26272911a57b538b62784aa6028ebbddc26120ac24
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 6。 森田等价 / 模和代数
+## § 6。 模和代数中的森田等价
 
 在这个截面中，$k$表示交换环。
 
@@ -198,7 +198,7 @@ b) 从A到End$_B(P)$的映射$a\mapsto a_P$是双射当且仅当A-模P是忠实�
 
 (iv) 从$Q\otimes_AP$到$_sB_d$存在$(B,A)_k$-双模Q和满同态的$(B,B)_k$-双模。
 
-由 II, §4, No. 2、p. 271、断言的推论 (i) 意味着 (ii)。此外，(iii) 由(ii) 得出。令$t\in B^*\otimes_AB$ 使得$\Theta (t) = 1$。令$n$为整数，并令$(x_1, . . . , x_n)\in P^n$和$(x^*_1, . . . , x^*_n)\in P^{*n}$为$t=\sum^n_{i=1}x^*_i\otimes x_i$。对于每个 $x$ 属于到 P，关系 $x\Theta (t) =x$ 可以写成
+由II, §4, No. 2、p. 271、断言 (i) 的推论意味着 (ii)。此外，(iii) 由(ii) 得出。令$t\in B^*\otimes_AB$ 使得$\Theta (t) = 1$。令$n$为整数，并令$(x_1, . . . , x_n)\in P^n$和$(x^*_1, . . . , x^*_n)\in P^{*n}$为$t=\sum^n_{i=1}x^*_i\otimes x_i$。对于每个 $x$ 属于到 P，关系 $x\Theta (t) =x$ 可以写成
 
 $$
 \sum_{i=1}^n\langle x, x^*_i\rangle x_i=x
@@ -246,13 +246,13 @@ b) 如果 A-模 P 是射影且有限生成的，则右B-模 P 是生成的。
 
 生成模的对模是射影且有限生成的。 有限生成射影模中的对模是生成的。
 
-设 A 为 $k$ 代数，M 为 A-模。我们用 B 表示代数 End$_A(M)$ 的相反 $k$ 代数。推论来自应用于 $(A,B)_k$ 双模 M 的命题 4。
+设 A 为 $k$ 代数，M 为 A-模。我们用 B 表示代数 End$_A(M)$ 的相反 $k$ 代数。 推论由应用于 $(A,B)_k$ 双模 M 的命题 4 得出。
 
 #### 推论 2 {#alg-viii-s6-prop-4-cor-2 .statement tag=006Y}
 
 设 A 和 B 为 $k$-代数，P 为 $(A,B)_k$-双模。以下属性是等效的：
 
-(i) A-模 P 是生成的，并且从 B 到 End$_A(P)$ 的映射 $b\mapsto b_P$ 是双射的。
+(i) A-模 P 是生成的，并且从 B 到 End$_A(P)$ 映射 $b\mapsto b_P$ 是双射的。
 
 (ii) 右B-模 P 是射影、有限生成、忠实且平衡的，并且从 A 到 End$_B(P)$ 的映射 $a\mapsto a_P$ 是双射的。
 
@@ -262,7 +262,7 @@ b) 如果 A-模 P 是射影且有限生成的，则右B-模 P 是生成的。
 
 #### 定义 1 {#alg-viii-s6-def-1 .statement tag=006Z}
 
-设 A 和 B 为 $k$-代数，P 为 $(A,B)_k$ 双模。如果存在$(B,A)_k$双模Q，使得$P\otimes_BQ$同构于$_sA_d$且$Q\otimes_AP$同构于$_sB_d$，我们称P是可逆的。这样的双模 Q 被称为 P 的逆。
+设 A 和 B 为 $k$-代数，P 为 $(A,B)_k$ 双模。如果存在$(B,A)_k$双模Q，使得$P\otimes_BQ$同构于$_sA_d$且$Q\otimes_AP$同构于$_sB_d$，我们称P是可逆的。这样的双模 Q 称为 P 的逆。
 
 设 A 和 B 为 $k$-代数，并令 P 为可逆 $(A,B)_k$ 双模。令C为$k$代数，$P'$为可逆的$(B,C)_k$双模。最后，令Q和$Q'$分别是P和$P'$的逆双模。通过张量积 (II, §3, No. 8, p. 258, 命题 8) 的结合性和 II, §3, No. 4, p. 249 的命题 4，$(C,A)_k$ 双模 $Q'\otimes_BQ$ 是$(A,C)_k$-双模$P\otimes_BP'$，因而$P\otimes_BP'$是可逆的$(A,C)_k$-双模。
 
@@ -350,7 +350,7 @@ $$
 
 (iii) A-模 P 是射影，有限生成，且为秩 $1.*$
 
-### 4. The Morita Correspondence of Modules
+### 4. 模的森田对应
 
 在这个小节中，字母A和B表示森田等价的$k$-代数，P表示可逆的$(A,B)_k$-双模。 选择 $(B,A)_k$-双模 Q 与 P 和同构逆
 
@@ -388,7 +388,7 @@ b) 映射 $K\mapsto$ KP 是从 A 的右理想的有序集合 $D(A_d)$ 到 P 的 
 
 断言 b) 由适用于可逆 $(B^o,A^o)_k$ 双模 P 的断言 a) 得出。
 
-注环 A 是域当且仅当 B-模 P 是简单的。
+请注意，当且仅当 B-模 P 是简单的时，环 A 才是域。
 
 #### 例 2 {#alg-viii-s6-n4-exa-2 .statement tag=0079}
 
@@ -400,47 +400,47 @@ b) 映射$\mathfrak{a}\mapsto \mathfrak{a}P$是从$\mathscr{B}_A$到$\mathscr{B}
 
 事实上，令 J 为 B 和 $P'=$ PJ 的左理想。那么$P'$是P的A-子模，并且通过例1，理想的J由B的元素$b$组成，使得$Pb\subset P'$。此外，当且仅当 J 是 B 的双面理想时，$P'$ 是 P 的 $(A,B)_k$ 子双模。因此，a) 由 loc 推出。引用。
 
-断言 b) 由适用于可逆 $(B^o,A^o)_k$ 双模 P 的断言 a) 得出。
+断言 b) 由适用于可逆 $(B^o,A^o)_k$-双模 P 的断言 a) 得出。
 
 #### 命题 6 {#alg-viii-s6-prop-6 .statement tag=007A}
 
 用 A 的两侧理想和 B 的两侧理想的 $\mathscr{B}_A$ 和 $\mathscr{B}_B$ 集合表示。
 
-a) There exists an isomorphism of ordered sets $f$ from $\mathscr{B}_A$ to $\mathscr{B}_B$ determined by the following property: if $\mathfrak{a}$ is a two-sided ideal of A and $\mathfrak{b}$ a two-sided ideal of B, then the relation $f(\mathfrak{a}) =\mathfrak{b}$ is equivalent to $\mathfrak{a}P = P\mathfrak{b}$.
+a) 从$\mathscr{B}_A$到$\mathscr{B}_B$，存在有序集$f$的同构，由性质确定：如果$\mathfrak{a}$是A的双边理想，$\mathfrak{b}$是B的双边理想，则关系 $f(\mathfrak{a}) =\mathfrak{b}$相当于$\mathfrak{a}P = P\mathfrak{b}$。
 
-b) 假设环 A 是可交换的，因此 A 可以与 B 的中心等价（VIII，p. 102，推论 1）。 同构 $f:\mathscr{B}_A\rightarrow$ $\mathscr{B}_B$ 将 A 的理想 $\mathfrak{a}$ 发送到 B 的双边理想 $B\mathfrak{a}$，得到 $\mathfrak{a}= A\cap B\mathfrak{a}$。
+b) 假设环 A 是可交换的，则 A 可以与 B 的中心等价 (VIII, p. 102, 推论 1)。 同构$f:\mathscr{B}_A\rightarrow$$\mathscr{B}_B$将A的理想$\mathfrak{a}$发送到B的双边理想$B\mathfrak{a}$，我们有$\mathfrak{a}= A\cap B\mathfrak{a}$。
 
 断言 a) 由例 2 推出。
 
-现在，假设 A 是可交换的，认同 A 与 B 的中心。令 $\mathfrak{a}$ 为 A 的理想。则 $B\mathfrak{a}$ 为 B 的两侧理想；我们有 PB$\mathfrak{a}=\mathfrak{a}P$，因此有$f(\mathfrak{a}) = B\mathfrak{a}$。设$\mathfrak{a}'$为A的理想$A\cap B\mathfrak{a}$；它包含在$B\mathfrak{a}$和包含$\mathfrak{a}$中，所以$B\mathfrak{a}'$等于$B\mathfrak{a}$。由于$f$是双射的，因此$\mathfrak{a}'=\mathfrak{a}$。
+现在，假设 A 是可交换的，认同 A 与 B 的中心。令 $\mathfrak{a}$ 为 A 的理想。则 $B\mathfrak{a}$ 为 B 的两侧理想；我们有 PB$\mathfrak{a}=\mathfrak{a}P$，因此有$f(\mathfrak{a}) = B\mathfrak{a}$。设$\mathfrak{a}'$为A的理想$A\cap B\mathfrak{a}$；它包含在$B\mathfrak{a}$和包含$\mathfrak{a}$中，因此$B\mathfrak{a}'$等于$B\mathfrak{a}$。由于$f$是双射的，因此$\mathfrak{a}'=\mathfrak{a}$。
 
 #### 例 3 {#alg-viii-s6-n4-exa-3 .statement tag=007B}
 
-设V为左B-模。然后上面给出的对应将B-模V的湮没子发送到A-模$P\otimes_BV$的湮没子。事实上，用$\mathfrak{a}$表示A-模$P\otimes_BV$的湮没子，用$\mathfrak{b}$表示B-模V。令 W 为元素的 P 由……组成的 $(A,B)_k$ 子双模，使得 $p\otimes v= 0$ 对于 V 的每个元素 $v$。我们有包含$P\mathfrak{b}\subset W$；相反，对于每个$p\in W$和$q\in Q$，我们有$\theta (q\otimes p)$属于到$\mathfrak{b}$。因此，D(P) 的 $D(B_s)$ 对应到元素 W 的元素 $\mathfrak{b}$。同样，$\mathfrak{a}\in D(A_d)$对应到W。
+设V为左B-模。然后上面给出的对应将B-模V的湮没子发送到A-模$P\otimes_BV$的湮没子。事实上，用$\mathfrak{a}$表示A-模$P\otimes_BV$的湮没子，用$\mathfrak{b}$表示B-模V的湮没子。令 W 为元素的 P 由……组成的 $(A,B)_k$ 子双模，使得 $p\otimes v= 0$ 对于 V 的每个元素 $v$。我们有包含$P\mathfrak{b}\subset W$；相反，对于每个$p\in W$和$q\in Q$，我们有$\theta (q\otimes p)$属于到$\mathfrak{b}$。因此，D(P) 的 $D(B_s)$ 对应到元素 W 的元素 $\mathfrak{b}$。同样，$\mathfrak{a}\in D(A_d)$对应到W。
 
 #### 例 4 {#alg-viii-s6-n4-exa-4 .statement tag=007C}
 
-对于 A 的任何双面理想 $\mathfrak{a}$，用 $\mathbf{M}_n(\mathfrak{a})$ 表示 $\mathbf{M}_n(A)$ 由……组成的矩阵中的$\mathfrak{a}$ 中的子集。 这是$\mathbf{M}_n(A)$的双面理想。 我们有$\mathbf{M}_n(\mathfrak{a})A^n=\mathfrak{a}^n= A^n\mathfrak{a}$。 从命题 6 可以得出，$\mathbf{M}_n(A)$ 的每个双面理想都是形式 $\mathbf{M}_n(\mathfrak{a})$，其中 $\mathfrak{a}$ 是 A 的双面理想。
+对于 A 的任意双面理想 $\mathfrak{a}$，用 $\mathbf{M}_n(\mathfrak{a})$ 表示 $\mathbf{M}_n(A)$ 由……组成的矩阵中的$\mathfrak{a}$ 中的子集。这是$\mathbf{M}_n(A)$的双面理想。我们有$\mathbf{M}_n(\mathfrak{a})A^n=\mathfrak{a}^n= A^n\mathfrak{a}$。从命题 6 可以得出，$\mathbf{M}_n(A)$ 的每个双面理想都是形式 $\mathbf{M}_n(\mathfrak{a})$，其中 $\mathfrak{a}$ 是 A 的双面理想。
 
 #### 注 {#alg-viii-s6-n4-rem-1 .statement tag=007D}
 
-我们保留上面的假设和记号，并假设$(B,A)_k$双模Q是A-模P的对偶$P^*$，并且同构$\lambda$和$\theta$是典范映射$\Lambda  : P\otimes_BP^*\rightarrow_sA_d$和θ： $P^*\otimes_AP\rightarrow_sB_d$（VIII、p. 101、定理 1）。由于 A-模 P 是射影且有限生成的，因此对于每个 A-模 M，我们有典范同构 $\vartheta_M: P^*\otimes_AM\rightarrow$ Hom$_A(P,M)$（II, §4, No. 2，p. 271，推论）。我们留给读者用替换构造$M\mapsto Q\otimes_AM$和构造$M\mapsto$Hom$_A(P,M)$重新表述小节3和4的结果。
+我们保留上面的假设和记号，并假设$(B,A)_k$双模Q是A-模P的对偶$P^*$，并且同构$\lambda$和$\theta$是典范映射$\Lambda  : P\otimes_BP^*\rightarrow_sA_d$和θ： $P^*\otimes_AP\rightarrow_sB_d$（VIII、p. 101、定理 1）。由于 A-模 P 是射影且有限生成的，因此对于每个 A-模 M（II, §4, No. 2、p. 271、推论），我们都有典范同构 $\vartheta_M: P^*\otimes_AM\rightarrow$ Hom$_A(P,M)$。我们留给读者用替换构造$M\mapsto Q\otimes_AM$和构造$M\mapsto$Hom$_A(P,M)$重新表述小节3和4的结果。
 
 ### 5. 有序集 / 子模
 
-在这个小节中，A和B是$k$代数，M是左A-模，V是左B-模。我们用 D(M)（分别为 D(V)）表示 M 的子模的集合（分别为 V），按包含排序。我们假设给定同构或有序集 $\varphi : D(V)\rightarrow D(M)$。
+在这个小节中，A和B是$k$-代数，M是左A-模，V是左B-模。我们用 D(M)（分别为 D(V)）表示 M 的子模的集合（分别为 V），按包含排序。我们假设给定有序集 $\varphi : D(V)\rightarrow D(M)$ 的同构。
 
-根据 Morita 的定理 (VIII, p. 103, 定理 2)，我们在以下情况下得到这样的同构：P 是可逆的 $(A,B)_k$ 双模，M 是 A-模 $P\otimes_BV$，并且对于每个$V,\varphi (W)$的子模W在M中是$P\otimes_BW$的典范像。
+根据 Morita 的定理 (VIII, p. 103, 定理 2)，我们在以下情况下得到同构：P 是可逆的 $(A,B)_k$ 双模，M 是 A-模 $P\otimes_BV$，并且对于每一个子模 W M 中$V,\varphi (W)$ 是$P\otimes_BW$ 的典范像。
 
 模 M 或其子模的一些属性可以用有序集合 D(M) 的项来表示：它们列在表 I 和 II 中。
 
-模 M 是子模的$(M_i)_{i\in I}$ 家庭的直和当且仅当我们对于每个$i\in I$ 都有$M =\sum_{i\in I}M_i$ 和$M_i\cap \sum_{j\not=i}M_j= 0$。这个注和表I的检查给出了以下结果。
+模 M 是子模中$(M_i)_{i\in I}$ 的直和当且仅当我们对于每个$i\in I$ 都有$M =\sum_{i\in I}M_i$ 和$M_i\cap \sum_{j\not=i}M_j= 0$。这个注和表I的检查给出了以下结果。
 
 #### 命题 7 {#alg-viii-s6-prop-7 .statement tag=007E}
 
-a) 我们有 $\varphi (0) = 0$ 和 $\varphi (V) = M$。
+a) 我们有$\varphi (0) = 0$和$\varphi (V) = M$。
 
-b) 设$(V_i)_{i\in I}$是V的子模的家庭。我们有
+b) 设$(V_i)_{i\in I}$是V的子模的族。我们有
 
 $$
 \varphi (\sum_{i\in I}V_i)=\sum_{i\in I}\varphi (V_i),\varphi (\bigcap_{i\in I}V_i)=\bigcap_{i\in I}\varphi (V_i)
@@ -450,29 +450,29 @@ $$
 
 D(M) 零子模最小的元素
 
-子模 M 最大元素 D(M)
+D(M) 的子模 M 最大元素
 
 $\bigcap_{i\in I}M_i$下确界inf$_{i\in I}M_i$
 
-$\sum_{i\in I}M_i$ 至少上界支持$_{i\in I}M_i$
+$\sum_{i\in I}M_i$ 至少上界超过$_{i\in I}M_i$
 
 补子模 inf(M$',M''$) $= 0$，sup(M$',M''$) $= M$
 
 M 的简单子模最小 D(M) 的元素 $-\{0\}$
 
-M 极大子模 D(M) 极大元素 $-\{M\}$
+M 的极大子模 D(M) 的极大元素 $-\{M\}$
 
 M 的底层 $\mathscr{S}(M)$ 集合的 D(M) 中最少上界
 
-D(M)$-\{0\}$ 的最小元素
+D(M)$-\{0\}$ 的最小值元素
 
-集合的 D(M) 中 M 下确界的$*$部首$\mathfrak{R}(M)$
+集合的 D(M) 中 M 下确界 $*$根基 $\mathfrak{R}(M)$
 
 $$
 *
 $$
 
-D(M)$-\{M\}$极大元素(VIII、p. 151)
+D(M)$-\{M\}$ 极大元素 (VIII, p. 151)
 
 表I。
 
@@ -480,37 +480,37 @@ D(M)$-\{M\}$极大元素(VIII、p. 151)
 
 M 为诺特。有序集合 D(M) 为诺特 (集合
 
-理论，III, §6, No. 5，p. 190）。
+理论、III, §6, No. 5、p. 190）。
 
 M 为阿廷的。 集合 D(M)，按$\supset$排序，为
 
 诺特。
 
-M 不可分解。我们有 M $\not= 0$，但没有
+M 不可分解。我们有 M $\not= 0$，并且没有
 
 两个非零元素 $M'$ 和 $M''$
 
-D(中) 满足 inf(中$',M''$) $= 0$,
+D(M) 满足 inf(M$',M''$) $= 0$,
 
-超级（M$',M''$）$= M$。
+sup(M$',M''$)$= M$。
 
-M 是有限生成的。对于 D(M) 中的每个家庭 $(M_i)_{i\in I}$
+M 是有限生成的。对于 D(M) 中的每个家庭 $(M_i)_{i\in I}$ ，
 
 上界 M，存在有限个
 
-子集 J 的 I 使得 M =sup$_{j\in I}M_j$。 M很简单。卡(D(M)) = 2。
+I 的子集 J 使得 M =sup$_{j\in I}M_j$。 M很简单。卡(D(M)) = 2。
 
 M 为半单。 M 是最小上界，在 D(M) 中，
 
-集合至少元素
+的集合的 最小元素的
 
 D(M)$-\{0\}$。
 
 表II。
 
-c) B-模 V 是$(V_i)_{i\in I}$ 家族中子模的直和当且仅当M 是$(\varphi (V_i))_{i\in I}$ 家族中的直和。
+c) B-模V是子模族$(V_i)_{i\in I}$的直和当且仅当M是$(\varphi (V_i))_{i\in I}$族的直和。
 
-设$V'$和$V''$为V的子模，使得$V'$包含在$V''$中； 集合$M'=\varphi (V')$和$M''=\varphi (V'')$，因此$M''$包含于$M'$。用 $[V',V'']$ 表示 V 的子模 W 的 D(V) 由……组成区间，这样我们就有 $V'\subset W\subset V''$，同样，定义也有 D(M) 中的区间 $[M',M'']$。 映射$W\mapsto W/V'$是从$[V',V'']$到$D(V''/V')$的有序集中的同构；我们同样从 $[M',M'']$ 有序集定义同构到 $D(M''/M')$。由于$\varphi$发送间隔$[V',V'']$到$[M',M'']$，所以从$D(V''/V')$到$D(M''/M')$，有序集的定义同构$\varphi$。由此我们推导出以下命题以及表I和II。
+设$V'$和$V''$为V的子模，使得$V'$包含在$V''$中； 集合$M'=\varphi (V')$和$M''=\varphi (V'')$，因此$M''$包含于$M'$。用V的子模W的D(V)由……组成中的$[V',V'']$区间表示，这样我们在D(M)中同样有$V'\subset W\subset V''$，以及定义区间$[M',M'']$。 映射$W\mapsto W/V'$是从$[V',V'']$到$D(V''/V')$的有序集中的同构；我们同样从 $[M',M'']$ 定义同构有序集到 $D(M''/M')$。由于$\varphi$将区间$[V',V'']$发送到$[M',M'']$，因此将有序集的定义同构$\varphi$从$D(V''/V')$发送到$D(M''/M')$。由此我们推导出以下命题以及表I和II。
 
 #### 命题 8 {#alg-viii-s6-prop-8 .statement tag=007F}
 
@@ -518,15 +518,15 @@ a) 设$V'$和$V''$为V的子模，使得$V''$包含于$V'$。 B-模 $V''/V'$ 是
 
 b) 如果$V'$是V的简单子模、极大子模或直因子，则$\varphi (V')$分别是M的简单子模、极大子模或直因子。
 
-c) 将V的同构$\varphi$变换底层$\mathscr{S}(V)$转换为$M*$的底层$\mathscr{S}(M)$以及部首（VIII，p. 151，将V的定义 1)$\mathfrak{R}(V)$转化为M$.*$的部首$\mathfrak{R}(M)$
+c) 将V的同构$\varphi$变换底层$\mathscr{S}(V)$转换为$M*$和根基的底层$\mathscr{S}(M)$和根基（VIII，p. 151，将 V 的定义 1)$\mathfrak{R}(V)$ 转换为 M$.*$ 的根基 $\mathfrak{R}(M)$
 
-d) 设 $(V_i)_{0\leqslant i\leqslant n}$ 为有限序列 / 子模 / V。当且仅当 $(\varphi (V_i)_{0\leqslant i\leqslant n})$ 是 M 的 Jordan-Hölder 级数时，它才是 V 的 Jordan–Hölder 级数。
+d) 设$(V_i)_{0\leqslant i\leqslant n}$为V的子模中的有限序列。当且仅当 $(\varphi (V_i)_{0\leqslant i\leqslant n})$ 是 M 的 Jordan–Hölder 级数时，它才是 V 的 Jordan–Hölder 级数。
 
 #### 引理 2 {#alg-viii-s6-lem-2 .statement tag=007G}
 
 令H和$H'$为V的子模，使得$H\cap H'= 0$。 B-模 H 和 $H'$ 同构当且仅当 A-模 $\varphi (H)$ 和 $\varphi (H')$ 同构的。
 
-我们认同$H+H'$与乘积$H\times H'$。 同构从H到$H'$的图是V满足的子模$H''$
+我们认同$H+H'$和乘积$H\times H'$。 同构从H到$H'$的图是V满足的子模$H''$
 
 $$
 H\cap H''= H'\cap H''= 0,H + H'= H + H''= H'+ H'' \tag{17}
@@ -542,11 +542,11 @@ $$
 \varphi (H) +\varphi (H') =\varphi (H) +\varphi (H'') =\varphi (H') +\varphi (H'')
 $$
 
-接下来是引理。
+引理如下。
 
 #### 命题 9 {#alg-viii-s6-prop-9 .statement tag=00R6}
 
-设S为V的简单子模，T为M的简单子模$\varphi (S)$。如果$V_S$表示型S的V的同型成分，$M_T$表示型T的M的同型成分，那么我们就有$\varphi (V_S) = M_T$。
+令 S 为 V 的简单子模，T 简单子模 $\varphi (S)$ 为 M。如果 $V_S$ 表示型 S 的 V 的同型分量，$M_T$ 表示 M 的同型分量型T，那么我们有$\varphi (V_S) = M_T$。
 
 V中与S不同的每个简单子模$S'$都满足$S'\cap S = 0$。因此，当且仅当 $\varphi (S')$ 同构于 T (引理 2) 时，它才同构于 S。现在，$V_S$是与S同构的V的简单子模的和，并且$M_T$是与T同构的M的简单子模的和。因此命题9紧随命题7和8。
 
@@ -584,7 +584,7 @@ $$
 
 是相应的图表或 A-模。那么$(\mathscr{E})$是正合序列当且仅当$(P\otimes \mathscr{E})$是正合序列。
 
-假设序列 $(\mathscr{E})$ 是精确的。由于右B-模 P 是射影，序列 $(P\otimes \mathscr{E})$ 是精确的（II, §3, No. 6、p. 251、命题 5 和 II, §3, No. 7、p. 257，推论 6）。
+假设序列 $(\mathscr{E})$ 是精确的。由于右B-模 P 是射影，序列 $(P\otimes \mathscr{E})$ 是精确的（II, §3, No. 6、p. 251、命题 5 和 II, §3, No. 7、p. 257、推论 6）。
 
 相反，假设序列 $(P\otimes \mathscr{E})$ 是精确的。令 Q 为 $(B,A)_k$ 双模，与 P 成逆，且$\theta : Q\otimes_AP\rightarrow_sB_d$ 同构。考虑交换律图表
 
@@ -596,7 +596,7 @@ $V'f$ // V $g$ // $V''$。
 
 由于 Q 是射影 A-模并且序列 $(P\otimes \mathscr{E})$ 是精确的，因此图表的第一行是正合序列。由于垂直箭头是同构，所以第二行也是精确的。
 
-#### 推论{#alg-viii-s6-n6-cor-1 .statement tag=007J}
+#### 推论 {#alg-viii-s6-n6-cor-1 .statement tag=007J}
 
 设$f: V\rightarrow W$为B-线性映射。那么 $f$ 是单射（或满射）当且仅当 $1_P\otimes f$ 是。
 
@@ -612,7 +612,7 @@ A-模$P\otimes_BV$是。
 
 a) 假设 V 是射影的。存在集合 I 使得 V 同构于 $B^{(I)}_s$ 的直因子子模 。那么A-模$P\otimes_BV$同构于$P^{(I)}$的直因子子模；由于 P 是射影 A-模，因此同样适用于 $P\otimes_BV$。
 
-b) 假设B-模V是生成的。令 M 为 A-模。存在 B-模 W 使得 M 与 $P\otimes_BW$ 同构。通过VIII、p. 80的定理 1，存在集合I和满射$\varphi : V^{(I)}\rightarrow W$。根据推论，从 $P\otimes (V^{(I})$ 到 $P\otimes_AW$ 的映射 $1_P\otimes \varphi$ 是满射，从而给出满射 $(P\otimes V)^{(I)}\rightarrow M$。到VIII、p. 80、$P\otimes V$ 中的定理 1 为生成A-模。
+b) 假设B-模V是生成的。令 M 为 A-模。存在 B-模 W 使得 M 与 $P\otimes_BW$ 同构。通过VIII、p. 80的定理 1，存在集合I和满射$\varphi : V^{(I)}\rightarrow W$。到推论时，从 $P\otimes (V^{(I})$ 到 $P\otimes_AW$ 的映射 $1_P\otimes \varphi$ 是满射，从而给出满射 $(P\otimes V)^{(I)}\rightarrow M$。到VIII、p. 80、$P\otimes V$ 中的定理 1 为生成A-模。
 
 c) B-模 V 是忠实的，当且仅当其湮没子减少到 0。 断言 c) 因此从 VIII、p. 105 的例 3 得出。
 
@@ -628,13 +628,13 @@ $$
 
 A和B以及P和Q的角色），我们看到B-模$Q\otimes_AP\otimes_BV$也有这个性质。因而，B-模V也是如此，它与它同构。
 
-#### 推出{#alg-viii-s6-n6-cor-2 .statement tag=007L}
+#### 推出 {#alg-viii-s6-n6-cor-2 .statement tag=007L}
 
-环 A 是左阿廷的（或左诺特的）当且仅当环 B 是。
+环 A 是左阿廷的（分别是左诺特的）当且仅当环 B 是。
 
-由于同构介于B的左理想的有序集合和P的A-子模的集合之间，环B是左阿廷的（或左诺特的）当且仅当A-模P是阿廷的（分别为诺特）。然而，到 VIII、p. 101、A-模的定理 1 时，P 为生成的并且是有限生成的；特别是，对于整数$n\geqslant 1$，$A_s$同构于$P^n$的直因子。因而，当且仅当 A 为左阿廷的（或左诺特的）时，P 才为阿廷的（或诺特）。
+由于同构位于 B 的左理想的有序集合和 P 的 A-子模的集合之间，环 B 是左阿廷的（或左诺特的）当且仅当 A-模 P 是阿廷的（分别为诺特）。然而，通过 VIII、p. 101、A-模的定理 1，P 为生成的并且是有限生成的；特别是，对于整数$n\geqslant 1$，$A_s$同构于$P^n$的直因子。因而，当且仅当 A 为左阿廷的（或左诺特的）时，P 才为阿廷的（或诺特）。
 
-### 7. 森田等价共代数
+### 7. 森田等价 / 代数
 
 #### 命题 13 {#alg-viii-s6-prop-13 .statement tag=007M}
 
@@ -648,11 +648,11 @@ d) 对于$i= 1,2$，令$A_i$和$B_i$为森田等价的$k$代数和$P_i$可逆的
 
 e) 如果 A 和 B 是 Morita 等价的 $k$-代数，且 $k'$ 是可交换的 $k$-代数，则 $k'$-代数 $A_{(k')}$ 和 $B_{(k')}$ 是 Morita 等价的。
 
-断言 a) 由VIII、p. 102 的推论 1 得出，并隐含 b)。
+断言 a) 由VIII、p. 102 中的推论 1 得出，并蕴含 b)。
 
 令 K 和 L 为$k$-代数且域，并令 P 为可逆的$(K,L)_k$-双模。右L向量空间P是单模(VIII,p. 104)，因此维数为1，所以$k$-代数End$_L(P)$和L是同构的。从K到End$_L(P)$经过VIII、p. 101、定理1、映射$a\mapsto a_P$是同构。因而，域 K 和 L 在 $k$ 上同构； 断言 c)如下。
 
-在 d) 的假设下，令 $Q_i(i= 1,2)$ 为 $(B_i,A_i)_k$ 双模逆于 $P_i$。用 Q 表示 $(B,A)_k$-双模 $Q_1\otimes_kQ_2$。考虑规范的 $k$-线性同构 $(P_1\otimes_kP_2)\otimes_k(Q_1\otimes_kQ_2)\rightarrow (P_1\otimes_kQ_1)\otimes_k$ $(P_2\otimes_kQ_2)$；当经过为商时，定义态射
+在 d) 的假设下，令 $Q_i(i= 1,2)$ 为 $(B_i,A_i)_k$ 双模逆于 $P_i$。用 Q 表示 $(B,A)_k$-双模 $Q_1\otimes_kQ_2$。考虑规范的 $k$-线性同构 $(P_1\otimes_kP_2)\otimes_k(Q_1\otimes_kQ_2)\rightarrow (P_1\otimes_kQ_1)\otimes_k$ $(P_2\otimes_kQ_2)$；当经过到商时，定义态射
 
 $$
 (P_1\otimes_kP_2)\otimes_B(Q_1\otimes_kQ_2)\rightarrow (P_1\otimes_{B_1}Q_1)\otimes_k(P_2\otimes_{B_2}Q_2)
@@ -686,7 +686,7 @@ $$
 
 (ii) 由元素 $e_{ij}$ 生成的 B 的两侧理想等于 B。
 
-设 P 为右B-模。那么 P 是射影且有限生成的当且仅当它同构于形式 $B^n_d$ 的 B-模的直因子子模，其中 $n$ 是整数 $\geqslant 0$（II, §2, No. 2，p. 232，推论 1）。如果我们认同$k$-代数$\mathbf{M}_n(B)$和End(B$^n_d$)，那么这意味着$\mathbf{M}_n(B)$中存在幂等$e$，使得P与$eB^n_d$同构的。
+设 P 为右B-模。那么 P 是射影且有限生成的当且仅当它同构于形式 $B^n_d$ 的 B-模的直因子子模，其中 $n$ 是整数 $\geqslant 0$ (II, §2, No. 2, p. 232, 推论 1).如果我们认同$k$-代数$\mathbf{M}_n(B)$和End(B$^n_d$)，那么这意味着$\mathbf{M}_n(B)$中存在幂等$e$，使得P与$eB^n_d$同构的。
 
 当且仅当其理想迹$\tau (P)$等于B，即$\tau (eB^n_d) = B$（VIII，p. 80，定理1）时，B-模P才是生成的。令$x_1, . . . , x_n$为$B^n_d$相应的的元素至矩阵$e$的列，并令$x^*_i$（对于$1\leqslant i\leqslant n$）为$eB^n_d$上的线性形式$(b_1, . . . , b_n)\mapsto b_i$。族$(x_1, . . . , x_n)$生成B-模$eB^n_d$，族$(x^*_1, . . . , x^*_n)$生成是双重的。现在，我们有了$\langle x^*_i, x_j\rangle =e_{ij}$，所以$\tau (eB^n_d)$是由$e_{ij}$生成的B的两侧理想。这就证明了引理3。
 

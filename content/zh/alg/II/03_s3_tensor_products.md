@@ -50,16 +50,16 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 53b18017c0f3f0324888ec7b2c72d003652c139c4efdc76f7b548057cede2203
+content_sha256: 04613476a23b48814f8a0ee705a4a2c95f8bf0d62e0ea0e91f30d8b34ef5e778
 translated_from: content/en/alg/II/03_s3_tensor_products.md
 translation_method: google
 source_content_sha256: 4cc4310afca7381c71a95e1a30d8b454ee7692d8209261c6a3c8ad67f1781a39
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: af4967ecdb818b0da9668219a102b6b4ced0411ff45b401ebcc3887a12b182ef
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。 张量积
@@ -75,16 +75,16 @@ $$
 u(x_1, x_2 + y_2) = u(x_1, x_2) + u(x_1, y_2).
 $$
 
-注这特别意味着 $u(0, x_2) = u(x_1, 0) = 0$ 对于所有 $x_1 \in G_1, x_2 \in G_2$。
+请注意，这特别意味着 $u(0, x_2) = u(x_1, 0) = 0$ 对于所有$x_1 \in G_1, x_2 \in G_2$。
 
-设 A 为环，E 右A-模，F 左A-模。我们将考虑普遍映射问题（集合理论，IV, § 3, no. 1），其中$\Sigma$是$\mathbf{Z}$模块结构的类（态射则为$\mathbf{Z}$线性映射，在其他字中， 加法群同态），$\alpha$-映射是$E \times F$的映射$f$到$\mathbf{Z}$-模块G，其是$\mathbf{Z}$双线性，进一步满足，对于所有$x \in E, y \in F$和$\lambda \in A$
+设 A 为环，E 右A-模，F 左A-模。我们将考虑普遍映射问题（集合理论，IV, § 3, no. 1），其中$\Sigma$是$\mathbf{Z}$模块结构的类（态射则为$\mathbf{Z}$线性映射，在其他情况下） 字、加法群同态），$\alpha$-映射是 $E \times F$ 的映射 $f$ 到 $\mathbf{Z}$-模块 G，其为 $\mathbf{Z}$ 双线性，进一步为满足，对于所有$x \in E, y \in F$ 和 $\lambda \in A$
 
 $$(1)$$
 $$
 f(x \lambda, y) = f(x, \lambda y).
 $$
 
-我们证明这个问题承认解。为此，我们考虑$E \times F$的元素的形式线性组合的$\mathbf{Z}$-模块$C = \mathbf{Z}^{(E \times F)}$，其系数为$\mathbf{Z}$（§ 1, no. 11），其中基可以被认为由有序对$(x, y)$组成，其中$x \in E$ 和 $y \in F$。令 D 为由以下型之一的元素生成的 C 的子$\mathbf{Z}$模块：
+我们证明这个问题承认解。为此，我们考虑$E \times F$的元素的形式线性组合的$\mathbf{Z}$-模块$C = \mathbf{Z}^{(E \times F)}$和$\mathbf{Z}$中的系数（§ 1, no. 11），其中基可以被认为由有序对组成$(x, y)$，其中 $x \in E$ 和 $y \in F$。令 D 为由以下型之一的元素生成的 C 的子$\mathbf{Z}$模块：
 
 $$(2)$$
 $$
@@ -99,45 +99,45 @@ $$
 
 #### 定义 1 {#alg-ii-s3-def-1 .statement tag=05OR}
 
-* 右A-模 E 和左A-模 F* 的张量积，用 $E \otimes_A F$ 或 $E \otimes_A F$ 表示（如果不用担心混淆，则简单地用 $E \otimes F$ 表示） * 是商 $\mathbf{Z}$-模* $C/D$（$\mathbf{Z}$-模的商） $E \times F$的元素形式线性组合的C与$\mathbf{Z}$中的系数，由子模$D$由型(2))之一的元素生成。 *对于$x \in E$和$y \in F$，$E \otimes_A F$的元素即元素的典范像，$C = \mathbf{Z}^{(E \times F)}$的$(x, y)$记为$x \otimes y$，称为$x$的张量积， $y$。
+* 右A-模 E 和左A-模 F* 的张量积，用 $E \otimes_A F$ 或 $E \otimes_A F$ 表示（如果不用担心混淆，则简单地用 $E \otimes F$ 表示） * 是商 $\mathbf{Z}$-模块* $C/D$（商的$\mathbf{Z}$中$\mathbf{Z}$-$E \times F$元素正式线性组合和系数的模块C，由型之一元素生成子模$D$(2))。 *对于$x \in E$和$y \in F$，$E \otimes_A F$的元素即元素的典范像，$C = \mathbf{Z}^{(E \times F)}$的$(x, y)$记为$x \otimes y$，称为$x$的张量积， $y$。
 
-$E \times F$到$E \otimes_A F$的映射$(x, y) \mapsto x \otimes y$被称为*规范*。它是满足条件 (1) 的 $\mathbf{Z}$ 双线性映射。
+$E \times F$到$E \otimes_A F$的映射$(x, y) \mapsto x \otimes y$称为*规范*。它是满足条件 (1) 的 $\mathbf{Z}$ 双线性映射。
 
-我们展示了张量积$E \otimes_A F$和上面的普遍映射问题的典范映射形式解较早的姿势。准确地说：
+我们展示了张量积 $E \otimes_A F$ 以及上面的普遍映射问题的典范映射形式解较早的姿势。准确地说：
 
 #### 命题 1 {#alg-ii-s3-prop-1 .statement tag=05OS}
 
 (a) *令$g$为$E \otimes_A F$到$\mathbf{Z}$模块$G$的$\mathbf{Z}$线性映射。 $E \times F$到$G$的映射$(x, y) \mapsto f(x, y) = g(x \otimes y)$是$\mathbf{Z}$双线性并且满足条件(1)。*
 
-(b) *相反，令$f$是$E \times F$到$\mathbf{Z}$-模块$G$满足条件的$\mathbf{Z}$双线性映射 (1)。那么存在一个且仅有一个 $E \otimes_A F$ 到 $G$ 的 $\mathbf{Z}$-线性映射 $g$，使得 $f(x, y) = g(x \otimes y)$ 对应 $x \in E, y \in F$。*
+(b) *相反，令$f$是$E \times F$到$\mathbf{Z}$-模块$G$满足条件的$\mathbf{Z}$双线性映射 (1)。那么存在且仅有一个 $\mathbf{Z}$-线性映射 $g$ 将 $E \otimes_A F$ 映射到$G$，使得 $f(x, y) = g(x \otimes y)$ 对应于 $x \in E, y \in F$。*
 
-如果$\phi$将$E \times F$的典范映射代入$E \otimes_A F$，则$f = g \circ \phi$； 从而（一）。为了证明（b），我们注，在定义 1的记号中，$f$扩展到$C$的$\mathbf{Z}$线性映射$\bar{f}$到$G$（§ 1, no. 11，命题） 17）。根据关系 (1)，对于型 (2) 之一的 $C$ 的所有元素，$\bar{f}$ 为零，因此在 $D$ 上。因此，存在$C/D = E \otimes_A F$到$G$的$\mathbf{Z}$线性映射$g$，使得$\bar{f} = g \circ \psi$，其中$\psi : C \to C/D$是典范同态（§ 1, no. 8，*注*）。 $g$的唯一性是直接的，因为$E \otimes_A F$是由形式$x \otimes y$的元素生成为$\mathbf{Z}$模块。
+如果$\phi$将$E \times F$的典范映射代入$E \otimes_A F$，则$f = g \circ \phi$； 从而（一）。为了显示(b)，我们注意到，在定义 1的记号中，$f$扩展到$C$的$\mathbf{Z}$线性映射$\bar{f}$到$G$（§ 1, no. 11，命题17）。根据关系 (1)，对于型 (2) 之一的 $C$ 的所有元素，$\bar{f}$ 为零，因此在 $D$ 上。因此，存在$C/D = E \otimes_A F$到$G$的$\mathbf{Z}$线性映射$g$，使得$\bar{f} = g \circ \psi$，其中$\psi : C \to C/D$是典范同态（§ 1, no. 8，*注*）。 $g$的唯一性是直接的，因为$E \otimes_A F$是由形式$x \otimes y$的元素生成为$\mathbf{Z}$模块。
 
-将$\mathbf{Z}$的$\mathbf{Z}$模块的命题 1 定义a *典范同构*将$E \times F$的$f$映射到$G$、满足条件 (1)， $\mathbf{Z}$-模块$\mathrm{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$。
+将$\mathbf{Z}$的$\mathbf{Z}$模的命题 1 定义a *典范同构*将$E \times F$的$f$映射到$G$、满足条件 (1)， $\mathbf{Z}$-模块$\mathrm{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$。
 
 当$A = \mathbf{Z}$、条件(1)自动满足*每个*$\mathbf{Z}$双线性映射$f$和$C$的子模$D$已经由(2)中前两个型的元素生成。
 
-如果现在我们回到一般情况，$E'$和$F'$分别表示$E$和$F$的底层$\mathbf{Z}$模块，则上面的注和定义1立即表明$\mathbf{Z}$模块$E \otimes_A F$可以是由形式$(x \lambda) \otimes y - x \otimes (\lambda y)$的元素生成的子$\mathbf{Z}$模块，以$\mathbf{Z}$模块$E' \otimes_{\mathbf{Z}} F'$的*商*规范地标识，其中$x$贯穿$E$，$y$贯穿$F$和$\lambda$贯穿$A$。
+如果现在我们回到一般情况，$E'$和$F'$分别表示$E$和$F$的底层$\mathbf{Z}$模块，则上面的注和定义1立即表明$\mathbf{Z}$模块$E \otimes_A F$可以是由形式 $(x \lambda) \otimes y - x \otimes (\lambda y)$ 的元素生成的子$\mathbf{Z}$模块以$\mathbf{Z}$模块$E' \otimes_{\mathbf{Z}} F'$的*商*进行规范标识，其中$x$贯穿$E$，$y$贯穿$F$和$\lambda$贯穿$A$。
 
 #### 推论 1 {#alg-ii-s3-prop-1-cor-1 .statement tag=05OT}
 
 *令$H$为$\mathbf{Z}$模，$h : E \times F \to H$为$\mathbf{Z}$双线性映射满足条件 (1)，使得$H$由$h(E \times F)$生成。假设对于每个$\mathbf{Z}$-模块$G$和$E \times F$到$G$满足(1)*的每个$\mathbf{Z}$双线性映射$f$(1)*，存在一个$\mathbf{Z}$线性映射$g : H \to G$使得$f = g \circ h$。那么，如果$\phi$将$E \times F$的典范映射表示为$E \otimes_A F$，则存在且仅有一个$E \otimes_A F$的同构$\theta$到$H$使得$h = \theta \circ \phi$。
 
-假设 $h(E \times F)$ 生成 $H$ 意味着 $g$ 的唯一性；那么推论就是解普遍映射问题的一般唯一性性质（集合理论，IV, § 3, no. 1）。
+假设 $h(E \times F)$ 生成 $H$ 意味着 $g$ 的唯一性； 推论则只是普遍映射问题的解的一般唯一性性质（集合理论，IV, § 3, no. 1）。
 
 #### 推论 2 {#alg-ii-s3-prop-1-cor-2 .statement tag=05OU}
 
-*令* $E^0$（分别$F^0$）*表示模* $E$（分别$F$）*视为左（或右）模超过逆环* $A^0$； *则存在一个且仅一个* $\mathbf{Z}$*-模块同构* $\sigma : E \otimes_A F \to F^0 \otimes_{A^0} E^0$ *使得* $\sigma(x \otimes y) = y \otimes x$ *对于* $x \in E$ *和* $y \in F$（张量积的“交换律”）。
+*令* $E^0$（分别$F^0$）*表示模* $E$（分别$F$）*视为左（或右）模超过逆环* $A^0$； *则存在一个且仅有一个* $\mathbf{Z}$*-模块同构* $\sigma : E \otimes_A F \to F^0 \otimes_{A^0} E^0$ *使得* $\sigma(x \otimes y) = y \otimes x$ *对于* $x \in E$ *和* $y \in F$（张量积的“交换律”）。
 
 由$E^0$和$F^0$上的$A^0$模结构的定义，$E \times F$的映射$(x, y) \mapsto y \otimes x$进入$F^0 \otimes_{A^0} E^0$是$\mathbf{Z}$双线性且满足条件(1)， 从而$\mathbf{Z}$-线性映射$\sigma$的存在性和唯一性。类似地，$\mathbf{Z}$-线性映射$\tau : F^0 \otimes_{A^0} E^0 \to E \otimes_A F$被定义为使得$\tau(y \otimes x) = x \otimes y$并且显然$\sigma$和$\tau$是逆同构。
 
-#### 注 {#alg-ii-s3-n1-rem-1 .statement tag=05OV}
+#### 注{#alg-ii-s3-n1-rem-1 .statement tag=05OV}
 
-非零模的张量积可能是零：对于例，对所有$x \in E$取两个$\mathbf{Z}$模$E = \mathbf{Z}/2\mathbf{Z}$和$F = \mathbf{Z}/3\mathbf{Z}$，$2x = 0$和$3y = 0$， $y \in F$；因此，在$E \otimes_{\mathbf{Z}} F$中，
+非零模的张量积可能是零：例如，对所有$x \in E$和$y \in F$取两个$\mathbf{Z}$模$E = \mathbf{Z}/2\mathbf{Z}$和$F = \mathbf{Z}/3\mathbf{Z}$、$2x = 0$和$3y = 0$；因此，在$E \otimes_{\mathbf{Z}} F$中，
 $$
 x \otimes y = 3(x \otimes y) - 2(x \otimes y) = x \otimes (3y) - (2x) \otimes y = 0
 $$
-对于所有 $x$ 和 $y$（cf. no. 6，推论 4 到命题 6）。
+适用于所有 $x$ 和 $y$（cf. no. 6、推论 4 至命题 6）。
 
 ### 2. 张量积两个线性映射
 
@@ -161,7 +161,7 @@ $$
 (4) $$
 \operatorname{Hom}_A(E, E') \otimes_{\mathbf{Z}} \operatorname{Hom}_A(F, F') \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, E' \otimes_A F')
 $$
-与张量积线性映射$u \otimes v : E \otimes_A F \to E' \otimes_A F'$中的每个元素$u \otimes v$相关联。 注典范映射 (4) *不一定是单射或满射*。因此，记号$u \otimes v$可能会导致混淆，因此有必要根据上下文指示它是否表示元素或张量积或线性映射。
+与张量积线性映射$u \otimes v : E \otimes_A F \to E' \otimes_A F'$中的每个元素$u \otimes v$相关联。请注意，典范映射 (4) *不一定是单射或满射*。因此，记号$u \otimes v$可能会导致混淆，因此有必要根据上下文指出它是否表示元素、张量积或线性映射。
 
 进一步，设$E''$为右$A$模，$F''$为左$A$模，$u' : E' \to E''$、$v' : F' \to F''$$A$线性映射；由(3)可知
 (5)
@@ -169,22 +169,22 @@ $$
 (u' \circ u) \otimes (v' \circ v) = (u' \otimes v') \circ (u \otimes v).
 $$
 
-### 3. 变换环
+### 3. 变换 / 环
 
 #### 命题 2 {#alg-ii-s3-prop-2 .statement tag=05OW}
 
-*令$A, B$为两个环、$\rho : B \to A$、环、同态和$E$（分别为$F$）右（分别为左）$A$模块。 Then there exists one and only one $\mathbf{Z}$-linear mapping*
+*令$A, B$为两个环、$\rho : B \to A$、环、同态和$E$（分别为$F$）右（分别为左）$A$模块。 那么存在且仅有一个$\mathbf{Z}$-线性映射*
 (6)
 $$
 \phi : \rho_*(E) \otimes_B \rho_*(F) \to E \otimes_A F
 $$
-*such that, for all $x \in E$ and $y \in F$, the image under $\phi$ of the element $x \otimes y$ of $\rho_*(E) \otimes_B \rho_*(F)$ is the element $x \otimes y$ of $E \otimes_A F$; this $\mathbf{Z}$-linear mapping is surjective.*
+*这样，对于所有$x \in E$和$y \in F$，$\rho_*(E) \otimes_B \rho_*(F)$的元素$x \otimes y$的$\phi$下的图像是$E \otimes_A F$的元素$x \otimes y$；这个 $\mathbf{Z}$ 线性映射是满射的。*
 
 我们将$\rho_*(E) \times \rho_*(F)$的映射$(x, y) \mapsto x \otimes y$考虑为$E \otimes_A F$；它是$\mathbf{Z}$双线性的，并且对于所有$\beta \in B$，通过定义$(x \rho(\beta)) \otimes y = x \otimes (\rho(\beta)y)$，因此no. 1的条件（1）成立，从而$\phi$的存在和唯一性（no. 1， 命题1)。后者断言源自元素$x \otimes y$生成$\mathbf{Z}$模块$E \otimes_A F$。
 
 映射 (6) 被称为*规范*。
 
-#### 推论{#alg-ii-s3-n3-cor-1 .statement tag=05OX}
+#### 推论 {#alg-ii-s3-n3-cor-1 .statement tag=05OX}
 
 *令$\mathfrak{J}$为$A$的双面理想，使得$\mathfrak{J}$包含在$E$的湮没子和$F$的湮没子中，因此$E$（或$F$）具有规范左（或右） $(A/\mathfrak{J})$-模块结构*（$§ 1$，no. 12）。 *然后典范同态* (6)
 $$
@@ -252,7 +252,7 @@ $$
 
 (b) 相反，令 f 为 E $\times$ F 到 G 满足条件 (1) (no. 1) 和 (8) 的 $\mathbf{Z}$ 双线性映射。则多模 E $\otimes_A$ F 中存在且仅有一个线性映射 g 进入多模 G，使得 $f(x, y) = g(x \otimes y)$ 对应 $x \in E, y \in F$。
 
-断言 (a) 紧随 E $\otimes_A$ F 上多模块结构的定义，因为对于例 $(x \otimes y)v'_j = (xv'_j) \otimes y$。为了证明(b)，我们首先注no. 1的命题1给出了$\mathbf{Z}$线性映射g的存在性和唯一性，使得$g(x \otimes y) = f(x, y)$对于$x \in E, y \in F$；所需要做的只是验证 g 对于多模结构是线性的。作为元素 $x \otimes y$ 生成 $\mathbf{Z}$-模块 E $\otimes_A$ F，足以验证关系 $g(\mu'(x \otimes y)) = \mu'_i g(x \otimes y)$ 及其类似物；但这是紧随公式$g(x \otimes y) = f(x, y)$和关系（8）而来的。
+断言 (a) 紧随 E $\otimes_A$ F 上多模块结构的定义，因为例如 $(x \otimes y)v'_j = (xv'_j) \otimes y$。为了证明(b)，我们首先注意到no. 1的命题1给出了$\mathbf{Z}$线性映射g的存在性和唯一性，使得$g(x \otimes y) = f(x, y)$对于$x \in E, y \in F$；所需要做的只是验证 g 对于多模结构是线性的。作为元素 $x \otimes y$ 生成 $\mathbf{Z}$-模块 E $\otimes_A$ F，足以验证关系 $g(\mu'(x \otimes y)) = \mu'_i g(x \otimes y)$ 及其类似物；但这是紧随公式$g(x \otimes y) = f(x, y)$和关系（8）而来的。
 
 #### 学院{#alg-ii-s3-n4-sch-1 .statement tag=05OZ}
 
@@ -282,7 +282,7 @@ $$
 \sigma : F \otimes_C E \to E \otimes_C F
 $$
 
-（no. 1，推论 2 到命题 1）则为$C$-模同构。
+(no. 1, 推论 2 到命题 1) 则为$C$-模块同构。
 
 由此定义可以得出，如果$(a_\lambda)_{\lambda \in L}$（或$(b_\mu)_{\mu \in M}$）是$C$模块$E$（或$F$）的*生成的系统*，则$(a_\lambda \otimes b_\mu)$是*生成的 $C$模块$E \otimes_C F$的系统*；特别是，如果$E$和$F$是*有限生成的*$C$模块，那么$E \otimes_C F$也是。
 
@@ -310,7 +310,7 @@ $$
 \mathrm{Hom}_C(E, E') \otimes_C \mathrm{Hom}_C(F, F')
 $$
 
-线性映射$u \otimes v$。 注典范映射 (11) *不一定是单射或满射* (§ 4, 习题 2)。
+线性映射$u \otimes v$。请注意，典范映射 (11) *不一定是单射或满射*（§ 4，习题 2）。
 
 #### 注 {#alg-ii-s3-n5-rem-1 .statement tag=05P1}
 
@@ -375,13 +375,13 @@ $$
 
 *的*$\mathbf{Z}$-*同态**是准确的*。
 
-凭借no. 2、公式(5)、$\bar{v} \circ \bar{u} = (v \circ u) \otimes 1_F = 0$； 像$H = \bar{u}(E' \otimes F)$包含在核$L = \operatorname{Ker}(\bar{v})$中；通过经过求商，因此我们从 $\bar{v}$ 导出 $\bar{u}$ 的余核 $M = (E \otimes F)/H$ 的 $\mathbf{Z}$ 线性映射 $f$ 到 $E'' \otimes F$；必须证明$f$是*双射的*，因此它足以满足定义一个$\mathbf{Z}$线性映射$g : E'' \otimes F \to M$，使得$g \circ f$和$f \circ g$是恒等映射。
+凭借no. 2、公式(5)、$\bar{v} \circ \bar{u} = (v \circ u) \otimes 1_F = 0$； 像$H = \bar{u}(E' \otimes F)$包含在核$L = \operatorname{Ker}(\bar{v})$中；通过经过到商，我们因此从$\bar{v}$导出$\bar{u}$的余核$M = (E \otimes F)/H$到$E'' \otimes F$的$\mathbf{Z}$线性映射$f$；必须证明$f$是*双射的*，因此足以满足定义一个$\mathbf{Z}$线性映射$g : E'' \otimes F \to M$，使得$g \circ f$和$f \circ g$是恒等映射。
 
-设$x'' \in E''$，$y \in F$；到假设，存在$x \in E$，使得$v(x) = x''$。我们证明，如果$x_1, x_2$是E的两个元素，使得$v(x_1) = v(x_2) = x''$和$\phi : E \otimes F \to M$是典范映射，则$\phi(x_1 \otimes y) = \phi(x_2 \otimes y)$。只要证明如果$v(x) = 0$则$\phi(x \otimes y) = 0$即可，这是从$x = u(x')$与$x' \in E'$、从而$x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$这一事实得出的。如果对于所有$x \in E$，将$(x'', y)$映射到$\phi(x \otimes y)$的唯一值，使得$v(x) = x''$，映射将$E'' \times F$定义到M中；这个映射是$\mathbf{Z}$双线性并且满足条件 (1) (no. 1)，因为$v(x \lambda) = x'' \lambda$和$(x \lambda) \otimes y = x \otimes (\lambda y)$对于$x \in E$；因此，存在$E'' \otimes F$到M的$\mathbf{Z}$线性映射$g$，使得$g(x'' \otimes y) = \phi(x \otimes y)$对应于$y \in F, x \in E$和$x'' = v(x)$。这个定义进一步证明了$f \circ g$重合和恒等映射对于元素的
+设$x'' \in E''$，$y \in F$；到假设，存在$x \in E$，使得$v(x) = x''$。我们证明，如果$x_1, x_2$是E的两个元素，使得$v(x_1) = v(x_2) = x''$和$\phi : E \otimes F \to M$是典范映射，则$\phi(x_1 \otimes y) = \phi(x_2 \otimes y)$。只要证明如果$v(x) = 0$则$\phi(x \otimes y) = 0$即可，这是从$x = u(x')$与$x' \in E'$、从而$x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$这一事实得出的。如果对于所有$x \in E$，将$(x'', y)$映射到$\phi(x \otimes y)$的唯一值，使得$v(x) = x''$、映射将$E'' \times F$定义到M中；这个映射是$\mathbf{Z}$双线性并且满足条件 (1) (no. 1)，因为$v(x \lambda) = x'' \lambda$和$(x \lambda) \otimes y = x \otimes (\lambda y)$对于$x \in E$；因此，存在$E'' \otimes F$到M的$\mathbf{Z}$线性映射$g$，使得$g(x'' \otimes y) = \phi(x \otimes y)$对应于$y \in F, x \in E$和$x'' = v(x)$。这个定义进一步证明了$f \circ g$重合和恒等映射对于元素的
 
-形式 $x'' \otimes y$ 的$E'' \otimes F$，因此$f \circ g$ 是$E'' \otimes F$ 的恒等映射；另一方面，对于$x \in E$和$y \in F$，$f(\phi(x \otimes y)) = v(x) \otimes y$乘以定义，因此$g(f(\phi(x \otimes y))) = \phi(x \otimes y)$，并且，作为形式$\phi(x \otimes y)$生成M的元素，$g \circ f$是恒等映射 M 的。
+形式 $x'' \otimes y$ 的$E'' \otimes F$，因此$f \circ g$ 是$E'' \otimes F$ 的恒等映射；另一方面，对于$x \in E$和$y \in F$，$f(\phi(x \otimes y)) = v(x) \otimes y$乘以定义，因此$g(f(\phi(x \otimes y))) = \phi(x \otimes y)$，并且，如形式$\phi(x \otimes y)$生成M的元素，$g \circ f$是恒等映射 M 的。
 
-#### 推论{#alg-ii-s3-n6-cor-1 .statement tag=05P3}
+#### 推论 {#alg-ii-s3-n6-cor-1 .statement tag=05P3}
 
 *设 F、F'、F'' 为左A-模，E 右A-模且*
 $$
@@ -390,7 +390,7 @@ F' & \xrightarrow{s} & F & \xrightarrow{t} & F'' \longrightarrow 0
 \end{array}
 $$
 *(16)*
-*正合序列 / 线性映射。写出 \bar{s} = l_E \otimes s, \bar{t} = l_E \otimes t, \mathbf{Z} 同态* 的序列
+*正合序列共线性映射。写出 \bar{s} = l_E \otimes s, \bar{t} = l_E \otimes t, \mathbf{Z} 同态* 的序列
 $$
 \begin{array}{cccccc}
 E \otimes_A F' & \xrightarrow{\bar{s}} & E \otimes_A F & \xrightarrow{\bar{t}} & E \otimes_A F'' & \longrightarrow 0
@@ -399,11 +399,11 @@ $$
 *(17)*
 *准确。*
 
-当 E（或 F）被视为左（或右）A^0 模时，F \otimes_{A^0} E 被识别为 E \otimes_A F，并且 F' \otimes_{A^0} E 和 F'' \otimes_{A^0} E 也有类似的识别（no. 1，推论 2 到命题 1）；推论立即从命题 5 得出。
+当 E（或 F）被视为左（或右）A^0 模块时，F \otimes_{A^0} E 被识别为 E \otimes_A F，并且 F' \otimes_{A^0} E 和 F'' \otimes_{A^0} E (no. 1, 推论 2 到命题有类似的标识1）； 推论紧接着是命题 5。
 
 #### 注 {#alg-ii-s3-n6-rem-1 .statement tag=05P4}
 
-注一般来说，如果 E' 是右A-模 E 的子模且 j : E' \to E 典范嵌入, 典范映射
+请注意，一般来说，如果 E' 是右A-模 E 的子模并且 j ： E' \to E 典范嵌入, 典范映射
 $$
 j \otimes 1_F : E' \otimes F \to E \otimes F
 $$
@@ -423,9 +423,9 @@ $$
 *(19)*
 *准确。*
 
-取例 A = \mathbf{Z}，E = \mathbf{Z}，E' = 2\mathbf{Z}，F = \mathbf{Z}/2\mathbf{Z}。由于 E' 与 E 同构的，E' \otimes F 与 E \otimes F 同构的，而 E \otimes F 本身又与 F (no. 4, 命题 4) 同构的。但对于所有 x' = 2x \in E' （其中 x \in E）和所有 y \in F，j(x') \otimes y = (2x) \otimes y = x \otimes (2y) = 0，因为 2y = 0，并且 E' \otimes F in E \otimes F 约化的典范像为 0。
+以 A = \mathbf{Z}、E = \mathbf{Z}、E' = 2\mathbf{Z}、F = \mathbf{Z}/2\mathbf{Z} 为例。由于 E' 与 E 同构的，E' \otimes F 与 E \otimes F 同构的，而 E \otimes F 本身又与 F (no. 4, 命题 4) 同构的。但对于所有 x' = 2x \in E' （其中 x \in E）和所有 y \in F，j(x') \otimes y = (2x) \otimes y = x \otimes (2y) = 0，因为 2y = 0，并且 E' \otimes F in E \otimes F 约化的典范像为 0。
 
-在其他字中，对于 E 的子模 E' 和元素 x \in E' ，必须注意区分元素 x \otimes y “在 E' \otimes F' 中计算”和元素 x \otimes y “在 E \otimes F' 中计算”（在其他字，元素 j(x) \otimes y)。
+在其他字中，对于 E 的子模 E' 和元素 x \in E' ，必须注意区分元素 x \otimes y “以 E' \otimes F' 计算”和元素 x \otimes y “以 E \otimes F' 计算”（在其他字, 元素 j(x) \otimes y)。
 
 稍后我们将在单位模，模 F 的名称下进行研究，使得序列(19)对于每个正合序列(18)都是精确的(*交换代数*，I, § 2)。
 
@@ -436,7 +436,7 @@ $$
 \operatorname{Im}(u \otimes 1_F) + \operatorname{Im}(l_E \otimes s)
 $$
 
-现在 $v \otimes t = (v \otimes 1_{F''}) \circ (1_E \otimes t)$ (no. 2, 公式 (5)) 和 $v \otimes t$ 因此是满射的，根据命题 5 及其推论，它是两个满同态的合成。另一方面，要使$z \in E \otimes F$在$v \otimes t$的核内，$(1_E \otimes t)(z)$属于到$v \otimes 1_{F''}$的核是充分必要的，即，凭借（15）到像
+现在 $v \otimes t = (v \otimes 1_{F''}) \circ (1_E \otimes t)$ (no. 2, 公式 (5)) 和 $v \otimes t$ 因此是满射，凭借命题 5 及其推论成为两个满同态的合成。另一方面，要使$z \in E \otimes F$在$v \otimes t$的核内，$(1_E \otimes t)(z)$属于到$v \otimes 1_{F''}$的核是充分必要的，即根据（15）到像
 
 $$
 u \otimes 1_{F''}: E' \otimes F'' \to E \otimes F''.
@@ -448,7 +448,7 @@ $$
 1_{E'} \otimes t: E' \otimes F \to E' \otimes F''
 $$
 
-由命题 5 的推论，因此 $z$ 约化上的条件存在$a \in E' \otimes F$，使得
+通过推论到命题 5，因此条件在 $z$ 约化上存在$a \in E' \otimes F$，使得
 
 $$
 (l_E \otimes t)(z) = (u \otimes t)(a).
@@ -460,19 +460,19 @@ $$
 
 #### 推论 1 {#alg-ii-s3-prop-6-cor-1 .statement tag=05P6}
 
-*令$E'$为右$A$模块$E$的子模，左$A$模块$F$的$F'$子模以及$\operatorname{Im}(E' \otimes_A F)$和$\operatorname{Im}(E \otimes_A F')$ $E \otimes_A F$的子$\mathbf{Z}$模块，典范映射$E' \otimes_A F \to E \otimes_A F$各自的像，
+*设$E'$为右$A$模块$E$的子模，左$A$模块$F$的$F'$子模以及$\operatorname{Im}(E' \otimes_A F)$和$\operatorname{Im}(E \otimes_A F')$ $E \otimes_A F$的子$\mathbf{Z}$模块，典范映射$E' \otimes_A F \to E \otimes_A F$各自的像，
 
 $$
 E \otimes_A F' \to E \otimes_A F.
 $$
 
-然后是一个规范的 $\mathbf{Z}$-模块同构*
+然后有一个规范的 $\mathbf{Z}$-模块同构*
 
 $$(20)\quad \pi : (E/E') \otimes_A (F/F') \to (E \otimes_A F)/(\operatorname{Im}(E' \otimes_A F) + \operatorname{Im}(E \otimes_A F'))$$
 
 *这样，对于 $\xi \in E/E'$、$\eta \in F$、$\pi(\xi \otimes \eta)$ 是所有元素 $x \otimes y \in E \otimes_A F$ 中的类，使得 $x \in \xi$ 和 $y \in \eta$。
 
-注，当$E$是$((B'_i); A, (C'_j))$多模块时，$F$是$(A, (B''_h); (C''_k))$多模块，并且$E'$和$F'$分别是$E$和$F$的*子多模块*，同构 (20) 对于两侧 (no. 3) 的$((B'_i), (B''_h); (C'_j), (C''_k))$-多模结构来说，是同构。
+请注意，当$E$是$((B'_i); A, (C'_j))$-多模块，$F$是$(A, (B''_h); (C''_k))$-多模块以及$E'$和$F'$分别是$E$和$F$的*子多模块*时，同构 (20) 是同构用于两侧的$((B'_i), (B''_h); (C'_j), (C''_k))$-多模块结构（no. 3）。
 
 #### 推论 2 {#alg-ii-s3-prop-6-cor-2 .statement tag=05P7}
 
@@ -482,21 +482,21 @@ $$(21)\quad \pi : (A/a) \otimes_A F \to F/aF$$
 
 *这样，对于所有 $\bar{\lambda} \in A/a$ 和所有 $x \in F$，$\pi(\bar{\lambda} \otimes x)$ 是类 mod。 $\lambda x$的$aF$，其中$\lambda \in \bar{\lambda}$。
 
-特别是，对于$A = \mathbf{Z}$，可以看出，对于每个整数$n$和每个$\mathbf{Z}$-模$F$，$(\mathbf{Z}/n\mathbf{Z}) \otimes_{\mathbf{Z}} F$都被规范地标识为商$\mathbf{Z}$-模$F/nF$。
+特别是，对于$A = \mathbf{Z}$，可以看出，对于每个整数$n$和每个$\mathbf{Z}$-模块$F$，$(\mathbf{Z}/n\mathbf{Z}) \otimes_{\mathbf{Z}} F$都被规范地标识为商$\mathbf{Z}$-模块$F/nF$。
 
 #### 推论 3 {#alg-ii-s3-prop-6-cor-3 .statement tag=05P8}
 
 令$A$为交换环，$a$为$A$和$E$以及$F$两个$A$模的理想，使得$a$包含在$F$的湮没子中。那么$(A/a)$-模块$E \otimes_A F$和$(E/aE) \otimes_{A/a} F$是规范同构的。
 
-$F$和$E \otimes_A F$被$a$消灭，因此具有规范的$(A/a)$模块结构（$§ 1$，no. 12），如果我们写$E' = aE$，则$\operatorname{Im}(E' \otimes_A F) = 0$；那么$E \otimes_A F$的典范同构(20)到$(E/aE) \otimes_A F$，后者本身与$(E/aE) \otimes_{A/a} F$相同（no. 3，命题2的推论）。
+$F$和$E \otimes_A F$被$a$消灭，因此具有规范的$(A/a)$模块结构（$§ 1$，no. 12），如果我们写$E' = aE$，则$\operatorname{Im}(E' \otimes_A F) = 0$；那么$E \otimes_A F$的典范同构（20）到$(E/aE) \otimes_A F$，后者本身与$(E/aE) \otimes_{A/a} F$相同（no. 3，推论到命题2）。
 
 #### 推论 4 {#alg-ii-s3-prop-6-cor-4 .statement tag=05P9}
 
 令$a, b$为交换环$C$中的两个理想；那么 $C$-模块 $(C/a) \otimes_C (C/b)$ 与 $C(a + b)$ 是规范同构的。
 
-### 7. 张量积 / 乘积和直和
+### 7. 乘积和直和中的张量积
 
-令$(E_\lambda)_{\lambda \in L}$为右$A$模块族，$(F_\mu)_{\mu \in M}$为左$A$模块族，并考虑乘积模$C = \prod_{\lambda \in L} E_\lambda, D = \prod_{\mu \in M} F_\mu$。 映射 $((x_\lambda), (y_\mu)) \mapsto (x_\lambda \otimes y_\mu)$ / $C \times D$ 进入乘积 $\mathbf{Z}$-模块
+令$(E_\lambda)_{\lambda \in L}$为右$A$模块族，$(F_\mu)_{\mu \in M}$为左$A$模块族，并考虑乘积模$C = \prod_{\lambda \in L} E_\lambda, D = \prod_{\mu \in M} F_\mu$。 映射 $((x_\lambda), (y_\mu)) \mapsto (x_\lambda \otimes y_\mu)$ 的 $C \times D$ 进入乘积 $\mathbf{Z}$-模块
 $$
 \prod_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)
 $$
@@ -527,13 +527,13 @@ $$
 
 *典范映射 (23) 是双射的。*
 
-为了证明这一点，只需将直和$G = \bigoplus_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)$的定义$\mathbf{Z}$线性映射$h$映射到$E \otimes_A F$，使得$g \circ h$和$h \circ g$是恒等映射。但是，对于 $G$ 到 $E \otimes_A F$ 的定义 $\mathbf{Z}$ 线性映射，(§ 1, no. 6, 命题 6) 到定义 $\mathbf{Z}$ 线性映射就足够了
+为了证明这一点，只需将直和 $G = \bigoplus_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)$ 定义 $\mathbf{Z}$-线性映射 $h$ 映射到$E \otimes_A F$，使得 $g \circ h$ 和 $h \circ g$ 为恒等映射。但是，对于 $G$ 到 $E \otimes_A F$ 的定义 $\mathbf{Z}$ 线性映射，(§ 1, no. 6, 命题 6) 到定义 $\mathbf{Z}$ 线性映射就足够了
 
 $$
 h_{\lambda \mu} : E_\lambda \otimes_A F_\mu \to E \otimes_A F
 $$
 
-对于每个有序对$(\lambda, \mu)$，我们取$h_{\lambda \mu} = i_\lambda \otimes j_\mu$，其中$i_\lambda : E_\lambda \to E$和$j_\mu : F_\mu \to F$是典范嵌入。然后显然 $h \circ g$ 重合和恒等映射为形式 $\left( \sum_\lambda x_\lambda \right) \otimes \left( \sum_\mu y_\mu \right)$ 的元素，其中生成 $\mathbf{Z}$-模块 $E \otimes_A F$；类似地，$g \circ h$重合和恒等映射对于形式$\sum_{\lambda, \mu} (x_\lambda \otimes y_\mu)$的元素，其中生成$\mathbf{Z}$-模块$G$，因为对于每个有序对$(\lambda, \mu)$ 乘积
+对于每个有序对$(\lambda, \mu)$，我们取$h_{\lambda \mu} = i_\lambda \otimes j_\mu$，其中$i_\lambda : E_\lambda \to E$和$j_\mu : F_\mu \to F$是典范嵌入。然后显然 $h \circ g$ 重合与恒等映射为形式 $\left( \sum_\lambda x_\lambda \right) \otimes \left( \sum_\mu y_\mu \right)$ 的元素，其中生成 $\mathbf{Z}$-模块 $E \otimes_A F$；类似地，$g \circ h$重合和恒等映射对于形式$\sum_{\lambda, \mu} (x_\lambda \otimes y_\mu)$的元素，其中生成$\mathbf{Z}$-模块$G$，因为对于每个有序对$(\lambda, \mu)$ 乘积
 
 $$
 x_\lambda \otimes y_\mu \quad (x_\lambda \in E_\lambda, y_\mu \in F_\mu)
@@ -557,7 +557,7 @@ $$
 
 *如果左$A$-模块$F$承认基$(b_\mu)_{\mu \in M}$，则$E \otimes_A F$的每个元素都可以唯一地写在形式$\sum_\mu (x_\mu \otimes b_\mu)$中，其中$x_\mu \in E$和族$(x_\mu)$有有限支撑。 $\mathbf{Z}$-模块 $E \otimes_A F$ 与 $E^{(M)}$ 同构的，被视为 $\mathbf{Z}$-模块。*
 
-The basis $(b_\mu)$ defines an isomorphism of $F$ onto $\bigoplus_{\mu \in M} Ab_\mu$, whence there is an isomorphism $E \otimes_A F \to \bigoplus_{\mu \in M} (E \otimes_A Ab_\mu)$ by virtue of Proposition 7; as ξ ↦ ξb_μ is an isomorphism of A_s onto Ab_μ, x ↦ x ⊗ b_μ is an isomorphism of E onto E ⊗_A (Ab_μ) by virtue of Proposition 4 of no. 4, whence the corollary.
+$F$的基$(b_\mu)$定义同构到$\bigoplus_{\mu \in M} Ab_\mu$，从而凭借命题7有同构$E \otimes_A F \to \bigoplus_{\mu \in M} (E \otimes_A Ab_\mu)$；因为 ν ↦ б_μ 是 A_s 的同构到 Ab_μ，x ↦ x ⊗ b_μ 是 E 的同构到 E ⊗_A (Ab_μ)，凭借 no. 4 的命题 4，从而推论。
 
 如果 E 是 ((B'_i); A, (C'_j))-多模，典范同构 E ⊗_A F → E^{(M)} 是 ((B'_i); (C'_j))-多模同构。
 
@@ -585,7 +585,7 @@ $$
 
 是单射（或双射）。
 
-如果(b_μ)是F的基，则$\left( \prod_{\lambda \in L} E_\lambda \right) \otimes_A F$的每个元素都可以唯一地写成$z = \sum_\mu ((x_\lambda^{(\mu)}) \otimes b_\mu)$（推论1）；说它的典范像是零意味着，对于所有 λ ε L，$\sum_\mu (x_\lambda^{(\mu)} \otimes b_\mu) = 0$，因此对于所有 λ ε L 和所有 μ（推论 1），$x_\lambda^{(\mu)} = 0$ ，因此$z = 0$。
+如果(b_μ)是F的基，则$\left( \prod_{\lambda \in L} E_\lambda \right) \otimes_A F$的每个元素可以唯一地写为$z = \sum_\mu ((x_\lambda^{(\mu)}) \otimes b_\mu)$(推论1)；说它的典范像是零意味着，对于所有 λ ε L，$\sum_\mu (x_\lambda^{(\mu)} \otimes b_\mu) = 0$，因此对于所有 λ ε L 和所有 μ (推论 1) 以及$z = 0$，$x_\lambda^{(\mu)} = 0$。
 
 证明当 F 承认有限基时典范映射是双射的，凭借命题 7，立即减少到以下情况：
 
@@ -603,7 +603,7 @@ F = A_s；但随后两侧都被规范地标识为$\prod_{\lambda \in L} E_\lambd
 
 这紧随命题 7 而来。
 
-注，如果 E 是$((B'_i); A, (C'_j))$-多模块，F 是$(A, (B''_h); (C''_k))$-多模块，并且这些多模块中的 M 和 N 直因子，则 $M \otimes N$ 是 $((B'_i), (B''_h); (C'_j), (C''_k))$-多模块 $E \otimes F$ 的直因子。
+请注意，如果 E 是$((B'_i); A, (C'_j))$-多模块，F 是$(A, (B''_h); (C''_k))$-多模块，并且这些多模块中的 M 和 N 直因子，则 $M \otimes N$ 是 $((B'_i), (B''_h); (C'_j), (C''_k))$-多模块 $E \otimes F$ 的直因子。
 
 #### 推论 6 {#alg-ii-s3-prop-7-cor-6 .statement tag=05PG}
 
@@ -615,17 +615,17 @@ $$
 
 存在左A-模 Q，使得 $L = P \oplus Q$ 是自由的（§ 2, no. 2，命题 4）并且 $u \otimes 1_L$ 被识别（命题 7）
 $$(u \otimes 1_P) \oplus (u \otimes 1_Q);$$
-因此，只要证明 P 是*自由*时的推论就足够了（§ 1, no. 6，推论 1 到命题 7）。与 $P = A_s$ 的情况相同的参数约化问题，它紧随 no. 4、命题 4。
+因此，当 P 是*自由*时，只需证明推论（§ 1, no. 6、推论 1 到命题 7）。与 $P = A_s$ 的情况相同的参数约化问题，它紧随 no. 4、命题 4。
 
 #### 推论 7 {#alg-ii-s3-prop-7-cor-7 .statement tag=05PH}
 
 *令C为交换环。如果 E 和 F 是两个射影 C 模，则 $E \otimes_C F$ 是射影 C 模。*
 
-这直接从推论 5 以及两个免费 C 模块中的张量积是一个免费 C 模块这一事实得出（推论 2）。
+这紧随推论 5 以及两个免费 C 模块中的张量积是一个免费 C 模块 (推论 2) 的事实。
 
 #### 注 2 {#alg-ii-s3-n7-rem-2 .statement tag=05PI}
 
-在命题7的假设下，令$E'_\lambda$为$E_\lambda$的子模，$F'_\mu$子模为$F_\mu$，并令$E' = \bigoplus_{\lambda \in L} E'_\lambda$，$F' = \bigoplus_{\mu \in M} F'_\mu$。令 Im$(E' \otimes_A F')$ (或 Im(E'_λ ⊗_A F'_μ)) 表示典范映射下 E' ⊗_A F' (或 E'_λ ⊗_AF'_μ) 中 E ⊗_A F (或 E_λ ⊗_A F_μ) 的像；然后同构(23)识别子$\mathbf{Z}$模块
+在命题7的假设下，令$E'_\lambda$为$E_\lambda$的子模，$F'_\mu$子模为$F_\mu$，并令$E' = \bigoplus_{\lambda \in L} E'_\lambda$，$F' = \bigoplus_{\mu \in M} F'_\mu$。令 Im$(E' \otimes_A F')$ (或 Im(E'_λ ⊗_A F'_μ)) 表示典范映射下 E' ⊗_A F' (或 E'_λ ⊗_A F'_μ) 中 E ⊗_A F (或 E_λ ⊗_A F_μ) 的像；然后同构(23)识别子$\mathbf{Z}$模块
 
 $$
 \operatorname{Im}(E' \otimes_A F') \quad \text{and} \quad \bigoplus_{(\lambda, \mu) \in I \times M} \operatorname{Im}(E'_\lambda \otimes_A F'_\mu);
@@ -643,7 +643,7 @@ $$
 
 其中垂直箭头是典范同构。
 
-### 8. 结合性张量积
+### 8. 结合性 / 张量积
 
 #### 命题 8 {#alg-ii-s3-prop-8 .statement tag=05PJ}
 
@@ -655,7 +655,7 @@ $$
 
 *这样*$\phi((x \otimes y) \otimes z) = x \otimes (y \otimes z)$*对于*$x \in E,\ y \in F,\ z \in G;$而且*这个$\mathbf{Z}$线性映射是双射的*（张量积的“结合性”）。
 
-E ⊗_A F 上的右B-模结构和 F ⊗_B G 上的左A-模结构已在no. 4 中定义。 $\phi$的唯一性是显而易见的，因为元素$(x \otimes y) \otimes z$生成$\mathbf{Z}$-模块$(E \otimes_A F) \otimes_B G$。为了证明$\phi$的存在，我们注认为，对于所有$z \in G,\ h_z : y \mapsto y \otimes z$来说，左A-模F的A-线性映射到左A-模F⊗_BG。我们写成$g_z = 1_E \otimes h_z$，因此它是E的$\mathbf{Z}$线性映射⊗_A F 转化为 E ⊗_A (F ⊗_BG) 并考虑映射 $(t, z) \mapsto g_z(t)$ 从 $(E \otimes_A F \times G$ 转化为 $E \otimes_A (F \otimes_B G)$；由于$h_{z + z'} = h_z + h_{z'}$对于$z \in G,\ z' \in G$来说，上面的映射是$\mathbf{Z}$双线性，所以直接的。此外，我们证明对于所有 $\mu \in B,\ g_{\mu z}(t) = g_z(t \mu)$；显然，对于 $t = x \otimes y$ 这样做就足够了，其中 $x \in E$ 和 $y \in F$；现在和
+E ⊗_A F 上的右B-模结构和 F ⊗_B G 上的左A-模结构已在no. 4 中定义。 $\phi$的唯一性是显而易见的，因为元素$(x \otimes y) \otimes z$生成$\mathbf{Z}$-模块$(E \otimes_A F) \otimes_B G$。为了证明 $\phi$ 的存在，我们注意到，对于所有 $z \in G,\ h_z : y \mapsto y \otimes z$ 来说，左A-模 F 的 A-线性映射到左A-模 F ⊗_BG。我们写成 $g_z = 1_E \otimes h_z$，因此它是 E ⊗_A F 到 E 的 $\mathbf{Z}$ 线性映射⊗_A (F ⊗_B G) 并考虑从 $(E \otimes_A F \times G$ 到 $E \otimes_A (F \otimes_B G)$ 的映射 $(t, z) \mapsto g_z(t)$；如$h_{z + z'} = h_z + h_{z'}$对于$z \in G,\ z' \in G$来说，上面的映射是$\mathbf{Z}$双线性就是直接的。此外，我们证明对于所有 $\mu \in B,\ g_{\mu z}(t) = g_z(t \mu)$；显然，对于 $t = x \otimes y$ 这样做就足够了，其中 $x \in E$ 和 $y \in F$；现在和
 
 $$
 g_{\mu z}(x \otimes y) = x \otimes (y \otimes \mu z)
@@ -686,7 +686,7 @@ $$
 
 我们将在下面看到，在某些条件下，张量积的定义可以推广到一系列多模块，这将特别在命题8的假设下为我们提供一个$\mathbf{Z}$-模块$E \otimes_A F \otimes_B G$，它与每个$\mathbf{Z}$-模块$(E \otimes_A F) \otimes_B G$和$E \otimes_A (F \otimes_B G)$，后者将被识别。
 
-### 9. 多模块系列的张量积
+### 9. 张量积多模块系列
 
 令$(G_\lambda)_{\lambda \in L}$为$\mathbf{Z}$模块族；如果 $(x_\lambda) \mapsto u((x_\lambda))$ 相对于每个变量 $x_\lambda$ 是可加的，则将集合 $G = \prod_{\lambda \in L} G_\lambda$ 的映射 $u$ 放入$\mathbf{Z}$-模块中被称为*多重可加性*（或$\mathbf{Z}$-*多重线性*）；准确地说，这意味着，对于所有 $\mu \in L$ 和每个元素 $(a_\lambda) \in \prod_{\lambda \neq \mu} G_\lambda$，规范地识别 $G$ 与 $G_\mu \times \prod_{\lambda \neq \mu} G_\lambda$，
 
@@ -696,15 +696,15 @@ $$
 
 这特别意味着如果$x_\lambda$之一是零，则$u((x_\lambda)) = 0$。
 
-我们还考虑*普遍映射问题*，其中$\Sigma$是$\mathbf{Z}$模块结构的类，$\alpha$映射是$G$到$\mathbf{Z}$模块的多重加法映射。 解仍然是通过考虑$G$的元素的形式线性组合的$\mathbf{Z}$-模$C = \mathbf{Z}^{(G)}$（系数在$\mathbf{Z}$）和$C$的子$\mathbf{Z}$-模$D$生成元素 / 形式
+我们还考虑*普遍映射问题*，其中$\Sigma$是$\mathbf{Z}$模块结构的类，$\alpha$映射是$G$到$\mathbf{Z}$模块的多重加法映射。 解仍然是通过考虑$G$的元素的形式线性组合的$\mathbf{Z}$-模块$C = \mathbf{Z}^{(G)}$和$\mathbf{Z}$中的系数以及子$\mathbf{Z}$-模块$D$来获得由形式的元素生成$C$
 
 $$
 (x_\mu + y_\mu, (z_\lambda)_{\lambda \neq \mu}) - (x_\mu, (z_\lambda)_{\lambda \neq \mu}) - (y_\mu, (z_\lambda)_{\lambda \neq \mu})
 $$
 
-其中 $\mu \in L, x_\mu \in G_\mu, y_\mu \in G_\mu$ 和 $z_\lambda \in G_\lambda$ ($\lambda \neq \mu$) 是任意的。 $\mathbf{Z}$-模$C/D$称为$\mathbf{Z}$-*模*的族*$(G_\lambda)_{\lambda \in L}$的*张量积（大于$\mathbf{Z}$），记为$\bigotimes_{\lambda \in L} G_\lambda$；对于$G$的每个元素$(x_\lambda)_{\lambda \in L}$，即$C$的典范基元素，$\bigotimes_{\lambda \in L} x_\lambda$表示C/D中的该元素的典范像。从上面定义可以得出，G到$\bigotimes_{\lambda \in L} G_\lambda$的映射$\phi : (x_\lambda) \mapsto \bigotimes_{\lambda \in L} x_\lambda$是$\mathbf{Z}$-多重线性，并且对于G到$\mathbf{Z}$模块H的每一个$\mathbf{Z}$-多重线性映射$f$，存在一个且仅有一个$\mathbf{Z}$-线性映射$g : \bigotimes_{\lambda \in L} G_\lambda \to H$使得$f = g \circ \phi$； 有序对$\left( \bigotimes_{\lambda \in L} G_\lambda, \phi \right)$因此解决了所讨论的普遍映射问题。
+其中 $\mu \in L, x_\mu \in G_\mu, y_\mu \in G_\mu$ 和 $z_\lambda \in G_\lambda$ ($\lambda \neq \mu$) 是任意的。 商$\mathbf{Z}$-模块$C/D$称为$\mathbf{Z}$-*模*家族*$(G_\lambda)_{\lambda \in L}$的*张量积（超过$\mathbf{Z}$），并用$\bigotimes_{\lambda \in L} G_\lambda$表示；对于$G$的每个元素$(x_\lambda)_{\lambda \in L}$，即$C$的典范基元素，$\bigotimes_{\lambda \in L} x_\lambda$表示C/D中该元素的典范像。从上面的定义可以得出，G到$\bigotimes_{\lambda \in L} G_\lambda$的映射$\phi : (x_\lambda) \mapsto \bigotimes_{\lambda \in L} x_\lambda$是$\mathbf{Z}$-多重线性，并且对于G的每个$\mathbf{Z}$-多重线性映射$f$到$\mathbf{Z}$-模块H，存在一个且仅一个$\mathbf{Z}$-线性映射$g : \bigotimes_{\lambda \in L} G_\lambda \to H$使得$f = g \circ \phi$； 有序对$\left( \bigotimes_{\lambda \in L} G_\lambda, \phi \right)$因此解决了有问题的普遍映射问题。
 
-令$(G'_\lambda)_{\lambda \in L}$为$\mathbf{Z}$模块的另一个族，对于所有$\lambda \in L$，令$v_\lambda : G_\lambda \to G'_\lambda$为$\mathbf{Z}$线性映射（在可交换群的其他字同态中）。然后映射
+令$(G'_\lambda)_{\lambda \in L}$为$\mathbf{Z}$模块的另一个族，并且对于所有$\lambda \in L$，令$v_\lambda : G_\lambda \to G'_\lambda$为$\mathbf{Z}$线性映射（在可交换群的其他字同态中）。然后映射
 $$
 (x_\lambda) \mapsto \bigotimes_{\lambda \in L} v_\lambda(x_\lambda)
 $$
@@ -712,18 +712,18 @@ G 到 $\bigotimes_{\lambda \in L} G'_\lambda$ 的映射是 $\mathbf{Z}$-多重�
 $$
 \left( \bigotimes_{\lambda \in L} v_\lambda \right) \left( \bigotimes_{\lambda \in L} x_\lambda \right) = \bigotimes_{\lambda \in L} v_\lambda(x_\lambda).
 $$
-特别是，我们考虑，对于 $\mu \in L$、自同态 $\theta$ 或 $G_\mu$；我们用$\bigotimes_{\lambda \in L} G_\lambda$的$\tilde{\theta}$自同态表示等于$\bigotimes_{\lambda \in L} v_\lambda$，其中$v_\mu = \theta$和$v_\lambda = 1_{G_\lambda}$表示$\lambda \neq \mu$。
+特别是，我们考虑，对于 $\mu \in L$、自同态 $\theta$ 或 $G_\mu$；我们用$\bigotimes_{\lambda \in L} G_\lambda$的$\tilde{\theta}$自同态等于$\bigotimes_{\lambda \in L} v_\lambda$来表示，其中$v_\mu = \theta$和$v_\lambda = 1_{G_\lambda}$代表$\lambda \neq \mu$。
 
 然后我们假设给定集合 $\Omega$, 映射
 $$
 c : \omega \mapsto (\rho(\omega), \sigma(\omega))
 $$
-将 $\Omega$ 转换为 $L \times L$，并且对于所有 $\omega \in \Omega$、$G_{\rho(\omega)}$ 的自同态 $p_\omega$ 和 $G_{\sigma(\omega)}$ 的自同态 $q_\omega$；他们有对应两个自同态 $\tilde{p}_\omega$ 和$\tilde{q}_\omega$ $P = \bigotimes_{\lambda \in L} G_\lambda$。令 R 为当 $\omega$ 穿过 $\Omega$ 时，由自同态* $\tilde{p}_\omega - \tilde{q}_\omega$ 的像的并生成的 P * 的子 $\mathbf{Z}$ 模。 $\mathbf{Z}$模$P/R$称为族*$(G_\lambda)_{\lambda \in L}$*相对于*c、p、q的*张量积，并用$\bigotimes_{(c, p, q)} G_\lambda$表示；将典范同态$P \to P/R$与上面定义的映射$\phi : G \to \bigotimes_{\lambda \in L} G_\lambda$组合，我们得到一个$\mathbf{Z}$-多重线性映射$\phi_{(c, p, q)} : G \to \bigotimes_{(c, p, q)} G_\lambda$并写成$\phi_{(c, p, q)}((x_\lambda)) = \bigotimes_{(c, p, q)} x_\lambda$或简称$\bigotimes_{(c)} x_\lambda$。 $\bigotimes_{(c, p, q)} x_\lambda$ 和 $\phi_{(c, p, q)}$ 的有序对由……组成解决以下问题 *普遍映射问题*：令 $\bar{p}_\omega$（或 $\bar{q}_\omega$）表示映射
+将 $\Omega$ 转换为 $L \times L$，并且对于所有 $\omega \in \Omega$、$G_{\rho(\omega)}$ 的自同态 $p_\omega$ 和 $G_{\sigma(\omega)}$ 的自同态 $q_\omega$；他们有对应两个自同态 $\tilde{p}_\omega$ 和$\tilde{q}_\omega$ $P = \bigotimes_{\lambda \in L} G_\lambda$。令 R 为当 $\omega$ 穿过 $\Omega$ 时，由自同态* $\tilde{p}_\omega - \tilde{q}_\omega$ 的像的并生成的 P * 的子 $\mathbf{Z}$ 模。 商$\mathbf{Z}$-模块$P/R$被称为族*$(G_\lambda)_{\lambda \in L}$*相对于*c、p、q的*张量积，并用$\bigotimes_{(c, p, q)} G_\lambda$表示；将典范同态$P \to P/R$与上面定义的映射$\phi : G \to \bigotimes_{\lambda \in L} G_\lambda$组合，我们得到一个$\mathbf{Z}$-多重线性映射$\phi_{(c, p, q)} : G \to \bigotimes_{(c, p, q)} G_\lambda$并写成$\phi_{(c, p, q)}((x_\lambda)) = \bigotimes_{(c, p, q)} x_\lambda$或简称$\bigotimes_{(c)} x_\lambda$。 $\bigotimes_{(c, p, q)} x_\lambda$ 和 $\phi_{(c, p, q)}$ 的有序对由……组成解决以下问题 *普遍映射问题*：令 $\bar{p}_\omega$（或 $\bar{q}_\omega$）表示映射
 $$
 (x_{\rho(\omega)}, (x_\lambda)_{\lambda \neq \rho(\omega)}) \mapsto (p_\omega(x_{\rho(\omega)}), (x_\lambda)_{\lambda \neq \rho(\omega)})
 $$
 （分别$(x_{\sigma(\omega)}, (x_\lambda)_{\lambda \neq \sigma(\omega)}) \mapsto (q_\omega(x_{\sigma(\omega)}), (x_\lambda)_{\lambda \neq \sigma(\omega)})$）
-G 进入自身。然后$\Sigma$被视为$\mathbf{Z}$模块结构的类，并且将$G$的$\mathbf{Z}$-多线性映射$u$的α-映射到$\mathbf{Z}$模块，进一步满足条件
+G 进入自身。然后$\Sigma$被视为$\mathbf{Z}$模块结构的类，并且将$G$的$\mathbf{Z}$-多重线性映射$u$的α-映射到$\mathbf{Z}$模块，进一步满足条件
 
 $$(26)$$
 $$
@@ -774,7 +774,7 @@ $$
 \theta : \bigotimes_{(c, p, q)} G_\lambda \to \bigotimes_{(d, r, s)} F_i
 $$
 
-这样$\psi = \theta \circ \phi_{(c, p, q)}$（*集合理论*，IV, § 3, no. 1）。
+这样 $\psi = \theta \circ \phi_{(c, p, q)}$ (*集合理论*, IV, § 3, no. 1)。
 
 到$n$的归纳，证明减少到$n = 2$；为简单起见，我们写为 $F_1 \otimes_{(d)} F_2$ 和 $y_1 \otimes_{(d)} y_2$ 而不是 $\bigotimes_{(d, r, s)} F_i$ 和 $\bigotimes_{(d, r, s)} y_i$。考虑从$G$到$F_1 \otimes_{(d)} F_2$的映射
 
@@ -790,13 +790,13 @@ $$
 
 也等于定义或 $F_1 \otimes_{(d)} F_2$。
 
-既然如此，让$u$是$G$到$\mathbf{Z}$-模块$H$，满足条件的$\mathbf{Z}$多线性映射（26）；我们将定义一个$\mathbf{Z}$线性映射$v : F_1 \otimes_{(d)} F_2 \to H$，这样$u = v \circ h$将证明我们的断言（重复no. 1的论证，推论1到命题1）。对于所有$z_2 = (x_\lambda)_{\lambda \in L_2}$，我们将$\prod_{\lambda \in L_1} G_\lambda$的“部分”线性映射考虑为$H$
+既然如此，让$u$是$G$到$\mathbf{Z}$-模块$H$，满足条件的$\mathbf{Z}$多线性映射（26）；我们将定义一个$\mathbf{Z}$线性映射$v : F_1 \otimes_{(d)} F_2 \to H$使得$u = v \circ h$，这将证明我们的断言（重复no. 1，推论1到命题1的论点）。对于所有$z_2 = (x_\lambda)_{\lambda \in L_2}$，我们将$\prod_{\lambda \in L_1} G_\lambda$的“部分”线性映射考虑为$H$
 
 $$
 u(., z_2): (x_\lambda)_{\lambda \in L_1} \mapsto u((x_\lambda)_{\lambda \in L_1}, z_2) = u((x_\lambda)_{\lambda \in L}).
 $$
 
-显然它是 $\mathbf{Z}$-多重线性且对于 $\omega \in \Omega_1$ 满足条件 (26)；通过定义，因此存在$F_1$到$H$的$\mathbf{Z}$线性映射$y_1 \mapsto w_1(y_1, x_2)$，使得
+显然它是 $\mathbf{Z}$-多重线性并且对于 $\omega \in \Omega_1$ 满足条件 (26)；通过定义，因此存在$F_1$到$H$的$\mathbf{Z}$线性映射$y_1 \mapsto w_1(y_1, x_2)$，使得
 
 $$
 w_1\left( \bigotimes_{(c^{(1)})} x_\lambda, z_2 \right) = u((x_\lambda)_{\lambda \in L_1}, z_2)
@@ -826,7 +826,7 @@ $$
 \left( w_2\left( \bigotimes_{(c^{(2)})} x_\lambda \right) \right)\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = u((x_\lambda)_{\lambda \in L}).
 $$
 
-我们现在考虑，对于$y_1 \in F_1, y_2 \in F_2$，元素 of $H$
+我们现在考虑，对于$y_1 \in F_1, y_2 \in F_2$，元素 / $H$
 
 $$
 w(y_1, y_2) = (w_2(y_2))(y_1).
@@ -838,7 +838,7 @@ $$
 w(r_\omega(y_1), y_2) = w(y_1, s_\omega(y_2)).
 $$
 
-It suffices to verify this relation when $y_1$ (resp. $y_2$) is of the form $\bigotimes_{(c^{(1)})} x_\lambda$ (resp. $\bigotimes_{(c^{(2)})} x_\lambda$), since these elements generate the $\mathbf{Z}$-module $F_1$ (resp. $F_2$). 但是通过定义、$r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$，其中$x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$和$x'_\lambda = x_\lambda$，对于L₁中的λ≠ρ(ω)；类似地$s_\omega\left( \bigotimes_{(c^{(2)})} x_\lambda \right) = \bigotimes_{(c^{(2)})} x''_\lambda$，其中$x''_{\sigma(\omega)} = q_\omega(x'_{\sigma(\omega)})$和$x''_\lambda = x_\lambda$，对于L₂中的λ≠σ(ω)；使用（30）和（31），然后从（26）得出关系（32）。 因此，存在 F₁ ⊗ F2 到 H 的 $\mathbf{Z}$ 线性映射 v，使得 $v(y_1 \otimes y_2) = w(y_1, y_2)$，然后从 (30) 和 (31) 得出 $v \circ h = u$。
+当$y_1$（或$y_2$）具有$\bigotimes_{(c^{(1)})} x_\lambda$（或$\bigotimes_{(c^{(2)})} x_\lambda$）形式时，足以验证此关系，因为这些元素生成$\mathbf{Z}$-模块$F_1$（或$F_2$）。 但是通过定义、$r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$，其中$x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$和$x'_\lambda = x_\lambda$，对于L₁中的λ≠ρ(ω)；类似地$s_\omega\left( \bigotimes_{(c^{(2)})} x_\lambda \right) = \bigotimes_{(c^{(2)})} x''_\lambda$，其中$x''_{\sigma(\omega)} = q_\omega(x'_{\sigma(\omega)})$和$x''_\lambda = x_\lambda$，对于L₂中的λ≠σ(ω)；使用（30）和（31），然后从（26）得出关系（32）。 因此，存在 F₁ ⊗ F2 到 H 的 $\mathbf{Z}$ 线性映射 v，使得 $v(y_1 \otimes y_2) = w(y_1, y_2)$，然后从 (30) 和 (31) 得出 $v \circ h = u$。
 
 上面定义的一般张量积最重要的特殊情况如下：我们从环的族$(A_i)_{1 \leq i \leq n-1}$和族$(E_i)_{1 \leq i \leq n}$开始，其中$E_1$是右$A_1$模块，$E_n$是左$A_{n-1}$模，并且$2 \leq i \leq n-1$、$E_i$ 是$(A_{i-1}, A_i)$ 双模。那么上面的定义应用如下：L是集合$[1, n]$，$G_i = E_i$，Ω是$A_i$（$1 \leq i \leq n-1$）的集合和。对于$\omega \in A_i$ ($1 \leq i \leq n-1$)，取$\rho(\omega) = i$、$\sigma(\omega) = i + 1$、$p_\omega$ 为$Z$-模$E_i$ 和$q_\omega$ 自同态的自同态 $x \mapsto x\omega$ $Z$-模块$E_{i+1}$的$y \mapsto \omega y$； 相应的张量积表示为
 
@@ -850,7 +850,7 @@ $$
 
 当每个 $E_i$ 都是多模块时（对于 $2 \leq i \leq n-1$，$A_{i-1}$ 环之一在左侧操作，$A_i$ 环之一在右侧操作，并且类似条件对于 $i = 1$ 和 $i = n$），如下所示no. 4，相对于所有环，在$E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n$上定义了多模块结构，除了在$E_i$（$1 \leq i \leq n$）上运行的$A_i$之外。
 
-特别地，令C为交换环，$(E_i)_{1 \leq i \leq n}$一系列C模块。通过给定$E_1$和$E_n$两个与给定结构相同的C模块结构和$E_i$对于$2 \leq i \leq n-1$三个与给定结构相同的C模块结构，我们在张量积上计算定义
+特别地，令C为交换环，$(E_i)_{1 \leq i \leq n}$一系列C模块。通过给定$E_1$和$E_n$两个与给定的结构相同的C模块结构和$E_i$对于$2 \leq i \leq n-1$三个与给定的结构相同的C模块结构，我们在张量积上计算定义
 
 $$
 E_1 \otimes_C E_2 \otimes_C E_3 \otimes \cdots \otimes_C E_{n-1} \otimes_C E_n
@@ -906,7 +906,7 @@ $$
 
 将 no. 5 中定义的内容概括为 $n = 2$。
 
-前面看到的通用结合性性质可以在这里特殊化如下。给定$\mathbf{N}$的区间$\{1, n\}$的划分$(J_k)_{1 \leq k \leq m}$，令对于每个$k$，$F_k$为张量积$E_{i_1} \otimes_\mathbf{C} E_{i_2} \otimes \cdots \otimes_\mathbf{C} E_{i_r}$，其中$(i_1, \ldots, i_r)$为严格递增的序列元素 $J_k$。然后是一个规范的C模块同构（称为“结合性同构”）
+前面看到的通用结合性性质可以在这里特殊化如下。给定区间 $\{1, n\}$ 的划分 $(J_k)_{1 \leq k \leq m}$ $\mathbf{N}$，让对于每个 $k$、$F_k$ 为张量积 $E_{i_1} \otimes_\mathbf{C} E_{i_2} \otimes \cdots \otimes_\mathbf{C} E_{i_r}$，其中 $(i_1, \ldots, i_r)$ 为严格递增的序列元素 $J_k$。然后是一个规范的C模块同构（称为“结合性同构”）
 
 $$
 F_1 \otimes_C F_2 \otimes \cdots \otimes_C F_m \to E_1 \otimes_C E_2 \otimes \cdots \otimes_C E_n
@@ -928,7 +928,7 @@ $$
 
 其中映射 $x_{\pi(1)} \otimes x_{\pi(2)} \otimes \cdots \otimes x_{\pi(n)}$ 至 $x_1 \otimes x_2 \otimes \cdots \otimes x_n$。我们经常将认同各种张量积其中对应到这些典范同构下的一个另一个。
 
-对于$1 \leq i \leq n$，假设$E_i$承认基$(b^{(i)}_{\lambda_i})_{\lambda_i \in L_i}$；通过$n$上的归纳，从no. 7，推论2到命题7，$(b^{(1)}_{\lambda_1} \otimes b^{(2)}_{\lambda_2} \otimes \cdots \otimes b^{(n)}_{\lambda_n})$族，其中$(\lambda_1, \ldots, \lambda_n)$贯穿$\prod_{1 \leq i \leq n} L_i$，是$\bigoplus_{1 \leq i \leq n} E_i$的基，有时称为*有问题的基$(b^{(1)}_{\lambda_1})$中的张量积*。
+对于$1 \leq i \leq n$，假设$E_i$承认基$(b^{(i)}_{\lambda_i})_{\lambda_i \in L_i}$；通过$n$上的归纳，从no. 7、推论2到命题7，$(b^{(1)}_{\lambda_1} \otimes b^{(2)}_{\lambda_2} \otimes \cdots \otimes b^{(n)}_{\lambda_n})$族（其中$(\lambda_1, \ldots, \lambda_n)$贯穿$\prod_{1 \leq i \leq n} L_i$）是$\bigoplus_{1 \leq i \leq n} E_i$、有时的基称为有问题的基 $(b^{(1)}_{\lambda_1})$ 的 *张量积*。
 
 #### 注 {#alg-ii-s3-n9-rem-1 .statement tag=05PK}
 
@@ -945,6 +945,6 @@ $$
 
 $\lambda \in A, \mu \in B, x \in E, x' \in E', y \in F, y' \in F'$。本号中给出的一般构造。 约化证明定义了$(E \otimes_A E') \otimes_{\mathbf{Z}} (F \otimes_B F')$和$E \otimes_A E' \otimes_{\mathbf{Z}} F \otimes_B F'$之间的规范$\mathbf{Z}\text{-module}$同构，它源自形式的张量积的结合性性质（33）。
 
-### 习题 {#alg-ii-s3-exercises}
+### 习题{#alg-ii-s3-exercises}
 
 参见[习题为 § 3](exercises/s3/)。

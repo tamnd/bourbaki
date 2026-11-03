@@ -28,21 +28,21 @@ subsections:
       pdf_page: 110
 statements: 9
 exercises: 5
-content_sha256: ec5faa873b1e3569cc6fbd7d5d2a9e92a26336e2f2709416ab831c4c77fb6b6b
+content_sha256: caa1d4743e9e0f2ab64ad08fe9eabc9cbb13259bf4d57b03bafcbcaafdb56e29
 translated_from: content/en/top/VIII/01_s1_complex_numbers_quaternions.md
 translation_method: google
 source_content_sha256: e5059e22ac4891308f9c35de29452c98d7b526ede462c73990757938a2903d64
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 83cfc305c1ef8400bd679bc507972f5b46526bf26f3c92dd5d42c8402125daa8
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. 复数，四元数
 
-### 1. 定义复数
+### 1. 定义 / 复数
 
 多项式 $X^2 + 1$ 在 $\mathbf{R}$ 中没有根，因为 $x^2 + 1 \geq 1$ 对于所有 $x \in \mathbf{R}$；因此它在 $\mathbf{R}$ 上是不可约的。 [这是适用于任何有序域的类似结果的特殊情况。]
 
@@ -56,7 +56,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 （达朗贝尔-高斯）。 *域* $\mathbf{C}$ *复数是代数闭*。
 
-对于证明，足以确定 (i) $\mathbf{R}$ 中的每个元素 $\geq 0$ 都有一个 *平方根*，并且 (ii) 系数在 $\mathbf{R}$ 中的 *奇数* 次数的每个多项式有 *至少一个根*在$\mathbf{R}$。其中第一个断言已在章IV, § 3, no. 3中得到证明。对于第二个，如果 $f(X) = a_0 X^n + a_1 X^{n-1} + \cdots + a_n$ 是具有实数系数的奇数次数 $n$ ($a_0 \neq 0$) 的多项式，我们可以将 $x \neq 0$ 写为 $f(x) = a_0 x^n g(x)$，其中
+对于证明 ，足以确定 (i) $\mathbf{R}$ 中的每个元素 $\geq 0$ 都有一个 *平方根*，并且 (ii) $\mathbf{R}$ 中的系数的 *奇数* 次数的每个多项式都有*至少一个$\mathbf{R}$ 中的根*。其中第一个断言已在章IV, § 3, no. 3中得到证明。对于第二个，如果$f(X) = a_0 X^n + a_1 X^{n-1} + \cdots + a_n$是奇数次数$n$（$a_0 \neq 0$）与实系数的多项式，我们可以将$x \neq 0$写成$f(x) = a_0 x^n g(x)$，其中
 
 $$
 g(x) = 1 + \frac{a_1}{a_0 x} + \cdots + \frac{a_n}{a_0 x^n}
@@ -68,7 +68,7 @@ $$
 
 #### 注 1 {#top-viii-s1-n1-rem-1 .statement tag=0BZX}
 
-利用域$\mathbf{C}$的拓扑性质，可以在不援引有序域理论的情况下证明定理1，其定义如下（no. 2）；请参阅§ 2、习题 2 以及级数的部分，专门用于代数拓扑，其中达朗贝尔-高斯的定理将显示为映射的次数结果的推论。
+利用域$\mathbf{C}$的拓扑的性质，可以在不调用有序域的理论的情况下证明定理1，其定义如下（no. 2）；请参阅§ 2、习题 2 以及级数的部分，专门用于代数拓扑，其中达朗贝尔高斯的定理将显示为映射的次数结果的推论。
 
 #### 注 2 {#top-viii-s1-n1-rem-2 .statement tag=0BZY}
 
@@ -99,7 +99,7 @@ $$
 
 由于自同构，如果$f(z)$是具有实数系数的多项式，则对于所有$z \in \mathbf{C}$，我们都有$f(\overline{z}) = \overline{f(z)}$。
 
-实数 $z \overline{z} = x^2 + y^2$ 被称为 $z$ 的代数范数，或者在不存在混淆风险的情况下简称为范数；它是实数$\geq 0$，只有$z = 0$才会消失。当$z$为实数时，实数$\sqrt{z \overline{z}} = \sqrt{x^2 + y^2} \geq 0$约化到$z$的绝对值，当$z$为任意时，我们仍然称其为$z$的绝对值，并用$|z|$表示复数。 关系 $|z| = 0$ 相当于 $z = 0$。如果$z$和$z'$是两个复数，则$zz'$的共轭是$\overline{zz'}$，因而$|zz'|^2 = zz'\overline{zz'} = |z|^2|z'|^2$，因而$|zz'| = |z|\cdot|z'|$：*乘积的绝对值是乘积因子的绝对值。*特别是，如果$z \neq 0$和$z' = 1/z$，我们有$|1/z| = |1/z|$。
+实数 $z \overline{z} = x^2 + y^2$ 被称为 $z$ 的代数范数，或者在不存在混淆风险的情况下简称为范数；它是实数$\geq 0$，只有$z = 0$才会消失。当$z$为实数时，实数$\sqrt{z \overline{z}} = \sqrt{x^2 + y^2} \geq 0$约化到$z$的绝对值，当$z$为任意时，我们仍然称其为$z$的绝对值，并用$|z|$表示复数。 关系 $|z| = 0$ 相当于 $z = 0$。如果$z$和$z'$是两个复数，则$zz'$的共轭是$\overline{zz'}$，因而$|zz'|^2 = zz'\overline{zz'} = |z|^2|z'|^2$，因而$|zz'| = |z|\cdot|z'|$：*乘积的绝对值是乘积因子的绝对值值。*特别是，如果$z \neq 0$和$z' = 1/z$，我们有$|1/z| = |1/z|$。
 
 最后，对于所有复数$z, z'$，我们有*三角形不等式*
 $$
@@ -112,11 +112,11 @@ $$
 
 如果我们赋予集合$\mathbf{C}$这个拓扑和之前定义的域结构（no. 1，定义1），我们就在$\mathbf{C}$结构上定义了一个*拓扑域* （章III, § 6, no. 7）；每当我们谈到拓扑或$\mathbf{C}$时，它的意思总是上面的拓扑。
 
-以后我们一般将*认同* 集合 $\mathbf{C}$和$\mathbf{R}^2$视为拓扑空间；然后，$\mathbf{C}$的子域$\mathbf{R}$与$\mathbf{R}^2$的横坐标一致，因此称为*实轴*；同样，纵坐标称为*虚轴*（注，这*不是*$\mathbf{C}$的子域）。原点为 0、方向比为 $(1, 0)$（用 $\mathbf{R}_+$ 标识）的射线称为*正实半轴*；具有相同原点和方向比 $(-1, 0)$ 的相反射线称为*负实半轴*。
+以后我们一般将*认同* 集合 $\mathbf{C}$和$\mathbf{R}^2$视为拓扑空间；然后，$\mathbf{C}$的子域$\mathbf{R}$与$\mathbf{R}^2$的横坐标一致，因此称为*实轴*；同样，纵坐标称为*虚轴*（请注意，这*不是* 子域或 $\mathbf{C}$）。原点为 0、方向比为 $(1, 0)$（用 $\mathbf{R}_+$ 标识）的射线称为*正实半轴*；具有相同原点和方向比 $(-1, 0)$ 的相反射线称为*负实半轴*。
 
 为了便于图示，我们使用 $\mathbf{R}^2$ 的表示（在初等解析几何中众所周知）和点的平面，其中绘制了两个垂直的坐标轴，分别代表 $\mathbf{C}$ 的实轴和虚轴（图 7）。
 
-与每个拓扑域一样，具有复数系数的$n$复变量的每个*有理函数*在$\mathbf{C}^n$的每个点处都是*连续的，此时分母不会消失。
+与每个拓扑域一样，具有复数系数的$n$复数变量的每个*有理函数*在$\mathbf{C}^n$的每个点处都是*连续的，此时分母不会消失。
 
 ![图表显示复平面，轴标记为 x 和 y，点标记为 z = x + iy](https://i.imgur.com/3Q5z5QG.png)
 
@@ -150,7 +150,7 @@ $$
 
 拓扑群 $\mathbf{R}_+^*$ 已知与加法群 $\mathbf{R}$ (章 V, § 4, 定理 1) 同构的；因此，拓扑群$\mathbf{C}^*$的研究被简化为$\mathbf{U}$的研究，我们将在§ 2中考虑。
 
-### 4. 四元数的除法环
+### 4. 四元数除法环
 
 从定理 1 可以得出，域 $\mathbf{R}$ 是极大有序域，因此有限秩在 $\mathbf{R}$ 上的唯一非交换除法环是（直到同构）四元数除法环 $\mathbf{R}$；它用$\mathbf{H}$表示，称为实四元数的除法环（或者简称为四元数的除法环，不用担心混淆）。由于$\mathbf{H}$是秩 4超过域$\mathbf{R}$，我们可以在$\mathbf{H}$上的定义拓扑同胚于$\mathbf{R}^4$（章VI, § 1, no. 5）。准确地说，我们通常将认同$\mathbf{H}$和$\mathbf{H}$的典范基的$\mathbf{R}^4$、元素$i, i, j, k$分别与$\mathbf{R}^4$的典范基的向量、$e_0, e_1, e_2, e_3$进行识别。
 
@@ -163,7 +163,7 @@ $$
 
 $\mathbf{H}$的拓扑不仅与$\mathbf{H}$的环结构（章VI, § 1, no. 5）相容的，而且还与其除法环结构兼容；因为如果 $x$ 是非零四元数，则 $x^{-1}$ 的坐标是 $x$ 坐标的有理数函数，其分母不会消失。因此，赋予了拓扑的除法环$\mathbf{H}$是一个非交换拓扑除法环。 $\mathbf{H}$的四元数$a + bi$（$a, b$实数）形式a（拓扑）子域，与经常被识别的域$\mathbf{C}$同构的。
 
-We have thus a third example of a locally compact, connected topological division ring, the others being $\mathbf{R}$ and $\mathbf{C}$. 事实上，这是唯一具有这两个属性的拓扑划分环。
+因此，我们有第三个局部紧凑、连通的拓扑划分环的例子，其他的是$\mathbf{R}$和$\mathbf{C}$。 事实上，这是唯一具有这两个属性的拓扑划分环。
 
 我们从代数知道四元数$x = x_0 + x_1 i + x_2 j + x_3 k$的约化范数是
 
@@ -181,7 +181,7 @@ $$
 
 #### 命题 2 {#top-viii-s1-prop-2 .statement tag=0C00}
 
-The multiplicative group $\mathbf{H}^*$ of non-zero quaternions is a topological group isomorphic to the product of its subgroups $\mathbf{R}_+^*$ and $S_3$.
+非零四元数的乘法群$\mathbf{H}^*$是一个拓扑群，与其子群$\mathbf{R}_+^*$和$S_3$的乘积同构。
 
 每个四元数$x / o$都可以写成$x \cdot z$，其中$z$是范数为1的四元数；由于$H^*$的$\|xx'\| = \|x\|\cdot\|x'\|$、映射$x \to (\|x\|, x_1, x_2)$到$\mathbf{R}_+^* \times S_2$是群结构的同构，而从章VI, § 2, no. 2、命题2，则是同态 $H^*$ 到$\mathbf{R}_+^* \times S_2$。
 

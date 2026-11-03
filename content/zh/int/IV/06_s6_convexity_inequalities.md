@@ -33,19 +33,19 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 8b6964863efbc37c14d16cad2152284b4b2130539fab3dc7bd836e29bb75109a
+content_sha256: 7f91cf61e67c0535f503536d0d06d837879582e48be37bb7bfa439a172e7d329
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
 translation_method: google
 source_content_sha256: 5da8e094f0389b678ca69f52f247e8417940837f7695de9c80ebdf9dcbcce321
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 578a3d9460c638ff32b1c1d8d55a1c82246e675227a5b2f28a0591700106fda6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 6。凸性不等式
+## § 6。凸不等式
 
 ### 1. 凸度定理
 
@@ -67,7 +67,7 @@ $$
 
 这证明了点$\frac{\int fg\, d\mu}{\int g\, d\mu}$属于对于每个闭半空间包含$D$；但是，根据 Hahn-Banach 定理，$D$ 是闭半空间包含的交（TVS，II, §5, No. 3，第 4 条命题 1），从而定理。
 
-#### 推出{#int-iv-s6-n1-cor-1 .statement tag=08XE}
+#### 推出 {#int-iv-s6-n1-cor-1 .statement tag=08XE}
 
 — *如果正测度 $\mu$ 的总质量等于 1 并且 $f$ 可积，则 $\int f\, d\mu$ 属于到 $F$* 中$f(X)$ 的封闭凸包络线。
 
@@ -119,7 +119,7 @@ $$
 
 事实上，$fg$是可测量的（§ 5, No. 3，Th.1的Cor.5）；此外，不等式$m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$不仅在局部几乎所有地方都成立，甚至几乎在所有地方都成立，因为点$x \in X$的集合其中$g(x) \neq 0$是可积集合的可数并（§ 5, No. 6， 引理1)。由此可知 $fg$ 可积（§ 5, No. 6，Th. 5）且不等式 (3) 成立。另一方面，函数$M_\infty(f)g - fg$几乎到处都有定义并且等于$(M_\infty(f) - f)g$；因此，$\geqslant 0$几乎在$X$中无处不在；由于关系$M_\infty(f) \int g d|\mu| = \int fg d|\mu|$等价于$\int (M_\infty(f) - f)g d|\mu| = 0$，因此只有当函数$(M_\infty(f) - f)g$可以忽略不计时，它才能成立，从而完成证明。
 
-设定撇开$\int g d|\mu| = 0$、不等式 (3) 可以从Th 推导出来的小情况不谈。 No. 1 中的 1 应用于区间 $D = [m_\infty(f), M_\infty(f)]$。一个人可以把Th. No. 1 中的第 1 条类似于命题 1 的补码，指定点 $(\int fg d\mu)/(\int g d\mu)$ 属于到 D 边界的情况（例 2）。
+设定撇开$\int g d|\mu| = 0$、不等式 (3) 可以从Th 推导出来的小情况不谈。 No. 1 中的 1 应用于区间 $D = [m_\infty(f), M_\infty(f)]$。一个人可以把Th. No. 1 中的第 1 条与命题 1 类似，指定点 $(\int fg d\mu)/(\int g d\mu)$ 属于到 D 边界的情况（例 2）。
 
 ### 3. 空间$L^\infty_F$
 
@@ -127,7 +127,7 @@ $$
 
 *将 $X$ 中的每映射 $f$ 放入 Banach 空间 $F$，即可获得 1 个集合 $N_\infty(f) = M_\infty(|f|)$；如果 $N_\infty(f)$ 是有限的，则 $f$ 被称为在测度上有界（对于测度 $\mu$）。 $X$ 的映射到 $F$ 的集合是可测量的并且在测量上有界，表示为 $\mathscr{L}_F^\infty(X, \mu)$（或 $\mathscr{L}_F^\infty(\mu)$，或简称为 $\mathscr{L}_F^\infty$）。*
 
-因此，$\mathscr{L}_F^\infty$中的函数$f$的特征可能是存在一个“有界可测量”函数，几乎处处都等于$f$。
+因此，$\mathscr{L}_F^\infty$中的函数$f$的特征可能是存在一个“有界可测”的函数，几乎处处都等于$f$。
 
 从 (1) 可以立即得出
 
@@ -137,7 +137,7 @@ $$
 
 另一方面，对于每个标量 $\alpha$，$N_\infty(\alpha f) = |\alpha| N_\infty(f)$。因此，集合$\mathscr{L}_F^\infty$是$X$的所有映射到$F$的空间的*线性子空间*，而$N_\infty(f)$是这个向量空间的半范数。令$(f_n)$为$\mathscr{L}_F^\infty$中函数的序列，对于由半范数$N_\infty(f)$定义的拓扑，收敛到$f \in \mathscr{L}_F^\infty$；对于每个整数 $m$，都存在局部可忽略的集合 $H_m$ 和整数 $n_0$，使得$|f(x) - f_n(x)| \leq 1/m$ 对于每个整数 $n \geq n_0$ 和每个$x \notin H_m$（每个可数） 并局部可忽略集合局部可忽略）； $H_m$ 的并 $H$ 局部可忽略不计，并且可以看到 $f_n(x)$ 在局部可忽略不计的集合 $H$ 的补集上“一致”趋向于 $f(x)$； 逆命题是直接的。
 
-很明显，在 $\mathscr{L}_F^\infty$ 属于到 $\mathscr{L}_F^\infty$ 中，每个函数几乎在任何地方都等于函数。特别是，在$X$上定义的*局部可忽略的*函数和$F$形式中的值是$\mathscr{L}_F^\infty$的线性子空间$\mathscr{N}_F^\infty$，其特征在于关系$N_\infty(f) = 0$（闭包0 表示拓扑由 $N_\infty(f)$ 定义）。与 $\mathscr{L}_F^\infty$ 伴随的 Hausdorff 空间，即商空间 $\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$，表示为 $L_F^\infty(X, \mu)$（或 $L_F^\infty(\mu)$ 或 $L_F^\infty$）；它的拓扑是由从 $N_\infty$ 通过商推导出来的 *范数* 定义的； 类$\dot{f} \in L_F^\infty$中的范数表示为$N_\infty(\dot{f})$，也可以表示为$\| \dot{f} \|_\infty$。当$F = \mathbf{R}$（或$\mathbf{C}$）时，如果不会造成混淆，我们会写成$\mathscr{L}^\infty$和$L^\infty$来代替$\mathscr{L}_\mathbf{R}^\infty$和$L_\mathbf{R}^\infty$（或$\mathscr{L}_\mathbf{C}^\infty$和$L_\mathbf{C}^\infty$）。
+很明显，在 $\mathscr{L}_F^\infty$ 属于到 $\mathscr{L}_F^\infty$ 中，每个函数几乎在任何地方都等于函数。特别是，在$X$上定义的*局部可忽略的*函数和$F$形式中的值是$\mathscr{L}_F^\infty$的线性子空间$\mathscr{N}_F^\infty$，其特征在于关系$N_\infty(f) = 0$（闭包0 表示拓扑由 $N_\infty(f)$ 定义）。与$\mathscr{L}_F^\infty$相关的豪斯多夫空间，即商空间$\mathscr{L}_F^\infty / \mathscr{N}_F^\infty$，表示为$L_F^\infty(X, \mu)$（或$L_F^\infty(\mu)$或$L_F^\infty$）；它的拓扑是由从$N_\infty$通过商推导出来的*范数*定义的； 类$\dot{f} \in L_F^\infty$中的范数表示为$N_\infty(\dot{f})$，或者也表示为$\| \dot{f} \|_\infty$。当$F = \mathbf{R}$（或$\mathbf{C}$）时，如果不会造成混淆，我们会写成$\mathscr{L}^\infty$和$L^\infty$来代替$\mathscr{L}_\mathbf{R}^\infty$和$L_\mathbf{R}^\infty$（或$\mathscr{L}_\mathbf{C}^\infty$和$L_\mathbf{C}^\infty$）。
 
 #### 命题 2 {#int-iv-s6-prop-2 .statement tag=08XI}
 
@@ -157,11 +157,11 @@ $$
 
 当$\mu$的支持度等于$X$时，我们可以因此认同有界连续函数在$X$上的规范空间$C^b(X; F)$，值在$F$上，子空间为空间$L_F^\infty$。由于 $L_F^\infty$ 不是一般的 Hausdorff，所以子空间 $C^b(X; F)$ 在 $L_F^\infty$ 中一般不是闭的，但它在 $L_F^\infty$ 中的典范像是 $L_F^\infty$ 的闭子空间（在这种情况下还可以用 $C^b(X; F)$ 来识别）考虑）。一般来说，$C^b(X; F)$与$L_F^\infty$不同，也就是说，对于任意有界可测函数$f$，一般不存在几乎处处局部等于$f$的连续函数$g$（§ 5，Exer.12）。这意味着$X$的映射到$F$的空间$\mathscr{H}(X; F)$，连续有紧支撑，在$L_F^\infty$中通常不稠密，而在$1 \leq p < +\infty$的空间$L_F^p$中是稠密的（§ 3, No. 4。默认 2）。
 
-2) 半范数$N_\infty$定义的拓扑比更细比在$L_F^\infty$上由测度收敛拓扑诱导的拓扑是直接的（§ 5, No. 11）。
+2) 由半范数$N_\infty$定义的拓扑比更细比在$L_F^\infty$上由测度收敛拓扑诱导的拓扑是直接的（§ 5, No. 11）。
 
 ### 4. 霍尔德不等式
 
-在此编号中，$p$和$q$将表示两个实数，使得$1 \leq p \leq +\infty$、$1 \leq q \leq +\infty$，受关系$1/p + 1/q = 1$约束；因此，如果$1 < p < +\infty$则为$q = p/(p-1)$，如果$p = 1$则为$q = +\infty$，如果$p = +\infty$则为$q = 1$； $p$和$q$将被称为共轭指数。 注即关系$1 \leq p \leq 2$等价于$2 \leq q \leq +\infty$；仅当$p$和$q$等于2时$p = q$。
+在此编号中，$p$和$q$将表示两个实数，使得$1 \leq p \leq +\infty$、$1 \leq q \leq +\infty$，受关系$1/p + 1/q = 1$约束；因此，如果$1 < p < +\infty$则为$q = p/(p-1)$，如果$p = 1$则为$q = +\infty$，如果$p = +\infty$则为$q = 1$； $p$和$q$将被称为共轭指数。注意关系$1 \leq p \leq 2$等价于$2 \leq q \leq +\infty$；仅当$p$和$q$等于2时$p = q$。
 
 #### 定理 2（霍尔德的不等式）{#int-iv-s6-thm-2 .statement tag=08XK}
 
@@ -171,7 +171,7 @@ $$
 N_1(fg) \leq N_p(f) N_q(g).
 $$
 
-Let $f_1$ (resp. $g_1$) be a function in $L^p$ (resp. $L^q$) to which $f$ (resp. $g$) is equal almost everywhere; $fg$ is equal almost everywhere to the function $f_1 g_1$, which is everywhere defined and finite, and which is measurable, being the product of two measurable functions (§ 5, No. 3, Cor. 5 of Th. 1). 如果 $1 < p < +\infty$，则 Hölder 的不等式用于上积分（第 1 章） I, No. 3, 命题 4) 产生不等式 (4), 关系 $N_1(fg) < +\infty$ 然后表明 $fg$ 是可积的 (§ 5, No. 6, Th. 5)。 如果 $p = 1$、$q = +\infty$、不等式 (4) 且$fg$ 可积，则为不等式的平均值的直接的推论（No. 2，命题 1）；因此定理在所有情况下都得到证明。
+令$f_1$（或$g_1$）为$L^p$（或$L^q$）中的函数，其中$f$（或$g$）几乎处处都相等； $fg$几乎处处等于函数$f_1 g_1$，函数处处定义且有限，并且是可测量的，是两个可测量函数的乘积（§ 5, No. 3，Th.1的Cor.5）。 如果 $1 < p < +\infty$，则 Hölder 的不等式用于上积分（第 1 章） I, No. 3, 命题 4) 产生不等式 (4), 关系 $N_1(fg) < +\infty$ 然后表明 $fg$ 是可积的 (§ 5, No. 6, Th. 5)。 如果 $p = 1$、$q = +\infty$、不等式 (4) 且$fg$ 可积，则为不等式的平均值的直接的推论（No. 2，命题 1）；因此定理在所有情况下都得到证明。
 
 #### 推论 1 {#int-iv-s6-thm-2-cor-1 .statement tag=08XL}
 
@@ -181,7 +181,7 @@ $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-对于，$\Phi(f, g)$是可测量的（§ 5, No. 3，Th.1的Cor.5）；从 $|\Phi(f, g)| \leq |f| \cdot |g|$ 开始，推论由 Th 得出。 2 和 § 5, No. 6, Th 的可积准则。 5.
+对于，$\Phi(f, g)$是可测量的（§ 5, No. 3，Th.1的Cor.5）；由于 $|\Phi(f, g)| \leq |f| \cdot |g|$，推论由 Th 得出。 2 和 § 5, No. 6, Th 的可积准则。 5.
 
 Cor 的两个特殊情况。 1 在应用中很重要：
 
@@ -224,13 +224,13 @@ $$
 \left( \int f_1 d|\mu| \right)^{\alpha_1} \left( \int f_2 d|\mu| \right)^{\alpha_2} \cdots \left( \int f_n d|\mu| \right)^{\alpha_n}.
 $$
 
-因为，乘积$f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$是可测量的，是可测量的函数（§ 5, No. 3，Th.1及其Cor.5）的乘积；由于不等式 (8) 对于上积分成立（I、No. 2，命题 2 的修正），函数 $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ 是可积的（§ 5, No. 6，Th.5），从而是推论。
+因为，乘积$f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$是可测量的，是可测量的函数（§ 5, No. 3，Th.1及其Cor.5）的乘积；由于不等式 (8) 对于上积分成立（I、No. 2，命题 2 的修正），函数 $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ 是可积的（§ 5, No. 6，Th.5），从而推论。
 
 科。 2 Th。 2 通过以下命题进行锐化：
 
 #### 命题 3 {#int-iv-s6-prop-3 .statement tag=08XQ}
 
-— 令 $\mu$ 为X 上的正测度，F 为实数或复数 Banach 空间，F' 为强对偶，$(z, z') \mapsto \langle z, z' \rangle$ $F \times F'$ 上的规范双线性形式。
+— 令$\mu$为X上的正测度，F为实数或复数Banach空间，F'为强对偶，$(z, z') \mapsto \langle z, z' \rangle$为$F \times F'$上的规范双线性形式。
 
 1° 对于每函数 $f \in \mathscr{L}_F^p$ ($1 \leq p \leq +\infty$)，
 
@@ -250,9 +250,9 @@ $$
 
 我们先证明关系(9)；我们区分两种情况。
 
-（一）$1 \leq p < +\infty$。当 $N_p(f) = 0$ 时，关系 (9) 是微不足道的（因为 f 和 $\langle f, g \rangle$ 可以忽略不计），我们总是可以假设，在将 f 乘以标量时，$N_p(f) = 1$。首先假设 f 是可积步骤函数，$f = \sum_{k=1}^n a_k \varphi_{A_k}$，其中$A_k$是成对的不相交的（§ 4, No. 9，引理）。因此$\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$乘假设。对于每个$\varepsilon > 0$，存在（对于每个指标 k）向量$a'_k \in F'$，使得$|a'_k|^q = |a_k|^p$如果$p > 1$（或$|a'_k| = 1$如果$p = 1$）和$\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$（TVS，IV,
+（一）$1 \leq p < +\infty$。当 $N_p(f) = 0$ 时，关系 (9) 是微不足道的（因为 f 和 $\langle f, g \rangle$ 可以忽略不计），我们总是可以假设，在将 f 乘以标量时，$N_p(f) = 1$。首先假设 f 是可积步骤函数，$f = \sum_{k=1}^n a_k \varphi_{A_k}$，其中$A_k$是成对的不相交的（§ 4, No. 9，引理）。因此$\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$乘假设。对于每个$\varepsilon > 0$，存在（对于每个指标 k）向量$a'_k \in F'$，使得$|a'_k|^q = |a_k|^p$如果$p > 1$（或者$|a'_k| = 1$如果$p = 1$）和$\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$（TVS，IV,
 
-§1, No. 3，提案 8）。 设定 $g = \sum_{k=1}^n a_k' \varphi_{A_k}$，如果$p > 1$，我们有$\sum_{k=1}^n |a_k'|^q \mu(A_k) = 1$（如果$p = 1$，则有$\sup_{1 \leq k \leq n} |a_k'| = 1$），因此$N_q(g) = 1$；另一方面，
+§1, No. 3，提案 8）。 设定$g = \sum_{k=1}^n a_k' \varphi_{A_k}$，如果$p > 1$，我们有$\sum_{k=1}^n |a_k'|^q \mu(A_k) = 1$（如果$p = 1$，则有$\sup_{1 \leq k \leq n} |a_k'| = 1$），因此$N_q(g) = 1$；另一方面，
 
 $$
 \int \langle f, g \rangle d\mu = \sum_{k=1}^n \langle a_k, a_k' \rangle \mu(A_k) \geq (1 - \varepsilon) \sum_{k=1}^n |a_k| \cdot |a_k'| \mu(A_k)
@@ -346,7 +346,7 @@ $$
 
 #### 推论 {#int-iv-s6-n4-cor-1 .statement tag=08XS}
 
-— *令$\mu$为$X$的正测度，$F$为Banach空间，$F'$其强对偶，$g$为$\mathscr{L}^q_{F'}$中的任何函数。那么，$L^p_F$上的线性形式，由$\mathscr{L}^p_F$上的线性形式$f \mapsto \int \langle f, g \rangle d\mu$通过商推导出来，是连续的，有范数$N_q(g)$。*
+— *令$\mu$为$X$的正测度，$F$为Banach空间，$F'$其强对偶，$g$为$\mathscr{L}^q_{F'}$中的任何函数。那么，$L^p_F$上的线性形式，由$\mathscr{L}^p_F$上的线性形式$f \mapsto \int \langle f, g \rangle d\mu$通过商推出，是连续的，有范数$N_q(g)$。*
 
 ### 5. 应用：关系空间 $L^p_F$ ($1 \leq p \leq +\infty$)
 
@@ -354,7 +354,7 @@ $$
 
 — *令 $f$ 为可测量的函数，其中值在 Banach 空间 $F$ 中； 数 $p$的集合$I$，使得$1 \leq p \leq +\infty$和$N_p(f)$是有限的，要么是空的，要么是$\overline{\mathbf{R}}$的区间。若$I$为非空，则映射$p \mapsto N_p(f)$中的限制至$I$是连续的；此外，如果$f$不可忽略，则$\log N_p(f)$是$1/p$在$\bar{I}$上的凸函数。
 
-我们已经知道（I，No. 3，命题 5）*有限* 数 $p \geq 1$ 的集合 $J$，使得 $N_p(f) < +\infty$ 要么是空的，要么是一个区间，并且 $\log N_p(f)$ 是一个凸函数 $1/p$ on $J$（当$f$不可忽略时）；这当然意味着$p \mapsto N_p(f)$在$J$上的连续性。
+我们已经知道（第 I，No. 3，命题 5）*有限* 数 $p \geq 1$ 的集合 $J$，使得 $N_p(f) < +\infty$ 要么是空的，要么是区间，并且 $\log N_p(f)$ 是凸的$J$上的$1/p$的函数（当$f$不可忽略时）；这当然意味着$p \mapsto N_p(f)$在$J$上的连续性。
 
 如果$J$为空，则$I = \varnothing$或$I = \{+\infty\}$，并且命题在这种情况下是显而易见的；假设从此以后$J$是非空。如果 $f$ 可以忽略不计，命题也是明显的；假设从此以后 $f$ 不可忽略。如果 $s \in J$ 那么，对于每个有限的数 $p > s$、$|f|^p = |f|^s |f|^{p-s}$ 和不等式均值表明
 
@@ -368,7 +368,7 @@ $$
 \limsup_{p \to +\infty} N_p(f) \leq N_\infty(f).
 $$
 
-这就证明了如果$+\infty \in I$则$J$包含任意大数；因此$I$确实是$\overline{\mathbf{R}}$和$\overline{I} = \overline{J}$的区间。如果我们证明$p \mapsto N_p(f)$在$\overline{J}$上连续，并且足以在$J$的端点建立连续性，则命题得到证明。此外，我们可以假设$J$不约化到点。设$r$和$s$为$J$($r < s \leq +\infty$)的左右端点。令$A$为$x \in X$的（可测量）集合，使得$|f(x)| \geq 1$；然后
+这就证明了如果$+\infty \in I$则$J$包含任意大数；因此$I$确实是$\overline{\mathbf{R}}$和$\overline{I} = \overline{J}$的区间。如果我们证明$p \mapsto N_p(f)$在$\overline{J}$上连续，并且足以在$J$的端点建立连续性，命题就得到证明。此外，我们可以假设$J$不约化到点。设$r$和$s$为$J$($r < s \leq +\infty$)的左右端点。令$A$为$x \in X$的（可测量）集合，使得$|f(x)| \geq 1$；然后
 
 $$
 \int |f|^p d|\mu| = \int |f|^p \varphi_A d|\mu| + \int |f|^p \varphi_{C_A} d|\mu|.
@@ -382,9 +382,9 @@ $$
 \liminf_{p \to +\infty} N_p(f) \geq N_\infty(f).
 $$
 
-现在，令$a$为数，使得$0 < a < N_\infty(f)$。因为，到假设，存在$p$的有限值，使得$N_p(f) < +\infty$、$x \in X$的集合$A$，使得可测量且不可忽略的$|f(x)| \geq a$可凭借不等式进行积分$\varphi_A \leq (|f|/a)^p$；此外，我们由此不等式推断出$N_p(f) \geq a \cdot (|\mu|(A))^{1/p}$；让$p$趋向于$+\infty$，则可以得出$\liminf_{p \to +\infty} N_p(f) \geq a$，从而完成证明。
+现在，令$a$为数，使得$0 < a < N_\infty(f)$。因为，到假设，存在$p$的有限值，使得$N_p(f) < +\infty$、集合、$x \in X$的$A$，使得可测量且不可忽略的$|f(x)| \geq a$可凭借不等式进行积分$\varphi_A \leq (|f|/a)^p$；此外，我们由此不等式推断出$N_p(f) \geq a \cdot (|\mu|(A))^{1/p}$；让$p$趋向于$+\infty$，则得出$\liminf_{p \to +\infty} N_p(f) \geq a$，从而完成证明。
 
-#### 推论{#int-iv-s6-n5-cor-1 .statement tag=08XU}
+#### 推论 {#int-iv-s6-n5-cor-1 .statement tag=08XU}
 
 — *如果* $r, s, p$ *是三个数这样*
 
@@ -394,25 +394,25 @@ $$
 
 *然后交* $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ *包含在* $\mathscr{L}_F^p$中。
 
-注一般来说，$\mathscr{L}_F^p$ ($r < p < s$) 的拓扑在交 $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ 上引发的拓扑是*不同的*。如果在$\mu$上不再进行假设，$\mathscr{L}_F^r$和$\mathscr{L}_F^s$在$\mathscr{L}_F^r \cap \mathscr{L}_F^s$上导出的拓扑通常是不可比较的（在其他字中，比率$N_r(f)/N_s(f)$可以取任意大的值和任意小的值） $\mathscr{L}_F^r \cap \mathscr{L}_F^s$；cf. 8）。
+请注意，一般来说，由 $\mathscr{L}_F^p$ ($r < p < s$) 的拓扑在交 $\mathscr{L}_F^r \cap \mathscr{L}_F^s$ 上引发的拓扑是*不同的*。如果不对$\mu$进一步进行假设，$\mathscr{L}_F^r$和$\mathscr{L}_F^s$在$\mathscr{L}_F^r \cap \mathscr{L}_F^s$上导出的拓扑通常是不可比较的（在其他字中，$N_r(f)/N_s(f)$可以取任意大的值和任意小的值） $\mathscr{L}_F^r \cap \mathscr{L}_F^s$；cf. 8）。
 
 当 $\mu$ 是有界测度时，命题 4 可以被锐化：
 
 #### 命题 5 {#int-iv-s6-prop-5 .statement tag=08XV}
 
-— 令 $\mu$ 为有界测度，并令 $f$ 为 $\mu$ 可测函数，且值位于 Banach 空间 $F$ 中。 数 $p$的集合I，使得$1 \leq p \leq +\infty$和$N_p(f)$是有限的，或者是空的或者是左端点$p = 1$和包含这个点的区间；而且，$(|\mu|(X))^{-1/p} N_p(f)$是I上$p$的递增函数。
+— 令 $\mu$ 为有界测度，并令 $f$ 为 $\mu$ 可测函数，且值位于 Banach 空间 $F$ 中。 数 $p$的集合I，使得$1 \leq p \leq +\infty$和$N_p(f)$是有限的，要么是空的，要么是区间，左端点$p = 1$和包含这个点；而且，$(|\mu|(X))^{-1/p} N_p(f)$是I上$p$的递增函数。
 
 这是上述第 4 条和 Cor. 的直接的推论。第 4 章的提案 4 I，No. 3。
 
-#### 推论{#int-iv-s6-n5-cor-2 .statement tag=08XW}
+#### 推论 {#int-iv-s6-n5-cor-2 .statement tag=08XW}
 
-— 如果测度 $\mu$ 有界，关系 $r < s$ 意味着 $\mathscr{L}_F^s \subset \mathscr{L}_F^r$；此外，阶$s$的均值收敛性拓扑比阶$r$的均值收敛性拓扑（在$\mathscr{L}_F^s$上）更细大。
+— 如果测度 $\mu$ 有界，关系 $r < s$ 意味着 $\mathscr{L}_F^s \subset \mathscr{L}_F^r$；此外，阶$s$的均值收敛性拓扑比阶$r$的均值收敛性拓扑（在$\mathscr{L}_F^s$上）为更细。
 
-可以证明，一般来说，以阶 $s$ 为平均值的收敛性拓扑严格地为更细为以阶 $r$ 为平均值的收敛性拓扑（例 8）。
+可以证明，一般来说，阶$s$的收敛性拓扑严格地更细比阶$r$的收敛性拓扑（例8）。
 
 #### 命题 6 {#int-iv-s6-prop-6 .statement tag=08XX}
 
-— 令 $X$ 为离散的空间，$\mu$ 为 $X$ 上的度量，通过在 $X$ 的每个点放置质量 $+1$ 来定义。如果 $f$ 是 $X$ 的映射到 Banach 空间 $F$、数 $p$ 的集合 I，使得 $1 \leq p \leq +\infty$ 和 $N_p(f)$ 是有限，要么是空的，要么是右端点$+\infty$和包含这个点的区间；此外，$N_p(f)$是I上$p$的递减函数。
+— 令 $X$ 为离散的空间，$\mu$ 为 $X$ 上的度量，通过在 $X$ 的每个点处放置质量 $+1$ 来定义。如果 $f$ 是 $X$ 的映射到 Banach 空间 $F$、数 $p$ 的集合 I，使得 $1 \leq p \leq +\infty$ 和 $N_p(f)$ 是有限，要么为空，要么为区间，右端点为 $+\infty$ 且包含这个点；此外，$N_p(f)$是I上$p$的递减函数。
 
 对于每个函数$f$（§ 1, No. 1，例）和$N_\infty(f) = \|f\| = \sup_{x \in X} |f(x)|$，$\mu^*(|f|) = \sum_{x \in X} |f(x)|$；如果存在数 $\alpha > 0$，使得$|f(x)| \geq \alpha$对于$x \in X$的无限多个值，则$N_p(f) = +\infty$对于每个有限的$p$；相反的情况下，存在$x_0 \in X$使得$|f(x_0)| = \|f\|$，从而
 
@@ -420,11 +420,11 @@ $$
 N_\infty(f) = |f(x_0)| \leq N_p(f)
 $$
 
-对于每个有限的$p$。由于函数$\log N_p(f)$相对于$1/p$是凸的，并且在点$+\infty$处取最小的值，因此必然是$p$的递减函数 I（FRV，I, § 4, No. 3，第 5 号提案），完成证明。
+对于每个有限的$p$。由于函数$\log N_p(f)$相对于$1/p$是凸的，并且在点$+\infty$处取最小的值，因此必然是$p$的递减函数 I（FRV、I, § 4, No. 3、提案 5），完成证明。
 
-#### 推论{#int-iv-s6-n5-cor-3 .statement tag=08XY}
+#### 推论 {#int-iv-s6-n5-cor-3 .statement tag=08XY}
 
-— If $X$ is discrete and the measure $\mu$ is defined by a mass $+1$ at each point of $X$, then the relation $r < s$ implies $\mathscr{L}_F^r \subset \mathscr{L}_F^s$; moreover, the topology of convergence in mean of order $r$ is finer than the topology of convergence in mean of order $s$ (on $\mathscr{L}_F^r$).
+— 如果 $X$ 是离散的，并且测量 $\mu$ 由 $X$ 的每个点处的质量 $+1$ 定义，则关系 $r < s$ 蕴含 $\mathscr{L}_F^r \subset \mathscr{L}_F^s$；此外，$r$均值收敛拓扑比$s$均值收敛拓扑（在$\mathscr{L}_F^r$上）更精细。
 
 ### 习题{#int-iv-s6-exercises}
 

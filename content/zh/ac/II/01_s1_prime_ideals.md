@@ -21,19 +21,19 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: 671c42506c864be1c71d4e02941c84a8fa1a9582253d5d910c41530337211d87
+content_sha256: 0b183d66c26d7cdb96005e049fb768d52fe8d790ce34fd9e6c76b85cbeca4c64
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
 translation_method: google
 source_content_sha256: 556d7efab2e0c3d357dfbbd27923b000a4c0af8dc523529bed393394168a1056
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1e14dd89f1564f36c4034ff4b327c085de2eae1bf7a9d9eadb761b831238efaf
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 1. 基本理想
+## 1. 最初的理想
 
 ### 1. 定义素理想
 
@@ -53,7 +53,7 @@ $A$ 的最大理想 $m$ 是素数，因为 $A/m$ 是域；那么从克鲁尔的�
 
 至少一个素理想中包含*不同于*$\mathbf{A}$。特别是，对于环$\mathbf{A}$中存在素理想，$\mathbf{A}$不减少到0是充分必要的。
 
-令$f : \mathbf{A} \to \mathbf{B}$为环同态，且$q$为$\mathbf{B}$的理想。 集合$p = f^{-1}(q)$；通过取商从 $f$ 导出的同态 $\overline{f} : \mathbf{A}/p \to \mathbf{B}/q$ 是单射的。 Suppose that $q$ is prime; as the ring $\mathbf{B}/q$ is an integral domain, so is $\mathbf{A}/p$, being isomorphic to a subring of $\mathbf{B}/q$; consequently the ideal $p = f^{-1}(q)$ is prime. 特别地，令$\mathbf{A}$为$\mathbf{B}$的子环；对于$\mathbf{B}$的每个理想$q$，$q \cap \mathbf{A}$都是素理想$\mathbf{A}$。 如果$f$是满射，则$\overline{f}$是同构； 条件“p 是素数”和“$q$ 是素数”则等价。 因而，如果$p$和$a$是$\mathbf{A}$的理想，使得$a \subset p$，则$p$为素数的充分必要条件是$p/a$为$\mathbf{A}/a$中的素数。
+令$f : \mathbf{A} \to \mathbf{B}$为环同态，且$q$为$\mathbf{B}$的理想。 集合$p = f^{-1}(q)$； 同态 $\overline{f} : \mathbf{A}/p \to \mathbf{B}/q$ 由$f$ 通过取商是单射的。 假设$q$是素数；由于环$\mathbf{B}/q$是积分域，$\mathbf{A}/p$也是积分域，与$\mathbf{B}/q$的子环同构；因此理想的$p = f^{-1}(q)$是素数。 特别地，令$\mathbf{A}$为$\mathbf{B}$的子环；对于$\mathbf{B}$的每个理想$q$，$q \cap \mathbf{A}$都是素理想$\mathbf{A}$。 如果$f$是满射，则$\overline{f}$是同构； 条件“p 是素数”和“$q$ 是素数”则等价。 因而，如果$p$和$a$是$\mathbf{A}$的理想，使得$a \subset p$，则$p$为素数的充分必要条件是$p/a$为$\mathbf{A}/a$中的素数。
 
 #### 命题 1 {#ac-ii-s1-prop-1 .statement tag=0451}
 
@@ -61,7 +61,7 @@ $A$ 的最大理想 $m$ 是素数，因为 $A/m$ 是域；那么从克鲁尔的�
 
 事实上，假设 $p$ 包含都没有 $a_i$。对于$1 \leq i \leq n$，则存在元素$s_i \in a_i \cap p$；那么$s = s_1 s_2 \ldots s_n$包含在$a_1 a_2 \ldots a_n$中，而不包含在$p$中，这是荒谬的。
 
-#### 推论{#ac-ii-s1-n1-cor-1 .statement tag=0452}
+#### 推论 {#ac-ii-s1-n1-cor-1 .statement tag=0452}
 
 *设$m$为$\mathbf{A}$的极大理想；对于每个整数$n > 0$，唯一的素理想包含$m^n$是$m$。*
 
@@ -69,11 +69,11 @@ $A$ 的最大理想 $m$ 是素数，因为 $A/m$ 是域；那么从克鲁尔的�
 
 #### 命题 2 {#ac-ii-s1-prop-2 .statement tag=0453}
 
-*设$\mathbf{A}$为环，$a$$\mathbf{A}$的非空集合，其在加法和乘法下闭集，以及$(p_i)_{i \in I}$$\mathbf{A}$的非空有限理想族。假设$a$包含在$p_i$的并中，并且$p_i$中最多有两个不是素数。那么$a$包含在$p_i$之一中。*
+*令$\mathbf{A}$为环，$a$$\mathbf{A}$的非空集合，其在加法和乘法下封闭，以及$(p_i)_{i \in I}$$\mathbf{A}$的非空有限理想族。假设$a$包含在$p_i$的并中，并且$p_i$中最多有两个不是质数。那么$a$包含在$p_i$之一中。*
 
 我们以归纳对$n = \mathrm{Card}(I)$争论；如果 $n = 1$ 则命题是微不足道的。假设$n \geq 2$；如果存在指标$j$使得$a \cap p_j \subset \bigcup_{i \neq j} p_i$、集合$a$（即$a \cap p_i$的并，其中$i \in I$）包含在$\bigcup_{i \neq j} p_i$中，因此包含在归纳假设的$p_i$之一中。假设这样的指标不存在；对于每个$j \in I$，让$y_j$是$a \cap p_j$的元素，而不是属于到$i \neq j$的任何$p_i$。设$k$为$I$的元素，如果$n > 2$则$p_k$为素数，如果$n = 2$则任意选择；让$z = y_k + \prod_{i \neq k} y_i$。那么$z \in a$，因为$a$在加法和乘法下是封闭的；如果$j \neq k$、$\prod_{i \neq k} y_i$属于到$p_j$，但是$y_k \notin p_j$、从而$z \notin p_j$。另一方面，$\prod_{i \neq k} y_i$ 不会属于到 $p_k$，因为因子 $y_i \ (i \neq k)$ 属于都不是它，并且如果 $n - 1 > 1$ 则 $p_k$ 是质数；因为$y_k \in p_k$、$z$不属于到$p_k$且命题成立。
 
-### 2. 相对主要的理想
+### 2. 相对素理想
 
 设$A$为环；如果 $a + b = A$，则 $A$ 的两个理想 $a, b$ 被称为*相对素数*。为此，$a + b$ 不包含在任何素理想中 (*代数*, 章 I, § 8, no. 7, 定理 2)，在其他字中，$a$ 和 $b$ 中都不包含素理想包含，这是必要且充分的。两个不同的最大理想互质。
 
@@ -130,7 +130,7 @@ $f$为典范同态$A/a_i \to A/a_i'$中的乘积；显然$\phi'$不是满射，$
 
 *设$(a_i)_{i \in I}$为环$A$的非空有限理想族，它们在对互质；设$a$为$a_i$的交。对于每个$A$-模$M$，典范映射$M \to \prod_{i \in I} (M/a_i M)$是满射，其核是$aM$。*
 
-显然$M$到$\prod_{i \in I} (M/a_i M)$的典范映射是$aM$上的零；然后，通过商，它定义同态$A : M/aM \to \prod_{i \in I} (M/a_i M)$。 另一方面，通过命题 5，典范同态
+显然$M$到$\prod_{i \in I} (M/a_i M)$的典范映射是$aM$上的零；然后，通过取商，它定义同态$A : M/aM \to \prod_{i \in I} (M/a_i M)$。 另一方面，通过命题 5，典范同态
 $$
 \psi : A/a \to \prod_{i \in I} (A/a_i)
 $$

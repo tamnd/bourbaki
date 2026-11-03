@@ -32,21 +32,21 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: 8d334010a254b8b4ee8a583692cffd179f60b40f84e4538d228e8bd699d3b789
+content_sha256: 1a86a46833614bb0caa35cf8dfdeee8679eb18ea8b40812f6f49a6d1e9064d71
 translated_from: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
 translation_method: google
 source_content_sha256: e03c327d566ef0c0dd1d94c08b0a827fa85cb2422277168f24def9c332b2f53c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8d6f04c4d1374308a987afd9550ff182c714b166dcec7aad33b409aeb04ad9f2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。对称代数中的不变量
 
-### 1. 庞加莱级数分级代数
+### 1. 庞加莱级数已评分代数
 
 令K为交换环和单位元，不减少到0。令M为型$\mathbf{Z}$的分级K-模，以及次数n的M的齐次元素的$M_n$集合。假设每个$M_n$都是自由的并且有有限的型。然后为所有n定义秩$\mathrm{rk}_K(M_n)$（交换代数，第II, § 5, no. 3）。
 
@@ -88,7 +88,7 @@ $$
 
 *次数* $d_i$ *由* S 确定至阶。
 
-事实上，$P_S(T)$的倒数是多项式$N(T) = \prod_{i=1}^m (1 - T^{d_i})$，因此它是唯一确定的。如果 q 是整数 $\geq 1$ 并且 $\zeta \in \mathbf{C}$ 是单位元的原始 qth 根，则 $N(T)$ 的根 $\zeta$ 的重数等于数 $d_i$ 是倍数 / $q$。这个数是$q$足够大的零。因此，$d_i$等于$q$的数是通过降序归纳唯一确定的。
+事实上，$P_S(T)$的倒数是多项式$N(T) = \prod_{i=1}^m (1 - T^{d_i})$，因此它是唯一确定的。如果 q 是整数 $\geq 1$ 并且 $\zeta \in \mathbf{C}$ 是单位元的原始 qth 根，则 $N(T)$ 的根 $\zeta$ 的重数等于数 $d_i$ 是 $q$ 中的倍数。这个数是$q$足够大的零。因此，$d_i$等于$q$的数是通过降序归纳唯一确定的。
 
 整数 $d_i$称为S的特征次数，其中数等于K为域时S对K的超越次数；我们也将其称为一般情况下 S 右 K 的超越次数。它是多项式$N(T)$的根1的重数。
 
@@ -111,7 +111,7 @@ $$
 
 （三）$N p_1 p_2 \ldots p_r = q_1 q_2 \ldots q_r$。
 
-公式 (4) 首先证明根 1 的重数在多项式$P_S(T)^{-1}$和$P_R(T)^{-1}$中是相同的，并且考虑到(3)，证明了(i)和(ii)。
+公式 (4) 首先证明根 1 的重数在多项​​式 $P_S(T)^{-1}$ 和 $P_R(T)^{-1}$ 中是相同的，并且考虑 (3)，证明 (i) 和 (ii)。
 
 由(ii)可知
 
@@ -153,7 +153,7 @@ $$
 
 a) 由于$S/(R_+S)$的每个子模在$R_0 = K$上都是自由的，因此足以证明（鉴于代数，第II, §11, no. 4章，命题7）典范同态从$R_+ \otimes_R S$到S是单射的。对于任何 R 模 E，用 T(E) 表示 R 模 $\mathrm{Ker}(R_+ \otimes_R E \to E)$（\*在其他字、$T(E) = \mathrm{Tor}_1^R(R/R_+, E)$\* 中）。如果E、$E'$是两个R模，$u$是从E到$E'$的同态，同态$1 \otimes u$从$R_+ \otimes E$到$R_+ \otimes E'$定义由限制到T(E)同态从 T(E) 到 T($E'$)，我们用 $T(u)$ 表示。如果从$E'$到R模块$E''$，$u'$是同态，我们有$T(u' \circ u) = T(u') \circ T(u)$。因此，如果 G 对 E 进行 R 线性作用，则 G 对 T(E) 进行作用。
 
-b) 群 G 线性地作用于 S，因此也作用于 T(S)。 此外，T(S) 具有自然的结构分级 S 模。 We show first that, if $g \in G$, then $g$ transforms every element $x$ of T(S) into an element congruent to $x$ modulo $S_1 T(S)$. 当$g$是伪反射时，这样做就足够了。 那么V中存在非零向量$v$，使得$g(x) - x \in K v$对于所有$x \in V$。 由于 V 生成 S，因此$g_S$ 对 $S/Sv$ 的作用微不足道。 因此，对于任何 $y \in S$，S 中都存在元素 $h(y)$，使得
+b) 群 G 线性地作用于 S，因此也作用于 T(S)。 此外，T(S) 具有自然的结构分级 S 模。 我们首先证明，如果$g \in G$，则$g$将T(S)的每个元素$x$变换为与$x$模$S_1 T(S)$全等的元素。 当$g$是伪反射时，这样做就足够了。 那么V中存在非零向量$v$，使得$g(x) - x \in K v$对于所有$x \in V$。 由于 V 生成 S，因此$g_S$ 对 $S/Sv$ 的作用微不足道。 因此，对于任何 $y \in S$，S 中都存在元素 $h(y)$，使得
 
 $$
 g_S(y) - y = h(y)v.
@@ -207,7 +207,7 @@ d) 假设$T(S) \neq 0$。 T(S) 中存在最小次数的齐次元素 $u \neq 0$�
 
 #### 定理 3 {#lie-v-s5-thm-3 .statement tag=0AST}
 
-*我们保留Th的假设和记号。 1. 齐次元素R由……组成理想$R_+$、选择最小元素$(\alpha_1, \ldots, \alpha_l)$中生成元系统集合。 设$k_i$为$\alpha_i$的次数。 假设 $k_i$ 与 K 的特征指数互质。 那么 $l = \dim V$、$\alpha_i$ 生成 K-代数 R，并且在代数上独立于 K。 特别是，R 是 K 上超越次数 $l$ 的分级多项式 K-代数。*
+*我们保留Th的假设和记号。 1. 齐次元素R由……组成理想$R_+$、选择最小元素$(\alpha_1, \ldots, \alpha_l)$中生成元系统集合。 设$k_i$为$\alpha_i$的次数。 假设$k_i$与K的特征指数互质。 那么 $l = \dim V$、$\alpha_i$ 生成 K-代数 R，并且在代数上独立于 K。 特别是，R 是 K 上超越次数 $l$ 的分级多项式 K-代数。*
 
 关于$k_i$所做的假设是多余的，但与有限Coxeter群的应用无关，从那时起$K = \mathbf{R}$。比照。 no. 5，我们将给出 Th 的另一个证明。 3.
 
@@ -219,7 +219,7 @@ Th。 3 源自提案 2 (i)，Th。 1 以及以下引理：
 
 代数，第 1 章II, § 11, no. 4，第7条，关于$\alpha_i$的假设等价于说，它们是同质的，并且它们的像在这个空间的K-向量空间$R_+/ (R_+)^2$形式基中。这个条件在基域的扩张下是不变的；因此我们可以约化达到后者完美的情况。
 
-家庭 $(\alpha_1, \ldots, \alpha_s)$ 生成代数 R by 交换代数，第 1 章III, § 1, no. 2，命题 1。我们通过矛盾论证并假设该族在代数上不独立于 K。
+家庭 $(\alpha_1, \ldots, \alpha_s)$ 生成代数 R by 交换代数，章节。 III, § 1, no. 2，命题 1。我们通过矛盾论证并假设该族在代数上不独立于 K。
 
 1）我们首先证明存在族
 
@@ -227,7 +227,7 @@ $$
 (\beta_i)_{1 \leq i \leq s}, \quad (y_k)_{1 \leq k \leq r}, \quad (d_{ik})_{1 \leq i \leq s, 1 \leq k \leq r}
 $$
 
-S 的均质元素具有以下属性：
+S 的均质元素具有以下性质：
 
 $$
 \begin{align*}
@@ -238,7 +238,7 @@ $$
 \end{align*}
 $$
 
-令 $X_1, \ldots, X_s$ 不确定，并给出 $K[X_1, \ldots, X_s]$ 以及分级的代数结构，其中 $X_i$ 具有次数 $k_i$。存在$K[X_1, \ldots, X_s]$的非零齐次元素$H(X_1, \ldots, X_s)$，使得$H(\alpha_1, \ldots, \alpha_s) = 0$； 选择 H 至少为次数。如果$\partial H / \partial X_i \neq 0$，则多项式$\frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s)$是R的非零齐次元素；如果 $p \neq 1$，H 不属于形式 $H_1^p$ 和 $H_1 \in K[X_1, \ldots, X_s]$。采取
+令 $X_1, \ldots, X_s$ 不确定，并给 $K[X_1, \ldots, X_s]$ 评分为代数结构，其中 $X_i$ 具有次数 $k_i$。存在$K[X_1, \ldots, X_s]$的非零齐次元素$H(X_1, \ldots, X_s)$使得$H(\alpha_1, \ldots, \alpha_s) = 0$； 选择 H 最小为次数。如果$\partial H / \partial X_i \neq 0$，则多项式$\frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s)$是R的非零齐次元素；如果 $p \neq 1$，H 不属于形式 $H_1^p$ 和 $H_1 \in K[X_1, \ldots, X_s]$。采取
 
 $$
 \beta_i = k_i \frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s).
@@ -246,13 +246,13 @@ $$
 
 由于 K 是完美的，多项式 $\partial H / \partial X_i \in K[X_1, \ldots, X_s]$ 并不都是零（代数，第 V, § 1, no. 3 章，第 4 条）；鉴于假设是围绕$k_i$制作的，$\beta_i$也不是。
 
-另一方面，对于适当的不定式 $x_1, \ldots, x_r$ 和适当的次数 $m_i > 0$，S 可以用多项式$K[x_1, \ldots, x_r]$ 的分级代数来识别。令$D_k$为S上$x_k$的偏导数。取d_{ik} = k_i^{-1} D_k(\alpha_i)。那么等式 (10) 成立，因为它的左侧是 $D_k(H(\alpha_1, \ldots, \alpha_s))$。另一方面，如果我们输入 $y_1 = m_1 x_1, \ldots, y_r = m_r x_r$，则等式 (9) 由 no. 1 的等式 (5) 得出。
+另一方面，对于适当的不定式 $x_1, \ldots, x_r$ 和适当的次数 $m_i > 0$，S 可以用分级多项式$K[x_1, \ldots, x_r]$ 的分级代数来识别。令$D_k$为S上$x_k$的偏导数。取d_{ik} = k_i^{-1} D_k(\alpha_i)。那么等式 (10) 成立，因为它的左侧是 $D_k(H(\alpha_1, \ldots, \alpha_s))$。另一方面，如果我们输入 $y_1 = m_1 x_1, \ldots, y_r = m_r x_r$，则等式 (9) 由 no. 1 的等式 (5) 得出。
 
 2) 设$b$为$\beta_i$生成的$R$的理想；存在子集 $J$
 $$
 I = \{1, 2, \ldots, s\}
 $$
-这样 $(\beta_i)_{i \in J}$ 是系统的最小生成元 $b$。然后从 $b \neq 0$ 开始$J \neq \varnothing$。我们将从（9）和（10）中推断出，如果$i \in J$，$\alpha_i$是$\alpha_j$对于$j \neq i$的$R$线性组合，这将与$(\alpha_1, \ldots, \alpha_s)$的极小性相矛盾，并且将完成证明。
+这样$(\beta_i)_{i \in J}$是生成元和$b$的最小系统。然后从 $b \neq 0$ 开始$J \neq \varnothing$。我们将从(9)和(10)中推断出，如果$i \in J$，$\alpha_i$是$\alpha_j$对于$j \neq i$的$R$线性组合，这将与$(\alpha_1, \ldots, \alpha_s)$的极小性相矛盾，并且将完成证明。
 
 存在 $R$ ($i \in J, j \in I - J$) 的齐次元素 $\gamma_{ji}$ 使得
 $$
@@ -273,7 +273,7 @@ $$
 写 $u_{ik} = \sum_{\lambda \in \Lambda} \delta_{ik\lambda} z_\lambda$，其中 $\delta_{ik\lambda}$ 属于到 $R$。 关系 (14) 意味着
 $$
 \sum_{i \in J} \beta_i \delta_{ik\lambda} = 0 \text{ for all } k \text{ and } \lambda. $$
-如果$\delta_{ik\lambda}$之一具有非零齐次分量次数 0，则前面的等式将意味着$\beta_i$（$i \in J$）之一是其他$R$线性组合，与$(\beta_i)_{i \in J}$的极小性相矛盾。因而，对于所有 $i$ 和 $k$，$\delta_{ik\lambda} \in R_+$ 以及$u_{ik} \in R_+ S$。因而，存在$u_{ikh} \in S$使得$u_{ik} = \sum_{h=1}^s u_{ikh} \alpha_h$，在其他字中，由(13)，
+如果$\delta_{ik\lambda}$之一的非零齐次分量为次数 0，则前面的等式将意味着$\beta_i$（$i \in J$）之一是其他$R$的线性组合，这与$(\beta_i)_{i \in J}$的极小性相矛盾。因而，对于所有 $i$ 和 $k$，$\delta_{ik\lambda} \in R_+$ 以及$u_{ik} \in R_+ S$。因而，存在$u_{ikh} \in S$使得$u_{ik} = \sum_{h=1}^s u_{ikh} \alpha_h$，在其他字中，由(13)，
 $$
 d_{ik} + \sum_{j \in I - J} \gamma_{ji} d_{jk} = \sum_{h=1}^s u_{ikh} \alpha_h.
 $$
@@ -281,13 +281,13 @@ $$
 $$
 \alpha_i + \sum_{j \in I - J} \gamma_{ji} \alpha_j = \sum_{h=1}^s \sum_{k=1}^r u_{ikh} y_k \alpha_h.
 $$
-取两边次数$k_i$的齐次分量。由于$\deg y_k > 0$，$\alpha_i$是$\alpha_j$与$j \neq i$的$S$线性组合。由于 $S$ 在 $R$ 和 $\alpha_1, \ldots, \alpha_s \in R$ 上是自由的，因而$\alpha_i$ 是 $\alpha_j$ 与 $j \neq i$ 的 $R$ 线性组合（*交换代数*，第 I, § 3, no. 5 章，第 9 d 条命题）。
+取两边次数$k_i$的齐次分量。由于$\deg y_k > 0$，$\alpha_i$是$\alpha_j$与$j \neq i$的$S$线性组合。由于$S$在$R$和$\alpha_1, \ldots, \alpha_s \in R$上是自由的，因而$\alpha_i$是$\alpha_j$与$j \neq i$的$R$线性组合（*交换代数*，第I, § 3, no. 5章，第9条d））。
 
-#### 推论{#lie-v-s5-n3-cor-1 .statement tag=0ASV}
+#### 推论 {#lie-v-s5-n3-cor-1 .statement tag=0ASV}
 
 *Th 的假设和记号。 3、R的特征次数的乘积为Card(G).*
 
-事实上，$\mathrm{rk}_R(S) = \mathrm{Card}(G)$（公式（6），no. 2）。 S 的特征次数等于 1。则由no. 1，命题 2 (iii) 得出推论。
+事实上，$\mathrm{rk}_R(S) = \mathrm{Card}(G)$（公式（6），no. 2）。 S 的特征次数等于 1。那么推论由命题 2 (iii) no. 1 得出。
 
 #### 引理 2 {#lie-v-s5-lem-2 .statement tag=0ASW}
 
@@ -297,7 +297,7 @@ $$
 \sum_{n=0}^{\infty} \mathrm{Tr}(s^{(n)}) T^n = (\det(1 - sT))^{-1}.
 $$
 
-如有必要，扩展基域，我们可以假设 K 是代数封闭的。令$(e_1, \ldots, e_r)$为V的基，相对于s的矩阵是下三角，并令$\lambda_1, \ldots, \lambda_r$为该矩阵的对角线元素。对于$S_n$的基$(e_1^{i(1)} \ldots e_r^{i(r)})_{i(1) + \cdots + i(r) = n}$，按字典顺序排列，$s^{(n)}$的矩阵是下三角形，它的对角线元素是乘积$\lambda_1^{i(1)} \ldots \lambda_r^{i(r)}$。因而
+如有必要，扩展基域，我们可以假设 K 是代数封闭的。令$(e_1, \ldots, e_r)$为V的基，相对于s的矩阵是下三角，并令$\lambda_1, \ldots, \lambda_r$为该矩阵的对角线元素。对于$S_n$的基$(e_1^{i(1)} \ldots e_r^{i(r)})_{i(1) + \cdots + i(r) = n}$，按字典序排列，$s^{(n)}$的矩阵是下三角形，它的对角线元素是乘积$\lambda_1^{i(1)} \ldots \lambda_r^{i(r)}$。因而
 
 $$
 \mathrm{Tr}(s^{(n)}) = \sum_{i(1) + \cdots + i(r) = n} \lambda_1^{i(1)} \ldots \lambda_r^{i(r)},
@@ -432,7 +432,7 @@ $$
 
 另一方面，S 的分数 N 域是 R 的分数 E 域伽罗瓦扩张 (no. 2)；因此 J 在 G 下是反对不变的。如果$\Delta$是E的推导，值在N的扩张域$\Omega$，$\Delta$扩展到推导，值在$\Omega$ （代数，第 V, § 16, no. 4，第 3 章）；由于$P_i$在代数上是独立的，因此$dP_1 \wedge \ldots \wedge dP_l \neq 0$，因此$J \neq 0$。
 
-b) 设 z 为 G 下 S 反不变量的元素。我们证明 z 在 S 中可被 D 整除。设 a 为 V 中的非零向量。离开 Ka 稳定的 G 元素离开稳定一个互补的超平面 L（附录，命题 2）；离开 Ka 稳定的 G 的元素为 1 或具有向量 a 的伪反射当且仅当它在 L 上诱导 1；因此，向量属于对G的伪反射与1一起构成G的循环子群$G'$；令 t 为阶。 V存在基$(X_1, \ldots, X_l)$，使得$a = X_1$、$X_2 \in L, \ldots, X_l \in L$和z可以用系数为K的多项式$P(X_1, \ldots, X_l)$来识别。从$g \in G'$的$g(z) = (\det g)^{-1} z$，我们看到$X_1$只出现在$P(X_1, \ldots, X_l)$ 指数与 -1 模 t 一致。因此，$P(X_1, \ldots, X_l)$可以被$X_1^{t-1} = a^{t-1}$整除。现在，对于那些$a \in V$，D 是$a^{t-1}$ 的标量因子、乘积，使得$t > 1$，并且 S 的这些元素互质。由于 S 是阶乘，因此 z 可被 D 整除。
+b) 设 z 为 G 下 S 反不变量的元素。我们证明 z 在 S 中可被 D 整除。设 a 为 V 中的非零向量。离开 Ka 稳定的 G 元素离开稳定一个互补的超平面 L（附录，命题 2）；离开 Ka 稳定的 G 的元素为 1 或具有向量 a 的伪反射当且仅当它在 L 上诱导 1；因此，向量属于对G的伪反射与1一起构成G的循环子群$G'$；令 t 为阶。存在V的基$(X_1, \ldots, X_l)$，使得$a = X_1$、$X_2 \in L, \ldots, X_l \in L$和z可以用多项式$P(X_1, \ldots, X_l)$和系数在K中标识。从$g(z) = (\det g)^{-1} z$对于$g \in G'$，我们看到$X_1$ 仅出现在 $P(X_1, \ldots, X_l)$ 中，且指数与 -1 模 t 全等。因此，$P(X_1, \ldots, X_l)$可以被$X_1^{t-1} = a^{t-1}$整除。现在，对于那些$a \in V$，D 是$a^{t-1}$ 的标量因子、乘积，使得$t > 1$，并且 S 的这些元素互质。由于 S 是阶乘，因此 z 可被 D 整除。
 
 c) 通过 a) 和 b)，J 可以被 S 中的 D 整除。现在
 
@@ -442,15 +442,15 @@ $$
 
 （命题 3），所以 $\deg J = \deg D$，因此 $J = \lambda D$ 和 $\lambda \in K$。从$J \neq 0, \lambda \in K^*$开始。这就证明了(ii)。
 
-d) 证明的部分a)和c)表明D在G下是反不变的。接下来，如果$y \in R$，显然$yD$在G下是反不变的。最后，如果$z \in S$在G下是反不变的，我们在b)中看到存在$y \in S$使得$z = yD$。由于 S 是积分，$y \in R$。这就证明了(i)。
+d) 证明的部分 a)和c)表明D在G下是反不变的。接下来，如果$y \in R$，很明显$yD$在G下是反不变的。最后，如果$z \in S$在G下是反不变的，我们在b)中看到存在$y \in S$使得$z = yD$。由于 S 是积分，$y \in R$。这就证明了(i)。
 
 ### \*5。补充*
 
 #### 引理 4 {#lie-v-s5-lem-4 .statement tag=0AT2}
 
-令K为交换域，VK上的有限维向量空间，V的自同构的G有限群，其阶q在K中可逆，S为V的对称代数，并且R 子代数 of S 由……组成 of 元素在 G 下不变。S 高度为 1 的素理想 B 在 $p = B \cap R$ (交换代数) 上分支当且仅当存在 V 的非零元素 a 和非零$V^*$的元素 f，使得$B = Sa$和到G的伪反射$s_{a,f}$属于。分解群$G^Z(B)$则为离开Ka的G的元素的子群稳定，惯性群$G^T(B)$是G与向量a的伪反射的G由……组成的循环子群$H_a$。 B 处 S 的剩余类域 S(B) 可与 p 处 R 的剩余类域 $R(p)$ 分离，并且分支指标 $e(B/p)$，等于 B 的系数，在不同的除子 $\operatorname{div}(D_{S/R})$ 中增加 1，等于$\operatorname{Card}(H_a)$。
+设 K 为交换域，V K 上的有限维向量空间，V 自同构的 G 有限群，其中阶 q 在 K 中可逆，S 为 V 的对称代数，并且R 子代数 of S 由……组成 of 元素在 G 下不变。S 的高度为 1 的素理想 B 在 $p = B \cap R$ (交换代数) 上分支当且仅当存在 V 的非零元素 a 和非零$V^*$的元素 f，使得$B = Sa$和到G的伪反射$s_{a,f}$属于。分解群$G^Z(B)$则为离开Ka的G的元素的子群稳定，惯性群$G^T(B)$是G与向量a的伪反射的G由……组成的循环子群$H_a$。 B 处 S 的剩余类域 S(B) 可在 p 处 R 的剩余类域 $R(p)$ 上分离，并且分支指标 $e(B/p)$，等于 B 的系数，增加 1，在不同的除子 $\operatorname{div}(D_{S/R})$ 中，等于$\operatorname{Card}(H_a)$。
 
-说B在R上分支意味着它的惯性群$G^T(B)$不约化恒等式，在其他字中G中存在$g \neq 1$使得$g(z) \equiv z \pmod{B}$对于所有$z \in S$。由于S是阶乘环，B是主理想Sa，且a必须除全部元素$g(z) - z$($z \in S$)；现在，对于 $z \in V$，这些元素是次数 1 的齐次，并且都是非零（从 $g \neq 1$ 开始）；因此，a 必须齐次于次数 1，而其他字 $a \in V$。那么V上存在线性形式 f 使得$g = s_{a,f}$。相反，如果 g 是不同于 1 的伪反射 $s_{a,f}$，则 $g(z) \equiv z \pmod{Sa}$ 对于所有 $z \in S$，因此 g 属于为素理想 $B = Sa$ 的惯量群。这就证明了引理的第一个断言和$G^Z(B)$和$G^T(B)$的第一个刻画。由于 q 与 K 的特征 p（也是 S(B) 的特征 p）互质，因此 $R(p)$ 的扩张 S(B) 是可分离的（交换代数，第 V, § 2, no. 2 章，第 5 条命题）。由此得出等式 $e(B/p) = \operatorname{Card}(H_a)$ (交换代数)。由于 $e(B/p)$ 与 p 互质，$\operatorname{div}(D_{S/R})$ 中 B 的系数为 $e(B/p) - 1$ (交换代数)。这就证明了引理。
+说B在R上分支意味着它的惯性群$G^T(B)$不约化恒等式，在其他字中G中存在$g \neq 1$使得$g(z) \equiv z \pmod{B}$对于所有$z \in S$。由于S是阶乘环，B是主理想Sa，且a必须除全部元素$g(z) - z$($z \in S$)；现在，对于 $z \in V$，这些元素是次数 1 的齐次，并且都是非零（从 $g \neq 1$ 开始）；因此，a 必须齐次于次数 1，而其他字 $a \in V$。那么V上存在线性形式 f 使得$g = s_{a,f}$。相反，如果 g 是不同于 1 的伪反射 $s_{a,f}$，则 $g(z) \equiv z \pmod{Sa}$ 对于所有 $z \in S$，因此 g 属于为素理想 $B = Sa$ 的惯量群。这就证明了引理的第一个断言和$G^Z(B)$和$G^T(B)$的第一个刻画。由于 q 与 K 的特征 p（也是 S(B) 的特征 p）互质，因此 $R(p)$ 的扩张 S(B) 是可分离的（交换代数，第 V, § 2, no. 2 章，第 5 条命题）。由此得出等式 $e(B/p) = \operatorname{Card}(H_a)$ (交换代数)。由于$e(B/p)$与p互质，$\operatorname{div}(D_{S/R})$中B的系数是$e(B/p) - 1$（交换代数）。这就证明了引理。
 
 #### 引理 5 {#lie-v-s5-lem-5 .statement tag=0AT3}
 
@@ -485,7 +485,7 @@ $$
 d = \det(\operatorname{Tr}_{R'/R}(Q_i Q_j)), \text{ cf. Algebra, Chap. IX, } § 2.
 $$
 
-div(D_{R'/R}) 为零的事实表明 div(d) = 0 (交换代数)，这意味着 d 属于到 K*。另一方面，Tr_{R'/R}(Q_i Q_j) 是次数 q_i + q_j 的齐次元素，d 是次数 $2 \sum_i q_i$ 的齐次。因此，对于所有 i，$\sum_i q_i = 0$，即$q_i = 0$，这意味着根据伽罗瓦理论，R' = R，因此 G' = G。这证明G是由伪反射产生的。 Q.E.D.
+div(D_{R'/R}) 为零的事实表明 div(d) = 0 (交换代数)，这意味着 d 属于到 K*。另一方面，Tr_{R'/R}(Q_i Q_j) 是次数 q_i + q_j 的齐次元素，d 是次数 $2 \sum_i q_i$ 的齐次。因此，对于所有 i，$\sum_i q_i = 0$，即$q_i = 0$，这意味着 R' = R，因此根据伽罗瓦理论，G' = G。这证明G是由伪反射产生的。 Q.E.D.
 
 #### 注 1 {#lie-v-s5-n5-rem-1 .statement tag=0AT5}
 

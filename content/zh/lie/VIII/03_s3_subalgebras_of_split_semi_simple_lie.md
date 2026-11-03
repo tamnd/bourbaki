@@ -33,19 +33,19 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 3079211df2821fa3dcae426e7c6ad2d21e0ea0d9a4b99b2ca3f72ac532252e16
+content_sha256: b4460313acd45fb1f2aef4857f7a0a2b3a05eb3696c8033241d9af21ad200b5f
 translated_from: content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 043e172960e451fa011db5fc5b2cdd69d22334e7720054bdacde767c930f9a50
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 90b06bfe7db1c3607794304649ca02c1bafd592a892a7b8e1be547fb1f9f4755
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。 子代数分裂的半单李代数
+## § 3。 子代数共分裂的半单李代数
 
 在本段中，我们用 $(\mathfrak{g},\mathfrak{h})$ 分裂的半单李代数表示，用 R 表示根系。
 
@@ -127,9 +127,9 @@ $$
 
 令$\mathfrak{a}$为在ad$\mathfrak{h}$下稳定的$\mathfrak{g}$的子代数，并令$\mathfrak{h}'\subset \mathfrak{h}$、$P\subset R$为$\mathfrak{a}=\mathfrak{h}'+\mathfrak{g}^P$。
 
-(i) 设$\mathfrak{k}$为$x\in \mathfrak{h}'$的集合，使得$\alpha (x) = 0$对于所有$\alpha \in P\cap (-P)$。 $\mathfrak{a}$的根式是$\mathfrak{k}+\mathfrak{g}^Q$，其中Q是$\alpha \in P$的集合，使得$-\alpha  \notin P$。此外，$\mathfrak{g}^Q$是$\mathfrak{a}$的幂零理想。
+(i) 设$\mathfrak{k}$为$x\in \mathfrak{h}'$的集合，使得$\alpha (x) = 0$对于所有$\alpha \in P\cap (-P)$。 $\mathfrak{a}$的根基是$\mathfrak{k}+\mathfrak{g}^Q$，其中Q是$\alpha \in P$的集合，使得$-\alpha  \notin P$。此外，$\mathfrak{g}^Q$是$\mathfrak{a}$的幂零理想。
 
-(ii) $\mathfrak{a}$ 是半单当且仅当$P =-P$ 和$\mathfrak{h}'=\mathfrak{h}_P$。
+(ii) $\mathfrak{a}$ 是半单当且仅当 $P =-P$ 和 $\mathfrak{h}'=\mathfrak{h}_P$。
 
 (iii) $\mathfrak{a}$ 可解当且仅当$P\cap (-P) =\emptyset$。在这种情况下$[\mathfrak{a},\mathfrak{a}] =\mathfrak{g}^S$，其中
 
@@ -141,7 +141,7 @@ $$
 
 (v) $\mathfrak{a}$ 包含幂零元当且仅当 $\mathfrak{h}'= 0$。那么$P\cap (-P) =$$\emptyset$，$\mathfrak{a}$是幂零的。
 
-我们证明(v)。如果$\mathfrak{a}$由幂零元组成，$\mathfrak{a}$显然是幂零的，并且$\mathfrak{h}'= 0$因为$\mathfrak{h}$的元素是半单。假设$\mathfrak{h}'= 0$。根据提案 1 (i)，$P\cap (-P) =\emptyset$。由章。 VI, §1, no. 7，命题22，存在R的室C使得$P\subset R_+(C)$。因此，存在整数 $n >0$，具有以下性质：如果 $\alpha_1, . . . , \alpha_n\in P$ 和 $\beta \in R\cup  \{0\}$，则
+我们证明(v)。如果$\mathfrak{a}$由幂零元组成，$\mathfrak{a}$显然是幂零的，并且$\mathfrak{h}'= 0$自$\mathfrak{h}$的元素是半单。假设$\mathfrak{h}'= 0$。根据提案 1 (i)，$P\cap (-P) =\emptyset$。由章。 VI, §1, no. 7，命题22，存在R的室C使得$P\subset R_+(C)$。因此，存在整数 $n >0$，具有以下性质：如果 $\alpha_1, . . . , \alpha_n\in P$ 和 $\beta \in R\cup  \{0\}$，则
 
 $$
 \alpha_1+\cdots +\alpha_n+\beta  \notin R\cup  \{0\}
@@ -159,7 +159,7 @@ $$
 
 我们证明（i）。由于 P 是闭集，$(P + Q)\cap R\subset P$。如果$\alpha \in P, \beta \in Q$和$\alpha +\beta \in R$，我们不能有$\alpha +\beta \in  -P$，因为P是封闭的，这意味着$-\beta =-(\alpha +\beta ) +\alpha \in P$而$\beta \in Q$；因而，$(P + Q)\cap R\subset Q$。这证明了 $\mathfrak{g}^Q$ 是 $\mathfrak{a}$ 的理想，由 (v) 幂零的。我们有$P\cap (-Q) =\emptyset$和$P\cap (-P) = P\cap \complement Q$，所以$\mathfrak{h}_{P\cap(-Q)}\subset \mathfrak{k}\subset \bigcap_{\alpha\in P,\alpha  \notin Q}$Ker$\alpha$。根据提案 1 (ii)，
 
-$\mathfrak{k}+\mathfrak{g}^Q$是$\mathfrak{a}$的理想。从 $Q\cap (-Q) =\emptyset$ 开始，这个理想可以通过 (iii) 求解。因此它包含在$\mathfrak{a}$的部首$\mathfrak{r}$中。因为$\mathfrak{r}$在每个推导下是稳定的，$\mathfrak{a},\mathfrak{r}$在广告$\mathfrak{h}$下是稳定的。因而，存在 P 的子集 S，使得 $\mathfrak{r}= (\mathfrak{r}\cap \mathfrak{h}) +\mathfrak{g}^S$。假设 $\alpha \in S$ 和 $-\alpha \in P$。那么$\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}$，所以$\mathfrak{g}^{-\alpha}= [\mathfrak{h}_{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}= 0$，所以$-\alpha \in S$；通过 (iii)，与……矛盾 $\mathfrak{r}$ 是可解的。因而，$S\subset Q$。最后，如果$x\in \mathfrak{r}\cap \mathfrak{h}$并且如果$\alpha \in P\cap (-P)$，那么$[x,\mathfrak{g}^{\alpha}]\subset \mathfrak{g}^{\alpha}\cap \mathfrak{r}= 0$，所以$\alpha (x) = 0$；这表明$x\in \mathfrak{k}$。因而(i)的$\mathfrak{r}\subset \mathfrak{k}+\mathfrak{g}^Q$和证明是完整的。
+$\mathfrak{k}+\mathfrak{g}^Q$是$\mathfrak{a}$的理想。从 $Q\cap (-Q) =\emptyset$ 开始，这个理想可以通过 (iii) 求解。因此它包含在$\mathfrak{a}$的根基$\mathfrak{r}$中。因为$\mathfrak{r}$在每个推导下是稳定的，$\mathfrak{a},\mathfrak{r}$在广告$\mathfrak{h}$下是稳定的。因而，存在 P 的子集 S，使得 $\mathfrak{r}= (\mathfrak{r}\cap \mathfrak{h}) +\mathfrak{g}^S$。假设 $\alpha \in S$ 和 $-\alpha \in P$。那么$\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}$，所以$\mathfrak{g}^{-\alpha}= [\mathfrak{h}_{\alpha},\mathfrak{g}^{-\alpha}]\subset \mathfrak{r}= 0$，所以$-\alpha \in S$；通过 (iii)，与……矛盾 $\mathfrak{r}$ 是可解的。因而，$S\subset Q$。最后，如果$x\in \mathfrak{r}\cap \mathfrak{h}$并且如果$\alpha \in P\cap (-P)$，那么$[x,\mathfrak{g}^{\alpha}]\subset \mathfrak{g}^{\alpha}\cap \mathfrak{r}= 0$，所以$\alpha (x) = 0$；这表明$x\in \mathfrak{k}$。因而(i)的$\mathfrak{r}\subset \mathfrak{k}+\mathfrak{g}^Q$和证明是完整的。
 
 我们证明(iv)。通过(i)，$\mathfrak{g}$上$\mathfrak{a}$的伴随表示是半单当且仅当对于所有$x\in \mathfrak{k}+\mathfrak{g}^Q$而言ad$_{\mathfrak{g}}x$是半单（第I, §6, no. 5，第4章）；由(v)可知，当且仅当$Q =\emptyset$，在其他字$P =-P$。
 
@@ -185,7 +185,7 @@ $$
 
 #### 命题 4 {#lie-viii-s3-prop-4 .statement tag=00ZT}
 
-令$\mathfrak{a}$为$\mathfrak{a},s$的$\mathfrak{g}$包含$\mathfrak{h},x$元素和$n$其半单和幂零分量子代数。然后是$s\in \mathfrak{a}$和$n\in \mathfrak{a}$。
+令$\mathfrak{a}$为$\mathfrak{a},s$的$\mathfrak{g}$包含$\mathfrak{h},x$元素的子代数，并且$n$其半单和幂零分量。然后是$s\in \mathfrak{a}$和$n\in \mathfrak{a}$。
 
 我们有（广告$x$）$\mathfrak{a}\subset \mathfrak{a}$，所以（广告$s$）$\mathfrak{a}\subset \mathfrak{a}$和（广告$n$）$\mathfrak{a}\subset \mathfrak{a}$。由于$\mathfrak{a}$在$\mathfrak{g}$中是它自己的标准化器（VII, §2, no. 1章，$4$提案的Cor.4）$,s\in \mathfrak{a}$和$n\in \mathfrak{a}$。
 
@@ -197,7 +197,7 @@ $$
 
 (ii) $\mathfrak{h}+\mathfrak{g}^P$ 是可还原的当且仅当 $P =-P$。
 
-断言(i) 由命题 2 (iii) 得出。如果 $P =-P,\mathfrak{h}+\mathfrak{g}^P$ 是还原性的（命题 2 (iv)）。假设 $\mathfrak{a}=\mathfrak{h}+\mathfrak{g}^P$ 是可还原的。然后
+断言 (i) 源自提案 2 (iii)。如果 $P =-P,\mathfrak{h}+\mathfrak{g}^P$ 是还原性的（命题 2 (iv)）。假设 $\mathfrak{a}=\mathfrak{h}+\mathfrak{g}^P$ 是可还原的。然后
 
 $$
 \mathfrak{g}^P= [\mathfrak{h},\mathfrak{g}^P]\subset [\mathfrak{a},\mathfrak{a}]\subset \mathfrak{h}+\mathfrak{g}^P
@@ -209,9 +209,9 @@ $$
 
 #### 命题 6 {#lie-viii-s3-prop-6 .statement tag=00ZV}
 
-令 $R_1, . . . ,R_p$ 为 R 的不可约分量。对于 $i= 1, . . . , p$，输入 $\mathfrak{g}_i=\mathfrak{h}_{R_i}+\mathfrak{g}^{R_i}$。那么$\mathfrak{g}_1, . . . ,\mathfrak{g}_p$就是$\mathfrak{g}$的简单分量。
+令$R_1, . . . ,R_p$为R的不可约分量。对于$i= 1, . . . , p$，输入$\mathfrak{g}_i=\mathfrak{h}_{R_i}+\mathfrak{g}^{R_i}$。那么$\mathfrak{g}_1, . . . ,\mathfrak{g}_p$就是$\mathfrak{g}$的简单分量。
 
-$\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\mathfrak{g}$是$\mathfrak{g}_i$的直和，因此乘积是$\mathfrak{g}_i$。令$\mathfrak{a}$和$\mathfrak{b}$是$\mathfrak{g}$的互补理想。那么$\mathfrak{a}$和$\mathfrak{b}$是半单并且在ad$\mathfrak{h}$下稳定，所以存在R的子集$P,Q$使得$\mathfrak{a}=\mathfrak{h}_P+\mathfrak{g}^P,\mathfrak{b}=\mathfrak{h}_Q+\mathfrak{g}^Q$。那么对于杀戮形式来说$\mathfrak{h}_P,\mathfrak{h}_Q$是$\mathfrak{h}$中彼此的正交补，所以P和Q是R的不可约分量的并。这证明了$\mathfrak{g}_i$是$\mathfrak{g}$的最小理想。
+$\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\mathfrak{g}$是$\mathfrak{g}_i$的直和，因此乘积是$\mathfrak{g}_i$。令$\mathfrak{a}$和$\mathfrak{b}$是$\mathfrak{g}$的互补理想。那么$\mathfrak{a}$和$\mathfrak{b}$是半单并且在ad$\mathfrak{h}$下稳定，所以存在R的子集$P,Q$使得$\mathfrak{a}=\mathfrak{h}_P+\mathfrak{g}^P,\mathfrak{b}=\mathfrak{h}_Q+\mathfrak{g}^Q$。那么对于杀戮形式来说，$\mathfrak{h}_P,\mathfrak{h}_Q$是$\mathfrak{h}$中彼此的正交补，因此P和Q是R的不可约分量的并。这证明了$\mathfrak{g}_i$是$\mathfrak{g}$的最小理想。
 
 #### 推论 1 {#lie-viii-s3-prop-6-cor-1 .statement tag=01IZ}
 
@@ -235,13 +235,13 @@ $\mathfrak{g}_i$ 是$\mathfrak{g}$ 的理想（命题 1 (ii)）。很明显，$\
 
 设$\mathfrak{b}=\mathfrak{h}+\mathfrak{g}^P$为$\mathfrak{g}$包含$\mathfrak{h}$中的子代数。以下条件是等效的：
 
-(i) $\mathfrak{b}$ 是$\mathfrak{g}$ 的最大可解子代数；
+(i) $\mathfrak{b}$ 是 $\mathfrak{g}$ 的最大可解子代数；
 
 (ii) 存在 R 的室C，使得 $P = R_+(C)$；
 
 (iii)$P\cap (-P) =\emptyset$和$P\cup (-P) = R$。
 
-(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{b}$ 可解，则$P\cap (-P) =\emptyset$。那么存在 R 的室 C 使得 $P\subset R_+(C)$ （第 VI, §1, no. 7 章，第 22 条命题）。那么 $\mathfrak{h}+\mathfrak{g}^{R_+(C)}$ 是 $\mathfrak{g}$ 包含 $\mathfrak{b}$ 的可解子代数，因此如果 $\mathfrak{b}$ 极大，则等于 $\mathfrak{b}$。
+(i) $=\Rightarrow$ (ii)：如果 $\mathfrak{b}$ 可解，则$P\cap (-P) =\emptyset$。那么存在 R 的室 C 使得 $P\subset R_+(C)$ （第 VI, §1, no. 7 章，第 22 条命题）。那么$\mathfrak{h}+\mathfrak{g}^{R_+(C)}$是$\mathfrak{g}$包含$\mathfrak{b}$的可解子代数，因此如果$\mathfrak{b}$极大，则等于$\mathfrak{b}$。
 
 (ii) $=\Rightarrow$ (iii)：这很清楚。
 
@@ -287,9 +287,9 @@ $\mathfrak{h}^*_{\mathbf{Q}}$上存在总共阶与其向量空间结构兼容，
 
 这就证明了(i)。还表明ad$_{\mathfrak{b}}(h+x)$的特征多项式为$T\prod_{\alpha\in R_+(C)}^l(T-\alpha (h))$。由前文可知
 
-set of elements of $\mathfrak{b}$ nilpotent in $\mathfrak{g}$, as well as the largest nilpotent ideal of $\mathfrak{b}$, are equal to $\mathfrak{n}$. 根据提案 5 (i)，我们有 $\mathfrak{n}= [\mathfrak{b},\mathfrak{b}]$。 最后，断言 (iii) 源自§2、第 4 (ii) 条命题和第 4 章。 VI, §1, no. 6，提案 19。
+$\mathfrak{g}$中$\mathfrak{b}$幂零元素的集合，以及$\mathfrak{b}$的最大幂零理想，等于$\mathfrak{n}$。 根据提案 5 (i)，我们有 $\mathfrak{n}= [\mathfrak{b},\mathfrak{b}]$。 最后，断言 (iii) 源自§2、第 4 (ii) 条命题和第 4 章。 VI, §1, no. 6，提案 19。
 
-#### 推论{#lie-viii-s3-n3-cor-1 .statement tag=0102}
+#### 推论 {#lie-viii-s3-n3-cor-1 .statement tag=0102}
 
 设$\mathfrak{b}$为$\mathfrak{g}$的博雷尔子代数。
 
@@ -317,7 +317,7 @@ $$
 
 根据§2第1号提案，没有。 $2,\mathfrak{n}\subset \mathfrak{b}^{\bot},\mathfrak{n}'\subset \mathfrak{b}^{'\bot}$。 $\mathfrak{p}\cap \mathfrak{n}$的元素在$\mathfrak{g}$（命题9（ii））中是幂零的，并且属于到$\mathfrak{b}'$，因此到$\mathfrak{n}'$（命题9（ii））。因而，$\mathfrak{p}\cap \mathfrak{n}\subset \mathfrak{n}\cap \mathfrak{n}'\subset \mathfrak{b}^{\bot}\cap \mathfrak{b}^{'\bot}$，所以$\mathfrak{s}^{\bot}\cap \mathfrak{p}\cap \mathfrak{n}= 0$。鉴于(3)，我们看到$\mathfrak{s}^{\bot}\cap \mathfrak{p}$是$\mathfrak{b}$中$\mathfrak{n}$的补集。令$z$为$\mathfrak{g}$中$\mathfrak{h}$正则的元素；存在$y\in \mathfrak{n}$使得$y+z\in \mathfrak{s}^{\bot}\cap \mathfrak{p}$；根据命题 9 (i)，ad$_{\mathfrak{g}}(y+z)$ 与 ad$_{\mathfrak{g}}z$ 具有相同的特征多项式，因而 $x=y+z$ 在 $\mathfrak{g}$ 中是正则，在 $\mathfrak{b}$ 和 $\mathfrak{b}'$ 中是更不必说（第 VII, §2, no. 2 章，命题 9）。由于$\mathfrak{g},\mathfrak{b},\mathfrak{b}'$具有相同的秩，$\mathfrak{b}^0(x) =\mathfrak{g}^0(x) ={\mathfrak{b}'}^0(x)$同时是$\mathfrak{b}$、$\mathfrak{g}$和$\mathfrak{b}'$的嘉当子代数（第VII, §3, no. 3第2章）。最后，$\mathfrak{g}$的嘉当子代数是Cor的分裂。提案 9。
 
-#### 推论{#lie-viii-s3-n3-cor-2 .statement tag=0104}
+#### 推论 {#lie-viii-s3-n3-cor-2 .statement tag=0104}
 
 群 Aut$_e(\mathfrak{g})$ 在对 $(\mathfrak{t},\mathfrak{b})$ 的集合上传递操作，其中 $\mathfrak{t}$ 是 $\mathfrak{g}$ 的分裂嘉当子代数，$\mathfrak{b}$ 是博雷尔子代数 $(\mathfrak{g},\mathfrak{t})$。
 
@@ -345,7 +345,7 @@ $\mathfrak{g}$ 包含 $\mathfrak{h}$ 的子代数和满足等价于第 11 条的
 
 #### 注 {#lie-viii-s3-n4-rem-1 .statement tag=0107}
 
-设B为R的基，且$\mathfrak{b}$相应的博雷尔子代数。如果$\Sigma \subset B$，用根的$Q_{\Sigma}$集合表示，即$\Sigma$的元素线性组合，系数为$\leq 0$；把$\mathfrak{p}(\Sigma ) = R_+(B)\cup Q_{\Sigma}$和$\mathfrak{p}_{\Sigma}=\mathfrak{h}\oplus \mathfrak{g}^{P(\Sigma)}$。由章。 VI, §1, no. 7、引理 3 和命题$20,\mathfrak{p}_{\Sigma}$ 是抛物线子代数包含 $\mathfrak{b}$，$\mathfrak{g}$ 包含 $\mathfrak{b}$ 的每个抛物线子代数都是这样得到的。
+设B为R的基，且$\mathfrak{b}$相应的博雷尔子代数。若$\Sigma \subset B$，则用根$Q_{\Sigma}$集合表示，即$\Sigma$元素线性组合和系数$\leq 0$；把$\mathfrak{p}(\Sigma ) = R_+(B)\cup Q_{\Sigma}$和$\mathfrak{p}_{\Sigma}=\mathfrak{h}\oplus \mathfrak{g}^{P(\Sigma)}$。由章。 VI, §1, no. 7、引理 3 和命题$20,\mathfrak{p}_{\Sigma}$ 是抛物线子代数包含 $\mathfrak{b}$，$\mathfrak{g}$ 包含 $\mathfrak{b}$ 的每个抛物线子代数都是这样得到的。
 
 #### 引理 3 {#lie-viii-s3-lem-3 .statement tag=0108}
 
@@ -355,7 +355,7 @@ $\mathfrak{g}$ 包含 $\mathfrak{h}$ 的子代数和满足等价于第 11 条的
 
 那么从$\mathscr{F}$到$\mathscr{P}$，$F \rightarrow P(F)$就是双射；对于所有 $F\in \mathscr{F}$，F(P(F)) 是 F 的闭包。
 
-a) 设 $P\in \mathscr{P}$。存在 S 的室 C 和基 B(C) 的子集 $\Sigma$，使得 $P = S_+(C)\cup Q$ 其中 Q 是线性组合的线性组合元素的 $\Sigma$ 的集合，具有非正整数系数（第 1 章） VI, §1, no. 7，提案 20）。放
+a) 设 $P\in \mathscr{P}$。存在 S 的室 C 和基 B(C) 的子集 $\Sigma$，使得$P = S_+(C)\cup Q$，其中 Q 为 $\Sigma$ 的元素线性组合的集合，且非正整数系数 （第 VI, §1, no. 7 章，第 20 条提案）。放
 
 $$
 B(C) =\{\alpha_1, . . . , \alpha_l\}, \Sigma =\{\alpha_1, . . . , \alpha_m\}
@@ -379,7 +379,7 @@ $$
 \{v\in V|\alpha_1(v) =\cdots =\alpha_m(v) = 0, \alpha_{m+1}(v)>0, . . . , \alpha_l(v)>0\}
 $$
 
-集合是相对于$\mathscr{H}$的一个面F，因为S的每个元素都是$\alpha_1, . . . , \alpha_l$的线性组合，其中系数要么全部为$\geq 0$，要么全部为$\leq 0$。此外，如果$\beta =u_1\alpha_1+\cdots +u_l\alpha_l\in S$，
+集合是相对于$\mathscr{H}$的一个面F，因为S的每个元素都是$\alpha_1, . . . , \alpha_l$的线性组合，其中系数要么都是$\geq 0$，要么都是$\leq 0$。此外，如果$\beta =u_1\alpha_1+\cdots +u_l\alpha_l\in S$，
 
 $$
 \beta \in P(F)\Leftarrow \Rightarrow u_{m+1}\geq 0, . . . , u_l\geq 0
@@ -413,13 +413,13 @@ $(\mathfrak{g},\mathfrak{h})$ 包含于 Borel 代数 $\mathfrak{b}$ 的抛物线
 
 #### 命题 13 {#lie-viii-s3-prop-13 .statement tag=010B}
 
-令$\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P$为$(\mathfrak{g},\mathfrak{h})$的抛物线子代数、$\alpha \in P$的Q集合，使得$-\alpha  \notin P$和$\mathfrak{s}=\mathfrak{h}+\mathfrak{g}^{P\cap(-P)}$。 Then $\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{g}^Q,\mathfrak{s}$ is reductive in $\mathfrak{g}$, and $\mathfrak{g}^Q$ is the largest nilpotent ideal of $\mathfrak{p}$ and the nilpotent radical of $\mathfrak{p}$. $\mathfrak{p}$的中心是零。
+令$\mathfrak{p}=\mathfrak{h}+\mathfrak{g}^P$为$(\mathfrak{g},\mathfrak{h})$的抛物线子代数、$\alpha \in P$的Q集合，使得$-\alpha  \notin P$和$\mathfrak{s}=\mathfrak{h}+\mathfrak{g}^{P\cap(-P)}$。 那么$\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{g}^Q,\mathfrak{s}$在$\mathfrak{g}$中还原，$\mathfrak{g}^Q$是$\mathfrak{p}$的最大幂零理想和$\mathfrak{p}$的幂零根。 $\mathfrak{p}$的中心是零。
 
-根据命题，$2,\mathfrak{s}$ 是$\mathfrak{g}$ 的约简，$\mathfrak{g}^Q$ 是$\mathfrak{p}$ 的幂零理想。如果 $\mathfrak{n}$ 是 $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ 的最大的幂零理想（命题 2 (i)）；如果$x\in \mathfrak{n}\cap \mathfrak{h}$，ad$_{\mathfrak{p}}x$是幂零的，所以$\alpha (x) = 0$对于所有$\alpha \in P$，因而$x= 0$；这就证明了$\mathfrak{n}=\mathfrak{g}^Q$。从$[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$开始，$\mathfrak{p}$包含于$\mathfrak{g}^Q$的幂零根等于$\mathfrak{g}^Q$。让$z=h+\sum_{\alpha\in P}u_{\alpha}$（其中$h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha}$）为
+根据命题，$2,\mathfrak{s}$ 是$\mathfrak{g}$ 的约简，$\mathfrak{g}^Q$ 是$\mathfrak{p}$ 的幂零理想。如果 $\mathfrak{n}$ 是 $\mathfrak{p},\mathfrak{g}^Q\subset \mathfrak{n}\subset \mathfrak{h}+\mathfrak{g}^Q$ 的最大的幂零理想（命题 2 (i)）；如果$x\in \mathfrak{n}\cap \mathfrak{h}$，ad$_{\mathfrak{p}}x$是幂零的，所以$\alpha (x) = 0$对于所有$\alpha \in P$，因而$x= 0$；这就证明了$\mathfrak{n}=\mathfrak{g}^Q$。从$[\mathfrak{h},\mathfrak{g}^Q] =\mathfrak{g}^Q$开始，$\mathfrak{p}$包含于$\mathfrak{g}^Q$的幂零根基因此等于$\mathfrak{g}^Q$。让$z=h+\sum_{\alpha\in P}u_{\alpha}$（其中$h\in \mathfrak{h}, u_{\alpha}\in \mathfrak{g}^{\alpha}$）为
 
 $\mathfrak{p}$ 中心元素。对于所有$h'\in \mathfrak{h}, 0 = [h', z] =\sum\alpha (h')u_{\alpha}$，因而$u_{\alpha}= 0$对于所有$\alpha \in P$；由此可见，$[h,\mathfrak{g}^{\beta}] = 0$适用于所有$\beta \in P$，因而$h= 0$。
 
-### 5. NON-SPLIT CASE
+### 5. 非分裂情形
 
 #### 命题 14 {#lie-viii-s3-prop-14 .statement tag=010C}
 

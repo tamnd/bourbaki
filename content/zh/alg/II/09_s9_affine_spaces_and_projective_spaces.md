@@ -58,21 +58,21 @@ subsections:
       pdf_page: 361
 statements: 12
 exercises: 19
-content_sha256: 24016be3f6619e3d0e899613b9f71e62de5e36ff61df94c80c2038c1c3a075a4
+content_sha256: 311aadd98effdd89e03e80b4742bb9efae08b328c9d0e541c8b24a752771cec8
 translated_from: content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md
 translation_method: google
 source_content_sha256: deaf2e284f8df7e22f7c5da850928b8f961fc09326f976f2aed34d10f8f21e0e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 32adc2e7cb250aaabfcced36f56cad004632a325fe9cb975f8b3e3f4e2405cee
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 9。仿射空间和射影空间
 
-### 1. 定义仿射空间
+### 1. 仿射空间的定义
 
 #### 定义 1 {#alg-ii-s9-def-1 .statement tag=05VM}
 
@@ -166,9 +166,9 @@ $$
 $$
 x - y = (x - a) - (y - a)
 $$
-我们的断言源自命题2。$D$在$V$上忠实且传递地运行是直接的，因此它具有规范的结构的*仿射空间附加到*$D$。仿射簇$V$的*维数*，我们指的是$V$的维数与此仿射空间结构，即向量空间$D$的维数。 维数 0 的线性簇是$E$的点； 维数 1（或 2）的线称为 $E$ 的*线*（或*平面*）。
+我们的断言源自命题2。$D$在$V$上忠实且传递地运行是直接的，因此它具有规范地结构的*仿射空间附加到*$D$。仿射簇$V$的*维数*，我们指的是$V$的维数与此仿射空间结构，即向量空间$D$的维数。 维数 0 的线性簇是 $E$ 的点； 维数 1（或 2）的线称为 $E$ 的*线*（或*平面*）。
 
-一条线方向的每一个向量$\neq 0$属于称为该线的一个*方向向量*；其相对于 T 形式的基的分量，即相关线路的“方向参数”的所谓系统。
+一条线方向的每一个向量$\neq 0$属于称为该线的一个*方向向量*；它的分量相对于 T 形式的基，即相关线路的“方向参数”的所谓系统。
 
 E 中线性簇 V 的*余维*是其方向 D 在 T 中的余维； E 中余维 1 的线性变化称为 E 的（仿射）*超平面*。
 
@@ -176,21 +176,21 @@ E 中线性簇 V 的*余维*是其方向 D 在 T 中的余维； E 中余维 1 �
 
 #### 命题 3 {#alg-ii-s9-prop-3 .statement tag=05VR}
 
-*给定一个仿射空间* E 的点的族* $(a_i)_{i \in I}$ *，*集合* V *重心* $\sum_{i \in I} \lambda_i a_i$ *((\lambda_i) of 有限支撑, $\sum_{i \in I} \lambda_i = 1$) 是* E 的线性簇。
+*给定一个仿射空间* E 的 $(a_i)_{i \in I}$ * 点，*集合* V *重心* $\sum_{i \in I} \lambda_i a_i$ *((\lambda_i) of 有限支撑, $\sum_{i \in I} \lambda_i = 1$) 是线性簇* E.
 
-如果家庭$(a_i)$是空的，那么$V = \varnothing$是因为条件$\sum_i \lambda_i = 1$。因此可以假设族$(a_i)$非空，在这种情况下命题是明显的，将$a_i$之一作为E中的原点。
+如果家庭$(a_i)$是空的，那么$V = \varnothing$是因为条件$\sum_i \lambda_i = 1$。因此，可以假设族$(a_i)$非空，在这种情况下命题是明显的，将$a_i$之一作为E中的起源。
 
-簇V显然是最小的线性簇包含$a_i$；据说它是由$(a_i)$家族“生成”的，这个家族被称为V的*生成的系统*。
+品种V显然是最小的线性品种包含$a_i$；据说它是由$(a_i)$家族“生成”的，这个家族被称为V的*生成的系统*。
 
-在命题 3 的记号中，假设族$(a_i)$非空，对于形式$x = \sum_i \lambda_i a_i$中每个点$x \in V$的表达式是*唯一的*，有充分必要，表示任意指标 $\kappa$的I，向量$a_i - a_\kappa$的族，其中$i$贯穿指标$\neq \kappa$的集合，在T中是自由的。那么E的点的族$(a_v)_{v \in I}$据说是*亲和地自由* （或者它的元素形式是一个*仿射自由系统*，或者是*仿射独立*）并且$\lambda_i$是指标$i$的$x$相对于仿射自由族$(a_i)$的*重心坐标*。
+在命题 3 的记号中，假设族$(a_i)$非空，对于形式$x = \sum_i \lambda_i a_i$中每个点$x \in V$的表达式是*唯一的*，表示任意指标是充分必要的$\kappa$的I，向量$a_i - a_\kappa$的族，其中$i$穿过指标$\neq \kappa$的集合，在T中是自由的。那么E的点的族$(a_v)_{v \in I}$是说是*仿射自由*（或者它的元素形式一个*仿射自由系统*，或者是*仿射独立*）并且$\lambda_i$是指标$i$的$x$相对于仿射自由的*重心坐标*家庭$(a_i)$。
 
 E 的点的族 $(a_i)_{i \in I}$ 不是亲缘自由的，被称为“亲缘相关”。
 
 #### 命题 4 {#alg-ii-s9-prop-4 .statement tag=05VS}
 
-*对于仿射空间* E 中的非空族* $(a_i)_{i \in I}$ *点 *要具有亲缘关系，存在一个族* $(\lambda_i)_{i \in I}$ *元素 *并非所有零在* K、*有限支撑中，使得* $\sum_{i \in I} \lambda_i = 0$ *和*$\sum_{i \in I} \lambda_i a_i = 0$。
+*对于仿射空间* E 中的非空族* $(a_i)_{i \in I}$ * of 点 *要具有亲缘关系，存在一个族* $(\lambda_i)_{i \in I}$ *of 元素并非所有零在* K，*of 有限支撑中，这样*$\sum_{i \in I} \lambda_i = 0$*和*$\sum_{i \in I} \lambda_i a_i = 0$。
 
-给定指标$\kappa \in I$，要说向量$(a_i - a_\kappa)$的族，其中$i$贯穿指标$\neq \kappa$的集合，在T中相关，意味着存在一个标量族$(\lambda_i)_{i \neq \kappa}$，而不是全部零，使得$\sum_{i \neq \kappa} \lambda_i (a_i - a_\kappa) = 0$，也可以写成$\sum_{i \in I} \lambda_i a_i = 0$，与$\lambda_\kappa = -\sum_{i \neq \kappa} \lambda_i$，其他字$\sum_{i \in I} \lambda_i = 0$。
+给定指标$\kappa \in I$，要说向量$(a_i - a_\kappa)$的族，其中$i$贯穿指标$\neq \kappa$的集合，在T中相关，意味着存在一个标量族$(\lambda_i)_{i \neq \kappa}$并非全部零使得$\sum_{i \neq \kappa} \lambda_i (a_i - a_\kappa) = 0$，也可以写成$\sum_{i \in I} \lambda_i a_i = 0$，与$\lambda_\kappa = -\sum_{i \neq \kappa} \lambda_i$，其他字$\sum_{i \in I} \lambda_i = 0$。
 
 #### 命题 5 {#alg-ii-s9-prop-5 .statement tag=05VT}
 
@@ -275,21 +275,21 @@ t_1u_1 = u_1(u_1^{-1}t_1u_1)
 $$
 从而 u_2 = u_1, t_2 = u_1^{-1}t_1u_1。最后，与u和u_1相关的线性映射是相同的，因此，如果如上所述G_a用\mathbf{GL}(T)标识，则u_1是从T到与u相关的自身的线性映射。由此可见G是G_a乘以T(I, § 6, no. 1)的半直乘积。
 
-设 E、E' 是 K 上的两个仿射空间。在 E 到 E' 的仿射映射 u 下，E（分别为 E'）的线性簇的直（或逆）像是 E'（分别为 E）的线性簇； u 的秩是 u(E) 的定义维数；它等于与 u 关联的线性映射的秩。如果V、V'分别是E、E'中相同有限维 m的线性簇，则存在$E$到$E'$的仿射映射$u$，使得$u(V) = V'$：以$E$为原点，分别为$V$和$V'$的$E'$点，然后取$E$（分别为$E'$）基，其中第一个$m$向量形式基为$V$ （分别为$V'$），命题紧随§ 1, no. 11，推论3到命题17。
+设 E、E' 是 K 上的两个仿射空间。在 E 到 E' 的仿射映射 u 下，E（分别为 E'）的线性簇的直（或逆）像是 E'（分别为 E）的线性簇； u 的秩是 u(E) 的定义维数；它等于与 u 关联的线性映射的秩。如果V、V'分别是E、E'中相同有限维 m的线性簇，则存在$E$到$E'$的仿射映射$u$，使得$u(V) = V'$：以$E$为原点，分别为$V$和$V'$的$E'$点，然后取$E$（分别为$E'$）基，其中第一个$m$向量形式基为$V$ （分别为$V'$），命题紧随§ 1, no. 11、推论3到命题17。
 
-由于域$K$在$K$上具有规范的左向量空间结构（维数1），因此可以将其视为维数1的仿射空间。仿射的仿射映射空间$D$（超过$K$）到仿射空间$K$也称为*仿射线性函数*（或*仿射函数*）。如果$E$以点$a$为原点，则$E$上的每个仿射函数都可以唯一地写为$x \mapsto \alpha + v(x)$，其中$\alpha \in K$和$v$是向量空间上的线性形式由此得到$E$； $E$ 上的仿射函数，因此形式维数 $1 + \dim E$ 的 *右向量空间超过*$K$。如果 $u$ 是$E$ 和$\lambda \in K$、$x \in E$ 满足的集合非常数仿射函数，则方程$u(x) = \lambda$ 为超平面；相反，对于$E$中的每个超平面$H$，在$E$上存在一个仿射函数$u_0$，使得$H = u_0^{-1}(0)$和每个仿射函数$u$使得$H = u^{-1}(0)$是形式$u_0 \mu$，其中$\mu \in K$（§ 7, no. 5，命题11）。如果 $u$ 是 $E$ 上的仿射函数，则超平面与方程 $u(x) = \alpha$ 和 $u(x) = \beta$ 是平行的。
+由于域$K$在$K$上具有规范的左向量空间结构（维数1），因此可以将其视为维数1的仿射空间。仿射的仿射映射空间$D$（超过$K$）到仿射空间$K$也称为*仿射线性函数*（或*仿射函数*）。如果$E$以点$a$为原点，则$E$上的每个仿射函数都可以唯一地写为$x \mapsto \alpha + v(x)$，其中$\alpha \in K$和$v$是向量空间上的线性形式由此得到$E$； $E$ 上的仿射函数，因此形式维数 $1 + \dim E$ 的 *右向量空间超过*$K$。如果$u$是$E$和$\lambda \in K$、$x \in E$满足的集合非常数仿射函数，则方程$u(x) = \lambda$为超平面；相反，对于$E$中的每个超平面$H$，在$E$上存在一个仿射函数$u_0$，使得$H = u_0^{-1}(0)$以及每个仿射函数$u$使得$H = u^{-1}(0)$是形式$u_0 \mu$，其中$\mu \in K$（§ 7, no. 5，命题11）。如果 $u$ 是 $E$ 上的仿射函数，则超平面与方程 $u(x) = \alpha$ 和 $u(x) = \beta$ 是平行的。
 
-### 5. 投影定义空间
+### 5. 投影空间的定义
 
 #### 定义 4 {#alg-ii-s9-def-4 .statement tag=05VW}
 
-*给定左（或右）向量空间* $V$ *超过域* $K$，*左（或右）射影空间源自* $V$，*表示为* $\mathbf{P}(V)$，*是补集* $V - \{0\}$ *的商* $\{0\}$ *在* $V$ *通过等价关系* $\Delta(V)$ *“存在* $\lambda \neq 0$ *在* $K$ *使得* $y = \lambda x$ *（分别* $y = x \lambda$）*在* $x$ *和* $y$之间*在*$V - \{0\}$。
+*给定左（或右）向量空间* $V$ *超过域* $K$，*左（或右）射影空间源自* $V$，*表示为* $\mathbf{P}(V)$，*是补集的商* $V - \{0\}$*在*$\{0\}$*中*$V$*通过等价关系*$\Delta(V)$*“存在*$\lambda \neq 0$*在*$K$*这样*$y = \lambda x$*（分别*$y = x \lambda$）*之间*$x$ *和*$y$*在*$V - \{0\}$。
 
 当$V = K_s^{n+1}$时，我们也写$\mathbf{P}_n(K)$代替$\mathbf{P}(K_s^{n+1})$，写$\Delta_n(K)$代替$\Delta(V)$。
 
 定义 4 也可以用说来表示，即$\mathbf{P}(V)$是$V$中去除原点的集合行（经过到0）；因此，$\mathbf{P}(V)$ 被规范地标识为$V$ 中的集合行（经过到 0）。射影空间的元素称为空间的 *点*。
 
-当$V$为维数$n$时，如果$n$有限，整数$n - 1$称为射影空间$\mathbf{P}(V)$的*维数*，否则称为基数$n$；该基数用 $\dim_K \mathbf{P}(V)$ 或 $\dim \mathbf{P}(V)$ 表示。因此，维数$-1$的射影空间是空的，维数0的射影空间是单个点。 维数 1（或 2）的投影空间称为*投影线*（或*投影平面*）。
+当$V$为维数$n$时，整数$n - 1$称为射影空间$\mathbf{P}(V)$的*维数*，如果$n$是有限的，并且基数$n$否则；这个基数用$\dim_K \mathbf{P}(V)$或$\dim \mathbf{P}(V)$表示。因此，维数$-1$的射影空间是空的，维数0的射影空间是单个点。 维数 1（或 2）的投影空间称为*投影线*（或*投影平面*）。
 
 今后我们只考虑左射影空间。
 
@@ -307,23 +307,23 @@ $$
 
 特别是，如果 $e_i = \gamma_i \tilde{e}_i$ 与 $\gamma_i \neq 0$ ($0 \leq i \leq n$)，则 $\bar{\xi}_i = \mu \xi_i \gamma_i$ 其中 $\mu \neq 0$。
 
-### 7. 投影线性簇
+### 7. 射影线性簇
 
 设$W$为向量空间$V$中的向量子空间；从 $V$ 导出的射影空间 $P(V)$ 中的 $W - \{0\}$ 的典范像被称为“射影线性簇”（或者在不用担心混淆时简称为“线性簇”）；由于$W - \{0\}$上的等价关系$\Delta(W)$是由关系$\Delta(V)$诱导的，$P(V)$中$W - \{0\}$的投影线性变化像可以与从$W$导出的投影空间$P(W)$识别，并且因此我们可以说维数就是这样一个品种。在空间 $P(V)$ 中，超平面（已移除原点）$V$ 的典范像是一个称为*射影超平面*（或简称为 *超平面*）的线性簇；如果$P(V)$在$P(V)$中属于有限维$n$超平面，则维数$n - 1$的线性簇。
 
-向量空间中涉及向量子空间的每个命题都会转到关于射影线性簇的命题。对于例，如果射影空间$P(V)$是有限维$n$并且$(e_i)_{0 \leq i \leq n}$是$V$的基，维数$r$的每个线性簇$L \subset P(V)$可以是由系统或 $n - r$ 齐次线性方程组定义
+向量空间中涉及向量子空间的每个命题都会转到关于射影线性簇的命题。例如，如果射影空间 $P(V)$ 为有限维 $n$ 并且 $(e_i)_{0 \leq i \leq n}$ 为 $V$ 的基，则维数 $r$ 的每个线性变体 $L \subset P(V)$ 可以定义为系统 / $n - r$ 齐次线性方程
 
 $$
 \sum_{i=0}^{n} \xi_i \alpha_{ij} = 0 \qquad (1 \leq j \leq n - r)
 $$
 
-在 $\mathbf{P}(V)$ 的点的齐次坐标 $\xi_i$ ($0 \leq i \leq n$) 相对于基 $(e_i)$ 之间，(4) 的左手边与 V 线性无关形式。特别是，射影超平面由单个齐次线性方程定义，其系数不全为零。相反，$\mathbf{P}(V)$满足的点任意系统齐次线性方程关于$\xi_i$形式线性簇L；如果系统被认为由 $k \leq n + 1$ 方程组组成，则 L 为维数 $\geq n - k$。
+在 $\mathbf{P}(V)$ 的点的齐次坐标 $\xi_i$ ($0 \leq i \leq n$) 相对于基 $(e_i)$ 之间，(4) 的左手边与 V 线性无关形式。特别是，投影超平面由单个齐次线性方程定义，其中系数并非全部为零。相反，$\mathbf{P}(V)$满足的点任意系统齐次线性方程关于$\xi_i$形式线性簇L；如果系统被认为由 $k \leq n + 1$ 方程组组成，则 L 为维数 $\geq n - k$。
 
 $\mathbf{P}(V)$的线性簇中的每一个交都是一个线性簇；对于$\mathbf{P}(V)$的每个子集 A，存在最小的线性簇L 包含 A；它被称为由* A *生成的线性簇，并且 A 被称为 L 的 *生成的系统*。
 
 如果W是$\pi^{-1}(A)$生成的V的向量子空间，则$L = \mathbf{P}(W)$。
 
-如果L和M是$\mathbf{P}(V)$中的任意两个线性簇，N是$L \cup M$生成的簇，那么（§ 7, no. 3，推论3到命题4）
+如果L和M是$\mathbf{P}(V)$中的任意两个线性簇，N是$L \cup M$生成的簇，则（§ 7, no. 3，推论3到命题4）
 
 $$
 \text{dim } L + \text{dim } M = \text{dim}(L \cap M) + \text{dim } N.
@@ -333,11 +333,11 @@ $$
 
 令$(x_i), (y_i)$是向量空间V中点的两个族，具有相同的索引集合，这样$y_i = \lambda_i x_i$，其中$\lambda_i \neq 0$代表所有$i$。如果家庭$(x_i)$是免费的，那么$(y_i)$也是免费的，反之亦然；那么据说点 $\pi(x_i)$ $\mathbf{P}(V)$ 的家族是*投影自由*（或简单地*自由*）。这相当于说，对于每个指标$\kappa$，点$\pi(x_\kappa)$不属于到$\pi(x_i)$为$i \neq \kappa$生成的线性变化。 点的 $\mathbf{P}(V)$ 不是投影自由的，称为“投影相关”（或简称“相关”）。
 
-对于$V - \{0\}$的点的族$(x_i)$使得族$(\pi(x_i))$投射自由并且生成$\mathbf{P}(V)$，$(x_i)$是V的基是充分必要的。如果$\mathbf{P}(V)$是维数，$n$数是元素，那么在这样的家庭中就是$n + 1$。 注在$\mathbf{P}(V)$中给出这样一个族$(\pi(x_i))$不会确定（甚至在左因子内）给定$\mathbf{P}(V)$的点相对于V的基$(y_i)$的齐次坐标，使得$\pi(y_i) = \pi(x_i)$适用于所有$i$（cf.no. 6）。
+对于$V - \{0\}$的点的族$(x_i)$来说，要使得族$(\pi(x_i))$投影上是自由的并且生成$\mathbf{P}(V)$，$(x_i)$是V的基是充分必要的。如果 $\mathbf{P}(V)$ 是维数 $n$ 数元素，那么在这样的家庭中就是 $n + 1$。请注意，在$\mathbf{P}(V)$中给出这样的族$(\pi(x_i))$不会确定（甚至在左因子内）$\mathbf{P}(V)$的给定点相对于V的基$(y_i)$的齐次坐标，使得$\pi(y_i) = \pi(x_i)$对于所有$i$（cf.no. 6）。
 
-### 8. 仿射空间的投影完成
+### 8. 仿射的投影完成空间
 
-令 V 为域 K 上的（左）向量空间，并考虑 K 上的向量空间 $K_s \times V$；射影空间 $\mathbf{P}(K_s \times V)$ 称为射影空间 *与向量空间 V *规范关联*。如果V等于维数$n$，则$\mathbf{P}(K_s \times V)$等于维数$n$。考虑$K_s \times V$中的仿射超平面$V_1 = \{1\} \times V$，其方向（no. 3）为子空间$V_0 = \{0\} \times V$；如果$K_s \times V$的一行（经过到0）不包含在$V_0$中，则它包含点$(\alpha, x)$与$\alpha \neq 0$和$x \in V$，因此它包含也点$\alpha^{-1}(\alpha, x) = (1, \alpha^{-1}x)$ $V_1$； 逆命题是直接的，可以看出，$V_1$的点和$K_s \times V$不包含在$V_0$中的线（经过到0）之间存在一一对应的对应，后者中的每一个都与$V_1$相交只有一个点。由此可见，映射 $x \mapsto \phi(x) = \pi(1, x)$ 是 $V$ 的单射（称为规范）到射影空间 $P(K_s \times V)$； $V$ 通常与单射下的像一起识别。 $P(K_s \times V)$中$\phi(V)$的补集是射影超平面$P(V_0)$，称为超平面在$P(K_s \times V)$的无穷大（或$V$，滥用语言）；它的点也称为$P(K_s \times V)$（或$V$）的“无穷远点”。如果$(a_i)$是$V$的基，并且在$K_s \times V$基中取元素$e_i = (0, a_i)$的由……组成和元素$e_\omega = (1, 0)$，点在无穷大$P(K_s \times V)$ 是指标 $\omega$ 齐次坐标为 0 的元素。
+令 V 为域 K 上的（左）向量空间，并考虑 K 上的向量空间 $K_s \times V$；射影空间 $\mathbf{P}(K_s \times V)$ 称为射影空间 *与向量空间 V *规范关联*。如果V等于维数$n$，则$\mathbf{P}(K_s \times V)$等于维数$n$。考虑$K_s \times V$中的仿射超平面$V_1 = \{1\} \times V$，其方向（no. 3）为子空间$V_0 = \{0\} \times V$；如果$K_s \times V$的一行（经过到0）不包含在$V_0$中，则它包含点$(\alpha, x)$与$\alpha \neq 0$和$x \in V$，因此它包含也点 $\alpha^{-1}(\alpha, x) = (1, \alpha^{-1}x)$共$V_1$； 逆命题是直接的，可以看出，$V_1$的点和$V_0$中未包含的$K_s \times V$的线（经过到0）之间存在一一对应的对应，后者中的每一个都与$V_1$相交只有一个点。由此可见，映射 $x \mapsto \phi(x) = \pi(1, x)$ 是 $V$ 的单射（称为规范）到射影空间 $P(K_s \times V)$； $V$ 通常在单射下与它的像一起识别。 $P(K_s \times V)$中$\phi(V)$的补集是超平面$P(V_0)$在$P(K_s \times V)$无穷大处称为超平面（或$V$，滥用语言）；它的点也称为$P(K_s \times V)$（或$V$）的“无穷远点”。如果$(a_i)$是$V$的基并且在$K_s \times V$基中取元素$e_i = (0, a_i)$的由……组成和元素$e_\omega = (1, 0)$，点在$P(K_s \times V)$中的无穷大是指标$\omega$齐次坐标为0的那些。
 
 令 $M$ 为$V$ (no. 3) 和 $D$ 方向的仿射线性簇； $P(K_s \times V)$中的$M$的典范像$\phi(M)$包含在由$K_s \times V$的仿射簇$M_1 = \{1\} \times M$生成的$K_s \times V$的向量子空间$M_2$的典范像$\overline{M} = \pi(M_2)$中。更准确地说，如果 $(a_i)$ 是 $M$ 生成的 $M$ 的仿射自由系统，则 $M_2$ 的元素 $(1, a_i)$ 形式基，因此 $\overline{M}$ 只是由 $\phi(M)$ 生成的投影线性变化；如果 $M$ 是有限维的，$\overline{M}$ 与 $M$ 具有相同的维数。 $\overline{M}$中$\phi(M)$的补集是$\overline{M}$和超平面无穷大的交，并且等于典范像$\pi(M_0)$，其中$M_0 = \{0\} \times D$。
 
@@ -345,7 +345,7 @@ $$
 
 因此，在$V$的仿射线性簇和$P(K_s \times V)$的射影线性簇（不包含在无穷远超平面中）之间存在一对一的对应；对于$V$的两个仿射线性簇平行，其生成的射影线性簇在无穷远处与超平面具有相同的交是必要且充分的（即由说表示的有时，这两个仿射线性簇在无穷远处具有相同的点）无穷大）。
 
-### 9. 有理数扩张函数
+### 9. 有理扩张函数
 
 如果将no. 8的结果应用到维数1的向量空间$V = K_s$，可以看出在射影线$P_1(K) = P(K_s \times K_s)$中存在$K_s$的典范嵌入$\phi$；对于所有 $\xi \in K$，$\phi(\xi)$ 是点，齐次坐标 $(1, \xi)$ 相对于 $K_s \times K_s$ 的典范基 (§ 1, no. 11)。 $P_1(K)$中$\phi(K)$的补集由相对于上述基具有齐次坐标$(0, 1)$的单个点组成；它被称为“无穷远点”。 $P_1(K)$也称为与$K$相关的射影域，并用$\tilde{K}$表示，$\tilde{K}$中无穷远的点用$\infty$表示。
 
@@ -361,9 +361,9 @@ $$
 $$
 (\eta, \xi) \mapsto (q_1(\eta, \xi), p_1(\eta, \xi))
 $$
-$K^2$ 自身；它与等价关系$\Delta(K^2)$相容的，因此定义，当经过为商时，$\tilde{K}$的映射$\tilde{f}$化为自身，重合与$\xi \mapsto f(\xi)$在点，其中这个有理数函数已定义；据说，通过滥用语言，$\tilde{f}$是$f$到$\tilde{K}$的规范扩张。
+$K^2$ 自身；它与等价关系$\Delta(K^2)$相容的，因此与定义兼容，当经过到商时，$\tilde{K}$的映射$\tilde{f}$进入自身，重合与$\xi \mapsto f(\xi)$在点其中有理数函数已定义；据说，通过滥用语言，$\tilde{f}$是$f$到$\tilde{K}$的规范扩张。
 
-对于例，如果$f = 1/X$，则$\tilde{f}(0) = \infty$和$\tilde{f}(\infty) = 0$；如果
+例如，如果$f = 1/X$，则$\tilde{f}(0) = \infty$和$\tilde{f}(\infty) = 0$；如果
 $$
 f = (aX + b)/(cX + d)
 $$
@@ -371,9 +371,9 @@ $ad - bc \neq 0$，则$\tilde{f}(-d/c) = \infty$，如果$c \neq 0$则为$\tilde
 
 ### 10. 投影线性映射
 
-设$V, V'$是域$K$的两个左向量空间，$V$的$f$线性映射变成$V'$，$N = \overline{f}(0)$是核。 It is immediate that the image under $f$ of a line (passing through 0) in $V$ not contained in $N$ is a line (passing through 0) in $V'$; hence, on passing to the quotients, $f$ defines a mapping $g$ of $P(V) - P(N)$ into $P(V')$. 这样的映射称为射影线性映射（或者简单地称为射影映射）；尽管它是在$P(V) - P(N)$上定义的，而不是在$P(V)$上定义的（当$N \neq \{0\}$时），但我们会滥用语言说$g$是$P(V)$到$P(V')$的投影映射。 射影线性簇 $P(N)$（其中 $g$ 未定义）称为 $g$ 的中心。
+设$V, V'$是域$K$的两个左向量空间，$V$的$f$线性映射变成$V'$，$N = \overline{f}(0)$是核。 不包含在$N$中的$V$中的一条线（经过0）在$f$下的图像是$V'$中的一条线（经过0）；因此，在传递商时，$f$定义了$P(V) - P(N)$到$P(V')$的映射$g$。 这样的映射称为射影线性映射（或者简单地称为射影映射）；尽管它是在$P(V) - P(N)$上定义的，而不是在$P(V)$上定义的（当$N \neq \{0\}$时），但我们会滥用语言说$g$是$P(V)$到$P(V')$的投影映射。 射影线性簇 $P(N)$（其中 $g$ 未定义）称为 $g$ 的中心。
 
-注，当$g$定义在$P(V)$的整体上时（即$N = \{0\}$时），$g$是$P(V)$的单射到$P(V')$。
+注意，当$g$定义在整个$P(V)$上时（即当$N = \{0\}$时），$g$是$P(V)$的单射到$P(V')$。
 
 当 $V$ 和 $V'$ 分别给出基 $(a_\lambda)_{\lambda \in L}, (b_\mu)_{\mu \in M}$ 时，$P(V)$ 的投影映射到 $P(V)$ 的 $P(V')$ 映射点，齐次坐标为 $\xi_\lambda$ ($\lambda \in L$)到 $\mathbf{P}(V')$ 的点以及形式齐次坐标 $\eta_\mu$ ($\mu \in M$) 的系统
 
@@ -407,15 +407,15 @@ $$
 
 #### 注 {#alg-ii-s9-n10-rem-1 .statement tag=05VX}
 
-在域 $K$ 的射影空间 $\mathbf{P}(V)$ 中，令 $H = \mathbf{P}(W)$ 为超平面。存在$V$到$K_s \times W$的双射线性映射$f$使得$f(W) = W$；令 $g$ 为从 $f$ 通过经过到商的投影映射。已经看出(no. 8)，$\mathbf{P}(K_s \times W)$中$\mathbf{P}(W)$的补集可以用仿射空间来识别，其平移空间是$W$。当$\mathbf{P}(V)$通过$g$与$\mathbf{P}(K_s \times W)$等同时，就说$H$*已在$\mathbf{P}(V)$中被视为无穷远*处的超平面；然后，$\mathbf{P}(V)$中$H$的补集被识别为仿射空间，其平移空间为$W$。
+在域 $K$ 的射影空间 $\mathbf{P}(V)$ 中，令 $H = \mathbf{P}(W)$ 为超平面。存在$V$到$K_s \times W$的双射线性映射$f$使得$f(W) = W$；令$g$为从$f$经经过到商获得的投影映射。已经看出(no. 8)，$\mathbf{P}(K_s \times W)$中$\mathbf{P}(W)$的补集可以用仿射空间来识别，其平移空间是$W$。当$\mathbf{P}(V)$通过$g$与$\mathbf{P}(K_s \times W)$等同时，就说$H$*已在$\mathbf{P}(V)$中被视为无穷远*处的超平面；然后，$\mathbf{P}(V)$中$H$的补集被识别为仿射空间，其平移空间为$W$。
 
 ### 11. 投影空间结构
 
-Given a set E and a field K, a (left) projective space structure on E with respect to the field K is defined by giving a non-empty set $\Phi$ of bijections of subsets of the projective space $\mathbf{P}(K_s^{(E)})$ onto E satisfying the following axioms:
+给定一个集合 E 和一个域 K，E 上相对于域 K 的（左）射影空间结构是通过给出射影空间 $\mathbf{P}(K_s^{(E)})$ 的子集双射到 E 上的非空集合 $\Phi$ 来定义的，满足以下公理：
 
 每映射$f \in \Phi$定义$$(\mathrm{EP}_I)$$*集合是$\mathbf{P}(K_s^{(E)})$的线性簇。*
 
-$$(\mathrm{EP}_{II})$$ *For every ordered pair of elements $f, g$ of $\Phi$ defined respectively on the linear varieties $\mathbf{P}(V)$ and $\mathbf{P}(W)$, the bijection $h = g^{-1} \circ f$ of $\mathbf{P}(V)$ onto $\mathbf{P}(W)$ is a projective mapping.*
+$$(\mathrm{EP}_{II})$$ *对于分别在线性簇$\mathbf{P}(V)$和$\mathbf{P}(W)$上定义的$\Phi$的每对有序元素$f, g$，$\mathbf{P}(V)$到$\mathbf{P}(W)$的双射$h = g^{-1} \circ f$是射影映射。*
 
 $$(\mathrm{EP}_{III})$$ *相反，如果 $f \in \Phi$ 定义在线性簇 $\mathbf{P}(V)$ 上并且 $h$ 是 $\mathbf{P}(V)$ 的双射射影映射到线性簇 $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$，则 $f \circ h^{-1} \in \Phi$。*
 

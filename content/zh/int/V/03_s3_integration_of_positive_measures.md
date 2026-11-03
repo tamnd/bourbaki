@@ -37,16 +37,16 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 64f7fb80d7653a7879611aa1968956eb46ee7788a9004cfd4569d94c25f4db88
+content_sha256: c8806ca9b801b20df35b5fbfaddc146844005a950aa31d3bad240743baa781c2
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
 translation_method: google
 source_content_sha256: 4363fec5ea39b1d12c9673dd8324ba6983ab374b2f5f144cb72fb7d26d6dfd8e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: dced6682959ef3596947ebf7c25448482fd79eacc96d0f9c54d94566f9e634b1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。整合积极措施
@@ -59,7 +59,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 前面的定义是弱积分概念的一个特例，在第1章中会以一般的方式处理。 VI。
 
-If $f$ denotes an element of $\mathscr{K}(X)$, the integral $\int \lambda_t(f)\, d\mu(t)$ will also, by an abuse of notation, be denoted $\int d\mu(t) \int f(x)\, d\lambda_t(x)$; the definition of the integral $\nu = \int \lambda_t\, d\mu(t)$ may then be written
+如果$f$表示$\mathscr{K}(X)$的一个元素，则积分$\int \lambda_t(f)\, d\mu(t)$也将通过滥用符号表示为$\int d\mu(t) \int f(x)\, d\lambda_t(x)$；整的$\nu = \int \lambda_t\, d\mu(t)$的定义可以写成
 
 $$
 \int f(x)\, d\nu(x) = \int d\mu(t) \int f(x)\, d\lambda_t(x).
@@ -71,7 +71,7 @@ $$
 
 假设 T 是离散的空间，μ 是通过在 T 的每个点处放置质量 +1 来定义的 T 的度量（Ch. III, §1, No. 3）。设h为T上定义的函数$\geqslant 0$；因为函数 h 在 T 上是下半连续（甚至连续），$\mu^*(h) = \mu^\bullet(h) = \sum_{t \in T} h(t)$（Ch. IV, §1, No. 1，例）。
 
-对于测量 μ，可积函数的概念和可积函数本质上是相同的。既然如此，如果说 T 到 $\mathscr{M}_+(X)$ 的映射 $t \mapsto \lambda_t$ 本质上是 μ 可积的，则等于说，即族 $(\lambda_t)_{t \in T}$ 是可求和的 (§2, No. 1)，然后就有 $\int \lambda_t\, d\mu(t) = \sum_{t \in T} \lambda_t$。 注映射 $t \mapsto \lambda_t$ 是模糊连续的。
+对于测量 μ，可积函数的概念和可积函数本质上是相同的。既然如此，如果说 T 到 $\mathscr{M}_+(X)$ 的映射 $t \mapsto \lambda_t$ 本质上是 μ 可积的，则等于说，即族 $(\lambda_t)_{t \in T}$ 是可求和的 (§2, No. 1)，然后就有 $\int \lambda_t\, d\mu(t) = \sum_{t \in T} \lambda_t$。请注意，映射 $t \mapsto \lambda_t$ 是模糊连续的。
 
 #### 例 2 {#int-v-s3-n1-exa-2 .statement tag=090X}
 
@@ -85,9 +85,9 @@ $$
 \int \lambda_t\, d\mu(t) = \sup_{i \in I} \int \lambda_t\, d\mu_i(t).
 $$
 
-因为，验证$\Lambda$对于$T$上的正测度$\eta$在标量上本质上可积，归结为验证$t \mapsto \lambda_t(g)$是$\eta$可测的，并且对于每个函数$g \in \mathscr{H}_+(X)$，对于$\eta$，承认有限本质上积分。因此，命题立即由§1, No. 4的第11条命题及其推论2得出。
+因为，验证$\Lambda$对于$T$上的正测度$\eta$在标量上本质上可积，归结为验证$t \mapsto \lambda_t(g)$是$\eta$可测的，并且对于每个函数$g \in \mathscr{H}_+(X)$，对于$\eta$，承认有限本质上积分。因此，命题立即源自§1, No. 4的第11条命题及其推论2。
 
-#### 推论{#int-v-s3-n1-cor-1 .statement tag=090Z}
+#### 推论 {#int-v-s3-n1-cor-1 .statement tag=090Z}
 
 — *假设 $\mu$ 是 $T$ 上积极措施的可和族 $(\mu_\alpha)_{\alpha \in A}$ 的和；在阶中，$\Lambda : t \mapsto \lambda_t$本质上是$\mu$标量可积，对于每个$\alpha \in A$，$\Lambda$本质上$\mu_\alpha$标量可积是必要且充分的，并且测度族$\int \lambda_t d\mu_\alpha(t)$是可求和的。然后一个有*
 
@@ -119,7 +119,7 @@ $$
 
 #### 命题 2 {#int-v-s3-prop-2 .statement tag=0911}
 
-— Let $\Lambda : t \mapsto \lambda_t$ be a scalarly essentially $\mu$-integrable mapping of $T$ into $\mathscr{M}_+(X)$, and let $\nu = \int \lambda_t \, d\mu(t)$.
+— 设 $\Lambda : t \mapsto \lambda_t$ 是 $T$ 到 $\mathscr{M}_+(X)$ 的标量本质上 $\mu$ 可积映射，并设 $\nu = \int \lambda_t \, d\mu(t)$。
 
 a) *如果$\Lambda$是模糊连续的，那么映射$t \mapsto \lambda_t^\bullet(f)$对于$X$上定义的每个下半连续函数$f \geqslant 0$来说是下半连续的，$\Lambda$是$\mu$-充分的，并且我们有关系*
 
@@ -216,7 +216,7 @@ $$
 
 #### 推论 1 {#int-v-s3-prop-3-cor-1 .statement tag=0914}
 
-— *令$f$为在$X$上定义的函数$\geq 0$，并令$H$为$t \in T$的集合，使得$f$不可忽略$\lambda_t$。*
+— *令$f$为$X$上定义的函数$\geq 0$，并令$H$为$t \in T$的集合，使得$f$不是$\lambda_t$可忽略不计。*
 a) *如果 $f$ $\nu$-可忽略，则 $H$ 局部 $\mu$-可忽略。*
 b) *如果 $f$ 是 $\nu$-可忽略且 $\Lambda$ 是模糊连续的，则 $H$ 是 $\mu$-可忽略。*
 c) *如果 $f$ 局部 $\nu$ 可忽略不计，且 $\lambda_t^\bullet(1) < +\infty$ 局部 $\mu$ 几乎无处不在，则 $H$ 局部 $\mu$ 可忽略不计。*
@@ -283,7 +283,7 @@ $$
 
 如果 $f$ 不被假定为 $\nu$ 调节的，并且如果在 c) 中没有得到假设，则关系 (9) 可能不成立（例 3）。
 
-#### 推论{#int-v-s3-n2-cor-1 .statement tag=0918}
+#### 推论 {#int-v-s3-n2-cor-1 .statement tag=0918}
 
 — *令$\mathbf{f}$为$X$上定义的函数，值位于Banach空间$F$或$\overline{\mathbf{R}}$中，即$\nu$可测量且$\nu$可调节。对于 $\mathbf{f}$ $\nu$ 可积，有充分必要*
 
@@ -291,13 +291,13 @@ $$
 \int^\bullet d\mu(t) \int^\bullet |\mathbf{f}(x)|\, d\lambda_t(x) < +\infty.
 $$
 
-这立即源自第 5 条命题和可积性标准（第 IV, §5, No. 6 章，第 5 章）。
+这立即来自第 5 条命题和可积性标准（第 IV, §5, No. 6 章，第 5 章）。
 
 ### 3. Banach 空间中函数与值的叠加积分
 
 #### 定理 1 {#int-v-s3-thm-1 .statement tag=0919}
 
-— 设 $f$ 为函数，其中值在 Banach 空间 $F$ 或 $\overline{\mathbf{R}}$ 中，并令 $H$ 为 $t \in T$ 的集合，其中$f$ 不是$\lambda_t$-可积。
+— 设 $f$ 为函数，其中值在 Banach 空间 $F$ 或 $\overline{\mathbf{R}}$ 中，并令 $H$ 为 $t \in T$ 的集合，其中 $f$ 不是$\lambda_t$-可积。
 
 a) *如果 $f$ 是 $\nu$ 可积，则 $H$ 局部 $\mu$ 可忽略不计，函数 $t \mapsto \int f(x)\, d\lambda_t(x)$（为 $t \notin H$ 定义）本质上是 $\mu$ 可积，并且*
 
@@ -309,12 +309,12 @@ b) *如果$f$是$\nu$可积且$\Lambda$是模糊连续的，那么$H$此外$\mu$
 
 c) *如果 $\lambda_t^*(1) < +\infty$ 局部 $\mu$ - 几乎无处不在，那么 a) 的结论对于 $f$ 本质上 $\nu$ 可积函数仍然成立。*
 
-我们首先要建立a）（分别b））。当$f$是正数函数时，叙述为真（命题5）；如果 $f$ 是可积函数，$\overline{\mathbf{R}}$ 中有值，则该结果可应用于正函数、$f^+$ 和 $f^-$，因此通过减法将扩展立即减至 $f$。剩下的就是用$F$中的值来处理函数的情况。设$\mathscr{H}$为由线性组合构成的$\mathscr{L}_F^1(\nu)$的子空间，系数在$F$，函数的系数在$\mathscr{K}(X)$；与实函数有关的结果立即意味着叙述对于$\mathscr{H}$的元素的有效性。现在，$\mathscr{H}$在$\mathscr{L}_F^1(\nu)$中是稠密的；因此，对于每个$f \in \mathscr{L}_F^1(\nu)$，都存在序列$(f_n)$ / 元素 / $\mathscr{H}$，它们具有以下属性：
+我们首先要建立a）（分别b））。当$f$是正数函数时，叙述为真（命题5）；如果 $f$ 是可积函数，$\overline{\mathbf{R}}$ 中有值，则该结果可应用于正函数、$f^+$ 和 $f^-$，因此通过减法将扩展立即减至 $f$。剩下的就是用$F$中的值来处理函数的情况。令$\mathscr{H}$为线性组合形成的$\mathscr{L}_F^1(\nu)$的子空间，其中$F$为系数，$\mathscr{K}(X)$为函数；与实函数有关的结果立即意味着叙述对于$\mathscr{H}$的元素的有效性。现在，$\mathscr{H}$在$\mathscr{L}_F^1(\nu)$中是稠密的；因此，对于每个$f \in \mathscr{L}_F^1(\nu)$，都存在序列$(f_n)$ / 元素 / $\mathscr{H}$，它们具有以下属性：
 
 1) 序列 $(f_n)$在$\mathscr{L}_F^1(\nu)$和$\nu$中均值收敛于$f$——几乎处处；
 2) 函数 $g = |f_0| + \sum_{n \in \mathbf{N}} |f_{n+1} - f_n|$ 使得 $\nu^*(g) < +\infty$ (Ch. IV, §3, No. 4, Th. 3)。
 
-令$N_1$为$t \in T$的集合，使得$\lambda_t^*(g) = +\infty$； $N_1$ 与公式 (6) (或 (7)) 的局部$\mu$可忽略不计（或$\mu$可忽略不计）。对于 $t \notin N_1$，$f_n$ 属于到 $\mathscr{L}_F^1(\lambda_t)$、序列 $(f_n)$ 几乎处处收敛于 $\lambda_t$，对于拓扑，$\mathscr{L}_F^1(\lambda_t)$ 中均值收敛（第 IV, §3, No. 3，提案 6）。令$M$为$x \in X$的集合，使得$f_n(x)$不会收敛到$f(x)$：因为$M$是$\nu$可忽略不计，集合$N_2$为$t \in T$，使得$M$ 不是 $\lambda_t$-可以忽略不计，是局部 $\mu$-可以忽略（或$\mu$-可以忽略）。提案 3 中的 1 条。
+令$N_1$为$t \in T$的集合，使得$\lambda_t^*(g) = +\infty$； $N_1$ 局部 $\mu$-可忽略（或 $\mu$-可忽略）乘以公式 (6)（或 (7)）。对于 $t \notin N_1$，$f_n$ 属于到 $\mathscr{L}_F^1(\lambda_t)$、序列 $(f_n)$ 几乎处处收敛于 $\lambda_t$，对于拓扑，$\mathscr{L}_F^1(\lambda_t)$ 中均值收敛（第 IV, §3, No. 3，提案 6）。令$M$为$x \in X$的集合，使得$f_n(x)$不会收敛到$f(x)$：因为$M$是$\nu$可忽略不计，集合$N_2$为$t \in T$，使得$M$ 不是 $\lambda_t$-可以忽略不计，是局部 $\mu$-可以忽略（或$\mu$-可以忽略）。提案 3 中的 1 条。
 
 假设$t$不属于到$N_1 \cup N_2$； 序列$(f_n)$均值收敛于$\mathscr{L}_F^1(\lambda_t)$，并且$\lambda_t$几乎处处收敛到$f$。因此$f \in \mathscr{L}_F^1(\lambda_t)$和$\int f\, d\lambda_t = \lim_{n \to \infty} \int f_n\, d\lambda_t$（第IV, §4, No. 1章）。因此，叙述中的集合$H$包含在$N_1 \cup N_2$中；因此，它在本地$\mu$可以忽略不计（分别为$\mu$可以忽略不计）。另一方面，函数$t \mapsto \int f\, d\lambda_t$局部等于$\mu$-几乎处处等于$\mu$的序列的极限-可测量的函数；因此它是$\mu$-可测量的。最后，对于每个$t \notin N_1 \cup N_2$和每个$n$，我们有
 $$
@@ -428,7 +428,7 @@ $$
 
 — *假设$\mu$是$\Lambda$域的正测度属于的可和族$(\mu_\alpha)_{\alpha \in A}$的和。对于$\mu$到属于到$\Lambda$的域，测度族$\mu_\alpha \Lambda$可求和是必要且充分的，在这种情况下$\mu \Lambda = \sum_{\alpha \in A} \mu_\alpha \Lambda$。*
 
-应用No. 1命题1的推论就足够了。
+应用No. 1第1号提案推论即可。
 
 命题 5，用扩散语言表达，取以下形式：
 
@@ -440,11 +440,11 @@ $$
 \langle \mu \Lambda, f \rangle = \langle \mu, \Lambda f \rangle .
 $$
 
-#### 推论{#int-v-s3-n5-cor-1 .statement tag=091M}
+#### 推论 {#int-v-s3-n5-cor-1 .statement tag=091M}
 
 — *如果 $X$ 在无穷大处可数，或者如果测量 $\lambda_t$ 有界，则对于 $X$ 上定义的每个普遍可测的函数 $f \geq 0$，函数 $\Lambda f$ 在 $T$ 上普遍可测，并且 (13)成立。*
 
-### 6. 合成有界扩散
+### 6. 有界扩散的合成
 
 #### 命题 13 {#int-v-s3-prop-13 .statement tag=091N}
 
@@ -454,7 +454,7 @@ $$
 \| \Lambda H \| \leq \| \Lambda \| \| H \|.
 $$
 
-*令$f$为$Y$上定义的通用可测函数$\geq 0$，以及$\mu$为$T$上的测度。假设$\mu$属于到$\Lambda$的域，并且*μΛ属于到H的域；然后 μ 属于到 ΛH 的域，并且
+*设$f$为$Y$上定义的通用可测函数$\geq 0$，$\mu$为$T$上的测度。假设$\mu$属于到$\Lambda$的域，并且*μΛ属于到H的域；然后 μ 属于到 ΛH 的域，并且
 
 $$
 \langle \mu(\Lambda H), f \rangle = \langle \mu \Lambda, Hf \rangle = \langle \mu, \Lambda Hf \rangle;
@@ -512,7 +512,7 @@ $$
 \gamma_t = \varepsilon_{(vou)(t)}.
 $$
 
-因而，要注意扩散的注阶或合成与通常的阶或合成或函数相反。
+因而，请注意扩散的合成的阶与通常的函数的阶或合成相反。
 
 ### 习题{#int-v-s3-exercises}
 

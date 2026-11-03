@@ -50,19 +50,19 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: bb2f363e2faf637f2e687b8fa00b3bd913a31d24478a16ed01e2aa3823568d11
+content_sha256: 27561839a2a2f716b48b91ae499eff4d319bc49f400c60ae5d95326f35fb4b5b
 translated_from: content/en/ens/II/03_s3_correspondences.md
 translation_method: google
 source_content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6156c1be35e974695a1d8865d5c30fb32b8225b926c2d48b4f2dbf92b2d42742
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 3. CORRESPONDENCES
+## 3. 对应
 
 ### 1. 图表和对应
 
@@ -202,7 +202,7 @@ $$(z, y) \in \overset{-1}{G'} \text{ and } (y, x) \in \overset{-1}{G}.$$
 
 #### 命题 4 {#ens-ii-s3-prop-4 .statement tag=03HL}
 
-*设* $G_1$、$G_2$、$G_3$ *为图形。然后*
+*设* $G_1$、$G_2$、$G_3$ *为图表。然后*
 
 $$(G_3 \circ G_2) \circ G_1 = G_3 \circ (G_2 \circ G_1).$$
 
@@ -238,7 +238,7 @@ $$(\exists y)((\exists x)(x \in A \text{ and } (x, y) \in G) \text{ and } (y, z)
 
 因此相当于 $(\exists y)(y \in G\langle A \rangle$ 和 $(y, z) \in G')$；因此结果。
 
-¶ 如果 G 和 G′ 是两个图，则有 $\mathrm{pr}_1(G' \circ G) = \overset{-1}{G}\langle \mathrm{pr}_1 G'\rangle$ 和 $\mathrm{pr}_2(G' \circ G) = G'\langle \mathrm{pr}_2 G\rangle$。对于例，要证明其中的第二个关系，注就足以证明关系$z \in \mathrm{pr}_2(\mathrm{G}' \circ \mathrm{G})$等价于$(\exists x)((x, z) \in \mathrm{G}' \circ \mathrm{G})$，因此
+¶ 如果 G 和 G′ 是两个图，则有 $\mathrm{pr}_1(G' \circ G) = \overset{-1}{G}\langle \mathrm{pr}_1 G'\rangle$ 和 $\mathrm{pr}_2(G' \circ G) = G'\langle \mathrm{pr}_2 G\rangle$。例如，要证明其中的第二个关系，只需注意关系$z \in \mathrm{pr}_2(\mathrm{G}' \circ \mathrm{G})$相当于$(\exists x)((x, z) \in \mathrm{G}' \circ \mathrm{G})$，因此
 
 $$(\exists y)((\exists x)((x, y) \in \mathrm{G}) \quad \text{and} \quad (y, z) \in \mathrm{G}');$$
 
@@ -276,7 +276,7 @@ $$\mathrm{I}_\mathrm{A} = (\Delta_\mathrm{A}, \mathrm{A}, \mathrm{A})$$
 
 ¶ 如果 A 和 B 之间的$\Gamma$ 是对应，且$\mathrm{I}_\mathrm{A}$、$\mathrm{I}_\mathrm{B}$ 分别是A、B 上的恒等式对应，则$\Gamma \circ \mathrm{I}_\mathrm{A} = \mathrm{I}_\mathrm{B} \circ \Gamma = \Gamma$。
 
-### 4. FUNCTIONS
+### 4. 函数
 
 #### 定义 9 {#ens-ii-s3-def-9 .statement tag=03HN}
 
@@ -300,7 +300,7 @@ A 上定义的函数 $f$ 据说是 *变换 x 变成* $f(x)$（对于所有 $x \i
 
 ¶ 在某些情况下，函数图被称为*家族*；然后，域被称为 *指标集合*，范围被称为（滥用语言）家族的元素* 的 *集合。主要是在这方面，标记记号$f_x$用于表示元素$x$处的$f$的值。当指标集合为两个集合的积时，我们常说的是*双家庭*。
 
-¶ Likewise a function whose target is E is sometimes called a *family of elements* of E. 如果 E 的每个元素都是集合 F 的子集，我们称 F 的 *子集* 族。
+¶ 同样，目标为 E 的函数有时称为 E 的“元素族”。 如果 E 的每个元素都是集合 F 的子集，我们称 F 的 *子集* 族。
 
 在整个级数中，我们经常使用字“函数”来代替“函数图”。
 
@@ -320,7 +320,7 @@ A 上定义的函数 $f$ 据说是 *变换 x 变成* $f(x)$（对于所有 $x \i
 
 ¶ 设 $f$ 为集合 E 的映射到 E 中。如果 $f(x)=x$，则 E 的元素 $x$ 被认为*固定在* $f$ 下。
 
-### 5. 限制和扩张函数
+### 5. 限制和扩张共函数
 
 如果 E 包含在 $f$ 和 $g$ 的域中，并且如果 $f(x)=g(x)$ 对于所有 $x\in E$，则两个函数 $f$ 和 $g$ 被认为在集合 E 上*一致*（或 *重合*）。两个具有相同图的函数在其定义域上一致。说$f=g$就是说$f$和$g$具有相同的域A和相同的目标B，并且它们在A上一致。
 
@@ -328,7 +328,7 @@ A 上定义的函数 $f$ 据说是 *变换 x 变成* $f(x)$（对于所有 $x \i
 
 ¶ 令$f$ 为函数，并令A 为$f$ 域的子集。 直接的，关系“$x\in A$和$y=f(x)$”有一个关于$x$和$y$的图G，这个图是函数的，A是它的域；图为G的函数，与$f$有相同的目标，称为$f$到$A$的*限制*，用$f|A$表示为有时。 函数是其任意限制中的扩张。如果两个函数$f$、$g$有相同的目标并且在集合$E$上达成一致，那么它们的限制到$E$是相等的。
 
-### 6. 定义函数通过项
+### 6. 定义或函数通过项
 
 C54。 *令$T$、$A$为两个项，并令$x$、$y$为不同的字母。假设$x$没有出现在$A$中，并且$y$没有出现在$T$或$A$中。令$R$为关系“$x \in A$和$y = T$”。 关系 $R$ 有一个关于字母 $x$ 和 $y$ 的图表 $F$。该图是函数式的；其第一个投影为$A$，其第二个投影为$x \in A$(§ 1, no. 6)形式$T$对象集合。对于每个$x \in A$，我们有$F(x) = T$。*
 
@@ -460,17 +460,17 @@ $$\text{“}(y \in A \text{ and } x = f(y)) \text{ or } (y = a \text{ and } x \i
 
 蕴含$(x, y) \in B \times A$，因此有一个关于字母$x$、$y$的图R。该图由于假设在 $f$ 上是函数的，并且以 B 为其定义域；如果$x \in B - f(A)$，我们有$R(x) = a$，如果$x \in f(A)$，我们有$f(R(x)) = x$。因此函数$r = (R, B, A)$使得$r \circ f$是A的恒等映射。
 
-#### 推论{#ens-ii-s3-n8-cor-1 .statement tag=03HT}
+#### 推论 {#ens-ii-s3-n8-cor-1 .statement tag=03HT}
 
 *设* A，B *为集合，设$f$为* A *入* B的映射，*并令$g$为* B *入* A的映射。 *如果$g \circ f$是* A *的恒等映射且如果$f \circ g$是* B 的恒等映射，*则 $f$ 和 $g$ 是双射，且 $g = \overset{-1}{f}$.*
 
 #### 定义 11 {#ens-ii-s3-def-11 .statement tag=03HU}
 
-*设 $f$ 为* A *到* B 的单射*（或*满射*）*映射。*任意映射 $r$*（或$s$）*B *到* A *使得 $r \circ f$*（或$f \circ s$） *是* A（分别为B）的恒等映射*称为撤回*（分别为*截面*）*$f$。*
+*设 $f$ 为* A *到* B 的单射*（或*满射*）*映射。*任意映射 $r$*（或$s$）*B *到* A *使得 $r \circ f$*（或$f \circ s$） *是* A（分别是B）的恒等映射*被称为收回*（分别是*截面*）*$f$。*
 
-使用有时代替撤回（或截面）短语*左逆*（或*右逆*）。
+Instead of retraction (resp. 截面) the phrase *left-inverse* (resp. *right-inverse*) is 有时 used.
 
-¶ 如果 $f$ 是单射（或满射）并且 $r$（或 $s$）是 $f$ 的回缩（或截面），则 $f$ 是 $r$ 的截面（或回缩） （分别$s$）。因此，回缩是满射的，而截面是单射的。
+¶ 如果 $f$ 是单射（或满射）并且 $r$（或 $s$）是 $f$ 的回缩（或截面），则 $f$ 是 $r$ 的截面（或回缩） （分别$s$）。因此，回缩是满射的，截面是单射的。
 
 ¶ 如果$f$是满射且$s$、$s'$是$f$的两个截面，使得$s(\mathrm{B}) = s'(\mathrm{B})$，则$s = s'$；因为如果$x \in \mathrm{B}$，则存在$y \in \mathrm{B}$使得$s(x) = s'(y)$，并且我们有$x = f(s(x)) = f(s'(y)) = y$，因而$s(x) = s'(x)$，因而$s = s'$。因此截面$s$由集合$s(\mathrm{B})$唯一确定。滥用语言，集合$s(\mathrm{B})$被有时称为$f$*的*截面。
 

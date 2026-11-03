@@ -29,16 +29,16 @@ subsections:
       pdf_page: 165
 statements: 12
 exercises: 16
-content_sha256: 7eac7ccceb8eb741790f0f9a110cf3f31738fd7bb70bf00090fabfeaf9c96cd8
+content_sha256: 7dc71b479f0d1db2eca5a67d5ce50c4d2faf94d6b09e93be9cfecbbfad7ba21e
 translated_from: content/en/lie/VIII/09_s9_the_formula_of_hermann_weyl.md
 translation_method: google
 source_content_sha256: 16e58934b12a0ac3234fd1dee9446b6558b2edb33a94c1d55bbd2fbd906273b2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7f4ed5db9c80df419c4d7e4466a274ea10b8d4b350fd99469e38583d6c806324
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 9。 魏尔公式
@@ -315,7 +315,7 @@ $$
 
 $w\in W,\gamma \in Q_+,\gamma =-\lambda -\rho +w(\omega +\rho )$
 
-#### 推论{#lie-viii-s9-n3-cor-1 .statement tag=0162}
+#### 推论 {#lie-viii-s9-n3-cor-1 .statement tag=0162}
 
 如果$\lambda$是$E(\omega )$的权，与$\omega$不同，
 
@@ -365,7 +365,7 @@ $$
 m(\lambda , \mu, \nu ) =\sum_{w,w'\in W}\varepsilon (ww')\mathfrak{P}(w(\lambda +\rho ) +w'(\mu+\rho )-(\nu + 2\rho ))
 $$
 
-令$E,F$为最高权$\lambda , \mu$的有限维简单$\mathfrak{g}$模。令$l_{\nu}$为最高权$\nu$的$E\otimes F$同型成分的长度。足以证明
+令$E,F$为最高权$\lambda , \mu$的有限维简单$\mathfrak{g}$模。 令$l_{\nu}$为最高权$\nu$的$E\otimes F$的同型分量的长度。 足以证明
 
 $$
 l_{\nu}=\sum_{w,w'\in W}\varepsilon (ww')\mathfrak{P}(w(\lambda +\rho ) +w'(\mu+\rho )-(\nu + 2\rho )) \tag{2}

@@ -41,21 +41,21 @@ subsections:
       pdf_page: 297
 statements: 21
 exercises: 3
-content_sha256: 22c860fd503cfbbb3fea49a0491d1db1d4f288ac83b4d84e97b95bc3376e48b8
+content_sha256: ed00a5b1128a585995a26a67834c9efd0accf4478f812b732dd9cf587280dfac
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 translation_method: google
 source_content_sha256: 7b62ad591ac33887b2cec9de99a553da0d73b1a05da4f701901b379dc016e8a0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 00ff201d7c0e826897d147f22207c94c8c4121685cdde7b9e2eabcde2877f8b2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。广义泰勒展开
 
-### 1. 多项式代数的合成运算符
+### 1. 多项式代数上的合成运算符
 
 设 K 为特征 0 的交换域，K 上的一个不定多项式的 K[X] 代数（代数，IV.1）；在整个截面中，通过K[X]上的运算符，我们意味着向量空间K[X]（在K上）的线性映射U自身；因为对于这个空间，单项式 $X^n \ (n \geqslant 0)$ 形式基，U 由多项式 $U(X^n)$ 确定；具体来说，如果 $f(X) = \sum_{k=0}^\infty \lambda_k X^k$ 与 $\lambda_k \in K$，则
 $$
@@ -100,7 +100,7 @@ K[X] 上的推导 D 是合成运算符（*cf.* 命题 1）。
 
 由于 K 是无限域，所以 K[X] 上的算子 U 是合成算子当且仅当对于每个多项式 $f \in K[X]$ 和每个元素 $\alpha \in K$ 都有一个，将 $g = U(f)$ 放入 $g(X + \alpha) = U(f(X + \alpha))$。 （阿尔格.，IV.16，更正）。
 
-显然，合成算子中的每一个线性组合，其系数为K，都是合成算子；对于两个合成运算符中的合成也是如此。其它字、合成算子向量空间K[X]自同态代数形式子代数$\Gamma$。
+显然，合成算子中的每一个线性组合，其中K中有系数，都是合成算子；对于两个合成运算符中的合成也是如此。其他字、合成运算符向量空间K[X]自同态代数形式子代数$\Gamma$。
 
 #### 命题 1 {#fvr-vi-s1-prop-1 .statement tag=08HS}
 
@@ -120,7 +120,7 @@ $$
 
 为了使 U 成为合成运算符，对于每个整数 $k \geq 1$，尤其是 $UD = DU$，必须有 $UD^k = D^k U$。相反，如果关系成立，则意味着对于每个整数$k \geq 1$，归纳在$k$上有$UD^k = D^k U$；泰勒公式则表明$g(X + Y) = U_X(f(X + Y))$。
 
-对于每个多项式 $f \in K[X, Y]$，我们用 $U_0(f)$ 项 *独立于* X 表示多项式 $U_X(f)$；特别是，如果$f \in K[X]$，$U_0(f)$是$U(f)$中的*常数项*，而$U_0$是$K[X]$上的*线性形式*。对于每个多项式 $f \in K[X]$ 让 $g = U(f)$；按定义。 1 个VI、p. 270
+对于每个多项式 $f \in K[X, Y]$，我们用 $U_0(f)$ 项 *独立于* X 表示多项式 $U_X(f)$；特别是，如果$f \in K[X]$，$U_0(f)$是$U(f)$中的*常数项*，而$U_0$是$K[X]$上的*线性形式*。对于每个多项式 $f \in K[X]$ 让 $g = U(f)$；默认情况下。 1 个VI、p. 270
 
 $$
 g(X + Y) = U_X(f(X + Y)) = U_X \left( \sum_{k=0}^{\infty} \frac{1}{k!} X^k D^k f(Y) \right) = \sum_{k=0}^{\infty} \frac{1}{k!} U(X^k) D^k f(Y)
@@ -156,7 +156,7 @@ $$
 
 人们立即验证这个映射是同态。仍有待观察它是单射的，在其他字中，关系$\sum_{k=0}^{\infty} \alpha_k D^k = 0$意味着对于每个$k$都有$\alpha_k = 0$；现在$h! \alpha_h$就是应用$\sum_{k=0}^{\infty} \alpha_k D^k$到$X^h$、从而定理得到的多项式中的常数项。
 
-#### 推论{#fvr-vi-s1-n1-cor-1 .statement tag=08HU}
+#### 推论 {#fvr-vi-s1-n1-cor-1 .statement tag=08HU}
 
 *$K[X]$中合成运算符的代数$\Gamma$是可交换的。*
 
@@ -184,9 +184,9 @@ $$
 
 #### 学院{#fvr-vi-s1-n1-sch-1 .statement tag=08HW}
 
-The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma$ of composition operators on $K[X]$ sometimes allows one to prove propositions on formal series most simply, by proving them for the corresponding composition operators (*cf.* VI, p. 274, prop. 6).
+形式级数的代数$K[[S]]$和$K[X]$上的复合算子代数$\Gamma$的同构有时允许人们通过证明对应的复合算子来最简单地证明形式级数上的命题（*cf.* VI，p. 274，命题6）。
 
-### 2. 附加到合成运算符的上诉多项式
+### 2. 附加到合成运算符的 Appell 多项式
 
 给定合成运算符$U = \sum_{k=0}^{\infty} \alpha_k D^k \neq 0$，令$p$是整数$k$中最小的一个，使得$\alpha_k \neq 0$；我们可以说$p$是运算符$U$的*阶*。
 
@@ -200,7 +200,7 @@ The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma
 
 设$U$为阶$p$的合成运算符；然后 $U(f) = 0$ 对于次数 $< p$ 的每个多项式 $f$；对于次数$n \geq p$的每个多项式$f \neq 0$，$U(f)$是次数$n - p$的多项式$\neq 0$。
 
-This is an immediate consequence of formula (2) of VI, p. 271 and of the definition of the order of $U$.
+这是VI、p. 271的公式(2)以及$U$阶数定义的直接推论。
 
 显然，阶 $p$ 的每个运算符 $U$ 都可以用唯一的方式写为 $U = D^p V = V D^p$，其中 $V$ 是阶 0 的运算符（因此可逆）。
 
@@ -265,11 +265,11 @@ $$
 
 ### 3. 生成的级数对于上诉多项式
 
-令 E 为不定 S 中*形式级数* 的环，系数为多项式 $K[X]$ 的环 (*Alg.*, IV.41)；在正式级数$g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$的其他字、环中，其中$\alpha_n$属于至$K[X]$。对于$K[X]$上的每个运算符$U$，我们通过将$U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$放入E的定义映射$U_X$自身。显然，E 是 S 中形式级数环 $K[[S]]$ 的模，系数为$K$；通过$K[X]$上$U$的线性，我们可以立即验证对于每个元素$\theta \in K[[S]]$和每个$g \in E$都有$U_X(\theta g) = \theta U_X(g)$；在其他字中，$U_X$是模E自身的线性映射。
+令 E 为不定 S 中*形式级数* 的环，其中系数位于多项式 $K[X]$ (*Alg.*, IV. 41) 的环中；在正式级数$g(X, S) = \sum_{n=0}^{\infty} \alpha_n(X) S^n$的其他字、环中，其中$\alpha_n$属于至$K[X]$。对于$K[X]$上的每个运算符$U$，我们通过将$U_X(g(X, S)) = \sum_{n=0}^{\infty} U(\alpha_n) S^n$放入E的定义映射$U_X$自身。很明显，E 是 S 中形式级数的环 $K[[S]]$ 模，$K$ 中系数；通过$K[X]$上$U$的线性，我们可以立即验证对于每个元素$\theta \in K[[S]]$和每个$g \in E$都有$U_X(\theta g) = \theta U_X(g)$；在其他字中，$U_X$是模E自身的线性映射。
 
 #### 命题 6 {#fvr-vi-s1-prop-6 .statement tag=08I2}
 
-*令$U = D^p V = u(D)$为$K[X]$上阶$p$的合成运算符，$u(S)$为$K[[S]]$中阶$p$的正式幂级数。然后*
+*令$U = D^p V = u(D)$是$K[X]$上阶$p$的合成运算符，$u(S)$是$K[[S]]$中阶$p$的正式幂级数。然后*
 
 $$
 U_X \left( \exp(XS) \right) = u(S) \exp(XS) \tag{15}
@@ -287,13 +287,13 @@ $$
 
 现在(17)中的第一个项是$U_X(f(X + Y))$，并且由于$U = u(D)$，(17)中的第二个项是$U_Y(f(X + Y))$，所以恒等式(17)约化到(1)(VI，p. 270)。
 
-现在只需将（15）应用于合成运算符$V^{-1} = D^p / u(D)$即可获得（16），因为到定义，我们已经
+现在只需将 (15) 应用于合成运算符 $V^{-1} = D^p / u(D)$ 即可获得 (16)，因为到定义时，我们已经
 
 $$
 V^{-1}(\exp(XS)) = \sum_{n=0}^{\infty} \frac{1}{n!} u_n(X) S^n.
 $$
 
-注 (16) 也可以通过将形式级数 $S^p / u(S)$ 与 $\exp(XS)$ 相乘，并考虑 (6) 来获得。
+请注意，(16) 也可以通过将形式级数 $S^p / u(S)$ 和 $\exp(XS)$ 相乘，并考虑 (6) 来获得。
 
 有人说，形式级数 (16) 是附加到 $U$ 的阿佩尔多项式的生成的级数。
 
@@ -324,7 +324,7 @@ $$
 $$
 (20)
 
-VI、p. 273的公式 (7) 和 (9)，对于伯努利多项式，给出关系
+公式 (7) 和 (9) of VI, p. 273，对于伯努利多项式，给出关系
 
 $$
 \frac{dB_n}{dX} = n B_{n-1}(X)
@@ -348,13 +348,13 @@ $$
 \frac{S}{e^S - 1} = -\frac{S}{2} + \frac{S}{2} \frac{e^S + 1}{e^S - 1}
 $$
 
-自 (VI, p. 272, 公式 (5))
+自从 (VI, p. 272, 公式 (5))
 
 $$
 \frac{e^{-S} + 1}{e^{-S} - 1} = -\frac{e^S + 1}{e^S - 1}
 $$
 
-我们可以看到，在 $\frac{S}{2} \frac{e^S + 1}{e^S - 1}$ 的形式级数中，*奇数* 次数的所有项都有系数零；所以有人有
+我们可以看到，在 $\frac{S}{2} \frac{e^S + 1}{e^S - 1}$ 的正式级数中，*奇数* 次数的所有项都有系数零；所以有人有
 
 $$
 b_0 = 1, \qquad b_1 = -\frac{1}{2}, \qquad b_{2n-1} = 0 \quad \text{for } n > 1.
@@ -371,7 +371,7 @@ b_{24} &= -\frac{236364091}{2730}, & b_{26} &= \frac{8553103}{6}, & b_{28} &= -\
 \end{align*}
 $$
 
-注分子 691、3617、43867 是素数；其他的质因数分解是
+注意分子 691、3617、43867 是质数；其他的质因数分解是
 
 $$
 \begin{align*}
@@ -392,9 +392,9 @@ B_3(X) &= X^3 - \frac{3}{2}X^2 + \frac{1}{2}X, & B_4(X) &= X^4 - 2X^3 + X^2 - \f
 \end{align*}
 $$
 
-### 5. 实变量函数的合成运算符
+### 5. 实数变量的函数上的合成运算符
 
-令I为$\mathbf{R}$包含区间$\mathbf{R}_+ = [0, +\infty[$中的一个区间；令 E 为向量空间超过域 $\mathbf{C}$，由具有复数值的实数变量函数组成，在 I 上定义。我们假设对于每个$a \geqslant 0$和每个函数$f \in E$函数$x \mapsto f(x + a)$属于到E；此外，我们假设*具有复系数*的多项式*和*指数*$e^{\lambda x}$的E包含限制到I，其中$\lambda$是任意*复数*数。 E 的任何线性映射 $U$ 到所有映射的空间从 I 到域 $\mathbf{C}$ 的复数将被称为 E 上的*运算符*；如果$f \in E$和$g = U(f)$使用记号会很方便
+设$\mathbf{R}$包含区间$\mathbf{R}_+ = [0, +\infty[$中的I为区间；令 E 为向量空间超过域 $\mathbf{C}$，由具有复数值的实数变量函数组成，在 I 上定义。我们假设对于每个$a \geqslant 0$和每个函数$f \in E$函数$x \mapsto f(x + a)$属于到E；此外，我们假设具有复数系数* 的*多项式的 E 包含限制到 I 和*指数* $e^{\lambda x}$，其中 $\lambda$ 是任意*复数* 数。 E 的任何线性映射 $U$ 到所有映射的空间从 I 到域 $\mathbf{C}$ 的复数将被称为 E 上的*运算符*；如果$f \in E$和$g = U(f)$使用记号会很方便
 
 $$
 g(x) = U_{\xi}^{\xi}(f(\xi))
@@ -406,7 +406,7 @@ $$
 
 *有人说，E 上的运算符 U 是合成运算符，如果对于每个$a \geqslant 0$，它可以通过 a* 与平移运算符进行置换。
 
-上面介绍的记号中，这个定义就成为恒等式
+上面介绍的记号，这个定义就成为恒等式
 
 $$
 U_{x+a}^{\xi}(f(\xi)) = U_x^{\xi}(f(\xi + a))
@@ -420,7 +420,7 @@ $$
 
 其中$U_0$是E上的*线性形式*，它与每个函数$f \in E$关联$g = U(f)$的值$g(0)$。
 
-如果$f$是多项式，则有$f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$，公式(26)表明$U(f)$也是多项式；限制为$x$多项式的集合，系数为$\mathbf{C}$，（集合其中一个可以确定与代数$\mathbf{C}[X]$），运算符$U$则为def意义上的合成运算符。 VI、p. 270中的I以及前面截面的所有结果都可以应用于它。
+如果$f$是多项式，则有$f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$，公式(26)表明$U(f)$也是多项式；限制为$x$中多项式的集合，$\mathbf{C}$中包含系数，（集合其中一个可以确定与代数$\mathbf{C}[X]$），运算符$U$则为合成 def 意义上的运算符。 VI、p. 270中的I以及前面截面的所有结果都可以应用于它。
 
 我们再次为附加到运算符 $U$ 的 Appell 多项式写为 $u_n$。对于多项式 (VI, p. 274, 公式 (13)) 的广义泰勒展开，有对应，对于更一般的函数，结果如下：
 
@@ -460,18 +460,18 @@ U_h^\xi (u_m(\xi - h)) = U_0^\xi (u_m(\xi)) = \begin{cases} 0 & \text{for } m \n
 $$
 最终得到(27)。
 
-### 6. 合成运算符的指标
+### 6. 合成算子的指示线
 
 与 n° 5 中的假设相同，将 (VI, p. 277) 的公式 (26) 应用于函数 $e^{\lambda x}$，给出
 $$
 U_\lambda^\xi (e^{\lambda \xi}) = U_0^\xi (e^{\lambda x} e^{\lambda \xi}) = e^{\lambda x} U_0^\xi (e^{\lambda \xi}) = u(\lambda) e^{\lambda x}
 $$
 (30)
-放置 $u(\lambda) = U_0^\xi (e^{\lambda \xi})$ 时。有人说，在$\mathbf{C}$上定义的函数$u(\lambda)$，与复数值一起，是合成运算符$U$的*指示矩阵*。 注如果多项式中$U$到环$\mathbf{C}[X]$的限制等于级数
+放置 $u(\lambda) = U_0^\xi (e^{\lambda \xi})$ 时。有人说，在$\mathbf{C}$上定义的函数$u(\lambda)$，与复数值一起，是合成运算符$U$的*指示矩阵*。请注意，如果多项式的$U$到环$\mathbf{C}[X]$的限制等于级数
 $$
 D^p \sum_{n=0}^{\infty} \alpha_n D^n
 $$
-（VI，p. 271，第 1）（我们在 VI，p. 271 中表示为 $u(D)$），*复数项* 的级数与一般项 $\alpha_n \lambda^{n+p}$ *不一定收敛* $\lambda \neq 0$，即使它收敛于$\lambda$的某些值，和*也不一定等于U*的指示线*$u(\lambda)$*（VI，p. 291，练习2）。我们可以说，合成运算符$U$是*正则*，如果$\mathbf{C}$中存在0的邻域，使得级数与一般项$\alpha_n \lambda^{n+p}$*绝对收敛*并且具有和*等于指标矩阵* $u(\lambda)$关于这个邻域$^1$。让我们将VI、p. 278的公式(27)应用到函数$e^{\lambda x}$，得到$h = 0$；因为 $D^m(e^{\lambda x}) = \lambda^m e^{\lambda x}$ 一个人有 $U_0^\xi \left( D^m(e^{\lambda x}) \right) = \lambda^m u(\lambda)$；那么对于每个复数$\lambda$使得$u(\lambda) \neq 0$
+(VI, p. 271, th. 1) (我们在VI, p. 271中表示为$u(D)$), *复数项*的级数与一般项$\alpha_n \lambda^{n+p}$*不一定收敛* $\lambda \neq 0$，即使它收敛于$\lambda$的某些值，和*也不一定等于U*的指示线*$u(\lambda)$*（VI，p. 291，练习2）。我们可以说，合成运算符$U$是*正则*，如果$\mathbf{C}$中存在0的邻域，使得级数与一般项$\alpha_n \lambda^{n+p}$*绝对收敛*并且具有和*等于指标矩阵* $u(\lambda)$关于这个邻域$^1$。让我们将VI、p. 278的公式(27)应用到函数$e^{\lambda x}$，得到$h = 0$；因为 $D^m(e^{\lambda x}) = \lambda^m e^{\lambda x}$ 一个人有 $U_0^\xi \left( D^m(e^{\lambda x}) \right) = \lambda^m u(\lambda)$；那么对于每个复数$\lambda$使得$u(\lambda) \neq 0$
 
 $$
 \frac{\lambda^p e^{\lambda x}}{u(\lambda)} = \sum_{m=0}^n u_m(x) \frac{\lambda^m}{m!} - \frac{\lambda^{n+1}}{u(\lambda)} U_0^\xi \left( \int_0^{\xi-x} \frac{1}{n!} u_n(x+\eta) e^{\lambda(\xi-\eta)} d\eta \right)
@@ -502,11 +502,11 @@ $$
 通过在整个级数上使用以下引理，可以将公式（33）（或（34））用于计算和$\beta_n$（或$u_n(x)$）：
 
 （1）稍后我们要研究级数，它的通项是形式$c_n z^n$（$c_n \in \mathbf{C}, z \in \mathbf{C}$），称之为*整个级数*；特别是，我们将看到，当级数对于$z = z_0$绝对收敛时，它对于$|z| \leq |z_0|$“通常收敛”。
-(2) 由整体级数理论可知，当其中一个级数绝对收敛于0的邻域$V$时，另一个也绝对收敛于0的邻域$W \subset V$。
+(2) 由整个级数的理论可知，当其中一个级数绝对收敛于0的邻域$V$时，另一个也绝对收敛于0的邻域$W \subset V$。
 
 艾玛。 **如果两个完整的级数** $\sum_{n=0}^{\infty} c_n \lambda^n,\ \sum_{n=0}^{\infty} d_n \lambda^n$ **对于所有** $\lambda$ **在** $0$的邻域中绝对收敛，**并且如果** $\sum_{n=0}^{\infty} c_n \lambda^n = \sum_{n=0}^{\infty} d_n \lambda^n$ **对于这些** $\lambda$的值，**则** $c_n = d_n$ **对于所有整数** $n \geqslant 0$。
 
-如果通过任何过程，可以找到在$0$的邻域上收敛到$\lambda^p / u(\lambda)$的整个级数，那么这个级数的系数必然等于$\beta_n / n!$。我们将在下面的例中应用这个程序。
+如果通过任何过程，可以找到在$0$的邻域上收敛到$\lambda^p / u(\lambda)$的整个级数，那么这个级数的系数必然等于$\beta_n / n!$。我们将在接下来的例中应用这个程序。
 
 #### 例 1 {#fvr-vi-s1-n6-exa-1 .statement tag=08I6}
 
@@ -537,7 +537,7 @@ $$
 
 与
 
-这个引理是一般结果的特例，我们稍后会证明；这是证明。如果整个级数$\sum_{n=0}^{\infty} c_n \lambda^n$对于$\lambda = \lambda_0$绝对收敛，那么对于每个整数$k \geqslant 0$级数$\sum_{n=0}^{\infty} c_{n+k} \lambda^n$通常对于$|\lambda| \leqslant |\lambda_0|$收敛，因此在此盘上连续（*Gen.Top.*，X， p. 283); $0$ 邻域上的结论 $\sum_{n=k+1}^{\infty} c_n \lambda^n = o(\lambda^k)$。然后从函数的渐近展开在$\lambda^n$的项中的系数唯一性得出引理（V，p. 223）。
+这个引理是一般结果的特例，我们稍后会证明；这是证明。如果整个级数$\sum_{n=0}^{\infty} c_n \lambda^n$对于$\lambda = \lambda_0$绝对收敛，那么对于每个整数$k \geqslant 0$级数$\sum_{n=0}^{\infty} c_{n+k} \lambda^n$通常对于$|\lambda| \leqslant |\lambda_0|$收敛，因此在此盘上连续（*Gen.Top.*，X， p. 283); $0$ 的邻域上有一个结论 $\sum_{n=k+1}^{\infty} c_n \lambda^n = o(\lambda^k)$。然后，引理是从$\lambda^n$的项中函数的渐近展开（V，p. 223）的系数的唯一性得出。
 
 $$
 R_n(x, h) = - \int_0^{1-x} \frac{B_n(x + \eta)}{n!} f^{(n)}(h + 1 - \eta) d\eta \\
@@ -554,7 +554,7 @@ $$
 U_\lambda^\xi \left( f(\xi) \right) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} e^{-\xi^2/2} f(x + \xi) d\xi
 $$
 
-然后定义在 E 上并且显然是合成运算符。 空间 E 包含所有指数$e^{\lambda x}$（$\lambda$任意复数），并且有一个
+然后在 E 上定义并且显然是合成运算符。 空间 E 包含所有指数$e^{\lambda x}$（$\lambda$任意复数），并且有一个
 
 $$
 u(\lambda) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} e^{-(\xi^2/2) + \lambda \xi} d\xi \\
@@ -636,7 +636,7 @@ $$
 T_p(x, n) = - \frac{1}{(2p+1)!} \int_0^1 \mathrm{B}_{2p+1}(t) \left( \sum_{k=0}^n f^{(2p+1)}(x+k+1-t) \right) dt.
 $$
 
-这个公式中的余数$T_p(x, n)$可以用以下方式重写：用$\overline{B}_{2p+1}(t)$表示周期为1的*周期*函数，它等于间隔$[0, 1[$上的$B_{2p+1}(t)$。然后
+这个公式中的余数$T_p(x, n)$可以用以下方式重写：用$\overline{B}_{2p+1}(t)$表示周期为1的*周期*函数，它等于区间$[0, 1[$上的$B_{2p+1}(t)$。然后
 
 $$
 \int_0^1 B_{2p+1}(t) f^{(2p+1)}(x + k + 1 - t) \, dt = \int_k^{k+1} \overline{B}_{2p+1}(1 - s) f^{(2p+1)}(x + s) \, ds
@@ -648,7 +648,7 @@ $$
 T_p(x, n) = - \frac{1}{(2p+1)!} \int_0^{n+1} \overline{B}_{2p+1}(1 - s) f^{(2p+1)}(x + s) ds.
 $$ (41)
 
-公式 (39) 称为*欧拉-麦克劳林求和公式*；它适用于每个复数函数，对于每个$x \geq x_0$，在区间$[x_0, +\infty[$上都有连续的$(2p + 1)^{th}$导数。我们将看到（VI，p. 288）如何估计这个公式中的*余数*$T_p(x, n)$。
+公式 (39) 称为*欧拉-麦克劳林求和公式*；它适用于每个复数函数，对于每个$x \geq x_0$，在区间$[x_0, +\infty[$上具有连续的$(2p + 1)^{th}$导数。我们将看到 (VI, p. 288) 如何估计这个公式中的*余数* $T_p(x, n)$。
 
 ### 习题{#fvr-vi-s1-exercises}
 

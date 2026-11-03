@@ -53,16 +53,16 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: eef52302644146dd0429e2b91f2e4e9951c150d416cb55f2817294a43e5c8e89
+content_sha256: fc7405a59f10bf7d8ef75e8872b045a9db8402fc42f05c0813f0c05fe8365d6c
 translated_from: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
 translation_method: google
 source_content_sha256: d1c0e47776f33ebac3f5f4eb44ad8e2e1b76c65670899f2de059c9d70818f487
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 42570adcf8eed1333d6ac01bccf85458378e3caa4904846e8281f32f956a439f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。由数值密度定义的度量
@@ -89,17 +89,17 @@ c) *对于每个数值函数 $h \in \mathscr{K}(T)$，$gh$ 是 $\mu$ 可积。*
 
 *函数* $g$，*几乎在* $T$（*对于正测量* $\mu$）中局部定义，*在 Banach 空间* $F$（*分别在* $\overline{\mathbf{R}}$）中使用值，*据说可以局部可积* $\mu$（*或局部* $\mu$*-可积*）*如果它满足条件* a), b), c) *命题1.* *如果* $\theta$ *是一个复杂的测度，函数* $g$ *局部定义* $\theta$*-几乎无处不在如果对于正测度* $|\theta|$ 是局部可积的，则称其为局部* $\theta$*-可积。
 
-如果 $g$ 是局部 $\theta$ 可积的，那么每个函数等于 $g$ 的地方几乎处处都是局部可积的。显然，两个局部可积函数的和是局部可积的。 函数与 $F$ 中的值，*随处定义*且对于 $\theta$ 可局部积分，形式向量空间表示为 $\mathscr{L}_{loc}^1(T, \theta; F)$；当$F = \mathbf{R}$或$\mathbf{C}$时，如果没有歧义，通常会省略$F$的提及。这个空间将始终配备（没有明确提及相反）由半范数$g \mapsto \int |g \varphi_K| \, d|\theta|$定义的拓扑，其中$K$运行超过$T$的紧凑子集的集合。相关的 Hausdorff 空间，$\mathscr{L}_{loc}^1(T, \theta; F)$ 与子空间 $\mathscr{N}_F^\infty$ 的商映射，几乎在所有地方都是零，被表示为 $L_{loc}^1(T, \theta; F)$。 空间 $L_{loc}^1(T, \theta; F)$ 和 $L_{loc}^1(T, |\theta|; F)$ 相同。
+如果 $g$ 是局部 $\theta$ 可积的，那么每个函数等于 $g$ 的地方几乎处处都是局部可积的。显然，两个局部可积函数的和是局部可积的。 函数与 $F$ 中的值，*随处定义*且对于 $\theta$ 可局部积分，形式向量空间表示为 $\mathscr{L}_{loc}^1(T, \theta; F)$；当$F = \mathbf{R}$或$\mathbf{C}$时，如果没有歧义，通常会省略$F$的提及。这个空间将始终配备（没有明确提及相反）由半范数$g \mapsto \int |g \varphi_K| \, d|\theta|$定义的拓扑，其中$K$运行超过$T$的紧凑子集的集合。相关的 Hausdorff 空间、$\mathscr{L}_{loc}^1(T, \theta; F)$ 的商和映射的子空间 $\mathscr{N}_F^\infty$，几乎在所有地方都是零，被表示为 $L_{loc}^1(T, \theta; F)$。 空间 $L_{loc}^1(T, \theta; F)$ 和 $L_{loc}^1(T, |\theta|; F)$ 相同。
 
-可以证明刚刚定义的拓扑向量空间是*完整的*（Exer.31）。
+可以证明刚刚定义的拓扑向量空间是*完整的*（例31）。
 
-每个可测量的函数 $g$，基本上以每个紧集为界，都是局部可积的。对于每个数$p$使得$1 \leq p \leq +\infty$，每个函数$g \in \mathscr{L}_F^p$都是局部可积的；事实上，对于每个函数$h \in \mathscr{H}(T)$，$h$属于到$\mathscr{L}^q$（其中$q$是共轭到$p$的指数），因此$gh$是可积的（Ch.IV, §6, No. 4，Cor.）第 4 条 2)。
+每个可测量的函数 $g$，本质上以每个紧集为界，都是局部可积的。对于每个数$p$使得$1 \leq p \leq +\infty$，每个函数$g \in \mathscr{L}_F^p$都是局部可积的；事实上，对于每个函数$h \in \mathscr{H}(T)$，$h$属于到$\mathscr{L}^q$（其中$q$是指数共轭到$p$），因此$gh$是可积的（第1章）。 IV, §6, No. 4，第 2 章第 4 章。
 
 令$F, G, H$为三个Banach空间，并且$(u, v) \mapsto \Phi(u, v)$为$F \times G$到$H$的连续双线性映射。如果 $f$ 是局部可积的，并且在 F 中取其值，并且如果 $g \in \mathscr{L}_G^\infty$，则 $\Phi(f, g)$ 是局部可积的（第 IV, §6, No. 4 章，第 2 章的 Cor. 1）。
 
 ### 2. 由数值密度定义的度量
 
-令 $g$ 为正数函数局部定义 $\mu$ - 几乎在 T 中任何地方且局部 $\mu$ - 可积； $t$的集合，使得$g(t) = +\infty$在局部$\mu$可以忽略不计，因为对于每个紧集K，$g \varphi_K$是$\mu$可积（第IV, §2, No. 3，第7条）。现在让 $g'$ 为局部可积函数，它是正且有限的，等于 $g$ 局部 $\mu$——几乎处处； 集合$\lambda'_t = g'(t) \varepsilon_t$。 T 的映射 $t \mapsto \lambda'_t$ 到 $\mathscr{M}_+(T)$ 模糊地是 $\mu$ 可测量的，并且本质上是可标量可积的（或者再次，对 $(I, g')$，其中 I 是 T 的恒等映射，是$\mu$-改编）；积分$\nu = \int \lambda'_t d\mu(t)$不依赖于特定的函数$g'$，局部几乎处处都等于$g$，用于措施$\lambda'_t$的定义。这个措施$\nu$由条件决定
+令 $g$ 为正数函数局部定义 $\mu$ - 几乎在 T 中任何地方且局部 $\mu$ - 可积； $t$的集合，使得$g(t) = +\infty$在局部$\mu$可以忽略不计，因为对于每个紧集K，$g \varphi_K$是$\mu$可积（第IV, §2, No. 3，第7条）。现在让 $g'$ 为局部可积函数，它是正且有限的，等于 $g$ 局部 $\mu$——几乎处处； 集合$\lambda'_t = g'(t) \varepsilon_t$。 T 的映射 $t \mapsto \lambda'_t$ 到 $\mathscr{M}_+(T)$ 是模糊的 $\mu$ 可测量的，并且本质上是可标量可积的（或者再次，对 $(I, g')$，其中 I 是 T 的恒等映射，是$\mu$-改编）；积分$\nu = \int \lambda'_t d\mu(t)$不依赖于特定的函数$g'$，局部几乎处处都等于$g$，用于措施$\lambda'_t$的定义。该措施$\nu$由条件决定
 
 $$
 \int f(t)\,d\nu(t) = \int f(t)g(t)\,d\mu(t) \quad \text{for } f \in \mathscr{K}(T).
@@ -199,7 +199,7 @@ $$
 
 因此，两个度量 $|u| \cdot |\theta|$ 和 $|u \cdot \theta|$ 相等。
 
-#### 推论{#int-v-s5-n2-cor-1 .statement tag=092I}
+#### 推论 {#int-v-s5-n2-cor-1 .statement tag=092I}
 
 *设$g_1$和$g_2$为两个局部$\mu$可积数值函数；那么*
 
@@ -217,7 +217,7 @@ $$
 
 ### 3. 相对于密度定义的度量进行积分
 
-*在这个小节的叙述中，$g$表示正数值函数，在各处定义且局部可积$\mu$，$\theta$表示复数测度，$u$表示局部$\theta$可积复数函数。*
+*在这个小节的叙述中，$g$表示正数值函数，在各处定义且局部$\mu$可积，$\theta$表示复数测度，$u$表示局部$\theta$可积复数函数.*
 
 No. 2中的注表明§4的结果适用于措施$\nu = g \cdot \mu = \int g(t) \varepsilon_t \, d\mu(t)$（甚至虽然措施$g(t) \varepsilon_t$未定义除非$g(t) \neq +\infty$）。因此我们得到以下叙述：
 
@@ -255,7 +255,7 @@ $$
 
 当$u$和$\theta$为正时，这立即从§4, No. 3的命题3得出。由于命题 2，结果是扩展到 $u$ 和 $\theta$ 很复杂的情况。
 
-#### 推论{#int-v-s5-n3-cor-1 .statement tag=092O}
+#### 推论 {#int-v-s5-n3-cor-1 .statement tag=092O}
 
 *令 $\mathbf{f}$ 为 $T$ 上定义的函数，其中值在 Banach 空间 $F$ 或$\overline{\mathbf{R}}$ 中。为了使 $\mathbf{f}$ $(u \cdot \theta)$ 可测量，$u \mathbf{f}$ $\theta$ 可测量是充分必要的。*
 
@@ -279,13 +279,13 @@ $$
 
 公式 (6) 紧随其后。
 
-#### 推论{#int-v-s5-n3-cor-2 .statement tag=092Q}
+#### 推论 {#int-v-s5-n3-cor-2 .statement tag=092Q}
 
 为了使测度$u \cdot \theta$有界，$u$本质上$\theta$可积是必要且充分的。
 
 #### 例 {#int-v-s5-n3-exa-1 .statement tag=092R}
 
-设$A$为$T$中的子集；为了使$\varphi_A$局部$\mu$可积，$A$是$\mu$可测是充分必要的。假设满足条件，则集合$\nu = \varphi_A \cdot \mu$；对于 $T$ 上定义的每个数字函数 $f \geq 0$，我们有
+令$A$为$T$中的子集；为了使$\varphi_A$局部$\mu$可积，$A$是$\mu$可测是充分必要的。假设满足条件，则集合$\nu = \varphi_A \cdot \mu$；对于 $T$ 上定义的每个数字函数 $f \geq 0$，我们有
 
 $$
 \int^\bullet f \, d\nu = \int^\bullet f \varphi_A \, d\mu ,
@@ -297,7 +297,7 @@ $$
 \int f \, d\nu = \int f \varphi_A \, d\mu ,
 $$
 
-也表示为 $\int_A f \, d\mu$ 的表达式。 注，如果$T$的两个映射进入$G$（或$F, \overline{\mathbf{R}}$）重合在$A$上，则其中一个$\nu$可测（或本质上$\nu$可积），另一个是必要且充分的。 如果现在$g$是映射进入$T$的任意子集$B \supset A$的$G$，则可以说$g$是$\mu$可测量*在*$A$，如果任意扩张到$T$ $g$到$A$的限制是$\nu$可测，相当于说，$g$到$A$的限制是$\mu$可测。 将 $B$ 的映射 $f$ 转化为 Banach 空间 $F$，或转化为 $\overline{\mathbf{R}}$，据说是 *本质上* $\mu$ 可在 * $A$ 上积分，如果某些扩张 $\overline{f}$ 到$f$到$A$的限制的$T$本质上是$\nu$可积；一然后集合
+也表示为 $\int_A f \, d\mu$ 的表达式。 请注意，如果 $T$ 的两个映射进入 $G$（或 $F, \overline{\mathbf{R}}$）重合在 $A$ 上，则其中一个为 $\nu$ 可测（或实质上 $\nu$ 可积），则另一个也是必要且充分的。 如果现在$g$是映射进入$T$的任意子集$B \supset A$的$G$，则可以说$g$是$\mu$可测量*在*$A$，如果任意扩张到$T$ $g$到$A$的限制是$\nu$可测，相当于说，$g$到$A$的限制是$\mu$可测。 将 $B$ 的映射 $f$ 转化为 Banach 空间 $F$，或转化为 $\overline{\mathbf{R}}$，据说是 *本质上* $\mu$ 可在 * $A$ 上积分，如果某些扩张 $\overline{f}$ 到$f$到$A$的限制的$T$本质上是$\nu$可积；一然后集合
 $$
 \int_A f \, d\mu = \int_A \overline{f} \, d\mu = \int \overline{f} \varphi_A \, d\mu,
 $$
@@ -319,27 +319,27 @@ $$
 
 #### 推论 {#int-v-s5-n4-cor-1 .statement tag=092T}
 
-— 假设 $\mu$ 是 T 上度量族 $(\mu_\alpha)_{\alpha \in A}$ 的和。对于在 T 上定义的正数值函数 g 局部 $\mu$ 可积，g 对每个 $\alpha \in A$ 局部 $\mu_\alpha$ 可积是必要且充分的，并且族 $(g \cdot \mu_\alpha)_{\alpha \in A}$是可总结的。在这种情况下，
+— 假设 $\mu$ 是 T 上度量族 $(\mu_\alpha)_{\alpha \in A}$ 的和。对于定义在 T 上的正数值函数 g 局部 $\mu$ 可积，g 对每个 $\alpha \in A$ 局部 $\mu_\alpha$ 可积是必要且充分的，且族 $(g \cdot \mu_\alpha)_{\alpha \in A}$是可总结的。在这种情况下，
 
 $$
 g \cdot \mu = \sum_{\alpha \in A} g \cdot \mu_\alpha.
 $$
 
-令$(g_\alpha)_{\alpha \in A}$为T上定义的$\mu$可测量正函数族。令$S_\alpha$为$t \in T$的集合，使得$g_\alpha(t) \neq 0$。如果族 $(S_\alpha)$ 是局部可数的（第 IV, §5, No. 9 章），我们可以说族 $(g_\alpha)$ 是*局部可数的*；这相当于说，对于T中的每个紧集K，$\alpha \in A$的集合使得$g_\alpha|K$不是零是可数的。
+令$(g_\alpha)_{\alpha \in A}$是在T上定义的$\mu$-可测量正函数的族。令$S_\alpha$是$t \in T$的集合，使得$g_\alpha(t) \neq 0$。如果族 $(S_\alpha)$ 是局部可数的（第 IV, §5, No. 9 章），我们可以说族 $(g_\alpha)$ 是*局部可数的*；这相当于说，对于 T 中的每个紧集 K，$\alpha \in A$ 中的集合使得 $g_\alpha|K$ 不是零是可数的。
 
 #### 命题 6 {#int-v-s5-prop-6 .statement tag=092U}
 
-— 设$(g_\alpha)_{\alpha \in A}$是T上定义的局部$\mu$可积正数值函数的局部可数族。在阶中，函数$g = \sum_{\alpha \in A} g_\alpha$是局部$\mu$可积，测度族$(g_\alpha \cdot \mu)_{\alpha \in A}$可求和是必要且充分的，在这种情况下
+— 令 $(g_\alpha)_{\alpha \in A}$ 为 T 上定义的局部 $\mu$ 可积正数值函数的局部可数族。在阶中，函数 $g = \sum_{\alpha \in A} g_\alpha$ 为局部 $\mu$ 可积，测度族 $(g_\alpha \cdot \mu)_{\alpha \in A}$ 可求和是必要且充分的，在这种情况下
 
 $$
 g \cdot \mu = \sum_{\alpha \in A} g_\alpha \cdot \mu.
 $$
 
-很明显，$g$ 是 $\mu$ 可测的（第 IV, §5, No. 2 章，第 4 条命题和 No. 4，第 2 条的 Cor.1）。因此，对于$g$局部$\mu$可积，$\mu^\bullet(gf)$对于每个$f \in \mathscr{H}_+(T)$是有限的是必要且充分的。现在，由于$\alpha \in A$的集合使得$g_\alpha f \neq 0$是可数的，我们有$\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$（§1, No. 1，Prop.2的Cor.）。 集合$\nu_\alpha = g_\alpha \cdot \mu$； 条件 $\mu^\bullet(gf) < +\infty$ 等价于条件 $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$：在其他字中，$g$ 局部可积 $\mu$ 当且仅当族 $(\nu_\alpha)$ 可求和。将该族的和记为$\nu$，则上述计算得到等式$\nu(f) = \mu^\bullet(gf)$，相当于(8)。
+很明显，$g$ 是 $\mu$ 可测的（第 IV, §5, No. 2 章，第 4 条命题和 No. 4，第 2 条的 Cor.1）。因此，对于$g$局部$\mu$可积，$\mu^\bullet(gf)$对于每个$f \in \mathscr{H}_+(T)$是有限的是必要且充分的。现在，由于$\alpha \in A$的集合使得$g_\alpha f \neq 0$是可数的，我们有$\mu^\bullet(gf) = \sum_{\alpha \in A} \mu^\bullet(g_\alpha f)$（§1, No. 1，Prop.2的Cor.）。 集合$\nu_\alpha = g_\alpha \cdot \mu$； 条件 $\mu^\bullet(gf) < +\infty$ 等价于条件 $\sum_{\alpha \in A} \nu_\alpha(f) < +\infty$：在其他字中，$g$ 是局部 $\mu$ 可积的，当且仅当族 $(\nu_\alpha)$ 可求和。将该族的和记为$\nu$，则上述计算得到等式$\nu(f) = \mu^\bullet(gf)$，相当于(8)。
 
-#### 推论{#int-v-s5-n4-cor-2 .statement tag=092V}
+#### 推论 {#int-v-s5-n4-cor-2 .statement tag=092V}
 
-— 令 $(g_\alpha)$ 为局部 $\mu$ 可积数值函数的序列，使得度量 $g_n \cdot \mu$ 的序列为递增。在阶中，这个序列在T上的实测度有序向量空间$\mathscr{M}(T)$中有上界，函数$g = \sup g_n$是局部$\mu$可积的充分必要； 序列 $(g_n \cdot \mu)$ 中的$\mathscr{M}(T)$ 的上界就是测度$g \cdot \mu$。
+— 令 $(g_\alpha)$ 为局部 $\mu$ 可积数值函数的序列，使得测度 $g_n \cdot \mu$ 的序列为递增。在阶中，这个序列在T上的实测度有序向量空间$\mathscr{M}(T)$中有上界，函数$g = \sup g_n$是局部$\mu$可积的充分必要； 序列 $(g_n \cdot \mu)$ 中的$\mathscr{M}(T)$ 的上界就是测度$g \cdot \mu$。
 
 将第 6 条命题应用到函数（几乎所有地方都是局部正数）$g'_n = g_{n+1} - g_n$ 就足够了。
 
@@ -370,7 +370,7 @@ g_2 \cdot \theta_1 = g_2 \cdot (g_1 \cdot \theta) = (g_2 g_1) \cdot \theta
 $$
 （“结合性公式”）。
 
-根据命题4的推论，说$g_2$是$\theta_1$可测就相当于说$g_2 g_1$是$\theta$可测。让我们假设这个条件得到满足。对于每个函数 $f \in \mathscr{K}_+(T)$，我们有命题 2 和 3，
+根据命题4的推论，说$g_2$是$\theta_1$可测就相当于说说$g_2 g_1$是$\theta$可测。让我们假设这个条件得到满足。对于每个函数 $f \in \mathscr{K}_+(T)$，我们有命题 2 和 3，
 
 $$
 \int^\bullet |g_2| f d|\theta_1| = \int^\bullet |g_2| f |g_1| d|\theta| = \int^\bullet |g_2 g_1| f d|\theta|.
@@ -394,19 +394,19 @@ $$
 2) *每个局部$\mu$-可忽略的集合都是局部$\nu$-可忽略*。
 3) *每个$\mu$-可忽略的紧集都是$\nu$-可忽略*。
 
-很明显，1) 意味着 2)（命题 3 的 Cor.1），而 2) 意味着 3)。我们将证明 3) 蕴涵 1)。我们首先注，如果条件 3) 被满足，那么每一个集合$A$是*普遍可测量的*并且局部$\mu$-可忽略的就是局部$\nu$-可忽略的；对于，$\nu^\bullet(A) = \sup \nu(K)$，其中$K$超过$A$中包含的紧集的集合（§ 1, No. 3，第10条，a）和第1章。 IV, § 4, No. 6，科。 2 Th。 4).接下来，我们将建立两个引理。
+很明显，1) 意味着 2)（命题 3 的 Cor.1），而 2) 意味着 3)。我们将证明 3) 蕴涵 1)。我们首先注意到，如果满足条件 3)，那么每个集合$A$是“普遍可测”且局部$\mu$-可忽略的，局部$\nu$-可忽略的；对于，$\nu^\bullet(A) = \sup \nu(K)$，其中$K$超过$A$中包含的紧集的集合（§ 1, No. 3，第10条，a）和第1章。 IV, § 4, No. 6，科。 2 Th。 4).接下来，我们将建立两个引理。
 
 #### 引理 2 {#int-v-s5-lem-2 .statement tag=092Z}
 
 — *令 $\alpha$ 为 $T$ 上的有界正测度，$\beta$ 为 $T$ 上的实测度，使得 $|\beta| \leq M \alpha$，其中 $M$ 为正常数。那么，存在实数函数$u$、$\alpha$可积，使得$\beta = u \cdot \alpha$*。
 
-设$g$为空间$\mathscr{L}_\mathbf{R}^2(T, \alpha)$中的元素； $g$ 是 $\beta$ 可测量的且 $\int^\bullet |g|^2 \, d|\beta| \leq M \int^\bullet |g|^2 \, d\alpha < +\infty$。 函数$g$，因此属于到$\mathscr{L}^2(T, |\beta|)$，并且也到$\mathscr{L}^1(T, |\beta|)$，因为$\beta$是有界的。根据柯西-施瓦茨不等式，
+令$g$为空间$\mathscr{L}_\mathbf{R}^2(T, \alpha)$中的元素； $g$ 是 $\beta$ 可测量的且 $\int^\bullet |g|^2 \, d|\beta| \leq M \int^\bullet |g|^2 \, d\alpha < +\infty$。 函数$g$，因此属于到$\mathscr{L}^2(T, |\beta|)$，并且也到$\mathscr{L}^1(T, |\beta|)$，因为$\beta$是有界的。根据柯西-施瓦茨不等式，
 
 $$
 |\beta(g)|^2 \leq \left( \int |g| \, d|\beta| \right)^2 \leq \left( \int d|\beta| \right) \left( \int |g|^2 \, d|\beta| \right) \leq M^2 \alpha(1) \, \alpha(|g|^2).
 $$
 
-因此，映射$g \mapsto \beta(g)$是$\mathscr{L}^2(T, \alpha)$上的连续线性形式。与 $\mathscr{L}^2(T, \alpha)$ 相关联的 Hausdorff 空间是希尔伯特空间，则存在（TVS，Ch. V, § 1, No. 7，Th. 3）实数函数 $u \in \mathscr{L}^2(T, \alpha)$，因此也有属于到 $\mathscr{L}^1(T, \alpha)$，这样每 $g \in \mathscr{L}^2(T, \alpha)$ $\beta(g) = \alpha(ug)$。 应用这个关系换$g \in \mathscr{K}(T)$，一看就是$\beta = u \cdot \alpha$。
+因此映射$g \mapsto \beta(g)$是$\mathscr{L}^2(T, \alpha)$上的连续线性形式。与 $\mathscr{L}^2(T, \alpha)$ 相关联的 Hausdorff 空间是希尔伯特空间，则存在（TVS，Ch. V, § 1, No. 7，Th. 3）实函数 $u \in \mathscr{L}^2(T, \alpha)$，因此也有属于到 $\mathscr{L}^1(T, \alpha)$，这样每 $g \in \mathscr{L}^2(T, \alpha)$ $\beta(g) = \alpha(ug)$。 应用这个关系换$g \in \mathscr{K}(T)$，一看就是$\beta = u \cdot \alpha$。
 
 #### 引理 3 {#int-v-s5-lem-3 .statement tag=0930}
 
@@ -433,9 +433,9 @@ $$
 
 #### 推论 1 {#int-v-s5-thm-2-cor-1 .statement tag=0931}
 
-— 设 $\mathscr{N}$ 为集合，其中基 $\mu$，承认 $\mathscr{M}(T)$ 中的上等$\nu$；那么 $\nu$ 是基 $\mu$ 的度量。
+— 设 $\mathscr{N}$ 为集合，其中基 $\mu$，承认$\mathscr{M}(T)$ 中的上等$\nu$；那么 $\nu$ 是基 $\mu$ 的度量。
 
-科。提案 2 允许简化为 $\mathscr{N}$ 为递增有向集合的情况。对于每一个局部 $\mu$ 可忽略不计的集合 $A$，根据 §1, No. 4 的第 11 条提案，
+科。提案2允许减少到$\mathscr{N}$为递增有向集合的情况。对于每一个局部 $\mu$ 可忽略不计的集合 $A$，根据 §1, No. 4 的第 11 条提案，
 
 $$
 \nu^\bullet(A) = \sup_{\lambda \in \mathscr{N}} \lambda^\bullet(A) = 0.
@@ -453,11 +453,11 @@ $$
 
 — 令 $\theta$ 为复杂测度；存在普遍可测的函数$v$，以及$|v| = 1$，使得$\theta = v \cdot |\theta|$，$|\theta| = \overline{v} \cdot \theta$。
 
-写$\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$，其中$\theta_1 = (\Re \theta)^+$，$\theta_2 = (\Re \theta)^-$，$\theta_3 = (\Im \theta)^+$，$\theta_4 = (\Im \theta)^-$；正测度 $\theta_i$ ($i = 1, 2, 3, 4$)，以 $|\theta|$ (第 III, §1, No. 6, 公式 (17)) 为界，是基 $|\theta|$ 定理 2 的测度。因此，存在局部 $|\theta|$ 可积函数$v$使得$\theta = v \cdot |\theta|$。 命题 2 然后产生关系 $|\theta| = |v| \cdot |\theta|$，这意味着 $|v| = 1$ 局部$|\theta|$——几乎无处不在（第 3 条的 Cor. 2）。最后，根据第 8 号提案，$\overline{v} \cdot \theta = (v \overline{v}) \cdot |\theta| = |\theta|$。由于函数$v$仅定义为局部$|\theta|$可忽略的函数，因此可以假设$v$是普遍可测的（§3, No. 4，第7条），并且$|v| = 1$无处不在。
+写$\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$，其中$\theta_1 = (\Re \theta)^+$，$\theta_2 = (\Re \theta)^-$，$\theta_3 = (\Im \theta)^+$，$\theta_4 = (\Im \theta)^-$；正测度 $\theta_i$ ($i = 1, 2, 3, 4$)，以 $|\theta|$ (第 III, §1, No. 6, 公式 (17)) 为界，是基 $|\theta|$ 定理 2 的测度。因此，存在局部 $|\theta|$ 可积函数$v$使得$\theta = v \cdot |\theta|$。 命题 2 然后产生关系 $|\theta| = |v| \cdot |\theta|$，这意味着 $|v| = 1$ 局部$|\theta|$——几乎无处不在（第 3 条的 Cor. 2）。最后，根据第 8 号提案，$\overline{v} \cdot \theta = (v \overline{v}) \cdot |\theta| = |\theta|$。由于函数$v$仅定义为局部$|\theta|$可忽略不计的函数，因此可以假设$v$是普遍可测的（§3, No. 4，第7条）并且$|v| = 1$无处不在。
 
 #### 注 1 {#int-v-s5-n5-rem-1 .statement tag=0934}
 
-假设$\lambda$是正测度，$v$是$\lambda$可测的函数，使得$|v| = 1$局部$\lambda$几乎无处不在（这意味着$v$局部$\lambda$可积），并且$\theta = v \cdot \lambda$。命题 2 立即表明 $\lambda = |\theta|$；在其他字中，前述叙述的性质表征了积极措施$|\theta|$。
+假设$\lambda$是正测度，$v$是$\lambda$可测的函数，使得$|v| = 1$局部$\lambda$几乎处处可积（这意味着$v$局部$\lambda$可积），并且$\theta = v \cdot \lambda$。命题 2 立即表明 $\lambda = |\theta|$；在其他字中，前述叙述的性质表征了积极措施$|\theta|$。
 
 #### 注 2 {#int-v-s5-n5-rem-2 .statement tag=0935}
 
@@ -481,7 +481,7 @@ $$
 
 4) $\Rightarrow$ 6) $\Rightarrow$ 3) 的含义是显而易见的。
 
-假设存在有限的函数$k \geq 0$，普遍可测且局部$\mu$可积，使得$\nu = k \cdot \mu$，让我们证明满足条件4)。令$f$为$\nu$可积函数$\geq 0$，并令$\varepsilon > 0$。对于每个整数$n \geq 0$，令$A_n$为$t \in \mathrm{T}$的集合，使得$k(t) \geq n$。 函数 $f \varphi_{A_n}$ 形式递减序列，以$f$为界并逐点趋于0，因此存在$N$使得$\int f \varphi_{A_N} \, d\nu \leq \varepsilon/2$（第IV, §4, No. 3，第4条）。如果$h$在$\mathrm{T}$满足$0 \leq h \leq f$和$\int^* h \, d\mu \leq \varepsilon/2N$上是函数，那么
+假设存在有限的函数$k \geq 0$，普遍可测且局部$\mu$可积，使得$\nu = k \cdot \mu$，让我们证明满足条件4)。令$f$为$\nu$可积函数$\geq 0$，并令$\varepsilon > 0$。对于每个整数$n \geq 0$，令$A_n$为$t \in \mathrm{T}$的集合，使得$k(t) \geq n$。 函数 $f \varphi_{A_n}$ 形式递减序列，以$f$为界并逐点趋于0，因此存在$N$使得$\int f \varphi_{A_N} \, d\nu \leq \varepsilon/2$（第IV, §4, No. 3，第4条）。如果$h$在$\mathrm{T}$满足$0 \leq h \leq f$和$\int^* h \, d\mu \leq \varepsilon/2N$上是函数，则
 
 $$
 \nu^*(h) \leq \nu^*(h \varphi_{A_N}) + \nu^*(h(1 - \varphi_{A_N}))
@@ -495,11 +495,11 @@ $$
 
 由此我们证明了条件4)和6)等价于Th的条件。 2.
 
-显然，4）暗示着5）。最后，如果满足条件 5)，则 $\nu$ 属于到由 $\mu$ 生成的带（第 II, §2, No. 2，命题 5），因此有基 $\mu$（Cor. 2）。
+显然，4）暗示着5）。最后，如果满足条件 5)，则 $\nu$ 属于到由 $\mu$ 生成的频带（第 II, §2, No. 2，提案 5），因此有基 $\mu$（Cor. 2）。
 
 #### 学院{#int-v-s5-n5-sch-1 .statement tag=0938}
 
-对于每个$\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$，集合$\varphi(\dot{f}) = f \cdot \mu$，其中$f \in \dot{f}$； 映射$\varphi$是线性的，递增是单射的（第3命题的Cor.2），$\mathscr{M}(T)$中的像是由$\mu$生成的能带B（第2命题的Cor.2）。 因此，映射$\varphi$允许识别$L^1_{\text{loc}}(T, \mu; \mathbf{R})$与空间T上的实际度量；由于空间$L^p_R(T, \mu)$都是$L^1_{\text{loc}}(T, \mu; \mathbf{R})$的子空间，因此它们也可以用$\mathscr{M}(T)$的子空间来识别。 类似的考虑也适用于复值函数和度量。 Note that the mapping $\varphi$ considered above is an isomorphism of the ordered vector space structures of $L^1_{\text{loc}}$ and B, but is obviously not an isomorphism for the *topological vector space* structures of these spaces.
+对于每个$\dot{f} \in L^1_{\mathrm{loc}}(\mathrm{T}, \mu; \mathbf{R})$，集合$\varphi(\dot{f}) = f \cdot \mu$，其中$f \in \dot{f}$； 映射$\varphi$是线性的，递增是单射的（第3命题的Cor.2），$\mathscr{M}(T)$中的像是由$\mu$（第2命题的Cor.2）生成的能带B。因此，映射$\varphi$允许将$L^1_{\text{loc}}(T, \mu; \mathbf{R})$与空间识别为T上的实际度量；由于空间$L^p_R(T, \mu)$都是$L^1_{\text{loc}}(T, \mu; \mathbf{R})$的子空间，因此它们也可以被识别为$\mathscr{M}(T)$的子空间。类似的考虑也适用于复值函数和度量。请注意，上面考虑的映射$\varphi$是$L^1_{\text{loc}}$和B的有序向量空间结构的同构，但对于这些的*拓扑向量空间*结构显然不是同构空间。
 
 由于完全晶格有序空间中的每个能带本身就是完全晶格有序空间（第 II, §1, No. 5），因此可以看到空间 $L^1_{\text{loc}}$ 是*完全晶格有序*；但值得记住的是，等价类的不可数族$(\dot{f}_\alpha)$的$L^1_{\text{loc}}$中的上界不一定与函数$f_\alpha$的上包络线的类相同。然而，我们看到，对于局部 $\mu$ 可积函数的 *递增序列* $(f_n)$，其上包络$f$ 局部$\mu$ 可积，$f \cdot \mu$ 是$\mathscr{M}(T)$ 中$(f_n \cdot \mu)$ 测度序列的上乘（Cor. of Prop. 6）。
 
@@ -509,7 +509,7 @@ $$
 
 *令 $\theta$ 为有界复数测度；要使$\theta$成为积极措施，$\| \theta \| = \theta(1)$.*是必要且充分的。
 
-条件显然是必要的。相反，假设$\| \theta \| = \int d\theta$，并用$v$表示绝对值1的$|\theta|$可测量函数，使得$\theta = v \cdot |\theta|$。由于$\| \theta \| = \int d|\theta|$（第IV, §4, No. 7章，第12条命题）和$\int d\theta = \int v \cdot d|\theta|$（第1章），假设意味着$\int (1 - v) \, d|\theta| = 0$，因此也意味着$\int \mathscr{R}(1 - v) \, d|\theta| = 0$。 函数$\mathscr{R}(1 - v)$为正，因此零几乎无处不在，这意味着$v = 1$几乎无处不在并完成证明。
+条件显然是必要的。相反，假设$\| \theta \| = \int d\theta$，并用$v$表示绝对值1的$|\theta|$可测量函数，使得$\theta = v \cdot |\theta|$。由于$\| \theta \| = \int d|\theta|$（第IV, §4, No. 7，第12条命题）和$\int d\theta = \int v \cdot d|\theta|$（第1条），假设意味着$\int (1 - v) \, d|\theta| = 0$，因此意味着$\int \mathscr{R}(1 - v) \, d|\theta| = 0$。 函数$\mathscr{R}(1 - v)$为正，因此零几乎无处不在，这意味着$v = 1$几乎无处不在并完成证明。
 
 ### 6. 等效措施
 
@@ -544,11 +544,11 @@ $$
 \nu^*(1) = \int^* h \, d\mu \leq \sum_n a_n \int f_n \, d\mu .
 $$
 
-当$\int f_n \, d\mu > 1$时取例$a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$，否则取$a_n = 2^{-n}$，我们有$\sum_n a_n < +\infty$和$\nu^*(1) < +\infty$，这证明了命题。
+例如，当$\int f_n \, d\mu > 1$时为$a_n = 2^{-n} (\int f_n \, d\mu)^{-1}$，否则为$a_n = 2^{-n}$，我们有$\sum_n a_n < +\infty$和$\nu^*(1) < +\infty$，这证明了命题。
 
 #### 命题 12 {#int-v-s5-prop-12 .statement tag=093E}
 
-*令$(\mu_n)$为$T$上有界正测度的序列；在$T$上存在有界正测度$\mu$，使得关系$\mu^*(N) = 0$等价于每个$n$»的$\mu_n^*(N) = 0$；每个措施$\mu_n$都有基$\mu$。此外，如果$\mu'$是具有性质的$T$的第二个积极措施，则$\mu$和$\mu'$是等价的。*
+*令$(\mu_n)$为$T$上有界正测度的序列； $T$ 上存在有界正测度 $\mu$，使得关系 $\mu^*(N) = 0$ 等价于每个 $n$» 的“$\mu_n^*(N) = 0$”；每个措施$\mu_n$都有基$\mu$。此外，如果$\mu'$是具有性质的$T$的第二个正测度，则$\mu$和$\mu'$是等价的。*
 
 叙述的最后一个部分立即从 Def 开始。 3. 为了证明$\mu$的存在，我们可以限制为对于每个$n$都有$\mu_n \neq 0$；然后，度量族$\mu_n / 2^n \| \mu_n \|$可在$\mathscr{M}(T)$中求和，并且其和$\mu$使得$\| \mu \| \leq 1$。此外，由于$\mu_n \leq 2^n \| \mu_n \| \cdot \mu$，关系$\mu(N) = 0$意味着$\mu_n(N) = 0$对于所有$n$；相反，如果$N$是集合，对于所有$\mu_n$来说可以忽略不计，那么对于$\mu$来说，它在局部可以忽略不计
 
@@ -568,7 +568,7 @@ $$
 
 *在阶中，$T$上的两个复杂测度$\rho$和$\sigma$彼此陌生，$T$中存在两个不相交的集合$R$和$S$使得$\rho$是充分必要的集中在$R$，$\sigma$集中在$S$； $R$ 和 $S$ 可以被认为是普遍可测的。*
 
-集合$\mu = |\rho|$、$\nu = |\sigma|$、$\lambda = \mu + \nu$；由于$\mu$和$\nu$以上由$\lambda$为界，因此存在两个局部$\lambda$可积函数$u$和$v$（可以假设其可以由§3, No. 4，第7条命题普遍测量），使得$\mu = u \cdot \lambda$，$\nu = v \cdot \lambda$。然后
+集合$\mu = |\rho|$、$\nu = |\sigma|$、$\lambda = \mu + \nu$；由于$\mu$和$\nu$以上由$\lambda$为界，因此存在两个局部$\lambda$可积函数$u$和$v$（可以假设其可以通过§3, No. 4，第7条命题普遍测量），使得$\mu = u \cdot \lambda$，$\nu = v \cdot \lambda$。然后
 
 $$
 \inf(|\rho|, |\sigma|) = \inf(\mu, \nu) = \inf(u, v) \cdot \lambda
@@ -580,9 +580,9 @@ $$
 
 *对于$T$上的每个实际测量$\nu$，存在两个不相交的集合$M, N$，分别携带$\nu^+$和$\nu^-$。*
 
-必须注意不要混淆支持$\nu$措施的概念和集中$\nu$的集合。 $\nu$ 的支撑 S 是最小的闭合集合承载 $\nu$（第 III, § 2, No. 2，第 2 章和第 IV, §2, No. 2，第 5 章）。然而，可能存在 S 的子集与 S 不同并带有 $\nu$。更一般地，对于具有相同支持的两项积极措施$\mu$和$\nu$，可以拥有$\inf(\mu, \nu) = 0$（示例5）。
+必须注意不要混淆支持$\nu$措施的概念和集中$\nu$的集合。 $\nu$ 的支撑 S 是最小的闭合集合承载 $\nu$（第 III, § 2, No. 2 第 2 章和第 IV, §2, No. 2 第 5 章）。然而，可能存在 S 的子集与 S 不同并携带 $\nu$。更一般地，对于具有相同支持的两项积极措施$\mu$和$\nu$，可以拥有$\inf(\mu, \nu) = 0$（示例5）。
 
-注还有，集合携带$\nu$的交是点$t \in T$的集合，使得$|\nu|(\{t\}) > 0$，并且它可以是空的（对于例，在勒贝格测度的情况下）；因此，一般不存在最小的集合携带$\nu$。
+注还有，集合携带$\nu$的交是点$t \in T$的集合，使得$|\nu|(\{t\}) > 0$，并且它可以是空的（例如，在勒贝格测度的情况下）；因此，一般不存在最小的集合携带$\nu$。
 
 #### 推论 2 {#int-v-s5-prop-13-cor-2 .statement tag=093I}
 
@@ -592,17 +592,17 @@ $$
 
 — 设$\rho$和$\sigma$为两个外来复测度；然后$|\rho + \sigma| = |\rho| + |\sigma|$。
 
-用$v$（分别$w$）表示绝对值值 1 的普遍可测函数，使得$\rho = v \cdot |\rho|$（分别$\sigma = w \cdot |\sigma|$）（第2条的Cor.3），并用A表示普遍可测集合， $\rho$，使得$B = \mathbf{C}A$携带$\sigma$（提案13）；然后还有$\rho + \sigma = (v \varphi_A + w \varphi_B) \cdot (|\rho| + |\sigma|)$。由于函数 $v \varphi_A + w \varphi_B$ 的绝对值值等于 1，因此由命题 2 得出推论。
+用$v$（或$w$）表示绝对值值 1 的普遍可测函数，使得$\rho = v \cdot |\rho|$（或$\sigma = w \cdot |\sigma|$）（第2条的Cor.3），并用A表示普遍可测的集合 $\rho$，使得$B = \mathbf{C}A$携带$\sigma$（提案13）；然后还有$\rho + \sigma = (v \varphi_A + w \varphi_B) \cdot (|\rho| + |\sigma|)$。由于函数 $v \varphi_A + w \varphi_B$ 的绝对值等于 1，推论由命题 2 得出。
 
 #### 定理 3（勒贝格）{#int-v-s5-thm-3 .statement tag=093K}
 
-— T 上的每个复杂测度 $\theta$ 都可以用一种且仅一种方式写成形式 $\theta = g \cdot \mu + \theta'$，其中 $g$ 是局部 $\mu$ 可积的，$\theta'$ 是与 $\mu$ 不同的测度。然后$|\theta| = |g| \cdot \mu + |\theta'|$。
+— T 上的每个复杂测度 $\theta$ 都可以用一种且仅一种方式写成形式 $\theta = g \cdot \mu + \theta'$，其中 $g$ 是本地 $\mu$ 可积的，$\theta'$ 是与 $\mu$ 不同的测度。然后$|\theta| = |g| \cdot \mu + |\theta'|$。
 
-当 $\theta$ 为正时，这立即从 F. Riesz (Ch. II, §1, No. 5, Th. 1) 的定理得出，应用于 T 上实际测量的完全晶格有序空间 $\mathscr{M}(T)$，以及在考虑到 Cor 的情况下，应用于此空间中由 $\mu$ 生成的带。 No. 5 中的 2 个，Th。 2；此外，$\theta'$和$g \cdot \mu$则为正，这意味着$g$局部为正$\mu$——几乎无处不在（第3条的Cor.3）。为了处理$\theta$不是正数的情况，集合$\nu = |\theta|$、$\nu = f \cdot \mu + \nu'$（其中$f$是正数，并且$\nu'$和$\mu$互不相容）和$\theta = v \cdot \nu$，其中$v$是普遍可测的绝对值 1 的函数（第 2 条的 Cor. 3）。然后我们有（命题8）$\theta = g \cdot \mu + \theta'$，以及$g = v f$（因此$|g| = f$）和$\theta' = v \cdot \nu'$（因此命题2的$|\theta'| = \nu'$）； Cor. 措施$\theta'$ 和$\mu$ 是互不相容的。提案 13 的 2。只需建立唯一性或分解。因此，假设$\theta = g \cdot \mu + \theta' = g_1 \cdot \mu + \theta'_1$，其中$\theta'$和$\theta'_1$与$\mu$不相容； $|\theta' - \theta'_1|$ 的边界为 $|\theta'| + |\theta'_1|$，因此 $\theta' - \theta'_1$ 与 $\mu$ 不相容，因此也与 $(g_1 - g) \cdot \mu$ 不相容。 关系$\theta' - \theta'_1 = (g_1 - g) \cdot \mu$则意味着两个成员是零，从而证明了唯一性。
+当 $\theta$ 为正时，这立即从 F. Riesz (Ch. II, §1, No. 5, Th. 1) 的定理得出，应用于 T 上实际测量的完全晶格有序空间 $\mathscr{M}(T)$，以及在考虑到 Cor 的情况下，应用于此空间中 $\mu$ 生成的带。 No. 5 中的 2 个，Th。 2；此外，$\theta'$和$g \cdot \mu$则为正，这意味着$g$局部为正$\mu$——几乎无处不在（第3条的Cor.3）。为了处理$\theta$不是正数的情况，集合$\nu = |\theta|$、$\nu = f \cdot \mu + \nu'$（其中$f$是正数，并且$\nu'$和$\mu$互不相容），以及$\theta = v \cdot \nu$，其中$v$是普遍可测的绝对值 1 的函数（第 2 条的 Cor. 3）。然后我们有（命题8）$\theta = g \cdot \mu + \theta'$，以及$g = v f$（因此$|g| = f$）和$\theta' = v \cdot \nu'$（因此命题2的$|\theta'| = \nu'$）； Cor. 措施$\theta'$ 和$\mu$ 是互不相容的。提案 13 的 2。只需建立唯一性或分解。因此，假设$\theta = g \cdot \mu + \theta' = g_1 \cdot \mu + \theta'_1$，其中$\theta'$和$\theta'_1$与$\mu$不相容； $|\theta' - \theta'_1|$ 的边界为 $|\theta'| + |\theta'_1|$，因此 $\theta' - \theta'_1$ 与 $\mu$ 不相容，因此也与 $(g_1 - g) \cdot \mu$ 不相容。 关系$\theta' - \theta'_1 = (g_1 - g) \cdot \mu$则意味着两个成员是零，从而证明了唯一性。
 
 回想一下（No. 5、Th.2 和 Scholium），空间 $L^1_{loc}(T, \mu; \mathbf{C})$ 可以（通过映射 $g \mapsto g \cdot \mu$）与子空间或 $\mathscr{M}_\mathbf{C}(T)$ 一起识别。根据此约定，定理 3 采用以下形式：
 
-#### 推出 {#int-v-s5-n7-cor-1 .statement tag=093L}
+#### 推论 {#int-v-s5-n7-cor-1 .statement tag=093L}
 
 — *在空间 $L^1_{\text{loc}}(T, \mu; \mathbf{C})$ 上存在空间 $\mathscr{M}_\mathbf{C}(T)$ 的投影算子 p，其核 $\overline{p}^{-1}(0)$ 是集合与 $\mu$ 不同的复杂测度，使得*
 
@@ -612,19 +612,19 @@ $$
 
 *对于每一个复杂的测量$\theta$。*
 
-如果 $p$ 被限制为集合有界度量，则可将空间 $\mathscr{M}_\mathbf{C}^1(T)$ 中的投影算子 $p^1$ 扩展到空间 $L^1_\mathbf{C}(T, \mu)$； 关系 $\| \theta \| = |\theta|(1)$ 意味着$\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ 对于每个有界复数测度 $\theta$。
+如果 $p$ 被限制为集合有界度量，则可在空间 $L^1_\mathbf{C}(T, \mu)$ 上获得空间 $\mathscr{M}_\mathbf{C}^1(T)$ 的投影算子 $p^1$； 关系 $\| \theta \| = |\theta|(1)$ 意味着$\| \theta \| = \| p^1(\theta) \| + \| \theta - p^1(\theta) \|$ 对于每个有界复数测度 $\theta$。
 
 ### 8. 应用：I。 空间 $L^p$ 的对偶性
 
 我们在这里只处理真实的空间$L^p$的情况。
 
-回想一下，两个数 $p, q$ 使得 $1 \leq p \leq +\infty$、$1 \leq q \leq +\infty$、$1/p + 1/q = 1$ 被称为 *共轭指数*（第 IV, §6, No. 4 章）。每函数 $g \in \mathscr{L}^q$ 定义 $L^p$ 上的连续线性形式 $\theta_g$，通过经过与 $\mathscr{L}^p$ 上以线性形式 $f \mapsto \int fg\,d\mu$ 开始的商获得，且有$N_q(g) = \| \theta_g \|$（第 IV, §6, No. 4 章，第 3 号提案的Cor.）。 经过到商，因此从映射 $g \mapsto \theta_g$ 推导出$L^q$ 的等距线性映射 $\varphi$ 到$L^p$ 的对偶$(L^p)'$。我们将证明，对于 $1 \leq p < +\infty$，$\varphi$ 映射 $L^q$ *到* $(L^p)'$，这样我们今后就可以将认同 Banach 空间 $L^q$ 与 Banach 空间 $(L^p)'$通过同构$\varphi$。其他项中所述：
+回想一下，两个数 $p, q$ 使得 $1 \leq p \leq +\infty$、$1 \leq q \leq +\infty$、$1/p + 1/q = 1$ 被称为 *共轭指数*（第 IV, §6, No. 4 章）。每函数 $g \in \mathscr{L}^q$ 定义 $L^p$ 上有一个连续的线性形式 $\theta_g$，由经过到商从 $\mathscr{L}^p$ 上的线性形式 $f \mapsto \int fg\,d\mu$ 开始获得，并且有一个$N_q(g) = \| \theta_g \|$（第 IV, §6, No. 4 章，第 3 号提案的Cor.）。 经过到商，因此从映射$g \mapsto \theta_g$推出$L^q$的等距线性映射$\varphi$到$L^p$的对偶$(L^p)'$。我们将证明，对于 $1 \leq p < +\infty$，$\varphi$ 映射 $L^q$ *到* $(L^p)'$，这样我们今后就可以将认同 Banach 空间 $L^q$ 与 Banach 空间 $(L^p)'$ 通过同构 $\varphi$。其他项中所述：
 
 #### 定理 4 {#int-v-s5-thm-4 .statement tag=093M}
 
 — *令 p 和 q 为两个共轭指数，使得 $1 \leq p < +\infty$。 $\mathscr{L}^p(T, \mu)$上的每个连续线性形式都是型$f \mapsto \int fg\,d\mu$，其中g是$\mathscr{L}^q(T, \mu)$中的函数，而$L^q$中的类是明确定义的。*
 
-令$\theta$为$\mathscr{L}^p$上连续的线性形式；因而，对于每个函数$f \in \mathscr{L}^p$，存在数$a \geq 0$这样的$|\theta(f)| \leq a \cdot N_p(f)$。 Consider the restriction of $\theta$ to the space $\mathscr{K}(T)$ of continuous functions with compact support: for every compact subset K of T and every function $f \in \mathscr{K}(T, K)$ (the space of continuous functions with compact support contained in K), one has $N_p(f) \leq (\mu(K))^{1/p} \| f \|$; therefore the topology induced on $\mathscr{K}(T, K)$ by that of $\mathscr{L}^p$ is coarser than the topology of uniform convergence, and the restriction of $\theta$ to each $\mathscr{K}(T, K)$ is consequently continuous for the latter topology. 这意味着 $\theta$ 到 $\mathscr{K}(T)$ 的限制是*实际度量* $\nu$（第 1 章） III, §1, No. 3，默认。 2）。
+令$\theta$为$\mathscr{L}^p$上连续的线性形式；因而，对于每个函数$f \in \mathscr{L}^p$，存在数$a \geq 0$这样的$|\theta(f)| \leq a \cdot N_p(f)$。 考虑$\theta$对紧支持连续函数空间$\mathscr{K}(T)$的限制：对于T的每个紧子集K和每个函数$f \in \mathscr{K}(T, K)$（K中包含的紧支持连续函数空间），有$N_p(f) \leq (\mu(K))^{1/p} \| f \|$；因而，由$\mathscr{L}^p$的拓扑在$\mathscr{K}(T, K)$上导出的拓扑比一致收敛的拓扑更粗糙，并且$\theta$对每个$\mathscr{K}(T, K)$的限制对于后者拓扑来说是连续的。 这意味着 $\theta$ 到 $\mathscr{K}(T)$ 的限制是*实际度量* $\nu$（第 1 章） III, §1, No. 3，默认。 2）。
 
 让我们证明对于 $\mathscr{K}(T)$ 中的每个函数 $f$，$|\nu|(|f|) \leq a \cdot N_p(f)$。只要证明公式对于$f \geq 0$就足够了。现在，对于$\mathscr{K}(T)$中的每个函数$\psi$使得$|\psi| \leq f$，我们有
 $$
@@ -634,19 +634,19 @@ $$
 
 因而，存在一个局部 $\mu$ 可积正函数 $h_1$，使得对于每个函数 $f \in \mathscr{K}(T)$ 都有 $|\nu|(f) = \int f h_1 d\mu$。让我们证明$h_1$在局部几乎处处都等于$\mathscr{L}^q$中的函数。如果$\mathscr{K}(T)$中的函数$f \geq 0$使得$N_p(f) \leq 1$，则$\int f h_1 d\mu = |\nu|(f) \leq a$。对于具有紧凑支持的 T 的每个连续映射 $f_0$ 到$[0,1]$，因此我们有 $\sup \int (f_0 h_1) f d\mu \leq a$，因为 $f$ 在 $\mathscr{K}(T)$ 中运行超过函数 $\geq 0$ 的集合，从而得到 $N_p(f) \leq 1$。由此推断，通过第 1 章的公式 (11)。 IV, §6, No. 4，那个$N_q(f_0 h_1) \leq a$。由此可见，当 K 时，$\sup_{K} N_q(\varphi_K h_1) \leq a$ 会超过 T 的紧凑子集的集合，这证明了我们的断言（§1，命题 9）。
 
-令 $v$ 为绝对值 1 的普遍可测（实数）函数，使得 $\nu = v \cdot |\nu|$（Th. 2 的 Cor. 3）并令 $g = v h_1$；然后$\nu = g \cdot \mu$，$g$属于到$\mathscr{L}^q$。对于每个函数 $f \in \mathscr{K}(T)$，我们有 $\theta(f) = \nu(f) = \int f g d\mu$。其他字中，$\mathscr{K}(T)$上连续的线性形式$\theta$和$\theta_g$重合；因而，它们在 $\mathscr{L}^p$ 上相等，因为 $\mathscr{K}(T)$ 在 $\mathscr{L}^p$ 中是稠密的，这完成了证明。
+令 $v$ 为绝对值 1 的普遍可测（实数）函数，使得 $\nu = v \cdot |\nu|$（Th. 2 的 Cor. 3）并令 $g = v h_1$；然后$\nu = g \cdot \mu$，$g$属于到$\mathscr{L}^q$。对于每个函数$f \in \mathscr{K}(T)$，我们有$\theta(f) = \nu(f) = \int f g d\mu$。其他字中，$\mathscr{K}(T)$上连续的线性形式$\theta$和$\theta_g$重合；因而，它们在 $\mathscr{L}^p$ 上相等，因为 $\mathscr{K}(T)$ 在 $\mathscr{L}^p$ 中是稠密的，这完成了证明。
 
-#### 推论{#int-v-s5-n8-cor-1 .statement tag=093N}
+#### 推论 {#int-v-s5-n8-cor-1 .statement tag=093N}
 
 — *对于每个数 p 使得 $1 < p < +\infty$，Banach 空间 $L^p(T, \mu)$ 是自反的。*
 
-一般来说，$L^\infty$的对偶与$L^1$不同构，因而$L^1$和$L^\infty$不是自反的（Exer.10）。我们将描述 $L^\infty$ 上的连续线性形式，通过商的传递，从 $\mathscr{L}^\infty$ 上的线性形式 $g \mapsto \int f g d\mu$ 产生，其中 $g \in \mathscr{L}^1$。
+一般来说，$L^\infty$的对偶与$L^1$不同构，因而$L^1$和$L^\infty$不是自反的（Exer.10）。我们将描述$L^\infty$上的连续线性形式，从$\mathscr{L}^\infty$上的线性形式$g \mapsto \int f g d\mu$到商，其中$g \in \mathscr{L}^1$。
 
-有序的向量空间 $L^\infty(T, \mu)$，即 $L^1_{loc}(T, \mu)$ 的子空间，是*完全格序的*；因为，如果$(f_\alpha)$是$\mathscr{L}^\infty$中的正函数族，其类$(\dot{f}_\alpha)$的集合在$L^\infty$的上方有界，则存在$a \geq 0$使得$N_\infty(f_\alpha) \leq a$对于所有$\alpha$。由于 $L^1_{loc}(T, \mu)$ 是完全格序的，$(\dot{f}_\alpha)$族在$L^1_{loc}(T, \mu)$中承认一个上等$\dot{h}$；但由于每一个$\alpha$都有$\dot{a} \geq \dot{f}_\alpha$，我们有$\dot{h} \leq \dot{a}$，因而$N_\infty(h) \leq a$，从而我们的断言。
+有序的向量空间 $L^\infty(T, \mu)$，即 $L^1_{loc}(T, \mu)$ 的子空间，是*完全格序的*；因为，如果$(f_\alpha)$是$\mathscr{L}^\infty$中的正函数族，其类$(\dot{f}_\alpha)$的集合在$L^\infty$中上界，则存在一个$a \geq 0$，使得$N_\infty(f_\alpha) \leq a$对于所有$\alpha$。由于 $L^1_{loc}(T, \mu)$ 是完全格序的，$(\dot{f}_\alpha)$族在$L^1_{loc}(T, \mu)$中承认一个上等$\dot{h}$；但由于每一个$\alpha$都有$\dot{a} \geq \dot{f}_\alpha$，我们有$\dot{h} \leq \dot{a}$，因而$N_\infty(h) \leq a$，从而我们的断言。
 
 #### 命题 14 {#int-v-s5-prop-14 .statement tag=093O}
 
-— *在阶中，$\mathscr{L}^\infty$上的正线性形式$\theta$为型$f \mapsto \int f g d\mu$，其中$g \in \mathscr{L}^1$，有充分必要*，*对于每个递增定向家庭$(f_\alpha)_{\alpha \in A}$的正函数 $\mathscr{L}^\infty$，其类$(\dot{f}_\alpha)_{\alpha \in A}$的集合在$L^\infty$上界，并承认$\dot{h}$为其空间中的上等，有
+— *在阶中，$\mathscr{L}^\infty$上的正线性形式$\theta$为型$f \mapsto \int f g d\mu$，其中$g \in \mathscr{L}^1$，有充分必要*，*对于每个递增定向家庭$(f_\alpha)_{\alpha \in A}$的正函数 $\mathscr{L}^\infty$，其类$(\dot{f}_\alpha)_{\alpha \in A}$的集合在$L^\infty$上有界，并承认$\dot{h}$为其空间中的上等，有
 
 $$
 \theta(h) = \sup_{\alpha \in A} \theta(f_\alpha).
@@ -690,7 +690,7 @@ $$
 u(\alpha x_1, \ldots, \alpha x_n) = \alpha u(x_1, \ldots, x_n)
 $$
 
-对于每个标量$\alpha \geqslant 0$。 T 上存在正向测度 $\lambda$，使得 $1 \leqslant i \leqslant n$ 具有$|\mu_i| \leqslant \lambda$（对于例、和 $\sum_{i=1}^n |\mu_i|$）。令 $\lambda$ 和 $\lambda'$ 为 T 上的两个此类测度。可以写为 $\mu_i = f_i \cdot \lambda = f'_i \cdot \lambda'$，其中 $f_i$（分别为 $f'_i$）是可测的，并且本质上有界于测度 $\lambda$（分别为 $\lambda'$）（No. 5，Th.2）。我们将建立以下结果：*在阶中，数值函数$u(f_1, \ldots, f_n)$对于$\lambda$可局部可积，函数$u(f'_1, \ldots, f'_n)$对于$\lambda'$可局部可积是必要且充分的，在这种情况下*
+对于每个标量$\alpha \geqslant 0$。 T 上存在正测度 $\lambda$，使得 $|\mu_i| \leqslant \lambda$ 适合 $1 \leqslant i \leqslant n$（例如，和 $\sum_{i=1}^n |\mu_i|$）。令 $\lambda$ 和 $\lambda'$ 为 T 上的两个此类测度。可以写为 $\mu_i = f_i \cdot \lambda = f'_i \cdot \lambda'$，其中 $f_i$（分别为 $f'_i$）是可测的，并且本质上有界于测度 $\lambda$（分别为 $\lambda'$）（No. 5，Th.2）。我们将建立以下结果：*在阶中，数值函数$u(f_1, \ldots, f_n)$对于$\lambda$可局部可积，函数$u(f'_1, \ldots, f'_n)$对于$\lambda'$可局部可积是必要且充分的，在这种情况下*
 
 $$
 u(f_1, \ldots, f_n) \cdot \lambda = u(f'_1, \ldots, f'_n) \cdot \lambda'.
@@ -702,19 +702,19 @@ $$
 \mu_i = f_i \cdot (g \cdot \lambda') = (f_i g) \cdot \lambda';
 $$
 
-由此可见（No. 3，第 3 条命题第 2 条），对于 $\lambda'$，$f_i g$ 几乎在任何地方都等于 $f'_i$。因而，根据 (12)，
+由此可见（No. 3，第 3 条命题第 2 条），对于 $\lambda'$，$f_i g$ 几乎在任何地方都等于 $f'_i$。因而，通过 (12)，
 
 $$
 u(f'_1, \ldots, f'_n) = u(f_1 g, \ldots, f_n g) = u(f_1, \ldots, f_n) g
 $$
 
-当地几乎所有地方都只需$\lambda'$。在阶中，$u(f'_1, \ldots, f'_n)$ 是$\lambda'$ 局部可积的，因而，$u(f_1, \ldots, f_n) g$ 对于 $\lambda'$ 是局部可积的，因而（No. 4，命题 8）$u(f_1, \ldots, f_n)$ 对于 $\lambda$ 是局部可积的；然后（No. 4，提案 8）
+当地几乎所有地方都只需$\lambda'$。在阶中，$u(f'_1, \ldots, f'_n)$ 是局部 $\lambda'$ 可积的，因而，$u(f_1, \ldots, f_n) g$ 对于 $\lambda'$ 是局部可积的，因而（No. 4，命题 8）$u(f_1, \ldots, f_n)$ 对于 $\lambda$ 是局部可积的；然后（No. 4，提案 8）
 
 $$
 u(f'_1, \ldots, f'_n) \cdot \lambda' = (u(f_1, \ldots, f_n) g) \cdot \lambda' = u(f_1, \ldots, f_n) \cdot \lambda.
 $$
 
-因而，测度$u(f_1, \ldots, f_n) \cdot \lambda$仅取决于测度$\mu_1, \ldots, \mu_n$和函数$u$；它也表示为$u(\mu_1, \ldots, \mu_n)$。因而，每当 $u$ 是正齐次函数时，就定义该测度，使得对于所有 $|\mu_i|$ 的正测度 $\lambda$ 即上界，$u(f_1, \ldots, f_n)$ 是局部 $\lambda$ 可积的，其中 $f_i$ 表示密度 $\mu_i$相对于$\lambda$。 注当 $u$ 是正齐次且*连续*时，条件得到满足：对于，则有
+因而，测度$u(f_1, \ldots, f_n) \cdot \lambda$仅取决于测度$\mu_1, \ldots, \mu_n$和函数$u$；它也表示为$u(\mu_1, \ldots, \mu_n)$。因而，每当 $u$ 是正齐次函数时，就定义该测度，使得对于所有 $|\mu_i|$ 的正测度 $\lambda$ 即上界，$u(f_1, \ldots, f_n)$ 是局部 $\lambda$ 可积的，其中 $f_i$ 表示密度 $\mu_i$相对于$\lambda$。请注意，当 $u$ 是正齐次且*连续*时，条件得到满足：对于，则有
 $$
 |u(x_1, \ldots, x_n)| \leq a(|x_1| + |x_2| + \cdots + |x_n|)
 $$

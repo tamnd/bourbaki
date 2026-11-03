@@ -37,19 +37,19 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: 63649acbd1a33a028f9dc8e3858fedea210615a5cdc2f6bc3a262ed5a15a77d6
+content_sha256: 40b382739a92ebbb792212a02a09bf83edd7c53764a91dadcd90a59fb6cb0e5d
 translated_from: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
 translation_method: google
 source_content_sha256: a4785cb8d75380fad37a9781d0116e8b216b652f0d5b68e842a5a1dfdd3864bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7c14a099f44de88c4b9de3a438f586d6c1482718383bb8355ebe061862532708
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 7。 李群超越超距域
+## § 7。 李群超过超测量域
 
 在本段中，假设域$K$是超度量且特征为0。让$A$表示$K$的评估环，$m$表示$A$的最大理想，$p$表示剩余类域的特征$A/m$。如果 $K$ 是局部紧致的，则 $p \neq 0$ (*交换代数*, 章 VI, § 9, 定理 1)。
 
@@ -123,13 +123,13 @@ $$
 
 ### 3. 标准群†
 
-如果 $S(X_1, X_2, \ldots, X_n)$ 是形式幂级数，其系数为 $A$，则对于 m 中的所有 $x_1, \ldots, x_r$，级数 $S(x_1, x_2, \ldots, x_r)$ 是收敛的。更准确地说，$m \times m \times \cdots \times m$包含在$S$的绝对收敛域中（可微且解析流形，R，4.1.3）。
+如果 $S(X_1, X_2, \ldots, X_n)$ 是形式幂级数，系数在 $A$ 中，那么，对于 m 中的所有 $x_1, \ldots, x_r$，级数 $S(x_1, x_2, \ldots, x_r)$ 是收敛的。更准确地说，$m \times m \times \cdots \times m$包含在$S$的绝对收敛域中（可微且解析流形，R，4.1.3）。
 
 #### 定义 1 {#lie-iii-s7-def-1 .statement tag=0AH9}
 
 设 r 为整数 $\geq 0$。 K 上的维数 r 的标准群是李群 G，具有以下属性：
-(i) G 的基础解析流形是 $m \times m \times \cdots \times m$ (r 因子)；
-(ii) 在 2r 个变量中存在形式的幂级数 F，其系数为 $A^r$，没有常数项，使得 $x.y = F(x, y)$ 对于 G 中的所有 $x, y$。
+(i) G 的基础解析流形为 $m \times m \times \cdots \times m$ (r 因子)；
+(ii) 在 2r 个变量中存在形式幂级数 F，$A^r$ 中有系数，没有常数项，使得对于 G 中的所有 $x, y$ 都有 $x.y = F(x, y)$。
 
 那么G的$0.0 = 0$和单位元素就是$m \times m \cdots \times m$的原点。
 
@@ -139,13 +139,13 @@ L(G) 将用 K' 标识。由§ 5，公式 (13)，L(G) 的结构相对于典范基
 
 #### 例 {#lie-iii-s7-n3-exa-1 .statement tag=0AHA}
 
-设G = 1 + M_n(m)，这是M_n(K)的开子集。如果 x ∈ G，则 det x ∈ 1 + m，因此 G ⊂ GL(n, K)。显然 GG ⊂ G。如果 x = 1 + y 且 y ∈ M_n(m)，矩阵的逆计算首先证明 x^{-1} ∈ M_n(A)；如果我们写 x^{-1} = 1 + y'，则 y + y' + yy' = 0，因此 y' ∈ M_n(m)，因此 x^{-1} ∈ G。因此 G 是 GL(n, K) 的开子群。我们通过映射 (\delta_{ij} + y_{ij}) ↦ (y_{ij}) 来认同 G 和 m^{n^2}。显然 G 是标准群。
+令G = 1 + M_n(m)，这是M_n(K)的开子集。如果 x ∈ G，则 det x ∈ 1 + m，因此 G ⊂ GL(n, K)。显然 GG ⊂ G。如果 x = 1 + y 且 y ∈ M_n(m)，矩阵的逆计算首先证明 x^{-1} ∈ M_n(A)；如果我们写 x^{-1} = 1 + y'，则 y + y' + yy' = 0，因此 y' ∈ M_n(m)，因此 x^{-1} ∈ G。因此 G 是 GL(n, K) 的开子群。我们通过映射 (\delta_{ij} + y_{ij}) ↦ (y_{ij}) 来认同 G 和 m^{n^2}。显然 G 是标准群。
 
 #### 定理 4 {#lie-iii-s7-thm-4 .statement tag=0AHB}
 
 令 G 为有限维李群。存在与标准群同构的G的开子群。
 
-通过替换 G 通过群同构于 G 的开子群，问题被简化为 G 是 K' 的开子集，其中单位元素 0 并且乘积 x.y 的坐标和逆坐标x^{[-1]} 由公式给出
+通过替换 G 和群同构于 G 的开子群，问题被简化为 G 是 K' 的开子集，其中单位元素 0 并且乘积 x.y 的坐标和逆坐标x^{[-1]} 由公式给出
 
 (3) $$(x.y)_i = x_i + y_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c_{\alpha \beta i} x^\alpha y^\beta \quad (i = 1, 2, \ldots, r)$$
 
@@ -167,9 +167,9 @@ $$|c'_{\alpha \beta i}| \leq 1, \qquad |d'_{\alpha i}| \leq 1$$
 
 即 c'_{\alpha \beta i} ∈ A 和 d'_{\alpha i} ∈ A;另一方面 G' ⊃ m × m × ... × m。那么 m × m × ... × m 是 G' 的开子群，并且是标准群。
 
-### 4. 标准过滤群
+### 4. 标准群过滤
 
-我们再次使用定义 1 的记号。我们选择数 $a > 1$ 以及 $K$ 的实际估值 $v$，这样 $|x| = a^{-v(x)}$ 对于所有 $x \in K$ (交换代数， 章VI, § 6、命题3)。如果$a$是包含在$m$中的$A$的非零（因此开）理想，则让$G(a)$表示$G$的元素的集合，其坐标属于到$a$。如果$\lambda \in \mathbf{R}$，则令$a_\lambda$（或$a_\lambda^+$）表示$x \in K$的集合，使得$v(x) \geq \lambda$（或$v(x) > \lambda$）；然后$a_0 = A$，$a_0^+ = m$。对于$x = (x_1, \ldots, x_r) \in G$，我们应该写
+我们再次使用定义 1 的记号。我们选择数 $a > 1$ 以及 $K$ 的实际估值 $v$，这样 $|x| = a^{-v(x)}$ 对于所有 $x \in K$ (交换代数， 章VI, § 6、命题3)。如果$a$是包含在$m$中的$A$的非零（因此开）理想，则让$G(a)$表示$G$的元素的集合，其坐标属于到$a$。如果$\lambda \in \mathbf{R}$，令$a_\lambda$（或$a_\lambda^+$）表示$x \in K$的集合，使得$v(x) \geq \lambda$（或$v(x) > \lambda$）；然后$a_0 = A$，$a_0^+ = m$。对于$x = (x_1, \ldots, x_r) \in G$，我们应该写
 
 $$
 \omega(x) = \inf(v(x_1), \ldots, v(x_r)).
@@ -185,7 +185,7 @@ $$
 
 (iii) 假设 $\lambda \geq \lambda_0$ 为 $a_\lambda \subset a$，并让 $\lambda \geq \lambda_0$ 的 $G(a)/G(a_\lambda)$ 被赋予离散的拓扑。那么拓扑群$G(a)$就是群$G(a)/G(a_\lambda)$的逆极限。
 
-(iv) 设$a, b$为$m$中包含的$A$的非零理想，使得$a \supset b \supset a^2$。将$G(a)$的映射$x \mapsto (x_1 \bmod b, \ldots, x_r \bmod b)$代入经过上的$(a/b) \times \cdots \times (a/b)$定义，再将群$G(a)/G(b)$的同构商到加法群$(a/b) \times \cdots \times (a/b)$。
+(iv) 设$a, b$为$m$中包含的$A$的非零理想，使得$a \supset b \supset a^2$。 $G(a)$的映射$x \mapsto (x_1 \bmod b, \ldots, x_r \bmod b)$进入$(a/b) \times \cdots \times (a/b)$定义，经过至商同构，群$G(a)/G(b)$进入加法群$(a/b) \times \cdots \times (a/b)$。
 
 如果$x \in G$和$y \in G(a)$，$x$和$x.y$的坐标等于模$a$。因此，对于$G$中的$x', x''$和$G(a)$中的$y', y''$，$x'.x''$和$(x'.y').(x''.y'')$的坐标等于模$a$。这就证明了(i)。
 
@@ -195,15 +195,15 @@ $$
 
 如果$x \in G(a)$和$y \in G(a)$，$x.y$的坐标与$x + y$模$G(a^2)$除以§ 5的公式（4）的坐标一致。这就证明了(iv)。
 
-#### 推论{#lie-iii-s7-n4-cor-1 .statement tag=0AHD}
+#### 推论 {#lie-iii-s7-n4-cor-1 .statement tag=0AHD}
 
 假设 $K$ 是局部紧致的，并设 $q = \mathrm{Card}(A/m)$。
 
 (i) 如果$a = m^a$和$b = m^b$与$b \geq a \geq 1$，则$G(a)/G(b)$是基数$q^{r(b-a)}$的$p$群。
 
-(ii) $G(a)$是$p$组中的逆极限。
+(ii) $G(a)$ 是 $p$ 组中的逆极限。
 
-$G(a)/G(b)$中元素的数为$(\mathrm{Card}(a/b))^r$；如果 $b = a + 1$、$a/b$ 是 $A/m$、从而上的一维向量空间 (i) 在这种情况下；一般情况下是$b - a$上的归纳。 断言 (ii) 由 (i) 和命题 5 (iii) 得出。
+$G(a)/G(b)$中元素的数为$(\mathrm{Card}(a/b))^r$；如果$b = a + 1$，$a/b$是$A/m$，从而上的一维向量空间 (i) 在这种情况下；一般情况下是$b - a$上的归纳。 断言 (ii) 由 (i) 和命题 5 (iii) 得出。
 
 #### 命题 6 {#lie-iii-s7-prop-6 .statement tag=0AHE}
 
@@ -247,7 +247,7 @@ $$
 
 通过章II, § 4, no. 4，我们可以将形式群$\mathrm{gr}(G)$与群$G$相关联，并进行中央过滤$(G(a_\lambda))$。 对所有$\lambda > 0$写出$G_\lambda = G(a_\lambda)/G(a_\lambda^+)$，我们得到$\mathrm{gr}(G) = \bigoplus_{\lambda > 0} G_\lambda$。 回想一下（*loc.cit.*，命题 1），$G$中的换位子允许我们在$\mathrm{gr}(G)$中使用定义括号，其中$\mathrm{gr}(G)$是李代数，如下所示：如果$\bar{x} \in G_\lambda$和$\bar{y} \in G_\mu$，则选择 $G(a_\lambda)$中$\bar{x}$的代表$x$和$G(a_\mu)$中$\bar{y}$的代表$y$；那么$[\bar{x}, \bar{y}]$是$G_{\lambda+\mu}$中$x^{[-1]}y^{[-1]}x.y \in G(a_{\lambda+\mu})$的类。 到命题 6，与$a = a_\lambda, b = a_\mu, c = a_{\lambda+\mu}, c' = a_{\lambda+\mu}^+$一起应用，我们看到$[\bar{x}, \bar{y}]$也是$G_{\lambda+\mu}$中$[x, y]$的类。 因此，当 $G$ 被视为 $L(G) = K^r$ 的谎言子代数时，经 $G(a_\lambda)$ 过滤，相关分级李代数 (章 II, § 4, no. 3) 等于 $\mathrm{gr}(G)$。
 
-### 5. 幂标准群
+### 5. 标准幂群
 
 我们保留 no. 4 的记号。
 
@@ -255,7 +255,7 @@ $$
 
 *设*$n \in \mathbf{Z}$*和*$h_n$*为映射*$x \mapsto x^n$*的*$G$*到*$G$。 *让*$a$*成为*$A$*包含在*$m$中的非零理想，*使得*$n \notin a$。 *然后* $h_n|G(a)$ *是解析流形* $G(a)$ *的同构到解析流形* $G(na)$。
 
-根据标准群的定义，$h_n$等于系数为$A'$的积分级数的整个$G$至和。由 § 5、公式 (4) 得出，此级数为形式
+根据标准群的定义，$h_n$等于整个$G$到级数积分的和与$A'$中的系数。由 § 5、公式 (4) 得出，此级数为形式
 $$
 h_n(x) = nx + \sum_{|\alpha| \geq 2} a_\alpha x^\alpha.
 $$
@@ -266,15 +266,15 @@ h_n(nx) &= n^2 \left( x + \sum_{|\alpha| \geq 2} a_\alpha n^{|\alpha|-2} x^\alph
 &= n^2 S(x)
 \end{align*}
 $$
-我们写$S(x) = x + \sum_{|\alpha| \geq 2} a_\alpha n^{|\alpha|-2} x^\alpha$。这个级数$S(x)$定义是$G$到$G$的解析映射，也用$S$表示。由*代数*，章IV, § 6，命题8，$r$变量中存在一个积分级数$S'$，其系数在$A'$中，使得$S'(S(X)) = S(S'(X)) = X$。因此，$S$是流形$G$自身解析的同构，并且对于$A$的每个非零理想$b$包含在$m$、$S(G(b)) \subset G(b)$、$S'(G(b)) \subset G(b)$中，因此
+我们写$S(x) = x + \sum_{|\alpha| \geq 2} a_\alpha n^{|\alpha|-2} x^\alpha$。这个级数$S(x)$定义是$G$到$G$的解析映射，也用$S$表示。由*代数*，章IV, § 6，命题8，$r$变量中存在积分级数$S'$，$A'$中存在系数，使得$S'(S(X)) = S(S'(X)) = X$。因此，$S$是流形$G$自身解析的同构，并且对于$A$的每个非零理想$b$包含在$m$，$S(G(b)) \subset G(b)$，$S'(G(b)) \subset G(b)$中，因此
 $$
 S(G(b)) = G(b).
 $$
-对于$y \in nG$的$h_n(y) = n^2 S \left( \frac{1}{n} y \right)$，我们看到$h_n|nG(b)$是解析式流形$nG(b)$到解析式流形$n^2 G(b)$的同构。但是，由于$n \notin a$、$|n| > |\lambda|$对于所有$\lambda \in a$来说，因此$n^{-1} a \subset m$和$a$是形式$nb$，其中$b$是包含在$m$中的$A$的非零理想。
+对于$y \in nG$的$h_n(y) = n^2 S \left( \frac{1}{n} y \right)$，我们看到$h_n|nG(b)$是解析式流形$nG(b)$到解析式流形$n^2 G(b)$的同构。但是，由于 $n \notin a$、$|n| > |\lambda|$ 对于所有 $\lambda \in a$，因此 $n^{-1} a \subset m$ 以及$a$ 都是形式 $nb$，其中 $b$ 是$m$ 中包含的 $A$ 的非零理想。
 
-#### 推论{#lie-iii-s7-n5-cor-1 .statement tag=0AHH}
+#### 推论 {#lie-iii-s7-n5-cor-1 .statement tag=0AHH}
 
-*如果$n$在$A$中可逆，则$h_n$是流形$G$自身解析的同构。对于$m$、$h_n(G(a)) = G(a)$中包含的$A$的每个非零理想$a$。对于所有 $x \in G$、$\omega(x^n) = \omega(x)$。*
+*如果 $n$ 在 $A$ 中可逆，则 $h_n$ 是流形 $G$ 自身解析的同构。对于$m$、$h_n(G(a)) = G(a)$中包含的$A$的每个非零理想$a$。对于所有 $x \in G$、$\omega(x^n) = \omega(x)$。*
 
 这紧随命题 8。
 
@@ -290,15 +290,15 @@ $$
 $$
 x^p = px + \sum_{|\alpha| \geq 2} c_\alpha x^\alpha
 $$
-其中$c_\alpha \in A'$代表所有$\alpha$。 即使对于证明(i)，也可以假设$v(p) = 1$。 Then if $\omega(x) \geq 1$, it follows that $\omega(x^p) \geq \omega(x) + 1$ and hence $\omega(x^{p^n})$ tends to $+\infty$ as $n$ tends to $+\infty$; this proves (i). As $\binom{p}{i}$ is divisible by $p$ for $1 \leq i \leq p - 1$, Proposition 2 of § 5, no. 3, proves that $c_\alpha \in pA'$ for
+其中$c_\alpha \in A'$代表所有$\alpha$。 即使对于证明(i)，也可以假设$v(p) = 1$。 Then if $\omega(x) \geq 1$, it follows that $\omega(x^p) \geq \omega(x) + 1$ and hence $\omega(x^{p^n})$ tends to $+\infty$ as $n$ tends to $+\infty$; this proves (i). 由于对于$1 \leq i \leq p - 1$，$\binom{p}{i}$可被$p$整除，§ 5, no. 3的命题2，证明$c_\alpha \in pA'$对于
 $$
 2 \leq |\alpha| \leq p - 1
 $$
-and hence
+因此
 $$
 \omega(c_\alpha x^\alpha) > \omega(px) = \omega(x) + 1 \quad \text{for } 2 \leq |\alpha| \leq p - 1.
 $$
-On the other hand, if $|\alpha| \geq p$, $\omega(c_\alpha x^\alpha) \geq p \omega(x)$ and $p \omega(x) > \omega(x) + 1$ if $\omega(x) > \frac{1}{p - 1}$. 这就证明了(ii)。
+另一方面，如果$|\alpha| \geq p$，$\omega(c_\alpha x^\alpha) \geq p \omega(x)$和$p \omega(x) > \omega(x) + 1$，如果$\omega(x) > \frac{1}{p - 1}$。 这就证明了(ii)。
 
 ### 6. 对数映射
 
@@ -375,23 +375,23 @@ $$
 
 *假设$p \neq 0$。如果 $G$ 是紧凑型或标准型，则 $G_f = G$.*
 
-如果G是标准的，则使用引理1就足够了。假设G是紧的。令$x \in G$和V为G中e的邻域。令y为序列$(x^n)_{n \geq 0}$的极限点。对于所有$n > 0$，存在两个整数$n_1, n_2$，例如$n_1 \geq 2n_2 \geq n$和$x^{n_1} \in yV, x^{n_2} \in yV$，从而$x^{n_1 - n_2} \in V^{-1}V$和$n_1 - n_2 \geq n$。因此$x \in G_f$。
+如果G是标准的，则使用引理1就足够了。假设G是紧的。令$x \in G$和V为G中e的邻域。令y为序列$(x^n)_{n \geq 0}$的极限点。对于所有$n > 0$，存在两个整数$n_1, n_2$，例如$n_1 \geq 2n_2 \geq n$和$x^{n_1} \in yV, x^{n_2} \in yV$、从而、$x^{n_1 - n_2} \in V^{-1}V$和$n_1 - n_2 \geq n$。因此$x \in G_f$。
 
-#### 推论{#lie-iii-s7-n6-cor-1 .statement tag=0AHP}
+#### 推论 {#lie-iii-s7-n6-cor-1 .statement tag=0AHP}
 
-*假设K是局部紧的。那么$G_f$就是G的紧致子群的并。*
+*假设K是局部紧的。那么 $G_f$ 就是 G 的紧致子群的并。*
 
 让$x \in G$。如果 x 属于为 G 的紧子群，则$x \in G_f$ (命题 13)。假设$x \in G_f$。由于 K 是局部紧致的，因此存在紧致 G 的开子群 $G_1$。那么存在整数$m > 0$使得$x^m \in G_1$。由$x^m$生成的闭子群$G_2$包含在$G_1$中，因此是紧致的。然后x与$G_2$的元素交换，因此$G_2 \cup xG_2 \cup \cdots \cup x^{m-1}G_2$是G的紧子群，其中包含x。
 
 #### 例 {#lie-iii-s7-n6-exa-1 .statement tag=0AHQ}
 
-假设 K 是局部紧致的。设U为A的可逆元的集合；它是李群 $K^*$ 的紧凑型开放子群。然后$U \subset (K^*)_f$乘命题13；另一方面，如果$x \in K^*$使得$x \notin U$，则当n趋向于$+\infty$时$x^n$趋于0，或者当n趋于$-\infty$时$x^n$趋于0；因此$U = (K^*)_f$。 函数 $\log_{K^*}$ 在 U 上定义和解析，值在 $L(K^*) = K$ 中，并且使得 $\log_{K^*}(xy) = \log_{K^*}(x) + \log_{K^*}(y)$ 对于 U 中的所有 $x, y$； U 的元素 x，使得 $\log_{K^*}(x) = 0$ 是 K 的单位元的根。
+假设 K 是局部紧致的。令U为A的可逆元的集合；它是李群 $K^*$ 的紧凑型开放子群。然后$U \subset (K^*)_f$乘命题13；另一方面，如果$x \in K^*$使得$x \notin U$，则当n趋向于$+\infty$时$x^n$趋于0，或者当n趋于$-\infty$时$x^n$趋于0；因此$U = (K^*)_f$。 函数 $\log_{K^*}$ 在 U 上定义和解析，值在 $L(K^*) = K$ 中，并且使得 $\log_{K^*}(xy) = \log_{K^*}(x) + \log_{K^*}(y)$ 对于 U 中的所有 $x, y$； U 的元素 x，使得 $\log_{K^*}(x) = 0$ 是 K 的单位元的根。
 
 我们再次使用记号 。 3、4 和 5。
 
 #### 命题 14 {#lie-iii-s7-prop-14 .statement tag=0AHR}
 
-*假设$p \neq 0$和v被选择使得$v(p) = 1$。令 G 为 G 的指数函数（或 G 的对数函数）的标准群和 E(X)（或L(X)）展开作为关于 0 的积分级数。*
+*假设$p \neq 0$和v被选择使得$v(p) = 1$。令 G 为 G 的指数函数（或 G 的对数函数）的标准群和 E(X)（或 L(X)）展开作为关于 0 的积分级数。*
 
 (i) *绝对收敛域*（可微分和解析流形，R，4.1.3）*E 包含集合 $\Delta$ 的 $x \in G$ 使得 $\omega(x) > \frac{1}{p-1}$。让$E'$表示由这个级数在$\Delta$上定义的映射。那么$E'$是G的指数映射，并且是流形$\Delta$自身的同构。*
 
@@ -399,13 +399,13 @@ $$
 
 (iii) *映射 $E'$ 是 $\Delta$ 的同构，通过 Hausdorff 律，到 G 的子群 $\Delta$。*
 
-使用记号或 § 5，编号。 3 和 4、$E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$（$§ 5$、no. 4、命题 3）。作为 A 的系数 $c_{\alpha \beta \gamma}$ 属于，$\| \psi_{m,m} \| \leq 1$（可微分和解析流形，R，附录）$K^r$ 假定具有范数
+使用记号或 § 5，编号。 3 和 4、$E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$（$§ 5$、no. 4、命题 3）。作为系数 $c_{\alpha \beta \gamma}$ 属于到 A，$\| \psi_{m,m} \| \leq 1$（可微分和解析流形，R，附录）$K^r$ 假定有范数
 
 $$
 \| (\lambda_1, \ldots, \lambda_r ) \| = \sup(|\lambda_1|, \ldots, |\lambda_r|)
 $$
 
-章 II, § 8, no. 1、引理 1、$v(m!) \leq \frac{m-1}{p-1}$。如果$\omega(x) > \frac{1}{p-1}$，我们看到$m \omega(x) - v(m!)$趋于$+\infty$，$m$，从而
+章II, § 8, no. 1、引理1、$v(m!) \leq \frac{m-1}{p-1}$。如果$\omega(x) > \frac{1}{p-1}$，我们看到$m \omega(x) - v(m!)$趋于$+\infty$，$m$，从而
 $$
 \left\| \frac{\psi_{m,m}}{m!} \right\| \|x\|^m \leq \frac{1}{|m!|} \|x\|^m
 $$
@@ -415,7 +415,7 @@ $$
 $$
 因此$\Delta$包含在$E$和$E'(\Delta) \subset \Delta$的绝对收敛域内。显然 $E'$ 是指数映射。
 
-若$L_m$表示次数$m$的$L$的齐次分量，§ 5, no. 4的命题3，证明$L_m$的各系数为形式
+如果$L_m$表示次数$m$的$L$齐次分量，§ 5, no. 4的命题3，证明$L_m$的每个系数都是形式
 $$
 a_1 + \frac{1}{2} a_2 + \cdots + \frac{1}{m} a_m
 $$

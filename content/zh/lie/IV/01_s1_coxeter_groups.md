@@ -48,23 +48,23 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 26
-content_sha256: fc72db914dd4d073ad5043cedff0d07af10defc3b65e3c191c715aba5b061ca3
+content_sha256: 57e6e262f508c1c48334b964446cf22c58dff9ee2b6da73c727d5ba9878c280d
 translated_from: content/en/lie/IV/01_s1_coxeter_groups.md
 translation_method: google
 source_content_sha256: aeca25119a4e3b1300664856f323c4070b977911903d6cf99cfb24051466f433
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1dee64191f8b99b6c77e076f6393ca885aa51a29f93be17fa377694ab5117824
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。考克塞特群
 
 在这个截面中，W表示群乘法写成，单位元素1，S表示W的生成元的集合，使得S = S^{-1}和1\notin S。W的每个元素都是乘积 S 的元素的有限序列。从 no. 3 开始，我们假设 S 的每个元素都有阶 2。
 
-### 1. 长度并减少分解
+### 1. 长度减少分解
 
 #### 定义 1 {#lie-iv-s1-def-1 .statement tag=0ALN}
 
@@ -97,11 +97,11 @@ $$
 
 交换(4)中的$w$和$w'$，通过(5)、证明(3)得到$l(w') - l(w) \leq l(w{w'}^{-1})$。
 
-#### 推论{#lie-iv-s1-n1-cor-1 .statement tag=0ALP}
+#### 推论 {#lie-iv-s1-n1-cor-1 .statement tag=0ALP}
 
 *令$s = (s_1, \ldots, s_p)$和$s' = (s'_1, \ldots, s'_q)$为$S$的元素中的两个序列，使得$w = s_1 \ldots s_p$和$w' = s'_1 \ldots s'_q$。如果序列 $(s_1, \ldots, s_p, s'_1, \ldots, s'_q)$ 是 $ww'$ 的减少的分解，则 $s$ 是 $w$ 的减少的分解，并且 $s'$ 是 $w'$ 之一。*
 
-假设、$l(w) \leq p$、$l(w') \leq q$ 和 $l(ww') = p + q$。根据 (1)，我们必须有 $l(w) = p$ 和 $l(w') = q$，因此得出推论。
+假设、$l(w) \leq p$、$l(w') \leq q$ 和 $l(ww') = p + q$。根据 (1)，我们必须有 $l(w) = p$ 和 $l(w') = q$，因此有推论。
 
 #### 注 {#lie-iv-s1-n1-rem-1 .statement tag=0ALQ}
 
@@ -115,7 +115,7 @@ $$
 
 #### 例 {#lie-iv-s1-n2-exa-1 .statement tag=0ALS}
 
-令 $M$ 为乘法群 $\{1, -1\}$，并令 $m$ 为整数 $\geq 2$（分别为 $m = \infty$）。然后$M$通过$(-1).x = -x$作用于群$\mathbf{Z}/m\mathbf{Z}$（分别作用于$\mathbf{Z}$），并且相应的通过$\mathbf{Z}/m\mathbf{Z}$作用于$M$的半直接乘积（分别作用于$M$） $\mathbf{Z}$）用$D_m$表示。 $D_m$中的元素因此为对$(\varepsilon, x)$以及$\varepsilon = \pm 1$和$x \in \mathbf{Z}/m\mathbf{Z}$（分别为$x \in \mathbf{Z}$）； $D_m$ 上的群运算由公式给出
+令 $M$ 为乘法群 $\{1, -1\}$，并令 $m$ 为整数 $\geq 2$（分别为 $m = \infty$）。然后$M$通过$(-1).x = -x$作用于群$\mathbf{Z}/m\mathbf{Z}$（分别作用于$\mathbf{Z}$），并且相应的通过$M$半直接乘积作用于$\mathbf{Z}/m\mathbf{Z}$（分别作用于$M$） $\mathbf{Z}$）用$D_m$表示。因此，$D_m$中的元素是对$(\varepsilon, x)$以及$\varepsilon = \pm 1$和$x \in \mathbf{Z}/m\mathbf{Z}$（分别为$x \in \mathbf{Z}$）； $D_m$ 上的群运算由公式给出
 $$
 (\varepsilon, x).(\varepsilon', x') = (\varepsilon \varepsilon', \varepsilon' x + x').
 $$
@@ -163,7 +163,7 @@ $$
 
 现在假设 $m$ 是*有限*。如果$q \geq 2m$，我们有$w_q = w_{q-2m}$和$w'_q = w'_{q-2m}$；如果$m \leq q \leq 2m$，我们有$w_q = w'_{2m-q}$，$w'_q = w_{2m-q}$。因此，如果$q > m$，$s_q$和$s'_q$都不会减少分解。因此，$W$的每个$2m$元素是$1 \leq q \leq m-1$和$w_m = w'_m$的$2m$、元素、$w_0 = w'_0$、$w_q$和$w'_q$之一。因此，这些$2m$元素是不同的，并且如上所述，$q \leq m$的$l(w_q) = l(w'_q) = q$以及$W$的元素的减少分解的*集合由$s_q$和$s'_q$组成$0 \leq q \leq m$*。除$w_m$外，$W$中的每个元素都有一个唯一的缩减分解； $w_m$ 有两个。
 
-### 3. Coxeter 的第一个特性群
+### 3. coxeter 的第一个性质群
 
 回想一下，从现在开始，我们假设 S 的元素是阶 2。
 
@@ -213,7 +213,7 @@ $$
 
 令 $f$ 为映射，从 S 到 $M = \{1, -1\}$ 在 $A_s$ 上等于 1，在 $S - A_s$ 上等于 -1。令 S 中的 $s'$ 和 $s''$ 使得 $s's''$ 的长度为有限阶 m。如果$s'$和$s''$都在$A_s$或者都在$S - A_s$，那么$f(s') f(s'') = 1$。在另一种情况下，$f(s') f(s'') = -1$，但 m 是偶数。因此在所有情况下都是$(f(s') f(s''))^m = 1$。由于 (W, S) 是 Coxeter 系统，因此存在从 W 到 M 的同态 g，在 S 上感应出 f。令 $s'$ 为 s 的共轭。由于g的s属于到核，$s'$也是如此，因此$f(s') = g(s') = 1$，最后是$s' \in A_s$。 Q.E.D.
 
-### 4. 在 COXETER 中减少分解群
+### 4. 在 coxeter 中减少分解群
 
 假设 (W, S) 是 Coxeter 系统。令T为S的元素W中的共轭集合。对于S的元素任意有限序列$s = (s_1, \ldots, s_q)$，用元素的$\Phi(s)$序列$(t_1, \ldots, t_q)$表示T 的定义为
 
@@ -268,7 +268,7 @@ $$
 $$
 t_j = p^{j-1} s \quad \text{for } 1 \leq j \leq 2m.
 $$
-由于$p$是阶$m$，元素$t_1, \ldots, t_m$是不同的，$t_{j+m} = t_j$对于$1 \leq j \leq m$是不同的。 对于所有$t \in T$，整数$n(s, t)$因此等于0或2，并且（14）表明$U_s = \mathrm{Id}_R$。 其他字，$(U_s U_{s'})^m = \mathrm{Id}_R$。 Thus, by the definition of Coxeter systems, there exists a homomorphism $w \mapsto U_w$ from $W$ to the group of permutations of $R$ such that $U_s$ is given by the right-hand side of (13). 然后，对于每个序列$s = (s_1, \ldots, s_q)$，$U_w = U_s$使得$w = s_q \ldots s_1$和引理1紧随(14)而来。
+由于$p$是阶$m$，元素$t_1, \ldots, t_m$是不同的，$t_{j+m} = t_j$对于$1 \leq j \leq m$是不同的。 对于所有$t \in T$，整数$n(s, t)$因此等于0或2，并且（14）表明$U_s = \mathrm{Id}_R$。 其他字，$(U_s U_{s'})^m = \mathrm{Id}_R$。 因此，根据 Coxeter 系统的定义，存在从 $W$ 到 $R$ 排列群的同态 $w \mapsto U_w$，使得 $U_s$ 由 (13) 的右侧给出。 然后，对于每个序列$s = (s_1, \ldots, s_q)$，$U_w = U_s$使得$w = s_q \ldots s_1$和引理1紧随(14)而来。
 
 #### 引理 2 {#lie-iv-s1-lem-2 .statement tag=0AM2}
 
@@ -284,7 +284,7 @@ $$
 
 #### 引理 3 {#lie-iv-s1-lem-3 .statement tag=0AM3}
 
-*设$w \in W$和$s \in S$使得$l(sw) \leq l(w)$。 For any sequence $s = (s_1, \ldots, s_q)$ of elements of $S$ with $w = s_1 \ldots s_q$, there exists an integer $j$ such that $1 \leq j \leq q$ and*
+*设$w \in W$和$s \in S$使得$l(sw) \leq l(w)$。 对于$S$和$w = s_1 \ldots s_q$的任何元素序列$s = (s_1, \ldots, s_q)$，存在一个整数$j$，使得$1 \leq j \leq q$和*
 
 $$
 ss_1 \ldots s_{j-1} = s_1 \ldots s_{j-1} s_j.
@@ -308,7 +308,7 @@ $w'$ 并放入 $s = (s, s'_1, \ldots, s'_{p-1})$ 和 $\Phi(s') = (t'_1, \ldots, 
 
 引理 2 中定义的集合 $T_w$ 由形式 $w''s{w''}^{-1}$ 相应的的元素到三元组$(w', w'', s) \in W \times W \times S$ 组成，使得$w = w''sw'$ 和$l(w') + l(w'') + 1 = l(w)$。
 
-### 5. 交换条件
+### 5. 兑换条件
 
 “交换条件”是关于$(W, S)$的以下断言：
 
@@ -399,7 +399,7 @@ F_w(s_1, \ldots, s_q) = f(s_1) \ldots f(s_q).
 $$
 我们将通过 w 的长度上的归纳证明 $F_w$ 是常数，这将建立命题 5。 $l(w) = 0, 1$ 的情况是微不足道的，我们假设 $q \geq 2$ 并且我们的断言被证明对于元素 w 和 $l(w) < q$。设 w 为长度 q 和 $s, s' \in D_w$；通过引理 4 足以证明引理的情况 a) 和 b) 中的$F_w(s) = F_w(s')$。
 
-a) 公式
+一）公式
 $$
 F_w(s_1, \ldots, s_q) = f(s_1)F_{w''}(s_2, \ldots, s_q) = F_{w'}(s_1, \ldots, s_{q-1})f(s_q)
 $$
@@ -410,7 +410,7 @@ $$
 F_w(s) = F_w(s').
 $$
 
-### 6. 考克斯特的特征群
+### 6. coxeter 群的表征
 
 #### 定理 1 {#lie-iv-s1-thm-1 .statement tag=0AM8}
 
@@ -445,7 +445,7 @@ b) $l(sw) = l(w) - 1$：放入$w' = sw$；然后是$w = sw'$和$l(sw') = l(w') +
 设$w \in W$和$s \in S$。根据no. 5的第4条命题，我们必须区分两种情况：
 
 a) $l(sw) = l(w) + 1$：然后$w \in P_s$。
-b) $l(sw) = l(w) - 1$：将$w' = sw$改为$w = sw'$；那么
+b) $l(sw) = l(w) - 1$：将$w' = sw$改为$w = sw'$；然后
 $$
 l(w') < l(sw')
 $$
@@ -493,7 +493,7 @@ b) $w \in P_s$：放入$w' = sw$，使得$w' \notin P_s$乘以(B')。通过a)，
 
 a) 和 b) 的比较证明 $P_s$ 由那些 $w \in W$ 组成，使得 $l(sw) > l(w)$。正如我们在 a) 中看到的，交换条件由此而来，因此 $(W, S)$ 是 Coxeter 系统（no. 6 的第 1 个）。
 
-### 8. 考克塞特的子群群
+### 8. 考克斯特子群群
 
 在这个数中，我们假设$(W, S)$是Coxeter系统。对于$S$的任何子集$X$，我们用$X$生成的$W$的$W_X$子群表示。
 
@@ -555,7 +555,7 @@ $$
 
 断言 (ii) 和 (iii) 紧随 Cor.提案 7 中的 1 条。
 
-### 9. 考克塞特矩阵和考克塞特图
+### 9. Coxeter 矩阵和 coxeter 图
 
 #### 定义 4 {#lie-iv-s1-def-4 .statement tag=0AMG}
 
@@ -579,7 +579,7 @@ Coxeter 图 $(\Gamma, f)$ 与型 $I$ 的任何 Coxeter 矩阵 $M$ 相关联，�
 
 3 请参阅附录了解定义以及此处使用的图的属性。
 
-如果 (W, S) 是一个 Coxeter 系统、矩阵 $M = (m(s, s'))_{s, s' \in S}$，其中 $m(s, s')$ 是 $ss'$ 的阶，则为型 S 的 Coxeter 矩阵，称为 的 Coxeter 矩阵 （W，S）：确实，对于所有 $s \in S$，从 $s^2 = 1$ 开始，$m(s, s) = 1$；如果从 $ss' = (s's)^{-1}$ 开始 $s \neq s'$，则$m(s, s') = m(s', s) \geqslant 2$ 则为 $\neq 1$。与 M 相关的 Coxeter 图 $(\Gamma, f)$ 称为 (W, S) 的 Coxeter 图。我们注认为$\Gamma$的两个顶点$s$和$s'$是“连接”当且仅当$s$和$s'$不交换。对于例，阶 $2m$ 的二面角群的 Coxeter 矩阵为 $\begin{pmatrix} 1 & m \\ m & 1 \end{pmatrix}$，其 Coxeter 图表示为
+如果 (W, S) 是一个 Coxeter 系统、矩阵 $M = (m(s, s'))_{s, s' \in S}$，其中 $m(s, s')$ 是 $ss'$ 的阶，则为型 S 的 Coxeter 矩阵，称为 的 Coxeter 矩阵 （W，S）：确实，对于所有 $s \in S$，从 $s^2 = 1$ 开始，$m(s, s) = 1$；如果从 $ss' = (s's)^{-1}$ 开始 $s \neq s'$，则$m(s, s') = m(s', s) \geqslant 2$ 则为 $\neq 1$。与 M 相关的 Coxeter 图 $(\Gamma, f)$ 称为 (W, S) 的 Coxeter 图。我们注意到，当且仅当$s$和$s'$不交换时，$\Gamma$的两个顶点$s$和$s'$才“连接”。例如，阶 $2m$ 的二面体群的 Coxeter 矩阵为 $\begin{pmatrix} 1 & m \\ m & 1 \end{pmatrix}$，其 Coxeter 图表示为
 
 $$
 \circ \overset{m}{\text{---}} \circ
@@ -607,7 +607,7 @@ $$
 
 我们稍后（第 V, § 4 章）证明，相反，任何 Coxeter 矩阵都是 Coxeter 系统的矩阵。
 
-如果 Coxeter 图的底层图是*连通*（附录，no. 2）且*非空*，则 Coxeter 系统 (W, S) 被称为*不可约*。等价地，S 是非空的，并且不存在 S 的划分分成 S 的两个不同的子集 S' 和 S''，使得 S' 的每个元素与 S'' 的每个元素交换。更一般地，令$(\Gamma_i)_{i \in I}$为$\Gamma$（附录，no. 2）的连通分量族，并令$S_i$为$\Gamma_i$顶点的集合。令$W_i = W_{S_i}$为由$S_i$(cf.no. 8)生成的W的子群。那么 $(W_i, S_i)$ 是不可约 Coxeter 系统 (no. 8, Th. 2) ，称为 (W, S) 的*不可约分量*。而且，群 W 是$i \in I$ 子群 $W_i$ 的*限制直接乘积*[^1]。事实上，这是从以下更一般的命题得出的：
+如果 Coxeter 图的底层图是*连通*（附录，no. 2）且*非空*，则 Coxeter 系统 (W, S) 被称为*不可约*。等价地，S 是非空的，并且不存在 S 的划分分成 S 的两个不同的子集 S' 和 S''，使得 S' 的每个元素与 S'' 的每个元素交换。更一般地，令$(\Gamma_i)_{i \in I}$为$\Gamma$（附录，no. 2）的连通分量族，并令$S_i$为$\Gamma_i$顶点的集合。令$W_i = W_{S_i}$为由$S_i$(cf.no. 8)生成的W的子群。那么 $(W_i, S_i)$ 是不可约的 Coxeter 系统 (no. 8, Th. 2) ，称为 (W, S) 的*不可约分量*。而且，群 W 是$i \in I$ 子群 $W_i$ 的*限制直接乘积*[^1]。事实上，这是从以下更一般的命题得出的：
 
 #### 命题 8 {#lie-iv-s1-prop-8 .statement tag=0AMH}
 

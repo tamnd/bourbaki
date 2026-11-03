@@ -25,23 +25,23 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 963f4bda36ab07046752d9258f718da283697ab03423a39732073fada575a6d5
+content_sha256: b3a48a45cddc0387b46795751219a5d53ce97cc3f27a1d2145efe14c9a6a9820
 translated_from: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
 translation_method: google
 source_content_sha256: 9312e1a966f1c5bc60ded7611d1345461f06db492fc343d729b16bcbbd46a1c0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2c799a8e5f86a04dd77a0386b2ce07d96bd5075e758eaece4e03ee8cbc3ec844
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 群向量与李群的切线
+## § 2。 向量到李群的切线群
 
 ### 1. 合成的切线律
 
-令X和Y为类C^r中的流形。我们知道（可微分和解析流形，R，8.1.4）X\times Y是类C^r的流形，并且映射（T（pr_1），T（pr_2）），乘积映射与规范投影的切线，是 T(X \times Y) 的类 C^{r-1} 到 T(X) \times T(Y) 的同构。\footnote{对于 r = 1，这意味着(T(pr_1), T(pr_2)) 是 T(X \times Y) 的同态到 T(X) \times T(Y)。} 这个同构与向量丛结构和基空间兼容X \times Y 并允许我们认同 T(X \times Y) 和 T(X) \times T(Y)。设a ε X，b ε Y，u ε T_a(X)，v ε T_b(Y)；上述识别允许我们将 (u, v) 视为 T_{(a, b)}(X × Y) 的元素；那么
+令X和Y为类C^r中的流形。我们知道（可微分和解析流形，R，8.1.4）X\times Y是类C^r的流形，并且映射（T（pr_1），T（pr_2）），乘积映射与规范投影的切线，是 T(X \times Y) 的类 C^{r-1} 到 T(X) \times T(Y) 的同构。\footnote{对于 r = 1，这意味着(T(pr_1), T(pr_2)) 是 T(X \times Y) 的同态到 T(X) \times T(Y)。} 这个同构与向量丛结构和基空间兼容X \times Y 并允许我们认同 T(X \times Y) 和 T(X) \times T(Y)。设a ε X，b ε Y，u ε T_a(X)，v ε T_b(Y)；上述识别允许我们将 (u, v) 视为 T_{(a, b)}(X × Y) 的元素；然后
 
 $$(u, v) = (u, 0) + (0, v)$$
 
@@ -140,7 +140,7 @@ $$
 
 它表达了$T(f)$是群同态这一事实。
 
-#### 推论{#lie-iii-s2-n2-cor-1 .statement tag=0A93}
+#### 推论 {#lie-iii-s2-n2-cor-1 .statement tag=0A93}
 
 *令$G_1, \ldots, G_n$为李群。 流形 $T(G_1 \times \cdots \times G_n)$ 到流形 $T(G_1) \times \cdots \times T(G_n)$ 的典范同构是李群同构。*
 
@@ -156,11 +156,11 @@ $\mathrm{pr}_i$ 是$G_1 \times \cdots \times G_n$ 的态射到$G_i$，因此$T(\
 
 断言 (i) 由 (5) 得出。考虑到命题 2 (ii)，断言 (ii) 是显而易见的。 断言 (iii) 和 (iv) 由 (6) 和 § 1、命题 8 得出。
 
-设$u \in T(G)$和$g \in G$。通过(3)和(4)，群$T(G)$计算出的乘积$ug, gu$是$T(\delta(g^{-1}))$和$T(\gamma(g))$下$u$的像。从§ 1，推论2到命题17，$G \times T_e(G)$进入$T(G)$的映射$(g, u) \mapsto gu$是平凡的向量丛$G \times T_e(G)$与基的同构空间$G$到向量丛$T(G)$。 逆同构被称为 $T(G)$ 的*左平凡化*。通过考虑映射$(g, u) \mapsto ug$，$T(G)$的*右平凡化*也有类似的定义。
+设$u \in T(G)$和$g \in G$。通过(3)和(4)，群$T(G)$计算出的乘积$ug, gu$是$T(\delta(g^{-1}))$和$T(\gamma(g))$下$u$的像。从 § 1、推论 2 到命题 17，$G \times T_e(G)$ 到 $T(G)$ 的映射 $(g, u) \mapsto gu$ 是平凡的向量丛 $G \times T_e(G)$ 的同构，其中基空间$G$到向量丛$T(G)$。 逆同构被称为 $T(G)$ 的*左平凡化*。通过考虑映射$(g, u) \mapsto ug$，$T(G)$的*右平凡化*也有类似的定义。
 
 #### 命题 7 {#lie-iii-s2-prop-7 .statement tag=0A95}
 
-*令$G$为李群、类$C^r$的$M$流形和$f$以及类$C^r$的$g$映射 $M$ 转化为 $G$，因此 $fg$ 就是类 $C^r$ 的映射 $M$ 转化为 $G$。让$m \in M, x = f(m), y = g(m), u \in T_m(M)$。然后*
+*令$G$为类$C^r$的李群、$M$流形和$f$以及类$C^r$的$g$映射 $M$ 转化为 $G$，因此 $fg$ 就是类 $C^r$ 的映射 $M$ 转化为 $G$。让$m \in M, x = f(m), y = g(m), u \in T_m(M)$。然后*
 
 $$
 (T fg)u = T(f)u.y + x.T(g)u.
@@ -174,7 +174,7 @@ $$
 
 因此$T(fg)u = T(f)u.T(g)u$。然后应用 (1) 并将 $f$ 替换为 $m$ 即可。
 
-#### 推论{#lie-iii-s2-n2-cor-2 .statement tag=0A96}
+#### 推论 {#lie-iii-s2-n2-cor-2 .statement tag=0A96}
 
 *设$n \in \mathbf{Z}$。 $G$ 到 $G$ 的 $e$ 到映射 $g \mapsto g^n$ 的切线映射是 $T_e(G)$ 到 $T_e(G)$ 的映射 $x \mapsto nx$。*
 
@@ -202,7 +202,7 @@ $$
 
 #### 命题 8 {#lie-iii-s2-prop-8 .statement tag=0A97}
 
-Let G_1 and G_2 be Lie groups, X_1 and X_2 manifolds of class C^r and f_i a law of left operation of class C^r of G_i on X_i (i = 1, 2). 设\phi为G_1到G_2的态射，\psi为X_1到X_2的\phi同态。 那么 T(\psi) 是 T(X_1) 到 T(X_2) 的 T(\phi) 态射。
+令 G_1 和 G_2 为李群，X_1 和 X_2 为C^r 类流形，f_i 为 G_i 在 X_i (i = 1, 2) 上的类 C^r 左运算定律。 设\phi为G_1到G_2的态射，\psi为X_1到X_2的\phi同态。 那么 T(\psi) 是 T(X_1) 到 T(X_2) 的 T(\phi) 态射。
 
 f_2 \circ (\phi \times \psi) = \psi \circ f_1, 从而
 

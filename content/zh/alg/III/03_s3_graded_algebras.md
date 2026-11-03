@@ -26,16 +26,16 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: 1e87ecc074cbff846e6ec7af1a849c5d2a1fda143d689d5aecb6005242104564
+content_sha256: b793845d9b1034c522a6b188a874496ae1fe6336e0d5ea1840eaa6d6e4beaef1
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
 translation_method: google
 source_content_sha256: d496b7e9119afe9a64c71792995d77ced2c25e2dbf7df0912c545226ff6cffa2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9d19881415a6ed27c3477d76f24a7e901a7b240231ce38b6d0d82dbcd273b438
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。评分代数
@@ -99,7 +99,7 @@ $$
 
 令$E$为型$\Delta$的分级代数，超过型$\Delta$的分级环$A$。 If $F$ is a sub-$A$-algebra of $E$ which is a graded sub-$A$-module, then the graduation $(F_{\lambda})$ on $F$ is compatible with its $A$-algebra structure, since $F_{\lambda} = F \cap E_{\lambda}$; in this case $F$ is called a graded subalgebra of $E$ and the canonical injection $F \to E$ is a graded algebra homomorphism.
 
-Similarly, if $a$ is a left (resp. right) ideal of $E$ which is a graded sub-$A$-module, then $E_{\lambda}a_{\mu} \subset a_{\lambda+\mu}$ (resp. $a_{\lambda}E_{\mu} \subset a_{\lambda+\mu}$), since $a_{\lambda} = a \cap E_{\lambda}$; then $a$ is called a graded ideal of the algebra $E$. 如果 $b$ 是 $E$ 的分级双面理想，则模 $E/b$ 上的商分级与 $E/b$ 上的代数结构兼容，并且典范同态 $E \to E/b$ 是分级代数同态。
+Similarly, if $a$ is a left (resp. right) ideal of $E$ which is a graded sub-$A$-module, then $E_{\lambda}a_{\mu} \subset a_{\lambda+\mu}$ (resp. $a_{\lambda}E_{\mu} \subset a_{\lambda+\mu}$), since $a_{\lambda} = a \cap E_{\lambda}$; then $a$ is called a graded ideal of the algebra $E$. 如果$b$是$E$商的分级双面理想，模$E/b$与$E/b$上的代数结构兼容，并且典范同态$E \to E/b$是分级的代数同态。
 
 如果$u : E \to E'$是分级代数同态，$\operatorname{Im}(u)$是$E'$的分级子代数，$\operatorname{Ker}(u)$是$E$的分级双边理想，而双射规范地与$u$相关联的$E/\operatorname{Ker}(u) \to \operatorname{Im}(u)$是分级的代数同构。
 

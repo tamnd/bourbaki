@@ -34,27 +34,27 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: 06eb0694c546c96235a5338d816030a6ffcb833839aacb5c635d48a3f46dbf56
+content_sha256: 9fd2843449947cd4e8dd0c012e136b2e3e1ecfbcf0cdcd66153335bb7c2ec14a
 translated_from: content/en/ens/I/03_s3_logical_theories.md
 translation_method: google
 source_content_sha256: 37ec32a3c0cdf2c61a57848be909293d325cc40d690c0e328f7cb619bf02c9e1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: bde532d91ecec524a7754ae46177e1bf1c039bc009e69ab585a3a904eabf6df1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 逻辑理论
 
 ### 1. 公理
 
-*逻辑理论*是任何理论$\mathscr{T}$，其中概形下面的S1到S4提供隐式公理。
+*逻辑理论*是任何理论$\mathscr{T}$，其中下面的概形S1到S4提供隐式公理。
 
 S1。 *如果$A$在$\mathscr{T}$中为关系，则关系$(A$或$A) \Rightarrow A$是$\mathscr{T}$* [^1]的公理。
 
-S2。 *如果$A$和$B$在$\mathscr{T}$中是关系，则关系$A \Rightarrow (A$或B)是$\mathscr{T}$的公理。*
+S2。 *如果$A$和$B$是$\mathscr{T}$中的关系，则关系$A \Rightarrow (A$或B)是$\mathscr{T}$的公理。*
 
 S3。 *如果$A$和$B$在$\mathscr{T}$中是关系，则关系$(A$或$B) \Rightarrow (B$或A)是$\mathscr{T}$的公理。*
 
@@ -64,11 +64,11 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 *是$\mathscr{T}$的公理。*
 
-这些规则实际上是概形；让我们验证一下，S2 的例。设$R$为应用S2得到的关系；那么$\mathscr{T}$中有关系$A$和$B$，使得$R$是关系$A \Rightarrow (A$或B）。令$\mathscr{T}$中$T$为项，令$x$为字母，令$A'$和$B'$为关系$(T|x)A$和$(T|x)B$；则$(T|x)R$与$A' \Rightarrow (A'$或$B')$相同，因此可以通过应用S2获得。
+这些规则实际上是概形；让我们以 S2 为例来验证这一点。设$R$为应用S2得到的关系；那么$\mathscr{T}$中有关系$A$和$B$，使得$R$是关系$A \Rightarrow (A$或B）。令$\mathscr{T}$中的$T$为项，令$x$为字母，令$A'$和$B'$为关系、$(T|x)A$和$(T|x)B$；则$(T|x)R$与$A' \Rightarrow (A'$或$B')$相同，因此可以通过应用S2获得。
 
 直观上，规则S1到S4仅仅表达了字通常的数学语言[^2]中“或”和“暗示”的含义。
 
-如果逻辑理论$\mathscr{T}$是矛盾的，*$\mathscr{T}$中的每个关系都是$\mathscr{T}$中的定理。*因为让$A$是$\mathscr{T}$中的关系，这样$A$和“不是$A$”是$\mathscr{T}$中的定理，并令$B$为$\mathscr{T}$中的任意关系。通过S2，（不是$A$）$\Rightarrow$（（不是$A$）或$B$）在$\mathscr{T}$中等于定理；因此，通过C1（§ 2, no. 2），“（不是$A$）或$B$”，即$A \Rightarrow B$，是$\mathscr{T}$中的定理。 C1 的第二次应用显示 $\mathscr{T}$ 中的 $B$ 是定理。
+如果逻辑理论$\mathscr{T}$是矛盾的，*$\mathscr{T}$中的每个关系都是$\mathscr{T}$中的定理。*让$A$是$\mathscr{T}$中的关系，这样$A$和“不是” $A$”是$\mathscr{T}$中的定理，并且让$B$是$\mathscr{T}$中的任意关系。通过S2，（不是$A$）$\Rightarrow$（（不是$A$）或$B$）在$\mathscr{T}$中等于定理；因此，通过C1（§ 2, no. 2），“（不是$A$）或$B$”，即$A \Rightarrow B$，是$\mathscr{T}$中的定理。 C1 的第二次应用表明 $B$ 是 $\mathscr{T}$ 中的定理。
 
 ¶ *从现在开始$\mathscr{T}$将表示逻辑理论。*
 
@@ -76,7 +76,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 C6。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果$A \Rightarrow B$和$B \Rightarrow C$在$\mathscr{T}$中是定理，则$A \Rightarrow C$在$\mathscr{T}$中是定理。*
 
-因为$(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$是$\mathscr{T}$的公理，在S4中，替换，$A$由$B$，$B$由$C$，$C$由“不是$A$”。通过 C1 (§ 2, no. 2)，$(A \Rightarrow B) \Rightarrow (A \Rightarrow C)$ 是 $\mathscr{T}$ 中的定理。进一步应用 C1 完成证明。
+因为$(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$是$\mathscr{T}$的公理，在S4中，替换，$A$由$B$，$B$由$C$，$C$由“不是$A$”。通过 C1 (§ 2, no. 2)，$(A \Rightarrow B) \Rightarrow (A \Rightarrow C)$ 是 $\mathscr{T}$ 中的定理。进一步应用 C1 即可完成证明。
 
 C7。 *如果$A$和$B$在$\mathscr{T}$中为关系，则$B \Rightarrow (A$或B)在$\mathscr{T}$中为定理。*
 
@@ -90,11 +90,11 @@ C9。 *如果$\mathscr{T}$中$A$是关系且$B$定理，则$A \Rightarrow B$在$
 
 对于$B \Rightarrow ((\text{not } A)$或B)来说，C7乘以定理，因此“（不是$A$）或$B$”，即$A \Rightarrow B$，C1乘以定理。
 
-C10。 *如果$A$在$\mathscr{T}$中是关系，则“$A$或（不是$A$）”在$\mathscr{T}$中是定理。*
+C10。 *如果$\mathscr{T}$中的$A$是关系，则“$A$或（不是$A$）”是$\mathscr{T}$中的定理。*
 
 对于“（不是$A$）或$A$”，C8 为定理；现在使用S3和C1。
 
-C11。 *如果$A$在$\mathscr{T}$中为关系，则“$A \Rightarrow$（不是$A$）”在$\mathscr{T}$中为定理。*
+C11。 *如果$\mathscr{T}$中$A$是关系，则“$A \Rightarrow$（不是$A$）”是$\mathscr{T}$中的定理。*
 
 对于这个关系是“（不是$A$）或（不是$A$）”，结果来自C10。
 
@@ -132,7 +132,7 @@ $$((\text{not } B) \text{ or } C) \Rightarrow ((\text{not } A) \text{ or } C)$$
 
 I。 *辅助假设的方法。*这取决于以下规则：
 
-C14（*演绎* 的标准）。 *设$\mathscr{T}$中$A$为关系，$\mathscr{T}'$为$\mathscr{T}$的$A$与公理邻接所得的理论。如果$B$在$\mathscr{T}'$中是定理，则$A \Rightarrow B$在$\mathscr{T}$中是定理。*
+C14（*演绎* 的标准）。 *设$\mathscr{T}$中的$A$为关系，$\mathscr{T}'$为$\mathscr{T}$的$A$与公理相邻而得的理论。如果$B$在$\mathscr{T}'$中是定理，则$A \Rightarrow B$在$\mathscr{T}$中是定理。*
 
 令$B$出现的$\mathscr{T}'$中的$B_1$、$B_2$、…、$B_n$为证明。我们将逐步证明关系$A \Rightarrow B_k$是$\mathscr{T}$中的定理。假设这对于$B_i$之前的关系成立，让我们证明$A \Rightarrow B_i$在$\mathscr{T}$中是定理。如果$B_i$是$\mathscr{T}'$的公理，那么$B_i$要么是$\mathscr{T}$的公理，要么是$A$。在这两种情况下，$A \Rightarrow B_i$ 是 $\mathscr{T}$ 应用 C9 或 C8 中的定理。如果$B_i$前面有关系、$B_j$和$B_j \Rightarrow B_i$，我们就知道$A \Rightarrow B_j$和$A \Rightarrow (B_j \Rightarrow B_i)$是$\mathscr{T}$中的定理。因此，$(B_j \Rightarrow B_i) \Rightarrow (A \Rightarrow B_i)$ 是 C13 的 $\mathscr{T}$ 中的定理。因此，对于C6来说，$A \Rightarrow (A \Rightarrow B_i)$，即“$(\text{not } A)$或$(A \Rightarrow B_i)$”，在$\mathscr{T}$中是定理，因此对于S3来说，“$(A \Rightarrow B_i)$或$(\text{not } A)$”也是如此。现在，$(\text{not } A) \Rightarrow ((\text{not } A) \text{ or } B_i)$，即$(\text{not } A) \Rightarrow (A \Rightarrow B_i)$，是 S2 的$\mathscr{T}$中的定理。通过应用 S4 我们可以看到
 
@@ -140,11 +140,11 @@ $$((A \Rightarrow B_i) \text{ or } (\text{not } A)) \Rightarrow ((A \Rightarrow 
 
 是$\mathscr{T}$中的定理，因此“$(A \Rightarrow B_i)$或$(A \Rightarrow B_i)$”是$\mathscr{T}$中的定理。到 S1 时，我们结论 $A \Rightarrow B_i$ 是 $\mathscr{T}$ 中的定理。
 
-在实践中，我们将通过诸如“假设 $A$ 为真”之类的短语来表明我们将使用此标准。这句话的意思是，推理暂时会在$\mathscr{T}'$理论中进行，直到关系$B$被证明为止。当实现这一点时，就可以确定$\mathscr{T}$中的$A \Rightarrow B$是定理，并且此后继续在$\mathscr{T}$中进行推理，而一般不会表明人们已经放弃了$\mathscr{T}'$理论。作为新公理引入的关系$A$称为*辅助假设*。 \* 对于例，当我们说“让$x$是实数”时，我们正在构建一个理论，其中关系“$x$是实数”是辅助假设。 \*
+在实践中，我们将通过诸如“假设 $A$ 为真”之类的短语来表明我们将使用此标准。这句话的意思是，推理暂时会在理论$\mathscr{T}'$中执行，直到关系$B$被证明为止。当实现这一点时，就确定了$\mathscr{T}$中的$A \Rightarrow B$是定理，并且此后继续在$\mathscr{T}$中进行推理，而通常不表明已经放弃了理论$\mathscr{T}'$。作为新公理引入的关系$A$称为*辅助假设*。 \* 例如，当我们说“让$x$是实数”时，我们正在构建理论，其中关系“$x$是实数”是辅助假设。 \*
 
 II。 *归谬法的方法。*这是建立在以下规则之上的：
 
-C15。 *设$\mathscr{T}$中的$A$为关系，并令$\mathscr{T}'$为通过将公理*“不是$A$”*与$\mathscr{T}$的公理邻接而获得的理论。如果$\mathscr{T}'$矛盾，那么$A$就是$\mathscr{T}$中的定理。*
+C15。 *令$\mathscr{T}$中的$A$为关系，并令$\mathscr{T}'$为通过将公理*“不是$A$”*与$\mathscr{T}$的公理邻接而获得的理论。如果$\mathscr{T}'$矛盾，那么$A$就是$\mathscr{T}$中的定理。*
 
 对于 $A$ 来说，$\mathscr{T}'$ 中有定理；因而，（辅助假设的方法）“（不是$A$）$\Rightarrow A$”在$\mathscr{T}$中是定理。到了S4，
 
@@ -152,13 +152,13 @@ $$(A \text{ or } (\text{not } A)) \Rightarrow (A \text{ or } A)$$
 
 $\mathscr{T}$ 中有定理；通过C10，“$A$或$A$”是$\mathscr{T}$中的定理。现在使用S1。
 
-在实践中，我们将通过诸如“假设 $A$ 为假”之类的短语来表明我们将使用此标准。这句话的意思是，推理暂时在$\mathscr{T}'$理论中进行，直到形式$B$中的两个定理和“不是$B$”被证明为止。当实现这一点后，就可以确定$\mathscr{T}$中的$A$是定理，这通常用诸如“现在这个（即前面的记号、$B$和“不是$B$”）是荒谬的；因而$A$是真的”这样的短语来表示。然后继续原来的理论$\mathscr{T}$。
+在实践中，我们将通过诸如“假设 $A$ 为假”之类的短语来表明我们将使用此标准。这句话的意思是，推理暂时会在理论$\mathscr{T}'$进行，直到形式$B$中的两个定理和“不是$B$”被证明为止。当实现这一点后，就可以确定$\mathscr{T}$中的$A$是定理，这通常用诸如“现在这个（即前面的记号、$B$和“不是$B$”）是荒谬的；因而$A$是真的”这样的短语来表示。然后继续原来的理论$\mathscr{T}$。
 
-¶ 作为这些方法的首次应用，让我们建立以下判据 ：
+¶ 作为这些方法的首次应用，让我们建立以下判据：
 
 C16。 *如果$A$在$\mathscr{T}$中是关系，则*（不是$A$）$\Rightarrow A$ *在$\mathscr{T}$中是定理。*
 
-假设“not not $A$”为真；那么我们必须证明$A$。假设 $A$ 为假。在这样定义的理论中，“非非$A$”和“非$A$”是定理，这是荒谬的；因而 $A$ 为真。
+假设“not not $A$”为真；那么我们必须证明$A$。假设 $A$ 为假。在理论如此定义中，“非非$A$”和“非$A$”就是定理，这是荒谬的；因而 $A$ 为真。
 
 C17。 *如果$A$和$B$在$\mathscr{T}$中是关系，那么*
 
@@ -170,7 +170,7 @@ $$((\text{not } B) \Rightarrow (\text{not } A)) \Rightarrow (A \Rightarrow B)$$
 
 III。 *方法案例分离。*这取决于以下规则：
 
-C18。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果“$A$或$B$”$A \Rightarrow C$、$B \Rightarrow C$在$\mathscr{T}$中为定理，则$C$在$\mathscr{T}$中为定理。*
+C18。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果“$A$或$B$”$A \Rightarrow C$、$B \Rightarrow C$在$\mathscr{T}$中是定理，则$C$在$\mathscr{T}$中是定理。*
 
 因为，到了S4，“$(A\text{ or }B) \Rightarrow (A\text{ or }C)$”和“$(C\text{ or }A) \Rightarrow (C\text{ or }C)$”在$\mathscr{T}$中是定理。通过S3和S1，可以得出$(A\text{ or }B) \Rightarrow C$在$\mathscr{T}$中是定理；因此结果。
 
@@ -185,15 +185,15 @@ C19。 *令$x$为字母，并令$A$和$B$为$\mathscr{T}$中的关系，这样�
 (1) *字母$x$不是$\mathscr{T}$的常数，并且不会出现在$B$中；*
 (2) *$\mathscr{T}$中有项$T$，使得$(T|x)A$在$\mathscr{T}$中有定理。*
 
-*令$\mathscr{T}'$为将$\mathscr{T}$的$A$与公理邻接而得到的理论。如果$B$在$\mathscr{T}'$中是定理，则$B$在$\mathscr{T}$中是定理。*
+*设$\mathscr{T}'$为$\mathscr{T}$的$A$与公理相邻而得到的理论。如果$B$在$\mathscr{T}'$中是定理，那么$B$在$\mathscr{T}$中是定理。*
 
 事实上，$A \Rightarrow B$ 是$\mathscr{T}$ 中的定理（演绎的标准）。由于$x$不是$\mathscr{T}$的常数，因此根据C3，$(T|x)(A \Rightarrow B)$在$\mathscr{T}$中等于定理。由于$x$没有出现在$B$中，所以通过CS5（§ 1, no. 2），$(T|x)(A \Rightarrow B)$与$((T|x)A) \Rightarrow B$相同。最后，$(T|x)A$在$\mathscr{T}$中是定理，因此$B$也是如此。
 
-直观上，方法在于在序中使用任意对象$x$（*辅助常量*）来证明$B$，该对象应该被赋予某些属性，用$A$表示。 \* 对于例，在几何中的证明中，除其他外，还涉及线$D$，我们可以在这条线上“取”点$x$； 关系$A$则为$x \in D$。 \* 在序中，人们应该能够在证明的过程中使用被赋予某些属性的对象，显然这样的对象应该存在。 定理$(T|x)A$，称为合法性*定理，保证了这种存在。
+直观上，方法在于在序中使用任意对象$x$（*辅助常量*）来证明$B$，该对象应该被赋予某些属性，用$A$表示。 \* 例如，在几何中的证明中，除其他外，还涉及线$D$，我们可以在这条线上“取”点$x$； 关系$A$则为$x \in D$。 \* 在序中，人们应该能够在证明的过程中使用被赋予某些属性的对象，显然这样的对象应该存在。 定理$(T|x)A$，称为合法性*定理，保证了这种存在。
 
 在实践中，我们将通过诸如“让$x$成为一个对象，使得$A$”之类的短语来使用这个方法。与助词假设的方法相比，论证的结论不涉及$x$。
 
-### 4. CONJUNCTION
+### 4. 合取
 
 设$A$，$B$为组合。大会
 
@@ -243,9 +243,9 @@ $$A_1, \quad A_2, \quad \ldots, \quad A_n$$
 
 是关系，我们用“$A_1$和$A_2$，以及...和$A_p$”来表示关系，这是按照“$A_1$和$A_2$以及...和$A_h$”与“$A_1$”表示相同的关系的约定逐步构建的和（$A_2$ 和...和 $A_h$）”。 关系“$A_1$或$A_2$或...或$A_h$”的定义类似。 关系“$A_1$和$A_2$和...和$A_h$”在$\mathscr{T}$中是定理当且仅当关系$A_1$、$A_2$、...、$A_h$中的每一个在定理中$\mathscr{T}$。
 
-由此可见，每个逻辑理论$\mathscr{T}$等价于一个至多有一个显式公理的逻辑理论$\mathscr{T}'$。如果 $\mathscr{T}$ 没有明确的公理，这一点是清楚的。如果 $\mathscr{T}$ 具有显式公理 $A_1$、$A_2$、...、$A_h$，则令 $\mathscr{T}'$ 为与 $\mathscr{T}$ 具有相同符号和概形的理论，以及显式公理“$A_1$ 和 $A_2$ 和 ... ” $A_h$”。立即可见，$\mathscr{T}$（或$\mathscr{T}'$）的每个公理都是$\mathscr{T}'$（或$\mathscr{T}$）的定理。
+由此可见，每个逻辑理论 $\mathscr{T}$ 等价于逻辑理论 $\mathscr{T}'$，其至多有一个显式公理。如果 $\mathscr{T}$ 没有明确的公理，这一点是清楚的。如果 $\mathscr{T}$ 具有显式公理 $A_1$、$A_2$、...、$A_h$，则令 $\mathscr{T}'$ 为理论，其与 $\mathscr{T}$ 具有相同的符号和概形，以及显式公理“$A_1$ 和 $A_2$ 和 ... ” $A_h$”。立即可见，$\mathscr{T}$（或$\mathscr{T}'$）的每个公理都是$\mathscr{T}'$（或$\mathscr{T}$）的定理。
 
-令$\mathscr{T}_0$为无显式公理的理论，其符号与$\mathscr{T}$相同，且S1、S2、S3、S4为其唯一的概形。然后研究原理中的$\mathscr{T}$约化，再到$\mathscr{T}_0$的研究：对于$\mathscr{T}$中的关系$A$为定理，存在公理$A_1$，$A_2$，...是充分必要的， $\mathscr{T}$的$A_h$使得$(A_1$和$A_2$以及...和$A_h) \Rightarrow A$是$\mathscr{T}_0$中的定理。这个条件显然已经足够了。反过来假设$A$是$\mathscr{T}$中的定理，令$A_1$、$A_2$、...、$A_h$为$\mathscr{T}$中证明中出现的$\mathscr{T}$的公理，则包含$A$。令$\mathscr{T}'$（或$\mathscr{T}''$）是从$\mathscr{T}_0$通过邻接公理$A_1$、$A_2$、...、$A_h$（分别是公理“$A_1$和$A_2$和...”构建的理论$A_h$”）。 $\mathscr{T}$中$A$的证明是$\mathscr{T}'$中$A$的证明，因而$A$在$\mathscr{T}'$中是定理，因此在$\mathscr{T}''$中，因为（如上所述） $\mathscr{T}'$ 和 $\mathscr{T}''$ 等效。根据演绎、$(A_1$和$A_2$以及...的标准，$A_h) \Rightarrow A$在$\mathscr{T}_0$中为定理。
+设$\mathscr{T}_0$为理论，没有明确的公理，与$\mathscr{T}$具有相同的符号，并且S1，S2，S3，S4作为其唯一的概形。然后研究$\mathscr{T}$约化，在原理，到研究$\mathscr{T}_0$：对于关系$A$在$\mathscr{T}$中定理，存在公理$A_1$，$A_2$，...，是充分必要的， $\mathscr{T}$的$A_h$使得$(A_1$和$A_2$以及...和$A_h) \Rightarrow A$是$\mathscr{T}_0$中的定理。这个条件显然已经足够了。反过来假设$A$是$\mathscr{T}$中的定理，令$A_1$、$A_2$、...、$A_h$为$\mathscr{T}$中证明出现的$\mathscr{T}$的公理，则包含$A$。令$\mathscr{T}'$（或$\mathscr{T}''$）为理论，由$\mathscr{T}_0$通过邻接公理$A_1$、$A_2$、...、$A_h$（或公理“$A_1$和$A_2$”构造而成，并且...和$A_h$”）。 $\mathscr{T}$中$A$的证明是$\mathscr{T}'$中$A$的证明，因而$A$在$\mathscr{T}'$中是定理，因此在$\mathscr{T}''$中，因为（如上所述） $\mathscr{T}'$ 和 $\mathscr{T}''$ 等效。根据演绎、$(A_1$和$A_2$以及...的标准，$A_h) \Rightarrow A$是$\mathscr{T}_0$中的定理。
 
 如果$\mathscr{T}$是矛盾的，那么从前面所说的可知，在$\mathscr{T}$中存在$\mathscr{T}$和关系$R$的公理合取$A$，使得$A \Rightarrow (R$和（不是$R$））是定理在$\mathscr{T}_0$。因而
 
@@ -271,7 +271,7 @@ CF10。 *如果$A$和$B$在$\mathscr{T}$中是关系，则$A \Leftrightarrow B$�
 
 ¶ 如果$\mathscr{T}$中的$A \Leftrightarrow B$是定理，我们可以说$A$和$B$在$\mathscr{T}$中“等价”；如果$x$是一个不是$\mathscr{T}$常数的字母，并且如果$A$和$B$被视为$x$中的关系，则$\mathscr{T}$中每个满足一个的项也满足另一个。
 
-¶ 由判据 C20, C21 (no. 4)可知，在序中，要证明形式 $A \Leftrightarrow B$的$\mathscr{T}$中的定理，必须且充分能够证明$A \Rightarrow B$和$B \Rightarrow A$ $\mathscr{T}$。这通常是由 $\mathscr{T}$ 与公理 $A$ 推导的理论中的证明 $B$ 完成的，然后是由 $\mathscr{T}$ 与公理 $B$ 推导的理论中的证明 $A$ 完成的。这些注立即引向下面的判据，其中的证明我们留给读者：
+¶ 由判据 C20, C21 (no. 4)可知，在序中，要证明形式 $A \Leftrightarrow B$的$\mathscr{T}$中的定理，必须且充分能够证明$A \Rightarrow B$和$B \Rightarrow A$ $\mathscr{T}$。这通常是通过邻接公理 $A$ 从 $\mathscr{T}$ 推导出来的理论中的证明 $B$ 完成的，然后通过邻接公理从 $\mathscr{T}$ 推导出来的理论中的证明 $A$ 来完成$B$。这些注立即引向下面的判据，其证明我们留给读者：
 
 C22。 *令$\mathscr{T}$中的$A$、$B$、$C$为关系。如果$A \Leftrightarrow B$在$\mathscr{T}$中是定理，则$B \Leftrightarrow A$在$\mathscr{T}$中是定理。如果$A \Leftrightarrow B$和$B \Leftrightarrow C$在$\mathscr{T}$中是定理，则$A \Leftrightarrow C$在$\mathscr{T}$中是定理。*
 

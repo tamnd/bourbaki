@@ -20,23 +20,23 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: 604b24ff6a25a33f967f8b61124cb67803dfd3d1a689bf9049a99fcb1aa6390a
+content_sha256: b21f7e2ff1990b574333b6ee8bee2e743b022021e41f998c85c73f90c1f13c8d
 translated_from: content/en/top/VII/03_s3_infinite_sums_in_the_groups_mathbf_r_n.md
 translation_method: google
 source_content_sha256: 469c822cd0058ba2bb0510721ee43c3d335b871a5db27467e63bfe955b6c2715
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: af8f716f043410e1cb2bec722f7a4246647bca2d8e1c6d1b7164d4516ad4b2e0
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 无限和群 $\mathbf{R}^n$
 
 ### 1. $\mathbf{R}^n$ 中的可求和族
 
-由于$\mathbf{R}^n$的每个点都有邻域的*可数*基本系统，因此仅当指标$t$的集合时，加法群$\mathbf{R}^n$的点的族$(x_t)$才可求和这样$X_t \neq 0$是*可数的*（章III, § 5, no. 2，命题1的推论）；因此，本质上，$\mathbf{R}^n$中可求和族的研究被简化为可求和序列的研究。然而，出于与章IV中给出的相同原因，关于$\mathbf{R}$中的可求和族，我们不应在下文中对指标集合的基数强加任何限制
+由于$\mathbf{R}^n$的每个点都有邻域的*可数*基本系统，因此仅当指标$t$的集合时，加法群$\mathbf{R}^n$的点的族$(x_t)$才可求和这样$X_t \neq 0$是*可数的*（章III, § 5, no. 2，推论到命题1）；因此，本质上，$\mathbf{R}^n$中可求和族的研究被简化为序列中可求和族的研究。然而，出于与章IV中给出的相同原因，对于$\mathbf{R}$中的可求和族，我们不应在下文中对指标集合的基数强加任何限制
 
 #### 命题 1 {#top-vii-s3-prop-1 .statement tag=0BZK}
 
@@ -98,7 +98,7 @@ $$
 
 它来自于有限部分和的类似不等式的经过到极限。
 
-#### 推论{#top-vii-s3-n1-cor-1 .statement tag=0BZN}
+#### 推论 {#top-vii-s3-n1-cor-1 .statement tag=0BZN}
 
 *族* $(x_i)$ *的点的* $\mathbf{R}^n$ *可求和当且仅当族的有限部分和的集合有界于* $\mathbf{R}^n$。
 
@@ -106,7 +106,7 @@ $$
 
 #### 命题 3 {#top-vii-s3-prop-3 .statement tag=0BZO}
 
-*Let* $(x_\lambda)_{\lambda \in L}$ *be a summable family of points of* $\mathbf{R}^m$, $(y_\mu)_{\mu \in M}$ *a summable family of points of* $\mathbf{R}^n$, *and let* $f$ *be a bilinear mapping of* $\mathbf{R}^m \times \mathbf{R}^n$ *into* $\mathbf{R}^p$. *然后家庭* $(f(x_\lambda, y_\mu))_{(\lambda, \mu) \in L \times M}$ *可求和，我们有*
+*设*$(x_\lambda)_{\lambda \in L}$*为*$\mathbf{R}^m$、$(y_\mu)_{\mu \in M}$*可求和的点族*$\mathbf{R}^n$、*并令*$f$*为*$\mathbf{R}^m \times \mathbf{R}^n$*到*$\mathbf{R}^p$的双线性映射。 *然后家庭* $(f(x_\lambda, y_\mu))_{(\lambda, \mu) \in L \times M}$ *可求和，我们有*
 
 $$
 \sum_{(\lambda, \mu) \in L \times M} f(x_\lambda, y_\mu) = f \left( \sum_{\lambda \in \mu} x_\lambda, \sum_{\mu \in M} y_\mu \right).

@@ -23,19 +23,19 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 0ba269d90a91d67171d782dc026ea59bcf6612c67c95378de155f7bf78318aa6
+content_sha256: 58a7e5cc106dc23f8933e9723dd1e6630edf6c1e586c9263814ae61a824f2d6d
 translated_from: content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md
 translation_method: google
 source_content_sha256: b21c8fa64810e183438c648b465f555368181eb6b34b8b9afdc829259a3d239d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 746a03d70aef6f87a26cd9c519fe35acfd2719cfcd6352613465818eea9242da
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 附录 4 自同态有限秩的痕迹
+## 附录 4 痕迹自同态有限秩
 
 ### 1. 线性映射 / 有限秩
 
@@ -49,7 +49,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 假设 A-模 F 是射影的。 群同态 $\theta$ 是单射，它的像是 Hom$^f_A(E,F)$。
 
-按地点。引言，推论，同态$\theta$是单射的。它的像包含在Hom$^f_A(E,F)$中。让$u\in$坎$^f_A(E,F)$；让我们证明$\theta$的$u$属于到像。
+按地点。如上所述，推论、同态 $\theta$ 是单射的。它的像包含在Hom$^f_A(E,F)$中。让$u\in$坎$^f_A(E,F)$；让我们证明$\theta$的$u$属于到像。
 
 首先，假设 A-模 F 是免费的。令$(f_i)_{i\in I}$为F的基，并令$(f_i^*)_{i\in I}$为$F^*$对$(f_i)_{i\in I}$的基。令J为I的有限子集，使得$u$的像包含在由$j\in J$的$f_j$生成的F的子模中。我们有
 
@@ -101,27 +101,27 @@ $v\circ u=\theta_E(x^*\otimes v(y))$ 和 $u\circ v=\theta_F(^tv(x^*)\otimes y)$,
 
 Tr($v\circ u$)$=\langle v(y), x^*\rangle =\langle y,^tv(x^*)\rangle =$Tr($u\circ v$)。
 
-#### 推出{#alg-viii-a4-n2-cor-1 .statement tag=00QR}
+#### 推出 {#alg-viii-a4-n2-cor-1 .statement tag=00QR}
 
-Let E be a projective A-module, $u$ be an element of End$^f_A(E)$, and F be a projective A-submodule of E containing Im $u$. 用$u$诱导的F的$u_F$自同态表示。 我们有
+设 E 为射影 A 模，$u$ 为 End$^f_A(E)$ 的元素，F 为包含 Im $u$ 的 E 射影 A 子模。 用$u$诱导的F的$u_F$自同态表示。 我们有
 
 (4) Tr($u$)$=$Tr($u_F$)。
 
-用F到E中的$i$典范嵌入表示，并用从$u$推导出来的$v: E\rightarrow F$同态表示。我们有$u_F=v\circ i$和$u=i\circ v$。推论如下。
+用F到E中的$i$典范嵌入表示，并用从$u$推导出来的$v: E\rightarrow F$同态表示。我们有$u_F=v\circ i$和$u=i\circ v$。接下来是推论。
 
-令 E 为射影 A-模和 $u\in$ End$^f_A(E)$。对于每个自然数$p$，A-模$\wedge^pE$都是投影（III, §7, No. 8，p. 519，推论2），并且自同态$\wedge^pu$属于到End$^f_A(\wedge^pE)$（III, §7, No. 3， p. 511、命题 6)，$p$ 足够大为零。 集合$1_E+$End$^f_A(E)$稳定在合成以下。我们定义映射从$1_E+$结束$^f_A(E)$出发设定到达A
+令 E 为射影 A-模和 $u\in$ End$^f_A(E)$。对于每个自然数 $p$，A-模 $\wedge^pE$ 都是投影（III, §7, No. 8、p. 519、推论 2），并且自同态 $\wedge^pu$ 属于到 End$^f_A(\wedge^pE)$ （III, §7, No. 3、p. 511、命题 6），$p$ 足够大为零。 集合$1_E+$End$^f_A(E)$稳定在合成以下。我们定义映射从$1_E+$End$^f_A(E)$出发设定到达A
 
 检测（1$_E+u$）$=\sum_{p\geqslant 0}$Tr$\wedge^pu$
 
 $u\in$结束$^f_A(E)$。
 
-如果 E 是自由且有限维的，则根据 III, §8, No. 5、p. 530 的推论，该定义与 III, §8, No. 1、p. 522 一致。
+如果 E 是自由且有限维的，则此定义与 III, §8, No. 1、p. 522 一致，一致于 III, §8, No. 5、p. 530 的推论。
 
 #### 命题 3 {#alg-viii-a4-prop-3 .statement tag=00QS}
 
 令 E 为射影 A-模。
 
-a) 让$u\in$结束$^f_A(E)$。令 F 为 E 包含于 Im $u$ 的投影 A-子模，并令 $u_F$ 为由 $u$ 导出的 F 的自同态。我们有
+a) 让$u\in$结束$^f_A(E)$。设 F 为 E 包含于 Im $u$ 的投影 A-子模，并令 $u_F$ 为由 $u$ 导出的 F 的自同态。我们有
 
 （5）det（1$_E+u$）$=$det（1$_F+u_F$）。
 
@@ -129,7 +129,7 @@ b) 令$u$和$v$为End$^f_A(E)$的两个元素。我们有
 
 (6) 检测$(1_E+u)\circ (1_E+v)$ = 检测(1$_E+u$) 检测(1$_E+v$)。
 
-让我们证明a）。对于每个整数$p\geqslant 0$，射影A-模$\wedge^pF$可以用$\wedge^pE$的子模来识别（III, §7, No. 9，p. 520，推论）。 $\wedge^pu$的像包含在$\wedge^pF$中，由$\wedge^pu$诱发的$\wedge^pF$的自同态等于$\wedge^pu_F$。因而，根据命题 2 的推论，我们有 Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$)，因而 a)。
+让我们证明a）。对于每个整数$p\geqslant 0$，射影A-模$\wedge^pF$可以用$\wedge^pE$的子模来识别（III, §7, No. 9，p. 520，推论）。 $\wedge^pu$的像包含在$\wedge^pF$中，由$\wedge^pu$诱发的$\wedge^pF$的自同态等于$\wedge^pu_F$。因而，我们有 Tr($\wedge^pu$) $=$ Tr($\wedge^pu_F$) × 推论命题 2，因而 a)。
 
 让我们证明b)。令 G 为 A-模，使得 A-模 $L = E\oplus G$ 是自由的。用L的$u'$和$v'$、自同态、$u\oplus 0_G$和$v\oplus 0_G$表示。通过 a)，我们有关系 det(1$_L+u'$) $=$ det(1$_E+u$)，det(1$_L+v'$) $=$ det(1$_E+v$)，并且
 

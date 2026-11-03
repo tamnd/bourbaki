@@ -25,49 +25,49 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 2972a2da66626ba3e20037ed99b90d2f21ed2537ef09e3e22ee4609e6b4ce0d6
+content_sha256: 1e5b0a7969801954e15ce8c935b96df3b979ea1e91c791055b183572d15875f3
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 88835ad1fbae7ef0a5c13987bac0f6fc980b84197bf24b3bc093b8842e1a4906
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8f17d60a27dfb141222d007e65e84f1abab15e365146c79ce9d87afbd662639e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 7。 HAUSDOFF 的收敛性级数（真实或复杂的情况）
+## § 7。 hausdorff 级数的收敛性（真实或复杂的情况）
 
 在本段中，我们假设 $K$ 是域 $\mathbf{R}$ 或 $\mathbf{C}$ 之一，其通常的绝对值值。回想一下，$K$ 上的可规范代数是 $K$ 上的（不一定是关联的）代数和拓扑 $\mathscr{T}$，具有以下属性：
 (1) $\mathscr{T}$可由范数定义：
 (2) $A \times A$到$A$的映射$(x, y) \mapsto xy$是连续的。
-代数超过$K$是代数$A$超过$K$和范数，使得$\|xy\| \leq \|x\|\ \|y\|$对于$A$中的所有$x, y$。
-我们用$g$表示$K$上的完全可范化李代数。我们对 $g$ 和数 $M > 0$ 选择范数这样
+$K$ 上的标准化代数是 $K$ 上的代数 $A$ 以及范数，这样对于 $A$ 中的所有 $x, y$ 来说，$\|xy\| \leq \|x\|\ \|y\|$。
+我们用 $g$ 表示 $K$ 上的完全可范化李代数。我们对 $g$ 和数 $M > 0$ 选择范数这样
 $$
 \|[x, y]\| \leq M \|x\|\ \|y\| \quad \text{for } x, y \text{ in } g.
 $$
 
-### 1. $g$ 中值的连续多项式
+### 1. $g$ 中的值连续多项式
 
-设 $I$ 为有限集合，并令 $P(g^I; g)$（分别为 $\hat{P}(g^I; g)$）为向量空间的*连续多项式*（分别为*形式幂级数，具有连续分量*）在 $g^I$ 和值上在$g$。回忆一下（*可微分和解析流形*，R，附录），$P(g^I; g)$的毕业为型$\mathbf{N}^I$，并且$\hat{P}(g^I; g)$是通过过滤定义的向量空间$P(g^I; g)$和拓扑的完成来识别的与$P(g^I; g)$的毕业有关。此外，$P(g^I; g)$是分级的李代数，其括号由$[f, g](x) = [f(x), g(x)]$定义，对于f, g in P(g^I; g), x \in g^I;这个李代数结构可以通过连续性扩展到$\hat{P}(g^I; g)$，并使其成为完整的Hausdorff过滤李代数。
+令 $I$ 为有限集合，并令 $P(g^I; g)$（分别为 $\hat{P}(g^I; g)$）为 $g^I$ 上*连续多项式*（分别为*形式幂级数和连续分量*）的向量空间，其中$g$ 中的值。回想一下（*可微分和解析流形*，R，附录），$P(g^I; g)$的毕业为型$\mathbf{N}^I$，$\hat{P}(g^I; g)$通过完成向量空间$P(g^I; g)$来识别，拓扑由与毕业相关的过滤定义。 $P(g^I; g)$。此外，$P(g^I; g)$是分级的李代数，其括号由$[f, g](x) = [f(x), g(x)]$定义，对于f, g in P(g^I; g), x \in g^I;这个李代数结构可以通过连续性扩展到$\hat{P}(g^I; g)$，并使其成为完整的Hausdorff过滤李代数。
 
-到§ 6, no. 3的命题 2，$\hat{L}(I)$的李代数同态$\phi_I : u \mapsto \tilde{u}$到$\hat{P}(g^I; g)$映射指标i到$\mathrm{pr}_i$的不定从 $\mathrm{pr}_i \in P(g^I; g)$ 开始，所有$i \in I$。由此可知 $\tilde{u} \in P(g^I; g)$ 对应 $u \in L(I)$；更准确地说，当$u \in L(I)$时，$\tilde{u}$只是§ 2, no. 4的多项式映射$(t_i) \mapsto u((t_i))$。另一方面，显然 $\phi_I$ 与 $L(I)$ 和 $P(g^I; g)$ 的多级数兼容。如果$u = \sum_{v \in \mathbf{N}^I} u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，那么
+到 § 6, no. 3 的命题 2 时，$\hat{L}(I)$ 的李代数同态 $\phi_I : u \mapsto \tilde{u}$ 到 $\hat{P}(g^I; g)$ 映射对于所有指标 i 到 $\mathrm{pr}_i$ 的不定$i \in I$，从$\mathrm{pr}_i \in P(g^I; g)$开始。由此可知 $\tilde{u} \in P(g^I; g)$ 对应 $u \in L(I)$；更准确地说，当$u \in L(I)$时，$\tilde{u}$只是§ 2, no. 4的多项式映射$(t_i) \mapsto u((t_i))$。另一方面，显然$\phi_I$与$L(I)$和$P(g^I; g)$的多级数兼容。如果$u = \sum_{v \in \mathbf{N}^I} u_v$，其中$u_v \in L^v(I)$代表$v \in \mathbf{N}^I$，那么
 
 $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v, \quad \text{where } \tilde{u}_v \in P_v(g^I; g).
 $$
 
-令$u = (u_j)_{j \in J}$是$\hat{L}(I)$的元素的有限族，令$v \in \hat{L}(J)$并令$w = v \circ u$(§ 6, no. 3)。我们写$\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$。然后
+令 $u = (u_j)_{j \in J}$ 为 $\hat{L}(I)$ 的元素的有限族，令 $v \in \hat{L}(J)$ 并令 $w = v \circ u$ (§ 6, no. 3)。我们写$\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$。然后
 
 (2)
 $$
 \tilde{v} \circ \tilde{u} = (v \circ u)^{\sim}.
 $$
 
-接下来是通过 § 6, no. 3 的连续性公式 (7) 以及可微分和解析流形、R、附录、no. 6 进行扩展。
+接下来通过 § 6, no. 3 的连续性公式 (7) 以及可微分和解析流形、R、附录、no. 6 进行扩展。
 
-### 2. 群由完整规范定义的细菌李代数
+### 2. 群由完整规范李代数定义的胚芽
 
 令 $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ 为 Hausdorff 级数 (§ 6, no. 4, 定义 1)。我们将证明相应的正式幂级数
 
@@ -168,7 +168,7 @@ $$
 \text{(13)} \quad h(x, y) = \sum_{r,s \geq 0} \tilde{H}_{r,s}(x, y) = \sum_{r,s \geq 0} H_{r,s}(x, y) \quad \text{for } (x, y) \in \Omega.
 $$
 
-这个函数被称为 $g$ 相对于 $M$ 的 *Hausdorff 函数*（或者在不会引起混淆的情况下简称为 $g$ 的 Hausdorff 函数）。 注 $H_{r,s}(U, -U) = 0$ 如果 $r + s \geq 2$ 因此
+这个函数被称为 $g$ 相对于 $M$ 的 *Hausdorff 函数*（或者在不会引起混淆的情况下简称为 $g$ 的 Hausdorff 函数）。请注意 $H_{r,s}(U, -U) = 0$ 如果 $r + s \geq 2$ 因此
 
 $$
 \text{(14)} \quad h(x, -x) = 0 \quad \text{for } \|x\| < \frac{1}{2M} \log 2.
@@ -264,7 +264,7 @@ $$
 
 在这个没有。我们用 A 表示一个完全规范的单位结合词代数（一般拓扑、章 IX, § 3, no. 7）。然后\|x.y\| ≤ \|x\|。 \|y\|对于 A 中的 x、y。
 
-令 I 为有限集合，并令 $\hat{P}(A^I; A)$ 为形式幂级数的向量空间，其中连续分量在 $A^I$ 上，值在 A 中（可微分和解析流形，R， 附录, no. 5) 和代数结构通过写得到
+令I为有限集合，并令$\hat{P}(A^I; A)$为形式幂级数的向量空间，在$A^I$上连续分量，在A中值（可微分和解析流形， R, 附录, no. 5) 与代数结构写出
 
 $$
 f.g = m \circ (f, g) \quad \text{for } f, g \text{ in } \hat{P}(A^I; A),

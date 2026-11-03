@@ -30,16 +30,16 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: b98921fcb38b90d3423e9fba1c136cabd3758d2695b55f28597bb4dd3db30232
+content_sha256: f605d160c2f06b419447d6b75a1f8ecc61e7d1743499b623a922f46dcc266e6e
 translated_from: content/en/alg/VIII/07_s7_simple_rings.md
 translation_method: google
 source_content_sha256: 0477da2a1cd441904c225c6cad3222346fc38778e44066ddeda16e447e7b81dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 710bf4122cf5e04bbef12d8ed4009d56d5b50f48c7c3b04cc036d68a83602fa4
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。简单环
@@ -64,7 +64,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 让我们证明 (iii) 蕴涵 (i)。假设满足(iii)。则存在整数 $m\geqslant 1$，使得 $A_s$ 同构于 $S^m$ 的子模 (VIII, p. 50, 命题 5, a))。由于$S^m$是型S的同型A-模，因而$A_s$同样成立（VIII，p. 61，命题2）；因而，(iii) 意味着(i)。
 
-假设满足条件(i)至(iii)。我们在上面看到A-模$A_s$有有限长度并且是型S的同构。每个简单的左A-模同构于$A_s$的商，因此也同构于S。
+假设满足条件(i)至(iii)。我们在上面已经看到，A-模$A_s$有有限长度并且是型S的同构。每个简单的左A-模都同构于$A_s$的商，因此也同构于S。
 
 #### 定义 1 {#alg-viii-s7-def-1 .statement tag=0082}
 
@@ -98,9 +98,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 引理 2 {#alg-viii-s7-lem-2 .statement tag=00R7}
 
-令 D 为有限维 $r\geqslant 1$ 的域和 V 右向量空间在 D 上。则 V 为环上的单模 E = End$_D(V)$，其交换子等于 $D_V$。 环 E is simple, and its left 长度 is equal to $r$.
+令 D 为有限维 $r\geqslant 1$ 的域和 V 右向量空间在 D 上。则 V 为单模在环 E = End$_D(V)$ 上，且其交换子等于 $D_V$。 环 E 很简单，它的左长度等于$r$。
 
-我们知道V是一个简单的E模（VIII，p. 45，例3）并且它的交换子等于$D_V$（VIII，p. 82，推论1）。 Let $(x_i)_{1\leqslant i\leqslant r}$ be 基 of V over 域 D. 映射 $u\mapsto (u(x_i))_{1\leqslant i\leqslant r}$ is 同构的 from the E-module $E_s$ to the E-module $V^r$; consequently, the E-module $E_s$ is isotypical of 长度 $r$, so 环 E is simple.
+我们知道V是一个简单的E模（VIII，p. 45，例3），并且它的交换子等于$D_V$（VIII，p. 82，推论1）。令$(x_i)_{1\leqslant i\leqslant r}$为域D上V的基。映射$u\mapsto (u(x_i))_{1\leqslant i\leqslant r}$为从E模块$E_s$到E模块$V^r$的同构；因而，E 模$E_s$ 是长度 $r$ 的同型，所以环 E 是简单的。
 
 现在让我们证明定理1。 回忆一下（II, §10, No. 7，p. 349），环$\mathbf{M}_r(D)$可以与右D-向量空间$D^r_d$的自同态环识别；此外，域 D 上的有限维 $r$ 的每个右向量空间都同构于 $D^r_d$ (II, §7, No. 1, p. 292)。 因而，定理 1 由引理 1 和 2 得出。
 
@@ -118,7 +118,7 @@ c) 简单环的左长度等于它的右长度。
 
 设 D 为域，Z 为中心，且在有限维 $r\geqslant 1$ 的 D 上V 右向量空间。我们用 E 表示 V 的自同态环。
 
-根据VIII、p. 83的推论2，映射$z\mapsto z_V$是从Z到E的中心的同构。 断言 a)如下。 V的对偶$V^*$是右向量空间与D的相反域$D^o$，并且它的维数等于$r$。从E的逆环$E^o$到环结束$_{D^o}(V^*)$，映射$u\mapsto^tu$是同构。因而，环$E^o$很简单，环E和$E^o$具有相同的左长度，等于$r$（引理2）。
+映射$z\mapsto z_V$是从Z到E的中心乘VIII、p. 83的推论2的同构。 断言a)如下。 V的对偶$V^*$是右向量空间与D的相反的域$D^o$，并且它的维数等于$r$。 映射$u\mapsto^tu$是从E的逆环$E^o$到环结束$_{D^o}(V^*)$的同构。 因而，环$E^o$很简单，环E和$E^o$具有相同的左长度，等于$r$（引理2）。
 
 #### 推论 2 {#alg-viii-s7-lem-2-cor-2 .statement tag=0088}
 
@@ -132,17 +132,17 @@ c) 简单环的左长度等于它的右长度。
 
 令 K 为交换域，并令 A 为有限次数的 K-代数，且底层为环。在 K 上存在整数 $r$ 和有限次数的 K-代数 D，即域，使得 A 与 $M_r(D)$ 同构。特别是，如果 K 是代数闭集，则 A 在 K 上同构于矩阵代数。
 
-令 S 为简单的左A-模；它是 K 上的有限维 K-向量空间。因而，它的交换子是 K 上的有限次数的代数。第一个断言由引理 1 得出。如果 K 是代数封闭的，则 D = K by VIII, p. 47 的定理 1。
+令 S 为简单的左A-模；它是 K 上的有限维 K-向量空间。因而，它的交换子是 K 上有限次数的代数。第一个断言由引理 1 得出。如果 K 是代数封闭的，则 D = K by VIII、p. 47 的定理 1。
 
 #### 注 4 {#alg-viii-s7-n1-rem-4 .statement tag=008A}
 
 设 K 为代数闭交换域，并设 A 为 K 上有限次数的代数。 代数当且仅当存在整数 $n\geqslant 1$ 且 A 与 $M_n(K)$ 同构时，A 才是简单的。那么它的中心与 K 同构。
 
-### 2. Modules over a Simple Ring
+### 2. 单环上的模
 
 #### 引理 3 {#alg-viii-s7-lem-3 .statement tag=008B}
 
-令 A 为简单的环，令 S 为单A-模。用 D 表示 S 的交换子的相反域。每个A-模都同构于形式 $S\otimes_DV$ 的A-模，其中V 是域 D 上的左向量空间。
+令 A 为简单的环，令 S 为单A-模。用 D 表示 S 的交换子的对数域。每个 A-模都同构于形式 $S\otimes_DV$ 的 A-模，其中 V 是域 D 上的左向量空间。
 
 这是从VIII、p. 120和森田的定理（VIII、p. 103）中的引理 1 得出的。
 
@@ -156,13 +156,13 @@ b) 每个非零的A-模都是生成的。
 
 c) 两个A-模同构当且仅当它们具有相同的长度。
 
-用 D 表示 S 的交换子的相反域。由 VIII、p. 120 的引理 1，S 是可逆的$(A$，D)-双模。设M为A-模；通过引理 3，它与形式$S\otimes_DV$的模同构，其中V是左向量空间超过域D。
+用 D 表示 S 的交换子的对数域。由 VIII、p. 120 的引理 1，S 是可逆的 $(A$，D)-双模。设M为A-模；通过引理 3，它与形式$S\otimes_DV$的模同构，其中V是左向量空间超过域D。
 
 D-模 V 是射影且与型 $D_s$ 同型分支的；当且仅当不减为0时才是生成的。最后，$S\otimes_DV$的长度等于D-向量空间V的维数，并且两个向量空间同构当且仅当它们具有相同的维数。鉴于VIII、p. 109中的命题10和VIII、p. 110中的12，命题2现在紧随其后。
 
-设$r\geqslant 1$为整数。如果存在基数$\mathfrak{b}$使得$\mathfrak{a}=r\mathfrak{b}$，我们说基数$\mathfrak{a}$可被$r$整除。如果 $\mathfrak{a}$ 是无限的，就会出现这种情况，因为我们有 $r\mathfrak{a}=\mathfrak{a}($集合理论，III, §6, No. 3，p. 188，推论 3）。由此注可知，如果基数$\mathfrak{a}$能被$r$整除，则存在唯一的基数$\mathfrak{b}$使得$\mathfrak{a}=r\mathfrak{b}$。
+设$r\geqslant 1$为整数。如果存在基数$\mathfrak{b}$使得$\mathfrak{a}=r\mathfrak{b}$，我们说基数$\mathfrak{a}$可以被$r$整除。如果 $\mathfrak{a}$ 是无限的，就会出现这种情况，因为我们有 $r\mathfrak{a}=\mathfrak{a}($集合理论、III, §6, No. 3、p. 188、推论 3)。由此可知，如果基数 $\mathfrak{a}$ 能被 $r$整除，则存在唯一的基数 $\mathfrak{b}$，使得$\mathfrak{a}=r\mathfrak{b}$。
 
-#### 推论{#alg-viii-s7-n2-cor-1 .statement tag=008D}
+#### 推论 {#alg-viii-s7-n2-cor-1 .statement tag=008D}
 
 令$k$为交换域，并令A为有限次数在$k$上的简单$k$代数。每个单A-模都是 $k$ 上的有限维。两个A-模同构当且仅当它们的维数大于$k$相等。
 
@@ -170,13 +170,13 @@ D-模 V 是射影且与型 $D_s$ 同型分支的；当且仅当不减为0时才�
 
 #### 命题 3 {#alg-viii-s7-prop-3 .statement tag=008E}
 
-设 A 是一个简单的环。 A-模 M 是自由的当且仅当其长度能被 A 的长度整除。如果是这样，则 M 的所有基具有相同的基数，用 dim$_A(M)$ (II, §7, No. 3, p. 294, 注 2) 表示，并由关系确定
+设 A 是一个简单的环。 A-模 M 是自由的当且仅当其长度能被 A 的长度整除。如果是这种情况，则 M 的所有基具有相同的基数，用 dim$_A(M)$ (II, §7, No. 3, p. 294, 注 2) 表示，并由下式确定关系
 
 （1）长$_A(M) =$长（A）$\cdot$暗$_A(M)$。
 
 假设M是自由的，令$(e_i)_{i\in I}$为M的基。A-模M为A-模$Ae_i$的直和，它们均与$A_s$同构。 集合$r=$长$_A(A_s)$； 整数大于或等于 1（VIII、p. 119、命题 1）。我们有VIII、p. 73的公式(13)长$_A(M) =r$卡(I)。
 
-相反，假设基数 long$_A(M)$ 可以被$r$整除。设 $\mathfrak{a}$ 为长$_A(M) =r\mathfrak{a}$ 的基数。则A-模 M 与$A^{(\mathfrak{a})}_s$ 具有相同的长度，因此与命题 2 同构。这证明M 是自由的。
+相反，假设基数long$_A(M)$能被$r$整除。令$\mathfrak{a}$为基数，使得长$_A(M) =r\mathfrak{a}$。则A-模 M 与$A^{(\mathfrak{a})}_s$ 具有相同的长度，因此与命题 2 同构。这证明M 是自由的。
 
 #### 命题 4 {#alg-viii-s7-prop-4 .statement tag=008F}
 
@@ -200,7 +200,7 @@ A-模 M 是 VIII、p. 122 中的生成的乘以命题 2。到定义，我们有$
 
 这给出了最后一个关系。
 
-### 3. Degrees
+### 3. 次数
 
 考虑 B 的环 B 和子环 A。 赋予 B 一个 $(A$，A)-双模的结构，该限制标量从 $_sB_d$ 上的 $(B$，B)-双模结构推导出来。
 
@@ -246,9 +246,9 @@ $$
 
 设 K 为交换域。如果A在K上是有限次数的代数B的单子代数，则B在A上的左次数满足关系$[B : A]_s[A : K] = [B : K]$乘以VIII、p. 125的命题6。同样，我们有$[B : A]_d[A : K] = [B : K]$。接下来是等式$[B : A]_s= [B : A]_d$。
 
-### 4. Ideals of Simple Rings
+### 4. 单环的理想
 
-令 D 为域且 V 右向量空间超过 D 的有限维 $n\geqslant 1$。 考虑简单的环 A = End$_D(V)$。 For any linear subspace W of V, we denote the set of elements $a$ of A satisfying $aW = 0$ (resp. $aV\subset W$) by $\mathfrak{a}(W)$ (resp. $\mathfrak{b}(W)$).
+令 D 为域且 V 右向量空间超过 D 的有限维 $n\geqslant 1$。 考虑简单的环 A = End$_D(V)$。 对于V的任何线性子空间W，我们用$\mathfrak{a}(W)$（或$\mathfrak{b}(W)$）表示A的满足$aW = 0$（或$aV\subset W$）的元素集$a$。
 
 #### 命题 7 {#alg-viii-s7-prop-7 .statement tag=008L}
 
@@ -262,7 +262,7 @@ c) 令$W_1$和$W_2$是子空间与V的线性关系。 关系 $W_1\subset W_2$、
 
 令 $V^*$ 为 V 的对偶，视为右向量空间相对于 D 的域 $D^o$。对于V 的任何子空间 W，用 $W'$ 表示 W 在 $V^*$ 中的正交。从V子空间集合到$V^*$子空间集合映射$W\mapsto W'$为双射。如果$W_1$和$W_2$是V的两个子空间，则关系$W_1\subset W_2$和$W'_1\supset W'_2$是等价的。现在，从A到End$_{D^o}(V^*)$的逆环，映射$u\mapsto^tu$是同构；它将A的变换左理想转化为End$_{D^o}(V^*)$和$\mathfrak{a}(W)$的右理想，转化为$V^*$的自同态$h$的集合$\mathfrak{b}(W')$，使得$h(V^*)\subset W'$。 断言 a)，以及关系 $W_1\subset W_2$ 和 $\mathfrak{a}(W_1)\supset \mathfrak{a}(W_2)$ 的等价，则从断言开始，类似于 b)，对于 V 的对偶 $V^*$。
 
-#### 推论{#alg-viii-s7-n4-cor-1 .statement tag=008M}
+#### 推论 {#alg-viii-s7-n4-cor-1 .statement tag=008M}
 
 a) A 的最小左理想是理想 $\mathfrak{a}(H)$，其中 H 是 V 中的超平面。 A 的最大左理想是理想 $\mathfrak{a}(L)$，其中 L 是V 中的一条线。
 
@@ -276,7 +276,7 @@ $$
 
 A-模$A_s$是最小左理想族$(\mathfrak{a}(H_i))_{i\in I}$的直和，$A_d$是最小右理想族$(\mathfrak{b}(L_i))_{i\in I}$的直和。
 
-考虑具体情况 $V = D^n_d$ 和认同 A 与矩阵环 $\mathbf{M}_n(D)$。用I表示$\mathbf{N}$中的区间$[1, n]$，用$(v_i)_{i\in I}$表示V的典范基； 集合$L_i=v_iD$，并用$E_{ij}$矩阵单位（II, §10, No. 3，p. 341）表示。然后我们就有$\varepsilon_i= E_{ii}$。左理想AE$_{ii}$等于DE$_{1i}+\cdots +$DE$_{ni}$，并由矩阵和所有列组成，除了第$i$等于零。右理想$E_{ii}A$等于DE$_{i1}+\cdots +$DE$_{in}$，并由矩阵组成，除了第$i$之外的所有行都等于零。我们还有关系
+考虑具体情况 $V = D^n_d$ 和认同 A 与矩阵环 $\mathbf{M}_n(D)$。用I表示$\mathbf{N}$中的区间$[1, n]$，用$(v_i)_{i\in I}$表示V的典范基； 集合$L_i=v_iD$，并用$E_{ij}$矩阵单位（II, §10, No. 3，p. 341）表示。然后我们就有$\varepsilon_i= E_{ii}$。左理想AE$_{ii}$等于DE$_{1i}+\cdots +$DE$_{ni}$，并由矩阵和所有列组成，除了第$i$等于零。正确的理想$E_{ii}A$等于DE$_{i1}+\cdots +$DE$_{in}$，并由矩阵组成，除了第$i$之外的所有行都等于零。我们还有关系
 
 $$
 E_{ii}A E_{jj}= E_{ii}A\cap A E_{jj}= D E_{ij}

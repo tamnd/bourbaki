@@ -20,23 +20,23 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: 896b2921b8648debbf0fc7417be0b4d64949270c70ebd02e0e19463bcd164ad5
+content_sha256: 4cdc1d09433c7630debb9a106b7bd995fbbbc706eae801bae5408903ebf60f77
 translated_from: content/en/lie/V/06_s6_the_coxeter_transformation.md
 translation_method: google
 source_content_sha256: 19ad160f8bb3a5e67893a9745099b7c2d4ac7603fdf337e2de8f9063ffcb53bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 10c18f99f95a89cdcd7b2bcabaf2cd25f2e0703b85a35990b67a1a3f25705238
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 6。考克塞特转型
+## § 6。考克塞特变换
 
 在本段中，V表示有限维l的实向量空间，W表示$\mathbf{GL}(V)$的有限子群，由反射和本质（§ 3, no. 7）生成。为V提供一个在W下不变的标量乘积$(x|y)$。用V的超平面H的$\mathfrak{H}$集合表示，使得相应的正交反射$s_H$属于到W。
 
-### 1. 定义考克塞特变换
+### 1. 定义 coxeter 变换
 
 相对于 W 的有序室是由 $\mathfrak{H}$ 和双射 $i \mapsto H_i$ 确定的室 C 的对由……组成从 $\{1, 2, \ldots, l\}$ 到 C 墙壁的集合 (cf. § 3, no. 9，提案 7）。
 
@@ -74,7 +74,7 @@ $$
 
 设$W_1, \ldots, W_m$是必不可少的有限群，作用于空间$V_1, \ldots, V_m$并由反射生成。令 $C_j$ 为相对于 $W_j$ 的室。令$W$为群$W_1 \times \cdots \times W_m$作用于空间$V_1 \times \cdots \times V_m$。那么$C_1 \times \cdots \times C_m$是相对于$W$的一个室。由 $C$ 定义的 $W$ 的 Coxeter 变换为乘积 $c_1 c_2 \ldots c_m$，其中 $c_j$ 是由 $C_j$ 定义的 $W_j$ 的 Coxeter 变换。
 
-### 2. 考克斯特变换的特征值
+### 2. coxeter 变换的特征值
 
 由于所有 Coxeter 变换都是共轭（no. 1，命题 1），因此它们都具有相同的特征多项式 $P(T)$。令 $h$ 为 $W$ 的 Coxeter 数。然后
 
@@ -92,7 +92,7 @@ $$
 
 *整数* $m_1, m_2, \ldots, m_l$ *称为* W 的指数。
 
-令C为由$\mathfrak{H}, H_1, \ldots, H_l$其墙壁确定的房间，并放置$s_i = s_{H_i}$。 用与$H_i$正交且与C位于$H_i$同一侧的$e_i$单位向量表示。 By Prop. 2 of the Appendix of Chap. IV, we can assume that the $H_i$ are numbered so that $e_1, e_2, \ldots, e_r$ are pairwise orthogonal and $e_{r+1}, e_{r+2}, \ldots, e_l$ are pairwise orthogonal. 那么$s' = s_1 s_2 \ldots s_r$是关于子空间的正交对称
+令C为由$\mathfrak{H}, H_1, \ldots, H_l$其墙壁确定的房间，并放置$s_i = s_{H_i}$。 用与$H_i$正交且与C位于$H_i$同一侧的$e_i$单位向量表示。 根据第 2 章附录第 2 条提案。 IV，我们可以假设$H_i$已编号，使得$e_1, e_2, \ldots, e_r$两两正交，$e_{r+1}, e_{r+2}, \ldots, e_l$两两正交。 那么$s' = s_1 s_2 \ldots s_r$是关于子空间的正交对称
 
 $$
 V' = H_1 \cap H_2 \cap \cdots \cap H_r,
@@ -114,7 +114,7 @@ $$
 0 < m_1 \leq m_2 \leq \cdots \leq m_l < h.
 $$ (1)
 
-c 的特征多项式具有实数系数。因而，对于所有$j$，P(T)中$T - \exp \frac{2i\pi m_j}{h}$的幂等于$T - \exp \frac{2i\pi (h - m_j)}{h}$。因而
+c 的特征多项式有实数系数。因而，对于所有$j$，P(T)中$T - \exp \frac{2i\pi m_j}{h}$的幂等于$T - \exp \frac{2i\pi (h - m_j)}{h}$的幂。因而
 
 $$
 m_j + m_{l+1-j} = h \quad (1 \leq j \leq l).
@@ -131,7 +131,7 @@ $$ (3)
 *假设*W*是不可约的并且*$\dim V \geq 2$。 *对于前面的记号，存在两个线性无关的向量* $z', z''$ *这样*
 (i)*平面*P*由*$z', z''$*生成*在*s'*和*s''下稳定；
 (ii) *s'|P 和 s''|P 是关于* $Rz'$ *和* $Rz''$ 的正交反射；
-(iii) *$z', z'' \in \overline{C}$，并且*$P \cap C$*是*$z', z''$*的线性组合的集合，且系数*> 0。
+(iii) *$z', z'' \in \overline{C}$，以及*$P \cap C$*为*$z', z''$*的线性组合集合，且系数*> 0。
 
 令$(e^1, \ldots, e^l)$为V的基，使得$(e^i|e_j) = \delta_{ij}$。那么 C 就是由 $e^i$（§ 3, no. 9，命题 7）确定的开单纯锥体。很明显，$V'$是由$e^{r+1}, \ldots, e^l$生成的，$V''$是由$e^1, \ldots, e^r$生成的。令 q 为 V 的自同态，使得 $q(e^1) = e_1, \ldots, q(e^l) = e_l$。其矩阵相对于$(e^1, \ldots, e^l)$为$Q = ((e_i|e_j))$。我们有 $(e_i|e_j) \leq 0$ 对应 $i \neq j$（§ 3, no. 4，提案 3）。由于 W 是不可约的，因此不存在任何划分 $\{1, 2, \ldots, l\} = I_1 \cup I_2$ 使得 $(e_i|e_j) = 0$ 对于 $i \in I_1$ 和 $j \in I_2$。因而 (§ 3, no. 5, 引理 4) Q 有一个特征向量 $(a_1, \ldots, a_l)$ 所有坐标都 > 0；设a为相应的特征值。放
 
@@ -145,7 +145,7 @@ $$
 z' = a_{r+1} e^{r+1} + \cdots + a_l e^l \in V' \cap \overline{C},
 $$
 
-令$P$为$z'$和$z''$生成的平面。那么$P \cap C$是$z'$和$z''$的线性组合的集合，系数为$> 0$。 关系 $q(z) = az$ 给出 $\sum_{j=1}^l a_j e_j = \sum_{j=1}^l aa_j e^j$；标量乘以 $e_k$（其中 $k \leq r$）给出
+令$P$为$z'$和$z''$生成的平面。那么$P \cap C$和系数$> 0$就是$z'$和$z''$线性组合集合。 关系 $q(z) = az$ 给出 $\sum_{j=1}^l a_j e_j = \sum_{j=1}^l aa_j e^j$；标量乘以 $e_k$（其中 $k \leq r$）给出
 $$
 a_k + \sum_{j=r+1}^l a_j (e_j|e_k) = aa_k; \text{ thus}
 $$
@@ -178,15 +178,15 @@ $$
 
 $Rz'$的变换和$W'$的$Rz''$是P的$h$线$D_1, \ldots, D_h$，$P - (D_1 \cup \cdots \cup D_h)$的点是点的$W'$元素变换 $P \cap C$。因而，$\mathfrak{H}$的超平面必然沿着线$D_i$之一切割P，因此是变换乘以$\mathfrak{H}$超平面的$W'$的运算或包含$Rz'$或$Rz''$。
 
-Now, any $H \in \mathfrak{H}$ that contains $Rz'$ is one of the hyperplanes $H_1, \ldots, H_r$. 事实上，令 $e_H$ 为单位向量与 H 正交，并且与 C 在 H 的同一侧。 然后 $e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l$ 与 $\lambda_i$ 所有 $\geq 0$ (§ 3, no. 5, 引理 6, (i))。 现在$0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l$，所以
+现在，任何包含 $Rz'$ 的 $H \in \mathfrak{H}$ 都是超平面 $H_1, \ldots, H_r$ 之一。 事实上，令 $e_H$ 为单位向量与 H 正交，并且与 C 在 H 的同一侧。 然后 $e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l$ 与 $\lambda_i$ 所有 $\geq 0$ (§ 3, no. 5, 引理 6, (i))。 现在$0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l$，所以
 $$
 \lambda_{r+1} = \cdots = \lambda_l = 0, \quad \text{and} \quad e_H = \lambda_1 e_1 + \cdots + \lambda_r e_r.
 $$
-假设 $\lambda_i$ 中的两个非零，即例 $\lambda_1$ 和 $\lambda_2$；因为 $e_1, \ldots, e_r$ 是成对正交的，所以我们有
+假设$\lambda_i$中有两个非零，例如$\lambda_1$和$\lambda_2$；因为 $e_1, \ldots, e_r$ 是成对正交的，所以我们有
 $$
 s_1(e_H) = -\lambda_1 e_1 + \lambda_2 e_2 + \cdots + \lambda_r e_r
 $$
-并且 $s_1(e_H)$ 的坐标不会具有相同的符号，这是荒谬的（*loc.cit.*）。 因此，$e_H$与向量$e_1, \ldots, e_r$之一成正比，这就证明了我们的断言。 Similarly, any $H \in \mathfrak{H}$ that contains $Rz''$ is one of the hyperplanes $H_{r+1}, \ldots, H_l$.
+并且 $s_1(e_H)$ 的坐标不会具有相同的符号，这是荒谬的（*loc.cit.*）。 因此，$e_H$与向量$e_1, \ldots, e_r$之一成正比，这就证明了我们的断言。 类似地，任何包含 $Rz''$ 的 $H \in \mathfrak{H}$ 都是超平面 $H_{r+1}, \ldots, H_l$ 之一。
 
 因此$\mathfrak{H}$包含$Rz'$的元素或$Rz''$的数是$l$。如果 $h$ 是偶数，则 $\mathrm{Card}(\mathfrak{H})$ 等于 $\frac{h}{2} l$。如果$h$是奇数，则$\mathrm{Card}(\mathfrak{H})$等于$\frac{h-1}{2} l + r$，也等于$\frac{h-1}{2} l + (l - r)$；因此$r = l - r$，所以$r = \frac{l}{2}$，和$\mathrm{Card}(\mathfrak{H}) = \frac{h-1}{2} l + \frac{l}{2} = \frac{h}{2} l$。
 
@@ -194,7 +194,7 @@ $$
 
 保留前面的证明的记号。 令$c'$为$c$至$V \otimes_{\mathbf{R}} \mathbf{C}$的$\mathbf{C}$线性扩张，以及$c''$限制为$c'$至$P \otimes_{\mathbf{R}} \mathbf{C}$。 根据我们对$c|P$的研究，$c''$有一个特征向量$x$相应的到特征值$\exp \frac{2i\pi}{h}$，并且这个特征向量不属于到集合$D \otimes_{\mathbf{R}} \mathbf{C}$中的任何一个，其中D表示P的一条线（因为D在c下不稳定）。 现在，对于任何$H \in \mathfrak{H}$，我们已经看到$H \cap P$是一条线；因此，$x \notin H \otimes_{\mathbf{R}} \mathbf{C}$。
 
-#### 推论{#lie-v-s6-n2-cor-1 .statement tag=0ATP}
+#### 推论 {#lie-v-s6-n2-cor-1 .statement tag=0ATP}
 
 *令$R_0$为$V$的单位向量的集合与$\mathfrak{H}$的元素正交。如果 $W$ 不可约，*
 
@@ -223,11 +223,11 @@ $$
 
 *假设W是不可约的。令$u_1, \ldots, u_l$是对称代数$S = S(V)$的齐次元素，在W（§ 5, no. 3，Th.3）下S不变量的元素的$\mathbf{R}$和生成的代数上代数独立。如果$p_j$是$u_j$的次数，则W的指数是$p_1 - 1, \ldots, p_l - 1$*。
 
-将$V' = V \otimes_{\mathbf{R}} \mathbf{C}$、$S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$和扩展将标量乘积放在V上，将厄米特形式放在$V'$上。 如果$c$是W的Coxeter变换，则存在$c \otimes 1$特征向量的$V'$由……组成的正交基$(X_i)_{1 \leq i \leq l}$（*代数*，第IX, § 7, no. 3，第4条）；此外，我们可以假设，对于$1 \leq j \leq l$，$X_j$对应到特征值$\exp \frac{2i\pi m_j}{h}$ of $c \otimes 1$。 显然，$S'$可以等同于代数$\mathbf{C}[X_1, \ldots, X_l]$，并且我们可以写成$u_j \otimes 1 = f_j(X_1, \ldots, X_l)$，其中$f_j$是次数$p_j$在$\mathbf{C}[X_1, \ldots, X_l]$中的齐次多项式。 输入$D_j = \frac{\partial}{\partial X_j}$和$J = \det(D_k f_j)$。 Recall (§ 5, no. 4, Prop. 5) that $J(X_1, \ldots, X_l)$ is proportional to the product in $S'$ of $\mathrm{Card}(\mathfrak{H})$ vectors $y_k$ of V each of which is orthogonal to a hyperplane of $\mathfrak{H}$. 由于我们可以假设所有 $H \in \mathfrak{H}$ (*注*) 都有 $X_1 \notin H \otimes \mathbf{C}$，因此向量 $y_k$ 中每个$X_1$ 分量均非零，因此$J(1, 0, \ldots, 0) \neq 0$。 扩展行列式的规则现在证明$\{1, 2, \ldots, l\}$存在置换$\sigma$，使得$(D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0$对于所有$j$。 由于$D_{\sigma(j)} f_j$是次数$p_j - 1$的齐次，$f_j(X_1, \ldots, X_l)$中$X_1^{p_j - 1} X_{\sigma(j)}$的系数非零。 现在$f_j(X_1, \ldots, X_l)$在$c \otimes 1$下是不变的，并且
+将$V' = V \otimes_{\mathbf{R}} \mathbf{C}$、$S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$和扩展将标量乘积放在V上，将厄米特形式放在$V'$上。 如果$c$是W的Coxeter变换，则存在$c \otimes 1$特征向量的$V'$由……组成的正交基$(X_i)_{1 \leq i \leq l}$（*代数*，第IX, § 7, no. 3，第4条）；此外，我们可以假设，对于$1 \leq j \leq l$，$X_j$对应到特征值$\exp \frac{2i\pi m_j}{h}$ of $c \otimes 1$。 显然，$S'$可以等同于代数$\mathbf{C}[X_1, \ldots, X_l]$，并且我们可以写成$u_j \otimes 1 = f_j(X_1, \ldots, X_l)$，其中$f_j$是次数$p_j$在$\mathbf{C}[X_1, \ldots, X_l]$中的齐次多项式。 输入$D_j = \frac{\partial}{\partial X_j}$和$J = \det(D_k f_j)$。 回想一下（§ 5, no. 4，命题 5），$J(X_1, \ldots, X_l)$ 与 V 的 $\mathrm{Card}(\mathfrak{H})$ 向量 $y_k$ $S'$ 的乘积成正比，每个向量都与 $\mathfrak{H}$ 的超平面正交。 由于我们可以假设所有 $H \in \mathfrak{H}$ (*注*) 都有 $X_1 \notin H \otimes \mathbf{C}$，因此向量 $y_k$ 中的每一个$X_1$ 分量都是非零，因此$J(1, 0, \ldots, 0) \neq 0$。 扩展行列式的规则现在证明$\{1, 2, \ldots, l\}$存在置换$\sigma$，使得$(D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0$对于所有$j$。 由于$D_{\sigma(j)} f_j$是次数$p_j - 1$的齐次，$f_j(X_1, \ldots, X_l)$中$X_1^{p_j - 1} X_{\sigma(j)}$的系数非零。 现在$f_j(X_1, \ldots, X_l)$在$c \otimes 1$下是不变的，并且
 $$
 (c \otimes 1)(X_1^{p_j - 1} X_{\sigma(j)}) = \left( \exp \frac{2i\pi}{h} (p_j - 1 + m_{\sigma(j)}) \right) (X_1^{p_j - 1} X_{\sigma(j)}).
 $$
-这证明了$p_j - 1 + m_{\sigma(j)} \equiv 0$（模$h$）。 现在 $h - m_{\sigma(j)}$ 是一个指数 (公式 (2))。 如有必要，右$u_j$进行排列，我们可以假设所有$j$都有$p_j - 1 \equiv m_j$（模$h$）。 从$p_j - 1 \geq 0$和$m_j < h$开始，我们有$p_j - 1 = m_j + \mu_j h$和$\mu_j$整数$\geq 0$。 根据 § 5，命题 3，我们看到
+这证明了$p_j - 1 + m_{\sigma(j)} \equiv 0$（模$h$）。 现在 $h - m_{\sigma(j)}$ 是指数 (公式 (2))。 如有必要，右$u_j$进行排列，我们可以假设所有$j$都有$p_j - 1 \equiv m_j$（模$h$）。 从$p_j - 1 \geq 0$和$m_j < h$开始，我们有$p_j - 1 = m_j + \mu_j h$和$\mu_j$整数$\geq 0$。 根据 § 5，命题 3，我们看到
 
 $$
 \operatorname{Card}(\mathfrak{H}) = \sum_{j=1}^{l} (p_j - 1) = \sum_{j=1}^{l} m_j + h \sum_{j=1}^{l} \mu_j.
@@ -237,7 +237,7 @@ $$
 
 #### 推论 1 {#lie-v-s6-prop-3-cor-1 .statement tag=0ATS}
 
-*如果*$(m_i)_{1 \leq i \leq l}$*是*W的指数的递增序列，则*W*的*阶等于*$(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$。
+*如果*$(m_i)_{1 \leq i \leq l}$*是*W的指数递增序列，则*W的*阶等于*$(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$。
 
 这是从关系 $m_j + 1 = p_j$ 和 § 5，Cor. 得出的。的 Th。 3.
 
@@ -257,7 +257,7 @@ $$
 
 *位似与*V*属于与*W的比率*−1*当且仅当*W*的所有指数都是奇数。在这种情况下，h 是偶数并且* $c^{h/2} = -1$ *对于任何 Coxeter 变换* c *of* W。
 
-第一个断言源自§ 5, no. 3，命题4。假设W的指数是奇数。那么 h 是公式 (2) 的偶数，并且
+第一个断言由命题 4 § 5, no. 3 得出。假设 W 的指数是奇数。那么 h 是公式 (2) 的偶数，并且
 
 $$
 \left( \exp \frac{2i\pi m_j}{h} \right)^{h/2} = \exp(i\pi m_j) = -1;

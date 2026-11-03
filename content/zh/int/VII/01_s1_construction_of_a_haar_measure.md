@@ -56,19 +56,19 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 30
-content_sha256: 826a0b059505119474ce418ddb246b0735fb3f4c1aa83635f1b80fa492f483d6
+content_sha256: c0b9c21b6ed9d5e5a7a6e92fe4f0a82eeb6b729079ff65086ec4a326f355c048
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
 translation_method: google
 source_content_sha256: e46166486e36efa944d66af30ebaacb93e9bc8f019659598c1d03449537e5e11
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9e866c08996d498993831d4a81da0d64f5880604af2e8c4ed828fb66a47f1bab
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。 HAAR 措施的构造
+## § 1。 构造哈尔措施
 
 ### 1. 定义和记号
 
@@ -376,7 +376,7 @@ $$
 \nu(g) = \mu(D_f \cdot g).
 $$
 
-这首先证明$D_f$不依赖于$f$。因为，如果$f' \in \mathscr{K}$使得$\mu(f') \neq 0$，则$D_f \cdot \mu = D_{f'} \cdot \mu$，因此$D_f = D_{f'}$在局部几乎处处对于$\mu$，因此处处，因为$D_f$和$D_{f'}$是连续的并且$\mu$的支持度是$G$。因此我们可以写$D_f = D$。 公式 (16) 给出
+这首先证明$D_f$不依赖于$f$。因为，如果$f' \in \mathscr{K}$使得$\mu(f') \neq 0$，则$D_f \cdot \mu = D_{f'} \cdot \mu$，因此$D_f = D_{f'}$局部几乎处处对于$\mu$，因此处处，因为$D_f$和$D_{f'}$是连续的，并且$\mu$的支持度是$G$。因此我们可以写$D_f = D$。 公式 (16) 给出
 
 $$
 \mu(f)D(e) = \check{\nu}(f).
@@ -384,7 +384,7 @@ $$
 
 公式 (19) 可以通过线性扩展至函数 $f \in \mathscr{K}$，使得$\mu(f) = 0$。自$\check{\nu} \neq 0$以来，我们有$D(e) \neq 0$。这确实建立了$\mu$和$\check{\nu}$的比例。
 
-#### 推出{#int-vii-s1-n2-cor-1 .statement tag=09D4}
+#### 推出 {#int-vii-s1-n2-cor-1 .statement tag=09D4}
 
 — *每个左不变式*（分别为*右不变式*）*测量*$G$*与左*（分别为*右*）*哈尔测量*成比例。
 
@@ -412,7 +412,7 @@ $$
 
 — *让* $G$ *成为局部紧凑的群*，$\mu$ *左或右哈尔测量* $G$。 *对于* $G$ *要离散，* $\mu(\{e\}) > 0$ 是必要且充分的。 *为了*$G$*要紧凑，*$\mu^*(G) < +\infty$是必要且充分的。
 
-条件显然是必要的。让我们展示他们的充足性。设$V$是$e$的紧邻域。如果$\mu(\{e\}) > 0$，则$V$是自$\mu(V) < +\infty$以来的有限集合；由于 $G$ 是 Hausdorff，因此它是离散的。假设 $\mu^*(G) < +\infty$ 和 $\mu$ 对于例是左不变的。考虑集合$\mathscr{E}$/有限子集$\{s_1, \ldots, s_n\}$/$G$，使得$s_i V \cap s_j V = \varnothing$对应$i \neq j$；那么
+条件显然是必要的。让我们展示他们的充足性。设$V$是$e$的紧邻域。如果$\mu(\{e\}) > 0$，则$V$是自$\mu(V) < +\infty$以来的有限集合；由于 $G$ 是 Hausdorff，因此它是离散的。例如，假设 $\mu^*(G) < +\infty$ 和 $\mu$ 是左不变的。考虑有限子集 $\{s_1, \ldots, s_n\}$ $G$ 的集合 $\mathscr{E}$，使得$s_i V \cap s_j V = \varnothing$ $i \neq j$；然后
 
 $$
 n \mu(V) = \mu(s_1 V \cup \ldots \cup s_n V) \leq \mu^*(G),
@@ -554,7 +554,7 @@ $$
 
 *如果 G 是离散的、紧致的或可交换的，则 G 是幺模的。*
 
-当 G 是“可交换的”时，这也是微不足道的。 注另外，如果 G 是*离散*，则每个点的质量为 1 的 G 上的测度显然是 G 上的左右 Haar 测度，称为 G 上的*归一化* Haar 测度。如果 G 是*紧凑*，则 G 上存在且仅有一个 Haar 测度，使得 $\mu(G) = 1$；它被称为 G 的“归一化”Haar 测度。当 G 既是离散的又是紧致的（即有限的）时，前面的两个约定不一致；当我们遇到这种情况时，我们将始终明确指定标准化哈尔测度的含义。
+当 G 是“可交换的”时，这也是微不足道的。 注另外，如果 G 是*离散*，那么每个点的质量为 1 的 G 上的测度显然是 G 上的左右 Haar 测度，称为 G 上的*归一化* Haar 测度。如果 G 是*紧凑*，则 G 上存在且仅有一个 Haar 测度，使得 $\mu(G) = 1$；它被称为 G 的“归一化”Haar 测度。当 G 既是离散的又是紧致的（即有限的）时，前面的两个约定不一致；当我们遇到这种情况时，我们将始终明确指定标准化哈尔测度的含义。
 
 幺模群的子群和商群并不总是幺模（§ 2，Exer.5）。不过，请参阅§ 2, No. 7 的第 10 号提案。
 
@@ -562,11 +562,11 @@ $$
 
 ### 4. 模数自同构
 
-设G是G的局部紧群，$\varphi$自同构，$\mu$G上的左Haar测度。显然，$\varphi^{-1}(\mu)$也是G上的左Haar测度。因此存在(No. 2，Th.1)一个且仅有一个数 $a > 0$使得$\varphi^{-1}(\mu) = a \mu$。截至 No. 2，周四。 1、这个数独立于$\mu$的选择。 注如果一个人从正确的 Haar 测度开始，对于例 $\Delta_G^{-1} \cdot \mu$ (No. 3)，我们会得到相同的标量 $a$：因为，因为 $\varphi^{-1}$ 使 $\Delta_G$ 不变（No. 3，注），一个有 $\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$。
+设G是G的局部紧群，$\varphi$自同构，$\mu$G上的左Haar测度。显然，$\varphi^{-1}(\mu)$也是G上的左Haar测度。因此存在(No. 2，Th.1)一个且仅有一个数 $a > 0$使得$\varphi^{-1}(\mu) = a \mu$。截至 No. 2，周四。 1、这个数独立于$\mu$的选择。请注意，如果一个人从正确的哈尔测度开始，例如$\Delta_G^{-1} \cdot \mu$（No. 3），那么就会得到相同的标量$a$：因为，因为$\varphi^{-1}$使$\Delta_G$不变（No. 3，注），所以一个人有$\varphi^{-1}(\Delta_G^{-1} \cdot \mu) = \Delta_G^{-1} \cdot \varphi^{-1}(\mu) = a \Delta_G^{-1} \cdot \mu$。
 
 #### 定义 4 {#int-vii-s1-def-4 .statement tag=09DB}
 
-*数 $a > 0$，因而 $\varphi^{-1}(\mu) = a \mu$ 称为自同构 $\varphi$ 的模，并表示为 $\operatorname{mod}_G \varphi$ 或简称为 $\operatorname{mod} \varphi$。*
+*数$a > 0$，因而$\varphi^{-1}(\mu) = a \mu$称为自同构$\varphi$的模，并表示为$\operatorname{mod}_G \varphi$或简称为$\operatorname{mod} \varphi$。*
 
 如果 $f$ 是 G 上的 $\mu$ 可积函数，则
 
@@ -596,7 +596,7 @@ $$
 
 #### 命题 4 {#int-vii-s1-prop-4 .statement tag=09DC}
 
-*设 G 为局部紧致群、$\Gamma$ 拓扑群，以及 $\Gamma$ 的 $\gamma \mapsto u_\gamma$ 同态到 G 的自同构的群 $\mathscr{G}$，使得 $(\gamma, x) \mapsto u_\gamma(x)$是G中$\Gamma \times G$的连续映射。那么，映射$\gamma \mapsto \operatorname{mod}(u_\gamma)$是$\mathbf{R}_+^*$中$\Gamma$的连续表示。
+*设 G 为局部紧致群、$\Gamma$ 拓扑群、以及 $\Gamma$ 的 $\gamma \mapsto u_\gamma$ 同态到 G 的自同构的群 $\mathscr{G}$，使得 $(\gamma, x) \mapsto u_\gamma(x)$是G中$\Gamma \times G$的连续映射。那么，映射$\gamma \mapsto \operatorname{mod}(u_\gamma)$是$\mathbf{R}_+^*$中$\Gamma$的连续表示。
 
 这个映射显然是$\mathbf{R}_+^*$中$\Gamma$的表示（代数）；足以证明其连续性。令 $f \in \mathscr{K}(G)$ 并令 S 为其支持。*
 
@@ -648,7 +648,7 @@ $$
 
 *对于每个* $\alpha \in A$，*令* $\mu_\alpha$ *成为* $G_\alpha$ 的正测量。 *假设*$\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$*对于*$\alpha \geq \beta$。 *那么，存在且仅有一个积极措施* $\mu$ *在* $G$ *使得* $\varphi_\alpha(\mu) = \mu_\alpha$ *对于所有* $\alpha \in A$。
 
-唯一性紧随引理 2 b)。让我们证明$\mu$的存在性。令$V$为函数属于到$\mathscr{K}(G)$的向量空间，并且在某些$K_\alpha$的陪集上恒定（$\alpha$可能取决于函数）。由引理 2 a) 可知 $V$ 满足第 1 章的条件 (P)。 III, §1, No. 7，第9条：对于所有$x \in K$，让$K$为$G$中的紧集，选择$f \in \mathscr{K}_+(G)$以及$f(x) > 0$；设$a > 0$为$K$上$f$的最小的值；由引理 2 a)，存在函数 $g \in V \cap \mathscr{K}_+(G)$使得$|f - g| \leq a/2$，因此$g(x) > 0$对于所有$x \in K$，且条件(P)得到验证。让$f \in V$。存在一个 $\alpha \in A$ 使得 $f$ 在 $K_\alpha$ 的陪集上是常数。通过商，$f$定义函数$f_\alpha \in \mathscr{K}(G_\alpha)$。 数$\mu(f) = \mu_\alpha(f_\alpha)$不依赖于$\alpha$的选择：例如，令$\beta$为任何指标，使得$f$在$K_\beta$的陪集上是常数；令 $\gamma \in A$ 使得 $\gamma \geq \alpha, \gamma \geq \beta$；那么$f$定义函数$f_\beta \in \mathscr{K}(G_\beta)$，$f_\gamma \in \mathscr{K}(G_\gamma)$使得$f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$；然后$f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$，因此$\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$，类似地$\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$，从而我们的断言。如此成立，显然$\mu$在$V$上是线性形式，而$\mu(f) \geq 0$在$f \geq 0$上。根据第 9 章的提案。 III, §1, No. 7、$\mu$可以扩展到$G$上的积极措施，我们再次用$\mu$表示。一个人拥有所有$\alpha \in A$的$\varphi_\alpha(\mu) = \mu_\alpha$，直到$\mu$的构造。
+唯一性紧随引理 2 b)。让我们证明$\mu$的存在性。令$V$为函数属于到$\mathscr{K}(G)$的向量空间，并且在某些$K_\alpha$的陪集上恒定（$\alpha$可能取决于函数）。由引理 2 a) 可知 $V$ 满足第 1 章的条件 (P)。 III, §1, No. 7，第9条：对于所有$x \in K$，让$K$为$G$中的紧集，选择$f \in \mathscr{K}_+(G)$以及$f(x) > 0$；设$a > 0$为$K$上$f$的最小的值；由引理 2 a)，存在函数 $g \in V \cap \mathscr{K}_+(G)$使得$|f - g| \leq a/2$，因此$g(x) > 0$对于所有$x \in K$，且条件(P)得到验证。让$f \in V$。存在一个 $\alpha \in A$ 使得 $f$ 在 $K_\alpha$ 的陪集上是常数。通过商，$f$定义函数$f_\alpha \in \mathscr{K}(G_\alpha)$。 数$\mu(f) = \mu_\alpha(f_\alpha)$不依赖于$\alpha$的选择：例如，令$\beta$为任意指标，使得$f$在$K_\beta$的陪集上是常数；令 $\gamma \in A$ 使得 $\gamma \geq \alpha, \gamma \geq \beta$；那么$f$定义函数$f_\beta \in \mathscr{K}(G_\beta)$，$f_\gamma \in \mathscr{K}(G_\gamma)$使得$f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$；那么$f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$，因此$\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$，类似地$\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$，从而我们的断言。如此成立，显然$\mu$对于$V$来说是线性形式，对于$f \geq 0$来说$\mu(f) \geq 0$。根据第 9 章的提案。 III, §1, No. 7、$\mu$可以扩展到$G$上的积极措施，我们再次用$\mu$表示。一个人对所有 $\alpha \in A$ 拥有 $\varphi_\alpha(\mu) = \mu_\alpha$，直到构造的 $\mu$。
 
 #### 定义 5 {#int-vii-s1-def-5 .statement tag=09DG}
 
@@ -658,7 +658,7 @@ $$
 
 *我们保留命题6的记号。如果每个* $\mu_\alpha$ *是* $G_\alpha$上的左（或右）Haar测度，*则* $\mu$ *是* $G$上的左（或右）Haar测度。
 
-假设对于例，$\mu_\alpha$ 是左哈尔测度。让$s \in G$。对于每$x \in G$，
+例如，假设 $\mu_\alpha$ 是左哈尔测度。让$s \in G$。对于每$x \in G$，
 
 $$
 (\varphi_\alpha \circ \gamma(s))(x) = \varphi_\alpha(sx) = \varphi_\alpha(s)\varphi_\alpha(x) = (\gamma(\varphi_\alpha(s)) \circ \varphi_\alpha)(x);
@@ -706,7 +706,7 @@ $\alpha$到$\mathbf{Z}_p$的限制显然是$\mathbf{Z}_p$的哈尔测度。
 
 对于每个$s \in G$，令$\mu_s$是$\mu$的像，在V的同胚$x \mapsto sx$到sV上。 $\mu_s$至$V \cap sV$的限制是$x \mapsto sx$至$s^{-1}V \cap V$的限制下的$\mu_{s^{-1}V \cap V}$像；到假设，这个像就是$\mu_{V \cap sV}$。 通过翻译，一个结论由此可知，对于任何$s, t$，$\mu_s$和$\mu_t$具有相同的限制到$sV \cap tV$。 因此，根据第 1 章的提案 1。 III, §2, No. 1，G 上存在一个测度 $\alpha$，对于每个 $s$，sV 上有诱导 $\mu_s$。 很明显，$\alpha$ 是 G 上唯一的左 Haar 测度，在 V 上归纳出 $\mu$。
 
-#### 推论{#int-vii-s1-n7-cor-1 .statement tag=09DL}
+#### 推论 {#int-vii-s1-n7-cor-1 .statement tag=09DL}
 
 *设 G，G' 是两个局部紧致群，V（分别为 V'），G 的中性元素（分别为 G'）的开邻域，以及 $\varphi$ G' 的局部同构，其中 G（GT，III, §1, No. 3，Def.2）定义在V'，这样$\varphi(V') = V$。令$\alpha'$为G'上的左哈尔测度，$\alpha'_V$，其限制至$V'$。那么$\varphi(\alpha'_{V'})$是$G$上唯一的左哈尔测度$\alpha$的限制到$V$。
 
@@ -718,7 +718,7 @@ $\alpha$到$\mathbf{Z}_p$的限制显然是$\mathbf{Z}_p$的哈尔测度。
 
 — 在 No. 2、*例 3* 中获得的$T$ 的 Haar 测度可以通过 $R$ 与 $T$ 的局部同构从 $R$ 上的勒贝格测度推导出来。
 
-### 8. 相对不变的措施
+### 8. Relatively invariant measures
 
 #### 命题 10 {#int-vii-s1-prop-10 .statement tag=09DN}
 
@@ -762,7 +762,7 @@ $$
 
 因此$\nu'$与左乘子$\chi^{-1} \Delta_G^{-1}$和右乘子$\chi^{-1}$相对不变。
 
-对于每个相对不变的度量，可忽略、局部可忽略、可测量和局部可积函数的概念都是相同的。
+对于每个相对不变的测度，可忽略、局部可忽略、可测量和局部可积函数的概念都是相同的。
 
 ### 9. 准不变测度
 
@@ -770,7 +770,7 @@ $$
 
 *设 G 为局部紧致群，$\mu$ G 上的左 Haar 测度。要使 G 上的测度 $\nu \neq 0$ 保持拟不变，$\nu$ 等于 $\mu$ 是充分必要的。*
 
-充足性是显而易见的。令$\nu \neq 0$为左准不变测度，并证明$\nu$等价于$\mu$。我们可以将自己限制在$\nu > 0$的情况。设 A 是 G 的紧子集。我们将证明，就像建立命题一样，条件 $\mu(A) = 0$、$\nu(A) = 0$ 是等价的（Ch. V, §5, No. 5、Th. 2）。
+充足性是显而易见的。令$\nu \neq 0$为左准不变测度，并证明$\nu$等价于$\mu$。我们可以将自己限制在$\nu > 0$的情况。设 A 是 G 的紧子集。我们将证明，正如将建立命题，条件 $\mu(A) = 0$、$\nu(A) = 0$ 是等价的（Ch. V, §5, No. 5、Th. 2）。
 
 a) 对于每个$f \in \mathscr{K}_+(G)$，$G \times G$上的函数$(x, y) \mapsto f(x)\varphi_A(xy)$是$(\nu \otimes \mu)$可积，因为它是上半连续、有界的，并且如果集合$K = \operatorname{Supp} f$为一个，它的支持包含在紧集$K \times K^{-1}A$中。因此，根据 Lebesgue-Fubini 定理，
 
@@ -784,7 +784,7 @@ $$
 (37) \quad 0 = \int \varphi_A(xy)f(x)\,d\mu(x) = \Delta_G(y)^{-1} \int \varphi_A(x)f(xy^{-1})\,d\mu(x).
 $$
 
-设B是G的紧子集，使得$\nu(B) \neq 0$，并且$\mathscr{K}_+(G)$中的$f$函数等于$AB^{-1}$上的1。则存在 $y \in B$ 使得 (37) 得到验证。但由于$\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$对应$y \in B$，这就证明了$\mu(A) = 0$。
+令 B 为 G 的紧致子集，使得 $\nu(B) \neq 0$，并取 $\mathscr{K}_+(G)$ 中的 $f$ 函数等于 $AB^{-1}$ 上的 1。则存在 $y \in B$ 使得 (37) 得到验证。但由于$\varphi_A(x)f(xy^{-1}) = \varphi_A(x)$对应$y \in B$，这就证明了$\mu(A) = 0$。
 
 c) 假设$\mu(A) = 0$。那么，对于每个 $f \in \mathscr{K}_+(G)$，(36) 的左侧是零，因此右侧也是。因而，存在局部 $\mu$ 可忽略不计的集合 M，使得 $\int \varphi_A(xy)\,d\nu(y) = 0$ 对于 $x \notin M$。从$\mu \neq 0$开始，对于某些$x \in G$、从而$\nu(A) = 0$，可以得出$\nu(xA) = 0$。
 
@@ -828,13 +828,13 @@ c) 假设$\mu(A) = 0$。那么，对于每个 $f \in \mathscr{K}_+(G)$，(36) �
 
 #### 命题 14 {#int-vii-s1-prop-14 .statement tag=09DW}
 
-— *让* $\alpha$ *成为* $K^+$ 上的哈尔测度。 *那么测量* $\beta = (\mathrm{mod}_K)^{-1} \cdot \alpha$ *在* $K^*$ *上是乘法群* $K^*$ 上的左哈尔测量。
+— *让* $\alpha$ *成为* $K^+$ 上的哈尔测度。 *那么* $\beta = (\mathrm{mod}_K)^{-1} \cdot \alpha$ *在* $K^*$ *上的测度是乘法群* $K^*$上的左哈尔测度。
 
-例如，如果将 K 的 $b \in K^*$、映射 $a \mapsto b^{-1} a$ 转化为 K 变换 $\alpha$ 转化为 $(\mathrm{mod}_K b) \alpha$，因此 $(\mathrm{mod}_K)^{-1} \cdot \alpha$ 转化为自身，从而命题。
+例如，如果将 K 的 $b \in K^*$、映射 $a \mapsto b^{-1} a$ 转化为 K 变换 $\alpha$ 转化为 $(\mathrm{mod}_K b) \alpha$，则$(\mathrm{mod}_K)^{-1} \cdot \alpha$ 转化为自身，从而命题。
 
-#### 推论{#int-vii-s1-n10-cor-2 .statement tag=09DX}
+#### 推论 {#int-vii-s1-n10-cor-2 .statement tag=09DX}
 
-— *Let* f *be a function defined on* $K^*$, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. 对于* f *为* $\beta$-*可积，$(\mathrm{mod}_K)^{-1} f$为$\alpha$可积是必要且充分的，在这种情况下
+— *设* f *是定义在* $K^*$上的函数，*其值在* $\overline{\mathbf{R}}$ *或巴拿赫空间中。 对于* f *为* $\beta$-*可积，$(\mathrm{mod}_K)^{-1} f$为$\alpha$可积是必要且充分的，在这种情况下
 
 $$
 \int_{K^*} f(x) d\beta(x) = \int_{K^+} (\mathrm{mod}_K(x))^{-1} f(x) d\alpha(x).
@@ -936,7 +936,7 @@ $$
 
 ### 11. 局部紧致域上的有限维代数
 
-令$K$为交换域，$A$是有限秩与单位元元素的$K$代数。对于每个$a \in A$，令$L_a, R_a$为向量空间$A$的自同态、$x \mapsto ax$、$x \mapsto xa$，并让$N_{A/K}(a) \in K$、$N_{A^0/K}(a) \in K$为$a$的范数 $A$ 和反代数 $A^0$ 中的正则表示；回想一下$N_{A/K}(a) = \det(L_a)$，$N_{A^0/K}(a) = \det(R_a)$（A，III, §9, No. 3）。以下条件是等效的：$a$可逆，$L_a$在$\mathrm{Hom}_K(A, A)$中可逆，$R_a$在$\mathrm{Hom}_K(A, A)$中可逆，$N_{A/K}(a) \neq 0$，$N_{A^0/K}(a) \neq 0$。我们用$A$的可逆元的$A^*$集合来表示。
+令$K$为交换域，$A$是有限秩与单位元元素的$K$代数。对于每个$a \in A$，令$L_a, R_a$为向量空间$A$中的自同态、$x \mapsto ax$、$x \mapsto xa$，并令$N_{A/K}(a) \in K$、$N_{A^0/K}(a) \in K$为$a$中的范数 $A$ 和反代数 $A^0$ 中的正则表示；回想一下$N_{A/K}(a) = \det(L_a)$，$N_{A^0/K}(a) = \det(R_a)$（A，III, §9, No. 3）。以下条件是等效的：$a$可逆，$L_a$在$\mathrm{Hom}_K(A, A)$中可逆，$R_a$在$\mathrm{Hom}_K(A, A)$中可逆，$N_{A/K}(a) \neq 0$，$N_{A^0/K}(a) \neq 0$。我们用$A$的可逆元的$A^*$集合来表示。
 
 现在假设域 $K$ 是局部紧凑的，因此代数 $A$ 是局部紧凑的。那么$N_{A/K}$和$N_{A^0/K}$是$A$的映射连续到$K$，因此$A^*$在$A$开。由科. No. 10第15号提案1，
 

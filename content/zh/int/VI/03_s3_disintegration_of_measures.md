@@ -33,19 +33,19 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: fe39ccde9b77c4491c72874353de506994d24c836b373aa71653053b8b257fb9
+content_sha256: ed8b0805cf0d8a3bec6a56ea3cd6d188887389b1f4aeaa07660b14ea293bbd64
 translated_from: content/en/int/VI/03_s3_disintegration_of_measures.md
 translation_method: google
 source_content_sha256: af4e8435c165da3e46c8e743b1fe384a343285c290d2c1854e12b375334ea66b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 260b897428ae377c0244fec22d41f781672bca514440ebe16aabb40e0cc36c54
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。措施的分解
+## § 3。措施解体
 
 ### 1. 测量$\mu$相对于$\mu$-固有映射的分解
 
@@ -115,7 +115,7 @@ $$
 
 $\alpha)$ 对于每个函数 $f \in \mathscr{L}^1(\nu)$，从 (3) 可以得出，B 的映射 $b \mapsto \lambda_b$ 到 $\mathscr{M}(T)$ 对于测度 $|f \cdot \nu|$ 和拓扑 $\sigma(\mathscr{M}(T), \mathscr{K}(T))$ 是可标量可积的，因此 (引理 3) 族$b \mapsto \lambda_b$是$|f \cdot \nu|$-*足够了*。现在令 $g$ 为在 T 上定义的数值函数，对于测度 $|(f \circ p) \cdot \mu|$ 可积，即 (Ch. V, §5, No. 3, Th. 1)，使得 $t \mapsto g(t)f((p(t)))$ 是 $\mu$ 可积；然后从(2)、Th 得出。第 1 章。 V, §3, No. 3 和来自 Th。第 1 章。 V, §5, No. 3，对于几乎每个 $b \in B$，$g$ 对于 $\lambda_b$ 是可积的，函数（几乎到处定义）$b \mapsto \int g(t)\, d\lambda_b(t)$ 对于 $|f \cdot \nu|$ 是可积的，并且公式 (3) 再次有效。
 
-$\beta)$ 对于每个函数 $g \in \overline{\mathscr{K}(T)}$，从 (3) 得出，应用于 $f \in \mathscr{K}(B)$，映射 $p$ 适合度量 $|g \cdot \mu|$（第 V, §6, No. 1，定义 1）和$p$ 下的像 $g \cdot \mu$是密度$b \mapsto \int g(t)\, d\lambda_b(t)$相对于$\nu$的度量。如果 $f$ 被取为函数，使得 $f \circ p$ 对于测度 $|g \cdot \mu|$ 可积，也就是说，$t \mapsto g(t)f(p(t))$ 是 $\mu$ 可积（Ch. V, §5, No. 3，Th. 1），公式 (3) 再次有效（Ch. 11⟧）。 V, §6, No. 2，第 1)。
+$\beta)$ 对于每个函数 $g \in \overline{\mathscr{K}(T)}$，从 (3) 得出，应用于 $f \in \mathscr{K}(B)$，映射 $p$ 适合度量 $|g \cdot \mu|$（第 1 章） V, §6, No. 1，防御。 1) 而$g \cdot \mu$测度的$p$下的像是密度$b \mapsto \int g(t)\, d\lambda_b(t)$相对于$\nu$的测度。 如果$f$被取为函数，使得$f \circ p$对于测度$|g \cdot \mu|$可积，也就是说，使得$t \mapsto g(t)f(p(t))$是$\mu$可积（第1章）。 V, §5, No. 3，Th。 1), 公式 (3) 再次有效 (Ch. 1) V, §6, No. 2，Th。 1）。
 
 4) *家庭财产* $b \mapsto \lambda_b$。通过性质$\beta)$，我们可以通过取$f = 1,\ g \in \mathscr{K}(T)$来应用公式（3）；这证明$b \mapsto \lambda_b$是$\nu$标量可积的（对于拓扑$\sigma(\mathscr{M}(T), \mathscr{K}(T))$），因而$\nu$-*足够*（引理3），并且$\mu = \int \lambda_b\, d\nu(b)$。
 
@@ -145,13 +145,13 @@ T 上的每个$\nu$-充分族$b \mapsto \lambda_b$，具有 Th 的属性 b) 和 
 
 2) 令$B'$为局部紧致空间，$\nu'$为$B'$的正测度；对于 T 空间 $B \times B'$，对于 $\mu$，采取措施 $\nu \otimes \nu'$；如果$p$是T在B上的投影，则$\nu$是$p$下$\mu$的伪像（第V, §8, No. 2章，第4条命题和No. 3，第7条命题的Cor.1）。
 
-注，如果$\nu$是$\mu$在$p$下的伪像测度，则$\nu$由$p(T)$携带。
+注意，如果$\nu$是$\mu$在$p$下的伪像测度，则$\nu$由$p(T)$携带。
 
-如果$\nu$是$p$下$\mu$的伪像，则作为$\mu$在$p$下的伪像的测度的集合是等价于$\nu$的正测度的类，并且与$\mu$等价的每个正测度都承认相同$p$下的伪图像测量。 $\nu$的类据说是$p$下$\mu$的*伪像类*。
+如果$\nu$是$p$下$\mu$的伪像，则$\mu$在$p$下的伪像的测度的集合是等价于$\nu$的正测度的类，并且与$\mu$等价的每个正测度都承认相同$p$下的伪图像测量。 $\nu$的类据说是$p$下$\mu$的*伪图像类*。
 
 #### 命题 1 {#int-vi-s3-prop-1 .statement tag=09C6}
 
-— *令 T 为无穷大处可数的局部紧致空间，T 上的正测度$\mu$，以及 T 的 $\mu$ 可测映射 $p$ 为局部紧致空间 B。则在下存在$\mu$ 的伪像测度$p$.*
+— *设 T 为无穷大处可数的局部紧致空间，T 上的正测度$\mu$，以及 T 的 $\mu$ 可测映射 $p$ 为局部紧致空间 B。则在下存在$\mu$ 的伪像测度$p$.*
 
 因为，T 上存在一个“有界”测度 $\mu'$，相当于 $\mu$（第 V, §5, No. 6 章，第 11 条命题）；那么$p$就是$\mu'$-正确的。
 
@@ -182,7 +182,7 @@ $$
 
 通过$\lambda_b$的定义，这个函数是$b \mapsto \int h(t) d\lambda_b(t)$，从而（*loc.cit.*）$\int h(t) d\mu(t) = \int d\nu(b) \int h(t) d\lambda_b(t)$，这就证明了$\mu = \int \lambda_b d\nu(b)$。
 
-为了建立叙述的第二个部分，我们注可以假设$r(b) > 0$对于所有$b \in B$（第V, §5, No. 6，提案10）； 集合$\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$；如上所示，对于每个函数 $h \in \mathscr{K}(T)$，关系
+为了建立叙述的第二个部分，我们可以假设 $r(b) > 0$ 对于所有 $b \in B$（第 V, §5, No. 6，命题 10）； 集合$\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$；如上所示，对于每函数 $h \in \mathscr{K}(T)$，关系
 
 $$
 \int h(t) d\mu(t) = \int d\nu'(b) \int h(t) d\lambda'_b(t)
@@ -198,13 +198,13 @@ $$
 
 #### 定义 2 {#int-vi-s3-def-2 .statement tag=09C8}
 
-*令 T 和 B 为两个波兰局部紧空间。给定 T 上的正测度 $\mu$，T 到 B 的 $\mu$ 可测映射 p，以及 p 下 $\mu$ 的伪像测度 $\nu$，T 上正测度的每个 $\nu$ 充分族 $b \mapsto \lambda_b$ ($b \in B$) 具有以下属性Th 的 b) 和 c)。 2 称为 $\mu$ 相对于 $\nu$ 的分解。*
+*令 T 和 B 为两个波兰局部紧空间。给定 T 上的正测度 $\mu$，T 到 B 的 $\mu$ 可测映射 p，以及 p 下 $\mu$ 的伪像测度 $\nu$，T 上正测度的每个 $\nu$ 充分族 $b \mapsto \lambda_b$ ($b \in B$) 都具有以下属性Th 的 b) 和 c)。 2 称为 $\mu$ 相对于 $\nu$ 的分解。*
 
 当$p$是$\mu$-固有且$\nu = p(\mu)$时，相对于$p$的崩解概念因此重合具有相对于$\nu$的崩解概念。在 Th 的假设下。 2、对于$\nu$，$\mu$相对于相同伪图像测量$\nu$的两次分解几乎处处相等。
 
 #### 注 {#int-vi-s3-n3-rem-1 .statement tag=09C9}
 
-— Th。第 1 章。 V, §3, No. 4表明（考虑到T和B具有可数基的事实），对于T上定义的每个函数$f$，其中值在$\overline{\mathbf{R}}$或在Banach空间F和$\mu$可积中，集合 $b \in B$使得$f$不是$\lambda_b$可积，$\nu$可忽略不计，函数$b \mapsto \int f(t) d\lambda_b(t)$，几乎到处都有定义，是$\nu$可积，并且
+— Th。第 1 章。 V, §3, No. 4表明（考虑到T和B具有可数基的事实），对于T上定义的每个函数$f$，其中值在$\overline{\mathbf{R}}$或在Banach空间F和$\mu$可积中，集合 $b \in B$使得$f$不是$\lambda_b$可积，$\nu$可忽略不计，函数$b \mapsto \int f(t) d\lambda_b(t)$几乎到处都有定义，是$\nu$可积，并且
 
 $$
 \int f(t) d\mu(t) = \int d\nu(b) \int f(t) d\lambda_b(t) .
@@ -218,15 +218,15 @@ $$
 
 回想一下（GT，I, §8, No. 3，命题 8），当 R 是开等价关系时，同样可以说 R 在 X × X 中的图是闭的。
 
-令 p 为 X 的映射进入豪斯多夫拓扑空间 B，并令 R 为 X 中的等价关系 $p(x) = p(y)$；如果 K 是 X 的紧子集，使得 p 到 K 的限制是连续的，则 R 在 K 上诱导的关系 $R_K$ 是 Hausdorff，因为商空间 $K / R_K$ 同胚于空间 $p(K)$，紧凑（GT、I, §9, No. 4、Th.2 及其 Cor.2）。如果 T 是局部紧致空间，$\mu$ 是 T 上的正测度，并且 p 是 T 到 Hausdorff 拓扑空间 B 的 $\mu$ 可测映射，因此可以看出存在$\mu$-稠密集合（第 1 章）。 T 的紧凑子集 K 的IV, §5, No. 8)，其中关系 $R_K$ 是 Hausdorff。因此，我们做出以下定义：
+令 p 为 X 的映射进入豪斯多夫拓扑空间 B，并令 R 为 X 中的等价关系 $p(x) = p(y)$；如果 K 是 X 的紧子集，使得 p 到 K 的限制是连续的，则 R 在 K 上诱导的关系 $R_K$ 是 Hausdorff，因为商空间 $K / R_K$ 同胚于空间 $p(K)$，紧凑（GT、I, §9, No. 4、Th.2 及其 Cor.2）。如果 T 是局部紧致空间，$\mu$ 是 T 的正测度，并且 p 是 T 到 Hausdorff 拓扑空间 B 的 $\mu$ 可测映射，因此可以看出存在$\mu$ 稠密集合（第 1 章）。 T 的紧凑子集 K 的IV, §5, No. 8)，其中关系 $R_K$ 是 Hausdorff。因此，我们做出以下定义：
 
 #### 定义 3 {#int-vi-s3-def-3 .statement tag=09CA}
 
-*设 T 为局部紧致空间，$\mu$ T 上的正测度。如果存在 T 的紧致子集 K 的 $\mu$ 密集集合，则 T 中的等价关系 R 被认为是 $\mu$ 可测，其中关系 $R_K$ 是豪斯多夫。*
+*设 T 为局部紧致空间，$\mu$ T 上的正测度。如果存在 T 的紧致子集 K 的 $\mu$ 稠密集合 K，则称 T 中的等价关系 R 是 $\mu$ 可测的。 关系 $R_K$ 是豪斯多夫。*
 
 如果 R 是 Hausdorff，则 R 是 $\mu$ 可测的，因为如果 $\varphi$ 是 T 的典范映射到 Hausdorff 拓扑空间 T/R，则$\varphi$ 是连续的，并且 R 等效于 $\varphi(x) = \varphi(y)$。类似地，如果 R 使得 T 的每个紧凑子集的 R 的饱和度是封闭的（特别是，如果 R 是封闭的等价关系），则 R 是 $\mu$ 可测的，因为对于 T 的每个紧凑子集 K，关系 $R_K$ 是封闭的，因此 Hausdorff (GT, I, §10, No. 4，提案 8）。
 
-注如果 R 是 $\mu$ 可测的，那么对于 T 上的每一个测度，R 也是可测的，具有基 $\mu$。
+请注意，如果 R 是 $\mu$ 可测的，那么对于 T 上具有基 $\mu$ 的每个测度，R 也是可测的。
 
 #### 命题 2 {#int-vi-s3-prop-2 .statement tag=09CB}
 
@@ -236,13 +236,13 @@ $$
 
 2) 此外，如果 T 承认可数基，则可以假设 B 承认可数基。*
 
-由于 T 在无穷大处可数，因此存在 T 的紧凑子集的递增序列 $(K_n)_{n \geq 1}$，使得 T 是 $K_n$ 的并和$\mu$-可忽略的集合 N，并且使得每个关系 $R_{K_n}$ 是豪斯多夫。令$B_n$为空间$K_n / R_{K_n}$的商，它是紧致的，并令$B'_n$为紧致的空间，即$B_n$和点$a_n$的拓扑和。设$q_n$是$K_n$的典范映射到$B_n$；我们通过以下方式将 T 的扩展 $q_n$ 到映射 $p_n$ 转换为 $B'_n$：如果 $x \in T$ 等价于 mod R 到元素 $y \in K_n$，集合 $p_n(x) = q_n(y)$；相反，集合$p_n(x) = a_n$。
+由于 T 在无穷大处可数，存在 T 的紧凑子集的递增序列 $(K_n)_{n \geq 1}$，使得 T 是 $K_n$ 的并和$\mu$-可忽略的集合 N，并且使得每个关系 $R_{K_n}$ 是豪斯多夫。令 $B_n$ 为商空间 $K_n / R_{K_n}$，这是紧致的，并令 $B'_n$ 为紧致空间，即 $B_n$ 和点 $a_n$ 的拓扑和。设$q_n$是$K_n$的典范映射到$B_n$；我们通过以下方式将 T 的扩展 $q_n$ 到映射 $p_n$ 转换为 $B'_n$：如果 $x \in T$ 等价于 mod R 到元素 $y \in K_n$，集合 $p_n(x) = q_n(y)$；相反，集合$p_n(x) = a_n$。
 
 令 $B'$ 为乘积空间 $\prod_{n=1}^{\infty} B'_n$，这是紧致的，并令 $p'$ 为 T 到 B' 的映射 $x \mapsto (p_n(x))$。让我们证明$p'$是$\mu$可测的：它足以证明映射$p_n$中的每一个都是可测的（Ch.IV, §5, No. 3，Th.1），并且为此，$p_n$的限制对于每个限制就足够了$K_m$是可测量的。现在，如果 $m \leq n$; 就很明显了；相反，如果$m > n$，则令$K_{nm}$为$K_n$对$R_{K_m}$的饱和度，这是$K_m$的紧凑子集（GT，I, §9, No. 4，Th.2）；由于$p_n$在$K_m - K_{nm}$上恒定，因此足以证明$p_n$到$K_{nm}$的限制是连续的，这在$K_{nm}/R_{K_{nm}}$和$K_n/R_{K_n}$之间的典范同构是明显的（GT，I, §9, No. 4，Cor.4） 2）。
 
 令 A 为关系 R 的 $\bigcup_n K_n$ 饱和度，并令 $N' = T - A \subset N$。我们将看到关系$p'(x) = p'(y)$等价于关系«$R\{x, y\}$或$(x, y) \in N' \times N'$»。对于，如果 $R\{x, y\}$ 那么 $p_n(x) = p_n(y)$ 对于所有 $n$，因而 $p'(x) = p'(y)$；如果 $x \in N'$，$y \in N'$，那么对于所有 $n$ 来说，$p_n(x) = p_n(y) = a_n$，因而$p'(x) = p'(y)$。另一方面，如果 $x$ 和 $y$ 在 A 中且不等价 mod R，则存在整数 $n$、元素 $x' \in K_n$（分别为 $y' \in K_n$）等价 mod R 到 $x$（分别为 $y$），使得$x'$ 不等于 $y'$ mod $R_{K_n}$；因而$p_n(x) \neq p_n(y)$，因而$p'(x) \neq p'(y)$。最后，如果$x \in N'$和$y \in A$，那么$p_n(y) \in B_n$代表$n$足够大，$p_n(x) = a_n$代表所有$n$，因而$p'(x) \neq p'(y)$，这建立了我们的断言。
 
-然后考虑商集$B_0 = N'/R_{N'}$；让$q_0$是$N'$的典范映射到$B_0$，$s_0$截面到$q_0$。 集合 $p_0(x) = s_0(q_0(x))$ 对于 $x \in N'$ 和扩展 $p_0$ 到 T，通过将 $p_0$ 在 A 上设为等于 T 的元素的常数。则 $p = (p', p_0)$ 是 T 的 $\mu$ 可测映射，局部紧凑空间 $B = B' \times T$；如果 $x \in N'$、$y \in N'$、关系 $p_0(x) = p_0(y)$ 蕴含$R\{x, y\}$，则为直接的；因而$p$满足要求。此外，如果 T 承认可数基，则每个商空间 $B_n$ 也承认（GT，IX, §2, No. 10，命题 17），因而 B' 承认可数基，因而 B 也承认。
+然后考虑商集$B_0 = N'/R_{N'}$；让$q_0$是$N'$的典范映射到$B_0$，$s_0$截面到$q_0$。 集合 $p_0(x) = s_0(q_0(x))$ 对于 $x \in N'$ 和扩展 $p_0$ 到 T，通过将 $p_0$ 在 A 上设为等于 T 的元素的常数。则 $p = (p', p_0)$ 是 T 的 $\mu$ 可测映射，局部紧凑空间 $B = B' \times T$；如果 $x \in N'$、$y \in N'$、关系 $p_0(x) = p_0(y)$ 蕴含$R\{x, y\}$，则为直接的；因而$p$满足要求。此外，如果 T 承认可数基，则商空间 $B_n$ 中的每一个也承认（GT，IX, §2, No. 10，命题 17），因而 B' 承认可数基，因而 B 也是如此。
 
 #### 命题 3 {#int-vi-s3-prop-3 .statement tag=09CC}
 
@@ -274,15 +274,15 @@ c) *存在 $\mu$ 可测量集合的序列 $(A_n)$，对于 R 饱和，使得对�
 
 ### 5. 通过可测量的等价关系来分解测量
 
-设 T 为波兰局部紧致空间，$\mu$ T 上的正测度，R 为 T 中的 $\mu$ 可测等价关系。则存在（No. 4，命题 2）波兰局部紧致空间 B 和 $\mu$ 可测将 T 的映射 p 转换为 B，使得关系 $p(x) = p(y)$ 等价于 R$\{x, y\}$。每个在 p (No. 2) 下作为 $\mu$ 伪像的测度 $\nu$ 将被称为 *$\mu$ 除以关系* R 的商测度；如果$b \mapsto \lambda_b$是$\mu$相对于测度$\nu$的分解，我们可以说$b \mapsto \lambda_b$是关系* R对$\mu$的分解。凭借p和$\lambda_b$的属性，每个测度$\lambda_b$集中于等价类相对于 R，如果 $b \neq c$，则度量 $\lambda_b$ 和 $\lambda_c$ 集中在不同的类上。
+设 T 为波兰局部紧致空间，$\mu$ T 上的正测度，R 为 T 中的 $\mu$ 可测等价关系。则存在（No. 4，命题 2）波兰局部紧致空间 B 和 $\mu$ 可测将 T 的映射 p 转换为 B，使得关系 $p(x) = p(y)$ 等价于 R$\{x, y\}$。每个测度 $\nu$ 是 $\mu$ 在 p (No. 2) 下的伪像，将通过关系* R 称为 $\mu$ 的 *商测度；如果$b \mapsto \lambda_b$是$\mu$相对于测度$\nu$的分解，我们可以说$b \mapsto \lambda_b$是关系* R对$\mu$的分解。凭借p和$\lambda_b$的属性，每个测度$\lambda_b$集中于等价类相对于 R，如果 $b \neq c$，则度量 $\lambda_b$ 和 $\lambda_c$ 集中在不同的类上。
 
-空间 B、映射 p 和 B 上的伪像测度 $\nu$ 通常可以通过无限多种方式进行选择。尽管如此，R对$\mu$的各种分解都可以从其中的一种中推出，如以下定理的推论：
+空间 B、映射 p 和 B 上的伪像测度 $\nu$ 通常可以通过无限多种方式进行选择。然而，R对$\mu$的各种分解都可以从其中之一推导出来，如以下定理的推论：
 
 #### 定理 4 {#int-vi-s3-thm-4 .statement tag=09CF}
 
-*设 T 为 T 上的波兰局部紧致空间，$\mu$ T 的正测度，R 为 T 中的 $\mu$ 可测量等价关系。设 B、B' 为 T 到 B 中的两个波兰局部紧致空间，p，p' 两个 $\mu$ 可测量映射，分别为 B'，使得 R$\{x, y\}$ 等于 $p(x) = p(y)$ 和$p'(x) = p'(y)$。令$\nu, \nu'$分别为$\mu$在p、p'下的伪像测度；令$b \mapsto \lambda_b, b' \mapsto \lambda_{b'}$分别为$\mu$相对于$\nu, \nu'$的分解。*
+*设 T 为 T 上的波兰局部紧致空间，$\mu$ T 的正测度，R 为 T 中的$\mu$可测等价关系。设 B、B' 为 T 到 B 中的两个波兰局部紧致空间，p，p' 两个$\mu$可测映射，分别为 B'，使得 R$\{x, y\}$ 等于 $p(x) = p(y)$ 和$p'(x) = p'(y)$。令$\nu, \nu'$分别为$\mu$在p、p'下的伪像测度；令$b \mapsto \lambda_b, b' \mapsto \lambda_{b'}$分别为$\mu$相对于$\nu, \nu'$的分解。*
 
-*在这些条件下，存在B（分别为B'）集合N（分别为N'），可忽略不计$\nu$（分别为$\nu'$）和双射f B - N到B' - N'，具有以下属性：*
+*在这些条件下，B（分别为B'）中存在集合N（分别为N'），对于$\nu$（分别为$\nu'$）和双射f，B - N到B' - N'上的f可以忽略不计，具有以下属性：*
 
 a) *映射 f（在 B 中几乎所有地方都有定义）是 $\nu$ 可测的，其逆映射 $f'$ 是 $\nu'$ 可测的； f（分别 $f'$）下 $\nu$（分别 $\nu'$）的每个伪像度量都相当于 $\nu'$（分别 $\nu$）。*
 

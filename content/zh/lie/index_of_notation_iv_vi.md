@@ -12,19 +12,19 @@ pdf_pages: 0272-0273
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 92d8a2eba4a96ade238262b61367cd40e99eeaedce504d59aaa1f0a1865c84ea
+content_sha256: cbce19698a5627bb6f3c52051a419ddac1360c7d3cd699e2ba5bad4d946eab0c
 translated_from: content/en/lie/index_of_notation_iv_vi.md
 translation_method: google
 source_content_sha256: e45d34417b66f70e534f011c7e363f540b7e6a69ca53df4428f6c7f9fc75c473
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: cfe5fd2a95c4603d0f7e21288d7c7715ffd853fc0ddb9efd8c527592c50f21a9
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 参考号数分别表示章、段落和数。
 
@@ -32,7 +32,7 @@ $A_l$（根系 / 型）：VI。 4. 1; VI。 4. 7 和板 I。
 $\tilde{A}_l$：VI。 4. 3.
 $A[P]$：VI。 3. 1.
 $\Lambda(R)$：VI。 1. 1.
-$\tilde{\alpha}$（最高根）：VI。 1. 8； VI。 4. 3.
+$\tilde{\alpha}$（最高根）：VI。 1. 8; VI。 4. 3.
 $\alpha_0 = -\tilde{\alpha}$：VI。 4. 3.
 $(\alpha_1, \ldots, \alpha_l)$：VI。 1. 5.
 $B$：IV。 2. 1.

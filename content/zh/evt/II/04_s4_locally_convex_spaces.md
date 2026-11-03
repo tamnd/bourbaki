@@ -41,16 +41,16 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: d77e815be68b3825090d703a9f040af1a9e783f492c3e5ff83b73a03d0edbb95
+content_sha256: 76f78091a571cef494c36959f042ea37c272fe827bd6a60282e9504362c12018
 translated_from: content/en/evt/II/04_s4_locally_convex_spaces.md
 translation_method: google
 source_content_sha256: 739b1018258c46c62f41370f616639ef1cdd404280e387353dc0a0e48e83ef94
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 454038bd9c73a64575f4b4b1b18865ad8c7b359af82bf16267ba9be3bce684c2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。局部凸空间
@@ -73,21 +73,21 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 显然 $\mathfrak{B}$ 是 I、p. 7 的过滤器基满足 (EV_I) 和 (EV_{II})。 4；它也满足 (EV_{III})，因为如果 $V \in \mathfrak{S}$ 那么 $\frac{1}{2}V + \frac{1}{2}V = V$。
 
-注如果 $\mathscr{T}$ 是 E 上的局部凸拓扑，且 $\mathfrak{B}$ 的基数系统为邻域为 0，则集合 $(1/n) \ V$，其中 $n$ 变化整数$> 0$和V在$\mathfrak{S}$变化，形式对于拓扑$\mathscr{T}$，邻域的基本系统为0。那么$\mathscr{T}$是豪斯多夫，当且仅当，对于E中的每个$x \neq 0$，存在整数$n$和集合$V \in \mathfrak{S}$，使得$nx \notin V$；此外，如果$\mathfrak{S}$是可枚举的，那么拓扑$\mathscr{T}$是可度量的局部凸拓扑。相反，很明显，如果$\mathscr{T}$是可度量局部凸拓扑，则对于$\mathscr{T}$，存在闭对称凸邻域的可枚举基本系统为0。
+请注意，如果 $\mathscr{T}$ 是 E 上的局部凸拓扑，且 $\mathfrak{B}$ 邻域的基本系统为 0，则集合 $(1/n) \ V$，其中 $n$ 在整数中变化$> 0$和V在$\mathfrak{S}$、形式变化，对于拓扑$\mathscr{T}$，邻域的基本系统为0。那么$\mathscr{T}$是Hausdorff，当且仅当对于E中的每个$x \neq 0$，存在整数$n$和集合$V \in \mathfrak{S}$，使得$nx \notin V$；此外，如果$\mathfrak{S}$是可枚举的，则拓扑$\mathscr{T}$是可度量的局部凸拓扑。相反，很明显，如果$\mathscr{T}$是可度量局部凸拓扑，则对于$\mathscr{T}$，存在闭对称凸邻域的可枚举基本系统为0。
 
-#### 推论{#evt-ii-s4-n1-cor-1 .statement tag=07E6}
+#### 推论 {#evt-ii-s4-n1-cor-1 .statement tag=07E6}
 
 — 拓扑向量空间 E 的 *拓扑 $\mathscr{T}$，由半范数的集合定义* (II, p. 3) *当且仅当 $\mathscr{T}$ 是局部凸的*。
 
-条件是必要的，因为 E 上的每个半范数都是凸函数，因此，对于 $\alpha > 0$，$x \in E$ 的集合，其中 $p(x) \leq \alpha$ 是凸的（II、p. 17，推论）。相反，如果 V 是 E 中 0 的对称、闭凸邻域，则 V 的*规范* $p$ 是 E 上的半范数，使得 V 是 E 的点 $x$ 的集合满足$p(x) \leq 1$（II、p. 20，第 23 条）。
+条件是必要的，因为 E 上的每个半范数都是凸函数，因此，对于 $\alpha > 0$，$x \in E$ 的集合其中 $p(x) \leq \alpha$ 是凸的（II、p. 17、推论）。相反，如果 V 是 E 中 0 的对称、闭合、凸邻域，则 V 的*规范* $p$ 是 E 上的半范数，使得 V 是 E 的点 $x$ 的集合满足 $p(x) \leq 1$（II、p. 20，第 23 条）。
 
 这进一步表明，局部凸拓扑 $\mathscr{T}$ 由 *所有对于 $\mathscr{T}$* 连续的半范数的集合定义。此外，如果 $\mathscr{T}$ 是可度量的，那么它是由半范数的*可枚举* 集合定义的。
 
-从推论到支撑。 1，半范数集合定义的拓扑上§ 1的所有结果特别适用于实数向量空间上的局部凸拓扑。局部凸 Hausdorff 空间 E 具有局部凸的完成$\hat{E}$。一个完整的、可度量的局部凸空间称为 *Fréchet 空间*；每个 Banach 空间都是 Fréchet 空间。
+从推论到道具。 1，半范数集合定义的拓扑上§ 1的所有结果特别适用于实数向量空间上的局部凸拓扑。局部凸 Hausdorff 空间 E 具有局部凸的完成$\hat{E}$。完整的、可度量的局部凸空间称为 *Fréchet 空间*；每个 Banach 空间都是 Fréchet 空间。
 
 #### 命题 2 {#evt-ii-s4-prop-2 .statement tag=07E7}
 
-— *令 f 为在向量子空间 M 上定义的连续线性形式，且局部凸空间 E；则存在在 E 上定义的连续线性形式 h，并且是 f* 的扩张。
+— *令 f 为在向量子空间 M 上定义的连续线性形式，具有局部凸空间 E；则存在在 E 上定义的连续线性形式 h，并且是 f* 的扩张。
 
 从上面的推论和II，p. 7，cor。 2、E 上存在连续半范数$p$，使得所有$y \in M$都有$|f(y)| \leq p(y)$。由哈恩-巴纳赫 th。 (II, p. 23, cor. 1) 在 E 上存在线性形式 $h$，扩展 $f$ 并且对于所有 $x \in E$ $|h(x)| \leq p(x)$，这意味着 $h$ 是连续的（II，p. 6，道具 5）。
 
@@ -95,7 +95,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 — 如果$g$是M在乘积空间$\mathbf{R}^I$中的连续线性映射，则$\mathbf{R}^I$中存在E的连续线性映射$h$，即$g$的扩张；对于写$g = (g_i)$，其中$g_i$是在M上定义的连续线性形式，对于每个$i \in I$，$g_i$有扩张$h_i$，这样$h_i$是E上的连续线性形式。连续线性映射 $h = (h_i)$ 具有所需的属性。
 
-注如果 F 是局部凸 Hausdorff 空间且 $g$ F 中 M 的连续线性映射，则 F 中不一定存在 E 的连续线性映射，即 $g$ 的扩张 (IV, p. 55, 练习 16, c））。然而，当 M 是有限维时，确实存在这样的扩张（*cf.* cor. 2，见下文）。
+请注意，如果 F 是局部凸 Hausdorff 空间且 $g$ F 中 M 的连续线性映射，则 F 中不一定存在 E 的连续线性映射，即 $g$ 的扩张 (IV, p. 55, 练习 16, c))。然而，当 M 是有限维时，确实存在这样的扩张（*cf.* cor. 2，见下文）。
 
 #### 推论 1 {#evt-ii-s4-prop-2-cor-1 .statement tag=07E9}
 
@@ -107,7 +107,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 — 令 M 为 E 的有限维向量子空间，局部凸 Hausdorff 空间。则存在E的闭向量子空间N，它是E中M的拓扑补。
 
-当且仅当 M 本身的恒等映射可以扩展到 M 上 E 的连续线性映射时，E 中存在 M 的拓扑补集，其中映射必然是连续的投影算子（GT，III, § 6.2，推论）。现在，这是从上面的注得出的，因为 M 与空间 $\mathbf{R}^n$ (I, p. 13, th. 2) 同构的。
+E 中存在 M 的拓扑补集当且仅当 M 的恒等映射本身可以扩展到 M 上的 E 的连续线性映射，则映射必然是连续的投影算子 (GT, III, § 6.2, 推论)。现在，这是从上面的注得出的，因为 M 与空间 $\mathbf{R}^n$ (I, p. 13, th. 2) 同构的。
 
 #### 命题 3 {#evt-ii-s4-prop-3 .statement tag=07EB}
 
@@ -115,9 +115,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 设A是E中的预紧集。给定V，E中0的平衡凸邻域，存在有限多个点$a_i \in A$($1 \leq i \leq n$)使得A包含在S中，邻域$a_i + V$($1 \leq i \leq n$)的并。因此，A 的平衡凸包络C 包含在 S 的平衡凸包络 T 中；但 T 包含在 B + V 中，其中 B 表示点 $a_i, -a_i$ ($1 \leq i \leq n$) 的有限集合的凸包络。现在 B 是预紧的（II，p. 14，cor.2）；因此，存在有限多个点$b_k \in B$（$1 \leq k \leq m$），使得$B_k$包含在邻域$b_k + V$的并中。则C包含在邻域$b_k + 2V$的并中，命题得证。
 
-注，在无限维局部凸 Hausdorff 空间中，紧集的凸包络不一定是封闭的（II，p. 74，练习 3）。
+请注意，在无限维局部凸 Hausdorff 空间中，紧集的凸包络不一定是封闭的（II，p. 74，练习 3）。
 
-#### 推论{#evt-ii-s4-n1-cor-2 .statement tag=07EC}
+#### 推论 {#evt-ii-s4-n1-cor-2 .statement tag=07EC}
 
 — 如果在局部凸 Hausdorff 空间 E 中，紧集 X 包含在完全凸集合中（完全在由 E 引起的均匀结构中），则 X 的凸闭包络是紧的。
 
@@ -129,7 +129,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 1) 空间 $\mathbf{R}^n$ 是局部凸的，因为中心 0 的开立方体是凸的（II，p. 9，道具 6）。因此，对于有限维的所有实拓扑向量空间也是如此；事实上，它是从上面和I, § 2.3，th 得出的。 2 假设E是Hausdorff；如果不是，则与 E 相关的 Hausdorff 空间 F 为有限维，因此局部凸，并且 F 中 0 的凸邻域的逆像在典范映射 $E \to F$ 下是凸的，形式 0 的邻域的基本系统 E.
 
-2) 令E为$\mathbf{R}$中的向量空间，$\mathfrak{B}$为E的所有子集的族，这些子集是吸收的、对称的和凸的。通过道具。 1 of II, p. 23 我们看到$\mathfrak{B}$是0的邻域的基本系统，对于E上的局部凸拓扑$\mathscr{T}_\omega$，这是E上所有局部凸拓扑中最好的。这个拓扑是Hausdorff；让 $x \neq 0$ 为 E 的任意点；存在 E 的基 $(i_i)_{i \in I}$，其中 $\alpha \in I$ 使得 $e_\alpha = x$； 点 $y = \sum_i y_i e_i$ 的集合使得$|y_\alpha| < 1$ 具有吸收性、对称性和凸性。它不是包含 $x$。从II、p. 24推论，$\mathscr{T}_\omega$也是由E上*所有*半范数的集合定义的拓扑，因此每个半范数在$\mathscr{T}_\omega$中都是连续的。
+2) 令E为$\mathbf{R}$中的向量空间，$\mathfrak{B}$为E的所有子集的族，这些子集是吸收的、对称的和凸的。通过道具。 1 of II, p. 23 我们看到$\mathfrak{B}$是0的邻域的基本系统，对于E上的局部凸拓扑$\mathscr{T}_\omega$，这是E上所有局部凸拓扑中最好的。这个拓扑是Hausdorff；让 $x \neq 0$ 为 E 的任意点；存在 E 的基 $(i_i)_{i \in I}$，其中 $\alpha \in I$ 使得 $e_\alpha = x$； 点 $y = \sum_i y_i e_i$ 的集合使得$|y_\alpha| < 1$ 具有吸收性、对称性和凸性。它不是包含 $x$。从II、p. 24、推论，可以得出$\mathscr{T}_\omega$也是由E上*所有*半范数的集合定义的拓扑，因此每个半范数在$\mathscr{T}_\omega$中都是连续的。
 
 特别是，如果$u$是任何局部凸空间F中E的线性映射，逆像，在$u$下，F中0的每个凸邻域是E中的*吸收性*凸集合；因此，对于$\mathscr{T}_\omega$来说，邻域为0，因此对于$\mathscr{T}_\omega$来说，$u$是*连续的*。
 
@@ -141,7 +141,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 3) 设 A 是 $\mathbf{R}$ 上向量空间 E 中的对称凸集合。由 A *生成*的向量子空间 F 也是由 A 生成的凸锥体，因为 $-A = A$；这个集合是$\lambda x$的集合，其中$x \in A$和$\lambda \in \mathbf{R}$； 集合 A 在* F 和集合 $\lambda A$ 中*吸收，其中 $\lambda > 0$、形式邻域的基本系统为 0，对于* F 上的局部凸拓扑 *（据说由 A *定义*），即由半范数$p_A$定义，A的*规范*（II，p. 20，道具22）；我们将 $E_A$ 写为通过给 F 半范数而获得的局部凸空间。 空间 $E_A$ 是 *Hausdorff* 当且仅当 $p_A$ 是 *范数* 或者 A 不包含 *任何行*。如果 B 是 E 中的第二个对称凸集合，并且如果$A \subset B$，则显然$E_A \subset E_B$，并且$E_B$中$E_A$的典范嵌入对于由 A 和 B 分别定义的拓扑是*连续的。此外，如果 $f$ 是 E 的线性映射在实向量空间 $E'$ 中，$f(A)$ 在 $E'$ 中是凸且对称的，$f$ 是$E_A$ *在* $E'_{f(A)}$ 上的*连续* 线性映射。
 
-最后，注，如果E携带与其向量空间结构兼容的拓扑$\mathscr{T}$，并且如果V是$\mathscr{T}$的对称*凸*邻域，则向量空间生成V 与 E 相同，因为 V 是吸收性的，并且 $E_V$ 中 E 的恒等映射是*连续*。
+最后，请注意，如果 E 携带与其向量空间结构兼容的拓扑 $\mathscr{T}$，并且如果 V 是 $\mathscr{T}$ 的 0 对称 *凸* 邻域，则由 V 生成的向量空间是相同的与 E，因为 V 是吸收性的，并且 $E_V$ 中 E 的恒等映射是*连续*。
 
 ### 3. 局部凸初始拓扑
 
@@ -149,7 +149,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 *设 E 为向量空间，并令 $(E_i)_{i \in I}$ 为局部凸空间族。对于每个$i \in I$，令$f_i$为$E_i$中E的线性映射；那么 E 上的拓扑* $\mathscr{T}$ 是使每个映射 $f_i$ 连续的最粗糙的，是局部凸的拓扑。
 
-使用II、p. 24推论，这是由半范数（II、p. 5）定义的拓扑的相应的性质的特殊情况。
+使用 II、p. 24、推论，这是由半范数 (II、p. 5) 定义的拓扑的相应的性质的特殊情况。
 
 特别是，局部凸空间的每个向量子空间以及局部凸空间的每个乘积空间都是局部凸的。局部凸空间的每个射影极限都是局部凸的。
 
@@ -185,7 +185,7 @@ $\mathscr{T}$ 可能不是 E 上与其向量空间结构兼容且使 $f_\alpha$ 
 
 *带有记号的支柱。 5、令H为局部凸空间G中E的线性映射的集合。假设E为其子空间$g_\alpha(F_\alpha)$的和；则 H 对于 $\mathscr{T}$ 等连续，当且仅当对于每个 $\alpha$、集合 $f \circ g_\alpha$，其中 $f$ 在 H 中变化，在 $F_\alpha$ 中等连续。*
 
-记住I，p. 9，道具。 6 该论证与(ii) 命题类似。 5. 令W为G中0的对称凸邻域，且注，若集合$f \circ g_\alpha$，其中$f \in H$等连续，则交$\bigcap_{f \in H} g_\alpha^{-1}(f^{-1}(W))$为$F_\alpha$中0的对称凸邻域。由于这个交与 $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ 相同，并且集合 $\bigcap_{f \in H} f^{-1}(W)$ 是对称且凸的，所以一切都取决于证明它也是*吸收性*。现在，到假设，每个$x \in E$都可以写成$\sum_{i=1}^n g_{\alpha_i}(z_{\alpha_i})$，其中$z_{\alpha_i} \in F_{\alpha_i}$。为了证明对于所有$f \in H$存在$\lambda > 0$使得$f(\lambda x) \in W$，考虑$x = g_\alpha(z_\alpha)$和$z_\alpha \in F_\alpha$的情况就足够了（因为我们可以通过替换W通过$W/n$传递到一般情况）。但这种情况是因为$g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$是$F_\alpha$中0的邻域。
+记住I，p. 9，道具。 6 该论证与(ii) 命题类似。 5. 令 W 为 G 中 0 的对称凸邻域，并注意，如果集合 $f \circ g_\alpha$，其中 $f \in H$ 等连续，则交 $\bigcap_{f \in H} g_\alpha^{-1}(f^{-1}(W))$ 为 $F_\alpha$ 中 0 的对称凸邻域。由于这个交与 $g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$ 相同，并且集合 $\bigcap_{f \in H} f^{-1}(W)$ 是对称且凸的，所以一切都取决于证明它也是*吸收性的*。现在，到假设，每个$x \in E$都可以写成$\sum_{i=1}^n g_{\alpha_i}(z_{\alpha_i})$，其中$z_{\alpha_i} \in F_{\alpha_i}$。为了证明对于所有$f \in H$存在$\lambda > 0$使得$f(\lambda x) \in W$，考虑$x = g_\alpha(z_\alpha)$和$z_\alpha \in F_\alpha$的情况就足够了（因为我们可以通过替换W通过$W/n$传递到一般情况）。但这种情况是因为$g_\alpha^{-1}(\bigcap_{f \in H} f^{-1}(W))$是$F_\alpha$中0的邻域。
 
 #### 推论 2 {#evt-ii-s4-prop-5-cor-2 .statement tag=07EG}
 
@@ -195,13 +195,13 @@ $\mathscr{T}$ 可能不是 E 上与其向量空间结构兼容且使 $f_\alpha$ 
 
 局部凸最终拓扑的例。
 
-I。商空间。
+I。 商空间。
 
-令 M 为局部凸空间 F 的子空间，并且 φ 为 F/M 上 F 的典范映射。由于 F/M 上的商拓扑是局部凸的，并且是使 φ 连续的所有拓扑（局部凸或非局部凸）中最好的，因此它也是单个映射 φ 的族由……组成的局部凸最终拓扑。
+令 M 为局部凸空间 F 的子空间，并且 φ 为 F/M 上 F 的典范映射。由于 F/M 上的商拓扑是局部凸的，并且是使 φ 连续的所有拓扑（局部凸或非局部凸）中最好的，因此它也是单个映射 φ 族由……组成的局部凸最终拓扑。
 
-II。局部凸空间的电感极限。
+II。局部凸空间的归纳极限。
 
-设 A 为向右有序的集合，并令 $(E_\alpha, f_{\beta\alpha})$ 为向量空间相对于集合 A 的归纳系统 (A, II, § 6.2)；令$E = \varinjlim E_\alpha$和$f_\alpha : E_\alpha \to E$为每个$\alpha \in A$的规范线性映射。假设每个$E_\alpha$都带有一个局部凸的拓扑$\mathscr{T}_\alpha$，并进一步假设对于$\alpha \leq \beta$，映射$f_{\beta\alpha} : E_\alpha \to E_\beta$是*连续的*。然后我们说族$(\mathscr{T}_\alpha)$相对于线性映射$f_\alpha$（分别是空间E携带拓扑$\mathscr{T}$）的局部凸最终拓扑$\mathscr{T}$是族$(\mathscr{T}_\alpha)$的*归纳极限* （分别是系统 $(E_\alpha, f_{\beta\alpha})$ 的*归纳极限* 空间，或简单的局部凸空间 $E_\alpha$）。回想一下，E 是向量子空间 $f_\alpha(E_\alpha)$ 中的并，当 $\alpha \leq \beta$ 时，我们有 $f_\alpha(E_\alpha) \subset f_\beta(E_\beta)$；如果我们将映射$f_\alpha$赋予$f_\alpha(E_\alpha)$最终的拓扑（这与用商空间$E_\alpha/f_\alpha^{-1}(0)$识别$f_\alpha(E_\alpha)$相同），拓扑$\mathscr{T}$也是最终的拓扑 $f_\alpha(E_\alpha)$的拓扑系列，相对于典范嵌入（II，参见上面的2）。此外，$f_{\beta\alpha}$对于$\alpha \leq \beta$的连续性意味着典范嵌入$j_{\beta\alpha} : f_\alpha(E_\alpha) \to f_\beta(E_\beta)$是连续的，因此E也是$f_\alpha(E_\alpha)$相对于单射$j_{\beta\alpha}$承载前述拓扑的归纳极限。
+设 A 为向右有序的集合，并令 $(E_\alpha, f_{\beta\alpha})$ 为向量空间相对于集合 A 的归纳系统 (A, II, § 6.2)；让$E = \varinjlim E_\alpha$和$f_\alpha : E_\alpha \to E$成为每个$\alpha \in A$的规范线性映射。 假设每个$E_\alpha$带有一个局部凸拓扑$\mathscr{T}_\alpha$，并进一步假设对于$\alpha \leq \beta$，映射$f_{\beta\alpha} : E_\alpha \to E_\beta$是*连续的*。 然后我们说族$(\mathscr{T}_\alpha)$相对于线性映射$f_\alpha$（分别是承载拓扑$\mathscr{T}$的空间E）的局部凸最终拓扑$\mathscr{T}$是族$(\mathscr{T}_\alpha)$的*归纳极限*（分别是系统$(E_\alpha, f_{\beta\alpha})$的*归纳极限*空间，或者简单地是局部凸空间$E_\alpha$）。 回想一下，E 是向量子空间 $f_\alpha(E_\alpha)$ 的并，当 $\alpha \leq \beta$ 时，我们有 $f_\alpha(E_\alpha) \subset f_\beta(E_\beta)$；如果我们将映射$f_\alpha$赋予$f_\alpha(E_\alpha)$最终的拓扑（这与用商空间$E_\alpha/f_\alpha^{-1}(0)$识别$f_\alpha(E_\alpha)$相同），拓扑$\mathscr{T}$也是最终的拓扑 $f_\alpha(E_\alpha)$拓扑系列，相对于典范嵌入（II，上面的相关2）。 此外，$f_{\beta\alpha}$对于$\alpha \leq \beta$的连续性意味着典范嵌入$j_{\beta\alpha} : f_\alpha(E_\alpha) \to f_\beta(E_\beta)$是连续的，因此E也是$f_\alpha(E_\alpha)$相对于单射$j_{\beta\alpha}$的归纳极限，带有前面的拓扑。
 
 #### 例 {#evt-ii-s4-n4-exa-1 .statement tag=07EH}
 
@@ -209,7 +209,7 @@ II。局部凸空间的电感极限。
 
 #### 注 {#evt-ii-s4-n4-rem-1 .statement tag=07EI}
 
-— In the last example, the topology induced by $\mathscr{T}$ on $E_K$ is identical with $\mathscr{T}_K$, since by definition it is coarser than $\mathscr{T}_K$ and, since $\mathscr{T}$ is finer than $\mathscr{T}_u$, the topology induced by $\mathscr{T}$ on $E_K$ is finer than that induced by $\mathscr{T}_u$, that is to say $\mathscr{T}_K$.
+— 在最后一个例子中，$\mathscr{T}$在$E_K$上引起的拓扑与$\mathscr{T}_K$相同，因为根据定义它比$\mathscr{T}_K$更粗糙，并且由于$\mathscr{T}$比$\mathscr{T}_u$更精细，所以$\mathscr{T}$在$E_K$上引起的拓扑比$\mathscr{T}_u$更精细，就是说$\mathscr{T}_K$。
 
 当 E 上存在局部凸拓扑 $\mathscr{T}'$ 使得 $\mathscr{T}_\alpha$ 是由 $\mathscr{T}'$ 在 $E_\alpha$ 上诱导出拓扑时，推理立即推广到局部凸拓扑 $(\mathscr{T}_\alpha)$ 的归纳极限。
 
@@ -243,7 +243,7 @@ $$
 
 对于每个局部凸空间$G$。
 
-#### 推论{#evt-ii-s4-n5-cor-1 .statement tag=07EM}
+#### 推论 {#evt-ii-s4-n5-cor-1 .statement tag=07EM}
 
 *带有记号的支柱。 5、II、p. 27，假设*$E$*是*$g_\alpha(F_\alpha)$的和。 *设* $F$ *为族* $(F_\alpha)_{\alpha \in A}$的拓扑直和，*并让* $j_\alpha : F_\alpha \to F$ *为典范嵌入；假设*$g : F \to E$*是线性映射使得*$g \circ j_\alpha = g_\alpha$*对于所有*$\alpha \in A$。 *如果* $N$ *是* $g$的核，*则规范的双射* $F/N \to E$ *与* $g$ *关联，是* $F/N$ *上的拓扑同构 * $E$ *与拓扑* $\mathscr{T}$。
 
@@ -273,7 +273,7 @@ $$
 
 *如果每$\iota \in I$在$E_\iota$关闭$N_\iota$，则$N = \sum_\iota N_\iota$在$E$关闭。*
 
-因为，对于每个 $\iota \in I$，典范映射 $p_\iota : E \to E_\iota$ 是连续的（II, § 4.5，道具 6），因此 $p_\iota^{-1}(N_\iota)$ 在 $E$ 中闭合，因此交 $N = \bigcap_{\iota \in I} p_\iota^{-1}(N_\iota)$ 也是如此。
+因为，对于每个 $\iota \in I$，典范映射 $p_\iota : E \to E_\iota$ 都是连续的（II, § 4.5，道具 6），因此 $p_\iota^{-1}(N_\iota)$ 在 $E$ 中闭合，因此交 $N = \bigcap_{\iota \in I} p_\iota^{-1}(N_\iota)$ 也是如此。
 
 #### 推论 2 {#evt-ii-s4-prop-8-cor-2 .statement tag=07EQ}
 
@@ -285,7 +285,7 @@ $$
 
 ### 6. 局部凸空间序列电感极限
 
-在这个编号中，我们将考虑向量空间$E$的向量子空间的*递增序列*$(E_n)$，使得$E$是$E_n$的*并*；我们假设每个$E_n$都带有一个局部凸拓扑$\mathscr{T}_n$，这样，对于每个$n$，$\mathscr{T}_{n+1}$在$E_n$上诱导的拓扑比$\mathscr{T}_n$*粗糙*，并且我们给$E$局部凸拓扑$\mathscr{T}$即序列$(\mathscr{T}_n)$的*感应极限*（II，p. 29，*例II*）；这些假设和记号将在本号的其余部分中使用，无需重述。
+在这个数中，我们将考虑向量空间$E$的向量子空间的*递增序列*$(E_n)$，使得$E$是$E_n$的*并*；我们假设每个$E_n$带有一个局部凸拓扑$\mathscr{T}_n$，这样，对于每个$n$，$\mathscr{T}_{n+1}$在$E_n$上诱导的拓扑比$\mathscr{T}_n$*粗糙*，并且我们给$E$局部凸拓扑$\mathscr{T}$即序列$(\mathscr{T}_n)$的*感应极限*（II，p. 29，*例II*）；这些假设和记号将在本编号的其余部分中使用，无需重述。
 
 可能会出现每个$\mathscr{T}_n$是豪斯多夫但$\mathscr{T}$不是的情况；也可能发生这样的情况：对于整数$n, m$的每个对，$n \leq m$、子空间$E_n$在$E_m$中闭合（使用拓扑$\mathscr{T}_m$），但$E_n$在$E$中不闭合，使用$\mathscr{T}$（II，p. 80，练习 26）。
 
@@ -318,9 +318,9 @@ $$
 
 *令$V$为局部凸空间$F$的$M$、向量子空间中0的凸邻域。那么在 $F$ 中存在 0 的凸邻域 $W$，使得 $W \cap M = V$。此外，如果 $M$ 在 $F$ 中闭合，则对于每个点 $x_0 \in \complement M$，$F$ 中存在 0 的凸邻域 $W_0$，使得 $W_0 \cap M = V$ 和 $x_0 \notin W_0$。*
 
-事实上，到假设时，$F$ 中存在 0 的凸邻域 $U$，使得$U \cap M \subset V$。显然，$F$中$U \cup V$的凸包络$W$是$F$中0的邻域；我们证明了$W \cap M = V$。因为，每个点$z \in W$都是形式$\lambda x + (1-\lambda) y$与$x \in V, y \in U$和$0 \leq \lambda \leq 1$（II，p. 9，第8条）；如果$z \in M$和$\lambda \neq 1$那么必然是$y \in M$，因此$y \in U \cap M \subset V$，因此$z \in V$；如果$\lambda = 1$，结果显然为真。如果$M$在$F$内闭，空间$F/M$是Hausdorff，因此$F$中存在0的凸邻域$U_0 \subset U$，使得$U_0$不满足$x_0 + M$；那么$U_0 \cup V$的凸包络$W_0$满足要求的条件。
+事实上，到假设时，$F$ 中存在 0 的凸邻域 $U$，使得$U \cap M \subset V$。显然，$F$中$U \cup V$的凸包络$W$是$F$中0的邻域；我们证明$W \cap M = V$。因为，每个点$z \in W$都是形式$\lambda x + (1-\lambda) y$与$x \in V, y \in U$和$0 \leq \lambda \leq 1$（II，p. 9，第8条）；如果$z \in M$和$\lambda \neq 1$那么必然是$y \in M$，因此$y \in U \cap M \subset V$，因此$z \in V$；如果$\lambda = 1$，结果显然为真。如果$M$在$F$内闭，空间$F/M$是Hausdorff，因此$F$中存在0的凸邻域$U_0 \subset U$，使得$U_0$不满足$x_0 + M$；那么$U_0 \cup V$的凸包络$W_0$满足要求的条件。
 
-回到定理，证明(i)注的第二个部分，如果$x \in E$则$x \in E_n$对于某些$n$；如果 $x \neq 0$ 和 $\mathscr{T}_n$ 是 Hausdorff，则 $\mathscr{T}_n$ 的邻域 $V_n$ 为 0，而包含 $x$ 则不存在。我们看到，对于 $\mathscr{T}$，邻域 $V$ 为 0，这样 $V \cap E_n = V_n$，因此$x \notin V$，因此$\mathscr{T}$ 是 Hausdorff。
+回到定理，为了证明(i)的第二个部分，请注意，如果$x \in E$，则对于某些$n$，$x \in E_n$；如果 $x \neq 0$ 和 $\mathscr{T}_n$ 是 Hausdorff，则 $\mathscr{T}_n$ 的邻域 $V_n$ 为 0，而包含 $x$ 则不存在。我们看到对于 $\mathscr{T}$ 存在邻域 $V$ 为 0，这样 $V \cap E_n = V_n$，因此$x \notin V$，并且由此可见 $\mathscr{T}$ 是 Hausdorff。
 
 (ii) 设 $x \in E - E_n$；存在$m > n$使得$x \in E_m$，因此，因为对于$\mathscr{T}_m$，$E_n$在$E_m$中是封闭的（因为假设，对于每个$n$，在$E_n$上存在$\mathscr{T}_{n+1}$诱导$\mathscr{T}_n$） 拓扑 $\mathscr{T}_m$ $E_m$ 中 0 的凸邻域 $V_m$，使得 $(x + V_m) \cap E_n$ 为空。现在我们在 (i) 中看到，对于 $\mathscr{T}$ 存在 0 的凸邻域 $V$，使得 $V \cap E_m = V_m$；因此$(x + V) \cap E_m = x + V_m$，因此$(x + V) \cap E_n = \varnothing$，这证明了(ii)。
 
@@ -348,15 +348,15 @@ $$
 
 为了证明 $u$ 是连续的，只需证明对于每个 $\alpha$，映射 $u \circ g_\alpha : E_\alpha \to F$ 是连续的（II，p. 27，命题 5）。现在$u \circ g_\alpha$的图是连续映射$g_\alpha \times 1_F : E_\alpha \times F \to E \times F$下$u$图的逆像，因此到假设，在$E_\alpha \times F$封闭。因此，我们可以将自己限制在 E 本身是 *Fréchet 空间* 的情况。但命题是I、p. 20的特例。 1.
 
-#### 推论{#evt-ii-s4-n6-cor-1 .statement tag=07EW}
+#### 推论 {#evt-ii-s4-n6-cor-1 .statement tag=07EW}
 
 *对 E 和 F 的假设与命题中相同。 10 并假设 E 是 Hausdorff，则 E 中 F 的每个连续满射映射 v 都是严格的态射。*
 
-令N为$v$的核并写成$N_n = j_n^{-1}(N)$；那么映射 $j'_n : F_n / N_n \to F / N$，从 $j_n$ 取商推导出来，是单射且连续的，$F_n / N_n$ 是 Fréchet 空间（因为 $N_n$ 是闭集），$F / N$ 是并像低于$j'_n$。通过假设，在规范因式分解$v : F \to F / N \xrightarrow{w} E$中，线性映射$w$是双射且连续的，因此它在$(F / N) \times E$中的图是*封闭的*（GT，I, § 8.1，第2项的cor.2）。通过注开始并通过 prop。由图10可知，$w$的逆映射$u$是连续的，推论得到证明。
+令N为$v$的核并写成$N_n = j_n^{-1}(N)$；那么映射$j'_n : F_n / N_n \to F / N$，从$j_n$通过取商推导出来，是单射且连续的，$F_n / N_n$也是Fréchet空间（因为$N_n$是封闭的）并且$F / N$是并像低于$j'_n$。通过假设，在规范因式分解$v : F \to F / N \xrightarrow{w} E$中，线性映射$w$是双射且连续的，因此它在$(F / N) \times E$中的图是*封闭的*（GT，I, § 8.1，第2项的cor.2）。通过注开始并通过 prop。 10、$w$的逆映射$u$因此是连续的，推论被证明。
 
-\* 命题 10 及其推论尤其适用于当 E 是*完全出生学空间*（III，p. 12）并且 F 是 Fréchet 空间的序列的归纳极限时。 \*
+\* 命题 10 及其推论特别适用于当 E 是一个*完整的出生学空间*（III，p. 12）并且 F 是 Fréchet 空间的序列的归纳极限时。 \*
 
-### 7. 注弗雷切空间
+### 7. 注弗雷谢空间
 
 我们将考虑道具。 GT 的 2，在局部凸空间的情况下，IX, § 3.1。
 
@@ -372,7 +372,7 @@ $$
 
 *设$E$和$F$是两个Fréchet空间和$u$，$F$上$E$的连续线性映射。那么存在$u$的截面是连续的虽然不一定是线性的。*
 
-通过道具。 11 $E$中存在距离$d$，平移不变，定义拓扑或$E$，并且开球是凸的。 给定$F$中的$y$和$y'$，令$\delta(y, y')$为$E$中闭合的集合$u^{-1}(y)$和$u^{-1}(y')$之间的距离。 由于$u$是GT的严格态射（I，p. 17，第1）注，IX, § 3.1表明$\delta$是定义$F$的拓扑的$F$上的距离。 We shall construct, inductively, a sequence of continuous mappings $(s_n)_{n \in \mathbf{N}}$ of $F$ in $E$ satisfying the following inequalities for all $y \in F$:
+通过道具。 11 $E$中存在距离$d$，平移不变，定义拓扑或$E$，并且开球是凸的。 给定$F$中的$y$和$y'$，令$\delta(y, y')$为$E$中闭合的集合$u^{-1}(y)$和$u^{-1}(y')$之间的距离。 由于$u$是GT的严格态射（I，p. 17，第1）注，IX, § 3.1表明$\delta$是定义$F$的拓扑的$F$上的距离。 我们将归纳地构造$F$在$E$中的连续映射$(s_n)_{n \in \mathbf{N}}$，并且对于所有$y \in F$满足以下不等式：
 
 $$
 \delta(y, u(s_n(y))) < 2^{-n}
@@ -385,21 +385,21 @@ $$
 
 从不等式 (3) 映射 $s_n : F \to E$ 形式到柯西序列，用于一致收敛。当$E$完备时，序列$(s_n)_{n \in \mathbf{N}}$均匀收敛到连续的映射$s : F \to E$（GT，X, § 1.6）； 公式(2)表明$u \circ s$是$F$的恒等映射，因此$s$是$u$的连续截面。
 
-#### 推论{#evt-ii-s4-n7-cor-1 .statement tag=07EZ}
+#### 推论 {#evt-ii-s4-n7-cor-1 .statement tag=07EZ}
 
 *如果$F$中$L$是紧集，则$E$中存在紧集$K$，使得$u(K) = L$。*
 
 放置$K = s(L)$就足够了，其中$s$是$u$的连续截面。
 
-#### 注{#evt-ii-s4-n7-rem-1 .statement tag=07F0}
+#### 注 {#evt-ii-s4-n7-rem-1 .statement tag=07F0}
 
-— 1) 命题的推论。也可以从 th 推出 12。 1 个 I、p. 17 和道具。 GT 18，IX, § 2.10。
+— 1) 推论至支柱。也可以从 th 推出 12。 1 个 I、p. 17 和道具。 GT 18，IX, § 2.10。
 2）我们保留道具的记号。 12. 令$p$为$E$的连续半范数；
 
-对于所有$y \in F$，放入$q(y) = \inf_{u(x)=y} p(x)$，使得$q$是$F$（II，p. 4）上的连续半范数。令$\phi$为$F$在$\overline{\mathbf{R}}$的区间$]0, +\infty[$中的下半连续映射。我们证明存在 u 的*连续截面 s，使得*$p \circ s < q + \phi$。
+对于所有$y \in F$，放入$q(y) = \inf_{u(x)=y} p(x)$，使得$q$是$F$（II，p. 4）上的连续半范数。令$\phi$为$\overline{\mathbf{R}}$的区间$]0, +\infty[$中$F$的下半连续映射。我们证明存在 u 的*连续截面 s，使得*$p \circ s < q + \phi$。
 
-令$s_0$为$u$（命题12）的连续截面和$u$的$N$核。设$y_0 \in F$，则存在$z_0 \in N$使得$p(s_0(y_0) + z_0) < q(y_0) + \phi(y_0)$。 $F$ 中存在$y_0$ 的开邻域 $W$，使得$p(s_0(y) + z_0) < q(y) + \phi(y)$ 对于所有$y \in W$。因此，存在$F$的开覆盖$(W_i)_{i \in I}$和常数映射$t_i : F \to N$，使得$p(s_0(y) + t_i(y)) < q(y) + \phi(y)$适用于所有$y \in W_i$。由于 $F$ 是可度量的，因此存在单位元的局部有限连续划分，它从属于覆盖$(W_i)_{i \in I}$，例如$(g_i)_{i \in I}$（GT，IX, § 4.5，th.4和§ 4.4，cor.1）。由$s(y) = s_0(y) + \sum_{i \in I} g_i(y) \cdot t_i(y)$定义的$E$中的$F$的映射$s$满足规定的条件。
+令$s_0$是$u$（命题12）的连续截面和$N$核的$u$。设$y_0 \in F$，则存在$z_0 \in N$使得$p(s_0(y_0) + z_0) < q(y_0) + \phi(y_0)$。 $F$ 中存在$y_0$ 的开邻域 $W$，使得$p(s_0(y) + z_0) < q(y) + \phi(y)$ 对于所有$y \in W$。因此，存在$F$的开覆盖$(W_i)_{i \in I}$和常数映射$t_i : F \to N$，使得$p(s_0(y) + t_i(y)) < q(y) + \phi(y)$适用于所有$y \in W_i$。由于$F$是可度量的，因此存在单位元的局部有限连续划分，它从属于覆盖$(W_i)_{i \in I}$，例如$(g_i)_{i \in I}$（GT，IX, § 4.5，th.4和§ 4.4，cor.1）。由$s(y) = s_0(y) + \sum_{i \in I} g_i(y) \cdot t_i(y)$定义的$E$中的$F$的映射$s$满足规定的条件。
 
-### 习题{#evt-ii-s4-exercises}
+### 习题 {#evt-ii-s4-exercises}
 
 参见[习题为 § 4](exercises/s4/)。

@@ -45,25 +45,25 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: bd4eda37b8f448d5f7bc3f04d4c99aabfd07dae76347fdf0844a3bb68915e94c
+content_sha256: dd536d90056f253586449c49abcdb0fa8afd4317619c6f4a5a3faa6a2fb95098
 translated_from: content/en/lie/VIII/12_s12_chevalley_orders.md
 translation_method: google
 source_content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6d3cd832bd199ea8836375111a20e6ce22d414dbf65905dbbe9429b1dca76586
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 12。谢瓦利阶
+## § 12。 Chevalley 阶
 
 ### 1. 格与序
 
-令V为$\mathbf{Q}$向量空间。 V 中的格是 V 的自由 $\mathbf{Z}$-子模 $\mathscr{V}$，使得由 $\mathscr{V}$ 的单射诱导到 V 的 $\mathbf{Q}$-线性映射 $\alpha_{\mathscr{V},V}:\mathscr{V}\otimes_{\mathbf{Z}}\mathbf{Q}\rightarrow V$ 是双射的。当V是有限维时，这与说相同，$\mathscr{V}$是有限型的$\mathbf{Z}$子模，其中生成是$\mathbf{Q}$向量空间V（回想一下，有限的无扭转$\mathbf{Z}$模型代数免费，VII, §4, no. 4，第 2 章）；此外，在这种情况下，我们的定义是第1章交换代数的特例。 VII, §4, no. 1，防御。 1（前述，例 3）。如果W是V的向量子空间，且$\mathscr{V}$是V中的格子，则$\mathscr{V}\cap W$是W中的格子。
+令V为$\mathbf{Q}$向量空间。 A lattice in V is a free $\mathbf{Z}$-submodule $\mathscr{V}$ of V such that the $\mathbf{Q}$-linear 映射 $\alpha_{\mathscr{V},V}:\mathscr{V}\otimes_{\mathbf{Z}}\mathbf{Q}\rightarrow V$ induced by 单射 of $\mathscr{V}$ into V is bijective. When V is finite dimensional, this is the same as 说 that $\mathscr{V}$ is a $\mathbf{Z}$-submodule of finite 型 which 生成 the $\mathbf{Q}$-vector space V (recall that a torsion-free $\mathbf{Z}$-module of finite 型代数免费，VII, §4, no. 4，第 2 章）；此外，在这种情况下，我们的定义是第1章交换代数的特例。 VII, §4, no. 1，防御。 1（前述，例 3）。如果W是V的向量子空间，且$\mathscr{V}$是V中的格子，则$\mathscr{V}\cap W$是W中的格子。
 
-如果V是$\mathbf{Q}$-代数，则V中的阶是底层向量空间中的格$\mathscr{V}$，它是V的$\mathbf{Z}$-子代数； 映射 $\alpha_{\mathscr{V},V}$ 则为 $\mathbf{Q}$ 代数的同构。如果V是单位$\mathbf{Q}$代数，则V中的单位阶是V包含单位元中的阶。
+If V is a $\mathbf{Q}$-algebra, 阶 in V is a lattice $\mathscr{V}$ in the underlying 向量空间 that is a $\mathbf{Z}$-subalgebra of V; 映射 $\alpha_{\mathscr{V},V}$ 则为 $\mathbf{Q}$ 代数的同构。如果V是单位$\mathbf{Q}$代数，则V中的单位阶是V包含单位元中的阶。
 
 假设 V 是一个 $\mathbf{Q}$-bigebra，具有余积 $c$ 和余单位 $\gamma$。如果$\mathscr{V}$是向量空间V中的格，则规范的映射$i:\mathscr{V}\otimes_{\mathbf{Z}}\mathscr{V}\rightarrow V\otimes_{\mathbf{Q}}V$是单射的； V中的双序是单位代数V中的单位阶$\mathscr{V}$，使得$\gamma (\mathscr{V})\subset \mathbf{Z}$和$c(\mathscr{V})\subset i(\mathscr{V}\otimes_{\mathbf{Z}}\mathscr{V})$； 映射
 
@@ -87,9 +87,9 @@ $n$！
 
 $i=0$
 
-特别是$x^{(0,d)}= 1,x^{(1,d)}=x$。我们同意 $x^{(n,d)}= 0$ 对应 $n$ 整数 $<0$。放
+In particular, $x^{(0,d)}= 1,x^{(1,d)}=x$.我们同意 $x^{(n,d)}= 0$ 对应 $n$ 整数 $<0$。放
 
-$x^{(n)}=x^{(n,0)}=xn^n$！ (2)
+$x^{(n)}=x^{(n,0)}=xn^n$! (2)
 
 $(nx)=x^{(n,1)}=x(x-1). . .n($！$x-n+ 1)$。 (3)
 
@@ -135,23 +135,23 @@ $$
 
 因此公式 (4) 代表$n+ 1$。
 
-### 3. POINCARÉ-BIRKHOFF-WITT 的积分变体定理
+### 3. Integral variant of the poincarÉ-birkhoff-witt 定理
 
-令 $\mathfrak{g}$ 为有限维 $\mathbf{Q}$-李代数，$U(\mathfrak{g})$ 为其包络大代数。如果I是全序集，$\mathbf{x}= (x_i)_{i\in I}$是$\mathfrak{g}$的元素族，并且$\mathbf{n}=$$(n_i)_{i\in I}\in \mathbf{N}^{(I)}$是多索引，则将
+Let $\mathfrak{g}$ be a finite dimensional $\mathbf{Q}$-Lie algebra, $U(\mathfrak{g})$ its enveloping bigebra. If I is 全序集, $\mathbf{x}= (x_i)_{i\in I}$ a family of 元素 of $\mathfrak{g}$, and $\mathbf{n}=$ $(n_i)_{i\in I}\in \mathbf{N}^{(I)}$ a multi-index, put
 
 $\mathbf{x}^{(\mathbf{n})}=\prod x\overset{ni}{n_{i}}$！$^{^i}$, (5)
 
 $i\in I$
 
-乘积按照集合I的顺序在$U(\mathfrak{g})$中计算。
+乘积 being calculated in $U(\mathfrak{g})$ in accordance with the ordered 集合 I.
 
 #### 定理 1 {#lie-viii-s12-thm-1 .statement tag=017W}
 
-令大数$U(\mathfrak{g})$中的$\mathscr{U}$为双序。让$\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$，即李代数$\mathfrak{g}$中的阶。设$(x_i)_{i\in I}$为$\mathscr{G}$的基。给I总共阶，并假设对于所有$\mathbf{n}\in \mathbf{N}^I$，元素$[\mathbf{n}]$为$\mathscr{U}$，这样$[\mathbf{n}]-\mathbf{x}^{(\mathbf{n})}$在$U(\mathfrak{g})$中有过滤$<|\mathbf{n}|$。那么，$\mathbf{n}\in \mathbf{N}^I$的$[\mathbf{n}]$家族是$\mathbf{Z}$模块$\mathscr{U}$的基。
+Let $\mathscr{U}$ be 双序 in the bigebra $U(\mathfrak{g})$. Let $\mathscr{G}=\mathscr{U}\cap \mathfrak{g}$, which is 阶 in 李代数 $\mathfrak{g}$.设$(x_i)_{i\in I}$为$\mathscr{G}$的基。给I总共阶，并假设对于所有$\mathbf{n}\in \mathbf{N}^I$，元素$[\mathbf{n}]$为$\mathscr{U}$，这样$[\mathbf{n}]-\mathbf{x}^{(\mathbf{n})}$在$U(\mathfrak{g})$中有过滤$<|\mathbf{n}|$。那么，$\mathbf{n}\in \mathbf{N}^I$的$[\mathbf{n}]$家族是$\mathbf{Z}$模块$\mathscr{U}$的基。
 
-对于$p\in \mathbf{N}$，令$U_p(\mathfrak{g})$为过滤$\leq p$的$U(\mathfrak{g})$元素集合；然后像在 $\mathbf{x}^{(\mathbf{n})}$ 的 $U_p(\mathfrak{g})/U_{p-1}(\mathfrak{g})$ 中，使得这个 $\mathbf{Q}$ 向量空间的 $|\mathbf{n}|=p$ 形式基 （第 I, §2, no. 7，第 1 章）；因此，$\mathbf{Q}$向量空间$U(\mathfrak{g})$的$[\mathbf{n}]$形式基。还需要证明以下断言（其中我们放入$M =\mathbf{N}^I$）$:$
+For $p\in \mathbf{N}$, let $U_p(\mathfrak{g})$ be 集合 of 元素 of $U(\mathfrak{g})$ of filtration $\leq p$;然后像在 $\mathbf{x}^{(\mathbf{n})}$ 的 $U_p(\mathfrak{g})/U_{p-1}(\mathfrak{g})$ 中，使得这个 $\mathbf{Q}$ 向量空间的 $|\mathbf{n}|=p$ 形式基 （第 I, §2, no. 7，第 1 章）； hence the $[\mathbf{n}]$ 形式基 of the $\mathbf{Q}$-vector space $U(\mathfrak{g})$. It remains to prove the following 断言 (in which we put $M =\mathbf{N}^I$)$:$
 
-(*) 如果 $u\in \mathscr{U}, (a_{\mathbf{n}})\in \mathbf{Z}^{(M)}$ 和 $d\in$ **N --**$\{0\}$ 是这样的
+(*) if $u\in \mathscr{U}, (a_{\mathbf{n}})\in \mathbf{Z}^{(M)}$, and $d\in$ **N --**$\{0\}$ are such that
 
 $$
 du=\sum_{\mathbf{n}\in M}a_{\mathbf{n}}[\mathbf{n}] \tag{6}
@@ -165,7 +165,7 @@ $$
 c_i:\mathscr{U}\rightarrow \mathbf{T}^r(\mathscr{U}) =\mathscr{U}\otimes \mathscr{U}\otimes  \cdots  \otimes \mathscr{U}
 $$
 
-通过定义，$c_0$是$\mathscr{U},c_1=$Id$_{\mathscr{U}},c_2=c$的余单位（$\mathscr{U}$的余积），并且，对于$r\geq 2,c_{r+1}$定义为复合$p\circ (c_r\otimes 1)\circ c:$
+by 定义, $c_0$ is 余单位 of $\mathscr{U},c_1=$ Id$_{\mathscr{U}},c_2=c$ (余积 of $\mathscr{U}$), and, for $r\geq 2,c_{r+1}$ is defined as the composite $p\circ (c_r\otimes 1)\circ c:$
 
 $$
 \mathscr{U}\longrightarrow^c\mathscr{U}\otimes_{\mathbf{Z}}\mathscr{U}^c\longrightarrow^{^r\otimes 1}\mathbf{T}^r(\mathscr{U})\otimes_{\mathbf{Z}}\mathscr{U}\longrightarrow^p\mathbf{T}^{r+1}(\mathscr{U})
@@ -235,7 +235,7 @@ $$
 \lambda :\mathbf{S}(V)\rightarrow A(V^*)
 $$
 
-the canonical bijection from $\mathbf{S}(V)$ to the algebra of polynomial functions on $V^*($Algebra, Chap. IV, §5, no. 11, Remark 1). 如果我们将认同 $A(V^*\times V^*)$ 与 $A(V^*)\otimes_{\mathbf{Q}}A(V^*)$ 组合，则将 $\mathbf{S}(V)$ 的 $\lambda$ 变换余积转换为映射 $A(V^*)\rightarrow A(V^*\times V^*)$，并与 $V^*$ 上的多项式函数 $\varphi$ 相关联多项式函数
+从 $\mathbf{S}(V)$ 到$V^*($代数上多项式函数代数的正则双射，第 1 章IV, §5, no. 11，备注1)。 如果我们将认同 $A(V^*\times V^*)$ 与 $A(V^*)\otimes_{\mathbf{Q}}A(V^*)$ 组合，则将 $\mathbf{S}(V)$ 的 $\lambda$ 变换余积转换为映射 $A(V^*)\rightarrow A(V^*\times V^*)$，并与 $V^*$ 上的多项式函数 $\varphi$ 相关联多项式函数
 
 $$
 (x, y) \rightarrow \varphi (x+y)
@@ -269,19 +269,19 @@ $$
 
 $\mathbf{S}_m(\mathscr{V})\subset \mathbf{S}_m(V)\cap (\mathscr{V}\mathbf{Z})\subset m1$！$\mathbf{S}_m(\mathscr{V})$
 
-所以$(^{\mathscr{V}}_{\mathbf{Z}})\cap V =\mathscr{V}$。由于$\mathbf{S}_m(\mathscr{V})$是$\mathbf{S}_m$(V)中的格，$\mathbf{S}_m(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$也是$\mathbf{S}_m(V)$中的格。另一方面，$\mathbf{S}_m(V)\cap (^{\mathscr{V}}_{\mathbf{Z}})$是$\mathbf{S}_{m+1}(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$的直因子（因为商是无扭的），因此它承认一个补集，它是一个自由的$\mathbf{Z}$模。由此可见 $(^{\mathscr{V}}_{\mathbf{Z}})$ 是一个免费的 $\mathbf{Z}$ 模块。很明显，这是代数$\mathbf{S}(V)$中的一个单位阶。令$(u_n)_{n\in\mathbf{N}}$为$\mathbf{Z}$模块$(^{\mathscr{V}}_{\mathbf{Z}})$的基。这也是$\mathbf{Q}$模块$\mathbf{S}(V)$的基，并且对于所有
+所以$(^{\mathscr{V}}_{\mathbf{Z}})\cap V =\mathscr{V}$。由于$\mathbf{S}_m(\mathscr{V})$是$\mathbf{S}_m$(V)中的格，$\mathbf{S}_m(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$也是$\mathbf{S}_m(V)$中的格。另一方面，$\mathbf{S}_m(V)\cap (^{\mathscr{V}}_{\mathbf{Z}})$是$\mathbf{S}_{m+1}(V)\cap (_{\mathbf{Z}}^{\mathscr{V}})$的直因子（因为商是无扭转的），因此它承认一个补集，它是一个自由的$\mathbf{Z}$模。由此可见 $(^{\mathscr{V}}_{\mathbf{Z}})$ 是一个免费的 $\mathbf{Z}$ 模块。很明显，这是代数$\mathbf{S}(V)$中的一个单位阶。令$(u_n)_{n\in\mathbf{N}}$为$\mathbf{Z}$模块$(^{\mathscr{V}}_{\mathbf{Z}})$的基。这也是$\mathbf{Q}$模块$\mathbf{S}(V)$的基，并且对于所有
 
 $$
 \varphi \in \mathbf{S}(V\times V) =\mathbf{S}(V)\otimes_{\mathbf{Q}}\mathbf{S}(V)
 $$
 
-存在唯一的序列$(v_n)$ 元素 $\mathbf{S}(V)$ 使得$\varphi =\sum u_n\otimes v_n$。如上，认同$\mathbf{S}(V)$与$A(V^*)$以及$\mathbf{S}(V)\otimes \mathbf{S}(V)$与$A(V^*\times V^*)$。如果 $\varphi \in (^{\mathscr{V}\times\mathscr{V}}_{\mathbf{Z}})$、多项式函数 $x \rightarrow \varphi (x, y)$ 属于到 $(^{\mathscr{V}}_{\mathbf{Z}})$ 对于所有 $y\in \mathscr{V}^*$。由此可见，对于所有$n$和所有$y\in \mathscr{V}^*$，$v_n(y)\in \mathbf{Z}$，对于其他字，对于$v_n\in (^{\mathscr{V}}_{\mathbf{Z}})$。这就证明了余积映射$(^{\mathscr{V}}_{\mathbf{Z}})$到$(_{\mathbf{Z}}^{\mathscr{V}})\otimes_{\mathbf{Z}}(_{\mathbf{Z}}^{\mathscr{V}})$。如果$h\in \mathscr{V}$和$n\in \mathbf{N}$，则$(_n^h)$映射$u\in \mathscr{V}^*$到整数$(^{u(h)}_n)$，所以$(^h_n)\in (_{\mathbf{Z}}^{\mathscr{V}})$。 断言 (iii) 现在由应用 Th 获得。 1 到交换律李代数 V，并且 (ii) 如下。
+存在$\mathbf{S}(V)$ 的元素的唯一序列 $(v_n)$ 使得$\varphi =\sum u_n\otimes v_n$。如上，认同$\mathbf{S}(V)$与$A(V^*)$以及$\mathbf{S}(V)\otimes \mathbf{S}(V)$与$A(V^*\times V^*)$。如果 $\varphi \in (^{\mathscr{V}\times\mathscr{V}}_{\mathbf{Z}})$、多项式函数 $x \rightarrow \varphi (x, y)$ 属于至 $(^{\mathscr{V}}_{\mathbf{Z}})$ 对于所有 $y\in \mathscr{V}^*$。由此可见，对于所有$n$和所有$y\in \mathscr{V}^*$，$v_n(y)\in \mathbf{Z}$，对于其他字，对于$v_n\in (^{\mathscr{V}}_{\mathbf{Z}})$。这就证明了余积映射$(^{\mathscr{V}}_{\mathbf{Z}})$到$(_{\mathbf{Z}}^{\mathscr{V}})\otimes_{\mathbf{Z}}(_{\mathbf{Z}}^{\mathscr{V}})$。如果$h\in \mathscr{V}$和$n\in \mathbf{N}$，则$(_n^h)$映射$u\in \mathscr{V}^*$到整数$(^{u(h)}_n)$，所以$(^h_n)\in (_{\mathbf{Z}}^{\mathscr{V}})$。 断言 (iii) 现在由应用 Th 获得。 1 到交换律李代数 V，并且 (ii) 如下。
 
-#### 推论{#lie-viii-s12-n4-cor-1 .statement tag=017Z}
+#### 推论 {#lie-viii-s12-n4-cor-1 .statement tag=017Z}
 
-令 X 为不定式。多项式$(^X_n)$，其中多项式$P\in k[X]$的$\mathbf{Z}$模由……组成的$n\in \mathbf{N}$、形式基，使得$P(\mathbf{Z})\subset \mathbf{Z}$。
+令 X 为不定式。多项式$(^X_n)$，其中多项式$P\in k[X]$的$\mathbf{Z}$模由……组成的$n\in \mathbf{N}$、形式基使得$P(\mathbf{Z})\subset \mathbf{Z}$。
 
-如果$P(\mathbf{Z})\subset \mathbf{Z}$，则拉格朗日插值公式（代数，第IV, §2, no. 1，第6章）表明P的系数属于到$\mathbf{Q}$；因此，我们可以假设 $k=\mathbf{Q}$ 并将命题 2 应用于 $V =\mathbf{Q},\mathscr{V}=\mathbf{Z}$。
+如果$P(\mathbf{Z})\subset \mathbf{Z}$，拉格朗日插值公式（代数，第IV, §2, no. 1，第6章）表明P属于到$\mathbf{Q}$的系数；因此，我们可以假设 $k=\mathbf{Q}$ 并将命题 2 应用于 $V =\mathbf{Q},\mathscr{V}=\mathbf{Z}$。
 
 ### 5. 一些公式
 
@@ -553,7 +553,7 @@ $p=0$
 
 因此 (ii) $n$ 归纳。
 
-### 6. 双序在分裂约化李代数的代数的包围中
+### 6. 双序在分裂约化李代数的代数的包络线中
 
 令$\mathfrak{g}$是$\mathfrak{g}$的$\mathbf{Q},\mathfrak{h}$分裂嘉当子代数的约李代数，以及$R = R(\mathfrak{g},\mathfrak{h}) ($§2, no. 1、注5）。
 
@@ -609,15 +609,15 @@ $$
 \sum_{1\leq i\leq r}n(i)\varphi (i)\in Q(R)
 $$
 
-具有给定次数$q$的此类单项式在数和生成上是有限的，$\mathbf{Q}$是次数$q$的$U(\mathfrak{n}_+)$的齐次分量。这就证明了(i)。
+具有给定次数 $q$ 的此类单项式数量有限，并且在 $\mathbf{Q}$ 上生成次数为 $q$ 的 $U(\mathfrak{n}_+)$ 齐次分量。 这就证明了(i)。
 
-如果$\alpha \in B,\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$包含在次数的均质成分的和中，即$\alpha$的倍数；因此，根据前面的内容，$\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$由$x^{(\mathbf{n})}_{\varphi}$生成，使得$\sum n(i)\varphi (i)\in \mathbf{N}\alpha$，这对所有$i$强制$\varphi (i) =\alpha$（因为B是R的基），所以
+如果$\alpha \in B,\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$包含在次数的齐次分量的和中，即$\alpha$的倍数；因此，根据前面的内容，$\mathscr{U}_+\cap U(\mathfrak{g}^{\alpha})$由$x^{(\mathbf{n})}_{\varphi}$生成，使得$\sum n(i)\varphi (i)\in \mathbf{N}\alpha$，这对所有$i$强制$\varphi (i) =\alpha$（因为B是R的基），所以
 
 $x^{(\mathbf{n})}_{\varphi}=x^{(n(1))}_{\alpha}. . . x^{(n(r))}_{\alpha}=(n(1) +n$(1)!$\cdots . . . n+(nr$)!$(r$))! $x^{(n(1)+\cdot \cdot \cdot+n(r))}_{\alpha}$。
 
 因此，$\mathscr{U}_+\cap \mathscr{U}(\mathfrak{g}^{\alpha})\subset \bigoplus_n\mathbf{Z}x^{(n)}_{\alpha}$，因此 (ii)。 Q.E.D.
 
-In the remainder of this paragraph, if E and F are $\mathbf{Z}$-submodules of $U(\mathfrak{g})$, we denote by $E.F$ the $\mathbf{Z}$-submodule of $U(\mathfrak{g})$ generated by the products $ab$, where $a\in E, b\in F$.
+在本段的其余部分中，如果E和F是$U(\mathfrak{g})$的$\mathbf{Z}$子模块，我们用$E.F$表示由产品$ab$生成的$\mathbf{Z}$子模块$U(\mathfrak{g})$，其中$a\in E, b\in F$。
 
 #### 命题 3 {#lie-viii-s12-prop-3 .statement tag=0188}
 
@@ -741,13 +741,13 @@ $$
 
 让$\alpha \in R$。如果$x\in \mathscr{G}\cap \mathfrak{g}^{\alpha}$和$n\in \mathbf{N}$，我们有$x^{(n)}\in \mathscr{U}$，和（广告$x$）$^n/n$！使 $\mathscr{G}$ 和 $\mathscr{U}$ 保持稳定。
 
-如果 $\alpha \in B$、$\mathscr{U}$ 的构造和 Cor 是清楚的。 1. 在一般情况下，存在$w\in W$使得$w(\alpha )\in B$（第VI, §1, no. 5章，第15条命题）。由科. 2、存在$\mathfrak{g}$的自同构$\varphi$，使$\mathscr{G}$和$\mathscr{U}$保持稳定，并且使$\mathfrak{g}^{\alpha}$达到$\mathfrak{g}^{w(\alpha)}$，因此由迁移得出结构的推论。
+如果 $\alpha \in B$、$\mathscr{U}$ 的构造和 Cor 是清楚的。 1. 在一般情况下，存在$w\in W$使得$w(\alpha )\in B$（第VI, §1, no. 5章，第15条命题）。由科. 2、存在$\mathfrak{g}$的自同构$\varphi$，使得$\mathscr{G}$和$\mathscr{U}$保持稳定，并且将$\mathfrak{g}^{\alpha}$带到$\mathfrak{g}^{w(\alpha)}$，因此推论乘以结构的迁移。
 
 #### 推论 4 {#lie-viii-s12-prop-3-cor-4 .statement tag=018D}
 
-在 $(\mathfrak{g},\mathfrak{h}) ($§2, no. 4 中存在 Chevalley 系统 $(X_{\alpha})_{\alpha\in R}$，Def。 3) 使得$X_{\alpha}=x_{\alpha}$和$X_{-\alpha}=y_{\alpha}$对应于$\alpha \in B$。对于每个具有这些属性的 Chevalley 系统 $(X'_{\alpha})_{\alpha\in R}$，并且对于所有 $\alpha \in R,X'_{\alpha}$ 是 $\mathscr{G}\cap \mathfrak{g}^{\alpha}$ 的基。
+在 $(\mathfrak{g},\mathfrak{h}) ($§2, no. 4 中存在 Chevalley 系统 $(X_{\alpha})_{\alpha\in R}$，Def。 3) 使得$X_{\alpha}=x_{\alpha}$和$X_{-\alpha}=y_{\alpha}$对应$\alpha \in B$。对于每个具有这些属性的 Chevalley 系统 $(X'_{\alpha})_{\alpha\in R}$，并且对于所有 $\alpha \in R,X'_{\alpha}$ 是 $\mathscr{G}\cap \mathfrak{g}^{\alpha}$ 的基。
 
-对于$\alpha \in B$，输入$X_{\alpha}=x_{\alpha}, X_{-\alpha}=y_{\alpha}$。对于$\alpha \in R_+$ **--** B，选择 a $w\in W$，使得$\mathfrak{g}$的$w(\alpha )\in B$和自同构$\varphi$，使得$h\in \mathfrak{h}$有$\theta \varphi =\varphi \theta ,\varphi (\mathscr{G}) =\mathscr{G}$和$\varphi (h) =w^{-1}(h)$（Cor.2）；输入$X_{\alpha}=\varphi (x_{w(\alpha)}), X_{-\alpha}=\varphi (y_{w(\alpha)})$。然后
+对于$\alpha \in B$，输入$X_{\alpha}=x_{\alpha}, X_{-\alpha}=y_{\alpha}$。对于$\alpha \in R_+$ **--** B，选择 a $w\in W$，使得$\mathfrak{g}$的$w(\alpha )\in B$和自同构$\varphi$，使得$\theta \varphi =\varphi \theta ,\varphi (\mathscr{G}) =\mathscr{G}$和$\varphi (h) =w^{-1}(h)$对于$h\in \mathfrak{h}$（Cor.2）；输入$X_{\alpha}=\varphi (x_{w(\alpha)}), X_{-\alpha}=\varphi (y_{w(\alpha)})$。然后
 
 $$
 [X_{-\alpha}, X_{\alpha}] =\varphi ([y_{w(\alpha)}, x_{w(\alpha)}]) =\varphi (H_{w(\alpha)}) =w^{-1}(H_{w(\alpha)}) =H_{\alpha}
@@ -911,7 +911,7 @@ $$
 
 通过a)，这意味着$vx-\lambda x\in nM$对于所有$n\in \mathbf{N}$，因而$(v-\lambda )x= 0$。
 
-d) 令$\lambda$为$v$的特征值，并令$\lambda -a, \lambda +b$为$\mathbf{Z}$包含所有特征值中$v$的区间。考虑多项式
+d) 令$\lambda$为$v$的特征值，并令$\lambda -a, \lambda +b$为$\mathbf{Z}$包含中的区间，所有特征值为$v$。考虑多项式
 
 $$
 (T-\lambda -1)(T-\lambda -2). . .(T-\lambda -b)
@@ -937,7 +937,7 @@ $a$！
 
 #### 注 1 {#lie-viii-s12-n8-rem-1 .statement tag=018L}
 
-如果我们仅假设$v$与整数特征值可对角化，则$u$不一定可对角化（对于例，对所有$(x, y)\in M$取$M =\mathbf{Z}^2$和$u(x, y) =$$(y, x)$）。
+如果我们仅假设$v$与整数特征值可对角化，则$u$不一定可对角化（例如，对所有$(x, y)\in M$取$M =\mathbf{Z}^2$和$u(x, y) =$$(y, x)$）。
 
 令$\mathfrak{g},\mathfrak{h},R,\mathscr{H},\mathscr{G}^{\alpha},\mathscr{G},\mathscr{U}$与no. 7相同，并假设$\mathscr{G}$是$(\mathfrak{g},\mathfrak{h})$中的Chevalley阶。
 
@@ -999,6 +999,6 @@ $$
 
 从 $U(\mathfrak{n}_+).e= 0$ 开始，我们根据命题 3 得到 $\mathscr{E}= (\mathscr{U}\cap U(\mathfrak{n}_-)).e$。 3 (iii) $\mathscr{E}$ 是有限型的 $\mathbf{Z}$ 模。
 
-#### 推论{#lie-viii-s12-n8-cor-1 .statement tag=018S}
+#### 推论 {#lie-viii-s12-n8-cor-1 .statement tag=018S}
 
 如果$\mathfrak{g}$是半单和$\mathscr{H}= Q(R^{\vee})$，则每个有限维$\mathfrak{g}$模都有一个容许格。

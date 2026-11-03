@@ -14,16 +14,16 @@ pdf_pages: 0500-0505
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: 245b0df6109f65e1003ff74ef9c8511b65f65e9342c215c84f69babc47f19a4b
+content_sha256: 9e46a80368389073f9ebfa9422f5dae1a9a93ba3bd51424ea4c8e9259e665f5d
 translated_from: content/en/alg/index_of_terminology_viii.md
 translation_method: google
 source_content_sha256: 332f485f89487788ab8d13addc9111577068efa9732a023aad6de5b0dbeadd8a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: fe4f457c4f0b76ca0a445d2feb99004bd8c75ef841b15c58c185e41d11d6228a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 术语指标
@@ -32,13 +32,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 $\mathbf{A}$
 
-Absolutely semisimple
+绝对半单的
 
 代数, 231
 
 模, 229
 
-绝对没有偏旁部首，模，246
+绝对没有根基、模、246
 
 适应基, 460
 
@@ -54,7 +54,7 @@ Absolutely semisimple
 
 不利，441
 
-Algebra
+代数
 
 绝对半单的, 231
 
@@ -86,7 +86,7 @@ $(K,G)-$ —, 304
 
 N.布尔巴基，代数，https://doi.org/10.1007/978-3-031-19293-7
 
-Artinian
+阿廷的
 
 代数, 444
 
@@ -108,9 +108,9 @@ $\mathbf{B}$
 
 基，改编，460
 
-双交换子，77
+双交换子, 77
 
-Bimodule
+双模
 
 可逆，100
 
@@ -136,7 +136,7 @@ $\mathbf{C}$
 
 扶正器，77
 
-Character
+特征标
 
 布劳尔，434
 
@@ -144,11 +144,11 @@ Character
 
 谢瓦利 (— –警告定理), 355 模类, 51
 
-共界，295
+余边缘, 295
 
 可循环，295
 
-与 $\tau$ 扩展相关联，296 系数
+与 $\tau$-扩展相关联，296 系数
 
 共模, 377
 
@@ -156,7 +156,7 @@ Character
 
 余代数，子—，391
 
-Cohomology
+上同调
 
 群, 324
 
@@ -170,11 +170,11 @@ Cohomology
 
 模的长度，53
 
-交换子，77
+交换子, 77
 
 兼容同态、324
 
-组分，同型分支的 — 型 S、65 余限制、303、326
+分量，同型分支的 — 型 S、65 余限制、303、326
 
 协同转置，338
 
@@ -196,7 +196,7 @@ $\mathbf{D}$
 
 堕落，非—子代数，370
 
-Degree
+次数
 
 左，124
 
@@ -216,7 +216,7 @@ Degree
 
 内部, 240
 
-Description
+描述
 
 规范, 62, 70
 
@@ -230,11 +230,11 @@ Description
 
 $\tau$-扩展的直接像，289
 
-可整除，基数 — by, 123
+可整除，基数 — 被 123
 
 $\mathbf{E}$
 
-Element
+元素
 
 幂等，145
 
@@ -254,7 +254,7 @@ Element
 
 指数, 322
 
-Extension
+扩张
 
 共代数, 248
 
@@ -292,7 +292,7 @@ C1, 358
 
 傅里叶反演公式, 408
 
-Fractions
+分数
 
 演算共 17
 
@@ -308,7 +308,7 @@ Fractions
 
 环, 53
 
-Function
+函数
 
 加性的，模，183
 
@@ -336,7 +336,7 @@ $\mathbf{G}$
 
 环, 198
 
-Group
+群
 
 布劳尔, 279, 330
 
@@ -362,7 +362,7 @@ $\mathbf{H}$
 
 零点定理, 461
 
-Homomorphism
+同态
 
 兼容, 324
 
@@ -426,7 +426,7 @@ $\mathbf{I}$
 
 膨胀同态, 299, 325 交织算子, 398
 
-Inverse image
+逆像
 
 一个cocycle，299
 
@@ -440,7 +440,7 @@ $\tau$-扩展，287
 
 同型分支的
 
-型 S 的组成部分，65
+分量型 S，65
 
 模, 61
 
@@ -450,7 +450,7 @@ $\mathbf{J}$
 
 稠密性定理, 88
 
-激进, 154
+根基, 154
 
 雅各布森的定理，156
 
@@ -460,13 +460,13 @@ $\mathbf{K}$
 
 $\mathbf{L}$
 
-Lemma
+引理
 
 中山的，158
 
 舒尔，47
 
-Length
+长度
 
 模, 72
 
@@ -502,11 +502,11 @@ $\mathbf{M}$
 
 最小，理想，50
 
-Module
+模
 
 绝对半单的, 229
 
-绝对没有偏旁部首，246
+绝对没有根基, 246
 
 阿廷的, 1
 
@@ -538,7 +538,7 @@ Module
 
 与本地自同态环, 31
 
-Modules
+模
 
 链接, 180
 
@@ -546,7 +546,7 @@ Modules
 
 分数, 17 的幺半群
 
-Morita equivalence
+森田等价
 
 代数, 100
 
@@ -556,7 +556,7 @@ Morita equivalence
 
 原始, 34
 
-Multiplier
+乘子
 
 伪双模的第 445 章
 
@@ -610,7 +610,7 @@ $\mathbf{P}$
 
 理想，133
 
-激进，167
+根基, 167
 
 本原的
 
@@ -652,9 +652,9 @@ $\mathbf{R}$
 
 雅各布森，154
 
-共模, 151
+模, 151
 
-环, 154
+共环, 154
 
 代数, 440
 
@@ -714,7 +714,7 @@ VIII.489
 
 置换, 425
 
-商，374
+商, 374
 
 常规, 375, 399
 
@@ -772,7 +772,7 @@ $n$-常规，178
 
 冯·诺依曼常规，171
 
-无部首，154
+没有根基, 154
 
 佐恩，171
 
@@ -812,7 +812,7 @@ $\mathbf{S}$
 
 遗传性，183
 
-类似代数, 280
+类似代数、280
 
 简单
 
@@ -934,7 +934,7 @@ $\mathbf{W}$
 
 $\mathbf{Y}$
 
-年轻图表，430
+年轻图表, 430
 
 $\mathbf{Z}$
 

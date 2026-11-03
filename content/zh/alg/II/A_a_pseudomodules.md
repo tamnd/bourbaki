@@ -23,16 +23,16 @@ subsections:
       pdf_page: 402
 statements: 0
 exercises: 1
-content_sha256: ff3946e8f71e978c77ef0d5856f1044273d21998a8c9d0902c2969566c8325ea
+content_sha256: abe69b2f63a6f71c31f020aaaff73efcf0a2a132941a22e9ac2f6e6f71da258d
 translated_from: content/en/alg/II/A_a_pseudomodules.md
 translation_method: google
 source_content_sha256: db883a717633a15e64137f982b71d8ce6f40a59783e9d1c7d5ac706248c39106
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8921a4aff337285350099364662e7a83ca686bf058c815f86308834378d1719e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
@@ -60,7 +60,7 @@ $$
 
 那么$(eA', (1 - e)A')$是$A'$的直接分解（I, § 8, no. 11），并且环$(1 - e)A'$同构于$\mathbf{Z}$。
 
-### 2. PSEUDOMODULES
+### 2. 伪模
 
 给定一个带有或不带有单位元的伪环 A，A 上的左拟模是一个可交换的群 E（加法书写），承认 A 作为运算符的集合以及 § 1, no. 1、定义 1 的满足公理 $(\mathrm{M}_I), (\mathrm{M}_{II})$ 和 $(\mathrm{M}_{III})$。 对A 上的伪模的定义类似。
 
@@ -74,10 +74,10 @@ $$
 
 此外，通过将这个模结构的运算符集合限制为$\{0\} \times A$（用$A$标识），我们得到最初给出的$E$伪模结构。
 
-对于$E$的子集$M$为子群，运算符为伪模$E$（在这种情况下，诱导的结构显然也是$A$上的左拟模结构），有必要且充分$M$是关联的$A'$模块$E$的子模，并且该子$A'$模块与伪模$M$相关联。此外，商$A'$-模$E/M$然后通过运算符$E/M$与商群相关联，这显然是伪模超过$A$。
+对于$E$的子集$M$为子群，运算符为伪模$E$（在这种情况下，诱导的结构显然也是$A$上的左拟模结构），有必要且充分$M$是关联的$A'$模块$E$的子模，并且该子$A'$模块与伪模$M$相关联。此外，商$A'$-模块$E/M$然后通过运算符$E/M$与商群相关联，这显然是伪模超过$A$。
 
-如果$E, F$是$A$上的两个伪模，则群的同态$E \to F$（带有运算符）与分别与伪模$E$相关联的$A'$模块的$A'$线性映射$E \to F$相同$F$。如果$(E_i)_{i \in I}$是$A$上的伪模族，则带有运算符$\prod_{i \in I} E_i$和$\bigoplus_{i \in I} E_i$的群是$A$上的伪模，并且关联的$A'$模块分别是乘积和关联的$A'$模块$E_i$的直和。 伪模的逆和直极限也有类似的结果。因此，伪模超过$A$的理论可以完全简化为$A'$模的理论。
+如果$E, F$是$A$上的两个伪模，则群的同态$E \to F$（带有运算符）与分别与伪模$E$伴随的$A'$模块的$A'$线性映射$E \to F$相同$F$。 如果$(E_i)_{i \in I}$是$A$上的伪模族，则带有运算符$\prod_{i \in I} E_i$和$\bigoplus_{i \in I} E_i$的群是$A$上的伪模，并且关联的$A'$模块分别是关联的乘积和直和 $A'$-模块$E_i$。 伪模的逆和直极限也有类似的结果。 因此，伪模超过$A$的理论可以完全简化为$A'$模块。
 
-### 习题 {#alg-ii-a0-exercises}
+### 习题{#alg-ii-a0-exercises}
 
 参见[习题附录 0](exercises/a0/)。

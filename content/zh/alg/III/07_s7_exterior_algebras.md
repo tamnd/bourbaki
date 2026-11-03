@@ -50,25 +50,25 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: cdfcb19a420932cf2738bde7a12a0b34567b9ed69240cc676d70272ba9455349
+content_sha256: b0ddbd6b9fb56b3582651af1b4147a5b098601adeb14c7f74f0c1968b88d2fe6
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
 translation_method: google
 source_content_sha256: 2ecded72dc27d27759b8e68470e35ec8930215e63753cc4598f26151e19c86fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9c66253dbbe646a4afff61b956000e68687b868cc1a688d9b339bfdc9b431c5b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。外观代数
 
-### 1. 定义外部代数模
+### 1. 模外部代数的定义
 
 #### 定义 1 {#alg-iii-s7-def-1 .statement tag=062S}
 
-令 $A$ 为交换环且 $M$ 为 $A$ 模块。 $M$的外代数，用$\bigwedge(M)$或$\mathrm{Alt}(M)$或$\bigwedge_A(M)$表示，是代数除以$A$张量代数$T(M)$与两侧理想$\mathfrak{J}''$的商（也用$\mathfrak{J}_{M}''$表示）由元素$x \otimes x$生成，其中$x$贯穿$M$。
+令 $A$ 为交换环且 $M$ 为 $A$ 模块。 $M$的外代数，用$\bigwedge(M)$或$\mathrm{Alt}(M)$或$\bigwedge_A(M)$表示，通过双面理想是代数超过$A$商的张量代数$T(M)$ $\mathfrak{J}''$（也表示为$\mathfrak{J}_{M}''$）由元素$x \otimes x$生成，其中$x$贯穿$M$。
 
 由于理想$\mathfrak{J}''$是由次数2的齐次元素生成的，因此它是一个分级理想（II, § 11, no. 3，命题2）；我们写$\mathfrak{J}_n'' = \mathfrak{J}'' \cap T^n(M)$；因此，代数 $\bigwedge(M)$ 按 $\bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ 的毕业（称为规范）由……组成进行评分。然后$\mathfrak{J}_0'' = \mathfrak{J}_1'' = \{0\}$，因此$\bigwedge^0(M)$与$A$识别，$\bigwedge^1(M)$与$T^1(M) = M$识别；接下来我们将始终进行这些识别，并且典范嵌入$M \to \bigwedge(M)$将由$\phi''$或$\phi_M''$表示。
 
@@ -80,9 +80,9 @@ $$
 $$
 存在且仅有一个$A$-代数同态$g : \bigwedge(M) \to E$使得$f = g \circ \phi''$。
 
-在其他字中，$(\bigwedge(M), \phi'')$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$-代数结构的类， $\alpha$-映射是从$A$-模块$M$到$A$-代数满足的线性映射 (1)。
+在其他字，$(\bigwedge(M), \phi'')$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$代数的类结构，$\alpha$-映射是从$A$-模块$M$到$A$-代数满足的线性映射 (1)。
 
-$g$的唯一性源自$\phi''(M) = M$生成$\bigwedge(M)$。为了证明$g$的存在性，我们注由§ 5, no. 1，命题1存在$A$代数同态$g_1 : T(M) \to E$使得$f = g_1 \circ \phi$；我们需要证明$g_1$在理想的$\mathfrak{J}''$上是零，因为如果
+$g$的唯一性源自$\phi''(M) = M$生成$\bigwedge(M)$。为了证明$g$的存在性，我们注意到由§ 5, no. 1，命题 1 存在$A$代数同态$g_1 : T(M) \to E$使得$f = g_1 \circ \phi$；我们需要证明 $g_1$ 在理想的 $\mathfrak{J}''$ 上是零，因为如果
 $$
 p : T(M) \to \bigwedge(M) = T(M)/\mathfrak{J}''
 $$
@@ -138,7 +138,7 @@ $$
 $$
 \Lambda^n(u)(x_1 \wedge x_2 \wedge \cdots \wedge x_n) = u(x_1) \wedge u(x_2) \wedge \cdots \wedge u(x_n)
 $$
-与$x_i \in M$，因为$\Lambda(u)$是代数同态和$\Lambda^1(u) = u$； 限制$\Lambda^0(u)$到$A$是恒等映射。 注 $\Lambda^n(u)$ 是由 $T^n(u): T^n(M) \to T^n(N)$ 除以经过的商得到的。
+与$x_i \in M$，因为$\Lambda(u)$是代数同态和$\Lambda^1(u) = u$； 限制$\Lambda^0(u)$到$A$是恒等映射。请注意，$\Lambda^n(u)$是从$T^n(u): T^n(M) \to T^n(N)$乘经过到商获得的。
 
 #### 命题 3 {#alg-iii-s7-prop-3 .statement tag=062W}
 
@@ -146,25 +146,25 @@ $$
 
 证明是由§ 6, no. 2、命题 4、替换 $S$ 和$\Lambda$ 以及$\mathfrak{g}'$ 和$\mathfrak{g}''$ 衍生而来。
 
-如果 $u: M \to N$ 是单射线性映射，$\Lambda(u)$ 并不总是单射映射 (§ 6, 习题 3)（但请参见下面的no. 9，命题 12 的推论）。然而，当$u$是单射，使得$u(M)$是$N$的直因子，然后$\Lambda(u)$的像（与$\Lambda(M)$同构的）是$\Lambda(N)$的直因子； 证明与 $T(u)$ (§ 5, no. 2) 替换 $T$ by $\Lambda$ 的类似断言相同。
+如果$u: M \to N$是单射线性映射，$\Lambda(u)$并不总是单射映射（§ 6，习题3）（但请参见下面的no. 9，推论到命题12）。然而，当$u$是单射，使得$u(M)$是$N$的直因子，然后$\Lambda(u)$的像（与$\Lambda(M)$同构的）是$\Lambda(N)$的直因子； 证明与 $T(u)$ (§ 5, no. 2) 替换 $T$ by $\Lambda$ 的类似断言相同。
 
 #### 命题 4 {#alg-iii-s7-prop-4 .statement tag=062X}
 
-*设$N$和$P$是$A$模块$M$的两个子模，这样它们的和$N + P$是$M$中的直因子，并且它们的交$N \cap P$是直因子在$N$和$P$。那么同态$\Lambda(N) \to \Lambda(M)$、$\Lambda(P) \to \Lambda(M)$和$\Lambda(N \cap P) \to \Lambda(M)$、典范嵌入的典范扩张是单射的；如果通过这些同态将$\Lambda(N)$、$\Lambda(P)$和$\Lambda(N \cap P)$识别为$\Lambda(M)$的子代数，则*
+*令$N$和$P$是$A$模块$M$的两个子模，这样它们的和$N + P$是$M$中的直因子，并且它们的交$N \cap P$是$N$和$P$中的直因子。那么同态$\Lambda(N) \to \Lambda(M)$、$\Lambda(P) \to \Lambda(M)$和$\Lambda(N \cap P) \to \Lambda(M)$、典范嵌入的典范扩张是单射的；如果通过这些同态将$\Lambda(N)$、$\Lambda(P)$和$\Lambda(N \cap P)$与$\Lambda(M)$的子代数进行识别，则*
 $$
 \Lambda(N \cap P) = \Lambda(N) \cap \Lambda(P).
 $$
 证明始终由 § 5, no. 2、命题 4 替换 $T$ 衍生自 $\Lambda$。当$A$为域时，$M$的任意子模$N, P$总是满足命题4的假设。
 
-#### 推论{#alg-iii-s7-n2-cor-1 .statement tag=062Y}
+#### 推论 {#alg-iii-s7-n2-cor-1 .statement tag=062Y}
 
-*令$K$为交换域且$M$向量空间大于$K$。对于每个元素$z \in \Lambda(M)$，都存在$M$的最小的向量子空间$N$，使得$z \in \Lambda(N)$和$N$是有限维的。*
+*令$K$为交换域且$M$向量空间大于$K$。对于每个元素 $z \in \Lambda(M)$，都存在 $M$ 的最小的向量子空间 $N$，使得 $z \in \Lambda(N)$ 和 $N$ 是有限维的。*
 
-证明是从§ 5, no. 2推导出来的，推论到命题4替换$T$乘以$\Lambda$。
+证明是从§ 5, no. 2、推论到命题 4 替换 $T$ $\Lambda$ 推导而来。
 
 $N$称为$M$的向量子空间，与$\Lambda(M)$的元素$z$相关联。
 
-### 3. 外部的反交换性代数
+### 3. 外数的反交换性代数
 
 #### 命题 5 {#alg-iii-s7-prop-5 .statement tag=062Z}
 
@@ -196,13 +196,13 @@ $$
 
 #### 推论 1 {#alg-iii-s7-prop-5-cor-1 .statement tag=0630}
 
-设$H, K$为$\mathbf{N}$的区间$[1, n]$的两个互补子集，并令$(i_h)_{1 \leq h \leq p}, (j_k)_{1 \leq k \leq n-p}$分别为$H$和$K$的元素的序列，排列在递增阶；我们写
+设$H, K$为$\mathbf{N}$的区间$[1, n]$的两个互补子集，并令$(i_h)_{1 \leq h \leq p}, (j_k)_{1 \leq k \leq n-p}$分别为$H$和$K$的元素序列，排列在递增阶；我们写
 
 $$
 x_H = x_{i_1} \wedge x_{i_2} \wedge \cdots \wedge x_{i_p}, \quad x_K = x_{j_1} \wedge x_{j_2} \wedge \cdots \wedge x_{j_{n-p}};
 $$
 
-那么
+然后
 
 $$
 x_H \wedge x_K = (-1)^{\nu} x_1 \wedge x_2 \wedge \cdots \wedge x_n
@@ -216,11 +216,11 @@ $$
 
 如果$\sigma \in S_n$是置换，使得$\sigma(h) = i_h$对应$1 \leq h \leq p$，$\sigma(h) = j_{n-p}$对应$p + 1 \leq h \leq n$，则$\varepsilon_\sigma = (-1)^\nu$。
 
-对于$1 \leq h < h' \leq p$或$p + 1 \leq h < h' \leq n$、$\sigma(h') > \sigma(h)$和数或有序对$(h, h')$，使得$1 \leq h \leq p < h' \leq n$和$\sigma(h) > \sigma(h')$等于$\nu$。
+对于$1 \leq h < h' \leq p$或$p + 1 \leq h < h' \leq n$、有序对$(h, h')$的$\sigma(h') > \sigma(h)$和数，使得$1 \leq h \leq p < h' \leq n$和$\sigma(h) > \sigma(h')$等于$\nu$。
 
 #### 推论 2 {#alg-iii-s7-lem-1-cor-2 .statement tag=0632}
 
-分级的代数$\bigwedge(M)$为交错的（$§ 4$、no. 9）。
+代数 $\bigwedge(M)$ 的分级为交错的（$§ 4$、no. 9）。
 
 $§ 4$、no. 9到$\bigwedge(M)$中的应用命题 13就足够了，取生成的系统集合$M$并使用命题5。
 
@@ -228,7 +228,7 @@ $§ 4$、no. 9到$\bigwedge(M)$中的应用命题 13就足够了，取生成的�
 
 *如果M为有限生成A-模，则$\bigwedge(M)$为有限生成A-模；另外，如果 M 承认生成的系统且 n 元素，则 $\bigwedge^p(M) = \{0\}$ 对应 $p > n$。*
 
-令$(x_i)_{1 \leq i \leq n}$为M的生成的系统。$\bigwedge^p(M)$的每元素是形式的元素线性组合
+令$(x_i)_{1 \leq i \leq n}$为M的生成的系统。$\bigwedge^p(M)$的每元素为形式的元素线性组合
 $$
 x_{i_1} \wedge x_{i_2} \wedge \cdots \wedge x_{i_p}
 $$
@@ -277,11 +277,11 @@ $$
 $$
 g(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)}) = \varepsilon_\sigma \cdot g(x_1, x_2, \ldots, x_n)
 $$
-*对于所有人*$x_i \in M$； *此外，如果* $x_i = x_j$ *对于两个不同的指标* $i, j$，*则*
+*对于所有人*$x_i \in M$； *此外，如果* $x_i = x_j$ *对于两个不同的指标* $i, j$，*那么*
 $$
 g(x_1, x_2, \ldots, x_n) = 0.
 $$
-这是命题 7 和no. 3、命题 5 的明显推论。
+这是命题 7 和 no. 3、命题 5 的明显推论。
 
 #### 推论 2 {#alg-iii-s7-prop-7-cor-2 .statement tag=0636}
 
@@ -293,7 +293,7 @@ $$
 
 #### 推论 3 {#alg-iii-s7-prop-7-cor-3 .statement tag=0637}
 
-*设* $f : M^{n-1} \to A$ *为交错的* $(n-1)$*-线性形式*。 *如果* $(x_i)_{1 \leq i \leq n}$ *是 M 的 n 元素中的序列，使得* $x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$，*则*
+*设*$f : M^{n-1} \to A$*为交错的*$(n-1)$*-线性形式*。 *如果* $(x_i)_{1 \leq i \leq n}$ *是 M 的 n 元素中的序列，使得* $x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0$，*则*
 $$
 \sum_{i=1}^n (-1)^i f(x_1, \ldots, \hat{x}_i, \ldots, x_n) \cdot x_i = 0
 $$
@@ -303,7 +303,7 @@ $$
 $$
 (x_1, \ldots, x_n) \mapsto \sum_{i=1}^n (-1)^i f(x_1, \ldots, \hat{x}_i, \ldots, x_n) \cdot x_i
 $$
-$M^n$到$M$是*交错的*。现在，如果$x_i = x_{i+1}$，则右侧和中的所有项都有零系数，除了$x_i$和$x_{i+1}$之外，因为$f$是交错的；另一方面，$x_i$的系数为
+$M^n$到$M$是*交错的*。现在，如果$x_i = x_{i+1}$，则右侧和中的所有项除了$x_i$和$x_{i+1}$之外都有零系数，因为$f$是交错的；另一方面，$x_i$的系数是
 $$
 (-1)^i f(x_1, \ldots, x_{i-1}, x_{i+1}, x_{i+2}, \ldots, x_n)
 $$
@@ -312,7 +312,7 @@ $x_{i+1}$ 是$(-1)^{i+1} f(x_1, \ldots, x_i, x_{i+2}, \ldots, x_n)$，它们是�
 
 #### 注 {#alg-iii-s7-n4-rem-1 .statement tag=0638}
 
-$T^n(M)$ 的元素 $z$ 被称为阶* $n$ 的（逆变）*斜对称张量，如果 $\sigma.z = \varepsilon_\sigma z$ 对于每个置换 $\sigma \in S_n$ (cf.) § 6, no. 3、注）；这些元素形式是$T^n(M)$的子A模块$A'_n(M)$。对于所有$z \in T^n(M)$，我们写成$a.z = \sum_{\sigma \in S_n} \varepsilon_\sigma(\sigma.z)$，并称$a.z$为$z$的*倾斜对称化*；作为$\varepsilon_{\sigma\tau} = \varepsilon_\sigma \varepsilon_\tau$，立即看出$a.z$是斜对称的张量，因此$z \mapsto a.z$是$T^n(M)$的自同态，其中像$A''_n(M)$包含在$A'_n(M)$中；一般来说$A''_n(M) \neq A'_n(M)$（习题8）。如果$z$是斜对称张量，则$a.z = n!z$；因此，*当* $n!$ *可逆于* $A$时，自同态 $z \mapsto (n!)^{-1}a.z$ 是 $T^n(M)$ 的 *投影算子*，其像为
+$T^n(M)$ 的元素 $z$ 称为阶* $n$ 的（逆变）*偏斜对称张量，如果 $\sigma.z = \varepsilon_\sigma z$ 对于每个置换 $\sigma \in S_n$ (cf.) § 6, no. 3、注)；这些元素形式是$T^n(M)$的子A模块$A'_n(M)$。对于所有$z \in T^n(M)$，我们写成$a.z = \sum_{\sigma \in S_n} \varepsilon_\sigma(\sigma.z)$，并称$a.z$为$z$的*倾斜对称化*；作为$\varepsilon_{\sigma\tau} = \varepsilon_\sigma \varepsilon_\tau$，立即看出$a.z$是斜对称的张量，因此$z \mapsto a.z$是$T^n(M)$的自同态，其中像$A''_n(M)$包含在$A'_n(M)$中；一般来说$A''_n(M) \neq A'_n(M)$（习题8）。如果$z$是斜对称张量，则$a.z = n!z$；因此，*当* $n!$ *在* $A$ 中可逆时，自同态 $z \mapsto (n!)^{-1}a.z$ 是 $T^n(M)$ 的 *投影算子*，其像是
 
 $$
 A'_n(M) = A''_n(M).
@@ -330,11 +330,11 @@ $$
 z - (n!)^{-1}a.z = \sum_{\sigma \in S_n} (n!)^{-1}(z - \varepsilon_\sigma(\sigma.z)) \in \mathfrak{J}_n''
 $$
 
-对于所有$z \in T^n(M)$，这建立了我们的断言。
+对于所有人$z \in T^n(M)$，这建立了我们的断言。
 
 当$n!$在$A$中可逆时，$T^n(M)$的子模、$A'_n(M)$和$\mathfrak{J}_n''$因此是*补充*并且典范同态$T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$的限制到$A'_n(M)$是A-模 *同构*，这允许我们在所讨论的情况下将阶$n$的认同倾斜对称张量与$M$的第$n$外部幂的元素。 注这里还表明，该标识与两个斜对称张量的$T(M)$中的乘法、乘积不兼容，一般情况下不是斜对称的。
 
-### 5. 标量的环的扩张
+### 5. 标量环的扩张
 
 令$A, A'$为两个交换环、$\rho : A \to A'$环同态、$M$一个$A$模、$M'$一个$A'$模以及$f : M \to M'$一个*A同态*（相对于$\rho$）的$M$变成$M'$。复合映射$M \xrightarrow{f} M' \xrightarrow{\phi_{M'}} \bigwedge_{A'}(M')$是$M$的A-线性映射到A-代数$\bigwedge_{A'}(M')$，并且，由于f(M)⊂M'的元素在$\bigwedge_{A'}(M')$中是零平方，因此存在(no. 1, 命题 1) 唯一一个 $A$-代数 $f'' : \bigwedge_A(M) \to \bigwedge_{A'}(M')$ 呈现可交换图表
 
@@ -366,7 +366,7 @@ $$
 
 证明是由§ 5, no. 4 衍生而来，命题 5 替换 $T$ 由$\bigwedge$ 衍生而来，$\phi_M$ 由$\phi_M''$ 衍生而来。
 
-### 6. 直极限外部代数
+### 6. 外部直极限代数
 
 令$(A_\alpha, \phi_{\beta \alpha})$为交换环、$(M_\alpha, f_{\beta \alpha})$直接系统的有向直接系统、$A_\alpha$模块、$A = \lim \to A_\alpha$和$M = \lim \to M_\alpha$。对于 $\alpha \leq \beta$，我们从 $A_\alpha$ 同态 $f_{\beta \alpha} : M_\alpha \to M_\beta$ 和 $A_\alpha$ 代数同态 (no. 5, 公式 (12)) $f_{\beta \alpha}' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_{A_\beta}(M_\beta)$ 推导出来，并从 (13) 得出$(\bigwedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ 是 *直接系统已分级* $A_\alpha$*-模块*。另一方面，令 $f_\alpha : M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；我们推导出 (no. 5, 公式 (12)) 分级$A_\alpha$-代数同态$f_\alpha'' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_A(M)$，并且从 (13) 还可以得出，$f_\alpha''$ 构成$A_\alpha$-同态的直接系统。
 
@@ -376,7 +376,7 @@ $$
 
 证明与 § 5, no. 4、命题 6 替换在整个 T 中的 $\Lambda$ 和 $\phi$ $\phi''$ 相同，并且考虑到交错的代数的直极限是交错的。
 
-### 7. 外部代数直和。外观代数等级模
+### 7. 外部代数直和。分级模的外观代数
 
 设A为A-模家庭的交换环、$M = \bigoplus_{\lambda \in L} M_\lambda$直和和$j_\lambda : M_\lambda \to M$典范嵌入；推导出分级代数 $\Lambda(j_\lambda) : \Lambda(M_\lambda) \to \Lambda(M)$ 的 A-同态。由于$\Lambda(M)$是反交换的，§ 4, no. 7的命题 10（或者如果需要推广到L无限的情况，cf.§ 4, no. 8，*Reamrk* 1）可以应用于同态$\Lambda(j_\lambda)$；那么存在唯一代数同态
 
@@ -430,7 +430,7 @@ $$
 \end{array}
 $$
 
-是可交换的（cf. § 4, no. 5，命题 8 的推论）。
+是可交换的（cf.§ 4, no. 5，推论到命题8）。
 
 可以更精确地描述$\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$的子$A$模块，通过同构$g$来识别$\Lambda^n(M)$。对于$L$的每个有限子集$J$，我们写$E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$，因此$\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$相对于$L$的有限子集的有向集合$\mathscr{F}(L)$，通过定义（$§ 4$， no. 8，*注* 1)。对于每个家庭$\nu = (n_\lambda) \in \mathbf{N}^{(L)}$（因此具有*有限*支持），使得$\sum_{\lambda \in L} n_\lambda = n$和$L$包含中的每个有限子集$J$家庭$\nu$的支持，我们写
 
@@ -454,9 +454,9 @@ $$
 
 然后可以看出，考虑到II, § 6, no. 2，命题 5，我们有：
 
-#### 推论{#alg-iii-s7-n7-cor-1 .statement tag=063D}
+#### 推论 {#alg-iii-s7-n7-cor-1 .statement tag=063D}
 
-*The A-module $\bigwedge^n(M)$ is the image under isomorphism (14) of the submodule of* $\bigotimes_{\lambda \in L} \bigwedge(M_\lambda)$* *the direct sum of the submodules* $\bigwedge^\nu(M)$* *for all families* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$* *such that* $\sum_{\lambda \in L} n_\lambda = n$; *如果* $J$* 是* $\nu$、$\bigwedge^\nu(M)$* *的支持，则与* $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_\lambda)$ 自然同构。
+*A-模块$\bigwedge^n(M)$是* $\bigotimes_{\lambda \in L} \bigwedge(M_\lambda)$* *子模块的直和* $\bigwedge^\nu(M)$* *对于所有族* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$* *使得* $\sum_{\lambda \in L} n_\lambda = n$的子模块同构（14）下的图像； *如果* $J$* 是* $\nu$、$\bigwedge^\nu(M)$* *的支持，则与* $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_\lambda)$ 自然同构。
 
 一般来说，$\bigwedge^n(M)$中的$\bigwedge^\nu(M)$、$\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_\lambda)$及其像都被识别。有了这个约定：
 
@@ -464,23 +464,23 @@ $$
 
 *令$\Delta$为可交换幺半群，$M$为型$\Delta$的分级A-模和*$(M_\alpha)_{\alpha \in \Delta}$**其毕业。对于子模* $\bigotimes_{\lambda \in J} \bigwedge^{n_\lambda}(M_{\alpha_\lambda})$的每一个有序对* $(\alpha, n) \in \Delta \times \mathbf{N}$，*令* $\bigwedge^{\alpha,n}(M)$* *为子模* $\bigwedge^n(M)$* *直和，*其中* $(n_\lambda)_{\lambda \in L}$* *穿过以下家庭的集合整数* $\geq 0$* *使得* $\sum_{\lambda \in L} n_\lambda = n$、$J$* *是其支持，并且对于每个* $(n_\lambda)$、$(\alpha_\lambda)_{\lambda \in J}$* *贯穿* $\Delta^J$* *的家庭集合使得* $\sum_{\lambda \in J} \alpha_\lambda = \alpha$。 *那么* $(\bigwedge^{\alpha,n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$* *是型* $\Delta \times \mathbf{N}$* *与* $\bigwedge(M)$* 上的代数结构兼容，并且诱导在* $M = \bigwedge^1(M)$* *上给予毕业。*
 
-$\bigwedge(M)$ 是 $\bigwedge^{\alpha,n}(M)$ 的直和这一事实由命题 10 的推论得出； 证明的其余部分与§ 5, no. 5、命题7的证明结尾相同。
+事实上，$\bigwedge(M)$是$\bigwedge^{\alpha,n}(M)$的直和，从推论到命题10； 证明的其余部分与§ 5, no. 5、命题7的证明结尾相同。
 
-### 8. 代数自由模外观
+### 8. 自由模外部代数
 
 #### 定理 1 {#alg-iii-s7-thm-1 .statement tag=063F}
 
-*设* $M$* *为A-模和基* $(e_\lambda)_{\lambda \in L}$。 *让* $L$* *被给予全序集*的结构（集合理论，III, § 2, no. 3，定理 1）* *并且对于每个有限子集* $J$* *的* $L$* *我们写*
+*设* $M$* *为A-模和基* $(e_\lambda)_{\lambda \in L}$。 *让* $L$* *被给予结构 of 全序集* (集合理论, III, § 2, no. 3, 定理 1)* *并且对于每个有限子集* $J$* *of* $L$* *我们写*
 
 $$
 e_J = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}
 $$
 
-其中$(\lambda_k)_{1 \leq k \leq n}$是J的元素的序列排列在递增阶（集合理论，III, § 5, no. 3，命题6）；我们写A的$e_\varnothing = 1$，单位元。 Then the $e_J$, where J runs through the set $\mathscr{F}(L)$ of finite subsets of L, form a basis of the exterior algebra $\bigwedge(M)$.
+其中$(\lambda_k)_{1 \leq k \leq n}$是排列在递增阶中的J的元素的序列(集合理论、III, § 5, no. 3、命题6)；我们写A的$e_\varnothing = 1$，单位元。 然后$e_J$，其中J遍历L的有限子集$\mathscr{F}(L)$，形成外代数$\bigwedge(M)$的基础。
 
-由于$e_\lambda$生成A-模M，$\bigwedge(M)$的每个元素都是元素$e_\lambda$的乘积的有限数的线性组合，因此（考虑到no. 3， 命题 5) 是$J \in \mathscr{F}(L)$ 的元素 $e_J$ 的有限数的线性组合。 约化到证明，$e_J$与A线性无关。否则，这些元素之间将存在一个线性关系，其系数不全为零； 子集 J 的并，其中对应到 $e_J$，其中关系中的系数为 $\neq 0$，即 L 的有限子集 K（因为只有有限的数系数 $\neq 0$）。令 N 为由 $e_\lambda$ 生成的 M 的子模，使得 $\lambda \in K$； N 是 M 中的直因子，因此 (no. 2) $\bigwedge(N)$ 与 $\bigwedge(M)$ 的子代数等同，如果我们证明 $e_J$ 与 $J \subset K$ 形式基 $\bigwedge(N)$，我们将获得所需的 contradiction.
+由于$e_\lambda$生成A-模M，$\bigwedge(M)$的每个元素都是元素$e_\lambda$的乘积的有限数的线性组合，因此（考虑到no. 3， 命题 5) 是$J \in \mathscr{F}(L)$ 的元素 $e_J$ 的有限数的线性组合。 约化到证明，$e_J$对A是线性无关的。否则，这些元素之间会存在一个线性关系，其中系数不都是零； 子集 J 的并，其中对应到 $e_J$，其中关系中的系数为 $\neq 0$，则为 L 的有限子集 K（因为只有有限的数系数$\neq 0$）。令 N 为 $e_\lambda$ 生成的 M 的子模，使得 $\lambda \in K$； N 是 M 中的直因子，因此 (no. 2) $\bigwedge(N)$ 与 $\bigwedge(M)$ 的子代数等同，如果我们证明 $e_J$ 与 $J \subset K$ 形式基 $\bigwedge(N)$，我们将获得所需的矛盾。
 
-因此，当M的基有限时，约化提供定理1；因此我们可以假设$L = \{1, m\} \subset N$。对于每个$i \in L$，令$M_i$为M的自由子模$Ae_i$； M 是$M_i$ 的直和，$\bigwedge(M_i)$ 是$\bigwedge^0(M_i) = A$ 和$\bigwedge^1(M_i) = M_i$ 的直和（no. 3，命题 6）。让$\bigwedge(M)$与$\bigwedge(M_i)$的A-模张量积规范地标识（no. 7，命题10）；后者具有$\bigwedge(M_i)$的基$(1, e_i)$的基张量积（II, § 3, no. 7，推论2至命题7）；这样我们就得到了所有元素
+因此，当M的基有限时，约化提供定理1；因此我们可以假设$L = \{1, m\} \subset N$。对于每个$i \in L$，令$M_i$为M的自由子模$Ae_i$； M 是$M_i$ 的直和，$\bigwedge(M_i)$ 是$\bigwedge^0(M_i) = A$ 和$\bigwedge^1(M_i) = M_i$ 的直和（no. 3，命题 6）。让$\bigwedge(M)$与$\bigwedge(M_i)$的A-模张量积规范地标识（no. 7，命题10）；后者具有$\bigwedge(M_i)$的基$(1, e_i)$的基张量积（II, § 3, no. 7、推论2至命题7）；这样我们就得到了所有元素
 
 $$
 u_1 \otimes u_2 \otimes \cdots \otimes u_m
@@ -496,7 +496,7 @@ $$
 \binom{m}{p} = \frac{m!}{p!(m-p)!}
 $$
 
-这是从集合理论、III, § 3, no. 5、命题12和集合理论、III, § 5, no. 8、推论1到命题11得出的。
+这是从集合理论、III, § 3, no. 5、命题 12 和集合理论、III, § 5, no. 8、推论 1 到命题 11。
 
 我们回到定理 1 中的集合L是任意的情况，并明确给出基$(e_J)$的乘法表（§ 1, no. 7）。给定全序集 $L$ 中的两个有限子集 $J, K$，我们写
 $$
@@ -513,13 +513,13 @@ $$
 $$
 \rho_{J, K} \rho_{K, J} = (-1)^{jk}
 $$
-当$J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$（no. 3，推论2至命题5。）
+当 $J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3, 推论 2 到命题 5.)
 
 #### 推论 2 {#alg-iii-s7-thm-1-cor-2 .statement tag=063H}
 
 *如果 M 是射影 A-模，则 $\bigwedge(M)$ 是射影 A-模。*
 
-证明与 § 5, no. 5 相同，推论定理 1 替换 T by $\bigwedge$。
+证明与§ 5, no. 5相同，推论到定理1替换T乘$\bigwedge$。
 
 #### 推论 3 {#alg-iii-s7-thm-1-cor-3 .statement tag=063I}
 
@@ -533,11 +533,11 @@ $$
 $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n \neq 0.
 $$
-那么 $\bigwedge^n(M)$ 是投影（推论 2），因此典范映射
+那么 $\bigwedge^n(M)$ 是投影 (推论 2)，因此典范映射
 $$
 \bigwedge^n(M) \to (\bigwedge^n(M))^{**}
 $$
-是单射的（II, § 2, no. 7，推论 4 到命题 13）；我们结论存在线性形式$g : \bigwedge^n(M) \to A$使得$g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$。如果$f$是交错的n-线性形式相应的到$g$（no. 4，命题7），则$f(x_1, \ldots, x_n) \neq 0$。
+是单射（II, § 2, no. 7、推论 4 到命题 13）；我们结论存在线性形式$g : \bigwedge^n(M) \to A$使得$g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$。如果$f$是交错的n-线性形式相应的到$g$（no. 4，命题7），则$f(x_1, \ldots, x_n) \neq 0$。
 
 ### 9. 判据线性无关
 
@@ -548,15 +548,15 @@ $$
 \lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0.
 $$
 
-条件是必要的（M上没有假设），因为如果例$\lambda x_1$（有$\lambda \neq 0$）是$x_2, \ldots, x_n$的线性组合，关系（22）成立（no. 3，命题5）。我们证明$n$上的归纳足够条件；对于 $n = 1$ 来说，它是定义的微不足道的推论。因而，假设 $n > 1$ 和条件 (22) 对于某些 $\lambda \neq 0$ 成立。如果
+条件是必要的（M 上没有假设），例如，如果$\lambda x_1$（有$\lambda \neq 0$）是$x_2, \ldots, x_n$ 的线性组合，关系 (22) 成立（no. 3，命题 5）。我们通过$n$上的归纳证明条件是足够的；对于 $n = 1$ 来说，它是定义的微不足道的推论。因而，假设 $n > 1$ 和条件 (22) 对于某些 $\lambda \neq 0$ 成立。如果
 $$
 \lambda x_2 \wedge x_3 \wedge \cdots \wedge x_n = 0,
 $$
-那么归纳假设意味着 $x_2, \ldots, x_n$ 是线性相关的，因而 *更不必说* $x_1, x_2, \ldots, x_n$ 是线性相关的。如果$\lambda x_2 \wedge x_3 \wedge \cdots \wedge x_n \neq 0$，则从no. 8，推论3到定理1，存在交错的$(n - 1)$-线性形式$f$，使得$f(\lambda x_2 \wedge x_3 \wedge \cdots \wedge x_n) = \mu \neq 0$。自从
+那么归纳假设意味着 $x_2, \ldots, x_n$ 是线性相关的，因而 *更不必说* $x_1, x_2, \ldots, x_n$ 是线性相关的。如果$\lambda x_2 \wedge x_3 \wedge \cdots \wedge x_n \neq 0$，则从no. 8、推论 3 到定理 1，存在交错的 $(n - 1)$-线性形式$f$，使得$f(\lambda x_2 \wedge x_3 \wedge \cdots \wedge x_n) = \mu \neq 0$。自从
 $$
 x_1 \wedge (\lambda x_2) \wedge \cdots \wedge x_n = 0,
 $$
-由no. 8，推论3到定理1，$\mu x_1$是$\lambda x_2, x_3, \ldots, x_n$的线性组合；因而 $x_1, x_2, \ldots, x_n$ 是线性相关的。
+从no. 8、推论 3 到定理 1，$\mu x_1$ 是$\lambda x_2, x_3, \ldots, x_n$ 的线性组合；因而 $x_1, x_2, \ldots, x_n$ 是线性相关的。
 
 #### 推论{#alg-iii-s7-n9-cor-1 .statement tag=063K}
 
@@ -566,7 +566,7 @@ $$
 $$
 u \wedge e_H = +\alpha_K e_{K \cup H}
 $$
-属于到$\Lambda(M)$的双面理想，核的$\Lambda(f)$。我们写$e_{K \cup H} = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}$；然后$\alpha_K f(e_{\lambda_1}) \wedge f(e_{\lambda_2}) \wedge \cdots \wedge f(e_{\lambda_n}) = 0$；由于命题 12，N 的元素 $f(e_{\lambda_i})$ ($1 \leq i \leq n$) 是线性相关的。但是$f$是单射的与……矛盾假设（II, § 1, no. 11，推论3到命题17）。
+属于到$\Lambda(M)$的双面理想，核$\Lambda(f)$。我们写$e_{K \cup H} = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}$；然后$\alpha_K f(e_{\lambda_1}) \wedge f(e_{\lambda_2}) \wedge \cdots \wedge f(e_{\lambda_n}) = 0$；由于 N 的命题 12，元素 $f(e_{\lambda_i})$ ($1 \leq i \leq n$) 是线性相关的。但是这个$f$是单射的与……矛盾假设（II, § 1, no. 11，推论3到命题17）。
 
 我们现在考虑一般情况；令$M'$为A-模，使得$M \oplus M' = P$是免费的（II, § 2, no. 2，命题4）。考虑线性映射$g : M \oplus M' \to N \oplus M \oplus M'$使得$g(x, y) = (f(x), 0, y)$，因此存在可交换的图表
 $$
@@ -583,7 +583,7 @@ $$
 \Lambda(M) \xrightarrow{\Lambda(j)} \Lambda(P) \xrightarrow{\Lambda(g)} \Lambda(N \oplus P)
 $$
 
-因此是单射的，并且它也等于复合同态
+因此是单射的，因为它也等于复合同态
 
 $$
 \Lambda(M) \xrightarrow{\Lambda(f)} \Lambda(N) \xrightarrow{\Lambda(g')} \Lambda(N \oplus P)

@@ -26,16 +26,16 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 4756f561764c227aa64e3d4e62f3919a12d0238b80fbc5ef1f1022349ebd9c40
+content_sha256: becef64eae3723510c49e58353112f115fce51f1a9cd438290ce608847d95ba9
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
 translation_method: google
 source_content_sha256: d7c5aa125c07daf15aa12374780d959bd9cb9aac8300a2a5e8c9396f60d1751b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 61127bd0d7a39452cec83fdee9d108f5d09c452d5812baef655edc8374e8b467
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 13。 $p$-高度延伸$\leq 1$
@@ -54,11 +54,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 令$K$为域，$L$为$K$和$x = (x_i)_{i \in I}$高度$\leq 1$的$p$激进延伸，$L$的元素族。然后$A$中的$a$通过乘积$x'' = \prod_{i \in I} x_i^{\alpha_i}$生成$K$上的向量空间$K(x_i)_{i \in I}$。为了使$(x_i)_{i \in I}$没有$p$（或以$p$为基础），家庭$(x^a)_{a \in A}$应该在$K$上自由（或$L$的基在$K$上）是必要且充分的。
 
-#### 推论{#alg-v-s13-n1-cor-1 .statement tag=06QZ}
+#### 推论 {#alg-v-s13-n1-cor-1 .statement tag=06QZ}
 
 — 令 L' 为域 K 的扩张，由两个线性不相交的子扩展 K' 和 L 生成。假设L是K上高度为$\leq 1$的p根； *那么* L' 是 K' 上高度为 $\leq 1$ 的 p 根式。此外，对于L的元素族在K上无p（分别在K上有$L$的p基），它在K'上无p（分别在K'上有L'的p基）是必要且充分的。
 
-我们有${L'}^p \subset K \subset K'$和$L' = K'(L)$，从而${L'}^p = {K'}^p({L'}^p) \subset K'$。在其他字中，L'是K'的高度$\leq 1$的p根延伸。推论的其他断言立即由命题 1 和V、p. 14、命题 5 得出。
+我们有${L'}^p \subset K \subset K'$和$L' = K'(L)$，从而${L'}^p = {K'}^p({L'}^p) \subset K'$。在其他字中，L'是K'的高度$\leq 1$的p根延伸。 推论中的其他断言立即遵循第1条命题和V、p. 14、第5条命题。
 
 #### 注 {#alg-v-s13-n1-rem-1 .statement tag=06R0}
 
@@ -172,24 +172,24 @@ b) 对于 K 上的 (x_i)_{i I} 到生成 L，族 (dx_i)_{i I} 应该生成向量
 
 c) 为了使 (x_i)_{i I} 成为 K 上 L 的 p 基，族 (dx_i)_{i I} 应该是向量 L 空间 Ω_K(L) 的基是充分必要的。
 
-首先让我们注，域 K((x_i)_{i ∈ I}) 的元素的微分dx为线性组合，系数在微分dx_i、i I的L中。对于族 (x_i)_{i ∈ I} 是 p-free 的，对于所有 i ∈ I，x_i ∉ K(x_j)_{j ∈ I - {i}} 是必要且充分的（V，p. 99，命题 2）。由科.根据 Prop. 5 的 2，这意味着 dx_i 不是 dx_j 的线性组合，因为 I 中 j ≠ i。 断言 a) 由此得出。现在 b) 立即从 Cor. 开始。提案 2 至提案 5 和 c) 由 a) 和 b) 得出。
+首先，让我们注意到域 K((x_i)_{i ∈ I}) 的元素的微分dx是线性组合，而系数在微分dx_i、i I的L中。对于族 (x_i)_{i ∈ I} 是 p-free 的，对于所有 i ∈ I，x_i ∉ K(x_j)_{j ∈ I - {i}} 是必要且充分的（V，p. 99，命题 2）。由科.根据 Prop. 5 的 2，这意味着 dx_i 不是 dx_j 的线性组合，因为 I 中 j ≠ i。 断言 a) 由此得出。现在 b) 立即从 Cor. 开始。提案 2 至提案 5 和 c) 由 a) 和 b) 得出。
 
-以下推论使得 Cor.提案 5 中的第 1 条更具体：
+下面的推论使得 Cor.提案 5 中的第 1 条更具体：
 
-#### 推论{#alg-v-s13-n2-cor-1 .statement tag=06R9}
+#### 推论 {#alg-v-s13-n2-cor-1 .statement tag=06R9}
 
 —设 (x_i)_{i ∈ I} 为 L 在 K 上的 p 基。设 V 为 L 上的向量空间，K 的 A 推导进入 V，其在 L^p 和 (u_i)_{i ∈ 上消失I} V 元素的家庭。那么V中存在L的唯一推导D，其中扩展A和映射x_i到u_i，对于所有i∈I。
 
-由科.根据命题 5 的 1，存在 L 的推导 D_0 延伸至 V 延伸 A。V 延伸 A 中的L 推导恰好是形式 D 的映射 = D_0 + u ∘ d_{L/K}其中 u 是 Ω_K(L) 到 V 的 L 线性映射。我们有 D(x_i) = u_i 当且仅当线性映射 u 满足条件 u(dx_i) = u_i − D_0(x_i)。由于族 dx_i 是 Ω_K(L) 的基，因此确定 u 是唯一的，推论如下。
+由科.根据命题 5 的 1，存在 L 的推导 D_0 延伸至 V 延伸 A。V 延伸 A 中的L 推导恰好是形式 D 的映射 = D_0 + u ∘ d_{L/K}其中 u 是 Ω_K(L) 到 V 的 L 线性映射。我们有 D(x_i) = u_i 当且仅当线性映射 u 满足条件 u(dx_i) = u_i − D_0(x_i)。由于族 dx_i 是 Ω_K(L) 的基，因此确定 u 是唯一的，推论也随之而来。
 
 设 L 为 K 的高度 $\leq 1$ 的 p 根延伸，$(x_i)_{i \in I}$ 为 L 在 K 上的 p 基。至 Th。 1 对于每个$i \in I$，存在L到L的K-导数$D_i$，其特征为$D_i(x_j) = \delta_{ij}$（克罗内克符号）； $D_i$ 是有时，称为*推导相对于*$x_i$的部分。当$I$是*有限*时，$(D_i)_{i \in I}$族是向量空间的基超过L由……组成的L到L的K-导数。
 
-Th。 1 允许对 p 碱基的研究简化为对基或向量空间的研究。对于例，我们有以下结果：
+Th。 1 允许对 p 碱基的研究简化为对基或向量空间的研究。例如我们有以下结果：
 
 #### 定理 2 {#alg-v-s13-thm-2 .statement tag=06RA}
 
 — *令 L 为$\leq 1$ 域 K 的 p 根延伸。*
-  *a)* *在 K 上存在 L 的 p 基。更准确地说，如果 S 是 K 上 L 的无 p 子集和 L 的 T 子集，使得 $S \subset T$ 和 $L = K(T)$，则在 K 上存在L 的 p 基 B，使得$S \subset B \subset T$.*
+  *a)* *在 K 上存在 L 的 p 基。更准确地说，如果 S 是 K 上 L 的无 p 子集和 L 的 T 子集，使得 $S \subset T$ 和 $L = K(T)$，则在 K 上存在 L 的 p 基 B，使得$S \subset B \subset T$.*
   *b)* *K 上 L 的两个 p 碱基具有相同的基数。*
   *c)* *要使$[L:K]$是有限的，向量空间$\Omega_K(L)$超过L应该是有限维超过L，然后我们有*
 
@@ -199,13 +199,13 @@ $$
 
 断言 *a)* 和 *b)* 为直接的 (II, p. 292)。 如果 $[L : K]$ 是有限的，则 *a)* 存在 $K$ 上 $L$ 的有限 p 基 $(x_1, ..., x_n)$；那么$L$的单项式$x_1^{\alpha_1} ... x_n^{\alpha_n}$和$0 \leq \alpha_i < p$超过$K$的$1 \leq i \leq n$形式基以及$\Omega_K(L)$的微分$dx_1, ..., dx_n$形式基超过$L$。 因此我们有$[L : K] = p^n$和$[\Omega_K(L) : L] = n$。 相反，如果 $\Omega_K(L)$ 是 $L$ 上的有限维，则存在 K 上 L 的有限 p 基（V、p. 102、Th.1），且 $[L : K]$ 是有限的。
 
-#### 推出{#alg-v-s13-n2-cor-2 .statement tag=06RB}
+#### 推出 {#alg-v-s13-n2-cor-2 .statement tag=06RB}
 
 — *对于每个 $x \in L - K$，存在 L 超过 K 包含 X 的 p 基。*
 
 因为$\{x\}$是$L$超过$K$的无p子集，因此应用Th就足够了。 2、*a)*。
 
-令 K 为 K 的域和 $L$ 扩张。如果 $D$ 是 L 的 K 导数，值在向量 L 空间中，那么对于所有 $x \in L$，我们有 $D(x^p) = 0$，依此类推$D$是$K(L^p)$的导数；由此可见$\Omega_K(L) = \Omega_{K(L^p)}(L)$。由于$L$是$\leq 1$高度$K(L^p)$的p根延伸，我们可以应用上面的结果。对于例，从 Th 开始。 1, *c)* 我们推论如下：设$(x_i)_{i \in I}$是$L$的元素的族；为了使$(dx_i)_{i \in I}$成为向量L-空间$\Omega_K(L)$的基，$(x_i)_{i \in I}$应该是L在$K(L^p)$上的p基是充分必要的。同样，科。提案 5 的第 2 条意味着：
+令 K 为 K 的域和 $L$ 扩张。如果 $D$ 是 L 的 K 导数，值在向量 L 空间中，那么对于所有 $x \in L$，我们有 $D(x^p) = 0$，依此类推$D$是$K(L^p)$的导数；由此可见$\Omega_K(L) = \Omega_{K(L^p)}(L)$。由于$L$是$\leq 1$高度$K(L^p)$的p根延伸，我们可以应用上面的结果。例如，来自 Th. 1, *c)* 我们推论如下：设$(x_i)_{i \in I}$是$L$的元素的族；为了使$(dx_i)_{i \in I}$成为向量L-空间$\Omega_K(L)$的基，$(x_i)_{i \in I}$应该是L在$K(L^p)$上的p基是充分必要的。同样，科。提案 5 的第 2 条意味着：
 
 #### 命题 6 {#alg-v-s13-prop-6 .statement tag=06RC}
 
@@ -224,13 +224,13 @@ $$(D + D')(x) = D(x) + D'(x), \quad (aD)(x) = a \cdot D(x)$$
 
 $$D^p(xy) = x \cdot D^p(y) + \sum_{j=1}^{p-1} \binom{p}{j} D^j(x) D^{p-j}(y) + D^p(x) \cdot y$$
 
-（$E$中的$x, y$）；由于$1 \leq j \leq p-1$的二项式系数$\binom{p}{j}$可被$p$整除（$V$、p. 4、引理 1），我们看到$D^p$是E到E中的推导。我们立即找到关系（对于$a, a' \in E$）
+（$E$中的$x, y$）；由于$1 \leq j \leq p-1$的二项式系数$\binom{p}{j}$可以被$p$整除（$V$，p. 4，引理1），我们看到$D^p$是E到E的推导。我们立即找到关系（对于$a, a' \in E$)
 
 $$[aD, a'D'] = aa' \cdot [D, D'] + (aD(a')) \cdot D' - (a'D'(a)) \cdot D.$$
 
 特别是，$g \times g$到$g$的映射$(D, D') \mapsto [D, D']$是$E^p$线性的。
 
-我们用子域$K$或$E$的$\mathscr{C}$集合表示，使得$E^p \subset K$和$[E : K]$是有限的；对于每个 $K \in \mathscr{C}$，我们用 E 的 K 导数的 $g(K)$ 集合表示。 Further, we denote by $\mathscr{L}$ the set of vector subspaces $l$ of $g$ of finite dimension over E and such that $[D, D'] \in h$ and $D^p \in h$ for any $D, D'$ in $h$; for each $h \in \mathscr{L}$ we denote by $I(h)$ the set of $x \in E$ such that $D(x) = 0$ for all $D \in h$.
+我们用子域$K$或$E$的$\mathscr{C}$集合表示，使得$E^p \subset K$和$[E : K]$是有限的；对于每个 $K \in \mathscr{C}$，我们用 E 的 K 导数的 $g(K)$ 集合表示。 此外，我们用$\mathscr{L}$表示E上有限维$g$的向量子空间集$l$，并且对于$h$中的任何$D, D'$，$[D, D'] \in h$和$D^p \in h$；对于每个$h \in \mathscr{L}$，我们用$I(h)$表示$x \in E$的集合，使得$D(x) = 0$对于所有$D \in h$。
 
 #### 定理 3（雅各布森）{#alg-v-s13-thm-3 .statement tag=06RD}
 

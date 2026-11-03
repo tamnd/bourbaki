@@ -25,23 +25,23 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: 16fe9be4edc94029a9a4e21d2812d5a4099cd43c53dc37db9cb20737907c1355
+content_sha256: 66e2271b371cc25160f236ffb566da9e2b269c490dacf66d8ecb969cb012e7aa
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
 translation_method: google
 source_content_sha256: c14b2d3b10b39cdfef4ea9acb546a2878e81232b29d6cdb8928fc7269171f7f2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 3cc128c37a3cb40fbe42ee75f0078ca65ac0412ff7c38b69825b9ad1c2ee265d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。真实领域中的 GAMMA 函数
+## § 1。实数域中的伽玛函数
 
-### 1. 伽玛的定义函数
+### 1. 伽玛定义函数
 
-我们定义了（集合理论，III，p. 179）函数$n!$对于每个整数$n \geq 0$，等于乘积$\prod_{0 \leq k < n} (n - k)$；所以$0! = 1$和$(n + 1)! = (n + 1)\, n!$代表$n \geq 0$。
+我们为每个整数$n \geq 0$定义了(集合理论,III,p. 179)函数$n!$，等于乘积$\prod_{0 \leq k < n} (n - k)$；所以$0! = 1$和$(n + 1)! = (n + 1)\, n!$代表$n \geq 0$。
 
 我们每整数$n \geq 1$集合$\Gamma(n) = (n - 1)!$；我们建议在实数$x > 0$的集合上向定义，延伸在整数$\geq 1$的集合上定义的连续函数$\Gamma(x)$延伸函数$\Gamma$。
 
@@ -53,7 +53,7 @@ $$
 
 每$x > 0$。
 
-为了使该方程的解成为$\Gamma(n)$的扩张，它还满足$f(1) = 1$是充分必要的。
+为了使该等式的解成为$\Gamma(n)$的扩张，它还满足$f(1) = 1$是充分必要的。
 
 如果$f$满足(1)，那么通过对$n$的递归，
 
@@ -61,7 +61,7 @@ $$
 f(x + n) = x(x + 1)(x + 2) \ldots (x + n - 1)\, f(x)
 $$
 
-对于每个整数 $n > 1$ 以及所有 $x > 0$。这个关系特别表明，$f$在区间$]n, n + 1]$上的值（$n$整数$\geq 1$）由其在区间$]0, 1]$上的值确定。反之，令$\varphi$为$]0, 1]$满足上的连续函数，仅条件$\varphi(1) = 1$、$\lim_{x \to 0} x \varphi(x) = 1$；对于每个整数$n \geq 1$，让我们在$]n, n + 1]$间隔关系上定义$f$
+对于每个整数 $n > 1$ 以及所有 $x > 0$。这个关系特别表明，区间$]n, n + 1]$上$f$的值（$n$整数$\geq 1$）由区间$]0, 1]$上的值确定。反之，令$\varphi$为$]0, 1]$满足上的连续函数，仅条件$\varphi(1) = 1$、$\lim_{x \to 0} x \varphi(x) = 1$；对于每个整数$n \geq 1$，让我们在区间$]n, n + 1]$ by 关系定义$f$
 
 $$
 f(x) = (x - 1)(x - 2) \ldots (x - n)\, \varphi(x - n);
@@ -69,7 +69,7 @@ $$
 
 显然$f$在$]0, +\infty[$上连续，满足式(1)，且扩展$\Gamma(n)$。
 
-如果$f$是(1)的连续解，并且在$]0, 1]$上取值$> 0$，则在$]0, +\infty[$上取值$> 0$，由(2)得到；然后定义函数 $g(x) = \log f(x)$ 并在 ]0, +∞[ 上连续并满足方程
+如果$f$是(1)的连续解并且在$]0, 1]$上取值$> 0$，则在$]0, +\infty[$上取值$> 0$，通过(2)；然后定义函数 $g(x) = \log f(x)$ 并在 ]0, +∞[ 上连续并满足方程
 
 $$
 g(x+1) - g(x) = \log x
@@ -77,15 +77,15 @@ $$
 
 (3)
 
-在这个区间上。
+关于这个区间。
 
 如果 $g_1$ 是 (3) 在 ]0, +∞[ 上的第二个连续解，并且如果 $h = g_1 - g$，则每 $x > 0$ 就有 $h(x+1) - h(x) = 0$；在其他字中，$h$ 是周期 1 的连续周期函数，定义在 ]0, +∞[ 上；相反，对于这种性质的每个 $h$，$g + h$ 是 (3) 的连续解。
 
 #### 命题 1 {#fvr-vii-s1-prop-1 .statement tag=08IX}
 
-*存在且仅有一个凸函数* $g$ *定义在* ]0, +∞[ *满足方程* (3) *并且对* $x = 1$取值 0。
+*存在且仅有一个凸函数* $g$ *定义在* ]0, +∞[ *满足方程* (3) *并且对于* $x = 1$取值 0。
 
-首先我们证明，如果存在函数 $g$ 满足条件，那么它在区间 ]0, 1] 上是确定的，因此在区间 ]0, +∞[ 上是确定的。事实上，对于每个整数$n > 1$，连接点$(n, g(n))$到点$(x, g(x))$的线的梯度是$x$的递增函数，因为$g$是凸的（I， p. 27，道具 5)；因而，对于 $0 < x \leq 1$，必须有，
+首先我们证明，如果存在函数 $g$ 满足条件，那么它在区间 ]0, 1] 上是明确确定的，因此在区间 ]0, +∞[ 上是明确确定的。事实上，对于每个整数$n > 1$，连接点$(n, g(n))$到点$(x, g(x))$的直线的梯度是$x$的递增函数，因为$g$是凸的（I， p. 27，道具 5)；因而，对于 $0 < x \leq 1$，必须有，
 
 $$
 \frac{g(n-1) - g(n)}{(n-1) - n} \leq \frac{g(n+x) - g(n)}{(n+x) - n} \leq \frac{g(n+1) - g(n)}{(n+1) - n}
@@ -138,7 +138,7 @@ $$
 $$
 u_n(x) = -x \log \left( 1 - \frac{1}{n} \right) - \log \left( 1 + \frac{x-1}{n} \right) + \log \left( 1 - \frac{1}{n} \right) \sim \frac{x(x-1)}{2n^2}
 $$
-因为$n$趋于$+\infty$，这证明级数与一般的项$u_n(x)$对于每个$x > 0$收敛。 函数 $u_n(x)$ 均在 $]0, +\infty[$ 上凸，$-\log x$、函数 $g(x) = -\log x + \sum_{n=2}^{\infty} u_n(x)$ 在此区间上凸（I、p. 27、第 2 条和第 4 条）；最后，有 $u_n(1) = 0$、从而 $g(1) = 0$，以及
+因为$n$趋于$+\infty$，这证明级数与一般项$u_n(x)$对于每个$x > 0$收敛。每个函数$u_n(x)$在$]0, +\infty[$上凸，$-\log x$、函数$g(x) = -\log x + \sum_{n=2}^{\infty} u_n(x)$在区间上凸（I、p. 27、第2条和第4条）；最后，有 $u_n(1) = 0$、从而 $g(1) = 0$，以及
 $$
 u_n(x+1) = u_{n+1}(x) + x \left( \log \frac{n}{n-1} - \log \frac{n+1}{n} \right)
 $$
@@ -146,7 +146,7 @@ $$
 $$
 g(x+1) = -\log(x+1) + x \log 2 + \sum_{n=3}^{\infty} u_n(x) = \log x + g(x);
 $$
-其余字、$g$满足VII、p. 306的式(3)。
+其它字、$g$满足VII、p. 306的式(3)。
 
 #### 定义 1 {#fvr-vii-s1-def-1 .statement tag=08IY}
 
@@ -157,7 +157,7 @@ $$
 *(7)*
 *并且是这样的*$\Gamma(1) = 1$*并且*$\log \Gamma(x)$*在*$]0, +\infty[$上是凸的。
 
-### 2. GAMMA 函数的特性
+### 2. 伽玛函数的性质
 
 #### 命题 2 {#fvr-vii-s1-prop-2 .statement tag=08IZ}
 
@@ -169,7 +169,7 @@ $$
 $$
 \Gamma(x) = e^{-\gamma x} \frac{1}{x} \prod_{n=1}^{\infty} \frac{e^{x/n}}{1 + \frac{x}{n}}
 $$
-(9) 其中 $\gamma$ 表示欧拉常数，(9) 右侧的无穷乘积绝对一致地收敛于$\mathbf{R}$的每个紧区间，而不是包含任何整数$< 0$（Weierstrass’公式）。
+(9) 其中 $\gamma$ 表示欧拉常数，(9) 右侧的无穷乘积绝对一致地收敛于$\mathbf{R}$的每个紧致区间，而不是包含任何整数$< 0$（Weierstrass’ 公式）。
 
 函数 $\Gamma(x)$ 在 $]0, +\infty[$ 上无限可微，并且有
 
@@ -183,7 +183,7 @@ $$
 \mathrm{D}^k (\log \Gamma(x)) = \sum_{n=0}^{\infty} \frac{(-1)^k (k-1)!}{(x+n)^k} \quad \text{for} \quad k \geq 2,
 $$
 
-(10) 和 (11) 右侧的级数在每个紧区间上绝对一致收敛，而不是包含任何整数 $\leq 0$。
+(10) 和 (11) 右侧的级数绝对一致地收敛于每个紧致区间，而不是包含任何整数$\leq 0$。
 
 事实上，道具的证明。 VII、p. 306 中的 1 表明
 
@@ -205,23 +205,23 @@ $$
 
 级数与一般项$\log \frac{n}{n-1} - \frac{1}{n-1}$绝对收敛，并有和$-\gamma$，其中$\gamma$表示欧拉常数（V，p. 242），从而我们得到Weierstrass’ 公式。
 
-对于$|x| \leq a$，有一次$|1/(x+n)^k| \leq 1/(n-a)^k$一次$n > a$，因此公式(11)右侧的级数绝对一致地收敛于$\mathbf{R}$的每个紧区间，而不是包含任何整数$\leq 0$，对于任何整数$k \geq 2$；同样的论证也适用于 (10) 的右侧，因为 $\left| \frac{1}{n} - \frac{1}{x+n} \right| \leq \frac{a}{n(n-a)}$ 适合 $|x| \leq a$ 和 $n > a$。因为这些级数是通过微分级数得到的
+对于$|x| \leq a$，有一个$|1/(x+n)^k| \leq 1/(n-a)^k$一次$n > a$，所以公式(11)右边的级数绝对一致地收敛于$\mathbf{R}$的每个紧致区间，而不是包含任何整数 $\leq 0$，对于任何整数 $k \geq 2$；同样的论证也适用于 (10) 的右侧，因为 $\left| \frac{1}{n} - \frac{1}{x+n} \right| \leq \frac{a}{n(n-a)}$ 适合 $|x| \leq a$ 和 $n > a$。因为这些级数是通过微分级数得到的
 
 $$
 \log \Gamma(x) = -\gamma x - \log x + \sum_{n=1}^{\infty} \left( \frac{x}{n} - \log \left( 1 + \frac{x}{n} \right) \right)
 $$
 
-逐项收敛，对于每个 $x > 0$、级数与一般项 $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ 绝对一致地收敛于 [0, +∞[ 中包含的每个紧区间，并且对于每个 x > 都有 VII、p. 308 的关系 (10) 和 (11) 0（II，p. 52，第 1）。此外，对于每个 x ∈ $\mathbf{R}$，一旦 n 足够大，表达式 $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ 就被定义，所以 th。 II，p. 52的1，再次证明了（9）右边的无限乘积（VII，p. 307）绝对一致收敛于每个紧区间包含，没有整数$\leq 0$。
+逐项收敛，并且对于每个 $x > 0$、级数以及一般项 $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ 绝对一致地收敛于 [0, +∞[ 中包含的每个紧致区间，并且有 VII 的关系 (10) 和 (11)， p. 308，对于每个 x > 0（II，p. 52，第 1）。此外，对于每个 x ∈ $\mathbf{R}$，一旦 n 足够大，表达式 $\frac{x}{n} - \log \left( 1 + \frac{x}{n} \right)$ 就被定义，所以 th。 II，p. 52的1，再次证明了（9）右边的无限乘积（VII，p. 307）绝对一致地收敛于每个紧致区间包含，没有整数$\leq 0$。
 
 对于$x > 0$定义的函数$\Gamma(x)$，可以推广到与整数$\leq 0$不同的点x的整个集合，从而得到VII、p. 307的满足方程（7），对此集合：对于 $-(n+1) < x < -n$ 来说就足够了
 $$
 \Gamma(x) = \frac{1}{x(x+1)\ldots(x+n)} \Gamma(x+n+1).
 $$
-通过道具。 VII、p. 307、公式 (8)、(9)、(10) 和 (11) VII、p. 307 和 308 中的 2 个，以及 (11) 中的 $D^k(\log |\Gamma(x)|)$ 替换 $D^k(\log \Gamma(x))$，在此仍然有效集合。 公式 (9) (VII, p. 307) 通过VII, p. 307的(7)可知当x趋于0时$\Gamma(x) \sim 1/x$, 从而,
+通过道具。 VII、p. 307、公式 (8)、(9)、(10) 和 (11) VII、p. 307 和 308 中的 2 个，以及 (11) 中的$D^k(\log |\Gamma(x)|)$ 替换 $D^k(\log \Gamma(x))$，在此仍然有效集合。 公式 (9) (VII, p. 307) 通过VII, p. 307的(7)可知当x趋于0时$\Gamma(x) \sim 1/x$, 从而,
 $$
 \Gamma(x) \sim \frac{(-1)^n}{n! (x+n)}
 $$
-因为 x 趋于 $-n$ ($n$ 整数 $\geq 0$)。然后，函数$1/\Gamma(x)$可以通过连续性扩展到所有$\mathbf{R}$，并在整数$\leq 0$处将其分配为值0；那么，对于所有$x \in \mathbf{R}$
+因为 x 趋于 $-n$ ($n$ 整数 $\geq 0$)。然后，函数$1/\Gamma(x)$可以通过连续性扩展到所有$\mathbf{R}$，在整数$\leq 0$处将其分配为值0；那么，对于所有$x \in \mathbf{R}$
 $$
 \frac{1}{\Gamma(x)} = \lim_{n \to \infty} \frac{x(x+1)\ldots(x+n)}{n^n n!}
 $$
@@ -229,7 +229,7 @@ $$
 $$
 \frac{1}{\Gamma(x)} = e^{y_1 x} x \prod_{n=1}^{\infty} \left( 1 + \frac{x}{n} \right) e^{-y_1/n}
 $$
-一个显示如道具中所示。 VII、p. 307的2，证明(13)右边的无限乘积绝对一致收敛于$\mathbf{R}$的每个紧区间。
+其中一个显示如道具中所示。 VII、p. 307的2，证明(13)右边的无限乘积绝对一致收敛于$\mathbf{R}$的每个紧致区间。
 
 由于$\Gamma(x) > 0$对于$x > 0$，VII、p. 307的等式(7)表明$\Gamma(x) < 0$对于$-(2n-1) < x < -(2n-2)$和$\Gamma(x) > 0$对于
 $$
@@ -240,19 +240,19 @@ $$
 \Gamma''(x) \Gamma(x) - (\Gamma'(x))^2 \geq 0,
 $$
 
-因而 $\Gamma''(x)$ 与 $\Gamma(x)$ 具有相同的符号；因而$\Gamma$对于$x > 0$和$-(2n+2) < x < -(2n+1)$来说是*凸*，对于$-(2n+1) < x - 2n \ (n \in \mathbf{N})$来说是*凹*；由此推断，在$\Gamma$凸的区间上，$\Gamma'(x)$从$-\infty$增加到$+\infty$，在$\Gamma$凹的区间上，$\Gamma'(x)$从$+\infty$减少到$-\infty$。 从而$\Gamma$的图表（图1）。
+因而 $\Gamma''(x)$ 与 $\Gamma(x)$ 具有相同的符号；因而$\Gamma$对于$x > 0$和$-(2n+2) < x < -(2n+1)$来说是*凸*，对于$-(2n+1) < x - 2n \ (n \in \mathbf{N})$来说是*凹*；由此推断，在$\Gamma$为凸的区间上，$\Gamma'(x)$从$-\infty$增加到$+\infty$，而在$\Gamma$为凹的区间上，$\Gamma'(x)$从$+\infty$减少到$-\infty$。 从而$\Gamma$的图表（图1）。
 
 **如图。 1**
 
 ### 3. 欧拉积分
 
-为了简洁起见，我们可以说，如果 $\log f$ 在 $I$ 上凸，则在区间 $I \subset \mathbf{R}$ 上定义的函数 $f$ 以及在该区间上的 $> 0$ 在 $I$ 上*对数凸*。 $\Gamma(x)$的定义表明，这个函数在$]0, +\infty[$上是对数凸的。
+为了简洁起见，我们可以说，如果 $\log f$ 在 $I$ 上凸，则在区间 $I \subset \mathbf{R}$ 上定义的函数 $f$ 以及在此区间上定义的 $> 0$ 在 $I$ 上*对数凸*。 $\Gamma(x)$的定义表明，这个函数在$]0, +\infty[$上是对数凸的。
 
 显然，$I$上的两个对数凸函数的*乘积*在$I$上也是对数凸的。进一步：
 
 #### 引理 1 {#fvr-vii-s1-lem-1 .statement tag=08J0}
 
-*设$f$和$g$是两个函数$> 0$并且在开区间$I$上两次可微。如果 $f$ 和 $g$ 在 $I$ 上是对数凸函数，则 $f + g$ 在 $I$ 上是对数凸。*
+*设$f$和$g$是两个函数$> 0$，并且在开区间$I$上两次可微。如果 $f$ 和 $g$ 在 $I$ 上呈对数凸函数，则 $f + g$ 在 $I$ 上呈对数凸。*
 
 关系$D^2 (\log f(x)) \geq 0$可以写成$f(x)f''(x) - (f'(x))^2 \geq 0$。我们简化为表明关系 $a > 0, a' > 0, ac - b^2 \geq 0, a'c' - {b'}^2 \geq 0$ 暗示 $(a + a')(c + c') - (b + b')^2 \geq 0$；现在，当$a > 0$、关系$ac - b^2 \geq 0$等价于$\mathbf{R}^2$上的二次形式$ax^2 + 2bxy + cy^2$为$\geq 0$，显然，如果
 
@@ -264,7 +264,7 @@ $$
 
 #### 引理 2 {#fvr-vii-s1-lem-2 .statement tag=08J1}
 
-设 $f$ 为有限实数函数、$> 0$，在 $\mathbf{R}$ 的两个开区间的乘积 $I \times J$ 上定义且连续，并且使得对于每个 $t \in J$ 函数 $x \mapsto f(x, t)$ 是对数凸且在$I$。在这些假设下，如果积分 $g(x) = \int_J f(x, t) dt$ 对于每个 $x \in I$ 都收敛，则 $g$ 在 $I$ 上呈对数凸。
+令$f$为有限实数函数、$> 0$，在$\mathbf{R}$的两个开区间的乘积$I \times J$上定义且连续，并且对于每个$t \in J$函数$x \mapsto f(x, t)$是对数凸且两次在 $I$ 上可微。在这些假设下，如果积分 $g(x) = \int_J f(x, t) dt$ 对于每个 $x \in I$ 都收敛，则 $g$ 在 $I$ 上呈对数凸。
 
 首先，我们证明对于每个紧凑区间 $K \subset J$ 函数 $g_K(x) = \int_K f(x, t) dt$ 都是对数凸的。事实上，如果 $K = [a, b]$、序列或函数
 
@@ -280,7 +280,7 @@ $$
 
 #### 引理 3 {#fvr-vii-s1-lem-3 .statement tag=08J2}
 
-令 $\varphi$ 为连续函数且$> 0$ 位于 $[0, +\infty[$ 包含的开区间 $J$ 上。如果 $I$ 是开区间，使得积分 $g(x) = \int_J t^{x-1} \varphi(t) dt$ 对于所有 $x \in I$ 收敛，则 $g$ 在 $I$ 上呈对数凸。
+设$\varphi$是$[0, +\infty[$中包含的开区间$J$上的连续函数和$> 0$。如果$I$是开区间，使得积分$g(x) = \int_J t^{x-1} \varphi(t) dt$对于所有$x \in I$收敛，则$g$在$I$上呈对数凸。
 
 事实上，$\log t^{x-1} = (x-1) \log t$是$x$的函数，它是凸的并且对于所有$t > 0$可两次微分，因此引理2适用。
 
@@ -359,7 +359,7 @@ $$
 + \frac{x}{x+y} \int_0^1 (1-t)^{x+y} \left( \frac{t}{1-t} \right)^{x-1} \frac{dt}{(1-t)^2} = \frac{x}{x+y} \mathbf{B}(x, y).
 $$
 
-由此可见$f(x) = \mathbf{B}(x, y) \Gamma(x+y)$满足VII、p. 305的恒等式(1)
+由此可知$f(x) = \mathbf{B}(x, y) \Gamma(x+y)$满足VII、p. 305的恒等式(1)
 而且，这个函数是对数凸的，是两个对数凸函数的乘积。最后，有$f(1) = \mathbf{B}(1, y) \Gamma(y+1)$、$\mathbf{B}(1, y) = \int_0^1 (1-t)^{y-1} dt = 1/y$、从而$f(1) = \frac{1}{y} \Gamma(y+1) = \Gamma(y)$。因此，根据属性，函数$f(x)/\Gamma(y)$等于$\Gamma(x)$。 VII、p. 306 中的 1，证明 (18)。
 
 由变量 $t = \frac{u}{u+1}$ 公式的变换 (18) 变为
@@ -424,7 +424,7 @@ $$
 \mathbf{B}(x, y) = \int_0^1 \left( t^{x-1} + t^x \frac{(1-t)^{y-1} - 1}{t} \right) dt
 = \frac{1}{x} + \int_0^1 t^x \frac{(1-t)^{y-1} - 1}{t} dt.
 $$
-函数 $\varphi(t) = \frac{(1-t)^{y-1} - 1}{t}$ 在紧区间$[0, 1]$上连续；自从
+函数 $\varphi(t) = \frac{(1-t)^{y-1} - 1}{t}$ 在紧致体区间 $[0, 1]$上连续；自从
 $$
 t^x = e^{x \log t} = 1 + x \log t + \frac{x^2}{2!} (\log t)^2 + \cdots + \frac{x^n}{n!} (\log t)^n + r_n(x, t)
 $$
@@ -435,7 +435,7 @@ $$
 $$
 对于 0 的邻域上的 $\mathbf{B}(x, y)$。
 
-对于 $n = 1$ 展开与 (24) 的识别特别给出
+对于 $n = 1$ 展开与 (24) 的辨识特别给出
 $$
 \Gamma'(1) - \frac{\Gamma'(y)}{\Gamma(y)} = \int_0^1 \frac{(1-t)^{y-1} - 1}{t} dt.
 $$

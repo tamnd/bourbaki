@@ -12,19 +12,19 @@ pdf_pages: 0274-0276
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5af0a1a4991d00b2e5fe202ef89afc36f37521328c4b8c00bdf3054f477aaebd
+content_sha256: d406b95fc23f4a3c63ab55dcc3211cff8a284a219e489ad125a6e39681a447d8
 translated_from: content/en/lie/index_of_terminology_iv_vi.md
 translation_method: google
 source_content_sha256: 5d7391113de97688e9553dfa89e8c43dd0871a41592998ae08923f0c4f6dd399
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 407c087a1ff52ef3d1e8e8fcc2093262b9bf10b1256bf80fbe85b2f671c3bff1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标术语
+## 指标 / 术语
 
 参考文献数分别表示章、段落和数（或者，特殊情况下，习题）。
 
@@ -50,11 +50,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 根集合关闭：VI、1、7。
 紧双曲线（Coxeter 群 ... 型）：V、4、习题 12。
 分量（连接图）：IV、附录、2。
-分量（不可约 Coxeter 系统）：IV, 1, 9。
-群中的共轭元素：IV、1、3。
+分量（Coxeter 系统的不可约）：IV, 1, 9。
+共轭元素 / 群：IV、1、3。
 连接图：IV、附录、2。
 连接指标：VI、1、9。
-反对表示: V, 4, 4。
+反对表示: V, 4, 4.
 陪集 (双): IV, 2, 1。
 考克塞特图：IV, 1, 9。
 考克塞特群：IV、1、3。
@@ -103,7 +103,7 @@ Dynkin 图：VI, 4, 2。
 正根：VI、1、6。
 群的介绍：IV、1、3。
 伪反射：V, 2, 1。
-激进权：VI、1、9。
+根基权: VI, 1, 9.
 
 图的分支点：IV、附录、1。
 秩 / 根系：VI, 1, 1。

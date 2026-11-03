@@ -36,16 +36,16 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 1c09cf47b68d166f02bf6653fdb030554a2e51e6187a73f3d33f0f12519fc4c9
+content_sha256: 23c6968e3c4abf3ea282b931843d3b357e91f3f3eb56f1c47c98972c823ef7a7
 translated_from: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
 translation_method: google
 source_content_sha256: f7be8f3f0168194f8856d763a03172c04c58eb904c3b4c4db2d065f58af6315e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 995a8efc2066e2a8ce7f4d347f95f73d8981bacc262a3d714047e4d82f61a099
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 超平面，腔室和刻面
@@ -54,9 +54,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 我们用 H 表示 E 的超平面的局部有限集合（一般拓扑，第 I, § 1, no. 5 章）。
 
-### 1. NOTATIONS
+### 1. 记号
 
-设 H 为 E 的超平面。回想一下，E – H 有两个连通分量，称为以 H 为界的开半空间。它们的闭包称为以 H 为界的闭半空间。设 $x, y \in E$。如果 x 和 y 包含在以 H 为界的同一个开半空间中，或者等效地，如果末端为 x 和 y 的闭线段不满足 H，则称 x 和 y 严格位于 H 的同一侧；如果 x 属于到由 H 界定的开半空间之一，并且 y 到另一个开半空间，则称 x 和 y 位于 H 的相对侧。如果 $x \in E$ 和 $t \in T$，则 x 和 t 被认为严格位于 H 的同一侧（如果对于所有 $h \in H$ 的 x 和 $h + t$ 都是如此）。
+设 H 为 E 的超平面。回想一下，E – H 有两个相连的分量，称为以 H 为界的开半空间。它们的闭包称为以 H 为界的闭半空间。令 $x, y \in E$。如果 x 和 y 包含在以 H 为界的同一个开半空间中，或者等效地，如果末端为 x 和 y 的闭线段不满足 H，则称 x 和 y 严格位于 H 的同一侧；如果 x 属于到由 H 界定的开半空间之一，并且 y 到另一个开半空间，则称 x 和 y 位于 H 的相对侧。如果 $x \in E$ 和 $t \in T$，则 x 和 t 被认为严格位于 H 的同一侧（如果对于所有 $h \in H$ 的 x 和 $h + t$ 都是如此）。
 
 设A为E的非空连通子集。对于任何不满足A的E的超平面H，$D_H(A)$表示包含A以H为界的唯一开半空间。如果$\mathfrak{N}$是E的超平面的集合，且都不满足A，则设
 $$
@@ -64,7 +64,7 @@ D_{\mathfrak{N}}(A) = \bigcap_{H \in \mathfrak{N}} D_H(A).
 $$
 如果 A 由单个点 a 组成，我们写为 $D_H(a)$ 和 $D_{\mathfrak{N}}(a)$ 而不是 $D_H(\{a\})$ 和 $D_{\mathfrak{N}}(\{a\})$。
 
-### 2. 面
+### 2. 刻面
 
 E 的点的集合不属于到集合 $\mathscr{H}$ 的任何超平面 H 是开路，因为 $\mathscr{H}$ 是局部有限的。更准确地说，我们得到以下结果：
 
@@ -130,9 +130,9 @@ $$
 
 因而$F' \subset \overline{F}$。我们不能有$\mathfrak{N}' = \varnothing$，因为这意味着$F = F'$由(2)和(4)得到，与假设相反，$b \notin F$和$b \in F'$。 $F'$的支持度为集合$L' = L \cap \bigcap_{H \in \mathfrak{N}'} H$；我们有$a \in L$，但是$\mathfrak{N}'$中的$H$有$a \notin H$，所以$L' \neq L$，最后是$\dim L' < \dim L$，即$\dim F' < \dim F$。这就证明了(ii)。
 
-Let H be in $\mathfrak{N}'$ and let D be the open half-space bounded by H and distinct from $D_H(a)$; we have $b \in H \cap L$, and it is immediate that $D \cap L$ is a half-space of L bounded by the hyperplane $H \cap L$ of L; consequently, every neighbourhood of b in L meets $D \cap L$, and since $D \cap L$ is disjoint from $\overline{F}$ by (3), we see that the point b of $\overline{F} - F$ cannot be in the interior of $\overline{F}$ in the topological space L. 由于 F 在 L 开，所以我们有 (iii)。 Q.E.D.
+令 H 在 $\mathfrak{N}'$ 中，并令 D 为以 H 为界且与 $D_H(a)$ 不同的开半空间；我们有$b \in H \cap L$，并且直接知道$D \cap L$是由L的超平面$H \cap L$界定的L的半空间；因而，L中b的每个邻域都满足$D \cap L$，并且由于$D \cap L$通过(3)与$\overline{F}$不相交，我们看到$\overline{F} - F$的点b不能位于拓扑空间L中$\overline{F}$的内部。 由于 F 在 L 开，所以我们有 (iii)。 Q.E.D.
 
-#### 推论{#lie-v-s1-n2-cor-1 .statement tag=0AP5}
+#### 推论 {#lie-v-s1-n2-cor-1 .statement tag=0AP5}
 
 *令F和F'为两个面。如果 $\overline{F} = \overline{F}'$，则面 F 和 F' 相等。*
 
@@ -168,7 +168,7 @@ Q.E.D.
 
 相对于 $\mathfrak{H}$ 的 $E$ 室（或者如果关于 $\mathfrak{H}$ 没有歧义，则简称为室）是相对于 $\mathfrak{H}$ 的 $E$ 的一个面，不包含在任何超平面属于到 $\mathfrak{H}$ 中。
 
-设$U$为点的$E$由……组成中不属于到$\mathfrak{H}$的任何超平面的开集合；由于$\mathfrak{H}$的超平面必须包含它所遇到的任何面，所以腔室是$U$中包含的面；根据第 3 条，(i)，每个室都是一个凸面（因此相连）开口子集或 $E$；由于$U$的室形式划分，它们正是$U$的连通部分。 $U$ 的每个凸面子集 $A$ 都是相连的，因此包含在一个腔室中，如果 $A$ 非空，则该腔室是唯一的。很明显，腔室是带有支撑 $E$ 的小面，并且命题 3 (iii) 表明每个腔室都是其闭合的内部。最后，令$C$为一个房间，$A$为$C$的非空子集； 公式 (2) 和 (3) 意味着
+设$U$为点的$E$由……组成中不属于到$\mathfrak{H}$的任何超平面的开集合；由于$\mathfrak{H}$的超平面必须包含它所遇到的任何面，所以腔室是$U$中包含的面；根据第 3 条，(i)，每个室都是一个凸面（因此相连）开口子集或 $E$；由于$U$的房间形式划分，它们恰好是$U$的相连的分量。 $U$ 的每个凸面子集 $A$ 都是相连的，因此包含在一个腔室中，如果 $A$ 非空，则该腔室是唯一的。很明显，腔室是带有支撑 $E$ 的小面，并且命题 3 (iii) 表明每个腔室都是其闭合的内部。最后，令$C$为一个房间，$A$为$C$的非空子集； 公式 (2) 和 (3) 意味着
 
 $$
 C = \bigcap_{H \in \mathfrak{H}} D_H(A) = D_{\mathfrak{H}}(A), \quad \overline{C} = \bigcap_{H \in \mathfrak{H}} \overline{D_H(A)}
@@ -178,7 +178,7 @@ $$
 
 #### 命题 5 {#lie-v-s1-prop-5 .statement tag=0AP8}
 
-令$C$为$E$的非空子集。假设存在 $\mathfrak{H}$ 的子集 $\mathfrak{H}'$，具有以下属性：
+令$C$为$E$的非空子集。假设存在$\mathfrak{H}$的子集$\mathfrak{H}'$具有以下性质：
 
 a) 对于任何$H \in \mathfrak{H}'$，存在一个以$H$为界的开半空间$D_H$，使得$C = \bigcap_{H \in \mathfrak{H}'} D_H$。
 
@@ -216,21 +216,21 @@ b) $L \in \mathfrak{H}$：然后$\mathfrak{N} = \mathfrak{H} - \{L\}$，因此 (
 
 *令 C 为 E 的一个腔室。C 的面是C 闭包中包含的面，其支撑为超平面。 C 的墙是超平面，即C 的面的支撑。*
 
-C属于到$\mathfrak{H}$的每面墙。命题 4 表明，当且仅当 $C \neq D_{\mathfrak{H} - \{L\}}(C)$ 时，超平面 $L \in \mathfrak{H}$ 是C 的墙。而且，C的每面墙都是C的单个面的支撑。
+C属于到$\mathfrak{H}$的每面墙。命题4表明，当且仅当$C \neq D_{\mathfrak{H} - \{L\}}(C)$时，超平面$L \in \mathfrak{H}$是C的墙。而且，C的每面墙都是C的单个面的支撑。
 
 #### 命题 8 {#lie-v-s1-prop-8 .statement tag=0APC}
 
 *每超平面* $H$ *属于到* $\mathfrak{H}$ *是至少一个房间的壁*。
 
-根据提案 7 (iii)，存在 $H$ 的点 $a$ 不属于超平面 $H' \neq H$ $\mathfrak{H}$；根据命题 6，存在一个室 $C$ 使得 $a \in \overline{C}$；命题 4 表明 $H$ 是$C$ 的墙。
+根据提案 7 (iii)，存在 $H$ 的点 $a$ 不属于到 $\mathfrak{H}$ 的任何超平面 $H' \neq H$；根据命题 6，存在一个室 $C$ 使得 $a \in \overline{C}$；命题 4 表明 $H$ 是$C$ 的墙。
 
 #### 命题 9 {#lie-v-s1-prop-9 .statement tag=0APD}
 
-*设*$C$*为一个房间，*$\mathscr{M}$*集合的墙壁为*$C$。 *然后*$C = D_{\mathscr{M}}(C)$*和每*子集*$\mathscr{L}$**$\mathfrak{H}$*使得*$C = D_{\mathscr{L}}(C)$*包含*$\mathscr{M}$。 *子集* $F$ *属于* $\overline{C}$ *是一个方面当且仅当它是* $E$ *相对于家庭* $\mathscr{M}$ 的一个方面。
+*设*$C$*为一个房间，*$\mathscr{M}$*集合的墙壁为*$C$。 *然后*$C = D_{\mathscr{M}}(C)$*以及每子集*$\mathscr{L}$*的*$\mathfrak{H}$*使得*$C = D_{\mathscr{L}}(C)$*包含*$\mathscr{M}$。 *子集* $F$ *属于* $\overline{C}$ *是一个方面当且仅当它是* $E$ *相对于家庭* $\mathscr{M}$ 的一个方面。
 
-a) 令$\mathscr{L}$为$\mathfrak{H}$的子集，使得$C = D_{\mathscr{L}}(C)$。 考虑超平面$L$属于到$\mathfrak{H}$，但不考虑$\mathscr{L}$；设$\mathfrak{N}$为超平面$H \neq L$属于到$\mathfrak{H}$中的集合。 那么$\mathscr{L} \subset \mathfrak{N}$，因而$C = D_{\mathfrak{N}}(C)$，并且$L$不满足$D_{\mathfrak{N}}(C)$。 根据命题 4 中的 (i) $\Longrightarrow$ (iii)，超平面 $L$ 不是 $C$ 的墙。 因而，$C$属于到$\mathscr{L}$的每面墙。
+a) 令$\mathscr{L}$为子集除以$\mathfrak{H}$，使得$C = D_{\mathscr{L}}(C)$。考虑超平面 $L$ 属于至 $\mathfrak{H}$，但不要考虑 $\mathscr{L}$；设$\mathfrak{N}$为超平面$H \neq L$属于到$\mathfrak{H}$中的集合。那么$\mathscr{L} \subset \mathfrak{N}$，因而$C = D_{\mathfrak{N}}(C)$，并且$L$不满足$D_{\mathfrak{N}}(C)$。根据第 4 条命题中的 (i) $\Longrightarrow$ (iii)，超平面 $L$ 不是$C$ 的墙。因而，$C$属于到$\mathscr{L}$的每面墙。
 
-b) 我们假设$C = D_{\mathscr{L}}(C)$。令$H$为超平面属于到不是$C$墙的$\mathscr{L}$，并放置$\mathscr{L}' = \mathscr{L} - \{ H \}$。由命题4中的(iii)$\Longrightarrow$(i)蕴涵，凸集合$D_{\mathscr{L}'}(C)$不满足$H$，因而$D_{\mathscr{L}'}(C) \subset D_H(C)$和$C = D_{\mathscr{L}'}(C)$。如果$\mathfrak{F}$是$\mathscr{L}$的有限子集，并且不存在包含任何$C$的墙，那么我们在$\mathfrak{F}$的基数上结论乘以归纳，$C = D_{\mathscr{L} - \mathfrak{F}}(C)$。
+b) 我们假设$C = D_{\mathscr{L}}(C)$。令$H$为超平面属于到$\mathscr{L}$，这不是$C$的墙，并放置$\mathscr{L}' = \mathscr{L} - \{ H \}$。由命题4中的(iii)$\Longrightarrow$(i)蕴涵，凸集合$D_{\mathscr{L}'}(C)$不满足$H$，因而$D_{\mathscr{L}'}(C) \subset D_H(C)$和$C = D_{\mathscr{L}'}(C)$。如果$\mathfrak{F}$是$\mathscr{L}$有限子集，没有包含$C$的任何墙，我们结论由归纳在$C = D_{\mathscr{L} - \mathfrak{F}}(C)$的$\mathfrak{F}$基数上。
 
 c) 设$a$为$C$的点；显然，$C \subset D_{\mathfrak{M}}(a)$。设$a'$为$D_{\mathfrak{M}}(a)$的点；由于闭线段$[aa']$是紧的，满足$[aa']$的超平面$H \in \mathfrak{H}$的集合$\mathfrak{F}$是有限的。由于$a$和$a'$严格位于$C$每面墙的同一侧，因此$C$属于到$\mathfrak{F}$没有墙；通过 b)，我们有 $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$。从$a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$开始，我们有$a' \in C$。因此我们证明了$D_{\mathfrak{M}}(a) \subset C$，它建立了命题的第一个部分。
 
@@ -244,7 +244,7 @@ d) 为了证明命题的最后一个断言，显然足以证明$\overline{C}$的
 
 令$F$为支持度为超平面$L$的面；我们将证明$F$是两个房间的面。设$\mathfrak{N}$为超平面$H \neq L$属于到$\mathfrak{H}$中的集合；放置$A = D_{\mathfrak{N}}(F)$并用$D^+$和$D^-$表示以$L$为界的两个开半空间。 集合$A$开，包含$F \subset L$，由于$L$的每一个点都在$D^+$和$D^-$的闭包中，所以集合$C^+ = A \cap D^+$和$C^- = A \cap D^-$是非空；这些是房间。而且，超平面$L$满足$D_{\mathfrak{N}}(F) = D_{\mathfrak{N}}(C^+)$；命题 4 表明 $L$ 是$C^+$ 的墙，并且
 
-F满足$L \cap D_{\gamma_l}(F)$，是$C^+$的面；类似地，F是$C^-$的面。最后，令C为一个室，其中F为面，并假设例为$D^+ = D_L(C)$；根据命题 4，集合 $D_{\gamma}(C)$ 满足 F，因此等于 $D_{\gamma}(F)$，并且我们有
+F满足$L \cap D_{\gamma_l}(F)$，是$C^+$的面；类似地，F是$C^-$的面。最后，令C为一个室，其中F为一个面，并假设例如$D^+ = D_L(C)$；根据命题 4，集合 $D_{\gamma}(C)$ 满足 F，因此等于 $D_{\gamma}(F)$，并且我们有
 
 $$
 C = D_{\delta}(C) = D_L(C) \cap D_{\gamma}(C) = D^+ \cap D_{\gamma}(F) = C^+.
@@ -252,7 +252,7 @@ $$
 
 ### 5. 相交超平面
 
-回想一下（代数，第 II, § 9, no. 3 章），如果 T 中存在向量 t 使得 $P' = t + P$，则 E 的两个仿射子空间 P 和 $P'$ 被称为平行。显然，关系“P 和 $P'$ 平行”是 E 的仿射子空间的集合上的等价关系。
+回想一下（代数，第 II, § 9, no. 3 章），如果 T 中存在向量 t 使得 $P' = t + P$，则 E 的两个仿射子空间 P 和 $P'$ 被称为平行。显然，关系“P 和 $P'$ 平行”是 E 的仿射子空间集合上的等价关系。
 
 #### 引理 1 {#lie-v-s1-lem-1 .statement tag=0APG}
 
@@ -262,7 +262,7 @@ $$
 
 #### 引理 2 {#lie-v-s1-lem-2 .statement tag=0APH}
 
-*设H和$H'$是E的两个不同的超平面，并且f，$f'$在E上两个仿射函数，使得H（分别$H'$）由E中的点a组成，使得$f(a) = 0$（分别$f'(a) = 0$）。最后，令L为E的超平面。假设满足以下假设之一：
+*令 H 和 $H'$ 为 E 的两个不同的超平面，并且 f、$f'$ E 上的两个仿射函数，使得 H（分别为 $H'$）由 E 中的点 a 组成，从而使得 $f(a) = 0$（分别为 $f'(a) = 0$）。最后，令L为E的超平面。假设满足以下假设之一：
 a) 超平面 H、$H'$ 和 L 平行。
 b) 超平面 H 和$H'$ 不平行，且$H \cap H' \subset L$。
 那么存在实数$\lambda, \lambda'$，而不是同时存在零，这样L由那些仿射函数$g = \lambda . f + \lambda' . f'$消失的点$a \in E$组成。
@@ -293,7 +293,7 @@ b) *超平面 H 和 H' 不平行，且$\overline{H \cap H'} \subset L$*。
 
 引入仿射函数 $f$，该仿射在 H 的每点处消失，并且对于 $D_H(C)$ 中的$x$，$f(x) > 0$；类似地，引入一个仿射函数 $f'$，对于 $H'$ 具有类似的性质。通过应用引理2，我们可以找到数$\lambda$和$\lambda'$以及具有引理中所述性质的仿射函数$g$。我们有$(\lambda, \lambda') \neq (0, 0)$，对于$L \cap D_H(C) \cap D_{H'}(C)$中的每一个点$x$，我们有$f(x) > 0,\ f'(x) > 0$和$\lambda.f(x) + \lambda'.f'(x) = 0$，所以$\lambda \lambda' < 0$。另一方面，我们有$g(b) = \lambda'.f'(b)$和$g(b') = \lambda.f(b')$，从$f(b') > 0,\ f'(b) > 0$开始，我们有$g(b)g(b') < 0$。因此，点$b$和$b'$严格位于超平面L的相对侧，因此存在L的点c，其中属于到$[bb']$，并且不同于$b$和$b'$，因此属于到C。
 
-### 6. 例: 单纯锥体和单纯体
+### 6. 例：单纯锥体和单纯形
 
 a) 设$a$为$E$的点，且$(e_1, \ldots, e_d)$基为$T$；因此，$E$中的每个点都可以唯一地写成形式
 
@@ -311,7 +311,7 @@ b) 假设现在给定 E 的点的仿射自由系统 ，例如 (a_0, a_1, \ldots,
 
 对于与 I 不同的 I 的任何子集 J，放入 $H_J = \bigcap_{i \in J} H_i$ 并让 C_J 为 E 的点 x 的集合，这样 $f_i(x) = 0$ 代表 i \in J，$f_i(x) > 0$ 代表 i \in I - J。 集合 C_J 是仿射空间 H_J 中的开单纯形，其顶点为点 a_i，对于 i \in I - J；如果$J \neq J'$，我们有$C_\varnothing = C, \overline{C} = \bigcup_{J \neq I} C_J$和$C_J \neq C_{J'}$；此外，C_J是支持H_J的小平面。特别地，C的壁是H_0，\ldots，H_d，C_{\{i\}}是H_i中包含的面。
 
-对于 I 的任何非空子集 K，令 B_K 为 E 的点 x 的集合，使得 $f_i(x) > 0$ 代表 i \in K，$f_i(x) < 0$ 代表 i \in I - K。 集合 B_K 是由下式定义的室E 中有$\mathfrak{H}$，我们有 B_I = C。容易看出$\overline{C}$是紧的；另一方面，如果 K 是基数 p 的 I 子集与 I 不同，则点 $x_n$ 的室 B_K 包含序列定义为 n \geq 2
+对于 I 的任何非空子集 K，令 B_K 为 E 的点 x 的集合，使得 $f_i(x) > 0$ 代表 i \in K，$f_i(x) < 0$ 代表 i \in I - K。 集合 B_K 是由下式定义的室E 中有$\mathfrak{H}$，我们有 B_I = C。容易看出$\overline{C}$是紧的；另一方面，如果 K 是 I 的子集与基数 p 的 I 不同，则点 $x_n$ 的室 B_K 包含序列定义为 n \geq 2
 
 $$
 f_i(x_n) = \begin{cases}

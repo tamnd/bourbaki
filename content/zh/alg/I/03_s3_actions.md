@@ -34,16 +34,16 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: 372564379a2f7fd0bddda59d7d8d987bab395092e354641e9d6a59ffc19371d2
+content_sha256: f5637d24b4856d2a0218bb395c55071b7a029f276c34cf9a32a4ff679f128173
 translated_from: content/en/alg/I/03_s3_actions.md
 translation_method: google
 source_content_sha256: 7e8fbe4c81b4a012c8fdf0810f23488766fe66b340393425e3d9b307319fe67d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5cc4d21303bb3640435f5f4a877080e9a2256ca792981d8f02aba9e30e3e2465
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。 作用
@@ -54,13 +54,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 *令$\Omega$和E为两个集合。将$\Omega$的映射放入集合，将E的映射$E^E$放入自身，称为E上的$\Omega$作用。*
 
-令 $\alpha \mapsto f_\alpha$ 为 E 上 $\Omega$ 的作用。映射 $(\alpha, x) \mapsto f_\alpha(x)$（分别为 $(x, \alpha) \mapsto f_\alpha(x)$）被称为左*（分别为*右*）的 *律 *作用为 E*† 上的 $\Omega$ *与给定关联E* 上的作用共 $\Omega$。给定 E 中 $\Omega \times E$（或 $E \times \Omega$）的映射 $g$，E 上存在且仅有一个 $\Omega$ 的作用 $\alpha \mapsto f_\alpha$，使得左（或右）作用的关联律为$g$（*集合理论*、II, § 5, no. 2、命题3）。
+令 $\alpha \mapsto f_\alpha$ 为 E 上 $\Omega$ 的作用。映射 $(\alpha, x) \mapsto f_\alpha(x)$（分别为 $(x, \alpha) \mapsto f_\alpha(x)$）被称为左*（分别为*右*）的 *律 *作用为 E*† 上的 $\Omega$ *与给定关联E* 上的作用共 $\Omega$。给定 E 中 $\Omega \times E$（或 $E \times \Omega$）的映射 $g$，E 上存在且仅有一个 $\Omega$ 的作用 $\alpha \mapsto f_\alpha$，使得左（或右）作用的关联律为$g$（*集合理论*、II, § 5, no. 2、命题 3）。
 
-在这个章中，为了缩写，我们应该说“作用的律”
+在这个章中，为了缩写，我们应该说“律 of 作用”
 
 † 或 E 上有时合成* 的 *外法则，其中 $\Omega$ 作为操作集合。
 
-而不是“左侧律作用”。 E 的元素$f_\alpha(x)$（对于$\alpha \in \Omega$和$x \in E$）有时称为$\alpha$下$x$的*变换*或$\alpha$和$x$的*合成*。通常用左（或右）乘法记号$\alpha . x$（或$x . \alpha$）表示，点可以省略； $\alpha$和$x$的合成则称为$\alpha$和$x$的*乘积*（分别为$x$和$\alpha$）。还使用指数记号 $x^\alpha$。在下面各段的论证中，我们一般使用记号$\alpha \perp x$。 元素或 $\Omega$ 通常被称为*运算符*。
+而不是“左作用的律”。 E 的元素$f_\alpha(x)$（对于$\alpha \in \Omega$和$x \in E$）有时称为$\alpha$下$x$的*变换*或$\alpha$和$x$的*合成*。通常用左（或右）乘法记号$\alpha . x$（或$x . \alpha$）表示，点可以省略； $\alpha$和$x$的合成则称为$\alpha$和$x$的*乘积*（分别为$x$和$\alpha$）。还使用指数记号 $x^\alpha$。在下面各段的论证中，我们一般使用记号$\alpha \perp x$。 元素或 $\Omega$ 通常被称为*运算符*。
 
 #### 例 {#alg-i-s3-n1-exa-1 .statement tag=057U}
 
@@ -68,9 +68,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (2) 令E为律的岩浆，用$\top$表示。与 E 的子集集合的 $x \in E$ 映射 $A \mapsto x \top A$ 关联到自身的映射是 $\mathscr{P}(E)$ 上的 E 的作用。
 
-(3) 设E为集合。 E 上$E^E$ 的恒等映射是$E^E$ 的作用，称为*规范的作用*。 作用的相应的律等于$E^E \times E$的映射$(f, x) \mapsto f(x)$进入E。
+(3) 设E为集合。 E 上 $E^E$ 的恒等映射是 $E^E$ 的作用，称为*规范的作用*。 作用的相应的律等于$E^E \times E$的映射$(f, x) \mapsto f(x)$进入E。
 
-(4) 设$(\Omega_i)_{i \in I}$为集合的一个家庭。对于所有$i \in I$，令$f_i : \Omega_i \to E^E$为E上$\Omega_i$的作用。令$\Omega$为$\Omega_i$的和（*集合理论*，II, § 4, no. 8）。将$\Omega$的映射$f$延伸到$E^E$，扩展$f_i$，就是E上$\Omega$的作用。这使我们能够将约化对作用的家庭的研究转化为对单个家庭的研究作用。
+(4) 设$(\Omega_i)_{i \in I}$为集合的一个家庭。对于所有$i \in I$，令$f_i : \Omega_i \to E^E$为E上$\Omega_i$的作用。令$\Omega$为$\Omega_i$的和（*集合理论*，II, § 4, no. 8）。将$\Omega$的映射$f$延伸到$E^E$，延伸$f_i$，就是E上$\Omega$的作用。这使我们能够将约化对作用的家庭的研究转化为对单个家庭的研究作用。
 
 (5) 给定E上$\Omega$的作用，$\perp$表示律，$\Omega$的子集$\Xi$和E的子集X，$\Xi \perp X$表示E的集合 $\alpha \perp x$ 与 $\alpha \in \Xi$ 和 $x \in X$；当$\Xi$由单个元素$\alpha$组成时，我们通常写$\alpha \perp X$而不是$\{\alpha\} \perp X$。与 $\alpha \in \Omega$ 映射 $X \mapsto \alpha \perp X$ 关联的映射是$\mathscr{P}(E)$上$\Omega$的作用，据说它是从给定的作用通过扩张到集合*导出的子集。
 
@@ -94,7 +94,7 @@ g_{\phi(\alpha)}(h(x)) = h(f_\alpha(x))
 $$
 对于所有 $\alpha \in \Omega$ 和 $x \in E$。
 
-### 2. 子集在作用下稳定。诱导作用
+### 2. 子集在作用下稳定。诱发作用
 
 #### 定义 2 {#alg-i-s3-def-2 .statement tag=057V}
 
@@ -118,7 +118,7 @@ $E$的稳定子集族的交在给定作用下是稳定的。因此，对于给�
 
 #### 定义 4 {#alg-i-s3-def-4 .statement tag=057Z}
 
-*令$\alpha \mapsto f_\alpha$为集合$E$上集合$\Omega$的作用。 $E$上的等价关系$R$据说与给定的作用兼容，如果对于$E$的所有元素$x$和$y$，使得$x \equiv y \pmod{R}$和所有$\alpha \in \Omega, f_\alpha(x) \equiv f_\alpha(y) \pmod{R}$。 映射与 $E/R$ 的元素 $\alpha \in \Omega$ 映射相关联，由 $f_\alpha$ 通过经过得到的商是 $\Omega$ 在 $E/R$ 上的作用，称为 的商$E$ $\Omega$ 作用。*
+*令$\alpha \mapsto f_\alpha$为集合$E$上集合$\Omega$的作用。 $E$上的等价关系$R$据说与给定的作用兼容，如果对于$E$的所有元素$x$和$y$，使得$x \equiv y \pmod{R}$和所有$\alpha \in \Omega, f_\alpha(x) \equiv f_\alpha(y) \pmod{R}$。与 $E/R$ 的元素 $\alpha \in \Omega$ 映射关联到自身中的映射，从$f_\alpha$经经过到商派生，是 $E/R$ 上的 $\Omega$ 的作用称为$E$ 商作用 $\Omega$。*
 
 Let $E$ be a magma and $R$ an equivalence relation on $E$. $R$ is said to be *left* (resp. *right*) *compatible* with the law on $E$ if it is compatible with the left (resp.
 
@@ -126,7 +126,7 @@ Let $E$ be a magma and $R$ an equivalence relation on $E$. $R$ is said to be *le
 
 我们将§ 1, no. 6的命题 6、7和8的类似物留给读者叙述和证明。
 
-### 4. DISTRIBUTIVITY
+### 4. 分配律
 
 #### 定义 5 {#alg-i-s3-def-5 .statement tag=0580}
 
@@ -208,7 +208,7 @@ $$
 \alpha \perp \left( \bigwedge_{\lambda \in L} x_\lambda \right) = \bigwedge_{\lambda \in L} (\alpha \perp x_\lambda).
 $$
 
-如果作用 $\alpha \mapsto f_\alpha$ 具有分配性，并且 $E$ 上的等价关系 $R$ 与 $E$ 的合成的律和作用 $\alpha \mapsto f_\alpha$ 相容的，则 $E/R$ 上的商作用是分布式的。
+如果作用 $\alpha \mapsto f_\alpha$ 是可分配的，并且 $E$ 上的等价关系 $R$ 与 $E$ 的合成律和作用 $\alpha \mapsto f_\alpha$、商作用兼容$E/R$ 是可分配的。
 
 当$E$上的律写成乘法时，我们经常使用作用的律的指数记号$x^\alpha$，它相对于这个乘法是可分配的，因此分配律可以用恒等式$(xy)^\alpha = x^\alpha y^\alpha$来表示。如果E上的律是相加的，我们经常使用左（或右）乘法记号$\alpha . x$（或$x . \alpha$）来表示作用的律，这是相对于由恒等式表示的加法，分配律的分配
 
@@ -230,7 +230,7 @@ $$
 $$
 对于每个订购的序列 $(\alpha_{\lambda})_{\lambda \in L}$ 元素 $\Omega$ 以及所有 $x \in E$。
 
-### 5. 一个内部律的分配律相对于另一个
+### 5. 一个内部律相对于另一个的分配律
 
 #### 定义 7 {#alg-i-s3-def-7 .statement tag=0585}
 
@@ -246,7 +246,7 @@ $$
 $$
 对于 E 中的所有 $x, y, z$。
 
-注如果律 $\perp$ 是可交换的，则 (10) 和 (11) 是等价的。一般来说，律之一写为加法，另一个写为乘法；如果乘法对于加法是可分配的，那么：
+请注意，如果律 $\perp$ 是可交换的，则 (10) 和 (11) 是等价的。一般来说，律之一写为加法，另一个写为乘法；如果乘法相对于加法可分配，则：
 
 (12)
 $$

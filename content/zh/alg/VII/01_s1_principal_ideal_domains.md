@@ -33,16 +33,16 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 28
-content_sha256: 5a11b9ac8edb793cf255bd936d7392fb66e73447933ed7940650ebde2dba50b9
+content_sha256: fabc33bf5d95e5d6687c20ff0da520d741f159238535bd010a82b39cdd6d57ff
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
 translation_method: google
 source_content_sha256: fccb95f1c743016175d920f3d9b4107ca71a6669ffca75cd9cc5695d9f404b32
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4845d46bb9abea8b6f3d305d2ea89aed6d896a3f2eea1f4fb95f586415cea8ba
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 主理想整环
@@ -80,21 +80,21 @@ b) $(x_i)$ 的每个 gcd 都可以用形式 $d = \sum a_i x_i$ 表示，其中 $
 
 没有限制的情况下，命题1适用于$A$的元素的任意族$(x_i)$（取$b = 1$），也适用于$K$的元素的任何有限族$(x_i)$（如果$x_i = c_i b_i$与$c_i \in A$且$b_i \in A$，则取$b$为$b_i$的乘积）。
 
-#### 推论{#alg-vii-s1-n2-cor-1 .statement tag=0711}
+#### 推论 {#alg-vii-s1-n2-cor-1 .statement tag=0711}
 
 — 令$(x_i)$为主理想整环$A$的元素的任意族，包含为整环$B$中的子环，并令$d$为$A$中族$(x_i)$的gcd。那么$(x_i)$家族在$B$有gcd，$d$就是其中之一。
 
 事实上，$d$是$B$中$x_i$的公共的除子。另一方面，关系$d = \sum a_i x_i$显示$B$除$d$中$x_i$的每一个公共的除子。
 
-该推论的一个重要应用是当$A = K[X]$和$B = E[X]$时，其中$K$是域，$E$是$K$的扩张（IV，p. 12，Cor.1）。
+这个推论的一个重要应用是当$A = K[X]$和$B = E[X]$时，其中$K$是域，$E$是$K$的扩张（IV，p. 12，Cor.1）。
 
-命题1的第一个断言表明有序的群$\mathscr{P}^*$是晶格有序的（$VI,$p. 10）。特别是元素 $K$ 的每个有限族都承认有一个 lcm。因此，我们可以将$VI$，第10至17页中标记为(DIV)的结果应用到主理想整环。
+命题1的第一个断言表明有序的群$\mathscr{P}^*$是晶格有序的（$VI,$p. 10）。特别是元素和 $K$ 的每个有限族都承认有一个 lcm。因此，我们可以将$VI$，第10至17页中标记为(DIV)的结果应用到主理想整环。
 
-以下结果是提案 I 的第二个断言的推论 ：
+以下结果是提案I第二个断言的推论：
 
 #### 定理 1（《贝祖特的身份》）{#alg-vii-s1-thm-1 .statement tag=0712}
 
-— 主理想整环 $A$ 的元素 $x_i \ (i \in I)$ 是集合互质当且仅当存在 $A$ 的元素 $a_i \ (i \in I)$，其中几乎所有零，这样 $\sum a_i x_i = 1$。
+— 主理想整环 $A$ 的元素 $x_i \ (i \in I)$ 是集合互质当且仅当存在 $A$ 的元素 $a_i \ (i \in I)$，其中几乎所有零，这样$\sum a_i x_i = 1$。
 
 条件的必要性就是命题1。反之，如果$\sum a_i x_i = 1$则$x_i$除的每一个公共的除子都是1，所以1是$x_i$的gcd。
 
@@ -105,7 +105,7 @@ a) « $d$ 是 $a$ 和 $b$ » 的 gcd 等价于 « $(d) = (a) + (b)$ »。
 b) « $m$ 是 $a$ 的 lcm，$b$ » 相当于 « $m = (a) \cap (b)$ »。
 c) « $p$ 是 $A$ 的不可约元 » 相当于 « $(p)$ 是 $A$ 的非零的最大理想 » 以及 « $(p)$ 是 $A$ 的非零的素理想 »。
 
-我们已经证明了 a)（命题 *1*）。 Since the common multiples of $a$ and $b$ are the elements of $(a) \cap (b)$, and since, by hypothesis, the ideal $(a) \cap (b)$ is principal, say $(a) \cap (b) = (m)$, it follows that $m$ is an Icm of $a$ and $b$, which proves b). 最后，说$p \neq 0$是$A$的不可约元意味着定义（VI，p. *17*）$(p)$是$A$主要理想族$\neq A$的极大元素，按包含排序；由于$A$除了主理想之外没有其他理想，这意味着$(p)$是$A$，从而c)的最大理想，通过VI，p. 17中的注。
+我们已经证明了 a)（命题 *1*）。 由于$a$和$b$的公倍数是$(a) \cap (b)$的元素，并且根据假设，理想的$(a) \cap (b)$是主要的，比如$(a) \cap (b) = (m)$，因此$m$是$a$和$b$的Icm，这证明了b)。 最后，说$p \neq 0$是$A$的不可约元意味着定义（VI，p. *17*）$(p)$是$A$主要理想族$\neq A$的极大元素，按包含排序；由于$A$除了主理想之外没有其他理想，这意味着$(p)$是$A$，从而c)的最大理想，通过VI，p. 17中的注。
 
 在主理想整环 $A$ 中，有限数理想的和（或交）也称为这些理想的 gcd（或 lcm）。
 
@@ -147,7 +147,7 @@ $$
 
 令$A$为环，使得$A$的每个左理想都是有限生成的。那么$\mathbf{A}$的左理想中的每一个非空集合$\Phi$，按包含排序，都有极大元素。
 
-根据佐恩的引理（集合理论，III，p. 154，Th.2）足以证明$\Phi$是归纳性的。现在，如果$(a_\lambda)$是$\Phi$的元素的全序族，那么理想$a_i$的并$a$是$\mathbf{A}$的左理想，因此承认生成元$(a_i)_{1 \leq i \leq n}$的有限系统。由于每个$a_i$属于到一个理想$a_{\lambda_i}$，并且由于家庭$(a_\lambda)$是完全有序的，因此理想$a_{\lambda_i}$的$a_i$所有属于到最大的，例如$a_1$。然后$a = a_1$属于到$\Phi$，因此确实是归纳集合。
+由Zorn的引理（集合理论，III，p. 154，Th.2）足以证明$\Phi$是归纳性的。现在，如果$(a_\lambda)$是$\Phi$的元素的全序族，那么理想$a_i$的并$a$是$\mathbf{A}$的左理想，因此承认生成元$(a_i)_{1 \leq i \leq n}$的有限系统。由于每个$a_i$属于到一个理想$a_{\lambda_i}$，并且由于家庭$(a_\lambda)$是完全有序的，因此理想$a_{\lambda_i}$的$a_i$所有属于到最大的，例如$a_1$。然后$a = a_1$属于到$\Phi$，因此确实是归纳集合。
 
 稍后我们将研究那些环$B$，称为诺特环，使得$B$包含极大元素的理想中的每一个非空集合。
 
@@ -166,7 +166,7 @@ $$
 
 ### 4. 有理数整数的整除性
 
-正如截面 1中指出的，有理整数的环$\mathbf{Z}$是主理想整环；其分数的域为$\mathbf{Q}$。 $\mathbf{Z}$可逆元乘法群$U$有两个元素1和$-1$。 The group $Q_+^*$ of rational numbers $> 0$ contains precisely one element from each class of associate elements of $\mathbf{Q}$; it is thus isomorphic to the multiplicative group $\mathscr{P}^* = Q^*/U$ of principal fractional ideals of $\mathbf{Q}$, with which it is usually identified. 特别是，当gcd或lcm用于域$\mathbf{Q}$（相对于环$\mathbf{Z}$）时，可以理解为元素$\geqslant 0$；这个约定使我们能够谈论有理数族的gcd和lcm。
+正如截面 1中指出的，有理整数的环$\mathbf{Z}$是主理想整环；其分数的域为$\mathbf{Q}$。 $\mathbf{Z}$可逆元乘法群$U$有两个元素1和$-1$。 有理数$> 0$的群$Q_+^*$恰好包含$\mathbf{Q}$每一类关联元素中的一个元素；因此，它同构于 $\mathbf{Q}$ 主分数理想的乘法群 $\mathscr{P}^* = Q^*/U$，通常将其与它等同。 特别是，当gcd或lcm用于域$\mathbf{Q}$（相对于环$\mathbf{Z}$）时，可以理解为元素$\geqslant 0$；这个约定使我们能够谈论有理数族的gcd和lcm。
 
 $\mathbf{Z}$中的不可约整数$> 0$正是我们所说的素数数（I，p. 50）（它们是有时称为有理素数数）；因此$\mathbf{Z}$的每个不可约元都是形式$p$或$-p$，其中$p$是素数数，素数数的集合$P$是系统的代表不可约元共$\mathbf{Z}$。
 
@@ -174,17 +174,17 @@ $\mathbf{Z}$中的不可约整数$> 0$正是我们所说的素数数（I，p. 50
 
 — 素数数的集合是无限的。
 
-Indeed, given an arbitrary finite family $(p_i)$ ($1 \leq i \leq n$) of distinct prime numbers, any prime divisor $q$ of the number $\left( \prod_{i=1}^n p_i \right) + 1$ (which is $> 1$) is distinct from all the $p_i$, for otherwise it would divide 1.
+事实上，给定不同素数的任意有限族$(p_i)$ ($1 \leq i \leq n$)，数字$\left( \prod_{i=1}^n p_i \right) + 1$（$> 1$）的任何素数$q$都不同于所有$p_i$，否则它将整除1。
 
 ### 5. 域上一个不定多项式的整除性
 
-多项式环 $K[X]$ 在交换域 $K$ 的一个不定数中是主理想整环（IV、p. 11，命题 11）。它的分数的域是$X$中的有理函数的域$K(X)$，系数来自$K$。 次数 0 多项式的环 $K[X]$ 包含子环，即常数域，用$K$标识； $K^*$的元素在$K$中是可逆的，因此在$K[X]$中是可逆的；反之公式 $\deg(uv) = \deg(u) + \deg(v)$ 表明每个可逆多项式都有次数 0；因而，$K[X]$的可逆元的群$U$正好是$K^*$。因而，两个关联多项式仅相差非零的常数因子；特别是关联多项式包含的每个类都是唯一的一元多项式。 乘法群 $K(X)^*$的子群由一元多项式生成，因此包含唯一元素来自关联有理函数的每个类，因此与群同构
+多项式环 $K[X]$ 在交换域 $K$ 的一个不定数中是主理想整环（IV、p. 11，命题 11）。它的分数的域是$X$中的有理函数的域$K(X)$和来自$K$的系数。 次数 0 多项式的环 $K[X]$ 包含子环，即常数域，用$K$标识； $K^*$的元素在$K$中是可逆的，因此在$K[X]$中是可逆的；反之公式 $\deg(uv) = \deg(u) + \deg(v)$ 表明每个可逆多项式都有次数 0；因而，$K[X]$ 的可逆元的群 $U$ 恰好$K^*$。因而，两个关联多项式仅相差非零的常数因子；特别是关联多项式包含的每个类都是唯一的一元多项式。 乘法群 $K(X)^*$的子群由一元多项式生成，因此包含唯一元素来自关联有理函数的每个类，因此与群同构
 
 $$
 \mathscr{P}^* = K(X)^*/U
 $$
 
-$K(X)$ 的主分数理想。特别是，每当提到域$K(X)$（相对于环$K[X]$）中的gcd或lcm时，通常会理解这些是一元多项式的商（或0）；这个约定使我们能够谈论有理数族函数的gcd或lcm。
+$K(X)$ 的主分数理想。特别是，每当提到域$K(X)$（相对于环$K[X]$）中的gcd或lcm时，通常会理解它们是商的一元多项式（或0）；这个约定使我们能够谈论有理数族函数的gcd或lcm。
 
 $K[X]$的不可约元正是通常意义上的不可约多项式（IV，p. 13，Def.2），而单调不可约多项式的集合是$K[X]$的不可约元的代表的系统。
 
@@ -194,13 +194,13 @@ $$
 p(X) = c(X - a_1)(X - a_2) \ldots (X - a_n)
 $$
 
-其中$c$和$a_i$是$K$的元素。
+其中$c$和$a_i$是元素/$K$。
 
 #### 命题 6 {#alg-vii-s1-prop-6 .statement tag=071B}
 
 对于任何域 $K$，$K[X]$ 中的单调不可约多项式的 *集合* 是无限的。
 
-事实上，给定不同单调不可约多项式的任意非空有限族$(p_i)$（$1 \leq i \leq n$），首一多项式$\left( \prod_{i=1}^n p_i \right) + 1$是不可逆的，并且该多项式的任何单调不可约因子$q$必然与所有$p_i$不同，否则它会除1。
+事实上，给定不同单调不可约多项式的任意非空有限族$(p_i)$（$1 \leq i \leq n$），首一多项式$\left( \prod_{i=1}^n p_i \right) + 1$是不可逆的，并且该多项式的任何单调不可约因子$q$必然不同于所有$p_i$，否则它会除 1.
 
 ### 习题{#alg-vii-s1-exercises}
 

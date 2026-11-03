@@ -54,19 +54,19 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: c667e80b6b0ed81dbc8065c91547cdc66f3cc9ca8f8b19d7878ff269c0b438b9
+content_sha256: 3008c40bfb9c1a6926a9825851f91f733135d7a9301e44489de4e0f4154608a1
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
 translation_method: google
 source_content_sha256: d6bc940de2b7bc4d5c77deed1610950a126e1ac53cd26ce4b8099a1f2945d150
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7c4b599e3e0b738d053218e3dcfd82f3525f081f0a567faaf116f8e2551d0ee6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 4。 群和群与操作员
+## § 4。 群和群与运算符
 
 ### 1. 群
 
@@ -88,7 +88,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 如果合成的律在G上确定群结构在G上，则相反的律也是如此。 群 G 的映射与每个 $x \in G$ 关联，$x$ 的倒数是 G 的 *同构* 到相反的群 (§ 2, no. 3, 命题 4)。
 
-根据我们的一般约定（*集合理论*，II, § 3, no. 1），我们将在映射$x \mapsto x^{-1}$下用G的子集A的$A^{-1}$像表示。但对于注来说，重要的是，尽管有记号的类比，$A^{-1}$绝对不是G的子集之间合成$(X, Y) \mapsto XY$的律下A的逆元素（回想一下，XY是$xy$的集合和$x \in X, y \in Y$）：这个律下的单位元素是$\{e\}$，这个律下的$\mathscr{P}(G)$唯一的可逆元是集合单个元素的由……组成（而且，这样的A肯定有逆$A^{-1}$）。身份
+根据我们的一般约定（*集合理论*，II, § 3, no. 1），我们将在映射$x \mapsto x^{-1}$下用G的子集A的$A^{-1}$像表示。但值得注意的是，尽管有记号的类比，$A^{-1}$绝对不是A在合成律下的逆元素，在G的子集之间$(X, Y) \mapsto XY$（回想一下，XY是集合） $xy$与$x \in X, y \in Y$）：律下的单位元素是$\{e\}$，而这个律下的$\mathscr{P}(G)$中唯一的可逆元是单个的集合由……组成元素（而且，这样的A肯定有逆$A^{-1}$）。身份
 
 $(AB)^{-1}=B^{-1}A^{-1}$ 适用于$A\subset G$、$B\subset G$。如果$A=A^{-1}$，$A$ 称为$G$ 的对称子集。对于所有 $A\subset G$、$A\cup A^{-1}$、$A\cap A^{-1}$ 和 $AA^{-1}$ 都是对称的。
 
@@ -104,7 +104,7 @@ $(AB)^{-1}=B^{-1}A^{-1}$ 适用于$A\subset G$、$B\subset G$。如果$A=A^{-1}$
 
 如果群运算是可交换的，则带有运算符 $G$ 的群称为*可交换*（或 *阿贝尔的*）。
 
-接下来，群$G$将被识别为群，其中$\varnothing$中的运算符是通过给$G$赋予$\varnothing$在$G$上唯一的作用而获得的。这使我们能够将群视为群与运算符的特殊情况，并将定义应用于它们以及我们将说明的与后者相关的结果。
+接下来，群$G$将被识别为群，其中$\varnothing$中的运算符是通过给$G$赋予$\varnothing$在$G$上唯一的作用而获得的。这使我们能够将群视为群与运算符的特殊情况，并将其应用于定义以及我们将说明的与后者相关的结果。
 
 #### 例 {#alg-i-s4-n2-exa-1 .statement tag=058K}
 
@@ -118,23 +118,23 @@ $$
 f(x^\alpha)=(f(x))^\alpha
 $$
 
-对于所有 $\alpha\in\Omega$ 和所有 $x\in G$。
+对于所有$\alpha\in\Omega$和所有$x\in G$。
 
-群的 *自同态* 与运算符 $G$ 是群 $G$ 的自同态，它与 $G$ 的所有 *同位性 * 可*置换*。
+带有运算符 $G$ 的群的 *自同态* 是群 $G$ 的自同态，它与 $G$ 的所有 *同位性 * 可*置换*。
 
-由于群与运算符 $G$ 的两个同位性不一定是可置换的，因此 * $G$ 的位似一般不是群与运算符 $G$ 的自同态。*
+由于群与运算符 $G$ 的两个同位不一定是可置换的，因此 * $G$ 的位似一般不等于群与运算符 $G$ 的自同态。*
 
-带有运算符的群的恒等映射是带有运算符的群的同态； 群与运算符的两个同态的合成也是一个。对于具有运算符的映射是群的同构，它是具有运算符的群的双射同态是充分必要的，并且其逆映射是具有运算符的群的同构。
+带有运算符的群的恒等映射是带有运算符的群的同态； 群的两个同态与运算符的合成也是一。为了使映射是具有运算符的群的同构，它是具有运算符的群的双射同态是充分必要的，并且其逆映射是具有运算符的群的同构。
 
-更一般地，令 G（或 G'）为群，运算符为 $\Omega$（或 $\Omega'$）。设$\phi$为$\Omega$到$\Omega'$的映射。 G 到 G' 的 $\phi$ 同态是群 G 到群 G' 的同态，使得
+更一般地，令 G（分别为 G'）为群，运算符位于 $\Omega$（分别为 $\Omega'$）。设$\phi$为$\Omega$的映射到$\Omega'$。 G 到 G' 的 $\phi$ 同态是群 G 到群 G' 的同态，使得
 
 $$
 f(x^\alpha) = (f(x))^{(\phi(\alpha))}
 $$
 
-对于所有 $\alpha \in \Omega$ 和所有 $x \in G$。
+对于所有$\alpha \in \Omega$和所有$x \in G$。
 
-在本段的其余部分中，我们将给出集合 $\Omega$。 除非另外提到的群考虑了运算符将承认$\Omega$作为运算符的集合。
+在本段的其余部分中，我们将给出集合 $\Omega$。 除非另外提到的群考虑了运算符，将承认$\Omega$作为运算符的集合。
 
 ### 3. 子群
 
@@ -144,14 +144,14 @@ $$
 
 (i) $e \in H$；
 (ii) $x, y \in H \implies xy \in H$；
-（三）$x \in H \implies x^{-1} \in H$；
+(iii) $x \in H \implies x^{-1} \in H$；
 (iv) $x \in H$和$\alpha \in \Omega$意味着$x^\alpha \in H$。
 
-如果 H 是 G 的稳定子群，则由群的结构在 G 上使用算子在 H 上诱导的结构是群的结构，并且 H 到 G 的典范嵌入是同态群与操作员。
+如果 H 是 G 的稳定子群，则由群的结构在 G 上用运算符诱导的结构是群的结构，并且 H 到 G 的典范嵌入是群的同态运算符。
 
-令 G 为群。 G 的稳定子群且作用为 $\varnothing$ (no. 2)，即子集的 G 满足条件 (i), (ii), (iii) of 定义 4，称为G 的 *子群*。当我们谈到运算符的群的子群时，我们总是指 G 的底层群的子群。运算符 G 的群的子群不一定是 G 的稳定子群。
+设G为群。 G 的稳定子群与 $\varnothing$ (no. 2) 的作用，即定义 4 的 G 满足条件 (i), (ii), (iii) 的子集，称为 G 的 *子群*。运算符的群中的子群，我们始终表示G的底层群的子群。运算符G的群中的子群不一定是G的稳定子群。
 
-*例* (1)。令 $\Sigma$ 为结构的类（*集合理论*，IV, § 1, no. 4），并且在集合 E 上的类 $\Sigma$ 为 S 结构（*loc.cit.*）。 S的*自同构*集合是$\mathscr{G}_E$的子群。
+*例* (1)。令$\Sigma$为结构的类（*集合理论*，IV, § 1, no. 4），并且在集合E上的类$\Sigma$为S结构（*loc.cit.*）。 S的*自同构*集合是$\mathscr{G}_E$的子群。
 
 #### 命题 1 {#alg-i-s4-prop-1 .statement tag=058N}
 
@@ -160,7 +160,7 @@ $$
 (a) *H 是 G* 的稳定子群。
 (b) *H 非空且关系* $x \in H, y \in H \implies xy \in H$ *和* $x^{-1} \in H$。
 (c) *H 非空且关系* $x \in H, y \in H \implies xy^{-1} \in H$。
-(d) *H 在 G 上的律下稳定，并且由 G 上的合成的律在 H 上诱导的合成律是群运算*。
+(d) *H 在 G 上的律和由 G 上的合成的律在 H 上诱导的合成律下是稳定的群运算*。
 
 显然（a）意味着（b）。我们证明（b）蕴涵（a）。只要证明 G 的 H 包含单位元素就足够了。由于子集 H 非空，所以设 $x \in H$。然后是$x^{-1} \in H$和$e = xx^{-1} \in H$。显然（b）暗示着（c）。我们证明（c）蕴涵（b）。首先，由于 H 非空，所以包含元素 x。因此 xx^{-1} = e 是 H 的元素。对于 H 的每个元素 x，$x^{-1} = ex^{-1}$ 属于到 H；因此关系$x \in H, y \in H$意味着$x(y^{-1})^{-1} = xy \in H$。显然（a）意味着（d）。我们证明(d)蕴涵(a)：H到G的典范嵌入是群同态；因此$e \in H$和关系$x \in H$意味着$x^{-1} \in H$（no. 1）。
 
@@ -168,10 +168,10 @@ $$
 
 (1) 类似地可以证明条件 (b) 等价于条件
 (c') $H \neq \varnothing$ 和关系 $x \in H$ 和$y \in H$ 意味着$y^{-1}x \in H$。
-(2) 对于 G 的每个子群 H，有以下关系
+(2) 对于G的每子群 H，有以下关系
 $$(1)$$
 $$H.H = H \quad \text{and} \quad H^{-1} = H.$$
-对于 $H.H \subset H$ 和 $H^{-1} \subset H$ 由 (b) 得出。作为 $e \in H, H.H \supset e.H = H$ 并取逆变换，将 $H^{-1} \subset H$ 包含到 $H \subset H^{-1}$、从而公式 (1)。
+对于 $H.H \subset H$ 和 $H^{-1} \subset H$ 由 (b) 得出。作为$e \in H, H.H \supset e.H = H$并取逆变换，将$H^{-1} \subset H$包含到$H \subset H^{-1}$、从而公式 (1)。
 
 如果H是G的稳定子群并且K是H的稳定子群，则显然K是G的稳定子群。
 
@@ -181,7 +181,7 @@ G的集合$\{e\}$是最小的稳定子群。G的稳定子群族的交是稳定�
 
 *设X是群的非空子集，具有运算符G和$\hat{X}$，X生成的G上$\Omega$的作用下的稳定子集。 X生成的稳定子群是集合$Y = \hat{X} \cup \hat{X}^{-1}$生成的G上律下的稳定子集。*
 
-后者子集Z是有限序列的合成的集合，其所有的项都是$\hat{X}$的元素或$\hat{X}$的元素的逆：这样的合成的逆是合成相同的形式（§ 2, no. 3，推论1到命题5），并且Z在$\Omega$的作用下是稳定的，正如通过应用§ 3, no. 4，命题1与G的同位性所见，因此（命题1）Z是G 的*稳定子群*。相反，每个稳定子群包含X显然包含Y，因此Z。
+后者子集Z是有限序列的合成的集合，其所有的项都是$\hat{X}$的元素或$\hat{X}$的元素的逆：这样的合成的逆是合成相同的形式 (§ 2, no. 3, 推论 1 到命题 5) 并且 Z 在 $\Omega$ 的作用下是稳定的，如应用 § 3, no. 4、命题 1 与 G 的同位性所见，因此(命题 1) Z 是 G 的*稳定子群*。相反，每个稳定子群包含 X 显然是包含 Y，因此是 Z。
 
 #### 推论 1 {#alg-i-s4-prop-2-cor-1 .statement tag=058Q}
 
@@ -191,7 +191,7 @@ G的集合$\{e\}$是最小的稳定子群。G的稳定子群族的交是稳定�
 
 *设 G 为成对可置换元素的 G 由……组成的群和 X 子集。由X生成的G的子群是可交换的。*
 
-集合 $Y = X \cup X^{-1}$ 由成对可置换元素 (§ 2, no. 3, 命题 5) 和律组成，在由 Y 生成的稳定子集上诱导是可交换的（§ 1, no. 5，推论 2）。
+集合 $Y = X \cup X^{-1}$ 由成对可置换元素 (§ 2, no. 3, 命题 5) 和律组成，由 Y 生成的稳定子集是可交换的 (§ 1, no. 5, 推论 2)。
 
 如果 G 是具有运算符的群，则成对可置换元素的 G 由……组成的子集生成的稳定子群不一定是可交换的。
 
@@ -209,13 +209,13 @@ $$
 
 因此，在加法群$\mathbf{Z}$中，元素x生成的子群是$xn, n \in \mathbf{Z}$的集合$x.\mathbf{Z}$，而x生成的稳定的子集是$xn, n \in \mathbf{N}^*$的集合。如果$x \neq 0$，这两个集合总是不同的。
 
-G 的稳定子群的右向族的并显然是稳定的子群。由此可见，如果 P 是 G 和 H 的子集，则 G 的稳定子群不满足 P，G 包含 H 的稳定子群的集合且不满足 P，按包含排序，是归纳的（集合理论，III, § 2, no. 4）。 应用 Zorn 的引理（集合理论，III, § 2, no. 4），我们得到以下结果：
+G 的稳定子群的右向族的并显然是稳定的子群。由此可知，如果 P 是 G 和 H 的子集，则 G 的稳定子群不满足 P，G 包含 H 的稳定子群的集合且不满足 P，按包含排序，是归纳的（集合理论，III, § 2, no. 4）。 应用 Zorn 的引理 (集合理论, III, § 2, no. 4)，我们得到以下结果：
 
 #### 命题 3 {#alg-i-s4-prop-3 .statement tag=058T}
 
 设G为群，且有算子，G和H的P子集是不满足P的稳定子群G。G包含H的稳定子群的集合且不满足P有极大元素。
 
-### 4. QUOTIENT GROUPS
+### 4. 商群
 
 #### 定理 1 {#alg-i-s4-thm-1 .statement tag=058U}
 
@@ -227,68 +227,68 @@ G 的稳定子群的右向族的并显然是稳定的子群。由此可见，如
 
 设G为G的群且H子群； 关系 $x^{-1}y \in H$（分别为 $yx^{-1} \in H$）也可写成等效的形式 $y \in xH$（分别为 $y \in Hx$）。 G 的每个子群 H 因此定义 G 上有两个等价的关系，即$y \in xH$和$y \in Hx$：这些关系下的等价类分别是集合$xH$，称为H*的*左陪集（或*模 H*) 和集合 $Hx$，它们被称为 *H* 的右陪集（或 *模 H*）。通过对这些关系（*集合理论*，II, § 6, no. 4）*饱和*子集$A \subset G$，我们分别获得集合AH和HA。 映射 $x \mapsto x^{-1}$ 变换左陪集模 H 变为右陪集模 H，反之亦然。
 
-左陪集（mod.H）集合的基数称为子群H相对于G的*指标*，记为$(G:H)$；它也等于右陪集集合的基数。
+左陪集（mod.H）的集合的基数称为子群H相对于G的*指标*，记为$(G:H)$；它也等于右陪集集合的基数。
 
-如果G的子群K包含H，则它是H的左（或右）陪集的并。由于K的左陪集是通过左平移从K获得的，因此K的左陪集中包含的H的左陪集的集合具有独立于后者的基数。因此（*集合理论*，III, § 5, no. 8，命题9）：
+如果G的子群K包含H，则它是H的左（或右）陪集的并。由于K的左陪集是通过左平移从K获得的，所以K的左陪集中包含的H的左陪集的集合具有独立于后者的基数。因此 (*集合理论*, III, § 5, no. 8, 命题 9):
 
 #### 命题 4 {#alg-i-s4-prop-4 .statement tag=058V}
 
-*令 H 和 K 为群 G 中的两个子群，使得 H $\subset$ K。那么*
+*设 H 和 K 为群 G 中的两个子群，使得 H $\subset$ K。那么*
 $$
 (G:H) = (G:K)(K:H).
 $$
 
-#### 推论{#alg-i-s4-n4-cor-1 .statement tag=058W}
+#### 推论 {#alg-i-s4-n4-cor-1 .statement tag=058W}
 
-*如果G是阶g的有限群并且H是阶h的G的子群，那么*
+*如果G是阶g的有限群并且H是阶h的G的子群，则*
 $$
 h \cdot (G:H) = g
 $$
 （特别是，H的阶和指标是G的阶的*除子*）。
 
-定理 1 允许我们使用运算符 G 确定等价关系与群上的律兼容：如果 R 是这样的关系，则它与 G 上的群运算左右兼容，并与 G 上的作用兼容$\Omega$。因此，如果 H 是 $e$ (mod. R) 的类，则 H 是稳定的子群，使得关系 $y \in xH$ 和 $y \in Hx$ 等价（因为两者都等价于 R）；因此 $xH = Hx$ 对于所有$x \in G$。相反，如果是这样，则等效的关系$y \in xH, y \in Hx$中的一个或另一个与群运算兼容，因为它与此律（$\S$3，no. 4）左右兼容，并且与$\Omega$的作用兼容。由于方程 $xH = Hx$ 等价于 $xHx^{-1} = H$，因此我们得出以下定义：
+定理 1 允许我们使用运算符 G 来确定等价关系与群上的律兼容：如果 R 是这样的关系，则它与 G 上的群运算以及与 的作用左右兼容$\Omega$。因此，如果 H 是 $e$ (mod. R) 的类，则 H 是稳定的子群，使得关系 $y \in xH$ 和 $y \in Hx$ 等价（因为两者都等价于 R）；因此 $xH = Hx$ 对于所有$x \in G$。相反，如果是这样，则等效的关系$y \in xH, y \in Hx$中的一个或另一个与群运算兼容，因为它与此律（$\S$3，no. 4）左右兼容，并且与$\Omega$的作用兼容。由于方程 $xH = Hx$ 等价于 $xHx^{-1} = H$，因此我们得出以下定义：
 
 #### 定义 5 {#alg-i-s4-def-5 .statement tag=058X}
 
-*设 G 为群且带有运算符。如果对于所有 $x \in G$ 都有 $xHx^{-1} = H$，则 G 的稳定子群 H 称为 G 的正常（或不变）稳定子群。*
+*设 G 为群且带有运算符。如果 $xHx^{-1} = H$ 对于所有 $x \in G$，则 G 的稳定子群 H 称为 G 的正常（或不变）稳定子群。*
 
 如果 $\Omega = \varnothing$，G 的正规稳定子群称为 G 的*正规*（或*不变*）*子群*。在交换性群中，每个子群都是正规的。
 
-为了验证稳定的子群 H 是正常的，只需证明 $xHx^{-1} \subset H$ 对于所有 $x \in G$ 即可；如果是这样，那么 $x^{-1}Hx \subset H$ 对于所有 $x \in G$，即 $H \subset xHx^{-1}$，因此$H = xHx^{-1}$。
+要验证稳定的子群 H 是否正常，只需证明 $xHx^{-1} \subset H$ 对于所有 $x \in G$ 即可；如果是这样，那么 $x^{-1}Hx \subset H$ 对于所有 $x \in G$，即 $H \subset xHx^{-1}$，因此$H = xHx^{-1}$。
 
-设 H 为 H 定义的 G 和 R 等价关系 $y \in xH$ 的正规稳定子群；在商集$G/R$上，内部律，律与R除以群G的商，是结合律； e 的类是该商律的单位元素； G 中的两个倒数元素的类是 $\Omega$ 的商律和作用下的倒数，G 上的 $\Omega$ 作用与 R 的商，相对于内部律是可分配的$G/R$（$\S$3，no. 5）。因此，总结所获得的结果：
+设 H 为 H 定义的 G 和 R 等价关系 $y \in xH$ 的正规稳定子群；在商集$G/R$上，群G的律的内部律、商，是结合律； e 的类是这个商律的单位元素； G 中的两个逆元素类是 $\Omega$ 的商律和作用下的逆，商是 G 上$\Omega$ 作用的 R，关于$G/R$（$\S$ 3、no. 5）上的内部律。因此，总结所获得的结果：
 
 #### 定理 2 {#alg-i-s4-thm-2 .statement tag=058Y}
 
-*设 G 为群且带有运算符。为了使G上的等价关系R与$\Omega$的群运算和作用兼容，它是形式$x^{-1}y \in H$是必要且充分的，其中H是G的正常稳定子群（关系$x^{-1}y \in H$此外相当于$yx^{-1} \in H$对于这样的子群）。 合成在$G/R$上的商律和$\Omega$在$G/R$上的作用与$\Omega$在G上的商通过这样的关系R得到$G/R$结构群带运算符，称为商结构，商通道的典范映射是群带运算符的同态。*
+*设 G 为群且带有运算符。为了使G上的等价关系R与$\Omega$的群运算和作用兼容，它是形式$x^{-1}y \in H$是必要且充分的，其中H是G的正常稳定子群（关系$x^{-1}y \in H$此外相当于$yx^{-1} \in H$对于这样的子群）。 G 上的 $G/R$ 商上的合成的律和 G 上的$\Omega$ 的$G/R$ 上的$\Omega$ 作用商通过这样的关系 R 得到 $G/R$ 群的结构带有运算符，称为商结构，而到商的通道的典范映射是带有运算符的群的同态。*
 
 #### 定义 6 {#alg-i-s4-def-6 .statement tag=058Z}
 
-*由 G 的正常子群 H 定义的群与运算符 G 与等价关系的商，与商结构称为商群与 G 的运算符与 H 并用 $G/H$ 表示。 典范映射 $G \to G/H$ 称为典范同态*
+* 群的商与由 G 的正常子群 H 定义的等价关系的运算符 G，以及商结构，称为商群与 G 的运算符由 H 表示，并用 $G/H$ 表示。 典范映射 $G \to G/H$ 称为典范同态*
 
-设 G 为群，H 为 G 的正规子群。商 $G/H$ 及其群结构被 H 称为 G 的 *商群*。对于从 $G/H$ 到群的映射，使用运算符为同态群对于运算符，其合成与 G 到 $G/H$ 的典范映射为一是充分必要的：这证明了名称“商群”的合理性（*集合理论*, IV, $\S$ 2, no. 6）。
+设 G 为群，H 为 G 的正常子群。商 $G/H$ 及其群结构，被 H 称为 G 的 *商群*。对于从 $G/H$ 到群的映射，运算符为同态群对于运算符，其合成与 G 的典范映射到 $G/H$ 为一是充分必要的：这证明了名称“商群”（*集合理论*、IV、$\S$ 2、no. 6）。
 
 由 G 的正常稳定子群定义的等价关系用$x \equiv y \pmod{H}$或$x \equiv y(H)$表示。
 
 #### 命题 5 {#alg-i-s4-prop-5 .statement tag=0590}
 
-令 $f : G \to G'$ 为群的同态，且具有运算符，且 $H$ 和 $H'$ 分别为 $G$ 和 $G'$ 的正常稳定子群，使得 $f(H) \subset H'$。 映射 $f$ 与$H$ 和$H'$ 定义的等价关系兼容。令$\pi : G \to G/H$和$\pi' : G' \to G'/H'$为典范同态。由 $f$ 乘以经过得出的映射 $\bar{f} : G/H \to G'/H'$ 所得商为同态。
+令 $f : G \to G'$ 为群的同态，并分别使用运算符 $H$ 和 $H'$ 正常稳定子群 $G$ 和 $G'$ 使得 $f(H) \subset H'$。 映射 $f$ 与$H$ 和$H'$ 定义的等价关系兼容。 令$\pi : G \to G/H$和$\pi' : G' \to G'/H'$为典范同态。 由$f$经经过到商衍生映射$\bar{f} : G/H \to G'/H'$为同态。
 
 如果$x \equiv y \pmod{H}$，则$x^{-1}y \in H$，从而
 $$
 f(x)^{-1}f(y) = f(x^{-1})f(y) = f(x^{-1}y) \in f(H) \subset H'
 $$
-因此$f(x) \equiv f(y) \pmod{H'}$。第二个断言由商律（$§ 1$，no. 6）的泛性质得出。
+因此$f(x) \equiv f(y) \pmod{H'}$。第二个断言源自商律（$§ 1$，no. 6）的泛性质。
 
 #### 注 {#alg-i-s4-n4-rem-1 .statement tag=0591}
 
 (1) 如果$A$是群$G$中的任意子集且$H$是$G$的正常子群，则$AH = HA$；这个集合是通过使$A$相对于关系$x \equiv y \pmod{H}$饱和而获得的。
 
-(2) 如果$H$是有限指标的$G$的正常子群，则商群$G/H$是阶$(G:H)$的有限群。
+(2) 如果$H$是有限指标的$G$的正规子群，则商群$G/H$是阶$(G:H)$的有限群。
 
-注如果 $H$ 是群 $G$ 的正常子群并且 $K$ 是 $H$ 的正常子群，则 $K$ 不一定是子群的正常子群 $G$（I、$§ 5$、习题10）。
+请注意，如果$H$是群$G$的正常子群并且$K$是$H$的正常子群，则$K$不一定是$G$的正常子群（I， $§ 5$、习题10)。
 
-使用运算符将​​ $G$ 设为群。 $G$的正常马厩子群每个家庭的交是一个正常马厩子群。因此，对于$G$的每一个子集$X$，都存在最小的正常稳定子群包含$X$，称为正常稳定子群*由*$X$生成。
+使用运算符令 $G$ 为群。 $G$的正常马厩子群各家的交是正常马厩子群。因此，对于$G$的每一个子集$X$，都存在最小的正常稳定子群包含$X$，称为正常稳定子群*由*$X$生成。
 
 在群和运算符$G$中，稳定的子群、$G$和$\{e\}$是正常的。
 
@@ -330,17 +330,17 @@ $f$的核通常用$\mathrm{Ker}(f)$表示，$f$的像$f(G)$通常用$\mathrm{Im}
 (a) *$\mathrm{Ker}(f)$ 是 $G$ 的正常稳定子群；*
 (b) *$\mathrm{Im}(f)$ 是 $G'$ 的稳定子群；*
 (c) *映射$f$与$\mathrm{Ker}(f)$在$G$上定义的等价关系兼容；*
-(d) *映射$\tilde{f} : G/\mathrm{Ker}(f) \to \mathrm{Im}(f)$由$f$乘以经过通过运算符得到同构与群的商；*
+(d) *从$f$经经过到商派生映射$\tilde{f} : G/\mathrm{Ker}(f) \to \mathrm{Im}(f)$是带有运算符的群的同构；*
 (e) *$f = i \circ \tilde{f} \circ \pi$，其中$i$是$\mathrm{Im}(f)$到$G'$的典范嵌入，$\pi$是$G$到$G/\mathrm{Ker}(f)$的典范同态。*
 
-断言 (b) 源自命题 6。$G$ 上的等价关系 $f(x) = f(y)$ 与群以及$G$ 上的运算符结构兼容。到定理 2 (no. 4)，因此它是形式$y \in xH$，其中$H$是$G$的正常稳定子群，$H$是单位元素的类， 从而$H = \mathrm{Ker}(f)$。 断言 (a)、(c) 和 (d) 然后是。 断言 (e) 是显而易见的（*集合理论*，II, § 6, no. 5）。
+断言 (b) 源自命题 6。$G$ 上的等价关系 $f(x) = f(y)$ 与群以及$G$ 上的运算符结构兼容。到定理 2 (no. 4)，因此它是形式$y \in xH$，其中$H$是$G$的正常稳定子群，$H$是单位元素的类， 从而$H = \mathrm{Ker}(f)$。 断言 (a)、(c) 和 (d) 然后是。 断言 (e) 是显而易见的 (*集合理论*, II, § 6, no. 5)。
 
 ### 6. 子群 / 商群
 
 #### 命题 7 {#alg-i-s4-prop-7 .statement tag=0596}
 
 *设$G$和$H$为两个带有运算符的群，将$G$的$f$同态转换为$H$和$f$的$N$核。*
-(a) *令 $H'$ 为 $H$ 的稳定子群。 逆像 $G' = f^{-1}(H')$ 是 $G$ 的稳定子群，如果 $H'$ 在 $H$ 中正常，则 $G'$ 在 $G$ 中正常。此外，$N$是$G'$的正常子群。如果 $f$ 是满射，则 $H' = f(G')$ 和 $f$ 定义同构的 $G'/N$ 到 $H'$ 上的经过的商。*
+(a) *令 $H'$ 为 $H$ 的稳定子群。 逆像 $G' = f^{-1}(H')$ 是 $G$ 的稳定子群，如果 $H'$ 在 $H$ 中正常，则 $G'$ 在 $G$ 中正常。此外，$N$是$G'$的正常子群。如果$f$是满射，则$G'/N$的$H' = f(G')$和$f$定义同构到经过到商上的$H'$。*
 (b) *令 $G'$ 为 $G$ 的稳定子群。 像 $H' = f(G')$ 是 $H$ 和 $f^{-1}(H') = G'N = NG'$ 的稳定子群。特别是，$f^{-1}(H') = G'$当且仅当$N \subset G'$。如果 $f$ 是满射且 $G'$ 在 $G$ 中是正规的，则 $H'$ 在 $H$ 中是正规的。*
 
 (a) 设$x$和$y$在$G'$和$\alpha \in \Omega$中；那么$f(x) \in H'$和$f(y) \in H'$，从而$f(xy^{-1}) = f(x)f(y)^{-1} \in H'$，即$xy^{-1} \in G'$；因此$G'$是$G$的子群。现在 $f(x^\alpha) = f(x)^\alpha \in H'$、从而 $x^\alpha \in G'$，因此 $G'$ 是稳定的。假设$H'$在$H$中是正规的，令$x \in G', y \in G$；然后 $f(x) \in H'$ 和
@@ -351,13 +351,13 @@ $$
 $$
 f(f^{-1}(A)) = A \text{ for every subset } A \text{ of } H,
 $$
-从而$H' = f(G')$； $f$到$G'$的限制是$G'$的同态$f'$到核$N$的$H'$，因此经过上有$f'$定义 $G'/N$ 的商同构到 $H'$。
+从而$H' = f(G')$； $f$到$G'$的限制是$G'$的同态$f'$到核$N$的$H'$，因此经过上有$f'$定义从$G'/N$到商同构到$H'$。
 
 (b) 设$a$和$b$在$H'$中，$\alpha$在$\Omega$中； $G'$中存在$x, y$、$a = f(x)$和$b = f(y)$、从而$ab^{-1} = f(xy^{-1}) \in H'$，因此$H'$是$H$的子群，对于$a^\alpha = f(x^\alpha) \in H'$来说是稳定的。让$x \in G$；那么$x \in f^{-1}(H')$当且仅当$f(x) \in H' = f(G')$，即当且仅当$G'$中存在$y$和$f(x) = f(y)$； 关系$f(x) = f(y)$相当于$n \in N$与$x = yn$存在；最后，$x \in f^{-1}(H')$等价于$x \in G'N = NG'$。显然关系 $G' = G'N$ 相当于 $G' \supset N$。最后假设$f$是满射，$G'$在$G$中是正规的；让 $a \in H'$ 和 $b \in H$；存在$x \in G'$和$y \in G$以及$a = f(x)$和$b = f(y)$，从而$bab^{-1} = f(yxy^{-1}) \in f(G') = H'$。因此 $H'$ 在 $H$ 中是正常的。
 
 #### 推论 1 {#alg-i-s4-prop-7-cor-1 .statement tag=0597}
 
-*假设 $f$ 是满射。设 $\mathscr{G}$（分别为 $\mathscr{G}'$）为稳定的集合（分别为正常稳定）子群为 $G$ 包含 $N$ 和$\mathfrak{H}$（分别为$\mathfrak{H}'$）稳定的集合 （分别为正常稳定）子群或 $H$，这些集合按包含顺序排列。 映射 $G' \mapsto f(G')$ 是有序的集合同构 $\Phi : \mathscr{G} \to \mathfrak{H}$； 逆同构$\Psi : \mathfrak{H} \to \mathscr{G}$是映射$H' \mapsto f^{-1}(H')$。进一步$\Phi$和$\Psi$诱导同构$\Phi' : \mathscr{G}' \to \mathfrak{H}'$和$\Psi' : \mathfrak{H}' \to \mathscr{G}'$。
+*假设 $f$ 是满射。设 $\mathscr{G}$（分别为 $\mathscr{G}'$）为集合稳定（分别为正常稳定） 子群为 $G$ 包含 $N$ 和 $\mathfrak{H}$（分别为 $\mathfrak{H}'$） 集合为稳定（分别为正常稳定） $H$ 中的子群，这些集合按包含顺序排列。 映射 $G' \mapsto f(G')$ 是有序的集合同构 $\Phi : \mathscr{G} \to \mathfrak{H}$； 逆同构$\Psi : \mathfrak{H} \to \mathscr{G}$是映射$H' \mapsto f^{-1}(H')$。进一步$\Phi$和$\Psi$诱导同构$\Phi' : \mathscr{G}' \to \mathfrak{H}'$和$\Psi' : \mathfrak{H}' \to \mathscr{G}'$。
 
 #### 推论 2 {#alg-i-s4-prop-7-cor-2 .statement tag=0598}
 
@@ -397,7 +397,7 @@ $$
 
 #### 命题 8 {#alg-i-s4-prop-8 .statement tag=059B}
 
-设$G$为带有运算符的群，以及$A$和$B$两个稳定的子群$G$。假设关系$a\in A$和$b\in B$隐含$aba^{-1}\in B^{*}$（在其他字中，$A$归一化$B$）$^{*}$。那么$AB=BA$是$G$的稳定子群，$A\cap B$是$A$的正常稳定子群，$B$是$AB$的正常稳定子群。将$A$的典范嵌入代入$AB$，将经过上的定义除以$A/(A\cap B)$的同构到$AB/B$的商。
+设$G$为带有运算符的群，以及$A$和$B$两个稳定的子群$G$。假设关系$a\in A$和$b\in B$隐含$aba^{-1}\in B^{*}$（在其他字中，$A$归一化$B$）$^{*}$。那么$AB=BA$是$G$的稳定子群，$A\cap B$是$A$的正常稳定子群，$B$是$AB$的正常稳定子群。 $A$的典范嵌入进入$AB$定义，经过到商同构，$A/(A\cap B)$进入$AB/B$。
 
 公式
 
@@ -425,17 +425,17 @@ $$
 
 (c) *令$G'$为G的稳定子群。则$G'N$为G的稳定子群，且N在$G'N$中是正规的。此外，$G' \cap N$在$G'$和群中是正规的，$G'/(G' \cap N)$和$G'N/N$是同构的。*
 
-让$f$表示G到$G/N$的典范同态。对于所有$x \in G$，$f(x) \in xN$；因此，对于 G 包含 N 的每个子群 $G'$，$f(G') = G'/N$。由于 $f$ 是满射，断言 (a) 从推论 1 到命题 7；类似地，等价“G'正常”$\Leftrightarrow$“G'/N正常”。假设$G'$是G包含N的正常稳定子群。通过no. 4，命题5应用于$\mathrm{Id}_G$，存在$G/N$的同态$u$到$G/G'$定义为$u(xN) = xG'$ 对于所有$x \in G$。 $u$ 与核 $G'/N$ 从而 $(G/N)/(G'/N)$ 所需的同构到 $G/G'$ 是直接的。最后，(c) 紧随命题 8。
+让$f$表示G到$G/N$上的典范同态。对于所有$x \in G$，$f(x) \in xN$；因此，对于 G 包含 N 的每个子群 $G'$，$f(G') = G'/N$。由于 $f$ 是满射，断言 (a) 从推论 1 到命题 7；类似地，等价“G'正常”$\Leftrightarrow$“G'/N正常”。假设$G'$是G包含N的正常稳定子群。通过no. 4，命题5应用于$\mathrm{Id}_G$，存在$G/N$的同态$u$到$G/G'$定义为$u(xN) = xG'$ 对于所有$x \in G$。 $u$ 与核 $G'/N$ 从而 $(G/N)/(G'/N)$ 所需的同构到 $G/G'$ 是直接的。最后，(c) 紧接着命题 8。
 
 ### 7. 乔丹-霍尔德定理
 
 #### 定义 9 {#alg-i-s4-def-9 .statement tag=059D}
 
-*具有运算符 G 的群的合成列是 G 的稳定子群的有限序列 $(G_i)_{0 \leq i \leq n}$，其中$G_0 = G$ 和 $G_n = \{e\}$，并且$G_{i+1}$ 是$0 \leq i \leq n-1$ 的$G_i$ 的正常子群。商$G_i/G_{i+1}$称为级数的商。如果$\Sigma$是取自$\Sigma'$的级数，则合成列$\Sigma'$据说是更细比合成列$\Sigma$。
+*具有运算符 G 的群的合成列是 G 的稳定子群的有限序列 $(G_i)_{0 \leq i \leq n}$，其中$G_0 = G$ 和 $G_n = \{e\}$，并且$G_{i+1}$ 是$0 \leq i \leq n-1$ 的$G_i$ 的正常子群。 商$G_i/G_{i+1}$称为级数的商。如果$\Sigma$是取自$\Sigma'$的级数，则合成列$\Sigma'$据说是更细比合成列$\Sigma$。
 
-如果$(G_i)_{0 \leq i \leq n}$和$(H_j)_{0 \leq j \leq m}$分别是带有运算符G和H的两个群的合成列，则如果$m = n$并且存在$\mathbf{N}$的区间$\{0, n-1\}$的置换$\phi$，则称它们是等价的，使得带有运算符的群 $G_i/G_{i+1}$ 和 $H_{\phi(i)}/H_{\phi(i)+1}$ 对于所有 $i$ 是同构的。
+如果$(G_i)_{0 \leq i \leq n}$和$(H_j)_{0 \leq j \leq m}$分别是带有运算符G和H的两个群的合成列，则如果$m = n$并且存在$\mathbf{N}$的区间$\{0, n-1\}$的置换$\phi$，则称它们是等价的，使得群与运算符 $G_i/G_{i+1}$ 和 $H_{\phi(i)}/H_{\phi(i)+1}$ 对于所有 $i$ 是同构的。
 
-注，一般来说，取自合成列$(G_i)$的级数不是合成列，因为对于$j > i + 1$，$G_j$通常不是$G_i$的正常子群。
+请注意，一般来说，取自合成列 $(G_i)$ 的级数不是合成列，因为对于 $j > i + 1$，$G_j$ 通常不是 $G_i$ 的正常子群。
 
 #### 定理 5（施赖尔）{#alg-i-s4-thm-5 .statement tag=059E}
 
@@ -443,7 +443,7 @@ $$
 
 令$\Sigma_1 = (H_i)_{0 \leq i \leq n}$和$\Sigma_2 = (K_j)_{0 \leq j \leq p}$为给定的两个合成列，分别为$n + 1$和$p + 1$项；我们将看到，通过在 H_i 和 H_{i+1} 之间插入 $p - 1$ 子群 $H'_{i,j}$ (1 \leq j \leq p - 1) 可以形成合成列 $\Sigma'_1$，对于 0 \leq i \leq n - 1 和级数 \Sigma_2' 通过插入 n - 1 子群 K_{j,i}' (1 \leq i \leq n - 1) 在 K_j 和 K_{j+1} 之间，对于 0 \leq j \leq p - 1；从而得到pn的两个级数+G的1个稳定的子群；通过适当选择插入的稳定子群，我们将证明这些级数是等价的合成列。
 
-为此注 H_i \cap K_j 是 H_i 和 K_j 的稳定子群，因此 (定理 4) H_{i+1}.(H_i \cap K_j) 是 H_i 包含 H_{i+1} 和 K_{j+1}.(H_i \cap) 的稳定子群 K_j) 是 K_j 包含 K_{j+1} 的稳定子群。如果我们写 H_{i,j}' = H_{i+1}.(H_i \cap K_j) 和 K_{j,i}' = K_{j+1}.(H_i \cap K_j)，H_{i,j+1}' 是 H_{i,j}' (0 \leq j \leq p - 1) 的稳定子群并且 K_{j,i+1}' 是稳定的K_{j,i}' 的子群 (0 \leq i \leq n - 1)。此外，H_{i,0}' = H_i、H_{i,p}' = H_{i+1}、K_{j,0}' = K_j 且 K_{j,p}' = K_{j+1}。为了显示定理，只需证明 H_{i,j+1}' (分别为 K_{j,i+1}') 是 H_{i,j}' (分别为 K_{j,i}') 的正常稳定子群并且商群 H_{i,j}'/H_{i,j+1}' 和K_{j,i}'/K_{j,i+1}' 是同构的 (0 \leq i \leq n - 1, 0 \leq j \leq p - 1)。这是从以下引理得出的，取H=H_i，H'=H_{i+1}，K=K_j，K'=K_{j+1}。
+为此，请注意 H_i \cap K_j 是 H_i 和 K_j 的稳定子群，因此 (定理 4) H_{i+1}.(H_i \cap K_j) 是 H_i 包含 H_{i+1} 和 K_{j+1}.(H_i \cap K_j) 的稳定子群。 K_j 包含 K_{j+1} 的子群。如果我们写 H_{i,j}' = H_{i+1}.(H_i \cap K_j) 和 K_{j,i}' = K_{j+1}.(H_i \cap K_j)，则 H_{i,j+1}' 是 H_{i,j}' (0 \leq j \leq p - 1) 的稳定子群，而 K_{j,i+1}' 是稳定的K_{j,i}' 的子群 (0 \leq i \leq n - 1)。此外，H_{i,0}' = H_i、H_{i,p}' = H_{i+1}、K_{j,0}' = K_j 且 K_{j,p}' = K_{j+1}。为了证明定理，只需证明 H_{i,j+1}' (分别为 K_{j,i+1}') 是 H_{i,j}' (分别为 K_{j,i}') 的正常稳定子群，并且商群 H_{i,j}'/H_{i,j+1}' 和K_{j,i}'/K_{j,i+1}' 是同构的 (0 \leq i \leq n - 1, 0 \leq j \leq p - 1)。这是从以下引理得出的，取H=H_i，H'=H_{i+1}，K=K_j，K'=K_{j+1}。
 
 #### 引理 1（扎森豪斯）{#alg-i-s4-lem-1 .statement tag=059F}
 
@@ -467,7 +467,7 @@ $$
 (H \cap K)/((H' \cap K).(K' \cap H)).
 $$
 
-在最后一个商中，一方面是 H 和 H'，另一方面是 K 和 K' 对称出现；将它们排列即可获得所述结果。
+在最后一个商中，一方面是H和H'，另一方面是K和K'对称出现；将它们排列即可获得所述结果。
 
 #### 定义 10 {#alg-i-s4-def-10 .statement tag=059G}
 
@@ -477,23 +477,23 @@ $$
 
 为了使 G 的分解级数成为 Jordan-Hölder 级数，级数的所有商都是简单的是充分必要的。
 
-分解级数是严格递减当且仅当其连续商都没有减少到单位元素。如果严格递减合成列 $\Sigma$ 不是 Jordan-Hölder 级数，则存在严格递减合成列 $\Sigma'$，其更细比 $\Sigma$ 且与 $\Sigma$ 不同。因此$\Sigma$中有两个连续的项$G_i, G_{i+1}$在$\Sigma'$中不连续；设$H$为$\Sigma'$中$G_i$之后的第一个项； $H$是$G_i$、包含$G_{i+1}$的正常稳定版子群，与后者不同；因此$H/G_{i+1}$是$G_i/G_{i+1}$的正常稳定子群，与后者和单位元素不同；因此$G_i/G_{i+1}$并不简单。相反，如果 $\Sigma$ 是严格递减合成列，其中一个商 $G_i/G_{i+1}$ 不简单，则该商包含是除自身和 $\{e\}$ 之外的正规稳定子群，其 $G_i$ 中的逆像是正规稳定$G_i$ 的子群 $H$，不同于 $G_i$ 和 $G_{i+1}$ (定理 4)；只需在$G_i$和$G_{i+1}$之间插入$H$即可获得与$\Sigma$和更细区别于$\Sigma$的严格递减合成列。
+分解级数是严格递减当且仅当其连续的商都没有减少到单位元素。如果严格递减合成列 $\Sigma$ 不是 Jordan-Hölder 级数，则存在严格递减合成列 $\Sigma'$，其更细比 $\Sigma$ 且与 $\Sigma$ 不同。因此$\Sigma$中有两个连续的项$G_i, G_{i+1}$在$\Sigma'$中不连续；设$H$为$\Sigma'$中$G_i$之后的第一个项； $H$是$G_i$、包含$G_{i+1}$的正常稳定子群，与后者不同；因此$H/G_{i+1}$是$G_i/G_{i+1}$的正常稳定子群，与后者和单位元素不同；因此$G_i/G_{i+1}$并不简单。相反，如果 $\Sigma$ 是严格递减合成列，其中商 $G_i/G_{i+1}$ 不是简单的，那么这个商包含是除自身之外的普通稳定子群和 $\{e\}$，其逆像在$G_i$是$G_i$的正常稳定子群$H$，与$G_i$和$G_{i+1}$（定理4）不同；只需在$G_i$和$G_{i+1}$之间插入$H$即可获得与$\Sigma$和更细区别于$\Sigma$的严格递减合成列。
 
 #### 定理 6（乔丹-霍尔德）{#alg-i-s4-thm-6 .statement tag=059I}
 
-*两个 Jordan-Hölder 级数或群与运算符是等效的。*
+*两个带有运算符的 Jordan-Hölder 级数或群是等效的。*
 
-令$\Sigma_1, \Sigma_2$为群的两个Jordan-Hölder级数，运算符为$G$；通过应用定理 5 得到两个*等价* 合成列 $\Sigma'_1, \Sigma'_2$，分别比更细比$\Sigma_1$和$\Sigma_2$；由于后者是 Jordan-Hölder 级数，$\Sigma'_1$ 与 $\Sigma_1$ 相同，或者是通过重复某些项衍生而来； $\Sigma'_1$的商级数是从$\Sigma_1$的商中通过插入与群$\{e\}$同构的项的数而导出；由于$\Sigma_1$是严格递减，$\Sigma_1$的商的级数是通过抑制后者*所有*项同构于$\{e\}$而从$\Sigma'_1$的商导出的。对于 $\Sigma_2$ 和 $\Sigma'_2$ 也是如此。由于$\Sigma'_1$和$\Sigma'_2$的商级数仅在项的阶不同（最多同构），$\Sigma_1$和$\Sigma_2$也是如此； 定理得证。
+令 $\Sigma_1, \Sigma_2$ 为具有算子 $G$ 的群的两个 Jordan-Hölder 级数；应用定理5，得到两个“等价”组合系列$\Sigma'_1, \Sigma'_2$，分别比$\Sigma_1$和$\Sigma_2$更精细；由于后者是Jordan-Hölder系列，$\Sigma'_1$与$\Sigma_1$相同或通过重复某些术语而派生； $\Sigma'_1$的商系列是通过插入一些与群$\{e\}$同构的项而从$\Sigma_1$的商系列导出的；由于 $\Sigma_1$ 是严格递减的，$\Sigma_1$ 的商系列是通过抑制后者 *所有* 与 $\{e\}$ 同构的项而从 $\Sigma'_1$ 导出的。 对于 $\Sigma_2$ 和 $\Sigma'_2$ 也是如此。 由于$\Sigma'_1$的商和$\Sigma'_2$的级数仅在项的阶不同（最多同构），所以$\Sigma_1$和$\Sigma_2$也同样如此； 定理得证。
 
-#### 推论{#alg-i-s4-n7-cor-1 .statement tag=059J}
+#### 推论 {#alg-i-s4-n7-cor-1 .statement tag=059J}
 
-*设 $G$ 为群，其中存在 Jordan-Hölder 级数的算子。如果 $\Sigma$ 是 $G$ 中的任意严格递减合成列，则存在比 $\Sigma$ 的 Jordan-Hölder 级数更细。*
+*设 $G$ 为群，其中存在 Jordan-Hölder 级数的算子。如果 $\Sigma$ 是 $G$ 中的任意严格递减合成列，则存在 Jordan-Hölder 级数更细比 $\Sigma$。*
 
-Let $\Sigma_0$ be a Jordan-Hölder series of $G$; by Theorem 5, there exist two equivalent composition series, $\Sigma'$ and $\Sigma'_0$ respectively finer than $\Sigma$ and $\Sigma_0$; the argument of Theorem 6 shows that, by suppressing from $\Sigma'$ the repetitions, a sequence $\Sigma''$ is obtained which is equivalent to $\Sigma_0$ and hence a Jordan-Hölder series, since all its quotients are simple (Proposition 9). 由于$\Sigma$是严格递减，$\Sigma''$比$\Sigma$是更细，从而是推论。
+令$\Sigma_0$为$G$的Jordan-Hölder级数；由定理5，存在两个等价组合级数$\Sigma'$和$\Sigma'_0$，分别比$\Sigma$和$\Sigma_0$更精细；定理 6 的论证表明，通过抑制 $\Sigma'$ 中的重复，可以获得一个序列 $\Sigma''$，它等价于 $\Sigma_0$，因此是 Jordan-Hölder 级数，因为它的所有商都是简单的（命题 9）。 由于$\Sigma$是严格递减，$\Sigma''$比$\Sigma$、从而推论是更细。
 
 #### 注 {#alg-i-s4-n7-rem-1 .statement tag=059K}
 
-群与运营商并不总是拥有 Jordan-Hölder 级数； 例由有理整数的加法群$\mathbf{Z}$给出：序列$(2^n \cdot \mathbf{Z})_{n \geq 0}$是$\mathbf{Z}$的（正常）子群的严格递减无限序列；对于所有$p$，这个序列形式的第一个$p$项与群$\{0\}$严格递减合成列；如果$\mathbf{Z}$存在乔丹-霍尔德级数，则根据定理6的推论，它至少有$p+1$项；荒谬，因为 $p$ 是任意的。
+群与运营商并不总是拥有 Jordan-Hölder 级数； 例由有理整数的加法群$\mathbf{Z}$给出：序列$(2^n \cdot \mathbf{Z})_{n \geq 0}$是$\mathbf{Z}$的（正常）子群的严格递减无限序列；对于所有$p$，这个序列形式的第一个$p$项与群$\{0\}$严格递减合成列；如果存在 $\mathbf{Z}$ 的 Jordan-Hölder 级数，则至少有 $p+1$ 项，由推论到定理 6；荒谬，因为 $p$ 是任意的。
 
 另一方面，在每个*有限*群中都存在一个Jordan-Hölder级数，且算子G：如果$G \ne \{e\}$，在与G不同的G的正常稳定子群中，令$H_1$为最大子群；类似地，定义$H_{n+1}$由归纳作为$H_n$正常子群的集合中的极大元素，与$H_n$不同，当$H_n \ne \{e\}$时； $H_n$的阶的序列是严格递减，因此存在$n$使得G的$H_n = \{e\}$和序列由……组成和$H_i$（$1 \leq i \leq n$）通过其形成乔丹-霍尔德级数。
 
@@ -501,9 +501,9 @@ Let $\Sigma_0$ be a Jordan-Hölder series of $G$; by Theorem 5, there exist two 
 
 设 G 为带有运算符的群； G 的长度是整数 $n$ 的上界，因此存在G $(G_i)_{0\leq i\leq n}$ 的严格递减合成列。
 
-如果 G 承认 Jordan-Hölder 级数，则 G 的长度是该级数的连续商的数，如下从定理 6 的推论。如果 G 不承认 Jordan-Hölder 级数，则其长度是无限的；到命题 9，对于 G 的每严格递减级数，都存在严格的更细严格递减级数。 单位元素中的群由……组成是唯一具有长度零运算符的群。当且仅当它是长度 1 时，带有运算符的群才是简单的。
+如果G承认一个Jordan-Hölder级数，则G的长度是这个级数的连续商的数，如下从推论到定理6。如果G不承认一个Jordan-Hölder级数，则其长度是无穷大；到命题 9，对于 G 的每严格递减级数，都存在严格的更细严格递减级数。 单位元素中的群由……组成是唯一具有长度零运算符的群。当且仅当长度为 1 时，带有运算符的群才是简单的。
 
-设 G 为带有运算符的群，H 为 G 的正常稳定子群，K 为商 G/H 和 $\pi:G\to K$ 典范同态。让
+设 G 为带有运算符的群，H 为 G 的正常稳定子群，K 商 G/H 和 $\pi:G\to K$ 典范同态。让
 
 $$
 \Sigma'=(H_i)_{0\leq i\leq n}
@@ -521,13 +521,13 @@ $$
 \Sigma=(G_i)_{0\leq i\leq n+p}
 $$
 
-得到G。 $\Sigma$的商序列是通过将$\Sigma''$的商序列与$\Sigma'$的商序列并列而获得。如果$\Sigma'$和$\Sigma''$是Jordan-Hölder级数，$\Sigma$是G的Jordan-Hölder级数，通过命题9。如果H或K承认任意长度的合成列，G也如此。我们已经证明：
+得到G。 $\Sigma$的商的序列是通过将$\Sigma''$的商的序列与$\Sigma'$的商的序列并列而获得。如果$\Sigma'$和$\Sigma''$是Jordan-Hölder级数，$\Sigma$是G的Jordan-Hölder级数，通过命题9。如果H或K承认任意长度的合成列，那么G也承认。我们已经证明：
 
 #### 命题 10 {#alg-i-s4-prop-10 .statement tag=059M}
 
 令 G 为带有算子的群，H 为 G 的正常稳定子群。G 的长度是 H 和 G/H 的长度的和。
 
-#### 推论{#alg-i-s4-n7-cor-2 .statement tag=059N}
+#### 推论 {#alg-i-s4-n7-cor-2 .statement tag=059N}
 
 令G为带有运算符的群和G的$(G_i)_{0\leq i\leq n}$合成列。G的长度是$G_i/G_{i+1}$、$0\leq i\leq n-1$的长度的和。
 
@@ -556,35 +556,35 @@ $$
 f^\alpha(x) = f(x)^\alpha \quad (f \in G^E, \alpha \in \Omega, x \in E).
 $$
 
-设$(\phi_i : H \to G_i)_{i \in I}$是同态和群的运算符族。 $H$ 的映射 $h \mapsto (\phi_i(h))_{i \in I}$ 到 $\prod_{i \in I} G_i$ 是群的同态与运算符。这是所有$i$中唯一的同态$\Phi : H \to \prod_{i \in I} G_i$满足$\mathrm{pr}_i \circ \Phi = \phi_i$。这证明了“乘积群与运算符”的名称是合理的（*集合理论*，IV, § 2, no. 4）。
+设$(\phi_i : H \to G_i)_{i \in I}$是同态和群的运算符族。 $H$ 的映射 $h \mapsto (\phi_i(h))_{i \in I}$ 到 $\prod_{i \in I} G_i$ 是群的同态与运算符。这是所有$i$中唯一的同态$\Phi : H \to \prod_{i \in I} G_i$满足$\mathrm{pr}_i \circ \Phi = \phi_i$。这证明了名称“带有运算符的乘积群”（*集合理论*，IV, § 2, no. 4）。
 
-令 $(\phi_i : H_i \to G_i)_{i \in I}$ 成为群的同态与运算符的族。 $\prod_{i \in I} H_i$的映射$\prod_{i \in I} \phi_i : (h_i)_{i \in I} \mapsto (\phi_i(h_i))_{i \in I}$到$\prod_{i \in I} G_i$是群的同态与运算符。
+设$(\phi_i : H_i \to G_i)_{i \in I}$是同态和群的运算符族。 $\prod_{i \in I} H_i$ 的映射 $\prod_{i \in I} \phi_i : (h_i)_{i \in I} \mapsto (\phi_i(h_i))_{i \in I}$ 到 $\prod_{i \in I} G_i$ 是群的同态与运算符。
 
 #### 命题 11 {#alg-i-s4-prop-11 .statement tag=059P}
 
-*设* $(\phi_i : H_i \to G_i)_{i \in I}$ *是同态的群与运算符的族，并设* $\Phi = \prod_{i \in I} \phi_i$。 *然后：*
+*令* $(\phi_i : H_i \to G_i)_{i \in I}$ *成为群的同态与运算符的族，并令* $\Phi = \prod_{i \in I} \phi_i$。 *然后：*
 
 (a) $\mathrm{Ker}(\Phi) = \prod_{i \in I} \mathrm{Ker}(\phi_i)$； *特别是，如果所有* $\phi_i$ *都是单射的，则$\Phi$ *是单射的*。
 
-(b) $\mathrm{Im}(\Phi) = \prod_{i \in I} \mathrm{Im}(\phi_i)$； *特别是，如果所有* $\phi_i$ *都是满射，则$\Phi$ *也是满射*。
+(b) $\mathrm{Im}(\Phi) = \prod_{i \in I} \mathrm{Im}(\phi_i)$； *特别是，如果所有* $\phi_i$ *都是满射，则$\Phi$ *是满射*。
 
 这是直接的。
 
-特别地，令 $(G_i)_{i \in I}$ 为带有运算符的群族，并且对于所有$i$，令$H_i$为$G_i$的稳定（或正常稳定）子群。 乘积 $\prod_{i \in I} H_i$ 是$\prod_{i \in I} G_i$ 的子群和$\prod_{i \in I} G_i$ 的典范映射到$\prod_{i \in I} (G_i / H_i)$ 定义，当经过与同构的商
+特别地，令 $(G_i)_{i \in I}$ 为带有运算符的群族，并且对于所有$i$，令$H_i$为$G_i$的稳定（或正常稳定）子群。当经过到商同构时，乘积 $\prod_{i \in I} H_i$ 是$\prod_{i \in I} G_i$ 的子群和 $\prod_{i \in I} G_i$ 的典范映射到 $\prod_{i \in I} (G_i / H_i)$ 定义
 $$
 \left( \prod_{i \in I} G_i \right) / \left( \prod_{i \in I} H_i \right)
 $$
-到$\prod_{i \in I} (G_i / H_i)$。对于例，令$J$为$I$的子集。 $(x_i)_{i \in I}$的$\prod_{i \in I} G_i$由……组成的子群$G_J$，使得$i \notin J$的$x_i = e_i$是正常稳定的子群。 映射 $\iota_J$ 与 $x = (x_j)_{j \in J}$ 元素 $y = (y_i)_{i \in I}$ 关联，使得 $i \notin J$ 的 $y_i = e_i$ 和 $i \in J$ 的 $y_i = x_i$，是 $\prod_{j \in J} G_j$ 的同构到$G_J$。 映射 $\mathrm{pr}_{I-J}$ 定义当经过到商群 $G / G_J$ 的商同构 $\theta_J$ 到 $\prod_{i \in I-J} G_i$ 时。 合成$\mathrm{pr}_J \circ \iota_J$是$\prod_{j \in J} G_j$中的恒等映射。由于 $\theta_J$，$G / G_J$ 通常与 $\prod_{i \in I-J} G_i$ 等同，并且由于 $\iota_J$，$\prod_{i \in J} G_i$ 与 $G_J$ 等同。
+到$\prod_{i \in I} (G_i / H_i)$。例如，令 $J$ 为 $I$ 的子集。 $(x_i)_{i \in I}$的$\prod_{i \in I} G_i$由……组成的子群$G_J$，使得$i \notin J$的$x_i = e_i$是正常稳定的子群。 映射 $\iota_J$ 与 $x = (x_j)_{j \in J}$ 元素 $y = (y_i)_{i \in I}$ 关联，使得 $i \notin J$ 的 $y_i = e_i$ 和 $i \in J$ 的 $y_i = x_i$，是 $\prod_{j \in J} G_j$ 的同构到$G_J$。 映射 $\mathrm{pr}_{I-J}$ 定义当经过至商同构 $\theta_J$ 或商群 $G / G_J$ 至 $\prod_{i \in I-J} G_i$ 时。 合成 $\mathrm{pr}_J \circ \iota_J$ 是 $\prod_{j \in J} G_j$ 中的恒等映射。由于 $\theta_J$，$G / G_J$ 通常与 $\prod_{i \in I-J} G_i$ 等同，并且由于 $\iota_J$，$\prod_{i \in J} G_i$ 与 $G_J$ 等同。
 
-如果$J_1$和$J_2$是$I$的不相交的子集，则从定义可以得出，$G_{J_1}$的每个元素与$G_{J_2}$的每个元素进行通勤。
+如果$J_1$和$J_2$是不相交的子集/$I$，则从定义得出，$G_{J_1}$的每个元素与$G_{J_2}$的每个元素进行通勤。
 
 #### 定义 13 {#alg-i-s4-def-13 .statement tag=059Q}
 
-*令 $G$ 为群，有操作员，$(H_i)_{i \in I}$ 为 $G$ 的正常稳定族子群。令$p_i : G \to G / H_i$为典范同态。如果同态 $g \mapsto (p_i(g))_{i \in I}$ 是 $G$ 的同构到 $\prod_{i \in I} G / H_i$，$G$ 被称为商群 $(G / H_i)$ 族的内部乘积（或乘积）。*
+*令 $G$ 为群，有操作员，$(H_i)_{i \in I}$ 为 $G$ 的正常稳定族子群。令 $p_i : G \to G / H_i$ 为典范同态。如果同态 $g \mapsto (p_i(g))_{i \in I}$ 是 $G$ 的同构到 $\prod_{i \in I} G / H_i$，$G$ 被称为商群 $(G / H_i)$ 族的内部乘积（或乘积）。*
 
 令$G$和$H$为带有运算符的群，并令$\phi$和$\psi$为$G$到$H$的两个同态。 $G$中元素$x$的集合使得$\phi(x) = \psi(x)$是$G$的稳定子群，称为$\phi$和$\psi$的*重合群*。特别地，使用运算符令$\phi_1 : G_1 \to H$和$\phi_2 : G_2 \to H$为群的同态； 同态 $\phi_1 \circ \mathrm{pr}_1$ 的群和 $G_1 \times G_2$ 的 $\phi_2 \circ \mathrm{pr}_2$ 到 $H$ 的重合被称为 $G_1$ 和 $G_2$ 相对于 $H$ 的 *纤维乘积* $\phi_1$ 和 $\phi_2$。当$\phi_1$和$\phi_2$没有歧义时，用$G_1 \times_H G_2$表示，$\mathrm{pr}_1$和$\mathrm{pr}_2$至$G_1 \times_H G_2$的限制、$p_1$和$p_2$也称为投影同态。然后$\phi_1 \circ p_1 = \phi_2 \circ p_2$。 $G_1 \times_H G_2$中的元素是有序对$(g_1, g_2) \in G_1 \times G_2$，使得$\phi_1(g_1) = \phi_2(g_2)$。如果$f_i$是群的同态，且带有运算符$K$到$G_i$（$i = 1, 2$）和$\phi_1 \circ f_1 = \phi_2 \circ f_2$，则存在且仅有一个$K$到$G_1 \times_H G_2$的同态和$f$，这样$f_i = p_i \circ f$ 对应 $i = 1, 2$。
 
-### 9. 受限制和
+### 9. 限制和
 
 令$(G_i)_{i \in I}$为群的运算符族，对于$i \in I$，令$H_i$为$G_i$的稳定子群。 $(x_i)_{i \in I}$的$\prod_{i \in I} G_i$由……组成的子集使得$i \in I$的集合和$x_i \notin H_i$是有限的，如果$I$是有限的，则$\prod_{i \in I} G_i$的稳定子群等于$\prod_{i \in I} G_i$。相对于$H_i$*，它被称为$G_i$的*受限和。当对于除有限数之外的所有$i$，$H_i$ 是$G_i$ 的正常稳定子群时，受限制的和是乘积的正常稳定子群。当，对于所有$i$，子群$H_i$减少到$G_i$的单位元素时，$G_i$相对于$H_i$的直和被简单地称为$G_i$的*受限和*并且有时表示为 $\prod_{i \in I} G_i$。对于由 $\iota_{i_0}(x) = (x_i)_{i \in I}$ 定义的所有 $i_0 \in I$、映射 $\iota_{i_0}: G_{i_0} \to \prod_{i \in I} G_i$，其中 $x_{i_0} = x$ 和 $x_i = e_i$（如果 $i \neq i_0$）是群的单同态，运算符称为 *典范嵌入*。 $G_i$ 与稳定的子群 $\operatorname{Im}(\iota_i)$ 相同。 子群$G_i$都是正常的。对于$i \neq j$、元素、$G_i$、$G_j$通勤和$G_i \cap G_j = \{e\}$。 群$\prod_{i \in I} G_i$由集合$\bigcup_{i \in I} G_i$生成。
 
@@ -628,27 +628,27 @@ $$
 
 设 $a \in \mathbf{Z}$；因为$a\mathbf{Z}$是$\mathbf{Z}$的子群，关系在$\mathbf{Z}$的元素$x, y$之间，其中指出“存在$z \in \mathbf{Z}$使得$x - y = az$”是等价关系，我们一劳永逸地同意写如$x \equiv y \pmod{a}$或$x \equiv y(a)$，称为*同余模*$a$。 替换$a$乘以$-a$，得到等价的关系，因此可以假设$a \geqslant 0$；对于$a = 0$，$x \equiv y(0)$意味着$x = y$，因此只有在$a \neq 0$时才能获得与等式不同的关系：因此，我们将在下文中假设$a > 0$除非另有说明。
 
-对于$a > 0$，$\mathbf{Z}$与同余$x \equiv y(a)$的商，即群$\mathbf{Z}/a\mathbf{Z}$，称为有理整数模*$a$的*群。
+对于$a > 0$，$\mathbf{Z}$的商同余$x \equiv y(a)$，即群$\mathbf{Z}/a\mathbf{Z}$，称为有理整数模*$a$的*群。
 
 #### 命题 16 {#alg-i-s4-prop-16 .statement tag=059W}
 
-*令$a$为整数$> 0$。 整数 $r$ $0 \leqslant r < a$ 形式系统等价关系 $x \equiv y \pmod{a}$ 代表元$\mathbf{Z}$。*
+*令$a$为整数$> 0$。 整数 $r$ $0 \leqslant r < a$ 形式系统等价关系 $x \equiv y \pmod{a}$ 的代表在 $\mathbf{Z}$。*
 
-如果$x$是整数$\geqslant 0$，则存在(*集合理论*，III, § 5, no. 6)整数$q$和$r$，使得$x = aq + r$和$0 \leqslant r < a$和$x \equiv r \pmod{a}$。 If $x$ is 整数 $\leqslant 0$, 整数 $-x$ is $\geqslant 0$ and by the above there exists 整数 $r$ such that $0 \leqslant r < a$ and $-x \equiv r \pmod{a}$. Writing $r' = 0$ if $r = 0$ and $r' = a - r$ if $r > 0$, then
+如果$x$是整数$\geqslant 0$，则存在(*集合理论*，III, § 5, no. 6)整数$q$和$r$，使得$x = aq + r$和$0 \leqslant r < a$和$x \equiv r \pmod{a}$。如果$x$是整数$\leqslant 0$，整数$-x$是$\geqslant 0$，并且根据上面的公式，存在整数$r$使得$0 \leqslant r < a$和$-x \equiv r \pmod{a}$。写出 $r' = 0$ if $r = 0$ 和 $r' = a - r$ if $r > 0$，则
 
 $$
 x \equiv -r \equiv r' \pmod{a}
 $$
 
-and $0 \leqslant r' < a$.我们现在证明，如果 $0 \leqslant r < r' < a$，则$r \not\equiv r' \pmod{a}$。 Now $r' - r < na$ for $n \geqslant 1$ and $r' - r > na$ for $n \leqslant 0$, 从而 $r' - r \notin a\mathbf{Z}$.
+和$0 \leqslant r' < a$。我们现在证明，如果$0 \leqslant r < r' < a$，则$r \not\equiv r' \pmod{a}$。现在$r' - r < na$代表$n \geqslant 1$，$r' - r > na$代表$n \leqslant 0$，从而$r' - r \notin a\mathbf{Z}$。
 
-#### Corollary {#alg-i-s4-n10-cor-1 .statement tag=059X}
+#### 推论 {#alg-i-s4-n10-cor-1 .statement tag=059X}
 
-*令$a$为整数$> 0$。 群 $\mathbf{Z}/a\mathbf{Z}$ of rational 整数 modulo $a$ is 群 of 阶 $a$.*
+*令$a$为整数$> 0$。有理数整数模$a$的群$\mathbf{Z}/a\mathbf{Z}$是阶$a$的群。*
 
 #### 命题 17 {#alg-i-s4-prop-17 .statement tag=059Y}
 
-*令$\mathrm{H}$为$\mathbf{Z}$中的子群。 There exists one and only one 整数 $a \geqslant 0$ such that $\mathrm{H} = a\mathbf{Z}$.*
+*令$\mathrm{H}$为$\mathbf{Z}$中的子群。存在且仅有一个整数 $a \geqslant 0$ 使得 $\mathrm{H} = a\mathbf{Z}$.*
 
 如果$\mathrm{H} = \{0\}$，则$\mathrm{H} = 0\mathbf{Z}$。假设$\mathrm{H} \neq \{0\}$。 子群$\mathrm{H}$有元素$x \neq 0$。然后$x > 0$或$-x > 0$，因此$\mathrm{H}$有元素$> 0$。令$\mathrm{H}$中的$a$为最小的元素$> 0$。 $a$生成的子群$a\mathbf{Z}$包含在$\mathrm{H}$中；我们证明$\mathrm{H} \subset a\mathbf{Z}$。让$y \in \mathrm{H}$。到命题 16，存在整数$r$，使得$y \equiv r \pmod{a}$和$0 \leqslant r < a$。 *更不必说* $y \equiv r \pmod{\mathrm{H}}$，从而$r \in \mathrm{H}$。但这只有在 $r = 0$ 且因此 $y \in a\mathbf{Z}$ 时才有可能。 整数$a$是唯一的：如果$\mathrm{H} = \{0\}$，则必然$a = 0$，如果$\mathrm{H} \neq \{0\}$，整数$a$是$\mathbf{Z}/\mathrm{H}$的阶。
 
@@ -656,15 +656,15 @@ and $0 \leqslant r' < a$.我们现在证明，如果 $0 \leqslant r < r' < a$，
 
 *如果群承认单个元素的生成元由……组成中的系统，则称为单生的。有限单生群称为循环。*
 
-每个单生群都是可交换的（no. 3，推论 2 到命题 2）。单源群的每个商群都是单源的（no. 3，推论3到命题2）。
+每个单生群都是可交换的（no. 3、推论 2 到命题 2）。单源群的每个商群都是单源的（no. 3、推论 3 到命题 2）。
 
-加法群 $\mathbf{Z}$ 是单生的：它是由 $\{1\}$ 生成的。对于每个正整数 $a$，群 $\mathbf{Z}/a\mathbf{Z}$ 都是单生的，因为它是 $\mathbf{Z}$ 的商。
+加法群 $\mathbf{Z}$ 是单生的：它是由 $\{1\}$ 生成的。对于每个正整数$a$，群$\mathbf{Z}/a\mathbf{Z}$都是单生的，因为它是$\mathbf{Z}$的商。
 
 #### 命题 18 {#alg-i-s4-prop-18 .statement tag=05A0}
 
 * 阶 a 的有限单生群与 $\mathbf{Z}/a\mathbf{Z}$ 同构的。无限单生群同构于 $\mathbf{Z}$。*
 
-设G是单生群（乘法写）和G的x生成元。恒等式$x^m x^n = x^{m+n}$（§ 1, no. 3，公式（1））表明映射$n \mapsto x^n$是$\mathbf{Z}$的同态进入G。 像是 G 包含于 x 的子群，因此它是 G。通过 no. 5，定理 3，群 G 同构于 $\mathbf{Z}$ 除以子群的商，这必然是形式$a\mathbf{Z}$（命题17）。如果 $a > 0$，群 G 是阶 a 的有限，并且如果 $a = 0$，群 G 与 $\mathbf{Z}$ 同构的。
+设G是单生群（乘法写）和G的x生成元。恒等式$x^m x^n = x^{m+n}$（§ 1, no. 3，公式（1））表明映射$n \mapsto x^n$是$\mathbf{Z}$的同态进入G。 像是 G 包含于 x 的子群，因此它是 G。通过 no. 5、定理 3、群 G 通过子群同构于 $\mathbf{Z}$ 的商，这必然是形式$a\mathbf{Z}$（命题17）。如果 $a > 0$，群 G 是阶 a 的有限，并且如果 $a = 0$，群 G 与 $\mathbf{Z}$ 同构的。
 
 #### 命题 19 {#alg-i-s4-prop-19 .statement tag=05A1}
 
@@ -672,7 +672,7 @@ and $0 \leqslant r' < a$.我们现在证明，如果 $0 \leqslant r < r' < a$，
 
 相反，令 b 和 c 为两个整数 > 0，使得 $a = bc$。那么$a\mathbf{Z} \subset c\mathbf{Z}$和$c\mathbf{Z}/a\mathbf{Z}$就是$\mathbf{Z}/a\mathbf{Z}$、阶b和指标c的子群。
 
-$a = bc$乘no. 4，推论命题4。到no. 7、定理4，H为形式$H'/a\mathbf{Z}$，其中$H'$为$\mathbf{Z}$的子群，$\mathbf{Z}/H'$为与 $(\mathbf{Z}/a\mathbf{Z})/H$ 同构的，因此与阶同构 c.根据命题 17 和命题 16 的推论，$H' = c\mathbf{Z}$ 因此 H 是单生的。最后，H 同构于 $\mathbf{Z}/b\mathbf{Z}$ 命题 18。相反，如果 $a = bc$，则 $a\mathbf{Z} \subset c\mathbf{Z}$ 对于 $a \in c\mathbf{Z}$： 商群 $(\mathbf{Z}/a\mathbf{Z})/(c\mathbf{Z}/a\mathbf{Z})$ 同构于 $\mathbf{Z}/c\mathbf{Z}$ (no. 7, 定理) 4) 以及阶 c (no. 4，命题 4 的推论) 和指标 b (no. 4，命题 4 的推论)。
+$a = bc$由no. 4、推论至命题4。由no. 7、定理4，H为形式$H'/a\mathbf{Z}$，其中$H'$为$\mathbf{Z}$的子群且$\mathbf{Z}/H'$ 与 $(\mathbf{Z}/a\mathbf{Z})/H$ 同构的，因此与阶 c 同构的。由命题 17 和推论到命题 16，$H' = c\mathbf{Z}$ 因此 H 是单生的。最后，H 同构于 $\mathbf{Z}/b\mathbf{Z}$ 命题 18。相反，如果 $a = bc$，则 $a\mathbf{Z} \subset c\mathbf{Z}$ 对于 $a \in c\mathbf{Z}$： 商群 $(\mathbf{Z}/a\mathbf{Z})/(c\mathbf{Z}/a\mathbf{Z})$ 同构于 $\mathbf{Z}/c\mathbf{Z}$ (no. 7, 定理) 4) 因此为阶 c (no. 4、推论至命题 4) 和指标 b (no. 4、推论至命题 4)。
 
 #### 推论 {#alg-i-s4-n10-cor-2 .statement tag=05A2}
 
@@ -682,7 +682,7 @@ $a = bc$乘no. 4，推论命题4。到no. 7、定理4，H为形式$H'/a\mathbf{Z
 
 #### 定义 16 {#alg-i-s4-def-16 .statement tag=05A3}
 
-*整数 $p > 0$ 称为素数，如果 $p \neq 1$ 并且除了 p 之外不承认除子 > 1。*
+*如果 $p \neq 1$ 则整数 $p > 0$ 称为素数，且除 p 外不承认除子 > 1。*
 
 #### 命题 20 {#alg-i-s4-prop-20 .statement tag=05A4}
 
@@ -690,7 +690,7 @@ $a = bc$乘no. 4，推论命题4。到no. 7、定理4，H为形式$H'/a\mathbf{Z
 
 这是从命题 19 开始的。
 
-#### 推论{#alg-i-s4-n10-cor-3 .statement tag=05A5}
+#### 推论 {#alg-i-s4-n10-cor-3 .statement tag=05A5}
 
 *每个可交换简单群都是素数阶的循环。*
 
@@ -706,7 +706,7 @@ $a = bc$乘no. 4，推论命题4。到no. 7、定理4，H为形式$H'/a\mathbf{Z
 
 如果$(\mathbf{H}_i)_{0 \leq i \leq n}$是$\mathbf{Z}/a\mathbf{Z}$中的合成列，则从no. 4、命题4到$n$上的归纳，得出$a = \prod_{i=1}^n (\mathbf{H}_{i-1} : \mathbf{H}_i)$。
 
-相反，令$(s_i)_{1 \leq i \leq n}$为整数$> 0$的序列，使得$a = s_1 \ldots s_n$。如果$(\mathbf{H}_i)_{0 \leq i \leq n}$是$\mathbf{Z}/a\mathbf{Z}$的合成列，使得$(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$对应于$1 \leq i \leq n$，那么必然是$((\mathbf{Z}/a\mathbf{Z}) : \mathbf{H}_i) = \prod_{1 \leq j \leq i} s_j$，正如归纳在$i$、从而$\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$上看到的那样(命题 19)，它显示了所讨论的映射的单射性。我们现在展示它的满射性。将$0 \leq i \leq n$写入$\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$，可得到$\mathbf{Z}/a\mathbf{Z}$的合成列，使得$(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$（命题19）。第二个断言源自命题20和no. 7、命题9。
+相反，令$(s_i)_{1 \leq i \leq n}$为整数$> 0$中的序列，使得$a = s_1 \ldots s_n$。如果$(\mathbf{H}_i)_{0 \leq i \leq n}$是$\mathbf{Z}/a\mathbf{Z}$的合成列，使得$(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$对应于$1 \leq i \leq n$，那么必然是$((\mathbf{Z}/a\mathbf{Z}) : \mathbf{H}_i) = \prod_{1 \leq j \leq i} s_j$，正如归纳在$i$、从而$\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$上看到的那样(命题 19)，它显示了所讨论的映射的单射性。我们现在展示它的满射性。将$0 \leq i \leq n$写成$\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$，得到$\mathbf{Z}/a\mathbf{Z}$的合成列，使得$(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$（命题19）。第二个断言源自命题20和no. 7、命题9。
 
 让$\mathfrak{P}$表示素数数的集合。
 
@@ -720,11 +720,11 @@ $$
 
 由于群 $\mathbf{Z}/a\mathbf{Z}$ 是有限的，因此它承认 Jordan-Hölder 级数。 引理 2 那么意味着$a$ 是素数整数的乘积，从而族$(v_p(a))$ 的存在；此外，对于定理 7 的每个家庭$(v_p(a))_{p \in \mathfrak{P}}$ 满足条件，对于所有$p \in \mathfrak{P}$，整数 $v_p(a)$ 等于 Jordan-Hölder 级数的因子数 $\mathbf{Z}/a\mathbf{Z}$ 同构于 $\mathbf{Z}/p\mathbf{Z}$ (引理 2)。因此，家族$(v_p(a))$的唯一性源自Jordan-Hölder定理（no. 7，定理6）。
 
-#### 推论{#alg-i-s4-n10-cor-4 .statement tag=05A9}
+#### 推论 {#alg-i-s4-n10-cor-4 .statement tag=05A9}
 
 *令$a$和$b$为两个整数$> 0$。然后$v_p(ab) = v_p(a) + v_p(b)$。对于 $a$ 到除 $b$，对于每个素数数 $p$，$v_p(a) \leq v_p(b)$ 是充分必要的。*
 
-在任意群$G$中，如果元素$x \in G$生成的（单生）子群是有限的阶$d$，则$x$称为*阶*的元素 $d$；因此，数$d$是最小的整数$> 0$使得$x^d = e$；如果$x$生成的子群是无限的，则$x$被称为*无限阶*。这些定义与命题 4 (no. 4)一起，特别意味着在有限群G中，G的每个元素中的阶是G的阶中的除子。
+在任意群$G$中，如果元素$x \in G$生成的（单生）子群是有限的阶$d$，则$x$称为*阶*的元素 $d$；因此，数$d$是最小的整数$> 0$使得$x^d = e$；如果$x$生成的子群是无限的，则$x$被称为*无限阶*。这些定义与命题 4 (no. 4) 一起，特别意味着在有限群 G 中，每个元素 G 的阶是 G 的阶的除子。
 
 #### 命题 21 {#alg-i-s4-prop-21 .statement tag=05AA}
 

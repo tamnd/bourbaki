@@ -12,16 +12,16 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 434fa893201991015793337151c2fe609914f455a1caaec339858195f94f6469
+content_sha256: c8a4ffe37aab367960e0b437d56db1f0ae9d3a15ccb16489f7281bb9eeb7fed1
 translated_from: content/en/evt/00_to_the_reader.md
 translation_method: google
 source_content_sha256: 6cbc12e12abec8063cd6f21644b2bf89da7f708d54fa1d3ee86bbc47401085c9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: dff81e76d257269b689169e36f8bcee54a168972daaa63c089bcf41afcb6e53b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 致读者
@@ -51,11 +51,11 @@ Espaces Vectoriels Topologiques（拓扑向量空间） — EVT (TVS)
 
 从第七本书开始，读者通常会找到它与其他书籍的逻辑关系的精确指示（前六本书始终被假定为已知）。
 
-4. However we have sometimes inserted examples in the text which refer to facts the reader may already know but which have not yet been discussed in the series. 这样的例放在两个星号之间：*...*。 大多数读者无疑会发现这些例将帮助他们理解文本。 在其他情况下，*...* 之间的段落指的是级数中其他地方讨论的结果。 我们希望读者能够验证不存在任何恶性循环。
+4. 然而，我们有时会在文本中插入示例，这些示例涉及读者可能已经知道但本系列中尚未讨论的事实。 这样的例放在两个星号之间：*...*。 大多数读者无疑会发现这些例将帮助他们理解文本。 在其他情况下，*...* 之间的段落指的是级数中其他地方讨论的结果。 我们希望读者能够验证不存在任何恶性循环。
 
 5. 每个章的逻辑框架由定义、公理、章的定理组成。这就是部分，以后使用时主要要牢记的。不太重要的结果和那些很容易从定理推出的结果被标记为“命题”，“引理”，“推论”，“注”等。那些初读时可能被省略的结果用小型打印。对特别重要的定理的评论偶尔会以“scholium”的名义出现。
 
-为了避免繁琐的重复，有时方便地引入记号或仅在章或章的特定截面内有效的缩写（对于例，在章中，仅与交换环，字有关< 环 » 总是表示 « 交换环 »）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免乏味的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅涉及交换环的章中，字“环”总是表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. 文中的一些段落旨在警告读者不要出现严重错误。这些通道在页边标有 ☡（“危险弯道”）的路标。
 
@@ -65,7 +65,7 @@ Espaces Vectoriels Topologiques（拓扑向量空间） — EVT (TVS)
 
 9. 我们特别努力始终使用严格正确的语言，同时又不牺牲简单性。我们尽可能在文本中提请注意对语言的滥用，如果没有这种滥用，任何数学文本都会面临迂腐的风险，更不用说难以阅读了。
 
-10. 由于原理中的文本由理论的教条性阐述组成，因此包含一般没有参考文献。参考文献集中在历史注记中。每个历史注记包含后面的参考书目一般只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整性。
+10. 由于原理中的文本由理论的教条性阐述组成，因此包含一般没有参考文献。参考文献集中在历史注记中。每个历史注记包含后面的参考书目一般只有那些在讨论中的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整性。
 
 至于习题，我们认为总体上不值得指出它们的起源，因为它们来自许多不同的来源（原始论文、教科书、习题的集合）。
 

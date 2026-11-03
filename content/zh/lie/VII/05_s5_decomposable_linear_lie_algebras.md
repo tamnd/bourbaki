@@ -33,16 +33,16 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: caaf271d1475da4c2e5d9d125e6e2682d3a4f6a2ed5e7cdeae5ca12a82f2c034
+content_sha256: d654fa5ad6ec740120016332f03130666df4cd802a801b2748254c232c8d13f2
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
 translation_method: google
 source_content_sha256: 9348eb1c66b5306a2d380eb335d4afb9f19486f3e78d4da673c181842d07b2e0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 60bd84be27874044644bbed9b4f976f0748c04dec71475df6ec66cdc306e47f3
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。可分解线性李代数
@@ -53,15 +53,15 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#lie-vii-s5-def-1 .statement tag=00WG}
 
-设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。那么 $\mathfrak{g}$ 被认为是可分解的，如果 $\mathfrak{g}$ 包含半单并且它的每个元素的幂零分量（代数，第 VII, §5, no. 8）。
+设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。那么 $\mathfrak{g}$ 被认为是可分解的，如果 $\mathfrak{g}$ 包含半单并且它的每个元素是幂零的分量（代数，第 VII, §5, no. 8 章）。
 
 #### 例 1 {#lie-vii-s5-n1-exa-1 .statement tag=00WH}
 
-令$V'$和$V''$为V的向量子空间，使得$V''\supset V'$。 $x\in \mathfrak{g}\mathfrak{l}(V)$的集合使得$x(V'')\subset V'$是$\mathfrak{g}\mathfrak{l}(V)$的可分解谎言子代数；事实上，对于所有$x\in \mathfrak{g}\mathfrak{l}$(V)、半单和$x$的幂零分量都是形式、$P(x)$和$Q(x)$，其中P和Q是没有常数项的多项式。
+令$V'$和$V''$为V的向量子空间，使得$V''\supset V'$。 $x\in \mathfrak{g}\mathfrak{l}(V)$的集合使得$x(V'')\subset V'$是$\mathfrak{g}\mathfrak{l}(V)$的可分解谎言子代数；事实上，对于所有$x\in \mathfrak{g}\mathfrak{l}$(V)，$x$的半单和幂零分量都是形式、$P(x)$和$Q(x)$，其中P和Q是没有常数项的多项式。
 
 #### 例 2 {#lie-vii-s5-n1-exa-2 .statement tag=00WI}
 
-假设V有代数结构。 V 的推导的集合是 $\mathfrak{g}\mathfrak{l}(V) ($§1, no. 1 的可分解谎言子代数，命题 4 (ii)）。
+假设V有代数结构。 V的推导的集合是$\mathfrak{g}\mathfrak{l}(V) ($§1, no. 1的可分解谎言子代数，命题4 (ii)）。
 
 #### 例 3 {#lie-vii-s5-n1-exa-3 .statement tag=01KQ}
 
@@ -69,7 +69,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 命题 1 {#lie-vii-s5-prop-1 .statement tag=00WJ}
 
-令$\mathfrak{g}$为$\mathfrak{g}\mathfrak{l}(V),x\in \mathfrak{g},s$和$n$半单的可分解李子子代数以及$x$的幂零分量。
+令$\mathfrak{g}$为$\mathfrak{g}\mathfrak{l}(V),x\in \mathfrak{g},s$和$n$半单的可分解谎言子代数以及$x$的幂零分量。
 
 (i) ad$_{\mathfrak{g}}x$的半单和幂零分量分别是ad$_{\mathfrak{g}}s$和ad$_{\mathfrak{g}}n$。
 
@@ -77,19 +77,19 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (iii) 如果$\mathfrak{g}'$是$\mathfrak{g}\mathfrak{l}(V)$包含$\mathfrak{g}$的子代数，则$\mathfrak{g}$扩展的每个初等自同构到$\mathfrak{g}'$的初等自同构。
 
-输入$\mathfrak{a}=\mathfrak{g}\mathfrak{l}(V)$。由章。 ad$_{\mathfrak{a}}x$的I, §5, no. 4、引理2、半单和幂零分量是ad$_{\mathfrak{a}}s$和ad$_{\mathfrak{a}}n$；由此得出断言 (i)。我们推导出ad$_{\mathfrak{g}}x$和ad$_{\mathfrak{g}}s$的特征多项式是相同的；因此(ii)。如果 ad$_{\mathfrak{g}}x$ 幂零的，则 ad$_{\mathfrak{g}}x=$ ad$_{\mathfrak{g}}n$，因此 ad$_{\mathfrak{g}'}n$ 扩展 ad$_{\mathfrak{g}}x$，并且 $n$ 是 $\mathfrak{g}'$ 的幂零元，因此 (iii)。
+输入$\mathfrak{a}=\mathfrak{g}\mathfrak{l}(V)$。由章。 ad$_{\mathfrak{a}}x$的I, §5, no. 4、引理2、半单和幂零分量分别为ad$_{\mathfrak{a}}s$和ad$_{\mathfrak{a}}n$； 断言 (i) 由此得出。我们推导出ad$_{\mathfrak{g}}x$和ad$_{\mathfrak{g}}s$的特征多项式是相同的；因此(ii)。如果 ad$_{\mathfrak{g}}x$ 幂零，则 ad$_{\mathfrak{g}}x=$ ad$_{\mathfrak{g}}n$，因此 ad$_{\mathfrak{g}'}n$ 扩展 ad$_{\mathfrak{g}}x$，并且 $n$ 是 $\mathfrak{g}'$ 的幂零元，因此 (iii)。
 
 设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。我们知道（第 I, §6, no. 5，第 4 章）以下条件是等效的：
 
-(i) $\mathfrak{g}$的身份表示是半单；
+(i) $\mathfrak{g}$的恒等式表示是半单；
 
-(ii) $\mathfrak{g}$ 是约数，$\mathfrak{g}$ 中心的每元素是半单自同态。
+(ii) $\mathfrak{g}$ 是约数，$\mathfrak{g}$ 的中心的每个元素是半单自同态。
 
 这些条件实际上相当于以下内容：
 
 (iii) $\mathfrak{g}$ 是$\mathfrak{g}\mathfrak{l}(V)$ 中的约子代数。
 
-事实上，(i) $=\Rightarrow$ (iii) 由第 1 章提供。 I, §6, no. 5，科。 3 Th。 4，和（iii）$=\Rightarrow$（i）章。 I, §6, no. 6，科。提案 7 的第 1 条。我们将证明，如果 $\mathfrak{g}$ 满足这些条件，则 $\mathfrak{g}$ 是可分解的。更一般地说：
+事实上，(i) $=\Rightarrow$ (iii) 由第 1 章提供。 I, §6, no. 5，科。 3 Th。 4，和（iii）$=\Rightarrow$（i）章。 I, §6, no. 6，科。提案 7 的 1。我们将证明，如果 $\mathfrak{g}$ 满足这些条件，则 $\mathfrak{g}$ 是可分解的。更一般地说：
 
 #### 命题 2 {#lie-vii-s5-prop-2 .statement tag=00WK}
 
@@ -97,29 +97,29 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (i) $\mathfrak{g}$ 和 $\pi (\mathfrak{g})$ 是可分解的。
 
-(ii) The semi-simple (resp. nilpotent) elements of $\pi (\mathfrak{g})$ are the images under $\pi$ of the semi-simple (resp. nilpotent) elements of $\mathfrak{g}$.
+(ii) $\pi (\mathfrak{g})$ 的半单（或幂零）元素是 $\mathfrak{g}$ 的半单（或幂幂）元素在 $\pi$ 下的图像。
 
 (iii) If $\mathfrak{h}$ is a decomposable subalgebra of $\mathfrak{g}\mathfrak{l}(V)$ contained in $\mathfrak{g},\pi (\mathfrak{h})$ is a decomposable subalgebra of $\mathfrak{g}\mathfrak{l}(E)$.
 
 (iv) 如果$\mathfrak{h}'$是$\mathfrak{g}\mathfrak{l}(E),\pi^{-1}(\mathfrak{h}')$的可分解的子代数，则子代数是$\mathfrak{g}\mathfrak{l}(V)$的可分解的子代数。
 
-令$\mathfrak{s}= [\mathfrak{g},\mathfrak{g}]$且$\mathfrak{c}$为$\mathfrak{g}$的中心。 然后是$\mathfrak{g}=\mathfrak{s}\times \mathfrak{c}$和$\pi (\mathfrak{g}) =$$\pi (\mathfrak{s})\times \pi (\mathfrak{c})$。 I, §6, no. 4，科。提案 5。 让$y\in \mathfrak{s}, z\in \mathfrak{c}, y_s$和$y_n$半单以及$y$的幂零分量。 那么$y_s, y_n\in \mathfrak{s}$（第I, §6, no. 3章，提案$3$）$,y_s+z$是半单（代数，第VII, §5, no. 7章，第16号提案的Cor.），并且$y_n$与$y_s+z$通勤。 因此，半单和$y+z$的幂零分量是$y_s+z$和$y_n$。 因此，$\mathfrak{g}$是可分解的。 由于 $\pi (\mathfrak{g})$ 在 $\mathfrak{g}\mathfrak{l}$(E) 中是可还原的，因此相同的论证适用于 $\pi (\mathfrak{g})$ 并表明 $\pi (\mathfrak{g})$ 是可分解的。 此外，$\mathfrak{g}$（或$\pi (\mathfrak{g})$）的幂零元是$\mathfrak{s}$（或$\pi (\mathfrak{s})$）的幂零元。 因此，$\pi (\mathfrak{g})$的幂零元是$\mathfrak{g}$的幂零元的$\pi$下的像（第I, §6, no. 3章，第4条命题）。 The semi-simple elements of $\mathfrak{g}$ (resp. $\pi (\mathfrak{g})$) are the sums of the semi-simple elements of $\mathfrak{s}$ (resp. $\pi (\mathfrak{s})$) and the elements of $\mathfrak{c}$ (resp. $\pi (\mathfrak{c})$). 因此，$\pi (\mathfrak{g})$的半单元素是像在半单元素的$\pi$之下，$\mathfrak{g}$（第I章，前述）。 因此(ii)。
+令$\mathfrak{s}= [\mathfrak{g},\mathfrak{g}]$且$\mathfrak{c}$为$\mathfrak{g}$的中心。 然后是$\mathfrak{g}=\mathfrak{s}\times \mathfrak{c}$和$\pi (\mathfrak{g}) =$$\pi (\mathfrak{s})\times \pi (\mathfrak{c})$。 I, §6, no. 4，科。提案 5。 令 $y\in \mathfrak{s}, z\in \mathfrak{c}, y_s$ 和 $y_n$ 半单以及 $y$ 幂零分量。 那么$y_s, y_n\in \mathfrak{s}$（第I, §6, no. 3章，提案$3$）$,y_s+z$是半单（代数，第VII, §5, no. 7章，第16号提案的Cor.），并且$y_n$与$y_s+z$通勤。 因此，$y+z$的幂零半单和分量是$y_s+z$和$y_n$。 因此，$\mathfrak{g}$是可分解的。 由于 $\pi (\mathfrak{g})$ 在 $\mathfrak{g}\mathfrak{l}$(E) 中是可还原的，因此相同的论证适用于 $\pi (\mathfrak{g})$ 并表明 $\pi (\mathfrak{g})$ 是可分解的。 此外，$\mathfrak{g}$（或$\pi (\mathfrak{g})$）的幂零元是$\mathfrak{s}$（或$\pi (\mathfrak{s})$）的幂零元。 因此，$\pi (\mathfrak{g})$的幂零元是$\mathfrak{g}$的幂零元的$\pi$下的像（第I, §6, no. 3章，第4条命题）。 $\mathfrak{g}$（或$\pi (\mathfrak{g})$）的半单元素是$\mathfrak{s}$（或$\pi (\mathfrak{s})$）的半单元素与$\mathfrak{c}$（或$\pi (\mathfrak{c})$）的元素之和。 因此，$\pi (\mathfrak{g})$的半单元素是像在半单元素的$\pi$之下，$\mathfrak{g}$（第I章，前述）。 因此(ii)。
 
 断言 (iii) 和 (iv) 紧随 (i) 和 (ii) 之后。
 
 #### 注 1 {#lie-vii-s5-n1-rem-1 .statement tag=00WL}
 
-$\pi$ 上的半单纯性假设相当于说，对于所有$x\in \mathfrak{c}$，$\pi (x)$ 是半单。 注，当通过连续应用以下运算：张量积、通向对偶、子表示、商、直和，从恒等式表示$\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$获得$\pi$时，满足假设。
+$\pi$ 上的半单纯性假设相当于说，对于所有$x\in \mathfrak{c}$，$\pi (x)$ 是半单。请注意，当通过连续应用以下运算：张量积、过渡到对偶、子表示、商、直和，从恒等式表示$\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$获得$\pi$时，满足假设。
 
 #### 注 2 {#lie-vii-s5-n1-rem-2 .statement tag=00WM}
 
-设$\mathfrak{g}\subset \mathfrak{g}\mathfrak{l}$(V)、$\mathfrak{g}'\subset \mathfrak{g}\mathfrak{l}(V')$为可分解李代数、$\varphi$同构，从$\mathfrak{g}$到$\mathfrak{g}'$。 注 $\varphi$ 不一定是 $\mathfrak{g}$ 的变换半单（幂幂）元素到半单（幂幂）元素 $\mathfrak{g}'$（练习 2）。然而，如果$\mathfrak{g}$是半单（第I, §6, no. 3章，第3章），就会出现这种情况。
+设$\mathfrak{g}\subset \mathfrak{g}\mathfrak{l}$(V)、$\mathfrak{g}'\subset \mathfrak{g}\mathfrak{l}(V')$为可分解李代数、$\varphi$同构，从$\mathfrak{g}$到$\mathfrak{g}'$。请注意，$\varphi$不一定是$\mathfrak{g}$的变换半单（或幂零）元素到半单（或幂幂）元素或$\mathfrak{g}'$（练习2）。然而，如果$\mathfrak{g}$是半单（第I, §6, no. 3章，第3章），就会出现这种情况。
 
 #### 命题 3 {#lie-vii-s5-prop-3 .statement tag=00WN}
 
-令$\mathfrak{a}$为$\mathfrak{g}\mathfrak{l}(V)$的可分解谎言子代数，并令$\mathfrak{b}$和$\mathfrak{c}$为$\mathfrak{g}\mathfrak{l}(V)$的向量子空间，使得$\mathfrak{b}\subset \mathfrak{c}$。令$\mathfrak{a}'$为$x\in \mathfrak{a}$的集合，使得$[x,\mathfrak{c}]\subset \mathfrak{b}$。那么$\mathfrak{a}'$是可分解的。
+令$\mathfrak{a}$为$\mathfrak{g}\mathfrak{l}(V)$的可分解谎言子代数，并令$\mathfrak{b}$和$\mathfrak{c}$为$\mathfrak{g}\mathfrak{l}(V)$的向量子空间，使得$\mathfrak{b}\subset \mathfrak{c}$。令 $\mathfrak{a}'$ 为 $x\in \mathfrak{a}$ 的集合，使得 $[x,\mathfrak{c}]\subset \mathfrak{b}$。那么$\mathfrak{a}'$是可分解的。
 
-把$\mathfrak{g}=\mathfrak{g}\mathfrak{l}(V)$； $z\in \mathfrak{g}\mathfrak{l}(\mathfrak{g})$的$\mathfrak{g}\mathfrak{l}(\mathfrak{g})$由……组成的子代数$\mathfrak{h}'$使得$z(\mathfrak{c})\subset \mathfrak{b}$可分解（例1）。令$\pi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(\mathfrak{g})$为$\mathfrak{g}$的伴随表示。应用于 $\pi$ 的命题 2 (iv) 表明 $\pi^{-1}(\mathfrak{h}')$ 是可分解的。因而$\mathfrak{a}'=\mathfrak{a}\cap \pi^{-1}(\mathfrak{h}')$也是如此。
+把$\mathfrak{g}=\mathfrak{g}\mathfrak{l}(V)$； $z\in \mathfrak{g}\mathfrak{l}(\mathfrak{g})$的$\mathfrak{g}\mathfrak{l}(\mathfrak{g})$由……组成的子代数$\mathfrak{h}'$使得$z(\mathfrak{c})\subset \mathfrak{b}$可分解（例1）。令 $\pi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(\mathfrak{g})$ 为$\mathfrak{g}$ 的伴随表示。应用于 $\pi$ 的命题 2 (iv) 表明 $\pi^{-1}(\mathfrak{h}')$ 是可分解的。因而$\mathfrak{a}'=\mathfrak{a}\cap \pi^{-1}(\mathfrak{h}')$也是如此。
 
 #### 推论 1 {#lie-vii-s5-prop-3-cor-1 .statement tag=00WO}
 
@@ -165,21 +165,21 @@ $$
 
 (ii) 如果 $\mathfrak{g}$ 是可交换的（或幂零、或可解），则 $e(\mathfrak{g})$ 是可交换的（或幂零、或可解）。
 
-断言 (i) 由 $i$ 上的归纳由第 4 条命题得出，(ii) 由 (i) 得出。
+断言 (i) 由归纳在 $i$ 上由第 4 条命题得出，(ii) 由 (i) 得出。
 
 #### 推论 2 {#lie-vii-s5-prop-4-cor-2 .statement tag=00WT}
 
-设$\mathfrak{r}$为$\mathfrak{g}$的根式。如果 $\mathfrak{g}$ 可分解，则 $\mathfrak{r}$ 也可分解。
+设$\mathfrak{r}$为$\mathfrak{g}$中的根基。如果 $\mathfrak{g}$ 可分解，则 $\mathfrak{r}$ 也可分解。
 
 事实上，$e(\mathfrak{r})$ 是第 4 号提案和 Cor.4 的 $\mathfrak{g}$ 的可解理想。 1，因而$e(\mathfrak{r}) =\mathfrak{r}$。
 
 ### 3. 分解 / 可分解代数
 
-如果$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数且带有根$\mathfrak{r}$，则$\mathfrak{r}$的幂零元的集合是$\mathfrak{g}$的幂零理想，最大的恒等式表示的幂零理想$\mathfrak{g}$（第 I, §5, no. 3 章，第 1 章第 6 章）。在本段中，我们将用$\mathfrak{n}_V(\mathfrak{g})$来表示这个理想。它包含$\mathfrak{g}$的幂零根$[\mathfrak{g},\mathfrak{g}]\cap \mathfrak{r}$（第I, §5, no. 3章，第1章）。
+如果$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数和根基$\mathfrak{r}$，则$\mathfrak{r}$的幂零元集合是$\mathfrak{g}$的幂零理想，最大的恒等式的幂零理想$\mathfrak{g}$ 的表示（第 I, §5, no. 3 章，第 1 章第 6 章）。在本段中，我们将用$\mathfrak{n}_V(\mathfrak{g})$来表示这个理想。它是包含根基 $[\mathfrak{g},\mathfrak{g}]\cap \mathfrak{r}$ $\mathfrak{g}$（第I, §5, no. 3，第 1 章）。
 
 #### 命题 5 {#lie-vii-s5-prop-5 .statement tag=00WU}
 
-令 $\mathfrak{g}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 的可分解幂零谎言子代数。令$\mathfrak{t}$为集合/半单元素/$\mathfrak{g}$。那么$\mathfrak{t}$是$\mathfrak{g}$的中心子代数，$\mathfrak{g}$是$\mathfrak{t}$的乘积，$\mathfrak{n}_V(\mathfrak{g})$是李代数。
+令 $\mathfrak{g}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 的可分解幂零谎言子代数。令 $\mathfrak{t}$ 为半单元素 $\mathfrak{g}$ 中的集合。那么$\mathfrak{t}$是$\mathfrak{g}$的中心子代数，$\mathfrak{g}$是$\mathfrak{t}$的乘积，$\mathfrak{n}_V(\mathfrak{g})$是李代数。
 
 如果$x\in \mathfrak{t}$，ad$_{\mathfrak{g}}x$是半单且幂零，因此零，因而$x$是$\mathfrak{g}$的中心。因而，$\mathfrak{t}$是$\mathfrak{g}$和$\mathfrak{t}\cap \mathfrak{n}_V(\mathfrak{g}) = 0$的理想。由于$\mathfrak{g}$可分解，$\mathfrak{g}=\mathfrak{t}+\mathfrak{n}_V(\mathfrak{g})$，因此命题。
 
@@ -189,35 +189,35 @@ $$
 
 (i) 对于$\mathfrak{h}\in \mathscr{H}$，令$\varphi (\mathfrak{h})$为集合/半单元素/$\mathfrak{h}$。然后$\varphi (\mathfrak{h})\in \mathscr{T}_1$。
 
-(ii) 对于$\mathfrak{t}\in \mathscr{T}_1$，令$\psi (\mathfrak{t})$为$\mathfrak{t}$在$\mathfrak{g}$的交换子。然后$\psi (\mathfrak{t})\in \mathscr{H}$。
+(ii) 对于$\mathfrak{t}\in \mathscr{T}_1$，令$\psi (\mathfrak{t})$为$\mathfrak{g}$中$\mathfrak{t}$的交换子。然后$\psi (\mathfrak{t})\in \mathscr{H}$。
 
-(iii) 映射$\varphi$和$\psi$是从$\mathscr{H}$到$\mathscr{T}_1$以及从$\mathscr{T}_1$到$\mathscr{H}$的逆双射。
+(iii) 映射 $\varphi$ 和 $\psi$ 是从$\mathscr{H}$ 到$\mathscr{T}_1$ 以及从$\mathscr{T}_1$ 到$\mathscr{H}$ 的逆双射。
 
 (iv) 如果 $k$ 是代数闭集，则 Aut$_e(\mathfrak{g})$ 在 $\mathscr{T}_1$ 上传递运算。
 
-设$\mathfrak{h}\in \mathscr{H}$，并放入$\mathfrak{t}=\varphi (\mathfrak{h})$。根据 Prop. 5 和 Cor. $3,\mathfrak{t}\in \mathscr{T}$ 和 $\mathfrak{h}=\mathfrak{t}\times \mathfrak{n}_V(\mathfrak{h})$ 提案 2。对于$\mathfrak{g}$的任何子代数$\mathfrak{u}$，我们用$\psi (\mathfrak{u})$表示$\mathfrak{u}$在$\mathfrak{g}$的交换子。那么$\mathfrak{h}\subset \psi (\mathfrak{t})$和$\psi (\mathfrak{t})\subset \mathfrak{g}^0(\mathfrak{h})$，因为$\mathfrak{n}_V(\mathfrak{h})$的元素是幂零的，所以$\mathfrak{h}=\psi (\mathfrak{t})$。如果$\mathfrak{t}'\in \mathscr{T}$和$\mathfrak{t}\subset \mathfrak{t}'$，我们有$\mathfrak{t}'\subset \psi (\mathfrak{t}) =\mathfrak{h}$，所以$\mathfrak{t}'=\mathfrak{t}$，因此有$\mathfrak{t}\in \mathscr{T}_1$。
+设$\mathfrak{h}\in \mathscr{H}$，并放入$\mathfrak{t}=\varphi (\mathfrak{h})$。根据 Prop. 5 和 Cor. $3,\mathfrak{t}\in \mathscr{T}$ 和 $\mathfrak{h}=\mathfrak{t}\times \mathfrak{n}_V(\mathfrak{h})$ 提案 2。对于$\mathfrak{g}$中的任何子代数$\mathfrak{u}$，我们用$\mathfrak{g}$中$\mathfrak{u}$的$\psi (\mathfrak{u})$交换子来表示。那么$\mathfrak{h}\subset \psi (\mathfrak{t})$和$\psi (\mathfrak{t})\subset \mathfrak{g}^0(\mathfrak{h})$，因为$\mathfrak{n}_V(\mathfrak{h})$的元素是幂零的，所以$\mathfrak{h}=\psi (\mathfrak{t})$。如果$\mathfrak{t}'\in \mathscr{T}$和$\mathfrak{t}\subset \mathfrak{t}'$，我们有$\mathfrak{t}'\subset \psi (\mathfrak{t}) =\mathfrak{h}$，所以$\mathfrak{t}'=\mathfrak{t}$，因此有$\mathfrak{t}\in \mathscr{T}_1$。
 
-设$\mathfrak{t}\in \mathscr{T}_1$，并放入$\mathfrak{c}=\psi (\mathfrak{t})$。设$\mathfrak{h}$为$\mathfrak{c}$中的嘉当子代数。根据§2, no. 3、提案$10,\mathfrak{h}\in \mathscr{H}$ 和$\mathfrak{t}\subset \mathfrak{h}$。把$\mathfrak{t}_1=\varphi (\mathfrak{h})\in \mathscr{T}$。然后$\mathfrak{t}\subset \mathfrak{t}_1$所以$\mathfrak{t}=\mathfrak{t}_1$，以及前面的$\mathfrak{h}=\psi (\mathfrak{t}_1) =\psi (\mathfrak{t}) =\mathfrak{c}$。因此，$\psi (\mathfrak{t})\in \mathscr{H}$和$\varphi (\psi (\mathfrak{t})) =\mathfrak{t}$。
+设$\mathfrak{t}\in \mathscr{T}_1$，并放入$\mathfrak{c}=\psi (\mathfrak{t})$。令 $\mathfrak{h}$ 为 $\mathfrak{c}$ 中的嘉当子代数。根据§2, no. 3、提案$10,\mathfrak{h}\in \mathscr{H}$ 和$\mathfrak{t}\subset \mathfrak{h}$。把$\mathfrak{t}_1=\varphi (\mathfrak{h})\in \mathscr{T}$。然后$\mathfrak{t}\subset \mathfrak{t}_1$所以$\mathfrak{t}=\mathfrak{t}_1$，以及前面的$\mathfrak{h}=\psi (\mathfrak{t}_1) =\psi (\mathfrak{t}) =\mathfrak{c}$。因此，$\psi (\mathfrak{t})\in \mathscr{H}$和$\varphi (\psi (\mathfrak{t})) =\mathfrak{t}$。
 
 这样我们就证明了(i)、(ii)和(iii)。假设 $k$ 是代数闭的。由于 Aut$_e(\mathfrak{g})$ 在 $\mathscr{H}($§3, no. 2 上传递操作，Th。 1)、Aut$_e(\mathfrak{g})$在$\mathscr{T}_1$上传递操作。
 
 #### 推论 1 {#lie-vii-s5-prop-6-cor-1 .statement tag=00WW}
 
-$\mathfrak{g}$的嘉当子代数是半单元素的$\mathfrak{g}$的集中器。
+$\mathfrak{g}$的嘉当子代数是常规半单元素的$\mathfrak{g}$的集中器。
 
-如果$x\in \mathfrak{g}$是正则，则$\mathfrak{g}^0(x)$是$\mathfrak{g}($§2, no. 3的嘉当子代数，Th。 1（一））；此外，如果$x$是半单，则$\mathfrak{g}^0(x)$是$x$在$\mathfrak{g}$的集中器。相反，令$\mathfrak{h}$为$\mathfrak{g}$的嘉当子代数。存在$\mathfrak{t}\in \mathscr{T}_1$使得$\mathfrak{h}=\psi (\mathfrak{t})$。根据第7条命题§1, no. 2，存在$x\in \mathfrak{t}$使得$\mathfrak{h}=\mathfrak{g}^0(x)$；从$x\in \mathfrak{t}$、$\mathfrak{g}^0(x) =\mathfrak{g}_0(x)$开始。星期四 §3, no. 3 之前2 (ii), $x$ 是正则。
+如果$x\in \mathfrak{g}$是正则，则$\mathfrak{g}^0(x)$是$\mathfrak{g}($§2, no. 3的嘉当子代数，Th。 1（一））；此外，如果$x$是半单，则$\mathfrak{g}^0(x)$是$x$在$\mathfrak{g}$的集中器。相反，令 $\mathfrak{h}$ 为 $\mathfrak{g}$ 的嘉当子代数。存在$\mathfrak{t}\in \mathscr{T}_1$使得$\mathfrak{h}=\psi (\mathfrak{t})$。根据第7条命题§1, no. 2，存在$x\in \mathfrak{t}$使得$\mathfrak{h}=\mathfrak{g}^0(x)$；从$x\in \mathfrak{t}$、$\mathfrak{g}^0(x) =\mathfrak{g}_0(x)$开始。截至 §3, no. 3，周四。 2 (ii), $x$ 是正则。
 
 #### 推论 2 {#lie-vii-s5-prop-6-cor-2 .statement tag=00WX}
 
 假设加法中$\mathfrak{g}$是可解的。然后：
 
-(i) The subgroup of Aut($\mathfrak{g}$) consisting of the $e^{adx}, x\in \mathscr{C}^{\infty}\mathfrak{g}$ (cf. §3, no. 4), operates transitively on $\mathscr{T}_1$.
+(i) Aut($\mathfrak{g}$) 的子群 $e^{adx}, x\in \mathscr{C}^{\infty}\mathfrak{g}$ (cf. §3, no. 4) 的由……组成，在 $\mathscr{T}_1$ 上传递操作。
 
 (ii) 如果$\mathfrak{t}\in \mathscr{T}_1,\mathfrak{g}$是$\mathfrak{t}$和$\mathfrak{n}_V(\mathfrak{g})$的半直接乘积。
 
-断言 (i) 源自以下事实：$e^{adx},x\in \mathscr{C}^{\infty}\mathfrak{g}$ 的群在$\mathscr{H}($§3, no. 4、Th 上传递操作。 3）。
+断言 (i) 源自以下事实：$e^{adx},x\in \mathscr{C}^{\infty}\mathfrak{g}$ 的群在 $\mathscr{H}($§3, no. 4，Th 上传递运行。 3）。
 
-我们证明(ii)。令$\mathfrak{t}\in \mathscr{T}_1$，并令$\mathfrak{h}=\psi (\mathfrak{t})$为$\mathfrak{g}$的相应的嘉当子代数。鉴于提案$5,\mathfrak{h}=\mathfrak{t}+\mathfrak{n}_V(\mathfrak{h})\subset \mathfrak{t}+\mathfrak{n}_V(\mathfrak{g})$。另一方面，$\mathfrak{g}=\mathfrak{h}+ [\mathfrak{g},\mathfrak{g}] ($§2, no. 1，Cor。命题 4 中的 3) 和 $[\mathfrak{g},\mathfrak{g}]\subset \mathfrak{n}_V(\mathfrak{g})$，因此 $\mathfrak{g}=\mathfrak{t}+\mathfrak{n}_V(\mathfrak{g})$。但很明显$\mathfrak{t}\cap \mathfrak{n}_V(\mathfrak{g}) =\{0\}$。因此，代数$\mathfrak{g}$是$\mathfrak{t}$的半直接乘积和理想的$\mathfrak{n}_V(\mathfrak{g})$。
+我们证明(ii)。令$\mathfrak{t}\in \mathscr{T}_1$，并令$\mathfrak{h}=\psi (\mathfrak{t})$为相应的嘉当子代数除以$\mathfrak{g}$。鉴于提案$5,\mathfrak{h}=\mathfrak{t}+\mathfrak{n}_V(\mathfrak{h})\subset \mathfrak{t}+\mathfrak{n}_V(\mathfrak{g})$。另一方面，$\mathfrak{g}=\mathfrak{h}+ [\mathfrak{g},\mathfrak{g}] ($§2, no. 1，Cor。提案 4 中的第 3 条）和​​ $[\mathfrak{g},\mathfrak{g}]\subset \mathfrak{n}_V(\mathfrak{g})$，因此 $\mathfrak{g}=\mathfrak{t}+\mathfrak{n}_V(\mathfrak{g})$。但很明显$\mathfrak{t}\cap \mathfrak{n}_V(\mathfrak{g}) =\{0\}$。因此，代数$\mathfrak{g}$是$\mathfrak{t}$的半直接乘积和理想的$\mathfrak{n}_V(\mathfrak{g})$。
 
 #### 命题 7 {#lie-vii-s5-prop-7 .statement tag=00WY}
 
@@ -227,7 +227,7 @@ $\mathfrak{g}$的嘉当子代数是半单元素的$\mathfrak{g}$的集中器。
 
 (ii) 具有 (i) 中属性的 $\mathfrak{g}$ 的任何两个谎言子代数在 Aut$_e(\mathfrak{g})$ 下都是共轭。
 
-$\mathfrak{g}$的部首$\mathfrak{r}$是可分解的（no. 2，第4条命题的Cor.2）。由科.根据命题6的2，存在$\mathfrak{r}$的交换子代数$\mathfrak{t}$，半单元素的由……组成，使得$\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r})$。由于 ad$_{\mathfrak{g}}\mathfrak{t}$ 由半单元素组成，$\mathfrak{g}$ 是 $[\mathfrak{t},\mathfrak{g}]$ 的直和以及 $\mathfrak{t}$ 的扶正器 $\mathfrak{z}$（第 I, §3, no. 5 章，第 6 条）。从$[\mathfrak{t},\mathfrak{g}]\subset \mathfrak{r},\mathfrak{g}=\mathfrak{z}+\mathfrak{r}$开始。因而，如果$\mathfrak{s}$是$\mathfrak{z}$的李维子代数（第I, §6章，第$8$）$,\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$，那么$\mathfrak{s}$是$\mathfrak{g}$的李维子代数。输入$\mathfrak{m}=\mathfrak{s}\oplus \mathfrak{t}$。由于$[\mathfrak{s},\mathfrak{t}] =\{0\},\mathfrak{m}$是$\mathfrak{g}$的谎言子代数，由第1章在$\mathfrak{g}\mathfrak{l}(V)$中还原。 I, §6, no. 5，周四。 4. 此外，
+$\mathfrak{g}$ 的根基 $\mathfrak{r}$ 是可分解的（no. 2，第 4 条命题第 2 条）。由科.根据命题6的2，存在$\mathfrak{r}$的交换子代数$\mathfrak{t}$，半单元素的由……组成，使得$\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r})$。由于 ad$_{\mathfrak{g}}\mathfrak{t}$ 由半单元素组成，$\mathfrak{g}$ 是 $[\mathfrak{t},\mathfrak{g}]$ 的直和以及 $\mathfrak{t}$ 的扶正器 $\mathfrak{z}$（第 I, §3, no. 5 章，第 6 条）。从$[\mathfrak{t},\mathfrak{g}]\subset \mathfrak{r},\mathfrak{g}=\mathfrak{z}+\mathfrak{r}$开始。因而，如果$\mathfrak{s}$是$\mathfrak{z}$的李维子代数（第I, §6章，第$8$）$,\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$，那么$\mathfrak{s}$是$\mathfrak{g}$的李维子代数。输入$\mathfrak{m}=\mathfrak{s}\oplus \mathfrak{t}$。由于$[\mathfrak{s},\mathfrak{t}] =\{0\},\mathfrak{m}$是$\mathfrak{g}$的谎言子代数，由第1章在$\mathfrak{g}\mathfrak{l}(V)$中还原。 I, §6, no. 5，周四。 4. 此外，
 
 $$
 \mathfrak{g}=\mathfrak{s}\oplus \mathfrak{r}=\mathfrak{s}\oplus \mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{r}) =\mathfrak{s}\oplus \mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{g}) =\mathfrak{m}\oplus \mathfrak{n}_V(\mathfrak{g})
@@ -235,15 +235,15 @@ $$
 
 从$\mathfrak{n}_V(\mathfrak{g}) =\mathfrak{n}_V(\mathfrak{r})$开始。因而(i)。
 
-现在让$\mathfrak{m}'$是$\mathfrak{g}$的谎言子代数与$\mathfrak{n}_V(\mathfrak{g})$互补并在$\mathfrak{g}\mathfrak{l}(V)$中还原。我们证明，在 Aut$_e(\mathfrak{g})$ 下，$\mathfrak{m}'$ 是共轭到 $\mathfrak{m}$。我们有$\mathfrak{m}'=\mathfrak{s}'\oplus \mathfrak{t}'$，其中$\mathfrak{s}'= [\mathfrak{m}',\mathfrak{m}']$是半单，$\mathfrak{m}'$的中心$\mathfrak{t}'$由半单元素组成。然后$\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{g}) =\mathfrak{t}'\oplus \mathfrak{n}_V(\mathfrak{g})$。鉴于科尔。根据第 6 条命题 2，我们被简化为情况$\mathfrak{t}=\mathfrak{t}'$。然后$\mathfrak{s}'\subset \mathfrak{z}$；由于dim$\mathfrak{s}'=$dim$\mathfrak{s}$，$\mathfrak{s}'$是$\mathfrak{z}$的Levi 子代数。由章。 I, §6, no. 8，周四。 5、存在$x\in \mathfrak{n}_V(\mathfrak{z})$使得$e^{adx}(\mathfrak{s}) =\mathfrak{s}'$；由于$x$与$\mathfrak{t}$通勤，我们还有$e^{adx}(\mathfrak{t}) =\mathfrak{t}$。
+现在让$\mathfrak{m}'$是$\mathfrak{g}$的谎言子代数与$\mathfrak{n}_V(\mathfrak{g})$互补并在$\mathfrak{g}\mathfrak{l}(V)$中还原。我们证明，在 Aut$_e(\mathfrak{g})$ 下，$\mathfrak{m}'$ 是共轭到 $\mathfrak{m}$。我们有$\mathfrak{m}'=\mathfrak{s}'\oplus \mathfrak{t}'$，其中$\mathfrak{s}'= [\mathfrak{m}',\mathfrak{m}']$是半单，而$\mathfrak{m}'$的中心$\mathfrak{t}'$由半单元素组成。然后$\mathfrak{r}=\mathfrak{t}\oplus \mathfrak{n}_V(\mathfrak{g}) =\mathfrak{t}'\oplus \mathfrak{n}_V(\mathfrak{g})$。鉴于科尔。根据第 6 条命题 2，我们被简化为情况$\mathfrak{t}=\mathfrak{t}'$。然后$\mathfrak{s}'\subset \mathfrak{z}$；由于dim$\mathfrak{s}'=$dim$\mathfrak{s}$，$\mathfrak{s}'$是$\mathfrak{z}$的Levi 子代数。由章。 I, §6, no. 8，周四。 5、存在$x\in \mathfrak{n}_V(\mathfrak{z})$使得$e^{adx}(\mathfrak{s}) =\mathfrak{s}'$；由于$x$与$\mathfrak{t}$通勤，我们还有$e^{adx}(\mathfrak{t}) =\mathfrak{t}$。
 
-### 4. 线性李代数幂零自同态
+### 4. 线性李代数 / 幂零自同态
 
 #### 引理 1 {#lie-vii-s5-lem-1 .statement tag=00WZ}
 
-令 $\mathfrak{n}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 由……组成幂零自同态的谎言子代数，以及 $\mathbf{G}\mathbf{L}(V) ($§3, no. 1、引理 1 的 N 子群 exp$\mathfrak{n}$。
+令$\mathfrak{n}$为$\mathfrak{g}\mathfrak{l}(V)$由……组成的幂零自同态的谎言子代数，以及$\mathbf{G}\mathbf{L}(V) ($§3, no. 1、引理的N个子群exp$\mathfrak{n}$，引理1)。
 
-(i) 设$\rho$为W上$\mathfrak{n}$的有限维线性表示，使得$\rho (\mathfrak{n})$的元素幂零，W的$W'$向量子空间在$\rho ,\rho_1$和$\rho_2$下稳定子表示和由 N 的 $W',\pi , \pi_1, \pi_2$ 表示定义的 $\rho$ 的商表示与 $\rho , \rho_1, \rho_2($§3, no. 1 相容的）。那么$\pi_1, \pi_2$就是子表示和$W'$定义的$\pi$的商表示。
+(i) 设$\rho$为W上$\mathfrak{n}$的有限维线性表示，使得$\rho (\mathfrak{n})$的元素幂零，W的$W'$向量子空间在$\rho ,\rho_1$和$\rho_2$下稳定$\rho$的子表示和商表示由N的$W',\pi , \pi_1, \pi_2$表示定义，与$\rho , \rho_1, \rho_2($§3, no. 1兼容）。那么$\pi_1, \pi_2$就是由$W'$定义的$\pi$的子表示和商表示。
 
 (ii) 令$\rho_1, \rho_2$为$\mathfrak{n}$的有限维线性表示，使得$\rho_1(\mathfrak{n})$和$\rho_2(\mathfrak{n})$的元素幂零，并且N的$\pi_1, \pi_2$表示与$\rho_1, \rho_2$相容的。那么$\pi_1\otimes \pi_2$是N中与$\rho_1\otimes \rho_2$兼容的表示。
 
@@ -399,7 +399,7 @@ $$
 \mathfrak{n}=\{x\in \mathfrak{g}\mathfrak{l}(V)|\rho (x)(F) = 0\} \tag{9}
 $$
 
-### 5. 刻画可分解李代数
+### 5. 刻画 / 可分解李代数
 
 每个可分解李代数都由其元素的集合生成为向量空间（更不必说生成为李代数），元素要么是半单，要么是幂零的。反之：
 
@@ -413,15 +413,15 @@ a$)\mathfrak{g}$ 是可交换的。
 
 b$)\mathfrak{g}$ 是还原性的。
 
-然后$\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$与$\mathfrak{g}'$半单和$\mathfrak{c}$可交换。根据命题 $2,\mathfrak{g}'$ 是可分解的。让 $x=a+b\in \mathfrak{g}$ 与 $a\in \mathfrak{g}',b\in \mathfrak{c}$。令$a_s, a_n, b_s, b_n$为半单以及$a, b$的幂零分量。由于$a_s, a_n, b_s, b_n$相互可交换，半单和$x$的幂零分量为$a_s+b_s, a_n+b_n$。现在$a_s, a_n\in \mathfrak{g}'$。若$x$为半单，则$x=a_s+b_s$；从$a_s\in \mathfrak{g}'$开始，我们有$b_s\in \mathfrak{g}$，所以$b_s\in \mathfrak{c}$从$b_s$开始与$\mathfrak{g}$通勤；因而，$a=a_s$和$b=b_s$。类似地，如果 $x$ 幂零，则 $a=a_n$ 和 $b=b_n$。由此可见，X的元素的$\mathfrak{c}$上的投影要么是半单，要么是幂零的；由 a) 可知 $\mathfrak{c}$ 是可分解的。保留前面的记号，但在$x$上没有假设，我们现在有$b_s, b_n\in \mathfrak{c}$，所以$a_s+b_s, a_n+b_n\in \mathfrak{g}$，在这种情况下证明了定理。
+然后$\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$与$\mathfrak{g}'$半单和$\mathfrak{c}$可交换。根据命题 $2,\mathfrak{g}'$ 是可分解的。让 $x=a+b\in \mathfrak{g}$ 与 $a\in \mathfrak{g}',b\in \mathfrak{c}$。令$a_s, a_n, b_s, b_n$为半单且$a, b$幂零分量。由于$a_s, a_n, b_s, b_n$相互可交换，$x$的半单和幂零分量是$a_s+b_s, a_n+b_n$。现在$a_s, a_n\in \mathfrak{g}'$。若$x$为半单，则$x=a_s+b_s$；从$a_s\in \mathfrak{g}'$开始，我们有$b_s\in \mathfrak{g}$，所以$b_s\in \mathfrak{c}$从$b_s$开始与$\mathfrak{g}$通勤；因而，$a=a_s$和$b=b_s$。类似地，如果 $x$ 幂零，则 $a=a_n$ 和 $b=b_n$。由此可见，X的元素的$\mathfrak{c}$上的投影要么是半单，要么是幂零的；由 a) 可知 $\mathfrak{c}$ 是可分解的。保留前面的记号，但在$x$上没有假设，我们现在有$b_s, b_n\in \mathfrak{c}$，所以$a_s+b_s, a_n+b_n\in \mathfrak{g}$，在这种情况下证明了定理。
 
 c) 一般情况。
 
 我们假设定理被证明为维数$<$暗淡$\mathfrak{g}$的李代数，并证明$\mathfrak{g}$。
 
-设$\mathfrak{n}$为$\mathfrak{g}$恒等式表示的幂零理想最大的。如果 $\mathfrak{n}= 0,\mathfrak{g}$ 具有单射半单表示，则可还原。假设$\mathfrak{n}\not= 0$。令 $\mathfrak{p}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 中 $\mathfrak{n}$ 的归一化器。命题 8 存在$E, \rho ,F$ 满足条件。由于 $\mathfrak{g}\subset \mathfrak{p},\rho (\mathfrak{g})$ 使 F 保持稳定；令F上的$\rho_0$为$\mathfrak{g}$的表示$u \rightarrow \rho (u)|F$；我们有$\mathfrak{n}=$ Ker$\rho_0$。 $\mathfrak{g}\mathfrak{l}(V)$的每个半单（或幂零）元素在$\rho$下的像是半单（或幂幂）（命题2）。因而，代数$\rho_0(\mathfrak{g})$是由其半单元素及其幂零元生成的。到归纳假设时，$\rho_0(\mathfrak{g})$ 可分解。
+设$\mathfrak{n}$为$\mathfrak{g}$恒等式表示的幂零理想最大的。如果 $\mathfrak{n}= 0,\mathfrak{g}$ 有一个单射半单表示，所以是还原的。假设$\mathfrak{n}\not= 0$。令 $\mathfrak{p}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 中 $\mathfrak{n}$ 的归一化器。命题 8 存在$E, \rho ,F$ 满足条件。由于 $\mathfrak{g}\subset \mathfrak{p},\rho (\mathfrak{g})$ 使 F 保持稳定；令F上的$\rho_0$为$\mathfrak{g}$的表示$u \rightarrow \rho (u)|F$；我们有$\mathfrak{n}=$ Ker$\rho_0$。 $\mathfrak{g}\mathfrak{l}(V)$的每个半单（或幂零）元素在$\rho$下的像是半单（或幂幂）（命题2）。因而，代数$\rho_0(\mathfrak{g})$是由其半单元素及其幂零元生成的。到归纳假设时，$\rho_0(\mathfrak{g})$ 可分解。
 
-设$x\in \mathfrak{g}$，并令$x_s, x_n$为其半单和幂零分量。根据命题 2，半单和 $\rho (x)$ 的幂零分量为 $\rho (x_s), \rho (x_n)$。由于 $\rho_0(\mathfrak{g})$ 可分解，因此存在 $y, z\in \mathfrak{g}$ 使得
+设$x\in \mathfrak{g}$，并令$x_s, x_n$为其半单和幂零分量。根据命题 2，$\rho (x)$ 的半单和幂零分量为 $\rho (x_s), \rho (x_n)$。由于 $\rho_0(\mathfrak{g})$ 可分解，因此存在 $y, z\in \mathfrak{g}$ 使得
 
 $$
 \rho_0(y) =\rho (x_s)|F, \rho_0(z) =\rho (x_n)|F
@@ -431,7 +431,7 @@ $$
 
 #### 推论 1 {#lie-vii-s5-thm-1-cor-1 .statement tag=00X2}
 
-由其可分解的子代数生成的$\mathfrak{g}\mathfrak{l}(V)$的每个子代数都是可分解的。
+由其可分解的子代数生成的$\mathfrak{g}\mathfrak{l}(V)$中的每个子代数都是可分解的。
 
 这很清楚。
 
@@ -439,7 +439,7 @@ $$
 
 设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。那么$[\mathfrak{g},\mathfrak{g}]$是可分解的。
 
-令$\mathfrak{r}$为$\mathfrak{g},\mathfrak{s}$的根式$\mathfrak{g}$的列维子代数（第I, §6, no. 8章）。然后
+令$\mathfrak{r}$为$\mathfrak{g},\mathfrak{s}$的根基，以及$\mathfrak{g}$的列维子代数（第I, §6, no. 8章）。然后
 
 $$
 [\mathfrak{g},\mathfrak{g}] = [\mathfrak{s},\mathfrak{s}] + [\mathfrak{s},\mathfrak{r}] + [\mathfrak{r},\mathfrak{r}] =\mathfrak{s}+ [\mathfrak{g},\mathfrak{r}]
@@ -451,29 +451,29 @@ $$
 
 令$\mathfrak{g}$为$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数，并令X为$\mathfrak{g}$生成的$\mathfrak{g}($作为李代数超过k)的子集。
 
-(i) $\mathfrak{g}$的可分解包络$e(\mathfrak{g})$由半单和X的元素的幂零分量生成。
+(i) $\mathfrak{g}$的可分解包络$e(\mathfrak{g})$由半单和X的元素幂零分量生成。
 
 (ii) 如果$k'$是$k,e(\mathfrak{g}\otimes_kk') =e(\mathfrak{g})\otimes_kk'$中的扩张；并且$\mathfrak{g}$可分解当且仅当$\mathfrak{g}\otimes_kk'$可分解。
 
-令$\widetilde{\mathfrak{g}}$为半单生成的$\mathfrak{g}\mathfrak{l}(V)$的子代数以及X的元素的幂零分量。然后$\mathfrak{g}\subset \widetilde{\mathfrak{g}}\subset e(\mathfrak{g})$；通过 Th。 $1, \widetilde{\mathfrak{g}}$ 可分解，所以$\widetilde{\mathfrak{g}}=e(\mathfrak{g})$，证明(i)。 断言 (ii) 如下，因为 X 生成 $k'$-代数 $\mathfrak{g}\otimes_kk'$。
+令$\widetilde{\mathfrak{g}}$为由半单生成的$\mathfrak{g}\mathfrak{l}(V)$的子代数和X的元素的幂零分量。然后$\mathfrak{g}\subset \widetilde{\mathfrak{g}}\subset e(\mathfrak{g})$；通过 Th。 $1, \widetilde{\mathfrak{g}}$可分解，所以$\widetilde{\mathfrak{g}}=e(\mathfrak{g})$，证明(i)。 断言 (ii) 如下，因为 X 生成 $k'$-代数 $\mathfrak{g}\otimes_kk'$。
 
 #### 推论 4 {#lie-vii-s5-thm-1-cor-4 .statement tag=00X5}
 
-令 $\mathfrak{g}$ 为 $\mathfrak{g}\mathfrak{l}(V)$ 的可分解谎言子代数。令$\mathscr{T}$为半单元素$\mathfrak{g}$由……组成交换子代数集合（cf.命题6）。 $\mathscr{T}$中的极大元素都有相同的维数。
+令$\mathfrak{g}$为$\mathfrak{g}\mathfrak{l}(V)$的可分解谎言子代数。令$\mathscr{T}$为半单元素的$\mathfrak{g}$由……组成交换子代数集合（cf.命题6）。 $\mathscr{T}$中的极大元素都有相同的维数。
 
-设$k'$为$k$和$V'= V\otimes_kk',\mathfrak{g}'=$$\mathfrak{g}\otimes_kk'$的代数闭扩张。设$\mathfrak{t}_1,\mathfrak{t}_2$为$\mathscr{T},\mathfrak{t}'_i=\mathfrak{t}_i\otimes_kk',\mathfrak{h}_i$的极大元素，$\mathfrak{t}_i$在$\mathfrak{g},\mathfrak{h}'_i=\mathfrak{h}_i\otimes_kk'$的交换子。那么$\mathfrak{h}_i$是$\mathfrak{g}$的嘉当子代数（命题6），所以$\mathfrak{h}'_i$是$\mathfrak{g}'$的嘉当子代数。然后$\mathfrak{h}_i=\mathfrak{t}_i\times \mathfrak{n}_V(\mathfrak{h}_i)$，因此$\mathfrak{h}'_i=\mathfrak{t}'_i\times \mathfrak{n}_{V'}(\mathfrak{h}'_i)$，因此$\mathfrak{t}'_i$是半单元素$\mathfrak{h}'_i$的集合。由于$\mathfrak{g}'$是可分解的（Cor.$3$）$,\mathfrak{t}'_1$和$\mathfrak{t}'_2$在Aut$_e(\mathfrak{g}')$（第6条）下是共轭，所以dim$\mathfrak{t}_1=$dim$\mathfrak{t}_2$。
+设$k'$为$k$和$V'= V\otimes_kk',\mathfrak{g}'=$$\mathfrak{g}\otimes_kk'$的代数闭扩张。 令$\mathfrak{t}_1,\mathfrak{t}_2$为$\mathfrak{g},\mathfrak{h}'_i=\mathfrak{h}_i\otimes_kk'$中$\mathscr{T},\mathfrak{t}'_i=\mathfrak{t}_i\otimes_kk',\mathfrak{h}_i$交换子之$\mathfrak{t}_i$之极大元素。 那么$\mathfrak{h}_i$是$\mathfrak{g}$的嘉当子代数（命题6），所以$\mathfrak{h}'_i$是$\mathfrak{g}'$的嘉当子代数。 然后$\mathfrak{h}_i=\mathfrak{t}_i\times \mathfrak{n}_V(\mathfrak{h}_i)$，因此$\mathfrak{h}'_i=\mathfrak{t}'_i\times \mathfrak{n}_{V'}(\mathfrak{h}'_i)$，因此$\mathfrak{t}'_i$是半单元素$\mathfrak{h}'_i$的集合。 由于$\mathfrak{g}'$是可分解的（Cor.$3$）$,\mathfrak{t}'_1$和$\mathfrak{t}'_2$在Aut$_e(\mathfrak{g}')$（第6条命题）下是共轭，所以dim$\mathfrak{t}_1=$dim$\mathfrak{t}_2$。
 
 #### 定理 2 {#lie-vii-s5-thm-2 .statement tag=00X6}
 
-设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。以下条件是等效的：
+设$\mathfrak{g}$是$\mathfrak{g}\mathfrak{l}(V)$的谎言子代数。以下条件是等价的：
 
 (i) $\mathfrak{g}$ 可分解；
 
-(ii) $\mathfrak{g}$中的每一个嘉当子代数都是可分解的；
+(ii) $\mathfrak{g}$ 中的每个嘉当子代数都是可分解的；
 
-(iii) $\mathfrak{g}$ 可分解嘉当子代数；
+(iii) $\mathfrak{g}$ 具有可分解的嘉当子代数；
 
-(iv) 部首$\mathfrak{g}$可分解。
+(iv) $\mathfrak{g}$ 的根基可分解。
 
 (i) $=\Rightarrow$ (ii)：这源自 Cor.提案 3 中的第 2 条。
 
@@ -481,11 +481,11 @@ $$
 
 (ii) $=\Rightarrow$ (iii)：这很清楚。
 
-(iii) $=\Rightarrow$ (ii)：Cor. 3 Th。 1，我们可以假设$k$是代数封闭的。 $\mathfrak{g}$ 的嘉当子代数那么共轭在$\mathfrak{g}($§3, no. 2 的初等自同构下，Th。 1）；鉴于 §3, no. 1 的注 1，可以得出结论，如果其中之一是可分解的，那么它们都是可分解的。
+(iii) $=\Rightarrow$ (ii)：Cor. 3 Th。 1，我们可以假设$k$是代数封闭的。 $\mathfrak{g}$的嘉当子代数则在$\mathfrak{g}($§3, no. 2的初等自同构下是共轭，Th。 1）；鉴于注 1 of §3, no. 1，可以得出结论，如果其中之一是可分解的，那么它们都是可分解的。
 
 (i) $=\Rightarrow$ (iv)：这源自 Cor.提案 4 中的第 2 条。
 
-(iv) $=\Rightarrow$ (i)：假设$\mathfrak{g}$的部首$\mathfrak{r}$可分解。令$\mathfrak{s}$为$\mathfrak{g}$的列维子代数；它是可分解的（命题 2）。因此$\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$是可分解的（Th.1的Cor.1）。
+(iv) $=\Rightarrow$ (i)：假设$\mathfrak{g}$中的根基$\mathfrak{r}$可分解。令$\mathfrak{s}$为$\mathfrak{g}$的列维子代数；它是可分解的（命题 2）。因此$\mathfrak{g}=\mathfrak{s}+\mathfrak{r}$是可分解的（Th.1的Cor.1）。
 
 ### 习题 {#lie-vii-s5-exercises}
 

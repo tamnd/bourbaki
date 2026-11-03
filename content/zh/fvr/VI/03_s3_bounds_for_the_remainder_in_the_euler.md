@@ -21,23 +21,23 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: b329f9f9e068a5f6c0396dc0017494582fb6f1c540ebc193375e1774f55c9523
+content_sha256: ab6a93ee740e4b12cc5d278beaa1b902ad87e6edd56914de2ec1509c367f19d3
 translated_from: content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md
 translation_method: google
 source_content_sha256: 0df8d05b12ca6ce3b68cbd660e6b590830aa5e44eda3d489241375154aaa1723
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 93fdb5a4c483a9289a83df8c8f061b213407d5bf942d9a9a853ea5815fe8c84c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。欧拉-麦克劳林求和公式中余数的界限
 
 ### 1. 欧拉-麦克劳林求和公式中余数的界限
 
-(16) 中获得的伯努利多项式在区间 $[0, 1]$ 上的估计允许人们轻松估计欧拉-麦克劳林求和公式 (VI, p. 282, 公式 (39)) 中的余数 $T_p(x, n)$：
+(16) 中对区间 $[0, 1]$ 的伯努利多项式获得的估计允许人们轻松估计欧拉-麦克劳林求和公式 (VI, p. 282, 公式 (39)) 中的余数 $T_p(x, n)$：
 
 $$
 \left\{
@@ -55,7 +55,7 @@ $$
 T_p(x, n) = -\frac{1}{(2p+1)!} \int_0^{n+1} \overline{B}_{2p+1}(1-s) f^{(2p+1)}(x+s)\,ds
 $$
 
-其中 $\overline{B}_{2p+1}(t)$ 是周期 1 的周期函数，等于间隔 $[0, 1[$ 上的$B_{2p+1}(t)$。 VI、p. 288 的公式 (16) 表明
+其中$\overline{B}_{2p+1}(t)$是周期1的周期函数等于区间$[0, 1[$上的$B_{2p+1}(t)$。 VI、p. 288 的公式 (16) 表明
 
 $$
 |\overline{B}_{2p+1}(t)| \leq 4e^{2\pi} \frac{(2p+1)!}{(2\pi)^{2p+1}}
@@ -71,7 +71,7 @@ $$
 
 对于$T_p(x, n)$。
 
-### 2. 渐近展开的应用
+### 2. 应用于渐近展开
 
 欧拉-麦克劳林公式允许人们给出更完整的解（在最重要的情况下）到V，p. 238到242中处理的问题，即获得部分和$s_n = \sum_{m=0}^n g(m)$（分别是余数）的渐近展开 $r_n = \sum_{m=n+1}^\infty g(m)$)，其中$g$是标量函数、$> 0$，单调，在$[0, +\infty[$上定义。
 

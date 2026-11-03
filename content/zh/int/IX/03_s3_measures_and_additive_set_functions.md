@@ -25,16 +25,16 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: ef8b17fed85963e3c3937dac3e70937c5afc7a1c193a6d198fd9e27ba51df111
+content_sha256: 9ab1a2dbbc3ef7984fa0f363c005015b133b79411e552907e0ea812b8d5eb031
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
 translation_method: google
 source_content_sha256: b7143e1dccb4a50f4c6430b942b6320cab29a534320ec6405180a553d32e45d9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6c167e22c1c6e6747868ff3110974dc12f1ade0ed2485c1f5d1b1ae356c502cb
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。措施和加法集合函数
@@ -132,9 +132,9 @@ $\varepsilon$是任意的，需要的不等式得证，当$T$紧致时，定理�
 
 #### 注 1 {#int-ix-s3-n1-rem-1 .statement tag=09PP}
 
-The condition 4) may be replaced, in the statement of Theorem 1, by the following condition ('right-continuity'):
-$4')$ For every $K \in \mathscr{K}(T)$ and every $\varepsilon > 0$, there exists an open set $U$ containing $K$, such that $I(H) \leq I(K) + \varepsilon$ for every compact set $H \subset U$.
-For, if $\mu$ is a measure, the function $I : K \mapsto \mu^*(K)$ satisfies $4'$ (§ 1, No. 9, Prop. 13). 反之，假设$I$满足1)和$4'$；让我们证明 $I$ 则满足 4)。 对于记号，如定理 1 的叙述、选择、$\varepsilon > 0$ 和开集合 $U$ 包含紧集 $K = \bigcap_{\alpha \in A} K_\alpha$，并且满足$4'$）。 那么存在指标$\beta \in A$使得$K_\beta \subset U$，这意味着
+在定理 1 的陈述中，条件 4) 可以用以下条件（“右连续性”）代替：
+$4')$ 对于每个$K \in \mathscr{K}(T)$ 和每个$\varepsilon > 0$，都存在一个包含$K$ 的开集$U$，这样对于每个紧集$H \subset U$ 都有$I(H) \leq I(K) + \varepsilon$。
+因为，如果 $\mu$ 是一个测度，则函数 $I : K \mapsto \mu^*(K)$ 满足 $4'$（§ 1, No. 9，命题 13）。 反之，假设$I$满足1)和$4'$；让我们证明 $I$ 则满足 4)。 对于记号，如定理 1 的叙述、选择、$\varepsilon > 0$ 和开集合 $U$ 包含紧集 $K = \bigcap_{\alpha \in A} K_\alpha$，并且满足$4'$）。 那么存在指标$\beta \in A$使得$K_\beta \subset U$，这意味着
 $$
 \inf_{\alpha \in A} I(K_\alpha) \leq I(K_\beta) \leq I(K) + \varepsilon
 $$
@@ -194,7 +194,7 @@ $$
 
 #### 注 5 {#int-ix-s3-n2-rem-5 .statement tag=09PW}
 
-可以证明，如果I是可加的，即有限序列满足(4)，并且如果I是内部正则，则I是可数可加的（例7）。读者还可以确定，Th 的证明中仅使用了可加性和内部正则性。 2 下面。
+可以证明，如果 I 是可加性的，即有限序列满足 (4)，并且如果 I 是内部正则，则 I 是可数可加性的（例 7）。读者还可以确定，Th 的证明中仅使用了可加性和内部正则性。 2 下面。
 
 #### 定理 2 {#int-ix-s3-thm-2 .statement tag=09PX}
 
@@ -212,7 +212,7 @@ $$
 
 *设 T 为拓扑空间。有人说 T 是氡气（或强氡气）空间，如果 T 是 Hausdorff，并且如果在 T 的 Borel 族$\mathscr{B}(T)$ 上定义的每个函数，其中值在 $\overline{\mathbf{R}}_+$，则可数加性且有界（或局部有界）是内部正则。
 
-对于例，我们稍后将看到（命题3），每个波兰空间都是强氡气。特别是，每个具有可数基的局部紧致空间都是强氡气。
+例如，我们稍后将看到（命题 3），每个波兰语空间都是强氡气。特别是，每个具有可数基的局部紧致空间都是强氡气。
 
 存在非强氡气的氡气空间。
 
@@ -264,7 +264,7 @@ $$
 
 让我们转到b)。假设$X$是氡气空间，并且$T$在$X$中普遍可测。令 $I$ 为 $\mathscr{B}(T)$ 上的正函数，它是可数可加且有界的； 函数 $A \mapsto I(A \cap T)$ 在 $\mathscr{B}(X)$ 上则为正数、可数加法且有界，因此在 $X$ 上存在有界测度 $\nu$，使得 $I(A \cap T) = \nu^*(A)$ 对于所有 $A \in \mathscr{B}(X)$。现在，$T$是$\nu$可测量的；前面的关系表明，对于$X$的每个紧凑子集$K$，$\nu^*(K) = 0$是$T$的不相交的，因而$\nu$集中在$T$。因而，对于 $X$ 的每个 Borel 集合 $A$，我们都有 $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$，其中 $\mu$ 是$\nu$ 在 $T$ 上引起的测度。最后，$I(B) = \mu^*(B)$对于每个集合$B \in \mathscr{B}(T)$（GT，IX, §6, No. 3，*注2*），并且$I$确实是内部正则。
 
-#### 推论{#int-ix-s3-n3-cor-1 .statement tag=09Q1}
+#### 推论 {#int-ix-s3-n3-cor-1 .statement tag=09Q1}
 
 — *如果 $X$ 是氡气空间，则 $X$ 的每个 Borel 子集 $T$ 都是氡气。*
 
@@ -272,7 +272,7 @@ $$
 
 #### 命题 3 {#int-ix-s3-prop-3 .statement tag=09Q2}
 
-— *每个 Souslin 空间（特别是每个波兰或 Lusin 空间）都有很强的氡气。*
+— *每个 Souslin 空间（特别是每个波兰或 Lusin 空间）都具有很强的氡气。*
 
 令$T$为苏斯林空间；由于 $T$ 是 Lindelöf 空间（TG，IX，附录 I，命题 1 的 Cor.），(2) 足以证明 $T$ 是氡气（命题 1）。设 $I$ 是在 $\mathscr{B}(T)$ 上定义的函数，正数、可加性且有界。我们将扩展 $I$ $\mathscr{P}(T)$ 设定子集 $A$ $T$，
 

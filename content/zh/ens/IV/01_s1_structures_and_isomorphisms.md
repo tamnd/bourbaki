@@ -42,16 +42,16 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: 1be9f1e9df7b41d76930aecf9759ae43ea27e9fe188acd803029327b63ea46d5
+content_sha256: fd1e706c7a509b4cf2d669cefd2f93dd46f979aca990a9cde9c3bf6c095ac3ce
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 translation_method: google
 source_content_sha256: 0afa8f8b2eeacc6c331a25088f06579b838538c263fddf5f044dbaa9e0fb2b95
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 23684532a46876882160f1d5bd1b5ac13409f6ce3cfc2f5563c36160cb97faa6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. 结构和同构
@@ -67,13 +67,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 这些条件意味着$c_1 = (0,\ b_1)$，还有$b_1 > 0$。如果$n$是出现在对$(0,\ b_i)$中的整数$b_i$中的最大的，则$c_1, c_2, ..., c_m$被称为构造概形*在$n$上项*。
 
-给定 $n$ 项上的梯队构造概形 $\mathrm{S} = (c_1,\ c_2,\ \ldots,\ c_m)$，并在理论 $\mathscr{T}$ 中给出 $n$ 项 $\mathrm{E}_1$、$\mathrm{E}_2$、...、$\mathrm{E}_n$，即强于集合论，概形* $\mathrm{S}$ *on* $\mathrm{E}_1$, ..., $\mathrm{E}_n$ 的*梯队构造被定义为序列 $\mathrm{A}_1$, $\mathrm{A}_2$, ..., $\mathrm{A}_m$ $\mathscr{T}$理论中的$m$项，由以下条件逐步定义：
+给定 $n$ 项上的梯队构造概形 $\mathrm{S} = (c_1,\ c_2,\ \ldots,\ c_m)$，并在理论上给定 $n$ 项 $\mathrm{E}_1$、$\mathrm{E}_2$、...、$\mathrm{E}_n$ $\mathscr{T}$ 比集合论更强，概形* $\mathrm{S}$ *on* $\mathrm{E}_1$, ..., $\mathrm{E}_n$ 的*梯队构造定义为序列 $\mathrm{A}_1$, $\mathrm{A}_2$, ..., 理论 $\mathscr{T}$ 中的 $m$ 项的$\mathrm{A}_m$，由以下条件逐步定义：
 
 (a)若$c_i = (0,\ b_i)$，则$\mathrm{A}_i$为项$\mathrm{E}_{b_i}$。
 (b)若$c_i = (a_i,\ 0)$，则$\mathrm{A}_i$为项$\mathfrak{P}(\mathrm{A}_{a_i})$。
 (c)若$c_i = (a_i,\ b_i)$，其中$a_i \neq 0$和$b_i \neq 0$，则$\mathrm{A}_i$为项$\mathrm{A}_{a_i} \times \mathrm{A}_{b_i}$。
 
-$\mathrm{E}_1$、...、$\mathrm{E}_n$ 上概形 S 的梯队构造的最后一个项 $\mathrm{A}_m$ 称为基集合* 上的概形* S * 梯队$\mathrm{E}_1$，...，$\mathrm{E}_n$；在随后的一般论证中，它将被表示为记号$\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n)$。
+$\mathrm{E}_1$、...、$\mathrm{E}_n$ 上概形 S 的梯队构造的最后一个项 $\mathrm{A}_m$ 称为基集合* 上概形* S 的*梯队$\mathrm{E}_1$，...，$\mathrm{E}_n$；在随后的一般论证中，它将被表示为记号$\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n)$。
 
 #### 例 {#ens-iv-s1-n1-exa-1 .statement tag=03V4}
 
@@ -87,7 +87,7 @@ $$(0, 2), \quad (0, 1), \quad (1, 0), \quad (2, 0), \quad (4, 0), \quad (5, 3).$
 
 因此，不同的概形可能会在相同的项上产生相同的梯队。
 
-### 2. 典范扩张映射
+### 2. 典范扩张 / 映射
 
 设$\mathrm{S} = (c_1, c_2, \ldots, c_m)$为$n$项上的梯队构造概形。 令 $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ 为集合（$\mathscr{T}$ 中的项），并令 $f_1$, ..., $f_n$ 为 $\mathscr{T}$ 中的项，使得关系“$f_i$是$\mathrm{E}_i$的映射到$\mathrm{E}'_i$”对于$1 \leqslant i \leqslant n$来说是$\mathscr{T}$中的定理。 令$\mathrm{A}_1$，...，$\mathrm{A}_m$（分别为$\mathrm{A}'_1$，...，$\mathrm{A}'_m$）为$\mathrm{E}_1$，...，$\mathrm{E}_n$（分别为$\mathrm{E}'_1$，...，$\mathrm{E}'_n$）上概形 S 的梯队构造。 我们一步步对$m$项$g_1$，...，$g_m$进行定义序列，使得$g_i$是*$\mathrm{A}_i$*进入*$\mathrm{A}'_i$（对于$1 \leqslant i \leqslant m$）的*映射，如下所示条件：
 
@@ -121,7 +121,7 @@ $$(\langle f_1, \ldots, f_n \rangle^{\mathrm{S}})^{-1} = \langle f_1^{-1}, \ldot
 
 ### 3. 可运输关系
 
-令$\mathscr{T}$为比集合论更强的理论，令$x_1, \ldots, x_n$、$s_1, \ldots, s_p$为与$\mathscr{T}$常数不同的不同字母，并令$\mathrm{A}_1, \ldots, \mathrm{A}_m$为$\mathscr{T}$中的项，其中没有字母$x_i$ $(1 \leqslant i \leqslant n)$ 和 $s_j$ $(1 \leqslant j \leqslant p)$ 出现。令$\mathrm{S}_1, \ldots, \mathrm{S}_p$为$n + m$项上的构造概形梯队。然后关系$\mathrm{T}\{x_1, \ldots, x_n, s_1, \ldots, s_p\}$：
+令$\mathscr{T}$为比集合论强的理论，令$x_1, \ldots, x_n$、$s_1, \ldots, s_p$为与$\mathscr{T}$常数不同的不同字母，并令$\mathrm{A}_1, \ldots, \mathrm{A}_m$为$\mathscr{T}$中的项，其中没有字母$x_i$ $(1 \leqslant i \leqslant n)$ 和 $s_j$ $(1 \leqslant j \leqslant p)$ 出现。令$\mathrm{S}_1, \ldots, \mathrm{S}_p$为$n + m$项上的构造概形梯队。然后关系$\mathrm{T}\{x_1, \ldots, x_n, s_1, \ldots, s_p\}$：
 
 “$s_1 \in \mathrm{S}_1(x_1, \ldots, x_n, \mathrm{A}_1, \ldots, \mathrm{A}_m)$、$s_2 \in \mathrm{S}_2(x_1, \ldots, x_n, \mathrm{A}_1, \ldots, \mathrm{A}_m)$、$\ldots$、$s_p \in \mathrm{S}_p(x_1, \ldots, x_n, \mathrm{A}_1, \ldots, \mathrm{A}_m)$”
 
@@ -139,11 +139,11 @@ $$(3) \qquad s'_j = \langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}
 
 在没有辅助集合的情况下，还有一个类似但更简单的定义。
 
-对于例，如果$n = p = 2$并且如果典型化T是“$s_1 \in x_1$和$s_2 \in x_1$”，则关系$s_1 = s_2$是可传输的。另一方面，关系$x_1 = x_2$不可运输。
+例如，如果$n = p = 2$并且如果典型化T是“$s_1 \in x_1$和$s_2 \in x_1$”，则关系$s_1 = s_2$是可传输的。另一方面，关系$x_1 = x_2$不可运输。
 
 ### 4. 结构种
 
-令$\mathscr{T}$为比集合论更强的理论。 *$\mathscr{T}$中的*结构种*是由以下组合组成的文本$\Sigma$：
+令$\mathscr{T}$为理论，它比集合论强。 *$\mathscr{T}$中的*结构种*是由以下组合组成的文本$\Sigma$：
 
 (1) 某个数字母$x_1, \ldots, x_n, s$，彼此不同且与$\mathscr{T}$常数不同； $x_1, \ldots, x_n$称为结构种$\Sigma$的*本色基集合*；
 
@@ -157,15 +157,15 @@ $$s \in \mathrm{S}(x_1, \ldots, x_n, \mathrm{A}_1, \ldots, \mathrm{A}_m),$$
 
 (4) 关系 $\mathrm{R}\{x_1, \ldots, x_n, s\}$ 相对于典型 T 来说是*可移动的*（在 $\mathscr{T}$ 中），$x_i$ 是主基集合，$\mathrm{A}_h$ 是辅助基集合 （no. 3）； R 称为结构种 $\Sigma$ 的*公理*。
 
-理论$\mathscr{T}_\Sigma$与$\mathscr{T}$具有相同的公理概形，并且其显式公理是$\mathscr{T}$的公理，与公理“T和R”一起被称为*结构种*$\Sigma$理论。因此，$\mathscr{T}_\Sigma$的常数是$\mathscr{T}$的常数以及T或R中出现的字母。
+理论$\mathscr{T}_\Sigma$与$\mathscr{T}$具有相同的公理概形，并且其显式公理是$\mathscr{T}$的公理，与公理“T和R”一起称为结构种*$\Sigma$的*理论。因此，$\mathscr{T}_\Sigma$的常数是$\mathscr{T}$的常数以及T或R中出现的字母。
 
-¶ 设$\mathscr{T}'$为比$\mathscr{T}$更强的理论，并令$\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}$为$\mathscr{T}'$中的项。在$\mathscr{T}'$理论中，U被认为是类*$\Sigma$*在主体基集合*$\mathrm{E}_1, \ldots, \mathrm{E}_n$上的*结构，*以*$\mathrm{A}_1, \ldots, \mathrm{A}_m$*作为辅助基集合*，如果关系
+¶ 令$\mathscr{T}'$为理论，其强于$\mathscr{T}$，并令$\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}$为$\mathscr{T}'$中的项。在理论$\mathscr{T}'$中，U据说是类*$\Sigma$*的*结构*在主体基集合*$\mathrm{E}_1, \ldots, \mathrm{E}_n$，*与*$\mathrm{A}_1, \ldots, \mathrm{A}_m$*作为辅助基集合*，如果关系
 
 $$\text{"}\mathrm{T}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}\} \text{ and } \mathrm{R}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}\}\text{"}$$
 
 是*$\mathscr{T}'$中的*定理。如果是这样，那么对于理论$\mathscr{T}_\Sigma$关系$\mathrm{B}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}\}$中的每个定理$\mathrm{B}\{x_1, \ldots, x_n, s\}$来说，都是*$\mathscr{T}'$中的*定理（章I, § 2, no. 3）。在$\mathscr{T}_\Sigma$中，常数$s$称为类* $\Sigma$的*泛型结构。
 
-¶ 在理论 $\mathscr{T}'$ 中，本金基集合 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ 被认为是 * 赋予结构* $\mathrm{U}$。显然，$\mathrm{U}$ 是元素 / 集合
+¶ 在理论 $\mathscr{T}'$ 中，校长基集合 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ 据说*被赋予结构* $\mathrm{U}$。显然，$\mathrm{U}$ 是元素 / 集合
 
 $$\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{A}_1, \ldots, \mathrm{A}_m).$$
 
@@ -175,15 +175,15 @@ $\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{A}_1, \ldots, \mathrm{A}
 
 #### 例 1 {#ens-iv-s1-n4-exa-1 .statement tag=03V5}
 
-取$\mathscr{T}$为集合论，并考虑没有辅助基集合的结构种，一个主基集合$\mathrm{A}$，典型的刻画$s \in \mathfrak{P}(\mathrm{A} \times \mathrm{A})$，以及公理
+取$\mathscr{T}$为集合论，并考虑结构种没有辅助基集合，一个主基集合$\mathrm{A}$，典型的刻画$s \in \mathfrak{P}(\mathrm{A} \times \mathrm{A})$，以及公理
 
 $$s \circ s = s \quad \text{and} \quad s \cap \overset{-1}{s} = \Delta_{\mathbf{A}}$$
 
-（$\Delta_{\mathbf{A}}$是$\mathrm{A} \times \mathrm{A}$的对角线），相对于典型化$s \in \mathfrak{P}(\mathrm{A} \times \mathrm{A})$来说，它是可移动的关系，这一点很容易验证。显然，这个结构种的理论就是*有序集*（章III, §1, no. 3）的理论；因此这样定义的结构的类也称为$\mathrm{A}$上序结构*的*类。在章III，我们看到很多集合的例都被赋予了这个类的结构。
+（$\Delta_{\mathbf{A}}$是$\mathrm{A} \times \mathrm{A}$的对角线），相对于典型化$s \in \mathfrak{P}(\mathrm{A} \times \mathrm{A})$，它是可移动的关系，这很容易验证。显然，这个结构种的理论正好是*有序集*的理论（章III, §1, no. 3）；因此这样定义的结构的类也称为$\mathrm{A}$上序结构*的*类。在章III中，我们看到许多集合中的例都被赋予了这个类中的结构。
 
 #### 例 2 {#ens-iv-s1-n4-exa-2 .statement tag=03V6}
 
-取$\mathscr{T}$为集合论，并考虑结构种没有辅助基集合，一个主基集合$\mathrm{A}$，典型的刻画$\mathrm{F} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A})$，并且作为可传输公理关系 “F 是一个函数图，其定义域为 $\mathrm{A} \times \mathrm{A}$”。这个类的结构是所谓的*代数结构*的特殊情况，而函数其图是$\mathrm{F}$（$\mathrm{A} \times \mathrm{A}$到$\mathrm{A}$的映射）被称为*the*（*处处定义*）*内部这样结构的合成*律。
+取$\mathscr{T}$为集合论，并考虑结构种没有辅助基集合，一个主基集合$\mathrm{A}$，典型的刻画$\mathrm{F} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A})$，并且为可传输公理关系 “F 是一个函数图，其定义域为 $\mathrm{A} \times \mathrm{A}$”。这个类的结构是所谓的*代数结构*的特殊情况，而函数其图是$\mathrm{F}$（$\mathrm{A} \times \mathrm{A}$到$\mathrm{A}$的映射）被称为*the*（*处处定义*）*内部这样结构的合成*律。
 
 #### 例 3 {#ens-iv-s1-n4-exa-3 .statement tag=03V7}
 
@@ -192,11 +192,11 @@ $$s \circ s = s \quad \text{and} \quad s \cap \overset{-1}{s} = \Delta_{\mathbf{
 $$(\forall \mathrm{V}) \, ((\mathrm{V}' \subset \mathrm{V}) \Rightarrow ((\bigcup_{\mathrm{X} \in \mathrm{V}'} \mathrm{X}) \in \mathrm{V}))$$
 $$\text{and} \quad (\forall \mathrm{X})(\forall \mathrm{Y})((\mathrm{X} \in \mathrm{V} \text{ and } \mathrm{Y} \in \mathrm{V}) \Rightarrow ((\mathrm{X} \cap \mathrm{Y}) \in \mathrm{V})).$$
 
-这个结构种称为拓扑结构*的*类。这个类的结构又称为*拓扑*，关系$\mathrm{X} \in \mathrm{V}$用说表示，$\mathrm{X}$是拓扑$\mathrm{V}$中的*开集合* （*一般拓扑*、章I, § 1）。
+这个结构种称为拓扑结构*的*类。这个类的结构又称为*拓扑*，关系$\mathrm{X} \in \mathrm{V}$用说表示$\mathrm{X}$是拓扑$\mathrm{V}$中的*开集合* （*一般拓扑*、章I, § 1）。
 
 #### 例 4 {#ens-iv-s1-n4-exa-4 .statement tag=03V8}
 
-\* 将$\mathscr{T}$作为环结构除法的类的理论，它有（除其他外）一个常数K作为唯一（主）基集合。 *左向量空间之上* K 的结构类有K作为辅助基集合，主要基集合E，以及典型的刻画关系
+\* 取$\mathscr{T}$为环结构除法的类的理论，它有（除其他外）一个常数K作为唯一（主）基集合。 *左向量空间超过* K 的结构类，有 K 作为辅助基集合，主要基集合E，以及典型的刻画关系
 
 $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \times E)$$
 
@@ -204,13 +204,13 @@ $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \ti
 
 #### 例 5 {#ens-iv-s1-n4-exa-5 .statement tag=03V9}
 
-再次令$\mathscr{T}$为集合论；在这个理论中，复数的域$\mathbf{C}$是项，其中包含没有字母。 维数 n* 的*复杂解析流形的结构类有$\mathbf{C}$作为辅助基集合，以及一个主基集合 V。我们不会在这里指出典型的刻画或类或结构的公理。 \*
+再次令$\mathscr{T}$为集合论；在这个理论中，复数的域$\mathbf{C}$是项，其中包含没有字母。 维数 n* 的*复杂解析流形的结构类具有$\mathbf{C}$作为辅助基集合，以及一个主体基集合 V。我们不会在这里指出典型的刻画或类或结构的公理。 \*
 
 *注*
 
 #### 注 1 {#ens-iv-s1-n4-rem-1 .statement tag=03VA}
 
-在应用中，经常出现这样的情况（如上面的例 4），梯队$S(E_1, \ldots, E_n, A_1, \ldots, A_m)$是阶梯的乘积
+在应用中，经常出现这样的情况（如上面的例 4），梯队$S(E_1, \ldots, E_n, A_1, \ldots, A_m)$是乘积或阶梯
 
 $$S_1(E_1, \ldots, A_m) \times \cdots \times S_p(E_1, \ldots, A_m).$$
 
@@ -220,15 +220,15 @@ $$S_1(E_1, \ldots, A_m) \times \cdots \times S_p(E_1, \ldots, A_m).$$
 
 #### 注 2 {#ens-iv-s1-n4-rem-2 .statement tag=03VB}
 
-命名为数学中最常用的结构种，以及赋予这些类中的结构的集合。因此，*有序的集合* (章 III, § 1) 是集合赋予序结构 (例 1)； \* 在本级数后面的书中，我们将*群、域、拓扑空间、可微流形*等定义概念等，所有这些都表示集合被赋予了一定的性质。 结构。 \*
+命名为数学中最常用的结构种，以及赋予这些类中的结构的集合。因此，*有序的集合* (章 III, § 1) 是集合且赋予序结构 (例 1)； \* 在本级数的后续书籍中，我们将*群、域、拓扑空间、可微流形*等定义概念，所有这些都表示集合被赋予了一定的性质。 结构。 \*
 
 #### 注 3 {#ens-iv-s1-n4-rem-3 .statement tag=03VC}
 
 通过滥用语言，在集合论$\mathscr{T}$中，给出$n$不同的字母$x_1, \ldots, x_n$（没有典型的刻画也没有公理）被认为是结构$\Sigma_0$的类，称为集合*的*结构*在$n$本金基集合$x_1, \ldots, x_n$。
 
-### 5. 同构和迁移结构
+### 5. 同构和迁移 / 结构
 
-令$\Sigma$在理论$\mathscr{T}$中为结构种，在$n$主体基集合$x_1, \ldots, x_n$，$m$辅助基集合$A_1, \ldots, A_m$。令S为$n + m$字母上的梯队构造概形，其特征在于$\Sigma$的典型刻画，并令R为$\Sigma$的公理。在强于$\mathscr{T}$的理论$\mathscr{T}'$中，令U为集合$E_1, \ldots, E_n$上类$\Sigma$的结构（作为主体基集合）并令U$'$为结构*与集合$E'_1, \ldots, E'_n$相同的类*。最后，让$f_i$（在$\mathscr{T}'$中）是$E_i$到$\mathrm{E}'_i$$(1 \leqslant i \leqslant n)$的*双射*。那么 $(f_1, \ldots, f_n)$ 被称为集合 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ 的 *同构的*，赋有结构 U，到集合 $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$，赋有结构 $\mathrm{U}'$，如果我们有（在 $\mathscr{T}'$ 中）
+设$\Sigma$为理论$\mathscr{T}$中的结构种，在$n$主体基集合$x_1, \ldots, x_n$，$m$辅助基集合$A_1, \ldots, A_m$。令S为$n + m$字母上的梯队构造概形，其特征在于$\Sigma$的典型刻画，并令R为$\Sigma$的公理。在比$\mathscr{T}$强的理论$\mathscr{T}'$中，令U为集合$E_1, \ldots, E_n$上类$\Sigma$的结构（作为主体基集合）并令U$'$为结构 *与集合 $E'_1, \ldots, E'_n$ 相同的类*。最后，让$f_i$（在$\mathscr{T}'$中）是$E_i$到$\mathrm{E}'_i$$(1 \leqslant i \leqslant n)$的*双射*。那么 $(f_1, \ldots, f_n)$ 被称为集合 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ 的 *同构的*，赋有结构 U，到集合 $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$，赋有结构 $\mathrm{U}'$，如果我们有（在 $\mathscr{T}'$ 中）
 
 (4) $$\langle f_1, \ldots, f_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{S}}(\mathrm{U}) = \mathrm{U}'$$
 
@@ -240,7 +240,7 @@ $$\langle f'_1, \ldots, f'_n, \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mat
 
 因而，$(f'_1, \ldots, f'_n)$是$\mathrm{E}'_1, \ldots, \mathrm{E}'_n$的*同构的*，赋予$\mathrm{U}'$，到$\mathrm{E}_1, \ldots, \mathrm{E}_n$，赋予U。同构的$(f_1, \ldots, f_n)$和$(f'_1, \ldots, f'_n)$据说是彼此的“逆”。
 
-如果存在$\mathrm{E}_1, \ldots, \mathrm{E}_n$的同构到$\mathrm{E}'_1, \ldots, \mathrm{E}'_n$，则赋予$\mathrm{U}'$的$\mathrm{E}'_1, \ldots, \mathrm{E}'_n$被认为与赋予U的$\mathrm{E}_1, \ldots, \mathrm{E}_n$“同构的”；在这种情况下，结构 U 和 $\mathrm{U}'$ 被称为“同构的”。
+如果存在 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ 的同构到 $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$，则赋有 $\mathrm{U}'$ 的$\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ 被认为与赋有 U 的 $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *同构的*；在这种情况下，结构 U 和 $\mathrm{U}'$ 被称为“同构的”。
 
 ¶ 上述定义与CST1一起意味着以下标准：
 
@@ -252,62 +252,62 @@ $\mathrm{E}_1, \ldots, \mathrm{E}_n$的同构到$\mathrm{E}_1, \ldots, \mathrm{E
 
 通过滥用语言，如果$f_i$是$\mathrm{E}_i$到$\mathrm{E}'_i$$(1 \leqslant i \leqslant n)$的任何双射，则相对于类，$(f_1, \ldots, f_n)$被称为是$\mathrm{E}_1, \ldots, \mathrm{E}_n$到$\mathrm{E}'_1, \ldots, \mathrm{E}'_n$的同构结构共集合（no. 4、注 3）。
 
-CST5。 *理论上* $\mathscr{T}'$ *强于* $\mathscr{T}$，*让* U *成为类* $\Sigma$ *在* $\mathrm{E}_1, \ldots, \mathrm{E}_n$的结构，*并让* $f_i$ *成为* $\mathrm{E}_i$ *的双射集合* $\mathrm{E}'_i$$(1 \leqslant i \leqslant n)$。 *则存在类* $\Sigma$ *在* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *上的唯一结构，使得* $(f_1, \ldots, f_n)$ *是* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *到* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ 的同构。
+CST5。 *在理论*$\mathscr{T}'$*哪个比*$\mathscr{T}$强，*让*U*成为类*$\Sigma$*的结构，*在*$\mathrm{E}_1, \ldots, \mathrm{E}_n$，*并让*$f_i$*成为*的双射* $\mathrm{E}_i$ *到集合* $\mathrm{E}'_i$ $(1 \leqslant i \leqslant n)$。 *则存在类* $\Sigma$ *在* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ *上的唯一结构，使得* $(f_1, \ldots, f_n)$ *是* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ *到* $\mathrm{E}'_1, \ldots, \mathrm{E}'_n$ 的同构。
 
-对于这个结构，如果存在的话，只能是关系(4)定义的项$\mathrm{U}'$； 项确实是类$\Sigma$的结构还有待验证，即关系$\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$在$\mathscr{T}'$中为真。但这是基于 $\mathrm{R}\{x_1, \ldots, x_n, s\}$ 是*可运输*的事实，对于
+对于这个结构，如果存在的话，只能是关系(4)定义的项$\mathrm{U}'$；这个项确实是类$\Sigma$的结构还有待验证，即关系$\mathrm{R}\{\mathrm{E}'_1, \ldots, \mathrm{E}'_n, \mathrm{U}'\}$在$\mathscr{T}'$中为真。但这是基于 $\mathrm{R}\{x_1, \ldots, x_n, s\}$ 是*可运输*的事实，对于
 
-$R\{E'_1, \ldots, E'_n, U'\}$ 在 $\mathscr{T}'$ 中相当于关系 $R\{E_1, \ldots, E_n, U\}$ (no. 3)，在 $\mathscr{T}'$ 和假设中也是如此。
+$R\{E'_1, \ldots, E'_n, U'\}$ 在 $\mathscr{T}'$ 中相当于关系 $R\{E_1, \ldots, E_n, U\}$ (no. 3)，在$\mathscr{T}'$ 和假设中也是如此。
 
-¶ 结构 $U'$ 据说是通过通过双射映射* $f_1, \ldots, f_n$ *将结构* $U$ *传输到集合* $E'_1, \ldots, E'_n$ *获得。因此，相同类的两个结构是同构的，当且仅当每个迁移或结构从另一个迁移获得。
+¶ 结构 $U'$ 据说是通过通过双射映射* $f_1, \ldots, f_n$ *将结构* $U$ *传输到集合* $E'_1, \ldots, E'_n$ *获得。因此，相同类的两个结构是同构的，当且仅当每个迁移或结构从另一个迁移获得时。
 
-类$\Sigma$的*任意*两个结构*必然同构*； 类或结构 $\Sigma$ 则被称为“单价”。 \* 这是无限循环群的结构（与$\mathbf{Z}$同构的）、特征零的素数域的结构（与$\mathbf{Q}$同构的）、完整阿基米德有序域的结构的情况（同构于$\mathbf{R}$），代数闭的、连通、局部紧拓扑域的结构（同构于$\mathbf{C}$），以及非交换、连通、局部紧拓扑除法的结构环（同构于$\mathbf{H}$，除法） 环四元数）。对于其中一些结构的类，对于特征零的素数域的例，或者完整的阿基米德有序域，除了恒等映射之外，甚至没有任何自同构；但上面给出的其他例确实存在这样的自同构（对于例，$\mathbf{Z}$中的对称性$x \rightarrow -x$）。 \*
+类$\Sigma$的*任意*两个结构*必然同构*； 类或结构 $\Sigma$ 则被称为“单价”。 \* 这是无限循环群的结构（与$\mathbf{Z}$同构的）、特征零的素数域的结构（与$\mathbf{Q}$同构的）、完整阿基米德有序域的结构的情况（同构于$\mathbf{R}$），代数闭的、连通、局部紧拓扑域的结构（同构于$\mathbf{C}$），以及非交换、连通、局部紧拓扑除法的结构环（同构于$\mathbf{H}$，除法） 环四元数）。对于结构中的一些类，例如特征零的素数域，或者完整的阿基米德有序域，除了恒等映射之外，甚至没有任何自同构；但上面给出的其他例确实存在这样的自同构（例如，$\mathbf{Z}$中的对称性$x \rightarrow -x$）。 \*
 
-可以看出，上面的类或结构本质上是经典数学中的基。另一方面，群结构的\* 类、有序集合的结构种和拓扑结构的类不是单价的。 \*
+可以看出，上面的类和结构本质上都是经典数学中的基。另一方面，群结构的\* 类、有序集合的结构种和拓扑结构的类不是单价的。 \*
 
 ### 6. 结构的演绎
 
-令$\Sigma$在理论$\mathscr{T}$中为结构种，以$n$为主基集合$x_1, \ldots, x_n$，以$m$辅助基集合$A_1, \ldots, A_m$。令$s$为$\Sigma$的泛型结构，令$T$为$n + m$项上的梯队构造概形。 项 $V\{x_1, \ldots, x_n, s\}$ 其中包含除了 $\mathscr{T}_\Sigma$ 的常量之外没有任何字母被认为是型 $T(x_1, \ldots, x_n, A_1, \ldots, A_m)$ $s$ 的*内在*，如果它满足以下条件 ：
+设理论 $\mathscr{T}$ 中的 $\Sigma$ 为结构种，在 $n$ 主基集合 $x_1, \ldots, x_n$，$m$ 辅助基集合 $A_1, \ldots, A_m$。令$s$为$\Sigma$的泛型结构，令$T$为$n + m$项上的梯队构造概形。 项 $V\{x_1, \ldots, x_n, s\}$ 其中包含除了 $\mathscr{T}_\Sigma$ 的常数之外没有任何字母被认为是型 $T(x_1, \ldots, x_n, A_1, \ldots, A_m)$ $s$ 的*内在*，如果它满足以下条件 ：
 
 (1) 关系 $V\{x_1, \ldots, x_n, s\} \in T(x_1, \ldots, x_n, A_1, \ldots, A_m)$ 是 $\mathscr{T}_\Sigma$ 中的定理；
 
-(2) 设$\mathscr{T}'_\Sigma$为$\mathscr{T}_\Sigma$公理的公理邻接“$f_i$是$x_i$的双射到$y_i$”$(1 \leqslant i \leqslant n)$（其中字母$y_i$和$f_i$彼此不同，并且与$\mathscr{T}_\Sigma$的常数不同，对于$1 \leqslant i \leqslant n$）；如果$s'$是$s$通过$(f_1, \ldots, f_n)$（no. 5）运输结构，则
+(2) 设$\mathscr{T}'_\Sigma$为理论，通过将$\mathscr{T}_\Sigma$公理的公理邻接“$f_i$是$x_i$的双射到$y_i$”$(1 \leqslant i \leqslant n)$（其中字母$y_i$ 和 $f_i$ 彼此不同，并且与 $\mathscr{T}_\Sigma$ 的常数不同，对于 $1 \leqslant i \leqslant n$）；如果$s'$是$s$通过$(f_1, \ldots, f_n)$（no. 5）运输结构，则
 
 $$V\{y_1, \ldots, y_n, s'\} = \langle f_1, \ldots, f_n. \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{T}}(V\{x_1, \ldots, x_n, s\})$$
 
 $\mathscr{T}'_\Sigma$ 中有定理。
 
-结构种理论中的项通向定义的大部分都是内在的项。
+结构种的理论中的项中的 1 个通向定义的大部分是内在的项。
 
-¶ 令$\Theta$在理论$\mathscr{T}$中为另一个结构种，在$r$主基集合$u_1,\ldots,u_r$，$p$辅助基集合$B_1,\ldots,B_p$，令$t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$为$\Theta$（no. 4）的典型刻画。那么 $r+1$ 项 $P,U_1,\ldots,U_r$ 的系统，$s$ 的固有值，并且理论上，$P$ 是 $U_1,\ldots,U_r$ 上的类 $\Theta$ 的结构 $\mathscr{T}_\Sigma$，从类$\Sigma$结构称为类$\Theta$结构演绎的过程。由于滥用语言，项$P$通常被称为演绎的过程。
+¶ 设$\Theta$为理论$\mathscr{T}$中的另一个结构种，在$r$主体基集合$u_1,\ldots,u_r$，$p$辅助基集合$B_1,\ldots,B_p$，并令$t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$为$\Theta$（no. 4）的典型刻画。然后 $r+1$ 项 $P,U_1,\ldots,U_r$ 的系统，$s$ 的固有值，并且使得 $P$ 是 $U_1,\ldots,U_r$ 上的类 $\Theta$ 的结构， 理论$\mathscr{T}_\Sigma$，从类$\Sigma$结构称为类$\Theta$结构演绎的过程。由于滥用语言，项$P$通常被称为演绎的过程。
 
-¶ 令 $\mathscr{T}'$ 成为比 $\mathscr{T}$ 更强的理论。如果$E_1,\ldots,E_n$上类$\Sigma$$\mathscr{T}'$中$\mathscr{S}$为结构，则$P\{E_1,\ldots,E_n,\mathscr{S}\}$为$r$集合上类$\Theta$结构 $F_j=U_j\{E_1,\ldots,E_n,\mathscr{S}\}$$(1\leq j\leq r)$，据说是通过过程$P$从$\mathscr{S}$推导出来的，或者从属于$\mathscr{S}$。 假设项 $P,U_1,\ldots,U_r$ 是 $s$ 的内在特征，此外还意味着以下标准：
+¶ 令$\mathscr{T}'$ 理论强于$\mathscr{T}$。如果$E_1,\ldots,E_n$上类$\Sigma$$\mathscr{T}'$中$\mathscr{S}$为结构，则$P\{E_1,\ldots,E_n,\mathscr{S}\}$为$r$集合上类$\Theta$结构 $F_j=U_j\{E_1,\ldots,E_n,\mathscr{S}\}$$(1\leq j\leq r)$，据说是通过过程$P$从$\mathscr{S}$推导出来的，或者从属于$\mathscr{S}$。 假设项 $P,U_1,\ldots,U_r$ 是 $s$ 的内在特征，此外还意味着以下标准：
 
-**CST6.** 设$(g_1,\ldots,g_n)$为$E_1,\ldots,E_n$的同构，赋予类$\Sigma$的结构$\mathscr{S}$，到$E'_1,\ldots,E'_n$，赋予相同的结构$\mathscr{S}'$ 类。如果 $U_j$ 是型 $\mathfrak{P}(T_j)$，则将
+**CST6.** 设$(g_1,\ldots,g_n)$为$E_1,\ldots,E_n$的同构，赋予类$\Sigma$的结构$\mathscr{S}$，到$E'_1,\ldots,E'_n$，赋予相同的类的结构$\mathscr{S}'$。如果 $U_j$ 是型 $\mathfrak{P}(T_j)$，则将
 
 $$
 h_j=\langle g_1,\ldots,g_n,\mathrm{Id}_1,\ldots,\mathrm{Id}_{m}\rangle^{T_j}\quad(1\leq j\leq r),
 $$
 
-并让 $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{S}'\}$ $(1\leq j\leq r)$。那么当集合的这些系统分别被赋予从$\mathscr{S}$和$\mathscr{S}'$推导出类$\Theta$的结构时，$(h_1,\ldots,h_r)$就是$F_1,\ldots,F_r$的同构到$F'_1,\ldots,F'_r$通过程序$P$。
+并让 $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{S}'\}$ $(1\leq j\leq r)$。然后，当集合的这些系统被赋予分别从$\mathscr{S}$和$\mathscr{S}'$推导出的类$\Theta$的结构时，$(h_1,\ldots,h_r)$是$F_1,\ldots,F_r$的同构到$F'_1,\ldots,F'_r$上$P$。
 
-很明显，项 $x_1,\ldots,x_n$ 是$s$ 的固有特征。在很多情况下，项$U_1,\ldots,U_r$是某些字母$x_1,\ldots,x_n$；通过过程$P$从$s$推导出类$\Theta$的结构则被称为$s$基础上的结构。
+很明显，项$x_1,\ldots,x_n$是$s$的内在特征。在很多情况下，项$U_1,\ldots,U_r$是某些字母$x_1,\ldots,x_n$；通过过程$P$从$s$推导出类$\Theta$的结构则被称为$s$基础上的结构。
 
 *例*
 
 #### 例 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
 
-\* 拓扑群结构的类具有单一主体基集合$A$，没有辅助基集合，相应的通用结构是对$(s_1,s_2)$ （$s_1$为$A$上合成律的图，以及$A$拓扑中开集合$s_2$集合；cf.通用拓扑， 章III, § 1）。 项$s_1,s_2$中的每一个都是演绎的过程，并分别提供拓扑群结构$(s_1,s_2)$底层的群结构和拓扑。
+\* 拓扑群结构的种类只有一个主基集$A$，没有辅助基集，对应的泛型结构是一对$(s_1,s_2)$（$s_1$是$A$上的合成律图，$s_2$是$A$拓扑中的开集集合；cf.一般拓扑，章节III, § 1）。 每个项$s_1,s_2$都是演绎的过程，并分别提供拓扑群结构$(s_1,s_2)$底层的群结构和拓扑。
 
 同样，从向量空间结构可以推导出潜在的交换律群结构。从环结构可以推导出一个基础交换律群结构和一个（乘法）半群
 
 IV
 结构
 
-结构。从可微分流形的结构可以推导出底层拓扑等。
+结构。从可微流形的结构可以推导出底层拓扑等。
 
 #### 例 2 {#ens-iv-s1-n6-exa-2 .statement tag=03VF}
 
-超过$\mathbf{C}$（或$\mathbf{R}$）的向量空间结构的类，其本金基集合$E$，辅助基集合等于$\mathbf{C}$（分别为$\mathbf{R}$），以及典型的刻画
+$\mathbf{C}$（或$\mathbf{R}$）上的向量空间结构种类具有主基集$E$、等于$\mathbf{C}$（或$\mathbf{R}$）的辅助基集，以及典型的表征
 
 $$
 s_1\in\mathfrak{P}((E\times E)\times E)\qquad\text{and}\qquad s_2\in\mathfrak{P}((\mathbf{C}\times E)\times E)
@@ -319,7 +319,7 @@ $$
 
 #### 例 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-假设$\Theta$与$\Sigma$具有相同的（主要和辅助）基集合，以及相同的典型刻画。 If, moreover, the axiom of $\Sigma$ implies (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be poorer than $\Sigma$, and $\Sigma$ is richer than $\Theta$. 类$\Sigma$中的每个结构，在理论中$\mathscr{T}'$强于$\mathscr{T}$，那么也是类$\Theta$中的结构。 For example, the species of structures of totally ordered sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s\cup s^{-1}=A\times A$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. 紧凑拓扑空间结构的类比拓扑结构的类丰富，等等\*
+假设$\Theta$与$\Sigma$具有相同的（主要和辅助）基集合，以及相同的典型刻画。 此外，如果$\Sigma$公理隐含（在$\mathscr{T}$中）$\Theta$公理，那么很明显，项$s$是从物种$\Sigma$的结构中演绎物种$\Theta$的结构的过程。 $\Theta$ 则被认为比 $\Sigma$ 更穷，$\Sigma$ 比 $\Theta$ 更富有。 类 $\Sigma$中的每个结构，在理论$\mathscr{T}'$中比$\mathscr{T}$强，则也是类$\Theta$中的结构。 例如，全有序集合的结构种类（以有序结构公理（no. 4，例1）与关系式$s\cup s^{-1}=A\times A$合取为公理而得）比有序结构的种类更丰富。 \*交换群结构的种类比群结构的种类更丰富。 紧凑拓扑空间结构的类比拓扑结构的类丰富，等等\*
 
 #### 例 4 {#ens-iv-s1-n6-exa-4 .statement tag=077U}
 
@@ -329,23 +329,23 @@ $$
 
 当$P$是“q元组”$(P_1,\ldots,P_q)$时，还可以说项$P_1,\ldots,P_q$从类$\Sigma$的结构构成类$\Theta$的结构的演绎的过程。
 
-### 7. 等价种结构
+### 7. 等价种 / 结构
 
-令$\Sigma$和$\Theta$为两个结构种，在相同的$\mathscr{T}$理论中，具有相同的主体基集合$x_1,\ldots,x_n$。令$s,t$分别为类$\Sigma,\Theta$的泛型结构。假设满足以下条件：
+令$\Sigma$和$\Theta$为两个结构种，在同一个理论$\mathscr{T}$中，具有相同的主体基集合$x_1,\ldots,x_n$。令$s,t$分别为类$\Sigma,\Theta$的泛型结构。假设满足以下条件：
 
-(1) We have a procedure of deduction $P\{x_1,\ldots,x_n,s\}$ of a structure of species $\Theta$ on $x_1,\ldots,x_n$ from a structure of species $\Sigma$ on $x_1,\ldots,x_n$.
+(1) 我们有一个从$x_1,\ldots,x_n$上物种$\Sigma$的结构演绎$x_1,\ldots,x_n$上物种$\Theta$的结构$P\{x_1,\ldots,x_n,s\}$的过程。
 
-(2) We have a procedure of deduction $Q\{x_1,\ldots,x_n,t\}$ of a structure of species $\Sigma$ on $x_1,\ldots,x_n$ from a structure of species $\Theta$ on $x_1,\ldots,x_n$.
+(2) 我们有一个从$x_1,\ldots,x_n$上的物种$\Theta$的结构推导$x_1,\ldots,x_n$上的物种$\Sigma$的结构$Q\{x_1,\ldots,x_n,t\}$的过程。
 
 (3) 关系 $Q\{x_1,\ldots,x_n,P\{x_1,\ldots,x_n,s\}\}=s$ 是$\mathscr{T}_{\Sigma}$ 中的定理，关系 $P\{x_1,\ldots,x_n,Q\{x_1,\ldots,x_n,t\}\}=t$ 是$\mathscr{T}_{\Theta}$ 中的定理。
 
-通过演绎$P$和$Q$的过程，结构种$\Sigma$和$\Theta$就被认为是等价的。在这种情况下，对于理论$\mathscr{T}_{\Sigma}$中的每个定理$B\{x_1,\ldots,x_n,s\}$，关系$B\{x_1,\ldots,x_n,Q\}$在$\mathscr{T}_{\Theta}$中都是定理；相反，对于理论$\mathscr{T}_{\Theta}$中的每个定理$C\{x_1,\ldots,x_n,t\}$，关系$C\{x_1,\ldots,x_n,P\}$在$\mathscr{T}_{\Sigma}$中是定理。
+通过演绎$P$和$Q$的过程，结构种$\Sigma$和$\Theta$就被认为是等价的。在这种情况下，对于理论$\mathscr{T}_{\Sigma}$中的每个定理$B\{x_1,\ldots,x_n,s\}$，关系$B\{x_1,\ldots,x_n,Q\}$是$\mathscr{T}_{\Theta}$中的定理；相反，对于理论$\mathscr{T}_{\Theta}$中的每个定理$C\{x_1,\ldots,x_n,t\}$，关系$C\{x_1,\ldots,x_n,P\}$在$\mathscr{T}_{\Sigma}$中是定理。
 
 ☡
 
 如果$U$是类$\Sigma$的结构，则通过过程$P$从$U$推导出结构相当于$U$。标准 CST6 意味着以下内容：
 
-CST7。 *令 $\mathscr{S},\mathscr{S}'$ 分别为基集合 $(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$ 上类 $\Sigma$ 的两个结构。设$\mathscr{S}_0,\mathscr{S}'_0$为类$\Theta$中的结构，分别相当于$\mathscr{S}$和$\mathscr{S}'$。在序中，$(g_1,\ldots,g_n)$相对于结构$\mathscr{S}_0$和$\mathscr{S}'_0$应该是同构，$(g_1,\ldots,g_n)$相对于结构$\mathscr{S}$应该是同构是必要且充分的，并且$\mathscr{S}'$.*
+CST7。 *令$\mathscr{S},\mathscr{S}'$分别为基集合$(E_1,\ldots,E_n),(E'_1,\ldots,E'_n)$上的类$\Sigma$中的两个结构。设$\mathscr{S}_0,\mathscr{S}'_0$为类$\Theta$中的结构，分别相当于$\mathscr{S}$和$\mathscr{S}'$。在序中，$(g_1,\ldots,g_n)$相对于结构$\mathscr{S}_0$和$\mathscr{S}'_0$应该是同构，$(g_1,\ldots,g_n)$相对于结构$\mathscr{S}$应该是同构是必要且充分的，并且$\mathscr{S}'$.*
 
 在实践中，我们对结构的两个等价种的理论$\mathscr{T}_{\Sigma}$和$\mathscr{T}_{\Theta}$没有区别。
 
@@ -353,7 +353,7 @@ CST7。 *令 $\mathscr{S},\mathscr{S}'$ 分别为基集合 $(E_1,\ldots,E_n),(E'
 
 #### 例 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 
-\* 令 $\Sigma$ 为可交换的群结构的类； $\Sigma$有一个（主）基集合$A$，其通用结构由单个字母$F$组成； $\Sigma$的典型刻画是$F\in\mathfrak{P}((A\times A)\times A)$，我们用$R\{A,F\}$表示$\Sigma$的公理。该公理特别意味着$F$是函数的图（群的“合成的律”；cf.no. 4，例2）。在理论$\mathscr{T}_{\Sigma}$（其中$\mathscr{T}$表示集合论）中，我们定义项$M\{A,F\}$是$\mathfrak{P}((\mathbf{Z}\times A)\times A)$中的函数图，并且满足以下关系$B\{M,A,F\}$：
+\* 令 $\Sigma$ 为可交换的群结构的类； $\Sigma$有一个（主）基集合$A$，其通用结构由单个字母$F$组成； $\Sigma$的典型刻画是$F\in\mathfrak{P}((A\times A)\times A)$，我们用$R\{A,F\}$表示$\Sigma$的公理。这个公理特别意味着$F$是函数的图（群的“合成的律”；cf.no. 4，例2）。在理论$\mathscr{T}_{\Sigma}$（其中$\mathscr{T}$表示集合论），我们定义项$M\{A,F\}$是$\mathfrak{P}((\mathbf{Z}\times A)\times A)$中的函数图，并且满足以下关系$B\{M,A,F\}$：
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{and}\ y\in A\ \text{and}\ n\in\mathbf{Z})

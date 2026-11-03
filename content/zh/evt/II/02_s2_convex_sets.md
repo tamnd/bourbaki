@@ -57,19 +57,19 @@ subsections:
       pdf_page: 56
 statements: 51
 exercises: 43
-content_sha256: eab206f61c2295af251131b56947a7b330c84bc19623c7605dbea92c382148c4
+content_sha256: 9f78c4ba070c242476fcc41e6887b724520c6f96addaaa110c8c3add9ea73a0d
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 translation_method: google
 source_content_sha256: a0e92c270cc61535db50016db128351dc2a69eca0c0c5a5f6017a665abb322f1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2b438a0c45e4206b05fd7699c4a2591ab7964bb93481426b8daf3c83b451ce24
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。凸面集合
+## § 2。凸集合
 
 ### 1. 凸集合的定义
 
@@ -91,16 +91,16 @@ $\mathbf{R}$ 中唯一的非空凸集合是区间（GT，IV, § 2.4，道具 1�
 
 #### 例 3 {#evt-ii-s2-n1-exa-3 .statement tag=07B7}
 
-令 $E$ 为向量空间，并且在 $E$ 上$\|x\|$ 范数； 单位球$B$，由点$x$组成
+令 $E$ 为向量空间，并且在 $E$ 上为 $\|x\|$ 范数； 单位球$B$，由点$x$组成
 
 这样 $\|x\| \leq 1$ 是凸的，因为关系 $\|x\| \leq 1, \|y\| \leq 1$，对于 $0 \leq \lambda \leq 1$ 意味着
 $$
 \|\lambda x + (1 - \lambda) y\| \leq \lambda \|x\| + (1 - \lambda) \|y\| \leq \lambda + (1 - \lambda) = 1 .
 $$
 
-#### 注 {#evt-ii-s2-n1-rem-1 .statement tag=07B8}
+#### 注{#evt-ii-s2-n1-rem-1 .statement tag=07B8}
 
-— 设$A$为向量空间$E$的凸子集；对于任何标量 $\alpha > 0$ 和 $\beta > 0$，我们有 $\alpha A + \beta A = (\alpha + \beta) A$。在其他字中，对于任何$x \in A, y \in A$，存在$z \in A$使得$(\alpha + \beta) z = \alpha x + \beta y$；事实上，这个关系可以写成$z = \frac{\alpha}{\alpha + \beta} x + \frac{\beta}{\alpha + \beta} y$，并且我们有$\frac{\alpha}{\alpha + \beta} > 0, \frac{\beta}{\alpha + \beta} > 0$和$\frac{\alpha}{\alpha + \beta} + \frac{\beta}{\alpha + \beta} = 1$，使用def可以从中得出断言。 1.
+— 令 $A$ 为向量空间 $E$ 的凸子集；对于任何标量 $\alpha > 0$ 和 $\beta > 0$，我们有 $\alpha A + \beta A = (\alpha + \beta) A$。在其他字中，对于任何$x \in A, y \in A$，存在$z \in A$使得$(\alpha + \beta) z = \alpha x + \beta y$；事实上，这个关系可以写成$z = \frac{\alpha}{\alpha + \beta} x + \frac{\beta}{\alpha + \beta} y$，并且我们有$\frac{\alpha}{\alpha + \beta} > 0, \frac{\beta}{\alpha + \beta} > 0$和$\frac{\alpha}{\alpha + \beta} + \frac{\beta}{\alpha + \beta} = 1$，使用def可以从中得出断言。 1.
 
 #### 命题 1 {#evt-ii-s2-prop-1 .statement tag=07B9}
 
@@ -120,23 +120,23 @@ $$
 
 *在仿射空间$E$中，令$H$为由关系$g(x) = 0$定义的超平面，其中$g$是$E$上的非常数仿射函数。那么由关系 $g(x) \geq 0, g(x) \leq 0, g(x) > 0, g(x) < 0$ 定义的半空间是凸的。*
 
-因为这些是逆像在 $g$ 的间隔 $\mathbf{R}$ 之下，因此是凸的。
+因为这些是逆像低于$g$或区间或$\mathbf{R}$，因此是凸的。
 
-带有记号的支柱。 3 仿射空间的子集 $M$ 的点位于超平面 $H$ 的*同一侧*（或*严格位于同一侧*），如果 $M$ 包含在由 $g(x) \geq 0, g(x) \leq 0$ 定义的半空间之一中（分别为 $g(x) > 0$ 或 $g(x) < 0$）。
+具有记号的支撑。 3 仿射空间的子集 $M$ 的点位于超平面 $H$ 的*同一侧*（或*严格位于同一侧*），如果 $M$ 包含在由 $g(x) \geq 0, g(x) \leq 0$ 定义的半空间之一中（分别为 $g(x) > 0$ 或 $g(x) < 0$）。
 
 #### 命题 4 {#evt-ii-s2-prop-4 .statement tag=07BC}
 
 *当且仅当$A$不满足$H$时，$A$的点、仿射空间$E$的凸子集严格位于超平面$H$的同一侧。*
 
-显然条件是必要的。相反，假设满足，并令 $g(x) = 0$ 为定义 H 的方程（$g$ 是 E 在 $\mathbf{R}$ 中的仿射线性映射）。 集合 $g(A)$ 在 $\mathbf{R}$ 中凸，因此是一个区间，$0 \notin g(A)$。因此$g(x)$对于所有$x \in A$来说都是固定符号。
+显然条件是必要的。相反，假设满足，并令 $g(x) = 0$ 为定义 H 的方程（$g$ 是 E 在 $\mathbf{R}$ 中的仿射线性映射）。 集合 $g(A)$ 在 $\mathbf{R}$ 中是凸的，因此它是区间，以及 $0 \notin g(A)$。因此$g(x)$对于所有$x \in A$来说都是固定符号。
 
-### 2. 交凸集合。凸集合的乘积
+### 2. 凸集合的交。凸集合的乘积
 
 #### 命题 5 {#evt-ii-s2-prop-5 .statement tag=07BD}
 
 — *交任何凸族子集仿射空间* E *是凸*。
 
-命题紧跟在 def 之后。 1 个II、p. 7。
+命题紧随 def 之后。 1 个II、p. 7。
 
 #### 命题 6 {#evt-ii-s2-prop-6 .statement tag=07BE}
 
@@ -144,17 +144,17 @@ $$
 
 事实上，每个投影$\mathrm{pr}_i$都是线性映射，我们有$A_i = \mathrm{pr}_i A$和$A = \bigcap_{i \in I} \mathrm{pr}_i^{-1}(A_i)$； 命题来自 props。上面2和5。
 
-#### 推论{#evt-ii-s2-n2-cor-1 .statement tag=07BF}
+#### 推论 {#evt-ii-s2-n2-cor-1 .statement tag=07BF}
 
-— *在空间* $\mathbf{R}^n$ *每个平行四面体* (GT, VI, § 1.3) *是凸子集*。
+— *在空间* $\mathbf{R}^n$ *每个平行同位素* (GT, VI, § 1.3) *是凸子集*。
 
-因为它在长方体的仿射线性映射下是像，并且最后一个通过支柱是凸的。 6.
+因为它是在长方体的仿射线性映射下的像，并且最后一个是由支柱凸出的。 6.
 
 #### 命题 7 {#evt-ii-s2-prop-7 .statement tag=07BG}
 
-— *设* A *和* B *为向量空间* E的两个凸子集。 *对于任何实数* $\alpha, \beta$ *集合* $\alpha A + \beta B$ *(形式* 点集合) $\alpha x + \beta y$，*其中* $x$ *在* A 中变化，*且* $y$ *在* B*) 中是凸*。
+— *设* A *和* B *为向量空间* E的两个凸子集。 *对于任何实数* $\alpha, \beta$ *集合* $\alpha A + \beta B$ *(形式* $\alpha x + \beta y$ 点集合，*其中* $x$ *在* A 中变化，*且* $y$ *在* B*) 中是凸*。
 
-对于$\alpha A + \beta B$，是$E$中$E \times E$的线性映射$(x, y) \mapsto \alpha x + \beta y$下$E \times E$的凸子集$A \times B$的像。
+对于$\alpha A + \beta B$是$E$中$E \times E$的线性映射$(x, y) \mapsto \alpha x + \beta y$下$E \times E$的凸子集$A \times B$的像。
 
 ### 3. 集合的凸包络线
 
@@ -164,9 +164,9 @@ $$
 
 #### 命题 8 {#evt-ii-s2-prop-8 .statement tag=07BI}
 
-— *对于任何族* $(A_i)_{i \in I}$ *仿射空间* E 的凸子集 * E，* $\bigcup_{i \in I} A_i$ *的凸包络恰好是线性组合* $\sum_{i \in I} \lambda_i x_i$ 的集合，*其中* $x_i \in A_i, \lambda_i \geq 0$ *对于所有* $i \in I$（$\lambda_i = 0$ *除了有限多个指标*）*和* $\sum_{i \in I} \lambda_i = 1$。
+— *对于任何族* $(A_i)_{i \in I}$ *仿射空间* E 的凸子集，*$\bigcup_{i \in I} A_i$ *的凸包络 *恰好是线性组合* $\sum_{i \in I} \lambda_i x_i$ 的集合，*其中* $x_i \in A_i, \lambda_i \geq 0$ *对于所有* $i \in I$ ($\lambda_i = 0$) *除了有限多个指标*) *和* $\sum_{i \in I} \lambda_i = 1$。
 
-用C表示这些线性组合中的集合，显然C包含在每个凸集合中，其中包含所有$A_i$（II，p. 8，道具1）；另一方面，每$i$对应$A_i \subset C$。剩下要证明的是 C 是凸的。令$x = \sum \lambda_i x_i$、$y = \sum \mu_i y_i$为C的两个点，$\alpha$为数，使得$0 < \alpha < 1$，对于每个i ∈ I，写出γ_i = αλ_i + (1 - α) μ_i，并令J为集合 (有限) of 指标 of I，其中 γ_i ≠ 0。我们可以写成 αx + (1 - α)y = Σ_{i∈J} γ_i z_i，其中
+用C表示这些线性组合中的集合，显然C包含在每个凸集合中，其中包含所有$A_i$（II，p. 8，道具1）；另一方面，对于每个$i$，$A_i \subset C$。 剩下要证明的是 C 是凸的。 令$x = \sum \lambda_i x_i$、$y = \sum \mu_i y_i$为C的两个点，$\alpha$为数，使得$0 < \alpha < 1$，对于每个i ∈ I，写出γ_i = αλ_i + (1 - α) μ_i，并令J为集合（有限） 指标 I 其中 γ_i ≠ 0。 我们可以写 αx + (1 - α)y = Σ_{i∈J} γ_i z_i，其中
 
 $$ z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i) $$
 
@@ -234,7 +234,7 @@ $$
 
 事实上，显然这样的点的C、集合，是$C_i$的凸锥包含并，并且它包含在包含这个并的任意凸锥中。
 
-#### 推论{#evt-ii-s2-n4-cor-1 .statement tag=07BR}
+#### 推论 {#evt-ii-s2-n4-cor-1 .statement tag=07BR}
 
 — *对于 E 的任何子集 A，由 A 生成的凸锥体与线性组合* $\sum_{i \in J} \lambda_i x_i$ 的集合相同，*其中* $(x_i)_{i \in J}$ *是 A 的点的任何有限非空族，并且其中* $\lambda_i > 0$ *对于所有* $i \in J$。
 
@@ -262,7 +262,7 @@ $$
 
 携带这两个结构的向量空间 E 被称为*预排序的向量空间* （分别是当 E 上预序的关系是阶时*排序的向量空间*）。
 
-注那个公理（EO$_I$）意味着E的预序结构和加法群结构是兼容的，也就是说，E携带这两个结构，是一个*预序的群*（A， VI、p. 3）。
+注意公理（EO$_I$）意味着E的预序结构和加法群结构是兼容的，也就是说，E携带这两个结构，是一个*预序的群*（A，VI， p. 3）。
 
 #### 例 {#evt-ii-s2-n5-exa-1 .statement tag=07BU}
 
@@ -270,15 +270,15 @@ $$
 
 #### 命题 13 {#evt-ii-s2-prop-13 .statement tag=07BV}
 
-— (i) *集合 P，元素* $\geqslant 0$，*预先订购的向量空间 E，是尖凸锥*。
+— (i) *集合 P，元素* $\geqslant 0$，*预定的向量空间 E，是尖凸锥*。
 
-(ii) *相反，如果 P 是 E 中的尖凸锥体，则关系* $y - x \in P$ *是 E 上的预序关系，且预序结构定义是唯一*与 的向量空间结构兼容的E 且 P 为元素 $\geqslant 0$ 中的集合。
+(ii) *相反，如果 P 是 E 中的尖凸锥体，则关系* $y - x \in P$ *是 E 上的预序关系，且预序结构定义是唯一*与 的向量空间结构兼容的E 且 P 为集合或元素 $\geqslant 0$。
 
 (iii) 关系 $y - x \in P$，其中 P 为尖凸圆锥，当且仅当 P 为真圆锥时，在 E 上为序关系。
 
 (i) 公理 (EO_I) 和 (EO_{II}) 意味着对于所有 $\lambda > 0$ 都有 $P + P \subset P$ 和 $\lambda P \subset P$。由于 $0 \in P$，因此 P 是尖凸锥体（II，p. 11，命题 10）。
 
-(ii) 相反，如果 P 是尖凸锥体，关系 $P + P \subset P$ 意味着关系 $y - x \in P$ 是预序与 E 的加法群结构兼容 (A, VI, p. 3, prop. 3）；明确写出$x \leqslant y$、集合 P 与$x \geqslant 0$ 的集合相同；进一步，对于所有 $\lambda \geqslant 0$ 关系 $\lambda P \subset P$ 表明满足公理 (EO_{II})。
+(ii) 相反，如果 P 是尖凸锥体，关系 $P + P \subset P$ 意味着关系 $y - x \in P$ 是预序与 E 的加法群结构兼容 (A, VI, p. 3, prop. 3）；明确写出$x \leqslant y$、集合 P与$x \geqslant 0$的集合相同；进一步，对于所有 $\lambda \geqslant 0$ 关系 $\lambda P \subset P$ 表明满足公理 (EO_{II})。
 
 (iii) 说 P 是正确的意味着 $P \cap (-P) = \{0\}$ (II, p. 11, cor. 2)，因此 $y - x \in P$ 是序关系。
 
@@ -344,7 +344,7 @@ $$
 
 — *内部* $\dot{C}$ *凸锥体* C，*本身是凸锥体；如果* $\dot{C}$ *不为空，那么它的重合与* $\overline{C}$、*和* $\overline{C}$ *的内部是一个尖凸圆锥体，重合与* $\dot{C}$闭合。
 
-由于比率 $> 0$ 和中心 0 变换 C 与自身相似，因此它们对 $\dot{C}$ 也同样相似，因此 $\dot{C}$ 是圆锥体；其余的推论来自 cor。 1 和明显的注，如果C不为空，那么$\overline{C}$包含是C的顶点。
+由于比率 $> 0$ 和中心 0 变换 C 与自身相似，因此它们对 $\dot{C}$ 也同样相似，因此 $\dot{C}$ 是圆锥体； 推论的其余部分来自 cor。 1 以及明显的注释，如果 C 不为空，则 $\overline{C}$ 包含于 C 的顶点。
 
 设 H 为 $\mathbf{R}$ 拓扑向量空间 E 中的闭超平面；它有一个方程形式 $f(x) = \alpha$，其中 $f$ 是连续的线性形式，与 E 中的零不同（I，p. 13，第 1）。因此，分别由$f(x) \leqslant \alpha$和$f(x) \geqslant \alpha$定义的闭合半部空间是*闭合*凸集合；它们的补集分别由$f(x) > \alpha$和$f(x) < \alpha$定义，是*开*凸集合。我们说这些半空间是由 H *确定*的闭（或开）半空间。
 
@@ -352,9 +352,9 @@ $$
 
 — *在拓扑向量空间* E 中，*令* A *为集合，且至少有一个内部点，并且其所有点位于超平面* H 的同一侧。 *然后* H * 闭合，* A *的内部点严格位于* H 的同一侧，*和簇* A 的点 *位于* H 的同一侧。 *特别是开（或闭）一半空间由闭超平面* 确定。
 
-事实上，假设 H 包含原点，$f(x) = 0$ 是 H 的方程；为了明确起见，假设 $f(x) \geqslant 0$ 对于所有 $x \in A$。由点 y 形成的半部空间，使得$f(y) > -1$ 包含至少有一个内部点，并且，通过翻译，同样适用于点 y 的半部空间，使得$f(y) > 0$；这表明 H 是封闭的（I，p. 11，推论）。那么我们知道$f$是E在$\mathbf{R}$上的严格态射（I，p. 13，推论），因此$f(\dot{A})$是$\mathbf{R}$中的开集合。这集合不能包含 0 或者它会包含数 $< 0$ 与假设相反；因此它包含在开区间 $]0, +\infty[$ 中。另一方面，那些 y 的一半空间 $f(y) \geqslant 0$ 是闭合的，并且包含 A，因此它是包含 $\overline{A}$。
+事实上，假设 H 包含原点，$f(x) = 0$ 是 H 的方程；为了明确起见，假设 $f(x) \geqslant 0$ 对于所有 $x \in A$。由点 y 形成的半部空间，使得$f(y) > -1$ 包含至少有一个内部点，并且，通过翻译，同样适用于点 y 的半部空间，使得$f(y) > 0$；这表明 H 是闭集 (I, p. 11, 推论)。那么我们知道$f$是E在$\mathbf{R}$上的严格态射（I，p. 13，推论），因此$f(\dot{A})$是$\mathbf{R}$上的开集合。这集合不能包含 0 或者它会包含数 $< 0$ 与假设相反；因此它包含在开放的区间$]0, +\infty[$中。另一方面，那些 y 的一半空间 $f(y) \geqslant 0$ 是闭集且包含 A，因此它是包含 $\overline{A}$。
 
-#### 推论{#evt-ii-s2-n6-cor-1 .statement tag=07C6}
+#### 推论 {#evt-ii-s2-n6-cor-1 .statement tag=07C6}
 
 — *设* P *为拓扑向量空间* E 的尖凸锥体，至少有一个内部点。 *然后每个线性形式* f *与* E上的零不相同，*并且对于由* P (II, p. 13)定义的预序结构为正，*必然是连续的*。 *此外，如果* x *位于* P *then* $f(x) > 0$ *的内部，并且如果* x *是* P *then* $f(x) \geqslant 0$的簇点。
 
@@ -458,7 +458,7 @@ $$
 
 提供$a \geqslant f(x)$和$b \geqslant f(y)$；因此 (1) 成立，$f$ 是凸的。
 
-#### 推论{#evt-ii-s2-n8-cor-1 .statement tag=07CD}
+#### 推论 {#evt-ii-s2-n8-cor-1 .statement tag=07CD}
 
 *如果 $f$ 在 $X$ 中是凸的，则对于所有 $\alpha \in \mathbf{R}$、$x \in X$ 的集合，使得 $f(x) \leqslant \alpha$（或 $f(x) < \alpha$）是凸的*。
 
@@ -511,11 +511,11 @@ $$
 
 因此，$f$以$y$的邻域为界，因此，通过第一个部分，在$y$处连续。 命题得证。
 
-#### 推论{#evt-ii-s2-n10-cor-1 .statement tag=07CG}
+#### 推论 {#evt-ii-s2-n10-cor-1 .statement tag=07CG}
 
 *在$\mathbf{R}^n$中的开凸集合X上定义的每个凸函数f在X中都是连续的。*
 
-我们可以假设 X 不为空。那么在X、$n + 1$中存在仿射独立点$a_i$($0 \leq i \leq n$)以及这些点、S、包含的凸包络由点$\sum_{i=0}^n \lambda_i a_i$构成的开非空集$0 < \lambda_i < 1$ 适用于所有 $i$ 和 $\sum_{i=0}^n \lambda_i = 1$。由II，p. 17，道具。 20, $f$ 在 S 中有界，因此是连续的。
+我们可以假设 X 不为空。那么，在X、$n + 1$仿射独立点$a_i$($0 \leq i \leq n$)和这些点、S、包含的凸包络中，存在由点$\sum_{i=0}^n \lambda_i a_i$构成的开非空集，其中$0 < \lambda_i < 1$ 适用于所有 $i$ 和 $\sum_{i=0}^n \lambda_i = 1$。由II，p. 17，道具。 20, $f$ 在 S 中有界，因此是连续的。
 
 在无限维数的拓扑向量空间中，通常存在线性不连续形式（II，p. 80，练习25），因此存在凸函数，它们在任何点都不连续。
 
@@ -549,7 +549,7 @@ $$
 
 E 上的凸正齐次函数称为*次线性*。
 
-如果$p$是定义在E上的次线性函数；然后，根据 II, § 2.8，推论，对于点 $x \in E$ 的所有 $a > 0$、集合 $V(p, a)$（分别为 $W(p, a)$），其中 $p(x) \leq a$（分别为 $p(x) < a$）是凸的；此外，这个集合是*吸收性的*，因为对于所有$x \in E$，存在$\lambda > 0$使得$p(\lambda x) = \lambda p(x) < a$。
+如果$p$是定义在E上的次线性函数；然后，通过II, § 2.8，推论，对于点$x \in E$的所有$a > 0$，集合$V(p, a)$（分别$W(p, a)$），其中$p(x) \leq a$（分别$p(x) < a$）是凸的；此外，这个集合是*吸收性的*，因为对于所有$x \in E$，存在$\lambda > 0$使得$p(\lambda x) = \lambda p(x) < a$。
 
 此结果的部分逆命题：
 
@@ -570,13 +570,13 @@ W(p_A, 1) \subset A \subset V(p_A, 1).
 $$
 *如果 A 是吸收性的，则 $p_A$ 是有限的*（因此 *次线性*）。
 
-由于当 $\lambda > 0$ 时，关系 $x \in \rho A$ 和 $\lambda x \in \lambda \rho A$ 是等价的，因此对于 $\lambda > 0$，我们有 $p_A(\lambda x) = \lambda p_A(x)$。令$x, y$为E的两个点。如果$x$（或$y$）不被A吸收，则$p_A(x) = +\infty$（或$p_A(y) = +\infty$）和不等式$p_A(x + y) \leq p_A(x) + p_A(y)$显然为真。假设存在$\alpha > 0, \beta > 0$使得$x \in \alpha A$和$y \in \beta A$；然后 $x + y \in \alpha A + \beta A = (\alpha + \beta) A$ (II, p. 8, *注*);因此$p_A(x + y) \leq p_A(x) + p_A(y)$。包含$A \subset V(p_A, 1)$显然是正确的。由于 A 是凸的且包含 0，因此包含$W(p_A, 1) \subset A$。最后，如果 A 是吸收性的，则 $p_A$ 显然是有限的。
+由于当 $\lambda > 0$ 时，关系 $x \in \rho A$ 和 $\lambda x \in \lambda \rho A$ 是等价的，因此对于 $\lambda > 0$，我们有 $p_A(\lambda x) = \lambda p_A(x)$。令$x, y$为E的两个点。如果$x$（或$y$）不被A吸收，则$p_A(x) = +\infty$（或$p_A(y) = +\infty$）和不等式$p_A(x + y) \leq p_A(x) + p_A(y)$显然为真。假设存在$\alpha > 0, \beta > 0$使得$x \in \alpha A$和$y \in \beta A$；然后 $x + y \in \alpha A + \beta A = (\alpha + \beta) A$ (II, p. 8, *注*);因此$p_A(x + y) \leq p_A(x) + p_A(y)$。包含$A \subset V(p_A, 1)$显然是正确的。由于 A 是凸的且包含 0，所以包含$W(p_A, 1) \subset A$。最后，如果 A 是吸收性的，则 $p_A$ 显然是有限的。
 
 由（7）定义的函数$p_A$称为凸集合A的*规范*。如果A是吸收性且对称的，则$p_A$是半范数。
 
 #### 命题 23 {#evt-ii-s2-prop-23 .statement tag=07CI}
 
-*设 E 为拓扑向量空间。如果 A 是开凸集合，其中包含 0，则 $p_A$ 是有限且连续的，$A = W(p_A, 1)$。如果 A 是闭凸集合包含 0，则 $p_A$ 是下半连续且 $A = V(p_A, 1)$。*
+*设 E 为拓扑向量空间。如果 A 是开凸集合，其中包含 0，则 $p_A$ 是有限且连续的，并且 $A = W(p_A, 1)$。如果 A 是闭凸集合包含 0，则 $p_A$ 是下半连续且 $A = V(p_A, 1)$。*
 
 如果 A 开且包含 0，则它是吸水性的。对于$x \in A$，存在$\rho < 1$使得$x / \rho \in A$，因此存在$p_A(x) < 1$；与 (9) 结合得到 $A = W(p_A, 1)$。由于凸函数 $p_A$ 的边界在开集合 A 中，因此它在 E 中是连续的（II，p. 18，命题 21）。
 

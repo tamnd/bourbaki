@@ -29,16 +29,16 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 9f8d27b406cc9211f2f5cc5de05e3d798b97809d4cce5e9e96db700c8b951af4
+content_sha256: c0952c9d63e911751b48d8031af215bb82f1767a48a0db6fa0c7b4b0fc43e999
 translated_from: content/en/lie/IX/08_s8_fourier_transform.md
 translation_method: google
 source_content_sha256: 6e2618147afc628c71099020ffa7e02b28b7fa041ad48e0d3fc7f7f992c4cf3b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 43a095631d30c68681c242233e10ba04864f8e17e81d986b3d15e24ef2675203
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 8。 傅里叶变换
@@ -165,7 +165,7 @@ $$
 
 当 G 是可交换的时，对于所有 $u\in \widehat{G}$，$\widehat{G}$ 是 G 的对偶群的基础集合（光谱理论，第 II, §1，第 $1$）$,d(u) = 1$，并且我们恢复傅里叶变换的定义在光谱理论，第一章。 II。
 
-### 2. 傅里叶变换无限微函数
+### 2. 傅里叶变换无限可微函数
 
 回想一下（第 III, §3, no. 1 章，定义 2），U(G) 表示 G 上的分布的代数，其支持包含在 $\{e\}$ 中。 $\mathfrak{g}$的典范嵌入进入U(G) 扩展到同构，从李代数$\mathfrak{g}$的包络线代数到U(G)（前述，no. 7，第25条）；从现在开始我们就通过这个认同这两个代数来同构。如果 $f$ 是 G 上的无限可微复数函数，并且如果 $t\in U(G)$，我们用 $L_tf$ 表示，G 上的 $R_tf$ 函数定义为
 
@@ -297,11 +297,11 @@ $^7$ 这是根据空间 $\mathscr{C}^{\infty}(G;\mathbf{C})$ 的事实得出的�
 
 $C^{\infty}$-收敛(§6, no. 4)，完备的。
 
-### 3. 中环傅里叶变换函数
+### 3. 中央傅里叶变换函数
 
 对于所有$u\in \widehat{G}$，用$u$的$\chi_u$特征标表示；因而，
 
-$\chi_u(g) =$ Tr($u(g)$)$,(g\in G)$。 (16) 回顾谱理论公式
+$\chi_u(g) =$ Tr($u(g)$)$,(g\in G)$。 (16) 回忆光谱理论公式
 
 $$
 \chi_u*\chi_v= 0(u, v\in \widehat{G}, u\not=v) \tag{17}
@@ -393,7 +393,7 @@ $^8$ 我们将 End(E$_u$) 嵌入到乘积 $F( \widehat{G}) =\prod_{v\in\widehat{
 
 $A\in$结束（E$_u$）族$(A_v)_{v\in\widehat{G}}$，使得$A_u= A$和$A_v= 0$为$v\not=u$。
 
-#### 推论{#lie-ix-s8-n3-cor-1 .statement tag=01H7}
+#### 推论 {#lie-ix-s8-n3-cor-1 .statement tag=01H7}
 
 设$f$是G上的连续中心函数。则$f$是无限可微的当且仅当$f$的限制对T是无限可微的。
 
@@ -403,7 +403,7 @@ $\langle \chi_u|f\rangle =\int_G\overline{\lambda(u)(t)}\varphi (t)dt$，其中$
 
 如果 $f|T$ 是无限可微的，$\varphi$ 也是无限可微的；根据第 5 条，应用于群 T，$\widehat{T} = X(T)$ 上的函数 $\mu \rightarrow \int_T\overline{\mu(t)}\varphi (t)dt$ 则迅速递减，函数 $u \rightarrow  \langle \chi_u|f\rangle$ 也如此；因此函数 $f$ 是无限可微的（命题 5）。 逆命题很清楚。
 
-### 4. G 中环函数和 T 函数
+### 4. G 线中央函数和 T 线函数
 
 用 G 上连续复值函数的 $\mathscr{C}(G)$ 空间和无限可微函数的 $\mathscr{C}^{\infty}(G)$ 子空间表示。那么我们就有序列的内含物
 

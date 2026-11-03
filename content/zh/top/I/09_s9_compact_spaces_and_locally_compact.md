@@ -53,16 +53,16 @@ subsections:
       pdf_page: 100
 statements: 52
 exercises: 29
-content_sha256: d7f708c8d6ab185dcdb67c3e03d85ca6afe354e2d9b90b0e864c00aeecfbe483
+content_sha256: 039c95ffc737bc7216783a032055353b91be48a871a626a46b1a20cd2f6be698
 translated_from: content/en/top/I/09_s9_compact_spaces_and_locally_compact.md
 translation_method: google
 source_content_sha256: 5bd050717f2292378262b65271babbb584eca08fd5d5c1237ffed7a2b1b60829
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 91f3e8b78472390f17cd993f3c4c61458879f3efb9af53ba7e7b3169e506e548
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 9. 紧凑空间和局部紧凑空间
@@ -83,15 +83,15 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (C') ** $X$ *上的每个超滤器都会收敛*。
 
-(C') $\Longrightarrow$ (C)：如果$\mathfrak{F}$是$X$上的过滤器，则存在比$\mathfrak{F}$（§ 6, no. 4，定理 1）超过滤器更细。由于该超滤器收敛于点$x$，因此$x$是$\mathfrak{F}$的集群点。
+(C') $\Longrightarrow$ (C)：如果$\mathfrak{F}$是$X$上的过滤器，则存在比$\mathfrak{F}$（§ 6, no. 4，定理 1）超过滤器更细。由于该超滤器收敛于点$x$，因此$x$是$\mathfrak{F}$的簇点。
 
-(C) $\Longrightarrow$ (C')：如果超滤器有一个簇点，那么它会收敛到点（§ 7, no. 2，命题 4 的推论）。
+（C）$\Longrightarrow$（C'）：如果超滤器有一个簇点，那么它会收敛到这个点（§ 7, no. 2，推论到命题4）。
 
 如果$f$是集合$Z$的映射转化为准紧凑空间$X$，并且$\mathfrak{U}$是$Z$上的超滤器，则$f$至少有一个极限点相对于 $\mathfrak{U}$ (§ 6, no. 6, 命题 10)。
 
 (C'') *每个闭族子集* $X$ *其交为空包含一个有限子族，其交为空*。
 
-(C) $\Longrightarrow$ (C''): 设$\mathfrak{G}$是$X$的封闭子集和空交的族。如果 $\mathfrak{G}$ 的每个有限子族都有一个非空交，则 $\mathfrak{G}$ 生成是一个过滤器（§ 6, no. 2，命题 1），其集群为点 × 假设。这点属于至 $\mathfrak{G}$ 的所有集合（因为它们已关闭）；所以我们有矛盾。
+(C) $\Longrightarrow$ (C''): 设$\mathfrak{G}$是$X$的封闭子集和空交的族。如果$\mathfrak{G}$的每个有限子族都有一个非空交，则$\mathfrak{G}$生成是一个过滤器（§ 6, no. 2，命题1），它具有点乘假设的簇。这点属于至 $\mathfrak{G}$ 的所有集合（因为它们已关闭）；所以我们有矛盾。
 
 $(C'') \implies (C)$：如果$(C)$为假，则$X$上有一个过滤器$\mathfrak{F}$，它没有集群点；因此，$\mathfrak{F}$形式的集合闭包，$X$的闭子集族与公理$(C'')$相矛盾。
 
@@ -103,7 +103,7 @@ $(C''') \iff (C'')$ 通过服用补品。
 
 #### 例 1 {#top-i-s9-n1-exa-1 .statement tag=0B7T}
 
-每个*有限* 空间都是*拟紧的*，更一般地，每个空间其中只有有限个数的开集合都是准紧的。有限空间是紧致的，当且仅当它是离散的，因为有限 Hausdorff 空间是离散的（$§ 8$，no. 1，命题 3 的推论）。相反，*每个紧离散空间都是有限的*，因为单个点的空间集合由……组成是开路；因此空间由$(C''')$有限。
+每个*有限* 空间都是*拟紧的*，更一般地，每个空间其中只有有限个数的开集合都是准紧的。有限空间是紧的当且仅当它是离散的，因为有限 Hausdorff 空间是离散的（$§ 8$、no. 1、推论到命题 3）。相反，*每个紧离散空间都是有限的*，因为单个点的空间集合由……组成是开路；因此空间由$(C''')$有限。
 
 #### 例 2 {#top-i-s9-n1-exa-2 .statement tag=0B7U}
 
@@ -119,27 +119,27 @@ $(C''') \iff (C'')$ 通过服用补品。
 
 令$V$为$A$的邻域，并假设$\mathfrak{F}$的每个集合都可能满足$\complement V$。 $\mathfrak{F}$ 集合交和 $\complement V$ 然后 $X$ 上的一个过滤器 $\mathfrak{G}$ 形式基； $X$是拟紧的，因此$\mathfrak{G}$至少有一个簇点$y$，而不是属于到$A$，因为$A$的邻域$V$不满足集合的一些$\mathfrak{G}$。但由于$\mathfrak{G}$比$\mathfrak{F}$*更细*，$y$也是$\mathfrak{F}$的簇点，这与假设相反。
 
-#### 推论{#top-i-s9-n1-cor-1 .statement tag=0B7X}
+#### 推论 {#top-i-s9-n1-cor-1 .statement tag=0B7X}
 
 为了使紧凑空间上的滤波器收敛，它具有单个集群点是必要且充分的。
 
 必要性按§ 8, no. 1、命题 1；以上定理 1 就足够了。
 
-### 2. 紧凑的规则性空间
+### 2. 紧凑的正则性空间
 
 #### 命题 1 {#top-i-s9-prop-1 .statement tag=0B7Y}
 
 令 X 为 X 的紧凑空间、x 点。在阶中，由x的闭邻域形成的滤波器基B应该是x的邻域的基本系统，B的集合的交仅由x组成是充分必要的。
 
-条件是必要的，因为 X 是 Hausdorff (§ 8, no. 1, 命题 1)。这是足够的，因为它表示 x 是 B 的唯一簇点；因此 B 通过 no. 1 的定理 1 的推论收敛到 x。
+条件是必要的，因为 X 是 Hausdorff (§ 8, no. 1, 命题 1)。这是足够的，因为它表示 x 是 B 的唯一簇点；因此 B 通过 no. 1 的推论收敛到 x 到定理 1。
 
-#### 推论{#top-i-s9-n2-cor-1 .statement tag=0B7Z}
+#### 推论 {#top-i-s9-n2-cor-1 .statement tag=0B7Z}
 
 每个紧凑空间都是正则。
 
 因为根据公理 (Hi) (§ 8, no. 1, 命题 1) 可以得出，空间的任意点的所有闭邻域形成的滤波器基满足命题 1 的条件。
 
-下面的命题将推论放大为命题1：
+以下命题将推论放大为命题1：
 
 #### 命题 2 {#top-i-s9-prop-2 .statement tag=0B80}
 
@@ -171,7 +171,7 @@ no. 1 的例 2 的非豪斯多夫拟紧空间 X 既不是满足公理 (O_{III})�
 
 *拟紧致*（或*紧*）的每个闭子集 *空间都是拟紧*（或*紧*）。
 
-这是公理$(C'')$的直接的推论，如果我们注，如果$A$在$X$中闭合，那么在$A$中闭合的每个集合在$X$中闭合。
+这是公理$(C'')$的直接的推论，如果我们注意到如果$A$在$X$中封闭，那么在$A$中封闭的每个集合在$X$中封闭。
 
 #### 命题 4 {#top-i-s9-prop-4 .statement tag=0B85}
 
@@ -179,7 +179,7 @@ no. 1 的例 2 的非豪斯多夫拟紧空间 X 既不是满足公理 (O_{III})�
 
 令$A$为Hausdorff空间$X$的紧子集，并令$x$为$\overline{A}$的任意点；我们必须证明$x \in A$。到假设，$x$的每个邻域都满足$A$，因此邻域在$X$诱导中过滤$x$的$\mathfrak{B}$，在$A$上过滤$\mathfrak{B}_A$； $A$ 是紧凑的从而 $\mathfrak{B}_A$ 有一个簇点 $y \in A$。由于过滤器$\mathfrak{B}$比$\mathfrak{B}_A$生成的$X$上的过滤器更粗糙（被视为$X$上的过滤器基），$y$也是$\mathfrak{B}$的集群点；因此$y = x$，因为$\mathfrak{B}$在$X$中收敛到$x$，并且$X$是豪斯多夫（§ 8, no. 1，命题1）。
 
-#### 推论{#top-i-s9-n3-cor-1 .statement tag=0B86}
+#### 推论 {#top-i-s9-n3-cor-1 .statement tag=0B86}
 
 *在紧致空间* $X$ *子集* $A$ *是紧致当且仅当它闭于* $X$。
 
@@ -191,35 +191,35 @@ no. 1 的例 2 的非豪斯多夫拟紧空间 X 既不是满足公理 (O_{III})�
 
 #### 定义 3 {#top-i-s9-def-3 .statement tag=0B88}
 
-*子集* $A$ *拓扑空间* $X$ *据说是相对拟紧*（分别为*相对紧*）*在* $X$ *如果* $A$ *包含在准紧*（分别为*紧*）*子集*中$X$。
+*子集* $A$ *拓扑空间* $X$ *据说是相对准紧*（分别*相对紧*）*在* $X$ *如果* $A$ *包含在准紧*（分别*紧*）中*子集*$X$。
 
-简而言之，当$X$没有歧义时，我们还说$A$是“相对拟紧集”（分别是“相对紧集”）。在*Hausdorff* 相对拟紧集的空间概念和相对紧集是相同的。
+简而言之，当$X$没有歧义时，我们也说$A$是一个“相对准紧集”（分别是“相对紧集”）。在*Hausdorff* 相对拟紧集的空间概念和相对紧集是相同的。
 
 #### 命题 6 {#top-i-s9-prop-6 .statement tag=0B89}
 
 *如果$X$是豪斯多夫空间，$X$的子集$A$是相对紧的当且仅当$\overline{A}$是紧的。*
 
-如果$A$是相对紧致的，那么$\overline{A}$是由命题 4及其推论紧致的；反过来的含义是不言而喻的。
+如果 $A$ 是相对紧的，那么 $\overline{A}$ 是由命题 4 及其推论紧的；反过来的含义是不言而喻的。
 
 #### 命题 7 {#top-i-s9-prop-7 .statement tag=0B8A}
 
 *如果$A$是拓扑空间$X$的相对准紧子集，则$A$上的每个过滤器基在$X$中都有一个簇点。*
 
-对于如果$A \subset K$，其中$K$是$X$的拟紧子集，则$A$上的每个过滤器基在$K$中都有一个集群点。
+对于如果$A \subset K$，其中$K$是$X$的准紧子集，则$A$上的每个过滤器基在$K$中都有一个集群点。
 
-如果没有 $X$ (习题 22) 上的限制，则此命题的逆命题无效。
+如果没有限制，此命题的逆命题在$X$（习题22）上无效。
 
-#### 注 {#top-i-s9-n3-rem-1 .statement tag=0B8B}
+#### 注{#top-i-s9-n3-rem-1 .statement tag=0B8B}
 
-在非 Hausdorff 空间中，紧集不需要闭集，并且它的闭包不需要是拟紧的 (习题 5)；两个紧集中的交不必是拟紧的 (习题 5)；两个紧集的并不必是紧凑的 (习题 5)。
+在非 Hausdorff 空间中，紧集不需要闭集，并且它的闭包不需要是拟紧的（习题 5）；两个紧集中的交不必是拟紧的（习题5）；两个紧集中的并不必是紧凑的 (习题 5)。
 
-### 4. 紧致空间下连续映射的像
+### 4. 连续映射下紧致空间的像
 
 #### 定理 2 {#top-i-s9-thm-2 .statement tag=0B8C}
 
-*如果$f$是拟紧空间$X$到拓扑空间$X'$的连续映射，则集合$f(X)$是拟紧的。*
+*如果$f$是准紧空间$X$到拓扑空间$X'$的连续映射，则集合$f(X)$是准紧的。*
 
-设$\mathscr{R}$是$X'$中开集合对$f(X)$的覆盖；那么 $\overline{f}^{-1}(\mathscr{R})$ 是 $X$ (§ 2, no. 1, 定理 1) 的开覆盖；因此，$\mathscr{R}$有有限子集$\mathscr{S}$，使得$(\mathscr{S} \overline{f})$覆盖$X$；但$\mathscr{S}$是$f(X)$的覆盖并且定理被证明。
+设$\mathscr{R}$是$f(X)$在$X'$中开集合的覆盖；那么 $\overline{f}^{-1}(\mathscr{R})$ 是 $X$ (§ 2, no. 1, 定理 1) 的开覆盖；因此，存在$\mathscr{R}$的有限子集$\mathscr{S}$，使得$(\mathscr{S} \overline{f})$覆盖$X$；但$\mathscr{S}$是$f(X)$的覆盖，并且定理被证明。
 
 #### 推论 1 {#top-i-s9-thm-2-cor-1 .statement tag=0B8D}
 
@@ -229,7 +229,7 @@ no. 1 的例 2 的非豪斯多夫拟紧空间 X 既不是满足公理 (O_{III})�
 
 *准紧空间 $X$ 到 Hausdorff 空间 $X'$ 的每个连续映射 $f$ 都是闭集。如果 $f$ 也是双射，那么 $f$ 是同胚。*
 
-这直接从 no. 3 的推论 1 和命题 4 得出。
+这紧接着 no. 3 的推论 1 和命题 4。
 
 特别是：
 
@@ -241,27 +241,27 @@ no. 1 的例 2 的非豪斯多夫拟紧空间 X 既不是满足公理 (O_{III})�
 
 *设$X$为拓扑空间，$R$为$X$上的豪斯多夫等价关系。*
 
-a) *如果$X$中有一个拟紧集$K$满足每个等价类模$R$，则$X/R$是紧集，并且$K/R_K$到$X/R$的典范映射是同胚。*
+a) *如果$X$中有一个准紧集$K$满足每个等价类模$R$，则$X/R$是紧集，并且$K/R_K$到$X/R$的典范映射是同胚。*
 
 b) *如果$K$也仅在一个点中满足每个等价类，则$K$是$X$相对于关系$R$* (§ 3, no. 5)的连续截面。
 
-令$f$为典范映射$X \to X/R$中的限制至$K$。由于 $X/R$ 是 Hausdorff，因此从推论 1 可以得出 $X/R$ 是紧的，并且从推论 2 可以得出 $f$ 是闭的；因此，双射的$K/R_K \to X/R$与$f$相关联是同胚（§ 5, no. 2，命题3）。这涉及到a）； b) 紧随其后，因为我们现在有 $K/R_K = K$。
+令$f$为典范映射$X \to X/R$中的限制至$K$。由于 $X/R$ 是 Hausdorff，因此从推论 1 可以得出 $X/R$ 是紧的，并且从推论 2 可以得出 $f$ 是闭的；因此双射 $K/R_K \to X/R$ 与 $f$ 相关联是同胚 (§ 5, no. 2, 命题 3)。这涉及到a）； b) 紧随其后，因为我们现在有 $K/R_K = K$。
 
-### 5. 乘积紧凑型空间
+### 5. 紧凑型乘积空间
 
 #### 定理 3（吉洪诺夫）{#top-i-s9-thm-3 .statement tag=0B8H}
 
-*准紧致（或紧致）空间的每个乘积都是准紧致（或紧致）。相反，如果非空空间的乘积是准紧致（或紧致），则每个因子都是拟紧致（或紧致）。*
+*准紧致（或紧致）的每个乘积空间都是准紧致（或紧致）。相反，如果非空空间的乘积是准紧致（或紧致），则每个因子都是拟紧致（或紧致）。*
 
-鉴于§ 8, no. 2、命题 7 中给出的 Hausdorff 乘积空间的刻画，足以证明断言对于准紧空间。如果 $X = \prod_{i \in I} X_i$ 是拟紧且非空，则 $X_i = \operatorname{pr}_i(X)$ 是准紧，因为定理 2 of no. 4。相反，假设$X_i$是准紧致的，并让$\mathfrak{U}$是$X$上的超滤器；那么对于每个$i \in I$，$\operatorname{pr}_i(\mathfrak{U})$是$X_i$（§ 6, no. 6，命题10）上的超滤波器基，因此根据公理（C'）收敛；因此$\mathfrak{U}$是收敛的（§ 7, no. 6，命题10的推论1），因此$X$是拟紧的。
+鉴于§ 8, no. 2、命题 7 中给出的 Hausdorff 乘积空间刻画，足以证明断言为拟紧空间。如果$X = \prod_{i \in I} X_i$是拟紧且非空的，则$X_i = \operatorname{pr}_i(X)$由于定理2 of no. 4是拟紧的。相反，假设$X_i$是准紧致的，并让$\mathfrak{U}$是$X$上的超滤器；那么对于每个$i \in I$，$\operatorname{pr}_i(\mathfrak{U})$是$X_i$（§ 6, no. 6，命题10）上的超滤波器基，因此根据公理（C'）收敛；因此 $\mathfrak{U}$ 是收敛的（§ 7, no. 6, 推论 1 of 命题 10），因此 $X$ 是拟紧的。
 
-#### 推论{#top-i-s9-n5-cor-1 .statement tag=0B8I}
+#### 推论 {#top-i-s9-n5-cor-1 .statement tag=0B8I}
 
-*为了使拓扑空间的乘积的子集相对拟紧，其每个投影在相应的因子中相对拟紧是必要且充分的。*
+*为了使拓扑空间的乘积的子集相对拟紧，其每个投影在相应的因子中应相对拟紧是必要且充分的。*
 
-必然性来自定理 2 of § 4。为了证明充分性，令$A$为$\prod_i X_i$的子集，这样，对于每个指标$i$，$\operatorname{pr}_i(A)$都包含在$X_i$的准紧子集$K_i$中；那么$A$包含在$\prod_i X_i$的准紧子集$\prod_i K_i$中。
+必然性来自定理 2 of § 4。为了证明充分性，令$A$为$\prod_i X_i$的子集，这样，对于每个指标$i$，$\operatorname{pr}_i(A)$都包含在$X_i$的准紧子集$K_i$中；则$A$包含在$\prod_i X_i$的拟紧子集$\prod_i K_i$中。
 
-### 6. 逆极限紧凑型空间
+### 6. 紧凑型逆极限空间
 
 #### 命题 8 {#top-i-s9-prop-8 .statement tag=0B8J}
 
@@ -272,13 +272,13 @@ f_\alpha(X) = \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta).
 $$
 b) *如果* $X_\alpha$ *都非空，则* $X$ *非空*。
 
-$X$是$\prod_\alpha X_\alpha$的闭子空间（§ 8, no. 2，命题7，推论2），它由no. 5的定理3和no. 3的命题3压缩。其他断言是*集合理论*的推论，第1章。 III, § 7, no. 4，第。 1. 我们通过将$\mathscr{S}_\alpha$取为$X_\alpha$的闭合子集的集合来应用此定理。 条件 (i) 和 (ii) 分别是公理 $(O'_1)$ 和 $(C'')$；由于$\{x_\alpha\}$是闭集且$f_{\alpha\beta}$连续（§ 2, no. 1，定理1），因此条件（iii）得到满足，最后，由于no. 4的定理2的推论2，条件（iv）得到满足。
+$X$ 是$\prod_\alpha X_\alpha$ (§ 8, no. 2, 命题 7, 推论 2) 的闭子空间，它由no. 5 的定理 3 和no. 3 的命题 3 压缩。其他断言是*集合理论*的推论，第1章。 III, § 7, no. 4，第。 1. 我们通过将$\mathscr{S}_\alpha$取为$X_\alpha$的封闭子集的集合来应用此定理。 条件 (i) 和 (ii) 分别是公理 $(O'_1)$ 和 $(C'')$；由于$\{x_\alpha\}$是封闭的并且$f_{\alpha\beta}$连续（§ 2, no. 1，定理1），条件（iii）得到满足，最后条件（iv）由于no. 4的定理2中的推论2而得到满足。
 
 #### 推论 1 {#top-i-s9-prop-8-cor-1 .statement tag=0B8K}
 
 *令* $(X_\alpha, f_{\alpha\beta})$ *为由有向集合索引的拓扑空间的逆系，使得对于指标*$\alpha, \beta$的每个对*对于其中*$\alpha \leq \beta$*以及对于每个*$x_\alpha \in X_\alpha$， $\overline{f}_{\alpha\beta}^{-1}(x_\alpha)$ *紧凑*。 *则方程 (1) 有效，并且* $\overline{f}_{\alpha}^{-1}(x_\alpha)$ *对于每个指标* $\alpha$ *和每个* $x_\alpha \in X_\alpha$ 都是紧凑的。
 
-对于每个$x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta)$和每个$\beta \geq \alpha$，让$L_\beta$表示$\overline{f}_{\alpha\beta}^{-1}(x_\alpha)$。如果$\alpha \leq \beta \leq \gamma$，那么我们有$f_{\beta\gamma}(L_\gamma) \subset L_\beta$，并且所有指标$\beta \geq \alpha$中的集合在指标集合中是共尾的。紧接着拓扑空间的$L_\beta$ ($\beta \geq \alpha$) 形式逆系（$f_{\beta\gamma}$的限制为映射），其逆极限$L$同胚于$\overline{f}_{\alpha}^{-1}(x_\alpha)$。由于到假设时，$L_\beta$ 是紧致的且不为空，因此推论由命题 8 得出。
+对于每个$x_\alpha \in \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta)$和每个$\beta \geq \alpha$，让$L_\beta$表示$\overline{f}_{\alpha\beta}^{-1}(x_\alpha)$。如果$\alpha \leq \beta \leq \gamma$，那么我们有$f_{\beta\gamma}(L_\gamma) \subset L_\beta$，并且所有指标$\beta \geq \alpha$中的集合在指标集合中是共尾的。紧接着拓扑空间的$L_\beta$ ($\beta \geq \alpha$) 形式逆系（$f_{\beta\gamma}$的限制为映射），其逆极限$L$为同态于 $\overline{f}_{\alpha}^{-1}(x_\alpha)$。由于到假设时，$L_\beta$ 是紧凑的且不为空，因此推论由命题 8 得出。
 
 #### 推论 2 {#top-i-s9-prop-8-cor-2 .statement tag=0B8L}
 
@@ -289,13 +289,13 @@ b) *如果 $X_\alpha$ 是紧致的，$X'_\alpha$ Hausdorff 和 $u_\alpha$ 满射
 
 设$L_\alpha$表示$\overline{u}_\alpha^{-1}(x'_\alpha)$；那么显然拓扑空间的$L_\alpha$形式逆系（$f_{\alpha\beta}$的限制为映射），$\overline{u}^{-1}(x' = L)$是$L_\alpha$的逆极限；因此，断言 a) 由命题 8 得出。鉴于no. 3 的命题 3，断言 b) 为直接的推论。
 
-### 7. 局部紧空间
+### 7. 局部紧凑空间
 
 #### 定义 4 {#top-i-s9-def-4 .statement tag=0B8M}
 
 *拓扑空间$X$如果是豪斯多夫且$X$的每个点都有一个紧邻域，则称其为局部紧致。*
 
-显然，紧致空间是局部紧致的，但逆命题是假的；对于例，每个*离散* 空间都是局部紧致的，但如果*无限*则不是紧致的。
+显然，紧致空间是局部紧致的，但逆命题是假的；例如，每个*离散*空间都是局部紧致的，但如果*无限*则不是紧致的。
 
 \* 正如我们将在章 IV, § 2 中看到的，实直线 $\mathbf{R}$ 是局部紧致的，但不是紧致的。 \*
 
@@ -303,9 +303,9 @@ b) *如果 $X_\alpha$ 是紧致的，$X'_\alpha$ Hausdorff 和 $u_\alpha$ 满射
 
 *每个局部紧凑空间都是正则的。*
 
-令$X$为局部紧致空间，则每个点$x \in X$都有一个紧致邻域$V$；由于 $X$ 是 Hausdorff，$V$ 是闭集（no. 3，命题 4）。另一方面，$V$是$X$的正则子空间（no. 2，命题1的推论），因此$X$是正则（§ 8, no. 4，命题13）。
+令$X$为局部紧致空间，则每个点$x \in X$都有一个紧致邻域$V$；由于 $X$ 是 Hausdorff，$V$ 是闭集（no. 3，命题 4）。另一方面，$V$是$X$的正则子空间（no. 2，推论到命题1），因此$X$是正则（§ 8, no. 4，命题13）。
 
-#### 推论{#top-i-s9-n7-cor-1 .statement tag=0B8O}
+#### 推论 {#top-i-s9-n7-cor-1 .statement tag=0B8O}
 
 *在局部紧致空间中，每个点都有紧致邻域的基本系统。*
 
@@ -313,7 +313,7 @@ b) *如果 $X_\alpha$ 是紧致的，$X'_\alpha$ Hausdorff 和 $u_\alpha$ 满射
 
 存在*非豪斯多夫*拓扑空间，其中每个点都有紧致邻域（习题5）的基本系统。
 
-命题 9 的推论可概括如下：
+推论到命题9可以概括如下：
 
 #### 命题 10 {#top-i-s9-prop-10 .statement tag=0B8P}
 
@@ -341,9 +341,9 @@ W(x) 形式当 x 穿过 K 时 K 的开覆盖；因此，存在点 $x_i \in K$ ($
 
 设 A 为 X 的局部闭子空间；那么对于每个$x \in A$，X中的x有邻域 U，使得$U \cap A$在U中闭。令$V \subset U$是X中x的紧凑邻域； $V \cap A = V \cap (U \cap A)$ 在 V 中闭合，因此是紧凑的（no. 3，命题 3）。由于$V \cap A$是A中x的邻域，所以结果得证（显然A是Hausdorff）。
 
-定理 1 (no. 1) 和定理 2 (no. 4) 的推论 2 *不要扩展* 到局部紧凑的空间，因为空间不是紧凑的。
+定理 2 (no. 4) 的定理 1 (no. 1) 和推论 2 *不要扩展* 到局部紧凑的空间，因为空间不是紧凑的。
 
-对于例，在无限离散空间X中，那些集合的滤波器由……组成，其中包含给定点$x \in X$并且具有有限补集，将x作为其唯一簇点，但不收敛于x。由于 X 的任何映射 f 进入 Hausdorff 空间 X' 都是连续的，因此 X 的任意子集的 f 下的像（在 X 中是闭集，因为 X 是离散的）通常不会是闭集子集共 X'。
+例如，在无限离散空间 X 中，那些集合的滤波器由……组成其中包含给定点 $x \in X$ 并且具有有限补集，将 x 作为其唯一簇点但不收敛于 x。由于 X 的任何映射 f 进入 Hausdorff 空间 X' 都是连续的，因此 X 的任意子集的 f 下的像（在 X 中是闭集，因为 X 是离散的）通常不会是闭集子集共 X'。
 
 no. 5中的命题相应的到定理3如下：
 
@@ -355,9 +355,9 @@ b) *相反，如果非空拓扑空间的族 $(X_i)_{i \in I}$ 的乘积是局部
 
 a) 设$x = (x_i)$为$X$的点。对于每个指标$i \in I$，使得$X_i$是局部紧致但不是紧致的，让$V_i$是$X_i$中$x_i$的紧致邻域，并且对于所有其他指标$i$放置$V_i = X_i$。那么$\prod_{i \in I} V_i$是$X$中$x$的紧邻域（no. 5，定理3）。另外 $X$ 是 Hausdorff by , no. 2, 命题 7，因此是局部紧致的
 
-b) 如果$X = \prod_{i \in I} X_i$是局部紧致的且$X_i$非空，则每个$X_i$同胚于$X$的闭子空间（$§ 4$、no. 2、命题 4和$§ 4$、no. 3，推论命题 7)，因此局部压缩命题 13。 令$a = (a_i)$为$X$的点，并令$V$为$a$的紧致邻域；因为除了指标 ($§ 4$, no. 1) 的有限数之外，我们都有 $\operatorname{pr}_i V = X_i$，所以从no. 4，推论 1 到定理 2，$X_i$ 都是紧的，除了有限的数之外指标。
+b) 如果$X = \prod_{i \in I} X_i$是局部紧致的并且$X_i$非空，则每个$X_i$同胚于$X$的闭子空间（$§ 4$，no. 2，命题4和$§ 4$，no. 3， 推论到命题 7)，因此由命题 13 局部压缩。令 $a = (a_i)$ 为 $X$ 的点，并令 $V$ 为 $a$ 的紧凑邻域；因为除了指标 ($§ 4$, no. 1) 的有限数外，我们都有 $\operatorname{pr}_i V = X_i$，所以从 no. 4、推论 1 到定理 2，$X_i$ 都是紧的，除了有限的数共指标。
 
-### 8. 将局部紧致空间嵌入紧致空间
+### 8. 将局部紧凑空间嵌入紧凑空间
 
 #### 定理 4（亚历山德罗夫）{#top-i-s9-thm-4 .statement tag=0B8U}
 
@@ -367,7 +367,7 @@ b) 如果$X = \prod_{i \in I} X_i$是局部紧致的且$X_i$非空，则每个$X
 $$
 f(X) = X' - \{ \omega \} \quad \text{and} \quad f_1(X) = X'_1 - \{ \omega_1 \}.
 $$
-如果同态$g$存在，它一定是唯一的，因为到定义，如果$x' \neq \omega$，我们有$g(x') = f_1(\overline{f}(x'))$，因此有$g(\omega) = \omega_1$。 仍有待证明由此定义的双射 $g : X' \to X'_1$ 是双连续的；由于$X'$和$X'_1$可以互换，我们只需证明点$x' \in X'$的邻域$g$下的像是$X'_1$中$g(x')$的邻域。 这从 $g$ if $x' \neq \omega$ 的定义可以明显看出。 如果$x' = \omega$，则令$V'$为$\omega$在$X'$的开邻域；那么 $X' - V' = K$ 在 $X'$ 中闭合，因此是紧凑的 (no. 3, 命题 3) 并且包含在 $f(X)$ 中；因此 $g(K) = f_1(\overline{f}(K))$ 是紧致的（no. 4，定理 2，推论 1）。 由此可知 $g(V') = X'_1 - g(K)$ 是 $\omega_1$ (no. 3, 命题 4) 的开邻域。 因此 $g$ 是同胚。
+如果同态$g$存在，它一定是唯一的，因为到定义，如果$x' \neq \omega$，我们有$g(x') = f_1(\overline{f}(x'))$，因此有$g(\omega) = \omega_1$。 仍有待证明由此定义的双射 $g : X' \to X'_1$ 是双连续的；由于$X'$和$X'_1$可以互换，我们只需证明点$x' \in X'$的邻域$g$下的像是$X'_1$中$g(x')$的邻域。 这从 $g$ if $x' \neq \omega$ 的定义可以明显看出。 如果$x' = \omega$，则令$V'$为$\omega$在$X'$的开邻域；那么 $X' - V' = K$ 在 $X'$ 中闭合，因此是紧凑的 (no. 3, 命题 3) 并且包含在 $f(X)$ 中；因此 $g(K) = f_1(\overline{f}(K))$ 是紧致的 (no. 4, 定理 2, 推论 1)。 由此可知 $g(V') = X'_1 - g(K)$ 是 $\omega_1$ (no. 3, 命题 4) 的开邻域。 因此 $g$ 是同胚。
 
 为了证明定理的第一个部分，令$X'$为集合，即$X$的和和单个点$\omega$的集合由……组成。我们在$X'$上进行定义拓扑，取$X'$的开放子集的集合$\mathscr{O}$，由$X$的所有开放子集和形式的所有子集组成$(X - K) \cup \{ \omega \}$，其中$K$是$X$的紧致子集。由于 $X$ 的紧致子集的任何交都是紧致的（no. 3、命题 3 和 4），并且由于紧集的任何闭闭子集都是紧致的（no. 3、命题 3），因此有$\mathfrak{D}$满足公理$(O_I)$；并且由于 $X$ 的紧致子集的任何有限并都是紧致的 (no. 3, 命题 5)，因此 $\mathfrak{D}$ 也满足 $(O_{II})$。 $X$ 的每个紧凑子集在$X$（no. 3，命题 4）中闭合，因此由 $X'$ 在$X$ 诱导的拓扑是$X$ 上的原始拓扑。因此，仍然需要证明 $X'$ 是紧的。首先，$X'$ 是 *Hausdorff*。因为如果$x, y$是$X$中任意两个不同的点，则它们分别在$X$中开不相交的、邻域、$V, W$，并且在$X'$中开$V, W$；另一方面，每个$x \in X$在$X$中有一个紧凑的邻域$K$，它也是$X'$中$x$的邻域，而
 
@@ -405,7 +405,7 @@ Hausdorff 空间可以是紧致子空间的可数并，而不是局部紧致。 
 
 *如果$X$是局部紧致$\sigma$紧致空间，则$X$的相对紧致开子集有序列$(U_n)$覆盖$X$，使得每个$\overline{U}_n \subset U_{n+1}$ $n$。
 
-令 $X$ 为序列 $(K_n)$ 紧集中的并。令$U_1$为$K_1$（no. 7，命题10）的相对紧开邻域，并归纳定义$U_n$，使$n > 1$为邻域的相对紧紧开邻域 $\overline{U}_{n-1} \in K_n$（no. 3、命题 5；no. 7、命题 10）。 序列 $(U_n)$ 显然具有所需的属性。
+令$X$为并/序列$(K_n)$/紧集。令$U_1$为$K_1$（no. 7，命题10）的相对紧开邻域，并归纳定义$U_n$，使$n > 1$为邻域的相对紧紧开邻域 $\overline{U}_{n-1} \in K_n$（no. 3、命题 5；no. 7、命题 10）。 序列 $(U_n)$ 显然具有所需的属性。
 
 #### 推论 1 {#top-i-s9-prop-15-cor-1 .statement tag=0B90}
 
@@ -415,9 +415,9 @@ Hausdorff 空间可以是紧致子空间的可数并，而不是局部紧致。 
 
 #### 推论 2 {#top-i-s9-prop-15-cor-2 .statement tag=0B91}
 
-*令$X$为局部紧致空间，并令$X'$为通过在无穷远$\omega$与$X$（no. 8）处邻接点而获得的紧致空间。那么$X$是$\sigma$紧的当且仅当点$\omega$在$X'$中具有邻域的可数基本系统。
+*令$X$为局部紧致空间，并令$X'$为通过在无穷大$\omega$与$X$（no. 8）处邻接点而获得的紧致空间。那么$X$是$\sigma$紧的当且仅当点$\omega$在$X'$中具有邻域的可数基本系统。
 
-If $X$ is $\sigma$-compact we can construct a sequence of subsets $U_n$ of $X$ as in Proposition 15, and the neighbourhoods $X' - \overline{U}_n$ of $\omega$ in $X'$ form a fundamental system of neighbourhoods of $\omega$ by reason of Corollary 1. 逆命题源自以下事实：$\omega$的开邻域的补集是$X$的紧子集。
+如果$X$是$\sigma$紧，我们可以像命题15那样构造$X$的子集$U_n$的序列，并且根据推论1，$X'$中$\omega$的邻域$X' - \overline{U}_n$形成$\omega$邻域的基本系统。 逆命题源自以下事实：$\omega$的开邻域的补集是$X$的紧子集。
 
 显然，局部紧致$\sigma$紧致空间的每个闭子空间都是局部紧致和$\sigma$紧致。同样，局部紧致 $\sigma$-紧致空间的任何有限乘积都是局部紧致和 $\sigma$-紧致。
 
@@ -430,7 +430,7 @@ If $X$ is $\sigma$-compact we can construct a sequence of subsets $U_n$ of $X$ a
 *如果拓扑空间是 Hausdorff 并且满足以下公理，则称其为仿紧：
 
 (PC) *$X$的每个开覆盖$\mathscr{R}$都有一个局部有限的开优化$\mathscr{R}'$。*
-（集合理论，章II, § 4, no. 6，定义5）。
+（集合理论、章II, § 4, no. 6、定义5）。
 
 每个*紧* 空间显然都是仿紧的。每个*离散*空间$X$都是仿紧的，因为$X$的单个点的所有集合由……组成形成的开覆盖是局部有限的，并且比$X$的每个开覆盖都更细。
 

@@ -26,27 +26,27 @@ subsections:
       pdf_page: 291
 statements: 0
 exercises: 3
-content_sha256: ad3dc06b14025f9b403c65aea7683652e9b843b0a55de910b11cc592262cbe13
+content_sha256: e372eb06ef302c7512f5c30e0906a09af4764ca0dce0d4f6e666ada5fc23023c
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
 translation_method: google
 source_content_sha256: 02143cebc191d935f4dc730de8191e96a819d51f624ae1e4a809f5d496463365
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4fb320e53393801938376200ddb3867d05a9c172ed4a22fb8ed49c4a886d092b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 普遍映射
 
 ### 1. 全集和映射
 
-令$\mathscr{T}$为强于集合论的理论，并令E为$\mathscr{T}$中的项。令$\mathscr{T}$中的$\Sigma$为结构种。为了简单起见，我们自始至终假设$\Sigma$是在单个（主要）基集合上定义的，并且为了简洁起见，我们将“$\Sigma$-集合”表示“集合赋予了类$\Sigma$的结构”。此外，我们假设$\sigma$态射已经被定义为类$\Sigma$（§ 2, no. 1；如在§ 2中，我们应该说“态射”代替“$\sigma$-态射”）。最后，类$\Sigma$被定义在基集合$x$上并且$s$作为泛型结构（§ 1, no. 4），让我们假设项$\alpha\{x,s\}$被定义在$\mathscr{T}_{\Sigma}$、满足以下条件：
+令$\mathscr{T}$为强于集合论的理论，并令$\mathscr{T}$中的E为项。令$\mathscr{T}$中的$\Sigma$为结构种。为了简单起见，我们自始至终假设$\Sigma$是在单个（主要）基集合上定义的，并且为了简洁起见，我们将“$\Sigma$-集合”表示“集合赋予了类$\Sigma$的结构”。此外，我们假设类$\Sigma$定义了$\sigma$态射（§ 2, no. 1；如在§ 2中，我们将说“态射”代替“$\sigma$-态射”）。最后，类$\Sigma$被定义在基集合$x$上并且$s$作为泛型结构（§ 1, no. 4），让我们假设项$\alpha\{x,s\}$被定义在$\mathscr{T}_{\Sigma}$、满足以下条件：
 
-(QM$_{\mathrm{I}}$) *关系 $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ 在 $\mathscr{T}_{\Sigma}$ 中为真。*
+(QM$_{\mathrm{I}}$) *关系 $\alpha\{x,s\}\subset\mathscr{T}(E;x)$ 在 $\mathscr{T}_{\Sigma}$ 中成立。*
 
-(QM$_{\mathrm{II}}$) *如果（理论上$\mathscr{T}'$强于$\mathscr{T}$）F和F′是两个集合，并且赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，并且如果$f$是将 F 的态射转化为 F′，则关系 $\varphi\in\alpha\{F,\mathscr{S}\}$ 意味着 $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$。*
+(QM$_{\mathrm{II}}$) *如果(在强于$\mathscr{T}$的理论$\mathscr{T}'$中)F和F′是两个集合，并赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，并且如果$f$是将 F 的态射转化为 F′，则关系 $\varphi\in\alpha\{F,\mathscr{S}\}$ 意味着 $f\circ\varphi\in\alpha\{F',\mathscr{S}'\}$。*
 
 我们将用说表达关系$\varphi\in\alpha\{x,s\}$，$\varphi$是E到$x$的$\alpha$映射（赋予$s$）。
 
@@ -74,13 +74,13 @@ $(CU_{\mathrm I})$ *在 $\Sigma$ 集合的族中的每个乘积上，都存在�
 
 $(CU_{\mathrm{II})}$ *令$(F_i)_{i\in I}$为$\Sigma$集合族，对于每个$i\in I$，令$\varphi_i$为E到$F_i$的$\alpha$映射。那么 E 的映射 $(\varphi_i)_{i\in I}$ 到 $\prod_{i\in I}F_i$（赋予乘积结构）是一个 $\alpha$ 映射。*
 
-如果结构在F上诱导结构在G上类$\Sigma$（$\S\,2$，no. 4），则$\Sigma$集合F的子集G将被称为$\Sigma$-*可允许*。
+如果结构位于 F 上，诱导结构位于 G 上的类 $\Sigma$（$\S\,2$，no. 4），则 $\Sigma$ 集合 F 的子集 G 将被称为 $\Sigma$-*可允许*。
 
-$(\mathrm{CU_{III}})$ *存在一个基数* $\mathfrak{a}$ *具有以下属性：对于每个* $\Sigma$-*集合* F *和每个* $\alpha$-*映射* $\varphi$ *of* E *到* F *存在一个* $\Sigma$-*可允许* F *的子集* G *其中包含* $\varphi(\mathrm{E})$，*有基数* $\leqslant \mathfrak{a}$，*使得* E *的映射*进入* G *与* $\varphi$ *是一个* $\alpha$-*映射，并且使得任意两个* G *的态射转化为* $\Sigma$-*集合，同意* $\varphi(\mathrm{E})$，*是相等的。*
+$(\mathrm{CU_{III}})$ *存在基数* $\mathfrak{a}$ *具有以下属性：对于每个* $\Sigma$-*集合* F *和每个* $\alpha$-*映射* $\varphi$ *of* E *到* F *存在一个* $\Sigma$-*可允许的子集* G *的* F *其中包含* $\varphi(\mathrm{E})$，*有基数* $\leqslant \mathfrak{a}$，*使得* E *的映射*进入* G *与* $\varphi$ *具有相同的图* 是一个* $\alpha$-*映射，并且* G *中的任何两个态射进入a* $\Sigma$-*集合，并且同意*$\varphi(\mathrm{E})$，*是相等的。*
 
 CST22。 *如果满足条件* $(\mathrm{CU_I})$ *到* $(\mathrm{CU_{III}})$ *，则普遍映射问题对于* E *有解。*
 
-我们首先要证明，如果存在满足 $(\mathrm{AU'_I})$ 的对 $(\mathrm{F_E},\ \varphi_\mathrm{E})$，则对于 E 也存在普遍映射问题的解。对于$(\mathrm{CU_{III}})$，存在$\Sigma$ 允许的子集 $\mathrm{F'_E}$ $\mathrm{F_E}$ 包含 $\varphi_\mathrm{E}(\mathrm{E})$，使得 E 的映射 $\varphi'_\mathrm{E}$ 进入与 $\varphi_\mathrm{E}$ 具有相同图的 $\mathrm{F'_E}$ 是一个 $\alpha$ 映射，并且使得 $\mathrm{F'_E}$ 的任意两个态射进入同意 $\varphi_\mathrm{E}(\mathrm{E})$ 的$\Sigma$集合是相等的。令$j$为$\mathrm{F'_E}$的典范嵌入入$\mathrm{F_E}$，从而得到$\varphi_\mathrm{E} = j \circ \varphi'_\mathrm{E}$。对于$\mathrm{F_E}$的每个态射$f$到$\Sigma$集合F，$f \circ j$是到F的$\mathrm{F'_E}$的态射，并且我们有$f \circ \varphi_\mathrm{E} = (f \circ j) \circ \varphi'_\mathrm{E}$。因此可知$(\mathrm{F'_E},\ \varphi'_\mathrm{E})$满足$(\mathrm{AU'_I})$和$(\mathrm{AU'_{II}})$。
+我们首先要证明，如果存在满足$(\mathrm{AU'_I})$的对$(\mathrm{F_E},\ \varphi_\mathrm{E})$，那么对于E也存在普遍映射问题的解。对于$(\mathrm{CU_{III}})$，存在$\Sigma$可允许的子集 $\mathrm{F_E}$ 包含 $\varphi_\mathrm{E}(\mathrm{E})$的$\mathrm{F'_E}$，使得E的映射$\varphi'_\mathrm{E}$进入与$\varphi_\mathrm{E}$具有相同图的$\mathrm{F'_E}$是一个$\alpha$映射，并且使得任意两个态射 $\mathrm{F'_E}$ 到 $\Sigma$ 集合中，并且在 $\varphi_\mathrm{E}(\mathrm{E})$ 上达成一致，它们是相等的。令$j$为$\mathrm{F'_E}$的典范嵌入入$\mathrm{F_E}$，从而得到$\varphi_\mathrm{E} = j \circ \varphi'_\mathrm{E}$。对于$\mathrm{F_E}$的每个态射$f$到$\Sigma$集合F，$f \circ j$是到F的$\mathrm{F'_E}$的态射，并且我们有$f \circ \varphi_\mathrm{E} = (f \circ j) \circ \varphi'_\mathrm{E}$。因此可知$(\mathrm{F'_E},\ \varphi'_\mathrm{E})$满足$(\mathrm{AU'_I})$和$(\mathrm{AU'_{II}})$。
 
 我们仍然需要确定对 $(\mathrm{F_E},\ \varphi_\mathrm{E})$ 满足 $(\mathrm{AU'_I})$ 的存在。令$s \in \mathrm{S}(x)$为结构种$\Sigma$的典型刻画，并考虑具有以下性质的所有三元组$\lambda = (\mathrm{X},\ \mathrm{V},\ \mathrm{P})$的$\mathfrak{P}(\mathfrak{a}) \times \mathrm{S}(\mathfrak{a}) \times \mathfrak{P}(\mathrm{E} \times \mathfrak{a})$由……组成的子集L：“V是$\mathrm{X} \subset \mathfrak{a}$上类$\Sigma$的结构，P是E到X的$\alpha$映射的图（相对于结构V）”（观察我们有$\mathrm{S}(\mathrm{X}) \subset \mathrm{S}(\mathfrak{a})$，通过逐步论证很容易看出在梯队构造概形 S 的长度上）。对于每个$\lambda = (\mathrm{X},\ \mathrm{V},\ \mathrm{P}) \in \mathrm{L}$，我们用赋予结构V的$\mathrm{X}_\lambda$集合X表示，并用E的$\varphi_\lambda$映射表示为图为P的$\mathrm{X}_\lambda$。
 
@@ -92,7 +92,7 @@ CST23。 *设* $(\mathrm{F_E},\ \varphi_\mathrm{E})$ *为* E 为普遍映射问�
 
 ¶ 在这种情况下，$\alpha$映射被认为是*分离*E的元素，并且我们通常不会在术语中对E的元素和$\varphi_\mathrm{E}$下的像进行任何区分。根据此约定，如果 $(\mathrm{F_E},\ \varphi_\mathrm{E})$ 是普遍映射问题的解，且满足条件 $(\mathrm{CU_{III}})$，则 E 的每个 $\alpha$ 映射到 $\Sigma$ 集合 F *扩展唯一到* 的态射 $\mathrm{F_E}$ *进入* F.
 
-### 3. 例普遍映射
+### 3. 例 / 普遍映射
 
 \* 例，对于大多数部分，将在本级数的其他地方详细处理。
 
@@ -108,7 +108,7 @@ IV。 模运算符环*扩张。*设$A$为交换环和单位元素，设$B$为$A$
 
 V。 *完成制服空间。*令$E$为制服空间。取$\Sigma$为完整豪斯多夫均匀空间的结构种，态射为均匀连续映射，将$E$均匀连续映射的$\alpha$映射为完整豪斯多夫均匀空间。完整豪斯多夫制服空间的$\Sigma$-允许子集在这里是*封闭*子集（相对于空间的拓扑），并且满足条件$(QM_{II})$和$(CU_I)$到$(CU_{III})$ （与$\mathfrak{a} = 2^{2^{\mathrm{Card}(E)}}$）。完整的 Hausdorff 制服空间是（最多同构）与 $E$ 相关的 Hausdorff 制服空间的*完备的*（*常规拓扑*、章 II, § 3, no. 7）。
 
-VI。 *Stone-Čech 紧致化。* 令 $E$ 为完全正则的空间。 $\Sigma$是紧致空间的结构种，态射是连续映射（紧致空间到紧致空间），并且$\alpha$映射是$E$到紧致的连续映射空间。 $\Sigma$可允许的子集又是*封闭*子集，并且条件$(QM_{II})$、$(CU_I)$到$(CU_{III})$很容易验证（使用与例V中相同的基数）。紧致空间$F_E$是（直到同构）通过完成$E$相对于最粗糙均匀性而获得的“Stone-Čech紧致化”，其中$E$的所有连续映射到$\mathbf{R}$的区间$[0,\ 1]$都是均匀连续的（*一般拓扑*、章 IX, § 1、习题 7)； 映射 $\varphi_E$ 是单射的，因为 E 的任何两个不同的点都可以被 E 的连续映射分隔成 $[0, 1]$。
+VI。 *Stone-Čech 紧致化。* 令 $E$ 为完全正则的空间。 $\Sigma$是紧致空间的结构种，态射是连续映射（紧致空间到紧致空间），并且$\alpha$映射是$E$到紧致的连续映射空间。 $\Sigma$-允许的子集又是*封闭*子集，并且条件$(QM_{II})$、$(CU_I)$到$(CU_{III})$很容易验证（与例V中的基数相同）。紧致空间$F_E$是（直到同构）通过完成$E$相对于最粗糙均匀性而获得的“Stone-Čech紧致化”，其中$E$的所有连续映射到区间$[0,\ 1]$的$\mathbf{R}$都是均匀连续（*一般拓扑*、章IX, § 1、习题7）； 映射 $\varphi_E$ 是单射的，因为 E 的任何两个不同的点都可以被 E 的连续映射分隔成 $[0, 1]$。
 
 VII。 *自由拓扑群*。令E为完全正则空间，令$\Sigma$为豪斯多夫拓扑群结构的类，态射为连续同态；并取 $\alpha$-映射为 E 的连续映射到 Hausdorff 拓扑群。 条件 $(\mathrm{QM_{II}})$ 和 $(\mathrm{CU_I})$ 到 $(\mathrm{CU_{III}})$ 很容易验证，
 

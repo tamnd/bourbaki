@@ -14,16 +14,16 @@ pdf_pages: 0137-0137
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8838fa31bdf940c29029912ffbfb62bedec209a4a9492ade8a9632c751f3b426
+content_sha256: 760b727b64f173f8fa879c5371f0aa29ab70e070d241169a41ef5296cef23aff
 translated_from: content/en/ens/III/00_frontmatter.md
 translation_method: google
 source_content_sha256: 7eac5a31f87f038d612878b810e26e665b28d2963fc1d8a53c11ad250e05d92b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 470c92073223c97001677121d109c6b64a6e83327baf221606ce0e59b513356e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 章 III 有序集，红雀队，整数
+## 章 III 有序集、基数、整数

@@ -33,19 +33,19 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 155154fc71627ae3dcd4cdbf99bb0f882a72e82a1f166f29c76f3852c49da526
+content_sha256: 54027bcc8ae3a15ec8fe1b4978888ea8b4e70855f82271c86dcb3fa96ee89c10
 translated_from: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
 translation_method: google
 source_content_sha256: dbd6a8fe77e36a2dde3d4d956d5fc6fd2a6bf284a5e6f34dca83531dabcebd7f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0a1863b474fa0ae484f27bea1b6c459e391cacbf4571fe0f827d1247bd24c4df
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 9。 作用的紧李群开流形
+## § 9。 作用的紧李群于流形
 
 在本段中，X表示类$C^r(1\leq r\leq \omega )$的分离的局部有限维实数流形。
 
@@ -93,7 +93,7 @@ a) 我们首先证明$\mathscr{C}^1(X;Y)$由……组成或态射的子集J是A�
 
 由$\mathscr{C}^1$(X;Y)上拓扑的定义，从$\mathscr{C}^1(X;Y)$到$\mathscr{C}(A;J^1(X;Y))$连续映射$\widetilde{j}_A:\varphi \rightarrow j_A(\varphi , .)$；现在它来自将军拓扑，第 1 章。 X, §3, no. 4，周四。 3、$j_A$是连续的。
 
-另一方面，令 M 为 $J^1(X;Y)$ 中射流 $j$ 的集合，其切线映射 $T(j) : T_{\mathbf{s}(j)}(X)\rightarrow T_{\mathbf{b}(j)}(Y) ($可微且解析流形，结果，12.3.4) 是单射的。 集合 M $J^1(X;Y)$ 开放；事实上，当X是有限维向量空间E的开子集，并且Y是Banach空间F的开子集时，足以验证这个断言；然后，我们将（可微分和解析流形，结果，12.3.1）减少到证明，单射连续线性映射的集合在$\mathscr{L}$（E;F）中开放，这是从谱理论，第1章得出的。 III, §2, no. 7，提案 16。
+另一方面，令 M 为 $J^1(X;Y)$ 中射流 $j$ 的集合，其切线映射 $T(j) : T_{\mathbf{s}(j)}(X)\rightarrow T_{\mathbf{b}(j)}(Y) ($可微且解析流形，结果，12.3.4) 是单射的。 集合 M $J^1(X;Y)$ 开放；事实上，当X是有限维向量空间E的开子集，并且Y是Banach空间F的开子集时，足以验证这个断言；然后，我们将（可微分和解析流形，结果，12.3.1）减少到证明，单射连续线性映射的集合在$\mathscr{L}$（E;F）中开路，这是从谱理论，第1章得出的。 III, §2, no. 7，提案 16。
 
 我们从前面的结论得知集合$j_A^{-1}(M)$在$\mathscr{C}^1(X;Y)\times A$中开，因此它的补集$\mathscr{F}$是闭的。由于 A 是紧的，投影 pr$_1:\mathscr{C}^1(X;Y)\times A\rightarrow \mathscr{C}^1(X;Y)$ 是真态射，因此是闭集；因而，集合 J 等于 $\mathscr{C}^1(X;Y)$ **--** pr$_1(\mathscr{F})$，在 $\mathscr{C}^1(X;Y)$ 打开。
 
@@ -109,7 +109,7 @@ $\mathscr{C}^1(X;Y)$的拓扑是更细比紧凑收敛的拓扑，从$\mathscr{C}
 
 令 U 为 $x$ 的相对紧开邻域，同构于有限维向量空间，并且$\varphi (U)$包含在图表的域V中。 $\psi \in \mathscr{C}^1(X;Y)$的集合$\Omega_0$使得$\psi (U)\subset V$在$\mathscr{C}^1$(X;Y)中开路，并且限制映射$\Omega_0\rightarrow \mathscr{C}^1(U;V)$是连续的；因此，当X = U且Y = V时，我们被简化为证明引理，在其他字中，我们可以假设X是有限维向量空间，Y是Banach空间。 选择范数于 X 和 Y。
 
-线性映射 $D\varphi (x) : X\rightarrow$ Y 是单射的；用 $q($谱理论，第 1 章表示它的conorm。 III, §2, no. 6），这样到定义时，我们就有了所有 $t\in X$ 的 $\|D\varphi (x).t\| \geq q\|t\|$。令$\varepsilon \in \mathbf{R}$使得$0< \varepsilon  < q/2$，并令B是具有中心$x$的闭球，使得$\|D\varphi (u)-D\varphi (x)\| \leq \varepsilon$对于所有$u\in B$。用态射$\psi$的$\mathscr{C}^1(X;Y)$由……组成的$\Omega$子集表示，使得$\|D\psi (u)-D\varphi (u)\| \leq \varepsilon$对于所有$u\in B$； $\mathscr{C}^1(X;Y)$拓扑定义开放。对于$\psi \in \Omega$，输入$\psi_0=\psi -D\varphi (x)$。我们对所有 $u\in B$ 有 $\|D\psi_0(u)\| \leq 2\varepsilon$，因此对 B 中的所有 $u$ 和 $v$ 有$\|\psi_0(u)-\psi_0(v)\| \leq 2\varepsilon \|u-v\|$（可微分和解析流形，结果，2.2.3）。由此可见
+线性映射 $D\varphi (x) : X\rightarrow$ Y 是单射的；用$q($谱理论表示其conorm，第1章。 III, §2, no. 6），这样到定义时，我们就有了所有 $t\in X$ 的 $\|D\varphi (x).t\| \geq q\|t\|$。令$\varepsilon \in \mathbf{R}$使得$0< \varepsilon  < q/2$，并令B是具有中心$x$的闭球，使得$\|D\varphi (u)-D\varphi (x)\| \leq \varepsilon$对于所有$u\in B$。用态射$\psi$的$\mathscr{C}^1(X;Y)$由……组成的$\Omega$子集表示，使得$\|D\psi (u)-D\varphi (u)\| \leq \varepsilon$对于所有$u\in B$； $\mathscr{C}^1(X;Y)$拓扑定义开放。对于$\psi \in \Omega$，输入$\psi_0=\psi -D\varphi (x)$。我们对所有 $u\in B$ 有 $\|D\psi_0(u)\| \leq 2\varepsilon$，因此对 B 中的所有 $u$ 和 $v$ 有 $\|\psi_0(u)-\psi_0(v)\| \leq 2\varepsilon \|u-v\|$（可微分和解析流形，结果，2.2.3）。由此可见
 
 $$
 \|\psi (u)-\psi (v)\| \geq  \|D\varphi (x).(u-v)\| - \|\psi_0(u)-\psi_0(v)\| \geq (q-2\varepsilon )\|u-v\|
@@ -121,7 +121,7 @@ $$
 
 令 A 为 X 的紧凑子集。存在有限维向量空间 E 和态射 $\varphi \in \mathscr{C}^r(X;E) (r\not=\omega )$，它是 A 的邻域中的嵌入。
 
-令 $(U_i, \varphi_i,E_i)_{i\in I}$ 为 X 的有限图族，其域涵盖 A。 我们通过将$\varphi_i(x) = 0$替换为$x \notin U_i$，将扩展$\varphi_i$到映射从X到$E_i$（也用$\varphi_i$表示）。 Let $(V_i)_{i\in I}$ be a covering of A by open subsets of X such that $\overline{V}_i\subset U_i$ for all $i\in I$ (the existence of such a covering follows from General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3, applied to the compact space $X'$ obtained by adjoining to X a point at infinity and the covering of $X'$ consisting of the open sets $U_i(i\in I)$ and $X'$ **--** A). 对于所有$i\in I$，令$\alpha_i$为X上类$C^r$的数值函数，在$V_i$的每个点等于1，并在$U_i($可微分和解析流形，结果中包含支持， 5.3.6）。
+令 $(U_i, \varphi_i,E_i)_{i\in I}$ 为 X 的有限图族，其域涵盖 A。 我们通过将$\varphi_i(x) = 0$替换为$x \notin U_i$，将扩展$\varphi_i$到映射从X到$E_i$（也用$\varphi_i$表示）。 令 $(V_i)_{i\in I}$ 为 A 的由 X 的开子集覆盖，使得 $\overline{V}_i\subset U_i$ 对于所有 $i\in I$（这种覆盖的存在源自一般拓扑，第 3 章IX, §4, no. 3，Cor.1，应用于通过邻接 X 无穷远点而获得的紧致空间 $X'$，并且$X'$ 的覆盖由开集 $U_i(i\in I)$ 和 $X'$ **--** A) 组成。 对于所有$i\in I$，令$\alpha_i$为X上类$C^r$的数值函数，在$V_i$的每个点等于1，并在$U_i($可微分和解析流形，结果中包含支持， 5.3.6）。
 
 考虑映射 $\varphi : X\rightarrow \bigoplus_{i\in I}(E_i\oplus \mathbf{R})$ 定义为
 
@@ -155,9 +155,9 @@ $^9$ 参见 H. WHITNEY，平滑 $n$ 流形在 $2n$ 空间中的自交，
 
 替换 A 通过紧集 GA，我们被简化为 A 在 G 下稳定的情况。
 
-令$E_0$为有限维向量空间，使得存在$\mathscr{C}^r(X;E_0)$的元素，它是A的邻域中的嵌入（no. 1，命题4）； 态射的集合$\mathscr{P}$有这个性质是$\mathscr{C}^r(X;E_0)$的非空开子集（no. 1，命题3）。考虑紧致群 G 在空间 $\mathscr{C}^r(X;E_0) ($§6, no. 4、引理 4) 上的连续线性表示。根据 Peter-Weyl 定理（谱理论，准备中），G 下稳定的有限维子空间的并在 $\mathscr{C}^r(X;E_0)$ 是稠密的；因此，存在$\mathscr{P}$的元素$\varphi_0$使得映射$x \rightarrow \varphi_0(gx)$，对于$g\in G$，生成有限维向量子空间$E_1$ $\mathscr{C}^r(X;E_0)$，在G的运算下显然是稳定的。
+令$E_0$为有限维向量空间，使得存在$\mathscr{C}^r(X;E_0)$的元素，它是A的邻域中的嵌入（no. 1，命题4）； 态射的集合$\mathscr{P}$有这个性质是$\mathscr{C}^r(X;E_0)$的非空开子集（no. 1，命题3）。考虑紧致群 G 在空间 $\mathscr{C}^r(X;E_0) ($§6, no. 4、引理 4) 上的连续线性表示。根据Peter-Weyl 定理（谱理论，准备中），G下稳定的有限维子空间的并在$\mathscr{C}^r(X;E_0)$是稠密的；因此，存在$\mathscr{P}$的元素$\varphi_0$使得映射$x \rightarrow \varphi_0(gx)$，对于$g\in G$，生成有限维向量子空间$E_1$ $\mathscr{C}^r(X;E_0)$，在G的运算下显然是稳定的。
 
-取E为空间Hom$_{\mathbf{R}}(E_1,E_0),\rho$为$E_1$上作用诱导的G在E上的表示，$\varphi : X\rightarrow E$为与$x\in X$线性映射相关联的映射 $\psi  \rightarrow \psi (x)$从$E_1$到$E_0$。这是类$C^r$中的态射；对于$x\in X,g\in G,\psi \in E_1$，我们有（用X的$\tau (g)$自同构$x \rightarrow gx$表示）：
+取 E 为空间 Hom$_{\mathbf{R}}(E_1,E_0),\rho$ 为由 $E_1$ 上的作用在 E 上诱导的 G 的表示，$\varphi : X\rightarrow E$ 为映射，与$x\in X$ 线性映射相关联$\psi  \rightarrow \psi (x)$从$E_1$到$E_0$。这是类$C^r$中的态射；对于$x\in X,g\in G,\psi \in E_1$，我们有（用X的$\tau (g)$自同构$x \rightarrow gx$表示）：
 
 $$
 \varphi (gx)(\psi )-\psi (gx) =\varphi (x)(\psi \circ \tau (g)) = (\rho (g)\varphi (x))(\psi )
@@ -179,11 +179,11 @@ $$
 
 假设 X 是仿紧的。存在实希尔伯特空间 E、E 上 G 的连续酉表示 $^{10}\rho$ 以及类 $C^r$ 的嵌入$\varphi : X\rightarrow E$，使得$\varphi (gx) =\rho (g)\varphi (x)$ 对于所有$g\in G$ 和所有$x\in X$。
 
-空间 $X/G$ 是局部紧致的（一般拓扑，第 III, §4, no. 5 章，第 11 条命题）。 其连通分量是X连通分量的像，无穷大可数（通论拓扑，第I, §9, no. 10，第5章）；因此，它们本身在无穷大处是可数的，这意味着$X/G$是仿紧的（loc.cit.）。 Hence, there exists a locally finite covering $(U'_{\alpha})_{\alpha\in I}$ of $X/G$ by relatively compact open sets, and a covering $(V'_{\alpha})_{\alpha\in I}$ such that $\overline{V}'_{\alpha}\subset U'_{\alpha}$ for all $\alpha \in I ($General Topology, Chap. IX, §4, no. 3, Cor. 1 of Th. 3); taking the inverse image, we obtain two locally finite coverings $(U_{\alpha})_{\alpha\in I}$ and $(V_{\alpha})_{\alpha\in I}$ of X by relatively compact open sets stable under G, such that $\overline{V}_{\alpha}\subset U_{\alpha}$ for all $\alpha \in I$.
+空间 $X/G$ 是局部紧致的（一般拓扑，第 III, §4, no. 5 章，第 11 条命题）。 其连通的分量是X的连通的分量的像，可无穷大（通论拓扑，第I, §9, no. 10，第5章）；因此，它们本身在无穷大处是可数的，这意味着$X/G$是仿紧的（loc.cit.）。 因此，存在相对紧开集对$X/G$的局部有限覆盖$(U'_{\alpha})_{\alpha\in I}$，以及对所有$\alpha \in I ($一般拓扑的$\overline{V}'_{\alpha}\subset U'_{\alpha}$的覆盖$(V'_{\alpha})_{\alpha\in I}$，第1章。 IX, §4, no. 3，科。 1 Th。 3）；取逆像，我们通过在 G 下稳定的相对紧开集获得X的两个局部有限覆盖$(U_{\alpha})_{\alpha\in I}$和$(V_{\alpha})_{\alpha\in I}$，使得$\overline{V}_{\alpha}\subset U_{\alpha}$对于所有$\alpha \in I$。
 
-对于所有$\alpha \in I$，在有限维实数向量空间$E_{\alpha}$和态射$\varphi_{\alpha}\in \mathscr{C}^r(X;E_{\alpha})$上存在G的表示$\rho_{\alpha}$，与G的运算兼容，其限制到$U_{\alpha}$是嵌入（Th. 1）。对于$\alpha \in I$，令$a_{\alpha}$为X上类$C^r$的数值函数，在$V_{\alpha}$上等于1，在$U_{\alpha}($可微分和解析流形之外等于0，结果，5.3.6）。将 $b_{\alpha}(x) =\int_Ga_{\alpha}(gx)dg$ 替换为 $x\in X$。 函数$b_{\alpha}$属于类$C^r$，在G下不变（§6, no. 4，Cor.2），在$V_{\alpha}$上等于1，在$U_{\alpha}$之外等于0。给每个$E_{\alpha}$一个G（§1, no. 1）下的希尔伯特标量乘积不变量，以及$\mathbf{R}$其规范希尔伯特结构；令E为族$(E_{\alpha}\oplus \mathbf{R})_{\alpha\in I}$的希尔伯特和，并令$\rho$为G在E上的表示，由$\rho_{\alpha}$和G在$\mathbf{R}$上的平凡作用引起。对于$x\in X$，输入$\varphi (x) = (b_{\alpha}(x)\varphi_{\alpha}(x), b_{\alpha}(x))_{\alpha\in I}$。那么$\varphi$从X到E就是类$C^r$的态射，兼容G的运算；我们按照命题 4 的证明 (no. 1) 验证$\varphi$ 是一个嵌入，这意味着推论。
+对于所有$\alpha \in I$，在有限维实数向量空间$E_{\alpha}$和态射$\varphi_{\alpha}\in \mathscr{C}^r(X;E_{\alpha})$上存在G的表示$\rho_{\alpha}$，与G的运算兼容，其限制到$U_{\alpha}$是嵌入（Th. 1).对于$\alpha \in I$，令$a_{\alpha}$为X上类$C^r$的数值函数，在$V_{\alpha}$上等于1，在$U_{\alpha}($可微分和解析流形之外等于0，结果，5.3.6）。将 $b_{\alpha}(x) =\int_Ga_{\alpha}(gx)dg$ 替换为 $x\in X$。 函数$b_{\alpha}$属于类$C^r$，在G下不变（§6, no. 4，Cor.2），在$V_{\alpha}$上等于1，在$U_{\alpha}$之外等于0。给每个$E_{\alpha}$一个G（§1, no. 1）下的希尔伯特标量乘积不变量，以及$\mathbf{R}$其规范希尔伯特结构；令E为族$(E_{\alpha}\oplus \mathbf{R})_{\alpha\in I}$的希尔伯特和，并令$\rho$为G在E上的表示，由$\rho_{\alpha}$和G在$\mathbf{R}$上的平凡作用引起。对于$x\in X$，输入$\varphi (x) = (b_{\alpha}(x)\varphi_{\alpha}(x), b_{\alpha}(x))_{\alpha\in I}$。那么$\varphi$从X到E就是类$C^r$的态射，兼容G的运算；我们验证了 Prop. 4 (no. 1) 的证明中的$\varphi$是一个嵌入，这意味着推论。
 
-$^{10}$即（谱理论，准备中）连续线性表示（积分，第VIII, §2, no. 1），使得算子$\rho (g)$对于所有的都是酉的
+$^{10}$即（谱理论，准备中）连续的线性表示（积分，第VIII, §2, no. 1），使得算子$\rho (g)$对于所有的都是酉的
 
 $$
 g\in G
@@ -201,7 +201,7 @@ $$
 
 设H为X上H的紧李群、类$C^r$左运算$(h, x) \rightarrow hx$律，以及X固定下的$x$点 H 的运算。则群 H 在向量空间 $T = T_x(X)$ 上线性运算；存在类$C^r$的开放嵌入$\varphi : T\rightarrow X$，与H的运算兼容，使得$\varphi (0) =x$和$T_0(\varphi )$是T的身份映射。
 
-令$(U, \psi ,E)$为X在$x$的图表，使得U在H（no. 2，引理3）下稳定且$\psi (x) = 0$。 认同 E 与 T 乘以$T_x(\psi )$，并把
+令$(U, \psi ,E)$为X在$x$的图表，使得U在H（no. 2，引理3）下稳定且$\psi (x) = 0$。 认同 E 与 T 乘以 $T_x(\psi )$，并把
 
 $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ 为 $y\in U$，
 
@@ -209,15 +209,15 @@ $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ 为 $y\in U$，
 
 那么(§6, no. 4，Cor.$1$)$\psi^{\sharp}$是从U到T的类$C^r$的态射，与H的运算兼容，使得$\psi^{\sharp}(x) = 0$和$d_x\psi^{\sharp}=$Id$_T$。因此，T 中存在开集合 $U'\subset U$ 包含 $x$，以及开邻域 V 0，使得$\psi^{\sharp}$ 诱导同构 $\theta : U'\rightarrow V$。如果必要的话限制$U'$和V，我们可以假设它们在H下是稳定的，并且存在与H的运算兼容的同构$u: T\rightarrow V$（引理4）。现在拿$\varphi =\theta^{-1}\circ u$就够了。
 
-回想一下（可微分和解析流形，结果，6.5.1），如果 G 是李群，H 是 G 和 Y 流形的谎言子群，H 在左侧进行运算，我们用 $G\times^HY$ 表示乘积流形的商$G\times Y$ 在 H 的右侧运算 $((g, y), h) \rightarrow (gh, h^{-1}y)$；这是流形，李群 G 自然在左边运算； 投影 $G\times^HY\rightarrow G/H$ 是具有纤维 Y 的丛。此外，如果 Y 是 H 线性运算的有限维向量空间，则 $G\times^HY$ 具有自然结构向量 G 丛，其中基 $G/H ($ 可微且解析流形，结果，7.10.2）。
+回想一下（可微分和解析流形，结果，6.5.1），如果 G 是李群，H 是 G 的 Lie 子群和 Y 流形，H 在左侧进行操作，我们用乘积的 $G\times^HY$ 商表示流形$G\times Y$在H右侧运算$((g, y), h) \rightarrow (gh, h^{-1}y)$；这是流形，李群 G 自然在左边运算； 投影 $G\times^HY\rightarrow G/H$ 是具有纤维 Y 的丛。此外，如果 Y 是 H 线性运算的有限维向量空间，则 $G\times^HY$ 具有自然结构向量 G 丛，其中基 $G/H ($ 可微且解析流形，结果，7.10.2）。
 
-令 G 为李群在流形 X 上正确运行（一般拓扑，第 III, §4, no. 1，定义 1），使得运算 $(g, x) \rightarrow gx$ 的律为类 $C^r$。那么，对于X的每个点$x$，$x$的轨道$Gx$是X的闭子流形，同构于李齐次空间$G/G_x$，其中$G_x$ 是 G 中 $x$ 的固定器（cf. 第 III, §1, no. 7 章，第 14 (ii) 条提案，以及一般拓扑，第 III, §4, no. 2 章，第 4 条提案）；这是紧李群（前述）。
+令 G 为流形 X 上正确运行的李群（一般拓扑，第III, §4, no. 1，定义 1），使得运算 $(g, x) \rightarrow gx$ 的律为类 $C^r$。那么，对于X的每个点$x$，$x$的轨道$Gx$是X的闭子流形，同构于李齐次空间$G/G_x$，其中$G_x$ 是 G 中 $x$ 的固定器（cf. 第 III, §1, no. 7 章，第 14 (ii) 条提案，以及一般拓扑，第 III, §4, no. 2 章，第 4 条提案）；这是紧李群（前述）。
 
 #### 命题 6 {#lie-ix-s9-prop-6 .statement tag=01HR}
 
 假设流形 X 是仿紧的；设$x$为X的点，$G_x$为其固定器。存在有限维解析线性表示$\tau : G_x\rightarrow \mathbf{G}\mathbf{L}(W)$，以及类$C^r$的开放嵌入$\alpha : G\times^{G_x}W\rightarrow X$，与G的运算兼容，$(e,0)\in G\times W$的映射类 $x$。
 
-把$T = T_x(X)$。令W为T中$T_x(Gx)$的补子空间，在$G_x$下稳定（对于例，$T_x(Gx)$相对于$G_x$下T不变量上的标量乘积的正交补）。另一方面，令 $\varphi : T\rightarrow X$ 为态射，具有第 5 条中所述的属性（相对于 $H = G_x$）。考虑由 $\lambda (g, w) =g\varphi (w)$ 定义的态射 $\lambda : G\times W\rightarrow X$。将诱导通过类$C^r$的商态射$\mu: G\times^{G_x}W\rightarrow X$，与G的运算兼容，将$(e,0)$的映射类$z$得$x$。
+把$T = T_x(X)$。令W为T中$T_x(Gx)$的补子空间，在$G_x$下稳定（例如，$T_x(Gx)$相对于$G_x$下T不变量上的标量乘积的正交补）。另一方面，令 $\varphi : T\rightarrow X$ 为态射，具有第 5 条中所述的属性（相对于 $H = G_x$）。考虑由 $\lambda (g, w) =g\varphi (w)$ 定义的态射 $\lambda : G\times W\rightarrow X$。它诱导通过类$C^r$的商态射$\mu: G\times^{G_x}W\rightarrow X$，与G的运算兼容，即映射类$z$ $(e,0)$ 至 $x$。
 
 我们证明 $\mu$ 是点 $z$ 的 étale。我们有
 
@@ -245,17 +245,17 @@ $\psi^{\sharp}(y) =\int_Hh.\psi (h^{-1}y)dh$ 为 $y\in U$，
 
 放入$\Omega =$ GW，并考虑$\mu$到$\Omega$的限制。 这是一个étale 态射，因为$\Omega$的每个点都是G到U的点下的共轭。 我们证明它是单射的：设 G 中的 $g, h$ 和 W 中的 $u, v$ 使得 $\mu(gu) =$ $\mu(hv)$。 把$k=g^{-1}h$；然后 $\mu(u) =k\mu(v)$，所以 $k\in K$ 由 (ii) 得到。 但是 $kv$ 和 $u$ 属于通过 (i) 到 U；因而，$u=kv$因为$\mu$到V的限制是单射的，所以$gu=hv$。 因而，$\mu$到$\Omega$的限制是单射的，因而（可微分和解析流形，结果，5.7.8）是同构到X的开子流形上，从而完成证明。
 
-根据第6条的条件，$\alpha$的像是$x$的轨道A的开放邻域T，配备向量丛的结构和基A，其中零截面是轨道 A 本身。这样的邻域称为线性管（大约在所讨论的轨道附近）。对于每个点$a\in A$，该向量丛的纤维$Y_a$是X的子流形，在$a$的固定器$G_a$下稳定，并且使得态射从$G\times^{G_a}Y_a$到X $(g, y)\in G\times Y_a$ 的映射类到 $gy\in X$ 诱导态射类 $C^r$ 从 $G\times^{G_a}Y_a$ 到 T。然后 $Y_a$ 被认为是在 $a$ 处的横截面管 T. 我们注，$Y_a$在$a$处的切线空间与$Y_a$正则同构，并且它是$T_a(X)$中$T_a(A)$的补集；因而，向量丛 T 与基 A 与 X 中 A 的正规丛规范同构（可微分和解析流形，结果，8.1.3）。
+根据第6条的条件，$\alpha$的像是$x$的轨道A的开放邻域T，配备向量丛的结构和基A，其中零截面是轨道 A 本身。这样的邻域称为线性管（大约在所讨论的轨道附近）。对于每个点$a\in A$，该向量丛的纤维$Y_a$是X的子流形，在$a$的固定器$G_a$下稳定，并且使得态射从$G\times^{G_a}Y_a$到X $(g, y)\in G\times Y_a$ 的映射类到 $gy\in X$ 诱导态射类 $C^r$ 从 $G\times^{G_a}Y_a$ 到 T。然后 $Y_a$ 被认为是在 $a$ 处的横截面管 T。我们注意到$Y_a$在$a$处的切线空间与$Y_a$正则同构，并且它是$T_a(X)$中$T_a(A)$的补；因而，向量丛 T 与基 A 与 X 中 A 的正规丛规范同构（可微分和解析流形，结果，8.1.3）。
 
-### 4. ORBIT TYPES
+### 4. 轨道型
 
 设G是在分离拓扑空间E上连续运行的拓扑群。对于E的每个点$x$，用$G_x$表示G中$x$的固定器，并假设规范映射$G/G_x\rightarrow Gx$是同胚；在以下两种情况下尤其如此：
 
 a) G和E的拓扑是离散的；
 
-$b) G$ 在 E 上正确运行（通则拓扑，第 III, §4, no. 2，命题 4），对于例，G 是紧致的（通则拓扑，第 III, §4, no. 1，命题 2）。
+$b) G$ 在 E 上正确运行（通则拓扑，第 III, §4, no. 2，命题 4），例如，G 是紧致的（通则拓扑，第 III, §4, no. 1，命题 2）。
 
-用G的闭子群的共轭类的$\mathscr{T}$集合表示。对于每个$x\in E$，我们称$x$的轨道型，或$x$的有时型， $\mathscr{T}$中$G_x$的类；相同的轨道中的两个点具有相同的轨道型（代数，第 I, §5, no. 2 章，第 2 条）；两个轨道具有相同的型当且仅当它们与 G 集同构（代数，第 I, §5, no. 5，第 1 章）。对于每个$t\in \mathscr{T}$，用型$t$E点$E_{(t)}$集合表示，即型$t$轨道并；这是E的稳定子集。对于$H\in t$，我们也将$E_{(t)}$写成$E_{(H)}$；对于例，$E_{(G)}$ 是由 G 确定的点的 E 由……组成的闭子空间。
+用G的闭子群的共轭类的$\mathscr{T}$集合表示。对于每个$x\in E$，我们称$x$的轨道型，或$x$的有时型， $\mathscr{T}$中$G_x$的类；相同的轨道中的两个点具有相同的轨道型（代数，第 I, §5, no. 2 章，第 2 条）；两个轨道具有相同的型当且仅当它们与 G 集同构（代数，第 I, §5, no. 5，第 1 章）。对于每个$t\in \mathscr{T}$，用型$t$E点$E_{(t)}$集合表示，即型$t$轨道并；这是E的稳定子集。对于$H\in t$，我们也将$E_{(t)}$写成$E_{(H)}$；例如，$E_{(G)}$是G固定的点的E由……组成的闭子空间。
 
 给$\mathscr{T}$以下预序关系：
 
@@ -263,7 +263,7 @@ $t\leq t'\Leftarrow \Rightarrow$ 存在$H\in t$ 和$H'\in t'$ 使得$H\supset H'
 
 设$\Omega$和$\Omega '$是G在$E,t$和$t'$其型上的两个轨道；那么 $t\leq t'$ 当且仅当存在从 $\Omega '$ 到 $\Omega$ 的 G 态射（必然是满射且连续的）。
 
-Let $x, x'$ be in E, and $t, t'$ their types; then $t\leq t'$ if and only if there exists $a\in G$ such that $aG_{x'}a^{-1}\subset G_x$.
+设$x, x'$属于E，$t, t'$属于E的类型；那么$t\leq t'$当且仅当存在$a\in G$使得$aG_{x'}a^{-1}\subset G_x$。
 
 #### 引理 6 {#lie-ix-s9-lem-6 .statement tag=01HT}
 
@@ -275,7 +275,7 @@ b) 令H和$H'$是G的两个紧子群，使得$H\subset H'$并且存在从$H'$到
 
 c) 对于关系 $t\leq t'$，集合 $\mathscr{T}$ 是诺特有序的集合（集合论，第 III, §6, no. 5 章，第 7 条提案之前的文本）。
 
-a) 设$(H_i)_{i\geq 1}$为G的紧致子群的递减序列；这些是 G 的谎言子群（第 III, §8, no. 2 章，第 2 章）。 整数（暗淡$H_i$）$_{i\geq 1}$的序列是递减，因此是平稳的，因此存在整数 N，使得子群$H_i$对于$i\geq N$具有相同的恒等分量。那么正整数 $(H_i: (H_i)_0)_{i\geq N}$ 的递减序列是平稳的，因此 $H_i= H_{i+1}$ 对于 $i$ 足够大。
+a) 设$(H_i)_{i\geq 1}$为G的紧致子群的递减序列；这些是 G 的谎言子群（第 III, §8, no. 2 章，第 2 章）。 整数（暗淡$H_i$）$_{i\geq 1}$的序列是递减，因此是平稳的，因此存在整数 N，使得子群$H_i$对于$i\geq N$具有相同的恒等式分量。那么正整数$(H_i: (H_i)_0)_{i\geq N}$的递减序列是平稳的，所以$H_i= H_{i+1}$对于$i$足够大。
 
 b) 设$f$是从$H'$到H的同构。序列$(f^n(H))_{n\geq 0}$是G的紧致子群的递减序列，所以$f^n(H) =f^{n+1}(H)$对于$n$足够大，通过a)。由于$f$是同构，这意味着$f(H) = H =f(H')$，所以$H = H'$。
 
@@ -291,7 +291,7 @@ $$
 
 令G为李群在X上正常运行，使得运算$(g, x) \rightarrow gx$的律为类$C^r$。假设 X 是仿紧的。
 
-a) The map which associates to any point of X its orbit type has the following semi-continuity property: let $x\in X$ and let $t\in \mathscr{T}$ be its orbit type; there exists a stable open neighbourhood U of $x$ such that, for any $u\in U$, the type of $u$ is $\geq t$.
+a) 与X任意点关联其轨道类型的地图具有以下半连续性：令$x\in X$和$t\in \mathscr{T}$为其轨道类型；存在$x$的稳定开邻域U，使得对于任何$u\in U$，$u$的类型为$\geq t$。
 
 b) 对于所有$t\in \mathscr{T},X_{(t)}$是X的子流形，由G的运算诱导的$X_{(t)}$上的等价关系是正则的（可微分和解析流形，结果，5.9.5），并且态射$X_{(t)}\rightarrow X_{(t)}/G$是一个丛。
 
@@ -309,23 +309,23 @@ $c')$ 对于 $X_{(t)}$ 的每个子集 A，在 $X_{(\tau)}$ 中开闭且在 G �
 
 这个断言意味着c)。事实上，注首先在X中打开$X_{(\tau)}$，由a)； 断言$c')$意味着$\overline{X}_{(\tau)}$在X中开闭，因此等于X，因为它在G下稳定并且$X/G$是连通的。设A是G下$X_{(\tau)}$的非空开闭子集稳定； $c'),\overline{A}$ 在 X 开闭，且在 G 下稳定，因此等于 X；这意味着 A 在 $X_{(\tau)}$ 中是稠密的，因此等于 $X_{(\tau)}$。因而，$X_{(\tau)}/G$的每个非空开闭子集都等于$X_{(\tau)}/G$，这证明$X_{(\tau)}/G$是连通的。最后，由于$X_{(\tau)}$在X中是稠密的，因此从a)可以得出，X的每个点都是型$\leq \tau$；其他字、$\tau$为X点轨道型中的最大的元素。
 
-我们现在证明$c')$。我们可以假设A非空；让$x\in A$。只要证明A是$x$的邻域就足够了。为此，如上所述，我们可以假设$X = G\times^HW$具有H紧凑，$x$是$(e,0)$的典范像。首先假设H对W进行平凡运算：则X可以与$(G/H)\times W$等同，并且$X_{(\tau)}/G = X/G$与W同胚，因此连通；因而，$A/G = X/G$，所以 A = X。从现在起，假设 H 对 W 不进行平凡操作。选择在紧凑群 H 下，W 不变量上的标量乘积；设 S 为 W 中的单位球体（范数向量集合 1）。 注 $S/H$ 是连通的：事实上，如果 dim(W) $\geq 2, S$ 是连通的，并且如果 dim(W) = 1，则 S 是两个点的空间，H 在这两个点上进行了非平凡的运算。把$Y = G\times^HS$；这是余维 1 的 X 的闭子流形，在 G 下稳定，与 $Y/G$ 同胚于 $S/H$，是连通的。因而，到归纳假设，Y 存在最大轨道型 $\theta$，集合 $Y_{(\theta)}$ 在Y 中是开稠密的，并且$Y_{(\theta)}/G$ 是连通的。
+现在我们证明$c')$。我们可以假设A非空；让$x\in A$。只要证明A是$x$的邻域就足够了。为此，如上所述，我们可以假设$X = G\times^HW$具有H紧凑，$x$是$(e,0)$的典范像。首先假设H对W进行平凡运算：则X可以与$(G/H)\times W$等同，并且$X_{(\tau)}/G = X/G$与W同胚，因此连通；因而，$A/G = X/G$，所以 A = X。从现在起，假设 H 对 W 不进行平凡操作。选择在紧凑群 H 下，W 不变量上的标量乘积；设 S 为 W 中的单位球体（范数向量集合 1）。请注意，$S/H$是连通的：事实上，如果dim(W) $\geq 2, S$是连通的，并且如果dim(W) = 1，则S是两个点的空间，H对这两个点进行了非平凡的运算。把$Y = G\times^HS$；这是余维 1 的 X 的闭子流形，在 G 下稳定，与 $Y/G$ 同胚于 $S/H$，是连通的。因而，到归纳假设，Y 存在最大轨道型 $\theta$，集合 $Y_{(\theta)}$ 在Y 中是开稠密的，并且$Y_{(\theta)}/G$ 是连通的。
 
-考虑X上$\mathbf{R}^*_+$的运算是由$G\times W$上$\mathbf{R}^*_+$的律和运算$(\lambda ,(g, w)) \rightarrow (g, \lambda w)$的商引起的。该运算下的X共轭中的两个点是相同的轨道型；因而，$X_{(\theta)}$包含$\mathbf{R}^*_+Y_{(\theta)}$，这是X的密集开子集。但$X_{(\tau)}$被a)开，因此满足$X_{(\theta)}$，所以$\theta =\tau$。
+考虑$\mathbf{R}^*_+$在X上的运算，这是由$\mathbf{R}^*_+$在$G\times W$上的运算定律$(\lambda ,(g, w)) \rightarrow (g, \lambda w)$引发的。 该运算下的X共轭中的两个点是相同的轨道型；因而，$X_{(\theta)}$包含$\mathbf{R}^*_+Y_{(\theta)}$，这是X的密集开子集。 但$X_{(\tau)}$被a)开，因此满足$X_{(\theta)}$，所以$\theta =\tau$。
 
-另一方面，从$\mathbf{R}^*_+\times S$到W **--** $\{0\}($一般拓扑的同态$(\lambda , w) \rightarrow \lambda w$，第1章。 VI, §2, no. 3，命题 3) 诱导从 $\mathbf{R}^*_+\times (S/H)$ 到 $(\mathbf{R}^*_+S)/H$ 的同态，因此也是从 $\mathbf{R}^*_+\times (Y/G)$ 到 $(\mathbf{R}^*_+Y)/G$，以及从 $\mathbf{R}^*_+\times (Y_{(\theta)}/G)$ 到 $(\mathbf{R}^*_+Y_{(\theta)})/G$ 的同态。因而，$(\mathbf{R}^*_+Y_{(\theta)})/G$是连通的，而$X_{(\tau)}/G$（其中包含是连通密集的子集）本身也是连通的（一般拓扑，第I, §11, no. 1，命题1）。因而，A 等于 $X_{(\tau)}$，因此在 X 中是稠密的，并且 A 是 $x$ 的邻域。这样就完成了定理的证明。
+另一方面，从 $\mathbf{R}^*_+\times S$ 到 W **--** $\{0\}($一般拓扑的同态 $(\lambda , w) \rightarrow \lambda w$，第 1 章。 VI, §2, no. 3，命题 3) 诱导从 $\mathbf{R}^*_+\times (S/H)$ 到 $(\mathbf{R}^*_+S)/H$ 的同态，因此也是从 $\mathbf{R}^*_+\times (Y/G)$ 到 $(\mathbf{R}^*_+Y)/G$，以及从 $\mathbf{R}^*_+\times (Y_{(\theta)}/G)$ 到 $(\mathbf{R}^*_+Y_{(\theta)})/G$ 的同态。因而，$(\mathbf{R}^*_+Y_{(\theta)})/G$是连通的，而$X_{(\tau)}/G$（其中包含是连通密集的子集）本身也是连通的（一般拓扑，第I, §11, no. 1，命题1）。因而，A 等于 $X_{(\tau)}$，因此在 X 中是稠密的，并且 A 是 $x$ 的邻域。这样就完成了定理的证明。
 
-Th 中的记号。 $X_{(\tau)}$中的$2c)$、点称为本金，它们的轨道称为本金轨道。如果$x$是X的点，并且如果$G\times^{G_x}W$是X中管围绕$x$的轨道的线性管，点$x$是主要的当且仅当$G_x$ 对 W 的运算很简单，也就是说，如果管是形式 $(G/G_x)\times W$。
+Th 中的记号。 $X_{(\tau)}$中的$2c)$、点称为本金，它们的轨道称为本金轨道。如果$x$是X的点，并且如果$G\times^{G_x}W$是X中$x$的轨道的线性管，则点$x$是主要的当且仅当$G_x$在W，即，如果管是形式 $(G/G_x)\times W$。
 
 #### 例 1 {#lie-ix-s9-n4-exa-1 .statement tag=01HV}
 
-令 G 为连通的紧李群，通过内自同构对自身进行操作。 G 的元素$x$的固定器就是G中$x$的扶正器$Z(x)$；它包含每个最大环面包含$x$。由此可见最大的轨道型$\tau$是G的最大环面的共轭类。开集合$G_{(\tau)}$是G的正则元素的集合 （§5, no. 1，注）。假设 G 是单连通的。则$G_{(\tau)}$等于G的正则元素的集合$G_r$（§5, no. 2，注2）；如果 A 是 $\mathfrak{g}= L(G)$ 的嘉当子代数 $\mathfrak{t}$ 的凹室，则复合映射 $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) 是解析流形的同构。事实上，这是同胚（§5, no. 2，Cor. of Prop. 2）；让$a\in A$，通过翻译$\gamma (t)$将$t=$exp$a$和认同$T_t(G)$与$\mathfrak{g}$一起。然后，可以用典范嵌入 $\mathfrak{t}\rightarrow \mathfrak{g}$ 和商映射 $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$) 的复合来识别正切映射 $T_a(\pi )$。由于 $t$ 是正则，$T_a(\pi )$ 是同构，因此给出了规定的结果（可微分和解析流形，结果，5.7.8）。
+设 G 是一个连通的紧李群，通过内自同构对自身进行操作。 G 的元素$x$的固定器就是G中$x$的扶正器$Z(x)$；它包含每个最大环面包含$x$。由此可见，最大的轨道型$\tau$是G的最大环面的共轭类。开集合$G_{(\tau)}$是G的正则元素的集合（§5, no. 1， 注）。假设 G 是单连通的。则$G_{(\tau)}$等于G的正则元素的集合$G_r$（§5, no. 2，注2）；如果 A 是 $\mathfrak{g}= L(G)$ 的嘉当子代数 $\mathfrak{t}$ 的凹室，则复合映射 $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) 是解析流形的同构。事实上，这是一个同胚（§5, no. 2，Cor. of Prop. 2）；让$a\in A$，通过平移$\gamma (t)$将$t=$exp$a$和认同$T_t(G)$与$\mathfrak{g}$一起放置。然后可以用典范嵌入 $\mathfrak{t}\rightarrow \mathfrak{g}$ 和商映射 $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$) 的复合来识别切线映射 $T_a(\pi )$。由于 $t$ 是正则，$T_a(\pi )$ 是同构，因此给出了规定的结果（可微分和解析流形，结果，5.7.8）。
 
 #### 例 2 {#lie-ix-s9-n4-exa-2 .statement tag=01HW}
 
 令E为E的超平面的实数欧氏仿射空间、$\mathfrak{H}$集合，W群是E相对于$\mathfrak{H}$的超平面的正交反射产生的位移。假设 $\mathfrak{H}$ 在 W 下稳定，并且群 W 与离散拓扑在 E 上正常运行。
 
-前述可以应用于E上W的运算。E的点$x$的固定器是由$\mathfrak{H}$包含$x$的超平面的反射产生的W的子群（第V, §3, no. 3，道具。） 2）。因而，最大的轨道型$\tau$是子群$\{$Id$_E\}$的类，$E_{(\tau)}$是E室的并。注在这种情况下覆盖$E_{(\tau)}\rightarrow E_{(\tau)}/W$ 是微不足道的，特别是如果 $\mathfrak{H}$ 非空，则$E_{(\tau)}$ 不连通。
+前述可以应用于E上W的运算。E的点$x$的固定器是由$\mathfrak{H}$包含$x$的超平面的反射产生的W的子群（第V, §3, no. 3，道具。） 2）。因而，最大的轨道型$\tau$是子群$\{$Id$_E\}$的类，$E_{(\tau)}$是E室的并。请注意，在这种情况下，覆盖物$E_{(\tau)}\rightarrow E_{(\tau)}/W$是微不足道，特别是如果 $\mathfrak{H}$ 非空，则 $E_{(\tau)}$ 不连接。
 
 ### 习题 {#lie-ix-s9-exercises}
 

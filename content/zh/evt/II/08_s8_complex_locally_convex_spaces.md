@@ -29,33 +29,33 @@ subsections:
       pdf_page: 101
 statements: 10
 exercises: 3
-content_sha256: f5a7c83e6394e213c5c1c36f1b37e5fb485741be8e984b712936de48adb8595f
+content_sha256: 173c769b71cdb9b42642072e9245a07afcf2dc09b7a1b02325a67ae4c706113d
 translated_from: content/en/evt/II/08_s8_complex_locally_convex_spaces.md
 translation_method: google
 source_content_sha256: 5d9e93b1130d665e5ef5a49bee7fa6d59d2370123e602805e4b774a529b5d3c0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 419349e884250b03fafa99994d28287951ffd94293d6540932fbf927d563c580
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 8。复局部凸空间
 
 ### 1. 拓扑向量空间超过$\mathbf{C}$
 
-设$E$是复数的$\mathbf{C}$域上的拓扑向量空间； $E$的拓扑也与$\mathbf{R}$上的向量空间的结构兼容，通过将标量的域限制为$\mathbf{R}$获得。我们用$E_0$表示$\mathbf{R}$上的拓扑向量空间，它*位于*E（I，p. 2）。 注，在$E_0$中，映射$x \mapsto ix$（不是位似）是$E_0$的拓扑向量空间结构的*自同构*$u$，使得$u^2(x) = -x$。
+设$E$是复数的$\mathbf{C}$域上的拓扑向量空间； $E$的拓扑也与$\mathbf{R}$上的向量空间的结构兼容，通过将标量的域限制为$\mathbf{R}$获得。我们用$E_0$表示$\mathbf{R}$上的拓扑向量空间，它*位于*E（I，p. 2）。请注意，在$E_0$中，映射$x \mapsto ix$（不是位似）是$E_0$的拓扑向量空间结构的*自同构*$u$，使得$u^2(x) = -x$。
 
-相反，设F是$\mathbf{R}$上的拓扑向量空间，并假设F存在自同构$u$，使得$u^2 = -1_F$（$1_F$是F的恒等式自同构）。我们知道（A，IX, § 3, No. 2），那么对于所有$\lambda = \alpha + i\beta \in \mathbf{C}$和所有$x \in F$，可以相对于$\mathbf{C}$在F上定义向量空间结构写出$\lambda x = \alpha x + \beta u(x)$。进一步，由于F中$\mathbf{R}^2 \times F$的映射$(\alpha, \beta, x) \mapsto \alpha x + \beta u(x)$是连续的，因此F的拓扑相对于上面定义的$\mathbf{C}$与向量空间结构兼容；如果 E 表示以此方式定义的 $\mathbf{C}$ 上的拓扑向量空间，则 F 是位于 E 之下的 $\mathbf{R}$ 上的拓扑向量空间。
+相反，令F是$\mathbf{R}$上的拓扑向量空间，并假设F存在自同构$u$，使得$u^2 = -1_F$（$1_F$是F的恒等式自同构）。我们知道（A，IX, § 3, No. 2），那么对于所有$\lambda = \alpha + i\beta \in \mathbf{C}$和所有$x \in F$，可以相对于$\mathbf{C}$在F上定义向量空间结构写出$\lambda x = \alpha x + \beta u(x)$。进一步，由于F中$\mathbf{R}^2 \times F$的映射$(\alpha, \beta, x) \mapsto \alpha x + \beta u(x)$是连续的，因此F的拓扑相对于上面定义的$\mathbf{C}$与向量空间结构兼容；如果 E 表示以这种方式定义的 $\mathbf{C}$ 上的拓扑向量空间，则 F 是 E 之下的 $\mathbf{R}$ 上的拓扑向量空间。
 
 #### 注 {#evt-ii-s8-n1-rem-1 .statement tag=07KJ}
 
-— 给定一个在 $\mathbf{R}$ 上的拓扑向量空间 F，并不总是存在自同构 $u$ 的 F，其平方是 $-1_F$；对于例，定义向量空间结构相对于向量空间上的$\mathbf{C}$不可能超过有限*奇数*维数的$\mathbf{R}$。
+— 给定一个在 $\mathbf{R}$ 上的拓扑向量空间 F，并不总是存在自同构 $u$ 的 F，其平方是 $-1_F$；例如，定义向量空间结构相对于$\mathbf{C}$在向量空间上不可能超过有限*奇数*维数的$\mathbf{R}$。
 
 设E是$\mathbf{C}$上的拓扑向量空间，$E_0$是$\mathbf{R}$上的拓扑向量空间，它是E的基础。E中的每个线性簇M也是$E_0$中的线性簇，但逆命题是假的。为了避免混淆，我们说向量空间结构相对于 $\mathbf{C}$（或相对于 $\mathbf{R}$）的线性簇是*复数*（或*实数*）线性簇。复线性簇有限维 $n$（分别为有限余维 $n$）是实线性簇维数 $2n$（分别为余维 $2n$）。在阶中，E的实向量子空间M也应该是复数向量子空间，$iM \subset M$是充分必要的。
 
-回想一下，如果 E 和 F 是 $\mathbf{C}$ 上的两个拓扑向量空间，则如果 E 和 F 的向量空间结构的线性映射是线性映射，则 F 中 E 的映射称为 $\mathbf{C}$ 线性（或 $\mathbf{R}$ 线性）至$\mathbf{C}$（分别为$\mathbf{R}$）；每个$\mathbf{C}$线性映射显然都是$\mathbf{R}$线性，但逆命题是错误的。我们说 E 上的 $\mathbf{C}$ 线性形式是*复数* 线性形式，而 E 上的 $\mathbf{R}$ 线性形式（*即* $E_0$ 上的线性形式）是*实数* 线性形式。如果$f$是E上的复数线性形式，则显然实部部分$g = \Re f$和$f$的虚部部分$h = \Im f$是实部线性形式；进一步地，关系$f(ix) = if(x)$暗示身份$h(x) = -g(ix)$；在其他字我们有
+回想一下，如果 E 和 F 是 $\mathbf{C}$ 上的两个拓扑向量空间，则如果 E 和 F 的向量空间结构的线性映射是线性映射，则 F 中 E 的映射称为$\mathbf{C}$-线性（或 $\mathbf{R}$-线性）至$\mathbf{C}$（分别为$\mathbf{R}$）；每个$\mathbf{C}$线性映射显然都是$\mathbf{R}$线性，但逆命题是错误的。我们说 E 上的 $\mathbf{C}$ 线性形式是*复数* 线性形式，而 E 上的 $\mathbf{R}$ 线性形式（*即* $E_0$ 上的线性形式）是*实数* 线性形式。如果$f$是E上的复数线性形式，则显然实部部分$g = \Re f$和$f$的虚部部分$h = \Im f$是实部线性形式；进一步地，关系$f(ix) = if(x)$暗示身份$h(x) = -g(ix)$；在其他字我们有
 
 $$
 f(x) = (\Re f)(x) - i(\Re f)(ix).
@@ -75,7 +75,7 @@ $$
 
 令 E 为复拓扑向量空间。 E 的最小的平衡凸（或闭平衡凸）集合包含集合 A 称为 A 的*平衡凸包络*（或*平衡闭凸包络*）； A 的平衡闭凸包络是 A 的平衡凸包络的闭包。最后是集合 $e^{i\vartheta}A$ 的并凸包络；因此，当$(x_i)$是A的点的任何有限族，并且$(\lambda_i)$是复数的族，使得$\sum_i |\lambda_i| \leq 1$时，我们可以将定义视为线性和$\sum_i \lambda_i x_i$的集合。如果 A 是预紧的，那么它的平衡包络也是如此（I，p. 6，道具 3）。
 
-We say that a complex topological vector space E is *locally convex* if the real underlying topological vector space $E_0$ is locally convex, that is to say if every neighbourhood of 0 in E contains a convex neighbourhood of 0; a topology $\mathscr{T}$ on E is *locally convex* if it is compatible with the vector space structure of E (relative to $\mathbf{C}$) and if E, with topology $\mathscr{T}$, is locally convex. 在这种情况下，0 包含的每个闭凸邻域 V 都有一个平衡的邻域 W（I，p. 7，道具 4），我们看到 V 也是包含 U，W 的平衡闭凸包络；在其他字中，0形式的*平衡、封闭、凸*邻域是E中0的邻域的基本系统，在比率$\neq 0$的每个位似下不变。
+如果真正的底层拓扑向量空间 $E_0$ 是局部凸的，也就是说，如果 E 中 0 的每个邻域都包含 0 的凸邻域，我们就说复拓扑向量空间 E 是“局部凸”的； E 上的拓扑 $\mathscr{T}$ 是*局部凸*，如果它与 E 的向量空间结构（相对于 $\mathbf{C}$）相容的，并且如果具有拓扑 $\mathscr{T}$ 的 E 是局部凸的。 在这种情况下，0 包含的每个闭凸邻域 V 都有一个平衡的邻域 W（I，p. 7，道具 4），我们看到 V 也是包含 U，W 的平衡闭凸包络；在其他字中，0形式的*平衡、封闭、凸*邻域是E中0的邻域的基本系统，在比率$\neq 0$的每个位似下不变。
 
 相反，令 E 为复数向量空间，并令 $\mathfrak{S}$ 为 E 上由*吸收性*、*平衡凸* 集合形成的滤波器基。然后我们知道（II，p. 23，命题1）$\mathfrak{S}$的集合变换与$> 0$的同位比，集合$\mathfrak{B}$是0的邻域的基本系统 E上的实向量空间$E_0$上的局部凸拓扑$\mathscr{T}$。此外，由于$\mathfrak{B}$的集合是平衡的，因此它们在每个位似$x \mapsto e^{i\vartheta}x$下都是不变的，这表明$\mathscr{T}$与向量空间兼容E 的结构（超过 $\mathbf{C}$）（I，p. 7，道具 4）。
 
@@ -105,7 +105,7 @@ $$
 
 #### 推论 2 {#evt-ii-s8-thm-1-cor-2 .statement tag=07KM}
 
-— 设 V 为复数局部凸空间 E 的向量子空间，f 为在 V 中定义且连续的（复数）线性形式；则存在定义在 E 中且扩展 f 的连续线性形式 $f_1$。如果 E 被赋范，则存在形式 $f_1$ 也满足 $\|f_1\| = \|f\|$。
+— 设 V 为复局部凸空间 E 的向量子空间，f 为在 V 中定义且连续的（复数）线性形式；则存在定义在 E 中且扩展 f 的连续线性形式 $f_1$。如果 E 被赋范，则存在也满足 $\|f_1\| = \|f\|$ 的形式 $f_1$。
 
 #### 推论 3 {#evt-ii-s8-thm-1-cor-3 .statement tag=07KN}
 
@@ -117,17 +117,17 @@ $$
 
 — 设 A 是复拓扑向量空间 E 中的开非空凸集合，M 是不满足 A 的非空（复）线性簇。则存在一个闭复形超平面 H，包含 M 且不满足 A。
 
-我们可以假设$0 \in M$。则存在闭实数超平面$H_0$包含M且不满足A（II，p. 36；第1）。作为$M = iM$，封闭复合体超平面$H = H_0 \cap (iH_0)$具有所需的属性。
+我们可以假设$0 \in M$。则存在闭实数超平面 $H_0$ 包含 M 且不满足 A (II, p. 36; th. 1)。作为$M = iM$，封闭复合体超平面$H = H_0 \cap (iH_0)$具有所需的属性。
 
-#### 推论{#evt-ii-s8-n3-cor-1 .statement tag=07KP}
+#### 推论 {#evt-ii-s8-n3-cor-1 .statement tag=07KP}
 
-— 在局部凸复数空间 E 中，每个闭复数线性簇 M 都是闭复数超平面的交，其中包含它。
+— 在复数局部凸空间 E 中，每个闭复数线性簇 M 都是闭复数超平面的交，其中包含它。
 
 事实上，对于所有$x \notin M$，存在$x$的凸开邻域$V$不满足$M$，因此存在闭复形超平面$H$包含$M$且不满足$V$； *更不必说* $H$ 不包含 $x$。
 
 #### 命题 2 {#evt-ii-s8-prop-2 .statement tag=07KQ}
 
-*设$A$为复杂拓扑向量空间$E$的非空平衡开凸集合，$B$为不满足$A$的非空凸集合。那么$E$和数$\alpha > 0$上存在连续复形线性形式$f$，使得$A$中有$|f(x)| < \alpha$，$B$中有$|f(y)| \geq \alpha$。*
+*设$A$为复杂拓扑向量空间$E$的非空平衡开凸集合，$B$为不满足$A$的非空凸集合。那么在$E$和数$\alpha > 0$上存在连续复形线性形式$f$，使得$A$中有$|f(x)| < \alpha$，$B$中有$|f(y)| \geq \alpha$。*
 
 因为，在$E$和实数$\alpha$上存在连续的*实数*线性形式$g$，使得$A$中的$g(x) < \alpha$和$B$中的$g(y) \geq \alpha$（II，p. 37，道具1）。作为$0 \in A$，我们有$\alpha > 0$。我们证明连续复形线性形式$f(x) = g(x) - ig(ix)$和数$\alpha$具有所需的性质。因为，从$\Re f = g$开始，我们在$B$中有$|f(y)| \geq \alpha$。另一方面，对于所有$x \in A$和所有实数$\vartheta$，点$e^{i\vartheta}x$属于到$A$，因为$A$是平衡的，我们有$f(x) = e^{-i\vartheta}f(e^{i\vartheta}x)$；那么存在数 $\vartheta$ 使得 $|f(x)| = \Re(e^{i\vartheta}f(x)) = g(e^{i\vartheta}x) < \alpha$ 和命题紧随其后。
 

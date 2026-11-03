@@ -42,21 +42,21 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: 28add55366811d156307cd8017cea2e2834ce788343ecae47be6fb595ccd34f0
+content_sha256: 8cd5bf834d19483454f1c64d7342bae874c9bb2d6d7f0fa1587ee4e9cd986c30
 translated_from: content/en/alg/III/01_s1_algebras.md
 translation_method: google
 source_content_sha256: 820912e8d5d630a54cb7380bd85e9cf6d35d1c95d761b599b7ec5d3af2010845
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 67a722628c0393ed7bc81e2ed9e16e791bfdefbf38459ee8fe9c38a9d01757d5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 代数
 
-### 1. 定义代数
+### 1. 定义 / 代数
 
 #### 定义 1 {#alg-iii-s1-def-1 .statement tag=05YR}
 
@@ -98,31 +98,31 @@ $$(x, y) \mapsto xy + yx$$
 
 #### 定义 2 {#alg-iii-s1-def-2 .statement tag=05YT}
 
-*给定两个代数* E, E' *超过交换环* A, *同态 of* E *进入* E' *是映射* $f : E \to E'$ *这样*
+*给定两个代数* E，E' *超过交换环* A，*同态* E *进入* E' *是映射* $f : E \to E'$ *这样*
 (1) *f 是一个* A*-模同态*；
 (2) $f(xy) = f(x)f(y)$ *对于所有* $x \in E$ *和* $y \in E$。
 
-显然，两个A-代数同态中的合成是A-代数同态。每个双射代数同态都是同构。因此A-代数同态可以被视为A-代数结构类*态射*（*集合理论*，IV，2，no. 1）。接下来我们总是假设态射中的选择已经制作完成。如果E、E'是两个A-代数，则令$\operatorname{Hom}_{A\text{-alg}}(E, E')$表示E的A-代数同态的集合到E'中。
+显然，两个A-代数同态中的合成是A-代数同态。每个双射代数同态都是同构。因此A-代数同态可以取为A-代数结构类*态射*(*集合理论*，IV，2，no. 1)。接下来我们总是假设态射的这个选择已经被制作出来了。如果E、E'是两个A-代数，则令$\operatorname{Hom}_{A\text{-alg}}(E, E')$表示E的A-代数同态的集合到E'中。
 
-令 E、E' 为两个代数，每个单位元。 E 的同态到 E' 映射单位元到 E' 的单位元被称为*单位同态*（或*单位代数态射*）。
+令 E、E' 为两个代数，每个单位元。 E 的同态到 E' 映射单位元到 E' 的单位元称为*单位同态*（或*单位代数态射*）。
 
-### 2. 子代数。理想。商代数
+### 2. 子代数。理想。 商代数
 
-设 A 为交换环，E A-代数。如果F是W的子A模，在E上的乘法、限制到E定义的乘法的F×F（与F上的A-模结构）、F上的A-代数结构下稳定，因此结构，被称为 A-代数 E 的 *子代数*。E 的子代数的每个交都是 E 的子代数。对于 E 的元素的每个$(x_i)_{i \in I}$，E 包含的子代数交所有$x_i$ 被称为由$(x_i)_{i \in I}$族*生成*的E的子代数，$(x_i)_{i \in I}$被称为这个子代数的*生成的系统*（或*生成的族*）。如果$u : E \to E'$是A-代数同态，则E的每个子代数F的像$u(F)$是E'的子代数。
+设 A 为交换环，E A-代数。如果F是W的子A模，在E上乘法下稳定，限制到E定义的乘法的F×F（与F上的A-模结构）F上的A-代数结构，则结构，称为 A-代数 E 的 *子代数*。E 的子代数的每个交都是 E 的子代数。对于 E 的元素的每个$(x_i)_{i \in I}$，E 的交 E 包含的子代数所有$x_i$被称为E的子代数，由$(x_i)_{i \in I}$家族*生成*，$(x_i)_{i \in I}$被称为该家族的*生成的系统*（或*生成的家族*） 子代数。如果$u : E \to E'$是A-代数同态，则E的每个子代数F的像$u(F)$是E'的子代数。
 
-令 E 为*结合* 代数。对于E的每个子集M，E的元素的集合$M'$可与M的所有元素置换，是E的子代数，称为E中M的*中心化器*子代数（I, § 1, no. 5）。 E 中$M'$ 的扶正器$M''$ 也称为 M 的*双扶正器*；显然$M \subset M''$。由此可见，$M'$包含在其双中心化器$M''$中，而它正是$M''$的中心化器；但关系$M \subset M''$隐含$M'' \subset M'$，因此$M' = M''$（cf.*集合理论*，III, § 1, no. 7，命题2）。如果F是E的子代数，则F的*中心*是F及其在E中的扶正器$F'$的交$F \cap F'$。注如果
+令 E 为*结合* 代数。对于E的每个子集M，E的元素的集合$M'$可与M的所有元素置换，是E的子代数，称为E中M的*中心化器*子代数（I, § 1, no. 5）。 E 中$M'$ 的扶正器$M''$ 也称为 M 的*双扶正器*；显然$M \subset M''$。由此可见，$M'$包含在其双中心化器$M''$中，而它正是$M''$的中心化器；但关系 $M \subset M''$ 隐含$M'' \subset M'$，因此$M' = M''$ (cf. *集合理论*, III, § 1, no. 7, 命题 2)。如果 F 是 E 的子代数，则 F 的 *中心* 是 F 的交 $F \cap F'$ 及其在 E 中的扶正器$F'$。请注意，如果
 
 F 是*可交换的*，则$F \subset F'$，因此$F' \supset F''$；在这种情况下，F 的双中心化器 $F''$ 是 F 的 *中心*。
 
-对于某些非关联的代数（对于例李代数），子代数和中心的集中器概念定义不同（*李群和李代数*，I, § 1, no. 6）。
+对于某些非关联的代数（例如李代数），子代数和中心的扶正器概念定义不同（*李群和李代数*、I, § 1, no. 6）。
 
-当$a$是E的子A模并且关系$x \in a,\ y \in E$暗示$yx \in a$（或$xy \in a$）时，A-代数E的子集$a$被称为E的*左理想*（或*右理想*）​​。这相当于说$a$是E的左理想或反代数$E^0$的右理想。 E 的*双边理想*是 E 的子集 $a$，它既是左理想又是右理想。当 E 是结合律并承认单位元 $e$ 时，对于 $\alpha \in A$ 和 $x \in E$，$\alpha x = (\alpha e)x = x(\alpha e)$ 凭借 (2) (no. 1)，因此 *环* E (I, § 8, no. 6) 的（右、左、两侧）理想与*代数* E 的（右、左、两侧）理想。代数 E 的左（右、两侧）理想的每个和和每交都是左（右、两侧）理想。 E 的左（或右，或两侧）理想包含子集 X 的交被称为由 X *生成*的 E 的左（或右，或两侧）理想。
+当$a$是E的子A模且关系$x \in a,\ y \in E$暗示$yx \in a$（或$xy \in a$）时，A-代数E的子集$a$称为E的*左理想*（或*右理想*）​​。这相当于说$a$是E的左理想或反代数$E^0$的右理想。 E 的*双边理想*是 E 的子集 $a$，它既是左理想又是右理想。当 E 是结合律并承认单位元 $e$ 时，对于 $\alpha \in A$ 和 $x \in E$，$\alpha x = (\alpha e)x = x(\alpha e)$ 凭借 (2) (no. 1)，因此 *环* E (I, § 8, no. 6) 的（右、左、两侧）理想为与 *代数* E 的（右、左、两侧）理想相同。 代数 E 的左（右、两侧）理想的每个和和每个交都是左（右、两侧）理想。 E 的左（或右、两侧）理想包含子集 X 的交被称为由 X *生成*的 E 的左（或右、或两侧）理想。
 
 令 $b$ 为 A-代数 E 的*双面*理想。如果 $x \equiv x' \pmod{b}$ 和 $y \equiv y' \pmod{b}$，则
 $$
 x(y - y') \in b \quad \text{and} \quad (x - x')y' \in b
 $$
-因此$xy \equiv x'y' \pmod{b}$。因此，可以在商A-模$E/b$上定义内部律，即E的乘法律$(x, y) \mapsto xy$除以等价关系$x \equiv x' \pmod{b}$（I, § 1, no. 6）的商。立即验证该商律是$(E/b) \times (E/b)$到$E/b$的A双线性映射；因此，定义与A-模结构在$E/b$A-代数结构在$E/b$。 $E/b$，加上代数结构，被称为双面理想$b$ 代数 E 的*商代数*。 典范映射$p : E \to E/b$是代数同态。
+因此$xy \equiv x'y' \pmod{b}$。因此，可以在商 A-模 $E/b$ 上定义一个内部律，即 E 的乘法律 $(x, y) \mapsto xy$ 的商乘以等价关系 $x \equiv x' \pmod{b}$ （I, § 1, no. 6）。立即验证这个商律是$(E/b) \times (E/b)$到$E/b$的A双线性映射；因此，定义与$E/b$A-代数结构在$E/b$上A-模结构。 $E/b$，与此代数结构，被双面理想$b$称为代数 E 的*商代数*。 典范映射$p : E \to E/b$是代数同态。
 
 令E，$E'$为两个A-代数和$u : E \to E'$代数同态。 像$u(E)$是$E'$的子代数，核$b = u^{-1}(0)$是E的双面理想；此外，在$u$的规范分解中：
 $$
@@ -141,7 +141,7 @@ $$
 
 立即验证$\tilde{E}$，与合成的这些律，是代数超过$A$，并且$(1,0)$是这个代数的单位元。 集合$\{0\} \times E$是$\tilde{E}$和$x \mapsto (0,x)$的双面理想，是代数$E$的同构到子代数$\{0\} \times E$，由此$E$和$\{0\} \times E$是确定。 $\tilde{E}$称为代数，由$E$通过邻接单位元衍生而来；当且仅当 $E$ 是结合律（或可交换）。
 
-### 3. 图表表达结合性和交换律
+### 3. 图表表示结合性和交换律
 
 令$A$为交换环，且$E$为$A$模；给出 $E \times E$ 到 $E$ 的双线性映射相当于给出 $A$ 线性映射：
 
@@ -181,7 +181,7 @@ E & & E
 \end{array}
 $$
 
-是可交换的，其中$\sigma$表示由$\sigma(x \otimes y) = y \otimes x$为$x \in E, y \in E$定义的规范$A$线性映射（II, § 3, no. 1，推论2到命题1）。
+是可交换的，其中 $\sigma$ 表示由 $\sigma(x \otimes y) = y \otimes x$ 对于 $x \in E, y \in E$ 定义的规范$A$线性映射（II, § 3, no. 1、推论 2 到命题 1）。
 
 对于所有$c \in E$，让$\eta_c$表示由条件$\eta_c(1) = c$定义的A到E中的A-线性映射。为了使$c$成为E的单位元，两个图表是充分必要的
 
@@ -214,7 +214,7 @@ $$\alpha x = \eta(\alpha) \cdot x \quad \text{for } \alpha \in A, x \in E$$
 
 $$\lambda x = \rho(\lambda) \cdot x \quad \text{for } \lambda \in A, x \in E.$$
 
-### 4. 乘积代数
+### 4. 乘积 / 代数
 
 设$(E_i)_{i \in I}$是代数在同一个交换环A上的一个族。立即验证在乘积集合$E = \prod_{i \in I} E_i$，乘积A-模结构（II, § 1, no. 5）和乘法
 
@@ -267,9 +267,9 @@ $$
 
 因此，$E_{(B)}$和$\phi_E$的有序对由……组成是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是类 $B$-代数结构和$\alpha$-将$A$-同态从$E$映射到$B$-代数。
 
-#### 推论{#alg-iii-s1-n5-cor-1 .statement tag=05YV}
+#### 推论 {#alg-iii-s1-n5-cor-1 .statement tag=05YV}
 
-*令$E, E'$为两个$A$-代数；对于代数$u : E \to E', u \otimes 1_B$的每个$A$同态都是代数$v : E \otimes_A B \to E' \otimes_A B$的唯一$B$同态，呈现可交换的图表*
+*令$E, E'$为两个$A$-代数；对于代数$u : E \to E', u \otimes 1_B$的每个$A$同态都是代数$v : E \otimes_A B \to E' \otimes_A B$的唯一$B$同态，呈现可交换图表*
 
 $$
 \begin{array}{ccc}
@@ -287,7 +287,7 @@ $$
 
 对于所有 $x \in E$（II, § 5, no. 1、命题 2），映射 $(x \otimes 1) \otimes 1$ 到 $x \otimes 1$ 为代数同构。
 
-### 6. 代数的倒数与直极限
+### 6. 代数的逆和直极限
 
 令$I$为*交换环*的预定集合和$(A_i, \phi_{ij})$逆系，其中$I$作为索引集合。令$(E_i, f_{ij})$为$A_i$-模块的逆系，以$I$作为索引集合（II, § 6, no. 1），并进一步假设每个$E_i$都有一个$A_i$-代数结构，并且对于$i \leq j$， $f_{ij}$是代数的$A_j$同态（相对于$\phi_{ij}$）(no. 5)。设$A = \lim \leftarrow A_i$和$E = \lim \leftarrow E_i$，其具有$A$模块结构，$A_i$模块$E_i$(II, § 6, no. 1)的结构中的逆极限；立即验证，$E$上的合成的律，被视为$E_i$的逆极限，被视为乘法（I, § 10, no. 1）下的岩浆，$E$、定义上的$A$模块结构关于 $E$ 和 $A$-代数结构； $(E_i, f_{ij})$ 称为 $A_i$ 代数的 *逆系*，$A$ 代数 $E$ 称为其 *逆极限*。如果$f_i : E \to E_i$、$\phi_i : A \to A_i$是典范映射，$f_i$是代数的*$A$*同态（相对于$\phi_i$）。如果 $E_i$ 是结合律（或可交换），则 $E$ 也是；如果每个$E_i$对于$i \leq j$都承认单位元、$e_i$和$f_{ij}(e_j) = e_i$，则$e = (e_i)$是代数$E$的单位元。
 
@@ -345,7 +345,7 @@ $$
 
 是可交换的。
 
-### 7. 基的代数。 乘法表
+### 7. 基共代数。 乘法表
 
 通过定义，A-代数 E 的基等于 E 的 A-模结构的基。令 (a_i)_{i \in I} 为 E 的基；存在环 A 的元素的唯一族 (\gamma^k_{ij})_{(i, j, k) \in I \times I \times I}，使得对于每个有序对 (i, j) \in I \times k \in I 的 I, 集合使得 \gamma^j_{ij} \neq 0 是有限的并且
 
@@ -371,9 +371,9 @@ $$
 
 可以理解，出现在指标$j$的指标$i$和列行中的元素等于乘积$a_i a_j$。
 
-相反，给定 E 的 *A-模* E、基 $(a_i)_{i \in I}$ 和 A 的元素族$(\gamma_{ij}^k)$，使得对于 $k \in I$ 的每个有序对 $(i, j) \in I \times I$ 集合，使得 $\gamma_{ij}^k \neq 0$ 是有限的，则在 E 上唯一一个A-代数结构，其中关系(7)成立，因为A-模$E \otimes_A E$是自由的并且承认为基$(a_i \otimes a_j)_{(i, j) \in I \times I}$（cf.II, § 3, no. 7，推论2到命题7）。
+相反，给定 E 的 *A-模* E、基 $(a_i)_{i \in I}$ 和 A 的元素族$(\gamma_{ij}^k)$，使得对于 $k \in I$ 的每个有序对 $(i, j) \in I \times I$ 集合，使得 $\gamma_{ij}^k \neq 0$ 是有限的，则在 E 上且只有一个A-代数结构，其中关系 (7) 成立，因为 A-模 $E \otimes_A E$ 是自由的并且承认为基 $(a_i \otimes a_j)_{(i, j) \in I \times I}$ (cf. II, § 3, no. 7, 推论 2 到命题7)。
 
-令 E 为 A-模 E 的 A-代数和 $(a_i)_{i \in I}$ 生成的系统（对于例基）。要使 E 具有*结合性*，满足 $a_i$ 满足 *结合性关系* 是必要且充分的
+令 E 为 A-模 E 的 A-代数和 $(a_i)_{i \in I}$ 生成的系统（例如基）。要使 E 具有*结合性*，满足 $a_i$ 满足 *结合性关系* 是必要且充分的
 
 $$(8)$$
 $$(a_i a_j) a_k = a_i (a_j a_k) \quad \text{for all } i, j, k$$

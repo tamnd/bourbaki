@@ -29,27 +29,27 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 9f5d39f991d7e49e888b9a24fe3502b00bf8cbe17fcd372c6070ff336ac903e1
+content_sha256: 4df9ddbab76214c842b4d62667bce6e96ed2a57aa392ff5d305b65eb5385ea27
 translated_from: content/en/top/I/04_s4_product_of_topological_spaces.md
 translation_method: google
 source_content_sha256: ca28b3bed17cb5f1025ef827c13e6c41b2a4a8dcca42f1668734a8ba2d7c3fa4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ea80a5a12475ef9d5c2637313692e0d4b1b3128c62928bf3cc94a55803f0a55e
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 4. 拓扑乘积空间
+## 4. 拓扑空间的乘积
 
-### 1. PRODUCT SPACES
+### 1. 乘积空间
 
 #### 定义 1 {#top-i-s4-def-1 .statement tag=0B27}
 
 *给定拓扑空间的族$(X_i)_{i \in I}$，该族的乘积空间是乘积集合$X = \prod_{i \in I} X_i$，拓扑是$X_i$拓扑的乘积（§ 2, no. 3， 例3）。 空间 $X_i (i \in I)$ 称为 X 的因子。*
 
-By virtue of § 2, no. 3, Proposition 4, the product topology on $X$ has as a base the set $\mathfrak{B}$ of finite intersections of sets of the form $\overline{\mathrm{pr}}_i^{-1}(U_i)$, where $U_i$ is open in $X_i$; these sets are products $\prod_{i \in I} A_i$, where $A_i$ is open in $X_i$ for each $i \in I$ and $A_i = X_i$ for all but a finite number of indices. 这些集合将被称为基本集合。
+根据命题 4 § 2, no. 3，$X$ 上的乘积拓扑以$\overline{\mathrm{pr}}_i^{-1}(U_i)$ 形式的集合的有限交集$\mathfrak{B}$ 作为基，其中$U_i$ 在$X_i$ 中开；这些集合是乘积 $\prod_{i \in I} A_i$，其中 $A_i$ 对于每个 $i \in I$ 和 $A_i = X_i$ 对于除了有限数量的索引之外的所有索引，在 $X_i$ 中是开放的。 这些集合将被称为基本集合。
 
 如果$\mathfrak{B}_i$是$X_i$的拓扑的基（对于每个$i \in I$），很明显，对于每个指标$i$，初等集合$\prod_{i \in I} A_i$使得$A_i \in \mathfrak{B}_i$使得$A_i \neq X_i$ 形式另一个基共乘积拓扑。这个型的基本集合，其中包含给定点$x \in X$，因此形式是$x$的邻域的基本系统（$§ 1$，no. 3， 命题3)。
 
@@ -59,11 +59,11 @@ By virtue of § 2, no. 3, Proposition 4, the product topology on $X$ has as a ba
 
 \* $n$ 空间乘积 $\mathbf{R}^n$ 与实直线 $\mathbf{R}$ 相同，称为 $n$ 维数实数空间； $\mathbf{R}^2$也称为实平面（cf.章VI, § 1）。同样，从有理线$\mathbf{Q}$开始，我们定义$n$维数$\mathbf{Q}^n$的有理数空间（$n = 2$的有理平面）。
 
-空间 $\mathbf{R}^n$中的拓扑在$\mathbf{R}$中具有$n$所有乘积中的基集合，称为$n$维数的开箱。打开的盒子是包含点$x \in \mathbf{R}^n$形式这个点的邻域的基本系统。同样，$\mathbf{R}$中$n$闭区间的乘积称为$n$维数的闭箱。 $x$ 内部的封闭盒子也是形式 $x$ 邻域的基本系统。 $\mathbf{Q}^n$ 也有类似的结果。 \*
+空间 $\mathbf{R}^n$的拓扑在$\mathbf{R}$有$n$的所有乘积中的基集合打开区间，称为$n$维数的开箱。打开的盒子是包含点$x \in \mathbf{R}^n$形式这个邻域的基本系统这个点。同样，$n$的乘积在$\mathbf{R}$中封闭了区间，称为$n$维数的封闭盒子。 $x$ 内部的封闭盒子也是形式 $x$ 邻域的基本系统。 $\mathbf{Q}^n$ 也有类似的结果。 \*
 
 #### 命题 1 {#top-i-s4-prop-1 .statement tag=0B29}
 
-Let $f = (f_i)$ be a mapping of a topological space $Y$ into a product space $X = \prod_{i \in I} X_i$. 那么$f$在点$a \in Y$连续当且仅当$f_i$对于每个$i \in I$在$a$连续。
+令$f = (f_i)$为拓扑空间$Y$到乘积空间$X = \prod_{i \in I} X_i$的映射。 那么$f$在点$a \in Y$连续当且仅当$f_i$对于每个$i \in I$在$a$连续。
 
 从 $f_i = \mathrm{pr}_i \circ f$ 开始，这只是 § 2, no. 3 的命题 4 的特例。
 
@@ -81,11 +81,11 @@ f 可以写成 $x \to (f_i(\mathrm{pr}_i(x)))$，因此命题 1 条件就足够�
 
 *令$X, Y$为两个拓扑空间。在阶中，映射$f : X \to Y$应该是连续的，映射$g : x \to (x, f(x))$是$X$同胚到$f$的图$G$（视为子空间）是充分必要的乘积空间$X \times Y$）。*
 
-由于$f = \mathrm{pr}_2 \circ g$，条件就足够了。这也是必要的，因为如果 $f$ 是连续的，则 $g$ 是双射且连续的 (命题 1)，并且 $g$ 的逆是 $\mathrm{pr}_1$ 到 $G$ 的限制，它是连续的 (cf. *集合理论*， 章 IV, § 2, no. 4，标准 CST 17)。
+由于$f = \mathrm{pr}_2 \circ g$，条件就足够了。这也是必要的，因为如果 $f$ 是连续的，则 $g$ 是双射且连续的 (命题 1)，并且 $g$ 的逆是 $\mathrm{pr}_1$ 到 $G$ 的限制，它是连续的 (cf. *集合) 理论*、章 IV, § 2, no. 4，标准 CST 17)。
 
 #### 命题 2（拓扑乘积的结合性）{#top-i-s4-prop-2 .statement tag=0B2C}
 
-*令$(X_i)_{i \in I}$为集合$I$的拓扑空间、$(J_x)_{x \in K}$划分族，对于每个$x \in K$令$X'_x = \prod_{i \in J_x} X_i$为空间$X_i$的乘积 $i \in J_K$。那么典范映射共乘积空间*
+*令$(X_i)_{i \in I}$为集合$I$的拓扑空间、$(J_x)_{x \in K}$划分族，对于每个$x \in K$令$X'_x = \prod_{i \in J_x} X_i$为空间的乘积 $X_i$ 换$i \in J_K$。然后典范映射乘积空间*
 $$
 \prod_{i \in I} X_i \text{ onto the product space } \prod_{x \in K} X'_x
 $$
@@ -93,11 +93,11 @@ $$
 
 这是初始拓扑传递性的特例（$\S$ 2、no. 3、命题 5；cf. *集合理论*、章 IV, § 2, no. 4，标准 CST 13）。
 
-一般我们通过典范映射*认同*乘积空间$\prod_{i \in I} X_i$和$\prod_{x \in K} X'_x$。
+一般地，我们通过典范映射*认同*乘积空间$\prod_{i \in I} X_i$和$\prod_{x \in K} X'_x$。
 
-#### 推论{#top-i-s4-n1-cor-1 .statement tag=0B2D}
+#### 推论 {#top-i-s4-n1-cor-1 .statement tag=0B2D}
 
-*设$\sigma$为集合$I$中的置换。那么映射 $(x_i) \to (x_{\sigma(i)})$ 是*的同胚
+*令$\sigma$为集合$I$中的置换。那么映射 $(x_i) \to (x_{\sigma(i)})$ 是*的同胚
 $$
 \prod_{i \in I} X_i \text{ onto } \prod_{i \in I} X_{\sigma(i)}.
 $$
@@ -106,41 +106,41 @@ $$
 
 #### 命题 3 {#top-i-s4-prop-3 .statement tag=0B2E}
 
-*令$X$为集合，$(Y_i)_{i \in I}$为空间的拓扑族，对于每个$i \in I$，令$f_i$为$X$到$Y_i$的映射。令$f$为$X$到$Y = \prod_{i \in I} Y_i$的映射$x \to (f_i(x))$，并令$\mathfrak{T}$为$X$上最粗糙的拓扑，其中映射$f_i$是连续的。那么 $\mathfrak{T}$ 是逆像在拓扑的$f$ 下，$f(X)$ 由乘积拓扑在$Y$ 诱发。*
+*令$X$为集合，$(Y_i)_{i \in I}$为空间的拓扑族，对于每个$i \in I$，令$f_i$为$X$到$Y_i$的映射。令$f$为$X$到$Y = \prod_{i \in I} Y_i$的映射$x \to (f_i(x))$，并令$\mathfrak{T}$为$X$上最粗糙的拓扑，其中映射$f_i$是连续的。那么$\mathfrak{T}$是逆像在$f$下，拓扑在$f(X)$上由乘积拓扑在$Y$上诱导。*
 
-这是初始拓扑传递性的另一个特例（\S\ 2, no. 3, 命题 5; cf. 集合理论, 章 IV, \S\ 2, no. 4, 准则 CST 15）。
+这是初始拓扑的传递性另一个特例（\S\ 2、no. 3、命题 5；cf. 集合理论、章 IV、\S\ 2、no. 4，标准 CST 15）。
 
-#### 推论{#top-i-s4-n1-cor-2 .statement tag=0B2F}
+#### 推论 {#top-i-s4-n1-cor-2 .statement tag=0B2F}
 
 *对于每个$i \in I$，令$A_i$为$Y_i$的子空间。那么乘积拓扑在$\prod_{i \in I} Y_i$上在$A = \prod_{i \in I} A_i$上诱导拓扑是子空间$A_i$拓扑的乘积。*
 
-令$j_i$为典范嵌入$A_i \to Y_i$，应用命题3至映射$f_i = j_i \circ \mathrm{pr}_i$（cf.集合理论，章IV，\S\2，no. 4，标准 CST 14)。
+令 $j_i$ 为典范嵌入 $A_i \to Y_i$，应用命题 3 至映射 $f_i = j_i \circ \mathrm{pr}_i$ (cf. 集合理论, 章 IV, \S\ 2, no. 4，标准 CST 14）。
 
-### 2. 截面开集合； 截面已关闭集合；开放的投影集合。部分连续性
+### 2. 开集合的截面；闭合集合的截面；开放的集合的投影。部分连续性
 
 #### 命题 4 {#top-i-s4-prop-4 .statement tag=0B2G}
 
 *设$X_1, X_2$为两个拓扑空间；那么对于每个$a_1 \in X_1$，映射$x_2 \to (a_1, x_2)$是$X_2$到$X_1 \times X_2$的子空间$\{a_1\} \times X_2$的同胚。*
 
-这是命题 1 of no. 1 的推论 1 应用于常数函数 $x_2 \to a_1$ 的特殊情况。
+这是推论 1 of 命题 1 of no. 1 应用于常数函数 $x_2 \to a_1$ 的特殊情况。
 
-映射 $x_2 \to (a_1, x_2)$ 是关于 $X_1 \times X_2$ 中的等价关系 $\mathrm{pr}_2 z = \mathrm{pr}_2 z'$ 的*连续截面* (\S\ 3, no. 5)；因此，等价关系的商空间$X_1 \times X_2$同胚于$X_2$。
+映射$x_2 \to (a_1, x_2)$相对于$X_1 \times X_2$中的等价关系$\mathrm{pr}_2 z = \mathrm{pr}_2 z'$来说是一个*连续段*（\S\3, no. 5）；因此，由该等价关系得出的商空间 $X_1 \times X_2$ 同胚于 $X_2$。
 
-#### 推论{#top-i-s4-n2-cor-1 .statement tag=0B2H}
+#### 推论 {#top-i-s4-n2-cor-1 .statement tag=0B2H}
 
-* 截面 $A(x_1)$ 开（或闭） 集合 $A$ 或乘积 $X_1 \times X_2$ 在任意点 $x_1 \in X_1 (*)$ 在 $X_2$ 开（或闭）。*
+* 乘积 $X_1 \times X_2$ 的截面 $A(x_1)$ 开（或闭）集合 $A$ 在任意点 $x_1 \in X_1 (*)$ 在 $X_2$ 开（或闭）。*
 
 #### 命题 5 {#top-i-s4-prop-5 .statement tag=0B2I}
 
-*乘积$X_1 \times X_2$的开集合$U$到因子的投影是开集合。*
+* 乘积 $X_1 \times X_2$ 的开集合 $U$ 的投影到任一因子上是开集合。*
 
-对于例，我们有 $\mathrm{pr}_2 U = \bigcup_{x_1 \in X_1} U(x_1)$，并且命题由命题 4 的推论和公理 (O_1) 得出。
+例如，我们有$\mathrm{pr}_2 U = \bigcup_{x_1 \in X_1} U(x_1)$，命题从推论到命题4以及公理（O_1）。
 
 #### 注 1 {#top-i-s4-n2-rem-1 .statement tag=0B2J}
 
-*关闭* 的投影 $X_1 \times X_2$ 的子集到因子 *不需要关闭*。对于例来说，在有理平面$\mathbf{Q}^2$中，方程为$x_1 x_2 = 1$的双曲线是一个闭的集合，但它的投影都等于$\mathbf{Q}$中点 0的补集，这不是一个闭的集合。
+*关闭* 的投影 $X_1 \times X_2$ 的子集到因子 *不需要关闭*。例如，在有理平面$\mathbf{Q}^2$中，方程为$x_1 x_2 = 1$的双曲线是闭的集合，但它的投影都等于$\mathbf{Q}$中点 0的补，这不是闭的集合。
 
-(*) $A$在$x_1$的*截面* $A(x_1)$是指所有$x_2 \in X_2$中的集合使得$(x_1, x_2) \in A$（cf.集合理论R，\S\3， no. 7）。
+(*) $x_1$ 处$A$的*截面* $A(x_1)$表示所有$x_2 \in X_2$中的集合，使得$(x_1, x_2) \in A$ (cf. 集合理论 R, \S\ 3, no. 7)。
 
 #### 命题 6 {#top-i-s4-prop-6 .statement tag=0B2K}
 
@@ -152,15 +152,15 @@ $$
 
 #### 注 2 {#top-i-s4-n2-rem-2 .statement tag=0B2L}
 
-由映射 $f : X_1 \times X_2 \to Y$ 确定的所有部分映射可能是连续的，而不是 $f$ 在 $X_1 \times X_2$ 上连续（cf. 章 IX, § 5、习题 23）。 \* 对于例，如果$f$是实平面$\mathbf{R}^2$到$\mathbf{R}$的映射，定义为
+由映射 $f : X_1 \times X_2 \to Y$ 确定的所有部分映射可能是连续的，而不是 $f$ 在 $X_1 \times X_2$ 上连续（cf. 章 IX, § 5、习题 23）。 \* 例如，如果$f$是实平面$\mathbf{R}^2$到$\mathbf{R}$的映射，定义为
 $$
 f(x, y) = xy/(x^2 + y^2) \quad \text{if} \quad (x, y) \neq (0, 0)
 $$
 和$f(0, 0) = 0$，则所有部分映射都是连续的；但$f$在$(0, 0)$处不连续，因为如果$x \neq 0$则$f(x, x) = 1/2$。
 
-如果$g$是$X_1$的映射到$Y$，在点$a_1$连续，那么$X_1 \times X_1 \to Y$的映射$(x_1, x_2) \to g(x_1)$完全连续点$(a_1, x_2)$，因为它是$g$ 和投影的合成到$X_1$。
+如果$g$是$X_1$的映射到$Y$，在点$a_1$连续，那么$X_1 \times X_1 \to Y$的映射$(x_1, x_2) \to g(x_1)$完全连续点$(a_1, x_2)$，因为它是$g$和投影到$X_1$的合成。
 
-这个小节的结果很容易扩展到拓扑空间的任意乘积$\prod_{i \in I} X_i$，通过指出对于任何划分$(J, K)$，这个乘积同胚于乘积$\left( \prod_{i \in J} X_i \right) \times \left( \prod_{i \in K} X_i \right)$ $I$（no. 1，命题2）。
+这个小节的结果很容易扩展到拓扑空间的任意乘积$\prod_{i \in I} X_i$，通过指出对于任何划分$(J, K)$来说，这个乘积同胚于乘积$\left( \prod_{i \in J} X_i \right) \times \left( \prod_{i \in K} X_i \right)$ $I$（no. 1，命题2）。
 
 ### 3. 乘积关闭
 
@@ -170,7 +170,7 @@ $$
 
 假设$a = (a_i)$位于$\prod_{i \in I} A_i$的闭包内；那么对于每个$x \in I$，由于$\operatorname{pr}_x$（§ 2, no. 1，定理 1）的连续性，$a_x = \operatorname{pr}_x a$位于$A_x$的闭包中，因此$a \in \prod_{i \in I} \overline{A}_i$。相反，令$b = (b_i) \in \prod_{i \in I} \overline{A}_i$，并令$\prod_{i \in I} V_i$为任意初等集合包含$b$；对于每个 $i \in I$、$V_i$ 包含点 $x_i \in A_i$；因此$\prod_{i \in I} V_i$包含点$(x_i) \in \prod_{i \in I} A_i$，因此$b$位于$\prod_{i \in I} A_i$的闭包中。
 
-#### 推论{#top-i-s4-n3-cor-1 .statement tag=0B2N}
+#### 推论 {#top-i-s4-n3-cor-1 .statement tag=0B2N}
 
 *乘积* $\prod_{i \in I} A_i$ *非空集合在乘积空间* $\prod_{i \in I} X_i$ *当且仅当* $A_i$ *在* $X_i$ *对于每个* $i \in I$ 时封闭。
 
@@ -195,15 +195,15 @@ $$(1)$$
 $$
 \mathrm{pr}_\alpha(x) = f_{\alpha \beta}(\mathrm{pr}_\beta(x))
 $$
-每当$\alpha \leq \beta$时。 It follows from Proposition 3 of no. 1 that the inverse limit of the topologies of the $X_\alpha$ is the same as the topology *induced* on $X$ by the topology of the product space $\prod_{\alpha \in I} X_\alpha$. 如果对于每个 $\alpha \in I$，$Y_\alpha$ 是
+每当$\alpha \leq \beta$时。 从no. 1的命题3得出，$X_\alpha$拓扑的逆极限与乘积空间$\prod_{\alpha \in I} X_\alpha$的拓扑在$X$上“诱导”的拓扑相同。 如果对于每个 $\alpha \in I$，$Y_\alpha$ 是
 
-(*) 即，集合赋予自反和及物关系（*集合理论* R，§ 6, no. 1）。
+(*) 即，集合赋予自反和及物关系 (*集合理论* R, § 6, no. 1)。
 
-$X_\alpha$ 的子空间，使得 $X_\alpha$ 的 $Y_\alpha$ 形式子集* 的 *逆系 (*集合理论* 章 III, , n° 2)，那么很明显，拓扑空间 $\varprojlim Y_\alpha$ 是 $\varprojlim X_\alpha$ 的 *子空间*
+$X_\alpha$的子空间使得$Y_\alpha$形式和$X_\alpha$的子集*的*逆系 (*集合理论* 章III, , n° 2)，则显然拓扑空间 $\varprojlim Y_\alpha$ 是 $\varprojlim X_\alpha$ 的 *子空间*
 
 令$(X'_\alpha, f'_{\alpha\beta})$为拓扑空间的另一个逆系，由相同的集合$I$索引，并且对于每个$\alpha \in I$令$u_\alpha : X_\alpha \to X'_\alpha$为*连续*映射，使得$(u_\alpha)$为*逆系共映射*；那么$u = \varprojlim u_\alpha$是$X = \varprojlim X_\alpha$到$X' = \varprojlim X'_\alpha$的连续映射。因为如果$f'_\alpha$是典范映射$X' \to X'_\alpha$，我们有$f'_\alpha \circ u = u_\alpha \circ f_\alpha$，因此$f'_\alpha \circ u$对于每个$\alpha \in I$都是连续的，并且断言从§ 2, no. 3的命题4开始。
 
-最后，假设$I$是一个*有向*集合，并令$J$是$I$的*共最终*子集；设$Z$为拓扑空间$(X_\alpha, f_{\alpha\beta})_{\alpha \in J, \beta \in J}$逆系逆极限。那么规范的双射 $g : X \to Z$ (*集合理论*, 章 III, § 7, no. 2, 命题 3) 是一个*同胚*。因为每个 $\lambda \in J$ 都有 $\mathrm{pr}_\lambda(g(x)) = \mathrm{pr}_\lambda(x)$；因此 $g$ 是连续的 (no. 1, 命题 1)；如果$h$是$g$的倒数，那么对于每个$\alpha \in I$，存在$\lambda \in J$使得$\alpha \leq \lambda$，因此存在$\mathrm{pr}_\alpha(h(z)) = f_{\alpha\lambda}(\mathrm{pr}_\lambda(z))$，这表明$h$是连续的（no. 1，命题1），因为$f_{\alpha\lambda}$ 是连续的。
+最后，假设$I$是一个*有向*集合，并令$J$是$I$的*共最终*子集；设$Z$为拓扑空间$(X_\alpha, f_{\alpha\beta})_{\alpha \in J, \beta \in J}$逆系逆极限。那么规范的双射 $g : X \to Z$ (*集合理论*, 章 III, § 7, no. 2, 命题 3) 是一个*同胚*。因为每个 $\lambda \in J$ 都有 $\mathrm{pr}_\lambda(g(x)) = \mathrm{pr}_\lambda(x)$；因此 $g$ 是连续的 (no. 1, 命题 1)；如果$h$是$g$的逆，那么对于每个$\alpha \in I$，存在$\lambda \in J$使得$\alpha \leq \lambda$，因此存在$\mathrm{pr}_\alpha(h(z)) = f_{\alpha\lambda}(\mathrm{pr}_\lambda(z))$，这表明$h$是连续的（no. 1，命题1），因为$f_{\alpha\lambda}$ 是连续的。
 
 #### 命题 9 {#top-i-s4-prop-9 .statement tag=0B2P}
 
@@ -223,11 +223,11 @@ $$
 
 但$V_\gamma$是开放的，因此是集合属于到$\mathfrak{B}_\gamma$的并。于是就有了这样的结果。
 
-#### 推论{#top-i-s4-n4-cor-1 .statement tag=0B2Q}
+#### 推论 {#top-i-s4-n4-cor-1 .statement tag=0B2Q}
 
 *令$A$为$X$的子集，并让$A_\alpha$代表每个$\alpha \in I$的$f_\alpha(A)$。然后：*
 
-(i) *The $A_\alpha$ (resp. the $\overline{A}_\alpha$) form an inverse system of subsets of the $X_\alpha$, and*
+(i) *$A_\alpha$（分别为$\overline{A}_\alpha$）形成$X_\alpha$子集的逆系统，并且*
 
 $$
 \overline{A} = \bigcap_\alpha f^{-1}_\alpha(\overline{A}_\alpha) = \varprojlim \overline{A}_\alpha.
@@ -241,7 +241,7 @@ $$
 $$
 那么显然$A'$是闭集，包含$A$，所以$\overline{A} \subset A'$。相反，令$x \in A'$；我们必须证明$x$位于$A$的闭包中。凭借命题 9，足以证明$x$的每个邻域，其中形式$\overline{f}_\alpha(U_\alpha)$，其中$\alpha \in I$和$U_\alpha$在$X_\alpha$开，满足$A$。现在，到假设，$f_\alpha(x) \in U_\alpha$，从$f_\alpha(x) \in \overline{A}$开始，我们有了$U_\alpha \cap A_\alpha \neq \varnothing$，这意味着$A \cap \overline{f}_\alpha(U_\alpha)$不为空。
 
-为了建立(ii)，注就足够了，在$A$上没有任何限制，我们有$A \subset \lim A_\alpha \subset \lim \overline{A}_\alpha$；现在如果 $A$ 是闭合的，那么从 (i)
+为了建立 (ii)，只需指出，在 $A$ 上没有任何限制，我们就有 $A \subset \lim A_\alpha \subset \lim \overline{A}_\alpha$；现在如果 $A$ 是闭合的，那么从 (i)
 $$
 A = \lim \overline{A}_\alpha
 $$
@@ -249,7 +249,7 @@ $$
 
 #### 例 {#top-i-s4-n4-exa-1 .statement tag=0B2R}
 
-令$I$为有向集合，而$(X_\alpha)_{\alpha \in I}$为子集和集合$Y$的族，这样只要$\alpha \leq \beta$就有$X_\alpha \supset X_\beta$。对于每个$\alpha \in I$，令$\mathfrak{T}_\alpha$在$X_\alpha$上为拓扑，使得每当$\alpha \leq \beta$时，$\mathfrak{T}_\beta$比更细大于拓扑，由$\mathfrak{T}_\alpha$在$X_\beta$上感应。如果我们将$\alpha \leq \beta$的$f_{\alpha\beta}$视为典范嵌入$X_\beta \to X_\alpha$，那么$\lim X_\alpha$可以用$X_\alpha$的*交* $X$规范地识别，其中拓扑是*最小的$\mathfrak{T}_\alpha$ 在 $X$ 上引发的拓扑的上界* (§ 2, no. 3, 例 2)。
+令$I$为有向集合且$(X_\alpha)_{\alpha \in I}$为子集与集合$Y$的族，使得每当$\alpha \leq \beta$时$X_\alpha \supset X_\beta$。对于每个$\alpha \in I$，令$\mathfrak{T}_\alpha$为$X_\alpha$上的拓扑，使得每当$\alpha \leq \beta$时，$\mathfrak{T}_\beta$比更细大于拓扑，由$\mathfrak{T}_\alpha$在$X_\beta$上感应。如果我们将$\alpha \leq \beta$的$f_{\alpha\beta}$视为典范嵌入$X_\beta \to X_\alpha$，那么$\lim X_\alpha$可以用$X_\alpha$的*交*$X$规范地识别，而拓扑是*最小的$\mathfrak{T}_\alpha$ 在 $X$ 上引发的拓扑的上界* (§ 2, no. 3, 例 2)。
 
 ### 习题 {#top-i-s4-exercises}
 

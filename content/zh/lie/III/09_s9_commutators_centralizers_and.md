@@ -45,23 +45,23 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 42
-content_sha256: fc3850fdf7537caba562a01cb7b3886af5dc0bc6483cbdae543e389f1229c6f5
+content_sha256: dc068af750d7d013d462c27b8712b8ed5f87f95d562c3deb9e777b403c3437f3
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
 translation_method: google
 source_content_sha256: 5160b395f31c39ef9f1ad5f95ebd21b2c6f9dc63a62483b154ec6113d26d8afa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 302d57ed5eb4966cc6022e3de63cd88fef4ec238a58ddf43387e1bc07e90ed66
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 9。 换位子，李群中的集中器和标准化器
 
 在本段中，假设 K 为特征零。
 
-### 1. 换位子拓扑群
+### 1. 拓扑中的换位子群
 
 令 G 为拓扑群。我们定义群 $\overline{D^0G}, \overline{D^1G}, \overline{D^2G}, \ldots$ 和 $\overline{C^1G}, \overline{C^2G}, \overline{C^3G}, \ldots$ 公式
 
@@ -131,7 +131,7 @@ $$
 f(\lambda, \mu) = (f_1(\lambda), f_2(\mu)) \in (H_1, H_2) \quad \text{for } \lambda, \mu \text{ in I}.
 $$
 
-我们通过映射 e 到 0 的图表将 G 中 e 的开邻域与 K' 的开子集认同认同邻域认同邻域和 K' 的开子集联系起来。那么L(G) 就可以用 K' 来识别。将 f(\lambda, \mu) 的 § 5, no. 2, 命题 1, 展开作为关于原点的级数积分为
+我们通过映射 e 到 0 的图表，将 G 中 e 的开邻域和 K' 的开子集认同认同邻域和 K' 的开子集联系起来。那么 L(G) 就可以用 K' 来识别。将 f(\lambda, \mu) 的 § 5, no. 2, 命题 1, 展开作为关于原点的级数积分为
 $$
 f(\lambda, \mu) = \lambda \mu [a, b] + \sum_{i \geq 1, j \geq 1, i+j \geq 2} \lambda^i \mu^j a_{ij}
 $$
@@ -141,7 +141,7 @@ $$
 $$
 由于这对于所有 \mu ∈ I 都是正确的，因此 [a, b] ∈ h。
 
-#### 注{#lie-iii-s9-n2-rem-1 .statement tag=0AIN}
+#### 注 {#lie-iii-s9-n2-rem-1 .statement tag=0AIN}
 
 即使 H_1 和 H_2 连接为 G 的 Lie 子群，[h_1, h_2] 生成的 L(G) 的 Lie 子代数通常与 h 不同。
 
@@ -165,7 +165,7 @@ $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}
 $$
 
-因此 $\phi(A)$ 和 $\phi(B)$ 乘坐 Hausdorff 公式通勤；因此$(A, B) \subset C$。在一般情况下，令$G'$为$G$和$A', B', C'$的全覆盖，$G'$的积分子群使得$L(A') = L(A), L(B') = L(B), L(C') = L(C)$。那么$(A', B') \subset C'$和$A, B, C$分别是$G$、从而$(A, B) \subset C$中$A', B', C'$的典范像。另一方面，$(A, B)$是$G$的积分子群（§ 6, no. 2，命题4的推论）及其李代数包含$[L(A), L(B)]$（命题3）的基础集合。如果
+因此 $\phi(A)$ 和 $\phi(B)$ 乘坐 Hausdorff 公式通勤；因此$(A, B) \subset C$。在一般情况下，令$G'$为$G$和$A', B', C'$的全覆盖，$G'$的积分子群使得$L(A') = L(A), L(B') = L(B), L(C') = L(C)$。那么$(A', B') \subset C'$和$A, B, C$分别是$G$、从而$(A, B) \subset C$中$A', B', C'$的典范像。另一方面，$(A, B)$是$G$（§ 6, no. 2，推论到命题4）积分子群的基础集合及其李代数包含$[L(A), L(B)]$ （命题3）。如果
 
 $$
 [L(A), L(B)] = L(C),
@@ -187,7 +187,7 @@ $$
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{for all } x \in a.$$
 
-那么$G_1$是$G$的闭子群。如果$y \in a$，则$\exp y \in G_1$，通过§ 6, no. 4，推论3 (ii) 到命题 10。因此$G_1$包含$A$，因此$\overline{A}$。因此，对于$g \in \overline{A}$，$L(\mathrm{Int}\, g)$使$a$稳定，因此$\mathrm{Int}\, g$使$A$稳定；更准确地说，$L(\mathrm{Int}\, g)$定义是$a/\mathscr{D}a$的恒等式自同构，因此$\mathrm{Int}\, g$定义是$A/DA$的恒等式自同构。这就证明了$(\overline{A}, A) \subset DA$。 实李群结构在$G$上，$\overline{A}$是谎言子群（§ 8, no. 2，定理2）；令$b$为其李代数。令 $G_2$ 为 $g \in G$ 的集合，使得
+那么$G_1$是$G$的闭子群。如果$y \in a$，则$\exp y \in G_1$，由§ 6, no. 4、推论 3 (ii) 到命题 10。因此，$G_1$包含$A$，因此$\overline{A}$。因此，对于$g \in \overline{A}$，$L(\mathrm{Int}\, g)$使$a$稳定，因此$\mathrm{Int}\, g$使$A$稳定；更准确地说，$L(\mathrm{Int}\, g)$定义是$a/\mathscr{D}a$的恒等式自同构，因此$\mathrm{Int}\, g$定义是$A/DA$的恒等式自同构。这就证明了$(\overline{A}, A) \subset DA$。 实李群结构在 $G$ 上，$\overline{A}$ 是一个谎言子群（§ 8, no. 2，定理 2）；令$b$为其李代数。令 $G_2$ 为 $g \in G$ 的集合，使得
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{for all } x \in b.$$
 
@@ -195,9 +195,9 @@ $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathscr{D}a} \quad \text{for all } x \in b.
 
 #### 命题 6 {#lie-iii-s9-prop-6 .statement tag=0AIR}
 
-*假设 K 是超量度的。令 G 为有限维李群。设 A, B, C 为 G 的谎言子群，使得 $[L(A), L(C)] \subset L(C)$, $[L(B), L(C)] \subset L(C)$。若$[L(A), L(B)] \subset L(C)$，则存在A、B的开子群A'、B'使得$(A', B') \subset C$。如果$[L(A), L(B)] \subset L(C)$，则存在A、B、C的开子群 A'、B'、C'，使得$(A', B') = C'$。*
+*假设 K 是超量度的。令 G 为有限维李群。设 A, B, C 为 G 的谎言子群，使得 $[L(A), L(C)] \subset L(C)$, $[L(B), L(C)] \subset L(C)$。如果$[L(A), L(B)] \subset L(C)$，则存在A，B的开子群A'，B'使得$(A', B') \subset C$。如果$[L(A), L(B)] \subset L(C)$，则存在A、B、C的开子群 A'、B'、C'，使得$(A', B') = C'$。*
 
-假设$[L(A), L(B)] \subset L(C)$。如命题 4 的证明所示，问题约化对于$L(C)$ 是$L(G)$ 的理想的情况。然后，通过替换 G 通过开子群，约化到C 在 G 中正常的情况（$§ 7$，no. 1，命题 2）。令 $\phi$ 为 G 在 $G/C$ 上的规范态射。然后
+假设$[L(A), L(B)] \subset L(C)$。正如命题 4 的证明中那样，问题约化对于$L(C)$ 是$L(G)$ 的理想的情况。然后，通过替换 G 通过开子群，约化到C 在 G 中正常的情况（$§ 7$，no. 1，命题 2）。令 $\phi$ 为 G 在 $G/C$ 上的规范态射。然后
 $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}.
 $$
@@ -205,21 +205,21 @@ $$
 $$
 [L(A), L(B)] = L(C).
 $$
-到命题 3 时，谎言子代数在 $e$ 包含 $L(C)$ 与 $(A', B')$ 相切。因此$(A', B')$包含是G的谎言子群胚芽与李代数$L(C)$。因此$(A', B')$是C的开子群。
+到命题 3 时，谎言子代数与 $(A', B')$ 在 $e$ 包含 $L(C)$ 相切。因此$(A', B')$包含是G的谎言子群胚芽与李代数$L(C)$。因此$(A', B')$是C的开子群。
 
-#### 推论{#lie-iii-s9-n2-cor-2 .statement tag=0AIS}
+#### 推论 {#lie-iii-s9-n2-cor-2 .statement tag=0AIS}
 
-*假设 K 是超量度的。令 G 为有限维李群且李代数 g。存在 G 的开子群 $G_0$，使得对于所有 $i$，$D^iG_0$（分别为 $C^iG_0$）是 G 的谎言子群，其中李代数 $\mathscr{D}^ig$（分别为 $\mathscr{C}^ig$）。*
+*假设 K 是超量度的。令 G 为有限维李群，其中李代数 g。存在 G 的开子群 $G_0$，使得对于所有 $i$，$D^iG_0$（分别为 $C^iG_0$）是 G 的谎言子群，其中李代数 $\mathscr{D}^ig$（分别为 $\mathscr{C}^ig$）。*
 
-(a) 通过命题 3 归纳应用，对于 G 的每个开路子群 $G_1$ 以及所有 $i$、$D^iG_1$ 包含，G 的谎言子群芽与李代数 $\mathscr{D}^ig$。
+(a) 通过命题 3 归纳应用，对于 G 的每个开路子群 $G_1$ 以及所有 $i$、$D^iG_1$ 包含一个具有李代数 $\mathscr{D}^ig$ 的谎言子群胚芽。
 
-(b) 令$G'$为G的开子群，使得对于$i \leq n$，$D^iG'$是G的谎言子群且李代数$\mathscr{D}^ig$。 到命题 6，存在$D^nG'$的开子群$H_1, H_2$，使得$(H_1, H_2)$是一个谎言子群与李代数$\mathscr{D}^{n+1}g$。 令$G''$是$G'$的开子群，对于$D^nG'' \subset H_1 \cap H_2$来说足够小。 然后$D^{n+1}G'' \subset (H_1, H_2)$。 The relations
+(b) 令$G'$为G的开子群，使得对于$i \leq n$，$D^iG'$是G的谎言子群，且李代数$\mathscr{D}^ig$。到命题 6，存在 $D^nG'$ 的开子群 $H_1, H_2$，因此 $(H_1, H_2)$ 是一个具有李代数 $\mathscr{D}^{n+1}g$ 的谎言子群。设$G''$是$G'$的开子群，对于$D^nG'' \subset H_1 \cap H_2$来说足够小。然后$D^{n+1}G'' \subset (H_1, H_2)$。 关系
 $$
 D^0G'' \subset D^0G', D^1G'' \subset D^1G', \ldots, D^nG'' \subset D^nG', D^{n+1}G'' \subset (H_1, H_2)
 $$
-prove, using (a), that $D^iG''$ is, for $i \leq n + 1$, a Lie subgroup of G with Lie algebra $\mathscr{D}^ig$.
+使用 (a) 证明，对于 $i \leq n + 1$，$D^iG''$ 是 G 与李代数 $\mathscr{D}^ig$ 的谎言子群。
 
-(c) 存在整数$p$使得$\mathscr{D}^pg = \mathscr{D}^{p+1}g = \cdots$。由上可知，存在 G 的开子群 $G_0$，使得 $D^iG_0$ 对于 $i \leq p$ 来说是 G 的一个谎言子群与李代数 $\mathscr{D}^ig$。但是，根据 (a)，自 $D^pG_0 \supset D^iG_0$ 对于 $i > p$ 以来，相同的断言对于$i > p$ 仍然成立。
+(c) 存在整数$p$使得$\mathscr{D}^pg = \mathscr{D}^{p+1}g = \cdots$。由上可知，存在G的开子群$G_0$，使得$D^iG_0$对于$i \leq p$来说是G的谎言子群与李代数$\mathscr{D}^ig$。但是，根据 (a)，自 $D^pG_0 \supset D^iG_0$ 对于 $i > p$ 以来，同样的断言对于 $i > p$ 仍然成立。
 
 (d) $C^i$ 的论证类似。
 
@@ -233,13 +233,13 @@ prove, using (a), that $D^iG''$ is, for $i \leq n + 1$, a Lie subgroup of G with
 
 *令$G$为有限维李群，$g$为李代数，$a$为$g$的子集。那么 $Z_G(a)$ 是 $G$ 的谎言子群与李代数 $\mathfrak{z}_g(a)$。*
 
-这是从§ 3、命题 44 和推论 2 到命题 39 得出的。
+这是从 § 3、命题 44 和推论 2 到命题 39。
 
 #### 命题 8 {#lie-iii-s9-prop-8 .statement tag=0AIU}
 
-*令$G$为有限维实数或复数李群，$g$为李代数，$A$子集为$G$。那么 $Z_G(A)$ 是 $G$ 的谎言子群与李代数 $\mathfrak{z}_g(A)$。*
+*令$G$为有限维实数或复数李群，$g$为李代数，$A$为$G$的子集。那么 $Z_G(A)$ 是 $G$ 的谎言子群与李代数 $\mathfrak{z}_g(A)$。*
 
-假设 $A$ 由单个点 $a$ 组成。则$Z_G(A)$为$\mathrm{Int}\, a$固定点集合；因此，$Z_G(A)$是$G$的谎言子群，$\mathbf{L}(Z_G(A))$是$\mathrm{Ad}\, a$的固定点的集合，即$\mathfrak{z}_g(A)$（§ 3, no. 8，推论1到命题29）。一般情况通过§ 6, no. 2，推论3到命题1。
+假设 $A$ 由单个点 $a$ 组成。则$Z_G(A)$为$\mathrm{Int}\, a$固定点集合；因此，$Z_G(A)$是$G$的谎言子群，$\mathbf{L}(Z_G(A))$是$\mathrm{Ad}\, a$的固定点的集合，即$\mathfrak{z}_g(A)$（§ 3, no. 8，推论1到命题29)。一般情况为 § 6, no. 2、推论 3 至命题 1。
 
 #### 命题 9 {#lie-iii-s9-prop-9 .statement tag=0AIV}
 
@@ -271,35 +271,35 @@ $$
 
 #### 命题 11 {#lie-iii-s9-prop-11 .statement tag=0AIX}
 
-*设 G 为有限维实数或复数李群，g 为李代数，A 为 G 和 $a = L(A)$ 的积分子群。那么 $N_G(A) = N_G(a)$ 和 $N_G(A)$ 是 G 包含 $\overline{A}$ 的谎言子群，其中李代数 $n_g(a)$。* 等式 $N_G(A) = N_G(a)$ 由§ 6, no. 2推出，推论 2 为命题 3. 到命题 10，$N_G(A)$ 就是 G 的谎言子群和李代数 $n_g(a)$。因此 $N_G(A)$ 是闭合的。如$N_G(A) \supset A$、$N_G(A) \supset \overline{A}$。
+*设G是有限维实数或复数李群，g是李代数，A是G和$a = L(A)$的积分子群。那么 $N_G(A) = N_G(a)$ 和 $N_G(A)$ 是 G 包含 $\overline{A}$ 的谎言子群，其中李代数 $n_g(a)$。* 等式 $N_G(A) = N_G(a)$ 由 § 6, no. 2、推论 2 得出到命题 3。到命题 10，$N_G(A)$ 就是 G 的谎言子群和李代数 $n_g(a)$。因此 $N_G(A)$ 是闭合的。如$N_G(A) \supset A$、$N_G(A) \supset \overline{A}$。
 
-#### 推论{#lie-iii-s9-n4-cor-1 .statement tag=0AIY}
+#### 推论 {#lie-iii-s9-n4-cor-1 .statement tag=0AIY}
 
-*如果 $a = n_g(a)$，A 是 G 的谎言子群，并且是 $N_G(A)$ 的恒等分量。* 该恒等分量是一个谎言子群，其中李代数 $n_g(a)$ (命题 11)，因此等于 A § 6, no. 2， 定理2（一）。
+*如果$a = n_g(a)$，A是G的谎言子群，并且是$N_G(A)$的恒等式分量。*这个恒等式分量是一个谎言子群，其中李代数$n_g(a)$（命题11），因此等于 A § 6, no. 2, 定理 2 (i)。
 
-### 5. NILPENTENT 李群
+### 5. 幂零李群
 
 #### 命题 12 {#lie-iii-s9-prop-12 .statement tag=0AIZ}
 
 *设 G 为有限维李群。为了使$L(G)$幂零，G有一个幂零开子群是充分必要的。*假设G有一个幂零开子群$G_0$。根据命题 4 和 6、no. 2、$C^iL(G_0) = \{0\}$ 的推论，足够大 $i$。因此$L(G_0) = L(G)$是幂零的。
 
-假设 $L(G)$ 幂零。如果 $K = \mathbf{R}$ 或 $\mathbf{C}$，G 的恒等分量 $G_0$ 是幂零的，命题 4、no. 2 的推论，$G_0$ 在 G 中是开的。如果 K 是超度量的，命题 6、no. 2 的推论证明存在打开 G 的子群 $G_1$，G 中 e 的整数 $i > 0$ 和邻域 V，使得 $C^iG_1 \cap V = \{e\}$。那么，如果$G_0$是$G_1$、$C^iG_0 \subset V$足够小的子群，因此$C^iG_0 = \{e\}$和$G_0$是幂零的。
+假设 $L(G)$ 幂零。如果$K = \mathbf{R}$或$\mathbf{C}$，G的恒等式分量$G_0$在推论到命题4、no. 2和$G_0$在G中是开的。如果K是超度量的，推论到命题 6、no. 2，证明G中存在e的开子群$G_1$、整数$i > 0$和邻域V使得$C^iG_1 \cap V = \{e\}$。那么，如果$G_0$是$G_1$、$C^iG_0 \subset V$足够小的子群，因此$C^iG_0 = \{e\}$和$G_0$是幂零的。
 
-设$g$为幂零李代数。 Hausdorff 级数 $H(X, Y)$ 相应的到 $g$ 只有非零项的有限数并且我们知道 (章 II, § 6, no. 5, *注 3*) 律合成$(x, y) \mapsto H(x, y)$定义群结构$g$。进一步假设 $g$ 是完备且规范的。显然律 H 是连续多项式（*可微且解析流形*，R，附录）。因此，$g$与律 H一起，是李群 G，据说与*$g$*相关。 § 4, no. 2、引理 2 和 3、$L(G) = g$。 $g$的恒等映射$\phi$到$G$是$G$的指数映射，使得$\phi(\lambda x)\phi(\lambda'x) = \phi((\lambda + \lambda')x)$对于所有$x \in g, \lambda \in K, \lambda' \in K$。 $g$的每个谎言子代数$\mathfrak{h}$承认拓扑补充都是$G$和$L(H) = \mathfrak{h}$的谎言子群$H$。
+设$g$为幂零李代数。 Hausdorff 级数 $H(X, Y)$ 相应的到 $g$ 只有非零项的有限数，我们知道（章 II, § 6, no. 5，*注 3*）律合成$(x, y) \mapsto H(x, y)$定义群结构于$g$。进一步假设 $g$ 是完备且规范的。显然律 H 是连续多项式（*可微且解析流形*，R，附录）。因此，$g$与律 H一起，是李群 G，据说与*$g$*相关。 § 4, no. 2、引理 2 和 3、$L(G) = g$。 $g$的恒等映射$\phi$到$G$是$G$的指数映射，使得$\phi(\lambda x)\phi(\lambda'x) = \phi((\lambda + \lambda')x)$对于所有$x \in g, \lambda \in K, \lambda' \in K$。 $g$的每个谎言子代数$\mathfrak{h}$承认拓扑补充都是$G$和$L(H) = \mathfrak{h}$的谎言子群$H$。
 
 #### 命题 13 {#lie-iii-s9-prop-13 .statement tag=0AJ0}
 
-*令$G$为$\mathbf{R}$或$\mathbf{C}$上的有限维单连通幂零李群。*
+*设$G$是$\mathbf{R}$或$\mathbf{C}$上的有限维单连通幂零李群。*
 
 (i) $\exp_G$ 是李群中的同构，与$L(G)$ 关联到$G$。
 
-(ii) *$G$ 的每个积分子群都是 $G$ 的单连通李子子群。*
+(ii) *$G$的每个积分子群都是$G$的单连通李子子群。*
 
-设 $g = L(G)$，它是幂零的 (命题 12)。由于$\mathbf{R}$或$\mathbf{C}$上的两个单连通李群具有相同的李代数，它们是同构的（$§ 6$，no. 3，定理 3 (ii)），当$G$为群时，只需证明命题即可与$g$相关。然后（i）和（ii）从所说的之前命题得出。
+让 $g = L(G)$，它是幂零的 (命题 12)。由于两个在$\mathbf{R}$或$\mathbf{C}$上单连通且具有相同李代数的两个李群是同构的（$§ 6$，no. 3，定理 3 (ii)），因此只要证明命题当$G$ 是群与$g$ 相关联。然后（i）和（ii）从所说的之前命题得出。
 
 #### 命题 14 {#lie-iii-s9-prop-14 .statement tag=0AJ1}
 
-*令 $G$ 为在 $\mathbf{R}$ 或 $\mathbf{C}$ 上连接的有限维李群。*
+*令 $G$ 为 $\mathbf{R}$ 或 $\mathbf{C}$ 上连接的有限维李群。*
 
 (i) *如果 $G$ 幂零，$\exp_G$ 是 étale 和满射。*
 
@@ -307,13 +307,13 @@ $$
 
 令$G'$为$G$的通用覆盖空间。令$\phi$为$G'$到$G$的规范态射。然后 $\exp_G = \phi \circ \exp_{G'}$ ($§ 6$, no. 4, 命题 10)，因此从命题 13 (i) 得出 (i)。
 
-如果$K = \mathbf{C}$和$\exp$是étale，那么，对于所有$x \in L(G)$和$x$，没有特征值、属于到$2i\pi(\mathbf{Z} - \{0\})$（$§ 6$、no. 4，命题12的推论）。 应用到$\lambda x$，其中$\lambda$变化到$\mathbf{C}$，因此$\mathrm{ad}\, x$的所有特征值都是零，因此$\mathrm{ad}\, x$是幂零的。因此$L(G)$是幂零的（章I，$§ 4$，推论1到定理1），因此$G$是幂零的（命题12）。
+如果$K = \mathbf{C}$和$\exp$是étale，那么，对于所有$x \in L(G)$和$x$，没有特征值、属于到$2i\pi(\mathbf{Z} - \{0\})$（$§ 6$、no. 4、推论到命题） 12）。 应用到$\lambda x$，其中$\lambda$变化到$\mathbf{C}$，因此$\mathrm{ad}\, x$的所有特征值都是零，因此$\mathrm{ad}\, x$是幂零的。因此 $L(G)$ 是幂零的（章 I、$§ 4$、推论 1 到定理 1），因此 $G$ 是幂零的（命题 12）。
 
 #### 命题 15 {#lie-iii-s9-prop-15 .statement tag=0AJ2}
 
 *设$G$是$\mathbf{R}$或$\mathbf{C}$上的有限维连通幂零李群，并且$A$是$G$的积分子群。那么$Z_G(A)$就是$G$与李代数$\mathfrak{z}_G(L(A))$的连通谎言子群。*
 
-通过命题 9 of no. 3就足以证明$Z_G(A)$是连通的。让$g \in Z_G(A)$。存在$x \in L(G)$使得$g = \exp x$(命题14)。然后 $\mathrm{Ad}\, g|L(A) = 1$ (no. 3, 命题 9)，因此对于所有 $n \in \mathbf{Z}$ 是 $\mathrm{Ad}\, g^n|L(A) = 1$，对于所有 $n \in \mathbf{Z}$ 是 $\exp(\mathrm{ad}\, nx)|L(A) = 1$。作为映射
+通过no. 3的命题9就足以证明$Z_G(A)$是连通的。让$g \in Z_G(A)$。存在$x \in L(G)$使得$g = \exp x$(命题14)。然后 $\mathrm{Ad}\, g|L(A) = 1$ (no. 3, 命题 9)，因此对于所有 $n \in \mathbf{Z}$ 是 $\mathrm{Ad}\, g^n|L(A) = 1$，因此对于所有 $n \in \mathbf{Z}$ 是 $\exp(\mathrm{ad}\, nx)|L(A) = 1$。作为映射
 
 $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
@@ -325,7 +325,7 @@ $K$ 到 $\mathscr{L}(L(A), L(G))$ 的乘积是多项式，$\exp(\mathrm{ad}\, \l
 
 *设$G$是$\mathbf{R}$或$\mathbf{C}$上的有限维幂零李群，并且$A$是$G$的积分子群，与$G$不同。那么$N_G(A)$是$G$的连通谎言子群，与$A$不同。*
 
-$N_G(A) \neq A$（代数、章I, § 6，推论 1 至命题 8）。通过no. 4的命题11，我们只需证明$N_G(A)$是连通的。让$g \in N_G(A)$。存在$x \in L(G)$使得$g = \exp x$(命题14)。令$E$为$u \in \mathscr{L}(L(G))$的$\mathscr{L}(L(G))$由……组成之向量子空间，使得$u(L(A)) \subset L(A)$。然后$\mathrm{Ad}\, g^n \in E$，因此对于所有$n \in \mathbf{Z}$，$\exp(\mathrm{ad}\, nx) \in E$。因此，对于所有$\lambda \in K$，$\exp(\mathrm{ad}\, \lambda x) \in E$，即对于所有$\lambda \in K$，$\exp(\lambda x) \in N_G(A)$。
+$N_G(A) \neq A$（代数、章 I, § 6、推论 1 至命题 8）。通过no. 4的命题11，我们只需证明$N_G(A)$是连通的。让$g \in N_G(A)$。存在$x \in L(G)$使得$g = \exp x$(命题14)。令$E$为$u \in \mathscr{L}(L(G))$的$\mathscr{L}(L(G))$由……组成之向量子空间，使得$u(L(A)) \subset L(A)$。然后$\mathrm{Ad}\, g^n \in E$，因此对于所有$n \in \mathbf{Z}$，$\exp(\mathrm{ad}\, nx) \in E$。因此，对于所有$\lambda \in K$，$\exp(\mathrm{ad}\, \lambda x) \in E$，即对于所有$\lambda \in K$，$\exp(\lambda x) \in N_G(A)$。
 
 #### 命题 17 {#lie-iii-s9-prop-17 .statement tag=0AJ4}
 
@@ -337,7 +337,7 @@ $$
 
 $a_1 \times a_2 \times \cdots \times a_p$ 变为 $g$。
 
-(i) $\phi$ 是 $a_1 \times a_2 \times \cdots \times a_p$ 的双射到$g$；
+(i) $\phi$ 是$a_1 \times a_2 \times \cdots \times a_p$ 的双射到$g$；
 (ii) $\phi$和$\phi^{-1}$是多项式映射；
 (iii) $(a_1 \times a_2 \times \cdots \times a_p)^2$ 到$a_1 \times a_2 \times \cdots \times a_p$ 的映射 $(x, y) \mapsto \phi^{-1}(\phi(x) \cdot \phi(y)^{-1})$ 是多项式。
 
@@ -361,12 +361,12 @@ $$
 $$
 {\phi'}^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
 $$
-Then
+然后
 (2)
 $$
 \theta(x) = x'_1(x) \mathbf{H} x'_2(x) \mathbf{H} \cdots \mathbf{H} x'_p(x).
 $$
-Let $h_1$ be a vector subspace supplementary to $h$ in $g$, the sum of the $a_k$ with $k \neq j$ and a supplement of $h$ in $a_j$. 存在 $g'$ 的双射 $\eta$ 到 $h_1$ 使得 $\theta \circ \eta = \mathrm{Id}_{g'}$。 对于$x \in g$，我们写
+令$h_1$为$g$中$h$的补充向量子空间、$a_k$与$k \neq j$之和以及$a_j$中$h$的补充。 存在 $g'$ 的双射 $\eta$ 到 $h_1$ 使得 $\theta \circ \eta = \mathrm{Id}_{g'}$。 对于$x \in g$，我们写
 (3)
 $$
 \zeta(x) = \eta(x'_1(x)) \mathbf{H} \eta(x'_2(x)) \mathbf{H} \cdots \mathbf{H} \eta(x'_p(x)) \in g.
@@ -431,7 +431,7 @@ $$
     \operatorname{Tr}(a(b-1)) = \operatorname{Tr}(ab-1) - \operatorname{Tr}(a-1) = 0 - 0 = 0
     $$
     因为 $ab - 1$ 和 $a - 1$ 是幂零的。由于G生成的$\mathscr{L}(V)$的向量子空间是$\mathscr{L}(V)$（*代数*，章VIII, § 4，推论1到命题2），$\operatorname{Tr}(u(b-1)) = 0$对于所有$u \in \mathscr{L}(V)$，因而$b = 1$。因而$G = \{1\}$。
-    (b) 现在我们讨论一般情况。令$\bar{k}$为k的代数闭包，对于$a \in G$，$\bar{V} = V \otimes_k \bar{k}$和$\bar{G} \subset \mathbf{GL}(\bar{V})$集合为$a \otimes 1$。设W（分别$W'$）为V（分别$\bar{V}$）元素集合在G（分别$\bar{G}$）下不变。然后用$W' = W \otimes_k \bar{k}$换$W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$和$W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$。如果$V_1$表示$\bar{V}$的非零向量子空间的集合中的最小元素且在$\bar{G}$下稳定，则$V_1 \subset W'$乘以证明的部分(a)；因而$W \neq \{0\}$，证明了(i)。
+    (b) 现在我们讨论一般情况。令$\bar{k}$为k的代数闭包，对于$a \in G$，$\bar{V} = V \otimes_k \bar{k}$和$\bar{G} \subset \mathbf{GL}(\bar{V})$集合为$a \otimes 1$。设W（分别$W'$）为V（分别$\bar{V}$）元素集合在G（分别$\bar{G}$）下不变。然后用$W' = W \otimes_k \bar{k}$换$W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$和$W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$。如果$V_1$表示$\bar{V}$的非零向量子空间在集合中的最小元素且在$\bar{G}$下稳定，则$V_1 \subset W'$乘以证明的部分(a)；因而$W \neq \{0\}$，证明了(i)。
     (c) 通过$\dim V$上的归纳，从(i)得出，存在V的向量子空间的递增序列$(V_1, V_2, \ldots, V_n)$，它们在G下是稳定的，使得$V_n = V$和自同构群对于所有 $i$，$V_i/V_{i-1}$ 规范地从 G 约化到 $\{1\}$（我们约定 $V_r = \{0\}$ 代表 $r \leq 0$）。这意味着首先是 (ii)，然后是 (iii) (章 II, § 4, no. 6，*注*)。
 
 #### 推论 1 {#lie-iii-s9-prop-18-cor-1 .statement tag=0AJ6}
@@ -464,7 +464,7 @@ $$
 
 *将 $K^i$ 变为 $G$。那么对于所有 $i$，$\phi_n$ 是解析流形和 $\phi_i(K^i) = G_i$ 的同构。*
 
-对于 $n = 0$ 命题是显而易见的。我们在$n$上争论归纳。令$H$为$G$的积分子群，使得$L(H) = Kx_n$。通过§ 6, no. 6，推论1到命题14，$H$和$G_{n-1}$是简单连接$G$的谎言子群，并且，如李群，$G$是乘积的半直接乘积 $H$ $G_{n-1}$。因此 $\lambda \mapsto \exp(\lambda x_n)$ 是 $K$ 的同构到 $H$ 并通过归纳假设映射
+对于 $n = 0$ 命题是显而易见的。我们在$n$上争论归纳。令$H$为$G$的积分子群，使得$L(H) = Kx_n$。通过 § 6, no. 6、推论 1 到命题 14，$H$ 和 $G_{n-1}$ 被简单地连接为 $G$ 的谎言子群，并且李群、$G$ 是乘积的半直接乘积 $H$ $G_{n-1}$。因此 $\lambda \mapsto \exp(\lambda x_n)$ 是 $K$ 的同构到 $H$ 并乘以归纳假设映射
 
 $$
 (\lambda_1, \lambda_2, \ldots, \lambda_{n-1}) \mapsto (\exp \lambda_1 x_1)(\exp \lambda_2 x_2) \cdots (\exp \lambda_{n-1} x_{n-1})
@@ -504,41 +504,41 @@ $$
 *假设$K = \mathbf{R}$或$\mathbf{C}$。令$V$为有限维向量空间，且$G$为$\mathbf{GL}(V)$的连通可解子群。假设$G$的恒等式表示很简单。*
 (i) *如果 $K = \mathbf{R}$，则 $\dim V \leq 2$ 和 $G$ 是可交换的。*
 (ii) *如果$K = \mathbf{C}$，则$\dim V = 1$。*
-(i) 假设$K = \mathbf{R}$。那么$\mathbf{GL}(V)$中$G$的闭包$H$是$\mathbf{GL}(V)$的可解连通李子群（no. 1，推论2到命题1）。因此 $L(H)$ 是可解的 (命题 19)。 $L(G)$的恒等式表示很简单（§ 6, no. 5，推论2到命题13）。因此$\dim V \leq 2$和$L(G)$是可交换的（章I, § 5，推论1和4到定理1）。因此 $G$ 是可交换的。
+(i) 假设$K = \mathbf{R}$。那么$\mathbf{GL}(V)$中$G$的闭包$H$是$\mathbf{GL}(V)$的可解连通李子群（no. 1，推论2到命题1）。因此 $L(H)$ 是可解的 (命题 19)。 $L(G)$的恒等式表示很简单（§ 6, no. 5、推论2到命题13）。因此$\dim V \leq 2$和$L(G)$是可交换的（章I, § 5，推论1和4到定理1）。因此 $G$ 是可交换的。
 (ii) 假设$K = \mathbf{C}$。令$W$为$V$的非零实数向量子空间中最小的元素，其在$G$下稳定。由$W$生成的$V$的复数向量子空间等于$V$，因为$G$的恒等式表示很简单。通过(i)，$G|W$是可交换的。因此 $G$ 是可交换的。因此，$G$的每个元素都是位似（*代数*，章VIII, § 4，推论1到命题2），因此$\dim V = 1$。
 
-#### 推论{#lie-iii-s9-n6-cor-1 .statement tag=0AJC}
+#### 推论 {#lie-iii-s9-n6-cor-1 .statement tag=0AJC}
 
 *令 $V$ 为有限维 $> 0$ 的复数向量空间和 $G$ $\mathbf{GL}(V)$ 的连通可解子群。*
 (i) *存在 $V$ 的非零元素 $v$，使得 $gv \in Cv$ 对于所有 $g \in G$。*
 (ii) *存在$V$的基$B$，使得对于所有$g \in G$，$g$相对于$B$的矩阵是下三角形。*
-令$V_1$为$V$的非零向量子空间中最小的元素，其在$G$下稳定。 命题 22 (ii)，$\dim V_1 = 1$。这就证明了(i)。通过$\dim V$上的归纳，可以得出结论，存在$V$的向量子空间的递增序列$(V_1, V_2, \ldots, V_n)$，它们在$G$下是稳定的，使得$\dim V_{i+1}/V_i = 1$对于$i < n$和$V_n = V$；因此(ii)。
+令$V_1$为$V$的非零向量子空间中最小的元素，其在$G$下稳定。 命题 22 (ii)，$\dim V_1 = 1$。这就证明了(i)。通过$\dim V$上的归纳，可以得出结论，存在向量的子空间的递增序列$(V_1, V_2, \ldots, V_n)$，$V$的子空间在$G$下是稳定的，使得$\dim V_{i+1}/V_i = 1$对于$i < n$和$V_n = V$；因此(ii)。
 
-### 7. 李群的根式
+### 7. 根基 / 李群
 
 #### 命题 23 {#lie-iii-s9-prop-23 .statement tag=0AJD}
 
-*设$G$为有限维实数或复数李群，$r$$L(G)$*的根式（章I, § 5，定义2）*和$n$最大的$L(G)$*的幂零理想（章I, § 4, no. 4）。 *令$R$（或$N$）为$G$与李代数$r$（或$n$）的积分子群。那么$R$（或$N$）是$G$的可解（或幂零）谎言子群，它在$G$的每个连续自同构下是不变的。 *$G$ 的每个可解（或幂零）连接法线子群都包含在 $R$（或$N$）中。*
+*令 $G$ 为 $L(G)$* 的有限维实数或复数李群、$r$ 根基* (章 I, § 5、定义 2) *和 $n$ 最大的的幂零理想$L(G)$*（章I, § 4, no. 4）。 *令$R$（或$N$）为$G$与李代数$r$（或$n$）的积分子群。那么$R$（或$N$）是$G$的可解（或幂零）谎言子群，它在$G$的每个连续自同构下是不变的。 *$G$的每个可解（或幂零）连接法线子群都包含在$R$（或$N$）中。*
 
-群 $R$ 是可解的（$§ 6$，命题 19）。假设$K = R$。令 $G'$ 为 $G$ 的连通可解法线子群。那么$\overline{G'}$是$G$（$§ 8$，no. 2，定理2）的连通可解（no. 1，推论2到命题1）正常谎言子群。因此，$L(\overline{G'})$是$L(G)$、从而、$L(\overline{G'}) \subset r$和$\overline{G'} \subset R$的可解理想。特别是，$\overline{R} \subset R$，因此$R$是封闭的，因此是$G$的谎言子群。假设$K = C$。令 $H$ 为 $G$ 的底层真实谎言子群。若$r'$是$L(H)$的根式，则$ir'$是$L(H)$、从而$r' = ir'$的可解理想；因此 $r \subset r' \subset r$ 并且，根据上述，$R$ 在 $H$ 中闭合，因此在 $G$ 中闭合；因此$R$是$G$的谎言子群。 $G$ 的每个连通可解法线子群都是 $H$ 的连通可解法线子群，因此包含在 $R$ 中。因此，我们已经证明对于$K = C$和$K = R$，$R$是最大的连通的$G$的可解法线子群；因此$R$在$G$的每一个连续的自同构下都是不变的。 证明与 $N$ 完全类似。
+群 $R$ 是可解的（$§ 6$，命题 19）。假设$K = R$。令 $G'$ 为 $G$ 的连通可解法线子群。那么 $\overline{G'}$ 是 $G$ ($§ 8$, no. 2, 定理 2) 的连通可解 (no. 1, 推论 2 到命题 1) 正常谎言子群。因此，$L(\overline{G'})$是$L(G)$、从而、$L(\overline{G'}) \subset r$和$\overline{G'} \subset R$的可解理想。特别是，$\overline{R} \subset R$，因此$R$是封闭的，因此是$G$的谎言子群。假设$K = C$。令 $H$ 为 $G$ 的底层真实谎言子群。如果$r'$是$L(H)$的根基，则$ir'$是$L(H)$、从而$r' = ir'$的可解理想；因此 $r \subset r' \subset r$ 并且，根据上述，$R$ 在 $H$ 中闭合，因此在 $G$ 中闭合；因此$R$是$G$的谎言子群。 $G$ 的每个连通可解法线子群都是 $H$ 的连通可解法线子群，因此包含在 $R$ 中。因此，我们已经证明对于$K = C$和$K = R$，$R$是最大的连通的$G$的可解法线子群；因此$R$在$G$的每个连续自同构下都是不变的。 证明与 $N$ 完全类似。
 
 #### 定义 1 {#lie-iii-s9-def-1 .statement tag=0AJE}
 
-*令$G$为有限维实数或复数李群。 $G$的根式是最大的连接$G$的可解正规子群。*
+*令$G$为有限维实数或复数李群。 $G$ 根基与最大的连接可解法线 $G$ 子群。*
 
 #### 注 {#lie-iii-s9-n7-rem-1 .statement tag=0AJF}
 
-即使$G$是连通的，也可能存在不包含在$G$的根式中的$G$的可解正规子群。
+即使$G$已连接，也可能存在不包含在$G$的根基中的$G$的可解法线子群。
 
 #### 命题 24 {#lie-iii-s9-prop-24 .statement tag=0AJG}
 
-*假设$K = R$或$C$。令$G_1, G_2$是两个有限维连接的李群、$R_1$和$R_2$它们的根式，以及$\phi$将$G_1$到$G_2$的满射态射。然后$\phi(R_1) = R_2$.*
+*假设$K = R$或$C$。设$G_1, G_2$是两个有限维连接的李群、$R_1$和$R_2$，它们的根基和$\phi$是$G_1$到$G_2$的满射态射。然后$\phi(R_1) = R_2$.*
 
-到 $§ 3$、no. 8、命题 28，$L(\phi)$ 是满射。因此$L(\phi)(L(R_1)) = L(R_2)$（章I，$§ 6$，推论3到命题2）。设$i$为$R_1$到$G_1$的典范嵌入。那么$\phi \circ i$的像就是$R_2$（$§ 6$，no. 2，推论1到命题1）。
+到 $§ 3$、no. 8、命题 28，$L(\phi)$ 是满射。因此$L(\phi)(L(R_1)) = L(R_2)$（章I、$§ 6$、推论 3 到命题 2）。设$i$为$R_1$到$G_1$的典范嵌入。那么$\phi \circ i$的像就是$R_2$（$§ 6$，no. 2，推论1到命题1）。
 
 #### 命题 25 {#lie-iii-s9-prop-25 .statement tag=0AJH}
 
-*假设$K = R$或$C$。令 $G_1, G_2$ 为有限维连接的李群和 $R_1$ 以及 $R_2$ 它们的根式。 $G_1 \times G_2$的根部是$R_1 \times R_2$。*
+*假设$K = R$或$C$。令$G_1, G_2$是李群和$R_1$以及$R_2$它们的根基的有限维连接。 $G_1 \times G_2$ 中的根基是 $R_1 \times R_2$。*
 
 这是从章 I、$§ 5$、命题 4 开始的。
 
@@ -548,9 +548,9 @@ $$
 
 令 G 为有限维连通实数或复数李群。以下条件是等效的：
 (i) $L(G)$ 为半单；
-(ii) G的根是$\{e\}$；
+(ii) G 的根基是$\{e\}$；
 (iii) G 的每个正规交换积分子群都等于$\{e\}$。
-条件 (ii) 意味着 $L(G)$ 的根部是 $\{0\}$，因此 (i) $\Leftrightarrow$ (ii) (章 I, § 6, 定理 1)。 (i)和(iii)的等价由§ 6, no. 6、命题14得出。
+条件 (ii) 意味着 $L(G)$ 的根基是 $\{0\}$，因此 (i) $\Leftrightarrow$ (ii) (章 I, § 6, 定理 1)。 (i)和(iii)的等价由§ 6, no. 6、命题14得出。
 
 #### 定义 2 {#lie-iii-s9-def-2 .statement tag=0AJJ}
 
@@ -565,11 +565,11 @@ $$
 令 G 为有限维连通实数或复数李群。以下条件是等效的：
 (i) $L(G)$ 很简单；
 (ii) G 的唯一正规积分子群是 $\{e\}$ 且 G 且 G 不可交换。
-这是从 § 6, no. 6、命题 14 得出的。
+这是从§ 6, no. 6、命题 14 开始的。
 
 #### 定义 3 {#lie-iii-s9-def-3 .statement tag=0AJM}
 
-如果连通实数或复数李群是有限维的并且满足命题 27 的条件，则称为几乎简单。
+如果连通实数或复数李群是有限维的并且满足命题 27 的条件，则称为几乎简单的。
 
 #### 命题 28 {#lie-iii-s9-prop-28 .statement tag=0AJN}
 
@@ -591,15 +591,15 @@ G/Z'。令 $\phi$ 为 G 的映射 $g \mapsto gyg^{-1}y^{-1}$ 进入 G。然后 $
 （一）$G = (G, G)$。
 (ii) *G 的中心 Z 是离散的。*
 (iii) *$G/Z$的中心是$\{e\}$*。
-断言 (i) 由命题 4、no. 2 和章 I, § 6、定理 1 的推论得出。
-断言 (ii) 由§ 6, no. 4、推论4 到命题 10 和章 I, § 6, no. 1、*注 2*。
+断言 (i) 从推论到命题 4、no. 2 和章 I, § 6、定理 1。
+断言 (ii) 从§ 6, no. 4、推论 4 到命题 10 和章 I, § 6, no. 1、*注 2*。
 断言 (iii) 由 (ii) 和引理 1 得出。
 
 #### 命题 30 {#lie-iii-s9-prop-30 .statement tag=0AJQ}
 
-(i) *令$\mathfrak{g}$为半单实数或复数李代数。那么 Int $\mathfrak{g}$ 就是 Aut $\mathfrak{g}$.* 的恒等分量。
-(ii) *令 G 为半单连接实数或复数李群。 G 的伴随群是Aut $L(G)$ 的恒等分量。 中心约化至单位元素。*
-$\mathfrak{g}$的每个推导都是内部（章I, § 6，推论3到命题1），因此$L(\mathrm{Int}\,\mathfrak{g}) = L(\mathrm{Aut}\,\mathfrak{g})$，这证明了（i）。 (ii) 的第一个断言由 (i) 得出。第二个是从命题 29 (iii) 和§ 6, no. 4、推论4 (ii) 到命题 10。
+(i) *令$\mathfrak{g}$为半单实数或复数李代数。那么 Int $\mathfrak{g}$ 就是 Aut $\mathfrak{g}$.* 的恒等式分量。
+(ii) *令 G 为半单连接实数或复数李群。 G 的伴随群是 Aut $L(G)$ 的恒等式分量。 中心约化至单位元素。*
+$\mathfrak{g}$的每个推导都是内部（章I, § 6，推论3到命题1），因此$L(\mathrm{Int}\,\mathfrak{g}) = L(\mathrm{Aut}\,\mathfrak{g})$，这证明了（i）。 (ii) 的第一个断言由 (i) 得出。第二个是命题 29 (iii) 和§ 6, no. 4、推论 4 (ii) 到命题 10。
 
 #### 注 2 {#lie-iii-s9-n8-rem-2 .statement tag=0AJR}
 
@@ -607,18 +607,18 @@ $\mathfrak{g}$的每个推导都是内部（章I, § 6，推论3到命题1），
 
 #### 命题 31 {#lie-iii-s9-prop-31 .statement tag=0AJS}
 
-*设 G 为单连通有限维实数或复数李群，R 为其根式。 G 存在半单单连通李子群 S，使得 G 作为李群，是 R 对 S 的半直乘积。如果 S' 是 G 的半单积分子群，则$L(G)$的幂零根中存在 x，使得*
+*设 G 为单连通有限维实数或复数李群，R 为根基。存在 G 的半单单连通李子群 S，使得 G 作为李群，是 R 对 S 的半直乘积。如果 S' 是 G 的半单积分子群，则存在 x 的幂零根基 $L(G)$ 这样*
 $$
 (\mathrm{Ad}\exp x)(S') \subset S.
 $$
-这是从§ 6, no. 6，推论1到命题14和章I, § 6，定理5和推论1。
+这是从§ 6, no. 6、推论 1 到命题 14 以及章 I, § 6、定理 5 和推论 1。
 
 #### 引理 2 {#lie-iii-s9-lem-2 .statement tag=0AJT}
 
 *设 G 为群（或拓扑群），G' 为 G 的法线子群，V 有限维向量空间在交换域 k 上（或在 K 上），$\rho$ 线性表示（或连续V 和 $\rho' = \rho|_{G'}$ 上的 G 的线性表示)。*
 (i) *如果 $\rho$ 为半单，则 $\rho'$ 为半单。*
 (ii) *如果 $\rho'$ 为半单，且 $G/G'$（或 $G/\overline{G}'$）的每个有限维线性 k 表示（或连续线性 K 表示）为半单，则 $\rho$ 为半单。*
-假设$\rho$是半单；我们证明$\rho'$是半单。考虑$\rho$很简单的情况就足够了。令$V'$为V的最小非零子G'模。对于所有$g \in G$、$\rho(G')\rho(g)V' = \rho(g)\rho(G')V' = \rho(g)V'$，其他字$\rho(g)V'$稳定在$\rho(G')$以下；如果$V''$是$\rho(g)V'$的子$G'$模块，则$\rho(g)^{-1}V''$是$V'$的子$G'$模块，因此$V''$等于$\{0\}$或$\rho(g)V'$。
+假设$\rho$为半单；我们证明$\rho'$是半单。考虑$\rho$很简单的情况就足够了。令$V'$为V的最小非零子G'模。对于所有$g \in G$、$\rho(G')\rho(g)V' = \rho(g)\rho(G')V' = \rho(g)V'$，其他字$\rho(g)V'$稳定在$\rho(G')$以下；如果$V''$是$\rho(g)V'$的子$G'$模块，则$\rho(g)^{-1}V''$是$V'$的子$G'$模块，因此$V''$等于$\{0\}$或$\rho(g)V'$。
 
 因此，对于所有 $g \in G$，$\rho(g)V'$ 是一个简单的 $G'$ 模块。但$\sum_{g \in G} \rho(g)V'$是$V$、从而$V = \sum_{g \in G} \rho(g)V'$的非零子$G$模。因此$\rho'$是半单。
 
@@ -636,14 +636,14 @@ $$
 
 #### 定理 1 {#lie-iii-s9-thm-1 .statement tag=0AJU}
 
-*设$G$为有限维实数或复数李群，$G_0$其单位分量，$R$其根式以及$r$$L(G)$的根式；假设 $G/G_0$ 是有限的。令 $\rho$ 为 $G$ 的有限维解析线性表示。以下条件是等效的：*
-(i) $\rho$ 为半单；
-(ii) $\rho|G_0$ 为半单；
+*令$G$为有限维实数或复数李群，$G_0$其恒等式分量，$R$其根基以及$L(G)$的$r$根基；假设 $G/G_0$ 是有限的。令 $\rho$ 为 $G$ 的有限维解析线性表示。以下条件是等效的：*
+(i)$\rho$为半单；
+(ii)$\rho|G_0$是半单；
 (iii)$\rho|R$为半单；
 (iv)$L(\rho)$为半单；
 (v) $L(\rho)|r$ 是半单。
 (i) $\Leftrightarrow$ (ii) 通过引理 2 和积分，章 VII, § 3、命题 1。
-(ii) $\Leftrightarrow$ (iv) 和 (iii) $\Leftrightarrow$ (v) 由 § 6, no. 5，推论 2 至命题 13。
+(ii) $\Leftrightarrow$ (iv) 和 (iii) $\Leftrightarrow$ (v) 由 § 6, no. 5、推论 2 至命题 13。
 (iv) $\Leftrightarrow$ (v) 章 I, § 6、定理 4。
 
 #### 推论 1 {#lie-iii-s9-thm-1-cor-1 .statement tag=0AJV}
@@ -652,11 +652,11 @@ $$
 
 李群
 
-$G$和$n$整数$\geq 0$的句子。那么 $\rho_1 \otimes \rho_2, T^n \rho, S^n \rho, \wedge^n \rho$ (附录) 就是半单。
+$G$和$n$整数$\geq 0$的句子。那么$\rho_1 \otimes \rho_2, T^n \rho, S^n \rho, \wedge^n \rho$(附录)就是半单。
 
-$\rho_1 \otimes \rho_2$ 的半单纯性源自定理 1 和章 I, § 6，推论 1 至定理 4。 $T^n \rho, S^n \rho, \wedge^n \rho$ 的半单纯性源自 $\rho_1 \otimes \rho_2$ 的半单纯性。
+$\rho_1 \otimes \rho_2$ 的半单纯性源自定理 1 和章 I, § 6、推论 1 到定理 4。 $T^n \rho, S^n \rho, \wedge^n \rho$ 的半单纯性源自 $\rho_1 \otimes \rho_2$ 的半单纯性。
 
-稍后我们将看到，如果$k$是特征0的交换域，$\Gamma$群和$\rho_1$和$\rho_2$有限维半单线性$k$-$\Gamma$的表示，那么$\rho_1 \otimes \rho_2$是半单。
+稍后我们将看到，如果$k$是特征0的交换域，$\Gamma$群和$\rho_1$和$\rho_2$有限维半单线性$k$-$\Gamma$的表示，那么$\rho_1 \otimes \rho_2$ 是半单。
 
 #### 推论 2 {#lie-iii-s9-thm-1-cor-2 .statement tag=0AJW}
 
@@ -666,7 +666,7 @@ $\rho_1 \otimes \rho_2$ 的半单纯性源自定理 1 和章 I, § 6，推论 1 
 
 #### 推论 3 {#lie-iii-s9-thm-1-cor-3 .statement tag=0AJX}
 
-*设$G$为实数或复数李群，$G_0$为其恒等分量。假设 $G_0$ 是半单并且 $G/G_0$ 是有限的。那么$G$的每个有限维解析线性表示都是半单。*
+*令$G$为实数或复数李群，且$G_0$其恒等式分量。假设 $G_0$ 是半单并且 $G/G_0$ 是有限的。那么$G$的每个有限维解析线性表示都是半单。*
 
 #### 命题 32 {#lie-iii-s9-prop-32 .statement tag=0AJY}
 
@@ -675,7 +675,7 @@ $\rho_1 \otimes \rho_2$ 的半单纯性源自定理 1 和章 I, § 6，推论 1 
 (i) $G/\overline{D^1}G$ 是紧的；
 (ii) (resp. (ii')) 复数（resp. real）向量空间上 $G$ 的每个有限维解析线性表示都是半单。
 
-(i) $\Rightarrow$ (ii')：假设$G/\overline{D^1}G$ 是紧的。那么在有限维实数向量空间上$G/\overline{D^1}G$的每个连续线性表示都是半单（*积分*，章VII, § 3，命题1）。令 $\rho$ 为 $G$ 在实向量空间上的有限维解析线性表示。那么$\rho|D^1G$是解析的，$D^1G$是半单（章I, § 6，命题5），因此$\rho|D^1G$是半单（推论3到定理1）。因此$\rho$是半单（引理2）。
+(i) $\Rightarrow$ (ii')：假设$G/\overline{D^1}G$ 是紧的。那么在有限维实数向量空间上$G/\overline{D^1}G$的每个连续线性表示都是半单（*积分*，章VII, § 3，命题1）。令$\rho$为$G$在实向量空间上的有限维解析线性表示。那么$\rho|D^1G$是解析的，$D^1G$是半单（章I, § 6，命题5），因此$\rho|D^1G$是半单（推论3到定理） 1）。因此$\rho$是半单（引理2）。
 
 类似地可以看出(i)$\Rightarrow$(ii')。
 
@@ -691,10 +691,10 @@ $$
 
 #### 命题 33 {#lie-iii-s9-prop-33 .statement tag=0AJZ}
 
-令 G 为有限维复数李群，其连通分量的数是有限的，$\varphi$ G 的有限维解析线性表示和 $G'$ 实李群 G 的积分子群，使得 $L(G')$ 生成 $L(G)$超过$\mathbf{C}$。那么，为了使$\varphi$成为半单，$\varphi|G'$成为半单是充分必要的。
+设 G 是一个有限维复数李群，其相连的分量的数是有限的，$\varphi$ G 的有限维解析线性表示，$G'$ 实李群 G 的积分子群，使得 $L(G')$ 生成$L(G)$超过$\mathbf{C}$。那么，为了使$\varphi$成为半单，$\varphi|G'$成为半单是充分必要的。
 
-让$\varphi' = \varphi|G'$。为了使$\varphi$（或$\varphi'$）成为半单，$L(\varphi)$（或$L(\varphi')$）为半单（定理 1）是必要且充分的。令 V 为 $\varphi$ 中的空间。为了使V的向量子空间稳定在$L(\varphi)(L(G))$以下，其在$L(\varphi')(L(G'))$下稳定是充分必要的。因此命题。
+让$\varphi' = \varphi|G'$。为了使$\varphi$（或$\varphi'$）成为半单，$L(\varphi)$（或$L(\varphi')$）为半单（定理 1）是必要且充分的。令 V 为 $\varphi$ 中的空间。为了使V的向量子空间在$L(\varphi)(L(G))$下稳定，其在$L(\varphi')(L(G'))$下稳定是充分必要的。因此命题。
 
-### 习题 {#lie-iii-s9-exercises}
+### 习题{#lie-iii-s9-exercises}
 
 参见[习题为 § 9](exercises/s9/)。

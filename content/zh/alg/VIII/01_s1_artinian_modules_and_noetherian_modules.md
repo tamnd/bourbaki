@@ -30,21 +30,21 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: 041db160fe5b0c6213d54fdd5b66ae52c50c49211f1384c834388af27aa2cf6b
+content_sha256: e93cc31cc5a393bb39d17fd9cc3f56ea2a7fd39a18175fb78dffbc2581a3836b
 translated_from: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md
 translation_method: google
 source_content_sha256: d64719b4a6721ac9031c6bccd67b196cb6dafe3fc596f4fdebd425f00893c469
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 379a44f8c1a2b7b4bda411c911a9f52ea246c9d23ae431ec365210a526098807
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 阿廷模与诺特模
 
-### 1. Artinian Modules and Noetherian Modules
+### 1. 阿廷模与诺特模
 
 #### 定义 1 {#alg-viii-s1-def-1 .statement tag=0001}
 
@@ -54,11 +54,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (ii) M 的子模中的每个递减（分别为递增）序列都是平稳的。
 
-条件(i)和(ii)的等价由集合理论、III, §6, No. 5、p. 190、命题6得出。
+条件(i)和(ii)中的等价由集合理论、III, §6, No. 5、p. 190、命题6得出。
 
 A-模 M 是阿廷的（分别是诺特）当且仅当 M 被视为模超过同位$A_M$ 的环时，是阿廷的（分别是诺特）。
 
-令 M 为阿廷的（分别为诺特）A-模。 M 的子模的每个非空集合，按包含排序，即左向（或右向）至少有元素（或最大元素）（集合理论、III, §1, No. 10、p. 145、命题 10）。
+设 M 为阿廷的（分别为诺特）A-模。 M 的子模的每个非空集合，按包含排序，即左向（或右向）至少有元素（或最大元素）（集合理论、III, §1, No. 10、p. 145、命题） 10）。
 
 设 M 为阿廷的（分别为诺特）A-模和$(M_i)_{i\in I}$ M 的子模族。左族$(M_i)_{i\in I}$ 形式非空（分别为非空）的有限子族的交（分别为和）。右）M 的子模的有向集合。因而，存在 I 的有限子集 J，使得 $\bigcap_{i\in I}M_i=\bigcap_{i\in J}M_i$（分别为 $\sum_{i\in I}M_i=\sum_{i\in J}M_i$）。
 
@@ -68,7 +68,7 @@ A-模 M 是阿廷的（分别是诺特）当且仅当 M 被视为模超过同位
 
 #### 例 2 {#alg-viii-s1-n1-exa-2 .statement tag=0003}
 
-设M为A-模。 If there exists an infinite family $(M_i)_{i\in I}$ of nonzero submodules of M whose sum is direct, then M is neither Artinian nor Noetherian: indeed, for every strictly decreasing (resp. strictly increasing) infinite sequence $(J_n)$ of subsets of I, the infinite sequence $(\sum_{i\in J_n}M_i)$ of submodules of M is strictly decreasing (resp. strictly increasing). 特别是，无限维向量空间超过域既不是阿廷的也不是诺特。
+设M为A-模。 如果存在 M 的非零子模的无限族 $(M_i)_{i\in I}$，其和是直接的，则 M 既不是 Artinian 也不是 Noetherian：事实上，对于 I 子集的每个严格递减（或严格递增）无限序列 $(J_n)$，M 子模的无限序列 $(\sum_{i\in J_n}M_i)$ 是严格递减（或严格递增）的。 特别是，无限维向量空间超过域既不是阿廷的也不是诺特。
 
 #### 例 3 {#alg-viii-s1-n1-exa-3 .statement tag=0004}
 
@@ -78,7 +78,7 @@ A-模 M 是阿廷的（分别是诺特）当且仅当 M 被视为模超过同位
 
 #### 例 4 {#alg-viii-s1-n1-exa-4 .statement tag=0005}
 
-令$p$为素数数，$M_p$为挠元$\mathbf{Z}$-模$\mathbf{Q}/\mathbf{Z}$的$p$主分量（VII, §2, No. 2，p. 7）。对于整数 $n\in \mathbf{N}$ (VII, §2、p. 54、习题 3)，$M_p$ 的每个子模都等于 $M_p$ 或 $p^{-n}\mathbf{Z}/\mathbf{Z}$。因而，$M_p$是阿廷的，但不是诺特$\mathbf{Z}$模。
+令$p$为素数数，$M_p$为挠元$\mathbf{Z}$-模$\mathbf{Q}/\mathbf{Z}$的$p$-主分量（VII, §2, No. 2，p. 7）。对于整数 $n\in \mathbf{N}$ (VII, §2、p. 54、习题 3)，$M_p$ 的每个子模都等于 $M_p$ 或 $p^{-n}\mathbf{Z}/\mathbf{Z}$。因而，$M_p$是阿廷的，但不是诺特$\mathbf{Z}$模。
 
 #### 命题 1 {#alg-viii-s1-prop-1 .statement tag=0006}
 
@@ -118,7 +118,7 @@ A-模 M 是诺特当且仅当 M 的每个子模都是有限生成的。
 
 令 $x$ 为 Q 的元素。属于为 N + P；因而，存在 P 的元素$y$使得$x-y\in N$。由于 Q 包含于 P，差 $x-y$ 属于到 $N\cap Q$，因此到 P。因而，$x$ 属于到 P。
 
-#### 推论{#alg-viii-s1-n1-cor-1 .statement tag=000A}
+#### 推论 {#alg-viii-s1-n1-cor-1 .statement tag=000A}
 
 设 M 为 A-模和 $(M_i)_{i\in I}$ M 的子模的有限族。
 
@@ -126,7 +126,7 @@ a) 如果模 $M_i$ 是阿廷的（分别是诺特），那么它们的和 $\sum_
 
 b) 如果模 $M/M_i$ 是阿廷的（分别是诺特），那么模 $M/\bigcap_{i\in I}M_i$ 也是。
 
-到归纳时，处理$I =\{1,2\}$时的情况就足够了。 模$M_2/(M_1\cap M_2)$，$M_2$的商，与$M/M_1$的子模$(M_1+M_2)/M_1$同构的（I, §4, No. 6，p. 41，定理4）。
+到归纳时，处理$I =\{1,2\}$时的情况就足够了。 $M_2$的模$M_2/(M_1\cap M_2)$、商同构于$M/M_1$的子模$(M_1+M_2)/M_1$（I, §4, No. 6、p. 41、定理4）。
 
 在部分a)中，我们假设$M_1$和$(M_1+ M_2)/M_1$是阿廷的（分别是诺特）；同样的情况也适用于$M_1+ M_2$ (命题 3)。
 
@@ -196,11 +196,11 @@ b) 如果模 $M/M_i$ 是阿廷的（分别是诺特），那么模 $M/\bigcap_{i
 
 现在，假设$n\geqslant 2$。设$(M_i)_{i\in I}$为长度$\leqslant n$M子模和和M。对于每一个$i\in I$，长度$M_i$选择子模$M'_i$ $\leqslant n-1$使得$M_i/M'_i$有长度$\leqslant 1$。 集合$M'=\sum M'_i$，并用$M''_i$表示$M''= M/M'$中$M_i$的像。 模$M''_i$是长度$\leqslant 1$，而和是$M''$。 模$M'$和$M''$为阿廷的（VIII、p. 3、命题3）；到归纳假设时，它们的数量为有限长度。因而，M 有有限长度 (II, §1, No. 10, p. 212, 命题 16)。
 
-现在让我们证明定理 1。让$\mathscr{S}$表示A的左理想$\mathfrak{a}$的集合，使得模$A_s/\mathfrak{a}$有有限长度。令 $(\mathfrak{a}_i)_{i\in I}$ 为元素和 $\mathscr{S}$ 的有限族。到 VIII、p. 2、A-模 $A_s/\mathfrak{a}_i$ 的命题 1 时，每$i\in I$ 为阿廷的和诺特。因而，$A_s/\bigcap_{i\in I}\mathfrak{a}_i$是阿廷的和诺特（VIII，p. 4，命题3的推论），因此是有限长度（VIII，p. 2，命题1）。这证明$\mathscr{S}$是包含的左有向集合。由于环 A 是左阿廷的，集合 $\mathscr{S}$ 至少有元素 $\mathfrak{b}$。我们用$n$表示A-模$A_s/\mathfrak{b}$中的长度。
+现在让我们证明定理 1。让$\mathscr{S}$表示A的左理想$\mathfrak{a}$的集合，使得模$A_s/\mathfrak{a}$有有限长度。令 $(\mathfrak{a}_i)_{i\in I}$ 为元素和 $\mathscr{S}$ 的有限族。到 VIII、p. 2、A-模 $A_s/\mathfrak{a}_i$ 的命题 1 时，每$i\in I$ 为阿廷的和诺特。因而，$A_s/\bigcap_{i\in I}\mathfrak{a}_i$是阿廷的和诺特（VIII，p. 4，推论，命题3），因此有限长度（VIII，p. 2， 命题1)。这证明$\mathscr{S}$是包含的左有向集合。由于环 A 是左阿廷的，集合 $\mathscr{S}$ 至少有元素 $\mathfrak{b}$。我们用$n$表示A-模$A_s/\mathfrak{b}$中的长度。
 
-令$x$为$A_s$的元素，且$\mathfrak{a}$为湮没子（II, §1, No. 12，p. 219）。 A-模 $Ax$ 与 $A_s/\mathfrak{a}$ 同构的。如果$Ax$有有限长度，则$\mathfrak{a}$属于到$\mathscr{S}$，所以$\mathfrak{a}$包含于$\mathfrak{b}$和$Ax$有长度$\leqslant n$。因而，有限长度的A的每个单生左理想都有长度$\leqslant n$。令$\mathfrak{c}$为这些理想中的和；这是有限长度的A的左理想乘以引理 3。有限长度的A的每个左理想都是有限长度的单生左理想的和，因此包含在$\mathfrak{c}$中。因而，$\mathfrak{c}$是有限长度的A的最大的左理想。
+令$x$为$A_s$的元素，$\mathfrak{a}$为湮没子（II, §1, No. 12，p. 219）。 A-模 $Ax$ 与 $A_s/\mathfrak{a}$ 同构的。如果$Ax$有有限长度，则$\mathfrak{a}$属于到$\mathscr{S}$，所以$\mathfrak{a}$包含于$\mathfrak{b}$和$Ax$有长度$\leqslant n$。因而，有限长度的A的每个单生左理想都有长度$\leqslant n$。令$\mathfrak{c}$为这些理想中的和；这是有限长度的A的左理想乘引理 3。有限长度的A的每个左理想都是有限长度的单生左理想的和，因此包含在$\mathfrak{c}$中。因而，$\mathfrak{c}$是有限长度的A的最大的左理想。
 
-如果 $\mathfrak{c}$ 与 A 不同，则包含 $\mathfrak{c}$ 的左理想的集合且与 $\mathfrak{c}$ 不同，将具有最小元素 $\mathfrak{c}'$。那么A-模$\mathfrak{c}'/\mathfrak{c}$将有长度1，$\mathfrak{c}'$将有有限长度，与……矛盾事实上$\mathfrak{c}$是最大的。因此我们有 $\mathfrak{c}= A$； A-模$A_s$有有限长度。
+如果 $\mathfrak{c}$ 与 A 不同，则包含 $\mathfrak{c}$ 的左理想的集合且与 $\mathfrak{c}$ 不同，将具有最小元素 $\mathfrak{c}'$。 A-模 $\mathfrak{c}'/\mathfrak{c}$ 将会有长度 1，$\mathfrak{c}'$ 将会有有限长度，其中与……矛盾 $\mathfrak{c}$ 是最大的。因此我们有 $\mathfrak{c}= A$； A-模$A_s$有有限长度。
 
 #### 推论 {#alg-viii-s1-n2-cor-1 .statement tag=000J}
 
@@ -220,9 +220,9 @@ a) 设 A 为左诺特环，M 为有限生成的左A-模。 模 M 是诺特，M �
 
 b) 设 A 为左阿廷的环，M 左A-模。以下性质是等价的： 模 M 是有限生成的； 模 M 为阿廷的； 模 M 有有限长度； 模 M 是诺特。
 
-让我们证明a）。 M 的每个单生子模都同构于商 $A_s$，因此是诺特乘以 VIII、p. 3 的命题 3。 模 M 是这样的子模的有限和；因而，通过命题 3 的推论 (VIII, p. 4) 得到诺特。然后，M 的每个子模都是有限生成的 (VIII, p. 3, 命题 2)
+让我们证明a）。 M 的每个单生子模都同构于$A_s$ 的商，因此是诺特乘以VIII、p. 3 的命题 3。 模 M 是这样的子模的有限和；因而，它是命题 3 的诺特乘推论 (VIII, p. 4)。然后 M 的每个子模都是有限生成的 (VIII, p. 3, 命题 2)
 
-现在，假设环 A 是左阿廷的。我们看到，就像前面的截面一样，如果A-模 M是有限生成的，那么它就是阿廷的。如果它是阿廷的，那么它有有限长度：事实上，它的单生子模与$A_s$的商同构，因此有限长度小于$A_s$，并且断言从引理3得出。每模有限长度是诺特，并且每个诺特模都是有限生成的。这证明了b)。
+现在，假设环 A 是左阿廷的。我们看到，就像前面的截面一样，如果A-模 M是有限生成的，那么它就是阿廷的。如果它是阿廷的，那么它有有限长度：事实上，它的单生子模与$A_s$的商同构，因此有限长度小于$A_s$，并且断言来自引理 3。 有限长度的模是诺特，并且每个诺特模都是有限生成的。这证明了b)。
 
 #### 命题 5 {#alg-viii-s1-prop-5 .statement tag=000M}
 
@@ -240,7 +240,7 @@ c) 令$(A_i)_{i\in I}$为左阿廷的（分别为左诺特的）环的族。 环
 
 让我们证明c）。 集合$A =\prod_{i\in I}A_i$。 到假设，$(A_i)_s$是阿廷的左$A_i$-模块和更不必说阿廷的左A-模。 VIII、p. 4、A-模$A_s$中的例 5 为阿廷的。
 
-#### 推论{#alg-viii-s1-n2-cor-2 .statement tag=000N}
+#### 推论 {#alg-viii-s1-n2-cor-2 .statement tag=000N}
 
 阿廷的交换环的素理想是它的极大理想。
 
@@ -248,7 +248,7 @@ c) 令$(A_i)_{i\in I}$为左阿廷的（分别为左诺特的）环的族。 环
 
 多项式环$\mathbf{Q}[(X_n)_{n\in\mathbf{N}}]$为整环； it is not 诺特 (or 阿廷的) (VIII, p. 15, 习题 9). It is 子环 of its 域 of 分数, which is 阿廷的 (and 诺特) 环.
 
-### 3. Countermodule
+### 3. 对模
 
 #### 定义 3 {#alg-viii-s1-def-3 .statement tag=000O}
 
@@ -268,7 +268,7 @@ c) 令$(A_i)_{i\in I}$为左阿廷的（分别为左诺特的）环的族。 环
 
 这是从VIII、p. 3 的引理 4 和命题 3 得出的。
 
-#### 推论{#alg-viii-s1-n3-cor-1 .statement tag=000R}
+#### 推论 {#alg-viii-s1-n3-cor-1 .statement tag=000R}
 
 设A为交换环。
 
@@ -284,7 +284,7 @@ b) 令 M 为 A-模或有限长度。 环$A_M$是阿廷的。
 
 特别是，每个在交换环上有限生成的阿廷模都有有限长度。相比之下，在非交换环上有限生成的阿廷模不一定是有限长度 (VIII, p. 16, 习题 12)。
 
-### 4. 系数为诺特环的多项式
+### 4. 诺特环中包含系数的多项式
 
 设A为环A的环、$\sigma$自同态、以及满足关系的加法群$d$自同态
 
@@ -294,7 +294,7 @@ $$
 
 对于所有$a, b\in A$。在其他字中，$d$是推导从环A到$(A$，A)-双模，将A的加法群赋予作用$(a, x)\mapsto \sigma (a)x$的左律和律的右律作用$(x, a)\mapsto xa$。我们有$d(1) = 0$（III, §10, No. 5、p. 557、命题 3）。
 
-回想一下 (IV, §1, No. 1, p. 2)，A[X] 表示系数在 A 中的一个变量中的多项式的 $\mathbf{Z}$ 模$A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$。我们赋予它左A-模的自然结构。对于A[X]来说，家庭$(X^n)_{n\in\mathbf{N}}$是基，超过A。我们认同A及其像低于映射$a\mapsto a\otimes 1$。
+回想一下 (IV, §1, No. 1, p. 2)，A[X] 表示 A 中具有系数的一个变量中的多项式的 $\mathbf{Z}$ 模 $A\otimes_{\mathbf{Z}}\mathbf{Z}[X]$。我们赋予它左A-模的自然结构。对于 A[X] 而言，家庭 $(X^n)_{n\in\mathbf{N}}$ 是基在 A 之上。我们认同 A 及其像在映射 $a\mapsto a\otimes 1$ 之下。
 
 #### 命题 7 {#alg-viii-s1-prop-7 .statement tag=00QX}
 
@@ -302,13 +302,13 @@ Let A$,\sigma ,d$ be as above. 群 A[X] 上存在唯一的环结构，具有以�
 
 a) 环中的加法是A[X]通常的加法。
 
-b) 乘法 in this 环扩展 that of A.
+b) 乘法在 A 的环扩展中。
 
-c) 乘积 in this 环 of 序列 $(a,X, . . . ,X)$, 由……组成 of 元素 $a$ of A followed by $n$ 项 equal to X, is the polynomial $aX^n$.
+c) 乘积在A的序列$(a,X, . . . ,X)$的环，元素$a$的由……组成，接着$n$项等于X，是多项式$aX^n$。
 
 d) 在这个环中，每$a\in A$有$Xa=\sigma (a)X +d(a)$。
 
-令 E 为加法群 A[X] 的自同态环。 映射 that sends $a\in A$ to 位似 $a_M$ of 左A-模 M = A[X] is 环同态 from A to E. Consider 元素 $u,\sigma_M$, and $d_M$ of E defined by $u(\sum b_nX^n) =\sum b_nX^{n+1},\sigma_M(\sum b_nX^n) =\sum\sigma (b_n)X^n$，$d_M(\sum b_nX^n) =\sum d(b_n)X^n$。 For every $a\in A$, we have
+令 E 为加法群 A[X] 的自同态环。将左A-模 M = A[X] 的 $a\in A$ 发送到位似 $a_M$ 的映射是从 A 到 E 的环同态。考虑由下式定义的 E 的元素 $u,\sigma_M$ 和 $d_M$ $u(\sum b_nX^n) =\sum b_nX^{n+1},\sigma_M(\sum b_nX^n) =\sum\sigma (b_n)X^n$，$d_M(\sum b_nX^n) =\sum d(b_n)X^n$。对于每$a\in A$，我们有
 
 $$
 u a_M=a_Mu ,\sigma_Ma_M=\sigma (a)_M\sigma_M,d_Ma_M=\sigma (a)_Md_M+ (d(a)_M) \tag{2}
@@ -326,21 +326,21 @@ $$
 X_Ma_M=\sigma (a)_MX_M+ (d(a)_M) \tag{4}
 $$
 
-Consider 映射 $\varphi : A[X]\rightarrow E$ defined by
+考虑映射 $\varphi : A[X]\rightarrow E$ 定义为
 
 $$
 \varphi (\sum a_nX^n)=\sum(a_n)_M(X_M)^n \tag{5}
 $$
 
-这是群同态。 归纳论证表明，对于每个 $n\in \mathbf{N}$，我们有 $(X_M)^n(1) = X^n$。因而，对于每个$P\in A[X]$，我们都有$\varphi (P)(1) = P$，这证明同态$\varphi$是单射的。我们将其像记为B。集合B是E的子群；它包含 1，并且在左乘法下通过$a_M$对于$a\in A$和$X_M$是稳定的（参见（4））。 It is therefore 子环 of E. The unique 环结构 on A[X] derived from that on B by transfer of 结构 via $\varphi$ has the properties of 命题 7, where 性质 d) results from 关系 (4).
+这是群同态。 归纳论证表明，对于每个 $n\in \mathbf{N}$，我们有 $(X_M)^n(1) = X^n$。因而，对于每个$P\in A[X]$，我们都有$\varphi (P)(1) = P$，这证明同态$\varphi$是单射的。我们将其像记为B。集合B是E的子群；它包含 1，并且在左乘法下通过$a_M$对于$a\in A$和$X_M$是稳定的（参见（4））。因而，它是 E 的子环。 A[X] 上唯一的环结构是通过 $\varphi$ 传输结构在 B 上导出的，具有命题 7 的属性，其中性质 d) 来自关系 (4)。
 
-If A[X] is endowed with 环结构 that has the properties of 命题 7, then the left 位似 $\boldsymbol{\gamma }_X$ of this 环 (I, §8, No. 1, p. 97) necessarily sends $bX^n$ to $\sigma (b)X^{n+1}+d(b)X^n$ 对于 $b\in A$ 和 $n\in \mathbf{N}$，因此等于 $X_M$。对于每个 $a\in A$，位似 $\boldsymbol{\gamma }_a$ 必然等于 $a_M$。因而，每 $P\in A[X]$ 就有 $\boldsymbol{\gamma }_P=\varphi (P)$； 唯一性 in 命题 7 follows.
+如果 A[X] 被赋予了具有命题 7 属性的环结构，那么这个环的左边位似 $\boldsymbol{\gamma }_X$ (I, §8, No. 1, p. 97) 必然将 $bX^n$ 发送到$\sigma (b)X^{n+1}+d(b)X^n$ 对于 $b\in A$ 和 $n\in \mathbf{N}$，因此等于 $X_M$。对于每个 $a\in A$，位似 $\boldsymbol{\gamma }_a$ 必然等于 $a_M$。因而，每 $P\in A[X]$ 就有 $\boldsymbol{\gamma }_P=\varphi (P)$； 命题 7 中的唯一性如下。
 
-集合 A[X], endowed with the unique 环结构 with the properties of 命题 7, is denoted by $A[X]_{\sigma ,d}$ and called 多项式环 in X with coefficients in A, relative to $\sigma$ and $d$。 We simply denote it by $A[X]_{\sigma}$ when $d$ is 零映射 and by A[X] when, moreover, $\sigma$ is 恒等映射 on A. This 记号 is compatible with that introduced in IV, §1, No. 1, p. 1 for 交换环 A.
+集合 A[X]，赋予了唯一的环结构，具有命题 7的性质，用$A[X]_{\sigma ,d}$表示，在X中称为多项式环，系数在A中，相对于$\sigma$和$d$。当$d$是零映射时，我们简单地用$A[X]_{\sigma}$表示，而当$\sigma$是A上的恒等映射时，我们简单地用A[X]表示。这个记号与IV, §1, No. 1中介绍的兼容， p. 1 对应交换环 A.
 
 #### 注 {#alg-viii-s1-n4-rem-1 .statement tag=000T}
 
-环 $A[X]_{\sigma ,d}$ has the following 泛性质: given 环 $A'$, 环同态 $f: A\rightarrow A'$, and 元素 $x$ of $A'$ such that $xf(a) =f(\sigma (a))x+f(d(a))$ 对于每个 $a\in A$，都存在一个唯一的环同态 $g: A[X]_{\sigma ,d}\rightarrow A'$，扩展 $f$ 和映射 X 到 $x$。
+环 $A[X]_{\sigma ,d}$ 有以下泛性质：给定环 $A'$、环同态 $f: A\rightarrow A'$ 和元素 $x$ of $A'$，使得$xf(a) =f(\sigma (a))x+f(d(a))$ 对于每个 $a\in A$，都存在一个唯一的环同态 $g: A[X]_{\sigma ,d}\rightarrow A'$，扩展 $f$ 和映射 X 到 $x$。
 
 唯一性很清楚。因而，让我们证明由 $g(\sum a_nX^n) =\sum f(a_n)x^n$ 定义的映射 $g: A[X]_{\sigma ,d}\rightarrow A'$ 具有所需的属性。它扩展$f$，映射X到$x$，并且是群同态。我们有$g(1) = 1$。对于$A[X]_{\sigma ,d}$中的$a\in A$和$Q =\sum a_nX^n$，我们有
 
@@ -392,20 +392,20 @@ $$
 
 设 A 为诺特交换环。对于每个整数 $n\geqslant 0$，多项式代数 $A[X_1, . . . ,X_n]$ 为诺特环。
 
-接下来是定理 2 中的归纳，考虑到 III, §2, No. 9、p. 453 中的命题 8。
+这是从定理 2 开始的归纳，考虑到 III, §2, No. 9、p. 453 中的命题 8。
 
 #### 推论 2 {#alg-viii-s1-thm-2-cor-2 .statement tag=000V}
 
 设 A 为诺特交换环。由有限多个元素生成的交换A-代数是诺特环。
 
-这样的代数同构于形式$A[X_1, . . . ,X_n]/\mathfrak{a}$的代数，其中$n\geqslant 0$和$\mathfrak{a}$是$A[X_1, . . . ,X_n]$的理想。然后我们应用VIII、p. 7的推论1和命题5。
+这样的代数同构于形式$A[X_1, . . . ,X_n]/\mathfrak{a}$的代数，其中$n\geqslant 0$和$\mathfrak{a}$是$A[X_1, . . . ,X_n]$的理想。然后我们计算VIII、p. 7中的应用推论 1 和命题 5。
 
 #### 推论 3 {#alg-viii-s1-thm-2-cor-3 .statement tag=000W}
 
 每个交换环都是诺特子环右向有向族的并。
 
-事实上，令 A 为交换环。由有限多个元素生成的A的子环（作为$\mathbf{Z}$-代数）是由推论2得出的诺特。它们形式是A的子环的右有向族，其中并A。
+事实上，令 A 为交换环。 A 的子环由有限多个元素生成（作为 $\mathbf{Z}$-代数），是诺特 by 推论 2。它们形式是 A 的子环的右有向族，其中并 A。
 
-### 习题{#alg-viii-s1-exercises}
+### 习题 {#alg-viii-s1-exercises}
 
 参见[习题为 § 1](exercises/s1/)。

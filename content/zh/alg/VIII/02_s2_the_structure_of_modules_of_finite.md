@@ -34,19 +34,19 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: a00df43a2300d8de9f651f8a2e0147f7ed46c1f23494dd39b46d13ab83e76faa
+content_sha256: fd37bc55be27a967a53913f16a005e56708e924c1b83c95d4d1290777a105f93
 translated_from: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md
 translation_method: google
 source_content_sha256: 937d6660bbf18635e63c4c1addfaf3e44ee88a5456fdc47cb5c2eacabc9099b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 3dab4ce5372bf7025fbd92132afe829dda18a9ad01498abe4ed3a8d21ae06720
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 结构模有限长度
+## § 2。 有限长度模结构
 
 ### 1. 局部环
 
@@ -110,7 +110,7 @@ d) 集合 $\mathfrak{r}$ 在乘法下稳定。
 
 #### 例 4 {#alg-viii-s2-n1-exa-4 .statement tag=001U}
 
-设 A 为形式幂级数的交换局部环和 $B = A[[X_i]]_{i\in I}$ 代数，系数为 A (III, §2, No. 11, p. 456)。由 IV, §4, No. 4、p. 30、环的命题 6 可知，B 是局部的，其最大理想由 A 的最大理想中的形式幂级数和常数项组成。特别是，如果 A 为域，则$A[[X_i]]_{i\in I}$ 由形式幂级数和常量项零组成。
+设 A 为形式幂级数的交换局部环和 $B = A[[X_i]]_{i\in I}$ 代数，其中 A 中系数 (III, §2, No. 11, p. 456)。由IV, §4, No. 4、p. 30、环的命题 6，B是局部的，其最大理想由A的最大理想中的形式幂级数和常数项组成。特别地，如果A是域，则其最大理想$A[[X_i]]_{i\in I}$ 由形式幂级数和常量项零组成。
 
 #### 例 5 {#alg-viii-s2-n1-exa-5 .statement tag=001V}
 
@@ -124,7 +124,7 @@ $*(_{p)}$
 
 令 K 为特征 $p >0$ 的交换域，G 为$p$群（I, §6, No. 5、p. 76、定义 9）。 群 G 在 K (III, §2, No. 6, p. 446) 上的代数 K[G] 为局部环；它的最大理想是 K[G] 的元素 $(a_g)_{g\in G}$ 的集合，使得 $\sum_{g\in G}a_g= 0$ (VIII, p. 41, 习题 10)。
 
-### 2. Weyr–Fitting Decomposition
+### 2. Weyr-Fitting 分解
 
 设 A 为环、M A-模和 M 的 $u$ 自同态。对于任意整数 $p\geqslant 0$，我们用 $N_p$ 表示 $u^p$ 的核。 子模$(N_p)$的序列为递增，其并为在$u$下稳定的M的子模$N_{\infty}$。对于每个整数$p\geqslant 0$，我们有$N_{p+1}=\overset{-1}{u}(N_p)$，因此关系$N_p= N_{p+1}$意味着$N_{p+1}= N_{p+2}$。因而，要么序列$(N_p)$是严格递增的，要么存在整数$p\geqslant 0$使得$N_0, . . . ,N_p$不同且$N_p= N_{\infty}$。
 
@@ -146,7 +146,7 @@ c) （“Weyr-Fitting 分解”—有时称为“Fitting 分解”）假设序�
 
 #### 注 1 {#alg-viii-s2-n2-rem-1 .statement tag=001Y}
 
-令$p$为整数，使得$N_p= N_{p+1}$；上面给出的证明表明，$u$到$I_p$的$N_{\infty}\cap I_p= 0$和限制是单射的。 同样，令$q$为整数，使得$I_q= I_{q+1}$；那么我们有$N_q+ I_{\infty}= M$，并且$M/N_q$从$u$通过经过推导出自同态，商是满射的。
+令$p$为整数，使得$N_p= N_{p+1}$；上面给出的证明表明，$u$到$I_p$的$N_{\infty}\cap I_p= 0$和限制是单射的。 同样，令 $q$ 为整数，使得 $I_q= I_{q+1}$；那么我们有$N_q+ I_{\infty}= M$，并且通过传递商从$u$推导出$M/N_q$的自同态是满射的。
 
 #### 注 2 {#alg-viii-s2-n2-rem-2 .statement tag=001Z}
 
@@ -182,13 +182,13 @@ $$
 x=\sum_{i\in I}a_ix_i,y_j=\sum_{i\in I}b_{ij}x_i,u(x_j) =\sum_{i\in I}c_{ij}x_i
 $$
 
-对于每个$j\in I$。令$A'$为包含元素$a_i,b_{ij}$的诺特子环，以及$c_{ij}$（VIII，p. 12，推论3）。令$M'$为$(x_i)_{i\in I}$族生成的M的$A'$子模。我们有$u(x_j)\in M',y_j\in M'$，每个$j\in I$有$u(y_j) =x_j$；因此，$u$定义，由$A'$模块$M'$的限制、满射自同态$u'$组成。由于环$A'$是诺特，有限生成的$A'$模$M'$是诺特（VIII，p. 7，命题 4 a））。由a)可知，$M'$的自同态$u'$是双射的。由构造、$x$ 属于到 $M'$，我们还有 $u'(x) =u(x) = 0$。因此我们有 $x= 0$，这证明了 d)。
+对于每个$j\in I$。设$A'$为包含元素$a_i,b_{ij}$中的诺特子环，以及$c_{ij}$(VIII、p. 12、推论3)。令$M'$为$(x_i)_{i\in I}$族生成的M的$A'$子模。我们有$u(x_j)\in M',y_j\in M'$，每个$j\in I$有$u(y_j) =x_j$；因此，$u$定义，由$A'$模块$M'$的限制、满射自同态$u'$组成。由于环$A'$是诺特，有限生成的$A'$模$M'$是诺特（VIII，p. 7，命题 4 a））。由a)可知，$M'$的自同态$u'$是双射的。由构造、$x$、属于到$M'$，我们有$u'(x) =u(x) = 0$。因此我们有 $x= 0$，这证明了 d)。
 
 #### 推论 2 {#alg-viii-s2-prop-2-cor-2 .statement tag=0022}
 
 在左诺特环中，每个左或右可逆元都是可逆的。
 
-事实上，考虑左诺特环 A 的元素 $x,y$ 使得$xy= 1$。分别用$\boldsymbol{\delta }(x)$和$\boldsymbol{\delta }(y)$表示，A-模$A_s$的自同态$a\mapsto ax$和$a\mapsto ay$。我们有$\boldsymbol{\delta }(y)\circ \boldsymbol{\delta }(x) = 1_{A_s}$；因此 $\boldsymbol{\delta }(y)$ 是满射的。根据推论 1, a)，$\boldsymbol{\delta }(y)$ 是双射的。那么自同态$\boldsymbol{\delta }(x)$就是$\boldsymbol{\delta }(y)$的逆双射，我们有$yx= (\boldsymbol{\delta }(x)\circ \boldsymbol{\delta }(y))(1) = 1$。推论如下。
+事实上，考虑左诺特环 A 的元素 $x,y$ 使得$xy= 1$。分别用$\boldsymbol{\delta }(x)$和$\boldsymbol{\delta }(y)$表示，A-模$A_s$的自同态$a\mapsto ax$和$a\mapsto ay$。我们有$\boldsymbol{\delta }(y)\circ \boldsymbol{\delta }(x) = 1_{A_s}$；因此 $\boldsymbol{\delta }(y)$ 是满射的。通过推论 1, a)，$\boldsymbol{\delta }(y)$ 是双射的。 自同态 $\boldsymbol{\delta }(x)$ 就是$\boldsymbol{\delta }(y)$ 的逆双射，我们有$yx= (\boldsymbol{\delta }(x)\circ \boldsymbol{\delta }(y))(1) = 1$。接下来是推论。
 
 ### 3. 不可分解模和原始模
 
@@ -198,11 +198,11 @@ $$
 
 如果A-模 M 不是不同于 0 和 M 的子模族的直和，则称其不可分解。
 
-由命题 12 of II, §1, No. 8、p. 209的推论，以下性质是等价的：
+通过命题 12 of II, §1, No. 8、p. 209的推论，以下性质是等价的：
 
 a) A-模 M 不可分解。
 
-b) A-模 M 是非零的，并且 M 的每个直因子子模都等于 0 或 M。
+b) A-模 M 为非零的，并且 M 的每个直因子子模等于 0 或 M。
 
 c) A-模 M 为非零的，并且环 End$_A(M)$ 包含与 0 和 $1_M$ 没有幂等区别。
 
@@ -210,13 +210,13 @@ c) A-模 M 为非零的，并且环 End$_A(M)$ 包含与 0 和 $1_M$ 没有幂�
 
 #### 例 {#alg-viii-s2-n3-exa-1 .statement tag=0024}
 
-假设环 A 是主理想整环。不可分解的有限生成A-模与A-模同构于A或$A/p^nA$，其中$p$是A的不可约元，$n$整数$>0$（VII, §4, No. 8，p. 24， 命题8)。
+假设环 A 是主理想整环。不可分解的有限生成A-模 A-模同构于 A 或 $A/p^nA$，其中 $p$ 是 A 的不可约元，$n$ 整数 $>0$ (VII, §4, No. 8, p. 24, 命题8)。
 
 #### 命题 3 {#alg-viii-s2-prop-3 .statement tag=0025}
 
 诺特或阿廷的 A-模 M 是不可分解的子模有限族中的直和。
 
-我们首先证明M的每个非零的子模P都有一个不可分解的直因子。如果不是这种情况，那么 P 的每个直因子子模都是可分解的；继续进行归纳，然后我们可以对P的每个$n\in \mathbf{N}$、非零的、子模、$N'_n$和$N''_n$进行构造，使得$P = N'_0\oplus N''_0$和$N'_{n-1}= N'_n\oplus N''_n$对于$n\geqslant 1$。但是，子模$N''_0+\cdots + N''_n$的序列将是严格递增的，子模$N'_n$的严格递减将是严格递减。 模 M 既不是诺特也不是阿廷的，与假设相反。
+我们首先证明M的每个非零的子模P都有一个不可分解的直因子。如果不是这种情况，那么 P 的每个直因子子模都是可分解的；继续进行归纳，然后我们可以对P的每个$n\in \mathbf{N}$、非零的、子模、$N'_n$和$N''_n$进行构造，使得对于$n\geqslant 1$有$P = N'_0\oplus N''_0$和$N'_{n-1}= N'_n\oplus N''_n$。但是，子模$N''_0+\cdots + N''_n$的序列将是严格递增的，子模$N'_n$的严格递减将是严格递减。 模 M 既不是诺特也不是阿廷的，与假设相反。
 
 现在，假设 M 不是不可分解的子模有限族中的直和。到归纳，对于每个$n\in \mathbf{N}$，我们构造不可分解M的子模$P''_n$和M的非零的子模$P'_n$，这样$M = P'_0\oplus P''_0$和$P'_{n-1}= P'_n\oplus P''_n$对于$n\geqslant 1$。事实上，M 是非零的，证明的第一个部分应用于 P = M，提供$P'_0$ 和 $P''_0$。由于模$P'_k$和$P''_k$是为$k < n$定义的，通过证明的第一个部分，存在子模、$P'_n$和$P''_n$，使得$P'_{n-1}= P'_n\oplus P''_n$和$P''_n$不可分解的。 关系$M = P'_n\oplus P''_0\oplus  \cdots  \oplus P''_n$则意味着$P'_n\not= 0$，因为M不是不可分解模有限族中的直和。
 
@@ -262,15 +262,15 @@ $*$每单模都是本初（VIII，p. 45）；因而，每个半单模都是半�
 
 #### 定理 1（东屋）{#alg-viii-s2-thm-1 .statement tag=00RX}
 
-设A为环，L为原初A-模，M为半原初A-模。存在一个唯一的基数，记为[M : L]，其性质如下：
+设A为环，L为原初A-模，M为半原初A-模。存在唯一的基数，记为[M : L]，其中性质如下：
 
-对于 M 的每个分解 $M =\bigoplus_{i\in I}M_i$ 作为原初模的直和，指标 $i\in I$ 的集合，使得 $M_i$ 同构于 L 有基数 [M ： L]。
+对于 M 的每个分解 $M =\bigoplus_{i\in I}M_i$ 作为原始模的直和，指标 $i\in I$ 的集合，使得 $M_i$ 同构于 L 有基数 [男：L]。
 
 证明是基于以下四个引理。
 
 #### 引理 1 {#alg-viii-s2-lem-1 .statement tag=0029}
 
-设M为M的A-模，M的$M'$原始子模，以及M的$M''$子模，对$M'$的补充。设$u$为M的自同态。则M的$u$或$1_M-u$诱导同构从$M'$到子模补充$M''$。
+设M为M的A-模、M的$M'$原始子模、以及M的$M''$子模，对$M'$的补充。令$u$为M的自同态。则M的$u$或$1_M-u$诱导同构从$M'$到子模补充$M''$。
 
 令$p$为从M到$M'$的投影以及核$M''$，并令$v$为$p\circ u$到$M'$的限制。首先，假设$v$是$M'$的自同构。由于$v$是单射的，$u$到$M'$的限制是单射的，我们有$u(M')\cap M''= 0$。由于$v$是满射，我们有$u(M')\oplus M''= M$。因而，从$M'$到子模，$u$诱导同构是M中$M''$的补充。现在，假设$v$不是$M'$的自同构。那么$1_{M'}-v$是$M'$的自同构，因为$M'$是本初的。现在，$1_{M'}-v$是$p\circ (1_M-u)$到$M'$的限制。前面的推理证明了M对$M''$的补充从$M'$到子模的$1_M-u$诱导同构。
 
@@ -284,7 +284,7 @@ b) 对于从$M_J$到子模的I$,v$诱导同构的每个有限子集J，作为$M_
 
 如果性质 b) 成立，则 $v$ 是单射的。
 
-假设性质 a) 不成立，让我们在 J 基数上通过归纳建立性质 b)。如果 $J =\emptyset$ 则无需证明。因而，假设J是J的非空、选择元素$i$、以及集合$J'= J-\{i\}$。由M的归纳假设、$v$诱导同构从$M_{J'}$到子模补充$M_{I-J'}= M_{I-J}\oplus M_i$；因而，子模$M''=v(M_{J'})\oplus M_{I-J}$是$M_i$的补充。由$u$的引理 1和假设、$M_i$至子模的自同态$v$诱导同构补充$M''$；因而，$v$诱导同构从$M_J= M_i\oplus M_{J'}$到子模是对$M_{I-J}$的补充。
+假设性质a)不成立，让我们在J的基数上通过归纳建立性质b)。如果$J =\emptyset$则无需证明。因而，假设J是J的非空、选择元素$i$、以及集合$J'= J-\{i\}$。由$M_{J'}$到子模的归纳假设、$v$诱导同构补充到$M_{I-J'}= M_{I-J}\oplus M_i$；因而，子模$M''=v(M_{J'})\oplus M_{I-J}$是$M_i$的补充。由$u$的引理 1和假设、$M_i$至子模的M补充$M''$的自同态$v$诱导同构；因而，$v$诱导同构从$M_J= M_i\oplus M_{J'}$到子模是对$M_{I-J}$的补充。
 
 最后一个断言源自以下事实：M是子模$M_J$的并，其中J穿过I的有限子集。
 
@@ -302,15 +302,15 @@ b) 对于从$M_J$到子模的I$,v$诱导同构的每个有限子集J，作为$M_
 
 设$N_0$是M对N的补充的子模。模M是$N_0$和家庭$(N_j)_{j\in J}$的直和。对于每个 $j\in J$，用 M 的 $p_j$ 投影算子表示，其中像 $N_j$ 与此分解相关（II, §1, No. 8、p. 209、命题 12）。对于每个$i\in I$，用指标$j\in J$的$J(i)$集合表示，使得$p_j$诱导同构从$M_i$到$N_j$。这个集合是有限的：事实上，如果$x$是$M_i$的非零元素并且K是J的有限子集，使得$x$属于到$N_0+\sum_{k\in K}N_k$，那么我们有$j\in J$的$p_j(x) = 0$- K，使得 $J(i)$ 包含在 K 中。
 
-让$j\in J$。到引理 3，存在指标$i\in I$，使得$N_j$从$M_i$到直因子子模有$p_j$诱导同构。由于 $M_i$ 是非零的并且 $N_j$ 是原初的，因此不可分解（VIII、p. 31、命题 4），所以我们有 $p_j(M_i) = N_j$ 和 $j$ 属于 $J(i)$。由于模$M_i$同构于$N_j$，因此也与L同构，指标$i$属于同构于$I_L$。这证明J是有限族集合$(J(i))_{i\in I_L}$的并。如果集合 J 无穷大，则集合 $I_L$ 无穷大，我们有 (集合理论，III, §6, No. 3，p. 188，推论 3)
+让$j\in J$。到引理 3，存在指标$i\in I$，使得$N_j$从$M_i$到直因子子模有$p_j$诱导同构。由于 $M_i$ 是非零的并且 $N_j$ 是原初的，因此不可分解（VIII、p. 31、命题 4），所以我们有 $p_j(M_i) = N_j$ 和 $j$ 属于 $J(i)$。由于模$M_i$同构于$N_j$，因此也与L同构，指标$i$属于同构于$I_L$。这证明J是有限族集合$(J(i))_{i\in I_L}$的并。如果集合 J 是无限的，那么集合 $I_L$ 是无限的，我们有 (集合理论, III, §6, No. 3, p. 188, 推论 3)
 
 卡(J)$\leqslant \sum_{i\in I_L}$卡(J($i$))$\leqslant$卡(I$_L$)。
 
-现在，假设集合 J 是有限的，让我们在 J 的基数上用归纳证明引理。如果 J 为空，则无需证明。因此，假设J为非空，J的选择元素$j$。由上式可知，从$M_i$到$N_j$，存在指标$i\in I_L$使得$p_j$诱导同构。 集合$I'= I-\{i\}$和$J'= J-\{j\}$。 模 M 是$M_i$ 的直和和$p_j$ 的核。它也是$M_i$和子模$M'=\oplus_{i'\in I'}M_{i'}$的直和。因此，从 Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ 到$M'$，存在（II, §1, No. 9，p. 210，命题 13 的推论）同构 $\varphi$。 集合$N'=\varphi (\sum_{j'\in J'}N_{j'})$。 $M'$的子模$N'$是直因子并且是原始子模的$(\varphi (N_{j'}))_{j'\in J'}$族的直和与L同构。让我们将归纳假设应用于 $M'$ 和 $N':$，我们有 Card(J$'$)$\leqslant$ Card(I$_L-\{i\}$)，因此不等式 (1)。
+现在，假设集合 J 是有限的，让我们在 J 的基数上用归纳来证明引理。如果 J 为空，则无需证明。因此，假设J为非空，J的选择元素$j$。由上式可知，从$M_i$到$N_j$，存在指标$i\in I_L$使得$p_j$诱导同构。 集合$I'= I-\{i\}$和$J'= J-\{j\}$。 模 M 是$M_i$ 的直和和$p_j$ 的核。它也是$M_i$和子模$M'=\oplus_{i'\in I'}M_{i'}$的直和。因此，从 Ker $p_j= N_0\oplus_{j'\in J'}N_{j'}$ 到 $M'$ 存在 (命题 13 的II, §1, No. 9、p. 210、推论) 同构 $\varphi$。 集合$N'=\varphi (\sum_{j'\in J'}N_{j'})$。 $M'$的子模$N'$是直因子并且是原始子模的$(\varphi (N_{j'}))_{j'\in J'}$族的直和与L同构。让我们将归纳假设应用于$M'$和$N':$，我们有Card(J$'$)$\leqslant$Card(I$_L-\{i\}$)，因此不等式 (1)。
 
 让我们证明定理 1。令$(M_i)_{i\in I}$和$(N_j)_{j\in J}$是原始子模与直和M的两个族。令$I_L$（或$J_L$）是$i\in I$（或$j\in J$）的集合，使得$M_i$（分别为$N_j$）与L同构。我们通过引理 4 得到 Card(J$_L$)$\leqslant$ Card(I$_L$)。通过交换 I 和 J 的角色，我们得到逆不等式，从而得到定理。
 
-定理 1 中定义的基数 [M : L] 在 M 中称为 L 的原始重数。
+定理 1中定义的基数[M : L]在M中称为L的原始重数。
 
 #### 推论 1 {#alg-viii-s2-lem-4-cor-1 .statement tag=002D}
 
@@ -326,7 +326,7 @@ $$
 
 那么存在M的自同构$u$和从I到J的双射$\varphi$，这样对于每个$i\in I$我们都有$u(M_i) = M'_{\varphi(i)}$。
 
-对于任何原初模 L，令 $I_L$（分别为 $J_L$）为指标 $i\in I$（分别为 $j\in J$）的集合，使得 $M_i$（分别为 $M'_j$）同构于L。 The nonempty sets of the form $I_L$ (resp. $J_L$) form a partition of I (resp. J), and for every L, we have
+对于任何原初模 L，令 $I_L$（分别为 $J_L$）为指标 $i\in I$（分别为 $j\in J$）的集合，使得 $M_i$（分别为 $M'_j$）同构于L。 $I_L$（或$J_L$）形式的非空集形成I（或J）的划分，对于每个L，我们有
 
 卡(I$_L$) $=$ 卡(J$_L$) $= [M : L]$;
 
@@ -340,19 +340,19 @@ $$
 
 [M : L] + [P : L] = [N : L] + [P : L]
 
-对于每个原始模L。由于 [P : L] 是有限的，因此根据 (集合理论, III, §3, No. 4, p. 162, 命题 8) 的归纳，我们对于每个原初模有 [M : L] = [N : L] L。因此，根据推论 1，模 M 和 N 同构。
+对于每个原始模L。由于 [P : L] 是有限的，因此根据 (集合理论, III, §3, No. 4, p. 162, 命题 8) 的归纳，我们对每个原初有 [M : L] = [N : L] 模L。因此，模 M 和 N 同构于推论 1。
 
 #### 推论 4 {#alg-viii-s2-lem-4-cor-4 .statement tag=002F}
 
 设 M 和 N 为半原始模。假设存在整数$d >0$使得$M^d$同构于$N^d$。则模 M 和 N 同构。
 
-设L为原初模。 By 假设, we have
+设L为原初模。到假设，我们已经
 
 $$
 d[M : L] =d[N : L]
 $$
 
-因此，我们有等式 [M : L] = [N : L]：事实上，对于每个无限基数 $\mathfrak{a}($集合理论，III, §6, No. 3，p. 188，推论 4），我们都有 $d\mathfrak{a}=\mathfrak{a}$。根据推论 1，模 M 和 N 同构。
+因此，我们有等式 [M : L] = [N : L]：事实上，对于每个无限基数 $\mathfrak{a}($集合理论、III, §6, No. 3、p. 188，我们都有 $d\mathfrak{a}=\mathfrak{a}$， 推论4)。 模 M 和 N 同构于推论 1。
 
 #### 推论 5 {#alg-viii-s2-lem-4-cor-5 .statement tag=002G}
 
@@ -360,23 +360,23 @@ $$
 
 a) 存在I的子集 J，使得$M_J$是子模对N的补充。
 
-b) 令 J 为 I 的子集。如果$M_J$是N的补集，则模N与$M_{I-J}$同构并且是半原初的。
+b) 令 J 为 I 的子集。如果$M_J$是N的补集，则模 N与$M_{I-J}$同构并且是半原初的。
 
-我们用指标 $i\in I$ 的 K 集合表示，使得 $N\cap M_i= 0$；让我们在 K 的基数上计算使用归纳法。如果 M = N，则推论很清楚。假设 $M\not= N$。设$p$为M与核N的投影算子。用P表示其像。它是非零的，并且由引理3，存在$j\in I$使得$p$诱导同构从P 的$M_j$ 到直因子子模。我们有$N\cap M_j= 0$。 集合$N'= N\oplus M_j$。我们有$N'= N\oplus p(M_j)$。 P 中对 $p(M_j)$ 的补充子模也对 M 中的$N'$ 进行补充，因此$N'$ 是 M 的直因子子模。指标 $i\in I$ 的集合使得$N'\cap M_i= 0$ 包含在 K $-\{j\}$ 中。到归纳假设，存在I的子集$J'$，使得$M_{J'}$是M中$N'$的子模补充。集合$J = J'\cup  \{j\}$。那么$M_J$是M中N的子模补充。
+我们用指标 $i\in I$ 的 K 集合表示，使得 $N\cap M_i= 0$；让我们在 K 的基数上计算使用归纳法。如果 M = N，则推论是明确的。假设$M\not= N$。令$p$为M与核N的投影算子。将其像用P表示。它是非零的，并且由引理3，存在$j\in I$使得$p$诱导 P的同构从$M_j$到直因子子模。我们有$N\cap M_j= 0$。 集合$N'= N\oplus M_j$。我们有$N'= N\oplus p(M_j)$。 P 中对 $p(M_j)$ 的补充子模也对 M 中的$N'$ 进行补充，因此 $N'$ 是 M 的直因子子模。 指标 $i\in I$ 的集合使得 $N'\cap M_i= 0$ 包含在 K 中$-\{j\}$。到归纳假设，存在I的子集$J'$，使得$M_{J'}$是M中子模对$N'$的补充。集合$J = J'\cup  \{j\}$。那么$M_J$是M中N的子模补充。
 
-令J为I的子集，使得$M_J$是N中M的子模补充。由于$M_J$也是$M_{I-J}$的补充，模N和$M_{I-J}$是同构的，并且N是半本初的。
+令J为I的子集，使得$M_J$是N中M的子模补充。由于$M_J$也是$M_{I-J}$的补充，模N和$M_{I-J}$是同构的，并且N是半原初的。
 
 #### 推论 6 {#alg-viii-s2-lem-4-cor-6 .statement tag=002H}
 
-每超过有限生成射影模超过局部环免费。[^2]
+每满有限生成射影模超过局部环免费。[^2]
 
-设A为局部环。 A-模 $A_s$ 是本初 (VIII, p. 31)。 如果 M 是有限生成射影 A-模，则存在 A-模 N 和自然数 $n$，使得 $M\oplus N$ 同构于 $A^n_s$（II, §2, No. 2，p. 232，推论 1）。 从推论 5 可以得出，对于整数 $m$，模 M 本身与 $A^m_s$ 同构，使得 $0\leqslant m\leqslant n$ 是自由的。
+设 A 为局部环。 A-模 $A_s$ 是原始的（VIII，p. 31）。如果 M 是有限生成射影 A-模，则存在 A-模 N 和自然数 $n$，使得 $M\oplus N$ 同构于 $A^n_s$ (II, §2, No. 2，p. 232，推论 1)。从推论 5 可以得出，对于整数 $m$，模 M 本身与 $A^m_s$ 同构，使得 $0\leqslant m\leqslant n$ 是自由的。
 
 #### 注 {#alg-viii-s2-n4-rem-1 .statement tag=002I}
 
-设 M 和 $M'$ 为半原初 A-模。 从VIII、p. 33的引理 4 立即可以得出，当且仅当我们对每个原初A-模L都有$[M': L]\leqslant [M : L]$时，$M'$同构于M的直因子子模。 特别地，如果L是原初A-模，[M : L]是基数$\mathfrak{a}$的最大的，其中存在与$L^{(\mathfrak{a})}$同构的M的直因子子模。
+设 M 和 $M'$ 为半原初 A-模。从VIII、p. 33的引理 4 立即可以得出，当且仅当我们对每个原初A-模L都有$[M': L]\leqslant [M : L]$时，$M'$同构于M的直因子子模。特别地，如果L是原初A-模，则[M：L]是基数$\mathfrak{a}$的最大的，其中存在与$L^{(\mathfrak{a})}$同构的M的直因子子模。
 
-因此，关系 [M : L] = 0 意味着不存在与 L 同构的 M 的直因子子模。这并不排除M同构于L的子模的存在；只需考虑例，其中 $A =\mathbf{Z}, L =\mathbf{Z}/2\mathbf{Z}$ 和 $M =\mathbf{Z}/4\mathbf{Z}:$，$\mathbf{Z}$-模块 L 和 M 是原始的且不是同构的，因此 [M : L] = 0 且 L 与子模同构M 的$2\mathbf{Z}/4\mathbf{Z}$。
+因此，关系 [M : L] = 0 意味着不存在与 L 同构的 M 的直因子子模。这并不排除M同构于L的子模的存在；考虑例就足够了，其中 $A =\mathbf{Z}, L =\mathbf{Z}/2\mathbf{Z}$ 和 $M =\mathbf{Z}/4\mathbf{Z}:$ $\mathbf{Z}$-模块 L 和 M 是原始的且不是同构的，因此 [M : L] = 0 和 L 同构于M 的子模$2\mathbf{Z}/4\mathbf{Z}$。
 
 ### 5. 有限长度模结构
 
@@ -384,7 +384,7 @@ b) 令 J 为 I 的子集。如果$M_J$是N的补集，则模N与$M_{I-J}$同构�
 
 设 A 为环，M 为有限长度的 A-模。
 
-a) 存在M 的不可分解子模的有限族$(M_i)_{i\in I}$，使得$M =\bigoplus_{i\in I}M_i$ 和模 M 是半原初的。
+a) M 存在不可分解子模的有限族$(M_i)_{i\in I}$，使得$M =\bigoplus_{i\in I}M_i$，并且模 M 是半原初的。
 
 b) 设$(M_i)_{i\in I}$和$(M'_j)_{j\in J}$是M的不可分解子模的两个有限族，使得$M =\bigoplus_{i\in I}M_i=\bigoplus_{j\in J}M'_j$。从I到J存在双射$\sigma$和M的自同构$u$，这样对于每个$i\in I$我们都有$u(M_i) = M'_{\sigma(i)}$。
 
@@ -402,7 +402,7 @@ e) 令 N 和 P 为 A-模或有限长度。如果模 $M\oplus P$ 和 $N\oplus P$ 
 
 a) 首先，假设代数$K'$在K上有有限次数$d$。则A-模$M_{(K')}$与$M^d$同构，A-模$N_{(K')}$与$N^d$同构，因此A-模 $M^d$ 和 $N^d$ 同构。由定理 2，d)，A-模 M 和 N 同构。
 
-b) 现在，假设 K-代数 $K'$ 是由有限多个元素生成的。 选择最大理想$\mathfrak{m}$为$K'$，以及集合$K''= K'/\mathfrak{m}$。通过希尔伯特零点定理（VIII，p. 462，定理 1的推论1）$, K''$是K的有限次扩张。通过从$K'$到$K''$的标量扩张，我们推出： $A_{(K')}$-线性同构 $M_{(K')}\rightarrow N_{(K')}$ $A_{(K'')}$-线性同构 $M_{(K'')}\rightarrow N_{(K'')}$。由证明的部分a)，A-模M和N是同构的。
+b) 现在，假设 K-代数 $K'$ 是由有限多个元素生成的。 选择最大理想$\mathfrak{m}$为$K'$，以及集合$K''= K'/\mathfrak{m}$。通过希尔伯特零点定理 (VIII, p. 462, 推论 1 of 定理 1)$, K''$ 是 K 的有限度扩张。通过 $K'$ 的标量的扩张到$K''$，我们从$A_{(K')}$-线性同构$M_{(K')}\rightarrow N_{(K')}$推出$A_{(K'')}$-线性同构$M_{(K'')}\rightarrow N_{(K'')}$。由证明的部分a)可知，A-模M和N是同构的。
 
 c) 最后，让我们处理一般情况。令$u: M_{(K')}\rightarrow N_{(K')}$为$A_{(K')}$模块和$v: N_{(K')}\rightarrow M_{(K')}$逆同构的同构。表示由有限多个元素生成的$K'$K-子代数$\mathscr{E}$集合。如果E是这样的子代数，则$A_{(E)}$与$A_{(K')}$的子环标识，并且$M_{(E)}$和$N_{(E)}$分别与$M_{(K')}$和$N_{(K')}$的$A_{(E)}$子模块标识（II, §7, No. 7， p. 306);此外，$M_{(K')}$和$N_{(K')}$分别是右向族$(M_{(E)})_{E\in\mathscr{E}}$和$(N_{(E)})_{E\in\mathscr{E}}$的并。 A-模 M 和 N 为有限长度，因此是有限生成的；令 S 为 A-模 M 的有限生成子集和 T 有限生成子集 A-模 N。存在 K-代数 $E\in \mathscr{E}$，这样我们对于每个 $s\in S$ 都有 $u(1\otimes s)\in N_{(E)}$ 并且每 $t\in T$ $v(1\otimes t)\in M_{(E)}$。根据线性关系，我们有 $u(M_{(E)})\subset N_{(E)}$ 和 $v(N_{(E)})\subset M_{(E)}$。 映射$u$和$v$，然后诱导逆双射从$M_{(E)}$到$N_{(E)}$以及从$N_{(E)}$到$M_{(E)}$。这些双射显然是 $A_{(E)}$ 线性的。因此，$A_{(E)}$-模块$M_{(E)}$和$N_{(E)}$是同构的。由证明的部分b)可知，A-模M和N是同构的。
 

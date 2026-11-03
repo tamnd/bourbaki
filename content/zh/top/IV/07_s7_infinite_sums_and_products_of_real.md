@@ -37,33 +37,33 @@ subsections:
       pdf_page: 376
 statements: 20
 exercises: 22
-content_sha256: 40f28f8f81955bafc05064d49aa7c78ff0b6c4930a58a8ff36ae0809d64da574
+content_sha256: 774d94f9c6712c957ad20bc0927c6389a6742b6b9e128e31b8c79b533867191a
 translated_from: content/en/top/IV/07_s7_infinite_sums_and_products_of_real.md
 translation_method: google
 source_content_sha256: 455d0ffdcd364c6ed9f0b7d02c710c2c2c96a2ff460df4ccbbd8a2f0e2e71d59
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f5de6764c804278321e4064c2a2425ed385b6791bb65ac77bffd615a0ad25e8c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 7. 实数的无限和和乘积
 
-由于$\mathbf{R}$的每个点都有邻域的*可数*基本系统（§ 1, no. 4，命题3的推论），因此，只有当*有限*实数的族$(x_t)$在$\mathbf{R}$中可求和时， 集合的指标 t，使得 $x_t \neq 0$ 是*可数*（章 III, § 5, no. 2，命题 1 的推论）。 $\mathbf{R}$中可求和族的研究因此约化本质上是对可求和*序列*的研究。然而，我们稍后必须考虑有限实数的不可数族$(x_t)$，其项是参数$t$的函数；有可能这个族对于所有 $t$ 都是可求和的，但是指标 $i$ 的（可数）集合使得 $x_i \neq 0$ 依赖于 $t$。因此，下文中我们不会对指标集合中的幂强加任何假设。
+由于$\mathbf{R}$的每个点都有邻域的*可数*基数系统（§ 1, no. 4，推论到命题3），因此*有限*实数的族$(x_t)$可求和为$\mathbf{R}$ 仅当指标 t 的集合使得 $x_t \neq 0$ 是*可数*（章 III, § 5, no. 2、推论到命题 1）。 $\mathbf{R}$中可求和族的研究因而约化本质上是对可求和*序列*的研究。然而，我们稍后必须考虑有限实数的不可数族$(x_t)$，其项是参数$t$的函数；有可能这个族对于所有 $t$ 都是可求和的，但是指标 $i$ 的（可数）集合使得 $x_i \neq 0$ 取决于 $t$。因此，在下文中，我们不会对指标集合中的幂强加任何假设。
 
 ### 1. 可在 $\mathbf{R}$ 中求和的正有限族数
 
 #### 定理 1 {#top-iv-s7-thm-1 .statement tag=0BT9}
 
-*族* $(x_i)$ *有限实数* $\geqslant 0$ *可求和于* $\mathbf{R}$ *当且仅当族的部分有限和的集合上界于* $\mathbf{R}$。 *如果是这样，这个集合中最小的上界就是家庭的和*$(x_i)$。
+*族* $(x_i)$ *有限实数* $\geqslant 0$ *可求和于* $\mathbf{R}$ *当且仅当族的部分有限和的集合上界于* $\mathbf{R}$。 *如果是这样，这个集合中最小的上界是家庭的和*$(x_i)$。
 
-对于指标集合 $I$ 中的每一个有限子集 $H$，设 $s_H = \sum_{i \in H} x_i$；由于$x_i$是$\geqslant 0$，关系$H \subset H'$意味着$s_H \leqslant s_{H'}$。在其他字中，映射$H \to s_H$是$I$的有限子集的有向集合$\mathfrak{F}(I)$*递增*函数；因此（§ 5, no. 2，定理2的推论）当且仅当它*有界*时，它才有有限的极限。
+对于指标集合 $I$ 中的每一个有限子集 $H$，设 $s_H = \sum_{i \in H} x_i$；由于$x_i$是$\geqslant 0$，关系$H \subset H'$意味着$s_H \leqslant s_{H'}$。在其他字中，映射$H \to s_H$是$I$的有限子集的有向集合$\mathfrak{F}(I)$上的*递增*函数；因此（§ 5, no. 2，推论到定理2）当且仅当它*有界*时，它才有有限的极限。
 
 #### 注 {#top-iv-s7-n1-rem-1 .statement tag=0BTA}
 
-令$(H_\lambda)$为$I$的有限子集的族，使得对于$I$的每个有限子集$H$，有指标$\lambda$使得$H \subset H_\lambda$；那么 $(x_i)$ 是可求和的当且仅当 $s_{H_\lambda}$ 的族在 $\mathbf{R}$ 中*上界*。特别地，令$(x_n)$为有限实数$\geqslant 0$的序列，并且对于每个整数$n$令$s_n = \sum_{p=0}^n x_p$；那么序列 $(x_n)$ 在 $\mathbf{R}$ 中可求和当且仅当，对于严格递增的整数 $(n_k)$ 的*一个序列*，部分序列 $(s_{n_k})$ 的*上界*为$\mathbf{R}$。
+令$(H_\lambda)$是$I$的有限子集的族，使得对于$I$的每个有限子集$H$，有指标$\lambda$使得$H \subset H_\lambda$；那么 $(x_i)$ 是可求和的当且仅当 $s_{H_\lambda}$ 的族在 $\mathbf{R}$ 中*上界*。特别地，令$(x_n)$为有限实数$\geqslant 0$的序列，并且对于每个整数$n$令$s_n = \sum_{p=0}^n x_p$；那么序列 $(x_n)$ 在 $\mathbf{R}$ 中可求和当且仅当，对于严格递增的整数 $(n_k)$ 的*一个序列*，部分序列 $(s_{n_k})$ 的*上界*为$\mathbf{R}$。
 
 #### 例 {#top-iv-s7-n1-exa-4 .statement tag=0EAD}
 
@@ -73,7 +73,7 @@ s_n = \frac{1 - q^{n+1}}{1 - q} \leqslant \frac{1}{1 - q}
 $$
 这个序列中的和是$\lim_{n \to \infty} s_n = \frac{1}{1 - q}$。
 
-2) 设$a$和$b$是两个数，使得$0 \leqslant a < 1$和$0 \leqslant b < 1$；那么族$(a^m b^n)_{(m, n) \in \mathbf{N} \times \mathbf{N}}$可在$\mathbf{R}$中求和。对于$\mathbf{N} \times \mathbf{N}$的每个有限子集都包含在形式$[0, p] \times [0, p]$的子集中，我们有
+2) 令$a$和$b$为两个数，使得$0 \leqslant a < 1$和$0 \leqslant b < 1$；那么族$(a^m b^n)_{(m, n) \in \mathbf{N} \times \mathbf{N}}$可在$\mathbf{R}$中求和。对于$\mathbf{N} \times \mathbf{N}$的每个有限子集都包含在形式$[0, p] \times [0, p]$的子集中，我们有
 $$
 \sum_{m=0}^p \sum_{n=0}^p a^m b^n = \left( \sum_{m=0}^p a^m \right) \left( \sum_{n=0}^p b^n \right) = \frac{1 - a^{p+1}}{1 - a} \cdot \frac{1 - b^{p+1}}{1 - b} \leqslant \frac{1}{(1 - a)(1 - b)}.
 $$
@@ -97,22 +97,22 @@ s_{2^n} > n/2
 $$
 从而不满足定理 1 的标准。
 
-5) 设$(I_n)$为互为不相交的非空开区间的序列，所有开区间都包含在有限长度$l$区间内。该族的有限区间数的长度和为$\leq l$($§ 1$，no. 5)，因此$I_n$的长度族可在$\mathbf{R}$中求和，其和为$\leq l$。
+5) 令$(I_n)$为不相交的非空开区间的序列，全部包含在有限长度$l$的区间中。该族的区间的有限数的长度和是$\leq l$($§ 1$，no. 5)，因此$I_n$的长度的族可在$\mathbf{R}$中求和，并且其和是 $\leq l$。
 
 #### 定理 2（比较的原理）{#top-iv-s7-thm-2 .statement tag=0BTB}
 
-*让*$(x_i)_{i \in I}$*和*$(y_i)_{i \in I}$*成为有限实数*$\geq 0$的两个族，*使得*$x_i \leq y_i$*对于所有*$i$。 *如果* $(y_i)$ *可求和于* $\mathbf{R}$ *那么也可以* $(x_i)$，*我们有* $\sum_i x_i \leq \sum_i y_i$； *如果在加法中有指标*$x$*使得*$x_x < y_x$，*那么*$\sum_i x_i < \sum_i y_i$。
+*让*$(x_i)_{i \in I}$*和*$(y_i)_{i \in I}$*成为有限实数*$\geq 0$的两个族，*使得*$x_i \leq y_i$*对于所有*$i$。 *如果* $(y_i)$ *可求和于* $\mathbf{R}$ *则* $(x_i)$ 也是如此，*我们有* $\sum_i x_i \leq \sum_i y_i$； *如果在加法中有指标*$x$*使得*$x_x < y_x$，*那么*$\sum_i x_i < \sum_i y_i$。
 
 假设意味着，
 $$
 \sum_{i \in H} x_i \leq \sum_{i \in H} y_i,
 $$
-for every 有限子集 $H$ of $I$ and the first 部分 of 定理 follows from this; 不等式 relating 和 follows from 原理 of 扩张 of inequalities ($§ 5$, no. 2, 定理 1).如果$x_x < y_x$，那么
+对于$I$的每一个有限子集$H$和定理的第一个部分由此得出；与和有关的不等式是从不等式的扩张中的原理得出的（$§ 5$，no. 2，定理1）。如果$x_x < y_x$，那么
 $$
 \sum_i x_i = x_x + \sum_{i \neq x} x_i < y_x + \sum_{i \neq x} y_i = \sum_i y_i.
 $$
 
-这个定理提供了最常用的标准来决定实数$\geq 0$的序列$(x_n)$在$\mathbf{R}$中是否可求和：我们尝试将给定的序列与一个更简单的序列$(y_n)$进行“比较”，其中我们已经知道它是否可求和。 如果存在有限的数$a > 0$，使得$x_n \leq a y_n$对于从某个点开始的所有$n$来说，并且如果$(y_n)$是可求和的，则$(x_n)$是可求和的；另一方面，如果存在有限的数$b > 0$，使得$x_n \geq b y_n$对于从某个点开始的所有$n$，并且如果$(y_n)$在$\mathbf{R}$中不可求和，则$(x_n)$在$\mathbf{R}$中不可求和。 我们将在后面的卷中看到如何在最常出现的情况下获得这种比较序列。
+这个定理提供了最常用的标准来决定实数$\geq 0$的序列$(x_n)$是否可以在$\mathbf{R}$中求和：我们尝试将给定的序列与一个更简单的序列$(y_n)$进行“比较”，其中我们已经知道它是否可求和。如果存在有限的数$a > 0$，使得$x_n \leq a y_n$对于从某个点开始的所有$n$，并且如果$(y_n)$是可求和的，则$(x_n)$是可求和的；另一方面，如果存在有限数 $b > 0$，使得从某个点开始的所有 $n$ 都有 $x_n \geq b y_n$，并且如果 $(y_n)$ 在 $\mathbf{R}$ 中不可求和，则 $(x_n)$ 在$\mathbf{R}$。我们将在后面的卷中看到如何在最常出现的情况下获得这种比较序列。
 
 #### 例 1 {#top-iv-s7-n1-exa-1 .statement tag=0BTC}
 
@@ -138,19 +138,19 @@ $$
 $$
 因而，族 $\left( \frac{1}{a^m + b^n} \right)$ 可在 $\mathbf{R}$ 中求和。
 
-#### 推论{#top-iv-s7-n1-cor-1 .statement tag=0BTF}
+#### 推论 {#top-iv-s7-n1-cor-1 .statement tag=0BTF}
 
 *设* $(x_i)_{i \in I}$ *为有限数* $\geq 0$ *在* $\mathbf{R}$ 中的可求和族。 *如果*$H$*是*$I$中的任何子集，*我们有*
 $$
 \sum_{i \in H} x_i \leq \sum_{i \in I} x_i,
 $$
-*并且等式仅在*$x_i = 0$*对于所有*$i \in \complement H$成立。
+*并且等式仅在*$x_i = 0$*对于所有*$i \in \complement H$时成立。
 
 ### 2. 可在 $\mathbf{R}$ 中求和的任意符号的有限数族
 
 #### 定理 3 {#top-iv-s7-thm-3 .statement tag=0BTG}
 
-*设* $(x_i)_{i \in I}$ *为有限族实数；那么下面的叙述是等价的*：
+*设* $(x_i)_{i \in I}$ *为有限实数族；那么下面的叙述是等价的*：
 
 a) *家庭* $(x_i)$ *可总结为* $\mathbf{R}$。
 b) *家庭* $(|x_i|)$ *可总结为* $\mathbf{R}$。
@@ -162,7 +162,7 @@ c) 族的有限部分和的*集合*$(x_i)$*限制在*$\mathbf{R}$。
 
 我们回想一下（章III, § 5, no. 5，命题6），如果$(x_i)$和$(y_i)$是有限实数的两个可求和族，那么$(x_i + y_i)$族是可求和的并且$\sum (x_i + y_i) = \sum x_i + \sum y_i$。此外，如果$(x_i)$是有限实数的可和族，并且$a$是任何有限实数，则$(ax_i)$族在$\mathbf{R}$中可求和，并且我们有$\sum ax_i = a \cdot \sum x_i$。
 
-### 3. 两个无穷乘积和
+### 3. 两个无穷和的乘积
 
 #### 命题 1 {#top-iv-s7-prop-1 .statement tag=0BTH}
 
@@ -201,7 +201,7 @@ $$
 \prod_{i=1}^p (1 - a_i) \geq 1 - \sum_{i=1}^p a_i.
 $$
 
-如果$p = 1$，这些不等式是明确的，并由$p$上的归纳证明。如果
+这些不等式在 $p = 1$ 时是明确的，并由 $p$ 上的归纳证明。如果
 $$
 \prod_{i=1}^{p-1} (1 + a_i) \geq 1 + \sum_{i=1}^{p-1} a_i,
 $$
@@ -209,7 +209,7 @@ $$
 $$
 \prod_{i=1}^p (1 + a_i) \geq (1 + a_p) \left( 1 + \sum_{i=1}^{p-1} a_i \right) = 1 + \sum_{i=1}^p a_i + a_p \cdot \sum_{i=1}^{p-1} a_i \geq 1 + \sum_{i=1}^p a_i.
 $$
-再说一次，如果
+再说一遍，如果
 $$
 \prod_{i=1}^{p-1} (1 - a_i) \geq 1 - \sum_{i=1}^{p-1} a_i,
 $$
@@ -218,11 +218,11 @@ $$
 \prod_{i=1}^p (1 - a_i) \geq (1 - a_p) \left( 1 - \sum_{i=1}^{p-1} a_i \right) = 1 - \sum_{i=1}^p a_i + a_p \cdot \sum_{i=1}^{p-1} a_i \geq 1 - \sum_{i=1}^p a_i.
 $$
 
-证明引理后，我们注如果族$(1 + u_i)$是可乘的，那么族$(1 + u_i^+)$和$(1 - u_i^-)$也是可乘的，因为$\mathbf{R}^*$是完整的群（章III, § 5, no. 3，命题2）；相反，如果族$(1 + u_i^+)$和$(1 - u_i^-)$是可乘的，那么$(1 + u_i)$也是可乘的（章III, § 5, no. 3，命题3）。因此，我们只需要考虑所有$u_i$都是$\geq 0$以及它们都是$\geq 0$的情况。
+证明引理后，我们注意到，如果族$(1 + u_i)$是可乘的，那么$(1 + u_i^+)$和$(1 - u_i^-)$也是可乘的，因为$\mathbf{R}^*$是完整的群（章III, § 5, no. 3，命题2）；相反，如果族$(1 + u_i^+)$和$(1 - u_i^-)$是可乘的，那么$(1 + u_i)$也是可乘的（章III, § 5, no. 3，命题3）。因此，我们只需要考虑所有$u_i$都是$\geq 0$以及它们都是$\geq 0$的情况。
 
-首先假设 $u_i \geq 0$ 对于所有$i$。如果族$(1 + u_i)$是可乘的，那么对于每个$\varepsilon > 0$，$I$中有指标集合的有限子集$J$，这样，对于$I$不相交的的每个有限子集$H$ $J$，我们有$1 \leq \prod_{i \in H} (1 + u_i) \leq 1 + \varepsilon$；由(2)得出$\sum_{i \in H} u_i \leq \varepsilon$，这表明根据柯西准则(章III, § 5, no. 2，定理1)，$(u_i)$可在$\mathbf{R}$中求和。
+首先假设 $u_i \geq 0$ 代表所有 $i$。如果族$(1 + u_i)$是可乘的，那么对于每个$\varepsilon > 0$，$I$中有指标集合的有限子集$J$，这样，对于$I$的每个有限子集$H$ 不相交的从$J$，我们有$1 \leq \prod_{i \in H} (1 + u_i) \leq 1 + \varepsilon$；由(2)得出$\sum_{i \in H} u_i \leq \varepsilon$，这表明根据柯西准则(章III, § 5, no. 2，定理1)，$(u_i)$可在$\mathbf{R}$中求和。
 
-相反，假设 $(u_i)$ 可在 $\mathbf{R}$ 中求和。对于每个$\varepsilon$，使得$0 < \varepsilon < 1$，有$I$的有限子集$J$，这样，对于来自$J$的$I$不相交的的每个有限子集$H$，我们有$0 \leq \sum_{i \in H} u_i \leq \varepsilon$。根据(3)，我们有 $\prod_{i \in H} (1 - u_i) \geq 1 - \varepsilon$；但由于$1 + u \leq \frac{1}{1 - u}$对于每个数$u$使得$0 \leq u < 1$，因此
+相反，假设 $(u_i)$ 可在 $\mathbf{R}$ 中求和。对于每个$\varepsilon$，使得$0 < \varepsilon < 1$，存在$I$的有限子集$J$，这样，对于来自$J$的$I$不相交的的每个有限子集$H$，我们有$0 \leq \sum_{i \in H} u_i \leq \varepsilon$。根据(3)，我们有 $\prod_{i \in H} (1 - u_i) \geq 1 - \varepsilon$；但由于 $1 + u \leq \frac{1}{1 - u}$ 对于每个数 $u$ 使得$0 \leq u < 1$，因此
 
 $$
 1 \leq \prod_{i \in H} (1 + u_i) \leq \frac{1}{1 - \varepsilon},
@@ -230,13 +230,13 @@ $$
 
 这表明 $(1 + u_i)$ 是可乘的（柯西准则）。
 
-当所有$u_i$都是$\leq 0$时，证明类似。要证明如果 $(1 + u_i)$ 可乘，$(u_i)$ 是可求和的，请使用公式 (2) 和不等式 $1 - u \leq \frac{1}{1 + u}$ ($0 \leq u < 1$)；要证明如果 $(u_i)$ 可求和，$(1 + u_i)$ 是可乘的，请使用公式 (3)。
+当所有 $u_i$ 都是 $\leq 0$ 时，证明类似。要证明如果 $(1 + u_i)$ 可乘，$(u_i)$ 可求和，请使用公式 (2) 和不等式 $1 - u \leq \frac{1}{1 + u}$ ($0 \leq u < 1$)；要证明如果 $(u_i)$ 可求和，$(1 + u_i)$ 是可乘的，请使用公式 (3)。
 
 在章V（§ 4）中，群$\mathbf{R}^*$的拓扑研究将使我们能够借助对数函数给出$\mathbf{R}^*$中族可乘性的另一个准则；在下一卷中，我们将利用对数的微分性质，将这一标准与上述标准建立等价。
 
 ### 5. $\overline{\mathbf{R}}$ 中的可求族和可乘族
 
-在$\overline{\mathbf{R}}$的区间$[0, + \infty]$上，加法是合成(§ 4, no. 3)的结合律和交换律律；因此，在此区间内定义了数的*可求和*族的概念（章III, § 5, no. 1，注3）。
+在 $\overline{\mathbf{R}}$ 的区间 $[0, + \infty]$ 上，加法是合成 (§ 4, no. 3) 的结合律和交换律律；因此，区间中的数的*可求和*族的概念被定义（章III, § 5, no. 1，注3）。
 
 #### 命题 2 {#top-iv-s7-prop-2 .statement tag=0BTK}
 
@@ -246,7 +246,7 @@ $$
 
 同样的推理表明实数$\leq 0$的每个族都可以在$\overline{\mathbf{R}}$中求和。
 
-类似地，乘法是合成在 $[0, 1]$ 和 $[1, + \infty]$ $\overline{\mathbf{R}}$ 上的结合律和交换律律，因此可乘族的概念是在这些间隔中的每一个上定义的。
+类似地，乘法是区间$[0, 1]$和$\overline{\mathbf{R}}$的$[1, + \infty]$上的合成的结合律和交换律律，因此可乘族的概念定义在这些区间上。
 
 #### 命题 3 {#top-iv-s7-prop-3 .statement tag=0BTL}
 
@@ -260,15 +260,15 @@ $$
 
 因为如果 $\sum u_i$ 是有限的，则 $\prod (1 + u_i)$ 和 $\prod (1 - u_i)$ 在 $\mathbf{R}^*$ 中，反之亦然（no. 4，定理 4）。
 
-#### 注{#top-iv-s7-n5-rem-1 .statement tag=0BTN}
+#### 注 {#top-iv-s7-n5-rem-1 .statement tag=0BTN}
 
-当 G 被 $\overline{\mathbf{R}}$ 替换并且假设 $x_i$ 为 $\geq 0$ 时，结合性的定理（章 III, § 5, no. 3，定理 2）仍然有效。如果 $\sum_{i \in I} x_i$ 是有限的，这很清楚。相反，假设$\sum_{i \in I} x_i = + \infty$。那么对于每个有限的$a > 0$，都有I的有限子集 H，使得$\sum_{i \in H} x_i \geq a$。令 K 为 L 的有限子集，使得 $H \subset \bigcup_{\lambda \in K} I_\lambda$；那么从$s_\lambda \geq \sum_{i \in I_\lambda \cap H} x_i$开始，对于所有$\lambda \in K$，我们有
+当 G 被 $\overline{\mathbf{R}}$ 替换并且假设 $x_i$ 为 $\geq 0$ 时，结合性 (章 III, § 5, no. 3、定理 2) 的定理仍然有效。如果 $\sum_{i \in I} x_i$ 是有限的，这很清楚。相反，假设$\sum_{i \in I} x_i = + \infty$。那么对于每个有限的$a > 0$，都有I的有限子集 H，使得$\sum_{i \in H} x_i \geq a$。令 K 为 L 的有限子集，使得 $H \subset \bigcup_{\lambda \in K} I_\lambda$；那么从$s_\lambda \geq \sum_{i \in I_\lambda \cap H} x_i$开始，对于所有$\lambda \in K$，我们有
 $$
 \sum_{\lambda \in K} s_\lambda \geq \sum_{i \in H} x_i \geq a,
 $$
 这表明$\sum_{\lambda \in L} s_\lambda = + \infty$。我们留给读者的任务是在$[0, 1]$或$[1, + \infty]$中为数的可乘族制定类似的命题。
 
-### 6. 无限级数和无限乘积实数
+### 6. 级数和实数的无限乘积
 
 有限实数的级数如果在$\mathbf{R}$收敛，则简单地说是收敛的。
 
@@ -282,7 +282,7 @@ $$
 
 这是从章 III, § 5, no. 7、命题 9 和定理 3 of no. 2 得出的。
 
-在其他字中，如果$(u_n)$是有限实数的序列，那么说级数其一般项是$u_n$交换收敛，或者绝对收敛，或者序列是同样的事情$(u_n)$ 可在 $\mathbf{R}$ 中求和。因此，章III, § 5证明的可求和族的所有性质都适用于绝对收敛级数。特别地，如果项为 $u_n$ 的级数绝对收敛，则和$\sum_{n \in H} u_n$对于$\mathbf{N}$的所有子集$H$都存在；并且，如果 $(H_p)$ 是 $\mathbf{N}$ 的划分，我们有
+在其他字中，如果$(u_n)$是有限实数的序列，那么说级数（其一般项是$u_n$）是交换收敛的，或者说它是绝对收敛的，或者说序列是同样的事情$(u_n)$ 可在 $\mathbf{R}$ 中求和。因此，章III, § 5证明的可求和族的所有性质都适用于绝对收敛级数。特别是，如果项为 $u_n$ 的级数绝对收敛，则对于 $\mathbf{N}$ 的所有子集 $H$ 都存在和 $\sum_{n \in H} u_n$；并且，如果 $(H_p)$ 是 $\mathbf{N}$ 的划分，我们有
 $$
 \sum_{n=0}^{\infty} u_n = \sum_p \left( \sum_{n \in H_p} u_n \right)
 $$
@@ -292,7 +292,7 @@ $$
 
 #### 例 {#top-iv-s7-n6-exa-1 .statement tag=0BTQ}
 
-*交错的级数。*由有限实数的序列$(u_n)$定义的级数称为*交错的*如果$u_n = (-1)^n v_n$，其中$v_n \geq 0$对于所有$n$。让我们证明，对于此类级数的收敛来说，*足够* 条件是 *序列* $(v_n)$ *减少并具有* 0 *作为其极限*。对于如果 $s_n$ 表示
+*交错的级数。* 级数由有限实数的序列 $(u_n)$ 定义，如果$u_n = (-1)^n v_n$，则称为 *交错的*，其中 $v_n \geq 0$ 对于所有 $n$。让我们证明，对于此类级数的收敛来说，*足够* 条件是 *序列* $(v_n)$ *减少并具有* 0 *作为其极限*。对于如果 $s_n$ 表示
 $$
 \sum_{p=0}^{n} u_p,
 $$
@@ -300,29 +300,29 @@ $$
 $$
 s_{2n+1} \leq s_{2n+3} \leq s_{2n+2} \leq s_{2n}
 $$
-对于所有$n \geq 0$。 序列 $(s_{2n})$ [分别。 $(s_{2n+1})$] 是递减且有界于下（分别为递增且有界于上），因此具有有限的极限 $a$（分别为 $b$）和 $b \leq a$；自从
+对于所有$n \geq 0$。 序列 $(s_{2n})$ [分别。 $(s_{2n+1})$] 是递减且有界于下方（分别为递增且界于上方），因此具有有限的极限 $a$（分别为 $b$）和 $b \leq a$；自从
 $$
 a - b = \lim_{n \to \infty} (s_{2n} - s_{2n+1}) = \lim_{n \to \infty} v_{2n+1} = 0,
 $$
 断言得证。
 
-如果我们取例$v_n = 1/n$，则满足上面的条件，因此级数其通项为$(-1)^n / n$（“交错的谐波级数”）是收敛的。我们在no. 1中看到，级数的通项为$1/n$（“调和级数”）是不收敛的，因此交错的调和级数不是绝对收敛的。
+如果以$v_n = 1/n$为例，则满足上述条件，因此通项为$(-1)^n / n$（“交错的调和级数”）的级数是收敛的。我们在no. 1中看到，级数的通项为$1/n$（“调和级数”）并不收敛，因此交错的调和级数也不是绝对收敛的。
 
-我们回想一下（章III, § 5, no. 6，命题7），如果$(u_n)$和$(v_n)$是有限实数的两个收敛的级数，那么级数$(u_n + v_n)$是收敛的，并且
+我们回想一下（章III, § 5, no. 6，命题7），如果$(u_n)$和$(v_n)$是有限实数的两个收敛级数，则级数$(u_n + v_n)$收敛，并且
 $$
 \sum_{n=0}^{\infty} (u_n + v_n) = \sum_{n=0}^{\infty} u_n + \sum_{n=0}^{\infty} v_n;
 $$
 另外，如果级数 $(u_n)$ 收敛，则级数 $(au_n)$ 对于所有有限实数 $a$ 和 $\sum_{n=0}^{\infty} au_n = a \cdot \sum_{n=0}^{\infty} u_n$ 是收敛的。
 
-最后，如果级数 $(u_n)$ 和 $(v_n)$ 收敛，并且如果 $u_n \leq v_n$ 对于所有 $n$，则我们有 $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ × 原理的扩张不等式 (§ 5, no. 2, 定理) 1）。
+最后，如果级数 $(u_n)$ 和 $(v_n)$ 收敛，并且如果 $u_n \leq v_n$ 对于所有 $n$，则我们有 $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ × 原理的扩张不等式（§ 5, no. 2，定理 1）。
 
-需要注意的是，如果我们假设级数$(v_n)$收敛但不是绝对收敛，并且如果$|u_n| \leq |v_n|$对于每个$n$，我们绝不能推断级数$(u_n)$是收敛的，正如取$u_n = |v_n|$所见。
+需要注意的是，如果我们假设级数$(v_n)$收敛但不是绝对收敛，并且如果$|u_n| \leq |v_n|$对于每个$n$，我们绝不能推断级数$(u_n)$是收敛的，如取$u_n = |v_n|$所示。
 
-有限非零实数的无限乘积如果收敛于 $\mathbf{R}^*$，则简单地说它是收敛的；那么它的值就是一个有限的非零实数。
+有限非零实数的无限乘积如果在 $\mathbf{R}^*$ 收敛，则简单地说它是收敛的；那么它的值就是一个有限的非零实数。
 
 #### 定义 2 {#top-iv-s7-def-2 .statement tag=0BTR}
 
-*如果一般因子为$1 + |u_n|$的乘积收敛，则称其广义因子为$1 + u_n$的无穷乘积绝对收敛。*
+*如果广义因子为$1 + |u_n|$的乘积收敛，则称其广义因子为$1 + u_n$的无穷乘积绝对收敛。*
 
 #### 命题 5 {#top-iv-s7-prop-5 .statement tag=0BTS}
 
@@ -330,13 +330,13 @@ $$
 
 这是从上面的章 III, § 5, no. 7、命题 9 和定理 4 得出的。
 
-此外，当且仅当一般因子为 $1 + u_n$ 的乘积 *绝对收敛*，当且仅当项为 $u_n$ 的级数 *绝对收敛*。
+此外，当且仅当其一般因子为$1 + u_n$的乘积*绝对收敛*，当且仅当其一般项为$u_n$的级数*绝对收敛*。
 
 非零实数的乘积可以收敛，但不可交换收敛，即不绝对收敛。
 
 #### 例 {#top-iv-s7-n6-exa-2 .statement tag=0BTT}
 
-如果我们对$n \geq 2$取$u_{2n-1} = -1/n$和$u_{2n} = 1/n$，则乘积$(1 + u_n)$不是绝对收敛的，因为级数$(u_n)$不是绝对收敛的；但自从
+如果我们取$u_{2n-1} = -1/n$和$u_{2n} = 1/n$作为$n \geq 2$，则乘积$(1 + u_n)$不是绝对收敛的，因为级数$(u_n)$不是绝对收敛的；但自从
 
 $$
 \prod_{p=3}^{n} (1 + u_p) = \prod_{p=2}^{n} \left(1 - \frac{1}{p^2}\right),
@@ -350,7 +350,7 @@ $$
 \prod_{n=2}^{\infty} \left(1 - \frac{1}{n^2}\right).
 $$
 
-此外，应该观察到，一般项为$u_n$的级数的*收敛*对于其一般因子为$1 + u_n$的乘积的*收敛*既不是必要的，也不是充分的（见习题21和22）。
+此外，应该观察到，一般项为$u_n$的级数的*收敛*对于一般因子为$1 + u_n$的乘积的*收敛*既不是必要的，也不是充分的（见习题21和22）。
 
 ### 习题{#top-iv-s7-exercises}
 

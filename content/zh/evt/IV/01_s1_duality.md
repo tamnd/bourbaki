@@ -32,16 +32,16 @@ subsections:
       pdf_page: 193
 statements: 36
 exercises: 25
-content_sha256: 0b218a5ac7362a133fa6a16ebec5fa5e2c6d1fd09f5556272ca8465b6c93682d
+content_sha256: a9f3debc9c7b903bf33bc732f75c62a94cd08e8c166efdeb9eb5ac4f99eedb88
 translated_from: content/en/evt/IV/01_s1_duality.md
 translation_method: google
 source_content_sha256: b7f26d454273886007de38188e9c263540c6eccc68705afe146cbdcbcc0c7806
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5d11a435a5b5d0cdf7402fee74413ba4d4de1db0694931e4dba6dc8006bd285c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。二元性
@@ -120,7 +120,7 @@ F 的每个元素对于$\sigma(E, F)$来说都是连续的映射，因此对于$
 
 令E上的$\mathscr{T}$为拓扑，并兼容E和F之间的对偶性。则$\mathscr{T}$比$\tau(E, F)$粗引理2，显然$\mathscr{T}$比$\sigma(E, F)$粗更细。相反，对于拓扑 $\tau(E, F)$ (引理 1) 和拓扑 $\sigma(E, F)$ (II, p. 43，命题 3)，F 是 E 的对偶，因此对于$\tau(E, F)$ 和 $\sigma(E, F)$ 之间的每个拓扑也是如此。
 
-#### 推出{#evt-iv-s1-n1-cor-1 .statement tag=07QP}
+#### 推出 {#evt-iv-s1-n1-cor-1 .statement tag=07QP}
 
 *设 p 为 E 上的半范数。以下条件是等价的：*
 
@@ -173,7 +173,7 @@ c) 拓扑 $\tau(E, E')$，称为 E 上的 *Mackey 拓扑*。
 
 #### 命题 2 {#evt-iv-s1-prop-2 .statement tag=07QT}
 
-*设 E 为局部凸空间，并设 A 为 E 的凸子集（对于 E 的例、向量子空间）。 A 的闭包对于 E 的初始拓扑和弱化的拓扑是相同的。*
+*令 E 为局部凸空间，并令 A 为 E 的凸子集（例如，E 的向量子空间）。 A 的闭包对于 E 的初始拓扑和弱化的拓扑是相同的。*
 
 #### 注 1 {#evt-iv-s1-n2-rem-1 .statement tag=07QU}
 
@@ -181,7 +181,7 @@ c) 拓扑 $\tau(E, E')$，称为 E 上的 *Mackey 拓扑*。
 
 #### 注 2 {#evt-iv-s1-n2-rem-2 .statement tag=07QV}
 
-令$\mathscr{T}_1$和$\mathscr{T}_2$是E上的两个局部凸拓扑，与E和$E'$之间的对偶性兼容，$\mathscr{T}_1$是更细比$\mathscr{T}_2$。然后 $\mathscr{T}_1$ 的每个邻域为 0，对于 $\mathscr{T}_1$ 来说是凸且封闭的，通过 prop，对于 $\mathscr{T}_2$ 来说也是封闭的。 1 个IV、p. 1。因而（GT，II, § 3, No. 3，推论）E 的每个子集对于$\mathscr{T}_2$来说是完整的，对于$\mathscr{T}_1$也是如此。
+令$\mathscr{T}_1$和$\mathscr{T}_2$是E上的两个局部凸拓扑，与E和$E'$之间的对偶性兼容，$\mathscr{T}_1$是更细比$\mathscr{T}_2$。然后 $\mathscr{T}_1$ 的每个邻域为 0，对于 $\mathscr{T}_1$ 来说是凸且封闭的，通过 prop，对于 $\mathscr{T}_2$ 来说也是封闭的。 1 个IV、p. 1。因而，(GT, II, § 3, No. 3, 推论) E 的每个子集对于 $\mathscr{T}_2$ 来说都是完整的，对于 $\mathscr{T}_1$ 也是如此。
 
 特别是，对于弱化的拓扑来说，E的每个子集对于初始拓扑来说是完整的，对于初始拓扑来说，E的每个子集对于Mackey拓扑来说也是如此。如果 E 对于弱化的拓扑是准完备的，那么对于每个与 ​​E 和 $E'$ 之间的对偶性兼容的拓扑也是如此。如果说初始拓扑是准完整的，那么Mackey拓扑也是如此。
 
@@ -205,9 +205,9 @@ c) 拓扑 $\tau(E, E')$，称为 E 上的 *Mackey 拓扑*。
 
 a) E 是桶装的；
 b) E 是出生学的；
-c) E 是可计量的。
+c) E 是可度量的。
 
-我们注首先E上的Mackey拓扑与初始拓扑相同当且仅当$E'$的每个凸子集对于$\sigma(E', E)$来说是紧致的，是等连续的。如果 E 被桶装，情况肯定是这样（III，p. 24，推论）。
+我们首先注意到，E 上的 Mackey 拓扑与初始拓扑相同，当且仅当 $E'$ 的每个凸子集（对于 $\sigma(E', E)$ 来说是紧致的）是等连续的。如果 E 是桶装的（III、p. 24、推论），情况肯定是这样。
 
 假设E是天生的；令 V 为 E 中拓扑 $\tau(E, E')$ 的凸且平衡的邻域为 0。设 B 为 E 的子集，以初始拓扑为界。由于 B 以 Mackey 拓扑为界，V 吸收 B，并且由于 E 是出生学的，因此对于初始拓扑，V 是 0 的邻域。
 
@@ -231,7 +231,7 @@ $E_2$的向量子空间对于初始拓扑来说是稠密的，当且仅当它对
 
 #### 命题 6 {#evt-iv-s1-prop-6 .statement tag=07R1}
 
-*令$u$为从$E_1$到$E_2$的线性映射，这对于弱化拓扑是连续的。对于$i = 1, 2$，令$\mathfrak{S}_i$是$E_i$的有界子集族。在阶中，$^t u$是从$(E'_2)_{\mathfrak{S}_2}$到$(E'_1)_{\mathfrak{S}_1}$的连续映射，对于每一个集合$A \in \mathfrak{S}_1$，在$\mathfrak{S}_2$和实数中存在集合$A_1, ..., A_n$是充分必要的$\lambda > 0$使得$\lambda \cdot u(A)$包含在$A_1 \cup ... \cup A_n$\脚注{在其他字中，$u(\mathfrak{S}_1)$包含在最小的适应的出生学包含$\mathfrak{S}_2$（III， p. 3).}.*
+*令$u$为从$E_1$到$E_2$的线性映射，这对于弱化拓扑是连续的。对于$i = 1, 2$，令$\mathfrak{S}_i$是$E_i$的有界子集族。在阶中，$^t u$是从$(E'_2)_{\mathfrak{S}_2}$到$(E'_1)_{\mathfrak{S}_1}$的连续映射，对于每一个集合$A \in \mathfrak{S}_1$，在$\mathfrak{S}_2$和实数中存在集合$A_1, ..., A_n$是充分必要的$\lambda > 0$使得$\lambda \cdot u(A)$包含在$A_1 \cup ... \cup A_n$\脚注{在其他字中，$u(\mathfrak{S}_1)$包含在最小的改编的出生学中包含$\mathfrak{S}_2$（III， p. 3).}.*
 
 这是道具的直接的推论。 2 个III、p. 15。
 
@@ -249,39 +249,39 @@ e) *紧致收敛拓扑*（分别为*紧凸*）。
 
 #### 命题 7 {#evt-iv-s1-prop-7 .statement tag=07R3}
 
-— 令 $u : E_1 \to E_2$ 为线性映射。我们假设$u$对于$E_1$和$E_2$的弱化拓扑是连续的。
+— 设 $u : E_1 \to E_2$ 为线性映射。我们假设$u$对于$E_1$和$E_2$的弱化拓扑是连续的。
 
 (i) 如果 $E_1$ 和 $E_2$ 被分配了它们的 Mackey 拓扑，映射 $u$ 是连续的。
 
 (ii) 如果$E_1$是天生的或桶状的，则$u$对于$E_1$和$E_2$的初始拓扑是连续的。
 
-(iii) 在阶中，$u$对于$E_1$和$E_2$的初始拓扑是连续的，$E_2'$的每个等连续的子集的$'u$下的像在$E_1'$中是等连续的充分必要。
+(iii) 在阶中，$u$对于$E_1$和$E_2$的初始拓扑是连续的，$E_2'$的每个等连续的子集的$'u$下的像在$E_1'$中是等连续的是充分必要的。
 
-假设意味着$'u$对于弱拓扑$\sigma(E_2', E_2)$和$\sigma(E_1', E_1)$是连续的（II，p. 46，推论），因此像在凸，平衡和紧的$'u$下子集对于$\sigma(E_2', E_2)$是凸，平衡和$\sigma(E_1', E_1)$ 是紧凑的，$\sigma(E_2', E_2)$ 和 $\sigma(E_1', E_1)$ 拓扑为 Hausdorff。因此，断言 (i) 由 GT，X, § 1, No. 4，道具得出。 3、b）。 断言 (ii) 是 (i) 的推论 ：因为，如果 $E_1$ 是天生的或桶装的，则其初始拓扑是 Mackey 拓扑，并且 $E_2$ 的 Mackey 拓扑比初始拓扑更细 $E_2$。最后，$E_i$的初始拓扑是$E_i'$的等连续子集的一致收敛（III，p. 19，第7条的相关1）。这就证明了(iii)。
+假设意味着$'u$对于弱拓扑$\sigma(E_2', E_2)$和$\sigma(E_1', E_1)$（II，p. 46，推论）是连续的，因此对于$\sigma(E_2', E_2)$，像在$'u$的凸、平衡和紧致子集下对于 $\sigma(E_1', E_1)$ 是凸、平衡且紧的，拓扑 $\sigma(E_2', E_2)$ 和 $\sigma(E_1', E_1)$ 是 Hausdorff。因此，断言 (i) 由 GT，X, § 1, No. 4，道具得出。 3、b）。 断言 (ii) 是 (i) 的推论 ：因为，如果 $E_1$ 是天生的或桶装的，则其初始拓扑是 Mackey 拓扑，并且 $E_2$ 的 Mackey 拓扑比拓扑的初始拓扑更细 $E_2$。最后，$E_i$的初始拓扑是$E_i'$的等连续子集的一致收敛（III，p. 19，第7条的相关1）。这就证明了(iii)。
 
 #### 推论 {#evt-iv-s1-n3-cor-2 .statement tag=07R4}
 
-— 假设 $E_1$ 是一个标准化的空间。令$u$为从$E_1$到$E_2$的线性映射。以下属性是等效的：
+— 假设 $E_1$ 是规范的空间。设$u$是从$E_1$到$E_2$的线性映射。以下属性是等效的：
 
 a) $u$是连续的；
 
-b) $u$对于弱化拓扑是连续的；
+b) 对于弱化拓扑，$u$ 是连续的；
 
-c) $u$下$E_1$内的单位球的像以$E_2$为界；
+c) $u$下$E_1$中的单位球的像在$E_2$内；
 
-d) 对于初始拓扑趋向于0的$E_1$的点的每个序列$(x_n)$，序列$(u(x_n))$对于$E_2$的弱化拓扑有界。
+d) 对于初始拓扑，$E_1$的点的序列$(x_n)$趋于0，序列$(u(x_n))$对于$E_2$的弱化拓扑有界。
 
-由于 a) 和 b) 的 $E_1$ 是出生学的等价，因此可从命题得出。 7； a)和c)的值是直接的。 a) 和 d) 的等价由命题得出。 1 of IV、p. 1，以及来自道具。 1 个III、p. 11。
+由于 a) 和 b) 的 $E_1$ 是出生学的等价，因此可以从 prop 得出。 7； a)和c)的值是直接的。 a) 和 d) 的等价由命题得出。 1 of IV、p. 1，以及来自 prop。 III、p. 11 中的 1 个。
 
 #### 命题 8 {#evt-iv-s1-prop-8 .statement tag=07R5}
 
-— (i) 令 $E$ 为范数空间，具有对偶 $E'$。对于每$x \in E$，我们有
+— (i) 令 $E$ 为范数空间，具有对偶 $E'$。对于每个 $x \in E$，我们有
 
 $$
 \|x\| = \sup_{x' \in E', \|x'\| \leq 1} |\langle x, x' \rangle|.
 $$
 
-(ii) 令$E_1$和$E_2$是两个规范的空间和$u$，从$E_1$到$E_2$的连续线性映射。我们有
+(ii) 设$E_1$和$E_2$是两个规范的空间和$u$，从$E_1$到$E_2$的连续线性映射。我们有
 
 $$
 \|u\| = \|t u\|.
@@ -308,7 +308,7 @@ $$
 
 #### 注 2 {#evt-iv-s1-n3-rem-2 .statement tag=07R7}
 
-将 $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ 替换为 $x \in E_1,\ y' \in E'_2$。上面的证明表明B是$E_1 \times E'_2$上的连续双线性形式，其中范数（GT，X, § 3, No. 2）等于$\|u\|$。
+将 $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ 替换为 $x \in E_1,\ y' \in E'_2$。上述证明表明B是$E_1 \times E'_2$上的连续双线性形式，其中范数（GT，X, § 3, No. 2）等于$\|u\|$。
 
 #### 推论 {#evt-iv-s1-n3-cor-3 .statement tag=07R8}
 
@@ -328,7 +328,7 @@ $$
 
 公式 (5) 现在由 (3) 得出。
 
-### 4. 商空间和子空间的对偶
+### 4. 商空间和子空间的双重
 
 在整个截面中，E表示局部凸空间，E的M向量子空间，以及$M^\circ$E的对偶$E'$中M的正交。令$p$为从E到$E/M$的典范映射；那么 $^{t}p$ 是单射的，有像 $M^\circ$，因此定义向量空间同构 （非拓扑）
 
@@ -336,7 +336,7 @@ $$
 \pi : (E/M)' \to M^\circ .
 $$
 
-类似地，令$i$是从M到E的典范嵌入。则$^{t}i$是满射（II，p. 24，命题2）；它的核等于$M^\circ$，我们得到向量空间同构（非拓扑）
+类似地，令 $i$ 为从 M 到 E 的典范嵌入。则 $^{t}i$ 是满射（II，p. 24，命题 2）；它的核等于$M^\circ$，我们得到向量空间同构（非拓扑）
 
 $$
 i : E'/M^\circ \to M'.
@@ -381,9 +381,9 @@ $$
 
 $E'$的等连续子集在${}^t i$下的像是$M'$的等连续子集（IV，p. 7，道具7）。相反，令 $A$ 为 $M'$ 的等连续子集。 $M$的拓扑由$E$上的连续半范数的限制到$M$的集合定义。因此，在$E$上存在连续半范数$p$，使得$|f(x)| \leq p(x)$对于所有$f \in A$和所有$x \in M$。令$B$为$E$上所有线性形式$g$的集合，使得$|g| \leq p$且其限制至$M$属于至$A$。 集合 $B$ 在 $E'$ 等连续；由 Hahn-Banach 定理 (II, p. 23, cor. 1)，我们有 ${}^t i(B) = A$，因此 (i) 如下。
 
-我们现在证明(ii)。通过道具。 IV、p. 6、线性映射${}^t i$从$E'_{\mathfrak{S}}$到$M'_{\mathfrak{S}_1}$是连续的，定义除以经过商，从$E'_\mathscr{S}/M^\circ$到线性映射$\iota$是连续的$M'_{\mathscr{S}_1}$。令$\mathscr{T}$为$M'$上的拓扑，通过将$E'_\mathscr{S}/M^\circ$的$\iota$转移得到；这是更细比$\mathscr{S}_1$ 拓扑。
+我们现在证明(ii)。通过道具。 IV，p. 6，线性映射${}^t i$从$E'_{\mathfrak{S}}$到$M'_{\mathfrak{S}_1}$是连续的，定义，由经过到商，从线性映射$\iota$连续$E'_\mathscr{S}/M^\circ$ 到$M'_{\mathscr{S}_1}$。令$\mathscr{T}$为$M'$上的拓扑，通过将$E'_\mathscr{S}/M^\circ$的$\iota$转移得到；这是更细比 $\mathscr{S}_1$ 拓扑。
 
-现在假设对于$\subset$来说，$\mathscr{S}$是有向集合，并且对于$\sigma(E, E')$来说，它由闭、凸、平衡和紧集组成。为了证明$\iota$是同胚，*即*$\mathscr{T}$比$M'$上的$\mathscr{S}_1$拓扑更粗糙，只需证明$\mathscr{T}$与$M'$和$M$之间的对偶性兼容，并且每个等连续$M$中的集合（被视为$M$与$\mathscr{T}$的对偶）包含在集合属于与$\mathscr{S}_1$的拟似中。由于$\mathscr{T}$比$\mathscr{S}_1$拓扑是更细，并且$\mathscr{S}_1$是$M$的覆盖，因此对于每个$y \in M$，$M'$上的线性形式$y' \mapsto \langle y, y' \rangle$对于$\mathscr{T}$是连续的。设$f$为$M'$上的线性形式，对于$\mathscr{T}$连续；那么$f \circ \iota$是$E'_\mathscr{S}$上的连续线性形式。 $E'$上的$\mathscr{S}$拓扑比Mackey拓扑$\tau(E', E)$更粗糙；因为，映射$d_B : E \to {E'}^*$对于拓扑$\sigma(E, E')$和$\sigma({E'}^*, E')$是连续的，并且由于后者是Hausdorff，因此集合的$d_B$下的像对于$\sigma(E, E')$是紧致的对于$\sigma({E'}^*, E')$是紧致的。通过IV、p. 3的引理 1，存在$x_0 \in E$，使得$f(\iota(x')) = \langle x_0, x' \rangle$对于所有$x' \in E'$。特别是，对于所有$x' \in M^\circ$，$\langle x_0, x' \rangle = 0$，并且由于$M$在$E$关闭，我们有$x_0 \in M$（II，p. 45，cor.2）；最后，为所有 $y' \in M'$ 提供 $f(y') = \langle x_0, y' \rangle$。这证明$\mathscr{T}$ *与* $M$ *和* $M'$之间的对偶性兼容。
+现在假设$\mathscr{S}$对于$\subset$来说是有向集合，并且由闭、凸、平衡和紧集对于$\sigma(E, E')$组成。为了证明$\iota$是同胚，*即*$\mathscr{T}$比$M'$上的$\mathscr{S}_1$拓扑更粗糙，只需证明$\mathscr{T}$与$M'$和$M$之间的对偶性兼容，并且每个等连续$M$中的集合（被视为$M$与$\mathscr{T}$的对偶）包含在集合属于与$\mathscr{S}_1$的拟似中。由于$\mathscr{T}$比$\mathscr{S}_1$拓扑是更细，并且$\mathscr{S}_1$是$M$的覆盖，因此对于每个$y \in M$，$M'$上的线性形式$y' \mapsto \langle y, y' \rangle$对于$\mathscr{T}$是连续的。令$f$为$M'$上的线性形式，对于$\mathscr{T}$连续；那么$f \circ \iota$是$E'_\mathscr{S}$上的连续线性形式。 $E'$上的$\mathscr{S}$拓扑比Mackey拓扑$\tau(E', E)$更粗糙；因为，映射$d_B : E \to {E'}^*$对于拓扑$\sigma(E, E')$和$\sigma({E'}^*, E')$是连续的，并且由于后者是Hausdorff，因此集合的$d_B$下的像对于$\sigma(E, E')$是紧致的对于$\sigma({E'}^*, E')$是紧致的。通过IV、p. 3的引理 1，存在$x_0 \in E$，使得$f(\iota(x')) = \langle x_0, x' \rangle$对于所有$x' \in E'$。特别是，对于所有$x' \in M^\circ$，$\langle x_0, x' \rangle = 0$，并且由于$M$在$E$关闭，我们有$x_0 \in M$（II，p. 45，cor.2）；最后，为所有 $y' \in M'$ 提供 $f(y') = \langle x_0, y' \rangle$。这证明$\mathscr{T}$ *与* $M$ *和* $M'$之间的对偶性兼容。
 
 现在令$A$为$M$的子集，对于$M'$上的拓扑$\mathscr{T}$等连续。根据$\mathscr{T}$的定义，并且考虑到$\mathscr{S}$有向假设，这意味着存在集合$B \in \mathscr{S}$包含0并且使得数$|\langle y, x' \rangle|$的上界$\lambda$为$y \in A$ 和 $x' \in B^\circ$ 是有限的（III、p. 19，第 7 条）。由于$B$在$E$闭合，双极的定理（II，p. 44，第1）表明我们有$A \subset \lambda(B \cap M)$；这样就完成了 (ii) 的证明。
 
@@ -413,7 +413,7 @@ $$
 
 断言 (i) 由命题得出。 7 个II、p. 48。
 
-对于弱拓扑，典范嵌入$i : M \to E$是连续的，因此对于麦基拓扑$\tau(M, M')$和$\tau(E, E')$（IV，p. 7，道具7）。类似地，规范的投影 $p : E \to E/M$ 对于 Mackey 拓扑是连续的。我们立即看到，从$\tau(E, E')$获得的$E/M$上的商拓扑与$E/M$和$(E/M)'$之间的对偶性兼容，因此比Mackey的定理在$E/M$上的Mackey拓扑更粗糙（IV，p. 2，第 1）。这就证明了(ii)。
+对于弱化拓扑，典范嵌入$i : M \to E$是连续的，因此对于麦基拓扑$\tau(M, M')$和$\tau(E, E')$（IV，p. 7，第7条）。类似地，规范的投影 $p : E \to E/M$ 对于 Mackey 拓扑是连续的。我们立即看到，从$\tau(E, E')$获得的$E/M$上的商拓扑与$E/M$和$(E/M)'$之间的对偶性兼容，因此比Mackey的定理在$E/M$上的Mackey拓扑更粗糙（IV，p. 2，第 1）。这就证明了(ii)。
 
 ### 5. 直和和乘积的双重
 
@@ -431,7 +431,7 @@ $$
 
 — (i) *对于每个$i \in I$，令$\mathfrak{S}_i$是$F_i$的子集族，其边界为$\sigma(F_i, E_i)$；把$\mathfrak{S} = \bigcup_{i \in I} \mathfrak{S}_i$。那么$E$上的$\mathfrak{S}$拓扑就是$E_i$上$\mathfrak{S}_i$拓扑的乘积。*
 
-(ii) *对于每个$i \in I$，让$\mathfrak{J}_i$是空间$E_i$上的适应出生学，赋予弱拓扑$\sigma(E_i, F_i)$，没有一个等于$\{ \varnothing \}$。 Let $\mathfrak{J}$ be the family of subsets $A$ of $E = \prod_{i \in I} E_i$ such that $\operatorname{pr}_i(A) \in \mathfrak{J}_i$ for all $i \in I$. 那么$F$上的$\mathfrak{J}$拓扑就是$F_i$上$\mathfrak{J}_i$拓扑的直和。*
+(ii) *对于每个$i \in I$，让$\mathfrak{J}_i$是空间$E_i$上的适应出生学，赋予弱拓扑$\sigma(E_i, F_i)$，没有一个等于$\{ \varnothing \}$。 令$\mathfrak{J}$为$E = \prod_{i \in I} E_i$的子集$A$族，使得$\operatorname{pr}_i(A) \in \mathfrak{J}_i$适用于所有$i \in I$。 那么$F$上的$\mathfrak{J}$拓扑就是$F_i$上$\mathfrak{J}_i$拓扑的直和。*
 
 令 $\mathscr{T}$ 为 $\mathfrak{S}_i$ 拓扑中的乘积。 集合 / 形式
 
@@ -535,7 +535,7 @@ $\phi$ 是单射的，直接的。 $P$ 中 0 的邻域的基本系统由形式 $
 
 断言 (i) 和 (iv) 由命题得出。 12 (IV, p. 12) 和 (iii) 来自道具。 13（IV，p. 12）。
 
-#### 推论{#evt-iv-s1-n5-cor-1 .statement tag=07RI}
+#### 推论 {#evt-iv-s1-n5-cor-1 .statement tag=07RI}
 
 — *每乘积桶装空间都是桶装。*
 

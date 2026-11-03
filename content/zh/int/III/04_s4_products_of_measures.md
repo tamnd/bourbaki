@@ -37,16 +37,16 @@ subsections:
       pdf_page: 98
 statements: 22
 exercises: 8
-content_sha256: 66e06c0b4c886b7bed2ef3de36682299a888a8fa7182ab9651957990b495a4f6
+content_sha256: bf92813dda4ea3e05038ccc36ce6b8d47f952b5ae943c122ae601d13b2b4c319
 translated_from: content/en/int/III/04_s4_products_of_measures.md
 translation_method: google
 source_content_sha256: 375b3e9104624766e0c67616cc70666473c13c687b42ef6fceaaffeead1b1903
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 69dc1ff869455b7e6e06942cb898619aa24611963e24029bfdb5318e0e1b14d3
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。 乘积措施
@@ -240,7 +240,7 @@ $$
 \end{align*}
 $$
 
-由此可见$\langle f, |\lambda \otimes \mu| \rangle \leq \langle f, |\lambda| \otimes |\mu| \rangle$，依此类推
+由此可知$\langle f, |\lambda \otimes \mu| \rangle \leq \langle f, |\lambda| \otimes |\mu| \rangle$，依此类推
 
 $$
 |\lambda \otimes \mu| \leq |\lambda| \otimes |\mu|.
@@ -274,7 +274,7 @@ $$
 
 由于$\mathscr{K}(X; \mathbf{C})$（或$\mathscr{K}(Y; \mathbf{C})$）中的每个函数都是$\mathscr{K}_+(X)$（或$\mathscr{K}_+(Y)$）中函数的线性组合，因此前面的公式对于$u \in \mathscr{K}(X; \mathbf{C})$和$v \in \mathscr{K}(Y; \mathbf{C})$仍然成立；因此，命题是从$\mathscr{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathscr{K}(Y; \mathbf{C})$在$\mathscr{K}(X \times Y; \mathbf{C})$中稠密这一事实得出的。
 
-#### 推论{#int-iii-s4-n2-cor-1 .statement tag=08OJ}
+#### 推论 {#int-iii-s4-n2-cor-1 .statement tag=08OJ}
 
 — *让* $\lambda \in \mathscr{M}(X; \mathbf{R}), \ \mu \in \mathscr{M}(Y; \mathbf{R})$。 *然后*
 
@@ -376,17 +376,17 @@ $$
 \langle f_1 \otimes f_2 \otimes \cdots \otimes f_n, \mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n \rangle = \prod_{i=1}^n \langle f_i, \mu_i \rangle.
 $$
 
-#### 命题 7（“措施乘积结合性”）{#int-iii-s4-prop-7 .statement tag=08ON}
+#### 命题 7（'措施乘积结合性'）{#int-iii-s4-prop-7 .statement tag=08ON}
 
 —
-*设*$(I_k)_{1 \leq k \leq r}$*为区间*$[1, n]$*的划分*$\mathbf{N}$； *然后*
+*令*$(I_k)_{1 \leq k \leq r}$*为区间*$[1, n]$*的划分*$\mathbf{N}$； *然后*
 $$
 \bigotimes_{k=1}^r \left( \bigotimes_{i \in I_k} \mu_i \right) = \bigotimes_{i=1}^n \mu_i
 $$
 
-对于，这两个措施重合，通过（12），对于$\bigotimes_{i=1}^n \mathscr{K}(X_i; \mathbf{C})$中的每个函数。
+对于$\bigotimes_{i=1}^n \mathscr{K}(X_i; \mathbf{C})$中的每个函数，这两个测量重合，通过(12)。
 
-函数 $f \in \mathscr{K}(X; \mathbf{C})$ 关于乘积度量的积分表示为
+函数 $f \in \mathscr{K}(X; \mathbf{C})$相对于乘积测量的积分表示为
 $$
 \int f d\mu_1 d\mu_2 \ldots d\mu_n,
 $$
@@ -406,15 +406,15 @@ $$
 $$
 \iiint \ldots \int f(x_1, x_2, \ldots, x_n) \mu_1(x_1) \mu_2(x_2) \ldots \mu_n(x_n)
 $$
-有 $n$ 标志 $\int$；据说它是阶* $n$ 的 *倍数积分，或 *$n$ 元组积分*。凭借乘积测量的结合性和阶积分反转的定理（No. 1，Th. 2），对于 $[1, n]$ 的每个置换 $\sigma$，我们有，
+带有 $n$ 标志 $\int$；据说它是阶* $n$ 的 *倍数积分，或 *$n$ 元组积分*。凭借乘积的措施结合性和阶积分反转的定理（No. 1，Th.2），对于 $[1, n]$ 的每一个置换 $\sigma$，我们有，
 $$
 \iiint \ldots \int f d\mu_1 d\mu_2 \ldots d\mu_n = \int d\mu_{\sigma(1)} \int d\mu_{\sigma(2)} \ldots \int fd\mu_{\sigma(n)}.
 $$
 (14)
 
-积分记号和公式 (14) 可以以明显的方式扩展到函数 $f \in \mathscr{K}(X; E)$，其中值在 Hausdorff 局部凸空间 $E$ 中，使得 $f(X)$ 包含在以下的完全凸子集中$E$。我们留给读者的任务是将第 2 条和第 3 条关于两个措施的乘积的结果推广到任何有限数措施的乘积。
+积分记号和公式 (14) 可以通过 Hausdorff 局部凸空间 $E$ 中的值以明显的方式扩展到函数 $f \in \mathscr{K}(X; E)$，使得 $f(X)$ 包含在 $E$ 的完全凸子集中。我们留给读者的任务是，将第 2 条和第 3 条关于两个措施的乘积的结果推广到任何有限数措施的乘积。
 
-特别是，我们称 $n$ 测量中$\mathbf{R}^n$ 乘积上的“勒贝格测度”与$\mathbf{R}$ 上的勒贝格测度相同； 函数 $f \in \mathscr{K}(\mathbf{R}^n; E)$、满足前面的条件的积分表示为
+特别是，我们称$n$的$\mathbf{R}^n$乘积上的*勒贝格测度*与$\mathbf{R}$上的勒贝格测度相同； 函数 $f \in \mathscr{K}(\mathbf{R}^n; E)$、满足前面的条件的积分表示为
 $$
 \iiint \ldots \int f(x_1, x_2, \ldots, x_n) dx_1 dx_2 \ldots dx_n
 $$
@@ -426,13 +426,13 @@ $\mathbf{R}^n$ 的勒贝格测度*在每个翻译下都是不变的*。
 
 ### 5. 逆极限措施
 
-令$X, Y$是两个紧凑的空间，$p : X \to Y$是一个连续的映射；那么$f \mapsto f \circ p$是$\mathscr{C}(Y; \mathbf{C})$到$\mathscr{C}(X; \mathbf{C})$的连续线性映射，因为$\|f \circ p\| \leq \|f\|$对于每个函数$f \in \mathscr{C}(Y; \mathbf{C})$；我们用$p'$表示这个映射。因此，它的转置 ${}^t p' : \mathscr{M}(X; \mathbf{C}) \to \mathscr{M}(Y; \mathbf{C})$ 使得对于 $X$ 上的每个测度 $\mu$，${}^t p'(\mu)$ 是 $Y$ 上的测度，使得
+令$X, Y$为两个紧凑的空间，$p : X \to Y$为连续的映射；那么$f \mapsto f \circ p$是$\mathscr{C}(Y; \mathbf{C})$到$\mathscr{C}(X; \mathbf{C})$的连续线性映射，因为$\|f \circ p\| \leq \|f\|$对于每个函数$f \in \mathscr{C}(Y; \mathbf{C})$；我们用$p'$表示这个映射。因此，它的转置 ${}^t p' : \mathscr{M}(X; \mathbf{C}) \to \mathscr{M}(Y; \mathbf{C})$ 使得，对于 $X$ 上的每个测度 $\mu$，${}^t p'(\mu)$ 是 $Y$ 上的测度，使得
 
 $$
 \langle {}^t p'(\mu), f \rangle = \langle \mu, f \circ p \rangle
 $$
 
-对于每个函数 $f \in \mathscr{C}(Y; \mathbf{C})$。 注对于每个$x \in X$，${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$；因此，我们将用$p_*(\mu)$表示度量${}^t p'(\mu)$，因此当$X$（或$Y$）规范地嵌入$\mathscr{M}(X; \mathbf{C})$（或$\mathscr{M}(Y; \mathbf{C})$）时，扩展$p$（§ 1, No. 9，第13条）；对于$X$上的每个测度$\mu$，$p_*(\mu)$是测度*像一般概念的特例，我们将在第1章中研究它。 V, §6。因为，正如我们上面看到的，$\|p'\| \leq 1$，我们还有$\|{}^t p'\| \leq 1$，所以
+对于每个函数 $f \in \mathscr{C}(Y; \mathbf{C})$。请注意，对于每个 $x \in X$，${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$；因此，我们将用$p_*(\mu)$表示度量${}^t p'(\mu)$，因此当$X$（或$Y$）规范地嵌入$\mathscr{M}(X; \mathbf{C})$（或$\mathscr{M}(Y; \mathbf{C})$）时，扩展$p$（§ 1, No. 9，第13条）；对于$X$上的每个测度$\mu$，$p_*(\mu)$是测度*像一般概念的特例，我们将在第1章中研究它。 V, §6。因为，正如我们上面看到的，$\|p'\| \leq 1$，我们还有$\|{}^t p'\| \leq 1$，所以
 
 $$
 \|p_*(\mu)\| \leq \|\mu\|
@@ -462,19 +462,19 @@ $$
 
 — *令 F 为函数 $f \in \mathscr{C}(X; \mathbf{C})$ 的集合，具有以下性质：存在 $\alpha \in I$ 和函数 $f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$，使得 $f = f_\alpha \circ p_\alpha$。那么 F 是 $\mathscr{C}(X; \mathbf{C})$ 的稠密线性子空间。*
 
-我们注首先，如果$g = g_\beta \circ p_\beta$和$h = h_\gamma \circ p_\gamma$，其中$g_\beta \in \mathscr{C}(X_\beta; \mathbf{C})$和$h_\gamma \in \mathscr{C}(X_\gamma; \mathbf{C})$，则存在$\alpha \in I$使得$\alpha \geq \beta$和$\alpha \geq \gamma$，因此存在$p_\beta = p_{\beta \alpha} \circ p_\alpha$，$p_\gamma = p_{\gamma \alpha} \circ p_\alpha$，这表明
+我们首先注意到，如果$g = g_\beta \circ p_\beta$和$h = h_\gamma \circ p_\gamma$，其中$g_\beta \in \mathscr{C}(X_\beta; \mathbf{C})$和$h_\gamma \in \mathscr{C}(X_\gamma; \mathbf{C})$，则存在$\alpha \in I$使得$\alpha \geq \beta$和$\alpha \geq \gamma$，因此存在$p_\beta = p_{\beta \alpha} \circ p_\alpha$，$p_\gamma = p_{\gamma \alpha} \circ p_\alpha$，这表明
 $$
 g + h = (g_\beta \circ p_{\beta \alpha} + h_\gamma \circ p_{\gamma \alpha}) \circ p_\alpha
 $$
-属于至 F；类似地，$gh \in F$；因此，F 是 $\mathscr{C}(X; \mathbf{C})$ 的 *C*-子代数，其中包含为常量，且关系 $f \in F$ 蕴涵$\overline{f} \in F$。最后，如果$x \neq y$是X的两个点，则存在$\alpha \in I$使得$p_\alpha(x) \neq p_\alpha(y)$，因此存在函数$f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$使得$f_\alpha(p_\alpha(x)) \neq f_\alpha(p_\alpha(y))$。因此，结论来自 Stone–Weierstrass 定理（GT，X, §4, No. 4，Prop. 7）。
+属于至 F；类似地，$gh \in F$；因此，F 是 $\mathscr{C}(X; \mathbf{C})$ 的 *C*-子代数，其中包含为常量，且关系 $f \in F$ 蕴涵$\overline{f} \in F$。最后，如果$x \neq y$是X的两个点，则存在$\alpha \in I$使得$p_\alpha(x) \neq p_\alpha(y)$，因此存在函数$f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$使得$f_\alpha(p_\alpha(x)) \neq f_\alpha(p_\alpha(y))$。因此，结论来自 Stone–Weierstrass 定理（GT，X, §4, No. 4，提案 7）。
 
 引理成立后，令$\mu, \mu'$为X的两个测度，使得$(p_\alpha)_*(\mu) = (p_\alpha)_*(\mu')$适用于所有$\alpha \in I$；这意味着，对于每个 $\alpha \in I$ 和每个函数 $f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$，我们有
 $$
 \langle f_\alpha, (p_\alpha)_*(\mu) \rangle = \langle f_\alpha, (p_\alpha)_*(\mu') \rangle,
 $$
-即$\langle f_\alpha \circ p_\alpha, \mu \rangle = \langle f_\alpha \circ p_\alpha, \mu' \rangle$；在其他字，$\mu$和$\mu'$重合上，$\mathscr{C}(X; \mathbf{C})$的子空间F，其稠密为引理3，因此$\mu = \mu'$，证明了(i)。
+即$\langle f_\alpha \circ p_\alpha, \mu \rangle = \langle f_\alpha \circ p_\alpha, \mu' \rangle$；在其他字，$\mu$和$\mu'$重合上，$\mathscr{C}(X; \mathbf{C})$的子空间F，其稠密为引理3，因此$\mu = \mu'$，证明(i)。
 
-(ii) 关系 (15) 应用于$p_\alpha$表明，如果$\mu$是逆系$(\mu_\alpha)$的逆极限，必然
+(ii) 关系 (15) 应用于$p_\alpha$表明，如果$\mu$是逆系$(\mu_\alpha)$中的逆极限，则必然
 $$
 \| \mu \| \geq \| \mu_\alpha \|
 $$
@@ -493,7 +493,7 @@ $$
 
 但到了定义，最后一个关系也可能会写成$\mu_\beta(f_\beta) = \mu_\gamma(f_\gamma)$，从而我们的断言。
 
-既然如此，假设存在有限的数$a > 0$，使得$\| \mu_\alpha \| \leq a$对于所有$\alpha \in I$；那么，对于每个函数 $f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$，
+既然如此，假设存在一个有限的数$a > 0$，使得$\| \mu_\alpha \| \leq a$对于所有$\alpha \in I$；那么，对于每个函数 $f_\alpha \in \mathscr{C}(X_\alpha; \mathbf{C})$，
 
 $$
 |\lambda(f_\alpha \circ p_\alpha)| = |\mu_\alpha(f_\alpha)| \leq a \| f_\alpha \| = a \| f_\alpha \circ p_\alpha \|
@@ -507,7 +507,7 @@ $$
 
 — 令 $(X_\lambda)_{\lambda \in L}$ 为紧致空间族； 集合 $X = \prod_{\lambda \in L} X_\lambda$，并且对于 $L$ 中的每个有限子集 $J$，集合 $X_J = \prod_{\lambda \in J} X_\lambda$；用$\mathrm{pr}_J : X \to X_J$和$\mathrm{pr}_{J, K} : X_K \to X_J$（对于$J \subset K$）表示规范的投影。我们知道，$(X_J, \mathrm{pr}_{JK})$是紧凑空间的逆系，连续映射$(\mathrm{pr}_J)$的系统的逆极限是$X$的*同态*到逆极限空间 $\lim_{\leftarrow} X_J$，允许一到认同这两个空间（GT、I, §4, No. 4和S、III, §7, No. 2、*注* 3）。由于投影 $\mathrm{pr}_{J, K}$ 是满射，根据第 8 条命题，集合 $\mathscr{M}(X; \mathbf{C})$（分别为 $\mathscr{M}_+(X)$）可以与逆系 $(\mu_J)$ 的集合识别，这样范数的族$(\| \mu_J \|)$ 是有界的（分别使得 $\mu_J$ 都是正数，并且总质量必须相同）。
 
-Let us consider in particular the case where, for each $\lambda \in L$, a measure $\mu_\lambda$ is given on $X_\lambda$ and one sets $\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$. 如果$J \subset K$是$I$的两个有限子集，那么对于每个函数$f_J \in \mathscr{C}(X_J; \mathbf{C})$，凭借No. 4的公式(14)，我们有，
+让我们特别考虑这样的情况，对于每个$\lambda \in L$，在$X_\lambda$上给出一个测度$\mu_\lambda$，并且一组$\mu_J = \bigotimes_{\lambda \in J} \mu_\lambda$。 如果$J \subset K$是$I$的两个有限子集，那么对于每个函数$f_J \in \mathscr{C}(X_J; \mathbf{C})$，凭借No. 4的公式(14)，我们有，
 
 $$
 \mu_K(f_J \circ \mathrm{pr}_{J, K}) = \mu_J(f_J) \cdot \prod_{\lambda \in K - J} \mu_\lambda(1).
@@ -550,7 +550,7 @@ $$
 
 提案 9 中定义的措施$\mu$称为积极措施系列$(\mu_\lambda)_{\lambda \in L}$的*乘积措施*，并用$\bigotimes_{\lambda \in L} \mu_\lambda$表示。
 
-#### 推论{#int-iii-s4-n6-cor-1 .statement tag=08OT}
+#### 推论 {#int-iii-s4-n6-cor-1 .statement tag=08OT}
 
 *假设第9条命题的条件得到验证，令$(L_\rho)_{\rho \in R}$为$L$的划分。那么每个$(\mu_\lambda)_{\lambda \in L_\rho}$措施族都承认乘积措施，乘积措施族$\left( \bigotimes_{\lambda \in L_\rho} \mu_\lambda \right)_{\rho \in R}$承认乘积措施，并且*
 

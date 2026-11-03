@@ -30,16 +30,16 @@ subsections:
       pdf_page: 141
 statements: 17
 exercises: 21
-content_sha256: 4ce7375d869c5fb7920dd8e5a262bb763b4be20733df2a2d1c293300bcd1aa24
+content_sha256: bc91dad051306fd058d1666442e9d91459634d0618e04bd81f83f01cbbb8a21a
 translated_from: content/en/alg/I/09_s9_fields.md
 translation_method: google
 source_content_sha256: 622420ff5a6f546db44026f2ba8fbe2960bad17825f8f2a2110f89182676f0dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c476a0d370c209a17e22ffa0dc5bae95af1106293b372ecf591a42f60a53cdc7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 9。 域
@@ -71,36 +71,36 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定理 1 {#alg-i-s9-thm-1 .statement tag=05IJ}
 
-令$\mathbf{A}$为环。以下条件是等效的：
+设$\mathbf{A}$为环。以下条件是等效的：
 
 (a) $\mathbf{A}$ 为域；
 (b) $\mathbf{A}$ 不会减少到 0，并且 $\mathbf{A}$ 的唯一左理想是 0 和 $\mathbf{A}$。
 
-假设$\mathbf{A}$是域。那么$\mathbf{A}$不会减少到0。令$a$为不同于0的$\mathbf{A}$的左理想。存在非零$a$属于到$a$。对于所有$x \in \mathbf{A}$、$x = (xa^{-1})a \in a$；因此$a = \mathbf{A}$。
+假设$\mathbf{A}$是域。那么$\mathbf{A}$不会减少到0。令$a$为$\mathbf{A}$不同于0的左理想。存在非零$a$属于到$a$。对于所有$x \in \mathbf{A}$、$x = (xa^{-1})a \in a$；因此$a = \mathbf{A}$。
 
 假设$\mathbf{A}$满足条件(b)。设$x \neq 0$在$\mathbf{A}$中。我们需要证明$x$是可逆的。左理想$Ax$包含$x$，因此不是零、从而$Ax = \mathbf{A}$。因此存在$x' \in \mathbf{A}$使得$x'x = 1$。然后从 $1 \neq 0$ 开始$x' \neq 0$。将上述结果应用代入$x'$，可知存在$x'' \in \mathbf{A}$使得$x''x' = 1$。然后$x'' = x'' . 1 = x''x'x = 1 . x = x$，因此$xx' = 1$。因此$x'$是$x$的倒数。
 
 #### 注 {#alg-i-s9-n1-rem-1 .statement tag=05IK}
 
-在定理1中，左理想可以被右理想代替。在章VIII, § 5, no. 2中，我们将研究非零环$\mathbf{A}$，它们没有不同于0和$\mathbf{A}$的“双面”理想；这样的环（称为*拟单*）不一定是域*（对于例，带有有理系数的阶2的方阵的环$\mathbf{M}_2(\mathbf{Q})$是拟单但不是域）*。
+在定理1中，左理想可以被右理想取代。在章VIII, § 5, no. 2中，我们将研究非零环$\mathbf{A}$，它们没有不同于0和$\mathbf{A}$的“双面”理想；这样的环（称为*拟单*）不一定是域*（例如，阶2的方阵环和有理系数的$\mathbf{M}_2(\mathbf{Q})$是拟单但不是域）*。
 
 #### 推论 1 {#alg-i-s9-thm-1-cor-1 .statement tag=05IL}
 
 令$\mathbf{A}$为环，且$a$为$\mathbf{A}$的双面理想。为了使环$\mathbf{A}/a$成为域，$a$是$\mathbf{A}$的最大左理想是充分必要的。
 
-$\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 $a$ 的左理想（$§ 8$、no. 8，命题 5 的推论）。说$\mathbf{A}/a \neq 0$意味着$a \neq \mathbf{A}$。在这个假设下，$\mathbf{A}/a$是域当且仅当$\mathbf{A}$包含$a$的唯一左理想是$a$和$\mathbf{A}$（定理1），从而的推论。
+$\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 为 $\mathbf{A}$ 包含 $a$（$§ 8$、no. 8、推论至命题） 5）。说$\mathbf{A}/a \neq 0$意味着$a \neq \mathbf{A}$。在这个假设下，$\mathbf{A}/a$是域当且仅当$\mathbf{A}$包含$a$的唯一左理想是$a$和$\mathbf{A}$（定理1），从而推论。
 
 #### 推论 2 {#alg-i-s9-thm-1-cor-2 .statement tag=05IM}
 
 令$\mathbf{A}$为交换环，且不为0。在交换域上存在$\mathbf{A}$的同态。
 
-根据克鲁尔的定理（$§ 8$，no. 6，定理1），$\mathbf{A}$中存在最大理想$a$。那么$\mathbf{A}/a$就是域（推论1）。
+根据克鲁尔的定理（$§ 8$，no. 6，定理1），$\mathbf{A}$中存在最大理想$a$。那么 $\mathbf{A}/a$ 就是域 (推论 1)。
 
 #### 推论 3 {#alg-i-s9-thm-1-cor-3 .statement tag=05IN}
 
-设$a$为整数$\geqslant 0$。为了使环$\mathbf{Z}/a\mathbf{Z}$成为域，$a$是素数是充分必要的。
+设$a$为整数$\geqslant 0$。为了使环 $\mathbf{Z}/a\mathbf{Z}$ 成为域，$a$ 是素数是充分必要的。
 
-这是从推论 1 和$§ 8$、no. 11 得出的。
+这是从推论 1 和 $§ 8$、no. 11 得出的。
 
 对于$p$素数域$\mathbf{Z}/p\mathbf{Z}$表示为$\mathbf{F}_p$。
 
@@ -135,9 +135,9 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 (b) *令$\mathbf{A}'$为分数$\mathbf{A}$中的域。 $\mathbf{A}$的典范嵌入到$\mathbf{B}$可以唯一地扩展到$\mathbf{A}'$的同构$f$到$\mathbf{B}$的子域。
 (c) *$f(\mathbf{A}')$中的元素是$xy^{-1}$，其中$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$。*
 
-断言 (a) 是显而易见的。 The canonical injection of $\mathbf{A}$ into $\mathbf{B}$ extends uniquely to a homomorphism $f$ of $\mathbf{A}'$ into $\mathbf{B}$ (§ 8, no. 12, Theorem 5). 断言 (b) 然后从 no. 1, 定理 2 得出。 $\mathbf{A}'$中的元素是分数$x/y$以及$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$和$f(x/y) = xy^{-1}$、从而 (c)。
+断言 (a) 是显而易见的。 $\mathbf{A}$到$\mathbf{B}$的规范注入唯一地延伸到$\mathbf{A}'$到$\mathbf{B}$的同态$f$（§ 8, no. 12，定理5）。 断言 (b) 然后从 no. 1, 定理 2 得出。 $\mathbf{A}'$中的元素是分数$x/y$以及$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$和$f(x/y) = xy^{-1}$、从而 (c)。
 
-### 3. 基本理想
+### 3. 最初的理想
 
 #### 命题 4 {#alg-i-s9-prop-4 .statement tag=05IS}
 
@@ -154,11 +154,11 @@ $\mathbf{A}/a$ 的左理想为形式 $b/a$，其中 $b$ 是 $\mathbf{A}$ 包含 
 
 #### 例 {#alg-i-s9-n3-exa-1 .statement tag=05IU}
 
-(1) 设$A$为交换环。如果$m$是$A$的极大理想，则$m$是素数； 环 $A/m$ 是域（no. 1，推论 1 到定理 1）。
+(1) 设$A$为交换环。如果$m$是$A$的极大理想，则$m$是素数； 环 $A/m$ 为域（no. 1、推论 1 至定理 1）。
 
 (2) 如果$A$是整环，则$A$的理想$\{0\}$是素数（但一般不是最大，如环$\mathbf{Z}$的例证明）。
 
-### 4. 有理数数的域
+### 4. 有理数的域
 
 #### 定义 4 {#alg-i-s9-def-4 .statement tag=05IV}
 
@@ -188,7 +188,7 @@ Q，从（5）得知，这个关系诱导是Z上通常的序关系。最后，�
 
 设 $x$ 为有理数数。如果 $x \geq 0$，$x$ 被称为“正”，如果 $x > 0$，则“严格正”，如果 $x \leq 0$，则“负”，如果 $x < 0$.† 集合，正有理数为 $\mathbf{Q}_+$，负有理数是$-\mathbf{Q}_+$。如果$\mathbf{Q}^*$表示非零有理数数的集合，则严格正数数的集合$\mathbf{Q}_+^*$等于$\mathbf{Q}^* \cap \mathbf{Q}_+$，并且$-\mathbf{Q}_+^*$是严格负数数的集合。
 
-集合 $\mathbf{Q}_+^*$ 和 $\{1, -1\}$ 是乘法群 $\mathbf{Q}^*$ 中的子群。每个有理数$x \neq 0$都可以在形式$1.y, (-1).y$中以一种且唯一的方式表达，其中$y > 0$;因此乘法群$\mathbf{Q}^*$是子群$\mathbf{Q}_+^*$和$\{1, -1\}$的乘积，$\mathbf{Q}_+^*$中$x$的分量称为$x$的*绝对值*，并表示为$|x|$； $\{-1, 1\}$中$x$的分量（如果$x > 0$则等于1，如果$x < 0$则等于$-1$）称为$x$的*符号*并用$\operatorname{sgn}\, x$表示。
+集合 $\mathbf{Q}_+^*$ 和 $\{1, -1\}$ 是乘法群 $\mathbf{Q}^*$ 中的子群。每个有理数$x \neq 0$都可以在形式$1.y, (-1).y$中以一种且唯一的方式表达，其中$y > 0$;因此乘法群$\mathbf{Q}^*$是子群$\mathbf{Q}_+^*$和$\{1, -1\}$的乘积，$\mathbf{Q}_+^*$中$x$的分量被称为$x$的*绝对值*，并且是用$|x|$表示； $\{-1, 1\}$中$x$的分量（如果$x > 0$则等于1，如果$x < 0$则等于$-1$）称为$x$的*符号*并用$\operatorname{sgn}\, x$表示。
 
 通常这两个函数通过设定$|0| = 0$和$\operatorname{sgn}\, 0 = 0$扩展到整个$\mathbf{Q}$。
 

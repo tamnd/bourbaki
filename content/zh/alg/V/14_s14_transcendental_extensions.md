@@ -42,16 +42,16 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 77fb9ea785f95de5ba9a5d49005fd01dfa83a1b56a634427a9f4ae7c82283f44
+content_sha256: 447c3e86cb4ef3f824f50073c439d17618b1508df9b870198baedcf6acf4f5a3
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
 translation_method: google
 source_content_sha256: 36caeafec2b80f55f4d81aa8a08ac8e916c9c8c954ea1d9374f4336f63f99e7d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c9f21829cc98db6a0b54e92470b54cf34450a6363f3e0db39aa799968785e59f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 14。超越扩张
@@ -68,7 +68,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 命题 1 {#alg-v-s14-prop-1 .statement tag=06RP}
 
-*For a family $(x_i)_{i \in I}$ of elements of an extension E of a field K to be algebraically free over K it is necessary and sufficient for the relation $f((x_i)) = 0$, where $f$ is a polynomial in $K[X_i]_{i \in I}$, to imply $f = 0$.*
+*对于域 K 的扩展 E 的元素族 $(x_i)_{i \in I}$ 在 K 上的代数上自由，关系 $f((x_i)) = 0$ 是必要且充分的，其中$f$ 是 $K[X_i]_{i \in I}$ 中的多项式，隐含$f = 0$。*
 
 #### 定义 2 {#alg-v-s14-def-2 .statement tag=06RQ}
 
@@ -82,7 +82,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 $v$的唯一性清晰。让我们放置$A = K[x_i]_{i \in I}$和$A' = K'[x'_i]_{i \in I}$。通过假设，向量 K 空间$A$ 的单项式$x'' = \prod_{i \in I} x_i^{\alpha_i}$（对于$\alpha = (\alpha_i)_{i \in I}$，在$\mathbf{N}^{(I)}$）形式基，还有$A'$ 的类似性质。因此，存在环同构$w : A \to A'$映射每个元素$\sum_{\alpha \in \mathbf{N}^{(I)}} c_\alpha x^\alpha$到$\sum_{\alpha \in \mathbf{N}^{(I)}} u(c_\alpha) {x'}^\alpha$。由于$L$是$A$的分数的域和$L'$是$A'$的同构$w$扩展到同构$v$ 域$L$到域$L'$。
 
-#### 推论{#alg-v-s14-n1-cor-1 .statement tag=06RS}
+#### 推论 {#alg-v-s14-n1-cor-1 .statement tag=06RS}
 
 — *为了使域 K 的扩张 E 是纯的，E 在 K 上与有理分式的域 K 同构是必要且充分的。更准确地说，如果族 $(x_i)_{i \in I}$ 是 E 的纯基，则存在 $K(X_i)_{i \in I}$ 在 E 上的唯一 K 同构的，其中每个 $i \in I$ 映射 $X_i$ 至 $x_i$。*
 
@@ -112,7 +112,7 @@ c) $T$ 在$K$ 上是代数自由的，$S$ 在$K(T)$ 上是代数自由的。
 
 显然只要证明a)和b)是等价的就足够了。
 
-$a) \Rightarrow b)$：假设a)成立。由于$S$包含在$S \cup T$中，因此它在$K$上是代数自由的。如果$T$在$K(S)$上不是代数自由的，则存在（命题3）$T$的不同元素的有限族$(y_j)_{1 \leq j \leq n}$，它在$K(S)$上代数相关。因此，环$K(S)[Y_1, ..., Y_n]$中存在非零多项式$f$，使得$f(y_1, ..., y_n) = 0$；如果需要的话，之后乘以$f$乘以$K[S]$的非零元素，我们可以假设所有系数都在属于到$K[S]$。 $S$ 的不同元素 $x_i \ (1 \leq i \leq m )$ 的有限数中的票价多项式系数，系数为 $K$。 元素 $x_1, ..., x_m, y_1, ..., y_n$ 成对不同，因为 $S \cap T = (21$。 关系 $f(y_1, ..., y_n) = 0$ 可以写成
+$a) \Rightarrow b)$：假设a)成立。由于$S$包含在$S \cup T$中，因此它在$K$上是代数自由的。如果$T$在$K(S)$上不是代数自由的，则存在（命题3）$T$的不同元素的有限族$(y_j)_{1 \leq j \leq n}$，它在$K(S)$上代数相关。因此，环$K(S)[Y_1, ..., Y_n]$中存在非零多项式$f$，使得$f(y_1, ..., y_n) = 0$；如果需要，将之后乘以$f$乘以$K[S]$的非零元素，我们可以假设所有系数都从属于到$K[S]$。 $S$ 的不同元素 $x_i \ (1 \leq i \leq m )$ 的有限数中的系数票价多项式，以及 $K$ 中的系数。 元素 $x_1, ..., x_m, y_1, ..., y_n$ 成对不同，因为 $S \cap T = (21$。 关系 $f(y_1, ..., y_n) = 0$ 可以写成
 
 $$
 g(x_1, ..., x_m ; y_1, ..., y_n) = 0 ,
@@ -124,11 +124,11 @@ $b) \Rightarrow a)$：假设b)成立。首先很明显$T \cap K(S) = \varnothing
 
 #### 推论 {#alg-v-s14-n2-cor-1 .statement tag=06RW}
 
-— *令 E 为域 K 的扩张和 E 的 S 子集，它在 K 上代数上自由。如果 x \in E 在 K(S) 上超越，则 S U {x} 在 K 上代数上自由。*
+— *令 E 为域 K 的扩张，且 E 的 S 子集在 K 上代数上自由。如果 x \in E 在 K(S) 上超越，则 S U {x} 在 K 上代数上自由。*
 
 #### 命题 5 {#alg-v-s14-prop-5 .statement tag=06RX}
 
-— *令 E 为域 K 的扩张。为了使 E 的子集 S 在 K 上是代数自由的，对于 S 中的每个 x \in，元素 x 应超越域 K(S - {x}) 是必要且充分的。*
+— *令 E 为域 K 的扩张。对于 E 的子集 S 在 K 上自由的代数，对于 S 中的每个 x \in，元素 x 应超越域 K(S - {x}) 是必要且充分的。*
 
 根据命题 4，条件是必要的。
 
@@ -146,7 +146,7 @@ $b) \Rightarrow a)$：假设b)成立。首先很明显$T \cap K(S) = \varnothing
 
 #### 例 {#alg-v-s14-n2-exa-1 .statement tag=06S0}
 
-— *纯粹的基是一种超越基。另一方面，如果 E 是 K 的纯扩张，则 E 对 K 的超越基并不总是 E 的纯基。对于例，在 $K(X)$ 中，$\{X^2\}$ 是超越基，但不生成$K(X)$.*
+— *纯粹的基是一种超越基。另一方面，如果 E 是 K 的纯扩张，则 E 对 K 的超越基并不总是 E 的纯基。例如，在 $K(X)$ 中，$\{X^2\}$ 是超越基，但不是生成 $K(X)$.*
 
 #### 命题 7 {#alg-v-s14-prop-7 .statement tag=06S1}
 
@@ -168,7 +168,7 @@ $b) \Rightarrow a)$：假设b)成立。首先很明显$T \cap K(S) = \varnothing
 
 对于 S 的代数自由子集的集合，按包含排序，是根据命题 3 的有限特征标 (E, III, p. 34) 的集合。 E, III, p. 35 的 1 有极大元素 B 包含 T，并且根据命题 7，B 是 E 对 K 的超越基。
 
-#### 推论 (« 交换定理 ») {#alg-v-s14-n2-cor-2 .statement tag=06S4}
+#### 推论（《交换定理》）{#alg-v-s14-n2-cor-2 .statement tag=06S4}
 
 — 令 E 为 K 的扩张，E 的 S 子集，使得 E 在 K(S) 上是代数，E 的 T 子集在 K 上是代数自由的；则存在 S 的子集 S'，使得 T ∪ S' 是 E 对 K 的超越基，并且 T ∩ S' = ∅。
 
@@ -186,13 +186,13 @@ $b) \Rightarrow a)$：假设b)成立。首先很明显$T \cap K(S) = \varnothing
 
 #### 定义 4 {#alg-v-s14-def-4 .statement tag=06S6}
 
-— 令 E 为域 K 的扩张。E 对 K 的每个超越基的基数称为 E 对 K 的超越次数，写作 tr。 deg_K E。
+— 令 E 为域 K 的扩张。E 对 K 的每个超越基的基数称为 E 对 K 的超越次数，记作 tr。 deg_K E。
 
 Th。 2 和 3 以及 Def。 4 意味着以下推论，其中 E 表示域 K 的扩张，有限超越次数 n。
 
 #### 推论 1 {#alg-v-s14-def-4-cor-1 .statement tag=06S7}
 
-— 令 S 为 E 的子集，使得 E 是 K(S) 上的代数。则 Card(S) ≥ n；如果 S 的基数等于 n，则 S 在 K 上是代数自由的（因此它是 E 对 K 的超越基）。
+— 令 S 为 E 的子集，使得 E 是 K(S) 上的代数。则 Card(S) ≥ n；如果 S 的基数等于 n，则 S 在 K 上是代数自由的（因此它是 E 在 K 上的超越基）。
 
 #### 推论 2 {#alg-v-s14-def-4-cor-2 .statement tag=06S8}
 
@@ -208,7 +208,7 @@ Th。 2 和 3 以及 Def。 4 意味着以下推论，其中 E 表示域 K 的�
 
 因为$F$是$E(T)$的代数；此外，$E(T)$是域$K(S \cup T) = K(S)(T)$的代数，因为$E$是$K(S)$的代数（$V$，p. 18，Cor.2）；因此 ($V$, p. 19, 命题 3) $F$ 是$K(S \cup T)$ 上的代数。另一方面，$T$在$E$上是代数自由的，因此$a fortiori$在$K(S)$上是代数自由的，因此（$V$，p. 107，命题4）$S \cup T$在$K$和$S \cap T = \varnothing$上是代数自由的。
 
-#### 推论{#alg-v-s14-n3-cor-1 .statement tag=06SB}
+#### 推论 {#alg-v-s14-n3-cor-1 .statement tag=06SB}
 
 — 令$K, E$和$F$为三个域，使得$K \subset E \subset F$。然后我们有
 $$
@@ -231,7 +231,7 @@ $$
 
 #### 推论 2 {#alg-v-s14-prop-8-cor-2 .statement tag=06SE}
 
-— 令$\Omega$为域、$K$、$E$和$F$的代数闭扩张，$\Omega$和$u$的两个子扩展，$E$的$K$同构到$F$。如果$E$在$K$上的超越次数是有限的（特别是如果$E$是$K$上的代数），则存在$\Omega$延伸$u$的$K$自同构。
+— 设$\Omega$为域$K$、$E$和$F$的代数闭扩张，$\Omega$和$u$的两个子扩展，$E$的$K$同构到$F$。如果$E$在$K$上的超越次数是有限的（特别是如果$E$是$K$上的代数），则存在$\Omega$延伸$u$的$K$自同构。
 
 让我们用$n, d(E)$和$d(F)$分别表示$E$对$K$的超越次数、$O$对$E$的超越以及$C?$对$F$的超越。 $K$同构$u$的存在表明，$F$对$K$的超越次数等于$n$。由科。的 Th。 4 $\Omega$对$K$的超越次数等于$d(E) + n$，也等于$d(F) + n$。因此（$E$，III，p. 28，第8条命题）我们有$d(E) = d(F)$，我们可以应用第8条命题。
 
@@ -269,7 +269,7 @@ b) 对于 x 是 K 上的 p 自由基，对于所有 $u \in G$ $u(x) = x$ 是必�
 
 #### 注 2 {#alg-v-s14-n5-rem-2 .statement tag=06SJ}
 
-可能会发生 E 是从 F 到 K 的代数不相交的，但不超过 K 的子域 $K_{\|}$。 \* 对于例 C 从自身到 R 的代数不相交的，但不超过 $\mathbf{Q}$。 \*
+可能会出现 E 与 F 在 K 上的代数不相交的，但不超过 K 的子域 $K_{\|}$。 \* 例如，C 在 R 上从自身代数不相交的但不超过 $\mathbf{Q}$。 \*
 
 #### 注 3 {#alg-v-s14-n5-rem-3 .statement tag=06SK}
 
@@ -305,7 +305,7 @@ c) $\Rightarrow$ a) ：这立即来自第 4 条命题 (V，p. 107)。
 
 同理可以证明蕴涵$a) \Rightarrow b) \Rightarrow c' ) \Rightarrow a)$。
 
-#### 推论{#alg-v-s14-n5-cor-1 .statement tag=06SN}
+#### 推论 {#alg-v-s14-n5-cor-1 .statement tag=06SN}
 
 — *令 E 和 F 在 K 上为不相交的。令 E' 为 E 在 L 中的相对代数闭包，F' 为 F* 中的相对代数闭包 (V, p. 19)。 *那么* E' * 和 F'* * 在 K* 上是代数不相交的。
 
@@ -385,11 +385,11 @@ a) *我们有* tr 。 deg_K E \leq \和_{i \in I} \text{tr . deg}_K E_i，*当�
 
 b) *相反，假设* tr 。 deg_K E = \和_{i \in I} \text{tr . deg}_K E_i *和那个* tr 。 deg_K E * 是有限的；那么族* (E_i)_{i \in I}, *在 K* 上是代数自由的。
 
-对于每个 $i \in I$ 令 B_i 为 E_i 对 K 的超越基并放入 $B = \bigcup_{i \in I} B_i$。对于每个$i \in I$，E_i 的每个元素都是 K(B_i) 上的代数，因此是 K(B) 上的代数。现在科. V、p. 18 中的 1 表明 E 是 K(B) 上的代数；由 V、p. 109、Th。 2, B 因此包含 E 对 K 的超越基。此外，如果族 (E_i)_{i \in I} 在 K 上是代数自由的，则 B_i 是不相交的并且集合 B 在 K 上是代数自由的。这建立了 a) (*集合理论*，III，p. 160，Prop. 4）。
+对于每个 $i \in I$ 令 B_i 为 E_i 对 K 的超越基并放入 $B = \bigcup_{i \in I} B_i$。对于每个$i \in I$，E_i 的每个元素都是 K(B_i) 上的代数，因此是 K(B) 上的代数。现在科. V、p. 18 中的 1 表明 E 是 K(B) 上的代数；由 V、p. 109、Th。 2, B 因此包含 E 对 K 的超越基。此外，如果族 (E_i)_{i \in I} 在 K 上是代数自由的，则 B_i 是不相交的并且集合 B 在 K 上是代数自由的。这建立了 a) (*集合理论*、III、p. 160，第 4 号提案）。
 
 在 b) 的假设下，E 是 K(B) 上的代数，并且是 K 上的有限超越次数，并且我们有 Card(B) \leq \text{tr 。 deg}_K E. 作者：Cor。 1 of V, p. 110, B 在 K 上是代数自由的，并且 B_i 是不相交的。现在，第 15 条命题表明族 (E_i)_{i \in I} 在 K 上是代数自由的。
 
-之前陈述下一个定理让我们注存在任意超越次数的K的代数闭扩张，对于有理分式的适当域的例代数闭包。
+之前陈述下一个定理让我们注意到存在任意超越次数的K的代数闭扩张，例如有理分式的适当域的代数闭包。
 
 #### 定理 5 {#alg-v-s14-thm-5 .statement tag=06SW}
 
@@ -422,7 +422,7 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 — *令 E 为域 K 的扩张，B 为 E 对 K 的超越基。为了使 E 在 K (V, p. 11, Def. 2) 上有限生成，B 是有限的且次数 $[E : K(B)]$ 是有限的，这是必要且充分的。*
 
-假设 E 在 K 上有限生成，并令 S 为 E 的有限子集，使得 $E = K(S)$。由 Th. 2 (V, p. 109) S 包含于 E 对 K 的超越基 $B'$，并且与 B (V, p. 110, Th. 3) 具有相同的基数。因此B是有限的。把$K' = K(B)$；那么 E 是 $K'$ 的代数，我们有 $E = K'(S)$；由于 S 是有限的，Th。 V、p. 18中的2表明$[E : K']$是有限的。
+假设 E 在 K 上有限生成，并令 S 为 E 的有限子集，使得 $E = K(S)$。由 Th. 2 (V, p. 109) S 包含于 E 对 K 的超越基 $B'$ 并且这与 B (V, p. 110, Th. 3) 具有相同的基数。因此B是有限的。把$K' = K(B)$；那么 E 是 $K'$ 的代数，我们有 $E = K'(S)$；由于 S 是有限的，Th。 V、p. 18中的2表明$[E : K']$是有限的。
 
 相反，假设 B 是有限的并且 $[E : K(B)]$ 是有限的。如果C是向量空间E在$K(B)$上的（有限）基，我们有$E = K(B)(C) = K(B \cup C)$，所以E是K的有限生成的扩张。
 
@@ -436,16 +436,16 @@ K(B_i)，Cor。 (V, p. 23) 表明 $v_i$ 扩展到 $E_i$ 的 K 同构到 $\Omega$
 
 — *域在其素数子域包含上有限生成单位元的有限多个根。*
 
-由科. 1 我们被简化为证明，即域L，即其素数子域的有限次数的扩张仅拥有单位元的根的有限数。当 L 具有特征 $\neq 0$ 时，这一点很明显，因为它是有限的。如果L的特征为0且包含单位元的无穷多个根，则它是任意高阶的单位元原语包含根。 V、p. 84、周四。 2 因此，存在无穷大的整数$n > 0$，使得$\varphi(n) \leq [L : \mathbf{Q}]$，这是荒谬的（V，p. 80，公式（2）和（3））。
+由科. 1 我们被简化为证明，即域L，即其素数子域的有限次数的扩张仅拥有单位元的根的有限数。当 L 具有特征 $\neq 0$ 时，这一点很明显，因为它是有限的。如果L的特征为0且包含单位元的无穷多个根，则它是任意高阶的单位元原语包含根。 V、p. 84、周四。 2 因此，存在无穷大的整数 $n > 0$，使得$\varphi(n) \leq [L : \mathbf{Q}]$，这是荒谬的（V、p. 80、公式 (2) 和 (3)）。
 
 #### 推论 3 {#alg-v-s14-prop-17-cor-3 .statement tag=06T2}
 
 — *如果 E 是域 K 的有限生成的扩张，则 E 的每个子扩展 E' 都是有限生成的。*
 
-设 B' 是 E' 对 K 的超越基。通过 V、p. 109、Th。 2、B' 包含在 E 对 K 的超越基 B 中，因此根据命题 17 是有限的。因为 E' 是 K(B') 上的代数，并且 E 是 K(B') 的有限生成的扩张。科。图 1 显示 $[E' : K(B')]$ 是有限的。现在，命题 17 表明 E' 是在 K 上有限生成的。
+令 B' 为 E' 对 K 的超越基。通过 V、p. 109、Th。 2、B' 包含在 E 对 K 的超越基 B 中，因此根据命题 17 是有限的。因为 E' 是 K(B') 上的代数，并且 E 是 K(B') 的有限生成的扩张。科。图 1 显示 $[E' : K(B')]$ 是有限的。现在，命题 17 表明 E' 是在 K 上有限生成的。
 
 命题 17 可以用说来解释：K 的有限生成的扩张是纯粹超越的扩张 $K(x_1, \ldots, x_n)$ 的有限次数的代数扩张。
 
-### 习题 {#alg-v-s14-exercises}
+### 习题{#alg-v-s14-exercises}
 
 参见[习题为 § 14](exercises/s14/)。

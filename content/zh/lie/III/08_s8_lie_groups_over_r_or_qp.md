@@ -21,16 +21,16 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: e9077b682af728800b4926c315bb814fee40066142fe8a16669e5c6d04acc113
+content_sha256: e39e98f272839fa7a149d9ba1cdcbf74c7fe8cee45b452aa733af2d0424ef066
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
 translation_method: google
 source_content_sha256: 9a8748db60c9fd84976b7413bf30ec32e2a4b17c04a06e968ec301e544a51660
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 81134980d048290ddc1fea55d884df996c0f05c978503a4eab485539667997bb
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 8。 李群超过$\mathbf{R}$且$\mathbf{Q}_p$
@@ -111,9 +111,9 @@ $$
 
 *设 G 是 e 的拓扑群和 V 开邻域。假设 V 具有解析流形结构，使其成为实数（或 p-adic）李群胚芽。那么 G 是实数（分别为 p-adic）李群.*
 
-让$g \in G$。 G 中存在 $e$ 的开邻域 $V'$，使得 $V' \cup gV'g^{-1} \subset V$。 $V'$到$V$的映射$v \mapsto gv g^{-1}$是连续的，因此是李群胚芽$V'$到李群胚芽$V$的解析态射。那么就足以满足 § 1, no. 9 中的应用命题 18 了。
+让$g \in G$。 G 中存在 $e$ 的开邻域 $V'$，使得 $V' \cup gV'g^{-1} \subset V$。 $V'$到$V$的映射$v \mapsto gv g^{-1}$是连续的，因此是李群胚芽$V'$到李群胚芽$V$的解析态射。那么就足够 § 1, no. 9 中的应用命题 18 了。
 
-#### 注{#lie-iii-s8-n1-rem-1 .statement tag=0AI6}
+#### 注 {#lie-iii-s8-n1-rem-1 .statement tag=0AI6}
 
 (1) 如果 $\mathbf{R}$（或 $\mathbf{Q}_p$）被 $\mathbf{C}$ (习题 1) 取代，定理 1 及其推论不再成立。
 
@@ -121,27 +121,27 @@ $$
 
 #### 命题 1 {#lie-iii-s8-prop-1 .statement tag=0AI7}
 
-*设 G、G' 为拓扑群，且 f 为 G 到 G' 的连续态射。假设以下三种情况之一成立：
+*设 G、G' 是拓扑群，并且 f 是 G 到 G' 的连续态射。假设以下三种情况之一成立：
 (a) G 是实李群并且 G' 是 p 进数李群；
-(b) G 是 p-adic 李群并且 G' 是实李群；
+(b) G 是 p 进数李群，G' 是实李群；
 (c) G 是 p-adic 李群，G' 是 $p'$-adic 李群，且有 $p \neq p'$。
 那么 f 是局部常数。*
 
-案例（一）。设$G_0$为G的恒等分量。则$f(G_0)$是$G'$的连通子群，因此$f(G_0) = \{e\}$和$G_0$在G中开。
+案例（一）。设$G_0$为G的恒等式分量。则$f(G_0)$是$G'$的连通子群，因此$f(G_0) = \{e\}$和$G_0$在G中开。
 
-情况（b）。令$V'$为$G'$中$e$的邻域，使得$G'$的每个子群包含在$V'$约化到$\{e\}$中（§ 4, no. 2，推论1到定理2）。 G 中存在$e$ 的邻域 V，使得$f(V) \subset V'$。则存在 G 的开子群 $G_1$，使得 $G_1 \subset V$ (§ 7, no. 1, 命题 1)。然后$f(G_1) = \{e\}$。
+情况（b）。令$V'$为$G'$中$e$的邻域，使得$G'$的每个子群包含在$V'$约化到$\{e\}$（§ 4, no. 2，推论1到定理2)。 G 中存在$e$ 的邻域 V，使得$f(V) \subset V'$。则存在 G 的开子群 $G_1$，使得 $G_1 \subset V$ (§ 7, no. 1, 命题 1)。然后$f(G_1) = \{e\}$。
 
-情况（c）。根据§ 7、定理 4 以及命题 8 的推论，$G'$ 中存在 $e$ 的邻域 $V'$，因此，对于所有 $x' \in V' - \{e\}$，${x'}^{p^n}$ 不倾向于
+情况（c）。 By § 7, 定理 4 and 推论 to 命题 8, there exists 邻域 $V'$ of $e$ in $G'$ such that, for all $x' \in V' - \{e\}$, ${x'}^{p^n}$ does not tend
 
-† 请参阅例 D. Montgomery 和L。 Zippin，*拓扑变换群*，Interscience 纯数学和应用数学小册子，no. 1，Interscience 出版社，纽约 1955 年（特别是第 169 和 184 页）。
+† 例如参见 D. Montgomery 和 L。 Zippin，*拓扑变换群*，Interscience 纯数学和应用数学小册子，no. 1，Interscience 出版社，纽约 1955 年（特别是第 169 和 184 页）。
 
-到$e$，因为$n$趋于$+\infty$。 $G$中存在$e$的邻域$V$，使得$f(V) \subset V'$。在 § 7、定理 4 和命题 9 时，存在 $G$ 的开子群 $G_1$，使得 $G_1 \subset V$ 并且对于所有 $x \in G_1$，$x^{p^n}$ 趋向于 $e$ $n$趋于$+\infty$。然后$f(G_1) = \{e\}$。
+到$e$，因为$n$趋于$+\infty$。 $G$中存在$e$的邻域$V$，使得$f(V) \subset V'$。 By § 7, 定理 4 and 命题 9, there exists an open 子群 $G_1$ of $G$ such that $G_1 \subset V$ and such that, for all $x \in G_1$, $x^{p^n}$ tends to $e$ as $n$趋于$+\infty$。然后$f(G_1) = \{e\}$。
 
-### 2. 关闭子群
+### 2. 已关闭子群
 
 #### 定理 2 {#lie-iii-s8-thm-2 .statement tag=0AI8}
 
-*令$G$为$\mathbf{R}$或$\mathbf{Q}_p$的有限维李群。 $G$ 的每个闭合子群都是 $G$ 的谎言子群。更一般地，令$U$是$G$中$e$的对称开邻域，而$H$是$U$的非空闭子空间，使得条件$x \in H$、$y \in H$和$xy^{-1} \in U$ 意味着$xy^{-1} \in H$。那么 $H$ 就是 $G$ 的谎言子群萌芽。*
+*令$G$为$\mathbf{R}$或$\mathbf{Q}_p$的有限维李群。 $G$ 的每个闭合子群都是 $G$ 的谎言子群。 More generally, let $U$ be a symmetric open 邻域 of $e$ in $G$ and $H$ a non-empty closed 子空间 of $U$ such that 条件 $x \in H$, $y \in H$ and $xy^{-1} \in U$ 意味着$xy^{-1} \in H$。那么 $H$ 就是 $G$ 的谎言子群萌芽。*
 
 设 $\mathfrak{h}$ 为在 $e$ 处与 $H$ 相切的谎言子代数（§ 4, no. 5，定义 2）。存在$G$的谎言子群胚芽$H_0$与李代数$\mathfrak{h}$并包含在$H$中。我们证明$H_0$在$H$开路，并由$G$诱导拓扑开路。这将证明$H$是$G$的解析子流形，并将建立定理。
 
@@ -181,14 +181,14 @@ $$
 H \cap V = \{ x \in V \mid f_i(x) = f_i(e) \text{ for all } i \in I \}.
 $$
 
-(i) *如果 $K = \mathbf{C}$，$H$ 是子群的$G$。*
+(i) *如果 $K = \mathbf{C}$，$H$ 是子群 $G$。*
 (ii) *如果$K$是$\mathbf{Q}_p$的有限扩张且$I$是有限的，则$H$是$G$的谎言子群。*
 
 (i) 假设$K = \mathbf{C}$。我们将$G$视为实李群。那么 $H$ 是 $G$ (定理 2) 的真谎言子群。让$a \in L(H)$。 $\mathbf{C}$ 中存在$0$ 的连通开邻域 $W$，使得$\exp \lambda a \in V$ 对于所有$\lambda \in W$。让$i \in I$。那么$f_i(\exp \lambda a) = f_i(e)$如果$\lambda \in \mathbf{R} \cap W$。因此 $f_i(\exp \lambda a) = f_i(e)$ if $\lambda \in W$ 通过解析延拓。因此，$\exp \lambda a \in H$适用于$\lambda \in W$，因此$\mu a \in L(H)$适用于所有$\mu \in \mathbf{C}$。因此 $H$ 是复数李群 $G$ (§ 4, no. 2, 命题 2) 的谎言子群。
 
 (ii) 假设$K$是$\mathbf{Q}_p$的有限扩张。我们将$G$视为李群超过$\mathbf{Q}_p$。它是有限维的，并且定理 2 意味着 $H$ 是 $G$ 的 $p$ 进数谎言子群。由于$I$是有限的，$\prod_{i \in I} M_i$是流形，并且可以假设族$(f_i)$约化到单个映射$f$。让$a \in L(G)$。令$\phi$为$G$的指数映射。那么$f(\phi(\lambda a)) = f(e)$对于$\lambda \in \mathbf{Q}_p$和$|\lambda|$足够小。由于$f$是K解析的，因此$f(\phi(\lambda a)) = f(e)$对于$\lambda \in K$和$|\lambda|$足够小。因此，$\phi(\lambda a) \in H$对于$\lambda \in K$和$|\lambda|$足够小，因此$\mu a \in L(H)$对于所有$\mu \in K$。 证明如 (i) 所示完成。
 
-如果我们忽略假设 I 是有限的，则推论 2 (ii) 不再成立。
+如果我们忽略假设 I 是有限的，推论 2 (ii) 就不再成立。
 
 ### 习题 {#lie-iii-s8-exercises}
 

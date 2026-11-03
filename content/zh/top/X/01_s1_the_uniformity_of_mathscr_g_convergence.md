@@ -36,25 +36,25 @@ subsections:
       pdf_page: 286
 statements: 33
 exercises: 12
-content_sha256: 13417e2aaab5235c950f72ef599df8dbc709dc6cf0f0a6d9601582657899cf34
+content_sha256: 0458f3b20e66448cc93f0fa4443116454a62b2ee819df0de499b70ed4e062804
 translated_from: content/en/top/X/01_s1_the_uniformity_of_mathscr_g_convergence.md
 translation_method: google
 source_content_sha256: 745807f99ebf8ccad98600e79411f1137bc903046fec07540ab638fc2319dece
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c9d06d7461dc5dc4259a8f5833f7c9db76b1d982a6a56ba9e06e0781d24d874c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. $\mathscr{G}$收敛的均匀性
 
-记号。如果$X$和$Y$是任意两个集合，我们记得$X$到$Y$的所有映射中的集合用$\mathscr{F}(X; Y)$表示，并且可以用乘积集合$Y^X$来标识（集合理论，章II, § 5, no. 2）。对于$\mathscr{F}(X; Y)$的每个子集$H$和每个$x \in X$，我们将用元素$u(x) \in Y$的$H(x)$集合表示，因为$u$贯穿$H$。如果$\Phi$是$\mathscr{F}(X; Y)$上的过滤器基，我们用$\Phi(x)$表示由集合$H(x)$形成的$Y$上的过滤器基，因为$H$穿过$\Phi$。最后，我们记得，对于$X$的每个$u \in \mathscr{F}(X; Y)$和每个子集$A$，$u|A$表示$u$到$A$的限制，即$A$的映射到$Y$；如果$H$是$\mathscr{F}(X; Y)$的子集，$H|A$将表示函数$u \in H$的限制$u|A$集合。
+记号。如果$X$和$Y$是任意两个集合，我们记得$X$到$Y$的所有映射中的集合用$\mathscr{F}(X; Y)$表示，并且可以用乘积集合$Y^X$来标识（集合理论、章II, § 5, no. 2）。对于$\mathscr{F}(X; Y)$的每个子集$H$和每个$x \in X$，我们将用元素$u(x) \in Y$的$H(x)$集合表示，因为$u$穿过$H$。如果$\Phi$是$\mathscr{F}(X; Y)$上的过滤器基，我们用$\Phi(x)$表示由集合$H(x)$形成的$Y$上的过滤器基，因为$H$穿过$\Phi$。最后，我们记得，对于$X$的每个$u \in \mathscr{F}(X; Y)$和每个子集$A$，$u|A$表示$u$到$A$的限制，即$A$的映射到$Y$；如果$H$是$\mathscr{F}(X; Y)$的子集，则$H|A$将表示函数$u \in H$的限制$u|A$的集合。
 
 ### 1. 均匀收敛的均匀性
 
-令$X$为集合，令$Y$为均匀空间。 For each entourage $V$ of $Y$, let $W(V)$ denote the set of all pairs $(u, v)$ of mappings of $X$ into $Y$ such that $(u(x), v(x)) \in V$ for all $x \in X$. 由于$V$贯穿$Y$周边的集合，集合$W(V)$形式是$\mathscr{F}(X; Y)$上均匀性的基本系统周边。 因为他们显然满足公理$(U'_1)$（章II, § 1, no. 1）；如果$V, V'$是$Y$的两个随从，使得$V \subset V'$，我们有$W(V) \subset W(V')$，因此集合$W(V)$满足
+令$X$为集合，令$Y$为均匀空间。 对于$Y$的每个随行$V$，让$W(V)$表示$X$到$Y$的映射的所有对$(u, v)$的集合，使得$(u(x), v(x)) \in V$对于所有$x \in X$。 由于$V$贯穿$Y$周边的集合，集合$W(V)$形式是$\mathscr{F}(X; Y)$上均匀性的基本系统周边。 因为他们显然满足公理$(U'_1)$（章II, § 1, no. 1）；如果$V, V'$是$Y$的两个随从，使得$V \subset V'$，我们有$W(V) \subset W(V')$，因此集合$W(V)$满足
 
 $(B_1)$（章I, § 6, no. 3）；我们有$\widehat{W(V)} = W(\overline{V})$，所以满足$(U''_{II})$；最后，关系“$(u(x), v(x)) \in V$对于所有$x \in X$”和“$(v(x), w(x)) \in V$对于所有$x \in X$”意味着关系“$(u(x), w(x)) \in \overline{V}^2$对于所有$x \in X$”；在其他字中，我们有$\widehat{W(V)} \subset W(\overline{V}^2)$，这证明了$(U'''_{III})$。
 
@@ -62,7 +62,7 @@ $(B_1)$（章I, § 6, no. 3）；我们有$\widehat{W(V)} = W(\overline{V})$，�
 
 *uniformity on 集合 $\mathscr{F}(X; Y)$ which has as a fundamental 系统 of entourages 集合 of 子集 $W(V)$, where $V$ runs through 集合 of entourages of $Y$, is called the uniformity of uniform convergence. 拓扑它诱导称为一致收敛的拓扑。如果$\mathscr{F}(X; Y)$上的滤波器$\Phi$相对于此拓扑收敛到元素$u_0$，则称$\Phi$均匀收敛到$u_0$。*
 
-注，$\mathscr{F}(X; Y)$上一致收敛的*拓扑*取决于$Y$的一致结构，而不仅仅取决于$Y$（习题4）的拓扑。
+请注意，$\mathscr{F}(X; Y)$ 上一致收敛的*拓扑* 取决于$Y$ 的一致结构，而不仅仅取决于$Y$ (习题 4) 的拓扑。
 
 赋予$\mathscr{F}(X; Y)$一致收敛的一致性而得到的一致空间记为$\mathscr{F}_u(X; Y)$。
 
@@ -70,9 +70,9 @@ $(B_1)$（章I, § 6, no. 3）；我们有$\widehat{W(V)} = W(\overline{V})$，�
 
 #### 定义 2 {#top-x-s1-def-2 .statement tag=0CAS}
 
-*Let $X$ be a set, $Y$ a uniform space, $\mathfrak{S}$ a set of subsets of $X$. $\mathfrak{S}$的集合均匀收敛的均匀性，或者简称为$\mathfrak{S}$收敛的均匀性，是$\mathscr{F}(X; Y)$上的最粗均匀性，它使得$\mathscr{F}(X, Y)$的均匀连续限制映射$u \to u|A$变成均匀的空间 $\mathscr{F}_u(A; Y)$，其中$A$穿过$\mathfrak{S}$。 赋予$\mathscr{F}(X; Y)$均匀性$\mathfrak{S}$收敛性，得到均匀空间记为$\mathscr{F}_{\mathfrak{S}}(X; Y)$。*
+*设$X$是一个集合，$Y$是一个均匀空间，$\mathfrak{S}$是$X$的子集的集合。 $\mathfrak{S}$的集合均匀收敛的均匀性，或者简称为$\mathfrak{S}$收敛的均匀性，是$\mathscr{F}(X; Y)$上的最粗均匀性，它使得$\mathscr{F}(X, Y)$的均匀连续限制映射$u \to u|A$变成均匀的空间 $\mathscr{F}_u(A; Y)$，其中$A$穿过$\mathfrak{S}$。 赋予$\mathscr{F}(X; Y)$均匀性$\mathfrak{S}$收敛性，得到均匀空间记为$\mathscr{F}_{\mathfrak{S}}(X; Y)$。*
 
-由$\mathfrak{S}$收敛的均匀性引起的拓扑称为$\mathfrak{S}$收敛*的*拓扑；它是最粗糙的，其中 $\mathscr{F}(X; Y)$ 到 $\mathscr{F}_u(A; Y)$ ($A \in \mathfrak{S}$) 的所有映射 $u \to u|A$ 都是连续的（章 II, § 2, no. 3、命题 4，推论）。
+由$\mathfrak{S}$收敛的均匀性引起的拓扑称为$\mathfrak{S}$收敛*的*拓扑；它是最粗糙的，其中 $\mathscr{F}(X; Y)$ 到 $\mathscr{F}_u(A; Y)$ ($A \in \mathfrak{S}$) 的所有映射 $u \to u|A$ 都是连续的 (章 II, § 2, no. 3、命题 4、推论)。
 
 $\mathscr{F}(X; Y)$上的滤波器$\Phi$相对于$\mathfrak{S}$的拓扑收敛到$u_0$，当且仅当$u|A$对于所有$A \in \mathfrak{S}$（章）相对于$\Phi$一致收敛到$u_0|A$ I, § 7, no. 6、命题 10)，因此$\Phi$*一致收敛到$u_0$于$\mathfrak{S}$的集合*。
 
@@ -80,7 +80,7 @@ $\mathscr{F}_{\mathfrak{S}}(X; Y)$上的滤波器基$\Phi$是柯西滤波器基�
 
 令 $f$ 为拓扑（或均匀）空间 $Z$ 到 $\mathscr{F}_{\mathfrak{S}}(X; Y)$ 的映射。那么 $f$ 是连续的（或一致连续的）当且仅当，对于 $Z$ 到 $\mathscr{F}_u(A; Y)$ 的每个 $A \in \mathfrak{S}$、映射 $z \to f(z)|A$ 是连续的（或一致连续的）（章 I, § 2, no. 3、命题 4； 章II, § 2, no. 3、命题4)。
 
-Finally, let $M$ be a subset of $\mathscr{F}_{\mathfrak{S}}(X; Y)$; then $M$ is precompact if and only if, for each $A \in \mathfrak{S}$, the set of restrictions $u|A$ for $u \in M$ is a precompact subset of $\mathscr{F}_u(A; Y)$ (Chapter II, § 4, no. 2, Proposition 3).
+最后，令$M$为$\mathscr{F}_{\mathfrak{S}}(X; Y)$的子集；那么$M$是预紧的，当且仅当对于每个$A \in \mathfrak{S}$，$u \in M$的限制集$u|A$是$\mathscr{F}_u(A; Y)$的预紧子集（II, § 4, no. 2章，命题3）。
 
 #### 注 1 {#top-x-s1-n2-rem-1 .statement tag=0CAT}
 
@@ -134,9 +134,9 @@ I。 *在*$X$的子集均匀收敛。令$A$为$X$的子集并取$\mathscr{G} = \
 
 II。 *在*$X$的子集中逐点收敛。令$A$为$X$中的子集，并取$\mathscr{G}$为$X$中所有子集中的集合，其中子集由单个点属于到$A$组成（通过注 2 of no. 2 如果我们将 $\mathscr{G}$ 视为集合中的有限子集 $A$，则结果是一样的）。 $\mathscr{G}$收敛的均匀性（分别为拓扑）被称为*$A$中逐点收敛的*均匀性*（分别为*拓扑*）；如果$\mathscr{F}_\mathscr{G}(X; Y)$上的过滤器$\Phi$收敛到$u_0$，则据说在*$A$*逐点收敛到$u_0$。当且仅当对于每个 $x \in A$，$u_0(x)$ 相对于过滤器 $\Phi$ 是 $u(x)$ 的极限时，才会出现这种情况。
 
-特别是，当$A = X$时，$X$中逐点收敛的均匀性（相应于拓扑）简称为逐点收敛*的*均匀性*（相应于*拓扑*）；将这个结构赋予$\mathscr{F}(X; Y)$得到的均匀空间用$\mathscr{F}_s(X; Y)$表示。 注，逐点收敛的拓扑只是$Y^X$上的*乘积* 拓扑，因此仅取决于$Y$的拓扑，而不取决于其一致的结构。
+特别是，当$A = X$时，$X$中逐点收敛的均匀性（相应于拓扑）简称为逐点收敛*的*均匀性*（相应于*拓扑*）；将这个结构赋予$\mathscr{F}(X; Y)$得到的均匀空间用$\mathscr{F}_s(X; Y)$表示。请注意，逐点收敛的拓扑只是 $Y^X$ 上的 *乘积* 拓扑，因此仅取决于 $Y$ 的拓扑，而不取决于其统一的结构。
 
-III。紧凑收敛。假设$X$是拓扑空间，并取$\mathscr{S}$为$X$的所有紧致子集的集合。 $\mathscr{S}$收敛的均匀性（拓扑）则称为紧收敛的均匀性（拓扑），而通过赋予$\mathscr{F}(X; Y)$这种均匀性而获得的均匀空间表示为$\mathscr{F}_c(X; Y)$。紧致收敛的结构比一致收敛更粗，如果$X$是紧致的，则两个重合；而且逐点收敛的更细比结构大，如果$X$是离散的，这两个重合。
+III。紧凑收敛。假设$X$是拓扑空间，并取$\mathscr{S}$为$X$的所有紧致子集中的集合。 $\mathscr{S}$收敛的均匀性（拓扑）则称为紧收敛的均匀性（拓扑），而通过赋予$\mathscr{F}(X; Y)$这种均匀性而获得的均匀空间表示为$\mathscr{F}_c(X; Y)$。紧致收敛的结构比一致收敛更粗，如果$X$是紧致的，则两个重合；逐点收敛性也比更细大于结构，如果$X$是离散的，这两个重合。
 
 如果$X$是一致的空间，我们可以通过将$\mathscr{S}$取为$X$的所有预紧式子集的集合来在$\mathscr{F}(X; Y)$预紧式收敛的一致性上得到定义。同样，如果$X$是一个度量空间，我们可以将$\mathscr{S}$视为$X$的所有有界子集中的集合； $\mathscr{S}$-收敛的一致性称为有界收敛的一致性。
 
@@ -144,11 +144,11 @@ III。紧凑收敛。假设$X$是拓扑空间，并取$\mathscr{S}$为$X$的所�
 
 #### 命题 2 {#top-x-s1-prop-2 .statement tag=0CB0}
 
-令$X_1, X_2$为两个集合，令$Y$为统一的空间，令$\mathscr{S}_i$为$X_i$($i = 1, 2$)子集集合及$\mathscr{S}_1 \times \mathscr{S}_2$集合形式 $A_1 \times A_2$ $X_1 \times X_2$ 子集，其中 $A_i \in \mathscr{S}_i, i = 1, 2$。然后是规范的双射
+令$X_1, X_2$为两个集合，令$Y$为统一的空间，令$\mathscr{S}_i$为$X_i$($i = 1, 2$)的子集集合和$\mathscr{S}_1 \times \mathscr{S}_2$集合子集 / $X_1 \times X_2$ / 形式 $A_1 \times A_2$，其中$A_i \in \mathscr{S}_i, i = 1, 2$。然后是规范的双射
 $$
 \mathscr{F}(X_1 \times X_2; Y) \to \mathscr{F}(X_1; \mathscr{F}(X_2; Y))
 $$
-（集合理论，R，§ 4, no. 14）是均匀空间的同构
+（集合理论，R，§ 4, no. 14）是制服空间的同构
 $$
 \mathscr{F}_{\mathscr{S}_1 \times \mathscr{S}_2}(X_1 \times X_2; Y)
 $$
@@ -158,7 +158,7 @@ $$
 
 #### 命题 3 {#top-x-s1-prop-3 .statement tag=0CB1}
 
-a) 设$X$为集合；设$\mathscr{S}$为$X$子集集合；令$Y, Y'$为两个统一的空间；令$f : Y \to Y'$为均匀连续的映射。那么$\mathscr{F}_\mathscr{S}(X; Y)$入$\mathscr{F}_\mathscr{S}(X; Y')$的映射$u \to f \circ u$是均匀连续的。
+a) 设$X$为集合；令$\mathscr{S}$为$X$子集集合；设$Y, Y'$为两个统一的空间；令 $f : Y \to Y'$ 为均匀连续的映射。那么$\mathscr{F}_\mathscr{S}(X; Y)$到$\mathscr{F}_\mathscr{S}(X; Y')$的映射$u \to f \circ u$是均匀连续的。
 
 b) 设$X, X'$为二集合；令$\mathscr{S}$（或$\mathscr{S}'$）为$X$（或$X'$）的子集集合；设$Y$为统一的空间；并令$g : X' \to X$为映射，使得对于每个$A' \in \mathscr{S}'$，$g(A')$包含在$\mathscr{S}$的集合的有限并中。那么$\mathscr{F}_\mathscr{S}(X, Y)$到$\mathscr{F}_{\mathscr{S}'}(X'; Y)$的映射$u \to u \circ g$是均匀连续的。
 
@@ -170,7 +170,7 @@ b) 设$X, X'$为二集合；令$\mathscr{S}$（或$\mathscr{S}'$）为$X$（或$
 
 #### 推论{#top-x-s1-n4-cor-1 .statement tag=0CB3}
 
-令$X$为集合，令$(Y_i)_{i \in I}$为制服空间家族，令$\mathscr{S}$为$X$子集集合。如果我们赋予 $\prod_{i \in I} Y_i$ 乘积均匀性，则均匀空间 $\mathscr{F}_\mathscr{S}(X, \prod_{i \in I} Y_i)$ 到乘积均匀空间 $\prod_{i \in I} \mathscr{F}_\mathscr{S}(X; Y_i)$ 的规范双射 （集合理论，R，§ 4, no. 13）为同构。
+令$X$为集合，令$(Y_i)_{i \in I}$为制服空间家族，令$\mathscr{S}$为$X$子集集合。如果我们赋予 $\prod_{i \in I} Y_i$ 乘积均匀性，则将均匀空间 $\mathscr{F}_\mathscr{S}(X, \prod_{i \in I} Y_i)$ 的规范双射转移到乘积均匀空间 $\prod_{i \in I} \mathscr{F}_\mathscr{S}(X; Y_i)$ (集合理论, R, § 4, no. 13）是同构。
 
 ### 5. 完成子集 / $\mathscr{F}_\mathscr{S}(X; Y)$
 
@@ -188,21 +188,21 @@ $\mathscr{F}_\mathscr{S}(X; Y)$的子空间$H$是完备的，当且仅当对于$
 
 #### 推论 2 {#top-x-s1-prop-5-cor-2 .statement tag=0CB6}
 
-令$\mathscr{S}_1, \mathscr{S}_2$为$X$的子集中的两个集合，其并相同且满足$\mathscr{S}_1 \subset \mathscr{S}_2$，并令$H$为$\mathscr{F}(X; Y)$的子集。那么如果$H$对于$\mathscr{S}_1$收敛是完备的，那么它对于$\mathscr{S}_2$收敛也是完备的。
+令$\mathscr{S}_1, \mathscr{S}_2$为$X$的子集的两个集合，其并相同且满足$\mathscr{S}_1 \subset \mathscr{S}_2$，并令$H$为$\mathscr{F}(X; Y)$的子集。那么如果$H$对于$\mathscr{S}_1$收敛是完备的，那么它对于$\mathscr{S}_2$收敛也是完备的。
 
-对于每个关于$\mathscr{G}_2$收敛的柯西滤波器也是关于$\mathscr{G}_1$收敛的柯西滤波器，我们可以应用推论1。
+对于每个关于$\mathscr{G}_2$收敛的柯西滤波器也是关于$\mathscr{G}_1$收敛的柯西滤波器，并且我们可以应用推论1。
 
 #### 推论 3 {#top-x-s1-prop-5-cor-3 .statement tag=0CB7}
 
-*令 $H$ 为 $\mathscr{F}(X; Y)$ 的子集，这样对于每个*
+*令 $H$ 为 $\mathscr{F}(X; Y)$ 的子集，这样，对于每个*
 $$
 x \notin B = \bigcup_{A \in \mathscr{G}} A,
 $$
 *$Y$中$H(x)$的闭包是$Y$的完整子空间。那么$\mathscr{F}_{\mathscr{G}}(X; Y)$中$H$的闭包$\overline{H}$就是一个完整的子空间。*
 
-令$\Phi$为$\overline{H}$和定义映射$v : X \to Y$的柯西滤波器，如下所示。如果$x \in B$，$\Phi(x)$是$\overline{H(x)}$（no. 2，注 6）上的柯西滤波器，因此到假设它至少有一个极限点；取 $v(x)$ 为其中极限之一。如果$x \notin B$，取$v(x)$为$Y$中的任意点。通过$v$的定义，很明显$\Phi$在$B$中逐点收敛到$v$，因此$v$是$\mathscr{F}_{\mathscr{G}}(X; Y)$中$\Phi$的极限乘命题5。
+令$\Phi$为$\overline{H}$和定义映射$v : X \to Y$的柯西滤波器，如下所示。如果$x \in B$，$\Phi(x)$是$\overline{H(x)}$（no. 2，注6）上的柯西滤波器，因此到假设它至少有一个极限点；取 $v(x)$ 为其中极限之一。如果$x \notin B$，则取$v(x)$为$Y$中的任意点。通过$v$的定义，很明显$\Phi$在$B$中逐点收敛到$v$，因此$v$是$\mathscr{F}_{\mathscr{G}}(X; Y)$中$\Phi$的极限乘命题5。
 
-特别地，如果$Y$完整，则对于每个$H \subset \mathscr{F}(X; Y)$，满足命题5的推论3中的假设；因此：
+特别地，如果$Y$完整，则对于每个$H \subset \mathscr{F}(X; Y)$满足命题5中的推论3中的假设；因此：
 
 #### 定理 1 {#top-x-s1-thm-1 .statement tag=0CB8}
 
@@ -222,7 +222,7 @@ $$
 
 **连续映射空间的 G 收敛**
 
-#### 推论{#top-x-s1-n6-cor-1 .statement tag=0CBA}
+#### 推论 {#top-x-s1-n6-cor-1 .statement tag=0CBA}
 
 *设 B 为 X 的稠密子集。在$C(X; Y)$上，一致收敛的结构与B中一致收敛的结构相同。*
 
@@ -232,7 +232,7 @@ $$
 
 因为如果$(u, v)$属于对所有集合$W(A, V)$，其中$A \in \mathfrak{S}$和V是Y的随从，假设Y是Hausdorff告诉我们$u(x) = v(x)$对所有$x \in B$；如果$u$和$v$连续，则$u = v$乘以扩张的原理恒等式（章I, § 8, no. 1，命题2，推论1）。
 
-特别是，在 $C(X; Y)$ 上，X 的*密集* 子集中的点向收敛拓扑是 Hausdorff。
+特别是，在 $C(X; Y)$ 上，X 的“密集”子集中的逐点收敛的拓扑是 Hausdorff。
 
 #### 命题 8 {#top-x-s1-prop-8 .statement tag=0CBC}
 
@@ -244,7 +244,7 @@ $$
 
 *设X为拓扑空间，Y为均匀空间。 X的映射到Y的集合在点连续$x_0 \in X$在$F_u(X; U)$封闭。*
 
-如果V是X中$x_0$的邻域过滤器，则$u(x_0)$是$u(V)$的集群点；因此，当且仅当$u(V)$是Y上的柯西滤波器基时，$u$在$x_0$连续（章II, § 3, no. 2，命题5，推论2）。
+如果V是X中$x_0$的邻域过滤器，则$u(x_0)$是$u(V)$的集群点；因此，当且仅当$u(V)$是Y上的柯西滤波器基（章II, § 3, no. 2，命题5，推论2）时，$u$在$x_0$连续。
 
 #### 推论 2 {#top-x-s1-prop-8-cor-2 .statement tag=0CBE}
 
@@ -252,13 +252,13 @@ $$
 
 因为 v 位于 $F_u(X; Y)$ 中 $u_\lambda$ 的集合的闭包中，因此凭借命题 8，$v(\mathfrak{T})$ 是 Y 上的柯西滤波器基；这表明 v 对于 $\mathfrak{T}$ 有极限 y，因为 Y 是完整的。让
 
-X' = X \cup \{ \omega \} be the topological space associated with the filter $\mathscr{F}$ (Chapter I, § 6, no. 5), and extend $u_\lambda$ (resp. $v$) to a mapping $\bar{u}_\lambda$ (resp. $\bar{v}$) of $X'$ into $Y$ by putting $\bar{u}_\lambda(\omega) = y_\lambda$ [resp. $\bar{v}(\omega) = y$]. 则映射$\bar{u}_\lambda, \bar{v}$在$X'$上连续，$\bar{u}_\lambda$相对于$\mathscr{G}$在$X$均匀收敛到$\bar{v}$；由于 $X$ 在 $X'$ 中稠密，命题 6 的推论表明 $\bar{u}_\lambda$ 在 $X'$ 到 $\bar{v}$ 中均匀收敛，特别是 $y = \lim_{\mathscr{G}} y_\lambda$。
+X' = X \cup \{ \omega \} 是与滤波器$\mathscr{F}$（第I, § 6, no. 5章）关联的拓扑空间，并将$u_\lambda$（或$v$）扩展到$X'$的映射$\bar{u}_\lambda$（或$\bar{v}$）到$Y$ 通过放置$\bar{u}_\lambda(\omega) = y_\lambda$ [分别。 $\bar{v}(\omega) = y$]。 则映射$\bar{u}_\lambda, \bar{v}$在$X'$上连续，$\bar{u}_\lambda$相对于$\mathscr{G}$在$X$均匀收敛到$\bar{v}$；由于$X$在$X'$是稠密的，推论到命题6表明$\bar{u}_\lambda$在$X'$到$\bar{v}$均匀收敛，特别是$y = \lim_{\mathscr{G}} y_\lambda$。
 
 #### 定理 2 {#top-x-s1-thm-2 .statement tag=0CBF}
 
 *令$X$为拓扑空间，$Y$为均匀空间。那么$X$的连续映射到$Y$的集合$C(X; Y)$就是空间$F(X; Y)$的闭子集，且拓扑具有一致收敛性。*
 
-对于每个$x \in X$，$X$的映射到$Y$的集合在$x$连续，在$F_u(X; Y)$中闭合（命题8，推论1）；因此，这些集合中的交 $C(X; Y)$ 也被关闭。
+对于每个$x \in X$，$X$的映射到$Y$的集合在$x$连续，在$F_u(X; Y)$中闭（命题8，推论1）；因此，这些集合中的交 $C(X; Y)$ 也被关闭。
 
 这个结果可以用形式来表示，即*连续函数的均匀极限是连续的*。
 
@@ -278,9 +278,9 @@ X' = X \cup \{ \omega \} be the topological space associated with the filter $\m
 
 *令$X$为拓扑空间，其可度量或局部紧凑，并令$Y$为均匀空间。那么$C(X; Y)$在均匀空间$F_c(X; Y)$中闭合；如果加法 $Y$ 已完成，则制服空间 $C_c(X; Y)$ 已完成。*
 
-根据推论 2，足以证明，如果我们将 $\mathscr{S}$ 视为 $X$ 的紧凑子集的集合，则在考虑的两种情况下我们都有 $\tilde{C}_\mathscr{S}(X; Y) = C(X; Y)$。如果 $X$ 是局部紧致的，这一点是很清楚的。如果$X$是可度量的，并且$u : X \to Y$是映射，其限制对于$X$的每个紧凑子集是连续的，那么对于$x \in X$和$X$的点的每个序列$(z_n)$，收敛到$x$，我们有$u(x) = \lim_{n \to \infty} u(z_n)$，因此$u$在$x$连续（章IX, § 2, no. 6，命题10）。
+凭借推论 2 就足以证明，如果我们将$\mathscr{S}$视为$X$的紧凑子集的集合，则在考虑的两种情况下我们都有$\tilde{C}_\mathscr{S}(X; Y) = C(X; Y)$。如果 $X$ 是局部紧致的，这一点是很清楚的。如果$X$是可度量的，并且$u : X \to Y$是映射，其限制对于$X$的每个紧凑子集是连续的，那么对于$x \in X$和$X$的点的每个序列$(z_n)$，收敛到$x$，我们有$u(x) = \lim_{n \to \infty} u(z_n)$，因此$u$在$x$连续（章IX, § 2, no. 6，命题10）。
 
-注只要$x$的每个点都有一个邻域的“可数”基数系统，上述论点就适用。
+请注意，只要 $x$ 的每个点都有一个“可数”基本系统邻域，上述论点就适用。
 
 #### 注 1 {#top-x-s1-n6-rem-1 .statement tag=0CBJ}
 
@@ -290,7 +290,7 @@ X' = X \cup \{ \omega \} be the topological space associated with the filter $\m
 
 $\mathscr{C}(X; Y)$ 上的滤波器可以*逐点*收敛到*连续*函数，而不均匀收敛到这个函数。
 
-对于例，在区间$I = [0, 1]$上，令$u_n$为实值函数，对于$x = 0$和$2/n \leq x \leq 1$等于0，对于$x = 1/n$等于1，并且在每个区间$[0, 1/n]$和$[1/n, 2/n]$中都是线性的。 序列$(u_n)$逐点收敛于0，但在$I$（cf.习题6）中不均匀收敛于0。
+例如，在区间$I = [0, 1]$上，令$u_n$为实值函数，对于$x = 0$和$2/n \leq x \leq 1$等于0，对于$x = 1/n$等于1，并且在区间$[0, 1/n]$和$[1/n, 2/n]$中都是线性的。 序列$(u_n)$逐点收敛于0，但在$I$（cf.习题6）中不均匀收敛于0。
 
 #### 注 3 {#top-x-s1-n6-rem-3 .statement tag=0CBL}
 

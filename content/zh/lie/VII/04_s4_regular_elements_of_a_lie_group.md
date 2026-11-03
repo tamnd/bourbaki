@@ -29,16 +29,16 @@ subsections:
       pdf_page: 44
 statements: 18
 exercises: 4
-content_sha256: 04394d470ee96d507072de662e5f719d515b4e7c5593bddf46e041334cbab770
+content_sha256: 9d2de7593109541f67aafa664692e2faf58b65c13123441f738862d4409cce81
 translated_from: content/en/lie/VII/04_s4_regular_elements_of_a_lie_group.md
 translation_method: google
 source_content_sha256: 1839a11c4384fe28967cd541901f8ab98cc088922894403c4f8106b9bf54bee7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5bc48eda83d31966cfbf0a5e8351b81bdd40b2e75bb0fd8e6706a9da1bfec15c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。 正则元素 / 李群
@@ -113,7 +113,7 @@ G 的解析线性表示 $\rho$ 的正则点是邻域中 G 的点，其中 $r_{\r
 
 设$G^*$是G的开子群。对于G的线性表示$\rho$，元素$a\in G^*$是G的正则元素当且仅当它是线性表示$\rho |G^*$的$G^*$的正则元素。
 
-### 2. 正则元素李群
+### 2. 正则元素 / 李群
 
 #### 定义 2 {#lie-vii-s4-def-2 .statement tag=00VZ}
 
@@ -123,7 +123,7 @@ G 的解析线性表示 $\rho$ 的正则点是邻域中 G 的点，其中 $r_{\r
 
 #### 命题 2 {#lie-vii-s4-prop-2 .statement tag=00W0}
 
-令$G'$是$k$上的有限维李群，而$f$是从G到$G'$的开态射。 G的正则元素$f$下的像是$G'$正则元素。如果$f$的核包含在G的中心中，则元素$g\in G$是规则的当且仅当$f(g)$是规则的。
+令$G'$是$k$上的有限维李群，并且$f$是从G到$G'$的开态射。 G的正则元素$f$下的像是$G'$正则元素。如果$f$的核包含在G的中心中，则元素$g\in G$是规则的当且仅当$f(g)$是规则的。
 
 事实上，让$\mathfrak{g}'$是$G'$的李代数，而$\mathfrak{h}$是$\mathfrak{g}$中的理想，由$Tf|\mathfrak{g}$的核给出。对于所有$g\in G$，令$\rho$为$\mathfrak{h}$上G的线性表示，由$\rho (g) =$Ad$g|\mathfrak{h}$定义，并令Ad$\circ f$为$\mathfrak{g}'$上G的线性表示，由$f$与$G'$ 的伴随表示。这些线性表示定义正合序列 G 模块：
 
@@ -169,11 +169,11 @@ $f: (x, y) \rightarrow$（经验$y$）$a$（经验$x$）（经验$y$）$^{-1}$
 
 放入$\mathfrak{g}^1=\mathfrak{g}^1(a)$并令$\mathfrak{g}=\mathfrak{g}^1+\mathfrak{g}^+$为Ad($a$)$-1 ($§1, no. 1)的Fitting 分解。设 H 是 G 的谎言子群胚芽，具有李代数 $\mathfrak{g}^1$。对于所有 $h\in H$，Ad($h$)$\mathfrak{g}^1\subset \mathfrak{g}^1$。从$[\mathfrak{g}^1,\mathfrak{g}^+]\subset \mathfrak{g}^+$开始，H中存在$e$的邻域U，使得对于所有$h\in H$来说Ad($h$)$\mathfrak{g}^+\subset \mathfrak{g}^+$。由于Ad($a$)$-1$到$\mathfrak{g}^+$的限制是双射的，因此可以选择U使得Ad($ah$)$-1$到$\mathfrak{g}^+$的限制对于所有$h\in U$都是双射的。然后 $\mathfrak{g}^1(ah)\subset \mathfrak{g}^1(a) =\mathfrak{g}^1$ 代表所有 $h\in U$。通过命题 4，Int(W)($aU$) 是 G 中 $a$ 的邻域。如果 $a'\in$ Int(W)($aU$)，则 $a'=g(ah)g^{-1}$ 与 $g\in W$ 和 $h\in U$；由此可知 $\mathfrak{g}^1(a') =$ Ad($g$)$\mathfrak{g}^1(ah)\subset$ Ad($g$)$\mathfrak{g}^1(a)$。
 
-#### 推论{#lie-vii-s4-n2-cor-1 .statement tag=00W5}
+#### 推论 {#lie-vii-s4-n2-cor-1 .statement tag=00W5}
 
 令$G^*$为G的开子群。如果$a\in G$是正则，则存在$a$的邻域V，使得对于所有$a'\in V,\mathfrak{g}^1(a')$来说，在Ad($G^*$)下，共轭到$\mathfrak{g}^1(a)$。
 
-### 3. 关系与正则元素的李代数
+### 3. 关系正则元素李代数
 
 #### 命题 6 {#lie-vii-s4-prop-6 .statement tag=00W6}
 
@@ -235,7 +235,7 @@ $r_{Ad}(a) =$ 暗淡$\mathfrak{g}^1(a) =l=r_{Ad}^0(a)$，
 
 (iii) 如果$a\in G^*$，则$\mathfrak{g}^1(a)$的每个嘉当子代数是$\mathfrak{g}$的嘉当子代数。
 
-(i) 根据命题 6，$\mathfrak{g}$ 中存在 0 的开邻域 U，以及从 U 到 G 满足条件引理 4 的指数映射 exp。在下文中，$G^*$ 将表示 G 的恒等分量，如果 $k=\mathbf{R}$ 或如果$k$是超度量的，则$\mathbf{C}$和包含在exp(U)中的G的开子群。由于 $r_{Ad}^0$ 是局部常数，并且其在 exp(U) 的任意点处的值为 $l$ (引理 4 (i))，因此 $r_{Ad}^0$ 是常数并且等于 $G^*$ 上的 $l$。
+(i) 根据命题 6，$\mathfrak{g}$ 中存在 0 的开邻域 U，以及从 U 到 G 满足条件引理 4 的指数映射 exp。在下文中，$G^*$ 将表示 G 的恒等式分量，如果如果$k$是超度量的，则$k=\mathbf{R}$或$\mathbf{C}$以及包含在exp(U)中的G的开子群。由于 $r_{Ad}^0$ 是局部常数，并且其在 exp(U) 的任意点处的值为 $l$ (引理 4 (i))，因此 $r_{Ad}^0$ 是常数并且等于 $G^*$ 上的 $l$。
 
 (ii) 令$R^*$（或$S^*$）为$G^*$的正则元素的集合（或元素$a\in G^*$的集合，使得$\mathfrak{g}^1(a)$为$\mathfrak{g}$的嘉当子代数）。然后$S^*\subset R^*$。事实上，如果$a\in S^*$，则$r_{Ad}(a) =l=r^0_{Ad}(a)$。我们证明$R^*\subset S^*$。如果 $k$ 是超量度的，则由包含 $G^*\subset$ exp(U) 和引理 4 (iii) 得出。假设$k=\mathbf{C}$。由科。根据第5条，如果$a\in R^*$，那么对于$a,\mathfrak{g}^1(a')$的每一个$a'$、属于到邻域，就是共轭到$\mathfrak{g}^1(a)$乘以$\mathfrak{g}$的自同构。这就证明$S^*$和$R^*$ **--** $S^*$对$G^*$开子集。我们已经看到，$e$的邻域中的$S^*$包含全部正则元素（引理4（iii））；因而，$S^*$非空。由于 $G^*$ 是连通的，因而 $R^*$（命题 1）也是连通的，因而 $S^*= R^*$ 也是连通的。
 
@@ -249,15 +249,15 @@ $r_{Ad}(a) =$ 暗淡$\mathfrak{g}^1(a) =l=r_{Ad}^0(a)$，
 
 #### 注 {#lie-vii-s4-n3-rem-1 .statement tag=00WA}
 
-如果$k=\mathbf{C}$、子代数$\mathfrak{g}^1(a)$，对于$a$正则和属于到G的连通分量M，在Int($\mathfrak{g}$)下是共轭。事实上，令 R 为 G 的正则元素的集合。对于所有 $a\in R\cap M$，令 $M_a$ 为那些 $b\in R\cap M$ 的集合，使得 $\mathfrak{g}^1(a)$ 是 Int($\mathfrak{g}$) 下的共轭到 $\mathfrak{g}^1(a)$。我们有 Int($\mathfrak{g}$) $=$ Ad(G$^0$)，其中 $G^0$ 是 G 的恒等分量。根据命题的推论，$5, M_a$ 在 R 中是开的。因此，$M_a$ 在 R 中是开和闭的。因为 $k=\mathbf{C}, R\cap M$ 是连通的 (引理) 1)，因此$M_a= R\cap M$。
+如果$k=\mathbf{C}$、子代数$\mathfrak{g}^1(a)$，对于$a$正则和属于到G的连接的分量M，在Int($\mathfrak{g}$)下是共轭。事实上，令 R 为 G 的正则元素的集合。对于所有 $a\in R\cap M$，令 $M_a$ 为$b\in R\cap M$ 的集合，使得 $\mathfrak{g}^1(a)$ 为 Int($\mathfrak{g}$) 下的共轭至 $\mathfrak{g}^1(a)$。我们有 Int($\mathfrak{g}$) $=$ Ad(G$^0$)，其中 $G^0$ 是 G 的恒等式分量。由推论到 Prop. $5, M_a$ 在 R 中是开的。因此，$M_a$ 在 R 中是开和闭的。 $k=\mathbf{C}, R\cap M$ 连接 (引理 1)，因此$M_a= R\cap M$。
 
 ### 4. 适用于小学自同构
 
 #### 命题 9 {#lie-vii-s4-prop-9 .statement tag=00WB}
 
-令$k$为特征0的域，并且$\mathfrak{g}$李代数超过$k$。如果$a\in$Aut$_e(\mathfrak{g})$，则$a-1$的零空间的维数大于或等于$\mathfrak{g}$的秩。
+令$k$为特征0的域，并且$\mathfrak{g}$李代数超过$k$。如果$a\in$Aut$_e(\mathfrak{g})$，$a-1$的零空间的维数大于或等于$\mathfrak{g}$的秩。
 
-根据“Lefschetz 原理”（代数，V, §14, no. 6，第$5$的Cor.2）$,k$是子域$(k_i)_{i\in I}$的升序有向并，承认$\mathbf{C}$为扩张域。令$(e_{\alpha})$为$\mathfrak{g}$的基超过$k$和$x_1, . . . , x_m$元素为$\mathfrak{g}$，这样ad($x_1$)$, . . .$、ad($x_m$)是幂零的且$a=e^{ad(x_1)}. . . e^{ad(x_m)}$。令$c^{\gamma}_{\alpha \beta}$为$\mathfrak{g}$相对于基$(e_{\alpha})$的结构常数，$(x^{\alpha}_r)$相对于基$(1\leq r\leq m)$的$x_r$的分量。存在指标$j\in I$，使得$c^{\gamma}_{\alpha \beta}$和$x^{\alpha}_r$都是属于到$k_j$。让$\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$；
+根据“Lefschetz 原理”（代数，V, §14, no. 6，第$5$的Cor.2）$,k$是子域$(k_i)_{i\in I}$的升序有向并，其中承认$\mathbf{C}$为扩张域。令$(e_{\alpha})$为$\mathfrak{g}$的基超过$k$和$x_1, . . . , x_m$元素为$\mathfrak{g}$，这样ad($x_1$)$, . . .$、ad($x_m$)是幂零的且$a=e^{ad(x_1)}. . . e^{ad(x_m)}$。令$c^{\gamma}_{\alpha \beta}$相对于基$(e_{\alpha})$而言为$\mathfrak{g}$的结构常数，且相对于此基$(1\leq r\leq m)$而言$(x^{\alpha}_r)$分量为$x_r$。存在指标$j\in I$，使得$c^{\gamma}_{\alpha \beta}$和$x^{\alpha}_r$都是属于到$k_j$。让$\mathfrak{g}_j=\sum_{\alpha}k_je_{\alpha}$；
 
 这是李代数超过$k_j$包含$x_1, . . . , x_m$，$a$到$\mathfrak{g}_j$的限制$a_j$是$\mathfrak{g}_j$的初等自同构。 $a_j$到$\mathfrak{g}_j\otimes_{k_j}\mathbf{C}$的扩张是$\mathfrak{g}_j\otimes \mathbf{C}$的初等自同构$a_j\otimes 1$。因此，令 $G_j$ 为李代数 $\mathfrak{g}_j\otimes \mathbf{C}$ 和 $G_j$ 的$s$ 元素的连通复合体李群，使得 Ad($s$) $=a_j\otimes 1$。命题 8，应用于对 $(G_j, s)$，表明 $a_j\otimes 1-1$ 的零空间为维数 $n$，所以
 

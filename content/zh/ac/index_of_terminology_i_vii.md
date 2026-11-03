@@ -13,19 +13,19 @@ pdf_pages: 0628-0637
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d3fd15b7ac93a1b1c414f64b22a27ea85b9f75f5d582d6690d94de35c4dd0d00
+content_sha256: 9f5321830951b92757bb2edbfe310a2fcc63f62383658225fd0c371205323f8d
 translated_from: content/en/ac/index_of_terminology_i_vii.md
 translation_method: google
 source_content_sha256: a190cb6d418c8b704161546f616138cfe5f2dbb8d594917a3d98ca1aaf5aff09
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9f3f3475d4bb7e2b226eccad00fa9ae3737b804376e080a6dd73aaab82588c90
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标术语
+## 指标 / 术语
 
 参考文献数表示章、截面以及阶中的子部分（或习题）。
 
@@ -55,25 +55,25 @@ n-adic 整数: III.2.12
 —（素理想）模：IV。 1.1
 — 环，地点，估价：VI.3.3
 
-Canonical decomposition of a place: VI.2.3
-— factorization of a valuation: VI.3.2
-— homomorphism of the decomposition group of a prime ideal $\mathfrak{p}'$ of $\mathbf{A}'$ into the automorphism group of $\mathbf{A}'/\mathfrak{p}'$: V.2.2
-Class, divisor, attached to a finitely generated module : VII.4.7
-Classes, divisor (monoid of) : VII.1.2
-Closure, algebraic, of a field in an algebra : V.1.2
-— integral, of an integral domain : V.1.2
-— integral, of a ring in an algebra: V.1.2
-Commutative diagram: I.1.2
-Compatible (filtration) with a ring structure, module structure: III.2.1
-— (homomorphism) with filtrations: III.2.4
-Complete system of extensions of a valuation: VI.8.2
-Completely integrally closed domain : V.1.4
-Component, irreducible (of a topological space) : II.4.1
-Conditions, Hensel's: III.4.5
-Conductor of a submodule : V.1.5
-Content of a polynomial over a pseudo-Bezoutian domain: VII.1.Ex.23
-— of a torsion module: VII.4.5
-Criterion, Eisenstein’s irreducibility: VII.3.Ex.20
+地点的规范分解：VI.2.3
+— 估值因式分解：VI.3.2
+— $\mathbf{A}'$ 的素理想 $\mathfrak{p}'$ 的分解群同态到 $\mathbf{A}'/\mathfrak{p}'$ 的自同构群：V.2.2
+类，除数，附加到有限生成的模块：VII.4.7
+类，除数（幺半群）：VII.1.2
+代数域的代数闭包：V.1.2
+— 积分域的积分：V.1.2
+— 代数中环的积分：V.1.2
+交换图：I.1.2
+相容的（过滤）环形结构，模块结构：III.2.1
+—（同态）带过滤：III.2.4
+完整的评估扩展系统：VI.8.2
+完全积分闭域：V.1.4
+（拓扑空间的）不可约分量：II.4.1
+条件，亨塞尔：III.4.5
+子模块的导体：V.1.5
+伪 Bezooutian 域上多项式的内容：VII.1.Ex.23
+— 扭转模块：VII.4.5
+标准，爱森斯坦不可约性：VII.3.Ex.20
 
 分解，规范，某个地方：VI.2.3
 — 完整的，基本理想：V.2.2
@@ -152,7 +152,7 @@ Criterion, Eisenstein’s irreducibility: VII.3.Ex.20
 — 离散：III.2.5
 — m-好：III.3.1
 — 递增、递减，分离、详尽：III.2.1
-— 诱导，乘积，商：III.2.1
+— 诱发，乘积，商：III.2.1
 — 模，源自环过滤：III.2.1
 — 微不足道：III.2
 有限代数超过环：V。 1.1
@@ -238,7 +238,7 @@ m-良好过滤：III.3.1
 
 模已评分，与已过滤的模相关联：III.2.3
 — 理想情况下豪斯多夫 111.5.1
-— 分数由环的子集定义：II.2.2
+— 由环的子集定义的分数：II.2.2
 — 秩 $n$ 的投影：II.5.3
 — 伪相干：I.2.Ex.11
 — 伪零：VII.4.4
@@ -246,15 +246,15 @@ m-良好过滤：III.3.1
 态射对于合成的律并非处处定义：VI.2.1
 乘法子集: II.2.1
 
-环的零激进：II.2.6
-诺特空间: II.4.2
+环的零自由基：II.2.6
+诺特空间：II.4.2
 非简并子模：II.5.5
 标准化引理：V.3.1
 规范离散估值：VI.3.6
 零点定理: V.3.3
 
 阶群估价：VI.3.2
-— 元素估值：VI.3.2
+— 元素的估价：VI.3.2
 — 正式幂级数的缩减：VII.3.8
 环的有序对与线性扩张性质：I.3.7
 奥斯特洛夫斯基的定理：VI.6.4
@@ -287,7 +287,7 @@ n-表示：I.2.Ex.6
 拟伽罗瓦扩展：V.2.2
 商过滤：III.2.1
 
-理想的激进：II.2.6
+理想的根基：II.2.6
 秩在投射模的 p: II.5.3
 — 投射模：II.5.3
 — 有理数，可交换群: VI.10.2
@@ -337,7 +337,7 @@ n-表示：I.2.Ex.6
 级数，减少：VII.3.8
 — 受限正式幂：III.4.2
 集合，不可约：II.4.1
-— 主修，完全有序群：VI.3.5
+— 主修，全序群：VI.3.5
 空间，不可约：II.4.1
 — 诺特: II.4.2
 特别拓扑：II.4.3
@@ -353,7 +353,7 @@ n-表示：I.2.Ex.6
 — 乘法，由子集生成：II.2.1
 — 饱和乘法：II.2.Ex.1
 支持模：II.4.4
-系统，完整，估价扩张：VI.8.2
+系统，完整，扩张估价：VI.8.2
 — 正式，生成元：III.2.9
 — 极值元素的代表：VII.3.3
 

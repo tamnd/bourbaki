@@ -29,21 +29,21 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: 08fddbafdeefea2595d9cfcf83597eb6173b6f6d0f9d6a34dbe5d311d495659f
+content_sha256: 89235a8999c28aa203a68ceb1db720ed45e6257bc62d81f4f868e07c646274b4
 translated_from: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
 translation_method: google
 source_content_sha256: 11ac709b8f3f88dc9c56e0725f4895fcc0f9592e0b472ff993cd89dad5d027d2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: bca7a58df55159514e347fe8bc29d8d7197a137543606bc4664334a604d88f1d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。 李群中的正式计算
 
-令 $f, g$ 为两个形式的幂级数，且 $K$ 中的系数处于相同的不定式中，令 $f_i$（分别为 $g_i$）为次数 $i$ 的 $f$（分别为 $g$）的齐次分量。我们将写
+Let $f, g$ be two formal 幂级数 with 系数 in $K$ in the same indeterminates, let $f_i$ (resp. $g_i$) be the homogeneous 分量 of $f$ (resp. $g$) of 次数$i$。我们将写
 $$
 f \equiv g \mod \deg p
 $$
@@ -51,7 +51,7 @@ $$
 
 在本§中，G表示有限维$n$的李群胚芽； 基域 $K$ 假定为特征零。我们通过图表一劳永逸地认同，G中$e$的开邻域和$K^n$中0的开邻域U，因此$e$被识别为0。对于U中的$x, y$和$n \in \mathbf{Z}$，$x.y$表示G 中$x$和$y$的乘积和$x^{[m]}$$x$的第m个幂（当它们被定义时）。 $x \in U$的坐标用$x_1, x_2, \ldots, x_n$表示。
 
-### 1. 系数 $c_{\alpha \beta \gamma}$
+### 1. 系数$c_{\alpha \beta \gamma}$
 
 令$\Omega$为$(x, y) \in U \times U$的集合，使得$x.y$被定义且属于为U。则$\Omega$在$U \times U$中开，且$\Omega$的映射$(x, y) \mapsto x.y$在U中是解析的。因此，$z = x.y$的坐标$z_1, \ldots, z_n$承认展开作为关于$x_1, \ldots, x_n, y_1, \ldots, y_n$的幂原点的积分级数。因此，存在定义明确的常数 $c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K$，使得
 $$
@@ -74,7 +74,7 @@ $$
 x.y = x + y + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c_{\alpha \beta} x^{\alpha} y^{\beta}.
 $$
 
-在(5)的右侧，我们考虑次数2的齐次分量：
+在 (5) 的右侧，我们考虑次数 2 的齐次分量：
 
 $$
 B(x, y) = \sum_{i,j=1}^n c_{ij} x_i y_j
@@ -94,7 +94,7 @@ $$
 c_{\alpha, \beta, \gamma} = 0 \quad \text{if } |\alpha| + |\beta| < |\gamma|
 $$
 
-and that the terms of total degree $|\gamma|$ in the expansion of $z^\gamma$ are also those of $(x_1 + y_1)^{\gamma_1}(x_2 + y_2)^{\gamma_2} \ldots (x_n + y_n)^{\gamma_n} = \sum_{\alpha + \beta = \gamma} ((\alpha, \beta)) x^\alpha y^\beta$ (cf. *Differentiable and Analytic Manifolds*, R, Notation and conventions). 因此：
+并且 $z^\gamma$ 展开式中的总次数 $|\gamma|$ 项也是 $(x_1 + y_1)^{\gamma_1}(x_2 + y_2)^{\gamma_2} \ldots (x_n + y_n)^{\gamma_n} = \sum_{\alpha + \beta = \gamma} ((\alpha, \beta)) x^\alpha y^\beta$ 的项（cf. *可微分流形和解析流形*、R、符号和约定）。 因此：
 
 (8)
 $$
@@ -118,7 +118,7 @@ $$
 
 群胚芽G承认交换开子群胚芽当且仅当$c_{\alpha \beta \gamma} = c_{\beta \alpha \gamma}$对于$\mathbf{N}^n$中的所有$\alpha, \beta, \gamma$。
 
-### 2. 李代数中的支架
+### 2. 支架位于李代数
 
 对于$\alpha \in \mathbf{N}^n$，令$e_\alpha$为原点处的点分布$\frac{1}{\alpha!} \frac{\partial^\alpha}{\partial x^\alpha}$。特别是，
 $$
@@ -161,7 +161,7 @@ $$
 （四）$$ x^{[-1]}.y^{[-1]}.x.y \equiv [x, y] \mod \deg 3 $$
 （五）$$ x.y.x^{[-1]}.y^{[-1]} \equiv [x, y] \mod \deg 3. $$
 （在（i）中，$x^{[-1]}$当然代表函数$x \mapsto x^{[-1]}$的展开作为关于原点的级数积分；其他公式可以类似地解释。）
-令 $g_1$ 和 $g_2$ 为次数 1 和 2 的 $x^{[-1]}$ 的齐次分量。那么
+令$g_1$和$g_2$为次数1和2的$x^{[-1]}$的齐次分量。那么
 $$
 0 = x.x^{[-1]} \\
 \equiv x + g_1(x) + B(x, g_1(x)) \mod \deg 2 \quad \text{(by (6))} \\
@@ -187,7 +187,7 @@ $$
 $$
 \equiv y + [x, y] \quad \text{mod deg 3 (by (13))}
 $$
-从而（二）。 (iii) 的证明是类似的。结合 (i) 和 (iii)，我们得到
+从而 (ii)。 (iii) 的证明是类似的。结合 (i) 和 (iii)，我们得到
 $$
 x^{[-1]},y^{[-1]}.x.y \equiv (-x + B(x, x)).(x + [x, y]) \quad \text{mod deg 3}
 $$
@@ -285,7 +285,7 @@ $$
 x^{[t]} = \sum_{i=0}^t \binom{t}{i} \psi_i(x) = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x).
 $$
 
-然后我们为所有$t \in \mathbf{K}$写出$x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$。在积分级数$x^{[t]}$和$x^{[t]'}$中，每个系数是$t$的多项式函数。这对于$x^{[t]'}$来说是显而易见的。就$x^{[t]}$而言，只要证明对于所有$u \in \mathrm{U}(G)$，$u$在$x \mapsto x^{[t]}$下的像就是$t$的多项式函数。现在，对于$u \in \mathrm{U}^m(G)$，这个像是$t^m u$（§ 4, no. 3，命题7（iv））。
+然后我们为所有$t \in \mathbf{K}$写出$x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$。在积分级数$x^{[t]}$和$x^{[t]'}$中，每个系数都是$t$的多项式函数。这对于$x^{[t]'}$来说是显而易见的。就$x^{[t]}$而言，只要证明对于所有$u \in \mathrm{U}(G)$，$u$在$x \mapsto x^{[t]}$下的像就是$t$的多项式函数。现在，对于$u \in \mathrm{U}^m(G)$，这个像是$t^m u$（§ 4, no. 3，命题7（iv））。
 
 由于$x^{[t]} = x^{[t]'}$对应于$t$整数$\geq 0$，因此$x^{[t]} = x^{[t]'}$对应于所有$t \in \mathbf{K}$。
 
@@ -302,7 +302,7 @@ x^{[2]} &= \psi_0(x) + 2\psi_1(x) + \psi_2(x) \\
 \end{align*}
 $$
 
-这些公式足够确定 $\psi_i$。
+这些公式足以满足确定 $\psi_i$。
 
 (2) 我们看到$\psi_0(x) = 0, \psi_1(x) = x, \psi_2(x) = x^{[2]} - 2x$，
 
@@ -321,7 +321,7 @@ $$
 x^{[t]} \equiv tx + \binom{t}{2} \mathrm{B}(x, x) \mod \deg 3.
 $$
 
-(4) 令$\psi_{p,m}(x)$和$h_{t,m}(x)$表示次数m的$\psi_p(x)$和$x^{[t]}$的齐次分量。然后$\psi_{p,m} = 0$换$m < p$。另一方面，命题 2 (ii) 给出
+(4) 令$\psi_{p,m}(x)$和$h_{t,m}(x)$表示$\psi_p(x)$的齐次分量和次数m的$x^{[t]}$。然后$\psi_{p,m} = 0$换$m < p$。另一方面，命题 2 (ii) 给出
 
 $$
 h_{t,m}(x) = \sum_{p \leq m} \frac{t(t-1)\ldots(t-p+1)}{p!} \psi_{p,m}(x)
@@ -360,18 +360,18 @@ $$
 $$
 E = \sum_{p=1}^{\infty} \frac{1}{p!} \psi_{p,p}
 $$
-（回想一下，$\psi_{p,p}$是次数$p$的$\psi_p$的齐次分量。）
+（回想一下，$\psi_{p,p}$ 是次数 $p$ 的 $\psi_p$ 的齐次分量。）
 
 或者，通过 (24)，
 $$
 E(tx) = (E(x))^{[t]}
 $$
 
-两侧分别为$t$和$x$正式幂级数。将第一个次数的项等同于$t$，我们得到
+两侧分别为$t$和$x$的正式幂级数。将第一个次数的项等同于$t$，我们得到
 $$
 x = \sum_{m \geq 0} \phi_{1,m}(E(x)).
 $$
-现在，当可能时，形式幂级数系统的反转只能以一种方式实现（代数、章 IV, § 6，命题 8 的推论）。然后
+现在，当可能时，形式幂级数系统的反转只能以一种方式实现（代数、章 IV, § 6、推论到命题 8）。然后
 $$
 L(x) = \sum_{m \geq 0} \phi_{1,m}(x) \quad \text{by (29)}
 $$
@@ -395,7 +395,7 @@ $$
 x = L \left( \sum_{m \geq 0} \phi_{m,m}(x) \right)
 $$
 
-whence
+从而
 
 $$
 E(x) = \sum_{m \geq 0} \phi_{m,m}(x)

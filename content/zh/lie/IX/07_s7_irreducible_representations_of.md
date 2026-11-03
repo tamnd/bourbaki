@@ -37,16 +37,16 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: d428196567e1e4c5cb4ef3b9b90cb400453c2b569d83b7e26a501985a1ded496
+content_sha256: 8c387c18aa7f6c1a1e87a8fc6cfa3297e47d1a92e004a4b769ddf23630b85ad9
 translated_from: content/en/lie/IX/07_s7_irreducible_representations_of.md
 translation_method: google
 source_content_sha256: 375df81cdee840da6e0b458ac2f5db5264d7654fce07a342d3dce277a3f78519
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 426f6d8ab8ec6ef21236b8d9b0ba8f6fb4ef6480eb9c4d5c92aa39f0bfbb70c2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。 不可约表示已连接紧李群
@@ -67,13 +67,13 @@ $\mathfrak{t}($§5, no. 2）的选择室C），并放入$\Gamma (T)_{++}=\overli
 
 (i) $\lambda -w(\lambda )\geq 0$（或$>0$）对于所有$w\in W$，使得$w\not= 1$；
 
-(ii) 对于所有$w\in W$，使得$w\not= 1,\lambda -w(\lambda )$是线性组合，且具有简单根的正系数（分别是正系数，并非全部零）；
+(ii) 对于所有$w\in W$，使得$w\not= 1,\lambda -w(\lambda )$是线性组合，并且简单根的正系数（分别为正系数，并非所有零）；
 
 (iii) 对于每个正根 $\alpha$，$\langle \lambda , K_{\alpha}\rangle  \geq 0$（或$>0$）；
 
 (iv) 对于每个简单的根 $\alpha$，$\langle \lambda , K_{\alpha}\rangle  \geq 0$（或 $>0$）。
 
-等价如果 (iii) 和 (iv) 是直接的。由于$K_{\alpha}$的集合可以与$R(G,T) ($§4, no. 5的逆根系等同），因此（i）和（iii）的等价可从第1章得出。 VI, §1, no. 6，第 18 号提案和 Cor.蕴涵 (ii) $\Rightarrow$ (i) 是微不足道的，相反的蕴涵由 loc 得出。引用。
+等价如果 (iii) 和 (iv) 是直接的。由于$K_{\alpha}$的集合可以与$R(G,T) ($§4, no. 5的逆根系等价），因此（i）和（iii）的等价可从第1章得出。 VI, §1, no. 6，第 18 号提案和 Cor.蕴涵 (ii) $\Rightarrow$ (i) 是微不足道的，相反的蕴涵由 loc 得出。引用。
 
 用X(T)的元素的$X_{++}$集合表示，使得$\langle \lambda , K_{\alpha}\rangle  \geq 0$对于每个正根$\alpha$。据说$X_{++}$中的元素占主导地位。它们形式是X(T)上W的运算的基本域（第VI, §1, no. 10章）。我们有$X_{++}\subset X_+$。
 
@@ -85,9 +85,9 @@ $$
 2\rho =\sum_{\alpha\in R_+}\alpha
 $$
 
-对于每个简单的根 $\alpha$，我们都有$\langle \rho , K_{\alpha}\rangle = 1$（第 VI, §1, no. 10 章，第 29 条命题）。如果 G 是单连通的，$\rho$ 是基本显性权的和。
+对于每个简单的根 $\alpha$，我们都有$\langle \rho , K_{\alpha}\rangle = 1$（第 VI, §1, no. 10 章，提案 29）。如果 G 是单连通的，$\rho$ 是基本显性权的和。
 
-### 2. 最高权不可约表示
+### 2. 最高权 / 不可约表示
 
 关联到从 $\mathbf{C}$-李代数 $\mathfrak{g}_{\mathbf{C}}$ 到 End(V) 的任何表示 $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ 同态 $L(\tau )_{(\mathbf{C})}$，在实向量空间基础上延伸 $\mathfrak{g}$ 的线性表示 $L(\tau )$ V（第III, §3, no. 11章）。根据§4, no. 3、映射 $\delta$的第7条规定，从X(T)到Hom$_{\mathbf{C}}(\mathfrak{t}_{\mathbf{C}},\mathbf{C}) =\mathfrak{t}^*_{\mathbf{C}}$ 诱导双射，从$\tau$的权集合相对于T到集合 of 权 of $L(\tau )_{(\mathbf{C})}$ relative to 嘉当子代数 $\mathfrak{t}_{\mathbf{C}}$ of $\mathfrak{g}_{\mathbf{C}}$.
 
@@ -107,33 +107,33 @@ c) For every dominant 元素 $\lambda$ of X(T), there exists 不可约表示 of 
 
 由引理2，G对应不可约表示等价类双射到$\mathfrak{g}$的有限维不可约表示类，其权属于到$\delta (X(T))$。
 
-用 $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ 中心表示，并用 $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ 表示 $\mathfrak{g}_{\mathbf{C}}$ 的导出李代数，从而得到 $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$。 For every 双线性形式 $\mu$ on $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, denote by $E(\mu)$ the simple $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$-module introduced in Chap. VIII, §6, no. 3；对于$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$上的每个线性形式$\nu$，用$\mathbf{C}(\nu )$表示与其关联的$\mathbf{C}$上的一维$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$模。然后 $\mathfrak{g}_{\mathbf{C}}$-模块 $\mathbf{C}(\nu )\otimes E(\mu)$ 很简单，并且由第 1 章介绍。 VIII, §7, no. 2，科。 2 Th。 1 和代数，第 1 章。 VIII, §11, no. 1，周四。 1、每个有限维简单$\mathfrak{g}_{\mathbf{C}}$模都同构于模$\mathbf{C}(\nu )\otimes E(\mu)$之一；此外（前述）$\mathbf{C}(\nu )\otimes E(\mu)$ 是有限维的当且仅当对于每个简单的根 $\alpha$ $\mu(H_{\alpha})$ 是正整数。如果我们用$\mathfrak{t}_{\mathbf{C}}$上的$\nu +\mu$线性形式表示$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$上的诱导$\nu$和$\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$上的$\mu$，则$(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$；此外，$\mathbf{C}(\nu )\otimes E(\mu)$的权是$\nu +\lambda$，其中$\lambda$是$E(\mu)$的任何权，因此是形式$\nu +\mu-\theta$，其中$\theta \in \delta (X_+)$（第VIII, §6, no. 2章， 引理2)。
+用 $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ 中心表示，并用 $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ 表示 $\mathfrak{g}_{\mathbf{C}}$ 的导出李代数，从而得到 $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$。对于$\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$上的每个双线性形式$\mu$，用$E(\mu)$表示第1章中介绍的简单$\mathscr{D}\mathfrak{g}_{\mathbf{C}}$模块。 VIII, §6, no. 3；对于$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$上的每个线性形式$\nu$，用$\mathbf{C}(\nu )$表示与其关联的$\mathbf{C}$上的一维$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$模。然后 $\mathfrak{g}_{\mathbf{C}}$-模块 $\mathbf{C}(\nu )\otimes E(\mu)$ 很简单，并且由第 1 章介绍。 VIII, §7, no. 2，科。 2 Th。 1 和代数，第 1 章。 VIII, §11, no. 1，周四。 1、每个有限维简单$\mathfrak{g}_{\mathbf{C}}$模都同构于模$\mathbf{C}(\nu )\otimes E(\mu)$之一；此外（前述）$\mathbf{C}(\nu )\otimes E(\mu)$ 是有限维的当且仅当对于每个简单的根 $\alpha$ $\mu(H_{\alpha})$ 是正整数。如果我们用$\mathfrak{t}_{\mathbf{C}}$上的$\nu +\mu$线性形式表示$\mathscr{C}\mathfrak{g}_{\mathbf{C}}$上的诱导$\nu$和$\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$上的$\mu$，则$(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$；此外，$\mathbf{C}(\nu )\otimes E(\mu)$的权是$\nu +\lambda$，其中$\lambda$是$E(\mu)$的任何权，因此是形式$\nu +\mu-\theta$，其中$\theta \in \delta (X_+)$（第VIII, §6, no. 2章， 引理2)。
 
 我们结论认为$\mathfrak{g}$模$\mathbf{C}(\nu )\otimes E(\mu)$是有限维的当且仅当对于每个简单的根$\alpha$，$(\nu +\mu)(H_{\alpha})$是正整数，并且它的权属于到$\delta (X(T))$当且仅当$\nu +\mu$属于至$\delta (X(T))$。这两个条件中的合取表示$\nu +\mu$属于到$\delta (X_{++})$；在这种情况下，$\nu +\mu$ 是 $\mathbf{C}(\nu )\otimes E(\mu)$ 的最高权。因此，我们为最高权$\lambda$的G的X(T)不可约表示的每个主导权$\lambda$构建，并因此获得了直到等价的G的所有不可约表示。从向量开始维数 1、证明中的$\mathbf{C}(\nu )\otimes E(\mu)$ 形式子空间权 $\nu +\mu$ 已完成。
 
-#### 推论{#lie-ix-s7-n2-cor-1 .statement tag=01G2}
+#### 推论 {#lie-ix-s7-n2-cor-1 .statement tag=01G2}
 
 群 G 有一个（有限维）忠实的线性表示。
 
 首先观察X(T)的每个元素等于两个显性权之差：更准确地说，让$\varpi$是$X_{++}$的元素，这样对于每个简单的根$\alpha$，$\langle \varpi , K_{\alpha}\rangle >0$；对于所有$\lambda \in X(T)$，存在正整数$n$，这样对于每个简单的根$\alpha$，都存在$\langle \lambda +n\varpi , K_{\alpha}\rangle  \geq 0$，即(no. 1，引理$1$)$\lambda +n\varpi \in X_{++}$。
 
-因而，存在$X_{++}$生成的$\mathbf{Z}$模X(T)的元素的有限族$(\lambda_i)_{i\in I}$。对于$i\in I$，令$\tau_i$为最高权$\lambda_i$G不可约表示(Th.1)；设表示$\tau$为$\tau_i$的直和。由$\tau$(相对于T)生成$\mathbf{Z}$-模X(T)权构造集合$P(\tau ,T)$。现在从 §4, no. 3 的第 6 条命题可以得出，同态 $\tau$ 是单射的，因此是推论。
+因而，存在$X_{++}$生成的$\mathbf{Z}$模X(T)的元素的有限族$(\lambda_i)_{i\in I}$。对于$i\in I$，令$\tau_i$为最高权$\lambda_i$G不可约表示(Th.1)；设表示$\tau$为$\tau_i$的直和。由$\tau$(相对于T)生成$\mathbf{Z}$-模X(T)权构造集合$P(\tau ,T)$。现在从§4, no. 3的第6条命题可以得出，同态$\tau$是单射的，因此推论。
 
 #### 注 1 {#lie-ix-s7-n2-rem-1 .statement tag=01G3}
 
-令$\mathfrak{n}_+$为$\mathfrak{g}_{\mathbf{C}}$的子代数，即$\alpha  >0$的$\mathfrak{g}^{\alpha}$的和。令$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为不可约表示，$\lambda \in X_{++}$为最高权，$\tau ':\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}\mathfrak{l}(V)$由$\tau$诱发表示。那么$V_{\lambda}(T)$是V中向量$v$的子空间由……组成，这样对于所有$x\in \mathfrak{n}_+$来说$\tau '(x)v= 0$。
+令$\mathfrak{n}_+$为$\mathfrak{g}_{\mathbf{C}}$的子代数，即$\alpha  >0$的$\mathfrak{g}^{\alpha}$的和。令$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为不可约表示，$\lambda \in X_{++}$为最高权，由$\tau$诱发$\tau ':\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}\mathfrak{l}(V)$表示。那么$V_{\lambda}(T)$就是V中向量$v$的子空间由……组成，这样对于所有$x\in \mathfrak{n}_+$来说$\tau '(x)v= 0$。
 
-事实上，这是从$\mathfrak{g}_{\mathbf{C}}$模块$\mathbf{C}(\nu )\otimes E(\mu)$的相应的叙述得出的（第VIII, §6, no. 2章，第3条）。
+事实上，这是从 $\mathfrak{g}_{\mathbf{C}}$ 模块 $\mathbf{C}(\nu )\otimes E(\mu)$ 的相应的叙述得出的（第 VIII, §6, no. 2 章，提案 3）。
 
 #### 注 2 {#lie-ix-s7-n2-rem-2 .statement tag=01G4}
 
-令 $\Theta (G)$ 为 G 上连续代表函数的代数，第 1 章$\mathbf{C}($代数中的值。 VIII）。让G通过左平移和右平移对$\Theta (G)$进行运算。对于每个$\lambda \in X_{++}$，令$(V_{\lambda}, \tau_{\lambda})$为最高权$\lambda$（第1章）的G的不可约表示，以及$(V^*_{\lambda},\check{\tau}_{\lambda})$的对立表示（第III, §3, no. 11）；根据谱理论，对于$X_{++}$中的所有$\lambda$，$\Theta (G)$上的$G\times G$的表示同构于表示$(V_{\lambda}\otimes V^*_{\lambda}, \tau_{\lambda}\otimes \check{\tau}_{\lambda})$的直和。 注 1 现在意味着以下叙述：设$\lambda \in X_{++}$，并设$E_{\lambda}$为G上连续代表函数$f$的$\Theta (G)$由……组成的向量子空间，使得$f(gt) =\lambda (t)^{-1}f(g)$对于所有$g\in G$和所有$t\in T$，并且$f*x= 0$对于所有$x\in \mathfrak{n}_-=\bigoplus_{\alpha <0}\mathfrak{g}^{\alpha}$。
+设$\Theta (G)$为G上的连续代表函数的代数，其中$\mathbf{C}($代数中的值，第1章。 VIII）。让G通过左平移和右平移对$\Theta (G)$进行运算。对于每个$\lambda \in X_{++}$，令$(V_{\lambda}, \tau_{\lambda})$为最高权$\lambda$（第1章）的G的不可约表示，以及$(V^*_{\lambda},\check{\tau}_{\lambda})$的对立表示（第III, §3, no. 11）；根据谱理论，对于$X_{++}$中的所有$\lambda$，$\Theta (G)$上的$G\times G$的表示同构于表示$(V_{\lambda}\otimes V^*_{\lambda}, \tau_{\lambda}\otimes \check{\tau}_{\lambda})$的直和。 注 1 现在意味着以下叙述：设$\lambda \in X_{++}$，并令$E_{\lambda}$为G上连续代表函数$f$的$\Theta (G)$由……组成的向量子空间，使得$f(gt) =\lambda (t)^{-1}f(g)$对于所有$g\in G$和所有$t\in T$，并且$f*x= 0$对于所有$x\in \mathfrak{n}_-=\bigoplus_{\alpha <0}\mathfrak{g}^{\alpha}$。
 
 那么$E_{\lambda}$在左平移下是稳定的，并且左平移下G在$E_{\lambda}$上的表示是不可约的最高权$\lambda$。
 
 #### 注 3 {#lie-ix-s7-n2-rem-3 .statement tag=01G5}
 
-设$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为不可约表示。 X(C(G))存在元素$\nu$，使得$\tau (s)v=\nu (s)v$对于所有$s\in C(G), v\in V:$确实，$\tau (C(G))$包含在$\tau$(G)的交换子中，它等于$\mathbf{C}^*.1_V($代数，第1章。 VIII, §3, no. 2，周四。 1）。对于$\tau$中的每一个权$\lambda$，$\lambda$到C(G)中的限制等于$\nu$。
+设$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为不可约表示。 X(C(G)) 存在元素 $\nu$，使得$\tau (s)v=\nu (s)v$ 对于所有$s\in C(G), v\in V:$ 事实上，$\tau (C(G))$ 包含在$\tau$(G) 的交换子中，等于$\mathbf{C}^*.1_V($代数，第 1 章VIII, §3, no. 2，周四。 1).对于$\tau$中的每一个权$\lambda$，$\lambda$到C(G)中的限制等于$\nu$。
 
 #### 注 4 {#lie-ix-s7-n2-rem-4 .statement tag=01G6}
 
@@ -153,9 +153,9 @@ c$)w_0(\lambda ) =-\lambda$ 和 $m$ 是奇数。那么在 V 上存在分离交�
 
 如果$\tau$到$C(G)_0$的限制不是微不足道的，我们就处于情况b)。
 
-V 上的双线性形式 B 在 G 下是不变的当且仅当它在 $\mathfrak{g}_{\mathbf{C}}$ 下不变（第 III, §6, no. 5 章，Cor. 3）。因此，如果 G 是半单，则命题由第 1 章得出。 VIII, §7, no. 5，附录II第12号提案和第3号提案。
+V 上的双线性形式 B 在 G 下是不变的当且仅当它在 $\mathfrak{g}_{\mathbf{C}}$ 下不变（第 III, §6, no. 5 章，Cor. 3）。因此，如果 G 是半单，则命题由第 1 章得出。 VIII, §7, no. 5、附录II第 12 号提案和第 3 号提案。
 
-一般情况下，放入$C(G)_0= S$，认同$X(T/S)$，子群为X(T)（W下稳定）。如果 $\tau (S) =\{1_V\},\tau$ 诱导代入最高权 $\lambda$ 的商表示 $\tau ': G/S\rightarrow \mathbf{G}\mathbf{L}(V)$；在这种情况下，命题源自前面的内容，应用于$G/S$。
+一般情况下，放入$C(G)_0= S$，认同$X(T/S)$，子群为X(T)（W下稳定）。如果$\tau (S) =\{1_V\},\tau$诱导通过最高权$\lambda$前往商表示$\tau ': G/S\rightarrow \mathbf{G}\mathbf{L}(V)$；在这种情况下，命题源自前面的内容，应用于$G/S$。
 
 假设$\tau (S)\not=\{1_V\}$。存在X(S) 的非零元素 $\nu$，使得$\tau (s) =\nu (s)_V$ 对于所有$s\in S$ (注 3)。那么$\nu$就是限制同态$X(T)\rightarrow X(S)$下$\lambda$的像；由于 W 对 X(S) 的运算很简单，等式 $w_0(\lambda ) =-\lambda$ 意味着 $\nu =-\nu$，这是不可能的：因此是 $w_0(\lambda )\not=-\lambda$。另一方面，如果 B 是 V 上的 G 不变双线性形式，对于 V 中的所有 $x, y$ 和 S 中的 $s$，我们有，
 
@@ -173,7 +173,7 @@ $\Phi (\{\lambda ,-w_0(\lambda )\}) = E'_{\lambda}$如果$\lambda =-w_0(\lambda 
 
 其中$E'_{\lambda}$是G下$E_{\lambda}$不变量的$\mathbf{R}$结构。
 
-### 3. 环 R(G)
+### 3. 环R(G)
 
 令 R(G) 为 G 的表示的环（连续，在有限维复数向量空间上）（代数，第 VIII, §10, no. 6）。如果$\tau$是G的表示，则用$[\tau ]$表示其在R(G)中的类；如果$\tau$和$\tau '$是G的两个表示，则通过定义，我们有，
 
@@ -187,7 +187,7 @@ $$
 
 由于G的每一个表示都是半单，所以$\mathbf{Z}$模R(G)是自由的，承认G的不可约表示类基集合，集合可以通过Th与$X_{++}$识别。 1. 映射$\tau  \rightarrow L(\tau )_{(\mathbf{C})}$诱导同态$l$从环R(G)到$\mathfrak{g}_{\mathbf{C}}$表示的环$\mathscr{R}(\mathfrak{g}_{\mathbf{C}})$（第VIII, §7, no. 6章）。
 
-令$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为G的表示；我们考虑$\mathbf{C}$向量空间V的渐变$(V_{\lambda}(T))_{\lambda\in X(T)}$。用Ch(V)表示，或者用Ch($\tau$)表示，分级的向量空间V(第VIII, §7, no. 7)中的特征标；如果 $(e^{\lambda})_{\lambda\in X(T)}$ 表示代数 $\mathbf{Z}[X(T)] =\mathbf{Z}^{(X(T))}$ 中的典范基，则通过定义，我们有，
+设$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$为G的表示；我们考虑$\mathbf{C}$向量空间V的渐变$(V_{\lambda}(T))_{\lambda\in X(T)}$。用Ch(V)表示，或者用Ch($\tau$)表示，分级的向量空间V(第VIII, §7, no. 7)中的特征标；如果 $(e^{\lambda})_{\lambda\in X(T)}$ 表示代数 $\mathbf{Z}[X(T)] =\mathbf{Z}^{(X(T))}$ 中的典范基，则通过定义，我们有，
 
 Ch($\tau$)$=\sum_{\lambda\in X(T)}$(暗淡$V_{\lambda}(T)$)$e^{\lambda}$。
 
@@ -309,9 +309,9 @@ $$
 
 对于所有$\lambda \in X_{++}$，我们有$J(\rho ).\chi_{\lambda}|T = J(\lambda \rho )$。
 
-函数 $J(\rho ).\chi_{\lambda}|T$ 在 W 下是反对不变的，并且是线性组合，整数 X(T) 的元素系数。因此，由章。 VI, §3, no. 3，第 1 条，它可以写成 $\sum_\mu a_\mu J(\mu\rho )$，其中 $\mu$ 属于到 $X_{++}$，$a_\mu$ 是整数，几乎都是有限的，其中许多是零；从$\int_G|\chi_{\lambda}(g)|^2dg= 1$开始
+函数$J(\rho ).\chi_{\lambda}|T$在W下是反对不变量，并且X(T)的元素与整数系数为线性组合。因此，由章。 VI, §3, no. 3，第 1 条，它可以写成 $\sum_\mu a_\mu J(\mu\rho )$，其中 $\mu$ 属于到 $X_{++}$，$a_\mu$ 是整数，几乎都是有限的，其中许多是零；从$\int_G|\chi_{\lambda}(g)|^2dg= 1$开始
 
-(Spectral Theories), it follows from Prop. 3 and Lemma 4 that $\sum_\mu(a_\mu)^2= 1$; thus, the $a_\mu$ are all zero, except one which must be equal to 1 or $-1$. 但$\chi_{\alpha}|T$中$\lambda$的系数等于1（Th.1），因此$J(\rho ).\chi_{\lambda}|T$中$\lambda \rho$的系数等于1（VI, §3, no. 3，注2），这意味着$a_{\lambda \rho}= 1$，因此定理。
+（谱理论），由命题3和引理4得出$\sum_\mu(a_\mu)^2= 1$；因此，除了必须等于 1 或 $-1$ 的一个之外，$a_\mu$ 都是零。但$\chi_{\alpha}|T$中$\lambda$的系数等于1（Th.1），因此$J(\rho ).\chi_{\lambda}|T$中$\lambda \rho$的系数等于1（VI, §3, no. 3，注2），这意味着$a_{\lambda \rho}= 1$，因此定理。
 
 #### 推论 1 {#lie-ix-s7-thm-2-cor-1 .statement tag=01GE}
 
@@ -333,13 +333,13 @@ $$
 
 事实上，$J(\rho )(t)$ 是非零的，因为$t$ 是正则的 (公式 (4))。
 
-如果$\varphi$是G上的中心函数，则$\varphi$到T的限制在W下是不变的，所以$J(\rho ).\varphi |T$在W下是反不变的。 Further, by Spectral Theories and Th. 1, the family $(\chi_{\lambda})_{\lambda\in X_{++}}$ is an algebraic basis of the space of central representative functions on G and an orthonormal basis of the space ZL$^2(G)$ of classes of square-integrable central functions on G.
+如果$\varphi$是G上的中心函数，则$\varphi$到T的限制在W下是不变的，所以$J(\rho ).\varphi |T$在W下是反不变的。 此外，通过光谱理论和 Th。 1、族$(\chi_{\lambda})_{\lambda\in X_{++}}$是G上中心代表函数空间的代数基，也是G上平方可积中心函数类空间ZL$^2(G)$的正交基。
 
 因此，根据 Prop. 3 和 Th. 2 我们推论：
 
 #### 推论 3 {#lie-ix-s7-thm-2-cor-3 .statement tag=01GG}
 
-映射关联到G上的任何连续中心函数$\varphi$函数$w(G)^{-1/2}J(\rho )(\varphi |T)$诱导同构从G上的中心代表函数的空间到G上的反不变量元素的空间 $\Theta (T)$；它扩展通过从ZL$^2(G)$到$L^2(T)$的反不变量元素的子空间连续到希尔伯特空间的同构。
+映射与 G 上的任何连续中心函数 $\varphi$ 函数 $w(G)^{-1/2}J(\rho )(\varphi |T)$ 诱导同构从中心代表的空间 G 上的函数到反不变量的空间 $\Theta (T)$ 中的元素；它扩展通过从ZL$^2(G)$到$L^2(T)$的反不变量元素的子空间连续到希尔伯特空间的同构。
 
 #### 推论 4 {#lie-ix-s7-thm-2-cor-4 .statement tag=01GH}
 
@@ -365,11 +365,11 @@ $$
 \frac{1}{w(G)}\int_T\overline{J(\lambda \rho)(t)}\varphi (t)J(\rho )(t)dt=\int_T\overline{\lambda \rho(t)}\varphi (t)J(\rho )(t)dt
 $$
 
-最后，通过公式 (3)，我们得到 $\rho (t)J(\rho )(t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})$，因此得出推论。
+最后，到公式 (3)，我们得到$\rho (t)J(\rho )(t) =\prod_{\alpha >0}(1-\alpha (t)^{-1})$，因此推论。
 
 #### 注 1 {#lie-ix-s7-n4-rem-1 .statement tag=01GI}
 
-对于所有$w\in W$，放入$\rho_w=^w\rho /\rho$；然后
+对于所有$w\in W$，放入$\rho_w=^w\rho /\rho$；那么
 
 $$
 \sum_w\varepsilon (w)\rho_w=\prod_{\alpha >0}(1-\alpha^{-1}) =\rho^{-2}\prod_{\alpha >0}(\alpha -1) \tag{6}
@@ -381,7 +381,7 @@ $$
 \chi_{\lambda}(t) =\sum\sum^w\varepsilon_w(w\varepsilon )(\overset{w}{w}\lambda )\rho (t_w)(\rho t^w)(t)=\sum\prod^w_{\alpha >}\varepsilon (_0w(1)\overset{w}{-}\lambda \alpha (t()t\rho )^{w-}(_1t)) \tag{7}
 $$
 
-注 $\rho_w$ 是根的线性组合，系数为整数，因此属于到 X(T)，即使我们不假设 $\rho \in X(T)$。由此可见，公式 (7) 在没有假设的情况下也是有效的，$\rho \in X(T):$ 确实如此，为了证明这一点，我们通过合适的连通覆盖来证明替换 G，然后将其简化为 Cor。 2.
+请注意，$\rho_w$是根与整数系数的线性组合，因此属于到X(T)，即使我们不假设$\rho \in X(T)$。由此可见，在没有假设的情况下，公式 (7) 是有效的，$\rho \in X(T):$ 确实如此，为了证明这一点，我们通过合适的连通覆盖来证明替换 G，然后将其简化为 Cor。 2.
 
 #### 注 2 {#lie-ix-s7-n4-rem-2 .statement tag=01GJ}
 
@@ -389,21 +389,21 @@ $$
 
 #### 注 3 {#lie-ix-s7-n4-rem-3 .statement tag=01GK}
 
-我们可以推导出Th。 2 来自类似的无穷小叙述（第 VIII, §9, no. 1 章，第 1 章）； Th 也是如此。下一个数中的 3 个（与上文中的 Th. 2 no. 2 类似）。
+我们可以推导出Th。 2 来自类似的无穷小叙述（第 VIII, §9, no. 1 章，第 1 章）； Th 也是如此。下一个数的第 3 个（与前述第 2 个no. 2 的类似物）。
 
-### 5. 次数不可约表示
+### 5. 次数 / 不可约表示
 
-现在我们回到群 X(T) 的加法记号，并且不再假设 $\rho$ 属于到 X(T)。
+现在，我们返回群 X(T) 的加法记号，并且不再假设 $\rho$ 属于到 X(T)。
 
 #### 定理 3 {#lie-ix-s7-thm-3 .statement tag=01GL}
 
-The dimension of the space of an irreducible representation of G of highest weight $\lambda$ is given by
+最高权$\lambda$G不可约表示空间维数由下式给出
 
 $$
 \chi_{\lambda}(e) =\prod_{\alpha\in R_+}\frac{\langle\lambda + \rho , K_{\alpha}\rangle}{\langle\rho , K_{\alpha}\rangle}
 $$
 
-对于每个简单的根 $\alpha$，放入 $\gamma =\frac{1}{2}\sum_{\alpha >0}K_{\alpha}$，因此$\delta (\alpha )(\gamma ) = 2\pi i$（第 VI, §1, no. 10 章，第 29 条命题）。行$\mathbf{R}\gamma$不包含在超平面 Ker $\delta (\alpha )$中，因此对于所有足够小的$z\in \mathbf{R}^*$，exp($z\gamma$)是G的正则元素；对于所有$\mu\in X(T)$和所有$z\in \mathbf{R}$，我们有
+将 $\gamma =\frac{1}{2}\sum_{\alpha >0}K_{\alpha}$ 放入 $\delta (\alpha )(\gamma ) = 2\pi i$ 对应于每个简单的根 $\alpha$（第 VI, §1, no. 10 章，第 29 条命题）。行 $\mathbf{R}\gamma$ 不包含在任何超平面 Ker $\delta (\alpha )$ 中，因此对于所有足够小的 $z\in \mathbf{R}^*$，exp($z\gamma$ ) 是 G 的正则元素；对于所有 $\mu\in X(T)$ 和所有 $z\in \mathbf{R}$，我们有
 
 $J(\mu$)(exp($z\gamma$))$=\sum_{w\in W}\varepsilon (w)e^{z\delta(\mu)(w^{-1}\gamma)}$。
 
@@ -431,9 +431,9 @@ $$
 
 因此在这种情况下是定理。
 
-一般情况下，在证明 Th 中，注就足够了。 3，我们总是可以通过合适的连接覆盖来替换G，从而约化到前面的情况。
+在一般情况下，只需指出，在证明 Th 中。 3，我们总是可以通过合适的连接覆盖来替换G，从而约化到前面的情况。
 
-现在我们证明引理 5。 设 $z\in \mathbf{C}$；用$\varphi_z$映射从$\mathfrak{t}$到$\mathbf{C}$-代数映射(X(T)$,\mathbf{C}$)的映射从X(T)到$\mathbf{C}$关联到$H\in \mathfrak{t}$ 映射
+现在我们证明引理 5。设 $z\in \mathbf{C}$；用$\varphi_z$映射从$\mathfrak{t}$到$\mathbf{C}$-代数映射(X(T)$,\mathbf{C}$)的映射从X(T)到$\mathbf{C}$关联到$H\in \mathfrak{t}$映射
 
 $\varphi_z(H) :\mu \rightarrow \mu$(exp $zH$) $=e^{z\delta(\mu)(H)}$。
 
@@ -461,7 +461,7 @@ $$
 
 a）sup$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|^N<\infty$，其中$N = 1/$2（暗淡$G-$暗淡T）。
 
-b) 如果 G 为半单，则 inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$。
+b) 如果 G 是半单，则 inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$。
 
 a) 对于所有$\alpha \in R_+$，存在$A_{\alpha}>0$和$|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$，因此存在$d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$。
 
@@ -481,11 +481,11 @@ $d(\lambda )\geq$支持$_i|\langle \lambda +\rho , N_i\rangle |$。
 
 假设G为半单；设$d$为整数。 维数$\leq d$G表示类集合是有限的。
 
-科。 $1b)$ 意味着 $X_{++}$ 的元素 $\lambda$ 的集合 $X_d$，使得 $d(\lambda )\leq d$ 是有限的。对于$X_d$中的所有$\lambda$，令$V_{\lambda}$为最高权$\lambda$中的不可约表示； 维数 $\leq d$ 的每个表示都同构于直和 $\bigoplus_{\lambda\in X_d}V^{n_{\lambda}}_{\lambda}$，与 $n_{\lambda}\leq d$，因此有推论。
+科。 $1b)$ 意味着 $X_{++}$ 的元素 $\lambda$ 的集合 $X_d$，使得 $d(\lambda )\leq d$ 是有限的。对于$X_d$中的所有$\lambda$，令$V_{\lambda}$为最高权$\lambda$中的不可约表示； 维数 $\leq d$ 中的每个表示都同构于直和 $\bigoplus_{\lambda\in X_d}V^{n_{\lambda}}_{\lambda}$，与 $n_{\lambda}\leq d$，因此推论。
 
 ### 6. 卡西米尔元素
 
-根据§1, no. 3的命题3，$\mathfrak{g}$上存在负对称双线性形式，在Ad(G)下分离且不变（若G为半单，则可取$\mathfrak{g}$的Killing形式，对于例）。令F为形式。回想一下（第 I, §3, no. 7 章），与 F 关联的卡西米尔元素是包络代数 $U(\mathfrak{g})$ 的中心的元素 $\Gamma$，这样，对于任何基 $(e_i)$ $\mathfrak{g}$满足$F(e_i, e_j) =-\delta_{ij}$，我们有$\Gamma =-\sum e^2_i$。
+根据§1, no. 3的命题3，$\mathfrak{g}$上存在负对称双线性形式，在Ad(G)下分离且不变（若G为半单，则可以取$\mathfrak{g}$的Killing形式为例）。令F为形式。回想一下（第 I, §3, no. 7 章），与 F 关联的卡西米尔元素是包络代数 $U(\mathfrak{g})$ 的中心的元素 $\Gamma$，这样，对于任何基 $(e_i)$ $\mathfrak{g}$满足$F(e_i, e_j) =-\delta_{ij}$，我们有$\Gamma =-\sum e^2_i$。
 
 在这个章的其余部分中，我们将通过 $\mathfrak{g}$ 上的负分离不变对称双线性形式来调用$U(\mathfrak{g})$ 的 G 元素的卡西米尔元素。如果$\Gamma$是G的卡西米尔元素，并且如果$\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$是G的不可约表示，则V的自同态$\Gamma_V$是位似（代数，第VIII, §3, no. 2，Th.1），其比率我们用$\widetilde{\Gamma}(\tau )$表示。
 

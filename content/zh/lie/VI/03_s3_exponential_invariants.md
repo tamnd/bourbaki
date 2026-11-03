@@ -28,16 +28,16 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 2
-content_sha256: fa84eb81771e5dfaff8f43ba847572d853a8c5c62fba799a7a88c6c3ee7c1d13
+content_sha256: b0a94fe57954f47ed50104487be08d8680fbb354922d35ad04c3775fbf70fa56
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
 translation_method: google
 source_content_sha256: b9746d131eb1272ab4f94dead490215a8154be0c1a153b0693388de4edd688ad
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 67ebc9c29c95ec56d630cbcfec2cafa2f865123e947cc88b50940621778e516f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。指数不变量
@@ -73,15 +73,15 @@ $$
 
 因而，$1 - X_1^j$和$1 - X_1^m X_2^n$在B中互质。因而，$A[P]$中$1 - X_1^j$和$1 - X_1^m X_2^n$的任何公共的除子在B中都是可逆的，因而，直到形式的乘法乘元素 $X_1^{k_1} X_2^{k_2} \ldots X_l^{k_l}$，等于A的元素$a$；在其他字中，$a$ 除 1 在 A 中，因此在 A 中可逆。因而，最终，$1 - X_1^j$ 和 $1 - X_1^m X_2^n$ 在 $A[P]$ 中互质。
 
-### 2. 群权的情况；最大项
+### 2. 权群的情况；最大项
 
 我们保留前面的数的记号，并让R在实数向量空间V中为约化根系。在这个截面的剩余部分中，我们取 R (§ 1, no. 9) 的权的 P 群。 群 $W = W(R)$ 作用于 P，因此也作用于代数 $A[P]$；我们有 $w(e^p) = e^{w(p)}$ 对应 $w \in W$ 和 $p \in P$。
 
-令 C 为 R (§ 1, no. 5) 的一个腔室，并令 $B = (\alpha_i)_{1 \leq i \leq l}$ 为 R 的相应的基。我们为 V（因此也为 P）提供由 C 定义的阶结构。如果$p, p' \in P, p \geq p'$当且仅当$p - p'$是具有正系数的$\alpha_i$的线性组合。
+令 C 为 R (§ 1, no. 5) 的一个室，并令 $B = (\alpha_i)_{1 \leq i \leq l}$ 为 R 的相应的基。我们为 V（因此也为 P）提供由 C 定义的阶结构。如果$p, p' \in P, p \geq p'$当且仅当$p - p'$是$\alpha_i$中的线性组合且系数为正数。
 
 #### 定义 1 {#lie-vi-s3-def-1 .statement tag=0AXO}
 
-令 $x = \sum_{p \in P} x_p e^p$ 为 $A[P]$ 的元素。 $p \in P$的集合 S，使得$x_p \neq 0$称为x的支持度，S的极大元素的集合X称为x的最大支持度。 项 $x_p e^p$ 和 $p \in X$ 被称为 x 的最大项。
+令 $x = \sum_{p \in P} x_p e^p$ 为 $A[P]$ 的元素。 $p \in P$的集合 S，使得$x_p \neq 0$称为x的支持度，S的极大元素的集合X称为x的最大支持度。 项 $x_p e^p$ 和 $p \in X$ 则称为 x 的最大项。
 
 #### 引理 2 {#lie-vi-s3-lem-2 .statement tag=0AXP}
 
@@ -99,11 +99,11 @@ $$
 
 ### 3. 反不变元素
 
-我们保留前面的数的记号。用 $\varepsilon(w)$ 表示元素 $w \in W$ 的行列式。因此
+我们保留前面的数的记号。用元素$w \in W$的$\varepsilon(w)$行列式表示。因此
 $$
 \varepsilon(w) = (-1)^{l(w)},
 $$
-长度$l(w)$是相对于反射系列$s_{\alpha_i}$而言的。
+长度$l(w)$是相对于反射族$s_{\alpha_i}$而言的。
 
 #### 定义 2 {#lie-vi-s3-def-2 .statement tag=0AXR}
 
@@ -133,7 +133,7 @@ $$
 
 #### 命题 1 {#lie-vi-s3-prop-1 .statement tag=0AXS}
 
-*If* 2 *is not a zero divisor in* $A$, *the elements* $J(e^p)$ *for* $p \in P \cap C$ *form a basis of the module of anti-invariant elements of* $A[P]$.
+*如果* 2 *不是* $A$中的零除数，*元素* $J(e^p)$ *对于* $p \in P \cap C$ *形成* $A[P]$的反不变元素模的基础。
 
 权 $w(p)$ 对于 $w \in W$ 和 $p \in P \cap C$ 是成对不同的。由此可见，$J(e^p)$ 与 $p \in P \cap C$ 是线性无关的。
 
@@ -162,8 +162,8 @@ $$
 #### 命题 2 {#lie-vi-s3-prop-2 .statement tag=0AXT}
 
 (i) *(3)定义的元素 d是A[P]的反不变量元素；其独特的最大值项*（no. 2，默认值1）*是*$e^{\rho}$*和*$d = J(e^{\rho})$。
-(ii) *对于任何* $p \in P$，*元素* $J(e^p)$ *可被* $d$ *唯一整除，并且商* $J(e^p)/d$ *是* $A[P]$ *在* $W$下不变的元素。
-(iii) *如果2不是$A$中的零因子，*乘法由*$d$*从*$A[P]$*元素集合到双射*$W$*下不变* $A[P]$ 的反不变量元素的集合。
+(ii) *对于任何* $p \in P$，*元素* $J(e^p)$ *可唯一地被* $d$ *和商* $J(e^p)/d$ *是* $A[P]$ *在* $W$下不变的元素。
+(iii) *如果2不是$A$中的零因子，则*乘法由*$d$*从*$A[P]$*元素集合到双射*$W$*下不变* $A[P]$ 的反不变量元素的集合。
 
 我们知道，对于$1 \leq i \leq l$，除了$\alpha_i$和$s_i(\alpha_i) = -\alpha_i$之外，反射$s_i = s_{\alpha_i}$使正根的集合保持稳定（§ 1, no. 6，第17条命题的Cor.1）。因此，
 $$
@@ -184,7 +184,7 @@ $$
 d = e^\rho + \sum_{q < \rho} c'_q e^q.
 $$
 
-如果$p \in P \cap C$与$p \neq \rho$，则$p > \rho$和$d$中$e^p$的系数由(5)得出零。因此，$c_p = 0$。此外，比较（4）和（5）中$e^\rho$的系数表明$c_\rho = 1$，因此$d = J(e^\rho)$。
+如果$p \in P \cap C$和$p \neq \rho$，则$d$中$e^p$的$p > \rho$和系数通过(5)等于零。因此，$c_p = 0$。此外，比较（4）和（5）中的$e^\rho$和系数表明$c_\rho = 1$，因此$d = J(e^\rho)$。
 
 我们继续假设$A = \mathbf{Z}$。令$p \in P, \alpha \in \mathbf{R}$和$M$为系统，代表元$W$关于子群$\{1, s_\alpha\}$的右陪集。然后，
 
@@ -208,11 +208,11 @@ $$
 
 #### 注 1 {#lie-vi-s3-n3-rem-1 .statement tag=0AXU}
 
-如果 2 不是 $A$ 中的零因子，则很容易检查$d$ 是 $A[P]$ 的唯一反不变量元素，其中 $e^\rho$ 为其最大值项。
+如果2在$A$中不是零因子，则很容易检查$d$是$A[P]$的唯一反不变量元素，其中$e^\rho$为其最大项。
 
 #### 注 2 {#lie-vi-s3-n3-rem-2 .statement tag=0AXV}
 
-引理 2 of no. 2 显示商$J(e^p)/d$（对于$p \in P \cap C$）的唯一最大值项是$e^{p-\rho}$。
+引理 2 of no. 2 显示商 $J(e^p)/d$（对于$p \in P \cap C$）的唯一最大值项是$e^{p-\rho}$。
 
 ### 4. 不变元素
 

@@ -33,16 +33,16 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: 87a1659c4f901d140996c8b922cb76e15c13c7da966119cdcfd7f4fa6e39a845
+content_sha256: 2afe4e4275e69980daf0fe577a38c2f20dac460703cfe70c50eb6132187c7570
 translated_from: content/en/lie/II/05_s5_magnus_algebras.md
 translation_method: google
 source_content_sha256: 6bac6bb784fbb4b199b3afb36bd212ba5f589bd833743b3d4385ed3b9a405428
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 929605b8d0a8ea5545f1ebcc3df287eb9e44d603e2c35a7e3116652748540b28
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。马格努斯代数
@@ -67,7 +67,7 @@ A^n(X);这拓扑使$\hat{A}(X)$成为完整的Hausdorff拓扑代数，当环 K�
 
 对于每个整数$m \geq 0$，令$\hat{A}_m(X)$表示级数$a = \sum_{n \geq m} a_n$的理想由……组成，使得$a_n \in A^n(X)$适用于所有$n \geq m$。这个理想的序列是$\hat{A}(X)$中0的邻域的基本系统以及$\hat{A}(X)$上的积分过滤。与上述过滤相关的阶函数用$\omega$表示；那么$\omega(0) = +\infty$和$\omega(a) = m$如果$a = \sum_{n \geq m} a_n$和$a_n \in A^n(X)$对于所有$n \geq m$和$a_m \neq 0$（§ 4，编号1和2）。
 
-$\hat{A}(X)$ 被称为集合 X 的 *Magnus 代数*，系数为 K。如果 K 中有任何歧义，我们写为 $\hat{A}_K(X)$。
+$\hat{A}(X)$ 被称为 K 中集合 X 和系数的 *Magnus 代数*。如果对 K 有任何歧义，我们写为 $\hat{A}_K(X)$。
 
 #### 命题 1 {#lie-ii-s5-prop-1 .statement tag=0A5B}
 
@@ -75,7 +75,7 @@ $\hat{A}(X)$ 被称为集合 X 的 *Magnus 代数*，系数为 K。如果 K 中�
 
 令 $f'$ 为 $A(X)$ 到 B 的唯一单位代数同态延伸$f$ (*代数*, 章 III, § 2, no. 7, 命题 7)。我们证明$f'$是*连续的*：$f'(A^n(X)) \subset B_{n\lambda}$从而$f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$。因此$f'$可以通过连续性以一种且仅一种方式扩展到同态$\hat{f} : \hat{A}(X) \to B$。
 
-我们保留命题 1 的假设和记号并令 $u \in \hat{A}(X)$。 元素$\hat{f}(u)$记为$u((f(x))_{x \in X})$，称为*用f(x)代替u*中的x的结果。特别是$u((x)_{x \in X}) = u$。现在让$u = (u_y)_{y \in Y}$成为$\hat{A}_1(X)$的元素的家族，并让$v \in \hat{A}(Y)$。以上允许我们定义元素$v((u_y)_{y \in Y}) \in \hat{A}(X)$。用$v \circ u$表示。由于$u_y((f(x))) \in B_\lambda$，元素$u_y((f(x)))$可以代替v中的y。映射$v \mapsto (v \circ u)((f(x)))$和$v \mapsto v((u_y((f(x))))))$则$\hat{A}(X)$的单位代数的两个连续同态进入B取相同的值 $u_y((f(x)))$ 元素 $y \in Y$。因此 (命题 1)
+我们保留命题 1 的假设和记号，并令$u \in \hat{A}(X)$。 元素 $\hat{f}(u)$记为$u((f(x))_{x \in X})$，称为*用f(x)代替u*中的x的结果。特别是$u((x)_{x \in X}) = u$。现在让$u = (u_y)_{y \in Y}$是元素和$\hat{A}_1(X)$的一个家族，并让$v \in \hat{A}(Y)$。以上允许我们定义元素$v((u_y)_{y \in Y}) \in \hat{A}(X)$。用$v \circ u$表示。由于$u_y((f(x))) \in B_\lambda$，元素$u_y((f(x)))$可以代替v中的y。映射$v \mapsto (v \circ u)((f(x)))$和$v \mapsto v((u_y((f(x))))))$则$\hat{A}(X)$的单位代数到B中的两个连续同态取相同的值 $u_y((f(x)))$ 元素 $y \in Y$。因此 (命题1)
 
 $$
 (v \circ u)((f(x))) = v((u_y((f(x))))))
@@ -85,21 +85,21 @@ $$
 
 ### 2. 马格努斯群
 
-对于$\hat{A}(X)$中的所有$a = (a_n)_{n \geq 0}$，K的元素$a_0$将被称为a的*常数项*，并用$\varepsilon(a)$表示。 公式 (1) 表明$\varepsilon$ 是$\hat{A}(X)$ 的代数同态到 K 中。
+对于$\hat{A}(X)$中的所有$a = (a_n)_{n \geq 0}$，K的元素$a_0$将被称为a的*常数项*，并用$\varepsilon(a)$表示。 公式(1)表明$\varepsilon$是$\hat{A}(X)$的代数同态到K中。
 
 #### 引理 1 {#lie-ii-s5-lem-1 .statement tag=0A5C}
 
 *要使$\hat{A}(X)$的元素 a 可逆，其常数项在K中可逆是充分必要的。*
 
-如果 $a$ 在 $\hat{\mathbf{A}}(\mathbf{X})$ 中可逆，则 $\varepsilon(a)$ 在 $K$ 中可逆。相反，如果$\varepsilon(a)$在$K$中可逆，则存在$u \in \hat{\mathbf{A}}_1(\mathbf{X})$使得$a = \varepsilon(a)(1-u)$；我们写$b = \left( \sum_{n \geq 0} u^n \right) \varepsilon(a)^{-1}$。那么$ab = ba = 1$和$a$是可逆的。
+如果$a$在$\hat{\mathbf{A}}(\mathbf{X})$中可逆，则$\varepsilon(a)$在$K$中可逆。相反，如果$\varepsilon(a)$在$K$中可逆，则存在$u \in \hat{\mathbf{A}}_1(\mathbf{X})$使得$a = \varepsilon(a)(1-u)$；我们写$b = \left( \sum_{n \geq 0} u^n \right) \varepsilon(a)^{-1}$。那么$ab = ba = 1$和$a$是可逆的。
 
-因此，常数项 1 的 $\hat{\mathbf{A}}(\mathbf{X})$ 的元素的集合因此是乘法幺半群 $\hat{\mathbf{A}}(\mathbf{X})$ 的子群，称为在 $\mathbf{X}$ 上构造的 *Magnus 群*（相对于 $K$）。在这个章中，它将被表示为$\Gamma(\mathbf{X})$或简称为$\Gamma$。对于每个整数$n \geq 1$，我们用$a \in \Gamma$的$\Gamma_n$集合表示，这样$\omega(a-1) \geq n$。通过§ 4, no. 5的命题2，序列$(\Gamma_n)_{n \geq 1}$是*$\Gamma$*上的整体中央过滤。
+因此，常数项 1 的 $\hat{\mathbf{A}}(\mathbf{X})$ 的元素的集合是乘法幺半群 $\hat{\mathbf{A}}(\mathbf{X})$ 的子群，称为在$\mathbf{X}$（相对于 $K$）构建的 *Magnus 群*。在这个章中，它将由 $\Gamma(\mathbf{X})$ 或简称为 $\Gamma$ 表示。对于每个整数$n \geq 1$，我们用$a \in \Gamma$的$\Gamma_n$集合表示，这样$\omega(a-1) \geq n$。到 § 4, no. 5 的命题 2 时，序列 $(\Gamma_n)_{n \geq 1}$ 是 *$\Gamma$* 上的整体中央过滤。
 
-### 3. 马格努斯群免费群
+### 3. 马格努斯群和免费群
 
 #### 定理 1 {#lie-ii-s5-thm-1 .statement tag=0A5D}
 
-*让$r$是$\mathbf{X}$到$\hat{\mathbf{A}}(\mathbf{X})$的映射，这样$\omega(r(x)) \geq 2$对于所有$x \in \mathbf{X}$。将自由群 $F(\mathbf{X})$ 的唯一同态 $g$ 放入 Magnus 群 $\Gamma(\mathbf{X})$，使得 $g(x) = 1 + x + r(x)$ 对于所有 $x \in \mathbf{X}$ 都是单射的。*
+*令 $r$ 为 $\mathbf{X}$ 的映射进入 $\hat{\mathbf{A}}(\mathbf{X})$，使得 $\omega(r(x)) \geq 2$ 对于所有 $x \in \mathbf{X}$。将自由群 $F(\mathbf{X})$ 的唯一同态 $g$ 放入 Magnus 群 $\Gamma(\mathbf{X})$，使得 $g(x) = 1 + x + r(x)$ 对于所有 $x \in \mathbf{X}$ 都是单射的。*
 
 我们首先证明三个引理。
 
@@ -122,17 +122,17 @@ $$
 \prod_{i=1}^s (1+x_i)^{n_i} = \sum_{b_1 \geq 0} \cdots \sum_{b_s \geq 0} c_{b_1, n_1} \cdots c_{b_s, n_s} x_1^{b_1} \cdots x_s^{b_s}.
 $$
 
-到引理 2，存在整数 $a_i > 0$，使得$c_{a_i, n_i} \neq 0$ ($1 \leq i \leq s$)。通过 *代数*、章 I, § 7, no. 4、命题 6，没有单项式 $x_1^{b_1} \cdots x_s^{b_s}$ 使得 $b_i \geq 0$ 和 $(b_1, \ldots, b_s) \neq (a_1, \ldots, a_s)$ 可以等于 $x_1^{a_1} \ldots x_s^{a_s}$。由此可见，$\prod_{i=1}^s (1 + x_i)^{n_i}$中$x_1^{a_1} \ldots x_s^{a_s}$的系数为$c_{a_1, n_1} \ldots c_{a_s, n_s} \neq 0$，即暗示了结果。
+到引理 2，存在整数 $a_i > 0$，使得$c_{a_i, n_i} \neq 0$ ($1 \leq i \leq s$)。通过 *代数*、章 I, § 7, no. 4、命题 6，没有单项式 $x_1^{b_1} \cdots x_s^{b_s}$ 使得 $b_i \geq 0$ 和 $(b_1, \ldots, b_s) \neq (a_1, \ldots, a_s)$ 可以等于 $x_1^{a_1} \ldots x_s^{a_s}$。由此可见，$\prod_{i=1}^s (1 + x_i)^{n_i}$中$x_1^{a_1} \ldots x_s^{a_s}$的系数是$c_{a_1, n_1} \ldots c_{a_s, n_s} \neq 0$，这暗示了结果。
 
 #### 引理 4 {#lie-ii-s5-lem-4 .statement tag=0A5G}
 
-*令$\sigma$为$\hat{A}(X)$的连续自同态，使得$\sigma(x) = x + r(x)$对应于$x \in X$（no. 1，命题1）。那么对于所有 $m \in \mathbf{N}$，$\sigma$ 就是自同构和 $\sigma(\hat{A}_m(X)) = \hat{A}_m(X)$。
+*令 $\sigma$ 为 $\hat{A}(X)$ 的连续自同态，使得 $\sigma(x) = x + r(x)$ 对应 $x \in X$ (no. 1, 命题 1)。那么对于所有 $m \in \mathbf{N}$，$\sigma$ 就是自同构和 $\sigma(\hat{A}_m(X)) = \hat{A}_m(X)$。
 
 $\sigma(x) \equiv x \mod \hat{A}_2(X)$对于$x \in X$、从而，对于$X$中的$n \geq 1$和$x_1, \ldots, x_n$，
 $$
 \sigma(x_1) \ldots \sigma(x_n) \equiv x_1 \ldots x_n \mod \hat{A}_{n+1}(X);
 $$
-对于所有$a \in A^n(X)$，特别是$\sigma(A^n(X)) \subset \hat{A}_n(X)$，$\sigma(a) \equiv a$以$\hat{A}_{n+1}(X)$为模，遵循线性关系。由此可见，$\sigma(A^n(X)) \subset \hat{A}_n(X)$对应$m \geq n$，从而$\sigma(\hat{A}_n(X)) \subset \hat{A}_n(X)$。在其他字中，$\sigma$与$A(X)$上的过滤$(\hat{A}_m(X))$相容的，并且其限制与相关分级环是同一性。因此$\sigma$是双射的（*交换代数*，章III, § 2, no. 8，推论3到定理1）。
+对于所有$a \in A^n(X)$，特别是$\sigma(A^n(X)) \subset \hat{A}_n(X)$，$\sigma(a) \equiv a$以$\hat{A}_{n+1}(X)$为模，遵循线性关系。由此可见，$\sigma(A^n(X)) \subset \hat{A}_n(X)$对应$m \geq n$，从而$\sigma(\hat{A}_n(X)) \subset \hat{A}_n(X)$。在其他字中，$\sigma$与$A(X)$上的过滤$(\hat{A}_m(X))$相容的，并且其限制与相关分级环是同一性。因此 $\sigma$ 是双射 (*交换代数*, 章 III, § 2, no. 8, 推论 3 到定理 1)。
 
 最后我们证明定理 1。令$w \neq 1$为$F(X)$的元素。由*代数*，章I, § 7, no. 5，命题7，$X$中存在$x_1, \ldots, x_s$和非零有理数整数$n_1, \ldots, n_s$，使得$s \geq 1$，$x_i \neq x_{i+1}$（$1 \leq i \leq s-1$）和
 $$
@@ -144,7 +144,7 @@ g(w) = \prod (1 + \sigma(x_i))^{n_i} = \sigma(\prod (1 + x_i)^{n_i}),
 $$
 因此 $g(w) \neq 1$ 乘以引理 3 和 4。
 
-### 4. 中下层级数免费群
+### 4. 自由群的下部中央级数
 
 我们要证明以下两个定理：
 
@@ -154,7 +154,7 @@ $$
 
 #### 定理 3 {#lie-ii-s5-thm-3 .statement tag=0A5I}
 
-*对于所有$x \in X$，令$c(x)$为$F(X)/(F(X), F(X))$中$x$的典范像。 令 $g$ 为与 $F(X)$ (§ 4, no. 6) 的过滤 $(C^n F(X))_{n \geq 1}$ 相关的分级李 $\mathbf{Z}$ 代数。 The unique homomorphism of the free Lie $\mathbf{Z}$-algebra $L_\mathbf{Z}(X)$ into $g$ which extends $c$ is an isomorphism.*
+*对于所有$x \in X$，令$c(x)$为$F(X)/(F(X), F(X))$中$x$的典范像。 令 $g$ 为与 $F(X)$ (§ 4, no. 6) 的过滤 $(C^n F(X))_{n \geq 1}$ 相关的分级李 $\mathbf{Z}$ 代数。 自由李$\mathbf{Z}$-代数$L_\mathbf{Z}(X)$到扩展$c$的$g$的独特同态是同构。*
 
 宽松地说，与自由群 $F(X)$（与下部中央级数）相关联的分级李 $\mathbf{Z}$ 代数是自由李 $\mathbf{Z}$ 代数 $L_\mathbf{Z}(X)$。
 
@@ -197,7 +197,7 @@ $$
 C^1 = F = F^1;如果 C^n = F^n，则 C^n \cap F^{n+1} = F^{n+1} 从而 C^{n+1} = F^{n+1}
 在 n \geqslant 1 上通过归纳证明定理 2。
 
-#### 推论{#lie-ii-s5-n4-cor-1 .statement tag=0A5J}
+#### 推论 {#lie-ii-s5-n4-cor-1 .statement tag=0A5J}
 
 $$
 \bigcap_{n \geqslant 1} C^n F(X) = \{e\}.
@@ -243,9 +243,9 @@ $$
 
 *对于$F(X)$中的所有$w \neq 1$，存在一个有限$p$群$G$和$F(X)$的同态$f$进入$G$，使得$f(w) \neq 1$。*
 
-存在$X$和整数$n_1, \ldots, n_r$使得$w = x_1^{n_1} \ldots x_r^{n_r}$存在元素$x_1, \ldots, x_r$。让$Y = \{x_1, \ldots, x_r\}$。 $Y$的典范嵌入变为$X$扩展至同态$\alpha : F(Y) \to F(X)$；另一方面，令$\beta$为$F(X)$的同态入$F(Y)$，其中限制至$Y$为恒等式，其中映射$X - Y$至$\{1\}$。那么$\beta(\alpha(y)) = y$对应$y \in Y$，因此$\beta \circ \alpha$是$F(Y)$的恒等式自同构。显然$F(Y)$中存​​在$w'$使得$w = \alpha(w')$；然后$\beta(w) = w' \neq 1$；现在$\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$，因此存在整数$n \geqslant 1$，使得$\beta(w) \notin F_n^{(p)}(Y)$。到命题 2，群 $G = F(Y)/F_n^{(p)}(Y)$ 是有限 $p$ 群。如果$f$是$\beta$的合成和$F(Y)$的典范同态到$G$，则$f(w) \neq 1$。
+存在$X$和整数$n_1, \ldots, n_r$使得$w = x_1^{n_1} \ldots x_r^{n_r}$存在元素$x_1, \ldots, x_r$。让$Y = \{x_1, \ldots, x_r\}$。 $Y$的典范嵌入变为$X$扩展至同态$\alpha : F(Y) \to F(X)$；另一方面，设$\beta$是$F(X)$到$F(Y)$的同态，其中限制到$Y$是恒等式，映射$X - Y$到$\{1\}$。那么$\beta(\alpha(y)) = y$对应$y \in Y$，因此$\beta \circ \alpha$是$F(Y)$的恒等式自同构。显然$F(Y)$中存​​在$w'$使得$w = \alpha(w')$；然后$\beta(w) = w' \neq 1$；现在$\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$，因此存在整数$n \geqslant 1$，使得$\beta(w) \notin F_n^{(p)}(Y)$。通过命题 2，群 $G = F(Y)/F_n^{(p)}(Y)$ 是有限 $p$ 群。如果$f$是$\beta$的合成和$F(Y)$的典范同态到$G$，则$f(w) \neq 1$。
 
-#### 推论{#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
+#### 推论 {#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
 
 *$F(X)$中有限指标的正常子群的交为$\{1\}$。*
 

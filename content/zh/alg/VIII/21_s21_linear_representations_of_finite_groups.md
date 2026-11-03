@@ -66,23 +66,23 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 1b2ad06de196c066269bc466b99f16b52cc10fae3a628225595735cb793f2e84
+content_sha256: 06d9714cc9f258a5f3aa24149a15c0e2d0d93c9d1003ad19b00241dfee60cd97
 translated_from: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md
 translation_method: google
 source_content_sha256: 9b88499ec4cd1b75b385f04753440e80043e0341bcb3af756c5dd1b9f9bd76d6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8ac888c32e1f9ee868cf2df2352aa3a953a139ef8e592f607d24476cc0bc2356
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 21。 线性表示有限群
+## § 21。 线性表示 / 有限群
 
 在这个截面中，G是群，K是交换环。如果G是有限群，那么我们用K的$|G|$元素Card(G)$\cdot 1$来表示。从No. 5开始，我们假设群G是有限的，环K是代数闭域，并且$|G|$不是零。
 
-### 1. Linear Representations
+### 1. 线性表示
 
 #### 定义 1 {#alg-viii-s21-def-1 .statement tag=00NC}
 
@@ -92,7 +92,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 回想一下，从 G 到群 G 的代数 K[G] 的典范映射 $g\mapsto e_g$ 是 K-模 K[G] 的基。通过滥用记号，我们还用$g$表示K[G]的元素$e_g$。给定G的线性表示$\pi : G\rightarrow \mathbf{G}\mathbf{L}(M)$，从K[G]到End$_K(M)$存在K-代数的唯一同态即扩展$\pi$(III, §2, No. 6，p. 447，例)；我们也用 $\pi$ 表示这个扩张。它是 M 中代数 K[G] 的表示 (VIII, p. 373, 定义 1)，因而 M 是 K[G] 模。相反，M 中 G 的定义线性表示的每一个代数 K[G] 线性表示 $\rho$ 由 $g\mapsto \rho (g)$ 给出。
 
-我们将关于K[G]-模结构的术语自由地应用于群G的线性表示。对于例，我们谈论子表示，简单的表示，表示的直和等。令$(M, \pi )$和$(M', \pi ')$为G 的线性表示；我们用 K[G]-模块的同态的 Hom$_G(\pi , \pi ')$ K-模 Hom$_{K[G]}(M,M')$ 表示从 M 到 $M'$.[^1]
+我们可以自由地将关于K[G]-模结构的术语应用到群G的线性表示。例如，我们谈论子表示，简单的表示，表示的直和等。令$(M, \pi )$和$(M', \pi ')$为G 的线性表示；我们用从 M 到 $M'$.[^1] 的 K[G] 模块的同态的 Hom$_G(\pi , \pi ')$ K-模 Hom$_{K[G]}(M,M')$ 表示
 
 如果对于 G 的元素的每个对 $(g, g')$ 有 $f(gg') =$ $f(g'g)$，则从 G 到 K 的映射 $f$ 称为中心函数；等价地，对于G的元素$g, h$的每个对，我们有$f(ghg^{-1}) =$$f(h)$。因此中心函数是G上的函数，其限制到每个共轭类是恒定的。它们从G到K的形式子模、空间、映射，记为$\mathscr{Z}_K(G)$。当G有限时，K-代数$\mathscr{Z}_K(G)$是G的共轭类维数数自由K-模。代数K[G]的中心Z(K[G])由元素$a=\sum a_gg$组成K[G]使得对于每个$h\in G$有$hah^{-1}=a$。现在，我们有
 
@@ -130,7 +130,7 @@ a) 如果对于每个$g\in G$，$\pi (g)$和$\pi '(g)$的特征多项式都相�
 
 b) 此外，假设 K 具有特征 0。如果特征标 $\chi_{\pi}$ 和 $\chi_{\pi'}$ 相等，则表示 $\pi$ 和 $\pi '$ 同构的。
 
-断言 a) 由VIII、p. 386的推论1得出； 断言 b) 由VIII、p. 384 的推论部分 a) 得出。
+断言 a) 由VIII、p. 386 中的推论 1 得出； 断言b)由VIII、p. 384的推论的部分a)得出。
 
 #### 例 1 {#alg-viii-s21-n1-exa-1 .statement tag=00NE}
 
@@ -208,9 +208,9 @@ $$
 
 因而，K-模 M 是$q$ 的像 N 的直和和$q$ 的核。对于每个$x\in M$和$g\in G$，我们都有$g q(x) =q(gx)$，因而$q$的核是M的K[G]子模。这证明N是K[G]-模M的直因子。
 
-#### 推论 1 (Maschke) {#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
+#### 推论 1（马施克）{#alg-viii-s21-thm-1-cor-1 .statement tag=00SC}
 
-假设群 G 是有限的并且 K 是交换域。 代数 K[G] 是半单当且仅当域 K 中的元素 $|G|$ 不是零。
+假设群 G 是有限的并且 K 是交换域。 代数 K[G] 是半单当且仅当域 K 的元素 $|G|$ 不是零。
 
 假设$|G| \not= 0$。到定理 1 时，$K[G]_s$ 的每个 K[G]-子模都是直因子。因而 K[G] 是半单。
 
@@ -230,31 +230,31 @@ $$
 
 假设群 G 是有限的，并且 $|G|$ 在 K 中是可逆的。K[G]-模是射影的当且仅当它射影为 K-模时。
 
-设 P 为 K[G]-模。如果 P 是自由 K[G]-模 M 的直因子，则它是自由K-模 M 的更不必说直因子。鉴于 II, §2, No. 2、p. 231、命题 4，逆命题由推论 2 得出， d).
+设 P 为 K[G]-模。如果 P 是自由 K[G]-模块 M 的直因子，则它是自由K-模 M 的更不必说直因子。鉴于 II, §2, No. 2、p. 231，逆命题由推论 2 得出， 命题 4，d)。
 
 #### 推论 4 {#alg-viii-s21-thm-1-cor-4 .statement tag=00NN}
 
 a) 假设群 G 是有限的，并且 K 是特征 0 的交换域。G 的两个有限维线性表示同构当且仅当它们具有相同的特征标。
 
-b) 假设 K 是完美域，其特征为素数数 $p$，并且群 G 是有限的，是$p$ 的基数素数。 G 的有限维线性表示的特征标是零当且仅当该表示同构于 $p$ 成对同构表示的直和。
+b) 假设 K 是完美域，其特征为素数数 $p$，并且群 G 是有限的，基数到 $p$ 素的。 G 的有限维线性表示的特征标是零当且仅当该表示同构于 $p$ 成对同构表示的直和。
 
-在推论假设下，G的每个有限维线性表示都是半单。推论由VIII、p. 384 的推论得出。
+在推论的假设下，G的每个有限维线性表示都是半单。 推论然后从 VIII、p. 384 的推论开始。
 
 #### 推论 5 {#alg-viii-s21-thm-1-cor-5 .statement tag=00NO}
 
-假设群 G 是有限的，并且 K 是交换域，其中 $|G| \not= 0$。令$\pi$和$\pi '$是G的有限维线性表示。则$\pi$和$\pi '$同构当且仅当对于G中的每个$g$，自同态、$\pi (g)$和$\pi '(g)$具有相同的特征多项式。
+假设群 G 是有限的，并且 K 是交换域，其中 $|G| \not= 0$。令$\pi$和$\pi '$是G的有限维线性表示。则$\pi$和$\pi '$同构当且仅当对于G中的每个$g$，自同态$\pi (g)$和$\pi '(g)$具有相同的特征多项式。
 
-这是从VIII、p. 386 的推论 1 得出的。
+这是从推论 1 of VIII、p. 386 得出的。
 
 ### 3. 感应和上诱导表示
 
 令 H 为群 G 的子群。
 
-如果$(V, \pi )$是G的线性表示，那么$\pi$到H的限制就是V中H的线性表示；我们用 Res$^G_H(\pi )$ 表示它。与 Res$^G_H(\pi )$ 伴随的 K[H]模只是从 K[G] 模 V 通过标量的限制 (II, §1, No. 13、p. 221) 推导出来的模。如果V为有限维自由K-模，则Res$^G_H(\pi )$的特征标到H为$\pi$的特征标限制。
+如果$(V, \pi )$是G的线性表示，那么$\pi$到H的限制就是V中H的线性表示；我们用 Res$^G_H(\pi )$ 表示它。与 Res$^G_H(\pi )$ 伴随的 K[H]模只是从 K[G] 模 V 通过限制标量 (II, §1, No. 13、p. 221) 推导出来的模。如果V是有限维自由K-模，则Res$^G_H(\pi )$的特征标对H来说是$\pi$的特征标限制。
 
 令 $(M, \sigma )$ 为 H 的表示。
 
-我们将 K[G] 视为 $(K[G]$，K[H]) 双模，将 M 视为 K[H]-模。 G 的 K[G]-模 $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) 定义线性表示，记为 Ind$^G_H(\sigma )$，称为由 $\sigma$ 诱发的 G 的表示。如果$(V, \pi )$是G的线性表示，则K[H]-模块$\mathscr{H}(V) =$Hom$_{K[G]}(K[G],V)$可以用K[H]-模块相应的到表示Res$^G_H(\pi )$来识别。因而， 伴随态射 (VIII, p. 59) 给出 K-模同构，称为规范，从 Hom$_H(\sigma$、Res$^G_H(\pi ))$ 到 Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) （“弗罗贝尼乌斯互易律”）。
+我们将 K[G] 视为 $(K[G]$，K[H]) 双模，将 M 视为 K[H]-模。 G 的 K[G]-模 $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) 定义线性表示，记为 Ind$^G_H(\sigma )$，称为由 $\sigma$ 诱发的 G 的表示。如果$(V, \pi )$是G的线性表示，则K[H]-模$\mathscr{H}(V) =$Hom$_{K[G]}(K[G],V)$可以用K[H]-模相应的到表示Res$^G_H(\pi )$来识别。因而， 伴随态射 (VIII, p. 59) 给出 K-模同构，称为规范，从 Hom$_H(\sigma$、Res$^G_H(\pi ))$ 到 Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) （“弗罗贝尼乌斯互易律”）。
 
 我们将 K[G] 视为 $(K[H]$, K[G])-双模。 G 的 K[G]-模 $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ 定义表示，记为 Coind$^G_H(\sigma )$，称为由 $\sigma$ 共同诱导的 G 的表示。如果$(V, \pi )$是G的线性表示，则K[H]-模$\mathscr{T}(V) = K[G]\otimes_{K[G]}V$可以用K[H]-模相应的到表示Res$^G_H(\pi )$来识别。因而，伴随态射（loc.cit.）给出K-模同构，称为规范，从Hom$_H$（Res$^G_H(\pi ), \sigma$）到Hom$_G(\pi$，Coind$^G_H(\sigma ))$。
 
@@ -284,7 +284,7 @@ $$
 
 (4)工业$^G_H(u)(g) =\sum_{s\in S}u^0(s^{-1}gs)$。
 
-注对于所有$x, g\in G$ 和每个$h\in H$，我们有$u^0((xh)^{-1}gxh) =$ $u^0(x^{-1}gx)$。由此可见，Ind$^G_H(u)$是G上的中心函数，不依赖于S的选择。因此，我们将定义K-线性映射Ind$^G_H$从$\mathscr{Z}_K(H)$到$\mathscr{Z}_K(G)$。
+请注意，对于所有 $x, g\in G$ 和每个 $h\in H$，我们都有 $u^0((xh)^{-1}gxh) =$ $u^0(x^{-1}gx)$。由此可见，Ind$^G_H(u)$是G上的中心函数，不依赖于S的选择。因此，我们将定义K-线性映射Ind$^G_H$从$\mathscr{Z}_K(H)$到$\mathscr{Z}_K(G)$。
 
 #### 命题 3 {#alg-viii-s21-prop-3 .statement tag=00NQ}
 
@@ -298,7 +298,7 @@ Tr($\pi (g)$) $=\sum_{s\in S_g}$ Tr($\pi (g)_s$) $=\sum_{s\in S_g}$ Tr($\sigma (
 
 命题的最后一个断言如下。
 
-### 4. Representations and the Grothendieck Group
+### 4. 表示与Grothendieck群
 
 在这个小节中，我们假设K是交换域。给定 G 的有限维线性表示 $(M, \pi )$，我们用 Grothendieck 环 $R_K(G)$ (VIII, p. 198, 例 1) 中 K[G]-模 M 的 $[\pi ]$ 类表示。
 
@@ -310,7 +310,7 @@ $$
 
 环$R_K(G)$的单位元是G的单位表示类(VIII，p. 399，例1)。
 
-环 $R_K(G)$ 是一个自由 $\mathbf{Z}$ 模，其中基集合为类的简单 K[G] 模，有限维在 K 上。当 $|G|$ 在 K 中可逆时，两个有限维表示同构当且仅当它们具有相同的性质$R_K(G)$中的类（VIII、p. 190，推论和p. 401，推论1）。
+环 $R_K(G)$ 是一个自由 $\mathbf{Z}$ 模，其中基集合为类的简单 K[G] 模，有限维在 K 上。当 $|G|$ 在 K 中可逆时，两个有限维表示同构当且仅当它们具有相同的性质$R_K(G)$ 中的类（VIII、p. 190、推论和p. 401、推论 1）。
 
 对于 G 的每个有限维线性表示 $(M, \pi )$，其矛盾 $\pi^{\vee}$ 也是有限维的。 表示 $\pi$ 和 $(\pi^{\vee})^{\vee}$ 同构的。如果$\pi '$也是G的有限维线性表示，则表示$(\pi \otimes \pi ')^{\vee}$和$\pi^{\vee}\otimes \pi^{'\vee}$同构的。如果
 
@@ -318,31 +318,31 @@ $$
 0\longrightarrow M'\longrightarrow M\longrightarrow M''\longrightarrow 0
 $$
 
-是 K[G]-模的正合序列在 K 上的有限维，则同余表示给出 K[G]-模的正合序列
+是 K[G]-模的有限维在 K 上的正合序列，则同余表示给出 K[G]-模的正合序列
 
 $$
 0\longrightarrow M^{''\vee}\longrightarrow M^{\vee}\longrightarrow M^{'\vee}\longrightarrow 0
 $$
 
-（II, §7, No. 5，p. 299，定理 5 的推论）。对于格罗滕迪克群 (VIII, p. 186, 命题 4) 的泛性质，对于每个有限维线性表示，存在环 $R_K(G)$ 的自同构 $c\mapsto c^{\vee}$，其特征为$[\pi ]^{\vee}= [\pi^{\vee}]$ G 的$\pi$； $R_K(G)$中每元素$c$就有$(c^{\vee})^{\vee}=c$。
+（II, §7, No. 5、p. 299、推论 / 定理 5）。对于格罗滕迪克群 (VIII, p. 186, 命题 4) 的泛性质，对于每个有限维线性表示，存在环 $R_K(G)$ 的自同构 $c\mapsto c^{\vee}$，其特征为$[\pi ]^{\vee}= [\pi^{\vee}]$ G 的$\pi$； $R_K(G)$ 中的每元素 $c$ 就有 $(c^{\vee})^{\vee}=c$。
 
 令 H 为 G 的子群。限制保留正合序列。通过格罗滕迪克群的泛性质（前述），因此存在群同态，用Res$^G_H$表示，从$R_K(G)$到$R_K(H)$，其特征为关系
 
 (6) 分辨率$^G_H[\pi ] =$ [分辨率$^G_H(\pi )]$
 
-对于 G 的每个有限维线性表示 $\pi$；是环同态。如果H在G中具有有限的指标，那么通过II, §7, No. 7，p. 306的命题 14，我们可以得到定义，类似地，群同态Ind$^G_H$从$R_K(H)$到$R_K(G)$的特征为关系
+对于 G 的每个有限维线性表示 $\pi$；是环同态。如果H在G中具有有限的指标，那么通过II, §7, No. 7、p. 306的命题 14，我们可以得到定义，类似地，群同态Ind$^G_H$从$R_K(H)$到$R_K(G)$的特征为关系
 
 (7) 工业$^G_H[\sigma ] =$ [工业$^G_H(\sigma )]$
 
 对于 H 的每个有限维线性表示 $\sigma$。
 
-由上述VIII、p. 399的关系(1)和VIII、p. 400、泛性质、格罗滕迪克群的(3)，存在环同态$\Theta_G$ G 上中心函数的$R_K(G)$到代数$\mathscr{Z}_K(G)$，其特征在于G的每有限维表示$\pi$有$\Theta_G([\pi ]) =\chi_{\pi}$。
+由上述VIII、p. 399的关系(1)和VIII、p. 400、格罗滕迪克群的泛性质(3)，从$R_K(G)$到环同态$\Theta_G$存在G 上中心函数的代数 $\mathscr{Z}_K(G)$，其特征在于 G 的每个有限维表示 $\pi$ 都有 $\Theta_G([\pi ]) =\chi_{\pi}$。
 
-如果 H 是 G 的子群，则与群 G 和 H 关联的同态 $\Theta_G$ 和 $\Theta_H$ 与运算 Res$^G_H$ 和 Ind$^G_H$ 相容的（VIII、p. 402 和VIII、p. 404、命题 3)。
+如果H是G的子群，则与群G和H相关的同态$\Theta_G$和$\Theta_H$与运算Res$^G_H$和Ind$^G_H$（VIII、p. 402和VIII兼容， p. 404、命题 3)。
 
-假设 G 是两个群中的乘积 $G'\times G''$。由VIII、p. 213、注 2，存在从$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$到群$R_K(G'\times G'')$的$\mathbf{Z}$线性映射$\kappa$，其特征为关系$\kappa ([\pi ']\otimes [\pi '']) = [\pi '\pi '']$ $\pi '$（分别$\pi ''$）有限维表示或$G'$（分别$G''$）和$\pi '\pi ''$外部张量积（VIII、p. 400、例5）。是环同态。如果域 K 是代数闭的，则映射 $\kappa$ 是同构 (VIII, p. 213, 注 2)。
+假设 G 是两个群中的乘积 $G'\times G''$。通过VIII、p. 213、注 2，存在从$R_K(G')\otimes_{\mathbf{Z}}R_K(G'')$到群$R_K(G'\times G'')$的$\mathbf{Z}$线性映射$\kappa$，其特征在于对于$\pi '$（分别为关系$\kappa ([\pi ']\otimes [\pi '']) = [\pi '\pi '']$）。 $\pi ''$）$G'$（分别$G''$）的有限维表示和$\pi '\pi ''$外部张量积（VIII，p. 400，例5）。是环同态。如果域 K 是代数闭的，则映射 $\kappa$ 是同构 (VIII, p. 213, 注 2)。
 
-假设 G 是两个群中的乘积 $G'\times G''$。用$\psi$同态表示从$\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$到$\mathscr{Z}_K(G)$发送$f'\otimes f''$到函数$(g', g'')\mapsto f'(g')f''(g'')$。以下图表通勤：
+假设G是两个群的乘积$G'\times G''$。用$\psi$同态表示从$\mathscr{Z}_K(G')\otimes_K\mathscr{Z}_K(G'')$到$\mathscr{Z}_K(G)$发送$f'\otimes f''$到函数$(g', g'')\mapsto f'(g')f''(g'')$。以下图表通勤：
 
 $R_K(G')\otimes_{\mathbf{Z}}R_K(G'')^{\kappa}$ // $R_K(G)$
 
@@ -415,13 +415,13 @@ $$
 
 (15)$\overline{\mathscr{F}}^{-1}(j_\mu(u)) =|G|^{-1}d_\mu\sum_{g\in G}$Tr($u\pi_\mu(g^{-1})$)$g$。
 
-代数 $F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$的中心结束$_K(V_{\lambda})$由$(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$族组成，其中$(a_{\lambda})$是K的元素的族。它是像乘以中心的$\overline{\mathscr{F}}$ 代数K[G]。因此中心具有基 $(e_{\lambda})_{\lambda\in\widehat{G}}$，其特征为关系
+代数$F(\widehat{G}) =\prod_{\lambda\in\widehat{G}}$End$_K(V_{\lambda})$的中心由$(a_{\lambda}1_{V_{\lambda}})_{\lambda\in\widehat{G}}$族组成，其中$(a_{\lambda})$是K的元素族。它是像乘代数K[G]的中心的$\overline{\mathscr{F}}$。因此，中心具有基$(e_{\lambda})_{\lambda\in\widehat{G}}$，其特征在于关系
 
 $$
 \pi_{\lambda}(e_\mu) =\delta_{\lambda \mu}1_{V_{\lambda}} \tag{16}
 $$
 
-对于 $\lambda , \mu\in \widehat{G}$，其中 $\delta_{\lambda \mu}$ 是克罗内克三角洲函数。到公式 (15)，对于每$\mu\in \widehat{G}$，我们有，
+对于 $\lambda , \mu\in \widehat{G}$，其中 $\delta_{\lambda \mu}$ 是克罗内克三角洲函数。到公式 (15) 时，对于每一个 $\mu\in \widehat{G}$，我们有，
 
 $$
 e_\mu=|G|^{-1}d_\mu\sum_{g\in G}\chi_\mu(g^{-1})g \tag{17}
@@ -429,21 +429,21 @@ $$
 
 这些元素满足关系
 
-(18)$\sum_{\lambda\in\widehat{G}}e_{\lambda}= 1,e^2_\mu=e_\mu$、$e_\mu e_{\nu}= 0$
+(18) $\sum_{\lambda\in\widehat{G}}e_{\lambda}= 1,e^2_\mu=e_\mu$, $e_\mu e_{\nu}= 0$
 
-对于所有$\mu, \nu \in \widehat{G}$使得$\mu\not=\nu$；它们是 Z(K[G]) 的不可分解幂等 (VIII, p. 147, 命题 15)
+对于所有$\mu, \nu \in \widehat{G}$使得$\mu\not=\nu$；它们是 Z(K[G]) (VIII, p. 147, 命题 15) 的不可分解幂等
 
 #### 注 {#alg-viii-s21-n5-rem-1 .statement tag=00NR}
 
-设$(V, \pi )$为G的线性表示。到马施克定理，K[G]-模V为半单。对于任何$\lambda \in \widehat{G}$，用$V^{\lambda}$表示K[G]-模V的型$\lambda$的同型组件；我们有$V =\bigoplus_{\lambda\in\widehat{G}}V^{\lambda}$。通过VIII、p. 147和公式的命题 15 (17)，V的投影算子以及与该V的分解相关联的像$V^{\lambda}$等于
+设$(V, \pi )$为G的线性表示。到马施克定理，K[G]-模V为半单。对于任何$\lambda \in \widehat{G}$，用$V^{\lambda}$表示K[G]-模V的型$\lambda$的同型分量；我们有$V =\bigoplus_{\lambda\in\widehat{G}}V^{\lambda}$。通过VIII、p. 147和公式的命题 15 (17)，V的投影算子和与此V的分解相关联的像$V^{\lambda}$等于
 
 $$
 \pi (e_{\lambda}) =|G|^{-1}d_{\lambda}\sum_{g\in G}\chi_{\lambda}(g^{-1})\pi (g) \tag{19}
 $$
 
-应用这个公式到$\pi =\pi_{\lambda}$，我们得到K的元素$d_{\lambda}\cdot 1$不是零。我们将进一步从（VIII，p. 420，推论2）看到$d_\mu$除是G的基数。
+应用这个公式到$\pi =\pi_{\lambda}$，我们得到K的元素$d_{\lambda}\cdot 1$不是零。我们将进一步看到 G 的 (VIII, p. 420, 推论 2) $d_\mu$ 除基数。
 
-令 $\lambda$ 为 $\widehat{G}$ 的元素。从 K[G] 到 End$_K(V_{\lambda})$ 映射 $\pi_{\lambda}$ 诱导同构 of $(K[G]$, K[G])-从 $e_{\lambda}K[G]$ 到 End$_K(V_{\lambda})$ 的双模。通过VIII、p. 147的命题 15，K[G]子模$e_{\lambda}K[G]$是型$\lambda$的K[G]的同型组件。它也是 G 右侧正则表示 (VIII, p. 143, 命题 11) 的型 $\lambda^{\vee}$ 的同型成分，以及双正则表示的型 $\lambda \times \lambda^{\vee}$ 的同型成分（VIII、p. 381、命题 4）。
+设$\lambda$为$\widehat{G}$的元素。 映射 $\pi_{\lambda}$ 从 K[G] 到 End$_K(V_{\lambda})$ 诱导同构 of $(K[G]$, K[G])-从 $e_{\lambda}K[G]$ 到 End$_K(V_{\lambda})$ 的双模。通过VIII、p. 147的命题 15，K[G]子模$e_{\lambda}K[G]$是型$\lambda$的K[G]的同型分量。它也是 G 右侧正则表示 (VIII, p. 143, 命题 11) 的等典型分量型 $\lambda^{\vee}$ 以及型 $\lambda \times \lambda^{\vee}$ 的等典型分量双正则表示 (VIII, p. 381, 命题 4)。
 
 ### 6. Schur正交关系
 
@@ -451,7 +451,7 @@ $$
 
 $\widehat{\tau}(j_{\lambda}(u)j_{\lambda}(v)) =d_{\lambda}$Tr($uv$)。从 $\tau =\widehat{\tau}\circ \mathscr{F}$ 开始，我们从公式推出 (2) 和 (15) 关系
 
-$d^2_{\lambda}|G|^{-1}\sum_{g\in G}$Tr($u\pi_{\lambda}(g)$)Tr($v\pi_{\lambda}(g^{-1})$)$=d_{\lambda}$Tr($uv$)。
+$d^2_{\lambda}|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d_{\lambda}$ Tr($uv$)。
 
 我们之前观察到域 K 中的 $d_{\lambda}.1\not= 0$；由此可知 (20) $|G|^{-1}\sum_{g\in G}$ Tr($u\pi_{\lambda}(g)$) Tr($v\pi_{\lambda}(g^{-1})$) $=d^{-1}_{\lambda}$ Tr($uv$)。
 
@@ -471,7 +471,7 @@ $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_\mu$和$y^*\in V^*_\mu$。对于$[
 
 #### 注 {#alg-viii-s21-n6-rem-1 .statement tag=00NS}
 
-我们通过$V_{\lambda}$的基$(e_{\lambda ,j})$以矩阵代数$\mathbf{M}_{d_{\lambda}}(K)$结束认同代数结束$_K(V_{\lambda})$。 映射$\mathscr{F}^{-1}$是同构从代数$\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$到代数K[G]。对于$\mu\in \widehat{G}$，用$\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$的$E^\mu_{ij}$元素表示，其指标$\mu$的分量为$\mathbf{M}_{d_\mu}(K)$的矩阵单位$E_{ij}$（II, §10, No. 3，p. 341），其其他分量为零； 集合$u^\mu_{ij}=\mathscr{F}^{-1}(E^\mu_{ij})$。 元素$u^{\lambda}_{ij}$的族，对于$\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}$、$1\leqslant j\leqslant d_{\lambda}$来说，是代数K[G]的基； 乘法表是
+我们通过$V_{\lambda}$的基$(e_{\lambda ,j})$以矩阵代数$\mathbf{M}_{d_{\lambda}}(K)$结束认同代数结束$_K(V_{\lambda})$。 映射$\mathscr{F}^{-1}$是同构从代数$\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$到代数K[G]。对于$\mu\in \widehat{G}$，用$\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$的$E^\mu_{ij}$元素表示，其中指标$\mu$的分量是$\mathbf{M}_{d_\mu}(K)$的矩阵单位$E_{ij}$（II, §10, No. 3，p. 341）并且其他分量是零； 集合$u^\mu_{ij}=\mathscr{F}^{-1}(E^\mu_{ij})$。 元素$u^{\lambda}_{ij}$的族，对于$\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}$、$1\leqslant j\leqslant d_{\lambda}$来说，是代数K[G]的基； 乘法表是
 
 $$
 u^{\lambda}_{ij}u^\mu_{k\ell}=\delta_{\lambda \mu}\delta_{jk}u^{\lambda}_{i\ell} \tag{26}
@@ -483,7 +483,7 @@ $$
 u^{\lambda}_{ij}=|G|^{-1}d_{\lambda g}\sum_{\in G}\pi^{\lambda}_{ji}(g^{-1})g \tag{27}
 $$
 
-### 7. 正交关系特征标
+### 7. 正交关系换特征标
 
 我们保留小节 5 和 6 的记号。回想一下，Z(K[G]) 由中心函数组成。
 
@@ -499,9 +499,9 @@ $$
 
 对于$\widehat{G}$中的$\lambda$和$\mu$，我们有$\langle \chi_{\lambda}, \chi_\mu\rangle_G=\delta_{\lambda \mu}$。
 
-这是当自同态$u$和$v$被视为恒等式时关系(20)和(23)的特定情况。
+这是当自同态$u$和$v$被视为恒等式时关系(20)和(23)的具体情况。
 
-#### 推论{#alg-viii-s21-n7-cor-1 .statement tag=00NT}
+#### 推论 {#alg-viii-s21-n7-cor-1 .statement tag=00NT}
 
 令 $\pi$ 和 $\pi '$ 为 G 的有限维线性表示。在域 K 中，我们有
 
@@ -523,9 +523,9 @@ $$
 
 家庭$(\chi_{\lambda})_{\lambda\in\widehat{G}}$是中央函数向量空间的基。 G的简单线性表示类数等于G的共轭类数。
 
-对于$a=\sum_{g\in G}a_gg\in K[G]$，写为$a^{\vee}=\sum_{g\in G}a_{g^{-1}}g$； 映射 $a\mapsto a^{\vee}$ 是代数 K[G] 的内合反自同构。到公式 (17)，每 $\lambda \in \widehat{G}$ 就有 $e_{\lambda}=|G|^{-1}d_{\lambda}\chi^{\vee}_{\lambda}$。 命题则可得出$(e_{\lambda})_{\lambda\in\widehat{G}}$ 族是 K[G] 的中心中的基。
+对于$a=\sum_{g\in G}a_gg\in K[G]$，写为$a^{\vee}=\sum_{g\in G}a_{g^{-1}}g$； 映射 $a\mapsto a^{\vee}$ 是代数 K[G] 的内合反自同构。到公式 (17)，每 $\lambda \in \widehat{G}$ 就有 $e_{\lambda}=|G|^{-1}d_{\lambda}\chi^{\vee}_{\lambda}$。 命题 $(e_{\lambda})_{\lambda\in\widehat{G}}$ 是 K[G] 的中心的基。
 
-用G的共轭类$\mathscr{C}$集合表示。设C为$\mathscr{C}$元素； C除以映射$g\mapsto g^{-1}$，像$C^{-1}$为共轭类。 C的元素互为G的共轭子群；他们的基数 $d(C)$ 满足
+用G的共轭类$\mathscr{C}$集合表示。设C为$\mathscr{C}$元素； C除以映射$g\mapsto g^{-1}$，像$C^{-1}$为共轭类。 C元素交换子互为G的共轭子群；他们的基数$d(C)$满足
 
 (30) 卡(G) = 卡(C)$d(C)$。
 
@@ -539,7 +539,7 @@ $$
 
 对于$\widehat{G}$中的$\lambda$和$\mu$。
 
-用型 $\widehat{G}\times \mathscr{C}$ 的 A 矩阵和条目 $\chi_{\lambda}(C)$ 表示，并用型 $\mathscr{C}\times \widehat{G}$ 的 B 矩阵和条目 $\chi_{\lambda}(C^{-1})d(C)^{-1}$ 表示。 集合 $\widehat{G}$ 和 $\mathscr{C}$ 具有相同的基数 (命题 5)； 关系(31)表示矩阵乘积AB是型$\widehat{G}\times \widehat{G}$的矩阵单位。 II, §10, No. 12、p. 360、矩阵乘积的命题11 BA为型$\mathscr{C}\times \mathscr{C}$矩阵单位；在其他字，我们有关系
+用型 $\widehat{G}\times \mathscr{C}$ 的 A 矩阵（条目 $\chi_{\lambda}(C)$）表示，并用型 $\mathscr{C}\times \widehat{G}$ 的 B 矩阵（条目 $\chi_{\lambda}(C^{-1})d(C)^{-1}$）表示。 集合 $\widehat{G}$ 和 $\mathscr{C}$ 具有相同的基数 (命题 5)； 关系(31)表示矩阵乘积AB是型$\widehat{G}\times \widehat{G}$的矩阵单位。 II, §10, No. 12、p. 360、矩阵乘积的命题11 BA为型$\mathscr{C}\times \mathscr{C}$矩阵单位；在其他字，我们有关系
 
 $$
 \sum_{\lambda\in\widehat{G}}\chi_{\lambda}(C^{-1})\chi_{\lambda}(C') =d(C)\delta_{CC'} \tag{32}
@@ -547,9 +547,9 @@ $$
 
 $\mathscr{C}$中的C和$C'$（有时称为“特征标的第二个正交关系”）。
 
-设H是G的子群。让我们注整数Card(H)除Card(G)并且$|G|$不是K中的零；因此，K 中有$|H| \not= 0$。
+令 H 为 G 的子群。让我们注意到 K 中的整数 Card(H) 除 Card(G) 并且 $|G|$ 不是零；因此，K 中有$|H| \not= 0$。
 
-用Res$^G_H$线性映射表示，从Z(K[G])到Z(K[H])，将G上的中心函数发送到其限制到H。我们已经看到，如果$\chi_{\pi}$是有限维表示$\pi$的特征标 G，则 Res$^G_H(\chi_{\pi})$ 就是 H 的表示 Res$^G_H(\pi )$ 的特征标。
+用 Res$^G_H$ 线性映射表示，从 Z(K[G]) 到 Z(K[H])，将 G 上的中心函数发送到其限制到 H。 我们已经看到，如果 $\chi_{\pi}$ 是有限维表示 $\pi$ 的特征标 G，则 Res$^G_H(\chi_{\pi})$ 就是 H 的表示 Res$^G_H(\pi )$ 的特征标。
 
 #### 命题 6 {#alg-viii-s21-prop-6 .statement tag=00NV}
 
@@ -557,7 +557,7 @@ $\mathscr{C}$中的C和$C'$（有时称为“特征标的第二个正交关系�
 
 (33) $\langle$工业$^G_H(u), f\rangle_G=\langle u$，研究$^G_H(f)\rangle_H$。
 
-G 的简单表示 Z(K[G]) 的形式基 (VIII, p. 411, 命题 5) 的特征标，对于 H 也同样成立。因此，在以下情况下成立 (33) 即可： $f$ 是 G 的简单表示 $\pi$ 的特征标 $\chi_{\pi}$，$u$ 是 H 的简单表示 $\sigma$ 的特征标 $\chi_{\sigma}$。在这种情况下， Ind$^G_H(u)$ 是 G 的表示 Ind$^G_H(\sigma )$ 的特征标，并且，由 VIII，p. 410，推论，我们有
+G 的简单表示 Z(K[G]) 的形式基 (VIII, p. 411, 命题 5) 的特征标，对于 H 也同样成立。 因此，在以下情况下成立 (33) 即可： $f$ 是 G 的简单表示 $\pi$ 的特征标 $\chi_{\pi}$，$u$ 是 H 的简单表示 $\sigma$ 的特征标 $\chi_{\sigma}$。在这种情况下， Ind$^G_H(u)$是G的表示Ind$^G_H(\sigma )$的特征标，并且，通过VIII，p. 410，推论，我们有
 
 $\langle$Ind$^G_H(u), f\rangle_G=$（昏暗$_K$坎$_G$（Ind$^G_H(\sigma ), \pi$））$\cdot 1$。
 
@@ -625,7 +625,7 @@ $\lambda , \mu\in \widehat{G}$。特别是，每当 $\lambda \not=\mu$ 时，$a_
 
 在这个小节中，我们假设群G是阿贝尔的。
 
-根据Schur的引理（VIII，p. 48，推论1），G的每个简单表示都有维数1。令$(M, \pi )$为表示，$\chi$为其特征标；对于每个$g\in G$和$x\in M$，我们有$\pi (g)(x) =\chi (g)x$。因而，特征标$\chi$是从G到K的乘法群$K^*$的同态。相反，从G到$K^*$的每个同态是次数1的G的表示的特征标。所以集合简单K[G]-模的类的$\widehat{G}$可以用从G到$K^*$的同态的集合Hom(G$,K^*$)来识别。我们由此推论$\widehat{G}$上的阿贝尔的群结构； $\widehat{G}$ 对应至张量积（共表示）中的乘积。 群 G 和 $\widehat{G}$ 在 VIII、p. 411 中的命题 5 有相同的基数。 G 上的每个函数都是中心，从 G 到 K $\widehat{G}$ 是映射向量空间基 (loc. cit.)。由于正交关系对于特征标来说，这样的映射$f$相对于基$\widehat{G}:$有以下独特的分解
+根据Schur的引理（VIII，p. 48，推论1），G的每个简单表示都有维数1。令$(M, \pi )$为表示，$\chi$为其特征标；对于每个$g\in G$和$x\in M$，我们有$\pi (g)(x) =\chi (g)x$。因而，特征标$\chi$是从G到K的乘法群$K^*$的同态。相反，从G到$K^*$的每个同态是次数1的G的表示的特征标。所以集合简单K[G]-模的类的$\widehat{G}$可以用从G到$K^*$的同态的集合Hom(G$,K^*$)来识别。我们由此推论$\widehat{G}$上的阿贝尔的群结构； $\widehat{G}$ 对应至张量积（共表示）中的乘积。 群 G 和 $\widehat{G}$ 具有相同的基数乘以 VIII、p. 411 的命题 5。 G 上的每个函数都是中心，从 G 到 K $\widehat{G}$ 是映射向量空间基 (loc. cit.)。由于正交关系对应于特征标，这样的映射$f$相对于基$\widehat{G}:$有以下独特的分解
 
 $$
 f=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
@@ -637,7 +637,7 @@ $$
 \langle f, f'\rangle_G=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\langle \chi , f'\rangle_G \tag{40}
 $$
 
-令$(V, \pi )$为G的线性表示。对于任何$\chi \in \widehat{G}$，用向量$v$的V由……组成$V^{\chi}$子空间表示，使得$\pi (g)(v) =\chi (g)v$对于每个$g\in G$。 空间 $V^{\chi}$ 是 K[G]-模块 V 的型 $\chi$ 的同型组件。 空间V是$(V^{\chi})_{\chi\in\widehat{G}}$家族的直和，V的投影算子$p_{\chi}$以及与此分解相关的像$V^{\chi}$由下式给出
+令$(V, \pi )$为G的线性表示。对于任何$\chi \in \widehat{G}$，用向量$v$的V由……组成的$V^{\chi}$子空间表示，使得对于每个$g\in G$都有$\pi (g)(v) =\chi (g)v$。 空间 $V^{\chi}$ 是 K[G]-模V 型 $\chi$ 的同型分量。 空间V是$(V^{\chi})_{\chi\in\widehat{G}}$族的直和，V的投影算子$p_{\chi}$以及与此分解相关的像$V^{\chi}$由下式给出
 
 $$
 p_{\chi}=|G|^{-1}\sum_{g\in G}\chi (g^{-1})\pi (g) \tag{41}
@@ -647,27 +647,27 @@ $$
 
 #### 注 {#alg-viii-s21-n9-rem-1 .statement tag=00NX}
 
-令$n$为群G的基数，并令$\mu_n(K)$为K中$n$-第根的单位元的群。对于每个$g\in G$，我们有$g^n= 1$；因而，$\widehat{G}$可以与群Hom(G$, \mu_n(K)$)识别。 群 $\mu_n(K)$ 是阶 $n$ (V, §11, No. 2, p. 78, 定理 1) 的循环。因而，群 $\widehat{G}$ 同构于群 D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z}$)。由VII, §4, No. 9、p. 26、命题 10、群$\widehat{G}$与群G同构，映射将G的元素$g$发送到同态从$\widehat{G}$到$K^*$的$\chi \mapsto \chi (g)$是从G到$\widehat{\widehat{G}}$的同构。
+令$n$为群G的基数，并令$\mu_n(K)$为K中$n$-第根的单位元的群。对于每个$g\in G$，我们有$g^n= 1$；因而，$\widehat{G}$可以与群Hom(G$, \mu_n(K)$)识别。 群 $\mu_n(K)$ 是阶 $n$ (V, §11, No. 2, p. 78, 定理 1) 的循环。因此群 $\widehat{G}$ 同构于群 D(G) = Hom(G$,\mathbf{Q}/\mathbf{Z}$)。由VII, §4, No. 9、p. 26、命题 10、群$\widehat{G}$与群G同构，映射将G的元素$g$发送到同态从$\widehat{G}$到$K^*$的$\chi \mapsto \chi (g)$是从G到$\widehat{\widehat{G}}$的同构。
 
 ### 10. 特征标和格罗滕迪克群
 
-用$\theta_G$K-代数同态表示从$K\otimes_{\mathbf{Z}}R_K(G)$到$\mathscr{Z}_K(G)$，每有限维表示$\pi$发送$1\otimes [\pi ]$到$\chi_{\pi}$。
+用$\theta_G$K-代数同态表示，从$K\otimes_{\mathbf{Z}}R_K(G)$到$\mathscr{Z}_K(G)$，每有限维表示$\pi$发送$1\otimes [\pi ]$到$\chi_{\pi}$。
 
 #### 命题 8 {#alg-viii-s21-prop-8 .statement tag=00NY}
 
-a) 同态 $\theta_G$ 是从 $K\otimes_{\mathbf{Z}}R_K(G)$ 到 $\mathscr{Z}_K(G)$ 的同构。
+a) 从$K\otimes_{\mathbf{Z}}R_K(G)$到$\mathscr{Z}_K(G)$，同态$\theta_G$是同构。
 
-b) 假设 K 的特征为 0。 Then $\theta_G$ defines an isomorphism from $R_K(G)$ to the subring of $\mathscr{Z}_K(G)$ consisting of the linear combinations of the characters $\chi_{\lambda}$ for $\lambda$ in $\widehat{G}$ with integer coefficients.
+b) 假设 K 的特征为 0。 然后$\theta_G$定义了从$R_K(G)$到$\mathscr{Z}_K(G)$的子环的同构，该子环由$\widehat{G}$中$\lambda$的字符$\chi_{\lambda}$与整数系数的线性组合组成。
 
 族$([\lambda ])_{\lambda\in\widehat{G}}$是$\mathbf{Z}$模块$R_K$(G)的基，族$(\chi_{\lambda})_{\lambda\in\widehat{G}}$是K-向量空间$\mathscr{Z}_K(G)$的基。 断言 a) 和 b) 遵循 (VIII, p. 411, 命题 5)。
 
 ### 11. 简单表示的维数
 
-用 $n$ 表示群 G 的基数。 令 $\pi$ 为 G 在有限维 K-向量空间 M 中的线性表示。 对于每个$g\in G$，我们有$\pi (g)^n= 1_M$，因此$\pi (g)$除$T^n-1$的最小多项式。 由于 K 中存在 $n\cdot 1\not= 0$，因此该最小多项式是可分的 (V, §11, No. 2、p. 78)，并且由于域 K 是代数闭的，因此 M 的自同态 $\pi (g)$ 可对角化的 (VII, §5, No. 7、p. 40、命题 12)。 $\pi (g)$的特征值是单位元的$n$-第根，并且对于每个$\alpha \in K$，$\alpha$的几何重数为$\pi (g)$的特征值（VII, §5, No. 2，p. 30， 定义 1) 等于$\alpha$的重数，即$\pi (g)$的特征多项式的根。 Denote by $\mathscr{O}_n$ the subgroup of K generated by the set $\mu_n(K)$ of $n$-th roots of unity; it is a finitely generated $\mathbf{Z}$-module and a subring of K. $\pi$的特征标取$\mathscr{O}_n$中的值。
+用 $n$ 表示群 G 的基数。 令 $\pi$ 为 G 在有限维 K-向量空间 M 中的线性表示。 对于每个$g\in G$，我们有$\pi (g)^n= 1_M$，因此$\pi (g)$除$T^n-1$的最小多项式。 由于 K 中存在 $n\cdot 1\not= 0$，因此该最小多项式是可分的 (V, §11, No. 2、p. 78)，并且由于域 K 是代数闭的，因此 M 的自同态 $\pi (g)$ 可对角化的 (VII, §5, No. 7、p. 40、命题 12)。 $\pi (g)$的特征值是单位元的$n$-第根，并且对于每个$\alpha \in K$，$\alpha$的几何重数为$\pi (g)$的特征值（VII, §5, No. 2，p. 30， 定义 1) 等于$\alpha$的重数，即$\pi (g)$的特征多项式的根。 用$\mathscr{O}_n$表示由$n$个单位根的集合$\mu_n(K)$生成的K的子群；它是一个有限生成的 $\mathbf{Z}$ 模和 K 的子环。 $\pi$的特征标取$\mathscr{O}_n$中的值。
 
 #### 命题 9 {#alg-viii-s21-prop-9 .statement tag=00NZ}
 
-假设域 K 有特征零。那么 G 的每个简单表示的次数除 G 的基数。
+假设域 K 有特征零。然后G的每个简单的表示的次数G的除基数。
 
 令$(V, \pi )$为G的简单表示，$\chi$为其特征标。对于 Z(K[G]) 的每个元素 $a$，V 的自同态 $\pi (a)$ 为位似 (VIII, p. 47, 定理 1)；用 $\varphi (a)$ 表示满足 $\pi (a) =\varphi (a)_V$ 的标量。从 Z(K[G]) 到 K 的所得的映射 $\varphi$ 是代数同态。让我们取$a=\sum_{g\in G}\chi (g^{-1})g$；到VIII、p. 408的注，我们有$\varphi (a) =$（暗淡$V$）$^{-1}|G|$。另一方面，K[G]的$a$属于到子环$\mathscr{O}_n[G]\cap Z(K[G])$，它是有限生成的$\mathbf{Z}$-模块（VII, §3，p. 15，推论）。因此，K 属于的元素 $\varphi (a) =$ (dim $V$)$^{-1}|G|$ 到 K 的子环是有限生成的 $\mathbf{Z}$ 模。我们利用得出以下引理。
 
@@ -675,33 +675,33 @@ b) 假设 K 的特征为 0。 Then $\theta_G$ defines an isomorphism from $R_K(G
 
 设L为$\mathbf{Q}$的扩张。设 A 为 L 的子环。假设 A 是有限生成的 $\mathbf{Z}$ 模块。我们有$A\cap \mathbf{Q}=\mathbf{Z}$。
 
-由于$\mathbf{Z}$-模$A\cap \mathbf{Q}$是有限生成的，因此存在严格的正整数 N，使得$A\cap \mathbf{Q}$包含在$\frac{1}{N}\mathbf{Z}$中。设$x$为$\mathbf{Q}-\mathbf{Z}$的元素；我们将其写为$x=\frac{p}{q}$，其中$p$和$q$互质整数和$q\geqslant 2$。我们有$q^N\geqslant 2^N>N ($集合理论，III, §3, No. 6、p. 165、定理2)、整数$p^N$和$q^N$互质，因而$x^N\notin\frac{1}{N}\mathbf{Z}$。由此可见，$x$ 不属于到 A。结论证明引理。
+由于$\mathbf{Z}$-模$A\cap \mathbf{Q}$是有限生成的，因此存在严格的正整数 N，使得$A\cap \mathbf{Q}$包含在$\frac{1}{N}\mathbf{Z}$中。设$x$为$\mathbf{Q}-\mathbf{Z}$的元素；我们将其写为$x=\frac{p}{q}$，其中$p$和$q$互质整数和$q\geqslant 2$。我们有 $q^N\geqslant 2^N>N ($集合理论、III, §3, No. 6、p. 165、定理 2)、整数 $p^N$ 和 $q^N$ 互质，因而$x^N\notin\frac{1}{N}\mathbf{Z}$。由此可见，$x$ 不属于到 A。引理的结论证明。
 
 在接下来的小节中，我们扩展命题9的情况，我们只假设K的特性不除阶G。
 
 ### 12. 基域变换
 
-我们保留之前的小节的记号。令$K'$为代数闭域，使得$K'$的元素$n\cdot 1$不是零。 群$\mu_n(K)$和$\mu_n(K')$是阶$n$（V, §11, No. 2，p. 78，定理1）的循环。 选择同构$\varphi$从$\mu_n(K)$到$\mu_n(K')$。令 $\pi$ 为有限维 K-向量空间中 G 的线性表示，并令 $\pi '$ 为有限维 $K'$ 向量空间中 G 的线性表示。我们说，$\pi$和$\pi '$相关（通过$\varphi$），如果对于每个$g\in G$和$\omega \in \mu_n$(K)，$\omega$的重数，因为$\pi (g)$的特征值等于重数 $\varphi (\omega )$ 相当于 $\pi '(g)$ 的特征值。在这种情况下，$\pi$和$\pi '$具有相同的维数，通过取$g= 1$可以看出。
+我们保留之前的小节的记号。令$K'$为代数闭域，使得$K'$的元素$n\cdot 1$不是零。 群$\mu_n(K)$和$\mu_n(K')$是阶$n$（V, §11, No. 2，p. 78，定理1）的循环。 选择同构$\varphi$从$\mu_n(K)$到$\mu_n(K')$。令$\pi$为有限维K-向量空间中G的线性表示，并令$\pi '$为有限维$K'$向量空间中G的线性表示。我们说，$\pi$和$\pi '$相关（通过$\varphi$），如果对于每个$g\in G$和$\omega \in \mu_n$(K)，$\omega$的重数，因为$\pi (g)$的特征值等于重数 $\varphi (\omega )$ 为 $\pi '(g)$ 的特征值。在这种情况下，$\pi$和$\pi '$具有相同的维数，通过取$g= 1$可以看出。
 
-令 $\pi_1$ 和 $\pi_2$（分别为 $\pi '_1$ 和 $\pi '_2$）为 G 在有限维向量空间上的线性表示在 K 上（分别为 $K'$）。我们有以下属性：
+令 $\pi_1$ 和 $\pi_2$（分别为 $\pi '_1$ 和 $\pi '_2$）为有限维向量空间中 G 在 K（分别为 $K'$）上的线性表示。我们有以下属性：
 
 a) 如果$\pi_1$与$\pi '_1$和$\pi '_2$相关，则$\pi '_1$和$\pi '_2$同构的。
 
 b) 如果$\pi_1$与$\pi '_1$相关，$\pi_2$与$\pi '_2$相关，则$\pi_1\oplus \pi_2$与$\pi '_1\oplus \pi '_2$相关，$\pi_1\otimes \pi_2$与$\pi '_1\otimes \pi '_2$相关。
 
-断言 a) 由VIII、p. 402 和断言 b) 的推论 5 得出是明确的。
+断言 a) 由VIII、p. 402 中的推论 5 得出，断言 b) 是清楚的。
 
-在这里，我们用简单 K[G]-模块的类的 $\mathscr{S}_K(G)$ 集合表示，之前用 $\widehat{G}$ 表示，并且我们同样用定义 $\mathscr{S}_{K'}(G)$ 表示。 集合 $\mathscr{S}_K(G)$ 和 $\mathscr{S}_{K'}(G)$ 都是有限的，基数数为共轭类（VIII、p. 411、命题 5）。
+在这里，我们用简单 K[G]-模块的类的 $\mathscr{S}_K(G)$ 集合表示，之前用 $\widehat{G}$ 表示，并且我们同样用定义 $\mathscr{S}_{K'}(G)$ 表示。 集合 $\mathscr{S}_K(G)$ 和 $\mathscr{S}_{K'}(G)$ 都是有限的，基数数为共轭类 (VIII, p. 411, 命题 5)。
 
 #### 命题 10 {#alg-viii-s21-prop-10 .statement tag=00O1}
 
 从$\mathscr{S}_K(G)$到$\mathscr{S}_{K'}(G)$存在唯一映射$\varphi_G$，使得对于$\mathscr{S}_K(G)$中的每个$\lambda$，$\lambda$和$\varphi_G(\lambda )$通过$\varphi$相关。此外，$\varphi_G$是双射的。
 
-$\varphi_G$ 的唯一性由上面的性质 a) 得出。
+$\varphi_G$ 的唯一性源自上面的性质 a)。
 
 A) 假设域 K 的特征为 0。
 
-群$\mu_n(K)$是循环的（V, §11, No. 2，p. 78，定理1）；这个群的选择生成元$\zeta$。考虑将 X 发送到 $\zeta$ 的环同态 $\rho :\mathbf{Z}[X]\rightarrow \mathscr{O}_n$。它是主观的。分圆多项式 $\Phi_n(X)$ 在 $\mathbf{Q}[X]$ (V, §11, No. 5, p. 84, 定理 2) 中不可约；因此它是 $\zeta$ 在 $\mathbf{Q}$ 上的最小多项式。多项式 $\Phi_n$ 是具有整数系数 (V, §11, No. 4, p. 81) 的一元多项式。令 $P\in \mathbf{Z}[X]$ 为多项式，使得 $P(\zeta ) = 0$；由多项式 (IV, §1, No. 6, p. 10) 的欧几里得除法，$\mathbf{Z}[X]$ 中存在两个多项式 Q 和 R，使得 P = QΦ$_n+ R$ 和 deg(R) $<$ deg(Φ$_n$)。我们有 $R(\zeta ) = 0$，因而 R = 0，因为 $\Phi_n$ 是 $\zeta$ 的最小多项式。因而，$\rho$的核是$\mathbf{Z}[X]$的理想$\Phi_n\mathbf{Z}[X]$，并且从$\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$到$\mathscr{O}_n$是$\rho$诱导环同构。
+群$\mu_n(K)$是循环的（V, §11, No. 2，p. 78，定理1）；这个群的选择生成元$\zeta$。考虑将 X 发送到 $\zeta$ 的环同态 $\rho :\mathbf{Z}[X]\rightarrow \mathscr{O}_n$。它是主观的。分圆多项式 $\Phi_n(X)$ 在 $\mathbf{Q}[X]$ (V, §11, No. 5, p. 84, 定理 2) 中不可约；因此它是 $\zeta$ 在 $\mathbf{Q}$ 上的最小多项式。多项式 $\Phi_n$ 与整数系数 (V, §11, No. 4, p. 81) 是一元函数。令 $P\in \mathbf{Z}[X]$ 为多项式，使得 $P(\zeta ) = 0$；由多项式 (IV, §1, No. 6, p. 10) 的欧几里得除法，$\mathbf{Z}[X]$ 中存在两个多项式 Q 和 R，使得 P = QΦ$_n+ R$ 和 deg(R) $<$ deg(Φ$_n$)。我们有 $R(\zeta ) = 0$，因而 R = 0，因为 $\Phi_n$ 是 $\zeta$ 的最小多项式。因而，$\rho$的核是$\mathbf{Z}[X]$的理想$\Phi_n\mathbf{Z}[X]$，并且从$\mathbf{Z}[X]/\Phi_n\mathbf{Z}[X]$到$\mathscr{O}_n$是$\rho$诱导环同构。
 
 集合$\zeta '=\varphi (\zeta )$；它是$K'$中单位元的原始$n$-第根，因此我们有$\Phi_n(\zeta ') = 0$（V, §11, No. 5，p. 83，引理3）。因而，存在从环$\mathscr{O}_n$到域$K'$，变换$\zeta$到$\zeta '$的同态$\varphi_0$；从$\mu_n(K)$到$\mu_n(K')$扩展映射$\varphi$。设$\mathscr{O}$为元素$\frac{a}{n^r}$的K由……组成与$a\in \mathscr{O}_n$和$r\in \mathbf{N}$的子环。由于$n\cdot 1$在$K'$中可逆，因此从$\mathscr{O}$到$K'$，同态$\varphi_0$扩展到同态$\varphi_1$。
 
@@ -711,7 +711,7 @@ $$
 \Phi (\sum_{g\in G}a_gg)=\sum_{g\in G}\varphi_1(a_g)g \tag{42}
 $$
 
-用G的共轭类的$\mathscr{C}$集合表示。 For C in $\mathscr{C}$, denote by $u_C$ the element $\sum_{g\in C}g$ of $\mathscr{O}[G]$; the family $(u_C)_{C\in\mathscr{C}}$ is a basis over $\mathscr{O}$ of the center $Z(\mathscr{O}[G])$ of the algebra $\mathscr{O}[G]$ (VIII, p. 398). 对于 $\mathscr{S}_K$(G) 的任何元素 $\lambda$，用 $\chi_{\lambda}$ 表示其特征标，用 $d_{\lambda}$ 表示其维数，并用 $e_{\lambda}$ 元素表示，其定义为 K[G]
+用G的共轭类的$\mathscr{C}$集合表示。 对于$\mathscr{C}$中的C，用$u_C$表示$\mathscr{O}[G]$的元素$\sum_{g\in C}g$；族$(u_C)_{C\in\mathscr{C}}$是代数$\mathscr{O}[G]$（VIII，p. 398）中心$Z(\mathscr{O}[G])$的$\mathscr{O}$基础。 对于 $\mathscr{S}_K$(G) 的任何元素 $\lambda$，用 $\chi_{\lambda}$ 表示其特征标，用 $d_{\lambda}$ 表示其维数，并用 $e_{\lambda}$ 元素表示，其定义为 K[G]
 
 $$
 e_{\lambda}=|G|^{-1}d_{\lambda}\sum_{g\in G}\chi_{\lambda}(g^{-1})g \tag{43}
@@ -751,9 +751,9 @@ $$
 \delta (T) = (1 + T\omega_1)\cdots (1 + T\omega_{d_{\lambda}})
 $$
 
-同样，定义$\delta '(T)$，我们用$\omega '_1, . . . , \omega '_{d_{\lambda'}}$表示$\pi_{\lambda'}(g)$的特征值。 $\mathscr{O}$模$\mathscr{O}[G]$与基G自由，K-向量空间K[G]有基G。用Δ(T)表示$\mathscr{O}$[T]模$\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$中$1 +e_{\lambda}gT$对乘法的行列式。它也是 K[T]-模 $K[T]\otimes_KK[G]$ 中乘法与 $1 +e_{\lambda}gT$ 的行列式。令$\overline{\varphi}_1$为同态，从$\mathscr{O}[T]$到$K'[T]$即扩展$\varphi_1$，并将T发送到T。由于G是$K'$向量空间$K'[G]$的基，因此多项式$\overline{\varphi}_1(\Delta (T))$等于$K'$向量空间$K'[G]$中$1 +e_{\lambda'}gT$对乘法的行列式$\Delta '(T)$。
+同样，定义$\delta '(T)$，我们用$\omega '_1, . . . , \omega '_{d_{\lambda'}}$表示$\pi_{\lambda'}(g)$的特征值。 $\mathscr{O}$-模 $\mathscr{O}[G]$ 与基 G 是自由的，K-向量空间 K[G] 有基 G。在 $\mathscr{O}$[T]-模中用 $1 +e_{\lambda}gT$ 表示乘法的行列式 $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$。它也是 K[T]-模块 $K[T]\otimes_KK[G]$ 中乘法乘以 $1 +e_{\lambda}gT$ 的行列式。令$\overline{\varphi}_1$为从$\mathscr{O}[T]$到$K'[T]$的同态，扩展$\varphi_1$并将T发送到T。由于G是$K'$向量空间$K'[G]$的基，因此多项式$\overline{\varphi}_1(\Delta (T))$等于在 $K'$ 向量空间 $K'[G]$ 中，行列式 $\Delta '(T)$ 乘以 $1 +e_{\lambda'}gT$ 的乘法。
 
-代数 K[G] 是直和的简单组件$e_\mu K[G]$，其中$\mu$ 贯穿$\mathscr{S}_K(G)$。对于与$\lambda$不同的$\mu$，元素$e_{\lambda}g$消灭$e_\mu K[G]$。此外，在$e_{\lambda}K[G]$中，乘法乘$e_{\lambda}g$重合，以及乘法乘$g$。鉴于$e_{\lambda}K[G]$中G的VIII、p. 400、表示的VIII、p. 409和例6为类中的$d_{\lambda}$表示直和 $\lambda$。因此我们有 $\Delta (T) =\delta (T)^{d_{\lambda}}$。
+代数 K[G] 是其简单分量 $e_\mu K[G]$ 的直和，因为 $\mu$ 穿过 $\mathscr{S}_K(G)$。对于与$\lambda$不同的$\mu$，元素$e_{\lambda}g$消灭$e_\mu K[G]$。此外，乘法乘$e_{\lambda}g$重合，以及$e_{\lambda}K[G]$中的乘法乘$g$。鉴于$e_{\lambda}K[G]$中G的VIII、p. 400、表示的VIII、p. 409和例6为类中的$d_{\lambda}$表示直和 $\lambda$。因此我们有 $\Delta (T) =\delta (T)^{d_{\lambda}}$。
 
 类似地，我们有$\Delta '(T) =\delta '(T)^{d_{\lambda'}}$。
 
@@ -763,7 +763,7 @@ $$
 
 B) 一般情况。
 
-令L为特征0的代数闭域（对于例，$\mathbf{Q}$的代数闭包）。用简单L[G]-模块的类的$\mathscr{S}_L(G)$集合表示。 选择同构$\eta$从群$\mu_n(L)$到群$\mu_n$(K)，以及集合$\eta '=\varphi \circ \eta$。到证明的部分A)，存在双射
+令 L 为特征 0 的代数闭域（例如，$\mathbf{Q}$ 的代数闭包）。用简单L[G]-模块的类的$\mathscr{S}_L(G)$集合表示。 选择同构$\eta$从群$\mu_n(L)$到群$\mu_n$(K)，以及集合$\eta '=\varphi \circ \eta$。到证明的部分A)，存在双射
 
 $$
 \eta_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_K(G),\eta '_G:\mathscr{S}_L(G)\rightarrow \mathscr{S}_{K'}(G)
@@ -779,7 +779,7 @@ $$
 
 #### 推论 1 {#alg-viii-s21-prop-10-cor-1 .statement tag=00O3}
 
-*从$R_K(G)$到$R_{K'}(G)$，映射$\varphi_G$是环同构。对于$K$向量空间中$G$的每个有限维表示$\pi$，我们有$\varphi_G([\pi]) = [\pi']$，其中$\pi'$是与$\pi$到$\varphi$*相关的表示。
+*从$R_K(G)$到$R_{K'}(G)$，映射$\varphi_G$是环同构。对于$K$向量空间中$G$的每个有限维表示$\pi$，我们都有$\varphi_G([\pi]) = [\pi']$，其中$\pi'$是与$\pi$到$\varphi$*相关的表示。
 
 这是从 $G$ 的表示和 VIII、p. 416 的性质 b) 得出的结论。
 
@@ -787,7 +787,7 @@ $$
 
 $G$*$G$除阶每个简单表示*维数。
 
-这是从VIII、p. 415 的命题 10 和命题 9 开始的。
+这是从VIII、p. 415 的命题 10 和命题 9 得出的。
 
 #### 注 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
@@ -799,11 +799,11 @@ $G$*$G$除阶每个简单表示*维数。
 $$
 \dim_K \operatorname{Hom}_K(\pi_1, \pi_2) = \dim_{K'} \operatorname{Hom}_{K'}(\pi_1', \pi_2') .
 $$
-证明遵循推论VIII、p. 410，通过简化为$\pi_i$（因而$\pi_i'$）很简单的情况。
+证明遵循推论、VIII、p. 410，通过简化为$\pi_i$（因而$\pi_i'$）很简单的情况。
 
 #### 注 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
-设$H$为基数$m$的$G$子群。从$\mu_m(K)$到$\mu_m(K')$，同构$\varphi$限制到同构，因而，从$R_K(H)$到$R_{K'}(H)$环同构$\varphi_H$。以下图表通勤：
+设$H$为基数$m$$G$子群。从 $\mu_m(K)$ 到 $\mu_m(K')$ 同构 $\varphi$ 限制到同构，因而，从 $R_K(H)$ 到 $R_{K'}(H)$ 环同构 $\varphi_H$。以下图表通勤：
 
 $$
 \begin{array}{ccc}

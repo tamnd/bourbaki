@@ -37,19 +37,19 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 9d18c87e86a3c8de0389a187ca79e7ffe8994c93101dd9704c935885df78e5f6
+content_sha256: 371ca79ab2509633e77e1e9ddf611cdb8f84b598848c849809fdc552c95162fe
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
 translation_method: google
 source_content_sha256: b4ee00e28c0ad5363315a73bf228d2a58c397d50dececefce928f935c44c92bb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 194b570541e1f83280f18924d787775028256f9b4ab92f10b65917c9ef1d9e62
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 6。 像尺寸
+## § 6。 像度量单位
 
 ### 1. 像积极措施
 
@@ -130,43 +130,43 @@ $$
 
 — *让* S *成为* $\mu$ 的支持。 *如果*$\pi$*连续，则*$\pi(\mu)$*的支持度为*$\pi(S)$。
 
-因为，它是从 Cor 得出的。 3 $\pi(\mu)$集中于$\pi(S)$，因此如果$S'$是$\pi(\mu)$的支撑，则$S' \subset \pi(S)$。另一方面，$\pi^{-1}(X - S')$是局部$\mu$可忽略的开集合（Cor.2），因而$\mu$可忽略不计（第5章第IV, §5, No. 2，Cor.2）。因而$\pi^{-1}(X - S') \subset T - S$，因而$\pi(S) \subset S'$，这证明了推论。
+因为，它是从 Cor 得出的。 3 $\pi(\mu)$集中于$\pi(S)$，因此如果$S'$是$\pi(\mu)$的支撑，则$S' \subset \pi(S)$。另一方面，$\pi^{-1}(X - S')$是局部$\mu$可忽略的开集合（Cor.2），因而$\mu$可忽略不计（第5章第IV, §5, No. 2，Cor.2）。因而$\pi^{-1}(X - S') \subset T - S$，因而$\pi(S) \subset S'$，从而证明推论。
 
 #### 命题 3 {#int-v-s6-prop-3 .statement tag=094W}
 
-— *对于 * X *的映射* f * 到拓扑空间* G * 为* $\nu$* 可测量，* $f \circ \pi$ * 为* $\mu$* 可测量是必要且充分的。*
+— *对于* X *的映射* f *进入拓扑空间* G *成为* $\nu$*可测量，* $f \circ \pi$ *成为* $\mu$*可测量是必要且充分的。*
 
-这是§4, No. 3第3条命题的直接的推论。
+这是§4, No. 3第3号提案的直接的推论。
 
-#### 推论{#int-v-s6-n2-cor-1 .statement tag=094X}
+#### 推论 {#int-v-s6-n2-cor-1 .statement tag=094X}
 
 — 对于 X 的子集 A 为 $\nu$ 可测，$\pi^{-1}(A)$ 为 $\mu$ 可测是充分必要的。
 
-然而，T 的 $\mu$ 可测量子集 M 的 $\pi$ 下的像不一定是 $\nu$ 可测量，即使 $\pi$ 是连续的且 M $\mu$ 可忽略不计（Exer. 7 和 §8，Exer. 1）。
+然而，T 的 $\mu$ 可测量子集 M 的 $\pi$ 下的像不一定是 $\nu$ 可测量，即使 $\pi$ 是连续的并且 M 是 $\mu$ 可忽略不计（Exer.7 和 §8，Exer.7）。 1).
 
 #### 定理 1 {#int-v-s6-thm-1 .statement tag=094Y}
 
-— 设 f 是在 X 上定义的函数，其中值在 $\overline{\mathbf{R}}$ 或 Banach 空间 F 中。 为了使 f 本质上 $\nu$ 可积，$f \circ \pi$ 本质上 $\mu$ 可积是必要且充分的，在这种情况下
+— 令 f 定义为 X 上的函数，$\overline{\mathbf{R}}$ 或 Banach 空间 F 中的值。对于 f 本质上 $\nu$ 可积，$f \circ \pi$ 本质上 $\mu$ 可积是充分必要的，在这种情况下
 
 $$
 \int f(x)\, d\nu(x) = \int f(\pi(t))\, d\mu(t).
 $$
 
-此外，假设 $\pi$ 是连续且正确的。那么，要使 f $\nu$ 可积，$f \circ \pi$ $\mu$ 可积是充分必要的。
+此外，假设 $\pi$ 是连续且正确的。那么，为了使 f $\nu$ 可积，$f \circ \pi$ $\mu$ 可积是充分必要的。
 
-应用Th就足够了。 2 个§4, No. 4。
+应用Th就足够了。 2 个，共 §4, No. 4。
 
-#### 推论{#int-v-s6-n2-cor-2 .statement tag=094Z}
+#### 推论 {#int-v-s6-n2-cor-2 .statement tag=094Z}
 
-— 为了使X的子集 A本质上$\nu$可积，$\pi^{-1}(A)$本质上$\mu$可积是必要且充分的，在这种情况下是$\nu(A) = \mu(\pi^{-1}(A))$。
+— 为了使X的子集 A本质上$\nu$可积，$\pi^{-1}(A)$本质上$\mu$可积是必要且充分的，在这种情况下$\nu(A) = \mu(\pi^{-1}(A))$。
 
-特别是，对于每个紧集 $K \subset X$，$\nu(K) = \mu(\pi^{-1}(K))$。由此可见，Cor.命题 2 的第 3 条指出，如果 $\mu$ 是原子的 (§ 5, No. 10)，那么 $\pi(\mu) = \nu$ 也是原子的。对于，令 M 为 $t \in T$ 的集合，使得 $\mu(\{t\}) \neq 0$；由于$\mu$由M携带，$\nu$由$\pi(M)$携带；此外，对于每一个$x \in \pi(M)$，我们都有$\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$，因为$\pi^{-1}(x)$包含至少有M的一个点。因而$\nu$是原子的（§ 5, No. 10，命题15）。
+特别是，对于每个紧集 $K \subset X$，$\nu(K) = \mu(\pi^{-1}(K))$。由此可见，Cor.命题 2 的第 3 条指出，如果 $\mu$ 是原子的 (§ 5, No. 10)，那么 $\pi(\mu) = \nu$ 也是原子的。对于，令 M 为 $t \in T$ 的集合，使得 $\mu(\{t\}) \neq 0$；由于$\mu$由M携带，$\nu$由$\pi(M)$携带；此外，对于每一个$x \in \pi(M)$，我们都有$\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$，因为$\pi^{-1}(x)$包含至少有一个点M。因而$\nu$是原子的（§ 5, No. 10，命题15）。
 
 ### 3. 正测度像的性质
 
 #### 命题 4 {#int-v-s6-prop-4 .statement tag=0950}
 
-— 令 T、T'、T'' 为三个局部紧凑空间、$\mu$ T 的正测度、$\pi$ 将 T 的 $\mu$ 可测量映射放入 T'、将 T' 的 $\pi'$ 映射放入 T'' 以及 $\pi'' = \pi' \circ \pi$。
+— 令 T、T'、T'' 为三个局部紧凑空间，$\mu$ T 的正测度，$\pi$ 将 T 的 $\mu$ 可测量映射放入 T'，将 T' 的 $\pi'$ 映射放入 T''，并且$\pi'' = \pi' \circ \pi$。
 
 a) 假设$\pi$是$\mu$-真值，令$\mu' = \pi(\mu)$。为了使$\pi'$成为$\mu'$-本征，$\pi''$是$\mu$-本征是必要且充分的，在这种情况下$\pi''(\mu) = \pi'(\pi(\mu))$（“度量的像的传递性”）。
 
@@ -185,13 +185,13 @@ $$
 
 在b)的假设下，令$K'$是$T'$的紧子集。那么$K'' = \pi'(K')$是紧的，因此$\pi''(K'')$本质上是$\mu$可积，因此$\pi^{-1}(K') \subset \pi''(K'')$本质上是$\mu$可积（第IV, §5, No. 5，第7章），因此$\pi$是$\mu$-固有的。 证明然后由叙述的应用部分 a) 得出结论。
 
-#### 推论{#int-v-s6-n3-cor-1 .statement tag=0951}
+#### 推论 {#int-v-s6-n3-cor-1 .statement tag=0951}
 
 *令$T$和$T'$为两个局部紧致空间，$\mu$为$T$的正测度，$\pi$为$T$的双射映射到$T'$，以及$\pi^{-1}$的逆测度映射。假设$\pi$是$\mu$真值，并令$\mu' = \pi(\mu)$。那么 $\pi^{-1}$ 就是 $\mu'$-proper 和 $\pi^{-1}(\pi(\mu)) = \mu$。*
 
 #### 命题 5 {#int-v-s6-prop-5 .statement tag=0952}
 
-*Let $T$ and $X$ be two locally compact spaces, $\mu$ a positive measure on $T$, $\pi$ a $\mu$-proper mapping of $T$ into $X$, $g$ a finite numerical function $\geqslant 0$, defined on $X$ and such that $g \circ \pi$ is locally integrable for $\mu$. 在阶中，$g$ 对于 $\pi(\mu)$ 是局部可积的，$\pi$ 对于测度 $(g \circ \pi) \cdot \mu$ 是适当的，这是必要且充分的，在这种情况下*
+*令$T$和$X$为两个局部紧致空间，$\mu$为$T$的正测度，$\pi$为$T$到$X$的$\mu$正确映射，$g$为有限数值函数$\geqslant 0$，定义于$X$ 并且$g \circ \pi$ 对于$\mu$ 是局部可积的。 在阶中，$g$ 对于 $\pi(\mu)$ 是局部可积的，$\pi$ 对于测度 $(g \circ \pi) \cdot \mu$ 是适当的，这是必要且充分的，在这种情况下*
 
 $$
 \pi((g \circ \pi) \cdot \mu) = g \cdot \pi(\mu).
@@ -267,43 +267,43 @@ $$
 
 令$\theta$和$\theta'$为$T$上的两个复测度；如果 $\pi$ 是 $\theta$-proper 和 $\theta'$-proper，则可从 Cor 得出。命题 6 的第 2 条指出，自 $|\theta + \theta'| \leq |\theta| + |\theta'|$ 以来，$\pi$ 是 $(\theta + \theta')$ 真值，显然是 $\pi(\theta + \theta') = \pi(\theta) + \pi(\theta')$。
 
-特别是，如果 $\theta$ 是实测度并且 $\pi$ 是 $\theta$-本征，那么
+特别是，如果 $\theta$ 是实测度并且 $\pi$ 是 $\theta$-真值，那么
 
 $$
 \pi(\theta) = \pi(\theta^+) - \pi(\theta^-) .
 $$
 
-早期扩展同时建立了多项结果以进行复杂的测量；我们列举其中最重要的一些。
+早期扩展立即建立了多项结果以进行复杂的测量；我们列举其中最重要的一些。
 
 #### 命题 7 {#int-v-s6-prop-7 .statement tag=0957}
 
-*令 $\theta$ 为 $T$、$\pi$ $T$ 的 $\theta$ 映射的复杂测度，转换为局部紧凑的空间 $X$、$\nu$ 像测度$\pi(\theta)$。
+*令 $\theta$ 为$T$、$\pi$ $T$ 的$\theta$-固有映射的复杂测度，转换为局部紧凑的空间 $X$、$\nu$ 像测度$\pi(\theta)$。
 
-a) 设$A$为$X$中的子集；如果 $\overline{\pi^{-1}}(A)$ 局部 $\theta$ 可以忽略不计，则 $A$ 局部 $\nu$ 可以忽略不计。
+a) 设$A$为$X$的子集；如果$\overline{\pi^{-1}}(A)$局部$\theta$可忽略，则$A$局部$\nu$可忽略。
 
-b) 设$f$为$X$的映射为拓扑空间；如果 $f \circ \pi$ 是 $\theta$ 可测量，则 $f$ 是 $\nu$ 可测量。*
+b) 设$f$为$X$的映射，形成拓扑空间；如果 $f \circ \pi$ 是 $\theta$ 可测量，则 $f$ 是 $\nu$ 可测量。*
 
-c) 设$f$为$X$上定义的函数，其中值在Banach空间$F$中；如果$f \circ \pi$本质上是$\theta$可积，那么$f$本质上是$\nu$可积，并且
+c) 设$f$为$X$上定义的函数，其中值位于Banach空间$F$中；如果$f \circ \pi$本质上是$\theta$可积，那么$f$本质上是$\nu$可积，并且
 
 $$
 \int f(\pi(t))\ d\theta(t) = \int f(x)\ d\nu(x).
 $$
 
-考虑到公式 (8)，这些结果可以从 Cor 中推出。提案 2 的 2、提案 3 和 Th。 No. 2 中的 1 个。
+考虑到公式 (8)，这些结果可以从 Cor 中推出。提案 2 的 2、提案 3 和 Th。 1 个No. 2。
 
 ### 5. 应用：勒贝格积分中变量的变换
 
-令I为$\mathbf{R}$的区间（有界或无界），$a$其左端点和$b$在$\overline{\mathbf{R}}$中的右端点，以及$\mu$在I上的勒贝格测度。对于每个$\mu$可积函数$f$和每个区间$H \subset I$，左端点$\alpha$和右端点$\beta$，我们写$\int_{\alpha}^{\beta} f(t)\ dt$而不是$\int_H f(t)\ dt = \int_H f\ d\mu$，并且我们集合$\int_{\beta}^{\alpha} f(t)\ dt = -\int_{\alpha}^{\beta} f(t)\ dt$；因此赋予这些符号重合的含义与FRV、II, §§1和2中赋予它们的含义相同，当$f$是具有紧凑支持的受监管函数时（第IV, §4, No. 4、例）。
+令I为$\mathbf{R}$的区间（有界或无界），$a$其左端点和$b$其在$\overline{\mathbf{R}}$的右端点，以及$\mu$在I的勒贝格测度。对于每个$\mu$可积函数$f$和每个区间$H \subset I$，左端点$\alpha$和右端点$\beta$，我们写$\int_{\alpha}^{\beta} f(t)\ dt$而不是$\int_H f(t)\ dt = \int_H f\ d\mu$，并且我们写集合$\int_{\beta}^{\alpha} f(t)\ dt = -\int_{\alpha}^{\beta} f(t)\ dt$；因此赋予这些符号重合的含义与FRV、II, §§1和2中赋予它们的含义相同，当$f$是具有紧凑支持的受监管的函数时（第IV, §4, No. 4、例）。
 
-设$g$是定义在I上的数值函数并且*局部$\mu$*可积，I的$x_0$点；每$x \in I$、集合
+令 $g$ 为定义在 I 上且*局部 $\mu$* 可积的数值函数，I 的 $x_0$ 点；对于每个$x \in I$，集合
 
 $$
 G(x) = c + \int_{x_0}^{x} g(t)\ dt \quad (c \text{ a constant}).
 $$
 
-数值函数 G 在 I 上*连续*；这立即来自勒贝格的定理（第IV, §4, No. 3，第2章的Cor.1），因为$g$的乘积以及端点$x$和$x+h$的区间特征函数趋向于可忽略不计的函数因为 $h$ 趋于 0。因此 G(I) 是 $\mathbf{R}$ 的*区间*。在这整篇文章中，我们将 G 视为 I 的映射到局部紧致空间 G(I) 上。我们用$\lambda$表示I上的度量$g \cdot \mu$。
+数值函数 G 在 I 上*连续*；这立即来自勒贝格的定理（第 1 章）。 IV, §4, No. 3，科。 1 Th。 2)，因为$g$的乘积和区间的特征函数，端点$x$和$x+h$趋向于可忽略不计的函数，而$h$趋向于0。 因此 G(I) 是 $\mathbf{R}$ 的 *区间*。 在这整篇文章中，我们将 G 视为 I 的映射到局部紧致空间 G(I) 上。 我们用$\lambda$表示I上的$g \cdot \mu$测度。
 
-首先假设 $g$ 是 $\mu$*-可积*。那么，与上面相同的推理表明极限$G(a+)$和$G(b-)$存在并且是*有限*；此外，测度$|\lambda|$是*有界*（§5, No. 3，Th.1的Cor.），并且I到G(I)的映射G是*$\lambda$*-本征。
+首先假设$g$是$\mu$*可积*。那么，与上面相同的推理表明极限$G(a+)$和$G(b-)$存在并且是*有限*；此外，测度$|\lambda|$是*有界*（§5, No. 3，Th.1的Cor.），并且I到G(I)的映射G是*$\lambda$*-本征。
 
 #### 命题 8 {#int-v-s6-prop-8 .statement tag=0958}
 
@@ -315,7 +315,7 @@ $$
 \int_{G(a+)}^{G(b-)} f(\xi) d\xi = \int_a^b f(G(t))g(t)\,dt.
 $$
 
-现在，这个公式已经被证明适用于$g \in \mathscr{K}(I)$（FRV，II, §2, No. 1，公式（1））。让我们转向一般情况；在 $\mathscr{K}(I)$ 中存在函数的序列 $(g_n)$，使得： $1^\circ$ 序列 $(g_n(t))$ 几乎在 $I$ 中的所有地方都趋向于 $g(t)$； $2^\circ$ 存在一个$\mu$可积函数$h \geq 0$，使得$|g_n| \leq h$对于所有$n$（第IV, §3, No. 4，第3章）。从勒贝格的定理立即可以得出，设定$G_n(x) = c + \int_{x_0}^x g_n(t)\,dt$、序列$(G_n)$在$I$上一致收敛到$G$，并且数、$G_n(a+)$和$G_n(b-)$分别倾向于$G(a+)$ 和 $G(b-)$。令$f'$为$\mathscr{K}(\mathbf{R})$中的函数，即扩展$f$；上述证明对于所有$t \in I$，$f'(G_n(t))$趋向于$f'(G(t)) = f(G(t))$； 应用勒贝格的定理，可以看出公式(12)是由公式得出的
+现在，这个公式已经被证明适用于$g \in \mathscr{K}(I)$（FRV，II, §2, No. 1，公式（1））。让我们转向一般情况； $\mathscr{K}(I)$中存在函数的序列$(g_n)$，使得：$1^\circ$序列$(g_n(t))$在$I$中几乎所有地方都趋于$g(t)$； $2^\circ$ 存在$\mu$可积函数$h \geq 0$，使得$|g_n| \leq h$对于所有$n$（第IV, §3, No. 4，第3章）。从勒贝格的定理立即得出，设定$G_n(x) = c + \int_{x_0}^x g_n(t)\,dt$、序列$(G_n)$在$I$上一致收敛到$G$，并且数、$G_n(a+)$和$G_n(b-)$分别倾向于$G(a+)$ 和 $G(b-)$。令$\mathscr{K}(\mathbf{R})$中的$f'$为函数，即扩展$f$；上述证明对于所有$t \in I$，$f'(G_n(t))$趋于$f'(G(t)) = f(G(t))$； 应用勒贝格的定理，可以看出公式(12)是由公式得出的
 
 $$
 \int_{G_n(a+)}^{G_n(b-)} f'(\xi)\,d\xi = \int_a^b f'(G_n(t))g_n(t)\,dt
@@ -323,9 +323,9 @@ $$
 
 通过极限。
 
-#### 推论{#int-v-s6-n5-cor-1 .statement tag=0959}
+#### 推论 {#int-v-s6-n5-cor-1 .statement tag=0959}
 
-*如果在 $G(I)$ 上定义函数 $\mathbf{f}$，且值在 $\overline{\mathbf{R}}$ 或 Banach 空间中，对于勒贝格测度，函数 $t \mapsto \mathbf{f}(G(t))g(t)$ 可在 $I$ 上积分，则对于勒贝格测度，$\mathbf{f}$ 可积在 $J$ 上并且*
+*如果函数 $\mathbf{f}$ 定义在 $G(I)$ 上，值在 $\overline{\mathbf{R}}$ 或 Banach 空间中，对于勒贝格测度，函数 $t \mapsto \mathbf{f}(G(t))g(t)$ 可积在 $I$ 上，则 $\mathbf{f}$ 可积在$J$ 勒贝格测度和*
 
 $$
 \int_{G(a+)}^{G(b-)} \mathbf{f}(\xi)\,d\xi = \int_a^b \mathbf{f}(G(t))g(t)\,dt
@@ -337,7 +337,7 @@ $$
 
 对于勒贝格测度，$\mathbf{f}$ 可在 $J$ 上积，但对于勒贝格测度，$t \mapsto \mathbf{f}(G(t))g(t)$ 不可在 $I$ 上积（Exer. 10）。
 
-现在假设 $g$ 几乎在任何地方都保持一个*常数符号*（并且是局部 $\mu$ 可积）；人们可能会认为，对于例，$g(t) \geq 0$几乎在$I$中无处不在。那么$G$在$I$上是递增连续的函数，因此$G(a+)$和$G(b-)$存在（但可能是无限的）。此外，$G$是$I$到$G(I)$的*$\lambda$-适当*映射：因为，如果$G(b-) \in G(I)$，则存在$x_1 \geq x_0$，使得$G$对于$x \geq x_1$是常数，然后逆像在紧区间$[G(x_0), G(b-)]$的$G$是$\lambda$可积；相反，如果$G(b-) \notin G(I)$，则$G(I)$中包含的左端点为$G(x_0)$的每个紧致区间的$G$下的逆像与紧致区间至多相差$\lambda$可忽略不计的区间。对于具有右端点 $G(x_0)$、从而我们的断言的紧凑区间，人们也有类似的争论。而且：
+现在假设 $g$ 几乎在任何地方都保持一个*常数符号*（并且是局部 $\mu$ 可积）；例如，人们可能会认为$g(t) \geq 0$几乎在$I$中无处不在。那么$G$在$I$上是递增连续的函数，因此$G(a+)$和$G(b-)$存在（但可能是无限的）。此外，$G$是$I$到$G(I)$的*$\lambda$-适当*映射：因为，如果$G(b-) \in G(I)$，则存在一个$x_1 \geq x_0$，使得$G$对于$x \geq x_1$来说是常数，然后逆像在紧致区间 $[G(x_0), G(b-)]$ 的 $G$ 是 $\lambda$ 可积；相反，如果$G(b-) \notin G(I)$，则包含在$G(I)$中且左端点为$G(x_0)$的每个紧致区间在$G$下的逆像与紧致区间最多相差可忽略不计的$\lambda$区间。对于具有右端点 $G(x_0)$、从而我们的断言的紧凑区间，人们也有类似的争论。而且：
 
 #### 命题 9 {#int-v-s6-prop-9 .statement tag=095A}
 
@@ -382,7 +382,7 @@ b) *如果 $f$ 是 $T$ 的 $\mu$ 可测映射到拓扑空间 $G$，则 $f \circ 
 
 我们再次考虑前一个证明末尾的记号$\Lambda_h$、$\nu_h$、$g_h$：$\nu_h$是每个$h \in \mathscr{H}$的有界测度，$\pi$是$\nu_h$真值，$g_h$是局部的$\mu$-可积，以及 $\pi(\nu_h) = g_h \cdot \mu$，与基 $\mu$ 的测度。 由此可见，对于测量 $\pi(\nu_h)$（§ 5, No. 3，第 3 条和第 4 条的 Cor. 1），$N$ 是局部可忽略的（即 $f$ 是可测量的）。 Consequently $\overline{\pi}^{-1}(N)$ is locally negligible (resp. $f \circ \pi$ is measurable) for the measure $\nu_h$ (Cor. 2 of
 
-分别为 2 号提案和 2 号提案。命题 3）。最后，一个注，措施$\nu_h$形式递增指导一系列积极措施，其上限为$\nu$，并且一个适用于Cor。 §1, No. 4 提案 11 的 1（或 Cor.2）。
+分别为 2 号提案和 2 号提案。命题 3）。最后，有人指出，措施 $\nu_h$ 形式递增指向一系列积极措施，其上限为 $\nu$，并且有人适用 Cor. §1, No. 4 提案 11 的 1（或 Cor.2）。
 
 #### 推论 2 {#int-v-s6-prop-10-cor-2 .statement tag=095D}
 
@@ -394,7 +394,7 @@ b) *如果 $f$ 是 $T$ 的 $\mu$ 可测映射到拓扑空间 $G$，则 $f \circ 
 
 — 令 $X$ 和 $T$ 为两个局部紧致空间，并令 $\pi$ 为$X$ 到 $T$* 的局部同胚。在其他字（GT，I, §11，Exer.25）中，我们假设每个点$x \in X$承认一个邻域$V$，使得$\pi|V$是$V$到$\pi(x)$邻域的同胚；如果需要替换$V$通过$x$的相对紧凑开邻域$W$使得$\overline{W} \subset V$，可以推导出$X$的相对紧凑开子集$U$的集合$\mathscr{U}$，使得$\pi|\overline{U}$ 是$\overline{U}$ 到像的同胚，是$X$ 的*开覆盖*。现在让$\mu$作为$T$的正测度；如果$U$是$\mathscr{U}$的元素，则$\pi(U)$是紧空间$\pi(\overline{U})$中的开集合，因此是$T$的局部紧子空间，并且知道如何测度定义 $\mu|\pi(U)$ 由 $\pi(U)$ 上的 $\mu$ 诱发（第 IV, §5, No. 7 章）。令$\nu_U$为$\mu|\pi(U)$在$\pi|U$逆同胚下的像；我们将证明，在 $X$ 上存在且仅有一个测度 $\nu$，即诱导在每个打开的集合 $U \in \mathscr{U}$ 上存在测度 $\nu_U$。该测度称为局部同胚$\pi$*下$\mu$的*逆像，记为$\pi^{-1}(\mu)$。
 
-$\nu$的唯一性立即来自本地化的原理（第III, §2, No. 1章，Prop.1的Cor.）。为了建立存在性，我们注如果$t \in T$，那么每个点$x \in \pi^{-1}(t)$承认一个邻域仅在点$x$与$\pi^{-1}(t)$相交，因此$\pi^{-1}(t)$是一个*离散*子空间 $X$，并且家庭$(\varepsilon_x)_{x \in \pi^{-1}(t)}$是可求和的；我们用 $\lambda_t$ 表示它的和。接下来我们证明映射$t \mapsto \lambda_t$本质上是$\mu$可积的，并且它的积分$\nu = \int \lambda_t d\mu(t)$就是所寻求的逆像。这将立即由以下引理产生：
+$\nu$的唯一性立即来自本地化的原理（第III, §2, No. 1章，Prop.1的Cor.）。为了建立存在性，我们注意到，如果$t \in T$，那么每个点$x \in \pi^{-1}(t)$都承认一个仅在点$x$处与$\pi^{-1}(t)$相交的邻域，因此$\pi^{-1}(t)$是$X$的*离散*子空间，并且family $(\varepsilon_x)_{x \in \pi^{-1}(t)}$ 是可求和的；我们用$\lambda_t$表示它的和。接下来我们证明映射$t \mapsto \lambda_t$本质上是$\mu$可积的，并且它的积分$\nu = \int \lambda_t d\mu(t)$就是所寻求的逆像。这将立即由以下引理产生：
 
 #### 引理 {#int-v-s6-n6-lem-1 .statement tag=095F}
 

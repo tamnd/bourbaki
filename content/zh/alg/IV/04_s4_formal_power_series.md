@@ -67,23 +67,23 @@ errata:
     - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
       read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
       why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
-content_sha256: 7ffa12093847580f351e350126461b3cfb07f148f01e8d43c07a9dae2d1e3c65
+content_sha256: c09c3e6d7460e08a4de0b7d8616681706d91c8952b8f74c44e6f2f89a22e3e63
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
 translation_method: google
 source_content_sha256: ecc1c2d36748dfed392a2d0bff5cf730d1aaf97675f112d959e7b8c05ce7ab7f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4b4385afc018bc4f44354a6c39f1b0411789045b274f5440bdefe60e163a14e2
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。正式幂级数
 
 ### 1. 正式幂级数的定义。 阶
 
-设I为集合。我们回想一下（III、p. 454 和 456），A 上幺半群 $N^{(I)}$ 的总代数被称为形式幂级数的 *代数相对于不定数* $X_i \ (i \in I)$（或在不定数 $X_i$） *系数在* A中。用$A[[X_i]]_{i \in I}$或$A[[((X_i)_{i \in I}]]$或$A[[X]]$表示，其中用X家族$(X_i)_{i \in I}$表示：在本段中我们将主要使用记号$A[[I]]$。 有时在I的元素i的$A[[I]]$中用$X_i$以外的符号来指定典范像比较方便，对于例$Y_i, Z_i, T_i, \ldots$；本例中使用的约定类似于多项式的约定 (IV, p. 1)。 代数$A[[I]]$则由$A[[Y_i]]_{i \in I}$或$A[[Y]]$等指定。
+设I为集合。我们回想一下（III、p. 454 和 456），A 上幺半群 $N^{(I)}$ 的总代数被称为形式幂级数的 *代数相对于不定数* $X_i \ (i \in I)$（或在不定数 $X_i$） *与*A中的系数，用$A[[X_i]]_{i \in I}$或$A[[((X_i)_{i \in I}]]$或$A[[X]]$表示，用X家族$(X_i)_{i \in I}$表示：本段主要用记号$A[[I]]$。 有时在I的元素i的$A[[I]]$中用$X_i$以外的符号来指定典范像比较方便，例如$Y_i, Z_i, T_i, \ldots$；本例中使用的约定类似于多项式的约定 (IV, p. 1)。 代数$A[[I]]$则由$A[[Y_i]]_{i \in I}$或$A[[Y]]$等指定。
 
 当I是p 元素的有限集合时，我们也说$A[[I]]$是p不定式中形式幂级数的代数。对于固定 p，这些代数都是同构的。 1, 2, ... 不确定中的正式幂级数的代数也将由未指定的指标的 $A[[X]]$, $A[[U, V]]$, ..., 集合 I 表示。
 
@@ -97,11 +97,11 @@ w_p = \sum_{q+r=p} u_q v_r
 $$
 对于每个整数 $p \geq 0$。
 
-我们记得（III，p. 456），正式的幂级数$u \neq 0$的*阶*$\omega(u)$是使得$u_p \neq 0$最小的整数p。 We shall agree to adjoin to Z an element written $\infty$ and extend the order relation and addition from Z to $Z \cup \{\infty\}$ by the conventions
+我们记得（III，p. 456），正式的幂级数$u \neq 0$的*阶*$\omega(u)$是使得$u_p \neq 0$最小的整数p。 我们同意将一个写为$\infty$的元素与Z相邻，并按照约定将顺序关系和加法从Z扩展到$Z \cup \{\infty\}$
 $$
 n < \infty,\quad \infty + \infty = \infty,\quad \infty + n = n + \infty = \infty
 $$
-for every $n \in Z$; we also put $\omega(0) = \infty$. 根据这些约定，我们有关系
+每$n \in Z$；我们还放了$\omega(0) = \infty$。 根据这些约定，我们有关系
 $$
 \begin{align*}
 \omega(u+v) &\geq \inf(\omega(u), \omega(v)), \\
@@ -111,11 +111,11 @@ $$
 $$
 对于 $\mathbf{A}[[\mathrm{I}]]$ 中的任何正式幂级数 $u$ 和 $v$。
 
-我们记得（III，p. 457），对于I的任何子集J，我们将认同$\mathbf{A}[[\mathrm{I}]]$与$\mathbf{A}[[\mathrm{I}-J]] [[\mathrm{J}]]$，这允许我们对正式的幂进行定义阶$\omega_J(u)$ 级数相对于$X_j$（$j \in J$），$u$相对于$X_j$（$j \in J$）的齐次分量等。
+我们记得（III，p. 457），对于I的任何子集J，我们将认同$\mathbf{A}[[\mathrm{I}]]$与$\mathbf{A}[[\mathrm{I}-J]] [[\mathrm{J}]]$，这允许我们对正式的幂进行定义阶$\omega_J(u)$ 级数相对于$X_j$（$j \in J$），$u$的齐次分量相对于$X_j$（$j \in J$）等等。
 
-让$\varphi$是A的同态到环B。我们通过让每个正式的幂级数$u = \sum \alpha_\nu X^\nu$将$\mathbf{A}[[\mathrm{I}]]$的扩展$\varphi$到同态$\overline{\varphi}$进$B[[\mathrm{I}]]$ 对应到正式幂级数 $\sum \varphi(\alpha_\nu) X^\nu$；我们说后者是通过 *应用* $\varphi$ *到形式幂级数* u 的系数获得的。我们将有时写为$^\varphi u$代替$\overline{\varphi}(u)$。
+让$\varphi$是A的同态到环B。我们通过让每个正式的幂级数$u = \sum \alpha_\nu X^\nu$将$\mathbf{A}[[\mathrm{I}]]$的扩展$\varphi$到同态$\overline{\varphi}$进$B[[\mathrm{I}]]$ 对应到正式幂级数 $\sum \varphi(\alpha_\nu) X^\nu$；我们说后者是通过*应用*$\varphi$*到形式幂级数*u的系数获得的。我们将有时写为$^\varphi u$代替$\overline{\varphi}(u)$。
 
-特别是，如果 A 是 B 的子环且 A 的 $\varphi$ 典范嵌入进入 B，则 $\mathbf{A}[[\mathrm{I}]]$ 的同态 $\overline{\varphi}$ 进入 $B[[\mathrm{I}]]$ 是单射的；我们通常将认同$\mathbf{A}[[\mathrm{I}]]$与$B[[\mathrm{I}]]$的子环乘以$\overline{\varphi}$。
+特别是，如果 A 是 B 的子环且 A 的 $\varphi$ 典范嵌入进入 B，则 $\mathbf{A}[[\mathrm{I}]]$ 的同态 $\overline{\varphi}$ 进入 $B[[\mathrm{I}]]$ 是单射的；我们通常将认同$\mathbf{A}[[\mathrm{I}]]$与子环或$B[[\mathrm{I}]]$乘以$\overline{\varphi}$。
 
 ### 2. 拓扑于正式幂级数的集合。可求和族
 
@@ -125,7 +125,7 @@ $$
 
 #### 引理 1 {#alg-iv-s4-lem-1 .statement tag=06BY}
 
-令$L$为无限集合，$(u_\lambda)_{\lambda \in L}$为$A[[I]]$的元素的族，并把$u_\lambda = \sum \alpha_{\lambda,\nu} X^\nu$代为$\lambda \in L$。那么下面的条件是等价的：
+设$L$为无限集合，$(u_\lambda)_{\lambda \in L}$为$A[[I]]$的元素的族，并将$u_\lambda = \sum \alpha_{\lambda,\nu} X^\nu$代为$\lambda \in L$。那么下面的条件是等价的：
 (i) 族 $(u_\lambda)_{\lambda \in L}$ 可在 $A[[I]]$ 中求和（Gen. Top., III, p. 262）。
 (ii) 我们有$\lim u_\lambda = 0$，通过有限子集的补集*过滤*$L$。
 (iii) 对于每个$\nu \in \mathbf{N}^{(I)}$，我们都有$\alpha_{\lambda,\nu} = 0$，除了指标$\lambda \in L$的*有限*数。
@@ -137,9 +137,9 @@ $$
 最后一个断言源自 Gen. Top. 的第 4 条命题，III、p. 266。
 
 让我们给出一些例个可求和族。
-a) 令$u \in A[[I]]$和$a_\nu$为$X^\nu$在$u$中的系数。然后，族 $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ 可以与和 $u$ 相加（这证明了写作 $u = \sum \alpha_\nu X^\nu$ 的合理性）。
+a) 令$u \in A[[I]]$且$a_\nu$为$u$中$X^\nu$的系数。然后，族 $(\alpha_\nu X^\nu)_{\nu \in \mathbf{N}^{(I)}}$ 可以与和 $u$ 相加（这证明了写作 $u = \sum \alpha_\nu X^\nu$ 的合理性）。
 
-b) 设 $u \in A[[I]]$；对于每个整数$p \geq 0$，令$u_p$为$u$的次数$p$的齐次分量。那么家庭$(u_p)_{p \geq 0}$是可求和的，我们有$u = \sum_{p \geq 0} u_p$。
+b) 设 $u \in A[[I]]$；对于每个整数$p \geq 0$，令$u_p$是次数$p$和$u$的齐次分量。那么家庭$(u_p)_{p \geq 0}$是可求和的，我们有$u = \sum_{p \geq 0} u_p$。
 
 c) 令$(u_\lambda)_{\lambda \in L}$为$A[[I]]$的元素族，并假设对于$\lambda \in L$的每个整数$n \geq 0$集合，使得$\omega(u_\lambda) < n$是有限的。那么家庭$(u_\lambda)_{\lambda \in L}$是可求和的。
 
@@ -155,7 +155,7 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right)
 $$
 
-令$(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$（或$(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(I)}}$）为$u_\lambda$（或$v_\nu$）的系数族。对于每个$\nu \in \mathbf{N}^{(I)}$，仅存在对$(\nu_1, \nu_2) \in \mathbf{N}^{(I)} \times \mathbf{N}^{(I)}$的有限数，使得$\nu_1 + \nu_2 = \nu$，因此仅存在对$(\lambda, \mu) \in L \times M$的有限数，使得$u_\lambda v_\mu$中的$X^\nu$的系数为$\neq 0$。因此家庭$(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$是可求和的。现在公式 (2) 是从和的结合性衍生出来的（Gen. Top.、III、p. 265、公式 (2)）。
+令$(\alpha_{\lambda, \nu})_{\nu \in \mathbf{N}^{(I)}}$（或$(\beta_{\mu, \nu})_{\nu \in \mathbf{N}^{(I)}}$）为$u_\lambda$（或$v_\nu$）的系数的家族。对于每个$\nu \in \mathbf{N}^{(I)}$，仅存在对$(\nu_1, \nu_2) \in \mathbf{N}^{(I)} \times \mathbf{N}^{(I)}$的有限数，使得$\nu_1 + \nu_2 = \nu$，因此仅存在对$(\lambda, \mu) \in L \times M$的有限数，使得$X^\nu$的系数 $u_\lambda v_\mu$ 是 $\neq 0$。因此家庭$(u_\lambda v_\mu)_{(\lambda, \mu) \in L \times \mathscr{J}}$是可求和的。现在公式 (2) 是从和的结合性衍生出来的（Gen. Top.、III、p. 265、公式 (2)）。
 
 在 $\mathbf{A}[[\mathbf{I}]]$ 乘积中是结合律和交换律合成律。因此，我们可以谈论$\mathbf{A}[[\mathbf{I}]]$的元素的*可乘族*和可乘族的*乘积*（Gen.Top.，III，p. 262，注3）。
 
@@ -163,7 +163,7 @@ $$
 
 *设*$(u_\lambda)_\lambda$*是*$\mathbf{A}[[\mathbf{I}]]$的元素的可和族。
 (i) *家庭* $(1 + u_\lambda)_\lambda$ *可乘*。
-(ii) *设*$\mathfrak{T}$*为*$L$的所有有限子集中的集合。 *对于任何* $M \in \mathscr{S}$ *放置* $u_M = \prod_{\lambda \in M} u_\lambda$。 *然后家庭* $(u_M)_{M \in \mathfrak{T}}$ *可求和，我们有*
+(ii) *令*$\mathfrak{T}$*为*$L$的所有有限子集中的集合。 *对于任何* $M \in \mathscr{S}$ *放置* $u_M = \prod_{\lambda \in M} u_\lambda$。 *然后家庭* $(u_M)_{M \in \mathfrak{T}}$ *可求和，我们有*
 
 $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
@@ -179,7 +179,7 @@ $$
 
 #### 命题 3 {#alg-iv-s4-prop-3 .statement tag=06C2}
 
-*让*$u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$*和*$m$*整数*$> 0$。 *对于每个* $n \in \mathbf{N}$ *让* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *成为* $u^n$的系数族。 *如果*$\alpha_0^m = 0$，*则*$\alpha_{\nu, n} = 0$*对于*$n \geq |\nu| + m$。
+*让*$u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$*和*$m$*整数*$> 0$。 *对于每个* $n \in \mathbf{N}$ *让* $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *成为* $u^n$ 的系数的家庭。 *如果*$\alpha_0^m = 0$，*则*$\alpha_{\nu, n} = 0$*对于*$n \geq |\nu| + m$。
 
 设$\nu \in \mathbf{N}^{(I)}$和$n \in \mathbf{N}$。我们有
 
@@ -189,7 +189,7 @@ $$
 
 如果$n \geq |\nu| + m$和$\nu(1) + \cdots + \nu(n) = v$，我们有$|\nu(1)| + \cdots + |\nu(n)| \leq n - m$。因此，我们有$v(r) = 0$和$\alpha_{v(r)} = a_r$，对于$r$至少有$m$不同的值；由此得出结果$\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$、从而。
 
-#### 推论{#alg-iv-s4-n2-cor-1 .statement tag=06C3}
+#### 推论 {#alg-iv-s4-n2-cor-1 .statement tag=06C3}
 
 — 设 $u \in A[[I]]$；那么对于 $\lim_{n \to \infty} u^n = 0$ 来说，$u$ 的常数项是幂零的，这是充分必要的。
 
@@ -201,7 +201,7 @@ $$
 
 #### 命题 4 {#alg-iv-s4-prop-4 .statement tag=06C4}
 
-— 令 $I$ 为集合且 $E$ 是一个结合的、可交换的、单位的、线性拓扑分离的完全 $A$ 代数。
+— 令 $I$ 为集合，并且 $E$ 是一个结合的、可交换的、单位的、线性拓扑分离的完全 $A$ 代数。
 
 (i) 设$\varphi$为$A[[I]]$到$E$和$x_i = \varphi(X_i)$的连续同态。然后：
 (a) 对于所有 $i \in I$，$x_i^n$ 趋于 0，因为 $n$ 趋于 $+ \infty$；
@@ -233,7 +233,7 @@ $$
 (i) 对于所有$j \in J$，$g_j$是$A[[K]]$的元素，其常数项是幂零的；
 (ii) 如果 $J$ 是无限的，$g_j$ 沿着 $J$ 的有限子集的补集过滤器趋于 0。
 
-我们注，如果$J$是有限的，则在$A[[K]]$属于到$A_{J, K}$中，形式幂级数$(g_j)_{j \in J}$的每个族都没有常数项。
+我们注意到，如果$J$是有限的，则形式幂级数$(g_j)_{j \in J}$的每个族在$A[[K]]$属于到$A_{J, K}$中都没有常数项。
 
 让$(g_j)_{j \in J}$在$A_{J, K}$中。由科。根据第 3 号提案（IV、p. 28），我们对所有 $j \in J$ 都有 $\lim_{n \to \infty} g_j^n = 0$。让$f \in A[[J]]$；我们可以用$g_j$代替$f$中的变量指标$j$，得到正式的幂级数$f((g_j)_{j \in J})$属于到$A[[K]]$。此外，映射$f \mapsto f((g_j)_{j \in J})$是$A$-代数$A[[J]]$到$A[[K]]$的连续同态。
 
@@ -279,7 +279,7 @@ $$
 
 ### 5. Taylor 的公式正式幂级数
 
-令$X = (X_i)_{i \in I}$和$Y = (Y_i)_{i \in I}$是相对于相同指标集合I的两个不定族。我们用$X + Y$表示$A[[X, Y]]$中正式幂级数的家族$(X_i + Y_i)_{i \in I}$。显然，我们可以在正式的幂级数$u \in A[[X]]$中用$X_i + Y_i$代替$X_i$，结果写作$u(X + Y)$。对于每个$\nu \in \mathbf{N}^{(I)}$，我们用$\Delta^\nu u$表示正式幂级数$u(X + Y)$中的$Y^\nu$系数，被视为属于到$A[[X]][[Y]]$（III，p. 456）。在其他字中，我们有
+令$X = (X_i)_{i \in I}$和$Y = (Y_i)_{i \in I}$是相对于相同指标集合I的两个不定族。我们用$X + Y$表示$A[[X, Y]]$中正式幂级数的家族$(X_i + Y_i)_{i \in I}$。显然，我们可以在正式的幂级数$u \in A[[X]]$中用$X_i + Y_i$代替$X_i$，结果写作$u(X + Y)$。对于每个$\nu \in \mathbf{N}^{(I)}$，我们用$Y^\nu$的$\Delta^\nu u$系数表示，形式上的幂级数$u(X + Y)$被视为属于到$A[[X]][[Y]]$（III，p. 456）。在其他字中，我们有
 
 $$
 u(X + Y) = \sum_\nu \Delta^\nu u(X) \cdot Y^\nu \quad (u \in A[[X]]) .
@@ -291,7 +291,7 @@ $$
 u(X) = \sum_\nu \Delta^\nu u(0) \cdot X^\nu ;
 $$
 
-在其他字中，$\Delta^\nu u$的常数项是$u$中$X^\nu$的系数。由于$A[[X]]$的映射$u \mapsto u(X + Y)$到$A[[X, Y]]$是连续的，$A[[X]]$的映射$u \mapsto \Delta^\nu u$到其本身也是连续的。
+在其他字中，$\Delta^\nu u$的常数项是$u$中$X^\nu$的系数。由于 $A[[X]]$ 的映射 $u \mapsto u(X + Y)$ 到 $A[[X, Y]]$ 是连续的，因此 $A[[X]]$ 的映射 $u \mapsto \Delta^\nu u$ 到其自身也是连续的。
 
 与多项式 (IV, p. 7) 的情况一样，我们可以证明公式
 
@@ -308,7 +308,7 @@ $$
 \Delta^\nu u = \sum_\lambda \alpha_{\lambda + \nu} \frac{(\lambda + \nu)!}{\lambda! \; \nu!} X^\lambda .
 $$
 
-特别考虑$\nu = \epsilon_i$的情况，即$\nu_i = 1, \nu_j = 0$对应$j \neq i$。我们将放入$D_i u = \Delta^{\epsilon_i} u$；换句话说，$D_i u$是$Y_i$在$u(X + Y)$中的系数。根据 (10) 我们有
+特别考虑$\nu = \epsilon_i$的情况，即$\nu_i = 1, \nu_j = 0$对应$j \neq i$。我们将放入$D_i u = \Delta^{\epsilon_i} u$；换句话说，$D_i u$是$u(X + Y)$中$Y_i$的系数。根据 (10) 我们有
 
 $$
 D_i u = \sum_\lambda (\lambda_i + 1) \alpha_{\lambda + \epsilon_i} X^\lambda ;
@@ -390,17 +390,17 @@ $$
 
 — *令 $X = (X_i)_i$ 为不定式的有限族。
 (i) 正式幂级数 $\mathbf{A}[[X]]$ 的环中的每个推导都是连续的。
-(ii) 以独特的方式将多项式环$\mathbf{A}[X]$的推导转换为正式幂级数$\mathbf{A}[[X]]$扩展的环到环$\mathbf{A}[[X]]$的推导。
+(ii) 将多项式环$\mathbf{A}[X]$的推导以独特的方式转换为正式幂级数$\mathbf{A}[[X]]$扩展的环到环$\mathbf{A}[[X]]$的推导。
 (iii) $(D_i)_{i \in I}$族是$\mathbf{A}[[X]]$自身的A-导数的$\mathbf{A}[[X]]$模的基。
-令$b_n$为阶$\geq n$的所有形式幂级数中的集合。显然，$b_n$是环$\mathbf{A}[[X]]$中的理想，由次数$n$的单项式生成。因此 $b_n$ 由 $n$ 形式幂级数的乘积的有限和组成，没有常数项；如果 $D$ 是 $\mathbf{A}[[X]]$ 的推导，我们有*
+令$b_n$为阶$\geq n$的所有形式幂级数中的集合。很明显，$b_n$是环$\mathbf{A}[[X]]$中的理想，由次数$n$的单项式生成。因此 $b_n$ 由 $n$ 形式幂级数的乘积的有限和组成，没有常数项；如果 $D$ 是 $\mathbf{A}[[X]]$ 的推导，我们有*
 
 $$
 D(f_1 \cdots f_n) = \sum_{i=1}^n f_1 \cdots f_{i-1} D(f_i) f_{i+1} \cdots f_n ,
 $$
 
-从而立即得出 $Db_n \subset b_{n-1}$ 对应 $n \geq 1$。由于序列 $(b_n)_{n \geq 0}$ 是 $\mathbf{A}[[X]]$ (IV, p. 26 注) 中 0 的邻域的基本系统，因此 D 是连续的，并且 (i) 被证明。
+从而立即得出 $Db_n \subset b_{n-1}$ 对应 $n \geq 1$。由于序列$(b_n)_{n \geq 0}$是$\mathbf{A}[[X]]$（IV，p. 26注）中0的邻域的基本系统，因此D是连续的，并且（i）被证明。
 
-令 $A$ 为 $A[X]$ 的推导到$A[[X]]$。论证为之前，我们可以证明对于次数$n \geq 1$的每个齐次多项式$h$，$A(h)$属于到$b, -_1$。现在令 $u \in A[[X]]$ 和 $u_n$ 为 $u$ 的次数 $n$ 的齐次分量。由于 $A(u_n) \in b, -_1$ 对于 $n \geq 1$，族 $(A(u)), \ldots$ 可以在 $A[[X]]$ 中求和，我们可以将 $A[[X]]$ 的定义推导 $D$ 化为自身
+令$A$为$A[X]$到$A[[X]]$的推导。论证为之前，我们可以证明对于次数$n \geq 1$的每个齐次多项式$h$，$A(h)$属于到$b, -_1$。现在令 $u \in A[[X]]$ 并令 $u_n$ 为次数 $n$ $u$ 的齐次分量。由于 $A(u_n) \in b, -_1$ 对于 $n \geq 1$，族 $(A(u)), \ldots$ 可以在 $A[[X]]$ 中求和，我们可以将 $A[[X]]$ 的定义推导 $D$ 化为自身
 
 $$
 D(u) = \sum_{n \geq 0} \Delta(u_n)
@@ -410,11 +410,11 @@ $$
 
 最后，$A[X]$在$A[[X]]$中是稠密的，并且$A[[X]]$的每个推导都由(i)连续；因此存在唯一的扩张 $A$ 到推导 $A[[X]]$。这就证明了(ii)。
 
-仍有待证明(iii)。 公式 (18) (IV, p. 33) 表明族 $(D_i)_{i \in I}$ 与 $A[[X]]$ 线性无关，而公式 (16) (IV, p. 32)，应用于案例 $E = A[[X]]$，表明每个$A$-导数是$D_i$的线性组合，系数为$A[[X]]$。
+It remains to prove (iii). 公式 (18) (IV, p. 33) 表明族 $(D_i)_{i \in I}$ 与 $A[[X]]$ 线性无关，而公式 (16) (IV, p. 32)，应用于案例 $E = A[[X]]$，表明每个$A$-导数是$D_i$与$A[[X]]$中的系数的线性组合。
 
 #### 命题 9 {#alg-iv-s4-prop-9 .statement tag=06CD}
 
-— 令 $(u_\lambda)_{\lambda \in L}$ 为 $A[[I]]$ 的元素的*可求和*族，没有常数项，并且 $D$ 为 $A$-代数 $A[[I]]$ 的连续推导。如果 $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, 命题 2)，那么族 $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ 是可求和的，我们有
+— 令$(u_\lambda)_{\lambda \in L}$为$A[[I]]$的元素的*可求和*族，没有常数项，并且$D$为$A$代数$A[[I]]$的连续推导。如果 $f = \prod_{\lambda \in L} (1 + u_\lambda)$ (IV, p. 27, 命题 2)，那么族 $(Du_\lambda/(1 + u_\lambda))_{\lambda \in L}$ 是可求和的，我们有
 
 $$
 D(f)/f = \sum_{\lambda \in L} D(u_\lambda)/(1 + u_\lambda) .
@@ -426,13 +426,13 @@ $$
 D(gh) = h \cdot Dg + g \cdot Dh
 $$
 
-从而除以$gh$，
+从而 on division by $gh$,
 
 $$
 D(gh)/gh = D(g)/g + D(h)/h .
 $$
 
-对于 $L$ 中的每个有限子集 $M$，放入 $f_M = \prod_{\lambda \in M} (1 + u_\lambda)$。从 (21) 我们在卡片 $M$ 关系上推导出归纳
+对于 $L$ 中的每个有限子集 $M$，放入 $f_M = \prod_{\lambda \in M} (1 + u_\lambda)$。从 (21) 我们通过卡 $M$ 关系上的归纳进行推导
 
 $$
 D(f_M)/f_M = \sum_{\lambda \in M} D(u_\lambda)/(1 + u_\lambda)
@@ -468,16 +468,16 @@ $$
 
 让我们证明 $T$ 是*内射*。给定$u \in \mathbf{A}[[\mathbf{I}]]$使得$T(u) = 0$，通过(23)我们有$w(u) \geq w(u) + 1$，如果$u \neq 0$这是不可能的，因为$w(u)$将是正整数。
 
-对于$\mathbf{A}[[\mathbf{I}]]$中的每个形式级数$v$，我们用$H_n(v)$表示其次数$n$的齐次成分。让我们用递归方程将连续的映射$S, : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$代入$S_0(v) = H_0(v)$和定义
+对于$\mathbf{A}[[\mathbf{I}]]$中的每个正式级数$v$，我们用$H_n(v)$表示其次数$n$的同质分量。让我们用递归方程将连续的映射$S, : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$代入$S_0(v) = H_0(v)$和定义
 
 (24)
 $$
 S_n(v) = H_n \left( v - T \left( \sum_{k=0}^{n-1} S_k(v) \right) \right) \quad \text{for} \quad n \geq 1
 $$
 
-把$S(v) = \sum_{n \geq 0} S_n(v)$；如果$\nu \in \mathbf{N}^{(\mathbf{I})}$和$n = |\nu|$，则$S(v)$中$X^\nu$的系数$S^\nu(v)$等于$S,(\nu)$中$X^\nu$的系数；由于$S,$是连续的映射，所以映射$S^\nu : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}$是连续的。因此，通过$\mathbf{A}[[\mathbf{I}]] = \mathbf{A}^{\mathbf{N}^{(\mathbf{I})}}$上的乘积拓扑的定义，映射$S : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$是连续的。
+把$S(v) = \sum_{n \geq 0} S_n(v)$；如果$\nu \in \mathbf{N}^{(\mathbf{I})}$和$n = |\nu|$，则$S(v)$中$X^\nu$的系数$S^\nu(v)$等于$S,(\nu)$中的$X^\nu$；由于$S,$是连续的映射，所以映射$S^\nu : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}$是连续的。因此，通过$\mathbf{A}[[\mathbf{I}]] = \mathbf{A}^{\mathbf{N}^{(\mathbf{I})}}$上的乘积拓扑的定义，映射$S : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$是连续的。
 
-我们将为所有$v \in \mathbf{A}[[\mathbf{I}]]$证明关系$T(S(v)) = v$，这将完成引理的证明。设 $v \in \mathbf{A}[[\mathbf{I}]]$、$u_n = S_n(v)$ 和 $u = S(v)$。令 $n$ 为正整数，使得
+我们将为所有$v \in \mathbf{A}[[\mathbf{I}]]$证明关系$T(S(v)) = v$，这将完成引理的证明。设 $v \in \mathbf{A}[[\mathbf{I}]]$、$u_n = S_n(v)$ 和 $u = S(v)$。令 $n$ 为正整数使得
 
 (25)$_n$
 $$
@@ -496,7 +496,7 @@ $$
 u_n = H_n(v - T(u_0 + \cdots + u_{n-1}))
 $$
 
-由(26) 可知，形式幂级数 $v - T(u)$ 和$v - T(u_0 + \ldots + u_{n-1}) - u_n$ 具有相同的齐次分量次数 $n$，且该分量为零，由(27) 得到。因此我们有$w(v - T(u)) \geq n + 1$，即$(25)_n$意味着$(25)_{n+1}$。由于$(25)_0$显然成立，因此对于每个整数$n \geq 0$、从而$v = T(u) = T(S(v))$，我们都有$\omega(v - T(u)) \geq n$，这有待证明。
+由(26)可知，形式幂级数$v - T(u)$和$v - T(u_0 + \ldots + u_{n-1}) - u_n$具有与次数$n$相同的齐次分量，并且这个分量是零，由(27)可知。因此我们有$w(v - T(u)) \geq n + 1$，即$(25)_n$意味着$(25)_{n+1}$。由于$(25)_0$显然成立，因此对于每个整数$n \geq 0$、从而$v = T(u) = T(S(v))$，我们都有$\omega(v - T(u)) \geq n$，这有待证明。
 
 对于本号的其余部分，对于任何集合$I$，我们将用$(f_i)_{i \in I}$满足家庭的$A\{I\}$集合表示以下条件：
 (i) 对于每个 $i \in I$，$f_i$ 是 $A[[I]]$ 的元素，没有常数项；
@@ -512,7 +512,7 @@ $$
 
 因此，$f \mapsto W_f$是与$A\{I\}$相反的幺半群的同态进入$E$。根据命题 4 (IV, p. 28)，这个同态是双射的。
 
-令 $f = (f_i)_{i \in I} \in A\{I\}$ 和 $\sum_{j \in I} \alpha_{ij} X_j$ 为$f_i$ 次数 1 的齐次分量。对于$I$中的任何固定$j$，我们有$\alpha_{ij} = 0$，除了后缀$i$的有限数，通过上面的假设（ii）。如果$(\lambda_i) \in A^{(I)}$，我们就有$\left( \sum_{j \in I} \alpha_{ij} \lambda_j \right) \in A^{(I)}$。
+令 $f = (f_i)_{i \in I} \in A\{I\}$ 并令 $\sum_{j \in I} \alpha_{ij} X_j$ 为 $f_i$ 的次数 1 的齐次分量。对于$I$中的任何固定$j$，我们有$\alpha_{ij} = 0$，除了后缀$i$的有限数，通过上面的假设（ii）。如果$(\lambda_i) \in A^{(I)}$，我们就有$\left( \sum_{j \in I} \alpha_{ij} \lambda_j \right) \in A^{(I)}$。
 
 我们用$T_f$表示$A$线性映射$^1$
 
@@ -536,13 +536,13 @@ $^1$ 有时 $T_f$ 称为线性映射与 $f$ 相切。
 
 蕴涵 (i) $\Rightarrow$ (ii) 是 (28) 中的直接的。现在假设 $T_f$ 在 $\mathrm{End}(A^{(I)})$ 中是可逆的。存在$g = (g_i)_i \in A\{I\}$，使得每个$g_i$是次数$l$的齐次，并且$T_g \circ T_f$是$A^{(I)}$的恒等映射。写$h = g \circ f$；则(28)可知$T_h$是$A^{(I)}$的恒等映射，相当于断言$\omega(h_i - X_i) \geq 2$。因此，通过IV的引理2，p. 35$h$在$A\{I\}$中是可逆的。显然，$g$ 在 $A\{I\}$ 中可逆，因此 $f$ 在 $A\{I\}$ 中可逆。
 
-#### 推论{#alg-iv-s4-n7-cor-1 .statement tag=06CG}
+#### 推论 {#alg-iv-s4-n7-cor-1 .statement tag=06CG}
 
-— 设 $f_i(Y_1, Y_2, \ldots, Y_q, X_1, X_2, \ldots, X_p)$ ($1 \leq i \leq q$) 为 $q$ 正式幂级数，在 $A[[Y_1, \ldots, Y_q, X_1, \ldots, X_p]]$ 中没有常数项。如果形式幂级数 $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ 的常数项在 $A$ 中可逆，则 $q$ 形式幂级数 $u_1(X_1, \ldots, X_p), \ldots, u_q(X_1, \ldots, X_p)$ 中恰好存在一个系统，使得
+— 设 $f_i(Y_1, Y_2, \ldots, Y_q, X_1, X_2, \ldots, X_p)$ ($1 \leq i \leq q$) 为 $q$ 正式幂级数，$A[[Y_1, \ldots, Y_q, X_1, \ldots, X_p]]$ 中没有常数项。如果形式幂级数 $D = \det \left( \frac{\partial f_i}{\partial Y_j} \right)$ 的常数项在 $A$ 中可逆，则 $q$ 形式幂级数 $u_1(X_1, \ldots, X_p), \ldots, u_q(X_1, \ldots, X_p)$ 中恰好存在一个系统，使得
 $$
 f_i(u_1, \ldots, u_q, X_1, \ldots, X_p) = 0 \quad (1 \leq i \leq q).
 $$
-把$f_{q+1} = X_1, \ldots, f_{q+p} = X_p$，$f = (f_1, \ldots, f_{p+q})$，则$\det T_f$等于$D$的常数项，因此在$A$中可逆；因此 $T_f$ 是可逆的。根据命题 10，存在形式幂级数，没有常数项
+将$f_{q+1} = X_1, \ldots, f_{q+p} = X_p$，$f = (f_1, \ldots, f_{p+q})$，则$\det T_f$等于$D$的常数项，因此在$A$可逆；因此 $T_f$ 是可逆的。根据命题 10，存在形式幂级数，没有常数项
 $$
 g_1, \ldots, g_{q+p} \in A[[Y_1, \ldots, Y_q, X_1, \ldots, X_p]]
 $$
@@ -568,7 +568,7 @@ $$
 $$
 g_i(f_1, \ldots, f_q, X_1, \ldots, X_p) = Y_i \quad (1 \leq i \leq q);
 $$
-将(32)中的$u_i$代入$Y_i$代入$1 \leq i \leq q$，得(31)，系统的解从而唯一性(29)。
+将(32)中的$u_i$代入$Y_i$代入$1 \leq i \leq q$，得(31)，系统的解从而唯一性。
 
 ### 8. 正式幂级数超过整环
 
@@ -578,7 +578,7 @@ $$
 
 (i) *环* $A[[I]]$ *又是整环*。
 
-(ii) *如果* $u, v$ *为* $A[[I]]$ 的非零元素，*则* $\omega(uv) = \omega(u) + \omega(v)$。
+(ii) *如果* $u, v$ *非零元素 of* $A[[I]]$，*则* $\omega(uv) = \omega(u) + \omega(v)$。
 
 对于每个$J \subset I$，令$\varphi_J$为$A[[I]]$的同态代入$A[[J]]$，通过将$A[[I]]$的每个元素代入，当$i \in J$时将$X_i$代入$X_i$，当$X_i$时代入0 $i \in I - J$。令$u, v$为$A[[I]]$、$p = \omega(u)$、$q = \omega(v)$的非零元素；存在 $I$ 的有限子集 $J$ 使得
 
@@ -586,9 +586,9 @@ $$
 \varphi_J(u) \neq 0,\ \varphi_J(v) \neq 0,\ \omega(\varphi_J(u)) = p,\ \omega(\varphi_J(v)) = q.
 $$
 
-令 a（分别 b）为 $\varphi_J(u)$（分别 $\varphi_J(v)$）的次数 $p$（分别 $q$）的齐次分量。由于 $J$ 是有限的，因此 a 和 b 是多项式。我们有$a \neq 0, b \neq 0$，因此有$ab \neq 0$（IV，p. 9，提案 8）。因此 $\varphi_J(u)\ \varphi_J(v)$ 是非零，阶 $p + q$。由此可见 $uv \neq 0$ 和 $\omega(uv) \leq p + q$；但显然$\omega(uv) \geq p - q$。
+设 a（分别为 b）为次数 $p$（分别为 $q$）和 $\varphi_J(u)$（分别为 $\varphi_J(v)$）的齐次分量。由于 $J$ 是有限的，因此 a 和 b 是多项式。我们有$a \neq 0, b \neq 0$，因此有$ab \neq 0$（IV，p. 9，提案 8）。因此 $\varphi_J(u)\ \varphi_J(v)$ 是非零，阶 $p + q$。由此可见 $uv \neq 0$ 和 $\omega(uv) \leq p + q$；但显然$\omega(uv) \geq p - q$。
 
-### 9. The field of fractions of the ring of formal power series in one indeterminate over a field
+### 9.  域上一个不定的形式幂级数环的分数域
 
 如果K是交换域，我们用整环$K[[X]]$分数的$K((X))$域来表示。
 
@@ -600,7 +600,7 @@ $$
 
 让我们证明唯一性。假设$u = X^{k_1} v_1 = X^{k_2} v_2$，其中$k_1, k_2 \in \mathbf{Z}$和$v_1, v_2$是阶0的形式幂级数。由于$X^{k_1 - k_2} = v_2 v_1^{-1}$是阶0的形式幂级数，我们有$k_1 = k_2$ 从而$v_1 = v_2$，这就证明了唯一性断言。
 
-我们可以说，$K((X))$的元素是$X$中的*广义形式幂级数*，系数在$K$中，或者在不会产生混淆的情况下简单地形式化幂级数（然后称为$K[[X]]$的元素） *正式幂级数带正指数*)；如果第12条命题中定义的$u \neq 0$、整数$k$也称为$u$的*阶*，写成$\omega(u)$，即使它是$< 0$；我们还放了$\omega(0) = \infty$。可以立刻验证
+我们可以说$K((X))$的元素是$X$中的*广义正式幂级数*和$K$中的系数，或者在不会产生混淆的情况下简单地正式幂级数（元素 $K[[X]]$ 然后被称为*正式幂级数并带有正指数*）；如果第12条命题中定义的$u \neq 0$、整数$k$也称为$u$的*阶*，写成$\omega(u)$，即使它是$< 0$；我们还放了$\omega(0) = \infty$。可以立刻验证
 
 $$
 \begin{align*}

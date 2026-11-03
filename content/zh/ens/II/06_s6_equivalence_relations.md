@@ -50,23 +50,23 @@ subsections:
       pdf_page: 128
 statements: 13
 exercises: 11
-content_sha256: b920f9bf2237025d477ddc85ddc545c97b7a1d158bc6d2359c68da01657a7adb
+content_sha256: 86a0f7e4df38f652782c3413b75c7bb857e06deaa9eb7ad9af2872c6ab89bdee
 translated_from: content/en/ens/II/06_s6_equivalence_relations.md
 translation_method: google
 source_content_sha256: f7ce72a4dfc4c2df0edb07393e9d9b7234a3b676d35f6cff417c9f89092d2c5a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5aa504a9a978f5da40c807066b637df9edf5587d8e59527279be4dd80925b35a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 6. 等价关系
 
 在原理中，今后不再使用粗体斜体字母来表示未确定的组合；读者将能够从上下文中轻松辨别断言适用于未确定的字母或关系。
 
-### 1. 定义等价关系
+### 1. 定义 / 等价关系
 
 令$R\{x, y\}$为关系，$x$和$y$是不同的字母。 关系 $R$ 被认为是*对称*（相对于字母 $x$ 和 $y$）如果
 
@@ -168,9 +168,9 @@ $$(\exists \mathrm{X})(\mathrm{X} \in \mathrm{E}/\mathrm{R} \text{ and } x \in \
 
 相当于$\mathrm{R}\{x,\ y\}$。
 
-¶ 相反，令$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$为集合E的划分。立即验证关系$(\exists \iota)(\iota \in \mathrm{I}$和$x \in \mathrm{X}_\iota$和$y \in \mathrm{Y}_\iota)$为E上的等价关系R； 等价类相对于R正好是划分的集合$\mathrm{X}_\iota$，而映射$\iota \to \mathrm{X}_\iota$在E/R上是I的双射。 E 的每个子集 S，对于每个 $\iota \in \mathrm{I}$，集合 $\mathrm{S} \cap \mathrm{X}_\iota$ 都由单个元素组成，称为等价类相对于 R 的 *系统代表*（或 *横向*）。该名称也用于表示任何单射将集合 K代入E，使得该单射下的K的像是关于R的等价类代表的系统；对于例，E 的任何 *截面* 相对于 R。
+¶ 相反，令$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$为集合E的划分。立即验证关系$(\exists \iota)(\iota \in \mathrm{I}$和$x \in \mathrm{X}_\iota$和$y \in \mathrm{Y}_\iota)$为E上的等价关系R； 等价类相对于R正好是划分的集合$\mathrm{X}_\iota$，而映射$\iota \to \mathrm{X}_\iota$在E/R上是I的双射。 E 的每个子集 S，对于每个 $\iota \in \mathrm{I}$，集合 $\mathrm{S} \cap \mathrm{X}_\iota$ 都由单个元素组成，称为等价类相对于 R 的 *系统代表*（或 *横向*）。该名称也用于表示任何单射将集合 K代入E，使得该单射下的K的像是关于R的等价类代表的系统；例如，E 的任何 *截面* 相对于 R。
 
-### 3. 关系与等价关系兼容
+### 3. 关系兼容等价关系
 
 令$\mathrm{R}\{x,\ x'\}$为等价关系，令$\mathrm{P}\{x\}$为关系。 关系 $\mathrm{P}\{x\}$ 据说与等价关系* $\mathrm{R}\{x,\ x'\}$（相对于$x$）*相容的，如果我们有
 
@@ -178,9 +178,9 @@ $$(\mathrm{P}\{x\} \text{ and } \mathrm{R}\{x,\ y\}) \Rightarrow \mathrm{P}\{y\}
 
 其中$y$表示既不在P也不在R中出现的字母。
 
-对于例，从 C43 (章 I, §5)、no. 1) 可以得出，每个关系 $\mathrm{P}\{x\}$ 都与等价关系 $x = x'$ 相容的。
+例如，从 C43 (章 I, §5), no. 1) 可以得出，每个关系 $\mathrm{P}\{x\}$ 都与等价关系 $x = x'$ 相容的。
 
-C56。 *让* $\mathrm{R}\{x,\ x'\}$ *在集合* E 上成为等价关系，*并让* $\mathrm{P}\{x\}$ *成为关系，它不是包含字母* $x'$ *并且与等价关系*相容的（相对于* $x$*） $\mathrm{R}\{x,\ x'\}$。 *那么，如果*$t$*没有出现在*$\mathrm{P}\{x\}$，*关系“*$t \in \mathrm{E}/\mathrm{R}$*和*$(\exists x)(x \in t$*和*$\mathrm{P}\{x\})$*”相当于关系“*$t \in \mathrm{E}/\mathrm{R}$*和*$(\forall x)((x \in t) \Rightarrow \mathrm{P}\{x\})$*”。*
+C56。 *让* $\mathrm{R}\{x,\ x'\}$ *成为集合* E 上的等价关系，*并且让*$\mathrm{P}\{x\}$ *成为关系，它不是包含字母*$x'$*并且与等价关系*相容的（相对于*$x$*） $\mathrm{R}\{x,\ x'\}$。 *那么，如果*$t$*没有出现在*$\mathrm{P}\{x\}$，*关系“*$t \in \mathrm{E}/\mathrm{R}$*和*$(\exists x)(x \in t$*和*$\mathrm{P}\{x\})$*”相当于关系“*$t \in \mathrm{E}/\mathrm{R}$*和*$(\forall x)((x \in t) \Rightarrow \mathrm{P}\{x\})$*”。*
 
 让$t \in \mathrm{E}/\mathrm{R}$。如果存在$a \in t$使得$\mathrm{P}\{a\}$，那么对于每个$x \in t$我们有$\mathrm{R}\{a,\ x\}$，因此有$\mathrm{P}\{x\}$。因此$(\exists x)(x \in t$和$\mathrm{P}\{x\})$意味着$(\forall x)((x \in t) \Rightarrow \mathrm{P}\{x\})$。 逆命题是显而易见的，因为 $t \in \mathrm{E}/\mathrm{R}$ 意味着 $t \neq \emptyset$。
 
@@ -188,7 +188,7 @@ C56。 *让* $\mathrm{R}\{x,\ x'\}$ *在集合* E 上成为等价关系，*并�
 
 $$t \in \mathrm{E}/\mathrm{R} \text{ and } (\exists x)(x \in t \text{ and } \mathrm{P}\{x\})$$
 
-据说是由*$P\{x\}$*在经过上与R的商*（相对于$x$）引起。如果这个关系由$P'\{t\}$表示，并且如果$f$是E在E/R上的典范映射，则关系
+据说是由*$P\{x\}$*在经过到商*（相对于$x$）相对于R。如果这个关系由$P'\{t\}$表示，并且如果$f$是E到E/R上的典范映射，则关系
 
 $$y \in E \text{ and } P'\{f(y)\}$$
 
@@ -216,45 +216,45 @@ $$A' = \overset{-1}{f}\langle f\langle A'\rangle\rangle \supset \overset{-1}{f}\
 
 C57。 *令* R *为集合* E 上的等价关系，*并让g 为* E *到* E/R 上的典范映射。 *则映射 f of* E *into* F * 与* R *兼容当且仅当 f 可以放入形式 h $\circ$ g 中，其中 h 是映射 of* E/R *into* F。 *映射 h 由 f 唯一确定；如果 s 是 g 的任意截面，则我们有 h $= f \circ s$。*
 
-映射 $h$ 据说是由 f 在经过上*导出关于 R 的商*。
+映射 $h$ 据说是由 f 在经过到商* 上相对于 R *诱导的。
 
-¶ 设 $f$ 为集合 E 的映射到集合 F，并设 $\mathrm{A} = f\langle \mathrm{E}\rangle \subset \mathrm{F}$。令 R 为等价关系与 $f$ (no. 2) 相关联；显然，$f$ 与 R 相容的。此外，$f$ 在经过上引发的映射 $h$ 的商是 E/R 到 F 的 *单射*：因为如果 $t$、$t'$ 相对于 R 是等价类，使得$h(t) = h(t')$，对于所有$x \in t$和$x' \in t'$，我们有$f(x) = f(x')$，这意味着$t = t'$除以R的定义。令$k$为E/R的映射到A，其与$h$具有相同的图；那么 $k$ 是*双射的*。如果$j$是A到F的典范嵌入，并且如果$g$是E到E/R的典范映射，那么我们可以写
+¶ 设 $f$ 为集合 E 的映射到集合 F，并设 $\mathrm{A} = f\langle \mathrm{E}\rangle \subset \mathrm{F}$。令 R 为等价关系与 $f$ (no. 2) 相关联；很明显，$f$与R兼容。此外，由$f$在经过到商上诱导的映射$h$是E/R到F的*单射*：因为如果$t$，$t'$相对于等价类到 R 使得 $h(t) = h(t')$，对于所有 $x \in t$ 和 $x' \in t'$，我们有 $f(x) = f(x')$，这意味着 R 的 $t = t'$ 乘以定义。令 $k$ 为 A 上的 E/R 映射，其与 $h$ 具有相同的图；那么 $k$ 是*双射的*。如果$j$是A到F的典范嵌入，并且如果$g$是E到E/R的典范映射，那么我们可以写
 
 $$f = j \circ k \circ g.$$
 
 这个关系被称为f*的*规范分解。
 
-¶ 令$f$为集合E的映射到集合F，令R为E上的等价关系，并令S为F上的等价关系。令$u$为E到E/R的典范映射，并令$v$为$F$ 的典范映射到$F/S$。如果 $v\mathbin{\circ}f$ 与 $R$ 相容的，则映射 $f$ 据说与等价关系* $R$ 和 $S$ 相容的；这意味着关系 $x\equiv x'$ (mod $R$) *意味着* $f(x)\equiv f(x')$ (mod $S$)。将$E/R$的映射$h$代入$F/S$，由$v\mathbin{\circ}f$在经过上引出，与$R$的商，则称为*映射，由$f$在经过上引出，与尊重$R$和$S$*；其特点是关系$v\mathbin{\circ}f=h\mathbin{\circ}u$。
+¶ 令$f$为集合E的映射到集合F，令R为E上的等价关系，并令S为F上的等价关系。令$u$为E到E/R的典范映射，并令$v$为$F$ 的典范映射到$F/S$。如果 $v\mathbin{\circ}f$ 与 $R$ 相容的，则映射 $f$ 据说与等价关系* $R$ 和 $S$ 相容的；这意味着关系 $x\equiv x'$ (mod $R$) *意味着* $f(x)\equiv f(x')$ (mod $S$)。 $E/R$的映射$h$进入$F/S$，由$v\mathbin{\circ}f$在经过到商相对于$R$诱发，则称为$f$在经过诱发的*映射到商相对于 $R$ 和 $S$*；其特点是关系$v\mathbin{\circ}f=h\mathbin{\circ}u$。
 
-### 6. 逆像等价关系；诱导等价关系
+### 6. 逆像共等价关系；诱发等价关系
 
-设$\varphi$为集合$E$的映射到集合$F$，并令$S$为$F$上的等价关系。 If $u$ is the canonical mapping of $F$ onto $F/S$, the equivalence relation associated with the mapping $u\mathbin{\circ}\varphi$ of $E$ into $F/S$ is called the *inverse image* of $S$ under $\varphi$; if $R$ is this relation, $R\{x,y\}$ is equivalent to $S\{\varphi(x),\varphi(y)\}$, and the equivalence classes with respect to $R$ are the inverse images under $\varphi$ of the equivalence classes with respect to $S$ which meet $\varphi\langle E\rangle$.
+设$\varphi$为集合$E$的映射到集合$F$，并令$S$为$F$上的等价关系。 如果$u$是$F$到$F/S$的规范映射，则与$E$到$F/S$的映射$u\mathbin{\circ}\varphi$相关的等价关系称为$S$在$\varphi$下的*逆像*；如果$R$是这个关系，$R\{x,y\}$等价于$S\{\varphi(x),\varphi(y)\}$，$R$的等价类是满足$\varphi\langle E\rangle$的$S$的等价类在$\varphi$下的逆像。
 
 ¶ 特别地，考虑集合$E$上的等价关系$R$，并令$A$为$E$的子集；那么$A$的单射$j$下的$R$到$E$的逆像被称为$A$上的$R$*诱导*等价关系，并记为$R_A$。
 
-¶ 等价类相对于$R_A$ 是等价类的$A$ 上相对于$R$ 与$A$ 相交的*迹*。 单射的$j$显然与关系$R_A$和$R$相容的； $A/R_A$的映射$h$到$E/R$由$j$在经过上引出关于$R_A$和$R$的商是$A/R_A$的*单射的*映射到$E/R$：如果$f$（或$g$）是$E$到$E/R$（或$A$到$A/R_A$）的典范映射，则关系$h(g(x))=h(g(x'))$，其中$x\in A$ 和 $x'\in A$ 等价于 $f(x)=f(x')$，因此也等价于 $g(x)=g(x')$。 像$h\langle A/R_A\rangle$等于$f\langle A\rangle$。如果$k$是$A/R_A$到$f\langle A\rangle$的双射映射，并且与$h$具有相同的图，则$k$及其逆被称为*规范*。
+¶ 等价类相对于$R_A$ 是等价类的$A$ 上相对于$R$ 与$A$ 相交的*迹*。 单射的$j$显然与关系$R_A$和$R$相容的； $A/R_A$的映射$h$进入$E/R$由$j$在经过到商相对于$R_A$和$R$是$A/R_A$的*单射的*映射进入$E/R$：如果$f$（或$g$）是$E$到$E/R$（或$A$到$A/R_A$）的典范映射，则关系$h(g(x))=h(g(x'))$，其中$x\in A$ 和 $x'\in A$ 等价于 $f(x)=f(x')$，因此也等价于 $g(x)=g(x')$。 像 $h\langle A/R_A\rangle$ 等于 $f\langle A\rangle$。如果$k$是$A/R_A$到$f\langle A\rangle$的双射映射，并且与$h$具有相同的图，那么$k$及其逆被称为*规范*。
 
-### 7. 等价关系的商
+### 7. 商 / 等价关系
 
-令$R$、$S$是关于两个字母$x$、$y$的两个等价关系。如果关系 $S\Rightarrow R$为真，我们可以说$S$比$R$*更细*（或者$R$比$S$*粗糙*）。如果$R$和$S$是等价关系在同一个集合$E$上，叙述$S$比更细比$R$意味着$S$的图包含在$R$，或者再次，关于$S$的每个等价类都包含在关于$R$的等价类中；或者，等价地，关于$R$的每个等价类对于$S$都是饱和的。
+对于两个字母$x$，$y$，令$R$，$S$为两个等价关系。如果关系 $S\Rightarrow R$为真，我们可以说$S$比$R$*更细*（或者$R$比$S$*粗糙*）。如果$R$和$S$在同一个集合$E$上是等价关系，叙述即$S$比更细比$R$意味着$S$的图包含在$R$，或者再次，关于$S$的每个等价类都包含在关于$R$的等价类中；或者，等效地，关于$R$的每个等价类对于$S$都是饱和的。
 
 *例*
 
 #### 例 1 {#ens-ii-s6-n7-exa-1 .statement tag=03SF}
 
-关系“$x \in E$和$y \in E$和$x = y$”比E上的每个等价关系为更细。关系“$x \in E$和$y \in E$”比E上的每个等价关系更粗糙。
+关系“$x \in E$、$y \in E$和$x = y$”比 E 上的每个等价关系更细。 关系“$x \in E$ 和 $y \in E$”比 E 上的每个等价关系更粗糙。
 
 #### 例 2 {#ens-ii-s6-n7-exa-2 .statement tag=03SG}
 
 \* 等价关系“$x \in \mathbf{Z}$和$y \in \mathbf{Z}$和$x - y$可以被4整除”是更细比等价关系“$x \in \mathbf{Z}$和$y \in \mathbf{Z}$和$x - y$可以被2整除”。 \*
 
-令R和S为同一集合E上的两个等价关系，使得S比R更细。令$f$和$g$分别为E到E/R和E到E/S的典范映射；则函数 $f$ 与 S 相容。令 $h$ 为函数由 $f$ 在经过上导出关于 S 的商；那么$h$是E/S到E/R的映射。 E/S 上与 $h$ 相关的等价关系称为 *R *除* S 的商，并用 R/S 表示。 关系$x \equiv y \pmod{R}$等价于$g(x) \equiv g(y) \pmod{R/S}$，等价类相对于R/S是像低于等价类相对于R的$g$。令$h = j \circ h_2 \circ h_1$为规范的分解（no. 5） 映射$h$。那么$h_1$是E/S到(E/S)/(R/S)的典范映射，$j$是E/R的恒等映射，$h_2$是(E/S)/(R/S)到E/R的一对一映射。 映射 $h_2$ 及其逆被认为是*规范*。
+令R和S为同一集合E上的两个等价关系，使得S比R更细。令$f$和$g$分别为E到E/R和E到E/S的典范映射；则函数$f$与S兼容。令$h$是$f$在经过到商上关于S诱导的函数；那么$h$是E/S到E/R的映射。与 E/S 上的 $h$ 相关的等价关系称为* R *通过* S 的 *商，并用 R/S 表示。 关系$x \equiv y \pmod{R}$等价于$g(x) \equiv g(y) \pmod{R/S}$，等价类相对于R/S是像低于等价类相对于R的$g$。令$h = j \circ h_2 \circ h_1$为规范的分解（no. 5） 映射$h$。那么$h_1$是E/S到(E/S)/(R/S)的典范映射，$j$是E/R的恒等映射，$h_2$是(E/S)/(R/S)到E/R的一对一映射。 映射 $h_2$ 及其逆据说是*规范*。
 
-¶ 相反，考虑集合 E/S 上的任意等价关系 T，并令 R 为 E 上的等价关系，即关系 T (no. 6) 的$g$ 下的逆像。由于关系$x \equiv y \pmod{R}$等价于$g(x) \equiv g(y) \pmod{T}$，因此T等价于R/S。
+¶ 相反，考虑集合 E/S 上的任意等价关系 T，并令 R 为 E 上的等价关系，即逆像位于关系 T (no. 6) 的$g$ 之下。由于关系$x \equiv y \pmod{R}$等价于$g(x) \equiv g(y) \pmod{T}$，因此T等价于R/S。
 
 ### 8. 乘积两个等价关系
 
-令$R\{x, y\}$和$R'\{x', y'\}$为两个等价关系。让 $S\{u, v\}$ 表示关系
+令$R\{x, y\}$和$R'\{x', y'\}$为两个等价关系。让$S\{u, v\}$表示关系
 
 $$(\exists x)(\exists y)(\exists x')(\exists y')(u = (x, x') \text{ and } v = (y, y') \text{ and } R\{x, y\} \text{ and } R'\{x', y'\});$$
 
@@ -308,7 +308,7 @@ $$(R\{x, x\} \text{ and } R\{x', x'\} \text{ and } (R\{x', \theta\{x\}\} \Leftri
 
 特别是，如果 R 是等价关系 *在集合* F 上，我们可以将 $A\{x\}$ 视为 x 相对于* R (no. 2) 的 *等价类，而函数 $f$ 则是$\Theta$ 上的 *双射* 商集前/后；这证明了引入术语的合理性。
 
-\* *例*。设$R\{x, y\}$为等价关系“$x$和$y$是相同有限维在$\mathbf{C}$上的两个向量空间”；这个关系没有图表。当T是$\mathbf{C}^{(\mathbf{N})}$的所有向量子空间中的集合时，或者当T的子集T'由空间$\mathbf{C}^n$$(n \in \mathbf{N})$组成且$\mathbf{C}^0$组成的约定时，它满足条件(1) $\mathbf{C}^{(\mathbf{N})}$的点 0，并且$\mathbf{C}^n$$(n > 0)$是直和$\mathbf{C}^{(\mathbf{N})}$的前$n$分量的和。有了第二个选择，我们就有了$\Theta = T'$。\*
+\* *例*。设$R\{x, y\}$为等价关系“$x$和$y$是相同有限维在$\mathbf{C}$上的两个向量空间”；这个关系没有图表。当T是$\mathbf{C}^{(\mathbf{N})}$的所有向量子空间中的集合时，或者当T的子集T'由空间$\mathbf{C}^n$$(n \in \mathbf{N})$组成且$\mathbf{C}^0$组成的约定时，满足条件(1) $\mathbf{C}^{(\mathbf{N})}$的点 0，$\mathbf{C}^n$$(n > 0)$是直和$\mathbf{C}^{(\mathbf{N})}$的第一个$n$分量的和。有了第二个选择，我们就有了$\Theta = T'$。\*
 
 ### 习题 {#ens-ii-s6-exercises}
 

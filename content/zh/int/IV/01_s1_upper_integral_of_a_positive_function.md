@@ -28,16 +28,16 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 763156bef545dd2997bc6f1b7024ae7c2680d333083f2a634358915526dc4281
+content_sha256: cbf57456369bcf78fe73e1d35cae242b231889ed629306aa536f414973375c20
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 translation_method: google
 source_content_sha256: faecbc2539033964cc900d67680366e3bd2e09f8e66d8294cd0ca0a84e783552
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 84184fadaf26d38aaf68ee82ab2a2aa0c402c66d57c9baa49354ff12e13736f1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。正函数的上积分
@@ -141,13 +141,13 @@ $$
 \mu^*\left( \sum_{\iota \in I} f_\iota \right) = \sum_{\iota \in I} \mu^*(f_\iota).
 $$
 
-对于 $I$ 的每个有限子集 $J$，可以从 Th 得出。 2 (由$J$元素数归纳)$\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$； as $J$ runs over 集合 of 有限子集 of $I$, 函数 $g_J = \sum_{\iota \in J} f_\iota$ 属于 to $J_+$ and 形式有向集合 for 关系 $\leq$, whose upper envelope is 函数$\sum_{\iota \in I} f_\iota$；因此命题由 Th 得出。 1.
+对于 $I$ 的每个有限子集 $J$，可以从 Th 得出。 2 (由$J$元素数归纳)$\mu^*\left( \sum_{\iota \in J} f_\iota \right) = \sum_{\iota \in J} \mu^*(f_\iota)$；因为$J$运行$I$、函数$g_J = \sum_{\iota \in J} f_\iota$属于到$J_+$的有限子集的集合和关系$\leq$的形式有向集合，其上包络为函数$\sum_{\iota \in I} f_\iota$；因此命题由 Th 得出。 1.
 
 #### 命题 4 {#int-iv-s1-prop-4 .statement tag=08PA}
 
-— *让*$f$*成为函数在*$J_+$中。 *映射* $\mu \mapsto \mu^*(f)$ *of 集合* $\mathscr{M}_+(X)$ *of positive measures on* $X$, *into the extended 实直线* $\overline{\mathbf{R}}$, *is lower semi-continuous for the vague 拓扑 on* $\mathscr{M}_+(X)$ *(Ch. III, §1, No. 9)*。
+— *让*$f$*成为函数在*$J_+$中。 *映射* $\mu \mapsto \mu^*(f)$ *集合* $\mathscr{M}_+(X)$ *右* $X$的积极措施，*进入扩展的实直线* $\overline{\mathbf{R}}$，*对于模糊拓扑对* $\mathscr{M}_+(X)$ *（Ch. III, §1, No. 9)*。
 
-For, this 映射 is by 定义 the upper envelope of 映射 $\mu \mapsto \mu(g)$, where $g$ runs over 集合 of 函数 in $\mathscr{K}_+$ such that $g \leq f$;并且通过模糊拓扑的定义，映射$\mu \mapsto \mu(g)$在$\mathscr{M}(X)$上连续。
+因为，这个映射是映射$\mu \mapsto \mu(g)$的上包络线定义，其中$g$在$\mathscr{K}_+$中超过了函数的集合，使得$g \leq f$；并且通过模糊拓扑的定义，映射$\mu \mapsto \mu(g)$在$\mathscr{M}(X)$上连续。
 
 ### 2. 开放的外部尺寸集合
 
@@ -155,7 +155,7 @@ For, this 映射 is by 定义 the upper envelope of 映射 $\mu \mapsto \mu(g)$,
 
 #### 定义 2 {#int-iv-s1-def-2 .statement tag=08PB}
 
-— *Given a positive measure* $\mu$ *on* $X$, *for every open 集合* $G \subset X$ *upper integral* $\mu^*(\varphi_G)$ *is called the outer measure of* $G$ *and is denoted* $\mu^*(G)$.
+— *给定正测度* $\mu$ *在* $X$，*对于每个开盘集合* $G \subset X$ *上积分* $\mu^*(\varphi_G)$ *称为* $G$ *的外部测度并表示为* $\mu^*(G)$。
 
 因此，开集合$G$的外部度量为数$\geq 0$，有限或等于$+\infty$。显然$\mu^*(\varnothing) = 0$。此外，$\mu^*(X) = \| \mu \|,$如第1章公式(22)所示。 III, §1, No. 8。
 
@@ -184,7 +184,7 @@ $$
 \mu^*\left(\bigcup_{G \in \mathfrak{B}} G\right) = \sup_{G \in \mathfrak{B}} \mu^*(G).
 $$
 
-函数 φ_G 形式有向集合 (for ≤) in $\mathscr{I}_+$ and their upper envelope is the characteristic 函数 of 并 of 集合 G ∈ $\mathfrak{B}$;因此命题是 Th 的推论。 1.
+$\mathscr{I}_+$中的函数 φ_G 形式有向集合（对于≤），其上包络线是集合 G ∈ $\mathfrak{B}$的并的特征函数；因此命题是 Th 的推论。 1.
 
 #### 命题 8 {#int-iv-s1-prop-8 .statement tag=08PF}
 
@@ -204,13 +204,13 @@ $$
 
 #### 例 {#int-iv-s1-n2-exa-1 .statement tag=08PG}
 
-— 令 X = \mathbf{R} 并令 μ 为 \mathbf{R} 上的勒贝格测度（第 III, §1, No. 3 章）；我们将得到确定 *开区间* G = ]a, b[ (−∞ ≤ a < b ≤ +∞) 的外部测度。首先假设 a 和 b 是有限的。对于 $\mathscr{K}_+$ 中的每个函数 f，且 f ≤ φ_G，我们可以通过平均值的定理（FRV，II, §1, No. 5，命题 6），
+— 令 X = \mathbf{R} 并令 μ 为 \mathbf{R} 上的勒贝格测度（第 III, §1, No. 3 章）；我们将得到确定 *open 区间* G = ]a, b[ (−∞ ≤ a < b ≤ +∞) 的外部度量。首先假设 a 和 b 是有限的。对于 $\mathscr{K}_+$ 中的每个函数 f，且 f ≤ φ_G，我们可以通过均值的定理（FRV，II, §1, No. 5，命题 6），
 
 $$
 \int_{-\infty}^{+\infty} f(x)\, dx = \int_a^b f(x)\, dx \leq b - a,
 $$
 
-从而$\mu^*(G) \leq b - a$。另一方面，对于每个$\varepsilon > 0$，都存在函数$f \in \mathscr{K}_+$，使得$f \leq \varphi_G$和$f(x) = 1$对于$a + \varepsilon \leq x \leq b - \varepsilon$，从而$\mu^*(G) \geq b - a - 2\varepsilon$；由于 $\varepsilon$ 是任意的，$\mu^*(G) = b - a$；在其他字中，$G$的外部度量等于其*长度*。对于 $G$ 是无界开区间的情况，此结果为扩展，因为它随后包含有界开区间为任意大长度；因此在这种情况下是$\mu^*(G) = +\infty$。
+从而$\mu^*(G) \leq b - a$。另一方面，对于每个$\varepsilon > 0$，都存在函数$f \in \mathscr{K}_+$，使得$f \leq \varphi_G$和$f(x) = 1$对于$a + \varepsilon \leq x \leq b - \varepsilon$，从而$\mu^*(G) \geq b - a - 2\varepsilon$；由于 $\varepsilon$ 是任意的，$\mu^*(G) = b - a$；在其他字中，$G$的外部度量等于其*长度*。这个结果扩展立即适用于$G$是无界开区间的情况，因为它然后包含有界开区间任意大长度；因此在这种情况下是$\mu^*(G) = +\infty$。
 
 现在令$G$为$\mathbf{R}$中任意开集合； $G$ 是成对不相交的开区间 $]a_k, b_k[$ 的可数集合（有限或无限）的并（GT，IV, §2, No. 5，命题 2），因而
 
@@ -222,7 +222,7 @@ $$
 
 #### 命题 9 {#int-iv-s1-prop-9 .statement tag=08PH}
 
-*对于$\mathbf{R}$上的勒贝格测度，$\mathbf{R}$中开集合的外部测度等于其连通分量的长度的和。*
+*对于$\mathbf{R}$上的勒贝格测度，$\mathbf{R}$中的开集合的外部测度等于其相连的分量的长度的和。*
 
 注特别是，如果$G$ 是$\mathbf{R}$ 中的开集合，使得$\mu^*(G) = 0$，则$G$ 是*空*。
 
@@ -240,13 +240,13 @@ $$
 
 (*有限或等于$+\infty$) *称为$f$的上积分（相对于$\mu$）。*
 
-当$f \in \mathscr{I}_+$时，数$\mu^*(f)$等于Def中定义的上积分。 1、因为 $\mu^*$ 是 $\mathscr{I}_+$ 中的递增。
+当$f \in \mathscr{I}_+$时，数$\mu^*(f)$等于Def中定义的上积分。 1、因为$\mu^*$是$\mathscr{I}_+$中的递增。
 
-我们还将使用记号$\int^* f d\mu$、$\int^* f(x) d\mu(x)$、$\int^* f \mu$和$\int^* f(x) \mu(x)$来代替记号$\mu^*(f)$。
+代替记号$\mu^*(f)$，我们还应使用记号$\int^* f d\mu$、$\int^* f(x) d\mu(x)$、$\int^* f \mu$和$\int^* f(x) \mu(x)$。
 
 #### 例 {#int-iv-s1-n3-exa-1 .statement tag=08PJ}
 
-— 如果 $X$ 是*离散* 空间，$\mu$ $X$ 上的正测度，并且如果集合 $\alpha(x) = \mu(\varphi_{\{x\}})$，则$\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ 对于$X$ 上定义的每个数值函数 $f \geq 0$，因为这样的函数是连续的（No. 1，*例*）。
+— 如果 $X$ 是一个*离散* 空间，$\mu$ $X$ 上的正测量值，并且如果集合 $\alpha(x) = \mu(\varphi_{\{x\}})$，则$\mu^*(f) = \sum_{x \in X} \alpha(x) f(x)$ 对于每个定义在函数 $f \geq 0$ 的数值$X$，因为这样的函数是连续的（No. 1，*例*）。
 
 #### 命题 10 {#int-iv-s1-prop-10 .statement tag=08PK}
 
@@ -254,7 +254,7 @@ $$
 
 #### 命题 11 {#int-iv-s1-prop-11 .statement tag=08PL}
 
-— *对于每个有限实数 $\alpha > 0$ 以及X 上定义的每个数值函数 $f \geqslant 0$，
+— *对于每个有限的实数$\alpha > 0$和X上定义的每个数值函数$f \geqslant 0$，
 
 $$
 \mu^*(\alpha f) = \alpha \mu^*(f).
@@ -280,7 +280,7 @@ $$
 $$
 这正是不等式 (9)。
 
-道具。 10、11和12表示$\mu^*$是在X（第I，No. 1）上定义的数值函数$\geqslant 0$的集合上的*递增正齐次*和*凸*函数。 注，如果$f_1$和$f_2$是任意两个正数函数，则(9)的两个成员不一定相等（§ 4，Exer.8d)）；在§5, No. 6中，我们将给出条件，其中等式成立。
+道具。 10、11和12表示$\mu^*$是在X（第I，No. 1）上定义的数值函数$\geqslant 0$的集合上的*递增正齐次*和*凸*函数。注意，如果$f_1$和$f_2$是任意两个正函数，则(9)的两个成员不一定相等(§ 4，Exer.8d))；在§5, No. 6中，我们将给出条件，其中等式成立。
 
 #### 定理 3 {#int-iv-s1-thm-3 .statement tag=08PN}
 
@@ -290,9 +290,9 @@ $$
 \mu^*\left( \sup_n f_n \right) = \sup_n \mu^*(f_n).
 $$
 
-由于函数 $f_n$ 都小于或等于 $\sup_n f_n$，所以一切都归结为证明 $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$；如果不等式的第二个成员是$+\infty$，这一点是显而易见的。相反的情况下，$\mu^*(f_n) < +\infty$对于所有$n$；我们将证明，对于每个$\varepsilon > 0$，$\mathscr{I}_+$中存在函数的*递增*序列$(g_n)$，使得$f_n \leqslant g_n$和$\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$。如果$g$是序列$(g_n)$的上包络线，那么我们将有$\mu^*(g) = \sup_n \mu^*(g_n)$（No. 1，Th.1），从而$\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$；由于$\sup f_n \leqslant g$和$\varepsilon$是任意的，因此定理将被证明。
+由于函数 $f_n$ 都小于或等于 $\sup_n f_n$，所以一切都归结为证明 $\mu^*(\sup_n f_n) \leqslant \sup_n \mu^*(f_n)$；如果不等式的第二个成员是$+\infty$，这一点就很明显了。相反的情况下，$\mu^*(f_n) < +\infty$对于所有$n$；我们将证明，对于每个$\varepsilon > 0$，$\mathscr{I}_+$中都存在函数的*递增*序列$(g_n)$，使得$f_n \leqslant g_n$和$\mu^*(g_n) \leqslant \mu^*(f_n) + \varepsilon$。如果$g$是序列$(g_n)$的上包络，那么我们将有$\mu^*(g) = \sup_n \mu^*(g_n)$（No. 1，Th.1），从而$\mu^*(g) \leqslant \sup \mu^*(f_n) + \varepsilon$；由于$\sup f_n \leqslant g$和$\varepsilon$是任意的，定理将被证明。
 
-到假设，存在函数$h_n \in \mathscr{J}_+$使得$f_n \leq h_n$和$\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$；让我们证明函数 $g_n = \sup(h_1, h_2, \ldots, h_n)$ 满足要求。它们为属于至$\mathscr{J}_+$、形式递增序列以及满足$f_n \leq g_n$所有$n$；我们将证明
+到假设，存在函数$h_n \in \mathscr{J}_+$使得$f_n \leq h_n$和$\mu^*(f_n) \leq \mu^*(h_n) \leq \mu^*(f_n) + \varepsilon/2^n$；让我们证明函数 $g_n = \sup(h_1, h_2, \ldots, h_n)$ 满足要求。它们为属于至$\mathscr{J}_+$，形式递增序列，以及满足$f_n \leq g_n$所有$n$；我们将证明
 
 $$
 \mu^*(g_n) \leq \mu^*(f_n) + \varepsilon \left( 1 - \frac{1}{2^n} \right).
@@ -317,7 +317,7 @@ $$
 
 Q.E.D.
 
-#### 推论{#int-iv-s1-n3-cor-1 .statement tag=08PO}
+#### 推论 {#int-iv-s1-n3-cor-1 .statement tag=08PO}
 
 — *令$\mathfrak{F}$为数值函数$\geq 0$的集合，指向关系$\leq$，这样存在$\mathfrak{F}$的可数共尾子集$\mathfrak{G}$* (S, III, §1, No. 7);然后
 
@@ -329,9 +329,9 @@ $$
 
 #### 注 {#int-iv-s1-n3-rem-1 .statement tag=08PP}
 
-— 1) 当$\mathfrak{F}$是函数$\geq 0$的*不可数*有向集合并且不是下半连续时，关系(11)不一定成立。取例$X = \mathbf{R}$，$\mu$是$\mathbf{R}$上的勒贝格测度，并考虑特征函数$\varphi_M$的有向（对于$\leq$）集合$\mathfrak{F}$的所有*有限*子集M $\mathbf{R}$。那么对于每一个有限子集 M，$\mu^*(\varphi_M) = 0$，因为点包含在任意小长度的开区间中，并且集合的特征函数减少到点，因此根据Def具有上积分零。 3 和No. 2 的第 9 号提案。但$\mathscr{F}$的上包络线是等于1的常数函数和$\mu^*(1) = +\infty$。
+— 1) 当$\mathfrak{F}$是函数$\geq 0$的*不可数*有向集合并且不是下半连续时，关系(11)不一定成立。以$X = \mathbf{R}$、$\mu$为$\mathbf{R}$的勒贝格测度为例，并考虑所有*有限*子集M的特征函数$\varphi_M$的有向（对于$\leq$）集合$\mathfrak{F}$ $\mathbf{R}$。那么对于每一个有限子集 M，$\mu^*(\varphi_M) = 0$，因为点包含在任意小的长度的开区间中，并且集合的特征函数减少到点，因此根据Def具有上积分零。 3 和No. 2 的第 9 号提案。但$\mathscr{F}$的上包络线是等于1的常数函数和$\mu^*(1) = +\infty$。
 
-2) 注对于函数 $\geqslant 0$ 的 *递减* 序列 $(f_n)$，不一定有 $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$，即使对于所有 $n$ 都有 $\mu^*(f_n) < +\infty$ (cf.) §4，Exer 8 c))。
+2) 请注意，对于函数 $\geqslant 0$ 的 *递减* 序列 $(f_n)$，不一定有 $\mu^*(\inf_n f_n) = \inf_n \mu^*(f_n)$，即使对于所有 $n$ 都有 $\mu^*(f_n) < +\infty$ (cf. §4，Exer.8 c））。
 
 #### 命题 13 {#int-iv-s1-prop-13 .statement tag=08PQ}
 
@@ -341,7 +341,7 @@ $$
 \mu^*\left( \sum_{n=1}^\infty f_n \right) \leqslant \sum_{n=1}^\infty \mu^*(f_n).
 $$
 
-只需应用函数$g_n = \sum_{k=1}^n f_k$的关系(10)到递增序列即可，同时考虑到，通过(9)，
+只需应用函数$g_n = \sum_{k=1}^n f_k$中的关系(10)到递增序列即可，同时考虑到，通过(9)，
 
 $$
 \mu^*(g_n) \leqslant \sum_{k=1}^n \mu^*(f_k).
@@ -369,7 +369,7 @@ $$
 \mu^*\left( \liminf_{n \to \infty} f_n \right) \leqslant \sup_n \left( \inf_{p \geqslant 0} \mu^*(f_{n+p}) \right) = \liminf_{n \to \infty} \mu^*(f_n).
 $$
 
-#### 推论{#int-iv-s1-n3-cor-2 .statement tag=08PS}
+#### 推论 {#int-iv-s1-n3-cor-2 .statement tag=08PS}
 
 *让*$(f_n)$*成为数值函数*$\geqslant 0$*的序列*这样，对于每个*$x \in X$，$\lim_{n \to \infty} f_n(x) = +\infty$。 *如果* $\mu$ *不是零度量，则* $\lim_{n \to \infty} \mu^*(f_n) = +\infty$。
 
@@ -402,7 +402,7 @@ $$
 
 *如果$A$和$B$是$X$中的两个子集，使得$A \subset B$，则$\mu^*(A) \leq \mu^*(B)$。*
 
-#### 推论{#int-iv-s1-n4-cor-1 .statement tag=08PW}
+#### 推论 {#int-iv-s1-n4-cor-1 .statement tag=08PW}
 
 *$X$中的每个相对紧集都有有限的外部测度。*
 
@@ -414,13 +414,13 @@ $$
 
 #### 命题 18 {#int-iv-s1-prop-18 .statement tag=08PY}
 
-— *对于序列* $(A_n)$ *子集 X*，
+— *对于每序列* $(A_n)$ *子集 X*，
 
 $$
 \mu^*\left(\bigcup_n A_n\right) \leq \sum_n \mu^*(A_n).
 $$
 
-这些命题是Props的翻译。 10和13以及Th。 No. 3中的3个用于特征函数中的集合。
+这些命题是Props的翻译。 10和13以及Th。 3 个No. 3 对应特征函数 / 集合。
 
 #### 命题 19 {#int-iv-s1-prop-19 .statement tag=08PZ}
 

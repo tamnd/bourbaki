@@ -28,16 +28,16 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: 965c7f756760f6a904648b5bb37f57f8ce00cc1b15e0164f346d8051b6256a55
+content_sha256: 62f77a24a33e712da4ab19b74e2e83ca7cde3714fc8a297114fc68ba36d973cb
 translated_from: content/en/top/VII/02_s2_continuous_homomorphisms_of_mathbf_r_n.md
 translation_method: google
 source_content_sha256: 3f006ad7fa82d9c7e014ebfbbac1ca9f11dfb28040f438d97d56329bb57b038d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 707fa862900a21ed4bfc8e7db17674ce0444ce64f72f2090baeae445714015e8
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. $\mathbf{R}^n$ 的连续同态及其商群
@@ -68,7 +68,7 @@ $$
 
 这表明 $f \left( \frac{1}{2} x \right)$ 和 $f \left( \frac{1}{2} y \right)$ 通勤；因此$f(x) = (f \left( \frac{1}{2} x \right))^2$和$f(y) = (f \left( \frac{1}{2} y \right))^2$也是如此，这证明了断言。
 
-令$a_1, a_2, \ldots, a_n$为$n$非零向量包含在$A$中并与平行四面体的基向量成比例，并且对于每个指标$i$令$D_i$为通过$o$的线并且$a_i$，即点$ta_i$的集合，因为$t$贯穿$\mathbf{R}$。令$A_i$为所有$t \in \mathbf{R}$中的集合，使得$ta_i \in A$；那么$A_i$是$\mathbf{R}$包含于$[0, 1]$的区间，函数
+令$a_1, a_2, \ldots, a_n$为$n$非零向量包含在$A$中并与平行四面体的基向量成比例，并且对于每个指标$i$令$D_i$为通过$o$的线并且$a_i$，即点$ta_i$的集合，因为$t$贯穿$\mathbf{R}$。令$A_i$为所有$t \in \mathbf{R}$中的集合，使得$ta_i \in A$；那么$A_i$是$\mathbf{R}$包含于$[0, 1]$中的区间，以及函数
 
 $$
 f_i(t) = f(ta_i)
@@ -80,7 +80,7 @@ $$
 f_i(t + t') = f_i(t) f_i(t')
 $$
 
-每当$t, t'$和$t + t'$都是属于到$A_i$。到章V, § 1, no. 4的命题6，存在$\mathbf{R}$到$G$的连续同态$\bar{f}_i$，其中扩展$f_i$。由于$\mathbf{R}^n$是子群$D_i$的直和，我们可以根据规则将$\mathbf{R}^n$的定义同态$\bar{f}$化为阿贝尔的群$G_1$ $\bar{f}(x) = \prod_{i=1}^n \bar{f}_i(t_i)$，其中$x = \sum_{i=1}^n t_i a_i$； $\bar{f}$是$f$的扩张，因为如果$x \in A$，$x$的所有分量$x_i$在$D_i$线上，也从属于到$A$，由于选择 $a_i$；此外，$\bar{f}$在$\mathbf{R}^n$上是连续的，因为它在$D_i$的每条线上都是连续的，并且$x_i$是$x$的线性函数（因此是连续的）。
+每当$t, t'$和$t + t'$都是属于到$A_i$。到章V, § 1, no. 4的命题6，存在$\mathbf{R}$到$G$的连续同态$\bar{f}_i$，其中扩展$f_i$。由于$\mathbf{R}^n$是子群$D_i$的直和，我们可以根据规则将$\mathbf{R}^n$的定义同态$\bar{f}$化为阿贝尔的群$G_1$ $\bar{f}(x) = \prod_{i=1}^n \bar{f}_i(t_i)$，其中$x = \sum_{i=1}^n t_i a_i$； $\bar{f}$是$f$的扩张，因为如果$x \in A$，$x$的所有分量$x_i$在线上$D_i$以及属于到$A$，由于选择 $a_i$；此外，$\bar{f}$在$\mathbf{R}^n$上是连续的，因为它在$D_i$的每条线上都是连续的，并且$x_i$是$x$的线性函数（因此是连续的）。
 
 #### 推论 1 {#top-vii-s2-prop-2-cor-1 .statement tag=0BZ5}
 
@@ -90,7 +90,7 @@ $$
 f(x + y) = f(x) f(y)
 $$
 
-*对于点$x, y$中的每个对，使得$x \in V, y \in V$和$x + y \in V$。 Then there exists a unique continuous homomorphism of $\mathbf{R}^n$ into $G$ which agrees with $f$ at all points of a neighbourhood $W$ of $o$.*
+*对于点$x, y$中的每个对，使得$x \in V, y \in V$和$x + y \in V$。 那么存在$\mathbf{R}^n$到$G$的唯一连续同态，它在$o$邻域$W$的所有点都与$f$一致。*
 
 取$W$为一个开箱，中心$o$包含在$V$中，应用命题2到$W$。
 
@@ -98,15 +98,15 @@ $$
 
 #### 推论 2 {#top-vii-s2-prop-2-cor-2 .statement tag=0BZ6}
 
-*令$f$是$\mathbf{R}^n$的局部同构，具有拓扑群$G$。 Then there exists a unique strict morphism of $\mathbf{R}^n$ onto an open subgroup of $G$ which agrees with $f$ at all the points of some neighbourhood of $o$.*
+*令$f$是$\mathbf{R}^n$的局部同构，具有拓扑群$G$。 那么在$G$的开子群上存在$\mathbf{R}^n$的唯一严格态射，它在$o$的某个邻域的所有点都与$f$一致。*
 
-令$\overline{f}$为$\mathbf{R}^n$到$G$的连续同态，与$f$在$o$的邻域的点一致； $\overline{f}(\mathbf{R}^n)$包含于，通过假设，单位元素的邻域到$G$，因此（章III, § 2, no. 1，命题4的推论）是$G$的开子群；此外，$\overline{f}$是$\mathbf{R}^n$到$\overline{f}(\mathbf{R}^n)$的严格态射，通过章III, § 2, no. 8，命题24。
+令$\overline{f}$为$\mathbf{R}^n$到$G$的连续同态，与$f$在$o$的邻域的点一致； $\overline{f}(\mathbf{R}^n)$包含于，由$G$的假设、邻域到单位元素，因此（章III, § 2, no. 1、推论到命题4）是开子群 $G$;此外，$\overline{f}$是$\mathbf{R}^n$到$\overline{f}(\mathbf{R}^n)$的严格态射，通过章III, § 2, no. 8，命题24。
 
 #### 定理 1 {#top-vii-s2-thm-1 .statement tag=0BZ7}
 
 *每个与 $\mathbf{R}^n$ 局部同构的连通的群 $G$ 也同构于群 $\mathbf{R}^p \times \mathbf{T}^{n-p}$ ($0 \leqslant p \leqslant n$)。*
 
-适当选择$\mathbf{R}^n$的局部同构$f$和$G$扩展到$\mathbf{R}^n$的严格态射到$G$的开放子群（命题2，推论2），因此到$G$ 本身，因为 $G$ 已连接。由此可见，$G$与$\mathbf{R}^n$的商群$\mathbf{R}^n/H$同构：$H$是*离散*，否则将存在任意接近$o$的$H$的点$x \neq o$，并且使得$f(x) = f(o)$，与假设相反，$f$是本地同构。因此，定理是推论 / 定理 1 / § 1, no. 1。
+适当选择$\mathbf{R}^n$的局部同构$f$和$G$扩展到$\mathbf{R}^n$的严格态射到$G$的开放子群（命题2，推论2），因此到 $G$ 本身，因为 $G$ 已连接。由此可见，$G$与$\mathbf{R}^n$的商群$\mathbf{R}^n/H$同构：$H$是*离散*，否则将存在任意接近$o$的$H$点$x \neq o$，并且使得$f(x) = f(o)$，与假设相反，$f$是本地同构。因此，定理是推论中的定理 1 中的 § 1, no. 1。
 
 ### 3. 连续同态的 $\mathbf{R}^m$ 进入 $\mathbf{T}^n$
 
@@ -114,13 +114,13 @@ $$
 
 *$\mathbf{R}^m$到$\mathbf{T}^n$的每个连续同态都是形式$x \to \varphi(u(x))$，其中$\varphi$是$\mathbf{R}^n$到$\mathbf{T}^n$的典范同态（用$\mathbf{R}^n/\mathbf{Z}^n$标识），$u$是将 $\mathbf{R}^m$ 的线性映射转换为 $\mathbf{R}^n$。*
 
-令$f$是$\mathbf{R}^m$到$\mathbf{T}^n$的连续同态。我们将证明，$\mathbf{R}^m$中存在线性映射$u$进入$\mathbf{R}^n$，使得同态$x \to f(x)$和$x \to \varphi(u(x))$重合在点的*邻域*$o$中$\mathbf{R}^m$；然后，命题将从no. 2的推论1到命题2。现在令$V$为$\mathbf{R}^n$中$o$的邻域，使得限制为$V$的$\varphi$是$\mathbf{R}^n$与$\mathbf{T}^n$的局部同构，并令$\psi$为$\varphi$，定义于$\varphi(V)$。由于$f$是连续的，$V' = \overline{f}^{-1}(\varphi(V))$是$\mathbf{R}^m$中$o$的邻域； 映射
+令$f$是$\mathbf{R}^m$到$\mathbf{T}^n$的连续同态。我们将证明，$\mathbf{R}^m$中存在线性映射$u$进入$\mathbf{R}^n$，使得同态$x \to f(x)$和$x \to \varphi(u(x))$重合在点的*邻域*$o$中$\mathbf{R}^m$；然后命题将从no. 2的推论1到命题2。现在令$V$为$\mathbf{R}^n$中$o$的邻域，使得限制为$V$的$\varphi$是$\mathbf{R}^n$与$\mathbf{T}^n$的局部同构，并令$\psi$为$\varphi$，定义于$\varphi(V)$。由于$f$是连续的，$V' = \overline{f}^{-1}(\varphi(V))$是$\mathbf{R}^m$中$o$的邻域； 映射
 
 $$
 x \to \psi(f(x)),
 $$
 
-限制为$V'$，是$V'$到$\mathbf{R}^n$的连续映射，使得$\psi(f(x+y)) = \psi(f(x)) + \psi(f(y))$对于$\mathbf{R}^m$中点$x, y$的每个对，使得$x \in V', y \in V'$和$x + y \in V'$；因此（no. 2，推论1到命题2）这个映射重合具有确定的连续$\mathbf{R}^m$的同态$u$到$\mathbf{R}^n$的点邻域 $\mathbf{R}^m$ 中 o 的$W$。将命题 1 (no. 1) $u$ 等于 $\mathbf{R}^m$ 中的线性映射变为 $\mathbf{R}^n$；因此，对于所有$x \in W$，我们有$f(x) = \varphi(u(x))$，从而完成证明。
+限制为$V'$，是$V'$到$\mathbf{R}^n$的连续映射，使得$\psi(f(x+y)) = \psi(f(x)) + \psi(f(y))$对于$\mathbf{R}^m$中点$x, y$的每个对，使得$x \in V', y \in V'$和$x + y \in V'$；因此 (no. 2, 推论 1 到命题 2) 这个映射重合具有确定的连续同态 $u$ $\mathbf{R}^m$ 到 $\mathbf{R}^n$ 的点 $\mathbf{R}^m$ 中 o 的邻域 $W$。将命题 1 (no. 1) $u$ 等于 $\mathbf{R}^m$ 中的线性映射变为 $\mathbf{R}^n$；因此，对于所有$x \in W$，我们有$f(x) = \varphi(u(x))$，从而完成证明。
 
 #### 注 {#top-vii-s2-n3-rem-1 .statement tag=0BZ9}
 
@@ -152,13 +152,13 @@ $$
 
 #### 命题 5 {#top-vii-s2-prop-5 .statement tag=0BZB}
 
-*拓扑群$\mathbf{T}^n$到其中一个子群的每个同构都是$\mathbf{T}^n$的自同构，这是通过经过与$\mathbf{R}^n$的线性映射$u$对自身的商获得的，仅限于$\mathbf{Z}^n$，是 $\mathbf{Z}^n$ 的自同构。*
+*拓扑群$\mathbf{T}^n$到其子群之一的每个同构都是$\mathbf{T}^n$的自同构，这是通过从$\mathbf{R}^n$的线性映射$u$到其自身的经过到商获得的其中，仅限于$\mathbf{Z}^n$，是$\mathbf{Z}^n$的自同构。*
 
 等价地（§ 1, no. 1），如果$u(e_i) = \sum_{j=1}^n a_{ij} e_j$，则$a_{ij}$必须是整数，使得$\det(a_{ij}) = \pm 1$。特别是对于$n = 1$：
 
 #### 命题 6 {#top-vii-s2-prop-6 .statement tag=0BZC}
 
-*拓扑群 $\mathbf{T}$ 中只有同构到其子群之一上是恒等映射和对称性 $x \to -x$。*
+*拓扑群$\mathbf{T}$中只有同构在其子群之一上是恒等映射和对称性$x \to -x$。*
 
 ### 习题 {#top-vii-s2-exercises}
 

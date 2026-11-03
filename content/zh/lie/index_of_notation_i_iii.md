@@ -13,16 +13,16 @@ pdf_pages: 0453-0455
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a506afd576c9ffc17dc0eb4cfe4274ed54ee48afe3d20716a79f6fd5f6162a2a
+content_sha256: 6e4786da9589f723edc5f67bc0a77a37ffed1e90594505834129f0a2a961b8d3
 translated_from: content/en/lie/index_of_notation_i_iii.md
 translation_method: google
 source_content_sha256: 590c17f29dac04309e53b6eb86931ec2ea41a476013e663bd509258267f9b49b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 713637d52419dc07a66fd10a28d059fd60b1aad85fe75a5c56a0b697084a5734
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 指标 / 记号
@@ -50,7 +50,7 @@ $GL(n, K)$（正式群）：I.1，习题25。
 $o(\Phi)$：I.1，习题26。
 $C^p(g, M), C^*(g, M), i(y), \theta(x), d, Z^p(g, M), B^p(g, M), H^p(g, M), H^*(g, M)$（g李代数，M a g模）：I.3，习题12。
 $sp(2n, K)$：I.6，习题25。
-$K$：II。约定。
+$K$：II。惯例。
 $g, U = Ug, \sigma: g \to Ug$：II.1。
 $\varepsilon, c, u, \pi_u, \eta_u, c_u^+$：II.1.1。
 

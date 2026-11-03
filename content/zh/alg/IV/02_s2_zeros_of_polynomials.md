@@ -26,19 +26,19 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: 9594c6fc59f0f69a59e22a8938791cb41317e9218e45651ffbb02b784fc7c7d5
+content_sha256: 098706cfa1b7259e41de639eb88f26aa0bd4101bbb6a9343e463932eaff68d06
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 translation_method: google
 source_content_sha256: 581af5e1e6500b23403ced41ae2a03e6692f4156d4da25e5f960df6e8a7c1371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0060e0ac2b9c483ea1d381f443facc4c61e8fb63aa73b7eae37b604d14bce85f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。多项式的零
+## § 2。 零多项式
 
 ### 1. 一个不定多项式的根。 重数
 
@@ -82,7 +82,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 (i) *$a$相对于$f + g$的阶为$\geq \inf(p, q)$。如果$p \neq q$*，则等于$\inf(p, q)$。
 (ii) *$a$相对于$fg$的阶为$\geq p + q$。如果 $\mathbf{A}$ 是整环*，则它等于 $p + q$。
 
-因为我们有 $f(X) = (X - \alpha)^p f_1(X)$、$g(X) = (X - \alpha)^q g_1(X)$ 和 $f_1(\alpha) \neq 0$、$g_1(a) \neq 0$。假设例 $p \leq q$；那么我们有
+因为我们有 $f(X) = (X - \alpha)^p f_1(X)$、$g(X) = (X - \alpha)^q g_1(X)$ 和 $f_1(\alpha) \neq 0$、$g_1(a) \neq 0$。例如假设 $p \leq q$；那么我们有
 $$
 f(X) + g(X) = (X - \alpha)^p (f_1(X) + (X - \alpha)^{q-p} g_1(X)) .
 $$
@@ -119,7 +119,7 @@ $$
 
 这紧随第 5 号提案而来。
 
-#### 推论{#alg-iv-s2-n1-cor-1 .statement tag=06AX}
+#### 推论 {#alg-iv-s2-n1-cor-1 .statement tag=06AX}
 
 *假设$A$是整环，并让$f, g \in A[X]$为次数$\leq n$。如果$A$存在$n + 1$成对不同的元素$x_1, \ldots, x_{n+1}$，使得$f(x_i) = g(x_i)$对应于$1 \leq i \leq n + 1$，则$f = g$。*
 
@@ -137,7 +137,7 @@ $$
 
 唯一性关闭来自Cor。至 Th。 1.设$f = \beta_1 f_1 + \ldots + \beta_n f_n$，那么由于$f_i$有次数$n - 1$，所以我们有$\deg f < n$。另一方面，$f_i(\alpha_j) = 0$代表$j \neq i$和$f_i(\alpha_i) = 1$，因此$f(\alpha_i) = \beta_i$代表$1 \leq i \leq n$。
 
-#### 推论{#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
+#### 推论 {#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
 
 — 假设 $\mathbf{A}$ 是整环。令次数$< n$中的$f \in \mathbf{A}[X]$，并令$K$为$\mathbf{A}$中的子环，即域。如果$\mathbf{A}$存在$n$不同的元素$\alpha_1, \ldots, a_n$，使得$\alpha_i \in K$和$f(\alpha_i) \in K$对于$i = 1, \ldots, n$，则$f \in K[X]$。
 
@@ -147,7 +147,7 @@ $$
 
 — 令 $f \in \mathbf{A}[X]$ 且令 $a \in \mathbf{A}$ 为根关：为了使 $a$ 成为简单的根关，$a$ 不应该是 $f$ 的导数 $Df$ 的根是充分必要的。
 
-到假设，我们有$f = (X - a)\ g$，其中$g \in \mathbf{A}[X]$。要使$a$成为$f$的简单根，$g(\alpha) \neq 0$是充分必要的。现在我们有$Df = g + (X - \alpha)\ Dg$，从而$(Df)(\alpha) = g(\alpha)$。
+到假设，我们有$f = (X - a)\ g$，其中$g \in \mathbf{A}[X]$。要使$a$成为$f$的简单根，$g(\alpha) \neq 0$是必要且充分的。现在我们有$Df = g + (X - \alpha)\ Dg$，从而$(Df)(\alpha) = g(\alpha)$。
 
 更一般地说：
 
@@ -159,9 +159,9 @@ $$
 
 令$k$为整数$> 0$，使得$k . 1 = 0$包含在$\mathbf{A}$中。如果$f(X) = X^k$，则$0$是$f$的阶$k$根，以及$Df$的任意高阶的根。
 
-#### 推论{#alg-iv-s2-n2-cor-1 .statement tag=06B2}
+#### 推论 {#alg-iv-s2-n2-cor-1 .statement tag=06B2}
 
-— 设$f \in \mathbf{A}[X]$、$a \in \mathbf{A}$、$p$整数$\geq 0$，进一步假设$p! . 1$在$\mathbf{A}$中可取消。那么，为了使$a$成为阶的根、$f$的$p$，$a$应该是$f, Df, ..., D^{p-1}f$的根而不是$D^pf$的根是充分必要的。
+— 令$f \in \mathbf{A}[X]$、$a \in \mathbf{A}$和$p$整数$\geq 0$，进一步假设$p! . 1$在$\mathbf{A}$中可取消。那么，为了使$a$成为阶的根、$f$的$p$，$a$应该是$f, Df, ..., D^{p-1}f$的根而不是$D^pf$的根是充分必要的。
 
 这是根据归纳在 $p$ 提出的第 8 号提案得出的。
 
@@ -195,9 +195,9 @@ $$
 
 — *假设 A 是无限整环或 A 是无限域上的代数。对于每个 $f \in A[(X_i)_{i \in I}]$，令 $\tilde{f}: A^I \to A$ 为由 f (IV, p. 4) 定义的多项式函数。那么映射 $f \mapsto \tilde{f}$ 是单射的。*
 
-当 A 是无穷大整环时，命题 9 立即推出推论。假设 A 在无穷大域 k 上是代数。令$f = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$为$A[(X_i)_{i \in I}]$的非零元素；则存在 $\nu_0 \in \mathbf{N}^{(I)}$ 使得 $\alpha_{\nu_0} \neq 0$，以及 A 上的 k 线性形式 $\varphi$ 使得 $\varphi(\alpha_{\nu_0}) \neq 0$。让$g = \sum_{\nu \in \mathbf{N}^{(I)}} \varphi(a_\nu) X^\nu \in k[(X_i)_{i \in I}]$；我们有$g \neq 0$，因此存在$x \in k^I$使得$g(x) \neq 0$。然后$\varphi(f(x)) = g(x) \neq 0$，等等$f(x) \neq 0$。
+当 A 是无限的整环时，推论立即由命题 9 得出。假设 A 在无限的域 k 上是代数。令$f = \sum_{\nu \in \mathbf{N}^{(I)}} \alpha_\nu X^\nu$为$A[(X_i)_{i \in I}]$的非零元素；则存在 $\nu_0 \in \mathbf{N}^{(I)}$ 使得 $\alpha_{\nu_0} \neq 0$，以及 A 上的 k 线性形式 $\varphi$ 使得 $\varphi(\alpha_{\nu_0}) \neq 0$。让$g = \sum_{\nu \in \mathbf{N}^{(I)}} \varphi(a_\nu) X^\nu \in k[(X_i)_{i \in I}]$；我们有$g \neq 0$，因此存在$x \in k^I$使得$g(x) \neq 0$。然后$\varphi(f(x)) = g(x) \neq 0$，等等$f(x) \neq 0$。
 
-当A是无限整环或当A是代数超过无限域时，我们通常将认同f与$\tilde{f}$。
+当A是无穷大整环或者当A是代数超过无穷大域时，我们通常将认同f与$\tilde{f}$。
 
 假设 A 是有限的，并且令 $f(X) = \prod_{a \in A} (X - a)$，然后$f \neq 0$，但是$\tilde{f} = 0$。对于其他例，请参阅IV、p. 88、习题 7 和 8。
 
@@ -212,9 +212,9 @@ b) *对于所有* $x \in \mathbf{A}^1$ *这样* $g_1(x) \neq 0, \ldots, g_m(x) \
 
 #### 学院{#alg-iv-s2-n3-sch-1 .statement tag=06B7}
 
-— 令 A 为整环和 $f \in A[(X_i)_{i \in I}]$。 Th。 2 提供了证明到 $f = 0$ 的便捷方式。将无限整环 E 包含 A 视为子环就足够了；如果我们可以证明对于所有$(x_i) \in E^I$（或者甚至对于那些给定非零多项式的有限数不会消失的$(x_i) \in E^I$），$f((x_i)) = 0$，那么可以得出$f = 0$。如果A本身不是无限的，我们可以对例取E为环$A[X]$或其分数的域。
+— 令 A 为整环和 $f \in A[(X_i)_{i \in I}]$。 Th。 2 提供了证明到 $f = 0$ 的便捷方式。将无限整环 E 包含 A 视为子环就足够了；如果我们可以证明对于所有$(x_i) \in E^I$（或者甚至对于那些给定非零多项式的有限数不会消失的$(x_i) \in E^I$），$f((x_i)) = 0$，那么可以得出$f = 0$。如果 A 本身不是无限的，我们可以将 E 视为环 $A[X]$ 或它的分数的域。
 
-一旦我们证明了关系 $f = 0$，我们就可以清楚地推论出对于所有 $(y_i) \in F^I$ $f((y_i)) = 0$，其中 F 是任何单位结合律和交换律 A-代数；特别是 F 可以是有限的或非整数。
+一旦我们证明了关系$f = 0$，我们就可以清楚地推论出对于所有$(y_i) \in F^I$来说$f((y_i)) = 0$，其中F是任何单位结合律和交换律A-代数；特别是 F 可以是有限的或非整数。
 
 在其他$f((x_i)) = 0$的字、证明中，当$x_i$运行于无限整环包含A作为子环时（对于$1 \leq k \leq m$，可能有限制即$g_k((x_i)) \neq 0$，其中$g_k$ 是非零多项式）意味着当 $x_i$ 运行在任何单位结合律和交换律 A-代数上时具有相同的恒等式。
 

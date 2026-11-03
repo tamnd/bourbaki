@@ -40,16 +40,16 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 2a92a232991071800877eac152e82f5f37ae7c14256a2f53f5ad08887cf4e51f
+content_sha256: e582edd2df070cc3f4dddceb2ceb90bc0979796cbd0f09881c7be913a5406bd8
 translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 99f7362e5facc0f5a48166a8143125835c4c5eb7fc7a7fc95d4ea773e2bc3c95
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d0216f92c0a9bb02ab0685c2c691adf4ac802e11bc206c663ffe031b83f3e71b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。拓扑向量空间
@@ -82,15 +82,15 @@ $$
 因此，如果$|\lambda - \lambda_0| \leq \varepsilon$和$|u(t) - u_0(t)| \leq \varepsilon$对于所有$t \in H$，那么对于$t \in H$，
 $|\lambda u(t) - \lambda_0 u_0(t)| \leq \varepsilon (\varepsilon + |\lambda_0| + a)$，表明满足公理（EVT）；类似地可以验证紧收敛拓扑与E的加法群结构兼容。
 
-另一方面，如果 X 不是紧致的，则 *一致收敛* 拓扑（在 X 中）不一定与 E 的向量空间结构兼容；对于例，如果$X = \mathbf{R}$且$u_0$是$\mathbf{R}$中的无界连续函数，则E中$\mathbf{R}$的映射$\lambda \mapsto \lambda u_0$在E上的一致收敛拓扑中不是连续的。
+另一方面，如果 X 不是紧致的，则 *一致收敛* 拓扑（在 X 中）不一定与 E 的向量空间结构兼容；例如，如果$X = \mathbf{R}$且$u_0$是$\mathbf{R}$中的无界连续函数，则E中$\mathbf{R}$的映射$\lambda \mapsto \lambda u_0$在E上的一致收敛拓扑中不是连续的。
 
-5) 令 E 为拓扑划分环 K 上的有限维 $n$ 的向量空间；存在向量 K 空间中的同构 $u : K_s^n \to E$，而且，如果 $v$ 是 E 上$K_s^n$ 的第二个同构，那么我们可以写 $v = u \circ f$，其中 $f$ 是向量的自同构 K-空间$K_s^n$。考虑在 $K_s^n$ 上，*乘积* 拓扑与其向量空间结构 (*例 3*) 相容的；由于$K_s^n$的每个线性映射本身对于这个拓扑来说都是连续的，因此向量空间$K_s^n$的每个自同构都是*双连续*。因此，如果我们将$K_s^n$的乘积拓扑*转移*到E，通过E上的$K_s^n$中的任何同构，在E上获得的拓扑是*独立于所使用的特定同构；我们称其为 E 上的*规范拓扑* ；当 K 是带有估值的非离散完全除法环时，我们将对其进行不同的描述（I, § 1.3）。 K 上的拓扑向量空间中 E 的每个线性映射对于 E 上的规范拓扑都是*连续的。
+5) 令 E 为拓扑划分环 K 上的有限维 $n$ 的向量空间；存在向量 K 空间中的同构 $u : K_s^n \to E$，而且，如果$v$ 是 E 上$K_s^n$ 的第二个同构，那么我们可以写成$v = u \circ f$，其中$f$ 是向量的自同构 K-空间$K_s^n$。考虑在 $K_s^n$ 上，*乘积* 拓扑与其向量空间结构 (*例 3*) 相容的；由于$K_s^n$的每个线性映射本身对于这个拓扑来说都是连续的，因此向量空间$K_s^n$的每个自同构都是*双连续*。因此，如果我们将$K_s^n$的乘积拓扑*转移*到E，通过E上的$K_s^n$中的任何同构，在E上获得的拓扑是*独立于所使用的特定同构；我们称其为 E 上的*规范拓扑* ；当 K 是带有估值的非离散完全除法环时，我们将对其进行不同的描述（I, § 1.3）。 K 上的拓扑向量空间中 E 的每个线性映射对于 E 上的规范拓扑都是*连续的。
 
-与 def 中的方式相同。 1、可以定义K上的*右*拓扑向量空间，拓扑划分环；但 K 上的每个右向量空间都可以被视为与 K (A, II, § 1.1) 相对的除法环 $K^0$ 上的左向量空间，并且 K 的拓扑与除法环 $K^0$ 的结构兼容。因此我们通常只考虑左拓扑向量空间 ；当我们无条件地谈论“拓扑向量空间”时，可以理解我们指的是左向量空间。
+与 def 中的方式相同。 1、可以定义K上的*右*拓扑向量空间，拓扑划分环；但 K 上的每个右向量空间都可以被认为是与 K (A, II, § 1.1) 相对的除法环 $K^0$ 上的左向量空间，并且 K 的拓扑与除法环 $K^0$ 的结构兼容。因此我们通常只考虑左拓扑向量空间 ；当我们无条件地谈论“拓扑向量空间”时，可以理解我们指的是左向量空间。
 
 如果 K' 是 K 的子划分环，并且 E 是 K 上的拓扑向量空间，则显然 E 的拓扑仍然与 E 相对于 K' 的向量空间结构兼容，这是通过将标量的域限制为 K' 获得的；我们说，通过此过程获得的 K' 上的拓扑向量空间 *是 K 上的拓扑向量空间 E 的基础。
 
-在阶中，拓扑向量空间 E 为 *Hausdorff*，对于 E 的所有 $x \neq 0$，存在 0 的邻域而不是包含 $x$ (GT, III, § 1.2) 是充分必要的。
+在阶中，拓扑向量空间 E 为 *Hausdorff*，对于 E 的所有 $x \neq 0$，存在邻域为 0 而不是包含 $x$ (GT, III, § 1.2) 是充分必要的。
 
 考虑拓扑，在向量空间 E 上的拓扑划分环 K，与 E 的加法群结构兼容。由于恒等式
 
@@ -112,9 +112,9 @@ $$
 
 — 对于所有 $\alpha \in K$ 和每个点 $b \in E$，$E$ 的映射 $x \mapsto \alpha x + b$ 本身是连续的。此外，如果$\alpha \neq 0$，则这个映射是$E$自身的同胚。
 
-命题的第二个部分是这样的结果：如果 $\alpha \neq 0$，则 $x \mapsto \alpha^{-1}x - \alpha^{-1}b$ 是 $x \mapsto \alpha x + b$ 的逆映射。
+命题的第二个部分是以下事实的结果：如果 $\alpha \neq 0$，则 $x \mapsto \alpha^{-1}x - \alpha^{-1}b$ 是 $x \mapsto \alpha x + b$ 的逆映射。
 
-#### 推论{#evt-i-s1-n1-cor-1 .statement tag=077Y}
+#### 推论 {#evt-i-s1-n1-cor-1 .statement tag=077Y}
 
 — 如果 $A$ 在 $E$ 中是开（或闭）集合，则对于 $K$ 中的每个 $\alpha \neq 0$，$\alpha A$ 在 $E$ 中是开（或闭）。
 
@@ -134,9 +134,9 @@ $$
 
 ### 3. 拓扑向量空间的向量子空间和商空间；拓扑向量空间的乘积； 子空间的拓扑直和
 
-对于拓扑模（GT，III, § 6.6）所说的一切都特别适用于拓扑向量空间。如果 M 是拓扑向量空间 E 的向量子空间，则 E 的拓扑在 M 上诱导的拓扑与 M 的向量空间结构兼容，并且 E 中 M 的闭包 $\overline{M}$ 是 E 的向量子空间。 M 的 E 的拓扑与 E/M 的向量空间结构兼容。
+对于拓扑模（GT，III, § 6.6）所说的一切都特别适用于拓扑向量空间。如果 M 是拓扑向量空间 E 的向量子空间，则 E 的拓扑在 M 上诱导的拓扑与 M 的向量空间结构兼容，并且 E 中 M 的闭包 $\overline{M}$ 是 E 的向量子空间。 商 M 的 E 的拓扑与 E/M 的向量空间结构兼容。
 
-如果E是拓扑向量空间，则E中$\{0\}$的闭包N（0的邻域的交）是E的闭向量子空间；商向量子空间 E/N，无论 E 是否存在，都必然是 Hausdorff，被称为与 E 相关的 Hausdorff 向量空间。
+如果E是拓扑向量空间，则E中$\{0\}$的闭包N（0的邻域的交）是E的闭向量子空间； 商向量子空间 E/N，无论 E 是否存在，都必然是 Hausdorff，称为与 E 伴随的 Hausdorff 向量空间。
 
 令$(E_i)_{i \in I}$为同一拓扑划分环K上的拓扑向量空间族，并令E为$E_i$的乘积向量空间。 $E_i$拓扑的乘积拓扑与E的向量空间结构兼容。在乘积空间E，子空间F，直和处$E_i$处处稠密（GT， III, § 2.9，第 25 条）。
 
@@ -204,7 +204,7 @@ $$
 
 如果$B$表示$K$中的球$|\xi| \leq 1$，则$H$的平衡包络线为$H_1$，连续映射$m : (\lambda, x) \mapsto \lambda x$下$B \times H$的像。如果 $E$ 是 Hausdorff，如果 $B$ 是紧的，并且如果 $H$ 是紧的，那么 $B \times H$ 也是紧的，因此 $H_1$ 也是紧的。如果 $H$ 是预紧，则 $m$ 到 $B \times H$ 的限制是均匀连续的（I、p. 5、*注* 2），并且由于 $B \times H$ 是预紧，因此它的像也是预紧的$m$（GT，II, § 4.2，道具 2）。
 
-注闭合集合的平衡包络线不一定是闭合的。对于例，在$\mathbf{R}^2$中，由方程$xy = 1$定义的双曲线的平衡包络线不是封闭的。
+请注意，闭合集合的平衡包络线不一定是闭合的。例如，在$\mathbf{R}^2$中，由方程$xy = 1$定义的双曲线的平衡包络线不是封闭的。
 
 $E$中的平衡集合族中的并是平衡的，这意味着对于$E$的每个集合$M$，$M$的最大的平衡子集$N$称为*的平衡核心* $M$；当且仅当$0 \in M$时$N$不为空。说$x \in N$意味着对于所有$\lambda \in K$使得$|\lambda| \leq 1$，我们有$\lambda x \in M$，或者再次（如果$0 \in M$）对于所有带有|μ|的$\mu \in K$ ≥ 1，我们有 x ∈ μM。如果 0 ∈ M，则 M 的平衡核心 N 为交 $\bigcap_{|\mu| \geq 1} \mu M$。这特别表明，如果 M 是封闭的，那么 N 也是封闭的。
 
@@ -265,23 +265,23 @@ $$
 
 #### 命题 6 {#evt-i-s1-prop-6 .statement tag=078E}
 
-*对 $E_i (1 \leq i \leq n)$ 和 $F$ 的假设与道具中相同。 5、在$F$中$\prod_{i=1}^n E_i$的多线性映射集合$\mathscr{E}$在阶中等连续，集合在$(0, 0, ..., 0)$等连续就足够了。
+*对 $E_i (1 \leq i \leq n)$ 和 $F$ 的假设与道具中相同。 5、在$F$中$\prod_{i=1}^n E_i$的多重线性映射集合$\mathscr{E}$等连续阶中集合在$(0, 0, ..., 0)$等连续就足够了。
 
-对于，在道具的演示中。 5 $U_i (1 \leq i \leq n)$ 可以这样取，使得关系 $x_i \in U_i (1 \leq i \leq n)$ 暗示$f(x_1, ..., x_n) \in \bigcap_H W_H$ 对于*每个* 映射 $f \in \mathscr{E}$。
+对于，在道具的演示中。 5 对于*每个* 映射 $f \in \mathscr{E}$，$U_i (1 \leq i \leq n)$ 可以被取为使得关系 $x_i \in U_i (1 \leq i \leq n)$ 暗示$f(x_1, ..., x_n) \in \bigcap_H W_H$。
 
 ### 7. 向量空间的初始拓扑
 
 #### 命题 7 {#evt-i-s1-prop-7 .statement tag=078F}
 
-*设 $(E_v)_{v \in I}$ 是拓扑划分环 $K$ 上的拓扑向量空间族。令$E$为$K$上的向量空间，对于每个$v \in I$，令$f_v$为$E_v$中$E$的线性映射。那么$E$上最粗的拓扑使得每个函数$f_v$连续，拓扑$\mathscr{T}$与$E$的向量空间结构兼容。进一步地，如果对于每个$x \in E$，$\phi(x)$表示乘积空间$F = \prod_{v \in I} E_v$的点$(f_v(x))$，则拓扑$\mathscr{T}$是拓扑的逆像子空间 $\phi(E)$ 共 $F$ 线性映射 $\phi$。*
+*设$(E_v)_{v \in I}$是拓扑划分环$K$上的拓扑向量空间族。令$E$为$K$上的向量空间，对于每个$v \in I$，令$f_v$为$E_v$中$E$的线性映射。那么$E$上最粗的拓扑使得每个函数$f_v$连续，是拓扑$\mathscr{T}$与$E$的向量空间结构兼容。进一步地，如果对于每个$x \in E$，$\phi(x)$表示乘积空间$F = \prod_{v \in I} E_v$的点$(f_v(x))$，则拓扑$\mathscr{T}$是拓扑的逆像子空间 $\phi(E)$ 共 $F$ 线性映射 $\phi$。*
 
-命题的最后一个部分是 GT 的特例，I, § 4.1，道具。 3. 命题接下来是下一个引理。
+命题的最后一个部分是 GT 的特例，I, § 4.1，道具。 3. 命题接续下一个引理。
 
 #### 引理 {#evt-i-s1-n7-lem-1 .statement tag=078G}
 
-— *令$M$和$N$为两个向量空间，以及$N$中$M$的$g$线性映射。如果 $\mathscr{T}_0$ 与拓扑兼容 $N$ 的向量空间结构，则 $\mathscr{T}_0$ 的逆像 $g$ 与 $M$ 的向量空间结构兼容。*
+— *令$M$和$N$为两个向量空间，以及$N$中$M$的$g$线性映射。 如果$\mathscr{T}_0$是与$N$的向量空间结构兼容的拓扑，则$\mathscr{T}_0$通过$g$的逆像与$M$的向量空间结构兼容。*
 
-我们证明，对于例，$(\lambda, x) \mapsto \lambda x$在$K \times M$的每个点$(\lambda_0, x_0)$都是连续的。把$y_0 = g(x_0)$。 $M$ 包含邻域形式 $g(U)$ 中的每个邻域为 0，其中 $U$ 为 $N$ 中的 0 邻域；通过假设，$K$中存在0的邻域$V$和$N$中0的邻域$W$，使得关系$\lambda - \lambda_0 \in V$和$y - y_0 \in W$意味着$\lambda y - \lambda_0 y_0 \in U$。因此关系$\lambda - \lambda_0 \in V$，$x - x_0 \in g(W)$意味着$\lambda x - \lambda_0 x_0 \in g(U)$。我们可以类似地证明$(x, y) \mapsto x - y$在$M \times M$中是连续的。
+例如，我们证明 $(\lambda, x) \mapsto \lambda x$ 在 $K \times M$ 的每个点 $(\lambda_0, x_0)$ 处都是连续的。输入$y_0 = g(x_0)$。 $M$ 包含邻域形式 $g(U)$ 中的每个邻域为 0，其中 $U$ 为 $N$ 中的 0 邻域；通过假设，$K$中存在0的邻域$V$和$N$中0的邻域$W$，使得关系$\lambda - \lambda_0 \in V$和$y - y_0 \in W$隐含$\lambda y - \lambda_0 y_0 \in U$。因此关系$\lambda - \lambda_0 \in V$，$x - x_0 \in g(W)$意味着$\lambda x - \lambda_0 x_0 \in g(U)$。我们可以类似地证明$(x, y) \mapsto x - y$在$M \times M$中是连续的。
 
 对于每个指标$i \in I$，令$\mathscr{B}_i$是$E_i$中0的邻域的基本系统。从拓扑$\mathscr{T}$的定义，通过族$f_i^{-1}(\mathscr{B}_i)$的集合并生成此拓扑的0的邻域过滤器；在其他形式、$\bigcap_k f_{i_k}^{-1}(V_{i_k})$形式的字、集合中，$\mathscr{T}$为0的基本邻域的系统，$(i_k)_{1 \leq k \leq n}$为指标的任何有限序列 I，并且对于每个指标 $k$，$V_{i_k}$ $\mathscr{B}_{i_k}$ 中的任何集合。
 
@@ -295,17 +295,17 @@ $$
 
 *如果空间$E_i$是Hausdorff，那么在阶中$\mathscr{T}$是Hausdorff，对于E中的每个$x \neq 0$，应该存在指标$i \in I$，使得$f_i(x) \neq 0$是充分必要的。
 
-因为$\phi(E)$是Hausdorff空间，并且在阶中$\mathscr{T}$是Hausdorff，显然$\phi$是单射的必要且充分； 注，然后我们可以将认同 E（与$\mathscr{T}$）与$\prod_{i \in I} E_i$的子空间$\phi(E)$乘以映射$\phi$。
+因为$\phi(E)$是Hausdorff空间，并且在阶中$\mathscr{T}$是Hausdorff，显然$\phi$是单射的必要且充分；请注意，我们可以将认同 E（与$\mathscr{T}$）与$\prod_{i \in I} E_i$的子空间$\phi(E)$乘以映射$\phi$。
 
 #### 推论 3 {#evt-i-s1-prop-7-cor-3 .statement tag=078J}
 
 *假设$E_i$已完成，$\phi(E)$于$F = \prod_{i \in I} E_i$关闭。那么 E 在拓扑 $\mathscr{T}$ 中完成。*
 
-对于 F 的子空间 $\phi(E)$ 则完整（GT，II, § 3.4，第 8 条和 § 3.5，第 10 条），因此逆像拓扑中的 E 也是完整的（GT，I, § 7.6，第 10 条和 GT， II, § 3.1，道具 4)。
+对于 F 的子空间 $\phi(E)$ 来说是完整的（GT，II, § 3.4，第 8 条和 § 3.5，第 10 条），因此逆像拓扑中的 E 也是完整的（GT，I, § 7.6，第 10 条和 GT， II, § 3.1，道具 4)。
 
 #### 例 {#evt-i-s1-n7-exa-1 .statement tag=078K}
 
-— 令 $\mathscr{D}'(\mathbf{R})$ 为 $\mathbf{R}$ 上的分布的空间；对于$p$数使得$1 \leq p \leq +\infty$，令$j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$为典范嵌入，它是连续的（当$L^p(\mathbf{R})$携带其范数空间拓扑和$\mathscr{D}'(\mathbf{R})$强拓扑）。对于每个分布$f \in \mathscr{D}'(\mathbf{R})$，用$D(f)$表示$f$的导数；回想一下，$f \mapsto D(f)$是$\mathscr{D}'(\mathbf{R})$的连续自同态。然后令 E 为 $L^p(\mathbf{R})$ 中的向量子空间，其中 $f \in L^p(\mathbf{R})$ 为 $D(f) \in L^p(\mathbf{R})$，并赋予 E 最粗糙的拓扑，使得典范嵌入 $i : E \to L^p(\mathbf{R})$ 和映射 $D : E \to L^p(\mathbf{R})$ 连续（$L^p(\mathbf{R})$ 带有其规范的空间拓扑）。对于这个拓扑，空间 E 是*完整的*。因为，$F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$中的E的像通过映射$\phi : f \mapsto (f, D(f))$是*封闭的*，因为它是$\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$中的$\mathscr{D}'(\mathbf{R})$的像G的$L^p(\mathbf{R}) \times L^p(\mathbf{R})$上的迹，通过映射
+— 令 $\mathscr{D}'(\mathbf{R})$ 为 $\mathbf{R}$ 上的分布的空间；对于$p$数使得$1 \leq p \leq +\infty$，令$j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$为典范嵌入，它是连续的（当$L^p(\mathbf{R})$携带其范数空间拓扑和$\mathscr{D}'(\mathbf{R})$强拓扑）。对于每个分布$f \in \mathscr{D}'(\mathbf{R})$，用$D(f)$表示$f$的导数；回想一下，$f \mapsto D(f)$是$\mathscr{D}'(\mathbf{R})$的连续自同态。然后设 E 为 $L^p(\mathbf{R})$ 中的向量子空间，其中 $f \in L^p(\mathbf{R})$ 为 $D(f) \in L^p(\mathbf{R})$，并赋予 E 最粗糙的拓扑，使得典范嵌入 $i : E \to L^p(\mathbf{R})$ 和映射 $D : E \to L^p(\mathbf{R})$ 连续（$L^p(\mathbf{R})$ 带有其规范的空间拓扑）。对于这个拓扑，空间 E 是*完整的*。因为，$F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$中的E的像通过映射$\phi : f \mapsto (f, D(f))$是*闭合的*，因为它是映射在$\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$中的$\mathscr{D}'(\mathbf{R})$的像G的$L^p(\mathbf{R}) \times L^p(\mathbf{R})$上的踪迹
 
 $$
 \phi_0 : f \mapsto (f, D(f));

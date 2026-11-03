@@ -41,19 +41,19 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: 3815612a6cb88dc4521599068bc558554f90c7bbb68cef2b5eadd9b646884112
+content_sha256: 51003593259f871217b6de753a292922ae1e4771e9e4c0e17634598708ade724
 translated_from: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
 translation_method: google
 source_content_sha256: 95b7ec6ff7cbef1ba7740490a53cad1a14ca28185aac5574eb562cb861e78110
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 3ff95c696d977a76b03d98f0045104dce30c252638a611fec5380245f2163434
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 4。测量和函数的卷积
+## § 4。度量和函数的卷积
 
 ### 1. 测度与函数的卷积
 
@@ -259,9 +259,9 @@ $$
 (i) *$G$上的函数$s \mapsto \rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$是下半连续$> 0$并且对于$G$中的所有$s, t$满足$\rho(st) \leq \rho(s)\rho(t)$。*
 (ii) *设 $\mu \in \mathscr{M}^\rho(G)$ 和 $f \in L^\infty(X, \beta)$。*1 *则 $\mu$ 和 $f$ 是可卷积的，并且 $\mu *^\beta f$ 几乎在任何地方都由 No. 1 的公式 (3) 局部给出。一个有$\mu *^\beta f \in L^\infty(X, \beta)$，还有$\| \mu *^\beta f \|_\infty \leq \| \mu \|_\rho \| f \|_\infty$。*
 
-1对于函数$f$，表达方式“$f \in L^\infty(X, \beta)$”是对记号的滥用，表示根据上下文，符号$f$将被解释为函数或函数的等价类。 In particular, the symbol $\mu *^\beta f$ can stand for either a function defined locally $\beta$-almost everywhere, or the equivalence class of such a function for the relation of equality locally $\beta$-almost everywhere.
+1对于函数$f$，表达方式“$f \in L^\infty(X, \beta)$”是对记号的滥用，表示根据上下文，符号$f$将被解释为函数或函数的等价类。 特别是，符号$\mu *^\beta f$可以代表局部定义的函数$\beta$——几乎无处不在，也可以代表局部等式关系的函数的等价类$\beta$——几乎无处不在。
 
-(iii) *If, moreover, $f \in \mathscr{C}^\infty(X)$ (resp. $\overline{\mathscr{K}(X)}$), then formula (3) of No. 1 defines for every $x$ a convolution product $\mu *^\beta f$ that belongs to $\mathscr{C}^\infty(X)$ (resp. $\mathscr{K}(X)$).
+(iii) *此外，如果$f \in \mathscr{C}^\infty(X)$（或$\overline{\mathscr{K}(X)}$），则No. 1的公式（3）为每个$x$定义属于$\mathscr{C}^\infty(X)$（或$\mathscr{K}(X)$）的卷积积$\mu *^\beta f$。
 
 (iv) *如果$f \in \mathscr{K}(X)$，则(3)定义的卷积乘积$\mu *^\beta f$就是$\overline{\mathscr{K}(X)}$中$G$的连续表示$\gamma_\chi$定义的元素$\gamma_\chi(\mu)f$。
 
@@ -305,7 +305,7 @@ $$
 
 #### 命题 6 {#int-viii-s4-prop-6 .statement tag=09KD}
 
-*假设 $\chi$ 是连续的乘子并且每个函数 $\chi(s, \cdot)$ 有界。让$\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$。令 $p$ 和 $q$ 为两个共轭指数 ($1 \leq p < +\infty$)。设$\mu \in \mathscr{M}^{\rho^{1/q}}(G)$和$f \in L^p(X, \beta)^2$则：
+*假设 $\chi$ 是连续的乘子并且每个函数 $\chi(s, \cdot)$ 有界。让$\rho(s) = \sup_{x \in X} \chi(s^{-1}, x)$。令$p$和$q$为两个共轭指数（$1 \leq p < +\infty$）。设$\mu \in \mathscr{M}^{\rho^{1/q}}(G)$和$f \in L^p(X, \beta)^2$则：
 (i) $\mu$ 和 $f$ 是可卷积的；
 (ii) 卷积乘积$\mu *^\beta f$在局部$\beta$-几乎处处由公式(3)给出，并且局部$\beta$-几乎处处等于函数$g \in L^p(X, \beta)$，使得$\|g\|_p \leq \|\mu\|_{\rho^{1/q}} \|f\|_p$；
 (iii) $g$等于$L^p(X, \beta)$中$G$的连续表示$\gamma_\chi$定义的元素$\gamma_\chi(\mu)f$。
@@ -318,14 +318,14 @@ $$
 $$
 g = \int_G (\gamma_\chi(s)f) d\mu(s) \in L^p(X, \beta).
 $$
-我们有$\|g\|_p \leq (\int \rho^{1/q}(s) d|\mu|(s)) \|f\|_p$。 应用前面的注到$|f|$，可以看出，$G$到$L^p(X, \beta)$的映射$s \mapsto \varepsilon_s * |f|$是$\mu$可积的，因此，对于每个$h \in \mathscr{H}(X)$，映射$s \mapsto \langle h, \varepsilon_s * (|f| \cdot \beta) \rangle$是 $\mu$ 可积的。 §1, No. 5的第7条命题证明了$\mu$和$f \cdot \beta$是可卷积的。而且，
+我们有$\|g\|_p \leq (\int \rho^{1/q}(s) d|\mu|(s)) \|f\|_p$。 应用前面的注到$|f|$，可以看到$G$到$L^p(X, \beta)$的映射$s \mapsto \varepsilon_s * |f|$是$\mu$可积的，因此，对于每个$h \in \mathscr{H}(X)$，映射$s \mapsto \langle h, \varepsilon_s * (|f| \cdot \beta) \rangle$是 $\mu$ 可积的。 §1, No. 5的第7条命题证明了$\mu$和$f \cdot \beta$是可卷积的。而且，
 $$
 \int_X g(x)h(x) d\beta(x) = \int_G d\mu(s) \int_X (\gamma_\chi(s)f)(x)h(x) d\beta(x)
 = \int_G \langle h, \varepsilon_s * (f \cdot \beta) \rangle d\mu(s),
 $$
 根据 §1, No. 5 的命题 7，最后一个积分等于 $\langle h, \mu * (f \cdot \beta) \rangle$。因此，可以看出$g$是$\mu$和$f$的卷积乘积。这个卷积乘积是局部$\beta$ 给出的——几乎所有地方都由 (3)、命题 2 和其后面的 *注* 给出。
 
-2对于函数$f$，表达方式“$f \in L^p(X, \beta)$”是对记号的滥用，表示根据上下文，符号$f$将被解释为$\beta$定义的函数-几乎无处不在，或者解释为此类的等价类函数关系等式 $\beta$ - 几乎无处不在。因此$f \in L^p$可以象征$f \in \mathscr{L}^p$或$\dot{f} \in L^p$。
+2对于函数$f$，表达方式“$f \in L^p(X, \beta)$”是记号的滥用，表示根据上下文，符号$f$将被解释为$\beta$定义的函数-几乎无处不在，或者解释为此类的等价类函数关系等式 $\beta$ - 几乎无处不在。因此$f \in L^p$可以象征$f \in \mathscr{L}^p$或$\dot{f} \in L^p$。
 
 通过滥用记号，它通常是叙述的函数$g$之一，表示为$\mu *^\beta f$，它允许写入
 
@@ -335,7 +335,7 @@ $$
 
 此外，如果 $X$ 在无穷大处可数，那么记号的这种风格是完全合理的。
 
-#### 推论{#int-viii-s4-n2-cor-1 .statement tag=09KE}
+#### 推论 {#int-viii-s4-n2-cor-1 .statement tag=09KE}
 
 *根据第 6 号提案的假设，左模的映射* $(\mu, f) \mapsto \mu *^\beta f$ *定义于* $L^p(X, \beta)$ *结构超过* $\mathscr{M}^{\rho^{1/q}}(G)$ $(1 \leq p \leq +\infty)$。
 
@@ -359,7 +359,7 @@ $$
 (f *^\beta \mu)(x) = \int_G f(xs^{-1})\chi(s^{-1}, x)\, d\mu(s) .
 $$
 
-我们把翻译另一个叙述的任务留给读者。 注如果$\chi$连续并且$\beta$有支持$X$，那么
+我们把翻译另一个叙述的任务留给读者。请注意，如果$\chi$是连续的并且$\beta$有支持$X$，那么
 
 $$
 \chi(ts, x) = \chi(s, xt)\chi(t, x) \quad (x \in X; \ s, t \text{ in } G) .
@@ -367,7 +367,7 @@ $$
 
 ### 3. 卷积和转置
 
-让我们回到No. 1开始时的假设和记号，但让我们假设在加法中，$\beta$*与乘子*$\chi$相对不变；因此，$\chi$ 是$G$ 上的连续函数。
+让我们回到No. 1开始时的假设和记号，但让我们假设在加法中，$\beta$*与乘子*$\chi$相对不变；因此$\chi$是$G$上的连续函数。
 
 #### 命题 7 {#int-viii-s4-prop-7 .statement tag=09KG}
 
@@ -381,7 +381,7 @@ $$
 \nu(\mu *_{\beta} f) = ((\chi \cdot \check{\mu}) * \nu)(f).
 $$
 
-由于$g(s, x)$对于$\mu \otimes \nu$可积，函数$f(sx)$对于$(\chi \cdot \check{\mu}) \otimes \nu$本质上可积，并且$f$对于$(\chi \cdot \check{\mu}) * \nu$本质上可积。根据 Lebesgue–Fubini 定理，$\mu *_{\beta} f = \int g(s, x) d\mu(s)$ 是 $\nu$ 可积且
+由于$g(s, x)$对于$\mu \otimes \nu$可积，函数$f(sx)$对于$(\chi \cdot \check{\mu}) \otimes \nu$本质上可积，$f$对于$(\chi \cdot \check{\mu}) * \nu$本质上可积。根据 Lebesgue–Fubini 定理，$\mu *_{\beta} f = \int g(s, x) d\mu(s)$ 是 $\nu$ 可积且
 
 $$
 \begin{align*}
@@ -394,7 +394,7 @@ $$
 
 — 1) 根据第 3 条命题可以取 $f \in \mathscr{C}(X)$、$\nu \in \mathscr{C}'(X)$ 和 $\mu \in \mathscr{C}'(G)$，Cor. §1, No. 4 的第 5 号提案。 公式(7)则意味着$\mathscr{C}'(X)$的自同态$\nu \mapsto (\chi \cdot \check{\mu}) * \nu$是$\mathscr{C}(X)$的自同态$f \mapsto \mu * f$的*转置*。
 
-2) 根据§3, No. 2、注的第3、第8条命题可取$f \in \mathscr{K}(X)$、$\nu \in \mathscr{M}(X)$、$\mu \in \mathscr{C}'(G)$，连续函数$g(s, x)$的支持度与$\mu \otimes \nu$的支持度相交于紧集。 公式(7)则意味着$\mathscr{M}(X)$的自同态$\nu \mapsto (\chi \cdot \check{\mu}) * \nu$是$\mathscr{K}(X)$的自同态$f \mapsto \mu * f$的*转置*。
+2) 根据§3, No. 2的第3、第8条命题，可取$f \in \mathscr{K}(X)$、$\nu \in \mathscr{M}(X)$、$\mu \in \mathscr{C}'(G)$，以及连续的函数、$g(s, x)$的支持度与$\mu \otimes \nu$的支持度相交于紧集。 公式(7)则意味着$\mathscr{M}(X)$的自同态$\nu \mapsto (\chi \cdot \check{\mu}) * \nu$是$\mathscr{K}(X)$的自同态$f \mapsto \mu * f$的*转置*。
 
 3) 如果$G$在$X$上运行正常，则可以根据§3, No. 2的第4、8条命题取$f \in \mathscr{K}(X)$、$\nu \in \mathscr{C}'(X)$和$\mu \in \mathscr{M}(G)$，以及与*例2*中相同的注。
 
@@ -482,7 +482,7 @@ $$\mathrm{I} = \int f(x)(((\chi \cdot \check{\mu}) *^\beta g)(x))\, d\beta(x).$$
 
 5) 如果G在X上运行正常，则可以取$f \in \mathscr{K}(X)$、$g \in \mathscr{K}(X)$和$\mu \in \mathscr{M}(G)$（与$\psi = 1$）。
 
-6) 可以取$f \in \mathbf{L}^p(X, \beta)$、$g \in \mathbf{L}^q(X, \beta)$和$\mu \in \mathscr{M}^\rho(G)$，其中$1 \leq p < +\infty$、$\frac{1}{p} + \frac{1}{q} = 1$、$\rho = \chi^{-1/q}$。 条件 (i) 和 (ii) 由 Props 满足。 5和6。 让我们证明(iii)。 我们已经看到，$\mu$由集合 S携带，它是紧集的可数并。 让我们将 S 的特征函数视为$\psi$。 函数 $h$ 是 $(\mu \otimes \beta)$ 可测量的：对于函数 $(s, x) \mapsto g(x)\chi(s^{-1})\psi(s)$ 来说，函数 $(s, x) \mapsto f(s^{-1}x)$ 引理 1 也是如此。 Moreover, $g$ being zero outside a countable union of $\beta$-integrable sets, $h$ is zero outside a countable union of $(\mu \otimes \beta)$-integrable sets. 然后我们就有了（Ch. V, §8, No. 3，命题 7)：
+6) 可以取$f \in \mathbf{L}^p(X, \beta)$、$g \in \mathbf{L}^q(X, \beta)$和$\mu \in \mathscr{M}^\rho(G)$，其中$1 \leq p < +\infty$、$\frac{1}{p} + \frac{1}{q} = 1$、$\rho = \chi^{-1/q}$。 条件 (i) 和 (ii) 由 Props 满足。 5和6。 让我们证明(iii)。 我们已经看到，$\mu$由集合 S携带，它是紧集的可数并。 让我们将 S 的特征函数视为$\psi$。 函数 $h$ 是 $(\mu \otimes \beta)$ 可测量的：对于函数 $(s, x) \mapsto g(x)\chi(s^{-1})\psi(s)$ 来说，函数 $(s, x) \mapsto f(s^{-1}x)$ 引理 1 也是如此。 此外，在$\beta$可积集的可数并集之外$g$为零，$h$在$(\mu \otimes \beta)$可积集的可数并集之外为零。 然后我们就有了（Ch. V, §8, No. 3，命题 7)：
 
 $$
 \begin{align*}
@@ -527,7 +527,7 @@ $$
 (f * \mu)(x) = \int_G f(xs^{-1}) \chi'(s^{-1}) d\mu(s).
 $$
 
-2) 令$p$和$q$为两个共轭指数($1 \leq p \leq +\infty$)。如果$\mu \in \mathscr{M}^{\chi^{-1/q}}(G)$和$f \in L^p(G, \beta)$，则$\mu$和$f$是可卷积的，并且$\mu * f$局部等于$\beta$——几乎处处等于$L^p(G, \beta)$中的函数；一个有（已经注意到滥用记号）
+2) 设$p$和$q$为两个共轭指数($1 \leq p \leq +\infty$)。如果$\mu \in \mathscr{M}^{\chi^{-1/q}}(G)$和$f \in L^p(G, \beta)$，则$\mu$和$f$可卷积，并且$\mu * f$局部等于$\beta$——几乎处处等于$L^p(G, \beta)$中的函数；一个有（已经注意到滥用记号）
 
 $$
 \| \mu * f \|_p \leq \| \mu \|_{\chi^{-1/q}} \| f \|_p .
@@ -535,7 +535,7 @@ $$
 
 如果$\mu \in \mathscr{M}^{{\chi'}^{-1/q}}(G)$和$f \in L^p(G, \beta)$，那么$f$和$\mu$是可卷积的，并且$f * \mu$局部等于$\beta$——几乎处处等于$L^p(G, \beta)$中的函数；一个有 $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$。
 
-3) $\mathscr{M}^{\chi^{-1/q}}(G)$以上左模的$L^p(G, \beta)$结构上的映射$(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$定义和$\mathscr{M}^{{\chi'}^{-1/q}}(G)$上的右模。 $L^p(G, \beta)$上的两个外法则可以通过卷积的结合性进行置换。
+3) 左模超过$\mathscr{M}^{\chi^{-1/q}}(G)$的$L^p(G, \beta)$结构上的映射$(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$定义和$\mathscr{M}^{{\chi'}^{-1/q}}(G)$上的右模。 $L^p(G, \beta)$上的两个外法则可以通过卷积结合性进行置换。
 
 4) 如果$\mu * f$是连续的并且在每个点由(10)给出，那么
 
@@ -553,7 +553,7 @@ $$
 
 我们节省 No. 4 中的记号 $G, \beta, \chi, \chi'$。
 
-回想一下，如果$f$是$G$上的复数函数，则$\beta$局部可积的性质独立于$\beta$的选择。令 $\mathscr{L}(G)$ 为函数中的集合，具有该性质。如果$f \in \mathscr{L}(G) , g \in \mathscr{L}(G)$，关系
+回想一下，如果$f$是$G$上的复数函数，则$\beta$局部可积的性质独立于$\beta$的选择。令$\mathscr{L}(G)$为函数中的集合，具有该性质。如果$f \in \mathscr{L}(G) , g \in \mathscr{L}(G)$，关系
 
 « $f \cdot \beta$ 和 $g \cdot \beta$ 是可卷积的 »
 
@@ -622,15 +622,15 @@ $$
 
 #### 命题 13 {#int-viii-s4-prop-13 .statement tag=09KO}
 
-— 如果 $f \chi^{-1} \in L^1(G, \beta)$ 和 $g \in \overline{\mathscr{K}(G)}$，或者 $f \in \mathscr{K}(G)$ 和 $g {\chi'}^{-1} \in L^1(G, \beta)$，则 $f$ 和 $g$ 可卷积，并且 (15) 定义对于每个$x \in G$ 乘积 $f * g$ 属于至 $\mathscr{K}(G)$。
+— 如果 $f \chi^{-1} \in L^1(G, \beta)$ 和 $g \in \overline{\mathscr{K}(G)}$，或者 $f \in \mathscr{K}(G)$ 和 $g {\chi'}^{-1} \in L^1(G, \beta)$，则 $f$ 和 $g$ 可卷积，并且 (15) 定义对于每个 $x \in G$ 乘积 $f * g$ 属于至 $\mathscr{K}(G)$。
 
-这是从No. 2中的第5条命以及No. 4中的注得出的。
+这是从No. 2中的第5条命和No. 4中的注得出的。
 
 #### 命题 14 {#int-viii-s4-prop-14 .statement tag=09KP}
 
-— 如果 $f \chi^{-1} \in L^1(G, \beta)$ 和 $g \in L^\infty(G, \beta)$，则对于每个 $x \in G$ 乘积 $f * g$，公式 (15) 定义有界且对于$G$ 的右均匀结构一致连续。
+— 如果 $f \chi^{-1} \in L^1(G, \beta)$ 和 $g \in L^\infty(G, \beta)$，则对于每个 $x \in G$ 乘积 $f * g$，公式 (15) 定义有界且对于 $G$ 的右均匀结构一致连续。
 
-我们已经知道 $f * g$ 属于到 $L^\infty(G, \beta)$（No. 2，提案 5）；此外，$(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$，设定$\nu = {\chi'}^{-1} \cdot \beta$； $\nu$ 是正确的哈尔测度。因此
+我们已经知道 $f * g$ 属于到 $L^\infty(G, \beta)$（No. 2，提案 5）；此外，$(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$，在设定$\nu = {\chi'}^{-1} \cdot \beta$； $\nu$ 是正确的哈尔测度。因此
 $$
 |(f * g)(x) - (f * g)(x')| \leq \|g\|_\infty \int |f(xs^{-1}) - f(x's^{-1})|\, d\nu(s)
 $$
@@ -646,7 +646,7 @@ $$
 \|f * g\|_\infty \leq \|f\|_p \|g\|_q.
 $$
 
-因为，我们有$\dot{g} \in L^q(G, \beta)$，因此函数$s \mapsto g(s^{-1}x)f(s)$对于每个$x \in G$来说是$\beta$可积。而且，
+因为，我们有$\dot{g} \in L^q(G, \beta)$，因此函数$s \mapsto g(s^{-1}x)f(s)$对于每个$x \in G$来说是$\beta$可积的。而且，
 
 $$
 \int |g(s^{-1}x)f(s)| d\beta(s) \leq \left( \int |f(s)|^p d\beta(s) \right)^{1/p} \left( \int |g(s^{-1}x)|^q d\beta(s) \right)^{1/q}
@@ -661,13 +661,13 @@ $$
 
 对于$\mathscr{K}(G)$中的$f, g$，我们有$f * g \in \mathscr{K}(G)$（命题11）；因此，对于$f \in L^p(G, \beta)$和$g \in L^q(G, \dot{\beta})$，(15)提供的乘积$f * g$是$\mathscr{K}(G)$中函数的统一极限，因此属于到$\overline{\mathscr{K}(G)}$。
 
-#### 推论{#int-viii-s4-n5-cor-1 .statement tag=09KR}
+#### 推论 {#int-viii-s4-n5-cor-1 .statement tag=09KR}
 
 — 让 $f \in L^2(G, \beta)$，$g \in L^2(G, \beta)$。那么$f$和$\dot{g}$是可卷积的。 $f * \dot{g}$ 属于到 $\overline{\mathscr{K}(G)}$ 的卷积之一及其在 $e$ 处的值是 $\int_G f(s)g(s) d\beta(s)$。
 
 只需取第 15 条提案中的$p = q = 2$ 并应用（16）即可。
 
-我们不再假设 $\beta$ 是左不变的。令$\rho$为$G$上的下半连续有限函数$> 0$，使得$\rho(st) \leq \rho(s)\rho(t)$适用于$G$中的所有$s, t$。我们用$G$上的复数函数的等价类的$L^\rho(G, \beta)$集合来表示，它们可积为$\rho \cdot \beta$。通过映射$f \mapsto f \cdot \beta$，$L^\rho(G, \beta)$可以与$\mathscr{M}^\rho(G)$的元素的集合识别，其具有基$\beta$（独立于$\beta$的选择的集合）。如果一个集合
+我们不再假设 $\beta$ 是左不变的。令$\rho$为$G$上的下半连续有限函数$> 0$，使得$\rho(st) \leq \rho(s)\rho(t)$适用于$G$中的所有$s, t$。我们用$G$上的复数函数的等价类的$L^\rho(G, \beta)$集合来表示，它们可积为$\rho \cdot \beta$。通过映射$f \mapsto f \cdot \beta$，$L^\rho(G, \beta)$可以被识别为具有基$\beta$的$\mathscr{M}^\rho(G)$的元素的集合（独立于$\beta$的选择的集合）。如果有一个集合
 
 $$
 \|f\|_\rho = \int_G |f(s)| \rho(s) d\beta(s)
@@ -715,17 +715,17 @@ $$
 
 令 $f : G \to \Gamma$ 为 G 到 $\Gamma$ 的映射，使得 G 中的 $x, y$ 为 $f(xy) = f(x)f(y)$，且可测量 G 上的 Haar 测度 $\beta$。则 $f$ 是连续的。
 
-集合$g(x) = f(x^{-1})$代表$x \in G$。由于$f$和$g$是$\beta$可测的，因此存在G的不可$\beta$可忽略的紧子集 K，使得$f$和$g$到K的限制是连续的。 $K \times K$的映射$(x, y) \mapsto f(xy^{-1}) = f(x)g(y)$到$\Gamma$是连续的，因为$\Gamma$的乘法在$f(K) \times g(K)$是连续的；现在，这个映射可以写成$\varphi \circ \psi$，其中$\psi$是$K \times K$到$K \cdot K^{-1}$的映射$(x, y) \mapsto xy^{-1}$，$\varphi$是$f$到$K \cdot K^{-1}$的限制。令$R$ 为$\psi$ 在$K \times K$ 上定义的等价关系。 $(K \times K)/R$的映射$\psi'$到$K \cdot K^{-1}$由$\psi$通过通向商推导出来是连续的，因此$(K \times K)/R$是Hausdorff，$\psi'$是同胚。由于$\varphi \circ \psi$是连续的，因此可以看出$f$到$K \cdot K^{-1}$的限制是连续的。现在，$K \cdot K^{-1}$是$e$的邻域（命题17），因此$f$在$e$连续。对于每个$x_0 \in G$，$f(x_0x) = f(x_0)f(x)$，因此$f$在$x_0$连续，因为$\Gamma$的拓扑在平移下是不变的。
+集合$g(x) = f(x^{-1})$代表$x \in G$。由于$f$和$g$是$\beta$可测的，因此存在G的不可$\beta$可忽略的紧子集 K，使得$f$和$g$到K的限制是连续的。 $K \times K$的映射$(x, y) \mapsto f(xy^{-1}) = f(x)g(y)$到$\Gamma$是连续的，因为$\Gamma$的乘法在$f(K) \times g(K)$是连续的；现在，这个映射可以写成$\varphi \circ \psi$，其中$\psi$是$K \times K$到$K \cdot K^{-1}$的映射$(x, y) \mapsto xy^{-1}$，$\varphi$是$f$到$K \cdot K^{-1}$的限制。令$R$ 为$\psi$ 在$K \times K$ 上定义的等价关系。 $(K \times K)/R$到$K \cdot K^{-1}$的映射$\psi'$由$\psi$经过商推导出来是连续的，因此$(K \times K)/R$是Hausdorff，$\psi'$是同胚。由于$\varphi \circ \psi$是连续的，因此可以看出$f$到$K \cdot K^{-1}$的限制是连续的。现在，$K \cdot K^{-1}$是$e$的邻域（命题17），因此$f$在$e$连续。对于每个$x_0 \in G$，$f(x_0x) = f(x_0)f(x)$，因此$f$在$x_0$连续，因为$\Gamma$的拓扑在平移下是不变的。
 
 #### 推论 1 {#int-viii-s4-prop-18-cor-1 .statement tag=09KX}
 
-*令$G$为局部紧致群，$\beta$为$G$，$E$的Haar测度，$E$中$G$的Hausdorff桶状局部凸空间，$U$线性表示，这样，当$\mathscr{L}(E;E)$配备了拓扑逐点收敛时，$U(s) \in \mathscr{L}(E;E)$对于所有$s \in G$，$\beta$是可测量的。那么$U$就是连续的线性表示。*
+*令$G$为局部紧凑群，$\beta$为$G$，$E$的Haar测度，$E$中$G$的Hausdorff桶状局部凸空间，$U$线性表示，这样，当$\mathscr{L}(E;E)$配备了拓扑逐点收敛时，$U(s) \in \mathscr{L}(E;E)$对于所有$s \in G$、$\beta$都是可测量的。那么$U$就是连续的线性表示。*
 
 设$\Gamma$为$E$的自同构的群，配备逐点收敛的拓扑。这个拓扑是Hausdorff并且在翻译下是不变的。令 $K$ 为 $\Gamma$ 的紧致子集。那么 $K$ 有界于 $\mathscr{L}(E;E)$，具备逐点收敛的拓扑，因此是等连续的 (TVS, III, §4, No. 2, Th. 1)；因此，$K \times K$到$\mathscr{L}(E;E)$的映射$(u,v) \mapsto v \circ u$是连续的（*loc.cit.*，§5, No. 5，第9号提案的Cor.1）。因此，对于每个$x \in E$，$G$到$E$的映射$s \mapsto U(s)x$是连续的（命题18）。由于 $E$ 是桶状的，$U$ 是连续的（§2, No. 1，命题 1）。
 
 #### 推论 2 {#int-viii-s4-prop-18-cor-2 .statement tag=09KY}
 
-*令$G$为局部紧凑群，$\beta$为$G$的哈尔测度，$E$为可分离的Banach空间，以及$E$中$G$的$U$线性表示，使得$U(s) \in \mathscr{L}(E;E)$ 对于所有$s \in G$。令$(a_m)$为$E$中的总序列，并令$(a'_n)$为$E$的对偶$E'$的单位球$B'$中的密集序列，配备弱拓扑。假设$G$上的函数$s \mapsto \langle U(s)a_m, a'_n \rangle$是$\beta$可测的。那么$U$就是连续的线性表示。*
+*令$G$为局部紧凑群，$\beta$为$G$的哈尔测度，$E$为可分离的Banach空间，以及$E$中$G$的$U$线性表示，使得$U(s) \in \mathscr{L}(E;E)$ 对于所有$s \in G$。令$(a_m)$为$E$中的总序列，令$(a'_n)$为$E$的对偶$E'$的单位球$B'$中的密集序列，配备弱拓扑。假设$G$上的函数$s \mapsto \langle U(s)a_m, a'_n \rangle$是$\beta$可测的。那么$U$就是连续的线性表示。*
 
 让我们首先证明对于每个 $z' \in E'$，标量函数
 
@@ -733,7 +733,7 @@ $$
 s \mapsto \langle U(s)a_m, z' \rangle
 $$
 
-$\beta$-可测量；我们可以将自己限制在$\|z'\| \leq 1$的情况，并且，由于$B'$对于弱拓扑是可度量的（TVS，III, §3, No. 4，第6号命题的Cor.2），因此存在$(a'_n)$的子序列$(a'_{n_k})$弱收敛到$z'$； 函数
+$\beta$-可测量；我们可以将自己限制在$\|z'\| \leq 1$的情况，并且，由于$B'$对于弱拓扑是可度量的（TVS，III, §3, No. 4，第6号命题的Cor.2），因此存在$(a'_n)$的子序列$(a'_{n_k})$弱收敛于$z'$； 函数
 
 $$
 s \mapsto \langle U(s)a_m, z' \rangle
@@ -779,7 +779,7 @@ $$
 
 根据第 15 号提案，函数 $g * f_V$、$f_V * g$ 属于至 $\mathscr{K}(G)$。
 
-#### 推论{#int-viii-s4-n7-cor-1 .statement tag=09L4}
+#### 推论 {#int-viii-s4-n7-cor-1 .statement tag=09L4}
 
 — 令 $W$ 为 $L^1(G, \beta)$ 的闭线性子空间。为了使$W$成为$L^1(G, \beta)$的左（或右）理想，$W$在$G$的左（或右）平移下保持不变是必要且充分的。
 
@@ -801,9 +801,9 @@ $$
 $$
 (\mu * G_n)(x) = A_n^{-1} \int_{-1/2}^{1/2} [1 - (x - y)^2]^n d\mu(y),
 $$
-因此 $\mu * G_n$ 重合在 $[-1/2, 1/2]$ 上用多项式计算。特别是，如果 $f$ 是连续的函数，并且支持包含在 $[-1/2, 1/2]$ 中，则 $f * G_n$ 重合在 $[-1/2, 1/2]$ 中，具有多项式；此外，根据提案 5 (iv) 和 §2, No. 7，Cor. 引理 4 中的 3 个，$f * G_n$ 均匀收敛于 $f$。
+因此 $\mu * G_n$ 重合在 $[-1/2, 1/2]$ 上用多项式计算。特别是，如果 $f$ 是连续的函数，且支持包含在 $[-1/2, 1/2]$ 中，则 $f * G_n$ 重合在 $[-1/2, 1/2]$ 中，具有多项式；此外，根据提案 5 (iv) 和 §2, No. 7，Cor. 引理 4 中的 3 个，$f * G_n$ 一致收敛到 $f$。
 *如果$f$为类$C^r$，则$0 \leq s \leq r$的导数$D^s(f * G_n)$统一趋于$D^s f$。*
 
-### 习题 {#int-viii-s4-exercises}
+### 习题{#int-viii-s4-exercises}
 
 参见[习题为 § 4](exercises/s4/)。

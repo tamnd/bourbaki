@@ -42,31 +42,31 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 3cef84002c7cda9d0c817b070eaa3315f7559a3b03f03a54bef60eddd7306f3c
+content_sha256: 99ac6ac0d1cd85b0b35dce1a0c6555ad99ca9180ee2cec160ac9697c0602fad9
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
 translation_method: google
 source_content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c363be80fb669661935fdb582382ddc61757f0b84b116b5b66a8369ce4eddba5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. 集合化关系
 
 ### 1. 集合论
 
-*集合论*是一个理论，其中包含关系符号$=$、$\in$和实体符号$\supset$（所有这些符号都是权2）；在章I中给出的加法到概形S1到S7中，包含概形S8，将在no. 6中介绍，以及显式公理A1（no. 3。）A2（no. 5）， A3（§ 2, no. 1）、A4（§ 5, no. 1）和A5（章III, § 6, no. 1），这些明确的公理包含没有字母；在其他字中，集合论是一个*没有常数*的理论。
+*集合论*是理论，其中包含关系符号$=$、$\in$和实体符号$\supset$（所有这些符号都是权2）；在章I中给出的加法到概形S1到S7中，包含概形S8，将在no. 6中介绍，以及显式公理A1（no. 3。）A2（no. 5）， A3（§ 2, no. 1）、A4（§ 5, no. 1）和A5（章III, § 6, no. 1），这些显式公理包含没有字母；在其他字中，集合论是理论*没有常数*。
 
-由于集合论是平等的理论，所以章I的结果是适用的。
+由于集合论是平等的理论，所以章I的结果适用。
 
-¶ 从现在开始，除非明确指出相反，我们将始终以比集合论更强的理论（章I, § 2, no. 4）进行论证；如果没有提及理论，则假定隐含集合论。在许多情况下，显然这个假设是多余的，读者应该不难确定在哪个弱于集合论的理论中所陈述的结果是有效的。
+¶ 从现在开始，除非明确说明相反，我们将始终争论理论比集合论更强（章I, § 2, no. 4）；如果未提及理论，则假定隐含集合论。很明显，在许多情况下，这个假设是多余的，读者应该不难确定哪些理论弱于集合论，所陈述的结果是有效的。
 
-如果$T$和$U$是项，则集合$\in TU$是关系（称为成员的*关系*），实际上我们用以下方式之一编写：$T \in U$，$(T) \in (U)$，“$T$属于到 $U$”，“$T$ 是 $U$ 的元素”。 关系“不是$(T \in U)$”写为$T \notin U$。
+如果$T$和$U$是项，则集合$\in TU$是关系（称为成员资格的*关系），实际上我们用以下方式之一编写：$T \in U$，$(T) \in (U)$，“$T$属于到$U$”，“$T$是$U$的元素”。 关系“不是$(T \in U)$”写为$T \notin U$。
 
-从“朴素”点的角度来看，许多数学实体可以被视为对象的集合或“集合”。我们并不寻求形式化这个概念，并且在接下来的形式主义解释中，字“集合”被视为严格与“项”同义。特别是，诸如“let X be 集合”之类的短语在原理中是相当多余的，因为每个字母都是项。引入这些短语只是为了帮助直观地解释文本。
+从“朴素”点的角度来看，许多数学实体可以被视为对象的集合或“集合”。我们并不寻求形式化这个概念，并且在接下来的形式主义解释中，字“集合”将被视为严格与“项”同义。特别是，诸如“let X be 集合”之类的短语在原理中是相当多余的，因为每个字母都是项。引入这些短语只是为了帮助直观地解释文本。
 
 ### 2. 包容性
 
@@ -74,7 +74,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 *关系表示为* $(\forall z)((z \in x) \Rightarrow (z \in y))$，*其中仅出现字母$x$和$y$，以下列方式之一书写：* $x \subset y$、$y \supset x$、*“$x$包含在$y$”、“$y$” 包含于 $x$”，“$x$ 是 $y$ 的子集”。 关系*“不是$(x \subset y)$”*写为*$x \not\subset y$*或*$y \not\supset x$。
 
-根据章I, § 1, no. 1中提到的约定，这个定义需要以下元数学约定。设$T$和$U$为组合；如果我们在集合$x \subset y$中用$T$代替$x$，用$U$代替$y$，我们得到一个用$T \subset U$表示的集合；如果我们用$\mathbf{x}$、$\mathbf{y}$字母表示，它们与$x$、$y$不同，并且彼此不同，并且既不在$T$中也不在$U$中出现，则汇编$T \subset U$与$(T|\mathbf{x})(U|\mathbf{y})(\mathbf{x}|x)(\mathbf{y}|y)(x \subset y)$相同，因此由CS8、CS9组成(章 I, § 4, no. 1)，以及 CS5 (章 I, § 1, no. 2) 与 $(\forall z)((z \in T) \Rightarrow (z \in U))$，前提是 $z$ 是既不在 $T$ 也不在 $U$ 中出现的字母。
+根据章I, § 1, no. 1中提到的约定，这个定义需要以下元数学约定。令$T$和$U$为组合；如果我们在集合$x \subset y$中用$T$代替$x$，用$U$代替$y$，我们得到一个用$T \subset U$表示的集合；如果我们用$\mathbf{x}$、$\mathbf{y}$字母表示，它们与$x$、$y$不同，并且彼此不同，并且既不在$T$中也不在$U$中出现，则汇编$T \subset U$与$(T|\mathbf{x})(U|\mathbf{y})(\mathbf{x}|x)(\mathbf{y}|y)(x \subset y)$相同，因此由CS8、CS9组成(章 I, § 4, no. 1)，以及 CS5 (章 I, § 1, no. 2) 与 $(\forall z)((z \in T) \Rightarrow (z \in U))$，前提是 $z$ 是既不在 $T$ 也不在 $U$ 中出现的字母。
 
 从现在开始，每当我们陈述一个数学定义时，我们都不会提及它所蕴含的元数学约定。
 
@@ -82,7 +82,7 @@ CS12。 *令$T$、$U$、$V$为组合，并令$x$为字母。那么组装$(V|x)(T
 
 这紧随 CS9 (章 I, § 4, no. 1) 和 CS5 (章 I, § 1, no. 2)。
 
-CF13。 *如果$T$和$U$是项，$T \subset U$就是关系。*
+CF13。 *如果$T$和$U$为项，则$T \subset U$为关系。*
 
 这紧随 CF8 (章 I, § 1, no. 4)。
 
@@ -90,7 +90,7 @@ CF13。 *如果$T$和$U$是项，$T \subset U$就是关系。*
 
 从现在开始，我们不再明确地写出代换判据以及定义之后的构成判据。然而，应该注意的是，这些判据经常会在证明中隐式使用。
 
-为了证明$\mathscr{T}$理论中的关系$x \subset y$，通过C27（章I, § 4, no. 1），证明通过将$\mathscr{T}$的$z \in x$与公理邻接而获得的理论中的$z \in y$就足够了，其中$z$是与 $x$、$y$ 和理论常数不同的字母。在实践中，我们说“让$z$是$x$的元素”，并且我们尝试证明$z \in y$。
+为了证明理论 $\mathscr{T}$ 中的关系 $x \subset y$，通过 C27 (章 I, § 4, no. 1)，证明通过将 $z \in x$ 与公理邻接而获得的理论中的 $z \in y$ 就足够了$\mathscr{T}$，其中$z$是与$x$、$y$和理论常数不同的字母。在实践中，我们说“让$z$是$x$的元素”，并且我们尝试证明$z \in y$。
 
 #### 命题 1 {#ens-ii-s1-prop-1 .statement tag=03P9}
 
@@ -116,7 +116,7 @@ A1。 $\qquad (\forall x)(\forall y)((x \subset y \text{ and } y \subset x) \Rig
 
 直观上，这个公理表达了这样的事实：两个具有相同元素的集合是相等的。
 
-因此，为了证明$x = y$，只需在通过邻接假设$z \in x$获得的理论中证明$z \in y$，以及在通过邻接假设$z \in y$获得的理论中证明$z \in x$就足够了，其中$z$是与$x$、$y$不同的字母，并且常数。
+因此，为了证明$x = y$，只需证明通过邻接假设$z \in x$获得的理论中的$z \in y$，以及通过邻接假设$z \in y$获得的理论中的$z \in x$即可，其中$z$是与$x$、$y$ 和常数。
 
 C48。 *设$\mathbf{R}$为关系，$x$为字母，$y$为与$x$不同的字母，$\mathbf{R}$中未出现。那么关系 $(\forall x)((x \in y) \Leftrightarrow \mathbf{R})$ 在 $y$ 中是单值。*
 
@@ -132,7 +132,7 @@ $$y \subset z, \qquad z \subset y.$$
 
 到A1我们就有$y = z$。这就证明了C48。
 
-### 4. COLLECTIVIZING RELATIONS
+### 4. 集合化关系
 
 令$\mathbf{R}$为关系，令$x$为字母。如果 $y$ 和 $y'$ 表示不同于 $x$ *且未出现在 $\mathbf{R}$* 中的字母，则关系
 
@@ -140,7 +140,7 @@ $$(\exists y)(\forall x)((x \in y) \Leftrightarrow \mathbf{R}), \ (\exists y')(\
 
 与 CS8 相同 (章 I, §4, no. 1)。由此定义的关系（不包括包含$x$）由$\operatorname{Coll}_xR$表示。
 
-¶ 如果在理论$\mathscr{T}$中$\operatorname{Coll}_xR$是定理，则$R$在$x$*中被称为*集合化在$\mathscr{T}$中。在这种情况下，我们可以引入一个辅助常数$a$，与$x$和$\mathscr{T}$的常数不同，并且它不会出现在$R$中，并带有介绍性公理$(\forall x)((x \in a) \Longleftrightarrow R)$，或者等效地（如果$x$不是$\mathscr{T}$的常数）$(x \in a) \Longleftrightarrow R$。
+¶ 如果 $\operatorname{Coll}_xR$ 是理论 $\mathscr{T}$ 中的定理，则 $R$ 被称为 $\mathscr{T}$ 中 $x$* 中的 *集合化。在这种情况下，我们可以引入一个辅助常数$a$，与$x$和$\mathscr{T}$的常数不同，并且它不会出现在$R$中，并带有介绍性公理$(\forall x)((x \in a) \Longleftrightarrow R)$，或者等效地（如果$x$不是$\mathscr{T}$的常数）$(x \in a) \Longleftrightarrow R$。
 
 直观地说，说$x$中$R$是集合化，就是说存在集合$a$，使得拥有性质$R$的对象$x$恰好是元素 $a$。
 
@@ -152,7 +152,7 @@ $$(\exists y)(\forall x)((x \in y) \Leftrightarrow \mathbf{R}), \ (\exists y')(\
 
 #### 例 2 {#ens-ii-s1-n4-exa-2 .statement tag=03S0}
 
-关系 $x \neq x$ *不是 $x$* 中的集合化；在其他字，（不是$\operatorname{Coll}_x(x \neq x)$）是定理。让我们用反证法来论证，假设$x \neq x$是集合化。令 $a$ 为辅助常数，与 $x$ 和理论常数不同，具有介绍性公理
+关系 $x \neq x$ *不是 $x$* 中的集合化；在其他字，（不是$\operatorname{Coll}_x(x \neq x)$）是定理。让我们用反证法来论证，假设$x \neq x$是集合化。令 $a$ 为辅助常数，与 $x$ 和理论的常数不同，具有介绍性公理
 
 $$
 (\forall x)((x \neq x) \Longleftrightarrow (x \in a)).
@@ -166,17 +166,17 @@ $$
 
 由 C30 成立 (章 I, §4, no. 3)。格析取的方法（章I, §3, no. 3）首先证明关系$a \neq a$为真，然后关系$a \in a$为真，这是荒谬的。
 
-**C49.** *令 $R$ 为关系，$x$ 为字母。如果$R$在$x$中是集合化，关系$(\forall x)((x \in y) \Longleftrightarrow R)$，其中$y$是与$x$不同的字母，它不会出现在$R$中，但在$y$中起作用。*
+**C49.** *令 $R$ 为关系，$x$ 为字母。如果$R$在$x$中是集合化，则关系$(\forall x)((x \in y) \Longleftrightarrow R)$，其中$y$是与$x$不同的字母，它不会出现在$R$中，但在$y$中起作用。*
 
 这紧接着 C48。
 
-在下文中，我们经常可以使用定理或形式 $\operatorname{Coll}_xR$。代表项
+通常，在接下来的内容中，我们将可以使用定理或形式 $\operatorname{Coll}_xR$。代表项
 
 $$
 \tau_y(\forall x)((x \in y) \Longleftrightarrow R),
 $$
 
-它不依赖于字母$y$的选择（与$x$不同，并且不出现在$R$中），我们将引入一个功能符号$\mathscr{E}_x(R)$； 相应的项不包含 $x$。这个项由“所有$x$的集合使得$R$”表示。 定义 (章 I, §4, no. 1) 关系
+它不依赖于字母$y$的选择（与$x$不同，并且未出现在$R$中），我们将引入一个功能符号$\mathscr{E}_x(R)$； 相应的项不包含 $x$。这个项由“所有$x$的集合使得$R$”表示。 定义 (章 I, §4, no. 1) 关系
 
 $$
 (\forall x)((x \in \mathscr{E}_x(R)) \Longleftrightarrow R)
@@ -190,11 +190,11 @@ C50。 *令$R$、$S$为两个关系，令$x$为一个字母。如果$R$和$S$是
 
 $$\mathscr{E}_x(R) \subset \mathscr{E}_x(S),$$
 
-*and 关系 $(\forall x)(R \Leftrightarrow S)$ is equivalent to $\mathscr{E}_x(R) = \mathscr{E}_x(S)$.*
+*并且关系$(\forall x)(R \Leftrightarrow S)$相当于$\mathscr{E}_x(R) = \mathscr{E}_x(S)$。*
 
 这紧接着前面的注以及定义 1 和公理 A1。
 
-### 5. THE AXIOM OF THE 集合 OF TWO 元素
+### 5. 两个元素的集合公理
 
 A2。 $\qquad\qquad (\forall x)(\forall y)\ \mathrm{Coll}_z(z = x \text{ or } z = y).$
 

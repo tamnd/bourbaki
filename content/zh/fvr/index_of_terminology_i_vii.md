@@ -13,98 +13,98 @@ pdf_pages: 0350-0353
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 873df5450734d27ae9d9ee4cff4db3dcb53ad7a46e0a73d6ce46d7270ee5f493
+content_sha256: 96e18c536c4d2f1105e8022c164d1154547ac84c3cacbec2cc2c6730d59fd378
 translated_from: content/en/fvr/index_of_terminology_i_vii.md
 translation_method: google
 source_content_sha256: aef2d337fc45300cc0c1b5f20dae21e5cbb742e41b48760371fc14e99ba04b61
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 67274c4fab3206e89fbe3e33438ce4e808609ed73657f1eaf37ec94229d00dfd
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 指标
 
-将多项式、原语、原语指数的根邻接至微分域，121
+多项式、原语、原语指数的根与微分域的邻接，121
 微分线性方程的伴随（方程），186
 阿佩尔多项式，272
 将微分方程的解近似到 $\varepsilon$ 范围内，166
 渐近展开
-– 比另一个, 222 更精确
+– 比另一个、222更精确
 – 函数相对于比较量表，222
 – 函数到精度 $g_\alpha$, 222
 – 精度, 222
 渐近展开, 220
-– 具有可变系数，226
+– 变量系数, 226
 
 伯努利数, 276
 伯努利多项式，275
 二项式公式, 108
 二项式级数, 109
 
-Carleman’s inequality, 117
-Carlson inequality, 116
-Cauchy’s criterion for integrals, 65
-Change of variables formula, 60
-Character
-– local, 211
-Coefficients
-– binomial, 21
-Comparison scales, 220
-Complements’ relation, 316
-Composition operator, 270
-– indicatrix, 278
-– order of, 272
-– regular, 279
-Cosecant, 95
-Cosine
-– hyperbolic, 102
-Cosine of a complex number, 102
-Cotangent, 95
-Criteria
-– convergence
-– – of the second kind, 244
-– integrals
-– – logarithmic, 229
-Criterion
-– Cauchy’s criterion or integrals, 65
-– Cauchy-Maclaurin, 237
-– Ermakoff’s, 86
+卡尔曼的不等式，117
+卡尔森不等式, 116
+柯西积分准则，65
+变换变量公式, 60
+特征标
+– 局部地，211
+系数
+– 二项式，21
+比较量表，220
+补充’关系, 316
+合成操作员，270
+– 指示器，278
+– 阶, 272
+– 常规，279
+余割，95
+余弦
+– 双曲线，102
+复数的余弦，102
+余切，95
+判据
+– 收敛
+– – 第二类，244
+– 整的
+– – 对数，229
+标准
+– 柯西准则或积分，65
+– 柯西-麦克劳林，237
+– 埃尔马科夫，86 岁
 
-d’Alembert
-– criterion for convergence, 245
-Definition sequence for an (H) function, 252
-Derivative
-– first, 3
-– infinite, 10
-– logarithmic, 94
+达朗贝尔
+– 收敛标准，245
+定义序列对于 (H) 函数, 252
+衍生品
+– 第一，3
+– 无限，10
+– 对数，94
 – $n^{th}$, 20
-– second, 20
-– symmetric, 39
-Derivative of a function, 3
-– left, 4
-– right, 4
-Determinant of $n$ integrals of a system of $n$ linear differential equations, 184
-Differential equation
-– adjoint, 187
-– integral, 163
-– linear, 177
-– linear homogeneous, 178
-– linear of order $n$, 192
-– Lipschitz, 171
-– locally Lipschitz, 171
-– of first order, 164
-– of order $n$, 164
-– real variable, 163
-– scalar, 164
-– solution, 163
+– 第二，20
+– 对称，39
+函数, 3 的导数
+– 左，4
+– 右，4
+行列式 $n$ 系统 $n$ 线性微分方程的积分，184
+微分方程
+– 伴随，187
+– 整的，163
+– 线性，177
+– 线性齐次，178
+– 阶 $n$ 的线性，192
+– 利普希茨，171
+– 局部地 Lipschitz，171
+– 第阶, 164
+– 阶 $n$, 164
+– 实数变量，163
+– 标量，164
+– 解, 163
 
 – 严格解, 164
 微分方程
-– 系统, 164
-杜布瓦-雷蒙德定理，265
+– 系统，共 164
+杜布瓦-雷蒙德定理, 265
 
 欧拉积分，310
 欧拉常数，242
@@ -120,7 +120,7 @@ cot $z$ 的欧拉展开，286
 指数
 – 迭代，253
 扩张
-– 微分域的初等，121
+– 微分初等域, 121
 – Hardy 域，248
 
 域
@@ -130,7 +130,7 @@ cot $z$ 的欧拉展开，286
 – 欧拉-麦克劳林求和，282
 – 高斯，307
 – 部分积分，60
-– 阶 $n$ 部分的积分，60
+– 部分与阶 $n$ 的积分，60
 – 勒让德-高斯乘法，318
 – 莱布尼茨’，20
 – 斯特林，243
@@ -140,9 +140,9 @@ cot $z$ 的欧拉展开，286
 公式
 – 欧拉，99
 函数
-– $n$ 次可微分
+– $n$ 倍可微分
 – 点, 20
-– 间隔 20
+– 区间, 20
 – (H), 252
 – 凹面，26
 – 凸面，26
@@ -150,13 +150,13 @@ cot $z$ 的欧拉展开，286
 – 可微分
 – 点, 3
 – 无限期，20
-– 间隔为 4
+– 区间, 4
 – 函数被另一个统治，212
 – 小学，122
 – 递增向右，37
 – 左可微分
 – 点, 4
-– 间隔为 4
+– 区间, 4
 – 利普希茨，168, 171
 – 局部地 Lipschitz，171
 – 对数有界，214
@@ -171,7 +171,7 @@ cot $z$ 的欧拉展开，286
 – 分段, 63
 – 右可微分
 – 点, 4
-– 间隔为 4
+– 区间, 4
 – 步骤，53
 – 严格凹面，26
 – 严格凸，25
@@ -192,13 +192,13 @@ cot $z$ 的欧拉展开，286
 附加到合成运算符的 Appell 多项式的生成的级数，275
 
 阿达玛的不等式，118
-哈迪域，247
+哈代域, 247
 哈代不等式, 117
 哈迪-利特尔伍德不等式, 89
 哈迪-利特尔伍德陶伯里安定理, 45
 Hermite 多项式，282
 Hlawka 的不等式, 90
-双曲函数, 102
+双曲线函数, 102
 霍尔德的不等式，115
 
 身份
@@ -225,12 +225,12 @@ Hlawka 的不等式, 90
 – 高斯，314
 – 通常收敛, 71, 73
 – 分段调节的函数, 63
-– 在非紧区间内调节函数，63
+– 受监管的函数与非紧凑的区间，63
 – 微分方程，163
 – 拉贝，318
 – 一致收敛，71
 部分公式积分，60
-通过部分公式对阶 $n$ 进行积分，60
+阶 $n$ 部分公式积分，60
 迭代指数，253
 迭代对数，229
 
@@ -242,16 +242,16 @@ Kummer 的同余，295
 – 局部低于图表，31
 – 局部在图表上，31
 刘维尔的定理，122
-利普希茨条件，168
+利普希茨条件, 168
 Lipschitz 微分方程，171
-利普希茨函数，171
-当地特征标, 211
+利普希茨函数, 171
+本地特征标, 211
 对数
 – 迭代，229
 – 纳佩里安，92
 – 自然，92
 – 复数, 100
-– 本金值, 100
+– 本金值，100
 对数导数，94
 对数有界函数, 214
 对数凸函数, 310
@@ -264,7 +264,7 @@ Lipschitz 微分方程，171
 – 加权，93
 – 几何，93
 – 加权，93
-函数的平均值值, 58
+值 / 函数的平均值，58
 平均值定理, 14
 方法参数变化，182
 最低
@@ -279,7 +279,7 @@ Lipschitz 微分方程，171
 – 合成, 270
 – 翻译，270
 蛋白石不等式, 90
-阶一个函数相对于另一个，218
+函数的阶相对于另一个，218
 皮亚诺的定理，167
 分段调节函数, 63
 多边形
@@ -294,14 +294,14 @@ Lipschitz 微分方程，171
 – 不规则，295
 – 常规，295
 本原的
-– 函数，区间$\mathbf{R}$，51
+– 函数区间 $\mathbf{R}$, 51
 – 阶 $n$, 62
 – 第二，62
 – 严格，51
 校长部分
 – 函数相对于比较量表，221
-– 函数相对于比较尺度和系数域，227
-积分比较原理，66
+– 函数相对于比较尺度和系数的域，227
+积分比较原理, 66
 
 拉贝积分，318
 拉贝检验，244
@@ -317,12 +317,12 @@ Lipschitz 微分方程，171
 线性微分方程的求解，180
 罗尔的定理, 12
 根
-– 具有常系数的线性微分方程的特征，190
+– 具有常数系数, 190 的线性微分方程的特征
 
 比较尺度，220
 割线, 95
 第二个平均值值定理, 82
-类似函数, 214
+类似函数、214
 正弦
 – 双曲线，102
 复数的正弦，102
@@ -353,7 +353,7 @@ Lipschitz 微分方程，171
 – 达朗贝尔，245
 – 拉贝，244
 定理
-– 柯西的存在性定理, 171
+– 柯西的存在定理, 171
 – 克劳森·冯·施陶特，294
 – 哈迪-利特尔伍德陶伯里安，45 岁
 – 刘维尔，122
@@ -372,6 +372,6 @@ Lipschitz 微分方程，171
 – 方法，共 182
 
 沃利斯的公式，123
-维尔斯特拉斯’公式, 308
+维尔斯特拉斯’公式，308
 韦尔不等式, 90
-阶 $n$ 线性微分方程的$n$积分的朗斯基积分，193
+阶 $n$ 线性微分方程的 $n$ 积分的朗斯基积分，193

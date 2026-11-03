@@ -42,16 +42,16 @@ subsections:
       pdf_page: 339
 statements: 33
 exercises: 41
-content_sha256: 41ca53ec65e1167a32123999f92b46ce0353e8c1fdf523f532aa698b8c2a882a
+content_sha256: 7618e2f68f7eb79a33c8bb2c4cca43bcba07317978a4d9f7fb3fdf55aaf9d7fe
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 translation_method: google
 source_content_sha256: 10e2ee3ef0d0866e43d0f80ca2949c9e257a5a5b6c77401f65001eb032b1d94c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e16f9d17258dfdae3b4a8d9a463eb7bb8df9632795c9669310b7a32019f0dcce
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。 有序域
@@ -77,9 +77,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 有序环的子环通过诱导排序，是有序环。
 
 在有序的环中，关系 $x \geqslant y$ 和 $z \geqslant 0$ 意味着 $xz \geqslant yz$。事实上，这些不等式分别相当于 $x - y \geqslant 0$、$z \geqslant 0$ 和 $(x - y)z \geqslant 0$。
-类似地，我们可以证明关系$x \leqslant 0$和$y \geqslant 0$（分别为$y \leqslant 0$）意味着$xy \leqslant 0$（分别为$xy \geqslant 0$）。这些结果通常以符号规则的名义调用（如果两个元素都是 $\geqslant 0$ 或都是 $\leqslant 0$，则称它们具有相同的符号）。它们意味着，如果 $\mathbf{A}$ 是全序环，则每个平方都是正数，特别是每个幂等（对于例单位元）都是正数。
+类似地，我们可以证明关系$x \leqslant 0$和$y \geqslant 0$（分别为$y \leqslant 0$）意味着$xy \leqslant 0$（分别为$xy \geqslant 0$）。这些结果通常以符号规则的名义调用（如果两个元素都是 $\geqslant 0$ 或都是 $\leqslant 0$，则称它们具有相同的符号）。它们意味着，如果 $\mathbf{A}$ 是全序环，则每个平方都是正数，特别是每个幂等（例如单位元）都是正数。
 
-#### 例 {#alg-vi-s2-n1-exa-4 .statement tag=06YZ}
+#### 例{#alg-vi-s2-n1-exa-4 .statement tag=06YZ}
 
 $\mathbf{Z}$上只有一个完全订购的环结构：实际上，归纳每自然数$n \neq 0$对应$1 > 0$、从而$n > 0$。相反，在 $\mathbf{Z}$ 上存在有序的环结构，它们不是完全有序的（见下文）。
 
@@ -171,16 +171,16 @@ $$
 
 — 1) 每个有序域$K$都是$\mathbf{Q}$的有序扩张。事实上，$K$是$\mathbf{Q}$的扩张，因为它是特征零，而另一方面$\mathbf{Q}$只能以一种方式排序，正如我们刚才所看到的。
 
-2) 令$K$为有序域，并令$K(X)$为函数的有理函数在$K$上的一个不定数中的域。让我们对多项式环 $K[X]$ 进行定义排序，将正元素取为 $0$ 以及那些首项系数为正的多项式。这样我们就得到了一个全序的环，它的顺序是扩展，而$K$的顺序是扩展。根据应用命题2，我们给出了$K$的有序扩张的$K(X)$结构。 *对于$K = \mathbf{R}$，可以证明以这种方式定义在$K(X)$上的序关系是$+\infty$附近的增长（cf. *VI*，p. 24，命题4）。*
+2) 令$K$为有序域，并令$K(X)$为函数的有理函数在$K$上的一个不定数中的域。让我们对多项式环 $K[X]$ 进行定义的排序，将正元素取为 $0$ 以及那些前导系数为正的多项式。这样我们就得到了一个全序的环，它的顺序是扩展，而$K$的顺序是扩展。根据应用命题2，我们给出了$K$的有序扩张的$K(X)$结构。 *对于$K = \mathbf{R}$，可以证明以这种方式定义在$K(X)$上的序关系是$+\infty$附近的增长（cf. *VI*，p. 24，命题4）。*
 
 #### 定理 1 {#alg-vi-s2-thm-1 .statement tag=06Z7}
 
-*For an extension $E$ of $K$ to admit the structure of an ordered extension of $K$, the following condition is necessary and sufficient:*
-*(OE)* *The relation $p_1 x_1^2 + \ldots + p_n x_n^2 = 0$ implies*
+*对于$K$的扩展$E$承认$K$的有序扩展的结构，以下条件是必要且充分的：*
+*(OE)* *关系$p_1 x_1^2 + \ldots + p_n x_n^2 = 0$意味着*
 $$
 p_1 x_1 = \ldots = p_n x_n = 0
 $$
-*for any finite sequence $(x_i, p_i)$ of pairs of elements $x$, of $E$ and positive elements $p_i$ of $K$.*
+*对于任意有限序列$(x_i, p_i)$，由$x$、$E$的元素对和$K$的正元素$p_i$组成。*
 
 条件 (OE) 显然等价于：
 (OE') *元素 – 1 不是形式* $px^2$ ($x \in E, p \in K, p \geq 0$) 元素和。
@@ -191,7 +191,7 @@ $$
 
 对于定义 P，让我们考虑 E 的子集的集合 $\mathscr{M}$，其中满足 (AP_I)、(AP_{II}) 和 (AP_{III})，以及 $K_+$ 的包含并和E 元素平方集合 C。 这个集合$\mathscr{M}$是非空，为其形式$\sum p_i x_i^2$元素包含集合$P_0$($P_0$满足(AP_{III})紧随从(OE)而来)。
 
-此外，$\mathscr{M}$ 是归纳法（*集合理论*、III、p. 154、Def. 3）。因此，Th 存在。 *集合理论*中的2，$\mathscr{M}$中的III，p. 154，极大元素，还有待我们证明是否满足（AP_{IV}）；现在这可以从以下引理得出：
+此外，$\mathscr{M}$是归纳的（*集合理论*，III，p. 154，Def.3）。因此，Th 存在。 $\mathscr{M}$中的*集合理论*、III、p. 154、极大元素中的2个，还有待我们证明是否满足（AP_{IV}）；现在这可以从以下引理得出：
 
 #### 引理 {#alg-vi-s2-n3-lem-1 .statement tag=06Z8}
 
@@ -212,7 +212,7 @@ x = (s + q)^{-2}(s + q)(p + r) \in CPP \subset P,
 $$
 与假设相反；因此$s + q = 0$、从而$p + r = 0$；由于 P 满足 (AP_{III})，我们推断出 $s = q = r = p = 0$，从而完成证明。
 
-#### 推出 1 (*« Artin-Schreier 定理 »*) {#alg-vi-s2-thm-1-cor-1 .statement tag=06Z9}
+#### 推出 1 (*« 阿廷-施赖尔定理 »*) {#alg-vi-s2-thm-1-cor-1 .statement tag=06Z9}
 
 — *必要且充分的条件才能在交换域* E 上存在排序，从而使其成为有序域，即关系* $x_1^2 + \ldots + x_n^2 = 0$ *暗示* $x_1 = \ldots = x_n = 0$。
 
@@ -256,7 +256,7 @@ $$
 
 #### 命题 4 {#alg-vi-s2-prop-4 .statement tag=06ZD}
 
-— *令$K$为有序域并令$f \in K[X]$。 $K$ 中存在一个区间，其补集 $f$ 与其最高次数项具有相同的符号。*
+— *令$K$为有序域并令$f \in K[X]$。 $K$中存在区间，其补码$f$与其最高次数项同号。*
 
 我们可以立即将约化转化为一元多项式的情况；那么可以将$x \neq 0$写成$f(x) = x^n(1 + a_1 x^{-1} + \ldots + a_n x^{-n})$。让
 
@@ -276,7 +276,7 @@ $$
 
 — *如果 $a$ 是有序域 $K$ 的正元素，则多项式 $X^2 - a$ 的每个分裂域 $E$ 都承认有序扩张的结构 $K$.*
 
-如果 $a$ 是 $K$ 中的平方，则结果是微不足道的。否则，首一多项式 $f(X) = X^2 - a$ 是不可约的且有变换符号，因为 $f(0) < 0$ 和 $f(x)$ 与 $x^2$ 具有相同的符号，因此为正，对于 $x$ 是 $K$ 某个区间的补集。我们现在可以用应用命题 3 来完成证明。
+如果 $a$ 是 $K$ 中的平方，则结果是微不足道的。否则，首一多项式 $f(X) = X^2 - a$ 是不可约的且有变换符号，因为 $f(0) < 0$ 和 $f(x)$ 与 $x^2$ 具有相同的符号，因此为正，对于 $x$ 是 $K$ 的某个区间的补集。我们现在可以通过应用命题 3 来完成证明。
 
 #### 注 {#alg-vi-s2-n4-rem-2 .statement tag=06ZG}
 
@@ -284,11 +284,11 @@ $$
 
 如果$a$和$a'$是$K$的两个正元素，其平方根在$K$中，则$\sqrt{aa'} = \sqrt{a} \sqrt{a'}$，由$\sqrt{a}$的定义和符号规则得出。
 
-### 5. Maximal ordered fields
+### 5. 极大有序域
 
 #### 定义 4 {#alg-vi-s2-def-4 .statement tag=06ZH}
 
-— *An ordered field K is maximal if every ordered algebraic extension of K is trivial.*
+— *如果 K 的每个有序代数扩展都是平凡的，则有序域 K 是最大的。*
 
 #### 例 {#alg-vi-s2-n5-exa-1 .statement tag=06ZI}
 
@@ -302,7 +302,7 @@ $$
 
 可以证明这个有序扩张在 K 同构方面是唯一的（VI，p. 40，例 15）。
 
-令$\Omega$为K的代数闭包，并令$\mathfrak{N}$为对$(A, w)$的集合，其中$A$是$\Omega$的子K扩展，$w$是$A$的排序$A$ $K$ 的有序扩张。 阶 $\mathfrak{N}$ by 关系 « L 是 M 的有序扩张 » 在 M 和 $L$ 之间。配备此排序后，$\mathfrak{N}$是一个*归纳*有序的集合：实际上，如果$(L_i)$是$\mathfrak{N}$的元素的全序族，那么域$L = \bigcup L_i$，通过取$L_1 = \bigcup (L_i)_1$排序，是上界 $L_i$。那么$\mathfrak{N}$有极大元素，根据*集合理论*，III，p. 154，Th。 2，完成证明。
+令$\Omega$为K的代数闭包，并令$\mathfrak{N}$为对$(A, w)$的集合，其中$A$是$\Omega$的子K扩展，$w$是$A$的排序$A$ $K$ 的有序扩张。 阶 $\mathfrak{N}$ by 关系 « L 是 M 的有序扩张 » 在 M 和 $L$ 之间。配备此排序后，$\mathfrak{N}$是一个*归纳*有序的集合：实际上，如果$(L_i)$是$\mathfrak{N}$的元素的全序族，那么域$L = \bigcup L_i$，通过取$L_1 = \bigcup (L_i)_1$排序，是上界 $L_i$。那么$\mathfrak{N}$有极大元素，由*集合理论*，III，p. 154，Th。 2，完成证明。
 
 #### 命题 5 {#alg-vi-s2-prop-5 .statement tag=06ZK}
 
@@ -316,7 +316,7 @@ $$
 
 这立即来自Cor。 2 和 1 到VI、p. 24 的命题 4。
 
-#### 推论{#alg-vi-s2-n5-cor-1 .statement tag=06ZM}
+#### 推论 {#alg-vi-s2-n5-cor-1 .statement tag=06ZM}
 
 — *在极大有序域 K 上，仅存在一种与域结构兼容的排序。*
 
@@ -373,9 +373,9 @@ a) 奇数次数的$K[X]$中的每个多项式在$K'$中都有根；
 b) 次数 2 的 $K'[X]$ 中的每个多项式在 $K'$ 中都有根。
 那么 $K'$ 是代数闭的。
 
-注首先足以证明$K[X]$中的每个非常数多项式在$K'$中都有根：这确实很清楚如果$K' = K$；如果$K' \neq K$则$[K':K] = 2$；让$a \mapsto a$表示$K'$的唯一$K$自同构，与恒等式映射不同；如果$f \in K'[X]$且$\bar{f}$表示由应用$a \mapsto \bar{a}$对$f$的系数求得的多项式，则$f \bar{f} \in K[X]$；如果$a \in K'$是$f \bar{f}$的根，则$a$是$f$的根或$\bar{f}$；因此$a$或$a$是根或$f$。
+注首先足以证明$K[X]$中的每个非常数多项式在$K'$中都有根：这确实很清楚如果$K' = K$；如果$K' \neq K$则$[K':K] = 2$；让$a \mapsto a$表示$K'$的唯一$K$自同构，与恒等式映射不同；如果$f \in K'[X]$且$\bar{f}$表示由$f$的应用$a \mapsto \bar{a}$到系数得到的多项式，则$f \bar{f} \in K[X]$；如果$a \in K'$是$f \bar{f}$的根，则$a$是$f$的根或$\bar{f}$；因此$a$或$a$是根或$f$。
 
-因此，令$f$为次数$2^n p$、$p$奇数的$K$多项式。 *我们*将在$n$在归纳出发，性质在$n = 0$出发假设*a)*。令 E 为 $K$ 的扩张，其中 $f$ 分裂的变为线性因子：
+因此，令$f$为次数$2^n p$、$p$奇数的$K$多项式。 *我们*将在$n$在归纳出发，性质在$n = 0$在假设*a)*成立。令 E 为 $K$ 的扩张，其中 $f$ 分裂的变为线性因子：
 
 $$
 f(X) = \prod_i (X - a_i)
@@ -387,7 +387,7 @@ $$
 h(X) = \prod_{i < j} (X - y_{ij}) \in E[X].
 $$
 
-该多项式的系数在$a_i$中对称函数，系数在$K$；因此属于至$K[X]$（IV，p. 62，Th.1）；因为它有次数$2^n p (2^n p - 1)/2 = 2^{n-1} p'$（$p'$奇数），所以它有根$y_{}$，在$K'$中归纳假设。如果我们注这对所有$b \in K$成立，并且$K$是一个无限域（实际上有限域，它具有任意大奇数次数的单生扩张（V，p. 94，命题3）， 不能满足 *a)*)，那么我们可以推导出至少一个对 $(i, j)$ 的存在：
+该多项式的系数在$a_i$中对称函数，在$K$中系数对称；因此属于至$K[X]$（IV、p. 62、Th.1）；因为它有次数$2^n p (2^n p - 1)/2 = 2^{n-1} p'$（$p'$奇数），所以它有根$y_{}$，在$K'$中归纳假设。如果我们注意到这对所有$b \in K$都成立，并且$K$是一个无限域（实际上是有限域，它具有任意大奇数次数的单生扩张（V，p. 94，命题3），不能满足 *a)*)，那么我们可以推导出至少一个对 $(i, j)$ 的存在：
 
 $$
 a_i + a_j + ba_i a_j \in K' \quad \text{and} \quad a_i + a_j + b'a_i a_j \in K',
@@ -401,7 +401,7 @@ $$
 
 Q.E.D.
 
-对于基于伽罗瓦理论的第 8 号命题的概括和替代证明，请参阅VI、p. 46、Ex. 8。 33.
+对于基于 Galois 理论的第 8 号命题的概括和替代证明，请参阅 VI、p. 46、Ex。 33.
 
 令$K$为有序域，并令$K' = K(i)$；对于$K'$的每个元素$z = a + bi$，$z$的范数$z \overline{z} = a^2 + b'$相对于$K$（III，p. 544，例1）是正元素 $K$，仅在$z = 0$时消失。如果$K$中的每个正元素都是平方（特别是如果$K$是极大有序域），那么范数$z \overline{z}$的正平方根被称为绝对值 $z$，写为$|z|$。从 $|zz'|^2 = |z|^2 |z'|^2$ 开始，我们就有了 $|zz'| = |z| \cdot |z'|$。
 
@@ -411,7 +411,7 @@ $$
 |z + z'| \leq |z| + |z'|
 $$
 
-对于元素 $z, z'$ $K'$ 中的每一个对都成立。事实上，如果$z = a + bi$和$z' = a' + b'i$，那么这个不等式就相当于
+对于元素 $z, z'$ $K'$ 中的每一个对都成立。事实上，如果$z = a + bi$和$z' = a' + b'i$，那么这个不等式相当于
 
 $$
 (a + a')^2 + (b + b')^2 \leq a^2 + b^2 + {a'}^2 + {b'}^2 + 2 \sqrt{(a^2 + b^2)({a'}^2 + {b'}^2)}
@@ -425,17 +425,17 @@ $$
 
 可以写成$(ab' - ba')^2 \geq 0$。
 
-Th。 3 使我们能够确定所有超过极大有序域的不可约多项式：
+Th。 3 使我们能够确定极大有序域上的所有不可约多项式：
 
 #### 命题 9 {#alg-vi-s2-prop-9 .statement tag=06ZQ}
 
 — *如果 K 为极大有序域，则 K[X] 中唯一不可约多项式是第一个次数多项式，以及第二个次数多项式 $aX^2 + bX + c$，使得 $b^2 - 4ac < 0$。*
 
-由于 $K(i)$ 是代数闭集，因此 K 的每个代数扩张，以及 K 上的每个不可约多项式，都有次数 1 或 2。 要查看第二个次数多项式是不可约的，只需考虑规范形式 $a((X + (b/2a))^2 - (b^2 - 4ac)/4a^2)$ 就足够了（cf. *VI*，p. 26，提案 7）。
+由于 $K(i)$ 是代数闭集，K 的每个代数扩张，以及 K 上的每个不可约多项式，都有次数 1 或 2。 要查看第二个次数多项式是不可约的，只需考虑规范形式 $a((X + (b/2a))^2 - (b^2 - 4ac)/4a^2)$ （cf. *VI*，p. 26，提案 7）。
 
-#### 注 {#alg-vi-s2-n6-rem-1 .statement tag=06ZR}
+#### 注{#alg-vi-s2-n6-rem-1 .statement tag=06ZR}
 
-— 转换为正则三项式形式会产生更强的结果：对于给定有序域 K 上的多项式 $aX^2 + bX + c$ ，在 K 中具有恒定符号的必要且充分的条件是 $b^2 - 4ac < 0$，然后多项式的符号是 $a$ 的符号。
+— 转换为正则三项式形式会产生更强的结果：对于给定有序域 K 上的多项式 $aX^2 + bX + c$ ，在 K 中具有恒定符号的必要且充分的条件是 $b^2 - 4ac < 0$，然后多项式的符号是 $a$。
 
 ### 7. 向量空间超过有序域
 
@@ -445,13 +445,13 @@ Th。 3 使我们能够确定所有超过极大有序域的不可约多项式：
 
 现在假设 E 在 K 上有 *有限* 维数 $n$ ；那么已知 (III, p. 518, Cor. 1) *n 个外部幂* $\Lambda^n E$ 是 K 上维数 1 的向量空间，因此是原点 0 的两条相对封闭半线的并。这些半线称为 E 的方向； 空间 E 与这些半线 A 中的给定一条一起被认为是有向的；如果 n 向量 z 属于到 A（或 -A），则在此方向下称为正（或负）；在相反的方向下它是负的（或正的）。
 
-An orientation of an affine space F over K is by definition an orientation of the space of translations of F; the space F, together with such an orientation, is called an oriented affine space.
+根据定义，仿射空间 F 在 K 上的方向是 F 平移空间的方向；空间 F 与这样的方向一起被称为有向仿射空间。
 
 令 E 为 K 上的有向向量空间，且为维数 $n$；如果 n 向量 $a_1 a_2 \ldots a_n$ 为正（或为负），则 E 的有序基 $(a_i)_{1 \leq i \leq n}$ 称为正或直接（或为负或逆）。如果$u$是向量空间E的自同构，那么对于所有$z \in \bigwedge^n E$来说$(\bigwedge^n u)(z) = \det(u) \cdot z$，因此$\bigwedge^n u$的必要且充分的条件使E的方向保持不变（或者，正如我们也说的，保持方向）是$\det(u) > 0$；具有该性质的自同构恰好是 E 的自同构作为定向向量空间；它们形式是线性群$\mathrm{GL}(E)$的正常子群$\mathrm{GL}^+(E)$，只要$E \neq 0$就有指标2。
 
-当$E = 0$时，$\mathrm{GL}(E) = \mathrm{End}(E)$包含仅恒等式映射1，并通过定义$\det(1_E) = 1$。在这种情况下，注即$\bigwedge^n E = \bigwedge^0 E = K$乘以定义；由正标量形成的 K 的半线称为零空间的规范方向。
+当$E = 0$时，$\mathrm{GL}(E) = \mathrm{End}(E)$包含仅恒等式映射1，并通过定义$\det(1_E) = 1$。请注意，在这种情况下，$\bigwedge^n E = \bigwedge^0 E = K$乘以定义；由正标量形成的 K 的半线称为零空间的规范方向。
 
-设M和N分别为维数n的向量空间E中维数p和$n - p$的两个互补的子空间；如果$z'$（或$z''$）在$\bigwedge^p M$（或$\bigwedge^{n-p} N$）中为非零向量，则$z' \wedge z''$在$\bigwedge^n E$中为非零向量。给定 M 上的方向和 N 上的方向，向量 $z' \wedge z''$ 对于正 $z'$ 和 $z''$ 形式 E 的方向，称为 M 方向与 N 方向的乘积方向（当 $p(n-p)$ 时，这取决于因子的阶）奇数）。相反，给定 E 和 M 上的方向，N 上存在唯一的方向，使得 E 上的给定方向是 M 上给定方向和 N 上的该方向的乘积（即阶）；据说该方向与 M 相对于 E 的方向互补。如果 $N'$ 是 M 的第二个互补的子空间，则与 M 平行的规范投影 $N \to N'$ 会将 N 的互补方向取到 $N'$ 的互补方向。因此，规范映射 $N \to E/M$ 下 N 的互补方向的像独立于补体 N 的选择；称为 E 方向与 M 方向的商，即 E/M 方向。
+设M和N分别为维数n的向量空间E中维数p和$n - p$的两个互补的子空间；如果$z'$（或$z''$）在$\bigwedge^p M$（或$\bigwedge^{n-p} N$）中为非零向量，则$z' \wedge z''$在$\bigwedge^n E$中为非零向量。给定 M 上的方向和 N 上的方向，向量 $z' \wedge z''$ 对于正 $z'$ 和 $z''$ 形式 E 的方向，称为 M 方向与 N 方向的乘积方向（当 $p(n-p)$ 时，这取决于因子的阶）奇数）。相反，给定 E 和 M 上的方向，N 上存在唯一的方向，使得 E 上的给定方向是 M 上给定方向和 N 上的该方向的乘积（即阶）；据说该方向与 M 相对于 E 的方向互补。如果 $N'$ 是 M 的第二个互补的子空间，则与 M 平行的规范投影 $N \to N'$ 会将 N 的互补方向取到 $N'$ 的互补方向。因此，规范映射 $N \to E/M$ 下 N 的互补方向的像独立于补体 N 的选择； E 的取向与 M 的取向称为 E/M 上的商取向。
 
 习题
 

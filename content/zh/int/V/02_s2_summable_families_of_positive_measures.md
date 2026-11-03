@@ -25,19 +25,19 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: af8f013dff10dc8f9081d1d4fb2c0deae1f557e6097648cc150be636b2425d09
+content_sha256: b6fce9ff90e6f5af34b54edfb4776353507a7011c74b566d189cc6d8ab67d2aa
 translated_from: content/en/int/V/02_s2_summable_families_of_positive_measures.md
 translation_method: google
 source_content_sha256: ec7d58f4d9ead5ad76e61a986e1e25bc88d93ca5a6598bf0f04e740c0b11cee4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 675fb60e8175ca5b8c302921a81cea7a7d8f97aaa29b1129dff046bda5d29544
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。积极措施的总结系列
+## § 2。积极措施的总结族
 
 ### 1. 定义可求和的测度族
 
@@ -81,7 +81,7 @@ $$
 
 #### 推论 1 {#int-v-s2-prop-1-cor-1 .statement tag=090J}
 
-— *对于每个紧凑型（分别是开放型和相对紧凑型）子集 M of X，
+— *对于每个紧凑型（分别为开放型和相对紧凑型）子集 M of X，
 $$
 \nu(M) = \sum_{\alpha \in A} \lambda_\alpha(M).
 $$*
@@ -97,7 +97,7 @@ $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$*
 
-如果 $f$ 不是 $\nu$ 调节的，不等式是显而易见的，因为那么 $\nu^*(f) = +\infty$（$§ 1$，No. 2，提案 7）。如果 $f$ 是 $\nu$ 调节，那么对于每个 $\alpha \in A$，$f$ 是 $\lambda_\alpha$ 调节，因为每个 $\nu$ 可积开集合都是 $\lambda_\alpha$ 可积； 关系 (4) 然后立即从 (3) 和$§ 1$、No. 2 的第 7 条命题得出。
+如果 $f$ 不是 $\nu$ 调节的，不等式是显而易见的，因为那么 $\nu^*(f) = +\infty$（$§ 1$，No. 2，提案 7）。如果 $f$ 是 $\nu$ 调节，那么对于每个 $\alpha \in A$，$f$ 是 $\lambda_\alpha$ 调节，因为每个 $\nu$ 可积开集合都是 $\lambda_\alpha$ 可积； 关系 (4) 则立即从 (3) 和$§ 1$、No. 2 的第 7 条命题得出。
 
 即使$A$是可数的并且每个$\lambda_\alpha$都是点测度（$§ 1$，Exer.4 a）），（4）的两个成员也可能不相等。
 
@@ -139,19 +139,19 @@ $$
 
 #### 推论 2 {#int-v-s2-prop-3-cor-2 .statement tag=090P}
 
-— 令$\theta$为$X$的复测度； 集合$\theta_1 = (\Re \theta)^+$、$\theta_2 = (\Re \theta)^-$、$\theta_3 = (\Im \theta)^+$、$\theta_4 = (\Im \theta)^-$。在阶中，$X$ 的映射 $f$ 转换为拓扑空间 $G$（分别转换为 Banach 空间 $F$）对于测度 $\theta$ 是可测的（分别是本质上可积、可积），则对于每个测量值 $\theta_i$ ($i = 1, 2, 3, 4$) 来说，它是可测量的（分别是本质上可积的、可积的）是必要且充分的。
+— 令$\theta$为$X$的复测度； 集合$\theta_1 = (\Re \theta)^+$、$\theta_2 = (\Re \theta)^-$、$\theta_3 = (\Im \theta)^+$、$\theta_4 = (\Im \theta)^-$。在阶中，$X$ 的映射 $f$ 变为拓扑空间 $G$（分别变为 Banach 空间 $F$）对于测度是可测量的（分别是本质上可积、可积） $\theta$，对于每个测度$\theta_i$（$i = 1, 2, 3, 4$）来说，它是可测量的（分别是本质上可积的、可积的）是必要且充分的。
 
-If $f$ is measurable (resp. essentially integrable, integrable) for $\theta$, then $f$ is by definition measurable (resp. essentially integrable, integrable) for the measure $|\theta|$, hence also for the measures $\theta_i$, which are $\leq |\theta|$. 相反，如果 $f$ 对于测度 $\theta_i$ 是可测的（分别是本质上可积、可积），则命题 2（分别是命题 3、命题 3 的 Cor.1）意味着 $f$ 对于测度 $\theta_1 + \theta_2 + \theta_3 + \theta_4$ 来说是可测的（分别是本质上可积、可积），即$\geq |\theta|$。
+如果 $f$ 对于 $\theta$ 可测（或本质上可积、可积），则 $f$ 对于测度 $|\theta|$ 而言可通过定义可测（或本质上可积、可积），因此对于测度 $\theta_i$ 也是 $\leq |\theta|$。相反，如果 $f$ 对于测度 $\theta_i$ 是可测的（或者本质上可积、可积），则命题 2（或者命题 3、命题 3 的 Cor.1）意味着 $f$ 对于测度$\theta_1 + \theta_2 + \theta_3 + \theta_4$ 来说是可测的（或者本质上可积、可积），即$\geq |\theta|$。
 
-### 3. 分解的措施相当于和的措施，具有紧凑的支持
+### 3. 分解的措施相当于和的紧凑支持措施
 
 #### 命题 4 {#int-v-s2-prop-4 .statement tag=090Q}
 
 — 令$\mu$为局部紧致空间$T$的正测度，并令$\mathfrak{K}$为$T$的紧致子集的$\mu$密集集合。在$T$上存在一个正测度的可和族$(\mu_\alpha)_{\alpha \in A}$，使得$\mu = \sum_{\alpha \in A} \mu_\alpha$，并且使得测度$\mu_\alpha$属于到$\mathfrak{K}$和形式的支持是成对的不相交的紧集的局部可数族。
 
-如果措施$\mu$是缓和的，指标集合$A$可以被认为是可数的。
+如果$\mu$的措施被缓和，指标集合$A$可以被认为是可数的。
 
-考虑$\mathfrak{K}$的成对不相交的元素的局部可数族$(K_\alpha)_{\alpha \in A}$，使得集合$N = T - \bigcup_{\alpha \in A} K_\alpha$在局部$\mu$可以忽略不计
+考虑不相交的元素和 $\mathfrak{K}$ 的局部可数族$(K_\alpha)_{\alpha \in A}$，使得集合 $N = T - \bigcup_{\alpha \in A} K_\alpha$ 局部$\mu$可以忽略不计
 
 （第 IV, §5, No. 9 章，第 14 条提案）。对于每个函数 $f \in \mathscr{K}(T)$、集合
 $$

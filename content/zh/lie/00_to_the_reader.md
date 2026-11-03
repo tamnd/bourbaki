@@ -12,16 +12,16 @@ pdf_pages: 0005-0007
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4bd71e4eb2c6dd2de76972e2817a50d0f1c7d4cbca883e286a607e5cba3a200f
+content_sha256: af7b53c4b7245d83ccf3e35b2271820f87d4d5f616f2e2c7238431f8c17fd5c6
 translated_from: content/en/lie/00_to_the_reader.md
 translation_method: google
 source_content_sha256: 882ada8dae42b2f3f9dd77120386c8bef6ec91cad68747363da14d5f7e825848
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 588466ca87cb6797d8a3737ae8eed01c0aba730befe444703d865383f025c482
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 致读者
@@ -36,7 +36,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 5. The logical framework of each chapter consists of the *definitions*, the *axioms*, and the *theorems* of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as “propositions”, “lemmas”, “corollaries”, “remarks”, etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of “scholium”.
 
-为了避免繁琐的重复，有时方便地引入记号或仅在章或章的某个截面内有效的缩写（对于例，在章中，仅与交换环，字相关） “环”始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免繁琐的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅与交换环有关的章中，字“环”将始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign
 
@@ -52,7 +52,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 10. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in *Historical Notes*, usually at the end of each chapter. These notes also contain indications, where appropriate, of the unsolved problems of the theory.
 
-每个历史注记包含后面的参考书目一般只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它没有任何预
+每个历史注记包含后面的参考书目一般只有那些在讨论中的理论的演变中具有最大的重要性的书籍和原始回忆录。它没有任何预先
 
 破坏完整性；特别是，仅涉及确定优先问题的引用几乎总是被省略。
 
@@ -64,4 +64,4 @@ b) 如果它们出现在同一个章的另一个截面中，这个截面也在�
 c) 如果它们出现在同一本书的另一个章中，则引用章和截面。
 d) 如果它们出现在另一个书中，则首先引用该书的标题。
 
-结果摘要由字母 R 引用；因此集合理论，R表示“集合论结果总结”。
+结果摘要由字母 R 引用；因此集合理论，R表示“集合论结果汇总”。

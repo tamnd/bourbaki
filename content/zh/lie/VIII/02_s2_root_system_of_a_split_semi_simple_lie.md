@@ -29,19 +29,19 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: bf9930a93f236f5546471cde35b810828610fbd2ae45499b1337ae574ba0b313
+content_sha256: 73ba945ecf1b11b18a5f9822b2b8ac9b1f1526b26025c70e63a5713003ee55bd
 translated_from: content/en/lie/VIII/02_s2_root_system_of_a_split_semi_simple_lie.md
 translation_method: google
 source_content_sha256: 5b8fba70b72c8f243ecb19eff11bd99a4fc4e1594703137b927fa6344b3f9e7f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 886ebab8a4104fd277dab78d332352c2526a809c0f40f022a37422c35af236a0
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 根系分裂的半单李代数
+## § 2。 根系共分裂的半单李代数
 
 ### 1. 分裂的半单李代数
 
@@ -69,7 +69,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 设 $\mathfrak{g}$ 为约简李代数。然后$\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$，其中$\mathfrak{c}$是$\mathfrak{g}$的中心，$\mathfrak{s}=\mathscr{D}\mathfrak{g}$是半单。 $\mathfrak{g}$中的嘉当子代数是形式$\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$中的子代数，其中$\mathfrak{h}'$是$\mathfrak{s}$中的嘉当子代数（第VII, §2, no. 1章，第2条）。如果$\mathfrak{h}'$相对于$\mathfrak{s}$是分裂，则$\mathfrak{h}$称为分裂。这以明显的方式导致可分割的定义或还原的分裂的代数。
 
-### 2. 根分裂的半单李代数
+### 2. 根共分裂的半单李代数
 
 在这个数中，$(\mathfrak{g},\mathfrak{h})$表示分裂的半单李代数。
 
@@ -87,7 +87,7 @@ $$
 
 #### 命题 1 {#lie-viii-s2-prop-1 .statement tag=00YR}
 
-令$\alpha ,\beta$为$(\mathfrak{g},\mathfrak{h})$的根，并令$\langle \cdot ,\cdot \rangle$为$\mathfrak{g}($上的非简并不变对称双线性形式，用于例对$\mathfrak{g})$的杀戮形式。
+令$\alpha ,\beta$为$(\mathfrak{g},\mathfrak{h})$的根，并令$\langle \cdot ,\cdot \rangle$为$\mathfrak{g}($上的非简并不变对称双线性形式，例如$\mathfrak{g})$的杀戮形式。
 
 (i) 如果 $\alpha +\beta \not= 0,\mathfrak{g}^{\alpha}$ 和 $\mathfrak{g}^{\beta}$ 正交。 $\langle \cdot ,\cdot \rangle$到$\mathfrak{g}^{\alpha}\times \mathfrak{g}^{-\alpha}$的限制是非简并的。 $\langle \cdot ,\cdot \rangle$到$\mathfrak{h}$的限制是非简并的。
 
@@ -105,7 +105,7 @@ $$
 
 #### 定理 1 {#lie-viii-s2-thm-1 .statement tag=00YS}
 
-令 $\alpha$ 为 $(\mathfrak{g},\mathfrak{h})$ 的根。
+令$\alpha$为$(\mathfrak{g},\mathfrak{h})$中的根。
 
 (i) 向量空间 $\mathfrak{g}^{\alpha}$ 等于维数 1。
 
@@ -143,11 +143,11 @@ $$
 
 因此，$y$对于权$-2$的$\rho$来说是原语，这是与……矛盾§1, no. 2的第2条命题。这就证明了(i)。
 
-e) 断言 (iii) 现在是 c) 的推论。另一方面，如果$X_{\alpha}$是$\mathfrak{g}^{\alpha}$的非零元素，则c)中构造的元素$X_{-\alpha}$是$\mathfrak{g}^{-\alpha}$的唯一元素，使得$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$自昏暗$\mathfrak{g}^{-\alpha}= 1$以来。 (iv) 的最后一个断言是c) 的推论。 Q.E.D.
+e) 断言 (iii) 现在是 c) 的推论。另一方面，如果$X_{\alpha}$是$\mathfrak{g}^{\alpha}$的非零元素，则在c)中构造的元素$X_{-\alpha}$是$\mathfrak{g}^{-\alpha}$的唯一元素，使得$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$自昏暗$\mathfrak{g}^{-\alpha}= 1$以来。 (iv) 的最后一个断言是c) 的推论。 Q.E.D.
 
 记号 $h_{\alpha},H_{\alpha},\mathfrak{s}_{\alpha}$ 将在下文中保留。 （对于定义$h_{\alpha}$，我们取$\langle \cdot ,\cdot \rangle$等于杀戮形式。）如果$X_{\alpha}$是$\mathfrak{g}^{\alpha}$的非零元素，则Th的同构$\varphi$。 1 和 $\mathfrak{g}$ 上 $\mathfrak{s}\mathfrak{l}(2, k)$ 的表示 $u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ 将被认为与 $X_{\alpha}$ 相关联。
 
-#### 推论{#lie-viii-s2-n2-cor-1 .statement tag=00YT}
+#### 推论 {#lie-viii-s2-n2-cor-1 .statement tag=00YT}
 
 令$\Phi$为$\mathfrak{g}$的杀戮形式。对于所有$a, b\in \mathfrak{h}$，
 
@@ -155,7 +155,7 @@ $$
 \Phi (a, b) =\sum_{\gamma\in R}\gamma (a)\gamma (b)
 $$
 
-事实上，ad $a$.ad $b$ 使每个 $\mathfrak{g}^{\gamma}$ 保持稳定，并且其限制到 $\mathfrak{g}^{\gamma}$ 是位似，比率为 $\gamma (a)\gamma (b)$；如果$\gamma \not= 0$，则变暗$\mathfrak{g}^{\gamma}= 1$。
+事实上，ad $a$.ad $b$ 使每个 $\mathfrak{g}^{\gamma}$ 保持稳定，其限制到 $\mathfrak{g}^{\gamma}$ 为位似，比率为 $\gamma (a)\gamma (b)$；如果$\gamma \not= 0$，则变暗$\mathfrak{g}^{\gamma}= 1$。
 
 #### 命题 2 {#lie-viii-s2-prop-2 .statement tag=00YU}
 
@@ -221,11 +221,11 @@ $$
 
 $H_{\alpha}=\alpha^{\vee}$ 对于所有$\alpha \in R$。 (2)
 
-The $H_{\alpha}$ thus form the root system $R^{\vee}$ in $\mathfrak{h}$ inverse to R.
+因此，$H_{\alpha}$在$\mathfrak{h}$中形成与R相反的根系统$R^{\vee}$。
 
 我们将调用$(\mathfrak{g},\mathfrak{h})$的$R(\mathfrak{g},\mathfrak{h})$根系。反射$s_{\alpha ,H_{\alpha}}$将简单地用$s_{\alpha}$表示。 Weyl 群、权的群、Coxeter 数 $. .$。 $R(\mathfrak{g},\mathfrak{h})$ 称为Weyl 群、权的群、Coxeter 数 $. .$。 $(\mathfrak{g},\mathfrak{h})$。正如第 1 章中那样。 VI, §1, no. 1，我们认为Weyl群不仅在$\mathfrak{h}^*$上运行，而且在$\mathfrak{h}$上运行结构的迁移，因此$s_{\alpha}=\theta_{\alpha}(t)|\mathfrak{h}$。由于$\theta_{\alpha}(t)$是$\mathfrak{g}$的初等自同构，我们有：
 
-#### 推论{#lie-viii-s2-n2-cor-2 .statement tag=00YX}
+#### 推论 {#lie-viii-s2-n2-cor-2 .statement tag=00YX}
 
 $(\mathfrak{g},\mathfrak{h})$ 的 Weyl 群的每个元素，在 $\mathfrak{h}$ 上运行，是 $\mathfrak{g}$ 的初等自同构的限制到 $\mathfrak{h}$。
 
@@ -251,9 +251,9 @@ $\mathfrak{h}$ 定义中的根系 $R^{\vee}$ $\mathfrak{h}$ 上的非简并对�
 
 设$k'$为$k,\mathfrak{g}'=\mathfrak{g}\otimes_kk',\mathfrak{h}'_i=\mathfrak{h}_i\otimes_kk'$的代数闭包。那么$R(\mathfrak{g}',\mathfrak{h}'_i)$就是从$\mathfrak{h}^*_i$到$\mathfrak{h}^*_i\otimes_kk'={\mathfrak{h}'_i}^*$在映射$\lambda  \rightarrow \lambda \otimes 1$下$R(\mathfrak{g},\mathfrak{h}_i)$的像。由章。 VII, §3, no. 2，周四。 1，存在$\mathfrak{g}'$的自同构需要$\mathfrak{h}'_1$到$\mathfrak{h}'_2$，因此同构$\varphi$从${\mathfrak{h}'_1}^*$到${\mathfrak{h}'_2}^*$需要$R(\mathfrak{g}',\mathfrak{h}'_1)$到$R(\mathfrak{g}',\mathfrak{h}'_2)$。然后$\varphi |\mathfrak{h}^*_1$将$R(\mathfrak{g},\mathfrak{h}_1)$带到$R(\mathfrak{g},\mathfrak{h}_2)$，因此将$\mathfrak{h}^*_1$带到$\mathfrak{h}^*_2$。 Q.E.D.
 
-根据命题 3，$(\mathfrak{g},\mathfrak{h})$ 的根系，直至同构，仅取决于$\mathfrak{g}$，而不取决于$\mathfrak{h}$。 In the same way, the Weyl group, group of weights $. .$. of $(\mathfrak{g},\mathfrak{h})$ are simply called, by abuse of language, the Weyl group, group of weights $. .$. of $\mathfrak{g}$ (cf. also §5, no. 3, Remark 2). 如果$\mathfrak{g}$的Dynkin图是型$A_l$或$B_l,. .$。 （cf.章VI, §4, no. 2，第3章），我们说$\mathfrak{g}$是型$A_l$，或$B_l,. .$..
+根据命题 3，$(\mathfrak{g},\mathfrak{h})$ 的根系，直至同构，仅取决于$\mathfrak{g}$，而不取决于$\mathfrak{h}$。 同理，Weyl群，权重群$. .$。 $(\mathfrak{g},\mathfrak{h})$ 的权重群$. .$ 被滥用，被简单地称为Weyl 群。 $\mathfrak{g}$（cf. 也§5, no. 3，备注 2）。 如果$\mathfrak{g}$的Dynkin图是型$A_l$或$B_l,. .$。 （cf.章VI, §4, no. 2，第3章），我们说$\mathfrak{g}$是型$A_l$，或$B_l,. .$..
 
-回想一下，如果$\alpha$和$\beta$是线性独立的根、集合与$j\in \mathbf{Z}$，使得$\beta +j\alpha \in R$是$\mathbf{Z}$包含0的区间$[-q, p]$，其中$p-q=$$-\langle \beta , \alpha^{\vee}\rangle =-\beta (H_{\alpha})$（第1章） VI, §1, no. 3，提案 9）。
+回想一下，如果 $\alpha$ 和 $\beta$ 根、集合与 $j\in \mathbf{Z}$ 线性无关，使得 $\beta +j\alpha \in R$ 是 $\mathbf{Z}$ 包含 0 的区间 $[-q, p]$，且$p-q=$ $-\langle \beta , \alpha^{\vee}\rangle =-\beta (H_{\alpha})$（第 VI, §1, no. 3 章，第 9 条提案）。
 
 #### 命题 4 {#lie-viii-s2-prop-4 .statement tag=00Z1}
 
@@ -283,7 +283,7 @@ $$
 
 令$(\mathfrak{g},\mathfrak{h})$为分裂约化李代数、$\mathfrak{c}$中心/$\mathfrak{g},\mathfrak{g}'=\mathscr{D}\mathfrak{g}$、$\mathfrak{h}'=\mathfrak{h}\cap \mathfrak{g}'$。然后$\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$，我们认同$\mathfrak{h}^{'*}$和向量子空间$\mathfrak{h}^*$。对于任何$\lambda \in \mathfrak{h}^*$使得$\lambda \not= 0$，相对于$\lambda$的主子空间$\mathfrak{g}^{\lambda}$等于${\mathfrak{g}'}^{\lambda|\mathfrak{h}'}$。 $\mathfrak{g}$ 上$\mathfrak{h}$ 的非零权称为$(\mathfrak{g},\mathfrak{h})$ 的根；每个根都会在$\mathfrak{c}$消失。用$(\mathfrak{g},\mathfrak{h})$根$R(\mathfrak{g},\mathfrak{h})$集合表示；它可以用 $R(\mathfrak{g}',\mathfrak{h}')$ 来规范地识别。让$\alpha \in R(\mathfrak{g},\mathfrak{h})$。我们将$\mathfrak{g}$上的$\mathfrak{s}\mathfrak{l}(2, k)$的定义$h_{\alpha},H_{\alpha}$、$\mathfrak{s}_{\alpha}$、同构$\mathfrak{s}\mathfrak{l}(2, k)\rightarrow \mathfrak{s}_{\alpha}$和表示与$\alpha$相关联，如半单情况一样。
 
-### 3. INVARIANT BILINEAR FORMS
+### 3. 不变双线性形式
 
 #### 命题 5 {#lie-viii-s2-prop-5 .statement tag=00Z4}
 
@@ -313,7 +313,7 @@ $\alpha \in Ri\in I$
 
 $X_{\alpha}\in \mathfrak{g}^{\alpha}$ 和 $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$。
 
-令$R_1$为R的子集，使得$R = R_1\cup (-R_1)$和$R_1\cap (-R_1) =\emptyset$。对于 $\alpha \in R_1$、选择 $\mathfrak{g}^{\alpha}$ 的任意非零元素 $X_{\alpha}$。存在唯一的$X_{-\alpha}\in \mathfrak{g}^{-\alpha}$使得$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$（Th.1（iv））。然后
+令$R_1$为R的子集，使得$R = R_1\cup (-R_1)$和$R_1\cap (-R_1) =\emptyset$。对于$\alpha \in R_1$、选择 $\mathfrak{g}^{\alpha}$ 的任意非零元素 $X_{\alpha}$。存在唯一的$X_{-\alpha}\in \mathfrak{g}^{-\alpha}$使得$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$（Th.1（iv））。然后
 
 $$
 [X_{-\alpha}, X_{\alpha}] =H_{\alpha}=-H_{-\alpha}.Q.E.D

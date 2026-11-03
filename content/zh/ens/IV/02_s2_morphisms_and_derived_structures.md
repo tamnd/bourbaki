@@ -38,16 +38,16 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 0e596041cfbd52bec17a97d117c6b2a750256446553d5d4ecbcee22cb223316f
+content_sha256: 782f6e2fab340b20c82f3e1c8bf60654dae69b1acf012a99c0774fbd17c6259a
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
 translation_method: google
 source_content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5566b021f76c601f85ee46ae0929a8b52b888ca3c8dc8869f801eb5478baec58
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. 态射和导出结构
@@ -56,19 +56,19 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 在这个截面和下一个截面中，为了简单起见，我们将假设所考虑的结构种只有一个基集合（因此它是一个主体基集合）。读者可以毫无困难地将定义和结果扩展到一般情况。
 
-令$\Sigma$为比$\mathscr{T}$强于集合论的理论中的结构种，并令$x$、$y$、$s$、$t$为与$\mathscr{T}$常数不同的四个不同字母。我们记得记号$\mathfrak{F}(x,y)$表示$x$的映射到$y$的集合（章II, § 5, no. 2）。假设我们在 $\mathscr{T}$ 中得到项 $\sigma\{x,y,s,t\}$ ，它满足以下条件 ：
+令$\Sigma$为理论$\mathscr{T}$中的结构种，其强于集合论，并令$x$、$y$、$s$、$t$为与$\mathscr{T}$常数不同的四个不同字母。我们记得记号$\mathfrak{F}(x,y)$表示$x$的映射到$y$的集合（章II, § 5, no. 2）。假设我们在 $\mathscr{T}$ 中得到项 $\sigma\{x,y,s,t\}$ ，它满足以下条件 ：
 
-$(\mathrm{MO}_{\mathrm{I}})$ *关系“$s$是$x$上类$\Sigma$的结构，$t$是$y$上类$\Sigma$的结构”在 E 中意味着关系 $\sigma\{x,y,s,t\}\subset\mathfrak{F}(x,y)$。*
+$(\mathrm{MO}_{\mathrm{I}})$ *关系“$s$是$x$上类$\Sigma$的结构，$t$是$y$上类$\Sigma$的结构”意味着，在 E 中，关系 $\sigma\{x,y,s,t\}\subset\mathfrak{F}(x,y)$。*
 
-$(\mathrm{MO}_{\mathrm{II}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有三个集合 E，E′，E″，分别赋予结构，$\mathscr{S}$，$\mathscr{S}'$，$\mathscr{S}''$，类$\Sigma$，那么关系$f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$和$g\in\sigma\{E',E'',\mathscr{S}',\mathscr{S}''\}$意味着关系*
+$(\mathrm{MO}_{\mathrm{II}})$ *如果理论$\mathscr{T}'$比$\mathscr{T}$强，我们有三个集合E，E′，E″分别赋予类的结构，$\mathscr{S}$，$\mathscr{S}'$，$\mathscr{S}''$ $\Sigma$，则关系 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $g\in\sigma\{E',E'',\mathscr{S}',\mathscr{S}''\}$ 意味着关系*
 
 $$
 g\circ f\in\sigma\{E,E'',\mathscr{S},\mathscr{S}''\}.
 $$
 
-$(\mathrm{MO}_{\mathrm{III}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$，我们有两个集合E，E′分别赋予结构$\mathscr{S}$，$\mathscr{S}'$或类$\Sigma$，则双射 E 到 E′ 的 $f$ 为同构当且仅当 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $f^{-1}\in\sigma\{E',E,\mathscr{S}',\mathscr{S}\}$。*
+$(\mathrm{MO}_{\mathrm{III}})$ *如果，在理论$\mathscr{T}'$强于$\mathscr{T}$，我们有两个集合E，E′分别赋予类$\Sigma$的结构，$\mathscr{S}$，$\mathscr{S}'$，则E 到 E′ 的双射 $f$ 为同构当且仅当 $f\in\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$ 和 $f^{-1}\in\sigma\{E',E,\mathscr{S}',\mathscr{S}\}$。*
 
-如果给定$\Sigma$和$\sigma$，关系$f\in\sigma\{x,y,s,t\}$可以用说表示，$f$是$x$的*态射*（或$\sigma$-*态射*），赋予$s$，转化为$y$，赋予$t$。如果（理论上$\mathscr{T}'$强于$\mathscr{T}$）E和E′是两个集合，并赋予类$\Sigma$的结构$\mathscr{S},\mathscr{S}'$，则项$\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$是集合的*集合 $\sigma$-E 到 E′ 的态射。*
+如果给定$\Sigma$和$\sigma$，关系$f\in\sigma\{x,y,s,t\}$可以用说表示，$f$是$x$的*态射*（或$\sigma$-*态射*），赋予$s$，转化为$y$，赋予$t$。如果（在理论$\mathscr{T}'$强于$\mathscr{T}$）E和E′是两个集合，并赋予结构$\mathscr{S},\mathscr{S}'$或类$\Sigma$，则项$\sigma\{E,E',\mathscr{S},\mathscr{S}'\}$是*E 到 E′ 的 $\sigma$-态射中的集合。*
 
 *例*
 
@@ -86,23 +86,23 @@ $(\mathrm{MO}_{\mathrm{III}})$ *如果理论上$\mathscr{T}'$强于$\mathscr{T}$
 
 #### 注 {#ens-iv-s2-n1-rem-1 .statement tag=03VO}
 
-对于给定的结构种$\Sigma$，我们可能有机会定义各种项$\sigma \} x,\ y,\ s,\ t \{$，其中满足条件$(\mathrm{MO_I})$、$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$。对于例，如果$\Sigma$是拓扑结构的类，并且上面的例3的记号，则A到A$'$的映射$f$被称为“开”，如果关系$\mathrm{X} \in \mathrm{V}$暗示$f(\mathrm{X}) \in \mathrm{V}'$（在其他字中，如果每个开集合的$f$下的像都是开集合）。很容易检查到，类$\Sigma$的开放映射还有满足条件$(\mathrm{MO_I})$、$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$。 \* 而且，可以证明连续的映射不一定是开的，开的映射也不一定是连续的。 \* 因此，给定的结构种 *并不意味着* 明确定义的概念为态射。
+对于给定的结构种$\Sigma$，我们可能有机会定义各种项$\sigma \} x,\ y,\ s,\ t \{$，其中满足条件$(\mathrm{MO_I})$、$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$。例如，如果$\Sigma$是拓扑结构的类，上面的记号是例3，则A到A$'$的映射$f$被称为“开”，如果关系 $\mathrm{X} \in \mathrm{V}$蕴含$f(\mathrm{X}) \in \mathrm{V}'$（在其他字中，如果每个开集合的$f$下的像都是开集合）。很容易检查到类$\Sigma$的开放映射还有满足条件$(\mathrm{MO_I})$、$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$。 \* 而且，可以证明连续的映射不一定是开的，开的映射也不一定是连续的。 \* 因此，给定的结构种 *并不意味着* 明确定义的概念或态射。
 
 ☡
 
 当涉及序结构、代数结构和拓扑结构时，始终应理解态射是上面例中定义的那些，除非明确说明相反。
 
-条件 $(\mathrm{MO_{III}})$ 和双射的刻画（章 II, § 3, no. 8，命题 8 的推论）意味着以下标准：
+双射（章II, § 3, no. 8、推论至命题8）的条件$(\mathrm{MO_{III}})$和刻画意味着以下标准：
 
 CST8。 *设*E，E$'$ *为两个集合，每个结构或类$\Sigma$。设$f$是* E *到* E$'$ *的$\sigma$态射，并让$g$是* E$'$ *到* E的$\sigma$态射。 *如果$g \circ f$是* E *自身的恒等映射，并且如果$f \circ g$是* E$'$ *的恒等映射到其自身，则$f$是* E *到* E$'$的同构，*并且$g$是逆同构。*
 
-应该注意的是，E 到 E$'$ 的双射可能是 $\sigma$ 态射，而逆双射不一定是 $\sigma$ 态射。 \* 对于例，拓扑空间 A 到拓扑空间 A$'$ 的双射映射可以连续，而逆双射不连续（*一般拓扑*、章 I, § 2, no. 1， 注1)。 \*
+应该注意的是，E 到 E$'$ 的双射可能是 $\sigma$ 态射，而逆双射不一定是 $\sigma$ 态射。 \* 例如，拓扑空间 A 到拓扑空间 A$'$ 的双射映射可以是连续的，而逆双射不是连续的（*一般拓扑*、章 I, § 2, no. 1、注 1）。 \*
 
 ☡
 
 #### 注 {#ens-iv-s2-n1-rem-2 .statement tag=03VP}
 
-当结构种$\Sigma$有多个主基集合$x_1, \ldots, x_n$和辅助基集合$\mathrm{A}_1, \ldots, \mathrm{A}_m$时，$\sigma$态射为系统$(f_1, \ldots, f_n)$，其中$f_i$ 是 $x_i$ 的映射变成 $y_i$ $(1 \leqslant i \leqslant n)$，这些映射满足条件的系统类似于 $(\mathrm{MO_{II}})$ 和 $(\mathrm{MO_{III}})$，读者可以很容易地指出他自己。
+当结构种$\Sigma$有多个主基集合$x_1, \ldots, x_n$和辅助基集合$\mathrm{A}_1, \ldots, \mathrm{A}_m$时，$\sigma$态射为系统$(f_1, \ldots, f_n)$，其中$f_i$是$x_i$的映射变成$y_i$$(1 \leqslant i \leqslant n)$，而映射满足条件的系统类似于$(\mathrm{MO_{II}})$和$(\mathrm{MO_{III}})$，读者可以很容易地指出他自己。
 
 ### 2. 更细结构
 
@@ -122,7 +122,7 @@ CST8。 *设*E，E$'$ *为两个集合，每个结构或类$\Sigma$。设$f$是*
 
 #### 例 1 {#ens-iv-s2-n2-exa-1 .statement tag=03VQ}
 
-An order structure with graph $s$ on a set A is finer than an order structure with graph $s'$ if and only if $s \subset s'$. 在其他字中，关系$x \leqslant y$相对于$s$意味着$x \leqslant y$相对于$s'$；这与章 III, § 1, no. 4、例 3 中给出的定义一致。
+当且仅当 $s \subset s'$ 时，集合 A 上具有图 $s$ 的订单结构比具有图 $s'$ 的订单结构更精细。 在其他字中，关系$x \leqslant y$相对于$s$意味着$x \leqslant y$相对于$s'$；这与章 III, § 1, no. 4、例 3 中给出的定义一致。
 
 #### 例 2 {#ens-iv-s2-n2-exa-2 .statement tag=03VR}
 
@@ -138,7 +138,7 @@ An order structure with graph $s$ on a set A is finer than an order structure wi
 
 对于这样的结构种$\Sigma$，E到E'的态射$f$是*双射的*，是一个*同构*；因为如果我们通过 $f$ 将迁移转换为 E' 结构 $\mathscr{S}$，我们就得到类 $\Sigma$ 的结构，即更细比 E' 上的结构 $\mathscr{S}'$ ，因此重合与 $\mathscr{S}'$。
 
-### 3. INITIAL STRUCTURES
+### 3. 初始结构
 
 考虑一个$(A_\iota)_{\iota \in I}$集合的家庭，每个家庭都被赋予结构$\mathscr{S}_\iota$类$\Sigma$。令 E 为集合，对于每个 $\iota \in I$，令 $f_\iota$ 为映射 *of* E *进入* $A_\iota$。 E 上类 $\Sigma$ 的结构 $\mathscr{S}$ 被认为是*关于家庭的首字母结构* $(A_\iota, \mathscr{S}_\iota, f_\iota)_{\iota \in I}$，如果它具有以下性质 ：
 
@@ -212,7 +212,7 @@ CST14。 *令$(A_i)_{i\in I}$为集合的一个族，对于每个$i\in I$，令$
 
 *此外，这些叙述意味着$\mathscr{S}=\mathscr{S}'$。*
 
-Let $j_\iota$ be the canonical injection of $\mathrm{B}_\iota$ into $\mathrm{A}_\iota$, let $j$ be the canonical injection of B into E, let $p_\iota$ be the projection of E onto $\mathrm{A}_\iota$, and let $p'_\iota$ be the projection of B onto $\mathrm{B}_\iota$. 那么对于所有$\iota \in \mathrm{I}$我们就有$p_\iota \circ j = j_\iota \circ p'_\iota$。 到 CST10，$\mathscr{S}$ 是相对于族 $(\mathrm{A}_\iota, \mathscr{S}_\iota, p_\iota \circ j)_{\iota \in \mathrm{I}}$ 的初始结构，$\mathscr{S}'$ 是相对于族 $(\mathrm{A}_\iota, \mathscr{S}_\iota, j_\iota \circ p'_\iota)_{\iota \in \mathrm{I}}$ 的初始结构。 于是就有了这样的结果。
+令$j_\iota$为$\mathrm{B}_\iota$到$\mathrm{A}_\iota$的规范注入，令$j$为B到E的规范注入，令$p_\iota$为E到$\mathrm{A}_\iota$的投影，令$p'_\iota$为B到$\mathrm{B}_\iota$的投影。 那么对于所有$\iota \in \mathrm{I}$我们就有$p_\iota \circ j = j_\iota \circ p'_\iota$。 到 CST10，$\mathscr{S}$ 是相对于族 $(\mathrm{A}_\iota, \mathscr{S}_\iota, p_\iota \circ j)_{\iota \in \mathrm{I}}$ 的初始结构，$\mathscr{S}'$ 是相对于族 $(\mathrm{A}_\iota, \mathscr{S}_\iota, j_\iota \circ p'_\iota)_{\iota \in \mathrm{I}}$ 的初始结构。 于是就有了这样的结果。
 
 ¶ 逆像和乘积的概念通过以下标准相关：
 
@@ -234,17 +234,17 @@ CST9), $f_i \circ p_i$ 乘以 (MO$_\Pi$) 为态射；因此 $f$ 等于 (IN) 态�
 
 #### 注 {#ens-iv-s2-n4-rem-2 .statement tag=03VV}
 
-对于大多数常见的结构，CST16中给出的条件不仅是足够的，而且对于$f$成为态射（cf.习题7）来说也是必要的。特别是在以下情况下（对于例，如果$\Sigma$是序结构的类，\*或群结构的类，或者拓扑结构*的类等； cf. 习题 8) :
+对于大多数常见的结构，CST16中给出的条件不仅是足够的，而且对于$f$成为态射（cf.习题7）来说也是必要的。特别是在以下情况下（例如，如果$\Sigma$是序结构的类，\*或群结构的类，或者拓扑结构*的类等；cf.） 习题 8) :
 
 ☡
 
 ¶ 存在一个族 $(a_i)_{i\in I}$，使得 $a_i\in A_i$ 对于所有 $i\in I$ 并且这样，如果我们放置 $r_i(x)=(y_\lambda)$，其中 $y_i=x_i$ 和 $y_\lambda=a_\lambda$ 每当 $\lambda\ne i$ 时，映射 $r_i$ 中的每一个都是态射 $A_i$ 变为$A$。因为如果$f=(f_i)$是$A$的态射到$B$，我们可以将所有$i\in I$写成$f_i=q_i\circ f\circ r_i$，并且足够了（MO$_\Pi$）。
 
-¶ 注如果满足以下条件，则$r_i$ 为态射：
+¶ 请注意，如果满足以下条件，则 $r_i$ 为态射 ：
 
 (a) 对于每个集合$E$赋予类$\Sigma$的结构，常数映射$z\mapsto a_i$是$E$的态射到$A_i$；即，对于每个$x\in I$，$p_x\circ r_i$是$A_i$到$A_x$的态射，因为当$x=i$时它是恒等映射，当$x\ne i$时它是常数映射$z\mapsto a_x$；通过乘积结构的定义，$r_i$因此是$A_i$的态射到$A$。
 
-¶ The examples listed above satisfy not only (a), but also the following condition :
+¶ 上面列出的例子不仅满足(a)，还满足以下条件：
 
 (b) 每集合 $A'_i=A_i\times\prod_{x\ne i}\{a_x\}$、结构 $\mathscr{I}$ 诱导结构类 $\Sigma$。
 
@@ -256,7 +256,7 @@ CST9), $f_i \circ p_i$ 乘以 (MO$_\Pi$) 为态射；因此 $f$ 等于 (IN) 态�
 
 为了证明充分性，令$j$是$F$到$A\times B$的典范嵌入。我们可以写成$f=\operatorname{pr}_2\circ j\circ\pi$，那么$f$就是三个态射中的假设合成。
 
-¶ 为了证明必要性，令$\mathscr{S}_{\mathbf{F}}$为通过双射$\pi$(§ 1, no. 5)将结构$\mathscr{S}_{\mathbf{A}}$传输到F得到的类$\Sigma$中的结构。然后我们必须证明$\mathscr{S}_{\mathbf{F}}$是由$\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$在F上诱导的。我们首先将注证明$j$是F的态射转化为$\mathbf{A} \times \mathbf{B}$；因为$j \circ \pi$是A到$\mathbf{A} \times \mathbf{B}$的映射$x \to (x, f(x))$，因此凭借$f$上的假设和乘积结构的定义为态射；因此，通过结构$\mathscr{S}_{\mathbf{F}}$的定义，$j$为态射。仍有待证明，如果 E 是集合赋予类 $\Sigma$ 的结构，并且如果 $g$ 是 E 到 F 的映射，使得 $j \circ g$ 是 E 到 $\mathbf{A} \times \mathbf{B}$ 的态射，则$g$为态射；或者，等价地，$g_1 = \overset{-1}{\pi} \circ g$是E到A的态射。但是从$g_1 = \mathrm{pr}_1 \circ (j \circ g)$开始，这是从乘积结构的假设和定义得出的。
+¶ 为了证明必要性，令$\mathscr{S}_{\mathbf{F}}$为通过双射$\pi$(§ 1, no. 5)将结构$\mathscr{S}_{\mathbf{A}}$传输到F得到的类$\Sigma$中的结构。那么我们必须证明$\mathscr{S}_{\mathbf{F}}$是由$\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$在F上诱导的。我们首先注意到$j$是F的态射到$\mathbf{A} \times \mathbf{B}$；因为$j \circ \pi$是A到$\mathbf{A} \times \mathbf{B}$的映射$x \to (x, f(x))$，因此凭借$f$上的假设和乘积结构的定义是态射；因此，通过结构$\mathscr{S}_{\mathbf{F}}$的定义，$j$为态射。仍有待证明，如果E是集合赋予类$\Sigma$的结构，并且如果$g$是E到F的映射使得$j \circ g$是E到$\mathbf{A} \times \mathbf{B}$的态射，那么$g$为态射；或者，等价地，$g_1 = \overset{-1}{\pi} \circ g$是E到A的态射。但是从$g_1 = \mathrm{pr}_1 \circ (j \circ g)$开始，这是从乘积结构的假设和定义得出的。
 
 ### 5. 最终结构
 
@@ -304,25 +304,25 @@ CST19。 *设*E*为集合，让*$(\mathrm{A}_\iota)_{\iota \in \mathrm{I}}$*为�
 
 I。 *结构的直接像。*当I是单个元素的集合由……组成时，相对于$(\mathrm{A}, \mathscr{S}, f)$的最终结构称为*$f$*下的*直接像结构* $\mathscr{S}$（当存在时）。
 
-II。 *商结构。* 设A为集合，赋予类$\Sigma$的结构$\mathscr{S}$，令R为A上的等价关系，并令$\varphi$为A在商集上的典范映射 $\mathrm{E} = \mathrm{A}/\mathrm{R}$（章II, § 6, no. 2）。 映射 $\varphi$ 下结构 $\mathscr{S}$ 的直接像被称为（当存在时）结构 $\mathscr{S}$ 除以关系 R 的*商*。
+II。 *商结构.* 设A为集合，赋予类$\Sigma$的结构$\mathscr{S}$，令R为A上的等价关系，并令$\varphi$为A上的典范映射商集$\mathrm{E} = \mathrm{A}/\mathrm{R}$（章II, § 6, no. 2）。 映射 $\varphi$下的结构 $\mathscr{S}$的直接像被关系 R调用（当存在时）结构 $\mathscr{S}$的*商*。
 
-\* 一般来说，序结构或代数结构不承认任意等价关系的商结构（cf.章III, § 1，习题2）。另一方面，拓扑总是承认任意等价关系的商结构，但对于 Hausdorff 拓扑则不一定如此。 \*
+\* 一般来说，序结构或代数结构不承认商结构关于任意等价关系（cf.章III, § 1，习题2）。另一方面，对于任意等价关系，拓扑总是承认商结构，但对于 Hausdorff 拓扑则不一定如此。 \*
 
-设A、B为分别赋予类$\Sigma$的结构、$\mathscr{S}$、$\mathscr{S}'$的两个集合，设$f$为A到B的态射。 令R为等价关系$f(x) = f(y)$，令$\varphi$为A到$\mathrm{A}/\mathrm{R}$的典范映射，令$j$为$f(\mathrm{A})$到B的典范嵌入。 假设$\mathscr{S}$承认关于R的商结构$\mathscr{S}_0$，并且$\mathscr{S}'$诱导结构$\mathscr{S}'_0$关于$f(\mathrm{A})$。 那么，在$f$（章II, § 6, no. 5）的*规范分解* $f = j \circ g \circ \varphi$中，$\mathrm{A}/\mathrm{R}$的双射$g$到与$f$相关联的$f(\mathrm{A})$是一个*态射*（但不是必然是同构），当$\mathrm{A}/\mathrm{R}$被赋予$\mathscr{S}_0$并且$f(\mathrm{A})$被赋予$\mathscr{S}'_0$时。 因为$j \circ g$是$\mathrm{A}/\mathrm{R}$的态射通过商结构的定义进入B，因此$g$是$\mathrm{A}/\mathrm{R}$的态射通过诱导的结构的定义进入$f(\mathrm{A})$。
+设A、B为分别赋予类$\Sigma$的结构、$\mathscr{S}$、$\mathscr{S}'$的两个集合，设$f$为A到B的态射。 令R为等价关系$f(x) = f(y)$，令$\varphi$为A到$\mathrm{A}/\mathrm{R}$的典范映射，令$j$为$f(\mathrm{A})$到B的典范嵌入。 假设$\mathscr{S}$关于R承认商结构$\mathscr{S}_0$，并且关于$f(\mathrm{A})$承认$\mathscr{S}'$诱导结构$\mathscr{S}'_0$。 那么，在$f$（章II, § 6, no. 5）的*规范分解* $f = j \circ g \circ \varphi$中，$\mathrm{A}/\mathrm{R}$的双射$g$到与$f$相关联的$f(\mathrm{A})$是一个*态射*（但不是必然是同构），当$\mathrm{A}/\mathrm{R}$被赋予$\mathscr{S}_0$并且$f(\mathrm{A})$被赋予$\mathscr{S}'_0$时。 因为$j \circ g$是$\mathrm{A}/\mathrm{R}$的态射通过商结构的定义进入B，因此$g$是$\mathrm{A}/\mathrm{R}$的态射通过诱导结构的定义进入$f(\mathrm{A})$。
 
-CST20。 *设* A、A′ *为两个集合，赋予类* $\Sigma$*的结构* $\mathscr{S}$、$\mathscr{S}'$，*并让* R (*分别* R′) *在* A (*分别* A′) 上为等价关系。 *假设存在一个商结构* $\mathscr{S}_0$ (*resp.* $\mathscr{S}'_0$) *of* $\mathscr{S}$ *by* R (*resp.* $\mathscr{S}'$ *by* R′)。 *如果* $f$ *是* A *到* A′ *的态射，与等价关系* R *和* R′相容的，*且如果* $g$ *是从* $f$ *通过经过商获得的映射，则* $g$ *是*$\mathrm{A}/\mathrm{R}$的态射*到*$\mathrm{A}'/\mathrm{R}'$。
+CST20。 *设* A、A′ *为两个集合，赋予类* $\Sigma$*的结构* $\mathscr{S}$、$\mathscr{S}'$，*并让* R (*分别* R′) *在* A (*分别* A′) 上为等价关系。 *假设存在商结构* $\mathscr{S}_0$ (*resp.* $\mathscr{S}'_0$) *of* $\mathscr{S}$ *by* R (*resp.* $\mathscr{S}'$ *by* R′)。 *如果*$f$*是*A*的态射*到*A′*，它与等价关系*R*和*R′相容的，*并且如果*$g$*是从*$f$*通过经过到商获得的映射，则* $g$ *是* $\mathrm{A}/\mathrm{R}$ *的态射 *到* $\mathrm{A}'/\mathrm{R}'$。
 
-令$\varphi$（或$\varphi'$）为A到$\mathrm{A}/\mathrm{R}$的典范映射（或A′到$\mathrm{A}'/\mathrm{R}'$的典范映射）；那么我们就有$g \circ \varphi = \varphi' \circ f$。由于$\varphi'$和$f$是态射，所以$\varphi' \circ f$乘以($\mathrm{MO_{II}}$)。但是，$g \circ \varphi$ 是态射，$g$ 也是态射定义商结构。
+令$\varphi$（或$\varphi'$）为A到$\mathrm{A}/\mathrm{R}$的典范映射（或A′到$\mathrm{A}'/\mathrm{R}'$的典范映射）；那么我们就有$g \circ \varphi = \varphi' \circ f$。由于$\varphi'$和$f$是态射，所以$\varphi' \circ f$乘以($\mathrm{MO_{II}}$)。但是，$g \circ \varphi$是态射，$g$也是态射乘以商结构的定义。
 
 ¶ 传递性标准 CST19 特别产生以下标准：
 
-CST21。 *设* A *为集合，赋予结构* $\mathscr{S}$ *of 类* $\Sigma$，*并令* R *为等价关系在* A *上，使得存在于* $\mathrm{A}/\mathrm{R}$ *商结构* $\mathscr{S}'$ *的* $\mathscr{S}$*乘*R。*设*S*在*A*上等价关系，比*R更粗糙，*并且让*$\mathrm{S}/\mathrm{R}$*表示等价关系在*$\mathrm{A}/\mathrm{R}$*上，这是*S*除以*R的商（章II, § 6, no. 7）。 *则存在于* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *商结构* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ *当且仅当存在于* $\mathrm{A}/\mathrm{S}$ *商结构* $\mathscr{S}_0$ *of* $\mathscr{S}$ *by* S， *和* $\mathrm{A}/\mathrm{S}$的典范映射（*赋予* $\mathscr{S}_0$）*到* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$（*赋予* $\mathscr{S}''$）*是同构。*
+CST21。 *设* A *为集合，赋予结构* $\mathscr{S}$ * of 类* $\Sigma$，*并让* R *在* A *上为等价关系，使得存在于* $\mathrm{A}/\mathrm{R}$ *商结构* $\mathscr{S}'$ *of* $\mathscr{S}$ *作者：R. *设* S *为* A *上的等价关系，比* R 更粗糙，*并让* $\mathrm{S}/\mathrm{R}$ *表示* $\mathrm{A}/\mathrm{R}$ *上的等价关系，这是* S *与* R 的商（章 II, § 6, no. 7）。 *则存在于* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *商结构* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ *当且仅当存在于* $\mathrm{A}/\mathrm{S}$ *商结构* $\mathscr{S}_0$ *of* $\mathscr{S}$ *由* S，*和典范映射的* $\mathrm{A}/\mathrm{S}$（*赋予* $\mathscr{S}_0$）*到* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$（*赋予* $\mathscr{S}''$）*为同构。*
 
-Let $\varphi$ be the canonical mapping of A onto $A/R$, and let $\psi$ be that of $A/R$ onto $(A/R)/(S/R)$. 根据 CST19，当且仅当 $\mathscr{S}''$ 是关于 $(A,\mathscr{S},\psi\circ\varphi)$ 的最终结构时，$\mathscr{S}''$ 是 $\mathscr{S}'$ 除以 $S/R$ 的商。 该标准是根据关系 $\psi(\varphi(x))=\psi(\varphi(y))$ 等价于 S 的事实得出的。
+令$\varphi$为A到$A/R$的规范映射，令$\psi$为$A/R$到$(A/R)/(S/R)$的规范映射。 根据 CST19，当且仅当 $\mathscr{S}''$ 是相对于 $(A,\mathscr{S},\psi\circ\varphi)$ 的最终结构时，$\mathscr{S}''$ 是 $\mathscr{S}'$ 除$S/R$ 的商。 该标准是根据关系 $\psi(\varphi(x))=\psi(\varphi(y))$ 等价于 S 的事实得出的。
 
 #### 注 {#ens-iv-s2-n6-rem-1 .statement tag=03VW}
 
-令A为集合赋予类$\Sigma$的结构$\mathscr{S}$，并令R为A上的等价关系，使得$E=A/R$上存在R与$\mathscr{S}$的商结构$\mathscr{S}'$。令$\varphi$是A到E的典范映射。一般来说，不存在$\varphi$(章II, § 3, no. 8)的*截面*$s$，即E到A的*态射*。让我们假设这样的截面$s$存在，并且而且$s(E)$上存在由$\mathscr{S}$诱发的结构$\mathscr{S}''$。然后，如果 $j$ 表示 $s(E)$ 的典范嵌入到 A 中，并且如果 $s=j\circ f$，则双射 $f$ 是 E 到 $s(E)$ 的 *同构*。因为$f$是由结构的定义诱导的态射，并且由于(MO$_{\mathrm{II}}$)，$g=\varphi\circ j$是$s(E)$的态射到E上。由于$g\circ f$和$f\circ g$分别是E和$s(E)$的恒等映射，因此断言是CST8的推论。
+令A为集合赋予类$\Sigma$的结构$\mathscr{S}$，并令R为A上的等价关系，使得R上存在$\mathscr{S}$的$E=A/R$商结构$\mathscr{S}'$。令$\varphi$为A到E的典范映射。一般来说，不存在$\varphi$(章II, § 3, no. 8)的*截面*$s$，即E到A的*态射*。让我们假设这样的截面$s$存在，并且在$s(E)$上存在由$\mathscr{S}$诱发的结构$\mathscr{S}''$。那么，如果 $j$ 表示 $s(E)$ 的典范嵌入到 A 中，并且如果 $s=j\circ f$，则双射 $f$ 是 E 到 $s(E)$ 的 *同构*。因为$f$是由结构的定义诱导的态射，并且$g=\varphi\circ j$是由于(MO$_{\mathrm{II}}$)而在E上的$s(E)$的态射。由于$g\circ f$和$f\circ g$分别是E和$s(E)$的恒等映射，因此断言是CST8的推论。
 
 ### 习题{#ens-iv-s2-exercises}
 

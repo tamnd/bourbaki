@@ -45,16 +45,16 @@ subsections:
       pdf_page: 138
 statements: 44
 exercises: 3
-content_sha256: f5164983393df5b06dfcbf2cebcad0df350bee3bd2a2c40f86fc2d87d71af997
+content_sha256: bb71f2e3bd963c6cd48f96b639e739eeaf544a1cabd8ea3cc9fd71913f389476
 translated_from: content/en/int/IV/03_s3_lp_spaces.md
 translation_method: google
 source_content_sha256: 7e23198285dc5cb4353370685c3d59fc0442a1a826f792dd80d1ab78eaae10e8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 30f4f026ba44ccaf76159f8ee8d543cf54a38e8d396f4ccd558b7d4a0c7171f7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。 L$^p$空间
@@ -95,13 +95,13 @@ $$
 
 ### 2. 半范数$N_p$
 
-在接下来的所有内容中，$F$表示*完全规范*向量空间（即，Banach空间）超过域$\mathbf{R}$或域$\mathbf{C}$； 元素 $z \in F$ 的 *范数* 将表示为 $|z|$。 Given a mapping $f$ of a set $A$ into $F$, we write $|f|$ for the mapping $x \mapsto |f(x)|$ of $A$ into $\mathbf{R}_+$ (one must take care to note that $|f|$ is a *numerical function*, and not a *number*).
+在接下来的所有内容中，$F$表示*完全规范*向量空间（即，Banach空间）超过域$\mathbf{R}$或域$\mathbf{C}$； 元素 $z \in F$ 的 *范数* 将表示为 $|z|$。 给定集合 $A$ 的映射 $f$ 到 $F$，我们将 $A$ 的映射 $x \mapsto |f(x)|$ 写成 $|f|$ 到$\mathbf{R}_+$（必须注意，$|f|$ 是一个*数字） 函数*，而不是 *数*）。
 
 #### 定义 1 {#int-iv-s3-def-1 .statement tag=08QO}
 
 *令$X$为局部紧凑空间，$\mu$为$X$的测度。对于$X$的每个映射$f$转化为Banach空间$F$，对于每个数$p$，这样$1 \leq p < +\infty$，我们用$N_p(f, \mu)$或简称$N_p(f)$表示，正数* $(\int^* |f|^p d|\mu|)^{1/p}$。
 
-注数$N_p(f)$可以等于$+\infty$。
+请注意，数$N_p(f)$可能等于$+\infty$。
 
 #### 命题 2 {#int-iv-s3-prop-2 .statement tag=08QP}
 
@@ -155,21 +155,21 @@ $$
 
 如果 $0 < p < 1$，则再次集合 $N_p(f) = (\int^* |f|^p d|\mu|)^{1/p}$，但不等式 (4) 和 (5) 不再有效（cf. Ch. I，Exer. 6 和 Ch. IV, §6，Exer. 13）。
 
-### 3. The spaces $\mathscr{F}_F^p$
+### 3. 空间 $\mathscr{F}_F^p$
 
-设 F 是 X 的所有映射到 F 中的 Banach 空间、$\mathscr{F}(X; F)$（或简称 $\mathscr{F}_F$）向量空间。对于 $1 \leq p < +\infty$，我们将用 $\mathscr{F}^p(X, \mu; F)$ 或 $\mathscr{F}_F^p(X, \mu)$ 表示，或简称 $\mathscr{F}_F^p(\mu)$，或$\mathscr{F}_F^p$（如果不会造成混淆），将X的映射 f 的集合代入F，使得$N_p(f) < +\infty$（我们写为$\mathscr{F}^p$而不是$\mathscr{F}_R^p$）。显然$\mathscr{F}_F^p(|\mu|) = \mathscr{F}_F^p(\mu)$。从No. 2的命题2可以立即得出，$\mathscr{F}_F^p$是$\mathscr{F}_F$的*线性子空间*，而$N_p(f)$是空间的*半范数*。我们将始终假设（没有明确提及相反）$\mathscr{F}_F^p$配备有由该半范数定义的拓扑；我们可以说，这个拓扑是阶p*的均值收敛的*拓扑（对于$p = 1$，我们简称为均值收敛的*拓扑*；对于$p = 2$，也称“二次均值收敛的拓扑”）。我们可以说，$\mathscr{F}_F^p$上的过滤器$\mathscr{G}$（分别是元素或$\mathscr{F}_\mathbf{F}^p$的序列$(f_n)$）收敛到$f$，对于这个拓扑*收敛于阶*的平均值$p$ 至 $f$；因此，这意味着 $N_p(g - f)$ 相对于 $\mathscr{G}$ 趋于 0（即 $N_p(f_n - f)$ 趋于 0，因为 $n$ 趋于无穷大）。
+设 F 是 X 的所有映射到 F 中的 Banach 空间、$\mathscr{F}(X; F)$（或简称 $\mathscr{F}_F$）向量空间。对于 $1 \leq p < +\infty$，我们将用 $\mathscr{F}^p(X, \mu; F)$ 或 $\mathscr{F}_F^p(X, \mu)$ 表示，或简称 $\mathscr{F}_F^p(\mu)$，或$\mathscr{F}_F^p$（如果不会造成混淆），将X的映射 f 的集合代入F，使得$N_p(f) < +\infty$（我们写为$\mathscr{F}^p$而不是$\mathscr{F}_R^p$）。显然$\mathscr{F}_F^p(|\mu|) = \mathscr{F}_F^p(\mu)$。从No. 2的命题2可以立即得出，$\mathscr{F}_F^p$是$\mathscr{F}_F$的*线性子空间*，而$N_p(f)$是空间的*半范数*。我们将始终假设（没有明确提及相反）$\mathscr{F}_F^p$配备有由该半范数定义的拓扑；我们可以说，这个拓扑是阶p*的均值收敛的*拓扑（对于$p = 1$，我们简称它为均值收敛的*拓扑*；对于$p = 2$，也称“二次均值收敛的拓扑”）。我们可以说，$\mathscr{F}_F^p$上的过滤器$\mathscr{G}$（分别是元素或$\mathscr{F}_\mathbf{F}^p$的序列$(f_n)$）收敛到$f$，对于这个拓扑*收敛于阶*的平均值$p$ 至 $f$；因此，这意味着 $N_p(g - f)$ 相对于 $\mathscr{G}$ 趋于 0（即 $N_p(f_n - f)$ 趋于 0，因为 $n$ 趋于无穷大）。
 
 这个术语扩展立即适用于函数$f_n$和函数$f$几乎到处都有定义（或者在$\overline{\mathbf{R}}$中有值，并且几乎到处都有定义和有限）。
 
-注局部凸空间 $\mathscr{F}_\mathbf{F}^p$ 一般而言*不是 Hausdorff*；这个空间中0的闭包是X的*可忽略*映射到F的线性子空间$\mathscr{N}_\mathbf{F}$（No. 2，命题3）。
+请注意，局部凸空间 $\mathscr{F}_\mathbf{F}^p$ 通常*不是 Hausdorff*；这个空间中0的闭包是X的*可忽略*映射到F的线性子空间$\mathscr{N}_\mathbf{F}$（No. 2，命题3）。
 
-#### 注 {#int-iv-s3-n3-rem-1 .statement tag=08QS}
+#### 注{#int-iv-s3-n3-rem-1 .statement tag=08QS}
 
-— 令 F 为 Banach 空间 *超过域* $\mathbf{C}$ 的复数；然后，对于每个函数$f \in \mathscr{F}_\mathbf{F}^p$和每个复数$\alpha$，$\alpha f$属于到$\mathscr{F}_\mathbf{F}^p$和$N_p(\alpha f) = |\alpha| N_p(f)$；在其他字中，$\mathscr{F}_\mathbf{F}^p$也是向量空间超过$\mathbf{C}$，并且$N_p(f)$是这个复合体向量空间（TVS，II, §1）的半范数。
+— 令 F 为 Banach 空间 *超过域* $\mathbf{C}$ 或复数；然后，对于每个函数$f \in \mathscr{F}_\mathbf{F}^p$和每个复数$\alpha$，$\alpha f$属于到$\mathscr{F}_\mathbf{F}^p$和$N_p(\alpha f) = |\alpha| N_p(f)$；在其他字中，$\mathscr{F}_\mathbf{F}^p$也是向量空间超过$\mathbf{C}$，并且$N_p(f)$是这个复合体向量空间（TVS，II, §1）的半范数。
 
 #### 命题 4 {#int-iv-s3-prop-4 .statement tag=08QT}
 
-*让$\mathscr{B}$成为$\mathscr{F}_\mathbf{F}^p$上的过滤器基。假设存在紧集$K \subset X$，使得对于每个集合$M \in \mathscr{B}$，所有映射$f \in M$的支持都包含在K中。在这些条件下，如果$\mathscr{B}$在X一致收敛到$f_0$，则 $f_0$ 属于到 $\mathscr{F}_\mathbf{F}^p$，$\mathscr{B}$ 收敛于阶 $p$ 到 $f_0$。*
+*让$\mathscr{B}$成为$\mathscr{F}_\mathbf{F}^p$上的过滤器基。假设存在紧集$K \subset X$，使得对于每个集合$M \in \mathscr{B}$，所有映射$f \in M$的支持都包含在K中。在这些条件下，如果$\mathscr{B}$在X一致收敛到$f_0$，然后 $f_0$ 属于到 $\mathscr{F}_\mathbf{F}^p$ 和 $\mathscr{B}$ 收敛于阶 $p$ 到 $f_0$。*
 
 同样的道理，在映射$f \in \mathscr{F}_\mathbf{F}^p$的集合上，其支撑包含在固定的紧集中，拓扑的一致收敛性比阶的均值收敛性拓扑*更细**更细* $p$。
 
@@ -277,16 +277,16 @@ Th。 2 可以如下锐化：
 
 — *如果柯西序列* $(f_n)$ *在空间* $\mathscr{L}_F^p$ *使得序列* $(f_n(x))$ *几乎处处收敛到* $f(x)$*，则* $f$ *是第 p 个幂可积和序列* $(f_n)$ *收敛于阶* $p$ *到* $f$。
 
-因为，存在$(f_n)$的子序列$(f_{n_k})$，使得$(f_{n_k}(x))$几乎处处收敛到$g(x)$，其中$g$是$\mathscr{L}_F^p$中的函数，使得$(f_n)$收敛于阶的均值$p$ 至 $g$。因此，这些假设意味着 $f(x) = g(x)$ 几乎无处不在，从而是推论。
+因为，存在$(f_n)$的子序列$(f_{n_k})$，使得$(f_{n_k}(x))$几乎处处收敛到$g(x)$，其中$g$是$\mathscr{L}_F^p$中的函数，使得$(f_n)$收敛于阶的均值$p$ 至 $g$。因此，假设意味着 $f(x) = g(x)$ 几乎无处不在，从而推论。
 
 #### 推论 2 {#int-iv-s3-thm-3-cor-2 .statement tag=08R4}
 
 — *让*$\mathscr{E}$*成为*$\mathscr{L}_F^p$的密集子集。 *对于每个函数* $f \in \mathscr{L}_F^p$，*在* $\mathscr{E}$ *中存在序列* $(g_n)$ *中的函数 *具有以下属性*：
 
 1° *序列* $(g_n)$ *收敛于阶* $p$ *到* $f$；
-2° *几乎每个* $x \in X$，*序列* $(g_n(x))$ *收敛到* $f(x)$。
+2° *几乎每个* $x \in X$、*序列* $(g_n(x))$ *收敛到* $f(x)$。
 
-因为，由于空间$\mathscr{L}_F^p$是可度量的，$\mathscr{L}_F^p$由……组成中存在$\mathscr{E}$中函数的柯西序列$(f_n)$，并且收敛于阶$p$的平均值$f$（GT、IX, §2, No. 6、提案 8）；应用Th就足够了。 3 到此序列。
+因为，由于空间$\mathscr{L}_F^p$是可度量的，$\mathscr{L}_F^p$由……组成中存在函数在$\mathscr{E}$中的柯西序列$(f_n)$并且收敛于阶$p$至 $f$（GT、IX, §2, No. 6、提案 8）；应用Th就足够了。 3 到此序列。
 
 科。 2特别适用于将$\mathscr{E}$视为*具有紧凑支撑的连续函数*的空间$\mathscr{K}_F$的情况。
 
@@ -302,7 +302,7 @@ $\mathscr{L}_F^p$ 中的柯西序列 $(f_n)$ 可以使得序列 $(f_n(x))$ *在*
 
 #### 定理 4 {#int-iv-s3-thm-4 .statement tag=08R7}
 
-— *让* $F$ *和* $G$ *成为两个Banach 空间，* $u$ *连续的线性映射 of * $F$ *进入* $G$。 *对于每个函数* $f \in \mathscr{L}_F^p$，*复合函数* $u \circ f$ *属于到* $\mathscr{L}_G^p$。
+— *让* $F$ *和* $G$ *成为两个Banach 空间，* $u$ *连续的线性映射 of * $F$ *进入* $G$。 *For every 函数* $f \in \mathscr{L}_F^p$, *composite 函数* $u \circ f$ *属于 to* $\mathscr{L}_G^p$.
 
 令 $f \in \mathscr{L}_F^p$；对于每个$\varepsilon > 0$，都存在函数$g \in \mathscr{K}_F$使得$N_p(f - g) \leq \varepsilon$；从$|u \circ f - u \circ g| \leq \|u\| \cdot |f - g|$开始，我们
 
@@ -314,7 +314,7 @@ $$
 
 #### 推论 1 {#int-iv-s3-thm-4-cor-1 .statement tag=08R8}
 
-— *令* $a'$ *成为* $F$上的连续线性形式； *如果* $f \in \mathscr{L}_F^p$，*数字函数* $x \mapsto \langle f(x), a' \rangle$ **（用$\langle f, a' \rangle$表示）* 属于到* $\mathscr{L}^p$。
+— *Let* $a'$ *be a continuous 线性形式 on* $F$; *if* $f \in \mathscr{L}_F^p$, *numerical 函数* $x \mapsto \langle f(x), a' \rangle$ **(denoted by $\langle f, a' \rangle$)* 属于 to* $\mathscr{L}^p$.
 
 #### 推论 2 {#int-iv-s3-thm-4-cor-2 .statement tag=08R9}
 
@@ -324,15 +324,15 @@ $$
 
 #### 命题 9 {#int-iv-s3-prop-9 .statement tag=08RA}
 
-— 设 F 为 $\mathbf{R}$ 上的 n 维向量空间，并令 $(e_k)_{1 \leq k \leq n}$ 为 F 的基。对于函数 $f = \sum_{k=1}^n e_k f_k$ 至属于至 $\mathscr{L}_F^p$，每个数值函数是充分必要的$f_k$属于至$\mathscr{L}^p$。
+— 令 F 为 $\mathbf{R}$ 上的 n 维向量空间，并令 $(e_k)_{1 \leq k \leq n}$ 为 F 的基。对于函数 $f = \sum_{k=1}^n e_k f_k$ 至属于至 $\mathscr{L}_F^p$，每个数值函数是充分必要的$f_k$属于至$\mathscr{L}^p$。
 
 这是 Cors 的结论。 Th的1和2。 4.
 
 #### 命题 10 {#int-iv-s3-prop-10 .statement tag=08RB}
 
-— 在空间$\mathscr{L}_F^p$中，由（有限）线性组合$\sum_k a_k f_k$形成的线性子空间，其中$a_k \in F$和$f_k$是具有紧支持的连续数值函数，是稠密的（对于拓扑的收敛意味着阶$p$）。
+— 在空间$\mathscr{L}_F^p$中，由（有限）线性组合$\sum_k a_k f_k$形成的线性子空间，其中$a_k \in F$和$f_k$是具有紧支撑的连续数值函数，是稠密的（对于拓扑的收敛意味着阶$p$）。
 
-X连续映射入F以紧支撑的集合$\mathscr{K}_F$由定义密集于$\mathscr{L}_F^p$。另一方面，每个函数$g \in \mathscr{K}_F$都可以用形式$\sum_k a_k f_k$的函数统一近似，其中$f_k$是连续的函数，并且支持包含在$g$支持的固定紧邻域中（第1章）。 III, §1, No. 2、引理2)；由此可见（No. 3，命题4）$g$位于$\sum_k a_k f_k$、从而命题的集合的$\mathscr{L}_F^p$的闭包中。
+集合 $\mathscr{K}_F$ of continuous 映射 of X into F with compact support is by 定义 dense in $\mathscr{L}_F^p$.另一方面，每个函数$g \in \mathscr{K}_F$可以通过形式$\sum_k a_k f_k$的函数统一近似，其中$f_k$是连续的函数，且支撑包含在$g$支撑的固定紧邻域中（第1章）。 III, §1, No. 2、引理2)； it follows (No. 3, Prop. 4) that $g$ is in the closure in $\mathscr{L}_F^p$ of 集合 of $\sum_k a_k f_k$, 从而命题.
 
 #### 命题 11 {#int-iv-s3-prop-11 .statement tag=08RC}
 
@@ -350,21 +350,21 @@ X连续映射入F以紧支撑的集合$\mathscr{K}_F$由定义密集于$\mathscr
 
 — $\mathscr{L}^p$ 属于到 $\mathscr{L}^p$ 中函数有限族的上（或下）包络线。
 
-### 6. 有向集合 $L^p$ 和递增序列 $\mathscr{L}^p$
+### 6. $L^p$中的有向集合和$\mathscr{L}^p$中的递增序列
 
-我们在$X$中几乎处处定义且有限的数值函数的等价类的集合$\widetilde{\mathscr{F}}$中定义了(§ 2, No. 6)序关系$\tilde{f} \leq \tilde{g}$；配备此序关系和向量空间结构，$\widetilde{\mathscr{F}}$是*Riesz空间*。 No. 5第12条推论表明，如果$\tilde{f}$和$\tilde{g}$是子空间$L^p$和$\widetilde{\mathscr{F}}$的两个元素，则$\tilde{f}$的上等$\sup(\tilde{f}, \tilde{g})$和$\widetilde{\mathscr{F}}$中的$\tilde{g}$（即函数$\sup(f, g)$中每个类，其中$f \in \tilde{f}$和$g \in \tilde{g}$）属于至$L^p$；这特别证明了$L^p$配备了由$\widetilde{\mathscr{F}}$诱导的序关系，是*Riesz空间*。
+我们在$X$中几乎处处定义了数值函数的等价类的集合$\widetilde{\mathscr{F}}$中的(§ 2, No. 6)序关系$\tilde{f} \leq \tilde{g}$；配备此序关系及其向量空间结构，$\widetilde{\mathscr{F}}$是*Riesz空间*。 No. 5第12条命题推论表明，如果$\tilde{f}$和$\tilde{g}$是子空间的元素和$\widetilde{\mathscr{F}}$的$L^p$，则$\tilde{f}$的上等$\sup(\tilde{f}, \tilde{g})$和$\widetilde{\mathscr{F}}$中的$\tilde{g}$（即函数$\sup(f, g)$中每个类，其中$f \in \tilde{f}$和$g \in \tilde{g}$）属于至$L^p$；这特别证明了$L^p$，配备了由$\widetilde{\mathscr{F}}$诱导的序关系，是*Riesz空间*。
 
 #### 命题 13 {#int-iv-s3-prop-13 .statement tag=08RF}
 
-*在Riesz空间$L^p$中，配备由范数$\| \tilde{f} \|_p$定义的拓扑，映射$\tilde{f} \mapsto | \tilde{f} |$均匀连续，元素$\tilde{f} \geq 0$的集合是封闭的。*
+*在Riesz空间$L^p$中，配备范数$\| \tilde{f} \|_p$定义的拓扑，映射$\tilde{f} \mapsto | \tilde{f} |$均匀连续，元素$\tilde{f} \geq 0$的集合为已关闭。*
 
-命题的第一个部分立即来自No. 5的第11条提案；由于$\tilde{f} \geq 0$的集合也是$\tilde{f}$的集合，使得$| \tilde{f} | = f$，它是闭集，因为$\tilde{f} \mapsto | \tilde{f} |$是连续的映射，$L^p$是Hausdorff。
+命题的第一个部分立即来自No. 5的第11条命题；因为$\tilde{f} \geq 0$的集合也是$\tilde{f}$的集合使得$| \tilde{f} | = f$，所以它是闭集，因为$\tilde{f} \mapsto | \tilde{f} |$是连续的映射而$L^p$是Hausdorff。
 
 因此，我们看到范数$\| \tilde{f} \|_p$定义的$L^p$上的拓扑与$L^p$（TVS，II, § 2, No. 7）的有序向量空间结构“相容的”。
 
 #### 命题 14 {#int-iv-s3-prop-14 .statement tag=08RG}
 
-*令 $H$ 为 Riesz 空间 $L^p$ 的子集，类 $\geq 0$ 的由……组成，并指向关系 $\leq$。对于 $H$ 在 $L^p$ 有一个上界，有必要且充分*
+*令$H$为Riesz空间$L^p$的子集，类$\geq 0$的由……组成，并指向关系$\leq$。对于 $H$ 在 $L^p$ 有一个上界，有必要且充分*
 
 $$
 \sup_{\tilde{f} \in H} \| \tilde{f} \|_p < +\infty.
@@ -408,15 +408,15 @@ $$
 
 Riesz 空间 $L^p$ 是完全晶格有序的。
 
-$L^p$中的每个有向集合$\mathrm{H}$（对于关系$\leq$）、类$\geq 0$的由……组成以及在$L^p$中的上界，都有一个上界：对于，如果$\tilde{h}$是上界对于$L^p$中的$\mathrm{H}$，则$\|\tilde{f}\|_p \leq \|\tilde{h}\|_p$对于所有$\tilde{f} \in \mathrm{H}$，并且第14条命题适用。这证明了推论（第 II, §1, No. 3 章，命题 1）。
+$L^p$中的每个有向集合$\mathrm{H}$（对于关系$\leq$）、类$\geq 0$的由……组成以及在$L^p$中的上界，都有一个上界：对于，如果$\tilde{h}$是上界对于$L^p$中的$\mathrm{H}$，则$\|\tilde{f}\|_p \leq \|\tilde{h}\|_p$对于所有$\tilde{f} \in \mathrm{H}$，并且第14条命题适用。这证明了推论（第II, §1, No. 3章，命题1）。
 
-当第 14 条命题的结论在$\mathscr{L}^p$ 中针对函数而不是类时，它们就不再成立。准确地说，如果$M$是$\mathscr{L}^p$中的子集，函数$\geq 0$中的由……组成，指向关系$\leq$，并且使得上封套的$\sup_{f \in M} N_p(f) < +\infty$，*类* $M$ 的$g$ *不一定与函数* 的类* $L^p$ *中的上界相同 f \in M ；特别是，g 不一定是第 p 个幂可积，即使$g \in \mathscr{L}^p$、$N_p(g)$ 也可以与 $\sup_{f \in M} N_p(f)$ 不同（Th.3 之后的cf. §1, No. 3、注 1）。
+当第 14 条命题的结论在$\mathscr{L}^p$ 中针对函数而不是类时，它们就不再成立。准确地说，如果$M$是$\mathscr{L}^p$中的子集，函数$\geq 0$中的由……组成，指向关系$\leq$，并且使得上封套的$\sup_{f \in M} N_p(f) < +\infty$，*类* $M$ 的$g$ *不一定与函数* 的类* $L^p$ *中的上界相同 f \in M ；特别是，g 不一定是第 p 个幂可积，即使 $g \in \mathscr{L}^p$、$N_p(g)$ 也可以与 $\sup_{f \in M} N_p(f)$ 不同（Th. 3 之后的cf. §1, No. 3、注 1）。
 
 尽管如此，我们还是有以下定理：
 
 #### 定理 5 {#int-iv-s3-thm-5 .statement tag=08RK}
 
-*令$(f_n)$为$\mathscr{L}^p$中函数$\geqslant 0$中的递增序列。为了使序列的上包络$f$是第p次幂可积，$\sup_n N_p(f_n) < +\infty$是必要且充分的。 序列 $(f_n)$ 然后以阶 $p$ 的平均值收敛到 $f$，并且*
+*令$(f_n)$为$\mathscr{L}^p$中的函数$\geqslant 0$中的递增序列。为了使序列的上包络$f$是第p次幂可积，$\sup_n N_p(f_n) < +\infty$是必要且充分的。 序列 $(f_n)$ 然后以阶 $p$ 的平均值收敛到 $f$，并且*
 
 $$
 N_p(f) = \sup_n N_p(f_n) = \lim_{n \to \infty} N_p(f_n).
@@ -426,7 +426,7 @@ $$
 
 #### 推论 1 {#int-iv-s3-thm-5-cor-1 .statement tag=08RL}
 
-*令$(f_n)$为$\mathscr{L}^p$中函数$\geqslant 0$的递减序列；那么，序列属于到$\mathscr{L}^p$的下包络线$f$、序列$(f_n)$收敛于阶$p$到$f$的平均值，并且*
+*设$\mathscr{L}^p$中$(f_n)$为函数$\geqslant 0$中的递减序列；那么，序列属于到$\mathscr{L}^p$的下包络$f$、序列$(f_n)$收敛于阶$p$到$f$的平均值，并且*
 
 $$
 N_p(f) = \lim_{n \to \infty} N_p(f_n) = \inf_n N_p(f_n).
@@ -442,13 +442,13 @@ $$
 
 #### 推论 3 {#int-iv-s3-thm-5-cor-3 .statement tag=08RN}
 
-— 令 $A$ 为可数集合，$\mathfrak{F}$ $A$ 上的过滤器，具有可数基，$(f_\alpha)_{\alpha \in A}$ $\mathscr{L}^p$ 中的函数 $\geq 0$ 族。假设存在函数$g \geq 0$，使得所有$\alpha \in A$都有$N_p(g) < +\infty$和$f_\alpha \leq g$；那么函数 $\limsup_{\mathfrak{F}} f_\alpha$ 是 $p$-th 幂可积且
+— 令 $A$ 为可数集合，$\mathfrak{F}$ $A$ 上的过滤器，具有可数基，$(f_\alpha)_{\alpha \in A}$ $\mathscr{L}^p$ 中的函数 $\geq 0$ 族。假设存在函数 $g \geq 0$，使得所有$\alpha \in A$都有$N_p(g) < +\infty$和$f_\alpha \leq g$；那么函数 $\limsup_{\mathfrak{F}} f_\alpha$ 是 $p$-th 幂可积且
 
 $$
 \limsup_{\mathfrak{F}} N_p(f_\alpha) \leq N_p(\limsup_{\mathfrak{F}} f_\alpha).
 $$
 
-设$(A_n)$为$\mathfrak{F}$和集合$g_n = \sup_{\alpha \in A_n} f_\alpha$中的递减基；因为 $A_n$ 是可数的集合，所以它可以从 Cor 推导出来。 2 $g_n$ 是第 $p$ 个幂可积；另一方面，$N_p(g_n) \geq \sup_{\alpha \in A_n} N_p(f_\alpha)$。既然这样，$\limsup_{\mathfrak{F}} f_\alpha$就是递减序列$(g_n)$的下包络线；因此 $\limsup_{\mathfrak{F}} f_\alpha$ 是 $p$-th 幂可通过 Cor 积分。 1、和
+设$(A_n)$为$\mathfrak{F}$和集合$g_n = \sup_{\alpha \in A_n} f_\alpha$中的递减基；由于 $A_n$ 是可数集合，因此可以从 Cor 得出。 2 $g_n$ 是第 $p$ 个幂可积；另一方面，$N_p(g_n) \geq \sup_{\alpha \in A_n} N_p(f_\alpha)$。这样一来，$\limsup_{\mathfrak{F}} f_\alpha$就是递减序列$(g_n)$的下包络线；因此 $\limsup_{\mathfrak{F}} f_\alpha$ 是 $p$-th 幂可通过 Cor 积分。 1、和
 
 $$
 N_p(\limsup_{\mathfrak{F}} f_\alpha) = N_p \left( \inf_n g_n \right) = \lim_{n \to \infty} N_p(g_n)
@@ -471,15 +471,15 @@ $$
 
 并且由于 $N_p(f_m - f_n) \geq 0$ 这意味着 $\lim_{m \to \infty, n \to \infty} N_p(f_m - f_n) = 0$；在其他字中，序列$(f_n)$是$\mathscr{L}_F^p$中的柯西序列。因此定理由 Cor 得出。 1 Th。 No. 4 中的 3 个。
 
-#### 推论{#int-iv-s3-n7-cor-1 .statement tag=08RP}
+#### 推论 {#int-iv-s3-n7-cor-1 .statement tag=08RP}
 
 — 令 $A$ 为指标的集合，由具有可数基的过滤器 $\mathfrak{F}$ 过滤。如果$(f_\alpha)_{\alpha \in A}$是$\mathscr{L}_F^p$中的函数族，相对于滤波器$\mathfrak{F}$，几乎处处逐点收敛到函数$f$，此外，如果存在一个数值函数$g \geq 0$，使得$\int^* g^p d|\mu| < +\infty$和$|f_\alpha(x)| \leq g(x)$对于每个 $\alpha \in A$，几乎在 $X$ 中的所有位置，则函数 $f$ 是 $p$-第幂可积，并且 $f_\alpha$ 相对于滤波器倾向于阶 $p$ 到 $f$ 的平均值$\mathfrak{F}$。
 
-For, let $(A_n)$ be a decreasing countable base of $\mathfrak{F}$, and let $\alpha_n$ be any element of $A_n$; the sequence $(f_{\alpha_n})$ converges pointwise to $f$ almost everywhere in $X$, thus Th. 6 shows that $f$ is $p$-th power integrable and that $\lim_{n \to \infty} N_p(f - f_{\alpha_n}) = 0$. 由于$\mathfrak{F}$是与所有此类序列$(\alpha_n)$（GT，I, §6, No. 8，命题11）相关联的基本滤波器的交滤波器，$\lim_{\mathfrak{F}} N_p(f - f_\alpha)$存在并且等于所有序列$(N_p(f - f_{\alpha_n}))$中的公共的极限0。
+例如，令$(A_n)$为$\mathfrak{F}$的递减可数底数，并令$\alpha_n$为$A_n$的任意元素；序列 $(f_{\alpha_n})$ 几乎在 $X$ 中的所有位置逐点收敛到 $f$，因此 Th。图6显示$f$是$p$次方可积，并且$\lim_{n \to \infty} N_p(f - f_{\alpha_n}) = 0$。 由于$\mathfrak{F}$是与所有此类序列$(\alpha_n)$（GT，I, §6, No. 8，命题11）相关联的基本滤波器的交滤波器，$\lim_{\mathfrak{F}} N_p(f - f_\alpha)$存在并且等于所有序列$(N_p(f - f_{\alpha_n}))$中的公共的极限0。
 
 #### 注 1 {#int-iv-s3-n7-rem-1 .statement tag=08RQ}
 
-Th。如果假设$|f_n| \leq g$（与$N_p(g) < +\infty$）被较弱的假设$\sup_n N_p(f_n) < +\infty$取代，则6不再成立。假设对于例，$\mu$是$\mathbf{R}$上的勒贝格测度； 定义连续函数$f_n$，如下：$f_n(x) = 0$对于$x \leq 0$以及对于$x \geq \frac{2}{n}$、$f_n(\frac{1}{n}) = n$、$f_n$在区间$[0, \frac{1}{n}]$和$[\frac{1}{n}, \frac{2}{n}]$上呈线性。然后对所有$x \in \mathbf{R}$使用$\lim_{n \to \infty} f_n(x) = 0$，但对每个$n$使用$N_1(f_n) = 1$（cf.§5，Exer.12）。
+Th。如果假设$|f_n| \leq g$（与$N_p(g) < +\infty$）被较弱的假设$\sup_n N_p(f_n) < +\infty$取代，则6不再成立。例如，假设$\mu$是$\mathbf{R}$上的勒贝格测度； 定义连续函数$f_n$，按以下方式：$f_n(x) = 0$对于$x \leq 0$和$x \geq \frac{2}{n}$，$f_n(\frac{1}{n}) = n$，$f_n$在区间$[0, \frac{1}{n}]$和$[\frac{1}{n}, \frac{2}{n}]$上呈线性。然后对所有$x \in \mathbf{R}$使用$\lim_{n \to \infty} f_n(x) = 0$，但对每个$n$使用$N_1(f_n) = 1$（cf.§5，Exer.12）。
 
 #### 注 2 {#int-iv-s3-n7-rem-2 .statement tag=08RR}
 
@@ -493,7 +493,7 @@ Th。如果假设$|f_n| \leq g$（与$N_p(g) < +\infty$）被较弱的假设$\su
 
 — 令$p$和$q$为两个实数，使得$1 \leq p < +\infty$、$1 \leq q < +\infty$。如果函数 $f$ 属于至 $\mathscr{L}_F^p$，则函数 $|f|^{(p/q)-1} \cdot f$ 属于至 $\mathscr{L}_F^q$，反之亦然。
 
-到假设时，存在连续函数的序列 $(f_n)$ 且具有紧凑的支持，使得 $\sum_{n=1}^\infty N_p(f_n) < +\infty$ 和 $f(x) = \sum_{n=1}^\infty f_n(x)$ 几乎无处不在（No. 4，Th.3）。 集合
+到假设时，存在连续函数的序列 $(f_n)$，并且具有紧凑的支持，使得 $\sum_{n=1}^\infty N_p(f_n) < +\infty$ 和 $f(x) = \sum_{n=1}^\infty f_n(x)$ 几乎无处不在（No. 4，Th.3）。 集合
 
 $$
 g_n = |f_1 + f_2 + \cdots + f_n|^{(p/q)-1} \cdot (f_1 + f_2 + \cdots + f_n);
@@ -523,8 +523,8 @@ $$
 
 — *对于正数函数 $f$ 至属于至 $\mathscr{L}^p$，$f^p$ 属于至 $\mathscr{L}^1$ 是充分必要的。*
 
-注，如果$f$是任意符号的数字函数，则$|f|^p$属于到$\mathscr{L}^1$，$f$不一定是属于到$\mathscr{L}^p$（cf.§ 4，锻炼8）。
+请注意，如果$f$是任意符号的数字函数，则$|f|^p$属于到$\mathscr{L}^1$，$f$不一定是属于到$\mathscr{L}^p$（cf.§ 4，Exer.8）。
 
-### 习题 {#int-iv-s3-exercises}
+### 习题{#int-iv-s3-exercises}
 
 参见[习题为 § 3](exercises/s3/)。

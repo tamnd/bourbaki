@@ -40,16 +40,16 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 18
-content_sha256: 3790a77d702a78671fe577fc4681fef51564ea3bce8c77fba5d0e842731c6b05
+content_sha256: 28e2fd28bafab7dedda90ca63af3a5f6198a4a95b9f6df7f5418f283719b650a
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
 translation_method: google
 source_content_sha256: 4e7875bd1f38c0a02c517e1a85849c5df0ef1b2158b71d579dbe784bbc3c6f54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c2c102164c1d043dce55ec395ea905a690768a50747a4e7ad1f2b9be6142cffd
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。拓扑中的出生学向量空间
@@ -58,9 +58,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#evt-iii-s1-def-1 .statement tag=07KW}
 
-— *A bornology on a set* $E$ *is a subset* $\mathscr{B}$ *of the set of all subsets of* $E$ *satisfying the following conditions* (cf. GT, X, § 1.2, Remark 2).
-(B1) *Every subset of a set of* $\mathscr{B}$ *belongs to* $\mathscr{B}$.
-(B2) *Every finite union of a set of* $\mathscr{B}$ *belongs to* $\mathscr{B}$.
+— *集合上的出生学* $E$ *是子集* $\mathscr{B}$ *所有子集的集合* $E$ *满足以下条件*（cf. GT，X, § 1.2，备注 2）。
+(B1) *一组* $\mathscr{B}$ *的每个子集都属于* $\mathscr{B}$。
+(B2) *一组* $\mathscr{B}$ *的每个有限并集都属于* $\mathscr{B}$。
 
 *我们说* $\mathscr{B}$ *正在覆盖，如果* $E$ *的每个元素都包含在集合中，其中属于到* $\mathscr{B}$，*或者，这是相同的，如果* $\mathscr{B}$ *是* $E$的覆盖。
 
@@ -142,14 +142,14 @@ A \subset \bigcup_{1 \leq i \leq n} (a_i + V).
 $$
 由于 $B = \{a_1, ..., a_n\}$ 有界，因此存在标量 $\lambda$ 使得 $0 < \lambda < 1$ 和 $\lambda B \subset V$；我们有 $\lambda A \subset \lambda B + \lambda V \subset V + V$，然后是命题。
 
-#### 推论{#evt-iii-s1-n2-cor-1 .statement tag=07L5}
+#### 推论 {#evt-iii-s1-n2-cor-1 .statement tag=07L5}
 
 *在局部凸空间中，柯西序列的点的集合是有界的。*
 事实上，这个集合是预紧的（GT，II, § 4, No. 2）。
 
 #### 注 5 {#evt-iii-s1-n2-rem-5 .statement tag=07L6}
 
-— 一般来说，局部凸空间 $E$ 的有界子集并不都是预紧的（对于例，如果 $E$ 是一个无限维范数空间，则其单位球不是紧的（I、p. 15、th. 3））。然而，如果$E$是弱空间（II，p. 42）：对于与E相关的豪斯多夫拓扑向量空间，则同构于乘积K^l的子空间，其有界子集是预紧的（*cf.* III，p. 4，cor.2）。
+— 一般来说，局部凸空间 $E$ 的有界子集并不都是预紧的（例如，如果 $E$ 是一个无限维范数空间，则其单位球不是紧的（I、p. 15、第 3 个））。然而，如果$E$是弱空间（II，p. 42）：对于与E相关的Hausdorff拓扑向量空间，则同构于乘积K^l的子空间，其有界子集是预紧的（*cf.* III，p. 4，cor.2）。
 对于其他例，请参阅IV、p. 18。
 
 #### 命题 3 {#evt-iii-s1-prop-3 .statement tag=07L7}
@@ -160,7 +160,7 @@ $$
 
 相反，如果 A 无界且 (\lambda_n) 是标量 \neq 0 的序列，则存在 A 的点的连续半范数 p 和序列 (x_n)，使得 $p(x_n) \geq \frac{n}{|\lambda_n|}$。那么我们就知道 $p(\lambda_n x_n) \geq n$ 和序列 (\lambda_n x_n) 是无界的。
 
-#### 推论{#evt-iii-s1-n2-cor-2 .statement tag=07L8}
+#### 推论 {#evt-iii-s1-n2-cor-2 .statement tag=07L8}
 
 — *E 的子集 A 是有界的当且仅当 A 的每个可数子集都是有界的。*
 
@@ -226,7 +226,7 @@ $$
 
 在支柱的假设下。 7、$E$中的拓扑是最精细的拓扑，其中所有映射$v_n : E_n \to E$都是连续的。
 
-我们需要证明，如果$U$是$E$的子集，使得对于每个$n$，$U \cap E_n$在$E_n$中开，那么$U$在$E$中开；在其他字，我们必须证明，对于每个$x \in U$，存在一个*凸平衡*集合$V$，使得$x + V \subset U$和$V \cap E_n$对于每个足够大的$n$来说$E_n$中的邻域为0 （II，p. 27，第 5 条）。 对于每个$n$，令$W_n$是$E_n$中0的凸平衡邻域，使得$E_{n+1}$中$W_n$的闭包$H_n$是紧凑的。 令 $x \in U$ 且令 $n_0$ 为整数，使得 $x \in E_{n_0}$。 We shall construct, by induction, a sequence $(\varepsilon_n)_{n \geq 0}$ of scalars $> 0$ such that $x + \sum_{n_0 \leq i \leq n} \varepsilon_i H_i$ is contained in $U$ for $n \geq n_0$. 假设$i < n$的$\varepsilon_i$已经构造完毕。 若$n = n_0$、集合$V_{n-1} = \{0\}$；如果没有，集合
+我们需要证明，如果$U$是$E$的子集，使得对于每个$n$，$U \cap E_n$在$E_n$中开，那么$U$在$E$中开；在其他字，我们必须证明，对于每个$x \in U$，存在一个*凸平衡*集合$V$，使得$x + V \subset U$和$V \cap E_n$对于每个足够大的$n$来说$E_n$中的邻域为0 （II，p. 27，第 5 条）。 对于每个$n$，令$W_n$是$E_n$中0的凸平衡邻域，使得$E_{n+1}$中$W_n$的闭包$H_n$是紧凑的。 令 $x \in U$ 且令 $n_0$ 为整数，使得 $x \in E_{n_0}$。 我们将通过归纳法构造标量$> 0$的序列$(\varepsilon_n)_{n \geq 0}$，使得$x + \sum_{n_0 \leq i \leq n} \varepsilon_i H_i$包含在$n \geq n_0$的$U$中。 假设$i < n$的$\varepsilon_i$已经构造完毕。 若$n = n_0$、集合$V_{n-1} = \{0\}$；如果没有，集合
 $$
 V_{n-1} = \sum_{n_0 \leq i \leq n-1} \varepsilon_i H_i.
 $$
@@ -266,28 +266,28 @@ $$
 #### 定义 6 {#evt-iii-s1-def-6 .statement tag=07LN}
 
 — *如果 E 的每个闭有界子集都是完备的，则称局部凸空间 E 是准完备的（对于由 E 导出的一致结构）。*
-    完全局部凸空间是准完备的，但逆命题并不总是正确的。 *对于例，如果 E 是无限维 Hilbert 空间，或者更一般地说，是无限维自反 Banach 空间，则带有弱化拓扑的 E 是准完备但不完备（II，p. 51，道具 9）。*
-    准完备空间是半完备的，因为每个柯西序列都包含在一个封闭且有界的子集中（III，p. 3，推论和命题 1）。特别是，局部凸可度量且准完备的空间是完备的。
+    完全局部凸空间是准完备的，但逆命题并不总是正确的。 *例如，如果 E 是无限维 Hilbert 空间，或者更一般地说，是无限维自反 Banach 空间，则带有弱化拓扑的 E 是准完备的，但不是完备的（II，p. 51，道具 9）。*
+    准完备空间是半完备的，因为每个柯西序列都包含在一个封闭且有界的子集（III、p. 3、推论和道具1）中。特别是，局部凸可度量且准完备的空间是完备的。
     在 Hausdorff 准完备空间中，预紧式子集的闭包和封闭凸平衡包络线是紧致的；事实上，它们是预紧的（II，p. 25，命题3），并且是完全闭集和有界的（III，p. 3，命题2）。
 
 #### 命题 9 {#evt-iii-s1-prop-9 .statement tag=07LO}
 
 — (i) *准完备局部凸空间的闭向量子空间是准完备的。*
     (ii) *准完全局部凸空间的乘积是准完全的。*
-    (iii) *拟完备局部凸空间的拓扑直和是准完备的。*
+    (iii) *拟完全局部凸空间的拓扑直和是拟完全的。*
     (iv) *局部凸空间，闭拟完备子空间的序列的严格归纳极限是准完备的。*
-    断言 (i) 源自 *注 2* (III, p. 2), (ii) 源自 III, p. 4，cor。 2，（iii）来自道具。 5 (III, p. 5) 和 (iv) 来自道具。 6（III，p. 5）。
+    断言 (i) 源自 *注 2* (III, p. 2), (ii) 源自III, p. 4，cor。 2，（iii）来自道具。 5 (III, p. 5) 和 (iv) 来自道具。 6（III，p. 5）。
 
-    稍后我们将看到，准完备局部凸空间与闭向量空间的商空间不一定是准完备的（IV，p. 63，执行10）。
+    稍后我们将看到，闭向量空间的准完全局部凸空间的商空间不一定是准完全的（IV，p. 63，练习 10）。
 
 #### 命题 10 {#evt-iii-s1-prop-10 .statement tag=07LP}
 
 — *令 E 为 E 的局部凸空间，M 向量子空间，使得 E 的每个点都位于 M 的有界子集的闭包内。则从 M 开始的每个连续线性映射 f 变为 Hausdorff 拟完全局部凸空间 F 唯一扩展到从 E 到 F 的连续线性映射。*
-假设意味着 M 在 E 中是稠密的，因此 f 扩展唯一地从 E 到 F 的完成$\hat{F}$ 的连续线性映射 $\hat{f}$（GT，III, § 3, No. 4，推论）。但每个 $x \in F$ 都位于 M 的有界子集 B 的闭包中；因此$\hat{f}(x)$位于$\hat{F}$中$f(B)$的闭包中。但$f(B)$在F中有界，因此它在F中的闭包是完全的，重合在$\hat{F}$中是完全闭包的。这就证明了$\hat{f}(x) \in F$。
+假设意味着 M 在 E 中是稠密的，因此 f 扩展唯一地从 E 到 F 的完成$\hat{F}$ 的连续线性映射 $\hat{f}$ (GT, III, § 3, No. 4, 推论)。但每个 $x \in F$ 都位于 M 的有界子集 B 的闭包中；因此$\hat{f}(x)$位于$\hat{F}$中$f(B)$的闭包中。但是$f(B)$在F中有界，因此它在F中的闭包是完全的，而重合在$\hat{F}$中是完全闭包的。这就证明了$\hat{f}(x) \in F$。
 
 ### 7. 例
 
-a) 设X为拓扑空间。让X上的数值（有限）函数的$\mathscr{R}(X)$，向量空间被分配为紧致收敛（GT，X, § 1, No. 3）的拓扑：这是最粗糙的拓扑，其中限制映射 $\mathscr{R}(X) \to \mathscr{R}(H)$ 是连续的（其中 H 贯穿 X 的紧子集族，并且其中$\mathscr{R}(H)$被指定一致收敛的拓扑）。科。 III、p. 4 的 3 表明，子集 $\mathscr{R}(X)$ 的 A 是有界的当且仅当，对于每个紧致子集 H of X、集合 of 限制到 H of 函数属于到 A 是一致有界的。
+a) 设X为拓扑空间。让X上的数值（有限）函数的$\mathscr{R}(X)$，向量空间被分配为紧致收敛（GT，X, § 1, No. 3）的拓扑：这是最粗糙的拓扑，其中限制映射 $\mathscr{R}(X) \to \mathscr{R}(H)$是连续的（其中H贯穿X的紧子集族，并且其中$\mathscr{R}(H)$被指定一致收敛的拓扑）。科。 III、p. 4 的 3 表明，子集 $\mathscr{R}(X)$ 的 A 是有界的当且仅当，对于每个紧致子集 H of X、集合 of 限制到 H of 函数属于到 A 是一致有界的。
 
 *b) (无限可微函数的空间。)令$n \geqslant 1$为整数。对于 $\mathbf{R}^n$ 中的每个开集合 U，令 $\mathscr{C}^\infty(U)$ 表示 U 上无限可微函数的向量空间 (VAR, R, 2.3)。令 f 在 $\mathscr{C}^\infty(U)$ 中。对于$\mathbf{N}^n$中的每个多索引$\alpha = (\alpha_1, ..., \alpha_n)$，$\partial^\alpha f$表示偏导数$\partial^{|\alpha|} f / \partial x_1^{\alpha_1} ... \partial x_n^{\alpha_n}$；这是 U（VAR、R、2.3 和 2.4）上的连续函数。对于每个整数 $m \geqslant 0$，以及 U 的每个紧凑子集 H，集合
 
@@ -303,7 +303,7 @@ $$
 
 令 $H \subset U$ 是紧致的。我们用函数的 $\mathscr{C}^\infty(U)$ 由……组成的 $\mathscr{C}_H^\infty(U)$ 子空间表示，其支持位于 H 中。 无限可微函数的空间 $\mathscr{C}_c^\infty(U)$ 在 U 中具有紧支持，是有向递增并子空间$\mathscr{C}_H^\infty(U)$，其中 H 穿过 U 的紧致子集族。每个空间$\mathscr{C}_H^\infty(U)$将被分配由$\mathscr{C}^\infty(U)$诱导的拓扑，以及$\mathscr{C}_c^\infty(U)$与相应的诱导的极限拓扑。如果集合$H_n$使得它们的内部形式是U的覆盖，那么空间$\mathscr{C}_c^\infty(U)$是Fréchet空间$\mathscr{C}_{H_n}^\infty(U)$的严格归纳极限；因此它是完整的（II，p. 32，第 9 条），并且 $\mathscr{C}_c^\infty(U)$ 的每个有界子集都包含在子空间 $\mathscr{C}_{H_n}^\infty(U)$ 之一（III，p. 5，第 6 条）。 \*
 
-c) （Gevrey 的空间。）令 I 为 $\mathbf{R}$ 中的紧区间。对于每个整数 $n \geqslant 0$，$D^n f$ 表示在 I 上定义的数值函数 $f$ 的 $n$ 导数（只要该导数存在）。令$s \geqslant 1$和$M \geqslant 0$为两个实数。令 $\mathscr{G}_{s,M}(I)$ 表示 I (FVR, I, p. 28) 上的无限可微函数 $f$ 中的向量空间，其中序列 $(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$ 的边界为所有连续的空间 $\mathscr{C}(I)$ 函数 on I（拓扑一致收敛）。 空间 $\mathscr{G}_{s,M}(I)$ 是 Banach 空间与范数
+c) （Gevrey 的空间。）令 I 为 $\mathbf{R}$ 中的紧致区间。对于每个整数 $n \geqslant 0$，$D^n f$ 表示在 I 上定义的数值函数 $f$ 的 $n$ 导数（只要该导数存在）。令$s \geqslant 1$和$M \geqslant 0$为两个实数。令$\mathscr{G}_{s,M}(I)$表示I（FVR，I，p. 28）上的无限可微函数$f$中的向量空间，其中序列$(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$以所有连续的空间$\mathscr{C}(I)$为界函数 on I（拓扑一致收敛）。 空间 $\mathscr{G}_{s,M}(I)$ 是 Banach 空间与范数
 
 $$
 \|f\|_{s,M} = \sup_{n \geqslant 0, x \in I} |D^n f(x)|/M^n(n!)^s .
@@ -317,7 +317,7 @@ $$
 
 每$f \in \mathscr{G}_{s,M}(I)$。让$\mathscr{G}_s(I)$表示空间$\mathscr{G}_{s,M}(I)$的并，并赋予它$\mathscr{G}_{s,M}(I)$拓扑的归纳极限拓扑。
 
-设 $M < M'$ 并设 B 为 $\mathscr{G}_{s,M}(I)$ 中的单位球（闭合）。我们将证明 B 是 Banach 空间 $\mathscr{G}_{s,M'}(I)$ 的紧子集。显然，B 在$\mathscr{G}_{s,M'}(I)$ 是闭集，因此只需证明 B 在$\mathscr{G}_{s,M'}(I)$ 是预紧的。令 $\varepsilon > 0$ 并令 N 为正整数，使得 $(M/M')^N \leqslant \varepsilon/2$。设$k$为正整数；所有函数 $D^{k+1} f$ 中的集合（因为 $f$ 范围在 B 上）的边界在 $\mathscr{C}(I)$ 内，因此所有函数 $D^k f$ 中的集合（因为 $f$ 范围在 B 上）在 $\mathscr{C}(I)$ 中相对紧凑：这是从有限增量的定理（FVR，I，p. 23，cor.1）和Ascoli的定理（GT，X, § 2, No. 5）得出的。我们定义范数于$\mathscr{G}_{s,M}(I)$
+设 $M < M'$ 并设 B 为 $\mathscr{G}_{s,M}(I)$ 中的单位球（闭合）。我们将证明 B 是 Banach 空间 $\mathscr{G}_{s,M'}(I)$ 的紧子集。显然，B 在$\mathscr{G}_{s,M'}(I)$ 是闭集，因此只需证明 B 在$\mathscr{G}_{s,M'}(I)$ 是预紧的。令 $\varepsilon > 0$ 并令 N 为正整数，使得 $(M/M')^N \leqslant \varepsilon/2$。设$k$为正整数；所有函数 $D^{k+1} f$ 的集合（因为 $f$ 范围在 B 上）的范围在 $\mathscr{C}(I)$ 内，因此所有函数 $D^k f$ 中的集合（因为 $f$ 范围在 B 上）在 $\mathscr{C}(I)$ 中相对紧凑：这是从有限增量的定理（FVR，I，p. 23，cor.1）和Ascoli的定理（GT，X, § 2, No. 5）得出的。我们定义范数于$\mathscr{G}_{s,M}(I)$
 
 $$
 q(f) = \sup_{0 \leqslant n \leqslant N, x \in I} |D^n f(x)|/M^n(n!)^s .

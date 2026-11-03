@@ -42,19 +42,19 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: c208650e1c04c5b19a18410191a8fd568d89920169a1a9b5ed204e811b0bf614
+content_sha256: cbb8d7d1f2f6f03d7883a7763f88cbcd8dee664942513ae81692c7a40be9e15d
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
 translation_method: google
 source_content_sha256: 3c20d3c3070caf43cf4bd713b7f6047a4fcb2604b1f551ae1ea6b1868b0306eb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 50af687b67ee3cbcfad045795881c5ebd5041ea0f7b8e7677861f7bcc4d87f78
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 6。 ETALE 代数
+## § 6。埃塔莱代数
 
 在本段中，K 表示域。
 
@@ -80,11 +80,11 @@ $$
 
 #### 推论 1 {#alg-v-s6-thm-1-cor-1 .statement tag=06JC}
 
-— *令$\Gamma$为幺半群，将$\Gamma$的同态的L域和X集合转换为L的乘法幺半群。那么 X 就是向量 L 的自由子集 - $L^\Gamma$ 的映射的 $\Gamma$ 空间到L。*
+— *令$\Gamma$为幺半群，将$\Gamma$的同态的L域和X集合转换为L的乘法幺半群。那么 X 就是向量 L 的自由子集 - $L^\Gamma$ 的映射的 $\Gamma$ 到 L。*
 
-令 A 为幺半群 $\Gamma$ 的代数，系数在 A 的 L 和 $(e_\gamma)_{\gamma \in \Gamma}$ 典范基超过L（III，p. 446）。对于 A 到 L 的每个 L-线性映射 $u$ 让我们写 $\tilde{u}(\gamma) = u(e_\gamma)$ （对于 $\gamma \in \Gamma$）；那么映射$u \mapsto 3$是向量L的同构-$\mathrm{Hom}_L(A, L)$到$L^\Gamma$的空间，其中映射到X集合的空间A 到 L 的L-代数同态。现在应用 Th 就足够了。 1 与 $K = L$。
+设 A 为幺半群 $\Gamma$ 的代数，其中系数在 L 内，并且 A 的 $(e_\gamma)_{\gamma \in \Gamma}$ 典范基在 L 上（III，p. 446）。对于 A 到 L 的每个 L-线性映射 $u$ 让我们写 $\tilde{u}(\gamma) = u(e_\gamma)$ （对于 $\gamma \in \Gamma$）；那么映射$u \mapsto 3$是向量L的同构-$\mathrm{Hom}_L(A, L)$到$L^\Gamma$的空间，其中映射到X集合的空间A 到 L 的L-代数同态。现在应用 Th 就足够了。 1 与 $K = L$。
 
-#### 推论 2（戴德金定理）{#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
+#### 推论 2（戴德金的定理）{#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
 
 *设E和L是K的两个扩张。E到L的K同态的集合在L上是自由的。如果 E 在 K 上为有限次数，则 E 到 L 的 K 同态的数至多等于 $[E : K]$。*
 
@@ -151,11 +151,11 @@ $$
 
 相反，假设 *d)* 成立并考虑 A-模 A,。那么向量 K 空间 A 存在基 $(f_i)$，使得$Af_i = Kf_i$ 对于$i = 1, \ldots, n$。 之后替换每个$f_i$乘以一个合适的标量倍数，如有必要，我们可以假设$1 = f_i + \ldots + f_n$。如果$i \neq j$，则$f_i f_j$属于到$Af_i \cap Af_j = Kf_i \cap Kf_j$，因此它是零。现在$f_i = f_i f_1 + \ldots + f_i f_n = f_i^2$，从而 *b)*。
 
-#### 推论{#alg-v-s6-n3-cor-1 .statement tag=06JH}
+#### 推论 {#alg-v-s6-n3-cor-1 .statement tag=06JH}
 
 *设L为K的扩张，将A的代数同态的$\mathscr{H}$集合代入L。当且仅当 A 被 L 对角化时，我们有卡片 $\mathscr{H} \leq [A : K]$，其中等式。如果 A 按 L 对角化，则 $\mathscr{H}$ 是向量 L-空间 $\mathrm{Hom}_K(A, L)$ 的基。*
 
-向量空间 $\mathrm{Hom}_K(A, L)$ 超过 L 有维数 $[A : K]$，由公式 (2) 提供，$\mathscr{H}$ 是 Th 的 $\mathrm{Hom}_K(A, L)$ 的免费子集。 1（*V*，p. 27）。因此，当且仅当$\mathscr{H}$是$\mathrm{Hom}_K(A, L)$的基时，我们才有卡$\mathscr{H} \leq [A : K]$和等式。存在同构向量 L 空间，例如 $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$，其特征为 $u(x) = (\pi u)(1 \otimes x)$ 代表 $x \in A$，以及 $\pi$ 映射 $\mathscr{H}$ 到集合 $\mathscr{H}_L$ L-$A(\cdot)$到L的代数同态。最后，命题 1 中 a) 和 c) 的等价表明，L上的代数$A_{(L)}$可对角化当且仅当$\mathscr{H}_L$生成向量空间$A_{(L)}^*$超过L。这就完成了推论的证明。
+向量空间 $\mathrm{Hom}_K(A, L)$ 超过 L 有维数 $[A : K]$，由公式 (2) 提供，$\mathscr{H}$ 是 Th 的 $\mathrm{Hom}_K(A, L)$ 的免费子集。 1（*V*，p. 27）。因此，当且仅当$\mathscr{H}$是$\mathrm{Hom}_K(A, L)$的基时，我们才有卡$\mathscr{H} \leq [A : K]$和等式。存在同构向量 L 空间，例如 $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$，其特征为 $u(x) = (\pi u)(1 \otimes x)$ 代表 $x \in A$，以及 $\pi$ 映射 $\mathscr{H}$ 到集合 $\mathscr{H}_L$ L-$A(\cdot)$到L的代数同态。最后，命题 1 中 a) 和 c) 的等价表明，L上的代数$A_{(L)}$可对角化当且仅当$\mathscr{H}_L$生成向量空间$A_{(L)}^*$超过L。这样就完成了推论中的证明。
 
 #### 命题 2 {#alg-v-s6-prop-2 .statement tag=06JI}
 
@@ -175,7 +175,7 @@ c) K 的 *扩张 $\Omega$ 对角化 A*。
 
 — *设 A 是 K 上的 etale 代数。仅存在子代数的有限数和 A 的理想。此外，对角化 A 的 K 的每个扩张也对角化 A 的每个子代数和每个商代数；特别是这些代数是 etale*。
 
-只要证明代数$K^n$只有子代数的有限数和理想，并且子代数和$K^n$的商代数可对角化。我们用$K^n$的$(\varepsilon_1, \ldots, \varepsilon_n)$典范基来表示。
+只要证明代数 $K^n$ 只有子代数的有限数和理想，且 $K^n$ 的子代数和商代数是可对角化的。我们用$K^n$的$(\varepsilon_1, \ldots, \varepsilon_n)$典范基来表示。
 
 设A为$K^n$中的子代数，并令$v_1, \ldots, v_n$为n个投影$K^n \to K$中A的限制。由于$v_i$的核的交显然为0，$v_i$生成向量K空间对偶于A（II，p. 302，Cor.1）；因此 K-代数 A 是可对角化的（V，p. 29，命题 1）。
 
@@ -185,23 +185,23 @@ c) K 的 *扩张 $\Omega$ 对角化 A*。
 
 还需要证明 $K^n$ 的每个理想都是形式 $a_I$。令I为整数$i$的集合，使得$1 \leq i \leq n$和$\varepsilon_i \in a$，然后$a_i \subset a$。令$x = x_1 \varepsilon_1 + \cdots + x_n \varepsilon_n$为$a$的元素（$x_1, \ldots, x_n$在$K$中），并令$i$在$(1, 2, \ldots, n) - I$中。我们有$x_i \varepsilon_i = x \varepsilon_i \in a_i$、$\varepsilon_i \notin a$、从而$x_i = 0$。因此$x = \sum_{i \in I} x_i \varepsilon_i$，这表明$x \in a_i$。现在我们已经展示了$a \subset a_I$、从而，最后$a = a_i$。
 
-#### 推论{#alg-v-s6-n4-cor-1 .statement tag=06JK}
+#### 推论 {#alg-v-s6-n4-cor-1 .statement tag=06JK}
 
-— *令 $A_1, \ldots, A_r$ 大于 $K$ 和 $A = A_1 \times \cdots \times A_r$ 代数。对于 $A$ 是 etale，$A_1, \ldots, A_r$ 是 etale 是充分必要的。*
+— *令$A_1, \ldots, A_r$超过$K$和$A = A_1 \times \cdots \times A_r$，成为代数。对于 $A$ 是 etale，$A_1, \ldots, A_r$ 是 etale 是充分必要的。*
 
 假设$A$是etale；每个代数 $A_1, \ldots, A_r$ 都同构于 $A$ 的商，因此根据命题 3 成立。相反，$K$ 的每个扩张对角化 $A_1, \ldots, A_r$ 显然对角化 $A$。
 
 ### 5. 可分离次数或交换代数
 
-令$A$为有限次数$n$除以$K$之和的交换代数。对于 $K$ 的任何扩张 $L$，$A$ 的代数同态的数 $h(L)$ 到 $L$ 是有限的，并且以上边界为 $n$ (V, p. 29，科。）。
+设$A$为有限次数$n$除以$K$的交换代数。对于$K$的任何扩张$L$，$A$的代数同态到$L$的数$h(L)$是有限的，并且以上边界为$n$（V，p. 29，科。）。
 
 #### 引理 1 {#alg-v-s6-lem-1 .statement tag=06JL}
 
 — *令$\Omega$为$K$中的代数闭包；那么对于$K$的每个扩张$L$，我们有$h(L) \leq h(\Omega)$，当$L$是代数封闭时，等式。*
 
-令$L'$为$L$中$K$的代数闭包。对于$A$到$L$的每个同态$u$，我们有$[u(A) : K] \leq n$，因此$u(A) \subset L'$乘以V，p. 18，命题2；因此我们有$h(L') = h(L)$。由于$K$的扩张$L'$同构于$\Omega$的子扩展（V，p. 20，Th.1），所以我们有$h(L') \leq h(\Omega)$。如果$L$是代数闭的，则$L'$是$K$的代数闭包； 扩张 $L'$ 和 $K$ 的 $\Omega$ 是同构的（V，p. 23，Th.2），所以 $h(L') = h(\Omega)$； 引理直接由此得出。
+令$L'$为$L$中$K$的代数闭包。对于$A$到$L$的每个同态$u$，我们有$[u(A) : K] \leq n$，因此$u(A) \subset L'$乘以V，p. 18，命题2；因此我们有$h(L') = h(L)$。由于$K$的扩张$L'$同构于$\Omega$的子扩展（V，p. 20，Th.1），所以我们有$h(L') \leq h(\Omega)$。如果$L$是代数闭集，则$L'$是$K$的代数闭包； 扩张 $L'$ 和 $K$ 的 $\Omega$ 是同构的（V，p. 23，Th.2），所以 $h(L') = h(\Omega)$； 引理直接由此得出。
 
-到引理 1，数 $h(L)$ 对于 $K$ 的所有代数闭扩张 $L$ 具有相同的值；这个数将被表示为$[A : K]$，并称为$A$的*可分离的次数*。
+到引理 1，数 $h(L)$ 对于 $K$ 的所有代数闭扩张 $L$ 具有相同的值；这个数将被表示为$[A : K]$，并称为$A$的*可分离次数*。
 
 令$A$和$B$为有限次数除$K$中的两个交换代数。我们将建立公式
 
@@ -231,13 +231,13 @@ $$
 
 #### 推论 1 {#alg-v-s6-prop-4-cor-1 .statement tag=06JN}
 
-— 令 $A, B$ 为 $K$ 的 2 个交换代数，有限非零次数。那么，要使代数 $C = A \otimes_K B$ 成为 etale，$A$ 和 $B$ 成为 etale 是充分必要的。
+— 令 $A, B$ 为 $K$ 上的两个交换代数，其中有限非零次数。那么，要使代数 $C = A \otimes_K B$ 成为 etale，$A$ 和 $B$ 成为 etale 是充分必要的。
 
 对于可分离的次数，我们有 $[C: K] = [A: K] \cdot [B: K]$ 和相应的公式 (7)。此外，对于$B$和$C$，我们还有$[A: K], \leq [A: K]$和相应的公式。由此可见，当且仅当我们同时拥有 $[A: K] = [A: K]$ 和 $[B: K] = [B: K]$ 时，$[C: K] = [C: K]$；现在应用提案 4 就足够了。
 
 #### 推论 2 {#alg-v-s6-prop-4-cor-2 .statement tag=06JO}
 
-— 令 $K'$ 为 $K$ 中的扩张。
+— 令 $K'$ 为 $K$ 的扩张。
 
 a) 对于 $K$-代数 $A$ 是 etale，$K'$-代数 $A_{(K')}$ 是 etale 是充分必要的。
 
@@ -249,9 +249,9 @@ b) 令$A'$在$K'$上成为代数，而不是减少到0。对于$A'$在$K$上的e
 
 #### 定理 3 {#alg-v-s6-thm-3 .statement tag=06JP}
 
-— 令 $A$ 为有限次数中的交换代数除以 $K$。为了使 $A$ 成为 etale，$K$ 的模 $\Omega_K(A)$ - $A$ 的微分应减少到 $0$ 是必要且充分的。
+— 令 $A$ 为有限次数中的交换代数除以 $K$。对于$A$来说，$K$的模$\Omega_K(A)$-$A$的微分应减少到$0$是必要且充分的。
 
-A) 设$L$为$K$的代数闭包（$V$，p. 23，Th.2）。为了使 $A$ 成为 etale，代数 $A_{(L)}$ 超过 $L$ 应该可对角化（$V$，p. 30，命题 2）。此外，$A$-模块$\Omega_L(A_{(L)})$同构于$\Omega_K(A) \otimes_A A_{(L)}$（III，p. 572，命题20），因此与$\Omega_K(A) \otimes_K L$同构的，同构于结合性或张量积；因此$\Omega_K(A) = 0$等价于$\Omega_L(A_{(L)}) = 0$。为了证明Th. 3 因此，考虑 $K$ 代数闭的情况并证明代数 $A$ 可对角化当且仅当 $\Omega_K(A) = 0$ 就足够了。
+A) 设$L$为$K$中的代数闭包（$V$，p. 23，Th.2）。要使 $A$ 成为 etale，代数 $A_{(L)}$ 超过 $L$ 应该可对角化（$V$，p. 30，命题 2）。此外，$A$-模块$\Omega_L(A_{(L)})$同构于$\Omega_K(A) \otimes_A A_{(L)}$（III，p. 572，命题20），因此与$\Omega_K(A) \otimes_K L$同构的，同构于张量积的结合性；因此$\Omega_K(A) = 0$等价于$\Omega_L(A_{(L)}) = 0$。为了证明Th. 3 因此，考虑 $K$ 代数闭的情况并证明代数 $A$ 可对角化当且仅当 $\Omega_K(A) = 0$ 就足够了。
 
 B) 假设$A$可对角化的；那么 ($V$, p. 29, 命题 1), 向量空间 $A$ 由 $A$ 的幂等生成。因此断言$\Omega_K(A) = 0$是以下引理中的推论：
 
@@ -275,13 +275,13 @@ C）我们首先证明两个引理：
 
 令$(a_1, ..., a_r)$为理想$a$的生成的系统；从$a = a^2$开始，$a$中存在元素$x_{ij}$，使得$a_i = \sum_{j=1}^r x_{ij} a_j$对应于$1 \leq i \leq r$。将阶$r$的平方矩阵写成$M$，其中元素是$\delta_{ij} - x_{ij}$，并令$D$为其行列式。 $A$ 中存在阶 $r$ 和元素 (III, p. 532, 公式 (26)) 平方矩阵 $N$，使得 $N \cdot M = D \cdot I$， 从而立即$Da_j = 0$ $1 \leq j \leq r$，最后$Da = 0$。现在矩阵 $M$ 等于 $I$，mod $a$，因此 $D \equiv I$ mod $a$。把$e = 1 - D$；然后 $e \in a$ 和 $ex = x$ 对于所有 $x \in a$。由此可知 $e$ 是幂等的，$a$ 等于 $Ae$。
 
-建立这些引理后，让我们通过$A$的次数上的归纳证明，如果$K$是代数闭且$\Omega_K(A) = 0$，则$A$可对角化。令 $m$ 为 $A$ (I, p. 104) 的最大理想。到引理 3 和 4，存在幂等$e$，使得$m = Ae$；我们已经看到$A/m$比$K$等于次数1。因此，$A$是理想$a = (1 - e)A$和$m$的直和，并且我们有$[a : K] = 1$，因此$A$与$K \times A/a$同构的。由于 $\Omega_K(A/a)$ 与 $\Omega_K(A)$ 的商同构（III、p. 573，命题 22），因此它是零，并且归纳假设表明 $A/a$ 可对角化。这表明 $A$ 是可对角化的。
+建立这些引理后，让我们通过$A$的次数上的归纳证明，如果$K$是代数闭且$\Omega_K(A) = 0$，则$A$可对角化。令 $m$ 为 $A$ (I, p. 104) 的最大理想。通过引理 3 和 4，存在幂等 $e$ 使得 $m = Ae$；我们已经看到，$A/m$ 比 $K$ 为次数 1。因此，$A$是理想$a = (1 - e)A$和$m$的直和，我们有$[a : K] = 1$，因此$A$与$K \times A/a$同构的。由于$\Omega_K(A/a)$与$\Omega_K(A)$的商同构（III，p. 573，命题22），因此它是零，归纳假设表明$A/a$可对角化。这表明 $A$ 是可对角化的。
 
 ### 7. 减少代数和 etale 代数
 
 #### 定义 2 {#alg-v-s6-def-2 .statement tag=06JT}
 
-— *令$A$为交换环；那么如果$A$的每个幂零元（I，p. 98）都是零，则称$A$减少了。*
+— *令$A$为交换环；那么如果$A$的每个幂零元（I，p. 98）都是零，则称$A$被减少。*
 
 如果$A$是减少的环的域、或整环、或乘积，则它是减少的环。 为了减少交换环$A$，对于$A$中的每个$a \neq 0$，$a^2 \neq 0$是必要且充分的：因为由此我们在$n$、$a^{2^n} \neq 0$上通过归纳获得，因此对于$A$中的任何$a \neq 0$获得$a^n \neq 0$。
 
@@ -289,7 +289,7 @@ C）我们首先证明两个引理：
 
 #### 命题 5 {#alg-v-s6-prop-5 .statement tag=06JU}
 
-— *令 $A$ 为有限次数中的交换代数除以 $K$。 For $A$ to be reduced it is necessary and sufficient that there exist extensions $L_1, \ldots, L_s$ of finite degree over $K$ such that $A$ is $K$-isomorphic to $L_1 \times \cdots \times L_s$.*
+— *令 $A$ 为有限次数中的交换代数除以 $K$。 为了使 $A$ 约简，$K$ 上存在有限度的扩展 $L_1, \ldots, L_s$ 是必要且充分的，使得 $A$ $K$ 同构于 $L_1 \times \cdots \times L_s$。*
 
 所规定的条件显然是足够的。
 
@@ -326,7 +326,7 @@ A) 我们首先证明$a$、$b$和$c$的等价。
 
 蕴涵$d) \Rightarrow a)$源自V、p. 31、Cor。 \*
 
-#### 推论{#alg-v-s6-n7-cor-1 .statement tag=06JX}
+#### 推论 {#alg-v-s6-n7-cor-1 .statement tag=06JX}
 
 — *假设$K$具有特征$p \neq 0$。对于 $A$ 来说，$A = K[A^p]$ 是必要且充分的。对于$A$中的每一个基$(a_i)_i$超过$K$，族$(a_i^p)_i$就是$A$中的基超过$K$。*
 
@@ -346,10 +346,10 @@ $$
 
 从而$A = K[A^p]$
 
-Conversely suppose that we have $A = K[A^p]$; let $(a_i)_{i \in I}$ be 基 of $A$ over $K$.根据$V$，p. 4，命题2，b)，族$(a_i^p)_{i \in I}$生成向量$K$-空间$K[A^p]$，并且由于$A = K[A^p]$等于有限维等于$I$的基数，所以族 $(a_i^p)_{i \in I}$ is 基 of $A$ over $K$.令$u$为$\Omega \otimes_K A$的元素，使得$u^2 = 0$、从而$u^p = 0$；由于$(a_i)_{i \in I}$是$A$的基超过$K$，因此存在$\Omega$的元素的$(\lambda_i)_{i \in I}$族，使得$u = \sum_{i \in I} \lambda_i \otimes a_i$，从而$u^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p$。由于$(a_i^p)_{i \in I}$是$A$的基超过$K$和$u^p = 0$，所以对于所有$i \in I$，我们必须有$\lambda_i^p = 0$，从而$\lambda_i = 0$，所以$u = 0$。 This shows 环 $\Omega \otimes_K A$ to be reduced;由于$\Omega$是完美的，代数$A$超过$K$是由Th etale。 4.
+相反，假设我们有 $A = K[A^p]$；设$(a_i)_{i \in I}$为$A$除$K$的基。根据$V$，p. 4，命题2，b)，族$(a_i^p)_{i \in I}$生成向量$K$-空间$K[A^p]$，并且由于$A = K[A^p]$是有限维等于基数对$I$，家庭$(a_i^p)_{i \in I}$ 基 $A$ 超过$K$。令$u$为$\Omega \otimes_K A$的元素，使得$u^2 = 0$、从而$u^p = 0$；由于$(a_i)_{i \in I}$是$A$的基超过$K$，因此存在$\Omega$的元素的$(\lambda_i)_{i \in I}$族，使得$u = \sum_{i \in I} \lambda_i \otimes a_i$，从而$u^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p$。由于$(a_i^p)_{i \in I}$是$A$的基超过$K$和$u^p = 0$，所以对于所有$i \in I$，我们必须有$\lambda_i^p = 0$，从而$\lambda_i = 0$，所以$u = 0$。这表明环$\Omega \otimes_K A$要减少；因为 $\Omega$ 是完美的，代数 $A$ 超过 $K$ 是 Th 的 etale。 4.
 
 对于 etale 代数的另一个刻画，请参阅$V$、p. 48、命题 1。
 
-### 习题 {#alg-v-s6-exercises}
+### 习题{#alg-v-s6-exercises}
 
 参见[习题为 § 6](exercises/s6/)。

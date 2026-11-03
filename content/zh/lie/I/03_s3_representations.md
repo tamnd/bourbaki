@@ -45,21 +45,21 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: 0eb90d55caca6e180e1e803cd82574a5b06ccdeaac0dd6661a76263b83fa854b
+content_sha256: 402176b4e3efd7b97e564362e5123de7174d089beaaff484347ca7569f37adea
 translated_from: content/en/lie/I/03_s3_representations.md
 translation_method: google
 source_content_sha256: a021ec46ba121f306f571608589128b59fe9512dee7105b93f2d9f49b1ae24bd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 788dfc3ecde3637e35c06042c5cc287a9739c47b77af638ac0c40533d8cfba51
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。 表示
 
-### 1. REPRESENTATIONS
+### 1. 表示
 
 #### 定义 1 {#lie-i-s3-def-1 .statement tag=09VS}
 
@@ -107,19 +107,19 @@ $$
 
 M 在$\rho(x)$ ($x \in g$) 下稳定，在$\rho(x)$ ($x \in g$) 下稳定补充 (cf. *代数*, 章 VIII, § 3, no. 3)。
 
-(5) 令$\delta$为$g$相应的的简单表示到简单$g$模块的类C的类。另一方面，令$\rho$为M上$g$的表示。$g$模M的类C的同型组件$M_C$（*代数*，章VIII, § 3, no. 4）也称为* 类* $\delta$ 的 M 的同型成分。该组件是 $\rho(x)$ 下稳定的 M 子 K 模块中的和，其上有类 $\delta$ 的 $\rho(x)$ 诱导表示；它是其中某些子模中的直和；如果$M_C$是长度$n$，则$\rho$被称为*包含*$\delta$*n次*。不同$M_C$的和是直接的；当且仅当$\rho$是半单时，它才等于M。
+(5) 令$\delta$为$g$相应的的简单表示到简单$g$模块的类C的类。另一方面，令 $\rho$ 为 M 上 $g$ 的表示。 $g$ 模块 M 的类 C 的同型分量 $M_C$ (*代数*, 章) VIII, § 3, no. 4) 也称为类* $\delta$ 的 M 的*同典型分量。这个分量是$\rho(x)$下稳定的M的子K模块中的和，并且其上有类$\delta$的$\rho(x)$诱导表示；它是其中某些子模中的直和；如果$M_C$是长度$n$，则$\rho$被称为*包含*$\delta$*n次*。不同$M_C$的和是直接的；当且仅当$\rho$是半单时，它才等于M。
 
-(6) 设$\rho, \rho'$为$g$之二表示。如果$\rho'$的模是$\rho$的模的子模（或商模），$\rho'$被称为$\rho$的*子表示*（或表示*）。
+(6) 设$\rho, \rho'$为$g$之二表示。如果$\rho'$的模是$\rho$的模的子模（分别是商模），则$\rho'$被称为$\rho$的*子表示*（或*商表示*）。
 
 令 M 为 K-模。 M 上的定义上的 $g$ 的零表示 $g$ 模块结构。这样结构 M 就被称为*平凡* $g$ 模块。
 
-设 M 为 $g$ 模。 M 的子$g$模的商$g$模也是M的商模的子$g$模：它们是通过考虑M的两个子$g$模U、$U'$使得$U \supset U'$并形成$g$模而获得的$U/U'$。那么，如果上述型的所有单模同构于给定的简单$g$模块N，则M称为类* N的*纯*$g$模块*。如果$\rho$和$\sigma$是表示 $g$相应的对于M和N，我们也说$\rho$是类*$\sigma$的*纯。
+设 M 为 $g$ 模。 M 的子$g$模块的商$g$模块也是M的商模的子$g$模块：它们是通过考虑M的两个子$g$模块U、$U'$使得$U \supset U'$并形成$g$-模块$U/U'$。那么，如果上述型的所有单模同构于给定的简单$g$模块N，则M称为类* N的*纯*$g$模块*。如果$\rho$和$\sigma$是表示 $g$相应的对于M和N，我们也说$\rho$是类*$\sigma$的*纯。
 
 设$M'$是M的子$g$模。对于M是类N的纯模，$M'$和$M/M'$是类N的纯模是充分必要的。对于条件显然是必要的。假设它成立并令U，$U'$是M的子$g$模，使得$U' \subset U$和$U/U'$是简单的；设$\phi$是M的典范同态到$M/M'$；如果$\phi(U) \neq \phi(U')$，$U/U'$是同构到$\phi(U)/\phi(U')$，因此与N同构；如果$\phi(U) = \phi(U')$，则$U \subset U' + M'$，因此$U/U'$同构于$(U' + M')/U'$的简单子模，而后者模本身同构于$M'/(U' \cap M')$；因此 $U/U'$ 再次同构于 N，因此 M 是类 N 的纯元素。
 
 从此以后，让M是一个$g$模块，并假设M的子$g$模块中的集合是纯粹的类N，承认极大元素$M'$。那么纯类 N 的M 的每一个子模 $M''$ 都包含在$M'$ 中。因为 $M''/(M' \cap M'')$ 和 $M'$ 是类 N 的纯原子，因此根据上述，$M' + M''$ 是类 N 的纯原子，因此 $M' + M'' \subset M'$。
 
-假设 $g$-模 M 承认 Jordan-Hölder 级数 $(M_i)_{0 \leq i \leq n}$。为了使 M 是类 N 的纯元素，$M_0/M_1, M_1/M_2, \ldots, M_{n-1}/M_n$ 与 N 同构是充分必要的；因为条件显然是必要的，从我们上面看到的来看，它的充分性紧随 $n$ 上的归纳。
+假设 $g$-模 M 承认 Jordan-Hölder 级数 $(M_i)_{0 \leq i \leq n}$。为了使 M 是类 N 的纯元素，$M_0/M_1, M_1/M_2, \ldots, M_{n-1}/M_n$ 与 N 同构是充分必要的；因为条件显然是必要的，从我们上面看到的，它的充分性紧随 $n$ 上的归纳。
 
 #### 命题 1 {#lie-i-s3-prop-1 .statement tag=09VV}
 
@@ -137,15 +137,15 @@ $$
 \phi(y_M x_M \cdot m) = f(x_M \cdot m).
 $$
 
-因此$x_{M/M'} \cdot f(m) = f(x_M \cdot m)$。由此可见，$f(M')$是$M/M'$的子$a$模，与$M'$的商同构，因此是类$N$的纯模；因此$f(M') = \{0\}$。
+因此$x_{M/M'} \cdot f(m) = f(x_M \cdot m)$。由此可见，$f(M')$是$M/M'$的子$a$模块，与$M'$的商同构，因此是类$N$的纯模块；因此$f(M') = \{0\}$。
 
-#### 推论{#lie-i-s3-n1-cor-1 .statement tag=09VW}
+#### 推论 {#lie-i-s3-n1-cor-1 .statement tag=09VW}
 
 *令 $g$ 为李代数超过 $K$，并且 $a$ 为 $g$ 的理想值。令 $M$ 为简单的 $g$ 模块，有限长度为 $K$ 模块。存在一个简单的$a$-模块$N$，使得$M$是类$N$的纯$a$-模块。*
 
-由于$a$模块$M$属于有限长度，因此$M$的子$a$模块的集合中存在最小元素$N$：它是$M$的简单子$a$模块。 The largest sub-$a$-module of $M$ which is pure of species $N$ is therefore $\neq \{0\}$ and is a sub-$g$-module of $M$ (Proposition 1) and is therefore identical with $M$.
+由于$a$模块$M$属于有限长度，因此$M$的子$a$模块的集合中存在最小元素$N$：它是$M$的简单子$a$模块。 因此，$M$的最大子$a$模块是$N$的纯物种，因此是$\neq \{0\}$，并且是$M$的子$g$模块（命题1），因此与$M$相同。
 
-### 2. 张量积表示
+### 2. 张量积 / 表示
 
 我们在no. 1直和中定义了$g$的表示族。我们现在将定义其他运算放在表示上。
 
@@ -182,19 +182,19 @@ $$
 
 特别是，如果$M$是一个$g$模块，则命题2定义在每个$M_p = \bigotimes^p M$上有一个$g$模块结构，因此在$M$的张量代数$T$上。
 
-公式 (3) 表明，对于所有 $x \in g, x_T$ 来说，代数 $T$ 扩展 $x_M$ 都是唯一的 *推导*。我们知道（§ 2, no. 8）经过上的$x_T$定义除以$M$的对称代数$S$的商推导。因此，$S$可以被视为$T$的商$g$模，而$x_S$是$S$的推导。
+公式 (3) 表明，对于所有 $x \in g, x_T$ 来说，代数 $T$ 扩展 $x_M$ 都是唯一的 *推导*。我们知道（§ 2, no. 8）$x_T$定义在$M$的对称代数$S$的经过到商推导上。因此$S$可以被认为是商$g$-$T$的模，$x_S$是$S$的推导。
 
-更具体地，通过$g$的伴随表示将$g$视为$g$模。令$U$为$g$的包络代数。通过 § 2 的命题 7，经过上的 $x_M$ 定义到 $U$ 的商推导，即由 $\sigma(x)$ 定义的内部推导（$\sigma$ 表示$g$ 的典范映射变为 $U$）。那么$U$可以被认为是$T$的商$g$模。如果$K$是特征0的域，则$S$到$U$的典范同构是$g$模同构（§ 2, no. 8）。
+更具体地，通过$g$的伴随表示将$g$视为$g$模。令$U$为$g$的包络代数。由§ 2的命题7，经过上的$x_M$定义到$U$的商推导，即$\sigma(x)$（$\sigma$）定义的内部推导将$g$的典范映射表示为$U$）。那么$U$可以被认为是商$g$-$T$的模。如果$K$是特征0的域，则$S$到$U$的典范同构是$g$模同构（§ 2, no. 8）。
 
 ### 3. 表示同态模
 
-再次让$g_1$和$g_2$是李代数超过$K$和$M_i$一个$g_i$模（$i = 1, 2$）。令$U_i$为$g_i$的代数和$g_i$的$\sigma_i$典范映射到$U_i$的包络。那么 $M_i$ 是左 $U_i$ 模块，因此 $\mathscr{L}_K(M_1, M_2)$ 具有规范的左 $(U_1^0 \otimes U_2)$ 模块结构。现在$U_1^0 \otimes_K U_2$是$g_1^0 \times g_2$和映射的包络代数
+再次让$g_1$和$g_2$是$K$和$M_i$的两个李代数，一个$g_i$模（$i = 1, 2$）。令$U_i$为$g_i$的代数和$g_i$的$\sigma_i$典范映射到$U_i$的包络。那么 $M_i$ 是左 $U_i$ 模块，因此 $\mathscr{L}_K(M_1, M_2)$ 具有规范的左 $(U_1^0 \otimes U_2)$ 模块结构。现在$U_1^0 \otimes_K U_2$是$g_1^0 \times g_2$和映射的包络代数
 
 $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-是典范映射的 $g_1^0 \times g_2$ 到这个包络线代数中。因此，$M = \mathscr{L}_K(M_1, M_2)$上存在一个$(g_1^0 \times g_2)$模块结构，使得
+是 $g_1^0 \times g_2$ 的典范映射进入这个包络线代数。因此，$M = \mathscr{L}_K(M_1, M_2)$上存在一个$(g_1^0 \times g_2)$模块结构，使得
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
@@ -203,13 +203,13 @@ $$
 
 对于所有$u \in \mathscr{L}_K(M_1, M_2), m_1 \in M_1$。 $M$ $g_1^0 \times g_2$ 的结构定义表示。
 
-如果现在将$g$的$g_1 = g_2 = g$、同态$x \mapsto (-x, x)$放入$g^0 \times g$，由上述$M$上的$g$的表示、定义表示组成，因此是$g$模块$M$ 上的结构使得
+如果现在将$g$的$g_1 = g_2 = g$、同态$x \mapsto (-x, x)$放入$g^0 \times g$，由上述$M$上的$g$的表示、定义表示组成，因此$g$模块结构$M$ 这样
 
 $$
 (x_M \cdot u) \cdot m_1 = x_{M_2} \cdot u(m_1) - u(x_{M_1} \cdot m_1)
 $$
 
-或
+或者
 
 $$
 x_M \cdot u = x_{M_2} u - u x_{M_1}.
@@ -364,7 +364,7 @@ x_P = \mathrm{ad}\, x_M
 $$
 在$\mathscr{L}(\mathscr{L}(M, M)) = \mathscr{L}(\mathrm{gl}(M))$。
 
-### 5. 不变量元素
+### 5. 不变式元素
 
 #### 定义 3 {#lie-i-s3-def-3 .statement tag=09W2}
 
@@ -404,7 +404,7 @@ x_M m \in M_2 \cap M_1 = \{0\}
 $$
 对于所有$x \in g$，因此$m \in M_0$，因此$m = 0$。因此$M_2 = \{0\}$，证明了$M_1 = M'$。
 
-### 6. INVARIANT BILINEAR FORMS
+### 6. 不变双线性形式
 
 令 g 为 K 上的李代数。 g 在 g 上的伴随表示和 g 在 K 上的零表示定义 K-模上的 g 模结构
 
@@ -416,7 +416,7 @@ $$
 
 对于$g$中的所有$x, y, z$。
 
-现在令$\mathfrak{d}$为$g$的推导的李代数。 The identity representation of $\mathfrak{d}$ and the zero representation of $\mathfrak{d}$ on $K$ define a representation $D \mapsto D_N$ of $\mathfrak{d}$ on $N$. 简而言之，如果表示$D \mapsto D_N$下不变，那么$g$上的双线性形式是*完全不变的*。 完全的不变双线性形式是不变的。 为了使$g$上的双线性形式$\beta$完全不变，有必要且充分：
+现在令$\mathfrak{d}$为$g$的推导的李代数。 $\mathfrak{d}$的恒等表示和$\mathfrak{d}$在$K$上的零表示定义了$\mathfrak{d}$在$N$上的表示$D \mapsto D_N$。 简而言之，如果表示$D \mapsto D_N$下不变，那么$g$上的双线性形式是*完全不变的*。 完全的不变双线性形式是不变的。 为了使$g$上的双线性形式$\beta$完全不变，有必要且充分：
 
 $$
 \beta(Dx, y) + \beta(x, Dy) = 0
@@ -457,19 +457,19 @@ $$
 
 *假设 $K$ 是域并且李代数 $g$ 是超过 $K$ 的有限维*。 *令$a$为$g$的理想，$\beta$为$g$的杀戮形式，以及$\beta'$为$a$的杀戮形式。那么$\beta'$就是$\beta$到$a$的限制。
 
-令 $u$ 为向量空间 $g$ 的自同态，这使得 $a$ 保持稳定。设$v$为$u$到$a$的限制，以及当经过为商时从$u$导出的向量空间$g/a$的$w$自同态。然后$\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$，如通过取$g$的基$(x_1, \ldots, x_n)$所示，其中第一个$p$元素形式基$a$。然后让$x \in a, y \in a$并将上面的公式应用到$u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$的情况。然后是$v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$和$w = 0$。因此$\beta(x, y) = \beta'(x, y)$。
+令 $u$ 为向量空间 $g$ 的自同态，这使得 $a$ 保持稳定。设$v$为$u$至$a$中的限制，以及当经过至商时从$u$导出的向量空间$g/a$中的$w$自同态。然后$\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$，如通过取$g$的基$(x_1, \ldots, x_n)$所示，其中第一个$p$元素形式基$a$。然后让$x \in a, y \in a$并将上面的公式应用到$u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$的情况。然后是$v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$和$w = 0$。因此$\beta(x, y) = \beta'(x, y)$。
 
 #### 命题 10 {#lie-i-s3-prop-10 .statement tag=09WC}
 
 *假设$K$是域并且李代数$g$是$K$上的有限维。 $g$的杀戮形式$\beta$是完全不变的。*
 
-令 $D$ 为 $g$ 中的推导。存在李代数 $g'$ 包含 $g$ 作为余维 1 的理想和 $g'$ 的元素 $x_0$，使得 $Dx = [x_0, x]$ 对于所有 $x \in g$ (§ 1, no. 8， 例 1)。令$\beta'$为$g'$的杀戮形式。对于$g$、$\beta'([x, x_0], y) = \beta'(x, [x_0, y])$中的$x, y$，即$\beta'(Dx, y) + \beta'(x, Dy) = 0$。现在$\beta'$到$g$的限制是$\beta$（命题9）。因此命题。
+令 $D$ 为 $g$ 中的推导。存在李代数 $g'$ 包含 $g$ 作为余维 1 的理想和 $g'$ 的元素 $x_0$，使得 $Dx = [x_0, x]$ 对于所有 $x \in g$ (§ 1, no. 8， 例1)。令$\beta'$为$g'$的杀戮形式。对于$g$、$\beta'([x, x_0], y) = \beta'(x, [x_0, y])$中的$x, y$，即$\beta'(Dx, y) + \beta'(x, Dy) = 0$。现在$\beta'$到$g$的限制是$\beta$（命题9）。因此命题。
 
 ### 7. 卡西米尔元素
 
 #### 命题 11 {#lie-i-s3-prop-11 .statement tag=09WD}
 
-*设$g$为域$K$之上的李代数，$U$其包络代数，$h$为$g$和$\beta$不变双线性形式的有限维理想$g$，其限制到$h$是非简并的。令$(e_i)_{1 \leq i \leq n}, (e'_j)_{1 \leq j \leq n}$为$h$的两个基，使得$\beta(e_i, e'_j) = \delta_{ij}$。那么$U$属于的元素$c = \sum_{i=1}^n e_i e'_i$到$U$的中心并且独立于基$(e_i)$的选择。
+*令$g$为李代数超过域$K$，$U$其包络代数，$h$为$g$和$\beta$不变双线性形式的有限维理想$g$，其限制到$h$是非简并的。令$(e_i)_{1 \leq i \leq n}, (e'_j)_{1 \leq j \leq n}$为$h$的两个基，使得$\beta(e_i, e'_j) = \delta_{ij}$。那么$U$属于的元素$c = \sum_{i=1}^n e_i e'_i$到$U$的中心并且独立于基$(e_i)$的选择。
 
 对于$x \in g$，令$x_h$为$\operatorname{ad}_g x$的限制到$h$。 那么$x \mapsto x_h$是向量空间$h$上$g$的表示，并且$\beta$到$h$的限制$\beta'$在这个表示下是不变的。 通过no. 5、*例 3*，张量$\sum_{i=1}^n e_i \otimes e'_i$独立于基$(e_i)$的选择，并且是$h$的张量代数的不变量元素。 它也是张量代数 $T$ $g$ 的元素，对于源自$g$ 的伴随表示的表示是不变的。 因此，$U$中的典范像，即$c$，独立于基$(e_i)$的选择，并且是no. 2末尾考虑的$U$上$g$的表示的不变量。 因此，这个元素可以与$g$的每一个元素进行置换，因此可以对$U$的属于到中心进行置换。
 
@@ -490,7 +490,7 @@ $$
 
 因此，如果 n 不能被 K 的特征整除，则$c_M \neq 0$。另一方面，由于 U 的 c 属于到中心，$c_M$ 可以与所有 $x_M, x \in g$ 置换。如果进一步 M 是简单的，则 $c_M$ 因此在 $\mathscr{L}(M)$ 中是可逆的 (*代数*, 章 VIII, § 4, no. 3, 命题 2)。
 
-### 8. 扩张基环
+### 8. 扩张 / 基环
 
 设$K_1$为交换环，K的单位元和$\phi$同态变为$K_1$映射1比1。设g为谎言K-代数，U为其包络代数，M为左g模，即左U 型模块。那么$M_{(K_1)}$有一个规范的左$U_{(K_1)}$模块结构，因此有一个左$g_{(K_1)}$模块结构。设$\rho$和$\rho_{(K_1)}$为g的表示，$g_{(K_1)}$相应的为M和$M_{(K_1)}$：$\rho_{(K_1)}$据说是通过*扩展基环*从$\rho$导出的，结果为*代数*、章VIII, § 13, no. 4均可适用。如果$x \in g$，$\rho_{(K_1)}(x)$只是自同态$\rho(x) \otimes 1$ / $M_{(K_1)} = M \otimes_K K_1$。
 
@@ -506,9 +506,9 @@ $$
 
 证明分两步。
 
-(1) 首先假设$K_1$是*有限次数*$n$的$K$的扩张。 令$U$为$g$的包络代数，使得$g_{(K_1)}$的包络代数为$U_{(K_1)} = U \otimes_K K_1$(§ 2, no. 9)。 由于 $M_{(K_1)}$ 和 $N_{(K_1)}$ 与 $U_{(K_1)}$ 模块同构，因此它们与 $U$ 模块同构 *更不必说*；但作为 $U$ 模块，它们分别与 $M^n$ 和 $N^n$ 同构的。 Now $M$ and $N$ are $U$-modules of finite length; $M$ (resp. $N$) is therefore the direct sum of a family $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) of submodules such that the $P_i$ (resp. $Q_j$) are indecomposable and two $P_i$ (resp. $Q_j$) of different indices are not isomorphic (*Algebra*, Chapter VIII, § 2, no. 2, Theorem 1). 那么$M^n$（分别$N^n$）同构于$P_i^{n r_i}$（分别$Q_j^{n s_j}$）的直和； (*loc.cit.*) $p = q$ 和之后在必要时置换 $Q_j$ $n r_i = n s_i$ 和 $P_i$ 同构于 $Q_i$ for $1 \leq i \leq p$，因此 $M$ 同构于 $N$。
+(1) 首先假设$K_1$是*有限次数*$n$的$K$的扩张。 令$U$为$g$的包络代数，使得$g_{(K_1)}$的包络代数为$U_{(K_1)} = U \otimes_K K_1$(§ 2, no. 9)。 由于 $M_{(K_1)}$ 和 $N_{(K_1)}$ 与 $U_{(K_1)}$ 模块同构，因此它们与 $U$ 模块同构 *更不必说*；但作为 $U$ 模块，它们分别与 $M^n$ 和 $N^n$ 同构。 现在$M$和$N$是$U$-有限长度的模；因此，$M$（分别$N$）是子模块族$(P_i^{r_i})_{1 \leq i \leq p}$（分别$(Q_j^{s_j})_{1 \leq j \leq q}$）的直接总和，使得$P_i$（分别$Q_j$）不可分解，并且不同索引的两个$P_i$（分别$Q_j$）不是同构的（*代数*，第 VIII, § 2, no. 2 章，定理 1）。 那么$M^n$（分别$N^n$）同构于$P_i^{n r_i}$（分别$Q_j^{n s_j}$）的直和； (*loc.cit.*) $p = q$ 和之后在必要时置换 $Q_j$ $n r_i = n s_i$ 和 $P_i$ 同构于 $Q_i$ for $1 \leq i \leq p$，因此 $M$ 同构于 $N$。
 
-(2) *一般情况。*设$P$为$P$的不变量的$g$模块$\mathscr{L}_K(M, N)$和$Q$子空间，即$g$模块$M$的同态的集合进入$g$-模块$N$。在$g_{(K_1)}$-模块$\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$中，不变量的子空间是$Q_{(K_1)}$。 $M_{(K_1)}$和$N_{(K_1)}$同构假设意味着$M$和$N$在$K$上具有相同的维数，并且存在于$Q_{(K_1)}$元素$g$，即$M_{(K_1)}$ 的同构到$N_{(K_1)}$。令$(f_1, \ldots, f_d)$为$Q$的基超过$K$，并且选择基为$M$和$N$超过$K$。如果 $\lambda_k \in K_1$ 对于 $1 \leq k \leq d$，$f = \sum_{k=1}^d \lambda_k f_k$ 的矩阵对于这些基具有行列式，该行列式是多项式 $D(\lambda_1, \ldots, \lambda_d)$，系数 *in* $K$。当 $f = g$ 时，该行列式不为零，因此 $D$ 的系数并非全部非零。因此，如果 $\Omega$ 是 $K$ 的代数闭包，则存在（因为 $\Omega$ 无限）元素 $\mu_k \in \Omega$ $(1 \leq k \leq d)$，使得 $D(\mu_1, \ldots, \mu_d) \neq 0$ (*代数*, 章 IV, § 2, no. 5、命题 8)。如果$K_2$是由$\mu_k$$(1 \leq k \leq d)$生成$K$的代数扩张，则$\sum_{k=1}^d \mu_k f_k$是$M_{(K_2)}$到$N_{(K_2)}$的同构；但$K_2$是有限次数超过$K$（*代数*，章V, § 3, no. 2，命题5），因此$M$和$N$与参数的第一个部分同构。
+(2) *一般情况。*设$P$为$P$的不变量的$g$模块$\mathscr{L}_K(M, N)$和$Q$子空间，即$g$模块$M$的同态的集合进入$g$-模块$N$。在$g_{(K_1)}$-模块$\mathscr{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathscr{L}_K(M, N))_{(K_1)}$中，不变量的子空间是$Q_{(K_1)}$。 $M_{(K_1)}$和$N_{(K_1)}$同构假设意味着$M$和$N$在$K$上具有相同的维数，并且存在于$Q_{(K_1)}$元素$g$，即$M_{(K_1)}$ 的同构到$N_{(K_1)}$。令$(f_1, \ldots, f_d)$为$Q$的基超过$K$，并且选择基为$M$和$N$超过$K$。如果$\lambda_k \in K_1$对于$1 \leq k \leq d$，$f = \sum_{k=1}^d \lambda_k f_k$的矩阵相对于这些基有行列式，这是一个多项式$D(\lambda_1, \ldots, \lambda_d)$，其中系数*in*$K$。当$f = g$时，这个行列式非零，因此$D$的系数不都是非零。因此，如果 $\Omega$ 是 $K$ 的代数闭包，则存在（因为 $\Omega$ 无限大）元素 $\mu_k \in \Omega$ $(1 \leq k \leq d)$，使得 $D(\mu_1, \ldots, \mu_d) \neq 0$ (*代数*, 章 IV, § 2, no. 5、命题 8)。如果$K_2$是$\mu_k$$(1 \leq k \leq d)$生成的$K$的代数扩张，则$\sum_{k=1}^d \mu_k f_k$是$M_{(K_2)}$到$N_{(K_2)}$的同构；但$K_2$是有限次数超过$K$（*代数*，章V, § 3, no. 2，命题5），因此$M$和$N$与参数的第一个部分同构。
 
 再次让$K, K_1$和$\phi$作为这个编号的开头。令 $\rho$ 为 $K$ 模块 $M$ 上 $g$ 的表示，且具有有限基 $(x_1, \ldots, x_n)$。然后，与 $\rho_{(K_1)}$ 相关联的 $g_{(K_1)}$ 上的双线性形式是从与 $\rho$ 相关联的双线性形式通过将基环扩展到 $K_1$ 导出的（因为，如果 $u \in \mathscr{L}_K(M)$，$u$ 具有相同的矩阵 ） $(x_1, \ldots, x_n)$ 与 $(x_1 \otimes 1, \ldots, x_n \otimes 1)$ 的$u \otimes 1$ 相同，因此 $u$ 和 $u \otimes 1$ 具有相同的轨迹）。特别是，如果$K$-模块$g$具有有限的基，则$g_{(K_1)}$的*杀死形式*是通过将基环延伸到$K_1$而从$g$的杀死形式*导出的。
 

@@ -12,19 +12,19 @@ pdf_pages: 0351-0352
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 331b824a59c5e9692d7708310b5328aad795dba110aabbf059df49ac6b8c2a15
+content_sha256: 79e50ae3c1f42c1a781db82a654a87d04ec8aa4e21a5873d3a644b7e2eb1b19e
 translated_from: content/en/evt/index_of_notation_i_v.md
 translation_method: google
 source_content_sha256: b6227e142e8c4dfdc40df60beff46779739fafd9c463257c5824c021a2995f39
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 544e32513356fadf4ef03b9f0017c03df590949305e83a202153717cf3b2ee9d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 参考号数表示章和页码（有时也表示习题）。
 

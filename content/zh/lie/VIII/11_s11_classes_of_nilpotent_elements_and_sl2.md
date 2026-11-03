@@ -29,16 +29,16 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: ff46310e5bb4781ab2a1ad61ebb8bf078d9497339e86bc20e82bcdbe424c4a6d
+content_sha256: f3ce669843ba4ea8cc445520bc0be637216e2369362b87a043c2b9962cd78914
 translated_from: content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md
 translation_method: google
 source_content_sha256: c1241130b0c6145fe39e8ebf582c74a6fd108d7391d43fb0cba572e8a86bff67
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: a8eb2d6a57f8b05cb009e93cc98dd5c329a113496967bb96e811d2f9c41a8ca0
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 11。 幂零元和 $\mathfrak{s}\mathfrak{l}_{2}$-三胞胎的类
@@ -55,7 +55,7 @@ $$
 [h, x] = 2x,[h, y] =-2y,[x, y] =-h
 $$
 
-设$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组。 从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的线性映射$\tau$使得$\tau (X_+) =x, \tau (H) =h, \tau (X_-) =y$是同态，它是非零的，因此是单射的（因为$\mathfrak{s}\mathfrak{l}(2, k)$是简单的），并且具有像$kx+kh+ky$。 We thus obtain a canonical bijection from the set of $\mathfrak{s}\mathfrak{l}_2$-triplets in $\mathfrak{g}$ to the set of injective homomorphisms from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$. 如果$\mathfrak{g}$是半单并且$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组，那么$x$和$y$是$\mathfrak{g}$的幂零元并且$h$是半单元素 $\mathfrak{g}$（第 I, §6, no. 3 章，第 4 条提案）。
+设$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组。 从$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的线性映射$\tau$使得$\tau (X_+) =x, \tau (H) =h, \tau (X_-) =y$是同态，它是非零的，因此是单射的（因为$\mathfrak{s}\mathfrak{l}(2, k)$是简单的），并且具有像$kx+kh+ky$。 因此，我们从$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组集合到$\mathfrak{s}\mathfrak{l}(2, k)$到$\mathfrak{g}$的单射同态集合获得了规范双射。 如果$\mathfrak{g}$是半单并且$(x, h, y)$是$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组，那么$x$和$y$是$\mathfrak{g}$的幂零元并且$h$是半单元素 $\mathfrak{g}$（第 I, §6, no. 3 章，第 4 条提案）。
 
 #### 引理 1 {#lie-viii-s11-lem-1 .statement tag=0171}
 
@@ -195,9 +195,9 @@ $$
 
 我们有$[h, x] = 2x$和$h\in$（广告$x$）$(\mathfrak{g})$。现在应用引理6就足够了。
 
-#### 推论{#lie-viii-s11-n2-cor-1 .statement tag=017A}
+#### 推论 {#lie-viii-s11-n2-cor-1 .statement tag=017A}
 
-假设$\mathfrak{g}$是半单。设G为$\mathfrak{g}$包含Aut$_e(\mathfrak{g})$自同构群。 映射与$\mathfrak{g}$幂零元$x$定义中的任何$\mathfrak{s}\mathfrak{l}_2$三元组$(x, h, y)$相关联，通过从G-共轭类的集合求商双射非零幂零元的 G 共轭类的$\mathfrak{s}\mathfrak{l}_2$-三元组到集合。
+假设$\mathfrak{g}$是半单。设G为$\mathfrak{g}$包含Aut$_e(\mathfrak{g})$自同构群。 映射与$\mathfrak{g}$幂零元$x$定义中的任何$\mathfrak{s}\mathfrak{l}_2$三联体$(x, h, y)$相关联，通过从G共轭类的集合过渡到商，双射非零幂零元的 G 共轭类的 $\mathfrak{s}\mathfrak{l}_2$-三元组到集合。
 
 这是从命题 1 和 2 得出的。
 
@@ -257,9 +257,9 @@ $(1\beta )((\alpha '$0$)((1\beta )^{-1}(\alpha '$0$)^{-1}=(1\beta (1-{\alpha '}^
 
 存在$\alpha \in B$使得$\alpha (h)>2$。对于所有$\beta \in T$，我们有$(\alpha +\beta )(h)>0$，所以$\alpha +\beta  \notin R_-$和$\alpha +\beta \not= 0$；另一方面，从$\beta \in R_-$和$\alpha \in B$开始，我们有$\alpha +\beta  \notin R_+$；因此$\alpha +\beta  \notin R\cup  \{0\}$，所以$[\mathfrak{g}^{\alpha},\mathfrak{g}^{\beta}] = 0$。因此，$[y,\mathfrak{g}^{\alpha}] = 0$。但 ad$_{\mathfrak{g}}y|\mathfrak{g}^{\alpha}$ 是单射的，因为 $\alpha (h)>0 ($§1, no. 2，Cor。提案 2）。这个矛盾证明了$\alpha (h)\leq 2$对于所有$\alpha \in B$。
 
-#### 推论{#lie-viii-s11-n3-cor-1 .statement tag=017G}
+#### 推论 {#lie-viii-s11-n3-cor-1 .statement tag=017G}
 
-如果$k$是代数闭的并且如果$\mathfrak{g}$是秩$l$半单，$\mathfrak{g}$的简单元素共轭类数，相对于Aut$_e(\mathfrak{g})$，至多是$3^l$。
+如果$k$是代数闭的并且如果$\mathfrak{g}$是秩$l$半单，$\mathfrak{g}$简单的元素共轭类数，相对于Aut$_e(\mathfrak{g})$，至多是$3^l$。
 
 事实上，$\mathfrak{g}$的每个半单元素在Aut$_e(\mathfrak{g})$到$\mathfrak{h}$的元素下都是共轭。
 
@@ -267,9 +267,9 @@ $(1\beta )((\alpha '$0$)((1\beta )^{-1}(\alpha '$0$)^{-1}=(1\beta (1-{\alpha '}^
 
 假设 $k$ 是代数闭集，并且 $\mathfrak{g}$ 是半单。令$h$为$\mathfrak{g}$的半单元素，使得广告$h$的特征值是有理数。令 $\mathfrak{g}^0=$ Ker(ad $h$)$,\mathfrak{g}^2=$ Ker(ad $h-2$)。令$G_h$为$\mathfrak{g}$的初等自同构的集合，使$h$固定。令$x\in \mathfrak{g}^2$ 使得$[x,\mathfrak{g}^0] =\mathfrak{g}^2$。然后$G_hx$包含子集$\mathfrak{g}^2$，在Zariski拓扑密集且开放。
 
-设$\mathfrak{h}$为$\mathfrak{g}^0$中的嘉当子代数。这是 $\mathfrak{g}$ 包含 $h$ 中的嘉当子代数（第 VII, §2, no. 3 章，提案 10）。我们有$h\in \mathfrak{h}_{\mathbf{Q}}$。设R为根权的$(\mathfrak{g},\mathfrak{h}), Q$群的根系。 R 存在基 B，使得对于所有 $\alpha \in B$ 都有 $\alpha (h)\geq 0$。
+令$\mathfrak{h}$为$\mathfrak{g}^0$中的嘉当子代数。这是 $\mathfrak{g}$ 包含 $h$ 中的嘉当子代数（第 VII, §2, no. 3 章，提案 10）。我们有$h\in \mathfrak{h}_{\mathbf{Q}}$。令 R 为 $(\mathfrak{g},\mathfrak{h}), Q$ 群根基权中的根系。 R 存在基 B，使得对于所有$\alpha \in B$ 都有$\alpha (h)\geq 0$。
 
-令 U 为 $z\in \mathfrak{h}$ 的集合，使得对于所有 $\alpha \in B$ 为 $\alpha (z)\not= 0$。令$(H'_{\alpha})_{\alpha\in B}$为$\mathfrak{h}$对偶于B的基。如果$z\in U$，则存在从Q到$k^*$取任何$\gamma \in Q$到$\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$的同态。根据§5，提案 2 和 4，
+令U为$z\in \mathfrak{h}$的集合，使得$\alpha (z)\not= 0$对于所有$\alpha \in B$。令$(H'_{\alpha})_{\alpha\in B}$为$\mathfrak{h}$对偶B的基。如果$z\in U$，则存在从Q到$k^*$取任意$\gamma \in Q$到$\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$的同态。根据§5，提案 2 和 4，
 
 向量空间 $\mathfrak{g}$ 的自同态 $\varphi (z)$，其中 $\mathfrak{g}^{\gamma}$ 位似上的诱导与比率 $\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$ 是 $\mathfrak{g}$ 的初等自同构，这显然
 
@@ -283,7 +283,7 @@ $$
 
 由于$\alpha (h)\geq 0$对于所有$\alpha \in B$，并且由于$\gamma (H'_{\alpha})$是整数，或者所有$\geq 0$或所有$\leq 0$，所以我们对所有$\alpha \in B$有$\gamma (H'_{\alpha})\in \mathbf{N}$。因此，我们可以考虑（对于$z\in \mathfrak{h}$）向量空间$\mathfrak{g}^2$的自同态$\psi (z)$，诱导在$\mathfrak{g}^{\gamma}\cap \mathfrak{g}^2$位似上，比率为$\prod_{\alpha\in B}\alpha (z)^{\gamma(H'_{\alpha})}$。从 $\mathfrak{h}$ 到 End($\mathfrak{g}^2$) 的映射 $z \rightarrow \psi (z)$ 是多项式。对于$z\in U$，我们有$\psi (z) =\varphi (z)|\mathfrak{g}^2$。
 
-令 $\gamma_1, . . . , \gamma_r$ 为 $(\mathfrak{g},\mathfrak{h})$ 消失在 $h$ 上的不同根。 如果$y_1\in \mathfrak{g}^{\gamma_1}, . . .$，$y_r\in \mathfrak{g}^{\gamma_r}$，我们有$e^{ady_1}. . . e^{ady_r}\in G_h$。 We can thus define a map $\rho$ from $\mathfrak{h}\times \mathfrak{g}^{\gamma_1}\times  \cdots  \times \mathfrak{g}^{\gamma_r}$ to $\mathfrak{g}^2$ by putting
+令 $\gamma_1, . . . , \gamma_r$ 为 $(\mathfrak{g},\mathfrak{h})$ 消失在 $h$ 上的不同根。 如果$y_1\in \mathfrak{g}^{\gamma_1}, . . .$，$y_r\in \mathfrak{g}^{\gamma_r}$，我们有$e^{ady_1}. . . e^{ady_r}\in G_h$。 因此，我们可以定义一个从$\mathfrak{h}\times \mathfrak{g}^{\gamma_1}\times  \cdots  \times \mathfrak{g}^{\gamma_r}$到$\mathfrak{g}^2$的映射$\rho$，方法是：
 
 $$
 \rho (z, y_1, . . . , y_r) =\psi (z)e^{ady_1}. . . e^{ady_r}x
@@ -303,31 +303,31 @@ $$
 [x,\mathfrak{h}+\mathfrak{g}^{\gamma_1}+\cdots +\mathfrak{g}^{\gamma_r}] = [x,\mathfrak{g}^0] =\mathfrak{g}^2.Q.E.D
 $$
 
-\*群 $G_h$ 是代数群与李代数和 $\mathfrak{g}^0$。\*
+\*群 $G_h$ 是一个代数群与李代数和 $\mathfrak{g}^0$。\*
 
 #### 命题 6 {#lie-viii-s11-prop-6 .statement tag=017I}
 
-假设 $k$ 是代数封闭的，并且 $\mathfrak{g}$ 是半单。设G为$\mathfrak{g}$包含Aut$_e(\mathfrak{g})$自同构群。设 $(x, h, y)$ 和 $(x', h', y')$ 为 $\mathfrak{g}$ 中的 $\mathfrak{s}\mathfrak{l}_2$ 三元组。以下条件是等效的：
+假设 $k$ 是代数封闭的，并且 $\mathfrak{g}$ 是半单。令 G 为 $\mathfrak{g}$ 包含 Aut$_e(\mathfrak{g})$ 自同构群。设$(x, h, y)$和$(x', h', y')$为$\mathfrak{g}$中的$\mathfrak{s}\mathfrak{l}_2$三元组。以下条件是等效的：
 
-(i) $h$和$h'$是G-共轭；
+(i) $h$ 和 $h'$ 是 G-共轭；
 
-(ii) $(x, h, y)$ 和 $(x', h', y')$ 是 G-共轭。
+(ii) $(x, h, y)$ 和 $(x', h', y')$ 是 G 共轭。
 
-我们只需证明蕴涵 (i) $=\Rightarrow$ (ii)，我们就立即还原为$h=h'$ 的情况。引入$\mathfrak{g}^2$和$G_h$，如引理8。我们有$x\in \mathfrak{g}^2$和$[x,\mathfrak{g}^0] =\mathfrak{g}^2$，由§1, no. 2，Cor。命题 2. 因而，$\mathfrak{g}^2$ 的$G_hx$ 包含子集在 Zariski 拓扑中是密集且开放的，$G_hx'$ 也是如此。所以存在$a\in G_h$使得$a(x) =x'$。我们有 $a(h) =h$，因此有 $a(y) =y'$ (no. 1，引理 1)。
+我们只需证明蕴涵 (i) $=\Rightarrow$ (ii)，我们就立即还原为 $h=h'$ 的情况。引入$\mathfrak{g}^2$和$G_h$，如引理 8。我们有$x\in \mathfrak{g}^2$，以及§1, no. 2的$[x,\mathfrak{g}^0] =\mathfrak{g}^2$，Cor。命题 2. 因而 $\mathfrak{g}^2$ 的$G_hx$ 包含子集在 Zariski 拓扑中是密集且开放的，$G_hx'$ 也是如此。所以存在$a\in G_h$使得$a(x) =x'$。我们有$a(h) =h$，因此有$a(y) =y'$（no. 1，引理 1）。
 
 #### 推论 1 {#lie-viii-s11-prop-6-cor-1 .statement tag=017J}
 
-映射通过从$\mathfrak{s}\mathfrak{l}_2$三元组的G-共轭类的集合到简单的G-共轭类的集合的商双射与任何$\mathfrak{s}\mathfrak{l}_2$三元组相关联，它的简单元素定义元素。
+映射与任何$\mathfrak{s}\mathfrak{l}_2$三元组相关联，其简单的元素定义通过从$\mathfrak{s}\mathfrak{l}_2$-三元组的G-共轭类的集合到简单的G-共轭类的集合传递到商双射元素。
 
 #### 推论 2 {#lie-viii-s11-prop-6-cor-2 .statement tag=017K}
 
-如果rk($\mathfrak{g}$)$=l$，共轭类的数，相对于Aut$_e(\mathfrak{g})$，$\mathfrak{g}$的非零幂零元至多为$3^l$。
+如果 rk($\mathfrak{g}$) $=l$，共轭类的数相对于Aut$_e(\mathfrak{g})$，$\mathfrak{g}$的非零幂零元至多为$3^l$。
 
 这是从 Cor 得出的。 1、科。提案 2 和 Cor。提案 5。
 
 #### 推论 3 {#lie-viii-s11-prop-6-cor-3 .statement tag=017L}
 
-若rk($\mathfrak{g}$)$=l$，共轭类的数，相对于Aut$_e(\mathfrak{g})$，与$\mathfrak{s}\mathfrak{l}(2, k)$同构的$\mathfrak{g}$的子代数至多为$3^l$。
+如果共轭类的rk($\mathfrak{g}$)$=l$，共轭类的数相对于Aut$_e(\mathfrak{g})$，与$\mathfrak{s}\mathfrak{l}(2, k)$同构的$\mathfrak{g}$子代数至多为$3^l$。
 
 这是从 Cor 得出的。 1、提案 1 和 Cor。提案 5。
 
@@ -337,11 +337,11 @@ $$
 
 假设$\mathfrak{g}$是半单。
 
-(i) 如果 Ker ad $x$ 的维数是 $\mathfrak{g}$ 的秩，则 $\mathfrak{g}$ 的幂零元 $x$ 被认为是本金。
+(i) 如果 Ker ad $x$ 的维数是 $\mathfrak{g}$ 的秩，则称 $\mathfrak{g}$ 的幂零元 $x$ 为主要。
 
-(ii) 如果 $h$ 是正则且$h$ 的特征值位于 $k$ 属于至$2\mathbf{Z}$ 的代数闭包中，则称$\mathfrak{g}$ 的简单元素 $h$ 为主要。
+(ii) 如果$h$是正则且$k$属于到$2\mathbf{Z}$的代数闭包中的广告$h$的特征值，则$\mathfrak{g}$的简单元素$h$被认为是主要的。
 
-(iii) 如果$\mathfrak{g}$的长度被视为模除以$kx+kh+ky$，等于$\mathfrak{g}$的秩，则称$\mathfrak{g}$的$\mathfrak{s}\mathfrak{l}_2$三元组$(x, h, y)$为主。
+(iii) 如果 $\mathfrak{g}$ 的长度（被认为是 $kx+kh+ky$ 上的模）等于 $\mathfrak{g}$ 的秩，则 $\mathfrak{g}$ 的 $\mathfrak{s}\mathfrak{l}_2$ 三元组 $(x, h, y)$ 被认为是主要的。
 
 #### 命题 7 {#lie-viii-s11-prop-7 .statement tag=017N}
 
@@ -369,9 +369,9 @@ $\mathfrak{a}=kx+kh+ky,\mathfrak{g}'$之上的模是单数维数简单子模和�
 
 (i) 元素 $h^0$ 简单又原则。
 
-(ii) $\mathfrak{g}$的元素$x$，使得存在形式$(x, h^0, y)$的$\mathfrak{s}\mathfrak{l}_2$三元组是$\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$的元素，并且在每个$\mathfrak{g}^{\alpha}$中具有非零分量。
+(ii) $\mathfrak{g}$的元素$x$，使得存在形式$(x, h^0, y)$的$\mathfrak{s}\mathfrak{l}_2$三元组是$\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$的元素，并且每个$\mathfrak{g}^{\alpha}$中具有非零分量。
 
-元素 $h^0$ 是在 §7, no. 5、引理 2（cf. loc. cit.、公式 (1)）中考虑的。由此引理可以得出，$h^0$是简单原理，并且如果$x\in \sum_{\alpha\in B}\mathfrak{g}^{\alpha}$在每个$\mathfrak{g}^{\alpha}$中有一个非零分量，则存在形式$(x, h^0, y)$的$\mathfrak{s}\mathfrak{l}_2$三元组。相反，令 $(x, h^0, y)$ 为 $\mathfrak{s}\mathfrak{l}_2$ 三元组。我们有$[h^0, x] = 2x$，所以$x\in \sum_{\gamma\in R,\gamma(h^0)=2}\mathfrak{g}^{\gamma}=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$。同样，$y\in \sum_{\alpha\in B}\mathfrak{g}^{-\alpha}$。写
+元素 $h^0$ 是在§7, no. 5、引理 2（cf. loc. cit.、公式 (1)）中考虑的。由此引理可以得出，$h^0$是简单原理，并且如果$x\in \sum_{\alpha\in B}\mathfrak{g}^{\alpha}$在每个$\mathfrak{g}^{\alpha}$中有一个非零分量，则存在形式$(x, h^0, y)$的$\mathfrak{s}\mathfrak{l}_2$三元组。相反，令 $(x, h^0, y)$ 为 $\mathfrak{s}\mathfrak{l}_2$ 三元组。我们有$[h^0, x] = 2x$，所以$x\in \sum_{\gamma\in R,\gamma(h^0)=2}\mathfrak{g}^{\gamma}=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$。同样，$y\in \sum_{\alpha\in B}\mathfrak{g}^{-\alpha}$。写
 
 $h^0=\sum_{\alpha\in B}a_{\alpha}H_{\alpha}$ 其中 $a_{\alpha}>0$ 对于所有 $\alpha \in B$，
 
@@ -387,7 +387,7 @@ $$
 
 所以 $[X_{-\alpha}, X_{\alpha}]\not= 0$ 对于所有$\alpha \in B$。
 
-#### 推论{#lie-viii-s11-n4-cor-1 .statement tag=017P}
+#### 推论 {#lie-viii-s11-n4-cor-1 .statement tag=017P}
 
 在可分割的半单李代数中，存在主体幂零元。
 
@@ -399,13 +399,13 @@ $$
 
 我们保留第 8 条命题的记号。令$h$ 为主要简单元素。它是 Aut$_e(\mathfrak{g})$ 下的共轭到 $h'\in \mathfrak{h}$，使得所有 $\alpha \in B$ 都有 $\alpha (h')\in  \{0,1,2\}$（no. 3，提案 5）。由于$h'$是原则简单的，$\alpha (h')\not= 0$和$\alpha (h')\in 2\mathbf{Z}$适用于所有$\alpha \in B$，因此$\alpha (h') = 2$适用于所有$\alpha \in B$，因此$h'=h^0$。这证明了断言对于简单的元素。
 
-令$x, x'$为主幂零元。存在$\mathfrak{s}\mathfrak{l}_2$-三元组$(x, h, y)$、$(x', h', y')$。根据命题，$7,h$和$h'$是主要简单的，因此共轭在前面的Aut$_e(\mathfrak{g})$下。所以$x$和$x'$在Aut$_e(\mathfrak{g})$下是共轭（命题6）。
+令$x, x'$为主幂零元。存在$\mathfrak{s}\mathfrak{l}_2$-三元组$(x, h, y)$、$(x', h', y')$。根据命题，$7,h$和$h'$是主要简单的，因此共轭在前面的Aut$_e(\mathfrak{g})$下。所以 $x$ 和 $x'$ 是 Aut$_e(\mathfrak{g})$ 下的共轭（命题 6）。
 
 #### 引理 9 {#lie-viii-s11-lem-9 .statement tag=017R}
 
-有了第8条命题的记号，把$\mathfrak{g}^p=$ Ker(ad $h^0-p$)换成$p\in \mathbf{Z}$。令 $\mathfrak{g}^2_*$ 为 $\mathfrak{g}^2=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ 的元素中的集合，其分量非零
+有了第8条命题的记号，把$\mathfrak{g}^p=$ Ker(ad $h^0-p$)换成$p\in \mathbf{Z}$。令 $\mathfrak{g}^2_*$ 为 $\mathfrak{g}^2=\sum_{\alpha\in B}\mathfrak{g}^{\alpha}$ 的元素中的集合，并且分量具有非零值
 
-每个$\mathfrak{g}^{\alpha}$。令$R_+$为相对于B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$和$x\in \mathfrak{g}^2_*$为正根的集合。然后$e^{ad\mathfrak{n}_+}.x=x+ [\mathfrak{n}_+,\mathfrak{n}_+]$。
+每个$\mathfrak{g}^{\alpha}$。令$R_+$为相对于B$,\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$和$x\in \mathfrak{g}^2_*$的正根的集合。然后$e^{ad\mathfrak{n}_+}.x=x+ [\mathfrak{n}_+,\mathfrak{n}_+]$。
 
 很明显$e^{ad\mathfrak{n}_+}.x\subset x+ [\mathfrak{n}_+,\mathfrak{n}_+]$。我们证明，如果$v\in [\mathfrak{n}_+,\mathfrak{n}_+]$，则$x+v\in e^{ad\mathfrak{n}_+}.x$。把$\mathfrak{n}^{(p)}=\sum_{r\geq p}\mathfrak{g}^{2r}$；足以证明
 
@@ -423,9 +423,9 @@ $$
 
 #### 命题 10 {#lie-viii-s11-prop-10 .statement tag=017S}
 
-假设$\mathfrak{g}$是半单。设$\mathfrak{h}$为$\mathfrak{g}$的分裂嘉当子代数，$(\mathfrak{g},\mathfrak{h})$的R根系，R的B基，相对于B的正根的$R_+$集合，并且$\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$。主要的幂零元属于到$\mathfrak{n}_+$是$\mathfrak{n}_+$的元素，对于所有$\alpha \in B$来说，$\mathfrak{g}^{\alpha}$中有一个非零分量。
+假设$\mathfrak{g}$是半单。设$\mathfrak{h}$为$\mathfrak{g}$的分裂嘉当子代数，$(\mathfrak{g},\mathfrak{h})$的R根系，R的B基，相对于B的正根的$R_+$集合，并且$\mathfrak{n}_+=\sum_{\alpha\in R_+}\mathfrak{g}^{\alpha}$。主要幂零元属于到$\mathfrak{n}_+$是$\mathfrak{n}_+$的元素，对于所有$\alpha \in B$，$\mathfrak{g}^{\alpha}$中有一个非零分量。
 
-命题8和引理9证明这样的元素是主幂零的。我们证明逆命题。显然我们可以假设 $\mathfrak{g}$ 是简单的。令$h^0$和$\mathfrak{g}^p$如命题8和引理9。令$\omega$为最高根，并代入$\omega (h^0) = 2q$；我们有$q=h-1$，其中$h$是R的Coxeter数，cf.。 VI, §1, no. 11, Prop. 31. Then $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$, and $\mathfrak{g}^{2k}= 0$ for $|k|> q$.存在一个主$\mathfrak{s}\mathfrak{l}_2$-三元组$(x^0, h^0, y^0)$。由 §1, no. 2 提供，Cor.根据第 2 条，(ad $x^0$)$^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$，所以 (ad $x^0$)$^{2q}\not= 0$。 Let $x$ be a principal 幂零元 of $\mathfrak{g}$ 属于 to $\mathfrak{n}_+$.如果$\overline{k}$是$k,x\otimes 1$的代数闭包，并且$x^0\otimes 1$是共轭在$\mathfrak{g}\otimes_k\overline{k}$的自同构之下（命题9），那么（ad$x$）$^{2q}\not= 0$。存在 $\lambda \in R$ 使得 (ad $x$)$^{2q}\mathfrak{g}^{\lambda}\not= 0$。将$x=\sum_{n\geq 1}x_n$放入$x_n\in \mathfrak{g}^{2n}$。
+命题8和引理9证明这样的元素是主幂零的。我们证明逆命题。显然我们可以假设 $\mathfrak{g}$ 是简单的。令$h^0$和$\mathfrak{g}^p$如命题8和引理9。令$\omega$为最高根，并代入$\omega (h^0) = 2q$；我们有$q=h-1$，其中$h$是R的Coxeter数，cf.。 VI, §1, no. 11，第 31 条提案。然后是 $\mathfrak{g}^{2q}=\mathfrak{g}^{\omega},\mathfrak{g}^{-2q}=\mathfrak{g}^{-\omega}$，然后是 $\mathfrak{g}^{2k}= 0$ $|k|> q$。存在一个主$\mathfrak{s}\mathfrak{l}_2$-三元组$(x^0, h^0, y^0)$。由 §1, no. 2 提供，Cor.根据第 2 条，(ad $x^0$)$^{2q}(\mathfrak{g}^{-\omega}) =\mathfrak{g}^{\omega}$，所以 (ad $x^0$)$^{2q}\not= 0$。令$x$是$\mathfrak{g}$属于到$\mathfrak{n}_+$的本金幂零元。如果$\overline{k}$是$k,x\otimes 1$的代数闭包，并且$x^0\otimes 1$是共轭在$\mathfrak{g}\otimes_k\overline{k}$的自同构之下（命题9），那么（ad $x$）$^{2q}\not= 0$。存在 $\lambda \in R$ 使得 (ad $x$)$^{2q}\mathfrak{g}^{\lambda}\not= 0$。将$x=\sum_{n\geq 1}x_n$放入$x_n\in \mathfrak{g}^{2n}$。
 
 然后
 
@@ -439,7 +439,7 @@ $$
 \omega  \notin  -\omega +\sum_{\alpha\in B,\alpha\not=\alpha_0}k\alpha
 $$
 
-意味着 $\mathfrak{g}^{\omega}\not\subset$ (ad $x_1$)$^p\mathfrak{g}^{-\omega}$ 对于所有 $p$；这是荒谬的，所以$\mathfrak{g}^{\alpha}$中$x_1$的分量对于所有$\alpha \in B$来说都是非零的。
+意味着 $\mathfrak{g}^{\omega}\not\subset$ (ad $x_1$)$^p\mathfrak{g}^{-\omega}$ 对于所有 $p$；这是荒谬的，所以$\mathfrak{g}^{\alpha}$中$x_1$的分量对于所有$\alpha \in B$来说都是非零。
 
 ### 习题 {#lie-viii-s11-exercises}
 

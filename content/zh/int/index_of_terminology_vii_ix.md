@@ -12,43 +12,43 @@ pdf_pages: 0317-0323
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 16f98cff1b479bac45366cbe648f2e4b0c2af8e46700699c404d3500c2a74391
+content_sha256: 0e365db867a0801f8de19f014130af5db3a85a97186e5e771d9cb3014580f0d1
 translated_from: content/en/int/index_of_terminology_vii_ix.md
 translation_method: google
 source_content_sha256: 730126b881790ae0ba6436df61ecf216085a06ed9719755a8f5a1e777b40123c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e5a55bd1c33f72f535dda0c4fa5d1bb8c2bc21fb6d6de831e20da74738648d5f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标术语
+## 指标 / 术语
 
 参考号数表示阶、章、截面和小节（或在特殊情况下，习题）。
 
 抽象测度，整的：IX，3，Exer。 4.
 加法集合函数：IX、3、2。
 可数加法 (集合函数)：IX, 3, 2。
-Adjoint of 线性映射: IX, Annex, 2.
+线性映射的伴随：IX，附件，2。
 代数，三角形（上、下）：VII、3、3。
-Almost everywhere: IX, 1, 9.
-相关的promeasure，到一个小节：IX, 6, 1。
-Atomic gauge: IX, 3, Exer. 9.
-基 $\mu$, measure with: IX, 2, 2.
-Bochner’s 定理: IX, 6, 12.
-Bounded encumbrance: IX, 1, 1.
-Bounded measure: IX, 1, 2.
+几乎无处不在：IX、1、9。
+伴随的 promeasure，到一个小节：IX, 6, 1。
+原子规：IX，3，Exer。 9.
+基 $\mu$，测量方法：IX, 2, 2。
+博赫纳的定理：IX、6、12。
+有界负担：IX, 1, 1。
+有界测度：IX, 1, 2。
 有界集合函数: IX, 3, 2。
-Brunn–Minkowski 不等式: VII, 1, Exer. 25.
-枢机主教，非常难以接近：IX，3，Exer。 13、脚注。
+布伦-闵可夫斯基不等式：VII，1，埃克瑟。 25.
+基数，强烈无法访问：IX，3，Exer。 13、脚注。
 基数，乌拉米安：IX，3，Exer。 11.
-特征标 of a monoid: IX, 5, 7.
+幺半群的特征标：IX, 5, 7。
 集中（负担）于子集：IX, 1, 1。
 集中（测量）子集：IX、1、4。
-Continuous 线性表示: VIII, 2, 1.
-Contragredient (线性表示): VIII, 2, 2.
+连续线性表示：VIII、2、1。
+反对 (线性表示): VIII, 2, 2.
 度量有限序列的卷积乘积：VIII, 1, 1。
 函数的卷积乘积：VIII, 4, 5。
 可卷积函数：VIII、4、5。
@@ -60,18 +60,18 @@ $\mathbf{R}^T$ 上高斯测度的协方差：IX, 6, 6。
 狭窄的集合有界措施：VIII，3，Exer。 10.
 
 粉碎：IX、1、8。
-分解，岩泽的$\mathbf{GL}(n, K)$：VII，3，3。
+岩泽的分解，$\mathbf{GL}(n, K)$：VII, 3, 3。
 密度相对于另一个的措施：IX, 2, 2。
-Diffuse gauge: IX, 3, Exer. 9.
-Disintegration of a measure: IX, 2, 7.
+漫反射测量仪：IX，3，Exer。 9.
+小节的分解：IX, 2, 7。
 基本域：VII, 2, 10。
 负担：IX, 1, 1。
 负担，有界：IX, 1, 1。
 负担，集中在子集：IX, 1, 1。
 负担, 像: IX, 1, 1.
-Encumbrance, induced: IX, 1, 1.
-Encumbrance, locally bounded: IX, 1, 1.
-Equicontinuous 线性表示: VIII, 2, 1.
+负担，诱发：IX, 1, 1。
+负担，局部边界：IX, 1, 1。
+等连续线性表示: VIII, 2, 1。
 基本上积分：IX, 1, 2。
 本质上有界函数: IX, 1, 10。
 本质上可积函数: IX, 1, 10。
@@ -83,7 +83,7 @@ Equicontinuous 线性表示: VIII, 2, 1.
 函数，本质上可积：IX, 1, 10。
 函数、生成的（序列）：IX、5、7。
 函数，可积：IX, 1, 10。
-函数，本地可积：IX, 2, 2。
+函数，局部可积：IX, 2, 2。
 函数，局部可忽略不计：IX, 1, 4。
 函数，可测量：IX、1、5。
 函数，主持：IX、1、9。
@@ -96,11 +96,11 @@ G-填充：VII，1，Exer。 27.
 G-铺路：VII，1，Exer。 27.
 测量集合X：IX，3，Exer。 9.
 高斯测度，promeasure：IX, 6, 5。
-协方差的高斯测度矩阵 $C$: IX, 6, 6。
+具有协方差矩阵 $C$ 的高斯测度：IX, 6, 6。
 具有协方差 K 的高斯测度：IX, 6, 6。
 
 高斯测度，规范，在真实的希尔伯特空间：IX, 6, 6。
-一般线性群：VII、3、3。
+一般线性群：VII, 3, 3。
 生成的函数 / 序列：IX、5、7。
 群、大三角形（上、下）：VII、3、3。
 群，特殊三角形（上、下）：VII, 3, 3。
@@ -109,7 +109,7 @@ G-铺路：VII，1，Exer。 27.
 哈尔测度（左、右）：VII, 1, 2。
 希尔伯特-施密特映射：IX，附件，2。
 小节的像：IX、2、3。
-像的promeasure: IX, 6. 2.
+像赞成措施: IX, 6. 2.
 像产权负担：IX, 1, 1。
 诱发负担：IX, 1, 1。
 诱导测度：IX, 2, 1。
@@ -117,7 +117,7 @@ G-铺路：VII，1，Exer。 27.
 内部常规集合函数：IX、3、2。
 整数、$p$-adic：VII、1、6。
 可积函数: IX, 1, 10.
-可积集合: IX, 1, 9。
+可积分集合: IX, 1, 9。
 整体，抽象：IX，3，Exer。 4.
 一体式基本鞋面：IX, 1, 2。
 整体式，上部：IX、1、9。
@@ -125,10 +125,10 @@ G-铺路：VII，1，Exer。 27.
 群上的不变测度（左、右）：VII, 1, 1。
 不变测度，在算子群下：VII, 1, 1。
 局部紧致群的逆（或射影）极限的测度的逆（或射影）极限：VII, 1, 6。
-度量的逆（或投影）极限：IX, 4, 2。
-度量的逆（或投影）系统：IX, 4, 2。
+度量的逆（或射影）极限：IX, 4, 2。
+度量的逆（或射影）系统：IX, 4, 2。
 等轴测线性表示：VIII、2、1。
-岩泽分解 / $\mathbf{GL}(n, K)$: VII, 3, 3.
+岩泽分解/$\mathbf{GL}(n, K)$：VII、3、3。
 正型的核：IX, 6, 6。
 拉格朗日定理：VII，1，Exer。 29.
 拉普拉斯变换：IX、5、7。
@@ -225,7 +225,7 @@ Promeasure, 像: IX, 6, 2.
 二次形式，核：IX，附件，1。
 局部紧凑群上的准不变测度：VII, 1, 9。
 准不变测度，在算子群下：VII, 1, 1。
-局部紧凑空间 X 上的测度与在 X 上运行的群哈尔测度的商：VII, 2, 2。
+商局部紧凑空间 X 的群 Haar 测度在 X 上运行：VII, 2, 2。
 氡气空间: IX, 3, 3。
 实际测量、预测：IX, 1, 2。
 正则表示（左、右）：VIII、2、5。
@@ -251,7 +251,7 @@ Promeasure, 像: IX, 6, 2.
 空间，强氡气：IX, 3, 3。
 特殊三角形群（上、下）：VII、3、3。
 严格三角形群（上、下）：VII、3、3。
-非常难以接近的基数：IX，3，Exer。 13、脚注。
+非常难以接近基数：IX，3，Exer。 13、脚注。
 强氡空间：IX、3、3。
 测度的次逆（或次射影）系统：IX, 4, 2。
 子幺半群，满：IX、5、7。
@@ -265,20 +265,20 @@ Promeasure, 像: IX, 6, 2.
 定理，闵可夫斯基的：VII，1，Exer。 27.
 定理，米洛斯的：IX、6、10。
 定理，P.Lévy’s：IX，5，Exer。 13.
-定理，Thue 的：VII，1，Exer。 28.
+定理，Thue’s：VII，1，Exer。 28.
 Thue 的定理：VII，1，Exer。 28.
-紧密收敛，拓扑 of：IX, 5, 3。
+紧收敛，拓扑 of：IX, 5, 3。
 紧拓扑：IX、5、3。
 拓扑，萨佐诺夫的：IX、6、10。
 拓扑，紧：IX、5、3。
 比例的总质量：IX, 6, 1。
 二次方形式相对于另一个的迹：IX，附件，1。
-变换，傅里叶（测度，算度）：IX, 6, 3。
+变换，傅里叶（量度、量度）：IX, 6, 3。
 变换，拉普拉斯（度量）：IX, 5, 7。
 转置线性表示: VIII, 2, 2。
 三角形代数：VII、3、3。
 三角形群（大、严、特）：VII、3、3。
-乌兰枢机：IX，3，Exer。 11.
+乌拉姆基数：IX，3，Exer。 11.
 乌拉姆超滤器：IX，3，Exer。 11.
 幺模群: VII, 1, 3。
 酉表示：VIII，2，Exer。 4.

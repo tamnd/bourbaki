@@ -61,16 +61,16 @@ subsections:
       pdf_page: 193
 statements: 79
 exercises: 30
-content_sha256: 34a60e8b4d91187e0295427a4a7c9e333b513302db559e247ae24d31d2b97bc2
+content_sha256: a996ace890f8841e104f0322cf04630a0f6cb72c741cb7163f5a6a06ede8f7a7
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 translation_method: google
 source_content_sha256: 3b5e810e086ae5ed0fb3b0f106b25333088c6f327ee0cfc196e61afb7abd9879
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8f3cb899b880182ac9254407ef0f4a8fa77079b567af3bbc77525176b41a74a4
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。可测量函数和集合
@@ -79,11 +79,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#int-iv-s5-def-1 .statement tag=08UC}
 
-*令$X$为局部紧凑空间，$\mu$为$X$的测度。 A mapping $f$ of $X$ into a topological space $F$ is said to be measurable for the measure $\mu$ (or to be $\mu$-measurable) if, for every compact subset $K$ of $X$, there exist a $\mu$-negligible set $N \subset K$ and a partition of $K - N$ formed by a sequence (finite or infinite) $(K_n)$ of compact sets, such that the restriction of $f$ to each $K_n$ is continuous.*
+*令$X$为局部紧凑空间，$\mu$为$X$的测度。 $X$ 到拓扑空间 $F$ 的映射 $f$ 被认为对于测度 $\mu$ 是可测量的（或者是 $\mu$ 可测量的），如果对于 $X$ 的每个紧凑子集 $K$，都存在一个 $\mu$ 可忽略的集合$N \subset K$ 和由紧集序列（有限或无限）$(K_n)$ 形成的 $K - N$ 划分，使得 $f$ 对每个 $K_n$ 的限制是连续的。*
 
 显然，$X$到$F$的每个连续映射都是可测的。
 
-注如果 $\mu$ 和 $\nu$ 是 $X$ 上的两个测度，使得每个 $\mu$ 可忽略的集合都是 $\nu$ 可忽略的，那么 *每个 $\mu$ 可测的函数也是$\nu$-可测量*（cf. V, §5 章，第 5、6 号）。
+请注意，如果 $\mu$ 和 $\nu$ 是 $X$ 上的两个度量，使得每个 $\mu$ 可忽略的集合都是 $\nu$ 可忽略的，则 *每个 $\mu$ 可测量函数也是 $\nu$ 可测量* （cf. V, §5 章，第 5、6 号）。
 
 定义1可以转化为以下准则：
 
@@ -121,7 +121,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 推论 2 {#int-iv-s5-prop-3-cor-2 .statement tag=08UI}
 
-— *如果 X 可度量，则 X* (GT, IX, §6, No. 2) 的每个 Souslin 子集 A *对于X* 上的每个测度 μ 都是 μ 可测的。
+— *如果 X 是可度量的，则 X* (GT, IX, §6, No. 2) 的每个 Souslin 子集 A *对于 X* 上的每个测度 μ 都是 μ 可测的。
 
 凭借命题3，足以证明每个相对紧的Souslin集合A都是μ可积的。现在，这样的集合 A 能够实现$|\mu|^*$（GT、IX, §6, No. 9、Th.5）。因此，对于每个 $\varepsilon > 0$ 都存在 A 的紧凑子集 K，使得 $|\mu|^*(A) \leq |\mu|^*(K) + \varepsilon = |\mu|(K) + \varepsilon$。令 U 为 X 包含于 A 中的相对紧开集合，使得
 
@@ -135,7 +135,7 @@ $$
 
 #### 命题 4（本地化的原理）{#int-iv-s5-prop-4 .statement tag=08UJ}
 
-— *令 f 为 X 的映射成为拓扑空间 F。假设对于每个 $x \in X$，存在 x 的可积邻域 $V_x$ 和可测量的 X 的映射 $g_x$ 到 F 中，使得$f(y) = g_x(y)$几乎随处可见$V_x$。那么 f 是可测量的。*
+— *令 f 为 X 的映射成为拓扑空间 F。假设对于每个 $x \in X$，存在 x 的可积邻域 $V_x$ 和可测量 X 的映射 $g_x$ 到 F 中，使得$f(y) = g_x(y)$几乎随处可见$V_x$。那么 f 是可测量的。*
 
 令K为紧集；存在点 $x_i \in K$ 的有限数，使得 $V_{x_i}$ 形式覆盖 K。立即得出 (§4, No. 9，引理)，存在可忽略不计的集合 $N \subset K$ 和有限的划分 $K - N$由可积集合$M_j$组成，使得每个集合$K \cap V_{x_i}$是N的子集的并和$M_j$的某个数，并且使得在每个$M_j$上， $f$等于函数$g_{x_i}$之一。现在，对于每个$M_j$，都存在可忽略不计的集合、$N_j \subset M_j$和由紧集$K_{nj}\ (\mathbf{n} \in \mathbf{N})$的序列组成的$M_j - N_j$的划分；另一方面，对于每个$K_{nj}$，都存在由紧集$K_{mnj}\ (\mathbf{m} \in \mathbf{N})$的序列形成的可忽略不计的集合、$P_{nj} \subset K_{nj}$和$K_{nj} - P_{nj}$的划分，使得$f$的限制对于每个$K_{mnj}$ 是连续的。由于 N 的并，$N_j$ 和 $P_{nj}$ 可以忽略不计，$f$ 是可测的。
 
@@ -161,7 +161,7 @@ $$
 
 #### 推论 2 {#int-iv-s5-prop-5-cor-2 .statement tag=08UN}
 
-— *每个局部可忽略的开集合都可以忽略不计*（因此包含在$\mu$的支持补中）。
+— *每个局部可忽略的开集合都是可以忽略的*（因此包含在$\mu$的支持补中）。
 
 因为，开集合G的外部测度是紧集$K \subset G$的测度$|\mu|(K)$的上等值（§ 4, No. 6，Th.4的Cor.4）；如果 G 局部可忽略不计，则对于 G 中包含的每个紧集 K，$|\mu|(K) = 0$，因此 $|\mu|^*(G) = 0$。
 
@@ -175,9 +175,9 @@ $$
 
 #### 推论 4 {#int-iv-s5-prop-5-cor-4 .statement tag=08UP}
 
-— *令 f 为 X 的映射成为拓扑空间 F。如果 f 的不连续性的点的集合 N 局部可忽略，则 f 是可测的。*
+— *令 f 为 X 的映射成为拓扑空间 F。如果 f 的不连续性的点集合 N 局部可忽略，则 f 是可测的。*
 
-对于每个紧集$K \subset X$，$K \cap N$可以忽略不计（命题5），因此，对于每个$\varepsilon > 0$，存在紧集$K_1 \subset K - (K \cap N)$使得$|\mu|(K - K_1) \leq \varepsilon$（§ 4, No. 6，Th.4），并且通过f到$K_1$的假设限制连续，从而结论。
+对于每个紧集$K \subset X$，$K \cap N$可以忽略不计（命题5），因此，对于每个$\varepsilon > 0$，存在紧集$K_1 \subset K - (K \cap N)$使得$|\mu|(K - K_1) \leq \varepsilon$（§ 4, No. 6，Th.4），并且通过f到$K_1$的假设限制是连续的，从而结论。
 
 如果 $P\{x\}$ 是性质，则性质 « *P\{x\} 局部几乎处处（相对于 $\mu$）» 通过定义等价于性质 «* x 的集合使得* (x $\in$ X 而不是$P\{x\}$) *局部可以忽略不计（对于测量* $\mu$）»。如果 F 是任意集合，则关系 «$f(x) = g(x)$ 局部几乎处处» 是 X 的映射的集合中的等价关系到 F 中。特别是，如果 F 是向量空间，则映射 $f$ X 代入 F 使得 f(x) = 0\text{ 局部几乎处处都被称为 } \textit{局部可忽略不计}。我们留给读者的任务是为这些概念建立大多数属性相应的，这些属性已经在§2、第4、5和6项中列举，函数几乎在任何地方都相等。我们将极限自己推论到注意到，如果X的两个\emph{连续}映射$f, g$进入豪斯多夫拓扑空间F，并且相等\emph{局部几乎处处}，则根据Cor，它们相等\emph{几乎处处}。提案 5 的第 2 条（因此在$\mu$ 的支持度每点处相等（§ 2, No. 4，提案 9））；然而，我们明确声明以下命题，即本地化的原理的直接的推论：
 
@@ -222,7 +222,7 @@ Cor 需要条件。 1;这是足够的，因为映射$x \mapsto (f^+(x), f^-(x))$
 
 — *设 F, G, H 为三个拓扑向量空间，并设 (u, v) \to [u \cdot v] 为 F \times G 到 H 的连续双线性映射。如果 f 是 X 到 F 的可测映射，g 是 X 到 G 的可测映射，则[f \cdot g] 是 X 到 H 中可测量的映射。*
 
-In particular, if f is a measurable mapping of X into a real (resp. complex) normed space F, and g is a measurable mapping of X into R (resp. C), then gf is measurable. 如果 F 是 *范数代数* 并且 f、g 是 X 的两个可测的映射到 F 中，则 fg 是可测的。
+特别是，如果 f 是 X 到实（或复）赋范空间 F 的可测量映射，并且 g 是 X 到 R（或 C）的可测量映射，则 gf 是可测量的。 如果 F 是 *范数代数* 并且 f、g 是 X 的两个可测的映射到 F 中，则 fg 是可测的。
 
 #### 推论 6 {#int-iv-s5-thm-1-cor-6 .statement tag=08UY}
 
@@ -250,7 +250,7 @@ Th 的结论。如果 $F$ 不可度量，则 2 不一定成立（例 1）。如�
 
 — *令* $(f_n)$ *为数值函数（有限或非有限）的序列*。 *如果* $f_n$ *可测量，则函数* $\sup_n f_n$、$\inf_n f_n$、$\limsup_{n \to \infty} f_n$ *和* $\liminf_{n \to \infty} f_n$ *可测量*。
 
-因为，扩展实直线 $\overline{\mathbf{R}}$ 同胚于紧区间 $\mathbf{R}$，是可度量的。 函数$\sup_n f_n$是函数$g_n = \sup(f_1, f_2, \ldots, f_n)$的递增序列的逐点极限，可测量（No. 3，Th.1的Cor.1）；类似地，$\limsup_{n \to \infty} f_n$是函数$h_n = \sup_{p \geq 0} f_{n+p}$的递减序列逐点极限，每个都可以通过前述方法测量。最后，由于$\inf_n f_n = -\sup(-f_n)$和$\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$，这些函数是可测量的。
+因为，扩展的实直线$\overline{\mathbf{R}}$同胚于$\mathbf{R}$的紧凑区间，是可度量的。 函数$\sup_n f_n$是函数$g_n = \sup(f_1, f_2, \ldots, f_n)$的递增序列的逐点极限，可测量（No. 3，Th.1的Cor.1）；类似地，$\limsup_{n \to \infty} f_n$是函数$h_n = \sup_{p \geq 0} f_{n+p}$的递减序列逐点极限，每个都可以通过前述方法测量。最后，由于$\inf_n f_n = -\sup(-f_n)$和$\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$，这些函数是可测量的。
 
 #### 推论 2 {#int-iv-s5-thm-2-cor-2 .statement tag=08V1}
 
@@ -262,21 +262,21 @@ $$
 \varphi_{M \cup N} = \varphi_M + \varphi_N - \varphi_M \varphi_N \quad \text{and} \quad \varphi_{M \cap C_N} = \varphi_M - \varphi_M \varphi_N
 $$
 
-可以通过 No. 3 来衡量，Cors。 Th的3和5。 1. 如果 $(M_n)$ 是可测量的集合的序列，并且 M 是它们的并，则 $\varphi_M = \sup_n \varphi_{M_n}$ 可以通过 Cor 测量。 1 Th。 2、从而推论。
+可以通过 No. 3 来衡量，Cors。 Th的3和5。 1. 如果$(M_n)$是可测量的集合的序列，M是它们的并，那么$\varphi_M = \sup_n \varphi_{M_n}$是可测量的。 1 Th。 2、从而推论。
 
 特别是，由于开集合是可测量的：
 
 #### 推论 3 {#int-iv-s5-thm-2-cor-3 .statement tag=08V2}
 
-*Borel 集合 in X* (GT, IX, §6, No. 3, Def. 4) *对于 X* 上的每个测量 $\mu$ 都可测量 $\mu$。
+*Borel 集合 in X*（GT、IX, §6, No. 3、Def. 4）*对于 X* 上的每个测量 $\mu$ 都可测量 $\mu$。
 
 ### 5. 判据用于可测量性
 
-当F是拓扑向量空间时，在可测量的集合（§4, No. 9，Def.4）上的每一步函数，其中F中的值，显然是可测量的（No. 3，Th.1的Cor.3）；这样的函数$f$仅具有值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。更一般地，令 F 为 X 的任何拓扑空间、$f$ 映射到 F 中，仅具有不同值 $a_i$ ($1 \leq i \leq m$) 的有限数；如果集合 $A_i = f^{-1}(a_i)$ 可测量，则函数 $f$ 可测量。因为，对于每个紧集 K 和每个集合 $A_i \cap K$，都存在由紧集的序列 $(K_{in})$ 组成的可忽略不计的集合 $N_i \subset A_i \cap K$ 和 $A_i \cap K \cap C N_i$ 的划分；由于K是集合$A_i \cap K$的并和$f$的限制，因此$K_{in}$都是常数，因此连续，$f$是可测的。通过滥用语言，我们可以说，X的映射$f$进入F是一个*可测量的步骤函数*，如果它只采用值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。
+当F是拓扑向量空间时，在可测量的集合（§4, No. 9，Def.4）上的每一步函数，其中F中的值，显然是可测量的（No. 3，Th.1的Cor.3）；这样的函数$f$仅具有值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。更一般地，令 F 为 X 的任何拓扑空间、$f$ 映射到 F 中，仅具有不同值 $a_i$ ($1 \leq i \leq m$) 的有限数；如果集合 $A_i = f^{-1}(a_i)$ 可测量，则函数 $f$ 可测量。因为，对于每个紧集 K 和每个集合 $A_i \cap K$，都存在由序列 $(K_{in})$ 组成的可忽略不计的集合 $N_i \subset A_i \cap K$ 和划分 $A_i \cap K \cap C N_i$ 紧集；由于K是集合$A_i \cap K$的并和$f$的限制，对于每个$K_{in}$都是常数，因此连续，$f$是可测的。通过滥用语言，我们可以说，X的映射$f$进入F是一个*可测量的步骤函数*，如果它只采用值的有限数，并且对于每个$y \in F$，$f^{-1}(y)$是可测量的。
 
 #### 定理 3 {#int-iv-s5-thm-3 .statement tag=08V3}
 
-*为了将 X 的映射 $f$ 转化为可测量的空间 F 可测量，对于每个紧集 $K \subset X$，存在可测量步骤序列 $(g_n)$ 是充分必要的函数，其中值在 F 中，这样，对于几乎每个 $x \in K$*，$g_n(x)$ 趋向于 $f(x)$。
+*为了将 X 的映射 $f$ 转化为可测量的空间 F 可测量，对于每个紧集 $K \subset X$，存在序列 $(g_n)$ 的可测量步骤是充分必要的函数，F 中包含值，因此对于几乎每个 $x \in K$*，$g_n(x)$ 趋向于 $f(x)$。
 
 条件对于 Egoroff 的定理和原理本地化来说就足够了。让我们证明这是必要的：到假设，存在由紧集组成的$K - N$的可忽略不计的集合$N \subset K$和划分$(K_m)$，使得$f$的限制对每个$K_m$是连续的。对于定义序列$(g_n)$，只需按以下方式进行即可：令$d$为与F的拓扑兼容的度量；对于每个 $K_i$ 和指标 $i \leq n$，存在 $K_i$ 的有限划分可积集合 $A_{ij}$ ($1 \leq j \leq q_i$) 足够小，使得$f$ 在每个 $A_{ij}$ 上的振荡为$\leq 1/n$（§ 4, No. 9，引理）；使$g_n$在每个$A_{ij}$上保持不变，等于此集合中$f$的值之一（对于$1 \leq i \leq n,\ 1 \leq j \leq q_i$），并且等于$X$中每个点的固定元素$a \in \mathbf{F}$不属于到任何 $A_{ij}$。很明显，序列$(g_n(x))$在$K$的每点收敛到$f(x)$，而不是属于到$N$。
 
@@ -296,7 +296,7 @@ $$
 
 *设$f$为$X$可测量的映射到拓扑空间$F$； $F$ 中每个关闭（或打开）集合的$f$ 下的逆像是可测量的。*
 
-It suffices to carry out the proof for the inverse image $^{-1}f(A)$ of a closed set $A$ in $F$. 设$K$是$X$的紧子集；存在由紧集组成的可忽略不计的集合 $N \subset K$ 和 $K - N$ 的划分 $(K_n)$，使得 $f$ 的限制与每个 $K_n$ 是连续的。 因而，交$K_n \cap ^{-1}f(A)$是$f$至$K_n$的限制下封闭的集合$A$的逆像；因此它是$K_n$中的闭集合，因此是紧凑的。 因而，集合$K \cap ^{-1}f(A)$是可忽略的集合$N \cap ^{-1}f(A)$和紧集$K_n \cap ^{-1}f(A)$的并，这证明$^{-1}f(A)$是可测的。
+只需证明$F$中闭集$A$的逆像$^{-1}f(A)$即可。 设$K$是$X$的紧子集；存在由紧集组成的可忽略不计的集合 $N \subset K$ 和 $K - N$ 的划分 $(K_n)$，使得 $f$ 的限制与每个 $K_n$ 是连续的。 因而，交$K_n \cap ^{-1}f(A)$是$f$至$K_n$的限制下封闭的集合$A$的逆像；因此它是$K_n$中的闭集合，因此是紧凑的。 因而，集合$K \cap ^{-1}f(A)$是可忽略的集合$N \cap ^{-1}f(A)$和紧集$K_n \cap ^{-1}f(A)$的并，这证明$^{-1}f(A)$是可测的。
 
 #### 定理 4 {#int-iv-s5-thm-4 .statement tag=08V7}
 
@@ -334,9 +334,9 @@ $$
 
 因为，如果是这样，对于$x$的每个$b \in \overline{\mathbf{R}}$集合，使得$f(x) \geqslant b$是可测量的，是$x$的集合（形式一个可数族）的交使得$f(x) \geqslant a$， $a$ 运行于 D 的点集合，即$\leqslant b$。 $x$的集合使得$f(x) < b$是可测量的，是可测量的集合的补集。接下来，如果$b$是有限的，则$x$的集合使得$f(x) \leqslant b$是可测量的，即$x$的集合的交使得$f(x) < b + 1/n$；并且$f(-\infty)^{-1}$是可测量的，是$x$的集合的交使得$f(x) < n$，因为$n$超过$\mathbf{Z}$。最后，$\overline{\mathbf{R}}$的每个闭区间的$f$下的逆像是可测的，即两个可测的集合的交，以及Th。可以应用4。
 
-类似地，我们可以证明，对于$x$的每一个$a \in \mathrm{D}$，集合就足够了，这样$f(x) > a$是可测量的。
+类似地，我们可以证明，对于$x$中的每一个$a \in \mathrm{D}$，集合就足够了，使得$f(x) > a$是可测量的。
 
-#### 推论{#int-iv-s5-n5-cor-1 .statement tag=08VC}
+#### 推论 {#int-iv-s5-n5-cor-1 .statement tag=08VC}
 
 — *每个较低*（分别*较高*）*半连续函数是可测量的*。
 
@@ -416,7 +416,7 @@ No. 3、Th 之前需要条件。 1;让我们证明它是足够的。首先假设
 
 一般情况下，从引理 1 可以得出，紧集存在递增序列 $(K_n)$，使得$f(x)$ 几乎在$K_n$ 的并的补码中都是零。令 $f_n$ 函数在 $K_n$ 上等于 $f(x)$，在其他地方等于 0； $f_n$ 可通过 No. 3 测量，Cor。 5 Th。 1;从参数的第一个部分开始，从 $|f_n| \leq |f|$、$f_n$ 属于到 $\mathscr{L}_F^p$。由于$f(x)$几乎处处都等于序列$f_n(x)$的极限，勒贝格的定理再次证明$f \in \mathscr{L}_F^p$，从而完成证明。
 
-应该注意注函数 *局部可忽略但不可忽略* 不可积；因此，函数*局部几乎处处*等于可积函数不一定是可积的。
+应该注意的是，函数“局部可忽略但不可忽略”是不可积的；因此，函数*局部几乎处处*等于可积函数不一定是可积的。
 
 #### 推论 1 {#int-iv-s5-lem-1-cor-1 .statement tag=08VK}
 
@@ -424,7 +424,7 @@ No. 3、Th 之前需要条件。 1;让我们证明它是足够的。首先假设
 
 #### 推论 2 {#int-iv-s5-lem-1-cor-2 .statement tag=08VL}
 
-*设$(F_n)$为拓扑空间的序列；对于每个指标 n，令$f_n$是X到$F_n$的可测量映射，并令$f(x) = (f_n(x)) \in F = \prod_n F_n$；最后，让 u 成为 Banach 空间 G 的连续映射 $f(X)$。要使函数 $g(x) = u(f(x))$ 可积，$N_1(g) < +\infty$ 是充分必要的。*
+*设拓扑空间的$(F_n)$为序列；对于每个指标 n，令$f_n$是X到$F_n$的可测量映射，并令$f(x) = (f_n(x)) \in F = \prod_n F_n$；最后，让 u 成为 Banach 空间 G 的连续映射 $f(X)$。为了使函数 $g(x) = u(f(x))$ 可积，$N_1(g) < +\infty$ 是充分必要的。*
 
 因为，g 是可测量的（No. 3，Th.1）。
 
@@ -450,7 +450,7 @@ $$
 \int^*(f + g) d|\mu| = \int^* f d|\mu| + \int^* g d|\mu|.
 $$
 
-这无非是当$f$和$g$可积时积分的可加性。相反的情况，如果例$f$不可积，则$\int^* f d|\mu| = +\infty$乘Th。 5； *更不必说*，$\int^*(f + g) d|\mu| = +\infty$。
+这无非是当$f$和$g$可积时积分的可加性。在相反的情况下，如果例如$f$不可积，则$\int^* f d|\mu| = +\infty$可积Th。 5； *更不必说*，$\int^*(f + g) d|\mu| = +\infty$。
 
 #### 推论 5 {#int-iv-s5-lem-1-cor-5 .statement tag=08VO}
 
@@ -478,7 +478,7 @@ $$
 
 #### 例 {#int-iv-s5-n7-exa-1 .statement tag=08VQ}
 
-— 令 $\mu$ 为 $\mathbf{R}$、I *$\mathbf{R}$ 中的任何*区间的勒贝格测度； I是$\mathbf{R}$的局部紧子空间，$\mu$在I上诱发的测度是线性形式
+— 设$\mu$为$\mathbf{R}$、I*任意*区间在$\mathbf{R}$的勒贝格测度； I是$\mathbf{R}$的局部紧子空间，$\mu$在I上诱发的测度是线性形式
 
 $$
 g \mapsto \int_a^b g(x) \, dx
@@ -486,7 +486,7 @@ $$
 
 在$\mathscr{K}(I; \mathbf{C})$，其中$a$和$b$是I（cf.§ 4, No. 4，*例*）的端点（有限或非），在其他字，我们称之为*勒贝格测度I*。
 
-当 Y 是 X 的*开* 子空间时，Def. 4 重合和定义由 $\mu$ 在 Y 上引起的测量（或 $\mu$ 到 Y 的限制）在第 1 章中给出。 III, §2, No. 1：确实，对于每个函数$g \in \mathscr{K}(Y; \mathbf{C})$函数$g'$，那么在X上连续。
+当 Y 是 X 的 *开* 子空间时，Def. 4 第 4 章中给出的重合和定义由 $\mu$ 右 Y（或$\mu$ 右 Y 的限制）引起的测量。 III, §2, No. 1：确实，对于每个函数$g \in \mathscr{K}(Y; \mathbf{C})$函数$g'$，那么在X上连续。
 
 我们将在第 1 章中详细研究关于诱导测度的积分。 V, §7，在那之前我们只需要以下结果：
 
@@ -500,7 +500,7 @@ $$
 
 (iii) *如果S是$\mu_K$的支持，则*$\mathrm{Supp}(\mu_S) = S$。
 
-(i) 我们可以将自己限制在 H 是紧的情况。 用$f$表示空间K中H的特征函数； $f$是上半连续，因此是$\mathscr{K}_+(K)$中函数的递减有向族$(g_\alpha)$的下包络线；我们有 $\mu_K(H) = \inf_\alpha \int g_\alpha \, d\mu_K$（§ 4, No. 4，第 5 条命题的 Cor.2）。 If $g'_\alpha$ is the function equal to $g_\alpha$ on K and to 0 on $X - K$, then $g'_\alpha$ is upper semi-continuous, and the lower envelope of the decreasing directed family $(g'_\alpha)$ is the characteristic function $\varphi_H$ of H in the space X; therefore
+(i) 我们可以将自己限制在 H 是紧的情况。 用$f$表示空间K中H的特征函数； $f$是上半连续，因此是$\mathscr{K}_+(K)$中函数的递减有向族$(g_\alpha)$的下包络线；我们有 $\mu_K(H) = \inf_\alpha \int g_\alpha \, d\mu_K$（§ 4, No. 4，第 5 条命题的 Cor.2）。 若$g'_\alpha$是K上等于$g_\alpha$、$X - K$上等于0的函数，则$g'_\alpha$是上半连续的，递减有向族$(g'_\alpha)$的下包络线是H在空间X中的特征函数$\varphi_H$；所以
 
 $$
 \mu(H) = \inf_\alpha \int g'_\alpha \, d\mu = \inf_\alpha \int g_\alpha \, d\mu_K = \mu_K(H)
@@ -599,7 +599,7 @@ $$
 
 如果$T$的子集的集合$\mathfrak{A}$是局部可数的，那么对于$T$的每个紧凑子集$K$，与$K$相交的$A \in \mathfrak{A}$的集合是可数的，因为$K$可以是被有限的数个点$K$的开放邻域覆盖，每个邻域仅与子集属于到$\mathfrak{A}$的可数个集合相交。
 
-Def. 7 shows that the *union* of a locally countable set of $\mu$-measurable (resp. locally $\mu$-negligible) subsets of a locally compact space is $\mu$-measurable (resp. locally $\mu$-negligible) (No. 1, Prop. 3 and No. 2, Prop. 5).
+定义。图 7 显示，局部紧致空间的 $\mu$ 可测量（或局部 $\mu$ 可忽略）子集的局部可数集合的 *并* 是 $\mu$ 可测量（或局部 $\mu$ 可忽略）（No. 1，命题 3 和 No. 2，命题 1）。 5）。
 
 #### 命题 14 {#int-iv-s5-prop-14 .statement tag=08VY}
 
@@ -655,7 +655,7 @@ $$
 
 #### 推论 2 {#int-iv-s5-def-8-cor-2 .statement tag=08W2}
 
-*令$K$为$X$的紧致子空间；在阶中，$K$的映射$f$变成拓扑空间$F$是$\mu$可测，它是$\mu_K$可测是充分必要的。*
+*令$K$为$X$的紧致子空间；在阶中，$K$的映射$f$变成拓扑空间$F$是$\mu$可测的，它是$\mu_K$可测的充分必要。
 
 鉴于No. 7的引理2，这立即来自No. 1的提案1和提案15的条件a)。
 
@@ -673,25 +673,25 @@ $$
 
 ### 11. 度量收敛
 
-Let $X$ be a locally compact 空间, $\mu$ a measure on $X$, $A$ a $\mu$-measurable 子集 of $X$, and $F$ a *uniform 空间*; we shall denote by $\mathscr{S}(A, \mu; F)$, or $\mathscr{S}_F(A, \mu)$ (or simply $\mathscr{S}_F(\mu)$, or even $\mathscr{S}_F$, when $A = X$) 集合 of $\mu$-*measurable 映射 of $A$ into $F*$ （No. 10，默认值 8）。 For every entourage $V$ of the uniform 结构 of $F$, every $\mu$-integrable 集合 $B \subset A$ and every 数 $\delta > 0$, we shall denote by $W(V, B, \delta)$ 集合 of 对 $(f, g)$ of 函数 in $\mathscr{S}(A, \mu; F)$ having the following 性质: 集合 $M$ of all $x \in B$ for which $(f(x), g(x)) \notin V$ is such that $|\mu|^*(M) \leq \delta$. Let us show that 集合 $W(V, B, \delta)$ 形式 a *fundamental 系统 of entourages* for a uniform 结构 on $\mathscr{S}(A, \mu; F)$: it is clear that $W(V, B, \delta)$ is symmetric if $V$ is, and that if $V' \subset V,\ B' \supset B$ and $\delta' \leq \delta$，那么
+令$X$为局部紧凑空间，$\mu$为$X$的测度，$A$为$X$的$\mu$可测子集，以及$F$为*均匀空间*；我们将用$\mathscr{S}(A, \mu; F)$或$\mathscr{S}_F(A, \mu)$（或简单地$\mathscr{S}_F(\mu)$，甚至$\mathscr{S}_F$，当$A = X$时）表示$\mu$的集合-*可将$A$的映射测量到$F*$ （No. 10，默认值 8）。对于$F$制服结构的每个随行人员$V$，每个$\mu$可积集合$B \subset A$和每个数$\delta > 0$，我们将用$W(V, B, \delta)$集合表示$\mathscr{S}(A, \mu; F)$中函数的对$(f, g)$具有以下性质：所有$x \in B$中的集合$M$，其中$(f(x), g(x)) \notin V$使得$|\mu|^*(M) \leq \delta$。让我们证明集合 $W(V, B, \delta)$ 形式 $\mathscr{S}(A, \mu; F)$ 上制服结构的*基本随行人员系统*：很明显，如果 $V$ 是对称的，则 $W(V, B, \delta)$ 是对称的，并且如果 $V' \subset V,\ B' \supset B$ 和$\delta' \leq \delta$，那么
 
 $$
 W(V', B', \delta') \subset W(V, B, \delta);
 $$
 
-it therefore suffices to verify the axiom $(U'_{III})$ (GT, II, §1, No. 1). Now, if $V'$ is an entourage such that ${V'}^2 \subset V$, then
+因此，验证公理$(U'_{III})$（GT，II, §1, No. 1）就足够了。现在，如果$V'$是一个随从，使得${V'}^2 \subset V$，那么
 
 $$
 W(V', B, \delta/2) \circ W(V', B, \delta/2) \subset W(V, B, \delta).
 $$
 
-注 that as $K$ runs over a $\mu$-dense 集合 $\mathfrak{K}$ of *compact* 子集 of $A$, 集合 $W(V, K, \delta)$ also 形式 a fundamental 系统 of entourages for the preceding uniform 结构: for, for every integrable 集合 $B \subset A$, there exists 紧集 $K \in \mathfrak{K}$ contained in $B$ such that $|\mu|(B - K) \leq \delta$, and therefore $W(V, K, \delta) \subset W(V, B, 2\delta)$.
+请注意，由于$K$运行于$A$的*紧凑*子集的$\mu$密集集合$\mathfrak{K}$，集合$W(V, K, \delta)$也是形式前面制服的基本随行人员系统结构：对于每个可积集合$B \subset A$，存在紧集$K \in \mathfrak{K}$包含在$B$中，使得$|\mu|(B - K) \leq \delta$，因此$W(V, K, \delta) \subset W(V, B, 2\delta)$。
 
 #### 定义 9 {#int-iv-s5-def-9 .statement tag=08W4}
 
-*uniform 结构 on $\mathscr{S}(A, \mu; F)$ of which the $W(V, B, \delta)$ 形式 a fundamental 系统 of entourages is called the uniform 结构 of convergence in measure in $A$.*.
+*在$\mathscr{S}(A, \mu; F)$上均匀结构，其中$W(V, B, \delta)$形式基本的随行人员系统称为在$A$测量收敛的均匀结构。*。
 
-相应的拓扑 is called the *拓扑 of convergence in measure in $A$*, and a filter (or 序列) that converges for this 拓扑 is said to be *convergent in measure in $A$*; the mention of $A$ is often suppressed when $A = X$.
+相应的拓扑被称为$A$*中度量收敛的*拓扑，而为此拓扑收敛的滤波器（或序列）被称为在$A$*中度量收敛*；当提到$A = X$时，$A$的提及通常会被抑制。
 
 假设 $F$ 是 *Hausdorff*；那么，对于每个$\mu$可积集合$B \subset A$，$W(V, B, \delta)$的交，其中$V$运行在$F$的基本系统上，$\delta$运行在集合上数$> 0$，是对$(f, g)$的集合，使得$f(x) = g(x)$*几乎在$B$*中的任何地方（*相对于$\mu$*）。对于$x \in B$的集合$M$，使得$f(x) \neq g(x)$是$\mu$可积，因为它是逆像，在$\mu$可测映射$x \mapsto (f(x), g(x))$下，是对角线的补集$F \times F$，开放（No. 5，提案 7）；如果$|\mu|(M) = \alpha > 0$，则存在紧子集$K \subset M$，使得$|\mu|(M - K) < \alpha/2$并且$f$和$g$到$K$的限制是连续的；因而，存在 $F$ 的随行人员 $V_0$，使得 $(f(x), g(x)) \notin V_0$ 代表所有 $x \in K$，因而 $(f, g) \notin W(V_0, B, \alpha/2)$。
 
@@ -739,15 +739,15 @@ $$
 
 Q.E.D.
 
-#### 推论{#int-iv-s5-n11-cor-1 .statement tag=08W9}
+#### 推论 {#int-iv-s5-n11-cor-1 .statement tag=08W9}
 
 — 令 F 为可度量的均匀值空间。
 
-(i) $\mathscr{S}(A, \mu; F)$ 的元素的每个序列 $(f_n)$ 几乎处处局部收敛到 A 的映射 $f$（必然 $\mu$ 可测）到 F，在测度上收敛到 A 中的 $f$。
+(i) $\mathscr{S}(A, \mu; F)$ 的元素的每个序列 $(f_n)$ 几乎处处局部收敛到 A 的映射 $f$（必然是 $\mu$ 可测）到 F，在测度上收敛到 A 中的 $f$。
 
-(ii) 设$(f_n)$为$\mathscr{S}(A, \mu; F)$的元素的序列，其收敛于A的映射$f$进入F。对于每个集合$B \subset A$，它是可数可积的并集合，存在$(f_n)$的子序列$(f_{n_k})$，使得对于几乎每个$x \in B$，序列$(f_{n_k}(x))$在F中收敛到$f(x)$。
+(ii) 令$(f_n)$为$\mathscr{S}(A, \mu; F)$的元素的序列，其收敛于A的映射$f$进入F。对于每个集合$B \subset A$，它是可数可积的并集合，存在$(f_n)$的子序列$(f_{n_k})$，使得对于几乎每个$x \in B$，序列$(f_{n_k}(x))$在F中收敛到$f(x)$。
 
-(i) 断言紧随No. 10 中提到的叶戈罗夫定理的扩张。
+(i) 断言紧随No. 10中提到的叶戈罗夫的定理的扩张而来。
 
 (ii) 到引理 4，存在$(f_n)$的子序列$(f_{n_k})$，使得对于每个$x \in B - N$，$(f_{n_k}(x))$是F中的柯西序列，其中N可以忽略不计；令$f'(x) \in \widehat{F}$为$x \in B - N$的序列的极限。很明显，$f'$是$B - N$到$\widehat{F}$的$\mu$可测映射，并且序列$(f_n)$通过(i)在$B - N$中收敛到$f'$；因此，在 B 中几乎所有地方 $f'$ 都等于 $f$。
 
@@ -757,7 +757,7 @@ Q.E.D.
 
 (i) 对于X的每个$\mu$可测子集A，测度收敛的拓扑与$\mathscr{S}(A, \mu; F)$的向量空间结构兼容。
 
-(ii) 空间 $\mathscr{K}(X; F)$ 在 $\mathscr{S}(X, \mu; F)$ 中是稠密的。
+(ii) 空间 $\mathscr{K}(X; F)$ 密集于$\mathscr{S}(X, \mu; F)$。
 
 (iii) 对于每一个实数$p \geq 1$，拓扑在空间$\mathscr{L}_F^p(X, \mu)$上通过拓扑的收敛测量比阶$p$的平均收敛拓扑粗糙。
 
@@ -771,7 +771,7 @@ $$
 
 从而$|\mu|^*(C) \leq \delta$，证明(iii)。
 
-(ii) 鉴于 (​​iii)，足以证明对于例，$\mathscr{L}_F^1$ 在 $\mathscr{S}_F$ 中是稠密的，因为到定义 $\mathscr{H}(X; F)$ 在 $\mathscr{L}_F^1$ 中是稠密的，对于均值收敛的拓扑而言。现在，令$f$为$\mathscr{S}_F$的任意元素，并令$T(B, \delta)$为空间中0的邻域；我们在（i）中看到，存在$B$的可积子集$C$，使得$|\mu|(C) \leq \delta$并且$f$在$B - C$上*有界*；然后用$g$函数表示等于$B - C$上的$f$并在$X - (B - C)$上等于0，它从No. 6，Th得出。 5 $g$可积，显然$f - g \in T(B, \delta)$。
+(ii) 鉴于 (​​iii)，只需证明 $\mathscr{L}_F^1$ 在 $\mathscr{S}_F$ 中稠密，因为对于均值收敛的拓扑，定义 $\mathscr{H}(X; F)$ 在 $\mathscr{L}_F^1$ 中稠密。现在，令$f$为$\mathscr{S}_F$中的任意元素，并令$T(B, \delta)$为该空间中0的邻域；我们在（i）中看到，存在$B$的可积子集$C$，使得$|\mu|(C) \leq \delta$并且$f$在$B - C$上*有界*；然后用$g$函数表示等于$B - C$上的$f$并在$X - (B - C)$上等于0，它从No. 6，Th得出。 5 $g$可积，显然$f - g \in T(B, \delta)$。
 
 #### 注 {#int-iv-s5-n11-rem-1 .statement tag=08WB}
 

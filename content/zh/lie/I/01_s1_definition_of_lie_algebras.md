@@ -49,19 +49,19 @@ subsections:
       pdf_page: 29
 statements: 20
 exercises: 27
-content_sha256: 1d78358967a3849b3024bb2ff05d447c44347e627c6c997c0ed5826e108a7444
+content_sha256: 3080e2e30f392717a524e33a56e278b9fed34b9eca2525f56f2aff8a6e17559c
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 translation_method: google
 source_content_sha256: 58f1eb6f89ce2afeeacfc62b6731300e79cd58a2c1821a7f29f1c6e2d9168f15
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: af68a7621dd62b37a7cf06729399e84d6b2acc62a8b0c221c3d04dbd7bba2a2b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。 定义共李代数
+## § 1。 定义 / 李代数
 
 ### 1. 代数
 
@@ -69,13 +69,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 如果给定K-模 M，则得到乘法$(x, y) \mapsto yx$代数，称为与上述代数相反。
 
-M 的子 K 模 N 在乘法下稳定，在 K 上以明显的方式给出代数的结构。 N 称为 M 的子代数。如果条件 $x \in N, y \in M$ 蕴含 $yx \in N$（或 $xy \in N$），则 N 称为 M 的左（或右）理想。如果 N 既是 M 的左理想又是右理想，N 被称为 M 的双边理想。在这种情况下，M 上的乘法使我们能够在经过上进行定义的商，在商模 $M/N$ 上实现双线性乘法，使得 $M/N$ 有代数结构。 $M/N$ 称为 M 除 N 的商代数。
+M 的子 K 模 N 在乘法下稳定，在 K 上以明显的方式给出代数的结构。 N 称为 M 的子代数。如果条件 $x \in N, y \in M$ 蕴含 $yx \in N$（或 $xy \in N$），则 N 称为 M 的左（或右）理想。如果 N 既是 M 的左理想又是右理想，N 称为 M 的双边理想。在这种情况下，M 上的乘法使我们能够在经过到商上定义，在商模 $M/N$ 上实现双线性乘法，使得 $M/N$ 有代数结构。 $M/N$ 被 N 称为 M 的商代数。
 
 † 在章中证明的命题仅依赖于书I至VI中建立的性质以及交换代数、章III, § 2的某些结果。
 
-设$M_1$和$M_2$是$M_1$的$K$和$\phi$映射除以$M_2$的两个代数。如果 $\phi$ 是 $K$ 线性的，$\phi$ 被称为 *同态*，并且 $\phi(xy) = \phi(x)\phi(y)$ 是 $x \in M_1, y \in M_1$。 $\phi$的核$N$是$M_1$的双面理想，$\phi$的像是$M_2$的子代数。在经过上对代数$M_1/N$进行$\phi$定义同构商代数$\phi(M_1)$。
+令$M_1$和$M_2$是$M_1$的$K$和$\phi$映射到$M_2$的两个代数。如果 $\phi$ 是 $K$ 线性的，$\phi$ 被称为 *同态*，并且 $\phi(xy) = \phi(x)\phi(y)$ 是 $x \in M_1, y \in M_1$。 $\phi$的核$N$是$M_1$的双面理想，$\phi$的像是$M_2$的子代数。 经过至商、$\phi$ 定义同构或代数 $M_1/N$ 至代数 $\phi(M_1)$。
 
-令 $M$ 为代数超过 $K$。 $M$的映射$D$进入$M$，如果它是$K$线性，则称为$M$的*推导*，对于所有$x \in M$和$y \in M$，称为$D(xy) = (Dx)y + x(Dy)$。这个定义概括了*代数*、章IV, § 4, no. 3中的定义 3。 $M$推导核是$M$子代数。如果$D_1$和$D_2$是$M$的推导，则$D_1D_2 - D_2D_1$是$M$的推导（cf. *代数*，章IV, § 4, no. 3， 命题5：这个命题的证明不使用代数的结合性）。
+令 $M$ 为代数超过 $K$。 $M$的映射$D$进入$M$，如果它是$K$线性，则称为$M$的*推导*，对于所有$x \in M$和$y \in M$，称为$D(xy) = (Dx)y + x(Dy)$。这个定义概括了*代数*、章IV, § 4, no. 3的定义3。 $M$推导核是$M$子代数。如果$D_1$和$D_2$是$M$的推导，则$D_1D_2 - D_2D_1$是$M$的推导（cf. *代数*，章IV, § 4, no. 3， 命题5：这个命题的证明不使用代数的结合性）。
 
 令$M_1$和$M_2$等于代数除以$K$。在乘积 $K$-模块 $M = M_1 \times M_2$ 上，我们通过编写定义乘法
 
@@ -83,13 +83,13 @@ $$
 (x_1, x_2)(y_1, y_2) = (x_1y_1, x_2y_2),
 $$
 
-对于$M_1$中的所有$x_1, y_1$，$M_2$中的$x_2, y_2$。 这样定义的代数称为$M_1$和$M_2$的*乘积代数*。 映射 $x_1 \mapsto (x_1, 0)$（或$x_2 \mapsto (0, x_2)$）是$M_1$（或$M_2$）的同构到$M$的双面理想。 在这些下，同构、$M_1$和$M_2$被视为$M$的双面理想。 那么$K$-模$M$就是$M_1$和$M_2$的直和。 Conversely, let $M$ be an algebra over $K$ and $M_1, M_2$ two two-sided ideals of $M$ such that $M$ is the direct sum of $M_1$ and $M_2$. 然后$M_1M_2 \subset M_1 \cap M_2 = \{0\}$；那么，如果$x_1, y_1$属于到$M_1$并且$x_2, y_2$到$M_2$，那么$(x_1 + x_2)(y_1 + y_2) = x_1y_1 + x_2y_2$，这样$M$就被识别为乘积代数$M_1 \times M_2$。 $M_1$ 的每个左（或右、两侧）理想都是 $M$ 的左（或右、两侧）理想。 我们将在任意有限族代数的情况下制定类似结果的任务留给读者。
+对于$M_1$中的所有$x_1, y_1$，$M_2$中的$x_2, y_2$。 这样定义的代数称为$M_1$和$M_2$的*乘积代数*。 映射 $x_1 \mapsto (x_1, 0)$（或$x_2 \mapsto (0, x_2)$）是$M_1$（或$M_2$）的同构到$M$的双面理想。 在这些下，同构、$M_1$和$M_2$被视为$M$的双面理想。 那么$K$-模$M$就是$M_1$和$M_2$的直和。 相反，令$M$为$K$和$M_1, M_2$两个$M$的两侧理想的代数，使得$M$是$M_1$和$M_2$的直和。 然后$M_1M_2 \subset M_1 \cap M_2 = \{0\}$；那么，如果$x_1, y_1$属于到$M_1$并且$x_2, y_2$到$M_2$，那么$(x_1 + x_2)(y_1 + y_2) = x_1y_1 + x_2y_2$，这样$M$就被识别为乘积代数$M_1 \times M_2$。 $M_1$ 的每个左（或右、两侧）理想都是 $M$ 的左（或右、两侧）理想。 我们将在任意有限族代数的情况下制定类似结果的任务留给读者。
 
 令$M$为代数超过$K$，并假设$K$模块$M$承认基$(a_\lambda)_{\lambda \in L}$。 $K$ 存在唯一的系统 $(\gamma_{\lambda \mu \nu})_{(\lambda, \mu, \nu) \in L \times L \times L}$ 元素，使得$a_\lambda a_\mu = \sum_v \gamma_{\lambda \mu v} a_v$ 对于$L$ 中的所有$\lambda, \mu$。 $\gamma_{\lambda \mu \nu}$ 被称为$M$ 的结构相对于基* $(a_\lambda)$ 的*常数。
 
-令$M$为代数超过$K$，$K_0$交换环，其中$K_0$的单位元和$\rho$同态进入$K$映射单位元到单位元。那么$M$可以被认为是代数超过$K_0$，通过将$\alpha \in K_0, x \in M$写成$\alpha.x = \rho(\alpha).x$。特别是当$K_0$是$K$包含单位元中的子环并且$\rho$被视为$K_0$的映射包含在$K$中时。
+令$M$为代数超过$K$，$K_0$交换环，其中$K_0$的单位元和$\rho$同态进入$K$映射单位元到单位元。那么$M$可以被认为是代数超过$K_0$，通过将$\alpha \in K_0, x \in M$写成$\alpha.x = \rho(\alpha).x$。特别是当$K_0$是$K$包含单位元的子环并且$\rho$被视为将$K_0$的映射包含到$K$中时。
 
-设$M$为代数超过$K$，$K_1$交换环，其中单位元和$\sigma$同态为$K$到$K_1$映射单位元到单位元。令 $M_{(K_1, \sigma)} = M_{(K_1)}$ 为从 $M$ 派生的 $K_1$ 模块，通过将标量的环扩展到 $K_1$ (*代数*, 章 II, § 5)。 $M$ 定义上的乘积典型地将 $M_{(K_1)} \times M_{(K_1)}$ 的 $K_1$ 双线性映射转换为 $M_{(K_1)}$ (*代数*, 章 IX, § 1, no. 4)，使得给出 $M_{(K_1)}$ 代数的结构超过$K_1$（据说是*源自*$M$*通过将标量的环扩展到*$K_1$）。尤其是当$K$是$K_1$包含单位元的子环以及$\sigma$将$K$的映射包含到$K_1$时。
+设$M$为代数超过$K$，$K_1$交换环，其中单位元和$\sigma$同态为$K$到$K_1$映射单位元到单位元。令 $M_{(K_1, \sigma)} = M_{(K_1)}$ 为从 $M$ 派生的 $K_1$ 模块，通过将标量的环扩展到 $K_1$ (*代数*, 章 II, § 5)。 $M$ 定义上的乘积典型地将 $M_{(K_1)} \times M_{(K_1)}$ 的 $K_1$ 双线性映射转换为 $M_{(K_1)}$ (*代数*, 章 IX, § 1, no. 4)，使得给出 $M_{(K_1)}$ 代数的结构超过$K_1$（据说是*源自*$M$*通过将标量的环扩展到*$K_1$）。特别是当$K$是$K_1$包含单位元的子环以及$\sigma$将$K$的映射包含到$K_1$时。
 
 ### 2. 李代数
 
@@ -113,7 +113,7 @@ $$
 
 (4) $$ [x, [y, z]] = [[x, y], z] + [y, [x, z]]. $$
 
-每个子代数以及李代数的每个代数商都是李代数。 李代数的每个乘积都是李代数。如果$g$是李代数，反代数$g^0$是李代数并且$g$的映射$x \mapsto -x$同构到$g^0$，根据恒等式(3)。
+李代数中的每个子代数和每个商代数都是李代数。 李代数的每个乘积都是李代数。如果$g$是李代数，反代数$g^0$是李代数，并且根据恒等式(3)，$g$的映射$x \mapsto -x$同构到$g^0$。
 
 #### 例 1 {#lie-i-s1-n2-exa-1 .statement tag=09TK}
 
@@ -142,9 +142,9 @@ $$
 
 (5)
 
-The Lie subalgebra of $\mathbf{M}_n(K)$ consisting of the triangular matrices (resp. triangular matrices of zero trace, resp. triangular matrices of zero diagonal) is denoted by $t(n, K)$ (resp. st(n, K), resp. n(n, K)) (Algebra, Chapter II, § 10; no. 7).
+由三角矩阵（分别为零迹三角矩阵、零对角线三角矩阵）组成的 $\mathbf{M}_n(K)$ 李子代数用 $t(n, K)$（分别为 st(n, K)、分别为 n(n, K)）表示（代数，第 II, § 10 章；no. 7）。
 
-*例 3. 令V为无限可微实数流形。具有无限可微实系数的微分算子在 $\mathbf{R}$ 上构成结合律代数，因此，通过例 1，在 $\mathbf{R}$ 上构成李代数 $\Delta$。 V上的两个无限可微的向量域的括号是无限可微的向量域，因此V上的无限可微的向量域构成谎言子代数 $\mathfrak{f}$ / $\Delta$。如果V是实数*李群*，则左不变量向量域构成$\mathfrak{f}$的谎言子代数$g$，称为V的*李代数*。 向量空间 $g$ 与空间到 V 在 $e$ 处的切线（V 的单位元素）进行识别。令V'为另一个实李群，$e'$为单位元素，$g'$为李代数。将V的同态解析为V'定义线性映射，将$e$处空间到V的切线解析为空间到V'的切线$e'$；这个映射是李代数$g$到李代数$g'$的同态。如果V是有限维实数向量空间E的线性群，则存在$gl(E)$的典范同构到V的李代数$g$，其中$g$被识别为$gl(E)$。*
+*例 3. 令V为无限可微实数流形。具有无限可微实数系数的微分算子在$\mathbf{R}$上构成结合律代数，因此，通过例1，李代数$\Delta$在$\mathbf{R}$上。 V上的两个无限可微的向量域的括号是无限可微的向量域，因此V上的无限可微的向量域构成谎言子代数 $\mathfrak{f}$ / $\Delta$。如果V是实数*李群*，则左不变量向量域构成$\mathfrak{f}$的谎言子代数$g$，称为V的*李代数*。 向量空间 $g$ 与空间到 V 在 $e$ 处的切线（V 的单位元素）进行识别。令V'为另一个实李群，$e'$为单位元素，$g'$为李代数。将V的同态解析为V'定义线性映射，将$e$处的空间到V的切线解析为空间到V'的切线$e'$；这个映射是李代数$g$到李代数$g'$的同态。如果V是有限维实数向量空间E的线性群，则存在$gl(E)$的典范同构到V的李代数$g$，其中$g$被识别为$gl(E)$。*
 
 #### 定义 2 {#lie-i-s1-def-2 .statement tag=09TN}
 
@@ -224,7 +224,7 @@ $$
 
 如果a是g的子模，$x \in g$的集合，使得$(\mathrm{ad}\ x).a \subset a$是g的子代数n，称为g中a的*归一化器*。若进一步a为g的子代数，则$a \subset n$且a为n的理想。
 
-### 5. 导出级数，下中央级数
+### 5. 派生级数，下部中央级数
 
 特征理想 $[g, g]$ 称为李代数 g 的*派生理想*，并用 $\mathscr{D}g$ 表示。
 
@@ -244,14 +244,14 @@ f([a, b]) = [f(a), f(b)].
 $$
 那么命题就是$p$ 上的直接的和归纳。
 
-#### 推论{#lie-i-s1-n5-cor-1 .statement tag=09TX}
+#### 推论 {#lie-i-s1-n5-cor-1 .statement tag=09TX}
 
 *设 g 为李代数且 g 的一个理想。为了使李代数$g/a$可交换，$a \supset \mathscr{D}g$是充分必要的。*
 
 说 $g/a$ 是可交换的，相当于说 $\mathscr{D}(g/a) = \{0\}$。
 但是$\mathscr{D}(g/a)$是$g/a$中$\mathscr{D}g$的典范像乘以命题4。
 
-### 6. 上中环级数
+### 6. 中上部级数
 
 令 g 为 g 的李代数且 P 子集。 g 中 P 的*集中器*是 g 的元素的集合，它们可与 P 的那些可置换。该集中器是 ad $y$ 的核的交，其中 $y$ 穿过 P；因此它是g的子代数。
 
@@ -270,7 +270,7 @@ $$
 $g$的上中心级数是$g$特征理想的递增序列$\mathscr{C}_0 g, \mathscr{C}_1 g, \ldots$，归纳定义如下： (1) $\mathscr{C}_0 g = \{0\}$； (2) $\mathscr{C}_{p+1} g$是$g$典范映射下的逆像到$g / \mathscr{C}_p g$中心$g / \mathscr{C}_p g$
 理想的 $\mathscr{C}_1 g$ 是 $g$ 的中心。
 
-### 7. EXTENSIONS
+### 7. 扩张
 
 #### 定义 5 {#lie-i-s1-def-5 .statement tag=09TZ}
 
@@ -282,8 +282,8 @@ $$
 
 其中$g$是$K$上的李代数，$g$的$\mu$满同态到$b$，以及$a$的$\lambda$单同态到$\mu$的核。
 
-$\mu$的核$n$称为扩张的核。 The homomorphism $\lambda$ is an isomorphism of $a$ onto $n$ and the homomorphism $\mu$ defines an isomorphism of $g / n$ onto $b$ when passing to the quotient.
-By an abuse of language, $g$ is also called an extension of $b$ by $a$.
+$\mu$的核$n$称为扩张的核。 同态 $\lambda$ 是 $a$ 到 $n$ 的同构，同态 $\mu$ 在传递到商时定义 $g / n$ 到 $b$ 的同构。
+通过滥用语言，$g$也被称为$a$对$b$的扩展。
 
 两个扩张：
 
@@ -291,7 +291,7 @@ $$
 a \xrightarrow{\lambda} g \xrightarrow{\mu} b, \quad a \xrightarrow{\lambda'} g' \xrightarrow{\mu'} b
 $$
 
-are said to be equivalent if there exists a homomorphism $f$ of $g$ into $g'$ such that the following diagram:
+如果存在 $g$ 到 $g'$ 的同态 $f$，则称其等价，如下图所示：
 
 $$
 \begin{array}{ccccc}
@@ -314,13 +314,13 @@ $$
 a \xrightarrow{\lambda} g \xrightarrow{\mu} b
 $$
 
-是$b$除以$a$的扩张，并且$n$是核。
+$b$除以$a$，$n$为扩张，其为核。
 
-(a) *如果g中存在g的子代数m对n的补充，则μ对m的限制就是m对b的同构。如果 ν 表示此限制的逆同构，则 ν 是 b 到 g 中的同态，μ ∘ ν 是 b 的恒等式自同构。*
+(a) *如果g中存在子代数m对n进行补充，则μ对m的限制就是m对b的同构。如果 ν 表示此限制的逆同构，则 ν 是 b 到 g 中的同态，μ ∘ ν 是 b 的恒等式自同构。*
 
 (b) *相反，如果 g 中存在 b 的同态 ν 且 μ ∘ ν 是 b 的恒等式自同构，则 ν(b) 是 g 中 n 的补子代数。*
 
-(a)中的断言是直接的。另一方面，令 ν 为 b 到 g 中的同态，使得 μ ∘ ν 为 b 的恒等式自同构。那么 ν(b) 是 g 的子代数，g 是 ν(b) 的直和和 $\mu^{-1}(0) = n$ (*代数*, 章 VIII, § 1, no. 1)。
+(a)的断言是直接的。另一方面，令 ν 为 b 到 g 中的同态，使得 μ ∘ ν 为 b 的恒等式自同构。那么 ν(b) 是 g 的子代数，g 是 ν(b) 的直和和 $\mu^{-1}(0) = n$ (*代数*, 章 VIII, § 1, no. 1)。
 
 #### 定义 6 {#lie-i-s1-def-6 .statement tag=09U1}
 
@@ -330,7 +330,7 @@ $$
 a \xrightarrow{\lambda} g \xrightarrow{\mu} b
 $$
 
-*a 等于 b 的扩张，n 等于核。如果存在 g 的子代数（或理想）补充 g 中的 n，则此扩张称为无关紧要（或琐碎）。如果 n 包含在 g 的中心中，则该扩张称为中心。*
+*a 等于 b 的扩张，n 等于核。如果存在 g 的子代数（或理想）补充 g 中的 n，则此扩张称为无关紧要（或平凡）。如果 n 包含在 g 的中心中，则该扩张称为中心。*
 
 如果扩张是平凡的，则令 m 为 g 中 n 的补充的理想。那么 (cf. no. 1) g 被规范地等同于李代数 m × n，因此也等同于李代数 a × b。反之，设a和b为两个李代数；那么 a × b 是 a 乘 b 的平凡扩张。
 
@@ -340,7 +340,7 @@ $$
 
 设a和b是K上的两个李代数。用a来构造所有b的扩张并不容易。但我们将非常简单地用 a 来描述 b 的所有*非必要* 扩张。
 
-设 g 是 b 与 a 的非必要扩张。我们认同 a 的理想为 g，b 为子代数 g 的补充，模 g 为模 a × b。对于所有$b \in b$，令$\phi_b$为限制到$\mathrm{ad}_g\ b$的a；这是a的推导和映射$b \mapsto \phi_b$是b的同态到a的推导的李代数。另一方面，对于 a 中的 $a, a'$ 和 b 中的 $b, b'$，我们有：
+设 g 是 b 与 a 的非必要扩张。我们认同 a 带有理想 g，b 带有子代数 g 补充 a，以及模 g 带有模 a × b。对于所有$b \in b$，令$\phi_b$为限制到$\mathrm{ad}_g\ b$的a；这是a的推导和映射$b \mapsto \phi_b$是b的同态到a的推导的李代数。另一方面，对于 a 中的 $a, a'$ 和 b 中的 $b, b'$，我们有：
 
 $$
 [(a, b), (a', b')] = [a + b, a' + b']
@@ -348,13 +348,13 @@ $$
 = ([a, a'] + \phi_b a' - \phi_{b'} a, [b, b']).
 $$
 
-相反，设a和b在K上是李代数，并且b的$b \mapsto \phi_b$同态变成a的推导的李代数。在 K-模* a 和 b 的乘积 *g 上，我们通过写来定义两个元素的括号：
+相反，令a和b在K上李代数，并且b的$b \mapsto \phi_b$同态变成a的推导的李代数。在 K-模* a 和 b 的乘积 *g 上，我们通过写来定义两个元素的括号：
 
 $$
 [(a, b), (a', b')] = ([a, a'] + \phi_b a' - \phi_{b'} a, [b, b'])
 $$
 
-对于$a$中的所有$a, a'$，$b$中的$b, b'$。 It is immediate that this bracket is an alternating bilinear function of $(a, b), (a', b')$; we show that, given 3 elements $(a, b), (a', b'), (a'', b'')$ of $a \times b$:
+对于$a$中的所有$a, a'$，$b$中的$b, b'$。该括号为$(a, b), (a', b')$的交错的双线性函数为直接的；我们证明，给定 $a \times b$ 的 3 元素 $(a, b), (a', b'), (a'', b'')$：
 
 (7)
 $$
@@ -362,7 +362,7 @@ $$
 + [(a'', b''), [(a, b), (a', b')]] = 0.
 $$
 
-由于(7)的左边是$(a, b), (a', b'), (a'', b'')$的交错的三线性函数，因此当元素的系统取以下形式之一时即可进行验证：
+由于(7)的左边是$(a, b), (a', b'), (a'', b'')$的交错的三线函数，因此当元素的系统取以下形式之一时就足以进行验证：
 
 (8) $(a, 0), (a', 0), (a'', 0)$
 
@@ -506,7 +506,7 @@ $\mathfrak{af}(M)$经常与同构$\phi$下的$gl(N)$的子代数$t$等同。
 
 *当M为有限维向量空间超过$\mathbf{R}$时，$\mathfrak{af}(M)$的同态$\phi$进入$gl(N)$对应到典范同态$\psi$M的仿射群A进入群 $\mathbf{GL}(N)$；如果$a \in A, \psi(a)$是$\mathbf{GL}(N)$的唯一元素$g$，那么$g(m, 1) = (a(m), 1)$对于所有$m \in M$。这个同态是单射的，$\psi(A)$ 是 N 的自同构的集合，这使得 N 平行于 M 的所有线性簇保持不变。*
 
-### 9. 变换基环
+### 9. 变换 / 基环
 
 令$K_0$为交换环，其中单位元和$K_0$的$\rho$同态转化为K映射单位元至单位元。令$g$为K上的李代数。令$g'$为通过$\rho$（cf.no. 1）将$g$视为$K_0$上的代数而获得的代数。那么$g'$就是李代数。 $g$的子代数（分别是理想）是$g'$的子代数（分别是理想）。如果$a$和$b$是$g$的子模，则$[a, b]$在$g$和$g'$中是相同的； $[a, b]$ 是形式元素集合
 
@@ -514,7 +514,7 @@ $$
 \sum_{i=1}^n [x_i, y_i]
 $$
 
-其中$x_i \in a, y_i \in b$。由此可见，对于所有$p$，$\mathscr{D}^p g = \mathscr{D}^p g', \mathscr{C}^p g = \mathscr{C}^p g'$。
+其中$x_i \in a, y_i \in b$。由此可见，$\mathscr{D}^p g = \mathscr{D}^p g', \mathscr{C}^p g = \mathscr{C}^p g'$适用于所有$p$。
 
 子集的扶正器在$g$和$g'$中是相同的。因此，对于所有$p$，$\mathscr{C}_p g = \mathscr{C}_p g'$。
 

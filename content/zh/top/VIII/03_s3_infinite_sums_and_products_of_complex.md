@@ -24,23 +24,23 @@ subsections:
       pdf_page: 123
 statements: 9
 exercises: 5
-content_sha256: 2d41d7c14761bbae4aad7aa57ef23a2997d4006666b72ecacdb789dd6aa1108b
+content_sha256: 4eaba072f0efa012ec916a6aede690745d3cc953a6b746e86e2b5f38f7e3faf9
 translated_from: content/en/top/VIII/03_s3_infinite_sums_and_products_of_complex.md
 translation_method: google
 source_content_sha256: 07d4fe8c1f201c515f0cbf75d3cd066fc09084c3035b0204be862ef63ea6d88e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: b2b08c621c1c47a5a5c660911d793b4cfb62bdbc702a387884cc585b26aea884
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 复数的无限和和乘积
 
 ### 1. 复数的无限和
 
-由于域$\mathbf{C}$的加法群与加法群$\mathbf{R}^2$相同，因此无需专门研究$\mathbf{C}$中的可和族和级数，因为这已包含在章VII, § 3的一般理论中；我们留给读者习题将该理论的结果翻译成复数理论的语言。我们仅陈述以下命题，它是章VII, § 3, no. 1 命题 3 的推论：
+由于域$\mathbf{C}$的加法群与加法群$\mathbf{R}^2$相同，因此无需专门研究可和族和$\mathbf{C}$中的级数，因为它包含在章的一般理论中VII, § 3；我们留给读者习题将这个理论的结果翻译成理论或复数的语言。我们仅陈述以下命题，即章VII, § 3, no. 1中的推论至命题3：
 
 #### 命题 1 {#top-viii-s3-prop-1 .statement tag=0C0I}
 
@@ -50,25 +50,25 @@ $$
 \sum_{(\lambda, \mu) \in L \times M} u_\lambda v_\mu = \left( \sum_{\lambda \in L} u_\lambda \right) \left( \sum_{\mu \in M} v_\mu \right).
 $$
 
-我们让读者来陈述四元数的相应的结果。
+我们让读者来说明四元数的相应的结果。
 
 ### 2. $\mathbf{C}^*$ 的多个家庭
 
-在非零复数族$(z_i)_{i \in I}$不能乘法群$\mathbf{C}^*$中，相对于$I$(章III, § 5, no. 2)有限子集的补集的过滤器可乘除非$\lim z_i = 1$， 命题1);此外，由于$\mathbf{C}^*$的每个点都有邻域的可数基数系统，指标$i$的集合，因此如果族$(z_i)$是可乘的（章），则$z_i \neq 1$是可数的III, § 5, no. 2，命题 1) 的推论。
+非零复数族$(z_i)_{i \in I}$不能乘法群$\mathbf{C}^*$中可乘除非$\lim z_i = 1$相对于$I$(章)有限子集补集的过滤器III, § 5, no. 2、命题 1)；此外，由于$\mathbf{C}^*$的每个点都有邻域的可数基数系统，指标$i$的集合，因此如果族$(z_i)$是可乘的，则$z_i \neq 1$是可数的（章III, § 5, no. 2、推论至命题1）。
 
 #### 命题 2 {#top-viii-s3-prop-2 .statement tag=0C0J}
 
-*复数* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *的族* $(z_i)$ *可乘当且仅当* $z_i$ *的绝对值的族* $(r_i)$ *可乘于* $\mathbf{R}_+^*$ *且* $z_i$ *的振幅族* $(\theta_i)$ *是可按群角度* $\mathfrak{A}$ 求和。
+*族* $(z_i)$ *复数* $z_i = r_i (\cos \theta_i + i \sin \theta_i)$ *可乘当且仅当族* $(r_i)$ *绝对值的* $z_i$ *可乘在* $\mathbf{R}_+^*$ *和族* $(\theta_i)$ *的振幅* $z_i$ *可在群角度中求和* $\mathfrak{A}$。
 
-鉴于群$\mathbf{C}^*$($\S$1、no. 3、命题1)的结构，命题为章的命题4直接的推论 III、$\S$5、no. 4。
+考虑到群$\mathbf{C}^*$($\S$1、no. 3、命题1)中的结构，命题是命题4中的直接的推论章III、$\S$5、no. 4。
 
-如果我们映射每个角度 $\theta$ 到它的一个度量（对于任何给定的基 $a$），属于到间隔 $] - \frac{1}{2} a, \frac{1}{2} a ]$，我们就有一个 $\mathfrak{A}$ 的*局部同构* 和 $\mathbf{R}$ ($\S$ 2， no. 2);由于$\lim \theta_i = 0$相对于$I$的有限子集的补集过滤器，我们可以替换条件（在命题2的叙述中）$\theta_i$应该可以通过条件在$\mathfrak{A}$中求和角度$\theta_i$的*测量*族$(t_i)$，其中属于到$] - \frac{1}{2} a, \frac{1}{2} a ]$应可在$\mathbf{R}$中求和。
+如果我们映射每个角度 $\theta$ 到它的度量之一（对于任何给定的基 $a$），其中属于到区间 $] - \frac{1}{2} a, \frac{1}{2} a ]$，我们有一个 $\mathfrak{A}$ 的*局部同构* $\mathbf{R}$（$\S$2，no. 2）；由于$\lim \theta_i = 0$相对于$I$的有限子集的补集过滤器，我们可以替换条件（在命题2的叙述中），族$\theta_i$应该可以在$\mathfrak{A}$中求和： 条件 $(t_i)$ $\theta_i$ 的*测量*，其中属于到 $] - \frac{1}{2} a, \frac{1}{2} a ]$ 应可在 $\mathbf{R}$ 中求和。
 
-下面的定理给出了复数族的另一个标准，放入形式$(1 + u_i)$，可与$\mathbf{C}^*$相乘。 （它概括了章 IV、$\S$ 7、no. 4 中的定理 4；另请参见章 IX、附录、no. 2、命题 1）：
+下面的定理给出了复数族的另一个标准，放入形式$(1 + u_i)$，可以与$\mathbf{C}^*$相乘。 （它概括了章 IV、$\S$ 7、no. 4 中的定理 4；另请参见章 IX、附录、no. 2、命题 1）：
 
 #### 定理 1 {#top-viii-s3-thm-1 .statement tag=0C0K}
 
-*族* $(1 + u_i)_{i \in I}$ *可乘于* $\mathbf{C}^*$ *当且仅当族* $(|u_i|)$ *可求和于* $\mathbf{R}$。
+*家庭* $(1 + u_i)_{i \in I}$ *可乘于* $\mathbf{C}^*$ *当且仅当家庭* $(|u_i|)$ *可求和于* $\mathbf{R}$。
 
 对于 $I$ 中的每个有限子集 $J$，将
 
@@ -78,7 +78,7 @@ $$
 
 #### 引理 1 {#top-viii-s3-lem-1 .statement tag=0C0L}
 
-*对于每个有限子集* $J$ *of* $I$，*令* $\varphi(J) = \sup_{L \subset J} (p_L - 1)$。 *然后对于每个子集* $L$ *of* $J$ *我们有*
+*对于每个有限子集* $J$*of*$I$，*让*$\varphi(J) = \sup_{L \subset J} (p_L - 1)$。 *然后对于每个子集* $L$ *of* $J$ *我们有*
 
 $$
 |p_L - 1 - s_L| \leq \varphi(J) \sigma_L.
@@ -114,7 +114,7 @@ $$
 
 上面的证明也比照适用于某些非交换除法环和代数中的（有序）无限乘积（参见习题6和章IX、附录）。
 
-### 3. 复数的无限乘积
+### 3. 复数的无穷大乘积
 
 对于非零复数的无限乘积与一般因子$z_n = r_n (\cos \theta_n + i \sin \theta_n)$收敛于$\mathbf{C}^*$，从群$\mathbf{C}^*$的结构，乘积与一般因子是必要且充分的$r_n$收敛于$\mathbf{R}_+^*$和级数，一般项$t_n$（$\theta_n$的测度位于]$-\frac{1}{2}a$、$\frac{1}{2}a$]）收敛于$\mathbf{R}$。
 

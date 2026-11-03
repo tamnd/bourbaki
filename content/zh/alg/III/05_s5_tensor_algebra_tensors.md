@@ -38,16 +38,16 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: e2d11a13e9e9dc60ae11ff1e538dca5d42ae6daae19b627086d5dd4270ad5cf1
+content_sha256: fad951ecd3a854b24ee317dd8fec044387b17b98946253a25c622582b6352dfc
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
 translation_method: google
 source_content_sha256: d99f913e6231ffa43f0356d794c4b307be8a5cb9b275a18c87c2f41e23c6d2fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 49bb204824de13b60ca72d29222c0d1ea59bcba3b0d05096dbbdfeb3e2e025d5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。 张量代数、张量
@@ -75,17 +75,17 @@ $$
 
 令 $E$ 为（单位）$A$-代数，而 $f : M \to E$ 为 $A$-线性映射。存在且仅有一个$A$-代数同态$g : T(M) \to E$使得$f = g \circ \phi$。
 
-在其他字中，$(T(M), \phi)$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$-代数结构的类， $\alpha$-映射是从模$M$到$A$-代数的$A$-线性映射。请注意，这里不存在 $T(M)$ 毕业的问题。
+在其他字中，$(T(M), \phi)$是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是$A$-代数的类结构，$\alpha$-映射是从模$M$到$A$-代数的$A$-线性映射。请注意，这里不存在 $T(M)$ 毕业的问题。
 
-For every finite family $(x_i)_{1 \leq i \leq n}$ of $n$ elements of $M$, by definition of the product in $T(M)$, $x_1 \otimes x_2 \otimes \cdots \otimes x_n = \phi(x_1)\phi(x_2)\ldots\phi(x_n)$; then necessarily $g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n)$ for $n \geq 1$ and $g(\alpha) = \alpha e$ (if $e$ is the unit element of $E$) for $\alpha \in A$, which proves the uniqueness of $g$. Conversely, note that, for all $n > 0$, the mapping
+对于$M$的$n$元素的每个有限族$(x_i)_{1 \leq i \leq n}$，根据$T(M)$、$x_1 \otimes x_2 \otimes \cdots \otimes x_n = \phi(x_1)\phi(x_2)\ldots\phi(x_n)$中的乘积的定义；那么$n \geq 1$必然有$g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n)$，$g(\alpha) = \alpha e$（如果$e$是$E$的单位元素）必然有$\alpha \in A$，这就证明了$g$的唯一性。 相反，请注意，对于所有 $n > 0$，映射
 $$
 (x_1, \ldots, x_n) \mapsto f(x_1)f(x_2)\ldots f(x_n)
 $$
-of $M^n$ into $E$ is $A$-multilinear; hence there corresponds to it an $A$-linear mapping $g_n : T^n(M) \to E$ such that
+$M^n$ 到 $E$ 是 $A$-多重线性；因此，对应于 $A$-线性映射 $g_n : T^n(M) \to E$ 使得
 $$
 g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n).
 $$
-Also we define the mapping $g_0 : T^0(M) \to E$ as equal to $\eta_E$ ($§ 1$, no. 3), in other words $g_0(\alpha) = \alpha e$ for $\alpha \in A$. 令$g$为$T(M)$到$E$的唯一$A$线性映射，其限制到$T^n(M)$为$g_n$（$n \geq 0$）； $g \circ \phi = g_1 = f$就是直接的，还有待验证$g$是$A$代数同态。 通过构造 $g(1) = e$ 并且通过线性足以表明 $g(uv) = g(u)g(v)$ 对于 $u \in T^p(M)$ 和 $v \in T^q(M)$ ($p > 0, q > 0$)；现在从公式 (1) 和 (2) 可以得出，当 $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ 和 $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$（其中 $x_i$ 属于到 $E$）时，关系为真。 因此，对于 $u \in T^p(M)$ 和 $v \in T^q(M)$ 来说，线性关系成立。
+我们还将映射$g_0 : T^0(M) \to E$定义为等于$\eta_E$（$§ 1$，no. 3），换句话说，$g_0(\alpha) = \alpha e$对应$\alpha \in A$。 令$g$为$T(M)$到$E$的唯一$A$线性映射，其限制到$T^n(M)$为$g_n$（$n \geq 0$）； $g \circ \phi = g_1 = f$就是直接的，还有待验证$g$是$A$代数同态。 通过构造 $g(1) = e$ 并且通过线性足以表明 $g(uv) = g(u)g(v)$ 对于 $u \in T^p(M)$ 和 $v \in T^q(M)$ ($p > 0, q > 0$)；现在从公式 (1) 和 (2) 可以得出，当 $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ 和 $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$（其中 $x_i$ 属于到 $E$）时，关系为真。 因此，对于 $u \in T^p(M)$ 和 $v \in T^q(M)$ 来说，线性关系成立。
 
 #### 注 {#alg-iii-s5-n1-rem-1 .statement tag=061J}
 
@@ -95,7 +95,7 @@ f(M) \subset E_1.
 $$
 然后从 (2) 得出，$g(T^p(M)) \subset E_p$ 对于所有 $p \geq 0$，因此 $g$ 是分级的代数同态。
 
-### 2. 张量代数的函数性质
+### 2. 张量代数的函子性质
 
 #### 命题 2 {#alg-iii-s5-prop-2 .statement tag=061K}
 
@@ -146,7 +146,7 @@ M & \xrightarrow{v \circ u} & P \\
 \end{array}
 $$
 
-$\mathbf{T}(u)$ 是有时，称为 $u$ 到 $\mathbf{T}(M)$ 的规范扩张（其中包含 $M = \mathbf{T}^1(M)$）。 注限制 $\mathbf{T}^n(u) : \mathbf{T}^n(M) \to \mathbf{T}^n(N)$ 只是线性映射 $u^{\otimes n} = u \otimes u \otimes \cdots \otimes u$（n 次），对于
+$\mathbf{T}(u)$ 是有时，称为 $u$ 到 $\mathbf{T}(M)$ 的规范扩张（其中包含 $M = \mathbf{T}^1(M)$）。请注意，限制 $\mathbf{T}^n(u) : \mathbf{T}^n(M) \to \mathbf{T}^n(N)$ 只是线性映射 $u^{\otimes n} = u \otimes u \otimes \cdots \otimes u$（n 次），对于
 
 $$
 \mathbf{T}^n(u)(x_1 \otimes \cdots \otimes x_n) = u(x_1) \otimes \cdots \otimes u(x_n)
@@ -164,7 +164,7 @@ $$
 \mathbf{T}^n(u) : \mathbf{T}^n(M) \to \mathbf{T}^n(N)
 $$
 
-是满射的，如归纳在 $n$ 上使用 II, § 3, no. 6、命题 6 所见；后者命题还通过$n$上的归纳表明，$T^n(u)$的核$\mathfrak{I}_n$是乘积生成的$T^n(M)$的子模
+是满射的，正如使用 II, § 3, no. 6、命题 6 在 $n$ 上看到的归纳一样；后者命题还通过$n$上的归纳显示，$T^n(u)$的核$\mathfrak{I}_n$是乘积生成的$T^n(M)$的子模
 $$
 x_1 \otimes x_2 \otimes \cdots \otimes x_n
 $$
@@ -233,29 +233,29 @@ T(Q) & \overset{v}{\longrightarrow} & T(P' \oplus Q)
 \end{array}
 $$
 
-其中$r$和$s$是满同态（命题3）和$u$和$v$单同态。因此，要证明(6)，注右手边显然包含在左手边；因此只需验证如果
+其中$r$和$s$是满同态（命题3）和$u$和$v$单同态。因此，为了证明（6），请注意右侧显然包含在左侧中；因此只需验证如果
 
 $$
 x \in T(N' \oplus Q) \cap T(P' \oplus Q),
 $$
 
-然后$x \in T(Q)$。现在同态$s$的定义显示其限制到$T(P' \oplus Q)$（用$T(N' \oplus P' \oplus Q)$的子代数识别）为恒等映射；因此，$x$上的假设意味着$s(u(x)) = x$。但还有$v(r(x)) = x$，其他字，$x$，属于到像，$T(Q)$在$T(P' \oplus Q)$，这有待证明。
+然后$x \in T(Q)$。现在同态$s$的定义显示其限制到$T(P' \oplus Q)$（用$T(N' \oplus P' \oplus Q)$的子代数识别）为恒等映射；因此，$x$上的假设意味着$s(u(x)) = x$。但还有$v(r(x)) = x$，其他字、$x$、属于到像，$T(Q)$在$T(P' \oplus Q)$，这有待证明。
 
 #### 注 {#alg-iii-s5-n2-rem-1 .statement tag=061N}
 
 注特别是，当$A$为域（II, § 7, no. 3，命题4）时，命题4的假设对于$M$的任意子模$N, P$始终成立。此外，如果$N \subset P$和$N \neq P$，则$T^n(N) \neq T^n(P)$对于所有$n \geq 1$，因为如果$R$是$N$中$P$的补集，则$T^n(P) \cap T^n(R) = \{0\}$通过(4)和$T^n(R) \neq \{0\}$。
 
-#### 推论{#alg-iii-s5-n2-cor-1 .statement tag=061O}
+#### 推论 {#alg-iii-s5-n2-cor-1 .statement tag=061O}
 
 *令$K$为交换域且$M$向量空间大于$K$。对于每个元素$z \in T(M)$，都存在$M$的最小的向量空间$N$，使得$z \in T(N)$和$N$的有限秩超过$K$。*
 
 在这个叙述中可以理解，对于$M$的每个向量子空间$P$，$T(P)$被规范地标识为$T(M)$的子代数。让$z \in T(M)$； $z$可以表示为线性组合 of 元素，其中每一个都是$M = T^1(M)$的元素的有限乘积； $M$ 中的所有元素出现在有限秩和 $z \in T(Q)$ 中的乘积生成向量子空间 $Q$。
 
-令 $\mathscr{F}$ 为向量子空间 $P$ 有限秩的（非空）集合，使得 $z \in T(P)$。 $\mathscr{F}$ 的元素中的每个递减序列都是静止的，因为它们是有限秩中的向量空间。因此 $\mathscr{F}$ 具有最小元素 $N$（集合理论，III, § 6, no. 5）。还需要验证每个 $P \in \mathscr{F}$ 包含于 $N$；现在，$z \in T(P) \cap T(N) = T(P \cap N)$（命题4）；鉴于$N$的定义，这意味着$N \cap P = N$，即$P \supset N$。
+令 $\mathscr{F}$ 为向量子空间 $P$ 有限秩的（非空）集合，使得 $z \in T(P)$。 $\mathscr{F}$ 的元素中的每个递减序列都是静止的，因为它们是有限秩中的向量空间。因此 $\mathscr{F}$ 具有最小元素 $N$ (集合理论, III, § 6, no. 5)。还需要验证每个 $P \in \mathscr{F}$ 包含于 $N$；现在，$z \in T(P) \cap T(N) = T(P \cap N)$（命题4）；鉴于$N$的定义，这意味着$N \cap P = N$，即$P \supset N$。
 
 $M$ 的子空间 $N$ 据说与 $z$ *相关联。
 
-### 3. 标量的环的扩张
+### 3. 标量环的扩张
 
 令$A, A'$为两个交换环和$\rho : A \to A'$环同态。令$M$为$A$模，$M'$为$A'$模，$u : M \to M'$为$A$同态；因为典范嵌入 $\phi_{M'} : M' \to T_{A'}(M')$ 也是 $A$ 同态（通过标量的限制），合成 $M \xrightarrow{u} M' \xrightarrow{\phi_{M'}} T_{A'}(M')$ 也是如此。推导出$A$-代数同态$T_A(M) \to \rho^*(T_{A'}(M'))$（no. 2），也记为$T(u) : T_A(M) \to T_{A'}(M')$，这是唯一的$A$-同态渲染交换交换图表
 
@@ -309,9 +309,9 @@ $$
 
 这立即表明 $\psi'$ 也是 B 代数同态。只需证明$\psi \circ \psi'$和$\psi' \circ \psi$分别在$B \otimes_A T(M)$和$T(B \otimes_A M)$上是恒等映射即可。现在，这两个代数是由$B \otimes_A M$生成的，显然是$\psi \circ \psi'$和$\psi' \circ \psi$，重合和恒等映射对$B \otimes_A M$，从而的结论。
 
-### 4. 直极限张量代数
+### 4. 直极限共张量代数
 
-令$(A_\alpha, \phi_{\beta \alpha})$为交换环的有向直接系统和$A_\alpha$模块(II, § 6, no. 2)的$(M_\alpha, f_{\beta \alpha})$直接系统；让$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$，这是一个$A$模块。对于 $\alpha \leq \beta$，$A_\alpha$-代数同态 (no. 3, 公式 (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ 是从 $A_\alpha$-同态 $f_{\beta \alpha}: M_\alpha \to M_\beta$ 规范导出的，并且从 (9) (no. 3) 可以得出 $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ 是*$A_\alpha$-代数的直接系统*。另一方面，令 $f'_\alpha: M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；推导出$A_\alpha$-代数同态$f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ (no. 3, 公式 (8))，并且从 (9) (no. 3) 还可以得出，$f'_\alpha$ 构成 $A_\alpha$ 同态的直接系统。
+设$(A_\alpha, \phi_{\beta \alpha})$为交换环的有向直接系统和$A_\alpha$模块(II, § 6, no. 2)的$(M_\alpha, f_{\beta \alpha})$直接系统；让$A = \lim \rightarrow A_\alpha$和$M = \lim \rightarrow M_\alpha$，这是一个$A$模块。对于 $\alpha \leq \beta$，$A_\alpha$-代数同态 (no. 3, 公式 (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ 是从 $A_\alpha$-同态 $f_{\beta \alpha}: M_\alpha \to M_\beta$ 规范导出的，并且从 (9) (no. 3) 可以得出 $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ 是*$A_\alpha$-代数的直接系统*。另一方面，令 $f'_\alpha: M_\alpha \to M$ 为规范的 $A_\alpha$ 同态；推导出$A_\alpha$-代数同态$f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ (no. 3, 公式 (8))，并且还可以从 (9) (no. 3) 得出$f'_\alpha$构成$A_\alpha$同态的直接系统。
 
 #### 命题 6 {#alg-iii-s5-prop-6 .statement tag=061Q}
 
@@ -323,41 +323,41 @@ $$
 g_\alpha: T_{A\alpha}(M_\alpha) \to E'
 $$
 
-是规范的 $A_\alpha$ 同态。显然，复合 $A_\alpha$-线性映射 $M_\alpha \xrightarrow{\phi_{M_\alpha}} T_{A\alpha}(M_\alpha) \xrightarrow{g_\alpha} E'$ 形式直接系统，因此存在且仅有一个 $A$-线性映射 $u = \lim \rightarrow (g_\alpha \circ \phi_{M_\alpha}): M \to E'$ 使得
+是规范的$A_\alpha$同态。显然，复合 $A_\alpha$-线性映射 $M_\alpha \xrightarrow{\phi_{M_\alpha}} T_{A\alpha}(M_\alpha) \xrightarrow{g_\alpha} E'$ 形式直接系统，因此存在且仅有一个 $A$-线性映射 $u = \lim \rightarrow (g_\alpha \circ \phi_{M_\alpha}): M \to E'$ 使得
 
 $$
 u \circ f_\alpha = g_\alpha \circ \phi_{M_\alpha}
 $$
 
-对于所有$\alpha$。这个映射本身将（no. 1，命题1）唯一分解为$M \xrightarrow{\phi_M} E \to E'$，其中$h$是$A$代数同态。只要证明$h \circ f' = 1_{E'}$和$f' \circ h = 1_E$就足够了。
+对于所有$\alpha$。这个映射本身将 (no. 1, 命题 1) 唯一分解为 $M \xrightarrow{\phi_M} E \to E'$，其中 $h$ 是 $A$ 代数同态。只要证明$h \circ f' = 1_{E'}$和$f' \circ h = 1_E$就足够了。
 
-为此注，对于每一个指标$\alpha$，(no. 3，公式 (8))
+为此请注意，对于每个指标 $\alpha$，(no. 3, 公式 (8))
 
 $$
 h \circ f'_\alpha \circ \phi_{M_\alpha} = h \circ \phi_M \circ f_\alpha = u \circ f_\alpha = g_\alpha \circ \phi_{M_\alpha}
 $$
 
-从而，由 no. 1、命题 1、唯一性断言、
+从而，由no. 1、命题 1 的唯一性断言，
 
 $$
 h \circ f'_\alpha = g_\alpha
 $$
 
-对于所有$\alpha$；由此可见，$(h \circ f') \circ g_\alpha = g_\alpha$ 对于所有 $\alpha$，因此 $h \circ f' = 1_{E'}$ 乘以定义的直极限。
+对于所有$\alpha$；由此可见，$(h \circ f') \circ g_\alpha = g_\alpha$对于所有$\alpha$，因此$h \circ f' = 1_{E'}$乘以定义或直极限。
 
-另一方面，凭借 no. 3，公式 (8)，
+另一方面，凭借no. 3，公式 (8)，
 
 $$
 f' \circ u \circ f_\alpha = f' \circ g_\alpha \circ \phi_{M_\alpha} = f'_\alpha \circ \phi_{M_\alpha} = \phi_M \circ f_\alpha,
 $$
 
-从而又$f' \circ u = \phi_M$由直极限的定义；我们将no. 1、命题 1 的$f' \circ h \circ \phi_M = \phi_M$和唯一性性质结论给出$f' \circ h = 1_E$。
+直极限定义又$f' \circ u = \phi_M$ 从而；我们将no. 1、命题 1 的$f' \circ h \circ \phi_M = \phi_M$和唯一性性质结论给出$f' \circ h = 1_E$。
 
-命题 6 也可以由注意到证明，对于每个整数 $n \geq 1$，都有一个规范的 $A$ 模块同构 $\lim \rightarrow T^n_{A_\alpha}(M_\alpha) \to T^n_A(M)$，如下由 $n$ 上的归纳得出II, § 6, no. 3、命题 7、立即验证这些同构是$f'$中的限制。
+命题 6 也可以由注意到证明，对于每个整数 $n \geq 1$，都有一个规范的 $A$-模块同构 $\lim \rightarrow T^n_{A_\alpha}(M_\alpha) \to T^n_A(M)$，如下由 II, § 6, no. 3、命题的 $n$ 上的归纳表示7.立即验证这些同构是$f'$中的限制。
 
-### 5. 张量代数直和。 张量代数自由模。 张量代数已分级模
+### 5. 张量代数共直和。 张量代数共自由模。 张量代数已评分模
 
-令$A$为$A$模块族中的交换环和$M = \bigoplus_{\lambda \in L} M_\lambda$直和。由II, § 3, no. 7、命题7、$n$上的归纳得出，$T^n(M)$是子模直和典范嵌入像
+令$A$为$A$模块族中的交换环和$M = \bigoplus_{\lambda \in L} M_\lambda$直和。从II, § 3, no. 7，命题 7，到$n$上的归纳，$T^n(M)$是子模直和典范嵌入像
 
 $$
 M_{\lambda_1} \otimes M_{\lambda_2} \otimes \cdots \otimes M_{\lambda_n} \to T^n(M) = M^{\otimes n}
@@ -389,9 +389,9 @@ $$
 
 #### 注 {#alg-iii-s5-n5-rem-1 .statement tag=061S}
 
-上述结果同样可以作为张量代数的自由结合律代数的普遍性质的推论，使用II, § 3, no. 7、推论2到命题7得到。
+使用II, § 3, no. 7、推出 2 到命题 7，同样可以得到张量代数的自由结合律代数的普适性质推论。
 
-#### 推出{#alg-iii-s5-n5-cor-1 .statement tag=061T}
+#### 推出 {#alg-iii-s5-n5-cor-1 .statement tag=061T}
 
 *如果 $M$ 是射影 $A$ 模，则 $T(M)$ 是射影 $A$ 模。*
 
@@ -405,7 +405,7 @@ $M$ 是自由 $A$ 模块 $N$ (II, § 2, no. 2, 命题 4) 的直因子，因此 $
 
 ### 6. 张量和张量记号
 
-令 $A$ 为交换环，$M$ $A$ 模，$M^*$ $M$ (II, § 2, no. 3) 的*对偶*，以及 $I$ 和 $J$ 两个 *不相交的有限* 集合； $A$-模块$\bigotimes_{i \in I \cup J} E_i$，其中，如果$i \in I$则为$E_i = M$，如果$i \in J$则为$E_i = M^*$，由$T^I_J(M)$表示； $T^I_J(M)$的元素在$M$上被称为型*$(I, J)$的*张量。如果 $J = \varnothing$，则称为“逆变”；如果 $I = \varnothing$，则称为“协变”；否则称为“混合”。
+令 $A$ 为交换环，$M$ $A$ 模，$M^*$ $M$ (II, § 2, no. 3) 的*对偶*，以及 $I$ 和 $J$ 两个 *不相交的有限* 集合； the $A$-module $\bigotimes_{i \in I \cup J} E_i$, where $E_i = M$ if $i \in I$, $E_i = M^*$ if $i \in J$, is denoted by $T^I_J(M)$; $T^I_J(M)$的元素在$M$上被称为型*$(I, J)$的*张量。 They are called *contravariant* if $J = \varnothing$, *covariant* if $I = \varnothing$ and *mixed* otherwise.
 
 令$I', I''$为$I$的两个子集和$J', J''$为$J$的两个子集，使得$I' \cup I'' = I$，
 
@@ -415,9 +415,9 @@ $$
 T_J^I(M) \to T_{J'}^{I'}(M) \otimes_A T_{J''}^{I''}(M).
 $$
 
-考虑到张量代数$T(M \oplus M^*)$，从no. 5可以得出$T^n(M \oplus M^*)$规范地与$T_J^I(M)$的直和相同，其中I贯穿区间子集的集合 $\mathbf{N}$和$J$的$\{1, n\}$是$\{1, n\}$中I的补集。
+考虑到张量代数$T(M \oplus M^*)$，从no. 5可以得出$T^n(M \oplus M^*)$规范地与$T_J^I(M)$的直和相同，其中I贯穿子集的集合区间 $\{1, n\}$ of $\mathbf{N}$ and $J$ is the complement of I in $\{1, n\}$.
 
-当$I = \{1, p\}$和$J = \{p + 1, p + q\}$与整数$p \geq 0,\ q \geq 0$时（当$p = 0$（或$q = 0$）时，替换I（分别是J）乘以$\varnothing$）时，A-模$T_J^I(M)$也是用$T_q^p(M)$表示；因此，A-模$T_0^n(M)$和$T_n^0(M)$分别是定义A-模$T^n(M)$和$T^n(M^*)$。当I和J是基数$p = \mathrm{Card}(I)$和$q = \mathrm{Card}(J)$的任意有限集合时，我们给它们每个人一个全序；那么存在I（分别J）的递增双射到$\{1, p\}$（分别$\{p + 1, p + q\}$），并且这些双射因此定义同构
+当$I = \{1, p\}$和$J = \{p + 1, p + q\}$与整数$p \geq 0,\ q \geq 0$时（当$p = 0$（或$q = 0$）时，替换I（分别是J）乘以$\varnothing$）时，A-模$T_J^I(M)$也是用$T_q^p(M)$表示；因此，A-模$T_0^n(M)$和$T_n^0(M)$分别是定义A-模$T^n(M)$和$T^n(M^*)$。当I和J是基数$p = \mathrm{Card}(I)$和$q = \mathrm{Card}(J)$的任意有限集合时，我们给它们每一个全排序；那么存在I（分别J）的递增双射到$\{1, p\}$（分别$\{p + 1, p + q\}$），并且这些双射因此定义同构
 
 $$
 T_J^I(M) \to T_q^p(M).
@@ -429,7 +429,7 @@ $$
 (T_J^I(M))^* \to T_I^J(M).
 $$
 
-现在假设 M 是一个*有限生成的自由* A-模，并让 $(e_\lambda)_{\lambda \in L}$ 是 M 的基（L 因此是一个*有限* 集合）。 $M^*$ *对偶* 到$(e_\lambda)$ (II, § 2, no. 6) 的基由$(e^\lambda)_{\lambda \in L}$ 表示。 M 和 $M^*$ 的基 $(e_\lambda)$ 和 $(e^\lambda)$ 分别为 $T_J^I(M)$ 的定义 (no. 5) 基，我们明确给出如下：给定两个映射 $f : I \to L$ 和$g : J \to L$，令 $e_f^g$ 为 $T_J^I(M)$ 的元素 $\bigotimes_{i \in I \cup J} x_i$ 定义为
+现在假设 M 是一个*有限生成的自由*A-模，并让$(e_\lambda)_{\lambda \in L}$是M的基（L因此是一个*有限*集合）。 $M^*$*对偶*到$(e_\lambda)$ (II, § 2, no. 6) 的基由$(e^\lambda)_{\lambda \in L}$ 表示。 M 和 $M^*$ 的基 $(e_\lambda)$ 和 $(e^\lambda)$ 分别为 $T_J^I(M)$ 的定义 (no. 5) 基，我们明确给出如下：给定两个映射 $f : I \to L$ 和$g : J \to L$，令 $e_f^g$ 为 $T_J^I(M)$ 的元素 $\bigotimes_{i \in I \cup J} x_i$ 定义为
 
 $$
 x_i = e_{f(i)} \quad \text{if } i \in I, \qquad x_i = e_{g(i)} \quad \text{if } i \in J.
@@ -441,7 +441,7 @@ $$
 z = \sum_{(f, g)} \alpha_g^f(z) \cdot e_f^g
 $$
 
-其中$\alpha_g^f$是相对于基$(e_f^g)$的坐标形式；通过滥用语言，$\alpha_g^f(z)$被称为张量$z$*相对于模M的基*$(e_\lambda)$的坐标。$\alpha_g^f$构成$(e_f^g)$的对偶基，在其他字中它们被识别为元素 / 基 / $T_I^J(M)$，与$(e_\lambda)$*相关*。当I和J是$\mathbf{N}$区间$\{1, n\}$的补子集时，$\alpha_g^f$（或$\alpha_g^f(z)$）表示如下：$i \in I$的每个元素$f(i)$被写为上位指标第 i 个位置有一个点，第 i 个位置为 $i \in J$；类似地，$i \in J$的$g(i)$在第i个位置写为较低的指标，在$i \in I$的第i个位置写一个点。对于例，对于$I = \{1, 4\}, J = \{2, 3\}$，我们写为$\alpha_{v\rho}^{\lambda\cdot\cdot\mu}$：如果$f(1) = \lambda, f(4) = \mu, g(2) = \nu, g(3) = \rho$。
+其中$\alpha_g^f$是相对于基$(e_f^g)$的坐标形式；通过滥用语言，$\alpha_g^f(z)$被称为张量$z$*相对于模M的基*$(e_\lambda)$的坐标。$\alpha_g^f$构成$(e_f^g)$的对偶基，在其他字中它们被识别为元素 / 基 / $T_I^J(M)$，与$(e_\lambda)$*相关*。当I和J互补区间的子集和$\mathbf{N}$的$\{1, n\}$时，$\alpha_g^f$（或$\alpha_g^f(z)$）表示如下：$i \in I$的每个元素$f(i)$写为上位指标在第 i 个位置，第 i 个位置有一个点，代表 $i \in J$；类似地，$i \in J$的$g(i)$在第i个位置写为较低的指标，在$i \in I$的第i个位置写一个点。例如，对于$I = \{1, 4\}, J = \{2, 3\}$，我们写为$\alpha_{v\rho}^{\lambda\cdot\cdot\mu}$：if $f(1) = \lambda, f(4) = \mu, g(2) = \nu, g(3) = \rho$。
 
 令$(\tilde{e}_{\lambda})_{\lambda \in L}$为M的另一个基，从$(e_{\lambda})$到$(\tilde{e}_{\lambda})$（II, § 10, no. 8），为经过的P矩阵。那么从$(e^{\lambda})$到$(\tilde{e}^{\lambda})$（$(\tilde{e}_{\lambda})$的对偶基）的经过的矩阵就是P（II, § 10, no. 8，命题5）的同余$^tP^{-1}$。由此可知 (II, § 10, no. 10) 经过的矩阵从 $T^{I}_{J}(M)$ 的基 $(e^{g}_{f})$ 到基 $(\tilde{e}^{g}_{f})$（其中 $f$（分别为 $g$）穿过集合 I到L的映射（分别是J到L））是矩阵
 
@@ -461,7 +461,7 @@ $$
 c^{i}_{j}: T^{I}_{J}(M) \to T^{I'}_{J'}(M),
 $$
 
-称为指标 i 和指标 j 的缩写。为此，$M^{I} \times (M^{*})^{J}$的注、映射，与每个家庭$(x_{i})_{i \in I \cup J}$相关联，其中$x_{i} \in M$如果$i \in I$和$x_{i} \in M^{*}$如果$i \in J$、元素
+称为指标 i 和指标 j 的缩写。为此，请注意$M^{I} \times (M^{*})^{J}$的映射，它与每个家庭$(x_{i})_{i \in I \cup J}$相关联，其中如果$i \in I$则为$x_{i} \in M$，如果$i \in J$、元素则为$x_{i} \in M^{*}$
 
 $$
 \langle x_{i}, x_{j} \rangle_{k \in (I \cup J) - \{i, j\}} x_{k}
@@ -481,7 +481,7 @@ $$
 \beta^{f'}_{g'}(c^{i}_{j}(z)) = \sum_{\lambda \in L} \alpha^{(f'; \lambda)}_{(g'; \lambda)}(z).
 $$
 
-例共张量。 (1) 设 M 为有限生成射影 A-模。我们知道（II, § 4, no. 2，命题 2 的推论），存在一个规范的 A-模同构
+例共张量。 (1) 设 M 为有限生成射影 A-模。我们知道（II, § 4, no. 2，推论到命题2），有一个规范的A-模同构
 
 $$
 \theta_M : M^* \otimes_A M \to \operatorname{End}_A(M)
@@ -499,7 +499,7 @@ $$
 u(e_\lambda) = \sum_{\mu \in L} \zeta_{\lambda \cdot \mu} e_\mu
 $$
 
-其它字、线性映射*$u = \theta_M(z)$*的*矩阵是指标*$\mu$*和指标*$\lambda$*行中的元素和列*是* $\zeta_{\lambda \cdot \mu}$。
+其它字、线性映射*$u = \theta_M(z)$*的*矩阵是指标*$\mu$*和指标*$\lambda$*行中的元素和列* $\zeta_{\lambda \cdot \mu}$。
 
 $u$ (II, § 4, no. 3) 的*轨迹*的定义立即表明
 
@@ -507,7 +507,7 @@ $$
 \operatorname{Tr}(\theta_M(z)) = c_1^2(z).
 $$
 
-因此元素$z_0 = \sum_{\lambda \in L} e^\lambda \otimes e_\lambda$（其坐标$\zeta_{\mu \cdot \lambda}$对于$\lambda \neq \mu$来说是零，对于$\lambda = \mu$等于1），这样$\theta_M(z_0) = 1_M$就是元素$1 \in A = T^0_0(M)$的像映射收缩的*转置*
+因此元素$z_0 = \sum_{\lambda \in L} e^\lambda \otimes e_\lambda$（其坐标$\zeta_{\mu \cdot \lambda}$对于$\lambda \neq \mu$来说是零，对于$\lambda = \mu$等于1），这样$\theta_M(z_0) = 1_M$是元素$1 \in A = T^0_0(M)$的像映射收缩的*转置*
 
 $$
 c_1^2 : T^{(2)}_{\{1\}}(M) \to A.
@@ -519,13 +519,13 @@ $$
 \mu : M^* \otimes_A M^* \to (M \otimes_A M)^*
 $$
 
-（II, § 4, no. 4，推论 1 至命题 2）和典范同构
+（II, § 4, no. 4、推论 1 至命题 2）和典范同构
 
 $$
 \theta : (M \otimes_A M)^* \otimes_A M \to \operatorname{Hom}_A(M \otimes_A M, M)
 $$
 
-（II, § 4, no. 2，命题 2 的推论）； $\operatorname{Hom}_A(M \otimes_A M, M)$ 也与 $M \times M$ 的 A-*双线性* 映射的 A-模 $\mathscr{L}_2(M, M; M)$ 典型地同构为 $M$ (II, § 3, no. 9)。组合这些同构，得到典范同构
+（II, § 4, no. 2、推论至命题 2）； $\operatorname{Hom}_A(M \otimes_A M, M)$ 也与 $M \times M$ 的 A-*双线性* 映射的 A-模 $\mathscr{L}_2(M, M; M)$ 典型地同构为 $M$ (II, § 3, no. 9)。组合这些同构，得到典范同构
 
 $$
 \chi_M : T^{(3)}_{\{1, 2\}}(M) = M^* \otimes M^* \otimes M \to \mathscr{L}_2(M, M; M)

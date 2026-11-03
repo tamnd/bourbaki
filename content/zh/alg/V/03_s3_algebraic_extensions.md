@@ -26,16 +26,16 @@ subsections:
       pdf_page: 133
 statements: 18
 exercises: 13
-content_sha256: 3e6a795b93d015e70746622fbc75c3ee16ae464159c2ee4fb7145d557b2b6402
+content_sha256: 8e456700530bf9eee41233caa13e36613114de6bad0596f6ba005f1aecb3e76e
 translated_from: content/en/alg/V/03_s3_algebraic_extensions.md
 translation_method: google
 source_content_sha256: c809206feded65830ffb1a1abf8e7582212bebf99082b59eeb85c7c315e737bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: a57980bdb0b113a09dd83c7fc8cf933c46f93e337da0dd9dd7ea53ecec49991c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。代数扩张
@@ -54,11 +54,11 @@ $$
 
 #### 定理 1 {#alg-v-s3-thm-1 .statement tag=06HI}
 
-— Let $A$ be an algebra over a field $K$, $x$ an element of $A$ algebraic over $K$, $n$ the degree and $f$ the minimal polynomial of $x$ over $K$.
+— 令$A$为$K$域上的代数，$x$为$K$上$A$代数的元素，$n$为度，$f$为$K$上$x$的最小多项式。
 
 a) 对于多项式 $g \in K[X]$ 到满足 $g(x) = 0$，$g$ 应该是 $f$ 的倍数是充分必要的。
 
-b) 映射 $g \mapsto g(x)$ 定义通过将代数 $K[X]/(f)$ 的商同构代入代数 $K[x]$，以及元素 $1,\ x,\ \ldots,\ x^{n-1}$ 形式 $K[x]$ 中的基超过$K$。特别是$[K[x]:K] = n$。
+b) 映射 $g \mapsto g(x)$ 定义由商代数 $K[X]/(f)$ 前往商同构转至代数 $K[x]$，以及元素 $1,\ x,\ \ldots,\ x^{n-1}$ $K[x]$ 中的形式基超过$K$。特别是$[K[x]:K] = n$。
 
 c) 假设$A$为整环。那么$K[x]$是域，$f$是$K[X]$中唯一的一元不可约多项式，使得$f(x) = 0$。
 
@@ -106,11 +106,11 @@ Let $E$ be an extension of a field $K$ and $x$ an element of $E$ which is root o
 
 — 为了使 $K$ 的扩张 $E$ 成为代数，$E$ 的每个子 K 代数 $A$ 应为域是充分必要的。
 
-$^1$ 参见。 例 D. Hilbert，Gesammelte Abhandlungen，卷。 1、p. 1（柏林（施普林格），1932 年）。
+$^1$ 参见。例如 D. Hilbert，Gesammelte Abhandlungen，卷。 1、p. 1（柏林（施普林格），1932 年）。
 
 条件是必要的：如果 $E$ 是 $K$ 的代数，且 $x \neq 0$ 是 $E$ 的子 K 代数 $A$ 的元素，则 $x^{-1} \in K[x] \subset A$ 乘以 $V$、p. 16、Th。 1、d)。因此$A$是域。
 
-条件就足够了：如果满足并且$x$在$E$中是元素$\neq 0$，则环$K[x]$是域，因此$x^{-1} \in K[x]$；在其他字中，存在多项式$g \in K[X]$，使得$x^{-1} = g(x)$，或者还有$xg(x) - 1 = 0$；这表明$x$是$K$的代数，因此$E$是$K$的代数扩张。
+条件是足够的：如果满足并且$x$在$E$中是元素$\neq 0$，则环$K[x]$是域，因此$x^{-1} \in K[x]$；在其他字中，存在多项式$g \in K[X]$，使得$x^{-1} = g(x)$，或者还有$xg(x) - 1 = 0$；这表明$x$是$K$的代数，因此$E$是$K$的代数扩张。
 
 #### 命题 2 {#alg-v-s3-prop-2 .statement tag=06HR}
 
@@ -118,13 +118,13 @@ $^1$ 参见。 例 D. Hilbert，Gesammelte Abhandlungen，卷。 1、p. 1（柏�
 
 因为，给定 $x \in E$，$[K(x):K]$ 是有限的，除 n ($V$，p. 10，Cor.1)，因此 $x$ 是 $K$ ($V$，p. 17，Cor.1) 的代数。
 
-*对于有限域 (V, p. 24, 注 4) 的例代数闭包，存在无限次代数扩张。*
+*存在无限次代数扩张，例如有限域的代数闭包（V，p. 24，注 4）。*
 
 #### 定理 2 {#alg-v-s3-thm-2 .statement tag=06HS}
 
-— *令 E 为 K 的有限生成的扩张，由元素 $a_1, ..., a_m$ 生成，它们是 K 上的代数；则 E 是 K 的有限次数扩张。如果 $a_i$ 次数超过 $K(a_1, a_2, ..., a_{i-1})$ 是 $n_i$（对于 $1 \leq i \leq m$），则 E 的次数超过 K 是 $n_1 n_2 ... n_m$ 和元素 E 比 K 的$a_1^{v_1} a_2^{v_2} ... a_m^{v_m}$ ($0 \leq v_i \leq n_i - 1$) 形式基。*
+— *令 E 为 K 的有限生成的扩张，由元素 $a_1, ..., a_m$ 生成，它们是 K 上的代数；则 E 是 K 的有限次数扩张。 如果 $a_i$ 次数超过 $K(a_1, a_2, ..., a_{i-1})$ 是 $n_i$（对于 $1 \leq i \leq m$），则 E 的次数超过 K 是 $n_1 n_2 ... n_m$ 和元素 E 比 K 的$a_1^{v_1} a_2^{v_2} ... a_m^{v_m}$ ($0 \leq v_i \leq n_i - 1$) 形式基。*
 
-$K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ ($0 \leq v_i \leq n_i - 1$) 形式基截至 Th。 1、b) $V$、p. 16；因此，定理紧随$m$上的归纳，来自II、p. 222的第25号提案。
+$K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ ($0 \leq v_i \leq n_i - 1$) 形式基截至 Th。 1、b) $V$、p. 16；因此，定理紧随II、p. 222第25号提案的$m$上的归纳。
 
 #### 推论 1 {#alg-v-s3-thm-2-cor-1 .statement tag=06HT}
 
@@ -140,7 +140,7 @@ $K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ 
 
 #### 注 1 {#alg-v-s3-n2-rem-1 .statement tag=06HV}
 
-与Th的记号。 2、 $E = K[a_1, a_2, ..., a_n]$ 因此 $E$ 同构于商 $K[X_1, X_2, ..., X_m]/\mathfrak{a}$；由于$E$是域，$a$是$K[X_1, ..., X_m]$的极大理想。
+与Th的记号。 2、$E = K[a_1, a_2, ..., a_n]$因此$E$同构于商$K[X_1, X_2, ..., X_m]/\mathfrak{a}$；由于$E$是域，$a$是$K[X_1, ..., X_m]$的极大理想。
 
 #### 注 2 {#alg-v-s3-n2-rem-2 .statement tag=06HW}
 
@@ -152,7 +152,7 @@ $K(a_1, a_2, ..., a_i)$ 超过$K(a_1, a_2, ..., a_{i-1})$ 的元素 $a_i^{v_i}$ 
 
 — 令 E 和 F 为域 K 的两个扩张域，使得 K ⊂ E ⊂ F。对于 F 是 K 上的代数，E 应该是 K 上的代数且 F 是 E 上的代数是充分必要的。
 
-条件是必要的，由V，p. 17，Cor。 2. 让我们证明它是充分的。令x为F的任意元素；它是 E 上的代数；设 g ∈ E[X] 为 E 上的最小多项式。如果 A 是 g 系数的（有限）集合，则 g ∈ K(A)[X]，因此 x 是 K(A) 上的代数，并且 K(A U {x}) = K(A)(x) 是 K(A) 上的有限次数。现在 A ⊂ E 和 E 是 K 上的代数，因此 K(A) 是 K 上的有限次数，乘以 Th。 2. 因此 (V, p. 10, Th. 1), K(A U {x}) 在 K 上为有限次数，这表明 x 在 K 上是代数 (V, p. 18，命题 2)。
+条件是必要的，由V，p. 17，Cor。 2. 让我们证明它是充分的。令x为F的任意元素；它是 E 上的代数；设 g ∈ E[X] 为 E 上的最小多项式。如果 A 是 g 的系数的（有限）集合，则 g ∈ K(A)[X]，因此 x 是 K(A) 上的代数，并且 K(A U {x}) = K(A)(x) 是 K(A) 上的有限次数。现在 A ⊂ E 和 E 是 K 上的代数，因此 K(A) 是 K 上的有限次数，乘以 Th。 2. 因此 (V, p. 10, Th. 1), K(A U {x}) 在 K 上为有限次数，这表明 x 在 K 上是代数 (V, p. 18，命题 2)。
 
 #### 定义 2 {#alg-v-s3-def-2 .statement tag=06HY}
 

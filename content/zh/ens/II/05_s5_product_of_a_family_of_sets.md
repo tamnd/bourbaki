@@ -52,16 +52,16 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 5a36bb5fe87e95aa502b6861e3540ed414188cec864c5f9f32a9b3afcd37a69f
+content_sha256: 8ec1d60437599db9adb309636b3186345ba78875a7c91df6ceeb795598004ff6
 translated_from: content/en/ens/II/05_s5_product_of_a_family_of_sets.md
 translation_method: google
 source_content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4f4280b8b135d61bc3347788835f61017342aaaf14cf7877b2e3c9a2b70e35d6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 5. 集族的积
@@ -84,7 +84,7 @@ A4。 $(\forall \mathrm{X}) \ \mathrm{Coll}_{\mathrm{Y}}(\mathrm{Y} \subset \mat
 
 (2) 如果$E = \varnothing$，命题是明显的，因为那么$\mathfrak{P}(E) = \{\varnothing\}$。如果$E \ne \varnothing$且$r$是$f$的缩回，则$r \circ f$是$E$的恒等映射，因此$\hat{r} \circ \hat{f}$是$\mathfrak{P}(E)$的恒等映射；因此 $\hat{f}$ 是单射的，$\hat{r}$ 是 $\hat{f}$ (§3, no. 8) 的缩回。
 
-### 2. 集合映射 1 集合进入另一个
+### 2. 集合映射 1 集合变成另一个
 
 设$E$，$F$为集合。 $E$的映射到$F$的图是$E \times F$的子集。 $\mathfrak{P}(E \times F)$的元素的集合，其中性质是$E$的映射到$F$的图，因此是$\mathfrak{P}(E \times F)$的子集，用$F^E$表示。三元组$f = (G, E, F)$的集合，其中$G \in F^E$，因此是$E$的映射到$F$的集合；用$\mathfrak{F}(E, F)$表示。显然，$G \mapsto (G, E, F)$ 是$F^E$ 到$\mathfrak{F}(E, F)$ 的双射（称为规范的双射）。这个双射的存在使我们能够立即将与集合$F^E$相关的每个命题翻译为与$\mathfrak{F}(E, F)$相关的命题，反之亦然。
 
@@ -108,21 +108,21 @@ $$
 
 (2) 令$r'$为$u$的缩进，令$s'$为$v$的截面。对于每个映射 $f' : E' \to F'$，我们都有 $v \circ (s' \circ f' \circ r') \circ u = f'$，这表明映射 $f \mapsto v \circ f \circ u$ 是满射的。
 
-#### 推论{#ens-ii-s5-n2-cor-1 .statement tag=03Q6}
+#### 推论 {#ens-ii-s5-n2-cor-1 .statement tag=03Q6}
 
-*如果$u$是$E'$的双射到$E$并且$v$是$F$的双射到$F'$，那么$f \mapsto v \circ f \circ u$是双射的。*
+*如果$u$是$E'$的双射到$E$，$v$是$F$的双射到$F'$，那么$f \mapsto v \circ f \circ u$是双射的。*
 
-令$A$、$B$、$C$为三个集合，并令$f$为$B \times C$的映射到$A$。对于每个$y \in C$，令$f(\mathord{\cdot}, y)$为$B$的部分映射$x \mapsto f(x,y)$到$A$（§ 3, no. 9）； 函数 $y \mapsto f(\mathord{\cdot}, y)$ 是 $C$ 中的映射变成 $\mathfrak{F}(B, A)$。相反，对于$C$的每个映射$g$进入$\mathfrak{F}(B, A)$，都存在$\mathrm{B} \times \mathrm{C}$的唯一映射$f$进入A，这样对于每个$y \in \mathrm{C}$有$g(y) = f(\bullet, y)$，即映射 $(x, y) \to (g(y))(x)$。因此：
+令$A$、$B$、$C$为三个集合，并令$f$为$B \times C$到$A$的映射。对于每个$y \in C$，令$f(\mathord{\cdot}, y)$为$B$的部分映射$x \mapsto f(x,y)$到$A$（§ 3, no. 9）； 函数 $y \mapsto f(\mathord{\cdot}, y)$ 是 $C$ 中的映射变成 $\mathfrak{F}(B, A)$。相反，对于$C$的每个映射$g$进入$\mathfrak{F}(B, A)$，都存在$\mathrm{B} \times \mathrm{C}$的唯一映射$f$进入A，这样对于每个$y \in \mathrm{C}$有$g(y) = f(\bullet, y)$，即映射 $(x, y) \to (g(y))(x)$。因此：
 
 #### 命题 3 {#ens-ii-s5-prop-3 .statement tag=03Q7}
 
-*如果对于* $\mathrm{B} \times \mathrm{C}$ *进入* A *中的每个映射 $f$ *我们用* C *进入* $\mathfrak{F}(\mathrm{B}, \mathrm{A})$的$\tilde{f}$ 映射 $y \to f(\bullet, y)$表示，*则函数 $f \to \tilde{f}$是双射*（称为*规范双射*）*的*$\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$*到*$\mathfrak{F}(\mathrm{C}, \mathfrak{F}(\mathrm{B}, \mathrm{A}))$。
+*如果对于* $\mathrm{B} \times \mathrm{C}$ *进入* A *中的每个映射 $f$ *我们用* C *进入* $\mathfrak{F}(\mathrm{B}, \mathrm{A})$的$\tilde{f}$映射$y \to f(\bullet, y)$表示，*则函数$f \to \tilde{f}$是双射*（称为*规范双射*）*的*$\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$*到*$\mathfrak{F}(\mathrm{C}, \mathfrak{F}(\mathrm{B}, \mathrm{A}))$。
 
 类似地，我们将定义 $\mathfrak{F}(\mathrm{B} \times \mathrm{C}, \mathrm{A})$ 的*规范双射* 放到$\mathfrak{F}(\mathrm{B}, \mathfrak{F}(\mathrm{C}, \mathrm{A}))$ 上。由于映射和函数图之间的一对一对应，这些双射产生了$\mathrm{A}^{\mathrm{B} \times \mathrm{C}}$的*规范双射*到$(\mathrm{A}^{\mathrm{B}})^{\mathrm{C}}$（或$(\mathrm{A}^{\mathrm{C}})^{\mathrm{B}}$）。
 
-### 3. 定义集族的积
+### 3. 定义 / 集族的积
 
-令$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$为集合族，并令F为具有域I的函数图，使得每个$\iota \in \mathrm{I}$都有$\mathrm{F}(\iota) \in \mathrm{X}_\iota$。那么对于每个$\iota \in \mathrm{I}$，我们有$\mathrm{F}(\iota) \in \mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$，因此F是$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$的元素。具有上述性质的函数图因此形式子集为$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$。
+令$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$为集合的族，并令F为具有域I的函数图，使得每个$\iota \in \mathrm{I}$都有$\mathrm{F}(\iota) \in \mathrm{X}_\iota$。那么对于每个$\iota \in \mathrm{I}$，我们有$\mathrm{F}(\iota) \in \mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$，因此F是$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$的元素。具有上述性质的函数图因此形式子集为$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$。
 
 #### 定义 1 {#ens-ii-s5-def-1 .statement tag=03Q8}
 
@@ -148,7 +148,7 @@ $$\prod_{\iota \in I} X_\iota = X_\alpha^{\{\alpha\}};$$
 
 映射 $F \to F(\alpha)$ 就是$\prod_{\iota \in \{\alpha\}} X_\iota$ 的双射（称为*规范*）到$X_\alpha$。
 
-¶ 设 A、B 为集合，并令 $\alpha$、$\beta$ 与对象不同（存在两个不同的对象，分别为例 $\emptyset$ 和 $\{\emptyset\}$）。考虑图 $\{(\alpha, A), (\beta, B)\}$，它显然是函数式的，并且正是$(X_\iota)_{\iota \in \{\alpha, \beta\}}$族，使得$X_\alpha = A$和$X_\beta = B$。对于每个对 $(x, y) \in A \times B$，令 $f_{x,y}$ 为函数图 $\{(\alpha, x), (\beta, y)\}$。显然函数$(x, y) \to f_{x,y}$是$A \times B$到$\prod_{\iota \in \{\alpha, \beta\}} X_\iota$的双射映射；这个双射的倒数是$g \to (g(\alpha), g(\beta))$。这两个双射被称为*规范*。接下来我们将使用这个一对一的对应从集族的积的属性推导出两个集合的积的属性。
+¶ 设 A、B 为集合，并令 $\alpha$、$\beta$ 为不同的对象（存在两个不同的对象，例如 $\emptyset$ 和 $\{\emptyset\}$）。考虑图 $\{(\alpha, A), (\beta, B)\}$，它显然是函数式的，并且正是$(X_\iota)_{\iota \in \{\alpha, \beta\}}$族，使得$X_\alpha = A$和$X_\beta = B$。对于每个对 $(x, y) \in A \times B$，令 $f_{x,y}$ 为函数图 $\{(\alpha, x), (\beta, y)\}$。显然函数$(x, y) \to f_{x,y}$是$A \times B$到$\prod_{\iota \in \{\alpha, \beta\}} X_\iota$的双射映射；这个双射的倒数是$g \to (g(\alpha), g(\beta))$。这两个双射被称为*规范*。接下来我们将使用这个一对一的对应从集族的积的属性推导出两个集合的积的属性。
 
 ¶ 设 $(X_\iota)_{\iota \in I}$ 为集合的族，每个族由一个元素组成，比如 $X_\iota = \{a_\iota\}$；那么乘积$\prod_{\iota \in I} X_\iota$就是单个元素$(a_\iota)_{\iota \in I}$的集合由……组成。
 
@@ -176,23 +176,23 @@ $$A = \bigcup_{\iota \in I} X_\iota = \bigcup_{x \in K} X_{u(x)}$$
 
 #### 命题 6 {#ens-ii-s5-prop-6 .statement tag=03QA}
 
-*Let $(X_\iota)_{\iota\in I}$ be a family of sets such that $X_\iota\ne\varnothing$ for all $\iota\in I$. 如果$g$是$J\subset I$的映射到$A=\displaystyle\bigcup_{\iota\in I}X_\iota$，使得$g(\iota)\in X_\iota$对于所有$\iota\in J$，则存在$g$到$I$的扩张$f$，使得对于所有$f(\iota)\in X_\iota$ $\iota\in I$.*
+*令$(X_\iota)_{\iota\in I}$成为集合的一个族，使得$X_\iota\ne\varnothing$代表所有$\iota\in I$。如果$g$是$J\subset I$的映射到$A=\displaystyle\bigcup_{\iota\in I}X_\iota$，使得$g(\iota)\in X_\iota$对于所有$\iota\in J$，则存在$g$到$I$的扩张$f$，使得对于所有$f(\iota)\in X_\iota$ $\iota\in I$.*
 
-对于每个$\iota\in I-J$，让$T_\iota$表示项$\tau_\iota(y\in X_\iota)$。从$X_\iota\ne\varnothing$到假设，我们为所有$\iota\in I-J$（章I, §4, no. 1）提供了$T_\iota\in X_\iota$。如果$G$是$g$的图，则图$G\cup\left(\displaystyle\bigcup_{\iota\in I-J}\{(\iota,T_\iota)\}\right)$是函数的图，它具有所需的属性，正如立即验证的那样。
+对于每个$\iota\in I-J$，让$T_\iota$表示项$\tau_\iota(y\in X_\iota)$。从$X_\iota\ne\varnothing$到假设，我们为所有$\iota\in I-J$（章I, §4, no. 1）提供了$T_\iota\in X_\iota$。如果$G$是$g$的图，则图$G\cup\left(\displaystyle\bigcup_{\iota\in I-J}\{(\iota,T_\iota)\}\right)$是函数的图，它具有所需的属性，立即得到验证。
 
 #### 推论 1 {#ens-ii-s5-prop-6-cor-1 .statement tag=03QB}
 
-*让$(X_\iota)_{\iota\in I}$成为集合的一个族，这样对于每个$\iota\in I$我们都有$X_\iota\ne\varnothing$。那么对于每个 $\alpha\in I$ 投影 $\operatorname{pr}_\alpha$ 都是 $\displaystyle\prod_{\iota\in I}X_\iota$ 的映射到 $X_\alpha$。*
+*让$(X_\iota)_{\iota\in I}$成为集合的一个族，这样对于每个$\iota\in I$我们有$X_\iota\ne\varnothing$。那么对于每个 $\alpha\in I$ 投影 $\operatorname{pr}_\alpha$ 都是 $\displaystyle\prod_{\iota\in I}X_\iota$ 的映射到 $X_\alpha$。*
 
-$\operatorname{pr}_\alpha$是$X_\alpha^{\{\alpha\}}$典范映射合成到$X_\alpha$和映射$\operatorname{pr}_{\{\alpha\}}$的应用命题5到$I$和注子集$J=\{\alpha\}$。
+应用命题 5 到 $I$ 的子集 $J=\{\alpha\}$，并注意$\operatorname{pr}_\alpha$ 是$X_\alpha^{\{\alpha\}}$ 的典范映射的合成到$X_\alpha$ 和映射 $\operatorname{pr}_{\{\alpha\}}$。
 
 #### 推论 2 {#ens-ii-s5-prop-6-cor-2 .statement tag=03QC}
 
-*设$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$是集合的一个家庭。那么$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota = \emptyset$当且仅当存在$\iota \in \mathrm{I}$使得$\mathrm{X}_\iota = \emptyset$。*
+*让$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$成为集合的一个家庭。那么$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota = \emptyset$当且仅当存在$\iota \in \mathrm{I}$使得$\mathrm{X}_\iota = \emptyset$。*
 
-如果每个$\iota \in \mathrm{I}$都有$\mathrm{X}_\iota \neq \emptyset$，那么从推论1可以得出$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota \neq \emptyset$；相反，如果 $\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota \neq \emptyset$、关系 $\mathrm{pr}_\alpha\Big(\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota\Big) \subset \mathrm{X}_\alpha$ 则表明每个 $\alpha \in \mathrm{I}$ 都有 $\mathrm{X}_\alpha \neq \emptyset$。
+如果每个$\iota \in \mathrm{I}$都有$\mathrm{X}_\iota \neq \emptyset$，那么从推论1可以得出$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota \neq \emptyset$；相反，如果 $\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota \neq \emptyset$、关系 $\mathrm{pr}_\alpha\Big(\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota\Big) \subset \mathrm{X}_\alpha$ 则表示每个 $\alpha \in \mathrm{I}$ 都有 $\mathrm{X}_\alpha \neq \emptyset$。
 
-因此，如果我们有一个非空集族$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$，我们可以引入（作为辅助常数）函数$f$，其域I使得$f(\iota) \in \mathrm{X}_\iota$适用于所有$\iota \in \mathrm{I}$。在实践中，有人说：“在每个$\mathrm{X}_\iota$中取元素$x_\iota$”。直观上，我们在每个集合$\mathrm{X}_\iota$中“选择”了元素$x_\iota$；控制其使用的逻辑符号$\tau$和判据的引入使我们无需制定“选择公理”来使运算合法化（cf.结果摘要，§4, no. 10）。
+因此，如果我们有一个非空集族$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$，我们可以引入（作为辅助常数）函数$f$，其域I使得$f(\iota) \in \mathrm{X}_\iota$适用于所有$\iota \in \mathrm{I}$。在实践中，有人说：“在每个$\mathrm{X}_\iota$中取元素$x_\iota$”。直观上，我们因此在每个集合$\mathrm{X}_\iota$中“选择”了元素$x_\iota$；控制其使用的逻辑符号$\tau$和判据的引入使我们无需制定“选择公理”来使运算合法化（cf.结果摘要，§4, no. 10）。
 
 #### 推论 3 {#ens-ii-s5-prop-6-cor-3 .statement tag=03QD}
 
@@ -202,11 +202,11 @@ $$\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota \subset \prod_{\iota \in \mathrm
 
 *相反，如果$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota \subset \prod\limits_{\iota \in \mathrm{I}} \mathrm{Y}_\iota$，并且如果每个$\iota \in \mathrm{I}$有$\mathrm{X}_\iota \neq \emptyset$，则每个$\iota \in \mathrm{I}$有$\mathrm{X}_\iota \subset \mathrm{Y}_\iota$。*
 
-第一个断言是显而易见的，第二个命题1，推论5，因为我们有，对于每个$\alpha \in \mathrm{I}$，
+第一个断言是显而易见的，第二个命题1，推论5，因为我们对于每个$\alpha \in \mathrm{I}$，
 
 $$\mathrm{X}_\alpha = \mathrm{pr}_\alpha\Big(\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota\Big) \subset \mathrm{pr}_\alpha\Big(\prod_{\iota \in \mathrm{I}} \mathrm{Y}_\iota\Big) = \mathrm{Y}_\alpha.$$
 
-### 5. 结合性乘积集合
+### 5. 集合乘积结合性
 
 #### 命题 7 {#ens-ii-s5-prop-7 .statement tag=03IN}
 
@@ -228,7 +228,7 @@ $$f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$$
 
 #### 注 2 {#ens-ii-s5-n5-rem-2 .statement tag=03SB}
 
-令$\alpha$、$\beta$、$\gamma$为三个对象，其中没有两个相等（存在三个这样的对象；对于例、$\emptyset$、$\{\emptyset\}$、$\{\{\emptyset\}\}$），并令A、B、C为集合。考虑函数图$\{(\alpha, A), (\beta, B), (\gamma, C)\}$，即集合$(X_\iota)_{\iota \in \{\alpha, \beta, \gamma\}}$族，使得$X_\alpha = A$、$X_\beta = B$、$X_\gamma = C$。对于由两个集合、$\{\alpha, \beta\}$和$\{\gamma\}$形成的$\{\alpha, \beta, \gamma\}$的划分，存在对应一个$\prod_{\iota \in \{\alpha, \beta, \gamma\}} X_\iota$的规范双射到乘积
+令$\alpha$、$\beta$、$\gamma$为三个对象，其中没有两个是相等的（存在三个这样的对象；例如，$\emptyset$、$\{\emptyset\}$、$\{\{\emptyset\}\}$），并令A、B、C为集合。考虑函数图$\{(\alpha, A), (\beta, B), (\gamma, C)\}$，即集合$(X_\iota)_{\iota \in \{\alpha, \beta, \gamma\}}$族，使得$X_\alpha = A$、$X_\beta = B$、$X_\gamma = C$。对于由两个集合、$\{\alpha, \beta\}$和$\{\gamma\}$形成的$\{\alpha, \beta, \gamma\}$的划分，存在对应一个$\prod_{\iota \in \{\alpha, \beta, \gamma\}} X_\iota$的规范双射到乘积
 
 $$\left( \prod_{\iota \in \{\alpha, \beta\}} X_\iota \right) \times X_\gamma^{\{\gamma\}},$$
 
@@ -261,7 +261,7 @@ $$x \in \bigcap_{f \in I} \left( \bigcup_{\lambda \in L} X_{\lambda, f(\lambda)}
 
 $$\bigcup_{\lambda \in L} \left( \bigcap_{\iota \in J_\lambda} X_{\lambda, \iota} \right).$$
 
-那么对于每个$\lambda \in L$，我们有$x \notin \bigcap_{\iota \in J_\lambda} X_{\lambda, \iota}$，这意味着指标$\iota \in J_\lambda$的集合$J'_\lambda$，使得$x \notin X_{\lambda, \iota}$对于每个$\lambda \in L$不为空。到命题 5，推论 2，存在一个函数图 $f$，域为 L，这样对于每个 $\lambda \in L$，我们都有 $f(\lambda) \in J'_\lambda$。因而，每个$\lambda \in L$对应$f \in I$和$x \notin X_{\lambda, f(\lambda)}$；因而
+那么对于每个$\lambda \in L$，我们有$x \notin \bigcap_{\iota \in J_\lambda} X_{\lambda, \iota}$，这意味着指标$\iota \in J_\lambda$的集合$J'_\lambda$，使得$x \notin X_{\lambda, \iota}$对于每个$\lambda \in L$不为空。到命题 5，推论 2，存在一个函数图$f$，域为L，这样对于每个$\lambda \in L$，我们有$f(\lambda) \in J'_\lambda$。因而，每个$\lambda \in L$对应$f \in I$和$x \notin X_{\lambda, f(\lambda)}$；因而
 
 $$x \notin \bigcup_{\lambda \in L} X_{\lambda, f(\lambda)}$$
 
@@ -278,7 +278,7 @@ $$x \notin \bigcap_{f \in I} \left( \bigcup_{\lambda \in L} X_{\lambda, f(\lambd
 $$\left( \bigcap_{\iota \in I} X_\iota \right) \cup \left( \bigcap_{\varkappa \in K} Y_\varkappa \right) = \bigcap_{(\iota,\, \varkappa) \in I \times K} (X_\iota \cup Y_\varkappa),$$
 $$\left( \bigcup_{\iota \in I} X_\iota \right) \cap \left( \bigcup_{\varkappa \in K} Y_\varkappa \right) = \bigcup_{(\iota,\, \varkappa) \in I \times K} (X_\iota \cap Y_\varkappa).$$
 
-令$\alpha$、$\beta$为两个不同的对象；将命题 8 中的公式（以及 $L = \{\alpha,\ \beta\}$、$J_\alpha = I$、$J_\beta = K$）应用于家庭 $((Z_{\lambda,\, \mu})_{\mu \in J_\lambda})_{\lambda \in L}$，其中 $Z_{\alpha,\, \iota} = X_\iota$ 应用于所有 $\iota \in I$，$Z_{\beta,\, \varkappa} = Y_\varkappa$ 应用于每个 $\varkappa \in K$。通过$\coprod_{\lambda \in L} J_\lambda$的规范双射到$I \times K$（no. 3）的存在以及通过§ 4的命题1，我们得到了公式。
+设$\alpha$、$\beta$是两个不同的对象；将命题 8 中的公式（包括$L = \{\alpha,\ \beta\}$、$J_\alpha = I$、$J_\beta = K$）应用于$((Z_{\lambda,\, \mu})_{\mu \in J_\lambda})_{\lambda \in L}$，其中$Z_{\alpha,\, \iota} = X_\iota$适用于所有$\iota \in I$，$Z_{\beta,\, \varkappa} = Y_\varkappa$适用于每个$\varkappa \in K$。通过$\coprod_{\lambda \in L} J_\lambda$的规范双射到$I \times K$（no. 3）的存在以及通过§ 4的命题1，我们得到规定的公式。
 
 #### 命题 9 {#ens-ii-s5-prop-9 .statement tag=03IQ}
 
@@ -290,8 +290,8 @@ $$\prod_{\lambda \in L} \left( \bigcup_{\iota \in J_\lambda} X_{\lambda,\, \iota
 
 $$\prod_{\lambda \in L} \left( \bigcap_{\iota \in J_\lambda} X_{\lambda,\, \iota} \right) = \bigcap_{f \in I} \left( \prod_{\lambda \in L} X_{\lambda,\, f(\lambda)} \right)$$
 
-（乘积的“分配律”超过并和超过交）。
-如果 $L = \emptyset$ 或对于某些 $\lambda \in L$ $J_\lambda = \emptyset$，则第一个公式平凡为真。如果不是，则令$g$为$\prod_{\lambda \in L} \left( \bigcap_{\iota \in J_\lambda} X_{\lambda,\, \iota} \right)$的元素。对于每个$\lambda \in L$，存在指标$\iota \in J_\lambda$，使得$g(\lambda) \in X_{\lambda,\, \iota}$；在指标 $\iota \in J_\lambda$ 的其他字、集合 $H_\lambda$ 中，$g(\lambda) \in X_{\lambda,\, \iota}$ 不为空。根据推论 2 到命题 5，因此存在一个具有域 L 的函数图 $f$，使得
+（乘积超过并和超过交的“分配律”）。
+如果$L = \emptyset$或者对于某些$\lambda \in L$来说$J_\lambda = \emptyset$，第一个公式是平凡的真。如果不是，则令$g$为$\prod_{\lambda \in L} \left( \bigcap_{\iota \in J_\lambda} X_{\lambda,\, \iota} \right)$的元素。对于每个$\lambda \in L$，存在指标$\iota \in J_\lambda$，使得$g(\lambda) \in X_{\lambda,\, \iota}$；在指标 $\iota \in J_\lambda$ 的其他字、集合 $H_\lambda$ 中，$g(\lambda) \in X_{\lambda,\, \iota}$ 不为空。因而，从推论 2 到命题 5，存在一个函数图 $f$，域为 L，使得
 
 $$f(\lambda) \in H_\lambda$$
 
@@ -313,7 +313,7 @@ $$g(\lambda) \in X_{\lambda,\, f(\lambda)}$$
 
 $$\mathrm{P}_f = \prod_{\lambda \in L} X_{\lambda, f(\lambda)},$$
 
-那么，凭借命题 9 的第一个公式，足以证明对于所有$f \in I$，$\mathrm{P}_f \neq \emptyset$ 以及当$f$ 和$g$ 与I 不同的元素时，$\mathrm{P}_f \cap \mathrm{P}_g = \emptyset$ 就足够了。第一个点由命题5推论2。至于第二个，如果$f \neq g$，则存在$\lambda \in L$使得
+那么，凭借命题 9 的第一个公式，足以证明对于所有$f \in I$ 都有$\mathrm{P}_f \neq \emptyset$，并且当$f$ 和$g$ 与I 的元素不同时，$\mathrm{P}_f \cap \mathrm{P}_g = \emptyset$ 就足够了。第一个点由命题5、推论2得出。至于第二个，如果$f \neq g$，则存在$\lambda \in L$使得
 
 $$f(\lambda) \neq g(\lambda)$$
 
@@ -329,7 +329,7 @@ $$\left( \bigcup_{\iota \in I} X_\iota \right) \times \left( \bigcup_{\varkappa 
 
 $$\left( \bigcap_{\iota \in I} X_\iota \right) \times \left( \bigcap_{\varkappa \in K} Y_\varkappa \right) = \bigcap_{(\iota, \varkappa) \in I \times K} (X_\iota \times Y_\varkappa).$$
 
-证明遵循命题 8 推论的证明模式。
+证明遵循证明推论到命题8的模式。
 
 #### 命题 10 {#ens-ii-s5-prop-10 .statement tag=03QG}
 
@@ -339,7 +339,7 @@ $$\bigcap_{\varkappa \in K} \left( \prod_{\iota \in I} X_{\iota, \varkappa} \rig
 
 待证明的等式两边都是函数图。图$f$属于位于左侧当且仅当对于每个$\varkappa \in K$，$f \in \prod_{\iota \in I} X_{\iota, \varkappa}$；也就是说，当且仅当 $f(\iota) \in X_{\iota, \varkappa}$ 对于所有$(\iota, \varkappa) \in I \times K$。对于右侧的$f$到属于，每个$\iota \in I$有$f(\iota) \in \bigcap_{\varkappa \in K} X_{\iota, \varkappa}$是必要且充分的，即每个对$(\iota, \varkappa) \in I \times K$有$f(\iota) \in X_{\iota, \varkappa}$。这样就完成了证明。
 
-#### 推论{#ens-ii-s5-n6-cor-2 .statement tag=03IR}
+#### 推论 {#ens-ii-s5-n6-cor-2 .statement tag=03IR}
 
 *设*$(X_\iota)_{\iota \in I}$*和*$(Y_\iota)_{\iota \in I}$*为集合的两个族，具有相同的指标集合*$I \neq \emptyset$。 *然后*
 
@@ -348,11 +348,11 @@ $$\Big(\bigcap_{\iota \in I} X_\iota\Big) \times \Big(\bigcap_{\iota \in I} Y_\i
 
 应用命题 10 到 K（分别为 I）是两个不同元素的集合由……组成的情况。
 
-### 7. 扩张映射至乘积
+### 7. 映射至乘积中的扩张
 
 #### 定义 2 {#ens-ii-s5-def-2 .statement tag=03IS}
 
-*设* $(X_\iota)_{\iota \in I}$，$(Y_\iota)_{\iota \in I}$ *为集合的两个族，并让*$(g_\iota)_{\iota \in I}$ *为函数的族，且具有相同的指标集合*I*使得*$g_\iota$*为映射* $X_\iota$ *进入* $Y_\iota$ *每个* $\iota \in I$。 *对于每个* $f \in \prod_{\iota \in I} X_\iota$ *让* $u_f$ *成为函数* $\iota = g_\iota(f(\iota))$ $(\iota \in I)$的图，*这是* $\prod_{\iota \in I} Y_\iota$的元素。 *映射* $f \to u_f$ *of* $\prod_{\iota \in I} X_\iota$ *进入* $\prod_{\iota \in I} Y_\iota$ *被称为映射* $(g_\iota)_{\iota \in I}$家族的规范扩张*（或简称*扩张*）*至乘积； *it is also sometimes called the product of the family of mappings* $(g_\iota)_{\iota \in I}$.
+*设* $(X_\iota)_{\iota \in I}$，$(Y_\iota)_{\iota \in I}$ *为集合的两个族，并让*$(g_\iota)_{\iota \in I}$ *为函数的族，且具有相同的指标集合*I*使得*$g_\iota$*为映射* $X_\iota$ *进入* $Y_\iota$ *每个* $\iota \in I$。 *对于每个* $f \in \prod_{\iota \in I} X_\iota$ *让* $u_f$ *成为函数* $\iota = g_\iota(f(\iota))$ $(\iota \in I)$的图，*这是* $\prod_{\iota \in I} Y_\iota$的元素。 *映射* $f \to u_f$ *of* $\prod_{\iota \in I} X_\iota$ *进入* $\prod_{\iota \in I} Y_\iota$ *被称为映射* $(g_\iota)_{\iota \in I}$家族的规范扩张*（或简称*扩张*）*至乘积； *有时也称为映射族的乘积* $(g_\iota)_{\iota \in I}$。
 
 当使用指标记号时，$(g_\iota)_{\iota \in I}$族的乘积为函数$(x_\iota)_{\iota \in I} \to (g_\iota(x_\iota))_{\iota \in I}$；它是有时，用$(g_\iota)_{\iota \in I}$表示。
 
@@ -364,9 +364,9 @@ $$\Big(\bigcap_{\iota \in I} X_\iota\Big) \times \Big(\bigcap_{\iota \in I} Y_\i
 
 这紧随定义 2。
 
-#### 推论{#ens-ii-s5-n7-cor-1 .statement tag=03IU}
+#### 推论 {#ens-ii-s5-n7-cor-1 .statement tag=03IU}
 
-令$(X_i)_{i\in I}$、$(Y_i)_{i\in I}$为集合的两个族，并令$(g_i)_{i\in I}$为函数的族。如果$g_i$是$X_i$到$Y_i$的单射（或满射），对于每个$i\in I$，则$(g_i)_{i\in I}$到乘积的扩张$g$是单射（或单射）。 $\displaystyle\prod_{i\in I}X_i$到$\displaystyle\prod_{i\in I}Y_i$的满射）。
+令$(X_i)_{i\in I}$、$(Y_i)_{i\in I}$为集合的两个族，令$(g_i)_{i\in I}$为函数的族。如果$g_i$是$X_i$到$Y_i$的单射（或满射），对于每个$i\in I$，则$(g_i)_{i\in I}$到乘积的扩张$g$是单射（或单射）。 $\displaystyle\prod_{i\in I}X_i$到$\displaystyle\prod_{i\in I}Y_i$的满射）。
 
 (1) 假设每个$i\in I$有$X_i\ne\varnothing$；否则结果是微不足道的。假设$g_i$对于每个$i\in I$都是单射的，并让$r_i$是$g_i$的缩进（§ 3, no. 8，定义11），因此$r_i\circ g_i$是$X_i$的恒等映射。设$r$为家庭$(r_i)_{i\in I}$的扩张到乘积；由于$r\circ g$是恒等映射$I_{X_i}$族的扩张到乘积，$r\circ g$是$\displaystyle\prod_{i\in I}X_i$的恒等映射，因此$g$是单射的（§ 3，命题） 8).
 

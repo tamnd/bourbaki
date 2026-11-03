@@ -48,23 +48,23 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: d27ed9e712536a4c460989a006690351b6987dda74eb511d110372e282a17adf
+content_sha256: 502e320c646b6c4d166d0a20cb24e608d4e1665186b0933f36d357f2892ce13b
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 translation_method: google
 source_content_sha256: b5c155c15f83267d7c6d79a662a997296ac1d37834b41153ee92fcd8c306ae20
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ae4c4527cfc3c7c2d794cc55a6762ce84d3d087b0d21345f08dec9451d8e3634
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 4。 COXETER 群的几何表示
+## § 4。滑行者的几何表示群
 
 在本段中，所有考虑的向量空间都是真实的向量空间。
 
-### 1. 形式与考克斯特相关群
+### 1. 形式与 coxeter 群相关
 
 令 S 为集合，并令 M = $(m(s, s')_{s, s' \in S})$ 为型 S 的 Coxeter 矩阵（第 IV, § 1, no. 9）。回想一下，这意味着：
 
@@ -144,7 +144,7 @@ $$
 
 由于$\sigma_s$和$\sigma_{s'}$是阶2，并且不同，因此足以证明它们的乘积$\sigma_s \sigma_{s'}$是阶$m(s, s')$。当$m(s, s')$无穷大时，这是从上面的$a$得出的。当$m(s, s')$有限时，由命题1可知E是$E_{s,s'}$及其正交补$V_{s,s'}$的直和；由于$\sigma_s$和$\sigma_{s'}$是$V_{s,s'}$上的恒等式，并且由于$\sigma_s \sigma_{s'}$到$E_{s,s'}$的限制是阶$m(s, s')$到$b$，$\sigma_s \sigma_{s'}$的阶确实是等于$m(s, s')$。
 
-### 3. 群和表示与 COXETER 矩阵相关
+### 3. 群和表示与 coxeter 矩阵相关
 
 我们保留前面的数的记号。令 $W^- = W(M)$ 为群，由生成元* $(g_s)_{s \in S}$ 族和 *关系*1 定义
 
@@ -178,13 +178,13 @@ $$s \mapsto g_s \mapsto \sigma_s$$
 
 从 $S$ 到 $\mathbf{GL}(E)$ 是单射的。
 
-对于*b*)（或*c*）），我们注$g_s$的阶（或$g_s g_{s'}$的阶）*至多*2（或*至多*$m(s, s')$）。由于我们在no. 2中看到$\sigma_s$（$\sigma_s \sigma_{s'}$）的阶为2（$m(s, s')$），因此我们必须有等式。
+对于*b*)（或*c*)），我们注意到$g_s$的阶（或$g_s g_{s'}$的阶）*至多* 2（或*至多* $m(s, s')$）。由于我们在no. 2中看到$\sigma_s$（$\sigma_s \sigma_{s'}$）的阶是2（$m(s, s')$），所以我们必须有等式。
 
 鉴于*a)*，$S$可以通过映射$s \mapsto g_s$与$W$的子集进行“识别”。
 
-1 这意味着，如果 $L_S$ 表示 $S$ 上的自由群，则 $W$ 是 $L_S$ 除以最小的正常子群与 $L_S$ 包含元素的商$(ss')^{m(s, s')}$，对于$m(s, s') \neq +\infty$。
+1 这意味着，如果 $L_S$ 表示 $S$ 上的空闲群，则 $W$ 是 $L_S$ 的商乘以最小的正常子群 $L_S$ 包含元素$(ss')^{m(s, s')}$，相当于$m(s, s') \neq +\infty$。
 
-#### 推论{#lie-v-s4-n3-cor-1 .statement tag=0ARG}
+#### 推论 {#lie-v-s4-n3-cor-1 .statement tag=0ARG}
 
 *对* (W, S) *是 Coxeter 系统和矩阵 M*。
 
@@ -194,7 +194,7 @@ $$s \mapsto g_s \mapsto \sigma_s$$
 
 因此，我们已经证明*每个 Coxeter 矩阵对应到 Coxeter 群*。
 
-### 4. 矛盾表示
+### 4. 反对表示
 
 令 E* 为 E 的对偶。由于 W 通过 σ 作用于 E，因此它也通过结构的迁移作用于 E*。 相应的表示
 
@@ -234,7 +234,7 @@ $$
 
 *如果 S 是有限的，则 σ(W) 是* \mathbf{GL}(E) *的离散子群 *并提供其规范的李群结构；类似地，σ*(W) 是* \mathbf{GL}(E^*) *.* 的离散子群
 
-设 x* ∈ C。 g ε \mathbf{GL}(E^*) 的集合 U 使得 g(x*) ε C 是 \mathbf{GL}(E^*) 中单位元素的邻域；通过定理，
+设 x* ∈ C。 g ε \mathbf{GL}(E^*) 的集合 U，使得 g(x*) ε C 是 \mathbf{GL}(E^*) 中单位元素的邻域； 定理，
 
 $$
 \sigma^*(W) \cap U = \{1\};
@@ -244,7 +244,7 @@ $$
 
 证明共定理 1。
 
-如果$w \in W$，则用$w$相对于$S$的$l(w)$长度表示（第IV, § 1, no. 1章）。
+如果$w \in W$，则用$w$相对于$S$的$l(w)$长度来表示（第IV, § 1, no. 1章）。
 
 我们将证明以下断言，其中$n$表示整数$\geqslant 0$：
 
@@ -294,7 +294,7 @@ $$
 
 证明 ((P_{n+1}) 和 (Q_n)) \Longrightarrow (Q_{n+1})。
 
-设 w \in W，其中 l(w) = n + 1，且 s, s' \in S, s \neq s'。如果 w(C) 包含在 A_s \cap A_{s'} 中，则条件 (Q_{n+1}) 满足 u = 1。否则，假设对于例，w(C) 不包含在 A_s 中。由 (P_{n+1})，w(C) \子集 s(A_s) 和 l(sw) = n。通过 (Q_n) 应用于 sw，存在 v \in W_{s,s'} 使得
+设 w \in W，其中 l(w) = n + 1，且 s, s' \in S, s \neq s'。如果 w(C) 包含在 A_s \cap A_{s'} 中，则条件 (Q_{n+1}) 满足 u = 1。如果不是，则假设例如 w(C) 不包含在 A_s 中。由 (P_{n+1})，w(C) \子集 s(A_s) 和 l(sw) = n。通过 (Q_n) 应用于 sw，存在 v \in W_{s,s'} 使得
 
 sw(C) \子集 v(A_s \cap A_{s'}) \quad \text{和} \quad l(sw) = l(v) + l(v^{-1}sw)。
 
@@ -311,17 +311,17 @@ l(w) = 1 + l(sw) = 1 + l(v) + l(v^{-1}sw)
 
 证明共定理。
 
-设 w \in W，w \neq 1。我们可以将 w 写在形式 sw' 中，s \in S 且 l(w') = l(w) - 1。通过 (P_n)，应用于 w' 和 n = l(w')，我们有 w'(C) \子集 A_s，因为情况为 w'(C) \子集 s(A_s) 被排除，因为 l(sw') = l(w) = l(w') + 1。所以 w(C) = sw'(C) \子集 s(A_s)，并且由于 A_s 和 s(A_s) 是不相交的，所以我们有 C \cap w(C) = \var什么都没有。 Q.E.D.
+设 w \in W，w \neq 1。我们可以在形式 sw' 中写出 w，其中 s \in S 且 l(w') = l(w) - 1。通过 (P_n)，应用于 w' 和 n = l(w')，我们有 w'(C) \子集 A_s，因为情况为 w'(C) \子集 s(A_s) 被排除，因为 l(sw') = l(w) = l(w') + 1。所以 w(C) = sw'(C) \子集 s(A_s)，并且由于 A_s 和 s(A_s) 是不相交的，所以我们有 C \cap w(C) = \var什么都没有。 Q.E.D.
 
-### 5. 证明共引理 1
+### 5. 证明 / 引理 1
 
-令 E_{s,s'}^* 为平面 E_{s,s'} = \mathbf{R}e_s \oplus \mathbf{R}e_{s'} (no. 2) 的对偶。 单射 E_{s,s'} 的转置 \to E 是一个满射
+令 E_{s,s'}^* 为平面 E_{s,s'} = \mathbf{R}e_s \oplus \mathbf{R}e_{s'} (no. 2) 的对偶。 转置 of 单射 E_{s,s'} \to E 是一个满射
 
 $$
 p : E^* \to E_{s,s'}^*
 $$
 
-与作用或群 W_{s,s'} 通勤。很明显，A_s、A_{s'} 和 A_s \cap A_{s'} 在 E_{s,s'}^* 的相应的子集的 p 下是逆像（被视为 Coxeter 的对角表示的空间） 群 W_{s,s'})。此外，由于 W_{s,s'} 的元素的长度对于 \{s, s'\} 和对于 S 是相同的（第 IV, § 1, no. 8），所以我们最终被简化为 S = \{s, s'\} 的情况；如果 m = m(s, s')，群 W 则为阶 2m 的二面角群。
+与作用或群 W_{s,s'} 通勤。很明显，A_s、A_{s'} 和 A_s \cap A_{s'} 在 E_{s,s'}^* 的相应的子集的 p 下是逆像（被认为是 Coxeter 群的对位表示的空间） W_{s,s'})。此外，由于 W_{s,s'} 的元素的长度对于 \{s, s'\} 和对于 S 是相同的（第 IV, § 1, no. 8），所以我们最终被简化为 S = \{s, s'\} 的情况；如果 m = m(s, s')，群 W 则为阶 2m 的二面角群。
 
 我们现在区分两种情况：
 a) m = +\infty.
@@ -332,7 +332,7 @@ s.\varepsilon = -\varepsilon + 2\varepsilon', \quad s'.\varepsilon = \varepsilon
 s.\varepsilon' = \varepsilon', \quad s'.\varepsilon' = 2\varepsilon - \varepsilon'.
 $$
 
-设D为$E^*$包含于$\varepsilon$和$\varepsilon'$的仿射线；上面的公式表明D在s和$s'$下是稳定的，并且s（分别为$s'$）到D的限制是相对于点$\varepsilon'$（分别为$\varepsilon$）的反射。让
+设D为$E^*$包含于$\varepsilon$和$\varepsilon'$的仿射线；上面的公式表明D在s和$s'$下是稳定的，并且s（或$s'$）到D的限制是相对于点$\varepsilon'$（或$\varepsilon$）的反射。让
 
 $$
 \theta : \mathbf{R} \to D
@@ -342,19 +342,19 @@ $$
 
 b) $m$ 是有限的。
 
-那么形式 $B_M$ 是非退化的 (no. 2)，所以我们用 E 可以确定 $E^*$。我们已经看到 E 可以定向，使得半线 $\mathbf{R}_+ e_s$ 和 $\mathbf{R}_+ e_{s'}$ 之间的角度等于 $\pi - \frac{\pi}{m}$。设 D（分别为 $D'$）为从 $\mathbf{R}_+ e_s$（分别为 $\mathbf{R}_+ e_{s'}$）旋转 $\pi/2$（分别为 $-\pi/2$）获得的半线，cf. 图 2。室 C 为集合 $x \in E$，其标量乘积与$e_s$和$e_{s'}$是$> 0$；这是原点为 $D'$、末端为 D 的开角扇区。通过 § 2 的注，无 5，W 变换 C 的每元素 $v$ 进入与 C 位于 D 同一侧的角扇区（即包含在$A_s$中）或在相反一侧（即包含在$s(A_s)$中），并且在后一种情况下
+那么形式$B_M$是非退化的（no. 2），所以我们用E来可以确定$E^*$。我们已经看到E可以定向，使得半线$\mathbf{R}_+ e_s$和$\mathbf{R}_+ e_{s'}$之间的角度等于$\pi - \frac{\pi}{m}$。设 D（分别为 $D'$）为从 $\mathbf{R}_+ e_s$（分别为 $\mathbf{R}_+ e_{s'}$）旋转 $\pi/2$（分别为 $-\pi/2$）获得的半线，cf. 图 2。室 C 为集合 $x \in E$，其标量乘积与$e_s$和$e_{s'}$是$> 0$；这是原点为 $D'$、末端为 D 的开角扇区。通过 § 2 的注，无 5，W 变换 C 的每元素 $v$ 进入与 C 位于 D 同一侧的角扇区（即包含在$A_s$中）或在相反一侧（即包含在$s(A_s)$中），并且在后一种情况下
 
 $$
 l(sv) = l(v) - 1,
 $$
 
-完成引理的证明。
+完成引理中的证明。
 
-![图表显示两条半线 es 和 es'，一个角标记为 π/m，阴影区域标记为 D 和 D'，点 O 在原点]（图 2）
+![图表显示两条半线 es 和 es'，一个角标记为 π/m，阴影区域标记为 D 和 D'，点 O 位于原点]（图 2）
 
 图2
 
-### 6. 并会议厅中 W 的基本领域
+### 6. 并室中 W 的基本域
 
 我们保留 no. 4 中的记号。对于$s \in S$，用与$e_s$正交的$E^*$的$H_s$超平面表示，用$x^* \in E^*$的$\overline{A}_s$集合表示，使得$\langle x^*, e_s \rangle \geqslant 0$和$\overline{C}$交表示$\overline{A}_s$ 换$s \in S$。对于由$E^*$和$E$之间的对偶性定义的弱拓扑$\sigma(E^*, E)$（*拓扑向量空间*，第II, §6, no. 2章），$\overline{A}_s$是闭半空间，$\overline{C}$是闭凸锥。此外，$\overline{C}$是$C$的*闭包*；事实上，如果$x^* \in \overline{C}$和$y^* \in C$，那么对于每个实数$t > 0$和$x^* = \lim_{t \to 0} (x^* + t y^*)$，$x^* + t y^* \in C$。
 
@@ -410,7 +410,7 @@ $$
 
 从$[x^*z^*] \subset \overline{C}$开始。
 
-### 7. COXETER 群几何表示的不可约性
+### 7. coxeter 群几何表示的不可约性
 
 我们保留前面的记号，并假设S是*有限*。
 
@@ -420,9 +420,9 @@ $$
 
 如果$x \in E^0$，则$\sigma_s(x) = x - 2B_M(e_s, x)e_s = x$对于所有$s \in S$。由于 W 由 S 生成，因此 W 对 $E^0$ 的作用微不足道。
 
-令$E'$为W下稳定的E的子空间。令$s, s' \in S$为在$(W, S)$的图$\Gamma$中*链接*的两个元素（第IV, §1, no. 9章）；回想一下，这意味着 $m(s, s') \geq 3$。假设$e_s \in E'$。然后$\sigma_{s'}(e_s) \in E'$，并且由于$\sigma_{s'}(e_s)$中$e_{s'}$的系数非零，所以我们有$e_{s'} \in E'$。由于 $\Gamma$ 是相连的，因此，如果 $E'$ 包含于 $e_s$ 之一，那么它包含全部以及重合与 E。除了这种情况，从 §2, no. 2 的第 3 条命题可以得出，对于所有 $s \in S$， $E'$包含在与$e_s$正交的超平面$H_s$中。由于$H_s$的交等于$E^0$，因此证明了命题。
+令$E'$为W下稳定的E的子空间。令$s, s' \in S$为在$(W, S)$的图$\Gamma$中*链接*的两个元素（第IV, §1, no. 9章）；回想一下，这意味着 $m(s, s') \geq 3$。假设$e_s \in E'$。然后$\sigma_{s'}(e_s) \in E'$，由于$\sigma_{s'}(e_s)$中$e_{s'}$的系数非零，我们有$e_{s'} \in E'$。由于 $\Gamma$ 是连通的，因此，如果 $E'$ 包含于 $e_s$ 之一，则包含所有包含以及重合与 E。除了这种情况，根据 §2, no. 2 的第 3 条命题，对于所有 $s \in S$， $E'$包含在与$e_s$正交的超平面$H_s$中。由于$H_s$的交等于$E^0$，因此证明了命题。
 
-#### 推论{#lie-v-s4-n7-cor-1 .statement tag=0ARR}
+#### 推论 {#lie-v-s4-n7-cor-1 .statement tag=0ARR}
 
 *假设*$(W, S)$*是不可约的。然后*：
     a) *如果* $B_M$ *是非退化的，则 W 模块* $E$ *绝对简单*。
@@ -442,13 +442,13 @@ $$
     (1) $W$ *是有限的*。
     (2) *形式* $B_M$ *为正且非退化*。
 
-(1) $\Longrightarrow$ (2)。令 $S = \bigcup_i S_i$ 为 $S$ 的分解为连通分量（第 IV、$§ 1$、no. 9），并令 $W = \prod_i W_i$ 为 $W$ 的相应的分解。 空间$E$可以与空间$E_i = \mathbf{R}^{S_i}$的直和识别，$B_M$可以与相应的形式$B_{M_i}$的直和识别。因此，我们被简化为 $(W, S)$ *不可约*的情况。由于假设 $W$ 是有限的，$E$ 是半单 W 模（附录，命题 2）。由科。根据命题 5，$E$ 绝对简单。令$B'$为$E$上的正非简并形式，令$B''$为$W$下其变换的和。由于$B''$在$W$下不变，它与$B_M$成正比（$§ 2$，no. 1，命题1）；由于$B_M(e_s, c_s) = 1$对于所有$s \in S$，比例系数为$> 0$，并且由于$B''$为正，因此$B_M$也为正，这证明了(2)。
+(1) $\Longrightarrow$ (2)。令$S = \bigcup_i S_i$为$S$的分解连接到分量（IV、$§ 1$、no. 9），并令$W = \prod_i W_i$为$W$的相应的分解。 空间$E$可以与空间$E_i = \mathbf{R}^{S_i}$的直和识别，$B_M$可以与相应的形式$B_{M_i}$的直和识别。因此，我们被简化为 $(W, S)$ *不可约*的情况。由于假设 $W$ 是有限的，$E$ 是半单 W 模（附录，命题 2）。由科。根据命题 5，$E$ 绝对简单。令$B'$为$E$上的正非简并形式，令$B''$为$W$下其变换的和。由于$B''$在$W$下不变，它与$B_M$成正比（$§ 2$，no. 1，命题1）；由于$B_M(e_s, c_s) = 1$对于所有$s \in S$，系数的比例为$> 0$，并且由于$B''$为正，所以$B_M$为正，这证明了（2）。
 
 (2) $\Longrightarrow$ (1)。如果 $B_M$ 是正非简并，则正交群 $O(B_M)$ 是*紧凑*（*积分*，第 VII、$§ 3$、no. 1）。由于$\sigma(W)$是$O(B_M)$的*离散*子群（Th.1的Cor.3），因此$\sigma(W)$是有限的，因此$W$也是有限的。 Q.E.D.
 
 在证明的过程中得出以下结果：
 
-#### 推论{#lie-v-s4-n8-cor-1 .statement tag=0ART}
+#### 推论 {#lie-v-s4-n8-cor-1 .statement tag=0ART}
 
 *如果* $(W, S)$ *不可约且有限，则 E 是绝对简单的 W 模*。
 
@@ -456,9 +456,9 @@ Th 提供的有限性准则。 2 允许对所有*有限* Coxeter 群（cf. 第 V
 
 #### 命题 8 {#lie-v-s4-prop-8 .statement tag=0ARU}
 
-*如果* $W$ *是有限的，则* $(W, S)$ *的图是一个森林*（第IV、附录章）。
+*如果*$W$*是有限的，*$(W, S)$*的图是一个森林*（第IV，附录）。
 
-如果没有，该图将包含电路$(s_1, \ldots, s_n)$，$n \geq 3$。放置 $m_i = m(s_1, s_{i+1})$、$1 \leq i < n$ 和 $m_n = m(s_n, s_1)$，这意味着 $m_i \geq 3$ 对于所有 $i$。让
+如果没有，该图将是包含电路$(s_1, \ldots, s_n)$，$n \geq 3$。放置 $m_i = m(s_1, s_{i+1})$、$1 \leq i < n$ 和 $m_n = m(s_n, s_1)$，这意味着 $m_i \geq 3$ 对于所有 $i$。让
 $$
 x = e_{s_1} + \cdots + e_{s_n}.
 $$
@@ -472,7 +472,7 @@ B_M(x, x) \leq n - n = 0,
 $$
 与$B_M$是正非简并的事实相反。
 
-#### 推论{#lie-v-s4-n8-cor-2 .statement tag=0ARV}
+#### 推论 {#lie-v-s4-n8-cor-2 .statement tag=0ARV}
 
 *如果* $(W, S)$ *不可约且有限，则其图是一棵树*。
 
@@ -519,7 +519,7 @@ $$
 
 这是从 $§ 3$、no. 5 的引理 4 开始，应用到矩阵，条目为 $B_M(e_s, e_{s'})$。
 
-令 $v = \sum_s v_s e_s$ 为引理 2 的向量满足条件，使得 $\sum_s v_s = 1$，令 $A$ 为 $y^* \in E^*$ 的 $E^*$ 由……组成的仿射超平面，使得$\langle v, y^* \rangle = 1$。如果 $T$ 表示 $E^*$ 中 $v$ 的正交补集，$A$ 具有仿射空间的自然结构以及平移 $T$ 的空间。此外，形式$B_M$定义通过对$E/E^0$上的非简并标量乘积进行商传递，因此也在其对偶$T$上；这给出了仿射空间 $A$ 上的 *欧氏结构*（*代数*，第 IX, § 6, no. 6）。
+令 $v = \sum_s v_s e_s$ 为引理 2 的向量满足条件，使得 $\sum_s v_s = 1$，令 $A$ 为 $y^* \in E^*$ 的 $E^*$ 由……组成的仿射超平面，使得$\langle v, y^* \rangle = 1$。如果 $T$ 表示 $E^*$ 中 $v$ 的正交补集，$A$ 具有仿射空间的自然结构以及平移 $T$ 的空间。此外，形式$B_M$定义通过商成为$E/E^0$上的非简并标量乘积，因此也在其对偶$T$上；这给出了仿射空间 $A$ 上的 *欧氏结构*（*代数*，第 IX, § 6, no. 6）。
 
 令$G$为$\mathbf{GL}(E)$由……组成或自同构的子群，使$v$和$B_M$不变；如果$g \in G$，则相合映射${}^t g^{-1}$使$A$和$T$保持稳定，并且定义由限制到$A$*位移*$i(g)$为$A$（cf.） § 3）。这是直接的，这给出了从$G$到群的*同构*位移$A$。此外，点的稳定子$G_a$和$A$的$a$可以与希尔伯特空间T的正交群等同，因此是紧致的。另一方面，G 是无穷远可数的局部紧致群，A 是 Baire 空间：它遵循（积分，第 VII、附录、引理 2）映射 $\psi : g \mapsto g(a)$ 定义的同胚$G/G_a$ 到 A。因此 G 对 A 正确起作用（一般拓扑，第 III, § 4, no. 2 章，第 5 条命题）。由于 W 是 G 的子群，因此可以将其等同于 A 的位移的群。我们将证明这个群满足 § 3 的假设。更准确地说：
 
@@ -529,7 +529,7 @@ $$
 
 由科. 3 Th。 1，W 在 $\mathbf{GL}(E)$ 中是离散的，因此在 G 中也是离散的，并且对 A 具有正确的作用。设 $s \in S$。由于卡 S ≥ 2，与 $e_s$ 正交的 E* 的超平面并不与 v 正交，并且其与 A 的交 L_s 确实是超平面。因此，到 s 的位移相应的是阶 2 的位移，而 L_s 的所有点保持固定：它必然是与 L_s 相关的正交反射。由此可知W是由正交反射产生的。 Th。现在，第 2 条表明它是无限的，而第 7 条则表明它是本质的且不可约的。
 
-由于C是一个开放的单纯圆锥，其壁是超平面，方程为$\langle x^*, e_s \rangle = 0$（对于$s \in S$），交C⟧A是凸的，因此A中L_s的并的补集的连通、开闭的子集。此外，C∩A是非空的，因为如果$x^* \in C$我们有$\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$和$\langle x^*, v \rangle^{-1} x^* \in C \cap A$。由此可知 C ∩ A 是 A 相对于 L_s 的系统的腔室。此外，$w(C \cap A) \cap L_s = \varnothing$对于所有$w \in W$（cf.no. 4，性质（P_n）），并且C∩A是A的一个室，相对于L_s的变换的系统由……组成，通过W 的元素；由科。的 Th。 § 3, no. 2 1，因此 C ∩ A 是 A 相对于 W 的一个室。
+由于 C 是一个开放的单纯圆锥，其壁为超平面，方程为 $\langle x^*, e_s \rangle = 0$（对于 $s \in S$），交 C ∩ A 是凸的，因此 A 中 L_s 的并的补集的连通、开闭的子集。 此外，C∩A是非空的，因为如果$x^* \in C$我们有$\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$和$\langle x^*, v \rangle^{-1} x^* \in C \cap A$。 由此可见，C ∩ A 是 A 相对于 L_s 的系统的腔室。 此外，$w(C \cap A) \cap L_s = \varnothing$对于所有$w \in W$（cf.no. 4，性质（P_n）），并且C∩A是A的一个室，相对于L_s的变换的系统由……组成乘以元素 W；由科。的 Th。 § 3, no. 2 1，因此 C ∩ A 是 A 相对于 W 的一个室。
 
 令 $a_s^*$ 为不在 L_s 中的单纯形 C ∩ A 的顶点。我们有
 
@@ -579,10 +579,10 @@ $$
 \psi(a_{s_0} + x) = a + v_{s_0} \lambda \varphi(x) \quad \text{for } x \in T.
 $$
 
-然后，对于所有$s \in S$，直接的即$\psi(L_s) = N_s$，并且$\psi$变换将$A_M$的标量乘积转换为$A$上的倍数。由此可见，$\psi$ 与$W$ 的作用通勤。最后，$\psi$的唯一性是明显的，因为例的$a_s$是$A_M$在反射$t \in S, t \neq s$下不变的唯一点。
+然后，对于所有$s \in S$，直接的即$\psi(L_s) = N_s$，并且$\psi$变换将$A_M$的标量乘积转换为$A$上的倍数。由此可见，$\psi$ 与$W$ 的作用通勤。最后，$\psi$的唯一性是明显的，例如$a_s$是$A_M$在反射$t \in S, t \neq s$下不变的唯一点。
 
 ### 习题 {#lie-v-s4-exercises}
 
-在下面的习题中，$(W, S)$表示Coxeter系统。我们假设 $S$ 是有限的；它的基数称为秩或 $(W, S)$。我们通过$\sigma$（cf.第3和4）来认同$W$与$\mathbf{GL}(E)$的子群。
+在下面的习题中，$(W, S)$表示Coxeter系统。我们假设 $S$ 是有限的；它的基数称为$(W, S)$的秩。我们通过$\sigma$（cf.第3和4）来认同$W$与$\mathbf{GL}(E)$的子群。
 
 参见[习题为 § 4](exercises/s4/)。

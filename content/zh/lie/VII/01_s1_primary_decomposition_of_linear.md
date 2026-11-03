@@ -33,21 +33,21 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: df35b4cc6d22228f495fab06acaa3212ae5147efaa1a3f154e3c206ab1878151
+content_sha256: 19e649f557baa78ea0130226244f4805fb1876a7dbfd1949f21cd2032011fd33
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
 translation_method: google
 source_content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f0c88b27d98a9743730582f745cdf25f86e0aad293b5437dd5d28f9e4bd285dc
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 初等分解 / 线性表示
 
-### 1. 分解自同态家庭
+### 1. 自同态一家人的分解
 
 设V为向量空间，S为集合，从S到End(V)为$r$映射。用从 S 到 $k$ 的映射的 P 集合表示。如果$\lambda \in P$，则用$v\in V$的$V_{\lambda}(S)$（或$V^{\lambda}(S)$）集合表示，使得对于所有$s\in S,r(s)v=\lambda (s)v$（或$n$足够大，分别用$(r(s)-\lambda (s))^nv= 0$）。 集合$V_{\lambda}(S)$和$V^{\lambda}(S)$是V和$V_{\lambda}(S)\subset V^{\lambda}(S)$的向量子空间。我们说$V_{\lambda}(S)$是V相对于$\lambda$（和$r$）的特征空间，$V^{\lambda}(S)$是V相对于$\lambda$（和$r$）的主子空间，并且$V^0(S)$是V的零空间（相对于$r$）。如果$V^{\lambda}(S)\not= 0$，我们说$\lambda$是V中S的权。
 
@@ -155,11 +155,11 @@ $b) S$ 减少为单个元素 $s$。令 $\lambda_0, \lambda_1, . . . , \lambda_n$
 
 $P(r(s))v_0=\sum_{i=1}^nP(r(s))v_i= 0$。由于 P 和 Q 互质，Bezout 恒等式证明 $v_0= 0$。
 
-$c) S$ 是有限且非空的。我们通过归纳对S的基数进行争论。设$s\in S$和$S'= S$**--** $\{s\}$。令$(v_{\lambda})_{\lambda\in P}$是元素和V的有限支持族，使得$\sum_{\lambda\in P}v_{\lambda}= 0$和$v_{\lambda}\in V^{\lambda}(S)$。让$\lambda_0\in P$。令$P'$为$\lambda \in P$的集合，使得$\lambda |S'=\lambda_0|S'$。将归纳假设应用于$S'$，我们就有$\sum_{\lambda\in P'}v_{\lambda}= 0$。如果$\lambda , \mu$不同于元素或$P',\lambda (s)\not=\mu(s)$。
+$c) S$ 是有限且非空的。我们通过S的归纳对基数进行争论。设$s\in S$和$S'= S$**--** $\{s\}$。令$(v_{\lambda})_{\lambda\in P}$是元素和V的有限支持族，使得$\sum_{\lambda\in P}v_{\lambda}= 0$和$v_{\lambda}\in V^{\lambda}(S)$。让$\lambda_0\in P$。令 $P'$ 为 $\lambda \in P$ 的集合，使得 $\lambda |S'=\lambda_0|S'$。将归纳假设应用于$S'$，我们就有$\sum_{\lambda\in P'}v_{\lambda}= 0$。如果$\lambda , \mu$不同于元素或$P',\lambda (s)\not=\mu(s)$。
 
 由于和 $\sum_{\alpha\in k}V^{\alpha}(s)$ 是 b) 的直达，并且由于 $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ 对于所有 $\lambda \in P'$，特别是 $v_{\lambda_0}= 0$，我们必须证明这一点。
 
-d) 一般情况。令$(v_{\lambda})_{\lambda\in P}$是元素和V的有限支持族，使得$\sum_{\lambda\in P}v_{\lambda}= 0$和$v_{\lambda}\in V^{\lambda}(S)$。令$P'$为$\lambda \in P$的有限集合，使得$v_{\lambda}\not= 0$，并让$S'$为S的有限子集，使得条件$\lambda \in P'$，$\mu\in P',\lambda |S'=\mu|S'$暗示$\lambda =\mu$。我们有$v_{\lambda}\in V^{\lambda|S'}(S')$； 应用的 c)，我们看到$v_{\lambda}= 0$对应$\lambda \in P'$，从而完成了证明。
+d) 一般情况。令$(v_{\lambda})_{\lambda\in P}$是元素和V的有限支持族，使得$\sum_{\lambda\in P}v_{\lambda}= 0$和$v_{\lambda}\in V^{\lambda}(S)$。令$P'$为$\lambda \in P$的有限集合，使得$v_{\lambda}\not= 0$，令$S'$为S的有限子集，使得条件$\lambda \in P'$、$\mu\in P',\lambda |S'=\mu|S'$暗示$\lambda =\mu$。我们有$v_{\lambda}\in V^{\lambda|S'}(S')$； 应用的 c)，我们看到$v_{\lambda}= 0$对应$\lambda \in P'$，从而完成了证明。
 
 回想一下，如果 $x\in$ End(V)，我们用 ad $x$ 映射 $y \rightarrow xy-yx= [x, y]$ 表示从 End(V) 到自身。
 
@@ -213,7 +213,7 @@ b) 存在$s\in S$使得$r(s)$至少有两个不同的特征值。那么 $a\in k$
 
 #### 推论 1 {#lie-vii-s1-thm-1-cor-1 .statement tag=00SP}
 
-假设V是有限维的并且满足条件(AC)。令 $k'$ 为 $k$ 的扩张。假设对于所有 $s\in S$，自同态 $r(s)\otimes 1$ 或 $V\otimes_kk'$ 都是可三角化的。令$P'$为从S到$k'$的映射中的集合。然后$V\otimes_kk'=\sum_{\lambda'\in P'}(V\otimes_kk')^{\lambda'}(S)$。
+假设V是有限维的并且满足条件(AC)。设$k'$为$k$的扩张。假设对于所有 $s\in S$，$V\otimes_kk'$ 的自同态 $r(s)\otimes 1$ 是可三角化的。令$P'$为从S到$k'$的映射中的集合。然后$V\otimes_kk'=\sum_{\lambda'\in P'}(V\otimes_kk')^{\lambda'}(S)$。
 
 令$r': S\rightarrow$End(V$\otimes_kk'$)为由$r$定义的映射。如果 $s_1, s_2\in S$，则存在整数 $n$，使得 (ad $r(s_1)$)$^nr(s_2) = 0$，因此 (ad $r'(s_1)$)$^nr'(s_2) = 0$。现在应用 Th 就足够了。 1.
 
@@ -225,7 +225,7 @@ b) 存在$s\in S$使得$r(s)$至少有两个不同的特征值。那么 $a\in k$
 
 (ii) $V = V^0(S)\oplus V^+(S)$；
 
-(iii) V的每向量子空间W，在$r(S)$下稳定，并且$W^0(S) = 0$包含在$V^+(S)$中；
+(iii) V的每个向量子空间W，在$r(S)$下稳定，并且$W^0(S) = 0$包含在$V^+(S)$中；
 
 （四）$\sum_{s\in S}r(s)V^+(S) = V^+(S)$。
 
@@ -243,15 +243,15 @@ $$
 
 从而证明 (i)、(ii) 和 (iv)。如果W是V的向量子空间在$r$(S)下稳定，则$W =\sum_{\lambda\in P}W^{\lambda}(S)$和$W^{\lambda}(S) = W\cap V^{\lambda}(S)$。如果$W^0(S) = 0$，我们看到$W\subset V^+$(S)，这证明了(iii)。
 
-令 $V'$ 为 V 的向量子空间在 $r(S)$ 下稳定，使得 $V'\cap V^0(S) = 0$。然后 ${V'}^0(S) = 0$，所以 $V'\subset V^+(S)$ 由 (iii) 得到。如果，在加法、$V = V^0(S) + V'$中，我们看到$V'= V^+(S)$。 Q.E.D.
+Let $V'$ be 向量子空间 of V stable under $r(S)$ and such that $V'\cap V^0(S) = 0$.然后 ${V'}^0(S) = 0$，所以 $V'\subset V^+(S)$ 由 (iii) 得到。如果，在加法、$V = V^0(S) + V'$中，我们看到$V'= V^+(S)$。 Q.E.D.
 
-我们将有时称为V的$(V^0(S),V^+(S))$Fitting 分解，或映射$r: S\rightarrow$End(V)。如果 S 约化到单个元素 $s$，我们写 $V^+(s)$ 或 $V^+(r(s))$ 而不是 $V^+(\{s\})$。我们知道 $V = V^0(s)\oplus V^+(s), V^0(s)$ 和 $V^+(s)$ 在 $r(s),r(s)|V^0(s)$ 幂零且 $r(s)|V^+(s)$ 是双射的情况下是稳定的。
+We 有时 call $(V^0(S),V^+(S))$ Fitting 分解 of V, or of 映射 $r: S\rightarrow$ End(V). If S 约化 to a single 元素 $s$, we write $V^+(s)$ or $V^+(r(s))$ instead of $V^+(\{s\})$. We have that $V = V^0(s)\oplus V^+(s), V^0(s)$ and $V^+(s)$ are stable under $r(s),r(s)|V^0(s)$ is nilpotent and $r(s)|V^+(s)$ is bijective.
 
 #### 推论 3 {#lie-vii-s1-thm-1-cor-3 .statement tag=00SR}
 
-令V和$V'$为有限维向量空间，并令$r: S\rightarrow$End(V)和$r': S\rightarrow$End(V$'$)为映射满足条件(AC)。令 $f: V\rightarrow V'$ 为满射线性映射，使得 $f(r(s)v) =r'(s)f(v)$ 对于 $s\in S$ 和 $v\in V$。然后 $f(V^{\lambda}{(S)) = V'}^{\lambda}(S)$ 代表所有 $\lambda \in P$。
+令V和$V'$为有限维向量空间，并令$r: S\rightarrow$End(V)和$r': S\rightarrow$End(V$'$)为映射满足条件(AC)。 Let $f: V\rightarrow V'$ be a surjective linear 映射 such that $f(r(s)v) =r'(s)f(v)$ for $s\in S$ and $v\in V$.然后 $f(V^{\lambda}{(S)) = V'}^{\lambda}(S)$ 代表所有 $\lambda \in P$。
 
-鉴于命题 1，我们被简化为 $k$ 是代数闭的情况。我们有 $V =\bigoplus_{\lambda\in P}V^{\lambda}$(S)、$V'=\bigoplus_{\lambda\in P}{V'}^{\lambda}(S)$ Th。 1、和$V'=f(V) =$$\sum_{\lambda\in P}f(V^{\lambda}(S))$。最后，根据命题 2 (i)，$f(V^{\lambda}(S))\subset {V'}^{\lambda}(S)$，因此得出推论。
+In view of Prop. 1, we are reduced to the case in which $k$ is algebraically closed.我们有 $V =\bigoplus_{\lambda\in P}V^{\lambda}$(S)、$V'=\bigoplus_{\lambda\in P}{V'}^{\lambda}(S)$ Th。 1、和$V'=f(V) =$$\sum_{\lambda\in P}f(V^{\lambda}(S))$。 Finally, $f(V^{\lambda}(S))\subset {V'}^{\lambda}(S)$ by Prop. 2 (i), hence 推论.
 
 #### 命题 4 {#lie-vii-s1-prop-4 .statement tag=00SS}
 
@@ -259,27 +259,27 @@ $$
 
 (i) 对于所有$\lambda \in k,V^{\lambda}(u) = V^{\lambda}(u_s) = V_{\lambda}(u_s)$。
 
-(ii) 如果V有代数结构，并且如果$u$是V$,u_s$中的推导，并且$u_n$是V中的推导。
+(ii) If V has 代数结构 and if $u$ is 推导 of V$,u_s$ and $u_n$ are 推导 of V.
 
-(iii) 如果V有代数结构，并且如果$u$是V的自同构，则$u_s$和$1 +u^{-1}_su_n$是V的自同构。
+(iii) If V has 代数结构 and if $u$ is 自同构 of V, then $u_s$ and $1 +u^{-1}_su_n$ are 自同构 of V.
 
-根据命题 1，我们可以假设 $k$ 是代数闭的，所以
+In view of Prop. 1, we can assume that $k$ is algebraically closed, so
 
 $$
 V =\sum_{\lambda\in k}V^{\lambda}(u)
 $$
 
-$u|V^{\lambda}(u)$的半单分量是位似，$V^{\lambda}(u)$中的比率为$\lambda$。这就证明了(i)。
+半单分量 of $u|V^{\lambda}(u)$ is 位似 with ratio $\lambda$ in $V^{\lambda}(u)$.这就证明了(i)。
 
-假设从现在开始V有代数结构。让$x\in V^{\lambda}(u)$，$y\in V^\mu(u)$。
+Assume from now on that V has 代数结构.让$x\in V^{\lambda}(u)$，$y\in V^\mu(u)$。
 
-如果$u$是V的推导，则$xy\in V^{\lambda+\mu}(u)$（命题2（ii）），所以
+If $u$ is 推导 of V, then $xy\in V^{\lambda+\mu}(u)$ (Prop. 2 (ii)), so
 
 $$
 u_s(xy) = (\lambda +\mu)(xy) = (\lambda x)y+x(\mu y) = (u_sx)y+x(u_sy)
 $$
 
-这证明$u_s$是V的推导。那么$u_n=u-u_s$就是V的推导。
+This proves that $u_s$ is 推导 of V.那么$u_n=u-u_s$就是V的推导。
 
 如果$u$是V的自同构，则Ker($u_s$)$= V^0(u) = 0$，所以$u_s$是双射的。另一方面，$xy\in V^{\lambda \mu}(u)$（命题 2 (iii)），所以
 
@@ -305,7 +305,7 @@ $$
 
 德特（X$-r(s)$）$= (X-\lambda (s))^n$。
 
-另一方面，行列式展开表明
+另一方面，行列式的展开表明
 
 检测(X$-r(s)$)$= X^n+a_1(s)X^{n-1}+\cdots +a_i(s)X^{n-i}+\cdots$
 
@@ -313,7 +313,7 @@ $$
 
 #### 命题 6 {#lie-vii-s1-prop-6 .statement tag=00SU}
 
-假设$k$是无限的并且满足条件(AC)。令$k'$为$k$中的扩张。把$V'= V\otimes_kk',S'= S\otimes_kk'$。令$r': S'\rightarrow$End(V$'$)为从$r$通过标量扩张获得的映射。然后
+假设$k$是无限的并且满足条件(AC)。设$k'$为$k$中的扩张。把$V'= V\otimes_kk',S'= S\otimes_kk'$。令$r': S'\rightarrow$End(V$'$)为从$r$乘扩张标量获得的映射。然后
 
 $$
 V^0(S)\otimes_kk'{= V'}^0{(S) = V'}^0(S')
@@ -329,7 +329,7 @@ $$
 
 #### 命题 7 {#lie-vii-s1-prop-7 .statement tag=00SV}
 
-假设$k$是无限的并且满足条件(AC)。令$\widetilde{S}$为$s\in S$的集合，使得$V^0(s) = V^0(S)$。如果$s\in S$，则令$P(s)$是由$r(s)$定义的$V/V^0(S)$的自同态的行列式（no. 1，Th.1的Cor.2(i)）。
+假设$k$是无限的并且满足条件(AC)。令$\widetilde{S}$为$s\in S$的集合，使得$V^0(s) = V^0(S)$。如果$s\in S$，则令$P(s)$为由$r(s)$定义的$V/V^0(S)$的自同态的行列式（no. 1，Th.1的Cor.2(i)）。
 
 (i) 函数 $s \rightarrow P(s)$ 是 S 上的多项式。我们有 $\widetilde{S} =\{s\in S|P(s)\not= 0\}$；这是 Zariski 拓扑中 S 的开子集（App. 1）。
 
@@ -337,7 +337,7 @@ $$
 
 $s \rightarrow P(s)$ 是多项式这一事实是由 $r$ 的线性性得出的。如果$s\in S, V^0(s)\supset V^0$(S)，则等式当且仅当$r(s)$定义自同构为$V/V^0$(S)，因而(i)。
 
-现在令 $k'$ 为 $k$ 的代数闭包，并引入 $V',S', r'$，如命题 6 中所示。通过多项式恒等式 (ad $r(s_1)$)$^{2 dim V-1}r(s_2) = 0$ 的延拓，注 $S'$ 满足条件 (AC)有效期为$s_1, s_2\in S$（no. 1、注）。 应用 Th.1，我们推导出分解
+现在让 $k'$ 为 $k$ 的代数闭包，并引入 $V',S', r'$，如命题 6 中所示。我们注意到，通过多项式恒等式 (ad $r(s_1)$)$^{2 dim V-1}r(s_2) = 0$ 的延拓，$S'$ 满足条件 (AC) $s_1, s_2\in S$（no. 1，注）。 应用 Th.1，我们推导出分解
 
 $$
 V'{= V'}^0(S')\oplus \sum_{i=1}^m{V'}^{\lambda_i}(S')
@@ -345,7 +345,7 @@ $$
 
 $\lambda_i\not= 0$ 为 $1\leq i\leq m$。对于$1\leq i\leq m$，在$S'$和整数$q_i$上存在多项式函数$P_i$非零，使得$\lambda^{q_i}_i= P_i$（命题5）。由于$k$是无限的，因此存在$s\in S$使得$(P_1. . .P_m)(s)\not= 0$，cf.代数，第1章。 IV, §2, no. 3，科。命题 9 的 2。然后 $\lambda_i(s)\not= 0$ 对于所有 $i$，因而 ${V'}^0(S'{) = V'}^0(s)$，因而 $V^0(S) = V^0(s)$（命题 6），这表明 $\widetilde{S}\not=\emptyset$。如果$s\in \widetilde{S}$，$V^+(S)$在$r(s)$下是稳定的，并且是V中$V^0(s)$的补集，这一事实意味着$V^+(S) = V^+(s)$（Th.1的Cor.2）。
 
-### 3. 分解表示幂零李代数
+### 3. 幂零李代数表示分解
 
 设 $\mathfrak{h}$ 为李代数，M 为 $\mathfrak{h}$ 模。 对于从$\mathfrak{h}$到$k$的任何映射$\lambda$，我们已经在M的no. 1向量子空间$M^{\lambda}(\mathfrak{h})$和$M_{\lambda}(\mathfrak{h})$中定义。 特别是，如果$\mathfrak{g}$是李代数包含$\mathfrak{h}$和子代数，如果$x\in \mathfrak{g}$，我们经常会使用记号$\mathfrak{g}^{\lambda}(\mathfrak{h})$和$\mathfrak{g}_{\lambda}(\mathfrak{h})$；然后可以理解，$\mathfrak{h}$通过伴随表示和$_{\mathfrak{g}}$对$\mathfrak{g}$进行运算。
 
@@ -409,7 +409,7 @@ $\mathfrak{h}$的任意元素，用$\lambda (x)$表示唯一的$\lambda \in k$�
 
 #### 推论 {#lie-vii-s1-n3-cor-1 .statement tag=00SZ}
 
-令 $\mathfrak{h}$ 为幂零李代数，且 M 为有限维 $\mathfrak{h}$ 模，使得 $M^0(\mathfrak{h}) = 0$。令 $f:\mathfrak{h}\rightarrow M$ 为线性映射，使得
+令 $\mathfrak{h}$ 为幂零李代数，M 为有限维 $\mathfrak{h}$ 模，使得 $M^0(\mathfrak{h}) = 0$。令 $f:\mathfrak{h}\rightarrow M$ 为线性映射，使得
 
 $f([x, y]) =x.f(y)-y.f(x)$ 换$x, y\in \mathfrak{h}$。
 
@@ -427,7 +427,7 @@ $$
 (M\times 0)\cap N^0(\mathfrak{h}) = 0
 $$
 
-所以 $N^0(\mathfrak{h})$ 是维数 1，因此被 $\mathfrak{h}$ 湮灭。因此，$x.a-f(x) = 0$对于所有$x\in \mathfrak{h}$，这证明了推论。
+所以 $N^0(\mathfrak{h})$ 是维数 1，因此被 $\mathfrak{h}$ 湮灭。因此，对于所有$x\in \mathfrak{h}$，$x.a-f(x) = 0$，这证明了推论。
 
 #### 命题 10 {#lie-vii-s1-prop-10 .statement tag=00T0}
 
@@ -441,7 +441,7 @@ $$
 
 (iv) 假设$k$的特征为0。那么，如果$x\in \mathfrak{g}^{\lambda}(\mathfrak{h})$和$\lambda \not= 0$，则$x$幂零的。
 
-根据雅可比恒等式，映射$(x, y) \rightarrow [x, y]$从$\mathfrak{g}\times \mathfrak{g}$到$\mathfrak{g}$是$\mathfrak{g}$不变的，因此$\mathfrak{h}$是不变的。因此，(i) 的第一个部分由命题 2 (ii) 得出。 部分 (ii) 类似地证明。
+根据雅可比恒等式，从 $\mathfrak{g}\times \mathfrak{g}$ 到 $\mathfrak{g}$ 映射 $(x, y) \rightarrow [x, y]$ 是 $\mathfrak{g}$ 不变的，因此 $\mathfrak{h}$ 是不变的。因此，(i) 的第一个部分由命题 2 (ii) 得出。 部分 (ii) 类似地证明。
 
 如果 $x$ 属于为 $\mathfrak{g}$ 中 $\mathfrak{g}^0(\mathfrak{h})$ 的归一化器，则 (ad $y$)$.x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ 对于所有 $y\in \mathfrak{h}$，因此 (ad $y$)$^n.x= 0$ 对于 $n$ 足够大。这就证明了$x\in \mathfrak{g}^0(\mathfrak{h})$。 断言 (i) 现已完全证明。
 
@@ -455,19 +455,19 @@ $$
 
 1) B 到 $\mathfrak{m}$ 的限制是非简并的；
 
-2) 如果$x\in \mathfrak{m}$、半单以及$x$的幂零分量$^1$位于$\mathfrak{g}$、属于至$\mathfrak{m}$。
+2) 如果$x\in \mathfrak{m}$、半单以及$x$的幂零分量$^1$在$\mathfrak{g}$属于到$\mathfrak{m}$。
 
 然后$\mathfrak{m}$在$\mathfrak{g}$中被还原（第I, § 6, no. 6章）。
 
-由章。 I, §6, no. 4，命题$5d),\mathfrak{m}$ 是还原性的。令 $\mathfrak{c}$ 为 $\mathfrak{m}$ 中的中心。如果$x\in \mathfrak{c}$幂零，则$x= 0$；事实上，对于所有 $y\in \mathfrak{m}$、ad $x$ 和 ad $y$ 通勤，它们的合成、ad $x\circ$、ad $y$ 是幂零的，而 $B(x, y) = 0$，因而 $x= 0$。现在让 $x$ 为 $\mathfrak{c}$ 的任意元素；设$s$和$n$为其半单和幂零分量。我们有$n\in \mathfrak{m}$。由于 ad $n$ 是形式 P(ad $x$)，其中 P 是没有常数项的多项式，(ad $n$)$.\mathfrak{m}= 0$ 等等 $n\in \mathfrak{c}$，然后通过上面的 $n= 0$。因此广告$x$是半单。因而，$\mathfrak{g}$的伴随表示的限制到$\mathfrak{m}$是半单（第I, §6, no. 5，第$4b$）$)$。
+由章。 I, §6, no. 4，命题$5d),\mathfrak{m}$ 是还原性的。令 $\mathfrak{c}$ 为 $\mathfrak{m}$ 中的中心。如果$x\in \mathfrak{c}$幂零，则$x= 0$；事实上，对于所有 $y\in \mathfrak{m}$、ad $x$ 和 ad $y$ 通勤，他们的合成、ad $x\circ$、ad $y$ 是幂零的，而$B(x, y) = 0$，所以$x= 0$。现在让$x$是$\mathfrak{c}$的任意元素；设$s$和$n$为其半单和幂零分量。我们有$n\in \mathfrak{m}$。由于 ad $n$ 是形式 P(ad $x$)，其中 P 是没有常数项的多项式，(ad $n$)$.\mathfrak{m}= 0$ 等等 $n\in \mathfrak{c}$，然后通过上面的 $n= 0$。因此广告$x$是半单。因而，$\mathfrak{g}$的伴随表示的限制到$\mathfrak{m}$是半单（第I, §6, no. 5，第$4b$）$)$。
 
 #### 命题 11 {#lie-vii-s1-prop-11 .statement tag=00T2}
 
 假设$k$的特征为0。令$\mathfrak{g}$为半单李代数，$\mathfrak{h}$为$\mathfrak{g}$的幂零子代数。 代数$\mathfrak{g}^0(\mathfrak{h})$满足引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
-$^1$ 作者： I, §6, no. 3，周四。 3、每个$x\in \mathfrak{g}$可以唯一地写为互通的半单元素$s$和幂零元$n$和； 元素 $s$（或 $n$）称为 $x$ 的半单（或幂零）分量。
+$^1$ 作者： I, §6, no. 3，周四。 3、每个$x\in \mathfrak{g}$可以唯一地写为互通的半单元素$s$和幂零元$n$和； 元素 $s$（分别为 $n$）被称为 $x$ 的半单（分别为幂零）分量。
 
-设$x, x'\in \mathfrak{g},s$和$s'$为它们的半单分量，$n$和$n'$为它们的幂零分量。我们有
+让$x, x'\in \mathfrak{g},s$和$s'$他们的半单分量，$n$和$n'$他们的幂零分量。我们有
 
 $x'\in \mathfrak{g}^0(x)\Leftarrow \Rightarrow$（广告$s$）$(x') = 0$（提案$.4$）
 
@@ -479,53 +479,53 @@ $\Leftarrow \Rightarrow$（广告$s$）$(s') = 0$
 
 $\Leftarrow \Rightarrow s'\in \mathfrak{g}^0(x)$（提案$.4$）
 
-故$x'\in \mathfrak{g}^0(x)\Rightarrow n'\in \mathfrak{g}^0(x)$且(2)得证。 $\mathfrak{g}$的杀戮形式是非简并的，因此它的限制到$\mathfrak{g}^0(\mathfrak{h})$是非简并的（命题10（iii））。事实上，$\mathfrak{g}^0(\mathfrak{h})$ 是 $\mathfrak{g}$ 的约简，因此可以从引理 2 得出。
+故$x'\in \mathfrak{g}^0(x)\Rightarrow n'\in \mathfrak{g}^0(x)$且(2)得证。 $\mathfrak{g}$的杀戮形式是非简并的，因此它的限制到$\mathfrak{g}^0(\mathfrak{h})$是非简并的（命题10（iii））。 $\mathfrak{g}^0(\mathfrak{h})$ 在 $\mathfrak{g}$ 中被还原，因此从引理 2 得出。
 
-### 4. 分解的李代数相对于自同构
+### 4. 李代数相对于自同构的分解
 
 #### 命题 12 {#lie-vii-s1-prop-12 .statement tag=00T3}
 
-令 $\mathfrak{g}$ 为李代数，$a$ 自同构 of $\mathfrak{g}$。
+设$\mathfrak{g}$为李代数，$a$自同构为$\mathfrak{g}$。
 
 (i) $\lambda , \mu\in k,[\mathfrak{g}^{\lambda}(a),\mathfrak{g}^\mu(a)]\subset \mathfrak{g}^{\lambda \mu}(a)$；特别地，$\mathfrak{g}^1(a)$是$\mathfrak{g}$的子代数。
 
-(ii) 如果 B 是 $\mathfrak{g}$ 上的对称双线性形式，则$a,\mathfrak{g}^{\lambda}(a)$ 和$\mathfrak{g}^\mu(a)$ 相对于$\lambda \mu\not= 1$ 的 B 正交。假设 B 是非简并的。那么，如果$\lambda \not= 0$，B到$\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$的限制是非简并的。
+(ii) 如果 B 是 $\mathfrak{g}$ 上的对称双线性形式，则$a,\mathfrak{g}^{\lambda}(a)$ 和 $\mathfrak{g}^\mu(a)$ 相对于$\lambda \mu\not= 1$ 的 B 正交。假设 B 是非简并的。那么，如果$\lambda \not= 0$，B到$\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$的限制是非简并的。
 
 断言 (i) 和 (ii) 的前半部分源自应用于合成律 $\mathfrak{g}\times \mathfrak{g}\rightarrow \mathfrak{g}$ 和双线性形式 B 的命题 2 (iii)。为了证明 (ii) 的后半部分，我们可以假设 $k$ 是代数封闭的。然后$\mathfrak{g}=\bigoplus_{\nu\in k}\mathfrak{g}^{\nu}(a)$。由上可知，如果$\lambda \nu \not= 1$，则$\mathfrak{g}^{\lambda}(a)$与$\mathfrak{g}^{\nu}(a)$正交；由于 B 是非简并的，因此它的限制到 $\mathfrak{g}^{\lambda}(a)\times \mathfrak{g}^{1/\lambda}(a)$ 也是非简并的。
 
-#### 推论{#lie-vii-s1-n4-cor-1 .statement tag=00T4}
+#### 推论 {#lie-vii-s1-n4-cor-1 .statement tag=00T4}
 
-假设$k$是特征零，$\mathfrak{g}$是半单。那么子代数$\mathfrak{g}^1(a)$满足引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
+假设$k$为特征零，$\mathfrak{g}$为半单。那么子代数$\mathfrak{g}^1(a)$满足引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
-条件(1)源自第12条提案的部分(ii)； 条件 (2) 由no. 1 的第 4 条命题得出。
+条件(1)源自第12号提案的部分(ii)； 条件 (2) 由no. 1 的第 4 条命题得出。
 
 ### 5. 半单李代数相对于半单作用的不变量
 
-在这个数中，假设$k$为特征零。
+在这个数中，假设$k$是特征零。
 
 #### 命题 13 {#lie-vii-s1-prop-13 .statement tag=00T5}
 
-令$\mathfrak{g}$为半单李代数，$\mathfrak{g}$中$\mathfrak{g}$的约简$\mathfrak{a}$子代数，$\mathfrak{m}$为$\mathfrak{g}$中$\mathfrak{a}$的交换子。 子代数$\mathfrak{m}$满足no. 3的引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
+设$\mathfrak{g}$为半单李代数，$\mathfrak{g}$中$\mathfrak{g}$的$\mathfrak{a}$子代数还原，$\mathfrak{g}$中$\mathfrak{a}$的$\mathfrak{m}$交换子还原。 子代数$\mathfrak{m}$满足no. 3的引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
-根据第 6 章的提案。 I, §3, no. 5，应用于$\mathfrak{a}$模块$\mathfrak{g}$，我们有$\mathfrak{g}=\mathfrak{m}\oplus [\mathfrak{a},\mathfrak{g}]$。设B为$\mathfrak{g}$的杀戮形式，并设$x\in \mathfrak{a}, y\in \mathfrak{m}, z\in \mathfrak{g}$。然后，
+根据第 6 章的提案。 I, §3, no. 5，应用于$\mathfrak{a}$-模块$\mathfrak{g}$，我们有$\mathfrak{g}=\mathfrak{m}\oplus [\mathfrak{a},\mathfrak{g}]$。设B为$\mathfrak{g}$的杀戮形式，并设$x\in \mathfrak{a}, y\in \mathfrak{m}, z\in \mathfrak{g}$。然后，
 
-$B([z, x], y) = B(z,[x, y]) = 0$ 自$[x, y] = 0$以来，
+$B([z, x], y) = B(z,[x, y]) = 0$ 自 $[x, y] = 0$ 以来，
 
-这表明$\mathfrak{m}$相对于B与$[\mathfrak{a},\mathfrak{g}]$正交。由于B是非简并的，并且从$\mathfrak{g}=\mathfrak{m}\oplus [\mathfrak{a},\mathfrak{g}]$开始，这意味着B到$\mathfrak{m}$的限制是非简并的；由此满足引理2的条件(1)。
+这表明$\mathfrak{m}$相对于B与$[\mathfrak{a},\mathfrak{g}]$正交。由于B是非简并的，并且从$\mathfrak{g}=\mathfrak{m}\oplus [\mathfrak{a},\mathfrak{g}]$开始，这意味着B到$\mathfrak{m}$的限制是非简并的； 条件 (1) of 引理 2 is thus satisfied.
 
-现在令$x\in \mathfrak{m}$、$s$和$n$为其半单和幂零分量。广告$x$的半单组成部分是广告$s$、cf. I, §6, no. 3。由于广告 $x$ 在 $\mathfrak{a}$ 上是零，根据提案 4 (i)，广告 $s$ 也是如此。因此$s\in \mathfrak{m}$，所以$n=x-s\in \mathfrak{m}$，并且满足引理2的条件(2)。
+现在令 $x\in \mathfrak{m}$ 并令 $s$ 和 $n$ 为其半单和幂零分量。广告$x$的半单分量是广告$s$、cf. I, §6, no. 3。由于广告$x$在$\mathfrak{a}$上是零，因此根据提案4（i），广告$s$也是如此。因此$s\in \mathfrak{m}$，所以$n=x-s\in \mathfrak{m}$，以及引理2的条件(2)都满足。
 
-#### 注{#lie-vii-s1-n5-rem-1 .statement tag=00T6}
+#### 注 {#lie-vii-s1-n5-rem-1 .statement tag=00T6}
 
-$\mathfrak{g}$中$\mathfrak{m}$的交换子不一定是约化到$\mathfrak{a}$，cf.Exerc。 4.
+$\mathfrak{g}$中$\mathfrak{m}$的交换子不一定是约化到$\mathfrak{a}$，cf.锻炼。 4.
 
 #### 命题 14 {#lie-vii-s1-prop-14 .statement tag=00T7}
 
-令 $\mathfrak{g}$ 为半单李代数、A 群和 $r$ 同态，从 A 到 Aut($\mathfrak{g}$)。令$\mathfrak{m}$为$\mathfrak{g}$的子代数，元素的由……组成在$r(A)$下不变。假设线性表示$r$为半单。则$\mathfrak{m}$满足no. 3的引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中被还原。
+令 $\mathfrak{g}$ 为半单李代数、A 群和 $r$ 同态，从 A 到 Aut($\mathfrak{g}$)。 令$\mathfrak{m}$为$\mathfrak{g}$由……组成的元素的子代数在$r(A)$下不变。 假设线性表示$r$为半单。 则$\mathfrak{m}$满足no. 3的引理2的条件(1)和(2)；它在 $\mathfrak{g}$ 中是还原的。
 
 证明与前面的命题类似：
 
-令$\mathfrak{g}^+$为由$r(a)x-x,a\in A, x\in \mathfrak{g}$生成的$\mathfrak{g}$的向量子空间。 向量空间$\mathfrak{g}'=\mathfrak{m}+\mathfrak{g}^+$在$r(A)$下稳定。设$\mathfrak{n}$是$\mathfrak{g}'$的补集，在$\mathfrak{g}$稳定在$r(A)$下。如果$x\in \mathfrak{n}, a\in A,r(a)x-x\in \mathfrak{n}\cap \mathfrak{g}^+= 0$，那么$x\in \mathfrak{m}$，然后从$\mathfrak{m}\cap \mathfrak{n}= 0$开始$x= 0$。因此，$\mathfrak{g}=\mathfrak{g}'=\mathfrak{m}+\mathfrak{g}^+$。设 B 为 $\mathfrak{g}$ 的杀戮形式，并令 $y\in \mathfrak{m}, a\in A, x\in \mathfrak{g}$。然后
+令$\mathfrak{g}^+$为由$r(a)x-x,a\in A, x\in \mathfrak{g}$生成的$\mathfrak{g}$的向量子空间。 向量空间$\mathfrak{g}'=\mathfrak{m}+\mathfrak{g}^+$在$r(A)$下稳定。设$\mathfrak{n}$是$r(A)$下稳定的$\mathfrak{g}$中$\mathfrak{g}'$的补集。如果$x\in \mathfrak{n}, a\in A,r(a)x-x\in \mathfrak{n}\cap \mathfrak{g}^+= 0$，那么$x\in \mathfrak{m}$，然后从$\mathfrak{m}\cap \mathfrak{n}= 0$开始$x= 0$。因此，$\mathfrak{g}=\mathfrak{g}'=\mathfrak{m}+\mathfrak{g}^+$。令 B 为 $\mathfrak{g}$ 的杀戮形式，并令$y\in \mathfrak{m}, a\in A, x\in \mathfrak{g}$。然后
 
 $$
 B(y, r(a)x-x) = B(y, r(a)x)-B(y, x)

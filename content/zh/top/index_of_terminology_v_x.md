@@ -12,51 +12,51 @@ pdf_pages: 0357-0369
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a940a6ca111a224b7711885da023a411bdaa2e0671b14a404c505bc14834341b
+content_sha256: 33941f154e551719255c750f027a112778569cd8b6198deca876f69285884412
 translated_from: content/en/top/index_of_terminology_v_x.md
 translation_method: google
 source_content_sha256: 86a498aae18ac8a4a5da52cdbb20b74a66669f68dc3d59d8577227760a8f6921
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 30f902c9a9674cc2b280bdaf6bdf8ee5f0543c48dfaa6f625f5571869c859b06
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标术语
+## 指标 / 术语
 
 参考号数表示章、截面和小节或习题，其中阶。
 
-Abscissa : VI, 1, 4.
-Abscissas, axis of : VI, 1, 4.
-Absolute value : IX, 3, 2.
-Absolute value, improper : IX, 3, 2.
-Absolute value, $p$-adic : IX, 3, 2.
-Absolute values, equivalent : IX, 3, 2.
-Absolute value of a complex number : VIII, 1, 1.
-Absolutely convergent infinite product of complex numbers : VIII, 3, 3.
-Absolutely convergent series (in a normed space) : IX, 3, 6.
-Absolutely convergent series of points in $\mathbf{R}^n$ : VII, 3, 2.
-Absolutely summable family (in a normed space) : IX, 3, 6.
-Acute angular sector : VIII, 2, 5.
-Additive group of $\mathbf{R}^n$ : VI, 1, 2.
-Additive group of real numbers mod $a$ : V, 1, 2.
-Additive uniformity of $\mathbf{R}^n$ : VII, 1, 2.
-Admissible subset : IX, 6, Exercise 12.
-Affine linear varieties, orthogonal : VI, 2, 2.
-Algebra, normed : IX, 3, 7.
-Algebraic norm of a complex number : VIII, 1, 1.
-Algebraic number : VIII, 1, Exercise 2.
-Almost-open mapping : IX, 5, Exercise 24.
-Almost-open set : IX, 5, Exercise 6.
-Almost-periodic function : X, 3, Exercise 28.
-Almost-periodic (point) : X, 3, Exercise 27.
-Amplitude of a complex number : VIII, 2, 2 and VIII, 2, 3.
-Angle, flat : VIII, 2, 2.
-Angle of a pair of rays : VIII, 2, 2 and VIII, 2, 3.
-Angle of an angular sector : VIII, 2, 5.
-Angle, positive right : VIII, 2, 2.
+横坐标：VI、1、4。
+横坐标，轴：VI, 1, 4。
+绝对值：IX、3、2。
+绝对值，不正确：IX, 3, 2。
+绝对值，$p$-adic：IX, 3, 2。
+绝对值，等价：IX, 3, 2。
+复数的绝对值：VIII, 1, 1。
+复数的绝对收敛无穷积：VIII, 3, 3。
+绝对收敛级数（在赋范空间中）：IX, 3, 6。
+$\mathbf{R}^n$ 中绝对收敛的点系列：VII, 3, 2。
+绝对可和族（在规范空间中）：IX, 3, 6。
+锐角扇形：VIII、2、5。
+$\mathbf{R}^n$的加法群：VI, 1, 2。
+实数加法群 mod $a$ : V, 1, 2。
+$\mathbf{R}^n$ 的加性均匀度：VII, 1, 2。
+可接受的子集：IX，6，练习 12。
+仿射线性簇，正交：VI, 2, 2。
+代数，赋范：IX, 3, 7。
+复数的代数范数：VIII, 1, 1。
+代数数：VIII，1，练习 2。
+几乎开映射：IX，5，练习 24。
+几乎开集：IX，5，练习 6。
+准周期函数：X，3，练习 28。
+几乎周期性（点）：X，3，练习 27。
+复数的振幅：VIII, 2, 2 和 VIII, 2, 3。
+平角：VIII, 2, 2。
+一对射线的角度：VIII, 2, 2 和 VIII, 2, 3。
+扇形角：VIII, 2, 5。
+角度，正右：VIII, 2, 2。
 
 扇形角（锐角、直角、钝角、平角、凸角、凹角）：VIII、2、5。
 近似，均匀：X, 4, 1。
@@ -177,7 +177,7 @@ $\varepsilon$-句点（函数）：X、3、习题 28。
 映射必不可少的$P_n$ ：VI、3、习题 2。
 将映射转换为 $S_1$ ：VI、2、习题 6。
 欧氏球（闭合、打开）：VI、2、3。
-欧氏排量：VI、2、2。
+欧氏排量：VI, 2, 2。
 欧氏距离：VI, 2, 1。
 欧氏范数于 $\mathbf{R}^n$ : VI, 2, 1。
 欧氏球体：VI、2、3。
@@ -241,7 +241,7 @@ $\mathbf{R}^n$ 中的片段的长度：VI, 2, 1。
 线，简单断开：VI、1、习题 9。
 直线，复射影：VIII, 4, 3。
 直线，实投影：VI, 3, 1。
-函数的线性组合，系数采用标准化空间 ：X, 4, 4。
+函数的线性组合与系数在规范的空间中：X, 4, 4。
 线性簇，复数（$\mathbf{C}^n$）：VIII, 4, 1。
 线性可达：IX、6、习题11。
 复杂线条（$\mathbf{C}^n$）：VIII, 4, 1。
@@ -252,30 +252,30 @@ $\mathbf{R}^n$ 中的片段的长度：VI, 2, 1。
 
 映射，即将开放：IX、5、习题24。
 映射，波雷尔：IX，6，习题16。
-筛分产生映射：IX、6、5。
+筛分导致映射：IX、6、5。
 映射变为 $P_n$，必要或非必要：VI、3、习题 2。
 映射变为 $S_1$，必要或非必要：VI、2、习题 6。
 映射，等距：IX, 2, 2。
 映射，分段线性：VI、1、习题 6。
 最大完全正则滤波器：X、1、习题 8。
-微薄集合：IX、5、2。
+微薄的集合：IX、5、2。
 角度测量：VIII, 2, 3。
 叉积的测量：VIII、2、6。
 测量主角：VIII, 2, 3。
 措施，主要（叉积）：VIII, 2, 6。
-超紧凑空间：IX、4、习题 25。
+超紧凑空间 ：IX、4、习题 25。
 公制：IX, 2, 1。
 与伪度量关联的度量：IX, 2, 1。
 与拓扑兼容的公制：IX、2、5。
-与统一性兼容的公制：IX、2、4。
+与均匀度兼容的公制：IX、2、4。
 公制，左（右）不变：IX, 3, 1。
 公制空间 : IX, 2, 1。
 可度量拓扑群 : IX, 3, 1。
 可度量拓扑空间 : IX, 2, 5。
-可数型的可度量拓扑空间 : IX, 2, 8。
-可计量制服空间 : IX, 2, 4。
+可数型的可度量拓扑空间：IX, 2, 8。
+可测量的制服空间 : IX, 2, 4。
 可测量的均匀度：IX, 2, 4。
-可乘序列（在标准化代数中）：IX、附录、1。
+可乘序列 （在标准化代数中）：IX、附录、1。
 
 永田-斯米尔诺夫定理：IX、4、习题22。
 负实半轴：VIII, 1, 2。
@@ -296,7 +296,7 @@ $\mathbf{R}^n$ 中的片段的长度：VI, 2, 1。
 维数 $n$ 的数空间，实数：VI, 1, 1。
 
 钝角扇形：VI, 2, 5。
-单参数群 : V, 3.
+一参数群 : V, 3.
 开球：IX, 2, 2.
 对边光线：VI, 1, 4。
 订购划分：IX、附录、习题 2。

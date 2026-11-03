@@ -30,35 +30,35 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 1f32c39c6966218f20539bfef09843b02f6621846f985be4aae945ef297c75aa
+content_sha256: a19edfdf21b469e9dccf7417ad70373a68f43a151ac0badbee9dfe205d36b67a
 translated_from: content/en/alg/VIII/15_s15_brauer_groups.md
 translation_method: google
 source_content_sha256: de0ee49b9fce0132064e5387825b803ddb4c6aeb3c6c606b44846dc5403449fc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 321238357e1521bdda043de86b591160481d313afebf6e1b7722694f3e0d99de
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 15。 布劳尔群
 
 在这个截面中，K是交换域。
 
-### 1. Classes of Algebras
+### 1. 代数类
 
 我们用 Iso$_K(A,B)$ 关系表示
 
 “A 和 B 是 K-代数有限次数同构。”
 
-这是关于 A 和 B 的等价关系。设 A 为有限次数的 K-代数； A 的类，表示为 cl(A)（或有时 cl$_K$(A)），对于关系 Iso$_K($集合理论，II, §6, No. 9、p. 122，对象的类相当于 A。由定义，cl(A)与A K-代数同构；当且仅当有限次数中的两个K-代数同构时，它们才属于同一个类。
+这是关于 A 和 B 的等价关系。设 A 为有限次数的 K-代数； A 的类，表示为 cl(A)（或有时 cl$_K$(A)），对于关系 Iso$_K($集合理论、II, §6, No. 9，对象的类相当于 A， p. 122）。由定义，cl(A)与A K-代数同构； 有限次数中的两个K-代数在同一个类当且仅当它们同构。
 
 我们用对$(W, \mu)$的$\mathscr{A}$集合表示，其中W是$K^{(\mathbf{N})}$的线性子空间，它是K上的有限维，$\mu$是从$W\times W$到W的K双线性映射到W，使W成为（结合且单位的） K-代数。 有限次数的每个 K-代数都同构于这样的代数。按地点。前述，关系
 
 “$\alpha$是有限次数的K-代数中的类”
 
-因此在$\alpha ($集合理论中是集合化，II, §1, No. 4，p. 68）。我们用$\mathscr{C}_K$表示有限次数的K-代数、类的集合。
+因此是$\alpha ($集合理论、II, §1, No. 4、p. 68中的集合化）。我们用$\mathscr{C}_K$表示有限次数的K-代数、类的集合。
 
 #### 命题 1 {#alg-viii-s15-prop-1 .statement tag=00HV}
 
@@ -66,9 +66,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (1) cl(A $\otimes_KB$) $=$ cl(A) cl(B)。
 
-设A、B、C为有限次数的K-代数，分别为类、$\alpha$、$\beta$、$\gamma$。 K-代数 A 和 $\alpha$ 是同构的，B 和 $\beta$ 也是同构的。 因而，K-代数$A\otimes_KB$和$\alpha \otimes_K\beta$是同构的，我们有cl(A$\otimes_KB$)$=$cl($\alpha \otimes_K\beta$)，它给出公式(1)。 It follows that $(\alpha \beta )\gamma$ is the class of the K-algebra $(A\otimes_KB)\otimes_KC$ and $\alpha (\beta \gamma )$ that of the K-algebra $A\otimes_K(B\otimes_KC)$. 现在，这些K-代数是同构的（III, §4, No. 1，p. 461），所以我们有等式$(\alpha \beta )\gamma =\alpha (\beta \gamma )$。 类似地，关系$\alpha \varepsilon =\varepsilon \alpha =\alpha$由K-代数$A\otimes_KK, K\otimes_KA$和A同构得出，关系$\alpha \beta =\beta \alpha$由代数$A\otimes_KB$和$B\otimes_KA$同构得出。
+设A、B、C为有限次数的K-代数，分别为类、$\alpha$、$\beta$、$\gamma$。 K-代数 A 和 $\alpha$ 是同构的，B 和 $\beta$ 也是同构的。 因而，K-代数$A\otimes_KB$和$\alpha \otimes_K\beta$是同构的，我们有cl(A$\otimes_KB$)$=$cl($\alpha \otimes_K\beta$)，它给出公式(1)。 由此可见，$(\alpha \beta )\gamma$是K-代数$(A\otimes_KB)\otimes_KC$的类，$\alpha (\beta \gamma )$是K-代数$A\otimes_K(B\otimes_KC)$的类。 现在，这些K-代数是同构的（III, §4, No. 1，p. 461），所以我们有等式$(\alpha \beta )\gamma =\alpha (\beta \gamma )$。 类似地，关系$\alpha \varepsilon =\varepsilon \alpha =\alpha$由K-代数$A\otimes_KK, K\otimes_KA$和A同构得出，关系$\alpha \beta =\beta \alpha$由代数$A\otimes_KB$和$B\otimes_KA$同构得出。
 
-在集合$\mathscr{C}_K$、关系“$\alpha$和$\beta$是莫里塔等价代数”是等价关系（VIII、p. 100）。 $\mathscr{C}_K$、VIII、p. 111的命题13、d)与合成的律兼容。我们用$\mathscr{M}_K$表示$\mathscr{C}_K$的商幺半群，用这个等价关系和从$\mathscr{C}_K$到$\mathscr{M}_K$的$\varphi$典范同态。对于有限次数的每个 K-代数 A，我们用 $\varphi$ 表示 cl(A) 的 [A] 像。如果 A 和 B 是有限次数的 K-代数，那么我们有 [A] = [B] 当且仅当 K-代数 A 和 B 是 Morita 等价的；此外，我们还有关系
+在集合$\mathscr{C}_K$、关系“$\alpha$和$\beta$是莫里塔等价代数”是等价关系（VIII、p. 100）。 $\mathscr{C}_K$、VIII、p. 111的命题13、d)与合成的律兼容。我们用$\mathscr{C}_K$的$\mathscr{M}_K$商幺半群表示这个等价关系，并用$\varphi$典范同态从$\mathscr{C}_K$到$\mathscr{M}_K$表示。对于有限次数的每个 K-代数 A，我们用 $\varphi$ 表示 cl(A) 的 [A] 像。如果 A 和 B 是有限次数的 K-代数，那么我们有 [A] = [B] 当且仅当 K-代数 A 和 B 是 Morita 等价的；此外，我们还有关系
 
 $$
 [A\otimes_KB] = [A][B] \tag{2}
@@ -82,7 +82,7 @@ $$
 
 通过定义，我们有 [A] = [D] 当且仅当存在可逆 $(A$, D)-双模，即 (VIII, p. 101, 定理 1), 非零有限维的右向量空间 V 在 D 上赋予同构 K-代数$A\rightarrow$结束$_D(V)$。接下来是引理1。
 
-### 2. Definition of the Brauer Group
+### 2. 布劳尔群的定义
 
 我们用形式[A]的$\mathscr{M}_K$的元素的Br(K)集合表示，其中A是K上有限次数的中心单代数。
 
@@ -128,7 +128,7 @@ $k$线性双射$\varphi$与引理中所述的性质的存在源自张量积与�
 
 假设 (ii) 成立。由于 $B^o\otimes_KB$ 与矩阵代数 $\mathbf{M}_s(K)$ 与 $s\geqslant 1$ (VIII, p. 252, 定理 1) 同构，代数 $A\otimes_KB^o\otimes_KB$ 同构于 $A\otimes_K\mathbf{M}_s$(K)，一方面，另一方面，到 $\mathbf{M}_t(K)\otimes_KB$。所以性质(ii)意味着性质(iii)。
 
-假设 (iii) 成立。根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，K 上存在整数 $m\geqslant 1$ 和 $n\geqslant 1$ 和域 D 和 $D'$ 有限次数中心 K 使得 A 与 $\mathbf{M}_m(D)$ 同构，B 与 $\mathbf{M}_n(D')$ 同构。那么代数$A\otimes_K\mathbf{M}_r(K)$同构于$\mathbf{M}_{mr}$(D)，代数$B\otimes_K\mathbf{M}_{r'}(K)$同构于$\mathbf{M}_{nr'}(D')$(引理2)。由推论2 VIII、p. 121、K-代数 D 和$D'$ 同构。因此 (iii) 意味着 (iv)。
+假设 (iii) 成立。根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，K 上存在整数 $m\geqslant 1$ 和 $n\geqslant 1$ 和域 D 和 $D'$ 有限次数中心 K 使得 A 与 $\mathbf{M}_m(D)$ 同构，B 与 $\mathbf{M}_n(D')$ 同构。那么代数$A\otimes_K\mathbf{M}_r(K)$同构于$\mathbf{M}_{mr}$(D)，代数$B\otimes_K\mathbf{M}_{r'}(K)$同构于$\mathbf{M}_{nr'}(D')$(引理2)。由VIII、p. 121、K-代数 D 和$D'$ 中的推论 2 个同构。因此 (iii) 意味着 (iv)。
 
 假设 (iv) 成立。 代数 A 和 D 是森田等效的，代数 B 和 D (VIII、p. 114、例 2) 也是如此。因此，A和B是森田等价的，因此(iv)蕴涵(v)。
 
@@ -136,7 +136,7 @@ $k$线性双射$\varphi$与引理中所述的性质的存在源自张量积与�
 
 当命题的等价性质成立时，我们说代数A和B相似。
 
-#### 推论{#alg-viii-s15-n2-cor-1 .statement tag=00I1}
+#### 推论 {#alg-viii-s15-n2-cor-1 .statement tag=00I1}
 
 设A和B是K上有限次数的中心单代数。那么A和B是同构的当且仅当它们相似并且具有相同的次数。
 
@@ -148,7 +148,7 @@ $k$线性双射$\varphi$与引理中所述的性质的存在源自张量积与�
 
 这是从 VIII、p. 278 和 Wedderburn 的定理（VIII、p. 120、定理 1）中的引理 1 得出的。
 
-### 3. Change of Base Field
+### 3. 基域变换
 
 令L为域K中的扩张。令A和B为有限次数中的K-代数；那么L-代数$A_{(L)}$和$B_{(L)}$都是有限次数。 L-代数$A_{(L)}\otimes_LB_{(L)}$和$(A\otimes_KB)_{(L)}$是同构的（III, §4, No. 1、p. 462、命题 3）。 L-代数$K_{(L)}$同构于L。因而，从 $\mathscr{C}_K$ 到 $\mathscr{C}_L$ 存在一个唯一的幺半群同态 $\rho_{L/K}$，使得
 
@@ -194,17 +194,17 @@ $$
 
 我们认同 A 与子环 $A_{(L)}$。我们将V视为K-向量空间。 环 C 是 End$_K(V)$ 中 $\varphi (A)$ 的交换子。 有限次数为中心单K-代数，从$A\otimes_KC$到End$_K(V)$的同态$a\otimes c\mapsto ac$为同构(VIII、p. 260、定理6、a))。因而，K-代数 A 和$C^o$ 相似（VIII、p. 279、命题 3）。
 
-令$L_V$为L-向量空间V的同伦的环；它是 End$_L(V)$ 与 End$_K(V)$ 的交换子（VIII，p. 82，推论 1）。现在，K-代数End$_L(V)$是由$\varphi (A)$和$L_V$生成的；因而，在 End$_K$(V) 中，我们有
+令$L_V$为L-向量空间V的同伦的环；它是End$_K(V)$中End$_L(V)$的交换子（VIII，p. 82，推论1）。现在，K-代数End$_L(V)$是由$\varphi (A)$和$L_V$生成的；因而，在 End$_K$(V) 中，我们有
 
 $L_V=$结束$_L(V)'=\varphi (A)'\cap L'_V= C\cap L'_V$,
 
-其中，对于 End$_K$(V) 中的任意子集 B，End$_K(V)$ 中 B 的交换子用 $B'$ 表示。所以$L_V$是C（VIII，p. 261，引理3）的最大交换子代数，因此也是$C^o$。从L到$L_V$，映射$\lambda \mapsto \lambda_V$是K-代数同构。这就证明了引理。
+其中，对于 End$_K$(V) 中的任意子集 B，End$_K(V)$ 中 B 的交换子表示为 $B'$。所以$L_V$是C（VIII，p. 261，引理3）的最大交换子代数，因此也是$C^o$。从L到$L_V$，映射$\lambda \mapsto \lambda_V$是K-代数同构。这就证明了引理。
 
 #### 推论 1 {#alg-viii-s15-lem-3-cor-1 .statement tag=00I5}
 
 设A为有限次数的中心单K-代数，并令L为有限次数的K的扩张。假设$[A : K] = [L : K]^2$。那么对于 A，L 是分裂域当且仅当包含子代数同构于 L。
 
-假设从L到A存在态射$\varphi$，设M为最大半单交换子代数包含$\varphi (L)$。通过 VIII、p. 262 的命题 3，我们得到 $[A : K] = [M : K]^2$，因而 [M : K] = [L : K] 和 $M =\varphi (L)$。由命题 5，域 L 分裂的 A。反之，假设域 L 分裂的 A；那么它与类似于 A (命题 5) 的中心单K-代数 B 的最大交换子代数同构。我们有 $[B : K] = [L : K]^2$ (VIII, p. 262, 命题 3)，因而 [B : K] = [A : K]。因而，B 与 A 同构的（VIII，p. 280，推论）。推论 1 如下。
+假设从L到A存在态射$\varphi$，设M为最大半单交换子代数包含$\varphi (L)$。通过 VIII、p. 262 的命题 3，我们得到 $[A : K] = [M : K]^2$，因而 [M : K] = [L : K] 和 $M =\varphi (L)$。由命题 5，域 L 分裂的 A。反之，假设域 L 分裂的 A；那么它与类似于 A (命题 5) 的中心单K-代数 B 的最大交换子代数同构。我们有 $[B : K] = [L : K]^2$ (VIII, p. 262, 命题 3)，因而 [B : K] = [A : K]。因而，B 与 A 同构的（VIII，p. 280，推论）。接下来是推论1。
 
 #### 推论 2 {#alg-viii-s15-lem-3-cor-2 .statement tag=00I6}
 
@@ -216,7 +216,7 @@ $L_V=$结束$_L(V)'=\varphi (A)'\cap L'_V= C\cap L'_V$,
 
 在以下三种情况下，布劳尔群 Br(K) 会减少为单位元素：
 
-a) K 是可分离闭的（VIII，p. 253，推论 1）。
+a) K 是可分离闭的 (VIII, p. 253, 推论 1)。
 
 $*$b) K 为有限域 (VIII, p. 357, 推论 2)。
 

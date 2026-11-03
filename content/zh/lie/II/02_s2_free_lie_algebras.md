@@ -57,33 +57,33 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 16
-content_sha256: 82406e579a6abebcd2551a50aedc9a0f46c1863bde37e51df53239e8d8ef7b43
+content_sha256: add1e2f44b7e002abd3050e3e012a82354b601d51f0b2684c13211aafcfb3181
 translated_from: content/en/lie/II/02_s2_free_lie_algebras.md
 translation_method: google
 source_content_sha256: ad0797e551cb1458568c1bb8b924dc5cc8828593371854e1c541a2937d5882cd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 319b50b81b817360e2324c8859bdf7301258eafc1bc21f8bc1e88c7c0f07e4ec
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。免费李代数
 
-### 1. 免费代数的修订
+### 1. 免费修改代数
 
 设X为集合。回想一下在X（代数，章I, § 7, no. 1）上构造的自由岩浆M（X）的构造。在整数$n \geqslant 1$的归纳，我们定义集合$X_n$通过写$X_1 = X$并取$X_n$为和集合集合 $X_p \times X_{n-p}$，其中$p = 1, 2, \ldots, n-1$；如果 X 是有限的，那么每个 $X_n$ 也是有限的。 $(X_n)_{n \geqslant 1}$族的和集合用M(X)表示；每个集合$X_n$（特别是X）都用M(X)的子集来标识。令w和$w'$在M(X)中；令p和q表示整数，使得$w \in X_p$和$w' \in X_q$，并让$n = p + q$； $X_p \times X_{n-p}$的典范嵌入下的有序对$(w, w')$到$X_n$的像记为$w.w'$，称为w和$w'$的乘积。 X的每个映射进入岩浆M都可以以独特的方式扩展到M（X）的岩浆同态进入M。
 
 设w在M(X)中；唯一的整数 n，使得$w \in X_n$称为w的长度，并用$l(w)$表示。然后$l(w.w') = l(w) + l(w')$代表w，$w'$代表M(X)。 集合 X 是 M(X) 子集长度元素由……组成 1. 长度 $\geqslant 2$ 的每个元素 w 可以唯一地写成形式$w = w'.w''$。
 
-系数在环 K 的岩浆 M(X) 的代数用 Lib(X) 表示，当需要表示环 K 时则用 Lib_K(X) 表示。 集合 M(X) 为因此，K-模 Lib(X) 的基和X 将被识别为 Lib(X) 的子集。如果A是代数，X的每个映射到A中都可以唯一扩展到Lib(X)的同态到A中(代数，章III, § 2, no. 7，命题7)。
+环 K 中具有系数的岩浆 M(X) 的代数用 Lib(X) 表示，当需要表示环 K 时，用 Lib_K(X) 表示。 集合 M(X) 是K-模 Lib(X) 的基，因此X 将被识别为Lib(X) 的子集。如果A是代数，X的每个映射到A中都可以唯一扩展到Lib(X)的同态到A中(代数，章III, § 2, no. 7，命题7)。
 
 ### 2. 免费的构造李代数
 
 #### 定义 1 {#lie-ii-s2-def-1 .statement tag=0A2Q}
 
-*免费李代数除以集合X是商代数*
+*李代数超过集合X免费为商代数*
 $$
 L(X) = \mathrm{Lib}(X)/a,
 $$
@@ -106,7 +106,7 @@ $\mathrm{Lib}(X)$ 中的 $a, b, c$。
 
 *令$\psi$为Lib(X)的典范映射到$L(X)$以及$\psi$到X的$\phi$限制。对于X到李代数$g$的每一个映射 f，存在且仅有一个同态 F：$L(X) \to g$使得$f = F \circ \phi$。*
 
-(a) *F* 的存在性：令 h 为 Lib(X) 的同态延伸至 $g$ 延伸 f (no. 1)。对于 Lib(X) 中的所有$a$，$h(Q(a)) = h(a.a) = [h(a), h(a)] = 0$；类似地，$g$满足的雅可比恒等式意味着$h(J(a, b, c)) = 0$对应于Lib(X)中的$a, b, c$。由此可见，$h(a) = 0$，从而，$L(X)$有同态 F进入$g$，使得$h = F \circ \psi$。通过限制X，我们得到$f = F \circ \phi$。
+(a) *F*的存在性：令h为Lib(X)的同态延伸到$g$延伸f(no. 1)。对于 Lib(X) 中的所有$a$，$h(Q(a)) = h(a.a) = [h(a), h(a)] = 0$；类似地，$g$满足的雅可比恒等式意味着$h(J(a, b, c)) = 0$对应于Lib(X)中的$a, b, c$。由此可见，$h(a) = 0$，从而，$L(X)$有同态 F进入$g$，使得$h = F \circ \psi$。通过限制X，我们得到$f = F \circ \phi$。
 
 (b) F*的*唯一性：令$F': L(X) \to g$为同态，使得$f = F' \circ \phi$。 Lib(X) 的同态 $F \circ \psi$ 和 $F' \circ \psi$ 转换为 X 上的 $g$ 重合，因此相等；因为 $\psi$ 是满射，$F = F'$。
 
@@ -120,35 +120,35 @@ $$
 \lambda_1 \cdot \phi(x_1) + \cdots + \lambda_n \cdot \phi(x_n) = 0.
 $$
 
-令 $g$ 为可交换的李代数，其中 K 作为底层模。对于$i = 1, 2, \ldots, n$，$L(X)$存在同态$F_i$到$g$，使得$F_i(\phi(x_i)) = 1$和$F_i(\phi(x)) = 0$对于$x \neq x_i$（命题1）； 应用$F_i$到关系（3），我们得到$\lambda_i = 0$。
+令 $g$ 为可交换的李代数，其中 K 作为底层模。对于$i = 1, 2, \ldots, n$，$g$中存在$L(X)$的同态$F_i$，使得对于$x \neq x_i$有$F_i(\phi(x_i)) = 1$和$F_i(\phi(x)) = 0$（命题1）； 应用$F_i$到关系（3），我们得到$\lambda_i = 0$。
 
 #### 推论 2 {#lie-ii-s2-prop-1-cor-2 .statement tag=0A2T}
 
 *令$a$为李代数。 $L(X)$ 到 $a$ 的每一个扩张都是无关紧要的。*
 
-令$a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$为扩张（章I, § 1, no. 7）。由于$\mu$是满射，因此存在X到$g$的映射 f，使得$\phi = \mu \circ f$。令 F 为 $L(X)$ 到 $g$ 的同态，使得 $f = F \circ \phi$ (命题 1)。那么$(\mu \circ F) \circ \phi = \mu \circ f = \phi$和命题1表明$\mu \circ F$是$L(X)$的恒等式自同构。因此，给定的扩张是无关紧要的（章 I, § 1, no. 7、命题 6 和定义 6）。
+令$a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$为扩张（章I, § 1, no. 7）。由于$\mu$是满射，因此X存在映射 f进入$g$，使得$\phi = \mu \circ f$。令 F 为 $L(X)$ 的同态到 $g$，使得 $f = F \circ \phi$ (命题 1)。那么$(\mu \circ F) \circ \phi = \mu \circ f = \phi$和命题1表明$\mu \circ F$是$L(X)$的恒等式自同构。因此，给定的扩张是无关紧要的（章 I, § 1, no. 7、命题 6 和定义 6）。
 
-由于环 K 不为零，推论 1 到命题 1 表明 $\phi$ 是单射的。 *因此集合X可以通过$\phi$与$L(X)$中的像来识别*；按照此约定，X 生成 $L(X)$ 以及 X 的每一个映射进入李代数 $g$ *可以扩展*至 $L(X)$ 的李代数同态进入$g$。
+由于环 K 不为零，推论 1 到命题 1 表明 $\phi$ 是单射的。 *因此集合X可以通过$\phi$与$L(X)$中的像进行识别*；按照此约定，X 生成 $L(X)$ 以及 X 的每一个映射进入李代数 $g$ *可以扩展*至$L(X)$ 的李代数同态进入$g$。
 
 #### 注 {#lie-ii-s2-n2-rem-1 .statement tag=0A2U}
 
 当X为空时，$M(X)$为空，因此$L(X) = \{0\}$。如果X由单个元素$x$组成，$L(X)$的子模$K.x$是子代数的谎言
 
-L(X);如X生成L(X)，推论1到命题1表明L(X)是自由模与基{x}。
+L(X);如 X 生成 L(X), 推论 1 到命题 1 表明 L(X) 是自由模与基 {x}。
 
 ### 3. 李代数的介绍
 
-令g为李代数和$a = (a_i)_{i \in I}$g的元素族。令$f_a$为L(I)中的同态转化为g映射，每个$i \in I$至$a_i$。 $f_a$的像是$a$生成的g的子代数； 元素、核、$f_a$被称为$a$家庭的*亲戚*。如果 $f_a$ 是满射（或单射、双射的），则族 $a$ 称为生成的（或自由、基本）。
+令g为李代数和$a = (a_i)_{i \in I}$g的元素族。令$f_a$为L(I)的同态转化为g映射，每个$i \in I$到$a_i$。 $f_a$的像是$a$生成的g的子代数； $f_a$的核中的元素被称为$a$家庭的*亲戚*。如果 $f_a$ 是满射（或单射、双射的），则族 $a$ 称为生成的（或自由、基本）。
 
 设g为李代数。 g的*表示*是生成的家庭$a = (a_i)_{i \in I}$的有序对$(a, r)$由……组成和$a$生成的关系者的家庭$r = (r_j)_{j \in J}$L(I)核的理想$f_a$。我们还说 g 由关系者 $r_j$ ($j \in J$) 相关的家族 $a$ 呈现。
 
-设I为集合，$r = (r_j)_{j \in J}$为自由李代数L(I)中的元素家庭；设$a_r$为$r$生成的L(I)的理想。商代数$L(I, r) = L(I)/a_r$称为李代数，由I和关系族$(r_j)_{j \in J}$定义；我们还说 $L(I, r)$ 由表示 (I, r) 定义，或者也由 $(I; (r_j = 0)_{j \in J})$ 定义。当家里$r$空的时候，$L(I, r) = L(I)$。
+设I为集合，$r = (r_j)_{j \in J}$为自由李代数L(I)中的元素家庭；设$a_r$为$r$生成的L(I)的理想。 商代数 $L(I, r) = L(I)/a_r$ 被称为李代数，由 I 和关系族 $(r_j)_{j \in J}$ 定义；我们还说 $L(I, r)$ 由表示 (I, r) 定义，或者也由 $(I; (r_j = 0)_{j \in J})$ 定义。当家里$r$空的时候，$L(I, r) = L(I)$。
 
 令I和$r$如上；让$\xi_i$表示$L(I, r)$中$i$的像。 生成的家庭$\xi = (\xi_i)_{i \in I}$和关系者家庭$r$构成了$L(I, r)$的呈现。相反，如果 g 是李代数和 $(a, r)$，其中 $a = (a_i)_{i \in I}$ 是 g 的表示，则存在唯一的同构 $u : L(I, r) \to g$，使得对于所有 $i \in I$ 都有 $u(\xi_i) = a_i$。
 
 ### 4. 李多项式和代换
 
-设I为集合。令$T_i$表示L(I)中I的元素i的典范像（也用$L((T_i)_{i \in I})$表示有时）； L(I) 的元素被称为不定式$(T_i)_{i \in I}$ 中的*李多项式*。
+令 I 为集合。令$T_i$表示L(I)中I的元素i的典范像（也用$L((T_i)_{i \in I})$表示有时）； L(I) 的元素称为不定式$(T_i)_{i \in I}$ 中的*李多项式*。
 
 令 g 为李代数。如果$t = (t_i)_{i \in I}$是g的元素族，则令$f_t$表示将L(I)的同态代入g，使得$f_t(T_i) = t_i$对于$i \in I$(no. 2，命题1)。 L(I)的元素P的$f_t$下的像用$P((t_i)_{i \in I})$表示。特别是$P((T_i)_{i \in I}) = P$；上述元素$P((t_i)_{i \in I})$是用$t_i$代入李多项式$P((T_i)_{i \in I})$中的$T_i$得到的有时称为g的元素。
 
@@ -166,7 +166,7 @@ $\sigma \circ f_t$ 映射 $T_i$ 至 $\sigma(t_i)$ $i \in I$。
 $$
 R((t_i)_{i \in I}) = P((Q_j((t_i)_{i \in I}))_{j \in J})
 $$
-对于元素李代数 g 的每个家庭 $t = (t_i)_{i \in I}$，如通过对等式 $R = P((Q_j)_{j \in J})$ 操作同态 $f_t$ 并使用 (4) 可以看出。
+对于元素李代数 g 的每个家庭 $t = (t_i)_{i \in I}$，通过对等式 $R = P((Q_j)_{j \in J})$ 进行同态 $f_t$ 运算并使用 (4) 可以看出。
 
 令 g 为李代数、I、有限集合和 $P \in L(I)$。假设 g 为自由K-模。 映射
 $$
@@ -178,7 +178,7 @@ $$
 $$
 $g^I$ 的多项式映射代入 g 的集合 F' 通过括号的双线性是 F 的李子代数。然后，我们的断言可以从以下事实得出：对于所有i，映射$P \mapsto \tilde{P}$是李代数同态和$\tilde{T}_i = \mathrm{pr}_i \in F'$。
 
-### 5. 功能特性
+### 5. 函数性质
 
 #### 命题 2 {#lie-ii-s2-prop-2 .statement tag=0A2V}
 
@@ -186,11 +186,11 @@ $g^I$ 的多项式映射代入 g 的集合 F' 通过括号的双线性是 F 的�
 
 $L(u)$的存在性和唯一性是从no. 2的命题1得出的。 同态 $L(v \circ u)$ 和 $L(v) \circ L(u)$ 具有相同的限制至 X，因此相等 (命题 1)。
 
-#### 推论{#lie-ii-s2-n5-cor-1 .statement tag=0A2W}
+#### 推论 {#lie-ii-s2-n5-cor-1 .statement tag=0A2W}
 
 如果 u 是单射（分别是满射、双射的），则 $L(u)$ 也是。
 
-由于断言对于$X = \varnothing$来说是微不足道的，我们假设$X \neq \varnothing$。如果 u 是单射的，则存在 Y 的映射 v 进入 X，使得 $v \circ u$ 是 X 的恒等映射；通过命题 2，$L(v) \circ L(u)$ 是自同构与 $L(X)$ 的恒等式，因此 $L(u)$ 是单射的。当u是满射时，在X中存在Y的映射w，使得$u \circ w$是Y的恒等映射；那么$L(u) \circ L(w)$是$L(Y)$的恒等映射，这就证明了$L(u)$是满射。
+由于断言对于$X = \varnothing$来说是微不足道的，我们假设$X \neq \varnothing$。如果 u 是单射的，则存在 Y 的映射 v 进入 X，使得 $v \circ u$ 是 X 的恒等映射；通过命题 2，$L(v) \circ L(u)$ 是自同构与 $L(X)$ 的恒等式，因此 $L(u)$ 是单射的。当u是满射时，X中存在Y的映射w，使得$u \circ w$是Y的恒等映射；那么$L(u) \circ L(w)$是$L(Y)$的恒等映射，这就证明$L(u)$是满射。
 
 † 回忆自由模 M 的多项式映射的 (代数, 章 IV, § 5, no. 10) 定义到模 N：如果 q 为整数 $\geq 0$, 映射如果存在 $M^q$ 的多重线性映射 u 到 N 中，$f : M \to N$ 被称为 *次数* q 的齐次多项式，使得
 $$
@@ -198,9 +198,9 @@ f(x) = u(x, \ldots, x) \quad \text{for all } x \in M.
 $$
 M 到 N 的映射被称为*多项式*，如果它是合适次数的齐次多项式映射的有限和。
 
-令 X 为集合，且 S 子集为 X。上述推论表明，S 的典范嵌入到 X 可以扩展到 $L(S)$ 的同构 $\alpha$ 到 S 生成的 $L(X)$ 的谎言子代数 $L'(S)$ 上； *我们将认同* $L(S)$ *和* $L'(S)$ *通过* $\alpha$。
+令 X 为集合，且 S 子集为 X。上述推论表明，S的典范嵌入到X可以扩展到$L(S)$的同构$\alpha$到S生成的$L(X)$的谎言子代数$L'(S)$上； *我们将认同* $L(S)$ *和* $L'(S)$ *通过* $\alpha$。
 
-令$(S_\alpha)_{\alpha \in I}$是X的子集与并 S的*右有向族*。关系$S_\alpha \subset S_\beta$蕴涵$L(S_\alpha) \subset L(S_\beta)$，因此$L(X)$的李子代数$L(S_\alpha)$族是正确的方向。因此$g = \bigcup_{\alpha \in I} L(S_\alpha)$是$L(X)$的谎言子代数；然后 $S \subset g$、从而 $L(S) \subset g$，以及对于所有 $\alpha \in I$、$g \subset L(S)$ 为 $L(S_\alpha) \subset L(S)$。因此
+令$(S_\alpha)_{\alpha \in I}$是X的子集与并 S的*右有向族*。关系$S_\alpha \subset S_\beta$蕴含$L(S_\alpha) \subset L(S_\beta)$，因此$L(X)$的李子代数$L(S_\alpha)$族是正确的方向。因此$g = \bigcup_{\alpha \in I} L(S_\alpha)$是$L(X)$的谎言子代数；然后 $S \subset g$、从而 $L(S) \subset g$，以及对于所有 $\alpha \in I$、$g \subset L(S)$ 为 $L(S_\alpha) \subset L(S)$。因此
 
 $$
 L\left( \bigcup_{\alpha \in I} S_\alpha \right) = \bigcup_{\alpha \in I} L(S_\alpha)
@@ -212,7 +212,7 @@ $$
 
 #### 命题 3 {#lie-ii-s2-prop-3 .statement tag=0A2X}
 
-*令$K'$为非零交换环和$u : K \to K'$环同态。对于每一个集合 X 都存在且仅有一个李 $K'$-代数同态*
+*令$K'$为非零交换环和$u : K \to K'$环同态。对于每一个集合X，存在且仅有一个李$K'$-代数同态*
 
 $$
 v : L_K(X) \otimes K' \to L_{K'}(X)
@@ -251,9 +251,9 @@ $$
 $$
 (11)\quad Q(\lambda_1.w_1 + \cdots + \lambda_n.w_n) = \sum_i \lambda_i^2 Q(w_i) + \sum_{i < j} \lambda_i \lambda_j B(w_i, w_j)
 $$
-对于$M(X)$中的$w_1, \ldots, w_n$和$K$中的$\lambda_1, \ldots, \lambda_n$，显示族$(Q(a))_{a \in \mathrm{Lib}(X)}$和$(Q(w), B(w, w'))_{w, w' \in M(X)}$生成与$\mathrm{Lib}(X)$的子模相同。由于 J 是三线性的，理想的 $a$ 由齐次元素 $Q(w), B(w, w')$ 和 $J(w, w', w'')$ 生成，其中 $w, w', w''$ 在 $M(X)$ 中，因此被分级（代数、章 III, § 3, no. 3、命题） 1）。
+对于$M(X)$中的$w_1, \ldots, w_n$和$K$中的$\lambda_1, \ldots, \lambda_n$，显示族$(Q(a))_{a \in \mathrm{Lib}(X)}$和$(Q(w), B(w, w'))_{w, w' \in M(X)}$生成与$\mathrm{Lib}(X)$的子模相同。由于 J 是三线性的，理想的 $a$ 由齐次元素 $Q(w), B(w, w')$ 和 $J(w, w', w'')$ 生成，其中 $w, w', w''$ 在 $M(X)$ 中，因此被分级（代数、章 III, § 3, no. 3、命题） 1).
 
-让李代数 $L(X) = \mathrm{Lib}(X)/a$ 得到商分级。 次数 $\delta$ 的$L(X)$的齐次分量用$L^\delta(X)$表示；它是由元素$w \in M(X)$的像生成$L(X)$的子模，使得$\phi(w) = \delta$。
+让李代数$L(X) = \mathrm{Lib}(X)/a$获得商毕业。 次数$\delta$的齐次$L(X)$齐次分量记为$L^\delta(X)$；它是由元素$w \in M(X)$的像生成$L(X)$的子模，使得$\phi(w) = \delta$。
 
 我们将特别利用以下两种情况：
 (a) *总毕业*：我们对所有$x \in X$取$\Delta = \mathbf{N}$和$\phi_0(x) = 1$，右$M(X)$中的$w$取从而$\phi(w) = l(w)$。 K-模$L^n(X)$是由$M(X)$中长度$n$的元素的像生成，我们将其称为次数n的*替代品*。稍后我们将看到模 $L^n(X)$ 是自由的，并且承认次数 $n$ (no. 11, 定理 1) 的交替项基由……组成。那么$L(X) = \bigoplus_{n \geq 1} L^n(X)$和$L^1(X)$承认$X$为基（no. 2，推论1到命题1）。截至 $M(X)$ 构造，
@@ -265,7 +265,7 @@ $$
 (13)\quad [L^m(X), L^n(X)] \subset L^{m+n}(X).
 $$
 
-(b) *多级化*：我们将$\Delta$视为在$X$上构造的自由交换幺半群$\mathbf{N}^{(X)}$。 $X$到$\Delta$的映射$\phi_0$由$(\phi_0(x))(x') = \delta_{xx'}$定义，其中$\delta_{xx'}$是克罗内克符号。对于 $w \in M(X)$ 和 $x \in X$，整数 $(\phi(w))(x)$ 是“字母 $x$ 在 $w$ 中出现的第数”。对于$\mathbf{N}^{(X)}$中的$\alpha$，我们为$M(X)$中的所有$w$写为$|\alpha| = \sum_{x \in X} \alpha(x)$，从而$|\phi(w)| = l(w)$。由此可见
+(b) *多级化*：我们将$\Delta$视为在$X$上构造的自由交换幺半群$\mathbf{N}^{(X)}$。 $X$到$\Delta$的映射$\phi_0$由$(\phi_0(x))(x') = \delta_{xx'}$定义，其中$\delta_{xx'}$是克罗内克符号。对于 $w \in M(X)$ 和 $x \in X$，整数 $(\phi(w))(x)$ 是“字母 $x$ 在 $w$ 中出现的第数”。对于$\mathbf{N}^{(X)}$中的$\alpha$，我们为$M(X)$中的所有$w$写出$|\alpha| = \sum_{x \in X} \alpha(x)$、从而$|\phi(w)| = l(w)$。由此可见
 $$
 (14)\quad L^n(X) = \bigoplus_{|\alpha|=n} L^\alpha(X);
 $$
@@ -276,13 +276,13 @@ $$
 
 #### 命题 4 {#lie-ii-s2-prop-4 .statement tag=0A30}
 
-令 S 为 X 的子集。如果$\mathbf{N}^{(S)}$与$\mathbf{N}^{(X)}$中的典范像进行识别（代数，章I, § 7, no. 7），则$L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$。此外，对于所有$\alpha \in \mathbf{N}^{(S)}$，$L(S)$上的多级化下次数$\alpha$的齐次分量等于$L^\alpha(X)$。
+令 S 为 X 的子集。如果$\mathbf{N}^{(S)}$与$\mathbf{N}^{(X)}$中的典范像进行识别（代数，章I, § 7, no. 7），则$L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$。此外，对于所有$\alpha \in \mathbf{N}^{(S)}$，次数$\alpha$在$L(S)$上的多级化下的齐次分量等于$L^\alpha(X)$。
 
-让$\alpha \in \mathbf{N}^{(S)}$。 模 $L^\alpha(S)$ 由 $M(S)$ 中的元素 $w$ 中的 $L(X)$ 中的像生成，使得 $\phi(w) = \alpha$，即 (代数, § 7, no. 9, 公式 (23) 和(24)) $M(X)$ 中$w$的集合使得$\phi(w) = \alpha$。因此$L^\alpha(S) = L^\alpha(X)$。
+让$\alpha \in \mathbf{N}^{(S)}$。 模 $L^\alpha(S)$ 由 $M(S)$ 中的元素 $w$ 中的 $L(X)$ 中的像生成，使得 $\phi(w) = \alpha$，即 (代数, § 7, no. 9, 公式 (23) (24)) $w$的集合在$M(X)$中，使得$\phi(w) = \alpha$。因此$L^\alpha(S) = L^\alpha(X)$。
 
 由此得出命题和关系$L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S)$。
 
-#### 推论{#lie-ii-s2-n6-cor-1 .statement tag=0A31}
+#### 推论 {#lie-ii-s2-n6-cor-1 .statement tag=0A31}
 
 对于$(S_i)_{i \in I}$子集X的每个家庭，
 $$
@@ -294,7 +294,7 @@ $$
 $$
 我们写了$S = \bigcap_{i \in I} S_i$。
 
-### 7. 中下城级数
+### 7. 中下部级数
 
 #### 命题 5 {#lie-ii-s2-prop-5 .statement tag=0A32}
 
@@ -332,11 +332,11 @@ $$
 
 #### 命题 7 {#lie-ii-s2-prop-7 .statement tag=0A34}
 
-Let $X$ be a set and $n$ an integer $\geq 1$.
-(a) $L^{n+1}(X) = [L^1(X), L^n(X)]$.
-(b) *The module* $L^n(X)$ *is generated by the elements* $[x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]]$
-*where* $(x_1, \ldots, x_n)$ *runs through the set of sequences of* $n$ *elements of* $X$.
-(c) *The lower central series of* $L(X)$ *is given by* $\mathscr{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$.
+令$X$为集合，$n$为整数$\geq 1$。
+（一）$L^{n+1}(X) = [L^1(X), L^n(X)]$。
+(b) *模块* $L^n(X)$ *由元素* $[x_1, [x_2, \ldots, [x_{n-1}, x_n] \ldots]]$生成
+*其中*$(x_1, \ldots, x_n)$*遍历*$n$*$X$的元素的序列集。
+(c) ** $L(X)$ *的下中央系列 *由* $\mathscr{C}^n(L(X)) = \sum_{p \geq n} L^p(X)$ 给出。
 
 (a) 我们应用命题 5 与 $g = L(X)$ 和 $P = L^1(X)$。通过$n$上的归纳，我们从(12)(no. 6)和(19)等式$P_n = L^n(X)$推出。那么所需的关系就等于定义 $[P, P_n] = P_{n+1}$。
 (b) 这是从 (a) 到 $n$ 的归纳得出的。
@@ -346,12 +346,12 @@ L^{p+1}(X) = [L^1(X), L^p(X)] \subset \mathscr{C}^n g
 $$
 由(a)。因此$L^p(X) \subset \mathscr{C}^n g$代表$p \geq n$，从而$g_n \subset \mathscr{C}^n g$。
 
-#### 推论{#lie-ii-s2-n7-cor-1 .statement tag=0A35}
+#### 推论 {#lie-ii-s2-n7-cor-1 .statement tag=0A35}
 
-设$g$为李代数，$(x_i)_{i \in I}$生成的为$g$的族。 $g$的下中央级数的第$n$第项$\mathscr{C}^n g$是模，由$p \geq n$的迭代括号$[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$和$I$中的$i_1, \ldots, i_p$生成。
+设$g$为李代数，$(x_i)_{i \in I}$生成的为$g$的族。 $g$的下中央级数的第$n$第项$\mathscr{C}^n g$是由$p \geq n$的迭代括号$[x_{i_1}, [x_{i_2}, \ldots, [x_{i_{p-1}}, x_{i_p}] \ldots]]$和$I$中的$i_1, \ldots, i_p$生成的模。
 让$f$是$L(I)$到$g$的同态，这样$f(i) = x_i$对于所有$i \in I$。作为$(x_i)_{i \in I}$生成$g$、$g = f(L(I))$、从而$\mathscr{C}^n g = f(\mathscr{C}^n(L(I)))$乘以章I, § 1, no. 5的命题4。然后从命题 7 的断言 (b) 和 (c) 得出推论。
 
-### 8. 推导免费李代数
+### 8. 免费推导李代数
 
 #### 命题 8 {#lie-ii-s2-prop-8 .statement tag=0A36}
 
@@ -373,7 +373,7 @@ $$f(a) = (D(a), a).$$
 
 相反，令 $D'$ 为 $L(X)$ 的映射变成 $M$ 满足关系 (20') 类似于 (20) 并扩展 $d$。令 $f'(a) = (D'(a), a)$ 为 $a \in L(X)$；通过(20')和(21)，$f'$是$L(X)$到$g$的同态，与$X$、从而、$f' = f$和$D' = D$上的$f$重合。
 
-#### 推论{#lie-ii-s2-n8-cor-1 .statement tag=0A37}
+#### 推论 {#lie-ii-s2-n8-cor-1 .statement tag=0A37}
 
 *$X$的每个映射到$L(X)$都可以唯一地扩展到$L(X)$的推导*。
 
@@ -383,7 +383,7 @@ $$f(a) = (D(a), a).$$
 
 #### 命题 9 {#lie-ii-s2-prop-9 .statement tag=0A38}
 
-*令$S_1$和$S_2$为$S_1 \times S_2$的两个不相交的集合和$d$映射到$L(S_2)$。令$g$为元素$[s_1, s_2] - d(s_1, s_2)$与$s_1 \in S_1, s_2 \in S_2$生成的理想与$L(S_1 \cup S_2)$的商李代数；设$\psi$是$L(S_1 \cup S_2)$的典范映射到$g$。
+*令$S_1$和$S_2$为$S_1 \times S_2$的两个不相交的集合和$d$映射到$L(S_2)$。通过元素$[s_1, s_2] - d(s_1, s_2)$与$s_1 \in S_1, s_2 \in S_2$生成的理想，令$g$为$L(S_1 \cup S_2)$的商李代数；设$\psi$是$L(S_1 \cup S_2)$的典范映射到$g$。
 
 (a) *对于$i = 1, 2$，$\psi$至$S_i$的限制$\phi_i$可以扩展到$L(S_i)$的同构到$g$的子代数$a_i$。
 
@@ -413,7 +413,7 @@ $$
 D_{s_1}(s_2) = d(s_1, s_2)
 $$
 
-对于$S_2$中的所有$s_2$（no. 8，命题8的推论）。 映射$s_1 \mapsto D_{s_1}$可以扩展到$L(S_1)$的同态$D$扩展为$L(S_2)$的推导李代数。令$\mathfrak{h}$为$L(S_1)$由$L(S_2)$相应的到$D$（章I, § 1, no. 8）的半直接乘积。由于模 $\mathfrak{h}$ 等于 $L(S_1) \times L(S_2)$，特别是
+对于 $S_2$ 中的所有 $s_2$（no. 8、推论到命题 8）。 映射$s_1 \mapsto D_{s_1}$可以扩展到$L(S_1)$的同态$D$延伸为$L(S_2)$的推导李代数。令$\mathfrak{h}$为$L(S_1)$由$L(S_2)$相应的到$D$（章I, § 1, no. 8）的半直接乘积。由于模 $\mathfrak{h}$ 等于 $L(S_1) \times L(S_2)$，特别是
 
 $$
 [(s_1, 0), (0, s_2)] = (0, d(s_1, s_2))
@@ -463,13 +463,13 @@ $T$ 中的 $(s_1, \ldots, s_n, x)$。
 
 因此$\phi(T) \subset a$，而$b \subset a$是从$L(X)$的$\phi(T)$生成子代数$b$开始。但$b$是一个理想值，$X - S \subset \phi(T) \subset b$、从而$a \subset b$。
 
-#### 推论{#lie-ii-s2-n9-cor-1 .statement tag=0A3A}
+#### 推论 {#lie-ii-s2-n9-cor-1 .statement tag=0A3A}
 
 *让$y \in X$。自由李代数$L(X)$是自由子模$K.y$和谎言子代数的直和，承认$((\mathrm{ad}\ y)^n, z)$的家庭为基本家庭，其中$n \geqslant 0$和$z \in X - \{y\}$。*
 
 将$S = \{y\}$放入命题10就足够了。
 
-### 10. 大厅集合在免费岩浆中
+### 10. 自由岩浆中的大厅集合
 
 令$X$为集合、$M(X)$在$X$和$M^n(X)$上构建的自由岩浆，其中长度$n$$M(X)$元素$n \in \mathbf{N}^*$、集合(no. 1)。 如果$w \in M(X)$和$l(w) \geqslant 2$，令$\alpha(w)$和$\beta(w)$表示由关系$w = \alpha(w)\beta(w)$确定的$M(X)$的元素；然后$l(\alpha(w)) < l(w)$，$l(\beta(w)) < l(w)$。 最后，对于$M(X)$中的$u, v$，令$u^mv$表示由归纳在整数$m \geqslant 0$上由$u^0v = v$和$u^{m+1}v = u(u^mv)$定义的元素。
 
@@ -503,7 +503,7 @@ $T$ 中的 $(s_1, \ldots, s_n, x)$。
 
 现在我们证明(b)。由定义 2 (B)、$y \in H$ 和 $xy \in H$。我们通过$n$上的归纳来显示$x^n y \in H$代表$n$整数$\geq 2$。现在$x^n y = x(x(x^{n-2}y))$和归纳假设意味着$x^{n-2}y \in H$。现在$l(x) < l(x^{n-2}y)$代表$n > 2$和$x < y$，在任何情况下从而$x < x^{n-2}y$； 定义2的条件(C)表明$x^n y \in H$。另一方面，当然是$d_y(x^n y) = 1$。相反，令$w \in H \cap M(\{x, y\})$，与$d_y(w) = 1$。如果$l(w) = 1$，则$w = y$；如果$l(w) = 2$，则$w = xy$乘以定义2 (B)。如果 $l(w) \geq 3$，则$w = a(bc)$，其中 $a, b, c, bc$ 位于 $H \cap M(\{x, y\})$ (定义 2 (C))。 $d_y(bc) = 0$ 是不可能的，因为这意味着 $bc \in M(\{x\})$，而 (a) 是不可能的。因此，通过 (a) 可得 $d_y(bc) = 1$ 和 $d_y(a) = 0$、从而 $a = x$。紧接着 $n = l(w)$ 上的归纳是$w = x^{n-1}y$，从而完成 (b) 的证明。
 
-#### 推论{#lie-ii-s2-n10-cor-1 .statement tag=0A3E}
+#### 推论 {#lie-ii-s2-n10-cor-1 .statement tag=0A3E}
 
 如果卡X$\geq 2$，则每整数$n \geq 1$对应$H \cap M^n(X) \neq \varnothing$。
 
@@ -515,15 +515,15 @@ $T$ 中的 $(s_1, \ldots, s_n, x)$。
 (c) 对于每个整数$n \geq 1$，都存在整数$p(n)$，使得$P_p$的每个元素对于所有$p \geq p(n)$来说都是长度$> n$。
 (d) 对于每个整数 $p \geq 0$，集合 $P_{p+1}$ 由元素或形式 $w_p^i w$ 组成，其中 $i \geq 0$、$w \in P_p$ 和 $w \neq w_p$。
 
-由于X是有限的，集合$M^n(X)$都是有限的。让$H_n = H \cap M^n(X)$代表所有$n \geq 1$。 命题 12 的推论表明有限集合 $H_n$ 非空。令$u_n$为$H_n$的基数；让$v_0 = 0$和$v_n = u_1 + \cdots + u_n$代表$n \geq 1$。由于$H_n$是全序有限集合，因此$\mathbf{N}$到$H_n$的区间$[v_{n-1}, v_n - 1]$存在严格递增的双射$p \mapsto w_p$。 $p \mapsto w_p$是$\mathbf{N}$的严格递增的双射到H上是直接的。
+由于X是有限的，集合$M^n(X)$都是有限的。让$H_n = H \cap M^n(X)$代表所有$n \geq 1$。 推论到命题 12 表明有限集合 $H_n$ 非空。设$u_n$为$H_n$的基数；让$v_0 = 0$和$v_n = u_1 + \cdots + u_n$代表$n \geq 1$。由于$H_n$是全序有限集合，因此在$H_n$上存在$\mathbf{N}$的区间$[v_{n-1}, v_n - 1]$的严格递增的双射$p \mapsto w_p$。 $p \mapsto w_p$是$\mathbf{N}$的严格递增的双射到H上是直接的。
 
-令 $P_0 = X$ 且对于每个整数 $p \geq 1$ 令 $P_p$ 为 H 的元素 $w$ 的集合，使得 $w \geq w_p$，并且，$w \in X$ 或 $\alpha(w) < w_p$ (注如果$w$是长度$\geq 2$关系$w \in H$意味着$\alpha(w) \in H$乘条件（C）定义2）。然后$w_p \in P_p$；如果$w_p \in X$，并且当$w_p \notin X$时，从不等式$l(\alpha(w_p)) < l(w_p)$和条件（A）得出定义2，这是清楚的。
+令 $P_0 = X$ 且对于每个整数 $p \geq 1$ 令 $P_p$ 为 H 的元素 $w$ 的集合，使得 $w \geq w_p$，并且，$w \in X$ 或 $\alpha(w) < w_p$（请注意，如果$w$ 长度 $\geq 2$ 关系 $w \in H$ 意味着$\alpha(w) \in H$乘条件 (C) 定义 2)。然后$w_p \in P_p$；这是清楚的，如果$w_p \in X$，并且当$w_p \notin X$时，从不等式$l(\alpha(w_p)) < l(w_p)$和条件（A）得出定义2。
 
 因此条件 (a) 和 (b) 满足。
 
-令$n$为整数$\geq 1$并令$p \geq v_n$。对于所有 $w \in P_p, l(w) \geq l(w_p) > n$ 到定义的映射 $p \mapsto w_p$。这就成立了(c)。
+令$n$为整数$\geq 1$，并令$p \geq v_n$。对于所有 $w \in P_p, l(w) \geq l(w_p) > n$ 到定义的映射 $p \mapsto w_p$。这就成立了(c)。
 
-我们现在显示形式$u = w_p^i w$中的每个元素与$i \geq 0, w \in P_p$和$w \neq w_p$属于到$P_{p+1}$。如果$i \neq 0$，则$l(u) > l(w_p)$、从而、$u > w_p$和$u \geq w_{p+1}$；然后$u \notin X$和$\alpha(u) = w_p < w_{p+1}$，从而$u \in P_{p+1}$。如果$i = 0$，则$u \in P_p$和$u \neq w_p$；然后$u > w_p$、从而$u \geq w_{p+1}$；如果$u$不属于到$X$，则$\alpha(w) < w_p$，从而$\alpha(w) < w_{p+1}$；然后又$u \in P_{p+1}$。
+我们现在显示形式$u = w_p^i w$中的每个元素与$i \geq 0, w \in P_p$和$w \neq w_p$属于到$P_{p+1}$。如果$i \neq 0$，则$l(u) > l(w_p)$、从而、$u > w_p$和$u \geq w_{p+1}$；然后$u \notin X$和$\alpha(u) = w_p < w_{p+1}$，从而$u \in P_{p+1}$。如果$i = 0$，则$u \in P_p$和$u \neq w_p$；然后$u > w_p$，从而$u \geq w_{p+1}$；如果$u$不属于到$X$，则$\alpha(w) < w_p$，从而$\alpha(w) < w_{p+1}$；然后又$u \in P_{p+1}$。
 
 相反，让$u \in P_{p+1}$。我们区分两种情况：
 
@@ -550,7 +550,7 @@ $$
 
 （$H$中的元素已根据每个$H_n$上选择的总顺序进行编号。）
 
-### 11. 免费大厅基李代数
+### 11. 免费李代数大厅基
 
 我们保留前面的记号。
 
@@ -570,13 +570,13 @@ $$
 
 *对于每个整数$p \geq 0$，模$L_p$将$(\bar{w}_i)_{0 \leq i < p}$承认为基，李代数$g_p$承认$(\bar{u})_{u \in P_p}$为基本家庭，模$L(X)$为直和共 $L_p$ 和 $g_p$。*
 
-$L_0 = \{0\}$ 和$g_0 = L(X)$ 以及引理对于$p = 0$ 成立。我们在$p$上争论归纳。假设引理对于某些整数 $p \geq 0$ 是正确的。让$u_i, w = (\mathrm{ad}\ \bar{w}_p)^i.\bar{w} = \Psi(w_p^i w)$换成$i \geq 0, w \in P_p, w \neq w_p$。根据 no. 9 命题 10 的推论，免费李代数 $g_p$ 是直和模 $T_p$ 基 $\{\bar{w}_p\}$ 和谎言子代数 $h_p$承认
+$L_0 = \{0\}$ 和$g_0 = L(X)$ 以及引理对于$p = 0$ 成立。我们在$p$上争论归纳。假设引理对于某些整数 $p \geq 0$ 是正确的。让$u_i, w = (\mathrm{ad}\ \bar{w}_p)^i.\bar{w} = \Psi(w_p^i w)$换成$i \geq 0, w \in P_p, w \neq w_p$。在no. 9的推论到命题10，免费的李代数$g_p$是直和模$T_p$基$\{\bar{w}_p\}$和谎言子代数 $h_p$承认
 
 $$
 \mathscr{F} = (u_i, w)_{i \geq 0,\ w \in P_p,\ w \neq w_p}
 $$
 
-作为基本家庭。到命题 13 (d)，族$(\bar{u})_{u \in P_{p+1}}$等于$\mathscr{F}$，因此是$h_p = g_{p+1}$的基本族。因此，$L(X) = L_p \oplus T_p \oplus g_{p+1}$，以及$L_{p+1} = L_p + T_p$、$L(X) = L_{p+1} \oplus g_{p+1}$和$(\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p)$，是模$L_{p+1}$的基。
+作为基本家庭。到命题 13 (d)，族$(\bar{u})_{u \in P_{p+1}}$等于$\mathscr{F}$，因此是$h_p = g_{p+1}$的基本族。因此$L(X) = L_p \oplus T_p \oplus g_{p+1}$，以及$L_{p+1} = L_p + T_p$、$L(X) = L_{p+1} \oplus g_{p+1}$和$(\bar{w}_0, \bar{w}_1, \ldots, \bar{w}_{p-1}, \bar{w}_p)$是模$L_{p+1}$的基。
 
 设$n$为正整数。到命题 13 (c) 时，存在整数 $p(n)$，使得$P_p$ 对于$p \geq p(n)$ 仅有长度 $> n$ 的元素。对于$p \geq p(n)$，$L(X)$的谎言子代数$g_p$是由次数$> n$的元素生成的，因此$L^n(X) \cap g_p = \{0\}$。另一方面，$L(X)$的元素$\bar{w}_i$是同质的，$(w_i)_{0 \leq i < p}$族是$g_p$的补充模的基。紧接着，次数$n$的元素$\bar{w}_i$的家庭是模$L^n(X)$的基，序列$(\bar{w}_i)_{i \geq 0}$是模的基 $L(X)$。
 
@@ -590,7 +590,7 @@ $$
 
 对于$L(X)$的每个元素$a$，都存在$X$的有限子集$S$，使得$a \in L(S)$。在情况(A)中，$\Psi'(H)$生成模$L(S)$的子集$\Psi'(H \cap M(S))$，因此$a$是$\Psi'(H)$的元素的线性组合。因此$\Psi'(H)$生成模$L(X)$，从而完成证明。
 
-#### 推论{#lie-ii-s2-n11-cor-1 .statement tag=0A3J}
+#### 推论 {#lie-ii-s2-n11-cor-1 .statement tag=0A3J}
 
 *模* $L(X)$ *是免费的，子模* $L^\alpha(X)$ *其中* $\alpha \in \mathbf{N}^{(X)}$ *和* $L^n(X)$ *其中* $n \in \mathbf{N}$也是免费的。 *模* $L^\alpha(X)$ *属于有限秩，模* $L^n(X)$ *如果* $X$ *是有限的*。
 

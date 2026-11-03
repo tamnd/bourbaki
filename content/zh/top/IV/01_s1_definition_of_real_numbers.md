@@ -37,23 +37,23 @@ subsections:
       pdf_page: 340
 statements: 10
 exercises: 4
-content_sha256: 537e3b56f7aa5d6a0df05db943387c9279e5928ede598d22f5e4eed624216d18
+content_sha256: 0a47d4ef468f750bdfda3a1237c68fd5b29c9d64c29e6358dbff0a9b713d1f2b
 translated_from: content/en/top/IV/01_s1_definition_of_real_numbers.md
 translation_method: google
 source_content_sha256: f4c12bd1cb845b5f3c66dbac6fe917b0b8b7c5cafbedd83622f13c0a4a7e7248
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c7022abfdb41f922b813dc3929be55a20ce5e94b93127cafb95884d60d199939
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. 定义 / 实数
 
-### 1. 有理数数的有序群
+### 1. 有理数的有序群
 
-我们定义了有理数在集合$\mathbf{Q}$上的排序$x \leq y$；我们已经看到，这种排序使$\mathbf{Q}$成为*线性排序*集合，并且它与$\mathbf{Q}$的*加法群*结构*相容的*，即对于每个$z \in \mathbf{Q}$关系$x \leq y$等价于$x + z \leq y + z$（即， *顺序在翻译下保持不变*）。我们回想一下记号（用于任何线性排序的群）
+我们定义了有理数在集合$\mathbf{Q}$上的排序$x \leq y$；我们已经看到，这种排序使得$\mathbf{Q}$成为*线性排序*集合，并且它与$\mathbf{Q}$的*加法群*结构*相容的*，即对于每个$z \in \mathbf{Q}$关系$x \leq y$等价于$x + z \leq y + z$（即， *顺序在翻译下保持不变*）。我们回想一下记号（用于任何线性排序的群）
 
 $$
 x^+ = \sup (x, 0), \\
@@ -125,7 +125,7 @@ $$
 
 我们将在 $\mathbf{Q}$ 上使用此排序来定义 *拓扑与其加法群结构* 相容的。
 
-### 2. 理性线
+### 2. 有理线
 
 考虑*对称开区间* $]-a, +a[$的集合$\mathfrak{F}$，其中$a$贯穿有理数$> 0$的集合；我们将证明$\mathfrak{F}$是拓扑中*$0$的邻域的*基本系统与$\mathbf{Q}$的加法群结构兼容。
 
@@ -133,17 +133,17 @@ $$
 
 #### 定义 1 {#top-iv-s1-def-1 .statement tag=0BP1}
 
-*有理线是集合$\mathbf{Q}$和加法群拓扑的拓扑空间由……组成，其中对称开区间$]-a, +a[$$(a > 0)$形式是基本系统邻域 $0$。*
+*有理线是集合$\mathbf{Q}$和加法群拓扑的拓扑空间由……组成，其中对称开区间$]-a, +a[$$(a > 0)$形式是基本原理系统邻域 $0$。*
 
 *如此定义的拓扑群$\mathbf{Q}$称为有理线的加法群。*
 
-如果$a$是任意有理数数$> 0$，则存在整数$n > 0$使得$1/n < a$；因此，开区间 $]-\frac{1}{n}, +\frac{1}{n}[$ $(n = 1, 2, \ldots)$ 形式是有理线上$0$ 的邻域的基本系统。
+如果$a$是任意有理数数$> 0$，则存在整数$n > 0$使得$1/n < a$；因此，有理线上的区间 $]-\frac{1}{n}, +\frac{1}{n}[$ $(n = 1, 2, \ldots)$ 形式邻域的基本系统 $0$ 。
 
-通过取开区间$]x - a, x + a[$，我们可以得到任何点$x \in \mathbf{Q}$的邻域的基本系统，其中$a$穿过有理数$> 0$的集合（或数的集合） $1/n$）。
+我们通过取开区间$]x - a, x + a[$来获得任何点$x \in \mathbf{Q}$的邻域的基本系统，其中$a$穿过有理数$> 0$（或集合）的集合数$1/n$）。
 
 因此，定义 1 相当于章 I, § 1, no. 2 中给出的值。
 
-对于有理数$(a, b)$的每个对使得$a < b$，存在$c \in \mathbf{Q}$使得$a < c < b$[对于例$c = (a + b)/2$]；由此可见，有理线是非离散 Hausdorff 空间。
+对于有理数$(a, b)$的每个对，使得$a < b$，存在$c \in \mathbf{Q}$使得$a < c < b$[例如$c = (a + b)/2$]；由此可见，有理线是非离散 Hausdorff 空间。
 
 对于每个$a > 0$，令$U_a$为$\mathbf{Q} \times \mathbf{Q}$中对$(x, y)$的集合，使得$|x - y| < a$。由于$a$贯穿有理数数$> 0$的集合（或者只是数$1/n$的集合），集合$U_a$形式基本系统的一致性有理线的加法群$\mathbf{Q}$。 关系(2)和(3)表明$|x|, x^+$和$x^-$在$\mathbf{Q}$上均匀连续。由此可见，函数、$\sup(x, y)$和$\inf(x, y)$在$\mathbf{Q} \times \mathbf{Q}$上一致连续。
 
@@ -171,25 +171,25 @@ $$
 
 关系$y - x \in \overline{\mathbf{Q}}_+$再次表示为$x \leq y$。 集合$\overline{\mathbf{Q}}_+$是$\mathbf{R}$中所有$x \geq 0$的集合，记为$\mathbf{R}_+$；这是一个*封闭的集合*。所有$x > 0$中的集合用$\mathbf{R}_+^*$表示；它是$-\mathbf{R}_+$的补集，因此在$\mathbf{R}$中“开”。
 
-### 4. $\mathbf{R}$ 中的区间性质
+### 4. $\mathbf{R}$ 中区间的属性
 
 #### 命题 2 {#top-iv-s1-prop-2 .statement tag=0BP4}
 
-*$\mathbf{R}$ 中的每个闭（或开）区间都是 $\mathbf{R}$ 中的闭（或开）集合。*
+*$\mathbf{R}$中的每个闭（或开）区间都是$\mathbf{R}$中的闭（或开）集合。*
 
-集合 $[a, \to[ = a + \mathbf{R}_+$和$]\leftarrow, a] = a - \mathbf{R}_+$分别由$\mathbf{R}_+$和$-\mathbf{R}_+$翻译得到，因此是闭的（章III, § 1, no. 1）； 集合 $]\leftarrow, a[$ 和 $]a, \to[,$ 是它们的补集，开；最后，闭区间$[a, b]$（或开区间$]a, b[$）是$[a, \to[$和$]\leftarrow, b]$（分别是$]a, \to[$和$]\leftarrow, b[$）的交，因此是闭（或开）集合。
+集合 $[a, \to[ = a + \mathbf{R}_+$和$]\leftarrow, a] = a - \mathbf{R}_+$分别由$\mathbf{R}_+$和$-\mathbf{R}_+$翻译得到，因此是闭的（章III, § 1, no. 1）； 集合 $]\leftarrow, a[$ 和 $]a, \to[,$ 是它们的补集，开；最后，闭区间$[a, b]$（分别为开区间$]a, b[$）是$[a, \to[$和$]\leftarrow, b]$（分别为$]a, \to[$和$]\leftarrow, b[$）的交，因此是闭（或开） 集合。
 
-因此，$\mathbf{R}$ 中的闭区间 $[-a, +a]$ ($a > 0$) 为 0 的邻域。 让我们证明，当 $a$ 穿过 $\mathbf{R}_+^*$ 时，它们形式和邻域* 的 *基本系统为 0。为此，建立以下命题就足够了：
+因此，$\mathbf{R}$中的闭区间$[-a, +a]$（$a > 0$）为0的邻域。让我们证明，当$a$穿过$\mathbf{R}_+^*$时，它们形式是邻域*的*基本系统为0。为此，建立以下命题就足够了：
 
 #### 命题 3 {#top-iv-s1-prop-3 .statement tag=0BP5}
 
-*由于$r$贯穿有理数$> 0$的集合，$\mathbf{R}$形式中的区间$s_r = [-r, +r]$是邻域的基本系统为0。*
+*由于$r$贯穿有理数$> 0$的集合，$\mathbf{R}$形式中的区间$s_r = [-r, +r]$是0的邻域的基本系统。*
 
-通过章III, § 3, no. 4的命题7，我们通过在$\mathbf{R}$中取区间的*闭包*，获得$\mathbf{R}$中0的邻域的基本系统
+通过章 III, § 3, no. 4 的命题 7，我们通过取区间 $\mathbf{R}$ 中的*闭包*，获得 $\mathbf{R}$ 中 0 的邻域基本系统
 
-S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}。如果我们证明 S_r 是 S_r \cap \mathbf{Q} 的闭包，证明就完整了。现在 S_r 在 \mathbf{R} 中是闭包，因此我们只需证明，如果 x 是实数且 -r < x < r，则 x 在 S_r \cap \mathbf{Q} 的闭包中。区间 ]-r, +r[ 是 \mathbf{R} 中的开集合，因此对于 \mathbf{R} 中所有足够小的 o 邻域 V，我们有 x + V \子集 ]-r, +r[;但 \mathbf{Q} 在 \mathbf{R} 中是稠密的，因此在 x + V 中存在有理数数 r' \，因此 -r < r' < r，因此在 S_r \cap \mathbf{Q} 中存在 r' \。
+S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}。如果我们证明 S_r 是 S_r \cap \mathbf{Q} 的闭包，证明就完整了。现在 S_r 在 \mathbf{R} 中是闭包，因此我们只需证明，如果 x 是实数且 -r < x < r，则 x 在 S_r \cap \mathbf{Q} 的闭包中。 区间 ]-r, +r[ 是 \mathbf{R} 中的开集合，因此对于 \mathbf{R} 中所有足够小的 o 邻域 V，我们有 x + V \子集 ]-r, +r[;但 \mathbf{Q} 在 \mathbf{R} 中是稠密的，因此在 x + V 中存在有理数数 r' \，因此 -r < r' < r，因此在 S_r \cap \mathbf{Q} 中存在 r' \。
 
-#### 推论{#top-iv-s1-n4-cor-1 .statement tag=0BP6}
+#### 推论 {#top-iv-s1-n4-cor-1 .statement tag=0BP6}
 
 *实直线的每个点都有一个邻域的可数基数系统。*
 
@@ -201,9 +201,9 @@ S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}。如果我们证明 S_r �
 
 #### 命题 5 {#top-iv-s1-prop-5 .statement tag=0BP8}
 
-*设I为\mathbf{R}中的任意区间。然后由I的开区间生成\mathbf{R}的拓扑在I上诱导的拓扑（其中I被认为是按关系 x \leq y线性排序）。*
+*令I为\mathbf{R}中的任意区间。然后，\mathbf{R} 的拓扑在 I 上诱导的拓扑由 I 的开区间生成（其中 I 被视为按关系 x \leq y 线性排序）。*
 
-每个I开区间都是\mathbf{R}开区间在I上的迹。对于有界区间来说这是很清楚的，I的无界区间 ]a, \to[ 是 \mathbf{R} 的无界区间 ]a, \to[ 的迹。因此，我们可以将自己限制在 I = \mathbf{R} 的情况；但在这种情况下，结果来自命题 3，因为点 x \in \mathbf{R} 包含的每个邻域都是开区间 ]x - a, x + a[。
+I的每个开区间都是\mathbf{R}的开区间在I上的迹。对于有界区间来说这是很清楚的，I 的无界区间 ]a, \to[ 是 \mathbf{R} 的无界区间 ]a, \to[ 的迹。因此，我们可以将自己限制在 I = \mathbf{R} 的情况；但在这种情况下，结果来自命题 3，因为点 x \in \mathbf{R} 包含的每个邻域都有一个开区间 ]x - a, x + a[。
 
 #### 注 {#top-iv-s1-n4-rem-1 .statement tag=0BP9}
 
@@ -211,19 +211,19 @@ S_r \cap \mathbf{Q} = [-r, +r] \textit{of} \mathbf{Q}。如果我们证明 S_r �
 
 $$ ]x - a, x + a[ $$
 
-是开区间包含 x，A 存在两个点 y, z 使得 x - a < y < x 且 x < z < x + a；因此 ]y, z[ 包含于 x 并且包含在 ]x - a, x + a[ 中。此外，这个证明还显示了\mathbf{R}的拓扑所考虑的区间形式基(章I, § 1, no. 3)。特别是，如果我们取 A = \mathbf{Q}，我们会看到 \mathbf{R} 的拓扑具有可数的基。
+是一个开区间包含x，A存在两个点y，z，使得x - a < y < x且x < z < x + a；因此 ]y, z[ 包含于 x 并且包含在 ]x - a, x + a[ 中。此外，这个证明表明区间正在考虑\mathbf{R}的形式基（章I, § 1, no. 3）或拓扑。特别是，如果我们取 A = \mathbf{Q}，我们会看到 \mathbf{R} 的拓扑有一个可数的基。
 
-### 5. 区间的长度
+### 5. 长度 / 区间
 
 #### 定义 3 {#top-iv-s1-def-3 .statement tag=0BPA}
 
 *具有端点 a 和 b (a \leq b) 的有界区间的长度定义为 b - a。*
 
-因此，包含大于 1 个点的每个有界区间都具有长度 > 0。如果 $a \leq b$，则四个区间 $[a, b], ]a, b[, [a, b[$ 和 $]a, b[$ 都具有相同的长度。端点为 $a + c$ 和 $b + c$ 的区间与端点为 $a$ 和 $b$ 的区间具有相同的长度；在其他字中，间隔的*长度在平移下是不变的*。
+每个有界区间（其中包含多于一个点）因此具有长度 > 0。如果 $a \leq b$，则四个区间、$[a, b], ]a, b[, [a, b[$ 和 $]a, b[$ 都具有相同的长度。具有端点 $a + c$ 和 $b + c$ 的区间与具有端点 $a$ 和 $b$ 的区间具有相同的长度；在其他字中，区间的*长度在翻译下不变*。
 
-如果$a \leq c \leq d \leq b$我们有$d - c \leq b - a$。因此，如果有界区间$I$包含在有界区间$I'$中，则$I$的长度小于或等于$I'$的长度。
+如果$a \leq c \leq d \leq b$我们有$d - c \leq b - a$。因此，如果有界区间 $I$ 包含在有界区间 $I'$ 中，则 $I$ 的长度小于或等于 $I'$ 的长度。
 
-如果$n$互为不相交的开区间$I_1, I_2, \ldots, I_n$包含在区间$[a, b]$（$a < b$）中，则由$n$上的归纳很容易看出，如果$I_k = ]c_k, d_k[$，则存在指标的置换$\sigma$ $k$ ($1 \leq k \leq n$) 使得$d_{\sigma(k)} \leq c_{\sigma(k+1)}$ 为$1 \leq k \leq n - 1$。紧接着，区间$I_k$的长度的和至多等于$[a, b]$的长度，并且等式成立当且仅当对于$1 \leq k \leq n - 1$有$c_{\sigma(1)} = a, d_{\sigma(n)} = b$和$d_{\sigma(k)} = c_{\sigma(k+1)}$。
+如果$n$互开不相交的开区间$I_1, I_2, \ldots, I_n$包含在区间$[a, b]$($a < b$)中，则由$n$上的归纳很容易看出，如果$I_k = ]c_k, d_k[$，则有置换指标 $k$ ($1 \leq k \leq n$) 的$\sigma$使得$d_{\sigma(k)} \leq c_{\sigma(k+1)}$对应$1 \leq k \leq n - 1$。 紧接着，区间$I_k$的长度的和至多等于$[a, b]$的长度，并且等式成立当且仅当对于$1 \leq k \leq n - 1$有$c_{\sigma(1)} = a, d_{\sigma(n)} = b$和$d_{\sigma(k)} = c_{\sigma(k+1)}$。
 
 ### 6. $\mathbf{R}$ 的加性均匀性
 

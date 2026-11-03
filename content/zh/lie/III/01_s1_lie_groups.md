@@ -57,16 +57,16 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 0cecf36d2acec4061eaebeb670f764476d17d4d4f06054c16cb39a13cb14dfa3
+content_sha256: be099dc57583aef22040c45a0391adcb0ab88e2a36075dc6b3c3d863ac1f1fc2
 translated_from: content/en/lie/III/01_s1_lie_groups.md
 translation_method: google
 source_content_sha256: c28e00b85f74025ecd9db6adb574f2c95ce70e7ad72db45eba1ee38c85b62c4a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1e3b6726374a57c1ff8e9e45fe9092c2febe2afc713435bca327b855daaa332c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。 李群
@@ -132,15 +132,15 @@ $$
 
 *李群是一个完整的可度量拓扑群。*
 
-由于 $e$ 承认一个开邻域同胚于一个范数空间的开球，$e$ 承认邻域的一个可数基本系统，其交是 $\{e\}$。因此 $G$ 是可度量的（*一般拓扑*、章 III, § 1，命题 2 和章 IX, § 3、命题 1 的推论）。到引理 1，存在$e$的邻域，它在正确的制服结构下是完整的，因此$G$是完整的（*一般拓扑*，章III, § 3，命题4）。
+由于 $e$ 承认一个开邻域同胚于一个范数空间的开球，$e$ 承认邻域的一个可数基本系统，其交是 $\{e\}$。因此，$G$是可度量的（*一般拓扑*、章III, § 1、推论至命题2和章IX, § 3、命题1）。到引理 1，存在$e$的邻域，它在正确的制服结构下是完整的，因此$G$是完整的（*一般拓扑*，章III, § 3，命题4）。
 
 #### 命题 2 {#lie-iii-s1-prop-2 .statement tag=0A79}
 
 *令$G$为李群。*
 (i) *如果$K = \mathbf{R}$或$\mathbf{C}$，$G$是本地连接的。*
-(ii) *如果 $K$ 不同于 $\mathbf{R}$ 和 $\mathbf{C}$，则 $G$ 为零维*（*一般拓扑*、章 IX, § 6、定义 5）。
+(ii) *如果$K$不同于$\mathbf{R}$和$\mathbf{C}$，则$G$是零维*（*一般拓扑*、章IX, § 6、定义5）。
 (iii) *假设 $K$ 是局部紧致的。为了使 $G$ 局部紧致，$G$ 是有限维的是必要且充分的。*
-(iv) *如果$G$由子空间生成，而拓扑承认可数基，则$G$上的拓扑承认可数基。*
+(iv) *如果$G$是由子空间生成的，而拓扑承认可数基，则$G$上的拓扑承认可数基。*
 
 设$U$为$e$的邻域。存在包含在$U$中的$e$的开邻域$U_1$，并且同胚于$K$上的范数空间$E$的开球。若$K = \mathbf{R}$或$\mathbf{C}$，$U_1$连通，则证明(i)。假设 $K$ 是超度量的。存在 $e$ 的邻域 $U_2$，其在$G$ 中闭合，因此$U_2 \subset U_1$。那么$e$存在邻域$U_3$，使得$U_3 \subset U_2$和$U_3$相对于$U_1$开闭。那么$U_3$相对于$U_2$闭合，因此$G$相对于$U_1$开，因此$G$。这就证明了(ii)。为了使$G$局部紧致，$E$局部紧致是充分必要的；如果 $K$ 是局部紧致的，则相当于说，$E$ 是有限维的（*拓扑向量空间*、章 I, § 2、定理 3）、从而 (iii)。假设$G$是由子集$V$生成的，令$W = V \cup V^{-1}$；然后
 
@@ -150,7 +150,7 @@ $$
 
 如果$V$中存在序列稠密，我们看到G中存在序列稠密，并且由于G是可度量的（命题1），G上的拓扑承认可数基。
 
-#### 推论{#lie-iii-s1-n1-cor-1 .statement tag=0A7A}
+#### 推论 {#lie-iii-s1-n1-cor-1 .statement tag=0A7A}
 
 如果 K = R 或 C 并且 G 是连通且有限维的，则 G 是局部连通且局部紧的，并且其拓扑承认可数基。
 
@@ -195,11 +195,11 @@ $$
 
 (2) 设 A 是 K 上的完全规范单位结合律代数。 $A \times A$ 的乘法 $(x, y) \mapsto xy$ 到 A 是双线性且连续的，因此是解析的。 命题 3 表明 A 的可逆元的群 $A^*$ 在 A 中是开集（这也是从 *General 拓扑*、章 IX, § 3、命题 13 得出），并且 $A^*$ 是李群。
 
-对于例，令 E 为 K 上的完全可范化空间，并令 $A = \mathscr{L}(E)$（*一般拓扑*、章 IX, § 3、命题 5）。那么 $A^*$ 就是 E 的自同构群 $\mathbf{GL}(E)$。 *因此，这个群在 K* 上具有规范的李群结构。更具体地，$\mathbf{GL}(n, K)$与由$\mathbf{M}_n(K)$上的流形结构诱发的李群。对于 $n = 1$，我们看到乘法群 $K^*$ 是李群以及由 K 上的流形结构引起的。
+例如，令 E 为 K 上的完全可范化空间，并令 $A = \mathscr{L}(E)$ (*一般拓扑*, 章 IX, § 3, 命题 5)。那么 $A^*$ 就是 E 的自同构群 $\mathbf{GL}(E)$。 *因此，这个群在 K* 上具有规范的李群结构。更具体地，$\mathbf{GL}(n, K)$，以及由$\mathbf{M}_n(K)$上的流形结构诱导的李群。对于$n = 1$，我们看到乘法群$K^*$是李群，并且流形结构是由K上的流形结构引起的。
 
-(3) 令G在K上李群。令$K' = \mathbf{R}$或$\mathbf{C}$或值域$K'$的非离散完全超度量域和$\sigma$同构到K的值子域上。则群 G，以及通过标量限制获得的 $K'$ 流形结构，在 $K'$ 上是李群，据说是*通过标量限制从李群 G 导出的*（从 K 到 $K'$ 通过$\sigma$）。对于例，每个复数李群都具有规范的实李群结构。同样，每个复数李群 G 都与一个复数李群相关联，称为 G 的 *共轭*，它是通过 $\mathbf{C}$ 的自同构 $z \mapsto \overline{z}$ 衍生自 G。
+(3) 令G在K上李群。令$K' = \mathbf{R}$或$\mathbf{C}$或值域$K'$的非离散完全超度量域和$\sigma$同构到K的值子域上。则群 G，以及通过标量限制获得的 $K'$ 流形结构，在 $K'$ 上是李群，据说是*通过标量限制从李群 G 导出的*（从 K 到 $K'$ 通过$\sigma$）。例如，每个复数李群都具有规范的实李群结构。同样，每个复数李群 G 都与一个复数李群相关联，称为 G 的 *共轭*，它是通过 $\mathbf{C}$ 的自同构 $z \mapsto \overline{z}$ 衍生自 G。
 
-### 2. 态射李群
+### 2. 态射 / 李群
 
 #### 定义 2 {#lie-iii-s1-def-2 .statement tag=0A7D}
 
@@ -219,7 +219,7 @@ G 的恒等映射是态射。两个态射的合成是态射。如果$f : G \to H
 (iii) 对于所有 i 和 j，G 上的函数 $g \mapsto \langle \rho(g)e_i, e_j^* \rangle$ 是解析的。
 对于 (i) $\Rightarrow$ (ii) $\Rightarrow$ (iii) 的含义是明确的。另一方面，函数$u \mapsto \langle ue_i, e_j^* \rangle$形式是$\mathscr{L}(E)$上的坐标系统；因此，它们的限制到$\mathbf{GL}(E)$形式是$\mathbf{GL}(E)$上的坐标系统，从而蕴涵(iii)$\Rightarrow$(i)。
 
-设 G 为实李群，E 为群 G 的实数完全可规范空间和 $\rho$ 同态到群 $\mathbf{GL}(E)$。我们将在§ 8，定理 1 中看到，如果$\rho$是连续的（当$\mathbf{GL}(E)$具有从$\mathbf{L}(E)$上的范数导出的拓扑时），那么$\rho$是解析的。但注这个概念的连续性与积分中考虑的连续性不同，章VIII, § 2、定义1(iii)(习题1)。
+设 G 为实李群，E 为群 G 的实数完全可规范空间和 $\rho$ 同态到群 $\mathbf{GL}(E)$。我们将在§ 8，定理 1 中看到，如果$\rho$是连续的（当$\mathbf{GL}(E)$具有从$\mathbf{L}(E)$上的范数导出的拓扑时），那么$\rho$是解析的。但请注意，这种连续性概念与积分中考虑的连续性不同，章VIII, § 2、定义1 (iii) (习题1)。
 
 (4) 设G为实李群，E为复数完全范数空间。 G 在 E 上的解析线性表示是 G 的态射到 $\mathbf{GL}(E)$ 的底层实李群。
 
@@ -241,7 +241,7 @@ G 的恒等映射是态射。两个态射的合成是态射。如果$f : G \to H
 
 设G为李群。如果 H 是子群并且是 G 的子流形，则 G 的子集 H 称为李子群。
 
-G 的开子群是 G 的谎言子群。特别是，如果 G 是实数或复数李群，则其恒等分量是 G 的谎言子群。
+G 的开子群是 G 的谎言子群。特别是，如果 G 是实数或复数李群，则其恒等式分量是 G 的谎言子群。
 
 #### 命题 5 {#lie-iii-s1-prop-5 .statement tag=0A7I}
 
@@ -266,7 +266,7 @@ G 的开子群是 G 的谎言子群。特别是，如果 G 是实数或复数李
 
 如果将定义 3 中的“子流形”替换为“拟子流形”，我们就得到 G 的李拟子群定义。（对于有限维 G，李拟子群就是李子群。）假设 K 的特征为 0。命题 5 仍然有效。 证明为李拟子群。 命题 6 对于相同的证明、替换仍然有效，“李准子群”的“李子群”和“拟子流形”的“子流形”。
 
-### 4. 半直接乘积 OF 李群
+### 4. 李群的半直接乘积
 
 令 I 为有限集合且 (L_i)_{i \in I} 为李群族。 L = \prod_{i \in I} L_i 上的群和流形结构是兼容的，因此 L 具有李群结构。 L 称为李群 (L_i)_{i \in I} 家族的乘积李群。
 
@@ -289,11 +289,11 @@ $$
 
 显然，$L$（或$M$）的典范嵌入到$S$是$L$（或$M$）的同构到$S$的谎言子群，我们用认同和$L$ （分别$M$）。 $S$到$L$的典范映射是李群态射。
 
-相反，令$G$为李群和$L$，$M$两个谎言子群，使得群$G$（代数上）是$L$乘$M$的半直接乘积 （*代数*、章I, § 6, no. 1）。 我们将$l \in L$和$m \in M$写为$\sigma(l)m = lml^{-1}$。 那么$\sigma$满足命题7中的条件。 We can therefore form the semi-direct product Lie group $S$ of $L$ by $M$ relative to $\sigma$. $S$到$G$的映射$j: (m, l) \mapsto ml$是群同构并且是解析的。 如果$j$是李群同构，则*李群*$G$*被称为*$L$*的半直接乘积*通过*$M$*和*$S$*和*$G$*进行识别*。 对于所有$g \in G$，我们写为$g = p(g)q(g)$，其中$p(g) \in M$和$q(g) \in L$。 为了使李群$G$成为$L$乘$M$的半直接乘积，映射$p: G \to M$和$q: G \to L$之一是解析的是必要且充分的，在这种情况下两者都是解析的；或者，$T_e(G)$是$T_e(M)$和$T_e(L)$的拓扑直和是必要且充分的（因为，如果条件成立，$j$在$e_S$处是étale）。
+相反，令$G$为李群和$L$，$M$两个谎言子群，使得群$G$（代数上）是$L$乘$M$的半直接乘积 （*代数*、章I, § 6, no. 1）。 我们将$l \in L$和$m \in M$写为$\sigma(l)m = lml^{-1}$。 那么$\sigma$满足命题7中的条件。 因此，我们可以通过 $M$ 相对于 $\sigma$ 形成 $L$ 的半直积李群 $S$。 $S$到$G$的映射$j: (m, l) \mapsto ml$是群同构并且是解析的。 如果$j$是李群同构，则*李群*$G$*被称为*$L$*的半直接乘积*通过*$M$*和*$S$*和*$G$*进行识别*。 对于所有$g \in G$，我们写为$g = p(g)q(g)$，其中$p(g) \in M$和$q(g) \in L$。 为了使李群$G$成为$L$乘$M$的半直接乘积，映射$p: G \to M$和$q: G \to L$之一是解析的是必要且充分的，在这种情况下两者都是解析的；或者，$T_e(G)$是$T_e(M)$和$T_e(L)$的拓扑直和是必要且充分的（因为，如果条件成立，$j$在$e_S$处是étale）。
 
 #### 例 {#lie-iii-s1-n4-exa-1 .statement tag=0A7M}
 
-Let $E$ be a normable space, $G = \mathbf{GL}(E)$, $T$ the translation group of $E$ and $A$ the permutation group of $E$ generated by $G$ and $T$. 群$A$在代数上是$G$乘以$T$的半直乘积。 （如果$E$是有限维的，则$A$是$E$、cf. *代数*、章II, § 9, no. 4的仿射群）。 令$\sigma$为$G$在$E$上的恒等式线性表示，$S$为$G$通过$E$相对于$\sigma$的外部半直接乘积。 对于所有$x \in E$，令$t_x$为由$x$定义的$E$的平移。 映射 $(x, u) \mapsto t_x \circ u$ 是群 $S$ 的同构 $\Phi$ 到群 $A$。 $E \times \mathscr{L}(E)$到$E$的映射$(x, u) \mapsto \sigma(u)x = u(x)$是连续且双线性的，因此是解析的；因此，它的限制到 $E \times G$ 是解析的。 因此，群$S$，加上$E$和$G$的乘积流形结构，就是李群。 我们通过$\Phi$将迁移这个结构到$A$。 那么$A$就变成李群，$G$的内部半直接乘积由$T$变为李群。
+令$E$为规范空间，$G = \mathbf{GL}(E)$、$T$为$E$的平移群，$A$为由$G$和$T$生成的$E$的置换群。 群$A$在代数上是$G$乘以$T$的半直乘积。 （如果$E$是有限维的，则$A$是$E$、cf. *代数*、章II, § 9, no. 4的仿射群）。 令$\sigma$为$G$在$E$上的恒等式线性表示，$S$为$G$通过$E$相对于$\sigma$的外部半直接乘积。 对于所有$x \in E$，令$t_x$为由$x$定义的$E$的平移。 映射 $(x, u) \mapsto t_x \circ u$ 是群 $S$ 的同构 $\Phi$ 到群 $A$。 $E \times \mathscr{L}(E)$到$E$的映射$(x, u) \mapsto \sigma(u)x = u(x)$是连续且双线性的，因此是解析的；因此，它的限制到 $E \times G$ 是解析的。 因此，群$S$，加上$E$和$G$的乘积流形结构，就是李群。 我们通过$\Phi$将迁移这个结构到$A$。 那么$A$就变成李群，$G$的内部半直接乘积由$T$变为李群。
 
 #### 命题 8 {#lie-iii-s1-prop-8 .statement tag=0A7N}
 
@@ -301,9 +301,9 @@ Let $E$ be a normable space, $G = \mathbf{GL}(E)$, $T$ the translation group of 
 
 $T_e(p) \circ T_e(s) = \mathrm{id}_{T_{e(H)}}$，因此$p$（或$s$）是浸没（或浸没）。通过 *可微分和解析流形*，R，5.10.5，N 是 G 的谎言子群。另一方面，$s$ 是 H 到 $s(H)$ 的同胚，因此 $s$ 是 H 的同构到 G 的谎言子群 （*可微分和解析流形*，R，5.8.3）。最后，对于所有$g \in G$，$g = (s \circ p)(g) \cdot n$对于某些$n \in N$；由于 $s \circ p$ 是解析的，李群 G 是 $s(H)$ 通过 N 的半直接乘积。
 
-### 5. 流形除以李群的商
+### 5. 商 / 流形 by 李群
 
-设G为类$C^r$的李群、X流形和左运算(*代数*、章I, § 5, no. 1)的$(g, x) \mapsto gx$律 X 上 G 的类$C^r$。对于所有$g \in G$，让$\tau(g)$表示由g定义的X的自同构$x \mapsto gx$。对于所有$x \in X$，让$\rho(x)$表示G到由x定义的X的轨道映射$g \mapsto gx$。然后
+令G为类$C^r$的李群、X流形和左运算(*代数*、章I, § 5, no. 1)的$(g, x) \mapsto gx$律 X 上 G 的类 $C^r$。对于所有$g \in G$，让$\tau(g)$表示由g定义的X的自同构$x \mapsto gx$。对于所有$x \in X$，让$\rho(x)$表示G到由x定义的X的轨道映射$g \mapsto gx$。然后
 
 $$
 \rho(x) = \rho(gx) \circ \delta(g), \qquad \rho(x) = \tau(g) \circ \rho(x) \circ \gamma(g^{-1})
@@ -326,9 +326,9 @@ $$
 
 (ii) *如果 $\rho(x)$ 在 $g_0$ 处具有秩 k，则对于所有 $g \in G$，$\rho(gx)$ 的常数秩等于 k。*
 
-由于 $T_g(\delta(g)), T_x(\tau(g))$ 和 $T_g(\gamma(g^{-1}))$ 是同构，因此这紧随公式 (4) 和 (5)。
+由于 $T_g(\delta(g)), T_x(\tau(g))$ 和 $T_g(\gamma(g^{-1}))$ 是同构，因此这紧接着公式 (4) 和 (5)。
 
-#### 推论{#lie-iii-s1-n5-cor-1 .statement tag=0A7P}
+#### 推论 {#lie-iii-s1-n5-cor-1 .statement tag=0A7P}
 
 *让$x \in X$。如果 K 的特征为 0 并且 X 是有限维的，则 $\rho(x)$ 是浸没。如果进一步 $\rho(x)$ 是单射的，$\rho(x)$ 是浸入式。*
 
@@ -348,13 +348,13 @@ $$
 
 #### 命题 10 {#lie-iii-s1-prop-10 .statement tag=0A7Q}
 
-*设G为类$C^r$的李群和X流形，以及X上G的类$C^r$的左运算律。假设：*
+*令G为类$C^r$的李群和X流形，以及X上G的类$C^r$的左运算的律。假设：*
 
 (a) *群G在X上正常且自由地运行；*
 
 (b) *对于所有 $x \in X$，$\rho(x)$ 是浸没（如果 K 具有特征 0 并且 X 是有限维，则为 (a) 的推论）。*
 
-那么 G 在 X 上定义的等价关系是正则的（可微且解析流形，R，5.9.5）。 商集 X/G 上存在且仅有一个流形结构，使得典范映射 $\pi : X \to X/G$ 是淹没。这个流形结构的基础拓扑是X的商拓扑；这是豪斯多夫。最后，$(X, G, X/G, \pi)$是主左纤维束。\脚注{†可微分和解析流形，R，6.2.1中定义的主纤维束是主右纤维束。主左纤维束的定义可以由此以明显的方式推导出来。}
+那么 G 在 X 上定义的等价关系是正则的（可微且解析流形，R，5.9.5）。 商集 X/G 上存在且仅有一个流形结构，使得典范映射 $\pi : X \to X/G$ 是淹没。这个流形结构的底层拓扑是X上的商拓扑；这是豪斯多夫。最后，$(X, G, X/G, \pi)$是主左纤维束。\脚注{†可微分和解析流形，R，6.2.1中定义的主纤维束是主右纤维束。主左纤维束的定义可以由此以明显的方式推导出来。}
 
 设$\theta$为$G \times X$的映射$(g, x) \mapsto (x, gx)$到$X \times X$。这个映射是类$C^\tau$。我们证明这是一种沉浸。对于 $u \in T_g(G)$ 和 $v \in T_x(X)$，通过 (6)，
 
@@ -378,17 +378,17 @@ $$
 
 令 pr$_1$ 和 pr$_2$ 为$X \times X$到两个因子的规范投影。 $T_{(x, gx)}(\mathrm{pr}_1)$映射$H_{g, x}$到$T_x(X)$是直接的，$T_{(x, gx)}(\mathrm{pr}_1) | T_{(x, gx)}(C)$的核是$I_{g, x}$。因此，$\mathrm{pr}_1 | C$ 是C 淹没在X 上。由可微分和解析流形，R，5.9.5，R 是正则的。因此，到定义时，商集X/G上存在且仅一个流形结构，使得$\pi$是淹没。 X/G 的基础拓扑是X 的商拓扑（可微分和解析流形，R，5.9.4）。这个拓扑是Hausdorff（一般拓扑、章III, § 4、命题3）。
 
-对于所有 $b \in X/G$，存在 b 的开邻域 W 和态射 $\sigma : W \to X$，使得 $\pi \circ \sigma = \mathrm{id}_W$（可微分和解析流形，R，5.9.1）。令$\phi$为$G \times W$的双射$(g, w) \mapsto g\sigma(w)$到$\pi^{-1}(W)$。它是类$C^\tau$。然后 $\pi(g\sigma(w)) = w$ 和
+对于所有 $b \in X/G$，存在 b 的开邻域 W 和态射 $\sigma : W \to X$，使得$\pi \circ \sigma = \mathrm{id}_W$（可微分和解析流形，R，5.9.1）。令$\phi$为$G \times W$的双射$(g, w) \mapsto g\sigma(w)$到$\pi^{-1}(W)$。它是类$C^\tau$。然后 $\pi(g\sigma(w)) = w$ 和
 
 $$
 \theta^{-1}(\sigma(w), g\sigma(w)) = (g, \sigma(w))
 $$
 
-因此，$\phi$的逆双射等于类$C^r$。显然 $\phi(gg', w) = g\phi(g', w)$ 对应 $w \in W,\ g \in G,\ g' \in G$。因此 $(X, G, X/G, \pi)$ 是主左纤维丛。
+因此$\phi$的逆双射等于类$C^r$。显然 $\phi(gg', w) = g\phi(g', w)$ 对应 $w \in W,\ g \in G,\ g' \in G$。因此 $(X, G, X/G, \pi)$ 是主左纤维丛。
 
 #### 注 {#lie-iii-s1-n5-rem-1 .statement tag=0A7R}
 
-With the above hypotheses, further let $H$ be a manifold of class $C^r$ and $(x, h) \mapsto m(x, h)$ a mapping of class $C^r$ of $X \times H$ into $X$ such that $m(gx, h) = gm(x, h)$ for $x \in X,\ g \in G,\ h \in H$. 令 $n$ 为 $(X/G) \times H$ 的映射到由 $m$ 取商得出的$X/G$。 我们证明 $n$ * 是类* $C^r$。 考虑图表
+根据上述假设，进一步令$H$是类$C^r$的流形，$(x, h) \mapsto m(x, h)$是$X \times H$的类$C^r$到$X$的映射，使得$m(gx, h) = gm(x, h)$对于$x \in X,\ g \in G,\ h \in H$。 设$n$为$(X/G) \times H$的映射，并通过取商而从$m$导出$X/G$。 我们证明 $n$ * 是类* $C^r$。 考虑图表
 
 $$
 \begin{array}{ccc}
@@ -416,7 +416,7 @@ $$
 T_g(\rho(x)) = T_x(\tau(g)) \circ T_e(\rho(x)) \circ T_g(\delta(g)).
 $$
 
-另一方面，如果$\eta$表示$G \times X$的映射$(g, x) \mapsto xg$进入$X$，则公式（6）仍然有效。 命题 9，其推论和命题 10 仍然同样正确（最后将“主左纤维束”替换为“主右纤维束”）。
+另一方面，如果$\eta$表示$G \times X$的映射$(g, x) \mapsto xg$进入$X$，则公式（6）仍然有效。 命题 9，它的推论和命题 10 仍然同样正确（最后将“主左纤维束”替换为“主右纤维束”）。
 
 ### 6. 同质空间和商群
 
@@ -438,7 +438,7 @@ $$
 
 假设$G$是正规的。设 $m$ 为 $(X/G) \times (X/G)$ 的映射 $(x, y) \mapsto xy^{-1}$ 到 $X/G$。然后$(m \circ (\pi \times \pi))(x, y) = \pi(xy^{-1})$对于$X$中的所有$x, y$。因此 $m \circ (\pi \times \pi)$ 是解析的。由于 $\pi \times \pi$ 是满射淹没，$m$ 是解析的（可微分和解析流形，R. 5.9.5），从而 (ii)。
 
-(i) 中定义的齐次集合 $X/G$ 与流形结构称为 $X$ 与 $G$ 的商（左）李齐次空间。 （右）李齐次空间 $G \setminus X$ 的定义类似。当$G$正常时，(ii)中定义的李群$X/G$称为$X$除以$G$的商李群。
+(i) 中定义的齐次集合 $X/G$ 与流形结构称为商（左） $X$ 的齐次空间与 $G$。 （右）李齐次空间 $G \setminus X$ 的定义类似。当$G$正常时，(ii)中定义的李群$X/G$被$G$称为$X$的商李群。
 
 #### 命题 12 {#lie-iii-s1-prop-12 .statement tag=0A7T}
 
@@ -446,10 +446,10 @@ $$
 (i) 存在$y \in Y$使得$\varphi(y)$是满射淹没；
 (i') 对于所有 $y \in Y$，$\varphi(y)$ 是满射淹没；
 (ii) 存在$y \in Y$，使得$X_y$是$X$的谎言子群，并且$X/X_y$到$Y$的典范映射是流形同构；
-(ii') 对于所有$y \in Y$，$X_y$是$X$的谎言子群，而$X/X_y$的典范映射进入$Y$是流形同构；
+(ii') 对于所有$y \in Y$，$X_y$是$X$的谎言子群，$X/X_y$的典范映射进入$Y$是流形同构；
 (iii) $X \times Y$到$Y \times Y$的映射$(x, y) \mapsto (y, xy)$是满射淹没。
 
-由于$X$到$X/X_y$的典范映射是浸没，因此等价 (i) $\Leftrightarrow$ (ii)、(i') $\Leftrightarrow$ (ii') 是直接的。 (i) $\Leftrightarrow$ (i') by 命题 9 of no. 5。 等价 (i') $\Leftrightarrow$ (iii) 由no. 5 的公式 (7) 得出。
+由于$X$到$X/X_y$的典范映射是浸没，所以等价 (i) $\Leftrightarrow$ (ii)、(i') $\Leftrightarrow$ (ii') 是直接的。 (i) $\Leftrightarrow$ (i') by 命题 9 of no. 5。 等价 (i') $\Leftrightarrow$ (iii) 由 no. 5 的公式 (7) 得出。
 
 在命题 12 的条件下，$Y$ 称为$X$ 的（左）李齐次空间。 $X$ 的右李齐次空间类似地定义。
 
@@ -459,21 +459,21 @@ $$
 $$
 T_{(e, e)}(\{e\} \times G) = \{0\} \times T_e(G)
 $$
-其中空间中有同构到 $T_e(G)$ 上。因此，$T_{(e, e)}(\rho)$是满射，并且$\operatorname{Ker} T_{(e, e)}(\rho)$承认例的拓扑补充$T_e(G) \times \{0\}$在$T_{(e, e)}(G \times G)$中。因此 $\rho$ 是$(e, e)$ 的浸没。因此$G$是$G \times G$的左李齐次空间。
+其中空间中有同构到 $T_e(G)$ 上。因此，$T_{(e, e)}(\rho)$是满射，并且$\operatorname{Ker} T_{(e, e)}(\rho)$承认例如$T_{(e, e)}(G \times G)$中的拓扑补充$T_e(G) \times \{0\}$。因此 $\rho$ 是$(e, e)$ 的浸没。因此$G$是$G \times G$的左李齐次空间。
 
 #### 命题 13 {#lie-iii-s1-prop-13 .statement tag=0A7V}
 
 设$G$为李群，$H$为$G$的正常谎言子群，类$C^r$的$X$流形以及$(g, x) \mapsto gx$律的左运算 $X$ $G$ 类 $C^r$。假设命题 10 的条件(a)和(b)成立。
 
-(i) $X$上$H$的左运算$(h, x) \mapsto hx$的律满足命题10的条件(a)和(b)（这样我们就可以考虑流形$X/G$和$X/H$的商）。
+(i) $X$上$H$的左运算$(h, x) \mapsto hx$的律满足命题10的条件(a)和(b)(这样我们可以考虑商流形$X/G$和$X/H$）。
 
-(ii) $X$定义上$G$左运算律取$X/H$上$G/H$类$C^r$左运算的商律；这个律满足命题10的条件(a)和(b)（这样我们就可以考虑商流形$(X/H)/(G/H)$）。
+(ii) $X$定义上$G$左运算律取$X/H$上$G/H$类$C^r$左运算商律；这个律满足命题10的条件（a）和（b）（这样我们就可以考虑商流形$(X/H)/(G/H)$）。
 
-(iii) 将$X$的典范映射代入$X/H$定义，将$X/G$的商双射代入$(X/H)/(G/H)$。这个双射是类$C^r$流形同构。
+(iii) 将 $X/G$ 的商双射移至 $(X/H)/(G/H)$，将 $X$ 的典范映射移至 $X/H$ 定义。这个双射是类$C^r$流形同构。
 
 显然$H$在$X$上自由运行；它通过*一般拓扑*，章III, § 4, no. 1，*例*正常运行。 1. $X$上$H$的轨道映射是浸没，因为$H$的典范嵌入到$G$是浸没。这就证明了(i)。
 
-$X$上$G$左运算律显然是定义，在求商上，$X/H$上$G/H$左运算律。这个律是类$C^r$的*可微分和解析流形*，R，5.9.6。设$g \in G$和$x \in X$使得$(Hg)(Hx) = Hx$；然后$H(gx) = Hx$，因此$gx \in Hx$和$g \in H$；这证明了$G/H$可以在$X/H$上自由运行。 $G \times X$到$X \times X$的映射$\theta : (g, x) \mapsto (x, gx)$已关闭；另一方面，$\theta(Hg \times Hx) = Hx \times H(gx)$；紧接着映射
+$X$上$G$左运算律明显定义，取商上，$X/H$上$G/H$左运算律。这个律是类$C^r$的*可微分和解析流形*，R，5.9.6。设$g \in G$和$x \in X$使得$(Hg)(Hx) = Hx$；然后$H(gx) = Hx$，因此$gx \in Hx$和$g \in H$；这证明了$G/H$可以在$X/H$上自由运行。 $G \times X$至$X \times X$的映射$\theta : (g, x) \mapsto (x, gx)$已关闭；另一方面，$\theta(Hg \times Hx) = Hx \times H(gx)$；紧接着映射
 
 $$(Hg, Hx) \mapsto (Hx, H(gx))$$
 
@@ -499,20 +499,20 @@ $$
 
 断言 (iii) 由上述和可微分和解析流形, R, 5.9.7 得出。
 
-#### 推论{#lie-iii-s1-n6-cor-1 .statement tag=0A7W}
+#### 推论 {#lie-iii-s1-n6-cor-1 .statement tag=0A7W}
 
 设 G 为李群和 H 以及 L G 的正规李子子群和 L ⊂ H。则 H/L 是 G/L 的正规李子子群以及 G/H 的规范双射到(G/L)/(H/L) 为李群同构。
 
-### 7. ORBITS
+### 7. 轨道
 
 #### 命题 14 {#lie-iii-s1-prop-14 .statement tag=0A7X}
 
-设 G 为李群、X 解析流形以及 (g, x) ↦ gx 律 G 在 X 上的解析左运算。设 x ∈ X。假设相应的轨道映射 ρ(x) 是浸没（如果 K 具有特征 0 并且 X 是有限维（命题 9 的推论），则总是这种情况）。令 G_x 为 G 中 x 的稳定子。
-(i) G_x 是谎言子群并且 T_e(G_x) = Ker T_e(ρ(x))。
+设 G 为李群、X 解析流形以及 (g, x) ↦ gx 律 G 在 X 上的解析左运算。设 x ∈ X。假设相应的轨道映射 ρ(x) 是浸没（如果 K 具有特征 0 并且 X 是有限维（推论到命题 9），则总是这种情况）。令 G_x 为 G 中 x 的稳定子。
+(i) G_x 是一个谎言子群并且 T_e(G_x) = Ker T_e(ρ(x))。
 (ii) 齐次空间 G/G_x 到X 的典范映射 i_x 是像 Gx 的浸没。
-(iii) 如果另外轨道 Gx 是局部闭的，且 G 上的拓扑承认可数基，则 Gx 是 X 的子流形，i_x 是流形 G/G_x 到流形 Gx 上的同构，且 T_x(Gx) = Im T_e(ρ(x))。
+(iii) 如果进一步轨道 Gx 是局部闭的，且 G 上的拓扑承认可数基，则 Gx 是 X 的子流形，i_x 是流形 G/G_x 到流形 Gx 上的同构，且 T_x(Gx) = Im T_e(ρ(x))。
 
-x 在 ρ(x) 下的逆像是 G_x。由于 ρ(x) 是浸没，G_x 是子流形，并且对于所有 g ∈ G，gG_x = ρ_{(x)}^{-1}(gx) 在 g 处的切线空间 J 为 Ker T_g(ρ(x)) （可微分和解析流形，R，5.10.5），从而 (一).令 π: G → G/G_x 为典范映射。那么 i_x ∘ π = ρ(x)。由于 G/G_x 是 G 的商流形，因此等式证明 i_x 是解析的。此外，T_g(ρ(x))和T_g(π)的核都等于J。因此T_{π(g)}(i_x)是单射的。 T_{π(g)}(i_x) 的像等于 T_g(ρ(x)) 的像，因此承认拓扑补充。这就证明了(ii)。
+x 在 ρ(x) 下的逆像是 G_x。由于 ρ(x) 是浸没，G_x 是子流形，并且对于所有 g ∈ G，gG_x = ρ_{(x)}^{-1}(gx) 在 g 处的切线空间 J 为 Ker T_g(ρ(x)) （可微分和解析流形，R，5.10.5），从而 (一).令 π: G → G/G_x 为典范映射。那么 i_x ∘ π = ρ(x)。由于G/G_x是G的商流形，因此等式证明i_x是解析的。此外，T_g(ρ(x))和T_g(π)的核都等于J。因此T_{π(g)}(i_x)是单射的。 T_{π(g)}(i_x) 的像等于 T_g(ρ(x)) 的像，因此承认拓扑补充。这就证明了(ii)。
 
 假设Gx是局部闭的。 Gx 的每个点在 Gx 中都有邻域，它同胚于完全度量空间的闭子空间，因此是 Baire 空间。因此 Gx 是 Baire 空间（一般拓扑、章 IX, § 5、命题 4）。如果 G 具有可数基，则 i_x 是 G/G_x 到 Gx 的同胚（一般拓扑、章 IX, § 5）。然后通过 (ii) 可微分和解析流形，R，5.8.3，i_x 是流形 G/G_x 的同构到流形 Gx 上并且
 
@@ -524,13 +524,13 @@ $$
 
 设G是类C^r的有限维李群、X流形和X上G的类C^r的左运算的(g, x)↦gx律。那么命题14仍然有效。唯一需要不同的证明的点是G_x是谎言子群这一事实。但如果 r ≠ ω，则 K = \mathbf{R}；显然 G_x 是闭集，G_x 是 § 8、定理 2 的谎言子群。
 
-#### 推论{#lie-iii-s1-n7-cor-1 .statement tag=0A7Z}
+#### 推论 {#lie-iii-s1-n7-cor-1 .statement tag=0A7Z}
 
 设G为李群，其拓扑允许可数基和X一个非空有限维解析流形，其中律为G在X上的解析左运算。假设 G 在 X 上运算传递性，并且 K 的特征为 0。则 X 是 G 的李齐次空间。
 
 设 x ∈ X。 x 的轨道等于 X，是闭集，因此我们可以应用命题 14 (iii)。
 
-### 8. 向量丛与操作员
+### 8. 向量丛与运算符
 
 令G为类C^r的李群、X流形和X上G的类C^r的左运算的(g,x)↦gx律。设E为类C^r的向量丛，其中基空间X和π：E→X投影到X。对于所有 x ∈ X，令 E_x 为 E 在 x 处的纤维。令 (g, u) ↦ gu 为 E 上 G 左侧运算的律，使得 π 与 X 和 E 上 G 的运算兼容。对于所有 g ∈ G 且所有 x ∈ X、限制到映射 u ↦ 的 E_x gu 是 E_x 到 E_{gx} 的双射 ψ_{g, x}。我们假设，对于所有 g ∈ G 和所有 x ∈ X，ψ_{g, x} 是连续且线性的，因此是可规范空间 E_x 的同构到可规范空间 E_{gx} 上。
 
@@ -566,7 +566,7 @@ G 在 τE 上的左运算 (g, u) ↦ gu 的 τ(ψ_{g, x}) 定义律以及 τE �
 
 令 pr_1（分别为 pr_2）为 G × X 在 G（分别为 X）上的规范投影，并令 E_1（分别为 E_2）为 TG（分别为 TX）相对于 pr_1（分别为 pr_2）的逆像。那么向量丛 T(G × X) 就是E_1 和E_2 的直和。令 i: E_2 → T(G × X) 和 q: T(G × X) → E_2 为由此分解定义为直和的规范向量丛态射。设 φ 为 G × X 的映射 (g, x) ↦ (g, gx) 到 G × X。那么定义 4 中的 ψ 表示的映射（我们设 E = TX）就是 q ∘ T(φ) ∘ i。但 T(φ) 是类 C^{r-1} 的向量丛的 φ 态射（*可微且解析流形*，R，8.1.2）。
 
-#### 推论{#lie-iii-s1-n8-cor-1 .statement tag=0A83}
+#### 推论 {#lie-iii-s1-n8-cor-1 .statement tag=0A83}
 
 *如果 τ 是类 C^r 的同构的向量函子，则 τ(TX) 是类 C^{r-1} 的向量 G 丛。*
 
@@ -574,7 +574,7 @@ G 在 τE 上的左运算 (g, u) ↦ gu 的 τ(ψ_{g, x}) 定义律以及 τE �
 
 #### 注 1 {#lie-iii-s1-n8-rem-1 .statement tag=0A84}
 
-如果 τ 是类 C^r 的同构 *in 有限维* 的向量函子，并且 E 是有限秩，则 τE 的定义类似，命题 15 仍然有效；如果 X 是有限维的，命题 16 的推论仍然有效。
+如果 τ 是类 C^r 的同构 *in 有限维* 的向量函子，并且 E 是有限秩，则 τE 的定义类似，命题 15 仍然有效；如果 X 是有限维的，推论到命题 16 仍然有效。
 
 #### 例 {#lie-iii-s1-n8-exa-1 .statement tag=0A85}
 
@@ -582,7 +582,7 @@ G 在 τE 上的左运算 (g, u) ↦ gu 的 τ(ψ_{g, x}) 定义律以及 τE �
 
 #### 命题 17 {#lie-iii-s1-prop-17 .statement tag=0A86}
 
-*Let G be a Lie group, X a left Lie homogeneous space of G, x_0 a point of X, G_0 the stabilizer of x_0 in G, E and E' left vector G-bundles of class C^r and base space X, E_0 (resp. E'_0) the fibre of E (resp. E') at x_0 and f an element of $\mathscr{L}(E_0, E'_0)$ such that f(gu) = gf(u) for all u ∈ E_0 and g ∈ G_0. 那么存在且仅有一个 E 的态射到 E' 与 G 的运算兼容并扩展 f。*
+*设G是李群，XG的左李齐次空间，x_0是X的点，G_0是类C^r的G、E和E'左向量G丛中x_0的稳定子，基空间X，E_0（分别是E'_0）是E（分别是E'）在x_0处的纤维f 是 $\mathscr{L}(E_0, E'_0)$ 的元素，对于所有 u ∈ E_0 且 g ∈ G_0，f(gu) = gf(u)。 那么存在且仅有一个 E 的态射到 E' 与 G 的运算兼容并扩展 f。*
 
 这个态射的唯一性是显而易见的。我们证明它的存在。设 G 的 g、g' 元素和 u ∈ E_0 使得 gu = g'u。那么 g'^{-1}g ∈ G_0 且 g'^{-1}gu = u，因此 g'^{-1}gf(u) = f(u)，即 gf(u) = g'f(u)。因此，通过写 φ(gu) = gf(u) 将映射 φ 定义为 E 到 E'。显然，这个映射扩展 f 与 G 的运算兼容。我们证明 φ 是类 C^r 的向量丛态射。令x_1 ∈ X。在X中存在x_1的开邻域V和G的子流形W，使得映射g↦gx_0是类C^r的同构θ到V。通过缩小 V 和 W，可以假设：
 (1) E | V（分别为 E' | V）与纤维 M（分别为 M'）的平凡向量丛相同；
@@ -606,9 +606,9 @@ $$
 \sigma_u(gx_0) = gu = gf(u) = \varphi(gu) = \varphi((u, gx_0))
 $$
 
-因此对于所有 x ∈ X，有 σ_u(x) = φ((u, x))，这证明了我们的断言。
+因此，对于所有 x ∈ X，有 σ_u(x) = φ((u, x))，这证明了我们的断言。
 
-*对于例，设G是G的有限维实李群，G_0紧李子群和X齐次空间G/G_0。设 x_0 表示 X 中 e 的典范像。 G_0 下的 T_{x_0}(X) 不变量存在正定对称双线性形式（积分，章 VII, § 3，命题 1）。 应用上式到 (TX)* ⊗ (TX)*，我们看到X 上存在 G_* 下的解析黎曼度量不变量。
+*例如，令 G 为 G 的有限维实李群、G_0 紧李子群以及 X 齐次空间 G/G_0。设 x_0 表示 X 中 e 的典范像。 G_0 下的 T_{x_0}(X) 不变量存在正定对称双线性形式（积分，章 VII, § 3，命题 1）。 应用上式到 (TX)* ⊗ (TX)*，我们看到X 上存在 G_* 下的解析黎曼度量不变量。
 
 † 我们这里所说的 E 的截面是指 X 的映射 σ（不一定是类 C^r）到 E 中，使得 p ∘ σ = Id_X，其中 p 表示 E 的投影到 X 上。
 
@@ -616,13 +616,13 @@ $$
 
 假设 $G_0$ 对 $E_0$ 的运算很简单。令 $E'$ 为具有基空间 $X$ 和纤维 $E_0$ 的平凡 $G$ 束。在$E$到$E'$上存在且仅有一个同构与$G$的运算兼容并扩展$\mathrm{Id}_{E_0}$。
 
-这紧接着命题 17。
+这紧随命题 17。
 
 #### 注 2 {#lie-iii-s1-n8-rem-2 .statement tag=0A89}
 
-在这个数中，左运算的律可以全部替换为右运算的律。
+在这个编号中，左运算的律可以全部替换为右运算的律。
 
-### 9. 当地定义李群
+### 9. 本地定义 / 李群
 
 #### 命题 18 {#lie-iii-s1-prop-18 .statement tag=0A8A}
 
@@ -638,7 +638,7 @@ $$
 
 (a) 设$A$为$V$的开子集和$V$的$v_0$元素，使得$v_0A \subset V$。那么$v_0A$是$v \in V$的集合，使得$v_0^{-1}v \in A$，因此是$V$的开子集（考虑(ii)）。此外，(ii) 意味着$A$到$v_0A$的映射$v \mapsto v_0v$和$v_0A$到$A$的$v \mapsto v_0^{-1}v$是逆解析双射，因此也是解析同构。
 
-(b) 我们$V$中$e$的选择开邻域$W$，使得$W = W^{-1}$，$W^3 \subset V$，并且存在流形$U$的图表$(W, \phi, E)$，域为$W$。 For all $g \in G$, let $\phi_g$ be 映射 $h \mapsto \phi(g^{-1}h)$ of $gW$ into $E$.我们证明图表 $\phi_g$ 和 $G$ 是分析兼容的。令$g_1, g_2$为$G$的元素，使得$g_1W \cap g_2W \neq \emptyset$，使得$g_2^{-1}g_1$和$g_1^{-1}g_2$属于到$W^2$。根据 (a)，$W \cap g_1^{-1}g_2W$ 是 $W$ 的开子集，因此
+(b) 我们$V$中$e$的选择开邻域$W$，使得$W = W^{-1}$，$W^3 \subset V$，并且存在流形$U$的图表$(W, \phi, E)$，域为$W$。对于所有$g \in G$，令$\phi_g$为$gW$的映射$h \mapsto \phi(g^{-1}h)$到$E$。我们证明图表 $\phi_g$ 和 $G$ 是分析兼容的。令$g_1, g_2$为$G$的元素，使得$g_1W \cap g_2W \neq \emptyset$，使得$g_2^{-1}g_1$和$g_1^{-1}g_2$属于到$W^2$。根据 (a)，$W \cap g_1^{-1}g_2W$ 是 $W$ 的开子集，因此
 $$
 \phi_{g_1}(g_1W \cap g_2W) = \phi(W \cap g_1^{-1}g_2W)
 $$
@@ -648,19 +648,19 @@ $$
 $$
 通过 (a) 我们看到 $\phi_{g_2} \circ \phi_{g_1}^{-1}$ 是解析的。
 
-(c) By (b) there exists on $G$ an analytic 流形结构 such that $(\phi_g)_{g \in G}$ is an atlas on $G$.对于所有 $g_0 \in G$，映射 $g \mapsto g_0g$ ($g \in G$) 使该图集保持不变，因此是 $G$ 的自同构与此流形结构。特别是满足条件(GL₁)。
+(c) 通过(b)，$G$ 上存在解析流形结构，使得$(\phi_g)_{g \in G}$ 是$G$ 上的图集。对于所有 $g_0 \in G$，映射 $g \mapsto g_0g$ ($g \in G$) 使该图集保持不变，因此是 $G$ 的自同构与此流形结构。特别是满足条件(GL₁)。
 
 (d)设$v_0 \in V$。通过(ii)，在$W$中存在$e$的开邻域$A$使得$v_0A \subset V$。这首先证明$V$在$G$开。由(a) $A$到$v_0A$的映射$v \mapsto v_0v$是由U诱导的解析同构和结构。由(c)我们看到G和U诱导上的流形结构相同结构在 v_0A 上，因此最终在 V 上。
 
-(e) by (d), (ii) and (iii), we see that 条件 (GL_2) and (GL_3) hold.因此G是李群。
+(e) 通过(d)、(ii) 和(iii)，我们看到条件 (GL_2) 和(GL_3) 成立。因此G是李群。
 
 (f) 如果 G 上的流形结构与 G 的群结构兼容，且V 是 G 的开子流形，则 (\phi_g)_{g\in G} 是 G 上的图集。因此命题的唯一性断言。
 
 #### 命题 19 {#lie-iii-s1-prop-19 .statement tag=0A8B}
 
-设G是群、H李群和群G的f同态到群H。假设G中存在e_G的开邻域、e_H处流形H的图(V,\phi,E)和闭图E 的向量子空间 F 承认拓扑补充，使得 f(U) \子集 V 和 \phi \circ f)|U 是 U 到 \phi(V) \cap F 的同胚。那么存在唯一的流形结构在 G 上，使得 f 是浸没； this 结构 is 逆像 under f of 流形结构 on H. With this 结构 G is 李群.
+设G是群、H李群和群G的f同态到群H。假设G中存在e_G的开邻域、e_H处流形H的图(V,\phi,E)和闭图E 的向量子空间 F 承认拓扑补充，使得 f(U) \子集 V 和 \phi \circ f)|U 是 U 到 \phi(V) \cap F 的同胚。那么存在唯一的流形结构在 G 上，使得 f 是浸没；这个结构是H上流形结构的f下的逆像。有了这个结构G是李群。
 
-由于 G（或 H）的翻译是同态（或解析同构），f 满足可微分和解析流形，R，5.8.1 的条件 (R)。 The first two 断言 of 命题 then follow from Differentiable and Analytic 流形, R, loc.引用。考虑交换律图表
+由于 G（或 H）的翻译是同态（或解析同构），f 满足可微分和解析流形，R，5.8.1 的条件 (R)。 命题的前两个断言随后来自可微分和解析流形，R，loc。引用。考虑交换律图表
 
 $$
 \begin{array}{ccc}
@@ -672,21 +672,21 @@ $$
 
 其中 m(x, y) = xy^{-1} （分别为 n(x, y) = xy^{-1}），对于 G 中的 x、y（分别为 H）。那么 n \circ (f \times f) 是解析的，因此 f \circ m 是解析的，因此 m 是解析的，因为 f 是浸没。因此G是李群。
 
-李群结构 on G is called 逆像 of 李群结构 on H under f.
+G 上的李群结构在 f 下称为 H 上的李群结构的逆像。
 
 #### 推论 {#lie-iii-s1-n9-cor-1 .statement tag=0A8C}
 
-Let G be a topological 群, N a discrete normal 子群 of G and \pi 典范映射 of G onto G/N. Suppose that an analytic 流形结构 is given on G/N, compatible with the topological 群结构 on G/N. Then there exists a unique 流形结构 on G such that \pi is an immersion; this 结构 is 逆像 under \pi of 流形结构 on G/N. With this 结构, \pi is étale, G is 李群 and G/N is the quotient 李群 of G by N.
+设 G 为拓扑群，N 为 G 的离散法线子群，G 到 G/N 的 \pi 典范映射。假设在 G/N 上给出解析流形结构，与 G/N 上的拓扑群结构兼容。那么 G 上存在唯一的流形结构使得 \pi 是浸没；这个结构是G/N上流形结构的\pi下的逆像。有了这个结构，\pi是étale，G是李群，G/N是G乘N的商李群。
 
 #### 注 {#lie-iii-s1-n9-rem-1 .statement tag=0A8D}
 
 设 H 为连通实数或复数李群，\tilde{H} 是其通用覆盖†，而 \pi 典范映射是 \tilde{H} 到 H 上的。当我们谈到 \tilde{H} 时
 
-† 参见。一般拓扑、章XI； whilst awaiting the publication of this 章, see for 例 L. S. Pontrjagin, Topological 群, 2nd edition translated from Russian, Gordon and Breach, 1966; or G. Hochschild, 结构 of 李群, Holden-Day, 1965.
+† 参见。一般拓扑、章XI；在等待章的发布时，请参阅 L 示例。 S. Pontrjagin，《拓扑学》群，第 2 版，译自俄语，Gordon 和 Breach，1966 年；或 G. Hochschild，结构 of 李群，霍尔顿日，1965 年。
 
 李群
 
-as 李群, we shall always mean with 逆像结构 of that on H under $\pi$.
+作为李群，我们始终表示$\pi$下H上的逆像结构。
 
 ### 10. 群细菌
 
@@ -808,13 +808,13 @@ $$
 
 设H为李群，U是H的李准子群胚芽和$g \in H$的N集合，使得U和$gUg^{-1}$在e处具有相同的胚芽。如果 K 的特征为 0，则 G 上存在且仅有一个流形结构，其属性 (i) 和 (ii) 为命题 22。 证明与命题 22 相同。
 
-#### 推论{#lie-iii-s1-n10-cor-1 .statement tag=0A8I}
+#### 推论 {#lie-iii-s1-n10-cor-1 .statement tag=0A8I}
 
 保留命题 22 的记号，令G 为U 生成的H 的子群。则G 是N 的开子群。G 上存在且仅有一个李群结构，使得U 是G 的开子流形，且G 的典范嵌入到H 中是浸没。
 
 #### 注 {#lie-iii-s1-n10-rem-1 .statement tag=0A8J}
 
-保留命题 22 的记号及其推论，假设 K 的特征为 0，H 是有限维的，U 上的拓扑允许可数的基。即使有所有这些假设，G 也可能在 H (习题 3) 中不闭合。但是，如果 G 是闭集，G 是 H 的谎言子群。因为映射 $(g, h) \mapsto gh$ 是 G 在 H 上的解析左运算的律。e 的轨道是 G。然后我们的断言由命题 2 (iv) 和 14 (iii) 得出。
+保留命题 22 的记号及其推论，假设K的特征为0，H是有限维的，并且U上的拓扑允许可数的基。即使有所有这些假设，G 也可能在 H (习题 3) 中不闭合。但是，如果 G 是闭集，G 是 H 的谎言子群。因为映射 $(g, h) \mapsto gh$ 是 G 在 H 上的解析左运算的律。e 的轨道是 G。然后我们的断言由命题 2 (iv) 和 14 得出（三）。
 
 ### 11. 律运算块
 
@@ -822,10 +822,10 @@ $$
 
 #### 定义 6 {#lie-iii-s1-def-6 .statement tag=0A8K}
 
-A law chunk of left operation of class $C^r$ of G on X is a mapping $\psi$ defined on an open subset $\Omega$ of $G \times X$ containing $\{e\} \times X$, with values in X and with the following properties:
-(i) $\psi$ is of class $C^r$;
-(ii) for all $x \in X$, $\psi(e, x) = x$;
-(iii) there exists a neighbourhood $\Omega_1$ of $\{e\} \times \{e\} \times X$ in $G \times G \times X$ such that, for $(g, g', x) \in \Omega_1$, the elements of $m(g, g')$, $\psi(m(g, g'), x)$, $\psi(g, \psi(g', x))$ are defined and $\psi(g, \psi(g', x)) = \psi(m(g, g'), x)$.
+G 的类 $C^r$ 在 X 上的左运算的法则块是在 $G \times X$ 的开子集 $\Omega$ 上定义的映射 $\psi$，其中包含 $\{e\} \times X$，其值在 X 中并具有以下属性：
+(i) $\psi$属于$C^r$类；
+(ii) 对于所有$x \in X$、$\psi(e, x) = x$；
+(iii) 在$G \times G \times X$中存在$\{e\} \times \{e\} \times X$的邻域$\Omega_1$，使得对于$(g, g', x) \in \Omega_1$，定义了$m(g, g')$、$\psi(m(g, g'), x)$、$\psi(g, \psi(g', x))$的元素以及$\psi(g, \psi(g', x)) = \psi(m(g, g'), x)$。
 
 类$C^r$右运算的律块的定义类似。
 我们经常写$gx$而不是$\psi(g, x)$。

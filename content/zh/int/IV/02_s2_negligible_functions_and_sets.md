@@ -37,19 +37,19 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 6cc9380507b399dea7e455ad91b2da67010a56c0b08d265dcf968f2759c7bef5
+content_sha256: 3d08cbc5a57025746878ef43f17e976287cc9d57b86e86f18a43916b52ffb30f
 translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
 translation_method: google
 source_content_sha256: 48a74bb29ea2e0671914af4710029a73eeba8926caa6ba8d663276f288e2e1b1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 3c614828c2fdcec369cbf178111c61494ee86e9f2b88110498b2587f8bb79fa1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。可以忽略不计的函数和集合
+## § 2。 函数和集合可忽略不计
 
 ### 1. 可忽略不计的积极函数
 
@@ -141,13 +141,13 @@ $$
 
 对于$x \in X$的集合$H_n$，使得$f_n(x) \neq g_n(x)$可以忽略不计，因此它们的并H也可以忽略不计（No. 2，命题4），而这个集合满足要求。
 
-#### 推论{#int-iv-s2-n4-cor-1 .statement tag=08QK}
+#### 推论 {#int-iv-s2-n4-cor-1 .statement tag=08QK}
 
 *If* $\varphi$ *is a mapping of* $\prod_n F_n$ *into a set G, then the mappings* $\varphi((f_n))$ *and* $\varphi((g_n))$ *of X into G are equivalent*.
 
 我们用每个函数$\varphi((f_n))$的$\varphi((\tilde{f}_n))$等价类来表示，其中$f_n$是类$\tilde{f}_n$中的任意函数。
 
-特别是，如果 F 是 $\mathbf{R}$ 上的 *向量空间*，则定义 $\tilde{f} + \tilde{g}$ 和 $\alpha \tilde{f}$ 分别为 $f + g$ 和 $\alpha f$ 的等价类（$f$ 和 $g$ 分别为映射） X 代入 F，$\alpha$ 为标量）；这样，我们将X映射等价类集合代入F，得到一个*向量空间*结构：而且，这是$F^X$的*商空间*结构通过线性映射 $f$的子空间使得$\tilde{f} = \tilde{0}$（函数几乎到处都是零），我们也称之为*可忽略*函数（F中的值）。 一个定义类似地乘积$\tilde{g} \tilde{f}$，其中$\tilde{f}$是F中X的映射的等价类，$\tilde{g}$是在X上定义的（有限）数值函数的等价类：因此，F 中的 X 映射等价类集合在 X 上定义的有限数值函数的等价类集合上配备有*模* 结构（其本身配备有*环*结构）。 如果F是$\mathbf{R}$上的*代数*，则将X的映射等价类集合上的代数结构类似地变成F中的一个定义。
+特别是，如果 F 是 $\mathbf{R}$ 上的 *向量空间*，则定义 $\tilde{f} + \tilde{g}$ 和 $\alpha \tilde{f}$ 分别为 $f + g$ 和 $\alpha f$ 的等价类（$f$ 和 $g$ 分别为映射） X 代入 F，$\alpha$ 为标量）；这样我们就得到F上X映射等价类集合，一个*向量空间*结构：而且，这是$F^X$的*商空间*结构映射$f$的线性子空间使得$\tilde{f} = \tilde{0}$（函数几乎无处不在零），我们也称之为*可忽略*函数（F中的值）。 一个定义类似地乘积$\tilde{g} \tilde{f}$，其中$\tilde{f}$是F中X的映射的等价类，$\tilde{g}$是在X上定义的（有限）数值函数的等价类：因此，F 中的 X 映射等价类集合在 X 上定义的有限数值函数的等价类集合上配备有*模* 结构（其本身配备有*环*结构）。 如果F是$\mathbf{R}$上的*代数*，则将X的映射等价类集合上的代数结构类似地变成F中的一个定义。
 
 设 F 是一个*可度量*拓扑空间，并考虑 F 上的统一结构与其拓扑兼容，并由伪计量学$\rho_n$（GT、IX, §§1 和 2）的*可数*族定义；在阶中，X 的两个映射 $f, g$ 等价于 F 中，函数 $\rho_n(f, g)$ 的数值*可忽略不计*是充分必要的；因为，这相当于说，X中存在一个可忽略不计的集合 H，这样，对于每个$x \notin H$，对于所有$n$，$\rho_n(f(x), g(x)) = 0$，即$f(x) = g(x)$。 特别地，如果 F 是可度量的局部凸空间，且 $(q_n)$ 是定义 F 的拓扑的可数半范数族（TVS，II, §4, No. 1），则在阶中，X 的两个映射 $f, g$ 等价于 F，则所有数值是充分必要的函数 $q_n(f(x) - g(x))$ 可以忽略不计。
 
@@ -163,15 +163,15 @@ $$
 
 条件显然是必要的。相反，如果满足，则存在可忽略的集合$H$，使得对于每个$x \notin H$，对于每个$n$有$\langle f(x), a'_n \rangle = \langle g(x), a'_n \rangle$；这意味着$F'$上的弱连续线性形式$z' \mapsto \langle f(x), z' \rangle$和$z' \mapsto \langle g(x), z' \rangle$在每个点$a'_n$处都是相等的，因此凭借假设是相同的，这证明了$f(x) = g(x)$对于所有$x \notin H$。
 
-注，第 10 条命题的假设尤其适用于当 $F$ 是可度量且可分离的局部凸空间时（TVS，III, §3, No. 4，第 6 条命题的 Cor.2）。
+请注意，当$F$是可度量且可分离的局部凸空间（TVS，III, §3, No. 4，第6条命题的Cor.2）时，命题10的假设尤其适用。
 
 ### 5. 函数几乎到处都有定义
 
-In conformity with the definition in No. 3, a mapping $f$ of a subset $A$ of $X$ into a set $F$ is said to be defined almost everywhere if the complement of the set $A$ on which it is defined is a negligible set. 我们再次调用$f$的等价类，并用$\tilde{f}$表示，在所有$X$上定义的每个函数的等价类等于定义$f$的点$x \in X$处的$f(x)$；显然，这个类仅取决于$f$。 如果$\tilde{f} = \tilde{g}$，则几乎在任何地方定义的两个函数$f, g$再次被认为是等价的：因此，这意味着点的集合，其中$f(x)$和$g(x)$都已定义并且相等，其补数可以忽略不计。
+根据No. 3中的定义，如果定义它的集合$A$的补集是可忽略的集合，则将$X$的子集$A$到集合$F$的映射$f$称为几乎处处定义。 我们再次调用$f$的等价类，并用$\tilde{f}$表示，在所有$X$上定义的每个函数的等价类等于定义$f$的点$x \in X$处的$f(x)$；显然，这个类仅取决于$f$。 如果$\tilde{f} = \tilde{g}$，则几乎在任何地方定义的两个函数$f, g$再次被认为是等价的：因此，这意味着点的集合，其中$f(x)$和$g(x)$都已定义并且相等，其补数可以忽略不计。
 
-It follows at once that Prop. 8 of No. 4 and its corollary may be generalized to the case where in their statements it is assumed only that each of the functions $f_n, g_n$ is defined almost everywhere; then the functions $\varphi((f_n))$
+由此可见，No. 4的第8条命题及其推论可以推广到这样的情况：在它们的陈述中，仅假设每个函数$f_n, g_n$几乎在任何地方都被定义；那么函数$\varphi((f_n))$
 
-1 原文为 de 型 dénombrable，也可译为“可数型”（GT、IX, §2, No. 8、Def.4）或“第二可数”，或“满足可数性第二公理”。在此处引用的 TVS 推论中，项“满足可数性第一公理”应替换为前述项之一。
+1 原文为 de 型 dénombrable，也可译为“可数型”（GT、IX, §2, No. 8、Def.4）或“第二可数”，或“满足可数性第二公理”。在 TVS 引用的推论中，项“满足可数性第一公理”应替换为前述项之一。
 
 和 $\varphi((g_n))$ 本身几乎到处都有定义； $\varphi((f_n))$的等价类又是$\varphi((\tilde{f}_n))$。
 
@@ -185,9 +185,9 @@ It follows at once that Prop. 8 of No. 4 and its corollary may be generalized to
 
 ### 6. 函数中的等价类，其中值在 $\overline{\mathbf{R}}$ 中
 
-与 No. 3 中的定义一致，我们说 X 中几乎所有地方都定义的函数 $f$ 以及 $\overline{\mathbf{R}}$ 中的值，如果定义了 $f(x)$ 的 $x \in X$ 的集合则“几乎处处有限”并且有限的补数可以忽略不计。几乎处处有限的函数等价于*处处有限*的函数；因此，我们可以将认同其类$\tilde{f}$与类的*有限*数值函数定义在X（或X中的几乎所有地方）。特别地，几乎处处定义了有限的函数的两个类的和和乘积，并且这些类的集合是$\mathbf{R}$上的*代数*。如果 $(f_n)$ 是函数的序列，值在 $\overline{\mathbf{R}}$ 中，几乎处处定义且有限，则部分和 $\sum_{k=1}^n f_k(x)$ 几乎处处定义；如果，对于几乎每个$x \in X$，它们在$\overline{\mathbf{R}}$中有极限$f(x)$，我们再次说级数与一般项$f_n$几乎处处收敛，并且$f$是级数的和 （注 $f$ 几乎在任何地方都不一定是有限的）。
+与 No. 3 中的定义一致，我们说 X 中几乎所有地方都定义的函数 $f$ 以及 $\overline{\mathbf{R}}$ 中的值，如果定义了 $f(x)$ 的 $x \in X$ 的集合则“几乎处处有限”并且有限的补数可以忽略不计。几乎处处有限的函数等价于*处处有限*的函数；因此，我们可以将认同其类$\tilde{f}$与类的*有限*数值函数定义在X（或X中的几乎所有地方）。特别地，几乎处处定义了有限的函数的两个类的和和乘积，并且这些类的集合是$\mathbf{R}$上的*代数*。如果 $(f_n)$ 是函数的序列，值在 $\overline{\mathbf{R}}$ 中，几乎处处定义且有限，则部分和 $\sum_{k=1}^n f_k(x)$ 几乎处处定义；如果，对于几乎每个$x \in X$，它们在$\overline{\mathbf{R}}$中有极限$f(x)$，我们再次说级数与一般项$f_n$几乎处处收敛，并且$f$是级数的和（请注意， $f$ 几乎在任何地方都不一定是有限的）。
 
-如果$f$和$g$是两个数值函数，在$X$中几乎处处定义且有限，则$\tilde{f} + \tilde{g}$（分别$\tilde{f} \tilde{g}$）是每个函数的类等于$f(x) + g(x)$（分别$f(x)g(x)$） 点 $x \in X$ 这个表达式有意义。 注$f$和$g$都可以“随处定义”，而无需为所有$x$（GT，IV, §4, No. 3）定义$f(x) + g(x)$（分别为$f(x)g(x)$）；通过定义 $f + g$（分别为 $fg$），函数等于 $f(x) + g(x)$（分别为 $f(x)g(x)$），在定义此表达式的位置为点；因此，它几乎在所有地方都被定义。
+如果$f$和$g$是两个数值函数，在$X$中几乎处处定义且有限，则$\tilde{f} + \tilde{g}$（分别$\tilde{f} \tilde{g}$）是每个函数的类等于$f(x) + g(x)$（分别$f(x)g(x)$） 点 $x \in X$ 这个表达式有意义。请注意，$f$和$g$都可以“在任何地方定义”，而无需为所有$x$（GT，IV, §4, No. 3）定义$f(x) + g(x)$（分别为$f(x)g(x)$）；通过定义 $f + g$（分别为 $fg$），函数等于 $f(x) + g(x)$（分别为 $f(x)g(x)$），在定义此表达式的位置为点；因此，它几乎在所有地方都被定义。
 
 令 $f$ 和 $g$ 为两个数值函数（有限或非有限），在 $X$ 中几乎处处定义，使得 $f(x) \leq g(x)$ 几乎处处；如果$f_1$等价于$f$，并且$g_1$等价于$g$，那么显然$f_1(x) \leq g_1(x)$几乎无处不在。因此，所讨论的关系仅取决于$f$和$g$中的类；一写$\tilde{f} \leq \tilde{g}$，立刻验证这个关系是函数的等价类的集合中的*序关系*和$\overline{\mathbf{R}}$中的值。如果$(\tilde{f}_n)$是此类类的可数族（有限或无限），并且如果对于每个$n$，$f_n$和$g_n$是几乎处处定义的两个函数，并且属于到类$\tilde{f}_n$，则可以从命题1得出。 No. 4中的8个函数、$\sup_n f_n$和$\sup_n g_n$几乎在任何地方都有定义，是等价的；因此，它们的类仅取决于类$\tilde{f}_n$，并且立即验证它是函数的类的集合中的这些类的*最高值*$\sup_n \tilde{f}_n$和值 $\overline{\mathbf{R}}$，以刚刚描述的方式排序（集合，因此，特别是*网格排序*）。一种类似地表明了下确界 $\inf_n \tilde{f}_n$ 的存在，另一种则具有 $\inf_n \tilde{f}_n = -\sup_n (-\tilde{f}_n)$。由此可见，$\limsup_{n \to \infty} f_n$和$\limsup_{n \to \infty} g_n$也是等价的，它们的类记为$\limsup_{n \to \infty} \tilde{f}_n$，等于$\inf_n (\sup_{p \geq 0} \tilde{f}_{n+p})$； $\liminf_{n \to \infty} \tilde{f}_n$ 的定义类似。
 

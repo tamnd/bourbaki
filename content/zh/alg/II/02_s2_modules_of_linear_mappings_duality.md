@@ -46,19 +46,19 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 26
-content_sha256: baf749855073435ea2fde3adcd358260e56b2197ada178446a7aab904e650652
+content_sha256: 81a8076ad96cdb355efc48ba256d5e4b9d0749c1d71eead67ef6c35230fab2fd
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
 translation_method: google
 source_content_sha256: b68d6b666aad78a9fe6c8ac80cb610da120336ed9a4c3178da2cb94e6cf08597
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 12d5a2ebfd417633baffc020d75b2bc66864efa07b13018a671891ffb4c5275a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 模线性映射。二元性
+## § 2。 模共线性映射。二元性
 
 ### 1. $\mathrm{Hom}_A(E, F)$相对于正合序列的性质
 
@@ -84,11 +84,11 @@ $$
 
 #### 推论 {#alg-ii-s2-n1-cor-1 .statement tag=05MW}
 
-*对于A-线性映射* $u : E \to F$ *为满射*（分别为*双射的*，分别为*零*），*对于每个A-模 G，映射* $\operatorname{Hom}(u, 1_G) : \operatorname{Hom}(F, G) \to \operatorname{Hom}(E, G)$ *为单射*（分别为*双射的*，分别为*零*），这是必要且充分的*零*）。
+*对于 A-线性映射* $u : E \to F$ *为满射*（分别为*双射的*、*零*），*对于每个 A-模 G，映射* $\operatorname{Hom}(u, 1_G) : \operatorname{Hom}(F, G) \to \operatorname{Hom}(E, G)$ *为单射*（分别为*双射的*、*零*），这是充分必要的。 *零*）。
 
 对于$E'' = \{0\}$（分别为$E' = \{0\}$、$E'' = E$ 和$v = 1_E$）的情况，应用定理 1 就足够了。
 
-注正合序列起
+注意从正合序列开始
 
 $$
 0 \longrightarrow E' \xrightarrow{u} E \xrightarrow{v} E'' \longrightarrow 0
@@ -128,7 +128,7 @@ $$
 
 $u' \circ u$ 是恒等式意味着 $\bar{u} \circ \bar{u}'$ 是恒等式 ($§ 1$, no. 2, 公式 (10))，因此第一个断言由 $§ 1$, no. 9, 命题 15 得出。相反，假设序列 (4) 与 $F = E'$ 完全相同。则存在元素$f \in \mathrm{Hom}(E, E')$使得$f \circ u = 1_{E'}$，由$§ 1$、no. 9、命题15得出结论。
 
-注命题 1 的第一个断言也可以被认为是 $§ 1$、no. 6 的特例，推论 1 到命题 6，通过 $\mathbf{Z}$ 线性映射将 $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ 与 $\mathrm{Hom}(E' \oplus E'', F)$ 规范地识别$\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$，其中$p': E' \oplus E'' \to E'$和$p'': E' \oplus E'' \to E''$是规范的投影。
+请注意，命题 1 的第一个断言也可以被视为$§ 1$、no. 6、推论 1 到命题 6 的特例，通过$\mathbf{Z}$线性映射将$\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$与$\mathrm{Hom}(E' \oplus E'', F)$规范地识别$\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$，其中$p': E' \oplus E'' \to E'$和$p'': E' \oplus E'' \to E''$是规范的投影。
 
 #### 定理 2 {#alg-ii-s2-thm-2 .statement tag=05MY}
 
@@ -166,13 +166,13 @@ $$
 
 因为如果$u \in \operatorname{Hom}(E, F)$属于到每个$\operatorname{Hom}(E, M_\lambda)$，那么，对于所有$x \in E$，$u(x) \in M_\lambda$对于所有$\lambda$，因此$u$映射E到$\bigcap_\lambda M_\lambda$。
 
-#### 推论{#alg-ii-s2-n1-cor-2 .statement tag=05N0}
+#### 推论 {#alg-ii-s2-n1-cor-2 .statement tag=05N0}
 
 *对于A-线性映射* $u : E \to F$ *是单射的，对于每个A-模 G，映射* $\operatorname{Hom}(1_G, u) : \operatorname{Hom}(G, E) \to \operatorname{Hom}(G, F)$ *是单射的*是必要且充分的。
 
 对于$F' = \{0\}$的情况，应用定理2就足够了。
 
-从正合序列开始
+正合序列起
 
 $$
 0 \longrightarrow F' \xrightarrow{u} F \xrightarrow{v} F'' \longrightarrow 0
@@ -212,7 +212,7 @@ $$
 \operatorname{Hom}(E, F') \oplus \operatorname{Hom}(E, F'')
 $$
 
-通过$\mathbf{Z}$线性映射$\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$和$j'' : F'' \to F' \oplus F''$为典范嵌入（§ 1, no. 6，推论1到命题6），被规范地识别为$\operatorname{Hom}(E, F' \oplus F'')$。相反，如果序列 (8) 对于 $E = F''$ 是精确的，则存在元素 $g \in \operatorname{Hom}(F'', F)$，使得 $v \circ g = 1_{F''}$ 且结论由 § 1, no. 9、命题 15 得出。
+通过$\mathbf{Z}$线性映射$\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$和$j'' : F'' \to F' \oplus F''$为典范嵌入（§ 1, no. 6，推论 1到命题6），被规范地标识为$\operatorname{Hom}(E, F' \oplus F'')$。相反，如果序列 (8) 对于 $E = F''$ 是精确的，则存在元素 $g \in \operatorname{Hom}(F'', F)$，使得$v \circ g = 1_{F''}$ 且结论由 § 1, no. 9、命题 15 得出。
 
 注 (2)。这个结果没有。对于所有带有运算符的可交换群都是有效的，无需修改。
 
@@ -238,17 +238,17 @@ $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, F)
 $$
 
-被识别为$\prod_i \operatorname{Hom}(1_{M_i}, u)$（§ 1, no. 6，推论1至命题6）；由此得出定义 1 和§ 1, no. 5、命题 5 (ii) 的结论。
+被识别为$\prod_i \operatorname{Hom}(1_{M_i}, u)$（§ 1, no. 6，推论1到命题6）；由此得出结论定义 1 和§ 1, no. 5、命题 5 (ii)。
 
-#### 推论{#alg-ii-s2-n2-cor-1 .statement tag=05N4}
+#### 推论 {#alg-ii-s2-n2-cor-1 .statement tag=05N4}
 
-每个自由A-模都是投影。
+每个自由A-模都是射影。
 
-只需命题 3 就足以证明 A_s 是射影的，它紧随交换律 of 图表 (50) of § 1, no. 14。
+通过命题 3 就足以证明 A_s 是射影的，它紧随 § 1, no. 14 的图表 (50) 的交换律而来。
 
 #### 命题 4 {#alg-ii-s2-prop-4 .statement tag=05N5}
 
-令 P 为 A-模。以下属性是等效的：
+设 P 为 A-模。以下属性是等效的：
 
 (a) P 是投影。
 (b) 对于 A-线性映射、序列中的每个正合序列 0 → F' → F → F'' → 0
@@ -271,25 +271,25 @@ $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, E'')
 $$
 
-是主观的。要看出(c)蕴含(d)，只需将(c)应用于满同态$v : E \to P$和同态$l_P : P \to P$即可； 同态 $g : P \to E$ 的存在使得 $l_P = v \circ g$ 意味着序列
+是主观的。要看出(c)蕴涵(d)，只需将(c)应用于满同态$v : E \to P$和同态$l_P : P \to P$即可； 同态 $g : P \to E$ 的存在使得 $l_P = v \circ g$ 意味着序列
 
 $$
 0 \longrightarrow E' \longrightarrow E \xrightarrow{v} P \longrightarrow 0
 $$
 
-分裂的（§ 1, no. 9，命题15）。对于每一个A-模 M，都存在自由A-模 L 和正合序列 $0 \to R \to L \to M \to 0$ (§ 1, no. 11, 命题 20)，显然(d)蕴涵(e)。最后，(e) 凭借命题 3 及其推论意味着 (a)。
+分裂的（§ 1, no. 9，命题15）。对于每一个A-模 M，都存在自由A-模 L 和正合序列 $0 \to R \to L \to M \to 0$ (§ 1, no. 11, 命题 20)，显然(d)蕴涵(e)。最后，(e) 通过命题 3 及其推论蕴涵 (a)。
 
 #### 推论 1 {#alg-ii-s2-prop-4-cor-1 .statement tag=05N6}
 
-*为了使A-模是射影且有限生成的，它是自由A-模的直因子以及有限的基是必要且充分的。*
+*为了使 A-模射影且有限生成，它是自由A-模的直因子以及有限的基是充分必要的。*
 
-条件显然就足够了；反之，有限生成射影模 E 同构于自由模 F 与有限基 (§ 1, no. 11) 的商，并且 E 通过命题 4 (d) 同构于 F 的直因子。
+条件显然就足够了；反之，有限生成射影模 E 同构于自由模 F 的商，且具有有限基 (§ 1, no. 11)，并且 E 凭借命题 4 (d) 同构于 F 的直因子。
 
 #### 推论 2 {#alg-ii-s2-prop-4-cor-2 .statement tag=05N7}
 
-*设C为交换环，E、F为两个有限生成的射影C模；那么 $\operatorname{Hom}_C(E, F)$ 是有限生成的射影C-模。*
+*设C为交换环，E、F为两个有限生成的射影C模；那么 $\operatorname{Hom}_C(E, F)$ 是有限生成的射影 C-模。*
 
-可以假设有两个有限生成的免费C-模块M、N，使得$M = E \oplus E', N = F \oplus F'$；从 § 1, no. 6，推论 1 到命题 6，$\operatorname{Hom}_C(M, N)$ 是有限生成且自由的，另一方面，$\operatorname{Hom}_C(M, N)$ 同构于
+可以假设有两个有限生成的自由C-模块M、N，使得$M = E \oplus E', N = F \oplus F'$；从 § 1, no. 6、推论 1 到命题 6，$\operatorname{Hom}_C(M, N)$ 是有限生成且自由的，另一方面，$\operatorname{Hom}_C(M, N)$ 同构于
 
 $$
 \operatorname{Hom}_C(E, F) \oplus \operatorname{Hom}_C(E', F) \oplus \operatorname{Hom}_C(E, F') \oplus \operatorname{Hom}(E', F'),
@@ -297,25 +297,25 @@ $$
 
 从而推论。
 
-### 3. 线性形式；双模
+### 3. 线性形式； 模的对偶
 
 令 E 为 *左* A-模。由于 A 是 (A, A) 双模，$\operatorname{Hom}_A(E, A_s)$ 具有规范的*右* A-模结构 (§ 1, no. 14)。
 
 #### 定义 2 {#alg-ii-s2-def-2 .statement tag=05N8}
 
-*对于每个右A-模 E，右A-模 $\operatorname{Hom}_A(E, A_s)$ 被称为 E* 的对偶模（或简称为 E 的*对偶†*）*及其元素被称为 E* 上的线性形式。
+*对于每个右A-模 E，右A-模 $\operatorname{Hom}_A(E, A_s)$ 称为 E* 的对偶模（或简称为 E 的*对偶†*）*及其元素称为 E* 上的线性形式。
 
-如果 E 是 *右* A-模，则集合 $\operatorname{Hom}_A(E, A_d)$ 及其规范的 *左* A-模结构同样被称为 E 的 *对偶*，其元素被称为 E 上的 *线性形式*。
+如果 E 是 *right* A-模，则集合 $\operatorname{Hom}_A(E, A_d)$ 及其规范的 *left* A-模结构同样称为 E 的 *对偶*，其元素称为 E 上的 *线性形式*。
 
-† 在*拓扑向量空间*，IV中，我们将为向量空间使用定义，并使用“对偶空间”的*拓扑*、概念，这将取决于此拓扑，并且与此处定义的不同。读者必须小心地小心应用到“拓扑”对偶空间本段中建立的“代数”对偶的属性。
+† 在*拓扑向量空间*、IV中，我们将为向量空间使用定义，并使用“对偶空间”的*拓扑*、概念，这将取决于此拓扑，并且与此处定义的不同。读者必须小心谨慎地将应用应用于“拓扑”对偶空间本段中建立的“代数”对偶的属性。
 
 在这个章中，$E^*$将用于表示（左或右）A-模$E$的对偶。
 
 #### 例 {#alg-ii-s2-n3-exa-1 .statement tag=05N9}
 
-*在向量空间（相对于域$\mathbf{R}$）连续实值函数上，区间$[a, b]$为$\mathbf{R}$，映射$x \mapsto \int_a^b x(t) dt$为线性形式。*
+*在$\mathbf{R}$的区间$[a, b]$上连续实值函数的向量空间（相对于域$\mathbf{R}$），映射$x \mapsto \int_a^b x(t) dt$为线性形式。*
 
-设$E$为左A-模，$E^*$为它的对偶；对于元素$x \in E, x^* \in E^*$的每个有序对，A的元素$x^*(x)$用$\langle x, x^* \rangle$表示。然后关系
+设 $E$ 为左A-模，$E^*$ 为对偶；对于元素$x \in E, x^* \in E^*$的每个有序对，A的元素$x^*(x)$用$\langle x, x^* \rangle$表示。然后关系
 
 $$
 \begin{align*}
@@ -363,7 +363,7 @@ $$
 
 设 E 为 A-模，E* 为对偶；如果 ⟨x, x*⟩ = 0，则元素 x ∈ E 和元素 x* ∈ E* 称为正交。
 
-E 的子集 M 和 E* 的子集 M' 被称为正交集合如果对于所有 x ∈ M，x* ∈ M'，x 和 x* 是正交的。 In particular, x* ∈ E* (resp. x ∈ E) is called orthogonal to M (resp. M') if it is orthogonal to every element of M (resp. M'). 如果 x* 和 y* 与 M 正交，则根据 (10) 和 (12) (no. 3)，对于所有 α ∈ A，x* + y* 和 x*α 也与 M 正交，这证明了以下定义：
+E 的子集 M 和 E* 的子集 M' 被称为正交集合如果对于所有 x ∈ M，x* ∈ M'，x 和 x* 是正交的。 特别地，如果 x* ε E*（分别 x ε E）与 M（分别 M'）正交，则称为与 M（分别 M'）正交。 如果 x* 和 y* 与 M 正交，则根据 (10) 和 (12) (no. 3)，对于所有 α ∈ A，x* + y* 和 x*α 也与 M 正交，这证明了以下定义：
 
 #### 定义 4 {#alg-ii-s2-def-4 .statement tag=05NC}
 
@@ -385,7 +385,7 @@ E 的子集 M 和 E* 的子集 M' 被称为正交集合如果对于所有 x ∈ 
 
 如果 M 是 E 的子模，M' 是与 M 正交的 E* 的子模，并且 E 的 M'' 子模与 M' 正交，则 M ⊂ M'' 但也可能是 M ≠ M'' (习题 9)。 注然而，如果 M'' 是 E* 中 M'' 的正交，则 M'' = M'；对于 M' ⊂ M'' 并且另一方面关系 M ⊂ M'' 意味着 M'' ⊂ M'。
 
-### 5. 转置线性映射
+### 5. 转置 / 线性映射
 
 设E、F为两个左A-模；对于每个线性映射 u : E → F，映射 Hom(u, l_{A_s}) 是右A-模 F* 的线性映射到右A-模 E* (§ 1, no. 2)，称为 u 的转置。
 
@@ -428,7 +428,7 @@ $$
 
 这直接从 (15) 得出。
 
-#### 推论{#alg-ii-s2-n5-cor-1 .statement tag=05NI}
+#### 推论 {#alg-ii-s2-n5-cor-1 .statement tag=05NI}
 
 *$F^*$中像$u(E)$的正交是$^t u$的核$^t u^{-1}(0)$。*
 
@@ -438,9 +438,9 @@ E 在 $E^*$ 中的正交为 0。
 
 #### 定义 6 {#alg-ii-s2-def-6 .statement tag=05NJ}
 
-*将 A-模 E 的同构 u 放到 A-模 F 上，u 的逆同构的转置（等于 u 的转置的逆同构）称为 u 的反对方同构，并用 $\tilde{u}$ 表示。*
+*将 A-模 E 的同构 u 放到 A-模 F 上，u 的逆同构的转置（等于 u 的转置的逆同构）称为 u 的同余同构，并用 $\tilde{u}$ 表示。*
 
-因此，同构 $\tilde{u}$ 的特征为关系
+因此，同构$\tilde{u}$的特征为关系
 (19) $$
 \langle u(x), \tilde{u}(y^*) \rangle = \langle x, x^* \rangle \quad \text{for } x \in E, x^* \in E^*.
 $$
@@ -449,21 +449,21 @@ $$
 
 特别地，映射$u \mapsto \tilde{u}$是线性群$\mathbf{GL}(E)$到线性群$\mathbf{GL}(E^*)$的子群的*同构*。
 
-令$\sigma : A \to B$为环$A$到环$B$的*同构*，$E$左$A$模块，$F$左$B$模块和$u : E \to F$*半线性* 映射 (§ 1, no. 13) *相对于* $\sigma$。设$\sigma^{-1}$为$\sigma$的逆同构；对于所有$y^* \in F^*$，$E$到$A$的映射$x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$是一个*线性形式*；如果也用${}^t u(y^*)$表示，则定义映射${}^t u : F^* \to E^*$，也称为半线性映射$u$的*转置*；因此它的特征是身份
+设$\sigma : A \to B$是环$A$的*同构*到环$B$，$E$左$A$模块，$F$左$B$模块和$u : E \to F$ *半线性* 映射 (§ 1, no. 13) *相对于* $\sigma$。设$\sigma^{-1}$为$\sigma$中的逆同构；对于所有$y^* \in F^*$，$E$到$A$的映射$x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$是*线性形式*；如果也用${}^t u(y^*)$表示，则定义映射${}^t u : F^* \to E^*$，也称为半线性映射$u$的*转置*；因此它的特征是身份
 
 $$
 \langle u(x), y^* \rangle = \langle x, {}^t u(y^*) \rangle^\sigma
 $$
 
-对于$x \in E, y^* \in F^*$。 立即验证${}^t u$是*半线性*映射*相对于*$\sigma^{-1}$。 如果$v$表示映射$u$被视为$E$的*A线性*映射进入$\sigma_*(F)$（§ 1, no. 13），我们可以写成$u = \phi \circ v$，其中$\phi$是恒等映射$\sigma_*(F) \to F$，被视为相对于$\sigma$的半线性映射。 It is immediate that ${}^t u = {}^t v \circ {}^t \phi$ and $({}^t \phi, \sigma^{-1})$ is a di-isomorphism of $F^*$ onto $(\sigma_*(F))^*$ relative to the isomorphism $\sigma^{-1}$; this relation allows us immediately to extend the properties of transposes of linear mappings to transposes of semi-linear mappings.
+$x \in E, y^* \in F^*$。立即验证${}^t u$是*半线性*映射*相对于*$\sigma^{-1}$。如果$v$表示映射，$u$被视为$E$的*A线性*映射进入$\sigma_*(F)$（§ 1, no. 13），我们可以写成$u = \phi \circ v$，其中$\phi$是恒等映射 $\sigma_*(F) \to F$，被视为相对于$\sigma$的半线性映射。 ${}^t u = {}^t v \circ {}^t \phi$和$({}^t \phi, \sigma^{-1})$是直接的相对于同构$\sigma^{-1}$的$F^*$到$(\sigma_*(F))^*$的二同构；这个关系允许我们立即获得扩展半线性映射的线性映射到转置的转置的属性。
 
-### 6. 商模的双重。 直和的双重。双基
+### 6. 商模的双重。 直和的对偶。双基
 
-我们将no. 1中的应用定理 1 应用于$F = A_s$的情况：
+我们将应用定理 1 of no. 1 应用于 $F = A_s$ 的情况：
 
 #### 命题 9 {#alg-ii-s2-prop-9 .statement tag=05NK}
 
-*设* $E', E, E''$ *为A-模且*
+*设*$E', E, E''$*为A-模并且*
 
 $$
 E' \xrightarrow{u} E \xrightarrow{v} E'' \longrightarrow 0
@@ -477,13 +477,13 @@ $$
 
 *准确。*
 
-#### 推论{#alg-ii-s2-n6-cor-1 .statement tag=05NL}
+#### 推论 {#alg-ii-s2-n6-cor-1 .statement tag=05NL}
 
-*设 M 为 A-模 E 和 $\phi : E \to E/M$ 典范同态的子模。 Then* ${}^t \phi$ *is an isomorphism of the dual of* $E/M$ *onto the submodule* $M'$ *of* $E^*$ *orthogonal to* $M$.
+*设 M 为 A-模 E 和 $\phi : E \to E/M$ 典范同态中的子模。那么*${}^t \phi$*是*$E/M$*的对偶的同构到子模*$M'$*的*$E^*$*正交于*$M$。
 
 如果$j : M \to E$是典范嵌入，则${}^t j$的核通过定义在$E^*$中与$M$正交。
 
-此外，在推论的记号中，当经过为商时，从${}^t j$获得*内射*同态$E^*/M' \to M^*$。
+此外，在推论的记号中，当经过到商时，从${}^t j$获得*单射的*同态$E^*/M' \to M^*$。
 
 #### 命题 10 {#alg-ii-s2-prop-10 .statement tag=05NM}
 
@@ -491,7 +491,7 @@ $$
 
 *是对偶* $E^*$ *的* $E$ *的同构到乘积* $\prod_{i \in I} E_i^*$。
 
-这是 § 1, no. 6 的特殊情况，推论 1 到命题 6，适用于 $\prod_{\lambda} F_{\lambda} = A_s$ 的情况。
+这是§ 1, no. 6、推论 1 到命题 6 的特殊情况，应用于$\prod_{\lambda} F_{\lambda} = A_s$ 的情况。
 
 如果通过典范嵌入 $j_i$，$E_i$ 被其直和 $E$ 的子模识别，如果通过乘积映射 $x^* \mapsto (tj_i(x^*))$，$E^*$ 被$\prod_{i \in I} E_i^*$ 识别，则可以可以说 $\prod_{i \in I} E_i^*$ 是 $\bigoplus_{i \in I} E_i$ 的对偶，规范的双线性形式由下式给出
 
@@ -501,13 +501,13 @@ $$
 
 (22)
 
-#### 推论{#alg-ii-s2-n6-cor-2 .statement tag=05NN}
+#### 推论 {#alg-ii-s2-n6-cor-2 .statement tag=05NN}
 
-*Let M, N be two supplementary submodules in an A-module E and $p : E \to M, q : E \to N$ the corresponding projectors; then $^tp + ^tq : M^* \oplus N^* \to E^*$ is an isomorphism and $^tp$ (resp. $^tq$) is an isomorphism of $M^*$ (resp. $N^*$) onto the submodule of $E^*$ orthogonal to $N$ (resp. $M$). 此外，如果$i : M \to E$和$j : N \to E$是典范嵌入，$^tp \circ ^ti$和$^tq \circ ^tj$是投影算子$E^* \to ^tp(M^*)$，$E^*$的$E^* \to ^tq(N^*)$相应的到分解作为直和 $^tp(M^*)$ 和 $^tq(N^*)$。
+*设M、N为A模块E中的两个补充子模块，$p : E \to M, q : E \to N$对应的投影仪；则 $^tp + ^tq : M^* \oplus N^* \to E^*$ 是同构，$^tp$（分别为 $^tq$）是 $M^*$（分别为 $N^*$）到与 $N$（分别为 $M$）正交的 $E^*$ 子模的同构。 此外，如果$i : M \to E$和$j : N \to E$是典范嵌入，$^tp \circ ^ti$和$^tq \circ ^tj$是投影算子$E^* \to ^tp(M^*)$，$E^*$的$E^* \to ^tq(N^*)$相应的到分解作为直和 $^tp(M^*)$ 和 $^tq(N^*)$。
 
-$p \circ i = 1_M, \quad q \circ j = 1_N, \quad p \circ j = q \circ i = 0, \quad i \circ p + j \circ q = 1_E$、从而，通过转置（no. 5、公式 (16)、(17) 和 (18)），$^ti \circ ^tp = 1_{M^*}, \ ^tj \circ ^tq = 1_{N^*}, \ ^tj \circ ^tp = ^ti \circ ^tq = 0. \ ^tp \circ ^ti + ^tq \circ ^tj = 1_{E^*}$ 和命题由§ 1, no. 6推出，推论 2 到命题 6。
+$p \circ i = 1_M, \quad q \circ j = 1_N, \quad p \circ j = q \circ i = 0, \quad i \circ p + j \circ q = 1_E$、从而，通过转置（no. 5、公式 (16)、(17) 和 (18)），从 § 1, no. 6、推论 2 到命题 6 得出$^ti \circ ^tp = 1_{M^*}, \ ^tj \circ ^tq = 1_{N^*}, \ ^tj \circ ^tp = ^ti \circ ^tq = 0. \ ^tp \circ ^ti + ^tq \circ ^tj = 1_{E^*}$ 和命题。
 
-在推论的假设下，$M^*$（或$N^*$）通常与$E^*$中$N$（或$M$）的正交$^tp(M^*)$（或$^tq(N^*)$）进行识别，从而识别每个线性形式$u$ $M$（或$N$），$E$上的线性形式延伸$u$，并且零在$N$（或$M$）上。
+在推论的假设下，$M^*$（或$N^*$）通常与$E^*$中$N$（或$M$）的正交$^tp(M^*)$（或$^tq(N^*)$）进行识别，从而识别每个线性形式 $M$（或$N$）上的$u$，$E$上的线性形式延伸$u$，以及$N$（或$M$）上的零。
 
 当A-模$E$承认*基*$(e_t)_{t \in T}$时，可以看出，给出这个基定义规范地同构$u : A_s^{(T)} \to E$。凭借命题 10 和no. 3、命题 5，$A_s^{(T)}$ 的对偶被规范地标识为乘积 $A_d^T$；考虑相反的同构 $\tilde{u} : A_d^T \to E^*$。如果，对于所有$t \in T, f_t$是$A_d^T$的元素，其投影都是零，除了指标$t$，它等于1，并且如果我们写出$e_t^* = \tilde{u}(f_t)$，元素$e_t^*$ $E^*$ 由 (19) 和 (22) 得出，其特征在于关系
 
@@ -528,7 +528,7 @@ $$
 
 *n 元素的自由模和基的对偶是自由模和 n 元素的基。*
 
-注自由模与无限基的对偶不一定是自由模（VII, § 3，习题 10）。
+请注意，自由模与无限基的对偶不一定是自由模（VII, § 3，习题 10）。
 
 #### 定义 7 {#alg-ii-s2-def-7 .statement tag=05NP}
 
@@ -540,7 +540,7 @@ $$
 $$
 其中 $\delta_{tt'}$ 是 $T \times T$ 上的*克罗内克符号*。
 
-注如果$T$是有限的并且$(e_t^*)$是$(e_t)$的对偶基，那么，对于
+请注意，如果 $T$ 是有限的并且 $(e_t^*)$ 是 $(e_t)$ 的对偶基，那么，对于
 $$ x = \sum_{t \in T} \xi_t e_t \in E, \quad x^* = \sum_{t \in T} \xi_t^* e_t^* \in E^*, $$
 $$
 \langle x, x^* \rangle = \sum_{t \in T} \xi_t \xi_t^*.
@@ -552,13 +552,13 @@ $$
 
 *有限生成射影模的对数是有限生成射影模。*
 
-有限生成的射影左A-模可以用自由A-模$A_s^n$的直因子M和有限基（no. 2，推论1到命题4）来识别。那么（命题 11 和命题 10 的推论）M* 同构于$A_d^n$ 的直因子，推论从而。
+有限生成的射影左A-模可以用自由A-模$A_s^n$的直因子M和有限的基（no. 2，推论1到命题4）来识别。那么（命题 11 和推论到命题 10）M* 同构于$A_d^n$、从而推论的直因子。
 
 #### 命题 12 {#alg-ii-s2-prop-12 .statement tag=05NR}
 
 *设 E 为 E 的 A-模且* $(a_t)_{t \in T}$ *生成的系统。以下条件是等效的：*
 (a) *E 是射影 A-模。*
-(b) *E 上存在一个族* $(a_t^*)_{t \in T}$ * 线性形式，使得对于所有* $x \in E$，*族* $(\langle x, a_t^* \rangle)_{t \in T}$ *有有限支撑并且*
+(b) *在 E 上存在一个族* $(a_t^*)_{t \in T}$ *线性形式，使得对于所有* $x \in E$，*族* $(\langle x, a_t^* \rangle)_{t \in T}$ *有有限支撑并且*
 $$
 x = \sum_{t \in T} \langle x, a_t^* \rangle a_t.
 $$
@@ -587,23 +587,23 @@ $$
 
 *如果 E 为自由模*（分别为 *自由模和有限的基*），则 *典范映射* $c_E : E \to E^{**}$ *是单射*（分别为*双射*）。
 
-令$(e_t)_{t \in T}$为E的基，令$(e_t^*)$为相应的坐标形式的族；通过定义，如果$x \in E$使得$\tilde{x} = 0$，则$\langle x, e_t^* \rangle = 0$对于所有$t \in T$，在其他字中，$x$的所有坐标都是零，因此$x = 0$。进一步假设 T 是有限的；因为$\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$，$(\tilde{e}_t)$是$E^{**}$中$(e_t^*)$的对偶基，并且，当E的$c_E$变换基进入$E^{**}$的基时，$c_E$是双射（§ 1, no. 11，推论 3 到命题 17）。我们还证明了：
+令$(e_t)_{t \in T}$为E的基，令$(e_t^*)$为相应的坐标形式的族；通过定义，如果$x \in E$使得$\tilde{x} = 0$，则$\langle x, e_t^* \rangle = 0$对于所有$t \in T$，在其他字中，$x$的所有坐标都是零，因此$x = 0$。进一步假设 T 是有限的；因为$\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$，$(\tilde{e}_t)$是$E^{**}$中$(e_t^*)$的对偶基，并且，当E的$c_E$变换基进入$E^{**}$的基时，$c_E$是双射（§ 1, no. 11、推论 3 到命题 17）。我们还证明了：
 
 #### 推论 1 {#alg-ii-s2-prop-13-cor-1 .statement tag=05NT}
 
-*设 E 为自由A-模，且基有限；对于 E 的每个基* $(e_t)$ *，$(c_E(e_t))$ *是基* $(e_t^*)$ *的对偶基 *对* $E^*$ *对偶* $(e_t)$。
+*设 E 为自由A-模，且基有限；对于 E 的每个基* $(e_t)$ *，$(c_E(e_t))$ *是基* $(e_t^*)$ *的对偶基 *$E^*$ *对偶* $(e_t)$。
 
 在这种情况下，可以说 $(e_t)$ 和 $(e_t^*)$ 是一个另一个* 的两个*对偶基。
 
 #### 推论 2 {#alg-ii-s2-prop-13-cor-2 .statement tag=05NU}
 
-*如果 E 是自由A-模且基有限，则 E* 的每个有限基是 E 的基的对偶基。*
+*如果 E 是自由A-模，且基有限，则 E* 的每个有限基是 E 的基的对偶基。*
 
 考虑给定基的 E** 对偶基以及规范地使用 E** 来考虑认同 E 就足够了。
 
 #### 推论 3 {#alg-ii-s2-prop-13-cor-3 .statement tag=05NV}
 
-*令 E、F 为两个 A-模，每个基都有一个有限的基，E（分别为 F）与其双元 E**（分别为 F**）被规范地识别。然后，对于每个线性映射 u ：E → F，$t^t u = u$。*
+*令 E、F 为两个 A-模，每个都有一个有限的基，E（分别为 F）与其双元 E**（分别为 F**）被规范地标识。然后，对于每个线性映射 u ：E → F，$t^t u = u$。*
 
 这紧随图表 (27) 的交换律而来。
 
@@ -615,7 +615,7 @@ $$
 
 #### 引理 1 {#alg-ii-s2-lem-1 .statement tag=05NX}
 
-*设M、N为A-模E中的两个补子模，且i：M→E，j：N→E典范嵌入。然后图表*
+*设 M、N 为 A-模 E 中的两个补子模，且 i : M → E，j : N → E 典范嵌入。然后图表*
 
 $$
 \begin{array}{ccc}
@@ -641,21 +641,21 @@ $$
 \end{align*}
 $$
 
-正因如此，如果 E 是自由模（分别是自由模和有限的基），则 $c_E$ 是单射（分别是双射）；另一方面，从 no. 6, 命题 10 可以得出，$t_i \oplus t_j$ 是双射的； 图表 (28) 的交换律意味着 $c_M \oplus c_N$ 是单射（或双射），因此 $c_M$ 和 $c_N$ 也是（§ 1, no. 6，推论 1 到命题 7），从而是推论，取no. 2、命题 4 的账户。
+因此，如果 E 是自由模（分别是自由模和有限的基），则 $c_E$ 是单射（分别是双射）；另一方面，从no. 6、命题 10 可以得出，$t_i \oplus t_j$ 是双射的； 图表 (28) 的交换律则意味着$c_M \oplus c_N$是单射（或双射），因此$c_M$和$c_N$也是（§ 1, no. 6、推论 1 到命题 7）， 从而推论，考虑到no. 2、命题 4。
 
-### 8. 线性方程
+### 8. 线性方程组
 
-设E、F为两个A-模。每个形式$u(x) = y_0$的方程，其中$u : E \to F$是给定的线性映射，$y_0$是F的给定元素，并且未知的$x$受到条件的影响，它在E中取其值，称为a *线性*方程； $y_0$ 称为等式的右边；如果$y_0 = 0$，则该方程称为齐次线性方程。
+设E、F为两个A-模。每个形式$u(x) = y_0$的方程，其中$u : E \to F$是给定的线性映射，$y_0$是F的给定元素，未知的$x$受到条件的影响，它在E中取其值，称为a *线性*方程； $y_0$ 称为等式的右边；如果$y_0 = 0$，则该方程称为齐次线性方程。
 
 每个元素$x_0 \in E$使得$u(x_0) = y_0$称为线性方程$u(x) = y_0$的解。†
 
-人们常说，宽泛地说，如果问题等价于确定线性方程的解，则问题是线性的。
+人们常说，宽松地说，如果问题等价于确定线性方程的解，则它是线性的。
 
 给定线性方程$u(x) = y_0$，方程$u(x) = 0$称为与$u(x) = y_0$相关的齐次线性方程。
 
 #### 命题 14 {#alg-ii-s2-prop-14 .statement tag=05NY}
 
-*如果$x_0$是线性方程$u(x) = y_0$的解，则该方程的解的集合等于元素$x_0 + z$的集合，其中$z$经过解的集合相关齐次方程 $u(x) = 0$.*
+*如果$x_0$是线性方程$u(x) = y_0$的解，则该方程的解的集合等于元素$x_0 + z$的集合，其中$z$穿过解的集合相关齐次方程 $u(x) = 0$.*
 
 关系$u(x) = y_0$可以写成$u(x) = u(x_0)$，相当于$u(x - x_0) = 0$。
 
@@ -667,11 +667,11 @@ $$
 
 *令$u$为模$E$中的线性映射变成模$F$。如果方程 $u(x) = y_0$ 至少有一个解，则 $y_0$ 与 $^t u$ 的核正交。*
 
-说$u(x) = y_0$承认解意味着$y_0 \in u(E)$和命题从no. 5推出，推论到命题8。
+说$u(x) = y_0$承认解意味着$y_0 \in u(E)$和命题从no. 5、推论到命题8。
 
-† 这实际上是一种语言滥用；从逻辑点来看，我们这里并不是定义字“解”，而是简单地将“$x_0$是方程$u(x) = y_0$的解”这句话等同于关系“$x_0 \in E$和$u(x_0) = y_0$”。观察在数学理论中$\mathscr{T}$，其中关系“$A$是环，$E$和$F$是$A$模，$u$是$E$的同态” $F$的$F$、$y_0$元素为定理，$\mathscr{T}$的每个*项* $T$使得关系“$T \in E$和$u(T) = y_0$”为真$\mathscr{T}$是方程$u(x) = y_0$在*集合理论*、I, § 5, no. 2意义上的*解*；这证明了上述滥用语言的行为是合理的。
+† 这实际上是一种语言滥用；从逻辑点来看，我们这里并不是定义字“解”，而是简单地将“$x_0$是方程$u(x) = y_0$的解”这句话等同于关系“$x_0 \in E$和$u(x_0) = y_0$”。观察数学理论$\mathscr{T}$，其中关系“$A$是环，$E$和$F$是$A$模块，$u$是$E$的同态进入$F$的$F$、$y_0$元素为定理，$\mathscr{T}$的每个*项* $T$使得关系“$T \in E$和$u(T) = y_0$”为真$\mathscr{T}$ 是方程 $u(x) = y_0$ 在 *集合理论*、I, § 5, no. 2 意义上的 *解*；这证明了上述滥用语言的行为是合理的。
 
-观察到，当 $A$ 为域（§ 7, no. 6，命题 12）时，由命题 15 给出的解或 $u(x) = y_0$ 存在的必要条件是充分的，但*一般情况下不是*（习题 10）。
+观察到，当 $A$ 为域（§ 7, no. 6，命题 12）时，命题 15 给出的解或 $u(x) = y_0$ 存在的必要条件是充分的，但*一般情况下不是*（习题 10）。
 
 #### 注 {#alg-ii-s2-n8-rem-1 .statement tag=05O0}
 
@@ -686,7 +686,7 @@ $$
 \sum_{\lambda \in L} \xi_\lambda b_\lambda = y_0.
 $$
 
-相反，寻找有限支撑满足 (30) 的 $A$ 的元素族$(\xi_\lambda)_{\lambda \in L}$，相当于求解线性方程 $u(x) = y_0$，其中 $u$ 是 $E$ 到 $F$ 的唯一线性映射，使得$u(a_\lambda) = b_\lambda$ 对于所有 $\lambda \in L$（§ 1, no. 11，推论 3 至命题 17）。
+相反，寻找有限支撑满足 (30) 的 $A$ 的元素族$(\xi_\lambda)_{\lambda \in L}$，相当于求解线性方程 $u(x) = y_0$，其中 $u$ 是 $E$ 到 $F$ 的唯一线性映射，使得$u(a_\lambda) = b_\lambda$ 适用于所有 $\lambda \in L$（§ 1, no. 11、推论 3 至命题 17）。
 
 (3) 当 $F = A_s$ 时，线性方程 $u(x) = y_0$ 称为*标量*，因此 $u$ 是 $E$ 上的 *线性形式*，而 $y_0$ 是一个*标量*。如果 $E$ 承认基 $(a_\lambda)_{\lambda \in L}$，则由 *注* (2) 得出，这样的方程也可以写为
 $$
@@ -696,7 +696,7 @@ $$
 $$
 \sum_{\lambda \in L} \xi_\lambda \alpha_{\lambda_i} = \eta_i \quad (i \in I)
 $$
-其中$\alpha_{\lambda_i} \in A$和$\eta_i \in A$，被理解为*有限*支持的$A$的元素的家庭$(\xi_\lambda)_{\lambda \in L}$和满足（32）； $\alpha_{\lambda_i}$ 称为方程系统的*系数*，$\eta_i$ 称为*右侧*。这样的系统的解等价于等式$u(x) = y$，其中$y = (\eta_i)$和$u : A_s^{(L)} \to A_s^I$是线性映射
+其中$\alpha_{\lambda_i} \in A$和$\eta_i \in A$，被理解为*有限*支持的$A$的元素的家庭$(\xi_\lambda)_{\lambda \in L}$和满足（32）； $\alpha_{\lambda_i}$ 称为方程系统的 *系数*，$\eta_i$ 称为*右侧*。这样的系统的解等价于等式$u(x) = y$，其中$y = (\eta_i)$和$u : A_s^{(L)} \to A_s^I$是线性映射
 $$
 (\xi_\lambda) \mapsto \left( \sum_{\lambda \in L} \xi_\lambda \alpha_{\lambda_i} \right).
 $$

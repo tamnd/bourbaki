@@ -11,23 +11,23 @@ pdf_pages: 0159-0160
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1e0c35509f11a882a1b69364550013d93fa70fb82ad5a36c32acf42797810361
+content_sha256: 23409e932cee213ec4246fe4ed57048ca08f3b3a44d8c37f6e97c5ec07383570
 translated_from: content/en/hist/1/13_s13_exponentials_and_logarithms.md
 translation_method: google
 source_content_sha256: 50689abd9c7185633a30290d86d3bc87b0da563ba03899d30508b9b32066189d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 62b3bf9e71a08991fc0231b9fbe84331a88b1c638abbfef0799affc10887d6ab
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 13. 指数和对数。
 
-实数$> 0$的乘法群$\mathbf{R}_+^*$的历史与概念、幂、数$> 0$以及用来表示它们的记号的发展历史密切相关。 由连续的幂和相同的数组成的“几何级数”的概念可以追溯到埃及人和巴比伦人；它对希腊数学家来说很熟悉，人们已经在欧几里得（*元素*，书IX，第 11 条）中发现了一个通用的叙述，相当于整数指数$> 0$的规则$a^m a^n = a^{m+n}$。 中世纪，法国数学家 N. Oresme（十四世纪）再次发现了这条规则；也正是在他那里，第一次出现了小数指数$> 0$的概念，记号已经接近我们的指数以及一些与它们相关的计算规则（一般为形式）（对于例，我们现在写出$(ab)^{1/n} = a^{1/n} b^{1/n}$，$(a^m)^{p/q} = (a^{mp})^{1/q}$的两个规则[74]。 But the ideas of Oresme were too much in advance of the Mathematics of his time to exercise an influence on his contemporaries and his treatise sunk rapidly into forgetfulness. 一个世纪后，N. Chuquet再次陈述了欧几里得的规则；他还在方程中引入了未知数幂的指数记号，并且毫不犹豫地使用了指数0和整数指数$< 0$.$^1$这一次（尽管Chuquet的作品仍然是手稿并且似乎没有被广泛传播），同构的想法在“算术”之间指数级数”和幂的“几何级数”将不再被忽视；由 Stifel 扩展到负指数和分数指数（[298]，第 35 和 249-250），最终得到对数的定义和第一个表的构造，由 Scot J. 纳皮尔 (Napier)，1614-1620 年，瑞士人 J. Bürgi（他的作品直到 1620 年才出现，尽管他的构想可以追溯到 17 世纪初期）。 对于 Bürgi，在 $\mathbf{R}$ 和 $\mathbf{R}_+^*$ 之间建立的同构的连续性通过在处理表时使用插值隐含地假定；相反，它在定义中明确表述
+实数$> 0$的乘法群$\mathbf{R}_+^*$的历史与概念、幂、数$> 0$以及用来表示它们的记号的发展历史密切相关。 由连续的幂和相同的数组成的“几何级数”的概念可以追溯到埃及人和巴比伦人；希腊数学家对此很熟悉，人们已经在欧几里得（*元素*，书IX，第 11 条）中发现了一个一般的叙述，相当于整数指数 $> 0$ 的规则 $a^m a^n = a^{m+n}$。 中世纪，法国数学家 N. Oresme（十四世纪）再次发现了这条规则；也是在他那里，第一次出现了分数指数$> 0$的概念，记号已经接近我们的，以及一些与它们相关的计算规则（一般在形式中说明）（例如我们现在写的两个规则$(ab)^{1/n} = a^{1/n} b^{1/n}$，$(a^m)^{p/q} = (a^{mp})^{1/q}$[74]。 但奥雷斯梅的思想远远超前于他那个时代的数学，无法对他的同时代人产生影响，他的论文很快就被遗忘了。 一个世纪后，N. Chuquet再次陈述了欧几里得的规则；他还在方程中引入了未知数幂的指数记号，并且毫不犹豫地使用了指数0和整数指数$< 0$.$^1$这一次（尽管Chuquet的作品仍然是手稿并且似乎没有被广泛传播），这个想法同构介于指数的“算术级数”和幂的“等比级数”之间，将不再被忽视；由 Stifel 扩展到负指数和小数指数（[298]，第 35 和 249-250），最终得到对数的定义和第一个表的构造，由 Scot J. 独立完成。 纳皮尔 (Napier)，1614-1620 年，瑞士人 J. Bürgi（他的作品直到 1620 年才出现，尽管他的构想可以追溯到 17 世纪初期）。 对于 Bürgi，在 $\mathbf{R}$ 和 $\mathbf{R}_+^*$ 之间建立的同构的连续性通过在处理表时使用插值隐含地假定；相反，它在定义中明确表述
 
-$^1$ Chuquet 为例 $12^1, 12^2, 12^3$ 等书写，为$12x, 12x^2, 12x^3$ 等书写，为$12^0$ 为数 12 书写，为$12^{2m}$ 为$12x^{-2}$ 书写（[64]，第737-738 页）。
+例如，$^1$ Chuquet 为 $12x, 12x^2, 12x^3$ 等写为 $12^1, 12^2, 12^3$ 等，为数 12 写为 $12^0$，为 $12x^{-2}$ 写为 $12^{2m}$（[64]，第 737-738 页）。
 
 纳皮尔（至少在当时相当模糊的连续性概念所允许的范围内明确）。$^2$
 

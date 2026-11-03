@@ -33,25 +33,25 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: 4b5ae08f77d04cd0c354867532014d87e6c566e1fbdfd06b188b29d1f43eed01
+content_sha256: d4f433a7ceb49f512144c10460a639cd7202520e07c7f9d88e7018f28d4d4d31
 translated_from: content/en/ac/VI/02_s2_places.md
 translation_method: google
 source_content_sha256: 53c302660c61cd7fef1b70be1d4b1ffa083e7229208dbbe2c386c3d702cdbacb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 764574dc574d23ce551dbc8841cb4afe0a172112c47cd45cf804d8678c27b1f5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 2. 地点
 
-### 1. 态射的概念对于合成的律并非到处都有定义
+### 1. 概念 / 态射对于律 / 合成并非到处都有定义
 
 #### 定义 1 {#ac-vi-s2-def-1 .statement tag=04SN}
 
-*令 E 和 E' 为两个集合，每个律为合成，用$(x, y) \mapsto x * y$表示，不一定在所有地方都定义。 映射 $f : E \to E'$ 是态射，如果对于 E 中的所有 $x, y$ 且定义了 $f(x) * f(y)$，也定义了合成 $x * y$ 并且：*
+*设 E 和 E' 为两个集合，每个律为合成，用 $(x, y) \mapsto x * y$ 表示，不一定在所有地方都定义。 映射 $f : E \to E'$ 是态射，如果对于 E 中的所有 $x, y$ 且定义了 $f(x) * f(y)$，也定义了合成 $x * y$ 并且：*
 
 (1)
 $$
@@ -59,17 +59,17 @@ f(x * y) = f(x) * f(y).
 $$
 更简单地说，我们可以说每当右侧有意义时，公式 (1) 都必须成立。
 
-态射的概念与表示(*代数*, 章I, § 1, no. 1)不同，其中要求只要左边有意义，方程(1)就成立。当然，律和合成的两个概念重合到处都有定义。
+态射的概念与表示(*代数*, 章I, § 1, no. 1)不同，其中要求只要左边有意义，等式(1)就成立。当然，律和合成的两个概念重合到处都有定义。
 
 #### 定义 2 {#ac-vi-s2-def-2 .statement tag=04SO}
 
-*令 E 和 E' 为两个集合，每个律为合成 $(x, y) \mapsto x *_{\alpha} y, \alpha \in I$。如果对于合成 $(x, y) \mapsto x *_{\alpha} y$ 的每个律都是态射，映射 $f : E \to E'$ 就是态射。*
+*令 E 和 E' 为两个集合，每个律为合成 $(x, y) \mapsto x *_{\alpha} y, \alpha \in I$。如果合成 $(x, y) \mapsto x *_{\alpha} y$ 中的每一个律都是态射，映射 $f : E \to E'$ 就是态射。*
 
-正如表示一样，*集合理论*的态射满足公理(MO_I)、(MO_{II})、(MO_{III})、章IV, § 2。如果：$E \to E'$是态射，$f(E)$是$\mathbf{R}'$的稳定子集。
+正如表示，所以态射满足公理(MO_I)，(MO_{II})，(MO_{III})*集合理论*，章IV, § 2。如果：$E \to E'$是态射，$f(E)$是$\mathbf{R}'$的稳定子集。
 
 ### 2. 地点
 
-If K is a field, recall that $\mathbf{K}$ denotes the set the sum of K and an element denoted by $\infty$ (*Algebra*, Chapter 11, § 9, no. 9); the laws of composition of K extend to $\mathbf{K}$ by setting (*loc. cit.*)
+如果 K 为域，请回想一下，$\mathbf{K}$ 表示 K 的集合和，元素表示为 $\infty$ (*代数*, 章 11, § 9, no. 9)； K 扩展的合成律至 $\mathbf{K}$ by 设定 （*loc. cit.*）
 
 (2)
 $$
@@ -86,7 +86,7 @@ $$
 
 #### 定义 3 {#ac-vi-s2-def-3 .statement tag=04SP}
 
-*令$K$和$L$为两个域。每个态射*$f$*的*$K$*到*$\tilde{L}$*（对于加法和乘法）**这样*$f(1) = 1$*被称为*$K$*与值在*$L$的地方。
+*令$K$和$L$为两个域。每个态射* $f$ *of* $K$ *到* $\tilde{L}$ *（对于加法和乘法）* *使得* $f(1) = 1$ *被称为* $K$ *的地方，其中值在* $L$。
 
 在其他字中，如果$x$和$y$是$K$和$f(x) + f(y)$（或$f(x)f(y)$）的元素，则定义$x + y$（或$xy$），并且
 
@@ -102,7 +102,7 @@ $$
 f(\infty) = \infty.
 $$
 
-类似地，由于$0 \cdot \infty$没有定义，$f(0)f(\infty)$也没有定义，根据(6)，这意味着
+类似地，由于 $0 \cdot \infty$ 没有定义，$f(0)f(\infty)$ 也没有定义，根据 (6)，这意味着
 $$
 f(0) = 0.
 $$
@@ -129,7 +129,7 @@ $$
 
 令F为域K的同构到域L的子域；让我们通过设定$f(\infty) = \infty$从扩展$f$到$K$。因此，我们在 L 中获得了具有值的 K 位置，称为“平凡”，并且通常用同构 $f$ 来标识。
 
-### 3. 地点和估值环
+### 3. 地点和估价环
 
 #### 命题 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
@@ -145,7 +145,7 @@ $$
 
 成立。如果$x \in \mathbf{A}$和$y \notin \mathbf{A}$，则$x + y \notin \mathbf{A}$和上面公式的两侧等于$\infty$。
 
-我们最终证明对于乘法，$h_{\mathbf{A}}$ 是态射。令 $x \in K, y \in K$ 使得 $h_{\mathbf{A}}(x)h_{\mathbf{A}}(y)$ 被定义。如果$x \in \mathbf{A}$和$y \in \mathbf{A}$，则明确定义了$xy$和$h_{\mathbf{A}}(x)h_{\mathbf{A}}(y) = h_{\mathbf{A}}(xy)$。现在假设元素$x, y$之一，对于例$y$，不属于到$\mathbf{A}$；如$h_{\mathbf{A}}(y) = \infty$、$h_{\mathbf{A}}(x) \neq 0$，即$x \notin m(\mathbf{A})$、从而$x^{-1} \in \mathbf{A}$；由此可知 $xy$ 已定义，且 $xy \notin \mathbf{A}$、从而
+我们最终证明，对于乘法，$h_{\mathbf{A}}$ 是态射。令 $x \in K, y \in K$ 使得 $h_{\mathbf{A}}(x)h_{\mathbf{A}}(y)$ 被定义。如果$x \in \mathbf{A}$和$y \in \mathbf{A}$，则明确定义了$xy$和$h_{\mathbf{A}}(x)h_{\mathbf{A}}(y) = h_{\mathbf{A}}(xy)$。现在假设元素$x, y$之一，例如$y$，不属于到$\mathbf{A}$；如$h_{\mathbf{A}}(y) = \infty$、$h_{\mathbf{A}}(x) \neq 0$，即$x \notin m(\mathbf{A})$、从而$x^{-1} \in \mathbf{A}$；由此可知 $xy$ 已定义，且 $xy \notin \mathbf{A}$、从而
 
 $$
 h_{\mathbf{A}}(xy) = \infty = h_{\mathbf{A}}(x)h_{\mathbf{A}}(y).
@@ -157,13 +157,13 @@ $$
 
 #### 命题 2 {#ac-vi-s2-prop-2 .statement tag=04SR}
 
-令K和L为两个域，f为L中K与值的位置。那么存在对 K 的评估环 $\mathbf{A}$ 和对 L 的子域的同构 $j$ $\kappa(\mathbf{A})$ 的评估，使得 $f = j \circ h_{\mathbf{A}}$；这些条件确定 $\mathbf{A}$ 和 $j$ 是独一无二的。 环$\mathbf{A}$是$x \in K$的集合，使得$f(x) \neq \infty$和$m(\mathbf{A})$是$x \in K$的集合，使得$f(x) = 0$。
+设K和L是两个域，f是L中K与值的位置。那么存在对 K 的评估环 $\mathbf{A}$ 和对 L 的子域的同构 $j$ $\kappa(\mathbf{A})$ 的评估，使得 $f = j \circ h_{\mathbf{A}}$；这些条件确定 $\mathbf{A}$ 和 $j$ 是独一无二的。 环$\mathbf{A}$是$x \in K$的集合使得$f(x) \neq \infty$并且$m(\mathbf{A})$是$x \in K$的集合使得$f(x) = 0$。
 
-如果$f = j \circ h_{\mathbf{A}}$，条件$f(x) \neq \infty$（或$f(x) = 0$）相当于条件$h_{\mathbf{A}}(x) \neq \infty$（或$h_{\mathbf{A}}(x) = 0$），因此相当于条件$x \in \mathbf{A}$（或$x \in m(\mathbf{A})$）。因此 $\mathbf{A}$ 是唯一确定的，并且由于 $h_{\mathbf{A}}$ 是满射，$j$ 也是唯一的。
+如果 $f = j \circ h_{\mathbf{A}}$，条件 $f(x) \neq \infty$（分别为 $f(x) = 0$）相当于条件 $h_{\mathbf{A}}(x) \neq \infty$（分别为 $h_{\mathbf{A}}(x) = 0$），因此相当于条件 $x \in \mathbf{A}$（分别为 $x \in m(\mathbf{A})$）。因此 $\mathbf{A}$ 是唯一确定的，并且由于 $h_{\mathbf{A}}$ 是满射，$j$ 也是唯一的。
 
-现在令$f$为K中L中任意有值的位置；让$\mathbf{A}$表示$x \in K$的集合，使得$f(x) \neq \infty$。如果定义了$x \in \mathbf{A}$和$y \in \mathbf{A}$、合成、$f(x) - f(y)$和$f(x)f(y)$以及$\neq \infty$，则表明$x - y \in \mathbf{A}$和$xy \in \mathbf{A}$；因此$\mathbf{A}$是K的子环。如果$x \notin \mathbf{A}$，则$f(x) = \infty$，因此通过限制获得同态$f'$的$f(x^{-1}) = 0$和$x^{-1}$属于到核$m$ $f$至$\mathbf{A}$。反之，如果$y \in m$，则$y^{-1} \notin \mathbf{A}$。这表明$\mathbf{A}$是K的评估环，而$m$是其最大理想。设 $j$ 为从 $\kappa(\mathbf{A})$ 到 L 的单同态，由 f' 除以经过的商得出。那么 $f(x) = j(h_A(x))$ 对于所有 $x \in A$ 来说，这个方程对于 $x \notin A$ 仍然成立，那么两侧就等于 $\infty$。
+现在令$f$为K中L中任意有值的位置；让$\mathbf{A}$表示$x \in K$的集合，使得$f(x) \neq \infty$。如果定义了$x \in \mathbf{A}$和$y \in \mathbf{A}$、合成、$f(x) - f(y)$和$f(x)f(y)$以及$\neq \infty$，则表明$x - y \in \mathbf{A}$和$xy \in \mathbf{A}$；因此$\mathbf{A}$是K的子环。如果$x \notin \mathbf{A}$，那么$f(x) = \infty$，因此通过限制获得同态$f'$的$f(x^{-1}) = 0$和$x^{-1}$属于到核$m$ $f$至$\mathbf{A}$。反之，如果$y \in m$，则$y^{-1} \notin \mathbf{A}$。这表明$\mathbf{A}$是K的评估环，而$m$是其最大理想。设 $j$ 为单同态，从 $\kappa(\mathbf{A})$ 到 L 由 f' 通过经过到商导出。那么 $f(x) = j(h_A(x))$ 对于所有 $x \in A$ 来说，这个方程对于 $x \notin A$ 仍然成立，那么两侧就等于 $\infty$。
 
-分解 $f = j \circ h_A$ 被称为placef 的规范分解。 $A$称为环关，$m(A)$是$f$和$\kappa(A)$剩余类域关的理想值。对于两个地方$f : \mathbf{K} \to \mathbf{L}$和$f' : \mathbf{K} \to \mathbf{L}'$具有相同的环，充分必要的是，存在值域中的同构，使得$f' = s \circ f$；那么$f$和$f'$称为等价。可以看出，每一个估价环的结果都可以转化为地点的结果，反之亦然；这就是我们在以下编号中要做的事情。
+分解 $f = j \circ h_A$ 被称为placef 的规范分解。 $A$称为环关，$m(A)$称为$f$和$\kappa(A)$剩余类域关的理想状态。对于两个地方$f : \mathbf{K} \to \mathbf{L}$和$f' : \mathbf{K} \to \mathbf{L}'$具有相同的环，充分必要的是，存在值域中的同构，使得$f' = s \circ f$；那么$f$和$f'$称为等价。可以看出，每一个估价环的结果都可以转化为地点的结果，反之亦然；这就是我们在以下编号中要做的事情。
 
 例地点
 (1) 设$K$为域。 $K$上的恒等映射是一个平凡的地方，有环$K$和理想的$(0)$。
@@ -185,7 +185,7 @@ $$
 
 令$V$为环关闭，$g$限制关闭至$V$以及$g$至$V[x_1, \ldots, x_n]$的$g'$扩张，使得$g'(x_i) = a,$对于$1 \leq i \leq n.$就足够了$L'$为$L$和应用命题3的代数闭包到$g'$和$L'$：我们得到一个placef'：$K' \to \tilde{L}'$，其中扩展$g'$；如果$x \in K - V,$则$x^{-1} \in m(V),$从而$f(x^{-1}) = g(x^{-1}) = 0$和$f'(x) = \infty = f(x);$因此延伸'。
 
-### 5. 刻画积分元素通过位置
+### 5. 元素通过位置积分的刻画
 
 #### 命题 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 

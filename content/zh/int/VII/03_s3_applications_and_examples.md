@@ -25,16 +25,16 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 17bc53287dc0b61a35613bf36a1db2956a3d4e17c3cdc557a491927b5fd7e636
+content_sha256: 26ba83b5523fd3829c5a4a663c586422cfec84c8d010f5043f6577233ba44886
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 translation_method: google
 source_content_sha256: 77d86192dc78c3caea75d568c8ef5d05992c7bdcaed4b1daac8f963f1400d1ea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: e54d95e44fe8ecf65d66d4b1cefc8ff870429b8f3983de8af42ce274cead37dd
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。应用程序和例
@@ -112,7 +112,7 @@ $$
 
 一个约化立即对应到 $n = 1$ 的情况。由于加法群$\mathbf{R}$与乘法群$\mathbf{R}_+^*$同构的，命题则为§2, No. 4第7条命题的直接的推论。
 
-#### 推论{#int-vii-s3-n2-cor-1 .statement tag=09GW}
+#### 推论 {#int-vii-s3-n2-cor-1 .statement tag=09GW}
 
 *设 X 为局部紧致空间，其中有限维实数向量空间 V 在右侧连续正确地按 $(x, v) \mapsto xv$ 运算。设$\pi$是X的典范映射到$B = X/V$。假设 B 是仿紧的。*
 
@@ -181,7 +181,7 @@ c) *$G$的每个紧凑子群都包含在最大紧凑子群中。*
 
 d) *最大紧凑$G$的子群是子群，即$L$的变换乘以$G$的内自同构。*
 
-设$\pi$是$G$到$K = G/H$的典范同态。通过商，$G \times H$的映射$(s, h) \mapsto shs^{-1}$进入$H$定义，将$K \times H$的连续映射$(\sigma, h) \mapsto \sigma \cdot h$进入$H$，从而得到$shs^{-1} = \pi(s) \cdot h$。我们将认同 $H$ 与 $\mathbf{R}^n$ （因此，视情况而定，对 $H$ 中的群运算使用乘法或加法记号）。由科。根据命题2，存在$G$到$H$的连续映射$f$，使得$f(xh) = f(x) + h$对应$x \in G, h \in H$。对于每个$x \in G$，设$p(x) = x \cdot (-f(x))$，它仅取决于$x$相对于$H$的陪集。 集合
+设$\pi$是$G$到$K = G/H$的典范同态。通过将$G \times H$的商、映射$(s, h) \mapsto shs^{-1}$转入$H$定义，将$K \times H$的连续映射$(\sigma, h) \mapsto \sigma \cdot h$转入$H$，从而得到$shs^{-1} = \pi(s) \cdot h$。我们将认同 $H$ 与 $\mathbf{R}^n$ （因此，视情况而定，对 $H$ 中的群运算使用乘法或加法记号）。由科。根据命题2，存在$G$到$H$的连续映射$f$，使得$f(xh) = f(x) + h$对应$x \in G, h \in H$。对于每个$x \in G$，设$p(x) = x \cdot (-f(x))$，它仅取决于$x$相对于$H$的陪集。 集合
 
 $$
 \begin{align*}
@@ -204,7 +204,7 @@ F'(xh, yh') &= f(xhyh') - \pi(y)^{-1}f(xh) - f(yh') \\
 \end{align*}
 $$
 
-因此，$F$定义，通过商，将$K \times K$的连续映射$\varphi$转化为$H$。
+因此$F$定义，通过商，$K \times K$的连续映射$\varphi$进入$H$。
 
 另一方面，对于$G$中的所有$x, y, z$，我们有
 
@@ -277,9 +277,9 @@ $$
 
 令 G 为连通拓扑群，允许离散法线子群 D，使得 K = G/D 是紧的，并且 K 的换位子子群在 K 中是稠密的。则 D 是有限的，G 是紧的。
 
-群 G 与 K 局部同构（GT，III, §2, No. 6，命题 19），因此是局部紧的；因为它是连通的，所以它是由 e 的紧邻域生成的。通过引理 3 和 4，D 是有限生成的阿贝尔的群，因此与群 $\mathbf{Z}^r \times D_1$ 同构的，其中 D_1 有限（A，VII, §4, No. 7，Th.3）。假设 r > 0。则在 $\mathbf{Z}$ 上存在 D 的表示 f。根据命题 4，f 可以扩展到 R 中 G 的连续表示 g。通过商，g 定义 $\mathbf{R}/\mathbf{Z}$ 中$K$ 的连续表示 $g'$；由于$\mathbf{R}/\mathbf{Z}$是阿贝尔的，$g'$包含换位子子群的核是$K$，因而$g'$是平凡的；其他字、$g(G) \subset \mathbf{Z}$。由于$G$是连通的，因此得出$g(G) = \{0\}$，从$f(D) = \mathbf{Z}$开始这是荒谬的。因而 $r = 0$ 和 $D$ 是有限的。因而 $G$ 是紧致的（GT，III, §4, No. 1，Prop.2 的 Cor.2）。
+群 G 与 K 局部同构（GT，III, §2, No. 6，命题 19），因此是局部紧的；因为它是连通的，所以它是由 e 的紧邻域生成的。通过引理 3 和 4，D 是有限生成的阿贝尔的群，因此与群 $\mathbf{Z}^r \times D_1$ 同构的，其中 D_1 有限（A，VII, §4, No. 7，Th.3）。假设 r > 0。则在 $\mathbf{Z}$ 上存在 D 的表示 f。根据命题 4，f 可以扩展到 R 中 G 的连续表示 g。通过商，g 定义 $\mathbf{R}/\mathbf{Z}$ 中$K$ 的连续表示 $g'$；由于$\mathbf{R}/\mathbf{Z}$是阿贝尔的，$g'$包含换位子子群$K$的核，因而$g'$是平凡的；其他字，$g(G) \subset \mathbf{Z}$。由于$G$是连通的，因此得出$g(G) = \{0\}$，从$f(D) = \mathbf{Z}$开始这是荒谬的。因而 $r = 0$ 和 $D$ 是有限的。因而 $G$ 是紧致的（GT，III, §4, No. 1，Prop.2 的 Cor.2）。
 
-### 3. Examples
+### 3. 例
 
 在这个小节（例 7和8除外）中，$K$表示非离散局部紧致交换域； $dx$表示$K$的加法群的Haar测度。
 
@@ -377,7 +377,7 @@ $$
 z''_{ij} = 0 \text{ for } i > j, \quad z''_{ii} = 1,
 $$
 
-从而$Z'Z \in T_J$。如果$T_J$被识别为$K^s$，那么映射$Z \mapsto Z'Z$（对于固定的$Z'$）被仿射映射识别，并且它的行列式是1，正如通过按字典顺序对对$(i, j) \in J$排序看到的那样应用以下引理：
+从而$Z'Z \in T_J$。如果 $T_J$ 被识别为 $K^s$，那么映射 $Z \mapsto Z'Z$（对于固定的 $Z'$）被仿射映射识别，并且它的行列式是 1，正如按字典顺序对对 $(i, j) \in J$ 排序所看到的那样以及应用以下引理：
 
 #### 引理 6 {#int-vii-s3-lem-6 .statement tag=09H8}
 
@@ -387,7 +387,7 @@ $$
 $$
 从$\prod_{\lambda \in L} V_\lambda$到$\prod_{\lambda \in L} V_\lambda$，有行列式$\prod_{\lambda \in L} \det f_{\lambda \lambda}$。
 
-一个约化立即到$L$是整数区间的情况，然后从A，III, §8, No. 6，公式（31）得出引理。
+一个约化紧接着$L$是整数的区间，然后从A，III, §8, No. 6，公式（31）得出引理。
 
 如果$Z \in T_J$，则可以看到存在$Z' \in T_J$，使得$Z'Z = I_n$、从而$Z' = Z^{-1}$。因此，$T_J$是$\mathbf{GL}(n, K)$的闭子群。另一方面，§1, No. 10第15号提案表明该措施
 
@@ -397,7 +397,7 @@ $$
 
 是 $T_J$ 上的左哈尔测度。通过计算$ZZ'$，我们可以以同样的方式看到该测度是$T_J$ 上的正确哈尔测度。
 
-如果在$T_J$的定义中，行和列的角色互换，也会得到类似的结果。
+如果在$T_J$中的定义中，行和列的角色互换，也会得到类似的结果。
 
 当$J$是对$(i, j)$的集合时，$i < j$、群$T_J$称为阶$n$的*上严格三角形群* $K$，记作$T_1(n, K)$。它的转置称为*下严格三角形群*。
 
@@ -524,7 +524,7 @@ $$
 \prod_{k=1}^r (\operatorname{mod} \det Z_{kk})^{n+n_k-2p_{k+1}}.
 $$
 
-If in particular one takes $n_1 = \ldots = n_r = 1$, one finds as group $G$ the group $T(n, K)^*$ of invertible elements of the subalgebra of $M_n(K)$ formed by the matrices $X = (x_{ij})$ such that $x_{ij} = 0$ for $i > j$. 这个代数，我们将表示为$T(n, K)$，被称为*上三角代数*，群$T(n, K)^*$被称为阶$n$在$K$上的*上大三角群*。 前面的公式然后取下面的形式：$T(n, K)^*$上的左哈尔测度是
+如果特别是取$n_1 = \ldots = n_r = 1$，则可以找到由矩阵$X = (x_{ij})$形成的$M_n(K)$子代数的可逆元素的群$T(n, K)^*$作为群$G$，使得对于$i > j$有$x_{ij} = 0$。 这个代数，我们将表示为$T(n, K)$，被称为*上三角代数*，群$T(n, K)^*$被称为阶$n$在$K$上的*上大三角群*。 前面的公式然后取下面的形式：$T(n, K)^*$上的左哈尔测度是
 
 $$(9\ bis)$$
 $$

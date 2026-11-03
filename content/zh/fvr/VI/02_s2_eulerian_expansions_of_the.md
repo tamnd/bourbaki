@@ -25,31 +25,31 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 13
-content_sha256: 1df1b7cbb1f3a8765170131eb6e1aade33b47921bb463da041873fc0637e2166
+content_sha256: a1d5c680591f04e0163816aa1b4f0da481eb327751156c18121c38cefe1040e9
 translated_from: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
 translation_method: google
 source_content_sha256: 3c79b30ff58a4995c02b9783d2b22927cb3d4728ceeaf6e2ab3524761187a1a8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 6d352228b92afef9095aebefffafa6eebfdede0627924f747c3e9fe4a4ffec5b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。三角函数函数和伯努利数的欧拉展开
 
 ### 1. 欧拉展开 OF $\cot z$
 
-通过VI、p. 275、数$b_n / n!$的公式(20)，是$S/(e^S - 1)$的展开中的系数作为*形式*级数；我们将在这个截面中证明，函数$z/(e^z - 1)$等于$\mathbf{C}$中0的邻域上绝对收敛的整个级数的和；从VI、p. 280的引理可以得出，这个级数的系数是数$b_n / n!$，从中我们可以推导出伯努利数$b_n$的估计。
+通过VI、p. 275、数$b_n / n!$的公式（20），系数在$S/(e^S - 1)$的展开作为*正式*级数；我们将在这个截面中证明，函数$z/(e^z - 1)$等于$\mathbf{C}$中0的邻域上绝对收敛的整个级数的和；根据VI、p. 280的引理，级数中的系数为数$b_n / n!$，从中我们可以推导出伯努利数$b_n$的估计值。
 
-首先我们注
+首先我们注意到
 
 $$
 \frac{z}{e^z - 1} = - \frac{z}{2} + \frac{z}{2} \frac{e^z + 1}{e^z - 1} = - \frac{z}{2} + \frac{iz}{2} \cot \frac{iz}{2}.
 $$ (1)
 
-我们将获得以下$\cot z$的级数展开，对于$\pi$的每个$z$而不是整数倍数有效。
+对于$\cot z$，我们将获得以下级数展开，对于$\pi$的每个$z$而不是整数倍数有效。
 
 #### 命题 1 {#fvr-vi-s2-prop-1 .statement tag=08IC}
 
@@ -111,7 +111,7 @@ $$
 \cot \left( z - \frac{k\pi}{n} \right) = \frac{1 + \tan z \tan \frac{k\pi}{n}}{\tan z - \tan \frac{k\pi}{n}}
 $$
 
-对于 tan z 有限；因此，cot $nz$ 是 $u = \tan z$ 中的有理数函数，其分子为次数 $n - 1$，其分母为次数 $n$，具有 $n$ 简单根 $\tan k\pi / n$；将其分解为简单的分数产量
+对于 tan z 有限；因此 cot $nz$ 是 $u = \tan z$ 中的有理数函数，其分子为次数 $n - 1$，其分母为次数 $n$，具有 $n$ 简单根 $\tan k\pi / n$；将其分解为简单的分数产量
 
 $$
 \cot nz = \sum_{k=-m}^{m} \frac{A_k}{u - \tan \frac{k\pi}{n}}
@@ -126,7 +126,7 @@ $$
 = \lim_{h \to 0} \frac{\cos nh}{\cos \frac{k\pi}{n} \cos \left( h + \frac{k\pi}{n} \right)} \frac{\sin h}{\sin nh} = \frac{1}{n \cos^2 \frac{k\pi}{n}}
 $$
 
-从而，将 (6) 相应的中的项分离到 $k = 0$ 并将项相应的组合到 $k$ 的相对值，以及替换 $z$ $z/n$,
+从而，将 (6) 相应的中的项分离到 $k = 0$ 并将项相应的组合到 $k$ 的相反值，以及替换 $z$ $z/n$,
 
 $$
 \cot z = \frac{1}{n \tan \frac{z}{n}} + \sum_{k=1}^{m} \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}

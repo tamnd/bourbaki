@@ -50,16 +50,16 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 25
-content_sha256: ffb87d39f87dee16b295d24de7952691efc3aba589f9d58167ec58178b2e7b2f
+content_sha256: 75d01e4fab92e00a144c82ba2ea811a49f3f427983bd6a1d9090ed9c43037c7b
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
 translation_method: google
 source_content_sha256: e417e7dc96e464c48ed19a91e2e8d38e2c97d4afc92adb2cc15edbd954a62d34
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: def4c7564e697fae5b4153c3415f85c182b30431a04f56ba38068333088869db
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。 有限生成模超过主理想整环
@@ -84,7 +84,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 事实上，在命题1的记号中，我们有$a_p = a_{s(H)}$，其中$s(H)$表示子集$H$的最大元素。由于$s(H) \geq p$对于每个$p$元素子集$H$，并且由于$s(H) = p$对于$H = \{ 1, \ldots, p \}$，因此$a_p$是$a_r$的交，因为$H$在集合上变化$p$-$(1, n)$的元素子集；因此，根据命题 1，理想的 $a_p$ 确实是 $\bigwedge^p E$ 的湮没子。
 
-#### 推论{#alg-vii-s4-n1-cor-1 .statement tag=073P}
+#### 推论 {#alg-vii-s4-n1-cor-1 .statement tag=073P}
 
 — *在命题2的记号中，如果$a_n \neq A$，且$E$也同构于$m$循环模$A / a'_j$与$a'_1 \subset a'_2 \subset \ldots \subset a'_m \neq A$的直和，则$m = n$且$a_k = a'_k$ 对应 $1 \leq k \leq n$（*$a_k *$ 的唯一性）。
 
@@ -123,17 +123,17 @@ a) $L$ 是$A(x/c)$ 的直和和核 $K$ $f$。
 b) $M$ 是 $Ax$ 和 $K \cap M$ 中的直和。
 c) $g(M) \subset Ac$ 对应 $L$ 上的每线性形式 $g$。
 
-把$y = x/c$；显然$Ay \cap K = \{0\}$，从$f(y) = 1$开始。此外，对于每个$u \in L$，我们有
+把$y = x/c$；显然$Ay \cap K = \{0\}$，从$f(y) = 1$开始。 此外，对于每个$u \in L$，我们有
 $$
 u = f(u)\,y + (u - f(u)\,y),
 $$
-与 $f(u)y \in Ay$ 和 $u - f(u)y \in K$ ；这证明了*a)*。现在注，对于$u \in M$，我们有$f(u) \in Ac$：事实上，让$u \in M$，并让$d$是$f(u)$和$c$的gcd；那么存在 $\lambda, \mu \in A$ 使得 $d = Xf(u) + \mu c = f(Xu + \mu x)$ ；因此元素$\lambda u + \mu x$的内容为$M$除$d$；根据$c$的最大值，这意味着$d$是$c$的关联，因此$f(u) \in Ac$。因此，对于$M$中的所有$u$，我们可以写
+与 $f(u)y \in Ay$ 和 $u - f(u)y \in K$ ；这证明了*a)*。 现在请注意，对于$u \in M$，我们有$f(u) \in Ac$：实际上，让$u \in M$，并让$d$是$f(u)$和$c$的gcd；则存在 $\lambda, \mu \in A$ 使得 $d = Xf(u) + \mu c = f(Xu + \mu x)$ ；因此元素$\lambda u + \mu x$的内容为$M$除$d$；根据$c$的最大值，这意味着$d$是$c$的关联，因此$f(u) \in Ac$。 因此对于$M$中的所有$u$，我们可以写
 $$
 u = (f(u)/c)\,x + (u - (f(u)/c)\,x) \in Ax + (K \cap M),
 $$
-显示 *b)*。最后，让$g$在$L$上成为线性形式；由 *a)* 存在标量 $\alpha \in A$ 和线性形式 $h$ 在 $K$ 上，使得 $g(u) = \alpha f(u) + h(u - f(u)\,y)$ ；因此通过
+显示 *b)*。 最后，让$g$在$L$上成为线性形式； by *a)* there exists a scalar $\alpha \in A$ and 线性形式 $h$ on $K$ such that $g(u) = \alpha f(u) + h(u - f(u)\,y)$ ;因此通过
 
-b) 我们有$g(M) \subset Ac + h(K \cap M)$。因此，为了证明 c)，只需证明$h(K \cap M) \subset Ac$对于$K$上的每个线性形式$h$，或者等效地对于$L$上的每个线性形式$h$，使得$h(x) = 0$；现在，如果$u \in K \cap M$和$d$是$h(u)$和$c$的gcd，则存在$A, \mu \in A$和$d = \lambda h(u) + \mu c$；然后$(f + h)(Au + \mu x) = d$，这意味着如上所述$h(u) \in Ac$，c）如下。
+b) we have $g(M) \subset Ac + h(K \cap M)$.因此，为了证明 c)，只需证明 $K$ 上的每个线性形式 $h$ 都有 $h(K \cap M) \subset Ac$，或者等效地，$L$ 上的每个线性形式 $h$ 使得 $h(x) = 0$；现在，如果$u \in K \cap M$和$d$是$h(u)$和$c$的gcd，则存在$A, \mu \in A$和$d = \lambda h(u) + \mu c$；然后$(f + h)(Au + \mu x) = d$，如上所述，这意味着$h(u) \in Ac$，c）如下。
 
 ### 3. 子模的不变式因子
 
@@ -161,19 +161,19 @@ b) $a_i$ 除 $\alpha_{i-1}$，对于 $1 \leq i \leq n-1$。
 
 由于$L$是$M'$和$L'$的直和，因此$L/M$是$M'/M$和$(L' + M)/M$的和，并且这个和从$(L' + M) \cap M' = M$开始是直接的；另一方面，$(L' + M)/M$同构于$L'/(M \cap L')$（I，p. 41，Th.4，c）），即$L'$，这表明$(L' + M)/M$与自由模同构于$L/M'$。
 
-#### 推论{#alg-vii-s4-n3-cor-1 .statement tag=073U}
+#### 推论 {#alg-vii-s4-n3-cor-1 .statement tag=073U}
 
 — 自由模 $L$ 中有限秩的子模 $M$ 在主理想整环 $A$ 上有$L$ 中的补集当且仅当$L/M$ 是挠元自由时。
 
-Th 记号。 1、如果$L/M$是挠元自由，则$M = M'$和$M'$在$L$中有补$L'$。相反，如果 $M$ 在 $L$ 中有补集 $L'$，则 $L/M$ 同构于 $L'$，后者是自由的（VII、p. 15，Cor. 2），并且更不必说挠元是自由的。
+Th 记号。 1、如果$L/M$自由挠元，则$M = M'$和$M'$在$L$中有补$L'$。相反，如果 $M$ 在 $L$ 中有补集 $L'$，则 $L/M$ 同构于 $L'$，后者是自由的（VII、p. 15，Cor. 2），并且更不必说挠元是自由的。
 
 #### 注 {#alg-vii-s4-n3-rem-1 .statement tag=073V}
 
-自由模 $L$ 中无限等级的子模 $M$ 可能会导致 $L/M$ 是挠元自由，但 $M$ 在 $L$ 中没有补集（VII，p. 60，例 6， b））。
+子模$M$在自由模$L$中的无限等级可能会导致$L/M$是挠元自由，但$M$在$L$中没有补集（VII，p. 60，Ex.6， b））。
 
 #### 定义 1 {#alg-vii-s4-def-1 .statement tag=073W}
 
-— 在记号和 Th 的假设中。 1、$A$的理想$A\alpha_i$称为子模$M$相对于模$L$的不变量因子。
+— 在记号和 Th 的假设中。 1、$A$的理想$A\alpha_i$被称为子模$M$相对于模$L$的不变量因子。
 
 如果$A$是有理数整数的环$\mathbf{Z}$或多项式环$K[X]$在域$K$上的一个不确定中，则有一种为$A$的每个理想选择生成元的规范方法：在$\mathbf{Z}$的情况下是正整数，或者在$K[X]$的情况下是一元多项式（VII，p. 5）。在每种情况下，不变量因子$Aa_i$的规范生成元也被滥用语言称为$M$相对于$L$的不变量因子。
 
@@ -183,20 +183,20 @@ Th 记号。 1、如果$L/M$是挠元自由，则$M = M'$和$M'$在$L$中有补$
 
 — 主理想整环 $A$上的每个有限生成模$E$同构于循环模$A/a_k$的有限数$m$的直和，其中$a_k$是$A$的理想（其中一些可能是零），使得$a_1 \subset a_2 \subset \ldots \subset a_m \neq A$，并且由这些条件唯一确定。
 
-如果$E$可以由$q$元素生成，则它与商模$L/M$同构的，其中$L = A^q$（II.p. 218）。 由于$M$有有限秩$n \leq q$（VII，p. 15，命题1），Th的条件。 1（VII，p. 18）满足。 Then in the notation of Th. 1 $L/M$ is isomorphic to a direct sum of a complement $L'$ of $M'$ in $L$ and the torsion module $M'/M$. 模 $L'$ 不包含有限秩 $p = q - n$，因此与 $A^p$ 同构的。 如果 $r$ 是最小的指标，使得 $A\alpha_r \neq A$，则对于 $r \leq i \leq n$，$M'/M$ 同构于模 $A/A\alpha_i$ 的直和。 如果我们取$m = p + (n - r + 1)$，$a_k = (0)$代表$1 \leq k \leq p$，$a_j = A\alpha_n , - ,$代表$1 \leq j \leq n - r + 1$，那么所规定的条件将得到满足。 唯一性源自 Cor。 VII，p. 16。
+如果$E$可以由$q$元素生成，则它与商模$L/M$同构的，其中$L = A^q$（II.p. 218）。 由于$M$有有限秩$n \leq q$（VII，p. 15，命题1），Th的条件。 1（VII，p. 18）满足。 然后用 Th 的表示法。 1 $L/M$ 同构于 $L$ 中 $M'$ 的补集 $L'$ 和扭力模 $M'/M$。 模 $L'$ 不包含有限秩 $p = q - n$，因此与 $A^p$ 同构的。 如果 $r$ 是最小的指标，使得 $A\alpha_r \neq A$，则对于 $r \leq i \leq n$，$M'/M$ 同构于模 $A/A\alpha_i$ 的直和。 如果我们取$m = p + (n - r + 1)$，$a_k = (0)$代表$1 \leq k \leq p$，$a_j = A\alpha_n , - ,$代表$1 \leq j \leq n - r + 1$，那么所规定的条件将得到满足。 唯一性源自 Cor。 VII，p. 16。
 
 #### 推论 1 {#alg-vii-s4-thm-2-cor-1 .statement tag=073Y}
 
 — *每个有限生成模 E 超过主理想整环都是 E 的挠元子模和自由模的直和。*
 
-E 的挠元子模通常有几个不同的补集。对于例，如果$E = \mathbf{Z} \times (\mathbf{Z}/(2))$则E的挠元子模为$\{0\} \times (\mathbf{Z}/(2))$；它具有子模 $\mathbf{Z} \times (0)$ 的补集，以及所有元素 $(n, \overline{n})$ 的子模由……组成，其中 $n$ 贯穿 $\mathbf{Z}$，$\overline{n}$ 是剩余类类 $n$ 模 2。
+E 的挠元子模通常有几个不同的补集。例如，如果$E = \mathbf{Z} \times (\mathbf{Z}/(2))$，则E的挠元子模为$\{0\} \times (\mathbf{Z}/(2))$；它有子模$\mathbf{Z} \times (0)$，以及所有元素$(n, \overline{n})$的子模由……组成，其中$n$贯穿$\mathbf{Z}$，$\overline{n}$是剩余类类 $n$ 模 2。
 
 #### 推论 2 {#alg-vii-s4-thm-2-cor-2 .statement tag=073Z}
 
 — *每超过主理想整环挠元免费有限生成模都免费有限秩。*
 这立即来自Cor。 1.
 
-条件模是有限生成的，这一点至关重要。对于 A 的分数 K 域例加法群，挠元自由为 A-模；然而，如果 $A \neq K$，它就不是自由模，因为一方面 K 的任何两个元素都有公共的除子，另一方面 K 不是循环 A-模，否则 $K = ab^{-1}A$ ($a, b \in A$), 从而 $b^{-2} = acb^{-1}$ ($c \in A$)，所以$b^{-1} = ac \in A$和$K = A$。
+条件模是有限生成的，这一点至关重要。例如 A 的分数 K 域加法群挠元自由为 A-模；然而，如果 $A \neq K$，它就不是自由模，因为一方面 K 的任何两个元素都有公共的除子，另一方面 K 不是循环 A-模，否则 $K = ab^{-1}A$ ($a, b \in A$), 从而 $b^{-2} = acb^{-1}$ ($c \in A$)，所以$b^{-1} = ac \in A$和$K = A$。
 
 #### 定义 2 {#alg-vii-s4-def-2 .statement tag=0740}
 
@@ -213,9 +213,9 @@ E 的挠元子模通常有几个不同的补集。对于例，如果$E = \mathbf
 
 由 Th. 1 显然$M \subset \alpha_1 L$；因此M的任何元素的坐标都是$a_1$的倍数。另一方面，以$a_1$作为L的内容，存在M的元素$x$。将$x$表示为$x_i$的线性组合，则$a_1$是$x_i$坐标生成的理想值的元素。由于这些都是$a_1$的倍数，因此$a_1$确实是他们的gcd，而我们的断言在$m = 1$的情况下得到了证明。
 
-对于一般的$m$，考虑M的第m个*外部幂* $\bigwedge^m M$（III，p. 507）。 Th 记号。 1 M 存在基 $(a_i)$，其中$a_i = \alpha_i e_i$ ($1 \leq i \leq n$)；因此$\bigwedge^m M$有元素$a_{i_1} \wedge \ldots \wedge a_{i_m}$的基由……组成，因为$(i_1, \ldots, i_m)$穿过$m$元素的严格递增的序列集合 $(1, n)$。现在元素$e_{i_1} \wedge \ldots \wedge e_{i_m}$属于到基$B_m$$\bigwedge^m L$。因此，从$\bigwedge^m M$到$\bigwedge^m L$的规范映射是从$\bigwedge^m M$到$\bigwedge^m L$的子模的同构，具有基元素$(\alpha_{i_1} \ldots \alpha_{i_m})\, e_{i_1} \wedge \ldots \wedge e_{i_m}$，并且我们认同这个子模与$\bigwedge^m M$。由于$j \geq k$的$\alpha_j$是$\alpha_k$的倍数，所以元素$\alpha_{i_1} \ldots \alpha_{i_m}$都是$\delta_m = \alpha_1 \ldots \alpha_m$的倍数，其中之一等于$\delta_m$；因此，$\delta_m$是相对于元素、系统、生成元、$\bigwedge^m M$的$B_m$的坐标的gcd。参数的第一个部分表明，$\delta_m$是$\bigwedge^m M$的生成元的任何系统坐标相对于$\bigwedge^m L$的任何基的坐标的集合的gcd。取$\bigwedge^m L$为基，由$L$的基$(u_j)$得出，以及生成元的系统为外部乘积的$\bigwedge^m M$由……组成 $(x_i)$，行列式项中这些乘积的坐标表达式（III，p. 528，命题9）给出了所规定的结果。
+对于一般的$m$，考虑M的第m个*外部幂* $\bigwedge^m M$（III，p. 507）。 Th 记号。 1 M 存在基 $(a_i)$，其中$a_i = \alpha_i e_i$ ($1 \leq i \leq n$)；因此$\bigwedge^m M$有元素$a_{i_1} \wedge \ldots \wedge a_{i_m}$的基由……组成，因为$(i_1, \ldots, i_m)$穿过$m$元素的严格递增的序列集合 $(1, n)$。现在元素$e_{i_1} \wedge \ldots \wedge e_{i_m}$属于到基$B_m$$\bigwedge^m L$。因此，从$\bigwedge^m M$到$\bigwedge^m L$的规范映射是从$\bigwedge^m M$到$\bigwedge^m L$的子模的同构，具有基元素$(\alpha_{i_1} \ldots \alpha_{i_m})\, e_{i_1} \wedge \ldots \wedge e_{i_m}$，并且我们认同这个子模与$\bigwedge^m M$。由于$j \geq k$的$\alpha_j$是$\alpha_k$的倍数，所以元素$\alpha_{i_1} \ldots \alpha_{i_m}$都是$\delta_m = \alpha_1 \ldots \alpha_m$的倍数，其中之一等于$\delta_m$；因此，$\delta_m$是相对于元素、系统、生成元、$\bigwedge^m M$的$B_m$的坐标的gcd。参数的第一个部分表明，$\delta_m$是$\bigwedge^m M$的生成元的任何系统坐标相对于$\bigwedge^m L$的任何基的坐标的集合的gcd。取$\bigwedge^m L$为基，由$L$的基$(u_j)$得出，以及生成元的系统为外部乘积的$\bigwedge^m M$由……组成 $(x_i)$，这些乘积在行列式的项中的坐标表达式（III，p. 528，命题9）给出了所规定的结果。
 
-### 6. 线性映射自由模，以及矩阵超过主理想整环
+### 6. 线性映射自由模，以及矩阵主理想整环
 
 设$A$为主理想整环。考虑将线性映射$f$从秩$m$的免费$A$模块$L$转换为秩$n$的免费$A$模块$L'$。前面的结果允许我们通过为$L$和$L'$选择合适的基，将$f$的矩阵放入一个特别简单的形式中，称为矩阵的*规范形式*。
 
@@ -223,7 +223,7 @@ E 的挠元子模通常有几个不同的补集。对于例，如果$E = \mathbf
 
 *令$A$为主理想整环，并且$f$将秩$r$的线性映射从秩$m$的自由$A$模块$L$转换为$A$模块$L'$ 秩 $n$。那么存在$L$的基$(e_i)$($1 \leq i \leq m$)和$L'$的$(e'_j)$($1 \leq j \leq n$)，使得$1 \leq i \leq r$有$f(e_i) = \alpha_i e'_i$，$i > r$有$f(e_i) = 0$，其中$\alpha_i$ 是$A$ 中的非零元素，每个除下一个；理想$A \alpha_i$是$f(L)$在$L'$中的不变量因子，因此是唯一确定的。*
 
-设$L_0 = f^{-1}(0)$为$f$的核；商$L/L_0$同构于模$f(L)$，即$L'$的子模，因此自由（*VII*，p. 15，Cor.2）；因此$L_0$在$L$中有一个补集$L_1$（*II*，p. 218，命题21），并且$f$到$L_1$的限制是从$L_1$到同构 $f(L) = M'$。如果理想 $A \alpha_i$ ($1 \leq i \leq r$) 是 $M'$ 在 $L'$ 中的不变量因子，则 Th。 *VII*、p. 18的1表示存在$L'$的基$(e'_j)$($1 \leq j \leq n$)使得$(\alpha_i e'_i)$($1 \leq i \leq r$)是$M'$的基。由于$f$到$L_1$的限制是从$L_1$到$M'$的同构，因此存在$L_1$的基$(e_i)$($1 \leq i \leq r$)使得$f(e_i) = \alpha_i e'_i$。 $L$的基扩展到基$(e_s)$（$1 \leq k \leq m$）通过取$(e_s)$（$r+1 \leq s \leq m$）为核$L_0$的基。
+设$L_0 = f^{-1}(0)$为$f$的核； 商 $L/L_0$ 与模 $f(L)$ 同构的，它是 $L'$ 的子模，因此是自由的（*VII*，p. 15，Cor.2）；因此$L_0$在$L$中有一个补集$L_1$（*II*，p. 218，命题21），并且$f$到$L_1$的限制是从$L_1$到同构 $f(L) = M'$。如果理想 $A \alpha_i$ ($1 \leq i \leq r$) 是 $M'$ 在 $L'$ 中的不变量因子，则 Th。 *VII*、p. 18的1表示存在$L'$的基$(e'_j)$($1 \leq j \leq n$)使得$(\alpha_i e'_i)$($1 \leq i \leq r$)是$M'$的基。由于$f$到$L_1$的限制是从$L_1$到$M'$的同构，因此存在$L_1$的基$(e_i)$($1 \leq i \leq r$)使得$f(e_i) = \alpha_i e'_i$。 $L$的基扩展到基$(e_s)$($1 \leq k \leq m$)通过取$(e_s)$($r+1 \leq s \leq m$)为核$L_0$的基。
 
 #### 推论 1 {#alg-vii-s4-prop-5-cor-1 .statement tag=0743}
 
@@ -241,15 +241,15 @@ $$
 
 其中$\alpha_i$是A的非零元素，每个除都是下一个。在这些条件下，$\alpha_i$由可逆元唯一确定到乘法。
 
-假设两个矩阵、X和$X'$是等价的，如果在A上存在阶n和m的可逆方阵P和Q，使得$X' = PXQ$，Cor。 1只是用项或矩阵表达的命题5。
+假设两个矩阵、X和$X'$是等价的，如果在A上存在阶n和m的可逆方阵P和Q，使得$X' = PXQ$，Cor。 1 就是用项或矩阵表达的命题 5。
 
-在第 5 号提案和 Cor. 的记号中。 1、(非零的)理想$Au$，称为线性映射 f 或矩阵 X 的不变量因子。然后紧接着Cor. I：
+在第 5 号提案和 Cor 的记号中。 1、(非零的)理想$Au$，称为线性映射 f 或矩阵 X 的不变量因子。然后紧接着Cor. I：
 
 #### 推论 2 {#alg-vii-s4-prop-5-cor-2 .statement tag=0744}
 
-— 两个矩阵 X 和 $X'$ 具有 n 行且 m 列超过主理想整环 A，当且仅当它们具有相同的不变量因子时，它们是等价的。
+— 两个矩阵 X 和 $X'$ 具有 n 行且 m 列在主理想整环 A 上，当且仅当它们具有相同的不变量因子时，它们是等价的。
 
-注当A为域时，可以取$\alpha_i$等于1，则恢复II、p. 360的第13条命题。
+注意，当A为域时，我们可以将$\alpha_i$等于1，然后我们恢复II、p. 360的第13条命题。
 
 如果相对于L的任意基和L'的任意基，X是线性映射f的矩阵，则X的列是坐标向量，相对于L'的基，L'的元素，其中生成元的形式系统对于$f(L)$。因此，以下结果是命题 4 的直接的推论。
 
@@ -259,15 +259,15 @@ $$
 
 ### 7. 有限生成阿贝尔的群
 
-在$A = \mathbf{Z}$情况下，可以表示截面 4的结果
+在$A = \mathbf{Z}$情况下，可以表示截面4的结果
 
 #### 定理 3 {#alg-vii-s4-thm-3 .statement tag=0746}
 
-— 每个有限生成的阿贝尔的群 G 是其挠元子群 F 的直和（G 中有限阶元素子群）和一个自由的阿贝尔的有限秩 p 的群（与$\mathbf{Z}^p$同构的）。 群 F 是阶 $n_1, n_2, \ldots, n_q$ 的循环群的有限数的直和，其中$n_i$ 是整数 $> 1$，其中每个除是前一个除一；而且，整数$p, q$和$n_i$($1 \leq i \leq q$)由$G$唯一确定。
+— 每个有限生成的阿贝尔的群 G 是其挠元子群 F 的直和（G 中有限阶元素子群）和一个自由的阿贝尔的有限秩 p 的群（与 $\mathbf{Z}^p$ 同构的）。 群 F 是阶 $n_1, n_2, \ldots, n_q$ 的循环群的有限数的直和，其中 $n_i$ 是整数 $> 1$，其中每个除前一个一；而且，整数$p, q$和$n_i$($1 \leq i \leq q$)由$G$唯一确定。
 
-#### 注 {#alg-vii-s4-n7-rem-1 .statement tag=0747}
+#### 注{#alg-vii-s4-n7-rem-1 .statement tag=0747}
 
-而F为直和的循环群的阶$n_1, \ldots, n_q$则由Th的整除性条件很好地定义。 3，对于群本身来说*不*相同：对于例，在$\mathbf{Z}/(p)$的乘积G与其自身（对于p素数），子群恰好是$\mathbf{F}_p$向量子空间，而G是两个一维的直和子空间以 $p(p+1)$ 不同的方式。
+而F为直和的循环群的阶$n_1, \ldots, n_q$则由Th的整除性条件很好地定义。 3，群本身*不*相同：例如，在$\mathbf{Z}/(p)$的乘积G与其自身（对于p素数），子群恰好是$\mathbf{F}_p$向量子空间，而G是两个一维子空间的直和 $p(p+1)$ 不同的方式。
 
 #### 推论 1 {#alg-vii-s4-thm-3-cor-1 .statement tag=0748}
 
@@ -275,21 +275,21 @@ $$
 
 #### 推论 2 {#alg-vii-s4-thm-3-cor-2 .statement tag=0749}
 
-— *任何有限阿贝尔的群 G，其阶不能被任何整数 $> 1$ 的平方整除，是循环的。*
-让我们保持Th的记号。 3. 然后$p = 0$，因为G是有限的，$q \leq 1$，否则G的阶将被$n_q^2$整除。因此G是循环的。
+— *Any finite 阿贝尔的群 G whose 阶 is not divisible by 平方 of any 整数 $> 1$ is cyclic.*
+让我们保持Th的记号。 3. 然后$p = 0$，因为G是有限的，$q \leq 1$，否则G的阶可以被$n_q^2$整除。因此G是循环的。
 
 #### 推论 3 {#alg-vii-s4-thm-3-cor-3 .statement tag=074A}
 
-— *令L和M为秩n的两个自由$\mathbf{Z}$模，令$(e_i)$为L的基和$(f_i)$基为M（$1 \leq i \leq n$），令u为同态将L代入M，并令U为其相对于基$(e_i)$和$(f_i)$的矩阵。那么$\mathrm{Coker}\,u = M/u(L)$是有限的当且仅当$\det(U) \neq 0$，然后$\mathrm{Card}(\mathrm{Coker}(u)) = |\det(U)|$。
-如果需要的话，通过改变L和M中的基，我们可以假设U具有VII，p. 22，Cor中描述的形式。 1 到提案 5（其中 $a_i$ 在本例中为整数）；那么推论就变得明显了，因为如果 $a_i$ 之一是零，则 $\mathbf{Z}$ 模块 $\mathbf{Z}/\alpha_i \mathbf{Z}$ ($1 \leq i \leq n$) 的直和的阶是无限的，否则等于 $|\alpha_1 \alpha_2 \ldots a_n|$。
+— *令L和M为秩n的两个自由$\mathbf{Z}$模，令$(e_i)$为L的基和$(f_i)$基为M（$1 \leq i \leq n$），令u为同态 L into M, and let U be its 矩阵 with respect to 基 $(e_i)$ and $(f_i)$.那么$\mathrm{Coker}\,u = M/u(L)$是有限的当且仅当$\det(U) \neq 0$，然后$\mathrm{Card}(\mathrm{Coker}(u)) = |\det(U)|$。
+如果必要的话，通过改变L和M中的基，我们可以假设U具有VII，p. 22，Cor中描述的形式。 1 到提案 5（其中 $a_i$ 在本例中为整数）；然后推论就变得明显了，因为如果$a_i$之一是零，则$\mathbf{Z}$模块$\mathbf{Z}/\alpha_i \mathbf{Z}$（$1 \leq i \leq n$）的直和的阶是无限的，否则等于$|\alpha_1 \alpha_2 \ldots a_n|$。
 
 ### 8. 不可分解模。小学除子
 
 #### 定义 3 {#alg-vii-s4-def-3 .statement tag=074B}
 
-— *左模 M 超过环如果 A 是真非零的子模族的直和，则称 A 是可分解的。否则它就被认为是不可分解的。*
+— *左模 M over 环 A is said to be decomposable if it is 直和 of a family of proper 非零的子模.否则它就被认为是不可分解的。*
 因此，零模是*可分解的*，是子模空族的直和。
-设$\mathfrak{a}$为环A的左理想； $A/\mathfrak{a}$的子模只是商$b/\mathfrak{a}$，其中$b$是包含$\mathfrak{a}$的理想（I，p. 41，Th.4）；如果$b$和$c$是包含$\mathfrak{a}$的两个理想，那么模$A/\mathfrak{a}$是子模$b/\mathfrak{a}$和$c/\mathfrak{a}$的直和当且仅当$A = b + c$ 和 $b \cap c = \mathfrak{a}$。结果：
+设$\mathfrak{a}$为环A的左理想； $A/\mathfrak{a}$中的子模只是商$b/\mathfrak{a}$，其中$b$是包含$\mathfrak{a}$的理想值（I，p. 41，Th.4）；如果$b$和$c$是包含$\mathfrak{a}$的两个理想，那么模$A/\mathfrak{a}$是子模$b/\mathfrak{a}$和$c/\mathfrak{a}$的直和当且仅当$A = b + c$ 和 $b \cap c = \mathfrak{a}$。结果：
 
 #### 引理 2 {#alg-vii-s4-lem-2 .statement tag=074C}
 
@@ -297,9 +297,9 @@ $$
 
 #### 命题 7 {#alg-vii-s4-prop-7 .statement tag=074D}
 
-— 令$A$为交换环，令$\mathfrak{p}$为$A$的素理想（I，p. 117，Def.3），并令$q$为$\mathfrak{p}$中包含的$A$的理想。假设对于每个$x \in \mathfrak{p}$，都存在整数$n > 0$，使得$x^n \in q$。那么$A$-模块$A/q$是不可分解的。
+— 令$A$为交换环，令$\mathfrak{p}$为$A$的素理想（I，p. 117，Def.3），并令$q$为$\mathfrak{p}$中包含的$A$的理想。 Suppose that for every $x \in \mathfrak{p}$ there exists 整数 $n > 0$ such that $x^n \in q$.那么$A$-模块$A/q$是不可分解的。
 
-令$b$和$c$为$A$的两个理想，使得$A = b + c$和$b \cap c = q$。然后$bc \subset b \cap c = q \subset \mathfrak{p}$；如果$x \notin \mathfrak{p}$和$x \in c$，则$xb \subset p$，所以$b \subset \mathfrak{p}$（I，p. 316，命题4）；因此 $b \subset \mathfrak{p}$ 或 $c \subset p$。假设例为$c \subset \mathfrak{p}$，则$b + p = A$；那么存在$x \in b$和$y \in \mathfrak{p}$使得$1 = x + y$；令 $n \in \mathbf{N}$ 使得 $y^n \in q$；然后$1 = (x + y)^n$。所以$1 \in xA + y^nA \subset b + q \subset b$，所以$b = A$。 引理 2 现在表明 $A/q$ 是不可分解的。
+令$b$和$c$为$A$的两个理想，使得$A = b + c$和$b \cap c = q$。然后$bc \subset b \cap c = q \subset \mathfrak{p}$；如果$x \notin \mathfrak{p}$和$x \in c$，则$xb \subset p$，所以$b \subset \mathfrak{p}$（I，p. 316，命题4）；因此 $b \subset \mathfrak{p}$ 或 $c \subset p$。假设$c \subset \mathfrak{p}$，那么$b + p = A$；那么存在$x \in b$和$y \in \mathfrak{p}$使得$1 = x + y$；令 $n \in \mathbf{N}$ 使得 $y^n \in q$；然后$1 = (x + y)^n$。所以$1 \in xA + y^nA \subset b + q \subset b$，所以$b = A$。 引理 2 现在表明 $A/q$ 是不可分解的。
 
 现在假设$A$是主理想整环；根据VII、p. 2、命题2，$A$的素理想是理想$(p)$，其中$p$是$A$的不可约元，以及理想$0$；由前面的命题、模、$A$和$A/(p^n)$，对于$p$不可约和$n > 0$，是不可分解的。由于每个循环模都是这个型的模的直和（VII，p. 3，命题4），并且因为每个有限生成的$A$模都是循环模的直和 （VII，p. 19，Th.2），我们推导出：
 
@@ -307,17 +307,17 @@ $$
 
 — 令$A$为主理想整环，并令$M$为有限生成的$A$模块。
 
-a) $M$ 不可分解当且仅当它同构于 $A$ 或形式 $A/(p^n)$ 的模，其中$p$ 是$A$ 的不可约元，$n > 0$ 是整数。
+a) $M$ 不可分解当且仅当它与形式 $A/(p^n)$ 的 $A$ 或模同构，其中 $p$ 是 $A$ 的不可约元，$n > 0$ 是整数。
 
 b) $M$ 是不可分解的子模有限族中的直和。
 
-上述命题的部分b)可以更精确，如下：
+上述命题的部分 b) 可以更精确，如下：
 
 #### 命题 9 {#alg-vii-s4-prop-9 .statement tag=074F}
 
 — 令$A$为主理想整环，令$P$为$A$的不可约元代表的系统，并令$M$为有限生成的$A$模块。那么存在正整数 $m(0)$ 和 $m(p^n)$ ($p \in P, n > 0$)，除了它们的数量有限之外，由 $M$ 和零唯一确定，使得 $M$ 同构于 $A^{m(0)}$ 的直和，并且$(A/(p^n))^{m(p^n)}$（$p \in P, n > 0$）。
 
-整数 $m(0)$ 和 $m(p^n)$ ($p \in P, n > 0$) 的存在性由命题 8 得出。 整数 $m(0)$ 是唯一确定的：它是自由模的秩，即 $M$ 除以挠元的商子模。最后，$M$的$p$主成分与$(A/(p^n))^{m(p^n)}$的直和同构；由于理想族 $(p^n)$ ($n \geq 1$) 是完全按包含排序的，$m(p^n)$ 的唯一性由 Cor 得出。 VII、p. 16 的第 2 条建议。
+整数 $m(0)$ 和 $m(p^n)$ ($p \in P, n > 0$) 的存在性由命题 8 得出。 整数 $m(0)$ 是唯一确定的：它是自由模的秩，又是 $M$ 的商，由其挠元子模。最后，$M$的$p$-主分量同构于$(A/(p^n))^{m(p^n)}$的直和；由于理想族 $(p^n)$ ($n \geq 1$) 是完全按包含排序的，$m(p^n)$ 的唯一性由 Cor 得出。 VII、p. 16 的第 2 条建议。
 
 #### 定义 4 {#alg-vii-s4-def-4 .statement tag=074G}
 
@@ -331,7 +331,7 @@ b) $M$ 是不可分解的子模有限族中的直和。
 
 #### 注 2 {#alg-vii-s4-n8-rem-2 .statement tag=074I}
 
-如果在主理想整环 $A$ 上有限生成的挠元模 $M$ 被给定为与 $A/(a_i)$ 同构的循环模的直和（特别是如果 $M$ 的不变量因子已知），则$M$的初等除子及其多重性，可以通过注意到$A/(a)$同构于$A/(p^{n(p)})$的乘积来确定，其中$a = e \prod_{p \in P} p^{n(p)}$是$a$的分解不可约因子 （$VII$，p. 3）。让我们研究例乘法群 $G(464\ 600)$，其中 $G(n)$ 表示乘法群 $(\mathbf{Z}/n\mathbf{Z})^*$（$VII$，p. 12）。从$464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101$开始，这个群同构于群$G(2^3)$、$G(5^2)$、$G(23)$和$G(101)$的乘积（$VII$、p. 13、Th.3）；现在最后三个群是阶20、22和100的循环，$G(2^3)$是阶2的两个循环群的乘积(\emph{loc.cit.})；由于$20 = 2^2 \cdot 5$、$22 = 2 \cdot 11$和$100 = 2' \cdot 5^2$，群$G(464\ 600)$等于型$(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$。
+如果在主理想整环 $A$ 上有限生成的挠元模 $M$ 被给定为与 $A/(a_i)$ 同构的循环模的直和（特别是如果 $M$ 的不变量因子已知），则$M$的初等除子及其多重性，可以通过注意到$A/(a)$同构于$A/(p^{n(p)})$的乘积来确定，其中$a = e \prod_{p \in P} p^{n(p)}$是$a$的分解不可约因子 （$VII$，p. 3）。让我们以乘法群$G(464\ 600)$为例，其中$G(n)$表示乘法群$(\mathbf{Z}/n\mathbf{Z})^*$（$VII$，p. 12）。从$464\ 600 = 2^3 \cdot 5 \cdot 23 \cdot 101$开始，这个群同构于群$G(2^3)$、$G(5^2)$、$G(23)$和$G(101)$的乘积（$VII$、p. 13、Th.3）；现在最后三个群是阶20、22和100的循环，而$G(2^3)$是阶2的两个循环群的乘积(\emph{loc.cit.})；由于 $20 = 2^2 \cdot 5$、$22 = 2 \cdot 11$ 和 $100 = 2' \cdot 5^2$，群 $G(464\ 600)$ 是型 $(2, 2, 2, 2^2, 2^2, 2^2, 5, 5^2, 11)$。
 
 #### 注 3 {#alg-vii-s4-n8-rem-3 .statement tag=074J}
 
@@ -349,21 +349,21 @@ $$
 
 #### 注 4 {#alg-vii-s4-n8-rem-4 .statement tag=074K}
 
-如果一个$A$-模块是非零的并且除了它本身和$0$之外没有子模，那么它被称为简单（$I$，p. 37）；那么它必然是循环的，因此是有限生成的且不可分解的；因为模 $A/(p^n)$ 对于 $n \neq 1$ 来说并不简单，而模 $A/(p)$ 是简单的，并且因为仅当环 $A$ 是域时 $A$ 才是简单的，我们推断简单$A$-模块是：
+如果一个$A$-模块是非零的并且除了它本身和$0$之外没有子模，那么它被称为简单（$I$，p. 37）；那么它必然是循环的，因此是有限生成的且不可分解的；因为模 $A/(p^n)$ 对于 $n \neq 1$ 来说并不简单，而模 $A/(p)$ 是简单的，并且由于仅当环 $A$ 是域时 $A$ 才是简单的，我们推断简单$A$-模块是：
 a) 当$A$为域时，秩1中的自由模；
-b) 模同构于商 $A/(p)$，其中 $p$ 是 $A$ 的不可约元，当 $A$ 不是域时。
+b) 模同构于商 $A/(p)$，其中$p$ 是$A$ 的不可约元，当$A$ 不是域时。
 
 ### 9. 模有限长度主理想整环的对偶性
 
-其中，截面$A$表示主理想整环，它不是域（因此至少有一个不可约元），并且$K$域是分数的$A$。对于每个$A$-模块$M$，将
+其中，截面$A$表示主理想整环，它不是域（因此至少有一个不可约元），以及$A$的分数的$K$域。对于每个$A$-模块$M$，将
 
 $$
 D(M) = \operatorname{Hom}_A(M, K/A);
 $$
 
-我们知道$D(M)$以自然的方式配备了A-模的结构，即对于每个同态$u : M \to K/A$和每个$\alpha \in A$，同态$\alpha u$映射$x$到$\alpha u(x) = u(\alpha x)$。 A-模的每个同态$f : M \to N$都与同态$D(f) : D(N) \to D(M)$相关联，其中$D(f)(v) = v \circ f$（II，p. 196）。对于$x \in M$和$x' \in D(M)$，我们输入$\langle x, x' \rangle = x'(x) \in K/A$；那么$(x, x') \mapsto \langle x, x' \rangle$是一个从$M \times D(M)$到$K/A$的*A双线性*映射，称为*规范*。
+我们知道，$D(M)$以自然的方式配备了A-模的结构，即对于每个同态$u : M \to K/A$和每个$\alpha \in A$，同态$\alpha u$映射$x$到$\alpha u(x) = u(\alpha x)$。 A-模的每个同态$f : M \to N$都与同态$D(f) : D(N) \to D(M)$相关联，其中$D(f)(v) = v \circ f$（II，p. 196）。对于$x \in M$和$x' \in D(M)$，我们输入$\langle x, x' \rangle = x'(x) \in K/A$；那么$(x, x') \mapsto \langle x, x' \rangle$是一个从$M \times D(M)$到$K/A$的*A双线性*映射，称为*规范*。
 
-如果 M 和 $N$ 是两个 A-模，则每个 A 双线性映射 $\varphi : M \times N \to K/A$ 都与 A-线性映射 $d_\varphi : N \to D(M)$ 和 $s_\varphi : M \to D(N)$ 相关联，其中 $d_\varphi(y)(x) = \varphi(x, y) = s_\varphi(x)(y)$ (II, p. 268,对应提案*1*)。特别是规范的 A-双线性映射 $M \times D(M) \to K/A$ 定义一个 A-线性映射（也称为*规范*）
+如果 M 和 $N$ 是两个 A-模，则每个 A 双线性映射 $\varphi : M \times N \to K/A$ 都与 A-线性映射 $d_\varphi : N \to D(M)$ 和 $s_\varphi : M \to D(N)$ 相关联，其中 $d_\varphi(y)(x) = \varphi(x, y) = s_\varphi(x)(y)$ (II, p. 268,对应提案*1*)。特别是规范的 A 双线性映射 $M \times D(M) \to K/A$ 定义一个 A-线性映射 （也称为*规范*）
 
 $$
 c_M : M \to D(D(M))
@@ -374,9 +374,9 @@ $$
 #### 命题 10 {#alg-vii-s4-prop-10 .statement tag=074L}
 
 — 如果 *M 是有限长度的 A-模，则 $D(M)$ 是*（通常非自然地）*与 M 同构的，并且规范的映射 $c_M : M \to D(D(M))$ 是同构。*
-使用 VII、p. *19*、Th。 2 和 **II**，p. 203，Cor。 1，我们约化到$M$是循环的情况。因此我们可以假设$M = A/tA$和$t \neq 0$。 注任何同态$u : A/tA \to K/A$完全由像$\xi \in K/A$在*1*模$tA$的类$\varepsilon$$u$下确定，而这个元素必须满足关系$t\xi = 0$;相反，对于任何$\xi \in K/A$使得$t\xi = 0$，存在同态$u : A/tA \to K/A$使得$u(\varepsilon) = \xi$。由此可见$D(M)$与$t^{-1}A/A$同构的，并且由于$t$乘以位似在K上是双射，因此我们也有$D(M)$与$A/tA$同构的，这证明了第一个断言。这就证明了 $M$ 和 $D(D(M))$ 同构的，所以有相同的长度 ；另一方面，$c_M$是单射的，因为如果$y \in A$使得关系$tz \in A$（对于$z \in K$）意味着$yz \in A$，那么取$z = t^{-1}$我们有$y \in tA$。由此可见像$c_M(M)$必然等于$D(D(M))$。
+使用 VII、p. *19*、Th。 2 和 **II**，p. 203，Cor。 1，我们约化到$M$是循环的情况。因此我们可以假设$M = A/tA$和$t \neq 0$。注意任何同态$u : A/tA \to K/A$完全是由*1* mod $tA$的类$\varepsilon$的$u$下的像$\xi \in K/A$决定的，而这个元素必须是满足关系 $t\xi = 0$;相反，对于任何$\xi \in K/A$使得$t\xi = 0$，存在同态$u : A/tA \to K/A$使得$u(\varepsilon) = \xi$。由此可见，$D(M)$与$t^{-1}A/A$同构的，并且由于$t$的位似在K上是双射，因此我们也有$D(M)$与$A/tA$同构的，这证明了第一个断言。这就证明了 $M$ 和 $D(D(M))$ 同构的，所以有相同的长度 ；另一方面，$c_M$是单射的，因为如果$y \in A$使得关系$tz \in A$（对于$z \in K$）意味着$yz \in A$，那么取$z = t^{-1}$我们有$y \in tA$。由此可见像$c_M(M)$必然等于$D(D(M))$。
 
-#### 推论{#alg-vii-s4-n9-cor-1 .statement tag=074M}
+#### 推论 {#alg-vii-s4-n9-cor-1 .statement tag=074M}
 
 — *令 M、N 为有限长度中的两个 A-模，并令 $\varphi$ 为从 $M \times N$ 到 $K/A$ 的 A 双线性映射，这样： 1) 关系 $\varphi(x, y) = 0$ 对于所有 $y \in N$ 意味着$x = 0$; 2) 关系 $\varphi(x, y) = 0$ 对于所有 $x \in M$ 意味着 $y = 0$。那么与 $\varphi$ 伴随的 A 线性映射 $s_\varphi : M \to D(N)$ 和 $d_\varphi : N \to D(M)$ 是同构。*
 事实上，关于 $\varphi$ 的假设意味着 $s_\varphi$ 和 $d_\varphi$ 是*内射*，并且由于 $\mathrm{long}(D(N)) = \mathrm{long}(N)$ 和 $\mathrm{long}(D(M)) = \mathrm{long}(M)$ 根据命题 *10*，这意味着 $\mathrm{long}(M) = \mathrm{long}(N)$，因而 $s_\varphi$ 和 $d_\varphi$ 是双射的。

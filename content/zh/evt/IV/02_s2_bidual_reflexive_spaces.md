@@ -33,19 +33,19 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 26
-content_sha256: 3e54b6f6c3ad0beee01b85bfb077506b0f9c7b5fbf5e3a18e55cf804f47031c0
+content_sha256: 6210aea82ed0df950a434e27bba82d44dbece0381952eff53611f4ebe8c1bc21
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 translation_method: google
 source_content_sha256: b91386e65623979a9a9994a73c883cd7ba5db67a5bb1adc0fbb46df95c3c8a73
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7827e1e4f65328b8fcf609e3c1484cff1986b09b12bc708c6792e57b7282e255
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。双向。反射空间
+## § 2。双向。反身空间
 
 ### 1. 双向
 
@@ -101,11 +101,11 @@ $E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集�
 
 说$E$是半自反意味着$E'_b$上的拓扑与$E$和$E'$之间的对偶性兼容，在其他字中，通过Mackey的定理（IV，p. 2，第1）， $E'_b$上的拓扑比$\tau(E', E)$更粗糙（事实上与它相同）；由定义 (IV, p. 2)，这意味着 $E$ 的每个闭、凸、有界子集对于 $\sigma(E, E')$ 都是紧致的，这相当于说，E 的每个有界子集对于 $\sigma(E, E')$ 都是相对紧致的，因为闭凸E 的有界子集的包络线是有界的（III，p. 3，道具 1）。
 
-#### 推论{#evt-iv-s2-n2-cor-1 .statement tag=07SF}
+#### 推论 {#evt-iv-s2-n2-cor-1 .statement tag=07SF}
 
 — *令 E 为局部凸半自反空间。 E 的每个闭向量子空间 M 都是半自反的；此外，$E'/M^\circ$（视为M的对偶）上的强拓扑是E'上的强拓扑的商。
 
-设B是M的有界子集。由于B在E中有界，并且M上的弱化拓扑$\sigma(M, M')$是由$\sigma(E, E')$（IV，p. 10，命题11）诱导的，因此赋予$\sigma(M, M')$的M中B的闭包是紧的。因而，通过th。 1、M是半自反的。推论最后一个断言由命题得出。 IV、p. 9的10，应用于E的所有闭、凸、有界子集的集合$\mathscr{S}$。
+设B是M的有界子集。由于B在E中有界，并且M上的弱化拓扑$\sigma(M, M')$是由$\sigma(E, E')$（IV，p. 10，命题11）诱导的，因此赋予$\sigma(M, M')$的M中B的闭包是紧的。因而，通过th。 1、M是半自反的。 推论的最后一个断言由道具得出。 IV、p. 9的10，应用于E的所有闭、凸、有界子集的集合$\mathscr{S}$。
 
 #### 注 1 {#evt-iv-s2-n2-rem-1 .statement tag=07SG}
 
@@ -117,7 +117,7 @@ $E''$的等连续子集是子集，包含在$E''$的子空间$E$的有界子集�
 
 #### 注 3 {#evt-iv-s2-n2-rem-3 .statement tag=07SI}
 
-在上述推论的假设下，空间 E/M 不一定是半自反的（IV，p. 63，练习 10）。
+在上述推论的假设下，空间 E/M不一定是半自反的（IV，p. 63，练习10）。
 
 ### 3. 自反空间
 
@@ -190,11 +190,11 @@ $$
 
 — *设 E 是自反 Banach 空间，M 是 E 的闭向量子空间。则 M 和 E/M 是自反 Banach 空间。*
 
-令 E' 为 E 的对偶和 $M^\circ$ M 在 E' 中的正交。作为规范化的空间，我们将可以确定空间$E'/M^\circ$与M的对偶$M'$（IV，p. 9，道具10）。由于 M 是半自反的（IV，p. 16，推论），因此它是自反的，因而 $E'/M^\circ$ 也是如此；类似地，$M^\circ$是自反的，它的对偶$E/M^{\circ \circ} = E/M$也是如此。
+令 E' 为 E 的对偶和 $M^\circ$ M 在 E' 中的正交。作为规范化的空间，我们将可以确定空间$E'/M^\circ$与M的对偶$M'$（IV，p. 9，道具10）。由于 M 是半自反的 (IV, p. 16, 推论)，因此它是自反的，因而 $E'/M^\circ$ 也是如此；类似地，$M^\circ$是自反的，它的对偶$E/M^{\circ \circ} = E/M$也是如此。
 
 #### 例 {#evt-iv-s2-n4-exa-1 .statement tag=07SS}
 
-— 1) 让 $\ell^\infty(\mathbf{N})$ 表示标量有界序列 $x = (x_n)_{n \in \mathbf{N}}$ 的 Banach 空间，其中范数
+— 1) 令 $\ell^\infty(\mathbf{N})$ 表示标量有界序列 $x = (x_n)_{n \in \mathbf{N}}$ 的 Banach 空间，其中范数
 
 (3) $$
 \| \mathbf{x} \| = \sup_{n \in \mathbf{N}} |x_n| \quad (\text{I, p. 4}) .
@@ -215,7 +215,7 @@ $$
 对于所有 $\mathbf{x} \in c_0(\mathbf{N})$ 和 $\mathbf{x}' \in \ell^1(\mathbf{N})$。类似地，$\ell^1(\mathbf{N})$的对偶可以用$\ell^\infty(\mathbf{N})$来识别，这样我们对于所有$\mathbf{x} \in \ell^1(\mathbf{N})$和所有$\mathbf{x}' \in \ell^\infty(\mathbf{N})$都有关系（5）。因而 $\ell^\infty(\mathbf{N})$ 是 $c_0(\mathbf{N})$ 的双数，后者空间不是自反的。
 
 \* 2) 每个希尔伯特空间都是自反Banach空间（V，p. 17）。
-\* 3) 令X为豪斯多夫拓扑空间，$\mu$为X的复测度。对于每个实数 $p > 1$，Banach 空间 $L^p(X, \mu)$ 是自反的，其对偶可以用 $L^q(X, \mu)$ 和 $p^{-1} + q^{-1} = 1$ 来识别（INT、V、第 2 版、§ 5, No. 8 和 IX, § 1, No. 10）。
+\* 3) 令X为豪斯多夫拓扑空间，$\mu$为X的复测度。对于每个实数 $p > 1$，Banach 空间 $L^p(X, \mu)$ 是自反的，其对偶可以用 $L^q(X, \mu)$ 和 $p^{-1} + q^{-1} = 1$ 来识别（INT、V、第二版、§ 5, No. 8 和 IX, § 1, No. 10）。
 
 ### 5. 蒙特尔空间
 
@@ -229,41 +229,41 @@ $$
 
 #### 例 2 {#evt-iv-s2-n5-exa-2 .statement tag=07SV}
 
-具有记号和假设的支柱。 III、p. 6、空间 E 中的 7 个，是 Banach 空间的感应极限，被装桶（III、p. 25）；此外，E 的每个有界子集都是相对紧凑的（III，p. 6，道具 7）。在其他字中，E是Montel空间。特别是，Gevrey 空间（III，p. 10）是Montel 空间。 \* 这对于函数细菌的空间 $\mathscr{H}(K)$ 由……组成在$\mathbf{C}^n$（III，p. 10）的紧凑子集 K 的邻域中解析是正确的。*
+具有记号和假设的支柱。 III、p. 6、空间 E 中的 7 个为 Banach 空间的感应极限，被装桶（III、p. 25）；此外，E 的每个有界子集都是相对紧凑的（III，p. 6，道具 7）。在其他字中，E是Montel空间。特别是，Gevrey 空间（III，p. 10）是Montel 空间。 \* 这对于函数细菌的空间 $\mathscr{H}(K)$ 由……组成分析在$\mathbf{C}^n$ (III, p. 10) 的紧凑子集 K 的邻域是正确的。*
 
 #### 例 3 {#evt-iv-s2-n5-exa-3 .statement tag=07SW}
 
-Montel 空间 (II, p. 33) 的序列 $(E_n)$ 的每个严格归纳极限 E，使得对于所有 n，$E_n$ 在 $E_{n+1}$ 中闭合，是 Montel 空间；事实上，E 是 Hausdorff（II，p. 32，第 9 (i) 条），桶状（III，p. 25，cor.3），并且 E 的每个有界子集都包含在$E_n$（III，p. 5，命题 6) 因此在 $E_n$ 中相对紧凑，因此在 E 中也是如此。
+Montel 空间 (II, p. 33) 的序列 $(E_n)$ 的严格归纳极限 E，使得对于所有 n，$E_n$ 在 $E_{n+1}$ 中闭合，是 Montel 空间；事实上，E 是 Hausdorff（II，p. 32，第 9 (i) 条），桶状（III，p. 25，cor.3），并且 E 的每个有界子集都包含在 $E_n$（III，p. 5，命题 6) 因此在 $E_n$ 中相对紧凑，因此在 E 中也是如此。
 
 #### 例 4 {#evt-iv-s2-n5-exa-4 .statement tag=07SX}
 
-\* 令U为$\mathbf{R}^n$中的开集合，并令$\mathscr{C}^\infty(U)$为U上无限可微函数的Fréchet空间（III，p. 9）。我们将证明这是一个 Montel 空间。由于 $\mathscr{C}^\infty(U)$ 是 Fréchet 空间，因此它是桶装的（III、p. 25，推论）。设 B 为 $\mathscr{C}^\infty(U)$ 的有界子集，并令 K 为 U 的紧凑子集。对于每个 $\alpha \in \mathbf{N}^n$，令 $H_{\alpha, K}$ 为限制的集合到函数 $\partial^\alpha f$ 的 K，因为 $f$ 穿过 B。 $\alpha \in \mathbf{N}^n$；对于每个$\beta \in \mathbf{N}^n$，使得$|\beta| = |\alpha| + 1$、集合、$H_{\alpha, K}$有界于$\mathscr{C}(K)$，因为B有界于$\mathscr{C}^\infty(U)$；由 VAR, R., No. 2.2.3, 集合 $H_{\alpha, K}$ 是等连续的，因而 (GT, X, § 2, No. 5) 在 $\mathscr{C}(K)$ 中相对紧凑。但$\mathscr{C}^\infty(U)$的拓扑是拓扑中最粗糙的，从$\mathscr{C}^\infty(U)$到$\mathscr{C}(K)$的所有映射$f \mapsto \partial^\alpha f|K$都是连续的，因此B在$\mathscr{C}^\infty(U)$中相对紧凑（GT，I, § 4, No. 1，第3条和§ 9, No. 5，推论）。
+\* Let U be an open 集合 in $\mathbf{R}^n$ and let $\mathscr{C}^\infty(U)$ be the Fréchet 空间 of 无限可微函数 on U (III, p. 9). We shall prove that this is a Montel 空间. Since $\mathscr{C}^\infty(U)$ is a Fréchet 空间, it is barrelled (III, p. 25, 推论).设 B 为 $\mathscr{C}^\infty(U)$ 的有界子集，并令 K 为 U 的紧凑子集。对于每个 $\alpha \in \mathbf{N}^n$，令 $H_{\alpha, K}$ 为限制的集合到函数 $\partial^\alpha f$ 的 K，因为 $f$ 穿过 B。 $\alpha \in \mathbf{N}^n$； for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, 集合 $H_{\alpha, K}$ is bounded in $\mathscr{C}(K)$ since B is bounded in $\mathscr{C}^\infty(U)$; by VAR, R., No. 2.2.3, 集合 $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathscr{C}(K)$.但$\mathscr{C}^\infty(U)$的拓扑是拓扑中最粗糙的，从$\mathscr{C}^\infty(U)$到$\mathscr{C}(K)$的所有映射$f \mapsto \partial^\alpha f|K$都是连续的，因此B在$\mathscr{C}^\infty(U)$中相对紧凑（GT，I, § 4, No. 1，第3项和§ 9, No. 5， 推论）。
 
-类似地，在 U* (III, p. 9) 中具有紧凑支持的所有无限可微函数中的 *空间 $\mathscr{C}_0^\infty(U)$ 是 Montel 空间*。因为，$\mathscr{C}_0^\infty(U)$是Fréchet空间(III，p. 9)的序列$\mathscr{C}_{H_n}^\infty(U)$的严格归纳极限，足以看出空间$\mathscr{C}_{H_n}^\infty(U)$都是Montel 空间（*例3*）。但是 $\mathscr{C}_0^\infty(U)$ 有界且封闭的子集在 $\mathscr{C}^\infty(U)$ 中是封闭且有界的，因此在 $\mathscr{C}^\infty(U)$ 中是紧致的，因此在 $\mathscr{C}_{H_n}^\infty(U)$ 中也是紧致的。 \*
+Similarly, *空间 $\mathscr{C}_0^\infty(U)$ of all 无限可微函数 with compact support in U* (III, p. 9) *is a Montel 空间*.因为，$\mathscr{C}_0^\infty(U)$是Fréchet空间(III，p. 9)的序列$\mathscr{C}_{H_n}^\infty(U)$的严格归纳极限，足以看出空间$\mathscr{C}_{H_n}^\infty(U)$都是Montel 空间 (*例 3*). But a bounded and closed 子集 of $\mathscr{C}_0^\infty(U)$ is closed and bounded in $\mathscr{C}^\infty(U)$, hence compact in $\mathscr{C}^\infty(U)$, and consequently in $\mathscr{C}_{H_n}^\infty(U)$. \*
 
 #### 命题 8 {#evt-iv-s2-prop-8 .statement tag=07SY}
 
-*设 E 为 Montel 空间和 $\mathfrak{T}$ E 上的滤波器，对于弱化的拓扑，其收敛到 E 中的点 $x_0$。如果 $\mathfrak{T}$ 是可数基，或包含是有界集合，则 $\mathfrak{T}$ 也会收敛到 $x_0$，以获得初始拓扑。*
+*Let E be a Montel 空间 and $\mathfrak{T}$ a filter on E, which converges to 点 $x_0$ in E for the weakened 拓扑. If $\mathfrak{T}$ is a countable 基, or 包含 a bounded 集合, then $\mathfrak{T}$, converges to $x_0$ for the initial 拓扑 also.*
 
-首先假设$\mathfrak{T}$中存在有界集合$\overline{B}$。对于 E 的初始拓扑，B 的闭包 $\overline{B}$ 是有界的；在加法中，$\overline{B}$ 是紧的，因为 E 是 Montel 空间。由 $\sigma(E, E')$ 引发的 $\overline{B}$ 上的拓扑是 Hausdorff，并且比由初始拓扑引发的拓扑更粗糙；因而，他们重合（GT，I, § 9, No. 4）。对于这种情况，这证明了命题。
+Assume first that there exists a bounded 集合 $\overline{B}$ in $\mathfrak{T}$. The closure $\overline{B}$ of B for the initial 拓扑 of E is bounded; in 加法, $\overline{B}$ is compact because E is a Montel 空间. 拓扑 on $\overline{B}$ induced by $\sigma(E, E')$ is Hausdorff and coarser than 拓扑 induced by the initial 拓扑; they therefore 重合 (GT, I, § 9, No. 4). This prove 命题 for this case.
 
-接下来假设$\mathfrak{T}$有一个可数的基。考虑序列$(x_n)_{n \geq 1}$对于$\sigma(E, E')$趋向于$x_0$的情况就足够了（GT，I, § 6, No. 8，道具11）。令 B 为 $n \geq 0$ 的所有 $x_n$ 中的集合。这个集合以$\sigma(E, E')$为界，因此也适用于初始的拓扑（III，p. 27，cor.3）。这样我们就减少到了第一个情况证明。
+Next assume that $\mathfrak{T}$ has a countable 基. It is enough (GT, I, § 6, No. 8, prop. 11) to consider the case of 序列 $(x_n)_{n \geq 1}$ tending to $x_0$ for $\sigma(E, E')$. Let B be 集合 of all $x_n$ for $n \geq 0$. This 集合 is bounded for $\sigma(E, E')$, hence also for the initial 拓扑 (III, p. 27, cor. 3). Thus we have reduced to the first case of 证明.
 
-*每个 Montel 空间都是自反的*：这来自 def。 4 并从 th 开始。 2 个IV、p. 16。进一步：
+*Every Montel 空间 is reflexive*: this follows from def. 4 并从 th 开始。 2 个IV、p. 16。进一步：
 
 #### 命题 9 {#evt-iv-s2-prop-9 .statement tag=07SZ}
 
-*Montel 空间的强对偶是 Montel 空间。*
+*strong dual of a Montel 空间 is a Montel 空间.*
 
-令 E 为 Montel 空间和 $E'_b$ 其强对偶。由于 E 是自反的，$E'_b$ 是桶状的（IV、p. 15、第 1）。由于 E 的每个有界子集都是相对紧致的，因而 $E'$ 重合上的强拓扑与拓扑具有紧致收敛性。设 B 为 $E'_b$ 有界子集；它对于弱拓扑 $\sigma(E', E)$ 有界，因此是等连续的，因为 E 是桶形的。那么Ascoli 的定理（GT，X, § 2, No. 4，cor. 和§ 2, No. 5，cor.1）意味着$\sigma(E', E)$ 的B 闭包对于紧致收敛的拓扑是紧致的；因而 B 在 $E'_b$ 中是相对紧的。
+Let E be a Montel 空间 and $E'_b$ its strong dual. Since E is reflexive, $E'_b$ is barrelled (IV, p. 15, th. 1). Since every bounded 子集 of E is relatively compact the strong 拓扑 on $E'$ 重合 with 拓扑 of compact convergence. Let B be a bounded 子集 of $E'_b$; it is bounded for the weak 拓扑 $\sigma(E', E)$, hence is equicontinuous because E is barrelled.那么 Ascoli 的定理（GT，X, § 2, No. 4，cor. 和§ 2, No. 5，cor.1）意味着$\sigma(E', E)$ 的 B 闭包对于拓扑的紧致收敛是紧致的； therefore B is relatively compact in $E'_b$.
 
 #### 命题 10 {#evt-iv-s2-prop-10 .statement tag=07T0}
 
-*每个可度量的 Montel 空间满足可数性第一公理。*
+*Every metrizable Montel 空间 satisfies the first axiom of countability.*
 
-令 E 为可度量的 Montel 空间。我们知道（II，p. 5）E可以与规范化的空间的乘积序列的$F = \prod_{n \in \mathbf{N}} F_n$和子空间等同，甚至可以假设对于所有$n \in \mathbf{N}$，我们都有$\mathrm{pr}_n(E) = F_n$。如果每个可度量的空间 $F_n$ 满足可数性第一公理，那么 F (GT, IX, § 2, No. 8) 也满足，因而 E 也满足。
+令 E 为可度量的 Montel 空间。我们知道（II，p. 5）E可以与规范化的空间的乘积子空间、序列的$F = \prod_{n \in \mathbf{N}} F_n$等同，甚至可以假设对于所有$n \in \mathbf{N}$，我们都有$\mathrm{pr}_n(E) = F_n$。 If each of the metrizable 空间 $F_n$ satisfies the first axiom of countability, then so does F (GT, IX, § 2, No. 8), hence also E.
 
-我们通过“归谬法”来论证。假设例 $F_0$ 不满足可数性第一公理。令$B_0$为$F_0$中的单位球（闭合）；这是一个度量空间，它不是满足可数性的第一个公理。我们将使用以下引理 ：
+我们通过“归谬法”来论证。例如，假设 $F_0$ 不是满足可数性第一公理。令$B_0$为$F_0$中的单位球（闭合）；这是一个度量空间，它不是满足可数性的第一个公理。我们将使用以下引理：
 
 #### 引理 1 {#evt-iv-s2-lem-1 .statement tag=07T1}
 
@@ -275,13 +275,13 @@ Montel 空间 (II, p. 33) 的序列 $(E_n)$ 的每个严格归纳极限 E，使�
 
 Q.E.D.
 
-将引理 1 应用于 $B_0$，存在不可数的 $F_0$ 和数 $\varepsilon > 0$ 子集 $A_0$，使得 $\|x\| \leq 1$ 和 $\|x - y\| \geq \varepsilon$ 对于不同的$x, y$ $A_0$。我们有$\mathrm{pr}_0(E) = F_0$，因此E中存在子集A，使得$\mathrm{pr}_0$诱导双射从A到$A_0$。
+将引理 1 应用于 $B_0$，存在$F_0$ 和数 $\varepsilon > 0$ 的不可数子集 $A_0$，使得 $\|x\| \leq 1$ 和 $\|x - y\| \geq \varepsilon$ 对于不同的$x, y$ $A_0$。我们有$\mathrm{pr}_0(E) = F_0$，因此E中存在子集A，使得$\mathrm{pr}_0$诱导双射从A到$A_0$。
 
 #### 引理 2 {#evt-iv-s2-lem-2 .statement tag=07T2}
 
 *A 存在不同的元素序列 $(x_m)_{m \geq 0}$ 由……组成，其有界于 E。*
 
-我们将A的点的构造序列$(x_m)_{m \geq 0}$乘以归纳；以及满足的递减序列 $(C_m)_{m \geq 0}$ 子集以下条件 ：
+我们将A的点的构造序列$(x_m)_{m \geq 0}$乘以归纳；以及递减序列 $(C_m)_{m \geq 0}$ 子集满足以下条件 ：
 a) 集合 $C_m$ 都不是可数的。
 b) 对于每个 $n \geq 0$，集合 $\mathrm{pr}_k(C_m)$ 都以 $F_k$ 为界，对于 $0 \leq k \leq m$。
 c) 对于每个$m \geq 0$，我们有$x_m \in C_m - C_{m+1}$。
@@ -300,7 +300,7 @@ Q.E.D.
 
 当记号为引理 2 时，有界序列 $(x_m)_{m \geq 0}$ 在 E 中具有极限点 $y$。因此序列 $(\mathrm{pr}_0(x_m))_{m \geq 0}$ 在 E 中具有极限点 $\mathrm{pr}_0(y)$ $F_0$，但是$A_0$的这个与……矛盾构造。
 
-#### 推论{#evt-iv-s2-n5-cor-1 .statement tag=07T3}
+#### 推论 {#evt-iv-s2-n5-cor-1 .statement tag=07T3}
 
 — 令 E 为可​​度量的 Montel 空间。那么E的强对偶中存在可数稠密集合。
 

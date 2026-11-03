@@ -21,19 +21,19 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 9430c1ddc786ec404bebb9a1d92e2b2282fe7d52ebc4835b42685611c790d56f
+content_sha256: a3f9bff01c360fa0994f43dbb5f3d08657ee997d031b81d36bcc1e0fcfbb793f
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
 translation_method: google
 source_content_sha256: 0f5f27152d636e2b4a3f4de2fe99a74694ba33c12058af8b625950449ac3a190
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0dc08149252c5e4aec0c2c19b01afaa8d0e67d3ee7eb133312bc9e9c7395cfff
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 7。与诱导措施相关的积分
+## § 7。相对于诱导测量的积分
 
 ### 1. 相对于诱导测量的积分
 
@@ -75,25 +75,25 @@ $$
 
 #### 推论 3 {#int-v-s7-prop-1-cor-3 .statement tag=0966}
 
-— *对于测量* $\mu_X$ *为零，* X *在本地* $\mu$*-可忽略*是必要且充分的。
+— *对于测量* $\mu_X$ *为零，* X *在本地* $\mu$*-可忽略不计*是必要且充分的。
 
 #### 注 {#int-v-s7-n1-rem-1 .statement tag=0967}
 
-— 如果 S 是 $\mu$ 的支持，则$S \cap X$（在 X 中闭合）包含 Cor 的$\mu_X$ 的支持。 2，但可能与它不同。对于例，如果$\mu$是扩散测度并且X是子空间减少到点，那么诱导测度$\mu_X$是零，因此它的支撑是空的。然而，注，如果X在T中开放，$\mu_X$的支持度等于$S \cap X$。
+— 如果 S 是 $\mu$ 的支持，则 $S \cap X$（在 X 关闭）包含 Cor 的$\mu_X$ 的支持。 2，但可能与它不同。例如，如果$\mu$是扩散测度，并且X是子空间减少到点，则诱导测度$\mu_X$是零，因此其支撑为空。然而，注，如果X在T中开放，$\mu_X$的支持度等于$S \cap X$。
 
 #### 命题 2 {#int-v-s7-prop-2 .statement tag=0968}
 
-— *对于 * X *的映射* g * 到拓扑空间为* $\mu_X$* 可测量，* g * 为* $\mu$* 可在 * X *(§5, No. 3, *例*)*。
+— *对于 * X * 的映射* g * 到拓扑空间为* $\mu_X$* 可测量，有充分必要* g * 为* $\mu$* 可在* X *(§5, No. 3, *例*)*。
 
 这是从§4 的第 3 号提案得出的。
 
-#### 推论{#int-v-s7-n1-cor-1 .statement tag=0969}
+#### 推论 {#int-v-s7-n1-cor-1 .statement tag=0969}
 
 — *对于* X *的子集* B *为* $\mu_X$*可测量，* B *为* $\mu$*可测量*是必要且充分的。
 
 #### 定理 1 {#int-v-s7-thm-1 .statement tag=096A}
 
-— *Let* g *be a function defined on* X, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. 对于* g *本质上* $\mu_X$*可积，$g$本质上$\mu$可在$X$（§ 5, No. 3，例）中可积是必要*且充分的，在这种情况下
+— *让* g *是定义在* X上的函数，*其值在* $\overline{\mathbf{R}}$ *或巴纳赫空间中。 对于* g *本质上* $\mu_X$*可积，$g$本质上$\mu$可在$X$（§ 5, No. 3，例）中可积是必要*且充分的，在这种情况下
 
 $$
 \int g \, d\mu_X = \int_X g \, d\mu.
@@ -132,7 +132,7 @@ $$
 
 #### 学院{#int-v-s7-n1-sch-1 .statement tag=096F}
 
-— For every function $f$ (resp. $g$) defined on $X$ (resp. $T$) with values in the Banach space $F$ or in $\overline{\mathbf{R}}$, let us denote by $\zeta(f)$ (resp. $\rho(g)$) the extension by 0 of $f$ to $T$ (resp. the restriction of $g$ to $X$). 然后$\zeta(\rho(g)) = \varphi_X \cdot g$，$\rho(\zeta(f)) = f$。 我们用$\mu'$表示$T$上的$\varphi_X \cdot \mu$测度。 对于每个$p \in [1, +\infty]$，道具。 1和2意味着$\zeta$映射$\mathscr{L}_F^p(X, \mu_X)$进入$\mathscr{L}_F^p(T, \mu')$，以及$\rho$映射$\mathscr{L}_F^p(T, \mu')$进入$\mathscr{L}_F^p(X, \mu_X)$，在两种情况下都保留范数，以及$p = 1$（Th.1）时的积分；将经过代入关联的Hausdorff空间，我们得到两个互为逆的同构。 类似地，如果将$\zeta$和$\rho$应用于正数值函数，则保留基本的上积分（命题1）。 因此，如果我们同意 $X$ 上的 *认同* 函数以及 T 上的函数，即 X − T 上的零，并且措施 $\mu_X$ 和措施 $\mu'$，则有关诱导措施的问题会减少到有关由下式定义的措施的问题：密度，按§5处理。 这种推理也适用于复杂的度量，Cor. 3 Th。 1.
+— 对于在 $X$（或 $T$）上定义的每个函数 $f$（或$g$），其值在 Banach 空间 $F$ 或$\overline{\mathbf{R}}$ 中，让我们用 $\zeta(f)$（或$\rho(g)$）表示 $f$ 的 0 扩展$T$（分别是$g$至$X$的限制）。 然后$\zeta(\rho(g)) = \varphi_X \cdot g$，$\rho(\zeta(f)) = f$。 我们用$\mu'$表示$T$上的$\varphi_X \cdot \mu$测度。 对于每个$p \in [1, +\infty]$，道具。 1和2意味着$\zeta$映射$\mathscr{L}_F^p(X, \mu_X)$进入$\mathscr{L}_F^p(T, \mu')$，以及$\rho$映射$\mathscr{L}_F^p(T, \mu')$进入$\mathscr{L}_F^p(X, \mu_X)$，在两种情况下都保留范数，以及$p = 1$（Th.1）时的积分；将经过代入关联的Hausdorff空间，我们得到两个互为逆的同构。 类似地，如果将$\zeta$和$\rho$应用于正数值函数，则保留基本的上积分（命题1）。 因此，如果我们同意 $X$ 上的 *认同* 函数以及 T 上的函数，即 X − T 上的零，并且措施 $\mu_X$ 和措施 $\mu'$，则有关诱导措施的问题会减少到有关由下式定义的措施的问题：密度，按§5处理。 这种推理也适用于复杂的度量，Cor. 3 Th。 1.
 
 ### 2. 诱导测度的性质
 
@@ -149,7 +149,7 @@ $$
 (i(\lambda))_X = \lambda \quad \text{and} \quad i(\lambda) = i(\theta_X) = \varphi_X \cdot \theta .
 $$
 
-单射$i$是连续的，属性a)、b)和c)的等价来自§6的命题1，其后面的注应用于正测度$|\lambda|$。如果通过 T 上的测度 $\theta$ 在 X 上导出$\lambda$，则$|\lambda| = |\theta|_X$ (公式 (6))，因此对于 T 的每个紧致子集 K 都有 $|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$（命题 1），因而 d) 蕴涵 b)。假设满足a)，让我们证明$(i(\lambda))_X = \lambda$，这将暗示d)。设g为$\mathscr{H}(X; \mathbf{C})$的元素；用 $g'$ 扩张用 g 到 T 的 0 表示，我们有，用诱导测度的定义，然后用 §6, No. 4 的命题 7，
+单射 $i$ 是连续的，属性 a)、b) 和 c) 的等价源自§6 的命题 1，及其后面的注释适用于正测度 $|\lambda|$。如果通过 T 上的测度 $\theta$ 在 X 上导出 $\lambda$，则对于 T 的每个紧致子集 K，$|\lambda| = |\theta|_X$ (公式 (6))，因而$|\lambda|(K \cap X) = |\theta|(K \cap X) \leq |\theta|(K) < +\infty$（命题 1），因而 d) 蕴含 b)。假设满足a)，让我们证明$(i(\lambda))_X = \lambda$，这将暗示d)。设g为$\mathscr{H}(X; \mathbf{C})$的元素；用 $g'$ 扩张表示 g 到 T 的 0，我们有，由诱导测度的定义表示，然后由 §6, No. 4 的第 7 条命题表示，
 
 $$
 \int g \, d(i(\lambda))_X = \int g' \, d(i(\lambda)) = \int (g' \circ i) \, d\lambda = \int g \, d\lambda .
@@ -173,13 +173,13 @@ $$
 
 — 令 θ 为 T 上的复测度，π 将 T 的 θ-proper 映射转换为局部紧凑的空间 Y，并且 π_X 为限制到 X。那么 π_X 就是 θ_X-proper，并且 π_X(θ_X) = π(φ_X · θ)。
 
-对于，π_X = π ∘ i，其中 i 为典范嵌入 X → T。当 θ 为正时，推论因此可以从命题 3 和像度量的传递性推导出来（§6, No. 3，命题 4）。非正复测度的情况则遵循线性。
+对于，π_X = π ∘ i，其中 i 为典范嵌入 X → T。因而，当 θ 为正时，推论可以从命题 3 和像度量的传递性推导出来（§6, No. 3，命题 4）。非正复测度的情况则遵循线性。
 
 #### 命题 4 {#int-v-s7-prop-4 .statement tag=096J}
 
 — 令 X 和 Y 为 T 的两个局部紧凑子空间，使得 Y ⊂ X。如果 θ 是 T 上的复测度，则 θ_X 在 Y 上引发的测度 (θ_X)_Y 等于 θ_Y（“引发测度的传递性”）。
 
-只要观察到，如果 g 是 $\mathscr{H}(Y; \mathbf{C})$ 的元素，则可以通过将 g 的 0 扩张扩展到 X 来获得扩张乘以 0 的 g 到 T，或者再次利用 Scholium 的标识，即 $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ （§5, No. 4，提案 8）。
+只要观察到，如果 g 是 $\mathscr{H}(Y; \mathbf{C})$ 的元素，那么通过将 g 的 0 扩展到扩张到 T 可以通过将 g 的 0 扩张扩展到 X 来获得，或者再次利用 Scholium 的标识，即 $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ （§5, No. 4，提案 8）。
 
 #### 命题 5 {#int-v-s7-prop-5 .statement tag=096K}
 
@@ -191,7 +191,7 @@ $$
 
 从学界的认定来看，这个命题是§5, No. 4第5号提案的特例。
 
-#### 推论{#int-v-s7-n2-cor-1 .statement tag=096L}
+#### 推论 {#int-v-s7-n2-cor-1 .statement tag=096L}
 
 — 令 $(\mu_i)_{i \in I}$ 为 T 上的正测度的可求和族，其中和 μ。然后可对诱导测度族$\mu_i|X$进行求和，并且
 
@@ -207,7 +207,7 @@ $$
 \int (\lambda_t|Y) d\mu(t) = \nu|Y.
 $$
 
-考虑到学院的鉴定，这个命题是§5, No. 4第7号提案的特例。
+考虑到学院中的鉴定，这个命题是§5, No. 4第7号提案的特例。
 
 ### 习题{#int-v-s7-exercises}
 

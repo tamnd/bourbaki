@@ -30,16 +30,16 @@ subsections:
       pdf_page: 211
 statements: 11
 exercises: 14
-content_sha256: ba01c7caea7d1a4e6c58f9c20ac2bf092ac740c2d76f08b4e8bea4eb60ee6acc
+content_sha256: 49a68a82b03eb9d2b23109c9effbd504ec17f19ee6121e23b38d01b1cc89f51f
 translated_from: content/en/alg/V/12_s12_finite_fields.md
 translation_method: google
 source_content_sha256: bd8e10c4a05eb5e291baa4ec9c998a38d9874d55fab72a3f4d3987c8ee8ea686
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9073429474f15a4f07949ba8c74a9f1f9f79de79ec6972a3581412d53fe74712
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 12。 有限域
@@ -74,11 +74,11 @@ $$
 
 由此立即得出命题2。
 
-#### 推论{#alg-v-s12-n1-cor-1 .statement tag=06QA}
+#### 推论 {#alg-v-s12-n1-cor-1 .statement tag=06QA}
 
-— *同一个基数的两个有限域是同构的。*
+— *相同基数的两个有限域是同构的。*
 
-设$K'$为$q$元素中的有限域；它的特征是质数数$p'$除$q = p^f$、从而$p' = p$。因此$K'$是$\mathbf{F}_p[X]$（命题2）中多项式$X^q - X$的分裂域，因此$K$和$K'$是同构的（V，p. 22，Cor.）。
+设$K'$为$q$元素中的有限域；它的特征是素数数$p'$除$q = p^f$、从而$p' = p$。因此$K'$是$\mathbf{F}_p[X]$（命题2）中多项式$X^q - X$的分裂域，因此$K$和$K'$是同构的（V，p. 22，Cor.）。
 
 当 $K = \mathbf{F}_p$、公式 (1) 约化至关系
 
@@ -114,13 +114,13 @@ c) 对于循环群$K_m^*$的每个生成元$\zeta$，我们有$K_m = K(\zeta)$�
 
 由此我们证明了断言 a) 和 b) 以及 c) 是微不足道的。
 
-#### 推论{#alg-v-s12-n2-cor-1 .statement tag=06QC}
+#### 推论 {#alg-v-s12-n2-cor-1 .statement tag=06QC}
 
 — *令$K$为有限域且$\Omega$代数闭扩张为$K$。 $\Omega$中$K$的相对代数闭包$\overline{K}$由()和单位元的根组成，是$K$的代数闭包。*
 
 我们知道$K$是$K$的代数闭包（V，p. 22，例2），并且很明显，$\Omega$属于到$K$中单位元的每个根。此外，给定$\overline{K}$中的$x \neq 0$，次数$m$超过$K$，如果$K$有$q$元素，则域$K(x)$有$q^m$，从而 $x^{q^m - 1} = 1$，因此 $x$ 是 $\Omega$ 中单位元的根。
 
-令$p$为素数数，令$\mathbf{F}_p = \mathbf{Z}/p\mathbf{Z}$为$p$元素的域。我们$\mathbf{F}_p$的选择代数闭包$\Omega$，其存在源于斯坦尼茨的定理（V，p. 23，Th.2）。令 $f$ 为正整数和 $q = p^f$。根据命题 3，存在唯一的子域 $\Omega$，其次数 $f$ 超过 $\mathbf{F}_p$；我们将用$\mathbf{F}_q(\Omega)$或滥用记号$\mathbf{F}_q$来表示它。它是 $\Omega$ 的独特子扩展，其中次数 $f$ 超过 $\mathbf{F}_p$。它是基数$q$的$\Omega$的唯一子域，并且基数$q$的每个域与$\mathbf{F}_q$同构的（不规范）（第2条的Cor.）。我们注，$\mathbf{F}_q$由$\Omega$中的$x$组成，其中$x^q = x$和$F, \subset \mathbf{F}_{q'}$当且仅当$q'$是$q$的幂。
+令$p$为素数数，令$\mathbf{F}_p = \mathbf{Z}/p\mathbf{Z}$为$p$元素的域。我们$\mathbf{F}_p$的选择代数闭包$\Omega$，其存在源于斯坦尼茨的定理（V，p. 23，Th.2）。令 $f$ 为正整数和 $q = p^f$。根据命题 3，存在唯一的子域 $\Omega$，其次数 $f$ 超过 $\mathbf{F}_p$；我们将用$\mathbf{F}_q(\Omega)$或滥用记号$\mathbf{F}_q$来表示它。它是 $\Omega$ 的独特子扩展，其中次数 $f$ 超过 $\mathbf{F}_p$。它是基数$q$的$\Omega$的唯一子域，并且基数$q$的每个域与$\mathbf{F}_q$同构的（不规范）（Prop.2的Cor.）。我们注意到，$\mathbf{F}_q$由$\Omega$中的$x$组成，其中$x^q = x$和$F, \subset \mathbf{F}_{q'}$当且仅当$q'$是$q$的幂。
 
 #### 命题 4 {#alg-v-s12-prop-4 .statement tag=06QD}
 
@@ -128,9 +128,9 @@ c) 对于循环群$K_m^*$的每个生成元$\zeta$，我们有$K_m = K(\zeta)$�
 
 a) 域$\mathbf{K}_m$是$K$的伽罗瓦扩张，其中伽罗瓦群是由自同构$\sigma_q : x \mapsto x^q$生成的阶$m$的循环群。
 
-b) 对于$x$的每个$x \in \mathbf{K}_m$范数相对于$K$等于$x^{(q^m - 1)/(q - 1)}$。
+b) 对于 $x$ 的每个 $x \in \mathbf{K}_m$ 范数相对于 $K$ 都等于 $x^{(q^m - 1)/(q - 1)}$。
 
-c) $K$的每个元素都是$\mathbf{K}_m$的元素的踪迹（或范数）。*
+c) $K$的每个元素都是$\mathbf{K}_m$的元素的踪迹（分别为范数）。*
 
 令$\Gamma$为由$\sigma_q$生成的$\mathbf{K}_m$的自同构的循环群。 $\Gamma$的不变量域由$\mathbf{K}_m$的元素$x$组成，使得$x^q = x$等于$K$。因此$\mathbf{K}_m$是$K$的伽罗瓦扩张和伽罗瓦群$\Gamma$，后者的阶等于$[K_m : K] = m$（V，p. 66，Th.3）。因此a)如下。
 
@@ -200,7 +200,7 @@ $$
 
 #### 例 1 {#alg-v-s12-n4-exa-1 .statement tag=06QH}
 
-多项式 $\Phi_3(X) = X^2 + X + 1$ 在 $F_q[X]$ 中不可约，当且仅当 $q \equiv 2 \pmod{3}$。同样，$\Phi_4(X) = X^2 + 1$ 在 $F_q[X]$ 中是不可约的，当且仅当 $q \equiv 3 \pmod{4}$ 且对于 $\Phi_5 = X^4 + X^3 + X^2 + X + 1$，不可约性条件为 $q \equiv 2,\ 3 \pmod{5}$。
+多项式 $\Phi_3(X) = X^2 + X + 1$ 在 $F_q[X]$ 中不可约，当且仅当 $q \equiv 2 \pmod{3}$。同样地，$\Phi_4(X) = X^2 + 1$在$F_q[X]$中是不可约的，当且仅当$q \equiv 3 \pmod{4}$并且对于$\Phi_5 = X^4 + X^3 + X^2 + X + 1$，不可约性条件读取为$q \equiv 2,\ 3 \pmod{5}$。
 
 #### 例 2 {#alg-v-s12-n4-exa-2 .statement tag=06QI}
 

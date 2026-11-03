@@ -41,25 +41,25 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: 3603f184145de59adb97d761c1fead4a13ea021d246e24126c6a7c807db51620
+content_sha256: 92108a7fd006f0597c007b16c3a87ccd52dd4434ee96a4114683ad1bd069faef
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 translation_method: google
 source_content_sha256: d7699f39ec1644b116484ef30c5ca9df84de13c33a79612bcf054973c062c5c9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 417c7d1fc7f5d1243244e723902547cc43b02b941e30fe79b031cdee6c945a76
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 运算关于措施
+## § 2。 运算措施
 
 与前面的截面一样，$T$表示豪斯多夫拓扑空间，$\mu$表示$T$的测度。请记住，所有措施均假定为积极的，没有提及相反的情况。
 
 ### 1. 对可测量的子空间进行诱导测量
 
-令$X$为$T$的子集，并令$\nu$为$X$的紧致子集的映射$\mu : K \mapsto \mu_K$限制至集合；显然$\nu$是$X$的预测值。另一方面，令$x \in X$和$V$是$x$在$T$中的开邻域，使得$\mu^\bullet(V) < +\infty$；那么
+令$X$为$T$的子集，并令$\nu$为$X$的紧致子集的映射$\mu : K \mapsto \mu_K$限制至集合；显然$\nu$是$X$的预测值。另一方面，令$x \in X$和$V$是$x$在$T$中的开邻域，使得$\mu^\bullet(V) < +\infty$；然后
 
 $$
 \nu^\bullet(X \cap V) = \sup_{\substack{K \text{ compact} \\ K \subset X \cap V}} \mu^\bullet(K) \leq \mu^\bullet(V) < +\infty
@@ -89,7 +89,7 @@ $$
 
 根据命题 1，当且仅当 $X$ 的子集 $Y$ 是$\mu_X$ 可测量的（分别是本地 $\mu_X$ 可忽略的），当且仅当它是 $\mu$ 可测量的（分别是本地 $\mu$ 可忽略的）。如果 $Y$ 是 $\mu_X$ 可测，因此 $\mu$ 可测，则根据命题 1，诱导测度 $(\mu_X)_Y$ 和 $\mu_Y$ 显然相等（*诱导测度的传递性*）。
 
-注3）。 — 令 X 为 T 的 $\mu$ 可测量子集。根据 §1, No. 8 的第 10 条命题，应用于 $g = \varphi_X$，存在 T 的压碎 $(K_\alpha)_{\alpha \in A}$，使得对于每个 $\alpha \in A$，要么有 $K_\alpha \subset X$，要么有$K_\alpha \subset \mathbf{C}X$。如果通过§1, No. 8的Scholium程序修改T的拓扑，则将X配备由$T'$引发的拓扑而获得的空间$X'$是局部紧致的，并且知道如何与$\mu$（分别与$\mu_X$）相关联$T'$（或$X'$）上的测度$\mu'$（或$\nu$），承认与$\mu$（或$\mu_X$）相同的基本上积分：这意味着$\mu'_{X'} = \nu$。由于局部可忽略的集合、可测量的映射以及本质上可积函数和 Banach 空间中的值，对于 $\mu$ 和 $\mu'$，以及对于 $\mu_X$ 和 $(\mu_X)' = \nu = \mu'_{X'}$，积分理论相对于第 1 章中处理的诱导措施约化。 V, §7在局部紧致空间的特殊情况下。我们将抄写结果的任务留给读者。
+注3）。 — 令 X 为 T 的 $\mu$ 可测量子集。根据 §1, No. 8 的第 10 条命题，应用于 $g = \varphi_X$，存在 T 的压碎 $(K_\alpha)_{\alpha \in A}$，使得对于每个 $\alpha \in A$，要么有 $K_\alpha \subset X$，要么有$K_\alpha \subset \mathbf{C}X$。如果通过§1, No. 8的Scholium程序修改T的拓扑，则将X配备由$T'$引发的拓扑而获得的空间$X'$是局部紧致的，并且知道如何与$\mu$（分别与$\mu_X$）相关联$T'$（或$X'$）上的测度$\mu'$（或$\nu$），承认与$\mu$（或$\mu_X$）相同的基本上积分：这意味着$\mu'_{X'} = \nu$。由于局部可忽略的集合、可测量的映射以及本质上在 Banach 空间中的可积函数和值，对于 $\mu$ 和 $\mu'$，以及对于 $\mu_X$ 和 $(\mu_X)' = \nu = \mu'_{X'}$，是相同的， 理论相对于第 1 章中处理的诱导措施约化的积分。 V, §7在局部紧致空间的特殊情况下。我们将抄写结果的任务留给读者。
 
 ### 2. 由数值密度定义的度量
 
@@ -149,9 +149,9 @@ $$
 
 那么首先，$f$是局部$\mu$可积的：如果$x$是T的点，并且如果$V$是$x$的邻域，使得$\nu^\bullet(V) < +\infty$，则$\mu^\bullet(f \varphi_V) < +\infty$。接下来，命题 2 表明测度$\nu$ 和$f \cdot \mu$ 具有相同的本质上积分。因此它们是相等的（§1, No. 2，Prop. 2 的 Cor.）。基于紧凑空间的情况，$f$的唯一性是明显的，命题成立。
 
-注3)。 —关于测量$\nu = f \cdot \mu$约化的积分理论立即与第1章中处理的理论相关。 V。例如，令 $(K_\alpha)_{\alpha \in A}$ 为 T 对 $\mu$ 的压榨，因此也适用于 $\nu$，并令 $T'$ 为§1, No. 8 Scholium 中定义的局部紧致空间；我们可以将$\mu$（分别与$\nu$）与$T'$上的测量$\mu'$（分别与$\nu'$）相关联，这样可测量的函数，本质上的可积函数和Banach空间中的值，以及基本的函数正函数的上积分对于$\mu$和$\mu'$（分别对于$\nu$和$\nu'$）是相同的。因此函数 $f$ 是 $\mu'$ 可测量的；它是局部$\mu'$可积的，因为$T'$是局部紧致的，并且$T'$的紧致子集仅与紧集$K_\alpha$（$\alpha \in A$）的有限数相交。最后，关系${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$证明了$\nu' = f \cdot \mu'$（第V, §5, No. 3章，命题3）。我们将抄写第 1 章结果的任务留给读者。 V, §5。
+注 3)。 — 理论相对于第 1 章中处理的措施 $\nu = f \cdot \mu$ 约化的积分立即到理论。 V。例如，令 $(K_\alpha)_{\alpha \in A}$ 为 T 对 $\mu$ 的压榨，因此也适用于 $\nu$，并令 $T'$ 为§1, No. 8 Scholium 中定义的局部紧致空间；我们可以将$\mu$（分别与$\nu$）和$T'$上的测量$\mu'$（分别与$\nu'$）相关联，这样可测量的函数，本质上的可积函数和Banach空间中的值，以及基本的函数正函数的上积分对于$\mu$和$\mu'$（分别对于$\nu$和$\nu'$）是相同的。因此函数$f$是$\mu'$可测量的；它是局部$\mu'$可积的，因为$T'$是局部紧致的，并且$T'$的紧致子集仅与紧集$K_\alpha$（$\alpha \in A$）的有限数相交。最后，关系${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$证明了$\nu' = f \cdot \mu'$（第V, §5, No. 3章，第3条命题）。我们将抄写第 1 章结果的任务留给读者。 V, §5。
 
-### 3. 像一个度量
+### 3. 像度量单位
 
 #### 定义 4 {#int-ix-s2-def-4 .statement tag=09OP}
 
@@ -159,11 +159,11 @@ $$
 
 #### 注 1 {#int-ix-s2-n3-rem-1 .statement tag=09OQ}
 
-当T和X局部紧致时，这个定义等价于Ch的。 V, §6, No. 1。
+当T和X局部紧致时，这个定义等价于Ch. V, §6, No. 1。
 
 #### 注 2 {#int-ix-s2-n3-rem-2 .statement tag=09OR}
 
-T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）对于每个小节 $\mu$ 来说是 $\mu$-真值。对于，设 $x \in X$；由于 $\overline{\pi}(x)$ 是紧致的（如上，No. 2，Th.1），集合 $\overline{\pi}(x)$ 有一个开邻域 H，使得 $\mu^\bullet(H) < +\infty$。 集合$V = X - \pi(T - H)$；由于$\pi$闭，V在X、包含x开，并且满足$\overline{\pi}(V) \subset H$、从而$\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$。
+T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）对于每个小节 $\mu$ 来说是 $\mu$。对于，设 $x \in X$；由于 $\overline{\pi}(x)$ 是紧致的（前述，No. 2，Th.1），集合 $\overline{\pi}(x)$ 有一个开邻域 H，使得 $\mu^\bullet(H) < +\infty$。 集合$V = X - \pi(T - H)$；由于$\pi$闭，V在X、包含x开，并且满足$\overline{\pi}(V) \subset H$、从而$\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$。
 
 #### 注 3 {#int-ix-s2-n3-rem-3 .statement tag=09OS}
 
@@ -171,7 +171,7 @@ T 到 X 的真连续映射（GT，I, §10, No. 1，定义 1）对于每个小节
 
 #### 注 4 {#int-ix-s2-n3-rem-4 .statement tag=09OT}
 
-如果 $\theta$ 是 T 上的复测度，如果 $\pi$ 对于正测度 $|\theta|$ 是正确的，则 $\pi$ 被认为是 $\theta$-正确的。
+如果 $\theta$ 是 T 上的复测度，如果 $\pi$ 对于正测度 $|\theta|$ 是正确的，则 $\pi$ 被称为 $\theta$-正确的。
 
 #### 命题 4 {#int-ix-s2-prop-4 .statement tag=09OU}
 
@@ -213,7 +213,7 @@ $$
 
 让我们再次讨论第4条命题的证明，并从开头处理的特殊情况开始，同样的记号； g 对于测量 $\pi(\mu) = \nu$ 是可测量的，当且仅当 $g_L$ 是 $\nu'$ 可测量时（§1, No. 5，*例*）；现在，这相当于$g_L \circ \pi' = (g \circ \pi)_K$是$\mu_K$可测量的说（第V, §6, No. 2，第3章），最后，$g \circ \pi$是$\mu$可测量（§1, No. 5，*例*）。现在让我们讨论一般情况，与第 4 条的证明相同的记号； f 是 $\nu$ 可测当且仅当 f 对于每个 $\alpha \in A$ 是 $\nu_\alpha$ 可测（§1, No. 7，命题 8），因此当且仅当 $f \circ \pi$ 对于每个 $\alpha \in A$ 是 $\mu_\alpha$ 可测（前面的特殊情况），最后当且仅当$f \circ \pi$ 是 $\mu$ 可测量的（$§ 1$、No. 7，第 8 条）。
 
-#### 推论{#int-ix-s2-n3-cor-1 .statement tag=09OY}
+#### 推论 {#int-ix-s2-n3-cor-1 .statement tag=09OY}
 
 — *令X和Y为两个拓扑空间，$\pi$将T的$\mu$-固有映射引入X，并将$\pi'$将X的$\pi(\mu)$-固有映射引入Y. 映射 $\pi'' = \pi' \circ \pi$ 则为 $\mu$ 正值，以及 $\pi''(\mu) = \pi'(\pi(\mu))$（“措施像的传递性”）。
 
@@ -221,13 +221,13 @@ $$
 
 #### 命题 6 {#int-ix-s2-prop-6 .statement tag=09OZ}
 
-— *令$\pi$为T的$\mu$-固有映射到拓扑空间X，并令B为X的$\pi(\mu)$可测子集。 集合 $A = \overline{\pi^{-1}(B)}$，并用 A 到 B 的 $\pi'$ 映射表示重合和 A 上的 $\pi$。集合 A 则$\mu$ 可测，$\pi_A$ 和 $\pi'$ 为$\mu_A$-正确，并且*
+— *令 $\pi$ 为 T 的 $\mu$-固有映射到拓扑空间 X，并令 B 为 X 的 $\pi(\mu)$ 可测子集。 集合 $A = \overline{\pi^{-1}(B)}$，并用 A 到 B 的 $\pi'$ 映射表示重合和 A 上的 $\pi$。集合 A 则$\mu$ 可测，$\pi_A$ 和 $\pi'$ 为$\mu_A$-正确，并且*
 
 $$
 (\pi(\mu))_B = (\pi_A(\mu_A))_B = \pi'(\mu_A).
 $$
 
-集合 A 是 $\mu$-可通过应用于 $\varphi_B$ 的第 5 条命题进行测量； 映射 $\pi_A$ 显然可以通过定义诱导测度 (No. 1) 进行$\mu_A$ 测量，因此$\pi'$ 是可测量的。设$f$为$\mathscr{F}_+(B)$中的元素；在 X 和 T 中用零指数扩张表示 0，我们有
+集合 A 是 $\mu$-可通过应用于 $\varphi_B$ 的第 5 条命题进行测量； 映射$\pi_A$显然是$\mu_A$可通过定义诱导测度（No. 1）测量，因此$\pi'$是可测量的。设$f$为$\mathscr{F}_+(B)$中的元素；在 X 和 T 中用 0 表示零指数扩张，我们有
 
 $$
 (\pi(\mu)_B)^\bullet(f) = \pi(\mu)^\bullet(f^0) = \mu^\bullet(f^0 \circ \pi) = \mu^\bullet((f \circ \pi')^0) = \mu_A^\bullet(f \circ \pi'),
@@ -247,7 +247,7 @@ a）集合$\nu = i(\mu)$； 关系$\nu^\bullet(A) = \mu^\bullet(A \cap T)$应用
 
 b) 令$f$为定义在X上的正函数； 设定 $\mu = \lambda_T$，一个有 $\mu^\bullet(f \circ i) = \lambda_T^\bullet(f_T) = \lambda^\bullet(f \varphi_T) \leq \lambda^\bullet(f)$（命题 1）；由此可见 i 是 $\mu$ 正确的。另一方面，$\mu^\bullet(f \circ i)$（或$\lambda^\bullet(f \varphi_T)$）是$f$相对于$i(\mu)$（或$\varphi_T \cdot \lambda$）的本质上积分。因此，这两个措施是相等的。
 
-*注 6).* — 设$\pi$是$T$的$\mu$真映射到拓扑空间$X$。一个约化关于像测量$\nu = \pi(\mu)$的积分理论在第1章中处理的理论。 V, §6，按以下方式。令$(K_\alpha)_{\alpha \in A}$（或$(L_\beta)_{\beta \in B}$）是$T$（或$X$）对$\mu$（或$\nu$）和集合$N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$的压榨。我们可以假设$\pi$到每个$K_\alpha$的限制是连续的（§1, No. 8，命题10）。令$T', X'$为在§1, No. 8的Scholium中构造的局部紧凑空间，并令$\mu'$和$\nu'$为与$\mu$和$\nu$相关的这些空间的度量。 $T'$的拓扑是子空间$K_\alpha$拓扑的和和$N$上的离散拓扑，$\pi$是$T'$到$X$的连续映射并且关系 ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$（对于 $g \in \mathscr{F}_+(X)$）表明 $\pi$ 是 $\mu'$ 正确且 $\pi(\mu') = \nu$。另一方面，$X$到$X'$的恒等映射$i$是$\nu$-本征，并且$i(\nu) = \nu'$。由此可见，$\pi$是$T'$到$X'$的$\mu'$固有映射，$\pi$下的$\mu'$的像是$\nu'$（第5条的Cor.）。我们将抄写第 1 章结果的任务留给读者。 V, §6。
+*注 6).* — 设$\pi$是$T$的$\mu$真映射到拓扑空间$X$。关于第 1 章中处理的像措施$\nu = \pi(\mu)$至理论的一个约化理论积分。 V, §6，按以下方式。令$(K_\alpha)_{\alpha \in A}$（或$(L_\beta)_{\beta \in B}$）是$T$（或$X$）对$\mu$（或$\nu$）和集合$N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$的压榨。我们可以假设$\pi$到每个$K_\alpha$的限制是连续的（§1, No. 8，命题10）。令$T', X'$为在§1, No. 8的Scholium中构造的局部紧致空间，并令$\mu'$和$\nu'$为与$\mu$和$\nu$相关的这些空间的度量。 $T'$的拓扑是子空间$K_\alpha$拓扑的和和$N$上的离散拓扑，$\pi$是$T'$的连续映射到$X$并且关系 ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$（对于 $g \in \mathscr{F}_+(X)$）表明 $\pi$ 是 $\mu'$ 正确且 $\pi(\mu') = \nu$。另一方面，$X$到$X'$的恒等映射$i$是$\nu$-本征，并且$i(\nu) = \nu'$。由此可见，$\pi$是$T'$到$X'$的$\mu'$固有映射，$\pi$下$\mu'$的像是$\nu'$（第5条的Cor.）。我们将抄写第 1 章结果的任务留给读者。 V, §6。
 
 ### 4. 解除措施
 
@@ -376,11 +376,11 @@ $$
 
 #### 推论 2 {#int-ix-s2-prop-10-cor-2 .statement tag=09P8}
 
-— *如果 $A$ 是 $S$ 的子集对于 $\lambda$ 局部可忽略不计，则 $A \times T$ 局部 $\nu$ 可忽略不计。*
+— *如果 $A$ 是 $S$ 的子集对于 $\lambda$ 局部可忽略，则 $A \times T$ 局部 $\nu$ 可忽略不计。*
 
 #### 推论 3 {#int-ix-s2-prop-10-cor-3 .statement tag=09P9}
 
-— *假设$\lambda$（分别$\mu$）是$S$（分别$T$）测度的可求和族$(\lambda_\alpha)_{\alpha \in A}$（分别$(\mu_\beta)_{\beta \in B}$）的和。然后族 $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ 可求和，其和为 $\lambda \otimes \mu$。*
+— *假设$\lambda$（分别$\mu$）是$S$（分别$T$）测度的可求和族$(\lambda_\alpha)_{\alpha \in A}$（分别$(\mu_\beta)_{\beta \in B}$）的和。然后，族 $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ 可求和，其和为 $\lambda \otimes \mu$。*
 
 例如，令 $p$ 为负担$\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$；如果$f \in \mathscr{F}_+(S)$和$g \in \mathscr{F}_+(T)$，那么显然是$p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$。 Cor 的证明。然后，1 表明 $p$ 是局部有界的，因此族 $(\lambda_\alpha \otimes \mu_\beta)$ 是可求和的（§ 1, No. 7，命题 7）。它的和$\eta$则满足$\eta^\bullet = p$（§ 1, No. 7，第7条命题），而第10条命题意味着$\eta = \nu$。
 
@@ -401,7 +401,7 @@ $$
 
 *其中 $L$ 超过集合的紧凑型子集或 $T$。*
 
-我们首先注包含$L \subset L'$意味着$I_f^L \leq I_f^{L'}$；另一方面，$I_f^L(s) = \mu_L^\bullet((f_s)_L)$适用于所有$s \in S$。因此，公式 (5) 是 $\mu^\bullet$ 的定义的直接的推论，如下所示
+我们首先注意到包含$L \subset L'$意味着$I_f^L \leq I_f^{L'}$；另一方面，$I_f^L(s) = \mu_L^\bullet((f_s)_L)$适用于所有$s \in S$。因此，公式 (5) 是 $\mu^\bullet$ 的定义的直接的推论，如下所示
 
 §1, No. 2。如果 K 是 S 的紧致子集，且 L T 的紧致子集，则 $\nu_{K \times L} = \lambda_K \otimes \mu_L$ 乘以构造，且第 7 章的命题 7。 V, §8, No. 3 意味着关系
 
@@ -435,9 +435,9 @@ $$
 
 #### 引理 3 {#int-ix-s2-lem-3 .statement tag=09PC}
 
-— *令 X 为拓扑空间（或非豪斯多夫），f 定义于 X 的下半连续函数 $\geqslant 0$；那么 f 是X上下半连续函数的递增序列$(f_n)_{n \in \mathbf{N}}$的极限，使得每个函数$f_n$都是线性组合，具有正系数， 特征函数开放集合.*
+— *令 X 为拓扑空间（或非豪斯多夫），f 定义于 X 的下半连续函数 $\geqslant 0$；则 f 是X上下半连续函数的递增序列$(f_n)_{n \in \mathbf{N}}$的极限，使得每个函数$f_n$都是线性组合，系数为正， 特征函数开放集合.*
 
-给定两个整数$k \geqslant 1$和$n \geqslant 1$，让我们用$J_{kn}$表示$\overline{\mathbf{R}}$的区间$]k/2^n, +\infty]$的特征函数。每$x \in \overline{\mathbf{R}}_+$、集合
+给定两个整数、$k \geqslant 1$和$n \geqslant 1$，让我们用$J_{kn}$表示$\overline{\mathbf{R}}$的区间$]k/2^n, +\infty]$的特征函数。每$x \in \overline{\mathbf{R}}_+$、集合
 
 $$
 u_n(x) = 2^{-n} \sum_{k=1}^{n \cdot 2^n} J_{kn}(x);
@@ -446,9 +446,9 @@ $$
 直接的序列 $(u_n(x))_{n \geqslant 1}$ 是递增并且承认 x 为极限。因而，函数$f_n = u_n \circ f$的序列是递增，并且收敛到$f$，并且有$f_n = 2^{-n} \sum_{k=1}^{n \cdot 2^n} \varphi_{U(k,n)}$，
 其中$U(k,n)$是$X$的开集合$f^{-1}([k/2^n, +\infty])$。
 
-让我们转到 b) 的证明。 函数$I_f$是函数$I_f^L$递增定向族的上层信封，其中$L$运行在$T$（引理2）的紧凑子集的集合之上，足以证明函数 $I_f^L$ 是下半连续；然后可以从 (6) 通过经过将公式 (9) 推导出到 $L$ 上的上包络线（§ 1, No. 6，命题 5）。
+让我们转到 b) 的证明。 函数$I_f$是函数$I_f^L$递增有向族的上层信封，其中$L$运行在$T$（引理2）的紧凑子集的集合之上，足以证明函数 $I_f^L$ 是下半连续；然后可以从 (6) 通过经过将公式 (9) 推导出到 $L$ 上的上包络线（§ 1, No. 6，命题 5）。
 
-因而，令$\mathscr{H}$为$S \times T$上的正下半连续函数$f$的集合，使得$I_f^L$对于$T$的每个紧致子集$L$都是下半连续。根据§ 1, No. 6第5条，$\mathscr{H}$属于到$\mathscr{H}$的元素每递增有向集合的上界。因而，到引理 3，就足以证明$S \times T$属于到$\mathscr{H}$的开集合$W$的特性函数。另外，$S \times T$乘积拓扑定义，集合$W$为递增定向家庭并形式开放集合$(W_\alpha)_{\alpha \in A}$
+因而，令$\mathscr{H}$为$S \times T$上的正下半连续函数$f$的集合，使得$I_f^L$对于$T$的每个紧致子集$L$都是下半连续。根据§ 1, No. 6第5条，$\mathscr{H}$属于至$\mathscr{H}$元素每递增有向集合的上等。因而，到引理 3，就足以证明$S \times T$属于到$\mathscr{H}$的开集合$W$的特性函数。另外，在$S \times T$乘积拓扑定义，开集合$W$为递增定向家庭并开集合$(W_\alpha)_{\alpha \in A}$ 形式
 $$
 W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
@@ -461,14 +461,14 @@ $$
 \iint_X^* f(s,t)\, d\nu(s,t) \geq \int_S^* d\lambda(s) \int_T^* f(s,t)\, d\mu(t).
 $$
 
-对于，令$g$是$X$上的下半连续函数，使得$g \geq f$；根据第 11 号提案，
+例如，令$g$是$X$上的下半连续函数，使得$g \geq f$；根据第 11 号提案，
 $$
 \iint_X^* g(s,t)\, d\nu(s,t) = \iint^* g(s,t)\, d\nu(s,t) = \int^* d\lambda(s) \int^* g(s,t)\, d\mu(t)
 $$
 $$
 = \int^* d\lambda(s) \int^* g(s,t)\, d\mu(t) \geq \int^* d\lambda(s) \int^* f(s,t)\, d\mu(t).
 $$
-不等式 (10) 是通过经过到$g$ 的下包络线获得的。
+不等式 (10) 由经过到$g$ 上的下包络线获得。
 
 #### 推论 2 {#int-ix-s2-lem-3-cor-2 .statement tag=09PE}
 

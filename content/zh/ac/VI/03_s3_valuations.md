@@ -37,16 +37,16 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: d782f566402f26ed4e425c78e85695788aa724e947ce57d72573c451d12c4403
+content_sha256: 29c21a0ffb65ec4a6767aea34a6cd781377cde00a992708426fd4817e2789119
 translated_from: content/en/ac/VI/03_s3_valuations.md
 translation_method: google
 source_content_sha256: 53da8eeb6a8932911f9fa4e5bb93b698a2373f5f22e0893d102d4323fd2301f1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5dafe43918716927a51f7fd0de06365908b0630a98034305142b27ed7633a77c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 3. 估值
@@ -83,9 +83,9 @@ $$
 
 关系 (1) 由公理 (VL_{II}) 通过 $n$ 上的归纳得出。如果存在单个指标$k$使得$v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$，则通过(1)写出$y = \sum_{i \neq k} x_i$和$z = \sum_{i=1}^n x_i$、$v(y) > v(x_k)$和$v(z) \geq v(x_k)$；如果$v(z) > v(x_k)$，关系$x_k = z - y$会给出$v(x_k) \geq \inf(v(z), v(y)) > v(x_k)$，这是荒谬的； 从而$v(z) = v(x_k)$，证明第二个断言。
 
-#### 推论{#ac-vi-s3-n1-cor-1 .statement tag=04T4}
+#### 推论 {#ac-vi-s3-n1-cor-1 .statement tag=04T4}
 
-*If a finite sequence of elements $(x_i)_{1 \leq i \leq n}$ of $C$ (for $n \geq 2$) is such that $\sum_{i=1}^n x_i = 0$, there exist at least two distinct indices $j, k$ such that*
+*如果$C$（对于$n \geq 2$）的元素$(x_i)_{1 \leq i \leq n}$的有限序列使得$\sum_{i=1}^n x_i = 0$，则至少存在两个不同的索引$j, k$使得*
 
 $$
 v(x_j) = v(x_k) = \inf_{1 \leq i \leq n} v(x_i).
@@ -96,7 +96,7 @@ $$
 注
 (1) 如果$v : C \to \Gamma_\infty$是环$B$到$C$对$C$和$u : B \to C$同态的估价，则直接的是映射$B \xrightarrow{u} C \xrightarrow{v} \Gamma_\infty$对$B$的估价$\Gamma$ 中的值。
 
-(2) Conditions (VL$_I$) and (VL$_II$) show immediately that the set $\bar{v}^{-1}(+\infty)$ is a two-sided ideal $\mathfrak{p}$ in $C$ distinct from $C$ by virtue of (VL$_III$); moreover, if $x, y$ are two elements of $C$ such that $v(xy) = +\infty$, it follows from (VL,) that necessarily $v(x) = +\infty$ or $v(y) = +\infty$; in other words, the quotient ring $C/\mathfrak{p}$ has no divisor of 0 other than 0; it is immediately verified that the mapping $\bar{v} : C/\mathfrak{p} \to \Gamma_\infty$ derived from $v$ by passing to the quotient is a valuation on $C/\mathfrak{p}$, the inverse image of $+\infty$ under this valuation reducing to 0.
+(2) 条件 (VL$_I$) 和 (VL$_II$) 立即证明集合 $\bar{v}^{-1}(+\infty)$ 是 $C$ 中的双面理想$\mathfrak{p}$，与 $C$ 不同，因为(VL$_III$);此外，如果$x, y$是$C$的两个元素，使得$v(xy) = +\infty$，则从(VL,)得出必然是$v(x) = +\infty$或$v(y) = +\infty$；在其他字中，商环$C/\mathfrak{p}$没有除子除0以外的0；立即验证，从$v$经经过到商得出的映射$\bar{v} : C/\mathfrak{p} \to \Gamma_\infty$是对$C/\mathfrak{p}$的估价，在此估价下$+\infty$的逆像降为0。
 
 ### 2. 域的估值
 
@@ -109,23 +109,23 @@ $$
 (iv) $x \in A$的集合$m(A)$使得$v(x) > O$是最大的理想的$\#A$在$A$中； $U(A) = A - m(A)$是$A$的可逆元的集合，并且$\kappa(A) := A/m(A)$是（不一定可交换的）域。
 (v) 对于所有$x \in K - A$、$x^{-1} \in m(A)$。
 
-断言 (i) 源自$\bar{v}^{-1}(+\infty)$ 是$K$ 的理想，不等于$K$。凭借公理 (VL$_I$)、(VL$_II$) 和 (VL$_III$)，$A$ 是环以及$V$、$V'_a$ 双面理想的验证是微不足道的。如果$a$是$A$和$x \neq 0$属于到$A$的（左，对于例）理想，每个$y \in A$使得$v(y) \geq v(x)$可以写成$y = zx$，其中$z = yx^{-1}$，因此$v(z) = v(y) - v(x) \geq O$，因此$z \in A$；在其他字左理想$Ax$包含$V'_a$为$a > v(x)$。 集合$U(A) = A - m(A)$是$x \in K$的集合使得$v(x) = 0$；如果$x \in U(A)$，那么
+断言 (i) 源自$\bar{v}^{-1}(+\infty)$ 是$K$ 的理想，不等于$K$。凭借公理 (VL$_I$)、(VL$_II$) 和 (VL$_III$)，$A$ 是环以及$V$、$V'_a$ 双面理想的验证是微不足道的。如果$a$是$A$和$x \neq 0$属于到$A$的（左）理想，则每个$y \in A$使得$v(y) \geq v(x)$可以写成$y = zx$，其中$z = yx^{-1}$，因此$v(z) = v(y) - v(x) \geq O$，因此$z \in A$；在其他字左理想$Ax$包含$V'_a$为$a > v(x)$。 集合$U(A) = A - m(A)$是$x \in K$的集合使得$v(x) = 0$；如果$x \in U(A)$，那么
 $$
 v(x^{-1}) = -v(x) = 0,
 $$
 从而$x^{-1} \in U(A)$；相反，如果$y \in A$在$A$中可逆，则$v(y) \geq 0$、$v(y^{-1}) \geq 0$和$v(y) + v(y^{-1}) = 0$、从而、$v(y) = 0$和$y \in U(A)$；这证明了 (iv) 和 (v) 紧随定义而来。
 
-$A$（分别为$m(A)$、$\kappa(A)$）被称为 $K$ 上的估值$v$ 的环（分别为理想、剩余类域）。
+$A$（分别为$m(A)$、$\kappa(A)$）被称为 $K$ 上的评估$v$ 的环（分别为理想、剩余类域）。
 
-显然U(A)是同态$v : K^* \to \Gamma$核和乘法群$K^*$$v$下的像$v(K^*)$是加法群$\Gamma$子群，称为$v$的阶群或值群，因此与$K^*/U(A)$同构的；对于$x \in K$，$\Gamma_\infty$的元素$v(x)$称为估价有时，或$v$称为$x$的阶。如果环相同，则对 $K$ 的两个估价 $v, v'$ 称为等价。
+显然U(A)是同态$v : K^* \to \Gamma$核和乘法群$K^*$$v$下的像$v(K^*)$是加法群$\Gamma$子群，称为$v$的阶群或值群，因此与$K^*/U(A)$同构的；对于$x \in K$，$\Gamma_\infty$的元素$v(x)$称为估价有时，或$v$称为$x$的阶。如果 $K$ 的两个估值 $v, v'$ 具有相同的环，则称它们相等。
 
 #### 命题 3 {#ac-vi-s3-prop-3 .statement tag=04T6}
 
-*为了使两个估值$v, v'$在（不一定可交换）域$K$等价，有充分必要且存在有序群$v(K^*)$的同构$\lambda$到有序群$v'(K^*)$，使得$v' = A \circ v$.*
+*为了使两个估值$v, v'$在（不一定可交换）域$K$相等，有充分必要且存在有序群$v(K^*)$的同构$\lambda$到有序群$v'(K^*)$，使得$v' = A \circ v$.*
 
 假设$v$和$v'$等价；将$v$估价的假设、环$A$与$v'$、$v$和$v'$相同（仅限于$K^*$）因子转换为同态$K^* \to K^*/U(A) \xrightarrow{\mu} v(K^*)$， $K^* \to K^*/U(A) \xrightarrow{\nu} v'(K^*)$，其中$\mu$和$\nu$是同构；此外，$v(K^*)$（或$v'(K^*)$）正元素的集合是类模集合的$\mu$（或$\nu$）下的像。 元素 $U(A)$ $\neq 0$ $m(A)$；我们结论$A = v \circ \mu^{-1}$解决了问题，逆命题是显而易见的。
 
-现在假设$K$是交换域；那么，对于$K$的所有评估$v$，评估$v$的环$A$是$K$的评估环，在§ 1, no. 2，定义2的意义上（这证明术语是合理的）；这紧随命题 2 (c) 和§ 1 no. 2、定理 1 (c)。 *相反*，回想一下，对于每个整环$B$，其分数的域是$K$关系的整除性$x|y$（相当于$y \in Bx$）使得$K^*$成为预定的群，其*相关有序群* $\Gamma_B$是$K^*$的$K^*/U(B)$除以$B$的可逆元的群$U(B)$的商，这个群的正值元素是$B^*/U(B)$（其中$B^* = B - \{0\}$）； 映射 $x \mapsto Bx$ 定义，通过经过与有序群 $K^*/U(B)$ 到群（按关系 $\supset$ 有序）的商同构的非零主分数理想$K$（*代数*、章VI, § 1, no. 5）。 环$A$，域为分数$K$，并且群$\Gamma_A = K^*/U(A)$是*全序*，正是K*的*评估环（§ 1, no. 2，定理1） (d))。如果$v_A$表示$K^*$的典范同态到$\Gamma_A$，则直接的$v_A$（由$v_A(0) = +\infty$扩展）是$K$的评估（称为*规范*），其环是$A$；每个等于 $v_A$ 的估价都可以写成 $v = \sigma \circ v_A$，其中 $\sigma$ 是$\Gamma_A$ 的同构到群的子群，其中 $v$ 取其值 (命题 3)； $\sigma \circ v_A$ 称为 $v$ 的*规范分解*。
+现在假设$K$是交换域；那么，对于$K$的所有评估$v$，评估$v$的环$A$是$K$的评估环，在§ 1, no. 2，定义2的意义上（这证明术语是合理的）；这紧随命题 2 (c) 和§ 1 no. 2、定理 1 (c)。 *相反*，回想一下，对于每个整环$B$，其分数的域是$K$关系的整除性$x|y$（相当于$y \in Bx$）使得$K^*$成为预定的群，其*关联排序的群* $\Gamma_B$是$K^*$的商$K^*/U(B)$由$B$的可逆元群$U(B)$，这个群的正元素是那些$B^*/U(B)$（其中$B^* = B - \{0\}$）； 映射 $x \mapsto Bx$ 定义，由经过到商，群$K^*/U(B)$的同构到群（按关系$\supset$排序）非零本金$K$ (*代数*, 章 VI, § 1, no. 5) 的分数理想。 环$A$，域为分数$K$，并且群$\Gamma_A = K^*/U(A)$是*全序*，正是K*的*评估环（§ 1, no. 2，定理1） (d))。如果 $v_A$ 表示 $K^*$ 的典范同态到 $\Gamma_A$，则直接的 $v_A$（由 $v_A(0) = +\infty$ 扩展）是 $K$ 的评估（称为*规范*），其环为$A$；每个等于 $v_A$ 的估价都可以写成 $v = \sigma \circ v_A$，其中 $\sigma$ 是$\Gamma_A$ 的同构到群的子群，其中 $v$ 取其值 (命题 3)； $\sigma \circ v_A$ 称为 $v$ 的*规范分解*。
 
 #### 命题 4 {#ac-vi-s3-prop-4 .statement tag=04T7}
 
@@ -164,13 +164,13 @@ $$
 
 设$\Gamma_v$和$\Gamma_{v'}$为$v$和$v'$的阶群。由于$v'$到$K$的限制等价于$v$，因此$\Gamma_v$的同构$A$存在于$\Gamma_{v'}$的子群上，使得$v' = A \circ v$在$K$上。如果通过$\lambda$将$\Gamma_v$与$\lambda(\Gamma_v)$进行识别，则可知$v'$扩展$v$。
 
-注 $\Gamma_{v'}$ 通常*不同于* $\lambda(\Gamma_v)$，而 $v'$ 的等价类不一定是唯一的。我们将在§ 8返回*到*这个。
+请注意，$\Gamma_{v'}$ 通常*不同于* $\lambda(\Gamma_v)$，并且 $v'$ 的等价类不一定是唯一的。我们将在§ 8返回*到*这个。
 
-翻译§ 1, no. 3的定理 3（或§ 2, no. 5的命题 6），我们得到：
+平移§ 1, no. 3的定理 3（或§ 2, no. 5的命题 6），我们得到：
 
 #### 命题 6 {#ac-vi-s3-prop-6 .statement tag=04T9}
 
-*设$K$为域，$K$为$A$子环，$x$元素为$K$。为了使 $x$ 对 $A$ 整的，$K$ 上的每一个在 $A$ 上为正值的估值在 $x$ 上也是正值是必要且充分的。*
+*令$K$为域，$K$中的$A$子环以及$K$中的$x$元素。为了使 $x$ 对 $A$ 整的，$K$ 上的每一个在 $A$ 上为正值的估值在 $x$ 上也是正值是必要且充分的。*
 
 从现在开始，我们一般将把进行与上述类似的翻译的麻烦留给读者。
 
@@ -188,17 +188,17 @@ $$
 
 #### 例 (3) {#ac-vi-s3-n4-exa-3 .statement tag=04TC}
 
-令 k 为域且 K = k((T))。 映射 v 其中映射每个非零形式幂级数到其阶 (代数, 章 IV, § 5, no. 7) 是对 K 的评估，其阶群是 Z 且其环为k[[T]]。如果 u ∉ k[[T]]，则关联位置为典范同态 f: k[[T]] → k 通过设定 f(u) = ∞ 扩展到 k((T))。
+令 k 为域且 K = k((T))。 映射 v 其中映射每个非零形式幂级数到其阶 (代数, 章 IV, § 5, no. 7) 是对 K 的评估，其阶群是 Z 并且其环是 k[[T]]。如果 u ∉ k[[T]]，则关联位置为典范同态 f: k[[T]] → k 通过设定 f(u) = ∞ 扩展到 k((T))。
 
 #### 例 (4) {#ac-vi-s3-n4-exa-4 .statement tag=04TD}
 
-设 A 为主理想整环，K 为分数的域，p 为 A 的极值元素。对于 x ∈ K* 令 v_p(x) 表示 x 的分解中 p 到极值元素的指数 (代数， 章VII, § 1, no. 3、定理2)；立即可以看出，v_p 是一个估值，其阶群为 Z，环为 A_{A_p}。通过§ 1, no. 4的命题3，我们获得了直到等价的对K的所有不不当且对A为正的估值。取A=Z，我们恢复了对Q的p进估值（一般拓扑，章IX, § 3, no. 2）；这些估值是在等价以内对 Q 唯一不不当的估值（§ 1, no. 4，推论 1 至命题 3）。取 A = k[X]，其中 k 为域，其限制至 k 不恰当的 k(X) 的非不当估值为（最多等价）： 一方面，估值 v_P，其中 P 穿过不可约单调多项式的集合 k[X]，另一方面，估值 v 定义为
+设 A 为主理想整环，K 为分数的域，p 为 A 的极值元素。对于 x ∈ K* 令 v_p(x) 表示 x 的分解中 p 的指数为极值元素 （代数、章VII, § 1, no. 3、定理2）；立即可以看出，v_p 是一个估值，其阶群为 Z，环为 A_{A_p}。通过§ 1, no. 4的命题3，我们获得了直到等价的对K的所有不不当且对A为正的估值。取A=Z，我们恢复了对Q的p进估值（一般拓扑，章IX, § 3, no. 2）；这些估值是在等价以内，对 Q 唯一合理的估值（§ 1, no. 4、推论 1 至命题 3）。取 A = k[X]，其中 k 为域，则限制到 k 不恰当的 k(X) 的非不当估值为（最多等价）： 一方面，估值 v_P，其中 P 穿过不可约单调多项式的集合 k[X]，另一方面，估值 v 定义为
 
 $$
 v(P/Q) = \deg(Q) - \deg(P)
 $$
 
-对于 P ε k[X] 且 Q ε k[X]（§ 1, no. 4，推论 2 至命题 3）；所有这些估值显然都有Z作为阶群，并且它们的剩余类域是k的单生代数扩张（代数，章V, § 3, no. 1）。
+对于 P ∈ k[X] 且 Q ∈ k[X]（§ 1, no. 4、推论 2 至命题 3）；所有这些估值显然都有Z作为阶群，并且它们的剩余类域是k的单生代数扩张（代数，章V, § 3, no. 1）。
 
 #### 例 (5) {#ac-vi-s3-n4-exa-5 .statement tag=04TE}
 
@@ -208,7 +208,7 @@ no. 2 的命题 4 允许我们对构造进行评估，其中阶群和剩余类�
 
 #### 例 (6) {#ac-vi-s3-n4-exa-6 .statement tag=04TF}
 
-令 Γ 为全序群且 k 域。令 Г_+ 为 Г 的正元素和 Г_+ 的 C 代数在 k 上的幺半群。到定义时，C 在 k 上有基 (x_\alpha)_{\alpha \in \Gamma_-}，其中乘法表为 x_\alpha x_\beta = x_{\alpha + \beta}。如果$x = \sum a_\alpha x_\alpha$是C的非零元素，我们写成$v(x) = \inf_{a_\alpha \neq 0} (a)$和$v(0) = +\infty$；立即验证$C$至$\Gamma_\infty$的映射$v$满足no. 1的条件(VL_I)和(VL_{II})并且$C$为整环。令$K$为$C$和$w$分数域其中扩展$v$(命题4，no. 2)对$K$的估价。由于$\Gamma$的每个元素都是两个正数元素之差，$w$承认$\Gamma$为阶群。令$A$为$w$和$m$的环其最大理想；我们将证明$A$是$m$和$k$的直和（与$k \cdot 1$相同），这将证明$w$的剩余类域与$k$同构的。显然$m \cap k = (0)$。另一方面，用$p$表示由$x_a$生成的$C$的理想，其中$a > 0$，$K$中估值为0的每个元素$x$可以写成形式$(a + y)/(b + z)$，其中$a \in k^*, b \in k^*, y \in p$和$z \in p$；那么
+令 Γ 为全序群且 k 域。令 Г_+ 为 Г 的正元素和 Г_+ 的 C 代数在 k 上的幺半群。到定义时，C 在 k 上有基 (x_\alpha)_{\alpha \in \Gamma_-}，其中乘法表为 x_\alpha x_\beta = x_{\alpha + \beta}。如果$x = \sum a_\alpha x_\alpha$是C的非零元素，我们写成$v(x) = \inf_{a_\alpha \neq 0} (a)$和$v(0) = +\infty$；立即验证$C$至$\Gamma_\infty$的映射$v$满足no. 1的条件(VL_I)和(VL_{II})并且$C$为整环。令$K$为$C$和$w$分数域其中扩展$v$(命题4，no. 2)对$K$的估价。由于$\Gamma$的每个元素都是两个正数元素之差，$w$承认$\Gamma$为阶群。令$A$为$w$和$m$的环其最大理想；我们将证明$A$是$m$和$k$的直和（与$k \cdot 1$相同），这将证明$w$的剩余类域与$k$同构的。显然$m \cap k = (0)$。另一方面，用$p$表示由$x_a$生成的$C$的理想，其中$a > 0$，$K$中估值为0的每个元素$x$可以写成形式$(a + y)/(b + z)$，其中$a \in k^*, b \in k^*, y \in p$和$z \in p$；然后
 
 $$
 x = ab^{-1} + (by - az)b^{-1}(b + z)^{-1}
@@ -216,11 +216,11 @@ $$
 
 从而$w(x - ab^{-1}) > 0$和$x \equiv ab^{-1} \pmod{m}$；这显示了我们的断言。
 
-如果$\Gamma = \mathbf{Z} \times \mathbf{Z}$，则$K = k(X, Y)$和上述构造则提供对$k(X, Y)$的估值，这对$k$是不正确的，其阶群为$\mathbf{Z} \times \mathbf{Z}$，其剩余类域为$k$。这些估值取决于在 $\mathbf{Z} \times \mathbf{Z}$ 上选择的阶结构。对于例，$\mathbf{Z} \times \mathbf{Z}$可以给出字典顺序。或者事实上，对于无理数数$a$，$\mathbf{Z} \times \mathbf{Z}$可以在同态$(m, n) \mapsto m + n\alpha$下与$\mathbf{R}$的子群识别（同态是单射的，因为$a$是无理数），并给出由下式引起的排序$\mathbf{R}$。
+如果$\Gamma = \mathbf{Z} \times \mathbf{Z}$，则$K = k(X, Y)$和上述构造则提供对$k(X, Y)$的估值，这对$k$是不正确的，其阶群为$\mathbf{Z} \times \mathbf{Z}$，其剩余类域为$k$。这些估值取决于在 $\mathbf{Z} \times \mathbf{Z}$ 上选择的阶结构。例如，$\mathbf{Z} \times \mathbf{Z}$可以按照字典顺序给出。或者事实上，对于无理数数$a$，$\mathbf{Z} \times \mathbf{Z}$可以在同态$(m, n) \mapsto m + n\alpha$下被识别为$\mathbf{R}$的子群（同态是单射的，因为$a$是无理数），并给出由此引起的排序$\mathbf{R}$。
 
 使用no. 2中的命题 4进行评估的其他构造将在§ 10中描述。
 
-### 5. 估值理想环
+### 5. 理想估值环
 
 #### 定义 2 {#ac-vi-s3-def-2 .statement tag=04TG}
 
@@ -241,13 +241,13 @@ $$
 
 那么$v(x) \in M(b)$，因此存在$y \in b$使得$v(x) = v(y)$； 从而 $x = uy$ 其中$v(u) = 0$，证明$x \in A$ $y \subset b$ 并完成证明。
 
-#### 推论{#ac-vi-s3-n5-cor-1 .statement tag=04TI}
+#### 推论 {#ac-vi-s3-n5-cor-1 .statement tag=04TI}
 
 令$G_+$为$G$中正元素的集合。 映射$M \mapsto a(M)$是$G_+$专业子集集合双射，到$A$理想集合。
 
 由于$A = a(G_+)$，$a(M) \subset A$相当于$M \subset G_+$。
 
-对于例，极大理想$m(A)$等于$a(S)$，其中$S$表示$G$严格正的元素的集合。
+例如，极大理想 $m(A)$ 等于 $a(S)$，其中 $S$ 表示 $G$ 的严格正元素的集合。
 
 ### 6. 离散估值
 
@@ -255,11 +255,11 @@ $$
 
 令$K$为（不一定可交换）域，$v$对$K$和$\Gamma$阶群的$v$的估值。如果在 $\mathbf{Z}$ 上存在有序的群 $\Gamma$ 的（必须是唯一的）同构，$v$ 称为离散的。设该同构下$\gamma$为$\Gamma$相应的至$1$的元素； $K$的每个元素$u$使得$v(u) = \gamma$被称为$v$的均匀化器。如果离散估值的阶群为 $\mathbf{Z}$，则称为标准化。
 
-对于例，由主理想*或阶乘的极值元素$p$定义的估值$v_p$，域是一个规范的离散估值，它承认$p$作为均匀化器。特别是，如果$k$是域，则$k[[T]]$是$k((T))$离散估值的环，它承认$T$作为均匀化器。令$S$为维数1、$S$上亚纯函数的$K$域和$S$的$z_0$点的连通复解析簇； $\in K$的集合在$z_0$是全纯的，是离散估值$v$的环；为了让函数$f \in K$对于$v$来说是一致的，它是全纯的且零在$z_0$处是充分必要的，并且在$S$中存在$z_0$的邻域$V$使得限制出发到$V$是$V$的同态到达$\mathbf{C}$原点的邻域。正是这个例和其他类似物是字“均质器”的起源。*
+例如，由主理想*或阶乘域的极值元素 $p$ 定​​义的估值 $v_p$ 是一个规范的离散估值，它承认 $p$ 作为均匀化器。特别是，如果$k$是域，则$k[[T]]$是$k((T))$离散估值的环，它承认$T$作为均匀化器。设$S$为维数1、$S$上亚纯函数的$K$域和$S$的$z_0$点的连通复解析簇； $\in K$的集合在$z_0$是全纯的，是离散估值$v$的环；为了让函数$f \in K$对于$v$来说是一致的，它是全纯的且零在$z_0$处是充分必要的，并且在$S$中存在$z_0$的邻域$V$使得限制出发到$V$是$V$的同态到达$\mathbf{C}$原点的邻域。正是这个例和其他类似物是字“均质器”的起源。*
 
 #### 命题 8 {#ac-vi-s3-prop-8 .statement tag=04TK}
 
-令 $K$ 为（不一定可交换）域，$v$ $K$、$A$ 环的离散估值，$v$ 以及$u$ $v$ 的均匀化器。 $A$ 的非零理想是双面的，形式 $Au^n$ ($n \geq 0$) 的非零理想。
+令 $K$ 为（不一定可交换）域，$v$ 为 $K$、$A$ 环的离散估值，$v$ 以及$u$ $v$ 的均匀化器。 $A$ 的非零理想是双面的，形式 $Au^n$ ($n \geq 0$) 的非零理想。
 
 可以假设$v$是标准化的，因此$v(u) = 1$。对于所有$x \in K^*$，有整数$n \in \mathbf{Z}$使得$(v(x) = n = v(u^n)$，因此我们可以写
 
@@ -279,15 +279,15 @@ $$
 (d) $A$ 是 *诺特环*，$m(A)$ 是*本金*。
 (e) $A$ 是 *诺特估值环*。
 
-命题 8 表明(a) 蕴涵(b)、(d) 和(e)。如果 $A$ 为主理想整环，则 $m(A) = Au$ 且 $A$ 的每个非零理想为形式 $Au^n$，因为 $A$ 是本地的 (*代数*, 章 VII, § 1, no. 3, 定理 2）；因此$\bigcap_{n=1}^\infty m(A)^n = 0$；这表明(b)蕴涵(c)。另一方面，(d) 意味着 (c)（章 III, § 3, no. 2，命题 5 的推论）；通过 § 1, no. 4 的命题 2，(c) 隐含 (a)。因此条件 (a), (b), (c), (d) 是等价的并且隐含(e)。最后假设 (e) 成立，让我们证明 (b) 成立；足以证明以下引理：
+命题 8 表明(a) 蕴涵(b)、(d) 和(e)。如果 $A$ 为主理想整环，则 $m(A) = Au$ 且 $A$ 的每个非零理想为形式 $Au^n$，因为 $A$ 是本地的 (*代数*, 章 VII, § 1, no. 3, 定理 2）；因此$\bigcap_{n=1}^\infty m(A)^n = 0$；这表明(b)蕴涵(c)。另一方面，(d) 意味着 (c) (章 III, § 3, no. 2, 推论到命题 5)；通过命题 2 of § 1, no. 4，(c) 隐含 (a)。因此条件 (a), (b), (c), (d) 是等价的并且隐含(e)。最后假设 (e) 成立，让我们证明 (b) 成立；足以证明以下引理：
 
 #### 引理 1 {#ac-vi-s3-lem-1 .statement tag=04TM}
 
-*令$A$为估值环。每个有限生成的无扭转 $A$ 模块都是免费的。每个有限生成的理想$\mathfrak{a}$ $A$ 都是主要的。每个无扭转 $A$ 模块都是平坦的。*
+*令$A$为估值环。每个有限生成的无扭转 $A$ 模块都是自由的。每个有限生成的理想$\mathfrak{a}$ $A$ 都是主要的。每个无扭转 $A$ 模块都是平坦的。*
 
-令$E$为有限生成的无扭转$A$模，并令$x_1, \ldots, x_n$为$E$的生成元，其在数中最小；我们证明它们是线性独立的。如果 $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in A$) 是 $x_i$ 之间的非平凡关系，则 $a_i$ 之一，比如 $a_1$，除所有其他，因为 $A$ 的主理想的集合是通过包含完全排序的（§ 1, no. 2，定理1）；那么 $a_1 \neq 0$ 因为关系是不平凡的。由于$E$是无扭转的，我们可以通过$a_1$来除，这相当于假设$a_1 = 1$。但$x_1$是$x_2, \ldots, x_n$的线性组合，与$n$的最小特征标相反。因此$E$是免费的。
+令$E$为有限生成的无扭转$A$模，并令$x_1, \ldots, x_n$为$E$的生成元，其在数中最小；我们证明它们是线性独立的。如果 $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in A$) 是 $x_i$ 之间的非平凡关系，则 $a_i$ 之一，例如 $a_1$，除所有其他，因为 $A$ 的主要理想的集合完全按包含排序（§ 1, no. 2，定理1）；那么 $a_1 \neq 0$ 因为关系是不平凡的。由于$E$是无扭转的，我们可以通过$a_1$来除，这相当于假设$a_1 = 1$。但$x_1$是$x_2, \ldots, x_n$的线性组合，与$n$的最小特征标相反。因此$E$是免费的。
 
-特别是，$A$的每个有限生成的理想$\mathfrak{a}$是主要的，$\mathfrak{a}$的生成元的元素、系统都是其中之一的倍数。 命题 3 of 章 I, § 2, no. 4 则表明每个无扭转 $A$ 模块都是平坦的。
+特别是，$A$的每个有限生成的理想$\mathfrak{a}$是主要的，$\mathfrak{a}$的生成元的系统的所有元素是其中之一的倍数。 命题 3 of 章 I, § 2, no. 4 则表明每个无扭转 $A$ 模块都是平坦的。
 
 ### 习题{#ac-vi-s3-exercises}
 

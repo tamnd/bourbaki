@@ -29,16 +29,16 @@ subsections:
       pdf_page: 76
 statements: 24
 exercises: 30
-content_sha256: 8046662f56bc627f2265de2fd3175a783675922efec37418353b89d0e9ebe7b8
+content_sha256: c10f080849a1b5775a80c43cae1fe0dbdb75bcc259eec1fbf1c699f77d98bb8f
 translated_from: content/en/evt/II/05_s5_separation_of_convex_sets.md
 translation_method: google
 source_content_sha256: 497d18fc81f060c697d16f5bff7ad7d5e4bacb2a2d64dfc57ebdfcc324868bea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: eaf263803596546550637881ca3cb9ef4f1390ed9878dde23789c8e9d489fdfd
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。凸面分离集合
@@ -49,7 +49,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 — *设 A 为拓扑向量空间 E 的开凸非空集，并令 M 为不满足 A 的非空线性簇。则存在闭超平面 H，其中包含 M 且不满足 A。*
 
-通过翻译，问题可以简化为$0 \in A$，因此$A$是吸收性的。 令 $p$ 为$A$ (II, p. 20) 的*规格*，使得$A$ 为点 $x \in E$ 的集合，从而$p(x) < 1$。 另一方面，令$V$为$M$生成的$E$的向量子空间；因此$M$是$V$中的超平面，而不是包含$0$，因此$V$上有一个唯一的线性形式$f$，使得$M$是点的集合 $y \in V$ $f(y) = 1$。 因此，假设$M \cap A = \varnothing$意味着对于所有$y \in V$（其中$f(y) = 1$），我们有$p(y) \geqslant 1$；由于 $f$ 和 $p$ 是正齐次的，因此对于所有 $y \in V$，我们有 $f(y) \leqslant p(y)$，使得 $f(y) > 0$；最后，对于所有$y \in V$，我们看到$f(y) \leqslant p(y)$对于所有$p(y) \geqslant 0$，对于*所有*$y \in V$。 通过 Hahn-Banach 定理 (II, p. 22, 第 1) 的分析形式，$E$ 上存在线性形式 $h$，其中扩展 $f$ 并且对于所有 $x \in E$， $h(x) \leqslant p(x)$。 令 $H$ 为 $E$ 中的超平面，并使用等式 $h(x) = 1$。 显然$H \cap V = M$和$H \cap A = \varnothing$。 另一方面，$E$包含中$H$的补集是开非空集$A$，因此$H$在$E$中是*闭*的（I，p. 11，推论）。
+通过翻译，问题可以简化为$0 \in A$，因此$A$是吸收性的。 令 $p$ 为$A$ (II, p. 20) 的*规格*，使得$A$ 为点 $x \in E$ 的集合，从而$p(x) < 1$。 另一方面，令$V$为$M$生成的$E$的向量子空间；因此$M$是$V$中的超平面，而不是包含$0$，因此$V$上有一个唯一的线性形式$f$，使得$M$是点的集合 $y \in V$ $f(y) = 1$。 因此，假设$M \cap A = \varnothing$意味着对于所有$y \in V$（其中$f(y) = 1$），我们有$p(y) \geqslant 1$；由于 $f$ 和 $p$ 是正齐次的，因此对于所有 $y \in V$，我们有 $f(y) \leqslant p(y)$，使得 $f(y) > 0$；最后，对于所有$y \in V$，我们看到$f(y) \leqslant p(y)$对于所有$p(y) \geqslant 0$，对于*所有*$y \in V$。 通过 Hahn-Banach 定理 (II, p. 22, 第 1) 的分析形式，$E$ 上存在线性形式 $h$，其中扩展 $f$ 并且对于所有 $x \in E$， $h(x) \leqslant p(x)$。 令 $H$ 为 $E$ 中的超平面，并使用等式 $h(x) = 1$。 显然$H \cap V = M$和$H \cap A = \varnothing$。 另一方面，$E$包含中$H$的补集是开非空集$A$，因此$H$在$E$（I，p. 11，推论）中是“闭”的。
 
 Q.E.D.
 
@@ -112,7 +112,7 @@ $A$ 的每个支撑超平面都是封闭的，因为 $A$ 的所有点都在超�
 
 #### 注 {#evt-ii-s5-n3-rem-1 .statement tag=07FT}
 
-In a Hausdorff locally convex space $E$, let $A$ and $B$ be two closed non-empty convex sets that are disjoint, if $E$ is finite dimensional then there exists a closed hyperplane that separates $A$ from (II, p. 78, exerc. 13); but this conclusion is not necessarily true when $E$ is of infinite dimension (II, p. 78, exerc. 10 and 11).
+在Hausdorff局部凸空间$E$中，令$A$和$B$为两个不相交的闭非空凸集，如果$E$是有限维的，则存在一个闭超平面将$A$与(II，p. 78，练习13)分开；但当$E$具有无限维数时（II、p. 78、练习10和11），这个结论不一定成立。
 
 #### 推论 1 {#evt-ii-s5-prop-4-cor-1 .statement tag=07FU}
 
@@ -134,13 +134,13 @@ In a Hausdorff locally convex space $E$, let $A$ and $B$ be two closed non-empty
 
 对于所有$x \notin \overline{M}$，令$H$是一个封闭的超平面，将$x$与$\overline{M}$严格分开；
 
-因此$\overline{M}$平行于$H$；闭合的超平面 $H_1$、包含 $\overline{M}$ 且与 $H$ 平行，则不存在包含 $x$。推论如下。
+因此$\overline{M}$平行于$H$；闭合的超平面 $H_1$、包含 $\overline{M}$ 且与 $H$ 平行，则不存在包含 $x$。接下来是推论。
 
 #### 推论 4 {#evt-ii-s5-prop-4-cor-4 .statement tag=07FX}
 
 *设$C$为局部凸空间$E$中的闭凸集合。 $E$的子集$A$包含在$C$中，当且仅当，对于$E$中的每个实值连续仿射函数$u$，使得$u(x) \geqslant 0$对于$C$中的所有$x$，我们有$u(y) \geqslant 0$ 适用于 $A$ 中的所有 $y$。*
 
-条件显然是必要的。反之，我们证明它是充分的；如果点$x \in A$不包含在$C$中，则存在等式$f(z) = \alpha$的闭超平面，严格地将$x$与$C$分开；如果我们假设例 $f(x) < \alpha$，则连续仿射函数 $u = f - \alpha$ 与……矛盾假设。
+条件显然是必要的。反之，我们证明它是充分的；如果点$x \in A$不包含在$C$中，则存在等式$f(z) = \alpha$的闭超平面，严格地将$x$与$C$分开；例如，如果我们假设 $f(x) < \alpha$，则连续仿射函数 $u = f - \alpha$ 与……矛盾假设。
 
 #### 推论 5 {#evt-ii-s5-prop-4-cor-5 .statement tag=07FY}
 
@@ -194,7 +194,7 @@ $E$中连续仿射函数的限制到$X$是函数，即$X$中的仿射（即凹�
 
 *令$f$为$X$中的连续仿射函数；则存在$L$的元素的序列$(h_n)$在$X$中均匀收敛到$f$。*
 
-对于，道具。 6 和 Dini 的定理（GT，X, § 4.1，第 1）表明，对于所有$n$，都存在$h_n \in L$，使得$f \leq h_n \leq f + 1/n$。
+对于，道具。 6 和 Dini 的定理（GT，X, § 4.1，第 1）表明，对于所有$n$，都存在$h_n \in L$，使得 $f \leq h_n \leq f + 1/n$。
 
 ### 习题{#evt-ii-s5-exercises}
 

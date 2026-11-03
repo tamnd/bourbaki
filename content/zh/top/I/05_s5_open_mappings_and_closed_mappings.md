@@ -29,21 +29,21 @@ subsections:
       pdf_page: 62
 statements: 24
 exercises: 7
-content_sha256: 713111749c32e5c812258ab90c168a0823491625fdb45f3b1cfa3edb3fa5726c
+content_sha256: bfdd0a04594ebd93604b0e426f48922ac8ce08a8a46eb72aea6735560c39eede
 translated_from: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
 translation_method: google
 source_content_sha256: 30449acefded09c82f02573834e6808d312199d63f6f407bfcd7aac989b3a9ff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2017c15895c40f943a27921a43739b6d71ddff7e78b9689c78e630724897defe
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 5. 开放映射关闭映射
+## 5. 开放映射闭馆映射
 
-### 1. 打开映射关闭映射
+### 1. 开放映射闭馆映射
 
 #### 定义 1 {#top-i-s5-def-1 .statement tag=0B32}
 
@@ -89,7 +89,7 @@ b) *如果 $g \circ f$ 开（或闭）并且 $f$ 是连续且满射的，则 $g$
 
 c) *如果 $g \circ f$ 开（或闭）并且 $g$ 是连续且单射的，则 $f$ 是开（或闭）。*
 
-从定义 1.a) 开始，紧随其后。证明 b) 注 $X'$ 的每个开（或闭）子集 $A'$ 都可以写成 $f(A)$，其中 $A = f^{-1}(A')$ 在 $X$ 中开（或闭）（§ 2, no. 1，定理 1）；因此$g(A') = g(f(A))$在$X''$中打开（或关闭）。最后，为了证明c)，我们对$X$的每一个子集$A$都有注$f(A) = g^{-1}(g(f(A)))$；到假设，如果$A$在$X$打开（或关闭），则$g(f(A))$在$X''$打开（或关闭），因此$f(A)$在$X'$通过§ 2, no. 1，定理打开（或关闭） 1.
+从定义 1.a) 开始，紧随其后。为了证明b)，只要注意到$X'$的每个开（或闭）子集$A'$都可以写成$f(A)$，其中$A = f^{-1}(A')$在$X$（§ 2, no. 1，定理1）中开（或闭）；因此$g(A') = g(f(A))$在$X''$中打开（或关闭）。最后，为了证明c)，我们注意到对于$X$的每一个子集$A$都有$f(A) = g^{-1}(g(f(A)))$；到假设，如果$A$在$X$打开（或关闭），则$g(f(A))$在$X''$打开（或关闭），因此$f(A)$在$X'$通过§ 2, no. 1，定理打开（或关闭） 1.
 
 #### 命题 2 {#top-i-s5-prop-2 .statement tag=0B3A}
 
@@ -99,17 +99,17 @@ a) *如果 $f$ 打开（或关闭），则 $f_T$ 打开（或关闭）。*
 
 b) *设$(T(i))_{i \in I}$是$Y$的子集族，其内部覆盖$Y$，或者是$Y$的局部有限封闭覆盖；如果所有 $f_{T(i)}$ 都打开（或关闭），则 $f$ 也打开（或关闭）。*
 
-a) 如果 $A$ 是 $f^{-1}(T)$ 的开（或闭）子集，则存在 $X$ 的开（或闭）子集 $B$，使得 $A = B \cap f^{-1}(T)$，因此 f_T(A) = f(B) \cap T；在假设时，$f(B)$ 打开（或关闭），因此 $f_T(A)$ 在 $T$ 打开（或关闭）。
+a) 如果 $A$ 是 $f^{-1}(T)$ 的开（或闭）子集，则存在 $X$ 的开（或闭）子集 $B$，使得 $A = B \cap f^{-1}(T)$，因此 f_T(A) = f(B) \cap T； 假设时，$f(B)$ 打开（或关闭），因此 $f_T(A)$ 在 $T$ 打开（或关闭）。
 
 b) 令$B$为$X$的开（或闭）子集，并令$B_i$表示$B \cap f^{-1}(T(i))$；然后$f(B) \cap T(i) = f_{T(i)}(B_i)$。由于 $f_{T(i)}(B_i)$ 在 $T(i)$ 到假设处开（或闭），因此，$f(B)$ 在 $Y$ 处，到 § 3, no. 1 的命题 3 处开（或闭）。
 
-#### 推论{#top-i-s5-n1-cor-1 .statement tag=0B3B}
+#### 推论 {#top-i-s5-n1-cor-1 .statement tag=0B3B}
 
 *设$(T(i))_{i \in I}$是$Y$的子集族，其内部覆盖$Y$，或者是$Y$的局部有限封闭覆盖。如果$f : X \to Y$是连续的，并且每个$f_{T(i)}$是$f^{-1}(T(i))$到$T(i)$的同态，那么$f$是$X$到$Y$的同态。*
 
 因为 $f$ 显然是双射的，并且凭借命题 2 是开集。
 
-### 2. 打开等价关系和关闭等价关系
+### 2. 打开等价关系关闭等价关系
 
 #### 定义 2 {#top-i-s5-def-2 .statement tag=0B3C}
 
@@ -135,13 +135,13 @@ $$
 
 #### 例 2 {#top-i-s5-n2-exa-2 .statement tag=0B3E}
 
-Let $X$ be the sum of a family $(X_i)$ of subspaces of $X$, and let $X/R$ be the space obtained by *pasting together* the $X_i$ along *open* subsets $A_{ix}$ by means of bijections $h_{ix}$ (§ 2, no. 5); and suppose that $h_{ix}$ is a *homeomorphism* of $A_{ix}$ onto $A_{x'}$ for each pair of indices $(i, x)$.
+令$X$为$X$子空间族$(X_i)$之和，令$X/R$为通过双射$h_{ix}$ (§ 2, no. 5)沿着*开放*子集$A_{ix}$*粘贴*$X_i$获得的空间；并假设对于每对索引 $(i, x)$，$h_{ix}$ 是 $A_{ix}$ 到 $A_{x'}$ 的*同胚*。
 
 那么关系 R 开。因为如果U在X开路，则U的饱和度是$h_{x!}(U \cap A_{ix})$的并；由于$U \cap A_{ix}$在$A_{ix}$中开放，$h_{x!}(U \cap A_{ix})$在$A_{ix}$中开放，因此在X中开放。
 
 #### 例 3 {#top-i-s5-n2-exa-3 .statement tag=0B3F}
 
-当记号为例 2 时，现在假设 $A_{ix}$ 是闭集且 $h_{x!}$ 是同胚；进一步假设对于每个指标 i，只有指标 x 的有限数，使得$A_{ix} \neq \varnothing$（即每个$X_i$“卡”到仅$X_x$的有限数）。则关系 R 闭合。因为如果F是X的任意闭子集，则F的饱和度是集合$h_{x!}(F \cap A_{ix}) \subset A_{ix}$的并； 假设意味着这个族是局部有限的，$h_{x!}(F \cap A_{ix})$在$A_{ix}$中是封闭的，因此在X中也是封闭的。因此，结果来自命题 4 of § 1, no. 5。
+当记号为例 2 时，现在假设 $A_{ix}$ 是闭集且 $h_{x!}$ 是同胚；进一步假设对于每个指标 i，只有指标 x 的有限数，使得$A_{ix} \neq \varnothing$（即每个$X_i$“卡”到仅$X_x$的有限数）。则关系 R 闭合。因为如果F是X的任意闭子集，则F的饱和度是集合$h_{x!}(F \cap A_{ix}) \subset A_{ix}$的并； 假设意味着这个族是局部有限的，$h_{x!}(F \cap A_{ix})$在$A_{ix}$中是封闭的，因此在X中是封闭的。因此，结果来自命题 4 of § 1, no. 5。
 
 #### 命题 3 {#top-i-s5-prop-3 .statement tag=0B3G}
 
@@ -175,7 +175,7 @@ A = \overline{f}^{-1}(f(A)),
 $$
 $h \circ \varphi$是$A$到$f(A)$的映射，与$A$上的$f$一致；由于no. 1的命题 2 a)，$h \circ \varphi$打开（或关闭），并且结果再次从命题 3得出，应用于$h \circ \varphi$。
 
-### 3. 开放的特色房产映射
+### 3. 打开特有的属性映射
 
 #### 命题 5 {#top-i-s5-prop-5 .statement tag=0B3I}
 
@@ -209,11 +209,11 @@ c) *每个相对于$R$饱和的子集的闭包相对于$R$也是饱和的*。
 
 #### 命题 8 {#top-i-s5-prop-8 .statement tag=0B3L}
 
-令$(X_i)_{i \in I}, (Y_i)_{i \in I}$是拓扑空间的两个族，由相同的集合$I$索引。 For each $i \in I$ let $f_i$ be an open mapping of $X_i$ into $Y_i$, and suppose that $f_i$ is surjective for all but a finite number of indices. 那么$\prod_{i \in I} X_i$到$\prod_{i \in I} Y_i$的乘积映射$f : (x_i) \to (f_i(x_i))$是开放的。
+令$(X_i)_{i \in I}, (Y_i)_{i \in I}$是拓扑空间的两个族，由相同的集合$I$索引。 对于每个$i \in I$，令$f_i$是$X_i$到$Y_i$的开放映射，并假设$f_i$对于除了有限数量的索引之外的所有索引都是满射的。 那么$\prod_{i \in I} X_i$到$\prod_{i \in I} Y_i$的乘积映射$f : (x_i) \to (f_i(x_i))$是开放的。
 
 凭借命题 5，我们只需证明$\prod_{i \in I} X_i$中任意初等集合$\prod_{i \in I} A_i$在$f$下的像在$\prod_{i \in I} Y_i$中都是开的。 但是这个像是$\prod_{i \in I} f_i(A_i)$，并且假设意味着对于每个$i \in I$，$f_i(A_i)$在$Y_i$中是开放的，并且对于除了指标的有限数之外的所有$f_i(A_i) = Y_i$； 从而结果。
 
-#### 推论{#top-i-s5-n3-cor-1 .statement tag=0B3M}
+#### 推论 {#top-i-s5-n3-cor-1 .statement tag=0B3M}
 
 令$(X_i)_{i \in I}$为拓扑空间族，对于每个$i \in I$，令$R_i$为$X_i$上的等价关系，并令$f_i$为典范映射$X_i \to X_i/R_i$。设$X = \prod_{i \in I} X_i$中的$R$为等价关系
 
@@ -221,7 +221,7 @@ c) *每个相对于$R$饱和的子集的闭包相对于$R$也是饱和的*。
 
 $x$和$y$之间，并令$f$为$X$的乘积映射$(x_i) \to (f_i(x_i))$到$\prod_{i \in I} (X_i/R_i)$。如果关系 $R_i$ 中的每一个都是开路，则关系 $R$ 都是开路，并且与$f$相关的双射是$X/R$到$\prod_{i \in I} (X_i/R_i)$的同胚。
 
-$R$ 是关系 $f(x) = f(y)$。由于$f$是连续的，并且通过上面的命题8和§ 4, no. 1开，命题1的推论1，结果来自no. 2的命题3。
+$R$ 是关系 $f(x) = f(y)$。由于$f$是连续的，并且通过上面的命题 8和§ 4, no. 1、推论 1 of 命题 1开，所以结果来自于no. 2的命题 3。
 
 特别是，如果 $R$（或 $S$）是拓扑空间 $X$（或 $Y$）上的开等价关系，则规范的双射
 
@@ -231,7 +231,7 @@ $$
 
 是同胚。如果R和S不假设为开集，则这个双射是连续的，但不一定是同胚，即使关系R，S之一是等式（习题6）的关系。
 
-### 4. 封闭特性映射
+### 4. 闭映射特有的性质
 
 #### 命题 9 {#top-i-s5-prop-9 .statement tag=0B3N}
 

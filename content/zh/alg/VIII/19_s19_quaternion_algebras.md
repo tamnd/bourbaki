@@ -34,16 +34,16 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: b6e217fb023a79b03149ae398c139ecc05455902b6d92ca6099567bf88f5ef34
+content_sha256: d1f063f57d6a89a788e74089dc9b9756badacbd7a4f9f2ba8a74af8e0c308be0
 translated_from: content/en/alg/VIII/19_s19_quaternion_algebras.md
 translation_method: google
 source_content_sha256: 108f7dda8f7849f663b2ef3f83020f45b2cebb199a339be51e597d680bf6aafa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d94fdf2557b1d893159d069d6cfa8ef7aa6badad112cfd60821ed9393e5a9fa7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 19。 四元数代数
@@ -76,15 +76,15 @@ $$
 
 F 的元素$q$特征多项式等于$(X^2-T_F(q)X + N_F(q))^2$。
 
-综上所述，代数 F 是一个自由右 E 模，基 $(1, j)$。因而，F[X] 是一个自由右 E[X] 模，具有基 $(1, j)$。我们用 $u(P) =$ $(X-q)P$ 定义的右 E[X]-模块 F[X] 的$u$ 自同态来表示 $P\in F[X]$。 $q$的特征多项式是$u$的行列式，被视为K[X]-模F[X]的自同态。通过III, §9, No. 4、p. 546的命题 6，它等于N(det $u$)，其中N表示从E[X]到K[X]的范数。让我们将$q$写成$x+jy$和$x, y\in E$。 $u$相对于基$(1, j)$的矩阵为$\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$；它的行列式等于 $D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$ (cf. 公式 (3))。从 D 属于到 K[X]，我们有 $N(D) = D^2$；接下来是命题 1。
+综上所述，代数 F 是一个自由右 E 模，基 $(1, j)$。因而，F[X] 是一个自由右 E[X] 模，具有基 $(1, j)$。我们用 $u(P) =$ $(X-q)P$ 定义的右 E[X]-模块 F[X] 的$u$ 自同态来表示 $P\in F[X]$。 $q$的特征多项式是$u$的行列式，被视为K[X]-模F[X]的自同态。通过III, §9, No. 4、p. 546的命题 6，它等于N(det $u$)，其中N表示从E[X]到K[X]的范数。让我们将$q$写成$x+jy$和$x, y\in E$。 $u$相对于基$(1, j)$的矩阵为$\begin{pmatrix} X-x & -\gamma y \\ -y & X-\overline{x} \end{pmatrix}$；它的行列式等于$D = (X-x)(X-\overline{x})-\gamma yy= X^2-T_F(q)X + N_F(q)$（cf.公式（3））。从 D 属于到 K[X]，我们有 $N(D) = D^2$；接下来是命题1。
 
 #### 注 1 {#alg-viii-s19-n1-rem-1 .statement tag=00LR}
 
-假设K的特性不等于2，且集合$i'= 2i-\beta$。那么$(1, i')$是E除以K的基，我们有${i'}^2= 4\alpha +\beta^2$。由此可见，E 与型 $(4\alpha +\beta^2,0)$ 的二次代数同构，F 与型 $(4\alpha +\beta^2,0, \gamma )$ 的四元数代数同构。
+假设K的特性不等于2，且集合$i'= 2i-\beta$。那么$(1, i')$是E除以K的基，我们有${i'}^2= 4\alpha +\beta^2$。由此可知，E 与型 $(4\alpha +\beta^2,0)$ 的二次代数同构，F 与型 $(4\alpha +\beta^2,0, \gamma )$ 的四元数代数同构。
 
 #### 注 2 {#alg-viii-s19-n1-rem-2 .statement tag=00LS}
 
-型 $(\alpha ,0, \gamma )$ 的四元数代数同构于型 $(\gamma ,0, \alpha )$ 的四元数代数 (III, §2, No. 5, p. 445)。对于 K 的非零元素的每个对 $(a, c)$，它也同构于型 $(\alpha a^2,0, \gamma c^2)$ 的四元数代数。
+型 $(\alpha ,0, \gamma )$ 的四元数代数与型 $(\gamma ,0, \alpha )$ 的四元数代数同构 (III, §2, No. 5, p. 445)。对于 K 的非零元素的每个对 $(a, c)$，它也同构于型 $(\alpha a^2,0, \gamma c^2)$ 的四元数代数。
 
 #### 注 3 {#alg-viii-s19-n1-rem-3 .statement tag=00LT}
 
@@ -118,7 +118,7 @@ $$
 
 这个同态是双射的。当K的特性不等于2时，代数$\mathbf{M}_2(K)$也同构于型$(1,0,1)$（注1）的四元数代数。
 
-### 2. The Center of a Quaternion Algebra
+### 2. 四元数代数的中心
 
 令$\alpha ,\beta ,\gamma$为K的元素，并令F为型$(\alpha , \beta , \gamma )$的四元数代数。
 
@@ -171,11 +171,11 @@ $$
 
 它的行列式是$-\gamma^2 (4\alpha + \beta^2)^2$。属性 (ii) 和 (iii) 的等价由 V, §8, No. 2、p. 49、引理 1 得出。
 
-(iii)⇒(i): 假设$(4\alpha + \beta^2)\gamma \neq 0$。然后我们有 $\gamma \neq 0$，如果 K 具有特征 2，我们就有 $\beta \neq 0$。根据命题 2，代数 F 是中心。令x为F的雅各布森根的元素。对于每个$y \in F$，$xy$都是幂零的，因此$T_F(xy) = 0$（VIII，p. 362的注 3）。由于 (ii) 等价于 (iii)，因此我们有 $x = 0$。这就证明F是半单K-代数。因为它的中心是K，所以很简单。
+(iii)⇒(i): 假设$(4\alpha + \beta^2)\gamma \neq 0$。然后我们有 $\gamma \neq 0$，如果 K 具有特征 2，我们就有 $\beta \neq 0$。根据命题 2，代数 F 是中心。令x为F的Jacobson 根基的元素。对于每个$y \in F$，$xy$是幂零的，因此$T_F(xy) = 0$（VIII，p. 362的注 3）。由于 (ii) 等价于 (iii)，因此我们有 $x = 0$。这就证明F是半单K-代数。因为它的中心是K，所以很简单。
 
 最后一个断言由约化特征多项式 (VIII、p. 340、定义 1) 的VIII、p. 361 和定义的命题 1 得出。
 
-用 p 表示 K 的特性。到命题 3，如果$p \neq 2$，则$K^*$中型$(\alpha, 0, \gamma)$的K上的每个四元数代数与$\alpha$和$\gamma$都是中心简单。如果$p = 2$，则型$(\alpha, 1, \gamma)$与$\alpha \in K$和$\gamma \in K^*$的每个四元数代数都是中心简单。相反，我们有以下情况。
+用 p 表示 K 的特性。到命题 3，如果$p \neq 2$，则$K^*$中型$(\alpha, 0, \gamma)$的K上的每个四元数代数以及$\alpha$和$\gamma$都是中心简单。如果$p = 2$，则型$(\alpha, 1, \gamma)$与$\alpha \in K$和$\gamma \in K^*$的每个四元数代数都是中心简单。相反，我们有以下情况。
 
 #### 命题 4 {#alg-viii-s19-prop-4 .statement tag=00LX}
 
@@ -185,21 +185,21 @@ a) *如果$p \neq 2$，则存在K的非零元素$\alpha$和$\gamma$，使得代�
 
 b) *如果$p = 2$，则存在K的元素$\alpha$和$K^*$的元素$\gamma$，使得代数A同构于型的四元数代数 $(\alpha, 1, \gamma)$.*
 
-根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，存在整数 $r \geq 1$ 和域 D 以及中心 K，使得 A 与 $\mathbf{M}_r(D)$ 同构的。那么我们就有$r^2[D : K] = [A : K] = 4$。如果$r = 2$，则A与$\mathbf{M}_2(K)$同构的，命题4由VIII、p. 362的例推出。否则，我们有 $r = 1$，并且 A 是域和中心 K。然后它有极大交换子域 E，即 K 的可分扩张；由于 A 在 K 上有次数 4，扩张 E 在 K 上有次数 2（VIII，p. 265，推论 2）。因此它是二次的（III, §2, No. 3，p. 439）。令 $s$ 为 E (III, §2, No. 3, p. 440) 的共轭。根据 Skolem–Noether 定理（VIII，p. 256，推论 1），存在 A 的可逆元 $j$，因此对于 E 中的每个 $x$，我们都有 $s(x) =jxj^{-1}$。 域 E 可以通过 K 分离，因此我们有$s\not=$Id$_E$，因此$j \notin E$。因为 A 是 K 上的维数 4 的向量空间，所以它是 E 上的维数 2 的左向量空间，所以我们有 $A = E\oplus Ej$。我们有$s^2=$Id$_E$，所以A的属于到中心有元素$j^2$；因此存在$K^*$的元素$\gamma$使得$j^2=\gamma$。
+根据 Wedderburn 的定理 (VIII, p. 120, 定理 1)，存在整数 $r \geq 1$ 和域 D 以及中心 K，使得 A 与 $\mathbf{M}_r(D)$ 同构的。那么我们就有$r^2[D : K] = [A : K] = 4$。如果$r = 2$，则A与$\mathbf{M}_2(K)$同构的，命题4由VIII、p. 362的例推出。否则，我们有 $r = 1$，A 是域和中心 K。然后它有极大交换子域 E，即 K 的可分扩张；因为 A 比 K 有次数 4，扩张 E 比 K 有次数 2（VIII、p. 265、推论 2）。因此它是二次的（III, §2, No. 3，p. 439）。令 $s$ 为 E (III, §2, No. 3, p. 440) 的共轭。根据 Skolem–Noether 定理 (VIII, p. 256, 推论 1)，存在 A 的可逆元 $j$，因此对于 E 中的每个 $x$，我们都有 $s(x) =jxj^{-1}$。 域 E 是可分的超过 K，所以我们有 $s\not=$ Id$_E$，因此$j \notin E$。因为 A 是 K 上的维数 4 的向量空间，所以它是 E 上的维数 2 的左向量空间，所以我们有 $A = E\oplus Ej$。我们有$s^2=$Id$_E$，所以A的属于到中心的元素$j^2$；因此存在$K^*$的元素$\gamma$使得$j^2=\gamma$。
 
-当$p\not= 2$时，存在E的元素$i$和元素$\alpha \in K^*$使得$E = K(i)$和$i^2=\alpha$（V, §11, No. 9，p. 93，例3）；在这种情况下，A 同构于型 $(\alpha ,0, \gamma )$ 的四元数代数。当$p= 2$时，存在E的元素$i$和K的元素$\alpha$使得$E = K(i)$和$i^2=i+\alpha$（V, §11, No. 9，p. 93，例2），所以A是同构于型 $(\alpha ,1, \gamma )$ 的四元数代数。
+当$p\not= 2$时，存在E的元素$i$和元素$\alpha \in K^*$使得$E = K(i)$和$i^2=\alpha$（V, §11, No. 9，p. 93，例3）；在这种情况下，A 同构于型 $(\alpha ,0, \gamma )$ 的四元数代数。当$p= 2$时，存在E的元素$i$和K的元素$\alpha$，使得$E = K(i)$和$i^2=i+\alpha$（V, §11, No. 9，p. 93，例2），所以A是同构于型 $(\alpha ,1, \gamma )$ 的四元数代数。
 
 #### 推论 1 {#alg-viii-s19-prop-4-cor-1 .statement tag=00LY}
 
 设A是有限次数$>1$的中心单K-代数，其元素都是次数$\leqslant 2$在K上的代数。则A与K上的四元数代数同构。
 
-如果 K 是有限的，则代数 A 同构于矩阵代数 $\mathbf{M}_n(K)$（VIII，p. 357，推论 2），因此次数 $n$ 在 K 上有包含元素； 假设意味着 $n= 2$，因此本例中的结果为 (VIII、p. 362、例)。假设域 K 是无限的。设L为A的极大étale子代数。根据V, §7, No. 4、p. 41、命题7，存在A的元素$x$，使得K-代数L等于$K[x]$，因此假设有次数$\leqslant 2$。由于我们有 $[A : K] = [L : K]^2$ (VIII, p. 264, 命题 4 和 p. 262, 命题 3)，我们结论 [A : K] = 4。然后从命题 4 推出推论 1。
+如果 K 是有限的，则代数 A 同构于矩阵代数 $\mathbf{M}_n(K)$ (VIII, p. 357, 推论 2)，因此包含元素与次数 $n$ 在 K 上； 假设意味着 $n= 2$，因此本例中的结果为 (VIII、p. 362、例)。假设域 K 是无限的。设L为A的极大étale子代数。根据V, §7, No. 4、p. 41、命题7，存在A的元素$x$，使得K-代数L等于$K[x]$，因此假设有次数$\leqslant 2$。由于我们有 $[A : K] = [L : K]^2$ (VIII, p. 264, 命题 4 和 p. 262, 命题 3)，我们结论 [A : K] = 4。然后从命题 4 得出推论 1。
 
 #### 推论 2 {#alg-viii-s19-prop-4-cor-2 .statement tag=00LZ}
 
 设$(E, s)$是K上的凯莱代数，使得K-代数E是K上有限次数$>1$的中心单形。则E与K上的四元数代数同构。
 
-E 的每个元素 $u$ 都满足 $u^2-T_E(u)u+ N_E(u) = 0$，因此 K-代数 E 同构于四元数代数（推论 1）。
+E 的每个元素 $u$ 都满足 $u^2-T_E(u)u+ N_E(u) = 0$，因此 K-代数 E 同构于四元数代数 (推论 1)。
 
 ### 4. 判据四元数代数域
 
@@ -241,7 +241,7 @@ F 的元素 $q$ 是可逆的，当且仅当 $N_F(q)$ 不为 0 时。因此，(i)
 
 #### 注 {#alg-viii-s19-n4-rem-1 .statement tag=00RQ}
 
-假设四元数代数 F 是域。 从等式 $j^2=\gamma$ 可以得出$\gamma \not= 0$。 By Proposition 2 of VIII, p. 363, the center of F is equal to K unless K has characteristic 2 and $\beta$ is zero, in which case the algebra F is commutative.
+假设四元数代数 F 是域。 从等式 $j^2=\gamma$ 可以得出$\gamma \not= 0$。 根据VIII、p. 363的命题2，F的中心等于K，除非K具有特征2且$\beta$为零，在这种情况下代数F是可交换的。
 
 ### 5. 代数超过极大有序域
 
@@ -263,7 +263,7 @@ $$
 
 令 D 为有限次数中的 R-代数，即域。则 D 同构于 R、C 或 H。
 
-用 Z 表示 D 的中心，并令 L 为 D 的极大交换子域。我们有 VIII、p. 265 $[D : Z] = [L : Z]^2$，推论 2；我们还有$[L : R]\leqslant 2$，因为C是R的代数闭包。因此存在三种可能的情况：
+用 Z 表示 D 的中心，并设 L 为 D 的极大交换子域。我们通过 VIII、p. 265、推论 2 得到 $[D : Z] = [L : Z]^2$；我们还有$[L : R]\leqslant 2$，因为C是R的代数闭包。因此存在三种可能的情况：
 
 a) 我们有 R = Z = L，因而 [D : Z] = 1 并且 D = R。
 

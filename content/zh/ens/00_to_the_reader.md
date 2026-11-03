@@ -13,16 +13,16 @@ pdf_pages: 0005-0007
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 14df198830b9fda58305f79d75a75558134ea3b1ea130a1ae098e1567b56f00c
+content_sha256: df1c50b30b0dcdf7ff18671d5a961efaffc7f12ed173980cecb08b824a5d209a
 translated_from: content/en/ens/00_to_the_reader.md
 translation_method: google
 source_content_sha256: 47ab664cac8f5f795d2044796b3391ca190ab6598f4137432142ea2c6871cd7e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: be23072d71dbcec51090626e9c2c22549808fa29bc9f3de6dd1c2a6f98e52ff7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 致读者
@@ -39,7 +39,7 @@ v 假定仅已知前几卷中已讨论过的结果。这个规则在每本书中
 
 5. The logical framework of each chapter consists of the *definitions*, the *axioms*, and the *theorems* of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as “propositions”, “lemmas”, “corollaries”, “remarks”, etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of “scholium”.
 
-为了避免繁琐的重复，有时方便地引入记号或仅在章或章的某个截面内有效的缩写（对于例，在章中，仅与交换环，字相关） “环”始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免繁琐的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅与交换环有关的章中，字“环”将始终表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign
 
@@ -57,7 +57,7 @@ v 假定仅已知前几卷中已讨论过的结果。这个规则在每本书中
 
 VI
 
-每个历史注记包含后面的参考书目一般只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整；特别是，仅涉及确定优先问题的参考文献几乎总是被省略。
+每个历史注记包含后面的参考书目一般只有那些在讨论中的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整；特别是，仅涉及确定优先问题的参考文献几乎总是被省略。
 至于习题，我们认为总体上不值得指出它们的起源，因为它们来自许多不同的来源（原始论文、教科书、习题的收藏）。
 
 11. 对这个级数的部分的引用如下：
@@ -70,7 +70,7 @@ d) 如果它们出现在*另一个书*中，则首先引用该书的书名。
 
 # 内容
 # 的
-# 数学的元素级数
+# 数学元素级数
 
 ## I。 集合论
 

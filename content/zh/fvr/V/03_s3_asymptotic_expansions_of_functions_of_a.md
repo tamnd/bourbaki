@@ -37,23 +37,23 @@ subsections:
       pdf_page: 250
 statements: 24
 exercises: 7
-content_sha256: 394411159bf63717b4ba80d3a6e58875c2ca2e23284a01291536480fcef77fd9
+content_sha256: 367c449592326e2d049385311daeb5c5deccb93b3ee4a97eea6cf34f29235ff2
 translated_from: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
 translation_method: google
 source_content_sha256: 8e759b487c91cd2169288cb7a854bc7596023e144f6eac992de79d1711257975
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c5d8003ca10642f0312a47df1f2178a597bac62c0d367503bb7fd2bcc8888bbf
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 3。实变量函数的渐近展开
 
-在这个截面中，我们将仅考虑以下情况：集合$E$是扩展实直线$\overline{\mathbf{R}}$中的开区间，并且$\mathfrak{F}$是基，对于左侧或右侧端点的邻域滤波器的$E$上的迹$\alpha$ / $E$；此外，我们将首先研究$\mathfrak{F}$中集合定义的（有限）实数函数（取决于所考虑的函数）。
+在这个截面中，我们将仅考虑以下情况：集合$E$是扩展实直线$\overline{\mathbf{R}}$中的开放区间，并且$\mathfrak{F}$对于左或邻域滤波器的$E$上的迹线是基 $E$ 的右侧端点 $\alpha$；此外，我们首先将研究$\mathfrak{F}$中集合定义的（有限）实数函数（取决于所考虑的函数）。
 
-根据需要使用变量$x' = -x,\ x' = \frac{1}{x-\alpha},\ x' = -\frac{1}{x-\alpha}$的变换之一，对于E为区间形式]$a, +\infty[$的情况，总是可以约化，这样$\mathfrak{F}$将由区间$[t, +\infty[$和$t > a$组成。我们将主要局限于后一种情况，并将翻译我们获得的大部分命题（通过上述变量变换）的任务留给读者，除了一些特别重要的结果。
+根据需要使用变量$x' = -x,\ x' = \frac{1}{x-\alpha},\ x' = -\frac{1}{x-\alpha}$的变换之一，总是可以约化到E为形式]$a, +\infty[$的区间的情况，这样$\mathfrak{F}$将由区间$[t, +\infty[$和$t > a$组成。我们主要将自己限制在后一种情况，并将翻译我们获得的大部分命题（通过上述变量变换）的任务留给读者，除了一些特别重要的结果。
 
 滥用语言将$\mathfrak{F}$中的集合称为“$+\infty$的邻域”会很方便。
 
@@ -61,7 +61,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 命题 1 {#fvr-v-s3-prop-1 .statement tag=08F4}
 
-*令 $\mathbf{f}$ 为受调节的向量函数，$g$ 为间隔 $[a, +\infty[$ 上受调节的函数 $\geqslant 0$，使得 $\int_a^{+\infty} g(t)\,dt > 0$。 关系 $\mathbf{f} \preccurlyeq g$ 因为 $x$ 倾向于 $+\infty$ 意味着 $\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$。如果积分 $\int_a^{+\infty} g(t)\,dt$ 收敛，则积分 $\int_a^{+\infty} \mathbf{f}(t)\,dt$ 绝对收敛。*
+*令$\mathbf{f}$为向量函数，$g$为区间$[a, +\infty[$上的受监管函数$\geqslant 0$，使得$\int_a^{+\infty} g(t)\,dt > 0$。 关系 $\mathbf{f} \preccurlyeq g$ 因为 $x$ 倾向于 $+\infty$ 意味着 $\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$。如果积分 $\int_a^{+\infty} g(t)\,dt$ 收敛，则积分 $\int_a^{+\infty} \mathbf{f}(t)\,dt$ 绝对收敛。*
 
 事实上，到假设时，存在 $b \geqslant a$ 和数 $c' > 0$，使得
 $$
@@ -79,27 +79,27 @@ $$
 
 #### 推论 1 {#fvr-v-s3-prop-1-cor-1 .statement tag=08F5}
 
-*如果$f$和$g$在$[a, +\infty[$区间上调节函数和$\geqslant 0$，则$f \succcurlyeq g$，如果$\int_a^{+\infty} g(t)\,dt = +\infty$，则$\int_a^{+\infty} f(t)\,dt = +\infty$。*
+*如果$f$和$g$在区间$[a, +\infty[$上受到函数和$\geqslant 0$的监管，则$f \succcurlyeq g$，如果$\int_a^{+\infty} g(t)\,dt = +\infty$，则$\int_a^{+\infty} f(t)\,dt = +\infty$。*
 
 #### 推论 2 {#fvr-v-s3-prop-1-cor-2 .statement tag=08F6}
 
-*如果$f$和$g$是$\geqslant 0$，并且$[a, +\infty[$上的零不相同，并且$f \succeq g$，则$\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$。*
+*如果$f$和$g$是$\geqslant 0$，并且在$[a, +\infty[$上的零不相同，并且$f \succeq g$，则$\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$。*
 
 ### 2. 应用：积分收敛的对数判据
 
 通过适当选择函数g，可以从prop推出判据来决定函数$f \geq 0$的积分$\int_a^{+\infty} f(t) \, dt$是否收敛或无穷大。 V、p. 228 和相关的 1 个。 1 至此：对于原语已知的 g 函数来说，选择就足够了。特别是，由于当$\mu \neq -1$时$x^\mu$具有原语$\frac{x^{\mu+1}}{\mu+1}$，当$\mu = -1$时$\log x$，我们有以下标准：
 
-#### 命题 2（“阶 0 的对数标准”）{#fvr-v-s3-prop-2 .statement tag=08F7}
+#### 命题 2（“阶 0 的对数准则”）{#fvr-v-s3-prop-2 .statement tag=08F7}
 
 *设 f 为区间 $[a, +\infty[$ 上的调节函数 $\geq 0$；如果$f(x) \preccurlyeq x^\mu$对于某些$\mu < -1$则积分$\int_a^{+\infty} f(t) \, dt$收敛；如果 $f(x) \succcurlyeq x^\mu$ 对于某些 $\mu \geq -1$ 那么积分 $\int_a^{+\infty} f(t) \, dt$ 是无限的。*
 
-当$1/x^{1+\alpha} \ll f(x) \ll 1/x$对于*每个*指数$\alpha > 0$时，这个标准不是决定性的，对于例，当$f(x) = 1/x(\log x)^\mu$（$\mu > 0$）时。但在最后一种情况下，如果 $\mu \neq 1$，则 f 具有原语 $\frac{1}{1-\mu} (\log x)^{1-\mu}$；当 $\mu = 1$ 时，f 有原语 $\log \log x$。因此：
+当 $1/x^{1+\alpha} \ll f(x) \ll 1/x$ 对于*每个* 指数 $\alpha > 0$ 时，该标准不是决定性的，例如，当 $f(x) = 1/x(\log x)^\mu$ ($\mu > 0$) 时。但在最后一种情况下，如果 $\mu \neq 1$，则 f 具有原语 $\frac{1}{1-\mu} (\log x)^{1-\mu}$；当 $\mu = 1$ 时，f 有原语 $\log \log x$。因此：
 
 #### 命题 3（“阶 1 的对数准则”）{#fvr-v-s3-prop-3 .statement tag=08F8}
 
-*设 f 为区间 $[a, +\infty[$ 上的调节函数 $\geq 0$；如果$f(x) \preccurlyeq 1/x(\log x)^\mu$对于某些$\mu > 1$则积分$\int_a^{+\infty} f(t) \, dt$收敛；如果 $f(x) \succcurlyeq 1/x(\log x)^\mu$ 对于某些 $\mu \leq 1$ 那么积分 $\int_a^{+\infty} f(t) \, dt$ 是无限的。*
+*设f为区间$[a, +\infty[$上的受监管函数$\geq 0$；如果$f(x) \preccurlyeq 1/x(\log x)^\mu$对于某些$\mu > 1$则积分$\int_a^{+\infty} f(t) \, dt$收敛；如果 $f(x) \succcurlyeq 1/x(\log x)^\mu$ 对于某些 $\mu \leq 1$ 那么积分 $\int_a^{+\infty} f(t) \, dt$ 是无限的。*
 
-一般地，对于每个整数$n \geq 0$，让我们用$l_n(x)$函数来表示，关系$l_0(x) = x$归纳定义（对于x足够大），$l_n(x) = \log(l_{n-1}(x))$对于$n \geq 1$;有人说 $l_n(x)$ 是 x* 的*n*次*迭代对数（cf. 附录）。人们立即验证 $\frac{1}{1-\mu} (l_n(x))^{1-\mu}$ 是一个原语
+一般地，对于每个整数$n \geq 0$，让我们用$l_n(x)$函数来表示，关系$l_0(x) = x$归纳定义（对于x足够大），$l_n(x) = \log(l_{n-1}(x))$代表$n \geq 1$；有人说 $l_n(x)$ 是 x* 的*n*次*迭代对数（cf. 附录）。人们立即验证 $\frac{1}{1-\mu} (l_n(x))^{1-\mu}$ 是一个原语
 
 $$
 \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}
@@ -109,11 +109,11 @@ $$
 
 #### 命题 4（“阶 n 的对数准则”）{#fvr-v-s3-prop-4 .statement tag=08F9}
 
-*设 f 为区间 $[a, +\infty[$ 上的调节函数 $\geq 0$；如果，对于某些$\mu > 1$，$f(x) \preccurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$，则积分$\int_a^{+\infty} f(t) \, dt$收敛；如果 $f(x) \succcurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$ 对于某些 $\mu \leq 1$，则积分 $\int_a^{+\infty} f(t) \, dt$ 是无限的。*
+*设f为区间$[a, +\infty[$上的受监管函数$\geq 0$；如果，对于某些$\mu > 1$，$f(x) \preccurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$，则积分$\int_a^{+\infty} f(t) \, dt$收敛；如果 $f(x) \succcurlyeq \frac{1}{x l_1(x) l_2(x) \ldots l_{n-1}(x) (l_n(x))^\mu}$ 对于某些 $\mu \leq 1$，则积分 $\int_a^{+\infty} f(t) \, dt$ 是无限的。*
 
-因此，每个对数标准适用于函数，其中阶中的判据不是决定性的（*cf.* V、p. 264，执行 5 b）和 V、p. 265，执行。 8).
+因此，每个对数标准适用于函数，其中阶中的判据不是决定性的（*cf.* V、p. 264，执行 5 b）和 V、p. 265、执行。 8).
 
-由于它的实用性，我们将阶 0 的标准转换为积分 $\int_{\alpha}^{a} f(t) \, dt$，其中 $f$ 受到调节，而 $\geq 0$ 则转换为非紧区间 $]\alpha, a]$：
+由于其有用性，我们将阶 0 的标准转换为积分 $\int_{\alpha}^{a} f(t) \, dt$，其中 $f$ 受到调节，而 $\geq 0$ 则转换为非紧区间 $]\alpha, a]$：
 
 #### 命题 5（“阶 0 的对数标准”）{#fvr-v-s3-prop-5 .statement tag=08FA}
 
@@ -121,7 +121,7 @@ $$
 
 我们留给读者类似地翻译阶$n$的对数准则。
 
-如果知道如何获得 $f$ 的*本金部分* 相对于这些判据中的特征的比较标度包含函数，则对数判据的应用为直接的：如果 $f_1$ 是本金部分，整的$\int_{\alpha}^{+\infty} f(t) \, dt$与$\int_{\alpha}^{+\infty} f_1(t) \, dt$一起收敛或无穷大，对数判据立即应用于最后一个积分。
+如果知道如何获得 $f$ 相对于这些判据中特征的比较尺度包含函数的*本金部分*，则对数判据的应用为直接的：如果 $f_1$ 是本金部分，整的$\int_{\alpha}^{+\infty} f(t) \, dt$与$\int_{\alpha}^{+\infty} f_1(t) \, dt$一起收敛或无限，并且对数判据立即应用于最后一个积分。
 
 #### 例 1 {#fvr-v-s3-n2-exa-1 .statement tag=08FB}
 
@@ -177,13 +177,13 @@ $$
 
 这完成了证明，因为$\varepsilon > 0$是任意的。
 
-在其他字中，当$g$在间隔$[a, +\infty[$上为正时，可以整合强关系$\mathbf{f} \ll g$、$\mathbf{f} \sim \mathbf{a}g$的两个项，并且关系持续存在于两个项的原语之间，前提是要注意从如果$\int_{a}^{+\infty} g(t) \, dt$收敛，则从$x$到$+\infty$，反之则从$\alpha$到$x$（对于$[a, +\infty[$中的任何$\alpha$）。
+在其他字中，当$g$在区间$[a, +\infty[$上为正时，可以整合强关系$\mathbf{f} \ll g$、$\mathbf{f} \sim \mathbf{a}g$的两个项，并且关系持续存在于两个项的原语之间，前提是：如果 $\int_{a}^{+\infty} g(t) \, dt$ 收敛，则注意从 $x$ 到 $+\infty$ 整的，而在相反情况下，从 $\alpha$ 到 $x$（对于 $[a, +\infty[$ 中的任何 $\alpha$）进行积分。
 
-注那个道具。当$\mathfrak{F}$为基时，对于可数集合的补集上的间隔$[t, +\infty[$（其中$t > a$）的跟踪过滤器，1（V，p. 228）和6（V，p. 230）仍然有效（cf.I，p. 15，第 2 个）。
+注意道具。对于可数补码上的区间 $[t, +\infty[$（其中 $t > a$）的跟踪过滤器，当 $\mathfrak{F}$ 为基时，1 (V、p. 228) 和 6 (V、p. 230) 仍然有效集合（cf.I、p. 15，第 2 个）。
 
 #### 例 1 {#fvr-v-s3-n3-exa-1 .statement tag=08FE}
 
-在应用支柱上。 V、p. 230、关系$1/x \ll x^{\alpha-1}$（其中$\alpha > 0$）的 6 个$\alpha > 0$，再次获得关系$\log x \ll x^{\alpha}$，这相当于关系$y^{1/\alpha} \ll e^y$ 证明III，p. 105。
+在应用道具上。 V，p. 230，到关系$1/x \ll x^{\alpha-1}$，其中$\alpha > 0$，对于每个$\alpha > 0$，再次获得关系$\log x \ll x^{\alpha}$，这相当于关系$y^{1/\alpha} \ll e^y$证明III，p. 105。
 
 #### 例 2 {#fvr-v-s3-n3-exa-2 .statement tag=08FF}
 
@@ -191,7 +191,7 @@ $$
 
 #### 注 {#fvr-v-s3-n3-rem-1 .statement tag=08FG}
 
-当$g$不被假设在区间$[a, +\infty[$上保持$\geq 0$（或在这样的区间上保持$\leq 0$），并且$\int_{a}^{+\infty} g(t) \, dt$不收敛时，关系$f \sim g$不一定意味着$\int_{a}^{x} f(t) \, dt \sim \int_{a}^{x} g(t) \, dt$，如例所示其中 $g(x) = \sin x$ 和 $f(x) = \left( 1 + \frac{\sin x}{x} \right) \sin x$；这里
+当$g$不假设在区间$[a, +\infty[$上保持$\geq 0$（或在区间上保持$\leq 0$），并且$\int_{a}^{+\infty} g(t) \, dt$不收敛时，关系$f \sim g$不一定意味着$\int_{a}^{x} f(t) \, dt \sim \int_{a}^{x} g(t) \, dt$，如例所示，其中$g(x) = \sin x$和$f(x) = \left( 1 + \frac{\sin x}{x} \right) \sin x$；这里
 
 $$
 \int_{n\pi}^{(n+1)\pi} \frac{\sin^2 t}{t} \, dt \geq \frac{1}{(n+1)\pi} \int_{0}^{\pi} \sin^2 t \, dt \geq \frac{1}{2} \int_{n+1}^{n+2} \frac{dt}{t},
@@ -207,9 +207,9 @@ $$
 
 命题 1 (V, p. 228) 和 6 (V, p. 230) 不具有逆命题：两个函数之间存在可微分的比较关系 $f \preccurlyeq g,\ f \ll g,\ f \sim cg$ $+\infty$的邻域并不意味着它们的导数之间有相同的关系比较，即使对于真正的单调函数$f$和$g$也是如此。
 
-对于例，函数$x^2 + x \sin x + \cos x$是单调的，等价于$x^2$，但它的导数$x(2 + \cos x)$不等价于$2x$。
+例如，函数$x^2 + x \sin x + \cos x$是单调的，等价于$x^2$，但它的导数$x(2 + \cos x)$不等价于$2x$。
 
-另一方面，当我们先验地假设所考虑的函数的导数是可比较的（V，p. 217）时，就可以推导出比较关系。一般来说，我们可以说，在区间 $[a, +\infty[$ 上定义的两个实数函数 $f$ 和 $g$ 相当于 $+\infty$ 的邻域上的阶 $k$，如果，在邻域上$+\infty$，除了点的可数集合之外，它们各自都有受管制的$k^{th}$导数，并且如果在这个邻域、$f^{(k)}$和$g^{(k)}$上具有常数符号（在定义它们的集合上）并且具有可比性。
+另一方面，当我们先验地假设所考虑的函数的导数是可比较的（V，p. 217）时，就可以推导出比较关系。一般来说，我们可以说，在区间 $[a, +\infty[$ 上定义的两个实数函数 $f$ 和 $g$ 相当于 $+\infty$ 的邻域上的阶 $k$，如果，在邻域上$+\infty$，除了点的可数集合之外，它们各自都有受管制的$k^{th}$导数，并且如果在这个邻域、$f^{(k)}$和$g^{(k)}$上具有常数符号（在定义它们的集合上）并且是可比较的。
 
 我们同意说两个可比较的实数函数（V，p. 217）可比较阶 0。
 
@@ -217,17 +217,17 @@ $$
 
 如果两个实数函数$f,\ g$，阶1具有可比性，则它们具有可比性；此外，关系$f \ll g$（分别$f \sim cg$、$c$常数）意味着$f' \ll g'$（分别$f' \sim cg'$）除非$g$等价于非零的常数。
 
-现在，由于$f'$和$g'$在区间$[x_0, +\infty[$上具有恒定符号，$f$和$g$在该区间上都是单调的，因此趋向于有限或无限极限，就像$x$趋向于$+\infty$一样。显然，$f$ 和 $g$ 具有可比性，因为如果极限之一是有限的而 $\neq 0$，或者如果一个是零而另一个是无限的，则 $x$ 趋于 $+\infty$。如果$f$和$g$都趋于0，可以写成$f(x) = -\int_x^{+\infty} f'(t) \, dt,\ g(x) = -\int_x^{+\infty} g'(t) \, dt$；由于$f'$和$g'$具有可比性，$f$和$g$也是如此，$f$和$g$之间的比较关系与$f'$和$g'$之间的比较相同。 6（V，p. 20）。类似地，如果$f$和$g$都有一个无限的极限，其中一个有$f(x) = f(x_0) + \int_{x_0}^x f'(t) \, dt,\ g(x) = g(x_0) + \int_{x_0}^x g'(t) \, dt$；再次支持。 6（V，p. 230）表明$f$和$g$是可比较的，$f$和$g$之间的比较关系与$f'$和$g'$之间的比较相同。为了完成证明，还需要考虑$g$趋向于$\pm \infty$和$f$为常数的情况：一个不能然后有$f' \succcurlyeq g'$，因为这样就可以从prop推出。 1 (V, p. 218) 整的$\int_{x_0}^{+\infty} g'(t) \, dt$收敛；由于假设 $f'$ 和 $g'$ 具有可比性，因此必须具有 $f' \ll g'$。
+现在，由于$f'$和$g'$在区间$[x_0, +\infty[$上具有恒定符号，$f$和$g$在这个区间上都是单调的，因此趋向于有限或无限极限，就像$x$趋向于$+\infty$一样。显然，$f$ 和 $g$ 具有可比性，因为如果极限之一是有限的而 $\neq 0$，或者如果一个是零而另一个是无限的，则 $x$ 趋向于 $+\infty$。如果$f$和$g$都趋于0，可以写成$f(x) = -\int_x^{+\infty} f'(t) \, dt,\ g(x) = -\int_x^{+\infty} g'(t) \, dt$；由于$f'$和$g'$具有可比性，$f$和$g$也是如此，$f$和$g$之间的比较关系与$f'$和$g'$之间的比较相同。 6（V，p. 20）。类似地，如果 $f$ 和 $g$ 都有一个无限的极限，其中一个有 $f(x) = f(x_0) + \int_{x_0}^x f'(t) \, dt,\ g(x) = g(x_0) + \int_{x_0}^x g'(t) \, dt$；再次支持。 6（V，p. 230）表明$f$和$g$具有可比性，并且$f$和$g$之间的比较关系与$f'$和$g'$之间的比较相同。为了完成证明，仍然需要考虑$g$趋向于$\pm \infty$和$f$为常数的情况：一个不能然后有$f' \succcurlyeq g'$，因为这样就可以从prop推出。 1 (V, p. 218) 整的$\int_{x_0}^{+\infty} g'(t) \, dt$收敛；由于假设 $f'$ 和 $g'$ 具有可比性，因此必须具有 $f' \ll g'$。
 
-#### 推论{#fvr-v-s3-n4-cor-1 .statement tag=08FI}
+#### 推论 {#fvr-v-s3-n4-cor-1 .statement tag=08FI}
 
-*如果两个实数函数$f, g$，阶$k \geqslant 1$具有可比性，那么它们对于$0 \leqslant p \leqslant k$可具有阶$p$可比性；此外，关系$f \ll g$（分别$f \sim cg$）意味着$f^{(k)} \ll g^{(k)}$（分别$f^{(k)} \sim cg^{(k)}$）除非导数之一$g^{(p)}$（$0 \leqslant p \leqslant k - 1$）相当于常数$\neq 0$。
+*如果两个实数函数$f, g$，阶$k \geqslant 1$具有可比性，则阶$p$可比于$0 \leqslant p \leqslant k$；此外，关系$f \ll g$（分别$f \sim cg$）意味着$f^{(k)} \ll g^{(k)}$（分别$f^{(k)} \sim cg^{(k)}$）除非导数之一$g^{(p)}$（$0 \leqslant p \leqslant k - 1$）相当于常数$\neq 0$。
 
-事实上，由于$f^{(k)}$和$g^{(k)}$在区间$[x_0, +\infty[$上具有常数符号，因此$f^{(k-1)}$和$g^{(k-1)}$在该区间上是单调的，因此在$+\infty$的邻域上具有常数符号；此外，道具。 V、p. 232的7表明$f^{(k-1)}$和$g^{(k-1)}$具有可比性，因此推论来自应用命题。 7 递归。
+事实上，由于$f^{(k)}$和$g^{(k)}$在区间$[x_0, +\infty[$上具有常数符号，因此$f^{(k-1)}$和$g^{(k-1)}$在这个区间上是单调的，因此在$+\infty$的邻域上具有常数符号；此外，道具。 V、p. 232 的 7 表明 $f^{(k-1)}$ 和 $g^{(k-1)}$ 具有可比性，因此推论由应用命题得出。 7 递归。
 
 #### 注 1 {#fvr-v-s3-n4-rem-1 .statement tag=08FJ}
 
-限制在 $g$ 上。 7是必不可少的。对于例，有$\frac{1}{x} \ll 1 + \frac{1}{x}$甚至虽然，两边的导数是等价的；类似地$1 + \frac{1}{x} \sim 1 + \frac{1}{x^2}$，但是$1/x^2 \gg 2/x^3$。
+限制在 $g$ 上。 7是必不可少的。例如，有$\frac{1}{x} \ll 1 + \frac{1}{x}$甚至虽然，两边的导数是等价的；类似地$1 + \frac{1}{x} \sim 1 + \frac{1}{x^2}$，但是$1/x^2 \gg 2/x^3$。
 
 #### 注 2 {#fvr-v-s3-n4-rem-2 .statement tag=08FK}
 
@@ -235,11 +235,11 @@ $$
 
 #### 注 3 {#fvr-v-s3-n4-rem-3 .statement tag=08FL}
 
-如果 $f$ 和 $g$ 与阶 $k$ 具有可比性，那么对于 $hf$ 和 $hg$ 就不必如此，即使对于单调函数 $h$ 就像$h(x) = x$ (V, p. 260，练习3）；同样，$1/f$和$1/g$不一定与阶$k$具有可比性（V、p. 259，练习1）。
+如果 $f$ 和 $g$ 与阶 $k$ 具有可比性，那么对于 $hf$ 和 $hg$ 来说就不必如此，即使对于单调函数 $h$ 就像 $h(x) = x$ (V, p. 260，练习3）；同样，$1/f$和$1/g$不一定与阶$k$具有可比性（V，p. 259，练习1）。
 
-### 5. 基元的部分
+### 5. 原语的本金部分
 
-令 $f$ 为在区间 $[a, +\infty[$ 上具有常数符号的调节实数函数 $\neq 0$；如果$\int_a^{+\infty} f(t)\,dt$在某些情况下收敛，则以下命题允许获得原语$\int_a^{+\infty} f(t)\,dt$的本金部分，如果$\int_a^{+\infty} f(t)\,dt$是无限的，则可以获得原语$\int_a^x f(t)\,dt$的本金：
+设 $f$ 为调节实数函数 $\neq 0$，在区间 $[a, +\infty[$ 上具有常数符号；如果$\int_a^{+\infty} f(t)\,dt$在某些情况下收敛，则以下命题允许获得原语$\int_a^{+\infty} f(t)\,dt$的本金部分，如果$\int_a^{+\infty} f(t)\,dt$是无限的，则可以获得原语$\int_a^x f(t)\,dt$的本金：
 
 #### 命题 8 {#fvr-v-s3-prop-8 .statement tag=08FM}
 
@@ -257,7 +257,7 @@ F(x) \sim \frac{(f(x))^2}{|f'(x)|}.
 $$
 (2)
 
-人们应该注，假设意味着$f(x)$相对于$x$（V，p. 219）有一个确定的阶。
+应该注意的是，假设意味着$f(x)$相对于$x$（V，p. 219）有一个确定的阶。
 
 1 *如果* $f$ *属于阶* $\mu \neq 0$ *相对于* $x$ *一个有* $\log|f| \sim \mu \log x$，*所以，因为* $\log|f|$ *和* $\log x$ *可与阶* 1 进行比较，*通过道具。 7 个V，p. 232 其中一个有* $f'/f \sim$ μ/x，从而 $x f' \sim \mu f$。如果 $\mu > -1$ 对于每个 $\varepsilon > 0$ 都有 $f(x) \gg x^{\mu-\varepsilon}$，因而（V，p. 229，道具 2）整的 $\int_a^{+\infty} f(t)\,dt$ 是无限的。可以再写$F(x) = \int_a^x f(t)\,dt = x f(x) - af(a) - \int_a^x t f'(t)\,dt$、从而
 $$
@@ -279,7 +279,7 @@ $$
 $$
 从而建立关系 (2)。当$f$相对于$x$为阶$-\infty$时，证明是相似的，在$\int_a^{+\infty} f(t)\,dt$收敛的情况下。
 
-令 $\mathscr{E}$ 为比较尺度（对于趋向于 $+\infty$ 的实数 $x$），由非零的实数函数组成，其在 $+\infty$ 的邻域上具有恒定符号，使得 $x \in \mathscr{E}$ 且使得乘积和 2 的商函数再次从$\mathscr{E}$属于到$\mathscr{E}$（V、p. 221和p. 224）。如果函数$f$在$+\infty$的邻域上具有常量符号，相对于$\mathscr{E}$有一个本金部分$c g$，则$\int_x^{+\infty} f(t)\,dt$（根据情况分别为$\int_a^x f(t)\,dt$）将等于$c \int_x^{+\infty} g(t)\,dt$ （分别$c \int_a^x g(t)\,dt$）；如果函数 $g$ 满足 prop 的假设。 V、p. 233 的 8，并且如果（当V、p. 233 的公式 (2) 适用时）已知相对于 $g'$ 的本金部分相对于 $\mathscr{E}$，则将拥有本金部分 $\int_x^{+\infty} f(t)\,dt$（分别为$\int_a^x f(t)\,dt$）相对于$\mathscr{E}$。
+令 $\mathscr{E}$ 为比较尺度（对于趋向于 $+\infty$ 的实数 $x$），由非零的实数函数组成，其在 $+\infty$ 的邻域上具有恒定符号，使得 $x \in \mathscr{E}$ 并且使得乘积和商为两个函数再次从$\mathscr{E}$属于到$\mathscr{E}$（V、p. 221和p. 224）。如果函数$f$在$+\infty$的邻域上具有常量符号，相对于$\mathscr{E}$有一个本金部分$c g$，则$\int_x^{+\infty} f(t)\,dt$（根据情况分别为$\int_a^x f(t)\,dt$）将等于$c \int_x^{+\infty} g(t)\,dt$ （分别$c \int_a^x g(t)\,dt$）；如果函数 $g$ 满足 prop 的假设。 V、p. 233 中的 8，并且如果（当V、p. 233 中的公式 (2) 适用时）已知相对于 $g'$ 的本金部分相对于$\mathscr{E}$，则将拥有本金部分 $\int_x^{+\infty} f(t)\,dt$（分别为$\int_a^x f(t)\,dt$）相对于$\mathscr{E}$。
 
 #### 例 1 {#fvr-v-s3-n5-exa-1 .statement tag=08FN}
 
@@ -299,17 +299,17 @@ $$
 
 #### 注 {#fvr-v-s3-n5-rem-1 .statement tag=08FP}
 
-提案 8 并不直接适用于阶 $-1$ 相对于 $x$ 的函数 $f$。但是，我们可以写 $f(x) = f_1(x)/x$，其中 $f_1$ 相对于 $x$ 为阶 0。假设，对于例，$\int_a^{+\infty} f(t)\,dt$是无限的；那么
+提案 8 并不直接适用于阶 $-1$ 相对于 $x$ 的函数 $f$。但是可以写 $f(x) = f_1(x)/x$，$f_1$ 相对于 $x$ 为阶 0。例如，假设 $\int_a^{+\infty} f(t)\,dt$ 是无限的；然后
 
 $$
 F(x) = \int_a^x f(t)\,dt = \int_a^x \frac{1}{t} f_1(t)\,dt = \int_{\log a}^{\log x} f_1(e^u)\,du.
 $$
 
-如果函数 $f_1(e^t)$ 满足 prop 的假设。 8 并且相对于$y$有阶$\neq -1$（也就是说，如果$f_1(x)$相对于$\log x$有阶$\neq -1$）公式（1）和（2）再次允许我们获得本金部分 $F(x)$。对于例，设$f(x) = \frac{\exp(\sqrt{\log x})}{x \log x}$；因为$\exp(\sqrt{\log x})$相对于$x$来说是阶0，所以$f$是阶$-1$；这里有一个$f_1(e^t) = e^{\sqrt{t}}/y$，这个函数相对于$y$来说是阶$+\infty$；支柱。 8 应用并给出$\int_a^x e^{\sqrt{u}}/u\,du \sim 2e^{\sqrt{y}}/\sqrt{y}$：恢复到变量$x$，我们有$\int_a^x \frac{\exp(\sqrt{\log t})}{t \log t}\,dt \sim \frac{2\exp(\sqrt{\log x})}{\sqrt{\log x}}$。
+如果函数 $f_1(e^t)$ 满足 prop 的假设。 8 并且相对于$y$有阶$\neq -1$（也就是说，如果$f_1(x)$相对于$\log x$有阶$\neq -1$）公式（1）和（2）再次允许我们获得本金部分 $F(x)$。例如，令 $f(x) = \frac{\exp(\sqrt{\log x})}{x \log x}$；因为$\exp(\sqrt{\log x})$相对于$x$是阶0，$f$是阶$-1$；这里有 $f_1(e^t) = e^{\sqrt{t}}/y$，而这个函数相对于 $y$ 是阶 $+\infty$；支柱。 8 应用并给出$\int_a^x e^{\sqrt{u}}/u\,du \sim 2e^{\sqrt{y}}/\sqrt{y}$：恢复到变量$x$，我们有$\int_a^x \frac{\exp(\sqrt{\log t})}{t \log t}\,dt \sim \frac{2\exp(\sqrt{\log x})}{\sqrt{\log x}}$。
 
 ### 6. 原语的渐近展开
 
-令$\mathscr{E}$为$+\infty$与邻域的比较标尺，由$+\infty$的邻域上的常号实数函数$\neq 0$组成；设 $\mathbf{f}$ 是在区间 $[a,\,+\infty[$ 上定义的受规向量函数，其中值位于完全规范的空间 $E$ 中，承认渐近展开
+令$\mathscr{E}$为$+\infty$与邻域的比较标尺，由$+\infty$的邻域上的常号实数函数$\neq 0$组成；设$\mathbf{f}$是定义在区间$[a,\,+\infty[$上的受规向量函数，其中值位于完全规范的空间$E$中，承认渐近展开
 
 $$
 \mathbf{f} = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda + \mathbf{r}_\alpha
@@ -337,9 +337,9 @@ $$
 \sum_{\lambda < \beta} a_\lambda \int_a^\lambda g_\lambda(t) \, dt + C - \sum_{\beta \leq \lambda \leq \alpha} a_\lambda \int_\lambda^{+\infty} g_\lambda(t) \, dt
 $$
 
-对于精度$g_\rho$，结果将是$F$到精度$g_{\min(\rho, \sigma)}$的渐近展开。
+对于精度 $g_\rho$，结果将是 $F$ 到精度 $g_{\min(\rho, \sigma)}$ 的渐近展开。
 
-因此，这一切都相当于找到关于 * $\mathscr{E}$ 中函数的基元的 $\mathscr{E}$ 的渐近展开。我们已经看到，根据 $\mathscr{E}$ 的某些假设，道具。 V、p. 233的8给出了这样一个原语的本金部分。此外，道具的证明。 8 给出了函数 $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$（分别为 $f(x) g'(x)$ 和 $g = f/f'$）基元的形式中 V、p. 233 的公式 (1)（分别为 (2)）两侧的差值表达式；在形成这个新原语的主部分时，作为（1）（或（2））右侧的渐近展开，我们获得了所寻求的展开的右侧（参见V，p. 247-255）。
+因此，这一切都相当于找到关于 * $\mathscr{E}$ 中函数的原语 $\mathscr{E}$ 的渐近展开。我们已经看到，根据 $\mathscr{E}$ 的某些假设，道具。 V、p. 233的8给出了这样一个原语的本金部分。此外，道具的证明。 8 给出了函数 $\frac{1}{|\mu + 1|} (x f'(x) + f(x)) - f(x)$（分别为 $f(x) g'(x)$ 和 $g = f/f'$）基元的形式中 V、p. 233 的公式 (1)（分别为 (2)）两侧的差值表达式；在形成这个新原语的主体部分时，作为 (1) （或 (2)）右侧的渐近展开，我们获得了所寻求的展开的右侧（参见 V、p. 247-255）。
 
 #### 例 1 {#fvr-v-s3-n6-exa-1 .statement tag=08FQ}
 
@@ -350,7 +350,7 @@ $$
 + \frac{2x}{(\log x)^3} + \cdots + (n-1)! \frac{x}{(\log x)^n} + o \left( \frac{x}{(\log x)^n} \right).
 $$
 
-注，无论$n$如何，这个展开的所有项都倾向于$+\infty$和$x$。
+请注意，无论$n$如何，此展开的所有项都倾向于$+\infty$和$x$。
 
 #### 例 2 {#fvr-v-s3-n6-exa-2 .statement tag=08FR}
 

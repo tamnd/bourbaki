@@ -34,29 +34,29 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 9ab7b7886737446ca53002e227a4797c7a05c5430125796af8e516280c57d01e
+content_sha256: b9f015624a2100197efe578dac358185d62c4b0d38e8edf31e714928783be6cd
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
 translation_method: google
 source_content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 74c3527833fd50da04d044511b2c33f55246c1eeb31132caa20fb7c8c6365b20
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 5。标量的环的扩张
+## § 5。标量环的扩张
 
-### 1. 模标量的环的扩张
+### 1. 模标量环扩张
 
 设$A, B$为两个环和$\rho : A \to B$环同态；我们考虑由这个同态（$§ 1$，no. 13）定义的正确$A$模块$\rho^*(B_d)$；这个$A$模块也有一个左$B$模块结构，即$B_s$的结构，并且，正如$B$中$a \in A, b, b'$的$b'(b\rho(a)) = (b'b)\rho(a)$一样，$B$上的这两个模结构是兼容的（$§ 1$，no. 14）。这允许我们，对于每个左$A$-模块$E$，到定义张量积$\rho_*(B_d) \otimes_A E$上的左$B$-模块结构，使得$B$和$x \in E$中的$\beta, \beta'$有$\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ （$§ 3$，no. 3）。这个左$B$模块据说是通过$\rho$*将标量的环扩展到$B$*从$E$派生出来的，如果不引起混淆的话，它用$\rho^*(E)$或$E_{(B)}$表示。
 
 #### 命题 1 {#alg-ii-s5-prop-1 .statement tag=05QD}
 
-*对于每个左$A$-模块$E$，$E$的映射$\phi : x \mapsto 1 \otimes x$进入$A$-模块$\rho_*(\rho^*(E))$是$A$线性和集合$\phi(E)$生成 $B$-模块$\rho^*(E)$。此外，对于$E$到$A$-模块$\rho_*(F)$的每个左$B$-模块$F$和每个$A$-线性映射$f$，存在且仅有一个$B$-线性映射$\bar{f}$ $\rho^*(E)$ 转换为 $F$，这样 $\bar{f}(1 \otimes x) = f(x)$ 对于所有 $x \in E$。*
+*对于每个左$A$-模块$E$，$E$的映射$\phi : x \mapsto 1 \otimes x$进入$A$-模块$\rho_*(\rho^*(E))$是$A$线性和集合$\phi(E)$生成 $B$-模块$\rho^*(E)$。此外，对于每个左$B$-模块$F$和$E$的每个$A$-线性映射$f$到$A$-模块$\rho_*(F)$，存在一个且仅有一个$B$-线性映射$\bar{f}$ $\rho^*(E)$ 变为 $F$，这样 $\bar{f}(1 \otimes x) = f(x)$ 对于所有 $x \in E$。*
 
-$B$可以通过$\rho$被视为$(B, A)$双模；那么有一个规范的 $\mathbf{Z}$-模块同构
+$B$可以通过$\rho$视为$(B, A)$双模；那么有一个规范的 $\mathbf{Z}$-模块同构
 
 (1)
 $$
@@ -78,15 +78,15 @@ $$
 
 #### 注 {#alg-ii-s5-n1-rem-1 .statement tag=05QE}
 
-(1) 命题 1 表明$E_{(B)}$和$\phi_E$的有序对由……组成是普遍映射问题的解（集合理论，IV, § 3, no. 1），其中$\Sigma$是左B-模结构的类（态射是B-线性映射），$\alpha$-映射是E到B-模的A-线性映射。
+(1) 命题 1 表明$E_{(B)}$和$\phi_E$的有序对由……组成是普遍映射问题的解(集合理论，IV, § 3, no. 1)，其中$\Sigma$是左B-模结构的类（态射是B-线性映射），$\alpha$映射是E到B-模的A-线性映射。
 
 (2) 如果 E 是$(A, (C'_i); (D'_j))$-多模且 F 是$(B, (C''_h); (D''_k))$-多模，则同构 (2) 相对于两侧的 $((D'_j, (C''_h); (C'_i), (D''_k))$-多模结构（$§ 1$、no. 14 和 $§ 3$、no. 4）是线性的。
 
-(3) 设E为左A-模，$a$A的双面理想，$\rho : A \to A/a$典范同态。在$§ 3$、no. 6的记号中，推论2到命题6，A-模$E/aE$被$a$湮灭，因此具有规范的左$(A/a)$模块结构（$§ 1$， no. 12); $§ 3$、no. 6中定义的典范映射、$\pi : \rho^*(E) \to E/aE$是直接的，对于$(A/a)$模块结构，推论2到命题6是同构。
+(3) 设E为左A-模，$a$A的双面理想，$\rho : A \to A/a$典范同态。在$§ 3$、no. 6、推论 2 到命题 6 的记号中，A-模$E/aE$被$a$湮灭，因此具有规范的左$(A/a)$模块结构（$§ 1$，no. 12）； $§ 3$、no. 6、推论 2 到命题 6 中定义的典范映射 $\pi : \rho^*(E) \to E/aE$ 是直接的，对于$(A/a)$ 模块结构来说是同构。
 
 #### 推论{#alg-ii-s5-n1-cor-1 .statement tag=05QF}
 
-*设E、E'为二左A-模；对于每个A-线性映射$u : E \to E'$，$v = l_B \otimes u$是唯一的B-线性映射，它呈现可交换的图表*
+*设E、E'为两个左A-模；对于每个A-线性映射$u : E \to E'$，$v = l_B \otimes u$是唯一的B-线性映射，它呈现可交换的图表*
 
 $$
 \begin{array}{ccc}
@@ -109,7 +109,7 @@ $$
 (v \circ u)_{(B)} = v_{(B)} \circ u_{(B)}.
 $$
 
-扩展模运算符的环是*传递* 运算；准确地说：
+扩展模运算符的环是*传递*运算；准确地说：
 
 #### 命题 2 {#alg-ii-s5-prop-2 .statement tag=05QG}
 
@@ -129,7 +129,7 @@ $$
 (C \otimes_B B) \otimes_A E \to C \otimes_A E
 $$
 
-is obtained and, composing it with 同构
+得到，并与同构组合
 
 $$
 C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E
@@ -157,7 +157,7 @@ $$
 
 *设E为A-模，承认基*$(a_\lambda)_{\lambda \in L}$； *如果*$\phi : x \mapsto 1 \otimes x$*是E的典范映射到*$\rho^*(E)$，*那么*$(\phi(a_\lambda))_{\lambda \in L}$*是*$\rho^*(E)$的基。 *如果* $\rho$ *是单射的，那么* $\phi$ 也是。
 
-第一个断言紧随§ 3, no. 7，推论1到命题7。此外，对于有限支撑A的元素的每个家庭$(\xi_\lambda)_{\lambda \in L}$，
+第一个断言紧接着从§ 3, no. 7、推论1到命题7。此外，对于有限支撑A的元素的每个家庭$(\xi_\lambda)_{\lambda \in L}$，
 
 $$
 \phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = \sum_{\lambda \in L} \rho(\xi_\lambda) \phi(a_\lambda)
@@ -165,19 +165,19 @@ $$
 
 因此，对于所有 $\lambda \in L$，关系 $\phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = 0$ 等价于 $\rho(\xi_\lambda) = 0$，从而第二个断言。
 
-#### 推论{#alg-ii-s5-n1-cor-2 .statement tag=05QJ}
+#### 推论 {#alg-ii-s5-n1-cor-2 .statement tag=05QJ}
 
-*对于每个射影 A-模 E，B-模* $\rho^*(E)$ *都是射影。如果进一步* $\rho$ *是单射的，则 E 的典范映射到* $\rho^*(E)$ *是单射的。*
+*对于每个射影 A-模 E，B-模* $\rho^*(E)$ *都是射影。如果进一步* $\rho$ *是单射的，则 E 的典范映射进入* $\rho^*(E)$ *是单射的。*
 
-假设存在自由A-模 M 包含 E，其中 E 承认补充 F。 紧随§ 3, no. 7、命题 7，$M_{(B)}$ 与 $E_{(B)}$ 和 $F_{(B)}$ 的直和等同，并且如果$\phi$和$\psi$是典范映射$E \to E_{(B)}$和$F \to F_{(B)}$，典范映射$M \to M_{(B)}$只是$x + y \mapsto \phi(x) + \psi(y)$。将命题 4 应用于 A-模 M 立即得出推论。
+假设存在自由A-模 M 包含 E，其中 E 承认补充 F。 紧随§ 3, no. 7、命题 7，$M_{(B)}$ 与 $E_{(B)}$ 和 $F_{(B)}$ 的直和等同，并且如果$\phi$和$\psi$是典范映射$E \to E_{(B)}$和$F \to F_{(B)}$，典范映射$M \to M_{(B)}$只是$x + y \mapsto \phi(x) + \psi(y)$。 推论紧随命题 4 应用于 A-模 M。
 
 当 E 为右A-模时，我们类似地写为 $\rho^*(E) = E \otimes_A \rho_*(B_s)$，此时 B 被视为 (A, B) 双模，并且 $\rho^*(E)$ 上的右B-模结构使得 $(x \otimes \beta)\beta' = x \otimes (\beta\beta')$ 对于 $\beta \in B' \ \beta' \in B$ 和 $x \in E$。我们留给读者的任务是，将右模的结果相应的说明为该编号的结果。以及以下内容。
 
-注 (4)。考虑由 $\rho$ 定义的左A-模 $\rho_*(B_s)$，对于每个左A-模 E，考虑 $\mathbf{Z}$ 模块
+注 (4)。考虑由$\rho$定义的左A-模$\rho_*(B_s)$，对于每个左A-模E，考虑$\mathbf{Z}$-模块
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-由于$\rho_*(B_s)$有右B-模结构，左B-模结构是在$\tilde{\rho}(E)$（§ 1, no. 14）上导出的，因此，如果$u \in \tilde{\rho}(E)$和$b' \in B$，$b'u$是同态将$\rho_*(B_s)$的$b \mapsto u(bb')$转化为E。我们进一步将定义A-线性映射，称为规范
+由于$\rho_*(B_s)$有右B-模结构，左B-模结构是在$\tilde{\rho}(E)$（§ 1, no. 14）上导出的，因此，如果$u \in \tilde{\rho}(E)$和$b' \in B$，则$b'u$是同态将$\rho_*(B_s)$的$b \mapsto u(bb')$转化为E。我们进一步将定义A-线性映射，称为规范
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -185,7 +185,7 @@ $$
 $$
 \operatorname{Hom}_A(\rho_*(B_s) \otimes_B F, E) \to \operatorname{Hom}_B(F, \operatorname{Hom}_A(\rho_*(B_s), E))
 $$
-（§ 1, no. 1，命题1）。由于左A-模 $\rho^*(B_s) \otimes_B F$ 凭借 § 3, no. 4、命题 4 被规范地识别为 $\rho_*(F)$，因此我们获得规范的 $\mathbf{Z}$-模块同构，即上述的逆
+（§ 1, no. 1，命题1）。由于左A-模$\rho^*(B_s) \otimes_B F$凭借§ 3, no. 4、命题4被规范地识别为$\rho_*(F)$，我们获得规范的$\mathbf{Z}$-模同构，即上述的逆
 $$
 \operatorname{Hom}_B(F, \tilde{\rho}(E)) \to \operatorname{Hom}_A(\rho_*(F), E)
 $$
@@ -194,9 +194,9 @@ $$
 \tilde{\sigma}(\tilde{\rho}(E)) \to (\sigma \circ \rho)^*(E).
 $$
 
-### 2. 标量的环的关系介于限制和扩张之间
+### 2. 标量环的限制和扩张之间的关系
 
-设$\rho : A \to B$为环同态。对于每个左A-模 E，一个规范的 A-线性映射
+令$\rho : A \to B$为环同态。对于每个左A-模 E，一个规范的 A-线性映射
 $$
 \phi_E : E \to \rho_*(\rho^*(E))
 $$
@@ -222,13 +222,13 @@ $$
 
 *分别等于$\rho^*(E)$和$\rho_*(F)$的恒等映射。*
 
-我们给出证明，对于例，对于(12)；对于所有 $x \in E$、映射 $\rho^*(\phi_E)$ 映射 $1 \otimes x$ 至元素 $1 \otimes (1 \otimes x)$ 和映射 $\psi_{\rho^*(E)}$ 映射 $1 \otimes (1 \otimes x)$ 至元素 $1 \otimes x$；结论是根据形式$1 \otimes x$生成B-模$\rho^*(E)$的元素得出；对于 (13) 来说证明更简单。
+例如，对于 (12)，我们给出证明；对于所有 $x \in E$、映射 $\rho^*(\phi_E)$ 映射 $1 \otimes x$ 至元素 $1 \otimes (1 \otimes x)$ 和映射 $\psi_{\rho^*(E)}$ 映射 $1 \otimes (1 \otimes x)$ 至元素 $1 \otimes x$；结论是根据形式$1 \otimes x$生成B-模$\rho^*(E)$的元素得出；对于 (13) 来说证明更简单。
 
 #### 推论 {#alg-ii-s5-n2-cor-1 .statement tag=05QL}
 
 *映射 $\rho^*(\phi_E)$ 和 $\phi_{\rho_*(F)}^*$ 是单射，分别是认同 $\rho^*(E)$ 与直因子的 $\rho^*(\rho_*(\rho^*(E)))$ 和 $\rho_*(F)$ 与直因子的 $\rho_*(\rho^*(\rho_*(F)))$。*
 
-这是命题 5 和 § 1, no. 9 的推论，推论 2 到命题 15。
+这是命题 5 和§ 1, no. 9、推论 2 到命题 15 中的推论。
 
 #### 命题 6 {#alg-ii-s5-prop-6 .statement tag=05QM}
 
@@ -248,7 +248,7 @@ $$
 \rho_*(F) \otimes_A E \to \rho_*(F \otimes_B \rho^*(E)).
 $$
 
-### 3. 扩张环同态模运营商
+### 3. 同态模运营商环扩张
 
 令 $A$ 为*可交换* 环、$B$ 环、$\rho : A \to B$ 环同态和 $E, F$ 两个 $A$ 模块；由于$B$是一个$(A, A)$双模（通过$\rho$）并且$F$可以被认为是一个$(A, A)$-双模，因此在$\mathbf{Z}$-模块上有$B \otimes_A F$*两个*$A$-模块结构，其下分别$a(b \otimes y) = (\rho(a)b) \otimes y$ 和 $a(b \otimes y) = b \otimes (ay)$ 对应 $a \in A,\ b \in B,\ y \in F$。我们将用$G'$和$G''$来表示这样定义的两个$A$模块；而且$G'$只是$A$模块$\rho_*(\rho^*(F))$。
 
@@ -290,7 +290,7 @@ $$
 
 由于 (16) 是双射，命题由 § 4, no. 2 推出。 命题 2，应用于典范同态 (15)。
 
-### 4. 由扩张标量获得的模的双重
+### 4. 通过扩张标量获得模的对偶
 
 设 A、B 为两个环、$\rho : A \to B$ 环同态，E 左A-模且 E* 为对偶。我们将定义一个规范的 B-*线性* 映射
 

@@ -29,19 +29,19 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: f654bc4413f1ba5b1396e2c6ddf8a9a25457209afe0d97538d6819e9d42711be
+content_sha256: 2a3f5586671f56f282ed10c26ce4d2d88df9e89ba37b30f0419e49d167b6f6cc
 translated_from: content/en/int/V/01_s1_essential_upper_integral.md
 translation_method: google
 source_content_sha256: d19dbe1131a1bb0064d0db8332b6983acb2090fbcf25d4ea5abb63e1585fb1b0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8bd09ecd58a57e5e4890eb536e598cbf224a76f7383514d4fdc39a75447f70a9
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。基本上衣整体
+## § 1。基本上积分
 
 ### 1. 本质上积分的定义
 
@@ -114,7 +114,7 @@ $$
 
 #### 命题 3 {#int-v-s1-prop-3 .statement tag=08ZS}
 
-*对于每个有限的数$\alpha \geq 0$和$\mathbf{T}$上的每个对措施$\mu, \nu$，
+*对于$\mathbf{T}$上的每个有限数$\alpha \geq 0$和每个对措施$\mu, \nu$，
 
 $$
 (\alpha \mu)^\bullet = \alpha \mu^\bullet \\
@@ -144,7 +144,7 @@ c) *集合* $A$ *包含在紧集的序列并和a*$\mu$*-可忽略的集合*。
 
 #### 定义 2 {#int-v-s1-def-2 .statement tag=08ZV}
 
-—*$T$*的*子集*如果满足命题5*的等价条件，则称为*$\mu$*-调节。 *函数定义在* $T$上，*在向量空间或* $\overline{\mathbf{R}}$中使用值，*如果它是零在a* $\mu$*-调节的补码上，则被认为是* $\mu$*-调节子集*$T$。 *测量* $\mu$ *如果* $T$ *是* $\mu$*-调节集合*，则据说是经过调节的。
+—*$T$*的*子集*被称为*$\mu$*-调节，如果它满足命题5*的等效条件。 *函数定义在* $T$上，*在向量空间或* $\overline{\mathbf{R}}$中使用值，*如果它是零在a* $\mu$*-调节的补码上，则称为* $\mu$*-调节子集*$T$。 *测量* $\mu$ *如果* $T$ *是* $\mu$*-调节集合*，则据说是经过调节的。
 
 如果$\mu$是调节措施，则$T$上的每个函数都是$\mu$调节，$T$的每个子集都是$\mu$调节。
 
@@ -276,7 +276,7 @@ $$
 
 相反，假设$\mu^\bullet(|f|^p) < +\infty$；则存在一个经过调节的集合 A，使得 f 在 T − A 中几乎所有地方都局部为零（命题 7）。 函数 $f \varphi_A$，几乎在任何地方都等于 f，使得 $N_p(f \varphi_A) = \overline{N}_p(f) < +\infty$，因此它属于到 $\mathscr{F}_F^p$，以及 $f \in \overline{\mathscr{F}}_F^p$。
 
-#### 推论{#int-v-s1-n3-cor-1 .statement tag=0904}
+#### 推论 {#int-v-s1-n3-cor-1 .statement tag=0904}
 
 *对于f到属于到$\mathscr{L}_F^p$，f属于到$\overline{\mathscr{L}}_F^p$是必要且充分的并且被调节。*
 
@@ -286,13 +286,13 @@ $$
 
 几乎处处局部相等的两个本质上可积函数具有相同的积分。对于每个有限且本质上可积的函数$f \geq 0$，$\int^\bullet f d\mu = \int f d\mu$。如果 A 是集合，其特征函数本质上可积，则 A 被称为 *本质上 $\mu$ 可积集合*； $\int \varphi_A d\mu$ 也表示为 $\mu(A)$，再次称为 A 的*度量*。
 
-If a function $f$, with values in $F$, is defined locally almost everywhere in $T$, we again say that $f$ is *essentially integrable* if it is equal, locally almost everywhere, to a function $f_1$ that is everywhere defined and integrable; we then set
+如果一个函数$f$，其值在$F$，几乎在$T$中的任何地方都被本地定义，那么我们再次说$f$是*本质上可积的*，如果它几乎在任何地方都等于一个在任何地方定义和可积的函数$f_1$；然后我们设置
 $$
 \int f\, d\mu = \int f_1\, d\mu,
 $$
-and this definition is independent of the integrable function $f_1$ everywhere defined and equal locally almost everywhere to $f$ (Lemma). One defines similarly the notion of essentially integrable function for functions with values in $\overline{\mathbf{R}}$ that are defined and finite locally almost everywhere.
+并且这个定义与处处定义的可积函数$f_1$无关，并且几乎处处局部等于$f$（引理）。 对于具有 $\overline{\mathbf{R}}$ 值的函数，我们可以类似地定义本质上可积函数的概念，这些函数几乎在任何地方都被定义为局部有限的。
 
-读者将毫无困难地将第 1 章的结果扩展到本质上可积函数。 IV, §4 代表可积函数，替换叙述中的“几乎无处不在”，由“本地几乎无处不在”。我们注为了例不等式
+读者将毫无困难地将第 1 章的结果扩展到本质上可积函数。 IV, §4 代表可积函数，替换叙述中的“几乎无处不在”，由“本地几乎无处不在”。例如我们注意到不等式
 $$
 \left| \int f\, d\mu \right| \leq \int |f|\, d\mu,
 $$

@@ -12,16 +12,16 @@ pdf_pages: 0006-0007
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 310c6966b98c37f7265c00e1d6a0c3fc887961aa7234371ccd15303884e5d8d7
+content_sha256: 0618be4057d374e77e36eef680eb6153a65ef18221ea9026e77aa1101e80397e
 translated_from: content/en/lie/00_introduction.md
 translation_method: google
 source_content_sha256: 6039920d984a1193244721622035fbdcfccd3343c37bff11d7a710933b56f4fb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 1e7442fc6eb462da48ef7be807ad9d17b90bc0f51ebcdf0af828a00e47451f3b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 章 IV、V 和 VI 简介
@@ -40,12 +40,12 @@ II。令$G$为半单连接紧实李群，并令$g$为其李代数。令$T$为$G$
 
 N 在 T 定义同构上从群 N/T 到 R 的 Weyl 群。我们有 P(R) ⊃ X ⊃ Q(R)；此外，如果 G 是单连通的，则 X = P(R)，如果 G 约化到单位元素的中心，则 X = Q(R)。
 
-$g$的复数李代数$g_{(C)}$是半单，$t_{(C)}$是它的嘉当子代数。 There exists a canonical isomorphism from $V_{(C)}$ to the dual of $t_{(C)}$ that transforms R into the root system of $g_{(C)}$ with respect to $t_{(C)}$.
+$g$的复数李代数$g_{(C)}$是半单，$t_{(C)}$是它的嘉当子代数。 存在从 $V_{(C)}$ 到 $t_{(C)}$ 对偶的规范同构，将 R 变换为 $g_{(C)}$ 相对于 $t_{(C)}$ 的根系。
 
 III。设 G 是交换域 $k$ 上的连通半单代数群。令 T 为 G 分裂的的环面集合 $k$ 的极大元素，并令X 为 T 的特征标群（从 T 到乘法群同态）。我们认同X与真实向量空间$V = X \otimes_{\mathbf{Z}} \mathbf{R}$中的格子。 G 的根相对于 T 是 X 的非零元素 $\alpha$，因此对于所有 $t \in T$，存在 G 的李代数 $g$ 的非零元素 $x$，其中$(\mathrm{Ad}\, t).x = \alpha(t)x$。这给出了 V 中的根系 R，它不一定被约简。设 N 为 G 中 T 的归一化器，Z 为 T 的中心化器，并令 $N(k)$ 和 $Z(k)$ 为它们在 $k$ 上的有理点的群。 T 定义同构从 $N(k)/Z(k)$ 到 R 的 Weyl 群上的 $N(k)$ 作用。
 
 令U为G的单能子群的集合的极大元素，在$k$上定义并由Z归一化。放置$P = Z.U$。然后是$P(k) = Z(k).U(k)$和$P(k) \cap N(k) = Z(k)$。而且，存在R的基$(\alpha_1, \ldots, \alpha_n)$，使得U中T的权是R对于这个基的正根；如果S表示$N(k)/Z(k)$的元素的集合，即对应，通过上面定义的同构，到与根$\alpha_i$相关的对称性$s_{\alpha_i} \in W(R)$，则四元数$(G(k), P(k), N(k), S)$是山雀系统。
 
-IV。在局部域上的半单代数群的理论中，遇到Tits系统，其Weyl群是根系的仿射Weyl群。对于例，令$G = \mathbf{SL}(n+1, \mathbf{Q}_p)$（与$n \geq 1$）。设 B 为矩阵 $(a_{ij}) \in \mathbf{SL}(n+1, \mathbf{Z}_p)$ 的群，使得 $i < j$ 为 $a_{ij} \in p\mathbf{Z}_p$，并令 N 为矩阵的 G 由……组成的子群，每一行中只有一个非零元素和列。那么存在 $N/(B \cap N)$ 的子集 S，使得四元数 $(G, B, N, S)$ 是 Tits 系统。 群$W = N/(B \cap N)$是型$A_n$的根系的仿射Weyl群；这是一个无限 Coxeter 群。
+IV。在局部域上的半单代数群的理论中，遇到Tits系统，其Weyl群是根系的仿射Weyl群。例如，设 $G = \mathbf{SL}(n+1, \mathbf{Q}_p)$（与 $n \geq 1$）。设 B 为矩阵 $(a_{ij}) \in \mathbf{SL}(n+1, \mathbf{Z}_p)$ 的群，使得 $i < j$ 为 $a_{ij} \in p\mathbf{Z}_p$，并令 N 为矩阵的 G 由……组成的子群，每一行中只有一个非零元素和列。那么存在 $N/(B \cap N)$ 的子集 S，使得四元数 $(G, B, N, S)$ 是 Tits 系统。 群$W = N/(B \cap N)$是型$A_n$的根系的仿射Weyl群；这是一个无限 Coxeter 群。
 
 在准备这些章的过程中，与 J. Tits 的多次交谈为我们提供了宝贵的帮助。我们非常诚挚地感谢他。

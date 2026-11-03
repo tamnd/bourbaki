@@ -33,16 +33,16 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: 467b239b06088655fc36961333af8bbbc9f8586c4cef2a3352cc4545b5889209
+content_sha256: 7c5c5daa5338839c775ff58cd27e01d6b1ade628ad976b5e8fc54f6faf03b2dd
 translated_from: content/en/evt/III/05_s5_hypocontinuous_bilinear_mappings.md
 translation_method: google
 source_content_sha256: eefe4b53c6330aa7a5e81cb0b9c60f3b12b31b2df9f7ff14d5388452b92097de
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 87055b941e0f681b92a33d82b9cae35bcc8817fb7db63b6774b9de3b528ed394
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 5。次连续双线性映射
@@ -65,7 +65,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 从$E \times F$到$G$的单独连续双线性映射不一定在$E \times F$上连续（III，p. 47，练习2；cf.，但是III，p. 30和IV， p. 26，第 2)。
 
-The notion of a separately continuous bilinear *form* on a product $E_1 \times E_2$ of two locally convex spaces is directly related to that of a continuous linear mapping when $E_1$ and $E_2$ are assigned the *weak* topologies (II, p. 42), Suppose that $(E_1, F_1)$ and $(E_2, F_2)$ are two pairs of real (resp. complex) vector spaces in separating duality (*loc. cit.*); we assign to $E_i$ (resp. $F_i$) the weak topology $\sigma(E_i, F_i)$ (resp. $\sigma(F_i, E_i)$) for $i = 1, 2$, and denote by $B(E_1, E_2)$ the vector space of separately *continuous* bilinear forms on $E_1 \times E_2$. 应用道具。 1 对于$G = K$的情况，我们看到，对于每个双线性形式$\Phi \in B(E_1, E_2)$和每个$x_2 \in E_2$，映射$x_1 \mapsto \Phi(x_1, x_2)$是$E_1$上的连续线性形式，因此（II，p. 43，道具3）存在一个元素，并且只有一个$^d\Phi(x_2) \in F_1$使得
+当$E_1$和$E_2$被分配*弱*拓扑（II，p. 42）时，两个局部凸空间的乘积$E_1 \times E_2$上的单独连续双线性*形式*的概念与连续线性映射的概念直接相关，假设$(E_1, F_1)$和$(E_2, F_2)$是两对实数（或复数）向量分隔二元性的空格（*loc.cit.*）；我们将$i = 1, 2$的弱拓扑$\sigma(E_i, F_i)$（或$\sigma(F_i, E_i)$）分配给$E_i$（或$F_i$），并用$B(E_1, E_2)$表示$E_1 \times E_2$上单独*连续*双线性形式的向量空间。 应用道具。 1 对于$G = K$的情况，我们看到，对于每个双线性形式$\Phi \in B(E_1, E_2)$和每个$x_2 \in E_2$，映射$x_1 \mapsto \Phi(x_1, x_2)$是$E_1$上的连续线性形式，因此（II，p. 43，道具3）存在一个元素，并且只有一个$^d\Phi(x_2) \in F_1$使得
 
 $$
 \Phi(x_1, x_2) = \langle x_1, ^d\Phi(x_2) \rangle
@@ -90,7 +90,7 @@ s & / & d \\
 \end{array}
 $$
 
-其中 $t$ 是转置的同构（II、p. 46、命题 5 和推论）。鉴于$F_1$和$F_2$上的弱拓扑定义，当$B(E_1, E_2)$、$\mathscr{L}(E_1; E_2)$、$\mathscr{L}(E_2; F_1)$被赋值为简单收敛*拓扑时，直接的为直接的，图表(3)的同构为拓扑向量空间同构*。
+其中 $t$ 是转置的同构（II、p. 46、第 5 条和推论）。鉴于$F_1$和$F_2$上的弱拓扑定义，当$B(E_1, E_2)$、$\mathscr{L}(E_1; E_2)$、$\mathscr{L}(E_2; F_1)$被赋值为简单收敛*拓扑时，直接的为直接的，图表(3)的拓扑为同构向量空间同构*。
 
 ### 2. Fréchet 空间乘积上的单独连续双线性映射
 
@@ -104,9 +104,9 @@ $$
 
 — 令 E 和 F 为两个 Fréchet 空间，G 为局部凸空间。从 $E \times F$ 到 G 的每个单独连续双线性映射都是连续的。
 
-事实上，每颗 Fréchet 空间都是桶装的（III、p. 25，推论）。
+事实上，每支 Fréchet 空间都经过桶装（III、p. 25、推论）。
 
-令 E 和 F 为两个局部凸空间。我们用$\mathscr{B}(E, F)$表示$E \times F$上连续双线性形式的空间，拓扑在形式$A \times B$的集合上一致收敛，其中A（或B）有界于E（或F）。 公式
+令 E 和 F 为两个局部凸空间。我们使用$\mathscr{B}(E, F)$表示$E \times F$上连续双线性形式的空间，拓扑一致收敛于形式$A \times B$的集合上，其中A（或B）在E（或F）中有界。 公式
 $$
 u(x, y) = \langle y, \phi(u)(x) \rangle
 $$
@@ -114,7 +114,7 @@ $$
 
 #### 推论 2 {#evt-iii-s5-prop-2-cor-2 .statement tag=07PD}
 
-— 假设 E 和 F 是可度量的并且 E 是桶状的。那么$\phi$是从$\mathscr{B}(E, F)$到$\mathscr{L}_b(E; F'_b)$的拓扑向量空间同构。
+— 假设 E 和 F 是可度量的并且 E 是桶形的。那么$\phi$是从$\mathscr{B}(E, F)$到$\mathscr{L}_b(E; F'_b)$的拓扑向量空间同构。
 
 让$f \in \mathscr{L}_b(E; F'_b)$。将 $u(x, y) = \langle y, f(x) \rangle$ 替换为 $x \in E$ 和 $y \in F$。 双线性形式 $u$在$E \times F$上分别连续；通过道具。 2、从属于到$\mathscr{B}(E, F)$，我们有$f = \phi(u)$。因此$\phi$是从$\mathscr{B}(E, F)$到$\mathscr{L}_b(E; F'_b)$的线性双射。 $\phi$ 是双连续的，因此是直接的。 2如下。
 
@@ -140,7 +140,7 @@ a) 表示$y \mapsto u(., y)$在点 0处连续，因为$\mathscr{L}_{\mathfrak{S}
 
 条件 c) 的支柱。图3表明，$\mathfrak{S}$-次连续双线性映射的概念仅通过$\mathscr{L}(E, G)$上的$\mathfrak{S}$拓扑依赖于$\mathfrak{S}$。
 
-For every set $\mathfrak{T}$ of bounded subsets of F, we define similarly the notion of $\mathfrak{T}$-hypocontinuous mapping, by interchanging the roles of E and F in prop. 3. 如果单独连续的双线性映射 u 既是 $\mathfrak{S}$ 次连续又是 $\mathfrak{T}$ 次连续，则称其为 $(\mathfrak{S}, \mathfrak{T})$ 次连续。
+对于 F 有界子集的每个集合 $\mathfrak{T}$，我们通过交换 prop 中 E 和 F 的角色来类似地定义 $\mathfrak{T}$ 次连续映射的概念。 3. 如果单独连续的双线性映射 u 既是 $\mathfrak{S}$ 次连续又是 $\mathfrak{T}$ 次连续，则称其为 $(\mathfrak{S}, \mathfrak{T})$ 次连续。
 
 从$E \times F$到$G$的每个*连续*双线性映射对于有界子集的集合的每个对$(\mathscr{S}, \mathscr{T})$来说都是$(\mathscr{S}, \mathscr{T})$-次连续的：对于0中的每个邻域$W$ $G$，$E$中存在0的邻域$U$，$F$中存在0的邻域$V$，使得$u(U \times V) \subset W$；因为每个集合$M \in \mathscr{S}$都是有界的，所以存在$\lambda > 0$使得$\lambda M \subset V$，所以
 
@@ -194,13 +194,13 @@ $$
 
 2) *设* $\mathfrak{S}_0$ *是* $E_0$的有界子集族； *如果*$u$*到*$E_0 \times F_0$*的限制*是*$\mathfrak{S}_0$*-低连续，那么*$u$也是。
 
-1) By hypothesis, for all $x \in E_0$, the continuous linear mapping $u(x, .)$ is null on $F_0$, hence on $F$: therefore for all $y \in F$, the continuous linear mapping $u(., y)$ is null on $E_0$, hence on $E$. 这就证明了$u = 0$。
+1) 假设，对于所有$x \in E_0$，连续线性映射$u(x, .)$在$F_0$上为空，因此在$F$上为空：因此，对于所有$y \in F$，连续线性映射$u(., y)$在$E_0$上为空，因此在$E$上为空。 这就证明了$u = 0$。
 
 2) 对于$G$中每个0的闭邻域$W$和每个集合$M \in \mathfrak{S}_0$，通过假设，$F_0$中存在0的邻域$V$使得$u(M \times V) \subset W$。但$\overline{V}$是$F$中0的邻域；对于每个$x \in M$，关系$u(\{x\} \times V) \subset W$意味着$u(\{x\} \times \overline{V}) \subset W$，因为$u(x, .)$是连续的并且$W$是闭集的；因此$u(M \times \overline{V}) \subset W$，证明$u$是$\mathfrak{S}_0$*-低连续的。
 
 #### 命题 8 {#evt-iii-s5-prop-8 .statement tag=07PL}
 
-*设* $E, F, G$ *为三个局部凸空间*； *假设* $G$ *是豪斯多夫且准完备*。 *Let* $E_0$ *(resp. $F_0$) be a dense vector subspace of* $E$ *(resp. $F$), $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$) a family of bounded subsets of* $E_0$ *(resp. $F_0$) such that every point of* $E$ *(resp. $F$) is in the closure of an element of* $\mathfrak{S}_0$ *(resp. $\mathfrak{T}_0$). 那么每个* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-次连续双线性映射* $u$ *from* $E_0 \times F_0$ *into* $G$ *扩展唯一地到单独的连续双线性映射* $\overline{u}$ *from* $E \times F$ *into* $G$ *和* $\overline{u}$ *是* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-低连续*。
+*设* $E, F, G$ *为三个局部凸空间*； *假设* $G$ *是豪斯多夫且准完备*。 *设* $E_0$ *（分别$F_0$）为* $E$ *（分别$F$）、$\mathfrak{S}_0$ *（分别$\mathfrak{T}_0$）的稠密向量子空间* $E_0$ *（分别$F_0$）的有界子集族，使得* 的每个点$E$ *（或$F$）位于* $\mathfrak{S}_0$ *（或$\mathfrak{T}_0$）元素的闭包中。 那么每个* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-次连续双线性映射* $u$ *from* $E_0 \times F_0$ *into* $G$ *扩展唯一地到单独的连续双线性映射* $\overline{u}$ *from* $E \times F$ *into* $G$ *和* $\overline{u}$ *是* $(\mathfrak{S}_0, \mathfrak{T}_0)$*-低连续*。
 
 唯一性和 $\overline{u}$ 的次连续性由命题得出。 7；剩下的就是证明$\overline{u}$的存在。对于每个$y' \in F_0$，从$E_0$到$G$扩展的连续线性映射$x' \mapsto u(x', y')$唯一地到从$E$到$G$的连续线性映射$x \mapsto u_1(x, y')$（III，p. 8，道具 10）。紧接着，对于每个$x \in E$，从$F_0$到$G$的映射$y' \mapsto u_1(x, y')$是线性的；我们将证明它是连续的。到假设时，存在$M \in \mathfrak{S}_0$，因此$x \in \overline{M}$。对于$G$中每一个0的闭邻域$W$，通过假设，$F_0$中存在0的邻域$V$使得$u(M \times V) \subset W$；由于$x \mapsto u_1(x, y')$是连续的，我们推断出$u_1(\overline{M} \times V) \subset W$，特别是对于所有$y' \in V$，$u_1(x, y') \in W$。这就建立了我们的断言。凭借道具。 7、从$E \times F_0$到$G$的双线性映射$u_1$是$(\mathfrak{S}_0, \mathfrak{T}_0)$*-低连续的。我们以交换结束证明，证明的第一个部分中$E$和$F$的角色应用于$u_1$。
 
@@ -226,7 +226,7 @@ $$
 
 *假设S是桶装的。如果序列* $(u_n)$ *倾向于 u in* $\mathscr{L}(R; S)$ *和序列* $(v_n)$ *倾向于 v in* $\mathscr{L}(S, T)$，*则序列* $(v_n \circ u_n)$ *倾向于* $v \circ u$ *in* $\mathscr{L}(R; T)$。
 
-事实上，序列$(v_n)$，简单地以$\mathscr{L}(S; T)$为界是等连续的，因为S是桶状的（III，p. 25，第1）；那么推论就是 cor 的推论。 1.
+事实上，序列$(v_n)$，简单地以$\mathscr{L}(S; T)$为界是等连续的，因为S是桶状的（III，p. 25，第1）；那么推论就是cor的推论。 1.
 
 ### 习题{#evt-iii-s5-exercises}
 

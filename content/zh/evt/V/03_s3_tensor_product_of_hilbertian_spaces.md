@@ -33,19 +33,19 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 2
-content_sha256: e8c42e0b242523ea1b361b91788f8d132b05758bd36e012aa54976e5c3d290d4
+content_sha256: 903e977a79e499f74c91ac76d2a412a5e5df7b83376bd5f98c55e817b9dec173
 translated_from: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
 translation_method: google
 source_content_sha256: 02cb54c6e38040afaaa4704bd9864f0e39ab141fc23dcd61afa7b042aa7a7e87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 58615ec435dee82523f31c7e633bfdc68359bc99c9e220c8c188ee4be2d0659d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。 张量积希尔伯特空间
+## § 3。希尔伯特张量积空间
 
 ### 1. 前希尔伯特张量积空间
 
@@ -159,14 +159,14 @@ p_\sigma(x_1 \otimes ... \otimes x_n) = x_{\sigma^{-1}(1)} \otimes ... \otimes x
 $$
 是前希尔伯特空间同构（“交换律 of 张量积”）。
 
-同样，将 $\{1, 2, ..., n\}$ 的划分考虑为 $m$ 连续间隔 $I_1, ..., I_n$，将 $I_k = [a_k, a_{k+1} - 1]$ 视为 $1 \leq k \leq m$。放
+同样，将$\{1, 2, ..., n\}$的划分考虑为$m$连续的区间$I_1, ..., I_n$，以及$I_k = [a_k, a_{k+1} - 1]$为$1 \leq k \leq m$。放
 $$
 F_k = \bigotimes_{i=a_k}^{a_{k+1}-1} E_i \quad (1 \leq k \leq m).
 $$
 
 $^1$ 这里我们再次将 $\|z\|_2 = \langle z|z \rangle^{1/2}$ 对应于 $z$ 放入 $E_1 \otimes_2 ... \otimes_2 E_n$ 中。
 
-典范同构从 $F_1 \otimes ... \otimes F_m$ 到 $E_1 \otimes ... \otimes E_n$，其中变换 $\bigotimes_{k=1}^{m} \bigotimes_{i=a_k}^{a_{k+1}-1} x_i$ 到 $x_1 \otimes ... \otimes x_n$ (A, II, § 3, No. 9) 是前希尔伯特空间同构 (结合性 of 张量积) »）。
+典范同构从$F_1 \otimes ... \otimes F_m$到$E_1 \otimes ... \otimes E_n$，其中变换$\bigotimes_{k=1}^{m} \bigotimes_{i=a_k}^{a_{k+1}-1} x_i$到$x_1 \otimes ... \otimes x_n$（A，II, § 3, No. 9）是前希尔伯特空间同构（张量积的结合性） »）。
 
 ### 2. 希尔伯特空间的希尔伯特张量积
 
@@ -293,7 +293,7 @@ $$
 
 当$|\alpha| = \sum_{i \in I} \alpha_i$和$|\beta| = \sum_{i \in I} \beta_i$等于相同的整数$n$时。
 
-考虑集合$\{ 1, 2, ..., n \}$中的划分$(P_i)_{i \in I}$，使得卡$P_i = \alpha_i$适用于所有$i \in I$。如果 $k$ 属于等于 $P_i$，则放入 $x_k = e_i$，然后放入 $x_1 ... x_n = \prod_{i \in I} e_i^{\alpha_i}$。同样，我们定义$(Q_i)_{i \in I}$和$y_k$以这样的方式卡片$Q_i = \beta_i$和$y_1 ... y_n = \prod_{i \in I} e_i^{\beta_i}$。由于$e_i$相互正交，因此我们有$\langle x_k | y_{\sigma(k)} \rangle = 0$，除非存在索引$i \in I$使得$k \in P_i$和$\sigma(k) \in Q_i$。到公式 (15)，我们就有$\langle x_1 ... x_n | y_1 ... y_n \rangle = 0$除非，存在置换$\sigma \in \mathfrak{S}_n$，使得$\sigma(P_i) = Q_i$对于所有$i \in I$，这意味着$\alpha = \beta$。然后$\langle z_\alpha | z_\beta \rangle = 0$换$\alpha \neq \beta$。同样的论证证明$\| x_1 ... x_n \| ^2$等于$\sigma \in \mathfrak{S}_n$的数，使得$\sigma(P_i) = P_i$对于所有$i \in I$，因此等于$\prod_{i \in I} \alpha_i !$。我们得到$\| z_\alpha \| = 1$，并且命题被证明。
+考虑集合$\{ 1, 2, ..., n \}$中的划分$(P_i)_{i \in I}$，使得卡$P_i = \alpha_i$适用于所有$i \in I$。如果 $k$ 属于等于 $P_i$，则放入 $x_k = e_i$，然后放入 $x_1 ... x_n = \prod_{i \in I} e_i^{\alpha_i}$。同样，我们定义$(Q_i)_{i \in I}$和$y_k$以这样的方式卡片$Q_i = \beta_i$和$y_1 ... y_n = \prod_{i \in I} e_i^{\beta_i}$。由于$e_i$相互正交，因此我们有$\langle x_k | y_{\sigma(k)} \rangle = 0$，除非存在索引$i \in I$使得$k \in P_i$和$\sigma(k) \in Q_i$。到公式 (15)，我们就有 $\langle x_1 ... x_n | y_1 ... y_n \rangle = 0$ 除非，存在置换 $\sigma \in \mathfrak{S}_n$，使得 $\sigma(P_i) = Q_i$ 对于所有 $i \in I$，这意味着 $\alpha = \beta$。然后$\langle z_\alpha | z_\beta \rangle = 0$换$\alpha \neq \beta$。同样的论证证明$\| x_1 ... x_n \| ^2$等于$\sigma \in \mathfrak{S}_n$的数，使得$\sigma(P_i) = P_i$对于所有$i \in I$，因此等于$\prod_{i \in I} \alpha_i !$。我们得到$\| z_\alpha \| = 1$，并且命题被证明。
 
 #### 推论 {#evt-v-s3-n3-cor-1 .statement tag=080L}
 
@@ -429,11 +429,11 @@ $$
 
 但$E_0$在E中是稠密的，并且映射$(x_1, ..., x_n) \mapsto x_1 \wedge ... \wedge x_n$从$E \times \cdots \times E$到$\Lambda^n(E)$是连续的。因而，$\Lambda^n(E_0)$在$\Lambda^n(E)$中是稠密的，命题5紧随其后。
 
-#### 推论{#evt-v-s3-n4-cor-1 .statement tag=080Q}
+#### 推论 {#evt-v-s3-n4-cor-1 .statement tag=080Q}
 
 *假设希尔伯特空间* E *是两个正交子空间* M *和* N的直和。 *典范同构* g *从* $\Lambda(M) \otimes \Lambda(N)$ *到* $\Lambda(E)$ *(A, III, § 7, No. 7)* *扩展以独特的方式实现希尔伯特空间同构从*$\hat{\Lambda}(M) \hat{\otimes}_2 \hat{\Lambda}(N)$*到*$\hat{\Lambda}(E)$。
 
-证明类似于 prop 的推论。 4（V，p. 31）。
+证明类似于 prop 的推论。 4 (V, p. 31).
 
 令 E 和 F 为两个希尔伯特空间和 $u \in \mathscr{L}(E; F)$。我们将证明，在对称幂 $\hat{S}^n(E)$ (V, p. 32) 的情况下，线性映射 $\hat{\Lambda}^n(u)$ 从 $\hat{\Lambda}^n(E)$ 到 $\hat{\Lambda}^n(F)$ (A, III, § 7, No. 4) 扩展到连续的线性映射 $\hat{\Lambda}^n(u)$从$\hat{\Lambda}^n(E)$变为$\hat{\Lambda}^n(F)$。 We have 关系
 
@@ -473,7 +473,7 @@ $$
 \| u \wedge v \| \leq \left( \frac{(p+q)!}{p! \ q!} \right)^{1/2} \| u \| \cdot \| v \|
 $$
 
-对于 $u \in \Lambda^p(E)$ 和 $v \in \Lambda^q(E)$。因而，映射$(u, v) \mapsto u \wedge v$扩展通过从$\hat{\Lambda}^p(E) \times \hat{\Lambda}^q(E)$到$\hat{\Lambda}^{p+q}(E)$连续到双线性映射，范数至多等于$\left( \frac{(p+q)!}{p! \ q!} \right)^{1/2}$（cf.V，p. 73，执行。 2）。 We again denote this by $(u, v) \mapsto u \wedge v$.
+对于 $u \in \Lambda^p(E)$ 和 $v \in \Lambda^q(E)$。因而，映射$(u, v) \mapsto u \wedge v$扩展通过从$\hat{\Lambda}^p(E) \times \hat{\Lambda}^q(E)$到$\hat{\Lambda}^{p+q}(E)$连续到双线性映射，范数至多等于$\left( \frac{(p+q)!}{p! \ q!} \right)^{1/2}$（cf.V，p. 73，执行。 2）。我们再次用$(u, v) \mapsto u \wedge v$表示。
 
 #### 命题 6 {#evt-v-s3-prop-6 .statement tag=080R}
 
@@ -483,11 +483,11 @@ $$
 \| x \wedge u \| \leq \| x \| \cdot \| u \|
 $$
 
-*for* $x \in E$ *and* $u \in \hat{\Lambda}(E)$.
+*对于*$x \in E$*和*$u \in \hat{\Lambda}(E)$。
 
 考虑$\| x \| = 1$的情况显然就足够了。
 
-令 F 为所有与 x 正交的向量的 E 由……组成的希尔伯特子空间。由于 E 是 F 和线 K.x 的希尔伯特和，因此从 V、p. 34 的推论可以得出，映射 $(v, w) \mapsto v + x \wedge w$ 是从 $\hat{\Lambda}(F) \oplus \hat{\Lambda}(F)$ 到 $\hat{\Lambda}(E)$ 的希尔伯特空间同构。如果$u = v + x \wedge w$和$v, w$在$\hat{\Lambda}(F)$中，我们有$x \wedge u = x \wedge v$，因此有$\| x \wedge u \| = \| v \| \leq (\| v \|^2 + \| w \|^2)^{1/2} = \| u \|$。
+令 F 为所有与 x 正交的向量的 E 由……组成的希尔伯特子空间。由于 E 是 F 和线 K.x 的希尔伯特和，因此从 V、p. 34 的推论可以得出，映射 $(v, w) \mapsto v + x \wedge w$ 是希尔伯特空间同构，从 $\hat{\Lambda}(F) \oplus \hat{\Lambda}(F)$ 到$\hat{\Lambda}(E)$。如果$u = v + x \wedge w$和$v, w$在$\hat{\Lambda}(F)$中，我们有$x \wedge u = x \wedge v$，因此有$\| x \wedge u \| = \| v \| \leq (\| v \|^2 + \| w \|^2)^{1/2} = \| u \|$。
 
 #### 推论 1 {#evt-v-s3-prop-6-cor-1 .statement tag=080S}
 
@@ -499,7 +499,7 @@ $$
 
 *其中，仅当* $x_i$ * 之一为空，或者序列* $(x_1, \ldots, x_n)$ * 正交时，等式才成立。*
 
-*b)* *设* $x_1, \ldots, x_n, y_1, \ldots, y_n$ *为希尔伯特空间* E 的元素。 *我们有*
+*b)* *令* $x_1, \ldots, x_n, y_1, \ldots, y_n$ *成为希尔伯特空间* E 的元素。*我们有*
 
 $$
 |\det(\langle x_i, y_j \rangle)| \leq \| x_1 \| \ldots \| x_n \| \cdot \| y_1 \| \ldots \| y_n \|;
@@ -507,7 +507,7 @@ $$
 
 如果向量 $x_i$ 和 $y_i$ 非空； 等式在(36)中成立当且仅当$(x_1, ..., x_n)$和$(y_1, ..., y_n)$各自是E的相同向量子空间的正交基。
 
-不等式 (35) 由命题得出。 6 by 归纳 on $n$; 不等式(36)可以通过V、p. 33的$\Lambda^n(E)$和公式(26)中的应用柯西-施瓦茨不等式推出。
+不等式 (35) 由命题得出。 $n$ 归纳 6 次； 不等式(36)可以通过V、p. 33的$\Lambda^n(E)$和公式(26)中的应用柯西-施瓦茨不等式推出。
 
 假设序列 $(x_1, ..., x_n)$ 是正交的。然后
 
@@ -538,11 +538,11 @@ $$
 
 (38) $$ \| x_1 \wedge ... \wedge x_n \| = \| x_1 \| ... \| x_n \| , \quad \| y_1 \wedge ... \wedge y_n \| = \| y_1 \| ... \| y_n \| . $$
 
-通过证明的第一个部分，等式（38）意味着序列、$(x_1, ..., x_n)$和$(y_1, ..., y_n)$都是正交的，这又意味着$x_1 \wedge ... \wedge x_n \neq 0$和$y_1 \wedge ... \wedge y_n \neq 0$。在这些条件，关系（37）下意味着存在一个标量$\lambda \neq 0$，使得$y_1 \wedge ... \wedge y_n = \lambda x_1 \wedge ... \wedge x_n$（V，p. 3，注1）；在其他字中，$(x_1, ..., x_n)$和$(y_1, ..., y_n)$是E（A，III, § 11, No. 13）的相同向量子空间的基。
+通过证明的第一个部分，等式（38）意味着序列、$(x_1, ..., x_n)$和$(y_1, ..., y_n)$都是正交的，这又意味着$x_1 \wedge ... \wedge x_n \neq 0$和$y_1 \wedge ... \wedge y_n \neq 0$。在这些条件、关系(37)下意味着存在一个标量$\lambda \neq 0$使得$y_1 \wedge ... \wedge y_n = \lambda x_1 \wedge ... \wedge x_n$(V,p. 3,注1);在其他字中，$(x_1, ..., x_n)$和$(y_1, ..., y_n)$是E（A，III, § 11, No. 13）的相同向量子空间的基。
 
 #### 推论 2 {#evt-v-s3-prop-6-cor-2 .statement tag=080T}
 
-— 设 $(a_{ij})_{1 \leq i,j \leq n}$ 为厄米特矩阵，复数为元素，行列式为 D。假设不等式
+— 设 $(a_{ij})_{1 \leq i,j \leq n}$ 为厄米特矩阵，其中复数为元素，且为行列式 D。假设不等式
 
 $$
 \sum_{i,j=1}^n a_{ij} \overline{z}_i z_j \geq 0
@@ -570,7 +570,7 @@ $$
 
 #### 推论 3（《哈达玛不等式》）{#evt-v-s3-prop-6-cor-3 .statement tag=080U}
 
-— 设 $(a_{ij})_{1 \leq i, j \leq n}$ 为矩阵，且具有复数元素，且行列式为 D。
+— 令 $(a_{ij})_{1 \leq i, j \leq n}$ 为矩阵，且具有复数元素，且具有行列式 D. 将
 
 $$
 c_i = \left( \sum_{j=1}^n |a_{ij}|^2 \right)^{1/2} \quad \text{for} \quad 1 \leq i \leq n,
@@ -582,15 +582,15 @@ $$
 |D| \leq c_1 ... c_n \leq m^n \cdot n^{n/2}.
 $$
 
-如果$D \neq 0$，在阶中$|D| = c_1 ... c_n$，矩阵$(a_{ij})_{1 \leq i, j \leq n}$的行$y_i = (a_{ij})_{1 \leq j \leq n}$是二乘二正交的向量是必要且充分的。
+如果$D \neq 0$，在$|D| = c_1 ... c_n$的阶中，矩阵$(a_{ij})_{1 \leq i, j \leq n}$的行$y_i = (a_{ij})_{1 \leq j \leq n}$是二乘二正交的向量是必要且充分的。
 
-让空间 $\mathbf{C}^n$ 被分配一个标量乘积定义为
+让空间 $\mathbf{C}^n$ 被分配一个由下式定义的标量乘积
 
 $$
 \langle \mathbf{z}|\mathbf{z}' \rangle = \sum_{i=1}^n \overline{z}_i z'_i.
 $$
 
-令$(\mathbf{x}_1, ..., \mathbf{x}_n)$为$\mathbf{C}^n$和$\mathbf{y}_i$向量的典范基，其中$a_{ij}$为$1 \leq j \leq n$。 $1 \leq i \leq n$我们有$\| \mathbf{x}_i \| = 1$和$\| \mathbf{y}_i \| = c_i$；还有$\langle \mathbf{x}_i|\mathbf{y}_j \rangle = a_{ji}$。 不等式$|D| \leq c_1 ... c_n$和等式的条件则为V、p. 35的特例。 1. 显然我们有$c_i \leq m \cdot n^{1/2}$，因此有$c_1 ... c_n \leq m^n \cdot n^{n/2}$。
+令$(\mathbf{x}_1, ..., \mathbf{x}_n)$为$\mathbf{C}^n$和$\mathbf{y}_i$向量的典范基，其中分量$a_{ij}$为$1 \leq j \leq n$。 $1 \leq i \leq n$我们有$\| \mathbf{x}_i \| = 1$和$\| \mathbf{y}_i \| = c_i$；还有$\langle \mathbf{x}_i|\mathbf{y}_j \rangle = a_{ji}$。 不等式$|D| \leq c_1 ... c_n$和等式的条件则为V、p. 35的特例。 1. 显然我们有$c_i \leq m \cdot n^{1/2}$，因此有$c_1 ... c_n \leq m^n \cdot n^{n/2}$。
 
 ### 习题 {#evt-v-s3-exercises}
 

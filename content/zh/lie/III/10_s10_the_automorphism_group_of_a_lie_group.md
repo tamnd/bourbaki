@@ -25,19 +25,19 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 4
-content_sha256: 7b81d04590a9b6c50c12a1e5e4d9a2d2ea6d52879d03103ac064945f42ea8495
+content_sha256: a2bcdce99b6532298d3f7846437a12a7fef2f5f2cfa2e53a3adb0a8731aa0311
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 translation_method: google
 source_content_sha256: f9d7400def142eff7395a68ad471a8fd0e9e5f47e8dd9c61b495ed3c4a325f89
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: aaed4cde8102cea70495ae3e102877e3a199644f042d6bbf779323265617f482
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 10。 李群的自同构群
+## § 10。 自同构群 / 李群
 
 在本段中，K 假设为特征零。
 
@@ -45,7 +45,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 引理 1 {#lie-iii-s10-lem-1 .statement tag=0AL6}
 
-设 G 为 G 上的李群和 $\alpha$ 向量域。对于所有 $g \in G$，让
+设 G 为 G 上的李群和 $\alpha$ 向量域。对于所有 $g \in G$，令
 $$
 \beta(g) = \alpha(g)g^{-1} \in L(G).
 $$
@@ -142,7 +142,7 @@ $$
 $$
 
 因此$f_1 f_2 \in \mathscr{F}_{g_1 g_2}$。这就证明了$\mu(g_1 g_2) \geq \inf_{g \in V} (\mu(g_1), \mu(g_2))$。
-(c) 根据可微分和解析流形，R，9.1.4和9.1.5，G中存在e的邻域V使得$\sigma = \inf_{g \in V} \mu(g) > 0$。令 $h \in G$ 和 C 为其连通分量。对于 (b) 中的所有 $h' \in C$、$\mu(h') \geq \inf(\sigma, \mu(h)) > 0$。另一方面，函数$f_{h'}$，其中$h' \in C$，在C中取其值。通过可微分和解析流形，R，9.1.4和9.1.5，C中的$\mu = +\infty$，最后G中的$\mu = +\infty$。然后让$f_g(\lambda) = \phi_\lambda(g)$代表所有$g \in G$和所有$\lambda \in K$。由可微分解析流形，R，9.1.4和9.1.5，映射$(\lambda, g) \mapsto \phi_\lambda(g)$是G上K的解析运算的律。显然，如果D是无穷小运算的关联律， $D(1) = \alpha$。由(b)，
+(c) 根据可微分和解析流形，R，9.1.4和9.1.5，G中存在e的邻域V使得$\sigma = \inf_{g \in V} \mu(g) > 0$。设$h \in G$和C为其相连的分量。对于 (b) 中的所有 $h' \in C$、$\mu(h') \geq \inf(\sigma, \mu(h)) > 0$。另一方面，函数$f_{h'}$，其中$h' \in C$，在C中取其值。通过可微分和解析流形，R，9.1.4和9.1.5，C中的$\mu = +\infty$，最后G中的$\mu = +\infty$。然后让$f_g(\lambda) = \phi_\lambda(g)$代表所有$g \in G$和所有$\lambda \in K$。由可微分和解析流形，R，9.1.4和9.1.5，映射$(\lambda, g) \mapsto \phi_\lambda(g)$是G上K的解析运算的律。显然，如果D是无穷小运算的关联律， $D(1) = \alpha$。由(b)，
 
 $$
 \phi_\lambda(g_1 g_2) = \phi_\lambda(g_1) \phi_\lambda(g_2)
@@ -152,10 +152,10 @@ $$
 
 #### 命题 3 {#lie-iii-s10-prop-3 .statement tag=0ALB}
 
-假设 K 是超度量的。 令 G 为紧李群且 $\alpha$ G 的无穷小自同构。 There exist an open subgroup I of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I on G with the following properties:
-(1) if D is the associated law of infinitesimal operation, then $D(1) = \alpha$;
-(2) for all $\lambda \in I, \phi_\lambda \in \mathrm{Aut}\, G$.
-As G is compact, there exist an open subgroup I' of K and a law of analytic operation $(\lambda, g) \mapsto \phi_\lambda(g)$ of I' on G with property (1) of the proposition (§ 4, no. 7, Corollary 2 to Theorem 6). 我们将$\lambda \in I'$和$g \in G$写为$\phi_\lambda(g) = f_g(\lambda)$。 然后，对于$G$和$\lambda \in I'$中的$g_1, g_2$，
+假设 K 是超度量的。 令 G 为紧李群且 $\alpha$ G 的无穷小自同构。 存在 K 的开子群 I 和 G 上的 I 解析运算定律 $(\lambda, g) \mapsto \phi_\lambda(g)$，具有以下性质：
+(1) 若D为无穷小运算关联律，则$D(1) = \alpha$；
+(2) 对于所有$\lambda \in I, \phi_\lambda \in \mathrm{Aut}\, G$。
+由于 G 是紧的，因此存在 K 的开子群 I' 和 G 上的 I' 解析运算定律 $(\lambda, g) \mapsto \phi_\lambda(g)$，具有命题的性质 (1)（§ 4, no. 7，定理 6 的推论 2）。 我们将$\lambda \in I'$和$g \in G$写为$\phi_\lambda(g) = f_g(\lambda)$。 然后，对于$G$和$\lambda \in I'$中的$g_1, g_2$，
 
 $$
 (T_\lambda(f_{g_1}f_{g_2}))1 = (T_\lambda f_{g_1})1 \cdot f_{g_2}(\lambda) + f_{g_1}(\lambda) \cdot (T_\lambda f_{g_2})1 \\
@@ -182,7 +182,7 @@ $$
 
 这就证明了蕴涵((ii)和(iii))$\Rightarrow$(i)。最后，如果$G'$是连接的，则$G'$由$e_{G'}$的每个邻域生成，因此(ii)$\Rightarrow$(iii)。
 
-### 2. 李群的自同构群（真实或复杂的情况）
+### 2. 自同构群 / 李群（真实或复杂情况）
 
 在这个数中，我们假设$K = \mathbf{R}$或$\mathbf{C}$。
 
@@ -204,7 +204,7 @@ $$
 $$
 p(\theta(u)g) = p(e), \quad p(\theta(u^{-1})g) = p(e)
 $$
-对于所有$g \in N$。由§ 8, no. 2、定理2和推论2至定理2，证明了(ii)。
+对于所有$g \in N$。由§ 8, no. 2、定理2和推论2到定理2，证明(ii)。
 
 假设 N 是离散且正规的。让$w \in \mathrm{Aut}\ G$。然后
 $$
@@ -216,7 +216,7 @@ $$
 
 #### 定理 1 {#lie-iii-s10-thm-1 .statement tag=0ALE}
 
-设 G 是有限维李群和 $G_0$ 其单位分量。假设 G 由 $G_0$ 和元素的有限数生成。
+令 G 为有限维李群且 $G_0$ 其恒等式分量。假设 G 由 $G_0$ 和元素的有限数生成。
 
 (i) 在$\mathrm{Aut}\ G$上存在且仅有一个解析流形结构满足以下条件：
 (AUT) 对于每个解析流形 M 和 M 到 $\mathrm{Aut}\ G$ 的每个映射 f，当且仅当 $M \times G$ 到 G 的映射 $(m, g) \mapsto f(m)g$ 是解析的。
@@ -242,7 +242,7 @@ $$
 
 至此，定理对于G连通而言已被完全证明。
 
-(c) 我们转向一般情况。到假设，G由$G_0$和元素$x_1, x_2, \ldots, x_n$的有限数生成。每$u \in \text{Aut } G$离开$G_0$稳定。令 $\text{Aut}_1 G$ 为 $u \in \text{Aut } G$ 的集合，将经过商，给出 $G/G_0$ 的恒等式自同构。这是正常的子群 $\text{Aut } G$。通过证明的部分(b)，$\text{Aut } G_0$具有规范的李群结构和$G_0^n \times \text{Aut } G_0$的映射$(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$到$G_0^n$的解析性。令P为$\text{Aut } G_0$乘$G_0^n$的相应的半直积；它是有限维李群 ($§ 1$, no. 4, 命题 7)。
+(c) 我们转向一般情况。到假设，G由$G_0$和元素$x_1, x_2, \ldots, x_n$的有限数生成。每$u \in \text{Aut } G$离开$G_0$稳定。令$\text{Aut}_1 G$为$u \in \text{Aut } G$的集合，在经过到商上，给出$G/G_0$的恒等式自同构。这是正常的子群 $\text{Aut } G$。通过证明的部分(b)，$\text{Aut } G_0$具有规范的李群结构和$G_0^n \times \text{Aut } G_0$的映射$(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$到$G_0^n$的解析性。令P为$\text{Aut } G_0$乘$G_0^n$的相应的半直积；它是有限维李群 ($§ 1$, no. 4, 命题 7)。
 
 如果$w \in \text{Aut}_1 G$，我们写
 $$
@@ -260,7 +260,7 @@ $$
 &= \zeta(ww')
 \end{align*}
 $$
-因此 $\zeta$ 是 $\text{Aut}_1 G$ 的同态到 P 中。这个同态显然是内射的。
+因此$\zeta$是$\text{Aut}_1 G$到P中的同态。这个同态显然是内射的。
 
 我们证明$\zeta(\text{Aut}_1 G)$在P中是封闭的。设$\Phi$是$\text{Aut}_1 G$上的过滤器，使得$\zeta(\Phi)$收敛到P的点$((w_1, \ldots, w_n), w_0)$。然后$\Phi$逐点收敛到G的映射v到G中。显然v是群 G 的自同态。此外，v 使每个陪集模$G_0$ 稳定且$v|G_0 = w_0$。由此可见$v \in \text{Aut}_1 G$。作为$\zeta(v) = ((w_1, \ldots, w_n), w_0)$，我们已经证明$\zeta(\text{Aut}_1 G)$在P中是闭的。
 
@@ -270,7 +270,7 @@ $$
 
 法分析
 ⇔ 映射 m: ↦ (f(m))_i，其中 0 ≤ i ≤ n，是解析的
-⇔ {M 的映射 m ↦ f(m)x_i 进入 G，对于 1 ≤ i ≤ n，是解析的
+⇔ {M 的映射 m ↦ f(m)x_i 到 G 中，对于 1 ≤ i ≤ n，是解析的
 和
 映射 (m, g) ↦ M × G_0 到 G 的 f(m)g 是解析的
 ⇔ φ 是解析的。
@@ -283,11 +283,11 @@ Id_a|(C∪{x_1}∪...∪{x_n})。
 
 因此，Aut_1G 的拓扑是拓扑 $\mathscr{T}_\beta$。
 
-显然，Aut_1G 在 Aut G 中以拓扑 $\mathscr{T}_\beta$ 打开。在 Aut G 李群结构上存在与此拓扑兼容，并在上面构造的 Aut_1G 结构上进行归纳（§ 8, no. 1，推论 2 到定理 1）。 李群 Aut G 具有定理的属性这一事实源自 Aut_1G 的相应的属性。
+显然，Aut_1G 在 Aut G 中以拓扑 $\mathscr{T}_\beta$ 打开。 Aut G 李群结构与此拓扑兼容，并在上面构造的 Aut_1G 结构上进行归纳（§ 8, no. 1、推论 2 到定理 1）。 李群 Aut G 具有定理的属性这一事实源自 Aut_1G 的相应的属性。
 
 (e) 在部分 (e) of 证明中，我们假设 K = C。由(c)和§ 8, no. 2的定理2，在Aut_1G上存在实李群结构，使得z是Aut_1G的同构到P的实谎言子群上。
 
-G 上 (Aut_1G) × G 的运算 (w, g) ↦ wg 律是实解析。令 D 为无穷小运算的关联律。通过命题 1 和 2 of no. 1，D(L(Aut_1G)) = a。
+G 上 (Aut_1G) × G 的运算 (w, g) ↦ wg 律是实解析。令 D 为无穷小运算的关联律。通过 no. 1 的命题 1 和 2，D(L(Aut_1G)) = a。
 
 对于所有 α ∈ a，令 α_0 表示 α 到 G_0 的限制；它是 G_0 的无穷小自同构，我们认同，因为证明的部分 (b)，元素为 L(Aut G_0)。对于 1 ≤ i ≤ n，我们写
 
@@ -295,7 +295,7 @@ $$ \alpha_i = x_i^{-1} \alpha(x_i) \in L(G) = L(G_0). $$
 
 最后，我们写$f(\alpha) = ((\alpha_1, ..., \alpha_n), \alpha_0) \in L(P)$。那么 f 是 a 到 L(P) 的 C 线性映射。
 
-另一方面，显然$L(\zeta) = f \circ D$。 因此$L(\zeta)(L(Aut_1G)) = f(a)$是L(P)的复数向量子空间。 By Proposition 2 of § 4, no. 2, $\zeta(Aut_1G)$ is a complex Lie subgroup of P and we can proceed exactly as in (d): we transport the complex Lie group structure on $\zeta(Aut_1G)$ to Aut_1G by means of $\zeta^{-1}$ and we see as in (d) that Aut_1G has the properties analogous to properties (i), (ii), (iii), (v) and (vi) of the theorem.
+另一方面，显然$L(\zeta) = f \circ D$。 因此$L(\zeta)(L(Aut_1G)) = f(a)$是L(P)的复数向量子空间。 根据§ 4, no. 2的命题2，$\zeta(Aut_1G)$是P的复李子群，我们可以完全按照(d)进行处理：我们通过$\zeta^{-1}$将$\zeta(Aut_1G)$上的复李群结构传输到Aut_1G，并且我们在(d)中看到Aut_1G具有类似于性质(i)、(ii)、(iii)、(v)和(vi)的性质该定理的。
 
 显然，Aut₁G 在 Aut G 中以拓扑 $\mathscr{T}_\beta$ 开路。让$w \in \mathrm{Aut}\ G$。令 $\sigma$ 为 Aut₁G 的自同构 $v \mapsto wvw^{-1}$。它是实解析的（$§ 8$、no. 1、定理 1），$L(\sigma)$是$L(\mathrm{Aut}_1 G)$的$\mathbf{R}$自同构，并且
 
@@ -307,15 +307,15 @@ $$
 
 #### 推论 1 {#lie-iii-s10-thm-1-cor-1 .statement tag=0ALF}
 
-*设 G 是有限维实李群和 $G_0$ 其单位分量。假设 G 由 $G_0$ 和元素的有限数生成。那么 Aut G 有拓扑 $\mathscr{T}_\beta$ 并且是有限维实李群。*
+*设 G 为有限维实李群且 $G_0$ 其恒等式分量。假设 G 由 $G_0$ 和有限的数元素生成。那么 Aut G 有拓扑 $\mathscr{T}_\beta$ 并且是有限维实李群。*
 
 #### 推论 2 {#lie-iii-s10-thm-1-cor-2 .statement tag=0ALG}
 
-*令 G 为半单连接实数或复数李群。 群 Int G 是 Aut G 的恒等分量。*
+*设 G 为半单连接实数或复数李群。 群 Int G 是 Aut G 的恒等式分量。*
 
-映射 $u \mapsto L(u)$ 是 Aut G 的同构到 Aut $L(G)$ (定理 1) 的谎言子群上。这个同构下的Int G的像是Ad G。但是Ad G是Aut$L(G)$的恒等分量（$§ 9$，no. 8，命题30（ii））。
+映射 $u \mapsto L(u)$ 是 Aut G 的同构到 Aut $L(G)$ (定理 1) 的谎言子群上。这个同构下的Int G的像是Ad G。但是Ad G是Aut $L(G)$的恒等式分量（$§ 9$，no. 8，命题 30 (ii)）。
 
-### 3. 李群的自同构群（超距案例）
+### 3. 自同构群 / 李群（超度量情况）
 
 #### 定理 2 {#lie-iii-s10-thm-2 .statement tag=0ALH}
 

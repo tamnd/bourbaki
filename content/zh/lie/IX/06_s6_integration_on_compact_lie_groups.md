@@ -33,23 +33,23 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: f244aa3ca5cea5d1255e3a868808bd30dbf887a09b6c49d5a36ebb4b2a83ea51
+content_sha256: 24715057942fff6ea031d22f978d66eb1064e8859c1e2ce11db4e51ffaa2bcad
 translated_from: content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md
 translation_method: google
 source_content_sha256: 746c6186434593ae87ea52347a193f0e294cca0a933dcfbfbd4549276c4b772c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 9dabd1fb71674dfc0601873d6f7a1a2f1cf2a5d0b30e9253532a12db00e7a224
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 6。集成紧李群
 
 我们保留§4中的记号；放入$w(G) =$卡(W$_G(T)$)。用 $dg$（分别为 $dt$）表示总质量为 1 的 G（分别为 T）的 Haar 测度，并用 $n$（分别为 $r$）和 G（分别为 T）的维数表示。
 
-### 1. 乘积交替多重线性形式
+### 1. 乘积 / 交替多重线性形式
 
 设A为交换环，M为A-模。对于每个整数$r\geq 0$，用M上的交错的$r$的Alt$^r(M)$A-模-线性形式表示；它可以用A-模$\wedge \wedge^r(M) ($代数的对偶来识别，第1章。 III, §7, no. 4，提案 7）。设 $u\in$ Alt$^s(M)$ 和 $v\in$ Alt$^r(M)$；回想一下（代数，第III, §11, no. 2，例 3），$u$和$v$的交错的乘积是元素$u\wedge v\in$Alt$^{s+r}(M)$，定义为
 
@@ -89,7 +89,7 @@ $$
 
 由上可知，条件 a) 和 b) 确定乘积 $u\cap v$ 都是唯一的；很明显，这个乘积是双线性的。最后，引理的最后一个断言由公式(2)得出。
 
-### 2. 积分公式 H. 韦尔
+### 2. H.韦尔的积分公式
 
 令$e$为G的单位元素，$\overline{e}$为$G/T$中的类。 认同 G 在 $e$ 与 $\mathfrak{g}$ 的切线空间，T 在 $e$ 与 $\mathfrak{t}$ 的切线空间，以及 $G/T$ 在 $\overline{e}$ 与 $\mathfrak{g}/\mathfrak{t}$ 的切线空间。用 $(u, v) \rightarrow u\cap v$ 表示 $\mathbf{R}$-双线性映射
 
@@ -107,9 +107,9 @@ $$
 (\omega_{G/T}\cap \omega_T)(e) =\omega_{G/T}(\overline{e})\cap \omega_T(e)
 $$
 
-最后回想一下，$f: (G/T)\times T\rightarrow G$表示由映射$(g, t) \rightarrow gtg^{-1}$通过商（§5, no. 4）从$G\times T$到G引起的流形的态射。如果$\alpha$和$\beta$分别在$G/T$和T上微分形式，则简单地用$\alpha \wedge \beta$形式pr$^*_1\alpha \wedge$pr$^*_2\beta$在$(G/T)\times T$上表示。
+最后回想一下，$f: (G/T)\times T\rightarrow G$表示流形的态射，由映射$(g, t) \rightarrow gtg^{-1}$诱导，从$G\times T$到G，通过商（§5, no. 4）。如果$\alpha$和$\beta$分别在$G/T$和T上微分形式，则简单地用$(G/T)\times T$上的$\alpha \wedge \beta$形式pr$^*_1\alpha \wedge$pr$^*_2\beta$表示。
 
-对于 $t\in T$，用 Ad$_{\mathfrak{g}/\mathfrak{t}}(t)$ 自同态表示由 Ad $t$ 通过通向商而引发的 $\mathfrak{g}/\mathfrak{t}$。放
+对于$t\in T$，用Ad$_{\mathfrak{g}/\mathfrak{t}}(t)$自同态表示，由Ad$t$通过到商诱导产生$\mathfrak{g}/\mathfrak{t}$。放
 
 $\delta_G(t) =$ det（广告$_{\mathfrak{g}/\mathfrak{t}}(t)-1$）$=\prod_{\alpha\in R(G,T)}(t^{\alpha}-1)$。 (3)
 
@@ -121,7 +121,7 @@ $\delta_G(t) =$ det（广告$_{\mathfrak{g}/\mathfrak{t}}(t)-1$）$=\prod_{\alph
 
 $\delta_G$(exp $x$)$=\prod_{\alpha\in R_+(G,T)}4$罪$^2\pi \widehat{\alpha}(x)$,
 
-因此，特别是 $\delta_G(t)>0$ 对于所有 $t\in T_r$。我们注也将$\delta_G(t) =\delta_G(t^{-1})$换成$t\in T$。
+因此，特别是 $\delta_G(t)>0$ 对于所有 $t\in T_r$。我们还注意到 $\delta_G(t) =\delta_G(t^{-1})$ 对应 $t\in T$。
 
 #### 命题 1 {#lie-ix-s6-prop-1 .statement tag=01EY}
 
@@ -139,7 +139,7 @@ $$
 
 现在观察，对于 $h\in G,u\in G/T,t\in$ T，我们有 $f(h.u, t) =$ (Int $h$)$f(u, t)$；由于$\omega_G$在内自同构下是不变的，因此紧随$\delta (h.u, t) =\delta (u, t)$，所以$\delta (u, t) =\delta (\overline{e}, t)$。
 
-用 $p:\mathfrak{g}\rightarrow \mathfrak{g}/\mathfrak{t}$ 表示商映射并用 $\varphi :\mathfrak{g}/\mathfrak{t}\rightarrow \mathfrak{g}$ 映射定义
+用 $p:\mathfrak{g}\rightarrow \mathfrak{g}/\mathfrak{t}$ 商映射表示，并用 $\varphi :\mathfrak{g}/\mathfrak{t}\rightarrow \mathfrak{g}$ 映射定义
 
 $\varphi (p(X)) =$（广告$t^{-1}$）$X-X$为$X\in \mathfrak{g}$；回想一下 (§5, no. 4, 引理 4) 切线映射
 
@@ -203,7 +203,7 @@ $$
 
 逆像在$(G/T)\times T_r$上的测量$dg$在$G_r$下的局部同胚$f_r($积分，第1章。 V, §6, no. 6）是$\mu\otimes \delta_Gdt$的测度，其中$\mu$是总质量1的$G/T$上唯一的G不变测度。
 
-Choose an invariant differential form $\omega_T$ (resp. $\omega_{G/T}$) on T (resp. $G/T$) of maximal degree, such that the measure defined by $\omega_T$ (resp. $\omega_{G/T}$) is equal to $dt$ (resp. $\mu$). 输入$\omega_G=\omega_{G/T}\cap \omega_T$。 引理 2 意味着$\omega_G$ 定义的度量等于$dg$。 设U是$(G/T)\times T_r$的开子集，使得$f_r$诱导同构从U到$G_r$的开子集V。 设$\varphi$为连续函数，且V有紧支撑；也用 $\varphi$ 到 $G_r$ 的 $\varphi$ 扩张表示，它消失在 V 之外。 我们有
+选择最大次数 T（分别为 $G/T$）上的不变微分形式 $\omega_T$（分别为 $\omega_{G/T}$），使得由 $\omega_T$（分别为 $\omega_{G/T}$）定义的测度等于 $dt$（分别为 $\mu$）。 输入$\omega_G=\omega_{G/T}\cap \omega_T$。 引理 2 意味着$\omega_G$ 定义的度量等于$dg$。 设U是$(G/T)\times T_r$的开子集，使得$f_r$诱导同构从U到$G_r$的开子集V。 设$\varphi$为连续函数，且V有紧支撑；也用 $\varphi$ 到 $G_r$ 的 $\varphi$ 扩张表示，它消失在 V 之外。 我们有
 
 $$
 \int_V\varphi  dg=\int_V\varphi  \omega_G=\int_U(\varphi \circ f_r)f_r^*(\omega_G)
@@ -243,13 +243,13 @@ $$
 \int_G^*\varphi (g)dg=\frac{1}{w(G)}\int_T^*(\int_G^*\varphi (gtg^{-1})dg)\delta_G(t)dt \tag{5}
 $$
 
-由于映射 $f$ 是通过从 $G\times T\rightarrow G$ 到映射 $(g, t) \rightarrow gtg^{-1}$ 的商而导出的，因此只需应用第 1 章的积分即可。 V, §5、6、8 和积分，第 1 章VII, §2。
+由于映射$f$是通过从映射$(g, t) \rightarrow gtg^{-1}$从$G\times T\rightarrow G$过渡到商而产生的，因此只需应用第1章的积分即可。 V, §5、6、8 和积分，第 1 章VII, §2。
 
 #### 推论 2 {#lie-ix-s6-thm-1-cor-2 .statement tag=01F3}
 
 令$\varphi$为G上的中心函数（即，对于G中的所有$g$和$h$，$\varphi (gh) =$$\varphi (hg)$），值位于Banach空间或$\overline{\mathbf{R}}$中。
 
-a$)\varphi$ 是可测的，当且仅当其限制到 T 是可测的。
+a$)\varphi$ 是可测的当且仅当其限制到 T 是可测的。
 
 b$)\varphi$ 是可积的当且仅当函数 $(\varphi |T)\delta_G$ 在 T 上可积，在这种情况下我们有
 
@@ -257,15 +257,15 @@ $$
 \int_G\varphi (g)dg=\frac{1}{w(G)}\int_T\varphi (t)\delta_G(t)dt \tag{6}
 $$
 
-用 $p: G/T\times T\rightarrow T$ 表示第二个投影。我们有 $\varphi \circ f$ = $(\varphi |T)\circ p$；此外，$\mu\otimes \frac{1}{w(G)}\delta_Gdt$措施的$p$下的像为$\frac{1}{w(G)}\delta_Gdt$。现在可以从 Th 得出推论。上述 1 和 Th.集成，第 1 章。 V, §6, no. 2，应用于两个真映射$f$和$p$。
+用 $p: G/T\times T\rightarrow T$ 表示第二个投影。我们有 $\varphi \circ f$ = $(\varphi |T)\circ p$；此外，措施$\mu\otimes \frac{1}{w(G)}\delta_Gdt$的$p$下的像为$\frac{1}{w(G)}\delta_Gdt$。 推论现在遵循 Th。上述 1 和 Th.集成，第 1 章。 V, §6, no. 2，应用于两个真映射、$f$和$p$。
 
 #### 推论 3 {#lie-ix-s6-thm-1-cor-3 .statement tag=01F4}
 
-设 H 为 G 包含 T 的连通闭子群，$\mathfrak{h}$ 李代数，以及$dh$ 总质量 1 的 H 上的 Haar 测度。设 $\varphi$ 为 G 上的可积中心函数，其中值在 Banach 中空间或$\overline{\mathbf{R}}$。那么函数 $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$) 可积且以 H 为中心，我们有
+令 H 为 G 包含 T 的连通闭子群，$\mathfrak{h}$ 李代数，以及$dh$ 总质量 1 的 H 上的 Haar 测度。令 $\varphi$ 为 G 上的可积中心函数，其中值在 Banach 中空间或$\overline{\mathbf{R}}$。那么函数 $h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$) 可积且以 H 为中心，我们有
 
 $\int_G\varphi (g)dg=\frac{w(H)}{w(G)}\int_H\varphi (h$）det（广告$_{\mathfrak{g}/\mathfrak{h}}(h)-1$）$dh$。 (7)
 
-事实上，函数$h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$)是H上的中心函数，其限制到T是函数$t \rightarrow \varphi (t)\delta_G(t)\delta_H(t)^{-1}$。因此，推论由 Cor 得出。 2适用于G和H。
+事实上，函数$h \rightarrow \varphi (h$)det(Ad$_{\mathfrak{g}/\mathfrak{h}}(h)-1$)是H上的中心函数，其限制到T是函数$t \rightarrow \varphi (t)\delta_G(t)\delta_H(t)^{-1}$。因此，推论源自Cor。 2适用于G和H。
 
 #### 注 1 {#lie-ix-s6-n2-rem-1 .statement tag=01F5}
 
@@ -297,7 +297,7 @@ $$
 
 #### 例 {#lie-ix-s6-n2-exa-1 .statement tag=01F8}
 
-取G为群$\mathbf{S}\mathbf{U}(2,\mathbf{C})$，T为矩阵对角线子群（§3, no. 6）； 认同$\mathfrak{t}$与$\mathbf{R}$乘以$\mathfrak{t}($loc的基$\{iH\}$选择。引用。）。把$A = 0, \pi$；这是$\mathfrak{t}$的壁龛。区间$A = 0, \pi$可以用G的共轭类的空间、G的元素$\theta$来识别
+取G为群$\mathbf{S}\mathbf{U}(2,\mathbf{C})$，T为矩阵对角线子群（§3, no. 6）； 认同$\mathfrak{t}$与$\mathbf{R}$乘以$\mathfrak{t}($loc的基$\{iH\}$选择。引用。）。把$A = 0, \pi$；这是$\mathfrak{t}$的壁龛。 区间$A = 0, \pi$可与G的共轭类空间、G的元素$\theta$识别
 
 $(e^{i\theta}$ 0 $)$
 
@@ -305,13 +305,13 @@ $\overline{A}$相应的至共轭类共$-_{i\theta}$。设 $d\theta$ 为勒贝格
 
 0 $e$
 
-测量$0, \pi$；由上可知，G 上 Haar 测度的 $\overline{A}$ 上的像就是测度 $\frac{2}{\pi}$ sin$^2\theta  d\theta$。
+测量$0, \pi$；由上可知，G 上哈尔测度的$\overline{A}$上的像是测度$\frac{2}{\pi}$sin$^2\theta  d\theta$。
 
-### 3. 整合李代数
+### 3. 集成李代数
 
 #### 命题 2 {#lie-ix-s6-prop-2 .statement tag=01F9}
 
-令 H 为维数 $m,\mathfrak{h}$ 的（实数）李群李代数。令$\omega_H$为H上次数$m$的右不变微分形式，令$\omega_{\mathfrak{h}}$为次数$m$在$\mathfrak{h}$上的平移不变微分形式， 重合，原点为 $\omega_H(e)$。我们有
+令 H 为维数 $m,\mathfrak{h}$ 的（实）李群李代数。令$\omega_H$为次数$m$在H上的右不变微分形式，令$\omega_{\mathfrak{h}}$为次数$m$在$\mathfrak{h}$上的平移不变微分形式， 重合，原点为 $\omega_H(e)$。我们有
 
 (经验$_H$)$^*\omega_H=\lambda_{\mathfrak{h}}\omega_{\mathfrak{h}}$ (10)
 
@@ -355,7 +355,7 @@ $\alpha \in R(G,T)$
 
 设$\omega_{G/T}$为$G/T$上次数$n-r$的不变微分形式，$\omega_{\mathfrak{t}}$为$\mathfrak{t}$上次数$r$的平移不变微分形式。对于no. 1的记号，用$\omega_{G/T}\cap \omega_{\mathfrak{t}}$表示$\mathfrak{g}$上次数$n$的唯一平移不变微分形式$\omega_{\mathfrak{g}}$，使得$\omega_{\mathfrak{g}}(0) =\omega_{G/T}(\overline{e})\cap \omega_{\mathfrak{t}}(0)$。
 
-最后，用映射 $(g, x) \rightarrow$ (Ad $g$)$(x)$ 从 $G\times \mathfrak{t}$ 到 $\mathfrak{g}$ 通过商的传递来表示流形的 $\psi : (G/T)\times \mathfrak{t}\rightarrow \mathfrak{g}$ 态射。
+最后，用流形的$\psi : (G/T)\times \mathfrak{t}\rightarrow \mathfrak{g}$态射表示，由映射$(g, x) \rightarrow$（Ad$g$）$(x)$从$G\times \mathfrak{t}$到$\mathfrak{g}$通过传递到商。
 
 #### 命题 3 {#lie-ix-s6-prop-3 .statement tag=01FB}
 
@@ -385,13 +385,13 @@ $\psi^*$exp$^*_G\omega_G=\omega_{G/T}\wedge \delta_{\mathfrak{g}}\omega_{\mathfr
 
 由此得出形式$\psi^*\omega_G(\overline{g}, x)$和$\omega_{G/T}(\overline{g})\wedge \pi_{\mathfrak{g}}(x)\omega_{\mathfrak{t}}(x)$重合，其中$\delta_{\mathfrak{g}}(x)$非零，即在密集开子集$(G/T)\times \mathfrak{t}_r$上；因此，它们是相等的，因此命题。
 
-Choose invariant differential forms $\omega_G$ on G and $\omega_T$ on T, of maximum degree, such that $|\omega_G|=dg$ and $|\omega_T|=dt$; denote by $\omega_{\mathfrak{g}}$ (resp. $\omega_{\mathfrak{t}}$) the translation-invariant differential form on $\mathfrak{g}$ (resp. $\mathfrak{t}$) that coincides with $\omega_G(e)$ (resp. $\omega_T(e)$) at the origin, and $dz$ (resp. $dx$) the Haar measure $|\omega_{\mathfrak{g}}|$ (resp. $|\omega_{\mathfrak{t}}|$). 推理如no. 2，经必要修正后，给出以下命题：
+选择 G 上的最大阶不变微分形式 $\omega_G$ 和 T 上的 $\omega_T$，使得 $|\omega_G|=dg$ 和 $|\omega_T|=dt$；用$\omega_{\mathfrak{g}}$（分别$\omega_{\mathfrak{t}}$）表示$\mathfrak{g}$（分别$\mathfrak{t}$）上的平移不变微分形式，与原点处的$\omega_G(e)$（分别$\omega_T(e)$）重合，以及$dz$（分别$dx$）哈尔测度$|\omega_{\mathfrak{g}}|$（分别为$|\omega_{\mathfrak{t}}|$）。 推理如no. 2，经必要修正后，给出以下命题：
 
 #### 命题 4 {#lie-ix-s6-prop-4 .statement tag=01FC}
 
 $\mathfrak{g}$ 上的度量$dz$ 是度量$dg\otimes \frac{1}{w(G)}\pi_{\mathfrak{g}}dx$ 的适当映射 $(g, x) \rightarrow$（Ad $g$）$(x)$ 下的像，从$G\times \mathfrak{t}$ 到$\mathfrak{g}$。
 
-我们将Cor的类似物留给读者叙述和证明。 no. 2的1至3和注1至3。对于例，令$\varphi$为$\mathfrak{g}$上的可积函数（值位于Banach空间或$\overline{\mathbf{R}}$）；然后
+我们将Cor的类似物留给读者叙述和证明。 no. 2的1至3和注1至3。例如，让$\varphi$在$\mathfrak{g}$上成为可积函数（在Banach空间或$\overline{\mathbf{R}}$中使用值）；然后
 
 $\int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}(\int_G\varphi$((广告$g$)$x$)$dg)\pi_{\mathfrak{g}}(x)dx$, (12)
 
@@ -401,9 +401,9 @@ $$
 \int_{\mathfrak{g}}\varphi (z)dz=\frac{1}{w(G)}\int_{\mathfrak{t}}\varphi (x)\pi_{\mathfrak{g}}(x)dx \tag{13}
 $$
 
-### 4. 截面向量丛的积分
+### 4. 截面与向量丛的积分
 
-In this number and the next, we denote by X a real manifold of class $C^r$ $(1\leq r\leq  \infty )$, locally of finite dimension.
+在这个数字和下一个数字中，我们用X表示类$C^r$$(1\leq r\leq  \infty )$类的实流形，局部有限维。
 
 令 Y 为类 $C^r$ 中的流形。如果$r <\infty$，请考虑映射$f \rightarrow$$j^r(f)$从$\mathscr{C}^r(X; Y)$到$\mathscr{C}(X; J^r(X,Y)) ($可微分和解析流形，结果，12.3.7）。 $\mathscr{C}(X; J^r(X,Y))$上紧致收敛的拓扑的映射下的逆像称为$C^r$紧致收敛的拓扑-$\mathscr{C}^r(X; Y)$上收敛；它是 K 上均匀 $C^r$ 收敛拓扑的上界（可微分和解析流形，结果，12.3.10），其中 K 穿过 X 的紧凑子集的集合。
 
@@ -487,7 +487,7 @@ $$
 
 #### 推论 3 {#lie-ix-s6-prop-5-cor-3 .statement tag=01FH}
 
-Let F be a Banach space, $p$ an integer $\geq 0,^k\Omega^p(X; F)$ the space of differential forms of degree $p$ on X, with values in F, and of class $C^k(2\leq k+ 1\leq r)$. 对于$\omega \in^k\Omega^p(X; F)$，输入$\omega^{\sharp}=\int_H\tau_h^*\omega  dh$。 那么映射$\omega  \rightarrow \omega^{\sharp}$是$^k\Omega^p(X; F)$上的投影，其像是H不变形式的子空间。 我们对所有$\omega \in^k\Omega^p(X; F)$都有$d(\omega^{\sharp}) = (d\omega )^{\sharp}$。
+设 F 为 Banach 空间，$p$ 整数 $\geq 0,^k\Omega^p(X; F)$ X 上 $p$ 度的微分形式空间，值在 F 中，属于$C^k(2\leq k+ 1\leq r)$ 类。 对于$\omega \in^k\Omega^p(X; F)$，输入$\omega^{\sharp}=\int_H\tau_h^*\omega  dh$。 那么映射$\omega  \rightarrow \omega^{\sharp}$是$^k\Omega^p(X; F)$上的投影，其像是H不变形式的子空间。 我们对所有$\omega \in^k\Omega^p(X; F)$都有$d(\omega^{\sharp}) = (d\omega )^{\sharp}$。
 
 第一个断言源自应用于向量 H-bundle Alt$^p(T(X); F)$的命题（第III, §1, no. 8，例）。 为了证明第二个断言，鉴于积分，第 1 章就足够了。 III, §3, no. 2，命题 2，证明当第一个（或第二个）空间给出紧凑 $C^k$ 收敛（或$C^{k-1}$-收敛）的拓扑时，映射 $d:^k\Omega^p(X; F)\rightarrow^{k-1}\Omega^{p+1}(X; F)$ 是连续的。 但这是通过半范数（谱理论，准备中）和$d$是阶$\leq 1 ($可微分和解析流形，结果，14.4.2）的微分算子这一事实直接从这些拓扑的定义得出的。
 
@@ -559,7 +559,7 @@ $$
 
 因此Th。 2.
 
-我们在 X = G 的情况下应用定理，对于 G 的作用进行左平移。 Recall (Chap. III, §3, no. 13, Prop. 50) that associating to a differential form on G its value at the identity element gives an isomorphism from $\Omega (G)^G$ to the graded algebra Alt($\mathfrak{g}$) of alternating multilinear forms on $\mathfrak{g}$. 认同 $\Omega (G)^G$ 与 Alt($\mathfrak{g}$) 通过此同构。 运算符 $d$ 由公式给出（第 III, §3, no. 14 章，第 51 条命题）
+我们在 X = G 的情况下应用定理，对于 G 的作用进行左平移。 回想一下（第 III, §3, no. 13 章，命题 50），将 G 上的微分形式与单位元处的值关联起来，给出了从 $\Omega (G)^G$ 到 $\mathfrak{g}$ 上交替多线性形式的分级代数 Alt($\mathfrak{g}$) 的同构。 认同 $\Omega (G)^G$ 与 Alt($\mathfrak{g}$) 通过此同构。 运算符 $d$ 由公式给出（第 III, §3, no. 14 章，第 51 条命题）
 
 $$
 d\omega (a_1, . . . , a_{p+1})
@@ -583,7 +583,7 @@ $$
 
 对于 Alt$^p(\mathfrak{g})$ 中的 $\omega$ 和 $\mathfrak{g}$ 中的 $a_1, . . . , a_p$。
 
-The subcomplex $^G\Omega (G)^G$ of biinvariant forms (Chap. III, §3, no. 13) can be identified with the subcomplex Alt($\mathfrak{g}$)$^G$ of alternating multilinear forms on $\mathfrak{g}$ invariant under the adjoint representation (that is, such that $\theta (\xi )\omega = 0$ for all $\xi \in \mathfrak{g}$). 因此，我们有一个可交换的复数图表
+双不变量形式的子复形$^G\Omega (G)^G$（第III, §3, no. 13）可以用伴随表示下$\mathfrak{g}$不变量上交替多线性形式的子复形Alt($\mathfrak{g}$)$^G$来识别（即，对于所有$\xi \in \mathfrak{g}$都有$\theta (\xi )\omega = 0$）。 因此，我们有一个可交换的复数图表
 
 $$
 ^G\Omega (G)^G\longrightarrow \Omega (G)^G\longrightarrow \Omega (G)
@@ -621,7 +621,7 @@ c) 分级的向量空间$H(\Omega (G))$同构于Alt($\mathfrak{g}$)$^G$。
 
 a) 典范嵌入 $\Omega (G/H)^G\rightarrow \Omega (G/H)$ 是同伦。
 
-b) 复数 $\Omega (G/H)^G$ 可以用 Alt($\mathfrak{g}$) 的元素 $\omega$ 的 Alt($\mathfrak{g}$) 由……组成的子复数来识别，它们在 H 的伴随表示下保持不变，并且对于所有的$i(\xi )\omega = 0$ $\xi \in L(H)$。如果在加法中，H是连通的，则该子复合体由$\omega \in$ Alt($\mathfrak{g}$)组成，使得$\theta (\xi )\omega = 0$和$i(\xi )\omega = 0$适用于所有$\xi \in L(H)$。
+b) 复数 $\Omega (G/H)^G$ 可以用 Alt($\mathfrak{g}$) 的元素 $\omega$ 的 Alt($\mathfrak{g}$) 由……组成子复形来识别，它们在 H 的伴随表示下保持不变，并且对于所有$i(\xi )\omega = 0$ $\xi \in L(H)$。如果在加法中，H是连通的，则该子复合体由$\omega \in$ Alt($\mathfrak{g}$)组成，使得$\theta (\xi )\omega = 0$和$i(\xi )\omega = 0$适用于所有$\xi \in L(H)$。
 
 ### 习题{#lie-ix-s6-exercises}
 

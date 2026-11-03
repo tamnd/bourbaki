@@ -41,16 +41,16 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 78b084d2d972560fa4de87f2e737bf8b1ac24eb3edd9fa0bfe6d12b4e11d86bd
+content_sha256: 9332118a38c48b4f9d2336c4f7a49b484851c2e85467cc87524d19538dfc4cf9
 translated_from: content/en/int/V/08_s8_products_of_measures.md
 translation_method: google
 source_content_sha256: 80b705b3f9f0e254836af8cc36405c37a16c85755c16c07cdd40f1fdbc7ea3e4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 891ef951d6a1cbcf8179860ea5bc0cb857a7930cc80dc3d7e072854f45fb6d65
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 8。 乘积措施
@@ -104,7 +104,7 @@ $$
 
 #### 注{#int-v-s8-n1-rem-1 .statement tag=0971}
 
-引理 1,2,3 可以通过直接论证非常简单地证明，而无需使用 §§4 和 6 的结果。对于例，如果$f \in \mathscr{K}(T \times T')$，则关系 (2) 通过定义是明显的。如果$f$在$X = T \times T'$上是下半连续，则足以观察到$t' \mapsto f_t(t')$是函数$t' \mapsto g_t(t') = g(t, t')$的上包络，其中$g$在$\mathscr{K}(X)$中越过函数的集合，使得$0 \leq g \leq f$。最后，对于任意$f$，有一个注，如果$h \geq f$在$X$上是下半连续，那么$t' \mapsto h(t, t')$在$T'$上是下半连续；反之，如果 $t' \mapsto u(t')$ 在 $T'$ 上是下半连续，且对于所有 $t' \in T'$ 都具有 $u(t') \geq f(t, t')$，则函数 $h$ 使得 $h(t, t') = u(t')$、$h(t_1, t') = +\infty$ 对于 $t_1 \neq t'$ 是下半连续$X$且满足$h \geq f$。一旦引理 1 被证明，就可以从中推出集合 $(T - \{t\}) \times T'$ $\lambda'_t$ 可以忽略不计，然后很容易证明引理 2 和 3。
+引理 1,2,3 可以通过直接论证非常简单地证明，而无需使用 §§4 和 6 的结果。例如，如果$f \in \mathscr{K}(T \times T')$，则关系 (2) 通过定义是明显的。如果$f$在$X = T \times T'$上是下半连续，则足以观察到$t' \mapsto f_t(t')$是函数$t' \mapsto g_t(t') = g(t, t')$的上包络，其中$g$在$\mathscr{K}(X)$中超过函数的集合，使得$0 \leq g \leq f$。最后，对于任意$f$，我们注意到如果$h \geq f$在$X$上是下半连续的，那么$t' \mapsto h(t, t')$在$T'$上是下半连续的；相反，如果 $t' \mapsto u(t')$ 在 $T'$ 上是下半连续，并且对于所有 $t' \in T'$ 来说$u(t') \geq f(t, t')$，则函数 $h$ 使得 $h(t, t') = u(t')$、$h(t_1, t') = +\infty$ 对于 $t_1 \neq t'$ 来说是下半连续$X$且满足$h \geq f$。一旦证明了引理 1，就可以从中推出集合 $(T - \{t\}) \times T'$ $\lambda'_t$可以忽略不计，然后很容易证明引理 2和3。
 
 关系 (3) 允许用 $\int f(t, t') \, d\mu'(t')$ 表示其两个成员，而不存在混淆的风险。类似的结果显然适用于措施$\lambda_{t'} = \mu \otimes \varepsilon_{t'}$。
 
@@ -114,19 +114,19 @@ $$
 \int^* f(t, t') \, d\nu(t, t'), \quad \int^\bullet f(t, t') \, d\nu(t, t'), \quad \int f(t, t') \, d\nu(t, t'),
 $$
 
-我们将雇佣记号
+我们将雇用记号
 
 $$
 \iint^* f(t, t') \, d\mu(t) \, d\mu'(t'), \quad \iint^\bullet f(t, t') \, d\mu(t) \, d\mu'(t'), \quad \iint f(t, t') \, d\mu(t) \, d\mu'(t'),
 $$
 
-与第 1 章采用的记号一致。 III, §4, No. 1。
+与第 1 章中采用的记号一致。 III, §4, No. 1。
 
-将措施$\nu$解释为积分$\int \lambda'_t \, d\mu(t)$将使我们能够将§3的结果翻译成乘积措施的语言。另一方面，度量$\lambda'_t$由$\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$承载，因此将$\nu$的定义分解积分为切片，相对于$T \times T'$的投影$\mathrm{pr}_1$到$T$（§6, No. 6）。 之前给出了如此获得的结果的列表，这是一个有用的性质：
+将$\nu$措施解释为积分$\int \lambda'_t \, d\mu(t)$将使我们能够将§3的结果翻译成乘积措施的语言。另一方面，度量$\lambda'_t$由$\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$承载，因此将$\nu$的定义分解积分为切片，相对于$T \times T'$的投影$\mathrm{pr}_1$到$T$（§6, No. 6）。 之前给出了如此获得的结果的列表，这里是一个有用的性质：
 
 #### 命题 1 {#int-v-s8-prop-1 .statement tag=0972}
 
-— 令$(\mu_\alpha)_{\alpha \in A}$（或$(\mu'_\beta)_{\beta \in B}$）为T（或T'）上的正测度的可求和族，其中和表示为$\mu$（或$\mu'$）。然后，族 $(\mu_\alpha \otimes \mu'_\beta)_{(\alpha, \beta) \in A \times B}$ 可在 $T \times T'$ 上求和，并且
+— 令 $(\mu_\alpha)_{\alpha \in A}$（分别为 $(\mu'_\beta)_{\beta \in B}$）为 T（分别为 T'）上的正测度的可求和族，其中和表示为 $\mu$（分别表示为 $\mu'$）。然后，族 $(\mu_\alpha \otimes \mu'_\beta)_{(\alpha, \beta) \in A \times B}$ 可在 $T \times T'$ 上求和，并且
 
 $$
 \mu \times \mu' = \sum_{(\alpha, \beta) \in A \times B} \mu_\alpha \otimes \mu'_\beta.
@@ -138,9 +138,9 @@ $$
 \sum_{(\alpha, \beta) \in A' \times B'} \mu_\alpha \otimes \mu'_\beta \leq \mu \otimes \mu'.
 $$
 
-因此，族$(\mu_\alpha \otimes \mu'_\beta)$是可求和的。为了证明(4)的两个成员相等，只需证明第二个成员满足乘积测度(Ch.III, §4, No. 1，Th.1)的特征性质即可，这由以下计算表明。
+因此，族$(\mu_\alpha \otimes \mu'_\beta)$是可求和的。为了证明（4）的两个成员相等，只需证明第二个成员满足乘积测度（Ch.III, §4, No. 1，Th.1）的特征性质即可，这由以下计算得出。
 
-令$f$为$\mathscr{K}_+(T)$的元素，$\mathscr{K}_+(T')$的$f'$元素；回想一下，$f \otimes f'$表示$T \times T'$上的函数$(t, t') \mapsto f(t)f'(t')$，其中属于到$\mathscr{K}_+(T \times T')$（A，II, §7, No. 7）。然后，通过乘积措施中的定义，
+令$f$为$\mathscr{K}_+(T)$的元素，$f'$元素为$\mathscr{K}_+(T')$；回想一下，$f \otimes f'$表示$T \times T'$上的函数$(t, t') \mapsto f(t)f'(t')$，其中属于到$\mathscr{K}_+(T \times T')$（A，II, §7, No. 7）。然后，通过乘积措施中的定义，
 
 $$
 \sum_{(\alpha, \beta) \in A \times B} \langle \mu_\alpha \otimes \mu'_\beta, f \otimes f' \rangle = \sum_{(\alpha, \beta) \in A \times B} (\langle \mu_\alpha, f \rangle \langle \mu'_\beta, f' \rangle)
@@ -159,11 +159,11 @@ a) 如果 $f$ 对于 $\nu$ 调节的子集的 $T \times T'$ 的补集是常数�
 
 b) 如果 $\mu'$ 受到调节，则 M $\mu$ 可忽略不计。
 
-断言 a) 源自§3, No. 2 的命题 4b) 和No. 1 的注。对待b)、$\mu'$为有界测度序列$\mu'_n$和的注（§2, No. 3，命题4）； $f$可以相对于$\mu \otimes \mu'_n \leq \nu$进行测量，并且集合$M$是与测量$\mu'_n$相关的集合$M_n$的并（§ 2, No. 2，命题2）。因此，可以简化为 $\mu'$ 有界的情况，这是从 § 3, No. 2 的命题 4c) 得出的。
+断言 a) 源自§3, No. 2 的命题 4b) 和No. 1 的注。对于b)，请注意$\mu'$是有界测度的序列$\mu'_n$的和（§2, No. 3，命题4）； $f$可相对于$\mu \otimes \mu'_n \leq \nu$进行测量，集合$M$是与$\mu'_n$相关的集合$M_n$的并（§ 2, No. 2，命题2）。因此，可以简化为 $\mu'$ 有界的情况，这是从 § 3, No. 2 的命题 4c) 得出的。
 
 这叙述扩展立即转向复杂的措施（第 III, § 4, No. 2 章，第 3 条）。
 
-#### 推论{#int-v-s8-n2-cor-1 .statement tag=0974}
+#### 推论 {#int-v-s8-n2-cor-1 .statement tag=0974}
 
 — *令 A 为 $T \times T'$ 的 $\nu$ 可测子集，并令 M 为 $t \in T$ 的集合，使得 A 在 t 时的截面 $A(t)$ 不可测 $\mu'$。*
 
@@ -171,7 +171,7 @@ a) *如果 A 是 $\nu$-调节的，则 M 是 $\mu$-可忽略不计的。*
 
 b) *如果 A 在 $T'$ 上的投影是 $\mu'$ 调节的，则 M 局部 $\mu$ 可以忽略不计。*
 
-断言 a) 紧随命题 2 而来。 To establish b), denote by B a set, the union of a sequence of $\mu'$-integrable open sets in $T'$, that contains the projection of A on $T'$, and denote by $\mu'_1$ the moderated measure $\varphi_B \cdot \mu'$; since A is measurable with respect to $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Prop. 2 implies that $A(t)$ is $\mu'_1$-measurable, except for $t$ forming a locally $\mu$-negligible set. 但从$A(t) \subset B$开始，说$A(t)$是$\mu'_1$可测就相当于说$A(t)$是$\mu'$可测（§ 5, No. 3，Prop.4的Cor.）。
+断言 a) 紧随命题 2 而来。 建立b)，用B表示一个集合，即$T'$中$\mu'$可积开集序列的并集，其中包含A在$T'$上的投影，并用$\mu'_1$表示调节测度$\varphi_B \cdot \mu'$；由于 A 相对于 $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$ 是可测量的，因此命题 2 意味着 $A(t)$ 是 $\mu'_1$ 可测量的，除了 $t$ 形成局部 $\mu$ 可忽略的集合。 但从$A(t) \subset B$开始，说$A(t)$是$\mu'_1$可测就相当于说$A(t)$是$\mu'$可测（§ 5, No. 3，Prop.4的Cor.）。
 
 #### 命题 3 {#int-v-s8-prop-3 .statement tag=0975}
 
@@ -210,21 +210,21 @@ $$
 
 第一个断言源自 Cor。 §6, No. 6 第 10 号提案 1。为了建立第二个断言，让我们再次讨论命题3的证明中的记号； $A \times T' = \mathrm{pr}_1^{-1}(A)$ 对于测量 $\nu_1$ 来说是局部可忽略的，因此 $A$ 对于 $a\mu$ 来说是局部可以忽略不计的（§ 6, No. 2，第 2 条命题），从而自 $a \neq 0$ 以来的结果。
 
-前面的叙述扩展同时到乘积两个复杂的措施（第 III, §4, No. 2，第 3 章），以下推论也是如此。
+前面的叙述扩展同时到乘积两个复杂的措施（第 III, §4, No. 2，第 3 条），下面的推论也是如此。
 
-#### 推论{#int-v-s8-n2-cor-2 .statement tag=097A}
+#### 推论 {#int-v-s8-n2-cor-2 .statement tag=097A}
 
 — *如果措施$\mu$（或$\mu'$）集中于$M$（或$M'$），则$\mu \otimes \mu'$集中于$M \times M'$。*
 
 因为，$(T \times T') - (M \times M')$是集合、$(T - M) \times T'$和$T \times (T' - M')$的并，根据命题4，$\mu \times \mu'$在局部可以忽略不计。
 
-### 3. 整合积极函数
+### 3. 正整合函数
 
-回想一下，我们已经同意定义乘积 $0 \cdot (+\infty)$ 等于 0。该约定特别具有以下推论：如果 $f$ 是一个数字函数 $\geqslant 0$ 定义在配备有正测度的局部紧凑空间上$\lambda$，然后对于每个常数 $a$ $\lambda^*(af) = a \cdot \lambda^*(f)$，使得 $0 \leqslant a \leqslant +\infty$。如果$a = 0$，这是显而易见的；如果$a = +\infty$，则$\lambda^*(af) = a \cdot \lambda^*(f) = 0$或$\lambda^*(af) = a \cdot \lambda^*(f) = +\infty$根据$f$是$\lambda$-可忽略或不可忽略；最后，如果$0 < a < +\infty$，就知道$\lambda^*(af) = a \cdot \lambda^*(f)$。
+回想一下，我们已经同意定义乘积 $0 \cdot (+\infty)$ 等于 0。该约定特别具有以下推论：如果 $f$ 是一个数值函数 $\geqslant 0$ 定义在配备有正测度的局部紧凑空间上$\lambda$，然后对于每个常数 $a$ $\lambda^*(af) = a \cdot \lambda^*(f)$，使得 $0 \leqslant a \leqslant +\infty$。如果$a = 0$，这是显而易见的；如果$a = +\infty$，则$\lambda^*(af) = a \cdot \lambda^*(f) = 0$或$\lambda^*(af) = a \cdot \lambda^*(f) = +\infty$根据$f$是$\lambda$-可忽略或不可忽略；最后，如果$0 < a < +\infty$，就知道$\lambda^*(af) = a \cdot \lambda^*(f)$。
 
 #### 命题 5 {#int-v-s8-prop-5 .statement tag=097B}
 
-— 令 $f$ 为数值函数 $\geqslant 0$，$T \times T'$ 上的下半连续。然后，函数
+— 令 $f$ 为数值函数 $\geqslant 0$，在 $T \times T'$ 上下半连续。然后，函数
 
 $$
 t \mapsto \int^* f(t, t') \, d\mu'(t')
@@ -240,13 +240,13 @@ $$
 
 #### 推论 1 {#int-v-s8-prop-5-cor-1 .statement tag=097C}
 
-— 令$f$（或$f'$）为在$T$（或$T'$）上定义的下半连续函数$\geqslant 0$；那么函数$f \otimes f' : (t, t') \mapsto f(t)f'(t')$是$T \times T'$上的下半连续，并且
+— 令$f$（或$f'$）为在$T$（或$T'$）上定义的下半连续函数$\geqslant 0$； 函数 $f \otimes f' : (t, t') \mapsto f(t)f'(t')$ 是$T \times T'$ 上的下半连续，并且
 
 $$
 \iint^* f(t)f'(t') \, d\mu(t) \, d\mu'(t') = \left( \int^* f(t) \, d\mu(t) \right) \left( \int^* f'(t') \, d\mu'(t') \right).
 $$
 
-令$G$（分别$G'$）为函数$g \in \mathscr{K}_+(T)$（分别$g' \in \mathscr{K}_+(T')$）的集合，使得$g \leqslant f$（分别$g' \leqslant f'$）；那么
+令$G$（或$G'$）为函数$g \in \mathscr{K}_+(T)$（或$g' \in \mathscr{K}_+(T')$）的集合，使得$g \leqslant f$（或$g' \leqslant f'$）；然后
 
 $$
 f \otimes f' = \sup_{g \in G,\ g' \in G'} g \otimes g'.
@@ -280,9 +280,9 @@ $$
 
 #### 命题 7 {#int-v-s8-prop-7 .statement tag=097G}
 
-— 令 $f$ 为定义在 $T \times T'$ 上的 $\nu$ 可测量正数值函数。
+— 令 $f$ 为在 $T \times T'$ 上定义的 $\nu$ 可测量正数值函数。
 
-a) *如果 $f$ 是 $\nu$ 调节的，则函数* $t \mapsto \int^* f(t, t') d\mu'(t')$、$t' \mapsto \int^* f(t, t') d\mu(t)$ *可分别针对 $\mu$ 和 $\mu'$ 进行测量和调节，并且*
+a) *如果 $f$ 是 $\nu$ 调节的，则函数* $t \mapsto \int^* f(t, t') d\mu'(t')$、$t' \mapsto \int^* f(t, t') d\mu(t)$ *分别对于 $\mu$ 和 $\mu'$ 是可测量和调节的，并且*
 
 $$
 \iint^* f(t, t') d\mu(t) d\mu'(t') = \int^* d\mu(t) \int^* f(t, t') d\mu'(t')
@@ -315,7 +315,7 @@ b) *如果$H$局部$\nu$可忽略不计且$\mu'$受到调节，则$A$局部$\mu$
 
 性质 a) 立即来自第 7 号提案（或第 6 号提案）。在b)的假设下，说$H(t)$是局部μ′-可忽略的或者它是μ′-可忽略的，因为μ′是调节的（§1, No. 2，命题7）。因此性质 b) 由公式 (8) 得出。
 
-这个推论立即扩展，通过两个复杂措施的绝对值，到乘积。对于以下推论也是如此：
+这个推论扩展，通过两个复杂措施的绝对值，到乘积。以下推论也是如此：
 
 #### 推论 2 {#int-v-s8-prop-7-cor-2 .statement tag=097I}
 
@@ -342,13 +342,13 @@ $$
 = \left( \int^* f(t)\, d\mu(t) \right) \left( \int^* f'(t')\, d\mu'(t') \right).
 $$
 
-为了建立反向不等式，让我们选择函数$h \geq f$（分别$h' \geq f'$），即下半连续函数的序列$(h_n)$（分别$(h'_n)$）的下包络线，这样
+为了建立反向不等式，让我们选择函数$h \geq f$（分别为$h' \geq f'$），即下半连续函数的序列$(h_n)$（分别为$(h'_n)$）的下包络，使得
 
 $$
 \int^* h(t)\, d\mu(t) = \int^* f(t)\, d\mu(t)
 $$
 
-（分别$\int^* h'(t')\, d\mu'(t') = \int^* f'(t')\, d\mu'(t')$）；这种函数的存在紧随上积分（第IV, §1, No. 3，定义3）的定义和勒贝格的定理而来。 应用提案 7 对于可测量的函数 $h \otimes h'$，我们有
+（分别$\int^* h'(t')\, d\mu'(t') = \int^* f'(t')\, d\mu'(t')$）；这种函数的存在紧随上积分（第IV, §1, No. 3，定义3）的定义和勒贝格的定理而来。 应用提案 7 到可测量的函数 $h \otimes h'$，我们有
 
 $$
 \iint^* f(t)f'(t')\, d\mu(t)\, d\mu'(t') \leq \iint^* h(t)h'(t')\, d\mu(t)\, d\mu'(t')
@@ -370,7 +370,7 @@ $$
 \iint^* f(t)f'(t')\,d\mu(t)\,d\mu'(t') = \left( \int^* f(t)\,d\mu(t) \right) \left( \int^* f'(t')\,d\mu'(t') \right)
 $$
 
-除非第二个成员的因子之一等于0而另一个等于$+\infty$。
+除非第二个成员的因子之一等于0，另一个等于$+\infty$。
 
 当第二个成员的两个因子有限时，函数$f$和$f'$受到调节（§ 1, No. 2，提案7），因此函数$f \otimes f'$受到调节（提案5的Cor.2）；上述等式因此约化至公式 (10)（§ 1, No. 2，提案 7）。当第二个成员的因子之一具有值$+\infty$而另一个不是零时，则第二个成员具有值$+\infty$，则上述等式由命题6得出。
 
@@ -497,7 +497,7 @@ $$
 
 b) 现在假设 $\pi \times \pi'$ 是 $\mu \otimes \mu'$ 真值，$\mu' \neq 0$。令 $\mu_1$ 为具有紧支撑的测度 $\leq \mu$。 函数$\pi \times \pi'$对于$\mu_1 \otimes \mu'$是可测量的，映射$t \mapsto (\pi(t), \pi'(t'))$是$\mu$可测量的，除了$t'$形成局部$\mu'$-可忽略的集合（No. 2，命题2）。由于$\mu' \neq 0$，$\pi$是$\mu_1$可测，最后$\pi$是$\mu$可测
 
-（§2, No. 3，提案 4 和 §2, No. 2，提案 2）。 还需要证明对于每个函数 $f \in \mathscr{K}_+(\mathrm{T}_1)$ 都有 $\mu^\bullet(f \circ \pi) < +\infty$。 如果$\mu$是零，这个性质是显而易见的。 If $\mu$ is not zero, then neither is $\mu \otimes \mu'$, consequently $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§6, No. 2, Cor. 1 of Prop. 2). 由 Ch. 引理 1 开始 III, §4, No. 1，存在两个函数$g \in \mathscr{K}_+(\mathrm{T}_1)$，$g' \in \mathscr{K}_+(\mathrm{T}'_1)$使得
+（§2, No. 3，提案 4 和 §2, No. 2，提案 2）。 还需要证明对于每个函数 $f \in \mathscr{K}_+(\mathrm{T}_1)$ 都有 $\mu^\bullet(f \circ \pi) < +\infty$。 如果$\mu$是零，这个性质是显而易见的。 如果$\mu$不为零，则$\mu \otimes \mu'$也不为零，因而$(\pi \times \pi')(\mu \otimes \mu') \neq 0$（§6, No. 2，第2条命题的Cor.1）。 由 Ch. 引理 1 开始 III, §4, No. 1，存在两个函数$g \in \mathscr{K}_+(\mathrm{T}_1)$，$g' \in \mathscr{K}_+(\mathrm{T}'_1)$使得
 
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
@@ -536,7 +536,7 @@ $$
 
 ### 6. 关于有限乘积测度的积分
 
-前面的结果可以毫无困难地扩展到有限数措施中的乘积。对于例，令$T_1, T_2, T_3$为三个局部紧致空间，$\mu_i$为$T_i$（$i = 1, 2, 3$）的正测度，并令ν = μ₁⊗μ2⊗μ₃为乘积在T = T₁×T2×T₃上的测度。令 f 为 ν 可积函数，其中 $\overline{\mathbf{R}}$ 或 Banach 空间中的值； Lebesgue–Fubini 定理的首次应用表明，除了在点 $(t_1, t_2) \in T_1 \times T_2$ 处形成可忽略不计的集合（对于 $\mu_1 \otimes \mu_2$），函数 $t_3 \mapsto f(t_1, t_2, t_3)$ 是 $\mu_3$ 可积的，函数
+前面的结果可以毫无困难地扩展到有限数措施中的乘积。例如，令 $T_1, T_2, T_3$ 为三个局部紧凑空间，$\mu_i$ $T_i$ ($i = 1, 2, 3$) 上的正测度，并令 ν = μ₁ ⊗ μ2 ⊗ μ₃ 为乘积 T = T₁ × T2 × T₃ 上的测度。令 f 为 ν 可积函数，其中 $\overline{\mathbf{R}}$ 或 Banach 空间中的值； Lebesgue–Fubini 定理的第一次应用表明，除了在点 $(t_1, t_2) \in T_1 \times T_2$ 处形成可忽略不计的集合（对于 $\mu_1 \otimes \mu_2$），函数 $t_3 \mapsto f(t_1, t_2, t_3)$ 是 $\mu_3$ 可积的，函数
 
 $$
 (t_1, t_2) \mapsto \int f(t_1, t_2, t_3) \, d\mu_3(t_3),
@@ -612,7 +612,7 @@ $$
 V_n = \frac{\pi^{n/2}}{\Gamma \left( \frac{n}{2} + 1 \right)} .
 $$
 
-Exercises
+习题
 
 ### 习题{#int-v-s8-exercises}
 

@@ -41,21 +41,21 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: 1c93e08e2809bfd4357b268cdc2d9b43784e82b70d04241244280cbe529c5876
+content_sha256: 93a7baa63cace7f828fdad016f47562150ee0a712f9dcd3ae0eb780fde879b8f
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
 translation_method: google
 source_content_sha256: 39903d36e71fd82b177991bd175a5a56543cc66eaadad8c82a42b81dab501389
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 8f3d55d61f7870ec5c3bd4b14a7cb65116cfdb7450e44c677c758fa0efe491e6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 5. 有限生成射影模。可逆分数理想
 
-### 1. 相对于元素的定位
+### 1. 关于元素的本地化
 
 令 $A$ 为环，且 $M$ 为 $A$ 模块。 对于每个元素 $f \in A$，我们应该写 $A_f = A[f^{-1}], M_f = M[f^{-1}] = M \otimes_A A[f^{-1}]$（§ 2，第 1 和第 2）；如果 $n \geq 0$ 的 $S_f$ 为集合关闭”，则 $A_{S_f} = S_f^{-1}A, M_{S_f} = S_f^{-1}M$。 Iff 在 $A$ 中可逆，$A_f$（分别为 $M_f$）被规范地识别为 $A$（分别为 $M$）； iff 是幂零的，则 $A_f = 0$ 和 $M_f = 0$。 对于每个$A$-模块同态$u : M \to N$，我们写$u_f = u \otimes 1 : M_f \to N_f$。
 
@@ -65,7 +65,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 *令$f$为环$A$和$\phi : A \to A_f$、典范映射中的元素。 映射 $^a\phi : \operatorname{Spec}(A_f) \to \operatorname{Spec}(A)$ 是 $\operatorname{Spec}(A_f)$ 到 $X = \operatorname{Spec}(A)$ (§ 4, no. 3) 的开子空间 $X_f$ 的同胚。*
 
-这是 § 4, no. 3 的特殊情况，命题 13 的推论。
+这是 § 4, no. 3、推论到命题 13 的特殊情况。
 
 #### 命题 2 {#ac-ii-s5-prop-2 .statement tag=04BF}
 
@@ -95,23 +95,23 @@ $$
 
 到§ 2，没有。 **4**，定理 1，每个$A_i$都是一个扁平的$A$模块，因此$B$也是（章I, § 2, no. 3，命题2）。另一方面，如果$p$是$A$的素理想，则存在指标$i$，因此$f_i \notin p$和$p_{f_i} = pA_{f_i}$是$A_{f_i}$的素理想。然后从 $pA_{f_i} \neq A_{f_i}$ 开始$pB \subset pA_{f_i} \times \prod_{j \neq i} A_j \neq B$；这足以暗示$B$是一个忠实的扁平$A$模块（章I, § 3, no. 1，命题1）。
 
-#### 推论{#ac-ii-s5-n1-cor-2 .statement tag=04BI}
+#### 推论 {#ac-ii-s5-n1-cor-2 .statement tag=04BI}
 
 *在命题 3 的假设下，对于一个* $A$*-模* $M$ *的有限生成（或有限呈现），对于每个指标* $i$，*该* $A_{f_i}$*-模* $M_{f_i}$ *为有限生成（或有限呈现）*。
 
-条件显然是必要的（§ 2，第**4**）。相反，如果所有 $M_{f_i}$ 都是有限生成（或有限呈现）的，则 $M' = \prod_{i \in I} M_{f_i}$ 是有限生成（或有限呈现）$B$ 模块，因为我们显然可以假设对于每个 $i$ 都有正合序列 $AT_i \to A^n_{f_i} \to M_{f_i} \to 0$，其中 $m$ 和$n$ *独立于* $i$。现在，$M' = M \otimes_A B$。然后从命题 3 和章 I, § 3 得出推论，没有。 **6**，命题11。
+条件显然是必要的（§ 2，第**4**）。相反，如果所有$M_{f_i}$都是有限生成（或有限呈现）的，则$M' = \prod_{i \in I} M_{f_i}$是有限生成（或有限呈现）$B$-模块，因为我们显然可以假设对于每个$i$，都有正合序列$AT_i \to A^n_{f_i} \to M_{f_i} \to 0$，其中$m$和$n$ *独立于* $i$。现在，$M' = M \otimes_A B$。 推论然后从命题 3 和章 I, § 3 开始，没有。 **6**，命题11。
 
-注 $f_i$ 上的条件意味着开集合 $X_{f_i}$ 形式 $\mathrm{Spec}(A)$ 的*覆盖*（§ 4, no. 3，推论 3 到命题 11）。
+请注意，$f_i$上的条件意味着开集合$X_{f_i}$形式*覆盖*$\mathrm{Spec}(A)$（§ 4, no. 3，推论3到命题11）。
 
-### 2. 本地刻画有限生成射影模
+### 2. 本地刻画共有限生成射影模
 
 #### 定理 1 {#ac-ii-s5-thm-1 .statement tag=04BJ}
 
-*设*$A$*为环和*$P$*一个*$A$*-模块*。 *以下属性是等效的*：
+*设*$A$*为环且*$P$*一个*$A$*-模块*。 *以下属性是等效的*：
 
 (a) $P$ *为有限生成射影模*。
 (b) $P$ *是有限呈现的模，并且对于每个最大理想* $m$ *的* $A$，$P_m$ *是一个自由* $A_m$*-模块*。
-(c) $P$ *是有限生成模，对于所有* $p \in \mathrm{Spec}(A)$，*$A_p$*-模块* $P_p$ *是免费的，如果我们用* $r_p$表示它的秩，*函数* $p \mapsto r_p$ *是局部常数拓扑空间* $\mathrm{Spec}(A)$ *（即，* $\mathrm{Spec}(A)$ 的每个点 *承认邻域，其中函数是常数）*。
+(c) $P$ * 是有限生成模，对于所有 * $p \in \mathrm{Spec}(A)$，* $A_p$*-模块* $P_p$ * 是免费的，并且，如果我们用* $r_p$ 表示其秩，则 *函数* $p \mapsto r_p$ * 是局部常数拓扑空间* $\mathrm{Spec}(A)$ *（即，* $\mathrm{Spec}(A)$ 的每个点 *承认邻域，其中函数是常数）*。
 
 (d) 存在$A$的元素的有限族$(f_i)_{i \in I}$，生成的理想的$A$，这样，对于所有$i \in I$，$A,$-模块$P_{f_i}$对于有限秩是自由的。
 
@@ -125,19 +125,19 @@ $$
 
 (三)
 
-(a) ⇒ (b)：我们知道有限生成射影模是有限呈现的 (章 I, § 2, no. 8, 引理 8 (iii))；如果$P$是射影$A$模，$P_m = P \otimes_A A_m$是射影$A_m$模（\emph{代数}，章II, § 5, no. 1，命题4的推论）；最后，由于 $A_m$ 是局部环，因此每个有限呈现的射影 $A_m$ 模都是自由的（§ 3, no. 2，命题 5 的推论）。
+(a) ⇒ (b)：我们知道有限生成射影模是有限呈现的 (章 I, § 2, no. 8, 引理 8 (iii))；如果 $P$ 是射影 $A$ 模，$P_m = P \otimes_A A_m$ 是射影 $A_m$ 模（\emph{代数}、章 II, § 5, no. 1、推论到命题 4）；最后，由于 $A_m$ 是局部环，因此每个有限呈现的射影 $A_m$ 模都是自由的（§ 3, no. 2、推论到命题 5）。
 
-(b) ⇒ (e)：这是从 no. 1 的命题 2 的推论得出的。
+(b) ⇒ (e)：这是从推论到命题 2 of no. 1 的结果。
 
-(c) ⇒ (e): 令$m$为$A$的极大理想；写出$r_m = n$，并令$(x_i)_{1 \leq i \leq n}$为$P$的基。我们可以假设$x_i$是元素$p_i \in P$$(1 \leq i \leq n)$的典范像到乘法乘可逆元的$A,$之内。令$(e_i)_{1 \leq i \leq n}$为$A^n$和$u : A^n \to P$同态的典范基，使得$u(e_i) = p_i$为$1 \leq i \leq n$。由于 $P$ 是有限生成的，因此从 no. 1 的命题 2 可以得出，存在 $f \in A - m$ 使得 $u_f$ 是满射的。我们结论认为$u_{f,g}$对于所有$g \in A - m$也是满射，并且到假设存在$g \in A - m$使得$r_p = n$对于$p \in X,$。然后，替换$f$乘以$f g$，我们可以假设$r_p = n$对于所有$p \in X,$。那么$u_p : A_p^n \to P_p$就是满同态，而$P_p$和$A_p$都是相同秩的免费$A,$模块；因而（§ 3, no. 2，命题 6 的推论）$u_p$ 对于所有 $p \in X_f$ 都是双射的。令$p'$为$A,$的素理想，令$p$为典范映射下$A$中的逆像；如果$(A_f^{n})_{p'}$和$(P_f)_{p'}$在典范同构下与$A_p^n$和$P_p$等同，则$(u_f)_{p'}$与$u_p$等同，因此是双射的。我们结论 $u_f$ 是双射 (§ 3, no. 3, 定理 1)，从而成立 (e)。
+(c) ⇒ (e): 令$m$为$A$的极大理想；写出$r_m = n$，并令$(x_i)_{1 \leq i \leq n}$为$P$的基。我们可以假设$x_i$是元素$p_i \in P$$(1 \leq i \leq n)$的典范像到乘法乘可逆元到$A,$的范围内。令$(e_i)_{1 \leq i \leq n}$为$A^n$和$u : A^n \to P$同态的典范基，使得$u(e_i) = p_i$为$1 \leq i \leq n$。由于 $P$ 是有限生成的，因此从 no. 1 的命题 2 可以得出，存在 $f \in A - m$ 使得 $u_f$ 是满射的。我们结论认为$u_{f,g}$对于所有$g \in A - m$也是满射，并且到假设存在$g \in A - m$使得$r_p = n$对于$p \in X,$。然后，替换$f$乘以$f g$，我们可以假设$r_p = n$对于所有$p \in X,$。那么$u_p : A_p^n \to P_p$就是满同态，$P_p$和$A_p$都是相同秩的免费$A,$模块；因而 (§ 3, no. 2, 推论到命题 6) $u_p$ 对于所有 $p \in X_f$ 都是双射的。令$p'$为$A,$的素理想，令$p$为典范映射下$A$中的逆像；如果$(A_f^{n})_{p'}$和$(P_f)_{p'}$在典范同构下与$A_p^n$和$P_p$等同，则$(u_f)_{p'}$与$u_p$等同，因此是双射的。我们结论 $u_f$ 是双射 (§ 3, no. 3, 定理 1)，从而成立 (e)。
 
 (e) ⇒ (d)：令 $E$ 为 $\in A$ 的集合，使得 $P_f$ 是有限生成的自由 $A_f$ 模块。 假设意味着$E$不包含在$A,$的最大理想中，因此$E$生成是理想$A$，因此存在$E$和$a_i \in A$$(1 \leq i \leq n)$的元素的有限族$(f_i)_{1 \leq i \leq n}$，这样那个$1 = \sum_{i=1}^n a_i f_i$； 从而 (d)。
 
-(d)⇒(c)：从no. 1推论到命题3，$P$是有限生成的。另一方面，对于$A$的每个素理想$p$，都存在指标$i$使得$p \in X_{f_i}$；如果$p' = p_{f_i}$，则$P_p = (P_{f_i})_{p'}$（§ 2, no. 5，命题
+(d)⇒(c)：从no. 1、推论到命题3，$P$是有限生成的。另一方面，对于$A$的每个素理想$p$，都存在指标$i$使得$p \in X_{f_i}$；如果$p' = p_{f_i}$，则$P_p = (P_{f_i})_{p'}$（§ 2, no. 5，命题
 
-10) 因此到假设 $P_p$ 是自由的并且与 $P_{f_i}$ 具有相同的秩，这证明了 (c)。
+10) 因此到假设$P_p$是自由的并且与$P_{f_i}$具有相同的秩，这证明了(c)。
 
-(d) ⇒ (a): 考虑环 $B = \prod_{i \in I} A_i$ 和 B-模
+(d) ⇒ (a)：考虑环 $B = \prod_{i \in I} A_i$ 和 B-模
 $$
 M = \prod_{i \in I} P_i = P \otimes_A B.
 $$
@@ -145,7 +145,7 @@ $$
 
 #### 推论 1 {#ac-ii-s5-thm-1-cor-1 .statement tag=04BK}
 
-假设叙述与定理 1 的等价性质成立。令m为整数 > 0，这样，对于P的元素的每个族$(x_i)_{1 \leq i \leq m}$，都存在A的元素的$(a_i)_{1 \leq i \leq m}$族，它们不全是零的除子且为$\sum_{i=1}^m a_i x_i = 0$。然后，对于所有 $p \in \operatorname{Spec}(A)$，$r_p \leq m$。
+假设叙述与定理 1 的等价性质成立。令m为整数 > 0，这样，对于P的元素的每个族$(x_i)_{1 \leq i \leq m}$，都存在A的元素的族$(a_i)_{1 \leq i \leq m}$，它们不全是零的除子并且对于其中$\sum_{i=1}^m a_i x_i = 0$。然后，对于所有 $p \in \operatorname{Spec}(A)$，$r_p \leq m$。
 
 设p是A的素理想； 集合 $r = r_p$ 并令 $(y_j)_{1 \leq j \leq r}$ 为免费 $A_p$ 模块 $P_p$ 的基。 P 和 $s \in A - p$ 存在元素 $x_j$ ($1 \leq j \leq r$)，使得$y_j = x_j / s$ 对于所有$j$。然后对于A的元素的每个家庭$(a_j)_{1 \leq j \leq r}$，使得$\sum_{j=1}^r a_j x_j = 0$，$\sum_{j=1}^r (a_j/1) y_j = 0$在$P_p$，从而$a_j/1 = 0$对于$1 \leq j \leq r$。由于$A - p$不为包含0，这表明$a_j$都是A中零的除子（§ 2, no. 1，注3），因此必然有$r \leq m$。
 
@@ -153,27 +153,27 @@ $$
 
 每个有限呈现的平面模都是投影的。
 
-如果 P 是有限呈现的平坦 A-模并且 m 是 A 的最大理想，则 $A_m$ 模 P 是平坦的（§ 3, no. 4，命题 13）并且是有限呈现的（§ 2, no. 4），因此是自由的（§ 3, no. 2，推论 2 到命题 5），因此，定理 1 的条件 (b) 成立。
+如果 P 是有限呈现的平坦 A-模并且 m 是 A 的最大理想，则 $A_m$ 模 P 是平坦的 (§ 3, no. 4, 命题 13) 且有限呈现 (§ 2, no. 4)，因此是自由的 (§ 3, no. 2, 推论 2 到命题 5), 定理 1 的条件 (b)因此成立。
 
 注
 (1) 存在有限生成平面模，它不是射影的(习题7)。
-(2) 非交换环上的推论 2 到定理 1 扩展到模 (章 I, §2, 习题 15)。
+(2) 在非交换环上推论 2 到定理 1 扩展到模 (章 I, §2, 习题 15)。
 
-### 3. 秩投射模
+### 3. 秩 / 投射模
 
 #### 定义 1 {#ac-ii-s5-def-1 .statement tag=04BM}
 
 令 P 为有限生成的射影 A-模。对于A的每个素理想$p$，自由$A_p$模$P_p$的秩称为P在$p$处的秩，并用$\operatorname{rg}_p(P)$表示。
 
-到定理 1 时，整数值函数 $p \mapsto \mathrm{rg}_p(P)$ 在 $X = \mathrm{Spec}(A)$ 上是*局部常数*；因此，如果 $X$ *连接*，特别是如果环 $A$ 是 *整环*（§ 4, no. 3，推论 2 到命题 15）。
+到定理 1 时，整数值函数 $p \mapsto \mathrm{rg}_p(P)$ 在 $X = \mathrm{Spec}(A)$ 上是*局部常数*；因此，如果 $X$ *连通*，特别是如果环 $A$ 是 *整环*（§ 4, no. 3、推论 2 到命题 15），则它是恒定的。
 
 #### 定义 2 {#ac-ii-s5-def-2 .statement tag=04BN}
 
-*令$n$为整数$\geqslant 0$。射影$A$模$P$如果是有限生成的，则被称为*秩* $n$，并且对于$A$的每个素理想$p$来说，$\mathrm{rg}_p(P) = n$。*
+*令$n$为整数$\geqslant 0$。射影$A$模$P$如果是有限生成的，则被称为*秩*$n$，并且对于$A$的每个素理想$p$来说，$\mathrm{rg}_p(P) = n$。*
 
-显然，每个有限生成的*自由* $A$-模块$L$在定义2、$n$等于$L$的*维数*（或*秩*）的意义上具有秩$n$，其中定义*代数*，章II, § 7, no. 2。
+显然，每个有限生成的*自由* $A$-模块$L$在定义2的意义上是秩$n$，$n$等于定义在$L$的*维数*（或*秩*） *代数*，章II, § 7, no. 2。
 
-秩 0 的投射模是零（§ 3, no. 3，推论 2 到定理 1）。如果$A$不减为0，且射影$A$模$P$为秩$n$，则唯一确定整数$n$；然后用$\mathrm{rg}(P)$表示。
+秩 0 中的投射模为零（§ 3, no. 3、推论 2 至定理 1）。如果$A$不减为0，且射影$A$模$P$为秩$n$，则唯一确定整数$n$；然后用$\mathrm{rg}(P)$表示。
 
 #### 定理 2 {#ac-ii-s5-thm-2 .statement tag=04BO}
 
@@ -181,7 +181,7 @@ $$
 
 (a) *$P$ 是秩* $n$ 的投影。
 
-(b) *$P$是有限生成的，并且对于每个最大理想*$m$*的*$A$，**$A$-*模*$P$，*不包含秩*$n$。
+(b) *$P$ 是有限生成的，并且对于每个最大理想* $m$ *的* $A$，*该* $A$-*模* $P$，*不包含秩* $n$。
 
 (c) *$P$ 是有限生成的，并且对于每个素理想* $p$ *的* $A$，*该* $A$-*模* $P_p$ *不包含秩* $n$。
 
@@ -218,37 +218,37 @@ $$
 
 *设 B 为交换律 A-代数，P 为秩 n 的射影 A-模。 B-模 $P_{(B)} = B \otimes_A P$ 是秩 n 的投影。*
 
-我们知道 $P_{(B)}$ 是射影且有限生成的（*代数*、章 II, § 5, no. 1，命题 4 的推论）。如果 q 是 B 的素理想，p 是 A 中的逆像，则
+我们知道 $P_{(B)}$ 是射影且有限生成的（*代数*、章 II, § 5, no. 1、推论到命题 4）。如果 q 是 B 的素理想，p 是 A 中的逆像，则
 
 $$
 (P_{(B)})_q = (P \otimes_A B) \otimes_B B_q = P @_A B_q = (P \otimes_A A_i) \otimes_A B_q
 $$
 
-并且，根据假设，$P \otimes_A A_i$是秩$n$的自由A，模块，$(P_{(B)})_q$是秩$n$的自由$B_q$模块。
+并且，由于假设，$P \otimes_A A_i$是秩$n$的自由A，模块，$(P_{(B)})_q$是秩$n$的自由$B_q$模块。
 
 #### 命题 5 {#ac-ii-s5-prop-5 .statement tag=04BS}
 
 *设 A 为半局部环，P 为有限生成射影 A-模。如果定义 P 的秩，则 P 为自由A-模。*
 
-首先假设 A 同构于域 $K_i$ ($1 \leq i \leq n$) 的乘积。然后用 A 的最小理想 (*代数*, 章 VIII, § 3, no. 1) 来确定 $K_i$，并且对于 K 的所有 $i$、和 $p_i$，指标 $j \neq i$ 是 A 的最大理想， $p_i$ ($1 \leq i \leq n$) 是 A 的唯一素理想。因此，每个有限生成A-模 P 都是其同典型分量 $P_i$ ($1 \leq i \leq n$) 的直和，$P_i$ 同构于有限数 $r_i$ 的直和 A-模同构于 K，(*代数*、章 VIII, § 5, no. 1、命题 1 和 no. 3、命题 11)； 环 $A_{r_i}$ 等同于 K，并湮灭指标 $j \neq i$ 的 $P_j$，因此为 $r_i = \mathrm{rg}_{p_i}(P)$；如果所有$r_i$都等于相同的数$r$，则在这种情况下P与$A^r$、从而命题同构。一般情况下，令$\mathfrak{R}$为A和$B = A / \mathfrak{R}$的雅各布森根式；因为 B 是域的乘积，所以射影 B-模 $P_{(B)}$ 在命题 4 之前的注是自由的。 *此外，P 是平A-模和命题，然后从 § 3, no. 2、命题得出5.*
+首先假设 A 同构于域 $K_i$ ($1 \leq i \leq n$) 的乘积。然后用 A 的最小理想 (*代数*, 章 VIII, § 3, no. 1) 来确定 $K_i$，并且对于 K 的所有 $i$、和 $p_i$，指标 $j \neq i$ 是 A 的最大理想， $p_i$ ($1 \leq i \leq n$) 是 A 的唯一素理想。因此，每个有限生成A-模 P 都是其同型分量 $P_i$ ($1 \leq i \leq n$) 的直和，$P_i$ 同构于有限数的直和 A-模的$r_i$与K同构，(*代数*、章VIII, § 5, no. 1、命题1和no. 3、命题11)； 环 $A_{r_i}$ 等同于 K，并湮灭指标 $j \neq i$ 的 $P_j$，因此为 $r_i = \mathrm{rg}_{p_i}(P)$；如果所有$r_i$都等于相同的数$r$，则在这种情况下P与$A^r$、从而命题同构。一般情况下，令$\mathfrak{R}$为A和$B = A / \mathfrak{R}$的雅各布森根基；因为 B 是域的乘积，所以射影 B-模 $P_{(B)}$ 在命题 4 之前的注上是自由的。 *此外，P 是平 A-模和命题，然后从 § 3, no. 2、命题得出5.*
 
-### 4. 投射模共秩 1
+### 4. 投射模 / 秩 1
 
 #### 定理 3 {#ac-ii-s5-thm-3 .statement tag=04BT}
 
-令$A$为环，并且$M$ ajnitely 生成$A$模块。
+令 $A$ 为环且 $M$ ajnitely 生成 $A$ 模块。
 
-(i) *如果存在一个$A$模$N$使得$M \otimes_A N$同构于$A$，模$M$是秩1的投影。*
+(i) *如果存在$A$模$N$使得$M \otimes_A N$同构于$A$，模$M$是秩1的投影。*
 
 (ii) *相反，如果 $M$ 是秩 1 的投影且 $M^*$ 是 $M$ 的对偶，则典范同态 $u : M \otimes_A M^* \to A$ 相应的到规范双线性形式 $(x, x^*) \to \langle x, x^* \rangle$ $M \times M^*$ (代数, 章 II, § 2, no. 3) 是双射。*
 
-(i) 需要证明，对于$A$的每个最大理想$m$，$A_m$模$M$不包含秩 1 (定理 2 (b))；我们可以在 $A_m$ 之前自由地替换 $A$，因此可以假设 $A$ 是*本地*环（$§ 2$，no. 7，命题 18）。让$k = A/m$。 同构的$v : M \otimes_A N \to A$定义同构
+(i) 需要证明，对于$A$的每个最大理想$m$，$A_m$模$M$不包含秩 1 (定理 2 (b))；我们可以通过 $A_m$ 自由地替换 $A$，因此可以假设 $A$ 是*本地* 环（$§ 2$，no. 7，命题 18）。让$k = A/m$。 同构的$v : M \otimes_A N \to A$定义同构
 
 $$
 v \otimes 1_k : (M/mM) \otimes_k (N/mN) \to k
 $$
 
-由于$(M/mM) \otimes_k (N/mN)$超过$k$的秩是$M/mM$和$N/mN$秩乘积，后者必然等于1，另外字$M/mM$是单生的。由此可见$M$是单生的（$§ 3$，no. 2，推论2至命题4）；另一方面，$M$的湮没子也湮灭了$M \otimes_A N$，因此是零，这证明$M$与$A$同构的。
+由于$(M/mM) \otimes_k (N/mN)$超过$k$的秩是$M/mM$和$N/mN$秩乘积，后者必然等于1，另外字$M/mM$是单生的。由此可见 $M$ 是单生的（$§ 3$、no. 2、推论 2 到命题 4）；另一方面，$M$的湮没子也湮灭了$M \otimes_A N$，因此是零，这证明$M$与$A$同构的。
 
 (ii) 足以证明，对于$A$的每个最大理想$m$，$u_m$是同构（$§ 3$，no. 3，定理1）。由于 $M$ 是有限呈现的 (章 I, $§ 2$, no. 8, 引理 8)，$(M^*)_m$ 被规范地识别为对偶 $(M_m)^*$ ($§ 2$, no. 7, 命题) 19) 并且，由于 $M_m$ 与它的对偶 $(M_m)^*$ 一样没有秩 1，因此显然典范同态 $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ 是双射，从而完成证明。
 
@@ -264,7 +264,7 @@ $$
 
 这紧接着公式 (2)、(3) 和 (4)。
 
-Let us now note that every finitely generated $A$-module is isomorphic to a quotient module of $L = \mathbf{A}^{(\mathbf{N})}$; we may therefore speak of the *set $F(A)$ of classes of finitely generated $A$-modules* with respect to isomorphism (*Set Theory*, Chapter I, §6, no. 9); we denote by $P(A)$ the subset of $F(A)$ consisting of the classes of projective $A$-modules of rank 1 and by $\operatorname{cl}(M)$ the image in $P(A)$ of a projective $A$-module $M$ of rank 1. 对于两个射影$A$模$M$，直接的，
+现在让我们注意到，每个有限生成的 $A$ 模块都同构于 $L = \mathbf{A}^{(\mathbf{N})}$ 的商模； we may therefore speak of the *集合 $F(A)$ of 类 of finitely generated $A$-modules* with respect to 同构的 (*集合理论*, 章 I, §6, no. 9); we denote by $P(A)$ 子集 of $F(A)$ 由……组成 of 类 of projective $A$-modules of 秩 1 and by $\operatorname{cl}(M)$ 像 in $P(A)$ of a projective $A$-module 秩的$M$ 1。对于两个射影$A$模$M$，它是直接的，
 
 N of 秩 1, cl(M \otimes_A N) 仅取决于 cl(M) 和 cl(N)；作为定义我们集合
 
@@ -290,7 +290,7 @@ N of 秩 1, cl(M \otimes_A N) 仅取决于 cl(M) 和 cl(N)；作为定义我们�
 
 (*参见 A. Grothendieck, Éléments de géométrie algébrique, I (§ 1) (Publ. Math. I.H.E.S., no. 4, 1960)。
 
-### 5. 非退化子模
+### 5. 非简并子模
 
 在这个没有。以及以下两个，$A$表示环，$S$表示$A$由……组成与元素的乘法子集，它们不是$A$中零的除子，和 $B$ 环 $S^{-1}A$； $A$ 与子环或 $B$ ($§ 2$、no. 1、注 3) 被规范地标识。因此，$S$的元素在$B$中是可逆的。
 
@@ -309,9 +309,9 @@ N of 秩 1, cl(M \otimes_A N) 仅取决于 cl(M) 和 cl(N)；作为定义我们�
 (b) $M$ 满足 $S$。
 (c) 如果 $j : M \to B$ 是典范嵌入，则同态 $u = S^{-1}j : S^{-1}M \to B$ 是双射的。
 
-(a) 意味着 (b)，因为如果 $B.M = B$，则存在 $a \in A, s \in S$ 和 $x \in M$，使得 $(a/s)x = 1$，因此 $ax = s$ 属于到 $S \cap M$。看出 (b) 暗示 (c)，注 $u$ 已经是单射的 ($§ 2$, no. 4, 定理 1)；此外，如果$B$中$x/x \in S^{-1}M$的$u$下的$x \in M \cap S$、像等于1，因此$u$是满射。最后，(c) 清楚地暗示了(a)。
+(a) 意味着 (b)，因为如果 $B.M = B$，则存在 $a \in A, s \in S$ 和 $x \in M$，使得 $(a/s)x = 1$，因此 $ax = s$ 属于到 $S \cap M$。要看出 (b) 蕴涵 (c)，请注意 $u$ 已经是单射的 ($§ 2$, no. 4, 定理 1)；此外，如果$B$中$x/x \in S^{-1}M$的$u$下的$x \in M \cap S$、像等于1，因此$u$是满射。最后，(c) 清楚地暗示了(a)。
 
-#### 推论{#ac-ii-s5-n5-cor-1 .statement tag=04BY}
+#### 推论 {#ac-ii-s5-n5-cor-1 .statement tag=04BY}
 
 如果$M$和$N$是$B$的两个非简并子A-模块，则A-模、$M + N, M.N$和$M \cap N$是非简并的。
 
@@ -333,7 +333,7 @@ $$
 
 特别是，$A : M$被规范地标识为$M$的对偶$M^*$，$M \times M^*$上的规范双线性形式被规范地标识为乘法$B \times B \to B$的限制到$M \times (A : M)$。
 
-### 6. 不可翻转子模
+### 6. 可翻转子模
 
 （我们保留记号和no. 5。）
 
@@ -391,7 +391,7 @@ B 的每个可逆子 A 模块都是平坦且有限呈现的。
 (i) 典范同态 $M \otimes_A N \to M . N$ 是双射的。
 (ii)$N : M = N . (A : M)$和$N = (N : M) . M$。
 
-设$j$为典范嵌入$N \to B$。由于 $M$ 是平面 $A$ 模（定理 4 的推论），$1 \otimes j : M \otimes_A N \to M \otimes_A B$ 是单射的。但是，作为$B = S^{-1}A$，$B$-模块$M \otimes_A B$等于$S^{-1}M$，因此被识别为$B$，因为$M$是非简并的（no. 5，命题8）。如果进行该识别，则$1 \otimes j$中的像为$M . N$、从而(i)。
+设$j$为典范嵌入$N \to B$。由于$M$是平的$A$模（推论到定理4），$1 \otimes j : M \otimes_A N \to M \otimes_A B$是单射的。但是，作为$B = S^{-1}A$，$B$-模块$M \otimes_A B$等于$S^{-1}M$，因此被识别为$B$，因为$M$是非简并的（no. 5，命题8）。如果进行该识别，则$1 \otimes j$中的像为$M . N$、从而(i)。
 
 让我们集合$M' = A : M$。那么显然是$M'.N \subset N : M$和$M.(N : M) \subset N$。另一方面，从 $M.M' = A$ (命题 10) 开始，
 
@@ -405,7 +405,7 @@ $$
 
 命题 11 中 (i) 的证明仅使用$M$ 是平坦且非退化的事实。
 
-### 7. 可逆模的类的群
+### 7. 可逆模类群
 
 （我们保留第5和第6号的记号。）
 
@@ -423,7 +423,7 @@ $$
 
 #### 命题 12 {#ac-ii-s5-prop-12 .statement tag=04C8}
 
-*映射* $cl : \mathfrak{g} \to P(A)$ *定义，通过商，同构从* $\mathfrak{c} = \mathfrak{g}/\theta(B^*)$ *到核 of 典范同态*
+*映射* $cl : \mathfrak{g} \to P(A)$ *定义，通过从* $\mathfrak{c} = \mathfrak{g}/\theta(B^*)$ *取商、同构到典范同态*的核*
 
 $$
 \phi : P(A) \to P(B)
@@ -437,7 +437,7 @@ $$
 \text{(11)} \quad (1) \longrightarrow A^* \xrightarrow{u} B^* \xrightarrow{\theta} \mathfrak{g} \xrightarrow{cl} P(A) \xrightarrow{\phi} P(B).
 $$
 
-由$P(A)$中no. 6的命题11和加法的定义得出，$\mathbf{3}$中$M, N$的$cl(M.N) = cl(M) + cl(N)$，这表明$cl$是同态。如果$M \in \mathfrak{J}$与$A$同构的，则存在$b \in B$使得$M = Ab$，并且由于$M$是可逆的，所以存在$b' \in B$使得$b'b = 1$，在其他字$b$是可逆的$B$； 逆命题是直接的。因此，$\mathfrak{J}$中的$cl$的核是$\theta(B^*)$。
+由$P(A)$中no. 6的命题11和加法的定义得出$\mathbf{3}$中$M, N$的$cl(M.N) = cl(M) + cl(N)$，这表明$cl$是同态。如果$M \in \mathfrak{J}$与$A$同构的，则存在$b \in B$使得$M = Ab$，并且由于$M$是可逆的，所以存在$b' \in B$使得$b'b = 1$，在其他字$b$是可逆的$B$； 逆命题是直接的。因此，$\mathfrak{J}$中$cl$的核是$\theta(B^*)$。
 
 现在让我们计算$cl$的确定像。如果$M \in \mathfrak{J}$，则$M \otimes_A B = S^{-1}M = B$（no. 5，命题 8 (c)），从而$cl(M) \in \mathrm{Ker}(\phi)$。相反，令$P$为秩1的射影$A$模，使得$P_{(B)} = P \otimes_A B$与$B$同构于$B$。由于$P$是一个扁平的$A$模块，单射$u : A \to B$定义单射$u \otimes 1 : P \to P_{(B)} = B$和$P$因此被识别为$B$的子$A$模块；根据no. 5的命题 8 (c)，$P$是非简并的，并且no. 6的定理 4表明$P$是可逆的。因此，$\phi$的核等于$cl : \mathfrak{J} \to P(A)$的像。
 
@@ -447,13 +447,13 @@ $$
 
 #### 推论 2 {#ac-ii-s5-prop-12-cor-2 .statement tag=04CA}
 
-*If the ring $B$ is semi-local, the group $\mathfrak{C}$ of classes of invertible sub-A-modules of B is canonically identified with the group $P(A)$ of classes of projective A-modules of rank 1.*
+*如果环$B$是半局部的，则B的可逆子A-模类的群$\mathfrak{C}$与秩为1的射影A-模类的群$P(A)$规范地相同。*
 
 在这种情况下$P(B) = 0$（no. 3，命题5）。
 
 #### 注 {#ac-ii-s5-n7-rem-1 .statement tag=04CB}
 
-推论2的假设在以下两种情况下得到满足：
+推论2的假设满足以下两种情况：
 
 (1) $A$为整环且$S$为$A$元素$\neq 0$集合，$B$则为$A$分数域。在这种情况下，$B$的可逆子A模也称为*可逆分数理想*；那些单生自由$A$-模块$Ab$（$B$中的$b \# 0$）只是*代数*，章VI, § 1, no. 5中定义的*分数主理想*。
 

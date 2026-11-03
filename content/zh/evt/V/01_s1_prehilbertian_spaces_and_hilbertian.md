@@ -40,16 +40,16 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: 95bb809f07fbeb1af3bb8c22df553236e1ffb69e134a9425f7e71e2e204602d6
+content_sha256: 656fda7bfc2e72a064c7422e9525f3be317cdd4d9126046990b5831db4aa9aa5
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 translation_method: google
 source_content_sha256: a3c6df7442ce70b3c022a53d8c8d5c5898d4f54434a40fd2c9ae5e5be4f6a2de
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7597229cda5a6621362f218f717c7f1263de61d72f0df86f422b160998086ae5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 1。前希尔伯特空间和希尔伯特空间
@@ -60,7 +60,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 #### 定义 1 {#evt-v-s1-def-1 .statement tag=07X0}
 
-设 E 在域 K 上为向量空间。E 上的厄米特形式（左侧）是映射 f，从 E × E 到 K 满足以下条件（对于 E 中的 $x_1, x_2, x, y_1, y_2, y$ 和 K 中的 $\lambda, \mu$）：
+令 E 为域 K 上的向量空间。E 上的厄米特形式（左侧）是映射 f，从 E × E 到 K 满足以下条件（对于 E 中的 $x_1, x_2, x, y_1, y_2, y$ 和 K 中的 $\lambda, \mu$）：
 
 (1)
 $$
@@ -83,11 +83,11 @@ $$
 f(x, y) = \overline{f(y, x)} .
 $$
 
-当域 K 为 R 时，E 约化上厄米特形式的概念与 E × E 上对称双线性形式 (A, III, § 6, No. 3) 的双线性形式相同。
+当域 K 为 R 时，E 约化上厄米特形式的概念与 E × E (A, III, § 6, No. 3) 上对称双线性形式的概念相同。
 
-我们注第二个条件(1)和第二个条件(2)是从其他三个开始的。
+我们注意到第二个条件 (1) 和第二个条件 (2) 紧随其他三个。
 
-1 对于对希尔伯空间特别感兴趣的读者，我们点指出，只有§ 1的No. 7和§ 4的No. 8取决于章、III和IV的结果。为此，读者可以查阅本卷末尾的《巴拿赫空间一些重要性质的总结》。对章、I和II的唯一引用涉及凸集合和半范数（II、p. 1和p. 7）的定义，以及拓扑直和（I， p. 4），一个总族和一个拓扑独立族（I，p. 12）。
+1 对于对希尔伯特空间特别感兴趣的读者，我们点指出，只有§ 1的No. 7和§ 4的No. 8依赖于章III和IV的结果。为此，读者可以查阅本卷末尾的《巴拿赫空间一些重要性质的总结》。对章、I和II的唯一引用涉及凸集合和半范数（II、p. 1和p. 7）的定义、拓扑直和（I、 p. 4），一个总族和一个拓扑独立族（I，p. 12）。
 
 从（1）和（2）我们立即推断出
 
@@ -101,9 +101,9 @@ $$
 f(x, y) = \sum_{j,k} \alpha_{jk} \overline{\xi}_j \eta_k
 $$
 
-与记号 $\alpha_{jk} = f(e_j, e_k)$；此外，指标$j, k$中每对，关系(3)相当于$\alpha_{jk} = \overline{\alpha}_{kj}$；这特别意味着数 $\alpha_{jj}$ 是真实的。
+与记号 $\alpha_{jk} = f(e_j, e_k)$；此外，对于指标$j, k$的每对，关系 (3) 等于$\alpha_{jk} = \overline{\alpha}_{kj}$；这特别意味着数 $\alpha_{jj}$ 是真实的。
 
-从(3)可知，数$Q(x) = f(x, x)$对于所有$x \in E$都是真实的。而且，我们立即建立以下公式，称为*极化*公式
+从(3)可知，数$Q(x) = f(x, x)$对于所有$x \in E$都是真实的。此外，我们立即建立以下公式，称为*极化*公式
 
 (5)
 $$
@@ -116,15 +116,15 @@ $$
 
 #### 注 {#evt-v-s1-n1-rem-1 .statement tag=07X1}
 
-— 我们观察到，公式 (6) 对于 $E \times E$ 上的每个 *sesquilinear* 形式都有效（也就是说，对于每个函数 $f$ 满足 (1) 和 (2)，但不一定是 (3)）。这个注表明，当$K = \mathbf{C}$时，一个倍半线性形式$f$使得$f(x, x)$对于所有$x \in E$都是真实的厄米特*：关系（6）然后给出$\overline{f(y, x)} = f(x, y)$，因为我们有每当 $\varepsilon^4 = 1$ 时，$y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$ 和 $Q(\varepsilon z) = Q(z)$。
+— 我们观察到，公式 (6) 对于 $E \times E$ 上的每个 *sesquilinear* 形式都有效（也就是说，对于每个函数 $f$ 满足 (1) 和 (2)，但不一定是 (3)）。这个注表明，当$K = \mathbf{C}$时，一个倍半线性形式$f$使得$f(x, x)$对于所有$x \in E$都是真实的必然是*厄米特*：关系（6）然后给出$\overline{f(y, x)} = f(x, y)$，因为我们有$y + \varepsilon x = \varepsilon(x + \overline{\varepsilon} y)$并且每当$\varepsilon^4 = 1$时$Q(\varepsilon z) = Q(z)$。
 
 从极化公式，我们特别有，
 
 #### 命题 1 {#evt-v-s1-prop-1 .statement tag=07X2}
 
-*如果$f$是$E$上的厄米特形式，并且$E$的$M$向量子空间，使得$f(x, x) = 0$对于所有$x \in M$，那么我们也有$f(x, y) = 0$ $M$ 中的点 $x, y$ 每对。*
+*如果$f$是$E$上的埃尔米特形式，并且$M$是$E$的向量子空间，使得$f(x, x) = 0$适用于所有$x \in M$，那么对于$M$中的每对点$x, y$，我们也有$f(x, y) = 0$。*
 
-令$f$在$E$上为厄米特形式；所有$x \in E$的集合$N$，使得所有$y \in E$的$f(x, y) = 0$是$E$的向量子空间。从 (3) 可以得出，如果 $x_1 \equiv x_2$ (mod. $N$) 和 $y_1 \equiv y_2$ (mod. $N$)，我们有 $f(x_1, y_1) = f(x_2, y_2)$；因此，在商空间$E/N$上，我们将$f(\dot{x}, \dot{y}) = f(x, y)$放入所有$x \in \dot{x}$和所有$y \in \dot{y}$，得到定义一个倍半线性的形式$f$；很明显，$f$是厄米特，并且关系“$f(\dot{x}, \dot{y}) = 0$对于所有$\dot{y} \in E/N$”意味着$E/N$中的$\dot{x} = 0$，在其他字（A，IX）$f$正在分离。我们说 $f$ 是与 $f$ *分离* 厄米特形式 *关联*。
+令$f$在$E$上为厄米特形式；所有$x \in E$的集合$N$，使得所有$y \in E$的$f(x, y) = 0$是$E$的向量子空间。从 (3) 可以得出，如果 $x_1 \equiv x_2$ (mod. $N$) 和 $y_1 \equiv y_2$ (mod. $N$)，我们有 $f(x_1, y_1) = f(x_2, y_2)$；因此，在商空间$E/N$，我们定义通过将$f(\dot{x}, \dot{y}) = f(x, y)$放入所有$x \in \dot{x}$和所有$y \in \dot{y}$，得到一个倍半线性的形式$f$；很明显，$f$是厄米特，并且关系“$f(\dot{x}, \dot{y}) = 0$对于所有$\dot{y} \in E/N$”意味着$E/N$中的$\dot{x} = 0$，在其他字（A，IX）$f$正在分离。我们说 $f$ 是与 $f$ *分离* 厄米特形式 *关联*。
 
 ### 2. 正厄米特形式
 
@@ -132,7 +132,7 @@ $$
 
 *令 $E$ 为向量空间超过域 $K$。如果 $f(x, x) \geq 0$ 对于所有 $x \in E$，则 $E$ 上的厄米特形式 $f$ 被认为是正数。*
 
-It is clear that hermitian forms on a vector space $E$ form a vector space *over the field* $\mathbf{R}$ (but not over the field $\mathbf{C}$, when $K$ is $\mathbf{C}$) : in this space the positive hermitian forms constitute *a pointed convex proper cone* (II, p. 10) as a result of def. 2 and prop. 1.
+很明显，向量空间$E$上的厄米形式形成了一个向量空间*在场*$\mathbf{R}$上（但不是在场$\mathbf{C}$上，当$K$是$\mathbf{C}$时）：在这个空间中，正厄米形式构成*尖凸真锥*（II，p. 10）作为def的结果。 2 和支柱。 1.
 
 #### 命题 2 {#evt-v-s1-prop-2 .statement tag=07X4}
 
@@ -227,7 +227,7 @@ $$
 
 #### 例 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
-令$I$为$\mathbf{R}$中的一个区间（有界或无界），并令$E$为函数（FVR，II，p. 4）在$I$上定义的集合，其中值在$\mathbf{C}$，具有紧凑的支撑。显然，$E$比$\mathbf{C}$弱于向量空间；设 $f$ 为倍半线性形式 $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$； 直接的$f$是$E$上的正厄米特形式，因此定义在空间上是前希尔伯特结构。
+令$I$为$\mathbf{R}$中的区间（有界或无界），并令$E$为在$I$上定义的受管制函数（FVR，II，p. 4）的集合，其中值 $\mathbf{C}$，具有紧凑的支撑。显然，$E$比$\mathbf{C}$弱于向量空间；设 $f$ 为倍半线性形式 $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$； 直接的$f$是$E$上的正厄米特形式，因此定义在空间上是前希尔伯特结构。
 
 #### 例 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
@@ -379,21 +379,21 @@ $$
 
 这个前希尔伯特空间并不完整。它的补全称为与 U 相关的 *Dirichlet 空间*。 \*
 
-#### 推论{#evt-v-s1-n4-cor-1 .statement tag=07XN}
+#### 推论 {#evt-v-s1-n4-cor-1 .statement tag=07XN}
 
-— *令 V 在 K 上为向量空间，且 f 在 V 上为正厄米特形式。*
+— *令 V 在 K 上为向量空间，并且 f 在 V 上为正厄米特形式。*
 a) *对于 V 中的 x、y，存在希尔伯特空间 E 和线性映射* $u : V \to E$ *使得* $f(x, y) = \langle u(x)|u(y) \rangle$ *，并且使得 u(V) 在 E 中稠密。*
-b) *如果两个对* $(E_i, u_i)$ *满足条件类似于a)，则存在唯一的同构* $\phi$ *从希尔伯特空间* $E_1$ *到希尔伯特空间* $E_2$*使得*$u_2 = \phi \circ u_1$。
+b) *如果两个对* $(E_i, u_i)$ *满足条件类似于a)，则存在唯一的同构* $\phi$ *从希尔伯特空间* $E_1$ *到希尔伯特空间* $E_2$ *这样* $u_2 = \phi \circ u_1$。
 
-令 N 为所有 $x \in V$ 中的集合，使得 $f(x, x) = 0$。对于$x \in \dot{x}$和$y \in \dot{y}$，我们定义为正，并在空间V/N上通过$\langle \dot{x}|\dot{y} \rangle = f(x, y)$分离厄米特形式。令E为从V到E的V/N和$u$映射$x \mapsto x + N$的希尔伯特空间补全。则满足*a*)的条件。
+令 N 为所有 $x \in V$ 中的集合，使得 $f(x, x) = 0$。我们将定义正数并在空间V/N上将厄米特形式分开，通过$\langle \dot{x}|\dot{y} \rangle = f(x, y)$为$x \in \dot{x}$和$y \in \dot{y}$。令E为从V到E的V/N和$u$映射$x \mapsto x + N$的希尔伯特空间补全。则满足*a*)的条件。
 
-在*b*)的假设下，N等于$u_1$的核和$u_2$。因此，存在从$u_1(V)$到$u_2(V)$的双射线性映射$\phi_0$，使得$u_2(x) = \phi_0(u_1(x))$对于所有$x \in V$。我们立即验证$\phi_0$是前希尔伯特空间的同构，因此是等距的。由于$u_i(V)$对于$i = 1, 2$而言在$E_i$中是稠密的，因此$\phi_0$扩展唯一地对应于从$E_1$到$E_2$的等距$\phi$，并且*b*)如下。
+在*b*)的假设下，N等于$u_1$的核和$u_2$。因此，存在从$u_1(V)$到$u_2(V)$的双射线性映射$\phi_0$，使得$u_2(x) = \phi_0(u_1(x))$对于所有$x \in V$。我们立即验证$\phi_0$是前希尔伯特空间的同构，因此是等距的。由于对于 $i = 1, 2$，$u_i(V)$ 在 $E_i$ 中是稠密的，因此 $\phi_0$ 扩展唯一地对应于从 $E_1$ 到 $E_2$ 的等距$\phi$，并且 *b*) 如下。
 
 我们说希尔伯特空间 E 是 V 的*分离完成*（对于形式 *f*）。
 
 #### 例 7 {#evt-v-s1-n4-exa-7 .statement tag=07XO}
 
-令 G 为群（其中单位元 1）和 $\pi$ 同态，从 G 到复数希尔伯特空间 E 的自同构的群；我们说 $\pi$ 是 E 中 G 的*酉表示*。令 $a \in E$ ；我们把
+令 G 为群（其中单位元 1）和 $\pi$ 同态，从 G 到复数希尔伯特空间 E 的自同构的群；我们说 $\pi$ 是 G 在 E 中的 *酉表示*。令 $a \in E$ ；我们把
 
 $$
 \phi(x) = \langle a|\pi(x).a \rangle
@@ -409,23 +409,23 @@ $$
 
 事实上，(11)的第一个成员正是$\| \sum_{i=1}^n \lambda_i \pi(x_i) . a \| ^2$。
 
-相反，令$\phi$为$G$上的正定函数。令$C^{(G)}$为所有函数中的向量空间，其中有限支撑位于$G$上。我们于 $G$ 定义厄米特形式 $\Phi$
+相反，令$\phi$为$G$上的正定函数。令$C^{(G)}$为所有函数中的向量空间，其中有限支撑位于$G$上。我们定义厄米特形式$\Phi$于$G$
 
 $$
 \Phi(u, v) = \sum_{x,y \in G} \overline{u(x)} \ v(y) \ \phi(x^{-1} y)
 $$
 
-关系(PD)表示$\Phi$为正。由道具的推论。 4、存在希尔伯特空间$E$和线性映射$\rho : C^{(G)} \to E$，以及稠密的像，使得
+关系(PD)表示$\Phi$为正。通过推论的道具。 4、存在希尔伯特空间$E$和线性映射$\rho : C^{(G)} \to E$，以及稠密的像，使得
 
 $$
 \Phi(u, v) = \langle \rho(u)|\rho(v) \rangle \quad \text{for} \quad u, v \quad \text{in} \quad C^{(G)} .
 $$
 
-对于每个$x \in G$，令$\gamma_x$为$C^{(G)}$中$x$的左平移，由$\gamma_x u(y) = u(x^{-1} y)$为$u \in C^{(G)}$和$y \in G$定义。我们有$\Phi(\gamma_x u, \gamma_x v) = \Phi(u, v)$。现在应用 prop 推论的断言 b)。 4到$\rho$和$\rho \circ \gamma_x$：希尔伯特空间$E$存在唯一的自同构$\pi(x)$，使得$\rho \circ \gamma_x = \pi(x) \circ \rho$。我们立即看到，$\pi$是同态，从$G$到自同构到$E$的群。
+对于每个$x \in G$，令$\gamma_x$为$C^{(G)}$中$x$的左平移，由$\gamma_x u(y) = u(x^{-1} y)$为$u \in C^{(G)}$和$y \in G$定义。我们有$\Phi(\gamma_x u, \gamma_x v) = \Phi(u, v)$。现在应用推论的断言 b) 道具。 4到$\rho$和$\rho \circ \gamma_x$：希尔伯特空间$E$存在唯一的自同构$\pi(x)$，使得$\rho \circ \gamma_x = \pi(x) \circ \rho$。我们立即看到，$\pi$是从$G$到自同构的群到$E$的同态。
 
-令 $\delta$ 为 $C^{(G)}$ 的元素，由 $\delta(1) = 1, \delta(x) = 0$ 对于 $G$ 中的 $x \neq 1$ 定义。我们对所有 $u \in C^{(G)}$ 都有 $u = \sum_{x \in G} u(x) . \gamma_x \delta$，因此通过放入 $a = \rho(\delta)$ 可以得到 $\rho(u) = \sum_{x \in G} u(x) \ \pi(x) . a$。
+令 $\delta$ 为$G$ 中$x \neq 1$ 的$\delta(1) = 1, \delta(x) = 0$ 所定义的$C^{(G)}$ 的元素。我们对所有 $u \in C^{(G)}$ 都有 $u = \sum_{x \in G} u(x) . \gamma_x \delta$，因此通过放入 $a = \rho(\delta)$ 可以得到 $\rho(u) = \sum_{x \in G} u(x) \ \pi(x) . a$。
 
-公式 (12) 和 (13) 意味着$\phi(x) = \langle a|\pi(x).a \rangle$ 对于所有 $x \in G$。我们注，所有$x \in G$的向量$\pi(x).a$中的集合总计为$E$。
+公式 (12) 和 (13) 意味着$\phi(x) = \langle a|\pi(x).a \rangle$ 对于所有 $x \in G$。我们注意到，对于所有 $x \in G$，向量 $\pi(x).a$ 中的集合总计为 $E$。
 
 ### 5. 前希尔伯特空间的凸子集
 
@@ -484,7 +484,7 @@ $$
 $$
 所以$\| x - a \| = d$，最后$a = p_{\mathbf{H}}(x)$是从证明的第一个部分得出的。 Q.E.D.
 
-下文中$\mathbf{H}$中E的映射$p_{\mathbf{H}}$将被称为从E到$\mathbf{H}$的*投影*。我们注为所有$x \in \mathbf{H}$提供$p_{\mathbf{H}}(x) = x$。
+下文中$\mathbf{H}$中E的映射$p_{\mathbf{H}}$将被称为从E到$\mathbf{H}$的*投影*。我们注意到，$p_{\mathbf{H}}(x) = x$适用于所有$x \in \mathbf{H}$。
 
 第一个部分。 1 在空间 E（V，p. 67，练习 31）的更一般假设下有效。
 
@@ -570,15 +570,15 @@ $$
 
 由于 M 是 Hausdorff，所以 0 是 M 的唯一向量，与其自身正交，因此是 $M \cap M^\circ = \{0\}$。对于每个$x \in E$，我们有$p_M(x) \in M$和$x - p_M(x) \in M^\circ$。因而，E 是 M 和 $M^\circ$ 的直和，$p_M$ 是从 E 到 M 的投影算子，其中核 $M^\circ$。由于$p_M$是从E到M的连续映射（V，p. 11，cor.2），如果从GT得出III, § 6, No. 2，则E是M和$M^\circ$的拓扑直和。
 
-#### 推论{#evt-v-s1-n6-cor-1 .statement tag=07XW}
+#### 推论 {#evt-v-s1-n6-cor-1 .statement tag=07XW}
 
 *设 E 为豪斯多夫预希尔伯特空间，M 为 E 的有限维向量子空间。则 E 为 M 和 $M^\circ$ 的直和。
 
 由于E是豪斯多夫，所以M也是豪斯多夫；由于 M 是有限维的，因此它是完备的 (I, p. 13)。因而，应用 th 就足够了。 2.
 
-与第记号。 2，我们说$M^\circ$是M的正交补集，$p_M$是从E到M的正交投影（或正交投影算子，或者滥用语言，投影算子）；如果x是E的向量，M的向量$p_M(x)$也称为x在M上的正交投影。注，$p_M$是从E到M的连续线性映射，并且我们有$\|p_M\| = 1$。 V、p. 11 中的 2 个，但$M = \{0\}$ 的情况除外，在这种情况下$p_M = 0$。
+与第记号。 2，我们说$M^\circ$是M的正交补集，$p_M$是从E到M的正交投影（或正交投影算子，或者滥用语言，投影算子）；如果x是E的向量，M的向量$p_M(x)$也称为x在M上的正交投影。注意$p_M$是从E到M的连续线性映射，并且我们有$\|p_M\| = 1$。 V、p. 11 中的 2 个，但$M = \{0\}$ 的情况除外，在这种情况下$p_M = 0$。
 
-直接从毕达哥拉斯定理可以得出，如果 $E/M$ 被赋予 E 的商半范数，则从 $E/M$ 到 $M^\circ$ 从直和分解 $E = M \oplus M^\circ$ 推导出来，典范映射 $\psi$ 是等距的（II，p. 4）。我们总是将前希尔伯特结构分配给$E/M$，其中$\psi$是前希尔伯特空间的同构；然后从这个前希尔伯特结构推导出$E/M$的商半范数。
+直接从毕达哥拉斯定理可以看出，如果将 E (II, p. 4) 的商半范数赋予 $E/M$，则从直接和分解 $E = M \oplus M^\circ$ 推导出来的从 $E/M$ 到 $M^\circ$ 的规范映射 $\psi$ 是等距的。 我们总是将前希尔伯特结构分配给$E/M$，其中$\psi$是前希尔伯特空间的同构；然后从这个前希尔伯特结构推导出 $E/M$ 的商半范数。
 
 当E是希尔伯特空间且M是E的闭向量子空间时，我们经常会使用前面的结果。在这种情况下，$M^\circ$是E的闭向量子空间，以及$p_{M^\circ} = 1 - p_M$和$(M^\circ)^\circ = M$。
 
@@ -660,7 +660,7 @@ $$
 
 #### 推论 1 {#evt-v-s1-thm-3-cor-1 .statement tag=07Y1}
 
-*在阶中，希尔伯特空间E的点的家庭$(x_i)_{i \in I}$是完整的，对于$y \in E$和所有指标$i \in I$来说，关系$\langle x_i|y \rangle = 0$是充分必要的$y = 0$.*
+*在阶中，希尔伯特空间E的点的家庭$(x_i)_{i \in I}$是完整的，关系$\langle x_i|y \rangle = 0$对于$y \in E$和所有指标$i \in I$来说是充分必要的$y = 0$.*
 
 事实上，这表示 0 是 E' 中唯一与所有 $x_i$（II、p. 43 和 IV、p. 1）正交的向量。
 

@@ -13,19 +13,19 @@ pdf_pages: 0433-0435
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: 51dc568ce7c33095e0d86b93eb38753128bfcdc3a7d6edd1031620fe83791b0c
+content_sha256: bfba53556ee795a7f368aeeefca7aa17de9367410eadb160dfd44bda8d83fe88
 translated_from: content/en/lie/index_of_notation_vii_ix.md
 translation_method: google
 source_content_sha256: 4bb21834fe832196d7c8e1f4a29b4ae77709ab1e2d995823ccf2d7f72de1395f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 07cb6bbc547546e2fc97239a2acd1c4bb6241aaac49a6932c4775e576455656f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 参考号数分别表示章、段落和数。
 

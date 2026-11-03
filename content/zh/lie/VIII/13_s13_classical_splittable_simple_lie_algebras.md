@@ -29,16 +29,16 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: 032b8fc8e96b7b40e3a478caf92d58b44bcee63818de08f4a0dab12500a7846d
+content_sha256: f87ed7c5200a1653913bb66cf3eadbb5c6ccacf8a361df7d024f74e31b749d0e
 translated_from: content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md
 translation_method: google
 source_content_sha256: 6374fb400438df5a36d2c913925fb0624256c5324de93a908a0b9247182f92f3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 06bf765732566174a864f656789cb11da426e9ff005b7f29d63e711318c54366
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 13。经典可拆分简单李代数
@@ -93,7 +93,7 @@ $$
 
 由章。 I, §1, no. 2，公式 (5)。 令$\mathfrak{h}$为迹线零的$\widehat{\mathfrak{h}}$元素集合，并放入$\varepsilon_i= \widehat{\varepsilon}_i|\mathfrak{h}$。 那么$\mathfrak{h}$就是$\mathfrak{g}$的嘉当子代数（第VII, §2, no. 1，例4章）。 关系(1)证明这个嘉当子代数是分裂，$(\mathfrak{g},\mathfrak{h})$的根是$\varepsilon_i-\varepsilon_j(i\not=j)$。 设$\widehat{\mathfrak{h}}^*_0$为$\widehat{\mathfrak{h}}^*$和的元素的集合，其相对于$(\widehat{\varepsilon}_i)$的坐标为零。 从$\widehat{\mathfrak{h}}^*_0$到$\mathfrak{h}^*$的映射$\lambda  \rightarrow \lambda |\mathfrak{h}$是双射的。 因而，$(\mathfrak{g},\mathfrak{h})$的根系R是型$A_l$（第VI, §4, no. 7章）。 因而，$\mathfrak{g}$ 很简单（§3, no. 2，第 6 条命题的 Cor.1）。 因而，$\mathfrak{g}$是型$A_l$的可分割简单李代数。
 
-在基本自同构下，$\mathfrak{g}$ 的每个分裂嘉当子代数 $\mathfrak{h}'$ 都是 $\mathfrak{h}$ 的变换（§3, no. 3，Prop. 10 的 Cor.）。 由于Aut$_e\mathfrak{g}$是$\mathfrak{g}$的自同构$x \rightarrow sxs^{-1}$和$s\in \mathbf{S}\mathbf{L}(V)$的集合（第VII, §3, no. 1，注2；cf.也（VII）），因此存在基 V的$\beta$使得$\mathfrak{h}'$是$\mathfrak{g}$的元素的集合$\mathfrak{h}_{\beta}$，其中矩阵相对于基$\beta$是对角线。 由于$\mathfrak{h}_{\beta}$包含元素与不同的特征值，V的唯一向量子空间在$\mathfrak{h}_{\beta}$的元素下稳定是由$\beta$的子集生成的。 由此可见，映射$\beta  \rightarrow \mathfrak{h}_{\beta}$诱导由V的分解的集合代入维数的$l+ 1$子空间的直和商双射得集合分裂嘉当子代数 $\mathfrak{g}$。 (II) 设$\alpha =\varepsilon_i-\varepsilon_j(i\not=j)$为根。 我们有$\mathfrak{g}^{\alpha}=kE_{ij}$。 自从
+$\mathfrak{g}$ 的每个分裂嘉当子代数 $\mathfrak{h}'$ 是基本自同构下$\mathfrak{h}$ 的变换（§3, no. 3，Prop. 10 的 Cor.）。由于Aut$_e\mathfrak{g}$是$\mathfrak{g}$的自同构$x \rightarrow sxs^{-1}$和$s\in \mathbf{S}\mathbf{L}(V)$的集合（第VII, §3, no. 1，注2；cf.也（VII）），因此存在基 V的$\beta$使得$\mathfrak{h}'$是$\mathfrak{g}$的元素的集合$\mathfrak{h}_{\beta}$，其中矩阵相对于基$\beta$是对角线。由于 $\mathfrak{h}_{\beta}$ 包含元素与特征值不同，V 中唯一稳定在 $\mathfrak{h}_{\beta}$ 的元素下的向量子空间是由 $\beta$ 的子集生成的。由此可见，映射 $\beta  \rightarrow \mathfrak{h}_{\beta}$ 诱导由V 分解集合转至$l+ 1$ 子空间直和至商双射维数 1 至集合，共分裂嘉当子代数，共 $\mathfrak{g}$。 (II) 令$\alpha =\varepsilon_i-\varepsilon_j(i\not=j)$ 为根。我们有$\mathfrak{g}^{\alpha}=kE_{ij}$。自从
 
 $$
 [E_{ij}, E_{ji}] =E_{ii}-E_{jj}
@@ -113,9 +113,9 @@ $$
 W_1\subset  \cdots  \subset W_l
 $$
 
-对于例，如果$V_i$表示$e_1, . . . , e_i$生成的V的子空间，则$\{V_1, . . . ,V_l\}$是最大标志。
+例如，如果$V_i$表示由$e_1, . . . , e_i$生成的V中的子空间，则$\{V_1, . . . ,V_l\}$是最大标志。
 
-It is immediate that $\mathfrak{b}$ is the set of elements of $\mathfrak{g}$ leaving stable the elements of the maximal flag $\{V_1, . . . ,V_l\}$. 相反，由于$\mathfrak{b}$包含$\mathfrak{h}$和矩阵$E_{ij}$对于$i < j$，我们看到$V_i$是$\mathfrak{b}$下唯一稳定的非平凡向量子空间。
+很明显，$\mathfrak{b}$是$\mathfrak{g}$的元素集合，使最大标志$\{V_1, . . . ,V_l\}$的元素保持稳定。 相反，由于$\mathfrak{b}$包含$\mathfrak{h}$和矩阵$E_{ij}$对于$i < j$，我们看到$V_i$是$\mathfrak{b}$下唯一稳定的非平凡向量子空间。
 
 现在让 $\delta$ 成为 V 中的最大标志。由上可知，$\mathfrak{g}$的元素的集合$\mathfrak{b}_{\delta}$保持稳定，$\delta$的所有元素是$\mathfrak{g}$的博雷尔子代数。由于$\mathfrak{g}$的每个博雷尔子代数是基本自同构下$\mathfrak{b}$的变换，我们看到映射$\delta  \rightarrow \mathfrak{b}_{\delta}$是从最大标志的集合到博雷尔子代数的集合的双射 $\mathfrak{g}$。
 
@@ -131,7 +131,7 @@ $\{1, . . . , l+ 1\}$的形式划分，因此阶$l+ 1$的任何平方矩阵都�
 
 因而，最大标志$\{V_1, . . . ,V_l\}$中包含的$2^l$标志产生$2^l$不同的抛物线子代数包含$\mathfrak{b}$；因为正好有 $2^l$ 抛物线子代数包含 $\mathfrak{b}($§3, no. 4, 注)，因此映射 $\gamma  \rightarrow \mathfrak{p}_{\gamma}$ 是双射来自集合的标志$\mathfrak{g}$ 的抛物线子代数的V 至集合。此外，$\mathfrak{p}_{\gamma}\supset \mathfrak{p}_{\gamma'}$当且仅当$\gamma \subset \gamma '$。
 
-回想一下抛物线子代数 $\mathfrak{p}=\mathfrak{p}_{i_1,...,i_q}(1\leq i_1<\cdots < i_q\leq l)$。令$\mathfrak{s}$（或$\mathfrak{n}$）为$\mathfrak{s}\mathfrak{l}(l+ 1, k)$中$(X_{ab})_{1\leq a,b\leq q+1}$的集合，使得$X_{ab}= 0$对应于$a\not=b$（或$a\geq b$）。根据§3, no. 4的第13条命题，我们有$\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{n}$，子代数，$\mathfrak{s}$在$\mathfrak{g}$中被还原，而$\mathfrak{n}$既是最大的幂零理想又是$\mathfrak{p}$的幂零根。
+回想一下抛物线子代数 $\mathfrak{p}=\mathfrak{p}_{i_1,...,i_q}(1\leq i_1<\cdots < i_q\leq l)$。令$\mathfrak{s}$（或$\mathfrak{n}$）为$\mathfrak{s}\mathfrak{l}(l+ 1, k)$中$(X_{ab})_{1\leq a,b\leq q+1}$的集合，使得$X_{ab}= 0$对应于$a\not=b$（或$a\geq b$）。根据§3, no. 4的第13条命题，我们有$\mathfrak{p}=\mathfrak{s}\oplus \mathfrak{n}$，子代数，$\mathfrak{s}$在$\mathfrak{g}$中可约化，而$\mathfrak{n}$既是最大的幂零理想，又是$\mathfrak{p}$的幂零理想根基。
 
 (IV) 对于$r= 1,2, . . . , l$，设$\varpi_r=\varepsilon_1+\cdots +\varepsilon_r$。我们有$\varpi_i(H_{\alpha_j}) =\delta_{ij}$，所以$\varpi_r$是基本的权相应的到$\alpha_r$。
 
@@ -141,13 +141,13 @@ $$
 (\bigwedge^r\sigma )(h).e_{i_1}\wedge  \cdots  \wedge e_{i_r}= (\varepsilon_{i_1}+\cdots +\varepsilon_{i_r})(h)e_{i_1}\wedge  \cdots  \wedge e_{i_r}
 $$
 
-因而，每个权都是重数，$1,\varpi_r$是$\bigwedge^r\sigma$的权，并且每个其他权都是形式$\varpi_r-\mu$，其中$\mu$是正部首权。因而，$\varpi_r$是$\bigwedge^r\sigma$的最高权，而$e_1\wedge \cdots \wedge e_r$是原语元素。由章。 VI, §4, no. 7.IX，Weyl 群可以与对称群识别
+因而，每个权都是重数，$1,\varpi_r$是$\bigwedge^r\sigma$的权，并且每个其他权都是形式$\varpi_r-\mu$，其中$\mu$是正根基权。因而，$\varpi_r$是$\bigwedge^r\sigma$的最高权，而$e_1\wedge \cdots \wedge e_r$是原语元素。由章。 VI, §4, no. 7.IX，Weyl 群可以与对称群识别
 
 $$
 \{\varepsilon_1, . . . , \varepsilon_{l+1}\}
 $$
 
-Weyl 群下的 $\varpi_r$ 的轨道因此包含所有 $\varepsilon_{i_1}+\cdots +\varepsilon_{i_r}$ 和 $i_1<\cdots < i_r$。由原语元素$e_1\wedge  \cdots  \wedge e_r$生成的简单子模因此承认所有$\varepsilon_{i_1}+\cdots +\varepsilon_{i_r}$为权，因此等于E。因而，$\bigwedge^r\sigma$与最高权$\varpi_r$不可约。
+Weyl 群下的 $\varpi_r$ 的轨道因此包含所有 $\varepsilon_{i_1}+\cdots +\varepsilon_{i_r}$ 与 $i_1<\cdots < i_r$。由原语元素$e_1\wedge  \cdots  \wedge e_r$生成的简单子模因此承认所有$\varepsilon_{i_1}+\cdots +\varepsilon_{i_r}$为权，因此等于E。因而，$\bigwedge^r\sigma$与最高权$\varpi_r$不可约。
 
 因而，表示$\bigwedge^r\sigma (1\leq r\leq l)$是基本的表示。我们有暗淡（$\bigwedge^r\sigma$）$=(^{l+1}_r)$。
 
@@ -163,7 +163,7 @@ $$
 \omega =n_1\varpi_1+\cdots +n_l\varpi_l(n_1, . . . , n_l\in \mathbf{N})
 $$
 
-成为主导权。那么，简单的表示与最高权 $\omega$ 正交或辛当且仅当
+成为主导权。那么，简单的表示与最高权 $\omega$ 是正交或辛当且仅当
 
 $$
 n_1=n_l,n_2=n_{l-1}, . .
@@ -275,7 +275,7 @@ $$
 
 取$k=\mathbf{Q}$。 $\mathfrak{h}($§12, no. 6，Def. 中允许的格子。 1) 是位于 $E_{ii}-E_{i+1,i+1}$ 生成的 $\mathbf{Z}$-模 $Q(R^{\vee})$ 之间，即矩阵属于到 $\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Z})$ 对角线的由……组成和由 $\mathbf{Z}$-模 $P(R^{\vee})$ 生成的$Q(R^{\vee})$和$E_{11}-(l+ 1)^{-1}\sum E_{ii}$（第VI, §4, no. 7.VIII），即形式$x+ (l+ 1)^{-1}a.1$的轨迹零的对角线矩阵的由……组成，其中$x$有整数条目和$a\in \mathbf{Z}$。由此可见，$\mathfrak{s}\mathfrak{l}(l+1,\mathbf{Z})$ 是 $(\mathfrak{g},\mathfrak{h})$ 中的 Chevalley 阶，与许用格子 $Q(R^{\vee})$ 和 Chevalley 系统 $(X_{\alpha})$ 相关。很容易验证$\bigwedge^r\mathbf{Z}^{l+1}$是$\bigwedge^r\mathbf{Q}^{l+1}$相对于$\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Z}) ($§12, no. 8的容许格，Def。 3）。
 
-另一方面，$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Z})$ 是分裂的还原代数 $\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Q})$ 中的 Chevalley 阶；它的投影到$\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Q})$平行于$\mathfrak{g}\mathfrak{l}(l+1,\mathbf{Q})$的中心$\mathbf{Q}.1$是$(\mathfrak{g},\mathfrak{h})$中的Chevalley阶由$\mathfrak{h}$中的允许晶格$P(R^{\vee})$和Chevalley系统$(X_{\alpha})$定义。我们注认为$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Z})$不是其交的直和与$\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Q})$和中心的$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Q})$。
+另一方面，$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Z})$ 是分裂的还原代数 $\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Q})$ 中的 Chevalley 阶；它的投影到$\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Q})$平行于$\mathfrak{g}\mathfrak{l}(l+1,\mathbf{Q})$的中心$\mathbf{Q}.1$是$(\mathfrak{g},\mathfrak{h})$中的Chevalley阶由$\mathfrak{h}$中的允许晶格$P(R^{\vee})$和Chevalley系统$(X_{\alpha})$定义。我们注意到$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Z})$不是交的直和，$\mathfrak{s}\mathfrak{l}(l+ 1,\mathbf{Q})$和中心是$\mathfrak{g}\mathfrak{l}(l+ 1,\mathbf{Q})$。
 
 ### 2. 代数型 B$_{\boldsymbol{l}}$ ($\boldsymbol{l}\geq$ 1)
 
@@ -293,7 +293,7 @@ $$
 Q(\sum x_ie_i)=-x^2_0+\sum_{i=1}^{i=l}x_ix_{-i}
 $$
 
-相对于该基，$\Psi$矩阵为阶$2l+ 1$平方矩阵
+相对于此，基$\Psi$矩阵为阶$2l+ 1$平方矩阵
 
 0 0 $\cdots$ 0 1
 
@@ -305,7 +305,7 @@ $s$ 0 0 0 1 $\cdots$ 0 0
 
 1 0 $\cdots$ 0 0
 
-其中$s$是阶$l$的平方矩阵，其所有条目都是零，除了第二个对角线$^6$上的条目等于1。具有上述属性的V的基将被称为维特基共 V。然后可以将代数$\mathfrak{g}=\mathfrak{o}(\Psi )$与方阵$a$或阶$2l+ 1$的代数$\mathfrak{o}_S(2l+ 1, k)$进行识别，使得$a=-S^{-1}aS($代数，第1章。 IX, §1, no. 10、公式 (50))。简单计算可知，$\mathfrak{g}$ 是集合 / 矩阵 / 形式
+其中$s$是阶$l$的平方矩阵，其所有条目都是零，除了第二个对角线$^6$上的条目等于1。具有上述属性的V的基将被称为维特基共 V。然后，代数$\mathfrak{g}=\mathfrak{o}(\Psi )$可以被识别为方阵$a$的代数$\mathfrak{o}_S(2l+ 1, k)$或阶$2l+ 1$，这样$a=-S^{-1}aS($代数，第1章。 IX, §1, no. 10、公式 (50))。简单计算可知，$\mathfrak{g}$ 是集合 / 矩阵 / 形式
 
 $$
 A2s^txB
@@ -371,7 +371,7 @@ $$
 
 立即验证，V中唯一不同于$\{0\}$和V在$\mathfrak{b}$下稳定的向量子空间是最大标志相应的到基$(e_i)$的元素，即完全各向同性子空间$V_1, . . . ,V_l$，其中$V_i$由$e_1, . . . , e_i$生成，与其正交补集$V_{-1}, . . . ,V_{-i}:$一起，$V_i$的正交补集$V_{-i}$由$e_1, . . . , e_l, e_0, e_{-l}, . . . , e_{-i-1}$生成，并且不完全各向同性。另一方面，如果 $\mathfrak{g}$ 的元素离开稳定的向量子空间，则它的正交补集离开稳定。因而，$\mathfrak{b}$是$\mathfrak{g}$的元素的集合，留下稳定的元素标志$\{V_1, . . . ,V_l\}$。
 
-如果一个标志的每个元素完全各向同性，则该标志被称为各向同性。 标志$\{V_1, . . . ,V_l\}$是最大各向同性标志。 Since the group $\mathbf{O}(\Psi )$ operates transitively both on the Borel subalgebras of $\mathfrak{g}$ (cf. (VII)) and on the maximal isotropic flags (Algebra, Chap. IX, §4, no. 3, Th. 1), we see that, for any maximal isotropic flag $\delta$ in V, the set $\mathfrak{b}_{\delta}$ of elements of $\mathfrak{g}$ leaving stable the elements of $\delta$ is a Borel subalgebra of $\mathfrak{g}$ and that the map $\delta  \rightarrow \mathfrak{b}_{\delta}$ is a bijection from the set of maximal isotropic flags to the set of Borel subalgebras of $\mathfrak{g}$.
+如果一个标志的每个元素完全各向同性，则该标志被称为各向同性。 标志$\{V_1, . . . ,V_l\}$是最大各向同性标志。 由于群 $\mathbf{O}(\Psi )$ 在 $\mathfrak{g}$ (cf. (VII)) 的 Borel 子代数和最大各向同性标志（代数，第 IX, §4, no. 3，Th.1）上都可传递操作，我们看到，对于任何最大各向同性标志 $\delta$ V，$\mathfrak{g}$的元素集合$\mathfrak{b}_{\delta}$使$\delta$的元素保持稳定，是$\mathfrak{g}$的Borel子代数，并且映射$\delta  \rightarrow \mathfrak{b}_{\delta}$是从最大各向同性标志集到$\mathfrak{g}$的Borel子代数集的双射。
 
 令$\delta$为各向同性标志，令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的集合，留下稳定的$\delta$的元素。如果$\delta \subset  \{V_1, . . . ,V_l\}$，则$\mathfrak{p}_{\delta}$是$\mathfrak{g}$包含$\mathfrak{b}$的抛物线子代数，容易验证在$\mathfrak{p}_{\delta}$下唯一完全各向同性的子空间$\not=\{0\}$稳定的是元素 $\delta$。这给出了 $2^l$ 抛物线子代数的 $\mathfrak{g}$ 包含 $\mathfrak{b}$。由上可知，从V各向同性标志的集合到$\mathfrak{g}$抛物线子代数的集合，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$为双射。此外，$\mathfrak{p}_{\delta}\subset \mathfrak{p}_{\delta'}$当且仅当$\delta \supset \delta '$。
 
@@ -403,13 +403,13 @@ $$
 
 在$\mathfrak{g}$下是不变的，并且使$\bigwedge^rV$和$\bigwedge^{2l+1-r}V$具有对偶性。因此，表示$\bigwedge^{2l+1-r}\sigma$是$\bigwedge^r\sigma$的对偶，足以证明$\bigwedge^r\sigma$对于$0\leq r\leq l$的不可约性，或者$\bigwedge^rV$包含$e_1\wedge  \cdots  \wedge e_r$的最小的子空间$T_r$而稳定在$\mathfrak{g}$以下的是$\bigwedge^rV$的整体。这是 $r= 0$ 和 $r= 1$ 的直接的 (cf. 公式 (2))。对于$r= 2$（因此$l\geq 2$），表示$\bigwedge^2\sigma$和$\mathfrak{g}$的伴随表示（不可约）具有相同的维数$l(2l+ 1)$和相同的最高权$\varepsilon_1+\varepsilon_2$ （第 VI, §4, no. 5.IV）。我们结论认为$\bigwedge^2\sigma$等价于伴随表示，因此是不可约的。这证明了我们的断言对于$l= 1$和$l= 2$。
 
-我们现在通过归纳对$l$进行论证，并假设$l\geq r\geq 3$。我们注首先如果W是奇数维数的V的非各向同性子空间，则与$W'$正交补，$\Psi$对W的限制$\Psi_W$是非简并的并且$\mathfrak{o}(\Psi_W)$可以是识别出$\mathfrak{g}$的子代数、元素的由……组成于$W'$消失。如果暗淡$W<$暗淡V，并且如果$\Psi_W$最大为指标，则归纳假设意味着如果$T_r$包含为形式$w'\wedge w$的非零元素，则$w'\in \bigwedge^{r-k}W'$ 和 $w\in \bigwedge^kW (0\leq k\leq r)$，然后 $T_r$ 包含 $w'\wedge \bigwedge^kW:$ 事实上，对于所有 $a\in \mathfrak{o}(\Psi_W)$，我们都有 $a.(w'\wedge w) =w'\wedge a.w$。我们通过归纳在$p\in 0, r$上展示$T_r$包含元素
+我们现在通过归纳对$l$进行论证，并假设$l\geq r\geq 3$。我们首先注意到，如果W是奇数维数的V的非各向同性子空间，且具有正交补$W'$，则$\Psi$的限制$\Psi_W$对W是非简并的并且$\mathfrak{o}(\Psi_W)$可以被识别为$\mathfrak{g}$ 的子代数元素的由……组成于$W'$ 消失。如果暗淡$W<$暗淡V，并且如果$\Psi_W$最大为指标，则归纳假设意味着如果$T_r$包含为形式$w'\wedge w$的非零元素，则$w'\in \bigwedge^{r-k}W'$ 和 $w\in \bigwedge^kW (0\leq k\leq r)$，然后 $T_r$ 包含 $w'\wedge \bigwedge^kW:$ 事实上，对于所有 $a\in \mathfrak{o}(\Psi_W)$，我们都有 $a.(w'\wedge w) =w'\wedge a.w$。我们通过归纳在$p\in 0, r$上展示$T_r$包含元素
 
 $$
 x=e_{i_1}\wedge  \cdots  \wedge e_{i_{r-p}}\wedge e_{j_1}\wedge  \cdots  \wedge e_{j_p}
 $$
 
-对于 $1\leq i_1<\cdots < i_{r-p}\leq l$ 和 $-l\leq j_1<\cdots < j_p\leq 0$。对于$p= 0$，这是根据$\mathfrak{g}\mathfrak{l}(F)$在$\bigwedge^rF$（no. 1）上的运算的不可约性得出的，因为
+对于 $1\leq i_1<\cdots < i_{r-p}\leq l$ 和 $-l\leq j_1<\cdots < j_p\leq 0$。对于$p= 0$，这是从$\mathfrak{g}\mathfrak{l}(F)$在$\bigwedge^rF$（no. 1）上的运算的不可约性得出的，因为
 
 $\mathfrak{g}$ 包含元素使$F = V_l=\sum_{i=1}^lke_i$固定并在其上引入任何自同态 (cf. 公式 (2))。如果$p= 1$，则令$q\in (1, l)$使得$q\not=-j_1$并且存在$\lambda \in 1, r-p$和$q=i_{\lambda}$；如果$p\geq 2$，则令$q\in 1, l$使得$-q\in  \{j_1, . . . , j_p\}$。如有必要，对$e_i$进行排列，我们可以假设$q= 1$。现在取 $W'=ke_1+ke_{-1}$ 的正交补集作为 W。如果$p= 1$，我们有$x\in e_1\wedge \bigwedge^{r-1}W$；从$T_r$包含$e_1\wedge  \cdots  \wedge e_r$开始，我们看到$T_r$包含$x$。如果$p\geq 2$，则$x\in e_{-1}\wedge \bigwedge^{r-1}W$或$x\in e_1\wedge e_{-1}\wedge \bigwedge^{r-2}W$；从$T_r$包含$e_{-1}\wedge e_2\wedge  \cdots  \wedge e_{r-1}$和$e_{-1}\wedge e_1\wedge e_2\wedge  \cdots  \wedge e_{r-2}$到归纳假设，我们看到$T_r$包含$x$，从而完成了证明。
 
@@ -561,9 +561,9 @@ $$
 = (\frac{1}{2}(\varepsilon_1+\cdots +\varepsilon_l)-(\varepsilon_{i_1}+\cdots +\varepsilon_{i_k}))(h)(e_{-i_1}\wedge  \cdots  \wedge e_{-i_k})
 $$
 
-这表明$\rho$的最高权是$\varpi_l$。我们称$\rho$为$\mathfrak{g}$的旋量表示。 注其权都是简单的（而且$\varpi_l$是极小权）。
+这表明$\rho$的最高权是$\varpi_l$。我们称$\rho$为$\mathfrak{g}$的旋量表示。注意它的权都是简单的（而且$\varpi_l$是极小权）。
 
-(V) 我们有 $w_0=-1$，因而 $\mathfrak{g}$ 的每个有限维简单表示都是正交或辛的。由章。 VI, §4, no. 5.VI、$\varpi_r$相对于$(\alpha_1, . . . , \alpha_l)$的坐标和对于$1\leq r\leq l-1:$是积分，因而，表示与$\bigwedge^r\sigma$是正交的。此外，它留下了$\Psi$到$\bigwedge^rV$的不变扩张$\Psi_{(r)}$。
+(V) 我们有 $w_0=-1$，因而 $\mathfrak{g}$ 的每个有限维简单表示都是正交或辛的。由章。 VI, §4, no. 5.VI、$\varpi_r$相对于$(\alpha_1, . . . , \alpha_l)$的坐标和对于$1\leq r\leq l-1:$是积分，因此表示与$\bigwedge^r\sigma$是正交的。此外，它留下了$\Psi$到$\bigwedge^rV$的不变扩张$\Psi_{(r)}$。
 
 对于旋量表示，$\varpi_l$相对于$(\alpha_1, . . . , \alpha_l)$的坐标和是$\frac{1}{2}(1 +\cdots +l) =\frac{l(l+1)}{4}($loc。引用。）。因此，它对于 $l\equiv 0$ 或 $-1$ (mod. 4) 是正交的，对于 $l\equiv 1$ 或 2 (mod. 4) 是辛的。事实上，考虑$N =\bigwedge F'$上的双线性形式$\Phi$定义如下：如果$x\in \bigwedge^pF'$和$y\in \bigwedge^qF'$，则放置$\Phi (x, y) = 0$如果$p+q\not=l$和
 
@@ -619,7 +619,7 @@ $$
 
 令$\Sigma$为V相对于$\Psi$的相似度的群。对于所有$g\in \Sigma$，令$\varphi (g)$为自同构$x \rightarrow gxg^{-1}$/$\mathfrak{g}$。那么从$\Sigma$到Aut($\mathfrak{g}$)$\varphi$就是同态。我们证明它是满射的。令 $\alpha \in$ Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$。根据§7, no. 1的命题2，存在$s\in \mathbf{G}\mathbf{L}(V)$，使得$\alpha (x) =sxs^{-1}$对于所有$x\in \mathfrak{g}$。然后将$s$变换$\Psi$转化为V上的双线性形式$\Psi '$，这在$\mathfrak{g}$下是不变的，因此与$\Psi ($§7, no. 5成比例，命题12）。这就证明了$s\in \Sigma$。
 
-由于$\mathfrak{g}$的恒等式表示是不可约的，它与标量（§6, no. 1，命题1）的交换律约化，所以$\varphi$的核是$k^*$。因此，群Aut($\mathfrak{g}$)$=$Aut$_0(\mathfrak{g})$可以与$\Sigma /k^*$识别。但是，它是从代数，第 1 章得出的。 IX, §6, no. 5，群$\Sigma$是群$k^*$和$\mathbf{S}\mathbf{O}(\Psi )$中的乘积；因此Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$可以与$\mathbf{S}\mathbf{O}(\Psi )$识别。
+由于$\mathfrak{g}$的恒等式表示是不可约的，它的交换子约化到标量（§6, no. 1，命题1），所以$\varphi$的核是$k^*$。因此，群Aut($\mathfrak{g}$)$=$Aut$_0(\mathfrak{g})$可以与$\Sigma /k^*$识别。但是，它是从代数，第 1 章得出的。 IX, §6, no. 5，群$\Sigma$是群$k^*$和$\mathbf{S}\mathbf{O}(\Psi )$中的乘积；因此Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$可以与$\mathbf{S}\mathbf{O}(\Psi )$识别。
 
 令 $\mathbf{O}^+_0(\Psi )$ 为 $\Psi ($代数的简化正交群，第 1 章。 IX, §9, no. 5）。由于$\mathbf{S}\mathbf{O}(\Psi )/\mathbf{O}^+_0(\Psi )$是可交换的（前述），群Aut$_e(\mathfrak{g})$包含在$\mathbf{O}^+_0(\Psi ) ($§11, no. 2，命题3）；事实上，它等于它（练习7）。
 
@@ -637,7 +637,7 @@ $$
 \Phi (\xi_1H_1+\cdots +\xi_lH_l, \xi '_1H_1+\cdots +\xi '_lH_l) = (4l-2)(\xi_1\xi '_1+\cdots +\xi_l\xi '_l)
 $$
 
-(IX) 回想一下公式 (3) 定义的$X_{\alpha}(\alpha \in R)$。很容易验证$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$对应$\alpha \in R$。另一方面，令M为矩阵$I+E_{0,0}$；自 $M=S^tM^{-1}S$、映射
+(IX) 回想一下公式 (3) 定义的$X_{\alpha}(\alpha \in R)$。很容易验证$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$对应$\alpha \in R$。另一方面，令M为矩阵$I+E_{0,0}$；自$M=S^tM^{-1}S$、映射
 
 $$
 \theta :g \rightarrow  -M^{-1t}gM
@@ -719,7 +719,7 @@ $$
 
 (III) 放入$\alpha_1=\varepsilon_1-\varepsilon_2, . . . , \alpha_{l-1}=\varepsilon_{l-1}-\varepsilon_l, \alpha_l= 2\varepsilon_l$。由章。 VI, §4, no. 6.II，$\{\alpha_1, . . . , \alpha_l\}$是R的基B；相对于 B 的正根是 $2\varepsilon_i$ 和 $\varepsilon_i\pm \varepsilon_j(i < j)$。 相应的博雷尔子代数 $\mathfrak{b}$ 是$\mathfrak{g}$ 中上三角矩阵的集合。
 
-设$\delta$为V中的各向同性标志（即，其元素对于$\Psi$来说都是完全各向同性的子空间），并令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的子代数由……组成保持稳定元素共 $\delta$。 We show as in no. 2.III that the map $\delta  \rightarrow \mathfrak{p}_{\delta}$ is a bijection from the set of isotropic flags (resp. the maximum isotropic flags) to the set of parabolic (resp. Borel) subalgebras of $\mathfrak{g}$; we have $\mathfrak{p}_{\delta}\supset \mathfrak{p}_{\delta'}$ if and only if $\delta \subset \delta '$.
+设$\delta$为V中的各向同性标志（即，其元素对于$\Psi$来说都是完全各向同性的子空间），并令$\mathfrak{p}_{\delta}$为$\mathfrak{g}$的元素的子代数由……组成保持稳定元素共 $\delta$。 我们在no. 2.III中证明，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$是从各向同性标志集（分别是最大各向同性标志）到$\mathfrak{g}$的抛物线（分别是Borel）子代数集的双射；当且仅当$\delta \subset \delta '$时，我们才有$\mathfrak{p}_{\delta}\supset \mathfrak{p}_{\delta'}$。
 
 (IV) 基本的权相应的到 $\alpha_1, . . . , \alpha_l$ 是，第 1 章。 VI, §4, no. 6.VI，$\varpi_i=\varepsilon_1+\cdots +\varepsilon_i(1\leq i\leq l)$。
 
@@ -785,7 +785,7 @@ $$
 [H, X_-] =-2X_-
 $$
 
-In other words, the vector subspace $\mathfrak{s}$ generated by $X_+, X_-$ and $H$ is a Lie subalgebra of End($\bigwedge V$), isomorphic to $\mathfrak{s}\mathfrak{l}(2, k)$, and $\bigwedge^rV$ is the subspace of elements of weight $l-r$. 用原语元素的$\bigwedge^rV$由……组成的$E_r$子空间表示，即$E_r= (\bigwedge^rV)\cap$Ker$X_+$。 从§1得出，对于$r < l$，$X_-$到$\bigwedge^rV$的限制是单射的，对于$r\leq l$，$\bigwedge^rV$分解为直和
+换句话说，$X_+, X_-$和$H$生成的向量子空间$\mathfrak{s}$是End($\bigwedge V$)的李子代数，与$\mathfrak{s}\mathfrak{l}(2, k)$同构的，$\bigwedge^rV$是权值$l-r$元素的子空间。 用原语元素的$\bigwedge^rV$由……组成的$E_r$子空间表示，即$E_r= (\bigwedge^rV)\cap$Ker$X_+$。 从§1得出，对于$r < l$，$X_-$到$\bigwedge^rV$的限制是单射的，对于$r\leq l$，$\bigwedge^rV$分解为直和
 
 $$
 \bigwedge^rV = E_r\oplus X_-(E_{r-2})\oplus X_-^2(E_{r-4})\oplus  \cdots
@@ -799,13 +799,13 @@ $$
 
 另一方面，$\mathfrak{s}\mathfrak{p}(\Psi )$的定义表明$\Gamma^*$被$\sigma$的对偶的第二个外幂湮灭。同样，$\Gamma$被$\bigwedge^2\sigma$湮灭。我们立即推断出$X_+$和$X_-$，以及$H$，与自同态$\bigwedge\sigma (g)$通勤$g\in \mathfrak{g}$。因而，$0\leq r\leq l$的子空间$E_r$在$\bigwedge^r\sigma$下是稳定的；我们将证明$\bigwedge^r\sigma$到$E_r$的限制是权$\varpi_r(1\leq r\leq l)$的基本表示$\sigma_r$。
 
-我们注首先$\bigwedge^r\sigma$相对于$\mathfrak{h}$的权是
+我们首先注意到$\bigwedge^r\sigma$相对于$\mathfrak{h}$的权是
 
 $$
 \varepsilon_{i_1}+\cdots +\varepsilon_{i_k}-(\varepsilon_{j_1}+\cdots +\varepsilon_{j_{r-k}})
 $$
 
-其中$i_1, . . . , i_k$（分别为$j_1, . . . , j_{r-k}$）不同于元素或$1, l$；因而，$\bigwedge^r\sigma$的最高权确实是
+其中 $i_1, . . . , i_k$ （分别为 $j_1, . . . , j_{r-k}$）不同于元素或 $1, l$；因而，$\bigwedge^r\sigma$的最高权确实是
 
 $$
 \varpi_r=\varepsilon_1+\cdots +\varepsilon_r
@@ -813,7 +813,7 @@ $$
 
 权 $\overline{\varpi}_r$中的向量与$e_1\wedge\cdots\wedge e_r=e_{\{1,\ldots,r\},\varnothing,\varnothing}$成比例。 公式 (9) 可知$e_1\wedge\cdots\wedge e_r\in E_r$。因而，只要证明$\bigwedge^r\sigma$到$E_r$的限制是不可约的即可。
 
-如果$s\in\mathbf{Sp}(\Psi)$、$s$到$\bigwedge V$（或$\bigwedge V^*$）的扩张固定了$\Gamma$（或$\Gamma^*$），因此与$X_+$和$X_-$通勤并使$E_r$保持稳定。因而，$E_r$包含向量子空间$F_r$由$e_1\wedge\cdots\wedge e_r$的变换通过$\mathbf{Sp}(\Psi)$生成。维特的定理表明，这些是非零可分解的$r$向量，使得$V$的相应的向量子空间是完全各向同性的子空间、$r$向量，我们称之为各向同性。
+如果$s\in\mathbf{Sp}(\Psi)$、$s$到$\bigwedge V$（或$\bigwedge V^*$）的扩张固定了$\Gamma$（或$\Gamma^*$），因此与$X_+$和$X_-$通勤并使$E_r$保持稳定。因而，$E_r$包含向量子空间$F_r$由$e_1\wedge\cdots\wedge e_r$的变换和$\mathbf{Sp}(\Psi)$生成。维特的定理表明，这些是非零可分解的$r$向量，使得$V$的相应的向量子空间是完全各向同性的子空间、$r$向量，我们称之为各向同性。
 
 #### 引理 2 {#lie-viii-s13-lem-2 .statement tag=01K8}
 
@@ -824,7 +824,7 @@ $$
 =F_r+\left(\sum_{i=1}^{\ell}e_i\wedge e_{-i}\right)\wedge\bigwedge^{r-2}V.
 $$
 
-我们首先展示引理 2 如何蕴含我们的断言。由于$F_r\subset E_r$和$E_r\cap X_-\left(\bigwedge^{r-2}V\right)=\{0\}$，引理意味着$F_r=E_r$。另一方面，设 $s\in\mathbf{Sp}(\Psi)$； $\operatorname{End}(V)$的自同构$a\mapsto sas^{-1}$保留了$\mathfrak{g}$和诱导在$\operatorname{Aut}_0(\mathfrak{g})$的元素上（cf.（§7, no. 1，命题2），因此每不可约表示都有变换） $\mathfrak{g}$ 转换为等价的表示（§7, no. 1，命题 2）。由于 $e_1\wedge\cdots\wedge e_r$ 属于为 $\bigwedge^r\sigma$ 的不可约分量，并且由于 $E_r=F_r$ 是由 $e_1\wedge\cdots\wedge e_r$ 的变换和 $\mathbf{Sp}(\Psi)$ 生成，因此如下$\mathfrak{g}$在$E_r$上的表示是同型的，但是它的最高权$\overline{\varpi}_r$的重数是$1$，所以它是不可约的。
+我们首先展示引理 2 如何蕴含我们的断言。由于$F_r\subset E_r$和$E_r\cap X_-\left(\bigwedge^{r-2}V\right)=\{0\}$，引理意味着$F_r=E_r$。另一方面，设 $s\in\mathbf{Sp}(\Psi)$； $\operatorname{End}(V)$的自同构$a\mapsto sas^{-1}$保留了$\mathfrak{g}$和诱导在$\operatorname{Aut}_0(\mathfrak{g})$的元素上（cf.（§7, no. 1，命题2），因此每不可约表示都有变换） $\mathfrak{g}$ 变为等价的表示（§7, no. 1，命题 2）。从 $e_1\wedge\cdots\wedge e_r$ 属于到 $\bigwedge^r\sigma$ 的不可约分量，并且因为 $E_r=F_r$ 由 $e_1\wedge\cdots\wedge e_r$ 的变换生成$\mathbf{Sp}(\Psi)$，因而$E_r$上的$\mathfrak{g}$的表示是同范的，但它的最高权$\overline{\varpi}_r$的重数是$1$，所以它是不可约的。
 
 仍有待证明引理。 $r=1$ 是清楚的。我们通过归纳论证，并假设$r\geq 2$。到归纳假设，我们减少到证明
 
@@ -1011,11 +1011,11 @@ $(\lambda$ 0 $)$
 
 0 0 $D$
 
-其中$A, B, D$是阶$l-1,x$（或$y$）的方阵，是矩阵，有2个列和$l-1$行（分别是2行和$l-1$列），以及$\lambda \in k$。 由此可见，$a$ 使 $V_l$ 和 $V'_l$ 保持稳定。 因而，$\mathfrak{b}$ 是 $a\in \mathfrak{g}$ 的集合，使各向同性标志 $(V_1, . . . ,V_{l-1})$ 的所有元素保持稳定。 注前面和维特的定理（代数，第IX, §4, no. 3，第1章）意味着$V_l$和$V'_l$是唯一最大的完全各向同性子空间包含$V_{l-1}$。
+其中$A, B, D$是阶$l-1,x$（或$y$）的方阵，是矩阵，有2个列和$l-1$行（分别是2行和$l-1$列），以及$\lambda \in k$。 由此可见，$a$ 使 $V_l$ 和 $V'_l$ 保持稳定。 因而，$\mathfrak{b}$ 是 $a\in \mathfrak{g}$ 的集合，使各向同性标志 $(V_1, . . . ,V_{l-1})$ 的所有元素保持稳定。 请注意，前面的内容和维特的定理（代数，第IX, §4, no. 3，第1章）意味着$V_l$和$V'_l$是唯一最大的完全各向同性子空间包含$V_{l-1}$。
 
 如果一个各向同性标志是由维数 $1, . . . , l-1$ 的 $l-1$ 完全各向同性子空间组成，我们说各向同性标志是准最大的。然后我们在no. 2中看到，对于任何准最大各向同性标志$\delta$，$a\in \mathfrak{g}$的集合$\mathfrak{b}_{\delta}$，离开$\delta$的元素稳定是$\mathfrak{g}$的博雷尔子代数，并且映射 $\delta  \rightarrow \mathfrak{b}_{\delta}$是从准最大各向同性标志的集合到博雷尔子代数的集合的双射。
 
-We say that an isotropic flag is proper if it does not contain both a subspace of dimension $l$ and a subspace of dimension $l-1$. 令$\delta$为这样一个各向同性标志，并令$\mathfrak{p}_{\delta}$为$a\in \mathfrak{g}$的集合，留下$\delta$的稳定元素。 若$\delta \subset  \{V_1, . . . ,V_l,V'_l\}$，则$\mathfrak{p}_{\delta}$是$\mathfrak{g}$、包含于$\mathfrak{b}$的抛物线子代数，容易验证在$\mathfrak{p}_{\delta}$下唯一完全各向同性的子空间、$\not=\{0\}$稳定的是$\delta$的元素。 由于$\{V_1, . . . ,V_l,V'_l\}$和包含$V_{l-1}$中包含$2^{l-2}$正确的各向同性标志（分别为$V_l$、$V'_l$、包含于，既不是$V_{l-1}$，也不是$V_l$，也不是$V'_l$），这给出$2^l$抛物线子代数包含$\mathfrak{b}$。 如上所述，从真各向同性旗的集合到$\mathfrak{g}$的抛物线子代数的集合，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$为双射。
+如果各向同性标志不同时包含维度为 $l$ 的子空间和维度为 $l-1$ 的子空间，则我们说各向同性标志是正确的。 令$\delta$为这样一个各向同性标志，并令$\mathfrak{p}_{\delta}$为$a\in \mathfrak{g}$的集合，留下$\delta$的稳定元素。 若$\delta \subset  \{V_1, . . . ,V_l,V'_l\}$，则$\mathfrak{p}_{\delta}$是$\mathfrak{g}$、包含于$\mathfrak{b}$的抛物线子代数，容易验证在$\mathfrak{p}_{\delta}$下唯一完全各向同性的子空间、$\not=\{0\}$稳定的是$\delta$的元素。 由于$\{V_1, . . . ,V_l,V'_l\}$和包含$V_{l-1}$中包含$2^{l-2}$正确的各向同性标志（分别为$V_l$、$V'_l$、包含于，既不是$V_{l-1}$，也不是$V_l$，也不是$V'_l$），这给出$2^l$抛物线子代数包含$\mathfrak{b}$。 如上所述，从真各向同性旗的集合到$\mathfrak{g}$的抛物线子代数的集合，映射$\delta  \rightarrow \mathfrak{p}_{\delta}$为双射。
 
 (IV) 基本的权相应的到 $\alpha_1, . . . , \alpha_l$ 是，第 1 章。 VI, §4, no. 8.VI,
 
@@ -1041,9 +1041,9 @@ $$
 
 我们将证明，对于$1\leq r\leq l-2$，表示$\bigwedge^r\sigma$是权$\varpi_r$的基本表示。
 
-为此，只需证明 $\bigwedge^r\sigma$ 对于 $1\leq r\leq l-1$ 是不可约的（注表示 $\bigwedge^l\sigma$ 不是不可约的，cf. 练习 10），或者最小的子空间 $T_r$ $\bigwedge^rV$包含$e_1\wedge  \cdots  \wedge e_r$稳定在$\mathfrak{g}$以下是$\bigwedge^rV$的整体。这是 $r= 1$ 的直接的。对于$r= 2$，我们在no. 2中看到$\bigwedge^2\sigma$等价于$\mathfrak{g}$的伴随表示，这是不可约的，因为$\mathfrak{g}$是简单的。 证明是通过归纳对$l$争论来完成的，如no. 2，但假设$l-1\geq r\geq 3$。
+为此，只需证明$\bigwedge^r\sigma$对于$1\leq r\leq l-1$是不可约的（注意表示$\bigwedge^l\sigma$不是不可约的，cf.Exerc.10），或者最小的子空间$T_r$等于$\bigwedge^rV$ 包含$e_1\wedge  \cdots  \wedge e_r$稳定在$\mathfrak{g}$以下是$\bigwedge^rV$的全部。这是直接的对应 $r= 1$。对于$r= 2$，我们在no. 2中看到$\bigwedge^2\sigma$等价于$\mathfrak{g}$的伴随表示，这是不可约的，因为$\mathfrak{g}$是简单的。 证明是通过归纳对$l$进行论证来完成的，如no. 2，但假设$l-1\geq r\geq 3$。
 
-我们现在要去确定最高权$\varpi_{l-1}$和$\varpi_l$的基本表示。令 Q 为二次方形式 $x \rightarrow \frac{1}{2}\Psi (x, x)$。我们在no. 2.IV中定义了$N =\bigwedge F'$上的Clifford代数C(Q)的旋量表示$\lambda$。我们立即验证，对于$p$偶数（或奇数），由$\bigwedge^pF'$的和给出的N的子空间$N_+$（或$N_-$）在$\lambda$至$C^+(Q)$的限制下是稳定的。因而，$N_+$和$N_-$上$C^+(Q)$的表示$\lambda_+$和$\lambda_-$分别是$C^+(Q) ($代数的半旋量表示，第1章。 IX, §9, no. 4);它们是不可约的，维数$2^{l-1}$且不等价。令$\rho_+=\lambda_+\circ f$和$\rho_-=\lambda_-\circ f$为$\mathfrak{g}$中的相应的不可约表示（no. 2，引理 1 (vi)）。鉴于引理 1 (i)，我们有
+我们现在要学习确定最高权 $\varpi_{l-1}$ 和 $\varpi_l$ 的基本表示。令 Q 为二次方形式 $x \rightarrow \frac{1}{2}\Psi (x, x)$。我们在no. 2.IV中定义了$N =\bigwedge F'$上的Clifford代数C(Q)的旋量表示$\lambda$。我们立即验证由$\bigwedge^pF'$的和为$p$偶数（或奇数）给出的N的子空间$N_+$（或$N_-$）在$\lambda$至$C^+(Q)$的限制下是稳定的。因而，$N_+$和$N_-$上$C^+(Q)$的表示$\lambda_+$和$\lambda_-$分别是$C^+(Q) ($代数的半旋量表示，第1章。 IX, §9, no. 4);它们是不可约的，维数$2^{l-1}$且不等价。令$\rho_+=\lambda_+\circ f$和$\rho_-=\lambda_-\circ f$为$\mathfrak{g}$中的相应的不可约表示（no. 2，引理 1 (vi)）。鉴于引理 1 (i)，我们有
 
 $$
 f(H_i) =\frac{1}{2}(e_ie_{-i}-e_{-i}e_i) =e_ie_{-i}-\frac{1}{2}=\frac{1}{2}-e_{-i}e_i
@@ -1081,9 +1081,9 @@ $$
 
 由此可见，no. 2.V中引入的非简并双线性形式$\Phi$在$\rho (\mathfrak{g})$下是不变的。因此，旋量表示$\rho$留下不变的非简并形式，它对于$l\equiv 0,-1$（模4）对称，对于$l\equiv 1,2$（模4）对称交错的。
 
-如果 $l$ 是偶数，$\Phi$ 到 $N_+$ 和 $N_-$ 的限制是非简并的，半旋量表示对于 $l\equiv 0$ (mod. 4) 是正交的，对于 $l\equiv 2$ (mod. 4) 是辛的。此外，我们注$w_0=-1$（第VI, §4, no. 8.XI）。
+如果 $l$ 是偶数，$\Phi$ 到 $N_+$ 和 $N_-$ 的限制是非简并的，半旋量表示对于 $l\equiv 0$ (mod. 4) 是正交的，对于 $l\equiv 2$ (mod. 4) 是辛的。此外，我们注意到$w_0=-1$（第VI, §4, no. 8.XI）。
 
-另一方面，如果 $l$ 是奇数，则 $N_+$ 和 $N_-$ 对于 $\Phi$ 是完全各向同性的。此外，$-w_0(\alpha_i) =\alpha_i$对于$1\leq i\leq l-2,-w_0(\alpha_l) =\alpha_{l-1}$和$-w_0(\alpha_{l-1}) =\alpha_l$（第VI, §4, no. 8.XI），因此$-w_0(\varpi_l) =\varpi_{l-1}$和半旋量表示既不正交也不辛；它们中的每一个都与另一个的对偶同构。
+另一方面，如果 $l$ 是奇数，则 $N_+$ 和 $N_-$ 对于 $\Phi$ 是完全各向同性的。此外，$-w_0(\alpha_i) =\alpha_i$对应于$1\leq i\leq l-2,-w_0(\alpha_l) =\alpha_{l-1}$和$-w_0(\alpha_{l-1}) =\alpha_l$（第VI, §4, no. 8.XI），因此$-w_0(\varpi_l) =\varpi_{l-1}$和半旋量表示既不正交也不辛；它们中的每一个都与另一个的对偶同构。
 
 (VI) 对于所有$x\in \mathfrak{g}$，$\sigma (x)$的特征多项式取形式
 
@@ -1099,7 +1099,7 @@ $f_{2l}(x) =$ det($x$) $= (-1)^l$ det($Sx$) $= (-1)^l$(Pf($Sx$))$^2$。
 
 因此，我们可以取 $\widetilde{f}(x) =$ Pf($Sx$)。
 
-(VII) 回想一下（§5, no. 3，命题 5 的修正 1），Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ 可以与 $(\mathfrak{g},\mathfrak{h})$ 的 Dynkin 图 D 的群 Aut(D) 或自同构进行识别。 When $l\not= 4$, Aut(D) is the group of order 2 consisting of the permutations of $\alpha_1, . . . , \alpha_l$ that leave $\alpha_1, . . . , \alpha_{l-2}$ fixed. 当$l= 4$时，Aut(D)由$\alpha_1, . . . , \alpha_4$的置换组成，而$\alpha_2$固定；它与$\mathfrak{S}_3$同构的（cf.章节VI, §4, no. 8.XI）。 在所有情况下，保持 $\alpha_1$ 固定的 Aut(D) 由……组成元素的子群为阶 2。 我们用 Aut($\mathfrak{g}$) 的 Aut$'(\mathfrak{g})$ 相应的子群表示；我们有 Aut$'(\mathfrak{g}) =$ Aut($\mathfrak{g}$) if $l\not= 4$ 和 (Aut($\mathfrak{g}$) $:$ Aut$'(\mathfrak{g})$) $= 3$ if $l= 4$；而且，
+(VII) 回想一下（§5, no. 3，命题 5 的修正 1），Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ 可以与 $(\mathfrak{g},\mathfrak{h})$ 的 Dynkin 图 D 的群 Aut(D) 或自同构进行识别。 当 $l\not= 4$ 时，Aut(D) 是由 $\alpha_1, . . . , \alpha_l$ 的排列组成的 2 阶群，其中 $\alpha_1, . . . , \alpha_{l-2}$ 保持不变。 当$l= 4$时，Aut(D)由$\alpha_1, . . . , \alpha_4$的置换组成，而$\alpha_2$固定；它与$\mathfrak{S}_3$同构的（cf.章节VI, §4, no. 8.XI）。 在所有情况下，保持 $\alpha_1$ 固定的 Aut(D) 由……组成元素的子群为阶 2。 我们用 Aut($\mathfrak{g}$) 的 Aut$'(\mathfrak{g})$ 相应的子群表示；我们有 Aut$'(\mathfrak{g}) =$ Aut($\mathfrak{g}$) if $l\not= 4$ 和 (Aut($\mathfrak{g}$) $:$ Aut$'(\mathfrak{g})$) $= 3$ if $l= 4$；而且，
 
 （自动$'(\mathfrak{g}) :$自动$_0(\mathfrak{g})$）$= 2$。
 

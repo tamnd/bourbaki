@@ -25,21 +25,21 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 93ce0b3d8ec67fc5d8367260894068cd4242da223c82d15439b14b5a55f1ca85
+content_sha256: b2e302bd7d680f6f6608133047ef278eb7541719c921723581cd3d8b9dedd888
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
 translation_method: google
 source_content_sha256: b2cb895d1415aea075090da4a69834fe352e4f0135aedb112aadd7070f320371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 160b867de9826227e382f8c6bf999ca29ab09ef410650cb48dab4676d66b659a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 7. 近似值定理
 
-### 1. 有限数估值环的交
+### 1. 有限估值数的交环
 
 #### 命题 1 {#ac-vi-s7-prop-1 .statement tag=04VN}
 
@@ -76,19 +76,19 @@ $$
 
 根据命题 1 的假设，进一步假设$\mathbf{A}_i \not\subset \mathbf{A}_j$ 对应于$i \neq j$。那么$p_i$是$B$的不同最大理想，$B$的每个最大理想都等于$p_i$之一。
 
-如果$p_i \subset p_j$代表$i \neq j$，则$\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$。然后应用章II, § 3, no. 5就足够了，推论到命题17。
+如果$p_i \subset p_j$代表$i \neq j$，则$\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$。然后应用章 II, § 3, no. 5、推论到命题 17 就足够了。
 
 #### 推论 1 {#ac-vi-s7-prop-2-cor-1 .statement tag=04VQ}
 
 假设 $A_i \not\subset A_j$ 对应 $i \neq j$。对于元素$a_i \in A_i$（$1 \leq i \leq n$）的每个家庭，都存在$x \in B$，使得$x \equiv a_i \pmod{m(A_i)}$对应于$1 \leq i \leq n$。
 
-由于$p_i$是$B$、$A_i/m(A_i) = B_{p_i}/p_iB_{p_i} = B/p_i$的最大理想，因此可以假设$a_i \in B$对于所有$i$。由此得出的推论是，从 $B$ 到 $\prod_{i=1}^n (B/p_i)$ 的典范映射是满射（章 11、§ 1, no. 2、命题 5）。
+由于$p_i$是$B$、$A_i/m(A_i) = B_{p_i}/p_iB_{p_i} = B/p_i$的最大理想，因此可以假设$a_i \in B$对于所有$i$。 推论那么从$B$ 到$\prod_{i=1}^n (B/p_i)$ 的典范映射是满射的事实得出（章 11, § 1, no. 2, 命题 5）。
 
 #### 推论 2 {#ac-vi-s7-prop-2-cor-2 .statement tag=04VR}
 
-假设 $A_i \not\subset A_j$ 对应 $i \neq j$。存在$K$的元素$x_i$（$1 \leq i \leq n$）使得$v_i(x_i) = 0$和$v_j(x_i) > 0$对于$i \neq j$。
+假设 $A_i \not\subset A_j$ 对应 $i \neq j$。存在$K$的元素$x_i$（$1 \leq i \leq n$），使得$v_i(x_i) = 0$和$v_j(x_i) > 0$对于$i \neq j$。
 
-对于每个指标$i$，将推论1应用于$(a_i)$族，使得$a_i = 1$和$a_j = 0$适用于$j \neq i$。
+对于每个指标 $i$ 应用推论 1 个$(a_i)$，这样$a_i = 1$ 和$a_j = 0$ $j \neq i$。
 
 #### 推论 3 {#ac-vi-s7-prop-2-cor-3 .statement tag=04VS}
 
@@ -119,15 +119,15 @@ $$
 
 令$A_i$为$v_i$、$B = \bigcap_{i=1}^n A_i$和$p_i = m(A_i) \cap B$的环。到no. 1的命题 1，$a_i$可以写成$a_i = b_i/s$（$b_i \in B, s \in B - \{0\}$）；如果我们写$x = y/s$和$\alpha_i' = \alpha_i + v_i(s)$，那么$v_i(y - 6_i) \geq \alpha_i'$。这表明我们可以假设 $a_i \in B$ 对于所有$i$；我们也可以假设 $\alpha_i > 0$ 对于所有$i$。令$v_i$为$z \in \mathbf{K}$的集合，这样$v_i(z) \geq a$，我们写为$q_i = v_i \cap B$。对于$x \in B, v_i(x - a_i) \geq \alpha_i$相当于$x \equiv a_i (\mathfrak{q}_i)$。因此，我们需要证明典范同态 $B \to \prod_{i=1}^n (B/q_i)$ 是满射，即 $q_i + q_j = B$ 对应 $i \neq j$ (章 11, § 1, no. 2, 命题 5)。由于 B 的最大理想是 $\mathfrak{p}_i$ (命题 2)，因此只要证明 $q_i \notin \mathfrak{p}_j$ 对应 $i \neq j$ 就足够了。
 
-假设存在$i, j$使得$q_i \subset \mathfrak{p}_j$和$i \neq j$。我们很快就会看到，$q_i$的根式是B的*素的*理想$p$。然后是$p \subset \mathfrak{p}_j$，还有$\alpha_i > 0$以来的$p \subset \mathfrak{p}_i$，因此是$q_i \subset \mathfrak{p}_i$。因此 $A_1 = B_s \subset B_p$ (no. 1, 命题 1) 以及类似的 $A_1 \subset B_r$。现在，为$v_i \neq (0)$和$v_i = B_{\mathfrak{p}_i} q_i$（章11、§ 2, no. 4、命题10）、$q_i \neq (0)$、从而、$p \neq (0)$和$B_r \neq K$。这个与……矛盾假设即$A_1$和$A_1$是独立的。
+假设存在$i, j$使得$q_i \subset \mathfrak{p}_j$和$i \neq j$。我们很快就会看到，$q_i$的根基是B的*素的*理想$p$。然后是$p \subset \mathfrak{p}_j$，还有$p \subset \mathfrak{p}_i$，因为$\alpha_i > 0$，因此是$q_i \subset \mathfrak{p}_i$。因此 $A_1 = B_s \subset B_p$ (no. 1, 命题 1) 以及类似的 $A_1 \subset B_r$。现在，为$v_i \neq (0)$和$v_i = B_{\mathfrak{p}_i} q_i$（章11、§ 2, no. 4、命题10）、$q_i \neq (0)$、从而、$p \neq (0)$和$B_r \neq K$。这个与……矛盾假设即$A_1$和$A_1$是独立的。
 
-仍有待证明 $p$ 是质数。现在，这是从以下引理得出的：
+仍有待证明 $p$ 是素数。现在，这是从以下引理得出的：
 
 #### 引理 2 {#ac-vi-s7-lem-2 .statement tag=04VV}
 
-*设 A 为估值环，b 为 A 与 A 不同的理想。则 b 的根式 c 为素理想。*
+*设 A 为环的估值，b 为 A 与 A 不同的理想。则 b 的根基 c 为素理想。*
 
-假设$xy \in c$。那么存在$n \geq 1$使得$(xy)^n \in b$。令 $v$ 为与 A 相关的估值。如果对于例，$v(x) \geq v(y)$，则
+假设$xy \in c$。那么存在$n \geq 1$使得$(xy)^n \in b$。令 $v$ 为与 A 相关的估值。例如，如果 $v(x) \geq v(y)$，则
 
 $$
 v(x^{2n}) \geq v(x^n y^n),
@@ -139,7 +139,7 @@ $$
 
 *对于元素$\gamma_i \in \Gamma_i$（$1 \leq i \leq n$）的每个家庭，都存在$x \in K$使得$v_i(x) = \gamma_i$（$1 \leq i \leq n$）。
 
-我们可以假设 $A_i \neq K$ 对于所有$i$。那么，对于所有$i$，都存在一个$a_i \in K$，这样$v_i(a_i) = \gamma_i$，并且存在一个$a_r \in \Gamma_r$，这样$\gamma_i < a_r$。我们应用定理 1 到这些元素 $a_i$：存在$x \in K$使得$v_i(x - a_i) > v_i(a_i)$； 从而，如$x = a_i + (x - a_i)$、$v_i(x) = v_i(a_i) = \gamma_i$（$§ 3$、no. 1、命题 1）。
+我们可以假设 $A_i \neq K$ 对于所有$i$。那么，对于所有$i$，都存在一个$a_i \in K$，这样$v_i(a_i) = \gamma_i$，并且存在一个$a_r \in \Gamma_r$，这样$\gamma_i < a_r$。我们应用定理 1 到这些元素 $a_i$：存在 $x \in K$ 使得 $v_i(x - a_i) > v_i(a_i)$； 从而，如$x = a_i + (x - a_i)$、$v_i(x) = v_i(a_i) = \gamma_i$（$§ 3$、no. 1、命题 1）。
 
 #### 推论 2 {#ac-vi-s7-lem-2-cor-2 .statement tag=04VX}
 
@@ -151,17 +151,17 @@ $$
 
 假设由 $v$ 和 $v'$ 定义的拓扑 $\mathscr{T}_v$ 和 $\mathscr{T}_{v'}$ 是相同的。由于 $\mathscr{T}_v$ 是 Hausdorff，$K^2$ 的对角线是闭合的，因此 $v$ 和 $v'$ 是相关的（推论 2 到定理 1）。
 
-相反，假设 $v$ 和 $v'$ 是相关的。那么它们的环$A$和$A'$包含在与$K$不同的同一个环$A''$中，并且$A''$是评估$v''$的环（$§ 4$，no. 1， 命题1)。只要证明拓扑 $\mathscr{T}_{v''}$ 与 $\mathscr{T}_v$ 相同即可。设$\Gamma$和$\Gamma''$为$v$和$v''$的阶群。 $\Gamma$ 到 $\Gamma''$ 上存在递增同态 $\lambda$，使得 $v'' = A \circ v$ ($§ 4$, no. 3)。若$a'' \in I?''$，令$a \in \lambda^{-1}(a'')$； 条件 $v(x) \geq \alpha$ 意味着 $v''(x) \geq a''$。设$\beta \in \Gamma$和$\beta'' = \lambda(\beta)$； 条件$v(x) \leq \beta$意味着$v''(x) \leq \beta''$，因此条件$v''(x) > \beta''$意味着$v(x) > \beta$。由于$v$和$v''$并非不恰当，因此对于$\mathscr{T}_v$和$\mathscr{T}_{v''}$，邻域的定义基本系统为0。因此$\mathscr{T}_v = \mathscr{T}_{v''}$，它完成了证明。
+相反，假设 $v$ 和 $v'$ 是相关的。那么它们的环$A$和$A'$包含在与$K$不同的同一个环$A''$中，并且$A''$是评估$v''$的环（$§ 4$，no. 1， 命题1)。只要证明拓扑 $\mathscr{T}_{v''}$ 与 $\mathscr{T}_v$ 相同即可。设$\Gamma$和$\Gamma''$为$v$和$v''$的阶群。 $\Gamma$ 到$\Gamma''$ 上存在递增同态 $\lambda$，使得$v'' = A \circ v$ ($§ 4$, no. 3)。若$a'' \in I?''$，令$a \in \lambda^{-1}(a'')$； 条件 $v(x) \geq \alpha$ 意味着 $v''(x) \geq a''$。设$\beta \in \Gamma$和$\beta'' = \lambda(\beta)$； 条件$v(x) \leq \beta$意味着$v''(x) \leq \beta''$，因此条件$v''(x) > \beta''$意味着$v(x) > \beta$。由于$v$和$v''$并非不恰当，因此对于$\mathscr{T}_v$和$\mathscr{T}_{v''}$，邻域的定义基本系统为0。因此$\mathscr{T}_v = \mathscr{T}_{v''}$，它完成了证明。
 
 注
 (1) 命题 3 表明关系 '“$v$ 和 $v'$ 是相关的”' 是等价关系。
-(2) 考虑到高度 1 的估价和超测量绝对值值 (§ 6, no. 2) 之间的关系，在高度 1 估价的情况下，从等效绝对值值的刻画得出命题3（一般拓扑、章） IX, § 3, no. 2、命题5)。
+(2) 考虑到高度 1 的估价和超测量绝对值值 (§ 6, no. 2) 之间的关系，在高度 1 的估价情况下，刻画等于绝对值值（一般拓扑、章）也得出命题 3 IX, § 3, no. 2、命题5)。
 
 #### 命题 4 {#ac-vi-s7-prop-4 .statement tag=04VZ}
 
 *让 $v_1, \ldots, v_n$ ($n \geq 2$) 成为对相同域 $K$ 的成对相关估值。那么 $v_1, \ldots, v_n$ 生成子环 $\delta \ K$ 的环 $A_1, \ldots, A_n$ 与 $K$ 不同。*
 
-对于 $n = 2$ 命题 4，从定义 1 得出。假设它适用于 $n - 1$ 估值。则存在与 K 不同的 K 的子环 A 和包含 $A_1, \ldots, A_{n-1}$；还存在子环 B $\neq K$ 包含于 $A_{n-1}$ 和 $A_n$。由于 A 和 B 包含于 $A_{n-1}$，它们在包含方面具有可比性（§ 4, no. 1，命题 1 的推论）。因此，这两者中较大的一个为包含所有 $A_i$。
+对于 $n = 2$ 命题 4，从定义 1 得出。假设它适用于 $n - 1$ 估值。则存在与 K 不同的 K 的子环 A 和包含 $A_1, \ldots, A_{n-1}$；还存在子环 B $\neq K$ 包含于 $A_{n-1}$ 和 $A_n$。由于 A 和 B 包含于 $A_{n-1}$，它们在包含方面具有可比性（§ 4, no. 1、推论至命题 1）。因此，这两者中较大的一个为包含所有 $A_i$。
 
 ### 3. 绝对值的情况
 

@@ -66,21 +66,21 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 7eafddc995818e9b870051dcac56293889f75ac321f1b7b72bcbeb40d32ff6dc
+content_sha256: 3e3138284379126aad4b4f9bda1e5911bff7c301366a248a0df61d1d6a76b1bb
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 translation_method: google
 source_content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 33e5ce13da55f2f76a792f8ee387086b991ca566b0034749f1cb6feccee1c462
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 1. 序关系。 有序集
 
-### 1. 定义序关系
+### 1. 定义 / 序关系
 
 令$R\{x, y\}$为关系，$x$和$y$是不同的字母。相对于字母 x 和 y*（或 *x 和 y* 之间），R 被称为 *序关系，如果
 
@@ -108,7 +108,7 @@ $$R\{x, y\} \Rightarrow (R\{x,\, x\} \ \text{ and } \ R\{\, y,\, y\}).$$
 
 #### 例 2 {#ens-iii-s1-n1-exa-2 .statement tag=03SI}
 
-令$\mathrm{R}\}x,\ y\{$为$x$和$y$之间的序关系，并令E为集合，使得$x \in \mathrm{E}$蕴含$\mathrm{R}\}x,\ x\{$（注意空集满足条件）。 关系“$\mathrm{R}\}x,\ y\{$和$x \in \mathrm{E}$和$y \in \mathrm{E}$”则E上的序关系，立即得到验证；它在 E (cf. no. 4) 上被 $\mathrm{R}\}x,y\{$ *诱发* 称为序关系。通过滥用语言，短语“E 的元素之间的关系 $\mathrm{S}\}x,\ y\{$ 是序关系”经常用来代替“E 上的关系（$\mathrm{S}\}x,\ y\{$ 和 $x \in \mathrm{E}$ 和 $y \in \mathrm{E}$）是序关系”。对于例，如果A是集合，则关系“$\mathrm{X} \subset \mathrm{Y}$和$\mathrm{X} \subset \mathrm{A}$和$\mathrm{Y} \subset \mathrm{A}$”是A的子集之间的序关系。
+令$\mathrm{R}\}x,\ y\{$为$x$和$y$之间的序关系，并令E为集合，使得$x \in \mathrm{E}$蕴含$\mathrm{R}\}x,\ x\{$（注意空集满足条件）。 关系“$\mathrm{R}\}x,\ y\{$和$x \in \mathrm{E}$和$y \in \mathrm{E}$”则E上的序关系，立即得到验证；它在 E (cf. no. 4) 上被 $\mathrm{R}\}x,y\{$ *诱发* 称为序关系。通过滥用语言，短语“E 的元素之间的关系 $\mathrm{S}\}x,\ y\{$ 是序关系”经常用来代替“E 上的关系（$\mathrm{S}\}x,\ y\{$ 和 $x \in \mathrm{E}$ 和 $y \in \mathrm{E}$）是序关系”。例如，如果A是集合，关系“$\mathrm{X} \subset \mathrm{Y}$和$\mathrm{X} \subset \mathrm{A}$和$\mathrm{Y} \subset \mathrm{A}$”是A的子集之间的序关系。
 
 #### 例 3 {#ens-iii-s1-n1-exa-3 .statement tag=03SJ}
 
@@ -144,21 +144,21 @@ $$(R\{x, y\} \text{ and } R\{y, x\})$$
 
 并不一定意味着$x = y$。 $R\{x, y\}$据说是$x$和$y$之间的*预序关系*；那么$R\{y, x\}$也是$x$和$y$之间的预序关系，称为关系$R\{x, y\}$的*对立*。
 
-对于例，令$\mathfrak{R}$为$\mathfrak{P}(E)$的子集的集合，它们是E的覆盖（章II, § 4, no. 6）。 关系“$\mathfrak{R}$比$\mathfrak{R}'$粗”在元素$\mathfrak{R}$之间，$\mathfrak{R}$（章II, § 4, no. 6）的$\mathfrak{R}'$是及物和自反的。但两种不同的覆盖物可能会比另一种更粗糙。对于例，当$\mathfrak{R}'$是$\mathfrak{R}$的并（在$\mathfrak{P}(E)$中）和$\mathfrak{R}$的集合中包含的E的子集但不是属于到$\mathfrak{R}$时，就是这种情况。
+例如，令$\mathfrak{R}$为$\mathfrak{P}(E)$的子集的集合，它们是E的覆盖（章II, § 4, no. 6）。 关系“$\mathfrak{R}$比$\mathfrak{R}'$粗”在元素$\mathfrak{R}$之间，$\mathfrak{R}$（章II, § 4, no. 6）的$\mathfrak{R}'$是及物和自反的。但两种不同的覆盖物可能会比另一种更粗糙。例如，当$\mathfrak{R}'$是$\mathfrak{R}$的并（在$\mathfrak{P}(E)$中）和$\mathfrak{R}$的集合中包含的E的子集但不是属于到$\mathfrak{R}$时，就是这种情况。
 
-但无论如何，关系$(R\{x, y\}$和$R\{y, x\})$相对于$x$和$y$来说都是*等价关系*$S\{x, y\}$。令 $x'$、$y'$ 为不同于 R 中未出现的$x$、$y$ 的字母。则 $R\{x, y\}$ 与等价关系 $S\{x, x'\}$ *相容的*（相对于 $x$ 和 $y$） $S\{y, y'\}$；其他字（章II, § 6, no. 8）、关系
+但无论如何，关系$(R\{x, y\}$和$R\{y, x\})$相对于$x$和$y$来说都是*等价关系*$S\{x, y\}$。令 $x'$、$y'$ 为不同于 R 中未出现的$x$、$y$ 的字母。则 $R\{x, y\}$ 与等价关系 $S\{x, x'\}$ *相容的*（相对于 $x$ 和 $y$） $S\{y, y'\}$；其他字 (章 II, § 6, no. 8), 关系
 
 $$(R\{x, y\} \text{ and } S\{x, x'\} \text{ and } S\{y, y'\})$$
 
 意味着$R\{x', y'\}$。
 
-¶ A *预序关系在集合* E 上是预序关系 $R\{x, y\}$，使得关系 $R\{x, x\}$ 相当于 $x \in E$。 关系$R\{x, y\}$则意味着“$x \in E$和$y \in E$”。
+¶ A *预序关系在集合* E 上是预序关系 $R\{x, y\}$，这样关系 $R\{x, x\}$ 就等于 $x \in E$。 关系$R\{x, y\}$则意味着“$x \in E$和$y \in E$”。
 
 ¶ 如果$R\{x, y\}$在集合E上是预序关系，那么上面定义的关系$S\{x, y\}$就是E上的等价关系。让$R'\{X, Y\}$表示关系
 
 $$X \in E/S \text{ and } Y \in E/S \text{ and } (\exists x)(\exists y)(x \in X \text{ and } y \in Y \text{ and } R\{x, y\}),$$
 
-也就是说，关系由R在经过上导出商（相对于$x$和$y$）；我们在章II, § 6, no. 3中看到，它相当于关系
+也就是说，由R在经过上诱导关系到商（相对于$x$和$y$）；我们在章II, § 6, no. 3中看到，它相当于关系
 
 $$X \in E/S \text{ and } Y \in E/S \text{ and } (\forall x)(\forall y)((x \in X \text{ and } y \in Y) \Rightarrow R\{x, y\}).$$
 
@@ -199,9 +199,9 @@ $$(E \times E)/(S \times S).$$
 
 截面其余部分给出的定义适用于$x$和$y$之间的任意序（或预序）关系$\mathrm{R}\{x, y\}$，但主要用于写有$\mathrm{R}\{x, y\}$的情况$x \leqslant y$ \*（与整数或实数之间通常的序关系类比）\*（或$x \subset y$，或通过一些类似的符号）；因此，我们将仅针对记号$x \leqslant y$陈述它们，并留给读者将它们转录成其他记号的任务。当$\mathrm{R}\{x, y\}$写成$x \leqslant y$时，$y \geqslant x$与$x \leqslant y$同义，这些关系读作“$x$*小于*$y$”，或“$x$*小于*$y$”，或“$y$*大于*$x$”或“$y$*大于*$x$”。 关系$x \geqslant y$则预序关系（*介于*$x$*和*$y$）*与*$x \leqslant y$相对。
 
-由于语言滥用，我们经常会说“the 关系 $\leqslant$”而不是“the 关系 $x \leqslant y$”；在这种情况下，“关系$\geqslant$”与“关系$\leqslant$”相反。我们注还指出，在同一个证明中，在不存在混淆风险的情况下，我们可能经常使用相同的符号$\leqslant$来表示多个不同的序关系。
+由于语言滥用，我们经常会说“the 关系 $\leqslant$”而不是“the 关系 $x \leqslant y$”；在这种情况下，“关系$\geqslant$”与“关系$\leqslant$”相反。我们还注意到，在同一个证明中，在不存在混淆风险的情况下，我们经常可以使用相同的符号$\leqslant$来表示几个不同的序关系。
 
-将关系的条件写成$x \leqslant y$在集合E上写成序关系如下：
+将关系写成$x \leqslant y$，条件在集合E上写成序关系如下：
 
 (RO$_{\mathrm{I}}$) *关系“$x \leqslant y$和$y \leqslant z$”意味着$x \leqslant z$。*
 (RO$_{\mathrm{II}}$) *关系“$x \leqslant y$和$y \leqslant x$”意味着$x = y$。*
@@ -215,9 +215,9 @@ $$(E \times E)/(S \times S).$$
 
 C58。 *令$\leqslant$为序关系，并令$x$、$y$为两个不同的字母。 关系 $x \leqslant y$ 相当于“$x < y$ 或 $x = y$”。 关系“$x \leqslant y$和$y < z$”、“$x < y$和$y \leqslant z$”均意味着$x < z$。*
 
-第一个断言源自标准$A \Rightarrow ((A$和（不是$B$））或$B$）（章I, § 3，标准C24）。为了证明第二个断言，我们注每个假设都蕴涵$x \leqslant z$，通过传递性；和关系（$x = z$和$x \leqslant y$和$y \leqslant z$）将意味着$x = y = z$，与假设相反。
+第一个断言源自标准$A \Rightarrow ((A$和（不是$B$））或$B$）（章I, § 3，标准C24）。为了证明第二个断言，我们注意到每个假设都蕴涵$x \leqslant z$，通过传递性；和关系（$x = z$和$x \leqslant y$和$y \leqslant z$）将意味着$x = y = z$，与假设相反。
 
-¶ 在序中，为了让事情变得更容易，并通过数学定理来实现替换元数学判据，我们通常会考虑一个理论$\mathscr{T}$，其中包含公理和集合论的公理概形，并且加法，两个常数 E 和 $\Gamma$ 满足公理
+¶ 在序中，为了让事情变得更容易，并通过数学定理来实现替换元数学判据，我们通常会考虑理论$\mathscr{T}$，其中包含公理和集合论的公理概形，在加法中，两个常数 E 和 $\Gamma$ 满足公理
 
 “$\Gamma$ 是集合 E 上的订单”(no. 1)。
 
@@ -225,19 +225,19 @@ C58。 *令$\leqslant$为序关系，并令$x$、$y$为两个不同的字母。 
 
 ¶ 每当在 $\mathscr{T}$ 中，$\Gamma$ 是 E 上的预排序时，我们同样可以说 E 是由预排序* $\Gamma$ *预排序的。
 
-在某些情况下（对于下面的定义中的例），我们要考虑的理论会稍微复杂一些。我们将让读者明确这些理论的常数和公理。
+在某些情况下（例如下面的定义），我们要考虑的理论会稍微复杂一些。我们将让读者明确这些理论的常数和公理。
 
 令 E、E$'$ 为按顺序 $\Gamma$、$\Gamma'$ 排序的两个集合。 * E *到* E$'$ 的 *同构（对于顺序 $\Gamma$ 和 $\Gamma'$）是 E 的双射 $f$ 到 E$'$，这样关系 $x \leqslant y$ 和 $f(x) \leqslant f(y)$ 是等价的（cf.章IV, § 1）。
 
-### 4. 有序子集。 乘积有序集
+### 4. 有序子集。 乘积 / 有序集
 
-设 E 是按排序 $\Gamma$ 排序的集合，有图 G。对于 E 的每个子集 A，$G \cap (A \times A)$ 是 A 上的排序； 相应的序关系相当于“$x \leqslant y$和$x \in A$和$y \in A$”，我们简单地用$x \leqslant y$来表示（滥用语言）。在 A 上定义的排序和序关系据说是由 E 上给出的排序和序关系 *诱导的； E 上的排序和序关系据说是 A 上排序的 *扩张* 和序关系，它们是诱导。 每当我们将 A 视为有序的集合时，我们都会想到由 E 上的除非在 A 上引发的排序，则明确指出了相反的情况。
+设 E 是按排序 $\Gamma$ 排序的集合，有图 G。对于 E 的每个子集 A，$G \cap (A \times A)$ 是 A 上的排序； 相应的序关系相当于“$x \leqslant y$和$x \in A$和$y \in A$”，我们简单地用$x \leqslant y$来表示（滥用语言）。在 A 上定义的排序和序关系据说是由 E 上给出的排序和序关系 *诱导的； E 上的排序和序关系被认为是 A 上排序的 *扩张* 和序关系，它们是诱导。每当我们将 A 视为有序的集合时，我们都会想到由 E 上的除非在 A 上引发的排序，则明确指出了相反的情况。
 
-*例*。由关系$X \subset Y$包含在子集的各种集合上引起的关系非常重要。这里有一些例：
+*例*。由关系$X \subset Y$在集合或子集上引入的关系非常重要。这里有一些例：
 
 #### 例 1 {#ens-iii-s1-n4-exa-1 .statement tag=03WB}
 
-设E、F为两个集合，并令$\Phi(E, F)$为E到F中子集的所有映射中的集合。对于每个$f \in \Phi(E, F)$，令$G_f$为$f$的图，即子集 $E \times F$。如果我们在 $f$ 和 $g$ (no. 1, 例 3) 之间赋予 $\Phi(E, F)$ 序关系“*g 扩展 f*”，则 $f \to G_f$ 是有序的同构集合 $\Phi(E, F)$ 到 $\mathfrak{P}(E \times F)$ 的子集，按包含顺序排列。
+设E、F为两个集合，并令$\Phi(E, F)$为E到F中的子集的所有映射中的集合。对于每个$f \in \Phi(E, F)$，令$G_f$为$f$的图，即子集 $E \times F$。如果我们在 $f$ 和 $g$ (no. 1, 例 3) 之间赋予 $\Phi(E, F)$ 序关系“*g 扩展 f*”，则 $f \to G_f$ 是有序的同构集合 $\Phi(E, F)$ 到 $\mathfrak{P}(E \times F)$ 的子集，按包含顺序排列。
 
 #### 例 2 {#ens-iii-s1-n4-exa-2 .statement tag=03WC}
 
@@ -245,7 +245,7 @@ C58。 *令$\leqslant$为序关系，并令$x$、$y$为两个不同的字母。 
 
 #### 例 3 {#ens-iii-s1-n4-exa-3 .statement tag=03WD}
 
-设 E 为集合，$\Omega \subset \mathfrak{P}(E \times E)$ 为 E 上*预购*图的集合（no. 2）（或者，滥用语言，E 上所有预购的集合）。 $s$和$t$之间的序关系$s \subset t$，在$\Omega$上由$\mathfrak{P}(E \times E)$上包含关系诱导，由说表示“$s$的预排序是*更细*” $t$”（或者“$t$比$s$*粗糙*”）。令$x(s)y$和$x(t)y$分别表示E上的预序关系、$(x, y) \in s$和$(x, y) \in t$；那么说 $s$ 比 $t$ 更细相当于说，关系 $x(s)y$ *暗示* $x(t)y$。
+设 E 为集合，$\Omega \subset \mathfrak{P}(E \times E)$ 为 E 上*预购*图的集合 (no. 2)（或者，滥用语言，E 上所有预购的集合）。 $s$和$t$之间的序关系$s \subset t$，在$\Omega$上由$\mathfrak{P}(E \times E)$上包含关系诱导，由说表示“$s$的预排序是*更细*” $t$”（或者“$t$比$s$*粗糙*”）。令$x(s)y$和$x(t)y$分别表示E上的预序关系、$(x, y) \in s$和$(x, y) \in t$；那么说 $s$ 比 $t$ 更细相当于说，关系 $x(s)y$ *暗示* $x(t)y$。
 
 令$(E_\iota)_{\iota \in I}$为集合的族，对于每个指标$\iota \in I$，令$\Gamma_\iota$为$E_\iota$的排序；令$G_\iota \subset E_\iota \times E_\iota$为其图，令$x_\iota \leqslant y_\iota$表示序关系$(x_\iota, y_\iota) \in G_\iota$在$E_\iota$上。 乘积集合$F = \prod_{\iota \in I} E_\iota$、关系
 
@@ -276,7 +276,7 @@ $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
 
 当我们通过相反的预排序对 E 或 F 上的替换 *一个*预排序时，E 到 F 的递增映射就变成递减（反之亦然）。  每个*常数*函数既是递增又是递减；这个叙述的逆命题通常是不正确的。
 
-对于例，如果集合 E 按等式关系排序，则 E 本身的恒等映射既是递增又是递减，但如果 E 具有多个元素 (cf.)，则不是常数习题7)。
+例如，如果集合 E 按等式关系排序，则 E 本身的恒等映射既是递增又是递减，但如果 E 具有多个元素 (cf. 习题)，则不是常数。 7).
 
 #### 定义 2 {#ens-iii-s1-def-2 .statement tag=03JD}
 
@@ -290,11 +290,11 @@ $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
 
 #### 例 2 {#ens-iii-s1-n5-exa-2 .statement tag=03SL}
 
-令 E 为有序集合。对于每个$x \in E$，令$U_x$为所有$y \in E$中的集合，使得$y \geqslant x$。 映射 $x \to U_x$ 是 E 的严格递减映射进入$\mathfrak{P}(E)$（按包含排序）；事实上，关系$x \leqslant y$相当于$U_x \supset U_y$。
+令 E 为有序集合。对于每个$x \in E$，令$U_x$为所有$y \in E$中的集合，使得$y \geqslant x$。 映射 $x \to U_x$ 是 E 的严格递减映射到$\mathfrak{P}(E)$（按包含排序）；事实上，关系$x \leqslant y$相当于$U_x \supset U_y$。
 
 有序集合 E 到有序集合 F 的单射单调映射 *严格单调*； 逆命题通常不为真，因为当关系、$x \leqslant y$、$x \geqslant y$都不为真时，可能会出现$f(x) = f(y)$（cf.no. 12、命题11）。
 
-¶ 有序集合 E 到有序集合 E' 的双射映射 $f$ 是 E 到 E' (no. 3) 的同构，当且仅当 $f$ 及其逆映射均为递增。
+¶ 有序集合 E 到有序集合 E' 的双射映射 $f$ 是 E 到 E' (no. 3) 的同构当且仅当 $f$ 及其逆映射均为递增。
 
 ¶ 如果 I 是 *有序* 指标集合，则集合 E 的子集* $(X_\iota)_{\iota \in I}$ 的 * 族被称为 *递增* 如果 $\iota \to X_\iota$ 是递增映射 I 进入$\mathfrak{P}(E)$，按包含顺序排列（在其他字中，如果 $\iota \leqslant \varkappa$ 暗示$X_\iota \subset X_\varkappa$）。同样，我们定义是子集$(X_\iota)_{\iota \in I}$的*递减、严格递增的、*或*严格递减*家族。
 
@@ -364,7 +364,7 @@ E 的子集映射集合 $\Phi(E, F)$ 到 F 中（F 非空），在 $u$ 和 $v$ �
 
 ¶ 预定的集合 $E$ 的子集 $A$ 被认为是 $E$ 中的 *cofinal*（或 *coinitial*），如果对于每个 $x\in E$ 都存在 $y\in A$，使得 $x\leq y$（或 $y\leq x$）。因此，如果说有序集合 $E$ 具有最大的（或至少）元素，则意味着 $E$ 具有单个元素的共尾（或共初始）子集由……组成。
 
-### 8. UPPER AND LOWER BOUNDS
+### 8. 上界和下界
 
 #### 定义 5 {#ens-iii-s1-def-5 .statement tag=03JI}
 
@@ -374,7 +374,7 @@ E 的子集映射集合 $\Phi(E, F)$ 到 F 中（F 非空），在 $u$ 和 $v$ �
 
 ¶ 如果$x$是$X$的下界，则每个元素$z\leq x$也是$X$的下界。 $X$的下界也是$X$的每子集的下界。当且仅当存在 $X$ 中的下界（其中属于到 $X$）时，有序集合 $X$ 具有至少元素。
 
-¶ The set of lower bounds of a subset $X$ of a preordered set $E$ may be empty : this is the case when $X=E$ and $E$ is an ordered set which has no least element.
+¶ 预序集合 $E$ 的子集 $X$ 的下界集合可能为空：当 $X=E$ 和 $E$ 是没有最小元素的有序集合时就是这种情况。
 
 ¶ $E$ 的子集 $X$，其下界（或上界）的集合不为空，则称为 *下界*（或 *上界*）。上下都有界的子集被称为*有界*。如果 $X$ 有界于下（或有界于上，有界），则对于 $X$ 的每个子集也是如此。
 
@@ -422,9 +422,9 @@ $$
 
 *令* E *为有序集合，并让* A、B *为* E 中的两个子集，*其中每个在* E 中至少有上界*（分别为*下确界*）。*如果* $A \subset B$，*则*$\sup A \leqslant \sup B$（分别为$\inf A \geqslant \inf B$）。
 
-#### 推论{#ens-iii-s1-n9-cor-1 .statement tag=03JM}
+#### 推论 {#ens-iii-s1-n9-cor-1 .statement tag=03JM}
 
-*设$(x_\iota)_{\iota \in I}$是有序集合*$\mathrm{E}$的元素族，其中*$\mathrm{E}$中至少有上界。 *如果*$\mathrm{J}$*是*$\mathrm{I}$*的子集*使得家庭*$(x_\iota)_{\iota \in J}$*在*$\mathrm{E}$中至少有上界，*我们有*$\sup\limits_{\iota \in J} x_\iota \leqslant \sup\limits_{\iota \in I} x_\iota$。
+*设$(x_\iota)_{\iota \in I}$是有序集合*$\mathrm{E}$的元素族，其中*$\mathrm{E}$中至少有上界。 *如果*$\mathrm{J}$*是*$\mathrm{I}$*的子集，使得家庭*$(x_\iota)_{\iota \in J}$*在*$\mathrm{E}$中至少有上界，*我们有*$\sup\limits_{\iota \in J} x_\iota \leqslant \sup\limits_{\iota \in I} x_\iota$。
 
 #### 命题 6 {#ens-iii-s1-prop-6 .statement tag=03JN}
 
@@ -438,7 +438,7 @@ $$
 
 $$(1) \qquad \sup_{\iota \in I} x_\iota = \sup_{\lambda \in L} \left( \sup_{\iota \in J_\lambda} x_\iota \right).$$
 
-让$b_\lambda = \sup\limits_{\iota \in J_\lambda} x_\iota$。假设 $(x_\iota)_{\iota \in I}$ 至少有上界 $a$。然后每个$\lambda \in \mathrm{L}$对应$a \geqslant b_\lambda$（推论命题5）。另一方面，如果每个$\lambda \in \mathrm{L}$都有$c \geqslant b_\lambda$，那么每个$\iota \in \mathrm{I}$就有$c \geqslant x_\iota$，因为$(\mathrm{J}_\lambda)_{\lambda \in L}$是$\mathrm{I}$的覆盖；因此$c \geqslant a$，这证明了
+让$b_\lambda = \sup\limits_{\iota \in J_\lambda} x_\iota$。假设 $(x_\iota)_{\iota \in I}$ 至少有上界 $a$。然后每个$\lambda \in \mathrm{L}$对应$a \geqslant b_\lambda$（推论到命题5）。另一方面，如果每个$\lambda \in \mathrm{L}$都有$c \geqslant b_\lambda$，那么每个$\iota \in \mathrm{I}$就有$c \geqslant x_\iota$，因为$(\mathrm{J}_\lambda)_{\lambda \in L}$是$\mathrm{I}$的覆盖；因此$c \geqslant a$，这证明了
 
 $$a = \sup_{\lambda \in L} b_\lambda.$$
 
@@ -450,7 +450,7 @@ $$c' \geqslant \sup_{\iota \in J_\lambda} x_\iota = b_\lambda$$
 
 $$a' = \sup_{\iota \in I} x_\iota.$$
 
-#### 推论{#ens-iii-s1-n9-cor-2 .statement tag=03JP}
+#### 推论 {#ens-iii-s1-n9-cor-2 .statement tag=03JP}
 
 *让*$(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$*成为有序集合*$\mathrm{E}$*的元素的“双”家族，使得对于每个*$\mu \in \mathrm{M}$*家族*$(x_{\lambda\mu})_{\lambda \in L}$*在*$\mathrm{E}$中至少有上界。 *对于家庭* $(x_{\lambda\mu})_{(\lambda,\ \mu) \in L \times M}$ *在* $\mathrm{E}$ 中至少拥有上界，*家庭* $\left( \sup\limits_{\lambda \in L} x_{\lambda\mu} \right)_{\mu \in M}$ *在* E 中至少拥有* *上界是充分必要的，*然后我们有*
 
@@ -494,13 +494,13 @@ $$c'_\iota = a_\iota \quad \text{for} \quad \iota \neq \varkappa \qquad \text{an
 
 第一个断言源自以下事实：F中A的上界的集合$\mathrm{M}$包含在E中A的上界的集合N中，并且来自命题5。另一方面，如果N的最小元素位于F中，那么它属于到M显然是 M 中最小的元素；这就证明了第二个断言。
 
-### 10. DIRECTED SETS
+### 10. 有向集合
 
 #### 定义 7 {#ens-iii-s1-def-7 .statement tag=03QK}
 
 *预先排序的集合* E *被认为是右向*（或*左向*）*如果* E 的两个元素中的每一个子集都位于上方*（相应地*位于下方*）。
 
-代替“右向”，我们经常使用“相对于关系$\leqslant$定向”的表达方式，以及当预序关系由其他符号表示时的类似表达方式。对于例，如果$\mathfrak{S}$是集合A的子集的集合，我们说$\mathfrak{S}$是*有向于关系*$\subset$（或$\supset$）如果，对于每个子集 $\mathfrak{S}$的两个元素中的$\{\mathrm{X}, \mathrm{Y}\}$由……组成，存在$\mathrm{Z} \in \mathfrak{S}$使得$\mathrm{X} \subset \mathrm{Z}$和$\mathrm{Y} \subset \mathrm{Z}$（分别为$\mathrm{X} \supset \mathrm{Z}$和$\mathrm{Y} \supset \mathrm{Z}$）。
+代替“右向”，我们经常使用“相对于关系$\leqslant$定向”的表达方式，以及当预序关系由其他符号表示时的类似表达方式。例如，如果$\mathfrak{S}$是集合A的子集的集合，我们说$\mathfrak{S}$*有向于关系*$\subset$（分别是$\supset$），如果对于每个子集$\{\mathrm{X}, \mathrm{Y}\}$ $\mathfrak{S}$的两个元素中的由……组成，存在$\mathrm{Z} \in \mathfrak{S}$使得$\mathrm{X} \subset \mathrm{Z}$和$\mathrm{Y} \subset \mathrm{Z}$（分别为$\mathrm{X} \supset \mathrm{Z}$和$\mathrm{Y} \supset \mathrm{Z}$）。
 
 *例*
 (1) 具有最大元素的有序集合是右向的。
@@ -545,7 +545,7 @@ $$c'_\iota = a_\iota \quad \text{for} \quad \iota \neq \varkappa \qquad \text{an
 
 格子显然是左向和右向的。但同时向左和向右的有序集合不一定是格子。 \* 后者的例是$\mathbf{R}$的映射$x\mapsto p(x)$的集合自身，其中$p$是$\mathbf{R}[X]$的多项式，这个集合按关系$p\leqslant q$（no. 4）排序。 \*
 
-### 12. TOTALLY ORDERED SETS
+### 12. 全序集
 
 #### 定义 9 {#ens-iii-s1-def-9 .statement tag=03JR}
 
@@ -589,20 +589,20 @@ $$f(x) < f(y) \qquad \text{or} \qquad f(x) > f(y),$$
 
 *设* E *为全序集并让* X *为* E 的子集。 *对于* E 的元素 $b$ *为* E 中* X *的最小上界，*必要且充分的是* (1) *$b$ 是* X的上界，(2) *对于每个$c \in \mathrm{E}$使得$c < b$，存在$x \in \mathrm{X}$使得$c < x \leqslant b$。*
 
-The second condition says that no element $c < b$ is an upper bound of X, i.e., $b$ is a minimal element of the set M of upper bounds of X; but this is the same as saying that $b$ is the least element of M, since M is totally ordered (no. 10, Proposition 10).
+第二个条件是$c < b$不存在X的上界，即$b$是X上界集合M的最小元素；但这等于说 $b$ 是 M 的最小元素，因为 M 是全序的（no. 10，命题 10）。
 
-### 13. 间隔
+### 13. 区间
 
-令 E 为有序集合，并令 $a$、$b$ 为 E 的两个元素，使得 $a \leqslant b$。 元素 $x$ 的 E 由……组成的子集使得 $a \leqslant x \leqslant b$ 称为*左端点 a 和右端点 b* 的闭区间，并用 $[a, b]$ 表示。所有$x \in \mathrm{E}$中的集合，使得$a \leqslant x < b$（或$a < x \leqslant b$）被称为*右侧半开区间*（或*左侧*），端点为$a$和$b$，并由$[a, b[$（或$]a, b]$）表示。所有$x \in \mathrm{E}$的集合，使得$a < x < b$称为“开区间”，端点为$a$和$b$，并用$]a, b[$表示。
+令 E 为有序集合，并令 $a$、$b$ 为 E 的两个元素，使得 $a \leqslant b$。 元素 $x$ 的 E 由……组成的子集，使得 $a \leqslant x \leqslant b$ 称为左端点 a 和右端点 b* 的*闭区间，并用 $[a, b]$ 表示。 所有$x \in \mathrm{E}$的集合，使得$a \leqslant x < b$（或$a < x \leqslant b$）被称为*右侧半开区间*（或*左侧*），端点为$a$和$b$，并由$[a, b[$（或$]a, b]$）表示。 所有$x \in \mathrm{E}$的集合，使得$a < x < b$被称为具有端点$a$和$b$的*开区间*，并且由$]a, b[$表示。
 
-注闭区间永远不会为空；间隔$[a, a]$为集合$\{a\}$。另一方面，区间$[a, a[$、$]a, a]$、$]a, a[$都是空的；即使当 $a < b$ 时，开区间 $]a, b[$ 也可能为空。
+请注意，闭合的区间永远不会为空； 区间$[a, a]$是集合$\{a\}$。另一方面，区间、$[a, a[$、$]a, a]$、$]a, a[$都是空的；即使$a < b$，开放的区间$]a, b[$也可能为空。
 
-令$a$为E的元素。所有$x \in \mathrm{E}$的集合，使得$x \leqslant a$（分别为$x < a$）被称为*闭合*（分别为*开*）*区间在左侧无界，右侧端点为a*，并由$]{\leftarrow}, a]$（分别为*开*）表示。 $]{\leftarrow}, a[$);同样，所有$x \in \mathrm{E}$中的集合，使得$x \geqslant a$（分别为$x > a$）被称为*闭合*（分别为*开*）*与左端点a的间隔，在右侧无界*，并由$[a, {\rightarrow}[$（分别为$]a, {\rightarrow}[$）表示。最后，E本身可以被视为*左右无界的开区间*，用$]\leftarrow, \rightarrow[$表示。
+令$a$为E的元素，所有$x \in \mathrm{E}$的集合，使得$x \leqslant a$（或$x < a$）被称为*封闭*（或*开*）*区间在左侧无界，右侧端点a*，并表示为$]{\leftarrow}, a]$（分别为$]{\leftarrow}, a[$）；同样，所有$x \in \mathrm{E}$中的集合，使得$x \geqslant a$（分别为$x > a$）被称为*闭合*（分别为*开*）*区间，其左端点为a，在右侧无界*，并由$[a, {\rightarrow}[$（分别为$]a, {\rightarrow}[$）表示。最后，E本身可以被视为*左、右无界的开区间，记为$]\leftarrow, \rightarrow[$。
 
 #### 命题 13 {#ens-iii-s1-prop-13 .statement tag=03JU}
 
-*在格中，两个区间的交是一个区间。*考虑两个闭区间$[a, b]$和$[c, d]$的例交，并令$\alpha = \sup (a, c)$，$\beta = \inf (b, d)$。如果同时有$a \leqslant x \leqslant b$和$c \leqslant x \leqslant d$，则有$\alpha \leqslant x \leqslant \beta$，反之亦然；如果$[a, b]$和$[c, d]$中的$\alpha \not\leqslant \beta$、交为空；如果$\alpha \leqslant \beta$，这个交就是$[\alpha, \beta]$。对于其他情况，我们让读者自行完成证明。
+*在格子中，两个区间的交为区间。* 例如，考虑两个闭合的区间 $[a, b]$ 和 $[c, d]$ 的交，并令 $\alpha = \sup (a, c)$、$\beta = \inf (b, d)$。如果同时有$a \leqslant x \leqslant b$和$c \leqslant x \leqslant d$，则有$\alpha \leqslant x \leqslant \beta$，反之亦然；如果$\alpha \not\leqslant \beta$、$[a, b]$和$[c, d]$中的交为空；如果$\alpha \leqslant \beta$，这个交就是$[\alpha, \beta]$。对于其他情况，我们让读者自行完成证明。
 
-### 习题 {#ens-iii-s1-exercises}
+### 习题{#ens-iii-s1-exercises}
 
 参见[习题为 § 1](exercises/s1/)。

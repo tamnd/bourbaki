@@ -12,19 +12,19 @@ pdf_pages: 0466-0469
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: fca6283576662cdf9a2ac17629405c66f970f448c285c1cc47e0a964dbbcf462
+content_sha256: 1b29e70930d223d0db1d282ec7a03afa240a01bf0cf9b6e469bb727681ed237d
 translated_from: content/en/int/index_of_notation_i_vi.md
 translation_method: google
 source_content_sha256: 8d205b7644c3f36f47c82204ad9bdc09ea8dd5272111139924ec0cf96a5e0e74
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: cfdac0369b4e483a32e47e8a2e33de1403834cb78ed5fcea60a07667ca2365ec
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 参考号数表示阶、章、截面和小节（或特殊情况下，习题）。
 

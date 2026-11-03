@@ -13,16 +13,16 @@ pdf_pages: 0378-0385
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 7a02597aaea2c9c3015cea50f65755301290679528cffde06922c0239ab0a763
+content_sha256: 900b66fef71f4f6a3f2819dc46fdfe0552d7bb3d1f25f3335dfb460ddbc4d260
 translated_from: content/en/ens/ER/06_s6_ordered_sets.md
 translation_method: google
 source_content_sha256: 971a0a96b2a9c9ae41e13935799a40e904d52151f935272d34c3c4e23f4b84cc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 92814ad0668c8b605cce9ebaf4e876394b82fe094020cc48709c9a76e003a0b8
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 6. 有序集
@@ -40,11 +40,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 令$\omega\{x,y\}$为$E$上的序关系，并令$A$为$E$的任意子集。 $A$ 的两个泛型元素 $x,y$ 之间的关系 $\omega\{x,y\}$ 则为 $A$ 上的序关系，并且$A$ 上的定义的排序据说是由$\omega\{x,y\}$ 上定义的排序引起的$E$。 $E$ 上的给定排序据说是 $A$ 上诱导排序的扩张。
 
-$E$ 的两个泛型元素 $x,y$ 之间的自反和及物关系 $\overline{\omega}\{x,y\}$ 在 $E$ 上称为预序关系。 关系“$\overline{\omega}\{x,y\}$和$\overline{\omega}\{y,x\}$”是$E$上的等价关系$R$，并且$\overline{\omega}\{x,y\}$与此关系兼容（在$x$和$y$中）。 经过到商（相对于 $x$ 和 $y$），$\overline{\omega}\{x,y\}$ 诱导对集合 $E/R$ 序关系，据说与 $\overline{\omega}\{x,y\}$ 相关。 集合赋予预序关系称为预购集合。
+$E$ 的两个泛型元素 $x,y$ 之间的自反和及物关系 $\overline{\omega}\{x,y\}$ 在 $E$ 上称为预序关系。 关系“$\overline{\omega}\{x,y\}$和$\overline{\omega}\{y,x\}$”是$E$上的等价关系$R$，并且$\overline{\omega}\{x,y\}$与此关系兼容（在$x$和$y$中）。 经过至商（相对于$x$和$y$），集合$E/R$序关系上的$\overline{\omega}\{x,y\}$诱导，据说与$\overline{\omega}\{x,y\}$相关。 集合赋予预序关系称为预购集合。
 
 2. 包含关系“$Y \subset X$”是任意集合$E$的子集$\mathfrak{P}(E)$的集合上的序关系。
 
-如果 $E$ 和 $F$ 是两个集合（可能不同也可能不同），关系“$g$ 扩展 $f$”是所有映射中集合上的序关系子集的 $E$ 变为 $F$。
+如果 $E$ 和 $F$ 是两个集合（可能不同，也可能不同），关系“$g$ 扩展 $f$”是所有映射中集合上的序关系子集的 $E$ 变为 $F$。
 
 自然整数 [^1] 中的集合 $\mathbf{N}$ 按关系“$x \leq y$”订购。
 
@@ -52,11 +52,11 @@ $E$ 的两个泛型元素 $x,y$ 之间的自反和及物关系 $\overline{\omega
 
 关系“$x\leq y$”相当于“$x<y$或$x=y$”。 关系“$x\leq y$和$y<z$”意味着“$x<z$”；类似地，“$x<y$和$y\leq z$”意味着“$x<z$”。
 
-4. A subset X of a set E, ordered by a relation “$\leq$”, is said to be *totally ordered* by this relation if, for all $x\in X$ and all $y\in X$, we have either $x\leq y$ or $y\leq x$ (or, equivalently, either $x<y$ or $x=y$ or $x>y$, these three relations being mutually exclusive).
-The empty subset of an ordered set is always totally ordered. 可能会发生整个集合 E 完全有序的情况，就像集合 $\mathbf{N}$ 和关系 $x\leq y$ 的情况一样。
+4. 集合 E 的子集 X，按关系“$\leq$”排序，如果对于所有 $x\in X$ 和所有 $y\in X$，我们有 $x\leq y$ 或 $y\leq x$（或者等价地，$x<y$ 或 $x=y$ 或$x>y$，这三种关系是互斥的）。
+有序集的空子集始终是全序的。 可能会发生整个集合 E 完全有序的情况，就像集合 $\mathbf{N}$ 和关系 $x\leq y$ 的情况一样。
 全序集中的每个子集都通过归纳排序完全排序。
-在有序集合 E 中，如果 $a$ 和 $b$ 是两个元素，使得元素 $x$ 的 E 由……组成的$a\leq b$、子集，使得 $a\leq x\leq b$ 被称为*闭区间，左端点为 a，并且右侧端点 b*，用 $[a,b]$ 表示。 所有$x\in E$的集合，使得$a\leq x<b$（或$a<x\leq b$）被称为*右侧半开区间*（或*左侧*），端点为$a$和$b$，并由$[a,b[$（或$]a,b]$）表示。 所有$x\in E$的集合，使得$a<x<b$称为“开区间”，端点为$a$和$b$，并用$]a,b[$表示。
-所有$x\in E$中的集合，使得$x\leq a$（分别为$x<a$）称为*闭合*（分别为*开*）*左侧无界区间，右侧端点为a*，并用$] \leftarrow,a]$（分别为$]\leftarrow,a[$）表示；同样，所有$x\in E$中的集合，使得$x\geq a$（分别为$x>a$）被称为*闭合*（分别为*开*）*区间在右侧无界，左端点a*，并由$[a,\rightarrow[$（分别为$]a,\rightarrow[$）表示。 最后，我们认为 E 本身是一个*双向无界的开区间*，因此我们用 $]\leftarrow,\rightarrow[$ 表示它。
+在有序集合 E 中，如果 $a$ 和 $b$ 是两个元素，则元素 $x$ 的 E 由……组成的 $a\leq b$、子集，则 $a\leq x\leq b$ 被称为*闭区间，其中左端点a和右端点b*，用$[a,b]$表示。 所有$x\in E$的集合，使得$a\leq x<b$（或$a<x\leq b$）被称为*右侧半开区间*（或*左侧*），端点为$a$和$b$，并由$[a,b[$（或$]a,b]$）表示。 所有$x\in E$的集合，使得$a<x<b$被称为具有端点$a$和$b$的*开区间*，并且由$]a,b[$表示。
+所有$x\in E$中的集合，使得$x\leq a$（或$x<a$）称为*封闭*（或*开*）*区间，左侧无界，右侧端点a*，并用$] \leftarrow,a]$（或$]\leftarrow,a[$）表示；同样，所有$x\in E$中的集合，使得$x\geq a$（分别为$x>a$）被称为*封闭*（分别为*开*）*区间在右侧无界，左端点a*，并由$[a,\rightarrow[$（分别为$]a,\rightarrow[$）表示。 最后，我们认为 E 本身是一个*开区间在两个方向上无界*，因此我们用$]\leftarrow,\rightarrow[$表示它。
 
 5. 如果X是有序集合E的子集，则X至多有一个元素$a$，使得所有$x\in X$都有$a\leq x$；当存在元素 $a$ 和这个性质时，称为X* 的*最小元素。同样，至多存在一个元素 $b$，使得 $x\leq b$ 对于所有 $x\in X$； $b$，如果存在，则称为X*的*最大元素。
 在*全序集 E*中，每个*有限*非空子集都有最大元素和至少元素，分别称为子集的*最大和最小*元素。
@@ -68,7 +68,7 @@ The empty subset of an ordered set is always totally ordered. 可能会发生整
 
 7. 设$X$为有序集合$E$的子集。如果元素$x\in E$使得$z\leq x$对于所有$z\in X$，则$x$被称为$X$的*上界*。类似地，元素$y\in E$，使得所有$z\in X$的$z\geq y$被称为$X$的*下界*。
 
-The set of upper bounds (or the set of lower bounds) of a subset $X$ may be empty. 子集$X$，其上界（或下界）的集合不为空，则称为*上界*（或*下界*）。 上下都有界的集合被简单地称为“有界”。 每个大于$X$的上界的元素都是$X$的上界； $X$ 中每小于下界的元素就是 $X$ 中的下界。
+子集$X$的上界集合（或下界集合）可能为空。 子集$X$，其上界（或下界）的集合不为空，则称为*上界*（或*下界*）。 上下都有界的集合被简单地称为“有界”。 每个大于$X$的上界的元素都是$X$的上界； $X$ 中每小于下界的元素就是 $X$ 中的下界。
 
 如果子集$X$的上界集合具有至少元素$a$，则$a$称为$X$的*最小上界*或*最高*。如果$X$的下界的集合有最大元素$b$，则$b$称为$X$的*下确界*或*下确界*。如果这些边界存在，则它们通过定义是唯一的，并且分别用$\sup_E X$（或$\sup X$）、$\inf_E X$（或$\inf X$）表示。如果$X$有最大元素，则它是其最小的上界；如果 $X$ 至少有元素，则为它的下确界。相反，如果 $X$ 的最小上界（或下确界）存在且属于到 $X$，则它是 $X$ 的最大的（或元素）。
 
@@ -155,5 +155,5 @@ $$
 令$(A_\alpha,\varphi_{\alpha\beta})$和$(B_\alpha,\psi_{\alpha\beta})$是集合相对于相同指标集合$I$的两个逆系。令$A=\lim(A_\alpha,\varphi_{\alpha\beta})$、$B=\lim(B_\alpha,\psi_{\alpha\beta})$，对于每个$\alpha\in I$，令$\varphi_\alpha$（分别为$\psi_\alpha$）为$A$到$A_\alpha$的典范映射（分别为$B$到$B_\alpha$）。对于每个$\alpha\in I$，令$u_\alpha$为$A_\alpha$到$B_\alpha$的映射，使得每当$\alpha\leq\beta$时$\psi_{\alpha\beta}\circ u_\beta=u_\alpha\circ\varphi_{\alpha\beta}$。 $(u_\alpha)$家族被称为$(A_\alpha,\varphi_{\alpha\beta})$的映射入$(B_\alpha,\psi_{\alpha\beta})$的逆系。在这些条件下，存在唯一映射$u:A\to B$，使得$\psi_\alpha\circ u=u_\alpha\circ\varphi_\alpha$适用于所有$\alpha\in I$。 映射$u$被称为$u_\alpha$的逆极限，在没有混淆风险的情况下写成$u=\underset{\longleftarrow}{\lim}\,u_\alpha$。令$(C_\alpha,\theta_{\alpha\beta})$相对于$I$为集合的另一个逆系，令$v_\alpha$相对于$(C_\alpha,\theta_{\alpha\beta})$为$(B_\alpha,\psi_{\alpha\beta})$的映射逆系，并令$v=\underset{\longleftarrow}{\lim}\,v_\alpha$。那么我们就有$\underset{\longleftarrow}{\lim}\,(v_\alpha\mathbin{\circ}u_\alpha)=v\mathbin{\circ}u$。
 令$J$为$I$的共尾子集，并假设$J$是*有向的*（相对于从$I$导出的排序）。如果$((E_\alpha)_{\alpha\in I},(f_{\alpha\beta})_{\alpha,\beta\in I})$相对于$I$是集合的逆系，且逆极限$E$，则相对于$J$，$((E_\alpha)_{\alpha\in J},(f_{\alpha\beta})_{\alpha,\beta\in J})$也是集合的逆系。令$E'$为其逆极限，并令$f'_\alpha$为$E'$的典范映射进入$E_\alpha$，其中$\alpha\in J$。对于每个$x\in E$，让$g(x)=(f_\alpha(x))_{\alpha\in J}\in E'$（其中$f_\alpha$表示$E$中的典范映射到$E_\alpha$）。那么$g$就是$E$到$E'$的*双射*，由此$E'$通常被识别为$E$。
 
-[^1]: 根据我们在本结果摘要中的点观点，我们假设整数的理论是已知的。 但不应该认为这个理论对于建立集合论是必要的；读者会发现，通过参考章III，相反，可以从集合论的结果定义整数，并证明它们所有已知的性质。 In our terminology, $0$ belongs to $\mathbf{N}$.
+[^1]: 根据我们在本结果摘要中的点观点，我们假设整数的理论已知。 但不应该认为这个理论是构建集合论所必需的；读者会发现，通过参考章III，相反，可以从集合论的结果定义整数，并证明它们所有已知的性质。 In our terminology, $0$ belongs to $\mathbf{N}$.
 [^2]: Thus, in our terminology, “less than” and “greater than” do not exclude “equal to”.

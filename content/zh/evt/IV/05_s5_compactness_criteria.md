@@ -33,19 +33,19 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: c1fd95523fb4fe23b24f51dc08373e95ad0c8d6479978294f5e1a159863421fa
+content_sha256: 0b622924f89957714a627d57aa8b9d4d24cb39c99648a46e51d832efceeeea8a
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
 translation_method: google
 source_content_sha256: 109a4d05718fd73c2e0104fdb772994f028706b89a9a4001b0f091a0d03c8b4b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: dc61db6ecc55eea03817a6a1039f4b5ca763dab929e116d638abd7b0fb5cec48
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 5。紧凑性判据
+## § 5。紧凑度判据
 
 ### 1. 一般注
 
@@ -53,9 +53,9 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 (A) 对于 x 的每个整数 $m \geq 0$ 和每个邻域 U，都存在整数 $n \geq m$，使得 $x_n \in U$。
 
-A sequence of the form $(y_k)_{k \in \mathbf{N}}$ with $y_k = x_{n_k}$ for a strictly increasing sequence $(n_k)_{k \in \mathbf{N}}$ of positive integers is called an extracted sequence of the sequence $(x_n)_{n \in \mathbf{N}}$. 若存在提取的序列$(x_n)_{n \in \mathbf{N}}$的序列收敛于x，则x为$(x_n)$的极限点；相反，如果 x 具有可数基数系统邻域，并且 x 是序列 $(x_n)$ 的极限点，则存在收敛于 x 的$(x_n)$ 的提取序列。
+对于正整数的严格递增序列$(n_k)_{k \in \mathbf{N}}$，形式为$(y_k)_{k \in \mathbf{N}}$和$y_k = x_{n_k}$的序列称为序列$(x_n)_{n \in \mathbf{N}}$的提取序列。 若存在提取的序列$(x_n)_{n \in \mathbf{N}}$的序列收敛于x，则x为$(x_n)$的极限点；相反，如果 x 具有可数基数系统邻域，并且 x 是序列 $(x_n)$ 的极限点，则存在收敛于 x 的$(x_n)$ 的提取序列。
 
-由于 GT，IX, § 2, No. 9，推论，我们结论当 E 可度量时，以下条件是等价的：
+由于GT，IX, § 2, No. 9，推论，我们结论，当E可度量时，以下条件是等价的：
 a) 集合 A 在 E 中相对紧；
 b) A 的点的每个无限序列在 E 中都有极限点；
 c) 从A的点的每个无限序列中，我们可以提取序列，它收敛到E的点。
@@ -144,9 +144,9 @@ $$
 
 *接下来我们要证明$\overline{A}$包含在$\hat{E}$中。*设H是E'的等连续子集；设 X 为 $\sigma(E', E)$ 的闭包； X 是紧凑的（III，p. 17，cor.2）。对于每个$x \in {E'}^*$，令$\phi_x$为$x' \mapsto \langle x, x' \rangle$到X中的限制；当x在A范围内时，令$\tilde{A} \subset \mathscr{C}_s(X)$为函数$\phi_x$的集合。鉴于A上的假设，$\tilde{A}$的元素的每个无限序列在$\mathscr{C}_s(X)$中都有极限点；通过道具。 2 (IV, p. 33), 集合 $\tilde{A}$ 因此在 $\mathscr{C}_s(X)$ 中相对紧凑。 *因此，对于每个$a \in \overline{A}$，函数$\phi_a$在X上是连续的。*包含于$\overline{A} \subset \hat{E}$然后从th开始。 2 个III、p. 21。
 
-*现在我们将证明 $\overline{A}$ 包含在 E 中。* 由于 A 在 $E_\sigma$ (IV, p. 32, 命题 1) 中是预紧的，它的边界在 $E_\sigma$ (III, p. 3, 命题 2) 中，因此也在 E (IV, p. 1，道具 1)。 令 C 为 A 在 E 中的封闭凸平衡包络线。 那么 C 是有界的，因为 A 是有界的，因此是完备的，因为 E 是准完备的。 在其他字中，C是$\hat{E}$的凸且封闭的子集，因此也是$\hat{E}_\sigma$（IV，p. 1，道具1）。 Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of ${E_\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
+*现在我们将证明 $\overline{A}$ 包含在 E 中。* 由于 A 在 $E_\sigma$ (IV, p. 32, 命题 1) 中是预紧的，它的边界在 $E_\sigma$ (III, p. 3, 命题 2) 中，因此也在 E (IV, p. 1，道具 1)。 令 C 为 A 在 E 中的封闭凸平衡包络线。 那么 C 是有界的，因为 A 是有界的，因此是完备的，因为 E 是准完备的。 在其他字中，C是$\hat{E}$的凸且封闭的子集，因此也是$\hat{E}_\sigma$（IV，p. 1，道具1）。 由于$A \subset C$和$\hat{E}_\sigma$的拓扑是由${E_\sigma'}^*$的拓扑归纳的，所以我们有$\overline{A} \subset C$，因此有$\overline{A} \subset E$。
 
-Since the topology of $E_\sigma$ is induced by that of ${E'_\sigma}^*$, the subset $\overline{A}$ of $E_\sigma$ is compact, and th. 1 follows.
+由于$E_\sigma$的拓扑是由${E'_\sigma}^*$的拓扑归纳而来，$E_\sigma$的子集$\overline{A}$是紧的，并且th。 1如下。
 
 #### 定理 2 (Šmulian) {#evt-iv-s5-thm-2 .statement tag=07VU}
 
@@ -192,7 +192,7 @@ $$
 
 现在假设 A 对于拓扑的简单收敛来说是相对紧凑的。令 $(f_n)_{n \in \mathbf{N}}$ 为 A 的元素序列。 2（IV，p. 33），存在从$(f_n)$提取的序列$(f_{n_k})$并简单地收敛到连续的函数f。到引理 2 时，有界序列 $(f_{n_k})$ 趋向于 f 对于 $\sigma(C(X), C(X)')$。那么 Šmulian 的定理 (IV, p. 36, th. 2) 表明 A 对于 $\sigma(C(X), C(X)')$ 是相对紧凑的。
 
-#### 推论{#evt-iv-s5-n4-cor-1 .statement tag=07VY}
+#### 推论 {#evt-iv-s5-n4-cor-1 .statement tag=07VY}
 
 设 S 为拓扑空间，A 为 $C^b(S)$ 有界子集。以下条件是等价的：
 (i) A 对于 $\sigma(C^b(S), C^b(S'))$ 是相对紧凑的；

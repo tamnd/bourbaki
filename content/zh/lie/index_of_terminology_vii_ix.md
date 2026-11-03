@@ -13,19 +13,19 @@ pdf_pages: 0436-0439
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: abf5dfa7fe2fbd93ce7bb8ba7672bffbed5f3cb8c71aace1b1f6a2f867c8b720
+content_sha256: b4fae7930ec1e05b76e456844747296de8d78a4f47b7146d821d16c8f091dd55
 translated_from: content/en/lie/index_of_terminology_vii_ix.md
 translation_method: google
 source_content_sha256: 8695e3c48c5c9eb3f09799a7a04b338220947ab357651e65919bb1e4dcb5d0bd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f819a1218af7852449e05214a8dbce31cf2924f80292deae5a3bbdc989102e25
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标术语
+## 指标 / 术语
 
 参考号数分别表示章、段落和数。
 
@@ -135,7 +135,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 各向同性（标志）：VIII.13.2、VIII.13.3
 
-同型分支的（最高权$\lambda$的组成部分）$:$VIII.7.2
+同型分支的（最高权$\lambda$的分量）$:$VIII.7.2
 
 雅各布森-莫罗佐夫 (定理): VIII.11.2
 
@@ -187,7 +187,7 @@ R-极值 (元素): VIII.7.2
 
 R-饱和 (子集): VIII.7.2
 
-部首 (子群): IX.4.7
+根基 (子群): IX.4.7
 
 秩（李代数）：VII.2.2
 
@@ -213,7 +213,7 @@ R-饱和 (子集): VIII.7.2
 
 根图表：IX.4.8
 
-半单（元素的组成部分）：VII.1.3
+半单（元素中的分量）：VII.1.3
 
 半脊髓 (表示): VIII.13.4
 

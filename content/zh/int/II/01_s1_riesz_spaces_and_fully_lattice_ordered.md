@@ -32,19 +32,19 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 14
-content_sha256: 1f4672f6efffcedc65e4da74ff34866a41855fe267f670a3c6c0729d394b18dc
+content_sha256: a4a66eb4b790d35d87ef4ae2a0f94ff746f85bee85671802d1508d7ae60fde0a
 translated_from: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
 translation_method: google
 source_content_sha256: f6de0bc69857035c277cfc2ec3ab4f18a8859401aa3da4819959e20e4920524e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 64ba8c3b90dbb92683bfbf78918b391d3b90770a4f2718c7785a694b1402c060
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。 RIESZ 空间和全格序空间
+## § 1。 Riesz 空间和完全格序空间
 
 ### 1. 里斯的定义空间
 
@@ -169,17 +169,17 @@ b) P 的元素中的每个对在 P 中都有一个下确界（A，VI, §1, No. 9
 
 — 1) 如果 A 是在 A 上定义的实值函数的任何集合、空间 $\mathbf{R}^A$ 是完全格序的，则其上界的族的 $\mathbf{R}^A$ 中的上界是其*上包络*（GT，IV, §5, No. 5）。
 
-2) 令F为任意集合； F 上*有界*实值函数的空间$\mathscr{B}(F)$，配备由$\mathbf{R}^F$诱导的阶结构，是完全格序的。然而，如果 F 是拓扑空间，则 F 上*连续*实值函数的空间 $\mathscr{C}(F)$（配有由 $\mathbf{R}^F$ 诱导的阶结构）是一个 Riesz 空间，通常不是完全晶格有序的（cf. 锻炼。13）。考虑例$F = \mathbf{R}$的情况；令I为区间]0, 1[，$\varphi_I$I的特征函数，并令H为连续函数$x(t)$的集合，使得$x \leq \varphi_I$；很明显，H 在 $\mathscr{C}(F)$ 中有界。 函数$\varphi_I$是$x \in H$的*上包络*，但它不是它们在$\mathscr{C}(F)$中的上界，因为$\varphi_I$是下半连续但不连续。让我们证明，事实上，H 在 $\mathscr{C}(F)$ 中没有上界；只要证明，如果$u$是一个连续的函数使得$u \geq \varphi_I$，那么存在一个连续的函数$v \neq u$使得$u \geq v \geq \varphi_I$。现在，$u(0) \geq 1$，因此存在数$\alpha > 0$，使得$u(t) > 0$对应于$-\alpha \leq t \leq 0$；如果 w 是连续函数，零在区间]$-\alpha, 0$ 之外，且在该区间上有 $0 < w(t) < u(t)$，则函数 $v = u - w$ 满足要求。
+2) 令F为任意集合； F 上*有界*实值函数的空间$\mathscr{B}(F)$，配备由$\mathbf{R}^F$诱导的阶结构，是完全格序的。然而，如果 F 是拓扑空间，则 F 上*连续*实值函数的空间 $\mathscr{C}(F)$（配有由 $\mathbf{R}^F$ 诱导的阶结构）是一个 Riesz 空间，通常不是完全晶格有序的（cf. 锻炼。13）。例如考虑$F = \mathbf{R}$的情况；令I为区间]0, 1[, $\varphi_I$I的特征函数，并令H为连续函数$x(t)$的集合，使得$x \leq \varphi_I$；很明显，H 在 $\mathscr{C}(F)$ 中有界。 函数$\varphi_I$是$x \in H$的*上包络*，但它不是它们在$\mathscr{C}(F)$中的上界，因为$\varphi_I$是下半连续但不连续。让我们证明，事实上，H 在 $\mathscr{C}(F)$ 中没有上界；只要证明，如果$u$是一个连续的函数使得$u \geq \varphi_I$，那么存在一个连续的函数$v \neq u$使得$u \geq v \geq \varphi_I$。现在，$u(0) \geq 1$，因此存在数$\alpha > 0$，使得$u(t) > 0$对应于$-\alpha \leq t \leq 0$；如果w是一个连续的函数，零在区间]$-\alpha, 0$之外，并且$0 < w(t) < u(t)$在这个区间上，那么函数$v = u - w$满足要求。
 
 #### 命题 1 {#int-ii-s1-prop-1 .statement tag=08JS}
 
-*对于有序向量空间 E 来说，它是完全格序的，E 是 Riesz 空间并且它是满足以下两个条件之一是必要且充分的：*
+*要使有序向量空间 E 完全格序，E 必须是 Riesz 空间并且它是满足以下两个条件之一：*
 
 a) *E 的非空子集 A、元素 $\geq 0$ 的由……组成，其上界有界并指向关系 $\leq$，在 E 中有上界；*
 
 b) *每非空子集* $A$、*由……组成 of 元素* $\geqslant 0$ *of* $E$ *并针对关系* $\geqslant$，*有下确界* $E$。
 
-条件显然是必要的。相反，假设 $E$ 是 Riesz 空间满足条件 *a)*。令 $B$ 为上面有界的 $E$ 的非空子集； $B$的有限子集上位的集合$C$由……组成针对关系$\leqslant$；设$a$为$x \in C$的元素和$C_a$集合之一，即$\geqslant a$；如果我们证明$C_a$有上界，那么它也将是$B$的上界。现在，$C_a - a$是元素$\geqslant 0$的集合，以上面为界并指向关系$\leqslant$；因此它有一个上界$b$，因而$a + b$是$C_a$的上界。
+条件显然是必要的。相反，假设 $E$ 是 Riesz 空间满足条件 *a)*。令 $B$ 为上面有界的 $E$ 的非空子集； $B$的有限子集上位的集合$C$由……组成指向关系$\leqslant$；设$a$为$x \in C$的元素和$C_a$集合之一，即$\geqslant a$；如果我们证明$C_a$有上界，那么它也将是$B$的上界。现在，$C_a - a$是元素$\geqslant 0$的集合，以上面为界并指向关系$\leqslant$；因此它有一个上界$b$，因而$a + b$是$C_a$的上界。
 
 另一方面，条件 *b)* 蕴含 *a)*：对于，如果 $F$ 是 $E$ 的元素 $\geqslant 0$ 的非空集合，在上面有界并指向 $\leqslant$，并且如果 $c$ 是上界对于$F$，则$c - F$是元素$\geqslant 0$中的集合，指向$\geqslant$；如果它有下确界$m$，则$c - m$是$F$的上确界。
 
@@ -247,7 +247,7 @@ b) *每非空子集* $A$、*由……组成 of 元素* $\geqslant 0$ *of* $E$ *�
 
 — *令$A$为完全格序空间$E$的子集。与$A$的每个元素都是陌生的元素集合$A'$是一个乐队； 元素的带$A''$与$A'$的每个元素都是陌生的，与$A$生成的带相同，$E$是带$A'$和$A''$的有序直和。*
 
-在No. 1中回顾过的外星人元素的属性，以及乐队的定义，立即表明$A'$是一个乐队，因此$A''$也是一个乐队。通过命题 5和定义，$E$的每个元素$x \geqslant 0$可以写成$x = y + z$，$y \in A'$和$z \in A''$，$y$和$z$为$\geqslant 0$；因为$E$的每一个元素都是两个元素$\geqslant 0$之差，所以我们有$E = A' + A''$；另一方面，由于$0$是唯一一个与自身不相容的元素，所以我们有$A' \cap A'' = \{0\}$，这证明$E$是$A'$和$A''$的直和；最后，由于元素、$\geqslant 0$的$E$的$A'$和$A''$的分量是$\geqslant 0$，$E$是$A'$和$A''$的有序直和（No. 4，命题 4）。
+在No. 1中回顾过的外星人元素的属性，以及乐队的定义，立即表明$A'$是一个乐队，因此$A''$也是一个乐队。通过命题 5和定义，$E$的每个元素$x \geqslant 0$可以写成$x = y + z$，$y \in A'$和$z \in A''$，$y$和$z$为$\geqslant 0$；因为$E$的每一个元素都是两个元素$\geqslant 0$之差，所以我们有$E = A' + A''$；另一方面，由于$0$是唯一一个与自身不相容的元素，所以我们有$A' \cap A'' = \{0\}$，这证明$E$是$A'$和$A''$的直和；最后，由于$E$的元素$\geqslant 0$的$A'$和$A''$中的分量是$\geqslant 0$，所以$E$是$A'$和$A''$的有序直和 （No. 4，提案 4）。
 
 仍有待证明 $A''$ 与 $A$ 生成的带 $B$ 相同。现在，$E$是$B$的直和，并且由元素形成的乐队$B'$对于$B$的所有元素来说是陌生的；从$A \subset B$开始，我们有$B' \subset A'$；另一方面，$B \subset A''$和$E$也是$A'$和$A''$的直和；因此必然是$B = A''$，$B' = A'$。
 
@@ -255,17 +255,17 @@ b) *每非空子集* $A$、*由……组成 of 元素* $\geqslant 0$ *of* $E$ *�
 
 #### 命题 6 {#int-ii-s1-prop-6 .statement tag=08K2}
 
-— *令$E$为空间、$E$的完全格序空间、$M$子集，以及$B$由$M$生成的能带。令$M_1$为$E$的元素$\geqslant 0$中的集合，其中每个$\leqslant$是形式$\sum_i |x_i|$中的一些元素，其中$x_i \in M$；设$M_2$为上面有界的$M_1$的子集的上界集合；那么集合 $M_2$ 与 $B$ 元素 $\geqslant 0$ 集合相同。*
+— *令 $E$ 为 $E$ 的完全晶格有序空间、$M$ 子集，以及 $B$ 由 $M$ 生成的能带。令$M_1$为$E$的元素$\geqslant 0$中的集合，其中每个$\leqslant$是形式$\sum_i |x_i|$中的一些元素，其中$x_i \in M$；设$M_2$为上面有界的$M_1$的子集的上界集合；那么集合 $M_2$ 与 $B$ 元素 $\geqslant 0$ 集合相同。*
 
 显然 $M_2 \subset B$ 乘定义的频带；另一方面，如果$B'$是元素的带，与$M_1$的每个元素都不相交，则定理1表明$E$是$B$和$B'$的有序直和。但命题 5表明，$E$的每个元素$\geqslant 0$是$M_2$的元素和和$B'$的元素、从而命题。
 
-#### 推论{#int-ii-s1-n5-cor-1 .statement tag=08K3}
+#### 推论 {#int-ii-s1-n5-cor-1 .statement tag=08K3}
 
-— *令$a$为完全格序空间$E$的元素，$B_a$由$a$生成的能带，$B'_a$与$a$不同的元素能带。对于$E$的每个元素$x \geqslant 0$，$B_a$中$x$的分量（对于$E$的分解，作为$B_a$和$B'_a$的有序直和）等于$\sup_{n \in \mathbf{N}} (\inf(n|a|, x))$.*
+— *令$a$为完全格序空间$E$的元素，$B_a$由$a$生成的能带，$B'_a$与$a$不同的元素能带。对于$E$的每个元素$x \geqslant 0$，$B_a$中$x$的分量（对于$E$的分解，如$B_a$和$B'_a$的有序直和）等于$\sup_{n \in \mathbf{N}} (\inf(n|a|, x))$.*
 
 这是从命题 6 开始，应用于 $M = \{a\}$ 和命题 5。
 
-注 $a$ 和 $|a|$ 生成的能带是相同的。如果$a$和$b$是$E$中互不相干的两个元素，并且如果$A$和$B$分别是由$a$和$b$生成的能带，则$A$中的每个元素对于 $B$ 中的每一个元素都是陌生的；因为，$b$属于对于元素的$A'$来说是陌生的$a$，从而$B \subset A'$，并且，到定理1，$A$的每一个元素对于每一个来说都是陌生的元素共 $A'$。
+请注意，$a$ 和 $|a|$ 生成的波段是相同的。如果$a$和$b$是$E$中互不相干的两个元素，并且如果$A$和$B$分别是由$a$和$b$生成的能带，则$A$中的每个元素对于 $B$ 中的每一个元素都是陌生的；因为，$b$属于对于元素的$A'$来说是陌生的$a$，从而$B \subset A'$，并且，到定理1，$A$的每一个元素对于每一个来说都是陌生的元素共 $A'$。
 
 ### 习题 {#int-ii-s1-exercises}
 

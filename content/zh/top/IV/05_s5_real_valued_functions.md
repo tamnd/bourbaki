@@ -41,16 +41,16 @@ subsections:
       pdf_page: 362
 statements: 31
 exercises: 18
-content_sha256: b9b92302ea9b79242bc457ad1a913e534fa457603664294d097197439470c778
+content_sha256: 27142924d1f6b0b0a9de62d997249448b4b141c87911666bfb304cd70258cc68
 translated_from: content/en/top/IV/05_s5_real_valued_functions.md
 translation_method: google
 source_content_sha256: 621e60dc8288e6ddcbaf7c1e586598f735828021aa542b362efd2af2f9c86a93
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: c01750e9f1ec761c8fcc0d4764add183cc125456b2a1f396b74b4d0ea7d0150c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 5. 实值函数
@@ -65,17 +65,17 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 如果$f$和$g$是在$X$上定义的两个实值函数，则关系$f \leq g$乘以定义相当于“对于所有$x \in X$来说$f(x) \leq g(x)$；”这个关系是$X$上所有实值函数在集合$\overline{\mathbf{R}}^X$上的排序。按此关系排序集合$\overline{\mathbf{R}},^X$，是一个格子；因为如果$f$和$g$是由$h(x) = \sup (f(x), g(x))$定义的任意两个实值函数、函数$h$，则所有$x \in X$是$X$上的实值函数的最小的，它们都是$\geq f$和$\geq g$；根据一般记号，我们用$\sup (f, g)$表示这个函数（$f$和$\overline{\mathbf{R}}^X$中的$g$中最小的上界）。类似地，每个$x \in X$处的值为$\inf (f(x), g(x))$的函数用$\inf (f, g)$表示。
 
-$\sup (f, g)$是映射的合成的注
+请注意，$\sup (f, g)$ 是映射的合成
 $$
 (u, v) \to \sup (u, v)
 $$
 将 $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$ 转换为 $\overline{\mathbf{R}}$，并将映射 $x \to (f(x), g(x))$ 将 $X$ 转换为 $\overline{\mathbf{R}} \times \overline{\mathbf{R}}$。对于 $\inf (f, g)$ 也是如此。
 
-A real-valued function $f$ defined on a set $X$ is said to be *bounded above* (resp. *bounded below*) in $X$, if $f(X)$ is a subset of $A'' = [-\infty, +\infty]$ and is bounded above (resp. if $f(X)$ is a subset of $A' = ]-\infty, +\infty]$ and is bounded below). $f$ is said to be *bounded* in $X$ if it is bounded both above and below, that is if $f(X)$ is a bounded subset of $\mathbf{R}$.
+如果 $f(X)$ 是 $A'' = [-\infty, +\infty]$ 的子集并且在上方有界（或者，如果 $f(X)$ 是 $A' = ]-\infty, +\infty]$ 的子集并且在下方有界），则在集合 $X$ 上定义的实值函数 $f$ 被称为在 $X$ 中*上界*（或*下界*）。如果$f$在上下都有界，即$f(X)$是$\mathbf{R}$的有界子集，则称其在$X$中*有界*。
 
 因此，每个有界函数都是*有限*。 逆命题为假，如$\mathbf{R}_+^* = ]0, +\infty[$上的函数$1/x$所示。
 
-### 2. 在过滤的集合上定义实值函数
+### 2. 在过滤的集合上定义的实值函数
 
 #### 命题 1 {#top-iv-s5-prop-1 .statement tag=0BR3}
 
@@ -87,7 +87,7 @@ A real-valued function $f$ defined on a set $X$ is said to be *bounded above* (r
 
 *令$f$和$g$为在集合$X$上定义的两个实值函数，并通过过滤器$\mathfrak{F}$过滤。如果$\lim_{\mathfrak{F}} f$和$\lim_{\mathfrak{F}} g$存在，并且如果$\lim_{\mathfrak{F}} f > \lim_{\mathfrak{F}} g$，则存在集合$A \in \mathfrak{F}$，使得$f(x) > g(x)$对于所有$x \in A$。*
 
-令$a = \lim_{\mathfrak{F}} f$、$b = \lim_{\mathfrak{F}} g$和$c$使得$b < c < a$。 The interval $]c, +\infty]$ of $\overline{\mathbf{R}}$ (resp. $]-\infty, c[$) is a neighbourhood of $a$ (resp. $b$); hence there is a set $M \in \mathfrak{F}$ (resp. a set $N \in \mathfrak{F}$) such that $f(x) > c$ for all $x \in M$ [resp. $g(x) < c$ for all $x \in N$]. 集合$A = M \cap N$属于到$\mathfrak{F}$，对于所有$x \in A$我们都有$f(x) > c > g(x)$。
+令$a = \lim_{\mathfrak{F}} f$、$b = \lim_{\mathfrak{F}} g$和$c$使得$b < c < a$。 $\overline{\mathbf{R}}$（或$]-\infty, c[$）的区间$]c, +\infty]$是$a$（或$b$）的邻域；因此，存在一个集合$M \in \mathfrak{F}$（或集合$N \in \mathfrak{F}$），使得$f(x) > c$对于所有$x \in M$[或。 $g(x) < c$ 对于所有$x \in N$]。 集合$A = M \cap N$属于到$\mathfrak{F}$，对于所有$x \in A$我们都有$f(x) > c > g(x)$。
 
 作为命题 1 的特例，我们有以下定理：
 
@@ -97,15 +97,15 @@ A real-valued function $f$ defined on a set $X$ is said to be *bounded above* (r
 
 #### 注 {#top-iv-s5-n2-rem-1 .statement tag=0BR6}
 
-特别是，如果我们对所有$x \in X$（或仅对过滤器$\overline{\mathbf{R}}$的集合的所有点）都有$f(x) < g(x)$，我们可以通过定理1推断出$\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$； *但我们不能推断强不等式*$\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$。对于例，如果我们将 $X$ 设为自然数的集合 $\mathbf{N}$（经 Fréchet 过滤器过滤），并且如果 $f(n) = 0$ 和 $g(n) = 1/n$，则对于所有 $n$，但$\lim_{n \to \infty} f(n) = \lim_{n \to \infty} f(n) = 0$，$f(n) < g(n)$。因此，当我们在*严格*不等式中传递到极限时，我们*失去了严格性*。
+特别是，如果我们对所有$x \in X$（或仅对过滤器$\overline{\mathbf{R}}$的集合的所有点）都有$f(x) < g(x)$，我们可以通过定理1推断出$\lim_{\mathfrak{F}} f \leq \lim_{\mathfrak{F}} g$； *但我们不能推断强不等式*$\lim_{\mathfrak{F}} f < \lim_{\mathfrak{F}} g$。例如，如果我们将 $X$ 设为自然数的集合 $\mathbf{N}$（经 Fréchet 过滤器过滤），并且如果 $f(n) = 0$ 和 $g(n) = 1/n$，则对于所有 $n$（但$\lim_{n \to \infty} f(n) = \lim_{n \to \infty} f(n) = 0$），$f(n) < g(n)$。因此，当我们在*严格* 不等式中传递到极限时，我们*失去了严格性*。
 
 #### 定理 2（单调极限的定理）{#top-iv-s5-thm-2 .statement tag=0BR7}
 
 令 $X$ 为有序集合，令 $A$ 为 $X$ (*) 的有向子集。 $A$ 上定义的每个单调实值函数 $f$ 相对于 $A$ 都有极限 (章 I, , no. 3);如果 $f$ 为递增（分别为递减），则该极限等于集合 $f(A) \subset \overline{\mathbf{R}}$ 中的最小上界（分别为下确界）
 
-假设对于例，$f$ 是递增，并设$a = \sup f(A)$。如果$a = -\infty$，定理是微不足道的。如果$a > -\infty$，则对于每个$b < a$，存在$x \in A$使得$b < f(x) \leq a$；因此，如果$S_x$相对于$x$是$A$的截面（即所有$y \geq x$、cf.章I, § 6, no. 3的集合），$f(S_x)$包含在邻域中$a$中的$]b, +\infty]$，以及定理紧随其后。如果 $f$ 是递减，证明是类似的。
+例如，假设$f$是递增，并设$a = \sup f(A)$。如果$a = -\infty$，定理是微不足道的。如果$a > -\infty$，则对于每个$b < a$，存在$x \in A$使得$b < f(x) \leq a$；因此，如果$S_x$相对于$x$是$A$的截面（即所有$y \geq x$、cf.章I, § 6, no. 3的集合），则$f(S_x)$包含在邻域中$a$中的$]b, +\infty]$，以及定理紧随其后。如果 $f$ 是递减，证明是类似的。
 
-#### 推论{#top-iv-s5-n2-cor-1 .statement tag=0BR8}
+#### 推论 {#top-iv-s5-n2-cor-1 .statement tag=0BR8}
 
 递增（或递减）实值函数，定义在有序集合$X$的有向子集$A$上，相对于$A$具有有限的极限当且仅当它在上界（或下界）时$A$。
 
@@ -114,7 +114,7 @@ A real-valued function $f$ defined on a set $X$ is said to be *bounded above* (r
 #### 命题 3 {#top-iv-s5-prop-3 .statement tag=0BR9}
 
 实数的每个单调序列在$\overline{\mathbf{R}}$ 中都有极限。
-特别是，有限数的每个递增（或递减）序列，如果其上界（或下界），则收敛到有限的实数，否则收敛到$+\infty$（或$-\infty$）。对于例，正整数的序列收敛于$+\infty$。
+特别是，有限数的每个递增（或递减）序列，如果其上界（或下界），则收敛到有限的实数，否则收敛到$+\infty$（或$-\infty$）。例如，正整数的序列收敛于$+\infty$。
 
 这个事实是记号$\lim_{n \to \infty} u_n$表示序列的极限（章I, § 7, no. 3）的起源。
 
@@ -234,7 +234,7 @@ $$
 \sup_{(x_1, x_2) \in A_1 \times A_2} f(x_1, x_2) = \sup_{x_1 \in A_1} (\sup_{x_2 \in A_2} f(x_1, x_2)) = \sup_{x_2 \in A_2} (\sup_{x_1 \in A_1} f(x_1, x_2)).
 $$
 
-### 5. 真正有价值的家庭信封函数
+### 5. 一个家庭的真实价值函数的信封
 
 #### 定义 4 {#top-iv-s5-def-4 .statement tag=0BRI}
 
@@ -248,7 +248,7 @@ $$
 
 *在乘积空间$\overline{\mathbf{R}}^X$实值函数$(f_i)_{i \in I}$族的上包络线$\sup_{i \in I} f_i$是极限，相对于有限子集的有向集合$\mathfrak{F}(I)$ $I$，映射$H \to \sup_{i \in H} f_i$[其中映射每个有限子集$H$共$I$到有限子族$(f_i)_{i \in H}$的上包络]。
 
-这紧接着从no. 4的命题5和章I, § 7, no. 6，推论1到命题10。
+这紧接着从no. 4的命题5以及章I, § 7, no. 6、推论1到命题10。
 
 因此我们可以写
 
@@ -262,13 +262,13 @@ $$
 
 因此，当且仅当该族的上包络线在 $X$ 中上界时，$(f_i)$ 统一在 $X$ 中上界。 $(f_i)$ 统一有界于 $X$ 当且仅当族 $(|f_i|)$ 的上包络线在 $X$ 中上界 [即当且仅当存在有限实数 $a \geq 0$，使得 $|f_i(x)| \leq a$ 对于所有 $x \in X$ 和所有 $i \in I$]。
 
-### 6. 相对于过滤器的实值函数的上部极限和下部极限
+### 6. 相对于过滤器的实值函数的上极限和下极限
 
 令 $f$ 为在集合 $X$ 上定义的实值函数，并由过滤器 $\mathfrak{G}$ 过滤。 $\mathfrak{G}$ 相对于关系 $\supseteq$ (章 I, § 6) 而言是有向集合。对于每个$M \in \mathfrak{G}$考虑实数$\sup_{x \in M} f(x)$：我们将$\mathfrak{G}$的函数$M \to \sup_{x \in M} f(x)$放入$\overline{\mathbf{R}}$，即$\mathfrak{G}$上的递减函数，乘以命题7 no. 4。因此，通过no. 2的定理2，它相对于有向集合$\mathfrak{G}$有极限。
 
 #### 定义 6 {#top-iv-s5-def-6 .statement tag=0BRL}
 
-*The limit of the real-valued function* $M \to \sup_{x \in M} f(x)$ *with respect to the directed set* $\mathfrak{G}$ *is called the upper limit of* $f$ *with respect to the filter* $\mathfrak{G}$, *and is denoted by* $\lim \sup_{\mathfrak{G}} f$, *or by* $\lim \sup_{x, \mathfrak{G}} f(x)$.
+*实值函数的极限* $M \to \sup_{x \in M} f(x)$ *相对于有向集合* $\mathfrak{G}$ *称为* $f$ *相对于滤波器* $\mathfrak{G}$的上限，*并用* $\lim \sup_{\mathfrak{G}} f$、*或* $\lim \sup_{x, \mathfrak{G}} f(x)$表示。
 
 $f$相对于滤波器$\mathfrak{G}$的*下极限*的定义类似，并用$\lim \inf_{\mathfrak{G}} f$或$\lim \inf_{x, \mathfrak{G}} f(x)$表示。因此我们有
 
@@ -323,11 +323,11 @@ $b \leq \lim \sup_{\mathfrak{G}} f = a.$
 
 #### 推论 1 {#top-iv-s5-thm-3-cor-1 .statement tag=0BRN}
 
-*在阶、$\lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f$中，$f$相对于过滤器$\mathfrak{G}$具有极限是充分必要的，然后*
+*在阶、$\lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f$中，$f$相对于过滤器$\mathfrak{G}$具有极限是充要的，然后*
 $$
 \lim_{\mathfrak{G}} f = \lim \sup_{\mathfrak{G}} f = \lim \inf_{\mathfrak{G}} f.
 $$
-因为由于$\overline{\mathbf{R}}$是紧凑的，所以当且仅当过滤器基$f(\mathfrak{G})$只有一个簇点时，它才具有极限点（章I, § 9, no. 1，定理1的推论）。
+因为由于$\overline{\mathbf{R}}$是紧凑的，所以当且仅当过滤器基$f(\mathfrak{G})$只有一个簇点时，它才具有极限点（章I, § 9, no. 1，推论到定理1）。
 
 #### 推论 2 {#top-iv-s5-thm-3-cor-2 .statement tag=0BRO}
 
@@ -347,9 +347,9 @@ $$
 $$
 \lim \sup_{\mathfrak{G}_A} f_A = \lim \sup_{\mathfrak{G}} f.
 $$
-对于过滤器基$f(\mathfrak{G})$的每个集群点都是过滤器基$f_A(\mathfrak{G}_A)$的集群点，反之亦然。
+对于过滤器基 $f(\mathfrak{G})$ 的每个簇点都是过滤器基 $f_A(\mathfrak{G}_A)$ 的簇点，反之亦然。
 
-因此，如果仅在$X$、属于至$\mathfrak{G}$中的子集、$A$定义$f$，我们常常会写成$\limsup_{\mathfrak{G}} f$而不是$\limsup_{\mathfrak{G}_A} f_A$，这是语言滥用。
+因此，如果仅在$X$、属于至$\mathfrak{G}$的子集、$A$上定义$f$，我们常常会滥用语言而写成$\limsup_{\mathfrak{G}} f$而不是$\limsup_{\mathfrak{G}_A} f_A$。
 
 #### 命题 11 {#top-iv-s5-prop-11 .statement tag=0BRQ}
 
@@ -372,7 +372,7 @@ $$
 
 更一般地，如果$X$是拓扑空间$Y$的子空间，并且如果$\mathfrak{G}$是点$a \in \overline{X}$的邻域滤波器在$X$上的踪迹，我们写$\limsup_{x \to a, x \in X} f(x)$[resp。 $\liminf_{x \to a, x \in X} f(x)$] 而不是$\limsup_{\mathfrak{G}} f$ [分别。 $\liminf_{\mathfrak{G}} f$]； $\limsup$被称为$f(x)$的上极限，因为$x$趋于$a$，同时保持在$X$。如果$X$是$\{a\}$的补集，我们在记号中写“x \neq a”来代替“x \in X”。
 
-如果$A$是$X$的子集使得$a \in \overline{A}$，那么（推论2到定理3）
+如果 $A$ 是 $X$ 的子集，使得 $a \in \overline{A}$，则 (推论 2 到定理 3)
 
 $$
 \liminf_{x \to a, x \in X} f(x) \leq \liminf_{x \to a, x \in A} f(x) \leq \limsup_{x \to a, x \in A} f(x) \leq \limsup_{x \to a, x \in X} f(x).
@@ -386,7 +386,7 @@ $$
 
 因此，拓扑空间的点处的上极限和下极限的概念是局部特征标的概念，就像极限的概念一样。
 
-Finally, if $\mathfrak{G}$ is the Fréchet filter on $\mathbf{N}$, the upper (resp. lower) limit, with respect to $\mathfrak{G}$, of the mapping $n \to u_n$ of $\mathbf{N}$ into $\overline{\mathbf{R}}$ is denoted by $\limsup_{n \to \infty} u_n$ (resp. $\liminf_{n \to \infty} u_n$) and is called the upper (resp. lower) limit of the sequence of real numbers $u_n$.
+最后，如果$\mathfrak{G}$是$\mathbf{N}$上的Fréchet滤波器，则相对于$\mathfrak{G}$，$\mathbf{N}$到$\overline{\mathbf{R}}$的映射$n \to u_n$的上限（或下限）由$\limsup_{n \to \infty} u_n$（或$\liminf_{n \to \infty} u_n$）表示，称为上（或下）限实数序列$u_n$。
 
 因此，关系$\limsup_{n \to \infty} u_n = a \in \mathbf{R}$等价于：给定任何$\varepsilon > 0$，都存在整数$n_0$，这样，对于每个$n \geq n_0$，我们有$u_n \leq a + \varepsilon$，对于$n$的无穷大值，我们有$u_n \geq a - \varepsilon$。 序列的上极限的定义，当其值为$+\infty$或$-\infty$时，可以类似地翻译。
 
@@ -397,7 +397,7 @@ $$
 \liminf_{n \to \infty} f_n = \sup_{n \in \mathbf{N}} (\inf_{m \geq n} f_m) = \lim_{n \to \infty} (\inf_{m \geq n} f_m),
 \end{cases}
 $$
-极限拍摄于 *乘积空间* $\overline{\mathbf{R}}^X$。 序列$(f_n)$在$\overline{\mathbf{R}}^X$中有*极限*当且仅当$\limsup_{n \to \infty} f_n = \liminf_{n \to \infty} f_n$（推论1到定理3，以及章I, § 7, no. 6，推论1到命题10）。
+极限拍摄于 *乘积空间* $\overline{\mathbf{R}}^X$。 序列 $(f_n)$ 在 $\overline{\mathbf{R}}^X$ 中具有 *极限* 当且仅当 $\limsup_{n \to \infty} f_n = \liminf_{n \to \infty} f_n$（推出 1 至定理 3，以及章 I, § 7, no. 6、推出 1 至命题 10）。
 
 ### 7. 实值函数上的代数运算
 
@@ -464,7 +464,7 @@ $$
 $$
 \sup_{x \in A} (f(x) + k) = k + \sup_{x \in A} f(x)
 $$
-*只要双方都被定义，并且，如果 $k \geq 0,$*
+*只要两边都被定义，并且，如果 $k \geq 0,$*
 (23)
 $$
 \sup_{x \in A} (kf(x)) = k \cdot \sup_{x \in A} f(x)
@@ -487,7 +487,7 @@ $$
 
 每当双方都被定义时。
 
-这是前面推论的直接的推论和no. 4的命题9。
+这是前面的推论的直接的推论和no. 4的命题9。
 
 特别地，如果$A$和$B$是$\overline{\mathbf{R}}$的两个子集，从而定义了和$x + y \ (x \in A, y \in B)$的集合$A + B$，我们有
 

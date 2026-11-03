@@ -30,16 +30,16 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: f81749502536a045b505fff000355c3099e30ab725d6c4aedd05c3e521d3561b
+content_sha256: 7a82f1c188588178199e5db80664ca510798c6eb73a26c4a7b1deb7739ca21b2
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
 translation_method: google
 source_content_sha256: 65beb1cc0241071c6af8fd096affc82c43f56e17f2bdbff1369f0068bc5d019e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 90e23c4ba0ce225e66541156cfd6c65f50ef7ea37d1dee14a94250015534d343
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 9。 共轭元素和拟伽罗瓦扩展
@@ -88,7 +88,7 @@ $$
 
 且$f$是$\mathbf{K}[X]$中的一元不可约多项式；因此 ($V$, p. 16, Th.1, c))，$f$ 是 $y$ 在 $K$ 上的最小多项式。因此a) 意味着c)。
 
-现在假设 $x$ 和 $y$ 在 $K$ 上具有相同的最小多项式 $f$。 There exists a $K$-isomorphism of the field $\mathbf{K}[X]/(f)$ onto $\mathbf{K}(x)$ (resp. onto $\mathbf{K}(y)$) mapping the residue class of $X$ modulo $(f)$ to $x$ (resp. $y$) ($V$, p. 16, Th. 1, b)); hence there exists a $K$-isomorphism $v$ of $\mathbf{K}(x)$ onto $\mathbf{K}(y)$ such that $v(x) = y$. 因此c)意味着b)。
+现在假设 $x$ 和 $y$ 在 $K$ 上具有相同的最小多项式 $f$。 存在域$\mathbf{K}[X]/(f)$到$\mathbf{K}(x)$（或到$\mathbf{K}(y)$）的$K$同构，将$X$模$(f)$的残基类映射到$x$（或$y$）（$V$，p. 16，Th）。 1、b))；因此存在$\mathbf{K}(x)$到$\mathbf{K}(y)$的$K$同构$v$，使得$v(x) = y$。 因此c)意味着b)。
 
 最后，在假设 b)下，命题1暗示存在$\Omega$延伸$v$的$K$自同构$u$；然后我们有$u(x) = y$，因此$x$和$y$是共轭超过$K$，所以b）意味着a）。
 
@@ -108,13 +108,13 @@ $$
 
 在其他字中，$\Omega$的元素$x$是$K$的p根式当且仅当它除了自身之外没有共轭。
 
-令 $p$ 为特征指数，令 $x \in \Omega$。根据$V$、p. 44、命题13，存在整数$m \geq 0$，使得$y = x^{p^m}$是代数且可在$K$上分离。现在$x$在$G$下不变当且仅当$y$在$G$下不变；由科. 2 当且仅当$y$是次数1除以$K$，即说即$y \in K$时，才是这种情况。现在推论是直接的推论.*
+令$p$为特征指数，并令$x \in \Omega$。根据$V$、p. 44、命题13，存在整数$m \geq 0$，使得$y = x^{p^m}$是代数且可在$K$上分离。现在$x$在$G$下不变当且仅当$y$在$G$下不变；由科. 2 当且仅当$y$是次数1除以$K$，即说即$y \in K$时，才是这种情况。现在推论是直接的推论。*
 
 ### 3. 拟伽罗瓦扩展
 
 #### 定义 2 {#alg-v-s9-def-2 .statement tag=06LQ}
 
-— *令 $E$ 为 $K$ 中的扩张。那么 $E$ 被称为准伽罗瓦或正规（超过 $K$），如果它是代数并且如果 $K[X]$ 的每个不可约多项式在 $E$、分裂的中至少有一个根转化为乘积的多项式$E[X]$ 中有次数 1（无论是否不同）。
+— *令 $E$ 为 $K$ 中的扩张。那么 $E$ 被称为拟伽罗瓦或正规（超过 $K$），如果它是代数并且如果 $K[X]$ 的每个不可约多项式在 $E$、分裂的中至少有一个根到多项式的乘积 $E[X]$ 中有次数 1（无论是否不同）。
 
 如果$E$是$K$的代数闭包，则它是$K$的拟伽罗瓦扩展；对于命题 1 ($V$, p. 19) 的条件 (AC)，断言 $E[X]$ 中的每个非常数多项式都是次数 1 的多项式的乘积。*
 
@@ -137,7 +137,7 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 
 — 对于 $\Omega$ 中包含的 K 的扩张 E 来说，要成为拟伽罗瓦，它与 K 上的所有共轭相同是充分必要的。
 
-这是从第 1 号提案的 a) (V、p. 52) 和第 3 号提案的条件 a) 和 c) 的等价得出的。
+这是根据第 1 号提案的 a) (V、p. 52) 和第 3 号提案的条件 a) 和 c) 的等价得出的。
 
 #### 推论 2 {#alg-v-s9-prop-3-cor-2 .statement tag=06LT}
 
@@ -155,7 +155,7 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 
 — 令 $E'$ 为 K 和 E 的扩张，$K'$ $E'$ 的两个子扩展。假设 E 是 K 和 $E' = K'(E)$ 上的拟伽罗瓦；那么 $E'$ 是 $K'$ 上的拟伽罗瓦。
 
-令 $(f_i)_{i \in I}$ 为 $K[X]$ 中的非常数多项式族，其 $K$ 上的分裂域为 $E$。那么很明显，$E'$是$(f_i)_{i \in I}$族在$K'$上的分裂域，因此它是$K'$上的拟伽罗瓦。
+令 $(f_i)_{i \in I}$ 为 $K[X]$ 中的非常数多项式族，其 $K$ 上的分裂域为 $E$。那么很明显，$E'$是$(f_i)_{i \in I}$族在$K'$上的分裂域，所以它是$K'$上的拟伽罗瓦。
 
 #### 注 1 {#alg-v-s9-n3-rem-1 .statement tag=06LW}
 
@@ -188,11 +188,11 @@ c) 和 d) 的等价源于这样一个事实：E 到 $\Omega$ 的每个 K-同态�
 #### 推论 1 {#alg-v-s9-prop-5-cor-1 .statement tag=06M1}
 
 — 如果 E 是 K 的有限次数的扩张，则 E 生成的 K 的拟伽罗瓦扩展 N 是 K 上的有限次数。
-因为我们有 $E = K(A)$，其中 A 是有限的，因此 A 的元素的共轭的集合 B 是有限的，从而推论为 Th。 2（V，p. 18）。
+因为我们有$E = K(A)$，其中A是有限的，因此A的元素的共轭的集合B是有限的，从而推论跟随Th。 2（V，p. 18）。
 
 #### 推论 2 {#alg-v-s9-prop-5-cor-2 .statement tag=06M2}
 
-— K 的每个拟伽罗瓦扩展 N 是 K 上有限次数的 N 拟伽罗瓦子扩展的并。
+— K 的每个拟伽罗瓦扩张 N 是 K 上有限次数的 N 拟伽罗瓦子扩张的并。
 令$x \in N$和$N_x$是由$\{x\}$生成的K的拟伽罗瓦扩展。由于 $K(x)$ 是 K 上的有限次数，因此$N_x$（Cor.1）也是如此，我们有 $x \in N_x$。
 
 ### 习题 {#alg-v-s9-exercises}

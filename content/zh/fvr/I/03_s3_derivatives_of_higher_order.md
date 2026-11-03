@@ -21,23 +21,23 @@ subsections:
       pdf_page: 36
 statements: 8
 exercises: 18
-content_sha256: 59e86e5eabf944f58579cf0fa3cf103487a37052eeee2555615052e4617c1751
+content_sha256: 351a85368a4cb613a40930ee353e5c0e9ccfe8d47c97691d2a8338aff10e17b9
 translated_from: content/en/fvr/I/03_s3_derivatives_of_higher_order.md
 translation_method: google
 source_content_sha256: 699d9104f5cbf89e2acd64f1b847b3d92cb37baff716a8c7f28471e185a92054
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 465578c1f400db2decb7ec6d6473a3279340d8f014e6382925148893e5337bff
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 3。高阶阶的衍生物
+## § 3。更高阶的衍生物
 
 ### 1. 阶 $n$ 的衍生物
 
-令 $f$ 为实数变量的向量函数，定义、连续且在区间 $I$ 上可微。如果导数$f'$存在于点$x_0 \in I$的邻域（相对于$I$），并且在点$x_0$可微，则其导数称为$f$在点$x_0$的*二阶导数*，并且用$f''(x_0)$或$D^2f(x_0)$表示。如果这个二阶导数存在于$I$的每一个点处（这意味着$f'$存在并且在$I$上连续），那么$x \mapsto f''(x)$就是向量函数，用$f''$或$D^2f$表示。我们定义，以同样的方式，递归地得到$f$的$n^{th}$*导数*（或*阶*$n$的导数），并用$f^{(n)}$或$D^n f$表示；由定义，它在点$x_0 \in I$的值是函数$f^{(n-1)}$在点$x_0$的导数：这个定义预设*所有*导数$f^{(k)}$的存在阶$k \leq n - 1$在$x_0$相对于$I$的*邻域*上，以及$f^{(n-1)}$在点$x_0$的可微性。
+令 $f$ 为实数变量的向量函数，在区间 $I$ 上定义、连续且可微。如果导数$f'$存在于点$x_0 \in I$的邻域（相对于$I$），并且在点$x_0$可微，则其导数称为$f$在点$x_0$的*二阶导数*，并且用$f''(x_0)$或$D^2f(x_0)$表示。如果这个二阶导数存在于$I$的每一个点处（这意味着$f'$存在并且在$I$上连续），那么$x \mapsto f''(x)$就是向量函数，用$f''$或$D^2f$表示。我们定义，以同样的方式，递归地得到$f$的$n^{th}$*导数*（或*阶*$n$的导数），并用$f^{(n)}$或$D^n f$表示；由定义，它的点$x_0 \in I$处的值是函数$f^{(n-1)}$在点$x_0$的导数：这个定义预设*所有*导数$f^{(k)}$的存在阶$k \leq n - 1$在$x_0$相对于$I$的*邻域*上，以及$f^{(n-1)}$在点$x_0$的可微分。
 
 We will say that $f$ is *n times differentiable* at the point $x_0$ (resp. in an interval) if it admits an $n^{th}$ derivative at this point (resp. in this interval). 有人说，如果对于每个整数$n > 0$，它承认阶$n$在$I$上的导数，那么$f$在$I$上“无限可微”。
 
@@ -51,7 +51,7 @@ $$
 
 #### 命题 1 {#fvr-i-s3-prop-1 .statement tag=084Y}
 
-*The set of vector functions defined on an interval* $I \subset \mathbf{R}$, *taking values in a given topological vector space* $E$, *and having an* $n^{th}$ *derivative on* $I$, *is a vector space over* $\mathbf{R}$, *and* $f \mapsto D^n f$ *is a linear mapping of this space into the vector space of linear mappings from* $I$ *into* $E$.
+*在区间* $I \subset \mathbf{R}$上定义向量函数的集合，*在给定拓扑向量空间* $E$中取值，*并有一个* $n^{th}$ *对* $I$的导数，*是向量空间过*$\mathbf{R}$，*和*$f \mapsto D^n f$*是这个空间的线性映射从*$I$*变成*$E$到线性映射的向量空间。
 
 证明公式
 
@@ -66,7 +66,7 @@ $$
 
 #### 命题 2（“莱布尼兹”公式”）{#fvr-i-s3-prop-2 .statement tag=084Z}
 
-*设*$E, F, G$*是*$\mathbf{R}$、*和*$(x, y) \mapsto [x.y]$*的三个拓扑向量空间*$E \times F$*的连续双线性映射*到*$G$。 *如果* $f$ *(分别* $g$) *在区间* $I \subset \mathbf{R}$上定义，*将其值放入* $E$ *(分别* $F$) *并且有一个* $n^{th}$ *右* $I$求导，*那么* $[f.g]$ *有一个* $n^{th}$ *右* $I$的导数，*由公式*给出
+*设*$E, F, G$*是*$\mathbf{R}$、*和*$(x, y) \mapsto [x.y]$*的三个拓扑向量空间*$E \times F$*的连续双线性映射*到*$G$。 *如果* $f$ *（分别* $g$）*在区间* $I \subset \mathbf{R}$ 上定义，*将其值放入* $E$ *（分别* $F$）*并且有一个* $n^{th}$ *在* $I$ 上的导数， *然后* $[f.g]$ *有一个* $n^{th}$ *右* $I$的导数，*由公式*给出
 
 $$
 D^n[f.g] = [f^{(n)}.g] + \binom{n}{1}[f^{(n-1)}.g'] + \cdots + \binom{n}{p}[f^{(n-p)}.g^{(p)}] + \cdots + [f.g^{(n)}]. \tag{4}
@@ -80,17 +80,17 @@ $$
 [f^{(n)} . g] + (-1)^{n-1} [f . g^{(n)}] = D([f^{(n-1)} . g] - [f^{(n-2)} . g'] + \cdots + (-1)^{n-1} [f . g^{(n-1)}]).
 $$
 
-前面的命题已经被表述为函数在一个区间上可微 $n$ 倍；我们留给读者来制定函数的类似命题，其在点处可微 $n$ 倍。
+前面的命题已经被表述为函数在区间上可微分$n$倍；我们留给读者来制定函数的类似命题，其在点处可微 $n$ 倍。
 
 ### 2. 泰勒公式
 
-令 $f$ 为向量函数，定义在区间 $I \subset \mathbf{R}$ 上，值位于$\mathbf{R}$ 的 *范数* 空间 $E$ 内；说 $f$ 在点 $a \in I$ 处有导数表示
+令 $f$ 为区间 $I \subset \mathbf{R}$ 上定义的向量函数，其中值位于 $\mathbf{R}$ 的 *范数* 空间 $E$ 中；说 $f$ 在点 $a \in I$ 有导数意味着
 
 $$
 \lim_{x \to a,\ x \in I,\ x \neq a} \frac{f(x) - f(a) - f'(a)(x-a)}{x-a} = 0;
 $$
 
-或者，否则，$f$“大约等于”$a$的邻域上的*线性*函数$f(a) + f'(a)(x-a)$（*cf.*章节V，其中这个概念是以一般方式发展的）。我们将看到，$f$在点$a$的$n^{th}$阶导数的存在同样意味着$f$“约等于”次数$n$的*多项式$x$*，系数位于 $a$ 邻域上的$E$（*Gen.Top.*、X、p. 315）。准确地说：
+或者，否则，$f$“大约等于”$a$的邻域上的*线性*函数$f(a) + f'(a)(x-a)$（*cf.*章节V，其中这个概念是以一般方式发展的）。我们将看到，$f$在点$a$处的$n^{th}$阶导数的存在同样意味着$f$“约等于”次数$n$的*多项式$x$*，系数位于$E$（*Gen.Top.*、X、p. 315），位于$a$的邻域。准确地说：
 
 #### 定理 1 {#fvr-i-s3-thm-1 .statement tag=0850}
 
@@ -115,7 +115,7 @@ $$
 \leq \varepsilon\ |y-a|^{n-1}.
 $$
 
-我们将平均值值定理 (I, p. 15, th.2) 应用到端点 $a,\ x$（$|x-a| \leq h$）到向量函数 $g$ 以及实数递增的区间上如果$x > a$则函数等于$\varepsilon |y - a|^n / n$，如果$x < a$则等于$-\varepsilon |y - a|^n / n$；由此可知$\|g(x)\| \leq \varepsilon |x - a|^n / n$，从而证明定理。
+我们将平均值值定理（I，p. 15，第2）应用于区间，端点$a,\ x$（$|x-a| \leq h$）到向量函数$g$以及实数如果$x > a$则递增函数等于$\varepsilon |y - a|^n / n$，如果$x < a$则等于$-\varepsilon |y - a|^n / n$；由此可知$\|g(x)\| \leq \varepsilon |x - a|^n / n$，从而证明定理。
 
 因此我们可以写
 $$
@@ -140,7 +140,7 @@ $$
 $$
 其中公式 (9) 遵循平均值值定理 (I, p. 23, th. 2)。
 
-#### 推论{#fvr-i-s3-n2-cor-1 .statement tag=0852}
+#### 推论 {#fvr-i-s3-n2-cor-1 .statement tag=0852}
 
 *如果 $f$ 是有限实数函数，且具有阶* $n + 1$ *在* I 上的导数，*且如果* $m \leq f^{(n+1)}(x) \leq M$ *在* I 上，*则对于所有* $x \geq a$ *在* I *其中一个有*
 $$

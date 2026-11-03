@@ -28,19 +28,19 @@ subsections:
       pdf_page: 200
 statements: 16
 exercises: 30
-content_sha256: d3f463a6dcbe876f1e32c75cc25b13c7a4036c9195c4e6a5a170988e5a44876c
+content_sha256: 188f2f378711beb20d00e97ff5d165b2b5b90b0f7b60f672b0e04eafab3c3959
 translated_from: content/en/top/IX/05_s5_baire_spaces.md
 translation_method: google
 source_content_sha256: 3b572897191a59b0bea951cffb8413b1fee09841bf812d8d9ace5e683fa0e3ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5a4d72764001184943c30d880b316c4584d6d7514efc91cff3ca5e8d2623994d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 5. 巴伊尔空间
+## 5. 拜尔空间
 
 ### 1. 无处密集集合
 
@@ -66,11 +66,11 @@ $X$ 的空子集没有任何地方稠密。在 Hausdorff 空间 $X$ 中，单个
 
 #### 注 {#top-ix-s5-n1-rem-1 .statement tag=0C72}
 
-任意子集的边界不必是无处稠密的：对于例，如果$A$和$\overline{C}A$都是稠密的集合，则$A$的边界是整个空间。
+任意子集的边界不必是无处稠密的：例如，如果$A$和$\overline{C}A$都是稠密的集合，则$A$的边界是整个空间。
 
 #### 命题 1 {#top-ix-s5-prop-1 .statement tag=0C73}
 
-*The union of a finite number of nowhere dense sets is nowhere dense.*
+*有限数量的无处稠密集的并集不是无处稠密的。*
 
 足以证明两个无处稠密集合$A, B$的并无处稠密，并且不失一般性，我们可以假设$A$和$B$是闭集。 命题则相当于两个密开集合$\overline{C}A, \overline{C}B$的交密的说。现在，如果 $U$ 是非空开集合，则 $U \cap \overline{C}A$ 是开且非空，因此
 
@@ -98,17 +98,17 @@ $$
 
 *子集* $A$ *拓扑空间* $X$ *如果它是无处稠密的可数族并，则据说是贫乏的集合。*
 
-Equivalently, $A$ is meagre if it is contained in a countable union of closed sets each of which has no interior points.
+等价地，如果 $A$ 包含在闭集的可数并集（其中每个闭集都没有内点）中，则它是微不足道的。
 
 微薄的集合完全可以在 $X$ 中“密集”；甚至整个空间$X$本身也可以是微薄的集合。
 
 后一种可能性的例由任何*可数*Hausdorff空间提供，没有孤立的点，例如有理线$\mathbf{Q}$。但是拓扑空间 $X$ 是 $X$ 中微不足道的集合 ，它不必是可数的（参见习题 9）。
 
-Every subset of a meagre set in a space $X$ is meagre, and the union of a *countable* family of meagre sets is meagre.
+空间 $X$ 中的贫集的每个子集都是贫乏的，并且“可数”贫集族的并集也是贫乏的。
 
 设$Y$为$X$的子空间。如果 $A$ 当被视为拓扑空间 $Y$ 的子集时是微不足道的，则 $Y$ 的子集 $A$ 被称为“相对于* $Y$ 微不足道”。由no. 1的命题2得出，如果$A$是$Y$的子集，相对于$Y$是微薄的，那么$A$相对于$X$是微薄的；如果$Y$也在$X$中*开*，则$Y$的每个子集$A$（相对于$X$微薄）相对于$Y$微薄。
 
-### 3. 巴伊尔空间
+### 3. 拜尔空间
 
 #### 定义 3 {#top-ix-s5-def-3 .statement tag=0C76}
 
@@ -151,7 +151,7 @@ Every subset of a meagre set in a space $X$ is meagre, and the union of a *count
 
 (i) *每个局部紧凑空间$X$都是Baire空间。* (ii) *每个拓扑空间$X$存在一个度量，与$X$的拓扑兼容并且定义在完整的$X$结构上公制空间，是贝尔空间。*
 
-我们将证明在每种情况下都满足公理（EB）。 令$(A_n)$为$X$中密集开集合的序列，并令$G$为任意非空开集合。 然后我们可以归纳非空开集合的定义序列$(G_n)$使得$G_1 = G$和$\overline{G}_{n+1} \subset G_n \cap A_n$：因为从假设$G_n$不为空，$G_n \cap A_n$是非空开集合；并且由于 $X$ 在所设想的两种情况下都是“常规”，因此存在一个非空开集合 $G_{n+1}$，使得 $\overline{G}_{n+1} \subset G_n \cap A_n$。 因此，集合$G_n$的集合$G \cap \bigcap_{n=1}^\infty A_n$包含交，等于集合$\overline{G}_n$的交；因此只要证明$\bigcap_{n=1}^\infty \overline{G}_n \neq \varnothing$就足够了。 现在，如果$X$是局部紧致的，我们可以假设$\overline{G}_2$是紧致的；在紧凑空间 $\overline{G}_2$ 中，非空封闭集合的 $\overline{G}_n (n \geq 2)$ 形式递减序列，因此根据公理 (C'')，它们的交不为空 (cf. 章 I, § 9, no. 1， 定义1]。 If $X$ is a complete metric space (with respect to a metric compatible with its topology) we may suppose that $\overline{G}_n$ has been chosen so that its diameter (with respect to this metric) tends to 0 as $n$ tends to $+\infty$; the $\overline{G}_n$ therefore form a Cauchy filter base which converges to a point $x$, and $x$ necessarily belongs to the intersection of the sets $\overline{G}_n$.
+我们将证明在每种情况下都满足公理（EB）。 令$(A_n)$为$X$中密集开集合的序列，并令$G$为任意非空开集合。 然后我们可以归纳非空开集合的定义序列$(G_n)$使得$G_1 = G$和$\overline{G}_{n+1} \subset G_n \cap A_n$：因为从假设$G_n$不为空，$G_n \cap A_n$是非空开集合；并且由于 $X$ 在所设想的两种情况下都是“常规”，因此存在一个非空开集合 $G_{n+1}$，使得 $\overline{G}_{n+1} \subset G_n \cap A_n$。 因此，集合$G_n$的集合$G \cap \bigcap_{n=1}^\infty A_n$包含交，等于集合$\overline{G}_n$的交；因此只要证明$\bigcap_{n=1}^\infty \overline{G}_n \neq \varnothing$就足够了。 现在，如果$X$是局部紧致的，我们可以假设$\overline{G}_2$是紧致的；在紧凑空间 $\overline{G}_2$ 中，非空封闭集合的 $\overline{G}_n (n \geq 2)$ 形式递减序列，因此根据公理 (C'')，它们的交不为空 (cf. 章 I, § 9, no. 1， 定义1]。 如果$X$是一个完整的度量空间（相对于与其拓扑兼容的度量），我们可以假设选择$\overline{G}_n$，使其直径（相对于该度量）趋向于0，而$n$趋向于$+\infty$；因此，$\overline{G}_n$形成一个柯西滤波器基，收敛于点$x$，并且$x$必然属于集合$\overline{G}_n$的交集。
 
 Q.E.D.
 
@@ -159,21 +159,21 @@ Q.E.D.
 
 存在 Baire 空间，而属于既不属于这两个类别，特别是 Baire 空间，它既不可度量，也不局部紧凑 (习题 16)；还有可度量的 Baire 空间，它们没有与其拓扑 (习题 14) 兼容的完整度量空间结构。
 
-### 4. 半连续函数在 BAIRE 空间
+### 4. 半连续函数在 Baire 空间上
 
 #### 定理 2 {#top-ix-s5-thm-2 .statement tag=0C7C}
 
-令$X$为贝尔空间，并让$(f_\alpha)$为$X$上的下半连续实值族函数，这样，在$X$的每个点$x$，上包络$\sup_\alpha f_\alpha(x)$是有限的。然后，$X$包含中的每个非空开集合都是一个非空开集合，族$(f_\alpha)$统一有界于其上。
+令$X$为贝尔空间，并令$(f_\alpha)$为$X$上的下半连续实值族函数，这样，在$X$的每个点$x$，上包络$\sup_\alpha f_\alpha(x)$是有限的。然后，$X$包含中的每个非空开集合都是一个非空开集合，族$(f_\alpha)$统一有界于其上。
 
-这个定理也可以在形式中表示，邻域中点的集合（其中族$(f_\alpha)$均匀有界于其上）是密集开集合。
+这个定理也可以在形式中表示，邻域中点的集合（其中族$(f_\alpha)$均匀有界在上面）是密集开集合。
 
-令$f = \sup_\alpha f_\alpha$为家庭$(f_\alpha)$的上层信封。 函数 $f$ 是下半连续 (章 IV, § 6, no. 2, 定理 4)，并且在 $X$ 的每点处有限。因此，在家庭 $(f_\alpha)$ 由单个函数 $f$ 组成的情况下，进行证明就足够了。令$A_n$为点$x \in X$中的集合，使得$f(x) \leq n$； $A_n$是闭集（章IV, § 6, no. 2，命题1），假设意味着$X$是集合$A_n$的并；因此，至少其中一个 $A_n$ 具有内部点，因此存在一个非空开集合，其上有 $f$ 边界（由整数 $n$）。如果我们将此结果应用于$X$的任何非空开子集（这个子空间也是no. 3的命题 3的贝尔空间），我们有定理。
+令$f = \sup_\alpha f_\alpha$为家庭$(f_\alpha)$的上层信封。 函数 $f$ 是下半连续 (章 IV, § 6, no. 2, 定理 4)，并且在 $X$ 的每点处有限。因此，在族 $(f_\alpha)$ 由单个函数 $f$ 组成的情况下，进行证明就足够了。令$A_n$为点$x \in X$中的集合，使得$f(x) \leq n$； $A_n$是闭集（章IV, § 6, no. 2，命题1），假设意味着$X$是集合$A_n$的并；因此，至少其中一个 $A_n$ 具有内部点，因此存在一个非空开集合，$f$ 位于其上方（由整数 $n$）。如果我们将此结果应用于$X$的任何非空开子集（这个子空间也是no. 3的命题 3的贝尔空间），我们有定理。
 
 在定理的应用中，通常情况是$f_\alpha$在$X$上连续。
 
 #### 注 {#top-ix-s5-n4-rem-1 .statement tag=0C7D}
 
-如果我们不假设 $X$ 是 Baire 空间，定理可能是假的。对于例，如果对于每个有理数数$p/q$（$p, q$互质整数，$q > 0$）我们放置$f(p/q) = q$，我们在有理数线$Q$上有一个下半连续函数$f$在每个点 (cf. 章 IV, § 6, no. 2) 处都是有限的；但$Q$中不存在非空开集合，$f$在其上有界。
+如果我们不假设 $X$ 是 Baire 空间，定理可能为假。例如，如果对于每个有理数数 $p/q$（$p, q$ 互质整数、$q > 0$），我们放置 $f(p/q) = q$，则在有理线 $Q$ 上有一个下半连续函数 $f$，该线在每个点处都是有限的（cf.章IV, § 6, no. 2）；但$Q$中不存在非空开集合，$f$在其上有界。
 
 ### 习题{#top-ix-s5-exercises}
 

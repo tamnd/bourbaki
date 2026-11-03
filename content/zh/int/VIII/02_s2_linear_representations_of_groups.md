@@ -41,19 +41,19 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 7e23f5298ea5c2470c0166b0fb25e2160f402255b5ac5a4fdf78503ca9052cc4
+content_sha256: da09ca30f6d9c677f53f3689fcf5ba58f8bdb75d2a66ef0794da4dd7c153db01
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
 translation_method: google
 source_content_sha256: 5dafa58e78dc6307341df4bd75bf3a56cc18775819c83933d0c50e69c45de801
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 19a47299c2324d4f490ee85fb62da01a67d499f1149a6bcd6b08f930c2e9a48a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。 线性表示群
+## § 2。 线性表示 / 群
 
 ### 1. 连续线性表示
 
@@ -176,23 +176,23 @@ $$
 
 *G在$C(X)$和$K(X)$中的线性表示$\gamma_\chi$是连续的。*
 
-$G \times C(X)$到$G \times C(X)$的映射$(s, f) \mapsto (s, \gamma(s)f)$是连续的（No. 2，引理3）。另一方面，$G \times C(X)$到$C(X)$的映射$(s, f) \mapsto \chi(s, \cdot)f$是连续的；因为，如果 G 中 s 趋向于 $s_0$，则 $\chi(s, \cdot)$ 在 X 的每个紧凑子集上一致趋于 $\chi(s_0, \cdot)$；此外，如果$f$在$C(X)$中趋向于$f_0$，那么$\chi(s, \cdot)f$在X、从而我们的断言的每个紧凑子集上均匀地趋向于$\chi(s_0, \cdot)f_0$。因此G在$C(X)$中的表示$\gamma_\chi$是连续的。
+映射 $(s, f) \mapsto (s, \gamma(s)f)$ of $G \times C(X)$ into $G \times C(X)$ is continuous (No. 2, 引理 3). On the other hand, 映射 $(s, f) \mapsto \chi(s, \cdot)f$ of $G \times C(X)$ into $C(X)$ is continuous; for, if s tends to $s_0$ in G, then $\chi(s, \cdot)$ tends to $\chi(s_0, \cdot)$ uniformly on every compact 子集 of X; if, moreover, $f$ tends to $f_0$ in $C(X)$, then $\chi(s, \cdot)f$ tends to $\chi(s_0, \cdot)f_0$ uniformly on every compact 子集 of X, 从而 our 断言. Thus 表示 $\gamma_\chi$ of G in $C(X)$ is continuous.
 
-让我们证明 G 在 $K(X)$ 中的表示 $\gamma_\chi$ 是连续的。由于$K(X)$是Banach空间的直极限，它是桶状的（TVS，III, §4, No. 1，命题3的Cor.3），因此只需证明$\gamma_\chi$是单独连续的（No. 1，命题1）。现在，令 H 为 X 的紧凑子集，并令 $s_0 \in G$。令V为G中$s_0$的紧邻域，并令L = VH，其在X中是紧邻。对于每个$f \in K(X, H)$，$\gamma_\chi(s_0)f$的支持度都包含在L中，并且
+让我们证明 G 在 $K(X)$ 中的表示 $\gamma_\chi$ 是连续的。 Since $K(X)$ is 直极限 of Banach 空间, it is barreled (TVS, III, §4, No. 1, Cor. 3 of Prop. 3), thus it suffices to prove that $\gamma_\chi$ is separately continuous (No. 1, Prop. 1). Now, let H be a compact 子集 of X and let $s_0 \in G$. Let V be a compact neighborhood of $s_0$ in G, and let L = VH, which is compact in X. For every $f \in K(X, H)$, the support of $\gamma_\chi(s_0)f$ is contained in L, and
 $$
 \sup_{x \in X} |(\gamma_\chi(s_0)f)(x)| \leq \sup_{x \in L} |\chi(s_0^{-1}, x)| \cdot \sup_{x \in X} |f(x)|,
 $$
-因此$f \mapsto \gamma_\chi(s_0)f$是$K(X, H)$到$K(X, L)$的连续线性映射；由此可见，$f \mapsto \gamma_\chi(s_0)f$ 是 $K(X)$ 自身的连续线性映射（TVS，II, §4, No. 4，命题 5）。另一方面，$K(X, L)$的拓扑是由$C(X)$的拓扑诱发的。已经证明，V到$K(X, L)$的映射$s \mapsto \gamma_\chi(s)f$是连续的。这样就完成了证明，$\gamma_\chi$是单独连续的。
+therefore $f \mapsto \gamma_\chi(s_0)f$ is a continuous 线性映射 of $K(X, H)$ into $K(X, L)$; it follows that $f \mapsto \gamma_\chi(s_0)f$ is a continuous 线性映射 of $K(X)$ into itself (TVS, II, §4, No. 4, Prop. 5). On the other hand, 拓扑 of $K(X, L)$ is induced by that of $C(X)$. By what has already been proved, 映射 $s \mapsto \gamma_\chi(s)f$ of V into $K(X, L)$ is continuous. This completes 证明 that $\gamma_\chi$ is separately continuous.
 
 #### 命题 5 {#int-viii-s2-prop-5 .statement tag=09IR}
 
-*假设每个函数$\chi(s, \cdot)$都是有界的。那么$\gamma_\chi$离开$\overline{K(X)}$稳定，并且$\overline{K(X)}$中G的线性表示$\gamma_\chi$是连续的。*
+*Suppose that each 函数 $\chi(s, \cdot)$ is bounded. Then $\gamma_\chi$ leaves $\overline{K(X)}$ stable, and 线性表示 $\gamma_\chi$ of G in $\overline{K(X)}$ is continuous.*
 
-很明显，$\gamma_\chi$使$\overline{K(X)}$稳定，并且每个$\gamma_\chi(s)$在$\overline{K(X)}$中都是连续的。另一方面，对于每个$f \in K(X)$，$s \mapsto \gamma_\chi(s)f$是G到$K(X)$的连续映射和到$\overline{K(X)}$的*更不必说*。因此$\overline{K(X)}$中的表示$\gamma_\chi$是连续的（No. 1，命题2）。
+It is clear that $\gamma_\chi$ leaves $\overline{K(X)}$ stable and that each of the $\gamma_\chi(s)$ is continuous in $\overline{K(X)}$. On the other hand, for every $f \in K(X)$, $s \mapsto \gamma_\chi(s)f$ is a continuous 映射 of G into $K(X)$ and *更不必说* into $\overline{K(X)}$. Therefore 表示 $\gamma_\chi$ in $\overline{K(X)}$ is continuous (No. 1, Prop. 2).
 
-### 4. 例：空间措施中的线性表示
+### 4. 例: 线性表示 in 空间 of measures
 
-再次令 G 为局部紧致群，在局部紧致空间 X 中在左侧连续运行，并令 $\chi$ 为$G \times X$ 上的*连续* 乘子。 $\mathscr{K}(X)$中的$G$的线性表示$\gamma_\chi$在$\mathscr{M}(X)$中承认一个对立表示，我们将再次用$\gamma_\chi$表示，并由以下公式定义（其中$\mu \in \mathscr{M}(X) , f \in \mathscr{K}(X)$）：
+Again let G be a locally compact 群, operating continuously on the left in a locally compact 空间 X, and let $\chi$ be a *continuous* 乘子 on $G \times X$. 线性表示 $\gamma_\chi$ of $G$ in $\mathscr{K}(X)$ admits a contragredient 表示 in $\mathscr{M}(X)$, which we shall again denote by $\gamma_\chi$, and which is defined by the following 公式 (where $\mu \in \mathscr{M}(X) , f \in \mathscr{K}(X)$):
 
 $$
 \langle \gamma_\chi(s)\mu, f \rangle = \langle \mu, \gamma_\chi(s^{-1})f \rangle = \langle \chi(s, \cdot) \cdot \mu, \gamma(s^{-1})f \rangle = \langle \gamma(s)(\chi(s, \cdot) \cdot \mu), f \rangle ,
@@ -204,7 +204,7 @@ $$
 \gamma_\chi(s)\mu = \gamma(s)(\chi(s, \cdot) \cdot \mu) = (\gamma(s)\chi(s, \cdot)) \cdot (\gamma(s)\mu) .
 $$
 
-我们注
+我们注意到
 
 $$
 (\gamma(s)\chi(s, \cdot))(x) = \chi(s, s^{-1}x) .
@@ -256,13 +256,13 @@ $$
 $$
 = \int |f(x)|^p d\beta(x),
 $$
-因此$\gamma_{\chi,p}(s)f \in \mathscr{L}_C^p(X, \beta)$。我们可以看到，$\gamma_{\chi,p}(s)$是$\mathscr{L}_C^p(X, \beta)$和定义的*等距*自同态，通过商，$L_C^p(X, \beta)$的等距自同态，也表示为$\gamma_{\chi,p}(s)$。另一方面，$\chi^{1/p}$显然是乘子，因此根据我们在No. 3中看到的，$\gamma_{\chi,p}$是$L_C^p(X, \beta)$中$G$的线性表示。
+因此$\gamma_{\chi,p}(s)f \in \mathscr{L}_C^p(X, \beta)$。我们可以看出，$\gamma_{\chi,p}(s)$是$\mathscr{L}_C^p(X, \beta)$和定义的*等距*自同态，通过商，$L_C^p(X, \beta)$的等距自同态，也表示为$\gamma_{\chi,p}(s)$。另一方面，$\chi^{1/p}$显然是乘子，因此根据我们在No. 3中看到的，$\gamma_{\chi,p}$是$L_C^p(X, \beta)$中$G$的线性表示。
 
 #### 命题 8 {#int-viii-s2-prop-8 .statement tag=09IU}
 
 *$L_C^p(X, \beta)$中$G$的线性表示$\gamma_{\chi,p}$是连续且等距的。*
 
-让$f \in \mathscr{K}(X)$。当$s$在$G$中趋向于$s_0$时，$\gamma_{\chi,p}(s)f$在$\mathscr{K}(X)$中趋于$\gamma_{\chi,p}(s_0)f$，因此在$L_C^p(X, \beta)$中。由于$\gamma_{\chi,p}(s)$是等距的，因此命题8是由No. 1的应用 *注 2*得到的。
+让$f \in \mathscr{K}(X)$。当$s$在$G$中趋向于$s_0$时，$\gamma_{\chi,p}(s)f$在$\mathscr{K}(X)$中趋于$\gamma_{\chi,p}(s_0)f$，因此在$L_C^p(X, \beta)$中。由于$\gamma_{\chi,p}(s)$是等距的，所以第8条命题是通过No. 1的应用 *注 2*得到的。
 
 对于$\chi$不假设连续的情况，cf.§4，Exer。 13.
 
@@ -300,7 +300,7 @@ $$
 
 （第VI, §1, No. 7章）。我们写$U(\mu) = \int_G U(s)\, d\mu(s)$。我们在$\mathscr{C}(G)$中为$\mathscr{C}'(G)$配备了紧凑收敛的拓扑。 $\mathscr{C}'(G) \times E$到$E$的映射$(\mu, x) \mapsto U(\mu)x$相对于$\mathscr{C}'(G)$的等连续子集和$E$的紧致子集来说是*次连续的；特别是，$\mathscr{C}'(G)$到$\mathscr{L}(E; E)$的映射$\mu \mapsto U(\mu)$（配备紧凑收敛的拓扑）是连续的（*loc.cit.*，Prop.16）。
 
-在阶中，为了稍后能够应用这些结果，我们注认为，如果$X$是局部紧致空间，则$\mathscr{C}(X)$配备紧致收敛的拓扑，是完整的（GT，X, §1, No. 6，Th.2的Cor.3）。另一方面，$\mathscr{K}(X)$是桶状的，因此它的对偶$\mathscr{M}(X)$，配备了$\mathscr{K}(X)$中紧凑收敛的拓扑，是准完备的（TVS，III, §4, No. 2，Th.1的Cor.4）。当然，$\mathscr{K}(X)$对于从范数推导出来的拓扑来说是完备的，因此它的*对偶*$\mathscr{M}^1(X)$对于$\mathscr{K}(X)$中紧致收敛的拓扑来说是准完备的（*loc.cit.*）。
+在阶中，为了稍后能够应用这些结果，我们注意到，如果 $X$ 是局部紧致空间，则配备紧致收敛的拓扑的 $\mathscr{C}(X)$ 是完整的（GT，X, §1, No. 6，第 2 章的 Cor. 3）。另一方面，$\mathscr{K}(X)$是桶状的，因此它的对偶$\mathscr{M}(X)$，配备了$\mathscr{K}(X)$中紧凑收敛的拓扑，是准完备的（TVS，III, §4, No. 2，Th.1的Cor.4）。当然，$\mathscr{K}(X)$对于从范数推导出来的拓扑来说是完备的，因此它的*对偶*$\mathscr{M}^1(X)$对于$\mathscr{K}(X)$中紧致收敛的拓扑来说是准完备的（*loc.cit.*）。
 
 现在让我们假设 $U$ 是 *Banach 空间* $E$ 上局部紧凑群 $G$ 的连续线性表示。 集合 $g(s) = \|U(s)\|$ 对于所有 $s \in G$。然后，如果 $\mu$ 是 $G$ 的测度，使得 $g$ 是 $\mu$ 可积，则有 $\int_G U(s)\, d\mu(s) \in \mathscr{L}(E; E)$ 和 $\|\int_G U(s)\, d\mu(s)\| \leq \int g(s)\, d|\mu|(s)$（第 VI, §1, No. 7，*注* 1）。我们再次写$U(\mu) = \int_G U(s)\, d\mu(s)$。
 
@@ -337,7 +337,7 @@ $$
 
 #### 推论 1 {#int-viii-s2-lem-4-cor-1 .statement tag=09IX}
 
-根据引理 4 中的假设，假设在加法中存在一个由 $T$ 包含组成的紧凑子集 $K_0$，它是所有测度$\mu \in M$ 的支持。然后$\mathfrak{F}$也在$\mathscr{C}'(T)$中收敛到$\varepsilon_a$，并在$\mathscr{C}(T)$中配备了拓扑的紧凑收敛。
+根据引理 4 中的假设，假设在加法中存在一个由$T$ 包含组成的紧凑子集 $K_0$，它是所有测度$\mu \in M$ 的支持。然后$\mathfrak{F}$也在$\mathscr{C}'(T)$中收敛到$\varepsilon_a$，并在$\mathscr{C}(T)$中配备了紧凑收敛的拓扑。
 
 因为，$\mathscr{C}(T)$到$\mathscr{C}(K_0)$的限制映射是连续的；因此，如果$H$是$\mathscr{C}(T)$的紧致子集，则$H$形式中函数的限制到$K_0$是$\mathscr{C}(K_0)$的紧致子集。然后，只需在 $K_0$ 之前在替换 $T$ 上应用引理 4 即可。
 
@@ -353,21 +353,21 @@ $$
 
 #### 推论 3 {#int-viii-s2-lem-4-cor-3 .statement tag=09IZ}
 
-*令$G$为局部紧致群，$E$为准完全局部凸空间，$U$为$E$中$G$的连续线性表示。令 $\beta$ 为$G$、$a$ 元素 $G$ 和$\mathscr{B}$ 基的正测度，用于过滤$a$ 的邻域，由紧凑邻域组成。对于每个$V \in \mathscr{B}$，令$f_V$是$G$上的连续函数$\geqslant 0$，并包含$V$中的支持，从而$\int f_V\, d\beta = 1$。然后，对于每 $x \in E$，
+*令$G$为局部紧致群，$E$为准完全局部凸空间，以及$U$为$G$在$E$中的连续线性表示。令$\beta$为$G$、$G$的$a$元素和$\mathscr{B}$基的正测度，用于过滤$a$的邻域，由紧凑邻域组成。对于每个$V \in \mathscr{B}$，令$f_V$是$G$上的连续函数$\geqslant 0$，且支持包含在$V$中，并且使得$\int f_V\, d\beta = 1$。然后，对于每 $x \in E$，
 
 $$
 U(a)x = \lim_V U(f_V \cdot \beta)x,
 $$
 
-*极限是相对于$\mathscr{B}$的截面过滤器而取的。*
+*极限是相对于$\mathscr{B}$的截面过滤器而采取的。*
 
 $G$到$E$的映射$s \mapsto U(s)x$是连续的。由科. 2、$U(a)x = \lim_V \int (U(s)x) \cdot f_V(s)\, d\beta(s)$相对于$\mathscr{B}$的截面滤波器，即$U(a)x = \lim_V U(f_V \cdot \beta)x$。
 
 #### 命题 10 {#int-viii-s2-prop-10 .statement tag=09J0}
 
-*设$G$为局部紧致群，$E$为准完全局部凸空间，$U$为$E$中$G$的连续线性表示，$\beta$为$G$上有支持的正测度$G$。
+*令$G$为局部紧致群，$E$为准完全局部凸空间，$U$为$E$中$G$的连续线性表示，$\beta$为$G$的正测度有支持$G$。
 
-(i) 向量 $U(f \cdot \beta)x$，其中$f$超过$\mathscr{K}(G)$，$x$超过$E$，在$E$中是稠密的。
+(i) 向量 $U(f \cdot \beta)x$，其中$f$超过$\mathscr{K}(G)$，$x$超过$E$，在$E$中密集。
 
 (ii) *令$F$为$E$的闭线性子空间。如果 $F$ 对于 $U$ 是稳定的，那么 $U(\mu)(F) \subset F$ 对于每个 $\mu \in \mathscr{C}'(G)$ 都是稳定的。相反，如果 $U(f \cdot \beta) \subset F$ 对于每个 $f \in \mathscr{K}(G)$，则 $F$ 对于 $U$ 是稳定的。*
 

@@ -32,16 +32,16 @@ subsections:
       pdf_page: 87
 statements: 16
 exercises: 3
-content_sha256: 346d08bb64c2ce69150c79e01500375bdd8e5314c03e2f4709f2510d4a2d8f31
+content_sha256: e3a129c5a430074ee8db016e8f50784175fffe6bb3e874641fbf3128f0d44823
 translated_from: content/en/lie/V/02_s2_reflections.md
 translation_method: google
 source_content_sha256: 20ad7df5949cc7ad56e714010f088695fe6bb28788d70b393710f3d5f45836d3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d09af4debf6ac757e26c44e262cfe55efffb97c7b06dc943495c22a322f5758c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 2。反思
@@ -115,7 +115,7 @@ $$
 
 #### 推论 {#lie-v-s2-n2-cor-1 .statement tag=0APM}
 
-*如果 V 是有限维的，则每次反射的行列式都是 -1。*
+*如果 V 是有限维的，则每次反射都是行列式 −1。*
 
 让我们反思一下V。命题 2 (i) 表明存在 V 的基 $(e_1, \ldots, e_n)$，使得 $s(e_1) = e_1, \ldots, s(e_{n-1}) = e_{n-1}$ 和 $s(e_n) = -e_n$，因此有 $\det(s) = -1$。
 
@@ -131,13 +131,13 @@ $$
 
 (ii) 首先假设$u$ 与$s$ 通勤。如果$x$是向量，使得$s(x) = \varepsilon.x$（其中$\varepsilon = \pm 1$），则$s(u(x)) = u(s(x)) = \varepsilon.u(x)$，因此$V_s^+$和$V_s^-$在$u$下稳定。反之，假设$V_s^+$和$V_s^-$在$u$下稳定；很明显，$us - su$在$V_s^+$和$V_s^-$上消失，并且由于V是$V_s^+$和$V_s^-$的直和，所以我们有$us - su = 0$。
 
-#### 推论{#lie-v-s2-n2-cor-2 .statement tag=0APO}
+#### 推论 {#lie-v-s2-n2-cor-2 .statement tag=0APO}
 
 *两个不同的反射 s 和 u 通勤当且仅当 $V_s^- \subset V_u^+$ 和 $V_u^- \subset V_s^+$。*
 
 如果 $V_s^- \subset V_u^+$ 和 $V_u^- \subset V_s^+$，命题 3 (i) 表明 $V_u^+$ 和 $V_u^-$ 在 $s$ 下是稳定的，因此根据命题 3 (ii) 可知 $su = us$。
 
-反之，如果$su = us$，子空间$V_s^-$通过(ii)稳定在$u$以下；通过(i)，有两种可能的情况：
+相反，如果$su = us$，子空间$V_s^-$通过(ii)稳定在$u$以下；通过(i)，有两种可能的情况：
 
 a) 我们有$V_u^- \subset V_s^-$：因为它们都是维数 1，因此这些空间相等，因此$V_s^- \not\subset V_u^+$；由于$V_u^+$在$s$下稳定，我们有$V_u^+ \subset V_s^+$，因此这两个超平面相等。但是$s = u$，与我们的假设相反。
 
@@ -197,17 +197,17 @@ $$
 
 显示$s_{H'} s_H$是向量$2v$的翻译。
 
-#### 推论{#lie-v-s2-n4-cor-1 .statement tag=0APS}
+#### 推论 {#lie-v-s2-n4-cor-1 .statement tag=0APS}
 
 *设$H$和$H'$是两个不同的、平行的、非各向同性的超平面。如果 $K$ 为特征零（分别为 $p > 0$，与 $p \neq 2$），则 $s_H$ 和 $s_{H'}$ 生成的 $E$ 位移的群是无限二面角群（分别为二面角） 群阶 $2p$）。
 
-事实上，根据第 2 章的提案 2。 IV, § 1, no. 2，足以证明$s_{H'} s_H$是无限的阶（分别是阶$2p$），这是明确的。
+事实上，根据第 2 章的提案 2。 IV, § 1, no. 2，足以证明$s_{H'} s_H$是无限的阶（分别是阶$2p$），这是清楚的。
 
 #### 注 {#lie-v-s2-n4-rem-1 .statement tag=0APT}
 
 我们保留命题5的记号，并在加法中假设$K = \mathbf{R}$。输入$s = s_H$和$s' = s_{H'}$。令$H_n$为超平面$H + n.v$，令$C_n$与$a \in H$及$n < \xi < n + 1$为形式$a + \xi.v$$E$点集合。 $C_n$ 连接开路集合，形成$E - \bigcup_n H_n$ 的划分。因此，它们是 $E$ 中系统 $\mathfrak{H} = (H_n)_{n \in \mathbf{Z}}$ 定义的*房间*。将$(s's)^n$变换将室$C = C_0$翻译成室$C_{2n}$，从$s(C_0) = C_{-1}$开始，我们有了$(s's)^n s(C) = C_{2n-1}$。由此可见，*由 s 和 s' 生成的二面体群 W 简单传递地排列了室 C_n*。此外，正如我们现在将要展示的，*如果室 C 和 w(C) 位于 H* 的相对侧（对于 $w \in W$），*我们有 l(sw) = l(w) - 1* （长度相对于 $S = \{s, s'\}$（第 IV, § 1, no. 1 章））。事实上，对于某些 $n < 0$，我们有 $w(C) = C_n$。如果$n = -2k$，则$w = (ss')^k$和$sw = (s's)^{k-1}s'$，因此$l(w) = 2k$和$l(sw) = 2k - 1$（第IV, § 1, no. 2、注章）。如果$n = -2k - 1$，则$w = (ss')^k s$和$sw = (s's)^k$，所以$l(w) = 2k + 1$和$l(sw) = 2k$。
 
-### 5. 平面旋转的补数
+### 5. 平面旋转的补集
 
 在这个数中，$V$表示维数2的实数向量空间，并提供*标量乘积*（即*非退化*、正、对称双线性形式）和*方向*。角度测量将针对基 $2\pi$ 进行；因此，半线（或线）之间角度的主要测量值是实数 $\theta$，从而 $0 \leq \theta < 2\pi$（分别为 $0 \leq \theta < \pi$）（*概述拓扑*，第 VIII, § 2, no. 3 和 no. 6）。由于语言滥用，对于任何实数$\theta$，我们将使用$\theta$来表示尺寸为$\theta$的角度，并用$\rho_\theta$表示角度为$\theta$的旋转（*代数*，第IX, § 10, no. 3章）。
 
@@ -219,13 +219,13 @@ $$
 (s(\Delta), \widehat{s(\Delta')}) \equiv - (\widehat{\Delta}, \widehat{\Delta'}) \pmod{2\pi} \quad \text{(resp. } \pmod{\pi})).
 $$
 
-令 $u$ 为将 $\Delta$ 变换为 $\Delta'$ 的旋转。由于$su$是行列式$-1$的V的正交变换，因此它是反射，因此是$(su)^2 = 1$。因而，$u^{-1} = sus^{-1}$变换$s(\Delta)$变为$s(\Delta')$，因此命题。
+令 $u$ 为将 $\Delta$ 变换为 $\Delta'$ 的旋转。由于$su$是V对行列式$-1$的正交变换，它是反射，因此是$(su)^2 = 1$。因而，$u^{-1} = sus^{-1}$变换$s(\Delta)$变为$s(\Delta')$，因此命题。
 
-#### 推论{#lie-v-s2-n5-cor-1 .statement tag=0APV}
+#### 推论 {#lie-v-s2-n5-cor-1 .statement tag=0APV}
 
 *设 D 和 D' 为 V 的两条线，并令 $\theta$ 为角度 $(\widehat{D}, \widehat{D'})$ 的度量。然后$s_{D'} s_D = \rho_{2\theta}$。
 
-我们知道$s_{D'} s_D$是旋转，因为它具有行列式1。令$\Delta$和$\Delta'$是从D和D'的原点开始的两条半线。我们有
+我们知道$s_{D'} s_D$是一个旋转，因为它是行列式1。让$\Delta$和$\Delta'$是从D和D'携带的原点开始的两条半线。我们有
 
 $$
 \begin{align*}
@@ -234,7 +234,7 @@ $$
 &\equiv (\widehat{\Delta}, \widehat{\Delta'}) - (\Delta', \Delta) \equiv 2(\widehat{\Delta}, \widehat{\Delta'}) \pmod{2\pi},
 \end{align*}
 $$
-由此得出推论。
+因此推论。
 
 现在让 $\Delta$ 和 $\Delta'$ 为 V 的两条半线，使得
 
@@ -247,9 +247,9 @@ $$
 
 *群 W 是二面角*（第 IV, § 1, no. 2 章）*阶 $2m$。它由 $n \in \mathbf{Z}$ 的旋转 $\rho_{2n\theta}$ 和乘积 $\rho_{2n\theta} s$ 组成。 D 的变换和 D' 除以 W 的元素是 D 的变换 $\rho_{n\theta}$ $n \in \mathbf{Z}$ 旋转。
 
-命题 6 的推论表明 $s's$ 的长度为阶 m，这给出了第一个断言。因而，W 的元素为形式 $(s's)^n = \rho_{2n\theta}$ 或 $(s's)^n s = \rho_{2n\theta} s$；从$D' = \rho_\theta(D)$开始，最后一个断言由此而来。
+推论到命题 6 表明 $s's$ 的长度为阶 m，这给出了第一个断言。因而，W 的元素为形式 $(s's)^n = \rho_{2n\theta}$ 或 $(s's)^n s = \rho_{2n\theta} s$；从$D' = \rho_\theta(D)$开始，最后一个断言由此而来。
 
-#### 推论{#lie-v-s2-n5-cor-2 .statement tag=0APX}
+#### 推论 {#lie-v-s2-n5-cor-2 .statement tag=0APX}
 
 *令 C 为由从原点开始的开半线 $\Delta_1$ 的并形成的开角扇区，并且满足 $0 < (\widehat{\Delta}, \widehat{\Delta_1}) < \theta$。 Then* no transform of D or D' by an element of W meets C if and only if m is finite and
 

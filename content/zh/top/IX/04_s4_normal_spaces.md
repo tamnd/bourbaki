@@ -32,25 +32,25 @@ subsections:
       pdf_page: 194
 statements: 25
 exercises: 30
-content_sha256: 93dc5777d1ce87bda79cf473f7267f17bdaeb6cbff66962c2c299f78baf071e1
+content_sha256: b5be7a33e3cfed6cd3f6f88ee0a90d951281f52408df4d9648b31849937c1e24
 translated_from: content/en/top/IX/04_s4_normal_spaces.md
 translation_method: google
 source_content_sha256: 9659cfc8beeaee4a3f7b73b432335f6ffd60e7f82a5d2d879d79d7ffdfda75df
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 0c6d7f665532a0f5527d9f993c4aa2e37e1088fd4ca3b43196a3d09ef7107d7c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 4. 正常空间
 
-### 1. 定义正常空间
+### 1. 正常定义空间
 
 可均匀化空间 ($§ 1$, no. 5) 的公理 ($O_{IV}$) 可以用以下形式表示： *给定任何闭集合* $A$ *和任何点* $x \in \mathbf{C}A$，*有一个连续* $X$ *到* $[0, 1]$ *的映射 *等于* 0 *在* $x$ *并且等于* 1 *在* $A$的每点；这个性质可以再次用说来表达，在可统一的空间中，我们可以通过连续实值函数来分离点和封闭的集合（不是包含点）。
 
-现在我们要研究空间，其中可以用相同的方式将两个不相交的封闭的集合通过连续实值函数分开：
+现在我们将研究空间，其中可以用相同的方式通过连续实值函数来分离两个闭不相交的集合：
 
 #### 定义 1 {#top-ix-s4-def-1 .statement tag=0C5F}
 
@@ -138,7 +138,7 @@ $$
 
 到$(O'_V)$，正常空间的每个*闭合*子集都是*正常子空间*；但对于正常空间的*任意* 子集情况并非总是如此。
 
-对于例，非正规的完全正则空间同胚于紧致空间（§ 1, no. 5，命题3）的子空间，而后者是正规的。
+例如，非正规的完全正则空间同胚于紧致空间（§ 1, no. 5，命题3）的子空间，而后者是正规的。
 
 最后我们记录两个正常的空间的*乘积*不一定是正常的（参见习题9和§ 5、习题16）。
 
@@ -152,7 +152,7 @@ $$
 
 容易看出$(O''_V)$蕴涵$(O_V)$；因为如果$B$和$C$是$X$的两个不相交的闭子集，则函数在$B$上等于0并且在$C$上等于$i$是定义的并且在闭集合上连续$B \cup C$，因此到$(O''_{V})$有连续的扩张$f$到$X$。如果$g = \inf (f^{+}, 1)$，则$g$在$X$上连续，在$[0, 1]$中取其值，并且等于$B$上的$o$以及$C$上的$i$。
 
-让我们反过来证明$(O_{V})$蕴含$(O''_{V})$。由于$\overline{\mathbf{R}}$和区间$[ -i, +i ]$同胚，我们只需考虑连续映射$f : A \to \overline{\mathbf{R}}$在$[ -i, +i ]$取值的情况。我们将$f$到$X$的构造扩张$g$通过在$X$上形成连续函数的序列$(g_{n})$，使得序列$(g_{n}(x))$收敛于所有区间$[ -i, +i ]$的$x \in X$至点；到定义，这个极限将在$x$处成为$g$的值，并且从$g_{n}$的选择开始，函数$g$满足所需的条件。
+让我们反过来证明$(O_{V})$蕴含$(O''_{V})$。由于$\overline{\mathbf{R}}$和区间$[ -i, +i ]$是同胚的，我们只需考虑连续的映射$f : A \to \overline{\mathbf{R}}$在$[ -i, +i ]$取其值的情况。我们将$f$到$X$的构造扩张$g$通过在$X$上形成连续函数的序列$(g_{n})$，使得序列$(g_{n}(x))$收敛于所有$x \in X$ 至点共区间 $[ -i, +i ]$；到定义，这个极限将在$x$处成为$g$的值，并且将从$g_{n}$的选择得出函数$g$满足所需的条件。
 
 $g_{n}$的定义依赖于以下引理：
 
@@ -162,13 +162,13 @@ $g_{n}$的定义依赖于以下引理：
 
 令$H$为所有$x \in A$的集合，使得$-i \leq u(x) \leq -i/3$，并令$K$为所有$x \in A$的集合，使得$i/3 \leq u(x) \leq i$； $H$ 和 $K$ 在 $A$ 中封闭，因此在 $X$ 中封闭，并且不相交；因此，到$(O_{V})$时，$X$到$[ -i/3, +i/3 ]$有一个连续的映射$v$，它等于$H$上的$-i/3$和$K$上的$+i/3$。 映射$v$满足引理中的条件。
 
-我们现在定义函数$g_{n}$到归纳。 应用引理和$u = f$，我们将定义$g_{0}$作为$X$到$[ -i/3, +i/3 ]$的连续映射，这样$|f(x) - g_{0}(x)| \leq 2/3$对于所有$x \in A$。现在假设连续映射 $g_{n}$ 的 $X$ 进入区间
+我们现在定义函数$g_{n}$到归纳。 应用引理和$u = f$，我们将定义$g_{0}$作为$X$到$[ -i/3, +i/3 ]$的连续映射，这样$|f(x) - g_{0}(x)| \leq 2/3$对于所有$x \in A$。现在假设将 $X$ 的连续映射 $g_{n}$ 变为区间
 
 $$
 [-i + (\frac{2}{3})^{n+1}, i - (\frac{2}{3})^{n+1}]
 $$
 
-已定义，使得 $|f(x) - g_{n}(x)| \leq (\frac{2}{3})^{n+1}$ 对于所有$x \in A$。 应用引理到函数$u(x) = (\frac{2}{3})^{n+1} (f(x) - g_{n}(x))$，我们看到区间中存在连续的映射$h_{n+1}$$X$
+已定义，使得 $|f(x) - g_{n}(x)| \leq (\frac{2}{3})^{n+1}$ 对于所有$x \in A$。 应用引理到函数$u(x) = (\frac{2}{3})^{n+1} (f(x) - g_{n}(x))$，我们看到$X$到区间存在连续的映射$h_{n+1}$
 
 $$
 \left[ -\frac{2^{n+1}}{3^{n+2}}, \frac{2^{n+1}}{3^{n+2}} \right]
@@ -190,7 +190,7 @@ $$
 
 在每个点 $x \in X$；因此序列$(g_n(x))$对于每个$x \in X$来说都是柯西序列，因此收敛到区间$[ -1, +1 ]$的点$g(x)$；并且由于对于所有$x \in A$和$n \to \infty$，$f(x) - g_n(x)$趋于0，$g$是$f$到$X$的扩张。因此，只需证明 $g$ 在 $X$ 上连续。
 
-现在让$x$为$X$中的任意点；那么，给定任何$\varepsilon > 0$，都存在整数$n_0$，使得$|g_m(y) - g_n(y)| \leq \varepsilon$对于所有$y \in X$、所有$m \geq n_0$和所有$n \geq n_0$；因此，让$m$趋于$+\infty$，我们有
+现在令$x$为$X$中的任意点；那么，给定任何$\varepsilon > 0$，都存在整数$n_0$，使得$|g_m(y) - g_n(y)| \leq \varepsilon$对于所有$y \in X$、所有$m \geq n_0$和所有$n \geq n_0$；因此，让$m$趋于$+\infty$，我们有
 
 $$
 |g(y) - g_n(y)| \leq \varepsilon.
@@ -208,27 +208,27 @@ $$
 
 *如果$f$是定义在$A$上的有限连续实值函数，则存在定义在$X$上的有限连续实值函数$g$，即扩展$f$。*
 
-首先考虑$f(x) \geq 0$对于所有$x \in A$的情况；那么就有$f$到$X$的连续扩张$g_1$，在$[0, +\infty]$中取其值。如果我们放入 $B = \overline{g_1}(+\infty)$，则 $B$ 是闭集，并且到假设不会满足 $A$；因此，函数$h$在$A$上等于$f$，在$B$上等于0，因此是闭集合$A \cup B$上的连续函数。令$g_2$为$h$到$X$的连续扩张，再次取$[0, +\infty]$中的值；那么函数$g = \inf(g_1, g_2)$是$f$到$X$的连续扩张，其值是$\geq 0$并且在$X$的每个点处*有限*。
+首先考虑$f(x) \geq 0$对于所有$x \in A$的情况；那么就有$f$到$X$的连续扩张$g_1$，在$[0, +\infty]$中取它的值。如果我们放入$B = \overline{g_1}(+\infty)$，那么$B$是闭集，到假设不满足$A$；因此，函数$h$在$A$上等于$f$，在$B$上等于0，因此是闭集合$A \cup B$上的连续函数。令$g_2$为$h$到$X$的连续扩张，再次取$[0, +\infty]$中的值；那么函数$g = \inf(g_1, g_2)$是$f$到$X$的连续扩张，其值是$\geq 0$并且在$X$的每个点处*有限*。
 
-为了传递到一般情况，注就足够了，如果$f$在$A$上是有限且连续的，那么$f^+$和$f^-$也是有限且连续的；将$f^+$和$f^-$分别通过有限连续函数、$g_1$和$g_2$延伸到$X$，我们看到函数$g_1 - g_2$在$X$和扩展$f$上是有限连续的。
+为了传递到一般情况，只要注意一下就足够了，如果$f$在$A$上是有限且连续的，那么$f^+$和$f^-$也是有限且连续的；将$f^+$和$f^-$分别通过有限连续函数、$g_1$和$g_2$延伸到$X$，我们看到函数$g_1 - g_2$在$X$和扩展$f$上是有限连续的。
 
 #### 注 {#top-ix-s4-n2-rem-1 .statement tag=0C5O}
 
-如果$X$是正常的空间并且$A$是$X$的闭子集，则$A$的每个连续映射$f$也存在一个连续的扩张到$X$到*立方体* $K^1$（§ 1, no. 5）；因为我们有$f = (f_i)_{i \in I}, f_i$是$A$的连续映射进入$\mathbf{R}$的紧致区间$K$；由于存在连续的映射$g_i : X \to K$，其中扩展$f_i$，映射$g = (g_i)$是$f$到$X$的连续扩张。
+如果$X$是正常的空间并且$A$是$X$的闭子集，则$A$的每个连续映射$f$也存在一个连续的扩张到$X$到*立方体* $K^1$（§ 1, no. 5）；因为我们有$f = (f_i)_{i \in I}, f_i$是$A$的连续映射进入区间$K$的$\mathbf{R}$；由于存在连续的映射$g_i : X \to K$，其中扩展$f_i$，映射$g = (g_i)$是$f$到$X$的连续扩张。
 
-### 3. 正常空间中闭集合的局部有限开覆盖
+### 3. 正常空间中闭合集合的局部有限开覆盖
 
 #### 定理 3 {#top-ix-s4-thm-3 .statement tag=0C5P}
 
 令 $(A_i)_{i \in I}$ 为正常空间 $X$ 中闭集合 $Y$ 的局部有限开覆盖。然后有一个 $Y$ 的开覆盖$(B_i)_{i \in I}$，使得每个 $i \in I$ 都有 $\overline{B}_i \subset A_i$。
 
-良序指标集合$I$（集合理论，章III, § 2, no. 3，定理1）。我们将在$X$中将定义一个家庭$(B_i)_{i \in I}$开放为集合，到超限归纳，使得(i)每个$i \in I$有$\overline{B}_i \subset A_i$； (ii) 对于每个$i \in I$，由$B_\lambda$形成的族，使得$\lambda \leq i$和由$A_\lambda$形成的族，使得$\lambda > i$是$Y$的开覆盖。假设我们已经为$i < \gamma$定义了$B_i$，使得所有$i < \gamma$都满足(i)和(ii)，并且让我们证明我们可以以这样的方式来定义$B_\gamma$，使得$i = \gamma$也满足(i)和(ii)。让我们首先证明，$i < \gamma$的$B_i$和$i \geq \gamma$形式的$A_i$覆盖了$Y$。到假设，对于每个$x \in Y$，只有指标$\lambda \in I$的有限数，这样$x \in A_\lambda$，比如说$\lambda_1 < \lambda_2 < \cdots < \lambda_n$；令$\lambda_h$为$\lambda_i$的最大的，使得$\lambda_i < \gamma$；如果$h < n$我们有$x \in A_{\lambda_n}$和$\lambda_n \geq \gamma$，并且如果$h = n$归纳假设表明$x$属于到一些$B_\lambda$使得$\lambda \leq \lambda_n < \gamma$，并且我们的断言紧随其后。
+有序指标集合$I$（集合理论、章III, § 2, no. 3、定理1）。我们将定义一个家庭 $(B_i)_{i \in I}$ 在 $X$ 中开放集合，到超限归纳，使得 (i) 每个 $i \in I$ 都有 $\overline{B}_i \subset A_i$； (ii) 对于每个$i \in I$，由$B_\lambda$形成的族，使得$\lambda \leq i$和由$A_\lambda$形成的族，使得$\lambda > i$是$Y$的开覆盖。假设我们已经为$i < \gamma$定义了$B_i$，使得所有$i < \gamma$都满足(i)和(ii)，并且让我们证明我们可以以这样的方式来定义$B_\gamma$，使得$i = \gamma$也满足(i)和(ii)。让我们首先证明，$i < \gamma$的$B_i$和$i \geq \gamma$形式的$A_i$覆盖了$Y$。到假设，对于每个$x \in Y$，只有指标$\lambda \in I$的有限数，这样$x \in A_\lambda$，比如说$\lambda_1 < \lambda_2 < \cdots < \lambda_n$；令$\lambda_h$为$\lambda_i$的最大的，使得$\lambda_i < \gamma$；如果$h < n$我们有$x \in A_{\lambda_n}$和$\lambda_n \geq \gamma$，并且如果$h = n$归纳假设表明$x$属于到一些$B_\lambda$使得$\lambda \leq \lambda_n < \gamma$，并且我们的断言紧随其后。
 
 现在输入$C = (\complement Y) \cup \left( \bigcup_{i < \gamma} B_i \right) \cup \left( \bigcup_{i > \gamma} A_i \right)$； $C$已开放，根据前面所说我们有$\complement A_\gamma \subset C$；根据正常空间的公理$(O''_V)$，因此存在一个开集合$V$，使得$\complement A_\gamma \subset \overline{V} \subset V \subset C$。如果我们放入$B_\gamma = \complement \overline{V}$，我们就有$\overline{B}_\gamma \subset \complement V \subset A_\gamma$和$B_\gamma \cup C = X$，这样$B_i$使得$i \leq \gamma$和$A_i$使得$i > \gamma$覆盖$Y$。
 
 #### 注 {#top-ix-s4-n3-rem-1 .statement tag=0C5Q}
 
-注，我们仅使用覆盖$(A_i)$是点有限的事实，即$X$属于的每个点到集合$A_i$的有限数。
+请注意，我们仅使用了覆盖$(A_i)$是点有限的事实，即$X$属于的每个点仅到集合$A_i$的有限数。
 
 #### 定义 2 {#top-ix-s4-def-2 .statement tag=0C5R}
 
@@ -254,7 +254,7 @@ f_i(x) = \frac{g_i(x)}{\sum_{i \in I} g_i(x)}
 $$
 对于所有$i \in I$和所有$x \in X$，则$f_i$形式是单位元的连续划分，从属于覆盖$(A_i)$。
 
-#### 推论{#top-ix-s4-n3-cor-1 .statement tag=0C5U}
+#### 推论 {#top-ix-s4-n3-cor-1 .statement tag=0C5U}
 
 *给定任何局部有限开覆盖* $(A_i)$ *闭合集合* $F$ *在正常空间* $X$，*存在一个族* $(f_i)$ *连续实值函数* $\geq 0$ *在* $X$，*从属到覆盖物*$(A_i)_{i \in I}$*并且使得*$\sum_{i \in I} f_i(x) = 1$*对于所有*$x \in F$*和*$\sum_{i \in I} f_i(x) \leq 1$*对于所有*$x \in X$。
 
@@ -272,7 +272,7 @@ $CF$和$A_i$的集合由……组成族是$X$的局部有限开覆盖​​。�
 
 #### 引理 2 {#top-ix-s4-lem-2 .statement tag=0C5W}
 
-*令 $A, B$ 为仿紧紧凑空间 $X$ 的两个不相交的闭子集。 If for each $x \in A$ there is an open neighbourhood $V_x$ of $x$ and an open neighbourhood $W_x$ of $B$ which do not intersect, then there exists an open neighbourhood $T$ of $A$ and an open neighbourhood $U$ of $B$ which do not intersect.*
+*令 $A, B$ 为仿紧紧凑空间 $X$ 的两个不相交的闭子集。 如果对于每个$x \in A$，存在不相交的$x$的开邻域$V_x$和$B$的开邻域$W_x$，则存在不相交的$A$的开邻域$T$和$B$的开邻域$U$。*
 
 暂时假设引理为真，我们可以将其应用于$B$由单个点组成的情况，因为$X$是Hausdorff，并且它表明$X$是*正则*。然后我们可以再次将引理 2 应用于$X$的任意两个不相交的闭子集，这表明公理$(O'_V)$是满足的。
 
@@ -302,11 +302,11 @@ $$
 
 *如果 F 是仿紧致空间 X 的闭子集，则 X 包含中 F 的每个邻域都是 F 的闭（因此是仿紧致）邻域。*
 
-到章I, § 9, no. 10的命题16，X的任何闭子空间都是仿紧的；因此，推论来自命题 4 和 Axiom $(O_v')$。
+到章 I, § 9, no. 10 的命题 16 时，X 的任何闭子空间都是仿紧的；因此，推论由命题 4 和 Axiom $(O_v')$ 得出。
 
-### 5. Metrizable 空间的仿紧性
+### 5. 可度量化空间的拟紧性
 
-以下定理锐化命题 2 of no. 1 的结果：
+以下定理锐化 no. 1 的命题 2 的结果：
 
 #### 定理 4 {#top-ix-s4-thm-4 .statement tag=0C5Z}
 
@@ -316,7 +316,7 @@ $$
 
 #### 引理 3 {#top-ix-s4-lem-3 .statement tag=0C60}
 
-*令 $\mathscr{R} = (U_\alpha)_{\alpha \in A}$ 为可测量的空间 X 的开覆盖。然后存在X的开子集的局部有限族序列$(\mathscr{G}_n)$，这样$\mathscr{S} = \bigcup_n \mathscr{S}_n$是X的开覆盖，它细化了$\mathscr{R}$。
+*令 $\mathscr{R} = (U_\alpha)_{\alpha \in A}$ 为可测量的空间 X 的开覆盖。然后是X的开子集的局部有限族序列$(\mathscr{G}_n)$，这样$\mathscr{S} = \bigcup_n \mathscr{S}_n$是X的开覆盖，它细化了$\mathscr{R}$。
 
 令 $d$ 为 X 与其拓扑兼容的度量。对于每个$\alpha \in A$和每个整数$n$，令$F_{n\alpha}$表示所有$x \in U_\alpha$中的集合，使得$d(x, X - U_\alpha) \geq 2^{-n}$。由于$X - U_\alpha$已关闭，我们有$U_\alpha = \bigcup_n F_{n\alpha}$。
 

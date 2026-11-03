@@ -27,21 +27,21 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 2786a061c0b92791e62036434c1a210892594797eaa8faf4c1b6ee7c6f1f22eb
+content_sha256: a05355d3f9cbdc59bdaf1e09e857da72d1a713a5b975af5b9ee2246b2daf4fab
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
 translation_method: google
 source_content_sha256: ae041bbfaebb6710b823bdc0661c24a1124357966f753025f28bd48ab4086bed
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 65ebb810754dfe8d364f1a127adf81fe4c983ce534544a341df92de26cc39b55
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
 
-# 另类代数。八元数
+# 替代方案代数。八元数
 
 ### 1. 另类代数
 

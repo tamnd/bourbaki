@@ -29,23 +29,23 @@ subsections:
       pdf_page: 259
 statements: 13
 exercises: 11
-content_sha256: d7be292378b7e5739d56f96453ba819b3ce1af81ac58f5701334041dde2ef49f
+content_sha256: b301ed120db660274949fddb4d9026e3416c46a0739082fa94e8ae982548ad01
 translated_from: content/en/fvr/V/04_s4_application_to_series_with_positive.md
 translation_method: google
 source_content_sha256: c18bf105a0a19fb75952b1cd2547b25be59f3bbcc6840083c077e38c89496107
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ba4566d95c9d223ced903e0da8e7e0b259603c80d517beb8e7124fe560b661bc
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 4。适用于级数并具有正值项
+## § 4。应用到级数且项为正值
 
-### 1. 判据级数与正项收敛
+### 1. 级数与正项收敛判据
 
-在这个截面通过*级数和积极的项*我们将理解（通过滥用语言）真正的项的级数$(u_n)$，使得$u_n \geq 0$*从n的某个特定*值开始。 Everything we shall say about such series will extend immediately by a change of sign to series all of whose terms are $\leq 0$ starting from some particular value of n. 我们已经看到（II，p. 64，例 3），对于规范化的空间 E 中点的每一个序列$(\mathbf{u}_n)_{n \geq 1}$，我们可以将$[1, +\infty[$上定义的步骤函数$\mathbf{u}$关联起来： 条件$\mathbf{u}(x) = \mathbf{u}_n$对于$n \leq x < n+1$：则级数$(\mathbf{u}_n)$收敛当且仅当积分$\int_1^{+\infty} \mathbf{u}(t)\,dt$收敛。
+在这个截面通过*级数和积极的项*我们将理解（通过滥用语言）真正的项的级数$(u_n)$，使得$u_n \geq 0$*从n的某个特定*值开始。 我们对这个级数所说的一切都将通过符号的改变立即延伸到级数，其所有项都是$\leq 0$，从某个特定的n值开始。 我们已经看到（II，p. 64，例 3），对于规范化的空间 E 中点的每一个序列$(\mathbf{u}_n)_{n \geq 1}$，我们可以将$[1, +\infty[$上定义的步骤函数$\mathbf{u}$关联起来： 条件$\mathbf{u}(x) = \mathbf{u}_n$对于$n \leq x < n+1$：则级数$(\mathbf{u}_n)$收敛当且仅当积分$\int_1^{+\infty} \mathbf{u}(t)\,dt$收敛。
 
 令$(u_n)$和$(v_n)$为两个级数且项为正数，并且$u$和$v$关联的步骤函数：关系$u_n \leq v_n$对于$n \geq n_0$相当于$u(x) \leq v(x)$对于$x \geq n_0$。因此，关系 $u_n \preccurlyeq v_n, u_n \ll v_n, u_n \sim v_n$分别相当于$u(x) \preccurlyeq v(x), u(x) \ll v(x)$和$u(x) \sim v(x)$；这个注允许我们翻译命题1（V，p. 228）和6（V，p. 230）如下：
 
@@ -59,15 +59,15 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 1. *如果级数* $(v_n)$ *收敛，则关系* $u_n \ll v_n$ *（分别* $u_n \sim v_n$）*意味着* $\sum_{p=n}^{\infty} u_p \ll \sum_{p=n}^{\infty} v_p$ *（分别* $\sum_{p=n}^{\infty} u_p \sim \sum_{p=n}^{\infty} v_p$）。
 2. *如果* $\sum_{n=1}^{\infty} v_n = +\infty$ *则关系* $u_n \ll v_n$ *（分别* $u_n \sim v_n$）*意味着* $\sum_{p=1}^{n} u_p \ll \sum_{p=1}^{n} v_p$ *（分别* $\sum_{p=1}^{n} u_p \sim \sum_{p=1}^{n} v_p$）。
 
-通过在prop中进行比较级数$(v_n)$，可以方便地收敛判据。 1 级数，其项为形式$v_n = f(n)$，其中$f$为函数$\geq 0$，为区间$[x_0, +\infty[$上的每个实数$x > x_0$和递减定义；的确：
+通过在prop中进行比较级数$(v_n)$，可以得到方便的收敛判据。 1 级数，其项为形式$v_n = f(n)$，其中$f$为函数$\geq 0$，为区间$[x_0, +\infty[$上的每个实数$x > x_0$和递减定义；的确：
 
 #### 命题 3（柯西-麦克劳林准则）{#fvr-v-s4-prop-3 .statement tag=08G1}
 
 *如果* $f$ *是函数* $\geq 0$ *且递减在* $[x_0, +\infty[$上，*则级数与一般项* $v_n = f(n)$ *收敛当且仅当积分* $\int_{x_0}^{+\infty} f(t)\,dt$ *收敛*。
 
-为了证明这一点，注是足够的，如果$v$是与级数$(v_n)$相关的步骤函数，那么对于每个$x \geq x_0$，$v(x+1) \leq f(x) \leq v(x)$是足够的，因为$f$是递减；因此，命题是比较原理的推论（II，p. 66，道具 3）。
+为了证明这一点，只要注意到如果$v$是与级数$(v_n)$相关的步骤函数，那么对于每个$x \geq x_0$，$v(x+1) \leq f(x) \leq v(x)$，因为$f$是递减；因此，命题是比较原理的推论（II，p. 66，道具 3）。
 
-由于函数具有积分（V、p. 229、属性 2、3 和 4）的对数收敛性判据的特征，因此在区间 $[x_0, +\infty[$、应用属性上为递减。 V、p. 237的1和3给出以下判据：
+由于函数具有积分（V、p. 229、命题 2、3 和 4）对数收敛判据的特征，因此在区间 $[x_0, +\infty[$、应用命题上有递减。 V、p. 237的1和3给出以下判据：
 
 #### 命题 4（“阶 0 的对数准则”）{#fvr-v-s4-prop-4 .statement tag=08G2}
 
@@ -79,17 +79,17 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 如果 $0 \leq q < 1$ 对于任何 $\mu > 0$ 都有 $q^n \preccurlyeq n^{-\mu}$； 应用阶 0 的对数判据再次证明了 $|q| < 1$ 的几何级数 $\sum_{n=0}^\infty q^n$ 的收敛性（Gen. Top.、IV、p. 364）。如果有人应用道具。 1 与 $v_n = q^n$ 得到一个准则，该准则可放入以下形式（“柯西准则”）中： *令 $(u_n)$ 为级数，项为正；如果$\limsup_{n \to \infty}(u_n)^{1/n} < 1$则级数$(u_n)$收敛；如果 $\limsup_{n \to \infty}(u_n)^{1/n} > 1$ 则级数 $(u_n)$ 有无限和。* 事实上，如果 $\limsup_{n \to \infty}(u_n)^{1/n} = a < 1$ 那么 $u_n \preccurlyeq q^n$ 对于每个 $q$ 使得 $a < q < 1$。另一方面，如果$\limsup_{n \to \infty}(u_n)^{1/n} = a > 1$则$u_n \succcurlyeq q^n > 1$对于$n$的无限多个值，对于任何$q$使得$1 < q < a$；因为 $u_n$ 不趋于 0，所以有 $\sum_{n=1}^\infty u_n = +\infty$。
 
-这个准则在*整个级数*理论中非常有用，我们稍后会研究；但即便如此，它也不允许人们决定级数$(1/n^\alpha)$的收敛性，在其他字中，它的域的应用比对数判据的限制要大得多。
+这个标准在*整个级数*的理论中非常有用，我们稍后会研究；但即便如此，它也不允许人们决定级数$(1/n^\alpha)$的收敛性，在其他字中，它的域的应用比对数判据的限制要大得多。
 
-### 2. 级数部分和的渐近展开
+### 2. 级数的部分和的渐近展开
 
-对于趋于 $+\infty$ 的 $x$ 实数，令 $\mathscr{E}$ 为由函数形成的比较量表，每个量表均定义在*整个区间* $[x_0, +\infty[$（取决于函数）上，并且在此区间上为 $\geq 0$。令 $(\mathbf{u}_n)$ 为级数，其项属于为完全范数空间 $\mathbf{E}$，使得 $\mathbf{u}_n$ 相对于规模 $\mathscr{E}'$ 承认渐近展开至精度 $g_\alpha$ $\mathscr{E}$中函数的限制到$\mathbf{N}$：
+对于倾向于$+\infty$的$x$实数，让$\mathscr{E}$是由函数形成的比较标度，每个比较标度都定义在*整体区间*$[x_0, +\infty[$（取决于函数）上，并且在这个区间上是$\geq 0$。令 $(\mathbf{u}_n)$ 为级数，其项属于为完全范数空间 $\mathbf{E}$，使得 $\mathbf{u}_n$ 相对于规模 $\mathscr{E}'$ 承认渐近展开至精度 $g_\alpha$ $\mathscr{E}$中函数的限制到$\mathbf{N}$：
 
 $$
 \mathbf{u}_n = \sum_{\lambda \leq \alpha} \mathbf{a}_\lambda g_\lambda(n) + \mathbf{r}_\alpha(n).
 $$
 
-假设每个部分和$\sum_{m=1}^n g(m)$，其中$g \in \mathscr{E}$，都承认相对于$\mathscr{E}'$渐近展开。然后可以得到$s_n = \sum_{m=1}^n \mathbf{u}_m$相对于$\mathscr{E}'$的渐近展开；我们再次区分两种情况：
+假设每个部分和$\sum_{m=1}^n g(m)$，其中$g \in \mathscr{E}$，都承认相对于$\mathscr{E}'$渐近展开。然后可以得到 $s_n = \sum_{m=1}^n \mathbf{u}_m$ 相对于 $\mathscr{E}'$ 的渐近展开；我们再次区分两种情况：
 
 1°$\sum_{n=1}^{\infty} g_{\alpha}(n) = +\infty$。那么 (V, p. 237, 命题 2) 有 $\sum_{m=1}^{n} r_{\alpha}(m) \ll \sum_{m=1}^{n} g_{\alpha}(m)$：
 通过假设可以得到渐近展开
@@ -117,7 +117,7 @@ $$
 
 #### 命题 6 {#fvr-v-s4-prop-6 .statement tag=08G4}
 
-*设 g 为实数函数，> 0 并且单调，定义在区间 [x_0, +\infty[ （其中 x_0 \leq 1 ）上，并且 log g 和 x 与阶 1 相当。*
+*设 g 为实数函数，> 0 并且单调，定义于区间 [x_0, +\infty[ （其中 x_0 \leq 1 ），并且 log g 和 x 与阶 1 相当。*
 
 1° *如果 g 相对于 e* 无限阶，则有
 
@@ -141,7 +141,7 @@ $$
 
 （当$\mu = 0$时，（3）和（4）中数$\frac{\mu}{1 - e^{-\mu}}$替换为1）。
 
-1° 如果 g 相对于 $e^x$ 为阶 $+\infty$，则有 $\log g \gg x$ 从而 $g'/g \gg 1$，或 $g' \gg g$，除以假设；因而，g 为递增，并且趋向于 $+\infty$，其中 $x$、从而 $\sum_{n=1}^\infty g(n) = +\infty$。如果$u$是与级数$(g(n))$（V，p. 237）相关联的步骤函数，则从$x$的某个值开始有$u(x) \leq g(x)$，因而$u \ll g$，因而
+1° 如果 g 相对于 $e^x$ 为阶 $+\infty$，则有 $\log g \gg x$ 从而 $g'/g \gg 1$，或 $g' \gg g$，除以假设；因而，g 为递增，并且趋向于 $+\infty$，其中 $x$、从而 $\sum_{n=1}^\infty g(n) = +\infty$。如果$u$是与级数$(g(n))$（V，p. 237）关联的步骤函数，则从$x$的某个值开始有$u(x) \leq g(x)$，因而$u \ll g$，因而
 
 $$
 s_{n-1} = \int_1^n u(t) \, dt \ll \int_1^n g(t) \, dt \ll \int_1^n g'(t) \, dt \sim g(n);
@@ -217,21 +217,21 @@ $$
 
 当 $g$ 相对于 $e^\lambda$ 为阶 $-\infty$ 时，可进行类似的处理（对于 $r_n$）。
 
-现在，如果$g$相对于$e^x$是有限的阶$\mu$，并且如果对于例，$\sum_{n=1}^\infty g(n) = +\infty$，可以写
+现在，如果 $g$ 相对于 $e^x$ 是有限的阶 $\mu$，并且例如，$\sum_{n=1}^\infty g(n) = +\infty$，则可以写
 $$
 s_n = \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt + \sum_{m=1}^n f_1(m)
 $$
-其中 $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ 由道具决定。 6 个V、p. 239。如果一个人的本金部分$c g_1(n)$相对于$f_1(n)$相对于$\mathscr{E}'$，并且如果一个人可以再次应用道具。 6 到函数 $g_1$，如果$\sum_{n=1}^\infty g_1(n) = +\infty$，将获得相当于$\sum_{m=1}^n f_1(m)$的原语，在相反情况下相当于$\sum_{m=n+1}^\infty f_1(m)$（在后一种情况下，写为$\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$，带有$C = \sum_{n=1}^\infty f_1(n)$）。
+其中 $f_1(n) = g(n) - \frac{\mu}{1 - e^{-\mu}} \int_1^n g(t)\, dt \ll g(n)$ 由道具决定。 6 个V、p. 239。如果一个人的本金部分$c g_1(n)$相对于$f_1(n)$相对于$\mathscr{E}'$，并且如果一个人可以再次应用道具。 6 to 函数 $g_1$ one will obtain a primitive equivalent to $\sum_{m=1}^n f_1(m)$ if $\sum_{n=1}^\infty g_1(n) = +\infty$, and equivalent to $\sum_{m=n+1}^\infty f_1(m)$ in the opposite case (in the latter case one writes $\sum_{m=1}^n f_1(m) = C - \sum_{m=n+1}^\infty f_1(m)$, with $C = \sum_{n=1}^\infty f_1(n)$).
 
-因此，一步一步地，最终可以得到$s_n$的表达式，即某个数原语的和，每个原语相对于前一个都可以忽略不计，项相对于最后写入的原语仍然可以忽略不计，最后是一个常数（余数项趋于0的情况）。然后剩下的就是扩展关于$\mathscr{E}'$（cf.V，p. 235）获得的每个基元。
+Step by step one can thus eventually obtain an expression for $s_n$ as 和 of a certain 数 of primitives each of which is negligible with respect to the previous, of 项 remaining negligible relative to the last primitive written, and finally a constant (the case where the remainder 项 tends to 0).然后剩下的就是扩展关于$\mathscr{E}'$（cf.V，p. 235）获得的每个基元。
 
 #### 例 {#fvr-v-s4-n2-exa-2 .statement tag=08G6}
 
-设 $g(n) = \frac{1}{n}$；那么
+设 $g(n) = \frac{1}{n}$；然后
 $$
 s_n = \sum_{m=1}^n \frac{1}{m} \sim \int_1^n \frac{dt}{t} = \log n
 $$
-那么
+然后
 $$
 \frac{1}{n} - (\log n - \log(n-1)) \sim -\frac{1}{2n^2}
 $$
@@ -245,27 +245,27 @@ $$
 $$
 到$1/10^9$以内。
 
-我们将在VI、p. 288中看到，在最重要的情况下，*欧拉-麦克劳林求和公式*如何针对$s_n$（或$r_n$）给出*任意*阶的渐近展开。
+We shall see in VI, p. 288, how the *Euler-Maclaurin summation 公式* gives an asymptotic 展开 of *arbitrary* 阶 for $s_n$ (or for $r_n$) in the most important cases.
 
-### 3. 无穷乘积部分积的渐近展开
+### 3. 无限乘积部分积的渐近展开
 
-人们知道（Gen. Top.，V。p. 22和23），对于无限乘积与一般因子$1 + u_n$（$u_n > -1$）收敛（或可交换收敛），级数与一般级数是必要且充分的项 $\log(1 + u_n)$ 应该收敛（或交换收敛），那么就有关系
+One knows (Gen. Top., V. p. 22 and 23) that for the infinite 乘积 with general 因子 $1 + u_n$ ($u_n > -1$) to be convergent (resp. commutatively convergent) it is necessary and sufficient that 级数 with general 项 $\log(1 + u_n)$ 应该收敛（或交换收敛），那么就有关系
 
 $$
 \log \prod_{n=1}^{\infty} (1 + u_n) = \sum_{n=1}^{\infty} \log(1 + u_n).
 $$
 
-当无限乘积收敛时，我们知道$u_n$趋于0；因此$\log(1 + u_n) \sim u_n$；现在我们知道，要使实数的级数交换收敛，它绝对收敛是必要且充分的（Gen. Top., IV, p. 372, 命题 5）；通过道具。 1 因此恢复了这样一个事实：乘积与一般因子$1 + u_n$是可交换收敛的当且仅当级数与一般项$u_n$绝对收敛（Gen.Top.，IV，p. 368，th.1）。 4).
+当无穷大乘积收敛时，我们知道$u_n$趋于0；因此$\log(1 + u_n) \sim u_n$； now one knows that for 级数 of 实数 to be commutatively convergent it is necessary and sufficient that it should be absolutely convergent (Gen. Top., IV, p. 372, prop. 5);通过道具。 1 one thus recovers the fact that 乘积 with general 因子 $1 + u_n$ is commutatively convergent if and only if 级数 with general 项 $u_n$ is absolutely convergent (Gen. Top., IV, p. 368, th. 4).
 
-类似的论证适用于无限乘积，其一般因子为复数 $1 + u_n$ ($u_n \neq -1$)。事实上，对于这样的乘积是可交换收敛的，它是必要且充分的（Gen. Top.，VIII，p. 115，道具 2），具有一般因子 $|1 + u_n|$ 的无限乘积应该如此，并且进一步，如果 $\theta_n$ 是$1 + u_n$（在$-\pi$和$+\pi$之间取），$\theta_n$的级数应该是可交换收敛的。由于$u_n$趋于0，$\log(1 + u_n)$是从$n$（III，p. 100）的某个特定值开始定义的，并且有
+类似的论证适用于无限乘积，其一般因子为复数 $1 + u_n$ ($u_n \neq -1$)。 Indeed, for such 乘积 to be commutatively convergent it is necessary and sufficient (Gen. Top., VIII, p. 115, prop. 2) that the infinite 乘积 with general 因子 $|1 + u_n|$ should be so, and further, if $\theta_n$ is the amplitude of $1 + u_n$ (taken between $-\pi$ and $+\pi$), that 级数 of the $\theta_n$ should be commutatively convergent.由于$u_n$趋于0，$\log(1 + u_n)$是从$n$（III，p. 100）的某个特定值开始定义的，并且有
 
 $$
 \log(1 + u_n) = \log |1 + u_n| + i \theta_n;
 $$
 
-因此，要使乘积与一般因子 $1 + u_n$ 交换收敛，级数与一般项 $|\log(1 + u_n)|$ 绝对收敛是必要且充分的（Gen Top., VII, p. 84, th. 1）；现在$\log(1 + u_n) \sim u_n$（I，p. 18，道具5），因此再次获得条件，级数与一般项$u_n$应该绝对收敛（Gen.Top.，VIII，p. 116，th.） 1）。
+thus, for 乘积 with general 因子 $1 + u_n$ to be commutatively convergent it is necessary and sufficient that 级数 with general 项 $|\log(1 + u_n)|$ be absolutely convergent (Gen Top., VII, p. 84, th. 1); now $\log(1 + u_n) \sim u_n$ (I, p. 18, prop. 5), so one again obtains 条件 that 级数 with general 项 $u_n$ should be absolutely convergent (Gen. Top., VIII, p. 116, th. 1).
 
-实数有时的无限乘积和级数之间的关系允许获得部分乘积$p_n = \prod_{k=1}^{n} (1 + u_k)$的渐近展开；对于部分和 $s_n = \sum_{k=1}^{n} \log(1 + u_k)$ 有一个渐近展开就足够了，然后展开 $p_n = \exp(s_n)$；因此，一个被带回到之前检查的两个问题（V，p. 238和p. 226）。
+关系 between infinite 乘积 and 级数 of 实数有时 allows one to obtain an asymptotic 展开 for the partial 乘积 $p_n = \prod_{k=1}^{n} (1 + u_k)$; it suffices to have an asymptotic 展开 for the partial 和 $s_n = \sum_{k=1}^{n} \log(1 + u_k)$, then to expand $p_n = \exp(s_n)$; one is thus brought back to the two 问题 examined earlier (V, p. 238 and p. 226).
 
 #### 例 {#fvr-v-s4-n3-exa-1 .statement tag=08G7}
 
@@ -362,9 +362,9 @@ $$
 
 #### 注 2 {#fvr-v-s4-n4-rem-2 .statement tag=08GC}
 
-第二类判据只能应用于级数，其一般项表现得非常规律，因为$n$趋于$+\infty$；在其他字中，它们的范围比对数判据的范围受到更多限制，并且尝试在它们特别适合的特殊情况之外使用它们将是一个错误。对于例，对于$u_{2m} = 2^{-m}$，$u_{2m+1} = 3^{-m}$定义的级数$(u_n)$，有$u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$，$u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$；随着 $m$ 无限增加，第一个比率趋向于 0，第二个比率趋向于 $+\infty$，因此第二类标准不适用；然而，从$u_n \preccurlyeq 2^{-n/2}$开始，级数收敛于直接的。
+第二类判据只能应用于级数，其一般项表现得非常规律，因为$n$趋于$+\infty$；在其他字中，它们的范围比对数判据的范围受到更多限制，并且尝试在它们特别适合的特殊情况之外使用它们将是一个错误。例如，对于由$u_{2m} = 2^{-m}$、$u_{2m+1} = 3^{-m}$定义的级数、$(u_n)$，有$u_{2m+1}/u_{2m} = \left(\frac{2}{3}\right)^m$、$u_{2m+2}/u_{2m+1} = \frac{1}{2} \left(\frac{3}{2}\right)^m$；随着 $m$ 无限增加，第一个比率趋向于 0，第二个比率趋向于 $+\infty$，因此第二类标准不适用；然而，从$u_n \preccurlyeq 2^{-n/2}$开始，级数收敛于直接的。
 
-即使$u_{n+1}/u_n$有一个简单的表达式，右$u_n$的主体部分直接求值通常会像第二种判据一样快速地得出结果。对于例，对于超几何级数，斯特林的公式立即显示$u_n \sim a n^{\alpha + \beta - \gamma - 1}$，其中$a$是常数$\neq 0$，然后适用阶0的对数准则。
+即使$u_{n+1}/u_n$有一个简单的表达式，右$u_n$的主体部分直接求值通常会像第二种判据一样快速地得出结果。例如，对于超几何级数，斯特林的公式立即显示$u_n \sim a n^{\alpha + \beta - \gamma - 1}$，其中$a$是常数$\neq 0$，然后适用对数准则阶0。
 
 ### 习题 {#fvr-v-s4-exercises}
 

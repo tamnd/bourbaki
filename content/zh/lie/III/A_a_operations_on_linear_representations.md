@@ -13,16 +13,16 @@ pdf_pages: 0386-0387
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 31572f1c2326a6636da7375238da4919e39e9aa3e042935ad190b1bd777c2d8d
+content_sha256: bec77c08a1cf9141cf5dc4b192be57819d467012efc457a272dff39fe5ced17a
 translated_from: content/en/lie/III/A_a_operations_on_linear_representations.md
 translation_method: google
 source_content_sha256: f6541d0529455ab9bd95b3dca1a7a741c160bb7b7c0752780f7f4653bc77b3be
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: d0923970c599e09241032a38429f4703f2690569b4f21b19ddd4a41ea5d25eca
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
@@ -43,6 +43,6 @@ $$
 T^n(\pi) = \pi \otimes \pi \otimes \cdots \otimes \pi
 $$
 
-（n因子）。 表示 S(π), ∧(π) 是 T(π) 的表示商，因此 S^n(π), ∧^n(π) 是 T^n(π) 的表示商。
+（n因子）。 表示 S(π), ∧(π) 是 T(π) 的商表示，因此 S^n(π), ∧^n(π) 是 T^n(π) 的商表示。
 
-令 g 大于 k 李代数。 g 的表示的有限数的张量积已在章 I, § 3, no. 2 中定义；它由 π_1 ⊗ ... ⊗ π_n 表示。令 E 为 k 上的向量空间以及 E 上 g 的 π 表示。对于所有 x ∈ g，令 τ'(x)（分别为 σ'(x)、ε'(x)）为代数 T(E)（分别为 S(E)、∧(E)）的唯一推导，其中扩展 π(x) (代数, 章 III, § 10, no. 9, 例 1)。那么 τ'（分别为 σ'、ε'）是 T(E)（分别为 S(E)、∧(E)）上 g 的线性表示 by 代数，loc。前述，公式 (35)，用 $T(\pi)$ 表示（分别为 $S(\pi)$、$\Lambda(\pi)$）。由$T^n(E)$（分别为$S^n(E)$、$\Lambda^n(E)$）定义的$T(\pi)$（分别为$S(\pi)$、$\Lambda(\pi)$）的子表示由$T^n(\pi)$（分别为$S^n(\pi)$、$\Lambda^n(\pi)$）表示。 表示 $T^n(\pi)$ 是$n$ 表示上的张量积与$\pi$ 相同。 表示 $S(\pi)$、$\Lambda(\pi)$ 是表示与$T(\pi)$ 的商，因此$S^n(\pi)$、$\Lambda^n(\pi)$ 是表示与$T^n(\pi)$ 的商。
+令 g 大于 k 李代数。 g 的表示的有限数的张量积已在章I, § 3, no. 2中定义；它由 π_1 ⊗ ... ⊗ π_n 表示。令 E 为 k 上的向量空间以及 E 上 g 的 π 表示。对于所有 x ∈ g，令 τ'(x)（分别为 σ'(x)、ε'(x)）为代数 T(E)（分别为 S(E)、∧(E)）的唯一推导，其中扩展 π(x) (代数, 章 III, § 10, no. 9, 例 1)。那么 τ'（分别为 σ'、ε'）是 T(E)（分别为 S(E)、∧(E)）上 g 的线性表示 by 代数，loc。前述，公式 (35)，用 $T(\pi)$ 表示（分别为 $S(\pi)$、$\Lambda(\pi)$）。由$T^n(E)$（分别为$S^n(E)$、$\Lambda^n(E)$）定义的$T(\pi)$（分别为$S(\pi)$、$\Lambda(\pi)$）的子表示表示为$T^n(\pi)$（分别为$S^n(\pi)$、$\Lambda^n(\pi)$）。 表示 $T^n(\pi)$ 是$n$ 表示上的张量积与$\pi$ 相同。 表示$S(\pi)$、$\Lambda(\pi)$是$T(\pi)$的商表示，因此$S^n(\pi)$、$\Lambda^n(\pi)$是$T^n(\pi)$的商表示。

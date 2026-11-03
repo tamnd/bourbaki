@@ -18,10 +18,10 @@ translation_method: google
 source_content_sha256: d8333c7f7e13b3b348f6bb0abdbe1a4c101cb7042e220cb214ccd8eb756aac76
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 81743d12f84b973a34232f64e290e41a39a40214bec2538af7266be2f6c8fd11
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 章 IX

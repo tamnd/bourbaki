@@ -25,21 +25,21 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: 49608219477f5e88f9c70c2a8b9f75ed428836230e12bd300097ab3e08c6de9c
+content_sha256: 948989e2b6dc3c41676e80eb0267d219980099b005f77f9d6708201ba631673a
 translated_from: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
 translation_method: google
 source_content_sha256: 1c81174cbd47bb500a623e0c569e0a38286f1c72eeae4b3d0069a0e65ec296a4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 51e773a2ab55a2544d9c991463669d91046868da392fc88f45c0d689b251ad91
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 2。复杂域中的 GAMMA 函数
+## § 2。复数域中的 gamma 函数
 
-### 1. 将 GAMMA 函数扩展到 C
+### 1. 将 gamma 函数扩展到 C
 
 让我们回到 Weierstrass 的公式，它给出了表达式
 
@@ -53,41 +53,41 @@ $$
 \left(1 + \frac{z}{n}\right) e^{-z/n} = 1 + v_n(z)
 $$
 
-与 $|v_n(z)| \leq \frac{|z|^2}{n^2} \left(1 + \frac{e^{|z|}}{2}(1 + |z|)\right)$；因此，所考虑的无限乘积绝对一致地收敛于$\mathbf{C}$的每个紧致子集；此外，它的值仅在点$z = -n$处是零（\emph{Gen.Top.}，IX，p. 214，推论）。鉴于 VII、p. 315 的公式 (1)，对于每一个复数 $z$ 都有一个放
+与 $|v_n(z)| \leq \frac{|z|^2}{n^2} \left(1 + \frac{e^{|z|}}{2}(1 + |z|)\right)$；因此，所考虑的无限乘积绝对一致地收敛于$\mathbf{C}$的每个紧致子集；此外，其值仅在点$z = -n$处为零（\emph{Gen.Top.}、IX、p. 214、推论）。鉴于 VII、p. 315 的公式 (1)，对于每一个复数 $z$ 都有一个放
 
 $$
 \frac{1}{\Gamma(z)} = z\, e^{\gamma z} \prod_{n=1}^{\infty} \left(1 + \frac{z}{n}\right) e^{-z/n}.
 $$
 
-因此，除了点 $-n$ ($n \in \mathbf{N}$) 之外，函数 $\Gamma(z)$ 也被定义为每个点 $z \in \mathbf{C}$；在这个集合上是连续的，$(z + n)\Gamma(z) \sim \frac{(-1)^n}{n!}$在$-n$的邻域上是连续的。 公式 (2) 表明对于每个 $z$ 都有 $\Gamma(\overline{z}) = \overline{\Gamma(z)}$ 与负的整数不同。
+因此，除了点 $-n$ ($n \in \mathbf{N}$) 之外，函数 $\Gamma(z)$ 也被定义为每个点 $z \in \mathbf{C}$；在这个集合上连续，在$-n$的邻域上连续$(z + n)\Gamma(z) \sim \frac{(-1)^n}{n!}$。 公式 (2) 表明对于每一个 $z$ 都有 $\Gamma(\overline{z}) = \overline{\Gamma(z)}$ 与负的整数不同。
 
-允许从高斯的公式（VII，p. 307，公式（8））传递到魏尔斯特拉斯的公式的论证，在反转步骤时，也适用于复数$z$，并且表明，对于$z \neq -n$（$n \in \mathbf{N}$），我们有
+允许从高斯的公式（VII，p. 307，公式（8））传递到魏尔斯特拉斯的公式的论点，在反转步骤时，也适用于复数$z$，并表明，对于$z \neq -n$ ($n \in \mathbf{N}$)，其中一个有
 
 $$
 \Gamma(z) = \lim_{n \to \infty} \frac{n^z n!}{z(z+1)\ldots(z+n)}
 $$
 
-同意放置$n^z = e^{z \log n}$。自从
+同意投入$n^z = e^{z \log n}$。自从
 
 $$
 \frac{n^{z+1} n!}{(z+1)(z+2)\ldots(z+n+1)} = z \frac{n}{n+1+z} \frac{n^z n!}{z(z+1)\ldots(z+n)}
 $$
 
-又在经过到极限上有基本函数方程
+在经过到极限上，我们又得到了基本函数方程
 
 $$
 \Gamma(z+1) = z\, \Gamma(z)
 $$
 
-对于每个 $z \neq -n$ ($n \in \mathbf{N}$)。
+每 $z \neq -n$ ($n \in \mathbf{N}$)。
 
-设$p$为任意整数$> 0$，$K_p$为开盘$|z| < p$；对于每个 $z \in K_p$ 和每个整数 $n > p$，$1 + \frac{z}{n}$ 都不是负的实数，因此定义了 $\log \left( 1 + \frac{z}{n} \right)$，并且从上面得出，级数与一般项 $\log \left( 1 + \frac{z}{n} \right) - \frac{z}{n}$ ($n > p$) *通常收敛*于$K_p$；这同样适用于通过将一般的项微分到有限的数次而获得的级数，因为有
+设$p$为任意整数$> 0$，$K_p$为开盘$|z| < p$；对于每个$z \in K_p$，以及每个整数$n > p$，$1 + \frac{z}{n}$都不是负的实数，因此定义了$\log \left( 1 + \frac{z}{n} \right)$，由上可知级数与一般的项$\log \left( 1 + \frac{z}{n} \right) - \frac{z}{n}$ ($n > p$) *通常收敛*于 $K_p$；这同样适用于通过将一般的项微分到有限的数次而获得的级数，因为有
 
 $$
 \left| \frac{1}{n} - \frac{1}{z+n} \right| \leq \frac{p}{n(n-p)} \quad \text{and} \quad \left| \frac{1}{(z+n)^k} \right| \leq \frac{1}{(n-p)^k} \qquad (k > 1)
 $$
 
-对于 $z \in K_p$ 和 $n > p$。然后我们会看到 (*cf.* II, p. 59, *注 3*) $\Gamma(z)$ 除了点 $-n$ 之外，点 $z \in \mathbf{C}$ 都是“无限可微”，并且在这些点处，我们有
+对于 $z \in K_p$ 和 $n > p$。然后我们会看到 (*cf.* II, p. 59, *注 3*) $\Gamma(z)$ 除了点 $-n$ 之外，在点 $z \in \mathbf{C}$ 上都是*无限可微的，并且在这些点一个有
 
 $$
 \frac{\Gamma'(z)}{\Gamma(z)} = -\gamma - \frac{1}{z} + \sum_{n=1}^{\infty} \left( \frac{1}{n} - \frac{1}{z+n} \right)
@@ -99,24 +99,24 @@ D^{k-1} \left( \frac{\Gamma'(z)}{\Gamma(z)} \right) = \sum_{n=0}^{\infty} \frac{
 $$
 (6)
 
-(5) 和 (6) 的右侧在 $\mathbf{C}$ 的每个紧致子集上“通常收敛”，但包含不存在任何整数 $\leq 0$。此外，还可以写出
+(5) 和 (6) 的右侧在 $\mathbf{C}$ 的每个紧致子集（不包含任何整数 $\leq 0$）上“通常收敛”。此外，还可以写出
 
 $$
 \log \Gamma(z) \equiv -\gamma z - \log z + \sum_{n=1}^{\infty} \left( \frac{z}{n} - \log \left( 1 + \frac{z}{n} \right) \right) \qquad (\text{mod. } 2\pi i)
 $$
 (7)
 
-同意当公式中的对数是实负数的对数时，它在点处具有$\log z$的一个或另一个极限值（相差$2\pi i$）； (7) 右边的级数通常收敛于$\mathbf{C}$的每个紧致子集，而不是包含任何整数$\leq 0$。
+同意当这个公式中的对数是实数负数时，它在这个点处具有$\log z$的一个或另一个极限值（相差$2\pi i$）； (7) 右侧的级数通常收敛于$\mathbf{C}$的每个紧致子集，而不是包含任何整数$\leq 0$。
 
-### 2. 补数关系和勒让德高斯乘法公式
+### 2. 补数’ 关系和勒让德高斯乘法公式
 
-直接从VII、p. 315的公式 (2) 推导出来，对于每个$z \in \mathbf{C}$，
+直接从VII、p. 315的公式 (2) 推导出来，对于每一个$z \in \mathbf{C}$，
 
 $$
 \frac{1}{\Gamma(z)\Gamma(-z)} = -z^2 \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right).
 $$
 
-现在$\sin z$ (VI, p. 287, th. 2) 的欧拉展开表明
+现在$\sin z$（VI，p. 287，第2）的欧拉展开表明
 
 $$
 z \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right) = \frac{1}{\pi} \sin \pi z;
@@ -134,7 +134,7 @@ $$
 
 （补数'关系）。
 
-#### 推出{#fvr-vii-s2-n2-cor-1 .statement tag=08JC}
+#### 推出 {#fvr-vii-s2-n2-cor-1 .statement tag=08JC}
 
 对于每一个真实的 $t$ 都有
 
@@ -164,7 +164,7 @@ $$
 f(z) = \Gamma\left(\frac{z+1}{p}\right) \Gamma\left(\frac{z+2}{p}\right) \ldots \Gamma\left(\frac{z+p}{p}\right).
 $$
 
-根据 (3) (VII, p. 315)，对于每个 $z \neq -n \ (n \in \mathbf{N})$，$f(z)$ 是乘积中的极限
+根据 (3) (VII, p. 315)，对于每个 $z \neq -n \ (n \in \mathbf{N})$，$f(z)$ 是乘积的极限
 
 $$
 \frac{n^{(z+1)/p} n!}{\left(\frac{z+1}{p}\right) \left(\frac{z+1}{p} + 1\right) \ldots \left(\frac{z+1}{p} + n\right)}
@@ -205,7 +205,7 @@ $$
 $$
 f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
-由于右侧的乘积等于$p/2^{p-1}$（VI，p. 284，cor.1），我们最终看到：
+由于右侧的乘积等于 $p/2^{p-1}$ (VI, p. 284, cor. 1) 我们最终看到：
 
 #### 命题 2 {#fvr-vii-s2-prop-2 .statement tag=08JD}
 
@@ -246,7 +246,7 @@ $$
 \int_0^1 \log \Gamma(x) dx = \frac{1}{2} \log 2\pi.
 $$ (14)
 
-接下来我们注从恒等式来看
+接下来我们从身份上来说
 
 $$
 \log \Gamma(x+1) = \log \Gamma(x) + \log x
@@ -264,7 +264,7 @@ $$
 \int_1^{x+1} \log \Gamma(t) dt = \int_0^x \log t dt + \frac{1}{2} \log 2\pi = x (\log x - 1) + \frac{1}{2} \log 2\pi.
 $$
 
-### 3. 斯特林展开
+### 3. 斯特灵展开
 
 令$x$和$y$为不位于实负半轴上的两个复数；由VII、p. 315的公式(3)，按照VII、p. 316的对数约定，$\log \Gamma(x) - \log \Gamma(y)$与表达式的$2\pi i$模极限全等
 
@@ -313,7 +313,7 @@ g(x) = x \log x - x - \frac{1}{2} \log x + \sum_{k=1}^p \frac{b_{2k}}{2k(2k-1)} 
 $$
 (17)
 
-我们现在将在（16）的帮助下评估$R_p(x,\ y)$的界限，假设$x$和$y$都在由关系“$\mathscr{R}(z) \geq A$或$|\mathscr{I}(z)| \geq A$”定义的$\mathbf{C}$的子集$\mathbf{H}_A$中，其中$A$ 是任意数 $> 0$（图 2）。为此，我们注，如果$x = s + it$和$s > A$，每个$u > 0$都有$|x+u| \geq A+u$，因而
+我们现在将在（16）的帮助下评估$R_p(x,\ y)$的界限，假设$x$和$y$都在由关系“$\mathscr{R}(z) \geq A$或$|\mathscr{I}(z)| \geq A$”定义的$\mathbf{C}$的子集$\mathbf{H}_A$中，其中$A$ 是任意数 $> 0$（图 2）。为此，我们注意到，如果 $x = s + it$ 与 $s > A$ 的每一个 $u > 0$ 都有 $|x+u| \geq A+u$，因而
 $$
 \int_0^{n+1} \frac{du}{|x+u|^{2p+1}} \leq \int_0^\infty \frac{du}{(A+u)^{2p+1}} = \frac{1}{2pA^{2p}}.
 $$
@@ -362,7 +362,7 @@ $$
 
 *（斯特林的展开）*。
 
-#### 推出{#fvr-vii-s2-n3-cor-1 .statement tag=08JG}
+#### 推出 {#fvr-vii-s2-n3-cor-1 .statement tag=08JG}
 
 *沿着过滤器$\mathfrak{F}$有一个*
 
@@ -384,7 +384,7 @@ $$
 
 （*cf.* V、p. 244）。
 
-由此可以推导出无数公式。对于例，对于每一个复数$\alpha$和每一个整数$n$，因为$n$趋向于$+\infty$，
+由此可以推导出无数公式。例如，对于每个复数$\alpha$和每个整数$n$，因为$n$趋于$+\infty$，
 
 $$
 \frac{\Gamma(n+\alpha)}{\Gamma(n)} \sim n^{\alpha} \quad (= e^{\alpha \log n}).

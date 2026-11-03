@@ -25,19 +25,19 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 138e95c8c081c7aa347704a0ed885a2e7169b29442024bfb9ebbf1077f6672c5
+content_sha256: e5da6a19aaef5e65a915548784209d824f5136bc5f3d18d81d4c757a11585728
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 translation_method: google
 source_content_sha256: 34250eb8b3431aeea58b08571a7b95394319981a39c9d593e7466689b9edb3b6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 92f12a47d4428512addec4e7a91bea6111e4b9b5c95623ee120e9e22d095c1ce
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 7。极端点和极端生成元
+## § 7。极值点和极值生成元
 
 ### 1. 紧凸集合的极值点
 
@@ -45,7 +45,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 令 $A$ 为仿射空间 $E$ 中的凸集合。如果不存在包含在$A$和包含$x$中的开段，则我们说点$x \in A$是$A$的极值点。
 
-在其他字，关系$x = \lambda y + (1 - \lambda)z,\ y \in A,\ z \in A,\ y \neq z$和$0 \leq \lambda \leq 1$意味着$\lambda = 0$或$\lambda = 1$（因此$x = y$或$x = z$）。 This implies that $x$ cannot be the barycentre of a set of $n$ points $x_i$ of $A$ carrying positive masses unless $x$ is one of the $x_i$; for this is just the definition when $n = 2$; for arbitrary $n$ argue by induction on $n$, as $x$ is the barycentre of $x_1$ and of the barycentre $y_1$ of the $x_i$ with $2 \leq i \leq n$, therefore $x$ is identical with $x_1$ or $y_1$, and in the second case it is sufficient to apply the induction hypothesis.
+在其他字，关系$x = \lambda y + (1 - \lambda)z,\ y \in A,\ z \in A,\ y \neq z$和$0 \leq \lambda \leq 1$意味着$\lambda = 0$或$\lambda = 1$（因此$x = y$或$x = z$）。 This implies that $x$ cannot be the barycentre of a set of $n$ points $x_i$ of $A$ carrying positive masses unless $x$ is one of the $x_i$;因为这只是 $n = 2$ 时的定义； for arbitrary $n$ argue by induction on $n$, as $x$ is the barycentre of $x_1$ and of the barycentre $y_1$ of the $x_i$ with $2 \leq i \leq n$, therefore $x$ is identical with $x_1$ or $y_1$，在第二种情况下应用归纳假设就足够了。
 
 说$x$是$A$的极值点也意味着$A - \{x\}$是凸的。
 
@@ -110,21 +110,21 @@ $$
 
 #### 命题 2 {#evt-ii-s7-prop-2 .statement tag=07IW}
 
-*令 x 为 Hausdorff* 局部凸空间 E 中紧凸凸集合 A 的极值点。那么对于 E 中 x 的每个开邻域 V，在 E 中存在一个开半空间 F，使得 $x \in F \cap A \subset V \cap A$（在其他情况下） 字，开半空间包含 x，形式 A 中 x 的邻域的基本系统）的迹。
+*令 x 为 Hausdorff* 局部凸空间 E 中紧凸凸集合 A 的极值点。然后，对于 E 中 x 的每个开邻域 V，在 E 中存在一个开半空间 F，使得 $x \in F \cap A \subset V \cap A$（在其他情况下） 字，开半空间包含 x，形式 A 中 x 的邻域的基数系统）。
 
-对于 E 包含于 x 的每个开半空间 D，集合 $A \cap \overline{D}$ 是 A 中 x 的紧邻域，并且所有这些邻域中的交恰好是点 x（任意两个不同的点可以被闭闭严格分开） 超平面（II，p. 38，命题 4）。根据 GT 的命题 1，I, § 9.2，足以证明集合 $A \cap \overline{D}$ 形式是一个过滤器基。现在如果我们写 $L_D = A \cap (E - D)$， 集合$L_D$是凸的，紧的并且包含在凸集合$A - \{x\}$中；如果$D_1, D_2$是E包含x的两个开半空间，$L_{D_1} \cup L_{D_2}$的凸包络B因此包含在$A - \{x\}$中，但B是； 紧集 (II, p. 14, 命题15)，因此存在一个闭超平面 H，将x与B严格分开(II, p. 38, 命题4)，如果由H和包含 x确定的开半空间是D，那么我们有$L_{D_1} \cup L_{D_2} \subset L_D$，因此$A \cap \overline{D} \subset (A \cap \overline{D_1}) \cap (A \cap \overline{D_2})$。
+对于 E 包含于 x 的每个开半空间 D，集合 $A \cap \overline{D}$ 是 A 中 x 的紧邻域，并且所有这些邻域中的交恰好是点 x（任何两个不同的点都可以用闭超平面（II，p. 38，命题 4）。根据 GT 的命题 1，I, § 9.2，足以证明集合 $A \cap \overline{D}$ 形式是一个过滤器基。现在，如果我们写 $L_D = A \cap (E - D)$， 集合$L_D$是凸的，紧的并且包含在凸集合$A - \{x\}$中；如果$D_1, D_2$是E包含x的两个开半空间，则$L_{D_1} \cup L_{D_2}$的凸包络B因此包含在$A - \{x\}$中，但B是； 紧集 (II, p. 14, 命题15)，因此存在一个闭超平面 H，将x与B严格分开(II, p. 38, 命题4)，如果由H和包含 x确定的开半空间是D，那么我们有$L_{D_1} \cup L_{D_2} \subset L_D$，因此$A \cap \overline{D} \subset (A \cap \overline{D_1}) \cap (A \cap \overline{D_2})$。
 
-#### 推论{#evt-ii-s7-n1-cor-2 .statement tag=07IX}
+#### 推论 {#evt-ii-s7-n1-cor-2 .statement tag=07IX}
 
 — 在 Hausdorff 局部凸空间中，令 K 为紧凸凸集合 A 的紧子集。则以下条件是等价的。
 
 a) A 是 K 的封闭凸包络线。
 
-b) K 满足 A 的每个集合即交及其支持之一超平面。
+b) K 满足 A 的每个集合即交及其支持度超平面之一。
 
 c) A 的极值点的 K 包含集合。
 
-a) $\Rightarrow$ b).假设 A 存在一个支持超平面 H，其方程为 $f(x) = \alpha$，使得 $(H \cap A) \cap K = \varnothing$ 并假设，对于例，A 中存在 $f(x) \geq \alpha$。对于假设的所有 $x \in K$，$f(x) - \alpha > 0$ 并且 K 是紧致的，我们有
+a) $\Rightarrow$ b).假设存在 A 的支持超平面 H，其方程为 $f(x) = \alpha$，使得 $(H \cap A) \cap K = \varnothing$ 并假设 A 中存在 $f(x) \geq \alpha$。对于所有 $x \in K$ 和假设，$f(x) - \alpha > 0$ 且 K 是紧致的，我们有
 
 $$
 \beta = \inf_{x \in K} f(x) > \alpha ,
@@ -132,7 +132,7 @@ $$
 
 因此，K 包含在闭半空间 $f(x) \geq \beta$ 中；因此，K 的封闭凸包络 A 也是如此，这是荒谬的。
 
-b) $\Rightarrow$ c)。假设 A 的极值点 x 不属于到 K； E 中 x 存在邻域 V，使得 $V \cap A \cap K = \varnothing$。但通过道具。 2，我们可以假设V是由超平面H用方程$f(z) = \alpha$定义的开半空间。如果对于例$f(x) > \alpha$，那么对于所有$y \in K$，我们有$f(y) \leq \alpha$，因此K不满足A的交和平行于H的支持超平面$f(z) = \gamma > \alpha$（II，p. 37，道具2）；这是荒谬的。
+b) $\Rightarrow$ c)。假设 A 的极值点 x 不属于到 K； E 中 x 存在邻域 V，使得 $V \cap A \cap K = \varnothing$。但通过道具。 2，我们可以假设V是由超平面H用方程$f(z) = \alpha$定义的开半空间。例如，如果$f(x) > \alpha$，那么对于所有$y \in K$，我们有$f(y) \leq \alpha$，因此K不满足A的交和平行于H的支持超平面$f(z) = \gamma > \alpha$（II，p. 37，道具2）；这是荒谬的。
 
 c) $\Rightarrow$ a)。这是 Krein-Milman 定理的明显推论。
 
@@ -221,7 +221,7 @@ $$
 
 令 C 为 E 中顶点为 0 的真凸锥，Hausdorff 弱空间；假设C对于由E的一致结构而言是完备的，并且在C中存在0的邻域的可枚举基本系统。那么C就是它的上限的并，并且是它的极值生成元的并的封闭凸包络线。
 
-第二个叙述源自第一个和 cor。 2 上面。使用道具。 II、p. 52、约化、命题中的11个对应于$E = \mathbf{R}^l$和$C \subset \mathbf{R}_+^l$的情况。对于所有$\alpha \in I$，用$f_\alpha$表示E中的投影$pr_\alpha$；那么$f_\alpha$是连续的线性形式。另一方面，令 $(V_n)_{n \in \mathbf{N}}$ 为 C 中 0 的邻域的可枚举基本系统。通过E的拓扑的定义，对于每个$n \in \mathbf{N}$，存在I和数$\varepsilon_n > 0$的有限子集$J_n$，使得$V_n$包含集合 $x \in C$的$W_n$使得$f_\alpha(x) \leq \varepsilon_n$对于所有$\alpha \in J_n$；把$J = \bigcup_{n \in \mathbf{N}} J_n$。令$y \neq 0$为C的点，p为函数$\sum_{\alpha \in J} \lambda_\alpha (f_\alpha|C)$，其中选择$\lambda_\alpha > 0$使得$p(y) = 1$；这是可能的，因为如果$f_\alpha(y) = 0$对于所有$\alpha \in J$，那么$y \in V_n$对于所有$n$，这意味着$y = 0$，这与假设相反。现在我们注，对于所有$\alpha \in I$，函数$f_\alpha|C$在点0连续，因此存在$n \in \mathbf{N}$，使得$f_\alpha$在$W_n$内有界，因此在C上有界函数 $f_\beta|C$ 的有限数的线性组合，其中 $\beta \in J$。由此可知，如果 A 在 $x \in C$ 的集合中，使得 $p(x) \leq 1$，则对于所有 $\alpha \in I$，$f_\alpha$ 在 A 中有界。由于 p 在 C 中是下半连续的，因此 A 在 C 中是闭且非空的，因此是紧的。因为很明显 p 验证了 prop 的条件 (i) 和 (ii)。 II、p. 58 中的 4 个，我们看到 A 是 C 和包含 y 中的上限。
+第二个叙述源自第一个和 cor。 2 上面。使用道具。 II、p. 52、约化、命题中的11个对应于$E = \mathbf{R}^l$和$C \subset \mathbf{R}_+^l$的情况。对于所有$\alpha \in I$，用$f_\alpha$表示E中的投影$pr_\alpha$；那么$f_\alpha$是连续的线性形式。另一方面，令 $(V_n)_{n \in \mathbf{N}}$ 为 C 中 0 的邻域的可枚举基本系统。通过E的拓扑的定义，对于每个$n \in \mathbf{N}$，存在I和数$\varepsilon_n > 0$的有限子集$J_n$，使得$V_n$包含集合 $x \in C$的$W_n$使得$f_\alpha(x) \leq \varepsilon_n$对于所有$\alpha \in J_n$；把$J = \bigcup_{n \in \mathbf{N}} J_n$。令$y \neq 0$为C的点，p为函数$\sum_{\alpha \in J} \lambda_\alpha (f_\alpha|C)$，其中选择$\lambda_\alpha > 0$使得$p(y) = 1$；这是可能的，因为如果$f_\alpha(y) = 0$对于所有$\alpha \in J$，那么$y \in V_n$对于所有$n$，这意味着$y = 0$，这与假设相反。现在我们注意到，对于所有 $\alpha \in I$，函数 $f_\alpha|C$ 在点 0 处连续，因此存在 $n \in \mathbf{N}$，使得 $f_\alpha$ 在 $W_n$ 内有界，因此在 C 中以有限的线性组合为界数 / 函数 $f_\beta|C$，其中 $\beta \in J$。由此可知，如果 A 在 $x \in C$ 的集合中，使得 $p(x) \leq 1$，则对于所有 $\alpha \in I$，$f_\alpha$ 在 A 中有界。由于 p 在 C 中是下半连续的，因此 A 在 C 中是闭且非空的，因此是紧的。因为很明显 p 验证了 prop 的条件 (i) 和 (ii)。 II、p. 58 中的 4 个，我们看到 A 是 C 和包含 y 中的上限。
 
 #### 注 2 {#evt-ii-s7-n2-rem-2 .statement tag=07JA}
 

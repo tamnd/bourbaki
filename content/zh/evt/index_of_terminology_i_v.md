@@ -12,19 +12,19 @@ pdf_pages: 0353-0358
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 91d3b0684d91f026ad0fb22ece2129465870707388e7e42b4a4fee28836203e9
+content_sha256: 0f6869e72d0c20cf8993a42ae4b3e74f691d2e43e8f233eb7e1d384731b58500
 translated_from: content/en/evt/index_of_terminology_i_v.md
 translation_method: google
 source_content_sha256: fc08ca7a80bfc9533120236c4498db3314f76c5a20c5f80912317dc9aa8ee563
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f9130fe7c78f9f32c84033576868ae986df6e0389da52d536fe711f2c8b0e3fd
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标的术语
+## 指标 / 术语
 
 吸收剂集合，另一个吸收1个集合：I，p. 7。
 适应出生学：III，p. 3。
@@ -161,9 +161,9 @@ Hausdorff 局部凸空间的穷举，可穷举空间 ：III，p. 49，执行。 
 凸面尺寸集合 : II, p. 20。
 高斯空间：V，p. 32。
 由集合家庭生成（出生学）：III、p. 1。
-凸锥体的生成元（极值）：II，p. 57。
+凸锥体的生成元（极值）：II、p. 57。
 杰弗里的空间：III，p. 10。
-格拉姆行列式：V、p. 71、exerc。 7.
+Gram 的行列式：V，p. 71，锻炼。 7.
 格洛腾迪克的定理：III，p. 20。
 可以定义均值的群：IV、p. 72、exerc。 4.
 

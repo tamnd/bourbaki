@@ -28,19 +28,19 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: 2772c0a46f16eaaf0e3537c42196f0458696cdfafbc5019f3cb658a390205831
+content_sha256: 61df56095df14fa074a4f3cfd430fa2b4cdbf1cbaa36c31c81f5657bcaf048ff
 translated_from: content/en/evt/II/01_s1_semi_norms.md
 translation_method: google
 source_content_sha256: 99701b6427e2fc51eea6f3f407ebff4fb20d627e99dfd31c75d611b17f9e8d84
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2a818d469f9cb2ecd32c9c94938859bf49cdd2370d37e906c81abdb4fea3ae9c
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## § 1。半规范
+## § 1。半范数
 
 在本段中，$\mathbf{K}$表示非离散值除法环。
 
@@ -68,7 +68,7 @@ E 上的范数是半范数 $p$，因此关系 $p(x) = 0$ 意味着 $x = 0$ (I, p
 #### 例 3 {#evt-ii-s1-n1-exa-3 .statement tag=07AS}
 
 如果 $p_i (1 \leq i \leq n)$ 是 E 上半范数的有限集合，则显然 $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$
-和 $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$（其中 $\alpha_i$ 是 $\geq 0$）都是 E 上的半范数。
+和$p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$（其中$\alpha_i$是$\geq 0$）都是E上的半范数。
 
 如果满足 (SN$_I$) 和以下公理，则 $\mathbf{R}_+$ 中 E 的映射 $p$ 被称为*超半范数*：
 
@@ -98,9 +98,9 @@ E 上的范数是半范数 $p$，因此关系 $p(x) = 0$ 意味着 $x = 0$ (I, p
 
 ### 2. 由半范数定义的拓扑
 
-令 p 为 K 上向量空间 E 的半范数；对于每个 $\alpha > 0$ 令 V(p, $\alpha$) 为 E 中 $p(x) \leq \alpha$ 的那些 x 的子集。显然，如果$x \in V(p, \alpha)$和$\lambda \in K$使得$|\lambda| \leq 1$，那么$\lambda x \in V(p, \alpha)$，在其他字V（p，$\alpha$）中是*平衡的*。此外，对于每个$x_0 \in E$，都存在一个非零标量$\mu \in K$，使得$|\mu| \geq p(x_0) \alpha^{-1}$，因此$\mu^{-1} x_0 \in V(p, \alpha)$，也就是说V（p，$\alpha$）是*吸收性*。最后，从(SN$_{II}$)，我们有$V(p, \alpha/2) + V(p, \alpha/2) \subset V(p, \alpha)$，从(SN$_I$)，对于K中的每个非零标量$\lambda$，我们有$\lambda V(p, \alpha) = V(p, |\lambda| \alpha)$。我们从这些注、I、p. 7、道具中获得结论。 4、当$\alpha$在数$> 0$的集合内变化时（或仅在严格正数数的序列趋于0时），则集合V(p, $\alpha$)构成基本0 的邻域系统拓扑与 E 的向量空间结构兼容；我们说这个拓扑 *由半范数 p* 定义。具有这样的拓扑的向量空间E被称为*半范数空间*。 注如果 W(p, $\alpha$) 是 E 的 x 的子集，使得 $p(x) < \alpha$，则 W(p, $\alpha$) 构成（其中 $\alpha > 0$ 或 $\alpha$ 以数的严格正值序列变化，趋向于零) 对于由$p$定义的拓扑，邻域的基本系统为0。
+令 p 为 K 上向量空间 E 的半范数；对于每个 $\alpha > 0$ 令 V(p, $\alpha$) 为 E 中 $p(x) \leq \alpha$ 的那些 x 的子集。显然，如果$x \in V(p, \alpha)$和$\lambda \in K$使得$|\lambda| \leq 1$，那么$\lambda x \in V(p, \alpha)$，在其他字V（p，$\alpha$）中是*平衡的*。此外，对于每个$x_0 \in E$，都存在一个非零标量$\mu \in K$，使得$|\mu| \geq p(x_0) \alpha^{-1}$，因此$\mu^{-1} x_0 \in V(p, \alpha)$，也就是说V（p，$\alpha$）是*吸收性*。最后，从(SN$_{II}$)，我们有$V(p, \alpha/2) + V(p, \alpha/2) \subset V(p, \alpha)$，从(SN$_I$)，对于K中的每个非零标量$\lambda$，我们有$\lambda V(p, \alpha) = V(p, |\lambda| \alpha)$。我们从这些注、I、p. 7、道具中获得结论。 4、当$\alpha$在数$> 0$的集合内变化时（或仅在严格正数数的序列趋于0时），则集合V(p, $\alpha$)构成基本0 的邻域系统拓扑与 E 的向量空间结构兼容；我们说这个拓扑 *由半范数 p* 定义。具有这样的拓扑的向量空间E被称为*半范数空间*。请注意，如果 W(p, $\alpha$) 是 E 的 x 的子集，使得 $p(x) < \alpha$，则 W(p, $\alpha$) 构成（其中 $\alpha > 0$ 或 $\alpha$ 以数的严格正值序列变化，趋向于零) 对于由$p$定义的拓扑，邻域的基本系统为0。
 
-如果$\Gamma$是$E$上半范数的集合，则半范数$p \in \Gamma$定义的拓扑的*上界*与向量空间结构兼容（I，p. 10，cor.4）。对于这个拓扑，邻域的基本系统为 0，由有限交 $\bigcap_i V(p_i, \alpha_i)$ 给出，其中 $p_i \in \Gamma$ 和 $\alpha_i > 0$。这个拓扑据说是*由半范数的集合定义的*$\Gamma$。它是 $E$ 上*粗略的* 拓扑，在所有翻译下都保持不变且半范数 $p \in \Gamma$ 是连续的。
+如果$\Gamma$是$E$上半范数的集合，则半范数$p \in \Gamma$定义的拓扑的*上界*与向量空间结构兼容（I，p. 10，cor.4）。对于拓扑，邻域的基本系统为 0，由有限交 $\bigcap_i V(p_i, \alpha_i)$ 给出，其中 $p_i \in \Gamma$ 和 $\alpha_i > 0$。这个拓扑据说是*由半范数的集合定义的*$\Gamma$。它是 $E$ 上*粗略的* 拓扑，其中在所有翻译下都保持不变，并且半范数 $p \in \Gamma$ 是连续的。
 
 设$E$是$K$上的拓扑向量空间：$E$上半范数的系统，比如说$\Gamma$，被称为半范数的*基本系统*，如果拓扑在$E$上与$\Gamma$定义的拓扑相同。
 
@@ -114,7 +114,7 @@ E 上的范数是半范数 $p$，因此关系 $p(x) = 0$ 意味着 $x = 0$ (I, p
 
 3) 如果$\Gamma_0$是半范数的集合*由递增*序关系定义，定义在$E$上的两个半范数$p, q$之间，通过«存在$\lambda > 0$使得$p \leq \lambda q$»，那么基本的系统为对于由 $\Gamma_0$ 定义的拓扑，0 的邻域是通过取集合 $V(p, \alpha)$ 获得的，其中 $p \in \Gamma_0$ 和 $\alpha > 0$。如果$\Gamma$是$E$上的任何半范数集合，则半范数的过滤集合（定义与$\Gamma$相同的拓扑）是所有有限半范数族的上包络的集合$\Gamma_0$ 属于至 $\Gamma$。
 
-4) 即使超过$K$不能的拓扑向量空间的$K = \mathbf{R}$、拓扑始终由半范数的集合定义（*cf.* II、p. 24，推论）。
+4) 即使超过$K$不能的拓扑向量空间的$K = \mathbf{R}$、拓扑始终由半范数的集合定义(*cf.* II、p. 24， 推论）。
 
 #### 例 {#evt-ii-s1-n2-exa-1 .statement tag=07AW}
 
@@ -136,13 +136,13 @@ $$
 
 命题紧随定义和 GT，IX, § 2 。 4，科尔。 1.
 
-注，如果$\mathscr{T}$是可度量的，则$\mathscr{T}$不能可能由单个范数定义；上面给出的例就是这种情况（*cf.* IV、p. 18、*例 4*）。
+请注意，如果$\mathscr{T}$是可度量的，则$\mathscr{T}$不能可能由单个范数定义；上面给出的例就是这种情况（*cf.* IV、p. 18、*例 4*）。
 
-令 E 为 K 上的向量空间，其中拓扑由半范数 $\Gamma$ 的集合定义。令 $\hat{E}$ 为 E (I, p. 6) 的豪斯多夫完成，$\hat{\Gamma}$ 为 $\mathbf{R}_+$ 中映射的集合 $\hat{E}$ 的$\hat{p}$，其中 $p$ 变化$\Gamma$（GT，II, § 3.7，第 15 条）。通过扩展不等式的原理，函数$\hat{p} \in \hat{\Gamma}$是$\hat{E}$的半范数，以及定义$\hat{E}$统一结构的伪度量的函数$\hat{p}(x - y)$形式集合（GT， IX, § 1 3，道具 1)。因此，我们看到$\hat{\Gamma}$是定义$\hat{E}$的拓扑的半范数的基本集合。
+令 E 为 K 上的向量空间，其中拓扑由半范数 $\Gamma$ 的集合定义。令 $\hat{E}$ 为 E (I, p. 6) 的豪斯多夫完成，$\hat{\Gamma}$ 为 $\mathbf{R}_+$ 中 $\hat{E}$ 的集合映射 $\hat{p}$，其中 $p$ 在 $\Gamma$ 中变化 (GT, II, § 3 7，道具 15）。通过扩展不等式的原理，函数$\hat{p} \in \hat{\Gamma}$是$\hat{E}$的半范数，以及定义$\hat{E}$的统一结构的伪度量的函数$\hat{p}(x - y)$形式集合（GT， IX, § 1 3，道具 1)。因此，我们看到$\hat{\Gamma}$是定义$\hat{E}$的拓扑的半范数的基本集合。
 
-### 3. 商空间和乘积空间的半范数
+### 3. 商空间和乘积空间中的半范数
 
-设E是K上的拓扑向量空间，其拓扑由半范数$\Gamma$、集合定义。显然，E 的 $\Gamma$ 到向量子空间 M 的半范数的限制，由 E 的子空间在 M 上诱导出定义拓扑。
+设E是K上的拓扑向量空间，其拓扑由半范数$\Gamma$、集合定义。显然，E 的 $\Gamma$ 到向量子空间 M 的半范数限制，由 E 的半范数在 M 上导出定义拓扑。
 
 令 $\phi$ 为 E 在向量商空间 E/M 上的典范映射。我们证明，对于 E 上的每个半范数 $p$，函数
 
@@ -150,7 +150,7 @@ $$
 \dot{p}(z) = \inf_{\phi(x) = z} p(x)
 $$
 
-是 E/M 的半范数。事实上，显然$\dot{p}$满足条件（SN$_1$）；另一方面，如果 $z', z''$ 是 E/M 的两个向量，我们有：
+是 E/M 的半范数。事实上，显然$\dot{p}$满足条件(SN$_1$)；另一方面，如果$z', z''$是E/M的两个向量，我们有：
 
 $$
 \begin{align*}
@@ -160,21 +160,21 @@ $$
 \end{align*}
 $$
 
-这表明$\dot{p}$验证了（SN$_2$）。我们说 $\dot{p}$ 是 $p$ 与 M 的*商半范数*。
+这表明$\dot{p}$验证了(SN$_2$)。我们说$\dot{p}$是M对$p$的*商半范数*。
 
 同样的推理证明，如果$p$是*超半范数*，那么$\dot{p}$也是。
 
-既然如此，我们有（No. 2中的记号）
+既然如此，我们有（在No. 2的记号）
 
 $$
 \phi(\mathrm{W}(p, \alpha)) = \mathrm{W}(\dot{p}, \alpha)
 $$
 
-每$\alpha > 0$。事实上，说$\dot{p}(z) < \alpha$，意味着存在$x \in E$，使得$\phi(x) = z$和$p(x) < \alpha$，由此得出关系（4）。
+对于每个$\alpha > 0$。事实上，说$\dot{p}(z) < \alpha$，意味着存在$x \in E$，使得$\phi(x) = z$和$p(x) < \alpha$，由此得出关系(4)。
 
-由此我们推断，如果半范数$\Gamma$的集合是*有向*（II，p. 3，*注3*），则$E/M$上的商拓扑由半范数集合定义$\dot{p}$，当$p$在$\Gamma$变化时。
+由此我们推断，如果半范数$\Gamma$的集合是*有向*（II，p. 3，*注3*），那么$E/M$上的商拓扑由半范数集合定义$\dot{p}$，当$p$在$\Gamma$变化时。
 
-如果$N$是$E$中$\{0\}$的闭包，$E/N$的拓扑由商半范数$\dot{p}$定义，其中$p$在$\Gamma$中变化（即使$\Gamma$没有被过滤）：这里$\dot{p}(\dot{x}) = p(x)$对于每个$x$属于至类$\dot{x} \mod N$。 注 $E/N$ 正是与 $E$ (I, p. 4) 相关的 Hausdorff 空间。
+如果$N$是$E$中$\{0\}$的闭包，$E/N$的拓扑由商半范数$\dot{p}$定义，其中$p$在$\Gamma$中变化（即使$\Gamma$没有被过滤）：这里每 $x$ 属于至类 $\dot{x} \mod N$ $\dot{p}(\dot{x}) = p(x)$。请注意，$E/N$正是与$E$（I，p. 4）关联的Hausdorff 空间。
 
 令$E$是$K$上的向量空间，$(E_i)_{i \in I}$是向量空间在$K$上的族，其中$E_i$有拓扑$\mathscr{T}_i$由半范数集合定义$\Gamma_i$。对于每个$i \in I$，令$f_i$为$E_i$中$E$的线性映射；显然，当$p_i$在集合$\Gamma_i$变化时，$E$的半范数$p_i \circ f_i$形式集合$\Gamma'_i$。 $E$上的拓扑$\mathscr{T}$，定义为使所有映射$f_i$连续（I，p. 9）的最粗糙的，然后由半范数$\Gamma' = \bigcup_{i \in I} \Gamma'_i$的集合定义，这来自$\mathscr{T}$ 的定义或邻域为 0（GT，I, § 2.3，道具 4）。
 
@@ -224,7 +224,7 @@ Q.E.D.
 
 #### 命题 5 {#evt-ii-s1-prop-5 .statement tag=07B1}
 
-— *令 E、F 为非离散值除法环 K 上的两个拓扑向量空间；假设 E（或 F）的拓扑由半范数 $\Gamma$（或 $\Gamma'$）的集合定义。设 H 为 F 中 E 的线性映射的集合。以下条件是等效的：*
+— *令 E、F 为非离散值除法环 K 上的两个拓扑向量空间；假设 E（或 F）的拓扑由半范数 $\Gamma$（或 $\Gamma'$）的集合定义。设 H 为 F 中 E 的线性映射的集合。以下条件是等价的：*
     a) H 是等连续的。
 
 b) 对于每个半范数$q \in \Gamma'$，都存在半范数属于到$\Gamma$和数$a > 0$的有限族$(p_i)_{1 \leq i \leq n}$，这样，对于所有$x \in E$和所有$u \in H$，
@@ -237,7 +237,7 @@ c) 对于每个半范数$q \in \Gamma'$，映射$\sup_{u \in H} (q \circ u)$是$
 
 #### 推论 1 {#evt-ii-s1-prop-5-cor-1 .statement tag=07B2}
 
-— 假设$\mathscr{T}, \mathscr{T}'$是$K$上向量空间$E$上的两个拓扑，分别由半范数$\Gamma$和$\Gamma'$的两个集合定义。 $\mathscr{T}$比更细比$\mathscr{T}'$当且仅当，对于每个半范数$q \in \Gamma'$，存在半范数属于到$\Gamma$和数$a > 0$的有限族$(p_i)_{1 \leq i \leq n}$，使得对于所有$x \in E$，我们有$q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$。
+— 假设$\mathscr{T}, \mathscr{T}'$是向量空间$E$上的$K$上的两个拓扑，分别由半范数$\Gamma$和$\Gamma'$的两个集合定义。 $\mathscr{T}$比更细比$\mathscr{T}'$当且仅当，对于每个半范数$q \in \Gamma'$，存在半范数属于到$\Gamma$和数$a > 0$的有限族$(p_i)_{1 \leq i \leq n}$，使得对于所有$x \in E$，我们有$q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$。
 
 事实上，这表明$E$的恒等映射与拓扑$\mathscr{T}$，$E$与拓扑$\mathscr{T}'$，是连续的。
 

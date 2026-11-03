@@ -13,19 +13,19 @@ pdf_pages: 0444-0445
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 731720a85a25f03d3c580fd4eecb47e215fea9786e6760492765213789308611
+content_sha256: 7b0d693ad6ccaa3d3233998f1186984408701864087aec2bfcd409c16cc744d1
 translated_from: content/en/alg/index_of_notation_iv_vii.md
 translation_method: google
 source_content_sha256: 061f854cc7156c98872071bae8b9a417af3d3094376c562063d673befa000479
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: bdfddf4ed093fc7ee68c820e3a0f8703ee275c0ea5a47fe32ade01fda7ce487a
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标记号
+## 指标 / 记号
 
 A[(X_i)_{i \in I}], A[X_1, ..., X_n], X^\nu : IV, p. 1。
 $deg u$：IV，p. 3。

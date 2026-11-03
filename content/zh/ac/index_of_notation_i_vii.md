@@ -13,19 +13,19 @@ pdf_pages: 0625-0627
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 753a0b25fd78f05ff041e94d54fa952a338d817b53b59856094cc289496fb41e
+content_sha256: 999a8465f5585c0428ada9e014dd47f6791b16c52adeb3a44b42d1feb96b5033
 translated_from: content/en/ac/index_of_notation_i_vii.md
 translation_method: google
 source_content_sha256: 600423954f023b5116fbf157777de2e85665e74947696e7d93e5dc7cc69f6b87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 5ef2e9ef667f5a9285aaf149c00dc7e0c92bea8d244f995dfd969ef27ace7ffe
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 指标的记号
+## 指标 / 记号
 
 参考号数表示章、截面以及阶中的子部分（或习题）。
 
@@ -52,17 +52,17 @@ $\det(u), \chi_u$（秩n投射模u自同态）：II.5。前任。 9
 $A^{(d)}, M^{(d,k)}, M^{(d)}$（A 评分环，M 评分A-模）：III.1.3
 $A_{(p)}, M_{(p)}$（A 分级环，p A 分级素理想，M 分级A-模）：III.1.4
 
-$gr_n(G), gr(G)$ (G a filtered group): III.2.3
+$gr_n(G), gr(G)$（G 过滤组）：III.2.3
 $gr(h)$ (h a homomorphism compatible with the filtrations): III.2.4
-$\mathbf{Z}_n$ (n an integer > 1): III.2.12
+$\mathbf{Z}_n$（n 为大于 1 的整数）：III.2.12
 $\hat{\mathbf{Z}}$: III.2.13
 $A\{X_1, \ldots, X_p\}$ (A a linearly topologized ring): III.4.2
 $f(b_1, \ldots, b_p)$ (f a restricted formal power series): III.4.2
 $f \circ g, M_f, M_f(\mathbf{X}), J_f, J_f(\mathbf{X}), \mathbf{X}, \mathbf{1}$, ($\mathbf{f}, \mathbf{g}$ systems of formal power series, $\mathbf{g}$ without constant term): III.4.4
 $f(x)$ (f a system of formal power series, x a system of topological nilpotent elements): III.4.5
-$m \times n$ (m an ideal): III.4.5
-$Ass_A(M), Ass(M)$ (M an A-module): IV. 1.1
-$Ass_f(M)$: IV.1. 前任。 17 号
+$m \times n$（理想）：III.4.5
+$Ass_A(M), Ass(M)$（M 一个 A 模块）：IV。 1.1
+$Ass_f(M)$：IV.1。 前任。 17 号
 $A^G$（A 代数，G 群在 A 上运行）：V.1.9
 $G^Z(p'), G^Z, A^Z(p'), A^Z$（G 群在环 A' 上运行，p' 是 A' 的素理想）：V.2.2
 $G^T(p'), G^T, A^T(p'), A^T$（群在环 A' 上运行，p' 是 A 的素理想）：v.2.2

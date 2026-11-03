@@ -18,10 +18,10 @@ translation_method: google
 source_content_sha256: 696298f333bb4a0e2e6f65014ca0cae0f1e3cedc892ba502a34de926419cea53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 24d084df1df19eb2c9421ead67a070b9b6b38ed984f33cf01a8e5078bc16238f
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 章 I(*)

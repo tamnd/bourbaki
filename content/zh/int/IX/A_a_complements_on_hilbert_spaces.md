@@ -22,21 +22,21 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 2be2f501c38b9877a7ca7d1e61c4ab0c5946963844b745f3a7c9d2c06798d604
+content_sha256: 022d6f0dba5327c8d20d6f64312b2bbaeb9a457d0a00a2b5046dbf7423c45f6e
 translated_from: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
 translation_method: google
 source_content_sha256: 345b39c6aa42db2dbb13f3b4da3d834dda0b94e5c0750c5ee630d5f4b9b588d5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 2f062710836ab464c662faf796196abd9958b8093bedb260d952aa926055c4b1
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附件
 
-# 希尔伯特空间的补充
+# 对希尔伯特空间的补充
 
 ### 1. 二次方形式相对于另一个$^{(1)}$ 的迹
 
@@ -50,13 +50,13 @@ $$
 
 a) 如果存在$x \in E$使得$H(x) = 0$和$Q(x) \neq 0$，则有一个集合$\operatorname{Tr}(Q/H) = +\infty$。
 
-b) In the contrary case, $\operatorname{Tr}(Q/H)$ is the supremum of the set of numbers of the form $\sum_{i=1}^p Q(e_i)$, where $(e_1, \ldots, e_p)$ runs over the set of finite sequences of elements of $E$ orthonormal for $H$.
+b) 相反情况下，$\operatorname{Tr}(Q/H)$是形式$\sum_{i=1}^p Q(e_i)$的数集合的上界，其中$(e_1, \ldots, e_p)$超过$E$正交的元素有限序列集合， $H$。
 
-令$E$为实希尔伯特空间，$Q$为$E$上的正二次方形式。 集合 $H(x) = \|x\|^2$ 对于所有 $x \in E$；那么$H$是$E$上的正二次方形式。如果 $\operatorname{Tr}(Q/H)$ 是有限的，则可以说 $Q$ 是*核*。对于范数 1 中的每一个 $x \in E$，有 $Q(x) \leq \operatorname{Tr}(Q/H)$、从而 $Q \leq \operatorname{Tr}(Q/H) \cdot H$；特别是，每个核形式$Q$都是连续的。
+令$E$为实数希尔伯特空间，$Q$为$E$上的正二次方形式。 集合 $H(x) = \|x\|^2$ 对于所有 $x \in E$；那么$H$是$E$上的正二次形式。有人说，如果 $\operatorname{Tr}(Q/H)$ 是有限的，那么 $Q$ 就是“核”。对于范数 1 中的每一个 $x \in E$，有 $Q(x) \leq \operatorname{Tr}(Q/H)$、从而 $Q \leq \operatorname{Tr}(Q/H) \cdot H$；特别是，每个核形式$Q$都是连续的。
 
 #### 注 {#int-ix-a0-n1-rem-1 .statement tag=09T5}
 
-— 1) 对于$E$的每个子空间$F$，用$Q$至$F$的$Q_F$限制表示，并用$H_F$表示$H$。那么$\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$和$\operatorname{Tr}(Q/H)$就是$F \subset E$有限维的数$\operatorname{Tr}(Q_F/H_F)$的上界。
+— 1) 对于$E$中的每个子空间$F$，用$Q$至$F$中的$Q_F$限制表示，并用$H$中的$H_F$表示。那么$\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$和$\operatorname{Tr}(Q/H)$是数$\operatorname{Tr}(Q_F/H_F)$对于$F \subset E$有限维的上界。
 
 2) 令$E_1$为实向量空间、$Q_1$和$H_1$在$E_1$上的两个正二次形式，以及$\pi : E \to E_1$为满射线性映射。如果$Q = Q_1 \circ \pi$和$H = H_1 \circ \pi$，则$\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$。
 

@@ -12,21 +12,21 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: d1fbdd84756bb5ed64065d9208977a2c840b1d96c01c42c363f8ea7c0fb0f6ac
+content_sha256: d0b5c955db1346bbb81b33c3340125677faa0f918ab8ec70be505f691c127f25
 translated_from: content/en/ac/I/04_s4_flat_modules_and_tor_functors.md
 translation_method: google
 source_content_sha256: 2e67efa01c1410cffb73e90e94fea2974820179f25619519676ed3aa28003654
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: f8934e29f1c56fbc40cf232cf4d7d987edd6f7ddb3e6098adb4614f1aa7ca586
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 4. 扁平模和“TOR”函子
+## 4. 扁平模和“tor”函子
 
-为了方便熟悉同调代数 (*) 的读者，我们将快速指出平模的理论与 Tor 函子的理论有何关系。
+为了方便熟悉同源代数 (*) 的读者，我们将快速指出平面模的理论与 Tor 函子的理论有何关系。
 
 #### 命题 1 {#ac-i-s4-prop-1 .statement tag=044W}
 
@@ -84,7 +84,7 @@ $$
 (a) 对于每个右 S 模 E 都有 $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$。
 (b) *左 S 模 $\varphi^*(F) = F_{(S)} = S \otimes_R F$ 是平坦的且 $\operatorname{Tor}_1^R(\rho_*(S_d), F) = 0$。*
 
-假设(a)成立。取$E = S_d$，我们看到$\operatorname{Tor}_1^R(\rho_*(S_d), F) = 0$。我们还证明 $F_{(S)}$ 是一个平面 S 模。为此，我们注认为，如果E是右S模，则加法群$E \otimes_S F_{,,}$可以用$\rho_*(E) \otimes_R F$来标识。那么如果有正合序列个右S-模
+假设(a)成立。取$E = S_d$，我们看到$\operatorname{Tor}_1^R(\rho_*(S_d), F) = 0$。我们还证明 $F_{(S)}$ 是一个平面 S 模。为此，我们注意到，如果 E 是右 S 模，则加法群 $E \otimes_S F_{,,}$ 被标识为 $\rho_*(E) \otimes_R F$。那么如果有正合序列个右S-模
 
 $$
 0 \to E' \to E \to E'' \to 0

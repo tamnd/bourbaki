@@ -13,16 +13,16 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f32596f7edec0432c971b33021fef90931675d3318234ec870c8a8fd525bce4b
+content_sha256: 362179df2514cc18f0e514dcaf2302f6de14b9bd2302921308646847431177b6
 translated_from: content/en/alg/00_to_the_reader_iv_vii.md
 translation_method: google
 source_content_sha256: 7ae32c7a2f91836886d1e4186ba9e82a6fbb969333fe911258076c12664c41c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: dff81e76d257269b689169e36f8bcee54a168972daaa63c089bcf41afcb6e53b
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 致读者
@@ -33,11 +33,11 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 3. 级数分为书籍，每本书分为章。下面列出了已经出版的书籍，无论是全文还是法文版部分。当有英文翻译时，相应的英文标题会在括号内提及。整卷书中的参考文献均指英文版（如果有），否则指法文版。
 
-E (集合理论) 指定的 Théorie des Ensembles (集合论)
+E (集合理论) 指定的乐团理论 (集合论)
 代数 (代数'''')
 Topologie Générale（通用拓扑）— TG（通用顶部）
 可变 Réelle 功能 — FVR
-Espaces Vectoriels Topologiques（拓扑向量空间） — EVT（顶部.Vect.Sp.）
+Espaces Vectoriels Topologiques（拓扑向量空间） — EVT（Top.Vect.Sp.）
 整合——INT
 代数交换 (交换代数''') — AC (Comm. Alg.)
 Varittes Differentielles et Analytiques — VAR
@@ -48,17 +48,17 @@ Varittes Differentielles et Analytiques — VAR
 (2) 到目前为止，仅翻译了章 I 至 VII。
 (3) 到目前为止，仅翻译了章 I 至 III。
 
-ALGEBRA
+代数
 
 在前六本书中（根据上述阶），文本中的每个叙述都假设仅已知那些在同一章中或在之前的章中已经讨论过的结果，顺序如下：E; A、章I至III； TG，章I至III； A、从章IV起； TG，从章 IV 开始；血流体积；事件发生； INT。
 
 从第七本书开始，读者通常会找到它与其他书籍的逻辑关系的精确指示（前六本书始终被假定为已知）。
 
-4. However we have sometimes inserted examples in the text which refer to facts the reader may already know but which have not yet been discussed in the series. 这样的例放在两个星号之间：*...*。 大多数读者无疑会发现这些例将帮助他们理解文本。 在其他情况下，*...* 之间的段落指的是级数中其他地方讨论的结果。 我们希望读者能够验证不存在任何恶性循环。
+4. 然而，我们有时会在文本中插入示例，这些示例涉及读者可能已经知道但本系列中尚未讨论的事实。 这样的例放在两个星号之间：*...*。 大多数读者无疑会发现这些例将帮助他们理解文本。 在其他情况下，*...* 之间的段落指的是级数中其他地方讨论的结果。 我们希望读者能够验证不存在任何恶性循环。
 
 5. 每个章的逻辑框架由定义、公理、章的定理组成。这就是部分，以后使用时主要要牢记的。不太重要的结果和那些很容易从定理推出的结果被标记为“命题”，“引理”，“推论”，“注”等。那些初读时可能被省略的结果用小型打印。对特别重要的定理的评论偶尔会以“scholium”的名义出现。
 
-为了避免繁琐的重复，有时方便地引入记号或仅在章或章的特定截面内有效的缩写（对于例，在章中，仅与交换环，字有关< 环 » 总是表示 « 交换环 »）。这些约定总是被明确提及，通常是在它们出现的章的开头。
+为了避免乏味的重复，有时方便地引入记号或仅在特定章或章的特定截面内有效的缩写（例如，在仅涉及交换环的章中，字“环”总是表示“交换环”）。这些约定总是被明确提及，通常是在它们出现的章的开头。
 
 6. 文中的一些段落旨在警告读者不要出现严重错误。这些通道在页边标有 ☡（“危险弯道”）的路标。
 
@@ -68,7 +68,7 @@ ALGEBRA
 
 9. 我们特别努力始终使用严格正确的语言，同时又不牺牲简单性。我们尽可能在文本中提请注意对语言的滥用，如果没有这种滥用，任何数学文本都会面临迂腐的风险，更不用说难以阅读了。
 
-10. 由于原理中的文本由理论的教条性阐述组成，因此包含一般没有参考文献。参考文献集中在历史注记中。每个历史注记包含后面的参考书目一般只有那些在所讨论的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整性。
+10. 由于原理中的文本由理论的教条性阐述组成，因此包含一般没有参考文献。参考文献集中在历史注记中。每个历史注记包含后面的参考书目一般只有那些在讨论中的理论的演变中具有最大的重要性的书籍和原始回忆录。它并没有假装完整性。
 
 至于习题，我们认为总体上不值得指出它们的起源，因为它们来自许多不同的来源（原始论文、教科书、习题的集合）。
 

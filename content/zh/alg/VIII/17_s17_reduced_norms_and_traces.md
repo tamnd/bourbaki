@@ -38,16 +38,16 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: af046eaf2c8018edbf2c1cfce69fee658b499c6799e6896e139880de0973e4a6
+content_sha256: b31b2cb9903326f7444582d026a7700fcec01c6334f90bb8f02d0365d1a83a0f
 translated_from: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md
 translation_method: google
 source_content_sha256: 08c1f7f51bd2df11d29e638f229d1b484c7cda3e1bc21277c413e8819b54daaf
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7580aabb05df2b12e293fff457ded10a046e56b398602379dd93ef83d826fe57
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 17。 简化范数与迹
@@ -56,13 +56,13 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 ### 1. 特征多项式的补集
 
-设L为交换环，M为有限秩$m$的自由L模。如果$u$是M的自同态且$r$自然数，那么我们用$c_r(u)$表示自由L模块$\wedge^r(M)$的自同态$\wedge^r(u)$的踪迹。特别是，我们有
+设L为交换环，M为有限秩$m$的自由L模块。如果$u$是M的自同态且$r$自然数，那么我们用$c_r(u)$表示自由L模块$\wedge^r(M)$的自同态$\wedge^r(u)$的踪迹。特别是，我们有
 
-(1) $c_0(u) = 1,c_1(u) =$ Tr($u$)$,c_m(u) =$ det($u$),
+(1)$c_0(u) = 1,c_1(u) =$Tr($u$)$,c_m(u) =$det($u$),
 
-$c_r(u) = 0$ 代表 $r > m$。 由 III, §8, No. 4、p. 527、映射 $u\mapsto$ det($u$) 从 End(M) 到 L 的命题 7 是次数 $m$ 齐次多项式映射 (IV, §5, No. 9, p. 55）。 更一般地，对于每个整数$r$，使得从End(M)到L的$0\leqslant r\leqslant m$、映射$c_r$是次数$r$的齐次多项式映射；这是从 III, §8, No. 5、p. 529 中的命题 10 得出的。
+$c_r(u) = 0$ 代表 $r > m$。由 III, §8, No. 4、p. 527、映射 $u\mapsto$ det($u$) 至 L 的命题 7 为次数 $m$ 齐次多项式映射 （IV, §5, No. 9，p. 55）。更一般地，对于每个整数$r$，使得从End(M)到L的$0\leqslant r\leqslant m$、映射$c_r$是齐次多项式映射 / 次数$r$；这是从命题 10 of III, §8, No. 5、p. 529 得出的。
 
-令 $u$ 为 M 的自同态，$\overline{u}$ 自同态为 L[X]模 $M[X] = M\otimes_LL[X]$ 由$u$ 通过标量扩张推导出来 (II, §5, No. 1， p. 277）。回想一下 (III, §8, No. 11, p. 541, 定义 3 和 (50))，$u$ 的特征多项式是 M[X] 的 L[X]自同态 $X-\overline{u}$ 的行列式 $\chi_u(X)$，并且我们有关系
+设 $u$ 为 M 的自同态，$\overline{u}$ 自同态为 L[X]模 $M[X] = M\otimes_LL[X]$ 由$u$ 通过扩张标量推导出来（II, §5, No. 1，p. 277）。回想一下 (III, §8, No. 11, p. 541, 定义 3 和 (50))，$u$ 的特征多项式是 L[X]自同态 $X-\overline{u}$ 的行列式 $\chi_u(X)$ M[X] 并且我们有关系
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
@@ -70,13 +70,13 @@ $$
 
 #### 命题 1 {#alg-viii-s17-prop-1 .statement tag=00KD}
 
-设L为交换环，M为有限秩m$\geqslant 1$的自由L模，且M的u自同态。存在M满足关系的唯一内同态$\tilde{u}$
+设L为交换环，M为有限秩m$\geqslant 1$的自由L模，M的u自同态。存在M满足关系的唯一内同态$\tilde{u}$
 
 $$
 \tilde{u}(x) \wedge w = x \wedge \wedge^{m-1}(u)(w)
 $$
 
-对于 $x \in M$ 和 $w \in \wedge^{m-1}(M)$。此外，我们还有关系
+对于 $x \in M$ 和 $w \in \wedge^{m-1}(M)$。而且，我们还有关系
 
 $$
 u \circ \tilde{u} = \tilde{u} \circ u = \det(u)_M,
@@ -92,7 +92,7 @@ $$
 
 令 p 为整数，使得 $0 \leqslant p \leqslant m$。对于$\wedge^p(M)$中的任何w，令$h_p(w)$为从$\wedge^{m-p}(M)$到$\wedge^m(M)$的线性映射$w' \mapsto w \wedge w'$。 线性映射$h_p : w \mapsto h_p(w)$从$\wedge^p(M)$到$\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$是同构。
 
-令$(e_i)_{i \in I}$为M的基；我们赋予集合I总共阶。对于I、集合$e_J = e_{i_1} \wedge \cdots \wedge e_{i_r}$的任何子集 J，其中$(i_1, \ldots, i_r)$是递增阶中J的元素的序列。 L模$\wedge^{m-p}(M)$承认为基元素$e_S$，其中S通过I的子集的集合和$m - p$元素； $\wedge^m(M)$ $\{e_I\}$ 为基。因而，存在 $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ 由……组成线性映射 $e_J^*$ 的基，其特征为公式
+令$(e_i)_{i \in I}$为M的基；我们总共赋予集合 I 阶。对于I、集合$e_J = e_{i_1} \wedge \cdots \wedge e_{i_r}$的任何子集 J，其中$(i_1, \ldots, i_r)$是递增阶中J的元素的序列。 L模$\wedge^{m-p}(M)$承认为基元素$e_S$，其中S通过I的子集的集合和$m - p$元素； $\wedge^m(M)$ $\{e_I\}$ 为基。因而，存在基 / $\operatorname{Hom}_L(\wedge^{m-p}(M), \wedge^m(M))$ 由……组成 / 线性映射 $e_J^*$，其特征为公式
 
 $$
 e_J^*(e_S) = \begin{cases}
@@ -101,7 +101,7 @@ e_I & \text{if } I = J \cup S, \\
 \end{cases}
 $$
 
-其中 J 穿过集合或子集或 I，其中 p 元素。从 III, §7, No. 8、p. 519 的公式 (20) 可以得出，对于 I 的每一个子集 J 以及 p 元素，我们有 $h_p(e_J) \in \{e_J^*, -e_J^*\}$；由于$\wedge^p(M)$的元素$e_J$形式基，线性映射$h_p$是双射的。
+其中 J 穿过集合 / 子集 / I，且 p 元素。从 III, §7, No. 8、p. 519 的公式 (20) 可以得出，对于 I 的每个子集 J 以及 p 元素，我们有 $h_p(e_J) \in \{e_J^*, -e_J^*\}$；由于$\wedge^p(M)$的元素$e_J$形式基，线性映射$h_p$是双射的。
 
 现在让我们证明命题 1。令 u 和 $\tilde{u}$ 为 M 的自同态。关系 (3) 等价于
 
@@ -139,7 +139,7 @@ $$
 (\sum^{m-1}_{r=0}(-1)^ru_rX^{m-1-r})(X-u) =\sum_{r=0}^m(-1)^rc_r(u)X^{m-r} \tag{12}
 $$
 
-在环结束(M)[X]。通过求X各边的单项式系数，我们得到关系
+在环结束(M)[X]。通过识别X每边的单项式的系数，我们得到关系
 
 (13) $u_r+u_{r-1}\circ u=c_r(u)_M$ 为 $1\leqslant r\leqslant m-1$
 
@@ -159,7 +159,7 @@ $$
 
 特别是，$u$生成的End(M)的$\widetilde{u}$属于到子代数，因此与$u$交换。我们已经建立了关系 $\widetilde{u}\circ u=$ det($u$)$_M$； 公式 (4)如下。
 
-最后，令$x_1, . . . , x_m$为M的元素。我们在公式(3)中将替换$x$与$x_1$以及$w$与$\widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m)$进行组合。这给出了
+最后，令$x_1, . . . , x_m$为M的元素。我们在公式（3）中将替换$x$与$x_1$以及$w$与$\widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m)$进行组合。这给出了
 
 $$
 \widetilde{u}(x_1)\wedge \widetilde{u}(x_2)\wedge  \cdots  \wedge \widetilde{u}(x_m) =x_1\wedge u\circ (\widetilde{u}(x_2))\wedge  \cdots  \wedge u\circ (\widetilde{u}(x_m))
@@ -171,7 +171,7 @@ $$
 
 #### 注 1 {#alg-viii-s17-n1-rem-1 .statement tag=00KF}
 
-M 重合的自同态 $\widetilde{u}$ 与我们所说的III, §8, No. 6、p. 532 中$u$ 的共转置。
+M 重合的自同态 $\widetilde{u}$ 与III, §8, No. 6、p. 532 中的$u$ 的共转置。
 
 #### 注 2 {#alg-viii-s17-n1-rem-2 .statement tag=00KG}
 
@@ -317,7 +317,7 @@ Pc$_{A_{(L)}/L}(1\otimes a; X) =$ Pc$_{A/K}(a; X)$（III, §9, No. 3，p. 544，
 
 （33）Nrd$_{A/K}(a) =$det（$\theta (a)$）。
 
-令$\theta '$为从$A_{(L)}$到End$_L(V)$的L代数同态，使得$\theta '(\lambda \otimes a) =\lambda \theta (a)$对应于$\lambda \in L$和$a\in A$。 代数 $A_{(L)}$ 由VIII、p. 222的推论2简单；因此同态 $\theta '$ 是单射的。但是代数$A_{(L)}$和域L上的End$_L(V)$具有相同的次数，等于$n^2$，所以$\theta '$是同构。然后从上面的命题4和例2得出推论1。
+令$\theta '$为从$A_{(L)}$到End$_L(V)$的L代数同态，使得$\theta '(\lambda \otimes a) =\lambda \theta (a)$对应于$\lambda \in L$和$a\in A$。 代数$A_{(L)}$简单为VIII、p. 222中的推论2；因此同态 $\theta '$ 是单射的。但是代数$A_{(L)}$和域L上的End$_L(V)$具有相同的次数，等于$n^2$，所以$\theta '$是同构。然后从上面的命题 4 和例 2 得出推论 1。
 
 #### 推论 2 {#alg-viii-s17-prop-4-cor-2 .statement tag=00KP}
 
@@ -339,7 +339,7 @@ Nrd$_{A/K}(\lambda a) =\lambda^n$ Nrd$_{A/K}(a)$,
 
 （39）Trd$_{A/K}(1) =n$，Nrd$_{A/K}(1) = 1$。
 
-由于 A 是中心简单且已在 K 上约简次数 $n$，因此存在 K 的扩张 L 和 L 上的维数 $n$ 的向量空间 V，使得 $A_{(L)}$ 为同构于代数 End$_L(V)$ (VIII, p. 252, 定理 1)。然后推论 2 由推论 1 以及自同态的迹和行列式的性质得出。特别是，公式 (34) 源自 Cayley–Hamilton 定理（III, §8, No. 11、p. 541、命题 20、cf. 以及VIII、p. 338、注 2）。
+由于 A 是中心简单且在 K 上约简了次数 $n$，因此存在 K 的扩张 L 和 L 上的维数 $n$ 向量空间 V，使得 $A_{(L)}$ 为同构于代数 End$_L(V)$ (VIII, p. 252, 定理 1)。然后从推论 1 以及迹线的属性和自同态的行列式得出推论 2。特别是，公式 (34) 源自 Cayley–Hamilton 定理（III, §8, No. 11、p. 541、命题 20、cf. 以及VIII、p. 338、注 2）。
 
 #### 推论 3 {#alg-viii-s17-prop-4-cor-3 .statement tag=00RP}
 
@@ -351,7 +351,7 @@ Nrd$_{A/K}(\lambda a) =\lambda^n$ Nrd$_{A/K}(a)$,
 
 (42) Nrd$_{A^o/K}(a) =$ Nrd$_{A/K}(a)$。
 
-K 的选择扩张 L，L 上的维数 $n$ 向量空间 V，以及从 A 到 End$_L(V)$ 的同态 $\theta$ (VIII， p. 252、定理 1)。令$V^*$为V的对偶向量空间。将A的元素$a$发送到$V^*$的自同态$^t\theta (a)$的映射是从$A^o$到End$_L(V^*)$的K-代数同态。推论 3 由III, §8, No. 4、p. 528 的推论 1 和推论 3 推出。
+K 的选择扩张 L，L 上的维数 $n$ 向量空间 V，以及从 A 到 End$_L(V)$ 的同态 $\theta$ (VIII， p. 252、定理 1)。令 $V^*$ 为 V 的对偶向量空间。将A的元素$a$发送到$V^*$的自同态$^t\theta (a)$的映射是从$A^o$到End$_L(V^*)$的K-代数同态。然后从III, §8, No. 4、p. 528的推论1和推论3得出推论3。
 
 因此，无论我们将$a$视为A的元素还是$A^o$的元素，$a$的迹范数和特征多项式都是相同的。当 A 不假设为中心简单（III, §9、p. 644、习题 1）时，这个性质并不总是成立。
 
@@ -387,7 +387,7 @@ $\langle t_{axb}, c\rangle =$Trd$_{A/K}(axbc)$,
 
 （44）Trd$_{A_{(L)}/L}= 1_L\otimes$Trd$_{A/K}$。
 
-设$t_{(L)}$为从$A_{(L)}$到$A^*_{(L)}$的L线性映射，由$t$通过扩张标量推导出来；由公式 (44) 和推论 1，我们有
+设$t_{(L)}$为从$A_{(L)}$到$A^*_{(L)}$的L线性映射，由$t$通过扩张标量推导出来；通过公式 (44) 和推论 1，我们有
 
 (45) $\langle t_{(L)}(x), y\rangle =$Trd$_{A_{(L)}/L}(xy) =$Tr($\theta (x)\theta (y)$)
 
@@ -401,9 +401,9 @@ $$
 
 因而，关系“A 中$x, y$的$h(xy) =h(yx)$”相当于“每个$x\in$ A 的$t_{ax-xa}= 0$”，并且通过证明的部分 a)，这意味着 $a$ 属于到中心 K A. 鉴于公式 (36)，这证明了 b)。
 
-#### 推论{#alg-viii-s17-n3-cor-1 .statement tag=00KR}
+#### 推论 {#alg-viii-s17-n3-cor-1 .statement tag=00KR}
 
-由形式$xy-yx$的元素生成的A的线性子空间，其中$x$和$y$贯穿A，是超平面，核或非零的线性形式 Trd$_{A/K}$。
+由形式 $xy-yx$的元素生成的A的线性子空间，其中$x$和$y$贯穿A，是超平面，核于非零的线性形式 Trd$_{A/K}$。
 
 #### 注 {#alg-viii-s17-n3-rem-1 .statement tag=00KS}
 
@@ -419,7 +419,7 @@ Tr$_{A/K}(a) =n$ Trd$_{A/K}(a)$
 
 令L为K的扩张，并令I为集合和$\mathbf{T}= (T_i)_{i\in I}$一系列变量。我们有$K(\mathbf{T})\cap L[\mathbf{T}] = K[\mathbf{T}]$。
 
-令 P 和 Q 为 $K[\mathbf{T}]$ 和 $Q\not= 0$ 的元素。 $L[\mathbf{T}]$ 中 P = QR 的多项式 R 的系数是系数为 K 的线性方程的系统的解。 因而，如果存在一个使得 P = QR 的多项式 $R\in L[\mathbf{T}]$，则$K[\mathbf{T}]$ 中也存在一个 (II, §8, No. 5， p. 321、命题 6)。这就证明了包含$K(\mathbf{T})\cap L[\mathbf{T}]\subset K[\mathbf{T}]$；反向包含是显而易见的。
+令 P 和 Q 为 $K[\mathbf{T}]$ 和 $Q\not= 0$ 的元素。 $L[\mathbf{T}]$ 中多项式 R 的系数使得 P = QR 是 K 中系数的线性方程组系统的解。因而，如果存在一个使得 P = QR 的多项式 $R\in L[\mathbf{T}]$，则$K[\mathbf{T}]$ 中也存在一个（II, §8, No. 5、p. 321、命题 6）。这就证明了包含$K(\mathbf{T})\cap L[\mathbf{T}]\subset K[\mathbf{T}]$；反向包含是显而易见的。
 
 回想一下，A 的元素 $a$ 的简化特征多项式可以写为
 
@@ -431,15 +431,15 @@ $b_0(a) = 1,b_1(a) =$Trd$_{A/K}(a),b_n(a) =$Nrd$_{A/K}(a)$。
 
 #### 命题 6 {#alg-viii-s17-prop-6 .statement tag=00KU}
 
-对于每个整数$r$，使得从A到K的$0\leqslant r\leqslant n$，映射$b_r$是齐次多项式映射 / 次数$r$。特别地，从A到K，约化范数是次数$n$中的齐次多项式映射。
+对于每个整数$r$，使得从A到K的$0\leqslant r\leqslant n$、映射$b_r$是次数$r$中的齐次多项式映射。特别地，从A到K，约化范数是次数$n$中的齐次多项式映射。
 
 令$(e_i)_{i\in I}$为A在K上的基和$\mathbf{T}= (T_i)_{i\in I}$一系列变量。
 
 #### 引理 4 {#alg-viii-s17-lem-4 .statement tag=00KV}
 
-设$u$为中心简单$K(\mathbf{T})$代数$A_{(K(\mathbf{T}))}$的元素$\sum_{i\in I}T_i\otimes e_i$。令 P 为 $u$ 的简化特征多项式。然后P属于到环$K[\mathbf{T}][X]$；视为环$K[\mathbf{T},X]$的元素，它是次数$n$的齐次。
+令$u$为中心简单$K(\mathbf{T})$代数$A_{(K(\mathbf{T}))}$的元素$\sum_{i\in I}T_i\otimes e_i$。令 P 为 $u$ 的简化特征多项式。然后P属于到环$K[\mathbf{T}][X]$；视为环$K[\mathbf{T},X]$的元素，它是次数$n$的齐次。
 
-我们对 K 进行选择扩张 L 以及从 $A_{(L)}$ 到 $\mathbf{M}_n(L)$ 的 L 代数同构 $\theta$。我们用$L(\mathbf{T})$的$\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$同构表示-由标量扩张从$\theta$推导出来的代数。根据VIII、p. 342的推论1，我们有
+我们对 K 进行选择扩张 L 以及从 $A_{(L)}$ 到 $\mathbf{M}_n(L)$ 的 L 代数同构 $\theta$。我们用$L(\mathbf{T})$的$\overline{\theta}: A_{(L(\mathbf{T}))}\rightarrow \mathbf{M}_n(L(\mathbf{T}))$同构表示-由标量扩张从$\theta$推导出来的代数。到推论 1 of VIII, p. 342，我们有
 
 （47）$P(X) =\chi_{\overline{\theta}(u)}(X) =$ det（X$I_n-\overline{\theta}(u)$）$=$ det$(XI_n-\sum_{i\in I}T_i\theta (1\otimes e_i))$。
 
@@ -451,13 +451,13 @@ $b_0(a) = 1,b_1(a) =$Trd$_{A/K}(a),b_n(a) =$Nrd$_{A/K}(a)$。
 
 （48）Pcrd$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i)= P((t_i)_{i\in I},X)$。
 
-令$\varphi : K[\mathbf{T}]\rightarrow K'$为唯一的K-代数同态，对于每个$i\in I$将$T_i$发送到$t_i$；它在$K[\mathbf{T}$]代数的$K'$结构上定义。 $K'$-代数$A_{(K[\mathbf{T}])(K')}$可以用$A_{(K')}$（标量的扩张的传递性）来识别，其中元素$1\otimes (\sum T_i\otimes e_i)$可以用$A_{(K')}$的元素$\sum t_i\otimes e_i$来识别。我们用从$\varphi$推导出来的$\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$K-代数同态来表示。通过III, §9, No. 3、p. 544的公式(21)，$\sum t_i\otimes e_i$关于$K'$-代数$A_{(K')}$的特征多项式是像乘$\overline{\varphi}$关于$\sum T_i\otimes e_i$的特征多项式$K[\mathbf{T}$]-代数$A_{(K[\mathbf{T}])}$，即$P^n$。在其他字中，我们有
+令$\varphi : K[\mathbf{T}]\rightarrow K'$为唯一的K-代数同态，对于每个$i\in I$，将$T_i$发送到$t_i$；它在$K[\mathbf{T}$]代数的$K'$结构上定义。 $K'$-代数$A_{(K[\mathbf{T}])(K')}$可以用$A_{(K')}$（标量的扩张的传递性）来识别，其中元素$1\otimes (\sum T_i\otimes e_i)$可以用$A_{(K')}$的元素$\sum t_i\otimes e_i$来识别。我们用从$\varphi$推导出来的$\overline{\varphi}: K[\mathbf{T}][X]\rightarrow K'[X]$K-代数同态来表示。通过III, §9, No. 3、p. 544的公式(21)，$\sum t_i\otimes e_i$关于$K'$-代数$A_{(K')}$的特征多项式是像乘$\overline{\varphi}$关于$\sum T_i\otimes e_i$的特征多项式$K[\mathbf{T}$]-代数$A_{(K[\mathbf{T}])}$，即$P^n$。在其他字中，我们有
 
 （49）PC$_{A_{(K')}/K'}(\sum_{i\in I}t_i\otimes e_i; X)= P((t_i)_{i\in I},X)^n$；
 
 然后从 VIII、p. 339 的引理 2 得出引理 5。
 
-考虑引理 5 的具体情况 $K'= K$。我们有
+考虑引理 5 的具体情况$K'= K$。我们有
 
 （50）Pcrd$_{A/K}(\sum_{i\in I}t_ie_i; X)= P((t_i)_{i\in I},X)$
 
@@ -497,7 +497,7 @@ $$
 
 由于多项式 Pc$_{L/K}(a; X)$ 是单次的，因此它等于约简特征多项式 Pcrd$_{A/K}(a; X)$ (VIII, p. 339, 引理 2)；这给出公式 (52)。通过比较 (52) 两侧的 $X^{n-1}$（分别为常数项）的系数，我们得到公式 (53)（分别为 (54)）。
 
-#### 推论{#alg-viii-s17-n5-cor-1 .statement tag=00KZ}
+#### 推论 {#alg-viii-s17-n5-cor-1 .statement tag=00KZ}
 
 令 D 为 K 上有限次数的域，且具有中心 K。令 $a$ 为 K 的元素，且 D 包含 $a$ 的L 极大交换子域。我们有
 
@@ -507,11 +507,11 @@ Pcrd$_{D/K}(a; X) =$ Pc$_{L/K}(a; X)$,
 
 Nrd$_{D/K}(a) = N_{L/K}(a)$。
 
-事实上，根据 VIII、p. 265 的推论 2，D 的极大交换子域 L 是 D 的最大交换律半单子代数。
+事实上，D 的极大交换子域 L 是 D 的半单子代数与 VIII、p. 265 的推论 2 的最大交换。
 
 #### 命题 8 {#alg-viii-s17-prop-8 .statement tag=00L0}
 
-设B为A的单子代数。用L表示B的中心，用$B'$表示A中B的交换子。那么$B'$是域L的中心单代数；我们将次数减少了$r$。对于 B 的每个元素 $b$，我们有关系
+设 B 为 A 的单子代数。用 L 表示 B 的中心，用 $B'$ 表示 A 中 B 的交换子。那么$B'$是域L的中心单代数；我们将次数减少了$r$。对于 B 的每个元素 $b$，我们有关系
 
 （56）Pcrd$_{A/K}(b; X) = N_{L[X]/K[X]}$（Pcrd$_{B/L}(b; X)$）$^r$，
 
@@ -521,15 +521,15 @@ Nrd$_{D/K}(a) = N_{L/K}(a)$。
 
 #### 引理 6 {#alg-viii-s17-lem-6 .statement tag=00L1}
 
-令 $K'$ 为 K 上的有限次数 $d$ 中的交换代数，并且
+令 K 上的 $K'$ 为有限次数 $d$ 中的交换代数，并且
 
 $$
 P(X) = X^s+a_1X^{s-1}+\cdots +a_s
 $$
 
-系数为 $K'$ 的一元多项式。那么K[X]中的多项式Q = $N_{K'[X]/K[X]}(P)$是次数$sd$的mononic，Q(X)中$X^{sd-1}$的系数等于Tr$_{K'/K}(a_1)$，Q的常数项是$N_{K'/K}(a_s)$。
+$K'$ 中系数的一元多项式。则 K[X] 中的多项式 Q = $N_{K'[X]/K[X]}(P)$ 为次数 $sd$ 的幺调，Q(X) 中$X^{sd-1}$的系数等于 Tr$_{K'/K}(a_1)$，Q 的常数项为$N_{K'/K}(a_s)$。
 
-我们用$K''$表示$K'$-代数$K'[T]/(P(T))$，用$t$表示$K''$中T的规范类。 $K'$序列$(1, t, . . . , t^{s-1})$$K''$基，其中基形式乘法矩阵由$t$
+我们用$K''$表示$K'$-代数$K'[T]/(P(T))$，用$t$表示$K''$中T的规范类。 序列$(1, t, . . . , t^{s-1})$超过$K'$，$K''$基，其中基形式，乘法矩阵乘$t$
 
 $$
 \tau = \begin{pmatrix}
@@ -541,7 +541,7 @@ $$
 \end{pmatrix}.
 $$
 
-$XI_n - \tau$ 的行列式由 $s$ 上的归纳沿第一行展开计算得出。我们得到$\det(XI_n - \tau) = P(X)$。在其他字中，我们有$P(X) = Pc_{K''/K'}(t; X)$。特别是$\operatorname{Tr}_{K''/K'}(t) = -a_1$和$N_{K''/K'}(t) = (-1)^s a_s$。通过传递性公式（III, §9, No. 4，p. 548，推论），我们有
+$XI_n - \tau$ 的行列式是通过沿第一行展开，通过 $s$ 上的归纳计算得出的。我们得到$\det(XI_n - \tau) = P(X)$。在其他字中，我们有$P(X) = Pc_{K''/K'}(t; X)$。特别是$\operatorname{Tr}_{K''/K'}(t) = -a_1$和$N_{K''/K'}(t) = (-1)^s a_s$。到传递性公式 (III, §9, No. 4, p. 548, 推论), 我们有
 
 $$
 \operatorname{Tr}_{K''/K}(t) = -\operatorname{Tr}_{K'/K}(a_1), \quad N_{K''/K}(t) = (-1)^{sd} N_{K'/K}(a_s),
@@ -550,9 +550,9 @@ $$
 Q(X) = Pc_{K''/K}(t; X).
 $$
 
-另一方面，$[K'' : K] = [K'' : K'][K' : K] = sd$，所以$Q(X)$是次数$sd$的一元多项式。接下来是引理6。
+另一方面，$[K'' : K] = [K'' : K'][K' : K] = sd$，所以$Q(X)$是次数$sd$的mononic多项式。接下来是引理6。
 
-让我们证明命题 8。由于环$B$很简单，所以它的中心$L$是域（VIII，p. 121，推论1）。由VIII、p. 259的定理 5，$A$中$B$的交换子$B'$是一个简单的环与中心$L$，我们有等式 $[A : K] = [B : K][B' : K]$。我们用$r$表示$B'$相对于$L$的减少的次数，$B$相对于$L$的减少$s$，以及$L$相对于$K$的减少次数表示为$d$。我们有
+让我们证明命题8。 由于环$B$很简单，所以它的中心$L$是域（VIII，p. 121，推论1）。 通过$A$中VIII、p. 259、$B$的定理 5、交换子$B'$，是一个简单的环和中心$L$，我们有等式$[A : K] = [B : K][B' : K]$。 我们用$r$表示$B'$比$L$减少的次数，用$s$表示$B$比$L$减少的次数，用$d$表示$L$比$K$减少的次数。 我们有
 
 $$
 [A : K] = n^2, \quad [B' : K] = r^2 d, \quad [B : K] = s^2 d,
@@ -560,15 +560,15 @@ $$
 
 因此$n^2 = r^2 s^2 d^2$，即$n = rsd$。
 
-令$b$为$B$的元素，并令$P(X)$为其在$L$代数$B$上的约化特征多项式；它是次数$s$的莫尼克。到引理 6，首一多项式 $Q = N_{L[X]/K[X]}(P)$ 是次数 $sd$ 的一阶。因此，首一多项式 $R = Q^r$ 是次数 $rsd = n$ 的单项式。再到引理 6，$R(X)$中$X^{n-1}$的系数等于$-r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b))$，$R(X)$的常数项为$(N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r$。
+令$b$为$B$的元素，并令$P(X)$为其在$L$-代数$B$上的约简特征多项式；它是次数$s$的莫尼克。到引理 6 时，首一多项式 $Q = N_{L[X]/K[X]}(P)$ 是次数 $sd$ 的一阶。因此，首一多项式 $R = Q^r$ 是次数 $rsd = n$ 的单项式。再到引理 6，$R(X)$中$X^{n-1}$的系数等于$-r \operatorname{Tr}_{L/K}(\operatorname{Trd}_{B/L}(b))$，$R(X)$的常数项为$(N_{L/K}((-1)^s \operatorname{Nrd}_{B/L}(b)))^r = (-1)^n N_{L/K}(\operatorname{Nrd}_{B/L}(b))^r$。
 
-从 $[A : K] = r^2 d[B : K]$ 开始，左侧 $B$ 模块 $A$ 不再包含秩 $r^2 d$（VIII、p. 124、命题 5）。因此我们有
+从 $[A : K] = r^2 d[B : K]$ 开始，左侧 $B$-模块 $A$ 不再包含秩 $r^2 d$ (VIII、p. 124、命题 5)。因此我们有
 
 $$
 \operatorname{Pc}_{A/K}(b; X) = \operatorname{Pc}_{B/K}(b; X)^{dr^2}.
 $$
 
-由 III, §9, No. 4, p. 548 的推论，我们有
+到III, §9, No. 4、p. 548的推论，我们有
 
 $$
 \operatorname{Pc}_{B/K}(b; X) = N_{L[X]/K[X]}(\operatorname{Pc}_{B/L}(b; X)),
@@ -576,43 +576,43 @@ $$
 
 由于 P(X) 是 $b$ 在 L-代数 B 上的约简特征多项式，我们有
 
-(62) 电脑$_{B/L}(b; X) = P(X)^s$。
+（62）PC$_{B/L}(b; X) = P(X)^s$。
 
 最后，通过R(X)的公式(60)—(62)和定义，我们有
 
-(63) 电脑$_{A/K}(b; X) = N_{L[X]/K[X]}(P(X))^{dr^2s}= Q(X)^{dr^2s}= R(X)^{rsd}= R(X)^n$，
+（63）PC$_{A/K}(b; X) = N_{L[X]/K[X]}(P(X))^{dr^2s}= Q(X)^{dr^2s}= R(X)^{rsd}= R(X)^n$，
 
-所以 R(X) 是 $b$ 在 K-代数 A 上的约化特征多项式。
+所以 R(X) 是 $b$ 在 K-代数 A 上的约简特征多项式。
 
-我们已经证明了公式(56)。 公式 (57) 和 (58) 紧随公式 (56) 和引理 6，因为 Pcrd$_{A/K}(b; X)$ 中$X^{n-1}$ 的系数等于 $-$ Trd$_{A/K}(b)$ 并且常数项为 $(-1)^n$ Nrd$_{A/K}(b)$。
+我们已经证明了公式 (56)。 公式 (57) 和 (58) 紧随公式 (56) 和引理 6，因为 Pcrd$_{A/K}(b; X)$ 中 $X^{n-1}$ 的系数等于 $-$ Trd$_{A/K}(b)$ 并且常数项为 $(-1)^n$ Nrd$_{A/K}(b)$。
 
 ### 6. 约化范数和行列式
 
-在这个小节中，D是有限次数的域除以中心K。我们用$D^*_{ab}$表示乘法群$D^*$与其派生（或换位子）群和$\pi$的商典范同态从$D^*$到$D^*_{ab}$。 映射Nrd$_{D/K}$诱导群同态从$D^*$到$K^*$； 核同态包含导出群 $D^*$ 因为 K 是可交换的。因而，从$D^*_{ab}$到$K^*$存在唯一同态Nrd，使得对于每个$x\in D^*$，Nrd$_{D/K}(x) =$Nrd$\circ \pi (x)$。
+在这个小节中，D是K上的有限次数的域和中心K。 我们用乘法群$D^*$的$D^*_{ab}$商表示其派生（或换位子）群，并用$D^*$到$D^*_{ab}$的$\pi$典范同态表示。 映射 Nrd$_{D/K}$ 引发从 $D^*$ 到 $K^*$ 的群同态；该同态的核包含 $D^*$ 的派生群，因​​为 K 是可交换的。 因而，从$D^*_{ab}$到$K^*$存在唯一同态Nrd，使得对于每个$x\in D^*$，Nrd$_{D/K}(x) =$Nrd$\circ \pi (x)$。
 
 #### 命题 9 {#alg-viii-s17-prop-9 .statement tag=00L2}
 
-令V为域D上的有限维右向量空间。令E为代数End$_D(V)$在域K上；它是中心简单且有限次数。对于 E 的每个可逆元 $u$，我们有
+令 V 为域 D 上的有限维右向量空间。令 E 为域 K 上的代数 End$_D(V)$；它是中心简单且有限次数。对于 E 的每个可逆元 $u$，我们有
 
 (64) Nrd$_{E/K}(u) =$ Nrd(det $u$)
 
-（cf.VIII、p. 452、命题 2 表示$u$的行列式$u$的定义）。
+（cf. VIII、p. 452、命题 2 对应行列式的定义，以及$u$ 的$u$）。
 
-我们用 $n$ 表示 D 上的 V 的维数，并使用 D 上的 V 的基表示矩阵代数 $\mathbf{M}_n(D)$ 和认同 E。 乘法群 GL$_n(D)$ 代数 E 由对角线矩阵和矩阵 $B_{ij}(\lambda )$ 生成（II, §10, No. 13，p. 362，推论 1）。因而，从下面两个具体情况可以得出命题 9。
+我们用 $n$ 表示 D 上的 V 的维数，用矩阵代数 $\mathbf{M}_n(D)$ 表示认同 E，使用 D 上的 V 的基。 代数 E 的乘法群 GL$_n(D)$ 由对角线生成矩阵和矩阵 $B_{ij}(\lambda )$（II, §10, No. 13、p. 362、推论 1）。因而，从下面两个具体案例可以得出命题 9。
 
-A) 假设 $u$ 是对角矩阵 diag($a_1, . . . , a_n$)。对于每个$1\leqslant i\leqslant n$，令$L_i$为D包含$a_i$的极大交换子域；令 L 为对角线矩阵 diag($t_1, . . . , t_n$) 的 E 由……组成的子代数，$t_i\in L_i$ 为 $1\leqslant i\leqslant n$。令 $d$ 为 D 对 K 的约化次数。对于 $1\leqslant i\leqslant n$，我们有 $[L_i: K] =d$（VIII，p. 265，推论 2）。 K-代数 L 与 $L_1\times  \cdots  \times L_n$ 同构的，因此半单等于次数 $nd$；现在，我们有$[E : K] =n^2[D : K] =n^2d^2= [L : K]^2$。由此可见，L是E的最大交换律半单子代数（VIII，p. 262，命题3）。到 VIII、p. 346 的命题 7 时，我们有 Nrd$_{E/K}(u) = N_{L/K}(u)$。因而，通过III, §9, No. 3、p. 544的公式(18)，我们有
+A) 假设 $u$ 是对角矩阵 diag($a_1, . . . , a_n$)。对于每个$1\leqslant i\leqslant n$，令$L_i$为D包含$a_i$的极大交换子域；令 L 为对角线矩阵 diag($t_1, . . . , t_n$) 的 E 由……组成的子代数，$t_i\in L_i$ 为 $1\leqslant i\leqslant n$。令 $d$ 为 D 对 K 的约化次数。对于 $1\leqslant i\leqslant n$，我们有 $[L_i: K] =d$ (VIII, p. 265, 推论 2)。 K-代数 L 与 $L_1\times  \cdots  \times L_n$ 同构的，因此半单等于次数 $nd$；现在，我们有$[E : K] =n^2[D : K] =n^2d^2= [L : K]^2$。由此可知 L 是 E 的最大交换律半单子代数 (VIII, p. 262, 命题 3)。到 VIII、p. 346 的命题 7 时，我们有 Nrd$_{E/K}(u) = N_{L/K}(u)$。因而，通过 III, §9, No. 3、p. 544 的公式 (18)，我们有
 
 Nrd$_{E/K}(u) =\prod_{i=1}^nN_{L_i/K}(a_i) =\prod_{i=1}^n$ Nrd$_{D/K}(a_i)$
 
 = Nrd$_{D/K}(a_1\cdots a_n) =$ Nrd($\pi (a_1\cdots a_n)$)。
 
-此外，我们通过 VIII、p. 453 的命题 3 来确定$u=\pi (a_1\cdots a_n)$，在这种情况下给出公式 (64)。
+此外，我们通过 VIII、p. 453 的命题 3 得到$u=\pi (a_1\cdots a_n)$，在这种情况下给出公式 (64)。
 
-B) 假设$u$等于$B_{ij}(\lambda )$，其中$\lambda$是D的元素，$i, j$是$[1, n]$区间内的不同整数。用 $d$ 表示 D 在 K 上的约化次数，并用 M 向量空间在 K 上通过从 D 到 K 的标量限制从 V 推导出来。那么 M 是一个简单的 E 模，我们有
+B) 假设$u$等于$B_{ij}(\lambda )$，其中$\lambda$是D的元素，$i, j$是区间$[1, n]$中的不同整数。 用 $d$ 表示 D 在 K 上的约简度，用 M 表示通过从 D 到 K 的标量限制从 V 推导出的 K 上的向量空间。 那么 M 是一个简单的 E 模块，我们有
 
 (65) 电脑$_{M/K}(u; X) =$ 电脑$_{E/K}(u; X)^d$
 
-由公式 (26) 共 VIII、p. 341。另外，M在K上是维数$nd^2$向量空间，$u-1_M$是M的幂零自同态；因此我们有
+由 VIII、p. 341 的公式 (26) 得出。而且，M在K上是维数$nd^2$的向量空间，并且$u-1_M$是M的幂零自同态；因此我们有
 
 （66）PC$_{M/K}(u; X) = (X-1)^{nd^2}$。
 

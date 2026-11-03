@@ -29,16 +29,16 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: e08e69e99757590a16785b1d29d3902ed8dced7504f9095481d15a9c5c708ab9
+content_sha256: 6d94423c653492ce19544bd0748c8155d95810b997d308b4fbe8c00d88a4771e
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
 translation_method: google
 source_content_sha256: a3148232ea5c844b272b5847081786d07ced849332b19697c848a4c2a2b6e871
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: ec0ac385c45f5f8b3f11231592a431d1aa650c98f8dfbfbf4bd4d2ceb610be9d
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
@@ -76,7 +76,7 @@ $$
 
 — *令 G 为 K 上连续仿射变换的可解群。则 K 中存在点，其在 G 下不变。*
 
-通过可解群 (A, I, § 6, No. 4) 的定义，存在 G 的不同子群的有限递减序列 $(G_i)_{0 \leq i \leq n}$，使得 $G_0 = G$、$G_n = \{e\}$ 且群 $G_{i-1}/G_i$ 是*可交换的* $1 \leq i \leq n$。令$K_i$表示K中$G_i$的固定点的集合。然后是$K_n = K$。此外，对于$1 \leq i \leq n$，$G_i$诱导的每元素在$K_i$上进行恒等变换；因而，如果 $K_i$ 非空，我们就可以在 K 上推出阿贝尔的群 $G_{i-1}/G_i$ 的作用；由此可见。 1 $K_i$中$G_{i-1}/G_i$固定点的集合$K_{i-1}$非空。通过在 $i$ 上下降归纳，我们结论 $K_0$ 非空，因此得出推论。
+通过可解群 (A, I, § 6, No. 4) 的定义，存在 G 的不同子群的有限递减序列 $(G_i)_{0 \leq i \leq n}$，使得 $G_0 = G$、$G_n = \{e\}$ 且群 $G_{i-1}/G_i$ 是*可交换的* $1 \leq i \leq n$。令$K_i$表示K中$G_i$的固定点的集合。然后是$K_n = K$。此外，对于$1 \leq i \leq n$，$G_i$诱导的每元素在$K_i$上进行恒等变换；因而，如果 $K_i$ 非空，我们就可以在 K 上推出阿贝尔的群 $G_{i-1}/G_i$ 的作用；由此可见。 1 $K_i$中$G_{i-1}/G_i$固定点的集合$K_{i-1}$非空。通过在 $i$ 上下降归纳，我们结论 $K_0$ 非空，因此推论。
 
 ### 2. 不变意味着
 
@@ -84,13 +84,13 @@ $$
 
 #### 定义 1 {#evt-iv-a0-def-1 .statement tag=07WK}
 
-*空间 $\mathscr{B}(X; \mathbf{R})$上的正线性形式$\mu$，其中X是拓扑空间，其中$\|\mu\| = 1$称为X上的均值。*
+*空间$\mathscr{B}(X; \mathbf{R})$上的正线性形式$\mu$，其中X是拓扑空间，其中$\|\mu\| = 1$称为X上的均值。*
 
 \* 当 X 是紧致的时，X 上的均值是 X 上的正测度，使得 $\mu(X) = 1$。 \*
 
 #### 引理 1 {#evt-iv-a0-lem-1 .statement tag=07WL}
 
-* X 上的平均值集合 K 是 Banach 空间 $E = \mathscr{B}(X; \mathbf{R})$ 的对偶的单位球的子集，其元素是线性形式 $\mu$，使得$\mu(1) = 1$。它是 $E'$ 的子集，对于 $\sigma(E', E)$ 是凸且紧的。*
+*X上的平均值集合K是Banach空间$E = \mathscr{B}(X; \mathbf{R})$的对偶的单位球的子集，其元素是线性形式$\mu$使得$\mu(1) = 1$。它是 $E'$ 的子集，对于 $\sigma(E', E)$ 是凸且紧的。*
 
 令 E 上的 $\mu$ 为线性形式，使得 $\mu(1) = 1$。对于每函数 $f \in E$，我们定义函数 $f' \in E$ $f'(x) = \|f\| - f(x)$ ($x \in X$)。首先假设$\mu$是均值；对于每个$f \in E$，我们有$f' \geq 0$，因而$\mu(f') \geq 0$，*即*$\mu(f) \leq \|f\|$；因而$\|\mu\| \leq 1$。
 
@@ -114,13 +114,13 @@ $$
 
 如果$K$由$\sigma(E', E)$诱导分配拓扑，映射$u_{\gamma}$是连续的。如果$\gamma$是同胚，$u_{\gamma} \mu$可以由$\mu$通过迁移或结构推出。最后，我们对$\Gamma$中的所有$\gamma, \gamma'$有$u_{\gamma} u_{\gamma'} = u_{\gamma' \gamma} u_{\gamma}$。由马尔科夫-卡库塔尼 th。 (IV, p. 39, th.1), *在$X$上存在一个均值$\mu$，使得$u_{\gamma} \mu = \mu$对于所有$\gamma \in \Gamma$；在其他字*中，对于$f \in E$和$\gamma \in \Gamma$，$\mu$满足关系$\mu(f) = \mu(f \circ \gamma)$。
 
-以类似的方式，th 的推论。 1 (IV, p. 40) 意味着以下结果：
+类似地，th 的推论。 1 (IV, p. 40) 意味着以下结果：
 
 #### 命题 1 {#evt-iv-a0-prop-1 .statement tag=07WM}
 
 *设$X$为拓扑空间，$G$为可解群。我们假设$G$对左侧的$X$进行运算，这样对于所有$g \in G$，从$X$到$X$的映射$x \mapsto g.x$都是连续的。那么 $X$ 上存在一个均值，该均值在 $G$ 下不变。*
 
-#### 推论{#evt-iv-a0-n2-cor-1 .statement tag=07WN}
+#### 推论 {#evt-iv-a0-n2-cor-1 .statement tag=07WN}
 
 *设$G$为可解拓扑群。那么 $G$ 上存在一个均值，它在左平移和右平移下保持不变。*
 
@@ -128,7 +128,7 @@ $$
 
 ### 3. 里尔-纳尔泽夫斯基定理
 
-In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\mathscr{T}$ a Hausdorff locally convex topology on $E$ for which the norm of $E$ is *lower semi-continuous*. 这些假设在以下情况下尤其得到满足：
+在本节中，$E$表示域$\mathbf{R}$和$\mathscr{T}$上的赋范*空间*，$E$上的Hausdorff局部凸拓扑，其中$E$的范数是*下半连续*。 这些假设在以下情况下尤其得到满足：
 
 a) $\mathscr{T}$ 是由范数空间 $E$ 的范数引发的拓扑。
 b) $\mathscr{T}$ 是规范化空间 $E$ 的弱化拓扑 $\sigma(E, E')$。
@@ -148,9 +148,9 @@ b) $K_2$ 中的每个 $x_1$ 和 $x_2$ 都有 $\| x_1 - x_2 \| < \varepsilon$。
 
 令$L$ 为$K$ 的所有极值点的集合的闭包。由克赖因-米尔曼 th。 (II,p. 55,第1),$K$是$L$的闭凸包络。由于$K$包含至少有两个点，$L$也是如此。对于每个$x \in L$，令$A_x$为所有$y \in L$中的集合，使得$\| x - y \| \leq \varepsilon / 4$。到假设，在$K$，存在$L$的可数子集$D$，使得$L = \bigcup_{x \in D} A_x$。由于范数是下半连续的，因此集合$A_x$都是闭集。 应用贝尔的第 3 次。 (GT, IX, § 5, No. 3, th. 1) 到紧空间 $L$，我们看到$D$中存在点$a$，$E$中存在开子集$U$，使得$L \cap U$为非空且包含在 $A_a$ 中。由于$L$包含至少有两个点，并且由于$E$是Hausdorff，因此我们可以通过$L \notin U$这样的方式来选择$U$。
 
-Let $M$ be the closed convex envelope of $L \cap \complement U$. For every 实数 $t$ such that $0 < t < 1$, let $M_t$ be 集合 of all 向量 of 形式 $tx_1 + (1 - t) x_2$ with $x_1 \in M$ and $x_2 \in K$; this is a non-empty, compact convex 子集 of $K$. We shall prove that $M_t \neq K$ by reductio ad absurdum.假设$M_t = K$； then every extremal 点 $x$ in $K$ 属于 to $M_t$, hence can be written in 形式 $x = tx_1 + (1 - t) x_2$ with $x_1 \in M$ and $x_2 \in K$.这意味着$x = x_1 = x_2$，所以$x \in M$。作者：Krein-Milman th。 (II, p. 55, th. 1), we have $K = M$, and $K$ is the closed convex envelope of $L \cap \complement U$. By II, p. 56, corollary, this implies that $L \subset L \cap \complement U$, which 与……矛盾关系 $L \cap U \neq \varnothing$.
+令 $M$ 为$L \cap \complement U$ 的封闭凸包络。对于每个实数$t$使得$0 < t < 1$，令$M_t$为形式$tx_1 + (1 - t) x_2$的所有向量以及$x_1 \in M$和$x_2 \in K$的集合；这是一个非空、紧凑凸子集 $K$。我们将通过反证法证明$M_t \neq K$。假设$M_t = K$；那么$K$属于到$M_t$中的每个极值点$x$，因此可以用$x_1 \in M$和$x_2 \in K$写成形式$x = tx_1 + (1 - t) x_2$。这意味着$x = x_1 = x_2$，所以$x \in M$。作者：Krein-Milman th。 （II，p. 55，第1），我们有$K = M$，$K$是$L \cap \complement U$的封闭凸包络。通过II、p. 56、推论，这意味着$L \subset L \cap \complement U$，即与……矛盾关系$L \cap U \neq \varnothing$。
 
-Put $d = \sup_{x \in K, y \in K} \| x - y \|$ and 选择实数 $t$ such that $0 < t < 1$ and $t < \varepsilon / 4d$.输入$K_1 = M_t$和$K_2 = K - M_t$。 By the preceding argument, 集合 $K_1$ and $K_2$ are non-empty, and $K_1$ is convex and compact. Let $M'$ be the closed convex envelope of $L \cap U$. Since $K$ is the closed convex envelope of 集合 $L = (L \cap \complement U) \cup (L \cap U)$, it is also the closed convex envelope of $M \cup M'$. Let $x_1$ and $x_2$ be two 点 in $K_2$; for $i = 1, 2$, there exist $y_i \in M$, $z_i \in M'$ and 实数 $\alpha_i$ such that $0 \leq \alpha_i \leq 1$ and $x_i = \alpha_i y_i + (1 - \alpha_i) z_i$.如果$\alpha_i \geq t$，那么
+将 $d = \sup_{x \in K, y \in K} \| x - y \|$ 和选择实数 $t$ 使得 $0 < t < 1$ 和 $t < \varepsilon / 4d$。输入$K_1 = M_t$和$K_2 = K - M_t$。根据前面的论证，集合、$K_1$和$K_2$非空，$K_1$是凸紧的。令 $M'$ 为 $L \cap U$ 的封闭凸包络。由于$K$是集合$L = (L \cap \complement U) \cup (L \cap U)$的闭凸包络，因此它也是$M \cup M'$的闭凸包络。设$x_1$和$x_2$为$K_2$中的两个点；对于$i = 1, 2$，存在$y_i \in M$、$z_i \in M'$和实数$\alpha_i$，使得$0 \leq \alpha_i \leq 1$和$x_i = \alpha_i y_i + (1 - \alpha_i) z_i$。如果$\alpha_i \geq t$，那么
 $$
 x_i = t y_i + (1 - t) \left\{ \frac{\alpha_i - t}{1 - t} y_i + \frac{1 - \alpha_i}{1 - t} z_i \right\}
 $$
@@ -158,7 +158,7 @@ $$
 $$
 \| x_i - z_i \| = \| \alpha_i (y_i - z_i) \| = \alpha_i \| y_i - z_i \| \leq \alpha_i d < dt < \varepsilon / 4 .
 $$
-For every 点 $z$ in $M'$, we have $\| z - a \| \leq \varepsilon / 4$, since $L \cap U \subset A_a$, and so, in particular $\| z_i - a \| \leq \varepsilon / 4$.因此
+对于$M'$中的每个点$z$，我们有$\| z - a \| \leq \varepsilon / 4$，从$L \cap U \subset A_a$开始，所以，特别是$\| z_i - a \| \leq \varepsilon / 4$。因此
 $$
 \| x_1 - x_2 \| \leq \sum_{i=1}^2 (\| x_i - z_i \| + \| z_i - a \|) < \varepsilon .
 $$
@@ -190,18 +190,18 @@ $i = 1, 2$。到性质 (A)，我们有$gx_i \in L_1$。由于$L_1$是凸的，�
 
 对于每个$g \in G$，令$K_g$表示K中所有点x中的集合，使得$gx = x$；令 K 被指定为弱化的拓扑；每个集合$K_g$在紧致空间K中都是凸且闭的。我们将证明交$\bigcap_{g \in G} K_g$非空；为此，只需证明对于G中的每个$g_1, ..., g_n$来说集合$K_{g_1} \cap ... \cap K_{g_n}$非空即可。固定$g_1, ..., g_n$并令H为$\{ g_1, ..., g_n \}$生成的G的子群。 K 中的选择点 a，令 L 表示 a 的轨道 Ha 的闭凸包络。令 D 为形式 $\lambda_1 h_1 a + \cdots + \lambda_m h_m a$ 的元素的可数集合，其中 $\lambda_1, ..., \lambda_m$ 是正有理数数，使得 $\lambda_1 + \cdots + \lambda_m = 1$ 和 $h_1, ..., h_m$ 是 H 中的元素。 D 的 $\overline{D}$ 对于强拓扑是凸的，因此它对于 $\sigma(E, E')$ 是封闭的（IV，p. 4，道具 2）；因而$\overline{D} = L$，这证明L是一个度量空间满足距离$(x, y) \mapsto \|x - y\|$的第一个可数公理。现在我们可以应用引理 2。L中存在点 b，它在H下是不变的，因而$b \in K_{g_1} \cap ... \cap K_{g_n}$。
 
-#### 推论{#evt-iv-a0-n3-cor-1 .statement tag=07WR}
+#### 推论 {#evt-iv-a0-n3-cor-1 .statement tag=07WR}
 
-— 设 E 为自反 Banach 空间，赋模空间 E 的自同构的 G 群，以及 E 的 K 子集。假设 K 在 G 下非空、凸、闭、有界且稳定。则 K 中存在点，其在 G 下不变。
+— 令 E 为自反 Banach 空间，赋模空间 E 的自同构的 G 群，以及 E 的 K 子集。假设 K 在 G 下非空、凸、闭、有界且稳定。则 K 中存在点，其在 G 下不变。
 
-由于 E 是自反的，因而 K 对于 $\sigma(E, E')$ (IV, p. 15, th. 1) 是紧致的。此外，G属于到$\mathscr{L}(E)$的每元素。
+由于 E 是自反的，因而 K 对于 $\sigma(E, E')$ (IV, p. 15, th. 1) 是紧致的。此外，G属于到$\mathscr{L}(E)$的每个元素。
 
 ### 4. 应用。
 
 \* A) 表示群 ：
 令 E 为复希尔伯特空间、G 群和 $\pi$ E 上 G 的酉表示，即同态从 G 到 E 的自同构的群。令 $E^G$ 为希尔伯特所有向量的E由……组成的子空间在$\pi(G)$下不变。对于每个 $x \in E$，令 $K_x$ 为 x 的轨道的闭凸包络。修复 E 中的点 x。
 
-我们将证明$K_x$中存在唯一的点，它在$\pi(G)$下不变，即x在$E^G$上的投影。由IV、p. 44推论（应用于底层实数向量空间到E），$K_x$中存在点，在$\pi(G)$下不变；令 a 为点；然后$a \in E^G$。令 P 为所有 $y \in E$ 的集合，使得 $y - x$ 与 $E^G$ 正交；我们立即看到 P 在 $\pi(G)$ 下是闭的、凸的且不变的；因而$x \in P$，因而$K_x \subset P$，最后$a \in P$。在其他字中，$a - x$与$E^G$正交；因而 a 是 x 到 $E^G$ 的投影。 \*
+我们将证明$K_x$中存在唯一的点，它在$\pi(G)$下不变，即x在$E^G$上的投影。通过IV、p. 44、推论（应用于底层实数向量空间到E），$K_x$中存在点，在$\pi(G)$下不变；令 a 为点；然后$a \in E^G$。令 P 为所有 $y \in E$ 的集合，使得 $y - x$ 与 $E^G$ 正交；我们立即看到 P 在 $\pi(G)$ 下是闭的、凸的且不变的；因而$x \in P$，因而$K_x \subset P$，最后$a \in P$。在其他字中，$a - x$与$E^G$正交；因而 a 是 x 到 $E^G$ 的投影。 \*
 
 \* B) 希尔伯特空间中运算符的踪迹：
 假设表示$\pi$是不可约的，即不存在E的希尔伯特子空间，不同于$\{0\}$和E，它在$\pi(G)$下不变。令 $F = \mathscr{L}^2(E)$ 为 E 的所有 Hilbert-Schmidt 自同态的希尔伯特空间，标量为乘积 $\langle u|v \rangle = \operatorname{Tr}(u^*v)$。我们定义一个酉表示$\lambda$从G通过公式进入F
@@ -216,7 +216,7 @@ $\lambda(G)$ 下 E 不变量的所有元素的空间 $F^G$ 由 E 的希尔伯特
 
 将A)的结果应用代入酉表示$\lambda$，我们得到以下定理：
 
-设$u \in \mathscr{L}^2(E)$，并令$A_u$为E的自同态$\pi(g)\ u\pi(g)^{-1}$的集合的$\mathscr{L}^2(E)$的闭凸包络，其中g穿过G。如果E是无限维的，则我们有$0 \in A_u$。如果 E 是维数 d 的有限维，则 $A_u$ 中存在唯一的位似，即 u 的投影 $\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$ 到 $\mathscr{L}^2(E)$ 的子空间 $\mathbf{C}.1_E$。 \*
+设$u \in \mathscr{L}^2(E)$，并令$A_u$为E的自同态$\pi(g)\ u\pi(g)^{-1}$的集合的$\mathscr{L}^2(E)$的闭凸包络，其中g穿过G。如果E是无限维的，则我们有$0 \in A_u$。如果E是维数d的有限维，则$A_u$中存在唯一的位似，即u的投影$\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$到$\mathscr{L}^2(E)$的子空间$\mathbf{C}.1_E$。 \*
 
 C) 紧凑群的哈尔测度：
 
@@ -226,7 +226,7 @@ $$
 \| f \| = \sup_{x \in G} |f(x)| .
 $$
 
-对于所有$x \in G$，我们通过公式对E进行定义自同构$\gamma_x$和$\delta_x$
+对于所有 $x \in G$，我们将 E 的定义自同构 $\gamma_x$ 和 $\delta_x$ 乘以公式
 
 $$
 \gamma_x f(y) = f(x^{-1}y) , \quad \delta_x f(y) = f(yx)
@@ -262,9 +262,9 @@ $\mu$在$G$的左平移下不变是直接的，等式$\mu(f) = \mu'(f)$意味着
 
 令$X$为豪斯多夫拓扑空间，$\mu$为$X$的正有界测度，$G$群为$X$的同胚。假设对于所有$g \in G$，映射$g : X \to X$下$\mu$的测度$g.\mu$、像为基$\mu$。令$u_g$为$X$上的$\mu$可积正函数，使得$g.\mu = u_g.\mu$。还假设$X$上存在两个正的$\mu$、可积函数、$\phi$和$\psi$，它们不是$\mu$-空，并且使得$\phi \leq u_g \leq \psi$$\mu$-对于所有$g \in G$来说几乎无处不在。我们将证明$X$上存在正有界测度$\nu \neq 0$，其中基$\mu$，且在$G$下不变。
 
-Let $P$ be the subset of the Banach space $E = L^1(X, \mu)$ consisting of classes of functions $f$ such that $\phi \leq f \leq \psi$ $\mu$-almost everywhere. 那么$P$对于弱化的拓扑$\sigma(E, E')$来说是紧致的。 The mapping $h \mapsto h.\mu$ from $P$ into the Banach space $F = \mathscr{M}^b(X)$ of bounded real measures on $X$, is a bijection from $P$ onto a subset $P_1$ of $E$ which is convex and compact for the topology $\sigma(F, F')$. 由假设，$g.\mu \in P_1$ 为所有 $g \in G$。 令$K$为所有测度$g.\mu$的集合的封闭凸包络。 对于所有$g \in G$，映射$\nu \mapsto g.\nu$是$K$的等距仿射变换。 作者：Ryll-Nardzewski。 (IV,p. 43,th.2)，存在一个测度$\nu \in K$，它在$G$下不变。 我们有$\phi.\mu \leq \nu$，因此有$\nu \neq 0$。 \*
+令 $P$ 为 Banach 空间 $E = L^1(X, \mu)$ 的子集，该空间由函数类 $f$ 组成，使得 $\phi \leq f \leq \psi$ $\mu$ 几乎无处不在。 那么$P$对于弱化的拓扑$\sigma(E, E')$来说是紧致的。 从$P$到$X$上有界实测度的巴拿赫空间$F = \mathscr{M}^b(X)$的映射$h \mapsto h.\mu$，是从$P$到$E$的子集$P_1$的双射，对于拓扑$\sigma(F, F')$来说是凸且紧的。 由假设，$g.\mu \in P_1$ 为所有 $g \in G$。 令$K$为所有测度$g.\mu$的集合的封闭凸包络。 对于所有$g \in G$，映射$\nu \mapsto g.\nu$是$K$的等距仿射变换。 作者：Ryll-Nardzewski。 (IV,p. 43,th.2)，存在一个测度$\nu \in K$，它在$G$下不变。 我们有$\phi.\mu \leq \nu$，因此有$\nu \neq 0$。 \*
 
-Exercises
+习题
 
 ### 习题{#evt-iv-a0-exercises}
 

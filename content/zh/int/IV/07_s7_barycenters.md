@@ -37,16 +37,16 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 190c712eb9ce22ad95395085825798ccb004b70d6c83cf5f0e3a2eefc2c37d0e
+content_sha256: 2f4cc71cc62b08ef1baed7eb3c58fb5f3215b342609e593270b1c47bdc9764d4
 translated_from: content/en/int/IV/07_s7_barycenters.md
 translation_method: google
 source_content_sha256: a0b29318ee51bbadb84b433570743b81dc51c686140364de87fd714982b23900
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: abe05df311fcfcf6dba0226da04f16b4b7e2d3e9c085970b00f3cbb881d710a6
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 7。重心
@@ -69,7 +69,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 这只不过是第 5 章的提案 5。将III, §3, No. 2应用于K的典范嵌入到E中。
 
-#### 推论{#int-iv-s7-n1-cor-1 .statement tag=08YM}
+#### 推论 {#int-iv-s7-n1-cor-1 .statement tag=08YM}
 
 *如果 E 中 K 的闭凸包络C 是紧的，则 K 属于到 E 上总质量 1 的每个正测量的重心。*
 
@@ -89,15 +89,15 @@ $$
 $$
 \int h_\alpha(x) d\mu(x) \leq \int^* f(x) d\mu(x)
 $$
-每$\alpha$；现在，$\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x, z'_\alpha \rangle d\mu(x)$ 自 $\mu$ 的总质量为 1；但 $\int \langle x, z'_\alpha \rangle d\mu(x) = \langle b_\mu, z'_\alpha \rangle$ 乘以重心定义。因此$\sup_\alpha \int h_\alpha(x) d\mu(x) = \sup_\alpha h_\alpha(b_\mu) = f(b_\mu)$、从而结论。
+每$\alpha$；现在，$\int h_\alpha(x) d\mu(x) = c_\alpha + \int \langle x, z'_\alpha \rangle d\mu(x)$ 自 $\mu$ 的总质量为 1；但 $\int \langle x, z'_\alpha \rangle d\mu(x) = \langle b_\mu, z'_\alpha \rangle$ 乘以重心定义。因此$\sup_\alpha \int h_\alpha(x) d\mu(x) = \sup_\alpha h_\alpha(b_\mu) = f(b_\mu)$，从而结论。
 
 当 $\mu$ 是总质量 1 的 K 上的离散正测度时，命题 2 重新产生不等式，即定义 K 上的凸函数。
 
-#### 推论{#int-iv-s7-n1-cor-2 .statement tag=08YP}
+#### 推论 {#int-iv-s7-n1-cor-2 .statement tag=08YP}
 
 — 对于 K 上的每个有界且下半连续的凸数值函数函数 g，$g(b_\mu) \leq \int g d\mu$。
 
-只要 $\inf_{x \in K} g(x) = a$ 是有限的，并且满足注即可，并将命题 2 应用于 $g - a$。
+只要注意到 $\inf_{x \in K} g(x) = a$ 是有限的，并将命题 2 应用于 $g - a$ 就足够了。
 
 ### 2. 极值点和重心
 
@@ -105,7 +105,7 @@ $$
 
 — 令 K 为 Hausdorff 局部凸空间 E 的紧凸子集，K 的 x 点。总质量 1 的正 K 上的每个测量 $\mu$，并承认 x 作为重心，都位于承认 x 作为重心的总质量 1 的离散正测量的集合的模糊闭包中。
 
-对于模糊拓扑，令U为$\mu$的邻域；我们可以假设 U 由 K 上的测量 $\nu$ 组成，使得
+令U为模糊拓扑的邻域$\mu$；我们可以假设 U 由 K 上的测量 $\nu$ 组成，使得
 $$
 |\mu(f_i) - \nu(f_i)| \leq \delta
 $$
@@ -114,31 +114,31 @@ $$
 |f_i(y) - f_i(a)| \leq \delta/2
 $$
 
-for $1 \leq i \leq p$ and for every $y \in W_a = K \cap (a + V_a)$.由于$K$是紧致的，因此存在$K$的点$a_j$（$1 \leq j \leq r$）的有限数，使得$W_{a_j}$形式覆盖$K$（$1 \leq j \leq r$）。 Consider a continuous 划分 of 单位元 $(g_j)_{1 \leq j \leq r}$ on $K$, subordinate to the covering $(W_{a_j})$, and 集合 $\alpha_j = \mu(g_j)$ for all $j$; if $\alpha_j \neq 0$ 集合 $\mu_j = \alpha_j^{-1} g_j \cdot \mu$, and if $\alpha_j = 0$ 集合 $\mu_j = \varepsilon_{a_j}$.每个度量$\mu_j$都是正数，总质量为1，其支撑包含在紧凸凸集合$W_{a_j}$中；此外，通过定义，
+对于$1 \leq i \leq p$和每个$y \in W_a = K \cap (a + V_a)$。由于$K$是紧致的，因此存在$K$的点$a_j$（$1 \leq j \leq r$）的有限数，使得$W_{a_j}$形式覆盖$K$（$1 \leq j \leq r$）。考虑$K$上单位元$(g_j)_{1 \leq j \leq r}$的连续划分，从属于覆盖$(W_{a_j})$，以及所有$j$的集合$\alpha_j = \mu(g_j)$；如果$\alpha_j \neq 0$集合$\mu_j = \alpha_j^{-1} g_j \cdot \mu$，并且如果$\alpha_j = 0$集合$\mu_j = \varepsilon_{a_j}$。每个度量$\mu_j$都是正数，总质量为1，其支撑包含在紧凸凸集合$W_{a_j}$中；此外，通过定义，
 
 $$
 \mu = \sum_{j=1}^r \alpha_j \mu_j
 $$
 
-since $g_j \cdot \mu = 0$ if $\mu(g_j) = 0$; the $\alpha_j$ are $\geq 0$ and
+从$g_j \cdot \mu = 0$开始，如果$\mu(g_j) = 0$； $\alpha_j$ 是 $\geq 0$ 并且
 
 $$
 \sum_{j=1}^r \alpha_j = \sum_{j=1}^r \mu(g_j) = \mu \left( \sum_{j=1}^r g_j \right) = \mu(1) = 1 .
 $$
 
-令$x_j$为$\mu_j$的重心，其中属于到$W_{a_j}$（No. 1，命题1），并考虑离散测度$\nu = \sum_{j=1}^r \alpha_j \varepsilon_{x_j}$；它是正数，总质量为1，其重心为$\sum_{j=1}^r \alpha_j x_j$，根据式(3)，它也是$\mu$的重心，因此等于$x$。 Moreover, by (2), $|f_i(y) - f_i(a_j)| \leq \delta/2$ for all $y \in W_{a_j}$ and for all $i$, 从而, since $\operatorname{Supp}(\mu_j) \subset W_{a_j}$, $|\mu_j(f_i) - f_i(a_j)| \leq \delta/2$ for $1 \leq i \leq p$. On the other hand, since $x_j \in W_{a_j}$, one also has
+令$x_j$为$\mu_j$的重心，其中属于到$W_{a_j}$（No. 1，命题1），并考虑离散测度$\nu = \sum_{j=1}^r \alpha_j \varepsilon_{x_j}$；它是正数，总质量为1，其重心为$\sum_{j=1}^r \alpha_j x_j$，根据式(3)，它也是$\mu$的重心，因此等于$x$。此外，根据（2），$|f_i(y) - f_i(a_j)| \leq \delta/2$对于所有$y \in W_{a_j}$以及对于所有$i$，从而，从$\operatorname{Supp}(\mu_j) \subset W_{a_j}$开始，$|\mu_j(f_i) - f_i(a_j)| \leq \delta/2$对于$1 \leq i \leq p$。另一方面，从$x_j \in W_{a_j}$开始，也有
 
 $$
 |\varepsilon_{x_j}(f_i) - f_i(a_j)| \leq \delta/2
 $$
 
-对于 $1 \leq i \leq p$、从而 $|\mu_j(f_i) - \varepsilon_{x_j}(f_i)| \leq \delta$ 对于所有 $i$ 和 $j$。 Since the $\alpha_j$ are $\geq 0$ and have 和 1, it follows from (3) and 定义 of $\nu$ that $\nu$ satisfies 不等式 (1).
+对于 $1 \leq i \leq p$、从而 $|\mu_j(f_i) - \varepsilon_{x_j}(f_i)| \leq \delta$ 对于所有 $i$ 和 $j$。由于$\alpha_j$是$\geq 0$并且和为1，因此从(3)和$\nu$的定义可以得出，$\nu$满足不等式(1)。
 
 Q.E.D.
 
-#### 推论{#int-iv-s7-n2-cor-1 .statement tag=08YR}
+#### 推论 {#int-iv-s7-n2-cor-1 .statement tag=08YR}
 
-— *Let $K'$ be a compact 子集 of $K$ such that $K$ is the closed convex envelope of $K'$.在阶中，$x \in K'$是$K$的极值点，$\varepsilon_x$是总质量为1、以$x$为重心的$K'$上的唯一正测度是必要且充分的。*
+— *令 $K'$ 为 $K$ 的紧致子集，使得 $K$ 为 $K'$ 的封闭凸包络。在阶中，$x \in K'$是$K$的极值点，$\varepsilon_x$是总质量为1、以$x$为重心的$K'$上的唯一正测度是必要且充分的。*
 
 假设$x$是$K$的极值点；为了证明 $\varepsilon_x$ 是总质量为 1 的 $K'$ 上唯一的正测量，以 $x$ 作为重心，根据命题 3，只要看到*离散*的集合在 $K'$ 上的测量$\nu$ 是正的，总质量为 1，且 $x$ 为重心，约化至 $\varepsilon_x$。但这样的测度$\nu$是形式$\sum_{i=1}^r \lambda_i \varepsilon_{x_i}$，$\lambda_i > 0$代表$1 \leq i \leq r$和$\sum_{i=1}^{r} \lambda_i = 1$，假设$x$是$\nu$的重心可以写成$x = \sum_{i=1}^{r} \lambda_i x_i$。由于$x$是极值，这意味着$x_i = x$对于所有$i$，从而$\nu = \varepsilon_x$。
 
@@ -148,15 +148,15 @@ Q.E.D.
 
 — *令 E 为 $\mathbf{R}$ 上的 Hausdorff 局部凸空间，K 为 E 的可度量紧凸子集，M 集合为 K 的极值点。集合 M 为可数开集合族的交，其中K，并且 K 的每个点都是 K 上度量 $\mu$ 的重心，使得 $\mu(K - M) = 0$。*
 
-为了证明第一个断言，用I表示$\mathbf{R}$的区间$[0, 1]$；由于 K 是紧凑且可度量的，因此 $K \times K \times I$ 也是如此；由三元组$(x, y, \lambda)$构成$K \times K \times I$的子集 U，使得$x \neq y$和$0 < \lambda < 1$在$K \times K \times I$中开，因此在$K \times K \times I$中存在闭集合的序列$(F_n)$，其并是U （GT，IX, §2, No. 5，提案 7）。由$q(x, y, \lambda) = \lambda x + (1 - \lambda) y$定义的映射$q : K \times K \times I \to K$是连续的，并且由极值点的定义，$K - M = q(U) = \bigcup_n q(F_n)$；但 $F_n$ 是紧的，因为它在 $K \times K \times I$ 中是闭的，因此 $q(F_n)$ 是紧的，因此在 K 中是闭的；因此，集合 $U_n = K - q(F_n)$ 在 K 中开，我们有 $M = \bigcap_n U_n$。
+证明第一个断言，用$\mathbf{R}$的I区间$[0, 1]$表示；由于 K 是紧凑且可度量的，因此 $K \times K \times I$ 也是如此；由三元组$(x, y, \lambda)$构成$K \times K \times I$的子集 U，使得$x \neq y$和$0 < \lambda < 1$在$K \times K \times I$中开，因此在$K \times K \times I$中存在闭集合的序列$(F_n)$，其并是U （GT，IX, §2, No. 5，提案 7）。由$q(x, y, \lambda) = \lambda x + (1 - \lambda) y$定义的映射$q : K \times K \times I \to K$是连续的，并且由极值点的定义，$K - M = q(U) = \bigcup_n q(F_n)$；但 $F_n$ 是紧的，因为它在 $K \times K \times I$ 中是闭的，因此 $q(F_n)$ 是紧的，因此在 K 中是闭的；因此，集合 $U_n = K - q(F_n)$ 在 K 中开，我们有 $M = \bigcap_n U_n$。
 
-在证明的延续中，我们将用$u$表示K上的连续且*凸*数值函数，用$G \subset E \times \mathbf{R}$表示$u$的图，并用S表示$E \times \mathbf{R}$中G的*封闭凸包络*。
+在证明的延续中，我们将用$u$表示K上的连续且*凸*数值函数，用$G \subset E \times \mathbf{R}$表示$u$的图，并用S表示G在$E \times \mathbf{R}$中的*封闭凸包络*。
 
 #### 引理 1 {#int-iv-s7-lem-1 .statement tag=08YT}
 
-— *令 $\overline{u}$ 为 E 上的连续仿射线性函数的下包络，其为 K 上的 $\geq u$。则 S 为点 $(a, b) \in E \times \mathbf{R}$ 的集合，使得 $a \in K$ 和 $u(a) \leq b \leq \overline{u}(a)$。*
+— *令 $\overline{u}$ 为 E 上的连续仿射线性函数的下包络线，其为 K 上的 $\geq u$。则 S 为点 $(a, b) \in E \times \mathbf{R}$ 的集合，使得 $a \in K$ 和 $u(a) \leq b \leq \overline{u}(a)$。*
 
-根据Hahn-Banach 定理，对于$(a, b)$到属于到S，对于$E \times \mathbf{R}$上的每个连续仿射线性函数$h$，$h(a, b) \geq 0$是必要且充分的，使得$h(x, u(x)) \geq 0$对于$x \in K$。 设定$h(x, t) = f(x) - \lambda t$，其中$f$是E上的连续仿射线性函数，我们看到关系$(a, b) \in S$等价于以下性质：关系
+根据 Hahn-Banach 定理，对于 $(a, b)$ 到属于到 S，对于 $E \times \mathbf{R}$ 上的每个连续仿射线性函数 $h$，$h(a, b) \geq 0$ 是必要且充分的，使得 $h(x, u(x)) \geq 0$ 对于$x \in K$。 设定$h(x, t) = f(x) - \lambda t$，其中$f$是E上的连续仿射线性函数，我们看到关系$(a, b) \in S$等价于以下性质：关系
 
 $$
 f(x) \geq \lambda u(x) \quad \text{for all } x \in K
@@ -169,11 +169,11 @@ $$
 f(a) \geq \lambda b .
 $$
 
-首先集合$\lambda = 0$； (4) 蕴含 (5) 的事实对于 $E$ 上的每个连续仿射线性函数 $f$ 等价于 Hahn-Banach 定理的关系 $a \in K$。接下来，集合$\lambda = -1$和替换$f$乘$-f$；那么$K$中的关系$f(x) \leq u(x)$必然隐含$f(a) \leq b$。但由于 $u$ 在 $K$ 上是凸且连续的，$u(a)$ 等于 $f(a)$ 的上界，对于 $E$ 上的连续仿射线性函数 $f$，使得 $f(x) \leq u(x)$ 在 $K$ 上（TVS， II, §5, No. 4，提案 5)；因此我们得到关系$b \geq u(a)$。最后，集合$\lambda = 1$；如果说 (4) 蕴含 (5)，那么通过定义就意味着 $b \leq \overline{u}(a)$。这证明了引理，因为关系 (4)（或(5)）等价于两边都乘以标量$> 0$。
+第一集合$\lambda = 0$； (4) 蕴含 (5) 的事实对于 $E$ 上的每个连续仿射线性函数 $f$ 等价于 Hahn-Banach 定理的关系 $a \in K$。接下来，集合$\lambda = -1$和替换$f$乘$-f$；那么$K$中的关系$f(x) \leq u(x)$必然隐含$f(a) \leq b$。但由于 $u$ 在 $K$ 上是凸且连续的，$u(a)$ 等于 $f(a)$ 的上界，对于$E$ 上的连续仿射线性函数 $f$，使得 $f(x) \leq u(x)$ 在 $K$ 上（TVS， II, §5, No. 4，提案 5)；因此我们得到关系$b \geq u(a)$。最后集合$\lambda = 1$；如果说 (4) 蕴含 (5)，那么通过定义就意味着 $b \leq \overline{u}(a)$。这证明了引理，因为关系 (4)（或(5)）等价于两边都乘以标量$> 0$。
 
 #### 引理 2 {#int-iv-s7-lem-2 .statement tag=08YU}
 
-*If $u$ is strictly convex on $K$, then $u(x) < \overline{u}(x)$ for every non-extremal point $x$ of $K$.*
+*如果$u$在$K$上严格凸，则$u(x) < \overline{u}(x)$对于$K$的每个非极值点$x$。*
 
 因为，$K$存在两个不同的点$y, z$，使得$x = (y + z)/2$、从而$u(x) < (u(y) + u(z))/2$，因为$u$是严格凸的。如果$f$是$E$上的仿射线性函数，则$f(x) = (f(y) + f(z))/2$；将应用这个关系代入$K$上$\geq u$的连续仿射线性函数$f$，我们得到
 
@@ -181,7 +181,7 @@ $$
 \overline{u}(x) \geq (\overline{u}(y) + \overline{u}(z))/2 \geq (u(y) + u(z))/2 > u(x) .
 $$
 
-这些引理成立，因此我们（引理1）对于所有$a \in K$有$(a, \overline{u}(a)) \in S$。 Since $G$ is compact, being the image of $K$ under the continuous mapping $x \mapsto (x, u(x))$, there exists, by Prop. 1 of No. 1, a positive measure $\nu$ on $G$, of total mass 1 , having $(a, \overline{u}(a))$ as barycenter. 由于投影 $pr_1$ 到 $G$ 的限制是 $G$ 到 $K$ 的同胚，因此测度 $\nu$ 可以通过该同胚传输，从而在 $K$（正且总质量为 1 ）上产生测度 $\mu$，使得
+这些引理成立，因此我们（引理1）对于所有$a \in K$有$(a, \overline{u}(a)) \in S$。 由于$G$是紧致的，是$K$在连续映射$x \mapsto (x, u(x))$下的图像，根据No. 1的命题1，存在$G$上的正测度$\nu$，其总质量为1，以$(a, \overline{u}(a))$为重心。 由于投影 $pr_1$ 到 $G$ 的限制是 $G$ 到 $K$ 的同胚，因此测度 $\nu$ 可以通过该同胚传输，从而在 $K$（正且总质量为 1 ）上产生测度 $\mu$，使得
 
 (6)
 $$
@@ -215,11 +215,11 @@ Q.E.D.
 
 *设 E 为在 $\mathbf{R}$ 上的 Hausdorff 局部凸空间，C E 中顶点为 0 的真凸锥体，对于由 E 的弱均匀结构引起的均匀结构是完整且可度量的。设 M 为极值生成元的并 C。对于每个$\mathbf{x} \in C$，都存在C的紧凸子集 K 和总质量为 1 的 K 上的测度 $\lambda \geq 0$，使得 $K - (M \cap K)$ $\lambda$ 可忽略不计，$\lambda$ 的重心等于 $\mathbf{x}$。
 
-对于，$\mathbf{x}$属于到C的上限K（TVS，II, §7, No. 2，提案5），以及K的极值点的$M \cap K$包含集合（*loc.cit.*，提案第1条） 4).然后应用 Th 就足够了。 1.
+对于，$\mathbf{x}$属于到C的上限K（TVS，II, §7, No. 2，第5条），以及K的极值点的$M \cap K$包含集合（*loc.cit.*，Cor.1）命题 4）。然后应用 Th 就足够了。 1.
 
 ### 3. 应用：I。连续实数向量空间函数
 
-令X为非空紧致空间，$\mathscr{H}$巴拿赫空间$\mathscr{C}(X; \mathbf{R})$的线性子空间，包含常数并*分离*点与X （GT，X, §4, No. 1，默认 1）。我们为$\mathscr{H}$配备由$C(X; \mathbf{R})$诱导的范数空间拓扑，并用$\mathscr{H}'$表示该范数空间的对偶。对于每个$x \in X$，映射$f \mapsto f(x)$是$\mathscr{H}$上的连续线性形式（狄拉克测度$\varepsilon_x$的限制到$\mathscr{H}$），因此$\mathscr{H}'$的元素将是表示为 $i_{\mathscr{H}}(x)$，因此
+令X为非空紧凑空间，$\mathscr{H}$巴纳赫空间$\mathscr{C}(X; \mathbf{R})$的线性子空间，包含常数和*分离*点与X （GT，X, §4, No. 1，默认 1）。我们为$\mathscr{H}$配备由$C(X; \mathbf{R})$诱导的范数空间拓扑，并用$\mathscr{H}'$表示该范数空间的对偶。对于每个$x \in X$，映射$f \mapsto f(x)$是$\mathscr{H}$上的连续线性形式（狄拉克测度$\varepsilon_x$的限制到$\mathscr{H}$），因此$\mathscr{H}'$的元素将是表示为 $i_{\mathscr{H}}(x)$，因此
 
 $$
 \langle f, i_{\mathscr{H}}(x) \rangle = f(x)
@@ -227,7 +227,7 @@ $$
 
 对于每个函数$f \in \mathscr{H}$和每个$x \in X$。
 
-当$\mathscr{H}'$配备弱拓扑$\sigma(\mathscr{H}', \mathscr{H})$时，X到$\mathscr{H}'$的映射$i_{\mathscr{H}}$是单射且连续的；第二个断言紧接在定义和(9)之后；对于第一个，注，如果$x, x'$是X的两个不同的点，则通过假设，存在函数$h \in \mathscr{H}$，使得$h(x) \neq h(x')$，因此，通过（9），$\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$和*更不必说*$i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$。因此，像$i_{\mathscr{H}}(X)$是$\mathscr{H}'$的*紧*子集（对于弱拓扑），$i_{\mathscr{H}}$是X到$i_{\mathscr{H}}(X)$的*同胚*。
+当$\mathscr{H}'$配备弱拓扑$\sigma(\mathscr{H}', \mathscr{H})$时，X到$\mathscr{H}'$的映射$i_{\mathscr{H}}$是单射且连续的；第二个断言紧接在定义和(9)之后；对于第一个，请注意，如果$x, x'$是X的两个不同的点，则通过假设，存在函数$h \in \mathscr{H}$，使得$h(x) \neq h(x')$，因此，通过（9），$\langle h, i_{\mathscr{H}}(x) \rangle \neq \langle h, i_{\mathscr{H}}(x') \rangle$和*更不必说* $i_{\mathscr{H}}(x) \neq i_{\mathscr{H}}(x')$。因此，像$i_{\mathscr{H}}(X)$是$\mathscr{H}'$的*紧*子集（对于弱拓扑），$i_{\mathscr{H}}$是X到$i_{\mathscr{H}}(X)$的*同胚*。
 
 #### 命题 4 {#int-iv-s7-prop-4 .statement tag=08YX}
 
@@ -448,7 +448,7 @@ $$
 
 Q.E.D.
 
-#### 推论{#int-iv-s7-n5-cor-1 .statement tag=08Z8}
+#### 推论 {#int-iv-s7-n5-cor-1 .statement tag=08Z8}
 
 — *假设在加法中 $X$ 是可度量的。那么以下属性是等效的*：
 
@@ -474,7 +474,7 @@ $$
 
 在前面的定义中，让我们通过关系$|z_1| \leq 1$和$|z_2| \leq 1$定义的“多盘”$X_2$来计算替换$X_1$，从而产生子代数$\mathscr{A}_2'$和$\mathscr{A}_2$（ $\mathscr{C}(X_2; \mathbf{C})$的$\mathscr{A}_2'$。这里，最大原理表明$\mathrm{Ch}_{\mathscr{A}_2}(X_2)$是由关系$|z_1| = 1$和$|z_2| = 1$定义的“环面”。
 
-From these results, one deduces that there does not exist an *analytic isomorphism* of an open neighborhood of $X_1$ onto an open neighborhood of $X_2$ that *transforms* $X_1$ *into* $X_2$; for, if $v$ were the restriction to $X_1$ of such a mapping, one would have $\mathscr{A}_2 = v \mathscr{A}_1 v^{-1}$ and so $v$ would transform $S_3$ into a space homeomorphic to $T^2$, which is absurd since $S_3$ is simply connected but $T^2$ is not. 然而，我们会观察到空间 $X_1$ 和 $X_2$ 是“同胚”，两者都是 $\mathbf{R}^4$ 中的有界凸集合，内部为非空。*
+从这些结果可以推断，$X_1$的开邻域不存在$X_2$的开邻域*转换*$X_1$*到*$X_2$的*解析同构*；因为，如果$v$是这种映射对$X_1$的限制，那么就会有$\mathscr{A}_2 = v \mathscr{A}_1 v^{-1}$，因此$v$会将$S_3$转换为与$T^2$同胚的空间，这是荒谬的，因为$S_3$是单连通的，而$T^2$不是。 然而，我们会观察到空间 $X_1$ 和 $X_2$ 是“同胚”，两者都是 $\mathbf{R}^4$ 中的有界凸集合，内部为非空。*
 
 ### 6. 积分表示的唯一性
 
@@ -540,7 +540,7 @@ $$
 
 定义 $\overline{f}$ 如引理 5。显然，如果$y \in G$则$\overline{f}(y) = f(y)$。从 $\lambda^*(K - (K \cap G)) = 0$ 开始，我们就有了 $\lambda(f|K) = \lambda(\overline{f}|K)$。到引理 6，$\overline{f}$ 是仿射且上半连续的。因此$\overline{f}|K$是$\mathscr{A}'$的元素到K的递减有向集合到限制的下包络线（TVS，II, §5, No. 4，第6条）。令 $x \in K$ 为 $\lambda$ 的重心。如果$g \in \mathscr{A}$则$\lambda(g|K) = g(x)$。因此 $\lambda(\overline{f}|K) = \overline{f}(x)$（§ 4, No. 4，第 5 条命题第 2 条）。因此$\lambda(f|K) = \overline{f}(x)$，人们也可以看到类似的$\lambda'(f|K) = \overline{f}(x)$。
 
-#### 推论{#int-iv-s7-n6-cor-1 .statement tag=08ZD}
+#### 推论 {#int-iv-s7-n6-cor-1 .statement tag=08ZD}
 
 *设 E 为 Hausdorff 局部凸空间，C E 中顶点为 0 的真凸锥，承认紧底 M，并设 G 为 C 极值生成元的并。让$x \in M$。如果 C 是晶格有序的，则 M 上最多存在一个质量 1 的正测度 $\lambda$，使得 $\lambda^*(M - (G \cap M)) = 0$，并承认 x 作为重心。*
 

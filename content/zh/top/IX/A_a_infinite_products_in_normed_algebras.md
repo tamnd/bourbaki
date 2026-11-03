@@ -26,21 +26,21 @@ subsections:
       pdf_page: 221
 statements: 16
 exercises: 8
-content_sha256: 3916e35db48787b4f34f9d9cfca7a02491557893f5406870eab3593f135dc34d
+content_sha256: 4845ae2096515f64f3cab880455f2d951cdcaa13bcd9122dfacea7ea751efce1
 translated_from: content/en/top/IX/A_a_infinite_products_in_normed_algebras.md
 translation_method: google
 source_content_sha256: 4891adafb991bbb34168be7fb8caef2435567acb2d9b3db3045a912f02678465
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 54832ef30141cb7824920e1b825571990fc62528c3969636325cc476e317c1f7
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 附录
 
-# 无限乘积标准代数
+# 范数代数中的无限乘积
 
 ### 1. 范数代数中可乘序列
 
@@ -68,7 +68,7 @@ $$
 
 定义 1 可以立即推广到族 (x_n)_{n \in I} 的情况，其指标集合 I 是 \mathbf{Z} 的子集（由阶线性排序） \mathbf{Z})。我们将扩展留给读者，在这种情况下，结果如下（cf.习题1和2）。
 
-### 2. 多重性判据
+### 2. 乘数判据
 
 从现在开始，我们假设规范的代数 A 是完备的。
 
@@ -82,7 +82,7 @@ a) 令p为可乘数序列(x_n)的乘积，并假设p在A中为单位；那么 (�
 $$
 \|y - p\| \leq \alpha,
 $$
-y 为单位和 $\|y^{-1}\| \leq a$。到假设，对于每个$\varepsilon$使得$0 < \varepsilon < \alpha$，有\mathbf{N}的有限子集H_0，这样，对于\mathbf{N}包含H_0的每个有限子集H，我们有$\|p_H - p\| \leq \varepsilon$。令 $J_0 = [0, m]$ 为 \mathbf{N} 的区间，其中包含 H_0；对于\mathbf{N}中每一个不满足J_0的有限子集L，整数属于到L都大于属于到H_0；因而，如果$H = H_0 \cup L$，我们有$p_H = p_{H_0} p_L$。现在，由于$\|p_{H_0} - p\| \leq \varepsilon \leq \alpha$，$p_{H_0}$是单位，并且
+y 为单位和 $\|y^{-1}\| \leq a$。到假设，对于每个$\varepsilon$使得$0 < \varepsilon < \alpha$，有\mathbf{N}的有限子集H_0，这样，对于\mathbf{N}包含H_0的每个有限子集H，我们有$\|p_H - p\| \leq \varepsilon$。设$J_0 = [0, m]$为\mathbf{N}的区间，其中包含H_0；对于\mathbf{N}中每一个不满足J_0的有限子集L，整数属于到L都大于属于到H_0；因而，如果$H = H_0 \cup L$，我们有$p_H = p_{H_0} p_L$。现在，从$\|p_{H_0} - p\| \leq \varepsilon \leq \alpha$开始，$p_{H_0}$是单位，并且
 $$
 \|e - p_{H_0}^{-1} p\| \leq \varepsilon \|p_{H_0}^{-1} p\| \leq a \varepsilon;
 $$
@@ -92,7 +92,7 @@ $$
 $$
 最后$\|e - p_L\| \leq 2a \varepsilon$。
 
-b) 假设对于每个$\varepsilon > 0$，\mathbf{N} 都存在有限子集 J_0，这样，对于\mathbf{N} 的每个不满足J_0 的有限子集 L，我们有$\|e - p_L\| \leq \varepsilon$。令 $H_0 = [0, p]$ 为 \mathbf{N} 的区间，其中包含 J_0；那么\mathbf{N}中的每一个有限子集 H，其中包含 H_0都可以写成形式$H_0 \cup L$，其中L中的整数都大于H_0中的整数；因此我们有$p_H = p_{H_0} p_L$，并且由于L不满足$J_0$、$\|p_H - p_{H_0}\| \leq \varepsilon \|p_{H_0}\|$，因此不满足$\|p_H\| = (1 + \varepsilon)\|p_{H_0}\|$。若$p_{H_0} = 0$、序列$(x_n)$明显可乘且乘积为0；除了这个简单的情况，还有一个区间 $H_1 = [0, q]$ 包含 $H_0$，这样，对于 $\mathbf{N}$ 的每一个有限子集 $L$ 不满足 $H_1$，我们就有 $\|e - p_L\| \leq \varepsilon (\|p_{H_0}\|)^{-1}$。如上所述，对于每个有限子集 $H \supset H_1$，
+b) 假设对于每个$\varepsilon > 0$，\mathbf{N} 都存在有限子集 J_0，这样，对于\mathbf{N} 的每个不满足J_0 的有限子集 L，我们有$\|e - p_L\| \leq \varepsilon$。设$H_0 = [0, p]$为\mathbf{N}的区间，其中包含J_0；那么\mathbf{N}中的每一个有限子集 H，其中包含 H_0都可以写成形式$H_0 \cup L$，其中L中的整数都大于H_0中的整数；因此我们有$p_H = p_{H_0} p_L$，并且由于L不满足$J_0$、$\|p_H - p_{H_0}\| \leq \varepsilon \|p_{H_0}\|$，因而$\|p_H\| = (1 + \varepsilon)\|p_{H_0}\|$。若$p_{H_0} = 0$、序列$(x_n)$明显可乘且乘积为0；排除这个简单的情况，还有区间$H_1 = [0, q]$包含$H_0$，这样，对于$\mathbf{N}$中不满足$H_1$的每个有限子集$L$，我们有$\|e - p_L\| \leq \varepsilon (\|p_{H_0}\|)^{-1}$。如上所述，对于每个有限子集 $H \supset H_1$，
 
 $$
 \|p_H - p_{H_1}\| \leq (\|p_{H_0}\|)^{-1}\|p_{H_1}\|\varepsilon \leq \varepsilon (1 + \varepsilon).
@@ -106,11 +106,11 @@ $$
 \|e - p_{H_0}^{-1}p_H\| \leq \varepsilon,
 $$
 
-这表明，在$A$的单位的乘法群$G$中，$\mathfrak{F}(\mathbf{N})$的截面滤波器的映射$J \to p_J$下的像相对于左均匀性是柯西滤波器基 $G$；但由于$G$是*完整的*（章IX, § 3, no. 7，命题13），极限映射$J \to p_J$属于到$G$。
+由此可见，在$A$单位乘法群$G$中，$\mathfrak{F}(\mathbf{N})$的截面滤波器映射$J \to p_J$下的像是柯西滤波器基向左均匀度$G$；但由于$G$是*完整的*（章IX, § 3, no. 7，命题13），映射$J \to p_J$属于到$G$的极限。
 
 #### 注 {#top-ix-a0-n2-rem-1 .statement tag=0CA7}
 
-如果$(x_n)$是可乘的且乘积不是单位，定理1的条件不一定满足：对于例，如果所有$x_n$都等于相同的元素$x$，其中$\|x\| < 1$， 序列$(x_n)$是可乘的，其乘积为0，对于$\mathbf{N}$的每个非空有限子集$H$，我们有$\|p_H\| \leq \|x\| < 1 \leq \|e\|$。
+如果$(x_n)$是可乘的并且其乘积不是单位，则不一定满足定理1的条件：例如，如果所有$x_n$都等于相同的元素$x$，其中$\|x\| < 1$、序列$(x_n)$是可乘的，其乘积为0，对于$\mathbf{N}$的每个非空有限子集$H$，我们有$\|p_H\| \leq \|x\| < 1 \leq \|e\|$。
 
 #### 推出 1 {#top-ix-a0-thm-1-cor-1 .statement tag=0CA8}
 
@@ -124,7 +124,7 @@ $$
 
 #### 定理 2 {#top-ix-a0-thm-2 .statement tag=0CAA}
 
-*让*$A$*成为一个完全规范的代数*。 *如果*$(u_n)$*是*$A$的元素的绝对收敛级数，*则序列*$(e + u_n)$*可乘于*$A$； *如果所有元素* $e + u_n$ *都是单位在* $A$，*那么也是* $\prod_{n \in \mathbf{N}} (e + u_n)$。
+*让*$A$*成为一个完全规范的代数*。 *如果*$(u_n)$*是*$A$的元素的绝对收敛级数，*则序列*$(e + u_n)$*可乘于*$A$； *如果所有元素* $e + u_n$ *都是单位在* $A$，*那么* $\prod_{n \in \mathbf{N}} (e + u_n)$也是。
 
 让我们应用定理1的标准。对于$\mathbf{N}$的每个有限子集$L$，我们有$p_L - e = \prod_{n \in L} (e + u_n) - e = \sum_M \left( \prod_{n \in M} u_n \right)$，其中$M$贯穿$L$的所有非空子集的集合（通过诱导的线性排序）订购）。从$\prod_{n \in M} u_n \leq \prod_{n \in M} |u_n|$开始，我们可以写
 
@@ -132,19 +132,19 @@ $$
 ||p_1 - e|| = \sum_M (\prod_{n \in M} u_n) \cdot \prod_{i \in I} (1 + |u_i|) - 1.
 $$
 
-现在，由于级数（其通项为$|u_n|$）收敛于假设，序列$1 - |u_n|$可乘于$\mathbf{R}_+^*$（章IV, § 7, no. 4，定理4）。因此，对于每个$\varepsilon > 0$，都存在$\mathbf{N}$的有限子集$J_0$，这样，对于不满足$J_0$的$\mathbf{N}$的每个有限子集$L$，我们有$\left| \prod_{n \in L} (1 + ||u_n||) - 1 \right| \leq \varepsilon$；因此结果。
+现在，由于级数（其通项为$|u_n|$）与假设收敛，序列$1 - |u_n|$可乘于$\mathbf{R}_+^*$（章IV, § 7, no. 4，定理4）。因此，对于每个$\varepsilon > 0$，都存在$\mathbf{N}$的有限子集$J_0$，这样，对于不满足$J_0$的$\mathbf{N}$的每个有限子集$L$，我们有$\left| \prod_{n \in L} (1 + ||u_n||) - 1 \right| \leq \varepsilon$；因此结果。
 
-#### 推论{#top-ix-a0-n2-cor-1 .statement tag=0CAB}
+#### 推论 {#top-ix-a0-n2-cor-1 .statement tag=0CAB}
 
-*如果级数的通项为$u_n$是绝对收敛的，并且如果在$A$中元素$e - u_n$都不为零因子，则乘积$\prod_{n \in \mathbf{N}} (e + u_n)$在零因子中不是零因子 $A$.*
+*如果级数的通项为$u_n$是绝对收敛的，并且如果在$A$中元素$e - u_n$都不是零因子，则乘积$\prod_{n \in \mathbf{N}} (e + u_n)$在零因子中不是零因子 $A$.*
 
-只有整数 $n$ 的有限数使得 $|u_n| > 1$。令$J = [a, m]$为$\mathbf{N}$包含所有这些整数的区间。 序列$(e + u_n)$的乘积是$p_J$和元素$\prod_{n \notin J} (e - u_n)$的乘积，所有因子都是单位（章IX, § 3, no. 7， 命题 12) 的推论，因此本身就是单位；由于$p_J$是有限非零除数数的乘积，因此它不是零因子，因此$\prod_{n \in \mathbf{N}} (e + u_n)$不是零因子。
+只有整数 $n$ 的有限数使得$|u_n| > 1$。令$J = [a, m]$为$\mathbf{N}$包含所有这些整数中的区间。 序列 $(e + u_n)$ 的乘积是$p_J$ 和元素 $\prod_{n \notin J} (e - u_n)$ 的乘积，所有因子都是单位 (章 IX, § 3, no. 7， 推论到命题 12)，因此本身就是单位；由于$p_J$是有限非零除数数的乘积，因此它不是零因子，因此$\prod_{n \in \mathbf{N}} (e + u_n)$不是零因子。
 
-定理 2 给出的足够的条件乘法性一般来说是不必要的 (cf. 习题 6)。然而，在重要情况下，$A$是有限秩的代数超过域$\mathbf{R}$（即$A$是有限维的，向量空间超过$\mathbf{R}$）；特别是如果 $A$ 是四元数 $\mathbf{H}$ 的除法环，或矩阵代数 $\mathbf{M}_n(\mathbf{R})$：
+定理 2 给出的足够的条件乘法性通常不需要 (cf. 习题 6)。然而，在重要情况下，$A$是有限秩超过域$\mathbf{R}$的代数（即$A$是有限维的，向量空间超过$\mathbf{R}$）；特别是如果 $A$ 是四元数 $\mathbf{H}$ 的除法环，或矩阵代数 $\mathbf{M}_n(\mathbf{R})$：
 
 #### 命题 1 {#top-ix-a0-prop-1 .statement tag=0CAC}
 
-*令$A$为有限秩超过$\mathbf{R}$的标准化代数。如果$(e + u_n)$是$A$中的可乘序列，其乘积是$A$的单位，则级数其一般项是$u_n$是绝对收敛的。*
+*令$A$为有限秩超过$\mathbf{R}$的标准化代数。如果$(e + u_n)$是$A$中的可乘序列，其乘积是$A$的单位，则级数的一般项是$u_n$是绝对收敛的。*
 
 从章VII, § 3, no. 1，命题2，存在数$c > 0$，这样，对于$A$的点的每个有限族$(x_i)_{i \in I}$，我们有
 
@@ -232,7 +232,7 @@ $$
 
 b) *反之，如果序列* $(x_n)$ *满足这个条件，则无限乘积与一般因子* $x_n$ *收敛；如果*$A$中的每个*$x_n$*是单位，*那么*$\prod_{n=0}^\infty x_n$*是单位*。
 
-这个命题的证明一步步跟随着定理1的证明，留给读者（定理1的证明中的$N$的有限子集$L$要间隔替换）。
+这个命题的证明一步步跟随定理1的证明，留给读者（定理1的证明中的$N$有限子集$L$将被区间代替）。
 
 #### 推论 1 {#top-ix-a0-prop-2-cor-1 .statement tag=0CAG}
 

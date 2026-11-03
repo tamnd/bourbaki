@@ -26,16 +26,16 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: 9cb20d0d1de2f0987418b38d66262461555c2cbc60bbf5a9be4c4fc7efe7cbc8
+content_sha256: 7fb7e83b8fe2ed972a069cc27b848401fa04db7deb5ddda4e46116f34b2676b9
 translated_from: content/en/alg/V/08_s8_norms_and_traces.md
 translation_method: google
 source_content_sha256: c2e7557b98c678b7ab7b76840a046be64717fd2ef2e68d0dbcc702987b154e2d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 644f9c9f22fd0d68700b44659b1aee1b1857cc22e0996dea53f7d6fbd6348cd0
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 8。 范数和痕迹
@@ -44,7 +44,7 @@ prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
 
 ### 1. 记起
 
-令 A 为 K 上的有限次数 $n$ 的代数。对于每个 $x \in A$，我们用 A 的 $L_x$ 线性映射 $a \mapsto xa$ 表示其自身。我们回想一下（III，p. 543），$L_x$的迹称为x相对于A的迹，记为$\mathrm{Tr}_{A/K}(x)$；同样，$L_x$的行列式称为x相对于A的范数，并用$N_{A/K}(x)$表示。 A 的 n 元素的序列 $(x_1, ..., x_n)$ 的判别式是由定义矩阵 $(\mathrm{Tr}_{A/K}(x_i x_j))_{1 \leq i,j \leq n}$ 的行列式$D_{A/K}(x_1, ..., x_n)$ (III，p. 549)。
+令 A 为 K 上的有限次数 $n$ 的代数。对于每个 $x \in A$，我们用 A 的 $L_x$ 线性映射 $a \mapsto xa$ 表示其自身。我们回想一下（III，p. 543），$L_x$的迹称为x相对于A的迹，记为$\mathrm{Tr}_{A/K}(x)$；同样，$L_x$的行列式称为x相对于A的范数，记为$N_{A/K}(x)$。 A的n个元素的序列$(x_1, ..., x_n)$的判别式是通过矩阵$(\mathrm{Tr}_{A/K}(x_i x_j))_{1 \leq i,j \leq n}$的定义行列式$D_{A/K}(x_1, ..., x_n)$(III，p. 549)。
 
 令 K' 为 K 的扩张，并令 $A' = A_{(K')}$ 为通过标量的扩张从 A 导出的 K' 代数。我们有公式
 
@@ -77,7 +77,7 @@ $$
 \text{Tr}_{A/K}(x) \cdot 1 = \sum_{i=1}^n u_i(x) , \quad \text{N}_{A/K}(x) \cdot 1 = \prod_{i=1}^n u_i(x) .
 $$
 
-Let $v$ be multiplication by $l \otimes x$ in $A_{(L)}$; with respect to the basis of $A_{(L)}$ which is the image under $u^{-1}$ of the canonical basis of $L^n$, the matrix of the linear mapping $v$ is diagonal, with diagonal elements $u_1(x), \ldots, u_n(x)$. 我们结论那个
+令$v$乘以$A_{(L)}$中的$l \otimes x$；相对于$A_{(L)}$的基（$L^n$的规范基$u^{-1}$下的图像），线性映射$v$的矩阵是对角的，对角元素为$u_1(x), \ldots, u_n(x)$。 我们结论那个
 
 $$
 Tr_{A_{(L)}/L}(1 \circ x) \cdot 1 = \sum_{r=1}^n u_i(x) , \quad \text{whence} \quad \text{Tr}_{A/K}(x) \cdot 1 = \sum_{i=1}^n u_i(x) \text{ by (1)} ;
@@ -143,7 +143,7 @@ K 中只有解 $A, = \cdots = A, = 0$。如果我们放入 $x = \sum_{i=1}^n \la
 
 最后让我们证明 b) 蕴涵 a)。令$(x_1, \ldots, x_n)$为A除以K的基，使得$D_{A/K}(x_1, \ldots, x_n) \neq 0$。令 K' 为 K 的扩张，A' 为由 A 的标量扩张和 $1 \leq i \leq n$ 的 $x'_i = 1 \otimes x_i$ 导出的 K' 代数。到公式 (2) (V, p. 47) 我们有$D_{A'/K'}(x'_1, \ldots, x'_n) \neq 0$。 应用 A' 的前面结果我们看到 A' 被约简，因此代数 A 是 etale (V, p. 34, Th. 4)。
 
-#### 推论{#alg-v-s8-n2-cor-1 .statement tag=06LC}
+#### 推论 {#alg-v-s8-n2-cor-1 .statement tag=06LC}
 
 — 令 E 为 K 的扩张 *有限* 次数。为了使 E 可分离，E 中存在 a 使得 $\mathrm{Tr}_{E/K}(a) \neq 0$ 是必要且充分的。
 
@@ -161,7 +161,7 @@ $$
 \text{N}_{F/K}(x) = \text{N}_{E/K}(\text{N}_{F/E}(x)) .
 $$
 
-#### 推论{#alg-v-s8-n3-cor-1 .statement tag=06LE}
+#### 推论 {#alg-v-s8-n3-cor-1 .statement tag=06LE}
 
 — 将$m = [F : E]$；那么对于每个 $x \in E$ 我们有
 $$
@@ -203,7 +203,7 @@ $$
 \end{pmatrix}
 $$
 
-这个矩阵的痕迹明显是$-a$；行列式可以通过第一行展开来计算，然后我们发现
+这个矩阵的痕迹明显是$-a$； 行列式可以通过第一行展开来计算，然后我们发现
 
 $$
 (-1)^{d-1} (-a_d) = (-1)^d a_d .
@@ -233,7 +233,7 @@ c) *一般情况*：我们可以总结范数的计算和跟踪如下命题：
 
 #### 命题 4 {#alg-v-s8-prop-4 .statement tag=06LH}
 
-*令 p 为 K 的有限次数的 K 和 E 扩张的特征指数。令 $\sigma_1, \ldots, \sigma_n$ 为 E 与 K 的代数闭包 $\Omega$ 的不同 K 同态，并令 $p^e = [E:K]_i$。对于每个 $x \in E$，我们都有 $\Omega$*
+*令p为K的特征指数和K的有限次数的特征扩张。令$\sigma_1, \ldots, \sigma_n$为E到K的代数闭包$\Omega$的不同K同态，并令$p^e = [E:K]_i$。对于每个 $x \in E$，我们都有 $\Omega$*
 
 $$
 \text{Tr}_{E/K}(x) = p^e \cdot \sum_{i=1}^n \sigma_i(x) , \quad N_{E/K}(x) = \left( \prod_{i=1}^n \sigma_i(x) \right)^{p^e} .

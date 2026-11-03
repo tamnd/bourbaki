@@ -13,23 +13,23 @@ pdf_pages: 0368-0375
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a51556310a44502a3243c04e59f662f6e833455cba1c70a230fbecaba09843ba
+content_sha256: b7ece19b960b00fbc840eb0f2cf9de2d1f36873c076d3c17a4bc5732caec6d4d
 translated_from: content/en/ens/ER/04_s4_union_intersection_product_of_a_family.md
 translation_method: google
 source_content_sha256: 4b835593887f6b43eb749a64666773682e6a55745eeea04dc0f501209be0cff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 40b383969c556695a4fd6d696b7ef9c309a6b81fb141b6cce39d378872857cc5
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## 4. 并、交、集族的积
 
 1. 在这个截面中，我们考虑集合$E$的子集的$(X_i)_{i\in I}$族，其中指标集合$I$是任意的； $E$ 属于的集合 / 子集给家庭将用$\mathfrak{X}$ 表示（因此是子集 / $\mathfrak{P}(E)$）。
 
-如果$I$是有限的，$(X_i)$约化对$E$的几个子集的考虑，可能是不同的，也可能不是不同的，并且在数中等于$I$的元素的数。对于例，$E$形式中的任意三个子集$X_1,X_2,X_3$$E$中的子集家庭，指标集合这里由……组成中数1, 2， 3.
+如果$I$是有限的，$(X_i)$约化对$E$的几个子集的考虑，可能是不同的，也可能不是不同的，并且在数中等于$I$的元素的数。例如，$E$形式任意三个子集$X_1,X_2,X_3$$E$子集，指标集合这里由……组成数1,2,3。
 
 2. 令$J$为$I$中的任意子集，并考虑所有具有性质的元素$x$中的集合，“存在$i\in J$使得$x\in X_i$”。这个集合称为集合$(X_i)_{i\in J}$家族的并，记为$\displaystyle\bigcup_{i\in J}X_i$。
 
@@ -43,9 +43,9 @@ $$
 
 当$J=I$时，我们经常写$\displaystyle\bigcup X_i$，或者简称为$\displaystyle\bigcup X_i$，来代替$\displaystyle\bigcup_{i\in I}X_i$。
 
-并$\displaystyle\bigcup_{i\in I}X_i$仅取决于集合$\mathfrak{X}$；其他字，两个家庭相应的到子集$\mathfrak{X}$$\mathfrak{P}(E)$是一样的。特别是，它等于$\mathfrak{X}$的典范映射到$\mathfrak{P}(E)$定义的族的并，因此我们可以写成$\displaystyle\bigcup_{X\in\mathfrak{X}}X$，也称为集合属于到$\mathfrak{X}$的并。
+并$\displaystyle\bigcup_{i\in I}X_i$仅取决于集合$\mathfrak{X}$；其他字，两个家庭的相应的到$\mathfrak{P}(E)$的子集$\mathfrak{X}$是一样的。特别是，它等于$\mathfrak{X}$的典范映射到$\mathfrak{P}(E)$定义的族的并，因此我们可以写为$\displaystyle\bigcup_{X\in\mathfrak{X}}X$，也称为集合属于到$\mathfrak{X}$的并。
 
-当$I$是集合且元素被显式指定时，对于例数1,2,3，我们有
+当$I$是集合且元素被显式指定时，例如数1,2,3，我们有
 
 $$
 \bigcup_{i\in I}X_i=X_1\cup X_2\cup X_3,
@@ -53,7 +53,7 @@ $$
 
 这证明了一般情况下给出的名称“并”是集合$\displaystyle\bigcup_{i\in I}X_i$。
 
-# 结果摘要
+# 结果总结
 
 3. 对于任意$J\subset I$，我们有
 
@@ -177,7 +177,7 @@ $$
 \bigcap_{\iota\in\varnothing}X_\iota=E.
 $$
 
-交$\displaystyle\bigcap_\iota X_\iota$仅依赖于集合$\mathfrak{F}$，并且可以写成$\displaystyle\bigcap_{X\in\mathfrak{F}}X$。对于例，如果$I$由数$1$、$2$、$3$组成，我们有
+交$\displaystyle\bigcap_\iota X_\iota$仅依赖于集合$\mathfrak{F}$，并且可以写成$\displaystyle\bigcap_{X\in\mathfrak{F}}X$。例如，如果 $I$ 由数 $1$、$2$、$3$ 组成，我们有
 
 $$
 \bigcap_\iota X_\iota=X_1\cap X_2\cap X_3.
@@ -245,15 +245,15 @@ $$K\left(\bigcap_{i\in J}X_i\right)\subset\bigcap_{i\in J}K(X_i).$$
 
 $$\overline{f}^{\, -1}\left(\bigcap_{i\in J}X_i\right)=\bigcap_{i\in J}\overline{f}^{\, -1}(X_i).$$
 
-9. 令 E 为任意集合，令 I 为任意指标集合。 The set of all families $(x_i)_{i\in I}$ of elements of E, indexed by I, is denoted by $E^I$, and the operation of passing from E to $E^I$ is called exponentiation. $E^I$ is thus in one-to-one correspondence with the set of all mappings of I into E (which for this reason is often denoted by $E^I$, by abuse of language), as well as with a subset of $\mathfrak{P}(I \times E)$, by considering the graphs of these mappings. 因而，集合 I 的集合 $E^J$ 相应的至子集 $J$ 可以被视为全部为相同集合的子集，其与对应与子集是一一对应的。 $\mathfrak{P}(I \times E)$。
+9. 令 E 为任意集合，令 I 为任意指标集合。 E 的所有元素族 $(x_i)_{i\in I}$ 的集合，索引为 I，用 $E^I$ 表示，从 E 到 $E^I$ 的运算称为求幂。因而，通过考虑这些映射的图，$E^I$与I到E的所有映射的集合一一对应（由于这个原因，由于滥用语言，通常用$E^I$表示），并且与$\mathfrak{P}(I \times E)$的子集一一对应。 因而，集合 I 的集合 $E^J$ 相应的至子集 $J$ 可以被视为全部为相同集合的子集，其与对应与子集是一一对应的。 $\mathfrak{P}(I \times E)$。
 
-现在让$(X_\ell)_{\ell\in I}$是E的子集*的*族，由相同的集合I索引，并让J是I的任何子集。 性质“对于$(x_\ell)_{\ell\in J}$定义子集家族$E^J$的所有$\ell\in J$，$x_\ell\in X_\ell$”，称为集合*$(X_\ell)_{\ell\in J}$家族的*乘积，并表示为$\displaystyle\prod_{\ell\in J} X_\ell$（或当$J=I$时简单地$\displaystyle\prod_\ell X_\ell$）。 $X_\ell$称为乘积的*因子*。 注，$\displaystyle\prod_{\ell\in\varnothing} X_\ell$是一个元素的集合由……组成（相应的到$I\times E$的空子集）。 如果$X_\ell=E$对于所有$\ell\in J$，那么我们有
+现在让$(X_\ell)_{\ell\in I}$是E的子集*的*族，由相同的集合I索引，并让J是I的任何子集。 性质“对于$(x_\ell)_{\ell\in J}$定义子集家族$E^J$的所有$\ell\in J$、$x_\ell\in X_\ell$”，称为集合*$(X_\ell)_{\ell\in J}$家族的*乘积，并用$\displaystyle\prod_{\ell\in J} X_\ell$表示（或者当 $J=I$ 时简单地 $\displaystyle\prod_\ell X_\ell$）。 $X_\ell$称为乘积的*因子*。请注意，$\displaystyle\prod_{\ell\in\varnothing} X_\ell$ 是元素的集合由……组成（相应的到$I\times E$ 的空子集）。如果 $X_\ell=E$ 对于所有 $\ell\in J$，那么我们有
 
 $$
 \prod_{\ell\in J} X_\ell=E^J.
 $$
 
-如果对于例，I 由三个数 1、2、3 组成，则$\displaystyle\prod_{\ell\in J} X_\ell$ 与集合 $X_1\times X_2\times X_3$ 是一对一的对应。
+例如，如果 I 由三个数 1、2、3 组成，则 $\displaystyle\prod_{\ell\in J} X_\ell$ 与集合 $X_1\times X_2\times X_3$ 是一对一的对应。
 
 10. 如果 $R\{x,y\}$ 是集合 E 的泛型元素 $x$ 和集合 F 的泛型元素 $y$ 之间的关系，则以下命题 *等效*：
 

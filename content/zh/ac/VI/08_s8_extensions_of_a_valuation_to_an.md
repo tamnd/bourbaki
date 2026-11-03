@@ -41,21 +41,21 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: 11563673053f837cd86858bba889fd1d600b78affde497cffd2d1caf8ffd09f8
+content_sha256: c56f335bcff92e5de71e41d3cf954e4d54878d1289f148012168c4fe67ac11ee
 translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
 translation_method: google
 source_content_sha256: cdeab4f8e3ec406096d5a84060f974fac6c1348ec20e61d5f464c6c18df5b822
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 4155c6ee236a5de7f4ead620f10c6ec80f5c6ff974781dfd1abe50fa8b5907ab
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 8. 扩张代数估值扩张
+## 8. 代数评估的扩张扩张
 
-### 1. 衍生指标。 剩余类类次数
+### 1. 分支指标。 剩余类类次数
 
 令$\mathbf{K}$为域，$\mathbf{L}$扩张为$\mathbf{K}$，$\mathbf{A}'$为$\mathbf{L}$的估值环。正如在 § 1, no. 4 中所见，环 $\mathbf{A} = \mathbf{K} \cap \mathbf{A}'$ 是 $\mathbf{K}$ 的估值环，并且
 $$
@@ -138,7 +138,7 @@ $$
 
 *令$G'$为$G$和$\mathscr{G}'$（或$\mathscr{G}$）的全序群、$G$子群和$G'$（或$G$）的孤立子群的集合。 映射$H' \mapsto H' \cap G$映射$\mathscr{G}'$到$\mathscr{G}$。如果 $G'/G$ 是挠元群，则映射是双射的。*
 
-显然$H' \in \mathscr{G}'$蕴含$H' \cap G \in \mathscr{G}$。 现在令 $H \in \mathscr{G}$；令$H'$表示$x' \in G'$的集合，使得存在$h \in H$满足$-h \leq x' \leq h$；立即验证$H'$是$G'$的孤立子群；那么$H' \cap G = H$，因为$H$是孤立的；因此映射 $H' \mapsto H' \cap G$ 是满射。 Suppose finally that $G'/G$ is a torsion group; let $H'_1$ and $H'_2$ be two isolated subgroups of $G'$ such that $H'_1 \cap G = H'_2 \cap G$; then, for example, $H'_1 \supset H'_2$ (cf. § 4, no. 4); then $H'_1/H'_2$ is a totally ordered group and is isomorphic to a quotient group of $H'_1/(H'_1 \cap G)$ which itself is identified with a subgroup of $G'/G$; hence $H'_1/H'_2$ is a torsion group and therefore reduces to 0.
+显然$H' \in \mathscr{G}'$蕴含$H' \cap G \in \mathscr{G}$。 现在令 $H \in \mathscr{G}$；令$H'$表示$x' \in G'$的集合，使得存在$h \in H$满足$-h \leq x' \leq h$；立即验证$H'$是$G'$的孤立子群；那么$H' \cap G = H$，因为$H$是孤立的；因此映射 $H' \mapsto H' \cap G$ 是满射。 最后假设$G'/G$是挠群；设$H'_1$和$H'_2$是$G'$的两个孤立子群，使得$H'_1 \cap G = H'_2 \cap G$；那么，例如，$H'_1 \supset H'_2$ (cf. § 4, no. 4)；则 $H'_1/H'_2$ 是一个全序群，并且与 $H'_1/(H'_1 \cap G)$ 的商群同构，该商群本身等同于 $G'/G$ 的子群；因此 $H'_1/H'_2$ 是一个挠群，因此减少到 0。
 
 #### 推论 2 {#ac-vi-s8-lem-3-cor-2 .statement tag=04WB}
 
@@ -147,7 +147,7 @@ $$
 #### 推论 3 {#ac-vi-s8-lem-3-cor-3 .statement tag=04WC}
 
 *假设$L$是$K$的有限扩张。为了使 $v'$ 离散，$v$ 离散是充分必要的。*
-如果 $v'$ 是离散的，$\Gamma_{v'}$ 同构于 $\mathbf{Z}$ 的非零子群（推论 2），因此也同构于 $\mathbf{Z}$。相反，如果$v$是离散的，$\Gamma_v$与$\mathbf{Z}$同构的，$\Gamma_{v'}/\Gamma_v$是有限群（引理2）；因而 $\Gamma_{v'}$ 是秩 1 的有限生成交换律群并且无扭转；因此它与 $\mathbf{Z}$ 同构的。
+如果 $v'$ 是离散的，$\Gamma_{v'}$ 同构于 $\mathbf{Z}$ (推论 2) 的非零子群，因此也同构于 $\mathbf{Z}$。相反，如果$v$是离散的，$\Gamma_v$与$\mathbf{Z}$同构的，$\Gamma_{v'}/\Gamma_v$是有限群（引理2）；因而 $\Gamma_{v'}$ 是秩 1 的有限生成交换律群并且无扭转；因此它与 $\mathbf{Z}$ 同构的。
 
 ### 2. 扩张评估和完成
 
@@ -157,7 +157,7 @@ $$
 
 #### 命题 2 {#ac-vi-s8-prop-2 .statement tag=04WE}
 
-*设$K$在场，$v$对$K$进行估值，$\hat{K}$完备的$K$相对于$v$，$\hat{v}$$v$至$\hat{K}$的连续扩张，以及$L$ 次数 $n$ 的$K$ 的有限扩张。
+*令$K$在场，$v$对$K$进行估值，$\hat{K}$完备的$K$相对于$v$，$\hat{v}$$v$至$\hat{K}$的连续扩张，以及$L$ 次数 $n$ 的$K$ 的有限扩张。
 (a) 设$v'$为$L$延伸$v$的估值；令$\hat{L}_{v'}$表示$L$相对于$v'$和$8'$的完成，$v'$到$\hat{L}_{v'}$的连续扩张；识别$\hat{K}$与$\hat{L}_{v'}$中$K$的闭包，
 $$
 e(\hat{v}'|\hat{v}) = e(v'|v), \quad f(\hat{v}'|\hat{v}) = f(v'|v),
@@ -174,15 +174,15 @@ $$
 \phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
 $$
 
-（通过连续性延伸对角线映射 $L \to \prod_{i=1}^s L_i$）是满射，其核是 $\hat{K} \otimes_K L$ 的雅各布森根式，并且
+（通过连续性延伸对角线映射 $L \to \prod_{i=1}^s L_i$）是满射，其核是 $\hat{K} \otimes_K L$ 的 Jacobson 根基且
 
 $$
 \sum_{i=1}^s n_i \leq n.
 $$
 
-我们首先证明(a)。假设 v 不是不恰当的。由于 v 和 $\hat{v}$（分别为 $v'$ 和 $\hat{v}'$）具有相同的阶群和相同的剩余类域（§ 5, no. 3、命题 5 (b) 和 (f)），因而 (4) 成立。我们通过引理 2 从中推导出 (6)。最后，L 生成的 $\hat{L}_{v'}$ 的向量子$\hat{K}$空间是闭的（§ 5, no. 2，命题 4 的推论）并且处处稠密，因此等于 $\hat{L}_{v'}$；这表明 (5)。
+我们首先证明(a)。假设 v 不是不恰当的。由于 v 和 $\hat{v}$（分别为 $v'$ 和 $\hat{v}'$）具有相同的阶群和相同的剩余类域（§ 5, no. 3、命题 5 (b) 和 (f)），因而 (4) 成立。我们通过引理 2 从中推导出 (6)。最后，L 生成的 $\hat{L}_{v'}$ 的向量子$\hat{K}$空间是闭的（§ 5, no. 2，推论到命题 4）并且处处稠密，因此等于 $\hat{L}_{v'}$；这表明 (5)。
 
-我们现在转到(b)。我们仍然可以假设 v 不是不恰当的。令 $(v_1', \ldots, v_r')$ 为 L 上的任何有限族成对独立估值，在 $\prod_{i=1}^r L_i$ 中延伸 L 的 v. 像，在对角线下映射处处稠密 (§ 7, no. 2, 定理 1) 且 $\prod_{i=1}^r L_i$ 稠密于$\prod_{i=1}^r \hat{L}_i$。因而，$\prod_{i=1}^r \hat{L}_i$中$\hat{K} \otimes_K L$的典范像到处都是稠密的。另一方面，这个像是$\prod_{i=1}^r \hat{L}_i$的向量子$\hat{K}$空间；由于通过 (5) $\prod_{i=1}^r \hat{L}_i$ 的有限维超过$\hat{K}$，$\hat{K} \otimes_K L$ 的像是闭集（§ 5, no. 2，命题 4 的推论），因此等于 $\prod_{i=1}^r \hat{L}_i$。由于 K 上的 $\hat{K} \otimes_K L$ 的维数是 n，因而$\sum_{i=1}^r n_i \leq n$。这特别表明整数 r 在上面以 n 为界，并显示 (b) 的第一个断言。
+我们现在转到(b)。我们仍然可以假设 v 不是不恰当的。令 $(v_1', \ldots, v_r')$ 为 L 上的任意有限族成对独立估值，在 $\prod_{i=1}^r L_i$ 中延伸 L 的 v. 像，在对角线下映射处处稠密 (§ 7, no. 2, 定理 1) 且 $\prod_{i=1}^r L_i$ 稠密于$\prod_{i=1}^r \hat{L}_i$。因而$\prod_{i=1}^r \hat{L}_i$中$\hat{K} \otimes_K L$的典范像到处都是稠密的。另一方面，这个像是向量子$\hat{K}$空间$\prod_{i=1}^r \hat{L}_i$；由于通过 (5) $\prod_{i=1}^r \hat{L}_i$ 的有限维超过$\hat{K}$，$\hat{K} \otimes_K L$ 的像是闭集（§ 5, no. 2、推论到命题 4），因此等于 $\prod_{i=1}^r \hat{L}_i$。由于 K 上的 $\hat{K} \otimes_K L$ 的维数是 n，因而$\sum_{i=1}^r n_i \leq n$。这特别表明整数 r 在上面以 n 为界，并显示 (b) 的第一个断言。
 
 我们现在采用$(v_1', \ldots, v_s')$，如叙述。事实是
 
@@ -190,9 +190,9 @@ $$
 \phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
 $$
 
-是满射且关系 (7) 已被证明。仍有待验证$\phi$的核n是$\hat{K} \otimes_K L$的雅各布森根式$t$。因为$\prod_{i=1}^s \hat{L}_i$是半单，$t \subset n$。另一方面，对于$\hat{K} \otimes_K L$的每个最大理想m，商域$L(m) = (\hat{K} \otimes_K L)/m$是$\hat{K}$和L在K上的复合扩张（代数，
+是满射且关系 (7) 已被证明。仍有待验证$\phi$的核n是$\hat{K} \otimes_K L$的雅各布森根基$t$。因为$\prod_{i=1}^s \hat{L}_i$是半单，$t \subset n$。另一方面，对于$\hat{K} \otimes_K L$的每个最大理想m，商域$L(m) = (\hat{K} \otimes_K L)/m$是$\hat{K}$和L在K上的复合扩张（代数，
 
-章VIII, § 8、命题1)。存在对 L(m) 延伸 $\vartheta$ (§ 3, no. 3, 命题 5) 的估值 w； w 的限制 $v'$ 至 L 扩展 $v$。由于 $[L(m): \hat{K}]$ 是有限的，$L(m)$ 对于 w ($§ 5$, no. 2, 命题 4) 是完备的。现在$L(m)$中L的闭包是域包含$\mathbf{K}$和L，因此等于$L(m)$。因而，$L(m)$ 等同于完成$\hat{L}_{v'}$，并且 m 是$\hat{K} \otimes_K L$ 的典范映射到$\hat{L}_{v'}$ 的核。现在，到假设，存在指标$i$，使得$v'$和$v'_i$是相关的； 从而$L_{v'} = L_i$（$§ 7$、no. 2、命题 3）。因而$n \subset m$，证明$n \subset r$并完成证明。
+章VIII, § 8、命题1)。 L(m) 上存在一个延伸 $\vartheta$ (§ 3, no. 3, 命题 5) 的估值 w； 限制 $v'$ 至 L 扩展 $v$。由于 $[L(m): \hat{K}]$ 是有限的，$L(m)$ 对于 w ($§ 5$, no. 2, 命题 4) 是完备的。现在$L(m)$中L的闭包是域包含$\mathbf{K}$和L，因此等于$L(m)$。因而，$L(m)$ 等同于补全$\hat{L}_{v'}$，并且 m 是$\hat{K} \otimes_K L$ 的典范映射到$\hat{L}_{v'}$ 的核。现在，到假设，存在指标$i$，使得$v'$和$v'_i$是相关的； 从而$L_{v'} = L_i$（$§ 7$、no. 2、命题 3）。因而$n \subset m$，证明$n \subset r$并完成证明。
 
 #### 推出 1 {#ac-vi-s8-prop-2-cor-1 .statement tag=04WF}
 
@@ -210,7 +210,7 @@ $$
 
 *是同构*。
 
-$\hat{K} \otimes_K L$ 的雅各布森根式则为零 (*代数*, 章 VIII, § 7, no. 3, 定理 1)。
+$\hat{K} \otimes_K L$ 的 Jacobson 根基则为零 (*代数*, 章 VIII, § 7, no. 3, 定理 1)。
 
 #### 注 {#ac-vi-s8-n2-rem-1 .statement tag=04WH}
 
@@ -268,7 +268,7 @@ $$
 f(\bar{v}'_i/\bar{v}) = f(\bar{v}'_i/v), \quad e(w'/w)e(\bar{v}'_i/\bar{v}) = e(v'_i/v).
 $$
 
-为此，我们注$v$和$\bar{v}$（分别是$v'_i$和$\bar{v}'_i$）具有相同的剩余类域（§ 4, no. 1，命题2的推论）；这就证明了第一个方程。对于第二个，由于§4, no. 3中的注，有以下交换律图表，其中行是正合序列，垂直箭头代表典范嵌入：
+为此，我们注意到$v$和$\bar{v}$（分别为$v'_i$和$\bar{v}'_i$）具有相同的剩余类域（§ 4, no. 1、推论到命题2）；这就证明了第一个方程。对于第二个，由于§4, no. 3中的注，有以下交换律图表，其中行是正合序列，垂直箭头代表典范嵌入：
 
 $$
 \begin{array}{ccccccccc}
@@ -296,13 +296,13 @@ $$
 
 #### 注 {#ac-vi-s8-n3-rem-1 .statement tag=04WJ}
 
-估值$v_i'$($i \in I$)的环$A_i'$的交C是L中$A$的积分闭包(§ 1, no. 3，推论3到定理3)；此外，根据 (c) 和§ 7, no. 1、命题 1 和 2，C 是半局部环，对于所有 $i \in I$，其最大理想是交 $m_i = C \cap m(A_i')$ 和$A_i' = C$。
+估值$v_i'$($i \in I$)的环$A_i'$的交C是L(§ 1, no. 3、推论3到定理3)中$A$的积分闭包；此外，根据 (c) 和§ 7, no. 1、命题 1 和 2，C 是半局部环，对于所有 $i \in I$，其最大理想是交 $m_i = C \cap m(A_i')$ 和$A_i' = C$。
 
 ### 4. 初始后果指标
 
 #### 定义 4 {#ac-vi-s8-def-4 .statement tag=04WK}
 
-设 G 是有限指标的 G 的全序交换群和 H 子群。 The number of major subsets of G consisting of strictly positive elements and containing all the elements > O of H is called the initial index of H in G and denoted by $\varepsilon(G, H)$.
+设 G 是有限指标的 G 的全序交换群和 H 子群。 G 的由严格正元素组成且包含 H 的所有 > O 元素的主要子集的数量称为 H 在 G 中的初始索引，用 $\varepsilon(G, H)$ 表示。
 
 由于以下命题，这个初始指标是自然数：
 
@@ -318,7 +318,7 @@ $$
 
 在第二种情况下，令 $x$ 为 G 的最小元素 >0，并令 $n$ 为满足 $nx \in H$ 的最小整数 >0。显然$n = (G : (G \cap H))$。另一方面，将$z \in G$的集合写为$M(y)$，使得$y \leq z \ (y \in G)$，立即可以看出定义4的主集合只是$M(x), M(2x), \ldots, M(nx)$。
 
-#### 推论{#ac-vi-s8-n4-cor-1 .statement tag=04WM}
+#### 推论 {#ac-vi-s8-n4-cor-1 .statement tag=04WM}
 
 *初始指标 $\varepsilon(G, H)$ 除指标* $(G : H)$ *并且等于它，如果* $G$ *同构于* $\mathbf{Z}$。
 
@@ -328,7 +328,7 @@ $$
 
 *设* $K$ *为域、L* $K$、$w$ *对* $L$、$v$ *其限制到* $K$ *和* $\Gamma_w$的有限扩张 *和*$\Gamma_v$ *他们的阶群。 * $\Gamma_v$ *在* $\Gamma_w$ *中的初始指标称为* $w$ *相对于* $v$ *（或相对于* $K$*）的初始分支指标，并表示为* $\varepsilon(w/v)$。
 
-从上述推论，在离散估值的情况下，$\varepsilon(w/v)$除$e(w/v)$和等式。
+从上面的推论，在离散估值的情况下，$\varepsilon(w/v)$除$e(w/v)$和等式。
 
 #### 命题 4 {#ac-vi-s8-prop-4 .statement tag=04WO}
 
@@ -338,43 +338,43 @@ $$
 [A'/mA': A/m] = \varepsilon(w/v) f(w/v).
 $$
 
-$A'$ 包含 $mA'$ 的理想，并且不同于 $A'$ 对应到 $\Gamma_w$ 由……组成的主子集，元素 >0 和包含元素 >0 $\Gamma_v$（§ 3, no. 5，命题7 的推论）。因此，它们的数与 $\varepsilon(w/v)$ 相等，并且由于它们包含形式全序集，因此该数等于商环 $A'/mA'$ 的长度。现在$A'$上的长度1的模是$A'/m'$上的一维向量空间，因此$A$上的长度$f(w/v)$的模；因此，由于$A'/mA'$在$A'$上有长度$\varepsilon(w/v)$，所以在$A$上有长度$\varepsilon(w/v) f(w/v)$，即在$A/m$上。
+$A'$ 包含 $mA'$ 的理想，并且不同于 $A'$ 对应到 $\Gamma_w$ 由……组成的主子集，元素 >0 和包含元素 >0 $\Gamma_v$（§ 3, no. 5、推论至命题 7）。因此，它们的数与 $\varepsilon(w/v)$ 相等，并且由于它们包含形式全序集，因此该数等于商环 $A'/mA'$ 的长度。现在$A'$上的长度1的模是$A'/m'$上的一维向量空间，因此$A$上的长度$f(w/v)$的模；因此，由于$A'/mA'$在$A'$上有长度$\varepsilon(w/v)$，所以在$A$上有长度$\varepsilon(w/v) f(w/v)$，即在$A/m$上。
 
 ### 5. 关系$\sum_i e_i f_i = n$
 
 #### 命题 5 {#ac-vi-s8-prop-5 .statement tag=04WP}
 
-*设* $K$ *为域，v 对* $K$，$A$ *其环，m 为理想值，L 为* $K$ *次数* 的有限扩张* $n$、$B$ ** $A$ *在* $L$ *和* $(v'_i)_{1 \leq i \leq s}$ *完备的* $v$ *到* $L$ 的扩张系统。 *然后*
+*设* $K$ *为域，v 对* $K$，$A$ *其环，m 为理想值，L 为* $K$ *次数* 的有限扩张* $n$、$B$**$A$*在*$L$*和*$(v'_i)_{1 \leq i \leq s}$*完整闭包*$v$*到*$L$的扩张系统。 *然后*
 
 $$
 [B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v).
 $$
 
-设$A_i$为$v'_i$中的环；然后$A_i = B_{m_i}$，其中$m_i$贯穿$B$（no. 3，注）的极大理想族。令$q_i$为$mB$相对于$m_i$的饱和度（章II, § 2, no. 4）。由章V，推论3至命题1，no. 1，§ 2，典范同态$B/mB \to \prod_{i=1}^s B/q_i$为同构且$m_i$是B的唯一极大理想包含$q_i$。因此 $B/q_i$ 与 $(B/q_i)_{m_i}$ (章 II, § 3, no. 3, 命题 8) 典型同构，即
+设$A_i$为$v'_i$中的环；然后$A_i = B_{m_i}$，其中$m_i$贯穿$B$（no. 3，注）的极大理想族。令$q_i$为$mB$相对于$m_i$的饱和度（章II, § 2, no. 4）。由章 V、推论 3 到命题 1、no. 1、§ 2、典范同态 $B/mB \to \prod_{i=1}^s B/q_i$ 为同构，$m_i$ 是 B 的唯一极大理想包含$q_i$。因此 $B/q_i$ 与 $(B/q_i)_{m_i}$ (章 II, § 3, no. 3, 命题 8) 典型同构，即
 $$
 B_{m_i}/mB_{m_i} = A_i/mA_i.
 $$
-因此，凭借 no. 4 的命题 4 得到典范同构 $B/mB \to \prod_{i=1}^s A_i/mA_i$、从而。
+因此，根据 no. 4 的命题 4 得到典范同构 $B/mB \to \prod_{i=1}^s A_i/mA_i$、从而。
 
-#### 推论{#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
+#### 推论 {#ac-vi-s8-n5-cor-1 .statement tag=04WQ}
 
 *使用相同的假设和记号，
 $$
 [B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n.
 $$
-我们知道$\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$（no. 4，命题3的推论）和$\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n$（no. 3，定理1）。
+我们知道$\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$（no. 4，推论到命题3）和$\sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v) \leq n$（no. 3，定理1）。
 
 #### 定理 2 {#ac-vi-s8-thm-2 .statement tag=04WR}
 
-*使用命题 5 的假设和记号，以下条件是等价的：
+*假设命题 5 和记号，以下条件是等价的：
 (a) B 为有限生成A-模；
 (b) B 为自由A-模；
 （三）$[B/mB : A/m] = n;$
 (d) 对于所有 i，$\sum_{i=1}^n \varepsilon(v'_i/v) f(v'_i/v) = n$ 和 $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$。
 
-(a)和(b)的等价由引理1、§ 3, no. 6得出。显然 (b) 意味着 (c) (*代数*, 章 11, § 1, no. 5, 公式 (19))。 (c) 和 (d) 的等价由命题 5 的推论得出。 仍有待证明 (c) 蕴含 (b)。
+(a)和(b)的等价由引理1、§ 3, no. 6推出。显然 (b) 意味着 (c) (*代数*, 章 11, § 1, no. 5, 公式 (19))。 (c)和(d)的等价从推论到命题 5. 还需要证明(c)蕴涵(b)。
 
-一般来说，如果M是A-模，我们将在$A/m$上用V(M)​​向量空间$M/mM$来表示。 假设(c)意味着$\dim(V(B)) = n$。 设$x_1, \ldots, x_n$为B的元素，其典范像位于V(B)形式基中V(B)，并令L$\subset B$为它们生成的子A模块。 由于 L 是无扭且有限生成的，因此它是自由的 (§ 3, no. 6, 引理 1)。 我们将会看到$B = L$。 设 $y \in B$；我们写$M = L + Ay$；这也是自由A-模。 典范嵌入$L \to M \to B$给典范同态$V(L) \to V(M) \to V(B)$。 As the ranks of L and M are $\leq n$, so are the dimensions of V(L) and V(M). 现在，通过假设，$V(L) \to V(B)$是满射，$V(B)$是n维，因此$V(L)$和$V(M)$是n维，$V(L) \to V(M)$是满射。 由于 M 是有限生成的，$L \to M$ 是满射（章 II, § 3, no. 2，推论 1 到命题 4）、从而 $L = M, y \in L$ 和 $B = L$。 因此B是自由的。
+一般来说，如果M是A-模，我们将在$A/m$上用V(M)​​向量空间$M/mM$来表示。 假设(c)意味着$\dim(V(B)) = n$。 设$x_1, \ldots, x_n$为B的元素，其典范像位于V(B)形式基中V(B)，并令L$\subset B$为它们生成的子A模块。 由于 L 是无扭且有限生成的，因此它是自由的 (§ 3, no. 6, 引理 1)。 我们将会看到$B = L$。 设 $y \in B$；我们写$M = L + Ay$；这也是自由A-模。 典范嵌入$L \to M \to B$给典范同态$V(L) \to V(M) \to V(B)$。 As the ranks of L and M are $\leq n$, so are the dimensions of V(L) and V(M). 现在，通过假设，$V(L) \to V(B)$是满射，$V(B)$是n维，因此$V(L)$和$V(M)$是n维，$V(L) \to V(M)$是满射。 由于 M 是有限生成的，$L \to M$ 是满射（章 II, § 3, no. 2、推论 1 到命题 4）、从而 $L = M, y \in L$ 和 $B = L$。 因此B是自由的。
 
 #### 注 (1) {#ac-vi-s8-n5-rem-1 .statement tag=04WS}
 
@@ -388,13 +388,13 @@ $$
 \sum_{i=1}^{s} e(v_i'/v) f(v_i'/v) = n.
 $$
 
-那么 A 的积分闭包 B 就是秩 $n$ 的自由A-模，因为 A 是主理想整环（章 V, § 1, no. 6，推论 2 到命题 18）。
+A 的积分闭包 B 是秩 $n$ 的自由A-模，因为 A 是主理想整环（章 V, § 1, no. 6、推论 2 到命题 18）。
 
 #### 推论 2 {#ac-vi-s8-thm-2-cor-2 .statement tag=04WU}
 
 *令 K 为域，v 是 K 的离散估值，K 是完整的，L 是次数 n 的 K 的有限扩张。然后v承认一个唯一的（最多等价）扩张$v'$到L，$v'$的环A'是v和$e(v'/v) f(v'/v) = n$的环A上有限生成的自由模。*
 
-adic 拓扑（其中 $m = m(A)$）； 环 A 是完备的，因为它在 K 中是封闭的。我们结论认为，由于 $A'/mA'$ 是有限维向量 ($A/m$)-空间 (no. 4, 命题 4)，A' 是有限生成A-模 (章 III, § 2, no. 9，推论 3 至命题 12)。因此它是免费的并且 $e(v'/v) f(v'/v) = n$
+adic 拓扑（其中 $m = m(A)$）； 环 A 是完备的，因为它在 K 中是封闭的。我们结论认为，由于 $A'/mA'$ 是有限维向量 ($A/m$)-空间 (no. 4, 命题 4)，A' 是有限生成A-模 (章 III, § 2, no. 9， 推论 3 至命题 12)。因此它是免费的并且 $e(v'/v) f(v'/v) = n$
 
 $$
 \phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
@@ -410,27 +410,27 @@ v(N_{L/K}(x)) = \sum_{i=1}^s n_i v_i'(x).
 \end{cases}
 $$
 
-（（9）中的最后一个关系是有意义的，因为我们显然可以假设$v_i'$（根据推论2到no. 1的命题1的高度为1），就像v一样，在$\mathbf{R}$的子群中取它们的值。）
+（（9）中的最后一个关系是有意义的，因为我们显然可以假设高度为1乘以no. 1的推论2到命题1的$v_i'$，就像v一样，取$\mathbf{R}$的子群中的值。）
 
-由于没有两个$v'_i$是等价的，并且它们的高度为1，因此它们是独立的，并且no. 2的命题2因此表明$e(v'_i/v) f(v'_i/v) \leq n_i$对于所有$i$和$\sum_{i=1}^s n_i \leq n$。因此，第一个断言是由这些不等式和关系$\sum_{i=1}^s e(v'_i/v) f(v'_i/v) = n$得出的。在$\hat{K} \otimes_K L$的同构$\phi$自同态$z \mapsto z(1 \otimes x)$（对于$x \in L$）转换为$\prod_{i=1}^s \hat{L}_i$的自同态，使每个因子保持不变，并在每个因子到乘法上减少$x$（$L$ 规范地嵌入其完成$\hat{L}_i$）； 从而断言与$x$的特征多项式和(9)的前两个公式有关。最后，令E为$\hat{K}$、包含$\hat{L}_i$的有限准伽罗瓦扩张；由于 $\hat{K}$ 是完整的且 $\hat{\nu}$ 的高度为 1，因此在延伸 $\hat{\nu}$ 的 E 上仅存在一个估价（最多等价）$w$（no. 2，推论 1 至命题 2）；那么，对于 E 的每个$\hat{K}$自同构$\sigma$，$w(\sigma(x)) = v'_i(x)$。因此
+由于没有两个$v'_i$是等价的，并且它们的高度为1，因此它们是独立的，并且no. 2的命题2因此表明$e(v'_i/v) f(v'_i/v) \leq n_i$对于所有$i$和$\sum_{i=1}^s n_i \leq n$。因此，第一个断言是由这些不等式和关系$\sum_{i=1}^s e(v'_i/v) f(v'_i/v) = n$得出的。在$\hat{K} \otimes_K L$的同构$\phi$自同态$z \mapsto z(1 \otimes x)$（对于$x \in L$）转换为$\prod_{i=1}^s \hat{L}_i$的自同态，使每个因子保持不变，并在每个因子到乘法上减少 $x$ ($L$ being canonically imbedded in its completion $\hat{L}_i$); 从而断言 relating to the characteristic polynomial of $x$ and the first two 公式 of (9). Finally, let E be a finite quasi-Galois extension of $\hat{K}$, 包含 $\hat{L}_i$;由于 $\hat{K}$ 完整且$\hat{\nu}$ 高度为 1，因此在延伸 $\hat{\nu}$ 的 E 上仅存在一个估价（最多等价）$w$（no. 2、推论 1 至命题 2）；那么，对于 E 的每个$\hat{K}$自同构$\sigma$，$w(\sigma(x)) = v'_i(x)$。因此
 $$
 \vartheta(N_{\hat{L}_i/\hat{K}}(x)) = n_i v'_i(x)
 $$
-(代数, 章 VIII, § 12, no. 2, 公式 (15))，证明了(9)的公式。
+(代数, 章 VIII, § 12, no. 2, 公式 (15)), which proves 公式 of (9).
 
 #### 推论 4 {#ac-vi-s8-thm-2-cor-4 .statement tag=04WV}
 
-*在推论3的假设下，如果L是K的可分扩张，则每个$\hat{L}_i$都是$\hat{K}$的可分扩张。如果进一步L是K的伽罗瓦扩张，伽罗瓦群$\mathscr{G}$且$\mathscr{G}_i$表示B中$v'_i$理想的分解群（章V, § 2, no. 2，定义） 2), 那么$\hat{L}_i$是$\hat{K}$的伽罗瓦扩张，其伽罗瓦群同构于$\mathscr{G}_i$。*
+*在推论 3 的假设下，如果L是K的可分扩张，则每个$\hat{L}_i$都是$\hat{K}$的可分扩张。如果进一步L是K的伽罗瓦扩张，伽罗瓦群$\mathscr{G}$且$\mathscr{G}_i$表示B中$v'_i$理想的分解群（章V, § 2, no. 2，定义） 2), 那么$\hat{L}_i$是$\hat{K}$的伽罗瓦扩张，其伽罗瓦群同构于$\mathscr{G}_i$。*
 
-显然$\hat{L}_i = \hat{K}(L)$；因此，如果 L 在 K 上可分，则 $\hat{L}_i$ 在 $\hat{K}$ 上可分（代数、章 V, § 7, no. 6、命题 10）。现在假设 L 是伽罗瓦。每个自同构$\sigma \in \mathscr{G}_i$在L上连续，拓扑由$v'_i$定义，事实上，$v'_i$的两个理想在包含方面没有可比性（§ 7, no. 2，推论1到定理1）必然意味着： $v'_i = v'_i \circ \sigma$乘定义共$\mathscr{G}_i$；因此$\sigma$可以通过连续性扩展到$\hat{L}_i$的$\hat{K}$自同构$\hat{\sigma}$。这证明$\hat{K}$的数-$\hat{L}_i$的自同构至少等于$\mathrm{Card}(\mathscr{G}_i)$。但由于估值$v'_i$是成对共轭低于$\mathscr{G}$（章V, § 2, no. 3，命题6），$s = (\mathscr{G}_i)$，从而
+显然$\hat{L}_i = \hat{K}(L)$； hence, if L is separable over K, $\hat{L}_i$ is separable over $\hat{K}$ (代数, 章 V, § 7, no. 6, 命题 10).现在假设 L 是伽罗瓦。每个自同构$\sigma \in \mathscr{G}_i$在L上连续，拓扑由$v'_i$定义，事实上$v'_i$的理想中没有两个在包含方面具有可比性（§ 7, no. 2，推论1到定理1）必然意味着$v'_i = v'_i \circ \sigma$乘定义共$\mathscr{G}_i$； hence $\sigma$ may be extended by continuity to a $\hat{K}$-automorphism $\hat{\sigma}$ of $\hat{L}_i$. This proves that 数 of $\hat{K}$-automorphisms of $\hat{L}_i$ is at least equal to $\mathrm{Card}(\mathscr{G}_i)$. But as the valuations $v'_i$ are pairwise 共轭 under $\mathscr{G}$ (章 V, § 2, no. 3, 命题 6), $s = (\mathscr{G}_i)$, 从而
 $$
 \mathrm{Card}(\mathscr{G}_i) = n/s \leq n.
 $$
-另一方面，$n = sn$，由推论 3 得出；这证明$\hat{L}_i$是$\hat{K}$的伽罗瓦扩张，并且扩张通过自同构$\sigma \in \mathscr{G}_i$的连续性是$\hat{L}_i$唯一的$\hat{K}$自同构。
+另一方面，$n = sn$，乘以推论3；这证明$\hat{L}_i$是$\hat{K}$的伽罗瓦扩张，并且扩张通过自同构$\sigma \in \mathscr{G}_i$的连续性是$\hat{L}_i$唯一的$\hat{K}$自同构。
 
-*注(2)*。上述结果中的部分扩展适用于对*不一定可交换*域K（cf.§ 3, no. 1）进行估值的情况。令L为K的扩张域，令$v'$为L的估值，$v$为K和A'的限制，A分别为$v'$和$v$的估值环；然后定义了一个分支指标$e(v'/v)$，如no. 1；另一方面，$\kappa(A)$与$\kappa(A')$的子域等同，$v'$的（左）剩余类秩相对于$v$被定义为数$f(v'/v)$等于左侧的维数向量 $\kappa(A)$-空间$\kappa(A')$，如果维数是有限的，而$+\infty$则相反。然后，如果L是有限维$n$的左向量K空间，则no. 1的引理2及其证明保持不变。此外，如果 K 对于 $v$ 是完备的，no. 5 的推论 2 到定理 2 的断言（$u'$ 的存在除外）也有效（$n$ 将 L 的维数表示为左） 向量 K 空间），具有以下证明：
+*注(2)*。上述结果中的部分扩展适用于对*不一定可交换*域K（cf.§ 3, no. 1）进行估值的情况。令L为K的扩张域，令$v'$为L的估值，$v$为K和A'的限制，A分别为$v'$和$v$的估值环；然后定义了一个分支指标$e(v'/v)$，如no. 1；另一方面，$\kappa(A)$与$\kappa(A')$的子域等同，$v'$的（左）剩余类秩相对于$v$被定义为数$f(v'/v)$等于左侧的维数向量 $\kappa(A)$-空间$\kappa(A')$，如果维数是有限的，而$+\infty$则相反。然后，如果L是有限维$n$的左向量K空间，则no. 1的引理2及其证明保持不变。此外，如果 K 对于 $v$ 是完备的，则 no. 5 的推论 2 到定理 2 的断言（$u'$ 的存在除外）也有效（$n$ 将L 的维数表示为左向量 K 空间），具有以下证明：
 
-首先，L上的$v'$定义的拓扑是Hausdorff，并且与其左向量K空间结构兼容，因此$v$到L的两个扩张给出相同的拓扑 L ($§ 5$, no. 2, 命题 4)，这证明这些扩张直到等价 ($§ 6$, no. 2) 都是相同的。接下来我们证明，如果$m = m(A)$，$A'/mA'$是维数$e(v'/v) f(v'/v)$的左向量$(A/m)$空间。写出$e = e(v'/v)$，我们可以假设$v(K^*) = Z$和$v'(L^*) = e^{-1}Z$；令$u'$为L的元素，使得$v'(u') = e^{-1}$和K的$u$元素，使得$v(u) = 1$；因此$u = z{u'}^e$，其中$z \in L$使得$v'(z) = 0$。由于 m 由 $u$（作为 A 的左理想或右理想）、$mA' = {u'}^eA' = A'{u'}^e$ 生成，并且足以证明，对于 $0 \leq k \leq e - 1$，$A'{u'}^k/A'{u'}^{k+1}$ 是维数 $f(v'/v)$ 的左向量 $(A/m)$ 空间。但是 $t \mapsto t{u'}^k$ 是左A-模 A 的同构到左A-模 $A'{u'}^k$ 映射 $A'u'$ 到 $A'{u'}^{k+1}$，因此通过取商可以得到 $A'/A'u'$ 的 $(A/m)$ 同构$A'{u'}^k/A'{u'}^{k+1}$、从而我们的断言乘以$f(v'/v)$、$u'$生成的的定义$A'$的最大理想。当 K 和 L 可交换时，证明是完备的（有限生成的无扭转 A 模是自由的，这一事实在$§ 3$、no. 6、引理 1 中得到证明）。
+首先，L上的$v'$定义的拓扑是Hausdorff，并且与其左向量K空间结构兼容，因此$v$到L的两个扩张给出相同的拓扑 L ($§ 5$, no. 2, 命题 4)，这证明这些扩张直到等价 ($§ 6$, no. 2) 都是相同的。接下来我们证明，如果$m = m(A)$，$A'/mA'$是维数$e(v'/v) f(v'/v)$的左向量$(A/m)$空间。写出$e = e(v'/v)$，我们可以假设$v(K^*) = Z$和$v'(L^*) = e^{-1}Z$；令$u'$为L的元素，使得$v'(u') = e^{-1}$和K的$u$元素，使得$v(u) = 1$；因此$u = z{u'}^e$，其中$z \in L$使得$v'(z) = 0$。由于m是由$u$（作为A的左理想或右理想）、$mA' = {u'}^eA' = A'{u'}^e$生成，并且足以证明，对于$0 \leq k \leq e - 1$，$A'{u'}^k/A'{u'}^{k+1}$是维数$f(v'/v)$的左向量$(A/m)$空间。但是$t \mapsto t{u'}^k$是左A-模A的同构到左A-模$A'{u'}^k$映射$A'u'$到$A'{u'}^{k+1}$，因此通过取商的$(A/m)$同构$A'/A'u'$到$A'{u'}^k/A'{u'}^{k+1}$，从而我们的断言乘定义的$f(v'/v)$，$u'$生成的$A'$的最大理想。当 K 和 L 可交换时，证明是完备的（有限生成的无扭转 A 模是自由的，这一事实在$§ 3$、no. 6、引理 1 中得到证明）。
 
 ### 6. 代数估值环扩张
 
@@ -438,17 +438,17 @@ $$
 
 令 K 为域，$v$ K 的估值，A 为环，L K 的代数扩张，$A'$ A 在L 中的积分闭包。令 23 为 L 上环的集合，其中 $A'$ 的最大理想为扩展 $v$ 和 $\mathfrak{M}'$ 集合。那么映射 $V \mapsto m(V) \cap A'$ 就是 23 的双射到 $\mathfrak{M}'$ 上，$m' \mapsto A'_{m'}$ 是逆双射。
 
-$A'$的每个最大理想$m'$使得$m' \cap A$是A的最大理想（章V, § 2, no. 1，命题1）并且$A'_{m'}$由L的评估环V主导（因此是L的估值延伸$v$）的环（$§ 1$，no. 2，推论到定理2）。 域L是L的有向子扩展族K的并，其在K上是有限的，并且在阶中看到$V = A'_{m'}$就足以证明$V \cap K = A'_{m'} \cap K$，对于所有$\alpha$。现在，如果我们写 $A'_\alpha = A' \cap K_\alpha$，$A'_\alpha$ 是 A 在 K 中的积分闭包，因此是 K 估值的环的交，其中扩展 $v$ 和这些环 $V_\alpha$ 在数中是有限的，并且是$A'_\alpha$ ($1 \leq i \leq n$) 的局部环 $(A'_\alpha)_{i|m_\alpha}$，其中$m'_{i\alpha}$ 是$A'_\alpha$ (no. 3, 注) 的不同最大理想；但$m' \cap A'_\alpha$是$m'_{i\alpha}$之一，因此$V \cap K_\alpha$等于相应的局部环$(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$，从而完成证明和$V = A'_{m'}$。相反，如果$V \in \mathfrak{V}$，则$A' \subset V$（§ 3, no. 3，命题 6），如果$m' = m(V) \cap A'$，则$m' \cap A = m$，因此$m'$是$A'$（章V, § 2, no. 1， 命题 1) 并且上述论证表明$V = A'_{m'}$。
+$A'$的每个最大理想$m'$使得$m' \cap A$是A的最大理想（章V, § 2, no. 1，命题1）并且$A'_{m'}$由L的评估环V主导（因此是L估价的环延伸$v$）（$§ 1$、no. 2、推论至定理2）。 域L是L的有向子扩展族K的并，其在K上是有限的，并且在阶中看到$V = A'_{m'}$，就足以证明$V \cap K = A'_{m'} \cap K$，对于所有$\alpha$。现在，如果我们写 $A'_\alpha = A' \cap K_\alpha$，$A'_\alpha$ 是 A 在 K 中的积分闭包，因此是 K 估值的环的交，其中扩展 $v$ 和环 $V_\alpha$ 在数中是有限的是$A'_\alpha$ ($1 \leq i \leq n$) 的局部环 $(A'_\alpha)_{i|m_\alpha}$，其中$m'_{i\alpha}$ 是$A'_\alpha$ (no. 3, 注) 的不同最大理想；但$m' \cap A'_\alpha$是$m'_{i\alpha}$之一，因此$V \cap K_\alpha$等于相应的局部环$(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$，从而完成证明和$V = A'_{m'}$。相反，如果$V \in \mathfrak{V}$，则$A' \subset V$（§ 3, no. 3，命题 6），如果$m' = m(V) \cap A'$，则$m' \cap A = m$，因此$m'$是$A'$（章V, § 2, no. 1， 命题 1) 并且上述论证表明$V = A'_{m'}$。
 
 #### 命题 7 {#ac-vi-s8-prop-7 .statement tag=04WX}
 
 *设 K 为域、L K 和 f 的拟伽罗瓦扩展以及 L 的 $f'$ 位置，其中值位于相同的域 F 中。假设限制关闭且 $f'$ 为 K 重合。那么存在 L 的 K-自同构 s 使得 $f' = f \circ s$.*
 
-令 A 为 K 公共的限制位置的环和 $f'$。 环关闭和$f'$包含A在L中的积分闭包$A'$（§ 1, no. 3，推论3到定理3），因此（章V, § 2, no. 3，推论1到命题 6) 存在L的K-自同构s，使得限制off和$f \circ s$到$A'$相等；如果$m'$是这些限制中的公共的核，则$m' \cap A$是A的最大理想，因此$m'$是$A'$以及$f'$和$f \circ s$的最大理想重合环 $A'_{m'}$；但到了命题 6，L支配$A'_{m'}$的唯一估值环是环$A'_{m'}$本身，因此$f'$和$f \circ s$位置的环是相同的。
+令 A 为 K 公共的限制位置的环和 $f'$。 环关闭和$f'$包含A在L中的积分闭包$A'$（§ 1, no. 3，推论3到定理3），因此（章V, § 2, no. 3， 推论 1 到命题 6) 存在 L 的 K-自同构 s，使得限制 off 和 $f \circ s$ 到 $A'$ 相等；如果$m'$是这些限制中的公共的核，则$m' \cap A$是A的最大理想，因此$m'$是$A'$以及$f'$和$f \circ s$的最大理想重合环 $A'_{m'}$；但到了命题 6，L支配$A'_{m'}$的唯一估值环是环$A'_{m'}$本身，因此$f'$和$f \circ s$位置的环是相同的。
 
 #### 推论 1 {#ac-vi-s8-prop-7-cor-1 .statement tag=04WY}
 
-*令 K 为域，v 对 K 的估值，L K 的准伽罗瓦扩展，以及 $v'$ 和 $v''$ v 到 L 的两个扩张。那么存在L的K-自同构s，使得$v''$等价于$v' \circ s$。*
+*令 K 为域，v 对 K 的估值，L K 的拟伽罗瓦扩展，以及 $v'$ 和 $v''$ v 到 L 的两个扩张。那么存在L的K-自同构s，使得$v''$等价于$v' \circ s$。*
 
 设$f'$和$f''$为与$v'$和$v''$相关的K的位置；如果需要将替换放在等价位置，则可以假设它们都在v的剩余类域的代数闭包中取值（no. 1，命题1）。那么存在L的K-自同构s使得$f'' = f' \circ s$(命题7)；因此，凭借地点和估价之间的对应 (§ 3, no. 3)，$v''$ 相当于 $v' \circ s$。
 
@@ -456,7 +456,7 @@ $A'$的每个最大理想$m'$使得$m' \cap A$是A的最大理想（章V, § 2, 
 
 *设 K 为域，f 为 K 的位（分别为 v 对 K 的估价），L 为 K 的根数扩张。那么 f（分别为 v）到 L 的所有扩张都是等价的。*
 
-L是准伽罗瓦扩展，其唯一的自同构是恒等式。因此，推论 2 由命题 7 得出（分别推论 1）。
+L是准伽罗瓦扩展，其唯一的自同构是恒等式。因此，推论 2 是从命题 7 得出的（分别是推论 1）。
 
 #### 命题 8 {#ac-vi-s8-prop-8 .statement tag=04X0}
 
@@ -464,13 +464,13 @@ L是准伽罗瓦扩展，其唯一的自同构是恒等式。因此，推论 2 �
 
 这紧接着定理 1 (no. 3) 和 2 (no. 5)。
 
-### 7. 绝对值的扩张
+### 7. 扩张绝对值
 
 #### 命题 9 {#ac-vi-s8-prop-9 .statement tag=04X1}
 
 *设 K 为域，L K 的代数扩张，$\mathfrak{f}$ 为 K 上的绝对值值。那么 $\mathfrak{f}$ 可以扩展到 L 上的绝对值值。*
 
-首先假设存在对 $K$ 的估值$v$，且真实值使得$f(x) = e^{-v(x)}$。 $L$ 存在估价$v'$，其限制到$K$ 相当于$v$（$§ 3$、no. 3、命题 5）。那么 $v'$ 的高度为 0 或 1（no. 1，推论 2 到命题 1），因此可以假设具有实数值。 映射 $x \mapsto e^{-v'(x)}$ 到 $K$ 的限制绝对值等于 $f$，因此形式 $f^s$ 与 $s > 0$（*一般拓扑*、章 IX、$§ 3$、no. 2、命题 5)。我们结论
+首先假设存在对 $K$ 的估值$v$，且真实值使得$f(x) = e^{-v(x)}$。 $L$ 存在估价$v'$，其限制到$K$ 相当于$v$（$§ 3$、no. 3、命题 5）。那么 $v'$ 的高度为 0 或 1（no. 1、推论 2 到命题 1），因此可以假设具有真实的值。 映射 $x \mapsto e^{-v'(x)}$ 到 $K$ 的限制是绝对值等价于 $f$，因此形式 $f^s$ 与 $s > 0$ （*一般拓扑*、章 IX、$§ 3$、no. 2、命题 5)。我们结论
 
 $$
 x \mapsto e^{-v'(x)/s}
@@ -478,11 +478,11 @@ $$
 
 是 $L$ 上的绝对值延伸 $f$。
 
-现在假设 $f$ 不是超度量。然后 $K$ 与 $\mathbf{C}$ 的子域进行识别，使得 $f(x) = |x|^s$ 其中 $0 \leq s \leq 1$ ($§ 6$, no. 4, 定理 2)。由于 $\mathbf{C}$ 是代数闭集，因此 $L$ 等同于 $\mathbf{C}$ 的子域以及绝对值 $x \mapsto |x|^s$ 扩展 $f$。
+现在假设 $f$ 不是超度量。然后将 $K$ 与 $\mathbf{C}$ 的子域进行识别，使得 $f(x) = |x|^s$ 其中 $0 \leq s \leq 1$ ($§ 6$, no. 4, 定理 2)。由于 $\mathbf{C}$ 是代数闭集，$L$ 等同于 $\mathbf{C}$ 的子域以及绝对值 $x \mapsto |x|^s$ 扩展 $f$。
 
 #### 命题 10 {#ac-vi-s8-prop-10 .statement tag=04X2}
 
-*令 $K$ 为域，$f$ $K$ 上的绝对值值，使得 $K$ 相对于 $f$ 而言是完备的且非离散的，并且 $L$ 为 的代数扩张 $K$。那么$f$可以在$L$上唯一地扩展到绝对值$f'$，并且，如果$L$是有限次数$n$，那么*
+*令 $K$ 为域，$f$ $K$ 上的绝对值值，使得 $K$ 相对于 $f$ 而言是完整的且非离散的，而 $L$ 的代数扩张 $K$。那么$f$可以在$L$上唯一地扩展到绝对值$f'$，并且，如果$L$是有限次数$n$，那么*
 
 $$
 f'(x) = (f(N_{L/K}(x)))^{1/n}
@@ -514,16 +514,16 @@ $$
 
 证明与命题 2 (no. 2) 中的类似断言相同。参考文献
 
-§ 7, no. 2、定理1； § 5, no. 2，命题 4 的推论应替换为以下内容
+§ 7, no. 2、定理1； § 5, no. 2、推论至命题 4 应替换为以下内容
 
 § 7, no. 3、定理2；拓扑向量空间、章 I,
-§ 2, no. 3，推论 1 至定理 2。
+§ 2, no. 3、推论 1 至定理 2。
 
-观察两个扩张到L，其中定义相同的拓扑是相等的（一般拓扑，章IX, § 3, no. 2，命题5）。最后，由于 $f$ 不是超度量，K 的特征为 0，因此 $\hat{K} \otimes_K L$ 的雅各布森根式为零。
+观察两个扩张到L，其中定义相同的拓扑是相等的（一般拓扑、章IX, § 3, no. 2、命题5）。最后，由于 $f$ 不是超度量，K 的特征为 0，因此 $\hat{K} \otimes_K L$ 的 Jacobson 根基为零。
 
 注
 (1) 命题 11 (b) 表明，K 上$\hat{K}$ 和 L 的每个复合扩张都同构于完成$\hat{L}_i$ 之一，并且它们是复合扩张，其中没有两个是同构的。
-（2）我们知道补全$\hat{K}$和$\hat{L}_i$同构于$\mathbf{R}$或$\mathbf{C}$（$§ 6$，no. 4，定理2）。如果 $\hat{K}$ 与 $\mathbf{C}$ 同构，则对于所有 $i$，$\hat{L}_i$ 也同构，并且 (10) 表明扩张 $f_i'$ 的数 *等于 n*。如果$\hat{K}$同构于$\mathbf{R}$（对于$K = \mathbf{Q}$则为例），令$r_1$（或$r_2$）表示指标$i$的数，使得$\hat{L}_i$为同构于$\mathbf{R}$（分别为$\mathbf{C}$）；那么(10)可以写成：
+（2）我们知道补全$\hat{K}$和$\hat{L}_i$同构于$\mathbf{R}$或$\mathbf{C}$（$§ 6$，no. 4，定理2）。如果 $\hat{K}$ 与 $\mathbf{C}$ 同构，则对于所有 $i$，$\hat{L}_i$ 也同构，并且 (10) 表明扩张 $f_i'$ 的数 *等于 n*。如果 $\hat{K}$ 同构于 $\mathbf{R}$（例如，如果 $K = \mathbf{Q}$），则令 $r_1$（分别为 $r_2$）表示指标 $i$ 的数，使得 $\hat{L}_i$ 同构于$\mathbf{R}$（分别为$\mathbf{C}$）；那么(10)可以写成：
 
 $$
 r_1 + 2r_2 = n.
@@ -531,9 +531,9 @@ $$
 
 #### 命题 12 {#ac-vi-s8-prop-12 .statement tag=04X4}
 
-*设 K 为域，f 是 K 上的绝对值，L K 的准伽罗瓦扩展，以及 $f'$ 和 $f''$ 两个扩张到 L。那么存在 L 的 K-自同构 s 使得 $f'' = f' \circ s$.*
+*设 K 为域，f 是 K 上的绝对值，L K 的拟伽罗瓦扩展，以及 $f'$ 和 $f''$ 两个扩张到 L。那么存在 L 的 K-自同构 s 使得 $f'' = f' \circ s$.*
 
-如果$f$是超度量的，推论1到命题7（no. 6）表明存在L的K-自同构s，使得$f''$和$f' \circ s$等价绝对值；那么存在实数 $a > 0$，使得 $f''(x) = (f'(s(x)))^a$ 对于所有 $x \in L$。若$f$不妥，取$x \in K^*$使得$f(x) \neq 1$，则可知$a = 1$。如果$f$不合适，$f'$和$f''$也不合适（推论2到命题1，no. 1），并且s可以被视为恒等式自同构。
+如果$f$是超度量的，推论 1到命题 7 (no. 6)表明存在L的K-自同构s，使得$f''$和$f' \circ s$等价绝对值；那么存在实数 $a > 0$，使得 $f''(x) = (f'(s(x)))^a$ 对于所有 $x \in L$。若$f$不妥，取$x \in K^*$使得$f(x) \neq 1$，则可知$a = 1$。如果$f$不合适，$f'$和$f''$也不合适（推论2到命题1，no. 1），并且s可以被视为恒等式自同构。
 
 如果$f$不是超度量，则存在L的Q同构$u', u''$到$\mathbf{C}$的子域和实数指数$a' > 0, a'' > 0$，使得$f'(x) = |u'(x)|^{a'}$和
 

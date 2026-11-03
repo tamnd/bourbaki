@@ -25,23 +25,23 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: eff3f4b571cf2907114dc71078676b39fbe4f42c1ce349c192a76e6fcc110848
+content_sha256: 1a94ad01bcb2a160e6a25e1195c1cbea244b0c8f62655b11cb1e67451e16052d
 translated_from: content/en/top/IV/03_s3_the_field_of_real_numbers.md
 translation_method: google
 source_content_sha256: afbf19bbf21fbfe05f4ab076c9028768c17367d06c4224c3286d307ed17aa711
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 7c18f9435ec74d5f54d0edef2c6aad35dd916f151230a9761e42fe1ea6d3d7ec
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
-## 3. 实数的域
+## 3. 域 / 实数
 
 ### 1. 乘法 $\mathbf{R}$
 
-有理线$\mathbf{Q}$的拓扑不仅与加法群* 结构兼容，还与$\mathbf{Q}$的*域* 结构兼容。对于函数$xy$在$(0, 0) \in \mathbf{Q} \times \mathbf{Q}$连续，因为对于每个整数$n > 0$关系$|x| \leq 1/n$和$|y| \leq 1/n$一起意味着$|xy| \leq 1/n^2 \leq 1/n$；另一方面，如果$a$是任何非零有理数数，则函数$ax$在$x = 0$连续，因为对于每个整数$n > 0$关系$|x| \leq 1/|n|a|$意味着$|ax| \leq 1/n$。这表明$xy$在$\mathbf{Q} \times \mathbf{Q}$的每点处连续（章III, § 6, no. 3）。
+有理线$\mathbf{Q}$的拓扑不仅与加法群* 结构兼容，还与$\mathbf{Q}$的*域* 结构兼容。对于函数$xy$在$(0, 0) \in \mathbf{Q} \times \mathbf{Q}$连续，因为对于每个整数$n > 0$关系$|x| \leq 1/n$和$|y| \leq 1/n$一起意味着$|xy| \leq 1/n^2 \leq 1/n$；另一方面，如果 $a$ 是任何非零有理数数，则函数 $ax$ 在 $x = 0$ 处连续，因为对于每个整数 $n > 0$ 关系 $|x| \leq 1/|n|a|$ 都意味着 $|ax| \leq 1/n$。这表明$xy$在$\mathbf{Q} \times \mathbf{Q}$的每点处连续（章III, § 6, no. 3）。
 
 为了证明 $1/x$ 在 $\mathbf{Q}^*$ 上连续，我们应该更精确地证明 $1/x$ 在 0 的任何邻域 V 的补集中是“一致连续”（相对于加法结构）。即我们有 $$
 \left| \frac{1}{x} - \frac{1}{y} \right| = \frac{|x-y|}{xy}
@@ -55,13 +55,13 @@ $$
 
 *分别在$\mathbf{Q} \times \mathbf{Q}$和$\mathbf{Q}^*$上定义的函数xy和$1/x$，可以通过连续性分别扩展到$\mathbf{R} \times \mathbf{R}$和$\mathbf{R}^*$，以及$\mathbf{R}$上的定义域结构。有了这个结构，$\mathbf{R}$就被称为实数的域。*
 
-在章III的§ 6中建立的拓扑域的所有性质当然都适用；特别是，$n$实变量的每个*有理函数*，具有实数系数，在$\mathbf{R}^n$的每个点处都是*连续的，其中其分母不会消失。
+在章III的§ 6中建立的拓扑域的所有性质当然都适用；特别是，$n$实数变量的每个*有理数函数*，以及实数系数，在$\mathbf{R}^n$的每个点都是*连续的，其中分母不会消失。
 
 ### 2. 乘法群$\mathbf{R}^*$
 
-从章III, § 6, no. 7我们知道，实直线的拓扑在$\mathbf{R}^*$上诱导的拓扑与$\mathbf{R}^*$的乘法群结构*相容的*；由于$\mathbf{R}^*$是局部紧致空间$\mathbf{R}$的*开*子集，因此$\mathbf{R}^*$是*局部紧致*拓扑群（章I, § 9, no. 7，命题13），因此*完整*（章III, § 3, no. 3，推论1到命题4；这也从章III, § 6, no. 8，命题8得出）；当然，后者性质涉及$\mathbf{R}^*$上的“乘法”均匀性，而不涉及$\mathbf{R}^*$上由$\mathbf{R}$的加法均匀性引起的均匀性。
+从章III, § 6, no. 7我们知道，实直线的拓扑在$\mathbf{R}^*$上诱导的拓扑与$\mathbf{R}^*$的乘法群结构*相容的*；由于$\mathbf{R}^*$是局部紧致空间$\mathbf{R}$的*开*子集，因此$\mathbf{R}^*$是*局部紧致*拓扑群（章I, § 9, no. 7，命题13），因此*完整*（章III, § 3, no. 3，推论1到命题4；这也来自章III, § 6, no. 8，命题8）；当然，后者性质涉及$\mathbf{R}^*$上的“乘法”均匀性，而不涉及$\mathbf{R}^*$上由$\mathbf{R}$的加法均匀性引起的均匀性。
 
-函数 $xy$ 映射集合 $\mathbf{Q}_+ \times \mathbf{Q}_+$ 变成$\mathbf{Q}_+$，因此映射 $\mathbf{R}_+ \times \mathbf{R}_+$ 变成$\mathbf{R}_+$ (章 I, § 2, no. 1, 定理 1)；在其他字中，两个实数$\geqslant 0$中的*乘积是$\geqslant 0$*。 公式$(-x)y = -xy$和$(-x)(-y) = xy$则表明数$\geqslant 0$和数$\leqslant 0$的乘积是$\leqslant 0$，并且两个数$\leqslant 0$的乘积是 $\geqslant 0$；由此可见
+函数 $xy$ 映射集合 $\mathbf{Q}_+ \times \mathbf{Q}_+$ 变成$\mathbf{Q}_+$，因此映射 $\mathbf{R}_+ \times \mathbf{R}_+$ 变成$\mathbf{R}_+$ (章 I, § 2, no. 1, 定理 1)；在其他字中，两个实数$\geqslant 0$中的*乘积是$\geqslant 0$*。 公式$(-x)y = -xy$和$(-x)(-y) = xy$则表明数$\geqslant 0$和数$\leqslant 0$的乘积是$\leqslant 0$，以及两个数$\leqslant 0$的乘积是 $\geqslant 0$；由此可见
 
 $$(1)$$
 $$|xy| = |x| \cdot |y|$$
@@ -74,7 +74,7 @@ $$|xy| = |x| \cdot |y|$$
 
 如果$x > 0$我们有$1/x > 0$，因为$x.(1/x) = 1 > 0$。如果$0 < x < y$我们有$xy > 0$，因此$x.(1/xy) < y.(1/xy)$，那就是$1/y < 1/x$。因此，实数$> 0$的集合$\mathbf{R}_+^*$的映射$x \to 1/x$本身就是严格递减。
 
-我们以同样的方式看到，函数$1/x$在]$\leftarrow, 0[$中是严格递减，因此函数$\frac{1}{x-a}$在每个区间]$\leftarrow, a[$和$]a, \to[$中都是严格递减。
+我们以同样的方式看到，函数$1/x$在]$\leftarrow, 0[$中是严格递减，因此函数$\frac{1}{x-a}$在区间]$\leftarrow, a[$和$]a, \to[$中都是严格递减。
 
 由上可知，$\mathbf{R}_+^*$是乘法群$\mathbf{R}^*$的子群；此外，序关系$x \leq y$与$\mathbf{R}_+^*$的乘法群结构兼容；在其他字中，$\mathbf{R}_+^*$是线性有序的群。
 

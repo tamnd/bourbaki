@@ -29,16 +29,16 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: 8da58f48636713ffe2010409d74d8422634cad108b2e0712d93c8b3886f2f6da
+content_sha256: 94523059fd25b4052fce601dd72251f924a968ed8e16b215291b4540de97bf3f
 translated_from: content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md
 translation_method: google
 source_content_sha256: d31efd9ddbb6c9db525488b6ea28a82ed909217def1e86239e848957a5f5eb01
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-zh-50f48bb3
+translation_run: translate-zh-1fd6073a
 glossary_version: 34
 glossary_terms_sha256: 396b571201ca38a7edf7cf4e8e6d8a317e8c4ff92205b097bb4b88d259188440
-prompt_sha256: 77d1eb2d7fcbd90aea4f1a996022f1b3908ace921dc0bfaa5df62ffc2d1f67a6
+prompt_sha256: 8cbde7b7ea18274bea5720e1f500823a36194a717a2895a9c9e7e3ffc4a3a3ae
 ---
 
 ## § 4。 分裂的半单李代数由约化根系定义
@@ -71,7 +71,7 @@ $[X_{-\alpha}, X_{\beta}] = 0$ 如果 $\alpha \not=\beta$ (4)
 
 （回想一下，如果 $\alpha , \beta \in B$ 和 $\alpha \not=\beta ,n(\beta , \alpha )$ 是整数 $\leq 0$，那么公式 (5) 和 (6) 就有意义。）
 
-公式 (1)、(2)、(3) 清楚。如果$\alpha \not=\beta ,\beta -\alpha$不是根，因为R的每个元素都是B的元素的线性组合，并且整数系数全部具有相同的符号（第VI, §1, no. 6，第3章）。这就证明了(4)。鉴于章。 VI, §1, no. 3，命题9，这也证明了$\beta$定义的$\alpha$链是
+公式 (1)、(2)、(3) 清楚。如果$\alpha \not=\beta ,\beta -\alpha$不是根，因为R的每个元素都是B的元素的线性组合，并且整数系数都具有相同的符号（第VI, §1, no. 6，第3章）。这就证明了(4)。鉴于章。 VI, §1, no. 3，命题9，这也证明了$\beta$定义的$\alpha$链是
 
 $$
 \{\beta , \beta +\alpha , . . . , \beta -n(\beta , \alpha )\alpha \}
@@ -89,11 +89,11 @@ $\mathfrak{g}$ 的框架是$(\mathfrak{g},\mathfrak{h})$ 的框架，其中$\mat
 
 如果$(B,(X_{\alpha})_{\alpha\in B})$是$(\mathfrak{g},\mathfrak{h})$的框架，则对于$\mathfrak{g}^{-\alpha}$的所有$\alpha \in B$、唯一元素$X_{-\alpha}$，存在$[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}($§2, no. 2、Th。 1（四））。 $(X_{\alpha})_{\alpha\in B\cup(-B)}$族被称为由框架（cf. Prop.1）定义的生成的族。这也是由框架$(-B,(X_{\alpha})_{\alpha\in -B})$定义的生成的族。对于所有$\alpha \in B\cup (-B)$，令$t_{\alpha}\in k^*$，并假设$t_{\alpha}t_{-\alpha}= 1$对于所有$\alpha \in B$。那么$(t_{\alpha}X_{\alpha})_{\alpha\in B\cup(-B)}$就是由框架$(B,(t_{\alpha}X_{\alpha})_{\alpha\in B})$定义的生成的族。
 
-### 2. A PRELIMINARY CONSTRUCTION
+### 2. 一个预备构造
 
 在这个数和下一个向量空间V中，我们用R约化根系表示，并用R的B基表示。我们用$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$表示相对于B的嘉当矩阵。回想一下$n(\alpha , \beta ) =\langle \alpha , \beta^{\vee}\rangle$。我们将证明 R 是分裂的半单李代数的根系，直到同构为止都是唯一的。总的来说，我们将考虑提案 1 中由关系定义的李代数。
 
-数中的构造适用于$k$上具有非零行列式的任何平方矩阵$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$，并且$n(\alpha , \alpha ) = 2$适用于所有$\alpha \in B$（cf.第VI, §1, no. 10，公式（14））。
+数中的构造适用于$k$上的任何平方矩阵$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$且行列式非零，并且$n(\alpha , \alpha ) = 2$适用于所有$\alpha \in B$（cf.第VI, §1, no. 10，公式） (14))。
 
 令 E 为集合 B 在 $k$ 上的自由结合律代数。回想一下，E 是 $\mathbf{N}$ 分次的（代数，第 III, §3, no. 1，例 3）。我们将分别关联到向量空间 E、次数 $1,0,-1$ 的每个 $\alpha \in B$ 自同态 $X_{-\alpha}^0, H_{\alpha}^0, X_{\alpha}^0$。对于 B 的元素中的任意字 $(\alpha_1, . . . , \alpha_n)$，将
 
@@ -249,23 +249,23 @@ $$
 
 对于所有$\alpha \in B$。
 
-事实上，存在自由的李代数L(I)满足这些条件的内卷自同构。它使 $\mathscr{R}\cup (-\mathscr{R})$ 保持稳定，因此通过将定义传递给商，$\mathfrak{a}$ 满足条件引理的对合自同构。 唯一性源自$\mathfrak{a}$是由元素$x_{\alpha}, h_{\alpha}, x_{-\alpha}(\alpha \in B)$生成的。
+事实上，存在自由的李代数L(I)满足这些条件的内卷自同构。它使$\mathscr{R}\cup (-\mathscr{R})$保持稳定，因此定义通过到商的内卷自同构为$\mathfrak{a}$满足条件为引理。 唯一性源自$\mathfrak{a}$是由元素$x_{\alpha}, h_{\alpha}, x_{-\alpha}(\alpha \in B)$生成的。
 
-这个自同构被称为$\mathfrak{a}$的规范对合自同构。
+这个自同构称为$\mathfrak{a}$的规范对合自同构。
 
-设Q为R的根权的集合；这是一个免费的 $\mathbf{Z}$ 模块，带有基 B（第 VI, §1, no. 9 章）。在自由李代数 L(I) 上存在型 Q 的分级，使得 $x_{\alpha}, h_{\alpha}, x_{-\alpha}$ 分别为次数 $\alpha ,0,-\alpha$（第 II, §2, no. 6 章）。现在 $\mathscr{R}$ 中的元素是齐次的。因此，$\mathfrak{a}$上存在唯一的型 Q 与$\mathfrak{a}$的李代数结构兼容，并且$x_{\alpha}, h_{\alpha}, x_{-\alpha}$分别为次数$\alpha ,0,-\alpha$。对于任何$\mu\in Q$，用次数$\mu$的齐次$\mathfrak{a}$的元素的$\mathfrak{a}^\mu$集合表示。
+令 Q 为 R 的根基权的集合；这是一个免费的 $\mathbf{Z}$ 模块，带有基 B（第 VI, §1, no. 9 章）。在自由李代数 L(I) 上存在型 Q 的分级，使得 $x_{\alpha}, h_{\alpha}, x_{-\alpha}$ 分别为次数 $\alpha ,0,-\alpha$（第 II, §2, no. 6 章）。现在 $\mathscr{R}$ 中的元素是齐次的。因此，$\mathfrak{a}$上存在唯一的型 Q 与$\mathfrak{a}$的李代数结构兼容，并且$x_{\alpha}, h_{\alpha}, x_{-\alpha}$分别为次数$\alpha ,0,-\alpha$。对于任何$\mu\in Q$，用次数$\mu$的齐次$\mathfrak{a}$的元素的$\mathfrak{a}^\mu$集合表示。
 
 #### 引理 5 {#lie-viii-s4-lem-5 .statement tag=010Z}
 
 让$z\in \mathfrak{a}$。那么$z\in \mathfrak{a}^\mu$当且仅当$[h_{\alpha}, z] =\langle \mu, \alpha^{\vee}\rangle z$对于所有$\alpha \in B$。
 
-对于$\mu\in Q$，令$\mathfrak{a}^{(\mu)}$为$x\in \mathfrak{a}$的集合，使得$[h_{\alpha}, x] =\langle \mu, \alpha^{\vee}\rangle x$对于所有$\alpha \in B$。 $\mathfrak{a}^{(\mu)}$的和是直达。因此，要证明引理，只需证明$\mathfrak{a}^\mu\subset \mathfrak{a}^{(\mu)}$即可。让$\alpha \in B$。 向量空间 $\mathfrak{a}$的自同态$u$，使得$u|\mathfrak{a}^\mu=\langle \mu, \alpha^{\vee}\rangle .1$是$\mathfrak{a}$的推导，使得$ux=$（广告$h_{\alpha}$）$.x$对于$x=x_{\beta}, x=h_{\beta}, x=x_{-\beta}$；因此$u=$广告$h_{\alpha}$，这证明了我们的断言。
+对于$\mu\in Q$，令$\mathfrak{a}^{(\mu)}$为集合除以$x\in \mathfrak{a}$，这样$[h_{\alpha}, x] =\langle \mu, \alpha^{\vee}\rangle x$对于所有$\alpha \in B$。 $\mathfrak{a}^{(\mu)}$的和是直达。因此，要证明引理，只需证明$\mathfrak{a}^\mu\subset \mathfrak{a}^{(\mu)}$即可。让$\alpha \in B$。 向量空间 $\mathfrak{a}$的自同态$u$，使得$u|\mathfrak{a}^\mu=\langle \mu, \alpha^{\vee}\rangle .1$是$\mathfrak{a}$的推导，使得$ux=$（广告$h_{\alpha}$）$.x$对于$x=x_{\beta}, x=h_{\beta}, x=x_{-\beta}$；因此$u=$广告$h_{\alpha}$，这证明了我们的断言。
 
 #### 注 {#lie-viii-s4-n2-rem-1 .statement tag=0110}
 
 从引理 5 可以得出，$\mathfrak{a}$ 的每个理想都是齐次的，因为它在 ad $h_{\alpha}$ 下是稳定的。
 
-用 B 的元素线性组合 $Q_+$（或$Q_-$）集合表示，具有正（或负）整数系数，而不是全部零。把$\mathfrak{a}_+=$$\sum_{\mu\in Q_+}a^\mu$和$\mathfrak{a}_-=\sum_{\mu\in Q_-}\mathfrak{a}^\mu$。从$Q_++ Q_+\subset Q_+$和$Q_-+ Q_-\subset Q_-,\mathfrak{a}_+$开始
+用 B 的元素线性组合 $Q_+$ (或 $Q_-$) 集合表示正数 (或负数) 整数系数，并非全部零。把$\mathfrak{a}_+=$$\sum_{\mu\in Q_+}a^\mu$和$\mathfrak{a}_-=\sum_{\mu\in Q_-}\mathfrak{a}^\mu$。从$Q_++ Q_+\subset Q_+$和$Q_-+ Q_-\subset Q_-,\mathfrak{a}_+$开始
 
 和$\mathfrak{a}_-$是$\mathfrak{a}$的谎言子代数。
 
@@ -375,7 +375,7 @@ $$
 
 从$\mathfrak{a}^0\cap (\mathfrak{n}+\theta (\mathfrak{n})) = 0$开始，从$\mathfrak{a}^0$到$\mathfrak{g}^0$的规范映射是同构。因而，$(H_{\alpha})_{\alpha\in B}$ 是向量空间 $\mathfrak{g}^0$ 中的基。 $\mathfrak{g}_B$中的交换子代数$\mathfrak{g}^0$将由$\mathfrak{h}_B$或简称为$\mathfrak{h}$表示。从V到$\mathfrak{h}^*$存在唯一的同构$\mu \rightarrow \mu_B$，使得$\langle \mu_B, H_{\alpha}\rangle =\langle \mu, \alpha^{\vee}\rangle$适用于所有$\mu\in V$和所有$\alpha \in B$。
 
-$\mathfrak{a}$ 定义的对合自同构 $\theta$ 通过传递给 $\mathfrak{g}$ 的对合自同构也将由 $\theta$ 表示。我们有 $\alpha \in B\cup (-B)$ 和 $\theta (H_{\alpha}) =-H_{\alpha}$ 的 $\theta (X_{\alpha}) =X_{-\alpha}$。
+$\mathfrak{a}$ 定义的对合律自同构 $\theta$ 通过传递到商 $\mathfrak{g}$ 的对合律自同构也将由 $\theta$ 表示。我们有 $\alpha \in B\cup (-B)$ 和 $\theta (H_{\alpha}) =-H_{\alpha}$ 的 $\theta (X_{\alpha}) =X_{-\alpha}$。
 
 #### 定理 1 {#lie-viii-s4-thm-1 .statement tag=0115}
 
@@ -497,9 +497,9 @@ $$
 
 $(X'_{\alpha})_{\alpha\in B}$生成的$\mathfrak{g}'=\mathfrak{a}'/(\mathfrak{n}'\oplus \theta '\mathfrak{n}') = (\mathfrak{a}'_+\oplus {\mathfrak{a}'}^0\oplus \mathfrak{a}'_-)/(\mathfrak{n}'\oplus \theta '\mathfrak{n}')$中的子代数可以用$\mathfrak{a}'_+/\mathfrak{n}'$来识别。根据命题3和$\mathfrak{n}'$的定义，证明(ii)。
 
-#### 推论{#lie-viii-s4-n4-cor-1 .statement tag=011B}
+#### 推论 {#lie-viii-s4-n4-cor-1 .statement tag=011B}
 
-每个框架半单李代数都是通过$\mathbf{Q}$到$k$标量的扩张从框架半单$\mathbf{Q}$李代数获得的。
+每个框架半单李代数都是通过$\mathbf{Q}$到$k$标量的扩张从框架半单$\mathbf{Q}$-李代数获得的。
 
 这紧随命题而来。
 
@@ -507,7 +507,7 @@ $(X'_{\alpha})_{\alpha\in B}$生成的$\mathfrak{g}'=\mathfrak{a}'/(\mathfrak{n}
 
 设$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$和$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$为半单李代数，设R和$R'$为$(\mathfrak{g},\mathfrak{h})$和$(\mathfrak{g}',\mathfrak{h}')$的根系，设$(n(\alpha , \beta ))_{\alpha ,\beta\in B}$（或$(n'(\alpha , \beta ))_{\alpha ,\beta\in B'}$）为R的嘉当矩阵 （分别$R'$）相对于B（分别$B'$），并令$\Delta$（分别$\Delta '$）为R（分别$R'$）相对于B（分别$B'$）的Dynkin图。
 
-(i) 如果从$\mathfrak{h}^*$到$\mathfrak{h}^{'*}$，$\varphi$是同构，使得$\varphi (R) = R'$和$\varphi (B) = B'$，则存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$唯一的同构$\psi$，使得$\psi |\mathfrak{h}=^t\varphi^{-1}$。
+(i) 如果从$\mathfrak{h}^*$到$\mathfrak{h}^{'*}$$\varphi$是同构，使得$\varphi (R) = R'$和$\varphi (B) = B'$，则存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$唯一的同构$\psi$，使得$\psi |\mathfrak{h}=^t\varphi^{-1}$。
 
 (ii) 如果从B到$B'$$f$是双射，使得$n'(f(\alpha ), f(\beta )) =n(\alpha , \beta )$对于所有$\alpha , \beta \in$B，存在从$(\mathfrak{g},\mathfrak{h},B,(X_{\alpha})_{\alpha\in B})$到$(\mathfrak{g}',\mathfrak{h}',B',(X'_{\alpha})_{\alpha\in B'})$的同构。
 
@@ -525,11 +525,11 @@ $(X'_{\alpha})_{\alpha\in B}$生成的$\mathfrak{g}'=\mathfrak{a}'/(\mathfrak{n}
 
 唯一性自 $(X_{\alpha})_{\alpha\in B\cup(-B)}$ 生成李代数 $\mathfrak{g}$ 开始清晰。根据命题 4，$\theta$ 的存在源自我们在 no. 3 之前 Th 中所说的。 1.
 
-#### 推论{#lie-viii-s4-n4-cor-2 .statement tag=011F}
+#### 推论 {#lie-viii-s4-n4-cor-2 .statement tag=011F}
 
 设$(\mathfrak{g},\mathfrak{h})$为分裂的半单李代数。那么$(\mathfrak{g},\mathfrak{h})$拥有Chevalley系统（§2, no. 4，Def.3）。
 
-令 R 为 $(\mathfrak{g},\mathfrak{h})$ 的根系。对于所有$\alpha \in R$，令$X_{\alpha}$为$\mathfrak{g}^{\alpha}$的非零元素。假设选择 $X_{\alpha}$，使得 $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ 对于所有 $\alpha \in R ($§2, no. 4、引理 2)。令 B 为 R 的基和 $\mathfrak{g}$ 的 $\theta$ 自同构，这样对于所有 $\alpha \in B\cup (-B)$ 来说，$\theta (X_{\alpha}) =X_{-\alpha}$。我们有$\theta |\mathfrak{h}=-$Id$_{\mathfrak{h}}$。因此，对于所有$\alpha \in R$，都存在$t_{\alpha}\in k^*$，使得$\theta X_{\alpha}=t_{\alpha}X_{-\alpha}$。我们有
+令 R 为 $(\mathfrak{g},\mathfrak{h})$ 的根系。对于所有 $\alpha \in R$，令 $X_{\alpha}$ 为 $\mathfrak{g}^{\alpha}$ 的非零元素。假设选择了 $X_{\alpha}$，使得 $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ 对于所有 $\alpha \in R ($§2, no. 4、引理 2)。令 B 为 R 的基和 $\mathfrak{g}$ 的 $\theta$ 自同构，这样对于所有 $\alpha \in B\cup (-B)$ 来说，$\theta (X_{\alpha}) =X_{-\alpha}$。我们有$\theta |\mathfrak{h}=-$Id$_{\mathfrak{h}}$。因此，对于所有$\alpha \in R$，都存在$t_{\alpha}\in k^*$，使得$\theta X_{\alpha}=t_{\alpha}X_{-\alpha}$。我们有
 
 $$
 t_{\alpha}t_{-\alpha}H_{\alpha}= [t_{\alpha}X_{-\alpha}, t_{-\alpha}X_{\alpha}] = [\theta X_{\alpha}, \theta X_{-\alpha}] =\theta ([X_{\alpha}, X_{-\alpha}])
