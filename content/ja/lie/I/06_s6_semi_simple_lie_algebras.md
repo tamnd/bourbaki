@@ -1,0 +1,673 @@
+---
+book: lie
+book_title: Lie Groups and Lie Algebras
+chapter: I
+chapter_title: Lie Algebras
+section: 6
+section_title: Semi-simple Lie algebras
+lang: ja
+source: lie-i-iii
+book_pages: 50-68, 102-109
+pdf_pages: 0068-0086, 0120-0127
+extraction: ocr
+subsections:
+    - "no": 1
+      title: DEFINITION OF SEMI-SIMPLE LIE ALGEBRAS
+      page: 50
+      pdf_page: 68
+    - "no": 2
+      title: SEMI-SIMPLICITY OF REPRESENTATIONS
+      page: 51
+      pdf_page: 69
+    - "no": 3
+      title: SEMI-SIMPLE ELEMENTS AND NILPOTENT ELEMENTS IN SEMI-SIMPLE LIE ALGEBRAS
+      page: 54
+      pdf_page: 72
+    - "no": 4
+      title: REDUCTIVE LIE ALGEBRAS
+      page: 56
+      pdf_page: 74
+    - "no": 5
+      title: 'APPLICATION: A CRITERION FOR SEMI-SIMPLICITY OF REPRESENTATIONS'
+      page: 58
+      pdf_page: 76
+    - "no": 6
+      title: SUBALGEBRAS REDUCTIVE IN A LIE ALGEBRA
+      page: 59
+      pdf_page: 77
+    - "no": 7
+      title: EXAMPLES OF SEMI-SIMPLE LIE ALGEBRAS
+      page: 60
+      pdf_page: 78
+    - "no": 8
+      title: THE LEVI-MALCEV THEOREM
+      page: 62
+      pdf_page: 80
+    - "no": 9
+      title: THE INVARIANTS THEOREM
+      page: 66
+      pdf_page: 84
+    - "no": 10
+      title: CHANGE OF BASE FIELD
+      page: 68
+      pdf_page: 86
+statements: 50
+exercises: 27
+content_sha256: 47902476004c2b9468c7d282103dd2fa6e98cf0adc528fcb28099f1ee0db5926
+translated_from: content/en/lie/I/06_s6_semi_simple_lie_algebras.md
+translation_method: google
+source_content_sha256: a9c8167085c5b67b76f2c398b6f6632816160cebdc605e7610218d0eb473ffb7
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-dda8bbaf
+glossary_version: 34
+glossary_terms_sha256: 60e7a2b94e6403f585a02d010e68176f594a14a075a03b711ddd8100357173c5
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 6。 半単純リー代数
+
+*K は標数 0 の体を示し、すべてのリー代数は K 上で有限次元であると仮定されていることを思い出してください。*
+
+### 1. 定義/半単純リー代数
+
+#### 定義 1 {#lie-i-s6-def-1 .statement tag=09ZA}
+
+*gをリー代数とします。 g の唯一の可換イデアルが {0} である場合に限り、g は半単純と呼ばれます。*
+
+#### 注意 {#lie-i-s6-n1-rem-1 .statement tag=09ZB}
+
+(1) 代数 {0} は半単純です。 次元 1 または 2 の代数は、半単純 (cf. § 5, no. 1、例 1) ではありません。 次元 3 (cf. no. 7) の半単純代数が存在します。
+
+(2) 半単純代数には零中心があるため、その随伴である表現は忠実です。
+
+(3) $g_1, \ldots, g_n$ が半単純である場合、$g = g_1 \times \cdots \times g_n$ は半単純です。つまり、a が g の可換イデアルである場合、a の射影は $g_1, \ldots, g_n$ 簡約するから {0} になります。
+
+#### 定理 1 {#lie-i-s6-thm-1 .statement tag=09ZC}
+
+※gをリー代数とします。次の条件は同等です:*
+
+(a) *g は半単純.*
+(b) *根基 g の r は零.*
+(c) *形 $\beta$ の g を殺すことは非縮退です。*
+
+*さらに、半単純リー代数はその導出された理想に等しい*。
+
+(a) $\Rightarrow$ (b): $r \neq \{0\}$ の場合、r から導出された最後の非ゼロの代数は g の可換イデアルです。
+
+(b) $\Rightarrow$ (c): これは、§ 5, no. 5 の命題 5 (b) から続きます (これは同時に定理の最後の主張を証明します)。
+
+(c) $\Rightarrow$ (a): これは、§ 4, no. 4 の命題 6 (b) に続きます。
+
+#### 系 {#lie-i-s6-n1-cor-1 .statement tag=09ZD}
+
+*g を有限次元ベクトル空間 V の g の半単純リー代数と $\rho$ 表現とします。次に、$\rho(g) \subset \mathfrak{sl}(V)$.*
+
+x が形 $[y, z]$ ($y \in g, z \in g$) の場合、線型形式 $x \mapsto \operatorname{Tr} \rho(x)$ ($x \in g$) は零となり、したがって $\mathscr{D}g = g$ になります。
+
+#### 命題 1 {#lie-i-s6-prop-1 .statement tag=09ZE}
+
+$g$ を半単純リー代数とし、$\varphi$ を $g$ の有限次元忠実な表現とします。次に、$\varphi$ に関連付けられた $g$ の双線形形式は非退化です。
+
+この形に対する$g$の直交は解けるイデアル($§ 5$, no. 4, 定理 2)なので零です。
+
+#### 系 1 {#lie-i-s6-prop-1-cor-1 .statement tag=09ZF}
+
+$g$をリー代数、$\beta$をその殺害形、$a$半単純を$g$の部分代数とします。 $\beta$に対する$a$の直交$h$は、$g$と$[a, h] \subset h$の$a$の補足部分空間です。 $a$が$g$の理想である場合、$h$も同様であり、$g$における$a$の中心化となります。
+
+$\beta'$ を $\beta$ から $a$ の制限とします。双線形形式は、空間 $g$ で $a$ の表現 $x \mapsto \operatorname{ad}_g x$ に関連付けられます。この表現は忠実であるため、$\beta'$ は非退化です (命題 1)。したがって、$h$は$g$の$a$を補足するものになります。一方、$x, y$ が $a$ と $z \in h$ にある場合、
+
+$$
+\beta(x, [y, z]) = \beta([x, y], z) = 0,
+$$
+
+$[x, y] \in a$ から、したがって $[y, z] \in h$ となり、$[a, h] \subset h$ であることが証明されます。 $a$ が $g$ の理想である場合、$h$ は $g$ ($§ 3$、命題 7) の理想であることがわかり、$g$ は $a \times h$ と同一視されます。 $a$の中心は零なので、$g$の$a$のセントラライザーは$h$です。
+
+#### 系 2 {#lie-i-s6-prop-1-cor-2 .statement tag=09ZG}
+
+半単純リー代数による半単純リー代数のすべての拡大は半単純であり、些細なことです。
+
+これは系 1 の直後に続きます。
+
+#### 系 3 {#lie-i-s6-prop-1-cor-3 .statement tag=09ZH}
+
+$g$ が半単純の場合、$g$ のすべての導分は内部です。
+
+$\operatorname{ad} g$ は $g$ と同型であるため、半単純となり、$g$ ($§ 1$, 命題 1) の導分のリー代数 $\delta$ のイデアルです。 $D \in \delta$ が $\operatorname{ad} g$ の元と交換する場合、すべての $x \in g$、$\operatorname{ad} D(x) = [D, \operatorname{ad} x] = 0$、よって $D(x) = 0$ が計算されます。したがって$D = 0$です。 系 3 は系 1 の後に続きます。
+
+### 2. 表現の準単純性
+
+#### 補題 1 {#lie-i-s6-lem-1 .statement tag=09ZI}
+
+$g$を半単純リー代数とします。 $g$ の随伴物表現は半単純です。 $g$ のすべての理想とすべての商代数は半単純です。
+
+$a$を$g$の理想とします。殺害形に関して$g$の$a$の直交$b$は$g$のイデアルであり、$a \cap b$は可換イデアル($§ 3$, no. 6, 命題 7)であるため、 零。したがって、$b$は$g$の$a$を補足するものになります。さらに、$g$ の殺害形は非退化であるため、$a$ および $b$ への制限 (*代数*, 章 IX, $§ 4$, no. 1, 系 ～ 命題 1) したがって、$a$ と $b$ は半単純 (no. 1, 定理 1 および $§ 3$, no. 6, 命題 9）。
+
+#### 補題 2 {#lie-i-s6-lem-2 .statement tag=09ZJ}
+
+$g$をリー代数とします。したがって、次の 2 つの条件は同等です。
+(a) $g$ のすべての有限次元線型表現は半単純です。
+(b) すべての $x \in g$ に対して $\rho(x)(V) \subset W$ となるような余次元 1 の有限次元ベクトル空間 $V$ およびベクトル部分空間の $g$ の線型表現 $\varphi$ が存在すると、次の条件で安定した W の補助線が存在します。 $\rho(g)$ (したがって、$\rho(g)$ によって消滅)。
+
+明らかに (a) は (b) を意味します。 (b) が成り立つと仮定します。 $\sigma$ をベクトル空間 M および N ベクトル部分空間上の$g$ の有限次元表現とします。これは、$\sigma(g)$ で安定です。 $\mu$ を、$\sigma$ (§ 3, no. 3) から標準的に導出された $\mathscr{L}(M)$ 上の $g$ の表現とします。$\mu(x) = \mathrm{ad}_{\mathscr{L}(M)} \rho(x)$ を思い出してください。 V (それぞれ W) を、N に対する M の $\mathscr{L}(M)$ の部分空間線形写像のからなるとし、N に対する制限はホモテティー (それぞれ零) とします。この場合、W はすべての $x \in g$ に対して V と $\mu(x)(V) \subset W$ で共次元 1 になります。 条件 (b) までに、すべての $x \in g$ に対して $\mu(x)$ によって消滅し、N に対する制限が非ゼロのホモテティー である $u \in V$ が存在します。 $u$ に適切なスカラーを乗算すると、$u$ は N に対する M の射影子であると仮定できます。 $\mu(x) \cdot u = 0$ と言うのは、$u$ が $\sigma(x)$ で置換可能であることを意味します。したがって、$u$の核はMのNの補充であり、すべての$x \in g$に対して$\sigma(x)$の下で安定です。したがって、$\sigma$ は半単純です。
+
+#### 補題 3 {#lie-i-s6-lem-3 .statement tag=09ZK}
+
+*g を有限次元ベクトル空間 V の g の半単純リー代数、$\rho$ 線型表現、およびコディメンション 1 の V の W 部分空間とし、すべての $x \in g$ に対して $\rho(x)(V) \subset W$ とする。次に、$\rho(g)$ で安定する W の補助線が存在します。
+
+すべての $x \in g$ について、$\sigma(x)$ を W に対する $\rho(x)$ の制限とします。まず、$\sigma$ が単純であると仮定します。 $\sigma = 0$ の場合、$g$ のすべての $x, y$ に対して $\rho(x)\rho(y) = 0$ となるため、$\rho(g) = \rho(\mathscr{D}g) = \{0\}$ と主張は明らかです。 $\sigma \neq 0$ の場合、n を $\sigma$ の核とし、m を $g$ (補題 1) における n の補足イデアルとします。その場合、m に対する $\sigma$ の $m \neq \{0\}$ と制限は忠実です。 $\sigma$ に関連付けられた双線形形式の m への制限は非縮退 (命題 1) であるため、m および $\sigma$ に関連付けられたカシミール元 c が形成されます。 § 3, no. 7の命題12により、$\sigma(c)$はWの自己同型になります。一方、$\rho(c)(V) \subset W$です。したがって、$\rho(c)$ の核 Z は W の補助線です。 $g$ を包含する代数の c 属するから中心なので、$\rho(c)$ はすべての $x \in g$ に対して $\rho(x)$ で置換可能であり、したがって Z は $\rho(g)$ で安定です。
+
+一般的なケースでは、Vの次元について帰納法までに議論します。 T を W の最小非ゼロ安定部分空間とします。$\rho'$ を $V' = V/T$ 上の商表現とします。次に、すべての $x \in g$、$\rho'(x)(V') \subset W'$ について、$W' = W/T$ は $V'$ の共次元 1 です。 帰納法の仮定までに、$W'$を補足するライン$Z'$が存在し、$\rho'(g)$では安定しています。 V の逆像 Z は、$\rho(g)$、含む T では共次元 1 の部分空間、$Z \cap W = T$、したがってすべての $x \in g$ に対して $\rho(x)(Z) \subset T$ で安定しています。上記で証明されたことにより、$\rho(g)$ で安定な Z の T の補助線が存在します。この行は、V の W を補足するもので、証明を完成させます。
+
+#### 定理 2 (H. ワイル) {#lie-i-s6-thm-2 .statement tag=09ZL}
+
+*半単純リー代数のすべての有限次元線型表現は完全に還元可能です。*
+
+これは補題 2 と 3 から続きます。
+
+#### 定義 2 {#lie-i-s6-def-2 .statement tag=09ZM}
+
+*リー代数 g のイデアルが {0} と g のみであり、さらに g が非可換である場合、g は単純と呼ばれます。*
+
+単純なリー代数は半単純です。 代数 {0} は単純ではありません。
+
+#### 命題 2 {#lie-i-s6-prop-2 .statement tag=09ZN}
+
+*リー代数 g が半単純であるためには、単純代数の積であることが必要十分です。
+
+条件で十分です (no. 1、注意 3)。逆に、g が半単純であるとします。 g の随伴表現は半単純であるため、g はゼロ以外の最小イデアル $a_1, \ldots, a_m$ の直和です。すると、g は $a_i$ (§ 1, no. 1) の積代数と同一視されます。 $a_i$ のすべてのイデアルは g のイデアルとなり、したがって零または $a_i$ に等しくなります。一方、$a_i$ は非可換です。したがって、$a_i$ は単純なリー代数です。
+
+#### 系 1 {#lie-i-s6-prop-2-cor-1 .statement tag=09ZO}
+
+*半単純リー代数はそのシンプルな理想$g_i$の積です。 g のすべての理想は、$g_i$ のうちの特定の積です。*
+
+$g = a_1 \times \cdots \times a_m$、$a_i$ は単純です。 $a_i$の中心は零であるため、gの$a_i$のセントラライザーは$j \neq i$の$a_j$の積です。次に、a を g のイデアルとします。 含む $a_i$ でない場合は、$a \cap a_i = \{0\}$、したがって $[a, a_i] = \{0\}$ となり、a は $j \neq i$ の $a_j$ の積に含まれます。したがって、a は $a_i$ のうちの積であるということになります。したがって、g の単純な理想はまさに $a_i$ です。
+
+半単純リー代数の単純なイデアは g の *単純成分* と呼ばれます。
+
+#### 系 2 {#lie-i-s6-prop-2-cor-2 .statement tag=09ZP}
+
+*g、$g'$を2つのリー代数、rと$r'$をそれらの根基とf準同型を$g'$にするとします。次に、$r' = f(r)$.*
+
+$f(r)$は解けるので、$f(r) \subset r'$。一方、$g/r$ は半単純 (§ 5, no. 2, 命題 3) であるため、$g/r$ の商と同型である $g'/f(r)$ は半単純 (補題 1) であるため $f(r) \supset r'$ (§ 5, no. 2、命題3)。
+
+#### 注意 {#lie-i-s6-n2-rem-1 .statement tag=09ZQ}
+
+(1) 定理 2 は逆を認めます: g のすべての有限次元表現が半単純である場合、g は半単純です。なぜなら、随伴表現は半単純であるため、g のすべてのイデアルは補足イデアルを認め、したがって g の商とみなすことができるからです。 g が半単純でない場合、g は非ゼロ可換商を許容するため、次元 1 の商が認められます。今度は、次元 1 のリー代数 K は非半単純表現を許容します。
+
+$$
+\lambda \mapsto \begin{pmatrix} 0 & 0 \\ \lambda & 0 \end{pmatrix}.
+$$
+
+(2) g を K 上のリー代数とし、ベクトル空間 M 上の g の $\sigma$ 表現とする。一方、$f$ を M の $g$ の K-線型写像とすると、次のようになります。
+
+$$
+f([x, y]) = \sigma(x) \cdot f(y) - \sigma(y) \cdot f(x)
+$$
+
+$g$ のすべての $x, y$ に対して。 By § 1, no. 8, Example 2, being given $\sigma$ and $f$ is equivalent to being given a homomorphism $x \mapsto (f(x), \sigma(x))$ of $g$ into $\mathfrak{af}(M)$. 一方、$\mathfrak{af}(M)$ の元 $(f(x), \sigma(x))$ は、M および写像の誘導する $\sigma(x)$ である $\mathfrak{gl}(N)$ (ここで $N = M \times K$) の元 $\rho(x)$ と標準的に識別されることがわかりました (上記引用)。 N の元 $(0, 1)$ から $f(x)$ まで。 そして、$\rho$ は N 上の $g$ の表現となり、すべての $x \in g$ に対して $\rho(x)(N) \subset M$ になります。
+
+すると、$g$が半単純であれば、NのMを補って$\rho(g)$で消滅する線Zが存在する(補題3)。他の語では、$(-m_0, 1) \in N$が$\rho(x)$によって消滅するような元* $m_0 \in M$が存在します。つまり、*そのような*
+
+$$
+f(x) = \sigma(x) \cdot m_0
+$$
+
+*全員に* $x \in g$。
+
+※$K = \mathbf{R}$とします。 G をリー代数 g と接続されたリー群とします。 G の準同型 $\phi$ をアフィン群 A の M 対応するから準同型 $x \mapsto (f(x), \sigma(x))$ を $\mathfrak{af}(M)$ に変換する解析を考えてみましょう。上記の結果は、g が半単純 $\phi(G)$ の場合、M の点が固定されたままになるとというによって解釈できます。たとえば、H を $\mathbf{GL}(N)$ の元の集合とすると、M に平行な N のすべての線形多様体が安定します。H 上に A の (§ 1, no. 8, 例 2) 標準同型 $\psi$ が存在します。Z を N における M の補助線とします。$\rho(g)$ と言うには、 Zを全滅させるとというとなり、$(\psi \circ \phi)(G)$はZの点を固定したままにし、したがって（$\psi$の定義を考慮して）$\phi(G)$はZの共通部分の点のMに射影を固定したままにし、 $M \times \{1\}$.*
+
+### 3. 半単純リー代数の半単純元と冪零元
+
+#### 命題 3 {#lie-i-s6-prop-3 .statement tag=09ZR}
+
+*M を K 上の有限次元ベクトル空間および $\mathfrak{gl}(M)$ の $g$ 半単純部分代数とします。次に $g$ 含む半単純と、その元の無力成分です。*
+
+$K_1$ が K の拡大である場合、$g_{(K_1)}$ の Killing 形は、$g$ (§ 3, no. 8) の Killing 拡大から $g_{(K_1)}$ であるため、非退化です。したがって、$g_{(K_1)}$ は半単純です。したがって、基礎体が代数的に閉じている場合に命題 3 を証明するだけで十分であり、今後はそのとおりであると仮定します。
+
+M のすべての部分空間 N について、$g_N$ を $\mathfrak{gl}(M)$ の部分代数からなるの元とします。これにより N は安定し、その制限から N へのトレース零が得られます。 N が $g$ で安定している場合は、$g = \mathscr{D}g$、$g \subset g_N$ となります。次に、$g^*$ を、$\mathfrak{gl}(M)$ および代数 $g_N$ の$g$ の正規化器の共通部分とします。ここで、N は、g の下で安定している M の部分空間の集合を通過します。 $x \in gl(M)$ の半単純 (それぞれ零能) 成分 s (それぞれ n) は、定数項のない x の多項式であり、ad s (それぞれ nilpotent) 部分は ad x ($§ 5$) の半単純 (それぞれ零能) 部分であるため、 no. 4、補題 2)、明らかに $x \in g^*$ は $s \in g^*$ と $n \in g^*$ を暗示します。したがって、$g^* = g$ を示すだけで十分です。 gは$g^*$の半単純理想なので、$g^* = a \times g$(no. 1、系1から命題1)。 $a \in a$ とし、N を g のもとで安定な M の非ゼロ部分空間の中で最小となる部分空間とします。 aからNまでの制限はバーンサイドの定理による恒等式のスカラー倍数で、構成によるトレース零があり、したがってKは標数0なので零になります。MはNなど部分空間の直和であるため、次のようになります。 $a = 0$、したがって$g^* = g$。
+
+#### 系 {#lie-i-s6-n3-cor-1 .statement tag=09ZS}
+
+$ad_g x$ が g の半単純 (それぞれゼロポテント) 自己準同型である場合に限り、g の元 x は M の半単純 (それぞれゼロポテント) 自己準同型です。
+
+s (それぞれ n) を $x \in g$ の半単純 (それぞれゼロポテント) 成分とします。 次に、$s \in g$ と $n \in g$ (命題 3) です。 すると、$ad_g s$ (それぞれ $ad_g n$) は、$§ 5$、no. 4 の補題 2 により、$ad_g x$ の半単純 (それぞれ無能) 成分になります。 x が半単純 (つまりゼロポテント) であれば、 $ad_g x$ です。 ここで、$ad_g x$ が半単純 (無能) である場合、g の随伴表現が忠実であるため、$ad_g s$ (それぞれ $ad_g n$) に等しく、したがって $x = s$ (それぞれ $x = n$) となります。
+
+#### 定義 3 {#lie-i-s6-def-3 .statement tag=09ZT}
+
+g を半単純リー代数とします。 K 上の有限次元のすべての g 加群 M について、$x_M$ が M の半単純 (それぞれゼロポテント) 自己準同型である場合、g の元 x は半単純 (それぞれゼロポテント) と呼ばれます。
+
+#### 命題 4 {#lie-i-s6-prop-4 .statement tag=09ZU}
+
+g, g' を半単純リー代数とし、g の f 準同型を g' にします。 $x \in g$ が半単純 (それぞれ無能) の場合、$f(x)$ も同様です。 f が全射法の場合、g' のすべての半単純 (それぞれゼロポテント) 元は、g の半単純 (それぞれゼロポテント) 元の f の下で像になります。
+
+$\rho$ が g の表現である場合、$\rho \circ f$ は g の表現、最初の主張はよってです。 f が全射法の場合、$f \circ g$ が g' の単位準同型 (no. 1, 系 2 から命題 1) となるような g の準同型 g が g に存在し、2 番目の主張が最初の後に続きます。
+
+#### 定理 3 {#lie-i-s6-thm-3 .statement tag=09ZV}
+
+g を半単純リー代数とします。
+
+(a) $x \in g$ とします。 $\rho(x)$ が半単純 (それぞれ nilpotent) 自己準同型となるような g の忠実な表現 $\rho$ が存在する場合、x は半単純 (それぞれ nilpotent) です。
+
+(b) g のすべての元は、1 つの他のと可換である半単純元および冪零元の和として一意に書くことができます。
+
+(a)の仮定が成り立つとします。 $\sigma$をgの表現、bに$\sigma$の核とgの$\alpha$射影をbに追加したイデアルとします。次に、$ad_g x$ は系から命題 3 によって半単純 (それぞれ無能) となり、したがって $ad_b \alpha(x)$ は半単純 (それぞれ無能) になります。 $\sigma(x) = \sigma(\alpha(x))$ として、最初の主張は系から命題 3 に続きます。次に 2 番目の結果は、忠実な表現に適用された命題 3 から続きます。
+
+### 4. 還元的リー代数
+
+#### 定義 4 {#lie-i-s6-def-4 .statement tag=09ZW}
+
+*リー代数は、その随伴物表現が半単純である場合、還元的と呼ばれます。*
+
+#### 命題 5 {#lie-i-s6-prop-5 .statement tag=09ZX}
+
+*$g$をリー代数、$r$を根基とします。次の条件は同等です:*
+(a) $g$ は還元的です。
+(b) $\mathscr{D}g$ は半単純です。
+(c) $g$ は、半単純代数と可換代数の積です。
+(d) $g$ には有限次元表現があり、関連する双線形形式は非縮退です。
+(e) $g$ には忠実な半単純有限次元表現がいます。
+(f) *$g$ の無能根基は零です。*
+(g) $r$ は $g$ の中心です。
+
+(a) $\Rightarrow$ (b): $g$ の随伴表現が半単純である場合、$g$ は最小非ゼロイデアル $a_i$ の直和であるため、$g$ は最小非ゼロイデアルの積と同型です。 $a_i$;そして、$a_i$ は $\{0\}$ と $a_i$ 以外にイデアルを持たないため、次元 1 の単純または可換です。 したがって、$\mathscr{D}g$ は、単純な $a_i$ のうちの積に等しく、したがって半単純です。
+
+(b) $\Rightarrow$ (c): $\mathscr{D}g$ が半単純の場合、$g$ はリー代数 $h$ (no. 1、系 1 ～ 命題 1) によって $\mathscr{D}g$ の積と同型です。 $h$ は $g/\mathscr{D}g$ と同型であるため、可換です。
+
+(c) $\Rightarrow$ (d): $g_1$ と $g_2$ を、$\rho_i$ に関連付けられた $g_i$ 上の $g_i$ と $\beta_i$ 双線形形式の 2 つのリー代数、$\rho_i$ 有限次元表現とします。 ($i = 1, 2$); $\rho_1$ と $\rho_2$ は、$g = g_1 \times g_2$ の表現と見なすことができます。 $\rho$を彼らの直和とします。明らかに、$\rho$ に関連付けられている $g$ の双線形形式は、$\beta_1$ と $\beta_2$ の直和であるため、$\beta_1$ と $\beta_2$ が非縮退であれば、非縮退です。次に、含意 (c) $\Rightarrow$ (d) を証明するには、次の 2 つのケースを考慮するだけで十分です: (1) $g$ は半単純;その場合、随伴物表現は、非退化である殺人形を関連する形として認めます。 (2) $g = K$;この場合、$K$ 上の $g$ の ID 表現には、非縮退である双線形形式が関連付けられています。
+
+(d) $\Rightarrow$ (e): let $\rho$ be a finite-dimensional representation of $g$ and $\beta$ the associated bilinear form; by Proposition 4 of § 4, no. 3, there exists a finite-dimensional semi-simple representation $\sigma$ of $g$ such that the kernel $n$ of $\sigma$ is orthogonal to $g$ with respect to $\beta$. $\beta$ が非縮退であれば、$n = \{0\}$、したがって $\sigma$ は忠実です。
+
+(e) $\Rightarrow$ (f): これは明らかです。
+
+(f) $\Rightarrow$ (g): $g$ のゼロポテント根基が零である場合、$\mathscr{D}g \cap r$ は零 ($§ 5$, no. 3, 定理 1); $[g, r] \subset \mathscr{D}g \cap r$、$r$ は $g$ の中心です。
+
+(g) ⇒ (a): r が g の中心である場合、g の随伴物表現は g/r の表現と同一視され、これは半単純リー代数 (§ 5, no. 2, 命題 3) です。したがって、この表現は半単純 (定理 2) になります。
+
+#### 注意 {#lie-i-s6-n4-rem-1 .statement tag=09ZY}
+
+リー代数 g が可換なリー代数 a と半単純リー代数 b の積 a × b として分解できる場合、この分解は一意です。 より正確には、g の中心は a と b の中心の積に等しいため、a に等しいです。 そして$\mathscr{D}g = \mathscr{D}a \times \mathscr{D}b = b$。
+
+#### 系 {#lie-i-s6-n4-cor-1 .statement tag=09ZZ}
+
+(a) 還元的代数のすべての有限積は還元的代数です。
+(b) g が中心 c の還元的リー代数である場合、g のすべてのイデアルは、その共通部分と $\mathscr{D}g$ の直因子、積であり、還元的リー代数です。
+(c) 還元的リー代数のすべての商は還元的リー代数です。
+
+主張 (a) は、例えば命題 5 の条件 (c) から続きます。
+
+g が還元的であると仮定します。 a を g のイデアルとします。 g の随伴表現は半単純なので、a は補足イデアル b を持ち、g は a × b と同一視されます。 すべての $x \in g$ について、$\rho(x)$ を $\mathrm{ad}_g x$ から a の制限とします。 この場合、$\rho$ は g の半単純表現であり、b の零と移行の定義するから a の随伴表現への商です。 したがって、 a は還元的です。 同様に、同型である g/a と b は還元的です。 最後に、d、d' を a と b の中心とします。次に$a = d \times \mathscr{D}a, b = d' \times \mathscr{D}b, d \times d' = c, \mathscr{D}a \times \mathscr{D}b = \mathscr{D}g$;したがって $a = (a \cap c) + (a \cap \mathscr{D}g)$ です。
+
+#### 命題 6 {#lie-i-s6-prop-6 .statement tag=0A00}
+
+g をリー代数、r を根基、そして s をゼロポテント根基とします。
+(a) $s = [g, r] = \mathscr{D}g \cap r$。
+(b) s は、g の有限次元表現に関連付けられた双線形形式に関する g の直交関数の共通部分です。
+
+明らかに$[g, r] \subset \mathscr{D}g \cap r$。 現在、§ 5, no. 3 の定理 1 により $\mathscr{D}g \cap r = s$ です。 $g' = g/[g, r]$ と f を $g'$ に対する g の標準準同型とします。その場合、$f(r)$ は $g'$ の根基 $r'$ (系 3 から命題 2、no. 2) であるため、$[g', r'] = \{0\}$ と $r'$ は $g'$ の中心になります。したがって (命題 5) $g'$ には有限次元の忠実な半単純表現、よって $s \subset [g, r]$ が存在します。 これは (a) を証明します。
+
+t を g の有限次元表現に関連付けられた双線形形式に関する g の直交関数の共通部分とします。次に、$s \subset t$ (§ 4, no. 3、命題 4 (d)) です。一方、$g/s$ には有限次元の忠実な半単純表現があり、したがって (命題 5) 有限次元表現 $\rho$ があり、関連する双線形形式は非縮退です。 g の表現とみなされると、$\rho$ には g 上の関連する双線形形式 $\beta$ があり、$\beta$ に対する g の直交は s、よって $t \subset s$ です。したがって$t = s$です。
+
+たとえ$s \neq \{0\}$であっても、g上に非縮退対称双線形形式が存在する可能性があります(練習問題18(c))。もちろん、そのような形は g のどの表現とも関連付けられていません。
+
+#### 系 {#lie-i-s6-n4-cor-2 .statement tag=0A01}
+
+Let $g, g'$ be Lie algebras, $s$ (resp. $s'$) the nilpotent radical of $g$ (resp. $g'$) and $f$ a homomorphism of $g$ onto $g'$.
+(a) Then $s' = f(s)$.
+(b) $g'$ is reductive if and only if the kernel of $f$ contains $s$.
+
+$r, r'$ が $g, g'$ の根基である場合、$s' = [g', r'] = [f(g), f(r)] = f([g, r]) = f(s)$ です。 主張 (b) は (a) の明らか帰結です。
+
+### 5. 応用: 表現の準単純性の基準
+
+#### 定理 4 {#lie-i-s6-thm-4 .statement tag=0A02}
+
+$g$ をリー代数、$r$ を根基、$\rho$ 有限次元表現を $g$、$g' = \rho(g)$、$r' = \rho(r)$ とします。したがって、次の条件は同等です。
+(a) $\rho$ は半単純です。
+(b) $g'$ は還元的であり、その中心は半単純自己準同型で構成されます。
+(c) $r'$ は半単純自己準同型で構成されます。
+(d) $\rho$～$r$の制限は半単純です。
+
+(a) $\Rightarrow$ (b): $\rho$ が半単純の場合、$g'$ は還元的 (命題 5)。 1 と $g'$ によって生成される結合代数は半単純 (\emph{代数}, 章 VIII, § 5, no. 1, 命題 3) であるため、その中心は半単純 (\emph{loc. cit.}, § 5, no. 4, 命題 12)、したがってこの中心の元は半単純 (\emph{loc. cit.}, § 9, no. 1, 命題 2) です。
+
+(b) $\Rightarrow$ (c): $g'$ が還元的である場合、その中心はその根基、つまり $r'$、よっての含意 (b) $\Rightarrow$ (c) に等しい。
+
+(c) $\Rightarrow$ (d): $r'$ が半単純自己準同型から構成されているとします。 $[g', r']$ は冪零自己準同型 (no. 4、命題 6)、$[g', r'] = \{0\}$ で構成されます。すると \emph{代数}, 章 VIII, § 9, no. 2, 定理 1 から含意 (c) $\Rightarrow$ (d) が得られます。
+
+(d) $\Rightarrow$ (a): $s$ を、$g$ のゼロポテント根基と $\rho$ から $r$ の$\rho'$ 制限とします。 The elements of $\rho(s)$ are nilpotent and hence $s$ is contained in the largest nilpotency ideal of $\rho'$. As $\rho'$ is semi-simple, $\rho'(s) = \{0\}$ and $g'$ is reductive (Corollary to Proposition 6), so that $g' = a' \times r'$ with $a'$ semi-simple (Proposition 5). $A'$ (それぞれ $R'$) を、1 と $a'$ (それぞれ $r'$) によって生成された結合代数とします。 それは半単純 (\emph{代数}, 章 VIII, § 5, no. 1, 命題 3) であるため、$A' \otimes_K R'$ は半単純 (\emph{loc. cit.}, § 7, no. 6, 系 4 ～ 定理) となります。 3) したがって、1 と $g'$ によって生成される結合代数 ($A' \otimes_K R'$ の商) は半単純となり、$\rho$ が半単純であることが証明されます。
+
+#### 系 1 {#lie-i-s6-thm-4-cor-1 .statement tag=0A03}
+
+$g$ をリー代数 、$\rho$ と $\rho'$ を $g$ の 2 つの有限次元半単純表現とします。すると、$\rho$と$\rho'$のテンソル積は半単純になります。
+
+$r$を$g$の根基とします。 $x \in r$、$\rho(x)$、$\rho'(x)$ は半単純 (定理 4) であるため、$\rho(x) \otimes 1 + 1 \otimes \rho'(x)$ は半単純 (\emph{代数}, 章 VIII, § 9, 系から) 定理 1) したがって、$\rho$ と $\rho'$ のテンソル積は半単純 (定理 4) です。
+
+#### 系 2 {#lie-i-s6-thm-4-cor-2 .statement tag=0A04}
+
+Let $g$ be a Lie algebra, $\rho$ a semi-simple representation of $g$ on a finite-dimensional vector space $V$, $T$ and $S$ the tensor and symmetric algebras of $V$ and $\sigma_T$, $\sigma_S$ the representations of $g$ on $T$ and $S$ canonically derived from $\rho$. この場合、$\sigma_T$ と $\sigma_S$ は半単純であり、より正確には、有限次元の単純な表現の直和です。
+
+$T^n$ を位数 $n$ の同次テンソルの $T$ からなるの部分空間とします。この部分空間は$\sigma_T$では安定しており、$T^n$の$\sigma_T$によって定義される表現は半単純(系1)です。したがって、$\sigma_T$の系、したがって$\sigma_S$、つまり$\sigma_T$の商表現になります。
+
+#### 系 3 {#lie-i-s6-thm-4-cor-3 .statement tag=0A05}
+
+$g$ をリー代数と $\rho$ と $\rho'$ 空間 $M$ と $M'$ 上の $g$ の 2 つの有限次元半単純表現とします。次に、$\rho$ と $\rho'$ から標準的に導出された $\mathscr{L}_K(M, M')$ 上の $g$ の表現は半単純です。
+
+$g$ モジュール $\mathscr{L}_K(M, M')$ は、$g$ モジュール $M^* \otimes_K M'$ (§ 3, no. 3、命題 4) と正規的に識別されるため、系 1 から系 3 が続きます。
+
+#### 系 4 {#lie-i-s6-thm-4-cor-4 .statement tag=0A06}
+
+$g$をリー代数、$a$を$g$、$\rho$を半単純表現の$g$とします。
+(a) $\rho$～$a$の制限 $\rho'$は半単純です。
+(b) $\rho$ が単純な場合、$\rho'$ は 1 つの他のと同型の単純な表現の和です。
+
+$\rho$、$\rho$の核による移行から商は忠実であると仮定できます。 すると$g$は還元的です。 $g = g_1 \times g_2$ とします。ここで、$g_1$ は $g$ の中心、$g_2$ は半単純です。 次に、$a = a_1 \times a_2$、$a_1 \subset g_1$、$a_2 \subset g_2$、$a_1$ は $a$ の中心です。 The elements of $\rho(g_1)$, and in particular those of $\rho(a_1)$, are semi-simple (Theorem 4) and hence $\rho'$ is semi-simple (Theorem 4). したがって、(a)。 主張 (b) は、§ 3, no. 1、系から命題 1 を使用して、(a) から続きます。
+
+### 6. 部分代数リー代数の還元的
+
+#### 定義 5 {#lie-i-s6-def-5 .statement tag=0A07}
+
+$g$ をリー代数とし、$h$ を $g$ の嘘部分代数とします。 $h$の表現$x \mapsto \operatorname{ad}_g x$が半単純であれば、$g$では$h$を還元的といいます。
+
+この表現は、$h$の随伴表現を部分表現として認めます。したがって、$g$ で $h$ が還元的である場合、$h$ は還元的です。一方、リー代数がそれ自体還元的であると言うのは、というが還元的であると言うのと同じです。
+
+#### 命題 7 {#lie-i-s6-prop-7 .statement tag=0A08}
+
+Let $g$ be a Lie algebra, $h$ a subalgebra reductive in $g$, $\rho$ a representation of $g$ on a vector space $V$ and $W$ the sum of the finite-dimensional subspaces of $V$ which are simple $h$-modules. すると、$W$ は $\rho(g)$ で安定します。
+
+$W_0$ を $V$ の有限次元の単純なサブ$h$ 加群とする。すべての $x \in g$ について $\rho(x)(W_0) \subset W$ であることを証明する必要があります。 $M$ は、$g$ 上の $h$ の表現 $x \mapsto \operatorname{ad}_g x$ によって、ベクトル空間 $g$ が $h$ モジュールとみなされることを表します。すると、$M \otimes_K W_0$ は半単純 $h$ モジュール (系 1 ～ 定理 4) になります。 $\theta$ を、$\theta(x \otimes w) = \rho(x)w$ で定義される V に $M \otimes_K W_0$ の K-線型写像を加えます。これは $\mathfrak{h}$ モジュール準同型で、$y \in \mathfrak{h}$ の場合:
+
+$$
+\begin{align*}
+\theta([y, x] \otimes w + x \otimes \rho(y)w) &= \rho([y, x])w + \rho(x)\rho(y)w \\
+&= \rho(y)\rho(x)w = \rho(y)\theta(x \otimes w).
+\end{align*}
+$$
+
+したがって、$\theta(M \otimes_K W_0)$ は有限次元の半単純 $\mathfrak{h}$ 加群です。したがって、$\theta(M \otimes_K W_0) \subset W$、つまりすべての $x \in g$ に対して $\rho(x)(W_0) \subset W$ となります。
+
+#### 系 1 {#lie-i-s6-prop-7-cor-1 .statement tag=0A09}
+
+*Let $g$ be a Lie algebra, $\mathfrak{h}$ a subalgebra reductive in $g$ and $\rho$ a finite-dimensional semi-simple representation of $g$. すると、$\rho$ から $\mathfrak{h}$ の制限は半単純になります。*
+
+$\rho$ が単純な場合を考えれば十分です。 記法 V、命題 4 の W を採用します。$W_1$ を、$\rho(\mathfrak{h})$ で安定な非ゼロ部分空間の中で最小となる V の部分空間とします。次に、$W_1 \subset W$、したがって $W \neq \{0\}$、したがって $W = V$ となります。
+
+#### 系 2 {#lie-i-s6-prop-7-cor-2 .statement tag=0A0A}
+
+*$g$ を $g$ で還元的なリー代数、$\mathfrak{h}$ 部分代数、$\mathfrak{h}$ で$\mathfrak{h}$ の還元的な$\mathfrak{k}$ 部分代数とします。すると、$\mathfrak{k}$ は $g$ で還元的になります。*
+
+The representation $x \mapsto \mathrm{ad}_g x$ of $\mathfrak{h}$ on $g$ is semi-simple and hence its restriction to $\mathfrak{k}$ is semi-simple (Corollary 1).
+
+### 7. 半単純リー代数中例
+
+#### 命題 8 {#lie-i-s6-prop-8 .statement tag=0A0B}
+
+※$V$を有限次元ベクトル空間とします。すると$\mathrm{gl}(V)$は還元的です。その中心は$V$の相同性の集合であり、その派生代数は$\mathrm{sl}(V)$、後者は半単純です*。
+
+$\mathrm{gl}(V)$ の恒等式表現は単純であるため、$\mathrm{gl}(V)$ は還元的であり、したがって $\mathrm{gl}(V)$ はその中心 $c$ とその派生代数 $\mathscr{D}(\mathrm{gl}(V))$ の直和です。 中心 $c$ は、同形性の集合 (*代数*、章 II, § 2, no. 5、系 1 ～ 命題 5) です。明らかに$\mathscr{D}(\mathrm{gl}(V)) \subset \mathrm{sl}(V)$。 $\mathrm{sl}(V) \cap c = \{0\}$、$\mathscr{D}(\mathrm{gl}(V)) = \mathrm{sl}(V)$として。したがって、$\mathrm{sl}(V)$ は半単純です。
+
+#### 例 {#lie-i-s6-n7-exa-1 .statement tag=0A0C}
+
+同一視する $\mathrm{sl}(K^2)$ をリー代数、行列、位数 2 で零を追跡します。私たちは書きます
+
+$$
+X = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix} \quad Y = \begin{pmatrix} 0 & 0 \\ 1 & 0 \end{pmatrix} \quad H = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}.
+$$
+
+次に、$\mathrm{sl}(K^2)$ の $X, Y, H$ 形基底と
+
+$$
+[H, X] = 2X \qquad [H, Y] = -2Y \qquad [X, Y] = H.
+$$
+
+次元 1 または 2 の代数は半単純 (no. 1, *注意 1*) ではないので、$\mathrm{sl}(K^2)$ は単純です。実際、後で見るように、$\mathrm{sl}(V)$ は $\dim V \geq 2$ に対して単純です (cf. は練習問題 21 と 24 も同様です)。
+
+#### 命題 9 {#lie-i-s6-prop-9 .statement tag=0A0D}
+
+V を K 上の有限次元 n のベクトル空間とし、β を V 上の非縮退対称 (それぞれ交代的) 双線形形式とします。 V のすべての m、m' について β(xm, m') + β(m, xm') = 0 となるように、g を x ∈ gl(V) のリー代数からなるとします。 このとき g は還元的です。 g は、β が対称で n = 2 の場合を除いて、偶数半単純です。
+
+すべての u ∈ gl(V) について、u* が β に対するその随伴を表すものとします。次に、代数、章 IX, § 1, no. 8 の命題 7 により、Tr(u) = Tr(u*) となります。 条件
+
+$$
+\beta(um, m') + \beta(m, um') = 0
+$$
+
+すべての m について、V の m' は $u + u^* = 0$ を意味します。特に、$v \in \mathrm{gl}(V)$ の場合は $(v - v^*)^* = v^* - v$、したがって $v - v^* \in g$ になります。次に、g の恒等式表現に関連付けられた双線形形式 φ に関して g に直交する g の元を u とします。すべての $v \in \mathrm{gl}(V)$、$\mathrm{Tr}\,u(v - v^*) = 0$ について、したがって
+
+$$
+\mathrm{Tr}(uv) = \mathrm{Tr}(uv^*) = \mathrm{Tr}(uv^*)^* = \mathrm{Tr}(vu^*) = -\mathrm{Tr}(vu) = -\mathrm{Tr}(uw)
+$$
+
+したがって $\mathrm{Tr}(uw) = 0$ です。 $u = 0$ となるため、φ は非縮退となります。したがって、g は還元的です (命題 5)。 g の中心が零であることを示すことが残っています (β が対称で $n = 2$ の場合を除く)。 基礎体を拡張すると、K が代数的に閉じていると仮定できます。
+
+(a) When β is symmetric, it can be identified with the bilinear form on $K^n$ with matrix $I_n$ with respect to the canonical basis (Algebra, Chapter IX, § 6, Corollary 1 to Theorem 1). これらの下で、条件 g は、斜対称行列 ($§ 3$、no. 4、例 1) のリー代数と識別されます。 $U = (u_{ij}) \in g$ にしましょう。 U は行列 $(v_{ij}) \in g$ と通勤し、その元はすべて零ですが、$v_{i_0j_0}$ と $v_{j_0i_0}$ ($i_0 \neq j_0$) はそれぞれ 1 と −1 に等しいという事実を使用します。 $i \neq i_0, j_0$ と $j \neq i_0, j_0$ に対して $u_{i_0j} = u_{j_0i} = u_{i_0} = u_{j_0} = 0$ であることがわかります。 $n > 2$ の場合、すべての個別の添字 $i_0$ と $j$ に対して、$i \neq i_0, j_0 \neq j, j_0 \neq i_0$ となるような個別の添字 i と $j_0$ が存在します。したがって$u_{i_0j} = 0$です。 これは、g の中心の元が零であることを証明します。
+
+(b) When β is alternating and $n = 2m$, β can be identified with the bilinear form on $K^{2m}$ with matrix $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ with respect to the canonical basis (Algebra, Chapter IX, § 5, Corollary 1 to Theorem 1). これらの下で、条件 g は形 $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ の行列のリー代数と識別されます。ここで、$D = -{}^tA$、B および C は対称です ($\mathbf{M}_m(K)$ の $A, B, C, D$) ($§ 3$、no. 4、例) 1)。 まず、U が行列 $\begin{pmatrix} X & 0 \\ 0 & -{}^tX \end{pmatrix}$ で通勤し、$X \in \mathbf{M}_m(K)$ であるという事実を使用します。 次に、$AX = XA, CX = -{}^tXC, XB = -B\cdot{}^tX$;これらの等式はすべての X に対して成り立つ必要があるため、A はスカラー 行列 $\lambda I_m$ ということになります。 ここで、U が行列 $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$ で通勤しているという事実を使用します。
+
+Y は $\mathbf{M}_m(\mathbf{K})$ の対称行列です。次に$\lambda Y = YC = CY = 0$。これはまず$\lambda = 0$を証明します。さらに、すべての $X \in \mathbf{M}_m(\mathbf{K})$ に対して、$X + {}^tX$ は対称であるため、$XC = -{}^tXC$ になります。上記で得られた方程式 $CX = -{}^tXC$ を使用すると、$C$ は $\mathbf{M}_m(\mathbf{K})$ のすべての元と可換であるため、$C$ はスカラー 行列であり、$YC = 0$ 以降は必然的に零であることがわかります。 $B = 0$も同様に示されます。
+
+$\beta$ 対称と $n = 2$ の場合、$g$ は次元 1 であるため、可換です。その他の場合 cf. 練習問題 25 と 26。
+
+### 8. レヴィ＝マルセフ定理
+
+E を、$\mathbf{R}$ にわたる完全なノルムベクトル空間と、E の連続自己準同型である $u$ とします。 (実数変数章 IV, § 2, no. 6 の写像) 数列 $\frac{u^n}{n!}$ が $\mathscr{L}(E)$ で合計可能であることを確認し、次のように書きました。
+
+$$
+e^u = \exp u = \sum_{n=0}^\infty \frac{u^n}{n!}.
+$$
+
+ここで、E を体 K 以上のベクトル空間とし、E の $u$ 冪零自己準同型とします。 系列 $\sum_{n=0}^\infty \frac{u^n}{n!}$ には、非ゼロ項の有限の数しかないため、次のように書くことができます。
+
+$$
+e^u = \exp u = \sum_{n=0}^\infty \frac{u^n}{n!}.
+$$
+
+この定義は、$K = \mathbf{R}$ かつ E が完全で正規化されている場合、上記と一致します。 $v$ が $u$ と交換する E の他の冪零自己準同型である場合、次のようになります。
+
+$$
+e^{u+v} = \left( \sum_{n=0}^\infty \frac{u^n}{n!} \right) \left( \sum_{p=0}^\infty \frac{v^p}{p!} \right) = \sum_{n,p=0}^\infty \frac{u^n v^p}{n! p!}
+$$
+$$
+= \sum_{q=0}^\infty \frac{1}{q!} \left( \sum_{n+p=q} \binom{q}{n} u^n v^p \right) = \sum_{q=0}^\infty \frac{1}{q!} (u+v)^q = e^{u+v}.
+$$
+
+特に、$e^u e^{-u} = e^{-u} e^u = e^0 = 1$、従って $e^u$ は常に E の自己同型になります。
+
+さらに E が (必ずしも結合的ではない) 代数で、$u$ が E の (冪零) 導分である場合、$e^u$ は代数 E の自己同型になります。 $x, y \in E$ の場合は
+
+$$
+u^p(xy) = \sum_{r+s=p} \binom{p}{r} u^r(x) u^s(y)
+$$
+
+整数 $p \geqslant 0$ (ライプニッツの公式) ごとに。従って、
+
+$$
+e^{u}(xy) = \sum_{p \geqslant 0} \frac{1}{p!} u^p(xy) = \sum_{p \geqslant 0} \sum_{r+s=p} \frac{u^r(x)}{r!} \frac{u^s(y)}{s!}
+$$
+
+$$
+= \sum_{r,s=0}^{\infty} \frac{u^r(x)}{r!} \frac{u^s(y)}{s!} = e^{u}(x)e^{u}(y)
+$$
+
+よって私たちの主張。
+
+ここで、$g$ をリー代数とします。 $x$ 属するから $g$ のゼロポテント根基までの場合、 $g$ の導分 $\mathrm{ad}_g x$ はゼロポテントです。従って、次の定義を作成できます。
+
+#### 定義 6 {#lie-i-s6-def-6 .statement tag=0A0E}
+
+*特別な $g$ の自己同型は形 $e^{\mathrm{ad}\, x}$ の $g$ の自己同型であり、$x$ は $g$ のゼロポテント根基にあります。
+
+明らかに、特別な自己同型は、$g$ のあらゆる理想を安定させます。
+
+#### 定義 7 {#lie-i-s6-def-7 .statement tag=0A0F}
+
+*$g$をリー代数、$r$を根基とします。 $g$ の Levi 部分代数は、$r$ を補足する $g$ のいずれかの部分代数です。
+
+Levi 部分代数は $g/r$ と同型なので、半単純です。 半単純部分代数は $r$ を含む共通のに 0 しかないので、すべての半単純部分代数 $h$ は、$g = r + h$ が Levi 部分代数になります。従って、全射準同型の下の Levi 部分代数の像は Levi 部分代数になります。
+
+#### 定理 5 (レヴィ–マルセフ) {#lie-i-s6-thm-5 .statement tag=0A0G}
+
+*リー代数 $g$ には常に Levi 部分代数 $s$ が付きます。 $g$ のすべての Levi 部分代数は、特別な自己同型の下で $s$ の像です。*
+
+$r$ が $g$ の根基を表すものとします。まず 2 つの特殊なケースを扱います。
+
+(a) $[g, r] = \{0\}$。
+
+By Proposition 5, $g$ is then the product of its centre $r$ by $\mathscr{D}g$ which is semi-simple. 従って、$\mathscr{D}g$ は Levi 部分代数です。 さらに、$s'$ が半単純部分代数である場合、$s' = \mathscr{D}s'$ (定理 1) であるため、$s' \subset \mathscr{D}g$ と $\mathscr{D}g$ は $g$ の固有の Levi 部分代数になります。
+
+(b) $[g, r] \neq \{0\}$ と、$r$ に含まれる$g$ の唯一の理想は、$\{0\}$ と $r$ です。
+
+すると、$g$の$[g, r] = r,\ [r, r] = \{0\}$と中心は零になります。 Let $M$ (resp. $N$) be the subspace of $\mathscr{L}(g)$ consisting of the linear mappings of $g$ into $r$ whose restriction to $r$ is a homothety (resp. zero); $N$ is therefore of codimension 1 in $M$. $m \in M$ について、$\lambda(m)$ は、$m$ によって定義される $r$ のホモテティー の比率を表すものとします。 $\sigma$ を、随伴表現から正規に導出された $\mathscr{L}(g)$ 上の $g$ の表現とします。 $\sigma(x).u = [\mathrm{ad}_g x, u]$ がすべての $x \in g$ とすべての $u \in \mathscr{L}(g)$ に対応していることを思い出してください。
+
+すべての $x \in g$ に対して明らかに $\sigma(x)(M) \subset N$ です。さらに、$x \in r, y \in g$ と $u \in M$ の場合、
+$$
+(\sigma(x).u)(y) = [x, u(y)] - u([x, y]) = -\lambda(u)[x, y]
+$$
+$[r, r] = \{0\}$以来。そして (4) は次のように書くことができます:
+$$
+(x).u = -\mathrm{ad}(\lambda(u).x).
+$$
+
+$g$の中心は零、写像$x \mapsto \mathrm{ad}_g x$定義する全単射$\phi$の$r$は$\mathscr{L}(g)$の部分空間$P$になります。 $r$ は可換イデアルであり、(5) は $x \in r$ に対して $\sigma(x)(M) \subset P$ であることを示しているため、この部分空間は $\sigma(g)$ で安定であり、$N$ に含まれます。 従って、$\sigma$から派生した$M/P = V$の$g$の表現は、$r$の零、および半単純代数$g/r$の定義する表現$\sigma'$になります。 $V$。 すべての $y \in g/r$ について、空間 $\sigma'(y)(V)$ は $N/P$ に含まれており、これは $V$ の共次元 1 です。 その結果 (no. 2, 補題 3) すべての $x \in g$ に対して $\lambda(u_0) = -1$ と $\sigma(x).u_0 \in P$ となるような $u_0 \in M$ が存在します。 写像 $x \mapsto \phi^{-1}(\sigma(x).u_0)$ は、$g$ の線形写像を $r$ に変換したものです。 (5) により、制限から $r$ は $r$ の恒等写像になります。 従って、その核は、$g$ の $r$ を補足する $g$ の部分空間 $s$ です。 $s$ は $x \in g$ の集合であるため、$\sigma(x).u_0 = 0$、$s$ は $g$ の部分代数、つまり $g$ の Levi 部分代数です。
+
+$s'$ を他の Levi 部分代数とします。すべての $x \in s'$ について、$h(x)$ を $r$ の一意元とし、$x + h(x) \in s$ とします。 $s$ は部分代数であり、$r$ は可換であるため、$s'$ の $x, y$ については次のようになります。
+$$
+[x + h(x), y + h(y)] = [x, y] + [x, h(y)] + [h(x), y] \in s
+$$
+したがって
+$$
+h([x, y]) = (\mathrm{ad}\, x).h(y) - (\mathrm{ad}\, y).h(x).
+$$
+no. 2 の注意 2 までに、すべての $x \in s'$ に対して $h(x) = -[x, a]$ となる $a \in r$ が存在します。次に:
+$$
+x + h(x) = x + [a, x] = (1 + \mathrm{ad}\, a).x.
+$$
+$r$ は可換なので、$(\mathrm{ad}\, a)^2 = 0$、つまり $1 + \mathrm{ad}\, a = e^{\mathrm{ad}\, a}$ です。 $r = [g, r]$と同様に、$e^{\mathrm{ad}\, a}$は$g$の特別な自己同型です。 (6) このスペシャル自己同型写像 $s'$ から $s$ まで。
+
+(c) 一般的なケース:
+
+根基の次元$n$について帰納法までに議論します。 $n = 0$ かどうかを証明するものは何もないため、定理は次元 $< \dim r$ の根基であるリー代数に当てはまると想定できます。 (a) では、$[g, r] \neq \{0\}$ の場合を考えれば十分です。 $[g, r]$ は無能 (no. 4、命題 6) なので、その中心 $c$ は $\neq \{0\}$ です。 $m$ を、$c$ に含まれる $g$ のゼロ以外の最小理想とする。 $m = r$ の場合、ケース (b) になります。したがって、$m \neq r$ と $f$ を $g$ の標準写像から $g' = g/m$ にするとします。 $g'$の根基は$r' = r/m$です。 帰納法の仮定までに、$g'$ には Levi 部分代数 $l'$ が存在します。このとき、$b = f(l')$ は g 含む m の部分代数であり、h/m = h' は半単純となり、したがって m は根基となります。 帰納法の仮定 h = m + s により、s は半単純部分代数です。この場合、等式 g' = r' + h' は g = r + h = r + m + s = r + s を意味し、したがって s は g のレヴィ部分代数です。
+
+g の他の Levi 部分代数にしましょう。このとき、f(s) と f(s') は g' の 2 つの Levi 部分代数であり、e^{ad\alpha'}(f(s')) = f(s) となるような帰納法の仮定 a' ∈ [g', r'] が存在します。 a ∈ [g, r] が f(a) = a' である場合、次のようになります。
+
+s_1 = e^{ada}(s') \部分集合 m + s = h。
+
+このとき、s_1 と s は h の 2 つの Levi 部分代数であり、帰納法の仮定までに e^{adb}(s_1) = s となる b ∈ m が存在します。したがって、s = e^{adb}.e^{ada}(s') となります。最後に、m は [g, r] の中心にあるので、e^{adb}.e^{ada} = e^{ad(b+a)} and b + a ∈ [g, r] となり、証明が完成します。
+
+#### 系 1 {#lie-i-s6-thm-5-cor-1 .statement tag=0A0H}
+
+g の Levi 部分代数と g の h 半単純部分代数としましょう。
+(a) s の部分代数上に g 写像 h の特別な自己同型が存在します。
+(b) h は g の Levi 部分代数に含まれます。
+
+r を g の根基とし、a = h + r、つまり g の部分代数とします。このとき、a/r は半単純であり、r は可解であるため、r は a の根基であり、h は a のレヴィ部分代数です。一方、a ∩ s = h' は a の r に対する補足部分代数であり、したがって a の Levi 部分代数でもあります。このとき、h' 上に e^{ada} 写像 h となるような (定理 5) a ∈ [a, r] が存在します。ここで、 a ∈ [g, r]; e^{ada} 写像 h を s の部分代数に、e^{-ada}(s) は g 含む h の Levi 部分代数です。
+
+#### 系 2 {#lie-i-s6-thm-5-cor-2 .statement tag=0A0I}
+
+g の部分代数 h が g の Levi 部分代数であるためには、h が g の最大値半単純部分代数であることが必要かつ十分です。
+
+これは系 1 の直後に続きます。
+
+#### 系 3 {#lie-i-s6-thm-5-cor-3 .statement tag=0A0J}
+
+gをリー代数、mをg/mが半単純となるようなgの理想とする。次に、g 含む部分代数を補足します。他の語では、半単純リー代数のすべての拡大は必須ではありません。
+
+g (定理 5) の Levi 部分代数にしましょう。 g/m の標準像は Levi 部分代数であるため、g/m に等しく、したがって g = s + m となります。この場合、イデアル m ∩ s を s で補う s のイデアルは、m in g を補う g の部分代数です。
+
+#### 系 4 {#lie-i-s6-thm-5-cor-4 .statement tag=0A0K}
+
+g をリー代数、r を根基、s を g の Levi 部分代数、m を g のイデアルとします。すると、m は、その根基である m ∩ r の直和であり、m のレヴィ部分代数である m ∩ s です。
+
+m ∩ s は m の根基 (§ 5, no. 5, 系 3 ～ 命題 5) であることがわかっています。 h を m の Levi 部分代数とし、s を g 含む h (系 1) の Levi 部分代数とします。 代数 m ∩ s' は s' のイデアルであるため、半単純および含む h となり、h に等しくなります。したがって、m は $m \cap r$ と $m \cap s'$ の直和です。 $s$ には特別な自己同型写像 $s'$ が存在します。この自己同型は $r$ と $m$ を不変のままにします。したがって、$m$ は $m \cap r$ と $m \cap s$ の直和であり、$m \cap s$ は $m$ のリーバイス部分代数です。
+
+### 9. 不変条件定理
+
+$g$ をベクトル空間 $M$ の $g$ のリー代数と $\rho$ 表現とします。 $g$ の単純な表現のすべての類 $\delta$ について、$M_\delta$ を種 $\delta$ の $M$ の同型成分とします。 The subspace $M_0$ of invariant elements of $M$ is just $M_{\delta_0}$, where $\delta_0$ denotes the class of the zero representation of $g$ on a space of dimension 1.
+
+#### 補題 4 {#lie-i-s6-lem-4 .statement tag=0A0L}
+
+*$\rho, \sigma, \tau$をベクトル空間$M, N, P$の$g$の表現とします。 $M \times N$ を $P$ に変換する $K$-双線形写像 $(m, n) \mapsto m.n$ が与えられたとします*
+
+$$
+(\rho(x)m).n + m.(\sigma(x)n) = \tau(x)(m.n)
+$$
+
+*全員 $m \in M, n \in N, x \in g$.*
+
+(a) *$m_0 \in M_0$ の場合、写像 $n \mapsto m_0.n$ は $g$ モジュール準同型です。*
+
+(b) *$n \in N_\delta$の場合は、$m_0.n \in P_\delta$。*
+
+(c) *$M$ が (必ずしも結合しているわけではない) 代数で、$\rho(x)$ が $M$ の導分である場合、$M_0$ は $M$ の部分代数であり、各 $M_\delta$ は右と左の $M_0$ モジュールです。*
+
+$m_0 \in M_0, n \in N$ と $x \in g$ の場合、
+
+$$
+\tau(x)(m_0.n) = m_0.(\sigma(x)n),
+$$
+
+よって (a)。 主張 (b) は (a) から続きます (*代数*、章 VIII, § 3, no. 4、命題 10)。 $N = P = M$ と $\sigma = \tau = \rho$ の場合、主張 (b) は特殊な場合として主張 (c) を与えます。
+
+#### 補題 5 {#lie-i-s6-lem-5 .statement tag=0A0M}
+
+*さらに、$\sigma$ と $\tau$ が半単純であるため、$N$ (それぞれ $P$) は $N_\delta$ (それぞれ $P_\delta$) の直和であるとします。すべての $n \in N$ (それぞれ $p \in P$) について、$n^\natural$ (それぞれ $p^\natural$) を $N_0$ (それぞれ $P_0$) の成分とします。 $m_0 \in M_0$ にしましょう。次に、すべての $n \in N$、$(m_0.n)^\natural = m_0.n^\natural$ です。*
+
+線形性により、$n \in N_\delta$ の場合を考慮するだけで十分です。 $\delta \neq \delta_0$、$n^\natural = 0$、$m_0.n \in P_\delta$ (補題 4) の場合、$(m_0.n)^\natural = 0 = m_0.n^\natural$ になります。 $\delta = \delta_0$、$n^\natural = n$、$m_0.n \in P_0$ (補題 4) の場合、$(m_0.n)^\natural = m_0.n = m_0.n^\natural$ になります。
+
+#### 定理 6 {#lie-i-s6-thm-6 .statement tag=0A0N}
+
+*Let $g$ be a Lie algebra, $V$ a semi-simple $g$-module of finite dimension over $K$, $S$ the symmetric algebra of $V$ and $x_S$ the derivation of $S$ which extends $x_V$ (so that $x \mapsto x_S$ is a representation of $g$ on $S$).*
+
+(a) $S$ の不変量の *代数 $S_0$ は、元の有限数によって生成されます。
+
+(b) *For every class $\delta$ of simple representations of $g$ of finite dimension over $K$, let $S_\delta$ be the isotypical component of $S$ of species $\delta$. この場合、$S_\delta$ は有限生成された $S_0$ モジュールです。*
+
+$\overline{S} \subset S$ を、定数項を持たない $S$ の元の理想とする。 $I$ を $S_0 \cap \overline{S}$ によって生成された $S$ の理想とし、$(s_1, s_2, \ldots, s_p)$ を理想 I (可換代数、章 III, § 3) の生成元の有限系とします。 s_i 属するから S_0 ∩ S̄ までは均一であると仮定できます (x_S は次数を維持するため、各 S_δ は段階的に部分加群になります)。 S_1 を 1 と s_i によって生成された S の部分代数とします。すると S_1 ⊂ S_0 となります。 S_1 = S_0 であることを示します。このために、s の次数 n について帰納法によって論じて、S_0 のすべての同次元が S_1 にあることを証明します。 n = 0 の場合、主張は明らかです。したがって、n > 0 であり、s の次数が n であるときに、主張が証明されたとします。 s ∈ I として、s = $\sum_{i=1}^{p} s_i s'_i$、ここで s'_i は均一であると仮定できる S の元で、deg(s'_i) = deg(s) − deg(s_i) < n です。 g モジュール S は半単純 (no. 5、系 2 ～ 定理 4) であるため、補題 5 を適用できます。この補題の記法で、
+
+$$
+s = s^{\natural} = \sum_{i=1}^{p} (s_i s'_i)^{\natural} = \sum_{i=1}^{p} s_i {s'_i}^{\natural}.
+$$
+
+{s'_i}^{\natural} は、均質で次数 < n の S_0 の元です (各 S_δ は等級付けされた部分加群であるため)。したがって、それらは帰納法の仮定までにS_1にあります。したがって、s ∈ S_1 となり、(a) が証明されます。
+
+ここで、有限次元空間 M 上の類 δ の g の単純な表現を考えます。L = $\mathscr{L}_K(M, S)$ とします。すべての s ∈ S およびすべての f ∈ L について、sf を (sf)(m) = s.f(m) (m ∈ M) で定義される L の元とします。したがって、S モジュール構造は L で定義されます。 M は K 上で有限次元であるため、明らかに L は有限生成された S 加群であり、したがって環 S はネーター であるため、ネーター S 加群です。一方、L は標準的な g モジュール構造を持っています。すべての整数 n ≥ 0 について、S^n を次数 n の S の同次元の集合とします。その場合、g モジュール $\mathscr{L}_K(M, S^n)$ は半単純 (no. 5、系 3 から定理 4) となり、したがって g モジュール L は半単純になります。さらに、s ∈ S、f ∈ L、x ∈ g、m ∈ M に対して、
+
+$$
+(x_L(sf))(m) = x_S((sf)(m)) - (sf)(x_M m)
+= x_S(s.f(m)) - s.f(x_M m)
+= (x_S s).f(m) + s.(x_S f(m)) - s.f(x_M m)
+= ((x_S s)f)(m) + (s(x_L f))(m)
+$$
+
+したがって $x_L(sf) = (x_S s)f + s(x_L f)$ です。したがって、補題 5 を適用できます。
+
+L の不変式元の部分集合 L_0 は、g モジュール M の準同型の集合を g モジュール S に変換したものにすぎません。 したがって、φ が S 上の M ⊗_K L の標準準同型を表す場合、$\phi(M \otimes_K L_0) = S_\delta$ です。 φ は明らかに S モジュール準同型であるため、L_0 が有限生成された S_0 モジュールであることを示すだけで十分です。 J を L_0 によって生成された L のサブ S モジュールとする。 L はネーター S モジュールであるため、S モジュール J である L_0 生成するの元の有限列 (f_1, ..., f_q) が存在します。 L_1 を f_1, \ldots, f_q によって生成される S_0 モジュールとします。次に、L_1 \部分集合 L_0 となります。一方、f \in L_0 の場合、すべての $i$ に対して $s_i \in S$ を伴う $f = \sum_{i=1}^q s_i f_i$ となり、補題 5 によって記法が採用されます。
+
+$$
+f = f^\mathfrak{h} = \left( \sum_{i=1}^q s_i f_i \right)^\mathfrak{h} = \sum_{i=1}^q s_i^\mathfrak{h} f_i \in L_1.
+$$
+
+したがって、$L_0 = L_1$ となり、$L_0$ は有限生成された $S_0$ 加群になります。
+
+### 10. 基礎体中変更
+
+$K_1$ を $K$ の可換拡大とします。 $K$ に対するリー代数 $g$ が半単純になるためには、$g_{(K_1)}$ が半単純であることが必要かつ十分です。 $g_{(K_1)}$ の殺害形 $\beta_1$ は、$K$ から $K_1$ まで基礎体を拡張することにより、$g$ の殺害形 $\beta$ から派生します。したがって、$\beta$ が非縮退である場合に限り、$\beta_1$ は非縮退となります (*代数*、章 IX, § 1, no. 4、系 ～ 命題 3)。
+
+$g_{(K_1)}$ が単純な場合、$g$ は上記により半単純であり、できないは 2 つの非ゼロ理想の積であるため、$g$ は単純です。一方、$g$ が単純な場合、$g_{(K_1)}$ (つまり半単純) は単純ではない可能性があります (練習問題 17 と 26 (b))。
+
+$g$ をリー代数とし、$r$ を根基とします。すると$r_{(K_1)}$は$g_{(K_1)}$の根基(§ 5, no. 6)です。したがって、$s$ が $g$ の虚数根基を表す場合、$g_{(K_1)}$ の虚数根基は $[g_{(K_1)}, r_{(K_1)}] = [g, r]_{(K_1)} = s_{(K_1)}$ になります。したがって、$g_{(K_1)}$ が還元的である場合に限り、$g$ は還元的であるということになります。
+
+$g$ をリー代数および $h$ 部分代数とします。 基礎体を $K_1$ に拡張して導出された $h_{(K_1)}$ の表現が半単純である場合に限り、$h$ の表現は半単純であることを思い出してください。したがって、$h$ は、$h_{(K_1)}$ が $g_{(K_1)}$ で還元的である場合にのみ、$g$ で還元的です。
+
+ここで、$K_0$ を $K$ の部分体とし、$[K : K_0]$ を有限とします。 Let $g$ be a Lie algebra and $g_0$ the (finite-dimensional) Lie algebra derived from $g$ by restricting the base field from $K$ to $K_0$. Every commutative ideal of $g$ is a commutative ideal of $g_0$; conversely, if $a_0$ is a commutative ideal of $g_0$ the smallest vector subspace over $K$ of $g$ containing $a_0$ is a commutative ideal of $g$; hence $g$ is semi-simple if and only if $g_0$ is semi-simple. $g_0$ が単純であれば、明らかに $g$ も単​​純です。 逆に、$g$ が単純であるとします。 $g_0$ が単純であることを示します。 $a_0$ を $g_0$ の単純成分とします。 すべての$\lambda \in K^*$にとって、$\lambda a_0$は$g_0$の理想であり、
+
+$$
+[a_0, \lambda a_0] = \lambda [a_0, a_0] = \lambda a_0 \neq \{0\},
+$$
+
+したがって $\lambda a_0 \supset a_0$、したがって $\dim_{K_0}(\lambda a_0) = \dim_{K_0} a_0$ からは $\lambda a_0 = a_0$ になります。 さて、$a_0$ によって生成された$g$ のベクトル部分空間は、$g$ の非ゼロ理想であり、したがって $g$ の全体です。 したがって、$g = a_0$ は、主張を証明します。
+
+### 練習問題 {#lie-i-s6-exercises}
+
+§ 6 の規則は、特に記載されていない限り、引き続き有効です 〜でない限り。
+
+[§ 6 に対して練習問題](exercises/s6/)を参照してください。

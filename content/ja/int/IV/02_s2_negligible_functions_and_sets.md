@@ -1,0 +1,194 @@
+---
+book: int
+book_title: Integration
+chapter: IV
+chapter_title: EXTENSION OF A MEASURE. LP SPACES
+section: 2
+section_title: Negligible functions and sets
+lang: ja
+source: int-i-vi
+book_pages: INT IV.11-INT IV.17
+pdf_pages: 0118-0124
+extraction: ocr
+subsections:
+    - "no": 1
+      title: Negligible positive functions
+      page: 11
+      pdf_page: 118
+    - "no": 2
+      title: Negligible sets
+      page: 12
+      pdf_page: 119
+    - "no": 3
+      title: Properties true almost everywhere
+      page: 12
+      pdf_page: 119
+    - "no": 4
+      title: Classes of equivalent functions
+      page: 13
+      pdf_page: 120
+    - "no": 5
+      title: Functions defined almost everywhere
+      page: 15
+      pdf_page: 122
+    - "no": 6
+      title: Equivalence classes of functions with values in $\overline{\mathbf{R}}$
+      page: 16
+      pdf_page: 123
+statements: 15
+exercises: 0
+content_sha256: f46dd7742479032e02a6fb418a7cb7d4861dacb1cb12230e3d722f69fd6d2fb9
+translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
+translation_method: google
+source_content_sha256: 48a74bb29ea2e0671914af4710029a73eeba8926caa6ba8d663276f288e2e1b1
+translation_model: google-translate
+translation_quality: low
+translation_run: translate-ja-dda8bbaf
+glossary_version: 34
+glossary_terms_sha256: e6e1442d70b15e584e53f539a8eee3b7c47046e7ce59c69a8fbba119a5d995d9
+prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+---
+
+## § 2。無視できるほどの写像および集合
+
+### 1. 無視できるほどの陽性写像
+
+#### 定義 1 {#int-iv-s2-def-1 .statement tag=08Q8}
+
+— *ローカルコンパクト空間 X* 上の測度 $\mu$ が与えられた場合、*数値写像* $f \geq 0$ (*有限であるかどうか*) *X で定義された測度 $\mu$ if* $|\mu|^*(f) = 0$ は無視できると言われます。
+
+次に、$f$ は $\mu$*無視できる*、または混乱が生じない場合は単に *無視できる* とも言います。
+
+#### 命題 1 {#int-iv-s2-prop-1 .statement tag=08Q9}
+
+— *もし* $f$ * が無視できる写像* $\geq 0$ ならば、 *すべての数値写像* $g$ *そのような* $0 \leq g \leq \alpha f$ ($\alpha$ *スカラー* $> 0$) * は無視できる*。 $0 \leq |\mu|^*(g) \leq \alpha |\mu|^*(f) = 0$の場合。
+
+#### 命題 2 {#int-iv-s2-prop-2 .statement tag=08QA}
+
+— *和と数列* $(f_n)$ *無視できるほどの写像* $\geq 0$ * は無視できるほどです*。
+
+$|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3、提案 13) および $\sup_n f_n \leq \sum_n f_n$ について。
+
+#### 命題 3 {#int-iv-s2-prop-3 .statement tag=08QB}
+
+*$X$の半連続写像$f \geq 0$が無視できる程度であるためには、$\mu$のサポートで$f$が零であることが必要かつ十分です。
+
+$|\mu|^*(f) = 0$ の場合、写像 $g \in \mathscr{K}_+$ ごとに $|\mu|(g) = 0$ となり、$g \leq f$ になります。 (Ch. III, § 2, No. 3、提案 9) により、$g$ は $\mu$ のサポート $S$ 上で零になります。 $f$ は写像 $g \in \mathscr{K}_+$ の上位エンベロープであるため、$g \leq f$ (§ 1, No. 1, 補題)、$S$ 上の $f(x) = 0$ になります。逆に、$S$ で $f(x) = 0$ であれば、写像 $g \in \mathscr{K}_+$ ごとに $S$ で $g(x) = 0$ となり、$g \leq f$ となるため、(Ch. III, § 2, No. 3、提案 8) $|\mu|(g) = 0$、これは次のようになります。 定義は、$|\mu|^*(f) = 0$ を意味します。
+
+### 2. 無視できる集合
+
+#### 定義 2 {#int-iv-s2-def-2 .statement tag=08QC}
+
+*ローカルコンパクト空間 $X$ にメジャー $\mu$ が与えられると、$X$ の部分集合 $A$ は、$|\mu|^*(A) = 0$ であればメジャー $\mu$ に対して無視できると言われます。
+
+また、$A$ は $\mu$ は無視できる、または混乱が生じなければ単に無視できる、とも言われています。特性写像 $\varphi_A$ が無視できると言うのも同じことになります。
+
+#### 命題 4 {#int-iv-s2-prop-4 .statement tag=08QD}
+
+*無視できる集合のすべての部分集合は無視できます。無視できる集合のすべての可算和集合は無視できます。*
+
+プロップスの明らか帰結です。 1と2。
+
+#### 例 {#int-iv-s2-n2-exa-1 .statement tag=08QE}
+
+— $\mu$を$\mathbf{R}$のルベーグ測度とする。 集合 $\{x_0\}$ が点に減らされるたびに、無視できます (cf. § 1, No. 3、*注意* 1)。したがって、*$\mathbf{R}$ のすべての可算部分集合はルベーグ測度では無視できます*。この命題の逆は誤りです (§ 4、Exer. 4 b))。
+
+#### 命題 5 {#int-iv-s2-prop-5 .statement tag=08QF}
+
+*$\mu$のサポート$S$の補数は最大ので、$X$の集合は無視できる程度です。*
+
+なぜなら、提案 3 によれば、オープン集合 $G$ が無視できるという位数では、$G \cap S = \varnothing$、つまり $G \subset \mathbf{C}S$ であることが必要かつ十分であるからです。
+
+### 3. ほぼどこでも当てはまるプロパティ
+
+$X$ を局所的にコンパクトな空間、$\mu$ を $X$ 上のメジャーとします。 $P\{x\}$ が性質の場合、性質 « $P\{x\}$ ($\mu$ に関して) ほとんどどこでも » は、定義により性質 « * 集合の x と等しくなります* $(x \in X \text{ and not } P\{x\})$ * は $\mu$* が無視できます»。
+
+#### 定理 1 {#int-iv-s2-thm-1 .statement tag=08QG}
+
+— $X$ で定義された数値写像 (有限であるかどうか) $f \geqslant 0$ が無視できるという位数では、ほぼどこでも $f(x) = 0$ であることが必要かつ十分です。
+
+条件が必要です。なぜなら、$f$ が無視できるものであり、$N$ が $f(x) \neq 0$ となるような $x \in X$ の集合であるとします。その場合、$\varphi_N \leqslant \sup_n (n f)$、したがって、$\varphi_N$ は無視できます (No. 1、提案 1 および 2)。
+
+条件で十分です。 点の集合 $N$ で、$f(x) \neq 0$ は無視できるとします。したがって、$f \leqslant \sup_n n \varphi_N$ であるため、$f$ は無視できます (No. 1、提案 1 および 2)。
+
+#### 命題 6 {#int-iv-s2-prop-6 .statement tag=08QH}
+
+— $f$ と $g$ が 2 つの写像 $\geqslant 0$ (有限であるかどうか) であり、$X$ でほぼどこでも $f(x) = g(x)$ となるように定義されている場合、$|\mu|^*(f) = |\mu|^*(g)$ になります。
+
+$N$ を点 $x \in X$ の無視できる集合とし、$f(x) \neq g(x)$ とします。 写像 $\inf(f, g)$ と $\sup(f, g)$ は、$N$ の点を除いて等しいので、$f \leqslant g$ を仮定して命題を証明するだけで十分です。 $h$ を写像が $N$ の点で $+\infty$ に等しく、$CN$ で 0 になるとします。それから$f \leqslant g \leqslant f + h$、つまり
+
+$$
+|\mu|^*(f) \leqslant |\mu|^*(g) \leqslant |\mu|^*(f + h) \leqslant |\mu|^*(f) + |\mu|^*(h) = |\mu|^*(f)
+$$
+
+($h$ は無視できるため)、よって命題。
+
+#### 命題 7 {#int-iv-s2-prop-7 .statement tag=08QI}
+
+— $f$ が $X$ 上で $|\mu|^*(f) < +\infty$ となるように定義された写像 $\geqslant 0$ である場合、$f(x)$ はほぼどこでも有限です。
+
+なぜなら、$N$ を点 $x \in X$ の集合とし、$f(x) = +\infty$ とするためです。 整数 $n$、$n \varphi_N \leqslant f$、よって $n |\mu|^*(\varphi_N) \leqslant |\mu|^*(f)$ ごとに; $n$ は任意に大きいので、$|\mu|^*(N) = 0$。
+
+However, even if $X$ is compact, a function $f \geqslant 0$ defined on $X$ and everywhere finite can have infinite upper integral, as is shown by the example $X = [0, 1]$, $f(x) = 1/x$ for $x > 0$ and $f(0) = 0$, $\mu$ being Lebesgue measure on $X$.
+
+### 4. 類の同等品写像
+
+$\mu$ を局所的にコンパクトな空間 $X$ のメジャーとします。 集合 $F$ の場合、$X$ の 2 つの写像 $f, g$ を $F$ に入れると、$f(x) = g(x)$ が *ほぼどこでも* $\mu$ (または $\mu$-*同等*、または単に *同等* に関して*) であると言われます。 $X$。 無視できる 2 つの集合のうち和集合は無視できるので、実際には 1 つ定義するがこのように集合 $F^X$ の $X$ のすべての写像が $F$ に同値関係になります。このような写像 $f$ の *同値類* について話すとき（詳細な指定なしで）、すべての写像のうちの類がほぼどこでも $f$ に等しいことが理解されます。この章とそれに続くものでは、この類を記法 $\tilde{f}$ で示します。
+
+#### 命題 8 {#int-iv-s2-prop-8 .statement tag=08QJ}
+
+*$(F_n)$ *を集合の可算族 (有限または無限) とします。すべての添字 n について、* $f_n, g_n$ * X の 2 つの等しい写像を * $F_n$ にします。 *その後、すべての* $x \notin H$、$f_n(x) = g_n(x)$ *すべての n* に対して、無視できる集合 H が存在します。
+
+For, the set $H_n$ of $x \in X$ such that $f_n(x) \neq g_n(x)$ is negligible, therefore so is their union H (No. 2, Prop. 4), and this set meets the requirements.
+
+#### 系 {#int-iv-s2-n4-cor-1 .statement tag=08QK}
+
+*If* $\varphi$ *is a mapping of* $\prod_n F_n$ *into a set G, then the mappings* $\varphi((f_n))$ *and* $\varphi((g_n))$ *of X into G are equivalent*.
+
+すべての写像 $\varphi((f_n))$ の $\varphi((\tilde{f}_n))$ 同値類で表します。ここで、$f_n$ は類 $\tilde{f}_n$ の任意の写像です。
+
+In particular, if F is a *vector space* over $\mathbf{R}$, one defines $\tilde{f} + \tilde{g}$ and $\alpha \tilde{f}$ to be the equivalence classes of $f + g$ and $\alpha f$, respectively ($f$ and $g$ being mappings of X into F, and $\alpha$ a scalar); we obtain in this way, on the set of equivalence classes of mappings of X into F, a *vector space* structure: moreover, this is the *quotient space* structure of that of $F^X$ by the linear subspace of mappings $f$ such that $\tilde{f} = \tilde{0}$ (the functions that are zero almost everywhere), which we also call *negligible* functions (with values in F). One defines similarly the product $\tilde{g} \tilde{f}$, where $\tilde{f}$ is an equivalence class of mappings of X into F, and $\tilde{g}$ is an equivalence class of (finite) numerical functions defined on X: the set of equivalence classes of mappings of X into F is thus equipped with the structure of a *module* over the set of equivalence classes of finite numerical functions defined on X (which is itself equipped with a *ring* structure). F が $\mathbf{R}$ 上の *代数* の場合、X の同値類の写像の集合にある定義するが同様に代数構造になります。
+
+F を *計量可能な* トポロジー 空間とし、その位相と互換性があり、*可算* な擬似計量系 $\rho_n$ (GT、IX, §§1、2) によって定義される F 上の均一な構造を考えます。 位数において、X の 2 つの写像 $f, g$ が F に等しいことは、数値写像 $\rho_n(f, g)$ が *無視できる* ことで必要かつ十分です。なぜなら、これは、X に無視できる集合 H が存在し、すべての $x \notin H$、$\rho_n(f(x), g(x)) = 0$ がすべての $n$、つまり $f(x) = g(x)$ に存在するというというと同等だからです。 In particular, if F is a metrizable locally convex space, and $(q_n)$ is a countable family of seminorms defining the topology of F (TVS, II, §4, No. 1), in order that two mappings $f, g$ of X into F be equivalent it is necessary and sufficient that all of the numerical functions $q_n(f(x) - g(x))$ be negligible.
+
+#### 命題 9 {#int-iv-s2-prop-9 .statement tag=08QL}
+
+— $f$ と $g$ を、ハウスドルフ トポロジカル空間 $F$ への $X$ の 2 つの連続写像とする。 $f$ と $g$ が同等であるためには、$\mu$ のサポートの点ごとに $f(x) = g(x)$ が存在することが必要かつ十分です。
+
+$f(x) \neq g(x)$ がオープン集合 (GT、I, §8, No. 1) となるような $x \in X$ の集合の場合。それを無視できるようにするには、それが$\mu$ (No. 2、提案 5) のサポートと交差しないことが必要かつ十分です。
+
+#### 命題 10 {#int-iv-s2-prop-10 .statement tag=08QM}
+
+— $F$ を、弱者位相 $\sigma(F', F)$ にとって密な $F$ 数列 $(a'_n)$ の双対 $F'$ が存在するように、$\mathbf{R}$ 上で局所的に凸なハウスドルフ空間とする（TVS、 II, §6, No. 2）。 $X$ の 2 つの写像 $f, g$ が $F$ に等価であるという位数では、$n$ ごとに、数値の写像 $\langle f(x), a'_n \rangle$ と $\langle g(x), a'_n \rangle$ が等価であることが必要かつ十分です。
+
+条件は明らかに必要です。逆に、それが満たされる場合、各 $x \notin H$ について、すべての $n$ について $\langle f(x), a'_n \rangle = \langle g(x), a'_n \rangle$ となるような無視できる集合 $H$ が存在します。これは、$F'$ の弱連続線型形式 $z' \mapsto \langle f(x), z' \rangle$ と $z' \mapsto \langle g(x), z' \rangle$ が点 $a'_n$ のそれぞれで等しいため、仮定によって同一であることを意味します。これは、すべての $x \notin H$ に対して $f(x) = g(x)$ であることを証明します。
+
+提案 10 の仮定は、$F$ が計化可能で分離可能な局所凸空間である場合に特に適用できることに注意してください¹ (TVS、III, §3, No. 4、提案 6 の Cor. 2)。
+
+### 5. 写像はほぼどこでも定義されています
+
+No. 3 の定義に準拠して、写像 $f$ の部分集合 $A$ の $X$ から集合 $F$ は、それが定義されている集合 $A$ の補数が無視できるほどの集合。 再び$f$の同値類を呼び出し、$X$のすべてで定義されたすべての写像の$\tilde{f}$、同値類で表し、$f$が定義されている点$x \in X$の$f(x)$に等しい。この類が$f$のみに依存していることは明らかです。 ほぼどこでも定義されている 2 つの写像 $f, g$ は、$\tilde{f} = \tilde{g}$ の場合に同等であると言われます。つまり、これは、$f(x)$ と $g(x)$ が両方とも定義されており、等しい場合の点の集合は無視できる補数しか持たないことを意味します。
+
+No. 4 の提案 8 とその系は、その主張において、写像 $f_n, g_n$ のそれぞれがほぼどこでも定義されているとのみ想定されている場合に一般化できることがすぐにわかります。それから写像 $\varphi((f_n))$
+
+¹ 原文は de 型 dénombrable で、「可算型」 (GT、IX, §2, No. 8、定義 4) または「第 2 可算」、または「満たす可算の第 2 公理」とも訳されます。ここで TVS から引用した系では、項 '満たす可算性の最初の公理' は、前述の項のいずれかに置き換えられる必要があります。
+
+および $\varphi((g_n))$ 自体は、ほとんどどこでも定義されています。 $\varphi((f_n))$ の同値類は再び $\varphi((\tilde{f}_n))$ です。
+
+ベクトル空間 F の値を含むほぼどこでも定義されている写像は、0 に等しい場合、再び *無視できる* と言われます。 f が F の値を含む無視できる写像で、u が F のベクトル空間 G への線形写像である場合、合成写像 $u \circ f$ (ほぼどこでも定義されています) は無視できます。同様に、ほぼどこでも定義されているすべての (有限) 数値写像 g について、写像 $gf$ (ほぼどこでも定義されている) は無視できます。
+
+One must take care to observe that, in the set of functions with values in F and defined almost everywhere, the internal law of composition $(f, g) \mapsto f + g$ *is not a group law*, because, while the function 0 is indeed a neutral element for this law, if f is not everywhere defined then there does not exist a function g such that $f + g = 0$. これが、形ベクトル空間を行う同値類 $\tilde{f}$ の導入の動機となります。
+
+$(f_n)$ を写像の数列として *トポロジー 空間* F にすると、それぞれは X のほぼどこでも定義されます。 数列 $(f_n)$ *すべての $f_n(x)$ が定義され、数列 $(f_n(x))$ が以下に等しい極限を持つ点 $x \in X$ の集合であれば、*ほぼどこでも (点的に) X に収束します。 $f(x)$、補数は無視できます。各 n について、写像 $g_n$ (ほぼどこでも定義される) が $f_n$ と同等である場合、数列 $(g_n)$ はほぼどこでも $f$ に収束することは明らかです。
+
+F が *トポロジカルベクトル空間* である場合、1 つの定義するは同様に *ほぼどこでも収束する系列* であり、その一般的な項は X のほぼどこでも F の値で定義される写像 $f_n$ です。この系列の和は点で定義された写像で、部分的な和 $\sum_{k=1}^n f_k(x)$ が定義されていて極限を持ち、その類は類 $\tilde{f}_n$ にのみ依存します。
+
+### 6. $\overline{\mathbf{R}}$ に値を含む写像の同値類
+
+No. 3の定義に従って、Xのほぼどこでも定義され、$\overline{\mathbf{R}}$の値で定義されている写像$f$は、$f(x)$が定義されている$x \in X$の集合であれば、ほぼどこでも有限であると言います。有限の補数は無視できます。ほぼどこでも有限である写像は、*どこでも有限*である写像と同等です。したがって、X (または X のほぼどこでも) に定義された *有限* 数値写像の類を使用して、その類 $\tilde{f}$ を同一視するにすることができます。特に、ほぼどこでも有限の写像の 2 つの類のうち和と積が定義されており、これら類のうちの集合は $\mathbf{R}$ 上の *代数* です。 $(f_n)$ が $\overline{\mathbf{R}}$ の値を含む写像の数列で、ほぼどこでも定義され有限である場合、部分的な和 $\sum_{k=1}^n f_k(x)$ はほぼどこでも定義されます。ほぼすべての $x \in X$ について、$\overline{\mathbf{R}}$ に極限 $f(x)$ がある場合、系列と一般的な項 $f_n$ はほぼどこでも収束し、$f$ は系列の和であると再び言えます (注) $f$ はほとんどどこでも必ずしも有限であるわけではありません)。
+
+$f$ と $g$ が 2 つの数値写像で定義され、$X$ のほぼどこでも有限である場合、$\tilde{f} + \tilde{g}$ (それぞれ $\tilde{f} \tilde{g}$) は、すべての写像の類が $f(x) + g(x)$ (それぞれ $f(x)g(x)$) に等しくなります。 点 $x \in X$ この表現には意味があります。 $f$ と $g$ は、すべての $x$ (GT、IV, §4, No. 3) に対して $f(x) + g(x)$ (それぞれ $f(x)g(x)$) を定義しなくても、両方とも *どこでも定義* できることに注意してください。 定義 $f + g$ (それぞれ $fg$) は、この式が定義されている点では写像は $f(x) + g(x)$ (それぞれ $f(x)g(x)$) に等しくなります。したがって、ほとんどどこでも定義されているだけです。
+
+$f$ と $g$ を 2 つの数値写像 (有限かどうか) とし、$X$ のほぼすべての場所で定義し、$f(x) \leq g(x)$ をほぼすべての場所で定義します。 $f_1$ が $f$ に相当し、$g_1$ が $g$ に相当する場合、ほぼどこでも $f_1(x) \leq g_1(x)$ も存在することは明らかです。したがって、問題の関係は、$f$と$g$の類のみに依存します。人は$\tilde{f} \leq \tilde{g}$と書き、この関係が$\overline{\mathbf{R}}$の値を持つ写像の同値類の集合の*位数関係*であることをすぐに検証します。 $(\tilde{f}_n)$ がそのような類の可算族 (有限または無限) であり、すべての $n$、$f_n$、$g_n$ がほぼどこでも定義されている 2 つの写像と所属から類 $\tilde{f}_n$ である場合、Prop.ほぼどこでも定義されている No. 4 の 8、写像 $\sup_n f_n$ と $\sup_n g_n$ は同等です。したがって、それらの類は類 $\tilde{f}_n$ のみに依存しており、写像の類の集合にある類の *最高値* $\sup_n \tilde{f}_n$ が、値であることがすぐに確認されます。 $\overline{\mathbf{R}}$、今説明した方法で順序付けされています (集合、したがって、特に *格子順序付け*)。 1 つは同様に下限値 $\inf_n \tilde{f}_n$ の存在を示し、もう 1 つは $\inf_n \tilde{f}_n = -\sup_n (-\tilde{f}_n)$ を示します。したがって、$\limsup_{n \to \infty} f_n$ と $\limsup_{n \to \infty} g_n$ も同等であり、$\limsup_{n \to \infty} \tilde{f}_n$ で示されるそれらの類は $\inf_n (\sup_{p \geq 0} \tilde{f}_{n+p})$ に等しいことがわかります。 $\liminf_{n \to \infty} \tilde{f}_n$ も同様に定義されます。
+
+数値写像 $f$ (有限であるかどうかに関係なく) が 0 に等しい場合、それは *無視できる* と言われます。この定義はDefに相当します。 1 は写像で、Th のおかげで正であり、どこでも定義されています。 1. $f$ が無視できるためには、$|f|$ が無視できる (または $f^+$ と $f^-$ の両方が無視できる) ことが必要かつ十分です。
