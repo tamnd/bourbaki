@@ -50,16 +50,16 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 25
-content_sha256: 796f9bfeafa5199ad2f6b40c72e1df48a253d8642af63b0dc00e3f31d83de1fa
+content_sha256: 149c79cac33be8f4ce47dec32691d5f4ecf0232ea6043d89565d005f9838a416
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
 translation_method: google
 source_content_sha256: e417e7dc96e464c48ed19a91e2e8d38e2c97d4afc92adb2cc15edbd954a62d34
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 87f6b08cf9d5ac2efeaf7b18e474902605e1cbf886a526fb0d2edd6fe50c6c67
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 有限生成加群主イデアル整域以上
@@ -90,9 +90,9 @@ $x_k$ を $A / a_k$ の正規の生成元、つまり $A$ の単位元の像と�
 
 ### 2. 自由加群の元の内容
 
-$A$ を主イデアル整域、$L$ を自由な $A$ モジュール、$x$ を $L$ の元とします。 As $f$ runs through the set $L^*$ of linear forms on $L$, the elements $f(x)$ form an ideal $c_L(x)$ of $A$, called the *content* of $x$ in $L$. An element $c$ of $A$ is called a *content* of $x$ in $L$ if it generates the ideal $c_{L}(x)$; this amounts to saying that there exists a linear form $f$ on $L$ such that $f(x) = c$ and that $c$ divides $g(x)$ for every linear form $g$ on $L$. $(e_i)_{i \in I}$ を $L$ の基底とします。 $x = \sum a_i e_i, a_i \in A$を入れます。その場合、理想的な $c_L(x)$ は和 $\sum a_i b_i$ で構成され、$(b_i)$ は集合 $A'$ を通過します。 $A$ の元 $c$ は、$x$ の座標の$(a_i)$ ファミリの gcd である場合に限り、$L$ の $x$ の内容であることがすぐにわかります。
+$A$ を主イデアル整域、$L$ を自由な $A$ モジュール、$x$ を $L$ の元とします。 $f$ が $L$ 上の線形形式の集合 $L^*$ を通過すると、要素 $f(x)$ は、$L$ の $x$ の *内容* と呼ばれる、$A$ の理想的な $c_L(x)$ を形成します。 $A$ の要素 $c$ は、理想的な $c_{L}(x)$ を生成する場合、$L$ の $x$ の *内容* と呼ばれます。これは、$L$ 上に $f(x) = c$ となる線形形式 $f$ が存在し、$L$ 上のすべての線形形式 $g$ に対して $c$ が $g(x)$ を除算することを意味します。 $(e_i)_{i \in I}$ を $L$ の基底とします。 $x = \sum a_i e_i, a_i \in A$を入れます。その場合、理想的な $c_L(x)$ は和 $\sum a_i b_i$ で構成され、$(b_i)$ は集合 $A'$ を通過します。 $A$ の元 $c$ は、$x$ の座標の$(a_i)$ ファミリの gcd である場合に限り、$L$ の $x$ の内容であることがすぐにわかります。
 
-We say that $x$ is *indivisible* if $c_L(x) = A$, that is if the coordinates of $x$ with respect to a basis of $L$ are setwise coprime.
+$c_L(x) = A$ の場合、つまり $L$ の基底に関する $x$ の座標が集合的に互いに素である場合、$x$ は *不可分* であると言います。
 
 #### 補題 1 {#alg-vii-s4-lem-1 .statement tag=073Q}
 
@@ -119,9 +119,9 @@ $L$ を主イデアル整域 $A$ の自由加群とし、$M$ を $L$ の部分�
 
 *$L$ を主イデアル整域 $A$ の自由加群とし、$M$ を $L$ の非零部分加群とします。 $M$の元の内容の中で$c_L(x)$が最大となるような$M$の元を$x$とし、$c$を$L$の$x$の内容とし、$f$を$L$ の線型形式は $f(x) = c$ になります。
 
-a) $L$ is the direct sum of $A(x/c)$ and the kernel $K$ of $f$.
-b) $M$ is the direct sum of $Ax$ and $K \cap M$.
-c) $g(M) \subset Ac$ for every linear form $g$ on $L$.
+a) $L$ は、$A(x/c)$ と $f$ のカーネル $K$ の直接和です。
+b) $M$ は、$Ax$ と $K \cap M$ の直接和です。
+c) $L$ 上のすべての線形形式 $g$ に対して $g(M) \subset Ac$。
 
 $y = x/c$ を入れてください。 $f(y) = 1$ 以来、明らかに $Ay \cap K = \{0\}$ です。さらに、それぞれの $u \in L$ について、
 $$
@@ -213,7 +213,7 @@ Defのように。 1 (VII, p. 19)、$A = \mathbf{Z}$ または $A = K[X]$ の場
 
 Thさんより1 $M \subset \alpha_1 L$ であることは明らかです。したがって、M の任意の元の座標は、$a_1$ の倍数になります。一方、Lには$a_1$が内容となるMの元$x$が存在します。 $x$を$x_i$の線形結合として表現すると、$a_1$は$x_i$の座標によって生成される理想の元となる。これらはすべて $a_1$ の倍数であるため、$a_1$ が確かにそれらの gcd であり、私たちの主張は $m = 1$ の場合に証明されます。
 
-一般的な $m$ については、M (III, p. 507) の m 番目の *外部冪* $\bigwedge^m M$ を考慮します。 In the notation of Th. 1 there exists a basis $(a_i)$ for M where $a_i = \alpha_i e_i$ ($1 \leq i \leq n$); thus $\bigwedge^m M$ has a basis consisting of the elements $a_{i_1} \wedge \ldots \wedge a_{i_m}$, as $(i_1, \ldots, i_m)$ runs through the set of strictly increasing sequences of $m$ elements of $(1, n)$. 現在、元 $e_{i_1} \wedge \ldots \wedge e_{i_m}$ 属するから基底 $B_m$ の $\bigwedge^m L$ です。 したがって、$\bigwedge^m M$ から $\bigwedge^m L$ への正規の写像は、$\bigwedge^m M$ から $\bigwedge^m L$ の部分加群への同型で、基底元 $(\alpha_{i_1} \ldots \alpha_{i_m})\, e_{i_1} \wedge \ldots \wedge e_{i_m}$ となり、この部分加群を同一視するとします。 $\bigwedge^m M$。 Since $\alpha_j$ is a multiple of $\alpha_k$ for $j \geq k$, the elements $\alpha_{i_1} \ldots \alpha_{i_m}$ are all multiples of $\delta_m = \alpha_1 \ldots \alpha_m$, and one of them is equal to $\delta_m$; thus $\delta_m$ is a gcd of the coordinates with respect to $B_m$ of the elements of a system of generators of $\bigwedge^m M$. 引数の最初の部分は、$\delta_m$ が、$\bigwedge^m L$ の任意の基底に関して、$\bigwedge^m M$ の生成元の任意の系の座標の集合の gcd であることを示しています。 $L$の$(u_j)$の基底から導き出される$\bigwedge^m L$を基底とし、$(x_i)$の外面積の$\bigwedge^m M$からなるを生成元の系とすれば、これらの座標を表す式となります。 行列式の項の積 (III、p. 528、提案 9) は、記載された結果を与えます。
+一般的な $m$ については、M (III, p. 507) の m 番目の *外部冪* $\bigwedge^m M$ を考慮します。 Thの表記では。 1 $a_i = \alpha_i e_i$ ($1 \leq i \leq n$) である M には基底 $(a_i)$ が存在します。したがって、$(i_1, \ldots, i_m)$ は$(1, n)$ の$m$ 要素の厳密に増加するシーケンスのセットを実行するため、$\bigwedge^m M$ は要素 $a_{i_1} \wedge \ldots \wedge a_{i_m}$ で構成される基底を持ちます。 現在、元 $e_{i_1} \wedge \ldots \wedge e_{i_m}$ 属するから基底 $B_m$ の $\bigwedge^m L$ です。 したがって、$\bigwedge^m M$ から $\bigwedge^m L$ への正規の写像は、$\bigwedge^m M$ から $\bigwedge^m L$ の部分加群への同型で、基底元 $(\alpha_{i_1} \ldots \alpha_{i_m})\, e_{i_1} \wedge \ldots \wedge e_{i_m}$ となり、この部分加群を同一視するとします。 $\bigwedge^m M$。 $\alpha_j$ は $j \geq k$ の $\alpha_k$ の倍数であるため、要素 $\alpha_{i_1} \ldots \alpha_{i_m}$ はすべて $\delta_m = \alpha_1 \ldots \alpha_m$ の倍数であり、そのうちの 1 つは $\delta_m$ に等しくなります。したがって、$\delta_m$ は、$\bigwedge^m M$ の生成器系の要素の $B_m$ に関する座標の gcd です。 引数の最初の部分は、$\delta_m$ が、$\bigwedge^m L$ の任意の基底に関して、$\bigwedge^m M$ の生成元の任意の系の座標の集合の gcd であることを示しています。 $L$の$(u_j)$の基底から導き出される$\bigwedge^m L$を基底とし、$(x_i)$の外面積の$\bigwedge^m M$からなるを生成元の系とすれば、これらの座標を表す式となります。 行列式の項の積 (III、p. 528、提案 9) は、記載された結果を与えます。
 
 ### 6. 自由加群の線形写像、および主イデアル整域の上の行列
 
@@ -251,7 +251,7 @@ $$
 
 A が体の場合、$\alpha_i$ を 1 に等しいとみなすことができ、その後、II、p. 360 の提案 13 が得られることに注意してください。
 
-If X is the matrix of the linear mapping f with respect to an arbitrary basis of L and an arbitrary basis of L', then the columns of X are the coordinate vectors, with respect to the basis of L', of elements of L' which form a system of generators for $f(L)$. したがって、次の結果は、提案 4 の明らか帰結となります。
+X が L の任意の基底および L' の任意の基底に関する線形写像 f の行列である場合、X の列は、L' の基底に関する、生成器系を形成する L' の要素の座標ベクトルです。 $f(L)$。 したがって、次の結果は、提案 4 の明らか帰結となります。
 
 #### 命題 6 {#alg-vii-s4-prop-6 .statement tag=0745}
 
@@ -267,7 +267,7 @@ $A = \mathbf{Z}$の場合、切断4の結果を表現できます
 
 #### 注意 {#alg-vii-s4-n7-rem-1 .statement tag=0747}
 
-While the orders $n_1, \ldots, n_q$ of the cyclic groups of which F is the direct sum are well defined by the divisibility condition of Th. 3, it is *not* the same for the groups themselves: for example, in the product G of $\mathbf{Z}/(p)$ with itself (for p prime), the subgroups are precisely the $\mathbf{F}_p$-vector subspaces, and G is the direct sum of two 1-dimensional subspaces in $p(p+1)$ different ways.
+一方、F が直接和である巡回群の次数 $n_1, \ldots, n_q$ は、Th の可分性条件によってよく定義されます。たとえば、$\mathbf{Z}/(p)$ とそれ自体 (p 素数の場合) の積 G では、サブグループは正確に $\mathbf{F}_p$ ベクトル部分空間であり、G は $p(p+1)$ 異なる方法での 2 つの 1 次元部分空間の直接和です。
 
 #### 系 1 {#alg-vii-s4-thm-3-cor-1 .statement tag=0748}
 
@@ -335,7 +335,7 @@ $M$ が有限のアーベル群である場合、その構造はその基本因�
 
 #### 注意 3 {#alg-vii-s4-n8-rem-3 .statement tag=074J}
 
-To calculate the invariant factors of a torsion module whose elementary divisors are known, we again lean on the fact that, if the $a_i$ are pairwise coprime elements of $A$, then the product $\prod A/(a_i)$ is a cyclic module isomorphic to $A/(a_1 a_2 ... a_n)$ ($VII$, p. 3, Prop. 4). 群 $G(464\ 600) = M$ の例を見て方法を説明しましょう。同じ既約 $p$ の冪である $M$ の基本因子 $p^n$ を、最大ののものから始めて、同じ行に書きます。 指数; 拡大する必要に応じて 1 を入れて、これらの行を同じ長さの行に変換します。
+基本約数が既知であるねじり加群の不変因子を計算するには、$a_i$ が $A$ のペアごとの互いに素な要素である場合、積 $\prod A/(a_i)$ は $A/(a_1 a_2 ... a_n)$ と同型の巡回加群であるという事実に再び頼ります ($VII$, p. 3、提案 4)。 群 $G(464\ 600) = M$ の例を見て方法を説明しましょう。同じ既約 $p$ の冪である $M$ の基本因子 $p^n$ を、最大ののものから始めて、同じ行に書きます。 指数; 拡大する必要に応じて 1 を入れて、これらの行を同じ長さの行に変換します。
 
 $$
 \begin{array}{cccccc}
@@ -349,13 +349,13 @@ $$
 
 #### 注意 4 {#alg-vii-s4-n8-rem-4 .statement tag=074K}
 
-An $A$-module is called simple ($I$, p. 37) if it is nonzero and has no submodules other than itself and $0$; it is then necessarily cyclic, so finitely generated, and indecomposable; since the modules $A/(p^n)$ are not simple for $n \neq 1$, while the modules $A/(p)$ are, and since $A$ is simple only if the ring $A$ is a field, we deduce that the simple $A$-modules are:
-a) free modules of rank 1, when $A$ is a field;
-b) modules isomorphic to quotients $A/(p)$, where $p$ is an irreducible element of $A$, when $A$ is not a field.
+$A$ モジュールが非ゼロであり、それ自体と $0$ 以外にサブモジュールがない場合、そのモジュールは単純 ($I$、p. 37) と呼ばれます。したがって、それは必然的に循環的であり、有限に生成され、分解不可能です。モジュール $A/(p^n)$ は $n \neq 1$ に対して単純ではありませんが、モジュール $A/(p)$ は単純であり、リング $A$ がフィールドである場合にのみ $A$ は単純であるため、単純な $A$ モジュールは次のように推定されます。
+a) $A$ がフィールドの場合、ランク 1 のモジュールを解放します。
+b) 商 $A/(p)$ と同型のモジュール。$p$ は、$A$ が体でない場合、$A$ の既約要素です。
 
 ### 9. 主イデアル整域に対する有限長の加群の二重性
 
-In this section $A$ denotes a principal ideal domain which is not a field (and hence has at least one irreducible element), and $K$ the field of fractions of $A$. すべての $A$ モジュール $M$ に対して、
+このセクションでは、$A$ は体ではない (したがって少なくとも 1 つの既約要素を持つ) 主イデアル領域を表し、$K$ は $A$ の分数体を表します。 すべての $A$ モジュール $M$ に対して、
 
 $$
 D(M) = \operatorname{Hom}_A(M, K/A);
@@ -374,11 +374,11 @@ $x \in M$ と $x' \in D(M)$ に対して $\langle x', c_M(x) \rangle = \langle x
 #### 命題 10 {#alg-vii-s4-prop-10 .statement tag=074L}
 
 — *M が有限長の A-加群である場合、$D(M)$ は * (一般に非自然に) *M と同型であり、正規の写像 $c_M : M \to D(D(M))$ は同型です。
-VII、p. *19*、Th を使用します。 2 および **II**、p. 203、Cor。 1、$M$が循環である場合を簡約するとします。 従って、$M = A/tA$ が $t \neq 0$ であると仮定できます。 Note that any homomorphism $u : A/tA \to K/A$ is completely determined by the image $\xi \in K/A$ under $u$ of the class $\varepsilon$ of *1* mod $tA$, and this element must satisfy the relation $t\xi = 0$ ; conversely, for any $\xi \in K/A$ such that $t\xi = 0$, there exists a homomorphism $u : A/tA \to K/A$ such that $u(\varepsilon) = \xi$. 従って、$D(M)$ は $t^{-1}A/A$ と同型であり、$t$ によるホモテティー は K 上で全単射であるため、$D(M)$ は $A/tA$ と同型であり、最初の主張が証明されます。 これは、 $M$ と $D(D(M))$ が同型であるため、同じ長さをもつことを証明します。一方、$c_M$ は単射法です。なぜなら、$y \in A$ が関係 $tz \in A$ ($z \in K$ の場合) が $yz \in A$ を意味するようなものである場合、$z = t^{-1}$ を取ると $y \in tA$ が得られます。 従って、像 $c_M(M)$ は必ず $D(D(M))$ に等しいということになります。
+VII、p. *19*、Th を使用します。 2 および **II**、p. 203、Cor。 1、$M$が循環である場合を簡約するとします。従って、$M = A/tA$ と $t \neq 0$ を仮定することができます。 準同型 $u : A/tA \to K/A$ は、*1* mod $tA$ の類 $\varepsilon$ の $u$ の下の像 $\xi \in K/A$ によって完全に決定され、この元は満たす関係でなければならないことに注意してください。 $t\xi = 0$ ;逆に、$t\xi = 0$ となるような $\xi \in K/A$ に対して、$u(\varepsilon) = \xi$ となるような準同型 $u : A/tA \to K/A$ が存在します。従って、$D(M)$ は $t^{-1}A/A$ と同型であり、$t$ によるホモテティー は K 上で全単射であるため、$D(M)$ は $A/tA$ と同型であり、最初の主張が証明されます。これは、 $M$ と $D(D(M))$ が同型であるため、同じ長さをもつことを証明します。一方、$c_M$ は単射法です。$y \in A$ が関係 $tz \in A$ ($z \in K$ の場合) が $yz \in A$ を意味するようなものである場合、$z = t^{-1}$ を取ると $y \in tA$ が得られます。従って、像 $c_M(M)$ は必ず $D(D(M))$ に等しいということになります。
 
 #### 系 {#alg-vii-s4-n9-cor-1 .statement tag=074M}
 
-— *Let M, N be two A-modules of finite length, and let $\varphi$ be an A-bilinear map from $M \times N$ into $K/A$, such that : 1) the relation $\varphi(x, y) = 0$ for all $y \in N$ implies $x = 0$ ; and 2) the relation $\varphi(x, y) = 0$ for all $x \in M$ implies $y = 0$. この場合、$\varphi$ に関連付けられた A-linear 写像 $s_\varphi : M \to D(N)$ と $d_\varphi : N \to D(M)$ は同型になります。*
+— *M、N を有限長の 2 つの A モジュールとし、$\varphi$ を $M \times N$ から $K/A$ への A 双線形写像とする。次のとおり: 1) すべての $y \in N$ に対する関係 $\varphi(x, y) = 0$ は $x = 0$ を意味する。 2) すべての $x \in M$ に対する関係 $\varphi(x, y) = 0$ は $y = 0$ を意味します。 この場合、$\varphi$ に関連付けられた A-linear 写像 $s_\varphi : M \to D(N)$ と $d_\varphi : N \to D(M)$ は同型になります。*
 確かに、$\varphi$ に関する仮説は、$s_\varphi$ と $d_\varphi$ が *単射的* であることを意味し、提案 *10* による $\mathrm{long}(D(N)) = \mathrm{long}(N)$ と $\mathrm{long}(D(M)) = \mathrm{long}(M)$ から、これは $\mathrm{long}(M) = \mathrm{long}(N)$ 、従って $s_\varphi$ と $d_\varphi$ が全単射的であることを意味します。
 
 #### 命題 11 {#alg-vii-s4-prop-11 .statement tag=074N}

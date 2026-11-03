@@ -40,16 +40,16 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: 180ffddc5d018536a0a4052f6c85caa19b1d43b928b0e72a9270266ed5807bad
+content_sha256: 20b5423fe766d52ab8aa8ebe2ae1267581eeeb59fc61e632f4409e8b9b2edb45
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
 translation_method: google
 source_content_sha256: d7aeccab1a27d0a0619f437c65961e9feffe9a183de0171b993a7c7681af0384
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2a68a5d5f7a50069af75ce5f334c0dbd28650881ac38d0d85dbdacbac55927fe
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。おっぱい系
@@ -58,7 +58,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 ### 1. 定義と最初のプロパティ
 
-GをGの群、Bを部分群とします。 群 $B \times B$ は、$b, b' \in B$ と $g \in G$ に対して $(b, b').g = bg{b'}^{-1}$ によって G に作用します。 The orbits of $B \times B$ on G are the sets $BgB$ for $g \in G$, and are called the double cosets of G with respect to B. 彼らは G の形分割です。 対応する商は $B \backslash G / B$ で表されます。 C と $C'$ が二重剰余類である場合、$CC'$ は二重剰余類の和集合です。
+G を G の群と B 部分群とします。群 $B \times B$ は、$b, b' \in B$ と $g \in G$ に対して $(b, b').g = bg{b'}^{-1}$ だけ G に作用します。 G の $B \times B$ の軌道は、$g \in G$ の集合 $BgB$ であり、B に対する G の二重剰余類と呼ばれます。それらは G の形分割です。 対応する商は $B \backslash G / B$ で表されます。 C と $C'$ が二重剰余類である場合、$CC'$ は二重剰余類の和集合です。
 
 #### 定義 1 {#lie-iv-s2-def-1 .statement tag=0AN8}
 
@@ -472,7 +472,7 @@ $$
 
 #### 補題 2 {#lie-iv-s2-lem-2 .statement tag=0ANU}
 
-$H$ を $G$ の通常の部分群とします。 There exists a subset $X$ of $S$ such that $BH = G_X$ and such that every element of $X$ commutes with every element of $S - X$.
+$H$ を $G$ の通常の部分群とします。 $BH = G_X$ であり、$X$ のすべての要素が $S - X$ のすべての要素と交換できるような、$S$ のサブセット $X$ が存在します。
 
 $BH$ は $G$ 含む $B$ の部分群であるため、$BH = G_X$ (Th. 3) のような $S$ のうちの一意の部分集合 $X$ が存在します。
 
@@ -482,7 +482,7 @@ $$
 h \in C(s_2).C(s_1).C(s_2).
 $$
 
-If the length of $s_2 s_1 s_2$ is equal to 3, Cor. 1 of Th. 2 implies that
+$s_2 s_1 s_2$ の長さが 3 に等しい場合、Cor. Thの1 2 は次のことを意味します
 
 $$
 C(s_2).C(s_1).C(s_2) = C(s_2 s_1 s_2),

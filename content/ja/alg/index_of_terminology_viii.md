@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: 332f485f89487788ab8d13addc9111577068efa9732a023aad6de5b0dbeadd8a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 22ce342a24bde49688612dc6b1156cc138b89bda640c27302b6946d1c1715c83
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 用語添字

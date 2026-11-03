@@ -14,16 +14,16 @@ pdf_pages: 0451-0451
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 86a37d6c29f9589262376626e608db990c61f66ece6fdbe6b9eaf040808b3bb1
+content_sha256: 13089e1f7f998b3b30ce0a8a3e49405d21399c94c4139b0d32500f4f12bbb054
 translated_from: content/en/alg/III/00_frontmatter.md
 translation_method: google
 source_content_sha256: 6265d61279faab9dcf08066eb99e498297b3d05106b7e1efab665fe26a7b784b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 17bdb0afaf523b8a8c5a5b8d01f03a2b48f616c6705935996df7865a5d4964e4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 III
@@ -44,7 +44,7 @@ $$
 \lambda \mapsto \alpha(\lambda) + \beta(\lambda)
 $$
 
-of $L$ into $N$; with this law of composition the set $N^{(L)}$ of mappings of $L$ into $N$ of finite support is the free commutative monoid derived from $L$ and
+$L$ を $N$ に。この合成法則により、有限サポートの $L$ から $N$ への写像の集合 $N^{(L)}$ は、 $L$ から導出される自由可換モノイドであり、
 
 $$
 x^\alpha x^\beta = x^{\alpha + \beta}.

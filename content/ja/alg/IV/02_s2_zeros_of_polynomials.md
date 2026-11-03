@@ -26,16 +26,16 @@ subsections:
       pdf_page: 26
 statements: 20
 exercises: 13
-content_sha256: b197f5ffa7abcf138021fd721f2b08c71ed0580c7e6cadca360e73d676691d21
+content_sha256: fe8443ca08f568eba26bfb9f5c84e07c7429213bff083ddc92b69801c6e293bb
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 translation_method: google
 source_content_sha256: 581af5e1e6500b23403ced41ae2a03e6692f4156d4da25e5f960df6e8a7c1371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 935083a5fa72de973dcecf237c804b7e49ec47d7217deb39f730f31ca469e1f6
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。多項式の零
@@ -91,7 +91,7 @@ $p < q$ の場合、$a$ は $f_1(X) + (X - \alpha)^{q-p} g_1(X)$ の根ではあ
 
 #### 命題 5 {#alg-iv-s2-prop-5 .statement tag=06AV}
 
-※$A$が整域だとします。 Let $f$ be a non-zero element of $A[X]$, and $\alpha_1, \ldots, \alpha_p$ pairwise distinct roots of $f$ in $A$, of orders $k_1, \ldots, k_r$. 我々は持っています*
+※$A$が整域だとします。 $f$ を、$A[X]$ の非ゼロ要素、および $k_1, \ldots, k_r$ 次の $A$ の $f$ のペアごとに異なる根である $\alpha_1, \ldots, \alpha_p$ とします。 我々は持っています*
 
 $$
 f(X) = (X - \alpha_1)^{k_1}(X - \alpha_2)^{k_2} \ldots (X - \alpha_p)^{k_p} g(X)
@@ -139,7 +139,7 @@ $$
 
 #### 系 {#alg-iv-s2-n1-cor-2 .statement tag=06AZ}
 
-— $\mathbf{A}$ が整域であると仮定します。 次数 $< n$ の $f \in \mathbf{A}[X]$ を、$K$ を $\mathbf{A}$ の部分環 、つまり体とします。 If there exist $n$ distinct elements $\alpha_1, \ldots, a_n$ of $\mathbf{A}$ such that $\alpha_i \in K$ and $f(\alpha_i) \in K$ for $i = 1, \ldots, n$, then $f \in K[X]$.
+— $\mathbf{A}$ が整域であると仮定します。 次数 $< n$ の $f \in \mathbf{A}[X]$ を、$K$ を $\mathbf{A}$ の部分環 、つまり体とします。 $i = 1, \ldots, n$ に対して $\alpha_i \in K$ と $f(\alpha_i) \in K$ のような $\mathbf{A}$ の異なる要素 $\alpha_1, \ldots, a_n$ が $n$ 存在する場合、$f \in K[X]$ になります。
 
 ### 2. 根の重複度の差異基準
 
@@ -216,7 +216,7 @@ $f \neq 0$ の場合、$fg_1 \ldots g_m \neq 0$ (IV, p. 9, 提案 8) がある�
 
 関係 $f = 0$ を証明したら、すべての $(y_i) \in F^I$ に対して $f((y_i)) = 0$ であると明確に推論できます。ここで、F は任意の単位結合および可換 A-代数です。特に、F は有限または非整数の場合があります。
 
-In other words, the proof of the identity $f((x_i)) = 0$ when the $x_i$ run over an infinite integral domain containing A as subring (with the possible restriction that $g_k((x_i)) \neq 0$ for $1 \leq k \leq m$, where the $g_k$ are non-zero polynomials) implies the same identity when the $x_i$ run over any unital associative and commutative A-algebra.
+言い換えれば、部分環として A を含む無限整数領域上で $x_i$ が実行されるときの同一性 $f((x_i)) = 0$ の証明 (ただし、$1 \leq k \leq m$ に対して $g_k((x_i)) \neq 0$、ここで $g_k$ は非ゼロ多項式であるという制限付き) は、$x_i$ が単位結合および可換 A 代数上で実行されるときと同じ同一性を意味します。
 
 特に$f \in Z[(X_i)_{i \in I}]$ にしましょう。 $x_i$ が $\mathbf{Z}$ を通過したときに $f((x_i)) = 0$ ($1 \leq k \leq m$ に対して $g_k((x_i)) \neq 0$ が制限になる可能性があり、$g_k$ はゼロではない $\mathbf{Z}[(X_i)]$ の元です)、$x_i$ が任意の元を通過したときに同じ同一性が得られます。 可換環。
 

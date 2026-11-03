@@ -21,16 +21,16 @@ subsections:
       pdf_page: 304
 statements: 0
 exercises: 3
-content_sha256: b9271defb112d0998857ccf7dac6526cf859634bf01dbaf425dcec2ab30679ce
+content_sha256: 6bf7d57e10942a63e335614db06093747a0c597252247e8044d10aff681556f9
 translated_from: content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md
 translation_method: google
 source_content_sha256: 0df8d05b12ca6ce3b68cbd660e6b590830aa5e44eda3d489241375154aaa1723
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 54dd293b1d7a75ea7f775f9bae1292ce88091bbd14a132889252198ed00bd4de
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。オイラー-マクローリン和の剰余の範囲公式
@@ -75,7 +75,7 @@ $T_p(x, n)$の場合。
 
 オイラー・マクローリン公式を使用すると、V、p. 238 から 242 で扱われる、より完全な解 (最も重要な場合) から問題を与えることができ、部分的な和 $s_n = \sum_{m=0}^n g(m)$ (それぞれの剰余の漸近展開) を得ることができます。 $r_n = \sum_{m=n+1}^\infty g(m)$)、ここで、$g$ は、$[0, +\infty[$ で定義されたスカラー 写像、$> 0$、単調です。
 
-$g$ が $e^x$ に対する位数 0 の (H) 写像 (V, p. 252) である場合に限定します。他の語には関係 $g' \ll g$ があります。この関係から、整数 $k > 0$ ごとに $g^{(k+1)} \ll g^{(k)}$ が推定され、位数 $h \leq k$ の導関数 $g^{(h)}$ は定数 (V、p. 232、定数 7) に等価ではありません。 $p$ を整数とし、位数 $h \leq 2p$ の導関数 $g^{(h)}$ が定数に等しくないようにします。 まず、系列と一般的な項 $g(n)$ が無限の和を持つと仮定し、いくつかのケースを区別します。
+$g$ が $e^x$ に対して位数 0 の (H) 写像 (V, p. 252) である場合に限定します。他の語には関係 $g' \ll g$ があります。この関係から、位数 $h \leq k$ の導関数 $g^{(h)}$ はいずれも定数と等価ではないように、整数 $k > 0$ ごとに $g^{(k+1)} \ll g^{(k)}$ が推定されます (V、p. 232、提案 7)。 位数 $h \leq 2p$ の導関数 $g^{(h)}$ が定数に等しくないように、$p$ を整数とします。まず、系列と一般的な項 $g(n)$ が無限の和を持つと仮定し、いくつかの場合を区別します。
 
 1. $|g^{(2p-1)}(n)|$ は $n$ では $+\infty$ になる傾向があります。 仮定までに、$|g^{(2k-1)}(n)|$、$1 \leq k \leq p$までに同じものがあります。さらに、$g^{(2p+1)}$は$+\infty$の近傍で単調なので、VI、p. 289の公式の(4)は$T_p(0, n) = O(g^{(2p)}(n+1)) = o(g^{(2p-1)}(n+1))$を与えます。 $x = 0$ に適用されたオイラー・マクローリン公式は、次のことを示しています。
 

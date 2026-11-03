@@ -26,16 +26,16 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: c8dd377adf596a5b4cb0ed474dbbcd0a6cbe1bdf92f0914fa5d0ff11a93ea237
+content_sha256: 6a4bba7eb0ce8e7cf604e77332a6a6bf38cf302357f969ab7653fb0b6c90a15e
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
 translation_method: google
 source_content_sha256: d7c5aa125c07daf15aa12374780d959bd9cb9aac8300a2a5e8c9396f60d1751b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e99d5081359fd57ab6aa9ad2484ce50127ec4f6251f03357718780142ca2527d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 13。 $p$-急激な身長の伸長$\leq 1$
@@ -46,9 +46,9 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 定義 1 {#alg-v-s13-def-1 .statement tag=06QX}
 
-Let $K$ be a field and $L$ a $p$-radical extension of height $\leq 1$ of $K$. $L$の元の家族$(x_i)_{i \in I}$は、$i \in I$と準同型すべてに対して$x_i \notin K$であれば、$K$以上$p$が無いと言われます（それぞれ、$K$以上$L$を基準として$p$）。 標準単射 $u_i : K(x_i) \to L$ から派生した $L$ への $\bigotimes_{i \in I} K(x_i)$ は単射 (それぞれ全単射) です。
+$K$ を体とし、$L$ を $K$ の高さ $\leq 1$ の $p$ 根拡張とします。 $L$の元の家族$(x_i)_{i \in I}$は、すべての$i \in I$に対して$x_i \notin K$であれば、$K$以上$p$が無いと言われます（それぞれ$p$は$L$以上の$K$）。 標準単射 $u_i : K(x_i) \to L$ から派生した $\bigotimes_{i \in I} K(x_i)$ の $L$ への準同型は単射 (それぞれ全単射) です。
 
-$a$ が $L - K$ の元である場合、それは高さ 1 の $p$ 基数であるため、$K$ 上の最小多項式は $X^p - a^p$ ($V$, p. 24、提案 1) です。したがって、$\{1, a, \ldots, a^{p-1}\}$ は $K$ 上の $K(a)$ の基底です。 $(x_i)_{i \in I}$ を、有限台 $a = (\alpha_i)_{i \in I}$ のすべての家族のうち、$L - K$ の元と $\mathbf{N}^{(I)}$ からなるの $A$ 部分集合の家族とし、すべての $i \in I$ に対して $\alpha_i < p$ が得られるようにします。 Prop. 9 (III, p. 471) shows that the elements $\bigotimes_{i \in I} x_i^{\alpha_i}$ as $a$ runs over $A$ form a basis of the vector space $\bigotimes_{i \in I} K(x_i)$ over $K$. さらに、$\bigotimes_{i \in I} K(x_i)$ の $L$ への標準準同型は像 $K(x_i)_{i \in I}$ ($V$, p. 18, Cor. 1) となり、次の命題が得られます。
+$a$ が $L - K$ の元である場合、それは高さ 1 の $p$ 基数であるため、$K$ 上の最小多項式は $X^p - a^p$ ($V$, p. 24、提案 1) です。したがって、$\{1, a, \ldots, a^{p-1}\}$ は $K$ 上の $K(a)$ の基底です。 $(x_i)_{i \in I}$ を、有限台 $a = (\alpha_i)_{i \in I}$ のすべての家族のうち、$L - K$ の元と $\mathbf{N}^{(I)}$ からなるの $A$ 部分集合の家族とし、すべての $i \in I$ に対して $\alpha_i < p$ が得られるようにします。 提案 9 (III, p. 471) は、$a$ が $A$ 上を走る要素 $\bigotimes_{i \in I} x_i^{\alpha_i}$ が、$K$ 上のベクトル空間 $\bigotimes_{i \in I} K(x_i)$ の基底を形成することを示しています。 さらに、$\bigotimes_{i \in I} K(x_i)$ の $L$ への標準準同型は像 $K(x_i)_{i \in I}$ ($V$, p. 18, Cor. 1) となり、次の命題が得られます。
 
 #### 命題 1 {#alg-v-s13-prop-1 .statement tag=06QY}
 
@@ -123,11 +123,11 @@ $$
 
 上の式より、$D$の核は、$K$含む$K^p$の部分体$E$となります。 $M$ を $K$ の部分体とします。 $M$-線形であれば、$D$ は $M$-導出であると言います。 (2)により、$D$～$M$の制限を零と仮定することと同じになります。
 
-(III, p. 570) は、$K$ の$M$ 微分と、$K$ から $\Omega_M(K)$ への正規の $M$-導出$d = d_{K/M}$ の加群 $\Omega_M(K)$ を定義しました。 $d_{K/M}$ 生成するベクトル $K$-スペース $\Omega_M(K)$ の像。 For a mapping $D$ of $K$ into $V$ to be an $M$-derivation it is necessary and sufficient that there should exist a $K$-linear mapping $u : \Omega_M(K) \to V$ such that $D = u \circ d_{K/M}$; this mapping $u$ is uniquely determined.
+(III, p. 570) は、$K$ の$M$ 微分と、$K$ から $\Omega_M(K)$ への正規の $M$-導出$d = d_{K/M}$ の加群 $\Omega_M(K)$ を定義しました。 $d_{K/M}$ 生成するベクトル $K$-スペース $\Omega_M(K)$ の像。 $K$ から $V$ への写像 $D$ が $M$ 導出となるためには、$D = u \circ d_{K/M}$ のような $K$ 線形写像 $u : \Omega_M(K) \to V$ が存在することが必要かつ十分です。このマッピング $u$ は一意に決定されます。
 
 #### 命題 5 {#alg-v-s13-prop-5 .statement tag=06R5}
 
-*$K$ を元 $x$ によって生成された $K$ の体と $L$ 拡大とし、$x \notin K,\ x^p \in K$ とします。 Let $V$ be a vector space over $L$ and $A$ a derivation of $K$ into $V$ such that $\Delta(x^p) = 0$. 次に、$L$ を $V$ に拡張し、$A$ を延長する$D(x) = 0$ などの一意の導分 $D$ が存在します。
+*$K$ を元 $x$ によって生成された $K$ の体と $L$ 拡大とし、$x \notin K,\ x^p \in K$ とします。 $V$ を $L$ 上のベクトル空間とし、$A$ を $\Delta(x^p) = 0$ となるような $K$ から $V$ への導出とする。 次に、$L$ を $V$ に拡張し、$A$ を延長する$D(x) = 0$ などの一意の導分 $D$ が存在します。
 
 $V$、p. 24 より、提案 1、$\{1,\ x,\ \ldots,\ x^{p-1}\}$ は、$K$ に対する $L$ の基底です。 $L$ のすべての元 $u = a_0 + a_1x + \ldots + a_{p-1}x^{p-1}$ ($K$ には $a_0,\ \ldots,\ a_{p-1}$ が含まれます) に $D(u) = A(a_0) + x\Delta(a_1) + \ldots + x^{p-1}\Delta(a_{p-1})$ を置きます。 $D$ 拡大する $A$ が (1) を満たすことは明らかです。したがって、関係を確立するだけで十分です
 
@@ -148,7 +148,7 @@ $$
 
 #### 系 1 {#alg-v-s13-prop-5-cor-1 .statement tag=06R6}
 
-*Let $K$ be a field, $L$ a $p$-radical extension of height $\leq 1$ of $K$ and $V$ a vector space over $L$. $K$ の導分 $A$ から $V$ までは、$L^p$ 拡大するから導分の $L$ で $V$ に消えます。
+*$K$ をフィールド、$L$ を $K$ の高さ $\leq 1$ の $p$ 根拡張とし、$V$ を $L$ 上のベクトル空間とします。 $K$ の導分 $A$ から $V$ までは、$L^p$ 拡大するから導分の $L$ で $V$ に消えます。
 
 Zorn の補題 (E、III、p. 20) により、$A$ から導分 $D_0 : L_0 \to V$ までの最大拡大が存在します。ここで、$L_0$ は $L$ 含むの部分体です$K$。 $x \in L$ にしましょう。 $x^p \in L_0$と$A(x^p) = 0$、よって$D_0(x^p) = 0$があります。提案 5 により、
 
@@ -168,7 +168,7 @@ x を、E に対する所属ではなく、L の元とします。そのとき�
 
 a) (x_i)_{i ∈ I} が K 上で p-free であるためには、族 (dx_i)_{i ∈ I} がベクトル L-空間 Ω_K(L) で自由であることが必要かつ十分です。
 
-b) For (x_i)_{i ∈ I} to generate L over K it is necessary and sufficient that the family (dx_i)_{i ∈ I} should generate the vector L-space Ω_K(L).
+b) (x_i)_{i ∈ I} が K 上で L を生成するには、族 (dx_i)_{i ∈ I} がベクトル L 空間 Ω_K(L) を生成する必要があり、十分です。
 
 c) (x_i)_{i ∈ I} が K 上の L の p 基底であるためには、族 (dx_i)_{i ∈ I} がベクトル L 空間 Ω_K(L) の基底であることが必要かつ十分です。
 
@@ -230,7 +230,7 @@ $$[aD, a'D'] = aa' \cdot [D, D'] + (aD(a')) \cdot D' - (a'D'(a)) \cdot D.$$
 
 特に、$g \times g$ から $g$ への写像 $(D, D') \mapsto [D, D']$ は $E^p$ 線形です。
 
-$E^p \subset K$ と $[E : K]$ が有限であるように、$\mathscr{C}$ 集合の部分体 $K$ の $E$ で表します。それぞれの $K \in \mathscr{C}$ を、E の K 導出の $g(K)$ 集合で表します。 Further, we denote by $\mathscr{L}$ the set of vector subspaces $l$ of $g$ of finite dimension over E and such that $[D, D'] \in h$ and $D^p \in h$ for any $D, D'$ in $h$; for each $h \in \mathscr{L}$ we denote by $I(h)$ the set of $x \in E$ such that $D(x) = 0$ for all $D \in h$.
+$E^p \subset K$ と $[E : K]$ が有限であるように、$\mathscr{C}$ 集合の部分体 $K$ の $E$ で表します。それぞれの $K \in \mathscr{C}$ を、E の K 導出の $g(K)$ 集合で表します。 さらに、E 上の有限次元のベクトル部分空間のセット $l$ $g$ と、$h$ の任意の $D, D'$ に対する $[D, D'] \in h$ と $D^p \in h$ を$\mathscr{L}$ で表します。それぞれの $h \in \mathscr{L}$ について、すべての $D \in h$ に対して $D(x) = 0$ となるような $x \in E$ の集合を $I(h)$ で表します。
 
 #### 定理 3 (ジェイコブソン) {#alg-v-s13-thm-3 .statement tag=06RD}
 

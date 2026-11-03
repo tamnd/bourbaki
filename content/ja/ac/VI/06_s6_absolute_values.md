@@ -29,16 +29,16 @@ subsections:
       pdf_page: 425
 statements: 11
 exercises: 2
-content_sha256: a1d46d2369a3ec432e53e8b8b0688941a3f3e6525f5bc9a2b8f87abe68624c7f
+content_sha256: cb65d30088818a146ded4d90105b82f2701ffd7a36afb65ef8ea9f7f66913997
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
 translation_method: google
 source_content_sha256: faa08a74b0921e5d2151aaa0990ac2856ad0a10c13dc6c2fca2752cb6b3771af
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ee35565757998288aa7356d048ecb54695e8bf21e35eef84668428d69a7a91e0
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 6. 絶対値
@@ -249,7 +249,7 @@ $$
 \frac{H'(T)}{H(T)} = \sum_{k=1}^p \frac{1}{T - \sigma(c_k)}
 $$
 
-We apply this formula to the polynomial
+この式を多項式に適用します
 
 $$
 H(T) = T^n - (\sigma(t))^n = \prod_{k=0}^{n-1} (T - \sigma(\omega_n^k t)),
@@ -299,8 +299,8 @@ $$
 $$
 従って、このように定義されたノルムは、L の R-代数構造と互換性があります。場合によっては、(A) L は R-代数と $\mathbf{C}$ と同型です。現在、$\mathbf{C}$ と異なる$\mathbf{C}$ の唯一の部分 R 代数は $\mathbf{R}$ であるため、K は $\mathbf{R}$ と同型です。
 
-(C) *Third case: K is not commutative*
-Let Z be the centre of K and x an element of K not in Z; the subfield $Z(x)$ of K is commutative and the norm induced by that on K is compatible with the R-algebra structure on $Z(x)$; as $Z \neq Z(x)$ and Z and $Z(x)$ are R-algebras isomorphic to $\mathbf{R}$ or $\mathbf{C}$ by virtue of (A) and (B), Z is necessarily isomorphic to $\mathbf{R}$ and $Z(x)$ to $\mathbf{C}$. 従って、すべての $x \in K, Z(x)$ は Z 上の階数 $\leq 2$ になります。 これで、次の補題ができました。
+(C) *3 番目のケース: K は可換ではありません*
+Z を K の中心とし、x を Z にない K の要素とする。 K の部分体 $Z(x)$ は可換であり、K の部分体によって誘導されるノルムは $Z(x)$ の R 代数構造と互換性があります。 $Z \neq Z(x)$ と Z と $Z(x)$ は (A) と (B) のおかげで $\mathbf{R}$ または $\mathbf{C}$ と同型の R 代数であるため、Z は必然的に $\mathbf{R}$ および $Z(x)$ から $\mathbf{C}$ と同型です。 従って、すべての $x \in K, Z(x)$ は Z 上の階数 $\leq 2$ になります。 これで、次の補題ができました。
 
 #### 補題 1 {#ac-vi-s6-lem-1 .statement tag=04VI}
 
@@ -327,7 +327,7 @@ no. 2、系から命題 3 まで、K は標数 0 であるため、$\mathbf{Q}$ 
 
 no. 2, 命題 3. 次に、すべての x ∈ Q に対して h(x) = |x|^s となるような実数 s > 0 が存在します。つまり f(x.1) = |x|^s; g = f^{1/s} と書きます。次に、すべての整数 n に対して g ∈ V(K) および g(n.1) = n となります。したがって、no. 1 の命題 2 は、g が K 上の絶対的な値であることを示します。
 
-x ∈ Q および y ∈ K の場合、g(xy) = |x|g(y) であるため、g は K 上のノルムであり、その Q 代数構造 (Q 上の通常の絶対値値を使用) と互換性があります。 したがって、K の完了 K は、Q = R に対するノルム代数です (一般位相、章 IX, § 3, no. 7)。 ĝ を K 上のノルムとし、g の連続拡大とします。 g は K 上の絶対値であるため、K は体であり、ĝ は K 上の絶対値です (一般位相、章 IX, § 3, no. 3、命題 6)。 By Theorem 1 there exists an R-algebra isomorphismf of K̂ onto one of the fields R, C or H and g'(x) = |j(x)| is therefore an absolute value on K̂; as K̂ is finite-dimensional over R and g' and ĝ coincide on the subfield R . 1 of K̂, g' = ĝ by the following lemma:
+x ∈ Q および y ∈ K の場合、g(xy) = |x|g(y) であるため、g は K 上のノルムであり、その Q 代数構造 (Q 上の通常の絶対値値を使用) と互換性があります。 したがって、K の完了 K は、Q = R に対するノルム代数です (一般位相、章 IX, § 3, no. 7)。 ĝ を K 上のノルムとし、g の連続拡大とします。 g は K 上の絶対値であるため、K は体であり、ĝ は K 上の絶対値です (一般位相、章 IX, § 3, no. 3、命題 6)。 定理 1 により、体 R、C、または H の 1 つに K̂ の R 代数同型写像が存在し、g'(x) = |j(x)|したがって、 は K^ の絶対値です。 K^ は R 上で有限次元であり、 g' と ĝ は部分体 R 上で一致するためです。 K̂ の 1、次の補題により g' = ĝ となります。
 
 #### 補題 2 {#ac-vi-s6-lem-2 .statement tag=04VK}
 

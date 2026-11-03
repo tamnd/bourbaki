@@ -23,23 +23,23 @@ subsections:
       pdf_page: 402
 statements: 0
 exercises: 1
-content_sha256: 5fa5c5588a55a43921a3984eb8e6bda8f97d3cd993d8676f830fe2648f7f4405
+content_sha256: 7e78e2962eaef720198e06315781cd62faf1a371ff6454484f181abe78c3dccc
 translated_from: content/en/alg/II/A_a_pseudomodules.md
 translation_method: google
 source_content_sha256: db883a717633a15e64137f982b71d8ce6f40a59783e9d1c7d5ac706248c39106
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 78ecdfd53924c02f1aa87d86e159a72aa74daf26d166519e1b32e698c1066880
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録
 
 # 擬加群
 
-### 1.  単位元の随伴を疑似リングに
+### 1. 単位元の随伴を疑似リングに
 
 A を擬似リング (I, § 8, no. 1) とします。 集合 $A' = \mathbf{Z} \times A$ に、定義する次の合成の法則:
 

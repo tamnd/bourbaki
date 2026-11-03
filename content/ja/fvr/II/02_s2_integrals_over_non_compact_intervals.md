@@ -25,16 +25,16 @@ subsections:
       pdf_page: 82
 statements: 9
 exercises: 9
-content_sha256: 54c2cba49f2ecdface6ac5dda6bc587c4f6ac761687eb211ddbd920018bbd367
+content_sha256: 8c05c743efb885574baa24ac932fb9be329f848062899046c9f2c6c86bc6096d
 translated_from: content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md
 translation_method: google
 source_content_sha256: c9b52ed8d14396c752cf882b9999823a887d9dfcc853a8cd546dc7a96f2d2721
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2a21547a9877923661874b621d50b67d4129ca522e56d6d34f06c9f534ceaa15
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。非コンパクト上の積分区間
@@ -45,7 +45,7 @@ I を *拡張線* $\overline{\mathbf{R}}$ のコンパクトな区間 $[a,\ b]$ 
 
 次の場合に限定します: $I = [a,\ b]$ の点の有限真に増加する数列 $(c_i)_{0 \leq i \leq n}$ が存在し、$c_0 = a,\ c_n = b$ が存在し、$f$ が開いた区間 $[c_i,\ c_{i+1}[$ のそれぞれで *規制* されます。 けれども区間含む点 $c_i$ $I$ の内部を少なくとも 1 つ開くすべてのけれどもが規制されるわけではありません。このような写像は、$[a,\ b[$ に *区分的に規制* されます。 $[a,\ b[$ の規制された写像は区分的に規制されていることに注目します (前の定義で $n = 1$ を取る)。
 
-$f$ が原始的な $g$ (上記で正確に説明した意味で) を認め、$c$ が区間 $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$ の点である場合、仮定までに、この区間のそれぞれの $x$ に対して、その $g(x) - g(c) = \int_c^x f(t)\,dt$ が得られます。 $g$は$I$から仮定まで連続しているため、$x$が右から$c_i$になる傾向があり、$x$が左から$c_{i+1}$になる傾向があるとき、$\int_c^x f(t)\,dt$は$E$で極限になる傾向があることがわかります。 Conversely, suppose that these conditions are satisfied for all $t$, and let $g_i$ be a primitive of $f$ on the interval $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$; we note immediately that the function $g$, defined on the complement with respect to $I$ of the set of $c_i$, by the condition that it be equal to $g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$ on $[c_i,\ c_{i+1}[$ for $0 \leq i \leq n - 1$, is continuous at every point of $I$ distinct from the $c_i$ and admits a limit at each of these points; it can therefore be extended by continuity to each of these points, and the extended function is evidently a primitive of $f$ on $I$. さらに、$f$ の他のすべてのプリミティブは形 $g + a$ ($E$ の $a$ 元) であることは明らかです。
+$f$ が原始値 $g$ (上で正確に説明した意味で) を認め、$c$ が区間 $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$ の点である場合、仮定までに、この区間の各 $x$ に対して、その $g(x) - g(c) = \int_c^x f(t)\,dt$ が得られます。 $g$は$I$で仮定まで連続しているため、$x$が右から$c_i$になる傾向があり、$x$が左から$c_{i+1}$になる傾向があるとき、$\int_c^x f(t)\,dt$は$E$で極限になる傾向があることがわかります。逆に、これらの条件がすべての $t$ に対して満たされると仮定し、$g_i$ を区間 $[c_i,\ c_{i+1}[\ (0 \leq i \leq n - 1)$ 上の $f$ のプリミティブとします。直ちに、$c_i$の集合の$I$の補数で条件によって定義された写像$g$は、$0 \leq i \leq n - 1$の$[c_i,\ c_{i+1}[$の$g_i(x) + \sum_{k=1}^i (g_{k-1}(c_k-) - g_k(c_k+))$に等しいことが、どの時点でも連続であることに注意します。 $I$ の点は $c_i$ とは異なり、これらの点のそれぞれに極限が認められます。したがって、これらの点のそれぞれへの連続性によって拡張でき、拡張された写像は明らかに $I$ 上の $f$ のプリミティブです。さらに、$f$ の他のすべてのプリミティブは形 $g + a$ ($E$ の $a$ 元) であることは明らかです。
 
 #### 定義 1 {#fvr-ii-s2-def-1 .statement tag=088F}
 
@@ -141,17 +141,17 @@ $$
 
 写像 $J \mapsto \int_J f(t)\,dt$ が制限されていない場合、有向集合 $\mathscr{K}(I)$ に関して極限 $+\infty$ があります。そして、言葉を乱用して、整$\int_a^b f(t)\,dt$は$+\infty$に等しいと言います。 n 1 拡大する (写像 $\geq 0$ を扱う場合) で確立される積分の性質は、関係する積分の一部が無限である場合まで、その特徴が意味をなす関係の場合に適用されます。
 
-**命題 3 (比較原理)。** *$f$ と $g$ を、区間 $I \subset \mathbf{R}$ で規制される 2 つの実数写像とし、$f$ と $g$ が連続する各点で $0 \leq f(x) \leq g(x)$ となるようにします。 (*cf.* II、p. 61、提案 6)。 $I$ に対する $g$ の積分が収束する場合、$f$ の積分も収束し、$\int_I f(t)\,dt \leq \int_I g(t)\,dt$ が得られます。 さらに、2 つの積分できないは、$f$ と $g$ が連続している $I$ の点ごとに 〜でない限り $f(x) = g(x)$ に等しくなります。*
+**命題 3 (比較原理)。** *$f$ と $g$ を、区間 $I \subset \mathbf{R}$ で規制される 2 つの実数写像とし、$f$ と $g$ が連続する各点で $0 \leq f(x) \leq g(x)$ となるようにします。 (*cf.* II、p. 61、提案 6)。 $I$ に対する $g$ の積分が収束する場合、$f$ の積分も収束し、$\int_I f(t)\,dt \leq \int_I g(t)\,dt$ が得られます。さらに、2 つの積分できないは、$f$ と $g$ が連続している場合、$I$ の点ごとに〜でない限り $f(x) = g(x)$ に等しくなります。*
 
-これで、すべてのコンパクト区間 $J \subset I$ に 1 つが追加されます。
+現在、すべてのコンパクト区間 $J \subset I$ には、
 
 $$
 \int_J f(t)\,dt \leq \int_J g(t)\,dt;
 $$
 
-$\int_J g(t)\,dt \leq \int_I g(t)\,dt$ 以降、整 $\int_J f\,dt$ は上で制限されているため、整 $\int_I f(t)\,dt$ は収束します。さらに、移行から極限には$\int_I f(t)\,dt \leq \int_I g(t)\,dt$が付きます。さらに、$f$と$g$が連続している点$x \in I$で$f(x) < g(x)$とします。 $I$ に含まれるコンパクトな区間 $[c,\ d]$ が存在し、(単一の) 点に還元されず、$x \in [c,\ d]$ になります。一方には $\int_c^d f(t)\,dt < \int_c^d g(t)\,dt$ (II, p. 61, cor. 1) があり、他方では上記から $\int_a^c f(t)\,dt \leq \int_a^c g(t)\,dt$ と $\int_d^b f(t)\,dt \leq \int_d^b g(t)\,dt$ があるため、項ごとに追加すると $\int_a^b f(t)\,dt < \int_a^b g(t)\,dt$ であることがわかります。
+$\int_J g(t)\,dt \leq \int_I g(t)\,dt$ 以降、整 $\int_J f\,dt$ は上に境界があるため、整 $\int_I f(t)\,dt$ は収束します。さらに、移行から極限には、$\int_I f(t)\,dt \leq \int_I g(t)\,dt$ があります。さらに、$f$と$g$が連続している点$x \in I$で$f(x) < g(x)$とします。 $I$ に含まれるコンパクトな区間 $[c,\ d]$ が存在し、(単一の) 点には還元されず、$x \in [c,\ d]$ になります。一方には $\int_c^d f(t)\,dt < \int_c^d g(t)\,dt$ (II, p. 61, cor. 1) があり、他方では上記から $\int_a^c f(t)\,dt \leq \int_a^c g(t)\,dt$ と $\int_d^b f(t)\,dt \leq \int_d^b g(t)\,dt$ があるため、項ごとに追加すると $\int_a^b f(t)\,dt < \int_a^b g(t)\,dt$ であることがわかります。
 
-この命題は、写像 $f \geq 0$ の積分が収束しているかどうかを判断するために最も頻繁に使用される手段を提供します。つまり、$f$ を、収束しているか収束していないことがすでにわかっている積分であるより単純な写像 $g \geq 0$ と比較します。この章で見ていきます。 V コンパレーター 写像を検索する方法 (最も一般的な場合)。そして積分と系列の収束のための日常的な基準を導き出します。
+この命題は、写像 $f \geq 0$ の積分が収束しているかどうかを判断するために最も頻繁に使用される手段を提供します。つまり、$f$ を、収束しているか収束していないことがすでにわかっている積分であるより単純な写像 $g \geq 0$ と比較します。この章で見ていきます。 V コンパレーター 写像を検索する方法 (最も一般的な場合)。そして、積分と系列の収束のための日常的な基準を推定します。
 
 ### 3. 絶対収束積分
 
@@ -161,19 +161,19 @@ $\int_J g(t)\,dt \leq \int_I g(t)\,dt$ 以降、整 $\int_J f\,dt$ は上で制�
 
 #### 命題 4 {#fvr-ii-s2-prop-4 .statement tag=088M}
 
-*$I$ 上の $\mathbf{f}$ の積分が絶対に収束する場合、それは収束しており、*
+*$I$ に対する $\mathbf{f}$ の積分が絶対に収束する場合、それは収束しており、*
 
 $$
 \left| \int_I \mathbf{f}(t)\,dt \right| \leq \int_I \| \mathbf{f}(t) \| \,dt.\tag{2}
 $$
 
-実際、すべてのコンパクト区間 $J \subset I$ に対して、(II, p. 61, 公式 (16)) が含まれます。
+実際、すべてのコンパクト区間 $J \subset I$ には (II, p. 61, 公式 (16)) があります。
 
 $$
 \left| \int_J \mathbf{f}(t)\,dt \right| \leq \int_J \| \mathbf{f}(t) \| \,dt.\tag{3}
 $$
 
-正の写像 $\| \mathbf{f}(x) \|$ の積分が収束する場合、すべての $\varepsilon > 0$ に対して、$I$ に含まれるコンパクト区間 $[\alpha,\ \beta]$ が存在し、すべてのコンパクト区間 $[\lambda,\ \gamma]$ は $I$ に含まれ、内部点を持たないことになります。 共通のと $[\alpha,\ \beta]$ では、1 つは $\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$ になります (II、p. 65、提案 1)。 $\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$ は、$I$ にわたる積分の収束を示します (II、p. 16、提案 1)。 (3) の移行から極限から、不等式 (2) が推測されます。
+正の写像 $\| \mathbf{f}(x) \|$ の積分が収束する場合、すべての $\varepsilon > 0$ に対して、$I$ に含まれるコンパクト区間 $[\alpha,\ \beta]$ が存在します。つまり、すべてのコンパクト区間 $[\lambda,\ \gamma]$ は $I$ に含まれ、内部を持たないことになります。 点の共通のと $[\alpha,\ \beta]$ は、$\int_{\lambda}^{\gamma} \| \mathbf{f}(t) \, dt \| \leq \varepsilon$ になります (II、p. 65、提案 1)。 $\left| \int_{\lambda}^{\gamma} \mathbf{f}(t)\,dt \right| \leq \varepsilon$ は、$I$ にわたる積分の収束を示します (II, p. 16、提案 1)。 (3) の移行から極限から、不等式 (2) が推測されます。
 
 #### 系 {#fvr-ii-s2-n3-cor-1 .statement tag=088N}
 

@@ -57,16 +57,16 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: f7e904ba4d54d8d46741dd09405e3d09df410827e1cda51f1671746559f5eaaa
+content_sha256: 6b1a7917edfbfe62719c65432952dfd1ad81eefa92117eb4dc947882b8f160ca
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
 translation_method: google
 source_content_sha256: e617c5fb964b4dfa4c93d927e10519f76530432982d0dd1d298de1585dc144da
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a9700545f759764dc3bc2fae7f2ffe605e05b02f33224380bdfd47a5e906a164
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。局部凸の対策と対策空間
@@ -87,11 +87,11 @@ E を局所凸空間とします。 関係 $\supset$ で順序付けされた有
 
 $E$ ～ 属する ～ $\mathscr{F}(E)$ の部分空間 $V$ については、$V$ が $x \in E$ から構成されるような、元 $x'_1, \ldots, x'_n$ の$E'$ の有限数が存在することが必要かつ十分です。 満たす $\langle x, x'_i \rangle = 0$ は $1 \leq i \leq n$ に対して (TVS、II, § 6, No. 3、Th. 1 の Cor. 2 および No. 5、Prop. 7 の Cor. 2)。さらに、有限次元ベクトル空間には、ハウスドルフ トポロジカルベクトル空間位相 (TVS、I, § 2, No. 3、Th. 2) が 1 つだけ存在します。従って、$E$ の対策の概念は、$E$ の双対である $E'$ にのみ依存します。
 
-$\lambda$ を $E$ の有界メジャーとします。 For every $V \in \mathscr{F}(E)$, let us denote by $\widetilde{\lambda}_V$ the image of $\lambda$ under the canonical mapping $p_V$ of $E$ onto $E/V$. 1 つは、$\mathscr{F}(E)$ の 2 つの元 $V$ と $W$ に対して $p_V = p_{VW} \circ p_W$ を持ち、$V \supset W$ になります。従って、家族 $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ は $E$ の予定です。 $\widetilde{\lambda}$ は、メジャー $\lambda$ に *関連付けられた* プロメジャーであるとします。 $\lambda$ と $\widetilde{\lambda}$ の合計質量が同じであることがすぐにわかります。
+$\lambda$ を $E$ の有界メジャーとします。 すべての $V \in \mathscr{F}(E)$ について、$E$ の $E/V$ への正規マッピング $p_V$ の下での $\lambda$ のイメージを $\widetilde{\lambda}_V$ で表します。 1 つは、$\mathscr{F}(E)$ の 2 つの元 $V$ と $W$ に対して $p_V = p_{VW} \circ p_W$ を持ち、$V \supset W$ になります。従って、家族 $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ は $E$ の予定です。 $\widetilde{\lambda}$ は、メジャー $\lambda$ に *関連付けられた* プロメジャーであるとします。 $\lambda$ と $\widetilde{\lambda}$ の合計質量が同じであることがすぐにわかります。
 
 #### 命題 1 {#int-ix-s6-prop-1 .statement tag=09S7}
 
-*$E$を局所的に凸な空間とします。 The mapping $\lambda \mapsto \widetilde{\lambda}$ is a bijection of the set of bounded measures on $E$ onto the set of promeasures $(\mu_V)_{V \in \mathscr{F}(E)}$ on $E$ satisfying the following condition:
+*$E$を局所的に凸な空間とします。 マッピング $\lambda \mapsto \widetilde{\lambda}$ は、$E$ の有界メジャーのセットを $E$ のプロメジャー $(\mu_V)_{V \in \mathscr{F}(E)}$ に全単射したもので、次の条件を満たします。
 
 すべての $\varepsilon > 0$ に対して、すべての $V \in \mathscr{F}(E)$ に対して $\mu_V(E/V - p_V(K)) \leq \varepsilon$ となるような、$E$ のコンパクトな部分集合 $K$ が存在します。
 
@@ -156,7 +156,7 @@ $$
 
 $\mu$ を $\lambda$ に関連付けられたプロメジャーとします。 $x' \in E'$ ごとに、$\mathbf{R}$ の$\mu_{x'}$ は、$E$ の$\lambda$ の$x' : E \to \mathbf{R}$ の下にある像です。 公式 (2) と (3) から、直ちに $\mathscr{F}\mu = \mathscr{F}\lambda$ が推測されます。
 
-$\mu$ を $E$ 上の任意の指標とし、$u$ を局所的に凸な空間 $E_1$ への $E$ の連続線形写像とする。 Denote by $^t u$ the linear mapping of $E'_1$ into $E'$ that is the transpose of $u$, and by $\nu$ the promeasure $u(\mu)$ on $E_1$. $x'_1 \in E'_1$ ごとに、$^t u(x'_1) = x'_1 \circ u$、よってがあります。
+$\mu$ を $E$ 上の任意の指標とし、$u$ を局所的に凸な空間 $E_1$ への $E$ の連続線形写像とする。 $^t u$ で $E'_1$ から $u$ の転置である $E'$ への線形写像を表し、$\nu$ で $E_1$ 上のプロメジャー $u(\mu)$ を表します。 $x'_1 \in E'_1$ ごとに、$^t u(x'_1) = x'_1 \circ u$、よってがあります。
 
 $$
 \nu_{x'_1} = x'_1(\nu) = x'_1(u(\mu)) = (x'_1 \circ u)(\mu) = \mu_{^t u(x'_1)}.
@@ -178,7 +178,7 @@ $$
 
 #### 命題 3 {#int-ix-s6-prop-3 .statement tag=09S9}
 
-*$E$を局所的に凸な空間とします。 The mapping $\mu \mapsto \mathscr{F}\mu$ of the set of promeasures on $E$ into the set of functions on $E'$ is injective.*
+*$E$を局所的に凸な空間とします。 $E$ の一連の手順の$E'$ の関数セットへのマッピング $\mu \mapsto \mathscr{F}\mu$ は単射的です。*
 
 公式 (5) により、$E$ が有限次元である場合に帰着できます。すべての有限次元空間は空間 $\mathbf{R}^n$ と同型であるため、$E = \mathbf{R}^n$ のような整数 $n \geqslant 0$ が存在すると仮定することもできます。したがって、$\mu$ が $\mathbf{R}^n$ に関する制限された尺度 (必ずしも正であるとは限りません) であるかどうか、および
 
@@ -188,7 +188,7 @@ $$
 
 $\mathbf{R}^n$ の線型形式 $y$ ごとに、次に $\mu = 0$ です。
 
-整数 $m \geqslant 0$ ごとに、$G_m$ を $\mathbf{R}^n$ の部分群 $m \cdot \mathbf{Z}^n$ とします。 $\mathbf{R}^n$ で連続する写像 $f$ の $\mathscr{C}_m$ ベクトル空間で、$x \in \mathbf{R}^n$ と $a \in G_m$ が $f(x + a) = f(x)$ になるように表します。 By Prop. 8 of GT, X, §4, No. 4, every function in $\mathscr{C}_m$ is the uniform limit of finite linear combinations of functions of the type $x \mapsto e^{2\pi i \langle x, q \rangle}$ with $q \in m^{-1} \cdot \mathbf{Z}^n$. したがって、写像 $f \in \mathscr{C}_m$ ごとに $\mu(f) = 0$ となります。
+整数 $m \geqslant 0$ ごとに、$G_m$ を $\mathbf{R}^n$ の部分群 $m \cdot \mathbf{Z}^n$ とします。 $\mathbf{R}^n$ で連続する写像 $f$ の $\mathscr{C}_m$ ベクトル空間で、$x \in \mathbf{R}^n$ と $a \in G_m$ が $f(x + a) = f(x)$ になるように表します。 GT の提案 8、X, §4, No. 4 により、$\mathscr{C}_m$ のすべての関数は、$x \mapsto e^{2\pi i \langle x, q \rangle}$ と $q \in m^{-1} \cdot \mathbf{Z}^n$ 型の関数の有限線形結合の一様極限です。 したがって、写像 $f \in \mathscr{C}_m$ ごとに $\mu(f) = 0$ となります。
 
 $f$ をコンパクトなサポートを備えた $\mathbf{R}^n$ で連続する写像とします。 整数 $m \geqslant 0$、集合 $f_m(x) = \sum_{q \in G_m} f(x + q)$ ごとに。 明らかでは、すべての $x \in \mathbf{R}^n$ に対して、その前の系列には有限の項しかなく、$f_m$ 属するから $\mathscr{C}_m$ までがあります。さらに、数列 $(f_m)$ はすべてのコンパクト集合で一様に $f$ になる傾向があり、すべての $m$ に対して $|f_m| \leqslant C$ となるような定数 $C \geqslant 0$ が存在することも簡単にわかります。従って、§5, No. 6の提案12による$\mu(f) = \lim_{m \to \infty} \mu(f_m)$。 $f_m \in \mathscr{C}_m$から、$\mu(f_m) = 0$、よって、最後に$\mu(f) = 0$です。従って$\mu = 0$。
 
@@ -356,7 +356,7 @@ $$
 No. 3 の公式 (4) によって。
 
 C) *一般的なケース*
-$V \in \mathscr{F}(E)$ にしましょう。 Denote by $p_V$ the canonical mapping of $E$ onto $E/V$, and by $Q_V$ the positive quadratic form $Q \circ {}^t p_V$ on $(E/V)'$; finally, let $\mu_V$ be the measure on $E/V$ with Fourier transform $e^{-Q_V/2}$ (cf. B)). $W \in \mathscr{F}(E)$が$V$に含まれる場合、$p_V = p_{VW} \circ p_W$、よって、$Q_V = Q_W \circ {}^t p_{VW}$。 No. 3 の公式 (4) により、測度 $p_{VW}(\mu_W)$ はフーリエとして変換写像 $(e^{-Q_W/2}) \circ {}^t p_{VW} = e^{-Q_V/2}$ となるため、$\mu_V$ に等しくなります。 従って、ファミリー $(\mu_V)_{V \in \mathscr{F}(E)}$ は、$E$ のプロメジャー $\mu$ です。 No. 3 の公式 (5) は、$\mathscr{F}\mu$ が $e^{-Q/2}$ に等しいことを示しています。
+$V \in \mathscr{F}(E)$ にしましょう。 $p_V$ は $E$ の $E/V$ への正準写像を表し、$Q_V$ は $(E/V)'$ 上の正の二次形式 $Q \circ {}^t p_V$ を表します。最後に、フーリエ変換 $e^{-Q_V/2}$ (cf. B)) を使用した $E/V$ の測定値を $\mu_V$ とします。 $W \in \mathscr{F}(E)$が$V$に含まれる場合、$p_V = p_{VW} \circ p_W$、よって、$Q_V = Q_W \circ {}^t p_{VW}$。 No. 3 の公式 (4) により、測度 $p_{VW}(\mu_W)$ はフーリエとして変換写像 $(e^{-Q_W/2}) \circ {}^t p_{VW} = e^{-Q_V/2}$ となるため、$\mu_V$ に等しくなります。 従って、ファミリー $(\mu_V)_{V \in \mathscr{F}(E)}$ は、$E$ のプロメジャー $\mu$ です。 No. 3 の公式 (5) は、$\mathscr{F}\mu$ が $e^{-Q/2}$ に等しいことを示しています。
 
 #### 定義 2 {#int-ix-s6-def-2 .statement tag=09SE}
 
@@ -374,7 +374,7 @@ $$
 
 ここで、$a$ を $E$ の元とし、$Q$ を $E'$ 上の正の 2 次式形とします。 $x \mapsto x + a$ の翻訳の下で、$\Gamma_Q$ の小節を $\Gamma_{a,Q}$ 像で表すことにします。 $\Gamma_{a,Q}$ は質量 1 の $E$ に対する正の尺度であり、フーリエ変換 $x' \mapsto e^{i\langle a, x' \rangle - \frac{1}{2} Q(x')}$ と平均 $a$ であることが容易にわかります。さらに、以下の提案 6 は、$Q$ が $\Gamma_{a,Q}$ の分散であることを意味します。伝統的に、$\Gamma_{a,Q}$ は平均 $a$ と分散 $Q$ をもつガウス測度であり、$\Gamma_Q = \Gamma_{0,Q}$ は分散 $Q$ をもつ *中心の* ガウス測度であると言われています。 *中心の* ガウス測度のみを考慮するため、この修飾子は省略します。
 
-2) $Q$ を、局所凸型空間 $E$ の双対 $E'$ 上の二次方程式形とします。 If there exists a promeasure on $E$ with Fourier transform $e^{-Q/2}$, the quadratic form $Q$ is necessarily positive: for, the function $e^{-Q/2}$ is bounded on $E'$; therefore, for every $x' \in E'$, the function $t \mapsto e^{-t^2 Q(x')/2} = e^{-Q(tx')/2}$ on $\mathbf{R}$ is bounded, whence $Q(x') \geq 0$.
+2) $Q$ を、局所凸型空間 $E$ の双対 $E'$ 上の二次方程式形とします。 フーリエ変換 $e^{-Q/2}$ で $E$ にプロメジャーが存在する場合、二次形式 $Q$ は必然的に正になります。つまり、関数 $e^{-Q/2}$ は $E'$ で制限されます。したがって、すべての $x' \in E'$ について、$\mathbf{R}$ 上の関数 $t \mapsto e^{-t^2 Q(x')/2} = e^{-Q(tx')/2}$ は有界であり、そこから $Q(x') \geq 0$ になります。
 
 3) $\mathbf{R}$ の双対は $\mathbf{R}$ と正準同型であり、$\mathbf{R}$ 上の正の二次方程式形は形 $t \mapsto at^2$ と $a \geq 0$ の写像です。したがって、すべての $a \geq 0$ に対して、$\mathbf{R}$ 上に唯一の有界測度 $\gamma_a$ が存在し、そのフーリエ変換は写像 $t \mapsto e^{-at^2/2}$ に等しくなります。言葉の乱用により、$\gamma_a$ は、分散 $a$* を伴う $\mathbf{R}$ の *ガウス測度であると言われます。
 
@@ -442,7 +442,7 @@ $$
 $$
 $\mathscr{F}\mu$ の定義による (No. 3、公式 (2))。他の語、$\mathscr{F}\mu = e^{-Q/2}$、そして$Q$が$E'$上の正の二次方程式形であることを証明することが残っています。
 
-For every closed linear subspace V of E with finite codimension, denote by $p_V$ the canonical mapping of E onto $E/V$, by $\mu_V$ the measure $p_V(\mu)$ on $E/V$, and set $Q_V = Q \circ {}^t p_V$. $E' = \bigcup_{V \in \mathscr{F}(E)} \operatorname{Im}({}^t p_V)$ と ${}^t p_V$ は単射なので、$Q_V$ が $(E/V)'$ 上の正の二次方程式形であることを証明すれば十分です。 $u \in (E/V)'$ と $x' = {}^t p_V(u)$ としましょう。 私たちは持っています
+有限次元を持つ E のすべての閉じた線形部分空間 V について、$E/V$ への E の正準写像を $p_V$ で表し、$E/V$ 上の測度 $p_V(\mu)$ を $\mu_V$ で表し、$Q_V = Q \circ {}^t p_V$ を設定します。 $E' = \bigcup_{V \in \mathscr{F}(E)} \operatorname{Im}({}^t p_V)$ と ${}^t p_V$ は単射なので、$Q_V$ が $(E/V)'$ 上の正の二次方程式形であることを証明すれば十分です。 $u \in (E/V)'$ と $x' = {}^t p_V(u)$ としましょう。 私たちは持っています
 $$
 u(\mu_V) = u(p_V(\mu)) = x'(\mu) = \gamma_{Q(x')} ;
 $$
@@ -557,7 +557,7 @@ $$
 
 ### 7. ウィンナーメジャー
 
-In this No., we denote by $T$ the interval $]0, 1]$ of $\mathbf{R}$ and by $\mathscr{H}$ the Hilbert space of real functions on $T$ square-integrable with respect to Lebesgue measure, where the scalar product is denoted $(f|g)$. また、$T$ 上の連続実数写像が点 0 で 0 になる傾向があることを $\mathscr{C}$ 空間で表します。 $\mathscr{C}$ にはノルム $\|f\| = \sup_{t \in T} |f(t)|$ を装備します。 コンパクト区間 $[0, 1] = T \cup \{0\}$ は、局所的にコンパクトではあるがコンパクトではない区間 $T$ を Alexandroff コンパクト化したものです。その結果、コンパクトなサポートを伴う$T$の連続写像の集合は$\mathscr{C}$に密集しており、$\mathscr{C}$の双対は$T$の限定されたメジャー（必ずしも正ではない）の空間$\mathscr{M}^1$と識別される可能性があります（Ch. III, §1, No. 8、デフォルト。 3)。
+この番号では、$\mathbf{R}$ の区間 $]0, 1]$ を$T$ で表し、ルベーグ測度に関して平方積分可能な$T$ の実関数のヒルベルト空間を$\mathscr{H}$ で表します。スカラー積は$(f|g)$ で表されます。 また、$T$ 上の連続実数写像が点 0 で 0 になる傾向があることを $\mathscr{C}$ 空間で表します。 $\mathscr{C}$ にはノルム $\|f\| = \sup_{t \in T} |f(t)|$ を装備します。 コンパクト区間 $[0, 1] = T \cup \{0\}$ は、局所的にコンパクトではあるがコンパクトではない区間 $T$ を Alexandroff コンパクト化したものです。その結果、コンパクトなサポートを伴う$T$の連続写像の集合は$\mathscr{C}$に密集しており、$\mathscr{C}$の双対は$T$の限定されたメジャー（必ずしも正ではない）の空間$\mathscr{M}^1$と識別される可能性があります（Ch. III, §1, No. 8、デフォルト。 3)。
 
 写像 $f \in \mathscr{H}$ ごとに、$T$ に 1 つの定義する写像 $Pf$
 $$
@@ -571,7 +571,7 @@ $$
 |(Pf)(t) - (Pf)(t')| \leq \|f\|_2 \cdot |t - t'|^{1/2};
 $$
 
-consequently, $Pf$ belongs to $\mathscr{C}$, and the linear mapping $P$ of $\mathscr{H}$ into $\mathscr{C}$ is continuous with norm $\leqslant 1$.
+従って、$Pf$ は $\mathscr{C}$ に属し、$\mathscr{H}$ の $\mathscr{C}$ への線形写像 $P$ はノルム $\leqslant 1$ で連続です。
 
 双対 (TVS、V, §1, No. 7、Th. 3) を持つヒルベルト空間 $\mathscr{H}$ を同一視するとし、$P : \mathscr{H} \to \mathscr{C}$ の $\Pi : \mathscr{M}^1 \to \mathscr{H}$ 転置で表します。すべてのメジャー $\mu \in \mathscr{M}^1$ とすべての写像 $f \in \mathscr{H}$ について、
 
@@ -976,7 +976,7 @@ F 上のサゾノフの位相を、連続セミノルム N 満たすによって
 
 — *F を局所凸空間、$\mathscr{T}$ を $\mathscr{T}_s$ と $\mathscr{T}_c$ の中間の $F'$ に局所凸位相、$\mu$ を $F'_{\mathscr{T}}$ のプロメジャーとします。 $\mu$ のフーリエ変換 $\Phi$ がサゾノフ位相に対して F 上で連続であると仮定します。すると、$\mu$ は $F'_{\mathscr{T}}$ の小節になります。*
 
-$\varepsilon > 0$ にしましょう。 Since $\Phi$ is continuous for the Sazonov topology on F, there exist two continuous positive quadratic forms Q and H on F such that $\operatorname{Tr}(Q/H) < +\infty$ and
+$\varepsilon > 0$ にしましょう。 $\Phi$ は F 上のサゾノフ トポロジーに対して連続であるため、$\operatorname{Tr}(Q/H) < +\infty$ と
 
 $$
 \Phi(0) - \mathscr{R}\Phi(x) \leq \varepsilon/6
@@ -1082,7 +1082,7 @@ $\Gamma_Q$ のフーリエ変換 $\Phi$ は $e^{-Q/2}$ に等しい。さて、�
 
 #### 注意 {#int-ix-s6-n11-rem-1 .statement tag=09SZ}
 
-— 1) $E$ をヒルベルト空間、$E_s$ 空間 $E$ に弱い位相を装備し、$E$ の $j$ 恒等写像を$E_s$ にするとします。 $E$ の手順の $j$ 定義する全単射の集合が $E_s$ の対応する集合に続くことはわかります。 Moreover, if $E$ is separable, it is a Polish space and $j$ defines a bijection of the set of bounded measures on $E$ onto the set of bounded measures on $E_s$ (§ 3, No. 3, *Remark*); it can be shown (the theorem of Phillips) that this theorem still holds if $E$ is not separable. 従って、定理 3 は、$E$ のプロメジャーがメジャーであるための基準を提供します。
+— 1) $E$ をヒルベルト空間、$E_s$ 空間 $E$ に弱い位相を装備し、$E$ の $j$ 恒等写像を$E_s$ にするとします。 $E$ の手順の $j$ 定義する全単射の集合が $E_s$ の対応する集合に続くことはわかります。 さらに、$E$ が分離可能な場合、それはポーランド空間であり、$j$ は、$E$ の有界メジャーのセットの $E_s$ の有界メジャーのセットへの全単射を定義します (§ 3, No. 3、*備考*)。 $E$ が分離可能でない場合でも、この定理が依然として成り立つことが証明できます (フィリップスの定理)。 従って、定理 3 は、$E$ のプロメジャーがメジャーであるための基準を提供します。
 
 2) ヒルベルト空間 $E$ 上のサゾノフ位相が型 $Q^{1/2}$ の半ノルムによって定義されることを示すことができます (付録、Exer. 7)。ここで、$Q$ は $E$ 上の *核* 正の 2 次式形です。
 
@@ -1121,7 +1121,7 @@ Q.E.D.
 
 #### 定理 4 {#int-ix-s6-thm-4 .statement tag=09T2}
 
-— E を局所凸空間とします。 The Fourier transformation is a bijection of the set of promeasures on E onto the set of functions of positive type on $E'$ whose restriction to every finite-dimensional subspace is continuous.
+— E を局所的に凸な空間とします。フーリエ変換は、E 上のプロメジャーの集合の全単射から、$E'$ 上の正の型の写像の集合への制限からすべての有限次元部分空間への制限が連続です。
 
 フーリエ変換が単射であることはわかっています (No. 3、提案 3)。 $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ を E のプロメジャーとし、$\Phi$ をそのフーリエ変換とします。 T を $E'$ の有限次元部分空間とし、E における T の直交を V とします。$E/V$ の双対を持つ 1 つの同一視できる T。 T に対する $\Phi$ の制限 $\Phi_T$ は、$E/V$ 上の有界測定値 $\mu_V$ のフーリエ変換です。提案 11 により、$\Phi_T$ は連続であり、T に対して正の型です。T は任意であるため、$\Phi$ は $E'$ に対して正の型であることは明らかです。
 

@@ -14,16 +14,16 @@ pdf_pages: 0396-0417
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d1369f560608d0d4fa52b0b6c4bb09512c3eed2d984ef4e2304ff7104cbf16d1
+content_sha256: 2d24156ae4eb8dbaa4d9fe5e834d920b8c57b33b091cb1f25fc6fe8721193769
 translated_from: content/en/ens/index_of_terminology_i_iv.md
 translation_method: google
 source_content_sha256: 131b1e0893a72decc8a9e934621d58be63a1b556914599cb731248057659568e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8a7adec217edaa0e6e4ceabd3d5cb6a37c5433131eb929d1687d753a4cf114c7
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 添字用語集
@@ -493,7 +493,7 @@ $A$ から $A \times A$ への対角写像 : II.3.7、R.3.4
     分配型: III.1.Ex.16
     相対補完: III.1.Ex.17
 注文した集合の最小元 : III.1.7、R.6.5
-最低上界 : III.1.9、R.6.7
+最小上界 : III.1.9、R.6.7
     基数の家族: III.3.2
 左有向集合 : III.1.10、R.6.8
 区間の左側の終点: III.1.13
@@ -509,10 +509,10 @@ $A$ から $A \times A$ への対角写像 : II.3.7、R.3.4
 極限、直接: III.7.5、R.6.13
     インバース : III.7.1、R.6.14
 線形順序付け: *完全順序付けを参照*
-リンク: I.1.1
+リンク : I.1.1
 関係の論理成分 : I.App.Ex.6
 論理構成 : I.App.Ex.6
-論理符号: I.1.1
+論理符号 : I.1.1
 論理理論 : I.3.1
 論理的に構築された : I.App.Ex.6
 論理的に既約 : I.App.Ex.6
@@ -526,7 +526,7 @@ $A$ から $A \times A$ への対角写像 : II.3.7、R.3.4
 コンポジット : II.3.7、R.2.11
 定数 : II.3.4、R.2.3
 減少する : III.1.5、R.6.12
-対角線: II.3.7、II.5.3、R.3.4
+対角線 : II.3.7、II.5.3、R.3.4
 空: II.3.4
 アイデンティティ : II.3.4、R.2.3
 増加する : III.1.5、R.6.12
@@ -554,8 +554,8 @@ $A$ から $A \times A$ への対角写像 : II.3.7、R.3.4
     補助仮定 : I.3.3
 最小元 : III.1.6、R.6.6
 最小値 : R.6.5
-モバイル (集合/有限部分集合) : III.4.Ex.11
-理論のモデル: I.2.4
+携帯電話 (有限部分集合の集合) : III.4.Ex.11
+理論の型式：I.2.4
 モノトーン写像 : III.1.5
 射 : IV.2.1
 倍数/整数 : III.5.6
@@ -564,19 +564,19 @@ $A$ から $A \times A$ への対角写像 : II.3.7、R.3.4
 相互互いに素 (集合の家族) : II.4.7
 ナチュラル整数 : III.4.1
 
-Negation of a relation : I.1.3
-Noetherian induction, principle of : III.6.5
-Noetherian set : III.6.5
-$n$th iterate of a mapping : III.6.2, R.2.11
-$n$th term of a sequence : III.6.1, R.7.8
-Number of elements of a finite set : III.4.1
-Numerical symbol : III.5.7
-Numeration, system of : III.5.7
+関係の否定: I.1.3
+ネーター 帰納法、原則: III.6.5
+ネーター 集合 : III.6.5
+写像の $n$ 回目の反復: III.6.2、R.2.11
+数列の $n$ 番目項 : III.6.1、R.7.8
+有限集合の元の数 : III.4.1
+数字記号：III.5.7
+数え方、系 : III.5.7
 
 奇数整数 : III.5.6
 1対1 対応、写像 : II.3.7、R.2.9
 オープン区間 : III.1.13、R.6.4
-順序関係の反対側、予約注文関係 : III.1.1、III.1.2、R.6.1
+順序関係の反対、予約注文関係 : III.1.1、III.1.2、R.6.1
 注文した対 : II.2.1
 順序保持写像 : III.1.5
 順序関係、予約注文関係に関連付けられています:
@@ -596,7 +596,7 @@ Numeration, system of : III.5.7
   部分的に整った順序: III.2.Ex.4
   枝分かれした : III.2.Ex.8
   散在 : III.1.Ex.20
-  隙間なし: III.1.Ex.19
+  隙間なし : III.1.Ex.19
 注文: III.1.1、R.6.1
   誘発: III.1.4
   辞書編集: III.2.6
@@ -610,12 +610,12 @@ Numeration, system of : III.5.7
 序数、頭文字 : III.6.Ex.10
 
 序数積 (順序型のうち) : III.2.Ex.13
-    通常: III.6.Ex.16
+    通常 : III.6.Ex.16
     単数形: III.6.Ex.16
 順序付けられた集合によってインデックス付けされた空ではない順序集合の族の序数和 : III.1.Ex.3
     (順序型) : III.2.Ex.13
 
-対、注文: II.2.1
+対、注文数: II.2.1
 ペアワイズ互いに素 (部分集合のファミリー) : R.4.4
 パラメータ、パラメトリック集合、パラメトリック表現 : II.3.7、R.2.14
 部分写像 : II.3.9、R.3.13
@@ -637,10 +637,10 @@ Numeration, system of : III.5.7
 予約注文集合 : R.6.1
 予約注文 : III.1.2
     (粗め、より細かい) : III.1.4
-校長基底集合 : IV.1.3、1.4
+プリンシパル基底集合 : IV.1.3、1.4
 帰納法の原則: III.4.3
     ネーター 帰納法 : III.6.5
-    超限の帰納法 : III.2.2
+    超有限帰納法 : III.2.2
 構造の控除手順：IV.1.6
 積基数 : III.3.3
 積、辞書編集: III.2.6

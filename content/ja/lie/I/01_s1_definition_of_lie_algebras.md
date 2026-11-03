@@ -49,16 +49,16 @@ subsections:
       pdf_page: 29
 statements: 20
 exercises: 27
-content_sha256: f1fa284749a1957cdaafc27f4541e4a114398a73d3342e98a265d9fbf521c94f
+content_sha256: 8155b16e3c49d5f0d29cad3cb267e3b50a7cb27cf1f65db75b0f7e16db18833c
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 translation_method: google
 source_content_sha256: 58f1eb6f89ce2afeeacfc62b6731300e79cd58a2c1821a7f29f1c6e2d9168f15
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2c8a328acf51520600384bee5c2e1aba6e9b3a7b0cb7f4c64cfeaeb5de4c622c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 リー代数中定義
@@ -73,7 +73,7 @@ K-加群 M を与えると乗法 $(x, y) \mapsto yx$ 代数が得られます。
 
 † この章で証明された命題は、書籍 I から VI で確立された特性と、可換代数、章 III, § 2 の特定の結果にのみ依存します。
 
-$M_1$と$M_2$を$K$と$\phi$写像の$M_1$を$M_2$に2つ代数とします。 $\phi$ が $K$-線形の場合、$\phi$ は *準同型* と呼ばれ、$x \in M_1, y \in M_1$ の場合は $\phi(xy) = \phi(x)\phi(y)$ と呼ばれます。 The kernel $N$ of $\phi$ is a two-sided ideal of $M_1$ and the image of $\phi$ is a subalgebra of $M_2$. 移行から商、代数 $M_1/N$ の $\phi$ 定義する同型が代数 $\phi(M_1)$ に。
+$M_1$と$M_2$を$K$と$\phi$写像の$M_1$を$M_2$に2つ代数とします。 $\phi$ が $K$-線形の場合、$\phi$ は *準同型* と呼ばれ、$x \in M_1, y \in M_1$ の場合は $\phi(xy) = \phi(x)\phi(y)$ と呼ばれます。 $\phi$ の核 $N$ は $M_1$ の両面イデアルであり、$\phi$ のイメージは $M_2$ の部分代数です。 移行から商、代数 $M_1/N$ の $\phi$ 定義する同型が代数 $\phi(M_1)$ に。
 
 $M$を$K$以上の代数とします。 $M$ の $M$ への写像 $D$ は、$K$-線形で、すべての $x \in M$ と $y \in M$ に対して $D(xy) = (Dx)y + x(Dy)$ であれば、$M$ の *導分* と呼ばれます。この定義は、*代数*、章 IV, § 4, no. 3 の定義 3 を一般化します。 $M$の導分の核は、$M$の部分代数です。 $D_1$ と $D_2$ が $M$ の導分である場合、$D_1D_2 - D_2D_1$ は $M$ の導分 (cf. *代数*, 章 IV, § 4, no. 3, 命題 5: この命題の証明は、代数の結合性を使用しません)。
 
@@ -113,7 +113,7 @@ $M$ を $K$、$K_1$ 可換環に単位元と $K$ の $\sigma$ 準同型を加え
 
 (4) $$ [x, [y, z]] = [[x, y], z] + [y, [x, z]]. $$
 
-リー代数のすべての部分代数とすべての商代数はリー代数です。 リー代数のすべての積はリー代数です。 If $g$ is a Lie algebra, the opposite algebra $g^0$ is a Lie algebra and the mapping $x \mapsto -x$ an isomorphism of $g$ onto $g^0$, by virtue of identity (3).
+リー代数のすべての部分代数とすべての商代数はリー代数です。 リー代数のすべての積はリー代数です。 $g$ がリー代数である場合、反対代数 $g^0$ はリー代数であり、写像 $x \mapsto -x$ は恒等式 (3) により、$g$ の $g^0$ への同型写像となります。
 
 #### 例 1 {#lie-i-s1-n2-exa-1 .statement tag=09TK}
 
@@ -144,7 +144,7 @@ $$
 
 三角形行列の$\mathbf{M}_n(K)$からなるのライ部分代数(それぞれ零トレースの三角形行列、零対角線の三角形行列)は、$t(n, K)$(それぞれst(n, K)、それぞれ1)で表されます。 n(n, K)) (代数, 章 II, § 10; no. 7)。
 
-*例 3. V を無限微分可能な実数多様体とします。 無限微分可能な実数係数を持つ微分演算子は、$\mathbf{R}$ 上の結合代数を構成し、したがって例 1、リー代数 $\Delta$ による $\mathbf{R}$ の結合を構成します。 The bracket of two infinitely differentiable vector fields on V is an infinitely differentiable vector field and hence the infinitely differentiable vector fields on V constitute a Lie subalgebra $\mathfrak{f}$ of $\Delta$. V が実数 *リー群* である場合、左不変式ベクトル体は、V の *リー代数* と呼ばれる $\mathfrak{f}$ の嘘部分代数 $g$ を構成します。 ベクトル空間 $g$ は、$e$ (V の単位元) で V への接線空間と識別されます。 V' を他の実リー群、$e'$ を単位元、$g'$ をリー代数とします。 V のすべての解析準同型を $e$ での接線空間から V へ、$e'$ での接線空間から V へ、V' 定義する線形写像に変換します。この写像は、リー代数$g$の準同型がリー代数$g'$になります。 V が有限次元実数ベクトル空間 E の線形群である場合、V のリー代数 $g$ 上に $gl(E)$ の標準同型が存在し、その下で $g$ は $gl(E)$ と識別されます。
+*例 3. V を無限微分可能な実数多様体とします。 無限微分可能な実数係数を持つ微分演算子は、$\mathbf{R}$ 上の結合代数を構成し、したがって例 1、リー代数 $\Delta$ による $\mathbf{R}$ の結合を構成します。 V 上の 2 つの無限微分可能ベクトル場の括弧は無限微分可能ベクトル場であるため、V 上の無限微分可能ベクトル場は $\Delta$ のリー部分代数 $\mathfrak{f}$ を構成します。 V が実数 *リー群* である場合、左不変式ベクトル体は、V の *リー代数* と呼ばれる $\mathfrak{f}$ の嘘部分代数 $g$ を構成します。 ベクトル空間 $g$ は、$e$ (V の単位元) で V への接線空間と識別されます。 V' を他の実リー群、$e'$ を単位元、$g'$ をリー代数とします。 V のすべての解析準同型を $e$ での接線空間から V へ、$e'$ での接線空間から V へ、V' 定義する線形写像に変換します。この写像は、リー代数$g$の準同型がリー代数$g'$になります。 V が有限次元実数ベクトル空間 E の線形群である場合、V のリー代数 $g$ 上に $gl(E)$ の標準同型が存在し、その下で $g$ は $gl(E)$ と識別されます。
 
 #### 定義 2 {#lie-i-s1-def-2 .statement tag=09TN}
 
@@ -152,7 +152,7 @@ $$
 
 #### 命題 1 {#lie-i-s1-prop-1 .statement tag=09TO}
 
-※gをリー代数とします。 すべての $x \in g$ に対して、$\operatorname{ad} x$ は導分です。 The mapping $x \mapsto \operatorname{ad} x$ is a homomorphism of the Lie algebra g into the Lie algebra $\mathfrak{d}$ of derivations of g. $D \in \mathfrak{d}$ と $x \in g$ の場合、$[D, \operatorname{ad} x] = \operatorname{ad}(Dx)$。
+※gをリー代数とします。 すべての $x \in g$ に対して、$\operatorname{ad} x$ は導分です。 写像 $x \mapsto \operatorname{ad} x$ は、リー代数 g の g の導関数のリー代数 $\mathfrak{d}$ への準同型写像です。 $D \in \mathfrak{d}$ と $x \in g$ の場合、$[D, \operatorname{ad} x] = \operatorname{ad}(Dx)$。
 
 恒等式 (4) は次のように記述できます。
 
@@ -253,7 +253,7 @@ $g/a$ が可換であると言うのは、$\mathscr{D}(g/a) = \{0\}$ がとい�
 
 ### 6. 中央上部系列
 
-g をリー代数とし、g の P 部分集合とします。 The *centralizer* of P in g is the set of elements of g which are permutable with those of P. This centralizer is the intersection of the kernels of the ad $y$, where $y$ runs through P; it is therefore a subalgebra of g.
+g をリー代数とし、g の P 部分集合とします。 g の P の *セントラライザー* は、g の元の集合であり、P のセントラライザーと置換可能です。このセントラライザーは、広告 $y$ の核の共通部分であり、$y$ は P を通過します。したがって、g の部分代数です。
 
 #### 命題 5 {#lie-i-s1-prop-5 .statement tag=09TY}
 
@@ -282,8 +282,8 @@ $$
 
 where $g$ is a Lie algebra over $K$, $\mu$ a surjective homomorphism of $g$ onto $b$ and $\lambda$ an injective homomorphism of $a$ onto the kernel of $\mu$.
 
-$\mu$の核$n$は、拡大の核と呼ばれます。 The homomorphism $\lambda$ is an isomorphism of $a$ onto $n$ and the homomorphism $\mu$ defines an isomorphism of $g / n$ onto $b$ when passing to the quotient.
-By an abuse of language, $g$ is also called an extension of $b$ by $a$.
+$\mu$の核$n$は、拡大の核と呼ばれます。 準同型性 $\lambda$ は $n$ への $a$ の同型性であり、準同型性 $\mu$ は商に渡すときに $b$ への $g / n$ の同型性を定義します。
+言葉の乱用により、$g$は$b$の$a$による拡張とも呼ばれます。
 
 2 拡大:
 
@@ -291,7 +291,7 @@ $$
 a \xrightarrow{\lambda} g \xrightarrow{\mu} b, \quad a \xrightarrow{\lambda'} g' \xrightarrow{\mu'} b
 $$
 
-are said to be equivalent if there exists a homomorphism $f$ of $g$ into $g'$ such that the following diagram:
+次の図のように、$g$ から $g'$ への準同型性 $f$ が存在する場合、これらは等価であると言われます。
 
 $$
 \begin{array}{ccccc}
@@ -413,7 +413,7 @@ $$
 a \xrightarrow{\lambda} g \xrightarrow{\mu} b
 $$
 
-is an extension of $b$ by $a$ of kernel $n$, which is said to be *canonically defined by* $a, b, \phi$. The mapping $b \mapsto (0, b)$ is an isomorphism $\nu$ of $b$ onto a subalgebra of $g$ supplementary to $n$ in $g$; hence the extension is inessential.
+は、核 $n$ の $a$ による $b$ の拡大であり、これは $a, b, \phi$ によって *標準的に定義されている*と言われています。 写像 $b \mapsto (0, b)$ は、$g$ の $n$ を補う $g$ の部分代数への $b$ の同型写像 $\nu$ です。したがって、拡張子は必須ではありません。
 
 $a$ が $\lambda$ の下で $n$ と識別され、$b$ が $v$ の下で $v(b)$ と識別される場合、$a \in a$ と $b \in b$ については次のようになります。
 

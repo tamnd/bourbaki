@@ -33,16 +33,16 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 26
-content_sha256: f1a33eda5b5a9855b2235b4e4eead428e15d62ef16711987f3e7b260ff65a6e3
+content_sha256: 7227e37f30cc8d09180d491afceb9f8fdd3deccd2672de1794f42acde46ef19b
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 translation_method: google
 source_content_sha256: b91386e65623979a9a9994a73c883cd7ba5db67a5bb1adc0fbb46df95c3c8a73
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f43027fe77edaca6eea62eb9bff3b43fbe72fb5ad62830a42db99a9edca11607
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。バイデュアル。反射的空間
@@ -83,7 +83,7 @@ $E''$の等連続部分集合は、部分空間の有界部分集合、$E$の$E'
 
 #### 注意 {#evt-iv-s2-n1-rem-1 .statement tag=07SC}
 
-$E$ を局所凸ハウスドルフ空間、$E'$ を双対、$E''$ を双双とする。 $E \subset E'' \subset {E'}^*$ があり、${E'}^*$ は $E'$ の代数双対です。 If $B$ is a bounded subset of $E$, its closure $\overline{B}$ in ${E'}^*$ endowed with $\sigma({E'}^*, E')$ is contained in $E''$: for, the polar $U = B^\circ$ of $B$ in $E'$ is a neighbourhood of 0 in $E'_b$, and we have $\overline{B} \subset U^\circ \subset E''$.
+$E$ を局所凸ハウスドルフ空間、$E'$ を双対、$E''$ を双双とする。 $E \subset E'' \subset {E'}^*$ があり、${E'}^*$ は $E'$ の代数双対です。 $B$ が $E$ の有界部分集合である場合、$\sigma({E'}^*, E')$ を備えた${E'}^*$ の閉包 $\overline{B}$ は $E''$ に含まれます。なぜなら、$E'$ の $B$ の極$U = B^\circ$ は $E'_b$ の 0 の近傍であり、次のようになります。 $\overline{B} \subset U^\circ \subset E''$。
 
 ### 2. 半反射型空間
 
@@ -99,7 +99,7 @@ $E$ を局所凸ハウスドルフ空間、$E'$ を双対、$E''$ を双双と�
 
 2 番目の主張はプロップから続きます。 3 (IV、p. 15)、および最初の位相と $E$ の弱められた位相の有界部分集合 (III、p. 27、cor. 3) の間の同一性。
 
-To say that $E$ is semi-reflexive means that the topology on $E'_b$ is compatible with the duality between $E$ and $E'$, in other words, by Mackey's theorem (IV, p. 2, th. 1) that the topology on $E'_b$ is coarser than $\tau(E', E)$ (and in fact is identical with it); by definition (IV, p. 2), this means that every closed, convex and bounded subset of $E$ is compact for $\sigma(E, E')$, and this is equivalent to saying that every bounded subset of E is relatively compact for $\sigma(E, E')$, because the closed convex envelope of a bounded subset of E is bounded (III, p. 3, prop. 1).
+$E$ が半再帰的であるということは、$E'_b$ 上のトポロジーが $E$ と $E'$ の間の双対性と互換性があることを意味します。言い換えれば、マッキーの定理 (IV, p. 2, th. 1) により、$E'_b$ 上のトポロジーはより粗いということです。 $\tau(E', E)$ (そして実際にはそれと同一です);定義 (IV, p. 2) により、これは、$E$ のすべての閉じた凸および有界のサブセットが $\sigma(E, E')$ に対してコンパクトであることを意味します。これは、E の有界サブセットの閉じた凸包絡線が有界であるため、E のすべての有界サブセットが $\sigma(E, E')$ に対して比較的コンパクトであると言うのと同じです (III, p. 3、提案 1)。
 
 #### 系 {#evt-iv-s2-n2-cor-1 .statement tag=07SF}
 
@@ -123,7 +123,7 @@ IV、p. 5 の注意 3 までに、 を再定式化できます。 *ハウスド�
 
 #### 定義 3 {#evt-iv-s2-def-3 .statement tag=07SJ}
 
-— *A locally convex space E is said to be reflexive if the canonical mapping $c_E$ from E into $E''$ is a topological vector space isomorphism from E onto the strong dual of $E'_b$.*
+— *局所的に凸な空間 E は、E から $E''$ への標準写像 $c_E$ が E から $E'_b$ の強い双対上へのトポロジカルベクトル空間同型である場合、再帰的であると言われます。
 
 特に、再帰的空間は半再帰的であるため、ハウスドルフとなります。
 
@@ -200,7 +200,7 @@ E' を E の双対、および E' における M の直交を $M^\circ$ とし�
 \| \mathbf{x} \| = \sup_{n \in \mathbf{N}} |x_n| \quad (\text{I, p. 4}) .
 $$
 
-Let $c_0(\mathbf{N})$ be the closed vector subspace of $\ell^\infty(\mathbf{N})$ consisting of sequences tending to 0. 最後に、$\ell^1(\mathbf{N})$ を合計可能な数列のベクトル空間とし、ノルムを付与します。
+$c_0(\mathbf{N})$ を、0 に向かうシーケンスで構成される $\ell^\infty(\mathbf{N})$ の閉じたベクトル部分空間とします。 最後に、$\ell^1(\mathbf{N})$ を合計可能な数列のベクトル空間とし、ノルムを付与します。
 
 (4) $$
 \| \mathbf{x} \|_1 = \sum_{n \in \mathbf{N}} |x_n| .

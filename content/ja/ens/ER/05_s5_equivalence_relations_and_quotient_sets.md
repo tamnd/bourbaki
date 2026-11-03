@@ -13,16 +13,16 @@ pdf_pages: 0375-0378
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e72b18685c1e4fb25dfc10d1c48205dfd11162d1bde856c9edf89d237a39f045
+content_sha256: 6964b3520b568db242c4584d172dd55926928cb71becb646fd4311564f34f0a8
 translated_from: content/en/ens/ER/05_s5_equivalence_relations_and_quotient_sets.md
 translation_method: google
 source_content_sha256: de7dfd40c6cfa021011ad6534250a579d1efe1882e81ad993bcb4259f6eb1c68
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a76ebd7c9f1c9c46fd04b4c495121b64a73bfe73785ef2376ae0e4368749b44a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 同値関係と商集合
@@ -37,10 +37,10 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 C が関係 R で定義される $E\times E$ の部分集合を表す場合、条件 (a)、(b)、(c) はそれぞれ次の条件 : $(a')\ \Delta\subset C$ と等価です。 $(b')\ \overline{C}=C$; $(c')\ C\circ C\subset C$。 $(a')$ と $(c')$ から、$C\circ C=C$ になります。
 
-2. 逆に、$R\{x,y\}$ を再帰的、対称的、推移的な関係とし、C を $E\times E$ におけるそのグラフとします。 Then the image $\mathfrak{F}$ of E under the mapping $x\mapsto C(x)$ of E into $\mathfrak{P}(E)$ is a partition of E, and the relation “there exists a subset X ∈ $\mathfrak{F}$ such that x ∈ X and y ∈ X” is equivalent to
-$R\{x,y\}$.
+2. 逆に、$R\{x,y\}$ を再帰的、対称的、推移的な関係とし、C を $E\times E$ におけるそのグラフとします。 すると、E の $\mathfrak{P}(E)$ への写像 $x\mapsto C(x)$ の下にある E の画像 $\mathfrak{F}$ は E の分割であり、「x ∈ X および y ∈ X となるような部分集合 X ∈ $\mathfrak{F}$ が存在する」という関係は次と同等です。
+$R\{x,y\}$。
 
-条件 (a)、(b)、(c) を満たすすべての関係は、E 上で同値関係と呼ばれます。 The partition $\mathfrak{F}$ which it defines, considered as a subset of $\mathscr{P}(E)$, is called the quotient set of E by the relation R, and is denoted by E/R; its elements are called equivalence classes with respect to R. E の写像 $x \mapsto C(x)$ を E/R に、これをそれぞれ写像 E の元 x から含む x を加えた同値類を、E/R への E の標準写像と呼びます。
+条件 (a)、(b)、(c) を満たすすべての関係は、E 上で同値関係と呼ばれます。 それが定義する分割 $\mathfrak{F}$ は、$\mathscr{P}(E)$ の部分集合と見なされ、関係 R により E の商集合と呼ばれ、E/R で表されます。その要素は、R に関して同値クラスと呼ばれます。 E の写像 $x \mapsto C(x)$ を E/R に、これをそれぞれ写像 E の元 x から含む x を加えた同値類を、E/R への E の標準写像と呼びます。
 
 等式 $x = y$ の関係は同値関係です。 対応する商集合上の E の標準写像はちょうど $x \mapsto \{x\}$ であり、全単射です。
 
@@ -73,7 +73,7 @@ $f$ を E/R 上の E の標準写像とし、$t$ を E/R の汎用元としま�
 
 8. R を集合 E の同値関係とし、S を集合 F の同値関係とし、$f$ を E から F への写像とする。写像 $f$ は、関係の場合 *R および S* と互換性があると言われる$x \equiv x'$ (mod R) *暗黙* $f(x) \equiv f(x')$ (mod S)。 $g$ が F/S 上の F の標準写像である場合、合成写像 $g \circ f$ は、R に関して、同値類 $z$ の元と同じ値を持ちます。この共通の値を $h(z)$ で表すと、$h$ は E/R から F/S への写像であり、移行から商まで * の f によって誘導されると言われます。
 
-9. R を E 上で同値関係とし、S を E/R 上で同値関係とします。 $f$ が E/R 上の E の標準写像である場合、「$f(x)\equiv f(y)\pmod S$」は E 上の同値関係 T です。 したがって、T に関する同値類は、R に関する同値類の E における和集合であり、S に関して互いに等価です。 関係「$x\equiv y\pmod R$」は「$x\equiv y\pmod T$」を意味します。 If $g$ and $\varphi$ are the canonical mappings of $E$ onto $E/R$ and $E/T$, respectively, we obtain a one-to-one correspondence (called canonical) between $(E/R)/S$ and $E/T$ by making an element of $(E/R)/S$ and an element of $E/T$ correspond to each other if they are the images of the same element of E under $g$ and $\varphi$, respectively.
+9. R を E 上で同値関係とし、S を E/R 上で同値関係とします。 $f$ が E/R 上の E の標準写像である場合、「$f(x)\equiv f(y)\pmod S$」は E 上の同値関係 T です。 したがって、T に関する同値類は、R に関する同値類の E における和集合であり、S に関して互いに等価です。 関係「$x\equiv y\pmod R$」は「$x\equiv y\pmod T$」を意味します。 $g$ と $\varphi$ が、それぞれ $E/R$ と $E/T$ への $E$ の正規マッピングである場合、$(E/R)/S$ の要素と $E/T$ の要素を互いに対応させることにより、$(E/R)/S$ と $E/T$ の間に 1 対 1 の対応 (正規と呼ばれる) が得られます。それらがそれぞれ$g$と$\varphi$の下にあるEの同じ要素の画像である場合。
 
 逆に、「$x\equiv y\pmod R$」が「$x\equiv y\pmod T$」を意味するように、R と T が E 上の 2 つの同値関係であるとします。この場合、T は x と y の両方において (no. 7 の意味で) R と互換性があります。 移行から商 $E/R$ (x と y に関して)、T 誘導する同値関係 S から $E/R$ まで。 $\varphi$ が再び$E/R$ 上の E の標準写像を表す場合、関係 「$\varphi(x)=\varphi(y)\pmod S$」は「$x\equiv y\pmod T$」と同等です。 同値関係 S は T の商を R と呼び、T/R で表されます。前の段落から、$(E/R)/(T/R)$ と $E/T$ の間に 1 対 1 の対応 (正規の対応) が存在することがわかります。
 

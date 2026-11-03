@@ -30,16 +30,16 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: c104aa6fcd7263e02bf940670ff885c6f630b195c7c1b44d11ab2087c374560d
+content_sha256: 617c3619ab884e3beafbd3f0758fad6625755761d2a66cb5aa1a3ee93cb1138d
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 translation_method: google
 source_content_sha256: 798b6543b06067240b5dab1244bfefa178a908e9f4cf2fdc3e29b8faab35c2bc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c1b62c226e6da33c4011f6bfd886dac80311c6087d146f41c0a2fa6d263f3f65
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 捩れ加群主イデアル整域
@@ -94,7 +94,7 @@ $\pi$ を主イデアル整域 A の既約元とします。 A-加群 M は rr-p
 
 #### 補題 1 {#alg-vii-s2-lem-1 .statement tag=072A}
 
-M を主イデアル整域 A よりも加群とします。 $a \neq 0$ のようなすべての $a \in A$ について、$\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$ を $\alpha$ の分解として既約因子 (VII, p. 4) にします。 The submodule $N = M(a)$ of elements of M annihilated by a is the direct sum of the submodules $M(\pi_i^{n(i)})$, and the map which sends each $x \in M(\alpha)$ to its component in $M(\pi_i^{n(i)})$ has the form $x \mapsto \gamma_i x \ (\gamma_i \in A)$. さらに
+M を主イデアル整域 A よりも加群とします。 $a \neq 0$ のようなすべての $a \in A$ について、$\alpha = \varepsilon \sum_{i=1}^r \pi_i^{n(i)}$ を $\alpha$ の分解として既約因子 (VII, p. 4) にします。 a によって消滅した M の要素のサブモジュール $N = M(a)$ は、サブモジュール $M(\pi_i^{n(i)})$ の直接和であり、各 $x \in M(\alpha)$ を $M(\pi_i^{n(i)})$ のコンポーネントに送信するマップは、形式 $x \mapsto \gamma_i x \ (\gamma_i \in A)$ になります。 さらに
 $$
 M(\pi_i^{n(i)}) = N \cap M_{\pi_i} = N_{\pi_i}
 $$
@@ -107,8 +107,8 @@ M を整域 A に対して捩れ加群 (II, p. 313) とします。 M の元の�
 
 #### 定理 1 {#alg-vii-s2-thm-1 .statement tag=072C}
 
-Let M be a torsion module over a principal ideal domain A; for each irreducible element $\pi$ of A, let $M_\pi$ be the submodule of M consisting of elements annihilated by some power of $\pi$. P が A の既約元の代表の系である場合、M は $\pi \in P$ の部分加群 $M_\pi$ の直和です。
-$a \neq 0$ については元 $x \in M$ 属するから部分加群 $M(\alpha)$ ごとに、補題までに 1 は元の有限数の和となり、それぞれ属するは次のようになります。 部分加群 $M_\pi$ もいます。 On the other hand, if $\sum_{\pi \in P} x_\pi = \sum_{\pi \in P} y_\pi$, where $x_\pi, y_\pi \in M_\pi$ for all $\pi \in P$, and where all but finitely many of the $x_\pi$ and $y_\pi$ are zero, then Lemma 2 shows that there exists $\gamma \neq 0$ in A such that all the $x_\pi$ and $y_\pi$ belong to the same submodule $M(\gamma)$; applying Lemma 1 to $M(\gamma)$ shows that $x_\pi = y_\pi$ for all $\pi \in P$, which completes the proof.
+M を主イデアル整域 A よりも捩れ加群とします。 A の各既約元 $\pi$ について、$M_\pi$ を M の部分加群元のからなるが $\pi$ の冪によって全滅するとします。 P が A の既約元の代表の系である場合、M は $\pi \in P$ の部分加群 $M_\pi$ の直和です。
+$a \neq 0$ については元 $x \in M$ 属するから部分加群 $M(\alpha)$ ごとに、補題までに 1 は元の有限数の和となり、それぞれ属するは次のようになります。 部分加群 $M_\pi$ もいます。 一方、$\sum_{\pi \in P} x_\pi = \sum_{\pi \in P} y_\pi$ (すべての $\pi \in P$ が $x_\pi, y_\pi \in M_\pi$ であり、有限多数の $x_\pi$ と $y_\pi$ を除くすべてが 0) の場合、補助定理 2 は、A に $\gamma \neq 0$ が存在し、すべての $x_\pi$ と $y_\pi$ が同じサブモジュールに属することを示します。 $M(\gamma)$;補助定理 1 を $M(\gamma)$ に適用すると、すべての $\pi \in P$ に対して $x_\pi = y_\pi$ が得られ、証明が完了します。
 
 明らかに、$\pi$ と $\pi'$ が 2 つ既約元に関連する場合、$M_\pi = M_{\pi'}$ になります。したがって、与えられた加群 M に対して、部分加群 $M_\pi$ は A の理想的な $(\pi)$ にのみ依存します。それは、加群 M の rr プライマリ成分と呼ばれ、$M_\pi$ の直和としての M の分解は、その rr プライマリ成分の直和としての M の標準分解と呼ばれます。
 
@@ -146,7 +146,7 @@ $$
 
 #### 注意 1 {#alg-vii-s2-n2-rem-1 .statement tag=072H}
 
-— 明らかに、τ 1 次加群のすべての元 ≠ 0 の消滅子は、τ の主イデアル含む冪であるため、形 $A\pi^k$ (k > 0 整数) を持ちます。 Let x be an element of M; for each $\pi \in P$, let $x_\pi$ be the component of x in $M_\pi$; the annihilator of x is the lcm of the annihilators of the nonzero $x_\pi$, but by the above it is equal in this case to the *product* of the annihilators of the nonzero $x_\pi$ (VI, p. 16, Prop. 12 (DIV)).
+— 明らかに、τ 加群のすべての元 ≠ 0 の消滅子は、τ の主イデアル含む冪であるため、形 $A\pi^k$ (k > 0 整数) を持ちます。 x を M の元とします。それぞれの $\pi \in P$ について、$x_\pi$ を $M_\pi$ の x の成分とします。 x の消滅子は、非零 $x_\pi$ の消滅子の lcm ですが、上記により、この場合、非零 $x_\pi$ の消滅子の *積* と等しくなります (VI, p. 16, Prop. 12(DIV))。
 
 #### 命題 2 {#alg-vii-s2-prop-2 .statement tag=072I}
 
@@ -172,7 +172,7 @@ $$
 
 *ここで、$H$ と $s(p)$ はこれらの条件によって一意に決定されます。
 
-*Moreover, if $R_p$ denotes a subset of $A$ containing precisely one element of each residue class mod $p$ in $A (p \in P)$, then each $x \in K$ can be uniquely expressed in the form*
+*さらに、$R_p$ が、$A (p \in P)$ の各剰余クラス mod $p$ の要素を 1 つだけ含む $A$ のサブセットを表す場合、各 $x \in K$ は次の形式で一意に表現できます*
 
 $$
 x = a + \sum_{p \in P} \left( \sum_{h=1}^{\infty} r_{ph} p^{-h} \right)
@@ -219,7 +219,7 @@ $$
 \{1\} \to \mathrm{U}(p^n) \to (\mathbf{Z}/p^n\mathbf{Z})^* \to (\mathbf{Z}/p\mathbf{Z})^* \to \{1\}.
 $$
 
-Similarly, for $n \geq 2$ let U$(2^n)$ denote the kernel of the natural homomorphism from $(\mathbf{Z}/2^n\mathbf{Z})^*$ to $(\mathbf{Z}/4\mathbf{Z})^*$; this is a group of order $2^{n-2}$, consisting of all the residue classes mod $2^n$ of integers congruent to 1 mod 4, and there is an exact sequence
+同様に、$n \geq 2$ について、U$(2^n)$ が $(\mathbf{Z}/2^n\mathbf{Z})^*$ から $(\mathbf{Z}/4\mathbf{Z})^*$ までの自然準同型写像のカーネルを表すものとします。これは次数 $2^{n-2}$ のグループで、1 mod 4 に合同な整数のすべての剰余クラス mod $2^n$ で構成されており、正確な配列が存在します。
 
 (4)
 $$
@@ -251,9 +251,9 @@ $$
 
 #### 命題 3 {#alg-vii-s2-prop-3 .statement tag=072M}
 
-Let $p > 2$ be a prime number and let $n > 0$ be an integer; then the group $U(p^n)$ is cyclic of order $p^{n-1}$; if $n \geq 2$ then the residue class mod $p^n$ of an integer $x$ congruent to 1 mod $p$ is a generator of $U(p^n)$ if and only if $x$ is not congruent to 1 mod $p^2$. $m > 1$ を整数とします。その場合、群 $U(2^m)$ は位数 $2^{m-2}$ の巡回です。 $m \geq 3$ の場合、剰余類 mod $2^m$ of 整数 $x$ が 1 mod 4 に合同である場合、$x$ が 1 mod 8 に合同でない場合に限り、$U(2^m)$ の生成元となります。
+$p > 2$ を素数、$n > 0$ を整数とします。その場合、群 $U(p^n)$ は次数 $p^{n-1}$ の巡回です。 $n \geq 2$ の場合、1 mod $p$ に合同な整数 $x$ の剰余クラス mod $p^n$ は、$x$ が 1 mod $p^2$ に合同でない場合に限り、$U(p^n)$ の生成関数になります。 $m > 1$ を整数とします。その場合、群 $U(2^m)$ は位数 $2^{m-2}$ の巡回です。 $m \geq 3$ の場合、剰余類 mod $2^m$ of 整数 $x$ が 1 mod 4 に合同である場合、$x$ が 1 mod 8 に合同でない場合に限り、$U(2^m)$ の生成元となります。
 
-Since $U(p^n)$ has order $p^{n-1}$, the order of every element $u$ of $U(p^n)$ is a power of $p$, and $u$ is a generator of $U(p^n)$ if and only if $u^{p^{n-2}} \neq 1$. ここで、$u$ が $x = 1 + py$ の類である場合、$y \not\equiv 0 \mod p$ の場合に限り、補題 3、よって $u$ 生成する $U(p^n)$ により、$u^{p^{n-2}}$ は $1 + p^{n-1}y$ の類になります。その他の語 $x \not\equiv 1 \mod p^2$。 たとえば、類 $1 + p$ 生成する $U(p^n)$ です。 同様に、$x$ mod $2^n$ 生成する $U(2^n)$ の類 $u$ は、$u^{2^{n-3}} \neq 1$ の場合に限ります。これは、$x$ が 1 mod 8 に補題 3 により合同ではないことを意味します。これは$x = 5$によって満たされます。
+$U(p^n)$ の次数は $p^{n-1}$ であるため、$U(p^n)$ のすべての要素 $u$ の次数は $p$ のべき乗であり、$u^{p^{n-2}} \neq 1$ の場合にのみ、$u$ は $U(p^n)$ の生成子になります。 ここで、$u$ が $x = 1 + py$ の類である場合、$y \not\equiv 0 \mod p$ の場合に限り、補題 3、よって $u$ 生成する $U(p^n)$ により、$u^{p^{n-2}}$ は $1 + p^{n-1}y$ の類になります。その他の語 $x \not\equiv 1 \mod p^2$。 たとえば、類 $1 + p$ 生成する $U(p^n)$ です。 同様に、$x$ mod $2^n$ 生成する $U(2^n)$ の類 $u$ は、$u^{2^{n-3}} \neq 1$ の場合に限ります。これは、$x$ が 1 mod 8 に補題 3 により合同ではないことを意味します。これは$x = 5$によって満たされます。
 
 #### 補題 4 {#alg-vii-s2-lem-4 .statement tag=072N}
 
@@ -263,7 +263,7 @@ $A$ を主イデアル整域とし、$0 \to N \to M \to P \to 0$ を $A$ モジ�
 
 #### 定理 3 {#alg-vii-s2-thm-3 .statement tag=072O}
 
-$a = \prod p_i^{n(i)}$ が整数 $a > 1$ の素数分解である場合、環 $\mathbf{Z}/a\mathbf{Z}$ の可逆元の群 $(\mathbf{Z}/a\mathbf{Z})^*$ は群 $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$ の積と同型です。 $p > 2$ が素数数および $n \geq 1$ 整数である場合、群 $(\mathbf{Z}/p^n\mathbf{Z})^*$ は位数 $p^n \ ^1(p - 1)$ の巡回です。 The group $(\mathbf{Z}/2\mathbf{Z})^*$ is trivial; for $n \geq 2$ the group $(\mathbf{Z}/2^n\mathbf{Z})^*$ is the direct product of the cyclic group of order $2^n \ ^2$ generated by the residue class of 5 mod $2^n$ and the cyclic group of order 2 consisting of the residue classes of 1 and $-1$ mod $2^n$.
+$a = \prod p_i^{n(i)}$ が整数 $a > 1$ の素数分解である場合、環 $\mathbf{Z}/a\mathbf{Z}$ の可逆元の群 $(\mathbf{Z}/a\mathbf{Z})^*$ は群 $(\mathbf{Z}/p_i^{n(i)}\mathbf{Z})^*$ の積と同型です。 $p > 2$ が素数数および $n \geq 1$ 整数である場合、群 $(\mathbf{Z}/p^n\mathbf{Z})^*$ は位数 $p^n \ ^1(p - 1)$ の巡回です。 グループ $(\mathbf{Z}/2\mathbf{Z})^*$ は自明です。 $n \geq 2$ の場合、群 $(\mathbf{Z}/2^n\mathbf{Z})^*$ は、5 mod $2^n$ の剰余クラスによって生成される次数 $2^n \ ^2$ の環状群と、1 および $-1$ mod $2^n$ の剰余クラスからなる次数 2 の環状群の直接積です。
 
 $U(p^n)$ の位数 $p^n \ ^1$ と $(\mathbf{Z}/p\mathbf{Z})^*$ の $p - 1$ は互いに素です。 $U(p^n)$ と $(\mathbf{Z}/p\mathbf{Z})^*$ は循環的であるため (提案 3 と V、p. 78、補題 1)、群 $(\mathbf{Z}/p^n\mathbf{Z})^*$ は循​​環的です (補題 4 を完全系列 (3) に適用します)。 $n \geq 2$ の場合、準同型 $v : (\mathbf{Z}/2^n\mathbf{Z})^* \to (\mathbf{Z}/4\mathbf{Z})^*$ から部分群 $(1, -1)$ の制限は全単射です。したがって、群 $(\mathbf{Z}/2^n\mathbf{Z})^*$ は、この部分群の直接の積と $v$ の核 $U(2^n)$ です。結果は提案 3 から導き出されます。
 
@@ -275,7 +275,7 @@ $$
 \{0\} \to \mathbf{Z}/p^n \ ^1\mathbf{Z} \xrightarrow{u} (\mathbf{Z}/p^n\mathbf{Z})^* \xrightarrow{\nu} (\mathbf{Z}/p\mathbf{Z})^* \to \{1\}
 $$
 
-群の、$v$ は自然な射影で、$u$ は写像 $r \mapsto x^r$ によって商に誘導されます。 $\mathbf{Z}_p$ を $p$ 進数整数 ($V$、p. 96) の環とし、$x$ を $x - 1 \in p\mathbf{Z}_p$ と $x - 1 \notin p^2\mathbf{Z}_p$ のような $\mathbf{Z}_p$ の元とします。 移行を反転して極限、完全系列 (5) 誘導する完全系列
+群の場合、$v$ は自然な射影で、$u$ は写像 $r \mapsto x^r$ によって商に誘導されます。 $\mathbf{Z}_p$ を $p$ 進数整数 ($V$、p. 96) の環とし、$x$ を $x - 1 \in p\mathbf{Z}_p$ と $x - 1 \notin p^2\mathbf{Z}_p$ となるように $\mathbf{Z}_p$ の元とします。 移行を反転して極限、完全系列 (5) 誘導する完全系列
 
 $$
 \{0\} \to \mathbf{Z}_p \xrightarrow{u} \mathbf{Z}_p^* \xrightarrow{v} (\mathbf{Z}/p\mathbf{Z})^* \to \{1\}

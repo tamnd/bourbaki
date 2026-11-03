@@ -57,16 +57,16 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: d81f7937a5d5a0e7a2a1eaef8e06064c78f35c6d04ccabb56e43c4d418d67130
+content_sha256: 759fb0d058f06d9e29bb912c7e1ccef51561f2939a9fa6d48c00fb5be0fc9c54
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
 translation_method: google
 source_content_sha256: 66721e72e10dd21f47f9c185589d7f3417a3df9407a6866398253f6c67ed1e54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ca40be6ee4d31417c5bf31ebfe972726c632d5c8cba1b732f6d9670faabce5e7
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 可積分関数と集合
@@ -117,7 +117,7 @@ $$
 
 他の語では、$\mu$ 可積分関数 $f$ は、族 $(\alpha(x)f(x))_{x \in X}$ が *絶対加算可能* である関数 (GT、IX, §3, No. 6) であり、整 $\int f\, d\mu$ はこの族の和です。
 
-$\mu(f)$ は $\mathscr{L}_F^1$ で定義まで連続であり、ハウスドルフ空間でその値を取るので、属するから $\mathscr{L}_F^1$ の 0 の閉包までの写像ごとに $\mu(f) = 0$ が得られます。つまり、*無視できます*。 $f$ と $g$ が 2 つ *等しい* 可積分関数の場合、$\mu(f) = \mu(g)$ です。 他の語、$\mu(f)$ の値は、可積分関数 $f$ の類 $\tilde{f}$ にのみ依存します。それは再び$\mu(\tilde{f})$と表され、写像$\tilde{f} \mapsto \mu(\tilde{f})$は$L^1_F$から$F$への連続した線形写像です。 If a function $f$, with values in $F$ and defined almost everywhere in $X$, is equivalent to an integrable function, we again say that $f$ is *integrable* and we write $\int f\, d\mu = \mu(\tilde{f})$; one defines similarly an integrable function with values in $\overline{\mathbf{R}}$, defined and finite almost everywhere, as well as its integral.
+$\mu(f)$ は $\mathscr{L}_F^1$ で定義まで連続であり、ハウスドルフ空間でその値を取るので、属するから $\mathscr{L}_F^1$ の 0 の閉包までの写像ごとに $\mu(f) = 0$ が得られます。つまり、*無視できます*。 $f$ と $g$ が 2 つ *等しい* 可積分関数の場合、$\mu(f) = \mu(g)$ です。 他の語、$\mu(f)$ の値は、可積分関数 $f$ の類 $\tilde{f}$ にのみ依存します。それは再び$\mu(\tilde{f})$と表され、写像$\tilde{f} \mapsto \mu(\tilde{f})$は$L^1_F$から$F$への連続した線形写像です。 $F$ に値が含まれ、$X$ のほぼどこでも定義されている写像 $f$ が可積分関数と同等である場合、再び $f$ は *可積分* であると言い、$\int f\, d\mu = \mu(\tilde{f})$ と書きます。 1 つの定義するも同様に可積分関数と $\overline{\mathbf{R}}$ の値は、ほぼどこでも定義され有限であり、その積分も同様です。
 
 ### 2. 積分の性質
 
@@ -285,23 +285,23 @@ $$
 |\mu|^*(g) = \sup_{f \in \mathbf{H}} |\mu|^*(f) = \sup_{f \in \mathbf{H}} \int f \, d|\mu| < +\infty,
 $$
 
-したがって、下位の半連続である $g$ は、提案 5 によって積分可能です。 $\int g \, d|\mu| = \lim_{f \in \mathbf{H}} \int f \, d|\mu|$ があり、$f \leqslant g$ から$\lim_{f \in \mathbf{H}} N_1(g - f) = 0$ が得られます。これは、$f$ が $\mathbf{H}$ に関して平均して $g$ に収束することを示しており、したがってこの場合は系が証明されます。 If $\mathbf{H}$ is directed for $\geqslant$ and consists of upper semi-continuous integrable functions $f$ such that $0 \leqslant f \leqslant f_1$ with $f_1 \in \mathbf{H}$, then there exists a lower semi-continuous integrable function $h$ such that $f_1 \leqslant h$; we may write $f = h - f'$, where $f'(x) = h(x) - f(x)$ when $f(x) < +\infty$, and $f'(x) = 0$ otherwise. $f'$ 形有向集合は、$\leqslant$ に対して、下半連続可積分関数 $\geqslant 0$ であることは明らかです。
+したがって、下位の半連続である $g$ は、提案 5 によって積分可能です。 $\int g \, d|\mu| = \lim_{f \in \mathbf{H}} \int f \, d|\mu|$ があり、$f \leqslant g$ から$\lim_{f \in \mathbf{H}} N_1(g - f) = 0$ が得られます。これは、$f$ が $\mathbf{H}$ に関して平均して $g$ に収束することを示しており、したがってこの場合は系が証明されます。 $\mathbf{H}$ が $\geqslant$ に向けられており、$0 \leqslant f \leqslant f_1$ と $f_1 \in \mathbf{H}$ のような上部の半連続可積分関数 $f$ で構成されている場合、$f_1 \leqslant h$ のような下部の半連続可積分関数 $h$ が存在します。 $f = h - f'$、$f(x) < +\infty$の場合は$f'(x) = h(x) - f(x)$、それ以外の場合は$f'(x) = 0$と書くことができます。 $f'$ 形有向集合は、$\leqslant$ に対して、下半連続可積分関数 $\geqslant 0$ であることは明らかです。
 
 $$
 \int f' \, d|\mu| \leqslant \int h \, d|\mu| < +\infty;
 $$
 
-上で証明したことをそれらに当てはめることができます。 $g'$ が $f'$ の上部エンベロープである場合、$h$ と $g'$ はほぼどこでも有限であるため、$h - g'$ はほぼどこでも定義され、ほぼどこでも $g$ に等しくなります。このことから、この場合、系の結論がすぐに得られます。
+上で証明したことをそれらに当てはめることができます。 $g'$ が $f'$ の上部エンベロープである場合、$h$ と $g'$ はほぼどこでも有限であるため、$h - g'$ はほぼどこでも定義され、ほぼどこでも $g$ と等しくなります。これから、この場合、系の結論がすぐに得られます。
 
 #### 系 3 {#int-iv-s4-prop-5-cor-3 .statement tag=08SF}
 
-— $f$ を有界数値写像とし、$X$ 上で上部半連続でコンパクトなサポートを持つものとします。そして、曖昧な位相に対し、写像$\mu \mapsto \int f\, d\mu$は$\mathscr{M}_+(X)$の上半連続です。
+— $f$ を有界数値写像とし、$X$ で上部の半連続でコンパクトなサポートを持つものとします。すると、曖昧な位相に対して写像$\mu \mapsto \int f\, d\mu$が$\mathscr{M}_+(X)$の上半連続となります。
 
-$h$ が $\mathscr{K}_+(X)$ の写像で、$|f| \leq h$ (Ch. III, §1, No. 2、補題 1) である場合、$0 \leq f + h \leq 2h$ となり、$f + h$ は上部半連続であるため、Cor から続きます。 1 $f$ は、$X$ の各メジャー $\mu$ に対して $\mu$ 積分可能です。さらに、$\mu(f) = \mu(h) - \mu(h - f)$と$h - f$は下半連続写像$\geq 0$です。 写像 $\mu \mapsto \mu(h - f)$ は曖昧な位相に対して$\mathscr{M}_+(X)$ よりも低い半連続であるため (§1, No. 1、提案 4)、これは系であることが証明されます。
+$h$ が $\mathscr{K}_+(X)$ の写像で、$|f| \leq h$ (Ch. III, §1, No. 2, 補題 1) である場合、$0 \leq f + h \leq 2h$ となり、$f + h$ は上部半連続であるため、Cor から続きます。 1 $f$ は、$X$ の各メジャー $\mu$ に対して $\mu$ 積分可能です。さらに$\mu(f) = \mu(h) - \mu(h - f)$と$h - f$は下位半連続写像$\geq 0$です。 写像 $\mu \mapsto \mu(h - f)$ は曖昧な位相に対して $\mathscr{M}_+(X)$ よりも低い半連続であるため (§1, No. 1、提案 4)、これは系を証明します。
 
 #### 定理 3 {#int-iv-s4-thm-3 .statement tag=08SG}
 
-— 数値写像 $f \geq 0$ が積分可能であるためには、すべての $\varepsilon > 0$ に対して、有限の値とコンパクトなサポートを備えた上部の半連続写像 $g \geq 0$ と、次のような下部の半連続可積分関数 $h$ が存在することが必要かつ十分です。 $g \leq f \leq h$と$\int (h - g)\, d|\mu| \leq \varepsilon$。
+— 数値写像 $f \geq 0$ が積分可能であるためには、すべての $\varepsilon > 0$ に対して、有限の値とコンパクトなサポートを備えた上部の半連続写像 $g \geq 0$ と、下部の半連続可積分関数が存在することが必要かつ十分です。 $h$、つまり $g \leq f \leq h$ と $\int (h - g)\, d|\mu| \leq \varepsilon$ です。
 
 条件は、積分可能性の一般的な基準 (§3, No. 4、提案 8)、提案 5 とその系 1. 条件が必要であることを示しましょう。 $f \geq 0$ が可積分である場合、$\varepsilon > 0$ ごとに、$N_1(f - u) \leq \varepsilon/4$ などの、連続的でコンパクトなサポートを備えた写像 $u \geq 0$ が存在します。 $N_1$ の定義により、これは、$|\mu|^*(v) \leq \varepsilon/2$ と $|f - u| \leq v$ のような下位の半連続写像 $v \geq 0$ が存在することを意味します。したがって、すべての $x \in X$ に対して $-v(x) \leq f(x) - u(x) \leq v(x)$ となり、$u(x)$ はどこでも有限であるため、すべての $x \in X$ に対して $(u(x) - v(x))^+ \leq f(x) \leq u(x) + v(x)$ となります。 写像 $g = (u - v)^+$ および $h = u + v$ は要件を満たしています。
 
@@ -328,7 +328,7 @@ $$
 $$
 (No. 3、提案 4)、これは、$f$ と $g$ が同等であることを証明します。 数列 $(h_n)$ についても同様の議論があります。
 
-$f$ が正でない場合、前述の内容を $f^+$ と $f^-$ に適用できます。したがって、上部半連続可積分関数の 2 つの増加する数列 $(g'_n), (g''_n)$ と下部半連続の 2 つの減少列 $(h'_n), (h''_n)$ が存在します。 可積分関数、次のようになります: $1^\circ \ g'_n \leq f^+ \leq h'_n,\ g''_n \leq -f^- \leq h''_n;$
+$f$ が正でない場合、上記を $f^+$ と $f^-$ に適用できます。したがって、上部半連続可積分関数の 2 つの増加する数列 $(g'_n), (g''_n)$ と下部半連続の 2 つの減少列 $(h'_n), (h''_n)$ が存在します。 可積分関数、次のようになります: $1^\circ \ g'_n \leq f^+ \leq h'_n,\ g''_n \leq -f^- \leq h''_n;$
 $2^\circ \ f^+$ (それぞれ $-f^-$) は、ほぼどこでも $g'_n$ の上部エンベロープおよび $h'_n$ の下部エンベロープ (それぞれ $g''_n$ の上部エンベロープおよび $h''_n$ の下部エンベロープ) と等しくなります。そして$3^\circ$:
 $$
 \int f^+ d\mu = \lim_{n \to \infty} \int g'_n d\mu = \lim_{n \to \infty} \int h'_n d\mu,
@@ -336,29 +336,29 @@ $$
 $$
 -\int f^- d\mu = \lim_{n \to \infty} \int g''_n d\mu = \lim_{n \to \infty} \int h''_n d\mu.
 $$
-さらに、$g'_n$ と $h''_n$ はどこでも有限であると仮定できます。したがって、数列 $g_n = g'_n + g''_n$ と $h_n = h'_n + h''_n$ が要件を満たしていることは明らかです。
+さらに、$g'_n$ と $h''_n$ はどこでも有限であると仮定できます。したがって、数列 $g_n = g'_n + g''_n$ および $h_n = h'_n + h''_n$ が要件を満たしていることは明らかです。
 
 #### 例 {#int-iv-s4-n4-exa-1 .statement tag=08SI}
 
-$\mathbf{R}$ のすべてのポジティブなメジャー $\mu$ について、コンパクトなサポートを備えたすべての *ステップ写像* は $\mu$ 積分可能です。なぜなら、オープン (またはクローズ) 区間の特性写像は下側 (または上側) の半連続であり、各ステップ写像はそのような特性写像の線形結合です。その結果、$\mathbf{f}$ がコンパクトサポート (FRV、II, §1, No. 3) を備えた$\mathbf{R}$ 上の *規制された* 写像である場合、固定コンパクトに含まれるサポートを備えたステップ写像 $\mathbf{g}_n$ の数列の一様極限であるため、$\mathbf{f}$ は積分可能です。 集合 (No. 3、提案 3);しかも$\int \mathbf{f}\, d\mu = \lim_{n \to \infty} \int \mathbf{g}_n\, d\mu$。
+$\mathbf{R}$ のすべてのポジティブなメジャー $\mu$ について、コンパクトなサポートを備えたすべての *ステップ写像* は $\mu$ 積分可能です。なぜなら、オープン (またはクローズ) 区間の特性写像は下側 (または上側) の半連続であり、各ステップ写像はそのような特性写像の線形結合です。その結果、$\mathbf{f}$ がコンパクトサポート (FRV、II, §1, No. 3) を備えた $\mathbf{R}$ 上の *規制* 写像である場合、サポートを備えたステップ写像 $\mathbf{g}_n$ の数列の一様極限であるため、$\mathbf{f}$ は積分可能です。固定コンパクト集合 (No. 3、提案 3) に含まれる。しかも$\int \mathbf{f}\, d\mu = \lim_{n \to \infty} \int \mathbf{g}_n\, d\mu$。
 
-特に、$\mu$ がルベーグ測度であるとすると、コンパクトなサポートを備えたすべての規制された写像 $\mathbf{f}$ について、整 $\int \mathbf{f}\, d\mu$ は FRV、II, §2, No. 1 で定義された積分 $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ に等しいことがわかります。
+特に、$\mu$ がルベーグ測度であるとすると、コンパクトサポートを備えたすべての規制された写像 $\mathbf{f}$ について、整 $\int \mathbf{f}\, d\mu$ は FRV、II, §2, No. 1 で定義された積分 $\int_{-\infty}^{+\infty} \mathbf{f}(x)\, dx$ に等しいことがわかります。
 
 #### 注意 1 {#int-iv-s4-n4-rem-1 .statement tag=08SJ}
 
-Let $\mathbf{f}$ be a regulated function on $\mathbf{R}$ that is integrable with respect to Lebesgue measure $\mu$; then $|\mathbf{f}|$ is also integrable (No. 2, Cor. 1 of Prop. 1), and, setting $I_n = [-n, n]$, $|\mathbf{f}|$ is the upper envelope of the increasing sequence of regulated functions $|\mathbf{f}| \varphi_{I_n}$, therefore $\int |\mathbf{f}|\, d\mu = \lim_{n \to \infty} \int_{-n}^{n} |\mathbf{f}(x)|\, dx$ by Th. 2 of No. 3; thus, the integral $\int_{-\infty}^{+\infty} f(x) dx$ is *absolutely convergent* (FRV, II, §2, No. 3). また、$\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$ by Th. No. 3の2。 逆に、$\int_{-\infty}^{+\infty} f(x) dx$ が絶対収束すると仮定します。もう一度、Th によって。 No. 3、$\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$ の 2 つ。 整 $\int_{-\infty}^{+\infty} f(x) dx$ は収束しますが、完全には収束しないことに注意してください。その場合、$f$ はルベーグ測度に関して *積分可能ではありません*。
+$\mathbf{f}$ を、ルベーグ測度 $\mu$ に関して積分可能な $\mathbf{R}$ 上の規制された写像とします。その場合、$|\mathbf{f}|$ も可積分であり (No. 2、提案 1 の Cor. 1)、設定 $I_n = [-n, n]$, $|\mathbf{f}|$ は、規制されている写像 $|\mathbf{f}| \varphi_{I_n}$ の増加する数列の上位包絡線であるため、 $\int |\mathbf{f}|\, d\mu = \lim_{n \to \infty} \int_{-n}^{n} |\mathbf{f}(x)|\, dx$ by Th. 2/No. 3;したがって、整 $\int_{-\infty}^{+\infty} f(x) dx$ は *絶対収束* (FRV、II, §2, No. 3) です。さらに、Th の$\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$。 No. 3の2。逆に、$\int_{-\infty}^{+\infty} f(x) dx$ が絶対に収束すると仮定します。もう一度、Th によって。 No. 3、$\int f\, d\mu = \int_{-\infty}^{+\infty} f(x) dx$の2つ。整 $\int_{-\infty}^{+\infty} f(x) dx$ は収束しますが、完全には収束しないことに注意してください。その場合、$f$ はルベーグ測度に関して *積分可能ではありません*。
 
 #### 注意 2 {#int-iv-s4-n4-rem-2 .statement tag=08SK}
 
-ルベーグ測度と規制された写像に適用されると、No. 3 の提案 3 は、コンパクト区間上の規制された写像の積分について極限に移行すると、新たに定理を生成します (FRV、II, §3, No. 1、提案 1)。規制されている写像の *数列* (または数えられる基底を持つフィルター) の場合、Th. 2 of No. 3 は、この命題を大幅に改善します。これは、コンパクトな区間上で一様に有界に規制された写像に対して、*均一* 収束の代わりに *点ごとの* 収束を使用するためです (cf. §5, No. 4、Th. 2)。ただし、非コンパクトな区間上の規制された写像の*絶対収束* 積分の極限への移行に関して、Th の条件が次のことに注意します。 No. 3 の 2 は、考慮中の積分が *一様に収束* (FRV、II, §3, No. 2 で定義されている意味で) であることを意味しており、したがって、すべてのコンパクトでの写像 $f_\alpha$ の収束に関する場合を除いて、書籍 IV (*loc. cit.*) で与えられている収束に関しては条件より改善されません。 区間。最後に、規制された写像の *非絶対収束* 積分として与えられた移行から極限に対する条件は、この章で開発された理論の外側に残ります。
+ルベーグ測度と規制された写像に適用されると、No. 3 の提案 3 は、コンパクトな区間上の規制された写像の積分について極限に移行すると、新たに定理を生成します (FRV、II, §3, No. 1、提案 1)。規制されている写像の *数列* (または可算数の基底を持つフィルター) の場合、Th. 2 of No. 3 は、この命題を大幅に改善します。これは、コンパクトな区間上で一様に制限された規制された写像に対して、*均一* 収束の代わりに *点ごとの* 収束を使用するためです (cf. §5, No. 4、Th. 2)。ただし、非コンパクトな区間上の規制された写像の*絶対収束* 積分に対する極限への移行に関しては、Th の条件が重要であることに注意してください。 No. 3 の 2 は、考慮中の積分が *一様に収束* (FRV、II, §3, No. 2 で定義されている意味で) であることを意味しており、したがって、写像の収束に関する場合を除いて、書籍 IV (*loc. cit.*) で与えられている収束に関しては条件より改善されません。すべてのコンパクト区間で $f_\alpha$。最後に、規制された写像の *非絶対収束* 積分として与えられた移行から極限に対する条件は、この章で開発された理論の外側に残ります。
 
 ### 5. 統合可能集合
 
 #### 定義 2 {#int-iv-s4-def-2 .statement tag=08SL}
 
-*部分集合* $A$ *局所コンパクト空間* $X$ *測度に関して可積分であると言われる* $\mu$ *on* $X$ *(または、* $\mu$*可積分である)* *特性写像* $\varphi_A$ の場合*of* $A$ *は可積分です* *有限数* $\mu(A) = \int \varphi_A\, d\mu$ *は* $A$の測度と呼ばれます。
+*部分集合* $A$ *局所コンパクト空間* $X$ *測度に関して可積分であると言われる* $\mu$ *on* $X$ *(または* $\mu$*可積分である)* *特性の場合写像* $\varphi_A$ *of* $A$ *は可積分です* *有限数* $\mu(A) = \int \varphi_A\, d\mu$ *は* $A$の測度と呼ばれます。
 
-すべての積分可能な集合 $A$、$|\mu|(A) = |\mu|^*(A)$ (No. 2、提案 1)。 集合が *無視できる* ためには、それが $|\mu|$ に関して * 程度零であることが必要かつ十分です。
+すべての積分可能な集合 $A$、$|\mu|(A) = |\mu|^*(A)$ (No. 2、提案 1)。 集合が *無視できる* ためには、それが $|\mu|$ に関して * 測定値零であることが必要かつ十分です。
 
 #### 命題 6 {#int-iv-s4-prop-6 .statement tag=08SM}
 
@@ -468,7 +468,7 @@ $$
 
 #### 定理 4 {#int-iv-s4-thm-4 .statement tag=08SY}
 
-— For a set $A$ to be integrable, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist an integrable open set $G$ and a compact set $K$, such that $K \subset A \subset G$ and
+— 集合 $A$ が積分可能であるためには、すべての $\varepsilon > 0$ に対して、積分可能な開集合 $G$ とコンパクト集合 $K$ が存在し、$K \subset A \subset G$ と
 $$
 |\mu|(G - K) = |\mu|(G) - |\mu|(K) \leq \varepsilon.
 $$
@@ -592,11 +592,11 @@ $$
 
 #### 命題 14 {#int-iv-s4-prop-14 .statement tag=08T6}
 
-— X を局所的にコンパクトな空間とし、F を 0 に減らされていない Banach 空間とします。 Xのすべての連続写像の空間$\mathscr{C}(X; F)$をコンパクトコンバージェンスの位相でFに装備します。 For a measure $\mu$ on X to be such that the linear mapping $f \mapsto \int f d\mu$ of $\mathscr{K}(X; F)$ into F is extendible to a continuous linear mapping of $\mathscr{C}(X; F)$ into F, it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be compact; such an extension is unique and coincides with the integral defined in No. 1.
+— X を局所的にコンパクトな空間とし、F を 0 に減らされていない Banach 空間とします。 Xのすべての連続写像の空間$\mathscr{C}(X; F)$をコンパクトコンバージェンスの位相でFに装備します。 X の測度 $\mu$ が、$\mathscr{K}(X; F)$ の F への線形写像 $f \mapsto \int f d\mu$ が F への $\mathscr{C}(X; F)$ の連続線形写像に拡張可能であるためには、$\operatorname{Supp}(\mu)$ がコンパクトであることが必要かつ十分です。このような拡張は一意であり、No. 1 で定義された積分と一致します。
 
 $\mu$ がコンパクトなサポートを持っている場合、整 $\int f d\mu$ がすべての写像 $f \in \mathscr{C}(X; F)$ に対して定義され、F への $\mathscr{C}(X; F)$ の写像 $f \mapsto \int f d\mu$ がコンパクト収束の位相に対して連続であることを見てきました。 逆に、コンパクト収束の位相において$\mathscr{K}(X; F)$において$f \mapsto \int f d\mu$が連続であるとします。 次に、写像 $f \in \mathscr{K}(X; F)$ ごとに $|\mu(f)| \leq a \cdot \sup_{x \in K} |f(x)|$ となるようなコンパクト集合 $K \subset X$ と数 $a > 0$ があります。特に、$g \in \mathscr{K}(X; F)$ のサポートが K と交差しない場合は、$\mu(g) = 0$ になります。 $g = h a$ を取ると、$a \neq 0$ は F のベクトルであり、$h \in \mathscr{K}(X; \mathbf{C})$ であるため、サポートが K と交差しないすべての写像 $h \in \mathscr{K}(X; \mathbf{C})$ に対して $\mu(h) = 0$ であることがわかり、$\operatorname{Supp}(\mu) \subset K$ が証明されます。 最後に、拡大の一意性は、コンパクト収束の位相に対して $\mathscr{C}(X; F)$ で $\mathscr{K}(X; F)$ が密であるという事実から導き出されます (Ch. III, §1, No. 2、提案 4)。
 
-提案 14 により、拡大から $\mathscr{C}(X; \mathbf{C})$ までの連続するコンパクトなサポートを使用して、X 上のメジャーを識別することができます。 従って、コンパクトサポートを備えたXの小節の集合は、ハウスドルフの局所的に凸な空間$\mathscr{C}(X; \mathbf{C})$の二重$\mathscr{C}'(X; \mathbf{C})$と識別される可能性があります。 $\mathscr{C}(X; \mathbf{C})$ は完全である (GT、X, §1, No. 6、Th. 2 の Cor. 3) が、必ずしもバレル化されているわけではない (Exer. 17) ことを思い出してください。 However, if X is countable at infinity, hence is the union of an increasing sequence of compact sets $K_n$ such that $K_n \subset \overset{\circ}{K}_{n+1}$, then the topology of $\mathscr{C}(X; \mathbf{C})$ can be defined by the countable family of semi-norms $p_n(f) = \sup_{x \in K_n} |f(x)|$, therefore $\mathscr{C}(X; \mathbf{C})$ is a Fréchet space in this case. その結果、有界の集合によって$\mathscr{C}(X; \mathbf{C})$の$\mathscr{G}$をカバーするすべてについて、空間$\mathscr{C}'(X; \mathbf{C})$は$\mathscr{G}$トポロジー（TVS、III, §4, No. 2、Th.1のCor.4）に対して準完全になります。
+提案 14 により、拡大から $\mathscr{C}(X; \mathbf{C})$ までの連続するコンパクトなサポートを使用して、X 上のメジャーを識別することができます。 従って、コンパクトサポートを備えたXの小節の集合は、ハウスドルフの局所的に凸な空間$\mathscr{C}(X; \mathbf{C})$の二重$\mathscr{C}'(X; \mathbf{C})$と識別される可能性があります。 $\mathscr{C}(X; \mathbf{C})$ は完全である (GT、X, §1, No. 6、Th. 2 の Cor. 3) が、必ずしもバレル化されているわけではない (Exer. 17) ことを思い出してください。 しかし、X が無限に可算である場合、従って、$K_n \subset \overset{\circ}{K}_{n+1}$ となるようなコンパクト集合 $K_n$ の増加系列の和集合となり、$\mathscr{C}(X; \mathbf{C})$ のトポロジーは半ノルムの可算族 $p_n(f) = \sup_{x \in K_n} |f(x)|$ によって定義できます。従って、この場合 $\mathscr{C}(X; \mathbf{C})$ はフレシェ空間です。 その結果、有界の集合によって$\mathscr{C}(X; \mathbf{C})$の$\mathscr{G}$をカバーするすべてについて、空間$\mathscr{C}'(X; \mathbf{C})$は$\mathscr{G}$トポロジー（TVS、III, §4, No. 2、Th.1のCor.4）に対して準完全になります。
 
 特に、コンパクトな収束の$\mathscr{C}'(X; \mathbf{C})$ 位相 ($\mathscr{C}(X; \mathbf{C})$ のコンパクトな部分集合に対する一様収束の位相) について検討します。 $\mathscr{C}(X; \mathbf{C})$ の比較的コンパクトな部分集合 H は次の特性 (GT、X, §2, No. 5、Th. 2 の Cor. 3) によって特徴付けられることを思い出してください。
 
@@ -620,7 +620,7 @@ Lでは、$\mathscr{T}$によって誘発された位相は、$\mathscr{T}'$に�
 
 — X のすべてのコンパクト部分集合 K と、X 上のメジャー $\mu$ のすべての数 $a > 0$、集合 B について、$\operatorname{Supp}(\mu) \subset K$ と $\| \mu \| \leq a$ がコンパクトな $\mathscr{C}'(X; \mathbf{C})$ の等連続部分集合となる位相 $\mathscr{T}$ のコンパクト コンバージェンス用。
 
-For, let H be a subset of $\mathscr{C}(X; \mathbf{C})$ consisting of functions that are uniformly bounded on K; there exists a number $c > 0$ such that $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ for every function $f \in H$ and every measure $\mu \in B$, by virtue of (22); therefore $B \subset acH^\circ$ in the dual $\mathscr{C}'(X; \mathbf{C})$ of $\mathscr{C}(X; \mathbf{C})$, which proves the equicontinuity of B; the fact that B is compact for $\mathscr{T}$ follows from the fact that, on B, $\mathscr{T}$ and the vague topology induce the same topology (Prop. 16 and Ch. III, §1, No. 10、提案 17)、B が漠然とコンパクトであるという事実 (Ch. III, §1, No. 9、コル。提案 15 の 2 および§2, No. 2、提案 6)。
+なぜなら、H を、K 上で一様に制限される関数で構成される $\mathscr{C}(X; \mathbf{C})$ の部分集合であるとします。 (22) により、すべての関数 $f \in H$ およびすべてのメジャー $\mu \in B$ に対して $|\mu(f)| \leq c \cdot \| \mu \| \leq ac$ となるような数 $c > 0$ が存在します。したがって、$\mathscr{C}(X; \mathbf{C})$の双対$\mathscr{C}'(X; \mathbf{C})$の$B \subset acH^\circ$は、Bの等連続性を証明します。 B が $\mathscr{T}$ に対してコンパクトであるという事実は、B 上で $\mathscr{T}$ と曖昧なトポロジーが同じトポロジーを誘導するという事実から帰結します (提案 16 と 16 章 )。 III, §1, No. 10、提案 17)、B が漠然とコンパクトであるという事実 (Ch. III, §1, No. 9、コル。提案 15 の 2 および§2, No. 2、提案 6)。
 
 #### 系 2 {#int-iv-s4-prop-16-cor-2 .statement tag=08TA}
 
@@ -644,7 +644,7 @@ $\mu$ が局所コンパクト空間 $X$ 上の測度である場合、可積分
 
 #### 命題 17 {#int-iv-s4-prop-17 .statement tag=08TD}
 
-*In order that a nonempty set $\Phi$ of subsets of a set $A$ be a clan, it is necessary and sufficient that it satisfy the following condition:*
+*集合 $A$ の部分集合の空でない集合 $\Phi$ がクランであるためには、次の条件を満たすことが必要かつ十分です。
 
 (CL) *集合 $M, N$ 所属 ～ $\Phi$、 集合 $M \cup N$ および $M \cap \mathbf{C}N$ 属する ～ $\Phi$ の対ごとに。*¹
 
@@ -732,7 +732,7 @@ $f$ は $K$ 上で一様連続であるため、各 $M_i$ の $f$ の振動が $
 
 ### 11. 集合のファミリーで定義されたメジャーの拡大
 
-$\Phi$ を局所コンパクト空間 $X$ の部分集合の空でない集合とします。 Given a real-valued function $M \mapsto \alpha(M)$, defined and $\geq 0$ on $\Phi$, we propose to seek conditions under which there exists a positive measure $\mu$ on $X$ such that the sets of $\Phi$ are $\mu$-integrable and $\mu(M) = \alpha(M)$ for all $M \in \Phi$. 極限集合 $\Phi$ が次の条件を満たす場合を考えてみましょう。
+$\Phi$ を局所コンパクト空間 $X$ の部分集合の空でない集合とします。 実数値関数 $M \mapsto \alpha(M)$ が定義され、$\Phi$ に $\geq 0$ が与えられると、$\Phi$ の集合が $\mu$ 積分可能であり、すべての $M \in \Phi$ に対して $\mu(M) = \alpha(M)$ となるような、$X$ に正の測度 $\mu$ が存在する条件を求めることを提案します。 極限集合 $\Phi$ が次の条件を満たす場合を考えてみましょう。
 
 (PC_I) *$\Phi$ 属するから $\Phi$ の 2 つの集合のうち、和集合と共通部分。*
 
@@ -746,46 +746,46 @@ $\Phi$ を局所コンパクト空間 $X$ の部分集合の空でない集合�
 (PM_{II}) *$\Phi$、$\alpha(M \cup N) \leq \alpha(M) + \alpha(N)$ の任意の M と N に対応します。*
 (PM_{III}) *関係 $M \cap N = \varnothing$ は $\alpha(M \cup N) = \alpha(M) + \alpha(N)$ を意味します。*
 
-条件 (PM_{III}) で $N = \varnothing$ を取ると、$\alpha(\varnothing) = 0$ と推測されます。 条件 (PM_I) は、$M \in \Phi$ ごとに $\alpha(M) \geq 0$ であることを示します。
+条件 (PM_{III}) で $N = \varnothing$ を取ると、$\alpha(\varnothing) = 0$ であると推測されます。 条件 (PM_I) は、$M \in \Phi$ ごとに $\alpha(M) \geq 0$ を示します。
 
 #### 定理 5 {#int-iv-s4-thm-5 .statement tag=08TN}
 
-*$\Phi$ を局所的にコンパクトな空間 X、満たす (PC_I) および (PC_{II}) の部分集合の集合とし、$\alpha$ を $\Phi$ で定義された実数値写像とします。 満たす条件 (PM_I)、(PM_{II})、(PM_{III})。 位数において、$\Phi$の集合が$\mu$可積分であり、すべての$M \in \Phi$に対して$\mu(M) = \alpha(M)$となるような、Xに正の測度$\mu$が存在する場合、加法の$\alpha$満たすが次のとおりであることが必要かつ十分です。 条件:*
+*$\Phi$ を局所的にコンパクトな空間 X、満たす (PC_I) および (PC_{II}) の部分集合の集合とし、$\alpha$ を実数値の写像とします。 $\Phi$、満たす条件 (PM_I)、(PM_{II})、(PM_{III})。 位数では、$\Phi$ の集合が $\mu$ 可積分であり、すべての $M \in \Phi$ に対して $\mu(M) = \alpha(M)$ となるような、X に正の測度 $\mu$ が存在するということは、$\alpha$ 満たすが必要かつ十分であるということです。 加法次の条件:*
 
-(PM_{IV}) *すべての $\varepsilon > 0$ とすべての $M \in \Phi$ には、コンパクトな集合 $K \subset M$ とオープンな集合 $U \supset M$ が存在し、$N \in \Phi$ 満たす関係 $K \subset N \subset U$ ごとに、 $|\alpha(N) - \alpha(M)| \leq \varepsilon$.*
+(PM_{IV}) *すべての $\varepsilon > 0$ とすべての $M \in \Phi$ には、すべての $N \in \Phi$ 満たす関係のように、コンパクト集合 $K \subset M$ とオープン集合 $U \supset M$ が存在します。 $K \subset N \subset U$、1 つは $|\alpha(N) - \alpha(M)| \leq \varepsilon$ です。*
 
-*さらに、条件 (PM_{IV}) が満たされる場合、メジャー $\mu$ は一意です。すべてのコンパクト集合 $K$、$\mu(K) = \inf_{M \in \Phi, M \supset K} \alpha(M)$; 集合 $U$、$\mu^*(U) = \sup_{M \in \Phi, M \subset U} \alpha(M)$ を開くたびに。*
+*さらに、条件 (PM_{IV}) が満たされる場合、メジャー $\mu$ は一意です。すべてのコンパクト集合 $K$、$\mu(K) = \inf_{M \in \Phi, M \supset K} \alpha(M)$;オープンするたびに集合 $U$、$\mu^*(U) = \sup_{M \in \Phi, M \subset U} \alpha(M)$.*
 
 条件 (PM_{IV}) は、次の 2 つの結合と同等であることに注意してください。
 
-(PM'_{IV}) *すべての $\varepsilon > 0$ とすべての $M \in \Phi$ に対して、$U$、$\alpha(N) \leq \alpha(M) + \varepsilon$ に含まれるすべての $N \in \Phi$ に対して、開いた集合 $U \supset M$ が存在します。
+(PM'_{IV}) *すべての $\varepsilon > 0$ とすべての $M \in \Phi$ には、$U$、$\alpha(N) \leq \alpha(M) + \varepsilon$ に含まれるすべての $N \in \Phi$ のように、開いた集合 $U \supset M$ が存在します。
 (PM''_{IV}) *すべての $\varepsilon > 0$ とすべての $M \in \Phi$ に対して、すべての $N \in \Phi$ 含む $K$、$\alpha(N) \geq \alpha(M) - \varepsilon$ のように、コンパクトな集合 $K \subset M$ が存在します。*
 
-なぜなら、(PM'_{IV}) と (PM''_{IV}) が (PM_{IV}) を暗示していることは明らかだからです。逆に、たとえば、(PM_{IV}) が (PM'_{IV}) を意味することを示しましょう。K をコンパクト集合、U をオープン集合として、$P \in \Phi$ 満たす $K \subset P \subset U$ ごとに $K \subset M \subset U$ と $|\alpha(P) - \alpha(M)| \leq \varepsilon$ が成り立つようにします。次に、$N \in \Phi$と$N \subset U$なら、$M \cup N$属するから$\Phi$と$K \subset M \cup N \subset U$、よって$\alpha(M \cup N) \leq \alpha(M) + \varepsilon$と*なおさら*$\alpha(N) \leq \alpha(M) + \varepsilon$となります。
+なぜなら、(PM'_{IV}) と (PM''_{IV}) が (PM_{IV}) を暗示していることは明らかだからです。逆に、たとえば、(PM_{IV}) が (PM'_{IV}) を意味することを示しましょう。K をコンパクト集合とし、U をオープン集合として、$P \in \Phi$ 満たすごとに $K \subset M \subset U$ と $|\alpha(P) - \alpha(M)| \leq \varepsilon$ が成り立つようにします。 $K \subset P \subset U$。次に、$N \in \Phi$と$N \subset U$なら、$M \cup N$属するから$\Phi$と$K \subset M \cup N \subset U$、よって$\alpha(M \cup N) \leq \alpha(M) + \varepsilon$と*なおさら*$\alpha(N) \leq \alpha(M) + \varepsilon$となります。
 
-集合 $\Phi$、満たす (PC_I) および (PC_{II}) が *compact* 集合で構成されている場合、条件 (PM''_{IV}) は自明に検証され、(PM_{IV}) は次と等価になります。 (午後'_{IV})。
+集合 $\Phi$、満たす (PC_I) および (PC_{II}) が *compact* 集合で構成されている場合、条件 (PM''_{IV}) は自明に検証され、(PM_{IV}) は次のようになります。 (PM'_{IV}) と同等になります。
 
-条件 (PM_{IV}) は *必須*: これは Th からすぐに続きます。コンパクトな集合とオープンな集合による積分可能な集合の「近似」における 4 の No. 6 。 定理のもう一方の主張を証明するには、いくつかのステップを進めます。
+条件 (PM_{IV}) は *必須*: これは Th からすぐに続きます。コンパクトな集合と開いた集合による積分可能な集合の「近似」に関するNo. 6の4。 定理のもう一方の主張を証明するには、いくつかの手順を進めます。
 
 $\mathfrak{P}(X)$の位相の1°定義。
 
-$X$ のコンパクト集合 $K$ とオープン集合 $U$ のすべての対 $(K, U)$ からなるを、部分集合 $M \subset X$ の $I(K, U)$ 集合で表します。それは$K \subset M \subset U$; 位数において、$I(K, U)$が空でないであることは、$K \subset U$であることが必要かつ十分です。 $(K', U')$ がコンパクト集合 $K'$ とオープン集合 $U'$ で形成される 2 番目の対である場合、次のようになります。
+$X$ のコンパクト集合 $K$ とオープン集合 $U$ のすべての対 $(K, U)$ からなるを、部分集合 $M \subset X$ の $I(K, U)$ 集合で表します。 $K \subset M \subset U$; 位数において、$I(K, U)$が空でないであることは、$K \subset U$であることが必要かつ十分です。 $(K', U')$ が、コンパクト集合 $K'$ とオープン集合 $U'$ によって形成される 2 番目の対である場合、次のようになります。
 $$
 I(K, U) \cap I(K', U') = I(K \cup K', U \cap U').
 $$
-$T$ を部分集合 $I(K, U)$ の集合によって生成された $\mathfrak{P}(X)$ の位相とします。$K$ は $X$ のコンパクト部分集合の集合を超え、$U$ は集合を超えます。オープン部分集合/$X$;上記により、位相 $T$ (GT、I, §1, No. 3) の$I(K, U)$ 形基底となります。
+$T$ を $\mathfrak{P}(X)$ の位相とします。$K$ は $X$ のコンパクト部分集合の集合を超え、$U$ は部分集合 $I(K, U)$ の集合によって生成されます。 集合/オープン部分集合/$X$;上記により、位相 $T$ (GT、I, §1, No. 3) の$I(K, U)$ 形基底となります。
 
-$T$ の定義は、$\mathfrak{P}(X)$ では、$X$ のコンパクトな部分集合の集合が密であることを意味していることがわかります。 条件 (PC_{II}) は、$\mathfrak{P}(X)$ で $\Phi$ が密であることを表し、条件 (PM_{IV}) は、写像 $\alpha$ が位相の間、$\Phi$ で連続していることを表します。 $T$。最後に、Th. No. 6の4は、$T$によって誘発された位相に対して、写像$M \mapsto \mu(M)$が$\mu$可分な集合の一族上で連続していることを表しています。
+$T$ の定義は、$\mathfrak{P}(X)$ では、$X$ のコンパクトな部分集合の集合が密であることを意味していることがわかります。 条件 (PC_{II}) は、$\Phi$ が$\mathfrak{P}(X)$ で密であることを表し、条件 (PM_{IV}) は、位相に対して写像 $\alpha$ が$\Phi$ で連続であることを表します。 $T$。最後に、Th. No. 6の4は、$T$によって誘導された位相に対して、写像$M \mapsto \mu(M)$が$\mu$可積分集合の一族上で連続していることを表しています。
 
-$\mu$ の 2° 一意性。
+$\mu$の2°一意性。
 
-部分集合 $M \subset X$ の $\overline{\Phi}$ 集合によって、$N$ は $\Phi$ に留まりながら $M$ (位相 $T$ の場合) になる傾向があるように、$\alpha(N)$ は有限の極限に向かう傾向があるように表します。次に、$\overline{\Phi}$ から $\mathbf{R}$ (GT、I, §8, No. 5、Th. 1) への連続的な写像 $\overline{\alpha}$ を一方向のみで拡大する $\alpha$ にすることができます。要件を満たす尺度$\mu$が存在する場合、上記の注意は、$\mu$可積分集合の一族$\Psi$が$\overline{\Phi}$に含まれ、$M \in \Psi$ごとに$\mu(M) = \overline{\alpha}(M)$が含まれることを証明します。この関係は、特に $X$ のすべてのコンパクト部分集合 $M$ に当てはまり、$\mu$ の一意性が証明されます (No. 10、提案 19 の Cor. 3)。
+部分集合 $M \subset X$ の $\overline{\Phi}$ 集合によって、$\alpha(N)$ は有限の極限に向かう傾向があり、$N$ は (位相 $T$ の場合) $M$ に向かう傾向にありますが、 $\Phi$;次に、$\overline{\Phi}$ から $\mathbf{R}$ への連続写像 $\overline{\alpha}$ を一方向のみで拡大する $\alpha$ にすることができます (GT、I, §8, No. 5、Th. 1)。要件を満たす尺度$\mu$が存在する場合、上記の注意は、$\mu$可分集合の氏族$\Psi$が$\overline{\Phi}$に含まれ、$M \in \Psi$ごとに$\mu(M) = \overline{\alpha}(M)$が含まれることを証明します。この関係は、特に $X$ のすべてのコンパクト部分集合 $M$ に当てはまり、$\mu$ の一意性が証明されます (No. 10、提案 19 の Cor. 3)。
 
 $\alpha$の3°拡大をコンパクトな集合に。
 
-$\mu$の存在を仮定せずに、$\alpha$から$\overline{\Phi}$の集合$\overline{\Phi}$と拡大$\overline{\alpha}$を検討していきます。まず、すべてのコンパクト集合 $K$ 属するから $\overline{\Phi}$ と $\overline{\alpha}(K) = \inf_{P \in \Phi, P \supset K} \alpha(P)$ を示します。 集合 $a = \inf_{P \in \Phi, P \supset K} \alpha(P)$; $\varepsilon > 0$ ごとに、$K \subset M$ と $\alpha(M) \leq a + \varepsilon$ のような $M \in \Phi$ が存在します。 (PM'_{IV}) までに、$U$ に含まれるすべての $N \in \Phi$ に対して、$\alpha(N) \leq \alpha(M) + \varepsilon \leq a + 2\varepsilon$ が存在するように、開いた集合 $U \supset M$ が存在します。したがって、$K \subset N \subset U$ のようなすべての $N \in \Phi$ に対して、$a \leq \alpha(N) \leq a + 2\varepsilon$ があり、定義までに、$K \in \overline{\Phi}$ と $\overline{\alpha}(K) = a$ が示されます。
+$\mu$の存在を仮定せずに、$\alpha$から$\overline{\Phi}$の集合$\overline{\Phi}$と拡大$\overline{\alpha}$を検討していきます。まず、すべてのコンパクト集合 $K$ 属するから $\overline{\Phi}$ と $\overline{\alpha}(K) = \inf_{P \in \Phi, P \supset K} \alpha(P)$ を示します。 集合 $a = \inf_{P \in \Phi, P \supset K} \alpha(P)$; $\varepsilon > 0$ ごとに、$K \subset M$ と $\alpha(M) \leq a + \varepsilon$ のような $M \in \Phi$ が存在します。 (PM'_{IV}) までに、$U$ に含まれるすべての $N \in \Phi$ に対して、$\alpha(N) \leq \alpha(M) + \varepsilon \leq a + 2\varepsilon$ が存在するような、開いた集合 $U \supset M$ が存在します。 $K \subset N \subset U$ のようなすべての $N \in \Phi$ に対して、$a \leq \alpha(N) \leq a + 2\varepsilon$ があり、定義までに$K \in \overline{\Phi}$ と $\overline{\alpha}(K) = a$ が示されます。
 
-この結果は、$K_1$ と $K_2$ が $K_1 \subset K_2$ となる 2 つのコンパクトな集合である場合、$\overline{\alpha}(K_1) \leq \overline{\alpha}(K_2)$ であることをすぐに証明します。 $K_1$ と $K_2$ が任意の 2 つのコンパクト集合である場合、(PM_{II}) によって $\overline{\alpha}(K_1 \cup K_2) \leq \overline{\alpha}(K_1) + \overline{\alpha}(K_2)$ が得られます。 さらに、$K_1$ と $K_2$ が互いに素である場合、$\overline{\alpha}(K_1 \cup K_2) = \overline{\alpha}(K_1) + \overline{\alpha}(K_2)$ であることがわかります。 なぜなら、$K_1 \subset U_1$、$K_2 \subset U_2$ (GT、II, §4、提案 4) のように 2 つの互いに素が開いた集合 $U_1, U_2$ が存在するからです。 したがって、(PC_{II}) により、$K_1 \subset M_1 \subset U_1$ と $K_2 \subset M_2 \subset U_2$ という 2 つの集合 $M_1 \in \Phi$, $M_2 \in \Phi$ も存在します。 ここで、$P$ を $\Phi$ 含む $K_1 \cup K_2$ のいずれかの集合とします。 (PC_{I}) により 2 つの集合 $P \cap M_1$ と $P \cap M_2$ 属するのうち和集合が $\Phi$ になり、この 2 つの集合が互いに素なので、(PM_I) と (PM_{III}) を適用します。収量
+この結果は、$K_1$ と $K_2$ が $K_1 \subset K_2$ となるような 2 つのコンパクトな集合である場合、$\overline{\alpha}(K_1) \leq \overline{\alpha}(K_2)$ であることがすぐに証明されます。 $K_1$ と $K_2$ が任意の 2 つのコンパクト集合である場合、(PM_{II}) により $\overline{\alpha}(K_1 \cup K_2) \leq \overline{\alpha}(K_1) + \overline{\alpha}(K_2)$ が得られます。さらに、$K_1$ と $K_2$ が互いに素である場合、$\overline{\alpha}(K_1 \cup K_2) = \overline{\alpha}(K_1) + \overline{\alpha}(K_2)$ であることがわかります。なぜなら、$K_1 \subset U_1$、$K_2 \subset U_2$ のように 2 つの互いに素オープン集合 $U_1, U_2$ が存在します (GT、II, §4、提案 4)。したがって、(PC_{II}) により、$K_1 \subset M_1 \subset U_1$ と $K_2 \subset M_2 \subset U_2$ という 2 つの集合 $M_1 \in \Phi$, $M_2 \in \Phi$ も存在します。ここで、$P$ を $\Phi$ 含む $K_1 \cup K_2$ のいずれかの集合とします。 (PC_{I}) により 2 つの集合 $P \cap M_1$ と $P \cap M_2$ 属するのうち和集合が $\Phi$ となり、この 2 つの集合が互いに素であるため、(PM_I) と(PM_{III}) の収量
 
 $$
 \alpha(P) \geq \alpha(P \cap M_1) + \alpha(P \cap M_2) \geq \overline{\alpha}(K_1) + \overline{\alpha}(K_2),
@@ -793,9 +793,9 @@ $$
 
 それが私たちの主張を確立します。
 
-**開放集合に対して $\alpha$ の 4° 拡大.**
+**4° 拡大から $\alpha$ に対して開いた集合.**
 
-ここで、オープン集合$U$～属する～$\overline{\Phi}$の場合、$K$が$U$のコンパクト部分集合の集合を超えるので、数$\overline{\alpha}(K)$の上限は、有限;さらに、$\overline{\alpha}(U)$ はこの上限と等しくなります。
+ここで、オープン集合$U$から属する、そして$\overline{\Phi}$の場合、$K$が$U$のコンパクト部分集合の集合を超えるので、数の上限が必要かつ十分であることがわかります。 $\overline{\alpha}(K)$ は有限です。さらに、$\overline{\alpha}(U)$ はこの上限と等しくなります。
 
 というのは、$U$ を $\overline{\Phi}$ に対するオープン集合所属とします。 $\varepsilon > 0$ ごとにコンパクトな集合 $K \subset U$ が存在し、集合 $M \in \Phi$ 満たす $K \subset M \subset U$ ごとに $|\overline{\alpha}(U) - \alpha(M)| \leq \varepsilon$、よって $|\overline{\alpha}(U) - \overline{\alpha}(K)| \leq \varepsilon$ が含まれます。一方、$K'$ が $U$ に含まれる任意のコンパクト集合である場合、$K \subset K \cup K' \subset U$、よって $|\overline{\alpha}(U) - \overline{\alpha}(K \cup K')| \leq \varepsilon$、したがって $\overline{\alpha}(U) \geq \overline{\alpha}(K \cup K') - \varepsilon \geq \overline{\alpha}(K') - \varepsilon$ になります。したがって、$K$ は$U$ のコンパクトな部分集合の集合を超えるので、$\overline{\alpha}(U)$ は確かに数 $\overline{\alpha}(K)$ の上限に等しい。
 
@@ -835,7 +835,7 @@ $$
 
 $U - K$ がオープンで、属するから $\overline{\Phi}$ までなので、$\overline{\alpha}(U - K)$ は $\overline{\alpha}(K')$ の上限であり、$\overline{\alpha}(K) + \overline{\alpha}(U - K) \leq \overline{\alpha}(U)$ であることがわかります。
 
-The definition of $\overline{\Phi}$ may therefore now be expressed in the following way: in order that $M \in \overline{\Phi}$, it is necessary and sufficient that, for every $\varepsilon > 0$, there exist a compact set $K$ and an open set $U \in \overline{\Phi}$ such that $K \subset M \subset U$ and $\overline{\alpha}(U - K) \leq \varepsilon$.
+従って、$\overline{\Phi}$ の定義は次のように表現できます。$M \in \overline{\Phi}$ を実現するには、すべての $\varepsilon > 0$ に対して、$K \subset M \subset U$ と $\overline{\alpha}(U - K) \leq \varepsilon$ のようなコンパクト集合 $K$ と開集合 $U \in \overline{\Phi}$ が存在することが必要かつ十分です。
 
 私たちは現在、$\overline{\Phi}$ が *クラン* であり、$\overline{\alpha}$ が $\overline{\Phi}$ の *加法的集合写像* であることを証明できる立場にあります。まず、$M$ と $N$ 属するから $\overline{\Phi}$ の場合、$M \cap \mathbf{C}N$ と $M \cup N$ も同様であることを示します。 仮定までに、$\varepsilon > 0$ ごとに 2 つのコンパクトな集合 $K, K'$ と、$\overline{\Phi}$ の 2 つのオープンな集合 $U, U'$ が存在します。
 
@@ -853,7 +853,7 @@ $$
 
 **6° 対策$\mu$の存在。**
 
-No. 9 の提案 18 により、$\overline{\Phi}$ ステップ写像のベクトル空間 $\mathscr{E}(\overline{\Phi})$ に正の線型形式 $\beta$ が 1 つだけ存在し、すべての $M \in \overline{\Phi}$ に対して $\beta(\varphi_M) = \overline{\alpha}(M)$ になります。 For every compact subset $K$ of $X$, let us denote by $\mathscr{G}(K)$ the space of *uniform limits* of functions of $\mathscr{E}(\overline{\Phi})$ whose support is contained in $K$. Since $\beta$ is positive, $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ for every function $f \in \mathscr{E}(\overline{\Phi})$ whose support is contained in $K$; the restriction of $\beta$ to the space of these functions is a *continuous* linear form for the topology of uniform convergence; it may therefore be extended to a positive continuous linear form $\overline{\beta}_K$ on $\mathscr{G}(K)$. さらに、$K \subset K_1$の場合、$\overline{\beta}_{K_1}$から$\mathscr{G}(K)$の制限は$\overline{\beta}_K$と同一であるため、$\mathscr{G}(K)$の和集合$\mathscr{G}$、つまりそれぞれ拡大するに正の線型形式$\overline{\beta}$が存在します。 形 $\overline{\beta}_K$。
+No. 9 の提案 18 により、$\overline{\Phi}$ ステップ写像のベクトル空間 $\mathscr{E}(\overline{\Phi})$ に正の線型形式 $\beta$ が 1 つだけ存在し、すべての $M \in \overline{\Phi}$ に対して $\beta(\varphi_M) = \overline{\alpha}(M)$ になります。 $X$ のすべてのコンパクトなサブセット $K$ について、$K$ にサポートが含まれている $\mathscr{E}(\overline{\Phi})$ の関数の *均一な制限* の空間を $\mathscr{G}(K)$ で表します。 $\beta$ は正なので、サポートが $K$ に含まれるすべての関数 $f \in \mathscr{E}(\overline{\Phi})$ に対して $|\beta(f)| \leq \overline{\alpha}(K) \cdot \|f\|$ です。これらの関数の空間に対する $\beta$ の制限は、一様収束のトポロジーの *連続* 線形形式です。したがって、$\mathscr{G}(K)$ 上の正の連続線形形式 $\overline{\beta}_K$ に拡張できます。 さらに、$K \subset K_1$の場合、$\overline{\beta}_{K_1}$から$\mathscr{G}(K)$の制限は$\overline{\beta}_K$と同一であるため、$\mathscr{G}(K)$の和集合$\mathscr{G}$、つまりそれぞれ拡大するに正の線型形式$\overline{\beta}$が存在します。 形 $\overline{\beta}_K$。
 
 さて、すべてのコンパクト集合属するから $\overline{\Phi}$ まで、コンパクト サポートを備えた連続実数値写像の空間 $\mathscr{H}$ は $\mathscr{G}$ の *部分空間* です (No. 10、提案 19)。したがって、プラスの線型形式 $\overline{\beta}$ の *制限* から $\mathscr{H}$ は、プラスの *メジャー* $\mu$ です。すべてのコンパクト集合 $K$、$\mu(K) = \overline{\alpha}(K)$ についてそれを示してみましょう。 $\varepsilon > 0$ ごとに、$K \subset U$、$\mu(U) \leq \mu(K) + \varepsilon$、$\overline{\alpha}(U) \leq \overline{\alpha}(K) + \varepsilon$ などのオープンな集合 $U \in \overline{\Phi}$ が存在します。 $f$ を $X$ から $[0, 1]$ への連続した写像とし、そのサポートは $U$ に含まれており、$K$ 上の $f(x) = 1$ となります (Ch. III, §1, No. 2、補題 1)。それから$\mu(K) \leq \mu(f) \leq \mu(U) \leq \mu(K) + \varepsilon$、そして一方で、
 

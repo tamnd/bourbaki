@@ -41,16 +41,16 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 25
-content_sha256: fb0ce43254e4342a284be0f5b696180c9c77c60d6229f8bd610c4fbd9e9857c3
+content_sha256: ddc66970a3fd2b275d80d0beec0bfcac7df8ea6921b839f7c62f381c392cc092
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
 translation_method: google
 source_content_sha256: 39903d36e71fd82b177991bd175a5a56543cc66eaadad8c82a42b81dab501389
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5326f9dde4e6efc7feee5dbb1e46350b09afb9e9ae1a7da89ca7d283a60e1844
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 有限生成射影加群。可逆的な分数イデアル
@@ -99,7 +99,7 @@ $$
 
 *命題 3 の仮説の下では、* $A$* モジュール* $M$ * が有限に生成される (それぞれ有限に提示される) ために、すべての添字* $i$ に対して、* $A_{f_i}$* モジュール* $M_{f_i}$ * が有限に生成されることが必要かつ十分です(それぞれ有限に提示)*。
 
-条件は明らかに必要です (§ 2、いいえ **4**)。 Conversely, if all the $M_{f_i}$ are finitely generated (resp. finitely presented), $M' = \prod_{i \in I} M_{f_i}$ is a finitely generated (resp. finitely presented) $B$-module, for we can obviously suppose that for each $i$ there is an exact sequence $AT_i \to A^n_{f_i} \to M_{f_i} \to 0$, where $m$ and $n$ are *independent of* $i$. さて、$M' = M \otimes_A B$。 系は、命題 3 と章 I, § 3 から続きます。いいえ。 **6**、命題 11.
+条件は明らかに必要です (§ 2、いいえ **4**)。 逆に、すべての $M_{f_i}$ が有限に生成される (それぞれ有限に提示される) 場合、$M' = \prod_{i \in I} M_{f_i}$ は有限に生成される (それぞれ有限に提示される) $B$ モジュールです。なぜなら、それぞれの $i$ に対して正確なシーケンス $AT_i \to A^n_{f_i} \to M_{f_i} \to 0$ が存在すると当然仮定できます。ここで、$m$ と $n$ は*$i$からは独立しています。 さて、$M' = M \otimes_A B$。 系は、命題 3 と章 I, § 3 から続きます。いいえ。 **6**、命題 11.
 
 $f_i$ の条件は、オープン集合 $X_{f_i}$ 形が $\mathrm{Spec}(A)$ (§ 4, no. 3、系 3 から命題 11) を *カバー* することを意味することに注意してください。
 
@@ -113,7 +113,7 @@ $f_i$ の条件は、オープン集合 $X_{f_i}$ 形が $\mathrm{Spec}(A)$ (§ 
 (b) $P$ *は有限に提示された加群であり、$A$ のすべての最大理想* $m$ に対して、$P_m$ * は自由* $A_m$* モジュール* です。
 (c) $P$ *は有限生成加群、すべての* $p \in \mathrm{Spec}(A)$、*$A_p$*モジュール* $P_p$ *は自由で、その階数を* $r_p$で表すと、*写像* $p \mapsto r_p$ *はトポロジカルで局所的に定数である空間* $\mathrm{Spec}(A)$ *(つまり、* $\mathrm{Spec}(A)$ の点ごとに、この写像が定数である近傍が認められます)*。
 
-(d) There exists a finite family $(f_i)_{i \in I}$ of elements of $A$, generating the ideal $A$, such that, for all $i \in I$, the $A,$-module $P_{f_i}$ is free with finite rank.
+(d) $A$ の要素の有限族 $(f_i)_{i \in I}$ が存在し、すべての $i \in I$ に対して、$A,$ モジュール $P_{f_i}$ が有限ランクで自由になるような理想 $A$ を生成します。
 
 (e) $A$ のすべての最大理想 $m$ に対して、$P_f$ が有限階数の自由な $A,$ 加群となるような $f \in A - m$ が存在します。
 
@@ -129,7 +129,7 @@ $f_i$ の条件は、オープン集合 $X_{f_i}$ 形が $\mathrm{Spec}(A)$ (§ 
 
 (b) ⇒ (e): no. 1の系から命題2まで続きます。
 
-(c) ⇒ (e): $m$ を $A$ の最大理想とする。 $r_m = n$と書き、$(x_i)_{1 \leq i \leq n}$を$P$の基底とします。 We can assume that the $x_i$ are canonical images of elements $p_i \in P$ $(1 \leq i \leq n)$ to within multiplication by an invertible element of $A,$. $(e_i)_{1 \leq i \leq n}$ を $A^n$ と $u : A^n \to P$ 準同型の標準基底として、$1 \leq i \leq n$ が $u(e_i) = p_i$ になるようにします。 $P$ は有限生成されるため、no. 1 の命題 2 から、$u_f$ が全射となるような $f \in A - m$ が存在することがわかります。 We conclude that $u_{f,g}$ is also surjective for all $g \in A - m$ and by hypothesis there exists $g \in A - m$ such that $r_p = n$ for $p \in X,$. 次に、$f g$によって置き換えること $f$、すべての$p \in X,$に対して$r_p = n$と仮定できます。 この場合、$u_p : A_p^n \to P_p$ は全射準同型であり、$P_p$ と $A_p$ はどちらも同じ階数の空き $A,$ モジュールです。従って (§ 3, no. 2, 系から命題 6) $u_p$ はすべての $p \in X_f$ に対して全単射です。 $p'$ を $A,$ の主理想とし、$p$ を標準写像の下の $A$ の逆像とします。 $(A_f^{n})_{p'}$ と $(P_f)_{p'}$ が標準同型の下で $A_p^n$ と $P_p$ と同一視される場合、$(u_f)_{p'}$ は $u_p$ と同一視され、その結果全単射となります。 $u_f$ は全単射 (§ 3, no. 3, 定理 1) であると結論する判断し、(e) が成立します。
+(c) ⇒ (e): $m$ を $A$ の最大理想とする。 $r_m = n$と書き、$(x_i)_{1 \leq i \leq n}$を$P$の基底とします。 $x_i$ は、元の標準像 $p_i \in P$ $(1 \leq i \leq n)$ から $A,$ の可逆元までの乗法以内であると仮定できます。 $(e_i)_{1 \leq i \leq n}$ を $A^n$ と $u : A^n \to P$ 準同型の標準基底とし、$1 \leq i \leq n$ に対して $u(e_i) = p_i$ を計算します。 $P$ は有限生成されるため、no. 1 の命題 2 から、$u_f$ が全射となるような $f \in A - m$ が存在することがわかります。私たち結論するは、$u_{f,g}$がすべての$g \in A - m$に対しても全射的であり、仮定までに、$p \in X,$に対して$r_p = n$となるような$g \in A - m$が存在します。次に、置き換えること $f$ by $f g$ では、すべての $p \in X,$ に対して $r_p = n$ と仮定できます。この場合、$u_p : A_p^n \to P_p$ は全射準同型であり、$P_p$ と $A_p$ は両方とも同じ階数の空き $A,$ モジュールです。従って (§ 3, no. 2, 系 ～ 命題 6) $u_p$ はすべての $p \in X_f$ に対して全単射です。 $p'$ を $A,$ の主な理想とし、$p$ を標準写像の下の $A$ におけるその逆像とします。 $(A_f^{n})_{p'}$ と $(P_f)_{p'}$ が標準同型で $A_p^n$ と $P_p$ と同一視される場合、$(u_f)_{p'}$ は $u_p$ と同一視され、その結果全単射となります。 結論するは $u_f$ が全単射 (§ 3, no. 3, 定理 1) であり、(e) が成立します。
 
 (e) ⇒ (d): $P_f$ が有限生成された自由な $A_f$ モジュールとなるように、$E$ を $\in A$ からオフにする集合とします。 仮定は、$E$が$A,$の極大理想に含まれていないため、$E$生成する理想$A$が存在し、したがって$E$と$a_i \in A$の元の有限族$(f_i)_{1 \leq i \leq n}$が存在することを意味します。 $(1 \leq i \leq n)$ は $1 = \sum_{i=1}^n a_i f_i$ になります。 よって (d)。
 
@@ -141,7 +141,7 @@ $f_i$ の条件は、オープン集合 $X_{f_i}$ 形が $\mathrm{Spec}(A)$ (§ 
 $$
 M = \prod_{i \in I} P_i = P \otimes_A B.
 $$
-すべての添字 $i$ に対して、$P_i$ が $L$ の直因子となるように、自由な $A_i$ モジュール $L$ が存在し、すべての $L$ が同じ階数を持つと仮定できます。その場合、$L = \prod_{i \in I} L_i$ は自由な B-加群であり、その M は直因子であり、他の語 M は有限生成された射影 B-加群です。 As B is a faithfully flat A-module (no. 1, Proposition 3), we conclude that P is a finitely generated projective A-module (Chapter I, §3, no. 6, Proposition 12).
+すべての添字 $i$ に対して、$P_i$ が $L$ の直因子となるように、自由な $A_i$ モジュール $L$ が存在し、すべての $L$ が同じ階数を持つと仮定できます。その場合、$L = \prod_{i \in I} L_i$ は自由な B-加群であり、その M は直因子であり、他の語 M は有限生成された射影 B-加群です。 B は忠実に平坦な A 加群 (no. 1、命題 3) であるため、P は有限生成された射影 A 加群であると結論付けられます (I, §3, no. 6 章、命題 12)。
 
 #### 系 1 {#ac-ii-s5-thm-1-cor-1 .statement tag=04BK}
 
@@ -177,7 +177,7 @@ P を有限生成射影 A-加群とします。 A のすべての素イデアル
 
 #### 定理 2 {#ac-ii-s5-thm-2 .statement tag=04BO}
 
-*Let $P$ be an $A$-module and $n$ an integer $\geqslant 0$. 次のプロパティは同等です:*
+*$P$ を $A$ モジュール、$n$ 整数 $\geqslant 0$ とします。次のプロパティは同等です:*
 
 (a) *$P$ は階数* $n$ の射影です。
 
@@ -230,25 +230,25 @@ $$
 
 *A を半局所環、P を有限生成射影 A-加群とします。 P の階数が定義されている場合、P は自由A-加群となります。*
 
-まず、A が体 $K_i$ ($1 \leq i \leq n$) の積と同型であると仮定します。 次に、$K_i$ は A の最小理想 (*代数*、章 VIII, § 3, no. 1) と同一視され、K のすべての $i$、和 $p_i$、添字 $j \neq i$ は A の最大理想、$p_i$ と同一視されます。 ($1 \leq i \leq n$) は A の唯一の主要な理想です。 Every finitely generated A-module P is therefore the direct sum of its isotypical components $P_i$ ($1 \leq i \leq n$), $P_i$ being isomorphic to a direct sum of a finite number $r_i$ of A-modules isomorphic to K, (*Algebra*, Chapter VIII, § 5, no. 1, Proposition 1 and no. 3, Proposition 11); the ring $A_{r_i}$ is identified with K, and annihilates the $P_j$ of index $j \neq i$, hence $r_i = \mathrm{rg}_{p_i}(P)$; if all the $r_i$ are equal to the same number $r$, P is isomorphic to $A^r$, whence the proposition in this case. 一般的な場合、$\mathfrak{R}$ を A と $B = A / \mathfrak{R}$ のジェイコブソン根基とします。 B が体の積であるため、射影 B-加群 $P_{(B)}$ は命題 4 に先行する注意によって自由になります。 *また、P はフラット A-加群と命題であり、その後 § 3, no. 2、命題 5 から続きます。*
+まず、A が体 $K_i$ ($1 \leq i \leq n$) の積と同型であると仮定します。次に、$K_i$ は A の最小理想 (*代数*、章 VIII, § 3, no. 1) と同一視され、すべての $i$、和 $p_i$、K、添字 $j \neq i$ は A の最大理想であり、 $p_i$ ($1 \leq i \leq n$) は A の唯一の素イデアルです。 したがって、すべての有限生成A-加群 P はその同型成分 $P_i$ ($1 \leq i \leq n$) の直和であり、$P_i$ は有限数の直和と同型です。 A-加群の $r_i$ は K、(*代数*、章 VIII, § 5, no. 1、命題 1 および no. 3、命題 11) と同型です。 環 $A_{r_i}$ は K と同一視され、添字 $j \neq i$ の $P_j$ を消滅させ、したがって $r_i = \mathrm{rg}_{p_i}(P)$ になります。すべての $r_i$ が同じ数 $r$ に等しい場合、この場合、P は $A^r$、よって命題と同型です。一般的な場合、$\mathfrak{R}$ を A と $B = A / \mathfrak{R}$ のジェイコブソン根基とします。 B が体の積であるため、射影 B-加群 $P_{(B)}$ は命題 4 に先立つ注意によって自由になります。 *また、P はフラット A-加群と命題で、その後 § 3, no. 2、命題が続きます。 5.*
 
 ### 4. 射影加群/階数 1
 
 #### 定理 3 {#ac-ii-s5-thm-3 .statement tag=04BT}
 
-$A$ を環および $M$ を任意に生成した $A$ モジュールとします。
+$A$ を環とし、$M$ を任意に生成した $A$ モジュールとします。
 
-(i) *$M \otimes_A N$ が $A$ と同型であるような $A$ 加群 $N$ が存在する場合、加群 $M$ は階数 1 の射影です。*
+(i) *$M \otimes_A N$ が $A$ と同型であるような $A$ 加群 $N$ が存在する場合、加群 $M$ は階数 1 の射影です。
 
-(ii) *逆に、$M$ が階数 1 の射影であり、$M^*$ が $M$ の双対である場合、$M \times M^*$ 上の正規の双線形形式 $(x, x^*) \to \langle x, x^* \rangle$ に対して、標準準同型 $u : M \otimes_A M^* \to A$ 対応する (代数, 章 II, § 2, no. 3) は全単射です*。
+(ii) *逆に、$M$ が階数 1 の射影であり、$M^*$ が $M$ の双数である場合、標準準同型 $u : M \otimes_A M^* \to A$ 対応するは、正規の双線形形式 $(x, x^*) \to \langle x, x^* \rangle$ $M \times M^*$ (代数, 章 II, § 2, no. 3) は全単射です*。
 
-(i) $A$ のすべての最大理想 $m$ について、$A_m$ 加群 $M$ には階数 1 (定理 2 (b)) が含まれないことを証明する必要があります。 $A_m$ によって置き換える $A$ を自由に実行できるため、$A$ が *ローカル* 環 ($§ 2$、no. 7、命題 18) であると想定できます。 $k = A/m$ にしましょう。 同型 $v : M \otimes_A N \to A$ 定義する同型
+(i) $A$ のすべての最大理想 $m$ について、$A_m$ 加群 $M$ には階数 1 (定理 2 (b)) が存在しないことを証明する必要があります。 $A_m$ によって置き換える $A$ を自由に実行できるため、$A$ が *ローカル* 環 ($§ 2$, no. 7, 命題 18) であると想定できます。 $k = A/m$ にしましょう。 同型 $v : M \otimes_A N \to A$ 定義する同型
 
 $$
 v \otimes 1_k : (M/mM) \otimes_k (N/mN) \to k
 $$
 
-$(M/mM) \otimes_k (N/mN)$ の $k$ 上の階数は $M/mM$ と $N/mN$ の階数の積であるため、これら後者は必ず 1 に等しく、他の語 $M/mM$ は単次です。したがって、$M$ は単次 ($§ 3$、no. 2、系 2 ～ 命題 4) です。一方、$M$の消滅子も$M \otimes_A N$を消滅させるため、零となり、$M$が$A$と同型であることが証明されます。
+$(M/mM) \otimes_k (N/mN)$ の $k$ 上の階数は $M/mM$ の階数の積と $N/mN$ であるため、後者は必ず 1 に等しく、他の場合は語 $M/mM$ は一次です。したがって、$M$ は単次 ($§ 3$、no. 2、系 2 ～ 命題 4) です。一方、$M$の消滅子も$M \otimes_A N$を消滅させるため、零となり、$M$が$A$と同型であることが証明されます。
 
 (ii) $A$ のすべての最大理想 $m$ に対して、$u_m$ は同型 ($§ 3$, no. 3, 定理 1) であることを証明すれば十分です。 $M$ は有限に提示されるため (章 I、$§ 2$、no. 8、補題 8)、$(M^*)_m$ は二重の $(M_m)^*$ ($§ 2$、no. 7、 命題 19) そして、$M_m$ は双対の $(M_m)^*$ と同様に階数 1 を含まないので、明らかに標準準同型 $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ は全単射であり、証明を完成します。
 
@@ -264,7 +264,7 @@ $$
 
 これは、式 (2)、(3)、および (4) からすぐに得られます。
 
-Let us now note that every finitely generated $A$-module is isomorphic to a quotient module of $L = \mathbf{A}^{(\mathbf{N})}$; we may therefore speak of the *set $F(A)$ of classes of finitely generated $A$-modules* with respect to isomorphism (*Set Theory*, Chapter I, §6, no. 9); we denote by $P(A)$ the subset of $F(A)$ consisting of the classes of projective $A$-modules of rank 1 and by $\operatorname{cl}(M)$ the image in $P(A)$ of a projective $A$-module $M$ of rank 1. 2 つの射影 $A$ 加群 $M$ に対して、それは明らかです。
+ここで、有限生成されたすべての $A$ 加群が $L = \mathbf{A}^{(\mathbf{N})}$ の商加群と同型であることに注意してください。したがって、同型性に関して、有限生成された $A$ 加群* のクラスの *集合 $F(A)$ について話すことができます (*集合論*、I, §6, no. 9章)。ランク 1 の射影 $A$ モジュールのクラスからなる $F(A)$ のサブセットを $P(A)$ で表し、ランク 1 の射影 $A$ モジュール $M$ の $P(A)$ の画像を $\operatorname{cl}(M)$ で表します。 2 つの射影 $A$ 加群 $M$ に対して、それは明らかです。
 
 階数 1 の N、cl(M \otimes_A N) は cl(M) と cl(N) にのみ依存します。 定義私たち集合として
 
@@ -278,7 +278,7 @@ Let us now note that every finitely generated $A$-module is isomorphic to a quot
 
 (7) $$ \mathrm{cl}(M^*) = -\mathrm{cl}(M) \quad \text{and} \quad \mathrm{cl}(A) = 0. $$
 
-The associativity and commutativity of the tensor product show that the law of composition (6) is associative and commutative; the isomorphism between $A \otimes_A M$ and M prove that $\mathrm{cl}(A)$ is the identity element under this law and, by virtue of Theorem 3, $\mathrm{cl}(M) + \mathrm{cl}(M^*) = \mathrm{cl}(A)$, whence the proposition.
+テンソル積の結合性と可換性は、合成法則 (6) が結合性と可換性であることを示しています。 $A \otimes_A M$ と M の間の同型性は、この法則に基づいて $\mathrm{cl}(A)$ が恒等要素であることを証明し、定理 3、$\mathrm{cl}(M) + \mathrm{cl}(M^*) = \mathrm{cl}(A)$ によって命題の由来となります。
 
 B を可換 A-代数とし、M を階数 1 の射影 A-加群とします。この場合、$M_{(B)} = B \otimes_A M$ は階数 1 (no. 3, 命題 4) の射影 B-加群です。次に、次のような正規 $\phi : P(A) \to P(B)$ と呼ばれる写像が存在します。
 
@@ -286,7 +286,7 @@ B を可換 A-代数とし、M を階数 1 の射影 A-加群とします。こ�
 
 2 つの A-加群 M, N に対する方程式 $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ は、写像 $\phi$ が可換群 *準同型* であることを証明します。
 
-*注意 (2).* 定理 1 の条件 (e) (P が射影で有限生成されるという事実と同等) は、$X = \mathrm{Spec}(A)$ 上の加群* $\tilde{P}$ の *束 P が局所的に自由で有限であるというというによっても表現できます。 型* であるため、ベクトルの束が X に束ねられた切断の束として解釈できます。 逆に、X を超えるすべてのベクトルバンドルは有限生成射影加群から生じ、一意の同型内に決定されます。 階数 $n$ の射影加群は、したがって対応するからベクトルの束となり、そのすべてのファイバーは次元 $n$ を持ちます。 特に、階数 1 対応する ～ 射影加群の階数 1 のベクトルバンドル。 If we denote by $\mathscr{O}_X$ the structure sheaf $\tilde{A}$ and by $\mathscr{O}_X^*$ the *sheaf of units* of $\mathscr{O}_X$ (whose sections over an open set U of X are the invertible elements of the ring of sections of $\mathscr{O}_X$ over U), it follows that the group $P(A)$ is isomorphic to the first cohomology group $H^1(X, \mathscr{O}_X^*)$.*
+*注意 (2).* 定理 1 の条件 (e) (P が射影で有限生成されるという事実と同等) は、$X = \mathrm{Spec}(A)$ 上の加群* $\tilde{P}$ の *束 P が局所的に自由で有限であるというというによっても表現できます。 型* であるため、ベクトルの束が X に束ねられた切断の束として解釈できます。 逆に、X を超えるすべてのベクトルバンドルは有限生成射影加群から生じ、一意の同型内に決定されます。 階数 $n$ の射影加群は、したがって対応するからベクトルの束となり、そのすべてのファイバーは次元 $n$ を持ちます。 特に、階数 1 対応する ～ 射影加群の階数 1 のベクトルバンドル。 構造の束 $\tilde{A}$ を $\mathscr{O}_X$ で表し、$\mathscr{O}_X$ の *単位の束* (X の開集合 U 上のセクションは、U 上の $\mathscr{O}_X$ のセクションの環の可逆要素である) を $\mathscr{O}_X^*$ で表すと、群 $P(A)$ は最初のコホモロジーと同型であることがわかります。グループ$H^1(X, \mathscr{O}_X^*)$.*
 
 (* A. Grothendieck、Éléments de géométrie algébrique、I (§ 1) (Publ. Math. I.H.E.S.、no. 4、1960) を参照。
 
@@ -374,11 +374,11 @@ $$
 
 すべての $x \in M$、集合 $v_i(x) = n_i x$。 $v_i$ は M では線型形式で、すべての $x \in M$ では (9) $x = \sum_{i=1}^{n} m_i v_i(x)$ です。これは、M が射影であり、$m_i$ によって生成されることを証明します (代数, 章 11, §2, no. 6, 命題 12)。したがって、M は有限生成射影加群です。
 
-m を A の最大理想とする。 整数 $r = \mathrm{rg}_m(M)$ が 1 に等しいことを示します。S' を $\mathbf{A}_{m'}$ の S の像とします。 Sの元はAの0の因子ではないので、$\mathbf{A}_{m'}$はフラットA-加群(§ 2, no. 4、定理1、章)であるため、S'のそれらは$\mathbf{A}_{m'}$の0の因子ではありません。 I, §2, no. 4、命題 3);次に、${S'}^{-1}A_m \neq 0$、そして、$M_m$ は階数 $r$ の空き $A_m$ モジュールであるため、${S'}^{-1}M_m$ は階数 $r$ の空き ${S'}^{-1}A_m$ モジュールです。しかし、T' が $S^{-1}A$、${S'}^{-1}A$ の A $-m$ の像である場合、(それぞれ ${S'}^{-1}M_m$) は ${T'}^{-1}(S^{-1}A)$ (それぞれ ${T'}^{-1}(S^{-1}M)$) (§ 2, no. 3、命題 7) と正規識別されます。ここで、$S^{-1}M = B$ (命題 8 (c)) であるため、${T'}^{-1}(S^{-1}M)$ は ${T'}^{-1}(S^{-1}A)$ 上の階数 1 の自由A-加群であり、これは $r = 1$ を証明し、含意 (a) $\Rightarrow$ (c) を示します。
+m を A の最大理想とする。 整数 $r = \mathrm{rg}_m(M)$ が 1 に等しいことを示します。S' を $\mathbf{A}_{m'}$ の S の像とします。 Sの元はAの0の因子ではないので、$\mathbf{A}_{m'}$はフラットA-加群(§ 2, no. 4、定理1、章)であるため、S'のそれらは$\mathbf{A}_{m'}$の0の因子ではありません。 I, §2, no. 4、命題 3);次に、${S'}^{-1}A_m \neq 0$、そして、$M_m$ は階数 $r$ の空き $A_m$ モジュールであるため、${S'}^{-1}M_m$ は階数 $r$ の空き ${S'}^{-1}A_m$ モジュールです。しかし、T' が $S^{-1}A$ の A $-m$ の像である場合、${S'}^{-1}A$ (それぞれ ${S'}^{-1}M_m$) は正規的に ${T'}^{-1}(S^{-1}A)$ (それぞれ ${T'}^{-1}(S^{-1}M)$) (§ 2, no. 3, 命題 7) と識別されます。ここで $S^{-1}M = B$ (命題 8 (c)) であるため、${T'}^{-1}(S^{-1}M)$ は ${T'}^{-1}(S^{-1}A)$ 上の階数 1 の自由A-加群であり、これは $r = 1$ を証明し、含意 (a) $\Rightarrow$ (c) を示します。
 
-(c) $\Rightarrow$ (b) の含意は自明です。 (b) $\Rightarrow$ (a) を示しましょう。 仮定までに、M 上の線型形式のファミリー (必ずしも有限ではない) $(f_\lambda)_{\lambda \in L}$ と、M の元のファミリー $(m_\lambda)_{\lambda \in L}$ が存在し、すべての $x \in M$ について、ファミリー $(f_\lambda(x))$ は有限台と $x = \sum_{\lambda \in L} m_\lambda f_\lambda(x)$ (代数, 章 II, §2, no. 6、命題 12）。 M は非縮退であるため、一部の $n_\lambda \in A$ に対して $f_\lambda(x) = n_\lambda x$: no. 5 の命題 9 による M です。 x を M $\cap S$ (no. 5, 命題 8) の元とすると、添字と $\sum_{\lambda \in L} m_\lambda n_\lambda = 1$ の有限の数を除いて、必然的に $n_\lambda = 0$ になることがわかります。これは明らかに M を意味します。 (A:M) = A、よって (a)。
+(c) $\Rightarrow$ (b) の含意は自明です。 (b) $\Rightarrow$ (a) を示しましょう。 仮定までに、M 上の線型形式の族 (必ずしも有限ではない) $(f_\lambda)_{\lambda \in L}$ と M の元の族 $(m_\lambda)_{\lambda \in L}$ が存在し、すべての $x \in M$ について、族 $(f_\lambda(x))$ は有限台と $x = \sum_{\lambda \in L} m_\lambda f_\lambda(x)$ を持ちます。 (代数、章 II, §2, no. 6、命題 12)。 M は非縮退であるため、一部の $n_\lambda \in A$ では $f_\lambda(x) = n_\lambda x$: no. 5 の命題による M です。 x を M $\cap S$ (no. 5, 命題 8) の元とすると、添字と $\sum_{\lambda \in L} m_\lambda n_\lambda = 1$ の有限の数を除いて、必然的に $n_\lambda = 0$ であることがわかります。これは明らかに M を意味します。 (A:M) = A、よって (a)。
 
-no. 3 の定義 2 により、(c) は (d) を意味します。 逆を見せてみましょう。 M は非縮退なので、その消滅子は零 (命題 8 (b)) であり、その場合、$M_m$ の消滅子 (§ 2, no. 4, 公式 (9)) も同様です。 M は単種の & 加群であると想定されているため、階数 1 がなく、no. 3, 定理 2 から M は階数 1 の射影であることがわかります。
+no. 3 の定義 2 により、(c) は (d) を意味します。 逆を見せてみましょう。 M は非縮退であるため、その消滅子は零 (命題 8 (b)) であり、その場合、$M_m$ (§ 2, no. 4, 公式 (9)) の消滅子も同様です。 M は単種の & 加群であると想定されているため、階数 1 はなく、no. 3, 定理 2 から M は階数 1 の射影であることがわかります。
 
 #### 系 {#ac-ii-s5-n6-cor-1 .statement tag=04C5}
 
@@ -391,9 +391,9 @@ M、N を B の 2 つのサブ A モジュールとします。M が可逆であ
 (i) 標準準同型 $M \otimes_A N \to M . N$ は全単射です。
 (ii) $N : M = N . (A : M)$ および $N = (N : M) . M$。
 
-$j$ を標準単射 $N \to B$ とします。 $M$ はフラットな $A$ 加群 (系から定理 4) であるため、$1 \otimes j : M \otimes_A N \to M \otimes_A B$ は単射です。しかし、$B = S^{-1}A$ のように、$B$ 加群 $M \otimes_A B$ は $S^{-1}M$ に等しいため、$M$ は非縮退 (no. 5、命題 8) であるため、$B$ と識別されます。この識別が行われると、$1 \otimes j$の像は$M . N$、よって(i)となります。
+$j$ を標準単射 $N \to B$ とします。 $M$ はフラットな $A$ 加群 (系から定理 4) であるため、$1 \otimes j : M \otimes_A N \to M \otimes_A B$ は単射です。しかし、$B = S^{-1}A$ のように、$B$ モジュール $M \otimes_A B$ は $S^{-1}M$ に等しいため、$M$ は非縮退 (no. 5、命題 8) であるため、$B$ と識別されます。この識別が行われると、$1 \otimes j$の像は$M . N$、よって(i)となります。
 
-集合 $M' = A : M$ にしましょう。次に、明らかに $M'.N \subset N : M$ と $M.(N : M) \subset N$ です。一方、$M.M' = A$ (命題 10) 以降、
+集合 $M' = A : M$ にしましょう。それから、明らかに $M'.N \subset N : M$ と $M.(N : M) \subset N$ です。一方、$M.M' = A$ (命題 10) 以降、
 
 $$
 N : M = M'.M.(N : M) \subset M'.N
@@ -403,11 +403,11 @@ $$
 
 #### 注意 {#ac-ii-s5-n6-rem-1 .statement tag=04C7}
 
-命題 11 の (i) の証明は、$M$ がフラットで非縮退であるという事実のみを使用します。
+命題 11 の (i) の証明は、$M$ がフラットで非縮退であるという事実のみを使用しています。
 
 ### 7. 群の類の反転加群
 
-(5番と6番の記法を保存します。)
+（5番と6番の記法を保存します。）
 
 乗法では、B 形のサブ A 加群は可換モノイド $\mathfrak{m}$ であり、A は単位元です。すると、可逆加群は $\mathfrak{m}$ の可逆元なので、 形は可換群 $\mathfrak{z}$ になります。 (no. 6, 命題 10) $M \in \mathfrak{z}$ の逆数は $A : M$ であることを見てきました。
 
@@ -447,7 +447,7 @@ $P(A)$のno. 6の命題11と加法の定義から、$\mathbf{3}$の$M, N$は$cl(
 
 #### 系 2 {#ac-ii-s5-prop-12-cor-2 .statement tag=04CA}
 
-*If the ring $B$ is semi-local, the group $\mathfrak{C}$ of classes of invertible sub-A-modules of B is canonically identified with the group $P(A)$ of classes of projective A-modules of rank 1.*
+*環 $B$ が準局所的である場合、B の可逆サブ A 加群のクラスのグループ $\mathfrak{C}$ は、ランク 1 の射影 A 加群のクラスのグループ $P(A)$ と正規に識別されます。
 
 この場合、$P(B) = 0$ (no. 3、命題 5) です。
 

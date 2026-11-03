@@ -37,16 +37,16 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 30cea19c0e164bb10d16edc40c1012ca39ece6dde0c7cf88cdcc04a6121e0724
+content_sha256: 3f082917e87a48f590201560ca7f1569c741247892c4392190053f922aa7c02a
 translated_from: content/en/int/IV/07_s7_barycenters.md
 translation_method: google
 source_content_sha256: a0b29318ee51bbadb84b433570743b81dc51c686140364de87fd714982b23900
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b563909b3396a8c7ab9a17032a537d9f13f2adaf8d6b5d2aa3d892600f49b893
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。重心
@@ -140,7 +140,7 @@ Q.E.D.
 
 — *$K$ が $K'$ の閉じた凸包絡線となるように、$K'$ を $K$ の圧縮部分集合とします。 $x \in K'$ が $K$ の極値点であるという位数では、$x$ を重心として、総質量 1 の $K'$ に対する唯一の正の尺度が $\varepsilon_x$ であることが必要かつ十分です。
 
-Suppose $x$ is an extremal point of $K$; to prove that $\varepsilon_x$ is the only positive measure on $K'$, of total mass 1, having $x$ as barycenter, it suffices, by Prop. 3, to see that the set of *discrete* measures $\nu$ on $K'$ that are positive, of total mass 1, and have $x$ as barycenter, reduces to $\varepsilon_x$. しかし、そのような尺度$\nu$は、$1 \leq i \leq r$と$\sum_{i=1}^{r} \lambda_i = 1$に$\lambda_i > 0$を加えた形$\sum_{i=1}^r \lambda_i \varepsilon_{x_i}$であり、$x$が$\nu$の重心である仮定は、$x = \sum_{i=1}^{r} \lambda_i x_i$と書くことができます。 $x$ は極値であるため、これはすべての $i$、よって $\nu = \varepsilon_x$ に対して $x_i = x$ であることを意味します。
+$x$ が $K$ の極値点であるとします。 $\varepsilon_x$ が、$x$ を重心として、総質量 1 の $K'$ 上で唯一の正の測度であることを証明するには、提案 3 により、*離散* の集合が、総質量 1 の正の $K'$ 上の $\nu$ を測り、以下のように $x$ を持つことがわかるだけで十分です。重心、簡約する ～ $\varepsilon_x$。 しかし、そのような尺度$\nu$は、$1 \leq i \leq r$と$\sum_{i=1}^{r} \lambda_i = 1$に$\lambda_i > 0$を加えた形$\sum_{i=1}^r \lambda_i \varepsilon_{x_i}$であり、$x$が$\nu$の重心である仮定は、$x = \sum_{i=1}^{r} \lambda_i x_i$と書くことができます。 $x$ は極値であるため、これはすべての $i$、よって $\nu = \varepsilon_x$ に対して $x_i = x$ であることを意味します。
 
 逆に、$\varepsilon_x$ が、$x$ を重心とする、総質量 1 の$K'$ における唯一の正の測度であると仮定し、$x$ が極値であることを示しましょう。逆の場合、$0 < \lambda < 1$ と $x = \lambda x' + (1 - \lambda) x''$ のように、$K$ と実数 $\lambda$ の 2 つの異なる点 $x', x''$ が存在します。提案 1 により、$x'$ (それぞれ $x''$) は、総質量 1 の $K'$ 上の正の測度 $\mu'$ (それぞれ $\mu''$) の重心であり、$x$ は $\lambda \mu' + (1 - \lambda) \mu''$ の重心です。したがって$\lambda \mu' + (1 - \lambda) \mu'' = \varepsilon_x$。したがって、$\mu'$ と $\mu''$ は、$\varepsilon_x$、よって $x' = x'' = x$ に比例しますが、これは不合理です。
 
@@ -150,13 +150,13 @@ Suppose $x$ is an extremal point of $K$; to prove that $\varepsilon_x$ is the on
 
 最初の主張を証明するには、$\mathbf{R}$ の I 区間 $[0, 1]$ で表します。 K はコンパクトで計量可能であるため、$K \times K \times I$ も同様です。 $x \neq y$ と $0 < \lambda < 1$ が $K \times K \times I$ でオープンであるようなトリプル $(x, y, \lambda)$ によって形成された $K \times K \times I$ の部分集合 U は、$K \times K \times I$ にクローズされた集合の数列 $(F_n)$ が存在し、その和集合は U です(GT、IX, §2, No. 5、提案 7)。 $q(x, y, \lambda) = \lambda x + (1 - \lambda) y$ によって定義される写像 $q : K \times K \times I \to K$ は連続であり、極値点、$K - M = q(U) = \bigcup_n q(F_n)$ の定義によって定義されます。しかし、$F_n$ は $K \times K \times I$ で閉じているためコンパクトです。したがって、$q(F_n)$ はコンパクトであり、したがって K で閉じています。したがって、K では集合 $U_n = K - q(F_n)$ がオープンしており、$M = \bigcap_n U_n$ がございます。
 
-In the continuation of the proof, we shall denote by $u$ a continuous and *convex* numerical function on K, by $G \subset E \times \mathbf{R}$ the graph of $u$, and by S the *closed convex envelope* of G in $E \times \mathbf{R}$.
+証明の続きでは、K 上の連続 *凸*数値関数を $u$ で、$u$ のグラフを $G \subset E \times \mathbf{R}$ で、そして $E \times \mathbf{R}$ における G の *閉じた凸包絡線 * を S で表します。
 
 #### 補題 1 {#int-iv-s7-lem-1 .statement tag=08YT}
 
 — *$\overline{u}$を、K上の$\geq u$であるE上の連続アフィン線形写像の下側包絡線とします。その場合、Sは、$a \in K$と$u(a) \leq b \leq \overline{u}(a)$のように、点$(a, b) \in E \times \mathbf{R}$の集合になります。
 
-ハーン・バナッハ定理によれば、$(a, b)$ から S までの属するについて、$E \times \mathbf{R}$ 上のすべての連続アフィン線形写像 $h$ に対して $h(a, b) \geq 0$ が、$x \in K$ に対して $h(x, u(x)) \geq 0$ であることが必要かつ十分です。 Setting $h(x, t) = f(x) - \lambda t$, where $f$ is a continuous affine linear function on E, we see that the relation $(a, b) \in S$ is equivalent to the following property: the relation
+ハーン・バナッハ定理によれば、$(a, b)$ から S までの属するについて、$E \times \mathbf{R}$ 上のすべての連続アフィン線形写像 $h$ に対して $h(a, b) \geq 0$ が、$x \in K$ に対して $h(x, u(x)) \geq 0$ であることが必要かつ十分です。 $f$ が E 上の連続アフィン線形関数である $h(x, t) = f(x) - \lambda t$ を設定すると、関係 $(a, b) \in S$ が次のプロパティと同等であることがわかります。
 
 $$
 f(x) \geq \lambda u(x) \quad \text{for all } x \in K
@@ -245,7 +245,7 @@ $$
 
 (i) (9) により、標準的な空間 $\mathscr{H}'$ では $\| i_{\mathscr{H}}(x) \| \leq 1$、その他の語 $i_{\mathscr{H}}(X)$ は制限されており、弱い位相 $\sigma(\mathscr{H}', \mathscr{H})$ を備えた $\mathscr{H}'$ が *準完全* であるという事実から主張が導き出されます。 III, §4, No. 2、コリント 5、1)。
 
-(ii) Every positive measure $\mu$ of mass 1 on $i_{\mathscr{H}}(X)$ arises, by transport of structure by means of the homeomorphism $i_{\mathscr{H}}$, from a positive measure $\lambda$ of mass 1 on X, the Dirac measure $\varepsilon_{i_{\mathscr{H}}(x)}$ arising from $\varepsilon_x$. $\mu$ が $i_{\mathscr{H}}(x)$ を重心として認めるということは、定義によって次のことを意味します。
+(ii) $i_{\mathscr{H}}(X)$ 上の質量 1 のすべての正の測度 $\mu$ は、X 上の質量 1 の正の測度 $\lambda$、$\varepsilon_x$ から生じるディラック測度 $\varepsilon_{i_{\mathscr{H}}(x)}$ から、同型写像 $i_{\mathscr{H}}$ によって構造の輸送によって生じます。 $\mu$ が $i_{\mathscr{H}}(x)$ を重心として認めるということは、定義によって次のことを意味します。
 
 $$
 \int_X \langle h, i_{\mathscr{H}}(z) \rangle \, d\lambda(z) = \langle h, i_{\mathscr{H}}(x) \rangle
@@ -259,7 +259,7 @@ $$
 
 *すべての写像* $h \in \mathscr{H}$ *少なくとも 1 つ* $\mathscr{H}$* から極値点* で最高値に達します。
 
-$x$ を $X$ の点、$\mathscr{H}$ の $h$ 写像とします。 すべての $z \in X$ に対する関係 $h(z) \leq h(x)$ は、すべての $z \in X$ に対して $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ と書くことができ、したがって、方程式 $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ で弱く閉じられた $\mathscr{H}'$ の超平面が $i_{\mathscr{H}}(X)$ の *サポート超平面* であることを意味します。 It is known (TVS, II, §7, No. 1, Cor. of Prop. 1) that such a hyperplane contains at least one extremal point of the closed convex envelope of $i_{\mathscr{H}}(X)$, and such a point $i_{\mathscr{H}}(y)$ is the image of an $\mathscr{H}$-extremal point $y$ by definition; $h(y)$ is therefore equal to the supremum of $h$ in $X$.
+$x$ を $X$ の点、$\mathscr{H}$ の $h$ 写像とします。 すべての $z \in X$ に対する関係 $h(z) \leq h(x)$ は、すべての $z \in X$ に対して $\langle h, i_{\mathscr{H}}(z) \rangle \leq \langle h, i_{\mathscr{H}}(x) \rangle$ と書くことができ、したがって、方程式 $\langle h, t' \rangle = \langle h, i_{\mathscr{H}}(x) \rangle$ で弱く閉じられた $\mathscr{H}'$ の超平面が $i_{\mathscr{H}}(X)$ の *サポート超平面* であることを意味します。 このような超平面には、閉じた凸包絡線 $i_{\mathscr{H}}(X)$ の極値点が少なくとも 1 つ含まれており、そのような点 $i_{\mathscr{H}}(y)$ は、定義により $\mathscr{H}$ 極値点 $y$ の画像であることが知られています (TVS、II, §7, No. 1、提案 1 の Cor.)。したがって、$h(y)$ は、$X$ の $h$ の上限に等しいです。
 
 #### 命題 6 {#int-iv-s7-prop-6 .statement tag=08YZ}
 
@@ -301,7 +301,7 @@ b) *すべての写像 $h \in \mathscr{H}$ に対して、集合 F は X の点�
 
 c) *すべての点 $x \in X$ に対して、X の総質量 1 の正の尺度 $\mu$ が存在し、写像 $h \in \mathscr{H}$ ごとに $\operatorname{Supp}(\mu) \subset F$ と $h(x) = \int h \, d\mu$ が存在します。*
 
-$G = i_{\mathscr{H}}(F)$ にしましょう。 条件 *a)* は、C の極値点の G 含む集合を意味します。 条件 *b)* は、G が $i_{\mathscr{H}}(X)$ の各クローズドサポート超平面と $i_{\mathscr{H}}(X)$ の共通部分を満たすことを意味します。 最後に、条件 *c)* は、$i_{\mathscr{H}}(X)$ のすべての点が G に含まれるサポートを持つメジャーの重心であることを意味します。 No. 1、提案 1 によると、これは、$i_{\mathscr{H}}(X)$ の閉じた凸包絡線が G の閉じた凸包絡線に等しいというというにも等価です。 The equivalence of the conditions *a)*, *b)* and *c)* therefore follows from TVS, II, §7, No. 1, Cor. of Prop. 2.
+$G = i_{\mathscr{H}}(F)$ にしましょう。 条件 *a)* は、C の極値点の G 含む集合を意味します。 条件 *b)* は、G が $i_{\mathscr{H}}(X)$ の各クローズドサポート超平面と $i_{\mathscr{H}}(X)$ の共通部分を満たすことを意味します。 最後に、条件 *c)* は、$i_{\mathscr{H}}(X)$ のすべての点が G に含まれるサポートを持つメジャーの重心であることを意味します。 No. 1、提案 1 によると、これは、$i_{\mathscr{H}}(X)$ の閉じた凸包絡線が G の閉じた凸包絡線に等しいというというにも等価です。 したがって、条件 *a)*、*b)*、および *c)* の同値は、TVS、II, §7, No. 1、Cor から続きます。提案 2 の。
 
 #### 命題 8 {#int-iv-s7-prop-8 .statement tag=08Z1}
 
@@ -315,11 +315,11 @@ $$
 
 Thさんの訳です。提案 5 のように、同型写像 $x \mapsto i_{\mathscr{H}}(x)$ を使用して、No. 2 の 1 を構造の輸送で生成します。
 
-A certain number of results of this No. may be extended when $\mathscr{H}$ is replaced by a set $\mathscr{P}$ of functions defined on X, with values in $\mathbf{R} \cup \{+\infty\}$, that are lower semi-continuous, $\mathscr{P}$ being assumed to contain the constants and to satisfy $\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ (Exer. 2).
+$\mathscr{H}$ が、X で定義された関数のセット $\mathscr{P}$ で置き換えられると、この番号の特定の数の結果が拡張される可能性があります。$\mathbf{R} \cup \{+\infty\}$ の値は下位の半連続であり、$\mathscr{P}$ には定数が含まれており、$\mathscr{P} + \mathscr{P} \subset \mathscr{P}$ を満たすと想定されます (例 2)。
 
 #### 例 {#int-iv-s7-n3-exa-1 .statement tag=08Z2}
 
-— Take X to be the unit ball $\|x\| \leq 1$ in $\mathbf{R}^3$, and let $\mathscr{H}$ be a vector space of continuous functions on X, containing the restrictions to X of the affine linear functions on $\mathbf{R}^3$ and satisfying the *maximum principle*, that is, for every non-constant function $h \in \mathscr{H}$, the set of points of X where h attains its supremum is contained in the sphere $S_2$. 次に、Props から簡単に実行します。 5と7は$\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$です。 An important example of a vector space $\mathscr{H}$ satisfying the preceding conditions is the set of functions continuous on X and *harmonic* in the open ball $\|x\| < 1$. これらの写像について、$\|x\| < 1$ の場合、すべての $h \in \mathscr{H}$ に対して $\operatorname{Supp}(\mu) \subset S_2$ と $h(x) = \int h \, d\mu$ となるような質量 1 の正の測度 $\mu$ が、ポアソンの公式によって与えられることが証明されます。
+— X を $\mathbf{R}^3$ の単位球 $\|x\| \leq 1$ とし、$\mathscr{H}$ を $\mathbf{R}^3$ 上のアフィン線形関数の X までの制限を含み、*最大原理*、つまりすべての非定数関数を満たす、X 上の連続関数のベクトル空間とします。 $h \in \mathscr{H}$、h が最高値に達するX の点の集合は球 $S_2$ に含まれます。 次に、Props から簡単に実行します。 5と7は$\operatorname{Ch}_{\mathscr{H}}(X) = \check{S}_{\mathscr{H}}(X) = S_2$です。 前述の条件を満たすベクトル空間 $\mathscr{H}$ の重要な例は、X で連続する関数のセットと、オープン ボール $\|x\| < 1$ の *調和* です。 これらの写像について、$\|x\| < 1$ の場合、すべての $h \in \mathscr{H}$ に対して $\operatorname{Supp}(\mu) \subset S_2$ と $h(x) = \int h \, d\mu$ となるような質量 1 の正の測度 $\mu$ が、ポアソンの公式によって与えられることが証明されます。
 
 $$
 d\mu(z) = \frac{1 - \|z\|^2}{\|z - x\|^3} d\sigma(z),
@@ -329,7 +329,7 @@ $$
 
 ### 4. アプリケーション: II。 ベクトル空間連続複合体写像
 
-$X$ を空でないコンパクト空間、 $\mathscr{H}$ を複素バナッハ空間 $\mathscr{C}(X; \mathbf{C})$ の線形部分空間とし、含むを定数とし、$X$ の点を分離します。 The set of real parts $\Re(f)$ of the functions $f \in \mathscr{H}$ is a linear subspace $\mathscr{H}_r$ of the real vector space $\mathscr{C}(X; \mathbf{R})$; for every $f \in \mathscr{H}$, the set $\mathscr{H}_r$ also contains $\mathscr{I}(f) = \Re(-if)$; it follows that $\mathscr{H}_r$ separates the points of $X$, because the relation $h(x) = h(y)$ for all $h \in \mathscr{H}_r$ implies that $\Re(f(x)) = \Re(f(y))$ and $\mathscr{I}(f(x)) = \mathscr{I}(f(y))$ and so $f(x) = f(y)$ for all $f \in \mathscr{H}$. $X$ の $\mathscr{H}_r$ 極値点は再び $\mathscr{H}$ 極値と呼ばれ、そのうちの集合は $\mathrm{Ch}_{\mathscr{H}}(X)$ で示され、後者集合の閉包は $\check{S}_{\mathscr{H}}(X)$ で示されます。 Props の類似物。 5と7は以下の通りです。
+$X$ を空でないコンパクト空間、 $\mathscr{H}$ を複素バナッハ空間 $\mathscr{C}(X; \mathbf{C})$ の線形部分空間とし、含むを定数とし、$X$ の点を分離します。 関数 $f \in \mathscr{H}$ の実部 $\Re(f)$ の集合は、実ベクトル空間 $\mathscr{C}(X; \mathbf{R})$ の線形部分空間 $\mathscr{H}_r$ です。 $f \in \mathscr{H}$ ごとに、セット $\mathscr{H}_r$ には $\mathscr{I}(f) = \Re(-if)$ も含ま​​れます。すべての $h \in \mathscr{H}_r$ に対する関係 $h(x) = h(y)$ は $\Re(f(x)) = \Re(f(y))$ と $\mathscr{I}(f(x)) = \mathscr{I}(f(y))$ を意味し、したがってすべての $f \in \mathscr{H}$ について $f(x) = f(y)$ を意味するため、$\mathscr{H}_r$ は $X$ の点を分離することになります。 $X$ の $\mathscr{H}_r$ 極値点は再び $\mathscr{H}$ 極値と呼ばれ、そのうちの集合は $\mathrm{Ch}_{\mathscr{H}}(X)$ で示され、後者集合の閉包は $\check{S}_{\mathscr{H}}(X)$ で示されます。 Props の類似物。 5と7は以下の通りです。
 
 #### 命題 9 {#int-iv-s7-prop-9 .statement tag=08Z3}
 
@@ -472,7 +472,7 @@ $$
 
 — $X_1$ を $|z_1|^2 + |z_2|^2 \leq 1$ (単位元ボールイン $\mathbf{R}^4$) となるような点 $(z_1, z_2) \in \mathbf{C}^2$ の集合とし、$\mathscr{A}_1'$ を正則写像の制限から $X_1$ の集合とする写像、$\mathbf{C}$の値は、$\mathbf{C}^2$の$X_1$の近傍で定義されます（写像に依存する近傍が考慮されます）。 $\mathscr{A}_1$を$\mathscr{C}(X_1; \mathbf{C})$における$\mathscr{A}_1'$の閉包とします。これは明らかに$\mathscr{C}(X_1; \mathbf{C})$の閉じた複合体部分代数であり、$X_1$の点を分離します。正則写像に「最大原理」を適用すると、$\mathrm{Ch}_{\mathscr{A}_1}(X_1)$ が球 $S_3$ であることがわかります。
 
-前の定義で、関係 $|z_1| \leq 1$ と $|z_2| \leq 1$ によって定義される「ポリディスク」$X_2$ によって置き換える $X_1$ を計算すると、部分代数 $\mathscr{A}_2'$ と $\mathscr{A}_2$ (次の$\mathscr{A}_2'$ の閉包) が得られます。 $\mathscr{C}(X_2; \mathbf{C})$。 ここで、最大原理は、$\mathrm{Ch}_{\mathscr{A}_2}(X_2)$ が関係 $|z_1| = 1$ と $|z_2| = 1$ によって定義される 'トーラス' であることを示しています。
+前述の定義で、関係 $|z_1| \leq 1$ と $|z_2| \leq 1$ によって定義される「ポリディスク」$X_2$ によって置き換える $X_1$ を計算すると、部分代数 $\mathscr{A}_2'$ と $\mathscr{A}_2$ が得られます ( $\mathscr{C}(X_2; \mathbf{C})$ の $\mathscr{A}_2'$ ここで、最大原理は、$\mathrm{Ch}_{\mathscr{A}_2}(X_2)$ が関係 $|z_1| = 1$ と $|z_2| = 1$ によって定義される 'トーラス' であることを示しています。
 
 これらの結果から、$X_1$ の開いた近傍から $X_2$ の開いた近傍への *変換* $X_1$ *into* $X_2$ への *分析的な同型* は存在しないと推測されます。なぜなら、もし $v$ がそのような写像の制限から $X_1$ だったら、 $\mathscr{A}_2 = v \mathscr{A}_1 v^{-1}$ があり、したがって $v$ は変換 $S_3$ から $T^2$ と同型の空間になるからです。 $S_3$ は単純に接続されていますが、$T^2$ は接続されていません。しかし、空間 $X_1$ と $X_2$ は *同相* であり、どちらも $\mathbf{R}^4$ の凸型集合と空でないの内部* が有界であることがわかります。
 
@@ -502,7 +502,7 @@ $$
 f(x) = \sup \left( f(y_1) + \cdots + f(y_p) \right),
 $$
 
-ここで、$(y_1, y_2, \ldots, y_p)$ は、$y_1 + y_2 + \cdots + y_p = x$ のように、$p$ の数列点の C の集合を超えます。 集合 $D = C \cap (x - C)$。 Since D is compact (TVS, II, §6, No. 8, Cor. 2 of Prop. 11), so is the set of elements $(y_1, \ldots, y_p)$ of $D^p$ such that $y_1 + \cdots + y_p = x$, thus the supremum (19) is attained.
+ここで、$(y_1, y_2, \ldots, y_p)$ は、$y_1 + y_2 + \cdots + y_p = x$ のように、$p$ の数列点の C の集合を超えます。 集合 $D = C \cap (x - C)$。 D はコンパクトなので (TVS、II, §6, No. 8、提案 11 の Cor. 2)、$D^p$ の要素のセット $(y_1, \ldots, y_p)$ も$y_1 + \cdots + y_p = x$ となるため、最高値 (19) が達成されます。
 
 #### 補題 6 {#int-iv-s7-lem-6 .statement tag=08ZB}
 

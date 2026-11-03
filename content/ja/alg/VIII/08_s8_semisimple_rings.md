@@ -30,16 +30,16 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: 45796d6e1ae60b3ae5d9a62199338534c6b0ebbb08f97640f50a8f553958321e
+content_sha256: c458189fadd014c96aab7299d0a0d3fe1575a1a0509f707d9e6122d3b85a8b41
 translated_from: content/en/alg/VIII/08_s8_semisimple_rings.md
 translation_method: google
 source_content_sha256: c3520cd3a5b6efacdd841870c3c2e342b0341edbd32074687bd212bc32731ee7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1a3773dba5b2dc16078f5f9c835f52dce7883842383c3ee7081a66c08a69da49
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。 半単純環
@@ -104,7 +104,7 @@ c) 半単純環の商は、両面理想により半単純環になります。
 
 d) 半単純環の有限族の積は半単純環です。
 
-A を半単純環とします。 有限族の積 $(A_i)_{i\in I}$ の単純な環と同型です。 A の中心は $A_i$ の中心の積と同型であり、$A^o$ は $A^o_i$ の積環と同型です。 従って、主張 a) と b) は、VIII の 1、p. 121 から系に続きます。
+Aを半単純環とします。単純な環の有限族 $(A_i)_{i\in I}$ の積と同型です。 A の中心は $A_i$ の中心の積と同型であり、$A^o$ は $A^o_i$ の積環と同型です。従って、主張 a) および b) は、VIII、p. 121 の系から続きます。
 
 $\mathfrak{a}$ を A の両側イデアルとします。半単純A-加群 $A_s$ のA-加群 $A_s/\mathfrak{a}$、商は、半単純です。従って、$(A/\mathfrak{a}$) モジュール $A_s/\mathfrak{a}$ は半単純です。 主張 c) が続きます。
 
@@ -226,7 +226,7 @@ A-加群 $A_s$ は半単純で、忠実でバランスが取れています。 �
 
 K を代数的に閉じた可換体とし、A を K 上の有限次数の半単純代数とする。$(V_i)_{i\in I}$ を、すべての単純A-加群が一意の $V_i$ と同型となるような単純A-加群の族とする。この場合、I は有限集合 (VIII, p. 136, 命題 1)、ベクトル空間 $V_i$ は体 K 上の有限次元であり、$V_i$ の交換子環は以下に等しい$K\cdot 1_{V_i}$ (VIII、p. 47、定理 1)、写像 $a\mapsto (a_{V_i})_{i\in I}$ は、A から $\prod_{i\in I}$ エンド$_K(V_i)$ (命題 8) までの代数同型です。
 
-We have defined (VIII, p. 50) a minimal two-sided ideal as a minimal element of the set of nonzero two-sided ideals, ordered by inclusion. 他の語では、A の最小の両側イデアル $\mathfrak{a}$ は、$_sA_d$ の単純な $(A$、A) サブバイモジュールです。 同様に、A の最大の両側イデアルを、A の適切な両側イデアルの集合の極大元として定義するとします。 A の最大の両側イデアル $\mathfrak{a}$ は、単に $_sA_d$ (VIII, p. 48, 定義 2) の最大の $(A$, A) サブバイモジュールです。 環 A が単純な場合、イデアル 0 は A の最大の両側イデアルであり、A は最小の両側イデアルです。
+最小の両側イデアルを (VIII, p. 50) を、包含順に並べた非ゼロの両側イデアルのセットの最小要素として定義しました。 他の語では、A の最小の両側イデアル $\mathfrak{a}$ は、$_sA_d$ の単純な $(A$、A) サブバイモジュールです。 同様に、A の最大の両側イデアルを、A の適切な両側イデアルの集合の極大元として定義するとします。 A の最大の両側イデアル $\mathfrak{a}$ は、単に $_sA_d$ (VIII, p. 48, 定義 2) の最大の $(A$, A) サブバイモジュールです。 環 A が単純な場合、イデアル 0 は A の最大の両側イデアルであり、A は最小の両側イデアルです。
 
 任意の $\lambda \in \mathscr{S}$ について、型 $\lambda$ の A-加群 $A_s$ の同型成分を $\mathfrak{a}_{\lambda}$ で表します。 $\mathscr{S}$ の部分集合 Λ については、集合 $\mathfrak{a}_{\Lambda}=\sum_{\lambda\in\Lambda}\mathfrak{a}_{\lambda}$ となります。
 
@@ -242,7 +242,7 @@ d) A から $A/\mathfrak{b}_{\lambda}$ までの $\lambda \in \mathscr{S}$ 、 �
 
 主張 a) は、命題 8 から続き、VIII、p. 87 の d) は、A-加群 $A_s$ に適用されます。 A の最小の両側イデアルは $\mathfrak{a}_{\lambda}$ であり、最大の両側イデアルは $\mathfrak{c}_{\lambda}=\mathfrak{a}_{\mathscr{S}-\lambda}$ ($\lambda \in \mathscr{S}$ の場合) であるということになります。
 
-$\lambda \in \mathscr{S}$ごとに$\mathfrak{b}_{\lambda}$と$\mathfrak{c}_{\lambda}$の等式を表示する必要があります。 $\mathscr{S}$ では $\lambda$ と $\mu$ を区別します。 The A-submodule $\mathfrak{a}_\mu S_{\lambda}$ of $S_{\lambda}$ is the union of the images of the linear mappings $a\mapsto ax$ from $\mathfrak{a}_\mu$ to $S_{\lambda}$ for $x\in S_{\lambda}$. 従って、零となり、$\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$となります。 従って、$\mathfrak{c}_{\lambda}$ は A の最大の両側イデアルであり、$\mathfrak{b}_{\lambda}$ は A とは異なるため、$\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$ が得られ、最後に $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ が得られます。
+$\lambda \in \mathscr{S}$ごとに$\mathfrak{b}_{\lambda}$と$\mathfrak{c}_{\lambda}$の等式を表示する必要があります。 $\mathscr{S}$ では $\lambda$ と $\mu$ を区別します。 $S_{\lambda}$ の A サブモジュール $\mathfrak{a}_\mu S_{\lambda}$ は、$x\in S_{\lambda}$ の $\mathfrak{a}_\mu$ から $S_{\lambda}$ までの線形マッピング $a\mapsto ax$ のイメージの結合です。 従って、零となり、$\mathfrak{a}_\mu\subset \mathfrak{b}_{\lambda}$となります。 従って、$\mathfrak{c}_{\lambda}$ は A の最大の両側イデアルであり、$\mathfrak{b}_{\lambda}$ は A とは異なるため、$\mathfrak{c}_{\lambda}\subset \mathfrak{b}_{\lambda}$ が得られ、最後に $\mathfrak{c}_{\lambda}=\mathfrak{b}_{\lambda}$ が得られます。
 
 #### 系 {#alg-viii-s8-n3-cor-1 .statement tag=009I}
 
@@ -308,7 +308,7 @@ g) Z の最大理想の集合。
 
 M を半単純環 A および M のサポート $\mathscr{S}_M\subset \mathscr{S}$ 上の加群とします。そのとき、M の消滅子 Ann(M) は両側イデアル $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$ であり、M のトレース イデアル $\tau (M)$ は両側イデアル $\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$ です。特にAはアン(M)の直和と$\tau (M)$です。
 
-定義 (VIII, p. 84)$,\mathscr{S}_M$ は、M の単純部分加群の類で構成されます。 加群 M は半単純なので、M の消滅子は、$\mathscr{S}_M$ を通る $\lambda$ に対して、消滅子の共通部分 $\mathfrak{b}_{\lambda}$ の類 $\lambda$ の加群です。 これで、$\lambda \in \mathscr{S}$ (命題 9) ごとに $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$ が得られます。 A は族 $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$ の直和であるため、M の消滅子は確かに $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$ に等しい。
+定義 (VIII, p. 84)$,\mathscr{S}_M$ は M の単純部分加群の類で構成されます。 加群 M は半単純なので、M の消滅子は消滅子の共通部分になります。 $\mathfrak{b}_{\lambda}$/加群/類 $\lambda$、$\mathscr{S}_M$までの$\lambda$。これで、$\lambda \in \mathscr{S}$ (命題 9) ごとに $\mathfrak{b}_{\lambda}=\sum_{\mu\not=\lambda}\mathfrak{a}_\mu$ が得られます。 A はファミリー $(\mathfrak{a}_{\lambda})_{\lambda\in\mathscr{S}}$ の直和であるため、M の消滅子は確かに $\sum_{\lambda\in\mathscr{S}-\mathscr{S}_M}\mathfrak{a}_{\lambda}$ に等しい。
 
 定義 (VIII、p. 80) により、理想的なトレース $\tau (M)$ は、M から $A_s$ までの A-線型写像の像によって生成される $A_s$ の A-部分加群です。 Mは半単純なので、$A_s$の単純部分加群と類所属から$\mathscr{S}_M$によって$\tau (M)$が生成されると言うのと同じになります。したがって、$\tau (M) =\sum_{\lambda\in\mathscr{S}_M}\mathfrak{a}_{\lambda}$ となります。
 
@@ -338,13 +338,13 @@ c) M をA-加群とします。この場合、M が $Ae$ と同型であるよ�
 
 A-加群 $A_s$ の自己準同型は、A の元による右側乗法です。 したがって、A-加群 $A_s$ の射影子は写像 $x\mapsto xe$ になります。ここで、$e$ は A の冪等です。 さらに、$A_s$の部分加群は左の理想であり、そのような部分加群は、射影子の像(II, §1, No. 9、p. 211、命題14)である場合に限り、補充を認めます。 主張 a) が続きます。
 
-関係 $Ae\subset Af$ は $e\in Af$ と同等です。従って、a) により、それは $e=ef$ と同等になります。 主張 b)が続きます。
+関係 $Ae\subset Af$ は $e\in Af$ と同等です。従って、a) により、それは $e=ef$ と同等になります。 主張 b) が続きます。
 
 A-加群 M が一次であれば、全射A-線型写像 $u: A_s\rightarrow M$ が存在します。さらに、M が射影である場合、$u$ の核を補足する $A_s$ の部分加群 $\mathfrak{a}$ が存在します。次に、$\mathfrak{a}$ から M への $u$ 誘導する同型です。逆に、M が $A_s$ の直因子と同型の場合、それは単次で射影です。 主張したがって、c) は a) から続きます。
 
 #### 注意 1 {#alg-viii-s8-n4-rem-1 .statement tag=009Q}
 
-$\mathfrak{a}$ を A の左イデアルとします。 上記の証明と、A の冪等 $e$ の集合から、II, §1, No. 8、p. 209、写像 $e\mapsto A(1-e)$ 定義する全単射の命題 12 の系により、次のようになります。 $A_s=\mathfrak{a}\oplus \mathfrak{b}$ となるような A の左理想$\mathfrak{b}$ の$\mathfrak{a}= Ae$ から集合 。
+$\mathfrak{a}$ を A の左イデアルとします。上記の証明と命題の系により、II, §1, No. 8、p. 209、写像 $e\mapsto A(1-e)$ 定義する全単射の 12 になります。 A の冪等 $e$ の集合は、$\mathfrak{a}= Ae$ から $A_s=\mathfrak{a}\oplus \mathfrak{b}$ となる A の左イデアル $\mathfrak{b}$ の集合になります。
 
 #### 注意 2 {#alg-viii-s8-n4-rem-2 .statement tag=009R}
 
@@ -366,11 +366,11 @@ $e$ を A の冪等とします。
 
 a) $(e_i)_{i\in I}$ が $e$ の分割である場合、A-加群 $Ae$ はファミリー $(Ae_i)_{i\in I}$ の直和です。
 
-b) $(\mathfrak{a}_i)_{i\in I}$ を、直和 $Ae$ を持つ A の左イデアルの有限族とする。 $i\in I$については、$\mathfrak{a}_i$の$e$の成分を$e_i$で表します。すると、$(e_i)_{i\in I}$ は $e$ の分割となり、$i\in I$ ごとに $\mathfrak{a}_i= Ae_i$ が得られます。
+b) $(\mathfrak{a}_i)_{i\in I}$ を、直和 $Ae$ を持つ A の左イデアルの有限族とする。 $i\in I$については、$\mathfrak{a}_i$の$e$の成分を$e_i$で表します。すると、$(e_i)_{i\in I}$ は $e$ の分割で、$i\in I$ ごとに $\mathfrak{a}_i= Ae_i$ になります。
 
 c) A-加群 $Ae$ は、べき等 $e$ が分解不可能な場合に限り、分解不可能です。
 
-$(e_i)_{i\in I}$ を $e$ の分割とします。 $i\in I$ ごとに、
+$(e_i)_{i\in I}$を$e$の分割とします。 $i\in I$ ごとに、
 
 $$
 e_ie=\sum_je_ie_j=e^2_i+\sum_{j\not=i}e_ie_j=e_i
@@ -422,7 +422,7 @@ c)を証明しましょう。 $x$ を M の元とします。すべての $\lamb
 
 #### 注意 4 {#alg-viii-s8-n4-rem-4 .statement tag=009U}
 
-環 A が半単純であるとします。 Let $(e_i)_{i\in I}$ be a partition of 1 consisting of nonzero idempotents in the center Z of A. Card(I) = Card($\mathscr{S}$) の場合、$e_i$ は Z の分解不可能な冪等です。
+環 A が半単純であるとします。 $(e_i)_{i\in I}$ を A の中心 Z における 1 の分割非零のからなるとします。Card(I) = Card($\mathscr{S}$) の場合、$e_i$ は Z の分解不可能な冪等です。
 
 ### 練習問題 {#alg-viii-s8-exercises}
 

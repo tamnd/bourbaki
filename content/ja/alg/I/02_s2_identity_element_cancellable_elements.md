@@ -46,16 +46,16 @@ subsections:
       pdf_page: 47
 statements: 26
 exercises: 17
-content_sha256: 0171d93e19ef18b5f068f835d07c6960d97dbe98148e3bb9dddbedb61299c344
+content_sha256: 77de053c2b63e46edb88a04a307e60a1d1c1533baaaac2824e37536d0a5be482
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
 translation_method: google
 source_content_sha256: 4e4d1e772eb5f248a858ce2f9c1dbddee958a8fa5c19120df031143b30855c75
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 479e3131ec9eafdad8eb5e14cc085109670ce86f33826dd364541e66b8476c41
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 単位元;キャンセル可能元; 可逆元
@@ -64,7 +64,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 定義 1 {#alg-i-s2-def-1 .statement tag=056M}
 
-Under a law of composition $\top$ on a set $E$ an element $e$ of $E$ is called an identity element if, for all $x \in E$, $e \top x = x \top e = x$.
+集合 $E$ 上の合成法則 $\top$ の下で、すべて $x \in E$、$e \top x = x \top e = x$ である場合、$E$ の要素 $e$ は恒等要素と呼ばれます。
 
 特定の法則 $\top$ の下には、$e$ と $e'$ が単位元の場合、$e = e \top e' = e'$ が存在するのは最大でも 1 つの単位元です。 単位元はすべての元と置換可能です。これは中心となる元です。
 
@@ -111,17 +111,17 @@ E を、法則が $\top$ で表され、$e$ がその単位元で表される単
 (a) 集合 I は完全に順序付けされています。
 (b) E は結合的であり、$x_i$ はペアごとに変更可能です。
 
-これら 2 つのケースでは、S を家族 $(x_i)$ の扶養者とします。 If J is a finite subset of I containing S, then $\prod_{i \in J} x_i = \prod_{i \in S} x_i$, as is seen by induction on the number of elements in J, applying Theorem 1 of § 1 in case (a) and Theorem 3 of § 1 in case (b). $\prod_{i \in I} x_i$ は、I 含む S のすべての有限部分集合について、合成 $\prod_{i \in J} x_i$ の共通の値を表すものとします。 Iが$\mathbf{N}$の区間$[p, \to]$のとき、$\prod_{i = p}^\infty x_i$とも書きます。
+これら 2 つのケースでは、S を家族 $(x_i)$ の扶養者とします。 J が I 含む S の有限部分集合である場合、J の元の数上の帰納法からわかるように、$\prod_{i \in J} x_i = \prod_{i \in S} x_i$、ケース (a) では適用定理 1 の § 1 および(b) の場合、定理 3/§ 1。 $\prod_{i \in I} x_i$ が I 含む S のすべての有限部分集合に対して、共通の値合成 $\prod_{i \in J} x_i$ を表すとします。 I が $\mathbf{N}$ の区間 $[p, \to]$ であるとき、 $\prod_{i = p}^\infty x_i$ とも書きます。
 
-これらの定義と記法、定理の§ 1と注意の1と3で、定理3拡大するが有限台の家族に届きます。
+これらの定義と記法、定理の§ 1と注意の1と3、定理3拡大するが有限台の家族に続きます。
 
-*加法的に*書かれた法則の単位元は通常0で表され、*零*または*ヌル元* (またはときどき *原点*)と呼ばれます。 *乗法*で書かれた法則では、通常は1で表され、*単位元* (または*単位元*) と呼ばれます。
+*加法的に*書かれた法則の単位元は通常0で表され、*零*または*ヌルの元* (またはときどき *原点*)と呼ばれます。 *乗法*で書かれた法則では、通常は1で表され、*単位元* (または*単位元*) と呼ばれます。
 
 ### 2. キャンセル可能元
 
 #### 定義 4 {#alg-i-s2-def-4 .statement tag=056Q}
 
-* 集合 E 上で合成 $\top$ の法則が与えられると、E の写像 $x \mapsto a \top x$ (それぞれ $x \mapsto x \top a$) を元 $a \in E$ によって左変換 (または右変換) と呼ばれます。
+*集合 E 上で合成 $\top$ の法則が与えられると、E の写像 $x \mapsto a \top x$ (それぞれ $x \mapsto x \top a$) を元 $a \in E$ によって左変換 (または右変換) と呼ばれます。
 
 移行の反対側の法則では、左の翻訳が右の翻訳になり、その逆になります。
 
@@ -138,7 +138,7 @@ $$
 \gamma_{x \mathsf{T} y} = \gamma_x \circ \gamma_y, \qquad \delta_{x \mathsf{T} y} = \delta_y \circ \delta_x.
 $$
 
-$z \in E$ 全員の場合:
+$z \in E$ の皆様へ:
 
 $$
 \gamma_{x \mathsf{T} y}(z) = (x \mathsf{T} y) \mathsf{T} z = x \mathsf{T} (y \mathsf{T} z) = \gamma_x(\gamma_y(z))
@@ -147,19 +147,19 @@ $$
 \delta_{x \mathsf{T} y}(z) = z \mathsf{T} (x \mathsf{T} y) = (z \mathsf{T} x) \mathsf{T} y = \delta_y(\delta_x(z))
 $$
 
-他の語、写像 $x \mapsto \gamma_x$ は、マグマ $E$ から $E$ の写像の集合 $E^E$ が法則 $(f, g) \mapsto f \circ g$ とともに準同型になります。 写像 $x \mapsto \delta_x$ は、$E$ の準同型を集合 $E^E$ に、その反対の法則を加えたものです。 $E$ がモノイドの場合、これらの準同型はユニタルです。
+他の語、写像 $x \mapsto \gamma_x$は、マグマ$E$から集合写像の$E$の$E^E$が法則と法則で集合に準同型です。 $(f, g) \mapsto f \circ g$; 写像 $x \mapsto \delta_x$ は、$E$ の準同型を集合 $E^E$ に、反対の法則を加えます。 $E$ がモノイドの場合、これらの準同型はユニタルです。
 
 #### 定義 5 {#alg-i-s2-def-5 .statement tag=056S}
 
-*元* $a$ *マグマ* $E$ * $a$ * による左 (または右) の翻訳が単射である場合、左 (または右) 消去可能 (または通常) と呼ばれます。左右のキャンセル可能元をキャンセル可能(またはレギュラー)元*と呼びます。
+*元* $a$ *マグマの* $E$ * $a$ * による左 (または右) の翻訳が単射である場合、左 (または右) はキャンセル可能 (または通常) と呼ばれます。左右のキャンセル可能元をキャンセル可能（またはレギュラー）元と呼びます。
 
 他の語では、法則 $\mathsf{T}$ の下で $a$ がキャンセル可能であるためには、関係 $a \mathsf{T} x = a \mathsf{T} y, x \mathsf{T} a = y \mathsf{T} a$ のそれぞれが $x = y$ を含意することが必要かつ十分です (これらの等式のそれぞれから「a はキャンセルできる」と言われます)。 法則 $\mathsf{T}$ の下に単位元 $e$ が存在する場合、この法則の下でキャンセル可能です。つまり、翻訳 $\gamma_e$ と $\delta_e$ は、$E$ の恒等写像になります。
 
 #### 例 {#alg-i-s2-n2-exa-1 .statement tag=056T}
 
-(1) すべての自然数は加法の下でキャンセル可能です。 自然数 $\neq 0$ はすべて乗法でキャンセルできます。
+(1) すべての自然数は加法の下でキャンセル可能です。 自然数 $\neq 0$ はすべて乗法でキャンセル可能です。
 
-(2) 格子では、単位元 (少なくとも元) 以外に、法則 sup の下でキャンセル可能な元は存在しません。 inf についても同様です。 In particular, in the set of subsets of a set $E$, $\varnothing$ is the only cancellable element under the law $\cup$ and $E$ the only cancellable element under the law $\cap$.
+(2) ラティスでは、単位元 (少なくとも元) 以外に、法則 sup の下でキャンセル可能な元が存在することはありません。 inf についても同様です。特に、集合 $E$ の部分集合の集合では、法則 $\cup$ の下でキャンセル可能な元は$\varnothing$ のみであり、$E$ の下で唯一キャンセル可能な元です。 法則 $\cap$。
 
 #### 命題 2 {#alg-i-s2-prop-2 .statement tag=056U}
 
@@ -235,7 +235,7 @@ $$
 
 #### 系 1 {#alg-i-s2-prop-4-cor-1 .statement tag=0570}
 
-Let E be a monoid; if each of the elements $x_\alpha$ of an ordered sequence $(x_\alpha)_{\alpha \in A}$ of elements of E has an inverse $x'_\alpha$, the composition $\prod_{\alpha \in A} x_\alpha$ has inverse $\prod_{\alpha \in A'} x'_\alpha$, where A' is the totally ordered set derived from A by replacing the order on A by the opposite order.
+E をモノイドとします。 E の要素の順序列 $(x_\alpha)_{\alpha \in A}$ の各要素 $x_\alpha$ が逆数 $x'_\alpha$ を持つ場合、合成 $\prod_{\alpha \in A} x_\alpha$ は逆数 $\prod_{\alpha \in A'} x'_\alpha$ を持ちます。ここで、A' は、A の順序を反対の順序で置き換えることによって A から導出された完全な順序集合です。
 
 この系は、Aの元の数で帰納法によって命題4から続きます。
 
@@ -294,7 +294,7 @@ $$
 
 #### 定義 7 {#alg-i-s2-def-7 .statement tag=0576}
 
-*$E$ を可換モノイド、$E$ の $S$ 部分集合と $S$ によって生成された $E$ の $S'$ 部分モノイドとします。 The quotient monoid $(E \times S')/R$, where the equivalence relation $R$ is as described in Lemma 1, is denoted by $E_S$ and is called the monoid of fractions† of $E$ associated with $S$ (or with denominators in $S$).*
+*$E$ を可換モノイド、$E$ の $S$ 部分集合と $S$ によって生成された $E$ の $S'$ 部分モノイドとします。 同値関係$R$が補助定理1で説明されている商モノイド$(E \times S')/R$は$E_S$で表され、$S$（または$S$の分母）に関連付けられた$E$の分数†のモノイドと呼ばれます*。
 
 $a \in E$ と $p \in S'$ の場合、 $R$ を法とする $(a, p)$ の類は、一般に $a/p$ で表され、分子 $a$ と分母 $p$ を持つ分数と呼ばれます。その後、定義 $(a/p).(a'/|p') = aa'/|pp'$までに。 分数 $a/p$ と $a'/|p'$ は、$S'$ と$spa' = sp'a$ に $s$ が存在する場合にのみ等しくなります。もしそうなら、$S'$には$a\sigma = a'\sigma'$と$p\sigma = p'\sigma'$がある$\sigma$と$\sigma'$が存在します。特に$a \in E$の$a/p = sa/sp$と$S'$の$s, p$。 $E_S$の単位元は分数$e/e$です。
 
@@ -321,11 +321,11 @@ If $\varepsilon$ is bijective every 元 of S is invertible, for $\varepsilon(S)$
 
 *E を可換モノイド、S 部分集合 E 、$E_S$ を S と $\varepsilon : E \to E_S$ 標準準同型に関連付けられた分数のモノイドとする。 Further let f be 準同型 of E into a monoid F (not necessarily commutative) such that every 元 of $f(S)$ is invertible in F. There exists one and only one 準同型 $\bar{f}$ of $E_S$ into F such that $f = \bar{f} \circ \varepsilon$.*
 
-If $\bar{f}$ is a homomorphism of $E_S$ into F such that $f = \bar{f} \circ \varepsilon$, then
+$\bar{f}$ が $E_S$ の準同型を F に変換して $f = \bar{f} \circ \varepsilon$ となる場合、
 $$
 \bar{f}(a/p) = \bar{f}(\varepsilon(a)\varepsilon(p)^*) = \bar{f}(\varepsilon(a))\bar{f}(\varepsilon(p))^* = f(a)f(p)^*
 $$
-for $a \in E$ and $p \in S'$, whence the uniqueness of $\bar{f}$.
+$a \in E$と$p \in S'$、$\bar{f}$のよって一意性。
 
 g を $g(a,p) = f(a)f(p)^*$ で定義される F に $E \times S'$ の写像とします。 g が F の $E \times S'$ の準同型であることを示します。 まず第一に、
 $$

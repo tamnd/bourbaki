@@ -42,16 +42,16 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: 14bb20a25df4ae974b33ef560e65d4b077e31582c9b46ea8f8c4eb48c10159f0
+content_sha256: 6f03cc3475690cdbc0ecbc62a4ca0a6e5bcd01d0b516326f299c00026dc0f6a8
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 translation_method: google
 source_content_sha256: 0afa8f8b2eeacc6c331a25088f06579b838538c263fddf5f044dbaa9e0fb2b95
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 57a934073072d55abbd58dee78572aeb4e5b16cbc2003f4d3e9036854e236624
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 構造と同型
@@ -67,7 +67,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 これらの条件は、$b_1 > 0$ とともに $c_1 = (0,\ b_1)$ を意味します。 $n$ が対 $(0,\ b_i)$ に現れる整数 $b_i$ の最大のである場合、$c_1, c_2, ..., c_m$ は $n$ 項* 上の階層構成スキームであると言われます。
 
-Given an echelon construction scheme $\mathrm{S} = (c_1,\ c_2,\ \ldots,\ c_m)$ on $n$ terms, and given $n$ terms $\mathrm{E}_1$, $\mathrm{E}_2$, ..., $\mathrm{E}_n$ in a theory $\mathscr{T}$ which is stronger than the theory of sets, an *echelon construction of scheme* $\mathrm{S}$ *on* $\mathrm{E}_1$, ..., $\mathrm{E}_n$ is defined to be a sequence $\mathrm{A}_1$, $\mathrm{A}_2$, ..., $\mathrm{A}_m$ of $m$ terms in the theory $\mathscr{T}$, defined step by step by the following conditions :
+$n$ 項の階層構築スキーム $\mathrm{S} = (c_1,\ c_2,\ \ldots,\ c_m)$ と、集合理論よりも強力な理論 $\mathscr{T}$ での $n$ 項 $\mathrm{E}_1$, $\mathrm{E}_2$, ..., $\mathrm{E}_n$ が与えられた場合、スキームの *階層構築* $\mathrm{S}$ *on* $\mathrm{E}_1$, ..., $\mathrm{E}_n$ は、理論 $\mathscr{T}$ の $m$ 項のシーケンス $\mathrm{A}_1$、$\mathrm{A}_2$、...、$\mathrm{A}_m$ として定義され、次の条件によって段階的に定義されます。
 
 (a) $c_i = (0,\ b_i)$なら、$\mathrm{A}_i$は項$\mathrm{E}_{b_i}$となる。
 (b) $c_i = (a_i,\ 0)$なら、$\mathrm{A}_i$は項$\mathfrak{P}(\mathrm{A}_{a_i})$となる。
@@ -89,7 +89,7 @@ $$(0, 2), \quad (0, 1), \quad (1, 0), \quad (2, 0), \quad (4, 0), \quad (5, 3).$
 
 ### 2. 正規拡大/写像
 
-$\mathrm{S} = (c_1, c_2, \ldots, c_m)$ を $n$ 項の階層構成スキームとします。 $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ を集合 ($\mathscr{T}$ で項) とし、$f_1$, ..., $f_n$ を $\mathscr{T}$ で項とします。 関係 「$f_i$は$\mathrm{E}_i$の写像が$\mathrm{E}'_i$になる」は$1 \leqslant i \leqslant n$の$\mathscr{T}$の定理です。 $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (それぞれ $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) を、$\mathrm{E}_1$, ..., $\mathrm{E}_n$ (それぞれ $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$) 上のスキーム S の階層構成とします。 We define step by step a sequence of $m$ terms $g_1$, ..., $g_m$ such that $g_i$ is a *mapping of* $\mathrm{A}_i$ *into* $\mathrm{A}'_i$ (for $1 \leqslant i \leqslant m$) by the following conditions :
+$\mathrm{S} = (c_1, c_2, \ldots, c_m)$ を $n$ 項の階層構成スキームとします。 $\mathrm{E}_1$, ..., $\mathrm{E}_n$, $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$ を集合 ($\mathscr{T}$ で項) とし、$f_1$, ..., $f_n$ を $\mathscr{T}$ で項とします。 関係 「$f_i$は$\mathrm{E}_i$の写像が$\mathrm{E}'_i$になる」は$1 \leqslant i \leqslant n$の$\mathscr{T}$の定理です。 $\mathrm{A}_1$, ..., $\mathrm{A}_m$ (それぞれ $\mathrm{A}'_1$, ..., $\mathrm{A}'_m$) を、$\mathrm{E}_1$, ..., $\mathrm{E}_n$ (それぞれ $\mathrm{E}'_1$, ..., $\mathrm{E}'_n$) 上のスキーム S の階層構成とします。 以下の条件により、$g_i$ が $\mathrm{A}_i$ から $\mathrm{A}'_i$ への *マッピング* ($1 \leqslant i \leqslant m$ の場合) となるように、一連の $m$ 項 $g_1$, ..., $g_m$ を段階的に定義します。
 
 (a) $c_i = (0, b_i)$ の場合、$\mathrm{A}_i = \mathrm{E}_{b_i}$ と $\mathrm{A}'_i = \mathrm{E}'_{b_i}$ であるため、$g_i$ は写像 $f_{b_i}$ になります。
 
@@ -169,7 +169,7 @@ $$\text{"}\mathrm{T}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{U}\} \text{ an
 
 $$\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{A}_1, \ldots, \mathrm{A}_m).$$
 
-The set of elements $\mathrm{V}$ of $\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{A}_1, \ldots, \mathrm{A}_m)$ which satisfy the relation $\mathrm{R}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{V}\}$ is therefore the *set of structures of the species* $\Sigma$ *on* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ (and it may be empty).
+したがって、関係 $\mathrm{R}\{\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{V}\}$ を満たす $\mathrm{S}(\mathrm{E}_1, \ldots, \mathrm{E}_n, \mathrm{A}_1, \ldots, \mathrm{A}_m)$ の要素の集合 $\mathrm{V}$ は、*種の構造の集合* $\Sigma$ *on* $\mathrm{E}_1, \ldots, \mathrm{E}_n$ (空の場合もあります) です。
 
 *例*
 
@@ -183,7 +183,7 @@ $$s \circ s = s \quad \text{and} \quad s \cap \overset{-1}{s} = \Delta_{\mathbf{
 
 #### 例 2 {#ens-iv-s1-n4-exa-2 .statement tag=03V6}
 
-Take $\mathscr{T}$ to be the theory of sets, and consider the species of structures which has no auxiliary base set, one principal base set $\mathrm{A}$, the typical characterization $\mathrm{F} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A})$, and as axiom the transportable relation "F is a functional graph whose domain is $\mathrm{A} \times \mathrm{A}$". この種の構造は *代数構造* と呼ばれるものの特別なケースであり、そのグラフが $\mathrm{F}$ ($\mathrm{A} \times \mathrm{A}$ の写像を $\mathrm{A}$ に変換) である写像は *the* (*どこでも定義されている*) と呼ばれます。そのようなものの合成の *内部法則* 構造。
+$\mathscr{T}$を集合の理論とし、補助基底集合、主基底集合$\mathrm{A}$、典型的な特徴付け$\mathrm{F} \in \mathfrak{P}((\mathrm{A} \times \mathrm{A}) \times \mathrm{A})$を持たない構造の種を考えてみましょう。可搬性のある公理関係 「F は定義域が $\mathrm{A} \times \mathrm{A}$ である関数グラフである」。この種の構造は *代数構造* と呼ばれるものの特殊なケースであり、グラフが $\mathrm{F}$ ($\mathrm{A} \times \mathrm{A}$ の写像を $\mathrm{A}$ に) である写像は *the* (*どこでも定義*) の *内部法則と呼ばれます。そんな構造の合成*。
 
 #### 例 3 {#ens-iv-s1-n4-exa-3 .statement tag=03V7}
 
@@ -260,7 +260,7 @@ $R\{E'_1, \ldots, E'_n, U'\}$ は、$\mathscr{T}'$ から関係 $R\{E_1, \ldots,
 
 ¶ 構造 $U'$ は、構造* $U$ *を集合* $E'_1, \ldots, E'_n$ *全単射写像* $f_1, \ldots, f_n$ を使って *輸送することによって得られると言われています。したがって、同じ種の 2 つの構造は、それぞれが構造の輸送によって他方から得られる場合に限り、同型となります。
 
-It may happen that *any* two structures of species $\Sigma$ are *necessarily isomorphic*; the species of structure $\Sigma$ is then said be *univalent*. \* This is the case for the structure of an infinite cyclic group (isomorphic to $\mathbf{Z}$), the structure of a prime field of characteristic zero (isomorphic to $\mathbf{Q}$), the structure of a complete Archimedean ordered field (isomorphic to $\mathbf{R}$), the structure of an algebraically closed, connected, locally compact topological field (isomorphic to $\mathbf{C}$), and of the structure of a non-commutative, connected, locally compact topological division ring (isomorphic to $\mathbf{H}$, the division ring of quaternions). これらの構造の種の一部、たとえば、標数0 の素数体や完全なアルキメデスの順序体の種では、恒等写像以外には自己同型すら存在しません。しかし、上記の他の例に対してそのような自己同型は存在します (たとえば、$\mathbf{Z}$ の対称性 $x \rightarrow -x$)。 \*
+種 $\Sigma$ の *任意の 2 つの構造が *必然的に同型* になる可能性があります。したがって、構造 $\Sigma$ の種は *一価* であると言われます。 \* これは、無限循環群の構造 ($\mathbf{Z}$ と同型)、標数ゼロの素体の構造 ($\mathbf{Q}$ と同型)、完全なアルキメデス順序体の構造 ($\mathbf{R}$ と同型)、代数的に閉じられ、接続された、局所的にコンパクトな位相場の構造 ($\mathbf{C}$ と同型)、および非可換で接続された、局所的にコンパクトなトポロジカル分割リング (四元数の分割リング $\mathbf{H}$ と同型) の構造。 これらの構造の種の一部、たとえば、標数0 の素数体や完全なアルキメデスの順序体の種では、恒等写像以外には自己同型すら存在しません。しかし、上記の他の例に対してそのような自己同型は存在します (たとえば、$\mathbf{Z}$ の対称性 $x \rightarrow -x$)。 \*
 
 上記の構造の種は、本質的に古典数学の基底であることが観察されます。一方、 \* 群構造の種、順序付けられた集合の構造の種、およびトポロジー 構造の種は一価ではありません。 \*
 
@@ -270,7 +270,7 @@ $\Sigma$ を理論 $\mathscr{T}$ の構造 、主$n$ 基底集合 $x_1, \ldots, 
 
 (1) 関係 $V\{x_1, \ldots, x_n, s\} \in T(x_1, \ldots, x_n, A_1, \ldots, A_m)$ は $\mathscr{T}_\Sigma$ の定理です。
 
-(2) let $\mathscr{T}'_\Sigma$ be the theory obtained by adjoining to the axioms of $\mathscr{T}_\Sigma$ the axioms "$f_i$ is a bijection of $x_i$ onto $y_i$" $(1 \leqslant i \leqslant n)$ (where the letters $y_i$ and $f_i$ are distinct from each other and from the constants of $\mathscr{T}_\Sigma$, for $1 \leqslant i \leqslant n$); if $s'$ is the structure obtained by transporting $s$ by means of $(f_1, \ldots, f_n)$ (no. 5), then
+(2) $\mathscr{T}'_\Sigma$ を、$\mathscr{T}_\Sigma$ の公理に隣接して得られる理論とします。「$f_i$ は $y_i$ への $x_i$ の全単射である」$(1 \leqslant i \leqslant n)$ (文字 $y_i$ と $f_i$ は互いに区別され、 $\mathscr{T}_\Sigma$、$1 \leqslant i \leqslant n$); $s'$ が $s$ を $(f_1, \ldots, f_n)$ (no. 5) によって輸送することによって得られる構造である場合、
 
 $$V\{y_1, \ldots, y_n, s'\} = \langle f_1, \ldots, f_n. \mathrm{Id}_1, \ldots, \mathrm{Id}_m \rangle^{\mathrm{T}}(V\{x_1, \ldots, x_n, s\})$$
 
@@ -278,7 +278,7 @@ $$V\{y_1, \ldots, y_n, s'\} = \langle f_1, \ldots, f_n. \mathrm{Id}_1, \ldots, \
 
 構造の種の理論でどれが定義するにつながる項のほとんどは本質的な項です。
 
-¶ Let $\Theta$ be another species of structures in the theory $\mathscr{T}$, on $r$ principal base sets $u_1,\ldots,u_r$, with $p$ auxiliary base sets $B_1,\ldots,B_p$, and let $t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$ be the typical characterization of $\Theta$ (no. 4). 次に、$s$ に固有の $r+1$ 項 $P,U_1,\ldots,U_r$ の系が、理論 $\mathscr{T}_\Sigma$ において、$P$ が $U_1,\ldots,U_r$ 上の種 $\Theta$ の構造であることを演繹の手続きと呼びます。 $\Sigma$ の種構造から $\Theta$ の種構造 。 言葉の乱用により、項 $P$ だけを演繹の手順と呼ぶことがよくあります。
+¶ $\Theta$ を理論 $\mathscr{T}$ 、$r$ 主基底集合 $u_1,\ldots,u_r$、$p$ 補助基底集合 $B_1,\ldots,B_p$ 上の構造の別の種とし、$t\in T(u_1,\ldots,u_r,B_1,\ldots,B_p)$ を $\Theta$ (no. 4) の典型的な特徴とする。 次に、$s$ に固有の $r+1$ 項 $P,U_1,\ldots,U_r$ の系が、理論 $\mathscr{T}_\Sigma$ において、$P$ が $U_1,\ldots,U_r$ 上の種 $\Theta$ の構造であることを演繹の手続きと呼びます。 $\Sigma$ の種構造から $\Theta$ の種構造 。 言葉の乱用により、項 $P$ だけを演繹の手順と呼ぶことがよくあります。
 
 ¶ $\mathscr{T}'$ を $\mathscr{T}$ よりも理論強くします。 $\mathscr{S}$ が $E_1,\ldots,E_n$ の種 $\Sigma$ の $\mathscr{T}'$ の構造である場合、$P\{E_1,\ldots,E_n,\mathscr{S}\}$ は $r$ 集合 $F_j=U_j\{E_1,\ldots,E_n,\mathscr{S}\}$ $(1\leq j\leq r)$ の種 $\Theta$ の構造であると言われています。 $P$ の手順によって $\mathscr{S}$ から推定されるか、$\mathscr{S}$ に従属します。 仮定項 $P,U_1,\ldots,U_r$ が $s$ に固有であることは、さらに次の基準を意味します。
 
@@ -296,7 +296,7 @@ $$
 
 #### 例 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
 
-\* The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). 項 $s_1,s_2$ のそれぞれは演繹の手順であり、トポロジカル群構造 $(s_1,s_2)$ の基礎となる群構造と位相をそれぞれ提供します。
+\* トポロジカル グループ構造の種には、単一の主基底集合 $A$ があり、補助基底集合はなく、対応する一般構造はペア $(s_1,s_2)$ ($s_1$ は $A$ 上の合成法則のグラフ、$s_2$ は $A$ のトポロジーにおける開集合の集合です。cf. 一般トポロジー、章) III, § 1）。 項 $s_1,s_2$ のそれぞれは演繹の手順であり、トポロジカル群構造 $(s_1,s_2)$ の基礎となる群構造と位相をそれぞれ提供します。
 
 同様に、ベクトル空間構造から、基礎となる可換式群構造を演繹することができます。 環構造から、基礎となる可換群構造と (乗法) 半群を推定できます。
 
@@ -315,27 +315,27 @@ $$
 
 (それぞれ $s_1\in\mathfrak{P}((E\times E)\times E)$ と $s_2\in\mathfrak{P}((\mathbf{R}\times E)\times E)$)。
 
-対 $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ は、$\mathbf{C}$ に対するベクトル空間構造から $\mathbf{R}$ に対するベクトル空間構造を減算する手順です (「スカラーの体から $\mathbf{R}$ までの制限」)。 \*
+対 $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ は、$\mathbf{C}$ に対するベクトル空間構造から $\mathbf{R}$ に対するベクトル空間構造の減算手順です (「スカラーの体の制限から $\mathbf{R}$」)。 \*
 
 #### 例 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-$\Theta$ が $\Sigma$ と同じ (主および補助) 基底集合と、同じ典型的な特徴付けを持っているとします。 さらに、$\Sigma$ の公理が ($\mathscr{T}$ において) $\Theta$ の公理を含意する場合、項 $s$ が種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順であることは明らかです。そして、$\Theta$は$\Sigma$よりも貧しく、$\Sigma$は$\Theta$よりも豊かであると言われます。 $\mathscr{T}$ よりも強い理論 $\mathscr{T}'$ の種 $\Sigma$ のすべての構造は、種 $\Theta$ の構造でもあります。 たとえば、合計順序集合の構造の種 (順序構造 (no. 4, 例 1) と関係 $s\cup s^{-1}=A\times A$ の公理の結合を公理として得られる) は、順序の種よりも豊かです。 構造。 \*可換群構造の種は、群構造の種よりも豊富です。 コンパクトなトポロジカル空間構造の種は、トポロジカル構造などの種よりも豊富です。 \*
+$\Theta$ が $\Sigma$ と同じ (主および補助) 基底集合と、同じ典型的な特徴付けを持っているとします。さらに、$\Sigma$ の公理が ($\mathscr{T}$ において) $\Theta$ の公理を含意する場合、項 $s$ は種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順であることは明らかです。そして、$\Theta$は$\Sigma$よりも貧しく、$\Sigma$は$\Theta$よりも豊かであると言われます。 $\mathscr{T}$ よりも強い理論 $\mathscr{T}'$ の種 $\Sigma$ のすべての構造は、種 $\Theta$ の構造にもなります。たとえば、合計順序集合の構造の種 (順序構造 (no. 4, 例 1) と関係 $s\cup s^{-1}=A\times A$ の公理の結合を公理として取得) の種は、 順序構造。 \*可換群構造の種は群構造の種より豊富です。コンパクトなトポロジカル空間構造の種は、トポロジカル構造などの種よりも豊富です。 \*
 
 #### 例 4 {#ens-iv-s1-n6-exa-4 .statement tag=077U}
 
-\* $\Sigma$ と $\Theta$ がそれぞれ群構造 (それぞれ環構造) の種である場合、その上の各群構造 (それぞれ環構造) 群構造 (それぞれ環構造) に関連する演繹手順が代数で定義されます。 中心。 $\Sigma$ が体 $K$ 上のベクトル空間構造の種であるとき、および $\Theta$ が $K$ 上の代数構造の種であるとき、$K$ 上のすべてのベクトル空間に関連する演繹手順が定義されています。 テンソル代数またはその外観代数。この系列の後半で、他の多くの例に会うでしょう。 \*
+\* $\Sigma$ と $\Theta$ のそれぞれが群構造 (それぞれ環構造) の種である場合、代数には、それぞれの群構造 (それぞれ環構造) 群構造 (それぞれ環構造) に関連する演繹手順が定義されています。 環構造) の中心。 $\Sigma$ が体 $K$ 上のベクトル空間構造の種であるとき、および $\Theta$ が $K$ 上の代数構造の種であるとき、すべてのベクトル空間に関連する演繹手順が定義されています。 $K$ のテンソル代数またはその外観代数。この系列では、後ほど他の多くの例に会うでしょう。 \*
 
 #### 注意 {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
-$P$ が「q タプル」$(P_1,\ldots,P_q)$ であるとき、項 $P_1,\ldots,P_q$ は、種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順を構成するとも言われています。
+$P$ が「q タプル」$(P_1,\ldots,P_q)$ である場合、項 $P_1,\ldots,P_q$ は、種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順を構成するとも言われています。
 
 ### 7. 構造の同等種
 
-$\Sigma$ と $\Theta$ を、同じ理論 $\mathscr{T}$ 内にあり、同じ主基底集合 $x_1,\ldots,x_n$ を持つ 2 つの種構造とします。それぞれ$s,t$を種$\Sigma,\Theta$の総称構造とします。次の条件が満たされるとします。
+$\Sigma$ と $\Theta$ を、同じ理論 $\mathscr{T}$ 内で、同じ主成分基底集合 $x_1,\ldots,x_n$ を持つ 2 つの種構造とします。それぞれ$s,t$を種$\Sigma,\Theta$の総称構造とします。次の条件が満たされると仮定します。
 
-(1) We have a procedure of deduction $P\{x_1,\ldots,x_n,s\}$ of a structure of species $\Theta$ on $x_1,\ldots,x_n$ from a structure of species $\Sigma$ on $x_1,\ldots,x_n$.
+(1) $x_1,\ldots,x_n$の種$\Sigma$の構造から$x_1,\ldots,x_n$の種$\Theta$の構造の$P\{x_1,\ldots,x_n,s\}$を差し引く手順があります。
 
-(2) $x_1,\ldots,x_n$の種$\Theta$の構造から、$x_1,\ldots,x_n$の種$\Sigma$の構造の$Q\{x_1,\ldots,x_n,t\}$を差し引く手順があります。
+(2) $x_1,\ldots,x_n$の種$\Theta$の構造から$x_1,\ldots,x_n$の種$\Sigma$の構造の$Q\{x_1,\ldots,x_n,t\}$を差し引く手順があります。
 
 (3) 関係 $Q\{x_1,\ldots,x_n,P\{x_1,\ldots,x_n,s\}\}=s$ は $\mathscr{T}_{\Sigma}$ の定理であり、関係 $P\{x_1,\ldots,x_n,Q\{x_1,\ldots,x_n,t\}\}=t$ は $\mathscr{T}_{\Theta}$ の定理です。
 
@@ -390,7 +390,7 @@ $G \in \mathfrak{P}((A \times A) \times A)$ と $L \in \mathfrak{P}((\mathbf{Z} 
 
 「$R \mid A, G$ と $(L$ は関数グラフです) と $B \mid L, A, G$」。
 
-項 F, M は種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順を構成し、項 G は種 $\Theta$ の構造から種 $\Sigma$ の構造を演繹する手順であることがすぐに検証されます。 さらに、上記の条件 (3) は自明に満たされます。 したがって、可換群構造の種と $\mathbf{Z}$ 加群構造の種は同等であると言えます。
+項 F, M は種 $\Sigma$ の構造から種 $\Theta$ の構造を演繹する手順を構成し、項 G は種 $\Theta$ の構造から種 $\Sigma$ の構造を演繹する手順であることがすぐに検証されます。さらに、上記条件 (3) は自明に満たされます。したがって、可換群構造の種と $\mathbf{Z}$ 加群構造の種は同等であると言えます。
 
 #### 例 2 {#ens-iv-s1-n7-exa-2 .statement tag=03VJ}
 

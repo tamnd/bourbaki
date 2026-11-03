@@ -66,16 +66,16 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 89df8adc405067d2457db96b685800645d8ee8486f9d67b30fa6b1ccd7230b44
+content_sha256: 4af516560792c55e7fe5a13b003dff45bb6cc4b15bbc306b0ad62a88c2cbf0ce
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
 translation_method: google
 source_content_sha256: d9e2a61c3971782f685be044252b3450406801250b05574efb54eb00ac04501c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9a05d32e38471ffc790a17d23ea7fb874012db387a012ef949057aff4747fecb
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 11。多重線形形式の余代数、積、内部積および双対性
@@ -158,7 +158,7 @@ $$
 i_1 < i_2 < \cdots < i_p, \quad j_1 < j_2 < \cdots < j_{n-p}
 $$
 
-$\{1, n\}$の元の元の集合は補完的です。 元 $c(x_1 x_2 \ldots x_n)$ は、$S(M) \otimes_A S(M)$ の *合計次数* $n$ の元であり、その 2 度 $(p, n-p)$ の成分は、
+$\{1, n\}$の元の集合の元は相補的です。 元 $c(x_1 x_2 \ldots x_n)$ は、$S(M) \otimes_A S(M)$ の *合計次数* $n$ の元であり、その 2 度 $(p, n-p)$ の成分は、
 
 (6)
 $$
@@ -167,13 +167,13 @@ $$
 
 ここで、合計は、区間 $\{1, p\}$ と $\{p+1, n\}$ のそれぞれの *増加する* であるすべての置換 $\sigma \in S_n$ に引き継がれます。
 
-(7) Let $M$ be an $A$-module and proceed with the exterior algebra $\Lambda(M)$ as with $S(M)$ in *Example* 6; the diagonal mapping $\Delta : M \to M \times M$ this time defines a homomorphism $\Lambda(\Delta)$ of the $A$-algebra $\Lambda(M)$ into the $A$-algebra $\Lambda(M \times M)$ (§ 7, no. 2, Proposition 2); on the other hand there is a canonical graded algebra isomorphism
+(7) $M$ を $A$ モジュールとし、*例* 6 の $S(M)$ と同様に、外部代数 $\Lambda(M)$ を進めます。 $A$-代数 $\Lambda(M)$ の対角線写像 $\Delta : M \to M \times M$ 今度は定義する準同型 $\Lambda(\Delta)$ を $A$-代数 $\Lambda(M \times M)$ (§ 7, no. 2, 命題) 2);一方、正規のグレード代数同型もあります。
 
 $$
 h : \Lambda(M \times M) \to \Lambda(M)^g \otimes_A \Lambda(M)
 $$
 
-(§ 7, no. 7、命題 10)、よって by 合成には *代数* 準同型 $c = h \circ \Lambda(\Delta) : \Lambda(M) \to \Lambda(M)^g \otimes_A \Lambda(M)$ があり、これは $A$ モジュール準同型 $\Lambda(M) \to \Lambda(M) \otimes_A \Lambda(M)$ と見なすことができ、したがって定義するになります。 $\Lambda(M)$ *余代数* 構造。 *例* 6 のように、$c$ が一意な代数準同型であることが証明でき、すべての $x \in M$ について、
+(§ 7, no. 7, 命題 10)、よって by 合成には *代数* 準同型 $c = h \circ \Lambda(\Delta) : \Lambda(M) \to \Lambda(M)^g \otimes_A \Lambda(M)$ があり、これは $A$ モジュール準同型 $\Lambda(M) \to \Lambda(M) \otimes_A \Lambda(M)$ と見なすことができ、したがって$\Lambda(M)$ の定義するは *余代数* 構造です。 *例* 6 のように、$c$ が一意な代数準同型であることが証明でき、すべての $x \in M$ について、
 
 (7)
 $$
@@ -188,17 +188,17 @@ $$
 $$
 \bigwedge(M)^{\mathfrak{g}} \otimes_A \bigwedge(M);
 $$
-計算するこの積に対して、真に増加するの数列 $i_1 < i_2 < \cdots < i_p,\ j_1 < j_2 < \cdots < j_{n-p}$ の元の $[1, n]$ のうち、元の集合が補完的であるすべての注文された対について、積を考慮してください。 $y_1 y_2 \ldots y_n$、ここで、$y_{i_h} = x_{i_h} \otimes 1$ ($1 \leq h \leq p$) と $y_{j_k} = 1 \otimes x_{j_k}$ ($1 \leq k \leq n - p$) および和は、これらすべての積を引き継ぎます。等級付けされた代数 $\bigwedge(M)^{\mathfrak{g}} \otimes_A \bigwedge(M)$ は反可換であり、元 $x_i \otimes 1$ と $1 \otimes x_i$ は、§ 4, no. 6、補題 3、補題 1 により合計次数 1 となるため、
+計算するこの積について、真に増加する数列 $i_1 < i_2 < \cdots < i_p,\ j_1 < j_2 < \cdots < j_{n-p}$ の元の$[1, n]$ のすべての注文対について、元の集合が補完的であることを考慮してください。 積 $y_1 y_2 \ldots y_n$、ここで、$y_{i_h} = x_{i_h} \otimes 1$ ($1 \leq h \leq p$) と $y_{j_k} = 1 \otimes x_{j_k}$ ($1 \leq k \leq n - p$) および和は、これらすべての積を引き継ぎます。等級付けされた代数 $\bigwedge(M)^{\mathfrak{g}} \otimes_A \bigwedge(M)$ は反可換であり、元 $x_i \otimes 1$ と $1 \otimes x_i$ は、§ 4, no. 6、補題 3、補題 1 により合計次数 1 となるため、
 $$(8)\quad c(x_1 \wedge x_2 \wedge \cdots \wedge x_n)$$
 $$
 = \sum (-1)^v (x_{i_1} \wedge \cdots \wedge x_{i_p}) \otimes (x_{j_1} \wedge \cdots \wedge x_{j_{n-p}})
 $$
-$v$ は、注文された対 $(h, k)$ の数であるため、$j_k < i_h$ となり、その合計は (5) と同じ集合に引き継がれます。 元 $c(x_1 \wedge \cdots \wedge x_n)$ は、$\bigwedge(M)^{\mathfrak{g}} \otimes_A \bigwedge(M)$ の *合計次数* $n$ であり、二次 $(p, n - p)$ の同次の成分は次と等しいです。
+$v$ は、注文された対 $(h, k)$ の数であり、$j_k < i_h$ となり、その合計は (5) と同じ集合に引き継がれます。 元 $c(x_1 \wedge \cdots \wedge x_n)$ は、$\bigwedge(M)^{\mathfrak{g}} \otimes_A \bigwedge(M)$ の *合計次数* $n$ であり、二次 $(p, n - p)$ の同次数成分は次と等しいです。
 $$(9)\quad \sum_{\sigma} \varepsilon_\sigma (x_{\sigma(1)} \wedge \cdots \wedge x_{\sigma(p)}) \otimes (x_{\sigma(p+1)} \wedge \cdots \wedge x_{\sigma(n)})
 $$
 区間* $[1, p]$ と $[p + 1, n]$ のそれぞれに *増加するである置換 $\sigma \in S_n$ の合計が引き継がれます。
 
-将来、$A^{(x)}, T(M), S(M)$ または $\bigwedge(M)$ を *余代数* として話すときは、特に記載のない場合は 〜でない限りを意味し、余代数構造はそれぞれ *例* 4、5、6、7 で定義されます。
+将来、$A^{(x)}, T(M), S(M)$ または $\bigwedge(M)$ を *余代数* として話すときは、特に言及がない限り 〜でない限りを意味し、余代数構造はそれぞれ *例* 4、5、6、7 で定義されます。
 
 (8) $E, F$ を 2 つの $A$-cogebra と $c, c'$ のそれぞれの余積とします。 $\tau : (E \otimes_A E) \otimes_A (F \otimes_A F) \to (E \otimes_A F) \otimes_A (E \otimes_A F)$ が、$E$ の $x, x'$ と $F$ の $y, y'$ に対する $\tau((x \otimes x') \otimes (y \otimes y')) = (x \otimes y) \otimes (x' \otimes y')$ のような結合性同型を表すものとします。次に、合成線形写像
 $$
@@ -225,17 +225,17 @@ $$
 
 明らかに、$\mathrm{Hom}_A(E, N) \times \mathrm{Hom}_A(E, N')$ から $\mathrm{Hom}_A(E, N'')$ への A 双線形写像 $(u, v) \mapsto m(u, v)$ を定義しました。
 
-When E is a graded cogebrà, N, $N'$, $N''$ graded A-modules of the same type and $\tilde{m}$ a graded homomorphism of degree k of $N \otimes_A N'$ into $N''$, then, if $u$ (resp. $v$) is a graded homomorphism of degree $p$ (resp. $q$), $m(u, v)$ is a graded homomorphism of degree $p + q + k$.
+E が段階的共型、N、$N'$、$N''$ 同じ型の段階的 A 加群、および $\tilde{m}$ $N \otimes_A N'$ から $N''$ への次数 k の段階的準同型であるとき、$u$ (それぞれ $v$) が次数の段階的準同型であるとします。 $p$ (それぞれ $q$)、$m(u, v)$ は $p + q + k$ 次の段階準同型です。
 
 #### 例 {#alg-iii-s11-n2-exa-1 .statement tag=067L}
 
-(1) E を等級付き cogebrà $T(M)$ (no. 1) とし、N、$N'$、$N''$ が自明な等級を持つと仮定します。 A graded homomorphism of degree $-p$ of $T(M)$ into N (resp. $N'$, $N''$) then corresponds to a multilinear mapping of $M^p$ into N (resp. $N'$, $N''$). 多重線形写像 $u : M^p \to N$ と多重線形写像 $v : M^q \to N'$ を考えると、上記の方法により、$u$ の *積* ($m$ に相対) と呼ばれる多重線形写像 $m(u, v) : M^{p+q} \to N''$ を推定することができます。 $v$。 式 (3) (no. 1) と (11) は、M の $x_1, \ldots, x_{p+q}$ に対して、
+(1) E を等級付き cogebrà $T(M)$ (no. 1) とし、N、$N'$、$N''$ が自明な等級を持つと仮定します。 $T(M)$ の次数 $-p$ から N (それぞれ $N'$、$N''$) への段階的準同型性は、$M^p$ から N (それぞれ $N'$、$N''$) への多重線形写像に対応します。 多重線形写像 $u : M^p \to N$ と多重線形写像 $v : M^q \to N'$ を考えると、上記の方法により、$u$ の *積* ($m$ に相対) と呼ばれる多重線形写像 $m(u, v) : M^{p+q} \to N''$ を推定することができます。 $v$。 式 (3) (no. 1) と (11) は、M の $x_1, \ldots, x_{p+q}$ に対して、
 
 $$
 (m(u, v))(x_1, \ldots, x_{p+q}) = m(u(x_1, \ldots, x_p), v(x_{p+1}, \ldots, x_{p+q})).
 $$
 
-(2) N、$N'$、$N''$ について同じ仮説を維持して、E を段階的 cogebrà $S(M)$ (no. 1) とします。 A graded homomorphism of degree $-p$ of $S(M)$ into N then corresponds to a *symmetric multilinear mapping* of $M^p$ into N (§ 6, no. 3). 次に、対称多重線形写像 $u : M^p \to N$ と対称多重線形写像 $v : M^q \to N'$ から対称多重線形写像 $m(u, v) : M^{p+q} \to N''$ を導出します。これは (混乱を避けるために) $u._m v$ (または $u.v$) で表され、*対称と呼ばれます。 $u$ と $v$ の積* ($m$ に対して)。 式 (6) (no. 1) と (11) は、M の $x_1, \ldots, x_{p+q}$ に対して、
+(2) N、$N'$、$N''$ について同じ仮説を維持して、E を段階的 cogebrà $S(M)$ (no. 1) とします。 $S(M)$ の次数 $-p$ の N への段階的準同型性は、$M^p$ の N (§ 6, no. 3) への*対称多重線形写像*に対応します。 次に、対称多重線形写像 $u : M^p \to N$ と対称多重線形写像 $v : M^q \to N'$ から対称多重線形写像 $m(u, v) : M^{p+q} \to N''$ を導出します。これは (混乱を避けるために) $u._m v$ (または $u.v$) で表され、*対称と呼ばれます。 $u$ と $v$ の積* ($m$ に対して)。 式 (6) (no. 1) と (11) は、M の $x_1, \ldots, x_{p+q}$ に対して、
 
 $$(u \cdot_m v)(x_1, \ldots, x_{p+q}) = \sum_\sigma m(u(x_{\sigma(1)}, \ldots, x_{\sigma(p)}), v(x_{\sigma(p+1)}, \ldots, x_{\sigma(p+q)}))$$
 
@@ -498,7 +498,7 @@ $$
 \sigma_g(x_p \otimes x_q) = (-1)^{pq} x_q \otimes x_p
 $$
 
-for $x_p \in E_p, x_q \in E_q$, *where p and q are arbitrary elements of $\mathbf{N}$, the diagram*
+$x_p \in E_p, x_q \in E_q$ の場合、*p と q は任意の $\mathbf{N}$、図式* の元
 
 $$
 \begin{array}{ccc}
@@ -543,7 +543,7 @@ E と F が 2 つの等級付き双晶 (それぞれ 2 つの傾斜傾斜双晶)
 
 #### 例 {#alg-iii-s11-n4-exa-1 .statement tag=067Z}
 
-(1) Let S be a monoid with identity element u, so that the algebra $E = A^{(S)}$ of the monoid S over A admits the unit element $e_u$ (§ 2, no. 6); it has been seen on the other hand that E has canonically a coassociative cocommutative A-cogebra structure with a counit $\gamma$ such that $\gamma(e_s) = 1$ for all $s \in S$ (no. 1, Example 4 and no. 2, Examples 4, 5 and 6). 公式 $c(e_s) = e_s \otimes e_s$ に余積を与えると、c が代数準同型であることがすぐにわかります。 したがって、*共可換双数* 構造が E および E 上で定義されており、この構造は A* 上のモノイド S の *大数と呼ばれます。
+(1) S を単位要素 u を持つモノイドとします。そのため、A 上のモノイド S の代数 $E = A^{(S)}$ は単位要素 $e_u$ (§ 2, no. 6) を認めます。一方、E は、すべての $s \in S$ に対して $\gamma(e_s) = 1$ となるような結合単位 $\gamma$ をもつ共結合共可換 A-cogebra 構造を標準的に持っていることがわかっています (no. 1、例 4 および no. 2、例 4、5、6)。 公式 $c(e_s) = e_s \otimes e_s$ に余積を与えると、c が代数準同型であることがすぐにわかります。 したがって、*共可換双数* 構造が E および E 上で定義されており、この構造は A* 上のモノイド S の *大数と呼ばれます。
 
 T が $f(u) = v$ と $f_{(A)} : A^{(S)} \to A^{(T)}$ A-代数準同型が $f$ (§ 2, no. 6) から導出されるように、単位元 v、$f : S \to T$ 準同型をもつ他のモノイドである場合、$f_{(A)}$ が *bigebra であることがすぐに検証されます。 準同型*。
 
@@ -565,7 +565,7 @@ M の 4 つの元 $x_1, x_2, y_1, y_2$ については、no. 1 の公式 (3) が
 
 *これ以降、代数での章の一般的な規則に戻ります。したがって、これは (〜でない限り別途言及) 結合的かつ単体であると想定されます。
 
-Let M be an A-module; the graded A-cogebra structures defined on $T(M)$ (no. 1, Example 5), $S(M)$ (no. 1, Example 6) and $\bigwedge(M)$ (no. 1, Example 7) allow us to define canonically on the graded duals $T(M)^{*gr}$, $S(M)^{*gr}$ and $\bigwedge(M)^{*gr}$ *graded algebra* structures of type N, by virtue of no. 2, Propositions 1 and 3 and the convention made on the graduation of the graded dual of a graded module (no. 1). さらに、等級付けされた代数 $S(M)^{*gr}$ は *可換* (no. 2、命題 2 および例 5) であり、等級付けされた代数 $\bigwedge(M)^{*gr}$ は *反可換* (no. 3、命題 6 および例) です。 $\bigwedge(M)^{*gr}$ * 次数 1 のすべての元は零平方* です。このような元は M 上の線型形式 $f$ と識別され、その平方は $M^2$ 上の交代的双線形形式 $f \wedge f$ であるようになります。
+M を A モジュールとします。 $T(M)$ (no. 1、例 5)、$S(M)$ (no. 1、例 6) および $\bigwedge(M)$ (no. 1、例 7) で定義された段階的 A コジェブラ構造により、段階的双対 $T(M)^{*gr}$、$S(M)^{*gr}$、および $\bigwedge(M)^{*gr}$ で正規に定義できるようになります。 no. 2、命題 1 および 3、および段階モジュール (no. 1) の段階双対の卒業に関して作成された規約による、タイプ N の *段階代数* 構造。 さらに、等級付けされた代数 $S(M)^{*gr}$ は *可換* (no. 2、命題 2 および例 5) であり、等級付けされた代数 $\bigwedge(M)^{*gr}$ は *反可換* (no. 3、命題 6 および例) です。 $\bigwedge(M)^{*gr}$ * 次数 1 のすべての元は零平方* です。このような元は M 上の線型形式 $f$ と識別され、その平方は $M^2$ 上の交代的双線形形式 $f \wedge f$ であるようになります。
 
 $$
 (f \wedge f)(x, y) = f(x) f(y) - f(y) f(x)
@@ -857,18 +857,18 @@ $$
 
 #### 命題 8 {#alg-iii-s11-prop-8 .statement tag=0684}
 
-*環 $A$ が有理数数の体 $\mathbf{Q}$ を超える代数であるとします。次に、有限に生成された射影 $A$ モジュールごとに $M$、準同型*
+*環 $A$ が有理数数の体 $\mathbf{Q}$ を超える代数であるとします。次に、有限に生成された射影 $A$ モジュール $M$、準同型* ごとに、
 
 $$
 \theta_S : S(M^*) \to S(M)^{*gr}
 $$
 *は全単射です*
 
-$M$ が有限に生成され、自由である場合、これは証明になります。ここから、命題 7 の証明のように補題 2 を使用する一般的なケースに移ります。
+$M$ が有限に生成され、無料である場合、これは証明になります。ここから、命題 7 の証明のように、補題 2 を使用する一般的なケースに移ります。
 
 #### 注意 {#alg-iii-s11-n5-rem-1 .statement tag=0685}
 
-Let $M$ be an $A$-module and $\rho : A \to B$ a commutative ring homomorphism. 次に、次数付き $B$-代数準同型性の可換図式が存在します。
+$M$ を $A$ モジュール、$\rho : A \to B$ 可換環準同型とします。次に、次数付き $B$-代数準同型性の可換図式が存在します。
 
 $$
 \begin{array}{ccc}
@@ -884,27 +884,27 @@ $$
 T((M^*)_{(B)}) \to T(M^*) \otimes_A B
 $$
 
-§ 5, no. 3、命題 5)。 準同型 $v_E$ (II, § 5, no. 4) の公式 (28) と定義を使用すると、この図式が *可換*であることがすぐに検証されます。 M が *有限生成射影* A-加群であるとき、 $M_{(B)}$ は有限生成射影 B-加群 (II, § 5, no. 1、系 ～ 命題 4) であり、上記図式のすべての準同型は *全単射 * (命題) です。 7とII, § 5, no. 4、命題8）。 T を S または $\Lambda$ に置き換えた同様の可換図式があります。 M が射影で有限生成される場合 (命題 7)、$\Lambda$ の図式も全単射準同型で構成されます。さらに A が $\mathbf{Q}$ よりも代数である場合、S の図式も全単射準同型 (命題 8) で構成されます。
+§ 5, no. 3、命題 5)。 準同型 $v_E$ (II, § 5, no. 4) の公式 (28) と定義を使用すると、この図式が *可換*であることがすぐに検証されます。 M が *有限生成射影* A-加群であるとき、 $M_{(B)}$ は有限生成射影 B-加群 (II, § 5, no. 1、系 ～ 命題 4) であり、上記図式のすべての準同型は *全単射 * です。 (命題 7 と II, § 5, no. 4、命題 8)。 T を S または $\Lambda$ に置き換えた同様の可換図式があります。 M が射影で有限生成される場合 (命題 7)、$\Lambda$ の図式も全単射準同型で構成されます。さらに A が $\mathbf{Q}$ よりも代数である場合、S の図式も全単射準同型 (命題 8) で構成されます。
 
 ### 6. 内部積: 代数の場合
 
-$E = \bigoplus_{p \geq 0} E_p$ を型 $\mathbf{N}$ の *グレード A-代数* とし、P を型 $\mathbf{Z}$ の A-加群とグレードします。すべての*同次* 元 $x \in E_p$ に対して、x による *左* 乗法は、それ自体に E の A-線型写像 $e(x)$ が含まれ、*グレードは次数 p* になります。すべての元 $u \in \mathrm{Homgr}_A(E, P)$ について、$u \perp x$ で示される x* による u の *右内部積は、$\mathrm{Homgr}_A(E, P)$ の元 $u \circ e(x)$ です。また、$(i(x))(u) = u \perp x$ と書くと、$i(x)$ は、等級付けされた A-加群 $\mathrm{Homgr}_A(E, P)$ の次数 p の等級付けされた自己準同型であることがわかります。ここで、$x = \sum_{p \geq 0} x_p$ が E の任意の元である場合 ($p$ の値の有限の数を除き、すべての $p \geq 0$、$x_p = 0$ に対して $x_p \in E_p$ が付きます)、$i(x) = \sum_{p=0}^\infty i(x_p)$ と書きます。 A-加群 $\mathrm{Homgr}_A(E, P)$の自己準同型。
+$E = \bigoplus_{p \geq 0} E_p$ を型 $\mathbf{N}$ の *評価 A-代数* とし、P を型 $\mathbf{Z}$ の評価 A-加群とします。すべての *均質* 元 $x \in E_p$ に対して、x による *左* 乗法は、E 自体の A-線型写像 $e(x)$ であり、*グレードは次数 p* です。すべての元 $u \in \mathrm{Homgr}_A(E, P)$ について、$u \perp x$ で示される、x* による u の * 右内部積は、$\mathrm{Homgr}_A(E, P)$ の元 $u \circ e(x)$ です。また、$(i(x))(u) = u \perp x$ と書くと、$i(x)$ は、等級付けされた A-加群 $\mathrm{Homgr}_A(E, P)$ の次数 p の等級付けされた自己準同型であることがわかります。ここで $x = \sum_{p \geq 0} x_p$ が E の任意の元である場合 ($p$ の値の有限数を除くすべての $p \geq 0$、$x_p = 0$ は $x_p \in E_p$ である)、$i(x) = \sum_{p=0}^\infty i(x_p)$ と書きます。 A-加群 $\mathrm{Homgr}_A(E, P)$ の自己準同型 。
 
 式 $u \perp x$ のどちらの元が他方に「作用」するかを思い出すには、u に「作用」する元 x が $\perp$ の水平線の自由端に配置されていることを観察します。
 
-代数 E の *結合性* は、$x, y$ が均一であれば関係 $e(xy) = e(x) \circ e(y)$ に移ります。 よって、$i(x)$の定義によって、
+代数 E の *結合性* は、$x, y$ 同次では関係 $e(xy) = e(x) \circ e(y)$ に渡ります。 よって、定義/$i(x)$により、
 
 $$
 i(xy) = i(y) \circ i(x)
 $$
 
-最初は同次の $x, y$ に対して、次に線形性により E の *任意* $x, y$ に対して。これも書かれるかもしれない
+最初は均一な $x, y$ に対して、次に線形性により E の *任意* $x, y$ に対して。これも書かれるかもしれない
 
 $$
 (u \perp x) \perp y = u \perp (xy)
 $$
 
-for $x, y$ in E and $u \in \mathrm{Homgr}_A(E, P)$; as on the other hand clearly $i(1)$ is the identity mapping (since this follows from $e(1) = 1_E$) and $x \mapsto i(x)$ is *A-linear*, it is seen that the external law of composition $(x, u) \mapsto u \perp x$ ($x \in E, u \in \mathrm{Homgr}_A(E, P)$) defines, with addition, a *right E-module* structure on $\mathrm{Homgr}_A(E, P)$.
+Eの$x, y$と$u \in \mathrm{Homgr}_A(E, P)$の場合。一方、明らかに $i(1)$ は恒等写像 (これは $e(1) = 1_E$ から続くため) であり、$x \mapsto i(x)$ は *A-linear* であるため、合成 $(x, u) \mapsto u \perp x$ ($x \in E, u \in \mathrm{Homgr}_A(E, P)$) 定義するの外部法則であることがわかります。 加法、$\mathrm{Homgr}_A(E, P)$ の *右 E モジュール* 構造。
 
 特に、$P = A$、$\mathrm{Homgr}_A(E, P)$ が、この場合、$E$ の *段階的双対* $E^{*gr}$ であると考えます。 $i(x)$ は、$E$、$u \in E^{*gr}$ のすべての $x, y$ に対して、$A$ 線形写像 $e(x)$ (II, § 11, no. 6)、他の語の *等級付けされた転置* になります。
 
@@ -1112,7 +1112,7 @@ $$(u \sqcup x) \sqcap v = u \sqcup (x \sqcap v)$$
 
 $E^{*\mathrm{gr}}$ (II, § 1, no. 14) の $u, v$ について。上と同じ記法の場合、(54)の左辺は$\sum_{i,j} u(z_i)v(y_{ij}')y_{ij}''$、右辺は$\sum_{i,k} v(y_i)u(z_{ik}'')z_{ik}'$になります。それらの等式は、$E \otimes E \otimes E$ の線形写像 $g$ を $E$ に置き換えた (51) の左辺と右辺のそれぞれ像であるという事実から、$g(x \otimes y \otimes z) = v(x)u(z)y$ になります。
 
-It is therefore seen that the two external laws of composition on $E$ defines on this set an $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$*-bimodule* structure.
+したがって、$E$ 上の 2 つの外部合成法則が、このセット上で $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$*-bimodule* 構造を定義していることがわかります。
 
 余代数 $E$ が *共可換* の場合、すべての $x \in E$ と $u \in E^{*\mathrm{gr}}$ に対して $u \sqcup x = x \sqcap u$ になります。 *反共換* (§ 4, no. 9) と $u \in E_p^*$ と $x \in E_q$ の場合、すべての $j$ に対して $E_j$ で $y_{ij}$ と $z_{ij}$ を含む $c(x) = \sum_{0 \leq j \leq q} \left( \sum_i y_{ij} \otimes z_{i, q-j} \right)$ を書くことができ、その後仮定までに
 
@@ -1298,7 +1298,7 @@ $$
 
 命題 9 と 10 は、特に段階的双眼鏡 $S(M)$ とスキュー段階的双眼鏡 $\Lambda(M)$ に適用されます。 $S(M)$ (それぞれ $S(M)^{*gr}$) の次数 1 の元による内部積は *導分* です。これは、$S(M)$ (それぞれ $S(M)^{*gr}$) が可換であるため、1 つの他の* と * 交換します。
 
-Similarly, the inner products by elements of degree 1 in $\Lambda(M)$ (resp. $\Lambda(M)^{*gr}$) are *antiderivations*, which are of *zero square*, for the square of an element of degree 1 in the algebra $\Lambda(M)$ (resp. $\Lambda(M)^{*gr}$) is zero.
+同様に、$\Lambda(M)$ (それぞれ $\Lambda(M)^{*gr}$) の次数 1 の要素による内積は、代数 $\Lambda(M)$ (それぞれ $\Lambda(M)^{*gr}$) の次数 1 の要素の二乗がゼロであるため、*ゼロ二乗* である *逆微分* です。
 
 ### 9. 内部積 $T(M)$ と $T(M^*)$、 $S(M)$ と $S(M^*)$、 $\Lambda(M)$ と $\Lambda(M^*)$ の間
 
@@ -1430,7 +1430,7 @@ $$
 
 (75)
 
-There are analogous formulae for the inner product of an element of $S(M^*)$ by an element of $S(M)$ interchanging the roles of $M$ and $M^*$ (since $M^{**}$ is here identified with $M$).
+$M$ と $M^*$ の役割を交換する $S(M^*)$ の要素と $S(M)$ の要素の内積を求める類似の式があります (ここでは $M^{**}$ が $M$ と同一視されているため)。
 
 #### 注意 {#alg-iii-s11-n10-rem-1 .statement tag=068D}
 
@@ -1455,7 +1455,7 @@ $$
 
 *M を次元 n の自由A-加群とします。 $e \in \wedge^n(M)$ を $\wedge^n(M)$ の基底を形成する元とし、$e^*$ を $\wedge^n(M^*)$ の元とし、$(\wedge^n(M))^*$ で $\{(-1)^{n(n-1)/2} \theta_{\wedge}(e^*)\}$ が $\{e\}$ の双対基底となるようにします。 $\phi : \wedge(M^*) \to \wedge(M)$ を写像 $z \mapsto z \wedge e^*$ および $\phi' : \wedge(M^*) \to \wedge(M)$ 写像 $z^* \mapsto z^* \wedge e$ とします。 $\phi_p$ (それぞれ $\phi'_p$) を、$\phi$ (それぞれ $\phi'$) から $\wedge^p(M)$ (それぞれ $\wedge^p(M^*)$) の制限とします。それから：
 
-(i) *The mapping $\phi$ is a left $\wedge(M)$-module isomorphism and the mapping $\phi'$ is a left $\wedge(M^*)$-module isomorphism; moreover the mappings $\phi$ and $\phi'$ are inverses of one another.*
+(i) *写像 $\phi$ は左の $\wedge(M)$ モジュール同型であり、写像 $\phi'$ は左の $\wedge(M^*)$ モジュール同型です。さらに、写像 $\phi$ と $\phi'$ は他のの逆数です。*
 
 (ii) *写像 $\phi_p$ は A-加群 $\wedge^{n-p}(M^*)$ 上の A-加群 $\wedge^p(M)$ の同型であり、写像 $\phi'_p$ は A-加群 $\wedge^p(M^*)$ の同型ですA-加群 $\wedge^{n-p}(M)$。
 
@@ -1465,7 +1465,7 @@ $$
 B(\phi'_p(u^*), v^*) = (-1)^{p(n-p)} B(u^*, \phi'_{n-p}(v^*)).
 $$
 
-The fact that $\phi$ is $\wedge(M)$-linear and $\phi'$ is $\wedge(M^*)$-linear follows from the formulae $(u \wedge v) \wedge e^* = u \wedge (v \wedge e^*)$ and $(u^* \wedge v^*) \wedge e = u^* \wedge (v^* \wedge e)$ (no. 6, formula (37)), using the fact that $\theta_{\wedge}$ is an isomorphism of $\wedge(M^*)$ onto the opposite algebra to $\wedge(M)^*$. 一方、次のような M の基底 $(e_i)_{1 \leq i \leq n}$ が存在します。
+$\phi$ が $\wedge(M)$ 線形であり、 $\phi'$ が $\wedge(M^*)$ 線形であるという事実は、$\theta_{\wedge}$ が $\wedge(M^*)$ の逆代数への同型であるという事実を使用して、式 $(u \wedge v) \wedge e^* = u \wedge (v \wedge e^*)$ と $(u^* \wedge v^*) \wedge e = u^* \wedge (v^* \wedge e)$ (no. 6、式 (37)) から導かれます。 $\wedge(M)^*$。 一方、次のような M の基底 $(e_i)_{1 \leq i \leq n}$ が存在します。
 
 $$
 e = e_1 \wedge e_2 \wedge \cdots \wedge e_n \quad \text{and} \quad e^* = (-1)^{n(n-1)/2} e_1^* \wedge e_2^* \wedge \cdots \wedge e_n^*,
@@ -1587,15 +1587,15 @@ $$(83)$$
 $$
 \langle e_J^*, (e_H^* \perp e_I) \wedge e_{I'} \rangle = (-1)^{(p-1)(p-2)/2} \varepsilon_{i, J, H}
 $$
-where $\varepsilon_{i, J, H} = \rho_{\{i\}, H} \rho_{\{i\}, I'}$; it can then be said that for $i \in J \cap C H$, $\varepsilon_{i, J, H}$ is equal to $+1$ if the number of element of J which are $< i$ and the number of elements of H which are $< i$ have the *same parity*, and $-1$ otherwise.
+ここで$\varepsilon_{i, J, H} = \rho_{\{i\}, H} \rho_{\{i\}, I'}$; $i \in J \cap C H$ について、J の要素の数 $< i$ と H の要素の数 $< i$ が *同じパリティ* を持つ場合、$\varepsilon_{i, J, H}$ は $+1$ に等しい、そうでない場合は $-1$ であると言えます。
 
-It follows immediately that if we write $z = \sum_I a_I e_I$, where I runs through the set of subsets of $\{1, n\}$ with $p$ elements, relation (82–(J, H)) is equivalent to the relation
+$z = \sum_I a_I e_I$ と書くと、I が $\{1, n\}$ の部分集合の集合を$p$ 元で通過する場合、関係 (82–(J, H)) は関係と同等であることがすぐにわかります。
 
 $$
 \sum_{i \in J \cup C_H} \varepsilon_{i, J, H} a_{J-\{i\}} a_{H \cup \{i\}} = 0.
 $$
 
-Relations (84) are called *Grassman’s relations*; these are therefore necessary and sufficient conditions (when J describes the set of subsets with $p + 1$ elements and H the set of subsets with $p - 1$ elements of $\{1, n\}$) for an element $z \neq 0$ of $\bigwedge^p(E)$ to be *pure*.
+関係 (84) は *グラスマンの関係* と呼ばれます。したがって、これらは、$\bigwedge^p(E)$ の要素 $z \neq 0$ が *純粋* であるための必要十分条件です (J が $p + 1$ 要素を持つ部分集合の集合を記述し、H が $\{1, n\}$ の $p - 1$ 要素を持つ部分集合の集合を記述するとき)。
 
 関係 (84) は独立していないことに注意してください。たとえば、$n = 4$ と $p = 2$ の場合、グラスマンの関係簡約するが単一の関係に変換されます。
 
@@ -1605,7 +1605,7 @@ $$
 
 $D_p(E)$ を *純粋な * $p$ ベクトルの $\bigwedge^p(E)$ からなるの部分集合とします。明らかに、$D_p(E)$ は、$u$ と $v$ の間の同値関係に関して飽和しています。「$v = \lambda u$ となるような $\lambda \in K^*$ が存在します」と、$D_p(E)$ の 2 つの元 $u, v$ は、この関係の下で等価です。これらに関連付けられている E の部分空間 $M_u$ と $M_v$ は同じです。 したがって、$\bigwedge^p(E)$ に関連付けられた射影空間* $\mathbf{P}(\bigwedge^p(E))$ の $D_p(E)$ の *像* $G_p(E)$ 上で、E の p 次元ベクトル部分空間* の *集合の *正準全単射* を取得します。 $\mathbf{P}(\bigwedge^p(E))$ の部分集合 $G_p(E)$ は、ベクトル空間 E の添字 $p$ の *グラスマニアン* と呼ばれます。 E が有限次元で、$(e_i)_{1 \leq i \leq n}$ が E の基底であるとき、添字 $p$ のグラスマンニアンは $\mathbf{P}(\bigwedge^p(E))$ の点の集合であり、同次座標 $(a_I)$ の系 ( 基底 $(e_I)$ of $\bigwedge^p(E)$) はグラスマンの関係 (84) を満たします。
 
-When $E = K^n$, we sometimes write $G_{n,p}(K)$ instead of $G_p(K^n)$, so that $G_{n,1}(K) = P_{n-1}(K)$. 写像 $M \mapsto M^0$、$K^n$ のすべての $p$ 次元部分空間と、$E^*$ の *直交* 部分空間 (基底の選択の下で $K^n$ と識別される) $K^n$の標準基底) したがって、定義するは$G_{n,p}(K)$の$G_{n,n-p}(K)$に対する正規の*全単射*です。 命題 15 は、この全単射が射影空間 $\mathbf{P}(\bigwedge^{n-p}(K^n))$ に対する射影空間 $\mathbf{P}(\bigwedge^p(K^n))$ の正準 *同型* の *制限* から $G_{n,p}(K)$ であることを示しています。
+$E = K^n$ のとき、ときどきは $G_p(K^n)$ の代わりに $G_{n,p}(K)$ を書き、$G_{n,1}(K) = P_{n-1}(K)$ になります。 写像 $M \mapsto M^0$ は、$K^n$ のすべての $p$ 次元部分空間と、$E^*$ の *直交* 部分空間に関連付けられます (基底の選択の下の $K^n$ と識別されます)。 $K^n$の標準基底) したがって、定義するは$G_{n,p}(K)$の$G_{n,n-p}(K)$に対する正規の*全単射*です。 命題 15 は、この全単射が射影空間 $\mathbf{P}(\bigwedge^{n-p}(K^n))$ に対する射影空間 $\mathbf{P}(\bigwedge^p(K^n))$ の正準 *同型* の *制限* から $G_{n,p}(K)$ であることを示しています。
 
 ### 練習問題 {#alg-iii-s11-exercises}
 

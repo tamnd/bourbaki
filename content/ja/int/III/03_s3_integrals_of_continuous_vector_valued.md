@@ -29,16 +29,16 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: d1255a4873e4839cb79c98563b8d333bd8f568dfcef2d90b8dfea0882d04c104
+content_sha256: 9d047571eaa4b82728aa1b275c23a133b569de85afa85c99ba59d96b9df3cdb4
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
 translation_method: google
 source_content_sha256: fe78ffc7611951df252f5590889a4a16218a67a71377a0b79b5c7914e9bc3371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: dcfdb067acfb5e608ed295619461df34eeb02cc653d96fc5b750293097f805f9
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。連続ベクトル値の積分写像
@@ -278,7 +278,7 @@ FRV で定義、II, §2, No. 1;これは、公式 (1) から、および FRV、I
 
 #### 命題 8 {#int-iii-s3-prop-8 .statement tag=08O1}
 
-— E がハウスドルフであると仮定します。 $\mu$ を X のメジャーとします。 The mapping $f \mapsto \int f d\mu$ of $\mathscr{K}(X;E)$ into $\widehat{E}$ (No. 3, Cor. 1 of Prop. 7) is the unique continuous linear mapping $\Phi$ such that $\Phi(g \cdot a) = \mu(g) \cdot a$ for every vector $a \in E$ and every function $g \in \mathscr{K}(X;\mathbf{C})$.
+— E がハウスドルフであると仮定します。 $\mu$ を X のメジャーとします。 $\mathscr{K}(X;E)$ の $\widehat{E}$ へのマッピング $f \mapsto \int f d\mu$ (No. 3、提案 7 の Cor. 1) は、すべてのベクトル $a \in E$ およびすべての関数 $g \in \mathscr{K}(X;\mathbf{C})$ に対して $\Phi(g \cdot a) = \mu(g) \cdot a$ となるような、固有の連続線形マッピング $\Phi$ です。
 
 写像 $f \mapsto \int f d\mu$ の連続性を証明するには、その制限から $\mathscr{K}(X,K;E)$ が X のすべてのコンパクト部分集合 K に対して連続であることを示すだけで十分です (TVS、II, §4, No. 4、提案 5)。 E の位相が半規範 $(q_\alpha)$ の族によって定義される場合、$\mathscr{K}(X,K;E)$ は半規範の族によって定義されることに注意してください。
 
@@ -310,11 +310,11 @@ $$
 \left\langle \int f d\varepsilon_x, z' \right\rangle = \int (z' \circ f) d\varepsilon_x = z'(f(x)) = \langle f(x), z' \rangle ,
 $$
 
-よって $\int f\, d\varepsilon_x = f(x)$。 We know, moreover, that the set of point measures is total in $\mathscr{M}(X; \mathbf{C})$ for the topology of strictly compact convergence (§ 2, No. 4, Cor. 4 of Th. 1). したがって、すべては証明線形写像 $u : \mu \mapsto \int f\, d\mu$ の連続性に帰着します。 For this, consider the linear mapping $v : z' \mapsto \langle f, z' \rangle$ of $E'$ into $\mathscr{K}(X; \mathbf{C})$, and let us show that the image under $v$ of an equicontinuous subset $H$ of $E'$ is contained in a strictly compact subset of $\mathscr{K}(X; \mathbf{C})$. なぜなら、$K$ が $f$ のサポートである場合、$z' \in H$ に対する写像 $\langle f, z' \rangle$ は $K$ に含まれるサポートを持っています。一方、これらの写像形は等連続集合であり、$z'(f(x))$ の各 $x \in X$ 集合は有界です。したがって、私たちの主張は、アスコリの定理（GT、X, § 2, No. 5、Th.2のCor.3）に続きます。 さて、No. 1の公式(1)から、$u$は(代数的な意味で)転置$^t v$の制限から$\mathscr{M}(X; \mathbf{C})$にほかならないことがわかります。したがって、その連続性は前述のことから得られます (TVS、IV, § 1, No. 3、提案 6)。
+よって $\int f\, d\varepsilon_x = f(x)$。 さらに、厳密にコンパクトな収束のトポロジーでは、点測度のセットが $\mathscr{M}(X; \mathbf{C})$ で合計されることがわかっています (§ 2, No. 4、Th. 1 の Cor. 4)。 したがって、すべては証明線形写像 $u : \mu \mapsto \int f\, d\mu$ の連続性に帰着します。 このために、$E'$ の $\mathscr{K}(X; \mathbf{C})$ への線形マッピング $v : z' \mapsto \langle f, z' \rangle$ を考慮し、$E'$ の等連続部分集合 $H$ の $v$ の下の画像が厳密にコンパクトな部分集合 $\mathscr{K}(X; \mathbf{C})$ に含まれていることを示します。 なぜなら、$K$ が $f$ のサポートである場合、$z' \in H$ に対する写像 $\langle f, z' \rangle$ は $K$ に含まれるサポートを持っています。一方、これらの写像形は等連続集合であり、$z'(f(x))$ の各 $x \in X$ 集合は有界です。したがって、私たちの主張は、アスコリの定理（GT、X, § 2, No. 5、Th.2のCor.3）に続きます。 さて、No. 1の公式(1)から、$u$は(代数的な意味で)転置$^t v$の制限から$\mathscr{M}(X; \mathbf{C})$にほかならないことがわかります。したがって、その連続性は前述のことから得られます (TVS、IV, § 1, No. 3、提案 6)。
 
 #### 系 {#int-iii-s3-n4-cor-1 .statement tag=08O3}
 
-— *With hypotheses and notations as in Prop. 9, the restriction of the mapping* $\mu \mapsto \int f\, d\mu$ *to the set* $\mathscr{M}_+(X)$ *of positive measures, or to a vaguely bounded subset B of* $\mathscr{M}(X; \mathbf{C})$, *is vaguely continuous.*
+— *提案 9 のような仮説と表記法を使用すると、写像 * $\mu \mapsto \int f\, d\mu$ *陽性測度の集合* $\mathscr{M}_+(X)$ 、または * $\mathscr{M}(X; \mathbf{C})$ の漠然とした境界を持つ部分集合 B への制限は、 *漠然と連続的です*。
 
 というのは、§ 1, No. 10、小道具から続きます。図 17 と図 18 から、$\mathscr{M}_+(X)$ または $B$ において、厳密にコンパクトな収束の位相によって引き起こされる位相は、曖昧な位相によって引き起こされる位相と同じであることがわかります。
 

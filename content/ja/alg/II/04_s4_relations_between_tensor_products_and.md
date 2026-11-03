@@ -30,16 +30,16 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 5a982b5f6a6d131169bca4fcd43acfa715664d27c56b48554a26beda4f2ccce9
+content_sha256: a4f5c39d284bbf35182ea7d4d6791af4a0ce4499d2c50db82c36ffe872cd748f
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 translation_method: google
 source_content_sha256: 426a0db21fa5ed22b6760dc79332adbd1c61d03bf2c3a4f077a67b035b99eabb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 678c6a0fc2d8519c37e78a8670dedf4bf57f1fed5a678f5836e57ee77b55fc12
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 関係テンソル積と準同型加群の間
@@ -109,7 +109,7 @@ $$
 \gamma : \mathrm{Hom}_C(E \otimes_A F, G) \to \mathrm{Hom}_A(E, \mathrm{Hom}_C(F, G)).
 $$
 
-In particular B and C may be taken to be a subring $\Gamma$ of the centre of the ring A; then for every $\Gamma$-module G, the three $\Gamma$-modules
+特に、B と C は、環 A の中心の部分環 $\Gamma$ であると考えることができます。次に、すべての $\Gamma$-モジュール G に対して、3 つの $\Gamma$-モジュール
 
 $$
 \mathrm{Hom}_\Gamma(E \otimes_A F, G), \quad \mathrm{Hom}_A(E, \mathrm{Hom}_\Gamma(F, G)), \quad \mathrm{Hom}_A(F, \mathrm{Hom}_\Gamma(E, G))
@@ -138,7 +138,7 @@ $$
 
 この目的のために、すべての $y \in F$ とすべての $u \in \mathrm{Hom}_A(E, G)$ について、$E$ の写像 $\nu'(u, y) : x \mapsto u(x) \otimes y$ を $G \otimes_B F$ に適用することを検討します。 $\nu'(u, y)$ は $A$ 線形であり、$\nu'$ は $\mathrm{Hom}_A(E, G) \times F$ から $\mathrm{Hom}_A(E, G \otimes_B F)$ への $\mathbf{Z}$ 双線形写像であることがすぐに検証されます。さらに、$(u(x)\beta) \otimes y = u(x) \otimes (\beta y)$ については、$\beta \in B$、$\nu'(u\beta, y)$、$\nu'(u, \beta y)$ はすべて等しいです。 $\nu(u \otimes y)$ が $A$ 線形写像 $x \mapsto u(x) \otimes y$ となるような、望ましい準同型 $\nu$ の存在を結論する (§ 3, no. 1, 命題 1) とします。
 
-It is immediately verified that, if $E$ is an $(A, (C'_i); (D'_j))$-multimodule, $F$ a $(B, (C''_h); (D''_k))$-multimodule and $G$ an $(A, (C'''_1); B, (D'''_m))$-multimodule, the mapping (7) is a $((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m))$-multimodule homomorphism.
+$E$ が $(A, (C'_i); (D'_j))$ マルチモジュール、$F$ が $(B, (C''_h); (D''_k))$ マルチモジュール、$G$ が $(A, (C'''_1); B, (D'''_m))$ マルチモジュールである場合、写像 (7) が $((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m))$ マルチモジュール準同型であることがすぐに検証されます。
 
 #### 命題 2 {#alg-ii-s4-prop-2 .statement tag=05PR}
 

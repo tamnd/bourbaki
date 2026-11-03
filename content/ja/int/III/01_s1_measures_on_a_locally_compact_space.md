@@ -52,16 +52,16 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 6660f00925b208bd0e71b49cd1b9b0a7b1e5f6b02d9a877f1c97b5557c70e8c4
+content_sha256: a59d0786dfe655562095940003194cb630e36bad698dd40c2adf0f6eb99e568c
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 translation_method: google
 source_content_sha256: a5649ad91c991534fecdc842feb81de5c325d32e755f63251c2a1e0724811493
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 18c0ce06b002517c46d49ad6ea9775d3b977d054d03e14c9f906f8796bfa860c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。局所コンパクト化対策空間
@@ -72,9 +72,9 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 — X をトポロジー 空間とし、E を $\mathbf{R}$ 上の $\overline{\mathbf{R}}$ またはベクトル空間とし、f を E への X の写像とする。 $X - S$ で $f(x) = 0$ となるように X で閉じた最小の集合 S (他の語では、$f(x) \neq 0$ のようなすべての $x \in X$ の集合の X での閉包) は f のサポートと呼ばれ、Supp(f) と表されます。
 
-X を局所的にコンパクトな空間とし、E を $\mathbf{R}$ または $\mathbf{C}$ 上のトポロジカルベクトル空間とします。 $\mathscr{C}(X;E)$ は、E への X の連続写像のベクトル空間を表すことを思い出してください。 $E = \mathbf{R}$ または $E = \mathbf{C}$ の場合、混乱が生じない限り、この記法での E の言及は省略します。 We shall denote by $\mathscr{K}(X;E)$ the subspace of $\mathscr{C}(X;E)$ formed by the continuous mappings with compact support; for every subset A of X, we denote by $\mathscr{C}(X,A;E)$ (resp. $\mathscr{K}(X,A;E)$) the subspace of $\mathscr{C}(X;E)$ (resp. $\mathscr{K}(X;E)$) formed by the mappings f such that $\operatorname{Supp}(f) \subset A$. $E = \mathbf{R}$ または $E = \mathbf{C}$ の場合、混乱が生じない限り、$\mathscr{K}(X;\mathbf{R})$ または $\mathscr{K}(X;\mathbf{C})$ (それぞれ $\mathscr{K}(X,A;\mathbf{R})$ または $\mathscr{K}(X,A;\mathbf{C})$) の代わりに $\mathscr{K}(X)$ (それぞれ $\mathscr{K}(X,A)$) と書きます。 $\mathscr{K}(X;\mathbf{R})$の写像$\geq 0$によって形成される尖った凸円錐を$\mathscr{K}_+(X)$で表します。
+X を局所的にコンパクトな空間とし、E を $\mathbf{R}$ または $\mathbf{C}$ 上のトポロジカルベクトル空間とします。 $\mathscr{C}(X;E)$ は、E への X の連続写像のベクトル空間を表すことを思い出してください。 $E = \mathbf{R}$ または $E = \mathbf{C}$ の場合、混乱が生じない限り、この記法での E の言及は省略します。 コンパクトなサポートを備えた連続マッピングによって形成された $\mathscr{C}(X;E)$ の部分空間を $\mathscr{K}(X;E)$ で表すことにします。 X のすべての部分集合 A について、$\operatorname{Supp}(f) \subset A$ のような写像 f によって形成される $\mathscr{C}(X;E)$ (それぞれ $\mathscr{K}(X;E)$) の部分空間を $\mathscr{C}(X,A;E)$ (それぞれ $\mathscr{K}(X,A;E)$) で表します。 $E = \mathbf{R}$ または $E = \mathbf{C}$ の場合、混乱が生じない限り、$\mathscr{K}(X;\mathbf{R})$ または $\mathscr{K}(X;\mathbf{C})$ (それぞれ $\mathscr{K}(X,A;\mathbf{R})$ または $\mathscr{K}(X,A;\mathbf{C})$) の代わりに $\mathscr{K}(X)$ (それぞれ $\mathscr{K}(X,A)$) と書きます。 $\mathscr{K}(X;\mathbf{R})$の写像$\geq 0$によって形成される尖った凸円錐を$\mathscr{K}_+(X)$で表します。
 
-For every compact subset K of X, the space $\mathscr{K}(X,K;E)$ may be identified with a subspace of the space of continuous functions $\mathscr{C}(K;E)$ (namely, the subspace of continuous mappings of K into E that are zero on the boundary$^1$ of K). $\mathscr{C}(K;E)$にKの一様収束の位相が備わっている場合、$\mathscr{K}(X,K;E)$は$\mathscr{C}(K;E)$の閉じた部分空間になります。 特に、E がフレシェ空間 (それぞれバナッハ空間) である場合、$\mathscr{K}(X,K;E)$ も同様です。なぜなら、E の位相が準規範 $p_n$ (それぞれノルム $x \mapsto \|x\|$) によって定義される場合、$\mathscr{K}(X,K;E)$ の位相となるからです。定義されています
+X のすべてのコンパクトな部分集合 K について、空間 $\mathscr{K}(X,K;E)$ は、連続関数空間 $\mathscr{C}(K;E)$ の部分空間 (つまり、K の境界 $^1$ でゼロである、K から E への連続写像の部分空間) と識別される可能性があります。 $\mathscr{C}(K;E)$にKの一様収束の位相が備わっている場合、$\mathscr{K}(X,K;E)$は$\mathscr{C}(K;E)$の閉じた部分空間になります。 特に、E がフレシェ空間 (それぞれバナッハ空間) である場合、$\mathscr{K}(X,K;E)$ も同様です。なぜなら、E の位相が準規範 $p_n$ (それぞれノルム $x \mapsto \|x\|$) によって定義される場合、$\mathscr{K}(X,K;E)$ の位相となるからです。定義されています
 
 (1) 原文はfrontièreで、「辺境」とも訳される(GT, I, §1, No. 6, Def. 11)。
 
@@ -145,20 +145,20 @@ $$
 q\left(f(x) - \sum_{j=1}^n \varphi_j(x) f(x_j)\right) \leq \varepsilon.
 $$*
 
-$K$ の境界までのすべての $y$ 所属について、すべての $f \in \Phi$ について $f(y) = 0$ が存在するため、$X$ には $y$ の開いた近傍 $V_y$ が存在し、すべての $z \in V_y$ とすべての $f \in \Phi$ について、 $q(f(z)) \leq \varepsilon/2$。 $y$ が $K$ の境界を越えるため、$K'$ を $V_y$ のいずれかの所属ではなく、$K$ の点の集合とします。 $K'$は$K$の内部にコンパクトに収まります。 集合 $\Phi$ は $K$ で等連続です。したがって、$K$に含まれる$X$のオープン集合の$K'$からなるの有限のオープンカバー$(U_j)_{1 \leq j \leq n}$が存在し、同じ$U_j$の点$x, y$の対ごとに、 $f \in \Phi$ごとに$q(f(x) - f(y)) \leq \varepsilon/2$。 By Lemma 1, there exist $n$ continuous mappings $\varphi_j$ of $X$ into $[0, 1]$ ($1 \leq j \leq n$) such that $\operatorname{Supp}(\varphi_j) \subset U_j$ and such that
+$K$ の境界までのすべての $y$ 所属について、すべての $f \in \Phi$ について $f(y) = 0$ が存在するため、$X$ には $y$ の開いた近傍 $V_y$ が存在し、すべての $z \in V_y$ とすべての $f \in \Phi$ について、 $q(f(z)) \leq \varepsilon/2$。 $y$ が $K$ の境界を越えるため、$K'$ を $V_y$ のいずれかの所属ではなく、$K$ の点の集合とします。 $K'$は$K$の内部にコンパクトに収まります。 集合 $\Phi$ は $K$ で等連続です。したがって、$K$に含まれる$X$のオープン集合の$K'$からなるの有限のオープンカバー$(U_j)_{1 \leq j \leq n}$が存在し、同じ$U_j$の点$x, y$の対ごとに、 $f \in \Phi$ごとに$q(f(x) - f(y)) \leq \varepsilon/2$。 補題 1 により、$X$ の $\varphi_j$ から $[0, 1]$ ($1 \leq j \leq n$) への $\operatorname{Supp}(\varphi_j) \subset U_j$ などの $n$ 連続マッピングが存在します。
 $$
 \sum_{j=1}^n \varphi_j(x) \leq 1 \text{ on } X \text{ and } \sum_{j=1}^n \varphi_j(x) = 1 \text{ on } K'.
 $$
-For $x_j \in \operatorname{Supp}(\varphi_j)$ ($1 \leq j \leq n$) and $f \in \Phi$, we therefore have, for all $x \in U_j$,
+したがって、$x_j \in \operatorname{Supp}(\varphi_j)$ ($1 \leq j \leq n$) と $f \in \Phi$ については、すべての $x \in U_j$ について、
 $$
 q(f(x)\varphi_j(x) - f(x_j)\varphi_j(x)) = \varphi_j(x)q(f(x) - f(x_j)) \leq \frac{\varepsilon}{2}\varphi_j(x),
 $$
-and this relation remains true if $x \notin U_j$ since then $\varphi_j(x) = 0$. By addition we infer that, for every $x \in X$,
+そしてこの関係は、$x \notin U_j$ 以降 $\varphi_j(x) = 0$ になっても当てはまります。 加法までに、$x \in X$ ごとに、
 $$
 q\left(f(x)(1 - \varphi_0(x)) - \sum_{j=1}^n \varphi_j(x)f(x_j)\right) \leq \frac{\varepsilon}{2}(1 - \varphi_0(x)),
 $$
-where $\varphi_0 = 1 - \sum_{j=1}^n \varphi_j$; whence (1) for $x \in K'$, since then $\varphi_0(x) = 0$;
-(1) also holds for $x \notin K$, the first member then being zero. 最後に、$x \in K - K'$ については、$K'$ の定義によって $q(f(x)\varphi_0(x)) \leq \varepsilon/2$ が得られるため、この場合、この関係と (2) は再び (1) を意味します。
+ここで$\varphi_0 = 1 - \sum_{j=1}^n \varphi_j$; $x \in K'$ ではよって (1)、それ以降は $\varphi_0(x) = 0$;
+(1) は$x \notin K$にも当てはまり、最初のメンバーは零になります。 最後に、$x \in K - K'$ については、$K'$ の定義によって $q(f(x)\varphi_0(x)) \leq \varepsilon/2$ が得られるため、この場合、この関係と (2) は再び (1) を意味します。
 
 $X$ を局所的にコンパクトな空間とします。すべてのバナッハ空間 $E$ (実数または複素数) について、$X$ の連続かつ有界の写像を $E$ に$\mathscr{C}^b(X; E)$ ベクトル空間で表します。 $X$の一様収束の位相は$\mathscr{C}^b(X; E)$のベクトル空間構造(実数、複素数)と互換性があり、ノルムによって定義されることがわかっています。
 $$
@@ -168,7 +168,7 @@ $$
 
 #### 命題 3 {#int-iii-s1-prop-3 .statement tag=08LA}
 
-— Let $X$ be a locally compact space, $X'$ the compact space obtained by adjoining to $X$ a point at infinity $\omega$ (GT, I, §9, No. 8,
+— $X$ を局所コンパクト空間、$X'$ $X$ 無限遠点 $\omega$ (GT, I, §9, No. 8,
 
 Th. 4)、E a Banach 空間。正規の空間 $C^b(X;E)$ における $\mathscr{K}(X;E)$ の終結は、X で連続する写像のベクトル空間であり、E に値があり、点 $\omega$ で 0 になる傾向があります。
 
@@ -224,7 +224,7 @@ $$
 
 $\mathscr{M}(X; \mathbf{C})$、または混乱が生じない場合は単に$\mathscr{M}(X)$で、$X$の措置のベクトル空間、その他の語、$\mathscr{K}(X; \mathbf{C})$の*二重*を表します。
 
-$\mathscr{K}(X;\mathbf{C})$ の *境界* 部分集合のすべての集合 $\mathscr{S}$ について、$\mathscr{M}(X;\mathbf{C})$ に局所的に凸な $\mathscr{S}$ トポロジーが定義されていることがわかります (TVS、III, §3, No. 1、提案 1 の Cor.)。 We denote the topological vector space, obtained by equipping $\mathscr{M}(X;\mathbf{C})$ with the $\mathscr{S}$-topology, by $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ or $\mathscr{M}_{\mathscr{S}}(X)$.
+$\mathscr{K}(X;\mathbf{C})$ の *有界* 部分集合のすべての集合 $\mathscr{S}$ について、$\mathscr{M}(X;\mathbf{C})$ に局所的に凸な $\mathscr{S}$ トポロジーが定義されていることがわかります (TVS、III, §3, No. 1、提案 1 の Cor.)。 $\mathscr{M}(X;\mathbf{C})$ に $\mathscr{S}$ トポロジーを装備することで得られるトポロジー ベクトル空間を $\mathscr{M}_{\mathscr{S}}(X;\mathbf{C})$ または $\mathscr{M}_{\mathscr{S}}(X)$ で表します。
 
 #### 命題 7 {#int-iii-s1-prop-7 .statement tag=08LF}
 
@@ -232,7 +232,7 @@ $\mathscr{K}(X;\mathbf{C})$ の *境界* 部分集合のすべての集合 $\mat
 
 これは、$\mathscr{K}(X;\mathbf{C})$ がバレル化されているという事実から生じます (TVS、III, §4, No. 2、Th. 1 の Cor. 4)。
 
-*例の対策* — I。 *Atomic measures.* Let X be a locally compact space, $a$ a point of X; the mapping $f\mapsto f(a)$ of $\mathscr{K}(X;\mathbf{C})$ into $\mathbf{C}$ obviously satisfies the condition (4) with $M_K=1$ for every compact subset K of X containing $a$, hence is a measure on X, which is denoted by $\varepsilon_a$; it is called the *Dirac measure* at the point $a$, or the measure defined by a *unit mass placed at the point $a$.*
+*例の対策* — I。 *原子的手段。* X を局所的にコンパクトな空間、$a$ を X の点とします。 $\mathscr{K}(X;\mathbf{C})$ の $\mathbf{C}$ へのマッピング $f\mapsto f(a)$ は、$a$ を含むX のすべてのコンパクトサブセット K について$M_K=1$ で条件 (4) を明らかに満たすため、$\varepsilon_a$ で示される X に関する測度になります。それは、点$a$における*ディラック測度*、または点$a$に配置された*単位質量によって定義される測度*と呼ばれます。
 
 より一般的には、$\alpha$ を X の写像から $\mathbf{C}$ にすると、X のすべてのコンパクト部分集合 K に対して、
 $$
@@ -252,11 +252,11 @@ $$
 $$
 その他語条件 (4) は満たされます。
 
-A measure $\mu$ on X is said to be *atomic* if there exists a mapping $\alpha$ of X into $\mathbf{C}$ such that
+X から $\mathbf{C}$ へのマッピング $\alpha$ が存在する場合、X のメジャー $\mu$ は *アトミック* であると言われます。
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty
 $$
-for every compact subset K of X, and such that $\mu$ is equal to the measure defined as above. If N is the set of $x\in X$ such that $\alpha(x)\neq0$, the condition imposed on $\alpha$ implies that for every compact subset K of X, $K\cap N$ is *countable*. $\mu$ は、点* $x\in N$ に配置された *大衆* $\alpha(x)$ によって定義されるとも言われています。 $N\cap K$ がすべてのコンパクト集合 $K\subset X$ に対して *有限* であると仮定すると、明らかに
+X のすべてのコンパクトなサブセット K に対して、$\mu$ が上記で定義された測度に等しいようにします。 N が $x\in X$ の集合で、$\alpha(x)\neq0$、$\alpha$ に課せられた条件は、X のすべてのコンパクト部分集合 K について、$K\cap N$ が *可算* であることを意味します。 $\mu$ は、点* $x\in N$ に配置された *大衆* $\alpha(x)$ によって定義されるとも言われています。 $N\cap K$ がすべてのコンパクト集合 $K\subset X$ に対して *有限* であると仮定すると、明らかに
 $$
 \sum_{x\in K}|\alpha(x)|<+\infty;
 $$
@@ -382,7 +382,7 @@ $\mathscr{M}_+(X)$ は、$X$ のポジティブ指標の尖った凸円錐 (ま�
 
 定理 1 と Ch.1 を考慮してII, §2, No. 2、木曜日。 1、すべては、$X$ 上の実際の測定値 $\mu$ が、リース空間 $\mathscr{K}(X; \mathbf{R})$ 上の *比較的限定された* 線型形式であるという証明に帰着します。 $f$ を $X$ 上の連続写像 $\geq 0$ とし、コンパクトなサポート $K$ を付けます。 $\mathscr{K}(X; \mathbf{R})$の関係 $0 \leq g \leq f$は$\|g\| \leq \|f\|$を暗示し、$g$のサポートが$K$に含まれていることを意味します。 仮定までに、写像 $h \in \mathscr{K}(X, K; \mathbf{R})$ ごとに $|\mu(h)| \leq M_K \cdot \|h\|$ となるような数 $M_K \geq 0$ が存在します。従って $|\mu(g)| \leq M_K \cdot \|g\| \leq M_K \cdot \|f\|$ となり、定理が証明されます。
 
-The space $\mathscr{M}(X; \mathbf{R})$ of real measures on $X$ is thus identical with the space of relatively bounded linear forms on the Riesz space $\mathscr{K}(X; \mathbf{R})$; we recall that in $\mathscr{M}(X; \mathbf{R})$, the order relation $\mu \leq \nu$ signifies that $\nu - \mu$ is a positive measure, or also that $\mu(f) \leq \nu(f)$ for every function $f \in \mathscr{K}_+(X)$.
+従って、$X$ 上の実測度の空間 $\mathscr{M}(X; \mathbf{R})$ は、リース空間 $\mathscr{K}(X; \mathbf{R})$ 上の比較的有界な線形形式の空間と同一です。 $\mathscr{M}(X; \mathbf{R})$ で、順序関係 $\mu \leq \nu$ は、$\nu - \mu$ が正の尺度であること、またはすべての関数 $f \in \mathscr{K}_+(X)$ について $\mu(f) \leq \nu(f)$ を意味していることを思い出してください。
 
 #### 定理 3 {#int-iii-s1-thm-3 .statement tag=08LK}
 
@@ -530,7 +530,7 @@ $$
 
 このノルムを装備した$\mathscr{M}^1(X; \mathbf{C})$は、バナッハ空間であることが知られています（TVS、III, §3, No. 8、提案12のCor.2）。
 
-The definition of $\|\mu\|$ by the formula (20) may be extended to every measure $\mu$ on X and, by an abuse of language, $\|\mu\|$ is again said to be the norm of $\mu$; for $\mu$ to be bounded, it is necessary and sufficient that $\|\mu\|$ be finite.
+公式 (20) による $\|\mu\|$ の定義は、X のすべての小節 $\mu$ に拡張でき、言葉の乱用により、$\|\mu\|$ は再び $\mu$ のノルムであると言われます。 $\mu$ が有限であるためには、$\|\mu\|$ が有限であることが必要かつ十分です。
 
 X がコンパクトな場合、X のすべての小節は有界になります。
 
@@ -629,7 +629,7 @@ $$
 \| \mu \| = \| \mu^+ \| + \| \mu^- \|.
 $$
 
-For (Cor. 1 of Prop. 10), the norm of $\mu$ is equal to that of $|\mu| = \mu^+ + \mu^-$.
+(提案 10 の補正 1) については、$\mu$ のノルムは $|\mu| = \mu^+ + \mu^-$ のノルムと等しいです。
 
 #### 命題 12 {#int-iii-s1-prop-12 .statement tag=08LW}
 
@@ -657,7 +657,7 @@ $$
 
 *X を局所コンパクト空間とし、$x \in X$ ごとに、$\varepsilon_x$ を点 x でのディラック測度とする。 写像 $x \mapsto \varepsilon_x$ は、X の小節の空間 $\mathscr{M}(X; \mathbf{C})$ の部分空間への X の同型写像であり、曖昧な位相を備えています。さらに、$X'$がX点を無限遠$\omega$で隣接して得られるコンパクト空間を表す場合、xが$\omega$になる傾向があるように、$\varepsilon_x$は0になる傾向があります。
 
-写像 $f \in \mathscr{K}(X; \mathbf{C})$、$\langle f, \varepsilon_x \rangle = f(x)$ ごとに; $f$ は連続であるため、これは写像 $x \mapsto \varepsilon_x$ が連続であることを証明します。 If $x, y$ are two distinct points of X, there exists a function $f \in \mathscr{K}(X; \mathbf{C})$ such that $f(x) = 1, f(y) = 0$ (No. 2, Lemma 1), which proves that $\varepsilon_x \neq \varepsilon_y$; the mapping $x \mapsto \varepsilon_x$ is therefore injective. さらに、写像 $f \in \mathscr{K}(X; \mathbf{C})$ ごとに、$x$ が $\omega$ になる傾向があるように、$\langle f, \varepsilon_x \rangle$ は定義までに 0 になる傾向があるため、点で値 0 を割り当てることで、$x \mapsto \varepsilon_x$ は連続性によって $X' = X \cup \{ \omega \}$ まで拡張される可能性があります。 $\omega$。 すべての $x \in X$ に対して $\varepsilon_x \neq 0$ であるため、この拡張された写像も単射法です。 したがって、$\mathscr{M}(X; \mathbf{C})$ は曖昧な位相 (GT、I, §9, No. 4、Th. 2 の Cor. 2) に対するハウスドルフであるため、これは、$\mathscr{M}(X; \mathbf{C})$ の部分空間へのコンパクト空間 $X'$ の同型写像です。
+写像 $f \in \mathscr{K}(X; \mathbf{C})$、$\langle f, \varepsilon_x \rangle = f(x)$ ごとに; $f$ は連続であるため、これは写像 $x \mapsto \varepsilon_x$ が連続であることを証明します。 $x, y$ が X の 2 つの異なる点である場合、$f(x) = 1, f(y) = 0$ (No. 2, 補題 1) となる写像 $f \in \mathscr{K}(X; \mathbf{C})$ が存在します。これは、$\varepsilon_x \neq \varepsilon_y$ であることを証明します。したがって、写像 $x \mapsto \varepsilon_x$ は単射法です。さらに、写像 $f \in \mathscr{K}(X; \mathbf{C})$ ごとに、$x$ が $\omega$ になる傾向があるように、$\langle f, \varepsilon_x \rangle$ は定義までに 0 になる傾向があるため、$x \mapsto \varepsilon_x$ に値 0 を代入することで連続性によって $X' = X \cup \{ \omega \}$ まで拡張できます。 点 $\omega$。すべての $x \in X$ に対して $\varepsilon_x \neq 0$ であるため、この拡張された写像も単射法です。したがって、$\mathscr{M}(X; \mathbf{C})$ は曖昧な位相 (GT, I, §9, No. 4, Cor. 2 of Th. 2) のハウスドルフであるため、これはコンパクトな空間 $X'$ の $\mathscr{M}(X; \mathbf{C})$ の部分空間への同型写像です。
 
 #### 命題 14 {#int-iii-s1-prop-14 .statement tag=08LY}
 
@@ -684,7 +684,7 @@ d) $X$ のすべてのコンパクト部分集合 $K$ に対して、すべて�
 
 $\mathscr{K}(X; \mathbf{C})$ はバレル化された空間 (No. 1、提案 2) であるため、プロパティ a)、b)、および c) の同値は TVS、III, §4, No. 1、Scholium から続きます。
 
-d) が a) を意味することは明らかです。 Finally, if $H$ is equicontinuous then the set of restrictions of the measures $\mu \in H$ to $\mathscr{K}(X, K; \mathbf{C})$ is also equicontinuous, whence the condition d), since $\mathscr{K}(X, K; \mathbf{C})$ is a normed space.
+d) が a) を意味することは明らかです。最後に、$H$ が等連続である場合、$\mu \in H$ から $\mathscr{K}(X, K; \mathbf{C})$ までの尺度の制限の集合も等連続です、$\mathscr{K}(X, K; \mathbf{C})$ は標準の空間であるため、よって条件 d)。
 
 \* 第 3 章で見てみましょう。 IV, §4, No. 6、命題 15 の条件は、$X$ の各コンパクト部分集合 $K$ に対して、各小節 $\mu \in H$ に対して $|\mu|(K) \leq M_K$ となる定数 $M_K$ が存在するという条件とも等価です。
 
@@ -742,7 +742,7 @@ $\mathscr{T}_4$: *位相のコンパクトなコンバージェンス。*
 
 $\mathscr{M}(X; \mathbf{C})$ の漠然と境界のある部分集合 $H$ は等連続です (No. 9、提案 15)。従って、最初の主張は TVS、III, §3, No. 7、提案 9 から続き、2 番目は GT、X, §2, No. 4、Th から続きます。 1.
 
-Recall that when $X$ is *paracompact*, the topology of strictly compact convergence coincides with the topology of compact convergence (No. 1, Prop. 2).
+$X$ が *パラコンパクト* の場合、厳密にコンパクトな収束のトポロジーはコンパクトな収束のトポロジーと一致することを思い出してください (No. 1、提案 2)。
 
 #### 命題 18 {#int-iii-s1-prop-18 .statement tag=08M7}
 

@@ -46,16 +46,16 @@ subsections:
       pdf_page: 88
 statements: 43
 exercises: 8
-content_sha256: 1c386c3bc796b159446f0a7ec662fb4f7041cc32eb2a46d089605b0eb0db359e
+content_sha256: 984be04be9fd4a18921c98f534bdd22988edbfa22e7bbe2cb76bb26d40301c21
 translated_from: content/en/alg/VIII/04_s4_semisimple_modules.md
 translation_method: google
 source_content_sha256: 9d4584b8ed5e9b2ea8bfc7a3b377164098496c5ee0e2c21f520fa31ff9205f9d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f7a69f031ea3c34e9daa8c29f97ab1b28da55b2a3a92238848ee87b5a6eb945b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 半単純加群
@@ -88,7 +88,7 @@ $A_1$ と $A_2$ を可換環 K の上の代数とします。 III, §4, No. 3、
 
 M を単純部分加群の家族 $(S_i)_{i\in I}$ の (必ずしも直接ではない) 和である加群とし、N を M の部分加群とします。 M が N の族からなるの直和であり、J を通る $j$ に対して加群 $S_j$ となるような I の部分集合 J が存在します。
 
-Let $\mathscr{S}$ be the set of subsets $I'$ of I such that the sum of the family consisting of the modules N and $S_i$ for $i$ in $I'$ is direct. 集合 $\mathscr{S}$ は有限の指標: I 属するから $\mathscr{S}$ の部分集合 J は、同じことが J のすべての有限部分集合に当てはまる場合に限ります。 従って、集合 $\mathscr{S}$ は極大元 J (集合理論, III, §4, No. 5, p. 171) になります。 集合 $N'= N +\sum_{j\in J}S_j$。 $i$ を I にしましょう - J. J は $\mathscr{S}$ で最大なので、集合 $J\cup  \{i\}$ は属するから $\mathscr{S}$ にならないので、$S_i\cap N'\not= 0$ になります。 $S_i$ は単純加群なので、$S_i\cap N'= S_i$ になります。 従って、$i\in I$、よって $N'= M$ ごとに $S_i\subset N'$ が得られます。 これで証明は完了です。
+$\mathscr{S}$ を、$I'$ の $i$ のモジュール N と $S_i$ で構成されるファミリーの合計が直接となるように、I のサブセット $I'$ の集合とします。 集合 $\mathscr{S}$ は有限の指標: I 属するから $\mathscr{S}$ の部分集合 J は、同じことが J のすべての有限部分集合に当てはまる場合に限ります。 従って、集合 $\mathscr{S}$ は極大元 J (集合理論, III, §4, No. 5, p. 171) になります。 集合 $N'= N +\sum_{j\in J}S_j$。 $i$ を I にしましょう - J. J は $\mathscr{S}$ で最大なので、集合 $J\cup  \{i\}$ は属するから $\mathscr{S}$ にならないので、$S_i\cap N'\not= 0$ になります。 $S_i$ は単純加群なので、$S_i\cap N'= S_i$ になります。 従って、$i\in I$、よって $N'= M$ ごとに $S_i\subset N'$ が得られます。 これで証明は完了です。
 
 #### 系 1 {#alg-viii-s4-thm-1-cor-1 .statement tag=0045}
 
@@ -216,7 +216,7 @@ $$
 \beta_V(v)(p) =p\otimes v \tag{8}
 $$
 
-$p\in P$ と $v\in V$ の場合。 V から $\mathscr{H}(\mathscr{T}(V))$ までの$\beta_V$ を正規の B-線型写像と呼びます。すべての B-加群 $V'$ とすべての B-線型写像 $g: V\rightarrow V'$ には、可換図式があります。
+$p\in P$ と $v\in V$ の場合。 V から $\mathscr{H}(\mathscr{T}(V))$ までの正規の B-線型写像を $\beta_V$ と呼びます。すべての B-加群 $V'$ とすべての B-線型写像 $g: V\rightarrow V'$ に対して、可換図式が得られます。
 
 V $^{\beta_V}$ /$/\mathscr{H}(\mathscr{T}(V))$
 
@@ -232,7 +232,7 @@ $$
 (\gamma (u)(v))(p) =u(p\otimes v) =u\circ (\beta_V(v))(p)
 $$
 
-すべての$u\in$ Hom$_A(\mathscr{T}(V),M),v\in V$、および$p\in P$。
+$u\in$ ホム$_A(\mathscr{T}(V),M),v\in V$ と $p\in P$ の皆さん。
 
 #### 注意 1 {#alg-viii-s4-n3-rem-1 .statement tag=004A}
 
@@ -240,23 +240,23 @@ V と $V'$ を B-加群とします。 随伴同型
 
 $\gamma :$ ホム$_A(\mathscr{T}(V),\mathscr{T}(V'))\longrightarrow$ ホム$_B(V,\mathscr{H}(\mathscr{T}(V')))$
 
-すべての $f\in$ Hom$_B(V,V')$ に対して関係 $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ を満たします。
+$f\in$ Hom$_B(V,V')$ ごとに関係 $\gamma (\mathscr{T}(f)) =\beta_{V'}\circ f$ を満たします。
 
 $$
 (\gamma (\mathscr{T}(f))(v))(p) =\mathscr{T}(f)(p\otimes v) =p\otimes f(v) = (\beta_{V'}\circ f)(v)(p)
 $$
 
-M と $M'$ を A-加群とします。 the inverse of 随伴同型
+M と $M'$ を A-加群とします。 随伴同型の逆数
 
 $\gamma^{-1}:$ ホム$_B(\mathscr{H}(M),\mathscr{H}(M'))\longrightarrow$ ホム$_A(\mathscr{T}(\mathscr{H}(M)),M')$
 
-$u\in$ Hom$_B(M,M')$ ごとに関係 $\gamma^{-1}(\mathscr{H}(u)) =u\circ \alpha_M$ を満たします。確かに、私たちは関係を持っています
+$u\in$ Hom$_B(M,M')$ ごとに関係 $\gamma^{-1}(\mathscr{H}(u)) =u\circ \alpha_M$ を満たします。確かに、関係あります
 
 $$
 \gamma^{-1}(\mathscr{H}(u))(p\otimes v) = (\mathscr{H}(u)(v))(p) =u(v(p)) =u\circ \alpha_M(p\otimes v)
 $$
 
-すべての$u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M) と $p\in P$ です。
+$u\in$ Hom$_B(M,M'),v\in \mathscr{H}$ (M) と $p\in P$ のすべてに。
 
 #### 注意 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
@@ -274,13 +274,13 @@ P が A-加群として有限生成されるとします。 M を A-加群の家
 
 ### 4. 等型加群
 
-Aを環、Sを単純な左A-加群とします。 D を S の自己準同型環の反対環とします。 体です。 A と D の作用を備えた S は、$(A$, D)-バイモジュールです。
+A を環 、S を単純な左A-加群とします。 D を S の自己準同型環の反対環とします。 体です。 A と D の作用を備えた S は、$(A$, D)-バイモジュールです。
 
 #### 命題 1 {#alg-viii-s4-prop-1 .statement tag=004D}
 
 M をA-加群とします。次のプロパティは同等です。
 
-(i) M が $S^{(I)}$ と同型となる集合 I が存在します。
+(i) M が $S^{(I)}$ と同型となるような集合 I が存在します。
 
 (ii) 加群 M は、S と同型の部分加群族の直和です。
 
@@ -288,23 +288,23 @@ M をA-加群とします。次のプロパティは同等です。
 
 (iv) A-加群 M が $S\otimes_DV$ と同型となるような体 D 上に左ベクトル空間 V が存在します。
 
-(i)と(ii)の同値は明らかで、(ii)と(iii)の定理はVIII、p. 56の1をN=0の場合に適用します。 D 上のすべての左ベクトル空間は、形 $D_s^{(I)}$ のベクトル空間と同型です。ここで、I は集合 (II, §7, No. 1, p. 292, 定理 1) です。 テンソル積は直和と可換であるため、(i) は (iv) と同等です。
+(i) と (ii) の同値は明らかで、(ii) と (iii) のそれは VIII, p. 56 の定理から続き、N = 0 の場合に適用されます。D 上のすべての左ベクトル空間は、次のベクトル空間と同型です。 形 $D_s^{(I)}$、ここで、I は集合 (II, §7, No. 1、p. 292、定理 1) です。 テンソル積は直和と交換するため、(i) は (iv) と同等です。
 
 #### 定義 2 {#alg-viii-s4-def-2 .statement tag=004E}
 
-A-加群 M は、命題 1 と同等の性質を持つ場合、型 S と同型です。 加群 M は、M が型 T と同型であるような単純A-加群 T が存在する場合、同型と呼ばれます。
+A-加群 M は、命題 1 と同等の特性を持つ場合、型 S の同型です。 加群 M は、M が型 T と同型であるような単純A-加群 T が存在する場合、同型と呼ばれます。
 
 すべての等型加群は半単純です。
 
 #### 命題 2 {#alg-viii-s4-prop-2 .statement tag=004F}
 
-加群が型 S の同型部分加群の和である場合、型 S の同型です。 型 S の等型加群の部分加群と商加群は型 S の同型です。
+加群が型 S の同型部分加群の和である場合、型 S の同型です。部分加群と型 S の等型加群の商加群は、 型 S の同型。
 
-最初の主張は定義から続き、2 番目は VIII、p. 56 の系 3 から続きます。
+最初の主張は定義から続き、2 番目は系 3 の VIII、p. 56 から続きます。
 
 #### 注意 {#alg-viii-s4-n4-rem-1 .statement tag=004G}
 
-型 S のすべての非零等型加群には、S と同型の商加群と部分加群があります。従って、M と $M'$ が型 S の非零等型A-加群である場合、群 Hom$_A(M,M')$ は 0 に減らされません。
+型 S のすべての非零等型加群には、S と同型の商加群と部分加群があります。従って、M と $M'$ が型 S の非零等型A-加群である場合、群 Hom$_A(M,M')$ は 0 に減りません。
 
 #### 命題 3 {#alg-viii-s4-prop-3 .statement tag=004H}
 
@@ -324,7 +324,7 @@ b) V を体 D 上で左ベクトル空間とする。 $\beta_V(v)(s) =s\otimes v
 
 M を型 S の等型A-加群とします。S に関する M の記述は対 $(V, \alpha )$ で、V は体 D 以上の左ベクトル空間であり、$\alpha : S\otimes_DV\rightarrow M$ は A-加群の同型です。
 
-Every isotypical A-module M of type S has a canonical description: it is the pair (Hom$_A(S,M), \alpha_M$), where $\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ is the isomorphism of A-modules characterized by $\alpha_M(s\otimes f) =f(s)$ (VIII, p. 62, Proposition 3, a)).
+型 S のすべての同型 A 加群 M には標準的な記述があります。それはペア (Hom$_A(S,M), \alpha_M$) です。ここで、$\alpha_M: S\otimes_D$ Hom$_A(S,M)\rightarrow M$ は、$\alpha_M(s\otimes f) =f(s)$ (VIII、p. 62、命題 3、a)) によって特徴付けられる A 加群の同型です。
 
 #### 定理 2 {#alg-viii-s4-thm-2 .statement tag=004J}
 
@@ -348,7 +348,7 @@ M を型 S の等型A-加群と M の $(V, \alpha )$ 記述とします。する
 
 #### 系 1 {#alg-viii-s4-thm-2-cor-1 .statement tag=004L}
 
-M を型 S の等型A-加群とします。 For every A-submodule N of M, identify Hom$_A(S,N)$ with the linear subspace of Hom$_A(S,M)$ consisting of the mappings with image contained in N.
+M を型 S の等型A-加群とします。 M のすべての A サブモジュール N について、N に含まれる画像とのマッピングで構成される Hom$_A(S,M)$ の線形部分空間で Hom$_A(S,N)$ を識別します。
 
 a) 写像 $N\mapsto$ Hom$_A(S,N)$ は、$\mathscr{D}_A(M)$ から $\mathscr{D}_D$(Hom$_A(S,M)$) までの順序集合の同型です。
 
@@ -358,7 +358,7 @@ b) 逆全単射は Hom$_A(S,M)$ の線形部分空間 W を M の部分加群 $\
 
 #### 系 2 {#alg-viii-s4-thm-2-cor-2 .statement tag=004M}
 
-V を D 上の左ベクトル空間および V の自己準同型の $\mathscr{F}$ 集合とします。 An A-submodule of $S\otimes_DV$ is stable under all endomorphisms $1_S\otimes u$, where $u$ runs through $\mathscr{F}$, if and only if it is of the form $S\otimes_DW$, where W is a linear subspace of V that is stable under all endomorphisms belonging to $\mathscr{F}$.
+V を D 上の左ベクトル空間および V の自己準同型の $\mathscr{F}$ 集合とします。 $S\otimes_DV$ の A 部分モジュールは、すべての準同型性 $1_S\otimes u$ の下で安定します。ここで、$u$ は、$S\otimes_DW$ の形式である場合に限り、$\mathscr{F}$ を通過します。ここで、W は、$\mathscr{F}$ に属するすべての準同型性のもとで安定である V の線形部分空間です。
 
 実際、定理 2 までに、$S\otimes_DV$ のすべての A-部分加群 N は $S\otimes_DW$ に等しくなります。ここで W は、元 $v$ のV からなるの線形部分空間であり、すべての$s\otimes v$ 属するが N になります。 $s\in S$。
 
@@ -386,7 +386,7 @@ $\mathscr{T}:$ ホム$_D(V,V')\longrightarrow$ ホム$_A(\mathscr{T}(V),\mathscr
 
 #### 注意 2 {#alg-viii-s4-n5-rem-2 .statement tag=004O}
 
-M を型 S の等型A-加群とし、$(V, \alpha )$ を M の記述とします。 B を環 End$_A(M)^o$ の部分環とします。 End$_D(V)^o$ から End$_A(M)^o$ までの環同型は、V に $(D$, B)-bimodule の構造を与え、$\alpha$ は $(A$, B)-bimodule の同型になります。 There exists an isomorphism from the set of $(D$, B)-sub-bimodules of V, ordered by inclusion, to the set of $(A$, B)-sub-bimodules of M (VIII, p. 62, Theorem 2 and VIII, p. 63, Corollary 2).
+M を型 S の等型A-加群とし、$(V, \alpha )$ を M の記述とします。 B を環 End$_A(M)^o$ の部分環とします。 End$_D(V)^o$ から End$_A(M)^o$ までの環同型は、V に $(D$, B)-bimodule の構造を与え、$\alpha$ は $(A$, B)-bimodule の同型になります。 包含によって順序付けられたVの$(D$, B)-サブ双モジュールの集合から、Mの$(A$, B)-サブ双モジュールの集合への同型写像が存在します(VIII, p. 62、定理2およびVIII、p. 63、系2)。
 
 #### 系 {#alg-viii-s4-n5-cor-1 .statement tag=004P}
 
@@ -546,7 +546,7 @@ c) N を M の部分加群とします。以下の特性を持つ一意の族 $(
 
 A-加群 $S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$ は、$\lambda \in \mathscr{S}$ ごとに型 $\lambda$ と同型です。 主張 a) は、$\alpha$ が同型であり、M が $(M_{\lambda})_{\lambda\in\mathscr{S}}$ (VIII, p. 65, 命題 4, a)) の直和であるという事実から導かれます。
 
-$\lambda \in \mathscr{S}$ にしましょう。 $\alpha$ の制限を $\alpha_{\lambda}: S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}\rightarrow$ M で$S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$ と表します。 With the notation of No. 3 applied to the $(A,D_{\lambda}$)-bimodule $S_{\lambda}$, we have
+$\lambda \in \mathscr{S}$ にしましょう。 $\alpha$ の制限を $\alpha_{\lambda}: S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}\rightarrow$ M で $S_{\lambda}\otimes_{D_{\lambda}}V_{\lambda}$ に表します。 No. 3 の記法を $(A,D_{\lambda}$)-bimodule $S_{\lambda}$ に適用すると、次のようになります。
 
 $$
 \beta_{\lambda}=\gamma (\alpha_{\lambda}) =\mathscr{H}(\alpha_{\lambda})\circ \beta_{V_{\lambda}}
@@ -592,7 +592,7 @@ $\lambda \in \mathscr{S}\lambda$
 
 このように定義された写像 $\varphi :\prod_{\lambda\in\mathscr{S}}$ Hom$_{D_{\lambda}}(V_{\lambda},V'_{\lambda})\rightarrow$ Hom$_A(M,M')$ は、群同型となります。 $\lambda \in \mathscr{S}$ と $\alpha =\alpha '$ ごとに $M = M',V_{\lambda}= V'_{\lambda}$ がある場合、写像 $\varphi$ は、$\prod_{\lambda\in\mathscr{S}}$ 端$_{D_{\lambda}}(V_{\lambda})$ から端$_A(M)$ までの環同型です。
 
-In view of the description of the isotypical components of M and $M'$ given in Proposition 8, a), this follows from Theorem 3 of VIII, p. 64 and Proposition 5, b) of VIII, p. 66.
+M の同型成分の記述と命題 8、a) で与えられた $M'$ を考慮すると、これは VIII、p. 64 および命題 5、b) VIII、p. 66 の定理 3 から続きます。
 
 #### 系 {#alg-viii-s4-n7-cor-2 .statement tag=0053}
 

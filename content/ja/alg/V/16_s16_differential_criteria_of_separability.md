@@ -42,27 +42,27 @@ subsections:
       pdf_page: 250
 statements: 32
 exercises: 9
-content_sha256: 31762b3e57f6ba0b5399f3507dbdbd8263492904cb015b73411107b4f2649ae0
+content_sha256: 8c67cc274af94a96890c8c48c81d1f41978e4b77a6731a00e1f9ca58aaa743d6
 translated_from: content/en/alg/V/16_s16_differential_criteria_of_separability.md
 translation_method: google
 source_content_sha256: 74e20434a4632131b94714a4b2546c552d9b686ae8250258434122a026af180b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5c7b68ef90bc7a5b08f2362d3b7ba243f28a659ecec623cdd1bd7e5ede65be8c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 16。分離可能性の区別基準
 
 ### 1. 導分の拡大 : 環の場合
 
-K を可換環、A 可換K-代数、$x = (x_i)_{i \in I}$ とし、A の元の族とする。さらに、$A$ を K の導分から A-加群 M に、その他の語 (III, p. 553) a とする。 K の $c, c'$ に対する K の M 満たす関係 $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ への Z 線形マッピング。各 $i \in I$ について、$D_i$ を多項式環 $K[X_i]_{i \in I}$ の $X_i$ に関する部分導分とします。これは、環をそれ自体に組み込んだ一意の導分で、K では零、$j \in I - \{i\}$ では $X_j$ であり、$X_i$ (IV, p. 6) では値 1 をとります。 $K[X_i]_{i \in I}$ のすべての多項式 $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ を、M の $f^\Delta(x)$ 元 $\sum_{\alpha \in N^{(I)}} x^\alpha \cdot \Delta(c_\alpha)$ で表します。
+K を可換環、A 可換K-代数、および $x = (x_i)_{i \in I}$ とし、A の元の族とする。さらに、$A$ を K の導分から A-加群 M、他の語 (III, p. 553) a とする。 K の $c, c'$ に対する K の M 満たす関係 $\Delta(cc') = c \cdot \Delta(c') + c' \cdot \Delta(c)$ への Z 線形マッピング。各 $i \in I$ について、$D_i$ を多項式環 $K[X_i]_{i \in I}$ の $X_i$ に関する部分導分とします。これは、環をそれ自体に組み込んだ一意の導分で、K では零、$j \in I - \{i\}$ では $X_j$ であり、$X_i$ (IV, p. 6) では値 1 をとります。 $K[X_i]_{i \in I}$ のすべての多項式 $f = \sum_{a \in N^{(I)}} c_a \cdot X^\alpha$ を、M の $f^\Delta(x)$ 元 $\sum_{\alpha \in N^{(I)}} x^\alpha \cdot \Delta(c_\alpha)$ で表します。
 
 #### 命題 1 {#alg-v-s16-prop-1 .statement tag=06UK}
 
-— 家族 $x = (x_i)_{i \in I}$、生成する K-代数 A があるとします。 $(m_i)_{i \in I}$ を M の元の族とし、$(f_\lambda)_\lambda$ を、$f(x) = 0$ となるようなすべての多項式 $f \in K[X_i]_{i \in I}$ の理想的な多項式生成するの族 $a$ とします。 A から M への導分 D が、すべての $c \in K$ に対して $D(c \cdot 1) = \Delta(c)$ およびすべての $i \in I$ に対して $D(x_i) = m_i$ となるように存在するには、次のことが必要かつ十分です。
+— 家族 $x = (x_i)_{i \in I}$、生成する K-代数 A を仮定します。 $(m_i)_{i \in I}$ を M の元の家族とし、$(f_\lambda)_\lambda$ を多項式の家族生成するすべての多項式の理想的な $a$ とします。 $f \in K[X_i]_{i \in I}$ は $f(x) = 0$ になります。 A から M への導分 D が、すべての $c \in K$ に対して $D(c \cdot 1) = \Delta(c)$ となり、すべての $i \in I$ に対して $D(x_i) = m_i$ となるように存在するには、次のことが必要かつ十分です。
 
 $$
 f_\lambda^\Delta(x) + \sum_{i \in I} D_i f_\lambda(x) \cdot m_i = 0 \quad \text{for all} \quad \lambda \in A .
@@ -74,9 +74,9 @@ $$
 D(f(x)) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i \quad \text{for all} \quad f \in K[X_i]_{i \in I}
 $$
 
-Put $E = K[X_i]_{i \in I}$ and write $\varphi$ for the K-homomorphism of E onto A which maps $X_i$ to $x_i$ for all $i \in I$; we thus have $\varphi(f) = f(x)$ for all $f \in E$. E の準同型 $\varphi : E \to A$ と定義する写像 $D'$ を $D'(f) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i$ で M に変換することで、M を E モジュールとみなします (ファミリ $(D_i f)_{i \in I}$ には各 $f \in E$ に対して有限台があることに注意してください)。 $D'$ は、E を M に拡張した一意の導分であり、各 $i \in I$ に対して A と写像 $X_i$ を $m_i$ に拡張したものであることは明らかです。
+$E = K[X_i]_{i \in I}$ を置き、E の K 準同型性の $\varphi$ を A に書き込むと、すべての $i \in I$ に対して写像 $X_i$ から $x_i$ になります。したがって、すべての $f \in E$ に対して $\varphi(f) = f(x)$ が得られます。 準同型 $\varphi : E \to A$ と定義する写像 $D'$ を使って M を E モジュールとみなします。E を $D'(f) = f^\Delta(x) + \sum_{i \in I} D_i f(x) \cdot m_i$ で M に変換します (ファミリー $(D_i f)_{i \in I}$ には各 $f \in E$ に対して有限台があることに注意してください)。 $D'$ は、E を M に拡張した一意の導分であり、各 $i \in I$ に対して A と写像 $X_i$ を $m_i$ に拡張したものであることは明らかです。
 
-D を A の M への導分とし、すべての $c \in K$ については $D(c \cdot 1) = \Delta(c)$、すべての $i \in I$ については $D(x_i) = m_i$ とします。 Then $D \circ \varphi$ is a derivation of E into M extending A and mapping $X_i$ to $m_i$ for all $i \in I$. したがって、$D \circ \varphi = D'$、つまり関係 (2) が成り立ちます。 これは D の一意性を証明します。また、(1)は$f, (x) = 0$と(2)の帰結です。
+D を A の M への導分とし、すべての $c \in K$ に対して $D(c \cdot 1) = \Delta(c)$、すべての $i \in I$ に対して $D(x_i) = m_i$ とします。すると、$D \circ \varphi$はEの導分をMに拡張してAを拡張し、写像$X_i$をすべての$i \in I$に対して$m_i$とします。したがって、$D \circ \varphi = D'$、つまり関係 (2) が成立します。これは D の一意性を証明します。また、(1)は$f, (x) = 0$と(2)の帰結です。
 
 逆に、(1) が成り立つと仮定します。他の語では、すべての $\lambda \in A$ に対して $D'(f_\lambda) = 0$ があります。 $f \in a$ にしましょう。 $E$ に $f = \sum_{\lambda \in \Lambda} q_\lambda \cdot f_\lambda$ となるような有限台 $(q_\lambda)_{\lambda \in \Lambda}$ を持つ家族が存在します。私たちは持っています
 $$
@@ -110,10 +110,10 @@ $$
 
 #### 命題 2 {#alg-v-s16-prop-2 .statement tag=06UL}
 
-— *The following conditions are equivalent*:
-a) *The mapping $\alpha$ is injective*.
-b) *Every $K$-derivation of $L$ into $M$ extends to a $K$-derivation of $M$ into $M$*.
-c) *Every $K$-derivation of $L$ into a vector $M$-space $V$ extends to a $K$-derivation of $M$ into $V$*.
+— *以下の条件は同等です*:
+a) *マッピング $\alpha$ は単射法です*。
+b) *$L$ から $M$ へのすべての $K$ 導出は、$M$ から $M$* への $K$ 導出まで拡張されます。
+c) *ベクトル $M$ 空間 $V$ への $L$ のすべての $K$-導出は、$M$ から $V$* への $K$-導出まで拡張されます。
 
 #### 命題 3 {#alg-v-s16-prop-3 .statement tag=06UM}
 
@@ -127,13 +127,13 @@ b) $L$ の $K$-微分 のベクトル $L$ 空間 $\Omega_K(L)$ は、基底と�
 
 #### 系 {#alg-v-s16-n2-cor-1 .statement tag=06UN}
 
-— $P$ を $K$ の部分体とします。 The canonical mapping $\alpha$ of $\Omega_P(K) \otimes_K L$ into $\Omega_P(L)$ is injective and the family $(d_{L/P} x_i)_{i \in I}$, is a basis (over $L$) of a subspace of $\Omega_P(L)$ supplementary to the image of $\alpha : \Omega_P(K) \otimes_K L \to \Omega_P(L)$.
+— $P$ を $K$ の部分体とします。 $\Omega_P(K) \otimes_K L$ の $\Omega_P(L)$ への正規写像 $\alpha$ は単射的であり、族 $(d_{L/P} x_i)_{i \in I}$ は、$\alpha : \Omega_P(K) \otimes_K L \to \Omega_P(L)$ のイメージを補足する $\Omega_P(L)$ の部分空間の基礎 ($L$ 上) です。
 
-Prop. 3, a) shows that every $P$-derivation of $K$ into a vector space $V$ over $L$ extends to a $P$-derivation of $L$ into $V$; the injectivity of $\alpha$ then follows by Prop. 2. 系の 2 番目の主張は、数列 $(\mathbf{E}_{P,K,L})$ と提案 3、b) の正確性から導き出されます (公式 (4) を考慮に入れて)。
+提案 3、a) は、$L$ 上のベクトル空間 $V$ への $K$ のすべての $P$ 導出が、$L$ から $V$ への $P$ 導出まで拡張されることを示しています。 $\alpha$ の単射性の後に、提案 2 が続きます。 系の 2 番目の主張は、数列 $(\mathbf{E}_{P,K,L})$ と提案 3、b) の正確性から導き出されます (公式 (4) を考慮に入れて)。
 
 #### 命題 4 {#alg-v-s16-prop-4 .statement tag=06UO}
 
-— Let $K$ be a field, $L$ a separable algebraic extension of $K$ and $V$ a vector space over $L$.
+— $K$ を体、$L$ を $K$ の分離可能な代数拡張、$V$ を $L$ 上のベクトル空間とします。
 
 a) $L$ から $V$ へのすべての $K$ 導出は零です。
 
@@ -229,7 +229,7 @@ K は特性 $\neq 0$ を持っていると仮定できます。 まず、L が K
 
 レーンの基準 (V、p. 124、注意)、体 $L^p$ および $K$ は、$K^p$ に対して互いに素を直線的に上回ります。 Since $A$ is a $K^p$-linear mapping of $K$ into $V$, it extends in a unique way to an $L^p$-linear mapping $A'$ of $K[L^p] = K(L^p)$ into $V$. $A'$ は $K(L^p)$ の導分から $V$ になり、$L^p$ で消滅することは明らかです。したがって、拡大する (V、p. 103、コリント 3) から $L$ の導分が $V$ になります。
 
-Conversely, suppose that every derivation of $K$ with values in $L$ extends to a derivation of $L$ into $L$. Let $B$ be a p-basis of $K$ (V, p. 99) and let $A$ be the set of families $(\alpha_h)_{h \in R}$ with finite support consisting of integers between $()$ and $p - 1$. 各 $b \in B$ には、$b' \in B$ (V、p. 103) ごとに $\Delta_b(b') = \delta_{bb'}$ (クロネッカー記号) によって特徴付けられる $K$ から $K$ への導分 $\Delta_b$ が存在します。 仮定までに、$L$ の各 $b \in B$ 導分 $D_b$ が$\Delta_b$ を拡張する $L$ に存在します。 $B$ の $b, b'$ に対して $D_b(b') = \delta_{bb'}$ が得られ、$\Omega_{1/p}(L)$ では微分 $db$ ($b \in B$ の場合) が $L$ にわたって線形独立していることが証明されます。 したがって (V、p 102、Th. 1)、$B$ は $L^p$ に対して p-free です。 (V、p. 98、提案 1 および p. 124、注意) より、$K$ の拡大 $L$ は分離可能です。
+逆に、$L$ の値による $K$ のすべての導出が、$L$ から $L$ への導出まで拡張されると仮定します。 $B$ を $K$ (V, p. 99) の p 基底とし、$A$ を $()$ と $p - 1$ の間の整数で構成される有限サポートを持つファミリー $(\alpha_h)_{h \in R}$ のセットとします。 各 $b \in B$ には、$b' \in B$ (V、p. 103) ごとに $\Delta_b(b') = \delta_{bb'}$ (クロネッカー記号) によって特徴付けられる $K$ から $K$ への導分 $\Delta_b$ が存在します。 仮定までに、$L$ の各 $b \in B$ 導分 $D_b$ が$\Delta_b$ を拡張する $L$ に存在します。 $B$ の $b, b'$ に対して $D_b(b') = \delta_{bb'}$ が得られ、$\Omega_{1/p}(L)$ では微分 $db$ ($b \in B$ の場合) が $L$ にわたって線形独立していることが証明されます。 したがって (V、p 102、Th. 1)、$B$ は $L^p$ に対して p-free です。 (V、p. 98、提案 1 および p. 124、注意) より、$K$ の拡大 $L$ は分離可能です。
 
 #### 系 {#alg-v-s16-n4-cor-1 .statement tag=06V1}
 
@@ -356,7 +356,7 @@ $K$ が標数 0 を持つ場合、標数 0 の体のすべての代数拡大が�
 
 $M = K(x_i)_{i \in I}$を入れて、$\Omega_K(M) \otimes_M L$の標準写像を$\Omega_K(L)$に$\alpha$で表します。 $(x_i)_{i \in I}$ が $K$ 上の $L$ の分離超越基底である場合、族 $(d_{M/K} x_i)_{i \in I}$ は、ベクトル $M$-空間 $\Omega_K(M)$ の基底 ($V$, p. 128, Prop. 3) そして、$L$ は代数的であり、$M$ ($V$, p. 130, Cor. 2) 上で分離可能であるため、$\alpha$ はベクトル $L$ 空間の同型です。 $\alpha(d_{M/K} x_i \otimes 1) = d_{L/K} x_i$ なので、家族 $(d_{L/K} x_i)_{i \in I}$ は、$L$ を超えた $\Omega_K(L)$ の基底になります。
 
-逆に、$L$ が $K$ の可分有限生成拡大であり、族 $(d_{L/K} x_i)_{i \in I}$ が $L$ 上のベクトル空間 $\Omega_K(L)$ の基底であるとします。 コル著$V$、p. 134の1、$K$に対する$L$の超越次数は、$L$に対する$\Omega_K(L)$の次元、したがって$I$の基数に等しい。 From the exact sequence $(E_{K,M,L})$ ($V$, p. 128) we have $\Omega_M(L) = 0$; since $L$ is a finitely generated extension of $M$, Cor. 2 of $V$, p. 135 shows that $L$ is algebraic and separable over $M = K(x_i)_{i \in I}$; since the transcendence degree of $L$ over $K$ is finite and equal to the cardinal of $I$, the family $(x_i)_{i \in I}$ is a transcendence basis of $L$ over $K$ ($V$, p. 110, Cor. 1).
+逆に、$L$ が $K$ の可分有限生成拡大であり、族 $(d_{L/K} x_i)_{i \in I}$ が $L$ 上のベクトル空間 $\Omega_K(L)$ の基底であるとします。 コル著$V$、p. 134の1、$K$に対する$L$の超越次数は、$L$に対する$\Omega_K(L)$の次元、したがって$I$の基数に等しい。 正確なシーケンス $(E_{K,M,L})$ ($V$, p. 128) から、$\Omega_M(L) = 0$ が得られます。 $L$ は $M$ の有限生成された拡張であるため、Cor. $V$、p. 135 の 2 は、$L$ が代数的であり、$M = K(x_i)_{i \in I}$ 上で分離可能であることを示しています。 $K$ に対する $L$ の超越度は有限であり、基数 $I$ に等しいため、族 $(x_i)_{i \in I}$ は $K$ に対する $L$ の超越基底です ($V$、p. 110、コリント 1)。
 
 #### 系 {#alg-v-s16-n7-cor-1 .statement tag=06VC}
 

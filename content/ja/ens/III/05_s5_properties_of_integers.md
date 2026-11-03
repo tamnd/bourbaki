@@ -46,16 +46,16 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: bca8e465ae727941445d08e4becac7537cf42011ff0a6ac81efd279e0d41a518
+content_sha256: 52a5c5a0d01537f564404c07f7b9f4b5a1596817e98601ba596033e8015f894e
 translated_from: content/en/ens/III/05_s5_properties_of_integers.md
 translation_method: google
 source_content_sha256: 3be04f126cfae8abc23e921d976ad2b92ca04282828df49f6677b21e985508ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e0d948f71fafc1780811b5d3e0a081599fd9f9ea2b172924b17d31842241f45a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 整数の性質
@@ -178,7 +178,7 @@ $$(b - a) + (b' - a') = (b + b') - (a + a').$$
 
 *$a$ と $b$ が $a \leqslant b$ となるような整数である場合、区間 $[a, b]$ は、元の数が $b - a + 1$ である有限の集合です。
 
-命題 4 までに、$a = 0$ の場合に限定することができます。 証明は $b$ の帰納法によるものです。 $b = 0$ の場合、結果はクリアです。 関係 $0 \leqslant x \leqslant b + 1$ は「$0 \leqslant x < b + 1$ または $x = b + 1$」に相当し、関係 $0 \leqslant x < b + 1$ は$0 \leqslant x \leqslant b$ (§ 4, no. 2、命題 2) に相当します。他の語、区間、$[0, b + 1]$は$[0, b]$と$\{b + 1\}$の和集合で、この2つの集合は互いに素です。 By the inductive hypothesis the number of elements of $[0, b + 1]$ is equal to $(b + 1) + 1$, and the Proposition is proved.
+命題 4 までに、$a = 0$ の場合に限定することができます。 証明は $b$ の帰納法によるものです。 $b = 0$ の場合、結果はクリアです。 関係 $0 \leqslant x \leqslant b + 1$ は「$0 \leqslant x < b + 1$ または $x = b + 1$」に相当し、関係 $0 \leqslant x < b + 1$ は$0 \leqslant x \leqslant b$ (§ 4, no. 2、命題 2) に相当します。他の語、区間、$[0, b + 1]$は$[0, b]$と$\{b + 1\}$の和集合で、この2つの集合は互いに素です。 帰納仮説により、$[0, b + 1]$ の要素の数は$(b + 1) + 1$ に等しく、命題は証明されます。
 
 #### 命題 6 {#ens-iii-s5-prop-6 .statement tag=03M2}
 
@@ -192,7 +192,7 @@ A *有限列* (それぞれ集合* E の元の *有限列) は、添字集合 I 
 
 $(t_i)_{i \in I}$ を長さ $n$ の有限列とします。 no. 3 の命題 6 までに、整数 I の集合に、区間 $[1, n]$ の固有の同型 $f$ が存在します。それぞれの $k \in [1, n]$、$t_{f(k)}$ は、数列* の *k 番目の項であると言われます。 $t_{f(1)}$ (それぞれ $t_{f(n)}$) は、数列の *最初* (それぞれ *最後*) *項* です。
 
-Let $\mathrm{P}\{i\}$ be a relation such that the elements $i$ for which $\mathrm{P}\{i\}$ is true form a finite set of integers. 有限列 $(t_i)_{i \in I}$ は、多くの場合、$(t_i)_{\mathrm{P}\{i\}}$ と書かれます。 たとえば、$\mathrm{I} = [a, b]$の場合、記法 $(t_i)_{a \leqslant i \leqslant b}$がよく使われます。 同じ条件の下で、集合 $(\mathrm{X}_i)_{i \in I}$ 記法の家族の積を表します
+$\mathrm{P}\{i\}$ を、$\mathrm{P}\{i\}$ が true である要素 $i$ が整数の有限集合を形成するような関係とします。 有限列 $(t_i)_{i \in I}$ は、多くの場合、$(t_i)_{\mathrm{P}\{i\}}$ と書かれます。 たとえば、$\mathrm{I} = [a, b]$の場合、記法 $(t_i)_{a \leqslant i \leqslant b}$がよく使われます。 同じ条件の下で、集合 $(\mathrm{X}_i)_{i \in I}$ 記法の家族の積を表します
 
 $$\prod_{\mathrm{P}\{i\}} \mathrm{X}_i \quad \text{and} \quad \prod_{i=a}^{b} \mathrm{X}_i$$
 
@@ -305,7 +305,7 @@ $0! = 1$ (章 II, § 5, no. 3) と $1! = 1$ があります。それぞれの整
 
 #### 命題 10 {#ens-iii-s5-prop-10 .statement tag=03M9}
 
-*$m$ *および* $n$ *整数を* $m \leqslant n$のようにします。 *Then* $n!/(n - m)!$ *is the number of injective mappings of a set* $\mathrm{A}$ *with* $m$ *elements into a set* $\mathrm{B}$ *with* $n$ *elements.*
+*$m$ *および* $n$ *整数を* $m \leqslant n$のようにします。 *その後* $n!/(n - m)!$ *はセットの単射写像の数* $\mathrm{A}$ *with* $m$ *要素をセットに* $\mathrm{B}$ *with* $n$ *要素*
 
 証明は、$\mathrm{A}$ の元の数 $m \leqslant n$ の帰納法までです。 $m = 0$ の場合、結果は明らかです。 $m + 1 \leqslant n$ だとします。 $\mathrm{A}$ を $m + 1$ 元で集合とし、$\mathrm{A}'$ を $m$ 元で$\mathrm{A}$ の部分集合とし、$\{a\} = \mathrm{A} - \mathrm{A}'$ とします。 $\mathrm{F}$、$\mathrm{F}'$を$\mathrm{A}$、$\mathrm{A}'$の単射詞写像の集合を$\mathrm{B}$とし、$\varphi$をそれぞれ写像の写像$f \to f\,|\mathrm{A}'$とする写像 $f \in \mathrm{F}$ から制限から $\mathrm{A}'$ まで。 $\overset{-1}{\varphi}(f')$ の各 $f' \in \mathrm{F}'$ 元 $f$ は、その値 $f(a)$ によって一意に決定されます。 $f$ は単射なので、$f(a) \in \mathrm{B} - f'(\mathrm{A}')$ でなければなりません。従って、$\overset{-1}{\varphi}(f')$ は元の $\mathrm{B} - f'(\mathrm{A}')$ と同じ数 $n - m$ を持ちます。従って、命題 9 までに、$\mathrm{F}$ は
 
@@ -333,15 +333,15 @@ G を E の置換の集合とし、P をカバー $(X_i)_{1 \leqslant i \leqslan
 
 命題 11 に $h = 2$、$p_1 = p$、$p_2 = n - p$ を入れます。
 
-¶ The number of subsets containing $p$ elements in a set of $n$ elements (where $p \leqslant n$) is denoted by $\begin{pmatrix} n \\ p \end{pmatrix}$ and is called the *binomial coefficient with indices n and p*. 関係 $\begin{pmatrix} n \\ p \end{pmatrix} = \dfrac{n!}{p!(n-p)!}$ からはすぐに $\begin{pmatrix} n \\ p \end{pmatrix} = \begin{pmatrix} n \\ n-p \end{pmatrix}$ が続きます。
+¶ $n$ 要素 ($p \leqslant n$) のセット内の $p$ 要素を含むサブセットの数は $\begin{pmatrix} n \\ p \end{pmatrix}$ で示され、インデックス n と p* を持つ *二項係数と呼ばれます。 関係 $\begin{pmatrix} n \\ p \end{pmatrix} = \dfrac{n!}{p!(n-p)!}$ からはすぐに $\begin{pmatrix} n \\ p \end{pmatrix} = \begin{pmatrix} n \\ n-p \end{pmatrix}$ が続きます。
 
 これは、E が $n$ 元の集合である場合、$X \to E - X$ は、E の集合の部分集合のからなるの $p$ 元の全単射であるという事実の帰結でもあります。 集合/部分集合/$n - p$元。
 
-$p > n$ となるように、自然な整数の各対に $\binom{n}{p} = 0$ を入れます。 With this convention the number of subsets of $p$ elements in a set of $n$ elements is $\binom{n}{p}$ for *every* natural integer $p$.
+$p > n$ となるように、自然な整数の各対に $\binom{n}{p} = 0$ を入れます。 この規則では、$n$ 要素のセット内の $p$ 要素のサブセットの数は、*すべての* 自然整数 $p$ に対して $\binom{n}{p}$ となります。
 
 #### 系 2 {#ens-iii-s5-prop-11-cor-2 .statement tag=03RG}
 
-*E *と* F *をそれぞれ* $p$ *と* $n$ *元で完全に順序付けされた有限有限集合とする。 Then the number of strictly increasing mappings of* E *into* F *is* $\binom{n}{p}$.
+*E *と* F *をそれぞれ* $p$ *と* $n$ *元で完全に順序付けされた有限有限集合とする。 その場合、* E *から* F *への厳密に増加する写像の数は* $\binom{n}{p}$ になります。
 
 このような写像は、E の単射を F に変換したもの (§ 1, no. 12、命題 11) であり、E と F は整列しているため (§ 4, no. 4、系 1 から命題 3)、$p$ のそれぞれの部分集合 X F の元には、E の真に増加する写像が X (§ 2, no. 5、定理 3) 上に 1 つだけ存在します。
 
@@ -375,7 +375,7 @@ $b_n$ は、$[1, n]$ の 2 元の部分集合の数です。したがって
 
 $$b_n = \frac{n!}{2!(n-2)!} = \frac{1}{2} n(n-1).$$
 
-The value of $a_n$ is deduced from this by noting that the set of ordered pairs $(i, j)$ such that $1 \leqslant i \leqslant j \leqslant n$ is the union of the set of ordered pairs $(i, j)$ such that $1 \leqslant i \leqslant j < n$ and the set of pairs $(i, i)$ where $1 \leqslant i \leqslant n$. したがって、$a_n = n + b_n = \frac{1}{2} n(n+1)$。
+$a_n$ の値は、$1 \leqslant i \leqslant j \leqslant n$ のような順序ペアのセット $(i, j)$ が、$1 \leqslant i \leqslant j < n$ のような順序ペアのセット $(i, j)$ と、$1 \leqslant i \leqslant n$ であるペアのセット $(i, i)$ の和集合であることに注目することによって、これから推定されます。 したがって、$a_n = n + b_n = \frac{1}{2} n(n+1)$。
 
 #### 系 {#ens-iii-s5-n8-cor-2 .statement tag=03RK}
 
@@ -387,11 +387,11 @@ $1 \leqslant i \leqslant j \leqslant n$ のような整数 $(i, j)$ の順序付
 
 #### 命題 15 {#ens-iii-s5-prop-15 .statement tag=03RL}
 
-*$n$ と $h$ を整数とし、* E * を $h$ 元の集合とします。 Then the number of mappings $u$ of* E *into* $[0, n]$ *such that* $\sum_{x \in E} u(x) \leqslant n$ *(resp.* $\sum_{x \in E} u(x) = n$, *for $h > 0$) is*
+*$n$ と $h$ を整数とし、* E * を $h$ 元の集合とします。 この場合、* E *into* $[0, n]$ *次のような* $\sum_{x \in E} u(x) \leqslant n$ *(それぞれ* $\sum_{x \in E} u(x) = n$, *for $h > 0$) のマッピング $u$ は*
 
 $$\binom{n+h}{h} \left( \text{resp.} \ \binom{n+h-1}{h-1} \right).$$
 
-Let $A(h, n)$ (resp. $B(h, n)$) denote the number of mappings $u$ of E into $[0, n]$ such that $\sum_{x \in E} u(x) \leqslant n$ (resp. $\sum_{x \in E} u(x) = n$ for $h > 0$). まず、$A(h-1, n) = B(h, n)$ を示します。 このため、E' を $h - 1$ 元をもつ E の部分集合とし、$\{a\} = E - E'$ とします。 $u$ が $[0, n]$ への E の写像で、$\sum_{x \in E} u(x) = n$ となる場合、その制限 $u'$ は E' となり、$\sum_{x \in E'} u'(x) \leqslant n$、さらに $u(a) = n - \sum_{x \in E'} u'(x)$ になります。 Conversely, every mapping $u'$ of E′ into $[0, n]$ which satisfies $\sum_{x \in E'} u'(x) \leqslant n$ defines a unique mapping $u$ of E into $[0, n]$, of which $u'$ is the restriction, and which is such that $\sum_{x \ni E} u(x) = n$.
+$A(h, n)$ (それぞれ $B(h, n)$) は、$\sum_{x \in E} u(x) \leqslant n$ (それぞれ $h > 0$ の場合は $\sum_{x \in E} u(x) = n$) となる、E の $[0, n]$ へのマッピング $u$ の数を表すものとします。 まず、$A(h-1, n) = B(h, n)$ を示します。 このため、E' を $h - 1$ 元をもつ E の部分集合とし、$\{a\} = E - E'$ とします。 $u$ が $[0, n]$ への E の写像で、$\sum_{x \in E} u(x) = n$ となる場合、その制限 $u'$ は E' となり、$\sum_{x \in E'} u'(x) \leqslant n$、さらに $u(a) = n - \sum_{x \in E'} u'(x)$ になります。 逆に、$\sum_{x \in E'} u'(x) \leqslant n$ を満たす E' の $[0, n]$ へのすべてのマッピング $u'$ は、E の $[0, n]$ への一意のマッピング $u$ を定義します。そのうちの $u'$ は制限であり、$\sum_{x \ni E} u(x) = n$ となるものです。
 
 次に、$\sum_{x \in E} u(x) \leqslant n$ の場合は $\sum_{x \in E} u(x) = n$、そうでない場合は $\sum_{x \in E} u(x) \leqslant n-1$ のいずれかであり、これら 2 つの可能性は相互に排他的であることに注意してください。その結果
 
@@ -399,7 +399,7 @@ $$A(h, n) = A(h, n-1) + B(h, n) = A(h, n-1) + A(h-1, n).$$
 
 $A(0, 0) = 1 = \binom{0}{0}$ から、公式 $A(h, n) = \binom{n+h}{h}$ は上記と命題 13 から、$n + h$ の帰納法までに続きます。
 
-\* The number of monomials $X_1^{\alpha_1} X_2^{\alpha_2} \ldots X_h^{\alpha_n}$ in $h$ indeterminates with total degree $\leqslant n$ is evidently equal to the number of mappings $i \rightarrow \alpha_i$ of $[1, h]$ into $[0, n]$ such that $\sum_{i=0}^{h} \alpha_i \leqslant n$, and is therefore equal to $\binom{n+h}{h}$ by Proposition 15; this number is also the number of monomials in $h + 1$ indeterminates with total degree $n$. \*
+\* $h$ の総次数 $\leqslant n$ で不定となる単項式 $X_1^{\alpha_1} X_2^{\alpha_2} \ldots X_h^{\alpha_n}$ の数は、$\sum_{i=0}^{h} \alpha_i \leqslant n$ となるような $[1, h]$ から $[0, n]$ への写像 $i \rightarrow \alpha_i$ の数に明らかに等しいので、命題 15 により $\binom{n+h}{h}$ に等しい。この数は、合計次数 $n$ の不定数 $h + 1$ の単項式の数でもあります。 \*
 
 ### 練習問題 {#ens-iii-s5-exercises}
 

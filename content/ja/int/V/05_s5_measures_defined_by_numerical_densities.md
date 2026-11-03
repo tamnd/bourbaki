@@ -53,16 +53,16 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: b2f71bc39cc57a23f1e25e59edb25044258b2fdebe3266d6b155266233051872
+content_sha256: 14b7e324f2523c068c980e1e1c1bf047524e8093735d645aac5b54bf39ecfd03
 translated_from: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
 translation_method: google
 source_content_sha256: d1c0e47776f33ebac3f5f4eb44ad8e2e1b76c65670899f2de059c9d70818f487
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e91241ec962711c57b250b5d5b4fa26cf460a3913332ce8a44799e4e55ef029c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。数値密度によって定義される尺度
@@ -99,13 +99,13 @@ $F, G, H$ を 3 つのバナッハ空間とし、$(u, v) \mapsto \Phi(u, v)$ を
 
 ### 2. 数値密度によって定義される尺度
 
-Let $g$ be a positive numerical function defined locally $\mu$-almost everywhere in T and locally $\mu$-integrable; the set of $t$ such that $g(t) = +\infty$ is then locally $\mu$-negligible, because $g \varphi_K$ is $\mu$-integrable for every compact set K (Ch. IV, §2, No. 3、提案 7)。 ここで、$g'$ を局所的な可積分関数とし、正で有限であり、ほぼどこでも $g$ 局所的な $\mu$ に等しいとします。 集合 $\lambda'_t = g'(t) \varepsilon_t$。 T の $\mathscr{M}_+(T)$ への写像 $t \mapsto \lambda'_t$ は、漠然と $\mu$ 測定可能であり、スカラー的に本質的に積分可能です (または、再度、I が T の恒等写像である対 $(I, g')$ は、$\mu$ 適応されます)。整 $\nu = \int \lambda'_t d\mu(t)$ は特定の写像 $g'$ には依存せず、局所的にほぼどこでも $g$ に等しく、$\lambda'_t$ の尺度定義で使用されます。 この尺度 $\nu$ は条件によって決定されます
+$g$ を正の数値写像として、T のほぼどこでもローカルに $\mu$ で定義され、ローカルに $\mu$ が積分可能であるとします。 $g \varphi_K$ はすべてのコンパクト集合 K に対して $\mu$ 積分可能であるため、$g(t) = +\infty$ は局所的に $\mu$ 無視できるような $t$ の集合 (Ch. IV, §2, No. 3、提案 7)。ここで、$g'$ を局所的な可積分関数とし、正で有限であり、ほとんどどこでも $g$ 局所的な $\mu$ に等しいとします。 集合 $\lambda'_t = g'(t) \varepsilon_t$。 T の $\mathscr{M}_+(T)$ への写像 $t \mapsto \lambda'_t$ は、漠然と $\mu$ 可測であり、スカラー的に本質的に積分可能です (または、再度、対 $(I, g')$ で、I は T の恒等写像です)。 $\mu$ 適応);整 $\nu = \int \lambda'_t d\mu(t)$ は特定の写像 $g'$ には依存せず、局所的にほぼどこでも $g$ に等しく、$\lambda'_t$ の尺度定義で使用されます。このメジャー $\nu$ は条件によって決定されます
 
 $$
 \int f(t)\,d\nu(t) = \int f(t)g(t)\,d\mu(t) \quad \text{for } f \in \mathscr{K}(T).
 $$
 
-If now $\theta$ is a complex measure, and if $u$ is a complex function (or a function with values in $\overline{\mathbf{R}}$) defined locally $\theta$-almost everywhere and locally integrable for $\theta$, one can write
+ここで、$\theta$ が複素測度であり、$u$ がローカルに定義された複素関数 (または $\overline{\mathbf{R}}$ の値を持つ関数) である場合、ほぼどこでも $\theta$ でローカルに積分可能で、$\theta$ に対して次のように書くことができます。
 
 $$
 \begin{align*}
@@ -201,7 +201,7 @@ $$
 
 #### 系 {#int-v-s5-n2-cor-1 .statement tag=092I}
 
-*Let $g_1$ and $g_2$ be two locally $\mu$-integrable numerical functions; then*
+*$g_1$ と $g_2$ を局所的に $\mu$ 可積分な数値写像とする。それから*
 
 $$
 \inf(g_1 \cdot \mu, g_2 \cdot \mu) = \inf(g_1, g_2) \cdot \mu ; \quad \sup(g_1 \cdot \mu, g_2 \cdot \mu) = \sup(g_1, g_2) \cdot \mu .
@@ -233,7 +233,7 @@ $$
 
 #### 系 1 {#int-v-s5-prop-3-cor-1 .statement tag=092K}
 
-*In order that a function $\mathbf{f}$, with values in a Banach space or in $\overline{\mathbf{R}}$, be locally negligible for the measure $u \cdot \theta$, it is necessary and sufficient that $u \mathbf{f}$ be locally negligible for $\theta$.*
+*バナッハ空間または $\overline{\mathbf{R}}$ の値を持つ関数 $\mathbf{f}$ が測度 $u \cdot \theta$ に対して局所的に無視できるためには、$u \mathbf{f}$ が $\theta$ に対して局所的に無視できることが必要かつ十分です。
 
 $\mathbf{f}$ (それぞれ $u \mathbf{f}$) が $u \cdot \theta$ (それぞれ $\theta$) に対して局所的に無視できるということは、$|\mathbf{f}|$ (それぞれ $|u| \cdot |\mathbf{f}|$) が $|u \cdot \theta|$ (それぞれ $|\theta|$) に対して局所的に無視できるというというと同等です。したがって、No. 2 の提案 2 を考慮すると、$\mathbf{f}, u, \theta$ が正である場合に帰着します。 主張は提案 3 からすぐに続きます。
 
@@ -301,7 +301,7 @@ $\int_A f \, d\mu$ とも表される式。 $T$ の 2 つの写像が $A$ 上の
 $$
 \int_A f \, d\mu = \int_A \overline{f} \, d\mu = \int \overline{f} \varphi_A \, d\mu,
 $$
-そしてある人は、$\int_A f \, d\mu$ は $A$ の *整* $f$ (または $A$ に *拡張) であると言います。 $f$ が $B \supset A$ で定義された数値写像 $\geqslant 0$ である場合、$\int_A^* f \, d\mu$ と $\int_A^\bullet f \, d\mu$ は 1 つの定義するになります。 Finally, a numerical function $g$ defined on $B \supset A$ is said to be *locally* $\mu$-integrable *on* $A$ if some extension $\overline{g}$ to $T$ of the restriction of $g$ to $A$ is locally $\nu$-integrable: this is equivalent to saying that, for every compact subset $K$ of $T$, $\overline{g} \varphi_{K \cap A}$ is $\mu$-integrable.
+そしてある人は、$\int_A f \, d\mu$ は $A$ の *整* $f$ (または $A$ に *拡張) であると言います。 $f$ が $B \supset A$ で定義された数値写像 $\geqslant 0$ である場合、$\int_A^* f \, d\mu$ と $\int_A^\bullet f \, d\mu$ は 1 つの定義するになります。 最後に、$B \supset A$ で定義された数値関数 $g$ は、$g$ から $A$ までの制限の拡張 $\overline{g}$ から $T$ がローカルで $\nu$ 可積分である場合、$A$ で *ローカルに * $\mu$ 積分可能であると言われます。これは、次のように言うのと同じです。 $T$、$\overline{g} \varphi_{K \cap A}$ のすべてのコンパクトなサブセット $K$ は、$\mu$ 積分可能です。
 
 ### 4. 通常の演算に対する積の動作
 
@@ -415,7 +415,7 @@ $$
 (11) $\varphi_K \cdot \nu \leq M \varphi_K \cdot \mu$ となるような定数 $M \geq 0$ が存在します。
 集合 $\mathscr{K}$ は、$T$ では $\mu$ 密になります。
 
-If $K$ satisfies (11), and if $A$ is a Borel set contained in $K$, it follows at once from Prop. 8 that $\varphi_A \cdot \nu \leq M \varphi_A \cdot \mu$; from this, one deduces that the union of two elements $K, K'$ of $\mathscr{K}$ belongs to $\mathscr{K}$ because $\varphi_{K \cup K'} = \varphi_K + \varphi_A$, where $A = K' \cap \complement K$. 補題を確立するには、$\mu(L) > 0$ 含むとなるようなすべてのコンパクト集合 $L$ と、$\mu(K) > 0$ となるようなコンパクト集合 $K \in \mathscr{K}$ を証明する必要があります。 IV, §5, No. 8、提案 12)。 選ぶ数 $M > \nu(L)/\mu(L)$ を計算し、補題 1 を有界正のメジャー $\alpha = \varphi_L \cdot (\nu + M \mu)$ とメジャー $\beta = \varphi_L \cdot (\nu - M \mu)$ に適用します。 Replacing if necessary the function $u$ such that $\beta = u \cdot \alpha$ by a function equal to it $\alpha$-almost everywhere, one can suppose that $u$ is universally measurable (§3, No. 4, Prop. 7) and is zero outside of $L$. $t \in T$ の集合 $H$ は、$L$ に含まれる $u(t) < 0$ は $\mu$ 無視できません。その場合、$\nu$ は無視できます (Th. 2 の証明の初めに作成された注意によって)、したがって、$\alpha$ は無視でき、$M$ の矛盾する選択である $\beta(L) > 0$ が得られます。 $K$ を $H$ に含まれる圧縮集合とし、$\mu(K) > 0$ とします。 $K \in \mathscr{K}$ が補題を確立することを示しましょう。 提案 8 により、
+$K$ が (11) を満たし、$A$ が $K$ に含まれるボレル集合である場合、提案 8 からすぐに $\varphi_A \cdot \nu \leq M \varphi_A \cdot \mu$ が得られます。このことから、$\mathscr{K}$ の 2 つの要素 $K, K'$ の和集合は、$\varphi_{K \cup K'} = \varphi_K + \varphi_A$ であるため、$\mathscr{K}$ に属すると推測されます。ここで、$A = K' \cap \complement K$ です。 補題を確立するには、$\mu(L) > 0$ 含むとなるようなすべてのコンパクト集合 $L$ と、$\mu(K) > 0$ となるようなコンパクト集合 $K \in \mathscr{K}$ を証明する必要があります。 IV, §5, No. 8、提案 12)。 選ぶ数 $M > \nu(L)/\mu(L)$ を計算し、補題 1 を有界正のメジャー $\alpha = \varphi_L \cdot (\nu + M \mu)$ とメジャー $\beta = \varphi_L \cdot (\nu - M \mu)$ に適用します。 必要に応じて置き換えること写像 $u$ として、$\beta = u \cdot \alpha$ × 写像がそれに$\alpha$ に等しくなります。ほとんどどこでも、$u$ は普遍的に測定可能であり (§3, No. 4、提案 7)、$L$ の外側では零であると仮定できます。 $t \in T$ の集合 $H$ は、$L$ に含まれる $u(t) < 0$ は $\mu$ 無視できません。その場合、$\nu$ は無視できます (Th. 2 の証明の初めに作成された注意によって)、したがって、$\alpha$ は無視でき、$M$ の矛盾する選択である $\beta(L) > 0$ が得られます。 $K$ を $H$ に含まれる圧縮集合とし、$\mu(K) > 0$ とします。 $K \in \mathscr{K}$ が補題を確立することを示しましょう。 提案 8 により、
 
 $$
 \varphi_K \cdot (\nu - M \mu) = \varphi_K \cdot \beta = \varphi_K \cdot (u \cdot \alpha) = (\varphi_K u) \cdot \alpha .
@@ -538,7 +538,7 @@ $(1/g)g$ はほぼどこでもローカルに定義されており、ローカ�
 
 *$\mu$を$T$に対するプラスの尺度とします。 $T$ が無限に可算である場合、すべての $t \in T$ に対して $h(t) > 0$ となり、測度 $\nu = h \cdot \mu$ ($\mu$ に相当) が有界であるような連続写像 $h$ が存在します。
 
-Let $(K_n)$ be a sequence of compact sets forming a covering of $T$ and, for every $n$, let $f_n$ be a function in $\mathscr{H}(T)$ such that $0 \leq f_n \leq 1$ and $f_n(t) = 1$ on $K_n$ (Ch. III, §1, No. 2、補題 1)。 $(a_n)$ を数 $> 0$ の数列として、$\sum_n a_n < +\infty$ とします。 系列 $h = \sum_n a_n f_n$ は通常 $T$ に収束し、その結果、$h$ は $T$ 上で連続する写像となり、構成によってすべての $t \in T$ に対して $h(t) > 0$ になります。 設定 $\nu = h \cdot \mu$ とすると、(提案 3 と第 4 章 ) となります。 IV, §1, No. 3、提案 13)
+$(K_n)$ を $T$ のカバーを形成するコンパクト集合のシーケンスとし、すべての $n$ について、$f_n$ を $K_n$ 上の $0 \leq f_n \leq 1$ と $f_n(t) = 1$ となるような $\mathscr{H}(T)$ の関数とする。 III, §1, No. 2、補題 1)。 $(a_n)$ を数 $> 0$ の数列として、$\sum_n a_n < +\infty$ とします。 系列 $h = \sum_n a_n f_n$ は通常 $T$ に収束し、その結果、$h$ は $T$ 上で連続する写像となり、構成によってすべての $t \in T$ に対して $h(t) > 0$ になります。 設定 $\nu = h \cdot \mu$ とすると、(提案 3 と第 4 章 ) となります。 IV, §1, No. 3、提案 13)
 
 $$
 \nu^*(1) = \int^* h \, d\mu \leq \sum_n a_n \int f_n \, d\mu .
@@ -562,7 +562,7 @@ $T$ に 2 つの実際の尺度 $\rho, \sigma$ が与えられた場合、$\math
 
 *$T$の複雑な測度$\theta$は$T$の部分集合$M$に集中している、または$\mathbf{C}M$が$\theta$に対して局所的に無視できる場合、$M$は$\theta$を運ぶとも言われています。
 
-集合 $M$ は、$|\theta|$ を運ぶ場合に限り、$\theta$ を運びます。 それは、$M$ が $\theta$ を運ぶ、または $M$ が $\theta$ 可測であり、$\theta = \varphi_M \cdot \theta$ であると言うのと同じです。 $\theta$ が $M$ に集中している場合、基底 $|\theta|$ のすべてのメジャーは $M$ に集中しています。
+集合 $M$ は、$|\theta|$ を運ぶ場合に限り、$\theta$ を運びます。それは、$M$ が $\theta$ を運ぶ、または $M$ が $\theta$ 測定可能であり、$\theta = \varphi_M \cdot \theta$ であると言うのと同じです。 $\theta$ が $M$ に集中している場合、基底 $|\theta|$ のすべてのメジャーは $M$ に集中しています。
 
 #### 命題 13 {#int-v-s5-prop-13 .statement tag=093G}
 
@@ -678,7 +678,7 @@ $$
 
 そして、ほぼどこでも $f\varphi_K \leq f'\varphi_K$ 以降、ほぼどこでも必然的に $f\varphi_K = f'\varphi_K$ になり、ほぼどこでもよって $f = f'$ になります。
 
-補題が証明されたので、提案 14 の主張で $\mathscr{L}^\infty$ 満たす条件に対して $\theta$ を正の線型形式とします。 The restriction of $\theta$ to the space $\mathscr{K}(T)$ is a positive measure $\nu$ on $T$. 正の写像 $f \in \mathscr{L}^\infty(T, \mu)$ ごとに、$\theta(f) = \nu^*(f)$ があることを示します。 まず、$f$ が下位半連続 (かつ有界) であると仮定します。 補題 4 により、$f$ は類 $\dot{\varphi}$ の増加する有向集合の上限であり、$\varphi$ は $\mathscr{K}(T)$ で写像の有向集合 $\Phi$ を超えます。 $0 \leq \varphi \leq f$。 仮定 $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$ と $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ 定義により、この場合、主張が証明されます。 次に、$f$ が $\mu$ 測定可能であり、有界であると仮定します。次に、定義、$\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$までに、$\psi$が、有界の下半連続写像の減少する有向集合$\Psi$と$\geq f$を越えます。 If $a \geq \|f\|$ then, applying the hypothesis of the statement to the increasing directed set of classes of the functions $a - \psi$, where $\psi \in \Psi$ and $\psi \leq a$, one sees, by virtue of the lemma, that $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$, therefore indeed $\theta(f) = \nu^*(f)$. 特に、すべての $\mu$ 無視できる写像 $f \geq 0$ について、$\theta(f) = 0$ があり、従って $\nu^*(f) = 0$ となり、その結果 (No. 5, Th. 2) $\nu$ は * 基底* $\mu$ を伴う尺度になります。さらに、$\nu^*(1) = \theta(1) < +\infty$ は、結果として (Th. 1 の Cor.) $\nu = g \cdot \mu$ と $g \in \mathscr{L}^1(T, \mu)$ です。 最後に、すべての$\mu$可測写像は$\nu$可測であるため、すべての正の写像$f \in \mathscr{L}^\infty(T, \mu)$は$\nu$可積分および$\int fg d\mu = \nu^*(f) = \theta(f)$で、証明が完成します。
+補題が証明されたので、提案 14 の主張で $\mathscr{L}^\infty$ 満たす条件に対して $\theta$ を正の線型形式とします。 スペース$\mathscr{K}(T)$に対する$\theta$の制限は、$T$に対する積極的な措置$\nu$です。 正の写像 $f \in \mathscr{L}^\infty(T, \mu)$ ごとに、$\theta(f) = \nu^*(f)$ があることを示します。 まず、$f$ が下位半連続 (かつ有界) であると仮定します。 補題 4 により、$f$ は類 $\dot{\varphi}$ の増加する有向集合の上限であり、$\varphi$ は $\mathscr{K}(T)$ で写像の有向集合 $\Phi$ を超えます。 $0 \leq \varphi \leq f$。 仮定 $\theta(f) = \sup_{\varphi \in \Phi} \theta(\varphi)$ と $\nu^*(f) = \sup_{\varphi \in \Phi} \nu(\varphi)$ 定義により、この場合、主張が証明されます。 次に、$f$ が $\mu$ 測定可能であり、有界であると仮定します。次に、定義、$\nu^*(f) = \inf_{\psi \in \Psi} \nu^*(\psi)$までに、$\psi$が、有界の下半連続写像の減少する有向集合$\Psi$と$\geq f$を越えます。 $a \geq \|f\|$ の場合、ステートメントの仮説を関数 $a - \psi$ ($\psi \in \Psi$ と $\psi \leq a$ である場合) のクラスの増加する有向集合に適用すると、補題により $\theta(f) = \inf_{\psi \in \Psi} \theta(\psi)$、したがって実際に $\theta(f) = \nu^*(f)$ であることがわかります。 特に、すべての $\mu$ 無視できる写像 $f \geq 0$ について、$\theta(f) = 0$ があり、従って $\nu^*(f) = 0$ となり、その結果 (No. 5, Th. 2) $\nu$ は * 基底* $\mu$ を伴う尺度になります。さらに、$\nu^*(1) = \theta(1) < +\infty$ は、結果として (Th. 1 の Cor.) $\nu = g \cdot \mu$ と $g \in \mathscr{L}^1(T, \mu)$ です。 最後に、すべての$\mu$可測写像は$\nu$可測であるため、すべての正の写像$f \in \mathscr{L}^\infty(T, \mu)$は$\nu$可積分および$\int fg d\mu = \nu^*(f) = \theta(f)$で、証明が完成します。
 
 提案 14 の 1 つの結論するは、型 $f \mapsto \int fg d\mu$ の $\mathscr{L}^\infty$ 上の線型形式が、$g \in \mathscr{L}^1$ の差分 $\theta_1 - \theta_2$ であり、$\theta_1$ と $\theta_2$ は正である線型形式満たす提案14の条件。
 

@@ -40,16 +40,16 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: c1d08ab4be2a9a06f10d0fb304c31a7725f97d363a8d030336e88a9718c89d5a
+content_sha256: 72cfa8f422ed49d187edb52f20f56b9e704ba41fadbc92d4af73bcfb90ee3835
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 translation_method: google
 source_content_sha256: a3c6df7442ce70b3c022a53d8c8d5c5898d4f54434a40fd2c9ae5e5be4f6a2de
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7db9815aa81630220883862630281963babf700b6cf14dbb18ffc73fd925f789
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。プレヒルバーティアン空間とヒルバーティアン空間
@@ -205,9 +205,9 @@ $$
 
 #### 注意 {#evt-v-s1-n2-rem-1 .statement tag=07X8}
 
-— 1) f が正で分離していると仮定し、x、y を 2 ベクトル $\neq 0$ とします。 The proof of Cauchy-Schwarz inequality shows that, if the two members of (7) are equal, then there exists a scalar $\xi$ such that $f(x + \xi y, x + \xi y) = 0$, hence $x + \xi y = 0$, in other words, $x$ and $y$ are *linearly dependent*; the converse is immediate. 不等式 (8) の証明は、$x$ と $y$ が線形従属である場合にのみ、等式 $p(x + y) = p(x) + p(y)$ が可能であることを示しています。 $y = \lambda x$ の場合、その前の等式は $|1 + \lambda| = 1 + |\lambda|$ と書くことができ、$\lambda$ が *実数で正* であることを意味します。
+— 1) f が正で分離していると仮定し、x、y を 2 ベクトル $\neq 0$ とします。 Cauchy-Schwarz の証明不等式は、(7) の 2 つの要素が等しい場合、$f(x + \xi y, x + \xi y) = 0$、したがって $x + \xi y = 0$ となるようなスカラー $\xi$ が存在し、他の語、$x$、$y$ は *線形依存* であることを示しています。 逆は明らかです。 不等式 (8) の証明は、$x$ と $y$ が線形従属である場合にのみ、等式 $p(x + y) = p(x) + p(y)$ が可能であることを示しています。 $y = \lambda x$ の場合、その前の等式は $|1 + \lambda| = 1 + |\lambda|$ と書くことができ、$\lambda$ が *実数で正* であることを意味します。
 
-2) Let $f$ be a positive hermitian form on $E$, and let $E$ be assigned the semi-norm $x \mapsto f(x, x)^{1/2}$; if $f$ is the positive, separating hermitian form defined on $E/N$ associated with $f$, then the normed space obtained by assigning the norm $x \mapsto f(\dot{x}, \dot{x})^{1/2}$ to $E/N$ is the normed space associated with $E$ (II, p. 5).
+2) $f$ を $E$ の正のエルミート形式とし、$E$ に半ノルム $x \mapsto f(x, x)^{1/2}$ を割り当てます。 $f$ が、$f$ に関連付けられた $E/N$ で定義された正の分離エルミート形式である場合、ノルム $x \mapsto f(\dot{x}, \dot{x})^{1/2}$ を $E/N$ に割り当てることで得られる正規化空間は、$E$ (II, p. 5) に関連付けられた正規化空間になります。
 
 #### 定義 3 {#evt-v-s1-def-3 .statement tag=07X9}
 
@@ -219,7 +219,7 @@ $E$ の準ノルム $p$ に対して、すべての $x \in E$ に対して $p(x)
 
 #### 定義 4 {#evt-v-s1-def-4 .statement tag=07XA}
 
-*プレヒルバーティアン空間は集合 $E$ で、$K$ にベクトル空間の構造があり、プラスのエルミート形が付きます。 $K$ が $\mathbf{R}$ (それぞれ $K$ が $\mathbf{C}$) であるとき、$E$ は実数 (複素数) プレヒルバーティアン空間であると言います。
+*プレヒルバーティアン空間は、$K$ を超えるベクトル空間の構造と、正のエルミート形を伴う集合 $E$ です。 $K$ が $\mathbf{R}$ (それぞれ $K$ が $\mathbf{C}$) であるとき、$E$ は実数 (複素数) プレヒルバーティアン空間であると言います。
 
 #### 例 1 {#evt-v-s1-n3-exa-1 .statement tag=07XB}
 
@@ -227,7 +227,7 @@ $E$ の準ノルム $p$ に対して、すべての $x \in E$ に対して $p(x)
 
 #### 例 2 {#evt-v-s1-n3-exa-2 .statement tag=07XC}
 
-$I$ を $\mathbf{R}$ の区間 (有界かどうか)、$E$ を $\mathbf{C}$ の値で $I$ に定義された規制対象写像 (FVR、II、p. 4) の集合とします。コンパクトなサポート。 It is clear that $E$ is a vector space over $\mathbf{C}$; let $f$ be the sesquilinear form $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$; it is immediate that $f$ is a positive hermitian form on $E$, and hence defines a prehilbertian structure on this space.
+$I$ を $\mathbf{R}$ の区間 (有界かどうか)、$E$ を $\mathbf{C}$ の値で $I$ に定義された規制対象写像 (FVR、II、p. 4) の集合とします。コンパクトなサポート。 $E$ が $\mathbf{C}$ よりもベクトル空間であることは明らかです。 $f$ をセスキ線形形 $(x, y) \mapsto \int_1^1 \overline{x(t)}\ y(t)\ dt$ とします。 $f$ が $E$ で正のエルミート形であるのは明らかであり、したがって定義するはこの空間でプレヒルバーティアン構造です。
 
 #### 例 3 {#evt-v-s1-n3-exa-3 .statement tag=07XD}
 
@@ -341,7 +341,7 @@ $$
 
 次に、X には 1 つだけの小節 $\tilde{\omega}$ が存在し、すべての $i \in I$ について、$\tilde{\omega}$ から $U_i$ の制限の $\xi_i$ の下の像が小節 $f_i \cdot \mu$ (cf.) に等しくなります。 VAR、R、10.4.3)。
 
-Let $\mathscr{V}$ (resp. $\mathscr{N}$) be the vector space of measurable densities $\omega$ of order 1/2 such that the measure associated with the density $|\omega|^2$ of order 1 is bounded (resp. null). $\omega_1$ と $\omega_2$ を $\mathscr{V}$ に入れます。この場合、$\omega = \overline{\omega_1} \omega_2$ は位数 1 の稠密度であり、$\omega$ に関連付けられたメジャー $\tilde{\omega}$ は有界です。 数 $\int_X \tilde{\omega}$ は、$\omega_1$ の類 $\dot{\omega}_1$ と $\dot{\omega}_2$ および $\mathscr{N}$ を法とする$\omega_2$ にのみ依存し、$\langle \omega_1 | \omega_2 \rangle$ または $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ で表されます。 次に、写像 $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ は複素ヒルバーシアン空間構造をベクトル空間 $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$ に代入します。
+$\mathscr{V}$ (それぞれ $\mathscr{N}$) を次数 1/2 の測定可能な密度 $\omega$ のベクトル空間とし、次数 1 の密度 $|\omega|^2$ に関連付けられた測度が有界である (それぞれ null) とします。 $\omega_1$ と $\omega_2$ を $\mathscr{V}$ に入れます。この場合、$\omega = \overline{\omega_1} \omega_2$ は位数 1 の稠密度であり、$\omega$ に関連付けられたメジャー $\tilde{\omega}$ は有界です。 数 $\int_X \tilde{\omega}$ は、$\omega_1$ の類 $\dot{\omega}_1$ と $\dot{\omega}_2$ および $\mathscr{N}$ を法とする$\omega_2$ にのみ依存し、$\langle \omega_1 | \omega_2 \rangle$ または $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ で表されます。 次に、写像 $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ は複素ヒルバーシアン空間構造をベクトル空間 $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$ に代入します。
 
 #### 例 5 {#evt-v-s1-n4-exa-5 .statement tag=07XL}
 
@@ -470,7 +470,7 @@ $d = \inf_{y \in H} \|x - y\|$ を置き、整数 $n > 0$ ごとに、$H_n$ を 
 
 1 (GT, VIII, § 1, No. 1) $\Re(z)$ が複素数 z の実数部分を表すことを思い出してください。 z が実数の場合、$\Re(z) = z$ になります。
 
-Let $y \in \mathbf{H}$; since $\mathbf{H}$ is convex, the point $z(\lambda) = p_{\mathbf{H}}(x) + \lambda(y - p_{\mathbf{H}}(x))$ of E belongs to $\mathbf{H}$ for every real number $\lambda$ such that $0 < \lambda < 1$. したがって、
+$y \in \mathbf{H}$ にしましょう。 $\mathbf{H}$ は凸であるため、E の点 $z(\lambda) = p_{\mathbf{H}}(x) + \lambda(y - p_{\mathbf{H}}(x))$ は、$0 < \lambda < 1$ となるすべての実数 $\lambda$ に対して $\mathbf{H}$ に属します。 したがって、
 $$
 \| x - z(\lambda) \|^{2} \geq \| x - p_{\mathbf{H}}(x) \|^{2} \quad \text{for} \quad 0 < \lambda < 1 ,
 $$
@@ -584,7 +584,7 @@ E がヒルバーティアン空間で、M が E の閉ベクトル部分空間�
 
 #### 命題 8 {#evt-v-s1-prop-8 .statement tag=07XX}
 
-— E をヒルバーティアン空間、M を E の閉じたベクトル部分空間、I 空でない順序付け有向集合、および $(M_i)_{i \in I}$ を E の閉じたベクトル部分空間の族とする。 We assume that either the mapping $i \mapsto M_i$ is increasing and that M is the closure of $\bigcup_{i \in I} M_i$ or that the mapping $i \mapsto M_i$ is decreasing and that $M = \bigcap_{i \in I} M_i$. 次に、すべての $x \in E$ に対して $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ です。
+— E をヒルバーティアン空間、M を E の閉じたベクトル部分空間、I 空でない順序付け有向集合、および $(M_i)_{i \in I}$ を E の閉じたベクトル部分空間の族とする。 写像 $i \mapsto M_i$ が増加するで M が $\bigcup_{i \in I} M_i$ の閉包であるか、写像 $i \mapsto M_i$ が減少するで $M = \bigcap_{i \in I} M_i$ であると仮定します。 次に、すべての $x \in E$ に対して $p_M(x) = \lim_{i \in I} p_{M_i}(x)$ です。
 
 Prop. 8 は props の直後に続きます。 6 (V、p. 11) と 7 (V、p. 12)。
 

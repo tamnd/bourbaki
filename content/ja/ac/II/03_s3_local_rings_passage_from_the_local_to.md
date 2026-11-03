@@ -33,16 +33,16 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 505781cb745dfa07e7ddd6791c1de046aba8efbe521c3e3ff77f22d1e6e2d704
+content_sha256: 289ea3b13126b3a4f998e2f6eb32f7d695fd46c49afda59b3c1f6d46cfdb8d5e
 translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
 translation_method: google
 source_content_sha256: 5f8c454a02fa9609498046c6e41e498f87f8eae9c6d223e684879450c3339532
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0eafd195d6a3d27b21bc8518f7491b0ea12bcd952b57914f032dbcd1b73bd3da
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 局所環。ローカルからグローバルへ
@@ -51,24 +51,24 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 命題 1 {#ac-ii-s3-prop-1 .statement tag=047R}
 
-$\mathbf{A}$ を $\mathbf{A}$ の非反転要素の環と $I$ 集合とします。 集合 $I$ は、$\mathbf{A}$ とは異なる$\mathbf{A}$ の理想の和集合です。さらに、次の条件は同等です。
+$\mathbf{A}$ を $\mathbf{A}$ の非反転要素の環と $I$ 集合とします。 集合 $I$ は、$\mathbf{A}$ とは異なる $\mathbf{A}$ の理想の和集合です。さらに、次の条件は同等です。
 (a) $I$ は理想です。
-(b) $\mathbf{A}$ とは異なる$\mathbf{A}$ の理想の集合には最大の元があります。
+(b) $\mathbf{A}$ とは異なる$\mathbf{A}$ の理想の集合には、最大の元があります。
 (c) $\mathbf{A}$ は独特の最大理想を持っています。
 
-関係 $x \in I$ は $1 \notin xA$ と同等であるため、$xA \neq \mathbf{A}$ となります。 $a$ が $\mathbf{A}$ と $x \in a$ とは異なる $\mathbf{A}$ の理想である場合、$xA \subset a$、したがって $xA \neq \mathbf{A}$ と $x \in I$ になります。したがって、$\mathbf{A}$ とは異なる$\mathbf{A}$ のすべての理想は $I$ に含まれ、主要な理想 $xA \neq \mathbf{A}$ までのすべての元 $x \in I$ 属するが含まれます。これは最初の主張を証明し、これは (a)、(b)、(c) の同値を直ちに暗示します。
+関係 $x \in I$ は $1 \notin xA$ と同等なので、$xA \neq \mathbf{A}$ となります。 $a$ が $\mathbf{A}$ と $x \in a$ とは異なる $\mathbf{A}$ の理想である場合、$xA \subset a$、したがって $xA \neq \mathbf{A}$ と $x \in I$ になります。したがって、$\mathbf{A}$ とは異なる$\mathbf{A}$ のすべての理想は $I$ に含まれ、主要な理想 $xA \neq \mathbf{A}$ へのすべての元 $x \in I$ 属するが含まれます。これは最初の主張を証明し、これは (a)、(b)、(c) の同値を直ちに暗示します。
 
 注意 (1)。 (c) が成り立つ場合、$I$ は環 $\mathbf{A}$ (代数, 章 VIII, §6, no. 3, 定義 3) のジェイコブソン根基であることに注意してください。
 
 #### 定義 1 {#ac-ii-s3-def-1 .statement tag=047S}
 
-環 $\mathbf{A}$ は、命題 1 の同等の条件 (a)、(b)、(c) を満たす場合、局所環と呼ばれます。ヤコブソン根基による$\mathbf{A}$ の商 (これは、$\mathbf{A}$ の固有の最大理想となります) は次のようになります。 $\mathbf{A}$の剰余体と呼ばれます。
+環 $\mathbf{A}$ は、命題 1 の等価条件 (a)、(b)、(c) を満たす場合、局所環と呼ばれます。ヤコブソン根基による$\mathbf{A}$ の商 (これは、 $\mathbf{A}$)は、$\mathbf{A}$の剰余体と呼ばれます。
 
 #### 定義 2 {#ac-ii-s3-def-2 .statement tag=047T}
 
-$\mathbf{A}, \mathbf{B}$ を 2 つの局所環と $m, n$ のそれぞれの最大理想とする。 準同型 $u : \mathbf{A} \to \mathbf{B}$ が $u(m) \subset n$ の場合、ローカルと呼ばれます。
+$\mathbf{A}, \mathbf{B}$ を 2 つの局所環と $m, n$ のそれぞれの最大の理想とする。 $u(m) \subset n$ の場合、準同型 $u : \mathbf{A} \to \mathbf{B}$ はローカルと呼ばれます。
 
-これは、$\bar{u}^{-1}(n)$ が理想的な含む $m$ であり、含む 1 ではないため、$m$ に等しいため、$\bar{u}^{-1}(n) = m$ がというに相当します。 商をとり、$\mathbf{A}$ の剰余体から $\mathbf{B}$ の$u$ 単射準同型 $\mathbf{A}/m \to \mathbf{B}/n$ を正規に導き出します。
+これは、$\bar{u}^{-1}(n)$ が理想的な含む $m$ であり、含む 1 ではないため、$\bar{u}^{-1}(n) = m$ が $m$ に等しいというというになります。 商を使用して、$\mathbf{A}$ の剰余体から $\mathbf{B}$ の$u$ 単射準同型 $\mathbf{A}/m \to \mathbf{B}/n$ を正規に導出します。
 
 例
 (1) 体は局所環です。 0になる環は局所環ではありません。
@@ -87,7 +87,7 @@ $S = A - p$ と $j : A \to A_v$ を標準準同型とします。 $p$が素数�
 
 *$A$を環、$p$を$A$の主な理想とします。 環 $A$ は、曖昧さがない場合、$p$ では $A$ の局所環、または $p$ の局所環と呼ばれます。
 
-*Remark (2).* If $A$ is a local ring and $m$ its maximal ideal, the elements of $A - m$ are invertible (Proposition 1) and hence $A_{m'}$ is canonically identified with $A$ ($§ 2$, no. 1, Remark 5).
+*注意 (2).* $A$ が局所環で、$m$ がその最大理想である場合、$A - m$ の元は可逆 (命題 1) であるため、$A_{m'}$ は正規的に $A$ ($§ 2$, no. 1、注意 5)。
 
 例
 (5) $p$ を素数数とします。 局所環 $\mathbf{Z}_{(p)}$ は有理数数 $a/b$ の集合であり、$a, b$ は$b$ 素数頂点を持つ有理数整数です。 $\mathbf{Z}_{(p)}$ の剰余体は素数体 $\mathbf{F}_p = \mathbf{Z}/(p)$ と同型です。
@@ -353,33 +353,33 @@ $$
 r = \operatorname{Hom}(1_E, v) : \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F).
 $$
 
-現在、$(\operatorname{Hom}_A(E, F))_m$ (それぞれ $(\operatorname{Hom}_A(E, G))_m$) は正規的に $\operatorname{Hom}_{A_m}(E_m, F_m)$ (それぞれ $\operatorname{Hom}_{A_m}(E_m, G_m)$) (§ 2, no. 7、命題 19 (i)) と識別され、$(\operatorname{Hom}_A(E, F))_m$ の $u$ の標準像は $u_m$ と識別されます。 $r_m$ は $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ と同一視され、$P_m$ は $r_m$ の像と同一視されます。 命題は、系 1 から定理 1 に続き、$\operatorname{Hom}_A(E, F)$ とその部分加群 P に適用されます。
+現在、$(\operatorname{Hom}_A(E, F))_m$ (それぞれ $(\operatorname{Hom}_A(E, G))_m$) は正規的に $\operatorname{Hom}_{A_m}(E_m, F_m)$ (それぞれ $\operatorname{Hom}_{A_m}(E_m, G_m)$) (§ 2, no. 7, 命題 19 (i)) と識別され、$(\operatorname{Hom}_A(E, F))_m$ の $u$ の標準像は $u_m$ と識別されます。 $r_m$ は $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ と同一視され、$P_m$ は $r_m$ の像と同一視されます。 命題は、$\operatorname{Hom}_A(E, F)$ とその部分加群 P に適用される系 1 から定理 1 に続きます。
 
 #### 系 1 {#ac-ii-s3-prop-12-cor-1 .statement tag=048I}
 
 *M/N が有限に表現されるように、M を M の A-加群および N 部分加群とします。 N が M の直因子であるためには、すべての $m \in S_2$、N が M の直因子であることが必要かつ十分です。*
 
-N が M の直因子であるということは、M/N 因子上の同一性準同型が $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ に変換されることを意味します。ここで、$\phi$ は標準準同型および $w$ 準同型 (*代数*, 章 II, § 1, no. 9, 命題 14); $(M/N)_m = M_m/N_m$ と $\phi_m$ は標準準同型 $M_m \to M_m/N_m$ であるため、系は命題 12 から簡単に続きます。
+N が M の直因子であるということは、M/N 因子上の同一性準同型が $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ に変換されることを意味します。ここで、$\phi$ は標準準同型および $w$ 準同型 (*代数*, 章) II, § 1, no. 9、命題 14); $(M/N)_m = M_m/N_m$ と $\phi_m$ は標準準同型 $M_m \to M_m/N_m$ であるため、系は命題 12 から簡単に続きます。
 
 #### 系 2 {#ac-ii-s3-prop-12-cor-2 .statement tag=048J}
 
-*M を有限生成された自由A-加群と、有限生成された自由A-加群である M の N 部分加群とします。 N が M の直因子であるためには、すべての $m \in \Omega$、$mN = N \cap (mM)$ が必要かつ十分です。*
+*M を有限生成された自由A-加群と、有限生成された自由A-加群である M の N 部分加群とします。 N が M の直因子であるためには、すべての $m \in \Omega$, $mN = N \cap (mM)$ が必要かつ十分です。*
 
 定義までに M/N は有限に提示されます。一方、N と M は、有限生成された自由な $A_n$ モジュールです。 $N$ が $M$ の直因子であるためには、標準写像 $N_m / mN_m \to M_m / mM_m$ が単射法 (no. 2, 命題 6) であることが必要かつ十分です。これは、標準写像 $N / mN \to M / mM$ が単射法 (命題 9) でなければならないというというと同じであり、その核が $(N \cap mM) / mN$ であるため、系が証明されます。
 
-命題 12 (それぞれ系 1) は、$A$ がネーター および $E$ (それぞれ $M/N$) の *有限生成* $A$ モジュール (章 I, § 2, no. 8、補題) の場合に適用されます。 8)。
+命題 12 (それぞれ系 1) は、$A$ がネーター および $E$ (それぞれ $M/N$) が *有限生成* $A$ モジュール (章) である場合に適用されます。 I, § 2, no. 8、補題 8)。
 
 ### 4. 平坦度の局在化
 
 #### 命題 13 {#ac-ii-s3-prop-13 .statement tag=048K}
 
-*$S$ を環 $A$ の乗算部分集合と $M$ を $A$ モジュールとします。 $M$ が j flat (それぞれ忠実にフラット) の場合、$S^{-1}M$ は aj flat (それぞれ忠実にフラット) $S^{-1}A$ モジュールとフラット $A$ モジュールです。*
+*$S$ を環 $A$ の乗法部分集合とし、$M$ を $A$ 加群とします。 $M$ が j flat (それぞれ忠実にフラット) の場合、$S^{-1}M$ は aj flat (それぞれ忠実にフラット) $S^{-1}A$ モジュールとフラット $A$ モジュールです。*
 
-$S^{-1}M = M \otimes_A S^{-1}A$ として、最初の主張は、章 I, § 2, no. 7、系 2 から命題 8 (それぞれ章 I, § 3, no. 3、命題 5) に続きます。さらに、$S^{-1}A$ はフラットな $A$ モジュール ($§ 2$、no. 4、定理 1) です。従って、$M$ がフラットな $A$ モジュールである場合、章 I, § 2, no. 7、系 3 ～ 命題 8 により、$S^{-1}M$ も同様になります。
+$S^{-1}M = M \otimes_A S^{-1}A$ として、最初の主張は、章 I, § 2, no. 7、系 2 から命題 8 (それぞれ章 I, § 3, no. 3、命題 5) に続きます。さらに、$S^{-1}A$ はフラット $A$ モジュール ($§ 2$、no. 4、定理 1) です。従って、$M$ がフラットな $A$ モジュールである場合、章 I, § 2, no. 7、系 3 ～ 命題 8 により、$S^{-1}M$ も同様になります。
 
 #### 注意 {#ac-ii-s3-n4-rem-1 .statement tag=048L}
 
-If $N$ is an $S^{-1}A$-module, $S^{-1}N$ is identified with $N$ and this is consequently *equivalent* to saying that $N$ is a flat $S^{-1}A$-module or a flat $A$-module.
+$N$ が $S^{-1}A$ モジュールである場合、$S^{-1}N$ は $N$ で識別され、その結果、これは $N$ がフラット $S^{-1}A$ モジュールまたはフラット $A$ モジュールであるというと *同等* になります。
 
 #### 命題 14 {#ac-ii-s3-prop-14 .statement tag=048M}
 
@@ -443,7 +443,7 @@ $$ S = \bigcap_1^n (A - \mathfrak{p}_i) = A - \bigcup_1^n \mathfrak{p}_i. $$
 
 (c) A が整域の場合、A の分数の体では $S^{-1}A = \bigcap_1^n A_{\mathfrak{p}_i}$ になります。
 
-(a) The ideals of A not meeting S are the ideals contained in the union of the $\mathfrak{p}_i$ and hence in at least one of the $\mathfrak{p}_i$ (§ 1, no. 1, Proposition 2); the $q_j$ are therefore the maximal elements of the set of ideals not meeting S; consequently, the $S^{-1}q_j$ are the maximal ideals of $S^{-1}A$ by § 2, no. 5, Proposition 11 (ii).
+(a) S を満たさない A の理想は、$\mathfrak{p}_i$ の和集合に含まれる理想であり、従って $\mathfrak{p}_i$ (§ 1, no. 1、命題 2) の少なくとも 1 つに含まれます。従って、$q_j$ は S を満たさない理想の集合のうち極大元です。従って、$S^{-1}q_j$ は、§ 2, no. 5、命題 11 による$S^{-1}A$ の最大の理想です (ii)。
 
 (b) は、§ 2, no. 5、命題 11 (iii) の特殊なケースです。
 

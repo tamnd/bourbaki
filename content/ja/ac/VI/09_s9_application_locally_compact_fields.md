@@ -25,16 +25,16 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: 8ad06bbe2daaa11b7f454e402ea8b48c58f23d250220ce9c527375d106eb46c0
+content_sha256: c49b89f4f6c22bbbcaae82af2864b21902f00e6e8a1ae853e40c814d0ac2b518
 translated_from: content/en/ac/VI/09_s9_application_locally_compact_fields.md
 translation_method: google
 source_content_sha256: cbf8d7f6c26e3c562858fae29ec698adc8ce0ba172721d0d36754a85dbdf6f59
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c6151c3d1248aaed22757a68149a6061d5d509c7710baa254a5bcab83fe17ebe
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 9. アプリケーション: ローカルコンパクト体
@@ -135,13 +135,13 @@ $\mathbf{Q}$ ($p$ 任意の素数) 上の不適切でない絶対値値に関す
 
 (ii) *K が標数 0 で、mod が超計量絶対値値である場合、K は p 進体 $\mathbf{Q}_p$ 上の有限階数の代数です。*
 
-(iii) *If K is of characteristic $p \neq 0$, it is isomorphic to a field with centre a field of formal power series $\mathbf{F}_q((T))$ (where $q$ is a power of $p$) and of finite rank over its centre.*
+(iii) *K が標数 $p \neq 0$ の場合、形式べき級数 $\mathbf{F}_q((T))$ ($q$ は $p$ の累乗) を中心とする体とその中心に対する有限階数の体と同型です。*
 
-(i) It follows from Ostrowski's Theorem (§ 6, no. 4, Theorem 2) that K is a topological field isomorphic to an everywhere dense subfield of $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$ and, as K is complete, it is isomorphic to $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$.
+(i) オストロフスキーの定理 (§ 6, no. 4、定理 2) から、K はどこでも密な部分体 $\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ と同型の位相体であり、K が完全であるため、$\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ と同型であることがわかります。
 
 (ii) A を絶対値 mod の環とし、m をその最大理想とする。 A/m は有限体 (§ 5, no. 1, 命題 2) であることがわかっているため、mod によって $\mathbf{Q}$ に誘導される絶対値値は有限の剰余体を持ち、これは $p$ 進の絶対値値と同等である場合にのみ可能です。 ($§ 6$、no. 3、命題 4);したがって、$K$ の $\mathbf{Q}$ の閉包は $\mathbf{Q}_p$ と同型であり、後者は $K$ で閉包されているため、$K$ の中心に含まれます。私たちはを用いて結論する命題 no. 1 の 2 です。
 
-(iii) 2 番目の主張は、最初の系から no. 2 の命題 2 に続きます。 To show the first assertion, note that mod, is necessarily an ultrametric absolute value ($§ 6$, no. 2, Corollary to Proposition 3); in the notation of the proof of Proposition 3 of no. 2, the centre $Z$ of $K$ consists of the elements which commute with both $s$ and $u$; but by virtue of (3),
+(iii) 2 番目の主張は、最初の系から no. 2 の命題 2 に続きます。 最初の主張を示すために、mod は必然的に超計量絶対値 ($§ 6$, no. 2、命題 3 の帰結) であることに注意してください。 no. 2 の命題 3 の証明の表記では、$K$ の中心 $Z$ は、$s$ と $u$ の両方と可換な要素で構成されます。しかし、(3) のおかげで、
 
 $$
 u^{-q} s u^q = s^{q p^r} = s,

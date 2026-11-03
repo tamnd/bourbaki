@@ -12,16 +12,16 @@ pdf_pages: 0004-0006
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8b7e616917469304b21a1d2c7a4553965d0f5bc7699ffe69e34e04ab5c88bad6
+content_sha256: 272fba289c090a2cc899209ca0e39670db8eeaf5f3c41d9f8f784b46bb939eb7
 translated_from: content/en/int/00_to_the_reader_vii_ix.md
 translation_method: google
 source_content_sha256: 0b7b4874543c4b1c022753df5b3549321332349ffebf20695d43d3017ad5a5da
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 507acd7cee96127dd9f942f5d9ce6761d4ec0b47cf69f74bc832d00ad3449957
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 読者へ
@@ -51,7 +51,7 @@ Espaces Vectoriels Topologiques (トポロジカルベクトル空間) — EVT (
 
 5. 各章の論理枠組みは、定義、公理、および章の定理で構成されます。今後の使用において主に留意すべき事項は、部分です。重要度の低い結果や、定理から容易に推測できる結果には、「命題」、「補題」、「結果」、「注意」などのラベルが付けられます。最初の読み取りで省略される可能性のある結果は、小さな型で印刷されます。特に重要な定理に関する解説は、「スコリウム」という名前で時折登場します。
 
-To avoid tedious repetitions it is sometimes convenient to introduce notations or abbreviations that are in force only within a certain chapter or a certain section of a chapter (for example, in a chapter that is concerned only with commutative rings, the word "ring" would always signify "commutative ring"). このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
+退屈な繰り返しを避けるために、特定の章または章の特定のセクション内でのみ有効な表記または略語を導入すると便利な場合があります (たとえば、可換環のみに関係する章では、「リング」という単語は常に「可換環」を意味します)。 このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
 
 6. 本文中の一部の箇所は、読者に重大な誤りを警告するように設計されています。これらの通路は、余白に標識 (「危険な曲がり角」) で標識されています。
 

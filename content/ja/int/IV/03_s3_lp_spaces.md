@@ -45,16 +45,16 @@ subsections:
       pdf_page: 138
 statements: 44
 exercises: 3
-content_sha256: 571e05820e1eff3d2b10e4586ca1c9e388bda31865127bd10681ea7e38e48ae2
+content_sha256: 06f4aed1c5874f0af537cb44525f33ce314826843ad43c65c628bc4cf158831f
 translated_from: content/en/int/IV/03_s3_lp_spaces.md
 translation_method: google
 source_content_sha256: 7e23198285dc5cb4353370685c3d59fc0442a1a826f792dd80d1ab78eaae10e8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a4ba25890a3eef3e40dcf5424628feb30b2d5025272515cc5b0dd108f0295d72
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。 L$^p$ 空間
@@ -151,13 +151,13 @@ $$
 
 同等の数値写像 (有限であるかどうか) の類ごとに、同様に 1 つの定義する $N_p(\tilde{f})$。
 
-One can then define $N_p(f)$ for a function with values in F (resp. in $\overline{\mathbf{R}}$) defined almost everywhere in X, by setting $N_p(f) = N_p(\tilde{f})$; it is then clear that the relations (3) and (4) again hold (assuming $\alpha \neq 0$ and $f + g$ defined almost everywhere, in the case of numerical functions, finite or not).
+次に、$N_p(f) = N_p(\tilde{f})$ を設定することで、X のほぼすべての場所で定義された F の値 (それぞれ$\overline{\mathbf{R}}$) を持つ関数に対して $N_p(f)$ を定義できます。したがって、関係 (3) と (4) が再び成り立つことが明らかです ($\alpha \neq 0$ と $f + g$ が、有限であるかどうかにかかわらず、数値関数の場合、ほぼどこでも定義されていると仮定します)。
 
 $0 < p < 1$ の場合、再び集合 $N_p(f) = (\int^* |f|^p d|\mu|)^{1/p}$ になりますが、不等式 (4) と (5) はもはや有効ではありません (cf. 第 3 章)。 I、エクサー。 6およびCh. IV, §6、エクサー。 13)。
 
 ### 3. 空間 $\mathscr{F}_F^p$
 
-F を、X のすべての写像のバナッハ空間、$\mathscr{F}(X; F)$ (または単に $\mathscr{F}_F$) ベクトル空間を F にするとします。 $1 \leq p < +\infty$ については、$\mathscr{F}^p(X, \mu; F)$ または $\mathscr{F}_F^p(X, \mu)$、または単純に $\mathscr{F}_F^p(\mu)$ または $\mathscr{F}_F^p$ (混乱が生じない場合)、X の写像 f の集合を F に入れて、$N_p(f) < +\infty$ (代わりに $\mathscr{F}^p$ と書きます) で表します。 $\mathscr{F}_R^p$）。 $\mathscr{F}_F^p(|\mu|) = \mathscr{F}_F^p(\mu)$であることは明らかです。 No. 2の提案2から、$\mathscr{F}_F^p$は$\mathscr{F}_F$の*線形部分空間*であり、$N_p(f)$はこの空間の*準ノルム*であることがすぐにわかります。 私たちは常に (反対の明示的な言及がない限り) $\mathscr{F}_F^p$ にはこの準規範によって定義される位相が装備されていると仮定します。この位相は位数 p* の平均収束の *位相であると言います ($p = 1$ については、単に平均収束の *位相* と呼びます。$p = 2$ については、«二次平均の収束の位相» とも言います)。 We shall say that a filter $\mathscr{G}$ on $\mathscr{F}_F^p$ (resp. a sequence $(f_n)$ of elements of $\mathscr{F}_\mathbf{F}^p$) that converges to $f$ for this topology *converges in mean of order* $p$ to $f$; this means, therefore, that $N_p(g - f)$ tends to 0 with respect to $\mathscr{G}$ (resp. that $N_p(f_n - f)$ tends to 0 as $n$ tends to infinity).
+F を、X のすべての写像のバナッハ空間、$\mathscr{F}(X; F)$ (または単に $\mathscr{F}_F$) ベクトル空間を F にするとします。 $1 \leq p < +\infty$ については、$\mathscr{F}^p(X, \mu; F)$ または $\mathscr{F}_F^p(X, \mu)$、または単純に $\mathscr{F}_F^p(\mu)$ または $\mathscr{F}_F^p$ (混乱が生じない場合)、X の写像 f の集合を F に入れて、$N_p(f) < +\infty$ (代わりに $\mathscr{F}^p$ と書きます) で表します。 $\mathscr{F}_R^p$）。 $\mathscr{F}_F^p(|\mu|) = \mathscr{F}_F^p(\mu)$であることは明らかです。 No. 2の提案2から、$\mathscr{F}_F^p$は$\mathscr{F}_F$の*線形部分空間*であり、$N_p(f)$はこの空間の*準ノルム*であることがすぐにわかります。 私たちは常に (反対の明示的な言及がない限り) $\mathscr{F}_F^p$ にはこの準規範によって定義される位相が装備されていると仮定します。この位相は位数 p* の平均収束の *位相であると言います ($p = 1$ については、単に平均収束の *位相* と呼びます。$p = 2$ については、«二次平均の収束の位相» とも言います)。 この位相 * 位数* $p$ の平均で $f$ に収束する $\mathscr{F}_F^p$ のフィルター $\mathscr{G}$ (それぞれ $\mathscr{F}_\mathbf{F}^p$ の元の数列 $(f_n)$) は次のようになります。 $f$;したがって、これは、$N_p(g - f)$ が $\mathscr{G}$ に対して 0 になる傾向があることを意味します (それぞれ、$n$ が無限大に向かう傾向があるように、$N_p(f_n - f)$ も 0 になる傾向があります)。
 
 この用語拡大するは、写像 $f_n$ と写像 $f$ がほぼどこでも定義されている (または $\overline{\mathbf{R}}$ に値があり、ほぼどこでも定義され有限である) 場合に一度に適用されます。
 
@@ -179,7 +179,7 @@ F を、X のすべての写像のバナッハ空間、$\mathscr{F}(X; F)$ (ま�
 
 *局所凸空間$\mathscr{F}_\mathbf{F}^p$が完成しました*
 
-$\mathscr{F}_\mathbf{F}^p$ に関連付けられたハウスドルフ空間はノルム空間であるため、$\mathscr{F}_\mathbf{F}^p$ のすべての *Cauchy 数列* $(f_n)$ が位数の平均で位相に対して収束する極限を有することを証明すれば十分です。 $p$ (GT、IX, §2, No. 6、提案 9)。 仮定までに、$\varepsilon > 0$ ごとに整数 $m_0$ が存在し、関係 $m \geq m_0,\ n \geq m_0$ は $N_p(f_n - f_m) \leq \varepsilon$ を暗示します。 One may therefore define, by induction on $k$, a strictly increasing sequence $(n_k)$ of integers $\geq 0$ such that $N_p(f_{n_{k+1}} - f_{n_k}) \leq 2^{-k}$. If we show that the series with general term $g_k = f_{n_{k+1}} - f_{n_k}$ ($k \geq 1$) is *convergent in mean of order* $p$, then it will have a sum $g \in \mathscr{F}_\mathbf{F}^p$, and $f = g + f_{n_1}$ will be the limit of the sequence $(f_{n_k})$ in $\mathscr{F}_\mathbf{F}^p$; $f$ will then be a cluster point of the sequence $(f_n)$; since this sequence is a Cauchy sequence, it will have $f$ as limit, and Prop. 5 will have been proved (GT, II, §3, No. 2, Cor. 2 of Prop. 5).
+$\mathscr{F}_\mathbf{F}^p$ に関連付けられたハウスドルフ空間はノルム空間であるため、$\mathscr{F}_\mathbf{F}^p$ のすべての *Cauchy 数列* $(f_n)$ が位数の平均で位相に対して収束する極限を有することを証明すれば十分です。 $p$ (GT、IX, §2, No. 6、提案 9)。 仮定までに、$\varepsilon > 0$ ごとに整数 $m_0$ が存在し、関係 $m \geq m_0,\ n \geq m_0$ は $N_p(f_n - f_m) \leq \varepsilon$ を暗示します。 したがって、$k$ の帰納法によって、$N_p(f_{n_{k+1}} - f_{n_k}) \leq 2^{-k}$ となるような整数 $\geq 0$ の厳密に増加するシーケンス $(n_k)$ を定義できます。 一般項 $g_k = f_{n_{k+1}} - f_{n_k}$ ($k \geq 1$) を持つ級数が *次数の平均で収束* $p$ であることを示すと、その和は $g \in \mathscr{F}_\mathbf{F}^p$ となり、$f = g + f_{n_1}$ は $\mathscr{F}_\mathbf{F}^p$ の数列 $(f_{n_k})$ の極限になります。 $f$ はシーケンス $(f_n)$ のクラスターポイントになります。この数列はコーシー数列であるため、極限として $f$ があり、提案 5 は証明されています (GT、II, §3, No. 2、提案 5 の Cor. 2)。
 
 したがって、提案 5 は、次の命題の帰結です。
 
@@ -227,9 +227,9 @@ $\mathscr{L}_R^p$ と $L_R^p$ (混乱が生じない場合は $\mathscr{L}_C^p$ 
 
 $\mathscr{F}_F^p$ のすべての写像が、$\mathscr{L}_F^p$、属するから $\mathscr{L}_F^p$ の写像に相当することは明らかです。 写像と $F$ の値および $X$ の *ほぼどこでも定義* は、$\mathscr{L}_F^p$ の写像と同等であれば、*$p$*-*番目の冪可積分*であると言われます。同様に、$\overline{\mathbf{R}}$ の値を持つ写像は、$X$ のほぼどこでも定義され有限ですが、$\mathscr{L}^p$ の写像と等しい場合、*$p$*-*番目の冪可積分*であると言われます。
 
-したがって、$\mathscr{L}_F^p$ (それぞれ$\mathscr{L}^p$) の写像は、*$p$*-* 番目の冪可積分関数* であり、*$X$ のすべてで定義されています (それぞれ、$X$ のすべてで定義され有限です)。この切断と次のものでは、$\mathscr{L}_F^p$ (それぞれ $\mathscr{L}^p$) で写像に対して証明された命題のほとんどは、どこでも定義されていない (それぞれ、どこでも定義されておらず有限である) *$p$*-*番目の冪可積分関数* にすぐに拡張できます。通常、これらの結果を定式化する作業と証明は読者に任せます。
+したがって、$\mathscr{L}_F^p$ (それぞれ$\mathscr{L}^p$) の写像は、*$p$*-* 番目の冪可積分関数* であり、 *$X$ のすべてで *定義されています (それぞれ、 $X$ のすべてで定義され有限です)。この切断と次のものでは、$\mathscr{L}_F^p$ (それぞれ $\mathscr{L}^p$) で写像に対して証明された命題のほとんどは、どこでも定義されていない (それぞれ、どこでも定義されておらず有限である) *$p$*-*番目の冪可積分関数* にすぐに拡張できます。通常、これらの結果を定式化して証明導く作業は読者に任せます。
 
-(*) この用語の根拠については、§4, No. 2 で説明します。
+(*) この用語の正当性については、§4, No. 2 で説明します。
 
 #### 注意 1 {#int-iv-s3-n4-rem-1 .statement tag=08QX}
 
@@ -243,33 +243,33 @@ $\mathscr{F}_F^p$ のすべての写像が、$\mathscr{L}_F^p$、属するから
 
 #### 命題 7 {#int-iv-s3-prop-7 .statement tag=08QZ}
 
-写像 $\mathbf{f}$ から属する 、そして $\mathscr{L}_\mathbf{F}^p$ については、$\varepsilon > 0$ ごとに、$N_p(\mathbf{f} - g) \leq \varepsilon$ のようなコンパクトなサポートを備えた連続した写像 $g$ が存在することが必要かつ十分です。
+写像 $\mathbf{f}$ から属する 〜 $\mathscr{L}_\mathbf{F}^p$ については、$\varepsilon > 0$ ごとに、$N_p(\mathbf{f} - g) \leq \varepsilon$ のようなコンパクトなサポートを備えた連続する写像 $g$ が存在することが必要かつ十分です。
 
-他の語、$\mathscr{L}_\mathbf{F}^p$の写像は、位数$p$の平均で収束の位相のため、コンパクトなサポートを備えた連続写像の数列の極限です。
+他の語、$\mathscr{L}_\mathbf{F}^p$の写像は、位数$p$を意味する収束の位相に対して、コンパクトなサポートを備えた連続写像の数列の極限です。
 
 #### 命題 8 {#int-iv-s3-prop-8 .statement tag=08R0}
 
-$f$ を、ほぼどこでも定義されている数値写像 (有限かどうか) とします。すべての $\varepsilon > 0$ に対して、2 つの $p$ 番目冪可積分関数 $g, h$ が存在し、ほぼどこでも $g \leq f \leq h$ と $N_p(h - g) \leq \varepsilon$ が存在する場合、$f$ は $p$ 番目冪可積分です。
+$f$ を、ほぼどこでも定義されている数値写像 (有限かどうか) とします。 $\varepsilon > 0$ごとに、ほぼどこでも$g \leq f \leq h$と$N_p(h - g) \leq \varepsilon$となるような2つの$p$番目冪可積分関数$g, h$が存在する場合、$f$は$p$番目冪可積分です。
 
 なぜなら、$f$ はほぼどこでも有限であり、$N_p(f - g) \leq N_p(h - g) \leq \varepsilon$ は有限だからです。したがって、提案 7 は、$f$ が $p$ 番目の冪で可積分であることを示しています。
 
-定義により、$\mathscr{L}_\mathbf{F}^p$ は $\mathscr{F}_\mathbf{F}^p$ の閉じた部分空間であり、後者の空間が完了しているため (No. 3、提案 5)、次の結果が得られます (GT、II, §3, No. 4、提案 8)。
+定義までに、$\mathscr{L}_\mathbf{F}^p$ は $\mathscr{F}_\mathbf{F}^p$ の閉じた部分空間であり、後者の空間が完了しているため (No. 3、提案 5)、次の結果が得られます (GT、II, §3, No. 4、提案 8)。
 
 #### 定理 2 {#int-iv-s3-thm-2 .statement tag=08R1}
 
-空間 $\mathscr{L}_\mathbf{F}^p$ が完了しました。 空間 $L_\mathbf{F}^p$ はバナハ空間です。
+空間 $\mathscr{L}_\mathbf{F}^p$ が完了しました。 空間 $L_\mathbf{F}^p$ はバナッハ空間です。
 
-空間 $L_\mathbf{F}^p$ では、類のノルム $N_p(\tilde{\mathbf{f}})$ が再び $\| \tilde{\mathbf{f}} \|_p$ と表されます。
+空間 $L_\mathbf{F}^p$ では、類のノルム $N_p(\tilde{\mathbf{f}})$ が再び$\| \tilde{\mathbf{f}} \|_p$ と表されます。
 
 Th. 2 は次のようにシャープ化できます。
 
 #### 定理 3 {#int-iv-s3-thm-3 .statement tag=08R2}
 
-$(\mathbf{f}_n)$ を空間 $\mathscr{L}_\mathbf{F}^p$ の Cauchy 数列とします。次のプロパティを持つ $(\mathbf{f}_n)$ のサブシーケンス $(\mathbf{f}_{n_k})$ が存在します。
+$(\mathbf{f}_n)$ を空間 $\mathscr{L}_\mathbf{F}^p$ のコーシー 数列とします。次のプロパティを持つ $(\mathbf{f}_n)$ のサブシーケンス $(\mathbf{f}_{n_k})$ が存在します。
 1° 系列と一般的な項 $N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k})$ は収束します。
-2° 系列と一般的な項 $\mathbf{f}_{n_{k+1}}(x) - \mathbf{f}_{n_k}(x)$ はほぼどこでも絶対に収束します。
-3° $\mathbf{f}$ が $X$ で定義された写像で、ほぼどこでも数列 $(\mathbf{f}_{n_k}(x))$ の極限に等しい場合、$\mathbf{f}$ 属するから $\mathscr{L}_\mathbf{F}^p$ および数列 $(\mathbf{f}_n)$ は次のように収束します。 位数 $p$ ～ $\mathbf{f}$ の平均。
-4°には、$N_p(g) < +\infty$ となるような下位の半連続写像 $g \geq 0$ が存在し、すべての $k$ に対して、すべての $x \in X$ に対して $|\mathbf{f}_{n_k}(x)| \leq g(x)$ が存在します。
+一般的な項 $\mathbf{f}_{n_{k+1}}(x) - \mathbf{f}_{n_k}(x)$ と 2° 系列は、ほぼどこでも絶対に収束します。
+3° $\mathbf{f}$ が $X$ で定義された写像で、ほぼどこでも数列 $(\mathbf{f}_{n_k}(x))$ の極限と等しい場合、$\mathbf{f}$ 属するから $\mathscr{L}_\mathbf{F}^p$ および数列 $(\mathbf{f}_n)$ は位数 $p$ から $\mathbf{f}$ の平均で収束します。
+4°には、$N_p(g) < +\infty$ となるような下位の半連続写像 $g \geq 0$ が存在し、すべての $k$ に対して、すべての $x \in X$ に対して $|\mathbf{f}_{n_k}(x)| \leq g(x)$ になります。
 
 No. 3 の提案 5 の証明のように、$N_p(\mathbf{f}_{n_{k+1}} - \mathbf{f}_{n_k}) \leq 2^{-k}$ が成り立つように、定義する数列 $(n_k)$ を帰納法で満たせば十分です。 部分 2° と 3° は、No. 3 の提案 6 と、$\mathscr{L}_\mathbf{F}^p$ が $\mathscr{F}_\mathbf{F}^p$ で閉じられるという事実から続きます。一方、$h(x)$ が一般項 $|\mathbf{f}_{n_{k+1}}(x) - \mathbf{f}_{n_k}(x)|$ で系列の和である場合、Th. No. 2 の 1 は $N_p(h) < +\infty$ を示します。したがって、$|\mu|^*$の定義までに、$N_p(g) < +\infty$のような下位の半連続写像$g \geq h + |\mathbf{f}_{n_1}|$が存在し、証明が完成します。
 
@@ -372,7 +372,7 @@ $$
 
 *$L^p$ の $H$ の最高値は、極限* (Banach 空間 $L^p$ では) *$H$* の切断フィルターです。
 
-The condition is clearly necessary, since $\tilde{f} \mapsto \| \tilde{f} \|_p$ is an increasing function on the set of elements $\geq 0$ of $L^p$. To see that it is sufficient, we first observe that it implies that the image of $H$ under the mapping $\tilde{f} \mapsto \| \tilde{f} \|_p$ has a limit in $\mathbf{R}$, by the monotone limit theorem; the image of the section filter $\mathfrak{F}$ of $H$ under this mapping is therefore a base of a Cauchy filter on $\mathbf{R}$. $\mathfrak{F}$ 自体が $L^p$ 上のコーシーフィルター* の *基底であることを示せば、証明は完了します。なぜなら、$L^p$ が完了しているため (No. 4、Th. 2)、$\mathfrak{F}$ は $L^p$ で収束し、TVS、II, § 2, No. 7、提案 18 から命題が続きます。
+$\tilde{f} \mapsto \| \tilde{f} \|_p$ は $L^p$ の要素 $\geq 0$ に対する増加関数であるため、この条件は明らかに必要です。 それが十分であることを確認するには、まず、単調極限定理により、写像 $\tilde{f} \mapsto \| \tilde{f} \|_p$ の下で $H$ の画像が $\mathbf{R}$ に極限を持つことを意味していることを観察します。したがって、このマッピングの下の $H$ のセクション フィルター $\mathfrak{F}$ のイメージは、$\mathbf{R}$ のコーシー フィルターのベースになります。 $\mathfrak{F}$ 自体が $L^p$ 上のコーシーフィルター* の *基底であることを示せば、証明は完了します。なぜなら、$L^p$ が完了しているため (No. 4、Th. 2)、$\mathfrak{F}$ は $L^p$ で収束し、TVS、II, § 2, No. 7、提案 18 から命題が続きます。
 
 $\mathfrak{F}$ が Cauchy フィルターの基底であることを確認するには、次の補題を使用します。
 
@@ -408,7 +408,7 @@ $$
 
 Riesz 空間 $L^p$ は完全に格子順序付けされています。
 
-Every directed set $\mathrm{H}$ in $L^p$ (for the relation $\leq$), consisting of classes $\geq 0$ and bounded above in $L^p$, has a supremum: for, if $\tilde{h}$ is an upper bound for $\mathrm{H}$ in $L^p$, then $\|\tilde{f}\|_p \leq \|\tilde{h}\|_p$ for all $\tilde{f} \in \mathrm{H}$, and Prop. 14 is applicable. これは系を証明します (Ch. II, §1, No. 3、提案 1)。
+$L^p$ のすべての有向集合 $\mathrm{H}$ (関係 $\leq$ の場合) は、クラス $\geq 0$ で構成され、$L^p$ で上に制限されており、上限があります。つまり、$\tilde{h}$ が $L^p$ の$\mathrm{H}$ の上限である場合、すべての$\|\tilde{f}\|_p \leq \|\tilde{h}\|_p$ になります。 $\tilde{f} \in \mathrm{H}$、提案 14 が適用されます。 これは系を証明します (Ch. II, §1, No. 3、提案 1)。
 
 提案 14 の結論は、$\mathscr{L}^p$ の類ではなく写像について定式化されると、もはや成立しません。正確に言うと、$M$ が $\mathscr{L}^p$ の部分集合、写像 $\geq 0$ のからなるで、関係 $\leq$ に向けられている場合、$\sup_{f \in M} N_p(f) < +\infty$、上部エンベロープの *類* $g$ $M$ *は必ずしも * の最高値と同一ではありません* $L^p$ *of 類 of 写像* f \in M ;特に、g は必ずしも p 番目の冪が可積分であるとは限らず、たとえ $g \in \mathscr{L}^p$ であっても $N_p(g)$ は $\sup_{f \in M} N_p(f)$ とは区別できます (Th. 3 に続く cf. §1, No. 3、注意 1)。
 
@@ -448,7 +448,7 @@ $$
 \limsup_{\mathfrak{F}} N_p(f_\alpha) \leq N_p(\limsup_{\mathfrak{F}} f_\alpha).
 $$
 
-Let $(A_n)$ be a decreasing base of $\mathfrak{F}$ and set $g_n = \sup_{\alpha \in A_n} f_\alpha$; since $A_n$ is a countable set, it follows from Cor. 2 that $g_n$ is $p$-th power integrable; on the other hand, $N_p(g_n) \geq \sup_{\alpha \in A_n} N_p(f_\alpha)$. したがって、$\limsup_{\mathfrak{F}} f_\alpha$ は減少列 $(g_n)$ の下側の包絡線です。したがって、$\limsup_{\mathfrak{F}} f_\alpha$ は、$p$ 番目の冪が Cor によって積分可能です。 1、そして
+$(A_n)$ を $\mathfrak{F}$ と集合 $g_n = \sup_{\alpha \in A_n} f_\alpha$ の減少する基底とします。 $A_n$ は可算集合なので、Cor から続きます。 2 $g_n$ は $p$ 番目の冪可積分であること。一方、$N_p(g_n) \geq \sup_{\alpha \in A_n} N_p(f_\alpha)$。そうなると、$\limsup_{\mathfrak{F}} f_\alpha$ は減少列 $(g_n)$ の下側のエンベロープになります。したがって、$\limsup_{\mathfrak{F}} f_\alpha$ は、$p$ 番目の冪が Cor によって可積分可能です。 1、そして
 
 $$
 N_p(\limsup_{\mathfrak{F}} f_\alpha) = N_p \left( \inf_n g_n \right) = \lim_{n \to \infty} N_p(g_n)

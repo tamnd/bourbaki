@@ -57,16 +57,16 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 72aa2246f66f03e453b03099ff370f4b15d2d7ee837b61337d2f27a19b139067
+content_sha256: f6fb93d9d5eea7bfa6fa7310e9830fdcb8dd88b1242056cc5568a0400becc7d8
 translated_from: content/en/ac/I/02_s2_flat_modules.md
 translation_method: google
 source_content_sha256: 28d69ca6e99e7466a70edf5b1c736029d397199a01db0537698a81ada5d7fea8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4e1e138175d9682a555f6a3ecc5127debf7f742037a4d977aa5bf493f6d04a47
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. フラット加群(*)
@@ -179,7 +179,7 @@ $$
 
 $(M_i)_{i \in I}$ を左側の $A$ モジュール、$M = \bigoplus_{i \in I} M_i$ とその直和、および $E$ を右側の $A$ モジュールのファミリーとします。すべての $i \in I$ について、$E$ が $M_i$ に対してフラットである場合、$E$ は $M$ に対してフラットです。
 
-(a) まず、$I = \{1, 2\}$ を仮定し、$M'$ を $M = M_1 \oplus M_2$、$M$、$M$ の部分加群とし、$M$ の部分加群と正規に識別します。 Denote by $M'_1$ the intersection $M' \cap M_1$, and by $M'_2$ the image of $M'$ in $M_2$ under the canonical projection $p$ of $M$ onto $M_2$. 図式があります
+(a) まず、$I = \{1, 2\}$ を仮定し、$M'$ を $M = M_1 \oplus M_2$、$M$、$M$ の部分加群とし、$M$ の部分加群と正規に識別します。 $M'_1$ は交点 $M' \cap M_1$ を表し、$M'_2$ は $M$ の $M_2$ への正投影 $p$ の下での $M_2$ の $M'$ の画像を表します。 図式があります
 
 $$
 \begin{array}{ccccccccc}
@@ -201,7 +201,7 @@ $$
 
 no. 1 の補題 1 までに、この図式の 2 行は正確です。 E は $M_1$ と $M_n$ に対してフラットなので、$T(v_1)$ と $T(v_2)$ は単射です。さらに、no. 1の補題2により、$T(i)$は単射法になります。 § 1, no. 4 の系 2 から命題 2 は、$T(v)$ が単射的であり、その結果 E が M-フラットであることを示します。
 
-(b) If I is a finite set with n elements, the lemma follows by induction on n using (a).
+(b) I が n 個の要素を持つ有限集合である場合、補題は (a) を使用した n に関する帰納法によって続きます。
 
 (c) 一般の場合、$M'$ を M の有限生成された部分加群とします。そのとき、$M'$ が直和 $M_J = \bigoplus_{i \in J} M_i$ に含まれるようなインデックス集合 I の有限部分集合 J が存在します。 (b) E は $M_J$ に対してフラットです。従って、標準準同型 $E \otimes_A M' \to E \otimes_A M$ は単射法です。一方、$M_J$ は M の直因子であるため、標準準同型 $E \otimes_A M_J \to E \otimes_A M$ は単射法 (no. 1, 補題 2) です。 合成を取ると、$E \otimes_A M, \to E \otimes_A M$ は単射法であり、E は補題 3 によって M に対してフラットであることがわかります。
 
@@ -315,23 +315,23 @@ $$
 
 (1) 環 $A$、$A$ は、明らかにフラット $A$ モジュール (代数、章 II, § 3, no. 4、命題 4) です。次に、命題 2、no. 3 の (i) から、すべての自由権 $A$ モジュール、より一般的にはすべての射影権 $A$ モジュール (代数、章 11、§ 2, no. 2) はフラットであることがわかります。 $A$-モジュール。
 
-(2) $A$ が半単純環 (代数, 章 VIII, § 5, no. 1, 定義 1) の場合、右すべての $A$ モジュール $E$ は半単純であるため、単純加群の直和になります。これらの後者のそれぞれは、$A$ の直因子と同型であるため (同上、§ 5, no. 1、命題 6)、$E$ は射影であるため、(1) (cf. 練習問題 16) によって平坦になります。
+(2) $A$ が半単純環 (代数, 章 VIII, § 5, no. 1, 定義 1) の場合、右すべての $A$ モジュール $E$ は半単純であるため、単純加群の直和になります。これらの後者のそれぞれは、$A$ の直因子と同型であるため (同上、§ 5, no. 1、命題 6)、$E$ は射影であるため、(1) によって平坦になります (cf. 練習問題 16)。
 
-*(3) In Chapters II and III we shall study in detail two important examples of flat $A$-modules: rings of fractions $S^{-1}A$ and Hausdorff completions $\hat{A}$ of $A$ for $S$-adic topologies.*
+*(3) 章 II と III では、フラット $A$ モジュールの 2 つの重要な例 : 分数 $S^{-1}A$ の環と、$A$ のハウスドルフ完成 $\hat{A}$ を詳細に学習します。 $S$-進数トポロジ。*
 
 #### 命題 3 {#ac-i-s2-prop-3 .statement tag=042P}
 
-$A$ を環 、$E$ を右側の $A$ モジュールとします。
+$A$ を環とし、$E$ を右側の $A$ モジュールとします。
 
-(i) $E$ がフラットであると仮定します。 $0(*)$ の権利因子ではないすべての元 $a \in A$ について、関係 $x \in E,\ xa = 0$ は $x = 0$ を暗示します。
+(i) $E$ がフラットだとします。 $0(*)$ の権利因子ではないすべての元 $a \in A$ について、関係 $x \in E,\ xa = 0$ は $x = 0$ を暗示します。
 
-(*) 環 $A$ の 0 の右 (それぞれ左) 因子は元 $b \in A$ であるため、写像 $x \mapsto xb$ (それぞれ $x \mapsto bx$) は単射的ではないことを思い出してください。
+(*) 環 $A$ の 0 の右 (または左) 因子は元 $b \in A$ であるため、 写像 $x \mapsto xb$ (または $x \mapsto bx$) は単射ではないことを思い出してください。
 
-(ii) $A$ が整域で、有限に生成されたすべてのイデアルが主であるとします (たとえば、主イデアル整域 (代数, 章 VII, , no. 1))。次に、$E$ が平らであるためには、$E$ にねじれがないことが必要かつ十分です。
+(ii) $A$ が整域で、有限に生成されたすべてのイデアルが主であるとします (たとえば、主イデアル整域 (代数, 章 VII, , no. 1))。次に、$E$ が平坦であるためには、$E$ にねじれがないことが必要かつ十分です。
 
-(i) を証明します。 $v : A, \to A$ を左側の $A$ モジュール準同型 $t \mapsto ta$ とします。 仮定は、$v$ が単射であることを意味します。 $E$ が平坦であるため、準同型 $1_E \otimes v : E \otimes_A A, \to E \otimes_A A$ も単射です。 $E \otimes_A A$ が正規的に $E$ と同一視されると、$1, \otimes v$ は $E$ の自己準同型 $x \mapsto xa$ になります。したがって、関係 $xa = 0$ は $x = 0$ を意味します。
+(i) を証明します。 $v : A, \to A$ を左側の $A$ モジュール準同型 $t \mapsto ta$ とします。 仮定は、$v$ が単射であることを意味します。 $E$ がフラットであるため、準同型 $1_E \otimes v : E \otimes_A A, \to E \otimes_A A$ も単射です。 $E \otimes_A A$ が正規的に $E$ と同一視されると、$1, \otimes v$ は $E$ の自己準同型 $x \mapsto xa$ になります。したがって、関係 $xa = 0$ は $x = 0$ を意味します。
 
-(ii)を証明します。 (i) により、$E$ が平坦であれば、$E$ はねじれがありません。 逆に、$E$ をねじりのない $A$ モジュールとしましょう。 $A$ の有限生成された理想 $a$ ごとに、標準準同型 $E \otimes_A a \to E$ が単射 (no. 3, 注意 1) であることを検証します。 This assertion is obvious if $a = (0)$; otherwise, by hypothesis $a = Aa$ for some $a \in A, a \neq 0$, and $t \mapsto ta$ is then an isomorphism $v$ of $A$ onto $a$; using $i$ to denote the canonical injection $a \to A$, $i \circ v$ is the homothety with ratio $a$ on $E$ and is injective since $E$ is assumed to be torsion-free. 次に、$1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$; $1_E \otimes v$ は同型であるため、$1, \otimes i$ は単射法であり、証明が完成します。
+(ii)を証明します。 (i) により、$E$ が平坦であれば、$E$ はねじれがありません。 逆に、$E$ をねじりのない $A$ モジュールとしましょう。 $A$ の有限生成された理想 $a$ ごとに、標準準同型 $E \otimes_A a \to E$ が単射 (no. 3, 注意 1) であることを検証します。 This assertion is obvious if $a = (0)$;それ以外の場合、ある $a \in A, a \neq 0$ に対する仮説 $a = Aa$ により、$t \mapsto ta$ は $A$ の $a$ への同型写像 $v$ になります。 $i$ を正規射出 $a \to A$ を表すために使用すると、$i \circ v$ は $E$ 上の比 $a$ と相似であり、$E$ にはねじれがないと仮定されているため射射的です。 次に、$1, \otimes (i \circ v) = (1, \otimes i) \circ (1_E \otimes v)$; $1_E \otimes v$ は同型であるため、$1, \otimes i$ は単射法であり、証明が完成します。
 
 #### 例 {#ac-i-s2-n4-exa-1 .statement tag=042Q}
 
@@ -422,7 +422,7 @@ $$(l_E \otimes u) \circ (v \otimes 1_{F'}) = (v \otimes 1_F) \circ (l_{E'} \otim
 
 #### 補題 7 {#ac-i-s2-lem-7 .statement tag=042T}
 
-E を右A-加群、F 左A-加群、および F'、F'' を F の 2 部分加群とし、F = F' + F'' とします。 このとき、E \otimes F の E \otimes F' と E \otimes F'' の標準像の共通部分は、E \otimes (F' \cap F'') の標準像に等しくなります。
+E を右A-加群、F 左A-加群、および F'、F'' を F の 2 部分加群とし、F = F' + F'' とします。すると、E \otimes F の E \otimes F' と E \otimes F'' の標準像の共通部分は、E \otimes (F' \cap F'') の標準像に等しくなります。
 
 図式を検討してください
 
@@ -538,35 +538,35 @@ $F$ は $(C, C)$ バイモジュールであり、$B = A = C$ を使用すると
 
 ※$\rho$を環$A$～環$B$の準同型とします。 $E$ が平坦な右 $A$ モジュールの場合、スカラーの環を $B$ (*代数*, 章 II, § 5, no. 1) に拡張することによって得られる右 $B$ モジュール $\rho^*(E) = E_{(B)}$ は平坦です。
 
-定義 $E_{(B)} = E \otimes_A B$ により、$B$ は $\rho$ によって $(A,B)$ バイモジュールとみなされます。右側の$B$モジュール$B_d$は平坦なので命題を適用する8で十分です。
+定義 $E_{(B)} = E \otimes_A B$ により、$B$ は $\rho$ によって $(A,B)$ バイモジュールとみなされます。右側の$B$モジュール$B_d$は平らなので、命題を適用する8で十分です。
 
 #### 系 3 {#ac-i-s2-prop-8-cor-3 .statement tag=0432}
 
 *$R, S$ を 2 つの環と $\phi : R \to S$ 環準同型とします。 $M$ が右フラット $S$ モジュール、$\phi_*(S_d)$ が右フラット $R$ モジュールの場合、$\phi_*(M)$ は右フラット $R$ モジュールです。*
 
-$\phi_*(M)$ は、すべての $x \in M$ とすべての $r \in R$ (*代数*、章 II, § 1, no. 13) に対して、$x.r = x.\phi(r)$ によって定義された正しい $R$ モジュールであることを思い出してください。次に、命題を適用する 8 と $A = S, B = R, E = M$ および $F = S, S$ は、$\phi$ で定義された $(S, R)$-bimodule の構造を持ちます。したがって、右側の $R$ モジュール $M \otimes_S S$ は正確に $\phi_*(M)$ になります。
+$\phi_*(M)$ は、すべての $x \in M$ とすべての $r \in R$ (*代数*、章 II, § 1, no. 13) に対して、$x.r = x.\phi(r)$ によって定義された正しい $R$ モジュールであることを思い出してください。次に、命題を適用する 8 と $A = S, B = R, E = M$ および $F = S, S$ は、$\phi$ によって定義された $(S, R)$ バイモジュールの構造を持ちます。したがって、右側の $R$ モジュール $M \otimes_S S$ は正確に $\phi_*(M)$ になります。
 
 #### 命題 9 {#ac-i-s2-prop-9 .statement tag=0433}
 
-*$(A_\alpha, f_{\beta\alpha})$ を環の直接系、$A = \lim A_\alpha$ をその直接の極限、$(E_\alpha, f_{\beta\alpha})$ 直接系を同じインデックス集合を持つ右側の $A_\alpha$ モジュールの直接系、$E = \lim E_\alpha$ をその直接の極限とします。これは右側の $A$ モジュール (代数、章 II, § 6, no. 2) です。それぞれの $\alpha$ と $E_\alpha$ がフラット \& モジュールである場合、 $E$ はフラット $A$ モジュールです。*
+*$(A_\alpha, f_{\beta\alpha})$ を環の直接系、$A = \lim A_\alpha$ をその直接の極限、$(E_\alpha, f_{\beta\alpha})$ 直接系を同じインデックス集合および $E = \lim E_\alpha$ を持つ右側の $A_\alpha$ モジュールの直接系とします。 極限、これは右側の $A$ モジュール (代数、章 II, § 6, no. 2) です。それぞれの $\alpha$ と $E_\alpha$ がフラット \& モジュールである場合、$E$ はフラット $A$ モジュールです。*
 
-$E'_\alpha = E_\alpha \otimes_{A_\alpha} A$ とします。ここで、$A$ は、標準準同型 $A_\alpha \to A$ によって左の $A_\alpha$ モジュールと見なされます。右の $A$ 加群 $E$ が $\lim E'_\alpha$ (*上記引用*、系 2 から命題 7) と正準的に同型であることがわかっています。 系 2 から命題 8 に従うと、$E'_\alpha$ はすべての $\alpha$ に対して平坦な右 $A$ 加群であるため、$E$ は no. 3 の命題 2 による平坦な $A$ 加群になります。
+$E'_\alpha = E_\alpha \otimes_{A_\alpha} A$ とします。ここで、$A$ は、標準準同型 $A_\alpha \to A$ によって左の $A_\alpha$ モジュールと見なされます。右の $A$ モジュール $E$ が $\lim E'_\alpha$ (*loc. cit.*、系 2 から命題 7) と正準的に同型であることがわかっています。 系 2 から命題 8 に従うと、$E'_\alpha$ はすべての $\alpha$ に対してフラットな右 $A$ モジュールであるため、$E$ は no. 3 の命題 2 によるフラットな $A$ モジュールです。
 
-### 8. 最終的に提示されました加群
+### 8. 限定的に提示加群
 
 $A$を環とします。 完全系列
 $$
 L_1 \to L_0 \to E \to 0
 $$
-左 (右) $A$ モジュール ($L_0$ と $L_1$ は空いている) は、左 (右) $A$ モジュール $E$ の *プレゼンテーション* (または長さ* 1 の *プレゼンテーション) と呼ばれます。
+左 (右) $A$ モジュール ($L_0$ と $L_1$ は空いている) は、左 (右) $A$ モジュール $E$ の *プレゼンテーション* (または *長さ* 1 のプレゼンテーション) と呼ばれます。
 
 すべての $A$ モジュール $E$ はプレゼンテーションを許可します。実際、私たちは (*代数*、章 II, § 1, no. 11、命題 20) 全射準同型 $u : L_0 \to E$ が存在することを知っています。ここで、$L_0$ は無料です。 $R$ が $u$ の核である場合、同様に全射準同型 $v : L_1 \to R$ が存在し、$L_1$ は空いています。 $v$ を $L_1$ から $L_0$ の準同型とみなした場合、数列 $L_1 \xrightarrow{v} L_0 \xrightarrow{u} 0$ は、定義、よっての主張と正確です。
 
-If $\rho : A \to B$ is a ring homomorphism, every presentation (6) of $E$ induces a presentation of $E_{(B)} = E \otimes_A B$:
+$\rho : A \to B$ が環準同型の場合、$E$ 誘導するの各プレゼンテーション (6) と $E_{(B)} = E \otimes_A B$ のプレゼンテーション:
 $$
 L_1 \otimes_A B \to L_0 \otimes_A B \to E \otimes_A B \to 0
 $$
-by Lemma 1 of no. 1 and the fact that $L \otimes_A B$ is a free $B$-module if $L$ is free.
+補題 1/no. 1 と、$L$ が無料の場合、$L \otimes_A B$ は無料の $B$ モジュールであるという事実による。
 
 自由加群 $L_0$ と $L_1$ が有限基底を持つ場合、加群 $E$ の表現 (6) は *有限* と呼ばれます。明らかに、プレゼンテーション (6) が有限であれば、プレゼンテーション (7) も有限です。 $E$ は、有限の提示を許可する場合、*有限提示 $A$-モジュール* と呼ばれます。
 
@@ -696,7 +696,7 @@ $$
 
 すべての $x_1 \in E_1, x_2 \in E$、(代数、章 IX, § 1, no. 4、命題 1)。
 
-In the statement which follows we shall suppose that B is a flat A-module and, for every submodule E' of $E_i$ ($i = 1, 2, 3$), we shall canonically identify $E'_{(B)}$ with its image in $E_{i(B)}$ (no. 3, Remark 2).
+以下のステートメントでは、B がフラット A モジュールであると仮定し、$E_i$ ($i = 1, 2, 3$) のすべてのサブモジュール E' について、$E_{i(B)}$ (no. 3、注釈 2) のイメージで $E'_{(B)}$ を正規に識別します。
 
 #### 命題 12 {#ac-i-s2-prop-12 .statement tag=0438}
 
@@ -829,7 +829,7 @@ $$
 
 右側の $A$ モジュール $E$ が平坦であるためには、次の条件が成立することが必要かつ十分です。
 
-(RP) *If* $(e_i)_{i \in I}$ and $(b_i)_{i \in I}$ are two finite families of elements of $E$ and $A$ respectively such that $\sum e_i b_i = 0$, there exists a finite set $J$, a family $(x_j)_{j \in J}$ of elements of $E$ and a family $(a_{ji})$ ($j \in J, i \in I$) of elements of $A$ such that $\sum a_{ji} b_i = 0$ for all $j \in J$ and $e_i = \sum_{j \in J} x_j a_{ji}$ for all $i \in I$.
+(RP) *もし* $(e_i)_{i \in I}$ と $(b_i)_{i \in I}$ がそれぞれ $E$ と $A$ の要素の 2 つの有限族であり、 $\sum e_i b_i = 0$ である場合、有限集合 $J$、$E$ の要素の族 $(x_j)_{j \in J}$ および族 $(a_{ji})$ が存在します。 $A$ の要素の ($j \in J, i \in I$)、つまりすべての $j \in J$ に対して $\sum a_{ji} b_i = 0$ が、すべての $i \in I$ に対して $e_i = \sum_{j \in J} x_j a_{ji}$ になります。
 
 条件 (RP) は、命題 13 の条件 (R) を加群 $F = A_s$ に適用したものです。
 

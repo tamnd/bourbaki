@@ -25,16 +25,16 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 610296074691acf5ed1a5e44d0a38a3175265d3d939c94703adf9ab735a152b0
+content_sha256: 73a84bae5c9abdb05eec2228074cbe575abb8608b952fa4f782912283971b49b
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 translation_method: google
 source_content_sha256: 34250eb8b3431aeea58b08571a7b95394319981a39c9d593e7466689b9edb3b6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2a89d20cd5a24d4438a7297cfa91e9cb1975f6958183e8a278d023bba3ecba85
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。極値点および極値生成元
@@ -104,7 +104,7 @@ $$
 
 #### 定理 1 (クライン・ミルマン) {#evt-ii-s7-thm-1 .statement tag=07IV}
 
-— *In a Hausdorff locally convex space E, every compact convex set A is the closed convex envelope of the set of its extremal points.*
+— *ハウスドルフの局所凸空間 E では、すべてのコンパクトな凸集合 A は、その極点の集合の閉じた凸包絡線です。
 
 なぜなら、C を A の極値点の集合の閉じた凸包絡線とします。明らかに$C \subset A$。 $A \subset C$ を確認するには、$u$ が E で連続のアフィン線形写像である場合、および C で $u(x) \geq 0$ である場合、A (II, p. 39, cor. 4) でも $u(x) \geq 0$ であることを証明すれば十分です。しかし、これはプロップから続きます。 1 は $-u$ に適用されます。
 
@@ -160,7 +160,7 @@ C をベクトル空間 E の頂点 0 を持つ凸円錐とします。明らか
 
 C をベクトル空間 E の頂点 0 の凸円錐とします。 0 から始まる半線 D ⊂ C は、すべての開いたセグメントが含む 0 ではなく C に含まれ、出会い D が D に含まれる場合、C の極値生成元であると言います。
 
-It comes to the same thing to say that for all x ∈ D such that x ≠ 0, if y ≠ 0, y' ≠ 0 are two points of C such that x = y + y', then, it is necessarily the case that y ∈ D and y' ∈ D.
+x ≠ 0 であるすべての x ∈ D について、y ≠ 0、y' ≠ 0 が C の 2 点であり、x = y + y' である場合、必ず y ∈ D および y' ∈ D であると言えることは同じことになります。
 
 #### 注意 1 {#evt-ii-s7-n2-rem-1 .statement tag=07J3}
 
@@ -187,7 +187,7 @@ a) A を C の上限とします。 pをAのゲージ(II、p. 20)の制限から
 (ii) 任意の x ∈ C および λ ∈ R_+^* について、p(λx) = λp(x) が得られます。
 (iii) x ∈ C の場合、関係 p(x) = 0 は x = 0 と同等です。
 
-b) Conversely, let p be a function defined in C with values in [0, +∞], satisfying the conditions (i), (ii) of a). A を x ∈ C の集合とし、p(x) ≤ 1 とします。 すると、A と C − A は凸になります。 A がコンパクトで空でない場合に限り、A はキャップです。
+b) 逆に、p を、a) の条件 (i)、(ii) を満たす、[0, +∞] の値を持つ C で定義された関数とする。 A を x ∈ C の集合とし、p(x) ≤ 1 とします。 すると、A と C − A は凸になります。 A がコンパクトで空でない場合に限り、A はキャップです。
 
 主張 b) は明らかです。 a) に記載されているプロパティは、前のプロパティの注意の帰結です。 4と支柱の。 II、p. 20、小道具の 22 個。 II、p. 20 のうち 23 個 (ただし、以下を除く)
 

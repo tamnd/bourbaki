@@ -38,16 +38,16 @@ subsections:
       pdf_page: 239
 statements: 21
 exercises: 12
-content_sha256: 4ff2924187dbf2416ab5c2c4961c0b7bee128e1f8a78f757d3bc75b3298346d7
+content_sha256: 661c90dee025f9bb89a79c6cabe8264203cc246c24767579d1392c61d33d2a59
 translated_from: content/en/alg/V/15_s15_separable_extensions.md
 translation_method: google
 source_content_sha256: 29004e5cd09fd460bf5167f0e6481b43d3d6e1b88934fe63c99d9a4a216f82d7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 78a281ca2f8acafc27fb02319d1c9267c9e812bacb3e66beca42e0123f271c66
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 15。 分離拡大
@@ -62,7 +62,7 @@ $A[T]$ は形式的な冪系列環 $A[[T]]$ の部分環であり、$1 - xT$ は
 
 #### 命題 2 {#alg-v-s15-prop-2 .statement tag=06TO}
 
-— *A を可換環とします。 The set of nilpotent elements of A is an ideal of A equal to the intersection of the set of all prime ideals of A.*
+— *A を可換環とします。 A の冪零元の集合は、A のすべての素イデアルの集合の共通部分に等しい A のイデアルです。*
 
 x を A の冪零元とし、p を A の素イデアルとします。 $x \mod p$ の剰余類は整域 $A/p$ の冪零元であるため、零です。したがって、$x \in p$ になります。
 
@@ -76,7 +76,7 @@ x を A の非零元要素とします。提案 1 により、$A[T]$ の主イ�
 
 条件で十分であることは明らかです。
 
-$\mathbf{A}$ を減らしてみましょう。 提案 2 により、$\mathbf{A}$ の素イデアルの集合の共通部分 $n$ は 0 に減らされます。 For every prime ideal $\mathfrak{p}$ of $\mathbf{A}$, let $k(\mathfrak{p})$ be the field of fractions of $\mathbf{A}/\mathfrak{p}$ and $\varphi_n$ the canonical homomorphism of $\mathbf{A}$ into $k(\mathfrak{p})$. $\varphi$ を $\mathbf{A}$ の準同型から $\prod_{\mathfrak{p}} k(\mathfrak{p})$ にすると、添字 $\mathfrak{p}$ の成分は $\varphi_{\mathfrak{p}}$ になります。 The kernel of $\varphi_{\mathfrak{p}}$ is $\mathfrak{p}$, hence that of $\varphi$ is $n = 0$; therefore $\varphi$ is an isomorphism of $\mathbf{A}$ onto a subring of $\prod_{\mathfrak{p}} k(\mathfrak{p})$.
+$\mathbf{A}$ を減らしてみましょう。 提案 2 により、$\mathbf{A}$ の素イデアルの集合の共通部分 $n$ は 0 に減らされます。 $\mathbf{A}$ のすべての素イデアル $\mathfrak{p}$ について、$k(\mathfrak{p})$ を $\mathbf{A}/\mathfrak{p}$ と $\mathbf{A}$ から $k(\mathfrak{p})$ への正準準同型性の分数体である $\varphi_n$ とします。 $\varphi$ を $\mathbf{A}$ の準同型から $\prod_{\mathfrak{p}} k(\mathfrak{p})$ にすると、添字 $\mathfrak{p}$ の成分は $\varphi_{\mathfrak{p}}$ になります。 $\varphi_{\mathfrak{p}}$ の核は $\mathfrak{p}$ であるため、$\varphi$ のそれは $n = 0$ です。したがって、$\varphi$ は、$\mathbf{A}$ の同型から $\prod_{\mathfrak{p}} k(\mathfrak{p})$ の部分環になります。
 
 ### 2. 分離可能代数
 
@@ -92,7 +92,7 @@ $\mathbf{A}$ を減らしてみましょう。 提案 2 により、$\mathbf{A}$
 
 2) $\mathbf{A}$ を体 $K$ 上の有限次数の可換代数とします。 $\mathbf{A}$ が分離可能であるためには、それが etale (*V*, p. 34, Th. 4) であることが必要かつ十分です。
 
-3) $E$ を体 $K$ の代数拡大とします。 If $L$ is an extension of $K$, then the ring $L \otimes_K E$ is a union of the subrings $L \otimes_K F$ where $F$ ranges over the set of all subextensions of finite degree of $E$; therefore the ring $L \otimes_K E$ is reduced if and only if this is true of $L \otimes_K F$ for every subextension $F$ of $E$, of finite degree over $K$. 例 2 を考慮すると、上記の定義の意味で、$E$ は分離可能な代数であることがわかります。 1 は、定義の意味で可分代数拡大である場合に限ります。 *V*、p. 36 の 1 つ。
+3) $E$ を体 $K$ の代数拡大とします。 $L$ が $K$ の拡張である場合、リング $L \otimes_K E$ は部分リング $L \otimes_K F$ の和集合であり、ここで $F$ は $E$ の有限次数のすべての部分拡張のセットに及びます。したがって、リング $L \otimes_K E$ は、$K$ を超える有限次数の $E$ のすべてのサブエクステンション $F$ について、これが $L \otimes_K F$ に当てはまる場合にのみ縮小されます。 例 2 を考慮すると、上記の定義の意味で、$E$ は分離可能な代数であることがわかります。 1 は、定義の意味で可分代数拡大である場合に限ります。 *V*、p. 36 の 1 つ。
 
 #### 命題 3 {#alg-v-s15-prop-3 .statement tag=06TR}
 
@@ -106,7 +106,7 @@ c) *分離可能な $K$-代数のすべての積は分離可能です*。
 
 d) *$\mathbf{A}$ を $K$-代数、$K'$ 拡大を $K$ とします。 $\mathbf{A}$ が分離可能であるためには、$\mathbf{A}$ からスカラーの拡大によって得られる $K'$-代数 $\mathbf{A}_{(K')}$ が分離可能であることが必要かつ十分です*。
 
-$L$ を $K$ の拡大とします。 $\mathbf{A}$ を、$\mathbf{A}$ の $K$ と $B$ 部分代数上の分離可能な代数とします。次に、環 $L \otimes_K \mathbf{A}$ は還元され、$L \otimes_K B$ は $L \otimes_K \mathbf{A}$ の部分環と同型であるため、還元されます。 したがって、$B$ は分離可能であり、*a)* が証明されます。 *同様に*、$L \otimes_K \varprojlim A_i$の標準同型を$\varprojlim L \otimes_K A_i$(II, p. 290, 提案7)および$c$)を使用して$b$)を証明することは、$L \otimes_K \left( \prod_{i \in I} A_i \right)$が以下の部分環と同型であることを指摘することによって証明されます。 $\prod_{i \in I} (L \otimes_K A_i)$ (II、p. 306、提案 15)。
+$L$ を $K$ の拡大とします。 $\mathbf{A}$ を、$\mathbf{A}$ の $K$ と $B$ 部分代数上の分離可能な代数とします。次に、環 $L \otimes_K \mathbf{A}$ は還元され、$L \otimes_K B$ は $L \otimes_K \mathbf{A}$ の部分環と同型であるため、還元されます。したがって、$B$ は分離可能であり、*a)* が証明されます。 *同様に* $b$) は、$L \otimes_K \varprojlim A_i$ の標準同型と $\varprojlim L \otimes_K A_i$ (II, p. 290, 提案 7) および $c$) を使用して証明できます。これは、$L \otimes_K \left( \prod_{i \in I} A_i \right)$ が以下と同型であることを指摘することで証明されます。 $\prod_{i \in I} (L \otimes_K A_i)$ の部分環 (II、p. 306、提案 15)。
 
 $d$ の記法を使用します)。 $K'$ 環 $L' \otimes_{K'} A_{(K')}$ と $L' \otimes_K A$ のすべての拡大 $L'$ については、同型です (II、p. 278、提案 2)。 $A$ が分離可能な $K$-代数である場合、$A_{(K')}$ は分離可能な $K'$-代数であると結論する考えます。逆に、 $A_{(K')}$ が分離可能な $K'$-代数 であると仮定します。前述の注意は、サブ拡張として $K$ 含む $K'$ の拡大 $L'$ ごとに $L' \otimes_K A$ が削減されることを示しています。 $L$ を $K$ の拡大とします。 Scholium (V, p. 13) によると、部分拡張として $K$ 含む $K'$ の拡大 $L'$ と、$L$ から $L'$ への $K$ 準同型性が存在します。したがって、環 $L \otimes_K A$ は、$L' \otimes_K A$ の部分環と同型であるため、縮小されます。これは、$A$ が可分な $K$-代数であることを証明します。
 
@@ -156,7 +156,7 @@ Kを体とします。 K の任意の拡大は K-代数なので、Def で導入
 
 L を K の拡大とします。 L の代数閉拡大 Ω が存在します。その K に対する超越性次数は、K に対する E の超越性と少なくとも等しいです。 1 (V, p. 117) E から R への K 準同型性 u が存在します。 A = Ω ⊗_K E から Ω への写像 λ ⊗ x から λ へのΩ代数準同型性を v で表します。 λ ∈ Ω および x ∈ Ω の場合は u(x)。 v の核に a を書きます。
 
-For every s ∈ G let h_s be the automorphism Id, ⊗ s of the 0-algebra A; the kernel of the homomorphism v ∘ h_s of A into Ω is the prime ideal a_s = h_s^{-1}(a) of A. A の理想的な b = ⋂_{s ∈ G} a_s が自己同型 h_s の下で安定していることは明らかです。 したがって、(V, p. 63, Cor.) 理想 b は形 c ⊗_K E になります。ここで、c は Ω の理想です。 b ⊂ a ≠ A なので、 c ≠ Ω; Ω が体であるため、c = 0 となり、b = 0 となります。
+すべての s ∈ G について、h_s を 0-代数 A の自己同型 Id, ⊗ s とします。 A の Ω への準同型写像 v ∘ h_s のカーネルは、A の素イデアル a_s = h_s^{-1}(a) です。 A の理想的な b = ⋂_{s ∈ G} a_s が自己同型 h_s の下で安定していることは明らかです。 したがって、(V, p. 63, Cor.) 理想 b は形 c ⊗_K E になります。ここで、c は Ω の理想です。 b ⊂ a ≠ A なので、 c ≠ Ω; Ω が体であるため、c = 0 となり、b = 0 となります。
 
 したがって、A の素イデアルの族 (a_s)、_s ∈ G は零共通部分を持ちます。提案 2 (V, p. 118) により、環は約定され、なおさら同じことが A の部分環 L ⊗_K E にも当てはまります。L は K の任意の拡大であるため、これは E が K 上で分離可能であることを証明します。
 
@@ -221,7 +221,7 @@ a) $L$ *$K$ 上で分離可能です。
 
 b) $L$ *$K^{p^{-\infty}}$ *$K$ から直線的に互いに素です。
 
-c) $L$ *is linearly disjoint over* $K$ *from every* $p$*-radical extension of* $K$ *contained in* $\Omega$, *of finite degree and height* $\leqslant 1$.
+c) $L$ *$K$ *すべて* $p$*の根元拡張* $K$ *に含まれる* $\Omega$、*有限次数と高さ* $\leqslant 1$ に対して線形に素です。
 
 $K$ が標数 0 である場合は、慣例により $L$ が $K$ (Th. 1) と $K^{p^{-\infty}} = K$ で分離可能であるため、自明です。 $p \neq 1$ と仮定して、まず a) が b) を意味することを示しましょう。 $L$ が $K$ 上で分離可能であると仮定し、$(a_i)_{i \in I}$ を $K$ 上の $L$ の基底とします。 $(\lambda_i)_{i \in I}$ を、$\sum_{i \in I} \lambda_i a_i = 0$ となるような $K^{p^{-\infty}}$ の元の有限台の族とする。 λ_i = μ_i^{p^{-f}} となるような K の整数 $f \geqslant 0$ と元 μ_i が存在します。我々は持っています
 
@@ -283,7 +283,7 @@ $d) \Rightarrow c)$: $a_1, \ldots, a_n$ を K 上で線形独立な L の元と�
 
 c) $\Rightarrow$ b): c) が成立し、x が $\Omega \otimes_K L$ であると仮定します。 形 $\sum_{j=1}^n x_j \otimes a_j$ に x を書き、$\Omega$ の $x_1, \ldots, x_n$ と L の元 $a_1, \ldots, a_n$ は K 上で線形独立です。 選ぶ K 自己同型 $\sigma_1, \ldots, \sigma_n$ の $\Omega$ は次のようになります。 $\det \sigma_i(a_j) \neq 0$; $\chi_1, \ldots, \chi_n$ を、$a \in \Omega$ と $b \in L$ に対して $\chi_i(a \otimes b) = a \cdot \sigma_i(b)$ となるような、$\Omega \otimes_K L$ の $\Omega$ への R 準同型写像とします。 $1 \leq i \leq n$ に対して $\chi_i(x) = 0$、他の語に対して、$1 \leq i \leq n$ に対して $\sum_{j=1}^n x_j \cdot \sigma_i(a_j) = 0$ があるとします。 行列 $(\sigma_i(a_j))$ にはゼロ以外の行列式があると仮定しているため、$1 \leq i \leq n$ には $x_i = 0$ があり、したがって $x = 0$ になります。
 
-b) $\Rightarrow$ a): 特性 0 の体のすべての拡大は分離可能 (V、p. 122、Th. 1) であるため、K が特性 $p \neq 0$ である場合を調べるだけで十分です。 Let X be the set of all R-algebra homomorphisms of $\Omega \otimes_K L$ into $\Omega$ and f the homomorphism of $\Omega \otimes_K L$ into $\Omega^X$ defined by $f(u) = (\chi(u))_{\chi \in X}$ for $u \in \Omega \otimes_K L$. 条件 b) は f が単射であることを意味し、したがって環 $\Omega \otimes_K L$ が約定されることを意味します。 したがって、Th の条件 b) となります。 2 (V, p. 122) は $K' = \Omega$ で満たされるため、L は K 上で分離可能です。
+b) $\Rightarrow$ a): 特性 0 の体のすべての拡大は分離可能 (V、p. 122、Th. 1) であるため、K が特性 $p \neq 0$ である場合を調べるだけで十分です。 X を $\Omega \otimes_K L$ から $\Omega$ へのすべての R 代数準同型写像の集合とし、 f​​ を $u \in \Omega \otimes_K L$ の $f(u) = (\chi(u))_{\chi \in X}$ によって定義される $\Omega \otimes_K L$ から $\Omega^X$ への準同型写像とする。 条件 b) は f が単射であることを意味し、したがって環 $\Omega \otimes_K L$ が約定されることを意味します。 したがって、Th の条件 b) となります。 2 (V, p. 122) は $K' = \Omega$ で満たされるため、L は K 上で分離可能です。
 
 a) $\Rightarrow$ d): L が K 上で分離可能であるとします。V を、L の有限次元のベクトルサブ K 空間、$V_{(\Omega)} = \Omega \otimes_K V$ ベクトル V から導出された $\Omega$ 空間とします。スカラーの拡大と $V_{(\Omega)}$ の $f_0$ 線型形式により、$x \in \Omega, y \in V$ に対して $f_0(x \otimes y) = xy$ が得られます。 $\Omega$ の K 自己同型の G 群で表します。 $\sigma \in G$ には $\sigma_V = \sigma \otimes \mathrm{Id}_V$ と $g_\sigma = \sigma \circ f_0 \circ \sigma_V^{-1}$ を入れます。
 

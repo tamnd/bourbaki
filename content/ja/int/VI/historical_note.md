@@ -12,16 +12,16 @@ pdf_pages: 0463-0465
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d6323b79c771d4d68be834dca98aebda332fa298e51cc82d6a9bddb682623e08
+content_sha256: 750d48a536a013a035ff51bd21ffd11e9f4168ae2ce0664c16d6f4f0e3f61d75
 translated_from: content/en/int/VI/historical_note.md
 translation_method: google
 source_content_sha256: ddd2484b153907abc4b504e7847024232e7bbd05fcbac91aba31ada63b157656
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ff0d8fe6143fcade689ee1440b0fdf58f8bedb74c3973fc110a2176db2d0cb84
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 # 歴史注意
@@ -30,7 +30,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 19 世紀に「ベクトル計算」が開発されたため、ベクトル値の写像を積分する必要があるのが現在の慣例でしたが、それが有限次元空間での値と写像だけの問題である限り、この演算は問題を提起しませんでした。 問題。 It is only with Hilbert's spectral theory that one meets operations that lead naturally to a more general concept of integral: this theory in effect leads to associating, with every continuous Hermitian form $\Phi(x, y)$ on a Hilbert space $\mathbf{H}$, a family $(E(\lambda))_{\lambda \in \mathbf{R}}$ of orthogonal projectors having the property that, for every pair $(x, y)$ of vectors of $\mathbf{H}$, the function $\lambda \mapsto (E(\lambda)x|y)$ is of bounded variation and $\Phi(x, y) = \int \lambda d(E(\lambda)x|y)$; if one associates with $\Phi$ the Hermitian operator $A$ such that $\Phi(x, y) = (Ax|y)$, it was tempting to write the preceding formula as $A = \int \lambda dE(\lambda)$. しかし、バナッハ空間における写像と値の（「強力な」）積分の後で 1935 年頃から、人は次のような方法でベクトル値写像の積分 (またはベクトル測度に関する積分) を定義することに夢中になり始めました。先ほどのような公式を正当に書きます。 この拡大は、基本的にゲルファンド (III)、ダンフォード、ペティス (IV) および (V) によって達成されました。彼らの結果は、Banach 空間について記載されていますが、拡大するは、より一般的な局所凸型空間に対して問題なく適用されます。
 
-体積を「スライス」に分解し、その体積の積分を各スライスの積分に還元し、その後 1 回の積分を行うという考え方は、無限小計算の始まり以来、分析で使用されてきました (カヴァリエリの「不可分なものの計算」は、この原理の最初の概要にすぎず、アルキメデスにまで遡ることができます (ヒストを参照)。 注意 (本 IV)、Chs. I–III))。 But in the classical applications, the 'slices' were always of a very special and very regular nature (most often open subsets of analytic surfaces, depending analytically on a parameter); it could scarcely have been otherwise in the absence of a general theory of integration. The general problem of the disintegration of a measure was posed and solved by von Neumann in 1932, in connection with ergodic theory (I); at about the same time (and independently) Kolmogoroff, while laying down axiomatic foundations for the Theory of Probability, was led to define in a general way the concept of 'conditional probability' and to prove its existence, a problem essentially equivalent to that of disintegration of a measure (II).
+体積を「スライス」に分解し、その体積の積分を各スライスの積分に還元し、その後 1 回の積分を行うという考え方は、無限小計算の始まり以来、分析で使用されてきました (カヴァリエリの「不可分なものの計算」は、この原理の最初の概要にすぎず、アルキメデスにまで遡ることができます (ヒストを参照)。 注意 (本 IV)、Chs. I–III))。 しかし、古典的なアプリケーションでは、「スライス」は常に非常に特殊で非常に規則的な性質を持っていました (ほとんどの場合、解析的にパラメーターに依存する解析曲面の開いたサブセット)。統合の一般理論がなければ、それは不可能でした。 測度の崩壊という一般的な問題は、エルゴード理論 (I) に関連して、1932 年にフォン ノイマンによって提起され、解決されました。ほぼ同時に (そして独立して) コルモゴロフは、確率論の公理的基礎を築きながら、一般的な方法で「条件付き確率」の概念を定義し、尺度の崩壊の問題と本質的に同等であるその存在を証明するように導かれました (II)。
 
 (I) J. von NEUMANN、「Zur Operatorenmethod in der Klassischen Mechanik」、Ann。 of Math.、(2)、33 (1932)、587 ～ 642 ページ。
 

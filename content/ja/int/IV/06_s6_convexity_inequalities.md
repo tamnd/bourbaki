@@ -33,16 +33,16 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 8b7f38b5f3dd5ae902fc5cacb81ca06fadf1056f7ffb4f0a9799e479f53b7727
+content_sha256: fd677583d700c2e7bab37d1437dc06c2b1171c3ba3a633586128366b263ef065
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
 translation_method: google
 source_content_sha256: 5da8e094f0389b678ca69f52f247e8417940837f7695de9c80ebdf9dcbcce321
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b6d931767a0cc0363c041b3b5bc327c35c27ec3ab05478a75d450d155c4a573d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。凸不等式
@@ -143,7 +143,7 @@ $$
 
 *空間* $\mathscr{L}_F^\infty$ *完了です。 空間* $L_F^\infty$ * はバナッハ空間* です。
 
-というのは、$(f_n)$ を $\mathscr{L}_F^\infty$ の Cauchy 数列とします。 整数 $n$ ごとに、$r \geq k_n$ と $s \geq k_n$ に対して $N_\infty(f_r - f_s) \leq 1/n$ となるような整数 $k_n$ が存在します。したがって、すべての $x \notin A_{rs}$ に対して $|f_r(x) - f_s(x)| \leq 1/n$ となるような、局所的に無視できる集合 $A_{rs}$ が存在します。 $A_n$ が集合 $A_{rs}$ の和集合である場合 ($r \geq k_n$ と $s \geq k_n$ の場合)、$A_n$ は局所的に無視でき、すべての $x \notin A_n$ について、すべての添字 $r \geq k_n, s \geq k_n$ について$|f_r(x) - f_s(x)| \leq 1/n$ になります。 Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathscr{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. したがって、写像 $g$ は測定可能です (§ 5, No. 4、Th. 2)。さらに、$g$ は $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ の $x \in X$ の集合で境界があり、この集合の補数が局所的に無視できるため、$g$ 属するから $\mathscr{L}_F^\infty$ になります。 $\mathscr{L}_F^\infty$ では、数列 $(g_n)$ には極限 $g$ があることは明らかであり、したがって、すべての $n$ について $N_\infty(f_n - g_n) = 0$ であるため、数列 $(f_n)$ にも同じことが当てはまります。 命題の 2 番目の部分は、これからすぐに推測できます。
+というのは、$(f_n)$ を $\mathscr{L}_F^\infty$ の Cauchy 数列とします。 整数 $n$ ごとに、$r \geq k_n$ と $s \geq k_n$ に対して $N_\infty(f_r - f_s) \leq 1/n$ となるような整数 $k_n$ が存在します。したがって、すべての $x \notin A_{rs}$ に対して $|f_r(x) - f_s(x)| \leq 1/n$ となるような、局所的に無視できる集合 $A_{rs}$ が存在します。 $A_n$ が集合 $A_{rs}$ の和集合である場合 ($r \geq k_n$ と $s \geq k_n$ の場合)、$A_n$ は局所的に無視でき、すべての $x \notin A_n$ について、すべての添字 $r \geq k_n, s \geq k_n$ について$|f_r(x) - f_s(x)| \leq 1/n$ になります。 $A$ を $A_n$ の結合によって形成される局所的に無視できる集合とし、$x \notin A$ には $g_n(x) = f_n(x)$、$x \in A$ には $g_n(x) = 0$ を設定します。この場合、$g_n$ は $\mathscr{L}_F^\infty$ に属し、$A$ の定義により、数列 $(g_n)$ は $X$ 上で関数 $g$ に *一様に* 収束します。 したがって、写像 $g$ は測定可能です (§ 5, No. 4、Th. 2)。さらに、$g$ は $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ の $x \in X$ の集合で境界があり、この集合の補数が局所的に無視できるため、$g$ 属するから $\mathscr{L}_F^\infty$ になります。 $\mathscr{L}_F^\infty$ では、数列 $(g_n)$ には極限 $g$ があることは明らかであり、したがって、すべての $n$ について $N_\infty(f_n - g_n) = 0$ であるため、数列 $(f_n)$ にも同じことが当てはまります。 命題の 2 番目の部分は、これからすぐに推測できます。
 
 #### 注意 {#int-iv-s6-n3-rem-1 .statement tag=08XJ}
 
@@ -165,51 +165,51 @@ $\mu$ のサポートが $X$ に等しい場合、$X$ で有界連続写像 、$
 
 #### 定理 2 (ヘルダーの不等式) {#int-iv-s6-thm-2 .statement tag=08XK}
 
-— $f$ と $g$ を 2 つの数値写像とします。これらはほぼどこでも有限であり、$f$ はほぼどこでも $L^p$ の写像に、$g$ から $L^q$ の写像に等しくなります。次に、写像 $fg$ (ほぼどこでも定義されている) は可積分可能であり、
+— $f$ と $g$ を 2 つの数値写像とします。これらはほぼどこでも有限であり、$f$ はほぼどこでも $L^p$ の写像に、$g$ は $L^q$ の写像に等しくなります。次に、写像 $fg$ (ほぼどこでも定義されている) は可積分可能であり、
 
 $$
 N_1(fg) \leq N_p(f) N_q(g).
 $$
 
-$f_1$ (それぞれ $g_1$) が $L^p$ (それぞれ $L^q$) の写像であるとします。これにほぼどこでも $f$ (それぞれ $g$) が等しくなります。 $fg$ は、ほとんどどこでも写像 $f_1 g_1$ に等しく、これはどこでも定義され有限であり、測定可能であり、測定可能な 2 つの写像のうちの積 (§ 5, No. 3、コリント 1 章 5)。 $1 < p < +\infty$ の場合、上部積分に対するヘルダーの不等式 (Ch. I、No. 3、提案 4) は不等式 (4) を生成し、関係 $N_1(fg) < +\infty$ は $fg$ が積分可能であることを示します。 (§ 5, No. 6、木曜日5)。 $p = 1$, $q = +\infty$, 不等式 (4) と $fg$ が可積分であるという事実は、平均値の不等式の明らか帰結です (No. 2、提案 1)。したがって、すべての場合において定理が証明されます。
+$f_1$ (それぞれ $g_1$) が $L^p$ (それぞれ $L^q$) の写像であるとします。これに、$f$ (それぞれ $g$) はほぼどこでも等しいです。 $fg$ は、ほぼどこでも写像 $f_1 g_1$ と等しく、これはどこでも定義され有限であり、測定可能な 2 つの測定可能な写像のうち積です (§ 5, No. 3、コリント 1 章 5)。 $1 < p < +\infty$ の場合、上積分に対するヘルダーの不等式 (Ch. I、No. 3、提案 4) は不等式 (4) を生成し、関係 $N_1(fg) < +\infty$ は $fg$ が可積分であることを示します(§ 5, No. 6、木 5)。 $p = 1$, $q = +\infty$, 不等式 (4) と $fg$ が可積分であるという事実は、平均値の不等式の明らか帰結です (No. 2、提案 1)。したがって、定理はすべての場合に証明されます。
 
 #### 系 1 {#int-iv-s6-thm-2-cor-1 .statement tag=08XL}
 
-— $F, G, H$ を 3 つのバナハ空間とし、$(u, v) \mapsto \Phi(u, v)$ を $|\Phi(u, v)| \leq |u| \cdot |v|$ となるような $F \times G$ から $H$ への連続双線形写像とする。 $f \in \mathscr{L}_F^p$ と $g \in \mathscr{L}_G^q$ の場合、写像 $\Phi(f, g)$ は可積分であり、
+— $F, G, H$ を 3 つのバナッハ空間とし、$(u, v) \mapsto \Phi(u, v)$ を $|\Phi(u, v)| \leq |u| \cdot |v|$ となるような $F \times G$ から $H$ への連続双線形写像とする。 $f \in \mathscr{L}_F^p$ と $g \in \mathscr{L}_G^q$ の場合、写像 $\Phi(f, g)$ は可積分であり、
 
 $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-なぜなら、$\Phi(f, g)$ は測定可能であるからです (§ 5, No. 3、Th. 1 のコリント 5)。 $|\Phi(f, g)| \leq |f| \cdot |g|$ なので、Th から系が続きます。 2 と § 5, No. 6 の積分可能性基準、Th。 5.
+なぜなら、$\Phi(f, g)$ は測定可能であるからです (§ 5, No. 3、Th. 1 のコリント 5)。 $|\Phi(f, g)| \leq |f| \cdot |g|$ 以降、系は Th から続きます。 2 と § 5, No. 6 の積分可能性基準、Th. 5.
 
 Cor の 2 つの特殊なケース。 1 はアプリケーションにおいて重要です。
 
 #### 系 2 {#int-iv-s6-thm-2-cor-2 .statement tag=08XM}
 
-— $F$ を実際の (それぞれ複合体) Banach 空間、$F'$ をその強力な双対 (TVS、III, § 3, No. 1) とし、$(z, z') \mapsto \langle z, z' \rangle$ を $F \times F'$ の正規の双線形形式とします。 $f \in \mathscr{L}_F^p$ と $g \in \mathscr{L}_{F'}^q$ の場合、実数 (それぞれ複素数) 写像 $\langle f, g \rangle$ は可積分であり、
+— $F$ を実際の (それぞれ複合体) Banach 空間、$F'$ をその強力な双対 (TVS、III, § 3, No. 1) とし、$(z, z') \mapsto \langle z, z' \rangle$ を $F \times F'$ 上の正規の双線形形式とします。 $f \in \mathscr{L}_F^p$ と $g \in \mathscr{L}_{F'}^q$ の場合、実数 (それぞれ複素数) 写像 $\langle f, g \rangle$ は可積分であり、
 
 $$
 \left| \int \langle f, g \rangle\, d\mu \right| \leq \int |\langle f, g \rangle|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-$|\langle z, z' \rangle| \leq |z| \cdot |z'|$ のために。
+$|\langle z, z' \rangle| \leq |z| \cdot |z'|$ について。
 
-$F$ が実数または複素数のヒルベルト空間である場合、その双対 $F'$ (TVS、V, § 1, No. 7) で正規に識別できることがわかります。 空間 $L_F^2$ が完了したため、次の結果が得られます。
+$F$ が実数または複素数のヒルベルト空間である場合、その双対 $F'$ (TVS、V, § 1, No. 7) で正規に識別できることがわかります。 空間 $L_F^2$ が完了しているため、次の結果が得られます。
 
 #### 系 3 {#int-iv-s6-thm-2-cor-3 .statement tag=08XN}
 
-— $\mu$ を $X$ 、$F$ の実数 (それぞれ複素数) ヒルベルト空間に対する正の尺度とします。 空間 $L_F^2$ では、対称 (それぞれエルミート) 形
+— $\mu$ を、$X$、$F$ の実数 (それぞれ複素数) ヒルベルト空間に対する正の尺度とします。 空間 $L_F^2$ では、対称 (それぞれエルミート) 形
 
 $$
 (\widetilde{f}, \widetilde{g}) \mapsto \int \langle f, g \rangle\, d\mu
 $$
 
-定義するはヒルベルト空間構造で、ノルムは $\| \widetilde{f} \|_2$ に等しい。
+定義する a ヒルベルト空間構造、ノルムは $\| \widetilde{f} \|_2$ に等しい。
 
 #### 系 4 {#int-iv-s6-thm-2-cor-4 .statement tag=08XO}
 
-— $F$ をバナハ空間、$f$ 写像を$\mathscr{L}_F^p$、$g$ を写像所属 ～ $\mathscr{L}^q$ の数値とします。したがって、 写像 $fg$ は可積分であり、
+— $F$ を $\mathscr{L}_F^p$ のバナッハ空間、$f$ 写像、$g$ を数値写像所属から $\mathscr{L}^q$ とします。したがって、 写像 $fg$ は可積分であり、
 
 $$
 \left| \int fg\, d\mu \right| \leq \int |fg|\, d|\mu| \leq N_p(f) N_q(g).
@@ -322,7 +322,7 @@ $1 \leq q < +\infty$ の場合と $q = +\infty$ の場合を別々に検討し�
 
 #### 注意 {#int-iv-s6-n4-rem-1 .statement tag=08XR}
 
-— 1) $\mathscr{E}$ を $\mathscr{L}_{F'}^q$ の密な線形部分空間とします。そして、$g$が$\mathscr{L}_{F'}^q$の写像の集合$B$で$N_q(g) \leq 1$のように$\mathscr{E}$の共通部分を超えるとき、公式(9)が成り立ちます。 なぜなら、$\overset{\circ}{B}$が開いているので、$B$の内部$\overset{\circ}{B}$が$B$で密であり、$\overset{\circ}{B} \cap \mathscr{E}$が$\overset{\circ}{B}$で密であることを観察すれば十分だからです。 この注意は、特に$1 \leq q < +\infty$、つまり$1 < p \leq +\infty$のときのコンパクトサポート（$F'$の値）を伴う連続写像の集合$\mathscr{E} = \mathscr{K}(X; F')$に当てはまります。 しかしこの場合、$g$ が $p = 1$ であっても$B \cap \mathscr{K}(X; F')$ を超えるので、公式 (9) は真です。 なぜなら、上記のように、$f$ がステップ写像である場合に限定することができるからです。 $N_1(f) = 1$ の場合、$\varepsilon > 0$ ごとにステップ写像 $g \in \mathscr{L}_{F'}^\infty$ が存在し、すべての $x \in X$ と $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$ に対して $|g(x)| \leq 1$ となることが分かりました。 There exists a finite number of pairwise disjoint compact sets $K_i$ such that $g$ has a constant value $a'_i$ on each $K_i$ and such that, if $K$ is the union of the $K_i$, then $\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$. $U_i$ を、集合 $U_i$ がペアごとに互いに素となるような $K_i$ の近傍とし、$h_i$ を、$U_i$ に含まれ、サポートが 1 に等しい、$X$ から $[0, 1]$ への連続写像とする。 $K_i$。 設定 $h = \sum a'_i h_i$、$K$ には $h(x) = g(x)$、$X$ には $|h(x)| \leq 1$ があります。
+— 1) $\mathscr{E}$ を $\mathscr{L}_{F'}^q$ の密な線形部分空間とします。そして、$g$が$\mathscr{L}_{F'}^q$の写像の集合$B$で$N_q(g) \leq 1$のように$\mathscr{E}$の共通部分を超えるとき、公式(9)が成り立ちます。 なぜなら、$\overset{\circ}{B}$が開いているので、$B$の内部$\overset{\circ}{B}$が$B$で密であり、$\overset{\circ}{B} \cap \mathscr{E}$が$\overset{\circ}{B}$で密であることを観察すれば十分だからです。 この注意は、特に$1 \leq q < +\infty$、つまり$1 < p \leq +\infty$のときのコンパクトサポート（$F'$の値）を伴う連続写像の集合$\mathscr{E} = \mathscr{K}(X; F')$に当てはまります。 しかしこの場合、$g$ が $p = 1$ であっても$B \cap \mathscr{K}(X; F')$ を超えるので、公式 (9) は真です。 なぜなら、上記のように、$f$ がステップ写像である場合に限定することができるからです。 $N_1(f) = 1$ の場合、$\varepsilon > 0$ ごとにステップ写像 $g \in \mathscr{L}_{F'}^\infty$ が存在し、すべての $x \in X$ と $|\int \langle f, g \rangle d\mu| \geq 1 - \varepsilon$ に対して $|g(x)| \leq 1$ となることが分かりました。 $g$ が各 $K_i$ で定数値 $a'_i$ を持ち、$K$ が $K_i$ の和集合である場合、$\int |f| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon$ となるような、有限数のペアごとに素なコンパクト集合 $K_i$ が存在します。 $U_i$ を、集合 $U_i$ がペアごとに互いに素となるような $K_i$ の近傍とし、$h_i$ を、$U_i$ に含まれ、サポートが 1 に等しい、$X$ から $[0, 1]$ への連続写像とする。 $K_i$。 設定 $h = \sum a'_i h_i$、$K$ には $h(x) = g(x)$、$X$ には $|h(x)| \leq 1$ があります。
 
 $$
 \int |\langle f, h \rangle| \varphi_{\mathscr{C}_K} d\mu \leq \varepsilon

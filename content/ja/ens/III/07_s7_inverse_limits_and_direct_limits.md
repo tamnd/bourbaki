@@ -46,16 +46,16 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 3e1f9514f1ba14de2197fb1cf9ca0de1ce716b169260d390bebd49a3f4930e28
+content_sha256: eb31c31e3d763a7188ba150801655dbc55e11a31b7881ee8bba1194956d1e3d0
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
 translation_method: google
 source_content_sha256: 32f34a0e7e91e7e94cb6dacf6471b60fe7158e208c5d0e1bd2901e3f619ccda7
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 70a315fbaa758b544d0d6cfdbf633b1a4567abde8811c2cc1daae94c90224253
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 7. 逆極限および正極限
@@ -187,7 +187,7 @@ $$
 
 これは、$(w_\alpha)$ が写像の逆数系であることを示しています。さらに、$u=\underset{\leftarrow}{\lim}\,u_\alpha$と$v=\underset{\leftarrow}{\lim}\,v_\alpha$の場合、それぞれの$\alpha\in I$に対して$h_\alpha\circ(v\circ u)=(v_\alpha\circ g_\alpha)\circ u=(v_\alpha\circ u_\alpha)\circ f_\alpha$、したがって、極限の逆数の一意性により、$v\circ u=\underset{\leftarrow}{\lim}\,w_\alpha$が得られます。
 
-¶ $(E_\alpha,f_{\alpha\beta})$ を集合の逆数系とし、各 $\alpha\in I$ について $M_\alpha$ を $E_\alpha$ の部分集合とします。 If $f_{\alpha\beta}(M_\beta)\subset M_\alpha$ whenever $\alpha\leq\beta$, the $M_\alpha$ are said to form an *inverse system of subsets* of the $E_\alpha$. $g_{\alpha\beta}$を$M_\beta$の写像を$M_\alpha$（$\alpha\leq\beta$）にすると、そのグラフは$f_{\alpha\beta}$から$M_\beta$の制限と同じになります。 次に、$(M_\alpha,g_{\alpha\beta})$ が集合の逆系であることは明らかです。
+¶ $(E_\alpha,f_{\alpha\beta})$ を集合の逆数系とし、各 $\alpha\in I$ について $M_\alpha$ を $E_\alpha$ の部分集合とします。 $\alpha\leq\beta$ のときはいつでも $f_{\alpha\beta}(M_\beta)\subset M_\alpha$ であれば、$M_\alpha$ は $E_\alpha$ の部分集合* の * 逆数系である形と言われます。 $g_{\alpha\beta}$ を $M_\beta$ の写像から $M_\alpha$ ($\alpha\leq\beta$) にすると、そのグラフは $f_{\alpha\beta}$ から $M_\beta$ の制限のグラフと同じになります。次に、$(M_\alpha,g_{\alpha\beta})$ が集合の逆数系であることは明らかです。
 
 (8)
 
@@ -199,7 +199,7 @@ $$
 
 #### 命題 2 {#ens-iii-s7-prop-2 .statement tag=03RP}
 
-Let $(E_\alpha,f_{\alpha\beta})$ and $(E'_\alpha,f'_{\alpha\beta})$ be two *inverse systems of sets relative to* $I$, and let $u_\alpha$ be a mapping of $E_\alpha$ into $E'_\alpha$ for each $\alpha\in I$, such that the $u_\alpha$ form an *inverse system of mappings*. $u=\underset{\leftarrow}{\lim}\,u_\alpha$ にしましょう。 次に、各 $x'=(x'_\alpha)\in E'=\underset{\leftarrow}{\lim}\,E'_\alpha$、$\bar u_\alpha^{-1}(x'_\alpha)$ 形について、$E_\alpha$、$\bar u^{-1}(x')=\underset{\leftarrow}{\lim}\,\bar u_\alpha^{-1}(x'_\alpha)$ の部分集合* の * 逆数系です。
+$(E_\alpha,f_{\alpha\beta})$ と $(E'_\alpha,f'_{\alpha\beta})$ を $I$ に対する 2 つの *逆集合系* とし、 $u_\alpha$ を $\alpha\in I$ ごとに $E_\alpha$ から $E'_\alpha$ への写像とし、$u_\alpha$ が *逆写像系 * を形成するようにします。 $u=\underset{\leftarrow}{\lim}\,u_\alpha$ にしましょう。 次に、各 $x'=(x'_\alpha)\in E'=\underset{\leftarrow}{\lim}\,E'_\alpha$、$\bar u_\alpha^{-1}(x'_\alpha)$ 形について、$E_\alpha$、$\bar u^{-1}(x')=\underset{\leftarrow}{\lim}\,\bar u_\alpha^{-1}(x'_\alpha)$ の部分集合* の * 逆数系です。
 
 $\alpha \leqslant \beta$ と $x_\beta \in \overset{-1}{u_\beta}(x'_\beta)$ の場合、
 
@@ -211,7 +211,7 @@ $$u_\alpha(f_{\alpha\beta}(x_\beta)) = f'_{\alpha\beta}(u_\beta(x_\beta)) = f'_{
 
 *各 $\alpha \in \mathrm{I}$ に対して $u_\alpha$ が単射* (それぞれ *全単射*) である場合、 $u$ は単射* (それぞれ *全単射*) です。
 
-With the notation of Proposition 2, the images $u_\alpha(\mathrm{E}_\alpha)$ also form an inverse system of subsets of the $\mathrm{E}'_\alpha$, and we have
+命題 2 の記法、像 $u_\alpha(\mathrm{E}_\alpha)$ も形 $\mathrm{E}'_\alpha$ の部分集合の逆数系で、次のようになります。
 
 (9) $$u(\mathrm{E}) \subset \varprojlim u_\alpha(\mathrm{E}_\alpha);$$
 
@@ -395,11 +395,11 @@ $$\bigcap_{\beta \geqslant \alpha} f_{\alpha\beta}(\mathrm{E}_\beta) \neq \empty
 
 (iii)$'$ *それぞれ* $\alpha \in \mathrm{I}$ *および空でないそれぞれの集合* $\mathrm{M}_\alpha \in \mathfrak{S}_\alpha$ *存在します* $x_\alpha \in \mathrm{M}_\alpha$ *そのような* $\overset{-1}{f}_{\alpha\beta}(x_\alpha) \in \mathfrak{S}_\beta$ *それぞれ* $\beta \geqslant \alpha$。
 
-Then the conclusion (b) of Theorem 1 remains valid; the proofs of parts (1) and (2) of Theorem 1 remain unchanged and the proof of part (3) remains valid provided that we are careful to take $x_\alpha \in \mathrm{A}_\alpha$ such that $\overset{-1}{f}_{\alpha\beta}(x_\alpha)$ belongs to $\mathfrak{S}_\beta$ for all $\beta \geqslant \alpha$. 最後に、(4) の証明は、次のことを示します。
+この場合、定理 1 の結論 (b) は依然として有効です。 $\overset{-1}{f}_{\alpha\beta}(x_\alpha)$ がすべての $\beta \geqslant \alpha$ について $\mathfrak{S}_\beta$ に属するように $x_\alpha \in \mathrm{A}_\alpha$ を取ることに注意する限り、定理 1 の部分 (1) と (2) の証明は変更されず、部分 (3) の証明は有効のままです。 最後に、(4) の証明は、次のことを示します。
 
 $$\bigcap_{\beta \geqslant \alpha} f_{\alpha\beta}(\mathrm{E}_\beta) \neq \emptyset$$
 
-and if we choose an $x_\alpha$ in this set such that $\overset{-1}{f}_{\alpha\beta}(x_\alpha) \in \mathfrak{S}_\beta$ whenever $\beta \geqslant \alpha$, there exists $y \in E$ such that $f_\alpha(y) = x_\alpha$, which proves our assertion.
+そして、このセットで $\beta \geqslant \alpha$ のときは常に $\overset{-1}{f}_{\alpha\beta}(x_\alpha) \in \mathfrak{S}_\beta$ となるように $x_\alpha$ を選択すると、 $f_\alpha(y) = x_\alpha$ となるような $y \in E$ が存在し、これが私たちの主張を証明します。
 
 *例*
 
@@ -453,37 +453,37 @@ A、B を 2 つの集合とし、$(\mathrm{V}_\alpha)_{\alpha \in \mathrm{I}}$ �
 
 (i) E の定義により、$i$ 添字 $\beta_i \in I$ および元 $z_{\beta_i} \in E_{\beta_i}$ に対して $x^{(i)} = f_{\beta_i}(z_{\beta_i})$ が存在します。 $\alpha$ を、$\alpha \geqslant \beta_i$ が $1 \leqslant i \leqslant n$ となり、$x_\alpha^{(i)} = f_{\alpha\beta_i}(z_{\beta_i})$ となるようにします。
 
-(ii) E の定義により、対 $(i, j)$ ごとに、$\gamma_{ij} \geqslant \alpha$ と $f_{\gamma_{ij}\alpha}(y_\alpha^{(i)}) = f_{\gamma_{ij}\alpha}(y_\alpha^{(j)})$ となるような $\gamma_{ij} \in I$ が存在します。すべての対 $(i, j)$ に対して $\beta \geqslant \gamma_{ij}$ となるように $\beta$ を取り、関係 $f_{\beta\alpha} = f_{\beta\gamma_{ij}} \circ f_{\gamma_{ij}\alpha}$ を使用します。
+(ii) E の定義により、対 $(i, j)$ ごとに、$\gamma_{ij} \geqslant \alpha$ と $f_{\gamma_{ij}\alpha}(y_\alpha^{(i)}) = f_{\gamma_{ij}\alpha}(y_\alpha^{(j)})$ となる$\gamma_{ij} \in I$ が存在します。すべての対 $(i, j)$ に対して $\beta \geqslant \gamma_{ij}$ となるように $\beta$ を取り、関係 $f_{\beta\alpha} = f_{\beta\gamma_{ij}} \circ f_{\gamma_{ij}\alpha}$ を使用します。
 
-### 6. 写像中直接系
+### 6. 直接系/写像
 
 #### 命題 6 {#ens-iii-s7-prop-6 .statement tag=03RR}
 
-*I *を有向集合とし、* $(E_\alpha, f_{\beta\alpha})$ *を* Iに対する集合の直接系とし、*$E = \varinjlim E_\alpha$ *を直接の極限とし、それぞれ* $\alpha \in I$ *としましょう*
+*I *を有向集合とし、* $(E_\alpha, f_{\beta\alpha})$ *集合の直接系をIと相対させ、*$E = \varinjlim E_\alpha$を*直接の極限とし、それぞれ* $\alpha \in I$ *としましょう*
 
 $$f_\alpha : E_\alpha \to E$$
 
-*標準写像になります。それぞれ* $\alpha \in I$ について、* $u_\alpha$ * $E_\alpha$ の写像を集合* F * にします*
+*標準写像になります。それぞれ* $\alpha \in I$ に対して、* $u_\alpha$ * $E_\alpha$ の写像を * 集合* F * にします*
 
 (23) $$u_\beta \circ f_{\beta\alpha} = u_\alpha \qquad \textit{whenever } \alpha \leqslant \beta.$$
 
-*それから：*
+*その後:*
 
-(a) **ある一意な写像* $u$ *of* E *into* F *そのような*
+(a) **E の *F に一意な写像* $u$ が存在します *そのような*
 
 (24) $$u_\alpha = u \circ f_\alpha \qquad \textit{for all } \alpha \in I.$$
 
 (b) $u$ *は、F *が集合* $u_\alpha(E_\alpha)$ の和集合である場合にのみ全射法です。
 
-(c) $u$ *それぞれ* $\alpha \in I$ *関係* $x \in E_\alpha$、$y \in E_\alpha$、$u_\alpha(x) = u_\alpha(y)$ *存在することを暗示します* $\beta \geqslant \alpha$ *そのような* $f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$。
+(c) $u$ *それぞれ* $\alpha \in I$ *関係* $x \in E_\alpha$、$y \in E_\alpha$、$u_\alpha(x) = u_\alpha(y)$ *$\beta \geqslant \alpha$ *そのような* $f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$ が存在することを暗示します。
 
-(a) no. 5の記法で、各$\alpha \in I$(章II, § 4, no. 7、命題8)の$E_\alpha$の$u_\alpha$と一致するGの写像を$v$とします。 The hypothesis implies that $v$ is compatible with the equivalence relation R (Chapter II, § 6, no. 5); hence there exists a unique mapping $u$ of $E = G/R$ into F such that $v = u \circ f$ (*loc. cit.*).
+(a) no. 5の記法で、各$\alpha \in I$(章II, § 4, no. 7、命題8)の$E_\alpha$の$u_\alpha$と一致するGの写像をFに$v$とします。 仮定は、$v$ が同値関係 R (章 II, § 6, no. 5) と互換性があることを意味します。したがって、F には $v = u \circ f$ となる $E = G/R$ の一意な写像 $u$ が存在します (*loc. cit.*)。
 
-(b) E は $f_\alpha(E_\alpha)$ の和集合であるため、$u$ が全射であるためには関係 $F = \bigcup_{\alpha \in I} u_\alpha(E_\alpha)$ が明らかに必要十分です。
+(b) E は $f_\alpha(E_\alpha)$ の和集合であるため、関係 $F = \bigcup_{\alpha \in I} u_\alpha(E_\alpha)$ は明らかに $u$ が全射であるために必要かつ十分です。
 
-(c) no. 5 の補題 1 までに、$\mathbf{E}$ の任意の 2 つの元を常に形 $f_\alpha(x)$ と $f_\alpha(y)$ に書き込むことができます。$x \in \mathrm{E}_\alpha$ と $y \in \mathrm{E}_\alpha$ は、適切な選択に対応します。 $\alpha \in \mathrm{I}$。 補題から、関係 $f_\alpha(x) = f_\alpha(y)$ は $f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$ のような $\beta \geqslant \alpha$ の存在と同等であることがわかります。 $u_\alpha(x) = u(f_\alpha(x))$と$u_\alpha(y) = u(f_\alpha(y))$なので、これで証明が完了します。
+(c) no. 5 の補題 1 により、$\mathbf{E}$ の任意の 2 つの元は常に形 $f_\alpha(x)$ と $f_\alpha(y)$ に書き込むことができます。ここで、$x \in \mathrm{E}_\alpha$ と $y \in \mathrm{E}_\alpha$ は、適切な選択に対応します。 $\alpha \in \mathrm{I}$。 補題から、関係 $f_\alpha(x) = f_\alpha(y)$ は、$f_{\beta\alpha}(x) = f_{\beta\alpha}(y)$ のような $\beta \geqslant \alpha$ の存在と同等であることがわかります。 $u_\alpha(x) = u(f_\alpha(x))$と$u_\alpha(y) = u(f_\alpha(y))$なので、これで証明が完成します。
 
-¶ If the mapping $u$ is *bijective*, it is sometimes said, by abuse of language, that F is the direct limit of the family $(\mathrm{E}_\alpha)$.
+¶ 写像 $u$ が*全単射*である場合、言葉の乱用により、ときどきは F が家族 $(\mathrm{E}_\alpha)$ の直接の極限であると言われます。
 
 #### 注意 {#ens-iii-s7-n6-rem-1 .statement tag=03OL}
 

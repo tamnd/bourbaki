@@ -37,16 +37,16 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 35
-content_sha256: d89d85b71acb94f84663341c7b6857892ccd4501ded7c18db1efe71f04d8b2dd
+content_sha256: a762faefad6c69bc97f6691a31c33e2228a97d8f9155e3eff62a5a38333fb422
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
 translation_method: google
 source_content_sha256: 412a1eb43c414ef74369ccfcd275c3769490e226305405794c9a0f41eee4ebea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8b9743e2da08283cc69bb8685704648f551bf6b61fcbbbeaf34973f1d3889492
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 初等協会分解
@@ -82,7 +82,7 @@ $p$ が $A$ の素イデアルである場合、$p$ は p 一次的 ($§ 1$, no.
 
 #### 例 2 {#ac-iv-s2-n1-exa-2 .statement tag=04KI}
 
-Let $q$ be an ideal of $A$ such that there exists *a single* prime ideal $m$ (necessarily maximal) containing $q$; then, if $M$ is an $A$-module such that $qM \neq M$, $qM$ is *m-primary* with respect to $M$. $\operatorname{Ass}(M/qM)$ 含む $q$ のすべての元は、$m$ および $\operatorname{Ass}(M/qM) \neq 0$ ($§ 1$、no. 1、系 1 ～ 命題 2) に等しくなります。 特に、$q$ は、$A$ の *m-primary* イデアルです。
+$q$ を、*単一の* 素数イデアル $m$ (必然的に最大) 含む $q$ が存在するような $A$ のイデアルとします。次に、$M$ が $qM \neq M$ となるような $A$ 加群である場合、$qM$ は $M$ に関して *m-primary* になります。 $\operatorname{Ass}(M/qM)$ 含む $q$ のすべての元は、$m$ および $\operatorname{Ass}(M/qM) \neq 0$ に等しくなります ($§ 1$、no. 1、系 1 ～ 命題 2)。特に、$q$ は、$A$ の *m-primary* イデアルです。
 
 #### 例 3 {#ac-iv-s2-n1-exa-3 .statement tag=04KJ}
 
@@ -140,7 +140,7 @@ n\mathbf{Z} = (p_1^{\alpha_1}\mathbf{Z}) \cap \ldots \cap (p_k^{\alpha_k}\mathbf
 $$
 $\mathbf{Z}$ の $n\mathbf{Z}$ のプライマリ分解と no. 1 の例 4 です。
 
-言葉の乱用により、関係 $N = \bigcap_{i \in I} \mathscr{Q}_i$ は、$M$ の $N$ の主要な分解と呼ばれます。 $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ が $M/N$ の $\{0\}$ の主要な分解であると言うのは同じことになります。 $(\mathscr{Q}_i)_{i \in I}$ が $M$ の $N$ の主分解である場合、$M/N$ から $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ までの標準写像は単射です。 Conversely let $N$ be a submodule of $M$ and $f$ an injective homomorphism from $M/N$ to a finite direct sum $P = \bigoplus_{i \in I} P_i$, where each set $\operatorname{Ass}(P_i)$ is reduced to a single element $p_i$; let $f_i$ be the homomorphism $M/N \to P_i$ obtained by taking the composition off with the projection $P \to P_i$, and let $Q_i/N$ be the kernel off.; then the $Q_i$ distinct from $M$ are primary with respect to $M$ (no. 1, Definition 1) and $N = \bigcap_{i \in I} Q_i$. さらに、§ 1, no. 1、命題 3 のおかげで $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ になります。
+言葉の乱用により、関係 $N = \bigcap_{i \in I} \mathscr{Q}_i$ は、$M$ の $N$ の主要な分解と呼ばれます。 $\{0\} = \bigcap_{i \in I} (\mathscr{Q}_i/N)$ が $M/N$ の $\{0\}$ の主要な分解であると言うのは同じことになります。 $(\mathscr{Q}_i)_{i \in I}$ が $M$ の $N$ の主分解である場合、$M/N$ から $\bigoplus_{i \in I} (M/\mathscr{Q}_i)$ までの標準写像は単射です。 逆に、$N$ を $M$ と $M/N$ から有限直接和 $P = \bigoplus_{i \in I} P_i$ までの単射準同型射影の$f$ とし、各集合 $\operatorname{Ass}(P_i)$ は単一の要素 $p_i$ に還元されます。 $f_i$ を射影 $P \to P_i$ で合成を取り除いて得られる準同型性 $M/N \to P_i$ とし、カーネルを取り除いたものを $Q_i/N$ とします。その場合、$M$ とは異なる $Q_i$ は、$M$ (no. 1、定義 1) および $N = \bigcap_{i \in I} Q_i$ に関して主要です。 さらに、§ 1, no. 1、命題 3 のおかげで $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ になります。
 
 #### 定理 1 {#ac-iv-s2-thm-1 .statement tag=04KQ}
 
@@ -168,7 +168,7 @@ no. 2 の定理 1 の証明で定義されたプライマリ分解が *縮小* �
 
 #### 命題 4 {#ac-iv-s2-prop-4 .statement tag=04KS}
 
-*Let* $M$ *be a module over a Noetherian ring, N a submodule of M, $N = \bigcap_{i \in I} Q_i$ *a primary decomposition of N in M and, for all* $i \in I$, *let* $\{p_i\} = \operatorname{Ass}(M/Q_i)$. *この分解を削減するには、* $p_i$ * が区別され、 属するが * $\operatorname{Ass}(M/N)$ になることが必要かつ十分です。 *それから*
+*$M$ * をネーター環上の加群、N を M の部分加群、$N = \bigcap_{i \in I} Q_i$ *M における N の一次分解、そしてすべて* $i \in I$ について * $\{p_i\} = \operatorname{Ass}(M/Q_i)$ とします。 *この分解を削減するには、* $p_i$ * が区別され、 属するが * $\operatorname{Ass}(M/N)$ になることが必要かつ十分です。 *それから*
 
 (2)
 $$
@@ -187,23 +187,23 @@ $$
 
 #### 系 {#ac-iv-s2-n3-cor-1 .statement tag=04KT}
 
-Let $A$ be a Noetherian ring, $M$ an $A$-module, $N$ a submodule of $M$ and $(Q_i)_{i \in I}$ a primary decomposition of $N$ in $M$. 次に、$\mathrm{Card}(I) \geq \mathrm{Card}(\mathrm{Ass}(M/N))$; $(Q_i)_{i \in I}$ が縮小プライマリー 分解であるためには、$\mathrm{Card}(I) = \mathrm{Card}(\mathrm{Ass}(M/N))$ が必要かつ十分です。
+$A$ をネーター 環、$M$ を $A$ モジュール、$N$ 部分加群を $M$、$(Q_i)_{i \in I}$ を $M$ の $N$ のプライマリ分解とします。次に$\mathrm{Card}(I) \geq \mathrm{Card}(\mathrm{Ass}(M/N))$; $(Q_i)_{i \in I}$ が縮小プライマリー 分解であるためには、$\mathrm{Card}(I) = \mathrm{Card}(\mathrm{Ass}(M/N))$ であることが必要かつ十分です。
 
-命題 4 に先行する注意から、$M$ には $\mathrm{Card}(J) \leq \mathrm{Card}(I)$ のような $N$ の縮小された主要な分解 $(R_j)_{j \in J}$ が存在することがわかります。最初の主張が 2 番目の後に続き、後者は命題 4 の帰結です。
+命題 4 に先行する注意から、$M$ には $\mathrm{Card}(J) \leq \mathrm{Card}(I)$ のような、$N$ の縮小された主要な分解 $(R_j)_{j \in J}$ が存在することがわかります。最初の主張が 2 番目の後に続き、後者は命題 4 の帰結です。
 
 #### 命題 5 {#ac-iv-s2-prop-5 .statement tag=04KU}
 
-Let $A$ be a Noetherian ring, $M$ an $A$-module, $N$ a submodule of $M$, $N = \bigcap_{i \in I} Q_i$ a reduced primary decomposition of $N$ in $M$ and, for all $i \in I$, let $\{p_i\} = \mathrm{Ass}(M/Q_i)$. $p_i$ が $\mathrm{Ass}(M/N)$ の最小値元である場合、$Q_i$ は、$p_i$ (章 11, § 2, no. 4) (cf. 練習問題 2) に関する$N$ の彩度に等しくなります。
+$A$ をネーター 環、$M$ を $A$ モジュール、$N$ 部分加群を $M$、$N = \bigcap_{i \in I} Q_i$ を $N$ の縮小プライマリ分解とします。 $M$、そしてすべての $i \in I$ については、$\{p_i\} = \mathrm{Ass}(M/Q_i)$ にしましょう。 $p_i$ が $\mathrm{Ass}(M/N)$ の最小値元である場合、$Q_i$ は、$p_i$ (章 11, § 2, no. 4) (cf. 練習問題 2) に対する$N$ の彩度に等しくなります。
 
-明らかに、$N = 0$、必要に応じて置き換えることが $M$ x $M/N$ になる場合に注意を限定することができます。 $\mathrm{Ass}(M)$ で $p_i$ が最小の場合、$A - p_i$ 簡約する ～ $p_i$ を満たさない $\mathrm{Ass}(M)$ の元のうち集合です。 命題は、上記の公式 (3) と標準写像 $M \to M_0$ の § 1, no. 2、命題 6、核から続き、$p_i$ (章 11、 § 2, no. 4）。
+明らかに、$N = 0$、必要に応じて置き換えることが $M$ までに $M/N$ になる場合に注意を限定することができます。 $p_i$ が $\mathrm{Ass}(M)$ で最小である場合、$A - p_i$ 簡約する ～ $p_i$ を満たさない $\mathrm{Ass}(M)$ の元の集合。 命題は、上記の公式 (3) と標準写像 $M \to M_0$ の § 1, no. 2、命題 6、核から続き、$p_i$ (章 11、 § 2, no. 4）。
 
 #### 注意 {#ac-iv-s2-n3-rem-1 .statement tag=04KV}
 
-この集合の極小元ではない素イデアル $p_i \in \mathrm{Ass}(M/N)$ は、$M/N$ に関連付けられた *埋没* 素イデアルと呼ばれるときどきです。 $M/N$ が有限生成される場合、$p_0 \in \mathrm{Ass}(M/N)$ が浸されるためには、$V(p_0)$ が $\mathrm{Supp}(M/N)$ (章 II, § 4, no. 3、系 2 から命題 14) の既約成分ではないことが必要かつ十分です。 $(Q(p))_{p \in \mathrm{Ass}(M/N)}$ と $(Q'(p))_{p \in \mathrm{Ass}(M/N)}$ が $M$ の $N$ の 2 つの還元された主要な分解である場合、$Q'(p_0) \neq Q(p_0)$ (練習問題 24 (c)) となる可能性があります。 $M$ の $N$ の *正規* 縮小プライマリー 分解は、その中に現れるプライマリー 部分加群に補足的な条件を課すことによって常に定義できます (練習問題 4)。
+この集合の極小元ではない素イデアル $p_i \in \mathrm{Ass}(M/N)$ はときどきと呼ばれ、$M/N$ に関連付けられた *浸された* 素イデアルと呼ばれます。 $M/N$ が有限生成される場合、$p_0 \in \mathrm{Ass}(M/N)$ が浸されるためには、$V(p_0)$ が $\mathrm{Supp}(M/N)$ (章 II, § 4, no. 3, 系 2 から命題) の既約成分 *ではない* ことが必要かつ十分です。 14); $(Q(p))_{p \in \mathrm{Ass}(M/N)}$ と $(Q'(p))_{p \in \mathrm{Ass}(M/N)}$ が $M$ の $N$ の 2 つの還元された主要な分解である場合、$Q'(p_0) \neq Q(p_0)$ (練習問題 24 (c)) となる可能性があります。 $M$ の $N$ の *正規* 縮小プライマリー 分解は、その中に現れるプライマリー 部分加群に補足的な条件を課すことによって常に定義できます (練習問題 4)。
 
 ### 4. 一次的 分解の位置特定
 
-Given a submodule $N$ of a module $M$ over a Noetherian ring $A$, to simplify we shall denote by $D_I(M/N)$, in this no., the set of reduced primary decompositions of $N$ in $M$ whose indexing set is $I$ (equipotent to $\mathrm{Ass}(M/N)$).
+ネーター環 $A$ 上のモジュール $M$ のサブモジュール $N$ を考えると、簡略化するために、この番号では、インデックス集合が $I$ である $M$ の $N$ の縮小一次分解の集合を $D_I(M/N)$ で表すことにします。 $\mathrm{Ass}(M/N)$）。
 
 #### 命題 6 {#ac-iv-s2-prop-6 .statement tag=04KW}
 
@@ -213,7 +213,7 @@ $A$ をネーター 環、$M$ を $A$ モジュール、$M$ と $I = \mathrm{Ass
 
 (ii) *写像* $(Q_i)_{i \in J} \to (S^{-1}Q_i)_{i \in J}$ *は* $D_J(M/N')$ *の上* $D_J(S^{-1}M/S^{-1}N)$の全単射です。
 
-(iii) *If* $(Q_i)_{i \in J}$ *is an element of* $D_J(M/N')$ *and* $(R_i)_{i \in I}$ *an element of* $D_I(M/N)$, *the family* $(T_i)_{i \in I}$ *such that* $T_i = Q_i$ *for* $i \in J$ *and* $T_i = R_i$ *for* $i \in I - J$ *is an element of* $D_I(M/N)$.
+(iii) *もし* $(Q_i)_{i \in J}$ *が*の要素である場合* $D_J(M/N')$ *かつ* $(R_i)_{i \in I}$ *の要素* $D_I(M/N)$, *家族* $(T_i)_{i \in I}$ *そのような* $T_i = Q_i$ *for* $i \in J$ *and* $T_i = R_i$ *for* $i \in I - J$ *は*の要素である$D_I(M/N)$。
 
 (i) $i \in J, S^{-1}Q_i$ は $S^{-1}p_i$ にとって主要であり、$i \in I - J, S^{-1}Q_i = S^{-1}M$ については主要であることがわかります (no. 1、命題 3)。 $S^{-1}N = \bigcap S^{-1}Q_i$ (章 II, § 2, no. 4) の場合は、$S^{-1}N = \bigcap_{i \in J} S^{-1}Q_i$ も同様です。 $i \in J$ の $S^{-1}p_i$ は個別であり、その集合は $\operatorname{Ass}(S^{-1}M/S^{-1}N)$ ($§ 1$、no. 2、系から命題 5) です。この場合、(命題 4) $(S^{-1}Q_i)_{i \in J}$ は、$S^{-1}N$ の縮小された主要な分解です。さらに、$Q_i = (i_M^S)^{-1}(S^{-1}Q_i)$ (no. 1 命題 3) であるため、$N' = (i_M^S)^{-1}(S^{-1}N) = \bigcap_{i \in J} Q_i$ と $(Q_i)_{i \in J}$ は明らかに $M$ の $N'$ の縮小プライマリー 分解です。
 
@@ -266,7 +266,7 @@ $\operatorname{Supp}(M)$ のすべての元は $\operatorname{Supp}(M)$ で最�
 
 *$M$ をネーター 環 $A$ および $p$ を$A$ の主要な理想である有限生成加群とします。 $M_p$ が有限長の非ゼロ加群 $A_p$ であるためには、$p$ が $\operatorname{Ass}(M)$ の最小値元であることが必要かつ十分です。
 
-$§ 1$、no. 2、系から命題5まで、$\operatorname{Ass}_{A_p}(M_p)$は$q_p$の理想の集合であり、$q$は$p$に含まれる$\operatorname{Ass}(M)$の理想の集合を貫いています。 一方、$p_p$ は、$A_p$ の独自の最大理想です。 命題 7 により、$M_p$ が有限長の $A_p$ モジュールであるためには、$\operatorname{Ass}(M)$ の元が厳密に $p$ に含まれないことが必要かつ十分です。 On the other hand, for $M_p \neq 0$, it is necessary and sufficient by definition that $p \in \operatorname{Supp}(M)$ (Chapter 11, § 4, no. 4), that is that $p$ contain an element of $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Proposition 7). これは系を証明します。
+$§ 1$、no. 2、系から命題5まで、$\operatorname{Ass}_{A_p}(M_p)$は$q_p$の理想の集合であり、$q$は$p$に含まれる$\operatorname{Ass}(M)$の理想の集合を貫いています。 一方、$p_p$ は、$A_p$ の独自の最大理想です。 命題 7 により、$M_p$ が有限長の $A_p$ モジュールであるためには、$\operatorname{Ass}(M)$ の元が厳密に $p$ に含まれないことが必要かつ十分です。 一方、$M_p \neq 0$ については、$p \in \operatorname{Supp}(M)$ (第 11 章、§ 4, no. 4)、つまり$p$ が$\operatorname{Ass}(M)$ ($§ 1$、no. 3、命題 7) の要素を含むことが定義上必要十分である。 これは系を証明します。
 
 #### 注意 (1) {#ac-iv-s2-n5-rem-1 .statement tag=04L1}
 
@@ -284,11 +284,11 @@ $M$ をネーター 環 $A$ よりも有限生成加群とします。 $(M_1), \
 
 (iv) *$M$ の $\bigoplus_{p \in \operatorname{Ass}(M)} (M/Q(p))$ への標準単射は全単射です。*
 
-$\operatorname{Ass}(M)$ (命題 7) ではすべての元 $p \in \operatorname{Ass}(M)$ が最小であるため、no. 3、命題 5 から主張 (i) が続きます。 $M$ は有限に生成されるため、すべてに対して $p^n M \subset Q(p)$ となるような $n_0$ が存在します。 $p \in \operatorname{Ass}(M)$ とすべての $n \geq n_0$ (no. 1、*注意*);しかし、$p$ は最大理想であるため、$p^n M$ は $M$ (no. 1、*例 2 および 3*) に関して $p$ 主要であり、$\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$ と同様に、(i) から必然的にすべてに対して $p^n M = Q(p)$ が得られます。 $p \in \operatorname{Ass}(M)$; よって (ii)。 $p \in \operatorname{Ass}(M)$ に対する $p^n$ は対 (章 11, § 1, no. 2, 命題 3) で相対的に素であるため、標準写像 $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ は全射です (章 11, § 1, no. 2、命題 6)、よって (iv)。次に、$\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ と $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3、命題 4)。 $\operatorname{Ass}(M)$ の元が最大の理想であるため、$\operatorname{Ass}(M)$ のうち $A - p$ を満たさない唯一の元が、$p$ です。したがって、$Q(p)$ は、標準写像 $j : M \to M_p$ の核 ($§ 1$、no. 2、命題 6) です。 $s \in A - p$ の場合、比 $s$ を持つ $M/Q(p)$ のホモテティー は、関係 $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, 命題 1) により単射的です。 $M/Q(p)$ はアルティンなので、このホモテティー は全単射です (*代数*, 章 VIII, § 1, no. 2, 補題 3)。 標準写像 $M \to M/Q(p)$ は $f \circ j$ と書かれます。ここで、$f : M_p \to M/Q(p)$ は $A$ 準同型写像 (章 II, § 2, no. 2, 命題 3) です。 $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$、$f$ は単射です。私たちは結論する、$j$は全射であり、$f$は全単射です。
+すべての元 $p \in \operatorname{Ass}(M)$ は $\operatorname{Ass}(M)$ (命題 7) で最小であるため、no. 3、命題 5 から主張 (i) が続きます。 $M$ は有限に生成されるため、すべてに対して $p^n M \subset Q(p)$ となるような $n_0$ が存在します。 $p \in \operatorname{Ass}(M)$ とすべての $n \geq n_0$ (no. 1、*注意*);しかし、$p$ は最大理想であるため、$p^n M$ は $M$ (no. 1, *例 2 および 3*) に関して $p$ 主要であり、$\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$ と同様に、(i) から必然的にすべてに対して $p^n M = Q(p)$ となることがわかります。 $p \in \operatorname{Ass}(M)$; よって (ii)。 $p \in \operatorname{Ass}(M)$ に対する $p^n$ は、対 (章 11, § 1, no. 2, 命題 3) で相対的に素であるため、標準写像 $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ は全射です (章 11, § 1, no. 2、命題 6)、よって (iv)。次に、$\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ と $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3、命題 4)。 $\operatorname{Ass}(M)$ の元が最大の理想であるため、$\operatorname{Ass}(M)$ のうち $A - p$ を満たさない唯一の元が、$p$ です。したがって、$Q(p)$ は、標準写像 $j : M \to M_p$ の核 ($§ 1$、no. 2、命題 6) です。 $s \in A - p$ の場合、比 $s$ を持つ $M/Q(p)$ のホモテティー は、関係 $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, 命題 1) により単射的です。 $M/Q(p)$ はアルティンなので、このホモテティー は全単射です (*代数*, 章 VIII, § 1, no. 2, 補題 3)。 標準写像 $M \to M/Q(p)$ は $f \circ j$ と書かれます。ここで、$f : M_p \to M/Q(p)$ は $A$ 準同型写像 (章 II, § 2, no. 2, 命題 3) です。 $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$、$f$ は単射です。私たちは結論する、$j$は全射であり、$f$は全単射です。
 
 #### 系 {#ac-iv-s2-n5-cor-1 .statement tag=04L3}
 
-*M がネーター 環 A 以上の有限長の加群である場合、*
+*M がネーター 環 A を超える有限長の加群である場合、*
 
 $$
 \operatorname{long}_A(M) = \sum_{p \in \operatorname{Ass}(M)} \operatorname{long}_{A_p}(M_p).
@@ -300,34 +300,34 @@ $$
 \operatorname{long}_A(M/\mathscr{Q}(p)) = \operatorname{long}_{A_p}(M_p).
 $$
 
-さて、no. 1 の命題 1 から、$M/\mathscr{Q}(p)$ の比率 s を持つすべての $s \in A - p$ ホモテティー は単射であることがわかります。したがって、$M/\mathscr{Q}(p)$ の R が部分加群ごとに比 s であるホモテティー は単射であり、R がアルティンであるため、全単射です (*代数*, 章 VIII, § 2, no. 2, 補題 3)。私たちは結論する、$M/\mathscr{Q}(p)$のサブAモジュールはMのサブAモジュールの全単射$f : M, \to M/\mathscr{Q}(p)$の下にある像、(章11、§ 2, no. 3)、よって私たちの主張です。
+さて、命題 1 of no. 1 から、$M/\mathscr{Q}(p)$ の比率 s を持つすべての $s \in A - p$ ホモテティー は単射であることがわかります。したがって、$M/\mathscr{Q}(p)$ の R は部分加群ごとに比 s を持つホモテティー は単射であり、R がアルティンであるため、全単射です (*代数*, 章 VIII, § 2, no. 2, 補題 3)。 結論する $M/\mathscr{Q}(p)$ のサブ A モジュールは、M のサブ A モジュールの全単射 $f : M, \to M/\mathscr{Q}(p)$ の下にある像、(章 11、§ 2, no. 3)、よってです。 主張。
 
 #### 命題 9 {#ac-iv-s2-prop-9 .statement tag=04L4}
 
 *A をネーター 環とします。次の条件は同等です:*
 (a) *はアルティンです*。
-(b) *A のすべての素イデアル $\mathfrak{a}$ は極大イデアルです。*
+(b) *A の素イデアル $\mathfrak{a}$ はすべて極大イデアルです。*
 (c) *Ass(A) のすべての元は最大の理想です。*
 
 *これらの条件が満たされる場合、A は有限の数の素イデアルのみを持ち、それらはすべて最大であり、A-加群 A に関連付けられます。さらに、A は半局所環であり、その Jacobson 根基はゼロポテントです。
 
-A がアルティンであるということは、A が有限長の A-加群であるというというと同等です。したがって、(a) と (c) は命題 7 によって等価です。明らかに (b) は (c) を意味します。最後に、すべてのアルティン整域は体であるため、(a) は (b) を意味します。したがって、特性 (a)、(b)、および (c) は同等です。
+A がアルティンであるということは、A が有限長の A-加群であるというというと同等です。したがって、(a) と (c) は命題 7 により等価です。明らかに (b) は (c) を意味します。最後に、すべてのアルティン整域は体であるため、(a) は (b) を意味します。したがって、特性 (a)、(b)、および (c) は同等です。
 
-彼らが保持していると仮定してください。 Supp(A) に対する属するのすべての素イデアル、および Supp(A) のすべての元含む元 Ass(A) ($\S$ 1、no. 3、命題 7) から、(c) から、Ass(A) はすべての素イデアルの集合であることがわかります。 A;この場合、A には有限の数個の素イデアルのみがあり、それらはすべて最大であり、A-加群 A に関連付けられています。これは明らかに A が準局所的であることを意味します。最後に、アルティン環のジェイコブソン根基が無能であることがわかります (*代数*、章 VIII, § 6, no. 4、定理 3)。
+彼らが保持していると仮定してください。 Supp(A) に対する属するのすべての素イデアル、および Supp(A) のすべての元含む元 Ass(A) ($\S$ 1、no. 3、命題 7) として、(c) から Ass(A) はA のすべての主要な理想のうち集合。この場合、A には有限の数の素イデアルのみがあり、それらはすべて最大であり、A-加群 A に関連付けられています。これは明らかに A が半局所であることを意味します。最後に、アルティン環のジェイコブソン根基が無能であることがわかります (*代数*, 章 VIII, § 6, no. 4, 定理 3)。
 
 #### 注意 (2) {#ac-iv-s2-n5-rem-2 .statement tag=04L5}
 
-The conditions of Proposition 9 for a *Noetherian* ring A imply that the spectrum of A is *finite* and *discrete*, every point of Spec(A) being therefore closed (Chapter 11, § 4, no. 3, Corollary 6 to Proposition 11). 逆に、*ネーター* 環 A の場合、Spec(A) の *すべての点* $\mathfrak{a}$ が *閉じている* ということは、A のすべての素イデアルが最大 (*loc. cit.*.) であることを意味し、したがって、この条件は命題 9 のそれと等価です。
+*ネーター* 環 A の命題 9 の条件は、A のスペクトルが *有限* で *離散* であることを意味し、したがって Spec(A) のすべての点が閉じられます (章 11、§ 4, no. 3、 系 6 ～ 命題 11)。逆に、*ネーター* 環 A の場合、Spec(A) の *すべての点* $\mathfrak{a}$ が *閉じている* ということは、A のすべての素イデアルが最大 (*loc. cit.*.) であることを意味し、したがってこの条件は命題 9 のそれと等価です。
 
 #### 系 1 {#ac-iv-s2-prop-9-cor-1 .statement tag=04L6}
 
-*すべてのアルティン環 A は、アルティン局所環の有限族の直接合成と同型です。*
+*すべてのアルティン環 A は、アルティン局所環の有限族の直接合成と同型です。
 
-命題 9 と命題 8 (iii) と (iv) から、$(\mathfrak{m}_i)_{1 \leq i \leq n}$ が $A$ の最大イデアルの族である場合、標準写像 $A \to \prod_i A_{\mathfrak{m}_i}$ は全単射であることがわかります。
+命題 9 および命題 8 (iii) および (iv) から、$(\mathfrak{m}_i)_{1 \leq i \leq n}$ が $A$ の最大イデアの族である場合、標準写像 $A \to \prod_i A_{\mathfrak{m}_i}$ は全単射であることがわかります。
 
 #### 注意 (3) {#ac-iv-s2-n5-rem-3 .statement tag=04L7}
 
-この系は、$\operatorname{Spec}(A)$ が有限で離散的であること、および章 11、§ 4, no. 3、命題 15 であるという事実からも推定できます。
+この系は、$\operatorname{Spec}(A)$ が有限で離散的であること、および章 11、§ 4, no. 3、命題 15 という事実からも推定できます。
 
 #### 系 2 {#ac-iv-s2-prop-9-cor-2 .statement tag=04L8}
 
@@ -450,10 +450,10 @@ $$
 
 #### 命題 11 {#ac-iv-s2-prop-11 .statement tag=04LI}
 
-$A$ と $B$ がネーター で、$B$ がフラットな $A$ モジュールであると仮定します。 Let $E$ be an $A$-module and $E'$ a submodule of $E$ such that, for every ideal $p \in \operatorname{Ass}_A(E/E')$, $pB$ is a prime ideal of $B$ or equal to $B$. $E' = \bigcap_{p \in \operatorname{Ass}(E/E')} Q(p)$ を $E$ の $E'$ の縮小プライマリー 分解とし、$Q(p)$ をすべての $p \in \operatorname{Ass}(E/E')$ の $p$ プライマリーとします。
+$A$ と $B$ がネーター で、$B$ がフラットな $A$ モジュールであると仮定します。 $E$ を $A$ 加群とし、すべての理想 $p \in \operatorname{Ass}_A(E/E')$ に対して、$pB$ が $B$ または $B$ に等しい素理想となる $E$ の $E'$ 部分加群とします。 $E' = \bigcap_{p \in \operatorname{Ass}(E/E')} Q(p)$ を $E$ の $E'$ の縮小プライマリー 分解とし、$Q(p)$ をすべての $p \in \operatorname{Ass}(E/E')$ の $p$ プライマリーとします。
 (i) *$p \in \operatorname{Ass}(E/E')$ *かつ* $pB = B$の場合、*その後* $Q(p) \otimes_A B = E \otimes_A B$。
 (ii) *もし* $p \in \operatorname{Ass}(E/E')$ *かつ* $pB$ *が素数*である場合、$Q(p)$ *は* $pB$*-初等* *in* $E \otimes_A B$。
-(iii) *もし* $\Phi$ *が集合* $\mathfrak{p} \in \operatorname{Ass}(E/E')$ *そのような* $pB$ *が素数*である場合、*その後*
+(iii) *もし* $\Phi$ *が集合* $\mathfrak{p} \in \operatorname{Ass}(E/E')$ *そのような* $pB$ *が素数*である場合、 *その後*
 $$
 E' \otimes_A B = \bigcap_{p \in \Phi} (Q(p) \otimes_A B)
 $$
@@ -463,11 +463,11 @@ $pB = B$、定理 2 を $E/\mathbf{Q}(p)$ と $B$ に適用すると、次のこ
 $$
 \operatorname{Ass}_B((E/\mathbf{Q}(p)) \otimes_A B) = \varnothing
 $$
-そして、$B$ はネーター でフラットな $A$ モジュールであるため、$\mathbf{Q}(p) \otimes_A B = E \otimes_A B$ を結論する (§ 1, no. 1、系 1 から命題 2) とします。 主張 (ii) は、系 2 から $\mathfrak{P} = pB$ を取り、定理 2 に続きます。最後に、関係 $E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)$ は、$B$ がフラットな $A$ モジュール (章 I, § 2, no. 6, 命題 6) であるという事実から導かれます。 $p \in \Phi$ (補題 1) の場合は $p = \overline{\rho}^{-1}(pB)$、集合 $\Phi$ の 2 つの異なる理想 $p, p'$ の場合は $pB \neq p'B$ です。一方、
+そして、$B$ はネーター でフラットな $A$ モジュールであるため、$\mathbf{Q}(p) \otimes_A B = E \otimes_A B$ を結論する (§ 1, no. 1、系 1 ～ 命題 2) とします。 主張 (ii) は、系 2 から定理 2 に続き、$\mathfrak{P} = pB$ をとります。最後に、関係 $E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)$ は、$B$ がフラットな $A$ モジュール (章 I, § 2, no. 6, 命題 6) であるという事実から導かれます。 $p \in \Phi$ (補題 1) に対する $p = \overline{\rho}^{-1}(pB)$、集合 $\Phi$ の 2 つの異なる理想 $p, p'$ に対する$pB \neq p'B$。一方、
 $$
 \operatorname{Ass}((E \otimes_A B)/(E' \otimes_A B)) = \Phi
 $$
-定理 2 著;私たちは no. 3 から結論する、命題 4
+定理 2 著;私たちは no. 3、命題 4 から結論する
 $$
 E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)
 $$
@@ -475,11 +475,11 @@ $$
 
 #### 系 {#ac-iv-s2-n6-cor-1 .statement tag=04LJ}
 
-*$pB$ *すべての素数* $p \in \operatorname{Ass}_A(E/E')$ だと仮定します。 *次に、* $p_1, \ldots, p_n$ * が* $\operatorname{Ass}_A(E/E')$ の最小元である場合、** $p_iB$ * は* の最小元です
+*$pB$ *すべての素数* $p \in \operatorname{Ass}_A(E/E')$ だと仮定します。 *その後、* $p_1, \ldots, p_n$ * が* $\operatorname{Ass}_A(E/E')$ の最小元である場合、** $p_iB$ * は* の最小元です
 $$
 \operatorname{Ass}_A((E \otimes_A B)/(E' \otimes_A B)).
 $$
-命題 11 から、この場合は $i \# j$ に対して $p_iB \neq p_jB$ となります。
+命題 11 から、この場合、$i \# j$ は $p_iB \neq p_jB$ になります。
 
 *例*
 (1) $B = S^{-1}A$ を考えます。ここで、$S$ は $A$ の乗算部分集合です。 $A$ がネーター の場合、命題 11 の仮説が満たされ、no. 4 の命題 6 の部分が回復されます。

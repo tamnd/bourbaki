@@ -34,16 +34,16 @@ subsections:
       pdf_page: 54
 statements: 37
 exercises: 20
-content_sha256: f047d54445eb44a9239a24b452dbbda75a3ec42de1c180411506ddde7dc42d75
+content_sha256: 6d8a505d1728a521d4c42fabad369e87d664477f033a5e7994bc720cfebac9da
 translated_from: content/en/alg/VIII/02_s2_the_structure_of_modules_of_finite.md
 translation_method: google
 source_content_sha256: 937d6660bbf18635e63c4c1addfaf3e44ee88a5456fdc47cb5c2eacabc9099b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: aebedd7b7ce9aa87b7f9633f6bad724af197326a5b2acab2d5fe934687c19378
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 構造/加群/有限長
@@ -138,7 +138,7 @@ b) 数列 $(I_p)$ が静止していると仮定します。すると、M = $N_{
 
 c) (「Weyr–フィッティング分解」—ときどきを「フィッティング分解」と呼ぶ) 数列 $(N_p)$ と $(I_p)$ が静止していると仮定します。 この場合、M は $u$ の下で安定している部分加群 $N_{\infty}$ と $I_{\infty}$ の直和 、および $N_{\infty}$ の $u$ 誘導する冪零自己準同型と $I_{\infty}$ の自己同型です。
 
-$p$ を $N_p= N_{\infty}$ となるように自然数とし、$v=u^p$ とします。 構成までに、$v$と$v^2$は同じ核$N_{\infty}$を持ち、$I_p$は$v$の像になります。 $N_{\infty}\cap I_p$ の $x$ には、$x=v(y)$ となるような $y\in M$ が存在し、従って $v^2(y) =v(x) = 0$ になります。従って、$y\in N_{\infty}$ があり、その結果、$x= 0$ になります。 特に$N_{\infty}\cap I_{\infty}= 0$があります。 Since the kernel $N_1$ of $u$ is contained in $N_{\infty}$, the restriction of $u$ to $I_{\infty}$ is injective; on the other hand, we have $u^p(N_{\infty}) = 0$. これは a) を証明します。
+$p$ を $N_p= N_{\infty}$ となるように自然数とし、$v=u^p$ とします。 構成までに、$v$と$v^2$は同じ核$N_{\infty}$を持ち、$I_p$は$v$の像になります。 $N_{\infty}\cap I_p$ の $x$ には、$x=v(y)$ となるような $y\in M$ が存在し、従って $v^2(y) =v(x) = 0$ になります。従って、$y\in N_{\infty}$ があり、その結果、$x= 0$ になります。 特に$N_{\infty}\cap I_{\infty}= 0$があります。 $u$ のカーネル $N_1$ は $N_{\infty}$ に含まれるため、$u$ から $I_{\infty}$ の制限は単射的です。一方、$u^p(N_{\infty}) = 0$ があります。 これは a) を証明します。
 
 $q$ を $I_q= I_{\infty}$ となるように自然数とし、$w=u^q$ とします。すると、$w$と$w^2$は同じ像$I_{\infty}$を持ち、$N_q$は$w$の核になります。 $x\in M$ にしましょう。 $w(x)\in I_{\infty}$ があるので、$w(x) =w^2(y)$ のような $y\in M$ が存在します。次に、$x-w(y)\in N_q$、よって $M = N_q+ I_{\infty}$、なおさら $M = N_{\infty}+ I_{\infty}$ となります。 $u(I_{\infty}) =u(I_q) = I_{q+1}= I_{\infty}$があります。これは b) を証明します。
 
@@ -146,21 +146,21 @@ $q$ を $I_q= I_{\infty}$ となるように自然数とし、$w=u^q$ としま�
 
 #### 注意 1 {#alg-viii-s2-n2-rem-1 .statement tag=001Y}
 
-$p$ を整数として、$N_p= N_{p+1}$ とします。上の証明は、$u$から$I_p$の$N_{\infty}\cap I_p= 0$と制限が単射であることを示しています。同様に、$q$ を整数として、$I_q= I_{q+1}$ とします。次に、$N_q+ I_{\infty}= M$ があり、$u$ から移行によって商を推定した $M/N_q$ の自己準同型は全射です。
+$p$ を整数として、$N_p= N_{p+1}$ とします。上記の証明は、$u$から$I_p$の$N_{\infty}\cap I_p= 0$と制限が単射であることを示しています。同様に、$q$ を整数とし、$I_q= I_{q+1}$ とします。次に、$N_q+ I_{\infty}= M$ があり、$u$ から移行によって商から推定される $M/N_q$ の自己準同型は全射です。
 
 #### 注意 2 {#alg-viii-s2-n2-rem-2 .statement tag=001Z}
 
-M が 2 つの部分加群 N と I の直和で、$u$ で安定しており、N の $u$ 誘導する冪零自己準同型 $u_N$ と I の自己同型であるとします。次に、$N_{\infty}= N$ と $I_{\infty}= I$ があり、数列 $(N_p)$ と $(I_p)$ は静止しています。さらに、次の整数は等しいです。
+M が $u$ で安定している 2 つの部分加群 N と I の直和と、N の $u$ 誘導する冪零自己準同型 $u_N$ と I の自己同型であるとします。次に、$N_{\infty}= N$ と $I_{\infty}= I$ があり、数列 $(N_p)$ と $(I_p)$ は静止しています。さらに、次の整数は等しいです。
 
-$\alpha )$ 整数 $p\geqslant 0$ $N_p= N_{\infty}$、
+$\alpha )$ 最も小さい整数 $p\geqslant 0$ $N_p= N_{\infty}$、
 
-$\beta )$ 整数 $q\geqslant 0$ $I_q= I_{\infty}$、
+$\beta )$ 最低の整数 $q\geqslant 0$ は $I_q= I_{\infty}$、
 
-$\gamma )$ 整数 $r\geqslant 0$ は $(u_N)^r= 0$ になります。
+$\gamma )$ 最低整数 $r\geqslant 0$ は $(u_N)^r= 0$ になります。
 
 #### 注意 3 {#alg-viii-s2-n2-rem-3 .statement tag=0020}
 
-The assumption of assertion a) is satisfied if the A-module M is Noetherian; the assumption of assertion b) is satisfied if M is Artinian; by Proposition 1 of VIII, p. 2, the assumption of assertion c) is satisfied if M has finite length.
+主張 a) の仮定は、A-加群 M がネーター であれば満たされます。 主張の仮定 b) は、M がアルティンであれば満たされます。 by 命題主張の VIII、p. 2、仮定の 1 は、M が有限長を持っていれば満たされます。
 
 #### 系 1 {#alg-viii-s2-prop-2-cor-1 .statement tag=0021}
 
@@ -174,9 +174,9 @@ c) 加群 M に有限長がある場合、M のすべての単射詞または全
 
 d) 環 A が可換で、A-加群 M が有限生成される場合、M のすべての全射自己準同型は全単射です。
 
-$u$ を A-加群 M の自己準同型とします。この小節の冒頭で紹介した記法を使用します。 自己準同型 $u$ が全射であれば、$I_{\infty}= M$ になります。 主張 a) は、命題 2、a) および注意 3 から続きます。同様に、自己準同型 $u$ が単射であれば、$N_{\infty}= 0$ が得られます。したがって、主張 b) は、命題 2、b) および注意 3 から続きます。 主張 c) は、a) および b) からすぐに続きます。
+$u$ を A-加群 M の自己準同型とします。この小節の冒頭で紹介した記法を使用します。 自己準同型 $u$ が全射であれば、$I_{\infty}= M$ になります。 主張 a) は、命題 2、a) および注意 3 から続きます。同様に、自己準同型 $u$ が単射であれば、$N_{\infty}= 0$ が得られます。したがって、主張 b) は、命題 2、b) および注意 3 から続きます。 主張 c) は、a) および b) から直接続きます。
 
-ここで、環 A が可換、A-加群 M が有限生成、自己準同型 $u$ が全射であるとします。 $u$ が単射であることを証明しましょう。 $x$ を $u(x) = 0$ となるような M の元とします。 A-加群 M の選ぶ有限生成家族 $(x_i)_{i\in I}$ と、M のすべての $i\in I$、元 $y_i$ について、$u(y_i) =x_i$ になります。 A には次のような家族 $(a_i)_{i\in I}, (b_{ij})_{(i,j)\in I\times I}$ と元の $(c_{ij})_{(i,j)\in I\times I}$ が存在します。
+ここで、環 A が可換、A-加群 M が有限生成、自己準同型 $u$ が全射であるとします。 $u$ が単射であることを証明しましょう。 $x$ を $u(x) = 0$ となるような M の元とします。 選ぶ有限生成家族 A-加群 M の $(x_i)_{i\in I}$ と、$i\in I$ ごとに、M の元 $y_i$ は $u(y_i) =x_i$ になります。 A の元のファミリー $(a_i)_{i\in I}, (b_{ij})_{(i,j)\in I\times I}$ と $(c_{ij})_{(i,j)\in I\times I}$ が存在します。
 
 $$
 x=\sum_{i\in I}a_ix_i,y_j=\sum_{i\in I}b_{ij}x_i,u(x_j) =\sum_{i\in I}c_{ij}x_i
@@ -198,7 +198,7 @@ A を環とします。次の定義 (VII, §4, No. 8、p. 23、定義 3) を思�
 
 A-加群 M は、0 および M と異なる部分加群族の直和ではない場合、非分解可能と呼ばれます。
 
-By the corollary of Proposition 12 of II, §1, No. 8, p. 209, the following properties are equivalent:
+II, §1, No. 8、p. 209 の命題 12 の帰結により、次の特性は同等です。
 
 a) A-加群 M は不分解です。
 
@@ -216,9 +216,9 @@ c) A-加群 M は非零であり、環 End$_A(M)$ 含む 0 と $1_M$ から区�
 
 ネーター またはアルティン A-加群 M は、分解不可能な部分加群の有限族の直和です。
 
-まず、M のすべての非零部分加群 P には分解不可能な直因子があることを証明しましょう。 If this were not the case, then every direct factor submodule of P would be decomposable; proceeding by induction, we could then construct, for every $n\in \mathbf{N}$, nonzero submodules $N'_n$ and $N''_n$ of P such that $P = N'_0\oplus N''_0$ and $N'_{n-1}= N'_n\oplus N''_n$ for $n\geqslant 1$. しかし、その場合、部分加群 $N''_0+\cdots + N''_n$ の数列は真に増加するになり、部分加群 $N'_n$ の真に減少するになります。 加群 M は、仮定とは反対に、ネーター でもアルティンでもありません。
+まず、M のすべての非零部分加群 P には分解不可能な直因子があることを証明しましょう。 そうでない場合、P のすべての直接因子サブモジュールは分解可能になります。帰納法によって進めると、すべての $n\in \mathbf{N}$ に対して、$n\geqslant 1$ に対して $P = N'_0\oplus N''_0$ と $N'_{n-1}= N'_n\oplus N''_n$ となるような P のゼロ以外のサブモジュール $N'_n$ と $N''_n$ を構築できます。 しかし、その場合、部分加群 $N''_0+\cdots + N''_n$ の数列は真に増加するになり、部分加群 $N'_n$ の真に減少するになります。 加群 M は、仮定とは反対に、ネーター でもアルティンでもありません。
 
-さて、M が分解不可能な部分加群の有限族の直和ではないと仮定します。 By induction, we construct indecomposable submodules $P''_n$ of M and nonzero submodules $P'_n$ of M for every $n\in \mathbf{N}$ such that $M = P'_0\oplus P''_0$ and $P'_{n-1}= P'_n\oplus P''_n$ for $n\geqslant 1$. 確かに、M は非零で、証明の最初の部分を P = M に適用すると、$P'_0$ と $P''_0$ が得られます。 加群 $P'_k$ と $P''_k$ が $k < n$ に対して定義されているため、証明の最初の部分によって、 $P'_{n-1}= P'_n\oplus P''_n$ と $P''_n$ が分解不可能となるような部分加群 $P'_n$ と $P''_n$ が存在します。 関係 $M = P'_n\oplus P''_0\oplus  \cdots  \oplus P''_n$ は、M が分解不可能な加群の有限族の直和ではないため、$P'_n\not= 0$ を意味します。
+さて、M が分解不可能な部分加群の有限族の直和ではないと仮定します。 帰納法により、$n\geqslant 1$ に対して $M = P'_0\oplus P''_0$ と $P'_{n-1}= P'_n\oplus P''_n$ となるように、$n\in \mathbf{N}$ ごとに M の分解不可能なサブモジュール $P''_n$ と M の非ゼロのサブモジュール $P'_n$ を構築します。 確かに、M は非零で、証明の最初の部分を P = M に適用すると、$P'_0$ と $P''_0$ が得られます。 加群 $P'_k$ と $P''_k$ が $k < n$ に対して定義されているため、証明の最初の部分によって、 $P'_{n-1}= P'_n\oplus P''_n$ と $P''_n$ が分解不可能となるような部分加群 $P'_n$ と $P''_n$ が存在します。 関係 $M = P'_n\oplus P''_0\oplus  \cdots  \oplus P''_n$ は、M が分解不可能な加群の有限族の直和ではないため、$P'_n\not= 0$ を意味します。
 
 部分加群 $P''_0\oplus  \cdots  \oplus P''_n$ の数列は真に増加する、部分加群 $P'_n$ の数列は真に減少するです。この矛盾する仮定の M はネーター またはアルティンです。
 
@@ -408,7 +408,7 @@ c) 最後に、一般的なケースを扱いましょう。 $u: M_{(K')}\righta
 
 #### 注意 {#alg-viii-s2-n5-rem-1 .statement tag=002K}
 
-E と F を可換体 K 上の 2 つの有限次元ベクトル空間とし、$K'$ を K の拡大とします。 $u$ を E の自己準同型と F の $v$ 自己準同型とし、$u_{(K')}$ と $v_{(K')}$ をスカラーの拡大で得られた $E_{(K')}$ と $F_{(K')}$ の自己準同型とします。 VII, §5, No. 3、p. 32 の系 1 と 2 から、自己準同型 $u$ と $v$ は、自己準同型 $u_{(K')}$ と $v_{(K')}$ が類似する場合に限り、類似することがわかります。 これは、上記の定理 3 を代数 A = K[X] と A-加群 $M = E_u$ および $N = F_v$ (VII, §5, No. 1, p. 29) に適用した結果にもなります。
+E と F を 2 つの有限次元ベクトル空間と可換体 K とし、$K'$ を K の拡大とします。 $u$ を E の自己準同型と F の $v$ 自己準同型とし、$u_{(K')}$ と $v_{(K')}$ を$E_{(K')}$ および $F_{(K')}$ の自己準同型は、スカラーの拡大によって取得されます。 VII, §5, No. 3、p. 32 の系 1 と 2 から、自己準同型 $u_{(K')}$ と $v_{(K')}$ が類似する場合に限り、自己準同型 $u$ と $v$ は類似することがわかります。これは、上記の定理 3 を代数 A = K[X] と A-加群 $M = E_u$ および $N = F_v$ (VII, §5, No. 1, p. 29) に適用した結果にもなります。
 
 ### 練習問題 {#alg-viii-s2-exercises}
 

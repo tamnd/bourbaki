@@ -42,16 +42,16 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 89e9ab5a36e7d9760c9aaf3512b7d4ea74125046a8e316803aac2e69c88759dd
+content_sha256: 373453ef4a777dd5b79048fc4098d4d8401d8448fdf2188e15a72fba4020a22b
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
 translation_method: google
 source_content_sha256: dfbb9d78abb1e74cb8df10a3c8d7099cfe102e2e7a75bb6d300412ab223621fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 88eda7f312f7384fb18d286b035bc7260a58c03d2799f150f1253531556160a5
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 群集合で稼働中
@@ -84,7 +84,7 @@ E を左 (または右) M セット、$M^0$ を M の反対のモノイドとし
 
 この段落の残りの部分では、〜でない限り特に明記されていない限り、残った M セットのみを考慮します。これを単に M セットと呼びます。 作用の法則は左の乗法で示されます。
 
-Eを集合とします。 G を E 上で演算する群とします。 G のすべての $\alpha$ について、$\alpha$ によって定義される $E^E$ の元は E の置換 ($\S$ 2、no. 3、例 2) です。 したがって、E に G の演算が与えられることは、G の $\mathfrak{S}_E$ に G の準同型が与えられることになります。
+E を集合とします。 G を E 上で演算する群とします。G のすべての $\alpha$ について、$\alpha$ によって定義される $E^E$ の元は E の置換 ($\S$ 2、no. 3、例 2) です。したがって、E に G の演算が与えられることは、G の準同型が $\mathfrak{S}_E$ に与えられることになります。
 
 $\S$ 3、no. 3 に準拠して、次の定義を作成します。
 
@@ -184,7 +184,7 @@ $$
 
 $x, y \in G$ の場合は、$x^y = y^{-1}xy = (\operatorname{Int} y^{-1})(x)$ とも書きます。
 
-G の部分群は、G のすべての内部自己同型 (§ 4, no. 4、定義 5) の下で安定している場合に限り、正常です。 G の部分群が G のすべての自己同型の下で安定している場合、特性と呼ばれます。 群 G の中心は特性部分群 (公式 (2)) です。
+G の部分群は、G のすべての内部自己同型 (§ 4, no. 4、定義 5) の下で安定している場合に限り、正常です。 G の部分群は、G の自己同型のすべての下で安定している場合、特性と呼ばれます。 群 G の中心は、特性部分群 (公式 (2)) です。
 
 群 G の中心は、G のすべての自己準同型 (練習問題 22) の下で必ずしも安定しているとは限りません。特に、演算子を使用した群の中心は必ずしも安定した部分群とは限りません。
 
@@ -196,7 +196,7 @@ G の自己同型 (それぞれ内部自己同型) の H に対する制限は H
 
 G を群、A $\subset$ G、および $b \in G$ とします。 b は、$bAb^{-1} = A$ の場合に A を正規化すると言われます。すべて $a \in A$, $bab^{-1} = a$ の場合、b は A を集中化すると言われます。 A と B を G の部分集合とします。 B のすべての元が A を正規化 (または集中化) する場合、B は A を正規化 (または集中化) していると言われます。
 
-The set of $g \in G$ which normalize (resp. centralize) A is called the normalizer (resp. centralizer) of A (cf. § 1, no. 5, Definition 9); it is often denoted by $N_G(A)$ or simply $N(A)$ (resp. $C_G(A)$ or $C(A)$). Gの部分群です。 A が G の部分群であるとき、$N_G(A)$ は、A が含む A であり、A が正常である G の最大の部分群として特徴付けることができます。
+A を正規化 (または集中化) する $g \in G$ の集合は、A (cf. § 1, no. 5、定義 9) のノーマライザー (または集中化) と呼ばれます。多くの場合、$N_G(A)$ または単に $N(A)$ (それぞれ $C_G(A)$ または $C(A)$) で表されます。それは G の部分群です。A が G の部分群であるとき、$N_G(A)$ は含む A であり、A が正常である G の最大の部分群として特徴付けることができます。
 
 #### 注意 {#alg-i-s5-n3-rem-1 .statement tag=05BB}
 
@@ -214,7 +214,7 @@ G を群、E を G セット、$x \in G$ とします。 $y = \alpha x$となる
 
 E の部分集合 X は、共役の関係に関して飽和している場合にのみ安定します。
 
-The mapping $\alpha \mapsto \alpha x$ of G into E is sometimes called the orbital mapping defined by x. これは G の E への G 射です (左変換により G の演算が付加されます)。 この写像の下にあるGの像$G . x$はxの軌道です。
+G の E への写像 $\alpha \mapsto \alpha x$ は、x によって定義される軌道写像と呼ばれることもあります。 これは G の E への G 射です (左変換により G の演算が付加されます)。 この写像の下にあるGの像$G . x$はxの軌道です。
 
 すべての $x \in E$ について、x によって定義される軌道写像が単射である場合、または $G \times E$ から $E \times E$ への写像 $(g, x) \mapsto (gx, x)$ が単射である場合、G は E 上で自由に動作するといわれます。
 
@@ -299,13 +299,13 @@ $$
 (a) *すべての同次 G セットは、H が G の部分群である形 G/H の同次 G セットと同型です。*
 (b) *H と H' を G の 2 つの部分群とします。G 集合 G/H と G/H' は、H と H' が共役である場合にのみ同型です。*
 
-同次 G セットは空ではないため、主張 (a) は命題 6 から続きます。 (b)を示します。 $f : G/H \to G/H'$ を G セット同型とします。 部分群 H は H の固定群であるため、構造の輸送、$G/H'$ の元の固定群です。 したがって、部分群 $H$ と $H'$ は共役 (no. 2、命題 2) になります。 If $H' = \alpha H \alpha^{-1}$, $H'$ is the stabilizer of the element $\alpha . H$ of $G/H$ (no. 2, Proposition 2) and hence $G/H'$ is isomorphic to $G/H$ (Proposition 6).
+同次 G セットは空ではないので、主張 (a) は命題 6 から成り立ちます。(b) を示します。 $f : G/H \to G/H'$ を G セット同型とします。 部分群 H は H の固定群であるため、構造の輸送、$G/H'$ の元の固定群です。したがって、部分群 $H$ と $H'$ は共役 (no. 2、命題 2) になります。 $H' = \alpha H \alpha^{-1}$ の場合、$H'$ は元の固定群 $G/H$ (no. 2, 命題 2) の $\alpha . H$ であるため、$G/H'$ は $G/H$ (命題 6) と同型です。
 
 #### 例 {#alg-i-s5-n5-exa-2 .statement tag=05BK}
 
-(1) $E$ を空ではない集合とします。 群 $S_E$ は $E$ に対して推移的に動作します。 If $x$ and $y$ are two elements of $E$, the mapping $\tau : E \to E$ such that $\tau(x) = y$, $\tau(y) = x$ and $\tau(z) = z$ for $z \neq x, y$, is a permutation of $E$. $a \in E$ にしましょう。 $a$ の固定群は $S_F$ と識別されます ($F = E - \{a\}$)。 したがって、同次 $G$-集合 $E$ は $S_E / S_F$ と同型です。
+(1) $E$ を空ではない集合とします。 群 $S_E$ は $E$ に対して推移的に動作します。 $x$ と $y$ が $E$ の 2 つの要素である場合、$z \neq x, y$ に対する $\tau(x) = y$、$\tau(y) = x$、$\tau(z) = z$ のようなマッピング $\tau : E \to E$ は、$E$ の順列になります。 $a \in E$ にしましょう。 $a$ の固定群は $S_F$ と識別されます ($F = E - \{a\}$)。 したがって、同次 $G$-集合 $E$ は $S_E / S_F$ と同型です。
 
-(2) $E$ を $n$ 元の集合および $(p_i)_{i \in I}$ を $\sum_i p_i = n$ となるような整数 $> 0$ の有限族とする。 $X$ を分割の集合、$E$ の $(F_i)_{i \in I}$ とし、すべての $i$ に対して $\mathrm{Card}(F_i) = p_i$ とします。 群 $S_E$ は $X$ に対して推移的に動作します。 The stabilizer $H$ of an element $(F_i)_{i \in I}$ of $X$ is canonically isomorphic to $\prod_{i \in I} S_{F_i}$ and is hence of order $\prod_{i \in I} p_i!$. 適用定理 1 と § 4, no. 4、系から命題 4 により、新しい証明が得られます。
+(2) $E$ を $n$ 元の集合とし、$(p_i)_{i \in I}$ を $\sum_i p_i = n$ となるような整数 $> 0$ の有限族とする。 $X$ を分割の集合 $E$ の $(F_i)_{i \in I}$ とし、すべての $i$ に対して $\mathrm{Card}(F_i) = p_i$ とします。 群 $S_E$ は $X$ に推移的に動作します。 固定群 $H$ の元 $(F_i)_{i \in I}$ の $X$ は、正準的に $\prod_{i \in I} S_{F_i}$ と同型であるため、 位数 $\prod_{i \in I} p_i!$ となります。 適用定理 1 と § 4, no. 4、系から命題 4 は、次の事実から新しい証明が得られます。
 
 $$
 \mathrm{Card}(X) = \frac{n!}{\prod_{i \in I} p_i!}

@@ -31,10 +31,10 @@ translation_method: google
 source_content_sha256: 60bbc08b0bba45d478ba940cb18808c44414344f01456f8e5401229c26b9224a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1c03d1d44f29e900794cc0954c4d50df97ecf2fe8f4bb9cd2cfdfa401938bde3
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。バナハ・シュタインハウス定理

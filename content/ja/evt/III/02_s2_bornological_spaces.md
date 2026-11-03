@@ -12,16 +12,16 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: 99db4f809d7fed62d09378c0c5320147363bd27a96855ce063178138f49ad7df
+content_sha256: 434fe2be89cbf477e65098ab19c91def4e6d1c191de20a2aff70132e65291774
 translated_from: content/en/evt/III/02_s2_bornological_spaces.md
 translation_method: google
 source_content_sha256: 40a687273614f4755635004c7de82956200bd4dc25c1f116ef776c135c6ae0d1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0fd05d29ce8ab1804efc37877e23d516f8e1265c11db0ad7a07042ddedfdf5f3
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。ボーンロジー 空間
@@ -51,7 +51,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 明らかは、準標準と凸型、平衡型、吸収性部分集合 (II、p. 20) の間の対応を考慮すると、(i) と (i') が同等であるということです。 p が E 上の準ノルムであり、各 E_A 上で連続である場合、p は E の有界部分集合で有界です。したがって、(i) は (ii) を意味します (II、p. 27、提案 5)。 (ii) が (ii') を意味することは明らかです。
 
-ここで、(E_i, u_i)_{i \in I} を (ii') のようにし、u を E から局所的に凸な空間 F への線形写像とします。その結果、(u(x_n)) は、0 に向かう E の点のすべての数列 (x_n) に対して F 内で制限されます。 III, p. 11 の補題 1 から、 線形写像 u \circ u_i : E_i \to F は I のすべての i \ に対して連続であることがわかります。 したがって、E の位相が u_i が連続である局所的に最も細かい凸型位相である場合、u は連続です (II, p. 27、提案 5)。 これは、(ii') が (iii) を意味することを証明します。
+ここで、(E_i, u_i)_{i \in I} を (ii') のようにし、u を E から局所的に凸な空間 F への線形写像とし、(u(x_n)) が 0 に向かう E の点のすべての数列 (x_n) について F 内で制限されるようにします。 補題 1 of III, p. 11 その線形写像 u \circ u_i : E_i \to F は、I のすべての i \ に対して連続です。したがって、E の位相が、u_i が連続である局所的に最も細かい凸型位相である場合、u は連続です (II, p. 27、提案 5)。これは、(ii') が (iii) を意味することを証明します。
 
 (iii) が (iii') を意味するのは明らか (III, p. 3, cor.) 最後に、p が E の有界部分集合で有界される E 上の半ノルムである場合、条件 (iii') は恒等式写像が E から半ノルムまで連続していると主張します。 空間 (E、p);他の語では、p は連続です。これは、(iii') が (i) を意味することを証明します。
 

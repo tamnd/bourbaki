@@ -35,10 +35,10 @@ translation_method: google
 source_content_sha256: 4be9d8f7039b4d494391e430e87dbd619d54a3c9a43b0816d5138e002b649b77
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c192bacf7ab0b37337a08933c88c3ba7f40eb072823b85f9bdf533382232fa81
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 評価環

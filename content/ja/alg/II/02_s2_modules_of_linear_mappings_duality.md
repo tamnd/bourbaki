@@ -46,16 +46,16 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 26
-content_sha256: 76f8b5f3c2209c850d3871d5c6ad9d940d2344ec6468e993072871e6e491aacc
+content_sha256: 3bb2888b4facfbc0ea08608f76a6ab17b2ac189bc6458c1049606433e6404f8c
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
 translation_method: google
 source_content_sha256: b68d6b666aad78a9fe6c8ac80cb610da120336ed9a4c3178da2cb94e6cf08597
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e33fc50fd8a2d7095cf14666ae3dc38447ad1e520d1050838f5090898095a9dd
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 線形写像の加群。二元性
@@ -152,7 +152,7 @@ $$
 \bar{v} \circ \bar{u} = \mathrm{Hom}(1_E, v \circ u) = 0
 $$
 
-(II、$§ 1$、no. 2、公式 (10)) $v \circ u = 0$ 以降。 The image of $\mathrm{Hom}(E, F')$ under $\bar{u}$ is therefore contained in the kernel $N$ of $\bar{v}$; let $f$ be the homomorphism of the $\mathbf{Z}$-module $\mathrm{Hom}(E, F')$ into $N$ whose graph is equal to that of $\bar{u}$; it is necessary to prove that $f$ is *bijective* and hence to define a mapping $g: N \to \mathrm{Hom}(E, F')$ such that $f \circ g$ and $g \circ f$ are the identity mappings. この場合、$w$ を $N$ の元、つまり $v \circ w = 0$ となるように線形写像 $w: E \to F$ とします。 後者の関係は、仮定による$w(E) \subset \mathrm{Ker}(v) = u(F')$と等価です。したがって、$u$は単射であるため、$w = u \circ w'$となる線形写像$w': E \to F'$が1つだけ存在し、$g(w) = w'$がとられます。 $g$ が望ましい条件を満たすことがすぐに検証されます。
+(II、$§ 1$、no. 2、公式 (10)) $v \circ u = 0$ 以降。 したがって、$\bar{u}$ の $\mathrm{Hom}(E, F')$ のイメージは、$\bar{v}$ のカーネル $N$ に含まれます。 $f$ を、グラフが $\bar{u}$ のグラフと等しい $\mathbf{Z}$ 加群 $\mathrm{Hom}(E, F')$ から $N$ への準同型性とする。 $f$ が *全単射* であることを証明する必要があり、したがって、$f \circ g$ と $g \circ f$ が恒等マッピングとなるようなマッピング $g: N \to \mathrm{Hom}(E, F')$ を定義する必要があります。 この場合、$w$ を $N$ の元、つまり $v \circ w = 0$ となるように線形写像 $w: E \to F$ とします。 後者の関係は、仮定による$w(E) \subset \mathrm{Ker}(v) = u(F')$と等価です。したがって、$u$は単射であるため、$w = u \circ w'$となる線形写像$w': E \to F'$が1つだけ存在し、$g(w) = w'$がとられます。 $g$ が望ましい条件を満たすことがすぐに検証されます。
 
 逆に、数列 (6) がすべての $A$ モジュール $E$ に対して正確であると仮定します。 $\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$ の場合、準同型 $w: E \to F'$ ごとに $v \circ u \circ w = 0$ となります。 $E = F'$ と $w = 1_{F'}$ を考慮すると、まず $v \circ u = 0$ 、つまり $u(F') \subset \mathrm{Ker}(v)$ がわかります。ここで、$E = \mathrm{Ker}(v)$ をとり、$\phi: E \to F$ を標準単射とします。次に、$\bar{v}(\phi) = v \circ \phi = 0$ by 定義となり、$\phi = \bar{u}(\psi) = u \circ \psi$ となるような$\psi \in \mathrm{Hom}(E, F')$ が存在します。これは明らかに$\mathrm{Ker}(v) \subset u(F')$ を暗示し、$F$ で (5) の正確性の証明が完成します。最後に、$\theta$ が $\mathrm{Ker}\, u$ の恒等写像である場合、$\bar{u}(\theta) = 0$、したがって $\theta = 0$ と $\mathrm{Ker}\, u = \{0\}$ となり、$F'$ における (5) の正確性が証明されます。
 
@@ -367,7 +367,7 @@ E を A-加群とし、E* を双対とします。 ⟨x, x*⟩ = 0 の場合、�
 
 #### 定義 4 {#alg-ii-s2-def-4 .statement tag=05NC}
 
-Given a subset M of E (resp. a subset M' of E*), the set of x* ∈ E* (resp. the set of x ∈ E) which are orthogonal to M (resp. M') is called the submodule totally orthogonal to M (resp. M') (or simply the submodule orthogonal to M (resp. M') if no confusion can arise).
+E の部分集合 M (または E* の部分集合 M') が与えられると、M (または M') に直交する x* ∈ E* の集合 (または x ∈ E の集合) は、M (または M') に完全に直交する部分加群と呼ばれます (または単に部分加群は、混乱が生じない限り M (それぞれ M') に直交します)。
 
 線型形式の定義により、Eに直交するE*の部分加群は0になります。 {0} に直交する E* の部分加群は E* と同一です。
 
@@ -459,7 +459,7 @@ $x \in E, y^* \in F^*$の場合。 ${}^t u$ が $\sigma^{-1}$ に対して *半�
 
 ### 6. 商加群の二重。 直和のデュアル。デュアル基底
 
-We apply Theorem 1 of no. 1 to the case where $F = A_s$:
+$F = A_s$ の場合に、no. 1 の定理を適用する 1 を適用します。
 
 #### 命題 9 {#alg-ii-s2-prop-9 .statement tag=05NK}
 
@@ -503,7 +503,7 @@ $$
 
 #### 系 {#alg-ii-s2-n6-cor-2 .statement tag=05NN}
 
-*Let M, N be two supplementary submodules in an A-module E and $p : E \to M, q : E \to N$ the corresponding projectors; then $^tp + ^tq : M^* \oplus N^* \to E^*$ is an isomorphism and $^tp$ (resp. $^tq$) is an isomorphism of $M^*$ (resp. $N^*$) onto the submodule of $E^*$ orthogonal to $N$ (resp. $M$). Moreover, if $i : M \to E$ and $j : N \to E$ are the canonical injections, $^tp \circ ^ti$ and $^tq \circ ^tj$ are the projectors $E^* \to ^tp(M^*)$, $E^* \to ^tq(N^*)$ corresponding to the decomposition of $E^*$ as the direct sum of $^tp(M^*)$ and $^tq(N^*)$.
+*Let M, N be two supplementary submodules in an A-module E and $p : E \to M, q : E \to N$ the corresponding projectors; then $^tp + ^tq : M^* \oplus N^* \to E^*$ is an isomorphism and $^tp$ (resp. $^tq$) is an isomorphism of $M^*$ (resp. $N^*$) onto the submodule of $E^*$ orthogonal to $N$ (resp. $M$). さらに、$i : M \to E$ と $j : N \to E$ が正準注入である場合、$^tp \circ ^ti$ と $^tq \circ ^tj$ は、$^tp(M^*)$ と $^tq(N^*)$ の直接和としての $E^*$ の分解に対応するプロジェクター $E^* \to ^tp(M^*)$ 、$E^* \to ^tq(N^*)$ です。
 
 $p \circ i = 1_M, \quad q \circ j = 1_N, \quad p \circ j = q \circ i = 0, \quad i \circ p + j \circ q = 1_E$、よって、転置(no. 5、式(16)、(17)、(18))により、§ 1, no. 6、系 2から命題 6に$^ti \circ ^tp = 1_{M^*}, \ ^tj \circ ^tq = 1_{N^*}, \ ^tj \circ ^tp = ^ti \circ ^tq = 0. \ ^tp \circ ^ti + ^tq \circ ^tj = 1_{E^*}$、命題が続きます。
 
@@ -675,18 +675,18 @@ $u(x) = y_0$ が解を認めるということは、$y_0 \in u(E)$ と命題が 
 
 #### 注意 {#alg-ii-s2-n8-rem-1 .statement tag=05O0}
 
-(1) Let $E$ be an $A$-module, $(F_i)_{i \in I}$ a family of $A$-modules and for all $i \in I$ let $u_i : E \to F_i$ be a linear mapping. 線形方程式の系ごと
+(1) $E$ を $A$ モジュール、$(F_i)_{i \in I}$ を $A$ モジュールのファミリー、すべての $i \in I$ について $u_i : E \to F_i$ を線形写像とします。線形方程式の系ごと
 $$
 u_i(x) = y_i \quad (i \in I)
 $$
-ここで、$y_i \in F_i$ は、*単一* 線形方程式 $u(x) = y$ と等価です。ここで、$u$ は、$E$ の写像 $x \mapsto (u_i(x))$ を $F = \prod_{i \in I} F_i$ と $y = (y_i)$ に変換したものです。 系 (29) は、すべての $i \in I$ に対して $y_i = 0$ である場合、*均質* と呼ばれます。
+ここで、$y_i \in F_i$ は、*単一* 線形方程式 $u(x) = y$ と等価です。ここで、$u$ は、$E$ の写像 $x \mapsto (u_i(x))$ を $F = \prod_{i \in I} F_i$ および $y = (y_i)$ に変換したものです。 系 (29) は、すべての $i \in I$ に対して $y_i = 0$ である場合、*均質* と呼ばれます。
 
 (2) $E$ が *基底* $(a_\lambda)_{\lambda \in L}$ を認めると仮定します。すべての $\lambda \in L$ について集合 $u(a_\lambda) = b_\lambda$ とすると、$x = \sum_{\lambda \in L} \xi_\lambda a_\lambda$ が方程式 $u(x) = y_0$ を満たすと言うのは、(有限台) $A$ の元の$(\xi_\lambda)_{\lambda \in L}$ が満たすというと同等です。 関係
 $$
 \sum_{\lambda \in L} \xi_\lambda b_\lambda = y_0.
 $$
 
-Conversely, looking for families $(\xi_\lambda)_{\lambda \in L}$ of elements of $A$ of finite support satisfying (30), is equivalent to solving the linear equation $u(x) = y_0$, where $u$ is the unique linear mapping of $E$ into $F$ such that $u(a_\lambda) = b_\lambda$ for all $\lambda \in L$ (§ 1, no. 11, Corollary 3 to Proposition 17).
+逆に、(30) を満たす有限サポートの $A$ の要素の族 $(\xi_\lambda)_{\lambda \in L}$ を探すことは、線形方程式 $u(x) = y_0$ を解くことと同じです。ここで、$u$ は、すべての $\lambda \in L$ について $u(a_\lambda) = b_\lambda$ となるような $E$ の $F$ への一意の線形マッピングです (§ 1, no. 11、系 3)提案17）。
 
 (3) 線形方程式 $u(x) = y_0$ は、$F = A_s$ のとき *スカラー* と呼ばれ、したがって $u$ は $E$ および $y_0$ 上の *線型形式* です。 $E$ が基底 $(a_\lambda)_{\lambda \in L}$ を認める場合、*注意* (2) から、そのような方程式は次のように書くこともできることがわかります。
 $$

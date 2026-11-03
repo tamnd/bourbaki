@@ -26,16 +26,16 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: e28a4289947a80803b4f75fee507f7b1f9345bc740f9e70b4507c9c4c42991f7
+content_sha256: beec54746842797327901d9336f4541b2458290b2f3da4c0122c6d3b7444e885
 translated_from: content/en/alg/V/08_s8_norms_and_traces.md
 translation_method: google
 source_content_sha256: c2e7557b98c678b7ab7b76840a046be64717fd2ef2e68d0dbcc702987b154e2d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 790071fa0463ec54fc8d098e388f615bae3511fbcced9cd01bd96c2cc4b625fd
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。 ノルムと痕跡
@@ -137,7 +137,7 @@ K には解 $A, = \cdots = A, = 0$ しかありません。$x = \sum_{i=1}^n \la
 
 #### 補題 2 {#alg-v-s8-lem-2 .statement tag=06LB}
 
-Let V be a vector space of finite dimension over K and $u$ a nilpotent endomorphism of V, then $\mathrm{Tr}(u) = 0$.
+V を K 上の有限次元のベクトル空間と V の $u$ 冪零自己準同型として、$\mathrm{Tr}(u) = 0$ とします。
 
 それぞれの整数 $n \geq 0$ について、$V_n$ を $u^n$ の像とします。 $u$ はゼロポテントなので、$0 \leq i < r - 1$ に対して $V_0 = V, V_r = 0$ と $V_i \neq V_{i+1}$ となるような整数 $r \geq 0$ が存在します。 $d_i$ を $V_{i-1}$ の次元とします ($1 \leq i \leq r$ の場合)。 V の基底 $(x_1, \ldots, x_d)$ は、$V_{i-1}$ の $d - d_i < j \leq d$ 形基底とベクトル $x_j$ が存在します ($1 \leq i \leq r$ の場合)。 $u(V_{i-1}) \subset V_i$ があるので、基底 $(x_1, \ldots, x_d)$ の $u$ の行列の対角線元は零です。したがって、$\mathrm{Tr}(u) = 0$ と補題が続きます。
 

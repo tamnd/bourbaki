@@ -38,16 +38,16 @@ subsections:
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: 8d75023ce25bed5faa4faada06dbbbd3594ab0b5093930d3b88a43567dca06f3
+content_sha256: 59b11586ca6f3bf009ec643cbf1b2441fd4e779bf49775f0705f66ed350f1cdb
 translated_from: content/en/alg/II/11_s11_graded_modules_and_rings.md
 translation_method: google
 source_content_sha256: cee0143d544bc99c4e8496ec6bc7458982857f3f0ed4fb081e4de491d7e81dfd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6a21f762aef11749a5721f87afffbd839d7b7e107a2a7df0410ff999c2d8d0f2
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 11。グレード加群および環
@@ -120,25 +120,25 @@ $\Delta$ の元がキャンセル可能である場合、(2) と命題 1 から�
 
 同様に、$\Delta = \Delta_0^{(r)}$ ($\Delta_0$ は 0 で示される単位元の可換モノイド) の場合、型 $\Delta_0$ の *合計目盛* (no. 1, 例 4) は型の目盛から導出されます。余対角準同型による$A$上の$\Delta$(それぞれ$M$)は、$A$上の環構造(それぞれ$M$上の加群構造)と互換性があります。
 
-(3) Let $A$ be a graded ring of type $\Delta$, $M$ a graded $A$-module of type $\Delta$ and $\lambda_0$ an element of $\Delta$; for all $\lambda \in \Delta$, let $M'_\lambda = M_{\lambda + \lambda_0}$ and let $M'$ be the $\mathbf{Z}$-module $\bigoplus_{\lambda \in \Delta} M'_\lambda$. As $A_\lambda M'_\mu \subset M_{\lambda + \mu + \lambda_0} = M'_{\lambda + \mu}$, $M'$ is an $A$-module and the $M'_\lambda$ form on $M'$ a graduation of type $\Delta$ compatible with the $A$-module structure of $M'$; the graded $A$-module $M'$ of type $\Delta$ thus defined is said to be obtained by shifting by $\lambda_0$ the graduation of $M$ and it is denoted by $M(\lambda_0)$. $\Delta$ が群の場合、等級付けされた $A$ モジュール $M'$ の基礎となる $A$ モジュールは $M$ で識別されます。
+(3) $A$ を型 $\Delta$ の等級付けされた環、$M$ を $\Delta$ の型 $\Delta$ および $\lambda_0$ 元の等級付けされた $A$ モジュールとします。すべての $\lambda \in \Delta$ について、$M'_\lambda = M_{\lambda + \lambda_0}$ と $M'$ を $\mathbf{Z}$ モジュール $\bigoplus_{\lambda \in \Delta} M'_\lambda$ とします。 $A_\lambda M'_\mu \subset M_{\lambda + \mu + \lambda_0} = M'_{\lambda + \mu}$ と同様に、$M'$ は $A$ モジュールであり、$M'$ の $M'_\lambda$ 形は $M'$ の $A$ モジュール構造と互換性のある型 $\Delta$ です。このように定義された型 $\Delta$ の等級付けされた $A$ 加群 $M'$ は、$M$ の目盛りを $\lambda_0$ シフトすることで得られると言われ、$M(\lambda_0)$ で表されます。 $\Delta$ が群の場合、等級付けされた $A$ モジュール $M'$ の基礎となる $A$ モジュールは $M$ で識別されます。
 
-*(4) $B$を可換環とします。 1 つの不確定要素の多項式環 $B[X]$ は、部分群 $BX^n$ ($n \geqslant 0$) (cf. III, § 2, no. 9 および IV) によって型 $\mathbf{N}$ に評価されます。
+*(4) $B$を可換環とします。 1 つの不確定要素の多項式環 $B[X]$ は、部分群 $BX^n$ ($n \geqslant 0$) (cf. III, § 2, no. 9 および IV) によって型 $\mathbf{N}$ に格付けされます。
 
-*(5) Let $B$ be a commutative ring, $E$ a $B$-module, $Q$ a quadratic form on $E$ and $C(Q)$ the Clifford algebra of $Q$ (cf. IX, § 9). $C(Q)$ のサブ$B$ モジュール $C^+(Q)$ および $C^-(Q)$ 形は、$C(Q)$ の環構造と互換性のある型 $\mathbf{Z}/2\mathbf{Z}$ の目盛りです。
+*(5) $B$を可換環、$E$を$B$加群、$Q$を$E$と$C(Q)$の2次式形、$Q$のクリフォード代数とする(cf. IX, § 9)。 $C(Q)$ のサブ$B$ モジュール $C^+(Q)$ および $C^-(Q)$ 形は、型 $\mathbf{Z}/2\mathbf{Z}$ の目盛りで、$C(Q)$ の環構造と互換性があります。
 
 #### 注意 {#alg-ii-s11-n2-rem-1 .statement tag=05Y3}
 
-(1) 最もよく使用される目盛りは、型 $\mathbf{Z}$ または型 $\mathbf{Z}^n$ です。 型について言及せずに、等級 (それぞれ 2 等級、3 等級など) 加群および環について話す場合、型 $\mathbf{Z}$ (それぞれ $\mathbf{Z}^2, \mathbf{Z}^3$ など) の等級を意味すると理解されます。 型 $\mathbf{N}$ のグレーディング環 (それぞれ加群) は、プラスの次数を持つグレーディング環 (それぞれ加群) とも呼ばれます。
+(1) 最もよく使用される目盛りは、型 $\mathbf{Z}$ または型 $\mathbf{Z}^n$ です。 型に言及せずに等級 (それぞれ 2 等級、3 等級など) 加群および環について話す場合、型 $\mathbf{Z}$ (それぞれ $\mathbf{Z}^2, \mathbf{Z}^3$ など) の等級を意味すると理解されます。 型 $\mathbf{N}$ のグレーディング環 (それぞれ加群) は、ポジティブ次数を持つグレーディング環 (それぞれ加群) とも呼ばれます。
 
-(2) 型 $\Delta$ の等級付き $\mathbf{Z}$ 加群は、$\mathbf{Z}$ が自明な階位を持つ場合、定義 1 の等級付き可換群 (次数の集合は可換モノイド) にすぎません。 (no. 1)。
+(2) 型 $\Delta$ の等級付き $\mathbf{Z}$ 加群は、$\mathbf{Z}$ が自明な階位を持つとき、定義の等級付き可換群 (次数の集合は可換モノイド) にすぎません。 1 (no. 1)。
 
 #### 定義 4 {#alg-ii-s11-def-4 .statement tag=05Y4}
 
 *$A, A'$ を、同じ型 $\Delta$ と $(A_\lambda), (A'_\lambda)$ の 2 つの等級環とします。 環準同型 $h : A \to A'$ は、すべての $\lambda \in \Delta$ に対して $h(A_\lambda) \subset A'_\lambda$ の場合、グレーディングと呼ばれます。
 
-$M, M'$ を、型 $\Delta$ の等級付けされた環に対して、型 $\Delta$ の 2 つの等級付けされた加群とします。 Let $u : M \to M'$ be an $A$-homomorphism and $\delta$ an element of $\Delta$; $u$ is called graded of degree $\delta$ if $u(M_\lambda) \subset M_{\lambda + \delta}$ for all $\lambda \in \Delta$.
+$M, M'$ を、型 $\Delta$ の等級付けされた環に対して、型 $\Delta$ の 2 つの等級付けされた加群とします。 $u : M \to M'$ を $A$ 準同型写像とし、$\Delta$ の $\delta$ 元とします。 $\lambda \in \Delta$ がすべて $u(M_\lambda) \subset M_{\lambda + \delta}$ の場合、$u$ は次数 $\delta$ のグレードと呼ばれます。
 
-$A$ を型 $\Delta$ のグレード環、$A'$ を型 $\Delta'$ および $\rho : \Delta \to \Delta'$ 準同型のグレード環とします。 A ring homomorphism $h : A \to A'$ is called graded if $h$ is a graded homomorphism of graded rings of type $\Delta'$ when $A$ is given the graduation of type $\Delta'$ derived from its graduation of type $\Delta$ by means of $\rho$ (no. 1, Example 2); this therefore means that $h(A_\lambda) \subset A'_{\rho(\lambda)}$ for all $\lambda \in \Delta$.
+$A$ を型 $\Delta$ のグレード環、$A'$ を型 $\Delta'$ および $\rho : \Delta \to \Delta'$ 準同型のグレード環とします。 $h$ がタイプ $\Delta'$ の段階的リングの段階的準同型であり、$A$ に $\rho$ (no. 1、例 2) によってタイプ $\Delta$ の段階から導出されたタイプ $\Delta'$ の段階が与えられる場合、リング準同型 $h : A \to A'$ は段階的と呼ばれます。したがって、これはすべての $\lambda \in \Delta$ に対して $h(A_\lambda) \subset A'_{\rho(\lambda)}$ であることを意味します。
 
 $u$ が次数 $\delta$ に等級付けされるような $\delta \in \Delta$ が存在する場合、$A$-準同型性 $u : M \to M'$ は等級付きと呼ばれます。 $u \neq 0$ と $\Delta$ のすべての元がキャンセル可能である場合、$u$ の次数 $\delta$ は一意に決まります。
 
@@ -229,11 +229,11 @@ $$
 
 $(\mathbf{N}_i)$ が $M$ の等級付けされた部分加群の族である場合、命題 2 の性質 (c) は、$\mathbf{N}_i$ の和が同次元によって生成されることを示し、命題 2 の性質 (b) が証明します。 $\bigcap_i \mathbf{N}_i$ 属するから $\bigcap_i \mathbf{N}_i$ のすべての元の同種の成分 。 よって (i)。
 
-(ii) を証明するには、$\operatorname{Ann}(x)$ が $A$ モジュール $A_s$ の $M$ の準同型 $a \mapsto ax$ の核であり、この準同型が次数 $\mu$ のグレードであることに注意するだけで十分です。結論は命題 3(ii) から得られます。 Finally (iii) is a consequence of (i) and (ii) for the annihilator of a graded submodule $N$ of $M$ is the intersection of the annihilators of the homogeneous elements of $N$, by virtue of Proposition 2.
+(ii) を証明するには、$\operatorname{Ann}(x)$ が $A$ モジュール $A_s$ の $M$ の準同型 $a \mapsto ax$ の核であり、この準同型が次数 $\mu$ のグレードであることに注意するだけで十分です。結論は命題 3(ii) から得られます。 最後に (iii) は、命題 2 により、$M$ の段階的サブモジュール $N$ の対消滅器に対する (i) と (ii) の結果であり、$N$ の同種要素の対消滅器の共通部分です。
 
 #### 注意 2 {#alg-ii-s11-n3-rem-2 .statement tag=05YC}
 
-Let $M$ be a graded $A$-module and $E$ a submodule of $M$; it follows from Proposition 4(i) that there exists a *largest* graded submodule $N'$ of $M$ contained in $E$ and a *smallest* graded submodule $N''$ of $M$ containing $E$; $N'$ is the set of $x \in E$ all of whose homogeneous components belong to $E$ and $N''$ is the submodule of $M$ generated by the homogeneous components of a generating system of $E$.
+$M$ をグレード付きの $A$ モジュール、$E$ を $M$ のサブモジュールとします。命題 4(i) から、$E$ に含まれる $M$ の *最大の* 段階的サブモジュール $N'$ と、$E$ を含む $M$ の *最小の* 段階的サブモジュール $N''$ が存在することがわかります。 $N'$ は $x \in E$ のセットであり、その均質コンポーネントはすべて $E$ に属し、$N''$ は $E$ の生成システムの均質コンポーネントによって生成される $M$ のサブモジュールです。
 
 #### 命題 5 {#alg-ii-s11-prop-5 .statement tag=05YD}
 
@@ -271,7 +271,7 @@ $x$ を $M_{\lambda_0}$ の非ゼロ元とします。 $x \in \mathfrak{I}_0 M$ 
 
 *$\Delta$ と命題 6 の A の仮説で、M が $\mathfrak{I}_0 M = M$ のように有限に生成された等級付けされた A-加群である場合、$M = \{0\}$ になります。*
 
-$M \neq \{0\}$ と仮定します。 Let $\lambda_0$ be a minimal element of the set of degrees of a finite generating system of M consisting of homogeneous elements $\neq 0$; then the hypotheses of Proposition 6 would be fulfilled, which implies a contradiction.
+$M \neq \{0\}$ と仮定します。 $\lambda_0$ を、同次要素 $\neq 0$ からなる M の有限生成系の次数の集合の最小要素とします。その場合、命題 6 の仮説が成り立つことになり、これは矛盾を意味します。
 
 #### 系 2 {#alg-ii-s11-prop-6-cor-2 .statement tag=05YH}
 
@@ -299,7 +299,7 @@ $$
 
 #### 注意 {#alg-ii-s11-n4-rem-1 .statement tag=05YJ}
 
-It follows from the proof of Corollary 1 that Corollaries 1 and 2 (resp. Corollary 3) are still valid when, instead of assuming that $\mathbf{M}$ (resp. $\mathbf{N}$) is finitely generated, the following hypothesis is made: there exists a subset $\Delta^+$ of $\Delta$ satisfying the following conditions:
+系 1 の証明から、系 1 と 2 (系 3) は、$\mathbf{M}$ (それぞれ $\mathbf{N}$) が有限に生成されると仮定する代わりに、次の仮説が立てられる場合、依然として有効であることがわかります: 以下の条件を満たす $\Delta$ の部分集合 $\Delta^+$ が存在します。
 
 (1) $\lambda \notin \Delta^+$、$M_\lambda = \{0\}$ (それぞれ $N_\lambda = \{0\}$) の場合。
 (2) $\Delta^+$ の空でないすべての部分集合には、少なくとも元があります。
@@ -372,7 +372,7 @@ f(x_\lambda, y_\mu) \in P_{\lambda+\mu} \quad \text{for } x_\lambda \in M_\lambd
 $$
 次に、$f(x, y) = g(x \otimes y)$、ここで、$g : M \otimes_A N \to P$ は $\mathbf{Z}$ 線形マッピング ($§ 3$、no. 1、命題 1) であり、上記の条件から、$g$ は *次数付き* $\mathbf{Z}$ モジュールであることがわかります。 準同型/次数 0。
 
-Let $B$ be another graded ring of type $\Delta$ and $\rho : A \to B$ a homomorphism of graded rings (no. 2); then $\rho^*(B_d)$ is a graded right $A$-module of type $\Delta$. $E$ が型 $\Delta$ の段階的左 $A$ モジュールであり、$\rho^*(B_d) \otimes_A E$ に上で定義された型 $\Delta$ の段階的 $\mathbf{Z}$ モジュール構造が与えられる場合、正規の左 $B$ モジュール構造 ($§ 5$, no. 1) の卒業に対応しています。
+$B$ をタイプ $\Delta$ の別の勾配リングとし、$\rho : A \to B$ を勾配リング (no. 2) の準同型写像とします。この場合、$\rho^*(B_d)$ は、タイプ $\Delta$ のグレード付き右 $A$ モジュールです。 $E$ が型 $\Delta$ の段階的左 $A$ モジュールであり、$\rho^*(B_d) \otimes_A E$ に上で定義された型 $\Delta$ の段階的 $\mathbf{Z}$ モジュール構造が与えられる場合、正規の左 $B$ モジュール構造 ($§ 5$, no. 1) の卒業に対応しています。
 $$
 E_{(B)} = \rho^*(E) = \rho^*(B_d) \otimes_A E.
 $$
@@ -382,7 +382,7 @@ $$
 
 このNo.で推測します。モノイド $\Delta$ が *群* であること。 $A$ を、型 $\Delta$ のグレード付き環と、$M, N$ 2 つのグレード付き左 (たとえば) 型 $\Delta$ の $A$ モジュールとします。 $H_\lambda$ が準同型の次数* $\lambda$ の $M$ から $N$ (no. 2) に等級付けされた加法群を表すものとします。 加法群 $\mathrm{Hom}_A(M, N)$ の *すべて* 準同型の $M$ を $N$ (*非段階的* $A$ モジュール構造を使用) $H_\lambda$ の和 ($\lambda \in \Delta$ 用) は *直接* です。 なぜなら、すべての $\lambda$ に対して $u_\lambda \in H_\lambda$ を伴う関係 $\sum_\lambda u_\lambda = 0$ がある場合、すべての $\mu$ とすべての $x_\mu \in M_\mu$ に対して $\sum_\lambda u_\lambda(x_\mu) = 0$ が求まります。 $\Delta$の元はキャンセル可能であるため、$u_\lambda(x_\mu)$は次数$\lambda + \mu$の$\sum_\lambda u_\lambda(x_\mu)$の同次成分です。したがって、注文されたすべての対 $(\mu, \lambda)$ とすべての $x_\mu \in M_\mu$ に対して $u_\lambda(x_\mu) = 0$ となり、すべての $\lambda \in \Delta$ に対して $u_\lambda = 0$ が意味されます。 (この段落では) $\mathrm{Hom}_A(M, N)$ 和の $H_\lambda$ の加法部分群を $\mathrm{Homgr}_A(M, N)$ で表し、それを *次数付き* $A$-*加群準同型* の $M$ の加法群と呼ぶことにします。 $N$。 $C$ を $A$ の中心とします。これは、等級付けされた部分環 (no. 3、系 ～ 命題 5) です。 $\mathrm{Hom}_A(M, N)$ ($§ 1$、no. 14、*注意* 1) の標準的な $C$ モジュール構造の場合、$\mathrm{Homgr}_A(M, N)$ は *部分加群* であり、目盛り $(H_\lambda)$ は $C$ モジュール構造と *互換性* があります。 $c_v \in C \cap A_v$、$x_\mu \in N_\mu$、$u_\lambda \in H_\lambda$、そして定義 $(c_vu_\lambda)(x_\mu) = c_v.u_\lambda(x_\mu) \subset N_{\lambda+\mu+v}$、したがって$c_vu_\lambda \in H_{\lambda+v}$までです。
 
-$M'$ と $N'$ を、型 $\Delta$ と $u': M' \to M$ の 2 つの等級付けされた左 $A$ モジュール、それぞれ次数 $\alpha$ と $\beta$ の $v': N \to N'$ 等級付けされた準同型とします。 Then it is immediate that $\mathrm{Hom}(u', v'): w \mapsto v' \circ w \circ u'$ maps $\mathrm{Homgr}_A(M, N)$ into $\mathrm{Homgr}_A(M', N')$ and that its restriction to $\mathrm{Homgr}_A(M, N)$ is a *graded* homomorphism into $\mathrm{Homgr}_A(M', N')$ *of degree* $\alpha + \beta$.
+$M'$ と $N'$ を、型 $\Delta$ と $u': M' \to M$ の 2 つの等級付けされた左 $A$ モジュール、それぞれ次数 $\alpha$ と $\beta$ の $v': N \to N'$ 等級付けされた準同型とします。 次に、$\mathrm{Hom}(u', v'): w \mapsto v' \circ w \circ u'$ が $\mathrm{Homgr}_A(M, N)$ を $\mathrm{Homgr}_A(M', N')$ にマッピングし、その $\mathrm{Homgr}_A(M, N)$ への制限が $\mathrm{Homgr}_A(M', N')$ *次数* $\alpha + \beta$ への *次数付き* 準同型であることがすぐに分かります。
 
 特に、$\mathrm{Homgr}_A(M, M)$ は、$\mathrm{End}_A(M)$ の *グレード付けされた部分環* であり、$\mathrm{Endgr}_A(M)$ で示されます。
 
@@ -390,7 +390,7 @@ $M'$ と $N'$ を、型 $\Delta$ と $u': M' \to M$ の 2 つの等級付けさ�
 
 $M$ と $N$ が左の $A$ モジュールにグレード付けされている場合、$\mathrm{Homgr}_A(M, N)$ は一般に $\mathrm{Hom}_A(M, N)$ とは異なります。ただし、$M$ が *有限生成* $A$ モジュールである場合、これら 2 つの集合は等しくなります。 $M$ は、同次元 $x_i$ ($1 \leq i \leq n$) の有限数によって生成されます。 $d(i)$ を $x_i$ の次数とします。 $u \in \mathrm{Hom}_A(M, N)$ とすべての $\lambda \in \Delta$ について、$z_{i,\lambda}$ は次数 $\lambda + d(i)$ の $u(x_i)$ の同種の成分を表すものとします。すべての $i$ に対して $u_\lambda(x_i) = z_{i,\lambda}$ となる準同型 $u_\lambda : M \to N$ が存在することを示します。 $1 \leq i \leq n$ に対して $a_i \in A$ を含む $\sum_i a_ix_i = 0$ がある場合、すべての $\lambda \in \Delta$ ($§ 1$、no. 7、*注意*) に対して $\sum_i a_iz_{i,\lambda} = 0$ であることを証明すれば十分です。すべての $i$ (no. 3, *注意* 1) に対して $d(i) + d'(i) = \mu$ となるように、各 $a_i$ は次数 $d'(i)$ と同次であると仮定できます。それから$\sum_i a_iu(x_i) = 0$;左側の次数 $\lambda + \mu$ の同次成分を取得すると、$\sum_i a_iz_{i,\lambda} = 0$、よってが得られ、準同型 $u_\lambda$ の存在がわかります。さらに、$u_\lambda$ は明らかに次数 $\lambda$ の *グレード* です。最後に、$\lambda$の値の有限の数と、定義による$u = \sum_\lambda u_\lambda$を除いた$u_\lambda = 0$は、主張を証明します。
 
-In particular, $\mathrm{Homgr}_A(A_s, M) = \mathrm{Hom}_A(A_s, M)$ for every graded left $A$-module $M$; moreover $\mathrm{Hom}_A(A_s, M)$ has a *graded left A-module* structure (and not just a graded $C$-module structure), and it is immediate that with this structure the canonical mapping of $M$ into $\mathrm{Hom}_A(A_s, M)$ ($§ 1$, no. 14, *Remark* 2) is a *graded A-module isomorphism*.
+特に、すべての段階的左 $A$ モジュール $M$ に対して $\mathrm{Homgr}_A(A_s, M) = \mathrm{Hom}_A(A_s, M)$。さらに、$\mathrm{Hom}_A(A_s, M)$ は *段階的左 A 加群* 構造 (単なる段階的 $C$ 加群構造ではない) を持ち、この構造を使用すると、$M$ の $\mathrm{Hom}_A(A_s, M)$ ($§ 1$、no. 14、*注釈* 2) への正規写像が *次数付き A 加群同型* であることがすぐに分かります。
 
 同様に、$\mathrm{Homgr}_A(M, A_s)$ には *段階的な右A-加群* 構造があります (段階的な $C$ モジュール構造だけではありません)。これは、次数付き$A$モジュール$M$の*段階的双対*と呼ばれ、$M^{*\mathrm{gr}}$、または混乱が生じない場合は単に$M^*$で示されます。 $u : M \to N$ が次数 $\delta$ のグレーディング準同型である場合、上記のことから、${}^t u = \mathrm{Hom}(u, 1_{A_s})$ の制限から $N^{*\mathrm{gr}}$ は、グレーディングデュアル $N^{*\mathrm{gr}}$ のグレーディングデュアル $M^{*\mathrm{gr}}$ へのグレーディング準同型であることがわかります。 次数 $\delta$、$u$ の *グレード転置* と呼ばれます。
 

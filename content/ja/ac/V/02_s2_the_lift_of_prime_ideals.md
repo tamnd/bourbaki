@@ -29,16 +29,16 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: fb7437053723a32200b40fe36b94a9a025e1e187b841d74608d8659bf640a685
+content_sha256: 47860edf4dd31975c98449f58844272794d3aac36300253430aa7cf90520008b
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
 translation_method: google
 source_content_sha256: 89a50149d078678d4ea98a688a9a6bd071b42b62e0d62c0a7d340a9d004553ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e2a6ed373afbf85f43cab20e44e55eb2426a34722ee620eebc379e31551d2b80
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 挙上の主要な理想
@@ -116,16 +116,16 @@ $S = A - \mathfrak{p}$ と書きましょう。この場合、$S^{-1}A'$ は $S^
 
 $A'$ を $A'$ の整域、$A$ 部分環とし、$A'$ が$A$ と$f$ 準同型で$A'$ から環までの積分となるようにします。 $B$。 制限から $A$ までが単射である場合、$f$ は単射です。
 
-$a'$ が核オフの場合、仮定は $a' \cap A = (0)$ を意味します。 $A'$ が整域であるため、$p$ と $p'$ をそれぞれ$A$ の理想 (0) と$A'$ の理想 (0) としてよって $a' = (0)$ として、系 1 を適用できます。
+$a'$ が核オフの場合、仮定は $a' \cap A = (0)$ を意味します。 $A'$ が整域であるため、$p$ と $p'$ をそれぞれ $A$ の理想 (0) と $A'$ の理想 (0) として、系 1 を適用すると、よって $a' = (0)$ となります。
 
 #### 系 3 {#ac-v-s2-lem-2-cor-3 .statement tag=04PP}
 
-$h : A \to A'$ を環準同型とし、$A'$ が $A$ と $m$ の最大理想$A$ について積分し、$A'$ には有限の数の個別の最大理想$m'_j$ のみが存在すると仮定します。 ($1 \leq j \leq n$) $m$ の上に横たわっています。 $m'_j$ (章 II, § 2, no. 4) に対する $mA'$ の彩度を $q'_j$ とします。次に:
+$h : A \to A'$ を環準同型とし、$A'$ が $A$ と $m$ の最大理想値 $A$ について積分し、$A'$ には別個の最大理想値が有限の数のみであると仮定します。 $m$の上に横たわる$m'_j$ ($1 \leq j \leq n$)。 $q'_j$ を $m'_j$ に対する $mA'$ の彩度 (章 II, § 2, no. 4) とします。次に:
 (i) 環 $A'/q'_j$ では、零の因子は $m'_j/q'_j$ の元であり、それらは零能 ($1 \leq j \leq n$) です。
 (ii) $mA' = \bigcap_j q'_j = \prod_j q'_j$。
 (iii) 標準準同型 $A'/mA' \to \prod_j (A'/q'_j)$ は全単射です。
 
-$A'$ から含む $mA'$ までの主要な理想の場合、$m$ は $A$ で最大であるため、その逆像が $h$ 含む $m$ の下にあり、したがって$m$ より上にあることが必要かつ十分です。したがって、$m'_j$ は $A'$ 含む $mA'$ (命題 1) の唯一の素イデアルであり、したがって $c' = \bigcap_j m'_j$ は $mA'$ の根基 (章 II, § 2, no. 6, 系 1 ～ 命題 13）。 $q'_j$の定義までに、類mod。 $A' - m'_j$の元の$q'_j$は、$A'/q'_j$の0の因子ではありません。一方、$m'_j$ は別個の最大理想であるため、添字 $j$ ごとに元 $a'_j$ 所属から $\bigcap_j m'_j$ までが存在し、$m'_j$ (章 II, § 1, no. 1, 命題 4): したがって、すべての $x \notin m'_j, a'_j x \in r'$ に対して、類 mod. $a'_j x$の$q'_j$はゼロであり、$a'_j$は0の因子ではないので、$x$の類はゼロであると結論する考えます。他の語 $m'_j$ は$q'_j$ の根基であり、(i) を証明します。したがって、$q'_j$ は対 (章 II, § 1, no. 1, 命題 3) において互いに素であることがわかります。したがって、(iii) は、章 II, § 1, no. 2、命題を考慮すると、(ii) の帰結になります。 5. (ii) を確立するには、環 $A'/mA'$ では、$m'_j/mA'$ が唯一の最大理想であり、$q'_j/mA'$ が飽和であることに注意してください。 $m'_j/mA'$ (章 11, § 2, no. 4) に関して (0) のうち、したがって、私たちはケース $mA' = (0)$ に注意を限定するかもしれません。 (ii) の主張は、章 II, § 3, no. 3、系 2 から定理 1 に続きます。
+$A'$ から含む $mA'$ までの主要な理想の場合、逆像が $h$ 含む $m$ の下にあり、したがって $m$ が最大であるため、$m$ より上にあることが必要かつ十分です。 $A$;したがって、$m'_j$ は $A'$ 含む $mA'$ (命題 1) の唯一の素イデアルであり、したがって $c' = \bigcap_j m'_j$ は $mA'$ (章 II, § 2, no. 6, 系) の根基です。 1から命題13）。 $q'_j$ の定義により、類 mod。 $A' - m'_j$の元の$q'_j$は、$A'/q'_j$の0の因子ではありません。一方、$m'_j$ は別個の最大理想であるため、添字 $j$ ごとに元 $a'_j$ 所属から $\bigcap_j m'_j$ までが存在しますが、$m'_j$ (章 II, § 1, no. 1, 命題 4): したがって、すべての $x \notin m'_j, a'_j x \in r'$ に対して、類 mod. $a'_j x$ の $q'_j$ はゼロであり、$a'_j$ は 0 の因子ではないので、結論するは $x$ の類はゼロであると考えられます。他の語 $m'_j$ は $q'_j$ の根基であり、(i) を証明します。したがって、$q'_j$ は対 (章 II, § 1, no. 1, 命題 3) において互いに素であることがわかります。したがって、(iii) は、章 II, § 1, no. 2、命題を考慮すると、(ii) の帰結になります。 5. (ii) を確立するために、環 $A'/mA'$ では、$m'_j/mA'$ が唯一の最大理想であり、$q'_j/mA'$ が最大の理想であることに注意してください。 $m'_j/mA'$ (章 11, § 2, no. 4) に対する (0) の彩度。したがって、私たちはケース $mA' = (0)$ に注意を限定するかもしれません。 (ii) の主張は、章 II, § 3, no. 3、系 2 から定理 1 に続きます。
 
 #### 注意 (1) {#ac-v-s2-n1-rem-1 .statement tag=04PQ}
 
@@ -133,21 +133,21 @@ $A'$ がネーター の場合、(i) と (ii) から、$(q'_j)_{1 \leq j \leq n}
 
 #### 定理 1 {#ac-v-s2-thm-1 .statement tag=04PR}
 
-$h : A \to A'$ を単射詞環準同型とし、$A$ が $A$ と $p$ が $A$ の素イデアルに対して積分となるようにします。 $p$の上には、$A'$の主要な理想$p'$が存在します。
+$h : A \to A'$ を単射法環準同型とし、$A$ が $A$ および $p$ が $A$ の素イデアルに対して積分となるようにします。 $p$の上には$A'$の最高の理想$p'$が存在します。
 
-まず、$A$ が局所環であり、$p$ が $A$ の最大理想であると仮定します。すると、$A'$ のすべての最大イデアル $m'$ に対して、$h^{-1}(m')$ は $A$ (命題 1) の最大イデアルなので、$p$ に等しくなります。この場合、定理であることが証明されます ($A'$ 含むなので) $A$ 仮定なので 0 には減りません)。 一般的なケースでは、$S = A - p$ と書きましょう。その場合、$S^{-1}A$ は局所環で、その最大理想値は $S^{-1}p$ (章 11、§ 2, no. 5、命題 11)、$S^{-1}h : S^{-1}A \to S^{-1}A$ は単射法 (章 II, § 2, no. 4、定理 1) であり、 $S^{-1}A'$ は $S^{-1}A$ に対して整数です ($§ 1$、no. 5、命題 16)。その場合、$S^{-1}p$の上にある$S^{-1}A'$の主イデアル$q'$が存在し、$q' = S^{-1}p'$がわかります。ここで、$p'$は、$p$(補題1)の上にある$A'$の主イデアルです。
+まず、$A$ が局所環であり、$p$ が $A$ の最大理想であると仮定します。すると、$A'$ の各最大イデアル $m'$ について、$h^{-1}(m')$ は $A$ (命題 1) の最大イデアルであり、したがって $p$ に等しくなります。この場合、定理であることが証明されます ($A'$ 含むなので) $A$ 仮定なので 0 には減りません)。一般的なケースでは、$S = A - p$ と書きましょう。その場合、$S^{-1}A$ は局所環で、その最大理想値は $S^{-1}p$ (章 11, § 2, no. 5, 命題 11)、$S^{-1}h : S^{-1}A \to S^{-1}A$ は単射法です (章 II, § 2, no. 4, 定理 1) $S^{-1}A'$ は $S^{-1}A$ に対して整数です ($§ 1$、no. 5、命題 16)。その場合、$S^{-1}p$ の上にある$S^{-1}A'$ の主イデアル $q'$ が存在し、$q' = S^{-1}p'$ がわかります。ここで、$p'$ は、$p$ (補題 1) の上にある$A'$ の主イデアルです。
 
-$h : A \to A'$ が単射でない場合、準同型 $Z \to \mathbf{Z}/n\mathbf{Z} \ (n > 1)$ の例が示すように、定理 1 は必ずしも真ではなくなります。ただし、定理 1 は標準単射 $h(A) \to A'$ に適用できます。他の語、主張の定理 1 は、素イデアル $p$ 含む $\mathrm{Ker}(h)$ に当てはまります。
+準同型 $Z \to \mathbf{Z}/n\mathbf{Z} \ (n > 1)$ の例が​​示すように、$h : A \to A'$ が単射でない場合、定理 1 は必ずしも真ではなくなります。ただし、定理 1 は標準単射 $h(A) \to A'$ に適用できます。他の語、主張の定理 1 は、素イデアル $p$ 含む $\mathrm{Ker}(h)$ に当てはまります。
 
 #### 系 1 {#ac-v-s2-thm-1-cor-1 .statement tag=04PS}
 
 仮説と定理 1、$\bar{h}^{-1}(pA') = p$ の記法を使用します。
 
-$pA' \subset p'$ と $\bar{h}(p') = p$。
+$pA' \subset p'$と$\bar{h}(p') = p$。
 
 #### 系 2 {#ac-v-s2-thm-1-cor-2 .statement tag=04PT}
 
-$h : A \to A'$ を環準同型とし、$A'$ が $A$、$a$、$p$ の 2 つの理想$A$ に対して積分となり、$a \subset p$ と $a'$ が$A'$ の理想を上に置くようにします。 $a$。 $p$ が素数だとします。そして、$p$と含む$a'$の上に、$A'$の主要な理想$p'$が存在します。
+$h : A \to A'$ を環準同型とし、$A'$ が $A$、$a$、$p$ の 2 つの理想である $A$ に対して積分となり、$a \subset p$ と $a'$ が理想となるようにします。 $A'$は$a$の上に横たわっています。 $p$ が素数であるとします。そして、$p$と含む$a'$の上に、$A'$の主要な理想$p'$が存在します。
 
 $h_1 : A/a \to A'/a'$ が $h$ から商を取って導出された準同型である場合、$h_1$ は仮定により単射であり、$A'/a'$ は $A/a$ の積分です ($§ 1$, no. 1, 命題 2)。その場合、$p/a$ (定理 1) の上に$A'/a'$ ($A$ の p' 素数) の素イデアル $p'/a'$ が存在し、$p'$ が必要なイデアルです。
 
@@ -161,7 +161,7 @@ $32$ を $A$ のジェイコブソン根基とします。 $A'$ の各最大イ�
 
 $A$ を環、$A'$ 環含む $A$ とし、$A$ と $f$ 準同型を $A$ から代数閉体まで積分します。 $L$。すると、$f$ は、$A'$ から $L$ まで、準同型まで拡張できます。
 
-$\mathfrak{p}$ を $f$ の核とします。これは、$f(A) \subset L$ が整域であるため、最も理想的です。 $\mathfrak{p}'$ を、$\mathfrak{p}$ (定理 1) の上にある $A'$ の主要な理想とします。 次に、$A/\mathfrak{p}$ は$A'/\mathfrak{p}'$ の部分環と正準的に識別され、$A'/\mathfrak{p}'$ は$A/\mathfrak{p}$ ($§ 1$、no. 1、命題 2) に対して積分されます。 準同型 $f$ 定義する、$A/\mathfrak{p}$ の商、同型を $L$ の部分環 $f(A)$ にすると、体の同型 $g$ に拡張できます。 分数 $A/\mathfrak{p}$ の $K$ を $L$ の部分体に。 As the field of fractions $K'$ of $A'/\mathfrak{p}'$ is algebraic over $K$, $g$ can be extended to an isomorphism $g'$ of $K'$ onto a subfield of $L$ (Algebra, Chapter V, $§ 4$, no. 2, Corollary to Theorem 1); if $\pi': A' \to A'/\mathfrak{p}'$ is the canonical homomorphism, $g' \circ \pi'$ is a homomorphism from $A'$ to $L$ extending $f$.
+$\mathfrak{p}$ を $f$ の核とします。これは、$f(A) \subset L$ が整域であるため、最も理想的です。 $\mathfrak{p}'$ を、$\mathfrak{p}$ (定理 1) の上にある $A'$ の主要な理想とします。次に、$A/\mathfrak{p}$ は$A'/\mathfrak{p}'$ の部分環と正準的に同一視され、$A'/\mathfrak{p}'$ は$A/\mathfrak{p}$ ($§ 1$、no. 1、命題 2) に対して積分されます。 準同型 $f$ 定義する、$A/\mathfrak{p}$ の商、同型を $L$ の部分環 $f(A)$ にすると、同型 $g$ まで拡張できます分数の体、$A/\mathfrak{p}$の$K$、$L$の部分体に。 分数の体 $A'/\mathfrak{p}'$ の $K'$ は $K$ に対する代数なので、 $g$ は $K'$ の同型 $g'$ を $L$ の部分体に拡張できます。 (代数、章 V、$§ 4$、no. 2、系 ～ 定理 1); $\pi': A' \to A'/\mathfrak{p}'$が標準準同型の場合、$g' \circ \pi'$は$A'$から$L$まで$f$を延長した準同型です。
 
 #### 注意 (2) {#ac-v-s2-n1-rem-2 .statement tag=04PW}
 
@@ -197,7 +197,7 @@ $A'$ を環および $G$ 群を $A'$ ($§ 1$、no. 9) で演算するとしま�
 
 #### 定義 3 {#ac-v-s2-def-3 .statement tag=04Q0}
 
-With the notation of Definition 2, the subgroup of $G^z(p')$ consisting of those $\sigma$ such that the endomorphism $z \mapsto \sigma.z$ of $A'/p'$ is the identity is called the inertia group of $p'$ (with respect to $G$) and denoted by $G^T(p')$ (or $G^T$). $G^T(p')$ の下での不変量 $A'$ の元の環は、$p'$ ($G$ に関して) の慣性環と呼ばれ、$A^T(p')$ (または $A^T$) (†) で表されます。
+定義 2 の表記により、$A'/p'$ の準同型性$z \mapsto \sigma.z$ が恒等となるような$\sigma$ からなる$G^z(p')$ の部分群を$p'$ ($G$ に対して) の慣性群と呼び、$G^T(p')$ (または$G^T$) で表します。 $G^T(p')$ の下での不変量 $A'$ の元の環は、$p'$ ($G$ に関して) の慣性環と呼ばれ、$A^T(p')$ (または $A^T$) (†) で表されます。
 
 $A$ が $G$ の不変式の $A'$ からなるの部分環である場合、明らかに
 
@@ -228,19 +228,19 @@ $$
 \sigma.(x/s) - (x/s) = (O.x - x)/s \in S^{-1}p'
 $$
 
-したがって $\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$ です。逆に、$\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$; と仮定します。すると、すべての $x \in A'$、$\sigma.(x/1) - (x/1) \in S^{-1}p'$ に対して、上記 $\sigma.x - x \in p'$ と同様に $s(\sigma.x - x) \in p'$、よってとなる $s \in S$ が存在し、$\sigma \in \mathscr{G}^{\Gamma}(p')$ が証明されます。最後の 2 つの主張は、§ 1, no. 9、命題 23 に続きます。
+したがって $\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$ です。逆に、$\sigma \in \mathscr{G}^{\Gamma}(S^{-1}p')$; と仮定します。すると、すべての $x \in A'$、$\sigma.(x/1) - (x/1) \in S^{-1}p'$ に対して、上記 $\sigma.x - x \in p'$ と同様に $s(\sigma.x - x) \in p'$、よってとなる $s \in S$ が存在し、$\sigma \in \mathscr{G}^{\Gamma}(p')$ が証明されます。最後の 2 つの主張は、§ 1, no. 9、命題 23 から続きます。
 
 #### 定理 2 {#ac-v-s2-thm-2 .statement tag=04Q2}
 
-*$A'$ を環、$\mathscr{G}$ 有限群とし、$\mathscr{G}$ の不変量の $A'$ および $A$ 環で演算すると、$A'$ は $A$ (§ 1, no. 9、命題) について整数になります。 22).*
+*$A'$ を $\mathscr{G}$ の不変量の $A'$ および $A$ 環で演算する環、$\mathscr{G}$ 有限群とすることで、$A'$ は $A$ (§ 1, no. 9, 命題 22).*
 
-(i) *$A$ の同じ素イデアル $p$ の上にある 2 つの素イデアル $A'$ $p', q'$ が与えられると、$q' = \sigma.p'$ となるような $\sigma \in \mathscr{G}$ が存在します。他の語では、$\mathscr{G}$ は、$p$ の上にある $A'$ の素イデアルの集合で推移的に動作します。
+(i) *$A$ の同じ素イデアル $p$ の上に 2 つの素イデアル $A'$ の $p', q'$ があるとすると、$q' = \sigma.p'$ となるような $\sigma \in \mathscr{G}$ が存在します。他の語では、$\mathscr{G}$ は、$p$ の上にある$A'$ の素イデアルの集合で推移的に動作します。*
 
-(ii) *$p'$ を、$A'$、$p = p' \cap A$、$k$ (それぞれ $k'$) 体の分数または $A/p$ (それぞれ $A'/p'$) の主理想とする。 次に、$k'$ は、$k'$ 定義するの $k$ 自己同型の $\mathscr{G}^{\mathbf{Z}}(p')$ から群 $\Gamma$ までの $k$ と標準準同型 $\sigma \mapsto \bar{\sigma}$ の準ガロア拡張 (*) です。 $\mathscr{G}^{\mathbf{Z}}(p')/\mathscr{G}^{\Gamma}(p')$ の商、同型を $\Gamma$ に*。
+(ii) *$p'$を、$A'$、$p = p' \cap A$、$k$（それぞれ$k'$）、$A/p$の分数（それぞれ$A'/p'$）の体とする。次に、$k'$ は、$k'$ 定義するの$k$ 自己同型の $\mathscr{G}^{\mathbf{Z}}(p')$ から群 $\Gamma$ への $k$ と標準準同型 $\sigma \mapsto \bar{\sigma}$ の準ガロア拡張 (*) です。 $\mathscr{G}^{\mathbf{Z}}(p')/\mathscr{G}^{\Gamma}(p')$ の商、同型を $\Gamma$ に移動します。*
 
-(*) 位数では、語 「正規」の他の意味との混同を避けるため、今後、代数、章 V, § 6, no. 2、定義 2 で定義される項 「正規拡大」と同義として、項 「準ガロア拡張」を使用します。
+(*) 位数では、語 「通常」の他の意味との混同を避けるため、今後、代数、章 V, § 6, no. 2 で定義される項 「通常の拡大」と同義として項 「準ガロア拡張」を使用します。 定義 2.
 
-(i) $x \in \mathfrak{q}$ の場合は $\prod_{\sigma \in \mathscr{G}} \sigma.x \in q' \cap A = p \subset p'$;その場合、$\sigma.x \in p'$、つまり $x \in \sigma^{-1}.q'$ となるような $\sigma \in \mathscr{G}$ が存在します。 結論するは $q' \subset \bigcup_{\sigma \in \mathscr{G}} \mathfrak{s}.\mathfrak{p}'$ であり、したがって ($\mathscr{G}$ は有限であり、$\mathfrak{s}.\mathfrak{p}'$ 素数であるため) $\mathfrak{q}' \subset \mathfrak{s}.\mathfrak{p}'$ (章 II, § 1, no. 1, 命題 2) となる $\sigma \in \mathscr{G}$ が存在します。 $q'$ と $\sigma.\mathfrak{p}'$ は両方とも $p$、$q' = \sigma.\mathfrak{p}'$ (no. 1、系 1 ～ 命題 1) の上にあります。
+(i) $x \in \mathfrak{q}$ の場合、$\prod_{\sigma \in \mathscr{G}} \sigma.x \in q' \cap A = p \subset p'$。その場合、$\sigma.x \in p'$、つまり $x \in \sigma^{-1}.q'$ となるような $\sigma \in \mathscr{G}$ が存在します。 結論するは $q' \subset \bigcup_{\sigma \in \mathscr{G}} \mathfrak{s}.\mathfrak{p}'$ であり、したがって ($\mathscr{G}$ は有限であり、$\mathfrak{s}.\mathfrak{p}'$ 素数であるため) $\mathfrak{q}' \subset \mathfrak{s}.\mathfrak{p}'$ (章 II, § 1, no. 1, 命題 2) となる $\sigma \in \mathscr{G}$ が存在します。 $q'$ と $\sigma.\mathfrak{p}'$ は両方とも $p$、$q' = \sigma.\mathfrak{p}'$ (no. 1、系 1 ～ 命題 1) の上にあります。
 
 (ii) $k'$ が $k$ の準ガロア拡張であることを確認するには、すべての元 $\bar{x} \in A'/p'$ が、$k[X]$ の多項式 $P$ の根であり、そのすべての根が $A'/p'$ に含まれることを証明するだけで十分です。 (代数、章、V, § 6, no. 3、系 3 ～ 命題 9)。さて、$x \in A'$ を類 $\bar{x}$ の代表とします。多項式 $Q(X) = \prod_{\sigma \in \mathscr{G}} (X - \sigma.x)$ の係数はすべて $A$ にあります。 $P(X)$ を $(A/p)[X]$ の多項式とし、その係数は標準準同型 $\pi : A \to A/p$ の下で $Q$ の像となります。 $\pi$ は標準準同型 $\pi' : A' \to A'/p'$ の制限から $A$ と考えることができるので、$P$ は線形因子 $X - \pi'(\sigma.x)$ の $(A'/p')[X]$ の積であることがわかり、次のようになります。 $\bar{x} = \pi'(x)$から問題。
 
@@ -304,19 +304,19 @@ $$
 p(B) \subset q \cup n_1 \cup \cdots \cup n_r
 $$
 
-by 章 II, § 1, no. 1, 命題 2. このため、元 $u \in p(B)$ 所属を $n_j$ ($1 \leq j \leq r$) (章 11, § 1, no. 1, 命題) に含めないことを考慮します。 2); $u_1 = u, u_2, \ldots, u_m$ を、$\mathscr{G}$ の下の $u$ の軌道の別個の元とします。 $w = u_1u_2 \ldots u_m, v = u_2 \ldots u_m$と書きます。明らかに$w \in A$;一方、$\tau \in \mathscr{H}$ の場合、$\tau.u = u$ となり、$i \geq 2$ の場合は必然的に $\tau.u_i \neq u$ となり、$\tau.v = v$ となり、$v \in B$ となることがわかります。 (a) の証明のように、$\sigma \in \mathscr{G}$ が $\sigma.u = u_i$ である場合、$i \geq 2$、$\sigma^{-1}.p'$ は $n_j$ の 1 つの上にあり、$u \notin n_j$ と同様に $u \notin \sigma^{-1}.p'$、他の語にもあることがわかります。 $u_i \notin p'$。私たちは$v \notin p'$を結論する、したがって$v \notin p(B)$となります。一方、$w \in p' \cap A = p$ と関係 $w = uv$ は、$u$ が $p(B)$ に関して$pB$ の飽和状態にあることを示しており、したがって (4) が成立します。
+by 章 II, § 1, no. 1, 命題 2. このため、元 $u \in p(B)$ 所属を $n_j$ ($1 \leq j \leq r$) (章 11, § 1, no. 1, 命題) に含めないことを考慮します。 2); $u_1 = u, u_2, \ldots, u_m$ を、$\mathscr{G}$ の下の $u$ の軌道の別個の元とします。 $w = u_1u_2 \ldots u_m, v = u_2 \ldots u_m$と書きます。明らかに$w \in A$;一方、$\tau \in \mathscr{H}$ の場合、$\tau.u = u$ となり、$i \geq 2$ の場合は必然的に $\tau.u_i \neq u$ となり、$\tau.v = v$ となり、$v \in B$ となることがわかります。 (a) の証明のように、$\sigma \in \mathscr{G}$ が $\sigma.u = u_i$ である場合、$i \geq 2$、$\sigma^{-1}.p'$ は $n_j$ の 1 つの上にあり、$u \notin n_j$ と同様に $u \notin \sigma^{-1}.p'$、他の語にもあることがわかります。 $u_i \notin p'$。私たちは結論するを $v \notin p'$ 、つまり $v \notin p(B)$ とします。一方、$w \in p' \cap A = p$ と関係 $w = uv$ は、$u$ が $p(B)$ に関して$pB$ の飽和状態にあることを示しており、したがって (4) が成立します。
 
-(iii) Suppose that $A'$ is an integral domain, that $\bigcap_{n \geq 0} p^n A'_p = 0$ and that conditions (a) and (b) of (ii) hold. (ii) と同じ記法では、明らかに $S^{-1}A'$ は整域と $S^{-1}A'_p = A'_p$ です。したがって、$S^{-1}A'$ と $S^{-1}p'$ によって置き換える $A'$ と $p'$ が可能であり、他の語では、イデアル $p$ が最大であると仮定します。 仮説 (a) と (b) は次のことを意味します。
+(iii) $A'$ が整域、$\bigcap_{n \geq 0} p^n A'_p = 0$ で、条件 (ii) の (a) と (b) が成り立つとします。 (ii) と同じ記法では、明らかに $S^{-1}A'$ は整域と $S^{-1}A'_p = A'_p$ です。したがって、$S^{-1}A'$ と $S^{-1}p'$ によって置き換える $A'$ と $p'$ が可能であり、他の語では、理想 $p$ が最大であると仮定します。仮説 (a) と (b) は次のことを意味します。
 
 $$
 \mathbf{B}_{p(B)} = A + p \mathbf{B}_{p(B)}
 $$
 
-$n$ の帰納法までに、すべての $n > 0$ について $\mathbf{B}_{p(B)} = A + p^n \mathbf{B}_{p(B)}$ であると推定します。次に、$\sigma$ を $\mathscr{G}^\mathbf{Z}$ の元とし、$x$ を $B$ の元とします。すべての $n > 0$ に対して、$x - a_n \in p^n \mathbf{B}_{p(B)} \subset p^n A'_p$ となる $a_n \in A$ が存在します。 $\sigma.a_n = a$ と $\sigma.p' = p'$ から、$\sigma.x - x \in p^n A'_p$ と推測します。この関係はすべての$n$に当てはまりますので、仮定から$\sigma.x = x$を結論するとします。
+$n$の帰納法までに、すべての$n > 0$について$\mathbf{B}_{p(B)} = A + p^n \mathbf{B}_{p(B)}$と推定します。次に、$\sigma$ を $\mathscr{G}^\mathbf{Z}$ の元とし、$x$ を $B$ の元とします。すべての $n > 0$ に対して、$x - a_n \in p^n \mathbf{B}_{p(B)} \subset p^n A'_p$ となるような $a_n \in A$ が存在します。 $\sigma.a_n = a$ と $\sigma.p' = p'$ から、$\sigma.x - x \in p^n A'_p$ と推測します。この関係はすべての $n$ に当てはまりますので、仮定から $\sigma.x = x$ を結論するとします。
 
 ハークス
 
-(3) $A'$ が整域とネーター の場合、条件 $\bigcap_{n \geq 1} p^n A'_p = 0$ が常に成り立ちます (章 III, § 3, no. 2、系 ～ 命題 5)。 $A'$を整域、$A$をネーターとすれば、この条件も満たされることが示されます。
+(3) $A'$ が整域とネーター の場合、条件 $\bigcap_{n \geq 1} p^n A'_p = 0$ が常に成り立ちます (章 III, § 3, no. 2、系 ～ 命題 5)。 $A'$を整域、$A$をネーターとすれば、この条件も満たされることがわかります。
 
 (4) $p$ が $A$ 関係の最大イデアルではない場合、(3) は (ii) の仮説のもとでは必ずしも成り立ちません。したがって、$\mathscr{H} = \mathscr{G}^\mathbf{Z}$, よって $B = A''$ (練習問題 10) をとったとしても、$A/p$ と $B/p(B)$ は必ずしも同型ではありません。
 
@@ -340,13 +340,13 @@ $\mathfrak{p}$ の上に横たわる $A'$ の素理想 $\mathfrak{p}'$ につい
 
 *$A'$を整域、$\mathscr{G}$を$\mathscr{G}$の不変量の$A'$、$A$環、$A$の主イデアルである$\mathfrak{p}$で演算する有限可換群とする。それぞれ$A$と$A'$の$K$と$K'$分数の体。すると、$\mathfrak{p}$の上にある$A'$の主要な理想はすべて同じ分解環$A^{\mathbf{Z}}$を持ち、分数$K^{\mathbf{Z}}$の$A^{\mathbf{Z}}$の体は最大の中間の体になります。 $K$ と $K'$ の間で、$\mathfrak{p}$ は完全に分解します。*
 
-If $\mathfrak{p}'$ is a prime ideal of $A'$ lying above $\mathfrak{p}$, then $\mathscr{G}^{\mathbf{Z}}(\sigma.\mathfrak{p}') = \mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$ since $\mathscr{G}$ is commutative (formula (2)), hence (Theorem 2 (i)) all the prime ideals of $A'$ lying above $\mathfrak{p}$ have the same decomposition group $\mathscr{G}^{\mathbf{Z}}$ and therefore the same decomposition ring $A^{\mathbf{Z}}$; their number is $(\mathscr{G}:\mathscr{G}^{\mathbf{Z}})$. L を K と $K'$ の中間値体とし、$\mathscr{H}$ を $\mathscr{G}$ の部分群とし、L の元を不​​変のままにします。 $\mathscr{H}$ に対する $\mathfrak{p}'$ の分解群は $\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H}$ です。 $A' \cap L$ は $A'$ における $\mathscr{H}$ の不変量の環であるため、$\mathfrak{p}' \cap L$ の上にある $A'$ の素イデアルの数は $(\mathscr{H}:(\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H})) = (\mathscr{H}\mathscr{G}^{\mathbf{Z}}:\mathscr{G}^{\mathbf{Z}})$ です ($\mathscr{G}$ は可換であるため)。 したがって、$\mathfrak{p}$ の上にある$A' \cap L$ の主要な理想の数は、$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}})$ になります。 $\mathfrak{p}$ が完全にL に分解するには、$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}}) = [L:K] = (\mathscr{G}:\mathscr{H})$、そして$\mathscr{H} \subset \mathscr{H}\mathscr{G}^{\mathbf{Z}}$ として、これが $\mathscr{H}\mathscr{G}^{\mathbf{Z}} = \mathscr{H}$ または$\mathscr{G}^{\mathbf{Z}} \subset \mathscr{H}$、そして最終的に$L \subset K^{\mathbf{Z}}$ と同等であることが必要かつ十分です。
+$\mathfrak{p}'$ が $\mathfrak{p}$ の上にある $A'$ の素イデアルである場合、$\mathscr{G}$ は可換であるため (式 (2))、$\mathscr{G}^{\mathbf{Z}}(\sigma.\mathfrak{p}') = \mathscr{G}^{\mathbf{Z}}(\mathfrak{p}')$ となり、したがって (定理 2 (i)) $\mathfrak{p}$ の上にある $A'$ のすべての素イデアルは同じ分解群 $\mathscr{G}^{\mathbf{Z}}$ を持ちます。したがって、同じ分解環 $A^{\mathbf{Z}}$;彼らの番号は$(\mathscr{G}:\mathscr{G}^{\mathbf{Z}})$です。 L を K と $K'$ の中間値体とし、$\mathscr{H}$ を $\mathscr{G}$ の部分群とし、L の元を不​​変のままにします。 $\mathscr{H}$ に対する $\mathfrak{p}'$ の分解群は $\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H}$ です。 $A' \cap L$ は $A'$ における $\mathscr{H}$ の不変量の環であるため、$\mathfrak{p}' \cap L$ の上にある $A'$ の素イデアルの数は $(\mathscr{H}:(\mathscr{G}^{\mathbf{Z}} \cap \mathscr{H})) = (\mathscr{H}\mathscr{G}^{\mathbf{Z}}:\mathscr{G}^{\mathbf{Z}})$ です ($\mathscr{G}$ は可換であるため)。 したがって、$\mathfrak{p}$ の上にある$A' \cap L$ の主要な理想の数は、$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}})$ になります。 $\mathfrak{p}$ が完全にL に分解するには、$(\mathscr{G}:\mathscr{H}\mathscr{G}^{\mathbf{Z}}) = [L:K] = (\mathscr{G}:\mathscr{H})$、そして$\mathscr{H} \subset \mathscr{H}\mathscr{G}^{\mathbf{Z}}$ として、これが $\mathscr{H}\mathscr{G}^{\mathbf{Z}} = \mathscr{H}$ または$\mathscr{G}^{\mathbf{Z}} \subset \mathscr{H}$、そして最終的に$L \subset K^{\mathbf{Z}}$ と同等であることが必要かつ十分です。
 
 #### 命題 5 {#ac-v-s2-prop-5 .statement tag=04Q9}
 
-*With the hypotheses and notation of Theorem 2, the field of fractions $k^T$ of $A^T/(\mathfrak{p}' \cap A^T)$ is equal to the greatest separable extension $k'_s$ of $k$ contained in $k'$.*
+*定理 2 の仮説と表記を使用すると、$A^T/(\mathfrak{p}' \cap A^T)$ の分数体 $k^T$ は、$k'$ に含まれる $k$ の最大の分離可能な拡張$k'_s$ に等しくなります。
 
-As in Proposition 4 this may be reduced to the case where $\mathfrak{p}$ is a maximal ideal of $A$, which implies that $\mathfrak{p}'$, $\mathfrak{p}' \cap A^{\mathbf{Z}}$ and $\mathfrak{p}' \cap A^T$ are maximal in $A'$, $A^{\mathbf{Z}}$ and $A^T$ respectively (no. 1, Proposition 1).
+命題 4 と同様、これは、$\mathfrak{p}$ が $A$ の最大理想である場合に還元できます。これは、$\mathfrak{p}'$、$\mathfrak{p}' \cap A^{\mathbf{Z}}$、$\mathfrak{p}' \cap A^T$ がそれぞれ $A'$、$A^{\mathbf{Z}}$、$A^T$ で最大であることを意味します (no. 1、 命題 1)。
 
 すべての $x \in A'$ について、多項式 $P(X) = \prod_{\sigma \in \mathscr{G}^T} (X - \sigma.x)$ の慣性環 $A^T$ には係数があり、$\mathscr{G}^T$ の定義により、$A'$ のすべての根は合同 mod になります。 $\mathfrak{p}'$; $A^T/(\mathfrak{p}' \cap A^T)$ 上の多項式 $\pi'(P)$ の係数は、準同型 $\pi':A' \to A'/\mathfrak{p}'$ の下の P の標準像であるため、$A'/\mathfrak{p}'$ のすべての根は $x$ の像に等しく、次のことがわかります。 $k'$ は $k^T$ の部首拡大です。 よって $k'_s \subset k^T$、$k'_s$ のすべての元は k 上で分離可能であり、なおさらは $k^T$ 上で分離可能です。
 
@@ -378,11 +378,11 @@ $p'$ の存在は、no. 1、定理 1 から続きます。$x \in p'$ の場合�
 
 #### 命題 6 {#ac-v-s2-prop-6 .statement tag=04QD}
 
-Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a quasi-Galois extension of $K$ and $A'$ the integral closure of $A$ in $K'$. それから：
+$A$ を積分閉領域、$K$ を分数の体、$K'$ を $K$ の準ガロア拡張、$A'$ を $K'$ の $A$ の積分閉包とします。それから：
 
 (i) $A$ のすべての素イデアル $p$ 、$K$ の群 $\mathscr{G}$ について、$K'$ の自己同型は、$p$ の上にある$A'$ の素イデアルの集合上で推移的に作用します。
 
-(ii) For every prime ideal $p'$ of $A'$, the field of fractions $k'$ of $A'/p'$ is a quasi-Galois extension of the field of fractions $k$ of $A/(A \cap p')$ and the canonical homomorphism $\sigma \mapsto \tilde{\sigma}$ from $\mathscr{G}^Z(p')$ to the group $\Gamma$ of $k$-automorphisms of $k'$ defines, by taking the quotient, a bijection of $\mathscr{G}^Z(p')/\mathscr{G}^T(p')$ onto $\Gamma$.
+(ii) $A'$ のすべての素イデアル $p'$、分数の体 $A'/p'$ の $k'$ は、分数の体 $A/(A \cap p')$ の $k$ の準ガロア拡張であり、 $\mathscr{G}^Z(p')/\mathscr{G}^T(p')$ の商、全単射を取って、 $k$ の $k'$ 定義するの自己同型の $\mathscr{G}^Z(p')$ から群 $\Gamma$ までの標準準同型 $\sigma \mapsto \tilde{\sigma}$ $\Gamma$。
 
 (A) まず、$K'$ が $K$ のアジナイトガロア拡大であるとします。次に、$A$ は積分的に閉じており、$A$ は$A'$ における $\mathscr{G}$ の不変量の環であるため、$A = A \cap K$ となります。 $\mathscr{G}$ は有限であるため、この場合、no. 2、定理 2 から命題が続きます。
 
@@ -394,11 +394,11 @@ Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a quasi
 
 *注意*
 
-(2) $K$ が $K$ の *ガロア* 拡大であると仮定し、命題 6 の証明の記法を維持しましょう。すべての $a$ について、$\mathscr{G}_a^\mathbf{Z}$ (それぞれ $\mathscr{G}_a^\mathbf{T}$) を $\mathscr{G}$ のからなる 、$\sigma$ の制限から $A' \cap K$、属するから $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ の部分群とします。 $\mathscr{G}^\mathbf{T}(p' \cap K_\alpha)$）。 The proof of Proposition 6 shows that these subgroups are *closed* in $\mathscr{G}$ and that
+(2) $K$ が $K$ の *ガロア* 拡大であると仮定し、命題 6 の証明の記法を維持しましょう。すべての $a$ について、$\mathscr{G}_a^\mathbf{Z}$ (それぞれ $\mathscr{G}_a^\mathbf{T}$) を $\mathscr{G}$ のからなる 、$\sigma$ の制限から $A' \cap K$、属するから $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ の部分群とします。 $\mathscr{G}^\mathbf{T}(p' \cap K_\alpha)$）。 命題 6 の証明は、これらのサブグループが $\mathscr{G}$ で *閉じられ* ていることを示しています。
 $$
 \mathscr{G}^\mathbf{Z}(p') = \bigcap_a \mathscr{G}_a^\mathbf{Z} \quad \text{and} \quad \mathscr{G}^\mathbf{T}(p') = \bigcap_a \mathscr{G}_a^\mathbf{T}.
 $$
-Moreover, the set of restrictions to $A' \cap K$, of the elements of $\mathscr{G}$ (resp. $\mathscr{G}_a^\mathbf{T}$) is the whole of the group $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ (resp. $\mathscr{G}^\mathbf{T}(p' \cap K_\alpha)$), every $K$-automorphism of $K$, extending to an element of $\mathscr{G}$.
+さらに、$\mathscr{G}$ (それぞれ $\mathscr{G}_a^\mathbf{T}$) の要素の $A' \cap K$ に対する制限の集合は、群 $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ (それぞれ $\mathscr{G}^\mathbf{T}(p' \cap K_\alpha)$) の全体であり、$K$ のすべての $K$ 自己同型が $\mathscr{G}$ の要素まで拡張されます。
 
 同じ仮説により、環 $A^\mathbf{Z}(p')$ (それぞれ $A^\mathbf{T}(p')$) は、$A^\mathbf{Z}(p' \cap K_\alpha)$ (それぞれ $A^\mathbf{T}(p' \cap K_\alpha)$) の有向族の *和集合* です。実際、$x \in A^\mathbf{Z}(p')$ごと (それぞれ$x \in A^\mathbf{T}(p')$ごと) 属するから$K$の1つまでであり、上記により、$\mathscr{G}^\mathbf{Z}(p')$の元のうち$K_\alpha \subset K_\beta$と制限から$A' \cap K$のような$\beta$が存在します。 $\mathscr{G}^\mathbf{T}(p')$) は、$\mathscr{G}^\mathbf{Z}(p' \cap K_\beta)$ の元 (それぞれ $\mathscr{G}^\mathbf{T}(p' \cap K_\beta)$) の制限から $A' \cap K$ と同じで、群 $\mathscr{G}^\mathbf{Z}(p' \cap K_\alpha)$ と $\mathscr{G}^\mathbf{T}(p' \cap K_\beta)$ は有限です。したがって、$x$ 属するから $A^\mathbf{Z}(p' \cap K_\beta)$ (それぞれ $A^\mathbf{T}(p' \cap K_\beta)$) となります。
 
@@ -415,7 +415,7 @@ Moreover, the set of restrictions to $A' \cap K$, of the elements of $\mathscr{G
 (i) $\mathfrak{p}$ の上にある$A'$ の素イデアルの$A$ 集合のすべての素イデアル $\mathfrak{p}$ は有限です。
 (ii) $\mathfrak{p}'$ が $\mathfrak{p}$ の上にある $A'$ の主要な理想である場合、$A'/\mathfrak{p}'$ のすべての元は、$A/\mathfrak{p}$ の分数の体を超える次数 $\leq [\mathbf{K}':\mathbf{K}]$ になります。
 
-(i) $K''$ を、$K'$ の代数閉包の $K'$ と $K''$ の $A$ の積分閉包$A''$ によって生成される $K$ の準ガロア拡張とします。 体 $K''$ は、$K$ (代数、章 V, § 6, no. 3、系 1 ～ 命題 9) の有限拡大であるため、$K$ 自己同型の群は次のようになります。有限;したがって、$\mathfrak{p}$ の上にある$A''$ の素イデアルのうち集合は有限であることがわかります (命題 6 (i))。 On the other hand, as $A''$ is integral over $A$, the mapping $\mathfrak{p}'' \mapsto \mathfrak{p}'' \cap A'$ of the set of prime ideals of $A''$ lying above $\mathfrak{p}$ to the set of prime ideals of $A'$ lying above $x$ is surjective (no. 1, Theorem 1).
+(i) $K''$ を、$K'$ の代数閉包の $K'$ と $K''$ の $A$ の積分閉包$A''$ によって生成される $K$ の準ガロア拡張とします。 体 $K''$ は、$K$ (代数、章 V, § 6, no. 3、系 1 ～ 命題 9) の有限拡大であるため、$K$ 自己同型の群は次のようになります。有限;したがって、$\mathfrak{p}$ の上にある$A''$ の素イデアルのうち集合は有限であることがわかります (命題 6 (i))。 一方、$A''$ は$A$ 上で積分であるため、$\mathfrak{p}$ の上にある$A''$ の素イデアルの集合の、$x$ の上にある$A'$ の素イデアルの集合の写像 $\mathfrak{p}'' \mapsto \mathfrak{p}'' \cap A'$ は全射的です (no. 1、定理 1)。
 
 (ii) 元 $x' \in A'$ 属する ～ $A$ ($§ 1$、no. 3、系 ～ 命題 10) の最小多項式 ($K$ 以上) の係数。この多項式の適用標準準同型 $\pi': A' \to A'/\mathfrak{p}'$ ～ 係数に対して、$A/\mathfrak{p}$ の係数と次数 $\leq [\mathbf{K}':\mathbf{K}]$ の積分依存関係式が類 mod に対して得られます。 $x$中$\mathfrak{p}'$; よって結論。
 
@@ -427,19 +427,19 @@ $A'$ の各最大理想 $m'$ に対して、$m' \cap A$ は $A$ (no. 1, 命題 1
 
 #### 系 4 {#ac-v-s2-prop-6-cor-4 .statement tag=04QH}
 
-Let $A$ be an integrally closed domain, $K$ its field of fractions, $K$ a Galois extension of $K$, $A'$ the integral closure of $A$ in $K'$, $\mathfrak{p}'$ a prime ideal of $A$, $\mathfrak{p} = A \cap \mathfrak{p}'$ and $k$ and $k'$ the fields of fractions of $A/\mathfrak{p}$ and $A'/\mathfrak{p}'$ respectively. それから：
+$A$ を積分閉領域、$K$ を分数の体、$K$ ガロア拡大の $K$、$A'$ を $K'$ の $A$ の積分閉包、$\mathfrak{p}'$ を主な理想とするそれぞれ分数、$A/\mathfrak{p}$、$A'/\mathfrak{p}'$の$A$、$\mathfrak{p} = A \cap \mathfrak{p}'$、$k$、$k'$、体。それから：
 
 (i) $A^{\mathbf{Z}}/(\mathfrak{p}' \cap A^{\mathbf{Z}})$の分数の体は$k$に等しく、$\mathfrak{p}' \cap A^{\mathbf{Z}}$に対する$A^{\mathbf{Z}}$の局所環の最大理想は$\mathfrak{p}$によって生成されます。
 
 (ii) $A^T/(\mathfrak{p}' \cap A^T)$の分数$k^T$の体は、$k'$に含まれる$k$の最大の分離拡大です。
 
-環 $A$ は、$K$ に対する $K'$ のガロア群の $A'$ における不変式の環です。 $K'$ が $K$ 上の有限次数である場合、系は命題から no. 2 の 4 と 5 になります。 Consider now the general case, $K'$ therefore being the union of a right directed set $(K_i)$ of finite Galois extensions of $K$. それから：
+環 $A$ は、$K$ に対する $K'$ のガロア群の $A'$ における不変式の環です。 $K'$ が $K$ 上の有限次数である場合、系は命題から no. 2 の 4 と 5 になります。 ここで、一般的な場合を考えてみましょう。したがって、$K'$ は、$K$ の有限ガロア拡張の右有向集合 $(K_i)$ の和集合です。 それから：
 
-(i) If $x, y$ are two elements of $A^{\mathbf{Z}}$, where $y \notin \mathfrak{p}'$, there is an index $\alpha$ such that $x$ and $y$ belong to $A^{\mathbf{Z}}(\mathfrak{p}' \cap K_{\alpha})$ (Remark 2); by Proposition 4 of no. 2, there are $x_0, y_0$ in $A$ with $y_0 \notin \mathfrak{p}'$ such that $xy_0 - x_0y \in \mathfrak{p}'$, which proves the first assertion of (i); if further $x \in \mathfrak{p}'$, we may assume that $y_0$ satisfies
+(i) $x, y$ が $A^{\mathbf{Z}}$ の 2 つの要素である場合、$y \notin \mathfrak{p}'$ には、$x$ と $y$ が $A^{\mathbf{Z}}(\mathfrak{p}' \cap K_{\alpha})$ に属するようなインデックス $\alpha$ が存在します (注 2)。 no. 2 の命題 4 によれば、$A$ に $y_0 \notin \mathfrak{p}'$ が含まれる$xy_0 - x_0y \in \mathfrak{p}'$ となる$x_0, y_0$ があり、これは (i) の最初の主張を証明します。さらに $x \in \mathfrak{p}'$ があれば、$y_0$ が満たされると仮定できます。
 $$
 xy_0 \in \mathfrak{p}A^{\mathbf{Z}}(\mathfrak{p}' \cap K_{\alpha}) \subset \mathfrak{p}A^{\mathbf{Z}}(\mathfrak{p}'),
 $$
-which proves the second assertion of (i).
+これは、(i) の 2 番目の主張を証明します。
 
 (ii) 今、$x \in A^T$ だと仮定します。 $x \in A^T(p' \cap K_\alpha)$ (注意 2) および no. 2 の命題 5 が存在する $\alpha$ は、$x \mod.(p' \cap K_\alpha \cap A^T)$ の類 $\bar{x}$ が代数的であり、$k$ 上で分離可能であることを示しています。 *なおさら* 類 $x$ の $\mod.(p' \cap A^T)$ は $k$ で分離可能です。 系の証明を完成するには、$k'$ が $k^T$ の *根長* 拡大であることを示すだけで十分です。さて、$k'$ は、分数の体環 $(A' \cap K_\alpha)/(p' \cap K_\alpha)$ の$k_\alpha$ の右指向家族の和集合です。したがって、命題 5 から、$k'$ 属するから $k$ の元が、分数の体より根長であることがわかります。
 
@@ -451,7 +451,7 @@ $$
 
 #### 定義 5 {#ac-v-s2-def-5 .statement tag=04QI}
 
-*With the hypotheses and notation of Proposition 6, the field of invariants $K^Z(p')$ (resp. $K^T(p')$) of the group $G^Z(p')$ (resp. $G^T(p')$) in the field $K'$ is called the decomposition field* (resp. *inertia field*) *of $p'$ with respect to $K$*.
+*命題 6 の仮説と表記により、体 $K'$ の群 $G^Z(p')$ (それぞれ $G^T(p')$) の不変量体 $K^Z(p')$ (それぞれ $K^T(p')$) を、$K$* に関する $p'$ の分解体* (それぞれ *慣性場*) と呼びます。
 
 また、$K^Z(p')$ (それぞれ $K^T(p')$) の代わりに $K^Z$ (それぞれ $K^T$) と書きます。 § 1, no. 9、命題 23 から、$K^Z$ (それぞれ $K^T$) は、環 $A^Z$ (それぞれ $A^T$) の分数* の体であることがわかります。 $A^Z$ (それぞれ $A^T$) は、$K^Z$ (それぞれ $K^T$) の $A$ の積分閉包です。
 
@@ -464,11 +464,11 @@ $$
 [K^T:K^Z] = (G^Z:G^T) = [k^T:k].
 $$
 
-(4) Let $A$ be an integrally closed domain, $K$ its field of fractions, $K'$ a *finite* algebraic extension of $K$ and $A'$ the integral closure of $A$ in $K'$. 次に、$A$ のすべての素イデアル $p$ について、 *数* $\&$ *素イデアル* $\&$ *の* $A'$ *上にある* $p$ *最大でも* $[K':K]_s$ (可分な因子の次数 ) $K$ over $K$). We may first restrict our attention to the case where $K$ is a separable extension of $K$, for in general $K$ is a radicial extension of the greatest separable extension $K_0$ of $K$ contained in $K'$, $[K':K]_s = [K_0:K]$ by definition and, if $A$, is the integral closure of $A$ in $K_0$, the prime ideals of $A$, and $A'$ are in one-to-one correspondence (Lemma 4). Suppose therefore that $K$ is separable over $K$ and let $N$ be the Galois extension of $K$ generated by $K$ in an algebraic closure of $K$, $G$ its Galois group, $B$ the integral closure of $A$ in $N$ and $\mathfrak{P}$ a prime ideal of $B$ lying above $p$. Let $\mathscr{H}$ be the Galois group of $N$ over $K$ and $G^Z$ the decomposition group of $\mathfrak{P}$; the prime ideals of $B$ lying above $p$ are the $s.\mathfrak{P}$ where $s \in G$ (no. 2, Theorem 2) and the relation $s.\mathfrak{P} = s'.\mathfrak{P}$ means that $s' = sg$ where $g \in G^Z$. 一方、$s.\mathfrak{P} \cap K' = s'.\mathfrak{P} \cap K'$の位数では、$t \in \mathscr{H}$(no. 2、定理2)、よって、最後に$s' = tsg$、$t \in \mathscr{H}$と$g \in G^Z$が$s'.\mathfrak{P} = ts.\mathfrak{P}$であることが必要十分です。 したがって、$p$の上にある$A'$の素イデアルの数は、同値関係*の下にある$G$の類の*数に等しい。「$s$の間に$s' = tsg$となるような$t \in \mathscr{H}$と$g \in G^{\mathbf{Z}}$が存在する」そして$s'$;明らかに、この数は、$G$ の $\mathscr{H}$ の右剰余類の添字 $(G : \mathscr{H})$、数、およびガロア理論による $(G : \mathscr{H}) = [K' : K]$ に等しくなります。
+(4) $A$ を積分閉領域、$K$ を分数の体、$K'$ を $K$ の *有限* 代数拡大、および $A'$ を $K'$ の $A$ の積分閉包とする。 次に、$A$ のすべての素イデアル $p$ について、 *数* $\&$ *素イデアル* $\&$ *の* $A'$ *上にある* $p$ *最大でも* $[K':K]_s$ (可分な因子の次数 ) $K$ over $K$). まず、$K$ が $K$ の分離可能拡張である場合に注意を限定します。一般に、$K$ は、定義により $K'$、$[K':K]_s = [K_0:K]$ に含まれる $K$ の最大の分離可能拡張 $K_0$ の放射拡張であり、$A$ の場合、 の積分閉包です。 $A$ in $K_0$, the prime ideals of $A$, and $A'$ are in one-to-one correspondence (Lemma 4). したがって、$K$ が $K$ 上で分離可能であると仮定し、$N$ を $K$ の代数閉包で $K$ によって生成された $K$ のガロア拡張、$G$ のガロア群、$B$ の $A$ の積分閉包であるとします。 $N$ と $\mathfrak{P}$ は、$p$ の上にある $B$ の主要な理想です。 $\mathscr{H}$ を $K$ 上の $N$ のガロア群、$G^Z$ を $\mathfrak{P}$ の分解群とします。 $p$ の上にある $B$ の主要な理想は、$s \in G$ (no. 2、定理 2) である $s.\mathfrak{P}$ であり、関係 $s.\mathfrak{P} = s'.\mathfrak{P}$ は $g \in G^Z$ である $s' = sg$ を意味します。 一方、$s.\mathfrak{P} \cap K' = s'.\mathfrak{P} \cap K'$の位数では、$t \in \mathscr{H}$(no. 2、定理2)、よって、最後に$s' = tsg$、$t \in \mathscr{H}$と$g \in G^Z$が$s'.\mathfrak{P} = ts.\mathfrak{P}$であることが必要十分です。 したがって、$p$の上にある$A'$の素イデアルの数は、同値関係*の下にある$G$の類の*数に等しい。「$s$の間に$s' = tsg$となるような$t \in \mathscr{H}$と$g \in G^{\mathbf{Z}}$が存在する」そして$s'$;明らかに、この数は、$G$ の $\mathscr{H}$ の右剰余類の添字 $(G : \mathscr{H})$、数、およびガロア理論による $(G : \mathscr{H}) = [K' : K]$ に等しくなります。
 
 #### 命題 7 {#ac-v-s2-prop-7 .statement tag=04QJ}
 
-*$A$ を積分閉領域、$K$ を分数の体、$K'$ ガロア拡大を $K$、$\mathscr{G}$ をガロア群、$A'$ を $A$ の積分閉包とします。 $K'$、$p'$ は $A'$ と $p = A \cap p'$ の主要な理想です。 最後に、$L$ を $K'$ 含む $K$ の部分体とし、$p(L) = p' \cap L$ とします。
+*$A$ を積分閉領域、$K$ を分数の体、$K'$ ガロア拡大を $K$、$\mathscr{G}$ をガロア群、$A'$ を $A$ の積分閉包とします。 $K'$、$p'$ は $A'$ と $p = A \cap p'$ の主要な理想です。最後に、$L$ を $K'$ 含む $K$ の部分体とし、$p(L) = p' \cap L$ とします。
 
 (i) *分解体* (*慣性体*) *$L$ に対する $p'$ は $L(K^{\mathbf{Z}})$ (それぞれ $L(K^T)$); ※さらに$L$が$K$のガロア拡大であれば、$K$に対して$p(L)$の分解体は$L \cap K^{\mathbf{Z}}$となります。
 

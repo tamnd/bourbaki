@@ -29,16 +29,16 @@ subsections:
       pdf_page: 370
 statements: 17
 exercises: 10
-content_sha256: 56c906dc60d02d89b0f71a8c1c1ac5d2933c906155aead6cf3b8ef8885887a5e
+content_sha256: 22155d8c7a42c64ff74d3c22eea586e3d12c02130ff602fba242a5f405e73c2f
 translated_from: content/en/ac/V/03_s3_finitely_generated_algebras_over_a_field.md
 translation_method: google
 source_content_sha256: 6de44311d5d60b730fb626da1cd69b9f44af23562467fb568b226b7a0a3a5d4c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5ec9b31bddccc39a96ddb902d7645fac8918fe50b55dae417fc8b62e81695625
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 体に対して有限に生成される代数
@@ -94,13 +94,13 @@ $$
 sz_j^{a_j} + \sum_{h < a_j} Q_{hj}z_j^h = 0
 $$
 
-where the $Q_{hj}$ are polynomials in $y_1, \ldots, y_n$ with coefficients in $A$; if we write $z'_j = sz_j$, it is seen, multiplying (6) by $s^{a_j-1}$, that $z'_j$ is integral over $B' = A[y_1, \ldots, y_n]$. $y_i$ が $A$ に対して代数的に独立していることを示します。 形 $\sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0$ のうち関係があり、すべての $p$ が $a_p \in A$ である場合、$S^{-1}B$ には $\sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0$、$k$ には $a'_p = a_p s^{p_1 + \cdots + p_n}$ があると推測します。 仮定までなので、すべての$p$に対して$a'_p = 0$、すべての$p$に対してよって $a_p = 0$。 さらに、環 $B[s^{-1}]$ では、それぞれの $z'_j/1$ は $B'[s^{-1}]$ (§ 1, no. 1、命題 2) に対して積分であり、$B[s^{-1}]$ の $z_j/1 = (z'_j/1)(1/s)$ のように、$z_j/1$ は $B'[s^{-1}]$ に対して積分であることがわかり、これで完了します。 証明 (§ 1, no. 1、命題 4)。
+ここで、$Q_{hj}$ は $A$ の係数を含む $y_1, \ldots, y_n$ の多項式です。 $z'_j = sz_j$ と書くと、(6) に $s^{a_j-1}$ を掛けると、$z'_j$ が $B' = A[y_1, \ldots, y_n]$ に対して整数であることがわかります。 $y_i$ が $A$ に対して代数的に独立であることを示します。 形 $\sum_p a_p y_1^{p_1} \ldots y_n^{p_n} = 0$ の関係があり、すべての $p$ が $a_p \in A$ である場合、$S^{-1}B$ では $\sum_p a'_p x_1^{p_1} \ldots x_n^{p_n} = 0$ が、$k$ では $a'_p = a_p s^{p_1 + \cdots + p_n}$ であると推測します。 仮定なので、すべての $p$ に対して $a'_p = 0$、すべての $p$ に対してよって $a_p = 0$ となります。さらに、環 $B[s^{-1}]$ では、それぞれの $z'_j/1$ は $B'[s^{-1}]$ (§ 1, no. 1、命題 2) に対して整数であり、$B[s^{-1}]$ の $z_j/1 = (z'_j/1)(1/s)$ と同様に、$z_j/1$ は $B'[s^{-1}]$ に対して整数であることがわかります。これで証明 (§ 1, no. 1、命題 4) が完了します。
 
 #### 系 2 {#ac-v-s3-thm-1-cor-2 .statement tag=04RA}
 
 $K$ を体、$A$ 部分環の $K$、および $L$ 体の分数または $A$ とします。 $K$ が有限生成された $A$-代数である場合、$[K:L]$ は有限であり、$L = A[a^{-1}]$ のように $A$ に $a \neq 0$ が存在します。
 
-系 1 から、$K$ の元 $x_1, \ldots, x_n$ と $A$ の元 $a \neq 0$ が存在し、$x_1, \ldots, x_n$ は $A$ (したがって L について) 上で代数的に独立しており、K は積分であることがわかります。 部分環 $A[x_1, \ldots, x_n, a^{-1}]$。 次に、§2, no.1、補題 2 から、$A[x_1, \ldots, x_n, a^{-1}]$ は体となります。 But the only invertible elements of a polynomial ring $C[Y_1, \ldots, Y_n]$ over an integral domain C are the invertible elements of C; applying this remark to $C = A[a^{-1}]$, it is seen that necessarily $n = 0$ and that $A[a^{-1}]$ is a field equal to L by definition of the latter. K は L で積分であり、有限生成される L-代数であるため、次数 [K:L] は有限です (§ 1, no. 1, 命題 4)。
+系 1 から、$K$ の元 $x_1, \ldots, x_n$ と $A$ の元 $a \neq 0$ が存在し、$x_1, \ldots, x_n$ は $A$ (したがって L について) 上で代数的に独立しており、K は積分であることがわかります。 部分環 $A[x_1, \ldots, x_n, a^{-1}]$。 次に、§2, no.1、補題 2 から、$A[x_1, \ldots, x_n, a^{-1}]$ は体となります。 しかし、整数領域 C 上の多項式環 $C[Y_1, \ldots, Y_n]$ の唯一の可逆要素は C の可逆要素です。この発言を$C = A[a^{-1}]$に適用すると、必然的に$n = 0$となり、後者の定義により$A[a^{-1}]$はLに等しいフィールドであることがわかります。 K は L で積分であり、有限生成される L-代数であるため、次数 [K:L] は有限です (§ 1, no. 1, 命題 4)。
 
 #### 系 3 {#ac-v-s3-thm-1-cor-3 .statement tag=04RB}
 
@@ -138,7 +138,7 @@ $A$ を、$k$ の体 $k$ および $L$ 代数閉包上で有限生成された�
 
 (iii) $a$ を $A$ の理想とする。 $a$ が最大になるためには、$A$ から $L$ までの k-準同型性の核であることが必要かつ十分です。
 
-(iv) For an element $x$ of $A$ to be such that $f(x) = 0$ for every k-homomorphism $f$ from $A$ to $L$, it is necessary and sufficient that $x$ be nilpotent.
+(iv) $A$ の要素 $x$ が、$A$ から $L$ までのすべての k-準同型性 $f$ に対して $f(x) = 0$ となるためには、$x$ がゼロポテンツであることが必要かつ十分です。
 
 主張 (i) no. 1、系 3 から定理 1 に続き、置き換えること $A$ は $k$ により、$B$ は $A$ により、$b$ は単位元により適用されます$B$ と $f$ を $k$ の標準単射で $L$ にします。
 
@@ -158,7 +158,7 @@ $$
 
 #### 補題 1 {#ac-v-s3-lem-1 .statement tag=04RE}
 
-Let $A$ be a finitely generated algebra over a field $k$, $(a_i)_{1 \leq i \leq n}$ a system of generators of this algebra and $c$ the ideal of algebraic relations between the $a_i$ with coefficients in $k$ (Algebra, Chapter IV, § 2, no. 1). $k$ のすべての拡大体 $L$ について、写像 $f \mapsto (f(a_i))_{1 \leq i \leq n}$ は、$A$ から $L$ までの k 準同型射の集合の集合に対する全単射です。 $L^n$の$r$の零。
+$A$ を、体 $k$、$(a_i)_{1 \leq i \leq n}$ この代数の生成系、および $k$ の係数を持つ $a_i$ の間の代数関係の理想を $c$ とします (代数、IV, § 2, no. 1 章)。 $k$ のすべての拡大体 $L$ について、写像 $f \mapsto (f(a_i))_{1 \leq i \leq n}$ は、$A$ から $L$ までの k 準同型射の集合の集合に対する全単射です。 $L^n$の$r$の零。
 
 $A$ 上には、$1 \leq i \leq n$ に対して $h(X_i) = a_i$ となるような、$k[X_1, \ldots, X_n]$ のK-代数準同型 $h$ が存在し、定義までに $r$ は $h$ の核になります。 写像 f $\mapsto$ の $A$ から $L$ までの k-準同型の集合の全単射を、c 上の零である $k[X_1, \ldots, X_n]$ から $L$ までの k-準同型の集合に重ねます。すべての多項式 $P \in k[X_1, \ldots, X_n]$ とすべての元 $x = (x_1, \ldots, x_i) \in L^n$ について、$h_x(P) = P(x)$ と書きます。その場合、写像 $x \mapsto h_x$ は、$k[X_1, \ldots, X_n]$ から $L$ までの k 準同型射の集合に対する $L^n$ の全単射です (そのような準同型は、$X_i$ での値によって決定されます) ($1 \leq i \leq n$) ); $h_x$ が c の零であると言うことは、$x$ が $L''$、よって補題の c の零であることを意味します。
 
@@ -220,7 +220,7 @@ $A$ の最大の理想は $A\mathbf{p}_\lambda$ (*上記引用*、no. 2、命題
 
 $\mathfrak{p}'$ を $B$ と $\mathfrak{p} = \varphi^{-1}(\mathfrak{p}')$ の主要な理想とする。 $v$ を $B/\mathfrak{p}'$ の元 $\neq 0$ とします。
 
-As $B/p'$ is a finitely generated integral (Alp)-algebra and the canonical homomorphism $\phi : A/p \to B/p'$ is injective, there exists an element $u \neq 0$ of $A/p$ such that, for every homomorphism $f$ from $A/p$ to an algebraically closed field $L$ whose kernel does not contain $u$, there exists a homomorphism $g$ from $B/p'$ to $L$ whose kernel does not contain $v$ and for which $f = g \circ \phi$ (no. 1, Corollary 3 to Theorem 1). $A$ はジェイコブソン環であるため、$A$ 含む $p$ の最大理想 $m$ が存在し、そのような $u \notin m/p$ が存在します。 $L$ を $A/m$ の代数閉包とし、$f$ を標準準同型 $A/p \to L$ とします。させて
+$B/p'$ は有限生成積分 (Alp) 代数であり、正準準同型性 $\phi : A/p \to B/p'$ は単射であるため、$A/p$ から代数閉体 $L$ までのすべての準同型性 $f$ について、そのカーネルがそうでないような、$A/p$ の要素 $u \neq 0$ が存在します。 $u$ を含む場合、$B/p'$ から $L$ までの準同型性 $g$ が存在します。そのカーネルには $v$ が含まれず、そのカーネルには $f = g \circ \phi$ (no. 1、定理 1 の系 3) が含まれます。 $A$ はジェイコブソン環であるため、$A$ 含む $p$ の最大理想 $m$ が存在し、そのような $u \notin m/p$ が存在します。 $L$ を $A/m$ の代数閉包とし、$f$ を標準準同型 $A/p \to L$ とします。させて
 
 $$
 g : B/p' \to L

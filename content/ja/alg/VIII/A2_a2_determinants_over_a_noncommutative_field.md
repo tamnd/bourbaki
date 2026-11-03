@@ -35,16 +35,16 @@ subsections:
       pdf_page: 472
 statements: 18
 exercises: 4
-content_sha256: 3bd1488c22d62551f7288ae661cfe4028885e1108b5d186ed126531786c2cfd5
+content_sha256: c5cdcc2f22b32db9c750b5cbfbf32e4e5b1bdcc7dd6fd7b4c6133582e3288b54
 translated_from: content/en/alg/VIII/A2_a2_determinants_over_a_noncommutative_field.md
 translation_method: google
 source_content_sha256: a1a346c55a436d2ed8247c3e3a5bc5302eaac2c7930a98ff5617acbf65dc1b0e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 32687bcb686da7f1c6fb20bb2d26250cf7ca125fe84f18921539d70264cdbc3a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録 2 行列式斜体
@@ -265,11 +265,11 @@ $\omega$と$\omega '$をΩ(V)の2つの元とします。 $\omega '=t\omega$ と
 
 #### 注意 {#alg-viii-a2-n2-rem-1 .statement tag=00Q4}
 
-体 D が可換であると仮定します。 定義により、B(V)は$V^n$の部分集合になります。 非零交代的 $n$ の制限から B(V) への線形形 $f: V^n\rightarrow D$ 属するから Ω(V) であることは明らかです。 Moreover, if $(e_1, . . . , e_n)$ is a basis of V and $t$ is a nonzero element of D, then there exists a unique alternating $n$-linear form $f$ such that $f(e_1, . . . , e_n) =t$ (III, §7, No. 4, p. 511 and III, §7, No. 8, p. 518). 系 1 により、集合 Ω(V) は、非零交代的 $n$ の線形形式の制限から B(V) で構成されます。
+体 D が可換であると仮定します。 定義により、B(V)は$V^n$の部分集合になります。 非零交代的 $n$ の制限から B(V) への線形形 $f: V^n\rightarrow D$ 属するから Ω(V) であることは明らかです。 さらに、$(e_1, . . . , e_n)$ が V の基底で、$t$ が D の非ゼロ要素である場合、$f(e_1, . . . , e_n) =t$ (III, §7, No. 4、p. 511 および III, §7, No. 8、p. 518) のような固有の交互の $n$ 線形形式 $f$ が存在します。 系 1 により、集合 Ω(V) は、非零交代的 $n$ の線形形式の制限から B(V) で構成されます。
 
 ### 3. 自己同型中行列式
 
-まず、体 D が可換であると仮定します。 In view of the remark above, the determinant of an automorphism $u$ of V is the unique element det $u$ of $D^*$ such that we have
+まず、体 D が可換であると仮定します。 上記の指摘を考慮すると、V の自己同型 $u$ の行列式は、$D^*$ の固有要素 det $u$ であり、次のようになります。
 
 (14) $\omega (u(v_1), . . . , u(v_n)) =$ (デット $u$)$\omega (v_1, . . . , v_n)$
 

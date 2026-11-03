@@ -26,16 +26,16 @@ subsections:
       pdf_page: 192
 statements: 12
 exercises: 11
-content_sha256: 85c98a77b998678259c1eadca7c8a4e87286b0f6b877441465d2f6112addd458
+content_sha256: 6f7e6f5795cec8269f4222399f111675dd68b705008e0c1f567ce522b3a23b99
 translated_from: content/en/alg/VIII/10_s10_modules_over_an_artinian_ring.md
 translation_method: google
 source_content_sha256: f88ff60a0976a0441aed75f5328135625983a714fc53ed6dc1504425eb26923f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0f3c964a2b5cb283ef9a1bf03ad6d5d0adfe45c3318f3276abdad0ef90d0fcd1
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 10。 加群アルティン環
@@ -86,7 +86,7 @@ M 含む $\mathfrak{r}M$ の根基 $\mathfrak{R}(M)$ (VIII、p. 158、命題 6)�
 
 #### 命題 3 {#alg-viii-s10-prop-3 .statement tag=00CA}
 
-A と B を A から B までの環と $f$ 準同型とし、B の $f(A)$ の和集合と $f(A)$ の交換子環 $f(A)'$ によって B が生成されるようにします。 M を左B-加群とします。 スカラー (II, §1, No. 13, p. 221) の制限によって M から推定される環 A が左アルティン的または A-加群 $f_*(M)$ のいずれかが有限生成されるとします。 すると$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$になります。
+A と B を A から B までの環と $f$ 準同型とし、B の $f(A)$ の和集合と $f(A)$ の $f(A)'$ 交換子環によって B が生成されるようにします。M を左B-加群とします。スカラー (II, §1, No. 13, p. 221) の制限によって M から推定される環 A が左アルティン的または A-加群 $f_*(M)$ のいずれかが有限生成されるとします。次に$\mathfrak{R}_A(f_*(M))\subset \mathfrak{R}_B(M)$になります。
 
 S を単純B-加群とします。 A が左アルティン的または A-加群 $f_*(S)$ のいずれかが有限生成されるとします。 $f_*(S)$には根基が無いことを証明します。すべての $b\in f(A)'$ について、ホモテティー $b_S$ は A-加群 $f_*(S)$ の自己準同型であるため、$\mathfrak{R}_A(f_*(S))$ (VIII、p. 152、命題 1) が保持されます。 B は $f(A)\cup f(A)'$ によって生成されるため、根基 $\mathfrak{R}_A(f_*(S))$ は S の B-部分加群であるため、0 または S に等しくなります。$f_*(S)$ が有限生成A-加群である場合、$\mathfrak{R}_A(f_*(S))\not=f_*(S)$ (VIII, p. 153, 命題 2) になります。 環 A が左アルティン的の場合、$\mathfrak{R}_A(f_*(S)) =f(\mathfrak{r})S$ が得られます。ここで、$\mathfrak{r}$ は A の根基 (VIII、p. 174、系の命題 2) であり、$\mathfrak{r}$ は nilpotent であるため、 A の両面イデアル (VIII、p. 173、命題 1) の場合、できないは $S =f(\mathfrak{r})S$ になります。従って、どちらの場合も $\mathfrak{R}_A(f_*(S)) = 0$ になります。
 
@@ -116,7 +116,7 @@ b) M を環 $A/\mathfrak{r}$ 以上加群とします。次に、A-加群とし�
 
 c) M と $M'$ を加群環 $A/\mathfrak{r}$ とする。 $(P, u)$ と $(P', u')$ を A-加群 M と $M'$ の射影カバーとする。この場合、M と $M'$ は、P と $P'$ が同型である場合に限り、同型になります。
 
-A の根基 $\mathfrak{r}$ は、冪能の両側イデアル (VIII、p. 173、命題 1) です。 Assertion a) therefore follows from Corollary 1 of VIII, p. 163 and Remark 2 of VIII, p. 161.
+A の根基 $\mathfrak{r}$ は、零の両側イデアル (VIII、p. 173、命題 1) です。したがって、主張 a) は、VIII の系、p. 163 および VIII、p. 161 の注意 2 から続きます。
 
 主張 b) を証明しましょう。 M の射影カバー $(P, u)$ の存在は、$P/\mathfrak{r}P$ の命題 4 と同型から、VIII、p. 162 の命題 9 の M に続きます。 環 $A/\mathfrak{r}$ は半単純なので、この環上の加群は、単純な場合に限り、分解不可能です。 最後の主張は、VIII、p. 160 の系 2 から続きます。
 
@@ -126,7 +126,7 @@ c)を証明しましょう。 $f$ を P から $P'$ までの同型とします�
 
 射影 A-加群の各類 P で、加群 $P/\mathfrak{r}P$ の類 $\varphi (P)$ を環 $A/\mathfrak{r}$ に関連付けます。 環 $A/\mathfrak{r}$ 上のすべての加群 (それぞれ有限生成加群) の類は、射影 A-加群 (有限生成射影のそれぞれ) の一意の類 P に対して、形 $\varphi (P)$ になります。 A-加群）。
 
-A を左アルティン的環とし、$\mathfrak{r}$ を根基とします。 Denote the set of classes of simple A-modules by $\mathscr{S}$; it is finite (VIII, p. 51). VIII、p. 174 の命題 2 により、半単純環 $A/\mathfrak{r}$ 上の単純加群の類の集合と正規に識別できます。 すべての $\lambda \in \mathscr{S}$ について、$S_{\lambda}$ を類の $\lambda$ の単純A-加群とし、選ぶを $S_{\lambda}$ の射影カバー $(P_{\lambda}, u_{\lambda})$ (VIII、p. 175、命題 4) とします。 命題 5 までに、A-加群 $P_{\lambda}$ は射影的で分解不可能であり、$u_{\lambda}$ 定義する同型は $P_{\lambda}/\mathfrak{r}P_{\lambda}$ から $S_{\lambda}$ までです。 さらに、P が射影で分解不可能な A-加群である場合、P が $P_{\lambda}:$ と同型であるような一意の $\lambda \in \mathscr{S}$ が存在します。これは、$P/\mathfrak{r}P$ が $S_{\lambda}$ と同型であるような一意の $\lambda \in \mathscr{S}$ です。
+A を左アルティン的環とし、$\mathfrak{r}$ を根基とします。 単純A-加群の類の集合を $\mathscr{S}$ で表します。それは有限です (VIII、p. 51)。 VIII の命題 2、p. 174 により、半単純環 $A/\mathfrak{r}$ を超えた単純加群の類の集合と正規に識別できます。すべての $\lambda \in \mathscr{S}$ について、$S_{\lambda}$ を類の $\lambda$ の単純A-加群とし、選ぶを $S_{\lambda}$ の射影カバー $(P_{\lambda}, u_{\lambda})$ (VIII、p. 175、命題 4) とします。 命題 5 までに、A-加群 $P_{\lambda}$ は射影で分解不可能であり、$u_{\lambda}$ 定義する同型は $P_{\lambda}/\mathfrak{r}P_{\lambda}$ から $S_{\lambda}$ までです。さらに、P が射影で分解不可能な A-加群である場合、P が $P_{\lambda}:$ と同型であるような一意の $\lambda \in \mathscr{S}$ が存在します。これは、$P/\mathfrak{r}P$ が $S_{\lambda}$ と同型であるような一意の $\lambda \in \mathscr{S}$ です。
 
 #### 命題 6 {#alg-viii-s10-prop-6 .statement tag=00CF}
 

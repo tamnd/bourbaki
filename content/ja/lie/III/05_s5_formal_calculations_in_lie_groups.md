@@ -29,16 +29,16 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: c658f15ab30bbcfc51b394384b7104c570f86b95be0373ef5109a22881e8e66b
+content_sha256: 60008f5cab4a27b0874c151743225dded6f3542426d340cb5b27298365960dcc
 translated_from: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
 translation_method: google
 source_content_sha256: 11ac709b8f3f88dc9c56e0725f4895fcc0f9592e0b472ff993cd89dad5d027d2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: fe2f32b897eb2ceaa7e456e6fbf838cd1b84158db67e4def0371689c628abccf
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 リー群での正式な計算
@@ -53,7 +53,7 @@ $f_i = g_i$ の場合は $i < p$ です。
 
 ### 1. ザ係数 $c_{\alpha \beta \gamma}$
 
-$\Omega$ を $(x, y) \in U \times U$ の集合として、$x.y$ が定義され、属するが U になるようにします。 Then $\Omega$ is open in $U \times U$ and the mapping $(x, y) \mapsto x.y$ of $\Omega$ into U is analytic. したがって、$z = x.y$ の座標 $z_1, \ldots, z_n$ は、$x_1, \ldots, x_n, y_1, \ldots, y_n$ の冪の原点を中心とした積分系列としての展開を認めます。 したがって、明確に定義された定数 $c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K$ が存在します。
+$\Omega$ を $(x, y) \in U \times U$ の集合として、$x.y$ が定義され、属するが U になるようにします。 このとき、$\Omega$ は $U \times U$ で開かれており、$\Omega$ の U へのマッピング $(x, y) \mapsto x.y$ は解析的です。 したがって、$z = x.y$ の座標 $z_1, \ldots, z_n$ は、$x_1, \ldots, x_n, y_1, \ldots, y_n$ の冪の原点を中心とした積分系列としての展開を認めます。 したがって、明確に定義された定数 $c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K$ が存在します。
 $$
 z_1^{\gamma_1} \cdots z_n^{\gamma_n} = \sum_{\alpha_1, \ldots, \beta_n \in \mathbf{N}} c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} x_1^{\alpha_1} \cdots x_n^{\alpha_n} y_1^{\beta_1} \cdots y_n^{\beta_n}
 $$

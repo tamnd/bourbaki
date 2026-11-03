@@ -21,16 +21,16 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: ba60235bb777c40aa0088913cc0be8326f31db56dcda11c96bbb7c1556e37272
+content_sha256: 9f8d61d68517265b599b1dc31c85a0487590cce06ee9917f43fb2da273193d4e
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
 translation_method: google
 source_content_sha256: 417cef2f31fafd157b7a2cbea53f12a17f40a56765605873734c2f538ed5f1ad
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8fde887fe0207e1c798bfa8621d5b52490dcb907549deca9a4257139d1b18a78
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。リースで線型形式空間
@@ -65,7 +65,7 @@ $L(-x) = -L(x)$ ($L$ は $\mathbf{R}$ の加法群 E の表現である) なの�
 
 #### 命題 2 {#int-ii-s2-prop-2 .statement tag=08KN}
 
-Let E be a real vector space, C a convex cone with vertex 0 in E such that $E = C - C$, and $x \mapsto M(x)$ a mapping of C into $\mathbf{R}$ such that $M(\lambda x + \mu y) = \lambda M(x) + \mu M(y)$ for all $x \in C$, $y \in C$, $\lambda \geq 0$, $\mu \geq 0$. すると、拡大する M to E という線型形式 L が唯一つ存在します。
+E を実ベクトル空間とし、$E = C - C$ となる E の頂点 0 を持つ凸円錐を C とし、$x \mapsto M(x)$ をすべての $x \in C$、$y \in C$、$\lambda \geq 0$、$\mu \geq 0$ について$M(\lambda x + \mu y) = \lambda M(x) + \mu M(y)$ となる$\mathbf{R}$ へのC のマッピングとします。 すると、拡大する M to E という線型形式 L が唯一つ存在します。
 
 仮定までに、すべての $z \in E$ は $z = y - x$ に書き込まれます。ここで、$x, y$ は属するから C です。さらに、$z = y' - x'$ と $x' \in C$、$y' \in C$ の場合、
 

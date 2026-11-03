@@ -52,16 +52,16 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: f0561ebcaf0901151f846ddff4e29cc4fc998c54bfc28ad1d709a6e25a57216c
+content_sha256: 952282d20c6fd18b935fc40b14f558b4e9196514ddd2eaa46e3b47ece1b15843
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
 translation_method: google
 source_content_sha256: 317fc43050baeab2bc8c0cb022963528cc65340ba4a1f70e587dec5228ab5967
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 3737c0ed16a6357d929a7af8ed0ba073be2b34f5b7253840586b1857b3a39ae6
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。トポロジー上の事前対策と対策空間
@@ -130,7 +130,7 @@ $$
 
 ### 2. 事前対策と対策
 
-$T$ をトポロジー 空間とし、$\mathfrak{K}$ を包含順に並べた $T$ のコンパクトな部分集合の集合とします。 すべての $K \in \mathfrak{K}$ について、$\mathscr{M}(K; \mathbf{C})$ を $K$ の複素測度の集合とします。 For every pair $(K, L)$ of elements of $\mathfrak{K}$ such that $K \subset L$, let $\iota_{KL}$ be the mapping of $\mathscr{M}(L; \mathbf{C})$ into $\mathscr{M}(K; \mathbf{C})$ that associates to each measure $\mu$ on $L$ the measure $\mu_K$ induced by $\mu$ on $K$ (Ch. IV, §5, No. 7、デフォルト。 4)。 次に、$K, L$ と $M$ が $T$ の部分集合で、$K \subset L \subset M$ となるとき、$\iota_{KM} = \iota_{KL} \circ \iota_{LM}$。これは、誘導措置の推移性から続きます（Ch. V, §7, No. 2、提案 4)。 写像 $\iota_{KL}$ の族 $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ の *逆数極限* の元は、$T$ で *premeasures* と呼ばれます。 その他語:
+$T$ をトポロジー 空間とし、$\mathfrak{K}$ を包含順に並べた $T$ のコンパクトな部分集合の集合とします。 すべての $K \in \mathfrak{K}$ について、$\mathscr{M}(K; \mathbf{C})$ を $K$ の複素測度の集合とします。 $K \subset L$ のような $\mathfrak{K}$ の要素のすべてのペア $(K, L)$ について、$\iota_{KL}$ を、$L$ の各メジャー $\mu$ と $K$ の $\mu$ によって引き起こされるメジャー $\mu_K$ に関連する $\mathscr{M}(L; \mathbf{C})$ から $\mathscr{M}(K; \mathbf{C})$ へのマッピングとします。 (Ch. IV, §5, No. 7、デフォルト。 4)。 次に、$K, L$ と $M$ が $T$ の部分集合で、$K \subset L \subset M$ となるとき、$\iota_{KM} = \iota_{KL} \circ \iota_{LM}$。これは、誘導措置の推移性から続きます（Ch. V, §7, No. 2、提案 4)。 写像 $\iota_{KL}$ の族 $(\mathscr{M}(K; \mathbf{C}))_{K \in \mathfrak{K}}$ の *逆数極限* の元は、$T$ で *premeasures* と呼ばれます。 その他語:
 
 #### 定義 3 {#int-ix-s1-def-3 .statement tag=09MS}
 
@@ -219,15 +219,15 @@ $$
 
 $T$ の複雑な測度の集合は明らかにベクトル空間 (*注意* 1) であり、$\mathscr{M}(T; \mathbf{C})$ と表されます。実際の対策の空間は$\mathscr{M}(T; \mathbf{R})$、または多くの場合$\mathscr{M}(T)$で示され、前向きの対策のコーンは$\mathscr{M}_+(T)$で示されます。
 
-$w$ が複素測度の場合、その実数部分と虚数部分が実数測度です。 $w$ が実際の指標である場合、$w^+$ と $w^-$ は積極的な指標です。したがって、すべての複雑な (それぞれ実際の) 測定は、正の測定の線形結合 (それぞれの差) です。
+$w$ が複素メジャーの場合、その実数部分と虚数部分が実数メジャーです。 $w$ が実際の指標である場合、$w^+$ と $w^-$ は積極的な指標です。したがって、すべての複雑な (それぞれ実際の) 測定値は、正の測定値の線形結合 (それぞれの差) です。
 
 #### 注意 2 {#int-ix-s1-n2-rem-2 .statement tag=09MX}
 
-$T$ が *局所的にコンパクト* である場合、$T$ 上のすべての事前メジャー $w$ がメジャーになります。なぜなら、すべての $x \in T$ はコンパクトな近傍 $K$ と $|w|^*(K) = \|w_K\| < +\infty$ を許容するため、制約事項 $|w|^*$ は局所的に制限されるからです。
+$T$ が *局所的にコンパクト* である場合、$T$ 上のすべての事前メジャー $w$ がメジャーになります。なぜなら、すべての $x \in T$ はコンパクトな近傍 $K$ と $|w|^*(K) = \|w_K\| < +\infty$ を許容するため、制約事項 $|w|^*$ は局所的に限定されるからです。
 
 #### 注意 3 {#int-ix-s1-n2-rem-3 .statement tag=09MY}
 
-$T$ のすべてのボレル部分集合 $A$ (特に $A = T$) および $T$ のすべてのポジティブな尺度 $\mu$ について、数 $\mu^*(A)$ は、コンパクトな部分集合の尺度 $\mu^*(K)$ の最高値です。 $A$。実際、$A$ の各コンパクト部分集合 $K$ には、$\mu^*(K) \leq \mu^*(A)$ があります。一方、$\mathfrak{K}$ が $T$ のコンパクト部分集合の集合である場合、
+$T$ のすべてのボレル部分集合 $A$ (特に $A = T$) および $T$ のすべてのポジティブ指標 $\mu$ について、数 $\mu^*(A)$ はコンパクトの指標 $\mu^*(K)$ の最高値です$A$の部分集合。実際、$A$ の各コンパクト部分集合 $K$ には、$\mu^*(K) \leq \mu^*(A)$ があります。一方、$\mathfrak{K}$ が $T$ のコンパクト部分集合の集合である場合、
 
 $$
 \mu^*(A) = \sup_{K \in \mathfrak{K}} \mu_K^*(A \cap K) = \sup_{K \in \mathfrak{K}} \sup_{L \in \mathfrak{K}, L \subset A \cap K} \mu_K^*(L) \leq \sup_{L \in \mathfrak{K}, L \subset A} \mu^*(L)
@@ -241,11 +241,11 @@ $$
 
 — *ローカルコンパクト空間で測定。*
 
-次の命題は、この章含むの理論が Ch の理論であることを示しています。 IV。 主張、語の「測定」、記法 $\mathscr{M}(T; \mathbf{C})$は、先ほどの章の意味で解釈されます。
+次の命題は、この章含むの理論が第 3 章の章の理論を示しています。 IV。 主張では、語の「測定」と記法 $\mathscr{M}(T; \mathbf{C})$ は、前の章の意味で解釈されます。
 
 #### 命題 3 {#int-ix-s1-prop-3 .statement tag=09N0}
 
-*$T$ を局所コンパクト空間とし、$\mu$ を $T$ のメジャーとします。 $T$ の各コンパクト部分集合 $K$ に誘導メジャー $\mu_K$ を関連付ける $W(\mu)$ 写像で示します。次に、$W(\mu)$は$T$の事前措置であり、$W(|\mu|) = |W(\mu)|$があり、線形写像$W : \mu \mapsto W(\mu)$は空間$\mathscr{M}(T; \mathbf{C})$の全単射を空間$\mathscr{P}(T; \mathbf{C})$に事前措置します。 $T$。さらに、$\mu$が正なら$\mu^* = (W(\mu))^*$です。
+*$T$を局所コンパクト空間とし、$\mu$を$T$のメジャーとします。 $T$ の各コンパクト部分集合 $K$ に誘導メジャー $\mu_K$ を関連付ける $W(\mu)$ 写像で示します。次に、$W(\mu)$ は $T$ の事前措置であり、$W(|\mu|) = |W(\mu)|$ があり、線形写像 $W : \mu \mapsto W(\mu)$ は空間 $\mathscr{M}(T; \mathbf{C})$ の全単射から空間 $\mathscr{P}(T; \mathbf{C})$ への事前措置です。 $T$。さらに、$\mu$が正の場合は、$\mu^* = (W(\mu))^*$となります。
 
 $W(\mu)$ が事前措置であることは明らかです (Ch. V, §7, No. 2、提案 4) そして、写像 $W$ は線形です。 関係 $W(\mu) = 0$ は、$\mu$ 誘導する $T$ のすべてのコンパクト集合の小節 0 を意味します。次に、$f \in \mathscr{H}(T; \mathbf{C})$ に対して $\mu(f) = 0$、つまり $\mu = 0$ となり、$W$ が単射であることが証明されます。 $W$ が全射であることを証明することはまだ残っています。 すべての事前測定は、正の事前測定の線形結合であるため、すべての *正の* 事前測定 $w$ に対して、$w = W(\mu)$ となるような正の測定 $\mu$ を構成するすれば十分です。 $f \in \mathscr{H}(T)$ を与えられた写像とし、$L$ を $f$ のサポートをコンパクトにした集合含むとします。 数 $w_L(f_L)$ は、$L$ の選択から、誘導措置の定義によって独立しているため、集合 $\mu(f) = w_L(f_L)$ が可能です。この場合、$\mu$ は $\mathscr{H}(T)$ に対するプラスの線型形式、つまりプラスの尺度です。 $w = W(\mu)$; であることを確認してみましょう。まず、関係 $\mu^\bullet(f) = w_L^\bullet(f_L)$ 拡大するを、$f$ が正で$L$ の外側の零である有限の上半連続写像である場合に当てはめます。 なぜなら、$M$ を $L$ のコンパクトな近傍とし、$\mathscr{H}$ を $T$ 上の連続写像の (減少するで指示された) 集合とし、$M$ に含まれるサポート、つまり $\geq f$ とする。 それから (Ch. IV, §4, No. 4、コル。提案 5 の 2)
 
@@ -332,7 +332,7 @@ $\mu$ は、$\lambda$ によって *定義*された T 上のメジャーであ�
 
 *写像* $f$ *上に定義* $T$、*トポロジカル空間で値を使用* $F$ (*ハウスドルフか否か*) *測度が可測であると言われている* $\mu$ *(または* $\mu$*可測である)* *すべてのコンパクト部分集合* $K$ *of* $T$、*写像* $f_K$ *は* $\mu_K$*測定可能*。
 
-これは、$K$ のすべてのコンパクト集合 $K$、分割が、コンパクト集合の $\mu_K$ 無視できる集合 $N$ および数列 $(K_n)$ に存在するというというになります。 $f$から各$K_n$までの制限は連続です。 Since it is equivalent to say that $N$ is $\mu_K$-negligible or that it is locally $\mu$-negligible (No. 4), one sees that $f$ is $\mu$-measurable if and only if, for every compact set $K$, there exists a partition of $K$ into a locally $\mu$-negligible set $N$ and a sequence $(K_n)$ of compact sets such that $f_{K_n}$ is continuous for all $n$. この定義はDefのものと同一です。 1章 IV, §5, No. 1, and one thus recovers the usual concept of measurable function when $T$ is locally compact.
+これは、$K$ のすべてのコンパクト集合 $K$、分割が、コンパクト集合の $\mu_K$ 無視できる集合 $N$ および数列 $(K_n)$ に存在するというというになります。 $f$から各$K_n$までの制限は連続です。 $N$ が $\mu_K$ 無視できる、または局所的に $\mu$ 無視できる (No. 4) と言うのと同じなので、すべてのコンパクト集合 $K$ について、$K$ の分割が存在する場合に限り、$f$ が $\mu$ 可測であることが分かります。ローカルな $\mu$ 無視集合 $N$ と、$f_{K_n}$ がすべての $n$ に対して連続であるようなコンパクト集合のシーケンス $(K_n)$ です。 この定義はDefのものと同一です。 1章 IV, §5, No. 1, and one thus recovers the usual concept of measurable function when $T$ is locally compact.
 
 $T$ の部分集合 $A$ は、その特性写像が測定可能であれば測定可能であると言われます。 $A$が$\mu$可測かつ$\mu^\bullet(A) < +\infty$のとき、この数は単に$\mu(A)$と表され、$A$の*測度*と呼ばれます。同様に、$f$が$\geqslant 0$、$\mu$可測、$\mu^\bullet(f) < +\infty$の場合、$\mu^\bullet(f)$に対して$\mu(f)$と書きます。
 
@@ -342,7 +342,7 @@ $\theta$ が $T$ の複素測度である場合、写像 $f$ (それぞれ $T$ �
 
 — $L$ を $T$ の圧縮部分集合、$\lambda$ を $L$ のメジャー、$\mu$ を $\lambda$ (No. 3, *例 2*) で定義される $T$ のメジャーとします。 $T$ で定義された写像 $f$ は、$f_L$ が $\lambda$ 測定可能である場合に限り、$\mu$ 測定可能です。 なぜなら、この条件は明らかに必要だからです。 逆に、それが満たされる場合、$\lambda$-無視できる集合 $N$ とコンパクト集合の数列 $(L_n)$ に$L$ の分割が存在し、$f_{L_n}$ がすべての$n$ に対して連続になります。 $K$ が $T$ のコンパクト部分集合である場合、集合 $K - \bigcup^n (K \cap L_n)$ は $\lambda$ が無視できる $L$ を持つ共通部分を持ちます。したがって、この集合は、次の式によって $\mu$ が無視できますNo. 3の公式(3)、$f$～$K \cap L_n$の制限は$n$全て連続です。
 
-デフ。 7 では、新しい証明、数を使用せずに、測定可能な写像の結果を局所的にコンパクトではない空間の場合に拡張することができます。 以下にそれらのいくつかを示しますが、これ以降は参照せずに使用します。 $T$ のオープン集合とクローズ集合は $\mu$ で測定可能です。 $\mu$ 測定可能な集合形部族 (Ch. IV, §5, No. 4、コル。 Thの2。 2)、T の含むボレル集合 (上記引用、コリント 3)、およびスースリン集合 (Ch. IV, §5, No. 1、コル。議案3)(1)の2． 数値写像に対する通常の代数演算は可測性を維持します (Ch. IV, §5, No. 3)、極限への可算通路の演算 (上記引用、No. 4、Th. 2 および Cor. 1) も同様です。 次の性質については、より明確に言及する価値があります。
+デフ。 7 では、新しい証明、数を使用せずに、測定可能な写像の結果を局所的にコンパクトではない空間の場合に拡張することができます。以下にそれらのいくつかを示しますが、これ以降は参照せずに使用します。 $T$ のオープン集合とクローズ集合は $\mu$ で測定可能です。 $\mu$ 測定可能な部族集合形部族 (Ch. IV, §5, No. 4、Th. 2 のコリント 2)、その含む T のボレル集合 (上記引用、コリント 3)、およびスーリン集合 (Ch. 2 のコリント 2)。 IV, §5, No. 1、提案 3 の 2)(1)。数値写像に対する通常の代数演算は、極限への可算通過の演算と同様に、可測性を保持します (Ch. IV, §5, No. 3) (loc. cit.、No. 4、Th. 2 および Cor. 1)。次の性質については、より明確に言及する価値があります。
 
 #### 命題 4 {#int-ix-s1-prop-4 .statement tag=09N9}
 
@@ -547,7 +547,7 @@ $\mu$ に対する T の粉砕 $(K_\alpha)_{\alpha \in A}$ を考えてみまし
 
 #### スクリウム {#int-ix-s1-n8-sch-1 .statement tag=09NN}
 
-— $(K_\alpha)_{\alpha \in A}$ を T のクラッシュとし、$N = T - \bigcup_\alpha K_\alpha$ とします。 We denote by $T'$ the locally compact space obtained by equipping $T'$ with the sum topology of the topologies of the subspaces $K_\alpha$ and any locally compact topology on $N$ (unless expressly mentioned to the contrary, $N$ will always be equipped with the discrete topology). それぞれの $\alpha \in A$ について、$i_\alpha$ を $K_\alpha$ から $T'$ への標準単射とし、$\mu'_\alpha$ を $T'$ における$i_\alpha$ の下の $\mu_{K_\alpha}$ の像とする。 ファミリ $(\mu'_\alpha)$ は加算可能です。つまり、$f$ がコンパクト サポートを備えた $T'$ 上の連続写像である場合、$\operatorname{Supp}(f)$ は添字 $\alpha$ の有限数のみで $K_\alpha$ と交差します。 私たちは集合 $\mu' = \sum_{\alpha \in A} \mu'_\alpha$です。 集合 $N$ は、$\mu'$ に対して局所的に無視できます。各 $\mu'_\alpha$ についても同様であるため (提案 9)、族 $(K_\alpha)_{\alpha \in A}$ は $T'$ の $\mu'$ 粉砕です。さて、$K_\alpha$ で $\mu'$ によって引き起こされる尺度は明らかに $\mu_{K_\alpha}$ と公式 (7) であり、$\mu$ と $\mu'$ に適用すると、$\mu^\bullet = {\mu'}^\bullet$ であることがわかります。 Similarly, the last assertion of the statement of Prop. 9, applied to $\mu$ and to $\mu'$, shows that *the measurable mappings are the same for the two measures $\mu$ and $\mu'$*.
+— $(K_\alpha)_{\alpha \in A}$ を T のクラッシュとし、$N = T - \bigcup_\alpha K_\alpha$ とします。 $T'$ は、$T'$ に部分空間 $K_\alpha$ のトポロジーの合計トポロジーと、$N$ 上の局所的にコンパクトなトポロジーを装備することによって得られる局所的にコンパクトな空間を表します (反対に明示的に言及しない限り、$N$ には常に離散トポロジーが装備されます)。 それぞれの $\alpha \in A$ について、$i_\alpha$ を $K_\alpha$ から $T'$ への標準単射とし、$\mu'_\alpha$ を $T'$ における$i_\alpha$ の下の $\mu_{K_\alpha}$ の像とする。 ファミリ $(\mu'_\alpha)$ は加算可能です。つまり、$f$ がコンパクト サポートを備えた $T'$ 上の連続写像である場合、$\operatorname{Supp}(f)$ は添字 $\alpha$ の有限数のみで $K_\alpha$ と交差します。 私たちは集合 $\mu' = \sum_{\alpha \in A} \mu'_\alpha$です。 集合 $N$ は、$\mu'$ に対して局所的に無視できます。各 $\mu'_\alpha$ についても同様であるため (提案 9)、族 $(K_\alpha)_{\alpha \in A}$ は $T'$ の $\mu'$ 粉砕です。さて、$K_\alpha$ で $\mu'$ によって引き起こされる尺度は明らかに $\mu_{K_\alpha}$ と公式 (7) であり、$\mu$ と $\mu'$ に適用すると、$\mu^\bullet = {\mu'}^\bullet$ であることがわかります。 同様に、提案 9 の主張の最後の主張を $\mu$ と $\mu'$ に適用すると、*測定可能な写像が 2 つの測定値 $\mu$ と $\mu'$* で同じであることがわかります。
 
 これら 2 つの特性により、局所的にコンパクトな空間のために作成された$\mu$ から理論に関する積分理論のほぼすべてを削減できます。これらの考慮事項は、No. 10 で開発されます。
 
@@ -555,7 +555,7 @@ $\mu$ に対する T の粉砕 $(K_\alpha)_{\alpha \in A}$ を考えてみまし
 
 #### 命題 11 {#int-ix-s1-prop-11 .statement tag=09NO}
 
-*$X$ を $T$ の $\mu$ で測定可能な部分集合とします。 $X - \bigcup_{\alpha \in A} L_\alpha$ が局所的に $\mu$ 無視できるような、$X$ のコンパクト部分集合のペアごとの互いに素の局所的に可算な族 $(L_\alpha)_{\alpha \in A}$ が存在します。 If, in addition, $X$ is the union of a sequence $(X_n)$ of measurable sets such that $\mu^\bullet(X_n) < +\infty$, then the set $B$ of $\alpha \in A$ such that $\mu^\bullet(L_\alpha) \neq 0$ is countable, and $X - \bigcup_{\beta \in B} L_\beta$ is locally $\mu$-negligible.*
+*$X$ を $T$ の $\mu$ で測定可能な部分集合とします。 $X - \bigcup_{\alpha \in A} L_\alpha$ が局所的に $\mu$ 無視できるような、$X$ のコンパクト部分集合のペアごとの互いに素の局所的に可算な族 $(L_\alpha)_{\alpha \in A}$ が存在します。 加法において、$X$ が数列の和集合 $\mu^\bullet(X_n) < +\infty$ となるような可測集合の $(X_n)$ である場合、$\mu^\bullet(L_\alpha) \neq 0$ が可算であるような $\alpha \in A$ の集合 $B$ であり、 $X - \bigcup_{\beta \in B} L_\beta$ は局所的には $\mu$ 無視できます。*
 
 $f$ を $X$ の特徴写像とし、$(K_\alpha)_{\alpha \in A}$ を $f$ の $K_\alpha$ のそれぞれに対する制限が連続となるような $T$ の破砕とする (提案 10)。 集合 $L_\alpha = K_\alpha \cap X$ は、$\alpha \in A$ ごとにコンパクトになり、$(L_\alpha)_{\alpha \in A}$ が目的のファミリになります。 2 番目の主張に進みましょう。測定可能な集合 $X_n$ は明らかに互いに素であると仮定でき、それぞれに対して主張を確立するだけで十分です。他の語では、必要に応じて記法を変更して、$\mu^\bullet(X) < +\infty$とすることができます。 $\alpha \in A$ の集合 $B$ により、$\mu^\bullet(L_\alpha) > 0$ は可算となり、集合 $N = \bigcup_{\alpha \in A - B} L_\alpha$ が局所的に無視できることを証明するだけです。しかし、$K$ はコンパクトな集合です。家族 $(L_\alpha)_{\alpha \in A}$ は局所的に可算であり、集合 $K \cap N$ は家族 $(K \cap L_\alpha)_{\alpha \in A - B}$ の *可算* サブファミリーの和集合であり、したがってこの集合は局所的に無視できます。 $N$ (No. 2、提案 2) についても同様であり、命題が成立します。
 
@@ -649,7 +649,7 @@ $$
 
 *$f$ を T で定義された緩和された写像とします。ペアごとの互いに素コンパクト集合の数列 $(K_n)$ と、$f = f \varphi_H + \sum_n f \varphi_{K_n}$ などの無視できる集合 H が存在します。
 
-For, let G be a set that is a countable union of integrable open sets, such that $f$ is zero outside G; then G is the union of a sequence $(K_n)$ of pairwise disjoint compact sets and a locally negligible set H (No. 8, Prop. 11); but H is moderated, therefore negligible.
+なぜなら、G を可算開集合の可算和集合であるとし、$f$ が G の外側ではゼロであるとします。この場合、G はペアごとに素なコンパクト集合の列 $(K_n)$ と局所的に無視できる集合 H の和集合です (No. 8、提案 11)。しかし、H は中程度であるため、無視できます。
 
 #### 系 4 {#int-ix-s1-prop-14-cor-4 .statement tag=09O0}
 
@@ -675,7 +675,7 @@ $$
 
 — *しましょう* $p \in [1, +\infty[$; *1 は、* $\overline{\mathscr{L}}^p(T, \mu)$ *(それぞれ* $\overline{\mathscr{L}}_F^p(T, \mu)$ *F がバナッハ空間の場合) 写像* の集合 $\mathbf{f}$ *T を* $\overline{\mathbf{R}}$ *(それぞれ F に) $\mu$ 可測であり、 満たす* $\mu^\bullet(|\mathbf{f}|^p) < +\infty$。 *1 は、* $\mathscr{L}^p(T, \mu)$ *(それぞれ* $\mathscr{L}_F^p(T, \mu)$*) 集合の $\mu$ モデレート元の* $\overline{\mathscr{L}}^p(T, \mu)$ *(それぞれ* $\overline{\mathscr{L}}_F^p(T, \mu)$*)* を表します。
 
-$\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$、$N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$と書きます。 $\overline{N}_\infty(\mathbf{f})$ によって、数 $k \geq 0$ が局所的に $|\mathbf{f}| \leq k$ - ほぼどこでも$\mu$ となるような下限を表します。 $\overline{N}_\infty(\mathbf{f}) < +\infty$ の場合、$\mathbf{f}$ は本質的に有界であると言われます。 The set of measurable and essentially bounded mappings of T into $\overline{\mathbf{R}}$ (resp. into F) is denoted $\overline{\mathscr{L}}^\infty(T, \mu)$ (resp. $\overline{\mathscr{L}}_F^\infty(T, \mu)$). The elements of $\overline{\mathscr{L}}_F^1(T, \mu)$ (resp. $\mathscr{L}_F^1(T, \mu)$) are called essentially integrable functions (resp. integrable functions) with values in F.
+$\overline{N}_p(\mathbf{f}) = \left( \mu^\bullet(|\mathbf{f}|^p) \right)^{1/p}$、$N_p(\mathbf{f}) = \left( \mu^*(|\mathbf{f}|^p) \right)^{1/p}$と書きます。 $\overline{N}_\infty(\mathbf{f})$ によって、数 $k \geq 0$ が局所的に $|\mathbf{f}| \leq k$ - ほぼどこでも$\mu$ となるような下限を表します。 $\overline{N}_\infty(\mathbf{f}) < +\infty$ の場合、$\mathbf{f}$ は本質的に有界であると言われます。 T から $\overline{\mathbf{R}}$ (それぞれ F へ) への測定可能で本質的に有界なマッピングのセットは、$\overline{\mathscr{L}}^\infty(T, \mu)$ (それぞれ $\overline{\mathscr{L}}_F^\infty(T, \mu)$) で示されます。 $\overline{\mathscr{L}}_F^1(T, \mu)$ の元 (それぞれ $\mathscr{L}_F^1(T, \mu)$) は、本質的に可積分関数 (それぞれ可積分関数) と呼ばれ、F には値が付きます。
 
 $\mu$ が複素数値の場合、1 つの集合
 

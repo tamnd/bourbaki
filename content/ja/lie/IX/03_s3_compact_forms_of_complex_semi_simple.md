@@ -37,23 +37,23 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: f17d49c180826d4dd8cbddb439f38154c81f82a72dccd03048a2de259830ab66
+content_sha256: 9154b052c0dcd35fc0fd332e438d049ffb7eb37c4003a60177d0ca6fca80653b
 translated_from: content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md
 translation_method: google
 source_content_sha256: bf0ebd0cda151170c108a2f9b899a1c59ba20dd5f6195c4caf5f17e7cc05a3cd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b33d1192db113df2e05083310ad05d38a81ff4d2d36f5a82cffa4f389c15d332
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。コンパクトな形/複素半単純リー代数
 
 ### 1. リアル形
 
-$\mathfrak{a}$ が複素数リー代数である場合、スカラーの制限によって得られる実数リー代数を $\mathfrak{a}_{[\mathbf{R}]}$ (またはときどき $\mathfrak{a}$) で表します。 $\mathfrak{g}$ が実数リー代数である場合、スカラーの拡大によって得られる複素数リー代数 $\mathbf{C}\otimes_{\mathbf{R}}\mathfrak{g}$ を $\mathfrak{g}_{(\mathbf{C})}$ (またはときどき $\mathfrak{g}_{\mathbf{C}}$) で表します。 The homomorphisms of real Lie algebras $\mathfrak{g}\rightarrow \mathfrak{a}_{[\mathbf{R}]}$ correspond bijectively to the homomorphisms of complex Lie algebras $\mathfrak{g}_{(\mathbf{C})}\rightarrow \mathfrak{a}:$ if $f:\mathfrak{g}\rightarrow \mathfrak{a}_{[\mathbf{R}]}$ and $g:\mathfrak{g}_{(\mathbf{C})}\rightarrow \mathfrak{a}$ correspond, we have $f(x) =g(1\otimes x)$ and $g(\lambda \otimes x) =\lambda f(x)$ for $x\in \mathfrak{g}, \lambda \in \mathbf{C}$.
+$\mathfrak{a}$ が複素数リー代数である場合、スカラーの制限によって得られる実数リー代数を $\mathfrak{a}_{[\mathbf{R}]}$ (またはときどき $\mathfrak{a}$) で表します。 $\mathfrak{g}$ が実数リー代数である場合、スカラーの拡大によって得られる複素数リー代数 $\mathbf{C}\otimes_{\mathbf{R}}\mathfrak{g}$ を $\mathfrak{g}_{(\mathbf{C})}$ (またはときどき $\mathfrak{g}_{\mathbf{C}}$) で表します。 実リー代数 $\mathfrak{g}\rightarrow \mathfrak{a}_{[\mathbf{R}]}$ の準同型性は、複素リー代数 $\mathfrak{g}_{(\mathbf{C})}\rightarrow \mathfrak{a}:$ の準同型性と全単射的に対応します。$f:\mathfrak{g}\rightarrow \mathfrak{a}_{[\mathbf{R}]}$ と $g:\mathfrak{g}_{(\mathbf{C})}\rightarrow \mathfrak{a}$ が対応する場合、$x\in \mathfrak{g}, \lambda \in \mathbf{C}$ に対して $f(x) =g(1\otimes x)$ と $g(\lambda \otimes x) =\lambda f(x)$ が得られます。
 
 #### 定義 1 {#lie-ix-s3-def-1 .statement tag=01B1}
 
@@ -73,7 +73,7 @@ $\sigma^2=$ ID$_{\mathfrak{a}}, \sigma (\lambda x+\mu y) = \overline{\lambda \si
 
 $\lambda , \mu\in \mathbf{C},x, y\in \mathfrak{a}$の場合。 $\sigma (x) =x$ の場合に限り、$\mathfrak{a}$ 属するから $\mathfrak{g}$ までの元 $x$。
 
-b) $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ を写像満たす (2) とします。 Then the set $\mathfrak{g}$ of fixed points of $\sigma$ is a real form of $\mathfrak{a}$, and $\sigma$ is the conjugation of $\mathfrak{a}$ relative to $\mathfrak{g}$.
+b) $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ を写像満たす (2) とします。 このとき、$\sigma$の不動点の集合$\mathfrak{g}$は$\mathfrak{a}$の実数形であり、$\sigma$は$\mathfrak{g}$に対する$\mathfrak{a}$の共役です。
 
 証明は明らかです。
 
@@ -83,7 +83,7 @@ Bが$\mathfrak{a}$の殺害形を表し、$\mathfrak{g}$が$\mathfrak{a}$の実�
 
 In this number, we consider a split semi-simple Lie algebra $(\mathfrak{a},\mathfrak{h})$ over the field $\mathbf{C}$ (Chap. VIII, §2, no. 1), with root system $R(\mathfrak{a},\mathfrak{h}) = R$, and a Chevalley system $(X_{\alpha})_{\alpha\in R}$ of $(\mathfrak{a},\mathfrak{h})$ (Chap. VIII, §2, no. 4, Def. 3).
 
-Recall (loc. cit.) that the linear map $\theta :\mathfrak{a}\rightarrow \mathfrak{a}$ that coincides with $-$Id$_{\mathfrak{h}}$ on $\mathfrak{h}$ and maps $X_{\alpha}$ to $X_{-\alpha}$ for all $\alpha \in R$ is an automorphism of $\mathfrak{a}$. さらに (上記引用、提案 7)、$\alpha , \beta , \alpha +\beta$ が根である場合、
+$\mathfrak{h}$ 上の $-$Id$_{\mathfrak{h}}$ と一致し、すべての $\alpha \in R$ について $X_{\alpha}$ から $X_{-\alpha}$ を写像する線形写像 $\theta :\mathfrak{a}\rightarrow \mathfrak{a}$ は、$\mathfrak{a}$ の自己同型であることを思い出してください (上記参照)。 さらに (上記引用、提案 7)、$\alpha , \beta , \alpha +\beta$ が根である場合、
 
 $$
 [X_{\alpha}, X_{\beta}] = N_{\alpha ,\beta}X_{\alpha+\beta} \tag{3}
@@ -215,7 +215,7 @@ $\mathfrak{a}$ を複素数リー代数とします。次の条件は同等で�
 
 (iii) $\mathfrak{a}$ が $L(G)_{(\mathbf{C})}$ と同型となるようなコンパクト・リー群 G が存在します。
 
-デフによる。 §1, no. 3、条件 (ii) および (iii) の 1 は同等であり、(i) を意味します。 $\mathfrak{a}$ が還元的である場合、それは可換代数の直接積であり、明らかにコンパクトな実数形と Th による 1 を持つ半単純代数があります。 $1a)$ したがって、(i) は (ii) を意味します。
+デフによる。 §1, no. 3、条件 (ii) および (iii) の 1 は同等であり、(i) を意味します。 $\mathfrak{a}$ が還元的である場合、それは可換代数の直接の積であり、明らかにコンパクトな実数形と Th による 1 を持つ半単純代数があります。 $1a)$ したがって、(i) は (ii) を意味します。
 
 #### 系 3 {#lie-ix-s3-thm-1-cor-3 .statement tag=01B8}
 
@@ -239,7 +239,7 @@ a) 複素数リー代数 $\mathfrak{s}\mathfrak{l}(V)$ のコンパクト実数�
 
 b) 代数 $\mathfrak{u}(\Phi )$ は、$\mathfrak{g}\mathfrak{l}(V)$ の圧縮実数形です。
 
-$\Phi$ を V の分離ポジティブエルミート形とします。 すべての $x\in \mathfrak{g}\mathfrak{l}$(V) に対して、 $\sigma (x) =-x^*$ を入力します (ここで、 $x^*$ は $\Phi$ に対する $x$ の随伴です)。 すると、$\sigma$ はno. 1 の提案 1 の条件 (2) を満たすので、$\mathfrak{g}\mathfrak{l}(V)$ (それぞれ$\mathfrak{s}\mathfrak{l}(V)$) 上の$\sigma$ の固定点の集合 $\mathfrak{u}(\Phi )$ (それぞれ$\mathfrak{s}\mathfrak{u}(\Phi )$) はコンパクト実数になります。 $\mathfrak{g}\mathfrak{l}(V)$ の形 (それぞれ $\mathfrak{s}\mathfrak{l}(V)$)。 Since $\mathbf{G}\mathbf{L}(V)$ operates transitively on the set of separating positive hermitian forms on V (Algebra, Chap. IX) and on the set of compact real forms of $\mathfrak{s}\mathfrak{l}(V)$ (no. 3, Th. 1 and Chap. VIII, §13, no. 1 (VII)), Prop. 4 is proved.
+$\Phi$ を V の分離ポジティブエルミート形とします。 すべての $x\in \mathfrak{g}\mathfrak{l}$(V) に対して、 $\sigma (x) =-x^*$ を入力します (ここで、 $x^*$ は $\Phi$ に対する $x$ の随伴です)。 すると、$\sigma$ はno. 1 の提案 1 の条件 (2) を満たすので、$\mathfrak{g}\mathfrak{l}(V)$ (それぞれ$\mathfrak{s}\mathfrak{l}(V)$) 上の$\sigma$ の固定点の集合 $\mathfrak{u}(\Phi )$ (それぞれ$\mathfrak{s}\mathfrak{u}(\Phi )$) はコンパクト実数になります。 $\mathfrak{g}\mathfrak{l}(V)$ の形 (それぞれ $\mathfrak{s}\mathfrak{l}(V)$)。 $\mathbf{G}\mathbf{L}(V)$ は、V (代数、IX 章) の分離正エルミート形式の集合と、$\mathfrak{s}\mathfrak{l}(V)$ (no. 3、Th. 1 および章 VIII, §13, no. 1 (VII)) のコンパクトな実形式の集合に対して推移的に動作するため、提案 4 が証明されます。
 
 #### 系 {#lie-ix-s3-n4-cor-1 .statement tag=01BA}
 
@@ -273,7 +273,7 @@ $V_{(\mathbf{C})}$ を V に関連付けられた複素数ベクトル空間と�
 
 ### 6. コンパクト群/階数 1
 
-位相章、将軍より。 VIII, §1, no. 4、提案 3、提案 4 および注意 4、トポロジー 群 $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ は、ノルム 1 の四元数のトポロジー 群 $\mathbf{S}_3$ および $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ の商と同型です。 行列 $I_2$ と $-I_2$ の部分群 Z からなるはトポロジー 群 $\mathbf{S}\mathbf{O}(3,\mathbf{R})$ と同型です。 $\mathbf{H}=\mathbf{R}.\mathbf{S}_3$ 以来、Z は $\mathbf{S}\mathbf{U}(2,\mathbf{C}):$ の中心であることに注意してください。群 $\mathbf{S}_3$ の中心のすべての元は代数 $\mathbf{H}$ の中心 $\mathbf{R}$ であるため、属する群に 2 つの元 $\mathbf{S}_3\cap \mathbf{R}=\{-1,1\}$ が加わります。
+位相章、将軍よりVIII, §1, no. 4、提案 3、提案 4、および注意 4、トポロジカル群 $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ は、ノルム 1 の四元数のトポロジカル群 $\mathbf{S}_3$ および $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ の商と同型です。 行列 $I_2$ と $-I_2$ の部分群 Z からなるはトポロジー 群 $\mathbf{S}\mathbf{O}(3,\mathbf{R})$ と同型です。 Z は $\mathbf{S}\mathbf{U}(2,\mathbf{C}):$ の中心であることに注意してください。$\mathbf{H}=\mathbf{R}.\mathbf{S}_3$ 以降、群 $\mathbf{S}_3$ の中心のすべての元は代数 $\mathbf{H}$ の中心 $\mathbf{R}$ に含まれるため、 属するから群に元 $\mathbf{S}_3\cap \mathbf{R}=\{-1,1\}$ が 2 つあります。
 
 #### 命題 6 {#lie-ix-s3-prop-6 .statement tag=01BE}
 

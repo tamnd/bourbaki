@@ -37,16 +37,16 @@ subsections:
       pdf_page: 77
 statements: 28
 exercises: 23
-content_sha256: 54867ce470cebb33cf9a2d8986acede0f316c6b08b4916d5b647938a63900b0b
+content_sha256: 0f34c848ba8eb5f7d74e9b20c2f46dcec7a3dc608546c45b0bebb4d6c4b780b7
 translated_from: content/en/fvr/II/01_s1_primitives_and_integrals.md
 translation_method: google
 source_content_sha256: 966025e49c722d33da4fca08c6c4f13c4514b7e1ed5ae715959b710f37572bbe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: eae5f1f33b8ec3df4dd729a4d265ea6d1d273df749154f81525cce13182b31db
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。原始関数と積分
@@ -130,13 +130,13 @@ $y \in I$ と $|y - x| \leq h$ は、証明を完了します。
 
 #### 定義 2 {#fvr-ii-s1-def-2 .statement tag=0875}
 
-*One says that a map $f$ of an interval $I \subset \mathbf{R}$ into a set E is a step function if there is a partition of I into a finite number of intervals $J_k$ such that $f$ is constant on each of the $J_k$.*
+*各 $J_k$ で $f$ が定数となるような、有限数の区間 $J_k$ への I の分割がある場合、区間 $I \subset \mathbf{R}$ の集合 E への写像 $f$ はステップ関数であると言われます。
 
 $(a_i)_{0 \leq i \leq n}$ を、$J_k$ の個別の端点によって形成される真に増加する数列とします。 $J_k$ はペアの互いに素であるため、それぞれがシングルトン $a_i$ に対する簡約するか、エンドポイントとして 2 つの連続する点 $a_i, a_{i+1}$ を持つ区間です。さらに、I は $J_k$ の和集合であるため、点 $a_0$ は左側の端点、$a_n$ は I の右側の端点です。したがって、I のすべてのステップ写像は、オープン区間 ]$a_i,\ a_{i+1}[\ (0 \leq i \leq n - 1)$ のそれぞれで一定である写像として特徴付けることができます。ここで、$(a_i)_{0 \leq i \leq n}$ は、$I$ の点の真に増加する数列です。 $a_0$ は $I$ の左側のエンドポイント、$a_n$ は右側のエンドポイントです。
 
 #### 命題 2 {#fvr-ii-s1-prop-2 .statement tag=0876}
 
-*The set of step functions defined on $I$, with values in a vector space $E$ over $\mathbf{R}$, is a vector subspace $\mathscr{E}$ of the vector space $\mathscr{F}(I; E)$ of all maps of $I$ into $E$.*
+*$I$ で定義されたステップ写像の集合は、ベクトル空間 $E$ の $\mathbf{R}$ の値は、すべてのベクトル部分空間 $\mathscr{E}$ ベクトル空間 $\mathscr{F}(I; E)$ です$I$ の写像を $E$ に*
 
 実際、$f$ と $g$ を 2 つのステップ写像とし、$(A_i)$ と $(B_j)$ を $I$ の 2 つの分割から区間の有限数にすると、$f$ (それぞれ$g$) になります。それぞれの $A_i$ (それぞれ $B_j$) で一定です。 実数 $\lambda, \mu$ が何であれ、空でない区間 $A_i \cap B_j$ のそれぞれで $\lambda f + \mu g$ が一定であること、および $I$ の区間形分割が一定であることは明らかです。
 
@@ -144,7 +144,7 @@ $(a_i)_{0 \leq i \leq n}$ を、$J_k$ の個別の端点によって形成され
 
 *ベクトル部分空間 $\mathscr{E}$ は、区間の特性写像によって生成されます。
 
-Now let us consider the case where $E$ is a normed space over $\mathbf{R}$; it is then immediate that the characteristic function of an interval $J$ with endpoints $a, b$ ($a < b$) admits a primitive, namely the function equal to $a$ for $x \leq a$, to $x$ for $a \leq x \leq b$, and to $b$ for $x \geq b$. コル。支柱に。したがって、2 は、*$E$ の値を含むすべてのステップ写像がプリミティブ* を受け入れることを示しています。
+ここで、$E$ が $\mathbf{R}$ 上の正規空間である場合を考えてみましょう。すると、端点 $a, b$ ($a < b$) を持つ区間 $J$ の特性関数が原始関数、つまり、$x \leq a$ の場合は $a$、$a \leq x \leq b$ の場合は $x$、$x \geq b$ の場合は $b$ に等しい関数が認められることがすぐにわかります。 コル。支柱に。したがって、2 は、*$E$ の値を含むすべてのステップ写像がプリミティブ* を受け入れることを示しています。
 
 これで、n' 2 で方法集合を適用できるようになりました。
 
@@ -206,7 +206,7 @@ $f$ が $I$ で実際に規制されている写像であり、$g$ が区間含�
 
 #### 注意 3 {#fvr-ii-s1-n3-rem-3 .statement tag=087G}
 
-前述の注意拡大するの原則を、$\mathbf{C}$ で完全に正規化された空間で値を取る *複雑* 変数のベクトル写像に大幅な変更を加えません。 $U$ が $\mathbf{C}$ の開いた集合で、$\mathbf{C}$ と同同型である場合、$U$ で定義されたそのようなベクトル写像 $f$ の *プリミティブ* は、定義による連続写像です。 $U$、$U$ の点ごとに $f$ に等しい導関数を持ちます。 With this definition, th. 1 of II, p. 52 extends without modification (one proves, using the connectedness of $U$, that $(g_\alpha)$ is uniformly convergent with respect to $\mathscr{F}$ on a neighbourhood of each point of $U$, from which it follows that $(g_\alpha)$ is uniformly convergent with respect to $\mathscr{F}$ on every compact subset of $U$; the proof is completed using prop. 4 of I, p. 18). その結果、$U$ のすべてのコンパクト部分集合上の多項式の *一様な極限* であるすべての写像は、$U$ 上の原始関数を受け入れます。これらの写像は、$U$ の *正則* と呼ばれる写像に他なりません。これについては、後の本でさらに詳しく学びます。
+前述の注意拡大するの原則を、$\mathbf{C}$ で完全に正規化された空間で値を取る *複雑* 変数のベクトル写像に大幅な変更を加えません。 $U$ が $\mathbf{C}$ の開いた集合で、$\mathbf{C}$ と同同型である場合、$U$ で定義されたそのようなベクトル写像 $f$ の *プリミティブ* は、定義による連続写像です。 $U$、$U$ の点ごとに $f$ に等しい導関数を持ちます。 この定義では、th. II、p. 52 の 1 は修正なしで拡張されます ($U$ の接続性を使用して、$(g_\alpha)$ が $U$ の各点の近傍で $\mathscr{F}$ に関して一様に収束することが証明されます。そこから、$(g_\alpha)$ がすべての点で $\mathscr{F}$ に関して一様に収束することがわかります。 $U$ のコンパクトなサブセット; 証明は I、p. 18 の 4 を使用して完了します。 その結果、$U$ のすべてのコンパクト部分集合上の多項式の *一様な極限* であるすべての写像は、$U$ 上の原始関数を受け入れます。これらの写像は、$U$ の *正則* と呼ばれる写像に他なりません。これについては、後の本でさらに詳しく学びます。
 
 #### 命題 4 {#fvr-ii-s1-prop-4 .statement tag=087H}
 
@@ -266,7 +266,7 @@ g_1(x) - g_1(x_0) = \sum_{i=0}^{n-1} f(t_i)(x_{i+1} - x_i),
 $$
 したがって、関係 (1) は平均値値定理からすぐに続きます。
 
-この章の残りでは、区間 I の *規制* 写像のプリミティブの研究に限定します。 For such a function $f$, with values in E, a primitive $g$ of $f$, and for two arbitrary points $x_0, x$ of I, the element $g(x) - g(x_0)$ of E (which is clearly the same, no matter which primitive $g$ of $f$ one considers) is called the *integral of the function* $f$ *from* $x_0$ *to* $x$ (or *over the compact interval* $[x_0, x]$) and is denoted by $\int_{x_0}^x f(t) dt$ or $\int_{x_0}^x f$. この名前と記法の由来はプロップにあります。 II、p. 57 の 5。これは、積分がリーマン和によって任意に近似できることを示します。より具体的には、$[x_0, x]$ の細分を区間に等しくすると、次のように書くことができます。
+この章の残りでは、区間 I の *規制* 写像のプリミティブの研究に限定します。 E に値を持つそのような関数 $f$ 、$f$ のプリミティブ $g$、および I の任意の 2 つの点 $x_0, x$ について、E の要素 $g(x) - g(x_0)$ ($f$ のどのプリミティブ $g$ を考慮しても明らかに同じです) は、 *関数の積分* $f$ *から* $x_0$ *から* $x$ (または *コンパクト区間* $[x_0, x]$) で、$\int_{x_0}^x f(t) dt$ または $\int_{x_0}^x f$ で表されます。 この名前と記法の由来はプロップにあります。 II、p. 57 の 5。これは、積分がリーマン和によって任意に近似できることを示します。より具体的には、$[x_0, x]$ の細分を区間に等しくすると、次のように書くことができます。
 
 $$
 \frac{1}{x - x_0} \int_{x_0}^x f(t) dt = \lim_{n \to \infty} \frac{1}{n} \sum_{k=0}^{n-1} f \left( x_0 + k \frac{x - x_0}{n} \right).
@@ -389,7 +389,7 @@ $$
 
 #### 系 2 {#fvr-ii-s1-prop-6-cor-2 .statement tag=087Q}
 
-*Let $f$ and $g$ be two real regulated functions on I, such that $g(x) \geq 0$ *at the points where* $g$ *is continuous; if* $m$ *and* $M$ *are the greatest lower bound and least upper bound of* $f$ *over the set of points where* $f$ *is continuous, then*
+*$f$ と $g$ を、I 上の 2 つの実際の規制関数とし、$g(x) \geq 0$ * $g$ * が連続である点で、 * $m$ *および* $M$ *が* $f$ *$f$ *が連続である点のセット上での最大下限と最小上限である場合*
 
 $$
 \frac{m}{b-a} \int_a^b g(t)\,dt \leq \frac{1}{b-a} \int_a^b f(t)g(t)\,dt \leq \frac{M}{b-a} \int_a^b g(t)\,dt.
@@ -421,7 +421,7 @@ $$
 
 ### 6. テイラーの公式の残りを積分公式;上位位数のプリミティブ
 
-The formula for integration by parts of order $n$ (II, p. 60, formula (11)) allows one to express in terms of an integral the remainder $r_n(x)$ in the Taylor expansion of order $n$ of a function which admits a regulated $(n+1)^{th}$ derivative on an interval I (I, p. 22); indeed, on replacing, in (12), $f$ by $f'$, $b$ by $x$, and $g(t)$ by the function $(t-x)^n/n!$, it follows that
+位数 $n$ (II, p. 60, 公式 (11)) の部分による積分のための公式により、位数のテイラー展開の余り $r_n(x)$ を積分の項で表すことができます。 写像の $n$ は、区間 I (I、p. 22) の規制された$(n+1)^{th}$ デリバティブを許可します。確かに、(12) の置き換えることに、$f'$ による $f$、$x$ による$b$、および写像 $(t-x)^n/n!$ による$g(t)$ は次のようになります。
 
 $$
 f(x) = f(a) + f'(a) \frac{(x-a)}{1!} + f''(a) \frac{(x-a)^2}{2!} + \cdots \\

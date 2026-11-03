@@ -50,27 +50,27 @@ subsections:
       pdf_page: 119
 statements: 17
 exercises: 40
-content_sha256: 1765e98b8f7ba62685cba2c96bc7ecfe2990f1933be138013e91e034c06b8343
+content_sha256: 839d2678c9fc7e996f0393a25accb165ff97ce5b6377ff128fb50eff0ff5b5db
 translated_from: content/en/alg/I/07_s7_free_monoids_free_groups.md
 translation_method: google
 source_content_sha256: 97dfa3c35501eb8d7f97ddf5171fd22adaac2703346a99cfb362c9406ce8d816
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 25744d8bc9761af1685168acc8f33093cbb4c55d6685ac7b2032616b2c8592b5
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。無料のモノイド、無料群
 
-この段落では、X は集合を表します。 Unless otherwise mentioned, the identity element of a monoid will be denoted by e.
+この段落では、X は集合を表します。 特に断りのない限り、モノイドの単位元は e で表されます。
 
 ### 1. 無料のマグマ
 
 集合 $M_n(X)$ の数列は、整数 $n \geqslant 1$ 上の帰納法によって次のように定義されます。 $n \geqslant 2$、$M_n(X)$ に対して $M_1(X) = X$ を書くと、集合の集合和になります。 $M_p(X) \times M_{n-p}(X)$ は $1 \leqslant p \leqslant n-1$ です。 $(M_n(X))_{n \geqslant 1}$ 族の集合和は $M(X)$ で示されます。 集合 $M_n(X)$ のそれぞれは、$M(X)$ の標準像と同一視されます。 $M(X)$ の各元 $w$ には、$w \in M_n(X)$ のような固有の整数 $n$ が存在します。それは$w$の長さと呼ばれ、$l(w)$で表されます。 集合 X は、長さ 1 の $M(X)$ の元で構成されます。
 
-$w$ と $w'$ を $M(X)$ に入れます。 $p = l(w)$ と $q = l(w')$ と書きます。 The image of $(w, w')$ under the canonical injection of $M_p(X) \times M_q(X)$ into the sum set $M_{p+q}(X)$ is called the composition of $w$ and $w'$ and is denoted by $ww'$ or $w.w'$. 次に、$l(w.w') = l(w) + l(w')$ と長さ $\geqslant 2$ の $M(X)$ のすべての元は、$M(X)$ の $w', w''$ を使用して形 $w'w''$ に一意に書き込むことができます。
+$w$ と $w'$ を $M(X)$ に入れます。 $p = l(w)$ と $q = l(w')$ と書きます。 $M_p(X) \times M_q(X)$の標準単射の下の$(w, w')$の像を和集合$M_{p+q}(X)$は、$w$と$w'$の合成と呼ばれ、$ww'$またはで表されます。 $w.w'$。次に、$l(w.w') = l(w) + l(w')$ と長さ $\geqslant 2$ の $M(X)$ のすべての元は、$M(X)$ の $w', w''$ とともに形 $w'w''$ に一意に書くことができます。
 
 合成 $(w, w') \mapsto w.w'$ の法則を加えた集合 $M(X)$ を、X (§ 1, no. 1、定義 1) に構築された自由マグマと呼びます。
 
@@ -92,7 +92,7 @@ $$
 
 $u$ が単射だと仮定します。 $X$ が空の場合、$M(X)$ も空であるため、$M(u)$ は単射です。 $X$ が空でない場合、$X$ に $Y$ の写像 $v$ が存在し、$v \circ u$ は $X$ の恒等写像 (*集合理論*, II, § 3, no. 8, 命題 8); 写像 $M(v) \circ M(u) = M(v \circ u)$ は $M(X)$ の恒等写像であるため、$M(u)$ は単射法です。
 
-When $u$ is surjective, there exists a mapping $w$ of $Y$ into $X$ such that $u \circ w$ is the identity mapping of $Y$ (*Set Theory*, II, § 3, no. 8, Proposition 8). この場合、$M(u) \circ M(w) = M(u \circ w)$ は $M(Y)$ の恒等写像であるため、$M(u)$ は全射になります。
+$u$ が全射法の場合、$u \circ w$ が $Y$ の恒等写像となるような、$Y$ の $X$ への写像 $w$ が存在します (*集合論*、II, § 3, no. 8、命題 8)。 この場合、$M(u) \circ M(w) = M(u \circ w)$ は $M(Y)$ の恒等写像であるため、$M(u)$ は全射になります。
 
 最後に、$u$ が全単射である場合、それは単射および全射であるため、$M(u)$ は同じ性質を持ちます。
 
@@ -189,7 +189,7 @@ $$
 
 $x \in M$ の縮小された分解は、$\Sigma$ の元 $\sigma$ となり、$\Phi(\sigma) = x$ になります。
 
-For all $i \in I$, let $\Sigma_i$ be the subset of $\Sigma$ consisting of the sequences $(e; i_1, \ldots, i_n; p_1, \ldots, p_n)$ with $i \neq i_1$ when $n > 0$. させて
+すべての $i \in I$ について、$\Sigma_i$ を、$n > 0$ のときの $i \neq i_1$ を含むシーケンス $(e; i_1, \ldots, i_n; p_1, \ldots, p_n)$ からなる $\Sigma$ のサブセットとします。 させて
 
 $$
 \sigma = (e; i_1, \ldots, i_n; p_1, \ldots, p_n)
@@ -218,9 +218,9 @@ $$
 f_a(a'; i_1, \ldots, i_n; p_1, \ldots, p_n) = (aa'; i_1, \ldots, i_n; p_1, \ldots, p_n).
 $$
 
-Clearly $f_{i,e_i}$ is the identity mapping of $\Sigma$ and $f_{i,xx'} = f_{i,x} \circ f_{i,x'}$ for $x, x'$ in $M_i$ and $f_{i,h_i(a)} = f_a$ for $a \in A$ and $i \in I$.
+明らかに、$f_{i,e_i}$ は $\Sigma$ の恒等写像であり、$M_i$ の $x, x'$ では $f_{i,xx'} = f_{i,x} \circ f_{i,x'}$ であり、$a \in A$ と $i \in I$ では $f_{i,h_i(a)} = f_a$ です。
 
-Then Proposition 4 may be applied to the case where $M'$ is the monoid of mappings of $\Sigma$ into itself with law of composition $(f,f') \mapsto f \circ f'$ and where f_i is the homomorphism $x \mapsto f_{i,x}$ of $M_i$ into $M'$; then there exists a homomorphism $f$ of $M$ into $M'$ such that $f_{i,x} = f(\phi_i(x))$ for $i \in I$ and $x \in M_i$. しましょう
+次に、命題 4 は、$M'$ が合成法則 $(f,f') \mapsto f \circ f'$ による$\Sigma$ のそれ自体への写像のモノイドであり、f_i が $M_i$ から $M'$ への準同型写像 $x \mapsto f_{i,x}$ である場合に適用できます。その場合、$i \in I$ と $x \in M_i$ に対して $f_{i,x} = f(\phi_i(x))$ となるような、$M$ の $M'$ への準同型性 $f$ が存在します。 しましょう
 $$
 \sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n)
 $$
@@ -353,7 +353,7 @@ $1 \leq \alpha \leq n$ は、$1 \leq \alpha < n$ と $w = \prod_{\alpha=1}^n x_\
 
 *G を群および f 写像 of* $X$ *into G とする。 拡大する f* となる準同型* $\bar{f}$ *of* $F(X)$ *into G が 1 つだけ存在します。
 
-$\bar{f}$ の一意性は、群 $F(X)$ が $X$ によって生成されるという事実から帰結します。 $X$ のすべての $x$ について、$f_x$ を $\mathbf{Z}$ の準同型 $n \mapsto f(x)^n$ から $G$ にします。 By no. 3, Proposition 4, there exists a homomorphism $\bar{f}$ of $F(X)$ into $G$ such that $\bar{f}(x^n) = f_x(n)$ for $x \in X$ and $n \in \mathbf{Z}$; in particular, $\bar{f}(x) = f_x(1) = f(x)$ for all $x \in X$ and hence $\bar{f}$ extends $f$.
+$\bar{f}$ の一意性は、群 $F(X)$ が $X$ によって生成されるという事実から帰結します。 $X$ のすべての $x$ について、$f_x$ を $\mathbf{Z}$ の準同型 $n \mapsto f(x)^n$ から $G$ にします。 命題 4 no. 3 により、$x \in X$ と $n \in \mathbf{Z}$ に対して $\bar{f}(x^n) = f_x(n)$ となるような $F(X)$ の $G$ への準同型性 $\bar{f}$ が存在します。特に、すべての $x \in X$ に対して $\bar{f}(x) = f_x(1) = f(x)$ であるため、$\bar{f}$ は $f$ を拡張します。
 
 $u : X \to Y$を写像とします。 命題 8 までに、$F(X)$ の準同型が $F(Y)$ に 1 つだけ存在し、$X$ に $u$ が付いた一致するになります。それは$F(u)$で示されます。マグマの場合と同様 (no. 1) 公式
 
@@ -365,7 +365,7 @@ $$
 
 Iを集合とします。場合によっては、I の同一視する $i$ を、フリーの群 $F(I)$ の標準像 $\phi_i(1)$ としないことが重要です。後者は$T_i$ (場合によっては$T'_i, X_i, \ldots$) で表され、添字 $i$ の *不定* と呼ばれます。フリーの群 $F(I)$ は、$I = \{1, 2, \ldots, n\}$ の場合は $F((T_i)_{i \in I})$ または $F(T_1, \ldots, T_n)$ で表されます。
 
-$G$ を群とし、$t = (t_i)_{i \in I}$ を $G$ の元の家族とします。 命題 8 までに、すべての $i \in I$ に対して $f_t(T_i) = t_i$ を特徴とする $F((T_i)_{i \in I})$ の $G$ に準同型 $f_t$ が存在します。 The image of an element $w$ of $F((T_i)_{i \in I})$ under $f_t$ will be denoted by $w(t)$ or $w(t_1, \ldots, t_n)$ if $I = \{1, 2, \ldots, n\}$; $w(t)$ is said to result from the *substitution* $T_i \mapsto t_i$ in $w$. 特に、$G = F((T_i)_{i \in I})$ と $(t_i) = (T_i) = T, f_T$ が $G$、よって $w(T) = w$ の同一性準同型である場合、 $I = \{1, 2, \ldots, n\}$ の場合は、次に $w(T_1, \ldots, T_n) = w$ です。
+$G$ を群とし、$t = (t_i)_{i \in I}$ を $G$ の元の家族とします。 命題 8 までに、すべての $i \in I$ に対して $f_t(T_i) = t_i$ を特徴とする $F((T_i)_{i \in I})$ の $G$ に準同型 $f_t$ が存在します。 $f_t$ の下の $F((T_i)_{i \in I})$ の要素 $w$ の画像は、$I = \{1, 2, \ldots, n\}$ の場合は $w(t)$ または $w(t_1, \ldots, t_n)$ で表されます。 $w(t)$は、$w$の$T_i \mapsto t_i$を*置換*した結果であると言われています。 特に、$G = F((T_i)_{i \in I})$ と $(t_i) = (T_i) = T, f_T$ が $G$、よって $w(T) = w$ の同一性準同型である場合、 $I = \{1, 2, \ldots, n\}$ の場合は、次に $w(T_1, \ldots, T_n) = w$ です。
 
 $G$と$G'$を、$G$の2つの群、$u$準同型を$G$の元の$G'$と$t = (t_1, \ldots, t_n)$有限列とします。 $t' = (u(t_1), \ldots, u(t_n))$ にしましょう。 $F(T_1, \ldots, T_n)$ の準同型 $u \circ f_t$ を $G'$ 写像 $T_i$ から $u(t_i)$ にすると、$1 \leq i \leq n$ となり、$f_{t'}$ に等しくなります。 $F(T_1, \ldots, T_n)$ の $w$ の場合、
 
@@ -413,15 +413,15 @@ $$
 
 (b) *$G'$ *を群とし、* $t' = (t'_i)_{i \in I}$ *元の* $G'$の家族とする。 *もし* $r_j(t') = e$ *すべてに* $j \in J$、*存在する* 準同型* $u$ *の* $G$ *に* $G'$ *そのような* $u(t_i) = t'_i$ *すべてに* $i \in I$。
 
-(c) *$\overline{G}$ *を群とし、* $\bar{t} = (\bar{t}_i)_{i \in I}$ *生成するの家族* $\overline{G}$ *そのような* $r_j(\bar{t}) = e$ *すべてについて* $j \in J$ とします。 *Every homomorphism of* $\overline{G}$ *into* $G$ *which maps* $\bar{t}_i$ *to* $t_i$ *for all* $i \in I$ *is an isomorphism*.
+(c) *$\overline{G}$ *を群とし、* $\bar{t} = (\bar{t}_i)_{i \in I}$ *生成するの家族* $\overline{G}$ *そのような* $r_j(\bar{t}) = e$ *すべてについて* $j \in J$ とします。 *すべての* $\overline{G}$ *into* $G$ *対応する* $\bar{t}_i$ *to* $t_i$ *for all* $i \in I$ *は同型*です。
 
-Let $f$ denote the homomorphism of $F(I)$ into $G$ which maps $i$ to $t_i$ for all $i \in I$ and $N$ the kernel of $f$.
+$f$ は、$F(I)$ の準同型を $G$ に、$f$ のすべての $i \in I$ と $N$ 核に対して写像 $i$ から $t_i$ を表します。
 
 (a) $\Rightarrow$ (b): $(t, r)$ が $G$ のプレゼンテーションであると仮定し、$t' = (t'_i)_{i \in I}$ を群 $G'$ の元とすべての $j \in J$ に対する $r_j(t') = e$ の族とする。 $f'$ を $F(I)$ の準同型から、すべての $i \in I$ について $f'(i) = t'_i$ によって特徴付けられる $G'$ とします。 すべての $j \in J$ については仮定 $f'(r_j) = e$ によって、また、$N$ は $j \in J$ と $g \in F(I), f'(N) = \{e\}$ については元 $gr_jg^{-1}$ によって生成されます。 準同型 $f \colon F(I) \to G$ は核 $N$ と全射なので、 $f' = u \circ f$ となるような準同型 $u \colon G \to G'$ が存在します。 次に$u(t_i) = u(f(i)) = f'(i) = t'_i$。
 
 (b) $\Rightarrow$ (c): 条件 (b) が成り立つとします。 $t = (t_i)_{i \in I}$ を、すべての $j \in J$ に対して $r_j(t) = e$ となるように、群 $G$ の生成するファミリーとし、$v$ を、すべての $i \in I$ に対して $v(\bar{t}_i) = t_i$ となるように、$\overline{G}$ の $G$ である準同型とします。家族 $(t_i)_{i \in I}$ 生成する $G$ として、準同型 $v$ は*全射*です。 性質 (b) までに、すべての $i \in I$ に対して $u(t_i) = \bar{t}_i$ となるような準同型 $u \colon G \to \overline{G}$ が存在します。すると、すべての $i \in I$ に対して $u(v(\bar{t}_i)) = \bar{t}_i$ となり、したがって $u \circ v$ は $\overline{G}$ 上の恒等となり、$v$ が単射であることが証明されます。したがって、$v$ は同型であり、条件 (c) が成り立ちます。
 
-(c) $\Rightarrow$ (a): 条件 (c) が成り立つとします。 $t'_i$ を $F(I, r)$ と $t' = (t'_i)_{i \in I}$ の $i$ の標準像とします。 then $r_j(t') = e$ for all $j \in J$. As $r_j(t) = e$ for all $j \in J$, there exists one and only one homomorphism $v$ of $F(I, r)$ into $G$ such that $v(t_i) = t_i$ for all $i \in I$. By (c), $v$ is an isomorphism of $F(I, r)$ onto $G$ which transforms the presentation $(t', r)$ of $F(I, r)$ into a presentation $(t, r)$ of $G$.
+(c) $\Rightarrow$ (a): 条件 (c) が成り立つとします。 $t'_i$ を $F(I, r)$ と $t' = (t'_i)_{i \in I}$ の $i$ の標準像とします。 then $r_j(t') = e$ for all $j \in J$. すべての $j \in J$ に対して $r_j(t) = e$ であるように、すべての $i \in I$ に対して $v(t_i) = t_i$ となるような $F(I, r)$ の $G$ への準同型性 $v$ が 1 つだけ存在します。 (c) により、$v$ は $F(I, r)$ の同型から $G$ へ、変換 $F(I, r)$ のプレゼンテーション $(t', r)$ が $G$ のプレゼンテーション $(t, r)$ になります。
 
 ### 7. 自由可換群とモノイド
 
@@ -513,13 +513,13 @@ $M$ を厳密に正の整数の乗法モノイドとし、$\mathfrak{P}$ を素�
 
 ### 8. 指数関数記法
 
-$M$ を乗算的に書かれたモノイド、$u = (u_x)_{x \in X}$ を対で通勤する $M$ の元の家族とします。 Let $\alpha$ be in $\mathbf{N}^{(X)}$; the elements $u_x^{\alpha(x)}$ and $u_y^{\alpha(y)}$ of $M$ commute for $x, y$ in $X$ and there exists a finite subset $S$ of $X$ such that $u_x^{\alpha(x)} = 1$ for $x$ in $X - S$. したがって、次のように書くことができます。
+$M$ を乗算的に書かれたモノイド、$u = (u_x)_{x \in X}$ を対で通勤する $M$ の元の家族とします。 $\alpha$ を $\mathbf{N}^{(X)}$ に入れます。 $M$ の要素 $u_x^{\alpha(x)}$ と $u_y^{\alpha(y)}$ は $X$ の $x, y$ と交換でき、$X - S$ の $x$ に対して $u_x^{\alpha(x)} = 1$ となるような $X$ の有限部分集合 $S$ が存在します。 したがって、次のように書くことができます。
 
 $$
 u^\alpha = \prod_{x \in X} u_x^{\alpha(x)}.
 $$
 
-$M'$ を、家族 $(u_x)_{x \in X}$ によって生成された $M$ の部分モノイドとします。これは可換です (§ 1, no. 5、系 2 から命題 4)。 There thus exists (no. 7, Proposition 10) a unique homomorphism $f$ of $\mathbf{N}^{(X)}$ into $M'$ such that $f(\delta_x) = u_x$ for all $x \in X$ and $f(\alpha) = u^\alpha$ for all $\alpha$ in $\mathbf{N}^{(X)}$. 次の式を導き出します
+$M'$ を、家族 $(u_x)_{x \in X}$ によって生成された $M$ の部分モノイドとします。これは可換です (§ 1, no. 5、系 2 から命題 4)。 したがって、$\mathbf{N}^{(X)}$ のすべての $x \in X$ に対して $f(\delta_x) = u_x$ およびすべての $\alpha$ に対して $f(\alpha) = u^\alpha$ となる、$\mathbf{N}^{(X)}$ から $M'$ への一意の準同型性 $f$ が存在します (no. 7、命題 10)。 次の式を導き出します
 
 $$
 u^{\alpha + \beta} = u^\alpha . u^\beta
@@ -533,7 +533,7 @@ $$
 
 $\mathbf{N}^{(X)}$の$\alpha, \beta$と$X$の$x$。
 
-$v = (v_x)_{x \in X}$ を $M$ の元の他の家族とします。 $X$ の $x, y$ に $v_x v_y = v_y v_x$ と $u_x v_y = v_y u_x$ があるとします。 次に、すべての $x \in X$ に対して $u_x \in L$ と $v_x \in L$ となるような $M$ の可換部分モノイド $L$ (§ 1, no. 5、系 2 から命題 4) が存在します。 The mapping $\alpha \mapsto u^\alpha . v^\alpha$ of $\mathbf{N}^{(X)}$ into $L$ is then a homomorphism (§ 1, no. 5, Proposition 5) mapping $\delta_x$ to $u_x . v_x$. したがって、公式となります。
+$v = (v_x)_{x \in X}$ を $M$ の元の他の家族とします。 $X$ の $x, y$ に $v_x v_y = v_y v_x$ と $u_x v_y = v_y u_x$ があるとします。 次に、すべての $x \in X$ に対して $u_x \in L$ と $v_x \in L$ となるような $M$ の可換部分モノイド $L$ (§ 1, no. 5、系 2 から命題 4) が存在します。 $\mathbf{N}^{(X)}$ の $L$ への写像 $\alpha \mapsto u^\alpha . v^\alpha$ は、$\delta_x$ から $u_x . v_x$ への準同型写像 (§ 1, no. 5、命題 5) になります。 したがって、公式となります。
 
 $$
 u^\alpha . v^\alpha = (u . v)^\alpha,
@@ -570,7 +570,7 @@ $$
 
 #### 命題 11 {#alg-i-s7-prop-11 .statement tag=05FW}
 
-*The canonical homomorphism $\nu$ of Mo(X) into $N^{(X)}$ is surjective.* Let $w = x_1 \ldots x_n$ and $w' = x'_1 \ldots x'_m$ be two elements of Mo(X); in order that $\nu(w) = \nu(w')$, it is necessary and sufficient that $m = n$ and that there exist a permutation $\sigma \in S_n$ with $x'_i = x_{\sigma(i)}$ for $1 \leq i \leq n$.
+*Mo(X) の $N^{(X)}$ への正準準同型性 $\nu$ は全射です。* $w = x_1 \ldots x_n$ と $w' = x'_1 \ldots x'_m$ を Mo(X) の 2 つの要素とします。 $\nu(w) = \nu(w')$ であるためには、$m = n$ と、$1 \leq i \leq n$ に対する $x'_i = x_{\sigma(i)}$ の順列 $\sigma \in S_n$ が存在することが必要かつ十分です。
 
 $\nu$ の像は、$N^{(X)}$ 含む元 $\delta_x$ ($x \in X$ の場合) の部分モノイド I です。 公式 (12) (no. 7) は、$I = N^{(X)}$ が $(\delta_x)_{x \in X}$ ファミリーによって$N^{(X)}$ が生成されることを示しています。したがって、$\nu$ は全射法です。
 

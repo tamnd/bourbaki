@@ -29,16 +29,16 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 72d4abc4d131c8e09bec57c0f621a0e975a70e4a64431ccafc473b54eff8cf86
+content_sha256: 63afb31444f68046b01f01a4b8c31191312834cdfb8ac5aef328b293c522de33
 translated_from: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
 translation_method: google
 source_content_sha256: e122c6b77c1c3a3f195f1e5d14b8ed8bb246e933209f2cbcd2975f972a3111ae
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0ae75a034c8b839b5ed052024989376393545ddb8b9d4c645c82f9ef990e3655
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 図式と完全系列
@@ -84,7 +84,7 @@ $$
 
 (2)
 
-To every path composed of a certain number of segments of the diagram traversed in the direction shown by the arrows corresponds a mapping of the set represented by the beginning of the first segment to the set represented by the end of the last segment, namely the composition of the mappings represented by the various segments traversed. 図式の各頂点、たとえば B に対して、慣例により B に縮小されるパスがあり、そこに対応する恒等写像 1、
+矢印によって示される方向に横断されるダイアグラムの特定の数のセグメントで構成されるすべてのパスには、最初のセグメントの先頭によって表されるセットから最後のセグメントの終端によって表されるセットへのマッピング、つまり、横断されるさまざまなセグメントによって表されるマッピングの構成が対応します。 図式の各頂点、たとえば B に対して、慣例により B に縮小されるパスがあり、そこに対応する恒等写像 1、
 
 (2) には、たとえば、$A$ で始まり $C'$ で終わる 3 つのパスがあります。 対応する写像は $c \circ g \circ f, g' \circ b \circ f$ と $g' \circ f' \circ a$ です。 図式は、同じ始まりと終わりを持つ図式のすべての対について、2 つの対応する写像が等しい場合、可換であると言われます。特にパス一致する対応する写像の先頭と末尾が ID である必要がある場合。
 
@@ -102,7 +102,7 @@ $$
 
 #### 定義 1 {#ac-i-s1-def-1 .statement tag=0421}
 
-Let $A$ be a ring, $F, G, H$ three right (resp. left) $A$-modules, $f$ a homomorphism of $F$ to $G$ and $g$ a homomorphism of $G$ to $H$. 順序付けられた対 $(f, g)$ は、$\overline{g}^{-1}(0) = f(F)$ の場合、つまり $g$ の核が $f$ の像に等しい場合、完全系列と呼ばれます。
+$A$ を環、$F, G, H$ 3 つの右 (それぞれ左) $A$ モジュール、$f$ 準同型の $F$ から $G$ および $g$ 準同型の $G$ を$H$。 $\overline{g}^{-1}(0) = f(F)$ の場合、つまり、$g$ の核が $f$ の像に等しい場合、順序付けられた対 $(f, g)$ は完全系列と呼ばれます。
 
 図式
 $$
@@ -138,13 +138,13 @@ $$
 $$
 完全系列です。
 
-(e) Iff: $E \to F$ is a homomorphism, the diagram
+(e) $E \to F$ が準同型である場合、図は
 $$
 \begin{array}{ccccccccc}
 0 & \longrightarrow & f^{-1}(0) & \xrightarrow{i} & E & \xrightarrow{f} & F & \xrightarrow{p} & F/f(E) \longrightarrow 0
 \end{array}
 $$
-(where $i$ is the canonical injection off $(0)$ into $E$ and $p$ the canonical projection of $F/f(E)$) is an exact sequence.
+(ここで、$i$ は $(0)$ から $E$ への正準注入であり、$p$ は $F/f(E)$ の正準射影です) は正確なシーケンスです。
 
 (f) 図式の場合
 $$
@@ -320,7 +320,7 @@ $$
 
 主張 (i) は命題 2 の主張 (i) の帰結: $\mathrm{Ker}(a) = 0$ と $\mathrm{Ker}(c) = 0$ の場合、従って $\mathrm{Ker}(b) = 0$ です。
 
-Assertion (ii) is a consequence of assertion (ii) of Proposition 2: for $\mathrm{Coker}(a) = 0$ and $\mathrm{Coker}(c) = 0$, hence $\mathrm{Coker}(b) = 0$.
+主張 (ii) は、命題 2 の主張 (ii) の帰結です: $\mathrm{Coker}(a) = 0$ と $\mathrm{Coker}(c) = 0$ の場合、従って $\mathrm{Coker}(b) = 0$ です。
 
 #### 系 2 {#ac-i-s1-prop-2-cor-2 .statement tag=0427}
 

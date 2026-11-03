@@ -45,29 +45,29 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: 82cf973f1a58ba2a2e6b86ba646df7b2abb86f9e30ea42f93e7dbe117591c838
+content_sha256: 5c1782c67051d94c2767bdc73245ad3067a1a2c5132a3b71b210c73a757377ff
 translated_from: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
 translation_method: google
 source_content_sha256: cf2d3140178ddd9a073d777e8eb5efd04f0920704426c6cc3aa6359b95506798
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 215718dbcdb786779a74b07f9095e2e6bec6b29e546c0d0ef1118fecf1ab5a73
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。 空間 / 連続線形写像
 
 ### 1. 空間 $\mathscr{L}_\mathfrak{S}(E; F)$
 
-F を位相的なベクトル空間、E を任意の集合、$\mathfrak{S}$ を E の部分集合の族とする。 $\mathfrak{S}$-収束 (GT、X, § 1, No. 2) の一様構造を使用してベクトル空間 $F^E$ を考えます。 この構造が $F^E$ (GT、X, § 1, No. 4、cor. 2) の可換群構造と互換性があることがわかっています。 このように推定された位相は、$\mathfrak{S}$*-トポロジー*と呼ばれます。 If X is a subset of $F^E$, or more generally, a set with a mapping $j : X \to F^E$, then the universe image under j of the $\mathfrak{S}$*-topology* on $F^E$ is called the $\mathfrak{S}$*-topology* on X.
+F を位相的なベクトル空間、E を任意の集合、$\mathfrak{S}$ を E の部分集合の族とする。 $\mathfrak{S}$-収束 (GT、X, § 1, No. 2) の一様構造を使用してベクトル空間 $F^E$ を考えます。 この構造が $F^E$ (GT、X, § 1, No. 4、cor. 2) の可換群構造と互換性があることがわかっています。 このように推定された位相は、$\mathfrak{S}$*-トポロジー*と呼ばれます。 X が $F^E$ のサブセット、またはより一般的には、マッピング $j : X \to F^E$ を持つセットである場合、$F^E$ の $\mathfrak{S}$*-トポロジー* の j の下にある宇宙イメージは、X の $\mathfrak{S}$*-トポロジー* と呼ばれます。
 
 #### 注意 {#evt-iii-s3-n1-rem-1 .statement tag=07MJ}
 
 — 1) $\mathfrak{S}$*-トポロジー* は、$\mathfrak{S}'$*-トポロジー* と同一です。ここで、$\mathfrak{S}'$ は、$\mathfrak{S}$ (III, p. 1) によって生成されたボーンロジーを示します。
 
-2) $M \in \mathfrak{S}$ と V を F の 0 の近傍とします。 $T(M, V)$ は、$x \in M$ ごとに $f(x) \in V$ となるように、すべての $f \in F^E$ の集合を表します。 If $\mathfrak{S}$ is stable under finite unions, the sets $T(M, V)$ form a fundamental system of neighbourhoods of 0 for the $\mathfrak{S}$*-topology* of $F^E$.
+2) $M \in \mathfrak{S}$ と V を F の 0 の近傍とします。 $T(M, V)$ は、$x \in M$ ごとに $f(x) \in V$ となるように、すべての $f \in F^E$ の集合を表します。 $\mathfrak{S}$ が有限和合のもとで安定している場合、集合 $T(M, V)$ は、$F^E$ の $\mathfrak{S}$*-トポロジー* の 0 の近傍の基本システムを形成します。
 
 #### 命題 1 {#evt-iii-s3-prop-1 .statement tag=07MK}
 
@@ -231,7 +231,7 @@ $$
 
 #### 例 {#evt-iii-s3-n4-exa-1 .statement tag=07MY}
 
-— *1) $\mathbf{R}$ のルベーグ測度を $\mu$ とし、半正規化空間 $\mathscr{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV) を E とします。 すべての数値写像 $f$ およびすべての実数 $h$ について、$f_h$ を写像 $x \mapsto f(x - h)$ とします。 明らかに写像 $f \mapsto f_h$ 定義する E からそれ自体への線形アイソメトリです。 $f$ が連続でコンパクトなサポートがある場合、$f_h$ は一様に $f$ に収束します。したがって、$h$ が 0 になる傾向があるため、位数 $p$ の平均も同様です。 Since the set $\mathscr{K}(\mathbf{R})$ of all continuous functions with compact support is dense in E, and the set of linear isometries of E is equicontinuous, it follows from prop. 5 that for every $f \in E$, $f_h$ converges in the mean of order $p$ to $f$ as $h$ tends to 0.
+— *1) $\mathbf{R}$ のルベーグ測度を $\mu$ とし、半正規化空間 $\mathscr{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV) を E とします。 すべての数値写像 $f$ およびすべての実数 $h$ について、$f_h$ を写像 $x \mapsto f(x - h)$ とします。 明らかに写像 $f \mapsto f_h$ 定義する E からそれ自体への線形アイソメトリです。 $f$ が連続でコンパクトなサポートがある場合、$f_h$ は一様に $f$ に収束します。したがって、$h$ が 0 になる傾向があるため、位数 $p$ の平均も同様です。 コンパクトなサポートを備えたすべての連続関数の集合 $\mathscr{K}(\mathbf{R})$ は E で密であり、E の線形アイソメトリの集合は等連続であるため、prop から続きます。 5 $h$ が 0 になる傾向があるため、$f \in E$、$f_h$ は次数 $p$ から $f$ までの平均に収束します。
 
 $p = 1$ については、次のように定義される $\mathbf{R}$ 上の各 $f \in \mathscr{L}^1(\mu)$ 写像 $\hat{f}$ に関連するフーリエ変換を考慮します。
 
@@ -263,7 +263,7 @@ $(a_n)$ を E の合計数列とします。すると、写像 $u \mapsto (u(a_n
 
 — *E を局所的に凸な計化可能空間とし、F を正規化空間とする。 E と F が両方とも満たす可算性の最初の公理であると仮定します。このとき、$\mathscr{L}(E; F)$ は等連続部分集合の可算族の和集合であり、$\mathscr{L}(E; F)$ には E の事前圧縮部分集合の一様収束の位相にとって密な可算集合が存在します。
 
-Let B be the unit ball of F and $(V_n)$ a countable fundamental system of neighbourhoods of 0 in E. すべての整数 n、すべての $u \in \mathscr{L}(E; F)$ の集合 $H_n$ について、$u(V_n) \subset B$ は等連続で、$\mathscr{L}(E; F)$ は $H_n$ の和集合になります。 系は prop から続きます。 6.*
+B を F の単位球、$(V_n)$ を E の 0 の近傍の可算基本系とする。 すべての整数 n、すべての $u \in \mathscr{L}(E; F)$ の集合 $H_n$ について、$u(V_n) \subset B$ は等連続で、$\mathscr{L}(E; F)$ は $H_n$ の和集合になります。 系は prop から続きます。 6.*
 
 #### 系 2 {#evt-iii-s3-prop-6-cor-2 .statement tag=07N2}
 
@@ -343,7 +343,7 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 #### 系 1 (バナッハ) {#evt-iii-s3-thm-2-cor-1 .statement tag=07NA}
 
-— *$E$ をハウスドルフとし、局所凸型空間を完成させます。 In order that a linear form on $E'$ be continuous for the weak topology $\sigma(E', E)$ (i.e. arises from an element of $E$) it is sufficient that its restriction to every equicontinuous subset of $E'$ is continuous for $\sigma(E', E)$.*
+— *$E$ をハウスドルフとし、局所凸型空間を完成させます。 $E'$ の線形形式が弱いトポロジー $\sigma(E', E)$ に対して連続である (つまり、$E$ の要素から生じる) ためには、$E'$ のすべての等連続サブセットに対する制限が $\sigma(E', E)$ に対して連続であるだけで十分です。
 
 #### 注意 {#evt-iii-s3-n6-rem-1 .statement tag=07NB}
 
@@ -353,7 +353,7 @@ $$ (A \cap U)^\circ \subset (A^\circ + U^\circ)^{\circ\circ} = A^\circ + U^\circ
 
 *$(E_i)_{i \in I}$ を局所凸ハウスドルフ族空間とし、$E$ をそれらのトポロジー 直和とします。すると、$\hat{E}_i$の直和から$\hat{E}$への標準写像は同型になります。特に、$E$ は、すべての $E_i$ が完了した場合にのみ完了します。*
 
-$E$ の双対は、$E_i$ の双対の積 (II、p. 30、公式 (1)) と識別できることがわかっています。 $u \in \hat{E}$ とし、$u_i \in {E_i'}^*$ を $u$ の制限 (${E'}^*$ の元とみなします) から $E_i' \subset E'$ とします。 添字 $i \in I$ の有限数を除いて、$u_i = 0$ を証明するのに十分であるのは明らかです。 逆に、$u_{i_n} \neq 0$ のような異なる添字の数列 $(i_n)_{n \in \mathbf{N}}$ が存在すると仮定します。 そして、$u_{i_n}(x_{i_n}) = n$となるような$x_{i_n} \in E_{i_n}'$が存在します。 The set $H$ of all $x_{i_n}$ is equicontinuous in $E'$ and the restriction of $u$ to $H$ is not bounded, which is impossible.
+$E$ の双対は、$E_i$ の双対の積 (II、p. 30、公式 (1)) と識別できることがわかっています。 $u \in \hat{E}$ とし、$u_i \in {E_i'}^*$ を $u$ の制限 (${E'}^*$ の元とみなします) から $E_i' \subset E'$ とします。 添字 $i \in I$ の有限数を除いて、$u_i = 0$ を証明するのに十分であるのは明らかです。 逆に、$u_{i_n} \neq 0$ のような異なる添字の数列 $(i_n)_{n \in \mathbf{N}}$ が存在すると仮定します。 そして、$u_{i_n}(x_{i_n}) = n$となるような$x_{i_n} \in E_{i_n}'$が存在します。 すべての$x_{i_n}$の集合$H$は$E'$で等連続であり、$u$から$H$の制限は制限されておらず、これは不可能です。
 
 ### 7. $\mathscr{S}$-$\mathscr{L}(E; F)$ の系統学
 

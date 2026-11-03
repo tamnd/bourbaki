@@ -33,16 +33,16 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 2
-content_sha256: c6cbc067db5db41f0d760a143fb71b7b6357d88998e2a030a4d95004076cb34b
+content_sha256: 0f81ec7ca8d8cb13157e52732bed2c748165160504bcad18e2f8f92c0e8a4333
 translated_from: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
 translation_method: google
 source_content_sha256: 02cb54c6e38040afaaa4704bd9864f0e39ab141fc23dcd61afa7b042aa7a7e87
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e5033c45ab29860840e6c2eb70ba346637bc6219724f38ccf5d576db3f6eeac4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。ヒルバーティアンのテンソル積空間
@@ -218,7 +218,7 @@ $F_i$ を、$e_i$ ($i \in I$) によって生成された $E_1$ の行としま�
 
 #### 例 1 {#evt-v-s3-n2-exa-1 .statement tag=080I}
 
-By cor. 1, the space $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ is canonically isomorphic to $\ell^2(I \times J)$, the tensor product $x \otimes y$ of $x = (x_i)_{i \in I}$ and $y = (y_j)_{j \in J}$ can be identified with the family $(x_i y_j)_{i \in I, j \in J}$. 同様に、cor. 2、ヒルバート空間 $E$ のすべての $y$ に対して $(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$ が得られるように、$\ell^2(I) \hat{\otimes}_2 E$ は $\ell^2_E(I)$ と識別できます。
+コルによって。 1、空間 $\ell^2(I) \hat{\otimes}_2 \ell^2(J)$ は $\ell^2(I \times J)$ と正準同型で、$x = (x_i)_{i \in I}$ と $y = (y_j)_{j \in J}$ のテンソル積 $x \otimes y$ は族 $(x_i y_j)_{i \in I, j \in J}$ と識別できます。 同様に、cor. 2、ヒルバート空間 $E$ のすべての $y$ に対して $(x_i)_{i \in I} \otimes y = (x_i y)_{i \in I}$ が得られるように、$\ell^2(I) \hat{\otimes}_2 E$ は $\ell^2_E(I)$ と識別できます。
 
 #### 例 2 {#evt-v-s3-n2-exa-2 .statement tag=080J}
 
@@ -244,7 +244,7 @@ $$
 
 $\mathfrak{S}_n$ の $\sigma, \tau$ には $p_{\sigma \tau} = p_{\sigma} p_{\tau}$ があり、その結果、ベクトル空間 $\hat{\mathbf{T}}^n(E)$ の自己準同型 $\Pi_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} p_{\sigma}$ は、$\mathfrak{S}_n$ によって不変のまま残されたすべての元の部分空間へのオルソプロジェクターです。ただし、(A, III, § 6, No. 3)、$\Pi_n$ 写像は、位数 $n$ のすべての対称テンソルの部分空間 $\mathbf{TS}^n(E)$ に«代数» テンソル積 $\mathbf{T}^n(E)$ が加わります。他の語、$\Pi_n$の像は、$\mathbf{T}^n(E)$のスカラー積を備えた空間$\mathbf{TS}^n(E)$の完成です。この完了は $\widetilde{\mathbf{TS}}^n(E)$ で示されます。
 
-$\mathbf{S}^n(E)$ をベクトル空間 $E$ (A, III, § 6, No. 1) の $n$ 番目の対称冪とします。 The canonical mapping from $\mathbf{T}^n(E)$ onto $\mathbf{S}^n(E)$ defines by restriction an isomorphism $\lambda_n$ from $\mathbf{TS}^n(E)$ onto $\mathbf{S}^n(E)$. 逆同型が次によって与えられることをすぐに検証します。
+$\mathbf{S}^n(E)$ をベクトル空間 $E$ (A, III, § 6, No. 1) の $n$ 番目の対称冪とします。 $\mathbf{T}^n(E)$ から $\mathbf{S}^n(E)$ への正準写像は、$\mathbf{TS}^n(E)$ から $\mathbf{S}^n(E)$ への同型写像 $\lambda_n$ を制限により定義します。 逆同型が次によって与えられることをすぐに検証します。
 
 $$
 \mu_n(x_1 \ldots x_n) = \Pi_n(x_1 \otimes \ldots \otimes x_n) = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} x_{\sigma^{-1}(1)} \otimes \ldots \otimes x_{\sigma^{-1}(n)}

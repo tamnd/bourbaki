@@ -30,16 +30,16 @@ subsections:
       pdf_page: 141
 statements: 17
 exercises: 21
-content_sha256: 450a4277ef6dd2bd877041bdfcecf1c00eb3decba3d2142cbb81a1614a396de6
+content_sha256: e1d5ca1c1f132f30b1cb33ccab293c9361dd912fc4b24f8b597af4c8a49537d3
 translated_from: content/en/alg/I/09_s9_fields.md
 translation_method: google
 source_content_sha256: 622420ff5a6f546db44026f2ba8fbe2960bad17825f8f2a2110f89182676f0dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f107c9c6363815e4313f4403b010b717a6b65a3d0e93dbe2e6c5b40f54b905af
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 9。 体
@@ -50,7 +50,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 *環 $K$ は、$0$ のみで構成されず、$K$ のゼロ以外のすべての元が反転可能な場合、体と呼ばれます。
 
-The set of non-zero elements of the field $K$, with multiplication, is a group, which is precisely the multiplicative group $K^*$ of the ring $K$ (§ 8, no. 1). 体の反対環は体です。 乗法が可換である場合、体は *可換* と呼ばれます。このような体はその反対のものと同一視されます。 非可換フィールドときどきは *スキュー 体* と呼ばれます。
+非ゼロの集合体 $K$ の元は、乗法と合わせて群であり、正確には環 $K$ (§ 8, no. 1) の乗法群 $K^*$ です。 体の反対環は体です。 乗法が可換である場合、体は *可換* と呼ばれます。このような体はその反対のものと同一視されます。非可換フィールドときどきは *スキュー 体* と呼ばれます。
 
 #### 例 {#alg-i-s9-n1-exa-1 .statement tag=05IG}
 
@@ -82,17 +82,17 @@ $\mathbf{A}$ が条件 (b) を満たすとします。 $x \neq 0$ を $\mathbf{A
 
 #### 注意 {#alg-i-s9-n1-rem-1 .statement tag=05IK}
 
-定理 1 では、左の理想を右の理想に置き換えることができます。 章 VIII, § 5, no. 2 では、0 と $\mathbf{A}$ とは異なる *両側* 理想を持たない非ゼロ環 $\mathbf{A}$ を研究します。このような環 (*準単純* と呼ばれる) は、必ずしも体 * であるとは限りません (たとえば、有理数係数を持つ位数 2 の正方行列の環 $\mathbf{M}_2(\mathbf{Q})$ は準単純ですが、体ではありません)*。
+定理 1 では、左の理想を右の理想に置き換えることができます。 章 VIII, § 5, no. 2 では、0 と $\mathbf{A}$ とは異なる *両側* イデアルを持たない非ゼロ環 $\mathbf{A}$ を研究します。このような環 (*準単純* と呼ばれる) は、必ずしも体 * であるとは限りません (たとえば、有理数係数を持つ位数 2 の正方行列の環 $\mathbf{M}_2(\mathbf{Q})$ は準単純ですが、体ではありません)*。
 
 #### 系 1 {#alg-i-s9-thm-1-cor-1 .statement tag=05IL}
 
-$\mathbf{A}$を環、$a$を$\mathbf{A}$の両面理想とします。 環 $\mathbf{A}/a$ が体になるためには、$a$ が $\mathbf{A}$ の最大左理想であることが必要かつ十分です。
+$\mathbf{A}$ を環とし、$a$ を $\mathbf{A}$ の両面の理想とします。 環 $\mathbf{A}/a$ が体になるためには、$a$ が $\mathbf{A}$ の最大左イデアルであることが必要かつ十分です。
 
-$\mathbf{A}/a$ の左イデアルは形 $b/a$ で、$b$ は $\mathbf{A}$ 含む $a$ ($§ 8$、no. 8、系 ～ 命題 5) の左イデアルです。 $\mathbf{A}/a \neq 0$ ということは $a \neq \mathbf{A}$ を意味します。この仮定の下で、$\mathbf{A}$ 含む $a$ の唯一残った理想が $a$ と $\mathbf{A}$ (定理 1)、よってである場合に限り、$\mathbf{A}/a$ は体になります。 系。
+$\mathbf{A}/a$ の左イデアルは、形 $b/a$ です。ここで、$b$ は、$\mathbf{A}$ 含む $a$ ($§ 8$、no. 8、系 ～ 命題) の左イデアルです。 5)。 $\mathbf{A}/a \neq 0$ ということは $a \neq \mathbf{A}$ ということになります。この仮定の下で、$\mathbf{A}$ 含む $a$ の唯一残っている理想が $a$ と $\mathbf{A}$ (定理 1)、よってである場合に限り、$\mathbf{A}/a$ は体になります。 系。
 
 #### 系 2 {#alg-i-s9-thm-1-cor-2 .statement tag=05IM}
 
-$\mathbf{A}$を0ではない可換環とします。可換体の上に$\mathbf{A}$の準同型が存在します。
+$\mathbf{A}$を0ではない可換環とします。可換体の上には$\mathbf{A}$の準同型が存在します。
 
 クルルの定理 ($§ 8$, no. 6, 定理 1) によれば、$\mathbf{A}$ には最大の理想$a$ が存在します。すると、$\mathbf{A}/a$ は体 (系 1) になります。
 
@@ -102,7 +102,7 @@ $a$ を整数 $\geqslant 0$ とします。 環 $\mathbf{Z}/a\mathbf{Z}$ が体�
 
 これは、系 1 と $§ 8$、no. 11 から続きます。
 
-$p$ 素数体 $\mathbf{Z}/p\mathbf{Z}$ は $\mathbf{F}_p$ で表されます。
+$p$ 素数体の場合、$\mathbf{Z}/p\mathbf{Z}$ は $\mathbf{F}_p$ で表されます。
 
 #### 定理 2 {#alg-i-s9-thm-2 .statement tag=05IO}
 
@@ -132,10 +132,10 @@ $a$ を $f$ の核とします。次に、$\mathbf{A}$の$f(1) = 1 \neq 0$に対
 
 *$\mathbf{B}$ を非ゼロ環とし、$\mathbf{A}$ を $\mathbf{B}$ の可換部分環として、$\mathbf{A}$ のすべての非ゼロ元が $\mathbf{B}$ で可逆であるようにします。
 (a) $\mathbf{A}$ は整域です。
-(b) *$\mathbf{A}'$を分数$\mathbf{A}$の体とします。 The canonical injection of $\mathbf{A}$ into $\mathbf{B}$ can be extended uniquely to an isomorphism $f$ of $\mathbf{A}'$ onto a subfield of $\mathbf{B}$.
-(c) *The elements of $f(\mathbf{A}')$ are the $xy^{-1}$ where $x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$.*
+(b) *$\mathbf{A}'$を分数$\mathbf{A}$の体とする。 $\mathbf{A}$ の標準単射から $\mathbf{B}$ は、$\mathbf{A}'$ の同型 $f$ から $\mathbf{B}$ の部分体に一意に拡張できます。
+(c) *$f(\mathbf{A}')$の元は、$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$の$xy^{-1}$です。*
 
-主張 (a) は明らかです。 The canonical injection of $\mathbf{A}$ into $\mathbf{B}$ extends uniquely to a homomorphism $f$ of $\mathbf{A}'$ into $\mathbf{B}$ (§ 8, no. 12, Theorem 5). 主張 (b) は、no. 1、定理 2 から続きます。 $\mathbf{A}'$ の元は、$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$ と $f(x/y) = xy^{-1}$、よってを含む分数 $x/y$ です (c)。
+主張 (a) は明らかです。 $\mathbf{A}$ の標準単射を $\mathbf{B}$ 拡大するに一意に準同型 $\mathbf{A}'$ の $f$ を $\mathbf{B}$ (§ 8, no. 12、定理 5) に変換します。 主張 (b) は、no. 1、定理から続きます。 2. $\mathbf{A}'$ の元は、$x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$ と $f(x/y) = xy^{-1}$、よってを含む分数 $x/y$ です。
 
 ### 3. 最高の理想
 
@@ -146,7 +146,7 @@ $a$ を $f$ の核とします。次に、$\mathbf{A}$の$f(1) = 1 \neq 0$に対
 (b) $\mathbf{A} \neq \mathfrak{p}$、$x \in \mathbf{A} - \mathfrak{p}$ と $y \in \mathbf{A} - \mathfrak{p}$ の場合は、$xy \in \mathbf{A} - \mathfrak{p}$。
 (c) $\mathfrak{p}$ は、$\mathbf{A}$ の準同型の核が体になります。*
 
-(c) ⇒ (b) ⇒ (a) の意味は明らかです。 If $A/p$ is an integral domain, let $f$ be the canonical injection of $A/p$ into its field of fractions and $g$ the canonical homomorphism of $A$ onto $A/p$; then $p$ is the kernel of $f \circ g$, whence the implication (a) ⇒ (c).
+(c) ⇒ (b) ⇒ (a) の意味は明らかです。 $A/p$ が整数領域の場合、$f$ をその分数体への $A/p$ の正準注入、および $g$ を $A/p$ への $A$ の正準準同型性とします。この場合、$p$ は $f \circ g$ のカーネルであるため、(a) ⇒ (c) という意味になります。
 
 #### 定義 3 {#alg-i-s9-def-3 .statement tag=05IT}
 
@@ -162,7 +162,7 @@ $a$ を $f$ の核とします。次に、$\mathbf{A}$の$f(1) = 1 \neq 0$に対
 
 #### 定義 4 {#alg-i-s9-def-4 .statement tag=05IV}
 
-*The field of fractions of the ring $\mathbf{Z}$ of rational integers is called the field of rational numbers and is denoted by $\mathbf{Q}$. $\mathbf{Q}$ の元は有理数数と呼ばれます。*
+※有理整数の環$\mathbf{Z}$の分数体を有理数体といい、$\mathbf{Q}$で表されます。 $\mathbf{Q}$ の元は有理数数と呼ばれます。*
 
 従って、すべての有理数数は形 $a/b$ であり、ここで $a$ と $b$ は $b \neq 0$ を伴う有理数整数 (そして $b > 0$ を関係とみなすこともできます)
 

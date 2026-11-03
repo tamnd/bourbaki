@@ -37,16 +37,16 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 10c7e335800619c1624d2626d32316386bffd421eb1e6c78ccfb356891c60701
+content_sha256: ef00c24dae7e9440d42aa3dc609f2aace571de7d472f7dde8e47271cd9f0211f
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
 translation_method: google
 source_content_sha256: e207aa232d5bd052ada28a852533dc7566c32021e210764a8b52a3fbf49d5170
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d0e2635d55a547a48599ed9906cda4f116d18db2bd3a646a26da85d04767c9be
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 吊り上げ完了環
@@ -260,7 +260,7 @@ $$
 
 ### 3. ヘンゼルズ補題
 
-トポロジカル環 $A$ では、$O$ が数列 $(x^n)_{n \geq 0}$ の極限である場合、元 $x$ は *トポロジー的にゼロポテント * と呼ばれます。 If $A$ is a *linearly topologized* commutative ring, to say that $x$ is topologically nilpotent means that for every open ideal $\mathfrak{J}$ of $A$ the canonical image of $x$ in $A/\mathfrak{J}$ is a *nilpotent* element of that ring. $\mathfrak{r}_g$ が $A/\mathfrak{J}$ の nil-radical である場合、明らかに $(\mathfrak{r}_g)$ は部分集合の逆系であり、$A$ のトポロジカル冪零元の集合 $t$ は、以下の $\mathfrak{r} = \lim \mathfrak{r}_g$ の逆像です。 標準準同型 $A \to \lim A/\mathfrak{J}$;したがって、それは $A$ の *閉じた理想* です。 $A$ も *Hausdorff* で *complete* である場合、この理想は $A$ のヤコブソン根基に含まれており、元 $x \in A$ が可逆であるためには、その類 mod. $t$ は、$A/t$ (§ 2, no. 13、補題 3) で反転可能です。
+トポロジカル環 $A$ では、$O$ が数列 $(x^n)_{n \geq 0}$ の極限である場合、元 $x$ は *トポロジー的にゼロポテント * と呼ばれます。 $A$ が *線形トポロジー化された * 可換環である場合、 $x$ がトポロジカルに虚無であると言うことは、 $A$ のすべての開いた理想 $\mathfrak{J}$ に対して、 $A/\mathfrak{J}$ の $x$ の正準イメージがその環の *虚無可能* 要素であることを意味します。 $\mathfrak{r}_g$ が $A/\mathfrak{J}$ の nil-radical である場合、明らかに $(\mathfrak{r}_g)$ は部分集合の逆系であり、$A$ のトポロジカル冪零元の集合 $t$ は、以下の $\mathfrak{r} = \lim \mathfrak{r}_g$ の逆像です。 標準準同型 $A \to \lim A/\mathfrak{J}$;したがって、それは $A$ の *閉じた理想* です。 $A$ も *Hausdorff* で *complete* である場合、この理想は $A$ のヤコブソン根基に含まれており、元 $x \in A$ が可逆であるためには、その類 mod. $t$ は、$A/t$ (§ 2, no. 13、補題 3) で反転可能です。
 
 $A$ が環で、$m$ が $A$ の両側イデアルである場合、$m$ の元は *m 進数* 位相に関してトポロジー的に零であることに注意してください。
 
@@ -274,36 +274,36 @@ $$
 証明は4つのステップに分かれています。最初の 3 つでは、$A$ が離散であると仮定します。その場合、$R$ と $\overline{Q}$ は多項式です。
 
 (I) $m^2 = 0$
-Let $S, T$ be two polynomials of $A[X]$ such that $S$ is monic and $\bar{\varphi}(S) = \overline{P}$, $\bar{\varphi}(T) = \overline{Q}$; Proposition 2 of no. 1 shows that $S$ and $T$ are strongly relatively prime; hence (no. 1, Proposition 1) there exists a unique ordered pair of polynomials $(S', T')$ of $A[X]$ such that
+$S, T$ を、$S$ がモニックであり、$\bar{\varphi}(S) = \overline{P}$、$\bar{\varphi}(T) = \overline{Q}$ となるような $A[X]$ の 2 つの多項式とする。 no. 1 の命題 2 は、$S$ と $T$ が強く相対的に素であることを示しています。したがって (no. 1, 命題 1) 次のような$(S', T')$/$A[X]$ の固有の順序付けられた対の多項式が存在します。
 (5)
 $$
 R - ST = ST' + TS' \quad \text{and} \quad \deg(S') < \deg(S) = \deg(\overline{P}).
 $$
-The polynomials $P = S + TS'$, $Q = T + T'$ are then solutions to the problem; then in fact
+多項式 $P = S + TS'$、$Q = T + T'$ は解から問題になります。それから実際には
 (6)
 $$
 \overline{P} \cdot \bar{\varphi}(T') + \overline{Q} \cdot \bar{\varphi}(S') = \bar{\varphi}(ST' + TS') = \bar{\varphi}(R - ST) = 0.
 $$
-As $\overline{P}$ is monic, $\overline{P}$ and $\overline{Q}$ strongly relatively prime and
+$\overline{P}$ はモニックであるため、$\overline{P}$ と $\overline{Q}$ は強く相対的に素数であり、
 $$
 \deg(\bar{\varphi}(S')) < \deg(\overline{P}),
 $$
-Proposition 1 of no. 1 shows that $\bar{\varphi}(S') = \bar{\varphi}(T') = 0$, in other words the coefficients of $S'$ and $T'$ belong to $m$ and the relation $m^2 = 0$ gives
+no. 1の命題 1は$\bar{\varphi}(S') = \bar{\varphi}(T') = 0$を示し、その他の$S'$と$T'$の属すると$m$と関係の$m^2 = 0$は語係数を示します。
 $$
 PQ = ST + ST' + TS' = R,
 $$
-which satisfies relation (4). Since $\bar{\varphi}(P) = \overline{P}$ and $\bar{\varphi}(Q) = \overline{Q}$, $P$ and $Q$ are strongly relatively prime (no. 1, Proposition 2); finally, if $P_1$ and $Q_1$ are two other polynomials in $A[X]$ satisfying (4) and such that $P_1$ is monic, then necessarily, setting $S'_1 = P_1 - S, \ T'_1 = Q_1 - T, \ \deg(S'_1) < \deg(S)$ and $R - ST = ST'_1 + TS'_1$ since $S'_1$ and $T'_1$ have their coefficients in $m$; but Proposition 1 then proves that $S' = S'_1$ and $T' = T'_1$, which proves the uniqueness of the ordered pair $(P, Q)$.
+関係 (4) を満たす。 Since $\bar{\varphi}(P) = \overline{P}$ and $\bar{\varphi}(Q) = \overline{Q}$, $P$ and $Q$ are strongly relatively prime (no. 1, Proposition 2); finally, if $P_1$ and $Q_1$ are two other polynomials in $A[X]$ satisfying (4) and such that $P_1$ is monic, then necessarily, setting $S'_1 = P_1 - S, \ T'_1 = Q_1 - T, \ \deg(S'_1) < \deg(S)$ and $R - ST = ST'_1 + TS'_1$ since $S'_1$ and $T'_1$ have their coefficients in $m$; but Proposition 1 then proves that $S' = S'_1$ and $T' = T'_1$, which proves the uniqueness of the ordered pair $(P, Q)$.
 
 (2) $m$ は無能です
-$n$ を $m^n = 0$ となるように最小の整数とし、$n = 2$ に対して定理が示されているので、$n > 2$ について帰納法によって議論してみましょう。 Let $A = A/m^{n-1}$, $m' = m/m^{n-1}$; as ${m'}^{n-1} = 0$, there exists a unique ordered pair $(P', Q')$ of polynomials in $A'[X]$ such that $P'$ is monic, $R' = P'Q'$, $\psi(P') = \overline{P}$ and $\psi(Q') = \overline{Q}$, where $\psi$ denotes the canonical homomorphism $A' \to A'/m' = B$, $\theta$ the canonical homomorphism $A \to A'$ and $R' = \tilde{\theta}(R)$. On the other hand, as $(m^{n-1})^2 = 0$, there exists a unique ordered pair $(P, Q)$ of polynomials in $A[X]$ such that $P$ is monic and $R = PQ$, $\bar{\theta}(P) = \overline{P}$, $\bar{\theta}(Q) = \overline{Q}$; as $\phi = \psi \circ \theta$, this shows the existence and uniqueness of $P$ and $Q$ satisfying (4); moreover $P'$ and $Q'$ are strongly relatively prime by the induction hypothesis and hence so are $P$ and $Q$.
+$n$ を $m^n = 0$ となるように最小の整数とし、$n = 2$ に対して定理が示されているので、$n > 2$ について帰納法によって議論してみましょう。 $A = A/m^{n-1}$、$m' = m/m^{n-1}$ としましょう。 ${m'}^{n-1} = 0$ として、$P'$ がモニック、$R' = P'Q'$、$\psi(P') = \overline{P}$、$\psi(Q') = \overline{Q}$ となるような、$A'[X]$ に多項式の一意の順序ペア $(P', Q')$ が存在します。ここで、$\psi$ は正準準同型 $A' \to A'/m' = B$ を示します。 $\theta$ 正準準同型性 $A \to A'$ および $R' = \tilde{\theta}(R)$。 一方、$(m^{n-1})^2 = 0$ として、$P$ がモニックであり、$R = PQ$、$\bar{\theta}(P) = \overline{P}$、$\bar{\theta}(Q) = \overline{Q}$ となるような多項式の一意の順序ペア $(P, Q)$ が$A[X]$ に存在します。 $\phi = \psi \circ \theta$ として、これは (4) を満たす $P$ と $Q$ の存在と一意性を示します。さらに、$P'$ と $Q'$ は帰納法仮説により強く相対素であるため、$P$ と $Q$ も同様です。
 
 (3) **離散的**
 
-この場合、$m$ は必ずしも nilpotent ではありませんが、常に仮定による *nilideal* であることに注意してください。 $P_0$、$Q_0$ を、$\bar{\varphi}(P_0) = \overline{P}$、$\bar{\varphi}(Q_0) = \overline{Q}$、$P_0$ がモニックとなる 2 つの$A[X]$ の多項式とする。 $R - P_0 Q_0$の係数によって生成される$A$の理想$n$を考えてみましょう。それは有限に生成され、$m$ に含まれるため、*無能* (章 11、§ 2, no. 6、命題 15) であり、定義までに、$\psi : A \to A/n$ が標準写像の場合、$\bar{\psi}(R) = \bar{\psi}(P_0) \bar{\psi}(Q_0)$ になります。 さらに、$\bar{\psi}(P_0)$ と $\bar{\psi}(Q_0)$ は、$\overline{P}$ と $\overline{Q}$ の仮定と、no. 1 の 2 を標準準同型 $A/n \to A/m$ に適用する命題から、強い相対素数です。 したがって、ケース (2) により、$P$ がモニックであり、関係 (4) が成り立つような、$A[X]$ の多項式の順序付けられた対 $(P, Q)$ が存在します。 $\overline{P}$ と $\overline{Q}$ が強い相対素であるという事実は、$m$ が $A$ のヤコブソン根基に含まれているため、no. 1、命題 2 のおかげで、$P$ と $Q$ が$A[X]$ で強く相対素であることを意味します。 Suppose finally that $P_1$, $Q_1$ are two polynomials in $A[X]$ satisfying (4) and such that $P_1$ is monic and let $n_1$ be the finitely generated ideal of $A$ generated by the coefficients of $P - P_1$ and the coefficientsof $Q - Q_1$; as $n_1$ is contained in $m$, it is nilpotent and, if $\psi_1 : A \to A/n_1$ is the canonical mapping, $\bar{\psi}_1(P) = \bar{\psi}_1(P_1)$ and
+この場合、$m$ は必ずしも nilpotent ではありませんが、常に仮定による *nilideal* であることに注意してください。 $P_0$、$Q_0$ を、$\bar{\varphi}(P_0) = \overline{P}$、$\bar{\varphi}(Q_0) = \overline{Q}$、$P_0$ がモニックとなる 2 つの$A[X]$ の多項式とする。 $R - P_0 Q_0$の係数によって生成される$A$の理想$n$を考えてみましょう。それは有限に生成され、$m$ に含まれるため、*無能* (章 11、§ 2, no. 6、命題 15) であり、定義までに、$\psi : A \to A/n$ が標準写像の場合、$\bar{\psi}(R) = \bar{\psi}(P_0) \bar{\psi}(Q_0)$ になります。 さらに、$\bar{\psi}(P_0)$ と $\bar{\psi}(Q_0)$ は、$\overline{P}$ と $\overline{Q}$ の仮定と、no. 1 の 2 を標準準同型 $A/n \to A/m$ に適用する命題から、強い相対素数です。 したがって、ケース (2) により、$P$ がモニックであり、関係 (4) が成り立つような、$A[X]$ の多項式の順序付けられた対 $(P, Q)$ が存在します。 $\overline{P}$ と $\overline{Q}$ が強い相対素であるという事実は、$m$ が $A$ のヤコブソン根基に含まれているため、no. 1、命題 2 のおかげで、$P$ と $Q$ が$A[X]$ で強く相対素であることを意味します。 最後に、$P_1$、$Q_1$ が $A[X]$ 満たす (4) の 2 つの多項式であり、$P_1$ がモニックであると仮定し、$n_1$ を $P - P_1$ の係数とその係数によって生成される $A$ の有限生成理想とする。 $Q - Q_1$; $n_1$ は $m$ に含まれているため、無能であり、$\psi_1 : A \to A/n_1$ が標準写像である場合、$\bar{\psi}_1(P) = \bar{\psi}_1(P_1)$ と
 $$
 \bar{\psi}_1(Q) = \bar{\psi}_1(Q_1);
 $$
-the uniqueness property for case (2) therefore implies $P = P_1,\ Q = Q_1$.
+したがって、ケース (2) の一意性性質は、$P = P_1,\ Q = Q_1$ を意味します。
 
 (4) **一般的な場合**
 
@@ -315,11 +315,11 @@ $g_{\mathfrak{s}}$ 標準写像 $B = A/m \to A(m + \mathfrak{s})$ そして $R_{
 $$
 \bar{g}_s(\overline{P} - \overline{\varphi}(P)) = 0, \quad \bar{g}_s(\overline{Q} - \overline{\varphi}(Q)) = 0
 $$
-すべての $s \in \mathscr{B}$ について、つまり、$\overline{P} - \overline{\varphi}(P)$ および $\overline{Q} - \overline{\varphi}(Q)$ のすべての $\mathfrak{J} \in \mathscr{B}$ 係数について、すべての属するから $(m + \mathfrak{J})/m$ についてです。 しかし、$m$ は $A$、$\bigcap_s (m + s) = m$、よって $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$、$P$、$Q$ で閉じられているため、確実に満たす (4) になります。さらに、$P_s$ はモニックであり、同じ次数であるため、制限形式冪系列 $P$ はモニック多項式です。 $(P', Q')$ が他の順序対満たす (4) で、$P'$ がモニック多項式である場合、$R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ と $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ および (3) の場合の一意性により、すべての $s \in \mathscr{B}$ について $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ が得られます。これは、$P = P'$ と $Q = Q'$ を意味します。 Let us show finally that $P$ and $Q$ are strongly relatively prime; by virtue of case (3) and Proposition 1 of no. 1, for all $s \in \mathscr{B}$, there exists a unique ordered pair $(S_s, T_s)$ of polynomials in $(A/\mathfrak{J})[X]$ such that
+すべての $s \in \mathscr{B}$ について、つまり、$\overline{P} - \overline{\varphi}(P)$ および $\overline{Q} - \overline{\varphi}(Q)$ のすべての $\mathfrak{J} \in \mathscr{B}$ 係数について、すべての属するから $(m + \mathfrak{J})/m$ についてです。 しかし、$m$ は $A$、$\bigcap_s (m + s) = m$、よって $\overline{P} = \overline{\varphi}(P), \overline{Q} = \overline{\varphi}(Q)$、$P$、$Q$ で閉じられているため、確実に満たす (4) になります。さらに、$P_s$ はモニックであり、同じ次数であるため、制限形式冪系列 $P$ はモニック多項式です。 $(P', Q')$ が他の順序対満たす (4) で、$P'$ がモニック多項式である場合、$R_s = \bar{f}_s(P') \bar{f}_s(Q'), \bar{\varphi}_s(\bar{f}_s(P')) = \overline{P}_s$ と $\bar{\varphi}_s(\bar{f}_s(Q')) = \overline{Q}_s$ および (3) の場合の一意性により、すべての $s \in \mathscr{B}$ について $\bar{f}_s(P') = P_s, \bar{f}_s(Q') = Q_s$ が得られます。これは、$P = P'$ と $Q = Q'$ を意味します。 最後に、$P$ と $Q$ が強く相対的に素であることを示しましょう。ケース (3) と no. 1 の命題により、すべての $s \in \mathscr{B}$ に対して、$(A/\mathfrak{J})[X]$ に次のような固有の順序付けられた多項式対 $(S_s, T_s)$ が存在します。
 $$
 1 = P_s S_s + Q_s T_s \quad \text{and} \quad \deg(T_s) < \deg(P_s) = \deg(\overline{P}).
 $$
-The uniqueness of this ordered pair shows immediately that, for $3' \in \mathscr{B}$, $\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ taking account of no. 2, Proposition 3, we conclude that there exist two restricted formal power series $S, T$ of $A\{X\}$ such that $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ and $1 = PS + QT$.
+この順序付けられた対の一意性は、no. 2、命題 3 を考慮して $3' \in \mathscr{B}$、$\mathfrak{J}' \subset \mathfrak{J}, S_{3'} = \bar{f}_{33'}(S_{3}), T_{3'} = \bar{f}_{33'}(T_{3});$ について、結論するの 2 つの制限された公式冪系列 $S, T$ が存在することを示しています。 $A\{X\}$ は $S_s = \bar{f}_s(S), T_s = \bar{f}_s(T)$ と $1 = PS + QT$ のようになります。
 
 $R$ が多項式である場合、$Q$ も多項式であることを検証する必要があります。ここで、$Q_s$ は構成による多項式であり、$P_s$ がモニックであるため、関係 $R_s = P_s Q_s$ が意味します
 $$
@@ -350,9 +350,9 @@ $$
 $$(10)$$
 $$(f \circ g) \circ h = f \circ (g \circ h).$$
 
-For every integer $m$,
+整数 $m$ ごとに、
 $$(f^{(m)} \circ g^{(m)}) \circ h^{(m)} = f^{(m)} \circ (g^{(m)} \circ h^{(m)})$$
-where $f^{(m)}, g^{(m)}, h^{(m)}$ denote the systems of polynomials consisting of terms of total degree $\leq m$ in the systems of formal power series $f, g, h$. しかし明らかに、$(f \circ g) \circ h$ (それぞれ $f \circ (g \circ h)$) の系列の合計次数 $\leq m$ の項は、$(f^{(m)} \circ g^{(m)}) \circ h^{(m)}$ (それぞれ $f^{(m)} \circ (g^{(m)} \circ h^{(m)})$)、よっての主張と同じです。
+ここで、$f^{(m)}, g^{(m)}, h^{(m)}$ は、多項式の系、形式冪系列 $f, g, h$ の系の合計次数 $\leq m$ の項のからなるを表します。 しかし明らかに、$(f \circ g) \circ h$ (それぞれ $f \circ (g \circ h)$) の系列の合計次数 $\leq m$ の項は、$(f^{(m)} \circ g^{(m)}) \circ h^{(m)}$ (それぞれ $f^{(m)} \circ (g^{(m)} \circ h^{(m)})$)、よっての主張と同じです。
 
 すべての系 (8) について、ヤコビアン行列 $(\partial f_i / \partial X_j)$ ($1 \leq i \leq p, 1 \leq j \leq q$) を $M_f$ または $M_f(\mathbf{X})$ で表します。ここで、$i$ は行の添字であり、$j$ は列のそれです。 2 つの系 (8) と (9) の場合、$g$ には定数項がありません。
 $$(11)$$
@@ -394,19 +394,19 @@ $$
 h = 1_n \circ h = (f \circ g) \circ h = f \circ (g \circ h) = f \circ 1_n = f.
 $$
 
-Proposition 5 and formulae (10) and (15) show that under the law of composition $(f, g) \mapsto f \circ g$ the set of systems $f = (f_1, \ldots, f_n)$ of $n$ series without constant term in $A[[X_1, \ldots, X_n]]$ for which $J_f(0)$ is invertible in $A$, is a group.
+命題 5 と式 (10) と (15) は、合成法則 $(f, g) \mapsto f \circ g$ の下で、$A[[X_1, \ldots, X_n]]$ で定数項を持たず、$J_f(0)$ が $A$ で可逆である$n$ 級数の系$f = (f_1, \ldots, f_n)$ が群であることを示しています。
 
 ### 5. 系の方程式が完成しました環
 
 簡潔に言うと、以下では、環が可換で、線形トポロジー化され、ハウスドルフで完全であれば、*ヘンゼルの条件* を満たします。このような環で理想的な $m$ が与えられた場合、$m$ (または順序付けられた対 $(A, m)$) は、$m$ が $A$ で閉じられ、その元が位相幾何学的に一致する場合、満たす *ヘンセルの条件* となります。無能。トポロジー的にすべての冪零元のうち、$A$ からなるの理想的な $t$ は、ヘンゼルの条件 (no. 3) を満たします。
 
-In particular, if $A$ is a commutative ring and $m$ an ideal of $A$ and $A$ is Hausdorff and complete with respect to the *m-adic* topology, the ordered pair $(A, m)$ satisfies Hensel’s conditions.
+特に、$A$ が可換環で、$m$ の理想が $A$ で、$A$ がハウスドルフで *m 進数* 位相に関して完全な場合、順序付けられた対 $(A, m)$ はヘンゼルの条件を満たします。
 
 #### 命題 6 {#ac-iii-s4-prop-6 .statement tag=04I4}
 
 *$A$を可換環、$B$環満たすをヘンゼルの条件、$u : A \to B$準同型とします。トポロジー的に冪零元の $B$ のすべての族 $x = (x_1, \ldots, x_n)$ に対して、$A[[X_1, \ldots, X_n]]$ から $B$ までの一意な準同型 $\tilde{u}$ が存在し、すべての $a \in A$ に対して $\tilde{u}(a) = u(a)$ が、$1 \leq i \leq n$ に対して $\tilde{u}(X_i) = x_i$ が存在します。さらに、$m$ が $A[[X_1, \ldots, X_n]]$ の定数項を持たない系列の理想を表す場合、$\tilde{u}$ は m 進数位相について連続です。
 
-Let $a$ be the finitely generated ideal generated in $B$ by the $x_i$ ($1 \leq i \leq n$); for every open ideal $\mathfrak{H}$ of $B$, the images of the $x_i$ in $B/\mathfrak{H}$ are nilpotent, hence the ideal $(a + \mathfrak{H})/\mathfrak{H}$ is nilpotent in $B/\mathfrak{H}$ and there exists an integer $k$ such that, for $\sum_{i=1}^n p_i \geq k$, $x_1^{p_1} \cdots x_n^{p_n} \in \mathfrak{H}$. $m^k$ のすべての元は、形 $X_1^{p_1} \cdots X_n^{p_n} g(X_1, \ldots, X_n)$ の形式的な冪系列の有限和であるため、$\sum_{i=1}^n p_i \geq k$ では、$\tilde{u}$ が問題を解くと、$\tilde{u}(m^k) \subset \mathfrak{H}$ となることがわかります。 $\tilde{u}$ の連続性を証明します。 明らかに存在します一意な準同型
+$a$ を、$B$ で $x_i$ ($1 \leq i \leq n$) によって生成された有限生成理想とします。 $B$ のすべての開いたイデア $\mathfrak{H}$ に対して、$B/\mathfrak{H}$ の $x_i$ のイメージは零であるため、イデアル $(a + \mathfrak{H})/\mathfrak{H}$ は $B/\mathfrak{H}$ で零となり、$\sum_{i=1}^n p_i \geq k$、$x_1^{p_1} \cdots x_n^{p_n} \in \mathfrak{H}$ については、整数 $k$ が存在します。 $m^k$ のすべての元は、形 $X_1^{p_1} \cdots X_n^{p_n} g(X_1, \ldots, X_n)$ の形式的な冪系列の有限和であるため、$\sum_{i=1}^n p_i \geq k$ では、$\tilde{u}$ が問題を解くと、$\tilde{u}(m^k) \subset \mathfrak{H}$ となることがわかります。 $\tilde{u}$ の連続性を証明します。 明らかに存在します一意な準同型
 
 $$
 \nu : A[X_1, \ldots, X_n] \to B
@@ -497,7 +497,7 @@ $g = 1, + M' \cdot r$ と書くと、$g$ が条件 (i) と (ii) を満たすこ�
 
 #### 系 1 {#ac-iii-s4-thm-2-cor-1 .statement tag=04I9}
 
-Let $A$ be a ring and $m$ an ideal of $A$ such that the ordered pair $(A, m)$ satisfies Hensel's conditions. $f \in A\{X\}$、$a \in A$とし、$e = f'(a)$と書きます。 $f(a) \equiv 0$ (修正 $e^2 m$) の場合、$f(b) = 0$ と $b \equiv a$ (修正 $em$) のような $b \in A$ が存在します。 b' が $\mathbf{A}$ の他の元で、$f(b') = 0$ と $b' \equiv a \pmod{\mathfrak{m}}$ である場合、$e(b - b') = 0$ です。 特に、$e$ が $\mathbf{A}$ の零の因子ではない場合、$b$ は一意です。
+$A$ を環とし、順序付けられた対 $(A, m)$ がヘンゼルの条件を満たすような $m$ を $A$ の理想とする。 $f \in A\{X\}$、$a \in A$にして、$e = f'(a)$と書きます。 $f(a) \equiv 0$ (修正 $e^2 m$) の場合、$f(b) = 0$ と $b \equiv a$ (修正 $em$) のような $b \in A$ が存在します。 b' が $\mathbf{A}$ の他の元で、$f(b') = 0$ と $b' \equiv a \pmod{\mathfrak{m}}$ である場合、$e(b - b') = 0$ です。特に、$e$ が $\mathbf{A}$ の零の因子ではない場合、$b$ は一意です。
 
 $f(a) = e^2 c$ を $c \in \mathfrak{m}$ とします。 $n = 1$ に対して公式 (20) は次のようになります
 $$
@@ -515,9 +515,9 @@ $$
 
 #### 系 2 {#ac-iii-s4-thm-2-cor-2 .statement tag=04IB}
 
-Let $\mathbf{A}$ be a ring and $\mathfrak{m}$ an ideal of $\mathbf{A}$ such that the ordered pair $(\mathbf{A}, m)$ satisfies Hensel's conditions. $r, n$ を整数とし、$0 \leq r < n$ と $\mathbf{f} = (f_{r+1}, \ldots, f_n)$ が $n - r$ の系 $\mathbf{A}\{\mathbf{X}_1, \ldots, \mathbf{X}_n\}$ の元となるようにします。 $J^{(n-r)}_{\mathbf{f}}(\mathbf{X})$ は、$M_{\mathbf{f}}(\mathbf{X})$ からなる列添字 $j$ のマイナーを$r + 1 \leq j \leq n$ のように表します。 $a \in \mathbf{A}^n$ を、$J^{(n-r)}_{\mathbf{f}}(a)$ が $\mathbf{A}$ と $\mathbf{f}(a) \equiv 0 \pmod{\mathfrak{m}^{(n-r)}}$ で可逆であるようにします。 次に、$1 \leq k \leq r$、$\mathbf{x} \equiv a \pmod{\mathfrak{m}^n}$、$\mathbf{f}(\mathbf{x}) = 0$ に対して $x_k = a_k$ などの一意の $\mathbf{x} = (x_1, \ldots, x_n) \in \mathbf{A}^n$ が存在します。
+$\mathbf{A}$ を環とし、順序付けされた対 $(\mathbf{A}, m)$ がヘンゼルの条件を満たすような $\mathfrak{m}$ の理想を$\mathbf{A}$ とします。 $r, n$ を整数とし、$0 \leq r < n$ と $\mathbf{f} = (f_{r+1}, \ldots, f_n)$ が $n - r$ の系 $\mathbf{A}\{\mathbf{X}_1, \ldots, \mathbf{X}_n\}$ の元となるようにします。 $J^{(n-r)}_{\mathbf{f}}(\mathbf{X})$ は、$M_{\mathbf{f}}(\mathbf{X})$ からなる列添字 $j$ のマイナーを$r + 1 \leq j \leq n$ のように表します。 $a \in \mathbf{A}^n$ を、$J^{(n-r)}_{\mathbf{f}}(a)$ が $\mathbf{A}$ と $\mathbf{f}(a) \equiv 0 \pmod{\mathfrak{m}^{(n-r)}}$ で可逆であるようにします。 次に、$1 \leq k \leq r$、$\mathbf{x} \equiv a \pmod{\mathfrak{m}^n}$、$\mathbf{f}(\mathbf{x}) = 0$ に対して $x_k = a_k$ などの一意の $\mathbf{x} = (x_1, \ldots, x_n) \in \mathbf{A}^n$ が存在します。
 
-Substituting $a$, for $X_k$ for $1 \leq k \leq r$ in the $f_i$ (no. 2, Remark 3 ), we see immediately that we may restrict our attention to the case where $r = 0$ to prove the corollary. 定理 1 と命題 7 は、$a + \mathfrak{m}^n$ の $\mathbf{f}$ 定義する全単射が $\mathbf{f}(a) + \mathfrak{m}^n = \mathfrak{m}^n$ にあることを示します。 系は、$0 \in \mathfrak{m}^n$ という事実から導き出されます。
+$f_i$ (no. 2、注釈 3) の $1 \leq k \leq r$ を $X_k$ の代わりに $a$ にすると、当然の帰結を証明するために $r = 0$ の場合に注意を限定できることがすぐにわかります。 定理 1 と命題 7 は、$a + \mathfrak{m}^n$ の $\mathbf{f}$ 定義する全単射が $\mathbf{f}(a) + \mathfrak{m}^n = \mathfrak{m}^n$ にあることを示します。 系は、$0 \in \mathfrak{m}^n$ という事実から導き出されます。
 
 #### 系 3 {#ac-iii-s4-thm-2-cor-3 .statement tag=04IC}
 

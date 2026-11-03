@@ -34,16 +34,16 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 2d5d5513fd6a6f1b5f4a03d086304398296e7c03e7bfefeb60aeb0bbe62b6648
+content_sha256: dbe9a8075b0c9d4e5c88a717e64dd3e541699892ff0548f72f8368b5359cad86
 translated_from: content/en/alg/VIII/03_s3_simple_modules.md
 translation_method: google
 source_content_sha256: 0317407d0c3ced7b2648e2b8d2e1ca2a46c305400b4715365d0e28e9e8310de8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 66a1854813a23708468ca3cde1bc2d00b75e971a9e8afae4d67c699f5df6f743
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3. 単純加群
@@ -176,7 +176,7 @@ Aを環、MをA-加群とします。 M の極大部分加群は、M の真部�
 
 $A_s$ の極大部分加群は、単に A の左最大イデアルです。
 
-N を M の部分加群とします。 The submodules of $M/N$ are of the form $P/N$, where P is a submodule of M containing N (I, §4, No. 6, p. 41, Theorem 4). 従って、加群 $M/N$ が単純な場合に限り、N は M の極大部分加群になります。
+N を M の部分加群とします。$M/N$ の部分加群は形 $P/N$ であり、P は M 含む N (I, §4, No. 6, p. 41, 定理 4) の部分加群です。従って、加群 $M/N$ が単純な場合に限り、N は M の極大部分加群になります。
 
 #### 命題 3 {#alg-viii-s3-prop-3 .statement tag=003K}
 
@@ -218,9 +218,9 @@ a) $M^m$の$A_s$から部分加群まで自然数$m$と同型が存在します�
 
 b) M がジョーダン・ヘルダー 系列 $(M_i)_{0\leqslant i\leqslant n}$ を認める場合、すべての単純A-加群は商 $M_i/M_{i+1}$ の 1 つと同型です。
 
-By VIII, p. 2 applied to the A-module $A_s$ and the annihilators of the elements of M, there exist elements $x_1, . . . , x_m$ of M such that the annihilator of M is the intersection of the annihilators of the $x_i$. A-加群 M は忠実なので、$A_s$ から $M^m$ までの A-線型写像 $a\mapsto (ax_1, . . . , ax_m)$ は単射であり、よって a)。
+VIII、p. 2 を A モジュール $A_s$ と M の要素の消滅体に適用すると、M の要素 $x_1, . . . , x_m$ が存在し、M の消滅体が $x_i$ の消滅体との交差になります。 A-加群 M は忠実なので、$A_s$ から $M^m$ までの A-線型写像 $a\mapsto (ax_1, . . . , ax_m)$ は単射であり、よって a)。
 
-Under the assumption of b), every simple quotient of $A_s$ is isomorphic to a quotient of a Jordan–Hölder series of $M^m$ (I, §4, No. 7, p. 43, Corollary), hence to one of the modules $M_i/M_{i+1}$ (I, §4, No. 7, p. 43, Theorem 6). すべての単純A-加群は $A_s$ の商と同型であると結論する考えます。
+b) の仮定の下では、$A_s$ のすべての単純な商は、$M^m$ (I, §4, No. 7、p. 43、系) のジョルダン・ヘルダー系列の商と同型であるため、加群のいずれかになります。 $M_i/M_{i+1}$ (I, §4, No. 7、p. 43、定理 6)。 すべての単純A-加群は $A_s$ の商と同型であると結論する考えます。
 
 #### 注意 {#alg-viii-s3-n4-rem-1 .statement tag=003P}
 

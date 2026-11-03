@@ -25,16 +25,16 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 10
-content_sha256: 31caaa77834a0270f66807aa0e95c6e58229f5539a843aafe692752ef32f210d
+content_sha256: d2de0aa3f341c16760c39e8bb408d5c154ae174637cf6d769821c1dadd92818e
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
 translation_method: google
 source_content_sha256: f97824efc1e49c2f3f557cc487ce4e195405a030102d3750617c5a288f2ba3cd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cbf91fe9a9ee5f5ae3ecf797ff80c11c0b032bba5067248843ed93d3d1d9c4b7
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 位相評価によって定義される
@@ -106,7 +106,7 @@ $$
 
 $E$ を、ハウスドルフである次元 1 の $K$ 上の左トポロジー ベクトル空間とします。 $v$ が不適切ではないとします。 $E$ のすべての $x_0 \neq 0$ について、$K_s$ の $E$ 上の写像 $a \mapsto ax_0$ はトポロジカルな同型です。
 
-この写像は連続代数同型です。 共連続であることを示せば十分です。 $\alpha \in G$ にしましょう。 $E$ に 0 の近傍 $V$ が存在し、関係 $ax_0 \in V$ が $v(a) > a$ を意味することを示す必要があります。 $a, \in K^*$ を $v(a_0) = a$ となるようにします。 $E$はハウスドルフなので、$E$には$a_0x_0 \notin W$となるような0の近傍$W$が存在します。 As $v$ is not improper, there exist a neighbourhood $W'$ of 0 in $E$ and an element $\beta$ of $G$ such that the relations $y \in W'$, $v(a) \geq \beta$ imply $ay \in W$. $a, \in K^*$ を $v(a_1) = -\beta$ となるようにします。 関係 $ax_0 \in a_1^{-1}W'$ と $v(a) \leq a$ は $a_1ax_0 \in W$ と $v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$ を暗示し、したがって $a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$ になりますが、これは不合理です。他の語、関係 $ax, \in a_1^{-1}W$ は $v(a) > a$ を意味します。
+この写像は連続代数同型です。 共連続であることを示せば十分です。 $\alpha \in G$ にしましょう。 $E$ に 0 の近傍 $V$ が存在し、関係 $ax_0 \in V$ が $v(a) > a$ を意味することを示す必要があります。 $a, \in K^*$ を $v(a_0) = a$ となるようにします。 $E$はハウスドルフなので、$E$には$a_0x_0 \notin W$となるような0の近傍$W$が存在します。 $v$ は不正ではないので、$E$ の 0 の近傍 $W'$ と $G$ の要素 $\beta$ が存在し、$y \in W'$、$v(a) \geq \beta$ の関係は $ay \in W$ を意味します。 $a, \in K^*$ を $v(a_1) = -\beta$ となるようにします。 関係 $ax_0 \in a_1^{-1}W'$ と $v(a) \leq a$ は $a_1ax_0 \in W$ と $v(a_0a^{-1}a_1^{-1}) = \alpha + \beta - v(a) \geq \beta$ を暗示し、したがって $a_0x_0 = a_0a^{-1}a_1^{-1}(a_1ax_0) \in W$ になりますが、これは不合理です。他の語、関係 $ax, \in a_1^{-1}W$ は $v(a) > a$ を意味します。
 
 #### 系 {#ac-vi-s5-n2-cor-1 .statement tag=04UV}
 

@@ -30,16 +30,16 @@ subsections:
       pdf_page: 26
 statements: 36
 exercises: 28
-content_sha256: 7758097b18b8d408a58d088ead726606450ebdd1b6831e53d4a698a1c64099cf
+content_sha256: e738a29bda9e5ca594b3322495c7fd44f18874497768d224393ea2bf7f9054d1
 translated_from: content/en/alg/VIII/01_s1_artinian_modules_and_noetherian_modules.md
 translation_method: google
 source_content_sha256: d64719b4a6721ac9031c6bccd67b196cb6dafe3fc596f4fdebd425f00893c469
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0b5f1ab5818723c11c39da836d66f0cedf662956fd0eb71ec84b9e6c731810c1
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 アルティン加群とネーター加群
@@ -54,7 +54,7 @@ A を環とします。以下の同等の条件を満たす場合、A-加群 M �
 
 (ii) M の部分加群のすべての減少する (それぞれ増加する) 数列は静止しています。
 
-The equivalence of conditions (i) and (ii) follows from Set Theory, III, §6, No. 5, p. 190, Proposition 6.
+条件 (i) および (ii) の同値は、集合理論、III, §6, No. 5、p. 190、命題 6 から続きます。
 
 A-加群 M は、相似関係 $A_M$ の環上の加群と見なした M がアルティン (それぞれネーター) である場合に限り、アルティン (それぞれネーター) です。
 
@@ -208,7 +208,7 @@ $\mathfrak{c}$ が A と異なる場合、含む $\mathfrak{c}$ の左イデア�
 
 A を左アルティン的環とします。 定理 1 までに、A-加群 $A_s$ は有限長になります。次に、VIII の 1、p. 2 を命題を適用するとします。
 
-A を左 (それぞれ右) アルティン環とします。 A-加群 $A_s$ (それぞれ $A_d$) (I, §4, No. 7、p. 44) の長さは、環の長さの左 (それぞれ右) と呼ばれます。 A が可換アルティン環のとき、これら 2 つの長さ一致するを単に A の長さと呼びます。 A が左と右アルティンであるが可換でない場合、A の左と右長さは必ずしも等しいとは限りません (VIII、p. 14、練習問題 3)。
+A を左 (それぞれ右) アルティン環とします。 A-加群 $A_s$ の長さ (それぞれ $A_d$) (I, §4, No. 7、p. 44) は、環 A の左 (それぞれ右) 長さと呼ばれます。 A が可換アルティン環の場合、これら 2 つの長さ一致すると単に A の長さと呼ばれます。 A が左であり右アルティンであるが可換でない場合、A の左と右長さは必ずしも等しくありません (VIII、p. 14、練習問題 3)。
 
 #### 例 5 {#alg-viii-s1-n2-exa-5 .statement tag=000K}
 
@@ -254,7 +254,7 @@ c)を証明しましょう。 集合 $A =\prod_{i\in I}A_i$。 仮定までに�
 
 A を環、M A-加群、E = End$_A(M)$ 自己準同型環とします。M の対加群は、M と同じ基礎となる加法群および外部法則 $(c, x)\mapsto c(x)$ を持つ左の E モジュールです。
 
-Z を環 A の中心とします。 $a\in Z$、ホモテティー $a_M$ 属するから E まで。 従って、E には正準的に Z 代数の構造が与えられます。 特に、M が有限生成された Z モジュールである場合、M の対加群は有限生成されます。
+Z を環 A の中心とします。E に対するすべての $a\in Z$、ホモテティー $a_M$ 属するに対して、E には正準的に Z 代数の構造が与えられます。特に、M が有限生成された Z モジュールである場合、M の対加群は有限生成されます。
 
 #### 補題 4 {#alg-viii-s1-lem-4 .statement tag=000P}
 

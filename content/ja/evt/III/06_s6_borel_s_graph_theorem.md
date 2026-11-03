@@ -25,16 +25,16 @@ subsections:
       pdf_page: 168
 statements: 8
 exercises: 6
-content_sha256: e9eff302cfb7516bcba9f06804d52dc348b5db0d54c47c59c44fbd04adf6dafe
+content_sha256: f32846b68d12f988fa3c22aa02d20d9549b3b5ee1150075698fefe3d3fe4feb8
 translated_from: content/en/evt/III/06_s6_borel_s_graph_theorem.md
 translation_method: google
 source_content_sha256: 207efa273694316acd7d5b27dedee7a3292c04e1a0a2e90cfe57fd450ad44773
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 32098450ee9e29cad47f06670bde699ca267356417fa2a07f7336d7c42f9d6b4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。ボレルのグラフ定理
@@ -57,11 +57,11 @@ E_i をバナッハ空間の族とし、(u_i) を連続線形写像 u_i の族�
 
 — E を局所凸ハウスドルフ空間とします。 Fréchet 空間満たすの可算性の第一公理である数列 (E_n)_{n \in \mathbf{N}} と、E = \bigcup_{n \in \mathbf{N}} u_n(E_n) となる連続線形写像 u_n : E_n → E が存在するとします。するとEはルーシン空間になります。
 
-P_n を u_n の核とします。次に、u_n 定義する商空間 E_n/P_n から u_n(E_n) への全単射連続写像です。 Since E_n/P_n is a Fréchet space satisfying the first axiom of countability (GT, IX, § 3, No. 1), hence a polish space (GT, IX, § 6, No. 1, def. 1), u_n(E_n) is a Lusin subspace of E (GT, IX, § 6, No. 4, prop. 11). 従って、GT、IX, § 6, No. 7、cor によって。の。レギュラー（GT、III, § 3, No. 1）の3、空間Eはルーシン空間です。
+P_n を u_n の核とします。次に、u_n 定義する商空間 E_n/P_n から u_n(E_n) への全単射連続写像です。 E_n/P_n は可算性の最初の公理 (GT, IX, § 3, No. 1) を満たすフレシェ空間、つまりポリッシュ空間 (GT, IX, § 6, No. 1, def. 1) であるため、u_n(E_n) は E のルーシン部分空間 (GT, IX, § 6, No. 4, prop. 11) です。 従って、GT、IX, § 6, No. 7、cor によって。の。レギュラー（GT、III, § 3, No. 1）の3、空間Eはルーシン空間です。
 
 #### 例 1 {#evt-iii-s6-n2-exa-1 .statement tag=07Q7}
 
-すべてのフレシェ空間満たすの可算性の最初の公理はポリッシュ空間であるため、ルーシン空間です。 Consequently, so are the spaces $\mathscr{C}(X)$, where X is locally compact and has a countable base (the topology of $\mathscr{C}(X)$ being that of compact convergence, cf. GT, X, § 3, No. 3, corollary and § 1, No. 6, cor. 3); \* the spaces $\mathscr{C}_0^\infty(U)$, where U is an open subset of $\mathbf{R}^n$ (III, p. 9) and $\mathscr{H}(U)$, where U is an open subset of $\mathbf{C}^n$ (III, p. 10).
+すべての Fréchet 空間満たすの可算性の最初の公理はポリッシュ空間であるため、Lusin 空間になります。従って、空間 $\mathscr{C}(X)$ も同様です。ここで、X は局所的にコンパクトで可算数の基底を持ちます ($\mathscr{C}(X)$ の位相はコンパクト収束、cf. GT、X, § 3, No. 3、系および § 1, No. 6、cor. 3); \* 空間 $\mathscr{C}_0^\infty(U)$、ここで U は $\mathbf{R}^n$ (III、p. 9) のオープン部分集合 、および $\mathscr{H}(U)$、ここで U は $\mathbf{C}^n$ (III、p. 10) のオープン部分集合です。
 
 提案 1 は、空間 $\mathscr{C}_0^\infty(U)$、U は $\mathbf{R}^n$ のオープン集合、$\mathscr{G}_s(I)$、I は $\mathbf{R}$ と $s \geq 1$ のコンパクト区間、および $\mathscr{H}(K)$、K はコンパクトであることを示しています。 $\mathbf{C}^n$ の部分集合はすべてルーシン空間 (III、p. 10) です。 \*
 

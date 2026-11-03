@@ -34,16 +34,16 @@ subsections:
       pdf_page: 195
 statements: 26
 exercises: 32
-content_sha256: 8112321e26ab9363e09a8e0bef1e9e62d0ef08b1332c1cd105c8d6fa745b3600
+content_sha256: 990116c3cc5d8733424b8036f57f87119af0c201442041de31f66e362490604f
 translated_from: content/en/ens/III/06_s6_infinite_sets.md
 translation_method: google
 source_content_sha256: 567e0c5f3b6c1ecb2bc3cd823e4e97976fc38f1c07ab89e7b0f38f5f38c28c46
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d94c2836fa8833b96b7c70ae0ceb8bc06c0fb504a5a4fd91c585944069a25ba9
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 6. 無限集合
@@ -76,15 +76,15 @@ A5 (「無限の公理」。) *無限の集合が存在します。*
 
 *数列* (それぞれ集合* E の元の *数列) * は家族* (それぞれ * E の元の家族) *その添字集合は * $\mathbf{N}$ の部分集合です。 *数列は、その添字集合が * $\mathbf{N}$ の無限の部分集合である場合、無限であると言われます。
 
-$\mathrm{P}\{n\}$ を関係とし、I が整数 $n$ の集合を表し、$\mathrm{P}\{n\}$ が true であるとします。 I は $\mathbf{N}$ の部分集合になります。 数列 $(x_n)_{n\in\mathrm{I}}$ は、ときどき $(x_n)_{\mathrm{P}\{n\}}$ と書き込まれ、$x_n$ は数列の *n 番目の項* と呼ばれます。 添字集合が整数 $n \geqslant k$ の集合である数列は、$(x_n)_{k \leqslant n}$ または $(x_n)_{n \geqslant k}$、あるいは $k = 0$ または $k = 1$ の場合は単に $(x_n)$ と書かれることがよくあります。 Under the same conditions, for example, the notations $\prod_{\mathrm{P}\{n\}} \mathrm{X}_n$ and $\prod_{n=k}^{\infty} \mathrm{X}_n$ are used to denote the product of a sequence of sets $(\mathrm{X}_n)_{n\in\mathrm{I}}$, and there are analogous notations for unions, intersections, cardinal products, and cardinal sums.
+$\mathrm{P}\{n\}$ を関係とし、I が整数 $n$ の集合を表し、$\mathrm{P}\{n\}$ が true であるとします。 I は $\mathbf{N}$ の部分集合になります。 数列 $(x_n)_{n\in\mathrm{I}}$ は、ときどき $(x_n)_{\mathrm{P}\{n\}}$ と書き込まれ、$x_n$ は数列の *n 番目の項* と呼ばれます。 添字集合が整数 $n \geqslant k$ の集合である数列は、$(x_n)_{k \leqslant n}$ または $(x_n)_{n \geqslant k}$、あるいは $k = 0$ または $k = 1$ の場合は単に $(x_n)$ と書かれることがよくあります。 たとえば、同じ条件下で、表記 $\prod_{\mathrm{P}\{n\}} \mathrm{X}_n$ と $\prod_{n=k}^{\infty} \mathrm{X}_n$ は一連の集合 $(\mathrm{X}_n)_{n\in\mathrm{I}}$ の積を表すために使用され、和集合、積、基数和にも同様の表記があります。
 
 数列のすべてのサブファミリーは数列であり、指定された数列の *サブシーケンス* と呼ばれます。
 
 同じ添字集合を持つ 2 つの数列 $(x_n)_{n\in\mathrm{I}}$、$(y_n)_{n\in\mathrm{I}}$ は、添字集合の置換 $f$ が存在する場合、*それらの項の順序のみが異なると言われます* I は、すべての $n \in \mathrm{I}$ に対して $x_{f(n)} = y_n$ となるようにします。
 
-A *multiple sequence* is a family whose index set is a subset of a product $\mathbf{N}^p$ ($p$ an integer) ("double sequence" for $p = 2$, "triple sequence" for $p = 3$, and so on).
+*倍数数列* は、添字集合が積 $\mathbf{N}^p$ の部分集合 ($p$ 整数) ($p = 2$ の場合は「ダブル数列」、「トリプル」) である家族です。 $p = 3$ の場合は「数列」など)。
 
-I を $\mathbf{N}$ と等価な集合とし、$f$ を I に対する $\mathbf{N}$ の全単射とします。 集合 I によってインデックス付けされた各ファミリー $(x_\iota)_{\iota\in\mathrm{I}}$ について、数列 $n \to x_{f(n)}$ は、$f$ によって定義される * 順序の *ファミリー* $(x_\iota)_{\iota\in\mathrm{I}}$ を整理することによって得られると言われます。 The sequences which correspond in this way to two distinct bijections of $\mathbf{N}$ onto I differ only in the order of their terms. For a finite family indexed by a set I of $n$ elements we may similarly define a finite sequence with $[1, n]$ or $[0, n-1]$ as index set, by arranging the family in the order defined by a bijection of one or the other of these intervals onto I.
+I を $\mathbf{N}$ と等価な集合とし、$f$ を I に対する $\mathbf{N}$ の全単射とします。 集合 I によってインデックス付けされた各ファミリー $(x_\iota)_{\iota\in\mathrm{I}}$ について、数列 $n \to x_{f(n)}$ は、$f$ によって定義される * 順序の *ファミリー* $(x_\iota)_{\iota\in\mathrm{I}}$ を整理することによって得られると言われます。 このように、$\mathbf{N}$ から I への 2 つの異なる全単射に対応するシーケンスは、項の順序が異なるだけです。 $n$ 元の集合 I によってインデックス付けされた有限ファミリの場合、次のように定義される順序にファミリを配置することで、$[1, n]$ または $[0, n-1]$ を添字集合として、同様に定義する有限列を作成できます。 区間のいずれか全単射を I に移動します。
 
 ### 2. 定義/写像 by 帰納法
 
@@ -114,7 +114,7 @@ $$T\{f^{(n)}\} = S\{f^{(n)}(n-1)\} = S\{f(n-1)\}.$$
 
 $a$ が集合 $E$ の元で、$S\{u\}$ が項 $g(u)$ であり、$g$ が $E$ の写像をそれ自体 [^3] にすると仮定します。次に、$n$ の帰納法によって、すべての $n \in \mathbf{N}$ に対して $f(n) \in E$ があることがすぐにわかります。従って、$f$ は、$\mathbf{N}$ の写像から $E$ となり、すべての整数 $n$ に対して $f(0) = a$ と $f(n+1) = g(f(n))$ になります。
 
-同様に、$h$ を $E$ の $\mathbf{N} \times E$ の写像とし、$\psi$ を $\psi(n, x) = (n+1, h(n, x))$ で定義される$\mathbf{N} \times E$ の写像とします。 By the preceding discussion there exists a unique mapping $g = (\theta, f)$ of $\mathbf{N}$ into $\mathbf{N} \times E$ such that $g(0) = (0, a)$ and $g(n+1) = \psi(g(n))$ for all $n$, from which follows the existence and uniqueness of a mapping $f$ of $\mathbf{N}$ into E such that $f(0) = a$ and $f(n + 1) = h(n, f(n))$ for each integer $n$.
+同様に、$h$ を $E$ の $\mathbf{N} \times E$ の写像とし、$\psi$ を $\psi(n, x) = (n+1, h(n, x))$ で定義される$\mathbf{N} \times E$ の写像とします。 前述の議論により、すべての $n$ に対して $g(0) = (0, a)$ と $g(n+1) = \psi(g(n))$ となるような、$\mathbf{N}$ から $\mathbf{N} \times E$ への一意のマッピング $g = (\theta, f)$ が存在します。そこから、それぞれ $f(0) = a$ と $f(n + 1) = h(n, f(n))$ となるような、$\mathbf{N}$ から E へのマッピング $f$ の存在と一意性がわかります。整数 $n$。
 
 #### 例 2 {#ens-iii-s6-n2-exa-2 .statement tag=03TD}
 
@@ -146,7 +146,7 @@ E (§ 2, no. 3, 定理 1) には整った順序の関係が存在します。こ
 
 *集合 $\mathbf{N} \times \mathbf{N}$ は $\mathbf{N}$ と同等です。*
 
-$\mathbf{N} \times \mathbf{N}$ 含む集合 $\{0\} \times \mathbf{N}$ は $\mathbf{N}$ と等価なので、$\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$ になります。 証明を完了するには、$\mathbf{N} \times \mathbf{N}$ の定義する単射 $f$ を $\mathbf{N}$ に加えるだけで十分です。 For this purpose we note that there exists an injection $\varphi$ of $\mathbf{N}$ into the set of mappings of $\mathbf{N}$ into $\mathrm{I} = \{0, 1\}$, obtained as follows : if $r$ is the least integer such that $n > 2^r$, and if $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ is the dyadic expansion of $n$ (§ 5, no. 7), $\varphi(n)$ is defined to be the sequence $(u_m)_{m \in \mathbf{N}}$ such that $u_m = \varepsilon_{r-m-1}$ for $m < r$ and $u_m = 0$ for $m \geqslant r$. § 5, no. 7 の命題 8 は、$\varphi$ が単射であることを示しています。 それぞれの対 $(n, n') \in \mathbf{N} \times \mathbf{N}$ について、次のように定義する $f(n, n')$ を計算します。 $\varphi(n) = (u_m)$ と $\varphi(n') = (v_m)$ の場合、$f(n, \; n')$ を整数 $s$ とし、$\varphi(s) = w_m$ とします。ここで、$w_{2m} = u_m$ と $w_{2m+1} = v_m$ はすべて$m \in \mathbf{N}$。 関係 $f(n, \; n') = f(n_1, \; n_1')$ が $\varphi(n) = \varphi(n_1)$ と $\varphi(n') = \varphi(n_1')$ を暗示していることは明らかです。したがって $(n, n') = (n_1, n_1')$ 、したがって $f$ は単射法です。
+$\mathbf{N} \times \mathbf{N}$ 含む集合 $\{0\} \times \mathbf{N}$ は $\mathbf{N}$ と等価なので、$\mathrm{Card}(\mathbf{N}) \leqslant \mathrm{Card}(\mathbf{N} \times \mathbf{N})$ になります。 証明を完了するには、$\mathbf{N} \times \mathbf{N}$ の定義する単射 $f$ を $\mathbf{N}$ に加えるだけで十分です。 この目的のために、$\mathbf{N}$ から $\mathrm{I} = \{0, 1\}$ へのマッピングのセットへの $\mathbf{N}$ の注入 $\varphi$ が存在することに注意します。これは次のように取得されます: $r$ が $n > 2^r$ のような最小の整数である場合、および $\sum_{k=0}^{r-1} \varepsilon_k 2^{r-k-1}$ が $n$ の二項展開である場合(§ 5, no. 7)、$\varphi(n)$ は、$m < r$ の場合は $u_m = \varepsilon_{r-m-1}$、$m \geqslant r$ の場合は $u_m = 0$ となるように、シーケンス $(u_m)_{m \in \mathbf{N}}$ として定義されます。 § 5, no. 7 の命題 8 は、$\varphi$ が単射であることを示しています。 それぞれの対 $(n, n') \in \mathbf{N} \times \mathbf{N}$ について、次のように定義する $f(n, n')$ を計算します。 $\varphi(n) = (u_m)$ と $\varphi(n') = (v_m)$ の場合、$f(n, \; n')$ を整数 $s$ とし、$\varphi(s) = w_m$ とします。ここで、$w_{2m} = u_m$ と $w_{2m+1} = v_m$ はすべて$m \in \mathbf{N}$。 関係 $f(n, \; n') = f(n_1, \; n_1')$ が $\varphi(n) = \varphi(n_1)$ と $\varphi(n') = \varphi(n_1')$ を暗示していることは明らかです。したがって $(n, n') = (n_1, n_1')$ 、したがって $f$ は単射法です。
 
 ¶ 定理の証明になります。 2. E を $\mathrm{Card}(\mathrm{E}) = \mathfrak{a}$ となるように集合とします。 D を $\mathbf{N}$ (補題 1) と等しい E の部分集合とします。次に、$\mathrm{D} \times \mathrm{D}$ (補題 2) 上に D の全単射 $\psi_0$ が存在します。 $\mathfrak{M}$ を対 $(\mathrm{X}, \psi)$ の集合とします。ここで、X は E 含む D の部分集合で、$\psi$ は $\mathrm{X} \times \mathrm{X}$ 上の X の全単射です。 拡大する $\psi_0$。 順序集合 $\mathfrak{M}$ 関係による
 

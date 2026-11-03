@@ -56,16 +56,16 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 30
-content_sha256: cb9244ed45d4b7e2be7e605ae3b729696cfd1f74f408e43cd55660b6546d0232
+content_sha256: f969fec965a30042c581af20e62f88f67d934845f153f62b5ecf132092324b7b
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
 translation_method: google
 source_content_sha256: e46166486e36efa944d66af30ebaacb93e9bc8f019659598c1d03449537e5e11
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9108dbe4829157586353a57a1e0f56c10925bad80bc4e54ffdfa934e81d1c713
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。ハール単位の構成
@@ -406,7 +406,7 @@ $$
 I(f) = \int_a^{a+1} f(\varphi(x)) dx
 $$
 
-$a \in \mathbf{R}$の選択から独立しています。翻訳下で不変であることは明らかです。したがって、定義するは $T$ のハール測度です。 By transport of structure, one deduces from this that $I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$ is a Haar measure on the multiplicative group $U$ of complex numbers of absolute value 1 (GT, VIII, §2, No. 1).
+$a \in \mathbf{R}$の選択から独立しています。翻訳下で不変であることは明らかです。したがって、定義するは $T$ のハール測度です。 構造の輸送により、これから $I(f) = \int_a^{a+1} f(e^{2\pi i t}) dt$ は絶対値 1 (GT、VIII, §2, No. 1) の複素数の乗法群 $U$ に対するハール測度であることが推測されます。
 
 #### 命題 2 {#int-vii-s1-prop-2 .statement tag=09D6}
 
@@ -600,7 +600,7 @@ G が離散またはコンパクトの場合、その正規化されたハール
 
 この写像は明らかに $\mathbf{R}_+^*$ の $\Gamma$ の表現 (代数) です。その連続性を証明するには十分です。 $f \in \mathscr{K}(G)$ とし、S をそのサポートとします。*
 
-$\gamma_0 \in \Gamma$ と $U$ を $u_{\gamma_0}^{-1}(S)$ の比較的コンパクトな近傍とする。 写像 $\gamma \mapsto u_\gamma$ は、コンパクト コンバージェンス (GT、X, §3, No. 4、Th. 3) の位相を備えた $\Gamma$ から $\mathscr{G}$ への連続的な写像です。したがって、$\gamma_0$に十分近い$\gamma$の$u_\gamma^{-1}(S) \subset U$。 Lemma 1 of No. 1 then proves that $\int f(u_\gamma(x)) d\mu(x)$ (where $\mu$ denotes a left Haar measure of $G$) depends continuously on $\gamma$; whence the proposition.
+$\gamma_0 \in \Gamma$ と $U$ を $u_{\gamma_0}^{-1}(S)$ の比較的コンパクトな近傍とする。 写像 $\gamma \mapsto u_\gamma$ は、コンパクトコンバージェンス (GT、X, §3, No. 4、Th. 3) の位相を備えた $\Gamma$ から $\mathscr{G}$ への連続的な写像です。したがって、$\gamma$ は $\gamma_0$ に十分近いため、$u_\gamma^{-1}(S) \subset U$ になります。 No. 1 の補題 1 は、$\int f(u_\gamma(x)) d\mu(x)$ (ここで、$\mu$ は左ハール測度 $G$ を示します) が継続的に $\gamma$ に依存することを証明します。 よって命題。
 
 ### 5. 積のハール測定
 
@@ -636,7 +636,7 @@ b) *$\mu$ と $\mu'$ を G 上の 2 小節とし、すべての $\alpha \in A$ �
 
 $K_{\alpha_1} S \cap K_{\alpha_1}(G - U) = \emptyset$ となるような $\alpha_1 \in A$ が存在します (GT、II, §4, No. 3、提案 4)。 したがって、S を増加させ、U を減少させると、S と U は $K_{\alpha_1}$ の剰余類の和集合であると仮定できます。 次の性質を持つ S 上の連続数値写像 $h$ を考えてみましょう: $h$ が $K_\alpha$ の剰余類上で定数となるような $\alpha \geq \alpha_1$ が存在します。 These functions form a subalgebra of $\mathscr{K}(S)$ (because $(K_\alpha)$ is a decreasing directed family) that contains the constants and separates the points of S: for, let $x, y$ be two distinct points of S; since the intersection of the $K_\alpha$ is $\{e\}$, there exists an $\alpha \geq \alpha_1$ such that $\varphi_\alpha(x) \neq \varphi_\alpha(y)$, then a numerical function $u$ continuous on $\varphi_\alpha(S)$ such that $u(\varphi_\alpha(x)) \neq u(\varphi_\alpha(y))$. ストーン・ヴァイエルシュトラス定理によれば、S 上には $K_\alpha$ の剰余類上で定数である $\alpha \geq \alpha_1$ と連続する写像 $h \geq 0$ が存在し、S 上では $|f - h| \leq \frac{\varepsilon}{2}$ となる。 $t \in \mathbf{R}$、集合 $\delta(t) = \left( t - \frac{\varepsilon}{2} \right)^+$、集合 $h' = \delta \circ h$ ごとに。 この場合、$h'$ は写像 $\geq 0$ であり、S では連続、$K_\alpha$ の剰余類では定数、S では $|h - h'| \leq \frac{\varepsilon}{2}$ であるため、S では $|f - h'| \leq \varepsilon$ になります。 一方、G の S の境界に x 属するを加えると、$h(x) \leq \frac{\varepsilon}{2}$ となるため、$h'(x) = 0$ となります。 $h'$ を S の補数で 0 拡張すると、要件を満たす写像 $g$ が得られ、a) が証明されます。
 
-ここで、$\mu, \mu'$ を G 上の 2 小節とし、すべての $\alpha \in A$ に対して $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ となるようにします。 $v \in \mathscr{K}(G)$ を、一部の $\alpha \in A$ について $K_\alpha$ の剰余類で写像定数とすることで、 $w \in \mathscr{K}(G_\alpha)$ で $v = w \circ \varphi_\alpha$ を書くことができます。それから
+ここで、$\mu, \mu'$ を G 上の 2 小節とし、すべての $\alpha \in A$ に対して $\varphi_\alpha(\mu) = \varphi_\alpha(\mu')$ となるようにします。 $v \in \mathscr{K}(G)$ を、$\alpha \in A$ について$K_\alpha$ の剰余類で定数写像とし、$v = w \circ \varphi_\alpha$ を $w \in \mathscr{K}(G_\alpha)$ で書くことができます。それから
 
 \* 参照。 Ch. III, §4, No. 5。
 
@@ -646,7 +646,7 @@ $$
 
 #### 命題 6 {#int-vii-s1-prop-6 .statement tag=09DF}
 
-*すべての* $\alpha \in A$ について、*$\mu_\alpha$ を *$G_\alpha$ に対する前向きな指標とします。 *$\alpha \geq \beta$ に対して * $\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ と仮定します。 *そして、唯一の前向きな対策* $\mu$ *オン* $G$ *そのような* $\varphi_\alpha(\mu) = \mu_\alpha$ *すべてに対して* $\alpha \in A$ が存在します。
+*すべて* $\alpha \in A$ について、*$\mu_\alpha$ を *$G_\alpha$ に対する前向きな指標とします。 *$\varphi_{\beta\alpha}(\mu_\alpha) = \mu_\beta$ *$\alpha \geq \beta$ の場合* と仮定します。 *そして、ポジティブな対策は 1 つだけ存在します* $\mu$ *on* $G$ *そのような* $\varphi_\alpha(\mu) = \mu_\alpha$ *すべてに対して* $\alpha \in A$。
 
 一意性は補題 2 b) の直後に続きます。 $\mu$ の存在を証明しましょう。 $V$ を写像所属から $\mathscr{K}(G)$ のベクトル空間とし、いくつかの $K_\alpha$ の剰余類で定数とします ($\alpha$ は写像に依存する可能性があります)。 補題 2 a) から、$V$ は第 1 章の条件 (P) を満たすことがわかります。 III, §1, No. 7、提案9: $K$を、$G$と選ぶ$f \in \mathscr{K}_+(G)$の$f(x) > 0$をすべての$x \in K$でコンパクトにした集合とする。 $a > 0$ を $K$ の $f$ の最小の値とします。 補題 2 a) により、$|f - g| \leq a/2$ となるような写像 $g \in V \cap \mathscr{K}_+(G)$ が存在するため、すべての $x \in K$ に対して $g(x) > 0$ となり、条件 (P) が検証されます。 $f \in V$ にしましょう。 $f$ が $K_\alpha$ の剰余類上で定数となるような $\alpha \in A$ が存在します。 商、$f$ 定義する写像 $f_\alpha \in \mathscr{K}(G_\alpha)$ への通過により。 数 $\mu(f) = \mu_\alpha(f_\alpha)$ は $\alpha$ の選択に依存しません。つまり、$\beta$ を、$f$ が $K_\beta$ の剰余類で定数となるような任意の添字とします。 $\gamma \in A$ を $\gamma \geq \alpha, \gamma \geq \beta$ となるようにします。次に、$f$ 定義する写像 $f_\beta \in \mathscr{K}(G_\beta)$、$f_\gamma \in \mathscr{K}(G_\gamma)$ は $f = f_\beta \circ \varphi_\beta = f_\gamma \circ \varphi_\gamma$ になります。次に$f_\alpha \circ \varphi_{\alpha\gamma} = f_\gamma$、したがって$\mu_\gamma(f_\gamma) = (\varphi_{\alpha\gamma}(\mu_\gamma))(f_\alpha) = \mu_\alpha(f_\alpha)$、そして同様に$\mu_\gamma(f_\gamma) = \mu_\beta(f_\beta)$、よってが私たちの主張になります。 これにより、$\mu$ は $V$ では線型形式であり、$f \geq 0$ では $\mu(f) \geq 0$ であることが明らかです。 第 9 章の提案による。 III, §1, No. 7、$\mu$ は、$G$ でプラスの測定値に拡張される可能性があり、これを再び $\mu$ で示します。 $\mu$ のちょうど構成までに、すべての $\alpha \in A$ に対して $\varphi_\alpha(\mu) = \mu_\alpha$ があります。
 
@@ -954,7 +954,7 @@ $$
 
 * $A^*$ は、それぞれ乗法群 $A^*$ の左ハール測定値と右ハール測定値です。
 
-$\alpha'$ を $\alpha$ の制限からオープン集合 $A^*$ とします。 $a \in A^*$ の場合、$L_a(\alpha') = (\mathrm{mod}_K N_{A/K}(a))^{-1} \alpha'$ があるため、$(\mathrm{mod}_K N_{A/K}(a))^{-1} d\alpha'(a)$ は $A^*$ の左ハール測度です (No. 8、提案 10 の Cor. 1)。 移行から反対多元環を見ると、$(\mathrm{mod}_K N_{A^0/K}(a))^{-1} d\alpha'(a)$ が $A^*$ に対する正しいハール測度であることがわかります。
+$\alpha'$ を $\alpha$ の制限からオープン集合 $A^*$ とします。 $a \in A^*$ の場合、$L_a(\alpha') = (\mathrm{mod}_K N_{A/K}(a))^{-1} \alpha'$ があるため、$(\mathrm{mod}_K N_{A/K}(a))^{-1} d\alpha'(a)$ は $A^*$ の左ハール測度です (No. 8、提案 10 の Cor. 1)。 移行から反対多元環を見ると、$(\mathrm{mod}_K N_{A^0/K}(a))^{-1} d\alpha'(a)$ が $A^*$ の右ハール測度であることがわかります。
 
 #### 命題 17 {#int-vii-s1-prop-17 .statement tag=09E2}
 

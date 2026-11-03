@@ -37,31 +37,31 @@ subsections:
       pdf_page: 250
 statements: 24
 exercises: 7
-content_sha256: 13004b1947f95c11a7e0fcc3efb1502a1db3da89433592d5bb10f9d20b31f2fd
+content_sha256: a4b4edc57dbc1440a7b69cb61d0a667f7e03c286bf443abae30bb17d2fc6c976
 translated_from: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
 translation_method: google
 source_content_sha256: 8e759b487c91cd2169288cb7a854bc7596023e144f6eac992de79d1711257975
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 96a65a6ac8aa0fe18cd029508ed4473ec7fa4e8b2398c43477377872fa683844
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。実数変数の写像の漸近展開
 
-In this section we shall consider only the case where the set $E$ is an open interval in the extended real line $\overline{\mathbf{R}}$, and $\mathfrak{F}$ is a base for the trace on $E$ of the filter of neighbourhoods of the left or right-hand endpoint $\alpha$ of $E$; further, we shall study above all the (finite) real functions defined on a set in $\mathfrak{F}$ (depending on the function under consideration).
+この切断では、集合 $E$ が拡張実直線 $\overline{\mathbf{R}}$ のオープン区間であり、左または近傍のフィルターの $E$ のトレースに対して $\mathfrak{F}$ が基底である場合のみを考慮します。右側のエンドポイント $E$ の $\alpha$;さらに、とりわけ、$\mathfrak{F}$ の集合で定義される (有限) 実数写像を検討します (検討中の写像に応じて)。
 
-必要に応じて変数 $x' = -x,\ x' = \frac{1}{x-\alpha},\ x' = -\frac{1}{x-\alpha}$ の変更の 1 つを使用すると、E が形 ]$a, +\infty[$ の区間である場合に常に簡約するを適用でき、$\mathfrak{F}$ は区間 $[t, +\infty[$ と $t > a$ で形成されます。私たちは主に後者の場合に限定し、いくつかの特に重要な結果を除いて、(上記の変数の変更によって) 得られる命題のほとんどを翻訳するタスクを読者に任せます。
+必要に応じて変数 $x' = -x,\ x' = \frac{1}{x-\alpha},\ x' = -\frac{1}{x-\alpha}$ の変更の 1 つを使用すると、E が形 ]$a, +\infty[$ の区間である場合に常に簡約するを適用でき、$\mathfrak{F}$ は区間 $[t, +\infty[$ と $t > a$ から形成されます。私たちは主にこの後者の場合に限定し、いくつかの特に重要な結果を除いて、(上記の変数の変更によって) 得られる命題のほとんどを翻訳するタスクを読者に任せます。
 
 言葉の乱用を利用して、$\mathfrak{F}$の集合を「$+\infty$の近傍」と呼ぶと便利です。
 
-### 1. 比較関係: **I の統合。弱い関係**
+### 1. 比較関係: **Iの統合。弱い関係**
 
 #### 命題 1 {#fvr-v-s3-prop-1 .statement tag=08F4}
 
-*$\mathbf{f}$ を規制のベクトル写像、$g$ を規制の写像 $\geqslant 0$ として区間 $[a, +\infty[$ に$\int_a^{+\infty} g(t)\,dt > 0$ とする。 $x$ が $+\infty$ になる傾向があるため、関係 $\mathbf{f} \preccurlyeq g$ は $\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$ を暗示します。整 $\int_a^{+\infty} g(t)\,dt$ が収束すると、整 $\int_a^{+\infty} \mathbf{f}(t)\,dt$ は絶対に収束します。*
+*$\mathbf{f}$を規制のベクトル写像、$g$を区間$[a, +\infty[$の規制の写像$\geqslant 0$とし、$\int_a^{+\infty} g(t)\,dt > 0$とします。 関係 $\mathbf{f} \preccurlyeq g$ は、$x$ が $+\infty$ である傾向があるため、$\int_a^x \mathbf{f}(t)\,dt \preccurlyeq \int_a^x g(t)\,dt$ を暗示します。整 $\int_a^{+\infty} g(t)\,dt$ が収束すると、整 $\int_a^{+\infty} \mathbf{f}(t)\,dt$ は絶対に収束します。*
 
 実際、仮定までに、次のような $b \geqslant a$ と数 $c' > 0$ が存在します。
 $$
@@ -71,7 +71,7 @@ $$
 $$
 \left\| \int_b^x \mathbf{f}(t)\,dt \right\| \leqslant \int_b^x \| \mathbf{f}(t) \| \,dt \leqslant c' \int_b^x g(t)\,dt;
 $$
-さらに、$b$ は $\int_a^b g(t)\,dt > 0$ よりも大きいと想定できるため、$\left\| \int_a^b \mathbf{f}(t)\,dt \right\| \leqslant c'' \int_a^b g(t)\,dt$ となるような $c'' > 0$ が存在するからです。 $c = \max(c', c'')$ を置くと、このようになります
+さらに、$b$ は $\int_a^b g(t)\,dt > 0$ よりも大きいと想定できるため、$\left\| \int_a^b \mathbf{f}(t)\,dt \right\| \leqslant c'' \int_a^b g(t)\,dt$ となるような $c'' > 0$ が存在します。 $c = \max(c', c'')$ を置くと、人はこうなります
 $$
 \left\| \int_a^x \mathbf{f}(t)\,dt \right\| \leqslant c \int_a^x g(t)\,dt
 $$
@@ -79,15 +79,15 @@ $x \geqslant b$、よって命題ごとに。
 
 #### 系 1 {#fvr-v-s3-prop-1-cor-1 .statement tag=08F5}
 
-*$f$と$g$が区間$[a, +\infty[$に写像と$\geqslant 0$が規制されている場合、$f \succcurlyeq g$、$\int_a^{+\infty} g(t)\,dt = +\infty$の場合は$\int_a^{+\infty} f(t)\,dt = +\infty$となります。
+*$f$と$g$が区間$[a, +\infty[$に写像と$\geqslant 0$が規制されている場合、$f \succcurlyeq g$となり、$\int_a^{+\infty} g(t)\,dt = +\infty$の場合は$\int_a^{+\infty} f(t)\,dt = +\infty$となります。
 
 #### 系 2 {#fvr-v-s3-prop-1-cor-2 .statement tag=08F6}
 
-*$f$ と $g$ が $\geqslant 0$ で、$[a, +\infty[$ では零と同一ではなく、$f \succeq g$ である場合、$\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$ となります。*
+*$f$と$g$が$\geqslant 0$で、$[a, +\infty[$の零が同一ではなく、$f \succeq g$となる場合、$\int_a^x f(t)\,dt \succeq \int_a^x g(t)\,dt$となります。*
 
 ### 2. 応用: 積分の収束のための対数基準
 
-写像 g を適切に選択することで、写像 $f \geq 0$ の積分 $\int_a^{+\infty} f(t) \, dt$ が収束するか無限であるかを決定するための基準を prop から推測できます。 V、p. 228、cor の 1 つ1 これに対して、プリミティブが既知の g 写像に対して選ぶで十分です。特に、$x^\mu$ は、$\mu \neq -1$ のときは原始的な $\frac{x^{\mu+1}}{\mu+1}$ を持ち、$\mu = -1$ のときは $\log x$ を持つため、次の基準があります。
+写像 g を適切に選択することで、写像 $f \geq 0$ の積分 $\int_a^{+\infty} f(t) \, dt$ が収束するか無限であるかを決定するための基準を prop から推測できます。 V、p. 228、および cor の 1 つ1 これに対して、プリミティブが既知の g 写像に対して選ぶで十分です。特に、$x^\mu$ には、$\mu \neq -1$ のときはプリミティブ $\frac{x^{\mu+1}}{\mu+1}$ があり、$\mu = -1$ のときは $\log x$ があるため、次の基準があります。
 
 #### 命題 2 (「位数 0 の対数基準」) {#fvr-v-s3-prop-2 .statement tag=08F7}
 

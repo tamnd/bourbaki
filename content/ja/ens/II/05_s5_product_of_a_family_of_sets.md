@@ -52,16 +52,16 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 2abc6fba69258404fbfc49fec4a6d731aa4c741d33ffc11e88ce92e93949ad2c
+content_sha256: 706d05e1cd62aa1daef3c85676fcb5f32d760c4d5cfae5d60ac23b6806a0a62b
 translated_from: content/en/ens/II/05_s5_product_of_a_family_of_sets.md
 translation_method: google
 source_content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 250a8d4114255479915dcb6c7e258a8825839d877a0ae454b0abe5e874dc004f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 集合人の家族の積
@@ -86,13 +86,13 @@ A4. $(\forall \mathrm{X}) \ \mathrm{Coll}_{\mathrm{Y}}(\mathrm{Y} \subset \mathr
 
 ### 2. 1 つの集合を他のに写像の集合
 
-$E$、$F$を集合とします。 $E$の写像を$F$に入れるグラフは、$E \times F$の部分集合です。 $E$の写像を$F$にグラフ化した性質を持つ$\mathfrak{P}(E \times F)$の元の集合は、$\mathfrak{P}(E \times F)$の部分集合であり、$F^E$で表されます。 The set of triples $f = (G, E, F)$, where $G \in F^E$, is therefore the set of mappings of $E$ into $F$; it is denoted by $\mathfrak{F}(E, F)$. 明らかに、$G \mapsto (G, E, F)$ は $\mathfrak{F}(E, F)$ 上の $F^E$ の全単射 (正規の全単射と呼ばれます) です。 この全単射の存在により、集合 $F^E$ に関連するすべての命題を $\mathfrak{F}(E, F)$ に関連するものに即座に変換でき、またその逆も可能です。
+$E$、$F$を集合とします。 $E$の写像を$F$に入れるグラフは、$E \times F$の部分集合です。 $E$の写像を$F$にグラフ化した性質を持つ$\mathfrak{P}(E \times F)$の元の集合は、$\mathfrak{P}(E \times F)$の部分集合となり、$F^E$で表されます。したがって、$G \in F^E$ の 3 倍体 $f = (G, E, F)$ の集合は、$E$ の写像の集合を $F$ に変換します。それは$\mathfrak{F}(E, F)$で示されます。明らかに、$G \mapsto (G, E, F)$ は $F^E$ の $\mathfrak{F}(E, F)$ 上の全単射 (正規の全単射と呼ばれます) です。この全単射の存在により、集合 $F^E$ に関連するすべての命題を $\mathfrak{F}(E, F)$ に関連するものに即座に変換でき、またその逆も可能です。
 
 ¶ $E$、$E'$、$F$、$F'$ を集合とします。 $u$ を $E'$ の写像から $E$ に、$v$ を $F$ の写像から $F'$ にします。すると、写像 $f \mapsto v \circ f \circ u$ は、$\mathfrak{F}(E, F)$ の写像が $\mathfrak{F}(E', F')$ になります。
 
 #### 命題 2 {#ens-ii-s5-prop-2 .statement tag=03Q5}
 
-(1) *If $u$ is a surjection of $E'$ onto $E$ and $v$ an injection of $F$ into $F'$, then the mapping $f \mapsto v \circ f \circ u$ is injective.*
+(1) *$u$ が $E$ への $E'$ の全射であり、$v$ が $F'$ への $F$ の射出である場合、マッピング $f \mapsto v \circ f \circ u$ は単射的です。*
 
 (2) *$u$ が $E'$ の $E$ への単射であり、$v$ が $F'$ への $F$ の全射である場合、写像 $f \mapsto v \circ f \circ u$ は全射です。
 
@@ -122,13 +122,13 @@ $A$、$B$、$C$を3つの集合とし、$f$を$B \times C$の写像を$A$とし�
 
 ### 3. 集合人家族の積のうち定義
 
-$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ を集合の族とし、F を $\iota \in \mathrm{I}$ ごとに $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ となるようなドメイン I を持つ関数グラフとする。 次に、各 $\iota \in \mathrm{I}$ に対して $\mathrm{F}(\iota) \in \mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ があり、したがって F は $\mathfrak{P}(\mathrm{I} \times \mathrm{A})$ の元になります。 上記の性質を持つ関数グラフは、$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$の形部分集合になります。
+$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ を集合の族とし、F を $\iota \in \mathrm{I}$ ごとに $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ となるようなドメイン I を持つ関数グラフとする。次に、各 $\iota \in \mathrm{I}$ に対して $\mathrm{F}(\iota) \in \mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ があり、したがって F は $\mathfrak{P}(\mathrm{I} \times \mathrm{A})$ の元になります。上記の性質を使用した関数グラフは、$\mathfrak{P}(\mathrm{I} \times \mathrm{A})$ の形部分集合となります。
 
 #### 定義 1 {#ens-ii-s5-def-1 .statement tag=03Q8}
 
 ※$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$を集合の家族とします。関数グラフの集合 F *ドメイン* I *そのような* $\mathrm{F}(\iota) \in \mathrm{X}_\iota$ *それぞれ* $\iota \in \mathrm{I}$ *は、集合 $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ の族の積と呼ばれ、* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ で表されます。 *それぞれ* $\iota \in \mathrm{I}$、$\mathrm{X}_\iota$ *は積* $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ の添字 $\iota$ の因子と呼ばれます。 *写像* $\mathrm{F} \to \mathrm{F}(\iota)$ $\left( \mathrm{F} \in \prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota,\ \mathrm{F}(\iota) \in \mathrm{X}_\iota \right)$ *添字 $\iota$ の座標写像* (または *射影*) と呼ばれ、* $\mathrm{pr}_\iota$ で表されます。
 
-$\mathrm{F}(\iota)$ is called the *coordinate of index* $\iota$ (or *projection of index* $\iota$) of F; the image $\mathrm{pr}_\iota\langle \mathrm{A} \rangle$ of a subset A of $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ under the coordinate function of index $\iota$ is called the *projection of index* $\iota$ of A. $\mathrm{A} \subset \prod_{\iota \in \mathrm{I}} \mathrm{pr}_\iota \langle \mathrm{A} \rangle$ であることは簡単に確認できます。
+$\mathrm{F}(\iota)$ は、F の *インデックスの座標* $\iota$ (または *インデックスの投影* $\iota$) と呼ばれます。インデックス $\iota$ の座標関数の下にある $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ のサブセット A のイメージ $\mathrm{pr}_\iota\langle \mathrm{A} \rangle$ は、A の *インデックスの射影* $\iota$ と呼ばれます。 $\mathrm{A} \subset \prod_{\iota \in \mathrm{I}} \mathrm{pr}_\iota \langle \mathrm{A} \rangle$ であることは簡単に確認できます。
 
 $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ (§3, no. 6) の元を表すには、記法 $(x_\iota)_{\iota \in \mathrm{I}}$ をよく使用します。
 
@@ -176,7 +176,7 @@ $(X_\iota)_{\iota\in I}$ を集合の家族とし、$J$ を $I$ の部分集合�
 
 #### 命題 6 {#ens-ii-s5-prop-6 .statement tag=03QA}
 
-*$(X_\iota)_{\iota\in I}$ を、すべての $\iota\in I$ に対して $X_\iota\ne\varnothing$ となるような集合の家族とします。 If $g$ is a mapping of $J\subset I$ into $A=\displaystyle\bigcup_{\iota\in I}X_\iota$, such that $g(\iota)\in X_\iota$ for all $\iota\in J$, then there exists an extension $f$ of $g$ to $I$ such that $f(\iota)\in X_\iota$ for all $\iota\in I$.*
+*$(X_\iota)_{\iota\in I}$ を、すべての $\iota\in I$ に対して $X_\iota\ne\varnothing$ となるような集合の家族とします。 $g$ が、すべての $\iota\in J$ に対して $g(\iota)\in X_\iota$ となるように、$J\subset I$ から $A=\displaystyle\bigcup_{\iota\in I}X_\iota$ へのマッピングである場合、すべての $\iota\in I$ に対して $f(\iota)\in X_\iota$ となる、$g$ から $I$ への拡張$f$ が存在します。
 
 それぞれの $\iota\in I-J$ について、$T_\iota$ は項 $\tau_\iota(y\in X_\iota)$ を表します。 仮定までに$X_\iota\ne\varnothing$なので、すべての$\iota\in I-J$ (章 I, §4, no. 1) に対して$T_\iota\in X_\iota$ になります。 $G$ が $g$ のグラフである場合、グラフ $G\cup\left(\displaystyle\bigcup_{\iota\in I-J}\{(\iota,T_\iota)\}\right)$ は、すぐに検証できるように、必要な特性を備えた写像のグラフです。
 
@@ -216,7 +216,7 @@ $$f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$$
 
 *$\prod\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ の積集合 $\prod\limits_{\lambda \in \mathrm{L}} \Big(\prod\limits_{\iota \in \mathrm{J}_\lambda} \mathrm{X}_\iota\Big)$ は全単射です (集合の積の「結合性」)。
 
-From the interpretation of $\mathrm{pr}_{\mathrm{J}_\lambda} f$ as the graph of the restriction of the function whose graph is $f$ (no. 4), it follows that the statement that the mapping $f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$ is bijective means that, for each family $(v_\lambda)_{\lambda \in \mathrm{L}}$, where $v_\lambda$ is a mapping of $\mathrm{J}_\lambda$ into $\bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$, there exists a unique mapping $u$ of I into $\bigcup_{\iota \in I} X_\iota$ such that $v_\lambda$ is the restriction of $u$ to $J_\lambda$ for each $\lambda \in L$. But this is a consequence of the hypothesis that $(J_\lambda)_{\lambda \in L}$ is a partition of I (§4, Proposition 8).
+グラフが $f$ (no. 4) である関数の制限のグラフとしての $\mathrm{pr}_{\mathrm{J}_\lambda} f$ の解釈から、マッピング $f \to (\mathrm{pr}_{\mathrm{J}_\lambda} f)_{\lambda \in \mathrm{L}}$ が全単射であるというステートメントは、$v_\lambda$ が $\mathrm{J}_\lambda$ から $\bigcup\limits_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ へのマッピングである各族 $(v_\lambda)_{\lambda \in \mathrm{L}}$ に対して、一意のマッピングが存在することを意味するということになります。 I の $u$ を $\bigcup_{\iota \in I} X_\iota$ にすると、$v_\lambda$ は各 $\lambda \in L$ の $u$ から $J_\lambda$ の制限になります。 しかし、これは仮定の帰結であり、$(J_\lambda)_{\lambda \in L}$ は I (§4、命題 8) の分割です。
 
 ¶ 命題 7 で定義された全単射とその逆全単射は *正規* と言われます。
 
@@ -278,7 +278,7 @@ $$x \notin \bigcap_{f \in I} \left( \bigcup_{\lambda \in L} X_{\lambda, f(\lambd
 $$\left( \bigcap_{\iota \in I} X_\iota \right) \cup \left( \bigcap_{\varkappa \in K} Y_\varkappa \right) = \bigcap_{(\iota,\, \varkappa) \in I \times K} (X_\iota \cup Y_\varkappa),$$
 $$\left( \bigcup_{\iota \in I} X_\iota \right) \cap \left( \bigcup_{\varkappa \in K} Y_\varkappa \right) = \bigcup_{(\iota,\, \varkappa) \in I \times K} (X_\iota \cap Y_\varkappa).$$
 
-$\alpha$、$\beta$ を 2 つの異なるオブジェクトとします。 命題 8 ($L = \{\alpha,\ \beta\}$、$J_\alpha = I$、$J_\beta = K$) の公式を $((Z_{\lambda,\, \mu})_{\mu \in J_\lambda})_{\lambda \in L}$ ファミリーに適用します。ここで、すべての $\iota \in I$ には $Z_{\alpha,\, \iota} = X_\iota$ が、各 $\varkappa \in K$ には $Z_{\beta,\, \varkappa} = Y_\varkappa$ が適用されます。 $\coprod_{\lambda \in L} J_\lambda$ の正規全単射が $I \times K$ (no. 3) に存在することにより、そして § 4 の命題 1 により、記載された式が得られます。
+$\alpha$、$\beta$ を 2 つの異なるオブジェクトとします。 命題 8 ($L = \{\alpha,\ \beta\}$、$J_\alpha = I$、$J_\beta = K$) の公式を $((Z_{\lambda,\, \mu})_{\mu \in J_\lambda})_{\lambda \in L}$ ファミリーに適用します。ここで、すべての $\iota \in I$ には $Z_{\alpha,\, \iota} = X_\iota$ が、各 $\varkappa \in K$ には $Z_{\beta,\, \varkappa} = Y_\varkappa$ が適用されます。 $\coprod_{\lambda \in L} J_\lambda$ の標準的な全単射が $I \times K$ (no. 3) に存在することにより、そして § 4 の命題 1 により、記載された式が得られます。
 
 #### 命題 9 {#ens-ii-s5-prop-9 .statement tag=03IQ}
 
@@ -360,19 +360,19 @@ $I = \{\alpha, \beta\}$ の場合、$\alpha$ と $\beta$ は別個であり、�
 
 #### 命題 11 {#ens-ii-s5-prop-11 .statement tag=03IT}
 
-*$(X_\iota)_{\iota \in I}$、$(Y_\iota)_{\iota \in I}$、$(Z_\iota)_{\iota \in I}$ *を集合の 3 つの族とし、* $(g_\iota)_{\iota \in I}$、$(g'_\iota)_{\iota \in I}$ * 写像の 2 つの族とし、すべて同じ添字集合を持ち、* $g_\iota$ * は次のようになります。 写像 * $X_\iota$ *into* $Y_\iota$ *and* $g'_\iota$ *写像 of* $Y_\iota$ *into* $Z_\iota$、*それぞれ* $\iota \in I$。 *$g$ *と* $g'$ *家族の拡大* $(g_\iota)_{\iota \in I}$ *そして* $(g'_\iota)_{\iota \in I}$ *から積とします。すると、家族* $(g'_\iota \circ g_\iota)_{\iota \in I}$ の拡大 *から積は、* $g' \circ g$ に等しくなります。
+*$(X_\iota)_{\iota \in I}$、$(Y_\iota)_{\iota \in I}$、$(Z_\iota)_{\iota \in I}$ * を 3 つのファミリーの集合とし、* $(g_\iota)_{\iota \in I}$、$(g'_\iota)_{\iota \in I}$ * を 2 つのファミリーの写像とし、すべて同じ添字集合を持ち、* $g_\iota$ * は次のようになります。 写像 of* $X_\iota$ *into* $Y_\iota$ *and* $g'_\iota$ *写像 of* $Y_\iota$ *into* $Z_\iota$、*それぞれ* $\iota \in I$。 *$g$ *と* $g'$ *家族の拡大* $(g_\iota)_{\iota \in I}$ *そして* $(g'_\iota)_{\iota \in I}$ *から積とします。すると、家族* $(g'_\iota \circ g_\iota)_{\iota \in I}$ の拡大 *から積は * $g' \circ g$ に等しくなります。
 
 これは定義 2 の直後に続きます。
 
 #### 系 {#ens-ii-s5-n7-cor-1 .statement tag=03IU}
 
-$(X_i)_{i\in I}$、$(Y_i)_{i\in I}$ を 2 つの集合の家族とし、$(g_i)_{i\in I}$ を写像の家族とします。 If $g_i$ is an injection (resp. surjection) of $X_i$ into $Y_i$, for each $i\in I$, then the extension $g$ of $(g_i)_{i\in I}$ to products is an injection (resp. surjection) of $\displaystyle\prod_{i\in I}X_i$ into $\displaystyle\prod_{i\in I}Y_i$.
+$(X_i)_{i\in I}$、$(Y_i)_{i\in I}$を集合の2つの家族とし、$(g_i)_{i\in I}$を写像の家族とします。 $g_i$ が $X_i$ から $Y_i$ への単射 (それぞれ全射) である場合、$i\in I$ ごとに、$(g_i)_{i\in I}$ から積までの拡大 $g$ は単射 (それぞれ全射) になります。射影) $\displaystyle\prod_{i\in I}X_i$ を $\displaystyle\prod_{i\in I}Y_i$ に。
 
-(1) それぞれの $i\in I$ に対して $X_i\ne\varnothing$ を仮定します。それ以外の場合、結果は些細なものになります。 $g_i$ がそれぞれの $i\in I$ に対して単射であると仮定し、$r_i$ を $g_i$ (§ 3, no. 8、定義 11) の撤回とすることで、$r_i\circ g_i$ は $X_i$ の恒等写像となります。 $r$を家族$(r_i)_{i\in I}$の拡大から積とします。 $r\circ g$ は恒等写像 $I_{X_i}$ の族の拡大から積であるため、$r\circ g$ は $\displaystyle\prod_{i\in I}X_i$ の恒等写像であるため、$g$ は単射法 (§ 3, 命題 8）。
+(1) $i\in I$ ごとに $X_i\ne\varnothing$ と仮定します。それ以外の場合、結果は些細なものになります。 $g_i$ が各 $i\in I$ に対して単射であると仮定し、$r_i$ を $g_i$ (§ 3, no. 8, 定義 11) の撤回とすることで、$r_i\circ g_i$ は $X_i$ の恒等写像となります。 $r$ を家族 $(r_i)_{i\in I}$ の拡大から積とします。 $r\circ g$ は恒等写像 $I_{X_i}$ の家族の拡大から積であるため、$r\circ g$ は $\displaystyle\prod_{i\in I}X_i$ の恒等写像であるため、$g$ は単射法 (§ 3, 命題 8）。
 
-(2) $g_i$ が各 $i\in I$ の $Y_i$ への $X_i$ の射影であると仮定し、$s_i$ を $g_i$ (§ 3, no. 8, 定義 11) の切断とすると、$g_i\circ s_i$ は次のようになります。 $Y_i$中恒等写像。 $s$ が $(s_i)_{i\in I}$ ファミリーの拡大から積である場合、$g\circ s$ は恒等写像 $I_{Y_i}$ ファミリーの拡大から積であり、したがって $\displaystyle\prod_{i\in I}Y_i$ の恒等写像になります。したがって、$g$ は全射法 (§ 3, 命題 8) です。
+(2) $g_i$ が各 $i\in I$ に対する $Y_i$ への $X_i$ の射影であると仮定し、$s_i$ を $g_i$ の切断 (§ 3, no. 8, 定義 11) とします。 $g_i\circ s_i$は$Y_i$の恒等写像です。 $s$ が $(s_i)_{i\in I}$ ファミリーの拡大から積である場合、$g\circ s$ は恒等写像 $I_{Y_i}$ ファミリーの拡大から積であり、したがって、 の恒等写像になります。 $\displaystyle\prod_{i\in I}Y_i$;したがって、$g$ は全射法です (§ 3, 命題 8)。
 
-$(X_i)_{i\in I}$ を集合の家族とし、$E$ を集合とします。 $E$ の写像 $f$ を $\displaystyle\prod_{i\in I}X_i$ にすると、$\operatorname{pr}_i\circ f$ は $E$ の写像から $X_i$ になります。 $\bar f$ がこの写像族の拡大から積であり、$d$ が $E$ の$E^I$ への対角写像である場合、$f=\bar f\circ d$ は明らかになります。 Conversely, let $(f_i)_{i\in I}$ be a family of functions such that $f_i$ is a mapping of $E$ into $X_i$ for each $i\in I$, and let $\bar f$ be the extension to products of this family; then we have $\operatorname{pr}_i\circ(\bar f\circ d)=f_i$ for each $i\in I$. 言葉の乱用により、写像 $\bar f\circ d$ は $(f_i)_{i\in I}$ とも表記されます。 このようにして、集合 $\displaystyle\prod_{i\in I}X_i^E$ の定義するを 1 対 1 で写像から集合 $\displaystyle\left(\prod_{i\in I}X_i\right)^E$ に変換します。この写像とその逆は正規であると言われています。
+$(X_i)_{i\in I}$ を集合の家族とし、$E$ を集合とします。 $E$ の写像 $f$ を $\displaystyle\prod_{i\in I}X_i$ にすると、$\operatorname{pr}_i\circ f$ は $E$ の写像から $X_i$ になります。 $\bar f$ がこの写像族の拡大から積であり、$d$ が $E$ の$E^I$ への対角写像である場合、$f=\bar f\circ d$ は明らかになります。 逆に、$(f_i)_{i\in I}$ を、$f_i$ が各 $i\in I$ の $E$ から $X_i$ へのマッピングであるような関数のファミリーとし、$\bar f$ をこのファミリーの積への拡張とします。すると、$i\in I$ ごとに $\operatorname{pr}_i\circ(\bar f\circ d)=f_i$ が得られます。 言葉の乱用により、写像 $\bar f\circ d$ は $(f_i)_{i\in I}$ とも表記されます。 このようにして、集合 $\displaystyle\prod_{i\in I}X_i^E$ の定義するを 1 対 1 で写像から集合 $\displaystyle\left(\prod_{i\in I}X_i\right)^E$ に変換します。この写像とその逆は正規であると言われています。
 
 ### 練習問題 {#ens-ii-s5-exercises}
 

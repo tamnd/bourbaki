@@ -25,23 +25,23 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 967809fe9d8c14480f63e554969b798eba35fc1185d828fa3102fe8fcbb647ae
+content_sha256: 05318758891e275ffec321ec0828539491c84a461951bd6c9fa49626ea1ec823
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 translation_method: google
 source_content_sha256: 77d86192dc78c3caea75d568c8ef5d05992c7bdcaed4b1daac8f963f1400d1ea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d5a43600de6a4819b24311a3462354d9ea44d05d792b239ed25f49d2b3bc5039
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。アプリケーションと例
 
 ### 1. コンパクトな群/線形写像
 
-$E$ を $\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ よりも有限次元ベクトル空間とします。 この場合、$\mathrm{End}(E)$ は $\mathbf{R}$ 上の有限次元代数であり、$\mathrm{End}(E)$ (§ 1, No. 10) 上の正規の位相はコンパクト収束の位相です。 群 $\mathrm{Aut}(E) = \mathbf{GL}(E)$ は $\mathrm{End}(E)$ のオープン部分集合であるため、局所的にコンパクトな群です。 Let $(e_1, e_2, \ldots, e_n)$ be a basis of $E$ and, for every endomorphism $u$ of $E$, let $M(u) = (\alpha_{ij}(u))$ be the matrix of $u$ with respect to this basis; to say that a subset $S$ of $\mathrm{End}(E)$ is relatively compact in $\mathrm{End}(E)$ is equivalent to saying that the functions $\alpha_{ij}(u)$ are bounded in $S$.
+$E$ を $\mathbf{R}, \mathbf{C}$ または $\mathbf{H}$ よりも有限次元ベクトル空間とします。 この場合、$\mathrm{End}(E)$ は $\mathbf{R}$ 上の有限次元代数であり、$\mathrm{End}(E)$ (§ 1, No. 10) 上の正規の位相はコンパクト収束の位相です。 群 $\mathrm{Aut}(E) = \mathbf{GL}(E)$ は $\mathrm{End}(E)$ のオープン部分集合であるため、局所的にコンパクトな群です。 $(e_1, e_2, \ldots, e_n)$ を $E$ の基底とし、$E$ のすべての準同型性 $u$ に対して、$M(u) = (\alpha_{ij}(u))$ をこの基底に関する $u$ の行列とします。 $\mathrm{End}(E)$ のサブセット $S$ が $\mathrm{End}(E)$ で比較的コンパクトであると言うのは、関数 $\alpha_{ij}(u)$ が $S$ で有界であると言うのと同じです。
 
 #### 命題 1 {#int-vii-s3-prop-1 .statement tag=09GS}
 
@@ -399,7 +399,7 @@ $$
 
 $T_J$ の定義で、行と列の役割が交換された場合にも、同様の結果が得られます。
 
-When $J$ is the set of pairs $(i, j)$ such that $i < j$, the group $T_J$ is called the *upper strict triangular group* of order $n$ over $K$, and is denoted $T_1(n, K)$. その転置は *下限厳密三角形群* と呼ばれます。
+$J$ が $i < j$ のようなペア $(i, j)$ の集合であるとき、群 $T_J$ は、$K$ 以上の次数 $n$ の *上厳密三角群* と呼ばれ、$T_1(n, K)$ と表されます。 その転置は *下限厳密三角形群* と呼ばれます。
 
 #### 例 4 {#int-vii-s3-n3-exa-4 .statement tag=09H9}
 

@@ -37,16 +37,16 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: ffe04ebd52df20ee3d7fecdd7b7a3badfe66a69ff5ae0aec72e7165122e1f70b
+content_sha256: 9477821b0ae5b6088613480dbcfebcbf50f62506d48a5f0fb838182b598792e3
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
 translation_method: google
 source_content_sha256: 17ded9a5fe0c8a2a7818b8d120cc2777d7e553298aff0352151f7762860f3aac
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4d3487a649e105ee366c00bd195c75522822fc7c2daf48731c95053e836159ed
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 可解リー代数
@@ -91,7 +91,7 @@ $$
 
 例/可解リー代数
 
-I。 $g$ を $K$ と $g$ の $(e_1, e_2)$ 基底上の 2 次元ベクトル空間とします。 $g$ 上には、$[e_1, e_2] = e_2$ となるような交代的双線形乗法 $(x, y) \mapsto [x, y]$ が 1 つだけ存在します。 したがって、$g$ が可解リー代数構造となることは簡単に検証できます。 ここで、$h$ を $K$ 上の次元 2 の非可換リー代数とします。 $h$ が $g$ と同型であることを示します。 $(f_1, f_2)$ を $h$ の基底とします。 元 $[f_1, f_2]$ はゼロではない (そうでない場合、$h$ は可換である) ので、生成するは 1 次元の部分空間 $t$ の $h$ です。 次に$[h, h] = t$。 $(e'_1, e'_2)$ を $h$ の基底として、$e'_2 \in t$ とします。 次に、$[e'_1, e'_2] = \lambda e'_2$ と $\lambda \neq 0$ を組み合わせます。 置き換えること $e'_1$ $\lambda^{-1} e_1$ により、$\lambda = 1$、よってが私たちの主張であると想定できます。
+I。 $g$ を $K$ と $g$ の $(e_1, e_2)$ 基底上の 2 次元ベクトル空間とします。 $[e_1, e_2] = e_2$ となるような $g$ 上に、交代的双線形乗法 $(x, y) \mapsto [x, y]$ が 1 つだけ存在します。したがって、$g$ が可解リー代数構造となることは簡単に検証できます。ここで、$h$ を $K$ 上の次元 2 の非可換リー代数とします。 $h$ が $g$ と同型であることを示します。 $(f_1, f_2)$を$h$の基底とします。 元 $[f_1, f_2]$ はゼロではない (そうでなければ $h$ は可換である) ため、生成するは $h$ の 1 次元の部分空間 $t$ です。それから$[h, h] = t$。 $(e'_1, e'_2)$ を $h$ の基底として、$e'_2 \in t$ とします。次に$[e'_1, e'_2] = \lambda e'_2$と$\lambda \neq 0$。 置き換えること $e'_1$ $\lambda^{-1} e_1$ により、$\lambda = 1$、よってが私たちの主張であると推測できます。
 
 II。 § 1の式(5)は$\mathscr{D}t(n, K) = n(n, K)$を証明します。 $n(n, K)$ は零能であり、したがって可解であるため、$t(n, K)$ は可解です。したがって、$st(n, K)$は解けます。特に、$st(2, K)$ は、例 I の代数と同型です。
 
@@ -113,7 +113,7 @@ $a$ を $g$ から $g/a$ への $g$ と $\phi$ 標準写像の理想とします
 
 #### 命題 4 {#lie-i-s5-prop-4 .statement tag=09Y6}
 
-※$g_1, \ldots, g_n$をリー代数とします。 The radical $r$ of the product of the $g_i$ is the product of the radicals $r_i$ of the $g_i$.*
+※$g_1, \ldots, g_n$をリー代数とします。 $g_i$ の積の部首 $r$ は、$g_i$ の部首 $r_i$ の積です。
 
 $r_i$ の積 $r'$ は解けるイデアル (命題 1) なので、$r' \subset r$ です。 $g_i$ の $r$ の標準像は、$g_i$ の解決可能な理想であるため、$r_i$ に含まれます。したがって$r \subset r'$です。
 
@@ -135,7 +135,7 @@ $r_i$ の積 $r'$ は解けるイデアル (命題 1) なので、$r' \subset r$
 
 #### 補題 1 {#lie-i-s5-lem-1 .statement tag=09Y9}
 
-Let V be a finite-dimensional vector space over K, g a subalgebra of gl(V) such that V is a simple g-module and a a commutative ideal of g. 次に$a \cap \mathscr{D}g = \{0\}$。 S を 1 と a によって生成される $\mathscr{L}(V)$ の部分代数とします。
+V を K 上の有限次元ベクトル空間とし、g を gl(V) の部分代数とし、V が単純な g 加群であり、g の可換イデアルであるとします。 次に$a \cap \mathscr{D}g = \{0\}$。 S を 1 と a によって生成される $\mathscr{L}(V)$ の部分代数とします。
 
 b が、すべての $b \in b$ とすべての $s \in S$ に対して $\operatorname{Tr} bs = 0$ であるような、a に含まれる g のイデアルである場合、特に、S の定義により、すべての整数 $n > 0$ に対して $\operatorname{Tr}(b^n) = 0$ となり、したがって b はゼロポテント (代数, 章) VII, § 5, no. 5、系 4 ～ 命題 13); b の元はすべて nilpotent であるため、$b = \{0\}$ (§ 4, no. 3、補題 2) です。まずこれを g の理想 $[g, a]$ に適用します。 $x \in g, a \in a, s \in S$ の場合、$as = sa$ 以降は $\operatorname{Tr}[x, a]s = \operatorname{Tr}(xas - axs) = \operatorname{Tr} x(as - sa) = 0$ になります。したがって$[g, a] = \{0\}$です。したがって、g の元は a のものと可換であり、したがって S のものとも可換です。 $x, y$ 属するが g および $s \in S$ である場合、
 
@@ -171,7 +171,7 @@ $\rho_i$ を $M_{i-1}/M_i$ の $g$ の表現とします。 1 と $\rho_i(g)$ �
 
 (1) $(M_i)_{0 \leq i \leq r}$ が $M$ の他の Jordan-Hölder 系列に置き換えられる場合、数列 $(\lambda_1, \ldots, \lambda_r)$ は形 $(\lambda_{\pi(1)}, \ldots, \lambda_{\pi(r)})$ の数列に置き換えられます。ここで、$\pi$ は、置換です$\{1, \ldots, r\}$、ヨルダン・ヘルダー定理より以下の通り。
 
-(2) $(e_1, \ldots, e_r)$ を $M$ の基底とし、$e_i \in M_{i-1}, e_i \notin M_i$ ($1 \leq i \leq r$) とします。 If $x \in g$ the endomorphism of $M$ corresponding to $x$ is represented with respect to this basis by a triangular matrix whose diagonal coefficients are
+(2) $(e_1, \ldots, e_r)$ を $M$ の基底とし、$e_i \in M_{i-1}, e_i \notin M_i$ ($1 \leq i \leq r$) とします。 $x \in g$ の場合、$x$ に対応する$M$ の準同型性は、この基底に関して、対角係数が次のような三角行列によって表されます。
 
 $$
 \lambda_1(x), \ldots, \lambda_r(x).
@@ -179,9 +179,9 @@ $$
 
 #### 系 3 {#lie-i-s5-thm-1-cor-3 .statement tag=09YE}
 
-*$K$ が代数的に閉じていると仮定します。 If $g$ is an $r$-dimensional solvable Lie algebra, every ideal of $g$ is a term of a decreasing sequence of ideals of dimensions $r, r-1, \ldots, 0$.*
+*$K$ が代数的に閉じていると仮定します。 $g$ が $r$ 次元可解リー代数である場合、$g$ のすべての理想は、次元 $r, r-1, \ldots, 0$ の理想の減少列の項になります。
 
-Every ideal is part of a Jordan-Hölder series of $g$, considered as the space of the adjoint representation (*Algebra*, Chapter I, § 6, no. 14, Corollary to Theorem 8); then it suffices to apply Corollary 2.
+すべての理想は、ヨルダン・ヘルダーの部分 $g$ の系列であり、随伴表現 (*代数*、章 I, § 6, no. 14、系から定理 8) の空間と見なされます。その場合は系を適用する 2 で十分です。
 
 #### 系 4 {#lie-i-s5-thm-1-cor-4 .statement tag=09YF}
 
@@ -197,37 +197,37 @@ Every ideal is part of a Jordan-Hölder series of $g$, considered as the space o
 
 #### 系 6 {#lie-i-s5-thm-1-cor-6 .statement tag=09YH}
 
-*$\varphi$をリー代数$g$の有限次元表現とします。 * r を g の根基とします。 $\rho(x)$ がゼロポテンシー 属するから最大のの理想ゼロポテンシー $\rho$ の $n$ となるようなすべての元 $x \in r$。
+*$\varphi$をリー代数$g$の有限次元表現とします。 * r を g の根基とします。 $\rho(x)$ がゼロポテンシー 属するから最大ののゼロポテンシー理想的な $\rho$ の $n$ となるようなすべての元 $x \in r$。
 
 V を $\rho$ の空間とします。 $(V_i)_{0 \leq i \leq r}$ を V の r 加群構造のジョルダン・ヘルダー 系列とし、$\rho_i$ を空間 $V_i / V_{i-1}$ ($1 \leq i \leq r$) を持つ r の表現とします。 $\rho(x)$ が無能であれば、$\rho_i(x)$ も無能です。 $\rho_i(x)$ によって生成されるすべての $i$ 代数は、体、$\rho_i(x) = 0$ です。逆に、$i$がすべて$\rho_i(x) = 0$なら、$\rho(x) = 0$。これは、$\rho(x)$ が零能であるような $x \in r$ の集合 $a$ が r の理想であることを示しています。一方、$[g, a] \subset \mathscr{D}g \cap r \subset n \cap r \subset a$、したがって$a$ は g のイデアルです。これは$a \subset n$であることを証明します。
 
 #### 系 7 {#lie-i-s5-thm-1-cor-7 .statement tag=09YI}
 
-gをリー代数、rを根基とします。次の 4 つの集合は同一です。 (a) 最大の g の零理想体。 (b) 最大の r の零イデアル。 (c) $\mathrm{ad}_g x$ がゼロになるような $x \in r$ の集合。 (d) $\mathrm{ad}_r x$ がゼロになるような $x \in r$ の集合。
+g をリー代数、r を根基とします。次の 4 つの集合は同一です。 (a) 最大の g の零イデアル。 (b) 最大の r の零イデアル。 (c) $\mathrm{ad}_g x$ がゼロになるような $x \in r$ の集合。 (d) $\mathrm{ad}_r x$ が零になるような $x \in r$ の集合。
 
-これらの集合を$a, b, c, d$と表すことにします。 内包物$a \subset b \subset d \subset c$はクリアです。 $c \subset a$ by 系 6 を g の随伴項表現に適用します。
+これら集合を$a, b, c, d$で表すことにします。内包物$a \subset b \subset d \subset c$はクリアです。 $c \subset a$ by 系 6 を g の随伴項表現に適用します。
 
 ### 4. 解決可能性の基準
 
 #### 補題 2 {#lie-i-s5-lem-2 .statement tag=09YJ}
 
-$x$ を有限次元ベクトル空間 V の自己準同型とし、s (それぞれ n) をその半単純 (それぞれ無能) 成分 (cf. 代数, 章 VIII, § 9, no. 4, 定義 4）。 $\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$ を、$\mathfrak{gl}(V)$ の随伴表現における $x, s, n$ のそれぞれの像とします。このとき、$\mathrm{ad}\, s$ (それぞれ$\mathrm{ad}\, n$) は、$\mathrm{ad}\, x$ の半単純 (それぞれゼロポテント) 成分であり、K に係数があり、定数項がない$\mathrm{ad}\, x$ の多項式に等しくなります。
+$x$ を有限次元ベクトル空間 V の自己準同型とし、s (それぞれ n) をその半単純 (それぞれ無能) 成分 (cf. 代数, 章 VIII, § 9, no. 4, 定義 4）。 $\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$ を、$\mathfrak{gl}(V)$ の随伴表現における $x, s, n$ のそれぞれの像とします。この場合、$\mathrm{ad}\, s$ (それぞれ $\mathrm{ad}\, n$) は、$\mathrm{ad}\, x$ の半単純 (それぞれゼロポテント) 成分であり、K に係数があり、定数項がない $\mathrm{ad}\, x$ の多項式に等しくなります。
 
-$\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ と $\mathrm{ad}\, n$ は無能であることがわかっています ($§ 4$、補題 1)。 $\mathrm{ad}\, s$ は半単純であることがわかります。 K が代数的に閉じている場合 (cf. 代数, 章 VIII, § 9, no. 2, 命題 3) にこれを行うだけで十分です。次に、$(e_i)_{1 \leq i \leq n}$ を V の基底とし、$s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$) とします。 $(E_{ij})$を$M_n(K) = \mathfrak{gl}(V)$の標準基底とします。 $§ 1$の式(5)より、
+$\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ と $\mathrm{ad}\, n$ は無能であることがわかっています ($§ 4$、補題 1)。 $\mathrm{ad}\, s$ が半単純であることがわかります。 K が代数的に閉じている場合 (cf. 代数, 章 VIII, § 9, no. 2, 命題 3) にこれを行うだけで十分です。次に、$(e_i)_{1 \leq i \leq n}$ を V の基底とし、$s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$) とします。 $(E_{ij})$を$M_n(K) = \mathfrak{gl}(V)$の標準基底とします。 $§ 1$の式(5)より、
 
 $$
 (\mathrm{ad}\, s)\cdot E_{ij} = (\lambda_i - \lambda_j)E_{ij}
 $$
 
-したがって、$\mathrm{ad}\, s$ は半単純です。 The last assertion of the lemma follows from Algebra, Chapter VIII, § 9, no. 4, Proposition 8.
+したがって、$\mathrm{ad}\, s$ は半単純です。 補題の最後の主張は、代数、章 VIII, § 9, no. 4、命題 8 から続きます。
 
 #### 補題 3 {#lie-i-s5-lem-3 .statement tag=09YK}
 
-Mを有限次元ベクトル空間、AとBを$\mathfrak{gl}(M)$の2つベクトル部分空間として$B \subset A$、Tを$t \in \mathfrak{gl}(M)$の集合として$[t, A] \subset B$とします。 $z \in T$ がすべての $u \in T$ に対して $\mathrm{Tr}(zu) = 0$ となるような場合、$z$ は零能です。
+M を有限次元ベクトル空間、A と B を $\mathfrak{gl}(M)$ の 2 つベクトル部分空間で $B \subset A$ とし、T を $t \in \mathfrak{gl}(M)$ の集合で $[t, A] \subset B$ とします。 $z \in T$ がすべての $u \in T$ に対して $\mathrm{Tr}(zu) = 0$ となるような場合、$z$ は零能です。
 
-K が代数的に閉じている場合にこれを証明すれば十分であり、今後はこれを仮定します。 s と n を z の半単純と冪能成分とし、$(e_i)$ を $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$) となる M の基底とします。 $V \subset K$ を $\lambda_i$ によって生成された $\mathbf{Q}$ 上のベクトル空間とします。 $V = \{0\}$ を証明する必要があります。 f を V 上の $\mathbf{Q}$ 線形形式とし、t を次のような M の自己準同型とします。
+K が代数的に閉じている場合にこれを証明すれば十分であり、今後はこれを仮定します。 s と n を z の半単純とゼロポテント成分とし、$(e_i)$ を M の基底とし、$s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$) とします。 $V \subset K$ を $\lambda_i$ によって生成された $\mathbf{Q}$ 上のベクトル空間とします。 $V = \{0\}$ ということを証明する必要があります。 f を V 上の $\mathbf{Q}$ 線形形式とし、t を次のような M の自己準同型とします。
 
-$te_i = f(\lambda_i)e_i$。 $(E_{ij})$ が $E_{ij}e_k = \delta_{jk}e_i$ によって定義される $\mathfrak{gl}(M)$ の標準基底である場合、
+$te_i = f(\lambda_i)e_i$。 $(E_{ij})$ が $E_{ij}e_k = \delta_{jk}e_i$ で定義された $\mathfrak{gl}(M)$ の標準基底である場合、
 $$
 \begin{align*}
 (\mathrm{ad}\ s)E_{ij} &= (\lambda_i - \lambda_j)E_{ij} \\

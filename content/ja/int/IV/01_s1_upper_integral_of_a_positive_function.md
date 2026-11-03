@@ -28,16 +28,16 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 221782d48279076255e42f3cd72664d6a9b3b37474a73ace4d6c0a737f3fcf6d
+content_sha256: ab99358d7203074ee65ffe3a901cbed9115147b599f62b08cad6cfa296108f8f
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 translation_method: google
 source_content_sha256: faecbc2539033964cc900d67680366e3bd2e09f8e66d8294cd0ca0a84e783552
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f629b4f275cb39de5e7dd2243251f490777e82467eb0b3e1dea059a82e08d76c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。正の上部積分写像
@@ -325,7 +325,7 @@ $$
 \mu^*\left( \sup_{f \in \mathfrak{F}} f \right) = \sup_{f \in \mathfrak{F}} \mu^*(f).
 $$
 
-For, there exists an increasing sequence of functions in $\mathfrak{G}$ having the same upper envelope as $\mathfrak{F}$: if $(f_n)$ is the sequence of functions of $\mathfrak{G}$, arranged in any order, let $(f_{n_k})$ be a subsequence defined recursively by the conditions $n_1 = 1$, $f_{n_{k+1}} \geq \sup(f_{n_k}, f_k)$; it is clear that this subsequence has the indicated properties.
+なぜなら、$\mathfrak{G}$ には、$\mathfrak{F}$ と同じ上部エンベロープを持つ関数の増加シーケンスが存在します。$(f_n)$ が任意の順序で配置された$\mathfrak{G}$ の関数シーケンスである場合、$(f_{n_k})$ を条件 $n_1 = 1$、$f_{n_{k+1}} \geq \sup(f_{n_k}, f_k)$ によって再帰的に定義される部分シーケンスとします。この部分列が示された特性を持っていることは明らかです。
 
 #### 注意 {#int-iv-s1-n3-rem-1 .statement tag=08PP}
 

@@ -41,16 +41,16 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 3d2db9a691f68f28030dcc3db9f7efbfd0b4e5f2251d22f1b55643c97dece1eb
+content_sha256: 989eeb560e7116346034a25b455b7be71c24f7859faa7a067d0b4bc5686b957f
 translated_from: content/en/int/V/08_s8_products_of_measures.md
 translation_method: google
 source_content_sha256: 80b705b3f9f0e254836af8cc36405c37a16c85755c16c07cdd40f1fdbc7ea3e4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4a4f4238b6ab6b8e70c4eaf436b863862fcc5fb71569061f8f0a2ab711ec5903
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。対策の積
@@ -122,7 +122,7 @@ $$
 
 第 2 章で採用された記法と一致します。 III, §4, No. 1。
 
-測度 $\nu$ を積分 $\int \lambda'_t \, d\mu(t)$ として解釈すると、§3 の結果を積測度の言語に翻訳できるようになります。 一方、メジャー $\lambda'_t$ は $\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$ によって運ばれるため、$\nu$ のこの積分定義する分解は、$T \times T'$ の射影 $\mathrm{pr}_1$ から$T$ (§6, No. 6) に相対的にスライスされます。 前に得られた結果のリストを示します。ここに役立つ性質があります。
+測度 $\nu$ を積分 $\int \lambda'_t \, d\mu(t)$ として解釈すると、§3 の結果を積測度の言語に翻訳できます。一方、測度$\lambda'_t$は$\{t\} \times T' = \overline{\mathrm{pr}}_1^{-1}(t)$によって運ばれるため、$T \times T'$の$\mathrm{pr}_1$射影を基準にして$\nu$の積分定義する分解が$T$(§6, No. 6)にスライスされます。 前にこのようにして得られた結果のリストを示しますが、ここでは役に立つ性質を示します。
 
 #### 命題 1 {#int-v-s8-prop-1 .statement tag=0972}
 
@@ -177,7 +177,7 @@ b) *$T'$ 上の A の射影が $\mu'$ で緩和されている場合、M は局�
 
 — *f を T の写像をトポロジカル空間 F にするとします。 f が $\mu$ 可測であれば、 写像 $(t, t') \mapsto f(t)$ は $\nu$ 可測です。逆に、$\mu' \neq 0$ で、この写像が $\nu$ 可測であれば、写像 f は $\mu$ 可測です。*
 
-最初の主張は Cor から続きます。 § 6, No. 6 の提案 10 の 1。 $\mu' \neq 0$ が、$\mu'_1$ 非零メジャーで表され、その上が $\mu'$、$\nu_1$ メジャー $\mu \otimes \mu'_1$、および集合 $a = \| \mu'_1 \|$ によって境界付けられるコンパクトなサポートを持つメジャーであるとします。 The projection $\mathrm{pr}_1$ of $T \times T'$ onto T is then $\nu_1$-proper, and the image measure $\mathrm{pr}_1(\nu_1)$ is equal to $a \mu$ (§ 6, No. 6, Prop. 10). $(t, t') \mapsto f(t)$ が $\nu$ 測定可能である場合、$\nu_1$ も測定可能であるため、$f$ は$a \mu$ (§ 6, No. 2、提案 3)、$a \neq 0$ 以降の結果よってに関して測定可能です。
+最初の主張は Cor から続きます。 § 6, No. 6 の提案 10 の 1。 $\mu' \neq 0$ が、$\mu'_1$ 非零メジャーで表され、その上が $\mu'$、$\nu_1$ メジャー $\mu \otimes \mu'_1$、および集合 $a = \| \mu'_1 \|$ によって境界付けられるコンパクトなサポートを持つメジャーであるとします。 $T \times T'$ の T への射影 $\mathrm{pr}_1$ は、$\nu_1$-proper であり、イメージ尺度 $\mathrm{pr}_1(\nu_1)$ は $a \mu$ に等しくなります (§ 6, No. 6、提案 10)。 $(t, t') \mapsto f(t)$ が $\nu$ 測定可能である場合、$\nu_1$ も測定可能であるため、$f$ は$a \mu$ (§ 6, No. 2、提案 3)、$a \neq 0$ 以降の結果よってに関して測定可能です。
 
 前述の主張拡大するは、次の帰結と同様に、すぐに複雑な措置に適用されます (Ch. III, § 4, No. 2、提案 3)。
 
@@ -307,7 +307,7 @@ $$
 
 #### 系 1 {#int-v-s8-prop-7-cor-1 .statement tag=097H}
 
-— Let $H$ be a subset of $T \times T'$, and let $A$ be the set of $t \in T$ such that the section $H(t)$ of $H$ at $t$ is not $\mu'$-negligible.
+— $H$ を $T \times T'$ の部分集合とし、$A$ を $t \in T$ の集合とし、$t$ における $H$ のセクション $H(t)$ が $\mu'$ 無視できないものとする。
 
 a) *$H$ が $\nu$ で無視できる場合、$A$ は $\mu$ で無視可能です。*
 
@@ -327,7 +327,7 @@ $$
 
 #### 命題 8 {#int-v-s8-prop-8 .statement tag=097J}
 
-— *For every pair of numerical functions* $f \geq 0$, $f' \geq 0$ *defined on* $T$ *and* $T'$, *respectively,
+— *数値関数の各ペア* $f \geq 0$、$f' \geq 0$ *上に定義* $T$ *および* $T'$、 *それぞれ、
 
 $$
 \iint^\bullet f(t)f'(t')\, d\mu(t)\, d\mu'(t') = \left( \int^\bullet f(t)\, d\mu(t) \right) \left( \int^\bullet f'(t')\, d\mu'(t') \right).
@@ -474,7 +474,7 @@ $$
 
 したがって、最初のメンバーの最初の因子は有限であり、これで証明が完成します。
 
-This proposition extends to complex measures, thanks to Prop. 3 of Ch. III, § 4, No. 2。
+この命題は、第 3 章の提案 3 のおかげで、複雑な尺度にも拡張されます。 III, § 4, No. 2。
 
 #### 命題 11 {#int-v-s8-prop-11 .statement tag=097R}
 

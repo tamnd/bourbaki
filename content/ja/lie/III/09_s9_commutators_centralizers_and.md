@@ -45,16 +45,16 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 42
-content_sha256: 784f55c630832f0a06a761564431391f5fe656390664bc575f9afd5098b2ed35
+content_sha256: 47e5a05c6249119bb7f99e9368798d2bb019f36549f1fc4698eea070eba669b2
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
 translation_method: google
 source_content_sha256: 5160b395f31c39ef9f1ad5f95ebd21b2c6f9dc63a62483b154ec6113d26d8afa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 53f622a8cfce1cec30fa2420fe65af4feed2e31be4a4cadf30d900eecd79937c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 9。 交換子、リー群のセントラライザーとノーマライザー
@@ -285,7 +285,7 @@ Gをリー群、$g$をそのリー代数、AをGの部分集合、$g$の$a$部�
 
 $L(G)$ が零であると仮定します。 $K = \mathbf{R}$ または $\mathbf{C}$ の場合、G の同一性成分 $G_0$ は、系 ～ 命題 4、no. 2、および $G_0$ によってゼロポテントになります。K が超計量の場合、系 ～ 命題 6, no. 2 は、$C^iG_1 \cap V = \{e\}$ となる G の e の開いた部分群 $G_1$、整数 $i > 0$ および近傍 V が存在することを証明します。次に、$G_0$ が $G_1$、$C^iG_0 \subset V$ の十分に小さい部分群である場合、$C^iG_0 = \{e\}$ と $G_0$ はゼロポテントです。
 
-$g$をべき零リー代数とします。 ハウスドルフ系列 $H(X, Y)$ 対応するから $g$ には、非ゼロ項の有限数しかなく、(章 II, § 6, no. 5, *注意 3*) の法則がわかっています。 合成 $(x, y) \mapsto H(x, y)$ 定義する群構造 $g$。 さらに、$g$ が完全で正規であると仮定します。 明らかに、法則 H は連続多項式 (*微分可能かつ解析的多様体*、R、付録) です。 したがって、$g$ は、法則 H とともに、リー群 G となり、$g$ に *関連付けられている* と言われます。 § 4, no. 2、補題 2 と 3、$L(G) = g$ によって。 The identity mapping $\phi$ of $g$ into $G$ is an exponential mapping of $G$ such that $\phi(\lambda x)\phi(\lambda'x) = \phi((\lambda + \lambda')x)$ for all $x \in g, \lambda \in K, \lambda' \in K$. トポロジー 補充を認める $g$ のすべての嘘部分代数 $\mathfrak{h}$ は、$G$ と $L(H) = \mathfrak{h}$ の嘘部分群 $H$ です。
+$g$をべき零リー代数とします。 ハウスドルフ系列 $H(X, Y)$ 対応するから $g$ には、非ゼロ項の有限数しかなく、(章 II, § 6, no. 5, *注意 3*) の法則がわかっています。 合成 $(x, y) \mapsto H(x, y)$ 定義する群構造 $g$。 さらに、$g$ が完全で正規であると仮定します。 明らかに、法則 H は連続多項式 (*微分可能かつ解析的多様体*、R、付録) です。 したがって、$g$ は、法則 H とともに、リー群 G となり、$g$ に *関連付けられている* と言われます。 § 4, no. 2、補題 2 と 3、$L(G) = g$ によって。 $g$ の $\phi$ から $G$ への恒等マッピングは、すべての $x \in g, \lambda \in K, \lambda' \in K$ に対して $\phi(\lambda x)\phi(\lambda'x) = \phi((\lambda + \lambda')x)$ となるような $G$ の指数マッピングです。 トポロジー 補充を認める $g$ のすべての嘘部分代数 $\mathfrak{h}$ は、$G$ と $L(H) = \mathfrak{h}$ の嘘部分群 $H$ です。
 
 #### 命題 13 {#lie-iii-s9-prop-13 .statement tag=0AJ0}
 
@@ -305,15 +305,15 @@ $g = L(G)$ を無能 (命題 12) とします。 同じリー代数を持つ$\ma
 
 (ii) *$K = \mathbf{C}$ と $\exp_G$ がエタールの場合、$G$ は零能です。*
 
-$G'$ を $G$ の普遍的なカバー 空間とします。 $\phi$ を $G'$ の $G$ に対する正規の射とします。次に、$\exp_G = \phi \circ \exp_{G'}$ ($§ 6$、no. 4、命題 10) となり、したがって (i) は命題 13 (i) から続きます。
+$G'$ を $G$ の普遍的なカバー 空間とします。 $\phi$ を $G'$ から $G$ への正規の射とします。次に、$\exp_G = \phi \circ \exp_{G'}$ ($§ 6$、no. 4、命題 10) となり、したがって (i) は命題 13 (i) から続きます。
 
-$K = \mathbf{C}$ と $\exp$ がエタールの場合、すべての $x \in L(G)$ と $x$ には固有値所属 ～ $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$、no. 4、系 ～ 命題) がありません。 12)。 適用を $\lambda x$ に変換すると、$\lambda$ は $\mathbf{C}$ まで変化します。その結果、$\mathrm{ad}\, x$ のすべての固有値は零となり、したがって $\mathrm{ad}\, x$ はゼロポテントになります。したがって、$L(G)$ はゼロポテント (章 I、$§ 4$、系 1 から定理 1) であるため、$G$ はゼロポテント (命題 12) です。
+$K = \mathbf{C}$ と $\exp$ がエタールの場合、すべての $x \in L(G)$ と $x$ には、固有値所属 ～ $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$、no. 4、系 ～ 命題) はありません。 12)。 適用これを $\lambda x$ にすると、$\lambda$ は $\mathbf{C}$ まで変化します。その結果、$\mathrm{ad}\, x$ のすべての固有値は零となり、したがって $\mathrm{ad}\, x$ はゼロポテントになります。したがって、$L(G)$ は無能 (章 I、$§ 4$、系 1 ～ 定理 1) であり、したがって $G$ は無能 (命題 12) です。
 
 #### 命題 15 {#lie-iii-s9-prop-15 .statement tag=0AJ2}
 
-*$G$ を、$\mathbf{R}$ または $\mathbf{C}$ 上の有限次元連結冪能リー群と、$A$ を $G$ の積分部分群とします。次に、$Z_G(A)$ は、$G$ とリー代数 $\mathfrak{z}_G(L(A))$ が接続された嘘部分群です。
+*$G$ を、$\mathbf{R}$ または $\mathbf{C}$ 上の有限次元連結冪能リー群とし、$A$ を $G$ の整数部分群とします。次に、$Z_G(A)$ は、$G$ とリー代数 $\mathfrak{z}_G(L(A))$ が接続された嘘部分群です。
 
-By 命題 9 of no. 3 it suffices to prove that $Z_G(A)$ is connected. $g \in Z_G(A)$ にしましょう。 There exists $x \in L(G)$ such that $g = \exp x$ (命題 14). Then $\mathrm{Ad}\, g|L(A) = 1$ (no. 3, 命題 9), hence $\mathrm{Ad}\, g^n|L(A) = 1$ for all $n \in \mathbf{Z}$ and hence $\exp(\mathrm{ad}\, nx)|L(A) = 1$ for all $n \in \mathbf{Z}$. 写像として
+no. 3 の命題 9 までに、$Z_G(A)$ が接続されていることを証明するのに十分です。 $g \in Z_G(A)$ にしましょう。 $g = \exp x$ (命題 14) となるような $x \in L(G)$ が存在します。次に、$\mathrm{Ad}\, g|L(A) = 1$ (no. 3、命題 9)、したがってすべての $n \in \mathbf{Z}$ に対して$\mathrm{Ad}\, g^n|L(A) = 1$、したがってすべての $n \in \mathbf{Z}$ に対して$\exp(\mathrm{ad}\, nx)|L(A) = 1$ となります。 写像として
 
 $$
 \lambda \mapsto \exp(\mathrm{ad}\, \lambda x)|L(A)
@@ -323,7 +323,7 @@ $K$ の $\mathscr{L}(L(A), L(G))$ への変換は多項式で、すべての $\l
 
 #### 命題 16 {#lie-iii-s9-prop-16 .statement tag=0AJ3}
 
-*$G$ を $\mathbf{R}$ または $\mathbf{C}$ 上の有限次元の冪能リー群とし、$A$ を $G$ とは異なる $G$ の整数部分群とします。したがって、$N_G(A)$ は、$A$ とは異なる、$G$ の接続された嘘部分群です。
+*$G$ を $\mathbf{R}$ または $\mathbf{C}$ 上の有限次元の冪能リー群とし、$A$ を $G$ とは異なる $G$ の積分部分群とする。したがって、$N_G(A)$ は、$A$ とは異なる、$G$ の接続された嘘部分群です。
 
 $N_G(A) \neq A$ (代数、章 I, § 6、系 1 ～ 命題 8)。 no. 4 の命題 11 までに、$N_G(A)$ が接続されていることを証明するだけで済みます。 $g \in N_G(A)$ にしましょう。 $g = \exp x$ (命題 14) となるような $x \in L(G)$ が存在します。 $E$ を $u \in \mathscr{L}(L(G))$ の $\mathscr{L}(L(G))$ からなるのベクトル部分空間とし、$u(L(A)) \subset L(A)$ とします。次に、$\mathrm{Ad}\, g^n \in E$、したがってすべての $n \in \mathbf{Z}$ に対して $\exp(\mathrm{ad}\, nx) \in E$ となります。したがって、すべての $\lambda \in K$ に対して $\exp(\mathrm{ad}\, \lambda x) \in E$、つまりすべての $\lambda \in K$ に対して $\exp(\lambda x) \in N_G(A)$ となります。
 
@@ -422,17 +422,17 @@ $$
 
 #### 命題 18 {#lie-iii-s9-prop-18 .statement tag=0AJ5}
 
-※kを可換体とします。 V a vector space of finite dimension > 0 over k and G a subgroup of $\mathbf{GL}(V)$ whose elements are unipotent.*
-  (i) *There exists a non-zero element v of V such that gv = v for all g \in G.*
-  (ii) *There exists a basis B of V such that, for all g \in G, the matrix of g with respect to B is lower triangular and has all its diagonal elements equal to 1.*
-  (iii) *The group G is nilpotent.*
-    (a) Suppose first that k is algebraically closed and that the identity representation of G is simple. a、b を G とする。 それから
+※kを可換体とします。 V 有限次元のベクトル空間 > 0 は k および $\mathbf{GL}(V)$ の G 部分群を超え、その元は単能性です*。
+  (i) *G 内のすべての g に対して gv = v となるような、V の非ゼロ元 v が存在します。*
+  (ii) *G のすべての g \ について、B に関する g の行列が下三角であり、そのすべての対角線元が 1 に等しいような V の基底 B が存在します。*
+  (iii) *群 G は無能です。*
+    (a) まず、k が代数的に閉じており、G の恒等式表現が単純であると仮定します。 a、b を G とする。 それから
     $$
     \operatorname{Tr}(a(b-1)) = \operatorname{Tr}(ab-1) - \operatorname{Tr}(a-1) = 0 - 0 = 0
     $$
     $ab - 1$ と $a - 1$ は無能です。 G によって生成された $\mathscr{L}(V)$ のベクトル部分空間は $\mathscr{L}(V)$ (*代数*、章 VIII, § 4、系 1 ～ 命題 2)、すべての $u \in \mathscr{L}(V)$ に対して $\operatorname{Tr}(u(b-1)) = 0$ であるため、 $b = 1$。 従って、$G = \{1\}$。
-    (b) ここで一般的なケースに移ります。 Let $\bar{k}$ be an algebraic closure of k, $\bar{V} = V \otimes_k \bar{k}$ and $\bar{G} \subset \mathbf{GL}(\bar{V})$ the set of $a \otimes 1$ for $a \in G$. Let W (resp. $W'$) be the set of elements of V (resp. $\bar{V}$) invariant under G (resp. $\bar{G}$). 次に、$W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$と$W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$に対して$W' = W \otimes_k \bar{k}$。 If $V_1$ denotes a minimal element in the set of non-zero vector subspaces of $\bar{V}$ which are stable under $\bar{G}$, then $V_1 \subset W'$ by part (a) of the proof; hence $W \neq \{0\}$, which proves (i).
-    (c) By induction on $\dim V$, it follows from (i) that there exists an increasing sequence $(V_1, V_2, \ldots, V_n)$ of vector subspaces of V which are stable under G such that $V_n = V$ and the automorphism group of $V_i/V_{i-1}$ canonically derived from G reduces to $\{1\}$ for all $i$ (we make the convention that $V_r = \{0\}$ for $r \leq 0$). これは、最初に (ii) を意味し、その結果として (iii) (章 II, § 4, no. 6, *注意*) を意味します。
+    (b) ここで一般的なケースに移ります。 $\bar{k}$ を k の代数閉包、$\bar{V} = V \otimes_k \bar{k}$ と $a \in G$ の $a \otimes 1$ の $\bar{G} \subset \mathbf{GL}(\bar{V})$ 集合とします。 W (それぞれ $W'$) を、G (それぞれ $\bar{G}$) のもとで不変な V (それぞれ $\bar{V}$) の要素の集合とする。 次に、$W = \bigcap_{g \in G} \operatorname{Ker}(g-1)$と$W' = \bigcap_{g \in G} \operatorname{Ker}(g-1) \otimes 1$に対して$W' = W \otimes_k \bar{k}$。 $V_1$ が、$\bar{G}$ の下で安定している $\bar{V}$ の非ゼロベクトル部分空間の集合内の最小要素を表す場合、証明の部分 (a) により $V_1 \subset W'$ となります。従って $W \neq \{0\}$ となり、(i) が証明されます。
+    (c) $\dim V$ の帰納により、(i) から、$V_n = V$ と G から標準的に導出された$V_i/V_{i-1}$ の自己同型群は、すべての $i$ について $\{1\}$ に減少するような、G のもとで安定なV のベクトル部分空間の増加系列 $(V_1, V_2, \ldots, V_n)$ が存在することがわかります（ $r \leq 0$の場合は$V_r = \{0\}$）。 これは、最初に (ii) を意味し、その結果として (iii) (章 II, § 4, no. 6, *注意*) を意味します。
 
 #### 系 1 {#lie-iii-s9-prop-18-cor-1 .statement tag=0AJ6}
 
@@ -442,7 +442,7 @@ Ad G のすべての元が単能性である場合、Ad G はゼロ能性 (命�
 
 #### 系 2 {#lie-iii-s9-prop-18-cor-2 .statement tag=0AJ7}
 
-*Every analytic subgroup of $\mathbf{GL}(n, K)$ consisting of unipotent elements is a simply connected Lie subgroup.*
+*単能性要素で構成される $\mathbf{GL}(n, K)$ のすべての解析部分群は、単純に接続されたリー部分群です。*
 
 これは、命題 13 (ii) および 18 (ii) と、下側の厳密な三角形群が単純に接続されているという事実から導き出されます。
 
@@ -484,7 +484,7 @@ $$
 
 \dagger このような数列は、章 I, § 5、命題 2 によって存在します。
 
-$k = 1, 2, \ldots, p$の場合。 $n$ の帰納法により、$(x_{i_p}, x_{i_{p-1}}, \ldots, x_{i_1})$ が $L(M)$ の基底であることが簡単にわかります。 Let $N$ be a simply connected Lie group such that there exists an isomorphism $h$ of $L(N)$ onto $L(M)$. しましょう
+$k = 1, 2, \ldots, p$の場合。 $n$ の帰納法により、$(x_{i_p}, x_{i_{p-1}}, \ldots, x_{i_1})$ が $L(M)$ の基底であることが簡単にわかります。 $N$ を、$L(N)$ の $L(M)$ への同型写像 $h$ が存在するような単純結合リー群とする。 しましょう
 $$
 y_p = h^{-1}(x_{i_p}), \ldots, y_1 = h^{-1}(x_{i_1}).
 $$
@@ -492,7 +492,7 @@ $$
 $$
 (\lambda_1, \lambda_2, \ldots, \lambda_p) \mapsto (\exp \lambda_1 y_1)(\exp \lambda_2 y_2) \cdots (\exp \lambda_p y_p)
 $$
-多様体 $K^p$ の多様体 $N$ の同型です。 There exists a Lie group morphism $\tau$ of $N$ into $G$ such that $h = L(\tau)$ and $\tau(N) = M$ (§ 6, no. 2, Corollary 1 to Proposition 1). したがって、$M$ は形の $G$ の元の集合です
+多様体 $K^p$ の多様体 $N$ の同型です。 $h = L(\tau)$ と $\tau(N) = M$ となるような $N$ から $G$ へのリー群射$\tau$ が存在します (§ 6, no. 2、命題 1 の系 1)。 したがって、$M$ は形の $G$ の元の集合です
 $$
 \tau((\exp \lambda_1 y_1) \cdots (\exp \lambda_p y_p)) = \exp(\lambda_1 L(\tau)y_1) \cdots \exp(\lambda_p L(\tau)y_p)
 = \exp(\lambda_1 x_{i_1}) \cdots \exp(\lambda_p x_{i_p}).
@@ -512,7 +512,7 @@ $$
 *$V$ を有限次元 $> 0$ の複素数ベクトル空間と、$G$ を $\mathbf{GL}(V)$ の連結された可解な部分群とします。*
 (i) *すべての $g \in G$ に対して $gv \in Cv$ となるような、$V$ の非ゼロ元 $v$ が存在します。
 (ii) *すべての $g \in G$ について、$B$ に関して $g$ の行列が下三角となるような $V$ の基底 $B$ が存在します。
-$V_1$ を、$G$ で安定している $V$ の非ゼロベクトル部分空間のうちの最小値元とします。 命題 22 (ii)、$\dim V_1 = 1$ までに。 これは(i)を証明します。 By induction on $\dim V$, it then follows that there exists an increasing sequence $(V_1, V_2, \ldots, V_n)$ of vector subspaces of $V$ which are stable under $G$ such that $\dim V_{i+1}/V_i = 1$ for $i < n$ and $V_n = V$; hence (ii).
+$V_1$ を、$G$ で安定している $V$ の非ゼロベクトル部分空間のうちの最小値元とします。 命題 22 (ii)、$\dim V_1 = 1$ までに。 これは(i)を証明します。 $\dim V$ での帰納により、$i < n$ と $V_n = V$ に対して $\dim V_{i+1}/V_i = 1$ となるような、$G$ の下で安定する$V$ のベクトル部分空間の増加シーケンス $(V_1, V_2, \ldots, V_n)$ が存在することになります。したがって (ii)。
 
 ### 7. リー群中根基
 
@@ -532,7 +532,7 @@ $G$がつながっていても、$G$の根基に含まれない$G$の解ける�
 
 #### 命題 24 {#lie-iii-s9-prop-24 .statement tag=0AJG}
 
-※$K = R$または$C$とします。 Let $G_1, G_2$ be two finite-dimensional connected Lie groups, $R_1$ and $R_2$ their radicals and $\phi$ a surjective morphism of $G_1$ into $G_2$. 次に、$\phi(R_1) = R_2$.*
+※$K = R$または$C$とします。 $G_1, G_2$ を 2 つの有限次元接続リー群、$R_1$ と $R_2$ の根号、および $G_1$ から $G_2$ への全射射を $\phi$ とします。 次に、$\phi(R_1) = R_2$.*
 
 $§ 3$、no. 8、命題 28、$L(\phi)$ は全射です。したがって、$L(\phi)(L(R_1)) = L(R_2)$ (章 I、$§ 6$、系 3 から命題 2) となります。 $i$を$R_1$の標準単射を$G_1$にします。すると、$\phi \circ i$の像は$R_2$($§ 6$、no. 2、系1から命題1)になります。
 
@@ -607,7 +607,7 @@ $\mathfrak{g}$ を複素半単純リー代数とし、$\mathfrak{g}_0$ をその
 
 #### 命題 31 {#lie-iii-s9-prop-31 .statement tag=0AJS}
 
-*G を単純に接続された有限次元の実数または複素数リー群とし、R をその根基とします。 There exists a semi-simple simply connected Lie subgroup S of G such that G, as a Lie group, is the semi-direct product of S by R. S' が G の半単純整数部分群である場合、$L(G)$ の冪能根基に次のような x が存在します*
+*G を単純に接続された有限次元の実数または複素数リー群とし、R をその根基とします。 G がリー群として S と R の半直接積であるような、G の半単純単純結合リー部分群 S が存在します。 S' が G の半単純整数部分群である場合、$L(G)$ の冪能根基に次のような x が存在します*
 $$
 (\mathrm{Ad}\exp x)(S') \subset S.
 $$
@@ -622,7 +622,7 @@ $\rho$ が半単純であるとします。 $\rho'$ が半単純であること�
 
 したがって、すべての $g \in G$ に対して、$\rho(g)V'$ は単純な $G'$ モジュールです。しかし、$\sum_{g \in G} \rho(g)V'$ は、$V$、よって $V = \sum_{g \in G} \rho(g)V'$ の非ゼロのサブ$G$ 加群です。したがって、$\rho'$ は半単純です。
 
-$\rho'$ が半単純であるとします。 $W$ を $V$ の非ゼロのサブ$G$ 加群とする。 As $\rho'$ is semi-simple, there exists a projector $f_0$ of $V$ onto $W$ which commutes with $\rho'(G)$. $E$ を $f \in \mathscr{L}(V, V)$ の集合とし、これは $\rho(G')$ と可換であり、写像 $V$ は $W$ に、制限から $W$ はホモテティー となります。 $f \in E$ の場合、ホモテティー $f|W$ の比率を $\alpha(f)$ とします。 次に、$f_0 \in E$ と $\alpha(f_0) = 1$ です。 明らかに、$\alpha$ は $E$ の線型形式です。 $E$の超平面である$F = \mathrm{Ker}\, \alpha$とします。 $f \in E$ と $g \in G$ については、$\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$ と書きます。次に、$\sigma(g)f$ 写像 $V$ を $W$ に変換し、制限から $W$ は$\alpha(f')$ の比ホモテティー になります。 $g' \in G'$ の場合、
+$\rho'$ が半単純であるとします。 $W$ を $V$ の非ゼロのサブ$G$ 加群とする。 $\rho'$ は半単純であるため、$\rho'(G)$ と交換する $W$ 上に $V$ のプロジェクター $f_0$ が存在します。 $E$ を $f \in \mathscr{L}(V, V)$ の集合とし、これは $\rho(G')$ と可換であり、写像 $V$ は $W$ に、制限から $W$ はホモテティー となります。 $f \in E$ の場合、ホモテティー $f|W$ の比率を $\alpha(f)$ とします。 次に、$f_0 \in E$ と $\alpha(f_0) = 1$ です。 明らかに、$\alpha$ は $E$ の線型形式です。 $E$の超平面である$F = \mathrm{Ker}\, \alpha$とします。 $f \in E$ と $g \in G$ については、$\sigma(g)f = \rho(g) \circ f \circ \rho(g)^{-1}$ と書きます。次に、$\sigma(g)f$ 写像 $V$ を $W$ に変換し、制限から $W$ は$\alpha(f')$ の比ホモテティー になります。 $g' \in G'$ の場合、
 $$
 \begin{align*}
 \sigma(g)f \circ \rho(g') &= \rho(g) \circ f \circ \rho(g)^{-1} \circ \rho(g') \\
@@ -691,7 +691,7 @@ $\sigma(G)$ で安定している $\mathbf{R}^2$ の 1 次元ベクトル部分�
 
 #### 命題 33 {#lie-iii-s9-prop-33 .statement tag=0AJZ}
 
-Let G be a finite-dimensional complex Lie group whose number of connected components is finite, $\varphi$ a finite-dimensional analytic linear representation of G and $G'$ an integral subgroup of the real Lie group G such that $L(G')$ generates $L(G)$ over $\mathbf{C}$. すると、$\varphi$ が半単純になるためには、$\varphi|G'$ が半単純になることが必要十分です。
+G を連結成分の数が有限である有限次元複素リー群、$\varphi$ を G の有限次元解析線形表現、$G'$ を実リー群 G の整数部分群とし、$L(G')$ が $\mathbf{C}$ 上で $L(G)$ を生成するものとします。 すると、$\varphi$ が半単純になるためには、$\varphi|G'$ が半単純になることが必要十分です。
 
 $\varphi' = \varphi|G'$ にしましょう。 $\varphi$ (それぞれ $\varphi'$) が半単純であるためには、$L(\varphi)$ (それぞれ $L(\varphi')$) が半単純 (定理 1) であることが必要かつ十分です。 Vを$\varphi$の空間とします。 V のベクトル部分空間が $L(\varphi)(L(G))$ で安定するためには、$L(\varphi')(L(G'))$ で安定することが必要かつ十分です。したがって命題です。
 

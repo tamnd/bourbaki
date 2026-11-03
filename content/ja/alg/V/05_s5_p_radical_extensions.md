@@ -22,16 +22,16 @@ subsections:
       pdf_page: 139
 statements: 8
 exercises: 3
-content_sha256: d8aa2932e3ab9aed9614ae7507577f22b60ef2966d67a10983a9737dc33c2f79
+content_sha256: 15956f989000205ad2735d77e14f0bebe149c44e412bce5c01c8185bdb342a0b
 translated_from: content/en/alg/V/05_s5_p_radical_extensions.md
 translation_method: google
 source_content_sha256: 3693c7ad10eed43de9af13fff4d3447ffd7fc25ca8cc3c3bf9505041a61ff985
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8794bd7a1b6395b32413bf6c773db39f1d114f90a8d8a2f28a754734df9a8fcc
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 *p*-ラジカル拡張機能
@@ -93,7 +93,7 @@ $n \geq 1$の場合。 E の部分体 $K^{p^{-n}}$ はペアごとに区別さ�
 
 — K を体、K の p 基である E 拡大体、および K の完全体 F への K の $u$ 準同型とする。すると、$u$ に広がる F への E の一意な準同型 $v$ が存在する。
 
-$E_n$ を、K 上の高さ $\leq n$ の p 根である E の元の集合とします。 提案 2 により、体 E は、部分体の昇順数列 $(E_n)_{n \geq 0}$ の和集合です。 Let $v$ be a homomorphism of E into F extending $u$; for any $x \in E_n$ we have $x^{p^n} \in K$, whence $v(x)^{p^n} = v(x^{p^n}) = u(x^{p^n})$; we thus have $v(x) = u(x^{p^n})^{p^{-n}}$ for all $n \geq 0$ and all $x \in E_n$, whence the uniqueness of the extension of $u$ to E.
+$E_n$ を、K 上の高さ $\leq n$ の p 根である E の元の集合とします。 提案 2 により、体 E は、部分体の昇順数列 $(E_n)_{n \geq 0}$ の和集合です。 $v$ を、$u$ を拡張した E から F への準同型射とします。任意の $x \in E_n$ に対して $x^{p^n} \in K$ があり、そこから $v(x)^{p^n} = v(x^{p^n}) = u(x^{p^n})$ が得られます。したがって、すべての $n \geq 0$ とすべての $x \in E_n$ に対して $v(x) = u(x^{p^n})^{p^{-n}}$ があり、そこから $u$ の E への拡張の一意性が得られます。
 
 $n$ を正の整数とします。任意の $x \in E_n$ に対して $x^{p^n} \in K$ があり、F が完全なので、F の定義する元 $v_n(x)$ を $v_n(x) = u(x^{p^n})^{p^{-n}}$ で求めることができます。 $v_n$ は F の $E_n$ の準同型であり、$v_0 = u$ であり、$E_n$ の $v_{n+1}$ 誘導する $v_n$ であることは明らかです。したがって、すべての $n \geq 0$ に対して $E_n$ に $v_n$ を誘導する F への E の準同型 $v$ が存在し、特に $E_0 = K$ の $v_0 = u$ と一致します。
 

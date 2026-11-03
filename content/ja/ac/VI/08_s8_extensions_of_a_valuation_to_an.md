@@ -41,27 +41,27 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: fef2b30d9bbbd9b8b33a84c58928473396afec118af5708dc76bb73ed7a791d8
+content_sha256: 54b1d34ad0de2784cee8a962a0a020277ef9faeb230856374ec8cf1ac12a7612
 translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
 translation_method: google
 source_content_sha256: cdeab4f8e3ec406096d5a84060f974fac6c1348ec20e61d5f464c6c18df5b822
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 779a018c4fae6377545655bdc2f48c6cbfa5ce1c1b650bf8a1d8c61b8e194462
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 8. 代数に対する評価の拡大拡大
 
 ### 1. 派生現象添字。 剰余類次数
 
-Let $\mathbf{K}$ be a field, $\mathbf{L}$ an extension of $\mathbf{K}$ and $\mathbf{A}'$ a valuation ring of $\mathbf{L}$. As has been seen in § 1, no. 4, the ring $\mathbf{A} = \mathbf{K} \cap \mathbf{A}'$ is a valuation ring of $\mathbf{K}$ and
+$\mathbf{K}$ を体、$\mathbf{L}$ 拡大を $\mathbf{K}$、$\mathbf{A}'$ を $\mathbf{L}$ の評価環とします。 § 1, no. 4 で見られたように、環 $\mathbf{A} = \mathbf{K} \cap \mathbf{A}'$ は $\mathbf{K}$ の評価環であり、
 $$
 m(\mathbf{A}) = m(\mathbf{A}') \cap \mathbf{K}.
 $$
-If $v'$ is a valuation associated with $\mathbf{A}'$, the restriction $v$ of $v'$ to $\mathbf{K}$ is a valuation on $\mathbf{K}$ associated with $\mathbf{A}$; the order group $\Gamma_v$ of $v$ is a subgroup of the order group $\Gamma_{v'}$ of $v'$.
+$v'$が$\mathbf{A}'$に関連付けられた評価である場合、$v'$から$\mathbf{K}$の制限$v$は、$\mathbf{A}$に関連付けられた$\mathbf{K}$の評価です。 $v$の位数群 $\Gamma_v$は、位数の部分群群 $v'$の$\Gamma_{v'}$です。
 
 #### 定義 1 {#ac-vi-s8-def-1 .statement tag=04W4}
 
@@ -86,7 +86,7 @@ $$(1)\quad e(v''/v) = e(v''/v') e(v'/v), \qquad f(v''/v) = f(v''/v') f(v'/v).$$
 
 #### 補題 2 {#ac-vi-s8-lem-2 .statement tag=04W7}
 
-Let $K$ be a field, $L$ a finite extension of $K$ of degree $n$, $v'$ a valuation on $L$ and $v$ its restriction to $K$. それでは不等式
+$K$ を体、$L$ を次数 $n$ の $K$ の有限拡張、$v'$ を $L$ の評価、$v$ を $K$ までの制限とする。 それでは不等式
 
 $$
 e(v'/v) f(v'/v) \leq n
@@ -94,7 +94,7 @@ $$
 
 保持します。特に、$e(v'/v)$ と $f(v'/v)$ は有限です。
 
-それぞれ $e(v'/v)$ と $f(v'/v)$ 以下の自然数 $r$ と $s$ を考えてみましょう。 $rs \leq n$ を示すだけで十分です。 In view of the definition of $r$, there exist elements $x_i$ of $L$ ($1 \leq i \leq r$) such that $v'(x_i) \not\equiv v'(x_j)$ (mod. $\Gamma_v$) for $i \neq j$. In view of the definition of $s$, there exist elements $y_k$ ($1 \leq k \leq s$) of the ring $A'$ of $v'$ whose canonical images $\bar{y}_k$ in $\kappa(A')$ are linearly independent over $\kappa(A)$; obviously $v'(y_k) = 0$ for all $k$. $rs$ 元 $x_i y_k$ が $K$ に対して線形独立であることを示します。これにより、不等式 $rs \leq n$ が確実に確立されます。
+それぞれ $e(v'/v)$ と $f(v'/v)$ 以下の自然数 $r$ と $s$ を考えてみましょう。 $rs \leq n$ を示すだけで十分です。 $r$ の定義を考慮すると、$i \neq j$ に対して $v'(x_i) \not\equiv v'(x_j)$ (修正 $\Gamma_v$) となるような $L$ ($1 \leq i \leq r$) の元 $x_i$ が存在します。 $s$ の定義を考慮すると、$\kappa(A')$ の正準イメージ $\bar{y}_k$ が $\kappa(A)$ 上で線形独立である $v'$ のリング $A'$ の要素 $y_k$ ($1 \leq k \leq s$) が存在します。明らかに、すべての $k$ に対して $v'(y_k) = 0$ です。 $rs$ 元 $x_i y_k$ が $K$ に対して線形独立であることを示します。これにより、不等式 $rs \leq n$ が確実に確立されます。
 
 次に、形の非自明な線形関係が存在すると仮定します。
 
@@ -190,7 +190,7 @@ $$
 \phi : \hat{K} \otimes_K L \to \prod_{i=1}^s \hat{L}_i
 $$
 
-は全射的であり、関係 (7) はすでに示されています。 $\phi$ の核 n が $\hat{K} \otimes_K L$ のジェイコブソン根基 $t$ であることを検証する必要があります。 $\prod_{i=1}^s \hat{L}_i$ は半単純、$t \subset n$ であるため。 On the other hand, for every maximal ideal m of $\hat{K} \otimes_K L$, the quotient field $L(m) = (\hat{K} \otimes_K L)/m$ is a composite extension of $\hat{K}$ and L over K (Algebra,
+は全射的であり、関係 (7) はすでに示されています。 $\phi$ の核 n が $\hat{K} \otimes_K L$ のジェイコブソン根基 $t$ であることを検証する必要があります。 $\prod_{i=1}^s \hat{L}_i$ は半単純、$t \subset n$ であるため。 一方、$\hat{K} \otimes_K L$ のすべての最大イデアル m について、商体 $L(m) = (\hat{K} \otimes_K L)/m$ は K 上の $\hat{K}$ と L の複合拡張です (代数、
 
 章 VIII, § 8、命題 1)。 $\vartheta$ (§ 3, no. 3, 命題 5) を延長するL(m) の評価が存在します。 制限 $v'$ から L 拡大する $v$ まで。 $[L(m): \hat{K}]$ が有限であるため、$L(m)$ は w ($§ 5$, no. 2, 命題 4) に関して完全です。ここで、$L(m)$ の L の終結は体含む $\mathbf{K}$ および L であるため、$L(m)$ と等しくなります。その結果、$L(m)$ は完了 $\hat{L}_{v'}$ と同一視され、m は $\hat{L}_{v'}$ への $\hat{K} \otimes_K L$ の標準写像の核です。さて、仮定までに、$v'$ と $v'_i$ が依存するような添字 $i$ が存在します。 よって $L_{v'} = L_i$ ($§ 7$、no. 2、命題 3)。従って、$n \subset m$ は、$n \subset r$ を証明し、証明を完成させます。
 
@@ -218,7 +218,7 @@ $\hat{K} \otimes_K L$ のジェイコブソン根基は、零 (*代数*, 章 VII
 
 ### 3. ザ関係 $\sum_i e_i f_i \leq n$
 
-Let K be a field, $v$ a valuation on K and L a finite extension of K of degree $n$. $(v'_1, \ldots, v'_r)$ を $v$ を拡張した L の評価額とします。 *同じものは 2 つありません。それらが *独立している*場合 ($v$ の高さが 1 の場合は常に当てはまります)、
+K を体、$v$ を K の評価、L を次数 $n$ の K の有限拡張とします。 $(v'_1, \ldots, v'_r)$ を $v$ を拡張した L の評価額とします。 *同じものは 2 つありません。それらが *独立している*場合 ($v$ の高さが 1 の場合は常に当てはまります)、
 
 $$
 \sum_{i \in I} e(v'_i|v) f(v'_i|v) \leq n
@@ -250,7 +250,7 @@ s については帰納法で議論し、したがって 0, 1, ..., s - 1 の評
 
 私たちはそれぞれ $I_k$ 添字 $i(k)$ で選ぶです。 $\hat{L}_{i(k)}$ は、$v'_{i(k)}$ と $n(k) = [\hat{L}_{i(k)} : \hat{K}]$ に関して $L$ の完了を表すものとします。 $L$ のすべての $i \in I_k$、$v'_i$ 定義するについては、$v'_{i(k)}$ (§ 7, no. 2、命題 3) と同じ位相であるため、$\hat{L}_{i(k)}$ の評価$\bar{v}'_i$ に拡張される可能性があります。 制限から $\hat{K}$ は 0 です。 $i \in I$ の $v'_i$ は 2 つとして同等ではないため、$\bar{v}'_i$ にも同じことが当てはまります。 帰納法の仮定を順序付けられた対 $(\hat{K}, \hat{L}_{i(k)})$ に適用すると、命題 2 (a)、公式 (4) により、$\sum_{i \in I_k} e(v'_i/v)f(v'_i/v) \leq n(k)$ が示されます。 $\sum_{k=1}^t n(k) \leq n$ (命題 2 (b)、公式 (7)) として、確かに $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$ です。
 
-(2) 次に、$v'_i$ のいずれか 2 つが依存している場合に移ります。 $A'_i$ を $v'_i$ ($1 \leq i \leq s$) の環とします。 $v$の環には$A$、すべての$i$には$A'_i \cap K = A$と書きます。 $B'$ を $A'_1, \ldots, A'_s$ によって生成された $L$ の部分環とします。 $B = B' \cap K$と書きます。次に$B \supseteq A$。 Then $B$ is the ring of a valuation $w$ on $K$ and $B'$ the ring of a valuation $w'$ which is not improper and extends $w$ (§ 7, no. 2, Proposition 4); the field $\kappa(B')$ is an extension of $\kappa(B)$ of degree $f(w'/w)$. $A'_i$ の標準像 $\bar{A}'_i, \bar{A}$ と $\kappa(B')$ の $A$ を考えてみましょう。その場合、$\bar{A}$は、$\kappa(B)$の評価$\bar{v}$の環であり、$\bar{A}'_i$は、$\bar{v}$を拡張した$\kappa(B')$の評価$\bar{v}'_i$の環です。 $A'_i$ 生成する $B'$ と同様、$\bar{A}'_i$ 生成する $\kappa(B')$、したがって $\bar{v}'_i$ もすべて依存しているわけではありません (§ 7, no. 2、命題 4)。 証明の最初の部分から、
+(2) 次に、$v'_i$ のいずれか 2 つが依存している場合に移ります。 $A'_i$ を $v'_i$ ($1 \leq i \leq s$) の環とします。 $v$の環には$A$、すべての$i$には$A'_i \cap K = A$と書きます。 $B'$ を $A'_1, \ldots, A'_s$ によって生成された $L$ の部分環とします。 $B = B' \cap K$と書きます。次に$B \supseteq A$。 この場合、$B$ は $K$ における評価 $w$ のリングであり、$B'$ は不適切ではなく $w$ に拡張される評価 $w'$ のリングです (§ 7, no. 2、命題 4)。フィールド$\kappa(B')$は、次数$f(w'/w)$の$\kappa(B)$の拡張です。 $A'_i$ の標準像 $\bar{A}'_i, \bar{A}$ と $\kappa(B')$ の $A$ を考えてみましょう。その場合、$\bar{A}$は、$\kappa(B)$の評価$\bar{v}$の環であり、$\bar{A}'_i$は、$\bar{v}$を拡張した$\kappa(B')$の評価$\bar{v}'_i$の環です。 $A'_i$ 生成する $B'$ と同様、$\bar{A}'_i$ 生成する $\kappa(B')$、したがって $\bar{v}'_i$ もすべて依存しているわけではありません (§ 7, no. 2、命題 4)。 証明の最初の部分から、
 
 $$
 \sum_{i=1}^s e(\bar{v}'_i/\bar{v})f(\bar{v}'_i/\bar{v}) \leq [\kappa(B') : \kappa(B)] = f(w'/w)
@@ -286,7 +286,7 @@ $$
 
 章 I, § 1, no. 4, 命題 2 により、2 番目の公式 (8) が証明されます。
 
-定理 1 の証明を完了するには、(c) を証明する必要があります。 $v_i'$ 含むの$v_j'$ の環が$\Gamma_{v_i'}$ と剰余群 $\Gamma_{v_j'}/H$ が同一視される場合、$H$ は孤立した部分群 (§ 4, no. 3) です。 複合標準写像として
+定理 1 の証明を完了するには、(c) を証明する必要があります。 $v_i'$ 含むの$v_j'$ の環が$\Gamma_{v_i'}$ は剰余群 $\Gamma_{v_j'}/H$ と同一視され、$H$ は孤立した部分群 (§ 4, no. 3) になります。複合標準写像として
 
 $$
 \Gamma_v \to \Gamma_{v_j} \to \Gamma_{v_j'}/H = \Gamma_{v_i'}
@@ -372,7 +372,7 @@ $\varepsilon(v'_i/v) \leq \varepsilon(v'_i/v)$ (no. 4、系 ～ 命題 3) と $\
 (c) $[B/mB : A/m] = n;$
 (d) すべての i に対して $\sum_{i=1}^n \varepsilon(v'_i/v) f(v'_i/v) = n$ および $\varepsilon(v'_i/v) = \varepsilon(v'_i/v)$。
 
-(a)と(b)の同値は、補題1、§ 3, no. 6から続きます。 明らかに (b) は (c) (*代数*, 章 11, § 1, no. 5, 公式 (19)) を意味します。 (c)と(d)の同値は、系から命題5に続きます。 (c) が (b) を意味することを示すことはまだ残っています。
+(a)と(b)の同値は、補題1、§ 3, no. 6から続きます。明らかに (b) は (c) (*代数*, 章 11, § 1, no. 5, 公式 (19)) を意味します。 (c) と (d) の同値は、系から命題に続きます。 5. (c) が (b) を暗黙的に示すことはまだ残っています。
 
 一般に、M が A-加群の場合、$A/m$ に対する V(M) ベクトル空間 $M/mM$ で表します。 仮定 (c) は $\dim(V(B)) = n$ を意味します。 $x_1, \ldots, x_n$ を B の元とし、その V(B) 形基底の V(B) の標準像を、L $\subset B$ をそれらが生成するとするサブ A モジュールとします。 L はねじれがなく有限生成されるため、自由です (§ 3, no. 6、補題 1)。 $B = L$ がわかります。 $y \in B$ にしましょう。 $M = L + Ay$と書きます。これも自由A-加群です。 標準単射 $L \to M \to B$ は標準準同型 $V(L) \to V(M) \to V(B)$ を与えます。 Lの階数とMは$\leq n$であるため、V(L)とV(M)の次元も同様です。さて、仮定までに、$V(L) \to V(B)$は全射、$V(B)$はn次元であるため、$V(L)$と$V(M)$はn次元、$V(L) \to V(M)$は全射です。 M は有限生成されるため、$L \to M$ は全射法 (章 II, § 3, no. 2、系 1 ～ 命題 4)、よって $L = M, y \in L$ および $B = L$ です。したがって、Bは無料です。
 
@@ -490,7 +490,7 @@ $$
 
 *全員* $x \in L$。
 
-$f'$ の存在は、$§ 6$、no. 4 の補題 2 から、命題 9 とその一意性 ($L$ のすべての有限部分拡張にわたって、したがって $L$ 全体にわたって) に続きます。 $f'$ を $K$ の代数閉包までの一意の拡大とし、$L$ が有限次数 $n$ であると仮定します。 $N_{L/K}(x) = \prod_{i=1}^n x_i$ は、各 $x_i$ が $K$ 上の $x$ の共役であることがわかります (*代数*、章 VIII、$§ 12$、no. 2、命題 4)。 In view of the uniqueness of $f'$, $f'(x_i) = f'(x)$ for all $i$, whence the stated formula.
+$f'$ の存在は、命題 9 とその一意性 ($L$ のすべての有限部分拡張にわたって、したがって $L$ 全体にわたって) $§ 6$ の補題 2、no. 4 から続きます。 $f'$ を $K$ の代数閉包までの一意の拡大とし、$L$ が有限次数 $n$ であると仮定します。 $N_{L/K}(x) = \prod_{i=1}^n x_i$ は、各 $x_i$ が $K$ 上の $x$ の共役であることがわかります (*代数*、章 VIII、$§ 12$、no. 2、命題 4)。 $f'$の一意性、すべての$i$、よっての$f'(x_i) = f'(x)$を考慮して、記載されている公式。
 
 #### 命題 11 {#ac-vi-s8-prop-11 .statement tag=04X3}
 
@@ -523,7 +523,7 @@ $$
 
 注意
 (1) 命題 11 (b) は、K 上の $\hat{K}$ と L のすべての合成拡大が補完 $\hat{L}_i$ の 1 つと同型であり、これらは合成拡大であり、そのうち 2 つが同型ではないことを示しています。
-(2) 補完 $\hat{K}$ と $\hat{L}_i$ は $\mathbf{R}$ または $\mathbf{C}$ ($§ 6$, no. 4, 定理 2) と同型であることがわかっています。 $\hat{K}$ が $\mathbf{C}$ と同型である場合、すべての $i$ について $\hat{L}_i$ も同様であり、(10) は拡大 $f_i'$ の数が *n* に等しいことを示します。 If $\hat{K}$ is isomorphic to $\mathbf{R}$ (for example if $K = \mathbf{Q}$), let $r_1$ (resp. $r_2$) denote the number of indices $i$ such that $\hat{L}_i$ is isomorphic to $\mathbf{R}$ (resp. $\mathbf{C}$); then (10) may be written:
+(2) 補完 $\hat{K}$ と $\hat{L}_i$ は $\mathbf{R}$ または $\mathbf{C}$ ($§ 6$, no. 4, 定理 2) と同型であることがわかっています。 $\hat{K}$ が $\mathbf{C}$ と同型である場合、すべての $i$ について $\hat{L}_i$ も同様であり、(10) は拡大 $f_i'$ の数が *n* に等しいことを示します。 $\hat{K}$ が $\mathbf{R}$ と同型の場合 (たとえば、$K = \mathbf{Q}$ の場合)、$r_1$ (それぞれ $r_2$) は、$\hat{L}_i$ が $\mathbf{R}$ (それぞれ $\mathbf{C}$) と同型であるようなインデックス $i$ の数を表します。その場合、(10) は次のように書くことができます。
 
 $$
 r_1 + 2r_2 = n.

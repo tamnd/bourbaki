@@ -21,16 +21,16 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: d33b2bc8a8634cb2652aee59a3cad893c88d3a5eb817fdd834baf597e2cdf033
+content_sha256: 4ffcbd88a79bc4ae3a257abc058b0718e7e75b838893085431616a250b68261e
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
 translation_method: google
 source_content_sha256: 556d7efab2e0c3d357dfbbd27923b000a4c0af8dc523529bed393394168a1056
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9c7b4387ad9276ba97724ebf6e5ad10a751b6779e76f81c0c0dc069f37059fdf
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 最高の理想
@@ -71,17 +71,17 @@ $f : \mathbf{A} \to \mathbf{B}$ を環準同型とし、$q$ を $\mathbf{B}$ の
 
 *$\mathbf{A}$を環、$a$を加法と乗法で閉じられる$\mathbf{A}$の空でない集合、そして$(p_i)_{i \in I}$を$\mathbf{A}$の空でない有限の理想族とする。 $a$ が $p_i$ の和集合に含まれており、$p_i$ のうち最大 2 つが素数ではないとします。すると、$a$ は $p_i$ の 1 つに含まれます。*
 
-私たちは$n = \mathrm{Card}(I)$について帰納法までに議論します。 $n = 1$ であれば、命題は自明です。 $n \geq 2$; と仮定します。 添字 $j$ が存在する場合、$a \cap p_j \subset \bigcup_{i \neq j} p_i$、集合 $a$、つまり$i \in I$ が$a \cap p_i$ の和集合が$\bigcup_{i \neq j} p_i$ に含まれ、したがって帰納法の仮定による$p_i$ の 1 つに含まれる場合です。 次に、そのような添字が存在しないと仮定します。すべての $j \in I$ について、$y_j$ を $i \neq j$ の$p_i$ に対する所属ではなく、$a \cap p_j$ の元にします。 $n > 2$の場合は$p_k$が素数となり、$n = 2$の場合は任意に選択されるように、$k$を$I$の元とします。 $z = y_k + \prod_{i \neq k} y_i$ にしましょう。 次に、$a$ は加法と乗法で閉じられるため、$z \in a$ になります。 $j \neq k$、$\prod_{i \neq k} y_i$ 属するから $p_j$ の場合、$y_k \notin p_j$、よって $z \notin p_j$。 On the other hand, $\prod_{i \neq k} y_i$ does not belong to $p_k$, as none of the factors $y_i \ (i \neq k)$ belongs to it and $p_k$ is prime if $n - 1 > 1$; as $y_k \in p_k$, $z$ does not belong to $p_k$ and the proposition is established.
+私たちは$n = \mathrm{Card}(I)$について帰納法までに議論します。 $n = 1$ の場合、命題は自明です。 $n \geq 2$; と仮定します。 $a \cap p_i$ のうち $i \in I$ の和集合である $a \cap p_j \subset \bigcup_{i \neq j} p_i$、集合 $a$ が $\bigcup_{i \neq j} p_i$ に含まれ、したがって帰納法の仮定による $p_i$ の 1 つに含まれる添字 $j$ が存在する場合。次に、そのような添字が存在しないと仮定します。 $j \in I$ごとに、$y_j$を$i \neq j$の$p_i$に対する所属ではなく、$a \cap p_j$の元とします。 $n > 2$の場合は$p_k$が素数となり、$n = 2$の場合は任意に選択されるように、$k$を$I$の元とします。 $z = y_k + \prod_{i \neq k} y_i$ にしましょう。次に、$a$ は加法と乗法で閉じられるため、$z \in a$ になります。 $j \neq k$、$\prod_{i \neq k} y_i$ 属するから $p_j$ の場合、$y_k \notin p_j$、よって $z \notin p_j$。一方、$\prod_{i \neq k} y_i$ は $p_k$ に対して属するを成しません。因子 $y_i \ (i \neq k)$ 属するのどれも$n - 1 > 1$ の場合、$p_k$ は素数ではないからです。 $y_k \in p_k$のように、$z$は属するから$p_k$にならず、命題が成立します。
 
 ### 2. 比較的プライムな理想
 
-$A$ を環とします。 $A$ の 2 つのイデアル $a, b$ が $a + b = A$ の場合、*相対素* と呼ばれます。これが真実であるためには、$a + b$ が素イデアル (*代数*、章 I, § 8, no. 7、定理 2) に含まれていないこと、他の語に含まれていないこと、$a$ と $b$ の両方に素イデアル含むが含まれていないことが必要かつ十分です。 2 つの異なる最大理想は比較的素です。
+$A$ を環とします。 $A$ の 2 つのイデアル $a, b$ は、$a + b = A$ の場合 *相対的に素* と呼ばれます。これが真実であるためには、$a + b$ が素イデアル (*代数*、章 I, § 8, no. 7、定理 2) に含まれておらず、他の語に含まれておらず、$a$ と $b$ の両方に素イデアル含むが含まれていないことが必要かつ十分です。 2 つの異なる最大理想は比較的素です。
 
-$A$ が *主イデアル整域* (*代数*, 章 VII, § 1) である場合、$A$ の 2 つの元 $a, b$ が相対的に素であることは、ベズーの恒等式 (*loc. cit.*, no. 2, 定理 1)、理想 $Aa$ と $Ab$ が互いに素であること。
+$A$ が *主イデアル整域* (*代数*, 章 VII, § 1) である場合、$A$ の 2 つの元 $a, b$ が相対的に素であることは、ベズーの恒等式 (*loc. cit.*, no. 2、定理 1)、理想 $Aa$ と $Ab$ は互いに素であること。
 
 #### 命題 3 {#ac-ii-s1-prop-3 .statement tag=0454}
 
-*$a$ と $b$ を環 $A$ の 2 つの比較的素な理想とする。 $a'$ と $b'$ を、$a$ (それぞれ $b$) のすべての元が $a'$ (それぞれ $b'$) に冪を含むように、$A$ の 2 つの理想とする。この場合、$a'$ と $b'$ は相対的に素です。*
+*$a$ と $b$ を環 $A$ の 2 つの比較的主要な理想とする。 $a'$ と $b'$ を $A$ の 2 つの理想とし、$a$ (それぞれ $b$) のすべての元が $a'$ (それぞれ $b'$) に冪を含むようにします。この場合、$a'$ と $b'$ は相対的に素です。*
 
 与えられた仮定の下で、すべての素イデアル含む $a'$ 含む $a$ とすべての素イデアル含む $b'$ 含む $b$。素の理想が含む $a'$ と $b'$ である場合、含む $a$ と $b$ になりますが、$a$ と $b$ は相対的に素であるため、これは不合理です。したがって、$a'$ と $b'$ は相対的に素です。
 
@@ -118,7 +118,7 @@ $$
 A/a \to (A/a_k) \times (A/b_k) \to (A/a_k) \times \prod_{i \neq k} (A/a_i) = \prod_{i \in I} (A/a_i)
 $$
 
-これは正確には $\psi$ です。つまり、(b) が成り立ちます。 逆に、(b) が成り立つとします。 $a_i$ は必ず対で相対的に素であることを示します。 逆の場合、$i \neq j$ に対して、イデアル $c \neq A$ 含む $a_i$ および $a_j$ が存在します。 $h$ に対して集合 $a_h' = a_h$ は、$i$ または $j$ および $a_i' = a_j' = c$ に等しくありません。 標準準同型 $\phi': A \to \prod_{i \in I} (A/a_i')$ は合成写像として書くことができます
+これは正確には $\psi$ です。つまり、(b) が成り立ちます。 逆に、(b) が成り立つとします。 $a_i$ は必ず対で相対的に素であることを示します。 逆の場合、$i \neq j$ に対して、理想的な $c \neq A$ 含む $a_i$ および $a_j$ が存在します。 $h$ に対して集合 $a_h' = a_h$ は、$i$ または $j$ および $a_i' = a_j' = c$ に等しくありません。 標準準同型 $\phi': A \to \prod_{i \in I} (A/a_i')$ は合成写像として書くことができます
 
 $$
 A \xrightarrow{\phi} \prod_{i \in I} (A/a_i) \xrightarrow{f} \prod_{i \in I} (A/a_i')
@@ -138,7 +138,7 @@ $$
 
 #### 例 {#ac-ii-s1-n2-exa-1 .statement tag=0458}
 
-Let $K$ be a field, $a, (1 \leq i \leq m)$ distinct elements of $K$ and, for each $i$, let $g_i$ be a polynomial in $K[X]$; the principal ideal $(X - a_i) = m_i$ is maximal in $K[X]$, hence, for every system $(n_i)_{1 \leq i \leq m}$ of $m$ integers $\geq 1$, the ideals $m_i^{n_i}$ are relatively prime in pairs. 次に、命題 5 から、$1 \leq i \leq m$ に対して $f(X) \equiv g_i(X) \pmod{(X - a_i)^{n_i}}$ となるような多項式 $f \in K[X]$ が存在し、そのような 2 つの多項式の差は $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$ で割り切れるということがわかります。 すべての $n_i$ が 1 に等しいとすると、問題はラグランジュ補間公式 (*代数*, 章 IV, § 2, no. 4) によって明示的に解決されることがわかります。
+$K$ を体、$a, (1 \leq i \leq m)$ を $K$ の元と区別し、各 $i$ について、$g_i$ を $K[X]$ の多項式とする。主イデアル$(X - a_i) = m_i$ は $K[X]$ で最大であるため、$m$ 整数 $\geq 1$ のすべての系 $(n_i)_{1 \leq i \leq m}$ について、イデアル $m_i^{n_i}$ は対で相対的に素になります。次に、命題 5 から、$1 \leq i \leq m$ に対して $f(X) \equiv g_i(X) \pmod{(X - a_i)^{n_i}}$ となる多項式 $f \in K[X]$ が存在し、そのような 2 つの多項式の差は $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$ で割り切れるということがわかります。すべての $n_i$ が 1 に等しいとすると、問題はラグランジュ補間公式 (*代数*, 章 IV, § 2, no. 4) によって明示的に解決されることがわかります。
 
 ### 練習問題 {#ac-ii-s1-exercises}
 

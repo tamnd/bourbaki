@@ -33,16 +33,16 @@ subsections:
       pdf_page: 241
 statements: 12
 exercises: 0
-content_sha256: c7d10e50b3325caa98e252ced00852d6323beb277720c55290442b45eb9e3e70
+content_sha256: f5a6dcf5257f33068e794cc5483f30825ac51b768404ffe2efc061f3a217aec3
 translated_from: content/en/fvr/V/02_s2_asymptotic_expansions.md
 translation_method: google
 source_content_sha256: 3913fa9ae08c74aef17f721c054e1ae91ca2d4d4ef6bc764fb678147ac681601
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b498ea02bb9bb35d55036710d9fdd6b25b7c8b3cd1bda159589262ac445468e1
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。漸近展開
@@ -53,7 +53,7 @@ E を基底 $\mathfrak{F}$ のフィルターでフィルター処理した集�
 
 #### 定義 1 {#fvr-v-s2-def-1 .statement tag=08ES}
 
-*One says that a subset $\mathscr{E}$ of $\mathscr{H}(\mathfrak{F}, K)$ formed of functions not equivalent to 0 modulo $R_\infty$ is a comparison scale when $\mathscr{E}$ is totally ordered by the relation " $f \ll g$ or $f = g$".*
+*ある人は、0モジュロ$R_\infty$に等価でない関数で構成される$\mathscr{H}(\mathfrak{F}, K)$の部分集合$\mathscr{E}$は、$\mathscr{E}$が関係「$f \ll g$または$f = g$」によって完全に順序付けされるときの比較スケールであると言います。
 
 他の語では、$f$と$g$が$\mathscr{E}$の写像であれば、関係$f \ll g$、$g \ll f$、$f = g$のうちの1つ（そして1つだけ）が常に成り立ちます。その結果、$\mathscr{E}$ *関係* $f \asymp g$ (および *なおさら* $|f| \sim a\,|g|$、$a$ は数 $> 0$) *暗黙* $f = g$ になります。
 
@@ -87,17 +87,17 @@ $\varphi$ を集合 F から E までの写像とし、$\varphi^{-1}(\mathfrak{F
 
 ### 2. 主部分と漸近展開
 
-$\mathscr{E}$ を、非離散値体 K の写像と値によって形成される比較スケールとします。 V を K に対する標準の空間とし、$\mathbf{f}$ を $\mathscr{H}(\mathfrak{F}, V)$ の写像とします。 V に $\mathbf{f} \sim \mathbf{a}g$ となるような写像 $g \in \mathscr{E}$ と元 $\mathbf{a} \neq 0$ がある場合、$\mathbf{a}g$ はスケール $\mathscr{E}$ に対して $\mathbf{f}$ の *主部分* であると言います。デフから。 V、p. 10、$\mathbf{f}$ の 1 は、$\mathscr{E}$ に対して *1 つだけ* のプリンシパル部分を持つことができます。これは、$g_1,\ g_2$ が $\mathscr{E}$ の 2 つの写像であり、$\mathbf{a}_1,\ \mathbf{a}_2$ が 2 つの $\neq 0$ である場合です。 V の元は、関係 $\mathbf{a}_1 g_1 \sim \mathbf{a}_2 g_2$ は $|g_1| \asymp |g_2|$ を意味し、その結果、$g_1 = g_2$、よって $(\mathbf{a}_2 - \mathbf{a}_1)g_1 \ll g_1$ となり、$g_1$ はどのパターンでも同じ零ではないため、 $\mathscr{E}$の集合は、$\mathbf{a}_2 = \mathbf{a}_1$を意味します。
+$\mathscr{E}$ を、非離散値体 K の写像と値によって形成される比較スケールとします。V を K 上の標準値空間とし、$\mathbf{f}$ を $\mathscr{H}(\mathfrak{F}, V)$ の写像とします。 V に $\mathbf{f} \sim \mathbf{a}g$ となる写像 $g \in \mathscr{E}$ と元 $\mathbf{a} \neq 0$ がある場合、$\mathbf{a}g$ はスケール $\mathscr{E}$ に対して $\mathbf{f}$ の *主部分* であると言います。デフから。 V、p. 10、$\mathbf{f}$ の 1 は、$\mathscr{E}$ に対して *1 つだけ* のプリンシパル部分を持つことができます。これは、$g_1,\ g_2$ が $\mathscr{E}$ で 2 つの写像であり、$\mathbf{a}_1,\ \mathbf{a}_2$ が 2 つの $\neq 0$ である場合です。 V の元は、関係 $\mathbf{a}_1 g_1 \sim \mathbf{a}_2 g_2$ は $|g_1| \asymp |g_2|$ を意味し、その結果、$g_1 = g_2$、よって $(\mathbf{a}_2 - \mathbf{a}_1)g_1 \ll g_1$ となり、$g_1$ はどの点でも同じ零ではないため、 $\mathscr{E}$ の集合は、$\mathbf{a}_2 = \mathbf{a}_1$ を意味します。
 
 $\mathbf{f}$ が比較スケール $\mathscr{E}$ に対して主成分部分を持つ場合、すべての比較スケール $\mathscr{E}' \supset \mathscr{E}$ に対して *同じ* 主成分部分を持ちます。
 
 #### 例 1 {#fvr-v-s2-n2-exa-1 .statement tag=08EY}
 
-$+\infty$ (それぞれ$\infty$) に傾向する$x$ 実数 (それぞれ複素数) の場合、V に係数を含むすべての多項式 $a_0 x^n + a_1 x^{n-1} + \ldots + a_n$ は、$a_0 \neq 0$ がスケールに関して主部分 $a_0 x^n$ を持ちます。 $x^n$ (または任意のスケール含むと $x^n$)。従って、$a_0 b_0 \neq 0$ が同じスケールに関して主部分 $\frac{a_0}{b_0} x^n$ を持つような実数または複素数係数を持つすべての有理分数 $\frac{a_0 x^n + \cdots + a_m}{b_0 x^n + \cdots + b_n}$ が得られます。
+$+\infty$ (それぞれ $\infty$) に傾向する$x$ 実数 (それぞれ複素数) の場合、V で係数を含むすべての多項式 $a_0 x^n + a_1 x^{n-1} + \ldots + a_n$ は、$a_0 \neq 0$ となり、スケールに関して主部分 $a_0 x^n$ を持ちます。 $x^n$ (または任意のスケール含むまたは $x^n$)。従って、$a_0 b_0 \neq 0$ が同じスケールに関して主部分 $\frac{a_0}{b_0} x^n$ を持つような実数または複素数係数を持つすべての有理分数 $\frac{a_0 x^n + \cdots + a_m}{b_0 x^n + \cdots + b_n}$ が得られます。
 
 #### 例 2 {#fvr-v-s2-n2-exa-2 .statement tag=08EZ}
 
-写像は、スケールのすべての写像に匹敵する可能性がありますが、このスケールに関して主要な部分は認められません。たとえば、$x$ 実質が $+\infty$ に向かう傾向がある場合、$\sqrt{x}$ はスケール $x^n$ に関して元本部分を持ちません。ここで、$n$ は有理数整数です。 $\log x$ には、$x^\alpha$ ($\alpha$ 任意の実数) のスケールに関して元本部分がありません。 $\exp(\sqrt{\log x})$ と $x' = e^{x \log x}$ には、$x^\alpha (\log x)^\beta$ のスケールに関しても、$\exp(p(x))$ のスケールに関しても主部分がありません ($p$ 定数項を持たない多項式)。
+写像は、スケールのすべての写像に匹敵する可能性がありますが、このスケールに関して主要な部分は認められません。たとえば、実質 $x$ が $+\infty$ に向かう傾向がある場合、$\sqrt{x}$ にはスケール $x^n$ に関して元本部分がありません。ここで、$n$ は有理数整数です。 $\log x$ には、$x^\alpha$ ($\alpha$ 任意の実数) のスケールに関して元本部分がありません。 $\exp(\sqrt{\log x})$ と $x' = e^{x \log x}$ には、$x^\alpha (\log x)^\beta$ のスケールに関しても、$\exp(p(x))$ のスケールに関しても主部分がありません ($p$ 定数項を持たない多項式)。
 
 プリンシパル部分の概念は広範な一般化を認めます。 写像 $f \in \mathscr{H}(\mathfrak{F}, V)$ がスケール $\mathscr{E}$ に関して主成分部分 $a_1 g_1$ を持っていると仮定します。 関係 $f \sim a_1 g_1$ は $f - a_1 g_1 \ll g_1$ (V、p. 216、デフォルト 4) と同等です。 写像 $f$ をより詳しく研究すると、写像 $f - a_1 g_1$ を検討するようになります。この写像に $\mathscr{E}$ に関してプリンシパル部分 $a_2 g_2$ がある場合、$g_2 \ll g_1$ と $f - a_1 g_1 - a_2 g_2 \ll g_2$ がなければなりません。
 
@@ -123,7 +123,7 @@ $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ と $\sum_{\lambda \leq \alpha}
 
 写像 $f$ が、係数がすべて *零* である精度 $g_\alpha$ への漸近展開を認めると言うのは、$f \ll g_\alpha$ のというと同等です。 $f$ が、係数がすべて零ではない精度 $g_\alpha$ への漸近展開 $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ を許容し、$\gamma$ が $a_\lambda \neq 0$ となる添字 $\lambda$ の最小のである場合、$a_\gamma g_\gamma$ $f - a_\gamma g_\gamma = \sum_{\gamma < \lambda \leq \alpha} a_\lambda g_\lambda + r_\alpha \ll g_\gamma$ があるため、スケール $\mathscr{E}$ に対する $f$ の *主部分* です。同様に、$\mu \leq \alpha$ が $a_\mu \neq 0$ となるような添字である場合、$a_\mu g_\mu$ は $f - \sum_{\lambda < \mu} a_\lambda g_\lambda$ の主部分になります。
 
-The most important asymptotic expansions in applications are those relative to the scale of the $x^{-n}$ (resp. of the $z^{-n}$), where $n$ is a positive or negative integer, as $x$ tends to $+\infty$ or to $-\infty$ (resp. when the complex number $z$ tends to $\infty$), or relative to the scale of the $(x - c)^n$ (resp. $(z - c)^n$) when the real number $x$ tends to $c$ from the right or left (resp. when the complex number $z$ tends to $c$). I, p. 21 で、点 $c \in \mathbf{R}$ で $k$ 回微分可能である実変数 $x$ のすべてのベクトル写像は、この点で位数 $k$ のテイラー展開を許容します。つまり、$(x - c)^n$ のスケールに関して精度 $(x - c)^k$ に漸近拡張します。
+アプリケーションにおける最も重要な漸近展開は、$x^{-n}$ (それぞれ $z^{-n}$) のスケールに関連したもので、$n$ は正または負の整数です。$x$ は $+\infty$ または $-\infty$ (複素数 $z$ が$\infty$)、または実数 $x$ が右または左から $c$ になる傾向がある場合 (それぞれ、複素数 $z$ が $c$ になる傾向がある場合) は、$(x - c)^n$ (または $(z - c)^n$) のスケールに相対します。 I, p. 21 で、点 $c \in \mathbf{R}$ で $k$ 回微分可能である実変数 $x$ のすべてのベクトル写像は、この点で位数 $k$ のテイラー展開を許容します。つまり、$(x - c)^n$ のスケールに関して精度 $(x - c)^k$ に漸近拡張します。
 
 ### 3. 漸近展開の和と積
 
@@ -221,4 +221,4 @@ $x$ の実質は $+\infty$ になる傾向があり、同じ周期 $\tau$、満�
 
 V、p. 222 の記法では、$a_\lambda$ 属するから $C$ と、そのうちの有限の数を除くすべてが零である $\sum_{\lambda \leq \alpha} a_\lambda g_\lambda$ は、 $f - \sum_{\lambda \leq \alpha} a_\lambda g_\lambda \ll g_\alpha$の場合、$C$の係数を含む$f$、精度$g_\alpha$。 $a_\mu \neq 0$ となるようなすべての添字 $\mu$ について、$\mathscr{E}$ および $C'$ に対して、$a_\mu g_\mu$ が $f - \sum_{\lambda < \mu} a_\lambda g_\lambda$ の主部分となり、$f$ の漸近展開の一意性が証明されます。 (精度 $g_\alpha$) 存在する場合。
 
-The methods given in n 3 (V, p. 223) for forming an asymptotic expansion for $f_1 + f_2$ or for $[f_1 . f_2]$, starting from given asymptotic expansions for $f_1$ and $f_2$, can again be applied to expansions with variable coefficients, so long as the $[a_\lambda . b_\mu]$ belong to the domain of coefficients $C$ corresponding to the normed space $V$ or admit an asymptotic expansion with coefficients in $C$.
+$f_1 + f_2$ または $[f_1 . f_2]$ の漸近展開を形成するための n 3 (V、p. 223) で指定された方法は、$f_1$ および $f_2$ の漸近展開から開始して、$[a_\lambda . b_\mu]$ が係数の領域に属している限り、可変係数による展開に再度適用できます。 $C$ は正規空間 $V$ に対応するか、$C$ の係数による漸近展開を認めます。

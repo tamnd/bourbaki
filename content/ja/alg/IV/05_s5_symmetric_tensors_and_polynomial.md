@@ -68,16 +68,16 @@ errata:
     - says: we have $u_\omega \in U^H$ for all $w \in \Omega$
       read: we have $u_\omega \in U^H$ for all $\omega \in \Omega$
       why: The proof on page 56 sets the subscript of u round and the quantifier of the same letter roman, in one clause.
-content_sha256: c10548f93a47c25977cdb4da10d6f87c3198a4ec8b78fcadfa1b96772a50ab53
+content_sha256: e91075266d65f24c5f2d5e1d491c12e48ed80e7b4b5bab588049b6ea7823331c
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 translation_method: google
 source_content_sha256: 0718f77b4c960447aa7b0aaceb1e4b634413b342ee6a1fdee7d6efa83b9be82a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d173a2bfeb42986931efb483ab6155c24882919b19cc04e7639a23fe37abaf8b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。対称テンソルおよび多項式写像
@@ -113,7 +113,7 @@ $$
 
 #### 定義 1 {#alg-iv-s5-def-1 .statement tag=06CT}
 
-— If G *is* of finite index in H, we denote by $\mathrm{Tr}_{H/G}$ the mapping of $M^G$ into $M^H$ defined by
+— G が H の有限インデックスである場合、次のように定義される $M^G$ から $M^H$ へのマッピングを $\mathrm{Tr}_{H/G}$ で表します。
 
 $$
 \mathrm{Tr}_{H/G} m = \sum_{x \in H/G} x m .
@@ -680,20 +680,20 @@ $$
 
 #### 命題 13 {#alg-iv-s5-prop-13 .statement tag=06DC}
 
-— *$M$と$N$を$A$モジュール、$q$整数$\geqslant 0$、$M$の$f$写像を$N$にします。 Suppose that $M$ is free, then the following conditions are equivalent:
-(i) There exists a $q$-linear mapping $g$ of $M^q$ into $N$ such that $f(x) = g(x, x, \ldots, x)$ for all $x \in M$.
-(ii) There exists a linear mapping $h$ of $TS^q(M)$ into $N$ such that $f(x) = h(\gamma_q(x))$ for all $x \in M$.
-(iii) There exists a basis $(e_i)_{i \in I}$ of $M$ and a family $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ of elements of $N$ such that
+— *$M$と$N$を$A$モジュール、$q$整数$\geqslant 0$、$M$の$f$写像を$N$にします。 $M$ が無料であると仮定すると、次の条件は同等です。
+(i) すべての $x \in M$ に対して $f(x) = g(x, x, \ldots, x)$ となるような、$M^q$ の $N$ への $q$ 線形写像 $g$ が存在します。
+(ii) すべての $x \in M$ に対して $f(x) = h(\gamma_q(x))$ となるような、$TS^q(M)$ から $N$ への線形写像 $h$ が存在します。
+(iii) 次のような $M$ の基底 $(e_i)_{i \in I}$ と $N$ の要素の族 $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ が存在します。
 $$
 f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-for all $(\lambda_i) \in A^{(I)}$.
-(iv) For each basis $(e_i)_{i \in I}$ of $M$ there exists a family $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ of elements of $N$ such that
+$(\lambda_i) \in A^{(I)}$の皆さんへ。
+(iv) $M$ の各基底 $(e_i)_{i \in I}$ に対して、次のような $N$ の要素の族 $(u_\nu)_{\nu \in N^{(I)}, |\nu| = q}$ が存在します。
 $$
 f\left( \sum_{i \in I} \lambda_i e_i \right) = \sum_{\nu \in N^{(I)}, |\nu| = q} \lambda^\nu u_\nu
 $$
-for all $(\lambda_i) \in A^{(I)}$.
-(i) $\Rightarrow$ (ii): let $g$ satisfy (i), then there exists a linear mapping $g'$ of $T^q(M)$ into $N$ such that $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ for any $x, \ldots, x, \in M$. それから
+$(\lambda_i) \in A^{(I)}$の皆さんへ。
+(i) $\Rightarrow$ (ii): $g$ が (i) を満たすとすると、任意の $x, \ldots, x, \in M$ に対して $g(x_1, x_2, \ldots, x_q) = g'(x_1 \otimes x_2 \otimes \ldots \otimes x)$ となる、$T^q(M)$ から $N$ への線形写像 $g'$ が存在します。 それから
 $$
 f(x) = g(x, x, \ldots, x) = g'(x \otimes x \otimes \ldots \otimes x) = g'(\gamma_q(x));
 $$
@@ -742,7 +742,7 @@ $$
 
 #### 例 1 {#alg-iv-s5-n9-exa-1 .statement tag=06DE}
 
-The homogeneous polynomial mappings of degree 1 of M into N are the A-linear mappings of M into N.
+M の N への次数 1 の同次多項式マッピングは、M から N への A 線形マッピングです。
 
 #### 例 2 {#alg-iv-s5-n9-exa-2 .statement tag=06DF}
 
@@ -754,11 +754,11 @@ $(M_j)_{j \in J}$ を自由A-加群の有限族とし、$u : \prod_{j \in J} M_j
 
 #### 例 4 {#alg-iv-s5-n9-exa-4 .statement tag=06DH}
 
-Let $(X_i)_{i \in I}$ be a family of indeterminates, $N$ an $A$-module and $u \in N[(X_i)_{i \in I}]$ a homogeneous polynomial of degree $q$. The mapping $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ of $A^{(I)}$ into $N$ is a homogeneous polynomial mapping of degree $q$: this is seen at once by condition (iii) of Prop. 13. $I$ が有限である場合、次数 $q$ の $A^{(I)} = A'$ から $N$ へのすべての同次多項式写像は、その形のものになります。
+$(X_i)_{i \in I}$ を不定数の族、$N$ を $A$ 加群、$u \in N[(X_i)_{i \in I}]$ を次数 $q$ の同次多項式とします。 $A^{(I)}$ の $N$ へのマッピング $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ は、次数 $q$ の同次多項式マッピングです: これは、提案 13 の条件 (iii) によってすぐにわかります。 $I$ が有限である場合、次数 $q$ の $A^{(I)} = A'$ から $N$ へのすべての同次多項式写像は、その形のものになります。
 
 #### 例 5 {#alg-iv-s5-n9-exa-5 .statement tag=06DI}
 
-The mapping $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ of $A^{(N)}$ into $A$ is a homogeneous polynomial mapping of degree 2. $A = 2/22$ の場合、線形写像 $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$ で一致する
+$A^{(N)}$ の $A$ へのマッピング $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ は、次数 2 の同次多項式マッピングです。 $A = 2/22$ の場合、線形写像 $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$ で一致する
 
 #### 例 6 {#alg-iv-s5-n9-exa-6 .statement tag=06DJ}
 
@@ -974,7 +974,7 @@ $$
 M^* = \mathrm{Pol}^1(M, A)
 $$
 
-$\mathrm{Pol}(M, A)$で。 $M$ が有限生成自由であり、$A$ が無限の整域である場合、$\lambda_M$ は全単射です (提案 20 および提案 19 の補正)。 In particular if $A$ is an infinite integral domain, then the canonical homomorphism $f \mapsto \tilde{f}$ of $A[X_1, \ldots, X_n]$ into $\mathrm{Pol}(A^n, A)$ (*IV*, p. 4) is an isomorphism.
+$\mathrm{Pol}(M, A)$で。 $M$ が有限生成自由であり、$A$ が無限の整域である場合、$\lambda_M$ は全単射です (提案 20 および提案 19 の補正)。 特に、$A$ が無限整域の場合、$A[X_1, \ldots, X_n]$ の $\mathrm{Pol}(A^n, A)$ (*IV*, p. 4) への正準準同型写像 $f \mapsto \tilde{f}$ は同型写像です。
 
 3) 余積 $c_S : S(M^*) \to S(M^* \times M^*)$ (III、p. 575、例 6) を考えてみましょう。任意の $v \in S(M^*)$、$x, y \in M$ について、多項式写像 $\lambda_{M \times M}(c_S(v)) : M \times M \to A$ 写像 $(x, y)$ ～ $A, (v)(x + y)$。このように定義された $S(M^*)$ から $\mathrm{Map}(M \times M, A)$ への 2 つの代数準同型は、関係のおかげで $M^*$ に一致します。
 

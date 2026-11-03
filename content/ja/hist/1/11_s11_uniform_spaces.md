@@ -11,16 +11,16 @@ pdf_pages: 0147-0148
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 628b0fce48463761304cd3371844e960a2ba6b8ccdb5c4a82b744628414e233f
+content_sha256: e2d857b367710291d84e732a437644d1d2dde0f465072913cd9e505a4027fc47
 translated_from: content/en/hist/1/11_s11_uniform_spaces.md
 translation_method: google
 source_content_sha256: 2860052876fd130ce2e248a166f6a973e304ef320bb3054ac1d9d92b237812ff
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: fa3e8772f3b9820c15e624a7bcced03e874fbb3ae67fa0b306749a1f47b12cc2
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 11. 制服空間。
@@ -33,4 +33,4 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 これらのアイデアのうち、より一般的な空間への拡大は、最初にいくつかの特殊なケースが検討され、次に一般的に距離 (点、満たすの特定の公理の対の数値写像) が与えられ、同時に定義するが与えられる計量空間が検討されたときに作成されました。 位相とユニフォーム構造。これら空間のうちの一般的な定義を最初に述べたフレシェは、コーシーの原理 [115 a] の重要性を認識し、プレコンパクト (または「完全に有界」 [115 a および b]) 空間のすべての計量空間、概念についても導入しました。ハウスドルフは、彼の「メンゲンレーレ」[152 a および b] で、多くの理論の計量空間を開発しましたが、特に、これらの空間に、上で検討したカントール構成を適用できることを認識し、すべての非「完全」計量空間について推定できることを認識しました（つまり、コーシーの原則は無効です)、「完全な」指標空間。
 
-メトリクス空間は、特定の種類の「均一空間」です。ユニフォーム空間は、A によって最近一般的な方法で定義されただけです。 ヴァイル [330 b]。 以前は、計量空間が扱われている場合に、概念の使い方と「均一構造」を参照する結果しか知られていませんでした。これは、距離が実際には役に立たない問題において、位相に関する多くの現代の研究において計量または計量可能空間 (特にコンパクト計量可能空間) が重要な役割を果たしていることを説明しています。 Once the definition of uniform spaces is stated, there is no difficulty (especially when the notion of filter is also available) in extending to these spaces nearly all the theory of metric spaces, as it is stated for example by Hausdorff (and to extend in the same way, for example, to all compact spaces, the results set out for compact metric spaces in the Topology of Alexandroff-Hopf [4]). 特に、均一空間の完成定理は、カントールの構成を実数に転置したものに他なりません。
+メトリクス空間は、特定の種類の「均一空間」です。ユニフォーム空間は、A によって最近一般的な方法で定義されただけです。 ヴァイル [330 b]。 以前は、計量空間が扱われている場合に、概念の使い方と「均一構造」を参照する結果しか知られていませんでした。これは、距離が実際には役に立たない問題において、位相に関する多くの現代の研究において計量または計量可能空間 (特にコンパクト計量可能空間) が重要な役割を果たしていることを説明しています。 均一空間の定義が述べられれば、例えばハウスドルフによって述べられているように、距離空間のほぼすべての理論をこれらの空間に拡張することは (特にフィルターの概念も利用できる場合には) 困難はありません (また、同じ方法で、例えばすべてのコンパクト空間に拡張することもできます。結果は Alexandroff-Hopf のトポロジー [4] でコンパクト距離空間について示されています)。 特に、均一空間の完成定理は、カントールの構成を実数に転置したものに他なりません。

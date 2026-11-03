@@ -29,16 +29,16 @@ subsections:
       pdf_page: 76
 statements: 24
 exercises: 30
-content_sha256: edf69dcbb8513583e50881ab68232ea61be647902a076d4434a0cdac986d2821
+content_sha256: dde3f427ce05b9278b23afe9454eca7bd21b252f162eaf2ddf12b5b7916df08e
 translated_from: content/en/evt/II/05_s5_separation_of_convex_sets.md
 translation_method: google
 source_content_sha256: 497d18fc81f060c697d16f5bff7ad7d5e4bacb2a2d64dfc57ebdfcc324868bea
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e9af9b36c150c5eb128d5a7dc5a753886d7343c311480e703386f6ce6eb46811
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。凸部の分離集合
@@ -144,7 +144,7 @@ $A$ のすべてのサポート超平面は、$A$ のすべての点が超平面
 
 #### 系 5 {#evt-ii-s5-prop-4-cor-5 .statement tag=07FY}
 
-*In a locally convex space $E$, the closure of each convex cone $C$ of vertex $0$ is the intersection of closed half-spaces containing $C$ determined by closed hyperplanes that pass through $0$.*
+*局所凸空間 $E$ では、頂点 $0$ の各凸円錐 $C$ の閉包は、 $0$ を通過する閉超平面によって決定される $C$ を含む閉半空間の交点です。
 
 $\overline{C}$ は頂点 $0$ の凸円錐です (II, p. 13, 提案 14)。 $x \notin \overline{C}$ については、$x$ を $\overline{C}$ から厳密に分離する閉じた超平面 $H$ が存在します (提案 4)。ここで必要なのは、次の補題を適用することだけです。
 
@@ -192,7 +192,7 @@ $X$ は空ではないと仮定できます。 $u, v$ を、すべての $x \in 
 
 #### 系 {#evt-ii-s5-n4-cor-1 .statement tag=07G5}
 
-*Let $f$ be a continuous affine function in $X$; then there exists a sequence $(h_n)$ of elements of $L$ which converges uniformly to $f$ in $X$.*
+*$f$を$X$の連続アフィン関数とします。その場合、$X$ の $f$ に一様に収束する $L$ の要素のシーケンス $(h_n)$ が存在します。
 
 というのは、プロップ。 6 と Dini の定理 (GT, X, § 4.1, th. 1) は、すべての $n$ に対して、$f \leq h_n \leq f + 1/n$ となるような $h_n \in L$ が存在することを示しています。
 

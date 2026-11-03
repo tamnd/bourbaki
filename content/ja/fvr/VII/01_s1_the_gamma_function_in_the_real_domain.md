@@ -25,16 +25,16 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: ee972b075aaa74761f8f96bfc057a60d470201e9faea53982d333e255f7e5f34
+content_sha256: 5b7a65eb6c1d1dc0629bc4deff653986afce25079a52c907f53e87777a815451
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
 translation_method: google
 source_content_sha256: c14b2d3b10b39cdfef4ea9acb546a2878e81232b29d6cdb8928fc7269171f7f2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: fecdd1549db3e8bce33143a1f69b04f6b80acbbcb397d48cbbd59d1cc8ebdc85
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。実領域のガンマ写像
@@ -85,7 +85,7 @@ $g_1$ が ]0, +∞[ 上の (3) の 2 番目の連続解であり、$h = g_1 - g$
 
 *凸型写像* $g$ *上で定義* ]0, +∞[ *方程式* (3) を満たし、 * $x = 1$ に対して値 0 をとります* が 1 つだけ存在します。
 
-まず、写像 $g$ 満たす条件が指定されている場合、それは区間 ]0, 1] でよく決まり、その結果区間 ]0, +∞[ でよく決まることを示します。 Indeed, for every integer $n > 1$ the gradient of the line joining the point $(n, g(n))$ to the point $(x, g(x))$ is an increasing function of $x$, since $g$ is convex (I, p. 27, prop. 5); one thus must have, for $0 < x \leq 1$,
+まず、写像 $g$ 満たす条件が指定されている場合、それは区間 ]0, 1] でよく決まり、その結果区間 ]0, +∞[ でよく決まることを示します。 実際、すべての整数 $n > 1$ について、点 $(n, g(n))$ と点 $(x, g(x))$ を結ぶ線の勾配は、$g$ が凸であるため、$x$ の増加関数になります (I, p. 27、提案 5)。従って、$0 < x \leq 1$ については、次のことが必要です。
 
 $$
 \frac{g(n-1) - g(n)}{(n-1) - n} \leq \frac{g(n+x) - g(n)}{(n+x) - n} \leq \frac{g(n+1) - g(n)}{(n+1) - n}
@@ -217,11 +217,11 @@ $x > 0$ に対して定義された写像 $\Gamma(x)$ は、整数 $\leq 0$ と�
 $$
 \Gamma(x) = \frac{1}{x(x+1)\ldots(x+n)} \Gamma(x+n+1).
 $$
-プロップにより。 VII、p. 307の2、VII、p. 307、308の式(8)、(9)、(10)、(11)、(11)の$D^k(\log |\Gamma(x)|)$ 置き換えること $D^k(\log \Gamma(x))$は、この集合でも有効です。 Formula (9) (VII, p. 307) shows that $\Gamma(x) \sim 1/x$ as x tends to 0, whence, by (7) of VII, p. 307,
+プロップにより。 VII、p. 307の2、VII、p. 307、308の式(8)、(9)、(10)、(11)、(11)の$D^k(\log |\Gamma(x)|)$ 置き換えること $D^k(\log \Gamma(x))$は、この集合でも有効です。 式(9) (VII, p. 307) は、x として $\Gamma(x) \sim 1/x$ が 0 になる傾向があることを示しており、したがって、VII, p. 307 の (7) より、
 $$
 \Gamma(x) \sim \frac{(-1)^n}{n! (x+n)}
 $$
-as x tends to $-n$ ($n$ an integer $\geq 0$). 写像 $1/\Gamma(x)$ は、$\mathbf{R}$ のすべてへの連続性によって拡張でき、整数 $\leq 0$ で値 0 を割り当てます。それでは、皆さん $x \in \mathbf{R}$
+x は $-n$ ($n$ 整数 $\geq 0$) になる傾向があるためです。 写像 $1/\Gamma(x)$ は、$\mathbf{R}$ のすべてへの連続性によって拡張でき、整数 $\leq 0$ で値 0 を割り当てます。それでは、皆さん $x \in \mathbf{R}$
 $$
 \frac{1}{\Gamma(x)} = \lim_{n \to \infty} \frac{x(x+1)\ldots(x+n)}{n^n n!}
 $$
@@ -240,7 +240,7 @@ $$
 \Gamma''(x) \Gamma(x) - (\Gamma'(x))^2 \geq 0,
 $$
 
-and consequently $\Gamma''(x)$ has the same sign as $\Gamma(x)$; thus $\Gamma$ is *convex* for $x > 0$ and for $-(2n+2) < x < -(2n+1)$, and *concave* for $-(2n+1) < x - 2n \ (n \in \mathbf{N})$; one deduces from this that, on the intervals where $\Gamma$ is convex, $\Gamma'(x)$ increases from $-\infty$ to $+\infty$, and on the intervals where $\Gamma$ is concave, $\Gamma'(x)$ decreases from $+\infty$ to $-\infty$. よって $\Gamma$ のグラフ (図 1)。
+従って、$\Gamma''(x)$ は $\Gamma(x)$ と同じ符号を持ちます。従って、$\Gamma$ は、$x > 0$ と $-(2n+2) < x < -(2n+1)$ では *凸* であり、$-(2n+1) < x - 2n \ (n \in \mathbf{N})$ では *凹* です。このことから、$\Gamma$ が凸の区間では、$\Gamma'(x)$ は $-\infty$ から $+\infty$ に増加し、$\Gamma$ が凹の区間では、$\Gamma'(x)$ は $+\infty$ から $-\infty$ に減少すると推測されます。 よって $\Gamma$ のグラフ (図 1)。
 
 **イチジク。 1**
 
@@ -294,7 +294,7 @@ $$
 
 (2 番目のオイラー積分)。
 
-Now the function $g(x) = \int_0^\infty e^{-t} t^{x-1} dt$ is defined for all $x > 0$ (V, p. 229); lemma 3 of VII, p. 311, then shows that it is *logarithmically convex* on ]$0, +\infty[$. さらに、部分で積分すると、
+現在、写像 $g(x) = \int_0^\infty e^{-t} t^{x-1} dt$ はすべての $x > 0$ (V、p. 229) に対して定義されています。 VII、p. 311 の補題 3 は、]$0, +\infty[$ に *対数凸* であることを示します。さらに、部分で積分すると、
 
 $$
 g(x+1) = \int_0^\infty e^{-t} t^x \, dt = -e^{-t} t^x \Big|_0^\infty + x \int_0^\infty e^{-t} t^{x-1} dt = x \, g(x).

@@ -25,37 +25,37 @@ subsections:
       pdf_page: 228
 statements: 17
 exercises: 18
-content_sha256: e7f93e8e75db9a43d8fe3379c2790e8e716835e762e8480be166910d4b0e060c
+content_sha256: db84caec5e26c6316a177fa79216085fb640592792a7dae30e674642eab0ed6e
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
 translation_method: google
 source_content_sha256: b7143e1dccb4a50f4c6430b942b6320cab29a534320ec6405180a553d32e45d9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9c9c3e7060c20178c023d83f51143cf4f38693782bcfe7919b72dff7dd157115
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。対策と加法的集合写像
 
 この切断では、ハウスドルフ位相幾何学空間 T のコンパクト部分集合と T のボレル部族の集合を、それぞれ $\mathscr{K}(T)$ と $\mathscr{B}(T)$ で表すことにします。
 
-### 1. コンパクト集合の対策と加法的集合写像
+### 1. コンパクト集合の加法的集合写像を対策
 
 #### 定理 1 {#int-ix-s3-thm-1 .statement tag=09PN}
 
-— T をトポロジー 空間、および $\mathscr{K}(T)$ から $\mathbf{R}_+$ への I 写像とする。 位数では、すべての $K \in \mathscr{K}(T)$ に対して $I(K) = \mu^\bullet(K)$ となるような尺度 $\mu$ が T に存在するため、次の条件が I 満たすとなることが必要かつ十分です。
+— T をトポロジー 空間および $\mathscr{K}(T)$ から $\mathbf{R}_+$ への I 写像とする。 位数では、すべての $K \in \mathscr{K}(T)$ に対して $I(K) = \mu^\bullet(K)$ となるような尺度 $\mu$ が T に存在するため、次の条件 I 満たすが必要かつ十分です。
 
 1) K と L が $K \subset L$ となるような T のコンパクト部分集合である場合、$I(K) \leq I(L)$ (「I は増加する」)。
 
-2) K と L が T の部分集合よりコンパクトな場合、$I(K \cup L) \leq I(K) + I(L)$。
+2) K と L が T の部分集合とコンパクトな場合、$I(K \cup L) \leq I(K) + I(L)$ です。
 
-3) K と L が T の互いに素コンパクト部分集合である場合、$I(K \cup L) = I(K) + I(L)$ (「I は加法的」)。
+3) K と L が T の互いに素圧縮部分集合である場合、$I(K \cup L) = I(K) + I(L)$ (「I は加法的」)。
 
 4) T のコンパクト部分集合のすべての減少する有向族 $(K_\alpha)_{\alpha \in A}$ に対して、1 つは $I(\bigcap_{\alpha \in A} K_\alpha) = \inf_{\alpha \in A} I(K_\alpha)$ を持ちます。
 
-5) すべての $x \in T$ に対して、次のような x の近傍 V が存在します。
+5) $x \in T$ ごとに、次のような x の近傍 V が存在します。
 $$
 \sup_{\substack{K \in \mathscr{K}(T) \\ K \subset V}} I(K) < +\infty
 $$
@@ -63,29 +63,29 @@ $$
 
 したがって、メジャー $\mu$ は一意になります。
 
-The uniqueness of $\mu$ follows from the Cor. of Prop. 2 of § 1, No. 2. 上記の条件は必要で、最初の 3 つは明らかな方法で、最後の 1 つは $\mu^\bullet$ が局所的に制限された制約であるという事実から、そして条件 4) は Cor によるものです。 § 1, No. 6の提案5の。
+$\mu$ の一意性はコルから続きます。 § 1, No. 2の提案2の。上記の条件は必要であり、最初の 3 つは明らかな方法であり、最後の $\mu^\bullet$ は局所的に制限された制約であるという事実からのものであり、条件 4) Cor によるものです。 § 1, No. 6の提案5の。
 
 これら条件が十分であることを示すために、T がコンパクトである場合を扱うことから始めます。
 
 #### 補題 1 {#int-ix-s3-lem-1 .statement tag=09PO}
 
-T がコンパクトであり、集合 l = I(T) であると仮定します。 $A \subset T$、集合ごとに
+T がコンパクトで、集合 l = I(T) であると仮定します。 $A \subset T$、集合ごとに
 
 $$
 J(A) = \sup_{\substack{K \in \mathscr{K}(T) \\ K \subset A}} I(K)
 $$
 
-そして、$\Phi$ を $A \subset T$ の集合とし、$J(A) + J(\mathbf{C}A) = l$ とします。 集合 $\Phi$ は、含む $\mathscr{K}(T)$ と$\Phi$ の写像 $J$ が増加するとなるクランです。
+そして、$\Phi$ を $A \subset T$ の集合として、$J(A) + J(\mathbf{C}A) = l$ とします。 集合 $\Phi$ は、含む $\mathscr{K}(T)$ と$\Phi$ の写像 $J$ が増加するとなるクランです。
 
 $J$ は $I$ を延長して増加する集合写像となり、$A \subset T$ ごとに $J(A) + J(\mathbf{C}A) \leq l$ になることは明らかです。
 
-$K$ と $S$ を、$T$ の 2 つのコンパクトな集合とします。まずそれを示します
+$K$ と $S$ を $T$ の 2 つのコンパクトな集合とします。まずそれを示します
 
 $$
 J(K \cap S) + J(\mathbf{C}K \cap S) = J(S).
 $$
 
-$I$から$\mathscr{K}(S)$の制限と、$J$から$\mathfrak{P}(S)$の制限を考えると、$S = T$の場合にはすぐに簡約するが1つ出ます。 $T$ が正常であるため、$K$ はそのコンパクトな近傍の減少するの有向族の共通部分であり、条件 4) は、$\varepsilon > 0$ ごとに、$I(H) \leq I(K) + \varepsilon$ となるような $K$ のコンパクトな近傍 $H$ の存在を暗示します。 $L$ を $T - H$ の閉包とします。 $L$ はコンパクト、$L \cap K = \varnothing$ と $H \cup L = T$、したがって $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (条件 2))、よって関係 $J(K) + J(\mathbf{C}K) \geq I(K) + I(L) \geq l - \varepsilon$。 $\varepsilon$は任意なので$J(K) + J(\mathbf{C}K) = l$。 これは公式 (2) と包含 $\mathscr{K}(T) \subset \Phi$ を証明します。
+$I$から$\mathscr{K}(S)$の制限と、$J$から$\mathfrak{P}(S)$の制限を考えると、$S = T$の場合にはすぐに簡約するが1つあります。 $T$ が正常であるため、$K$ は、そのコンパクトな近傍の減少するの有向族である共通部分であり、条件 4) $\varepsilon > 0$ ごとに、次のような $K$ のコンパクトな近傍 $H$ の存在を暗示します。 $I(H) \leq I(K) + \varepsilon$。 $L$ を $T - H$ の終結とします。 $L$ はコンパクト、$L \cap K = \varnothing$ と $H \cup L = T$、したがって $l = I(H \cup L) \leq I(H) + I(L) \leq I(K) + I(L) + \varepsilon$ (条件 2))、よって関係 $J(K) + J(\mathbf{C}K) \geq I(K) + I(L) \geq l - \varepsilon$。 $\varepsilon$は任意なので$J(K) + J(\mathbf{C}K) = l$。これは公式 (2) と包含 $\mathscr{K}(T) \subset \Phi$ を証明します。
 
 ここで、$\Phi$ がクランであることを証明してみましょう。 $\Phi$ は補体への移行下では明らかに安定しているため、$A_1$ と $A_2$ が $\Phi$ の元を表す場合、$A_1 \cup A_2 \in \Phi$、または再度以下を示すだけで十分です。
 
@@ -210,7 +210,7 @@ Thさんより1、すべての $K \in \mathscr{K}(T)$ に対して $\mu^\bullet(
 
 #### 定義 2 {#int-ix-s3-def-2 .statement tag=09PY}
 
-*T を位相ベクトル空間とします。 One says that T is a Radon (resp. strongly Radon) space if T is Hausdorff and if every function defined on the Borel tribe $\mathscr{B}(T)$ of T, with values in $\overline{\mathbf{R}}_+$, that is countably additive and bounded (resp. locally bounded) is inner regular.*
+*T を位相ベクトル空間とします。 T がハウスドルフであり、T のボレル族 $\mathscr{B}(T)$ で値が $\overline{\mathbf{R}}_+$ にある、可算加算的で有界 (または局所有界) で定義されたすべての関数が内部正則である場合、T はラドン (または強ラドン) 空間であると言われます。
 
 たとえば、すべてのポーランド語空間は強力にラドンであることは後でわかります (提案 3)。特に、可算な基底を持つ局所的にコンパクトな空間はすべて強くラドンです。
 

@@ -49,16 +49,16 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 7db2cc47dbc08ce9014b4f07d6741439760a5f957be1266e3cfdcd86e9369184
+content_sha256: 2f71caf13d072539e547ad697c61bf315421241044247bf3ad81c1831eb92b1a
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 translation_method: google
 source_content_sha256: bb9011131c235f557b70d1568fb503a2bded76eb3a6bc7fabc1b5db368218573
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f39d7504f4c54a1effe9e74fbf96c72461cd9d9b45309ed285580a4ba104d764
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。線形微分方程式
@@ -101,7 +101,7 @@ $$
 
 は線形微分方程式です。ここで $A(t)$ は、それ自体に対する $G$ の線形写像 $x \mapsto a(t)x + x b(t)$ です。
 
-For every $t \in J$, $A(t)$ is an element of the set $\mathscr{L}(E)$ of continuous linear maps from $E$ to itself (continuous endomorphisms of $E$); one knows (*Gen. トップ。*、X、p. 298) $\mathscr{L}(E)$ は、*ノルム* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$ が体 $\mathbf{R}$ を超える * 完全な標準代数* であり、その $\|UV\| \leq \|U\|\ \|V\|$ です。
+すべての $t \in J$ について、$A(t)$ は、$E$ からそれ自体への連続線形写像の集合 $\mathscr{L}(E)$ の要素です ($E$ の連続同型写像)。誰もが知っています（*Gen. トップ。*、X、p. 298) $\mathscr{L}(E)$ は、*ノルム* $\|U\| = \sup_{\|x\| \leq 1} \|Ux\|$ が体 $\mathbf{R}$ を超える * 完全な標準代数* であり、その $\|UV\| \leq \|U\|\ \|V\|$ です。
 
 *この切断全体を通して、次の条件が満たされていると仮定します。*
 
@@ -195,7 +195,7 @@ $$
 
 *$J \times J$から$\mathscr{L}(E)$への写像$(s, t) \mapsto C(s, t)$は連続です。*
 
-By (6) we have $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$; now, the map $(X, Y) \mapsto XY$ of $\mathscr{L}(E) \times \mathscr{L}(E)$ into $\mathscr{L}(E)$ is continuous, as is the map $X \mapsto X^{-1}$ of the (open) group of invertible elements of $\mathscr{L}(E)$ onto itself (TG, IX, p. 40, prop. 14).
+(6) までに $C(s, t) = C(s, t_0) \left( C(t, t_0) \right)^{-1}$ になります。さて、$\mathscr{L}(E) \times \mathscr{L}(E)$ から $\mathscr{L}(E)$ への写像 $(X, Y) \mapsto XY$ は、$\mathscr{L}(E)$ の可逆要素の (開いた) グループのそれ自体への写像 $X \mapsto X^{-1}$ と同様に連続しています (TG、IX、p. 40、提案 14)。
 
 写像に注目してください。
 $$
@@ -260,7 +260,7 @@ $$
 \frac{d\mathbf{z}}{dt} = C(t_0, t).\mathbf{b}(t)
 $$
 
-IV、p. 179 の 2 番目の公式 (6) まで。 Now the right-hand side of equation (8) is a regulated function on J, having been obtained by substituting the regulated functions $U$ and $y$ in the continuous bilinear function $U.y$ (\emph{cf.} II, p. 55, cor. 2); equation (8) thus has one and only one integral taking the value $\mathbf{x}_0$ at $t_0$, given by the formula
+IV、p. 179 の 2 番目の公式 (6) まで。 ここで、方程式 (8) の右辺は J に関する調整関数であり、連続双一次関数 $U.y$ (\emph{cf.} II, p. 55, cor. 2) に調整関数 $U$ と $y$ を代入することで得られます。したがって、方程式 (8) には、次の式で与えられる、$t_0$ での値 $\mathbf{x}_0$ を取る積分が 1 つだけあります。
 
 $$
 \mathbf{z}(t) = \mathbf{x}_0 + \int_{t_0}^t C(t_0, s).\mathbf{b}(s)\,ds.
@@ -318,13 +318,13 @@ $$
 u(t) = x_0 \exp \left( \int_{t_0}^t a(s)\, ds \right) + \int_{t_0}^t b(s) \exp \left( \int_{t_0}^\tau a(\tau)\, d\tau \right) ds.
 $$
 
-In the space $\mathscr{C}(J; E)$ of continuous maps from J into E, endowed with the topology of compact convergence, the set $\mathscr{I}$ of integrals of equation (4) is a vector subspace (over $\mathbf{C}$) isomorphic to E, therefore to $\mathbf{C}^n$ (IV, p. 180, cor. 1, and IV, p. 181, prop. 2).
+コンパクトな収束のトポロジーを備えた J から E への連続写像の空間 $\mathscr{C}(J; E)$ では、方程式 (4) の積分の集合 $\mathscr{I}$ は E と同型のベクトル部分空間 ($\mathbf{C}$ 以上) であり、したがって $\mathbf{C}^n$ (IV、p. 180、cor. 1、および IV) p. 181、提案 2)。
 
 この空間 (体 $\mathbf{C}$ 以上) の基底 $(\mathbf{u}_j)_{1 \leq j \leq n}$ を (4) の積分の * 基礎系* と呼びます。
 
 #### 命題 4 {#fvr-iv-s2-prop-4 .statement tag=08CY}
 
-*For the $n$ integrals $\mathbf{u}_j$ ($1 \leq j \leq n$) of equation (4) to form a fundamental system it is necessary and sufficient that their values $\mathbf{u}_j(t_0)$ at a point $t_0 \in J$ be linearly independent vectors in $E$.*
+*方程式 (4) の $n$ 整 $\mathbf{u}_j$ ($1 \leq j \leq n$) が基本システムを形成するには、点 $t_0 \in J$ におけるそれらの値 $\mathbf{u}_j(t_0)$ が $E$ で線形独立ベクトルであることが必要かつ十分です。*
 
 実際、整 $t \mapsto C(t, t_0).\mathbf{x}_0$ をすべての $\mathbf{x}_0 \in E$ に関連付ける写像は、 $E$ の $\mathscr{I}$ 上の同型です (IV、p. 180、cor. 1 および IV、p. 181、prop. 2)。
 
@@ -343,7 +343,7 @@ $$
 \Delta(t) = \Delta(t_0) \det \left( C(t, t_0) \right).
 $$
 
-By prop. 4 of IV, p. 184, for $(\mathbf{u}_j)_{1 \leq j \leq n}$ to be a fundamental system of integrals of (4) it is necessary and sufficient that the determinant $\Delta(t)$ of the $\mathbf{u}_j$ be $\neq 0$ at some one point $t_0$ of $J$; the formula (14) then shows that $\Delta(t) \neq 0$ at every point of $J$, in other words, that the vectors $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) are always linearly independent.
+プロップにより。 IV、p. 184 の 4、$(\mathbf{u}_j)_{1 \leq j \leq n}$ が (4) の基本的な積分系であるためには、$\mathbf{u}_j$ の行列式 $\Delta(t)$ が $J$ のどこかの点 $t_0$ で $\neq 0$ であることが必要かつ十分です。式 (14) は、$J$ のすべての点で $\Delta(t) \neq 0$、つまりベクトル $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) が常に線形独立であることを示します。
 
 #### 命題 5 {#fvr-iv-s2-prop-5 .statement tag=08CZ}
 
@@ -372,9 +372,9 @@ $$
 \mathbf{u}_{p+k} \quad (1 \leq k \leq n - p)
 $$
 
-of $K$ into $E$, which are primitives of regulated functions on $K$, and such that, for every $t \in K$, the $n$ vectors $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) form a basis of $E$.
+$K$ を $E$ に変換します。これは、$K$ で制御された関数のプリミティブであり、$t \in K$ ごとに、$n$ ベクトル $\mathbf{u}_j(t)$ ($1 \leq j \leq n$) が $E$ の基礎を形成します。
 
-すべての点 $t_1 \in J$ に対して、$J$ の $t_1$ の区間 $K$、近傍が常に存在し、その上に、前述のプロパティを持つ $n - p$ 写像 $\mathbf{u}_{p+k}$ ($1 \leq k \leq n - p$) が定義されています。 For, let $(\mathbf{e}_i)_{1 \leq i \leq n}$ be a basis of $E$; there exist $n - p$ vectors of this basis which form with the $\mathbf{u}_j(t_1)$ ($1 \leq j \leq p$) a basis of $E$ (Alg., II, p. 292, th. 2); suppose for example that they are $\mathbf{e}_{p+1}, \ldots, \mathbf{e}_n$; since the determinant $\det(\mathbf{u}_1(t), \ldots, \mathbf{u}_p(t), \mathbf{e}_{p+1}, \ldots, \mathbf{e}_n)$ (with respect to the basis $(\mathbf{e}_i)$) is a continuous function of $t$ and does not vanish for $t = t_1$ there exists a neighbourhood $K$ of $t_1$ on which it does not vanish; one can then take $\mathbf{u}_{p+k}(t) = \mathbf{e}_{p+k}$ ($1 \leq k \leq n - p$) for $t \in K$.
+すべての点 $t_1 \in J$ に対して、$J$ の $t_1$ の区間 $K$、近傍が常に存在し、その上に、前述のプロパティを持つ $n - p$ 写像 $\mathbf{u}_{p+k}$ ($1 \leq k \leq n - p$) が定義されています。 というのは、$(\mathbf{e}_i)_{1 \leq i \leq n}$ を $E$ の基礎とします。この基底には $n - p$ ベクトルが存在し、$\mathbf{u}_j(t_1)$ ($1 \leq j \leq p$) とともに $E$ の基底を形成します (Alg.、II、p. 292、th. 2)。たとえば、それらが$\mathbf{e}_{p+1}, \ldots, \mathbf{e}_n$であると仮定します。行列式 $\det(\mathbf{u}_1(t), \ldots, \mathbf{u}_p(t), \mathbf{e}_{p+1}, \ldots, \mathbf{e}_n)$ (基底 $(\mathbf{e}_i)$ に関して) は $t$ の連続関数であり、$t = t_1$ の間消滅しないので、それが消滅しない $t_1$ の近傍 $K$ が存在します。 $\mathbf{u}_{p+k}(t) = \mathbf{e}_{p+k}$ ($1 \leq k \leq n - p$) を $t \in K$ にすることができます。
 
 位数 $n$ の可逆行列 $B(t)$ が存在します。その元は、$1 \leq j \leq n$ に対して $B(t).\mathbf{e}_j = \mathbf{u}_j(t)$ となるように、$K$ 上の規制された写像のプリミティブです。 $x = B(t).y$ を入れましょう。この場合、$y$ は式 $\frac{dB}{dt}.y + B(t).\frac{dy}{dt} = A(t)B(t).y$ を満たし、次のように書くこともできます。
 
@@ -404,7 +404,7 @@ $$
 \mathbf{u}_i(t) = \sum_{j=1}^n c_{ij}(t, t_0) \mathbf{d}_j \qquad (1 \leq i \leq n).
 $$
 
-We consider in particular the case where $A(t)$ is an endomorphism of a vector space E of finite dimension $n$ over $\mathbf{C}$, such that there exists a basis of E with respect to which the matrix of $A(t)$ has real elements for every $t \in J$. Then the above shows (by th. 1 of IV, p. 179) that the resolvent matrix $C(t, t_0)$ with respect to the same basis also has real elements: it suffices to consider the vector space $E_0$ over $\mathbf{R}$ generated by the basis of E under consideration, and to remark that the restriction of $A(t)$ to $E_0$ is an endomorphism of this vector space.
+特に、$A(t)$ が $\mathbf{C}$ 上の有限次元 $n$ のベクトル空間の自己準同型である場合を考えます。つまり、$A(t)$ の行列がすべての実数元を持つことに関して、E の基底が存在します。 $t \in J$。 次に、上記は (IV、p. 179 の 1 番目によって)、同じ基底に関する分解行列 $C(t, t_0)$ にも実数要素があることが示されています。検討中の E の基底によって生成される $\mathbf{R}$ 上のベクトル空間 $E_0$ を考慮し、$A(t)$ から $E_0$ の制限は次のとおりであることに注意するだけで十分です。このベクトル空間の準同型性。
 
 ### 5. 随伴方程式
 
@@ -436,7 +436,7 @@ $$
 
 *ここで、$-B(t)$は$A(t)$の転置です。*
 
-式 (16) は、(4) の *随伴* と呼ばれます。明らかに (4) は (16) の随伴です。 The elements of the matrix $B(t)$ being regulated functions of $t$ on J, the results obtained above on linear equations apply to (16). 特に、点 $t_0$ で値 $\mathbf{x}_0^*$ を取る (16) の積分は、$H(t, t_0).\mathbf{x}_0^*$ と書くことができます。ここで、$H(t, t_0)$ は、$\mathrm{E}^*$ の全単射線形写像であり、方程式の積分と同じです。
+式 (16) は、(4) の *随伴* と呼ばれます。明らかに (4) は (16) の随伴です。 行列 $B(t)$ の要素は J 上の $t$ の調整された関数であり、線形方程式で上で得られた結果は (16) に当てはまります。 特に、点 $t_0$ で値 $\mathbf{x}_0^*$ を取る (16) の積分は、$H(t, t_0).\mathbf{x}_0^*$ と書くことができます。ここで、$H(t, t_0)$ は、$\mathrm{E}^*$ の全単射線形写像であり、方程式の積分と同じです。
 
 $$
 \frac{dV}{dt} = B(t)V \tag{17}
@@ -458,7 +458,7 @@ $$
 
 #### 注意 {#fvr-iv-s2-n5-rem-1 .statement tag=08D3}
 
-Let E and F be two complete normed spaces over $\mathbf{R}$ (or over $\mathbf{C}$), and $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ a *continuous* bilinear form on $\mathrm{E} \times \mathrm{F}$, such that the relation “$\langle \mathbf{x}, \mathbf{y} \rangle = 0$ for all $\mathbf{y} \in \mathrm{F}$” (resp. $\langle \mathbf{x}, \mathbf{y} \rangle = 0$ for all $\mathbf{x} \in \mathrm{E}$”) implies $\mathbf{x} = 0$ (resp. $\mathbf{y} = 0$). さらに、すべての $t \in \mathrm{J}$ に対して、それ自体への F の連続線形写像 $B(t)$ が存在し、すべての $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$ に対して $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ になると仮定します。 このような状況では、前にのように、規制された写像のプリミティブであるJをFに変換する写像$t \mapsto \mathbf{v}(t)$に関して、$\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$が(4)の*すべての*整$\mathbf{u}$に対して*定数*であるためには、$\mathbf{v}$が(16)の積分であることが必要かつ十分であることがわかります。もう一度、(4) の *随伴* と呼びます。
+E と F を、$\mathbf{R}$ (または $\mathbf{C}$) 上の 2 つの完全なノルム空間、および $(\mathbf{x}, \mathbf{y}) \mapsto \langle \mathbf{x}, \mathbf{y} \rangle$ を $\mathrm{E} \times \mathrm{F}$ 上の *連続* 双線形形式とし、「すべての $\mathbf{y} \in \mathrm{F}$ に対して $\langle \mathbf{x}, \mathbf{y} \rangle = 0$」 (すべての $\mathbf{x} \in \mathrm{E}$ に対して$\langle \mathbf{x}, \mathbf{y} \rangle = 0$) という関係が意味するようにします。 $\mathbf{x} = 0$ (それぞれ $\mathbf{y} = 0$)。 さらに、すべての $t \in \mathrm{J}$ に対して、それ自体への F の連続線形写像 $B(t)$ が存在し、すべての $(\mathbf{x}, \mathbf{y}) \in \mathrm{E} \times \mathrm{F}$ に対して $\langle A(t).\mathbf{x}, \mathbf{y} \rangle + \langle \mathbf{x}, B(t).\mathbf{y} \rangle = 0$ になると仮定します。 このような状況では、前にのように、規制された写像のプリミティブであるJをFに変換する写像$t \mapsto \mathbf{v}(t)$に関して、$\langle \mathbf{u}(t), \mathbf{v}(t) \rangle$が(4)の*すべての*積分$\mathbf{u}$に対して*定数*であるためには、$\mathbf{v}$が(16)の積分であることが必要かつ十分であることがわかります。もう一度、(4) の *随伴* と呼びます。
 
 ### 6. 定数係数を使用した線形微分方程式
 
@@ -613,11 +613,11 @@ $$
 \mathbf{u}(t) = \sum_{k=1}^q e^{r_k t} \mathbf{p}_k(t)
 $$
 
-ここで、$\mathbf{p}_k(t)$ は $t$ の多項式、ベクトル空間 $E_k$ の係数、および次数 $\leq n_k - 1$ の多項式です。特に、$A$ の特性方程式のすべての根が *単純* である場合、空間 $E_k$ ($1 \leq k \leq n$) はすべて体 $\mathbf{C}$ 上の次元 1 であるため、$n$ ベクトルが存在します。 $c_k$ $n$ 写像 $e^{r_k t} c_k$ ($1 \leq k \leq n$) 形は、IV、p. 188 の方程式 (19) の積分の基本系となります。
+ここで、$\mathbf{p}_k(t)$ は $t$ の多項式、ベクトル空間 $E_k$ の係数、および次数 $\leq n_k - 1$ の多項式です。特に、$A$ の特性方程式のすべての根が *単純* である場合、空間 $E_k$ ($1 \leq k \leq n$) はすべて体 $\mathbf{C}$ 上の次元 1 であるため、$n$ ベクトルが存在します。 $c_k$ は、$n$ 写像 $e^{r_k t} c_k$ ($1 \leq k \leq n$) 形が、IV、p. 188 の方程式 (19) の積分の基本系となるようにします。
 
-自己準同型 $A$ の特性根は、IV、p. 188 の一次方程式* (19) の *特性根とも呼ばれます。 写像 $c e^{r t}$ がベクトル $c \neq 0$ に対する (19) の積分であると書くことによって、$A$ の特性方程式が得られることに気づくかもしれません。
+自己準同型 $A$ の特性根は、IV、p. 188 の一次方程式* (19) の*特性根とも呼ばれます。 写像 $c e^{r t}$ がベクトル $c \neq 0$ に対する (19) の積分であると書くことによって、$A$ の特性方程式が得られることに気づくかもしれません。
 
-When one has determined the roots $r_k$ ($1 \leq k \leq q$) explicitly, and thus the order of multiplicity $n_k$ of $r_k$, in practice one obtains the integrals of (19) by writing that this equation is satisfied by the expression (32) of IV, p. 191, where $\mathbf{p}_k$ is an arbitrary polynomial of degree $\leq n_k - 1$, with coefficients *in* $E$; on identifying the coefficients of $e^{r_k t}$ (for $1 \leq k \leq q$) in the two sides of the equation so obtained one obtains linear equations for the coefficients of the polynomials $\mathbf{p}_k$: one establishes easily that these equations determine the terms of degree $> 0$ of $\mathbf{p}_k$ as functions of the constant term, and that the latter is a solution of the equation $(A - r_k I)^{n_k} \cdot \mathbf{x} = 0$, which defines the subspace $E_k$ (method of "undetermined coefficients").
+根 $r_k$ ($1 \leq k \leq q$) を明示的に決定し、したがって重複度の位数 $r_k$ の $n_k$ を決定した場合、実際には、この式が IV の式 (32) によって満たされると書くことによって (19) の積分を取得します。 p. 191、ここで、$\mathbf{p}_k$ は次数 $\leq n_k - 1$ の任意の多項式で、$E$ に *in* 係数が入ります。このようにして得られた方程式の両側で $e^{r_k t}$ の係数 ($1 \leq k \leq q$ の場合) を特定すると、多項式 $\mathbf{p}_k$ の係数に対する線形方程式が得られます。これらの方程式決定する項次数が成り立つことが容易に証明されます。 $\mathbf{p}_k$の$> 0$は定数項の写像であり、後者は方程式$(A - r_k I)^{n_k} \cdot \mathbf{x} = 0$の解であり、定義する部分空間$E_k$（「未定の方法」） 係数")。
 
 #### 注意 {#fvr-iv-s2-n6-rem-1 .statement tag=08D6}
 
@@ -674,7 +674,7 @@ $$
 D^n x - a_1(t) D^{n-1} x - \ldots - a_{n-1}(t) D x - a_n(t) x = 0
 $$
 
-associated with (33) to be linearly independent (in the space $C(J; \mathbf{C})$ of continuous maps from $J$ into $\mathbf{C}$, considered as a vector space over $\mathbf{C}$), it is necessary and sufficient that the corresponding $p$ integrals $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ of the homogeneous equation $d\mathbf{x}/dt = A(t).\mathbf{x}$ should be linearly independent (in the space $C(J; \mathbf{C}^n)$ of continuous maps from $J$ into $\mathbf{C}^n$). この条件が必要であることは明らかです。
+(33) が線形独立であること ($J$ から $\mathbf{C}$ までの連続写像の空間 $C(J; \mathbf{C})$ において、$\mathbf{C}$ 上のベクトル空間とみなされる) に関連付けられている場合、同次方程式 $d\mathbf{x}/dt = A(t).\mathbf{x}$ の対応する $p$ 積分 $\mathbf{u}_j = (u_j, Du_j, \ldots, D^{n-1}u_j)$ が線形独立であることが必要かつ十分です (空間内) $J$ から $\mathbf{C}^n$ までの連続マップの $C(J; \mathbf{C}^n)$)。 この条件が必要であることは明らかです。
 
 逆に、すべての零ではなく、$n$ の複素定数 $\lambda_j$ があり、$J$ で$\sum_{j=1}^n \lambda_j u_j(t) = 0$ が同一である場合、$1 \leq k \leq n - 1$ のようなすべての整数 $k$ について、$J$ で$\sum_{j=1}^n \lambda_j D^k u_j(t) = 0$ であると推測されます。 $J$の$\sum_{j=1}^n \lambda_j \mathbf{u}_j(t) = 0$。
 
@@ -880,7 +880,7 @@ $$
 0 = c_j(t) \quad \text{for } r + 1 \leq j \leq m. \tag{52}
 $$
 
-The system thus does not admit any indefinitely differentiable solutions unless the conditions (52) are satisfied; the determination of the $y_j$ for indices $j \leq r$ then reduces to integrating the r linear differential equations with constant coefficients (51); the $y_j$ for indices $> r$ are arbitrary indefinitely differentiable functions. このようにして (50) の解 $\mathbf{y}$ が決定されると、公式 $\mathbf{x} = V(D) \mathbf{y}$ から (47) の解が推定されます。
+したがって、条件 (52) が満たされない限り、システムは無限に微分可能な解を認めません。次に、インデックス $j \leq r$ の $y_j$ の決定は、r 個の線形微分方程式を定数係数で積分することに帰着します (51)。インデックス $> r$ の $y_j$ は、任意の無限微分可能関数です。 このようにして (50) の解 $\mathbf{y}$ が決定されると、公式 $\mathbf{x} = V(D) \mathbf{y}$ から (47) の解が推定されます。
 
 #### 注意 1 {#fvr-iv-s2-n9-rem-1 .statement tag=08DA}
 
@@ -888,7 +888,7 @@ The system thus does not admit any indefinitely differentiable solutions unless 
 
 #### 注意 2 {#fvr-iv-s2-n9-rem-2 .statement tag=08DB}
 
-When the $b_j$ are all zero, that is, if the system (47) is *homogeneous*, the conditions (52) are always satisfied; if, further, $r = n$, one sees that the set of solutions of (47) is a vector space over $\mathbf{C}$, of dimension equal to the *sum of the degrees* of the $f_j(D)$, that is, to the *degree* of $\det(P(D))$.
+$b_j$ がすべてゼロの場合、つまりシステム (47) が *均質* である場合、条件 (52) は常に満たされます。さらに、$r = n$ の場合、(47) の解の集合は、$f_j(D)$ の *次数の合計*、つまり $\det(P(D))$ の *次数* に等しい次元の $\mathbf{C}$ 上のベクトル空間であることがわかります。
 
 #### 注意 3 {#fvr-iv-s2-n9-rem-3 .statement tag=08DC}
 

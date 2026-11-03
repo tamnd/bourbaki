@@ -30,16 +30,16 @@ subsections:
       pdf_page: 211
 statements: 11
 exercises: 14
-content_sha256: 4820f11badc4d6fd835d10c2baeae4c039f4a50e1b1fe56d7367714541bf3fb0
+content_sha256: 62bbd33f3909de2279aae0a7b5d7f041c9f612631ec047e92d95a2b3460752f5
 translated_from: content/en/alg/V/12_s12_finite_fields.md
 translation_method: google
 source_content_sha256: bd8e10c4a05eb5e291baa4ec9c998a38d9874d55fab72a3f4d3987c8ee8ea686
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cff142a97956f41b321de8b36628fb930b81bb5be029495fceea8544cf37a03c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 12。 有限体
@@ -134,7 +134,7 @@ c) $K$ のすべての元は、$\mathbf{K}_m$ の元のトレース (それぞ�
 
 $\Gamma$ を、$\sigma_q$ によって生成された $\mathbf{K}_m$ の自己同型の循環群とします。 $\Gamma$ の不変量の体は、$\mathbf{K}_m$ の元 $x$ で構成され、$x^q = x$ は$K$ に等しくなります。したがって、$\mathbf{K}_m$ はガロア群 $\Gamma$ を伴う $K$ のガロア拡大であり、この後者は位数が $[K_m : K] = m$ (V, p. 66, Th. 3) に等しい。したがって、a) が続きます。
 
-We have $\Gamma = \{1, \sigma_q, \sigma_q^2, \ldots, \sigma_q^{m-1}\}$; the norm of an element $x$ of $\mathbf{K}_m$ with respect to $K$ is thus $N(x) = \prod_{i=0}^{m-1} \sigma_q^i(x) = x^{1 + q + \cdots + q^{m-1}}$ and we have $1 + q + \cdots + q^{m-1} = \frac{q^m - 1}{q - 1}$. これは b) を証明します。 $\xi$ を循環群 $\mathbf{K}_m^*$ の生成元とします。 ノルム $N : \mathbf{K}_m^* \to K^*$ の像は、元 $\xi = N(\xi) = \xi^{(q^m - 1)/(q - 1)}$ によって生成された $K^*$ の循環部分群です。 $\xi$ は位数 $q^m - 1$ のものであり、$\xi$ は位数 $q - 1$ のものであるため、生成する $K^*$ となります。 これは、 K のすべての非ゼロ元は、 K の非ゼロ元のノルムであることを証明します。さらに、$0 = N(0)$もあります。
+$\Gamma = \{1, \sigma_q, \sigma_q^2, \ldots, \sigma_q^{m-1}\}$ があります。したがって、$K$ に対する $\mathbf{K}_m$ の要素 $x$ のノルムは $N(x) = \prod_{i=0}^{m-1} \sigma_q^i(x) = x^{1 + q + \cdots + q^{m-1}}$ となり、$1 + q + \cdots + q^{m-1} = \frac{q^m - 1}{q - 1}$ が得られます。 これは b) を証明します。 $\xi$ を循環群 $\mathbf{K}_m^*$ の生成元とします。 ノルム $N : \mathbf{K}_m^* \to K^*$ の像は、元 $\xi = N(\xi) = \xi^{(q^m - 1)/(q - 1)}$ によって生成された $K^*$ の循環部分群です。 $\xi$ は位数 $q^m - 1$ のものであり、$\xi$ は位数 $q - 1$ のものであるため、生成する $K^*$ となります。 これは、 K のすべての非ゼロ元は、 K の非ゼロ元のノルムであることを証明します。さらに、$0 = N(0)$もあります。
 
 最後に、$K_m$ は K の分離可能な代数拡大であるため、トレースは K (V, p. 49, Cor.) 上のベクトル空間 $K_m$ 上で非ゼロ線型形式になります。したがって、K のすべての元は、$K_m$ の元のトレースです。
 
@@ -158,13 +158,13 @@ $$
 
 (積をすべての素数数に拡張) ;これは、I、p. 112、提案 11 の逆極限への移行から続くように、トポロジー 環* の *同型です。
 
-K を q 元の有限体および K の K 代数閉包とします。 すべての整数 $m \geq 1$ について、K 上で次数 m である K の一意の部分体を $K_m$ で表します (提案 3)。 $\overline{K} = \bigcup_{m \geq 1} K_m$ があります。 さらに、完全体 $\overline{K}$ の $\sigma_q$ 自己同型 $x \mapsto x^q$ で表します。それは K の *Frobenius 自己同型* (K を基準にして) と呼ばれます。
+K を q 元の有限体および K の K 代数閉包とします。すべての整数 $m \geq 1$ について、K 上の次数 m である K の一意の部分体を $K_m$ で表します (提案 3)。 $\overline{K} = \bigcup_{m \geq 1} K_m$ があります。さらに、完全体 $\overline{K}$ の $\sigma_q$ 自己同型 $x \mapsto x^q$ で表します。それは K の *Frobenius 自己同型* (K を基準にして) と呼ばれます。
 
 #### 命題 5 {#alg-v-s12-prop-5 .statement tag=06QE}
 
 — $\pi_K(1) = \sigma_q$ のような位相的群 $\pi_K : \mathbf{Z} \to \mathrm{Gal}(\bar{K}/K)$ の一意の同型が存在します。
 
-$\Gamma$ を $\sigma_q$ によって生成された $\mathrm{Gal}(\bar{K}/K)$ の部分群とします。 整数 $m > 0$ ごとに、すべての $x \in \bar{K}$ に対して $\sigma_q^m(x) = x^{q^m}$ が得られるため、$\sigma_q^m$ の固定点の集合は $K$ に等しくなります。 $K \neq \bar{K}$ なので、$\sigma_q^m \neq 1$ になります。 Hence there is an isomorphism $\pi_0$ of $\mathbf{Z}$ onto $\Gamma$ which maps 1 to $\sigma_q$.
+$\Gamma$ を $\sigma_q$ によって生成された $\mathrm{Gal}(\bar{K}/K)$ の部分群とします。 整数 $m > 0$ ごとに、すべての $x \in \bar{K}$ に対して $\sigma_q^m(x) = x^{q^m}$ が得られるため、$\sigma_q^m$ の固定点の集合は $K$ に等しくなります。 $K \neq \bar{K}$ なので、$\sigma_q^m \neq 1$ になります。 したがって、1 を $\sigma_q$ にマッピングする $\mathbf{Z}$ の $\Gamma$ への同型性 $\pi_0$ が存在します。
 
 $\Gamma$ の不変量の体は、$x^q = x$ となるような $x \in K$ で構成されているため、$K$ に等しくなります。したがって (V, p. 67, 補題 2) 群 $\Gamma$ は $\mathrm{Gal}(\bar{K}/K)$ に密です。 $K$ の有限次数の $\bar{K}$ のすべての部分拡張は体 $K_m$ の 1 つであるため、部分群 $\mathrm{Gal}(\bar{K}/K_m)$ 形は $\mathrm{Gal}(\bar{K}/K)$ の 1 の近傍の基本的な系です。 $\Gamma \cap \mathrm{Gal}(\bar{K}/K_m)$ は $\sigma_q^m$ によって生成された循環群であるため、$\pi_0(m\mathbf{Z})$ に等しいことは明らかです。
 

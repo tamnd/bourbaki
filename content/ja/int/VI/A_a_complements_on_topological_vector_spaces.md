@@ -21,16 +21,16 @@ subsections:
       pdf_page: 445
 statements: 6
 exercises: 0
-content_sha256: 82482c9d371adba210703ac8bb5b9130d4e1478b7d61e9e7f23996e46b1c20e7
+content_sha256: 61fc41984a59e86b59467a80342770285b7951eb1282834d40f6adbeb914cf60
 translated_from: content/en/int/VI/A_a_complements_on_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 02f42b389f24a36ddcc58d04da30cbfa4dd5961e3192d18701403d3e92f17929
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 66452df2d36f16938501100bae425b4eaba1401bc59a2be9b8901afef508cb48
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録
@@ -55,7 +55,7 @@ $$
 \Phi(x_1, x_2) = \langle {}^l\Phi(x_1), x_2 \rangle
 $$
 
-defines a *canonical isomorphism* $l : \Phi \mapsto {}^l\Phi$ of $\mathfrak{B}(F_1, F_2)$ onto $\mathscr{L}(F_1; G_2)$; and one obviously has the commutative diagram
+$\mathfrak{B}(F_1, F_2)$ の $\mathscr{L}(F_1; G_2)$ への *正準同型* $l : \Phi \mapsto {}^l\Phi$ を定義します。そして明らかに可換図を持っています
 
 $$
 \begin{array}{ccc}

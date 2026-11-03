@@ -34,16 +34,16 @@ subsections:
       pdf_page: 384
 statements: 16
 exercises: 8
-content_sha256: fda3a990cf2015f598e1a27d6a4f2e21b1e5c829b81ad9625c34b8d37f6351a3
+content_sha256: c5fc99926c88ed4bcd4a254b0cc51140ecff7487e9b457f8f97d5ff2f9fa9198
 translated_from: content/en/alg/VIII/19_s19_quaternion_algebras.md
 translation_method: google
 source_content_sha256: 108f7dda8f7849f663b2ef3f83020f45b2cebb199a339be51e597d680bf6aafa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2922eb70fd5372ce4c4770a18f0e838f6452054893a7220ac6344bb9434bb82f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 19。 四元数代数
@@ -156,7 +156,7 @@ $\alpha ,\beta ,\gamma$ を K の元とし、$f$ を型 $(\alpha , \beta , \gamm
 
 これらが性質が成り立つだとします。次に、F のすべての $x$ について、$x$ の縮小特性多項式は $X^2-T_F(x)X + N_F(x)$ になります。特に、$T_F(x)$は$x$の簡約トレースであり、$N_F(x)$はその被約ノルムです。
 
-(i)⇒(ii): If the algebra F is central simple, then it follows from Proposition 1 of VIII, p. 361 and the definition of the reduced trace (VIII, p. 340, Definition 2) that $T_F$ is its reduced trace; assertion (ii) follows (VIII, p. 343, Proposition 5).
+(i)⇒(ii): 代数 F が中心単純である場合、VIII、p. 361 の命題 1 および縮小トレースの定義 (VIII、p. 340、定義 2) から、$T_F$ がその縮小トレースであることがわかります。主張 (ii) は次のとおりです (VIII、p. 343、命題 5)。
 
 (ii)⇔(iii): 型 $(\alpha, \beta, \gamma)$ (III, §2, No. 5, p. 445) の F の基底を $(e_i)_{1 \leq i \leq 4}$ とします。 行列 $(T_F(e_i e_j))$ は次と等しい
 

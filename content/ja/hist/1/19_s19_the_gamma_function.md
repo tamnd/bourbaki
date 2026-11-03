@@ -17,10 +17,10 @@ translation_method: google
 source_content_sha256: 7092fa519a4f115973a096a09aabbecb5a46cdac0f410b2a08e230e4c0142ff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 290b32e11751c8fd3c8d181ff0f4ef487723b427200e93b1c655c60dfd2c4e86
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 19. ガンマ写像。

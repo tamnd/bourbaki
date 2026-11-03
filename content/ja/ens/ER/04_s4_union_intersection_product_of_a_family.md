@@ -13,27 +13,27 @@ pdf_pages: 0368-0375
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a0ee7557a61f0bb1ba3c463913e64652a04f454b84cdba2dac551cd3f68a8957
+content_sha256: 239f0e6f89b806e04a16d8f7257a6017bd4f7916ef7a824abf494cb97ee4283f
 translated_from: content/en/ens/ER/04_s4_union_intersection_product_of_a_family.md
 translation_method: google
 source_content_sha256: 4b835593887f6b43eb749a64666773682e6a55745eeea04dc0f501209be0cff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e9c5724961c66aa3a64d66ed1425a4939c464dc5d8ac21e83614d3e609d2fb3d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 集合人家族の和集合、共通部分、積
 
-1. In this section we consider a family $(X_i)_{i\in I}$ of subsets of a set $E$, in which the index set $I$ is arbitrary; the set of subsets of $E$ belonging to the family will be denoted by $\mathfrak{X}$ (which is therefore a subset of $\mathfrak{P}(E)$).
+1. このセクションでは、集合 $E$ のサブセットのファミリー $(X_i)_{i\in I}$ を検討します。ここで、インデックス集合 $I$ は任意です。ファミリに属する​​ $E$ のサブセットのセットは $\mathfrak{X}$ で示されます (したがって、これは $\mathfrak{P}(E)$ のサブセットになります)。
 
 $I$ が有限である場合、家族 $(X_i)$ 簡約するの考慮は、$E$ の複数の部分集合の考慮となります。これは区別される場合と区別されない場合があり、数では、$I$ の元の数に等しくなります。たとえば、任意の 3 つの部分集合 $X_1,X_2,X_3$ の $E$ 形部分集合の $E$、添字集合ここではからなるの数 1、2、3。
 
 2. $J$ を $I$ の任意の部分集合とし、性質を持つすべての元 $x$ のうちの集合を考慮します。「$x\in X_i$ となるような$i\in J$ が存在します」。この集合は、集合 $(X_i)_{i\in J}$ のファミリーの和集合と呼ばれ、$\displaystyle\bigcup_{i\in J}X_i$ で示されます。
 
-We may also formulate this definition as follows: to the mapping $i\mapsto X_i$ of $I$ into $\mathfrak{P}(E)$ there corresponds a well-defined subset $C$ of $I\times E$ such that $X_i=C(i)$ (§ 3, no. 7), and we have $\displaystyle\bigcup_{i\in J}X_i=C(J)$.
+この定義は次のように定式化することもできます。$I$ の $\mathfrak{P}(E)$ へのマッピング $i\mapsto X_i$ には、$X_i=C(i)$ (§ 3, no. 7) などの$I\times E$ の明確に定義されたサブセット $C$ が対応し、$\displaystyle\bigcup_{i\in J}X_i=C(J)$ が得られます。
 
 特に、
 
@@ -43,7 +43,7 @@ $$
 
 $J=I$ の場合、$\displaystyle\bigcup_{i\in I}X_i$ の代わりに $\displaystyle\bigcup X_i$ または単に $\displaystyle\bigcup X_i$ と書くことがよくあります。
 
-和集合 $\displaystyle\bigcup_{i\in I}X_i$ は集合 $\mathfrak{X}$ にのみ依存します。他の語では、$\mathfrak{P}(E)$の同じ部分集合$\mathfrak{X}$まで、2つの家族対応するも同様です。 In particular, it is equal to the union of the family defined by the canonical mapping of $\mathfrak{X}$ into $\mathfrak{P}(E)$, and we may therefore write $\displaystyle\bigcup_{X\in\mathfrak{X}}X$, which is also called the union of the sets belonging to $\mathfrak{X}$.
+和集合 $\displaystyle\bigcup_{i\in I}X_i$ は集合 $\mathfrak{X}$ にのみ依存します。他の語では、2つの家族対応するから$\mathfrak{P}(E)$の同じ部分集合$\mathfrak{X}$も同様です。特に、これは、$\mathfrak{X}$ の標準写像から $\mathfrak{P}(E)$ までによって定義されるファミリーの和集合に等しいため、$\displaystyle\bigcup_{X\in\mathfrak{X}}X$ を書くことができます。これは、集合所属から $\mathfrak{X}$ の和集合とも呼ばれます。
 
 $I$ が集合で、その元が明示的に指定されている場合 (例: 数 1、2、3)、
 
@@ -263,13 +263,13 @@ $$
 
 「すべての $x$ に対して $R\{x,f(x)\}$ となるような E から F への写像 $f$ が存在します。」
 
-この同値の主張は、選択* の *公理 (または *Zermelo の公理*) として知られています。 ときどきは、定理の証明がそれに依存するかどうかを示します。
+この同値の主張は、選択* の *公理 (または *Zermelo の公理*) として知られています。 ときどきが定理の証明に依存するかどうかを示します。
 
 選択の公理は、次の命題と *同等* です。「各 $\ell\in I$ について、$X_\ell\ne\varnothing$ がある場合、$\displaystyle\prod_{\ell\in I}X_\ell\ne\varnothing$」。
 
 11. これと次の小節では、空ではない積 $\displaystyle\prod_{\ell\in I}A_\ell$ を考慮します。ここで、$(A_\ell)$ は E の (空ではない) 部分集合の *ファミリー* です。
 
-J を I の部分集合とします。 The mapping $(x_\ell)_{\ell\in I}\to(x_\ell)_{\ell\in J}$ of $\displaystyle\prod_{\ell\in I}A_\ell$ onto $\displaystyle\prod_{\ell\in J}A_\ell$ is called the *projection* of $\displaystyle\prod_{\ell\in I}A_\ell$ onto $\displaystyle\prod_{\ell\in J}A_\ell$, and is denoted by $\operatorname{pr}_J$.
+J を I の部分集合とします。 $\displaystyle\prod_{\ell\in I}A_\ell$ の $\displaystyle\prod_{\ell\in J}A_\ell$ へのマッピング $(x_\ell)_{\ell\in I}\to(x_\ell)_{\ell\in J}$ は、$\displaystyle\prod_{\ell\in I}A_\ell$ の $\displaystyle\prod_{\ell\in J}A_\ell$ への *投影* と呼ばれ、$\operatorname{pr}_J$ で表されます。
 
 特に、$\displaystyle\prod_{\ell\in I}A_\ell$ の $A_\kappa$ 上の写像 $(x_\ell)_{\ell\in I}\to x_\kappa$ は、*添字* $\kappa$ の * 座標写像* (または *射影*) と呼ばれ、$\operatorname{pr}_\kappa$ で表されます。
 
@@ -311,7 +311,7 @@ $$
 
 写像は E を $\prod_{i\in I} A_i$ に変換し、$(f_i)$ で表されます (言葉の乱用により、この記法はすでに写像 $f_i$ の家族を示しているため)。したがって、集合 $(\prod_{i\in I} A_i)^E$ を集合 $\prod_{i\in I}(A_i^E)$ に定義する全単射 (正規と呼ばれます) を加えます。
 
-14. E、F、G を 3 つ集合とします。 For each mapping $f$ of $F \times G$ into $E$ and for each $y\in G$, let $f_y$ denote the partial mapping $x\mapsto f(x,y)$ of $F$ into $E$. すると、$y\mapsto f_y$は$G$の写像が$E^F$になります。 逆に、$G$ の $E^F$ へのそれぞれの写像 $g$ に対して、$F\times G$ の $E$ への一意な写像 $f$ が存在し、すべての $y\in G$ に対して $f_y=g(y)$ が存在します。 したがって、集合 $E^{F\times G}$ を集合 $(E^F)^G$ に定義する全単射 (正規と呼ばれます) を加えます。
+14. E、F、G を 3 つ集合とします。 $F \times G$ の $E$ への各マッピング $f$ と、各 $y\in G$ について、$F$ の $E$ への部分マッピング $x\mapsto f(x,y)$ を $f_y$ で表します。 すると、$y\mapsto f_y$は$G$の写像が$E^F$になります。 逆に、$G$ の $E^F$ へのそれぞれの写像 $g$ に対して、$F\times G$ の $E$ への一意な写像 $f$ が存在し、すべての $y\in G$ に対して $f_y=g(y)$ が存在します。 したがって、集合 $E^{F\times G}$ を集合 $(E^F)^G$ に定義する全単射 (正規と呼ばれます) を加えます。
 
 15. $(A_i)_{i\in I}$ を空でない部分集合 of 集合 E の族とする。それぞれの $i\in I$ について、$f_i$ を $A_i$ の写像を集合 F にすると、添字の各対について、 $(i,x)$、$f_i$、$f_x$ は $A_i\cap A_x$ に同意します。そうすると、
 

@@ -19,10 +19,10 @@ translation_method: google
 source_content_sha256: 0758c57ab6942833dd9219ce64906878d061350f65d3749f70a9eece667863df
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4331335c5ba15216ed1f33c57da3c127675221e81ba7e199b9a9aee6751cc0a6
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 VII

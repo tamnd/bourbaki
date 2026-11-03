@@ -40,16 +40,16 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 8af34f6cf52089ad7867d28489539d328af755b75b78665e3df9089c3a3b6c3b
+content_sha256: fc8448c3061983abf37ef59e65eb6cd227672fc88bd3f14ab28c8f59694ef2d8
 translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 99f7362e5facc0f5a48166a8143125835c4c5eb7fc7a7fc95d4ea773e2bc3c95
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6a77e11955a392f95c733492940996224b23fb49a87058fa0f71d041914194cb
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。トポロジカルベクトル空間
@@ -70,10 +70,10 @@ $E$ が $\mathbf{K}$ 上の左トポロジー ベクトル空間である場合�
 
 #### 例 {#evt-i-s1-n1-exa-1 .statement tag=077W}
 
-— 1) If $E$ is a left vector space over a *discrete* topological division ring $\mathbf{K}$, the *discrete* topology on $E$ is compatible with the vector space structure of $E$ (this is not so if $\mathbf{K}$ is non-discrete and $E$ is not the single point 0).
-2) Let $A$ be a topological ring (GT, III, § 6.3) and let $\mathbf{K}$ be a subring of $A$ that is also a division ring and such that the topology induced on $\mathbf{K}$ by that of $A$ is compatible with the division ring structure of $\mathbf{K}$; then the topology of $A$ is compatible with its left vector space structure on $\mathbf{K}$.
-3) Let $\mathbf{K}$ be any topological division ring and $I$ an arbitrary set. 積ベクトル空間 $K_s^I(A, II, § 1.5)$、積位相はベクトル空間構造 (GT、III, § 6.4) と互換性があります。 Or we can say that the space $K_s^I$ of mappings of $I$ in $\mathbf{K}$ with *pointwise* or *simple convergence* topology is a topological vector space on $\mathbf{K}$ (TG, X, p. 4).
-4) Let $X$ be a topological space; on the set $E = \mathscr{C}(X; \mathbf{R})$ of finite real-valued *continuous* functions defined over $X$, the *compact convergence* topology (GT, X, § 1.3) is compatible with the vector space structure of E on $\mathbf{R}$. なぜなら、$u_0$ を E の点とし、H を X の圧縮部分集合とし、$\varepsilon$ を任意の厳密に正の数とします。 実数値写像 $u_0$ は H で制限されます。 $a = \sup_{t \in H} |u_0(t)|$ にしましょう。 $u$ が E のいずれかの点である場合、すべての $t \in H$
+— 1) $E$ が*離散* トポロジ分割リング $\mathbf{K}$ 上の左ベクトル空間である場合、$E$ 上の *離散* トポロジは $E$ のベクトル空間構造と互換性があります ($\mathbf{K}$ が非離散であり、$E$ が単一点 0 ではない場合はそうではありません)。
+2) $A$ をトポロジーリング (GT、III, § 6.3) とし、$\mathbf{K}$ を分割リングでもある $A$ の部分リングとし、$A$ のトポロジーによって$\mathbf{K}$ に誘導されるトポロジーが $\mathbf{K}$ の分割リング構造と互換性があるようにします。その場合、$A$ のトポロジーは、$\mathbf{K}$ の左ベクトル空間構造と互換性があります。
+3) $\mathbf{K}$ を任意の位相分割リング、$I$ を任意の集合とする。 積ベクトル空間 $K_s^I(A, II, § 1.5)$、積位相はベクトル空間構造 (GT、III, § 6.4) と互換性があります。 あるいは、 *pointwise* または *simple convergence* トポロジーによる $\mathbf{K}$ の $I$ のマッピングの空間 $K_s^I$ は、 $\mathbf{K}$ (TG, X, p. 4) 上の位相ベクトル空間であると言えます。
+4) $X$ を位相空間とする。 $X$ で定義された有限実数値 *連続* 関数の集合 $E = \mathscr{C}(X; \mathbf{R})$ では、*コンパクト収束* トポロジー (GT、X, § 1.3) は、$\mathbf{R}$ 上の E のベクトル空間構造と互換性があります。 なぜなら、$u_0$ を E の点とし、H を X の圧縮部分集合とし、$\varepsilon$ を任意の厳密に正の数とします。 実数値写像 $u_0$ は H で制限されます。 $a = \sup_{t \in H} |u_0(t)|$ にしましょう。 $u$ が E のいずれかの点である場合、すべての $t \in H$
 
 $$
 |\lambda u(t) - \lambda_0 u_0(t)| \leq |\lambda| \cdot |u(t) - u_0(t)| + a |\lambda - \lambda_0|.
@@ -118,7 +118,7 @@ $$
 
 — $A$ が $E$ のオープン (またはクローズ) 集合である場合、$K$ のすべての $\alpha \neq 0$ に対して、$E$ では $\alpha A$ がオープン (またはクローズ) です。
 
-$E$ と $F$ を、同じトポロジ分割環 $K$ 上の 2 つのトポロジベクトル空間とします。 A bijection $f$ of $E$ on $F$ is an isomorphism of the topological vector space $E$ on the topological vector space $F$ if and only if $f$ is linear and bicontinuous. 特に、$K$ の $\gamma \neq 0$ 属するから中心の場合、ホモテティー $x \mapsto \gamma x$ は、$E$ のトポロジカルベクトル空間構造の自己同型です。
+$E$ と $F$ を、同じトポロジ分割環 $K$ 上の 2 つのトポロジベクトル空間とします。 $F$ 上の $E$ の全単射 $f$ は、$f$ が線形で共連続である場合に限り、位相ベクトル空間 $F$ 上の位相ベクトル空間 $E$ の同型写像です。 特に、$K$ の $\gamma \neq 0$ 属するから中心の場合、ホモテティー $x \mapsto \gamma x$ は、$E$ のトポロジカルベクトル空間構造の自己同型です。
 
 ### 2. 価値のある部門環で基準空間
 
@@ -126,7 +126,7 @@ $E$ と $F$ を、同じトポロジ分割環 $K$ 上の 2 つのトポロジベ
 
 一方、(GT、IX, § 3.3) $E$ が非離散値除算環 $K$ でベクトル空間である場合、$E$ のノルムは、$E$ の写像 $x \mapsto \|x\|$ であることを思い出します。 $\mathbf{R}_+$、$x = 0$ の場合に限り $\|x\| = 0$、スカラー $\lambda \in K$ および $\|x + y\| \leq \|x\| + \|y\|$ ごとに $\|\lambda x\| = |\lambda| \cdot \|x\|$ となるようなもの。距離$\|x - y\|$は、ノルムによって$E$上に定義され、したがって$E$のベクトル空間構造と互換性のある位相になります（上記参照）。 〜でない限りその逆は明示的に述べられており、規範化された空間は、そのノルムによって定義されるトポロジカルベクトル空間の構造の項で考慮されます。規格化された空間は、トポロジカルベクトル空間の中で最も重要なものの 1 つです。
 
-It is known (GT, IX, § 3.3) that two distinct norms on $E$ can define the same topology on $E$; for this it is necessary and sufficient that the two norms be equivalent (loc. cit.). The structure of normed spaces is thus richer than the structure of topological vector spaces; if $E$ and $F$ are two normed spaces one must be careful to distinguish between the idea of isomorphism of the normed space structure of $E$ with that of $F$, and the idea of isomorphism of the topological vector space structure of $E$ with that of $F$.
+$E$ 上の 2 つの異なる規範が $E$ 上の同じトポロジーを定義できることが知られています (GT、IX, § 3.3)。このためには、2 つの規範が同等であることが必要かつ十分です (上記参照)。 したがって、ノルム空間の構造は位相ベクトル空間の構造よりも豊富です。 $E$ と $F$ が 2 つの正規化空間である場合、$E$ の正規化空間構造と $F$ の同型性の考え方と、$E$ の位相ベクトル空間構造と $F$ の位相ベクトル空間構造の同型性の考え方とを注意して区別する必要があります。
 
 #### 例 {#evt-i-s1-n2-exa-1 .statement tag=077Z}
 
@@ -136,7 +136,7 @@ I を添字の任意の集合とします。 ノルム $\|x\|$ は、K、$\maths
 
 トポロジカル加群 (GT, III, § 6.6) について述べたことはすべて、特にトポロジカルベクトル空間に当てはまります。 M がトポロジカルベクトル空間 E のベクトル部分空間である場合、E のベクトル空間構造と M に誘導される位相は M のベクトル空間構造と互換性があり、E における M の閉包 $\overline{M}$ は E のベクトル部分空間です。 E by Mの商位相はE/Mのベクトル空間構造と互換性があります。
 
-If E is a topological vector space, the closure N of $\{0\}$ in E (intersection of neighbourhoods of 0) is a closed vector subspace of E; the quotient vector subspace E/N, which is necessarily Hausdorff whether E is or not, is called the Hausdorff vector space associated with E.
+E がトポロジー ベクトル空間の場合、E の $\{0\}$ の閉包 N (0 の近傍の共通部分) は E の閉包ベクトル部分空間です。 商ベクトル部分空間 E/N は、E であろうとなかろうと必ずハウスドルフであり、E に関連付けられたハウスドルフベクトル空間と呼ばれます。
 
 $(E_i)_{i \in I}$ を同じ位相分割環 K 上の位相ベクトルベクトル空間の族とし、E を $E_i$ の積ベクトル空間とします。 $E_i$ のトポロジーの積位相は、E のベクトル空間構造と互換性があります。 積空間 E、部分空間 F、$E_i$ の直和はどこでも密集しています (GT、 III, § 2.9、提案 25)。
 
@@ -158,7 +158,7 @@ B が K の事前圧縮集合である場合、E の 0 の近傍 V ごとに、B
 
 #### 注意 2 {#evt-i-s1-n4-rem-2 .statement tag=0782}
 
-1) から、B が K の事前圧縮集合であり、H が E の事前圧縮集合である場合、B $\times$ H に限定された写像 $(\lambda, x) \mapsto \lambda x$ は一様連続であることがわかります。 なぜなら、V が E の 0 の近傍である場合、K の 0 の近傍 T と E の 0 の U が存在し、TH + BU $\subset$ V となります。 Since we can write $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$, we see that for $\lambda, \lambda'$ in B, x, x' in H, $\lambda - \lambda' \in T$ and $x - x' \in U$, we have $\lambda x - \lambda' x' \in V$, which proves our assertion.
+1) から、B が K の事前圧縮集合であり、H が E の事前圧縮集合である場合、B $\times$ H に限定された写像 $(\lambda, x) \mapsto \lambda x$ は一様連続であることがわかります。なぜなら、V が E の 0 の近傍である場合、K の 0 の近傍 T と E の 0 の U が存在し、TH + BU $\subset$ V となります。 $\lambda x - \lambda' x' = (\lambda - \lambda') x + \lambda'(x - x')$ と書けるので、B の $\lambda, \lambda'$、H の x、x'、$\lambda - \lambda' \in T$、$x - x' \in U$ に対して $\lambda x - \lambda' x' \in V$ があり、主張が証明されます。
 
 位相幾何学ベクトル空間は、その一様構造を考慮して完全一様空間である場合、完全と呼ばれます。
 
@@ -188,7 +188,7 @@ $K$ をハウスドルフ位相分割環、$E$ を $K$ 上の位相分割ベク�
 
 #### 定義 3 {#evt-i-s1-def-3 .statement tag=0785}
 
-*Let $K$ be a valued division ring and $E$ a left vector space over $K$; we say that a subset $M$ of $E$ is balanced if, for all $x \in M$ and all $\lambda \in K$ such that $|\lambda| \leq 1$, it is true that $\lambda x \in M$ (or in other words if $\lambda M \subset M$ when $|\lambda| \leq 1$).*
+*$K$ を数値分割リング、$E$ を $K$ 上の左ベクトル空間とします。 $|\lambda| \leq 1$ のようなすべての $x \in M$ とすべての $\lambda \in K$ について、$\lambda x \in M$ が真である場合 (言い換えると、$|\lambda| \leq 1$ のときに $\lambda M \subset M$ の場合)、$E$ の部分集合 $M$ がバランスしているといいます。*
 
 #### 命題 2 {#evt-i-s1-prop-2 .statement tag=0786}
 
@@ -206,7 +206,7 @@ $B$が$K$のボール$|\xi| \leq 1$を表す場合、$H$のバランスエンベ
 
 閉じた集合の平衡エンベロープは必ずしも閉じているわけではないことに注意してください。たとえば、$\mathbf{R}^2$ では、方程式 $xy = 1$ で定義される双曲線の平衡包絡線が閉じていません。
 
-The union of a family of balanced sets in $E$ is balanced, which implies that for every set $M$ of $E$ there is a largest balanced subset $N$ of $M$ called the *balanced core of* $M$; also $N$ is not empty if and only if $0 \in M$. $x \in N$ ということは、$|\lambda| \leq 1$ などのすべての $\lambda \in K$ に対して、$\lambda x \in M$ が存在するか、または ($0 \in M$ の場合) すべての $\mu \in K$ に対して |μ| が存在することを意味します。 ≥ 1 の場合、x ∈ μM となります。 0 ∈ M の場合、M の平衡コア N は共通部分 $\bigcap_{|\mu| \geq 1} \mu M$ となります。 これは特に、M が閉じている場合、N も閉じていることを示しています。
+$E$ のバランスの取れたセットの集合の結合はバランスが取れています。これは、$E$ の各セット $M$ について、$M$ の *バランスの取れたコア* と呼ばれる、$M$ の最大のバランスの取れたサブセット $N$ が存在することを意味します。また、$0 \in M$ の場合に限り、$N$ は空ではありません。 $x \in N$ ということは、$|\lambda| \leq 1$ などのすべての $\lambda \in K$ に対して、$\lambda x \in M$ が存在するか、または ($0 \in M$ の場合) すべての $\mu \in K$ に対して |μ| が存在することを意味します。 ≥ 1 の場合、x ∈ μM となります。 0 ∈ M の場合、M の平衡コア N は共通部分 $\bigcap_{|\mu| \geq 1} \mu M$ となります。 これは特に、M が閉じている場合、N も閉じていることを示しています。
 
 #### 定義 4 {#evt-i-s1-def-4 .statement tag=0788}
 
@@ -261,7 +261,7 @@ $$
 f(a_1 + z_1, ..., a_n + z_n) - f(a_1, ..., a_n) = \sum_H u_H
 $$
 
-where $H$ varies over the $2^n - 1$ subsets of the set of integers $\{ 1, 2, ..., n \}$, excluding the set $\{ 1, 2, ..., n \}$ itself, and where $u_H = f(y_1, y_2, ..., y_n)$, with $y_i = a_i$ if $i \in H$ and $y_i = z_i$ if $i \notin H$. There exist $2^n - 1$ balanced neighbourhoods $W_H$ of 0 in $F$ such that $\sum_H W_H \subset W$; on the other hand as $f$ is continuous at $(0, 0, ..., 0)$ by hypothesis, there exists in each $E_i$ a neighbourhood $U_i$ of 0 ($1 \leq i \leq n$) such that the $n$ relations $x_i \in U_i$ imply that $f(x_1, ..., x_n) \in \bigcap_H W_H$. $U_i$は吸収性があるので、$K$には$\lambda_i a_i \in U_i$となるように$\lambda_i \neq 0$が存在します。 $\lambda$ を、部分集合 $H$ ごとに $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ となるように、$K$ の元とします。 近傍 $V_i = \lambda^{-n} U_i$ が、必要な条件を満たすことを示します。 We can write $u_H = \mu f(x_1, ..., x_n)$ where $x_i \in U_i$ for $1 \leq i \leq n$ and $\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$, $p$ being the number of integers of $\{ 1, 2, ..., n \}$ not in $H$. 上記の$|\mu| \leq 1$より、$W_H$が均衡しているため、$u_H \in \mu W_H \subset W_H$となります。 命題が成立します。
+ここで、$H$ は、集合 $\{ 1, 2, ..., n \}$ 自体を除く、整数の集合 $\{ 1, 2, ..., n \}$ の部分集合 $2^n - 1$ にわたって変化し、$u_H = f(y_1, y_2, ..., y_n)$ は、$i \in H$ の場合は $y_i = a_i$、$i \notin H$ の場合は $y_i = z_i$ になります。 $F$ には $\sum_H W_H \subset W$ となる 0 の $2^n - 1$ バランスのとれた近傍 $W_H$ が存在します。一方、仮説によれば、$f$ は$(0, 0, ..., 0)$ で連続であるため、各 $E_i$ には 0 ($1 \leq i \leq n$) の近傍 $U_i$ が存在し、$n$ 関係 $x_i \in U_i$ は $f(x_1, ..., x_n) \in \bigcap_H W_H$ を暗示します。 $U_i$は吸収性があるので、$K$には$\lambda_i a_i \in U_i$となるように$\lambda_i \neq 0$が存在します。 $\lambda$ を、部分集合 $H$ ごとに $|\lambda| \geq \prod_{i \in H} |\lambda_i|^{-1}$ となるように、$K$ の元とします。 近傍 $V_i = \lambda^{-n} U_i$ が、必要な条件を満たすことを示します。 $1 \leq i \leq n$と$\mu = \lambda^{-np} (\prod_{i \in H} \lambda_i^{-1})$の$x_i \in U_i$を$u_H = \mu f(x_1, ..., x_n)$と書くことができ、$p$は$H$にはない$\{ 1, 2, ..., n \}$の整数の数です。 上記の$|\mu| \leq 1$より、$W_H$が均衡しているため、$u_H \in \mu W_H \subset W_H$となります。 命題が成立します。
 
 #### 命題 6 {#evt-i-s1-prop-6 .statement tag=078E}
 

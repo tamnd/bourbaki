@@ -31,16 +31,16 @@ subsections:
       pdf_page: 459
 statements: 20
 exercises: 15
-content_sha256: 2f40db4a7bbd058c668ddc900e5df461328c5238c4c838a6f3ccc21931cbdbc1
+content_sha256: 703e6bb3b678590d4de9794514b4c8bb468392645c944cb258ee268dcac0063d
 translated_from: content/en/alg/VIII/A1_a1_algebras_without_unit_element.md
 translation_method: google
 source_content_sha256: 98c6a5e57906681f8c0a6b353e8a358c25cc514a68622fa99dc2d3817a1b28f4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a6022be12d7935926eba230fddaf2c03033e239b84f1512e644ca874d77c094c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録 1 代数単位元なし
@@ -49,19 +49,19 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 ### 1. 定期的な理想
 
-A を$k$-代数とする。 Recall (III, §1, No. 2, p. 430) that a left ideal of A is a $k$-submodule $\mathfrak{a}$ of A such that 関係 $a\in A, x\in \mathfrak{a}$ imply $ax\in \mathfrak{a}$. We 定義する概念 of right ideal and two-sided ideal likewise. A が $k$-代数、$\mathfrak{a}$ が A の両面イデアルである場合、移行から商になると、定義するの $k$-代数構造が $k$ 加群 $A/\mathfrak{a}$ で乗法になります。 (引用文献)。
+A を$k$-代数とする。 (III, §1, No. 2, p. 430) を思い出してください。A の左イデアルは、関係 $a\in A, x\in \mathfrak{a}$ が $ax\in \mathfrak{a}$ を暗示するような A の $k$ 部分加群 $\mathfrak{a}$ です。私たち定義する概念も同様に、正しい理想と両面の理想を持ちます。 A が $k$-代数、$\mathfrak{a}$ が A の両面イデアルである場合、移行から商になると、$k$ 加群の定義するの $k$-代数構造で乗法 $A/\mathfrak{a}$ (上記参照)。
 
 A の左イデアルは、包含対象の A の適切な左イデアルの集合の極大元である場合に極大と呼ばれます。
 
 #### 定義 1 {#alg-viii-a1-def-1 .statement tag=00P4}
 
-Let A be a $k$-algebra and $\mathfrak{a}$ a left ideal of A. 元 $u$ of A such that $au-a$ 属する to $\mathfrak{a}$ for every $a\in A$ is called 剰余類における右単元 $\mathfrak{a}$. 剰余類における右単元 $\mathfrak{a}$ が存在する場合、理想的な $\mathfrak{a}$ は規則的であると言います。
+A を $k$-代数、$\mathfrak{a}$ を A の左イデアルとします。 $a\in A$ ごとに $au-a$ 属するから $\mathfrak{a}$ となるような A の元 $u$ を剰余類における右単元 $\mathfrak{a}$ と呼びます。 剰余類における右単元 $\mathfrak{a}$ が存在する場合、理想的な $\mathfrak{a}$ は規則的であると言います。
 
-Likewise, we say that a right ideal $\mathfrak{b}$ of A is regular if A has a left 単位元 modulo $\mathfrak{b}$, that is, 元 $v$ such that $va-a\in \mathfrak{b}$ for every $a\in A$.イデアルが両面である場合、それが左イデアルとして規則的であるか右イデアルとして規則的であるかを指定する必要があります。
+同様に、A が $\mathfrak{b}$ を法とする左単位元、つまり $a\in A$ ごとに $va-a\in \mathfrak{b}$ となるような元 $v$ を持つ場合、A の右イデアル $\mathfrak{b}$ は正規であると言います。イデアルが両面である場合、それが左イデアルとして規則的であるか右イデアルとして規則的であるかを指定する必要があります。
 
-代数 A がユニタルの場合、A の左イデアル $\mathfrak{a}$ ごとに、A の単位元は剰余類における右単元 $\mathfrak{a}$ になります。この場合、A の左 (または右) のイデアルはすべて規則的です。一方、A が元がすべて零である $k$-代数である場合、A は、A の唯一の (左または右) 正則イデアルです。
+代数 A がユニタルの場合、A の単位元は、A の左イデアル $\mathfrak{a}$ ごとに剰余類における右単元 $\mathfrak{a}$ になります。この場合、A の左 (または右) のイデアルはすべて規則的です。一方、A が元がすべて零である $k$-代数である場合、A は正則である A の唯一の (左または右) イデアルです。
 
-$\mathfrak{a}$ を A の正規左イデアルとし、$u$ 剰余類における右単元 $\mathfrak{a}$ とします。 $\mathfrak{b}$ が含む $\mathfrak{a}$ の左イデアルである場合、$u$ は剰余類における右単元 $\mathfrak{a}$ であるため、$\mathfrak{b}$ は正則です。 したがって、最大で規則的な A の左イデアルは、A の正規の正規左イデアルの集合の極大元です。 さらに、含む $\mathfrak{a}$ の左理想 $\mathfrak{b}$ は、$u$ が属するから $\mathfrak{b}$ にならない場合に限り、適切です。 The set of proper left ideals $\mathfrak{b}$ of A containing $\mathfrak{a}$, ordered by inclusion, is therefore an inductive set. Theorem 2 of Set Theory, III, §2, No. 4, p. 154 applied to this set gives the following result.
+$\mathfrak{a}$ を A の正規の左イデアルとし、$u$ 剰余類における右単元 $\mathfrak{a}$ とします。 $\mathfrak{b}$ が含む $\mathfrak{a}$ の左イデアルである場合、$u$ は剰余類における右単元 $\mathfrak{a}$ であるため、$\mathfrak{b}$ は正則です。したがって、最大で規則的な A の左イデアルは、A の正規の適切な左イデアルの集合の極大元です。さらに、含む $\mathfrak{a}$ の左イデアル $\mathfrak{b}$ は、$u$ が属するから $\mathfrak{b}$ にならない場合に限り、適切です。したがって、適切な左イデアルの集合含む $\mathfrak{a}$ の $\mathfrak{b}$ を包含順に並べると、帰納的集合になります。この集合に集合理論、III, §2, No. 4、p. 154 の 2 つ定理を適用すると、次の結果が得られます。
 
 #### 命題 1 {#alg-viii-a1-prop-1 .statement tag=00P5}
 
@@ -69,11 +69,11 @@ A のすべての正規の適切な左 (または右) イデアルは、通常�
 
 #### 命題 2 {#alg-viii-a1-prop-2 .statement tag=00P6}
 
-A を可換 $k$-代数とする。 A のイデアル $\mathfrak{a}$ は、擬似環 $A/\mathfrak{a}$ (I, §8, No. 1, p. 98) が体である場合に限り、正規の最大イデアルになります。
+A を可換 $k$-代数とする。 A のイデアル $\mathfrak{a}$ は、擬似リング $A/\mathfrak{a}$ (I, §8, No. 1, p. 98) が体である場合に限り、通常の最大イデアルです。
 
-A の元 $u$ は、$A/\mathfrak{a}$ の $u$ の標準像が代数 $A/\mathfrak{a}$ の単位元である場合に限り、A の (右または左) 単位元モジュロ $\mathfrak{a}$ です。したがって、理想的な $\mathfrak{a}$ は、代数 $A/\mathfrak{a}$ が単体である場合に限り、正規になります。これら条件が満たされているとします。
+A の元 $u$ は、$A/\mathfrak{a}$ の $u$ の標準像が代数 $A/\mathfrak{a}$ の単位元である場合に限り、A の (右または左) 単位元モジュロ $\mathfrak{a}$ です。したがって、理想的な $\mathfrak{a}$ は、代数 $A/\mathfrak{a}$ が単元である場合に限り、正規になります。これら条件が満たされているとします。
 
-写像 $\mathfrak{b}\mapsto \mathfrak{b}/\mathfrak{a}$ は、代数含む $\mathfrak{a}$ の集合から代数 $A/\mathfrak{a}$ の理想の集合までの全単射です。 これらは環 $A/\mathfrak{a}$ の理想です。なぜなら、この代数は単一であるからです。 Finally, by Theorem 1 of I, §9, No. 1, p. 115, the ring $A/\mathfrak{a}$ is a field if and only if it is nonzero and its only ideals are 0 and itself. 命題が続きます。
+写像 $\mathfrak{b}\mapsto \mathfrak{b}/\mathfrak{a}$ は、代数含む $\mathfrak{a}$ の集合から代数 $A/\mathfrak{a}$ の理想の集合までの全単射です。これらは環 $A/\mathfrak{a}$ の理想です。なぜなら、この代数は統一的だからです。最後に、定理により、I, §9, No. 1、p. 115、環 $A/\mathfrak{a}$ の 1 は、非零であり、その理想値が 0 とそれ自体である場合に限り、体になります。 命題が続きます。
 
 #### 例 1 {#alg-viii-a1-n1-exa-1 .statement tag=00P7}
 
@@ -85,7 +85,7 @@ T を局所コンパクト空間とし、$\mathscr{C}_0(T)$ を無限遠で 0 �
 
 #### 例 3 {#alg-viii-a1-n1-exa-3 .statement tag=00P9}
 
-$L^1(\mathbf{R})$ を局所的にコンパクトな群 $\mathbf{R}$ の畳み込み代数とします。 Recall (cf. Int., VIII, §4, No. 5, p. 38) that $L^1(\mathbf{R})$ is the space of classes of functions on $\mathbf{R}$ that are integrable for the Lebesgue measure. 2 つの写像 $f$ と $g$ の類の積は、公式によって定義される写像 $f*g$ の類です
+$L^1(\mathbf{R})$ を局所的にコンパクトな群 $\mathbf{R}$ の畳み込み代数とします。 (cf. Int.、VIII, §4, No. 5、p. 38) を思い出してください。$L^1(\mathbf{R})$ はルベーグ測度で積分可能な$\mathbf{R}$ 上の関数のクラスの空間です。 2 つの写像 $f$ と $g$ の類の積は、公式によって定義される写像 $f*g$ の類です
 
 $$
 (f*g)(s) =\int_{-\infty}^{+\infty}f(t)g(s-t)dt
@@ -111,7 +111,7 @@ b) 逆に、$\mathfrak{a}$ を A の正規の左イデアルとし、$u$ を $\m
 
 c) $k$ が体の場合、条件 $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ は、$\widetilde{\mathfrak{a}}$ が A に含まれていないというに相当します。
 
-a)の仮定の下で、$\widetilde{A}$の元$e$は、$u\in A$と$u-e\in \widetilde{\mathfrak{a}}$を使って$(e-u)+u$と書くことができます。 $x=\lambda e+a$ を $\widetilde{A}$ の元とします。ここで、$\lambda \in k$ と $a\in A$ です。 $x$ 属するから $\widetilde{\mathfrak{a}}$ の場合、属するから $\mathfrak{a}$ の元 $y=a+\lambda u=x+\lambda (u-e)$ となり、$x=y-\lambda (u-e)$ になります。これは等式 $\widetilde{\mathfrak{a}}=\mathfrak{a}+k(u-e)$ を証明します。 Moreover, for every $a$ in A, the element $au-a=a(u-e)$ of A belongs to $\mathfrak{a}$, so $u$ is a right unit modulo $\mathfrak{a}$. これは主張 a) を証明します。
+a)の仮定の下で、$\widetilde{A}$の元$e$は、$u\in A$と$u-e\in \widetilde{\mathfrak{a}}$を使って$(e-u)+u$と書くことができます。 $x=\lambda e+a$ を $\widetilde{A}$ の元とします。ここで、$\lambda \in k$ と $a\in A$ です。 $x$ 属するから $\widetilde{\mathfrak{a}}$ の場合、属するから $\mathfrak{a}$ の元 $y=a+\lambda u=x+\lambda (u-e)$ となり、$x=y-\lambda (u-e)$ になります。これは等式 $\widetilde{\mathfrak{a}}=\mathfrak{a}+k(u-e)$ を証明します。 さらに、A のすべての $a$ について、A の要素 $au-a=a(u-e)$ は $\mathfrak{a}$ に属するため、$u$ は $\mathfrak{a}$ を法とする正しい単位です。 これは主張 a) を証明します。
 
 $\mathfrak{a}$ と $u$ を b) のようにします。 $\widetilde{A}$はAの直和と$k(u-e)$なので、$\widetilde{\mathfrak{a}}+ A =\widetilde{A}$と$\widetilde{\mathfrak{a}}\cap A =\mathfrak{a}$ができます。 $\widetilde{\mathfrak{a}}$ のすべての元は、$x\in \mathfrak{a}$ と $\lambda \in k$ を含む形 $x+\lambda (u-e)$ です。 $a\in A$ ごとに、
 
@@ -119,9 +119,9 @@ $$
 a(x+\lambda (u-e)) =ax+\lambda (au-a)
 $$
 
-$u$ は $\mathfrak{a}$、和 $ax+\lambda (au-a)$ 属するから $\mathfrak{a}$ を法とする A の右単位元であるため、$\widetilde{\mathfrak{a}}$ は A の左イデアルです。これは b) を証明します。
+$u$ は $\mathfrak{a}$ を法とする A の右単位元なので、和 $ax+\lambda (au-a)$ 属するから $\mathfrak{a}$ なので、$\widetilde{\mathfrak{a}}$ は A の左イデアルです。これは b) を証明します。
 
-最後に、$k$ が体である場合、A は $\widetilde{A}$ の超平面であり、$\widetilde{A}$ は $\widetilde{\mathfrak{a}}$ の和であり、$\widetilde{\mathfrak{a}}$ が A に含まれていない場合にのみ A になります。
+最後に、$k$ が体である場合、A は $\widetilde{A}$ の超平面であり、$\widetilde{A}$ は $\widetilde{\mathfrak{a}}$ の和であり、$\widetilde{\mathfrak{a}}$ が A に含まれていない場合に限り、A になります。
 
 #### 系 {#alg-viii-a1-n2-cor-1 .statement tag=00PB}
 
@@ -131,9 +131,9 @@ A の通常の左イデアルは、形 $A\cap \widetilde{\mathfrak{a}}$ のイ�
 
 a) $\mathfrak{a}$ を A の通常の最大左イデアルとします。$\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ と $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$ のような、$\widetilde{A}$ の一意の左イデアル $\widetilde{\mathfrak{a}}$ が存在します。この理想は最大であり、含む A にはなりません。
 
-b) 写像 $\widetilde{\mathfrak{a}}\mapsto \widetilde{\mathfrak{a}}\cap A$ は、含む A から A の通常の最大左イデアルの集合ではなく、$\widetilde{A}$ の最大左イデアルの集合からの全単射です。
+b) 写像 $\widetilde{\mathfrak{a}}\mapsto \widetilde{\mathfrak{a}}\cap A$ は、A の通常の最大左イデアルの含むから集合ではなく、$\widetilde{A}$ の最大左イデアルの集合からの全単射です。
 
-$\mathfrak{a}$ を A の通常の最大左イデアルとします。 命題 3、a) により、$\mathfrak{b}+ A =\widetilde{A}$ と $\mathfrak{b}\cap A =\mathfrak{a}$ がイデアル $\mathfrak{a}+k(u-e)$ となるような $\widetilde{A}$ の左イデアル $\mathfrak{b}$ が得られます。ここで、$u$ は剰余類における右単元 $\mathfrak{a}$ です。したがって、$\widetilde{\mathfrak{a}}$の一意性を証明するには、$\mathfrak{a}$を法とするAの2つの正しい単位元$u$と$u'$が$\mathfrak{a}$を法として合同であることを証明すれば十分です。矛盾によって推論し、$u-u'$ が $\mathfrak{a}$ に対して属するではないと仮定しましょう。 公式 $x(u-u') = (xu-x)-(xu'-x)$ は、$A(u-u')\subset \mathfrak{a}$ があることを示します。したがって、$\mathfrak{a}+k(u-u')$ は含む $\mathfrak{a}$ の左イデアルであり、$\mathfrak{a}$ とは異なります。 $\mathfrak{a}$ が最大なので、$\mathfrak{a}+k(u-u') = A$ となり、AA $\subset \mathfrak{a}$ になります。すべての $x\in A$ に対して、$x\equiv xu$ (mod $\mathfrak{a}$) が得られるため、上記により $x\in \mathfrak{a}$ となり、矛盾する仮定 $\mathfrak{a}\not= A$ となります。
+$\mathfrak{a}$ を A の通常の最大左イデアルとします。 命題 3、a) により、$\widetilde{A}$ の左イデアル $\mathfrak{b}$ は、$\mathfrak{b}+ A =\widetilde{A}$ と $\mathfrak{b}\cap A =\mathfrak{a}$ がイデアル $\mathfrak{a}+k(u-e)$ となり、$u$ は剰余類における右単元となります。 $\mathfrak{a}$。したがって、$\widetilde{\mathfrak{a}}$の一意性を証明するには、$\mathfrak{a}$を法とするAの2つの正しい単位元$u$と$u'$が$\mathfrak{a}$を法として合同であることを証明すれば十分です。矛盾によって推論し、$u-u'$ が属するから $\mathfrak{a}$ にならないと仮定しましょう。 公式 $x(u-u') = (xu-x)-(xu'-x)$ は、$A(u-u')\subset \mathfrak{a}$ があることを示します。したがって、$\mathfrak{a}+k(u-u')$ は含む $\mathfrak{a}$ の左イデアルであり、$\mathfrak{a}$ とは異なります。 $\mathfrak{a}$ が最大であるため、$\mathfrak{a}+k(u-u') = A$ があり、AA $\subset \mathfrak{a}$ になります。すべての $x\in A$ に対して、$x\equiv xu$ (mod $\mathfrak{a}$) が得られるため、上記により $x\in \mathfrak{a}$ となり、矛盾する仮定 $\mathfrak{a}\not= A$ となります。
 
 従って、$\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ と $\mathfrak{a}=\widetilde{\mathfrak{a}}\cap A$ のような、$\widetilde{A}$ の固有の左イデアル $\widetilde{\mathfrak{a}}$ が存在します。 $\mathfrak{b}$ を、$\widetilde{A}$ 含む $\widetilde{\mathfrak{a}}$ の適切な左理想とする。すると$\mathfrak{b}\cap A$は含む$\mathfrak{a}$の正しい左イデアルになります。従って、$\mathfrak{a}$が最大であるため、$\mathfrak{a}$と等しくなります。これは、VIII、p. 4の2である補題によって$\mathfrak{b}=\widetilde{\mathfrak{a}}$を意味します。これは、$\widetilde{\mathfrak{a}}$ が $\widetilde{A}$ の最大の理想であることを証明します。このような理想の場合、条件 $\widetilde{A} =\widetilde{\mathfrak{a}}+ A$ は、$\widetilde{\mathfrak{a}}$ が含む A ではないことを意味します。
 

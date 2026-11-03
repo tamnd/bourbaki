@@ -37,16 +37,16 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 2948b53d17a5962a262eae2683cba6381675b80395d0f262e2c7447dbd7c5acc
+content_sha256: 5285925c99703dfae749264a19c99cc28ea15a988225f1effc9f4f5bf5fef554
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
 translation_method: google
 source_content_sha256: b4ee00e28c0ad5363315a73bf228d2a58c397d50dececefce928f935c44c92bb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6ae31135c0c6217fc8f187988b68c1588fe5b621fcc8e34e23e2b81848960fdf
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。小節の像
@@ -166,7 +166,7 @@ Thを適用すれば十分です。 §4, No. 4 の 2 つ。
 
 #### 命題 4 {#int-v-s6-prop-4 .statement tag=0950}
 
-— Let T, T', T'' be three locally compact spaces, $\mu$ a positive measure on T, $\pi$ a $\mu$-measurable mapping of T into T', $\pi'$ a mapping of T' into T'', and $\pi'' = \pi' \circ \pi$.
+— T、T'、T'' を 3 つの局所的にコンパクトな空間、$\mu$ T の正の測度、$\pi$ T から T' への $\mu$ 測定可能な写像、$\pi'$ T' から T'' への写像、および $\pi'' = \pi' \circ \pi$ とします。
 
 a) $\pi$ が $\mu$-proper であると仮定し、$\mu' = \pi(\mu)$ とします。 $\pi'$が$\mu'$-適切であるためには、$\pi''$が$\mu$-適切であることが必要かつ十分であり、その場合、$\pi''(\mu) = \pi'(\pi(\mu))$（小節の像の推移性）になります。
 
@@ -273,27 +273,27 @@ $$
 \pi(\theta) = \pi(\theta^+) - \pi(\theta^-) .
 $$
 
-以前に確立された複数の結果拡大するは、複雑な対策に対して一度に行われます。その中で最も重要なものを引用します。
+拡大するに確立された複数の結果を同時に複雑な対策に適用します。その中で最も重要なものを引用します。
 
 #### 命題 7 {#int-v-s6-prop-7 .statement tag=0957}
 
-*$\theta$を$T$、$\pi$、$T$の$\theta$適切な写像を局所的にコンパクトな空間、$X$、$\nu$像の⟧⟧⟧⟧の複素指標とする$\pi(\theta)$。
+*$\theta$を$T$、$\pi$、$T$の$\theta$適切な写像を局所的にコンパクトな空間$X$、$\nu$像メジャー$\pi(\theta)$に複素メジャーとします。
 
 a) $A$ を $X$ の部分集合とします。 $\overline{\pi^{-1}}(A)$ が局所的に $\theta$ で無視できる場合、$A$ は局所的に $\nu$ で無視できます。
 
 b) $f$ を $X$ の写像としてトポロジカル空間にします。 $f \circ \pi$ が $\theta$ 測定可能である場合、 $f$ は $\nu$ 測定可能です。*
 
-c) $f$ を、バナッハ空間 $F$ の値とともに、$X$ で定義された写像とします。 $f \circ \pi$ が本質的に $\theta$ 積分可能である場合、$f$ は本質的に $\nu$ 積分可能であり、
+c) $f$ を $X$ で定義された写像とし、値を Banach 空間 $F$ に含めます。 $f \circ \pi$ が本質的に $\theta$ 可積分である場合、$f$ は本質的に $\nu$ 積分可能であり、
 
 $$
 \int f(\pi(t))\ d\theta(t) = \int f(x)\ d\nu(x).
 $$
 
-公式 (8) を考慮すると、これらの結果は Cor.提案 2 の 2、提案 3 から、および Th から。 No. 2の1。
+公式 (8) を考慮すると、これらの結果は Cor.提案 2 の 2、提案 3 から、および Th から。 No. 2 の 1。
 
 ### 5. 応用: ルベーグ積分の変数の変更
 
-I を $\mathbf{R}$ の区間 (有界かどうか)、$a$ をその左端点、$\overline{\mathbf{R}}$ の右端点を $b$、I のルベーグ測度を $\mu$ とします。すべての $\mu$ 積分可能関数 $f$ とすべての区間 $H \subset I$ について、左端点 $\alpha$ と右端点 $\beta$ を使用して、$\int_H f(t)\ dt = \int_H f\ d\mu$ の代わりに $\int_{\alpha}^{\beta} f(t)\ dt$ と書き、集合 $\int_{\beta}^{\alpha} f(t)\ dt = -\int_{\alpha}^{\beta} f(t)\ dt$;このようにしてこれらのシンボル一致するに与えられた意味は、$f$ がコンパクトなサポートを備えた規制された写像である場合に、FRV、II, §§1、および 2 でそれらに起因する意味となります (Ch. IV, §4, No. 4、例)。
+I を $\mathbf{R}$ の区間 (有界かどうか)、$a$ をその左端点、$\overline{\mathbf{R}}$ の右端点を $b$、I のルベーグ測度を $\mu$ とします。すべての $\mu$ 積分可能関数 $f$ とすべての区間 $H \subset I$ について、左端点 $\alpha$ と右端点 $\beta$ を使用して、$\int_H f(t)\ dt = \int_H f\ d\mu$ の代わりに $\int_{\alpha}^{\beta} f(t)\ dt$ と書き、集合 $\int_{\beta}^{\alpha} f(t)\ dt = -\int_{\alpha}^{\beta} f(t)\ dt$ とします。このようにしてこれらのシンボル一致するに与えられた意味は、$f$ がコンパクトなサポートを備えた規制された写像である場合に、FRV、II, §§1、および 2 に帰属するものとなります (Ch. IV, §4, No. 4、例)。
 
 $g$ を、I で定義された数値写像とし、*局所的に $\mu$* 積分可能、I の $x_0$ 点とします。 $x \in I$、集合ごとに
 
@@ -325,7 +325,7 @@ $$
 
 #### 系 {#int-v-s6-n5-cor-1 .statement tag=0959}
 
-*If a function $\mathbf{f}$ defined on $G(I)$, with values in $\overline{\mathbf{R}}$ or in a Banach space, is such that the function $t \mapsto \mathbf{f}(G(t))g(t)$ is integrable on $I$ for Lebesgue measure, then $\mathbf{f}$ is integrable on $J$ for Lebesgue measure and*
+*$\overline{\mathbf{R}}$ またはバナッハ空間の値を持つ、$G(I)$ で定義された関数 $\mathbf{f}$ が、ルベーグ測度の$I$ で関数 $t \mapsto \mathbf{f}(G(t))g(t)$ が積分可能である場合、ルベーグ測度の$\mathbf{f}$ は、$J$ で積分可能であり、*
 
 $$
 \int_{G(a+)}^{G(b-)} \mathbf{f}(\xi)\,d\xi = \int_a^b \mathbf{f}(G(t))g(t)\,dt
@@ -404,7 +404,7 @@ b) *$U$を$\mathscr{U}$の元、$\nu$をスカラー的に本質的に$\mu$積�
 
 a) を確立するには、$f$ のサポート $S$ が開いた集合 $U \in \mathscr{U}$ に含まれる場合、単位元 (Ch. III, §1, No. 2、補題 1) の分割によって簡約するを行うことができます。 $g$ を写像 $t \mapsto \lambda_t(f)$ とします。 $\pi|U$ は同型なので、$g|\pi(U)$ 属する ～ $\mathscr{K}_+(\pi(U))$ なので、($\pi(U)$ は $\pi(X)$ の開集合である) $g$ ～ $\pi(X)$ の制限は連続です。 $g$ は正であり、$g$ からコンパクトな集合までの $\pi(S)$ の制限は連続であるため、$g$ は$T$ の上半連続であることがわかります。従って、$g$ は $\mu$ 可積分であることがわかります。
 
-To establish b), denote by $g$ an element of $\mathscr{K}(\pi(U))$, by $g^\circ$ its extension by 0 to $T$, by $f$ the function $g \circ (\pi|U)$, and by $f^\circ$ the extension by 0 of $f$ to $X$. 主張 b) は等式 $\int g^\circ d\mu = \int f^\circ d\nu$ と同等です。 しかし、$f \in \mathscr{K}(U)$ なので $f^\circ \in \mathscr{K}(X)$ となり、2 番目の積分は $\int \lambda_t(f^\circ) d\mu(t)$ に等しくなります。 最後に$\lambda_t(f^\circ) = g^\circ(t)$、これで証明が完成します。
+b)を確立するには、$\mathscr{K}(\pi(U))$の要素を$g$、その0から$T$までの拡張を$g^\circ$、関数$g \circ (\pi|U)$を$f$、$f$から$X$の0による拡張を$f^\circ$で表します。 主張 b) は等式 $\int g^\circ d\mu = \int f^\circ d\nu$ と同等です。 しかし、$f \in \mathscr{K}(U)$ なので $f^\circ \in \mathscr{K}(X)$ となり、2 番目の積分は $\int \lambda_t(f^\circ) d\mu(t)$ に等しくなります。 最後に$\lambda_t(f^\circ) = g^\circ(t)$、これで証明が完成します。
 
 ここで、$\pi(X)$ が $T$ で *オープン* であるため、$\mu$ が測定可能であることがわかります。 写像 $\Lambda : t \mapsto \lambda_t$ は、集合 $\pi(X)$ と $\mathbf{C}\pi(X)$ のそれぞれに対する制限が漠然と連続しているため、漠然と $\mu$ 測定可能です。これらの条件、公式 $\overline{\pi}^{-1}(\mu) = \int \lambda_t d\mu(t)$ 定義する分解が $\pi$ に対して $\overline{\pi}^{-1}(\mu)$ のスライスに分割され、提案 10 により次の結果が得られます。
 

@@ -53,16 +53,16 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 0a8ad80b08d0b1c8f7ba1bb3e7d584324f366fbab1731325a95f7c51e3655a82
+content_sha256: 305a7d62810d43ff83d169255b094aecf409a86f80d569baf7f80bbaea15b2cd
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 translation_method: google
 source_content_sha256: e472279781ec8c0c5cc2af6e1e4dd1a20a67a73d7a8042acdd1dea73f6ae558d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: af97e06fbb4e89aae2b9c68460fc596e5233f024ecbfd4f84ea015535252f553
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。現実的かつ複雑リー群
@@ -73,7 +73,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 補題 1 {#lie-iii-s6-lem-1 .statement tag=0AE8}
 
-*Let G be a simply connected† topological group, W a symmetric connected open neighbourhood of e, H a group and f a mapping of $W^3$ into H such that*
+*G を単純接続† の位相グループ、W を e の対称接続された開いた近傍、H をグループ、f を次のような H への $W^3$ のマッピングとします。
 
 $$
 f(xyz) = f(x)f(y)f(z)
@@ -89,7 +89,7 @@ $$
 
 † 参照。 *一般位相* の章 XI (登場予定)。この章で、$G_1, G_2$ がトポロジー 群で接続されている場合、$\phi$ は$G_1$ の$G_2$ 上の離散核の開連続準同型であり、$G_2$ は単純に接続されており、$\phi$ は準同型性。一方、単純に接続された空間が接続されていることを思い出してください。
 
-したがって $A(s, t, U') \subset A(g, h, U)$ です。 次に、$G \times H$ の位相の $A(g, h, U)$ 形基底が続きます。 We shall denote by $Y$ the set $G \times H$ with this topology and denote by $p$ the canonical projection of $Y$ onto $G$, which is open. $p$ から $A(g, h, U)$ の制限は、$A(g, h, U)$ の $gU$ への同型写像です。 したがって、$(Y, p)$ は $G$ のカバー 空間です。 $Y_0$ を $A(e, e, W)$ によって生成された $Y$ の部分群とし、$\mathfrak{B}$ を $A(e, e, U)$ の集合とします。 明らかに、$\mathfrak{B}$ は *一般位相*、章 III, § 1, no. 2 の条件 (GV$_1'$) および (GV$_1''$) を満たします。 The set $Y_0'$ of $y \in Y_0$ such that the mappings $z \mapsto yzy^{-1}$ and $z \mapsto y^{-1}zy$ of $Y_0$ into $Y_0$ are continuous at $(e, e)$ is a subgroup of $Y_0$. $w \in W$ にしましょう。 $W$ から $G$ への写像 $w' \mapsto ww'w^{-1}$ は連続であるため、写像
+したがって $A(s, t, U') \subset A(g, h, U)$ です。 次に、$G \times H$ の位相の $A(g, h, U)$ 形基底が続きます。 このトポロジーを持つ集合 $G \times H$ を $Y$ で表し、開いた $Y$ の $G$ への正準射影を $p$ で表すことにします。 $p$ から $A(g, h, U)$ の制限は、$A(g, h, U)$ の $gU$ への同型写像です。 したがって、$(Y, p)$ は $G$ のカバー 空間です。 $Y_0$ を $A(e, e, W)$ によって生成された $Y$ の部分群とし、$\mathfrak{B}$ を $A(e, e, U)$ の集合とします。 明らかに、$\mathfrak{B}$ は *一般位相*、章 III, § 1, no. 2 の条件 (GV$_1'$) および (GV$_1''$) を満たします。 $Y_0$ の $Y_0$ へのマッピング $z \mapsto yzy^{-1}$ と $z \mapsto y^{-1}zy$ が $(e, e)$ で連続するような $y \in Y_0$ の集合 $Y_0'$ は、$Y_0$ のサブグループです。 $w \in W$ にしましょう。 $W$ から $G$ への写像 $w' \mapsto ww'w^{-1}$ は連続であるため、写像
 
 $$
 (w', f(w')) \mapsto (ww'w^{-1}, f(ww'w^{-1}))
@@ -109,7 +109,7 @@ $Y_0$ は、$A(e, e, W)$ が接続されているため、接続されている�
 
 *$G$と$H$をリー群と$h$を$L(G)$から$L(H)$に続く射とします。 $G$ が単純に接続されているとします。すると、$H$ には $h = L(\phi)$ となる $G$ のリー群射 $\phi$ が 1 つだけ存在します。*
 
-$\phi$ の存在は、補題 1 と § 4, no. 1、定理 1 (i) から続きます。 $\phi$ の一意性は、§ 4, no. 1、定理 1 (ii) と$G$ が接続されているという事実から導き出されます。
+$\phi$ の存在は、補題 1 と § 4, no. 1、定理 1 (i) から続きます。 $\phi$ の一意性は、§ 4, no. 1、定理 1 (ii) と$G$ が接続されているという事実から続きます。
 
 #### 系 {#lie-iii-s6-n1-cor-1 .statement tag=0AEA}
 
@@ -178,11 +178,11 @@ $\psi$ を移行から商のとき $\phi$ から導出された H への G/N の
 
 *G をリー群とし、H_1 と H_2 を G の積分部分群とします。$L(H_2) \subset L(H_1)$ の場合、H_2 は H_1 の積分部分群です。
 
-$i_1 : H_1 \to G, i_2 : H_2 \to G$を標準単射とします。 Then
+$i_1 : H_1 \to G, i_2 : H_2 \to G$を標準単射とします。 それから
 $$
 L(i_2)(L(H_2)) = L(H_2) \subset L(H_1).
 $$
-By Proposition 1, $i_2$ is an analytic mapping of $H_2$ into $H_1$ and even an immersion of $H_2$ into $H_1$ since $L(i_2)$ is an isomorphism of $L(H_2)$ onto a subalgebra of $L(H_1)$ admitting a topological supplement.
+命題 1 によれば、$i_2$ は $H_2$ の $H_1$ への解析写像であり、$L(i_2)$ は$L(H_1)$ の部分代数への$L(H_2)$ の同型写像であるため、$H_2$ の$H_1$ への浸漬でさえあり、位相的補足を認めます。
 
 #### 系 3 {#lie-iii-s6-prop-1-cor-3 .statement tag=0AEJ}
 
@@ -203,13 +203,13 @@ $\bigcap_{i \in J} L(H_i)$ がすべての L(H_i) の共通部分 M に等しい
 
 #### 命題 2 {#lie-iii-s6-prop-2 .statement tag=0AEL}
 
-*G を有限次元リー群とし、H を G の積分部分群とします。次の条件は同等です:*
+*G を有限次元リー群とし、H を G の積分部分群とします。 次の条件は同等です:*
 (i) *H は閉じています*;
-(ii) H 上の *位相は G* 上の *位相によって誘導されます。
-(iii) *H は G* の嘘部分群です。
+(ii) * H 上のトポロジーは G* 上のトポロジーによって誘導されます。
+(iii) *H は G* のリー部分群です。
 (i) $\Rightarrow$ (iii): これは、§ 1、命題 2 (iv) (no. 1) および 14 (iii) (no. 7) から続きます。
 (iii) $\Rightarrow$ (ii): 明らかです。
-(ii) $\Rightarrow$ (i): H 上の位相が G 上の⟧ によって誘導される場合、H は完了しているため、H は閉じます (§ 1, no. 1、命題 1)。
+(ii) $\Rightarrow$ (i): H 上のトポロジーが G 上のトポロジーによって誘導される場合、H は完全であるため、H は閉じます (§ 1, no. 1、命題 1)。
 
 #### 命題 3 {#lie-iii-s6-prop-3 .statement tag=0AEM}
 
@@ -254,9 +254,9 @@ G を有限次元リー群とします。 H を G の部分群とします。言
 
 #### 注意 3 {#lie-iii-s6-n2-rem-3 .statement tag=0AER}
 
-V を類 C^r の多様体とします。 M を V の部分集合とし、M の x と y 元とします。 次の性質について考えてみましょう。
+V を類 C^r の多様体とします。 M を V の部分集合、M の x と y 元とします。次の性質を考えてみましょう。
 
-P_{M, x, y}: there exist I, x_0, x_1, \ldots, x_n, f_1, \ldots, f_n such that: (a) I is a connected open subset of \mathbf{K}; (b) x_0, \ldots, x_n are in M, x_0 = x, x_n = y; (c) for 1 \leq i \leq n, f_i is a mapping of class C^r of I into V which takes the values x_{i-1} and x_i and f_i(I) \subset M.
+P_{M, x, y}: 次のような I, x_0, x_1, \ldots, x_n, f_1, \ldots, f_n が存在します: (a) I は \mathbf{K} の接続されたオープン部分集合です。 (b) x_0、\ldots、x_n は M にあり、x_0 = x、x_n = y。 (c) 1 \leq i \leq n の場合、f_i は類の写像 I の C^r を V に変換し、値 x_{i-1} と x_i および f_i(I) \部分集合 M をとります。
 
 M のすべての元 x, y について、性質 P_{M, x, y} が成り立つ場合、M は V の C^r 接続された部分集合であると言います。
 
@@ -269,7 +269,7 @@ G を G の有限次元リー群および H 部分群とします。r \in \mathb
 (iii) \Rightarrow (i): 明らかです。
 (i) \Rightarrow (iii): H が G の整数部分群となるように、H がリー群構造を持つとします。 性質 P_{H, e, y} が成り立つように、H に注意 3 の記法、y の集合を使用すると、オープンになります。 H の部分群。H が接続されているため、この部分群は H に等しいため、条件 (iii) が満たされます。
 
-(iii) ⇒ (ii): 条件 (iii) が満たされ、H に G 上のリー群構造によって誘起される構造が与えられるとします。 h を e における H に接する部分代数とします。 H の単位成分 H_0 は、L(H_0) = h となる G の積分部分群です。 H = H_0 であることを示します。 It suffices to prove the following: let I be a connected open subset of K, f a mapping of class C^r of I into G such that f(I) ⊂ H and λ and μ two points of I; if f(λ) ∈ H_0, then f(μ) ∈ H_0. しかし、すべての v ∈ I について、h の定義によって (T_v f)(K) ⊂ f(v)h となるため、主張は命題 3 から続きます。
+(iii) ⇒ (ii): 条件 (iii) が満たされ、H に G 上のリー群構造によって誘起される構造が与えられるとします。h を e で H に接する部分代数とします。 H の単位成分 H_0 は、L(H_0) = h となる G の積分部分群です。 H = H_0 であることを示します。次のことを証明すれば十分です: I を、K の部分集合、類の f 写像 I の C^r を G に接続して、 f(I) ⊂ H と λ および μ 2 点とする。 I; f(λ) ∈ H_0 の場合は、f(μ) ∈ H_0 になります。しかし、すべての v ∈ I について、(T_v f)(K) ⊂ f(v)h は h の定義によって成り立つため、主張は命題 3 から続きます。
 
 #### 注意 4 {#lie-iii-s6-n2-rem-4 .statement tag=0AET}
 
@@ -287,7 +287,7 @@ a が有限次元代数の場合、Aut(a) は GL(a) の Lie 部分代数であ�
 
 a を有限次元リー代数とします。 Ad(a) または Int(a) が、Aut(a) とリー代数 ad(a) の積分部分群を表すものとします。この群の元をaの内部自己同型と呼びます。
 
-構造の輸送までに、ad(a) は Aut(a) の下で不変であるため、Aut(a) では Int(a) が正規になります。 By § 4, no. 4, Corollary 1 to Proposition 8 and the fact that Int(a) is connected, the elements of Int(a) are the finite products of automorphisms of the form exp ad x where x ∈ a. 一般に、Int(a) は Aut(a) (練習問題 14) の嘘部分群ではありません。
+構造の輸送までに、ad(a) は Aut(a) の下で不変であるため、Aut(a) では Int(a) が正規になります。 § 4, no. 4、命題 8 の系 1、および Int(a) が接続されているという事実により、Int(a) の要素は、形式 exp ad x (x ∈ a) の自己同型の有限積です。 一般に、Int(a) は Aut(a) (練習問題 14) の嘘部分群ではありません。
 
 ### 3. リー代数からリー群への通路
 
@@ -344,7 +344,7 @@ $A$ を完全な標準単位結合代数とします。このとき、$\exp_{A^*
 
 #### 命題 7 {#lie-iii-s6-prop-7 .statement tag=0AF1}
 
-※$G$を$L(G)$のリー群と$a$元とします。 The mapping $\lambda \mapsto \exp(\lambda a)$ of $K$ into $G$ is the unique morphism $\phi$ of the Lie group $K$ into $G$ such that $(T_0 \phi)1 = a$.
+※$G$を$L(G)$のリー群と$a$元とします。 $K$ の $G$ への写像 $\lambda \mapsto \exp(\lambda a)$ は、$(T_0 \phi)1 = a$ などの $G$ へのリー群 $K$ の一意射$\phi$ です。
 
 $K \times K$ から $G$ への写像 $(\lambda, \lambda') \mapsto \exp(\lambda a) \exp(\lambda' a)$ と $(\lambda, \lambda') \mapsto \exp(\lambda + \lambda') a$ は分析的であり、$(0, 0)$ の近傍では一致するです。 $K \times K$が繋がっているので、この写像は等しくなります。したがって、$\phi : \lambda \mapsto \exp(\lambda a)$ は、$K$ のリー群射が $G$ になります。 0 から $\lambda \mapsto \lambda a$ までの接線写像は写像 $\lambda \mapsto \lambda a$ です。そして$T_e(\exp) = \mathrm{Id}_{L(G)}$;したがって$(T_0 \phi)1 = a$です。 一意性主張の命題は定理 1 から続きます。*
 
@@ -635,7 +635,7 @@ G を、G の類 C^r のハウスドルフ多様体と左 (右それぞれ) の 
 
 #### 補題 5 {#lie-iii-s6-lem-5 .statement tag=0AFU}
 
-Let G be a simply connected topological group, X a Hausdorff topological space, U an open neighbourhood of e in G and \psi a continuous mapping of U \times X into X such that \psi(e, x) = x and \psi(s, \psi(t, x)) = \psi(st, x) for all x \in X and s, t in U such that st \in U. W を、W^3 \部分集合 U となるような e の対称接続オープン近傍とします。 X 上の G の連続左演算 \psi' の法則は、W \times X 上の \psi' と \psi 一致するが 1 つだけ存在します。 G が類 C^r のリー群および X 多様体で、\psi が類 C^r である場合、\psi' は類 C^r になります。
+G を単純接続位相群、X ハウスドルフ位相空間、U を G の e の開いた近傍、\psi をすべての x \in X に対して \psi(e, x) = x および \psi(s, \psi(t, x)) = \psi(st, x) となるような U \times X の X への連続写像とする。 s, t を U に置き、st \in U となるようにします。 W を、W^3 \部分集合 U となるような e の対称接続オープン近傍とします。 X 上の G の連続左演算 \psi' の法則は、W \times X 上の \psi' と \psi 一致するが 1 つだけ存在します。 G が類 C^r のリー群および X 多様体で、\psi が類 C^r である場合、\psi' は類 C^r になります。
 
 \psi の一意性は補題 4 から続きます。P を X の置換群とします。 u \in W^3 の場合、写像 x \mapsto \psi(u, x) は P の元 f(u) であり、
 
@@ -645,7 +645,7 @@ W の u_1、u_2、u_3 について、no. 1 の適用補題 1 から、G の射 f
 
 #### 定理 5 {#lie-iii-s6-thm-5 .statement tag=0AFV}
 
-G を単純に接続されたリー群、X 類 C^r (r \geq 2) のコンパクト多様体と、類の左 (右) 無限小演算の \mapsto D_a 法則とします。 XのL(G)のC^{r-1}。 There exists one and only one law of left (resp. right) operation of class C^{r-1} of G on X such that the associated law of infinitesimal operation is a \mapsto D_a.
+G を単純に接続されたリー群、X 類 C^r (r \geq 2) のコンパクト多様体と、類の左 (右) 無限小演算の \mapsto D_a 法則とします。 XのL(G)のC^{r-1}。 X 上の G のクラス C^{r-1} の左 (右) 演算の法則は 1 つだけ存在し、関連する無限小演算の法則は \mapsto D_a になります。
 
 一意性は命題 16 から続きます。§ 4, no. 7、系 1 から定理 6 までに、G \times X と法則の \{e\} \times X の近傍 V が存在します。 V で定義された、X 上の G の左 (それぞれ右) 演算の類 C^{r-1} のチャンク。無限小演算の関連する法則は \mapsto D_a になります。 X はコンパクトなので、V は形 U × X であると仮定できます。ここで、U は G の e の開近傍です。その場合、補題 5 を適用するだけで十分です。
 
@@ -731,35 +731,35 @@ $$
 
 E を $\mathbf{C}$、$v \in \mathscr{L}(E)$、および $g = \exp v$ 上の完全正規数空間とする。すべての $z \in \mathrm{Sp}\, v$ が $-\pi < \mathscr{J}(z) < \pi$ を満たすとします。すると、$E$ の閉じたベクトル部分空間 $E'$ ごとに、条件 $v(E') \subset E'$ と $g(E') = E'$ は等価になります。
 
-条件 $v(E') \subset E'$ は $g(E') \subset E'$ と $g^{-1}(E') \subset E'$ を意味し、したがって $g(E') = E'$ を意味します。 $g(E') = E'$ だとします。 命題 17 の記法 $\Delta, \Delta'$ を使用します。 $\mathrm{Sp}\, v$ は $\Delta$ のコンパクトな部分集合であるため、$\mathrm{Sp}\, v \subset Q \subset \Delta$ のようなコンパクトな長方形 $Q = (a, b) \times (a', b')$ が存在します。 集合 $\Delta - Q$ が接続されています。したがって、$\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$、集合 $\exp Q$ はコンパクトで、集合 $\Delta' - \exp Q$ は接続されます。後者含む $]-\infty, 0]$ の閉鎖、したがって
+条件 $v(E') \subset E'$ は $g(E') \subset E'$ と $g^{-1}(E') \subset E'$ を意味し、したがって $g(E') = E'$ を意味します。 $g(E') = E'$ だとします。 命題 17 の記法 $\Delta, \Delta'$ を使用します。 $\mathrm{Sp}\, v$ は $\Delta$ のコンパクトな部分集合であるため、$\mathrm{Sp}\, v \subset Q \subset \Delta$ のようなコンパクトな長方形 $Q = (a, b) \times (a', b')$ が存在します。 集合 $\Delta - Q$ が接続されています。したがって、$\mathrm{Sp}\, g \subset \exp Q \subset \Delta'$、集合 $\exp Q$ はコンパクトで、集合 $\Delta' - \exp Q$ は接続されます。後者含む $]-\infty, 0]$ の閉鎖、そしてそれ故
 
 $$
 (\Delta' - \exp Q) \cup ]-\infty, 0] = \mathbf{C} - \exp Q
 $$
 
-連結。 この場合、$\exp Q$ は凸多項式 (*スペクトル理論*、章 I, § 3、系 2 ～ 命題 9) であるため、$\Delta'$ で定義された写像 $\log$ は、次の $\mathscr{O}(\exp Q)$ では極限になります。 多項式関数 (*スペクトル理論*、章 I, § 4、命題 3)。 Hence $v = \log g$ is the limit in $\mathscr{L}(E)$ of elements of the form $P(g)$, where $P$ is a polynomial (*Spectral Theories*, Chapter I, § 4, Theorem 3). $P(g)(E') \subset E'$ であるため、$v(E') \subset E'$ となります。
+連結。この場合、$\exp Q$ は凸多項式 (*スペクトル理論*、章 I, § 3、系 2 ～ 命題 9) であるため、$\Delta'$ で定義された写像 $\log$ は、次の式では極限になります。 多項式関数の $\mathscr{O}(\exp Q)$ (*スペクトル理論*、章 I, § 4、命題 3)。したがって、$v = \log g$ は、形 $P(g)$ の元の $\mathscr{L}(E)$ の極限です。ここで、$P$ は多項式です (*スペクトル理論*、章 I, § 4、定理) 3)。 $P(g)(E') \subset E'$ なので、$v(E') \subset E'$ となります。
 
 #### 系 {#lie-iii-s6-n9-cor-1 .statement tag=0AG3}
 
-E を、$\mathbf{C}$、$v \in \mathscr{L}(E)$、$g = \exp v$ 上の完全な正規化空間とする。すべての $z \in \mathrm{Sp}\, v$ が $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$ を満たすとします。すると、$\mathscr{L}(E)$、条件、$gMg^{-1} = M$、$[v, M] \subset M$ の閉じたベクトル部分空間 M ごとに等価になります。
+E を、$\mathbf{C}$、$v \in \mathscr{L}(E)$、$g = \exp v$ 上の完全な正規化空間とします。すべての $z \in \mathrm{Sp}\, v$ が $-\frac{\pi}{2} < \mathscr{J}(z) < \frac{\pi}{2}$ を満たすとします。すると、$\mathscr{L}(E)$ の閉じたベクトル部分空間 M ごとに、条件 $gMg^{-1} = M$ と $[v, M] \subset M$ は等価になります。
 
-$F = \mathscr{L}(E)$、$g'$ を F から F への写像 $f \mapsto gfg^{-1}$ とし、$v'$ を F から F への写像 $f \mapsto [v, f]$ とします。そして、$g' = \exp v'$ (no. 4、系 3 から命題 10、そして§ 3, no. 11、系 1 ～ 命題 41)。 補題 6 は、すべての $z \in \mathrm{Sp}\, v'$ に対して $-\pi < \mathscr{J}(z) < \pi$ であることを証明します。その場合、命題を適用する 19 で十分です。
+$F = \mathscr{L}(E)$, $g'$ を F から F への写像 $f \mapsto gfg^{-1}$ とし、$v'$ を F から F への写像 $f \mapsto [v, f]$ とします。すると、$g' = \exp v'$ (no. 4, 系 3 から命題 10 および § 3, no. 11、系 1 ～ 命題 41)。 補題 6 は、すべての $z \in \mathrm{Sp}\, v'$ に対して $-\pi < \mathscr{J}(z) < \pi$ であることを証明します。その場合、命題を適用する 19 で十分です。
 
-### 10. 有限次元実リー群の複素化
+### 10. 有限次元実リー群の複雑化
 
 #### 補題 7 {#lie-iii-s6-lem-7 .statement tag=0AG4}
 
-B を群、A を B の通常の部分群、C 群 $B/A$、$i : A \to B$ と $p : B \to C$ を正規の射とします。 $A'$を群、Aの$f$準同型を$A'$とします。 $\omega$をBの射から$A'$の自己同型群とします。 $a \in A'$、$a' \in A'$、$b \in B$ について、
+Bを群、AをBの通常の部分群、C群$B/A$、$i : A \to B$と$p : B \to C$を正規の射とします。 $A'$を群、Aの$f$準同型を$A'$とします。 $\omega$をBの射から$A'$の自己同型群とします。 $a \in A'$、$a' \in A'$、$b \in B$ について、
 
 $$
 f\left(bab^{-1}\right) = \omega(b)f(a), \quad \omega(a)a' = f(a)a'f(a)^{-1}.
 $$
 
-$B''$ を $\omega$ に対する $A'$ による B の半直接積とし、q を B に対する $B''$ の正規射とします。
+$B''$ を $\omega$ に対する $A'$ による B の半直接積とし、q を B に対する $B''$ の正規の射とします。
 
 (i) $B''$ への A の写像 $a \mapsto (f(a^{-1}), i(a))$ は、$B''$ の通常の部分群 D への A の射です。 $B' = B''/D$と$i' : A' \to B'$、$g : B \to B'$を$A'$の射とし、$A'$の標準単射から商を取り、Bを$B''$にすると導き出されるBを$B'$とします。
 
-(ii) The morphism $p \circ q$ of $B''$ into C defines when passing to the quotient a morphism of $B'$ into C.
+(ii) $B''$ の C への射 $p \circ q$ は、商に $B'$ の C への射を定義します。
 
 (iii) $i'$ は単射、$p'$ は全射、$\mathrm{Ker}(p') = \mathrm{Im}(i')$ と次の図式は可換です
 
@@ -834,13 +834,13 @@ $$
 
 (i) *G の $\tilde{G}$ への複素数リー群 $\tilde{G}$ と $\mathbf{R}$-解析射 $\gamma$ が存在し、次の特性を持ちます: すべての複素数リー群 H とすべての $\mathbf{R}$-解析射 $\phi$ G を H に変換すると、$\phi = \psi \circ \gamma$ となるような H に $\tilde{G}$ の $\mathbf{C}$-分析的射 $\psi$ が 1 つだけ存在します。*
 
-(ii) *If $(\tilde{G}', \gamma')$ has the same properties as $(\tilde{G}, \gamma)$, there exists one and only one isomorphism $\theta$ of $\tilde{G}$ onto $\tilde{G}'$ such that $\theta \circ \gamma = \gamma'$.*
+(ii) *$(\tilde{G}', \gamma')$ が $(\tilde{G}, \gamma)$ と同じ性質を持つ場合、$\theta \circ \gamma = \gamma'$ となるような $\tilde{G}$ の $\tilde{G}'$ への同型写像 $\theta$ が 1 つだけ存在します。
 
 (iii) *拡大する $L(\gamma)$ が全射である $L(G) \otimes \mathbf{C}$ から $L(\tilde{G})$ への *$\mathbf{C}$ 線形写像。特に $\dim_{\mathbf{C}}(\tilde{G}) \leq \dim_{\mathbf{R}}(G)$.*
 
 主張 (ii) は明らかです。性質 (i) と (iii) を使用して、順序付けられた対 $(\tilde{G}, \gamma)$ の存在を証明します。
 
-(a) まず G が接続されているとします。 Let $g = L(G)$, $g_C = g \otimes_{\mathbf{R}} \mathbf{C}$ be the complexification of g, S (resp. S') the simply connected real (resp. complex) Lie group with Lie algebra g (resp. $g_C$) and $\sigma$ the unique $\mathbf{R}$-analytic morphism of S into S' such that $L(\sigma)$ is the canonical injection of g into $g_C$. $\pi$ を、$L(\pi) = \mathrm{Id}_{L(G)}$ および F = Ker $\pi$ となるような G に対する S の一意の $\mathbf{R}$-分析射とします。
+(a) まず G が接続されているとします。 $g = L(G)$、$g_C = g \otimes_{\mathbf{R}} \mathbf{C}$ を g の複素数、S (それぞれ S') をリー代数 g (それぞれ $g_C$) と単純に接続された実数 (それぞれ複素数) リー群、および $\sigma$ を S への S の一意の $\mathbf{R}$-解析射影とし、$L(\sigma)$ が g の正準注入であるとする。 $g_C$。 $\pi$ を、$L(\pi) = \mathrm{Id}_{L(G)}$ および F = Ker $\pi$ となるような G に対する S の一意の $\mathbf{R}$-分析射とします。
 
 $$
 \begin{array}{ccc}
@@ -917,7 +917,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 移行の定義するから$G/G_0$の商、$\tilde{G}/\tilde{G}_0$の同型。
 
-(2) $G$ が単純に接続されているとします。 Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. 再び命題 20、部分の証明の記法を使用します (a)。 $H = S'$ と $\phi = \sigma$ の場合、$\phi^* = \mathrm{Id}_{S'}$。 したがって、$(S', \sigma)$ は $G$ の普遍的な複素化です。 $\sigma$ は一般に単射ではないことに注意してください (練習問題 16)。ただし、$L(\sigma)$ は単射なので *その核は離散* です。 一方、$\theta$ を $g$ によって定義される $g_C$ の畳み込みとし、$\eta$ を $S'$ の基礎となる実リー群の対応する自己同型とします。 ${S'}^\eta$ を $\eta$ の下で不変である $S'$ の点の集合とします。それは、リー代数 $g$ (§ 3, no. 8、系 1 ～ 命題 29) を含む $S'$ の部分群という本当の嘘です。 By no. 1, Corollary 1 to Proposition 1, $\sigma(G)$ is a real integral subgroup of $S'$ with Lie algebra $g$ and hence $\sigma(G)$ *is the identity component of* ${S'}^\eta$; in particular $\sigma(G)$ is a real Lie subgroup of $S'$.
+(2) $G$ が単純に接続されているとします。 Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. 再び命題 20、部分の証明の記法を使用します (a)。 $H = S'$ と $\phi = \sigma$ の場合、$\phi^* = \mathrm{Id}_{S'}$。 したがって、$(S', \sigma)$ は $G$ の普遍的な複素化です。 $\sigma$ は一般に単射ではないことに注意してください (練習問題 16)。ただし、$L(\sigma)$ は単射なので *その核は離散* です。 一方、$\theta$ を $g$ によって定義される $g_C$ の畳み込みとし、$\eta$ を $S'$ の基礎となる実リー群の対応する自己同型とします。 ${S'}^\eta$ を $\eta$ の下で不変である $S'$ の点の集合とします。それは、リー代数 $g$ (§ 3, no. 8、系 1 ～ 命題 29) を含む $S'$ の部分群という本当の嘘です。 命題 1 の系 1 である no. 1 より、$\sigma(G)$ はリー代数 $g$ をもつ $S'$ の実積分部分群であるため、$\sigma(G)$ *は ${S'}^\eta$ の恒等成分* です。特に、$\sigma(G)$ は $S'$ の真の Lie 部分群です。
 
 ### 練習問題 {#lie-iii-s6-exercises}
 

@@ -38,23 +38,23 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: c867b6abb1c0a4d1913a3efee13ba4b44902359eedd68d10bdeda9c50cb3e92a
+content_sha256: 0b143ad61403a3bbbaad7a44e46bb876167510a10976f9451703771922e12ae3
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
 translation_method: google
 source_content_sha256: 529e0877ab160d3b3e3d67615a04958e997ebf0f3443b7d1ff61efd5c0edeeb3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 76992b75e45281be1d907716a89d8be504743f71c4e7d3b8fff1f40e9d0c1d5d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 整然としたセット
 
 ### 1. 整然とした集合のセグメント
 
-A relation $\mathrm{R}\{x, y\}$ is said to be a *well-ordering relation between $x$ and $y$* if R is an order relation between $x$ and $y$ and if, for each non-empty set E on which $\mathrm{R}\{x, y\}$ induces an order relation (i.e., such that $x \in \mathrm{E}$ implies $\mathrm{R}\{x, x\}$; cf. § 1, no. 1), E, ordered by this relation, has a *least element*.
+関係 $\mathrm{R}\{x, y\}$ は、R が $x$ と $y$ の間の順序関係であり、各非空集合 E に対して $\mathrm{R}\{x, y\}$ が順序関係を誘導する場合 (すなわち、$x \in \mathrm{E}$ が意味するような順序関係) である場合、$x$ と $y$* の間の *整順序関係であると言われます。 $\mathrm{R}\{x, x\}$; cf. § 1, no. 1), E, ordered by this relation, has a *least element*.
 
 ¶ 関係 $y \in \Gamma\langle x\rangle$ が $x$ と $y$ の間で整列関係である場合、整列 $\Gamma$ によって整列された集合 E は *整列* であると言われます。 $\Gamma$ は E の *整序* であると言われます。次の定義はこれと同等です。
 
@@ -228,7 +228,7 @@ $\mathfrak{F}$ を、包含順に並べた集合 A の部分集合の集合と�
 
 #### 例 2 {#ens-iii-s2-n4-exa-2 .statement tag=03T3}
 
-関係 $\subset$ に関して帰納的である重要な部分集合の集合の例は、集合 A の部分集合の写像を集合 B に変換するグラフの集合 $\mathfrak{F}$ です。 なぜなら、$\mathfrak{F}$ は $\mathfrak{P}(\mathrm{A} \times \mathrm{B})$ の部分集合であり、$\mathfrak{F}$ の部分集合 $\mathfrak{G}$ が包含によって完全に順序付けされていると言うのは、$\mathfrak{G}$ の元が写像のグラフであり、これら写像のいずれか 2 つが与えられると、1 つは次のようになります。もう一方の拡大。 $\mathfrak{G}$ の集合の和集合は $\mathfrak{F}$ の元 (章 II, § 4, no. 6, 命題 7) となります。 Hence the set $\Phi(\mathrm{A}, \mathrm{B})$ of mappings of subsets of A into B is inductive with respect to the order relation "$v$ extends $u$" between $u$ and $v$.
+関係 $\subset$ に関して帰納的である重要な部分集合の集合の例は、集合 A の部分集合の写像を集合 B に変換するグラフの集合 $\mathfrak{F}$ です。 なぜなら、$\mathfrak{F}$ は $\mathfrak{P}(\mathrm{A} \times \mathrm{B})$ の部分集合であり、$\mathfrak{F}$ の部分集合 $\mathfrak{G}$ が包含によって完全に順序付けされていると言うのは、$\mathfrak{G}$ の元が写像のグラフであり、これら写像のいずれか 2 つが与えられると、1 つは次のようになります。もう一方の拡大。 $\mathfrak{G}$ の集合の和集合は $\mathfrak{F}$ の元 (章 II, § 4, no. 6, 命題 7) となります。 したがって、A の部分集合の B への写像の集合 $\Phi(\mathrm{A}, \mathrm{B})$ は、$u$ と $v$ の間の順序関係「$v$ が $u$ に拡張される」に関して帰納的です。
 
 #### 例 3 {#ens-iii-s2-n4-exa-3 .statement tag=03T4}
 
@@ -254,7 +254,7 @@ $v$ が X と $v \notin \mathrm{X}$ の上界である場合、元 $v \in \mathr
 
 #### 系 2 {#ens-iii-s2-prop-4-cor-2 .statement tag=03K5}
 
-*Let $\mathfrak{F}$ be a set of subsets of a set E such that, for every subset $\mathfrak{G}$ of $\mathfrak{F}$ which is totally ordered by inclusion, the union (resp. intersection) of the sets of $\mathfrak{G}$ belongs to $\mathfrak{F}$; then $\mathfrak{F}$ has a maximal (resp. minimal) element.*
+*$\mathfrak{F}$ を集合 E の部分集合の集合とし、完全に包含によって順序付けされた $\mathfrak{F}$ のすべての部分集合 $\mathfrak{G}$ について、$\mathfrak{G}$ の集合の和集合 (それぞれ交差) が $\mathfrak{F}$ に属するようにします。この場合、$\mathfrak{F}$ には最大 (または最小) 要素があります。*
 
 ### 5. 同型整然としたセット
 
@@ -266,7 +266,7 @@ $v$ が X と $v \notin \mathrm{X}$ の上界である場合、元 $v \in \mathr
 
 (2) *E のセグメント上に F の一意の同型が存在します。*
 
-$\mathfrak{F}$ を E の部分集合の写像の集合として、各写像が E のセグメント上で定義され、このセグメントの F のセグメント上の同型となるようにします。 次に、$u$ と $v$ の間の関係 「$v$ 拡大する $u$」によって順序付けられた集合 $\mathfrak{F}$ は帰納的です。 なぜなら、$\mathfrak{G}$ が $\mathfrak{F}$ の完全に順序付けられた部分集合である場合、写像 $u\in\mathfrak{G}$ の領域の和集合 S は E のセグメントの和集合であり、したがってそれ自体 E のセグメントです。 $v$ が $\Phi(E,F)$ (no. 4、例 2) の $\mathfrak{G}$ の最小上界である場合、$v(S)$ は写像 $u\in\mathfrak{G}$ の範囲の和集合であるため、F のセグメントになります。 Finally, for each pair of elements $x$, $y$ of S such that $x<y$ there exists $u\in\mathfrak{G}$ whose domain contains both $x$ and $y$ (because $\mathfrak{G}$ is totally ordered); and since $v(x)=u(x)<u(y)=v(y)$, $v$ is an isomorphism of S onto $v(S)$, and our assertion is proved.
+$\mathfrak{F}$ を E の部分集合の写像の集合として、各写像が E のセグメント上で定義され、このセグメントの F のセグメント上の同型となるようにします。 次に、$u$ と $v$ の間の関係 「$v$ 拡大する $u$」によって順序付けられた集合 $\mathfrak{F}$ は帰納的です。 なぜなら、$\mathfrak{G}$ が $\mathfrak{F}$ の完全に順序付けられた部分集合である場合、写像 $u\in\mathfrak{G}$ の領域の和集合 S は E のセグメントの和集合であり、したがってそれ自体 E のセグメントです。 $v$ が $\Phi(E,F)$ (no. 4、例 2) の $\mathfrak{G}$ の最小上界である場合、$v(S)$ は写像 $u\in\mathfrak{G}$ の範囲の和集合であるため、F のセグメントになります。 最後に、$x<y$ となる S の要素 $x$、$y$ に対して、ドメインに $x$ と $y$ の両方が含まれる $u\in\mathfrak{G}$ が存在します ($\mathfrak{G}$ は完全に順序付けされているため)。そして、$v(x)=u(x)<u(y)=v(y)$ より、$v$ は S の $v(S)$ への同型写像であり、私たちの主張は証明されます。
 
 ¶ さて、$u_0$ を $\mathfrak{F}$ (no. 4, 定理 2) の極大元とし、$S_0$ を $u_0$ の領域である E のセグメントとします。 $S_0=E$か$u_0(S_0)=F$のどちらかを示せば、定理が証明されます。矛盾によって議論し、$S_0\ne E$ と $u_0(S_0)\ne F$ を仮定してみましょう。次に、元 $a\in E$ と元 $b\in F$ があり、$S_0=]-\leftarrow,a[$ と $u_0(S_0)]=]-\leftarrow,b[$ (no. 1, 命題 1) になります。 $u_1(a)=b$ を入れて、セグメント $]-\leftarrow,a]$ の拡大する $u_0$ から写像 $u_1$ を F に入力します。 $u_1$ はセグメント $]-\leftarrow,b]$ 上の $]-\leftarrow,a]$ の同型であるため、この矛盾するは $\mathfrak{F}$ における $u_0$ の最大値となります。
 

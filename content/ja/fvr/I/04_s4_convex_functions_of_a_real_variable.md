@@ -29,21 +29,21 @@ subsections:
       pdf_page: 45
 statements: 23
 exercises: 25
-content_sha256: 647de879ee35700e3aed4f2f884d0765d43907480c8c078366f319f3b43122ca
+content_sha256: c5ad361352bbc66f3e77e17cd3e00016941c98d3b908b3b05574cae8025c77e7
 translated_from: content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md
 translation_method: google
 source_content_sha256: f3bb356dcd01c2f124b6edbcb7551016f358669cd0b6cfe2c6628e4d9303177e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8ed618fa41365d275d28c1bf0d26119ce19461c93dd3882311b3214f9d80c735
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。実数変数の凸写像
 
-$H$ を $\mathbf{R}$ の部分集合とします。 $f$ $H$ で定義された有限実数写像を、$G$ を *グラフ* または $\mathbf{R} \times \mathbf{R} = \mathbf{R}^2$、点 $M_x = (x, f(x))$ の集合における写像 $f$ の代表集合とします。 $x$ は $H$ を通過します。 It is convenient to say that a point $(a, b)$ of $\mathbf{R}^2$ such that $a \in H$ lies *above* (resp. *strictly above*, *below*, *strictly below*) $G$ if one has $b \geq f(a)$ (resp. $b > f(a)$, $b \leq f(a)$, $b < f(a)$). $A = (a, a')$ と $B = (b, b')$ が $\mathbf{R}^2$ の 2 つの点である場合、端点 $A$ と $B$ を持つ閉じたセグメントを $AB$ で表します。 $a < b$ の場合、$AB$ は $[a, b]$ で定義された線形写像 $a' + \frac{b' - a'}{b - a} (x - a)$ のグラフです。このセグメントの傾き $\frac{b' - a'}{b - a}$ を $p(AB)$ で表し、次の補題を使用します。その検証は明らかです。
+$H$ を $\mathbf{R}$ の部分集合とします。 $f$ $H$ で定義された有限実数写像を、$G$ を *グラフ* または $\mathbf{R} \times \mathbf{R} = \mathbf{R}^2$、点 $M_x = (x, f(x))$ の集合における写像 $f$ の代表集合とします。 $x$ は $H$ を通過します。 $b \geq f(a)$ (それぞれ $b > f(a)$、$b \leq f(a)$、$b < f(a)$) がある場合、$a \in H$ のような$\mathbf{R}^2$ の点 $(a, b)$ は *上* (それぞれ *厳密に上*、*下*、*厳密に下*) $G$ にあると言うのが便利です。 $A = (a, a')$ と $B = (b, b')$ が $\mathbf{R}^2$ の 2 つの点である場合、端点 $A$ と $B$ を持つ閉じたセグメントを $AB$ で表します。 $a < b$ の場合、$AB$ は $[a, b]$ で定義された線形写像 $a' + \frac{b' - a'}{b - a} (x - a)$ のグラフです。このセグメントの傾き $\frac{b' - a'}{b - a}$ を $p(AB)$ で表し、次の補題を使用します。その検証は明らかです。
 
 #### 補題 {#fvr-i-s4-n0-lem-1 .statement tag=085O}
 
@@ -145,7 +145,7 @@ def の前にあるコメント。 2 は、凸写像 $f$ が $I$ に厳密に凸
 
 #### 命題 1 {#fvr-i-s4-prop-1 .statement tag=085V}
 
-*$f$ を有限実数写像 、区間 $I \subset \mathbf{R}$ に凸（厳密に凸）であるものとします。 For every family $(x_i)_{1 \leq i \leq p}$ of $p \geq 2$ distinct points of $I$, and every family $(\lambda_i)_{1 \leq i \leq p}$ of $p$ real numbers such that $0 < \lambda_i < 1$ and $\sum_{i=1}^p \lambda_i = 1$, we have*
+*$f$ を有限実数写像 、区間 $I \subset \mathbf{R}$ に凸（厳密に凸）であるものとします。 $p \geq 2$ の異なる点 $I$ のすべての族 $(x_i)_{1 \leq i \leq p}$ と、$0 < \lambda_i < 1$ や $\sum_{i=1}^p \lambda_i = 1$ などの実数 $p$ のすべての族 $(\lambda_i)_{1 \leq i \leq p}$ について、*
 
 $$
 f\left( \sum_{i=1}^p \lambda_i x_i \right) \leq \sum_{i=1}^p \lambda_i f(x_i)
@@ -177,7 +177,7 @@ $$
 
 #### 命題 2 {#fvr-i-s4-prop-2 .statement tag=085W}
 
-Let $f_i$ ($1 \leq i \leq p$) be $p$ convex functions on an interval $I \subset \mathbf{R}$, and $c_i$ ($1 \leq i \leq p$) be $p$ arbitrary positive numbers; then the function $f = \sum_{i=1}^p c_i f_i$ is convex on $I$. さらに、少なくとも 1 つの添字 $j$ 写像 $f_j$ が $I$ と $c_j > 0$ に厳密に凸である場合、$f$ は $I$ に厳密に凸です。
+$f_i$ ($1 \leq i \leq p$) を区間 $I \subset \mathbf{R}$ 上の凸関数 $p$ とし、$c_i$ ($1 \leq i \leq p$) を任意の正の数 $p$ とします。この場合、関数 $f = \sum_{i=1}^p c_i f_i$ は $I$ に凸です。 さらに、少なくとも 1 つの添字 $j$ 写像 $f_j$ が $I$ と $c_j > 0$ に厳密に凸である場合、$f$ は $I$ に厳密に凸です。
 
 これに続いて、各 $f_i$ に適用不等式 (1) (それぞれ (2)) が続き、$f_i$ の不等式に $c_i$ を乗算し、項ごとに加算します。
 
@@ -329,7 +329,7 @@ $$
 
 区間 ]$0, +\infty$ [ 写像 $x^r$ ($r$ 任意の実数) の二次導関数は $r(r-1)x^{-2}$ に等しくなります。したがって、$r > 1$ または $r < 0$ の場合は厳密に凸であり、$0 < r < 1$ の場合は厳密に凹です。 \*
 
-In order to be able to formulate another criterion for convexity we make the following definition: given the graph $G$ of a finite real function defined on an interval $I \subset \mathbf{R}$ and an interior point $a$ of $I$, we shall say that a line $D$ passing through $M_a = (a, f(a))$ is *locally above* (resp. *locally below*) $G$ if there exists a neighbourhood $V \subset I$ of $a$ such that every point of $D$ contained in $V \times \mathbf{R}$ is above (resp. below) $G$; we shall say that $D$ is *locally on* $G$ at the point $M_a$ if there is a neighbourhood $V \subset I$ of $a$ such that the intersection of $D$ and $V \times \mathbf{R}$ is identical to that of $G$ and $V \times \mathbf{R}$ (in other words, if $D$ is simultaneously locally above and locally below $G$).
+凸性の別の基準を定式化できるようにするために、次の定義を行います。区間 $I \subset \mathbf{R}$ と $I$ の内点 $a$ で定義された有限実数関数のグラフ $G$ が与えられた場合、$M_a = (a, f(a))$ を通過する線分 $D$ は *局所的に上* (それぞれ *局所的に下*) であるとします。 $G$ $V \times \mathbf{R}$ に含まれる$D$ のすべての点が$G$ の上（それぞれ下）にあるような、$a$ の近傍$V \subset I$ が存在する場合。 $a$ の近傍 $V \subset I$ があり、$D$ と $V \times \mathbf{R}$ の交点が $G$ と $V \times \mathbf{R}$ の交点と同一である場合、$D$ は点 $M_a$ で *ローカルにオン* $G$ であると言います。 $D$ がローカルで同時に $G$ より局所的に上と局所的に下にある場合)。
 
 #### 命題 9 {#fvr-i-s4-prop-9 .statement tag=0868}
 

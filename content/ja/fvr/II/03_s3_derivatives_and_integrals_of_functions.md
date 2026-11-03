@@ -37,16 +37,16 @@ subsections:
       pdf_page: 91
 statements: 18
 exercises: 10
-content_sha256: 17b2c350e055e093f75aebf5b7d192e861a7929c7204b9b9300231d67cba3392
+content_sha256: 54006fc541a9021a4c7baa8e923b2da91034316df57c3fb8a24041852db83a51
 translated_from: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
 translation_method: google
 source_content_sha256: 35c740d0a30b3f3ffd2d5f08cde90f87df1496bb44cbc74f5b2898276d078665
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 47348f0640e8f7d22b84f79d9a99ed7dce14b62506730300a4db493b56ea9732
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。パラメータに応じた写像の微分と積分
@@ -95,8 +95,8 @@ $F$ をコンパクト空間とし、$I = [a,\ b]$ を $\mathbf{R}$ のコンパ
 
 ### 2. 非コンパクト区間の写像の極限を積分
 
-Th. II、p. 52 の 1 は、写像がプリミティブを認めると単に仮定しているため、規制されている写像よりも一般的な写像に適用されます。 特にその小道具がわかります。 II、p. 68 の 1 は、区間 $I \subset \mathbf{R}$、写像 $f_\alpha$ が *区分的に規制* され、$I$ にわたる *整* が認められるとのみ仮定される場合にも適用されます。ただし、この結果は、prop の他の 2 つの仮説を前提としています。 1 は満たされています。つまり、次のとおりです。
-1. $I$ は *有界* 区間です。 2' $f_\alpha$ は *一様に* $I$ から $f$ に収束します。 Formula (1) of II, p. 68 *may fail* when one of these conditions is no longer satisfied: it can happen that one or the other of these two terms does not exist, or that both exist but have different values.
+Th. II、p. 52 の 1 は、写像がプリミティブを認めると単に仮定しているため、規制されている写像よりも一般的な写像に適用されます。特にその小道具がわかります。 II、p. 68 の 1 は、区間 $I \subset \mathbf{R}$、写像 $f_\alpha$ が *区分的に規制* され、$I$ にわたる *整* が認められるとのみ仮定される場合にも適用されます。ただし、この結果は、prop の他の 2 つの仮説を前提としています。 1 は満たされています。つまり、次のとおりです。
+1. $I$ は *有界* 区間; 2' $f_\alpha$ は *一様に* $I$ から $f$ に収束します。 II、p. 68 の公式 (1) は、これら条件のいずれかが満たされなくなったときに *失敗する可能性があります*。これら 2 つの項のどちらかが存在しないか、両方が存在しても値が異なることが起こります。
 
 たとえば、$f_n$ が $]0,\ 1[$ の規制された写像で、$0 < x < 1/n$ の$f_n(x) = n$ と $1/n \leq x \leq 1$ の$f_n(x) = 0$ によって定義される場合、数列 $(f_n)$ は、それに含まれるすべてのコンパクト区間で均一に 0 に収束します。 ]0, 1[ ですが、[0, 1] には一律ではなく、$n$ ごとに $\int_0^1 f_n(t) \, dt = 1$ があります。 1 つは例ですが、$\int_0^1 f_n(t) \, dt$ は置き換えること上の極限の傾向がなく、その前の数列 $(f_n)$ は数列 $((-1)^n f_n)$ によって再び均一に 0 に収束します。これは、]0, 1] に含まれるすべての圧縮区間で一様に 0 に収束します。
 
@@ -167,11 +167,11 @@ $$
 
 #### 注意 {#fvr-ii-s3-n2-rem-1 .statement tag=0895}
 
-The hypotheses imposed in this corollary are sufficient, but not necessary, for the validity of formula (9); we shall generalize this formula later, at the same time as the concept of integral (see INT, IV), and obtain much less restrictive conditions.
+この結果に課せられた仮説は、式 (9) の妥当性にとって十分ですが、必須ではありません。この式を後で積分の概念と同時に一般化し (INT、IV を参照)、より制限の少ない条件を取得します。
 
 #### 系 2 {#fvr-ii-s3-prop-3-cor-2 .statement tag=0896}
 
-*Let* $A$ *be a subset of a topological space* $F$, *and* $f$ *a map of* $I \times A$ *into a complete normed space* $E$ *over* $\mathbf{R}$, *such that, for every* $\alpha \in A$, *the function* $x \mapsto f(x, \alpha)$ *is regulated on* $I$. *If, on the one hand, the functions* $x \mapsto f(x, \alpha)$ *converge uniformly on every compact interval contained in* $I$ *to a function* $x \mapsto f(x)$ *as* $\alpha$ *tends to* $\alpha_0 \in \overline{A}$ *while remaining in* $A$; *一方、整* $\int_I f(x, \alpha)\,dx$ *が一様に収束* $A$ の場合、*整* $\int_I f(x)\,dx$ *は収束し、次の結果が得られます*
+*$A$ を位相空間の部分集合* $F$、*および* $f$ *のマップ* $I \times A$ *完全な規範空間* $E$ *上* $\mathbf{R}$、*すべての* $\alpha \in A$について、*関数* $x \mapsto f(x, \alpha)$ *が規制される* $I$。 *一方で、関数* $x \mapsto f(x, \alpha)$ * に含まれるすべてのコンパクトな区間で一様に収束する* $I$ *関数に* $x \mapsto f(x)$ *として* $\alpha$ * $A$ に留まりながら* $\alpha_0 \in \overline{A}$ * になる傾向がある*。 *一方、整* $\int_I f(x, \alpha)\,dx$ *が一様に収束* $A$ の場合、*整* $\int_I f(x)\,dx$ *は収束し、次の結果が得られます*
 $$
 \lim_{\alpha \to \alpha_0,\ \alpha \in A} \int_I f(x, \alpha)\,dx = \int_I f(x)\,dx.
 $$

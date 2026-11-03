@@ -40,16 +40,16 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 18
-content_sha256: 1a7149d72b5ea7e3c47b9fef6f1893cfe97c5d83d82e3f957aecb9b2da56239b
+content_sha256: e817141a832b6d36ac0a746e6756b8a3b79187b5dd6391086ff8d09663672b09
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
 translation_method: google
 source_content_sha256: 4e7875bd1f38c0a02c517e1a85849c5df0ef1b2158b71d579dbe784bbc3c6f54
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 902abf301c6e3e613d1ae25760a9294f7639564d5ec05fd863d4f8e8ae76fbd8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。トポロジーにおけるボーンロジー ベクトル空間
@@ -66,9 +66,9 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 例 {#evt-iii-s1-n1-exa-1 .statement tag=07KX}
 
-— Let E be a metric space; the set of all bounded subsets of E (GT, IX, § 2, No. 2) is a covering bornology on E. Let G be the group of isometries of E; the set of all subsets M of G such that for every $x \in E$, the set $M.x$ is a bounded subset of E, is a covering bornology on G.
+— E を計量空間とします。 E (GT, IX, § 2, No. 2) のすべての有界な部分集合のうちの集合は、E 上のカバーボーンロジーです。G を E の等長性の群とします。すべての $x \in E$、集合 $M.x$ が E の有界な部分集合であるような G のすべての部分集合 M の集合は、G 上のカバーボーンロジーです。
 
-If $\mathscr{B}$ is a bornology on a set E, a subset $\mathscr{B}_1$ of $\mathscr{B}$ is said to be a *base* of $\mathscr{B}$ if every set of $\mathscr{B}$ is contained in a set of $\mathscr{B}_1$.
+$\mathscr{B}$ が集合 E のボーンロジーである場合、$\mathscr{B}$ のすべての集合が $\mathscr{B}_1$ の集合に含まれる場合、$\mathscr{B}$ のサブセット $\mathscr{B}_1$ は $\mathscr{B}$ の *ベース* であると言われます。
 
 E の系統学ファミリーの共通部分は系統学です。従って、$\mathfrak{P}(E)$ の部分集合 $\mathfrak{S}$ ごとに、最小のの生まれ方含む $\mathfrak{S}$ が存在します。この生まれつき学は $\mathfrak{S}$ によって*生成される* と言われており、$\mathfrak{S}$ の集合の有限和集合の基底集合であると認められます。 E と E' が 2 つの集合と $\mathscr{B}$ (それぞれ $\mathscr{B}'$) が E (それぞれ E') 上の骨学である場合、積の骨学は集合 $M \times M'$ を基底として認める $E \times E'$ 上の骨学であり、ここで $M \in \mathscr{B}$ と$M' \in \mathscr{B}'$。
 
@@ -92,7 +92,7 @@ $$
 
 *$E$をトポロジカルベクトル空間とします。 $E$ の部分集合 $A$ は、$E$ (I、p. 7、定義 4) の $0$ のすべての近傍によって吸収される場合、有界であると言われます。
 
-$A$ が制限される位数では、$A$ が $0$ の近傍の基本的な系のすべての近傍によって吸収されるだけで十分です。 Since there exists a fundamental system of balanced neighbourhoods of $0$ (I, p. 7, prop. 4), this is the same as saying that, for every neighbourhood $V$ of $0$ in $E$, there exists $\lambda \in K$ such that $A \subset \lambda V$.
+$A$ が制限される位数では、$A$ が $0$ の近傍の基本的な系のすべての近傍によって吸収されるだけで十分です。 $0$ (I、p. 7、提案 4) のバランスの取れた近傍の基本的なシステムが存在するため、これは、$E$ の $0$ のすべての近傍 $V$ に対して、$A \subset \lambda V$ となるような $\lambda \in K$ が存在すると言っているのと同じです。
 
 $E$ の位相が準規範 (II、p. 3) の基本系 $\Gamma$ によって定義されているとします。その場合、すべての準ノルム $p \in \Gamma$ が $A$ で制限される場合に限り、$E$ の部分集合 $A$ は制限されます。
 
@@ -204,7 +204,7 @@ A が有界であると仮定します。 (\lambda_n) が 0 に向かうスカ�
 
 $J$を$I$の有限部分集合とします。 $\prod_{j \in J} E_j$ の $E$ 誘導する積位相の位相 (II、p. 30、提案 7 および p. 31、提案 8) から、III、p. 4、コル。 2 条件で十分です。
 
-逆に、$B$ を $E$ の有界な部分集合とします。 次に、$\operatorname{pr}_i(B)$ はすべての $i$ (III、p. 4、cor. 1) に対して有界です。 従って、すべての $i \notin J$ に対して $\operatorname{pr}_i(B) \subset \{0\}$ となるような $I$ の有限部分集合 $J$ が存在することを証明すれば十分です。 If not, then there exists an infinite sequence $(i_n)$ of distinct elements of $I$ and an infinite sequence $(x_n)$ of elements of $B$ such that $\operatorname{pr}_{i_n}(x_n) \neq 0$. $E_{i_n}$ はハウスドルフであるため、$E_{i_n}$ 上に $p_n(\operatorname{pr}_{i_n}(x_n)) \geq n$ のような連続半ノルム $p_n$ が存在します。 従って、$p = \sum_{n \geq 1} p_n \circ \operatorname{pr}_{i_n}$ は $E$ 上の連続半ノルムであり、$p$ は $B$ に制限されておらず、これは矛盾です。*
+逆に、$B$ を $E$ の有界な部分集合とします。 次に、$\operatorname{pr}_i(B)$ はすべての $i$ (III、p. 4、cor. 1) に対して有界です。 従って、すべての $i \notin J$ に対して $\operatorname{pr}_i(B) \subset \{0\}$ となるような $I$ の有限部分集合 $J$ が存在することを証明すれば十分です。 そうでない場合は、$I$ の個別の要素の無限シーケンス $(i_n)$ と、$\operatorname{pr}_{i_n}(x_n) \neq 0$ のような $B$ の要素の無限シーケンス $(x_n)$ が存在します。 $E_{i_n}$ はハウスドルフであるため、$E_{i_n}$ 上に $p_n(\operatorname{pr}_{i_n}(x_n)) \geq n$ のような連続半ノルム $p_n$ が存在します。 従って、$p = \sum_{n \geq 1} p_n \circ \operatorname{pr}_{i_n}$ は $E$ 上の連続半ノルムであり、$p$ は $B$ に制限されておらず、これは矛盾です。*
 
 #### 命題 6 {#evt-iii-s1-prop-6 .statement tag=07LG}
 
@@ -317,7 +317,7 @@ $$
 
 $f \in \mathscr{G}_{s,M}(I)$ごとに。 $\mathscr{G}_s(I)$ が空間 $\mathscr{G}_{s,M}(I)$ の和集合を表し、それに $\mathscr{G}_{s,M}(I)$ のトポロジーの帰納的極限位相を与えるものとします。
 
-$M < M'$ とし、B を $\mathscr{G}_{s,M}(I)$ の単位元ボール (クローズ) とします。 B がバナハ空間 $\mathscr{G}_{s,M'}(I)$ のコンパクト部分集合であることを証明します。 B が $\mathscr{G}_{s,M'}(I)$ で閉じていることは明らかなので、B が $\mathscr{G}_{s,M'}(I)$ でプリコンパクトであることを証明すれば十分です。 $\varepsilon > 0$ とし、N を $(M/M')^N \leqslant \varepsilon/2$ となるように正の整数とします。 Let $k$ be a positive integer; the set of all functions $D^{k+1} f$, as $f$ ranges over B, is bounded in $\mathscr{C}(I)$, hence the set of all functions $D^k f$, as $f$ ranges over B, is relatively compact in $\mathscr{C}(I)$: this follows from the theorem of finite increments (FVR, I, p. 23, cor. 1) and from Ascoli’s theorem (GT, X, § 2, No. 5). 私たちは $\mathscr{G}_{s,M}(I)$ で定義するノルム
+$M < M'$ とし、B を $\mathscr{G}_{s,M}(I)$ の単位元ボール (クローズ) とします。 B がバナハ空間 $\mathscr{G}_{s,M'}(I)$ のコンパクト部分集合であることを証明します。 B が $\mathscr{G}_{s,M'}(I)$ で閉じていることは明らかなので、B が $\mathscr{G}_{s,M'}(I)$ でプリコンパクトであることを証明すれば十分です。 $\varepsilon > 0$ とし、N を $(M/M')^N \leqslant \varepsilon/2$ となるように正の整数とします。 $k$ を正の整数とします。すべての写像のうちの集合 $D^{k+1} f$ は、$f$ が B の範囲にあるため、$\mathscr{C}(I)$ で制限されます。したがって、すべての写像 $D^k f$ のうちの集合は、$f$ が B の範囲にあるため、$\mathscr{C}(I)$ で比較的コンパクトになります。有限増分の定理 (FVR、I、p. 23、cor. 1) および Ascoli の定理 (GT、X, § 2, No. 5) から。 私たちは $\mathscr{G}_{s,M}(I)$ で定義するノルム
 
 $$
 q(f) = \sup_{0 \leqslant n \leqslant N, x \in I} |D^n f(x)|/M^n(n!)^s .

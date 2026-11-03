@@ -70,16 +70,16 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: 03a9bd732993838dd2759f06978b45760bb9a37de8b2451f5559be88115afa51
+content_sha256: 5f18eada75df17efa83e17d532d14c94188627b45e0178cb60b0722e0705bb8f
 translated_from: content/en/alg/II/01_s1_modules.md
 translation_method: google
 source_content_sha256: 7b2cea857b009f809085412ca64248b0f317359a2bcbd7a3a189e12a6f0b01fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 713212ffec8e365b5c80d577312c456a8a41f3f452c9069b381ede868ba3e78f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 加群
@@ -215,7 +215,7 @@ E、F、G を 3 つの A-加群、E から F への u 線形写像、F から G 
 
 これらの命題は、定義 4 の直後に続きます。
 
-Propositions 1 and 2 show that linear mappings can be taken as the *morphisms* for the species of A-module structures (*Set Theory*, IV, § 2, no. 1); we shall henceforth always assume that this choice of morphisms has been made.
+命題 1 と 2 は、線形写像が A-加群構造 (*集合理論*, IV, § 2, no. 1) の種の *射* として解釈できることを示しています。今後は常にこの射の選択が作成されたものと仮定します。
 
 2 つの左 (それぞれ右) A-加群 E と F が与えられた場合、Hom(E, F) または Hom_A(E, F) が E の線形写像の集合を F に表すものとします。
 
@@ -252,20 +252,20 @@ $$
 \mathrm{Hom}(u \circ u', v' \circ v) = \mathrm{Hom}(u', v') \circ \mathrm{Hom}(u, v).
 $$
 
-If $u$ is an isomorphism of $E'$ onto $E$ and $v$ an isomorphism of $F$ onto $F'$, $\mathrm{Hom}(u, v)$ is an isomorphism of $\mathrm{Hom}(E, F)$ onto $\mathrm{Hom}(E', F')$ whose inverse isomorphism is $\mathrm{Hom}(u^{-1}, v^{-1})$ by (10).
+$u$ が $E'$ の $E$ への同型写像であり、$v$ が $F$ の $F'$ への同型写像である場合、$\mathrm{Hom}(u, v)$ は $\mathrm{Hom}(E, F)$ の $\mathrm{Hom}(E', F')$ への同型写像であり、その逆同型は (10) により $\mathrm{Hom}(u^{-1}, v^{-1})$ になります。
 
-If $h$ (resp. $k$) is an endomorphism of $E$ (resp. $F$), $\mathrm{Hom}(h, 1_F)$ (resp. $\mathrm{Hom}(1_E, k)$) is just the homothety with ratio $h$ (resp. $k$) for the right (resp. left) module structure on the ring $\mathrm{End}(E)$ (resp. $\mathrm{End}(F)$) defined above.
+$h$ (それぞれ $k$) が $E$ (それぞれ $F$) の準同型である場合、$\mathrm{Hom}(h, 1_F)$ (それぞれ $\mathrm{Hom}(1_E, k)$) は、リング上の右 (それぞれ左) モジュール構造の比 $h$ (それぞれ $k$) との相似です。 $\mathrm{End}(E)$ (それぞれ $\mathrm{End}(F)$) は上記で定義されています。
 
 ### 3. 部分加群; 商加群
 
-Let $E$ be an $A$-module and $M$ a subset of $E$; for the $A$-module structure on $E$ to induce an $A$-module structure on $M$, it is necessary and sufficient that $M$ be a stable subgroup of $E$ (I, § 4, no. 3), for if this is so, the structure of a group with operators induced on $M$ obviously satisfies axioms ($M_{II}$), ($M_{III}$) and ($M_{IV}$); then $M$ with this structure (or, by an abuse of language, the set $M$ itself) is called a submodule of $E$; the canonical injection $M \to E$ is a linear mapping. $E$ がベクトル空間の場合、その部分加群はベクトル部分空間 (または、混乱が生じない場合は単に部分空間 ) と呼ばれます。
+$E$ を $A$ モジュール、$M$ を $E$ のサブセットとします。 $E$の$A$加群構造が$M$の$A$加群構造を誘導するには、$M$が$E$(I, § 4, no. 3)の安定な部分群であることが必要かつ十分です。なぜなら、そうであれば、$M$で誘導された演算子を含む群の構造は明らかになります。公理 ($M_{II}$)、($M_{III}$)、および ($M_{IV}$) を満たします。この構造を持つ $M$ (または、言葉の乱用により、セット $M$ 自体) は、$E$ のサブモジュールと呼ばれます。正規注入 $M \to E$ は線形マッピングです。 $E$ がベクトル空間の場合、その部分加群はベクトル部分空間 (または、混乱が生じない場合は単に部分空間 ) と呼ばれます。
 
 #### 例 {#alg-ii-s1-n3-exa-1 .statement tag=05JX}
 
-(1) 0 の任意の加群 $E$ 集合からなるは部分加群 (零部分加群、記法の乱用により 0 で表されることが多い) です。
-(2) $A$ を環とします。 The submodules of $A_s$ (resp. $A_d$) are just the left ideals (resp. right ideals) of the ring $A$.
-(3) Let $E$ be an $A$-module, $x$ an element of $E$ and $a$ a left ideal of $A$. $\alpha$ が $a$ を通る元 $\alpha x$ の集合は、$E$ の部分加群であり、$ax$ で示されます。
-(4) $\mathbf{Z}$ 加群 (no. 1) とみなされる可換群 $G$ では、$G$ のすべての部分群も部分加群です。
+(1) 0 の任意の加群 $E$ 集合からなるは部分加群 (零部分加群、記法の乱用により 0 で表されることがよくあります) です。
+(2) $A$ を環とします。 $A_s$ (それぞれ $A_d$) の部分加群は、環 $A$ の左の理想 (それぞれ右の理想) にすぎません。
+(3) $E$ を $A$ 加群、$x$ 元を $E$、$a$ を $A$ の左イデアルとする。 $\alpha$ が $a$ を通る元 $\alpha x$ の集合は、$ax$ で示される $E$ の部分加群です。
+(4) 可換群 $G$ を $\mathbf{Z}$ 加群 (no. 1) とみなすと、$G$ のすべての部分群も部分加群になります。
 
 *(5) $I$ を実直線 $\mathbf{R}$ のオープン区間とします。 $I$ で定義され連続する実数値写像の集合 $C$ は、$I$ で定義されたすべての実数値写像のベクトル空間 $\mathbf{R}^I$ のベクトル部分空間です。同様に、$I$ 上の微分可能写像の集合 $D$ は、$C_*$* のベクトル部分空間です
 
@@ -273,7 +273,7 @@ $E$ を $A$ モジュールとします。 $E$ 上の加群構造と互換性の
 
 *例* (6)。 左A-加群 $A_s$ の環定義する商加群 $A_s/a$ の左すべての理想 $a$。 記法の乱用により、この商加群は$A/a$で表されることがよくあります。
 
-E、F を 2 A-加群とします。 演算子 (I, § 4, no. 5) を使用した群 (または直接定義から) から、$u : E \to F$ が線形写像の場合、E の任意の部分加群の $u$ の下の像は F の部分加群および以下の逆像になります。 F の任意の部分加群の $u$ は E の部分加群です。 特に、*核* $N = \overline{u}^{-1}(0)$ は E の部分加群であり、$u$ の下の E の像 $u(E)$ は F (I, § 4, no. 6、命題 7) の部分加群です。言葉の乱用により、$u(E)$ は u* の *像と呼ばれます。 商加群 $E/N$ は、$u$ の *商加群 $F/u(E)$ は $u$ の *余核* とも呼ばれます。 $u$ (I, § 4, no. 5) の *正規の分解*
+E、F を 2 A-加群とします。演算子 (I, § 4, no. 5) を使用した群 (または直接定義) から、$u : E \to F$ が線形写像の場合、E の部分加群の $u$ の下の像は F の部分加群であり、逆像であることがわかります。 F の任意の部分加群の $u$ は E の部分加群です。特に、*核* $N = \overline{u}^{-1}(0)$ は E の部分加群であり、$u$ の下の E の像 $u(E)$ は F の部分加群です(I, § 4, no. 6、命題 7);言葉の乱用により、$u(E)$ は u* の *像と呼ばれます。 商加群 $E/N$ は $u$ の *商加群 $F/u(E)$ は $u$ の *余核* とも呼ばれます。 $u$ (I, § 4, no. 5) の *標準分解*
 
 $$
 u : E \xrightarrow{p} E/N \xrightarrow{v} u(E) \xrightarrow{i} F
@@ -465,7 +465,7 @@ $$
 \operatorname{Coim}(f) \to \prod_{i \in I} \operatorname{Coim}(f_i), \qquad \operatorname{Coker}(f) = \prod_{i \in I} \operatorname{Coker}(f_i)
 $$
 
-obtained by respectively associating with the class of an element $x = (x_i)$ of $\prod_i E_i$, mod $\operatorname{Ker}(f)$, (resp. with the class of an element $y = (y_i)$ of $\prod_i F_i$, mod. $\operatorname{Im}(f)$) the family of classes of the $x_i$ mod. $\operatorname{Ker}(f_i)$ (resp. the family of classes of the $y_i$ mod. $\operatorname{Im}(f)$).
+それぞれ、$\prod_i E_i$、mod $\operatorname{Ker}(f)$ の要素 $x = (x_i)$ のクラス、(それぞれ $\prod_i F_i$、mod. $\operatorname{Im}(f)$ の要素 $y = (y_i)$ のクラス) $x_i$ mod のクラスのファミリーと関連付けることによって取得されます。 $\operatorname{Ker}(f_i)$ (それぞれ、$y_i$ mod. $\operatorname{Im}(f)$ のクラスのファミリー)。
 
 特に、$f$ が単射法 (それぞれ全単射、全単射、零) であるためには、すべての $i \in I$、$f_i$ が単射法 (それぞれ全単射、全単射、零) であることが必要かつ十分です。
 
@@ -485,7 +485,7 @@ $$
 \bigoplus_{i \in I} E_i = E_p \oplus E_{p+1} \oplus \cdots \oplus E_q.
 $$
 
-For all $\kappa \in I$, let $j_\kappa$ be the mapping $E_\kappa \to F$ which associates with each $x_\kappa \in E_\kappa$ the element of $F$ such that $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ for $i \neq \kappa$ and $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$; it is immediate that $j_\kappa$ is an injective linear mapping of $E_\kappa$ into the direct sum $E$ of the $E_i$, which we shall call the canonical injection; the submodule $j_\kappa(E_\kappa)$ of $E$, isomorphic to $E_\kappa$, is called the component submodule of $E$ of index $\kappa$. $j_\kappa$ によって $E_\kappa$ と識別されることがよくあります。
+すべての $\kappa \in I$ について、$j_\kappa$ を、$i \neq \kappa$ と $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$ に対して $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ となるように、$F$ の各 $x_\kappa \in E_\kappa$ に関連付けるマッピング $E_\kappa \to F$ とします。 $j_\kappa$ が $E_\kappa$ の $E_i$ の直和 $E$ への単射線形写像であることがすぐに分かります。これを正準射出と呼びます。 $E$ のサブモジュール $j_\kappa(E_\kappa)$ は、$E_\kappa$ と同型で、インデックス $\kappa$ の $E$ のコンポーネントサブモジュールと呼ばれます。 $j_\kappa$ によって $E_\kappa$ と識別されることがよくあります。
 
 したがって、すべての $x \in E = \bigoplus_{i \in I} E_i$ にとって、私たちは
 
@@ -590,17 +590,17 @@ $$
 
 検証は定義からすぐに続きます。
 
-すべての $E_i$ が同じ $A$ モジュール $E$ に等しい場合、直和 $\bigoplus_{i \in I} E_i$ も $E^{(I)}$ で表されます。その元は、$I$ の写像と有限台の $E$ です。 すべての $i$、$f_i$ が恒等写像 $E \to E$ であるとすると、命題 6 によって、線形写像 $E^{(I)} \to E$ が得られ、*共対角* と呼ばれ、これはすべての家族 $(x_i)_{i \in I}$、元、$E$、 有限台、*和* $\sum_{i \in I} x_i$です。
+すべての $E_i$ が同じ $A$ モジュール $E$ に等しい場合、直和 $\bigoplus_{i \in I} E_i$ も $E^{(I)}$ で表されます。その元は、$I$ の写像が有限台で $E$ になります。すべての $i$、$f_i$ が恒等写像 $E \to E$ であるとすると、命題 6 によって、線形写像 $E^{(I)} \to E$ が得られ、*共対角* と呼ばれ、これは、すべての家族 $(x_i)_{i \in I}$ の元と関連付けられます。 $E$、有限台の*和* $\sum_{i \in I} x_i$。
 
 #### 注意 {#alg-ii-s1-n6-rem-1 .statement tag=05KD}
 
-Recall that the definition of direct sum extends immediately to a family $(E_i)_{i \in I}$ of *groups* which are not necessarily commutative, multiplicative notation of course replacing the additive notation; we then say "*restricted product*" or "*restricted sum*" instead of "*direct sum*" (I, § 4, no. 9).
+直和拡大するの定義が *群* の族 $(E_i)_{i \in I}$ に直接結合することを思い出してください。これは必ずしも可換ではなく、乗法記法もちろん置き換えること加法記法です。その場合、「*直和*」 (I, § 4, no. 9) の代わりに、「*制限付き積*」 または 「*制限付き和*」 と言います。
 
 $E$ は積 $F = \prod_{i \in I} E_i$ の *通常* 部分群であり、それぞれの $j_k(E_k)$ は $F$ の *通常* 部分群であることに注意してください。さらに、2 つの異なる添字 $\lambda, \mu$ では、$j_\lambda(E_\lambda)$ のすべての元は、$j_\mu(E_\mu)$ のすべての元と *置換可能* です。 命題 6 拡大するを、仮定の一般的なケースに当てはめます。つまり、2 つの異なる添字 $\lambda, \mu$ について、$f_\lambda(E_\lambda)$ のすべての元は、$f_\mu(E_\mu)$ のすべての元とともに、$M$ で *置換可能* になります。 (I, § 4, no. 9、命題12)。この直後に、制限付き和の「*結合性*」の性質が続きます。 命題 7 とその系 1 および 2 は修正なしで成立します。
 
 ### 7. 部分加群の共通部分と和
 
-$A$ モジュール $E$ の各ファミリー $(M_i)_{i \in I}$ の部分加群では、共通部分 $\bigcap_{i \in I} E_i$ は $E$ の部分加群です。 If, for each $i \in I$, $\phi_i$ denotes the canonical homomorphism $E \to E/M_i$, $\bigcap_{i \in I} M_i$ is the *kernel* of the homomorphism $\phi : x \mapsto (\phi_i(x))$ of $E$ into $\prod_{i \in I} (E/M_i)$, in other words, there is an *exact sequence*
+$A$ モジュール $E$ の各ファミリー $(M_i)_{i \in I}$ の部分加群では、共通部分 $\bigcap_{i \in I} E_i$ は $E$ の部分加群です。 それぞれの $i \in I$、$\phi_i$ が正準準同型 $E \to E/M_i$ を表す場合、$\bigcap_{i \in I} M_i$ は $E$ から $\prod_{i \in I} (E/M_i)$ への準同型 $\phi : x \mapsto (\phi_i(x))$ の *カーネル* です。つまり、*正確なシーケンス* が存在します。
 
 $$
 0 \longrightarrow \bigcap_{i \in I} M_i \longrightarrow E \xrightarrow{\phi} \prod_{i \in I} (E/M_i).
@@ -646,7 +646,7 @@ $E$ のすべての部分加群と $a_i$ のすべての含む、および $a_i$
 
 明らかに、$\bigcup_{i \in I} M_i$ の元のすべての線形結合は上記の形に属します。 逆は明らかです。
 
-The submodule of E generated by the union of a family $(M_i)_{i \in I}$ of submodules of E is called the *sum* of the family $(M_i)$ and is denoted by $\sum_{i \in I} M_i$.
+E のサブモジュールのファミリー $(M_i)_{i \in I}$ の結合によって生成される E のサブモジュールは、ファミリー $(M_i)$ の*合計* と呼ばれ、$\sum_{i \in I} M_i$ で表されます。
 
 すべての $i \in I$、$h_i$ が標準単射 $M_i \to E$ と $\bigoplus_{i \in I} M_i$ の $h : (x_i) \mapsto \sum_i h_i(x_i)$ 線形写像を家族 $(h_i)$ (no. 6、命題 6) に E 対応するにすると、$\sum_{i \in I} M_i$ は次のようになります。 $h$の*像*。他の語には*完全系列*があります
 
@@ -751,7 +751,7 @@ $$
 
 *E のすべての射影子 e について、E は e の像* $M = e(E)$ * および核* $N = e^{-1}(0)$ * の直和です。すべて* $x = x_1 + x_2 \in E$ *with* $x_1 \in M$ *and* $x_2 \in N$、$x_1 = e(x)$; *1 − e は像 N と核 M* の E の射影子です。
 
-$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *in* $\operatorname{End}(E)$ *and hence* $1 - e$ *is a projector; as also* $e(1 - e) = (1 - e)e = e - e^2 = 0$, *E is the direct sum of the images* $M$ *and* $N$ *of e and* $1 - e$ *by Proposition 12. 最後に、すべての* $x \in E$、*関係* $x \in M$ *は$x = e(x)$と同等です。 *for* $x = e(x)$ *定義* $x \in M$ を意味します *そして逆に、* $x = e(x')$ *with* $x' \in E$、*then* $e(x) = e^2(x') = e(x') = x;$
+$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *in* $\operatorname{End}(E)$ *したがって* $1 - e$ *はプロジェクターです。同様に* $e(1 - e) = (1 - e)e = e - e^2 = 0$、*E はイメージ* $M$ *and* $N$ *e と* $1 - e$ *命題 12 による。 最後に、すべての* $x \in E$、*関係* $x \in M$ *は$x = e(x)$と同等です。 *for* $x = e(x)$ *定義* $x \in M$ を意味します *そして逆に、* $x = e(x')$ *with* $x' \in E$、*then* $e(x) = e^2(x') = e(x') = x;$
 
 したがって、これは M が $1 - e$ の核であることを示し、$e$ と $1 - e$ の役割を交換すると、同様に N が $e$ の核であることがわかります。
 
@@ -777,7 +777,7 @@ $$
 
 A-加群 E では、E が $M_1$ と $M_2$ の直和である場合、2 つの部分加群 $M_1, M_2$ が補足的であると言われます。
 
-Proposition 11 of no. 8 shows that, for $M_1$ and $M_2$ to be supplementary, it is necessary and sufficient that $M_1 + M_2 = E$ and $M_1 \cap M_2 = \{0\}$ (cf. I, § 4, no. 9, Proposition 15).
+no. 8 の命題 11 は、$M_1$ と $M_2$ を補足するには、$M_1 + M_2 = E$ と $M_1 \cap M_2 = \{0\}$ (cf. I, § 4, no. 9, 命題 15) が必要かつ十分であることを示しています。
 
 #### 命題 13 {#alg-ii-s1-prop-13 .statement tag=05KV}
 
@@ -787,7 +787,7 @@ $M_1, M_2$をA-加群Eの2つの補部分加群とします。標準写像の制
 
 #### 系 {#alg-ii-s1-n9-cor-1 .statement tag=05KW}
 
-If $M_2$ and $M_2'$ are two supplements of the same submodule $M_1$ of E, the set of ordered pairs $(x, x') \in M_2 \times M_2'$ such that $x - x' \in M_1$ is the graph of an isomorphism of $M_2$ onto $M_2'$.
+$M_2$ と $M_2'$ が E の同じサブモジュール $M_1$ の 2 つの補足である場合、$x - x' \in M_1$ が $M_2'$ への $M_2$ の同型写像のグラフとなる順序ペア $(x, x') \in M_2 \times M_2'$ のセット。
 
 同型 $M_2 \to E/M_1 \to M'_2$ を合成したグラフであるのが明らかです。
 
@@ -801,7 +801,7 @@ If $M_2$ and $M_2'$ are two supplements of the same submodule $M_1$ of E, the se
 
 #### 命題 14 {#alg-ii-s1-prop-14 .statement tag=05KY}
 
-*For a submodule $M$ of a module $E$ to be a direct factor, it is necessary and sufficient that there exist a projector of $E$ whose image is $M$ or a projector of $E$ whose kernel is $M$.*
+*モジュール$E$のサブモジュール$M$が直接要因となるためには、画像が$M$である$E$のプロジェクター、またはカーネルが$M$である$E$のプロジェクターが存在することが必要十分です。
 
 これは、no. 8、命題 12、系の直後に続きます。
 
@@ -817,15 +817,15 @@ $$
 (c) *$g$ (集合理論, II, § 3, no. 8, 定義 11) に関連付けられた線形切断 $s : G \to F$ が存在します。*
 *この場合、$f + s : E \oplus G \to F$は同型になります。*
 
-If there exists a projector $e$ in $\mathrm{End}(F)$ such that $e(F) = f(E)$, the homomorphism $f^{-1} \circ e : F \to E$ is a linear retraction associated with $f$; conversely, if there exists such a retraction $r$, it is immediate that $f \circ r$ is a projector in $F$ whose image is $f(E)$, hence (a) and (b) are equivalent (Proposition 14). $f(E)$ が $F$ で補充 $E'$ を認め、$j : E' \to F$ が標準単射である場合、$g \circ j$ は $E'$ の $G$ と逆同型の同型であり、写像と見なされます。 $G$ を $F$ に変換すると、$g$ に関連付けられた線形の切断になります。 逆に、そのような切断 $s$ が存在する場合、核が $f(E)$ である$F$ の$s \circ g$ は射影子であるため、(a) と (c) は等価です (命題 14)。 さらに、$s$は$s(G)$上の$G$の全単射であり、$s(G)$は$f(E)$の補足であるため、$f + s$は同型になります。
+$e(F) = f(E)$ となる射影器 $e$ が $\mathrm{End}(F)$ に存在する場合、準同型射影 $f^{-1} \circ e : F \to E$ は $f$ に関連付けられた線形後退です。逆に、そのような後退$r$が存在する場合、$f \circ r$は$F$の投影機であり、その画像は$f(E)$であるため、(a)と(b)は等価である(命題14)。 $f(E)$ が $F$ で補充 $E'$ を認め、$j : E' \to F$ が標準単射である場合、$g \circ j$ は $E'$ の $G$ と逆同型の同型であり、写像と見なされます。 $G$ を $F$ に変換すると、$g$ に関連付けられた線形の切断になります。 逆に、そのような切断 $s$ が存在する場合、核が $f(E)$ である$F$ の$s \circ g$ は射影子であるため、(a) と (c) は等価です (命題 14)。 さらに、$s$は$s(G)$上の$G$の全単射であり、$s(G)$は$f(E)$の補足であるため、$f + s$は同型になります。
 
-Note that being given $r$ (resp. $s$) is equivalent to being given a supplement of $f(E)$ in $F$, namely the kernel of $r$ (resp. image of $s$).
+$r$ (それぞれ $s$) が与えられることは、$F$ の $f(E)$ の補充、つまり $r$ の核 (それぞれ $s$ の像) が与えられることと同等であることに注意してください。
 
 完全系列(33)が命題15の条件を満たすとき、分裂*、または$(F, f, g)$は$E$(I, § 6, no. 1)によって$G$の*自明*拡大と言われます。
 
 #### 系 1 {#alg-ii-s1-prop-15-cor-1 .statement tag=05L0}
 
-$u : E \to F$を線形写像とします。 For there to exist a linear mapping $v : F \to E$ such that $u \circ v = 1_F$ (the case where $u$ is said to be right invertible and $v$ is said to be the right inverse of $u$), it is necessary and sufficient that $u$ be surjective and that its kernel be a direct factor in $E$. $E$ の部分加群 $\operatorname{Im}(v)$ は、$\operatorname{Ker}(u)$ の補充になります。
+$u : E \to F$を線形写像とします。 $u \circ v = 1_F$ のような線形写像 $v : F \to E$ が存在するには ($u$ が右反転であると言われ、$v$ が $u$ の右逆であると言われる場合)、$u$ が全射的であり、そのカーネルが $E$ の直接因子であることが必要かつ十分です。 $E$ の部分加群 $\operatorname{Im}(v)$ は、$\operatorname{Ker}(u)$ の補充になります。
 
 $u$ が全射的であることが明らかに必要です。 $v$ は切断と $u$ に関連付けられるため、結論は命題 15 から得られます。
 
@@ -837,29 +837,29 @@ $u$ が単射であることが明らかに必要です。 $v$ は $u$ に関連
 
 #### 注意 {#alg-ii-s1-n9-rem-1 .statement tag=05L2}
 
-(1) Let $M, N$ be two supplementary submodules in an $A$-module $E$, $p, q$ the projectors of $E$ onto $M$ and $N$ respectively, corresponding to the decomposition of $E$ as a direct sum of $M$ and $N$. It is known (no. 6, Corollary 1 to Proposition 6) that, for every $A$-module $F$, the mapping $(u, v) \mapsto u \circ p + v \circ q$ is an isomorphism of
+(1) Let $M, N$ be two supplementary submodules in an $A$-module $E$, $p, q$ the projectors of $E$ onto $M$ and $N$ respectively, corresponding to the decomposition of $E$ as a direct sum of $M$ and $N$. すべての $A$ モジュール $F$ について、写像 $(u, v) \mapsto u \circ p + v \circ q$ は次の同型であることが知られています (no. 6、命題 6 の系 1)。
 $$
 \operatorname{Hom}_A(M, F) \oplus \operatorname{Hom}_A(N, F)
 $$
-onto $\operatorname{Hom}_A(E, F)$. The image of $\operatorname{Hom}_A(M, F)$ under this isomorphism is the set of linear mappings $w : E \to F$ such that $w(x) = 0$ for all $x \in N$.
+$\operatorname{Hom}_A(E, F)$へ。 この同型の下にある $\operatorname{Hom}_A(M, F)$ の像は、線形写像 $w : E \to F$ の集合であり、すべての $x \in N$ に対して $w(x) = 0$ になります。
 
 (2) If $M, N$ are two submodules of $E$ such that $M \cap N$ is a direct factor of $M$ and $N$, then $M \cap N$ is also a direct factor of $M + N$: if $P$ (resp. $Q$) is a supplement of $M \cap N$ in $M$ (resp. $N$), $M + N$ is the direct sum of $M \cap N, P$ and $Q$, as is immediately verified.
 
 ### 10. 有限長中加群
 
-(I, § 4, no. 4, 定義 7) を思い出してください。$A$ モジュール $M$ が 0 に還元されず、$M$ や $\{0\}$ と区別される含む部分加群は単純であると呼ばれます。 An $A$-module $M$ is said to be of finite length if it has a Jordan-Hölder series $(M_i)_{0 \leq i \leq n}$ and the number $n$ of quotients of this series (which does not depend on the Jordan-Hölder series of $M$ considered) is then called the length of $M$ (I, § 4, no. 7, Definition 11); we shall denote it by $\operatorname{long}(M)$ or $\operatorname{long}_A(M)$. 0 に削減された $A$ モジュールは長さ 0 になります。 $M$ が有限長の非ゼロ $A$ モジュールの場合、$\operatorname{long}(M) > 0$。
+(I, § 4, no. 4, 定義 7) を思い出してください。$A$ モジュール $M$ が 0 に還元されず、$M$ や $\{0\}$ と区別される場合、含む部分加群は単純と呼ばれます。 $A$ モジュール $M$ は、この系列の商の Jordan-Hölder 系列 $(M_i)_{0 \leq i \leq n}$ と数 $n$ があれば、有限長であると言われます (これは、Jordan-Hölder に依存しません) $M$ の系列は考慮されます) は、$M$ の長さ (I, § 4, no. 7、定義 11) と呼ばれます。それを$\operatorname{long}(M)$ または $\operatorname{long}_A(M)$ で表します。 0 に削減された $A$ モジュールは長さ 0 になります。 $M$ が有限長の非ゼロ $A$ 加群の場合、$\operatorname{long}(M) > 0$。
 
 #### 命題 16 {#alg-ii-s1-prop-16 .statement tag=05L3}
 
-Let $M$ be an $A$-module and $N$ a submodule of $M$; for $M$ to be of finite length, it is necessary and sufficient that $N$ and $M/N$ be so, and then
+$M$ を $A$ モジュール、$N$ 部分加群を $M$ とします。 $M$ が有限長であるためには、$N$ と $M/N$ がそうであることが必要かつ十分であり、その場合、
 $$
 \operatorname{long}(N) + \operatorname{long}(M/N) = \operatorname{long}(M).
 $$
-The proof has been given in I, § 4, no. 7, Proposition 10.
+証明はI, § 4, no. 7、命題10で与えられました。
 
 #### 系 1 {#alg-ii-s1-prop-16-cor-1 .statement tag=05L4}
 
-Let $M$ be an $A$-module of finite length; for a submodule $N$ of $M$ to be equal to $M$, it is necessary and sufficient that $\operatorname{long}(N) = \operatorname{long}(M)$.
+$M$ を有限長の $A$ 加群とする。 $M$ のサブモジュール $N$ が $M$ に等しいためには、$\operatorname{long}(N) = \operatorname{long}(M)$ であることが必要かつ十分です。
 
 #### 系 2 {#alg-ii-s1-prop-16-cor-2 .statement tag=05L5}
 
@@ -1016,7 +1016,7 @@ $$
 
 家族 $(a_t)_{t \in T}$ が自由ではない場合、それは *関連* と呼ばれます。 定義 10 は次のように表すこともできます。家族 $(a_t)_{t \in T}$ が *自由* であると言うのは、関係 $\sum_{t \in T} \lambda_t a_t = 0$ (家族 $(\lambda_t)$ は有限台である) は、すべての $t \in T$ に対して $\lambda_t = 0$ を意味します。 $(a_t)_{t \in T}$ が $E$ の *基底* であるということは、すべての $x \in E$ が形 $x = \sum_{t \in T} \xi_t a_t$ で 1 つの方法でのみ記述できることを意味します。すべての $t \in T$ について、$\xi_t$ は、*$x$ *の添字* $t$ *基底* $(a_t)$ に関して *成分* (または *座標*) と呼ばれます。 $E$ から $A_s$ までの写像 $x \to \xi_t$ は *直線* です。
 
-Suppose $\mathbf{A} \neq \{0\}$; then, in an $\mathbf{A}$-module $E$, two elements of a free family $(a_t)_{t \in T}$ whose indices are distinct are themselves *distinct*: for if $a_{t'} = a_{t''}$ for $t' \neq t''$, then $\sum_{t \in T} \lambda_t a_t = 0$ with $\lambda_{t'} = 1$, $\lambda_{t''} = -1$ and $\lambda_t = 0$ for the elements of $T$ distinct from $t'$ and $t''$. A subset $S$ of $E$ will be called a *free subset* (resp. a *basis* of $E$) if the family defined by the identity mapping of $S$ onto itself is free (resp. a basis of $E$); every family defined by a bijective mapping of an indexing set onto $S$ is then free (resp. a basis). $E$ の自由な部分集合の元は *一次独立* とも呼ばれます。
+$\mathbf{A} \neq \{0\}$; と仮定します。次に、$\mathbf{A}$-モジュール $E$ では、インデックスが異なる自由ファミリ $(a_t)_{t \in T}$ の 2 つの要素は、それ自体 *別個* です。つまり、$t' \neq t''$ に対して $a_{t'} = a_{t''}$ の場合、次の要素に対して $\lambda_{t'} = 1$、$\lambda_{t''} = -1$、および $\lambda_t = 0$ を持つ $\sum_{t \in T} \lambda_t a_t = 0$ になります。 $T$ は、$t'$ および $t''$ とは異なります。 $S$ の恒等写像によって定義されたファミリが自由である場合 (それぞれ $E$ の基底)、$E$ の部分集合 $S$ は *自由部分集合* (それぞれ $E$ の *基底*) と呼ばれます。 $S$ への索引付け集合の全単射語写像によって定義されるすべてのファミリーは、自由になります (それぞれ基底)。 $E$ の自由な部分集合の元は *一次独立* とも呼ばれます。
 
 E の部分集合が自由でない場合、それは関連している、または関連している系とその元は線形依存していると言われます。
 
@@ -1048,7 +1048,7 @@ $\{x\}$ がフリーの部分集合である場合、つまり関係 $\alpha x =
 
 (3) $\mathbf{Z}$モジュールとみなされる加法群 $\mathbf{Z}/(n)$ ($n$ 整数 $\geq 2$) では、空いている元はなく、*なおさら* $\mathbf{Z}/(n)$ は自由加群ではありません。
 
-(4) 加群が無料ではなく、A-加群のすべての元 $\neq 0$ が無料になる可能性があります。 たとえば、有理数数の体 $\mathbf{Q}$ は、この性質を持つ $\mathbf{Z}$ 加群であり、$\mathbf{Q}$ の 2 つの元 $\neq 0$ は常に形の関連する系と基底です。したがって、$\mathbf{Q}$ は単一の元 $a$ に対して含むしかできません。ただし、$\mathbf{Q}$ の元は、$n \in \mathbf{Z}$ (cf. VII, § 3) を含む形 $na$ のすべてではありません。
+(4) 加群が空いていなくても、A-加群のすべての元 $\neq 0$ が空いていることが起こります。たとえば、有理数数の体 $\mathbf{Q}$ は、この性質を持つ $\mathbf{Z}$ 加群であり、$\mathbf{Q}$ の 2 つの元 $\neq 0$ は常に形の関連する系と基底です。したがって、$\mathbf{Q}$ は単一の元 $a$ に対して含むしかできません。ただし、$\mathbf{Q}$ の元は、$n \in \mathbf{Z}$ (cf. VII, § 3) を含む形 $na$ のすべてではありません。
 
 #### 命題 20 {#alg-ii-s1-prop-20 .statement tag=05LL}
 
@@ -1058,13 +1058,13 @@ T が E の生成する集合である場合、全射法線形写像 $A_s^{(T)} 
 
 特に、$T = E$ を取ることができます。次に、*canonical* と呼ばれる全射法線形写像 $A_s^{(E)} \to E$ があります。
 
-In particular, to say that an A-module E is *finitely generated* (no. 7) means that it is isomorphic to a quotient of a free A-module with a *finite basis* or also that there exists an exact sequence of the form
+特に、A-加群 E が *有限生成* (no. 7) であるということは、それが自由A-加群の商と *有限基底* と同型であるか、または形の完全系列が存在することを意味します。
 
 $$
 A_s^n \to E \to 0 \quad (n \text{ an integer } > 0).
 $$
 
-Note that if $A \neq \{0\}$ every basis of a *finitely generated* free module E is necessarily *finite*, for if S is a finite generating system and B a basis of E, each element of S is a linear combination of a finite number of elements of B and if B' is the set of all the elements of B which figure thus in the expression for the elements of S, B' is finite and every $x \in E$ is a linear combination of elements of B', hence $B' = B$.
+*有限生成* 自由加群 E の基底ごとに $A \neq \{0\}$ が必ず *有限* である場合、S が E の有限生成系と B 基底である場合、S の各元は有限数の線形結合であることに注意してください。 B の元があり、B' が B のすべての元の集合である場合、これは S の元の式で示され、B' は有限であり、すべての $x \in E$ は B' の元の線形結合であるため、$B' = B$ になります。
 
 #### 命題 21 {#alg-ii-s1-prop-21 .statement tag=05LM}
 
@@ -1086,45 +1086,45 @@ $$
 b_i = \lambda_{1i} a_1 + \cdots + \lambda_{ii} a_i \quad (1 \leq i \leq n)
 $$
 
-ここで、$\lambda_{ii}$ は A で *反転可能*です。その場合、$(b_i)_{1 \leq i \leq n}$ は E の *基底* です。$n$ について帰納法によって議論するだけで十分で、命題は $n = 1$ にとって明らかです。 E' が家族 $(a_i)_{1 \leq i \leq n-1}$ によって生成された E の部分加群である場合、帰納法の仮定から、$(b_i)_{1 \leq i \leq n-1}$ は E' の基底であることがわかります。一方、(46) から、$\mu b_n \in E'$ と $\mu \in A$ の場合、$\lambda_{nn}$ は可逆であるため、$\mu \lambda_{nn} a_n \in E'$、よって $\mu = 0$ も成り立ちます。家族$(b_i)_{1 \leq i \leq n}$はこうして自由になり、
+ここで、$\lambda_{ii}$ は A で *反転可能*です。その場合、$(b_i)_{1 \leq i \leq n}$ は E の *基底* です。$n$ については帰納法によって議論するだけで十分で、命題は $n = 1$ にとって明らかです。 E' が家族 $(a_i)_{1 \leq i \leq n-1}$ によって生成された E の部分加群である場合、帰納法の仮定から $(b_i)_{1 \leq i \leq n-1}$ は E' の基底であることがわかります。一方、(46) から、$\mu b_n \in E'$ と $\mu \in A$ の場合、$\lambda_{nn}$ は可逆であるため、$\mu \lambda_{nn} a_n \in E'$、よって $\mu = 0$ も成り立ちます。家族$(b_i)_{1 \leq i \leq n}$はこうして自由になり、
 $$
 a_n = -\lambda_{nn}^{-1}\lambda_{1n}a_1 - \cdots - \lambda_{nn}^{-1}\lambda_{n-1,n}a_{n-1} + \lambda_{nn}^{-1}b_n
 $$
 $(b_i)_{1 \leq i \leq n}$ は E の生成する系であることがわかり、証明が完成します。この結果は、インデックス付け集合 I が適切に順序付けられているファミリー $(a_i)_{i \in I}$ に簡単に一般化できます。
 
-### 12. 消滅子。忠実な加群。単一種加群
+### 12. 消滅子。忠実加群。単一種加群
 
 #### 定義 11 {#alg-ii-s1-def-11 .statement tag=05LO}
 
-*The annihilator of a subset S of an A-module E is the set of elements $\alpha \in A$ such that $\alpha x = 0$ for all $x \in S$.*
+* A-加群 E の部分集合の消滅子は、元の $\alpha \in A$ の集合であり、すべての $x \in S$ に対して $\alpha x = 0$ となります。*
 
 S の消滅子は通常、Ann(S) で表されます。単一の元 x の部分集合 S からなるの場合、Ann(\{x\}) の代わりに Ann(x) と書き、x* の Ann(x) *消滅子を呼び出します。
 
-関係 $\alpha x = 0$ は、*x が $\alpha$* によって消滅するというというによって表現されることもあります。
+関係 $\alpha x = 0$ は、*x が $\alpha$* によって消滅することをというによって表現することもできます。
 
-E の任意の部分集合 S の消滅子が A の *左イデアル* であるのは明らかです。それが A に等しいためには、((M_IV) のおかげで) $S = \{0\}$ であることが必要かつ十分です。 E の 2 つの部分集合 S, T が、T の $S \subset T$, 消滅子が S の消滅子に含まれるようなものである場合、$(S_i)_{i \in I}$ が E の部分集合の任意の族である場合、和集合 $\bigcup_i S_i$ の消滅子は、 $S_i$の消滅子の共通部分。特に、E の部分集合 S の消滅子は、S の元の消滅子の共通部分です。E の元が *free* であると言うのは、その消滅子が $\{0\}$ であるというと同等です。すべての $x \in E$ とすべての $\alpha \in A$ について、$\alpha x$ の消滅子は $\beta \in A$ の集合であり、$\beta \alpha \in \mathrm{Ann}(x)$ となります。
+E の任意の部分集合 S の消滅子が A の *左イデアル* であるのは明らかです。それが A に等しいためには、((M_IV) により) $S = \{0\}$ であることが必要かつ十分です。 E の 2 つの部分集合 S、T が、S の消滅子に T の $S \subset T$、消滅子が含まれる場合、$(S_i)_{i \in I}$ が E の部分集合、和集合の消滅子の任意の族である場合$\bigcup_i S_i$は$S_i$の消滅子の共通部分です。特に、E の部分集合 S の消滅子は、S の元の消滅子の共通部分です。E の元が *free* であると言うのは、その消滅子が であるというというと同等です。 $\{0\}$。すべての $x \in E$ とすべての $\alpha \in A$ について、$\alpha x$ の消滅子は $\beta \in A$ の集合であり、$\beta \alpha \in \mathrm{Ann}(x)$ となります。
 
-Eの*部分加群* Mの消滅子は、Aの*両面理想*です。つまり、すべての $x \in M$ に対して $\alpha x = 0$ の場合、すべての $x \in M$ とすべての $\beta \in A$ に対して $\alpha (\beta x) = 0$ となるため、すべての $\beta \in A$ に対して M の $\alpha \beta$ 属するから消滅子となります。特に、E の消滅子は A の両面の理想です。
+*部分加群* M の E の消滅子は、A の *両面理想* です。すべての $x \in M$ に対して $\alpha x = 0$ の場合、すべての $x \in M$ とすべての $\beta \in A$ に対しても $\alpha (\beta x) = 0$ となるため、すべての $\beta \in A$ に対して M の $\alpha \beta$ 属するから消滅子となります。特に E の消滅子は A の両面イデアルです。
 
-すべての $\alpha \in A$ について、$h_\alpha$ をホモテティー $x \mapsto \alpha x$ とします。 A の写像 $\alpha \mapsto h_\alpha$ を可換群 (演算子なし) E の自己準同型環 $\mathscr{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ にすると、 *環準同型* (§ 2, no. 5) になることが知られています。この準同型の下の 0 の逆像は E の *消滅子* $a$ です。したがって、準同型 $\alpha \mapsto h_\alpha$ の下の A の像は商環 $A/a$ と同型です。 加群 E は、消滅子 $a$ 簡約するが 0 の場合、*忠実* と呼ばれます。
+すべての $\alpha \in A$ について、$h_\alpha$ をホモテティー $x \mapsto \alpha x$ とします。 A の写像 $\alpha \mapsto h_\alpha$ を可換群 (演算子なし) E の自己準同型環 $\mathscr{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ にすると、*環準同型* (§ 2, no. 5) になることが知られています。この準同型の下にある 0 の逆像は E の *消滅子* $a$ です。したがって、準同型 $\alpha \mapsto h_\alpha$ の下の A の像は、商環 $A/a$ と同型です。 加群 E は、消滅子 $a$ 簡約するが 0 の場合、*忠実* と呼ばれます。
 
-E を Ann(E) に含まれる A の両面イデアルの任意の A-加群、$a$ とし、$\dot{\alpha}$ を商環 $A/a$ の元とします。すべての $x \in E$、元 $\alpha x$ は、$\alpha \in A$ 所属から類 $\dot{\alpha}$ のすべての MOD で同じです。 $a$;この元が $\dot{\alpha} x$ で表される場合、写像 (α, x) ↦ αx 定義する (E に加法がある) E 上の (A/α) 加群構造であることがすぐにわかります。α = Ann(E) の場合、このように定義された (A/α) 加群 E は *忠実* です。それは、A-加群 E に *関連付けられている*信者加群であると言います。 A-加群 E のすべての部分加群は、関連付けられている信者加群の部分加群でもあり、またその逆であることに注目してください。
+E を Ann(E) に含まれる A の両側イデアル A-加群、$a$ とし、$\dot{\alpha}$ を商環 $A/a$ の元とします。すべての $x \in E$、元 $\alpha x$ は、$\alpha \in A$ 所属から類 $\dot{\alpha}$ のすべての mod で同じです。 $a$;この元を $\dot{\alpha} x$ で表すと、写像 (α, x) ↦ αx 定義する (E に加法がある) E 上の (A/α) 加群構造であることがすぐにわかります。 α = Ann(E) のとき、このように定義された (A/α) 加群 E は次のようになります。 *忠実*;それは、A-加群 E に *関連付けられている*信者加群であると言います。 A-加群 E のすべての部分加群は、関連付けられた信者加群の部分加群でもあり、またその逆であることに注目してください。
 
 #### 定義 12 {#alg-ii-s1-def-12 .statement tag=05LP}
 
-*加群が単一の元によって生成される場合、それは単生と呼ばれます。
+*加群は、単一の元によって生成される場合、単一と呼ばれます。*
 
-Proposition 9 of no. 7 shows that, if E is a monogenous A-module and a is an element generating E, E is identical with the set A.a of ξa, where ξ runs through A.
+命題 9 of no. 7 は、E が単種 A-加群で、a が元生成する E である場合、E は ξa の集合 A.a と同一であり、ξ は A を通過することを示しています。
 
 #### 例 {#alg-ii-s1-n12-exa-1 .statement tag=05LQ}
 
-(1) 可換 (I, § 4, no. 10、命題 18) であるすべての単次群は、単次 $\mathbf{Z}$ 加群です。
-(2) A が可換環である場合、A-加群 A の単一性部分加群は、環 A の*主イデアル* (I, § 8, no. 6) にすぎません。
+(1) すべての単次群は、可換 (I, § 4, no. 10、命題 18) であるため、単次 $\mathbf{Z}$ 加群です。
+(2) A が可換環である場合、A-加群 A の単一属部分加群は、環 A の*主イデアル* (I, § 8, no. 6) にすぎません。
 (3) E の元 ≠ 0 によって生成される E の部分加群は必ず E に等しいため、すべての*単純* A-加群 E は単次です。
 
 #### 命題 22 {#alg-ii-s1-prop-22 .statement tag=05LR}
 
-※Aを環とします。 $A_s$ のすべての商加群は単一です。逆に、E を単一の A-加群、E の c 生成元、a をその消滅子とする。 線形写像 $\xi \mapsto \xi c$ 定義する、移行から商のとき、$A_s/a$ の同型が E.* に
+※Aを環とします。 $A_s$ のすべての商加群は単一です。逆に、E を単一の A-加群、E の c 生成元、および a の消滅子とする。 線形写像 $\xi \mapsto \xi c$ 定義する、移行から商のとき、$A_s/a$ の同型が E.* に
 
 $A_s$ はそれ自体単次であり、1 によって生成されるため、最初の主張は no. 7、系 1 から命題 9 に続きます。 $\xi \mapsto \xi c$ は仮定全射であり、核 a があるため、2 番目は明らかです。
 
@@ -1136,7 +1136,7 @@ A が可換でない場合、2 つの別個の生成元 c の消滅子、単種 
 
 2 番目の主張は明らかで、最初の命題 22 と I, § 4, no. 6、定理 4 が続きます。
 
-一方、注意は、単種加群の部分加群は必ずしも単種であるわけではありません。 For example, if A is a commutative ring in which there exist non-principal ideals (VII, § 1, no. 1), these ideals are non-monogenous submodules of the monogenous A-module A.
+一方、注意は、単種加群の部分加群は必ずしも単種であるわけではありません。 たとえば、A が非主イデアル (VII, § 1, no. 1) が存在する可換環である場合、これらのイデアルは単次 A 加群 A の非単次副加群になります。
 
 定義から、E の元の家族 $(a_i)$ によって生成された A-加群 E の部分加群は、単一種部分加群の *和* であることがわかります。
 
@@ -1189,7 +1189,7 @@ $\rho_*(E)$ のすべての生成する系は、$E$ の生成する系ですが�
 
 たとえ$\rho$が単射的であっても、$\rho_*(E)$の自由な家族は必ずしも$E$でも自由であるとは限らないことに注意してください。
 
-*For example, 1 and $\sqrt{2}$ do not form a free system in $\mathbf{R}$ considered as a vector $\mathbf{R}$-space, although they form a free system in $\mathbf{R}$ considered as a vector $\mathbf{Q}$-space (cf. Remark 1).*
+*例えば、1と$\sqrt{2}$は、ベクトル$\mathbf{R}$空間として考えた$\mathbf{R}$では自由系を形成しませんが、ベクトル$\mathbf{Q}$空間として考えた$\mathbf{R}$では自由系を形成します(cf.備考1)。
 
 #### 命題 25 {#alg-ii-s1-prop-25 .statement tag=05LX}
 
@@ -1209,7 +1209,7 @@ $C$ を 3 番目の環、$\rho' : C \to B$ 環準同型、そして $\rho'' = \r
 
 (2) 環準同型 $\rho : B \to A$ が全射で、$b$ がその核である場合 (したがって、$A$ は $B/b$ と標準的に識別されます)、すべての $A$ モジュール $E$ について、 $b$ は $\rho_*(E)$ の消滅子に含まれており、$E$ は、no. 12 で定義されたプロセスによって $\rho_*(E)$ から派生した $A$ モジュールです。
 
-$A, B$ を 2 つの環と $\rho : B \to A$ 準同型とします。 Let $E$ be an $A$-module and $F$ a $B$-module; a *B-linear* mapping $u : F \to \rho_*(E)$ (also called a *B-linear mapping of* $F$ *into* $E$ if no confusion arises) is also called a *semi-linear mapping* (relative to $\rho$) of the $B$-module $F$ into the $A$-module $E$; it is also said that the ordered pair $(u, \rho)$ is a *dimorphism* of $F$ into $E$; this therefore means that, for $x \in F, y \in F$ and $\beta \in B$,
+$A, B$ を 2 つの環と $\rho : B \to A$ 準同型とします。 $E$ を $A$ モジュール、$F$ を $B$ モジュールとします。 *B 線形* 写像 $u : F \to \rho_*(E)$ (混乱がなければ、* $F$ *into* $E$ の *B-線型写像とも呼ばれます) は、$B$ モジュール $F$ への *半線形マッピング* ($\rho$ に対して) とも呼ばれます。 $A$-モジュール$E$;順序付けられた対 $(u, \rho)$ は $F$ から $E$ への *二型性 * であるとも言われています。したがって、これは、$x \in F, y \in F$ と $\beta \in B$ について、
 
 $$
 \begin{cases}
@@ -1234,21 +1234,21 @@ C を 3 番目の環、$\rho': C \to B$ 準同型、G を C モジュールと�
 
 ### 14. マルチモジュール
 
-A、B を 2 つの環とし、集合 E で *同じ* 加法法則を備えた 2 つの左加群構造を考えます。演算子の環はそれぞれ A と B です。 $\mathscr{E}$ を加法群 E の自己準同型環とし、すべての $\alpha \in A$ (それぞれ $\beta \in B$) について、$h_\alpha$ (それぞれ $h'_\beta$) を元 $x \mapsto \alpha x$ (それぞれ $x \mapsto \beta x$) とします。 $\mathscr{E}$の。明らかに、次の 3 つのプロパティは同等です: (a) $\alpha$ と $\beta$ のすべてに対して $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$。 (b) 準同型 $a \mapsto h_\alpha$ の下の A の像は $\mathrm{Hom}_B(E, E)$ に *含まれます*。 (c) 準同型 $\beta \mapsto h'_\beta$ の下の B の像は $\mathrm{Hom}_A(E, E)$ に *含まれます*。問題のA-加群 (またはB-加群) 構造が権利加群構造である場合、環 A (または B) は (b) (または (c)) で $A^0$ (または $B^0$) に置き換えられなければなりません。上記のプロパティは、E で定義された 2 つの (左または右) 加群構造が *互換性がある* というというによって表現できます。
+A、B を 2 つの環とし、集合 E で *同じ* 加法法則を持ち、演算子の環がそれぞれ A と B である 2 つの左加群構造を考えます。 $\mathscr{E}$ を加法群 E の自己準同型環とし、すべての $\alpha \in A$ (それぞれ $\beta \in B$) について、$h_\alpha$ (それぞれ $h'_\beta$) を元 $x \mapsto \alpha x$ (それぞれ $x \mapsto \beta x$) とします。 $\mathscr{E}$の。明らかに、次の 3 つのプロパティは同等です: (a) $\alpha$ と $\beta$ のすべてに対して $h_\alpha \circ h'_\beta = h'_\beta \circ h_\alpha$。 (b) 準同型 $a \mapsto h_\alpha$ の下の A の像は $\mathrm{Hom}_B(E, E)$ に *含まれています*。 (c) 準同型 $\beta \mapsto h'_\beta$ の下の B の像は $\mathrm{Hom}_A(E, E)$ に *含まれます*。問題のA-加群 (またはB-加群) 構造が権利加群構造である場合、環 A (または B) は (b) (または (c)) で $A^0$ (または $B^0$) に置き換えられなければなりません。上記のプロパティは、E で定義された 2 つの (左または右) 加群構造が *互換性がある* というというによって表現できます。
 
 #### 定義 13 {#alg-ii-s1-def-13 .statement tag=05M1}
 
-*Let* $(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$ *be two families of rings; an* $((A_\lambda),\ (B_\mu))$*-multimodule* (or *multimodule over the families of rings* $(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$) *is a set* E *with, for each* $\lambda \in L$, *a left* $A_\lambda$*-module structure and, for each* $\mu \in M$, *a right* $B_\mu$*-module structure, all these module structures being compatible with one another.*
+*$(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$ *環の 2 つの家族としましょう。 * $((A_\lambda),\ (B_\mu))$*-マルチモジュール* (または、*環* $(A_\lambda)_{\lambda \in L},\ (B_\mu)_{\mu \in M}$ ファミリの *マルチモジュール) *は集合* E *それぞれ* $\lambda \in L$、*左* $A_\lambda$* モジュール構造、およびそれぞれ* $\mu \in M$、*右* $B_\mu$* モジュール構造。これらすべての加群構造は 1 つの他の.* と互換性があります。
 
-ファミリ $(B_\mu)$ (それぞれ $(A_\lambda)$) が空の場合、E は *left* (それぞれ *right*) *multimodule* と呼ばれます。 Card(L) + Card(M) = 2 の場合、「*multimodule*」の代わりに「*両側加群*」と言います。その場合、 (演算子の置き換えること環をその逆の cf. no. 1 で常に行うことができるように) 両側加群を環 A および *正しい加群* に関して *左加群* 構造を持つと考えると便利な場合がよくあります。 環 B に対する構造、法則の順列性は関係で表されます。
+ファミリ $(B_\mu)$ (それぞれ $(A_\lambda)$) が空の場合、E は *left* (それぞれ *right*) *multimodule* と呼ばれます。 Card(L) + Card(M) = 2 の場合、「*multimodule*」の代わりに「*両側加群*」と言います。その場合、(その反対の演算子の置き換えること環によって常に実行できるように、cf. no. 1) 両側加群が環 A および *正しい加群* に関して *左加群* 構造を持つと考えると便利な場合がよくあります。 環 B に対する構造、法則の順列性は関係で表されます。
 
 $$
 \alpha(x\beta) = (\alpha x)\beta \quad \text{for } x \in E, \alpha \in A, \beta \in B.
 $$
 
-その場合、E は *(A, B)*-*両側加群* であるとも言われます。
+そして、E は *(A, B)*-*両側加群* であるとも言われます。
 
-集合 E 上の 2 つの *マルチモジュール* 構造は、E 上のすべての加群構造のうち、定義するこれらのマルチモジュール構造のいずれかが 1 つの他のと互換性がある場合、*互換性がある*と言われます。
+集合 E 上の 2 つの *マルチモジュール* 構造は、E 上のすべての加群構造と、これらのマルチモジュール構造のいずれか定義するが 1 つの他のと互換性がある場合、*互換性がある*と言われます。
 
 #### 例 {#alg-ii-s1-n14-exa-1 .statement tag=05M2}
 
@@ -1258,15 +1258,15 @@ $$
 
 明らかに、E が環の 2 つのファミリー $(A_\lambda)_{\lambda \in L}, (B_\mu)_{\mu \in M}$ にわたるマルチモジュールである場合、E は任意の 2 つのサブファミリー $(A_\lambda)_{\lambda \in L'}, (B_\mu)_{\mu \in M'}$ にわたるマルチモジュールでもあります。ここで、$\lambda \in L'$ と $\mu \in M'$ の $A_\lambda$ モジュール構造と $B_\mu$ モジュール構造は、最初に与えられたものです。
 
-マルチモジュールは演算子と可換な群の特定の例であるため、nos の結果は次のようになります。 2 ～ 10 (cf. no. 10、*注意*) が適用できます。特に、E、F が 2 つの $((A_\lambda), (B_\mu))$ マルチモジュールである場合、*準同型* $u : E \to F$ は写像であり、すべての $\lambda \in L$ については $A_\lambda$-準準同型であり、すべての $\mu \in M$ については $B_\mu$-準同型です。 $((A_\lambda), (B_\mu))$ マルチモジュールの安定した部分群は、$((A_\lambda), (B_\mu))$ マルチモジュール (*サブマルチモジュール* と呼ばれる) であり、同様に、そのような部分群 (*商マルチモジュール* と呼ばれる) による商も同様です。 積と直和についても同様です。
+マルチモジュールは演算子と可換な群の特定の例であるため、nos の結果は次のようになります。 2 ～ 10 (cf. no. 10、*注意*) が適用できます。特に、E、F が 2 つの $((A_\lambda), (B_\mu))$ マルチモジュールの場合、 *準同型* $u : E \to F$ は写像であり、すべての $\lambda \in L$ については $A_\lambda$ 準同型であり、すべての $\mu \in M$ については $B_\mu$ 準同型です。 $((A_\lambda), (B_\mu))$ マルチモジュールの安定した部分群は $((A_\lambda), (B_\mu))$ マルチモジュール (*サブマルチモジュール* と呼ばれる) であり、同様に部分群 (*商マルチモジュール* と呼ばれる) による商も同様です。 積と直和についても同様です。
 
-E を $((A_\lambda), (B_\mu))$ マルチモジュールとし、各 $\lambda \in L$ (それぞれ $\mu \in M$) について $\phi_\lambda : A'_\lambda \to A_\lambda$ (それぞれ $\psi_\mu : B'_\mu \to B_\mu$) を環準同型とします。明らかに、E で指定された $\phi_\lambda$ と $A_\lambda$ モジュール構造に関連付けられた $A'_\lambda$ モジュール構造、および E で指定された $\psi_\mu$ と $B_\lambda$ モジュール構造に関連付けられた $B'_\mu$ モジュール構造は、1 つの他のと互換性があるため、E 上の定義すると互換性があります。 $((A'_\lambda), (B'_\mu))$ マルチモジュール構造。指定された $((A_\lambda), (B_\mu))$ マルチモジュール構造と $\phi_\lambda$ および $\psi_\mu$ に *関連付けられている*と言われています。
+E を $((A_\lambda), (B_\mu))$ マルチモジュールとし、各 $\lambda \in L$ (それぞれ $\mu \in M$) について $\phi_\lambda : A'_\lambda \to A_\lambda$ (それぞれ $\psi_\mu : B'_\mu \to B_\mu$) を環準同型とします。明らかに、E で指定された $\phi_\lambda$ と $A_\lambda$ モジュール構造に関連付けられた $A'_\lambda$ モジュール構造、および E で指定された $\psi_\mu$ と$B_\lambda$ モジュール構造に関連付けられた $B'_\mu$ モジュール構造は、1 つの他のおよびしたがって定義すると互換性があります。 E では、指定された $((A_\lambda), (B_\mu))$ マルチモジュール構造と $\phi_\lambda$ および $\psi_\mu$ に *関連付けられている*と言われている $((A'_\lambda), (B'_\mu))$ マルチモジュール構造。
 
 E、F が 2 つの $((A_\lambda), (B_\mu))$ マルチモジュールの場合、F への E の準同型の加法群は、$\operatorname{Hom}_{(A_\lambda), (B_\mu)}(E, F)$ (または単に $\operatorname{Hom}(E, F)$) で表されます。 no. 2 の式 (6) から (8) は明らかに $((A_\lambda), (B_\mu))$ マルチモジュール準同型に有効であり、特に $\operatorname{Hom}(E, E) = \operatorname{End}(E)$ には *環* 構造があります。
 
 さらに、Hom(E, F) には標準的な *左* End(F) モジュール構造と *右* End(E) モジュール構造があり、これら 2 つの構造には互換性があります。他の語では、Hom(E, F) には正規 (End(F), End(E))-**両側加群** 構造があります。
 
-Suppose now that E has a multimodule structure whose rings of left (resp. right) operators are on the one hand the $A_\lambda$ for $\lambda \in L$ (resp. the $B_\mu$ for $\mu \in M$) and on the other the rings of another family $(A'_{\lambda'})_{\lambda' \in L'}$ (resp. $(B'_{\mu'})_{\mu' \in M'}$). 同様に、F がマルチモジュール構造を持っており、その左 (または右) 演算子の環が、一方で $\lambda \in L$ の $A_\lambda$ (それぞれ $\mu \in M$ の $B_\mu$) であり、他方で他のファミリー $(A''_{\lambda''})_{\lambda'' \in L''}$ の環であると仮定します。 $(B''_{\mu''})_{\mu'' \in M''}$);略して、E は (($A_\lambda$), ($A'_{\lambda'}$); ($B_\mu$), ($B'_{\mu'}$)) マルチモジュール、F は (($A_\lambda$), ($A''_{\lambda''}$); ($B_\mu$), ($B''_{\mu''}$)) マルチモジュールであると言います。 E と F を (($A_\lambda$), ($B_\mu$)) マルチモジュールとみなして、演算子をサブファミリー ($A_\lambda$) と ($B_\mu$) に *制限*します。 この番号の冒頭で述べたことによると、E と F 定義するで与えられるマルチモジュール構造は標準的に環準同型
+ここで、E がマルチモジュール構造を持っており、その左 (右) 演算子の環が、一方で $\lambda \in L$ の $A_\lambda$ (それぞれ $\mu \in M$ の $B_\mu$) であり、他方で他のファミリー $(A'_{\lambda'})_{\lambda' \in L'}$ の環 (それぞれ$(B'_{\mu'})_{\mu' \in M'}$）。 同様に、F がマルチモジュール構造を持っており、その左 (または右) 演算子の環が、一方で $\lambda \in L$ の $A_\lambda$ (それぞれ $\mu \in M$ の $B_\mu$) であり、他方で他のファミリー $(A''_{\lambda''})_{\lambda'' \in L''}$ の環であると仮定します。 $(B''_{\mu''})_{\mu'' \in M''}$);略して、E は (($A_\lambda$), ($A'_{\lambda'}$); ($B_\mu$), ($B'_{\mu'}$)) マルチモジュール、F は (($A_\lambda$), ($A''_{\lambda''}$); ($B_\mu$), ($B''_{\mu''}$)) マルチモジュールであると言います。 E と F を (($A_\lambda$), ($B_\mu$)) マルチモジュールとみなして、演算子をサブファミリー ($A_\lambda$) と ($B_\mu$) に *制限*します。 この番号の冒頭で述べたことによると、E と F 定義するで与えられるマルチモジュール構造は標準的に環準同型
 
 $$
 A'_{\lambda'} \to \operatorname{End}_{(A_\lambda), (B_\mu)}(E), \qquad {B'_{\mu'}}^0 \to \operatorname{End}_{(A_\lambda), (B_\mu)}(E),

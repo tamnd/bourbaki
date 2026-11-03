@@ -46,16 +46,16 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: 557f52f08bb86c25e0e2f0d1300ee2e37e6259d0061c8dd08d9f71fb9b40aebe
+content_sha256: c473cd90bcec0f221d8a9535229b54903ea5c297fdabccfa3b58d47ffc24002d
 translated_from: content/en/alg/VIII/14_s14_central_simple_algebras.md
 translation_method: google
 source_content_sha256: 6b4399d77699c060fb6846778021967e62ae015f18624ee87348066955fdf6f2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f8f477e11274ab60c4e55554cbe01046656b041c1f664515a6eb1f94e262d505
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 14。中央単純代数
@@ -72,7 +72,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 注意 1 {#alg-viii-s14-n1-rem-1 .statement tag=00GF}
 
-A と B をK-代数とします。 $A\otimes_KB$ が中心の単純代数である場合、A と B (命題 6 の III, §4, No. 4、p. 468、系および VIII、p. 221、命題 6) も同様です。 Conversely, if A and B are central simple algebras and if one of them has finite degree over K, then $A\otimes_KB$ is a central simple algebra (III, §4, No. 4, p. 468, Corollary of Proposition 6 and VIII, p. 222, Corollary 2).
+A と B をK-代数とします。 $A\otimes_KB$ が中心の単純代数である場合、A と B (命題 6 の III, §4, No. 4、p. 468、系および VIII、p. 221、命題 6) も同様です。 逆に、A と B が中心単純代数で、そのうちの 1 つが K を超える有限次数を持つ場合、$A\otimes_KB$ は中心単純代数です (III, §4, No. 4、p. 468、命題 6 の系およびVIII、p. 222、系 2)。
 
 #### 注意 2 {#alg-viii-s14-n1-rem-2 .statement tag=00GG}
 
@@ -94,15 +94,15 @@ A を有限次数の K-代数とします。次のプロパティは同等です
 
 (ii) 代数 A は中心であり、根基はありません。
 
-(iii) The canonical homomorphism from the K-algebra $A\otimes_KA^o$ to the K-algebra End$_K(A)$ that sends $a\otimes a'$ to the K-linear mapping $x\mapsto axa'$ from A to A is bijective.
+(iii) $a\otimes a'$ を A から A への K 線形写像 $x\mapsto axa'$ に送る K 代数 $A\otimes_KA^o$ から K 代数 End$_K(A)$ までの正準準同型性は全単射です。
 
 (iv) 体 K と整数 $n\geqslant 1$ の拡大 L が存在し、L-代数 $A_{(L)}$ と $\mathbf{M}_n(L)$ が同型となる。
 
 (v) K のすべての分離閉包 $K'$ に対して、$K'$-代数 $A_{(K')}$ と $\mathbf{M}_n(K')$ が同型であるような整数 $n\geqslant 1$ が存在します。
 
-(vi) There exist a Galois extension L of the field K of finite degree and an integer $n\geqslant 1$ such that the L-algebras $A_{(L)}$ and $\mathbf{M}_n(L)$ are isomorphic.
+(vi) 有限次数の体 K のガロア拡張 L と整数 $n\geqslant 1$ が存在し、L-代数$A_{(L)}$ と$\mathbf{M}_n(L)$ が同型となる。
 
-(vii) There exist a K-algebra of finite degree D that is a field with center K and an integer $n\geqslant 1$ such that the algebra A is isomorphic to the algebra $\mathbf{M}_n(D)$.
+(vii) 代数 A が代数 $\mathbf{M}_n(D)$ と同型であるような、中心 K と整数 $n\geqslant 1$ を持つ体である有限次数 D の K 代数が存在します。
 
 環は、それが半単純であり、その中心が体 (命題 10 の VIII、p. 143、系) である場合に限り、単純です。 A は体 K 上の有限次数の代数であるため、左アルティン的環です。従って、根基 (VIII、p. 154、命題 4) がない場合に限り、半単純になります。 (i)と(ii)の同値が続きます。
 
@@ -166,9 +166,9 @@ A のすべての $x$ と B のすべての $b$ に対して。 この関係は�
 
 B が中心 Z に対して有限生成加群である半単純環であるとします。M と N を $(B,A)$ ビモジュールとします。彼らが有限長を持っていると仮定します (これは特に、有限長の右A-加群である場合に当てはまります)。 M と N が $(Z,A)$-bimodule と同型である場合、それらは $(B,A)$-bimodule と同型です。
 
-A) まず、B が可換体 L よりも有限次元 $d$ のベクトル空間の自己準同型環である場合を考えてみましょう。 すると、Z = L となります。 S を $(B$, Z)-bimodule として見ます。 環 B は単純、S は単純B-加群、Z は S の交換子環です。すべての B-加群は型 S (VIII、p. 122、命題 2 a)) と同型です。 $(V, \alpha )$ (それぞれ $(W, \beta )$) を B-加群 M (それぞれ N) の記述とします。 The set V (resp. W) is endowed with a $(Z$, A)-bimodule structure such that $\alpha$ (resp. $\beta$ ) is an isomorphism of $(B$, A)-bimodules (VIII, p. 64, Remark 2). As $(Z$, A)-bimodules, M is isomorphic to $V^d$ and N to $W^d$, and there exists an isomorphism from the set of $(Z$, A)-sub-bimodules of V, ordered by inclusion, to that of the $(B$, A)-sub-bimodules of M (loc. cit.). したがって、V は $(Z$、有限長の A)-bimodule であり、W も同様です。 $(Z,A)$-bimodules $V^d$ と $W^d$ は同型であるため、$(Z$、A)-bimodule V および W は、VIII、p. 37 の定理 2、d) を環に適用することによって同型です。 $Z\otimes_{\mathbf{Z}}A^o$。 最後に、$(B$、A)-バイモジュール M と N は同型です。
+A) まず、B が可換体 L よりも有限次元 $d$ のベクトル空間の自己準同型環である場合を考えてみましょう。 すると、Z = L となります。 S を $(B$, Z)-bimodule として見ます。 環 B は単純、S は単純B-加群、Z は S の交換子環です。すべての B-加群は型 S (VIII、p. 122、命題 2 a)) と同型です。 $(V, \alpha )$ (それぞれ $(W, \beta )$) を B-加群 M (それぞれ N) の記述とします。 集合 V (それぞれ W) には、$\alpha$ (それぞれ $\beta$ ) が $(B$, A) 双モジュール (VIII, p. 64、注釈 2) の同型であるような $(Z$, A) 双モジュール構造が与えられています。 $(Z$, A)-bimodules として、M は $V^d$ と N と $W^d$ に同型であり、包含順に並べられた V の $(Z$, A)-sub-bimodule の集合から M の $(B$, A)-sub-bimodules の集合への同型性が存在します (loc.引用）。 したがって、V は $(Z$、有限長の A)-bimodule であり、W も同様です。 $(Z,A)$-bimodules $V^d$ と $W^d$ は同型であるため、$(Z$、A)-bimodule V および W は、VIII、p. 37 の定理 2、d) を環に適用することによって同型です。 $Z\otimes_{\mathbf{Z}}A^o$。 最後に、$(B$、A)-バイモジュール M と N は同型です。
 
-B) ここで、B が Z モジュールとして有限生成される単純な環である場合を考えてみましょう。 このとき、Z は体で、B は体 Z 上の有限次数の中心単純代数です。 VIII, p. 252 の定理 1 により、$Z'$-代数 $B'= B_{(Z')}$ が有限次元 $Z'$-ベクトル空間の自己準同型環と同型となるように、Z 上で有限次数の Z の拡大 $Z'$ が存在します。 集合 $M'= M_{(Z')}$ と $N'= N_{(Z')}$。 すると、$M'$ と $N'$ は $(B'$、A) 有限長の双モジュールです。 $(Z'$、A)-bimodule、$M'$、$N'$ は同型であると見なされます。 $A), M'$ と $N'$ は $(B'$, A)-bimodules と同型であり、なおさらは $(B$, A)-bimodules と同型です。 集合 $r= [Z': Z]$。 $(B$、A)-bimodule $M'= Z'\otimes_ZM$ は $M^r$ と同型であり、同様に、$(B$、A)-bimodule $N'$ は $N^r$ と同型です。 M と N は有限長の $(B$, A)-双モジュールであるため、VIII, p. 37 の定理 2, d) から、$(B$, A)-双モジュール M と N は同型であることがわかります。
+B) ここで、B が Z モジュールとして有限生成される単純な環である場合を考えてみましょう。このとき、Z は体で、B は体 Z 上の有限次数の中心単純代数です。 VIII、p. 252 の定理 1 により、Z 上の有限次数の Z の $Z'$ 拡大が存在します。 $Z'$-代数 $B'= B_{(Z')}$ は、有限次元 $Z'$-ベクトル空間の自己準同型環と同型です。 集合 $M'= M_{(Z')}$ と $N'= N_{(Z')}$。すると、$M'$ と $N'$ は $(B'$、A) 有限長の双モジュールです。 $(Z'$、A)-bimodule、$M'$、$N'$ は同型であると見なされます。 $A), M'$ と $N'$ は $(B'$、A)-bimodules と同型であり、なおさらは $(B$、A)-bimodules と同型です。 集合 $r= [Z': Z]$。 $(B$、A)-bimodule $M'= Z'\otimes_ZM$ は $M^r$ と同型であり、同様に、$(B$、A)-bimodule $N'$ は $N^r$ と同型です。 M と N は有限長の $(B$, A)-双加群であるため、VIII, p. 37 の定理 2, d) から、$(B$, A)-双加群 M と N は同型であることがわかります。
 
 C) 最後に、B が Z 加群として有限生成される半単純環である一般的な場合を考えてみましょう。 $\mathscr{S}$ を集合 of 類 of 単純B-加群とします。それは有限です (VIII、p. 136、命題 1)。任意の $\lambda \in \mathscr{S}$ について、B-加群 M (それぞれ N) の型 $\lambda$ の同型成分を $M_{\lambda}$ (それぞれ $N_{\lambda}$) で表します。それは M (それぞれ N) の $(B$、A) サブバイモジュールです (注意、VIII、p. 67)。 $\lambda \in \mathscr{S}$ については、B-加群 $\lambda$ の消滅子を $\mathfrak{b}_{\lambda}$、集合 $B_{\lambda}= B/\mathfrak{b}_{\lambda}$ で表します。 $Z_{\lambda}$を$B_{\lambda}$の中心とします。 $\lambda \in \mathscr{S}$ の場合、$(B_{\lambda}$、A) ビモジュール $M_{\lambda}$ および $N_{\lambda}$ には有限長があります。次に、単純な環 $B_{\lambda}$ の積で同一視する B を、$Z_{\lambda}$ (VIII、p. 141、命題 8) の積で Z を得ることができます。さらに、$\prod_{\lambda\in\mathscr{S}}M_{\lambda}$で同一視できるM、$\prod_{\lambda\in\mathscr{S}}N_{\lambda}$でNです。 仮定までに、M と N は $(Z$、A)-bimodules と同型になります。従って、$\lambda \in \mathscr{S}, M_{\lambda}$ と $N_{\lambda}$ は同型の $(Z_{\lambda}$、A)-双加群であることがわかります。 B) で扱ったケースでは、$(B_{\lambda}$, A)-双モジュール $M_{\lambda}$ と $N_{\lambda}$ は同型であり、従って $(B$, A)-双モジュール M と N も同型です。
 
@@ -198,31 +198,31 @@ A と B が体 K よりも代数であるとします。B が中心単純で有�
 
 A と B を単純K-代数とし、Z(A) と Z(B) を中心とします。 代数 B が K に対して有限次数を持ち、代数 $Z(A)\otimes_KZ(B)$ が体であると仮定します (これは、特に A または B が中心である場合に当てはまります)。 $f$と$g$をBからAまでK-代数準同型とします。$g=\theta \circ f$となるようなAの内部自己同型$\theta$が存在します。
 
-VIII, p. 254 の補題 1 により、$(B,A)$ バイモジュール $A^f$ と $A^g$ が同型であることを証明するのに十分です。ここで、$A^f$ と $A^g$ を代数 $C = B\otimes_KA^o$ 上の左加群として見ることができます。これは、VIII、p. 221 の命題 7 によって簡単になります。 右A-加群、$A^f$、$A^g$ は $A_d$ と同型なので、環 A は単純 (VIII, p. 121, 系 1) であるため、有限長になります。 なおさら、$A^f$、$A^g$ は、有限長の C モジュールです。 S を単純な C モジュールとしましょう。 $A^f$ が $S^m$ と同型、$A^g$ が $S^n$ となるように、厳密に正の整数 $m$ と $n$ が存在します。従って、右A-加群 S は非零有限長になります。 $A^f$ と $A^g$ の基礎となる右A-加群は同型であるため、同じ長さを持ちます。従って、$m=n$ があり、C 加群 $A^f$ と $A^g$ は同型になります。
+VIII, p. 254 の補題 1 により、$(B,A)$ バイモジュール $A^f$ と $A^g$ が同型であることを証明するのに十分です。ここで、$A^f$ と $A^g$ を代数 $C = B\otimes_KA^o$ 上の左加群として見ることができます。これは、VIII、p. 221 の命題 7 によって簡単になります。 右A-加群、$A^f$、$A^g$ は $A_d$ と同型なので、環 A は単純 (VIII, p. 121, 系 1) であるため、有限長になります。 なおさら、$A^f$、$A^g$ は、有限長の C モジュールです。 S を単純な C モジュールとしましょう。 $A^f$ が $S^m$ と同型、$A^g$ が $S^n$ となるように、正の整数 $m$ と $n$ が厳密に存在します。従って、右A-加群 S は非零有限長になります。 $A^f$ と $A^g$ の基礎となる右A-加群は同型であるため、同じ長さを持ちます。従って、$m=n$ があり、C 加群 $A^f$ と $A^g$ は同型になります。
 
 #### 系 1 {#alg-viii-s14-thm-3-cor-1 .statement tag=00GS}
 
-A を K 上の中心単純代数とし、L を有限次数の K の拡大とします。 $f$と$g$がLからAまでK-代数準同型である場合、$g=\theta \circ f$となるようなAの内部自己同型$\theta$が存在します。
+A を K 上の中心単純代数とし、L を有限次数の K の拡大とします。 $f$と$g$がLからAまでのK-代数準同型である場合、$g=\theta \circ f$となるようなAの内部自己同型$\theta$が存在します。
 
 #### 系 2 {#alg-viii-s14-thm-3-cor-2 .statement tag=00GT}
 
-AをK上の中心単純代数とし、LをAの部分代数つまり体とします。 A の L から拡大する内部自己同型までの K-代数準同型ごと。
+A を K 上の中心単純代数とし、L を A の部分代数、つまり体とします。 A の L ～ 拡大する ～ 内部自己同型までの各 K-代数準同型。
 
 #### 系 3 {#alg-viii-s14-thm-3-cor-3 .statement tag=00GU}
 
-D を中心 K で K を超える有限次数の体とします。 D のすべての元は K に対して代数的です。 Let $x$ and $y$ be elements of D; there exists an element $a$ of $D^*$ such that $y=axa^{-1}$ if and only if $x$ and $y$ have the same minimal polynomial over K.
+D を、K 上の有限次数のうち中心 K の体とします。D のすべての元は K 上で代数的です。$x$ と $y$ を D の元とします。 $x$ と $y$ が K 上で同じ最小多項式を持つ場合に限り、 $y=axa^{-1}$ となる $D^*$ の元 $a$ が存在します。
 
-最初の主張は、V, §3, No. 1、p. 17 の系 1 から続きます。
+最初の主張は、V, §3, No. 1、p. 17 の系から続きます。
 
-$y=axa^{-1}$ となるような $D^*$ の元 $a$ が存在すると仮定します。 K[X] のすべての多項式 P に対して、$P(y) =aP(x)a^{-1}$ が得られ、特に、$P(y) = 0$ の場合に限り、$P(x) = 0$ が得られます。従って、$x$ と $y$ は、K に関する同じ最小多項式 (V, §3, No. 1、p. 16、定理 1) を持ちます。
+$y=axa^{-1}$ となる $D^*$ の元 $a$ が存在すると仮定します。 K[X] のすべての多項式 P に対して、$P(y) =aP(x)a^{-1}$ が得られ、特に、$P(y) = 0$ の場合に限り、$P(x) = 0$ が得られます。従って、$x$ と $y$ は、K に関する同じ最小多項式 (V, §3, No. 1、p. 16、定理 1) を持ちます。
 
-逆に、$x$ と $y$ が同じ最小多項式を持つと仮定します。ロケ地にて。前述のとおり、$u(x) =y$ および $K[x]$ が体となるような、$K[x]$ から $K[y]$ までの K-同型写像 $u$ が存在します。 D の系 2$,u$ 拡大するから内部自己同型 $\theta :z\mapsto aza^{-1}$ により、$y=\theta (x) =axa^{-1}$ が得られます。
+逆に、$x$ と $y$ が同じ最小多項式を持つと仮定します。ロケ地にて。引用では、$u(x) =y$ となり、$K[x]$ は体となるような、$K[x]$ から $K[y]$ までの K-同型写像 $u$ が存在します。 D の系 2$,u$ 拡大するから内部自己同型 $\theta :z\mapsto aza^{-1}$ までなので、$y=\theta (x) =axa^{-1}$ になります。
 
 #### 命題 1 {#alg-viii-s14-prop-1 .statement tag=00GV}
 
-A を K 上の有限次数の中心単純代数とします。B を K-代数とし、B から A までの $f$ と $g$ を代数準同型とします。以下のプロパティは等価です。
+A を K 上の有限次数の中心単純代数とします。B を K-代数とし、B から A までの $f$ と $g$ を代数準同型とします。次のプロパティは等価です。
 
-(i) $g=\theta \circ f$ となる A の内部自己同型 $\theta$ が存在します。
+(i) $g=\theta \circ f$となるようなAの内部自己同型$\theta$が存在します。
 
 (ii) 左B-加群と同様に、$A^f$ と $A^g$ は同型です。
 
@@ -270,7 +270,7 @@ $$
 
 (左次数 $[A : B]_s.$の定義については、VIII、p. 124、定義2を参照してください)
 
-K-代数 $A^o$ は中央のシンプルで、K-代数 B は半単純と有限次数です。 系により、VIII、p. 221、代数 $C = B\otimes_KA^o$ の 1 は半単純になります。 M を、A と同じ加法群と、A の $a, a'$ と B の $b$ に対して公式 $(b\otimes a)a'=ba'a$ によって与えられる外部法則を持つ C モジュールとします。 $u$をEnd$_{\mathbf{Z}}(A)$の元とします。 次に、C モジュール M の $u$ 属するから交換子環 $C'_M$ は、$u$ が右 A 線形で左 B 線形である場合に限り、他の語では、$u$ 属するから交換子環である場合に限り、 A-加群 $A_s$ の相似関係の環における $B_M$。 We consequently define an isomorphism $\gamma$ from $B'$ to $C'_M$ by the relation $\gamma (b')(x) =b'x$ for $b'$ in $B'$ and $x$ in M. ここで、環 C は半単純で、C モジュール M は A の元 1 によって生成されます。 VIII、p. 139、環の命題 6 により、$C'_M$ は半単純なので、代数 $B'$ は半単純になります。
+K-代数 $A^o$ は中央のシンプルで、K-代数 B は半単純と有限次数です。 系により、VIII、p. 221、代数 $C = B\otimes_KA^o$ の 1 は半単純になります。 M を、A と同じ加法群と、A の $a, a'$ と B の $b$ に対して公式 $(b\otimes a)a'=ba'a$ によって与えられる外部法則を持つ C モジュールとします。 $u$をEnd$_{\mathbf{Z}}(A)$の元とします。 次に、C モジュール M の $u$ 属するから交換子環 $C'_M$ は、$u$ が右 A 線形で左 B 線形である場合に限り、他の語では、$u$ 属するから交換子環である場合に限り、 A-加群 $A_s$ の相似関係の環における $B_M$。 従って、$B'$ の $b'$ と M の $x$ に対する関係 $\gamma (b')(x) =b'x$ によって、$B'$ から $C'_M$ までの同型写像 $\gamma$ を定義します。 ここで、環 C は半単純で、C モジュール M は A の元 1 によって生成されます。 VIII、p. 139、環の命題 6 により、$C'_M$ は半単純なので、代数 $B'$ は半単純になります。
 
 $\varphi$ を $A\otimes_KA^o$ から End$_K(M)$ までの K-代数準同型とし、$a\otimes a'$ を K-線型写像 $x\mapsto axa'$ M から M に送信します。 K-代数 A と $A^o$ は中心単純であるため、$A\otimes_KA^o$ の両側イデアルは 0 と $A\otimes_KA^o$ (VIII、p. 218、系) のみです。 $C_M=\varphi (B\otimes A^o)$ と $C'_M=\varphi (B'\otimes K)$ があります。 準同型 $\varphi$ は零ではありません。従って、それは単射的です。 環 C は半単純なので、VIII, p. 139 の命題 5 により $C''_M= C_M$ が得られます。 従って、$A\otimes_KA^o$ の部分代数 $B\otimes_KA^o$ は、部分代数 $B'\otimes_KK$ の交換子環になります。 従って、$A\otimes_KK$の$B'\otimes_KK$の交換子環は、II, §7, No. 9、p. 311の命題19により$(B\otimes_KA^o)\cap (A\otimes_KK)$、つまり$B\otimes K$と等しくなります。 従って、A の $B'$ の交換子環は B に等しいです。 代数 $L = B\cap B'$ は B の中心です。 B は K 上の有限次数の半単純代数であるため、代数 L は可換であり、半単純で K 上の有限次数を持ちます。 BはAの$B'$の交換子環なので、$B'$の中心も$L = B\cap B'$(VIII、p. 77)に等しい。 私たちは a) を証明しました。
 
@@ -288,7 +288,7 @@ $$
 
 [B : K] は有限であり、非零、等式 $[A : B]_s= [B': K] ($集合理論、III, §6, No. 3、p. 188、系があることを結論するとします 3)。 b)を証明しました。
 
-A を有限次数の中心単純K-代数とします。 満たす $[A : K]\not=$ $[B : K] [B': K]$ の半単純可換部分代数 B (VIII の練習問題 1、p. 269) が存在する可能性があります。
+A を有限次数の中心単純K-代数とします。 満たす $[A : K]\not=$ $[B : K] [B': K]$ (練習問題 1 of VIII、p. 269) の半単純可換部分代数 B が存在する可能性があります。
 
 #### 定理 6 {#alg-viii-s14-thm-6 .statement tag=00GZ}
 
@@ -296,7 +296,7 @@ Aを中心単純K-代数、Bを有限次数のAの部分代数、そして$B'$�
 
 a) B が中心単純であると仮定します。この場合、$B'$ は中央単純であり、$b\otimes b'$ を $bb'$ に送信する K-代数準同型 $\theta : B\otimes_KB'\rightarrow A$ は同型です。
 
-b) B が半単純であると仮定し、$L = B\cap B'$ とします。 すると、$B'$は半単純代数になります。 The commutant $L'$ of L in A is a semisimple ring with center L, and the ring homomorphism $\psi : B\otimes_LB'\rightarrow L'$ that sends $b\otimes b'$ to $bb'$ is an isomorphism.
+b) B が半単純であると仮定し、$L = B\cap B'$ とします。 すると、$B'$は半単純代数になります。 A の L の可換項 $L'$ は中心 L を持つ半単純環であり、$b\otimes b'$ を $bb'$ に送る環準同型性 $\psi : B\otimes_LB'\rightarrow L'$ は同型です。
 
 a)を証明しましょう。 B が中心単純である場合、$B'$ は、VIII、p. 259 の定理 5 によって中心単純になります。従って、K-代数 $B\otimes_KB'$ は単純 (VIII、p. 222、系 2) であり、準同型 $\theta : B\otimes_KB'\rightarrow A$ は単射です。さて、$[A : B']_s$ の等式と [B : K] (定理 5) により、左側の $B'$ モジュール $B\otimes_KB'$ と A は同じ有限次元から解放されます。従って、それらは同じ有限長の $B'$ モジュールです。 系 2/II, §1, No. 10 著、p. $213,\theta$は全単射です。
 
@@ -330,7 +330,7 @@ a)を証明しましょう。まず、L が $L'$ と等しいと仮定します�
 
 逆に、L が A の最大値可換部分代数であると仮定し、$x$ を $L'$ の元とします。 $L\cup  \{x\}$ によって生成された A の部分代数 M は可換であり、含む L です。 L が最大であるため、M = L となり、$x\in L$、最後に $L = L'$ となり、a) が得られます。
 
-By Proposition 6 of III, §4, No. 4, p. 468, the commutant of $L_{(K')}$ in $A_{(K')}$ is $L'_{(K')}$. Since the equalities $L = L'$ and $L_{(K')}= L'_{(K')}$ are equivalent (II, §7, No. 9, p. 311, Proposition 19), assertion b) follows from a).
+III, §4, No. 4、p. 468の命題6より、$A_{(K')}$の$L_{(K')}$の可換項は$L'_{(K')}$となります。 等式 $L = L'$ と $L_{(K')}= L'_{(K')}$ は等価であるため (II, §7, No. 9、p. 311、命題 19)、a) から主張 b) が導かれます。
 
 #### 命題 3 {#alg-viii-s14-prop-3 .statement tag=00H2}
 
@@ -350,7 +350,7 @@ A) A が形 End$_K$(V) であると仮定します。ここで、V は体 K 上�
 
 (i) $=\Rightarrow$ (iv) $=\Rightarrow$ (ii) $=\Rightarrow$ (iii) $=\Rightarrow$ (i) 。
 
-Since L is a semisimple commutative algebra of finite degree over K, we can identify it with a finite product $\prod_{i\in I}L_i$ of extensions of K of finite degree (VIII, p. 137, Proposition 3). すべての $i\in I$ について、$V_i$ を L モジュール V の型 $L_i$ の同型成分とします。 V は忠実な L モジュール (VIII、p. 144、系) であるため、$L_i$ よりも非零有限次元のベクトル空間です。 次に、$\prod_{i\in I}V_i$ を使用して同一視する V を実行できます。 これらの条件、A の L の交換子環 $L'$、つまり単に代数 End$_L$(V) は、積 $\prod_{i\in I}$ End$_{L_i}(V_i)$ で識別できます。
+L は K 上の有限次の半単純可換代数であるため、有限次の K の拡張の有限積 $\prod_{i\in I}L_i$ と同定できます (VIII、p. 137、命題 3)。 すべての $i\in I$ について、$V_i$ を L モジュール V の型 $L_i$ の同型成分とします。 V は忠実な L モジュール (VIII、p. 144、系) であるため、$L_i$ よりも非零有限次元のベクトル空間です。 次に、$\prod_{i\in I}V_i$ を使用して同一視する V を実行できます。 これらの条件、A の L の交換子環 $L'$、つまり単に代数 End$_L$(V) は、積 $\prod_{i\in I}$ End$_{L_i}(V_i)$ で識別できます。
 
 L が End$_K(V)$ の最大値可換部分代数であるとします。 補題 3, a) までに、$L = L'$ があるので、$L'$ は可換であり、$i\in I$ ごとに dim$_{L_i}(V_i) = 1$ が得られます。従って、(i) は (iv) を意味します。
 
@@ -434,7 +434,7 @@ b) B 含む $B'$ とし、B から A までの$g$ を K-代数準同型としま
 
 L を A の最大値可換部分代数とします。 VIII、p. 261、L の補題 3 は、A の交換子環 $L'$ に等しい。B 含む L の場合、その交換子環 $B'$ は $L'$ に含まれるため、B に含まれる。
 
-逆に、Bに$B'$が含まれているとします。 すると、$B'$はBの中心で、半単純可換代数(VIII、p. 137、命題2)となります。 系 1 までに、含む $B'$ の最大値半単純可換部分代数 L が存在します。 The commutant of L is L (VIII, p. 261, Lemma 3, a)), and that of $B'$ is equal to B (VIII, p. 259, Theorem 5). したがって、関係 $L\supset B'$ は $L\subset B$ を意味します。 私たちは a) を証明しました。
+逆に、Bに$B'$が含まれているとします。すると、$B'$はBの中心で、半単純可換代数(VIII, p. 137, 命題 2)となります。 系 1 までに、含む $B'$ の最大値半単純可換部分代数 L が存在します。 L の交換子環は L (VIII, p. 261, 補題 3, a)) であり、$B'$ のそれは B (VIII, p. 259, 定理 5) に等しい。したがって、関係 $L\supset B'$ は $L\subset B$ を意味します。私たちは a) を証明しました。
 
 b)を証明しましょう。 a)によって存在する、Bに含まれるAの最大値半単純可換部分代数LをB含む$B'$、選ぶとする。 BからAまでの$g$を準同型とします。VIII、p. 262の3つ命題により、等式$[A : K] = [L : K]^2$が得られます。 VIII, p. 263の系により、Lに$g$を持つ一致するであるAの内部自己同型$\theta_1$が存在します。 $f$がBの標準単射をAにすると、$B'$はLに含まれるため、準同型$g$と$\theta_1\circ f$はBの制限から中心$B'$と同じになります。 VIII, p. 256 の定理 2 により、$g=\theta \circ f$ となる A の内部自己同型 $\theta$ が存在します。他には語、$\theta$、拡大する、$g$。
 
@@ -446,7 +446,7 @@ $i\not=j ,\sum_{i\in I}\varepsilon_i= 1$の場合は$\varepsilon^2_i=\varepsilon
 
 I の $i$ ごとに集合 $V_i=\varepsilon_i(V)$。この場合、$(V_i)_{i\in I}$ は、直和 V (II, §1, No. 8、p. 209、命題 12) を含む V の非零線形部分空間の族になります。 $u$ を V の自己準同型とします。次に、$u$ 属するから L は、$i\in I$ ごとに、$x\in V_i$ ごとに $u(x) =\lambda_ix$ となるような K の元 $\lambda_i$ が存在する場合に限ります。
 
-逆に、V が非零線形部分空間の族 $(V_i)_{i\in I}$ の直和であるとします。 $K^I$ の任意の元 $\boldsymbol{\lambda }= (\lambda_i)_{i\in I}$ については、$x\in V_i$ に対して $u_{\boldsymbol{\lambda }}(x) =\lambda_ix$ となるように、D-ベクトル空間 V の $u_{\boldsymbol{\lambda }}$ 自己準同型で表します。 The set L of endomorphisms $u_{\boldsymbol{\lambda }}$ for $\boldsymbol{\lambda }\in K^I$ is a diagonalizable subalgebra of End$_D(V)$ having the family $(\varepsilon_i)_{i\in I}$ as basis, where $\varepsilon_i$ is the projector with image $V_i$ and kernel $\sum_{j\not=i}V_j$. L は、直和分解 $V =\oplus_{i\in I}V_i$ に関連付けられた End$_D(V)$ の対角化可能部分代数であると言います。 [L : K] = カード(I) $\leqslant$ dim$_D(V)$ があります。
+逆に、V が非零線形部分空間の族 $(V_i)_{i\in I}$ の直和であるとします。 $K^I$ の任意の元 $\boldsymbol{\lambda }= (\lambda_i)_{i\in I}$ については、$x\in V_i$ に対して $u_{\boldsymbol{\lambda }}(x) =\lambda_ix$ となるように、D-ベクトル空間 V の $u_{\boldsymbol{\lambda }}$ 自己準同型で表します。 $\boldsymbol{\lambda }\in K^I$ の準同型性 $u_{\boldsymbol{\lambda }}$ の集合 L は、族 $(\varepsilon_i)_{i\in I}$ を基底とする End$_D(V)$ の対角化可能な部分代数であり、ここで $\varepsilon_i$ は画像 $V_i$ とカーネル $\sum_{j\not=i}V_j$ を持つプロジェクターです。 L は、直和分解 $V =\oplus_{i\in I}V_i$ に関連付けられた End$_D(V)$ の対角化可能部分代数であると言います。 [L : K] = カード(I) $\leqslant$ dim$_D(V)$ があります。
 
 #### 命題 6 {#alg-viii-s14-prop-6 .statement tag=00H9}
 
@@ -460,7 +460,7 @@ b) 代数 L は、D = K で、すべての $V_i$ が K を超える次元 1 を�
 
 [L : K] = カード(I) = 暗$_D(V)$,
 
-従って、L は End$_D(V)$ の対角化可能部分代数の中で最大です。 逆の場合、$_D(V_j)\geqslant 2$ が薄くなるような添字 $j\in I$ が存在します。 選ぶ 2 つの非零リニア部分空間 $V'_j$ と $V_j$ の $V''_j$ と直和 $V_j$。 The diagonalizable subalgebra of End$_D(V)$ associated with the direct sum decomposition $V = (\oplus_{i\in I-\{j\}}V_i)\oplus V'_j\oplus V''_j$ contains L and is not equal to L; assertion a) follows.
+従って、LはEnd$_D(V)$の対角化可能部分代数の中で最大です。逆の場合、$_D(V_j)\geqslant 2$が薄くなるような添字$j\in I$が存在します。 選ぶ 2 つの非零リニア部分空間 $V'_j$ と $V_j$ の $V''_j$ と直和 $V_j$。 End$_D(V)$ の対角化可能部分代数は直和分解 $V = (\oplus_{i\in I-\{j\}}V_i)\oplus V'_j\oplus V''_j$ 含む L に関連付けられており、L と等しくありません。 主張 a) が続きます。
 
 End$_D(V)$のLの交換子環$L'$は、形$(x_i)\mapsto (u_i(x_i))$の自己準同型と、$(u_i)\in \prod_{i\in I}$End$_D(V_i)$で構成されています。 代数 L は、$L = L'$ (VIII, p. 261, 補題 3, a)) がある場合に限り、End$_D(V)$ の最大可換部分代数です。従って、この関係は、「$i\in$ I ごとに終了$_D(V_i) = K$」に相当します。 主張 b) が続きます。
 
@@ -490,7 +490,7 @@ A を有限次数の中心単純K-代数および A の L 部分代数としま�
 
 性質 (ii) が成り立つ場合、$L_{(K')}$ は $A_{(K')}$ (命題 6) の最大可換部分代数であり、対角化可能です。 K-代数 L はエタール (V, §6, No. 3, p. 28, 定義 1) であり、A (VIII, p. 261, 補題 3, b)) の最大値可換部分代数です。 (ii) が (i) を意味することを証明しました。
 
-性質 (i) が成り立つとします。 L は K 上のエタールなので、命題 7 により、$K_1$-代数 $L_{(K_1)}$ が対角化できるように、有限次数の K のガロア拡大 $K_1$ が存在します。 The algebra A is central simple; by (VIII, p. 252, Theorem 1), there exist a Galois extension $K_2$, a vector space V of finite dimension $n$ over $K_2$, and an isomorphism $\theta$ from $A_{(K_2)}$ to End$_{K_2}(V)$. V、p. 55 の命題 1 までに、$K_1= K_2$ と仮定できます。 命題 4、b) VIII、p. 264、補題 3、b) VIII により、p. 261$, L_{(K')}$ は $A_{(K')}$ の最大値可換部分代数であるため、$\theta (L_{(K')})$ は最大値です可換部分代数の終わり$_{K'}(V')$。 Let us apply Proposition 6 to the diagonalizable algebra $\theta (L_{(K')}):$ there exists a basis $(e_1, . . . , e_n)$ of $V'$ over $K'$ such that $\theta (L_{(K')})$ consists of the endomorphisms of $V'$ with diagonal matrix with respect to this basis. したがって、(i) は (iii) を意味します。
+性質 (i) が成り立つとします。 L は K 上のエタールなので、命題 7 により、$K_1$-代数 $L_{(K_1)}$ が対角化できるように、有限次数の K のガロア拡大 $K_1$ が存在します。 代数 A は中心単純です。 (VIII, p. 252、定理 1) により、ガロア拡張 $K_2$、$K_2$ 上の有限次元 $n$ のベクトル空間 V、および $A_{(K_2)}$ から End$_{K_2}(V)$ までの同型写像 $\theta$ が存在します。 V、p. 55 の命題 1 までに、$K_1= K_2$ と仮定できます。 命題 4、b) VIII、p. 264、補題 3、b) VIII により、p. 261$, L_{(K')}$ は $A_{(K')}$ の最大値可換部分代数であるため、$\theta (L_{(K')})$ は最大値です可換部分代数の終わり$_{K'}(V')$。 命題 6 を対角化可能代数 $\theta (L_{(K')}):$ に適用してみます。$K'$ 上に $V'$ の基底 $(e_1, . . . , e_n)$ が存在し、$\theta (L_{(K')})$ はこの基底に対する対角行列を持つ $V'$ の準同型写像で構成されます。 したがって、(i) は (iii) を意味します。
 
 ### 練習問題 {#alg-viii-s14-exercises}
 

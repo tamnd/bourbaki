@@ -41,23 +41,23 @@ subsections:
       pdf_page: 25
 statements: 36
 exercises: 9
-content_sha256: 1524cd6ed82e7d9e73cf332a49e323518fea9abac72b09c16f5f0d9abdac2366
+content_sha256: 2ab7d75e739ef6373251bce04e8578d335d656597c67903c491159c26ca6a54f
 translated_from: content/en/fvr/I/01_s1_first_derivative.md
 translation_method: google
 source_content_sha256: 5dea356d12e98a054923f53371a9f84b313b2a5f5dd6646107d466573ef4a73f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6ffc092b7c9fcf8c664ef94e0e852d9a7cb1bc8299d603ef3cd932375b785d9b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。一次導関数
 
 はじめに述べたように、今回の章と次回では、実数体 $\mathbf{R}$ の部分集合で定義される写像の微小な性質を研究し、それらの値を *ハウスドルフ トポロジカルベクトル空間* E 上の体で取り上げます。 $\mathbf{R}$;簡潔にするために、そのような写像は実数変数 * の *ベクトル写像であると言いましょう。最も重要なケースは、$E = \mathbf{R}$ (実数変数の実数値写像) の場合です。 $E = \mathbf{R}^n$のとき、E簡約するの値とベクトル写像を$n$有限実数写像を同時に考慮します。
 
-Many of the definitions and properties stated in chapter I extend to functions which are defined on a subset of the field $\mathbf{C}$ of complex numbers and take their values in a topological vector space over $\mathbf{C}$ (vector functions of a complex variable). これらの定義とプロパティ拡大するから写像までは、任意の可換 *位相体* K の部分集合で定義され、それらの値を K 上の位相位相ベクトル空間に取ります。
+定義と、章 I 拡大するから写像に記載されているプロパティの多くは、体の部分集合 $\mathbf{C}$ 複素数で定義され、それらの値をトポロジカルベクトル空間で引き継ぎます。 $\mathbf{C}$ (複素変数のベクトル写像)。 これらの定義とプロパティ拡大するから写像までは、任意の可換 *位相体* K の部分集合で定義され、それらの値を K 上の位相位相ベクトル空間に取ります。
 
 これらの一般化を移行で示します (特に I、p. 10、*注意 2* を参照)。特に複素変数の写像の場合を強調します。これらは実数変数の写像とともに最も重要であり、後の本でさらに詳しく検討します。
 
@@ -153,7 +153,7 @@ $f = (f_i)_{1 \leq i \leq n}$ を $\mathbf{R}^n$ の値を含む写像とし、�
 
 #### 例 2 {#fvr-i-s1-n2-exa-2 .statement tag=0836}
 
-In Kinematics, if $f(t)$ is the position of a moving point $M$ at time $t$, if $g(t)$ is the position at the same instant of the projection $M'$ of $M$ onto a plane $P$ (resp. a line $D$) with kernel a line (resp. a plane) not parallel to $P$ (resp. $D$), then $g$ is the composition of the projection $u$ of $\mathbf{R}^3$ onto $P$ (resp. $D$) and of $f$; since $u$ is a (continuous) linear mapping one sees that the projection of the velocity of a moving point onto a plane (resp. a line) is equal to the velocity of the projection of the moving point onto the plane (resp. line).*
+運動学では、$f(t)$ が時間 $t$ における移動点 $M$ の位置である場合、$g(t)$ がカーネルを使用して$M$ を平面$P$ (または線$D$) に投影した$M'$ の同じ瞬間の位置である場合、線 (または平面) ではありません。 $P$ (それぞれ$D$) に平行な場合、$g$ は、$\mathbf{R}^3$ を$P$ (それぞれ$D$) と$f$ に投影した$u$ の合成です。 $u$ は (連続) 線形マッピングであるため、移動点の平面 (それぞれの線) への投影の速度は、移動点の平面 (それぞれの線) への投影の速度に等しいことがわかります。*
 
 #### 例 3 {#fvr-i-s1-n2-exa-3 .statement tag=0837}
 
@@ -257,11 +257,11 @@ $E$ が $\mathbf{R}$ 上のトポロジー 代数 (cf. 導入) である場合�
 
 #### 例 5 {#fvr-i-s1-n3-exa-5 .statement tag=083D}
 
-The determinant $\det(\mathbf{x}_1, \mathbf{x}_2, \ldots, \mathbf{x}_n)$ of $n$ vectors $\mathbf{x}_i = (x_{ij})_{1 \leq i \leq n}$ from the space $\mathbf{R}^n$ (Alg., III, p. 522) being a (continuous) multilinear function of the $\mathbf{x}_i$, one sees that if the $n^2$ real functions $f_{ij}$ are differentiable at $x_0$, then their determinant $g(x) = \det(f_{ij}(x))$ has a derivative equal to
+$n$ ベクトル $\mathbf{x}_i = (x_{ij})_{1 \leq i \leq n}$ の行列式 $\det(\mathbf{x}_1, \mathbf{x}_2, \ldots, \mathbf{x}_n)$ は空間 $\mathbf{R}^n$ (Alg., III, p. 522) から$\mathbf{x}_i$ の (連続) 多線形関数であり、$n^2$ 実数関数 $f_{ij}$ が$x_0$ で微分可能である場合、その行列式 $g(x) = \det(f_{ij}(x))$ は次と等しい導関数を持ちます。
 $$
 \sum_{i=1}^n \left[ \mathbf{f}_1(x_0), \ldots, \mathbf{f}_{i-1}(x_0), \mathbf{f}_i'(x_0), \mathbf{f}_{i+1}(x_0), \ldots, \mathbf{f}_n(x_0) \right]
 $$
-at $x_0$, where $\mathbf{f}_i(x) = (f_{ij}(x))_{1 \leq j \leq n}$; in other words, one obtains the derivative of a determinant of order $n$ by taking the sum of the $n$ determinants formed by replacing, for each $i$, the terms of the $i^{th}$ column by their derivatives.
+$x_0$、どこで$\mathbf{f}_i(x) = (f_{ij}(x))_{1 \leq j \leq n}$;言い換えれば、各 $i$ について、$i^{th}$ 列の項を導関数で置き換えることによって形成された $n$ 行列式の和を取ることによって、次数 $n$ の行列式の導関数を取得します。
 
 #### 注意 {#fvr-i-s1-n3-rem-1 .statement tag=083E}
 
@@ -287,11 +287,11 @@ $$
 $$
 したがって、命題は、$y_0$の近傍における$y^{-1}$の連続性と、$E \times E$における$xy$の連続性から生じます。
 
-$^2$ Recall from (*Alg.*, I, p. 15) that an element $z \in E$ is said to be *invertible* if there exists an element of $E$, denoted by $z^{-1}$, such that $zz^{-1} = z^{-1}z = e$ (e being the unit element of $E$).
+$^2$ (*Alg.*, I, p. 15) から、$z^{-1}$ で示される $E$ の要素が存在し、$zz^{-1} = z^{-1}z = e$ (e は $E$ の単位要素である) になる場合、要素 $z \in E$ は *反転可能*であると言われることを思い出してください。
 
 #### 例 1 {#fvr-i-s1-n4-exa-1 .statement tag=083G}
 
-The most important particular case is that where E is one of the fields $\mathbf{R}$ or $\mathbf{C}$: if $f$ is a function with real or complex values, differentiable at the point $x_0$, and such that $f(x_0) \neq 0$, then $1/f$ has derivative equal to $-f'(x_0)/(f(x_0))^2$ at $x_0$.
+最も重要な特別なケースは、E がフィールド $\mathbf{R}$ または $\mathbf{C}$ の 1 つである場合です。$f$ が実数値または複素数値を持つ関数で、点 $x_0$ で微分可能であり、$f(x_0) \neq 0$ である場合、$1/f$ は$x_0$ で$-f'(x_0)/(f(x_0))^2$ に等しい導関数を持ちます。
 
 #### 例 2 {#fvr-i-s1-n4-exa-2 .statement tag=083H}
 
@@ -347,7 +347,7 @@ $^3$ $f$ が $\mathbf{R}$ の部分集合への $I$ の同型であるために�
 
 実数変数の *実数値* 写像を扱う場合、前述の定義と命題はいくつかの点で拡張される可能性があります。
 
-そもそも、$f$ が区間 $I \subset \mathbf{R}$ で定義され、点 $x_0 \in I$ でI に対して連続する写像である場合、$x$ がI に留まりながら$x_0$ になる傾向があり、 $\neq x_0$、$\frac{f(x) - f(x_0)}{x - x_0}$ は $+\infty$ または $-\infty$ に等しい極限を持ちます。次に、$f$ は $x_0$ で微分可能であり、そこに導関数 $+\infty$ (それぞれ $-\infty$) があると言います。 写像 $f$ が I の点 $x$ ごとに導関数 $f'(x)$ (有限または無限) を持つ場合、 写像 $f'$ ($\overline{\mathbf{R}}$ に値が含まれる) が再び導関数と呼ばれます。 $f$ の写像 (または単に派生)。右導関数と左導関数の定義も同様に一般化します。
+そもそも、$f$ が区間 $I \subset \mathbf{R}$ で定義され、I に対して点 $x_0 \in I$ で連続する写像である場合、$x$ が I に留まりながら$x_0$ になる傾向があり、 $\neq x_0$、$\frac{f(x) - f(x_0)}{x - x_0}$ は $+\infty$ または $-\infty$ に等しい極限を持ちます。次に、$f$ は $x_0$ で微分可能であり、そこに導関数 $+\infty$ (それぞれ $-\infty$) があると言います。 写像 $f$ が I の点 $x$ ごとに導関数 $f'(x)$ (有限または無限) を持つ場合、 写像 $f'$ ($\overline{\mathbf{R}}$ に値が含まれる) が再び導関数と呼ばれます。 $f$ の写像 (または単に派生)。右導関数と左導関数の定義を同様に一般化します。
 
 #### 例 {#fvr-i-s1-n7-exa-1 .statement tag=083N}
 
@@ -355,7 +355,7 @@ $^3$ $f$ が $\mathbf{R}$ の部分集合への $I$ の同型であるために�
 
 微分可能実数写像の和、積の導関数、および微分可能実数写像の逆導関数 (提案 1、3、および 4)、および写像の (実数値) 合成の導関数 (提案 5) の公式は、次の場合にも有効です。これらの式で発生するすべての式が意味をなす限り、発生する導関数は無限です (*Gen Top.*、IV、p. 345–346)。実際、プロップの場合。 6 $f$ は真に増加する (それぞれ真に減少する) で、I で連続すると仮定します。そして、$f'(x_0) = 0$ の場合、逆数写像 $g$ は、次の時点で $+\infty$ (それぞれ $-\infty$) に等しい導関数を持ちます。 点 $y_0 = f(x_0)$; $f'(x_0) = +\infty$ (それぞれ $-\infty$) の場合、$g$ の導関数は 0 になります。右導関数と左導関数についても同様の結果が得られますが、これについては読者の判断に任せます。
 
-C を、点 $(x, f(x))$ によって形成される平面 $\mathbf{R}^2$ の有限実数写像 $f$、部分集合のグラフまたは表現曲線とします。ここで、$x$ は $f$ が定義される集合を通過します。 写像 $f$ が点 $x_0 \in I$ に有限右導関数を持つ場合、C の点 $M_{x_0} = (x_0, f(x_0))$ を原点とし、方向数 $(1, f'_d(x_0))$ をもつ半線を曲線の右半接線と呼びます。 C 点 $M_{x_0}$; $f'_d(x_0) = +\infty$ (それぞれ $f'_d(x_0) = -\infty$) の場合、原点 $M_{x_0}$ と方向数 $(0, 1)$ (それぞれ $(0, -1)$) の半直線に同じ用語を使用します。 同様に、$f'_g(x_0)$ が存在する場合、$M_{x_0}$ における左半接線 1 つ定義するを作成します。 With these definitions one can verify quickly that the angle which the right (resp. left) half-tangent makes with the abscissa is the limit of the angle made by this axis with the half-line originating at $M_{x_0}$ and passing through the point $M_1 = (x, f(x))$ of C, as $x$ tends to $x_0$ while remaining $> x_0$ (resp. $< x_0$).
+C を、点 $(x, f(x))$ によって形成される平面 $\mathbf{R}^2$ の有限実数写像 $f$、部分集合のグラフまたは表現曲線とします。ここで、$x$ は集合を通過し、$f$ が定義されます。 写像 $f$ が点 $x_0 \in I$ に有限の右導関数を持つ場合、C の点 $M_{x_0} = (x_0, f(x_0))$ を原点とし、方向数 $(1, f'_d(x_0))$ をもつ半線を右半接線と呼びます。 点 $M_{x_0}$ の曲線 C; $f'_d(x_0) = +\infty$ (それぞれ $f'_d(x_0) = -\infty$) の場合、原点 $M_{x_0}$ と方向数 $(0, 1)$ (それぞれ $(0, -1)$) の半直線に同じ用語を使用します。同様に、$f'_g(x_0)$ が存在する場合、$M_{x_0}$ での左半接線定義するを 1 つ作成します。これらの定義を使用すると、右（左）半接線が横軸となす角度が、Cの$M_{x_0}$と移行から点$M_1 = (x, f(x))$を通る半線とこの軸がなす角度の極限であることがすぐに確認できます。 $x$ は $> x_0$ (それぞれ $< x_0$) のままですが、$x_0$ になる傾向があります。
 
 また、右 (それぞれ左) 半接線は、$M_{x_0}$ 移行から $M_1$ までの半線の極限であり、同じ原点を持つ半線の集合に商空間位相 $C^*/\mathbf{R}_+^*$ を与えたものであるとも言えます。 (将軍トップ、VIII、p. 107)。
 

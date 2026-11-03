@@ -58,16 +58,16 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 1faf856a7d9fed59e23319c65eb6ed3d6c77e0179c1d0c1e634665106bd80d0f
+content_sha256: 02884acabd4dc9b244fb4f111baa433fbcdaabd8a1d8a02c0fe40bebff5fe282
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
 translation_method: google
 source_content_sha256: ed1a3cc64fa97276bda6bff686f4a827b57d0250dbe6c9cb5ce9dddcfe06ceb5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5df048becd460ac08b9199de8a89e7ceb91b1081d5819c7a51bc7a958a804c8b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 10。 ガロア拡大
@@ -89,7 +89,7 @@ g(X) = \prod_{y \in A} (X - y).
 $$
 A の自己同型 $a \in \Gamma$ 誘導する置換ごとに、多項式 $g \in N[X]$ の係数が不変のままになります。したがって、$g \in K[X]$ があり、$g(x) = 0$ 以降、多項式 g は、$K[X]$ (V, p. 16, Th. 1) の $f$ の倍数になります。さらに、$f$ と g はモニックであり、g 割る $f$ (IV, p. 16、提案 5)。したがって、$f = g$ が得られます。これは、$K$ 上の$x$ の最小多項式$f$ は、次数 1 の別個の多項式の$N[X]$ の積であることを意味します。
 
-c) ⇒ a): x を K に対する所属ではなく、N の元とする。 K 含む N の Ω 代数閉包をサブエクステンション (V、p. 23、Th. 2) として表します。 Let f be the minimal polynomial of x over K, which is of degree ≥ 2 by hypothesis and let A be the set of roots of $f(X)$ in N. 条件 c) が成り立つ場合、$f(X) = \prod_{y \in A} (X - y)$ があり、したがって (V, p. 53, Cor. 1) A は Ω で表した x の共役の集合です。 f は次数 ≥ 2 であるため、A には元 $y \neq x$ が存在し、したがって $u(x) = y$ となる Ω の K 自己同型 u が存在します。 現在、仮定 c) では、K の拡大 N は準ガロアであるため、$u(N) = N$ (V, p. 54, Cor. 1);したがって、u 誘導するは $\sigma(x) = y \neq x$ となる N の K 自己同型 a であるため、K は Γ の不変量の体になります。
+c) ⇒ a): x を K に対する所属ではなく、N の元とする。 K 含む N の Ω 代数閉包をサブエクステンション (V、p. 23、Th. 2) として表します。 f を K 上の x の最小多項式とし、仮説によれば次数 ≥ 2 であり、A を N の $f(X)$ の根の集合とします。 条件 c) が成り立つ場合、$f(X) = \prod_{y \in A} (X - y)$ があり、したがって (V, p. 53, Cor. 1) A は Ω で表した x の共役の集合です。 f は次数 ≥ 2 であるため、A には元 $y \neq x$ が存在し、したがって $u(x) = y$ となる Ω の K 自己同型 u が存在します。 現在、仮定 c) では、K の拡大 N は準ガロアであるため、$u(N) = N$ (V, p. 54, Cor. 1);したがって、u 誘導するは $\sigma(x) = y \neq x$ となる N の K 自己同型 a であるため、K は Γ の不変量の体になります。
 
 #### 定義 1 {#alg-v-s10-def-1 .statement tag=06MC}
 
@@ -199,7 +199,7 @@ $\varepsilon$ を $\Gamma$ の中立値元とし、$A'$ を $N$ の部分拡張 
 
 $\Gamma$ のすべての元 $\sigma$ には、近傍からなるの基底があり、集合 $U_E(\sigma)$ が開いているため、$\Gamma$ は完全に切断されています (Gen. トップ。、I、p. 111）。 $\{\sigma\} = \bigcap_{E \in \Lambda} U_E(\sigma)$ があるため、$\Gamma$ は分離されます。 $x$ の共役 $\sigma(x)$ のそれぞれの $x \in N$ 集合について、$\sigma$ が $\Gamma$ にわたる範囲であるとき、$x$ は$K$ で代数的であるため、*有限* です (V、p. Cor. 1)。したがって、$N^N$の因子空間上の$\Gamma$のすべての射影は有限集合であり、これは$N^N$では$\Gamma$が比較的コンパクトであることを示しています。 トップ。、I、p. 88）。 $\Gamma$ が $N^N$ で閉じられていることを示すことが残っています。 ここで、$u$ が $N^N$ の $\Gamma$ の閉包にある場合、点 $(x, y)$ の $N$ の各対に対して、$u(x) = \sigma(x), \ u(y) = \sigma(y), \ u(x+y) = \sigma(x+y), \ u(xy) = \sigma(xy)$、よって $u(x+y) = u(x) + u(y)$ を含む $a \in \Gamma$ が存在します。 $u(xy) = u(x)u(y)$。 同じ推論により、すべての $x \in K$ に対して $u(x) = x$ が得られるため、$u$ は $N$ から $N$ への $K$ 準同型写像になります。 $N$ は $K$ に対する代数であるため、$u$ は $N$ (V, p. 52、提案 1) の $K$ 自己同型であるため、$u \in T$ です。
 
-$N$ を $K$ のガロア拡大と $(N_i)_{i \in I}$ 増加するのサブエクステンションの$N$ の有向ファミリーとします。 $N_i$ がすべての $i \in I$ と $N = \bigcup_{i \in I} N_i$ について $K$ に対するガロアであるとします。 For each $i \in I$ denote by $\Gamma_i$ the Galois group of $N_i$ over $K$; for $i \leq j$ in $I$ we have $N_i \subset N_j$ and the restriction homomorphism $\varphi_{ij}$ of $\Gamma_j$ into $\Gamma_i$ is defined. それは連続であるため、族 $(\Gamma_i, \varphi_{ij})$ はトポロジー 群の逆系です。 さらに、各 $i \in I$ を $\mathrm{Gal}(N/K)$ の $\lambda_i$ 制限準同型を $\mathrm{Gal}(N_i/K) = \Gamma_i$ に表します。これは連続であり、$i \leq j$ には $\lambda_i = \varphi_{ij} \circ \lambda_j$ があるため、家族 $(\lambda_i)_{i \in I}$ 定義するは、$\mathrm{Gal}(N/K)$ の準同型 $\Lambda$ が $\varprojlim \Gamma_i$ に連続します。
+$N$ を $K$ のガロア拡大と $(N_i)_{i \in I}$ 増加するのサブエクステンションの$N$ の有向ファミリーとします。 $N_i$ がすべての $i \in I$ と $N = \bigcup_{i \in I} N_i$ について $K$ に対するガロアであるとします。 それぞれの $i \in I$ は、$K$ 上の $N_i$ のガロア群を $\Gamma_i$ で表します。 $I$ の $i \leq j$ に対して $N_i \subset N_j$ があり、 $\Gamma_j$ から $\Gamma_i$ への制限準同型性 $\varphi_{ij}$ が定義されます。 それは連続であるため、族 $(\Gamma_i, \varphi_{ij})$ はトポロジー 群の逆系です。 さらに、各 $i \in I$ を $\mathrm{Gal}(N/K)$ の $\lambda_i$ 制限準同型を $\mathrm{Gal}(N_i/K) = \Gamma_i$ に表します。これは連続であり、$i \leq j$ には $\lambda_i = \varphi_{ij} \circ \lambda_j$ があるため、家族 $(\lambda_i)_{i \in I}$ 定義するは、$\mathrm{Gal}(N/K)$ の準同型 $\Lambda$ が $\varprojlim \Gamma_i$ に連続します。
 
 #### 命題 5 {#alg-v-s10-prop-5 .statement tag=06MO}
 
@@ -236,7 +236,7 @@ $\Gamma$の$\sigma, \tau$、$V$の$x, y$、$N$の$\lambda$。
 
 — $V_0$ を $K$ 上のベクトル空間とし、$W$ を $N \otimes_K V_0$ のサブ N 空間ベクトルとします。 $W$ がすべての $\sigma \in \Gamma$ に対して写像 $\sigma \otimes \mathrm{Id}_{V_0}$ で安定しているとします。 $W_0$ を $x \in V_0$ の集合とし、$1 \otimes x \in W$ とします。この場合、$W_0$ は、$W = N \otimes_K W_0$ となる、$V_0$ の一意のベクトルサブ K 空間です。
 
-It suffices to remark that the set of elements of the form $1 \otimes x \ (x \in V_0)$ is a K-structure on $N \otimes_K V_0$ for which we have $u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$ for $\sigma \in \Gamma$.
+形 $1 \otimes x \ (x \in V_0)$ の元の集合は $N \otimes_K V_0$ 上の K 構造であり、これに対して $\sigma \in \Gamma$ に対する $u_\sigma = \sigma \otimes \mathrm{Id}_{V_0}$ が存在することに注意するだけで十分です。
 
 #### 命題 7 {#alg-v-s10-prop-7 .statement tag=06MR}
 
@@ -298,7 +298,7 @@ FをKの拡大とFの部分拡張である$N$とし、$\Gamma$を$N$の自己同
 
 ### 5. *ガロアコホモロジー*
 
-Let $N$ be a field, $\Gamma$ a *finite* group of automorphisms of $N$ and K the field of invariants of $\Gamma$. すべての整数 $n \geqslant 1$ を、$N$ の係数とゼロ以外の行列式 (II; p. 349) を使用して、位数 $n$ の正方行列の $\mathbf{GL}(n, N)$ 群で表します。 $A = (a_{ij})$ に対するルール $\sigma(A) = (\sigma(a_{ij}))$ に従って、群 $\Gamma$ を群 $\mathbf{GL}(n, N)$ に作用させます。
+$N$ を体、$\Gamma$ を $N$ の自己同型の *有限* 群、および $\Gamma$ の不変量の K 体とします。 すべての整数 $n \geqslant 1$ を、$N$ の係数とゼロ以外の行列式 (II; p. 349) を使用して、位数 $n$ の正方行列の $\mathbf{GL}(n, N)$ 群で表します。 $A = (a_{ij})$ に対するルール $\sigma(A) = (\sigma(a_{ij}))$ に従って、群 $\Gamma$ を群 $\mathbf{GL}(n, N)$ に作用させます。
 
 #### 命題 9 {#alg-v-s10-prop-9 .statement tag=06MW}
 
@@ -366,7 +366,7 @@ $$
 
 これは b) を証明します。
 
-Finally, c) follows from Th. 2 (V, p. 65) which proves the existence of a family $(a_\sigma)_{\sigma \in \Gamma}$ such that $u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ (for all $x \in N$) and from Dedekind's theorem (V, p. 27, Cor. 2) which proves the uniqueness of $(a_\sigma)_{\sigma \in \Gamma}$.
+最後に、c) は Th から導かれます。 2 (V、p. 65) は、$u(x) = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x)$ (すべての $x \in N$) のような家族 $(a_\sigma)_{\sigma \in \Gamma}$ の存在を証明し、デデキントの定理 (V、p. 27、Cor. 2) から、$(a_\sigma)_{\sigma \in \Gamma}$ の一意性を証明します。
 
 ### 7. ガロア理論の基本定理
 
@@ -382,7 +382,7 @@ E を N の部分拡張とします。その場合、N は E のガロア拡大�
 
 $x \in N$ にしましょう。 $E[X]$ における E 割る上の x の最小多項式 f K 上の x の最小多項式 $g$ (V, p. 17, Cor. 2)。 N は K 上のガロアであるため、多項式 g は次数 1 の別個の因子の $N[X]$ で積です。したがって、同じことが f にも当てはまり、N は E 上のガロアになります。
 
-$\Gamma$ を K 上の N のガロア群とし、A を E 上の N のガロア群とします。 定義により、A はすべての $x \in E$ に対して $\sigma(x) = x$ となるように、すべての $\sigma$ のうち $\Gamma$ からなるの部分群になります。 ここで、$\Gamma$ の各 $x \in E$ 写像 $\sigma \mapsto \sigma(x)$ を離散空間に変換すると、N は連続であるため、D は $\Gamma$ で閉じられます。 $\sigma \in \Gamma$ にしましょう。 N の $x_1, \ldots, x_n$ について、$U(x_1, \ldots, x_n)$ をすべての $\tau \in \Gamma$ の集合とし、$1 \leq i \leq n$ については $\tau(x_i) = \sigma(x_i)$ とします。置く
+$\Gamma$ を K 上の N のガロア群と、E 上の N の A とします。 定義により、A は $\Gamma$ の部分群 $\sigma$ のからなるとなり、すべての $x \in E$ について $\sigma(x) = x$ になります。さて、$\Gamma$ の各 $x \in E$ 写像 $\sigma \mapsto \sigma(x)$ を離散空間に変換すると、N は連続であるため、D は $\Gamma$ で閉じられます。 $\sigma \in \Gamma$ にしましょう。 N の $x_1, \ldots, x_n$ について、$U(x_1, \ldots, x_n)$ をすべての $\tau \in \Gamma$ の集合とし、$1 \leq i \leq n$ については $\tau(x_i) = \sigma(x_i)$ とします。置く
 
 $$
 V(x_1, \ldots, x_n) = U(x_1, \ldots, x_n) \cap \Delta.
@@ -396,7 +396,7 @@ B) 関係 $A = g(k(\Delta))$ ($A \in g$ の場合) は、以下のより正確�
 
 A を $\Gamma$ の部分群とします。 E を A の不変量の体とします。すると、E 上の N のガロア群は、$\Gamma$ の A の閉包になります。
 
-The Galois group of N over E is closed in $\Gamma$ (Lemma 1) and contains A, hence it contains the closure $\bar{\Delta}$ of A. $\sigma$ を N の E 自己同型とし、$x_1, \ldots, x_n$ を N に置きます。 Since N is Galois over E (Lemma 1) there exist (V, p. 57, Prop. 2) a subextension $N_0$ of N, Galois of finite degree over E and containing $x_1, \ldots, x_n$. $A_0$ を $\mathrm{Gal}(N/E)$ の制限準同型から $\mathrm{Gal}(N_0/E)$ の $\mathrm{Gal}(N/E)$ の部分群 A の像とします。 $[N_0 : E]$ は有限であるため、デデキントの定理 (V、p. 27、コリント 2) は、$\mathrm{Gal}(N_0/E)$ が有限であることを示しています。 したがって、$A_0$ は有限であり、E は $A_0$ の不変量の体であるため、$\Delta_0 =$ が得られます。
+E 上の N のガロア群は、$\Gamma$ (補題 1) と含む A で閉じられているため、A の含む閉包 $\bar{\Delta}$ になります。 $\sigma$ を N の E 自己同型とし、$x_1, \ldots, x_n$ を N に置きます。 N は E 上のガロアであるため (補題 1)、E 上の有限次数のガロアであり、$x_1, \ldots, x_n$ を含む N の部分拡張 $N_0$ が存在します (V、p. 57、提案 2)。 $A_0$ を $\mathrm{Gal}(N/E)$ の制限準同型から $\mathrm{Gal}(N_0/E)$ の $\mathrm{Gal}(N/E)$ の部分群 A の像とします。 $[N_0 : E]$ は有限であるため、デデキントの定理 (V、p. 27、コリント 2) は、$\mathrm{Gal}(N_0/E)$ が有限であることを示しています。 したがって、$A_0$ は有限であり、E は $A_0$ の不変量の体であるため、$\Delta_0 =$ が得られます。
 
 ガル(N_0/E) (V, p. 66, 木 3)。特に$\sigma$から$N_0$の$\Delta_0$含む制限です。したがって、$\sigma$と$\tau$が同じ制限から$N_0$、よって$\sigma(x_1) = \tau(x_1), \ldots, \sigma(x_n) = \tau(x_n)$を持つような$\tau \in A$が存在します。したがって、$\sigma$ は $\Gamma$ の $A$ の極限点であるため、$\mathrm{Gal}(N/E) \subset \overline{\Delta}$ となります。
 
@@ -408,7 +408,7 @@ The Galois group of N over E is closed in $\Gamma$ (Lemma 1) and contains A, hen
 
 #### 系 2 {#alg-v-s10-lem-2-cor-2 .statement tag=06N5}
 
-*$(E_i)_{i \in I}$ を N 含む K の部分体の家族とします。 $L = \bigcap_{i \in I} E_i$と$M = K\left( \bigcup_{i \in I} E_i \right)$を入れます。 Then g(L) is the smallest closed subgroup of containing $U_{i \in I} g(E_i)$ and we have $g(M) = \bigcap_{i \in I} g(E_i)$.*
+*$(E_i)_{i \in I}$ を N 含む K の部分体の家族とします。 $L = \bigcap_{i \in I} E_i$と$M = K\left( \bigcup_{i \in I} E_i \right)$を入れます。 すると g(L) は $U_{i \in I} g(E_i)$ を含む最小の閉じた部分群であり、$g(M) = \bigcap_{i \in I} g(E_i)$ が得られます。*
 
 最初の主張は Cor から続きます。 1、2 番目は明らかです。
 
@@ -462,7 +462,7 @@ a) によって、写像 $\sigma \mapsto (\varphi_1(\sigma), \varphi_2(\sigma))$
 
 ### 8. 基礎体中変更
 
-Let $N$ be a Galois extension of $K$ and $\Gamma$ the Galois group of $N$ over $K$; further let $N'$ be a Galois extension of $K'$ with Galois group $\Gamma'$. 同一視する $K$ (それぞれ $K'$) を $N$ (それぞれ $N'$) の像とします。 $u$を$K$の準同型を$K'$に、$v$を$N$の準同型を$N'$にするとします。その制限から$K$は$u$（cf.）に等しくなります。
+$N$ を $K$ のガロア拡大と $K$ の $N$ の $\Gamma$ ガロア群とします。さらに、$N'$ を $K'$ のガロア拡大とガロア群 $\Gamma'$ とします。 同一視する $K$ (それぞれ $K'$) を $N$ (それぞれ $N'$) の像とします。 $u$を$K$の準同型を$K'$に、$v$を$N$の準同型を$N'$にするとします。その制限から$K$は$u$（cf.）に等しくなります。
 
 図1）。 $\sigma \in \Gamma'$ にしましょう。 $u(K) \subset K'$ なので、$a$ は $N'$ の $u(K)$ 自己同型です。さらに、$v(N)$ は $u(K)$ のガロア拡大であるため、$a$ 誘導するは $v(N)$ (V, p. 55, 注意 1) の $u(K)$ 自己同型です。他の語では、$\sigma \in \Gamma'$ ごとに $\Gamma$ の一意元 $v^*(\sigma)$ が存在します。
 
@@ -500,17 +500,17 @@ $$
 v^* : \mathrm{Gal}(N'/K') \to \mathrm{Gal}(N/K) ,
 $$
 
-は、翻訳と呼ばれる位相的な群同型, ときどきです。 群 $\mathrm{Gal}(N'/K')$ はコンパクト、群 $\mathrm{Gal}(N/K)$ は分離、$v^*$ は連続です。それで十分です（Gen. トップ、I、p. 87、Cor. 2) $v^*$ が全単射であることを証明する。 Now every element $\sigma$ of the kernel of $v^*$ is an automorphism of $N'$ which induces the identity on $K'$ and on $v(N)$, hence $a = \epsilon$ because $N' = K'(v(N))$; it follows that $v^*$ is injective. さらに、$v^*$ の像は、$\mathrm{Gal}(N/K)$ のクローズド部分群 $A$ です。
+は、翻訳と呼ばれる位相的な群同型, ときどきです。 群 $\mathrm{Gal}(N'/K')$ はコンパクト、群 $\mathrm{Gal}(N/K)$ は分離、$v^*$ は連続です。それで十分です（Gen. トップ、I、p. 87、Cor. 2) $v^*$ が全単射であることを証明する。 ここで、$v^*$ のカーネルのすべての要素 $\sigma$ は、$K'$ と $v(N)$ に同一性を誘導する $N'$ の自己同型であり、したがって $N' = K'(v(N))$ であるため $a = \epsilon$ になります。したがって、$v^*$ は単射法であることがわかります。 さらに、$v^*$ の像は、$\mathrm{Gal}(N/K)$ のクローズド部分群 $A$ です。
 
 (Gen. Top., I, p. 81, *ibid.*) および $A$ の不変式の体は $v^{-1}(K') = K$ に等しい。したがって、$A = \mathrm{Gal}(N/K)$ (V, p. 67, Th. 4) があり、$v^*$ は全射です。
 
-一般的なケースは、合成までに前述のケースに帰着する可能性があります。まず、$K'(v(N))$ は、核の $N'$ $v^*$ の $A$ における不変式の体であることに注意します。 $A$ は $\mathrm{Gal}(N'/K')$ の正規の部分群であるため、$K'$ の拡大 $K'(v(N))$ はガロア (V、p. 68、Cor. 4) です。したがって、$v^*$ は準同型で構成されます
+一般的なケースは、合成によって前述のケースに帰着する可能性があります。まず、$K'(v(N))$ は、核の $N'$ $v^*$ の $A$ における不変式の体であることに注意します。 $A$ は $\mathrm{Gal}(N'/K')$ の通常の部分群であるため、$K'$ の拡大 $K'(v(N))$ はガロア (V、p. 68、Cor. 4) です。したがって、$v^*$ は準同型で構成されます
 
 $$
 \mathrm{Gal}(N'/K') \to \mathrm{Gal}(K'(u(N))/K') \xrightarrow{\psi} \mathrm{Gal}(N/v^{-1}(K')) \xrightarrow{j} \mathrm{Gal}(N/K);
 $$
 
-この数列 $\pi$ はトリプル $K' \subset K'(u(N)) \subset N'$ に関連付けられた制限準同型であり、$\psi$ は図式の中央の平方に関連付けられた翻訳同型 (図 2)、および $j$ はトリプルに関連付けられたインフレーション準同型です$K \subset v^{-1}(K') \subset N$。
+この数列 $\pi$ はトリプル $K' \subset K'(u(N)) \subset N'$ に関連付けられた制限準同型であり、$\psi$ は図式の中央の平方に関連付けられた翻訳同型 (図 2)、および $j$ はインフレーション準同型に関連付けられています。トリプル$K \subset v^{-1}(K') \subset N$。
 
 次の定理では、翻訳同型の構造についてさらに詳しく説明します。
 
@@ -520,11 +520,11 @@ $$
 
 #### 定理 5 {#alg-v-s10-thm-5 .statement tag=06NB}
 
-*$N'$ を 2 つのサブ拡張子 $K'$ と $N$ によって生成された $K$ の拡大とします。 $N$ が $K$ 上のガロアで、ガロア群 $\Gamma$ と $K' \cap N = K$ があるとします。 この場合、$K'$ の拡大 $N'$ はガロアであり、$K' \otimes_K N$ の $N'$ への標準準同型 $\varphi$ は同型です。 $\sigma \in \mathrm{Gal}(N/K)$ と $\sigma'$ を $\mathrm{Gal}(N'/K')$ の元とし、翻訳同型の下ではそれに対応するを加えます。そうすると $\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$ になります。*
+*$N'$ を 2 つのサブ拡張子 $K'$ と $N$ によって生成された $K$ の拡大とします。 $N$ が $K$ 上のガロアであり、ガロア群 $\Gamma$ と $K' \cap N = K$ があるとします。すると、$K'$の$N'$拡大はガロアであり、$K' \otimes_K N$の$N'$への標準準同型$\varphi$は同型になります。 $\sigma \in \mathrm{Gal}(N/K)$ と $\sigma'$ を $\mathrm{Gal}(N'/K')$ の元とし、これを翻訳同型で対応するとします。そうすると、$\sigma' \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes u)$ になります。*
 
-$N' = K'(N)$ があり、$N$ は代数的であり、$K$ に関して分離可能です。したがって (V, p. 42, 提案 10)、$K'$ の拡大 $N'$ は代数的で分離可能です。コル著V の 4、p. 54 拡大 $K'$ の $N'$ は準ガロアです。したがって、$K'$ の拡大 $N'$ はガロアです。 c) 上記の写像 $\sigma \mapsto \sigma|_N$ は、$\mathrm{Gal}(N/K)$ 上の $\mathrm{Gal}(N'/K')$ の準同型 $\lambda$ です。
+$N' = K'(N)$ があり、$N$ は代数的であり、$K$ で分離可能です。したがって (V, p. 42, 提案 10)、$K'$ の拡大 $N'$ は代数的で分離可能です。コル著V の 4、p. 54 拡大 $K'$ の $N'$ は準ガロアです。したがって、$K'$ の拡大 $N'$ はガロアです。 c) 上記の写像 $\sigma \mapsto \sigma|_N$ は、$\mathrm{Gal}(N/K)$ 上の $\mathrm{Gal}(N'/K')$ の準同型 $\lambda$ です。
 
-$N = K'[N]$ があるのは、$N$ が $K$ (V, p. 18, Cor. 1) に対して代数的であるため、$\varphi$ が全射であるからです。 $a$ 属するから $\mathrm{Gal}(N/K)$ の場合、
+$N = K'[N]$ があるのは、$N$ が $K$ (V, p. 18, Cor. 1) に対して代数的であるため、$\varphi$ が全射であるためです。 $a$ 属するから $\mathrm{Gal}(N/K)$ の場合、
 
 $$
 \lambda^{-1}(\sigma) \circ \varphi = \varphi \circ (\mathrm{Id}_{K'} \otimes \sigma).
@@ -542,13 +542,13 @@ $E = E' \cap N$を入れてから、$E' \supset K'(E)$を入れます。次に�
 
 #### 系 2 {#alg-v-s10-thm-5-cor-2 .statement tag=06ND}
 
-*$N$を$K$のガロア拡大とします。 Suppose that the Galois group $\Gamma$ of $N$ over $K$ is the direct product of two closed subgroups $\Gamma_1$ and $\Gamma_2$ and denote by $E_i$ the field of invariants of $\Gamma_i$ for $i = 1, 2$. すると、$E_1 \otimes_K E_2$ の $N$ への標準準同型は同型になります。*
+*$N$を$K$のガロア拡大とします。 $K$ 上の$N$ のガロア群 $\Gamma$ が 2 つの閉じた部分群 $\Gamma_1$ と $\Gamma_2$ の直接積であり、$i = 1, 2$ に対する $\Gamma_i$ の不変量体を $E_i$ で表すとします。 すると、$E_1 \otimes_K E_2$ の $N$ への標準準同型は同型になります。*
 
 Cor の $E_1 \cap E_2 = K$ と $N = K(E_1 \cup E_2)$ があります。 6 (V、p. 69) なので、定理を適用する 5 で十分です。
 
 #### 注意 {#alg-v-s10-n8-rem-1 .statement tag=06NE}
 
-$K$と$K'$を、$K$の2つの体と$u$準同型を$K'$にします。 $K_s$ (それぞれ $K'_s$) を $K$ (それぞれ $K'$) および $\Pi$ (それぞれ $\Pi'$) ガロア群の分離閉包 (V、p. 45、提案 14) とします。 $K_s$ が $K$ を超えます (それぞれ $K'_s$ が $K'$ を超えます)。 Since $K_s$ is a separable algebraic extension of $K$ and the extension $(K'_s, u)$ of $K$ is separably closed, there exists (V, p. 45, Cor.) a homomorphism $v$ of $K_s$ into $K'_s$ extending $u$. $v$ から $\Pi'$ から $\Pi$ までの連続した準同型 $v^*$ が得られます。 $v_1$ を $u$ の他の拡大とします。 $K_s$ は $K$ の準ガロア拡張であるため、$v_1 = v \circ a_s$ となるような $\Pi$ の元 $a_s$ が存在します。 私たちは結論する、すべての$\tau \in \Pi$に対して$v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0$です。
+$K$と$K'$を、$K$の2つの体と$u$準同型を$K'$にします。 $K_s$ (それぞれ $K'_s$) を $K$ (それぞれ $K'$) および $\Pi$ (それぞれ $\Pi'$) ガロア群の分離閉包 (V、p. 45、提案 14) とします。 $K_s$ が $K$ を超えます (それぞれ $K'_s$ が $K'$ を超えます)。 $K_s$ は $K$ の分離可能な代数拡張であり、$K$ の拡張 $(K'_s, u)$ は分離可能に閉じているため、$K_s$ を $K'_s$ に拡張する準同型性 $v$ (V, p. 45, Cor.) が存在します。 $u$。 $v$ から $\Pi'$ から $\Pi$ までの連続した準同型 $v^*$ が得られます。 $v_1$ を $u$ の他の拡大とします。 $K_s$ は $K$ の準ガロア拡張であるため、$v_1 = v \circ a_s$ となるような $\Pi$ の元 $a_s$ が存在します。 私たちは結論する、すべての$\tau \in \Pi$に対して$v_1^*(\tau) = \sigma_0^{-1} v^*(\tau) \sigma_0$です。
 
 ### 9. 通常の基底定理
 
@@ -576,7 +576,7 @@ $N$ by $x^\sigma = \sigma^{-1}(x)$ に、$\Gamma$ によって右側の定義す
 
 この主張のうち、証明を2つあげます。最初は次の補題を使用します。これは章 VIII (§ 2, No. 5) で証明されます。
 
-\* Lemma 3. — Let $A$ be a $K$-algebra, $M_1$ and $M_2$ two $A$-modules of finite rank over $K$ and suppose that there exists an extension $L$ of $K$ such that the modules $L \otimes_K M_1$ and $L \otimes_K M_2$ over the ring $L \otimes_K A$ are isomorphic. この場合、$A$ モジュール $M_1$ と $M_2$ は同型です。
+\* 補題 3. — $A$ を $K$-代数、$M_1$ および $M_2$ $K$ 上の有限階数の 2 つの $A$ 加群とし、次の拡大 $L$ が存在すると仮定します。 $K$ は、環 $L \otimes_K A$ 上の加群 $L \otimes_K M_1$ と $L \otimes_K M_2$ が同型です。この場合、$A$ 加群 $M_1$ と $M_2$ は同型です。
 
 $A = \mathbf{K}^{(\Gamma)}$、$M_1 = N$、$M_2 = A$、$L = N$の場合には補題 3を適用します。コルによって。 V、p. 64 の写像 $x \otimes y$ から $\sum x u^1(y) \otimes \sigma$ への $N \otimes_K N$ の $\varphi$ の $N \otimes_K \mathbf{K}^{(\Gamma)}$ への $K$ 同型写像が存在します。 $\varphi$ は $N \otimes_K \mathbf{K}^{(\Gamma)}$ モジュールの同型であるため、定理は補題 3 から続きます。
 
@@ -604,13 +604,13 @@ M を元の有限数 $x_1, ..., x_h$ によって生成される捩れ A-加群�
 
 どちらの場合も、$A$ は整域であり、$A$ のすべての理想が主です。 $A = \mathbf{Z}$ (それぞれ $A = K[X]$) のとき、素数数 (それぞれ $K[X]$ の既約モニック多項式の集合) の $\mathscr{P}$ 集合で表します。 $A$ の元 $a \neq 0$ ごとに、$A$ の可逆元 $u$ と、$a = u \prod_{p \in \mathscr{P}} p^{v_p(a)}$ と $u$ のような有限台、正の整数を含む家族 $(v_p(a))_{p \in \mathscr{P}}$ が存在します。 整数 $v_p(a)$ は一意に決定されます (I、p. 51 および IV、p. 13、提案 13)。
 
-Let $a_i$ be the annihilator of $x_i$, (for $1 \leq i \leq h$) and $a$ the annihilator of M; let $a_1, ..., a_h, a$ be non-zero elements of $A$ such that $a_i = Aa_i$, and $a = Aa$; since $a = a_1 \cap ... \cap a_h$, it follows from what has been said that
+$a_i$ を $x_i$ の消滅子、($1 \leq i \leq h$ の場合) および M の $a$ 消滅子とします。 $a_1, ..., a_h, a$ を $A$ の非ゼロ元とし、$a_i = Aa_i$ および $a = Aa$ とします。 $a = a_1 \cap ... \cap a_h$ 以来、これまで言われてきたことから次のことがわかります。
 
 $$
 v_p(a) = \sup_{1 \leq i \leq h} v_p(a_i) \quad \text{for all } p \in \mathscr{P}.
 $$
 
-形 $up_1^{n(1)} ... p_r^{n(r)}$ に $a$ を書き、$A$ の $\mathscr{P}$、$n(1) > 0, ..., n(r) > 0$、$u$ 可逆元で$p_1, ..., p_r$ を区別します。 Let $j = 1, ..., r$; by (10) there exists an integer $c(j)$ such that $1 \leq c(j) \leq h$ and $v_{p_j}(a_{c(j)}) = n(j)$; there exists $b_j$ in $A$ with $a_{c(j)} = p_j^{n(j)} b_j$ and the element $y_j = b_j x_{c(j)}$ has as annihilator the ideal $Ap_j^{n(j)}$.
+形 $up_1^{n(1)} ... p_r^{n(r)}$ に $a$ を書き、$A$ の $\mathscr{P}$、$n(1) > 0, ..., n(r) > 0$、$u$ 可逆元で$p_1, ..., p_r$ を区別します。 $j = 1, ..., r$ にしましょう。 (10) により、$1 \leq c(j) \leq h$ と $v_{p_j}(a_{c(j)}) = n(j)$ となるような整数 $c(j)$ が存在します。 $A$ には $a_{c(j)} = p_j^{n(j)} b_j$ とともに $b_j$ が存在し、要素 $y_j = b_j x_{c(j)}$ は理想的な $Ap_j^{n(j)}$ を消滅要素として持っています。
 
 $y = y_1 + ... + y_r$ の消滅子 b が M の消滅子 a に等しいことを示しましょう。いずれにしても、$a \subset b$ があるので、b は形 $Ap_1^{m(1)} ... p_r^{m(r)}$ で、$1 \leq j \leq r$ に対して $0 \leq m(j) \leq n(j)$ が付きます。もし$a \neq b$があれば、$1 \leq j \leq r$と$m(j) < n(j)$が存在する整数が存在するため、$d_j = a/p_j$は$y$を全滅させます。 $k \neq j$ に対して $d_j y_k = 0$ があり、よっては $d_j y_j = 0$ になります。しかし、$y_j$の消滅子は$Ap_j^{m(j)}$であり、$d_j$は$p_j^{m(j)}$の倍数ではありません。したがって、仮定 $a \neq b$ は不合理です。
 
@@ -632,7 +632,7 @@ $$
 
 ### 10. 有限$\Gamma$集合とエタール代数
 
-Let $K_s$ be a separable closure of $K$ (*V*, p. 45, Prop. 14) and $\Gamma$ the Galois group of $K$, over $K$. $\Gamma$-*集合* により、$X$ のそれぞれの点の固定群が *open* 部分群であるように、群 $\Gamma$ の作用 $(\sigma, x) \mapsto \sigma x$ を持つ集合 $X$ がわかります。 $\Gamma$の。 $X$ に個別の位相が装備されている場合、$\Gamma \times X$ の $X$ への写像 $(\sigma, x) \mapsto \sigma x$ が *連続* であると言うのと同じになります。
+$K_s$ を $K$ の分離閉包 (*V*、p. 45、提案 14) および $K$ の $K$ の $\Gamma$ ガロア群とします。 $\Gamma$-*集合* により、$X$ のそれぞれの点の固定群が *open* 部分群であるように、群 $\Gamma$ の作用 $(\sigma, x) \mapsto \sigma x$ を持つ集合 $X$ がわかります。 $\Gamma$の。 $X$ に個別の位相が装備されている場合、$\Gamma \times X$ の $X$ への写像 $(\sigma, x) \mapsto \sigma x$ が *連続* であると言うのと同じになります。
 
 $X$ を *有限* $\Gamma$ 集合とします。 $K$-代数上の$\Gamma$の定義する作用を、公式によって写像の$X$の$K_s^X$を$K_s$にします
 
@@ -658,13 +658,13 @@ $\pi \in \Gamma, f \in K_s^X$ と $x \in X$ の場合。 $\Theta(X)$ を $K_s^X$
 
 a) $\Theta(X)$ から $K$ へのすべての $K$-代数準同型性 $\varphi$ に対して、すべての $f \in \Theta(X)$ に対して $\varphi(f) = f(x)$ となるような $X$ の一意元 $x$ が存在することを示すのは簡単です。
 
-2) $X$ と $Y$ を 2 つの有限$\Gamma$ 集合とします。 $\mathfrak{T}_\Gamma(X, Y)$ を写像の集合 $X$ の $u$ を $Y$ にすると、すべての $\sigma \in \Gamma$ とすべての $x \in X$ が $u(\sigma x) = \sigma u(x)$ になります。 $u \in \mathfrak{T}_\Gamma(X, Y)$ については、$u^*(f) = f \circ u$ による $K$-代数準同型性 $u^*: \Theta(Y) \to \Theta(X)$ を定義するとします。 For every homomorphism $\Psi$ of $\Theta(Y)$ into $\Theta(X)$ there exists a unique element $u$ of $\mathfrak{T}_\Gamma(X, Y)$ such that $\Psi = u^*$.
+2) $X$ と $Y$ を 2 つの有限$\Gamma$ 集合とします。 $\mathfrak{T}_\Gamma(X, Y)$ を写像の集合 $X$ の $u$ を $Y$ にすると、すべての $\sigma \in \Gamma$ とすべての $x \in X$ が $u(\sigma x) = \sigma u(x)$ になります。 $u \in \mathfrak{T}_\Gamma(X, Y)$ については、$u^*(f) = f \circ u$ による $K$-代数準同型性 $u^*: \Theta(Y) \to \Theta(X)$ を定義するとします。 $\Theta(Y)$ の $\Theta(X)$ へのすべての準同型性 $\Psi$ に対して、$\Psi = u^*$ となるような $\mathfrak{T}_\Gamma(X, Y)$ の一意の要素 $u$ が存在します。
 
 ### 11. 準ガロア拡張の構造
 
 #### 命題 13 {#alg-v-s10-prop-13 .statement tag=06NM}
 
-— $N$ を $K$ の準ガロア拡張とします。 We denote by $N_r$, the field of invariants of the group of all $K$-automorphisms of $N$ and by $N_s$, the relative separable algebraic closure of $K$ in $N$ ($V$, p. 44). それから：
+— $N$ を $K$ の準ガロア拡張とします。 $N$ のすべての $K$ 自己同型の群の不変量体を $N_r$ で、$N$ ($V$, p. 44) における $K$ の相対可分代数閉包を $N_s$ で表します。 それから：
 
 a) $N_r$ は、$N$ ($V$、p. 25) における$K$ の相対的な$p$-ラジカル閉包です。
 
@@ -678,7 +678,7 @@ $\Omega$ 写像 $N$ のすべての $K$ 自己同型は $N$ に変換され、�
 
 #### 系 {#alg-v-s10-n11-cor-1 .statement tag=06NN}
 
-— Let $p$ the characteristic exponent of $K$, $\overline{K}$ an algebraic closure of $K$, $K_s$, the relative separable closure of $K$ in $\overline{K}$ and $K^{p^{-\infty}}$ the perfect closure of $K$. すると、$K^{p^\infty} \otimes K_s$の$\overline{K}$への標準準同型は同型になります。
+— $p$ を $K$ の特性指数、$\overline{K}$ を $K$、$K_s$ の代数閉包、$\overline{K}$ の $K$ の相対可分閉包、$K^{p^{-\infty}}$ を $K$ の完全閉包とします。 すると、$K^{p^\infty} \otimes K_s$の$\overline{K}$への標準準同型は同型になります。
 
 #### 注意 {#alg-v-s10-n11-rem-1 .statement tag=06NO}
 

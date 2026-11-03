@@ -13,16 +13,16 @@ pdf_pages: 0356-0362
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a64f513f662b352e94564abd57429bd359eac09dbc0c6458655a60cc4bc42af0
+content_sha256: 476b95e0d9ca7faa092aacee4b24083e92dd88b171f737ce7ba12a37ce595719
 translated_from: content/en/ens/ER/02_s2_functions.md
 translation_method: google
 source_content_sha256: e080ea464bff6a7c05c7dc505f506fc7d9e94e4178becde6cca23d33e3bb7827
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 58366d8a54c892a2affbea74dbe1faac227bafe3d975b6ffc6267360d7d12be8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 写像
@@ -49,13 +49,13 @@ $$\begin{array}{ccccc}
 
 ここで、矢印に付いている文字は、矢印の尾部の集合から頭の集合への写像を表します。
 
-The relation of equality "$f = g$" between mappings of E into F is equivalent to the relation "for all $x \in \mathrm{E}, f(x) = g(x)$".
+E から F への写像間の等価関係「$f = g$」は、「すべての$x \in \mathrm{E}, f(x) = g(x)$」と等価です。
 
 3. 集合 E で定義された写像は、E のすべての元 $x$ に対して同じ値 $a$ を取り、E の *定数* 写像と呼ばれます。それは関数関係 $y = a$ によって決定されます。
 
 E の写像を E に結合し、E のそれぞれの元 $x$ と同じ元を *同一性* 写像と呼びます。それは関数関係 $y = x$ によって決定されます。
 
-If A is any subset of E, the mapping of A into E which associates with each element $x$ of A the same element $x$ considered as an element of E is called the *canonical* mapping of A into E.
+A が E のサブセットである場合、A の各要素 $x$ に、E の要素とみなされる同じ要素 $x$ を関連付ける、A から E へのマッピングは、A から E への *標準* マッピングと呼ばれます。
 
 $f$ をそれ自体の集合 E の写像とします。 E の元 $x$ は、$f(x) = x$ の場合、$f$ より *固定* (または *不変量*) であると言われます。
 
@@ -77,7 +77,7 @@ $y$ が F の総称元である場合、性質 "$y \in f(\mathrm{E})$" は、"$y
 
 $f(\mathrm{E}) = \mathrm{F}$ がある場合、つまり、すべての $y \in$ F に対して、$y = f(x)$ となるような $x \in$ E が存在する場合、$f$ は、E *onto* F の写像、または *全射* 写像、または *全射* であると言われます。
 
-$x$ を E の任意の元と X の任意の部分集合とします。 Instead of saying that $f(x)$ is the value of $f$ at $x$, and $f(\mathrm{X})$ the image of X under $f$, it is sometimes said that $f$ *transforms* (or *maps*) $x$ into $f(x)$ and X into $f(\mathrm{X})$; $f(x)$ and $f(\mathrm{X})$ are then called the *transforms* by $f$ of $x$ and X, respectively.
+$x$ を E の任意の元と X の任意の部分集合とします。 $f(x)$ は $x$ での $f$ の値であり、 $f(\mathrm{X})$ は $f$ での X の画像であると言う代わりに、$f$ は $x$ を $f(x)$ と X に *変換* (または *マップ*) すると言われることがあります。 $f(\mathrm{X})$に。 $f(x)$ と $f(\mathrm{X})$ は、それぞれ $x$ と X の $f$ による *変換* と呼ばれます。
 
 $f$ が E の写像である場合、E の部分集合 X は、$f(\mathrm{X}) \subset \mathrm{X}$ の場合、$f$ の下で *安定であると言われます。 X がこれら写像のそれぞれの下で安定している場合、部分集合 X は、E への写像の集合の下で *安定* であると言われます。
 

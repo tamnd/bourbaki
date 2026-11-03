@@ -50,43 +50,43 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 211123973010a2e28e2a23de72f91c68d37fd308e11e3e1bc337ad3435931c4b
+content_sha256: 1e1136595cd189bc7a1305a82fdac07e9347df06a80264f27844989d83910a08
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
 translation_method: google
 source_content_sha256: 2ecded72dc27d27759b8e68470e35ec8930215e63753cc4598f26151e19c86fa
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9869d27784b670e1053cda27a6c53122190989def994cd5bc5c27edfbe25de28
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。外観代数
 
-### 1. 定義の外観代数の加群
+### 1. 外観の定義代数の加群
 
 #### 定義 1 {#alg-iii-s7-def-1 .statement tag=062S}
 
-$A$ を可換環 、$M$ を $A$ モジュールとします。 $\bigwedge(M)$ または $\mathrm{Alt}(M)$ または $\bigwedge_A(M)$ で示される $M$ の外部代数は、両面イデアルによりテンソル代数 $T(M)$ の $A$ 商よりも代数です。 $\mathfrak{J}''$ ($\mathfrak{J}_{M}''$ とも表記) は、元 $x \otimes x$ によって生成され、$x$ から $M$ まで続きます。
+$A$ を可換環 、$M$ を $A$ モジュールとします。 $\bigwedge(M)$ または $\mathrm{Alt}(M)$ または $\bigwedge_A(M)$ で示される $M$ の外部代数は、両側イデアルによりテンソル代数 $T(M)$ の $A$ 商よりも代数です。 $\mathfrak{J}''$ ($\mathfrak{J}_{M}''$ とも表される) は、元 $x \otimes x$ によって生成され、$x$ から $M$ まで続きます。
 
 イデアル $\mathfrak{J}''$ は次数 2 の同次元によって生成されるため、段階的イデアル (II, § 11, no. 3、命題 2) です。 $\mathfrak{J}_n'' = \mathfrak{J}'' \cap T^n(M)$と書きます。したがって、代数 $\bigwedge(M)$ は、$\bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ の卒業 (正規と呼ばれます) からなるによって等級付けされます。次に、$\mathfrak{J}_0'' = \mathfrak{J}_1'' = \{0\}$、したがって $\bigwedge^0(M)$ は $A$ と同一視され、$\bigwedge^1(M)$ は $T^1(M) = M$ と同一視されます。以下では常にこれらの識別を行い、標準単射 $M \to \bigwedge(M)$ は $\phi''$ または $\phi_M''$ で表されます。
 
 #### 命題 1 {#alg-iii-s7-prop-1 .statement tag=062T}
 
-$E$ を次のような $A$-代数、$f : M \to E$ を $A$-線形写像とします。
+$E$ を次のような $A$-代数、$f : M \to E$ を $A$ 線形写像とします。
 $$
 (f(x))^2 = 0 \quad \text{for all } x \in M.
 $$
 $f = g \circ \phi''$ となるような $A$-代数準同型性 $g : \bigwedge(M) \to E$ が 1 つだけ存在します。
 
-他の語では、$(\bigwedge(M), \phi'')$ は普遍写像問題 (集合理論, IV, § 3, no. 1) の解であり、$\Sigma$ は $A$-代数構造の種であり、 $\alpha$-写像は、$A$-モジュール $M$ から $A$-代数満たすへの線形写像です (1)。
+他の語では、$(\bigwedge(M), \phi'')$ は普遍写像問題 (集合理論, IV, § 3, no. 1) の解であり、$\Sigma$ は $A$-代数の種です。 構造、$\alpha$-マッピングは、$A$-モジュール $M$ から $A$-代数満たす (1) への線形写像です。
 
-The uniqueness of $g$ follows from the fact that $\phi''(M) = M$ generates $\bigwedge(M)$. $g$ の存在を証明するために、§ 5, no. 1, 命題 1 によって、$f = g_1 \circ \phi$ のような $A$-代数準同型性 $g_1 : T(M) \to E$ が存在することに注意します。 $g_1$ が理想 $\mathfrak{J}''$ 上で零であることを証明する必要があります。
+$g$ の一意性は、$\phi''(M) = M$ 生成する $\bigwedge(M)$ という事実から導き出されます。 $g$ の存在を証明するために、§ 5, no. 1, 命題 1 により、$f = g_1 \circ \phi$ となるような $A$-代数準同型性 $g_1 : T(M) \to E$ が存在することに注意します。 $g_1$ が理想 $\mathfrak{J}''$ 上では零であることを証明する必要があります。
 $$
 p : T(M) \to \bigwedge(M) = T(M)/\mathfrak{J}''
 $$
-が標準準同型である場合、$g : \bigwedge(M) \to E$ が代数準同型である場合、$g_1 = g \circ p$ と書くことができ、結論は $p \circ \phi = \phi''$ という事実から得られます。 さて、$g_1$の核は、(1)と関係$g_1 \circ \phi = f$のおかげで、$x \in M$に対して含む元$x \otimes x$となる両面理想です。 これで証明は完了です。
+が標準準同型である場合、$g_1 = g \circ p$ と書くことができます。$g : \bigwedge(M) \to E$ は代数準同型であり、結論は $p \circ \phi = \phi''$ という事実から得られます。さて、$g_1$の核は、(1)と関係$g_1 \circ \phi = f$のおかげで、$x \in M$に対して含む元$x \otimes x$となる両面理想です。これで証明は完了です。
 
 #### 注意 {#alg-iii-s7-n1-rem-1 .statement tag=062U}
 
@@ -120,11 +120,11 @@ $$
 
 $u'$ の存在と一意性は、代数 $\bigwedge(N)$ と $f = \phi_N'' \circ u : M \to \bigwedge(N)$ に適用される no. 1、命題 1 から続きます。 $f(M) \subset N$ の場合、したがって $f$ は、$\mathfrak{g}_N''$ の定義によって条件 (1) を満たします。 $f(M) \subset \bigwedge^1(N) = N$ と同様、$u''$ が等級付けされた代数準同型であるという事実は、no. 1 の *注意* 1 から導き出されます。
 
-命題 2 の準同型 $u''$ は、以降、$\bigwedge(u)$ で表されます。 If $P$ is an $A$-module and $v : N \to P$ is an $A$-linear mapping, then
+命題 2 の準同型 $u''$ は、以降、$\bigwedge(u)$ で表されます。 $P$ が $A$ モジュールで、$v : N \to P$ が $A$ 線形マッピングの場合、
 $$
 \bigwedge(v \circ u) = \bigwedge(v) \circ \bigwedge(u)
 $$
-for $\bigwedge(v) \circ \bigwedge(u)$ is an algebra homomorphism which renders commutative the diagram
+$\bigwedge(v) \circ \bigwedge(u)$ は代数準同型で、図式が可換になります
 
 $$
 \begin{array}{ccc}
@@ -236,11 +236,11 @@ $$
 
 ### 4. 加群および交代的マルチリニア写像の *n* 番目の外装冪
 
-Given two modules M, N over a commutative ring A, an *alternating n-linear* mapping of $M^n$ into N is any *n*-linear mapping $f : M^n \to N$ such that, for all $p \leq n - 2$,
+可換リング A 上の 2 つのモジュール M、N があるとすると、$M^n$ から N への *交互の n* 線形* マッピングは、すべての $p \leq n - 2$ について、次のような任意の *n* 線形マッピング $f : M^n \to N$ になります。
 $$
 f(u_1, \ldots, u_p, x, x, v_1, \ldots, v_{n-p-2}) = 0
 $$
-for all x, the $u_i$ ($1 \leq i \leq p$) and the $v_j$ ($1 \leq j \leq n - p - 2$) in M.
+すべての x については、M の $u_i$ ($1 \leq i \leq p$) と $v_j$ ($1 \leq j \leq n - p - 2$) です。
 
 #### 命題 7 {#alg-iii-s7-prop-7 .statement tag=0634}
 
@@ -332,7 +332,7 @@ $$
 
 すべての $z \in T^n(M)$ が、私たちの主張を確立します。
 
-When $n!$ is invertible in $A$, the submodules $A'_n(M)$ and $\mathfrak{J}_n''$ of $T^n(M)$ are therefore *supplementary* and the restriction to $A'_n(M)$ of the canonical homomorphism $T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ is an A-module *isomorphism*, which allows us in the case in question to identify skew-symmetric tensors of order $n$ with the elements of the $n$-th exterior power of $M$. 注意ここで、この識別は、一般に斜対称ではない 2 つの斜対称テンソルの $T(M)$ における乗法、積と互換性がないこともわかります。
+$n!$ が $A$ で可逆である場合、$T^n(M)$ のサブモジュール $A'_n(M)$ と $\mathfrak{J}_n''$ は *補足* であり、正準準同型性 $T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ の $A'_n(M)$ への制限は A モジュール *同型* であり、問題のケースで次のことを識別できます。 $M$ の $n$ 番目の外部べき乗の要素を持つ次数 $n$ の歪対称テンソル。 注意ここで、この識別は、一般に斜対称ではない 2 つの斜対称テンソルの $T(M)$ における乗法、積と互換性がないこともわかります。
 
 ### 5. スカラーの環の拡大
 
@@ -346,7 +346,7 @@ M & \xrightarrow{f} & M' \\
 \end{array}
 $$
 
-$f''$ はグレード付けされた代数準同型です。 It is immediately deduced that if $\sigma : A' \to A''$ is another ring homomorphism, $M''$ an $A''$-module, $g : M' \to M''$ an $A'$-homomorphism (relative to $\sigma$) and $g'' : \bigwedge_{A'}(M') \to \bigwedge_{A''}(M'')$ the corresponding $A''$-homomorphism of algebras, then the composite $A$-homomorphism of algebras
+$f''$ はグレード代数準同型です。 $\sigma : A' \to A''$ が他の環準同型である場合、$M''$ は $A''$ 加群、$g : M' \to M''$ は $A'$ 準同型 ($\sigma$ に対して) および $g'' : \bigwedge_{A'}(M') \to \bigwedge_{A''}(M'')$ であるとすぐに推測されます。 対応する $A''$-代数の準同型、次に代数の合成 $A$-準同型
 
 $$
 \bigwedge_A(M) \xrightarrow{f''} \bigwedge_{A'}(M') \xrightarrow{g''} \bigwedge_{A''}(M'')
@@ -368,23 +368,23 @@ $$
 
 ### 6. 外装代数の直接極限
 
-$(A_\alpha, \phi_{\beta \alpha})$ を、$A_\alpha$ モジュール、$A = \lim \to A_\alpha$、$M = \lim \to M_\alpha$ の可換環、$(M_\alpha, f_{\beta \alpha})$ 直接系の有向直接系とします。 $\alpha \leq \beta$ については、$A_\alpha$-準同型 $f_{\beta \alpha} : M_\alpha \to M_\beta$ から $A_\alpha$-代数準同型 (no. 5, 公式 (12)) $f_{\beta \alpha}' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_{A_\beta}(M_\beta)$ が導出され、(13) から $(\bigwedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ は *直接系であることがわかります。グレード* $A_\alpha$*-モジュール*。一方、$f_\alpha : M_\alpha \to M$ を標準的な $A_\alpha$ 準同型写像とします。我々は (no. 5, 公式 (12)) 段階的な $A_\alpha$-代数準同型 $f_\alpha'' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_A(M)$ を導出し、また (13) から、$f_\alpha''$ は $A_\alpha$-準同型の直接系を構成することもわかります。
+$(A_\alpha, \phi_{\beta \alpha})$ を、$A_\alpha$ モジュール、$A = \lim \to A_\alpha$、$M = \lim \to M_\alpha$ の可換環、$(M_\alpha, f_{\beta \alpha})$ 直接系の有向直接系とします。 $\alpha \leq \beta$ については、$A_\alpha$-準同型 $f_{\beta \alpha} : M_\alpha \to M_\beta$ から $A_\alpha$-代数準同型 (no. 5, 公式 (12)) $f_{\beta \alpha}' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_{A_\beta}(M_\beta)$ が導出され、(13) から $(\bigwedge_{A_\alpha}(M_\alpha), f_{\beta \alpha}')$ は *直接系であることがわかります。グレード* $A_\alpha$*-モジュール*。一方、$f_\alpha : M_\alpha \to M$ を標準的な $A_\alpha$ 準同型写像とします。我々は (no. 5, 公式 (12)) 段階的な $A_\alpha$-代数準同型性 $f_\alpha'' : \bigwedge_{A_\alpha}(M_\alpha) \to \bigwedge_A(M)$ を導出し、また (13) から、$f_\alpha''$ が $A_\alpha$-準同型性の直接系を構成することもわかります。
 
 #### 命題 9 {#alg-iii-s7-prop-9 .statement tag=063A}
 
-*A 準同型* $f'' = \varprojlim f''_\alpha : \varprojlim \Lambda_{A_\alpha}(M_\alpha) \to \Lambda_A(M)$ * は等級付けされた代数同型* です。
+*A-準同型* $f'' = \varprojlim f''_\alpha : \varprojlim \Lambda_{A_\alpha}(M_\alpha) \to \Lambda_A(M)$ *は等級付けされた代数同型* です。
 
-証明は、$\Lambda$によるT全体、$\phi''$による$\phi$の§ 5, no. 4、命題6置き換えることと同じであり、交代的代数の直接極限が交代的であるという事実を考慮します。
+証明は、$\Lambda$ による T 全体の§ 5, no. 4、命題 6 置き換えることと$\phi''$ による$\phi$ と同じであり、交代的代数の直接極限が交代的。
 
-### 7. 外観代数/直和。外装代数のグレード加群
+### 7. 直和の代数の外観。外装代数のグレード加群
 
-A を A-加群および $j_\lambda : M_\lambda \to M$ 標準単射の家族の可換環、$M = \bigoplus_{\lambda \in L} M_\lambda$ 直和とします。等級付けされた代数 $\Lambda(j_\lambda) : \Lambda(M_\lambda) \to \Lambda(M)$ の A 準同型性が導出されます。 $\Lambda(M)$ は反可換であるため、§ 4, no. 7 の命題 10 (または、L が無限である場合に一般化する必要がある場合は、cf. § 4, no. 8、*Reamrk* 1) を準同型 $\Lambda(j_\lambda)$ に適用できます。その場合、一意な代数準同型が存在します
+A を A-加群および $j_\lambda : M_\lambda \to M$ 標準単射の家族の可換環、$M = \bigoplus_{\lambda \in L} M_\lambda$ 直和とします。等級付けされた代数 $\Lambda(j_\lambda) : \Lambda(M_\lambda) \to \Lambda(M)$ の A 準同型性が導出されます。 $\Lambda(M)$ は反可換であるため、§ 4, no. 7 の命題 10 (または必要に応じて、L が無限である場合に一般化する必要がある場合、cf. § 4, no. 8、*Reamrk* 1) を準同型 $\Lambda(j_\lambda)$ に適用できます。そうすると一意な代数準同型が存在します
 
 $$
 g : \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda) \to \Lambda(M)
 $$
 
-($g_M$ とも表されます) $\Lambda(j_\lambda) = g \circ f_\lambda$ となるように、ここで
+($g_M$ によっても示されます) $\Lambda(j_\lambda) = g \circ f_\lambda$ となるように、ここで
 
 $$
 f_\lambda : \Lambda(M_\lambda) \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)
@@ -402,23 +402,23 @@ $$
 h : \Lambda(M) \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)
 $$
 
-$g \circ h$ と $h \circ g$ は、それぞれ $\Lambda(M)$ と $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ の恒等写像になります。それぞれの $\lambda \in L$ について、複合線形写像を検討します。
+$g \circ h$ と $h \circ g$ は、それぞれ $\Lambda(M)$ と $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ の恒等写像になります。それぞれの $\lambda \in L$ について、合成線形写像を考慮します。
 
 $$
 u_\lambda : M_\lambda \xrightarrow{\phi''_{M_\lambda}} \Lambda(M_\lambda) \xrightarrow{f_\lambda} \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda).
 $$
 
-すべての $\lambda \in L$ に対して $u \circ j_\lambda = u_\lambda$ となるような A-線型写像 $u : M \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ が 1 つだけ存在します。スキュー テンソル積 $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ は *交代的* 代数: L 有限の場合、これは § 4, no. 9、命題 14 から求まり、L 任意の場合、これはこの定義から求まります。 § 4, no. 8、*注意* 1 で与えられる積と、交代的の直接の極限が代数と評価されるという事実は、交代的です。また、$u(M)$ は、等級付けされた代数 $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ の元の次数 1 の部分加群に含まれているため、no. 1、命題 1 および *注意* 1 から、固有の等級付けされたものが存在することがわかります。 代数準同型。
+すべての $\lambda \in L$ に対して $u \circ j_\lambda = u_\lambda$ となるような A-線型写像 $u : M \to \bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ が 1 つだけ存在します。スキュー テンソル積 $\bigotimes_{\lambda \in L}^{\mathfrak{g}} \Lambda(M_\lambda)$ は *交代的* 代数: L 有限の場合、これは § 4, no. 9、命題 14 から求まり、L 任意の場合、これは次のとおりです。この積の定義は、§ 4, no. 8、*注意* 1 で与えられ、交代的の直接の極限が代数と評価されるという事実は、交代的です。また、$u(M)$ は、等級付けされた代数 $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ の次数 1 の元の部分加群に含まれているため、no. 1、命題 1 および *注意* 1 から、固有の値が存在することがわかります。評価は代数準同型。
 
 $$
 h : \Lambda(M) \to \bigotimes_{\lambda \in L} \Lambda(M_\lambda)
 $$
 
-$h \circ \phi''_M = u$ のように。 $g \circ h$と$h \circ g$が恒等写像であるという事実の検証は、$\Lambda$によって§ 6, no. 6、命題9置き換えること$S$、$\phi''$によって$\phi'$のように実行されます。
+$h \circ \phi''_M = u$ のようになります。 $g \circ h$ と $h \circ g$ が恒等写像であるという事実の検証は、§ 6, no. 6、命題 9 置き換えること $S$ が $\Lambda$ によって、$\phi'$ が$\phi''$ のように実行されます。
 
 #### 注意 {#alg-iii-s7-n7-rem-1 .statement tag=063C}
 
-$N = \bigoplus_{\lambda \in L} N_\lambda$ を、インデックス集合として$L$ を持つ$A$ モジュールの他のファミリの直和とし、すべての$\lambda \in L$ について、$v_\lambda : M_\lambda \to N_\lambda$ を$A$ 線形マッピングとし、よってを次のようにします。 $A$-線形マッピング $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6、命題 7)。それから図式
+$N = \bigoplus_{\lambda \in L} N_\lambda$ を集合のインデックスとして $L$ を持つ $A$ モジュールの他のファミリの直和とし、すべての $\lambda \in L$ について、$v_\lambda : M_\lambda \to N_\lambda$ を $A$ 線形マッピングとします。 よってには $A$ 線形マッピング $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6, 命題 7) があります。それから図式
 
 $$
 \begin{array}{ccc}
@@ -478,9 +478,9 @@ $$
 
 ここで、$(\lambda_k)_{1 \leq k \leq n}$ は、増加する位数 (集合理論, III, § 5, no. 3, 命題 6) に配置された J の元の数列です。 Aの$e_\varnothing = 1$、単位元と書きます。 次に、J が L の有限部分集合の集合 $\mathscr{F}(L)$、外装代数 $\bigwedge(M)$ の形基底を通過する $e_J$ です。
 
-Since the $e_\lambda$ generate the A-module M, every element of $\bigwedge(M)$ is a linear combination of a finite number of products of the elements $e_\lambda$ and hence (taking account of no. 3, Proposition 5) is a linear combination of a finite number of elements $e_J$ for $J \in \mathscr{F}(L)$. 簡約するから証明まで、$e_J$ は A 上で線形独立です。 Otherwise, there would exist between these elements a linear relation with coefficients not all zero; the union of the subsets J which correspond to the $e_J$ whose coefficients in this relation are $\neq 0$ is a finite subset K of L (since there is only a finite number of coefficients $\neq 0$). N を、$\lambda \in K$ となるように $e_\lambda$ によって生成された M の部分加群とします。 N は M の直因子であるため、(no. 2) $\bigwedge(N)$ は $\bigwedge(M)$ の部分代数と同一視され、$e_J$ が $\bigwedge(N)$ の $J \subset K$ 形基底であることを示せば、望ましい矛盾が得られます。
+$e_\lambda$ は A モジュール M を生成するため、$\bigwedge(M)$ のすべての要素は要素 $e_\lambda$ の有限数の積の線形結合であり、したがって (no. 3 の命題 5 を考慮すると) $J \in \mathscr{F}(L)$ に対する有限数の要素 $e_J$ の線形結合になります。 簡約するから証明まで、$e_J$ は A 上で線形独立です。 そうしないと、これらの要素間に、係数がすべてゼロではない線形関係が存在することになります。この関係の係数が $\neq 0$ である $e_J$ に対応するサブセット J の和集合は、L の有限サブセット K になります (有限数の係数 $\neq 0$ しかないため)。 N を、$\lambda \in K$ となるように $e_\lambda$ によって生成された M の部分加群とします。 N は M の直因子であるため、(no. 2) $\bigwedge(N)$ は $\bigwedge(M)$ の部分代数と同一視され、$e_J$ が $\bigwedge(N)$ の $J \subset K$ 形基底であることを示せば、望ましい矛盾が得られます。
 
-It therefore reduces to providing Theorem 1 when the basis of M is finite; we may therefore suppose that $L = \{1, m\} \subset N$. それぞれの $i \in L$ について、$M_i$ を M の自由な部分加群 $Ae_i$ とします。 M は $M_i$ の直和であり、$\bigwedge(M_i)$ は $\bigwedge^0(M_i) = A$ と $\bigwedge^1(M_i) = M_i$ (no. 3、命題 6) の直和です。 $\bigwedge(M)$ を、$\bigwedge(M_i)$ (no. 7、命題 10) の A-加群テンソル積と正規に識別するとします。後者は、基底 $(1, e_i)$ の基底テンソル積と $\bigwedge(M_i)$ (II, § 3, no. 7、系 2 ～ 命題 7) です。したがって、すべての元を取得します
+したがって、M の基底が有限である場合、簡約するは定理 1 を提供します。したがって、$L = \{1, m\} \subset N$ と仮定することができます。それぞれの $i \in L$ について、$M_i$ を M の自由な部分加群 $Ae_i$ とします。 Mは$M_i$の直和、$\bigwedge(M_i)$は$\bigwedge^0(M_i) = A$と$\bigwedge^1(M_i) = M_i$の直和（no. 3、命題6）です。 $\bigwedge(M)$ を、$\bigwedge(M_i)$ (no. 7、命題 10) の A-加群テンソル積と正規に識別するとします。後者は、基底 $(1, e_i)$ の $\bigwedge(M_i)$ (II, § 3, no. 7、系 2 ～ 命題 7) の基底テンソル積です。したがって、すべての元を取得します
 
 $$
 u_1 \otimes u_2 \otimes \cdots \otimes u_m
@@ -490,7 +490,7 @@ $$
 
 #### 系 1 {#alg-iii-s7-thm-1-cor-1 .statement tag=063G}
 
-$L = \{1, m\}$; と仮定します。すると、$\bigwedge(M)$ の基底 $(e_J)_{J \in \mathscr{P}(L)}$ は $2^m$ 元になります。 $p > m$、$\bigwedge^p(M) = \{0\}$の場合; $\bigwedge^m(M)$ には単一の元 $e_L$ の基底からなるがあります。 $e_J$ の基底 $(e_J)$ $\bigwedge^p(M)$ からなるの元の $0 \leq p \leq m$ 数について、$\mathrm{Card}(J) = p$ は次のようになります。
+$L = \{1, m\}$ だと仮定します。すると、$\bigwedge(M)$ の基底 $(e_J)_{J \in \mathscr{P}(L)}$ は $2^m$ 元になります。 $p > m$、$\bigwedge^p(M) = \{0\}$の場合。 $\bigwedge^m(M)$ には、単一の元 $e_L$ のうち基底からなるがあります。 $e_J$ の基底 $(e_J)$ $\bigwedge^p(M)$ からなるの元の $0 \leq p \leq m$ 数では、$\mathrm{Card}(J) = p$ は次のようになります
 
 $$
 \binom{m}{p} = \frac{m!}{p!(m-p)!}
@@ -505,7 +505,7 @@ $$
 \rho_{J, K} = (-1)^v & \text{if } J \cap K = \varnothing
 \end{cases}
 $$
-ここで、$v$ は、$\lambda > \mu$ となるような順序付けられた対 $(\lambda, \mu) \in J \times K$ の数を表します。次に、no. 2 の系 1 から命題 4 は、すぐに関係を意味します。
+ここで、$v$ は、対 $(\lambda, \mu) \in J \times K$ の数を表し、$\lambda > \mu$ となります。次に、no. 2 の系 1 から命題 4 は、すぐに関係を意味します。
 $$
 e_J \wedge e_K = \rho_{J, K} e_{J \cup K}.
 $$
@@ -513,23 +513,23 @@ $$
 $$
 \rho_{J, K} \rho_{K, J} = (-1)^{jk}
 $$
-$J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3、系 2 ～ 命題 5)
+$J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3、系 2 ～ 命題 5) のとき
 
 #### 系 2 {#alg-iii-s7-thm-1-cor-2 .statement tag=063H}
 
 *M が射影 A-加群の場合、$\bigwedge(M)$ は射影 A-加群です。*
 
-証明は§ 5, no. 5、系〜定理1置き換えることT×$\bigwedge$と同じです。
+証明は、§ 5, no. 5、系～定理 1 置き換えること T by $\bigwedge$と同じです。
 
 #### 系 3 {#alg-iii-s7-thm-1-cor-3 .statement tag=063I}
 
-*M を M の元の射影 A-加群と $(x_i)_{1 \leq i \leq n}$ 有限列とする。M 交代的 n 線形形式 f には次のようなものが存在する*
+*M を M の元の射影 A-加群および $(x_i)_{1 \leq i \leq n}$ 有限列とします。 M 交代的の n 線形形式 f が存在するには、*
 $$
 f(x_1, x_2, \ldots, x_n) \neq 0,
 $$
 *それは必要かつ十分です* $x_1 \wedge x_2 \wedge \cdots \wedge x_n \neq 0$。
 
-条件が必要であること (no. 4、命題 7) は (M に仮定がないので) すでにわかっています。ここで、M が射影であると仮定します。
+条件が必要であることは (M に仮定がないので) すでにわかっています (no. 4、命題 7)。ここで、M が射影であると仮定します。
 $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n \neq 0.
 $$
@@ -537,13 +537,13 @@ $$
 $$
 \bigwedge^n(M) \to (\bigwedge^n(M))^{**}
 $$
-単射です (II, § 2, no. 7、系 4 ～ 命題 13)。私たちは結論する線型形式 $g : \bigwedge^n(M) \to A$ が存在し、そのような $g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$ が存在します。 $f$ が交代的 n 線形形式対応するから $g$ (no. 4、命題 7) である場合、$f(x_1, \ldots, x_n) \neq 0$。
+単射法です (II, § 2, no. 7、系 4 ～ 命題 13)。私たち結論するには、$g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$のような線型形式$g : \bigwedge^n(M) \to A$が存在します。 $f$ が交代的の n 線形形式対応するから $g$ (no. 4、命題 7) である場合、$f(x_1, \ldots, x_n) \neq 0$。
 
 ### 9. 線形独立性の基準
 
 #### 命題 12 {#alg-iii-s7-prop-12 .statement tag=063J}
 
-*M を射影 A-加群とします。 M の元 $x_1, x_2, \ldots, x_n$ が線形従属するには、A に次のような $\lambda \neq 0$ が存在することが必要かつ十分です*
+*M を射影 A-加群とします。 M の元 $x_1, x_2, \ldots, x_n$ が線形従属であるためには、A に次のような $\lambda \neq 0$ が存在することが必要かつ十分です*
 $$
 \lambda x_1 \wedge x_2 \wedge \cdots \wedge x_n = 0.
 $$
@@ -605,7 +605,7 @@ $$
 
 #### 定理 2 {#alg-iii-s7-thm-2 .statement tag=063M}
 
-*$M$を有限基底$(e_i)_{1 \leq i \leq n}$を持つ$A$加群とする。 For a sequence $(x_i)_{1 \leq i \leq n}$ of $n$ elements of $M$ to form a basis of $M$, it is necessary and sufficient that the element $\lambda \in A$ such that
+*$M$を有限基底$(e_i)_{1 \leq i \leq n}$を持つ$A$加群とする。 $n$ の数列 $(x_i)_{1 \leq i \leq n}$ $M$ の元から $M$ の形基底については、次のような元 $\lambda \in A$ が必要かつ十分です。
 
 $$
 x_1 \wedge x_2 \wedge \ldots \wedge x_n = \lambda \cdot e_1 \wedge e_2 \wedge \cdots \wedge e_n

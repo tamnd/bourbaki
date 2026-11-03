@@ -30,16 +30,16 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: 3ebff7bba1653480ec6aaefbbab9d54404f2b236265cdad97a4b81445ac5ae8c
+content_sha256: 2735f2bf19dec937fac0c0a53c6e8ffea885207e9547d712d98f86910bcab904
 translated_from: content/en/alg/IV/03_s3_rational_fractions.md
 translation_method: google
 source_content_sha256: adebb07e34c4e82901da99d345bb6f746140b39d50f239de82732119ccaa1a31
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7068361892f0b20e988fad1011008b129b2d241bce07df63caf4ae3e0bd17a4d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。 有理分数
@@ -158,7 +158,7 @@ $$
 \Omega_K(B) \otimes_B C \to \Omega_K(C)
 $$
 
-はベクトル $C$ スペースの同型です。 III、p. 570 を念頭に置くと、ベクトル $C$-空間 $\Omega_K(C)$ が $X_i$ の差分の族 $(dX_i)_{i \in I}$ を基底として認めることがわかります。 $\partial_i$ を、基底を基準とした $\Omega_K(C)$ 上の添字 $i$ の座標形とします。 Then the mapping $u \mapsto (\partial_i, du)$ of $C$ into itself is a derivation of $C$ which maps $X_i$ to 1 and $X_j$ to 0 for $j \neq i$, and so is equal to $D_i$; in other words, we have
+はベクトル $C$ スペースの同型です。 III、p. 570 を念頭に置くと、ベクトル $C$-空間 $\Omega_K(C)$ が $X_i$ の微分族 $(dX_i)_{i \in I}$ を基底として認めることがわかります。 $\partial_i$を、基底に対する$\Omega_K(C)$上の添字$i$の座標形とします。すると、$C$の$u \mapsto (\partial_i, du)$写像は$C$の導分となり、写像$X_i$は1になり、$j \neq i$の$X_j$は0になるので、$D_i$と等しくなります。他の語では、
 
 $$
 du = \sum_{i \in I} (D_i u) dX_i

@@ -33,16 +33,16 @@ subsections:
       pdf_page: 517
 statements: 15
 exercises: 22
-content_sha256: 33afe9b61bd89257289677efb6b57bfb9e6be137711fafdb1047ef5641680b9b
+content_sha256: 92212cdb4ff5a754070924dad06378e96945f5c2857831701819993e956606f9
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
 translation_method: google
 source_content_sha256: 608c7dd934256b19a42a5a2679369ddf6b2698e699e08b46c35914c9e02a03b8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8fa62d365f9448e615bc38576dc4098f9c118382610b00ef0f5278b986786fee
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. デデキントのドメイン
@@ -101,13 +101,13 @@ $A$ がデデキント領域で、$b$ がゼロ以外の分数イデアルであ
 
 *セミローカルの Dedekind ドメインは主イデアル整域です。*
 
-$A$ を準ローカルなデデキントのドメイン、$K$ を分数の体、$p_1, \ldots, p_n$ をその最大の理想、$v_1, \ldots, v$、対応するを本質的な評価とします。これらは、$A$ の唯一の重要な評価です。 $a$ を $A$ のゼロ以外の整数理想とする。 Since it is divisorial, there exists ($§ 1$, no. 4, Proposition 5) integers $q_1, \ldots, q_n$ such that $a$ is the set of $x \in K$ such that $v_i(x) \geq q_i$ for $1 \leq i \leq n$. $x_0$ を $K$ の元とし、$1 \leq i \leq n$ に対して $v_i(x_0) = q_i$ とします (章 VI、$§ 7$、no. 2、系 1 ～ 定理 1)。 すると、$a$ は $x \in K$ の集合となり、$1 \leq i \leq n$ に対して $v_i(xx_0^{-1}) \geq 0$ になります。 したがって、$a = Ax_0$。
+$A$ を準ローカルなデデキントのドメイン、$K$ を分数の体、$p_1, \ldots, p_n$ を最大の理想、そして $v_1, \ldots, v$、対応するを本質的な評価とします。これらは、$A$ の唯一の重要な評価です。 $a$ を $A$ の非ゼロの積分理想とする。除数であるため、$a$ が $x \in K$ の集合となるような ($§ 1$, no. 4, 命題 5) 整数 $q_1, \ldots, q_n$ が存在し、$1 \leq i \leq n$ に対して $v_i(x) \geq q_i$ が成り立ちます。 $x_0$ を $K$ の元とし、$1 \leq i \leq n$ を$v_i(x_0) = q_i$ とします (章 VI、$§ 7$、no. 2、系 1 ～ 定理 1)。すると、$a$ は $x \in K$ の集合となり、$1 \leq i \leq n$ に対して $v_i(xx_0^{-1}) \geq 0$ になります。したがって、$a = Ax_0$。
 
 $A$ がデデキント領域である場合、定理 1 の証明で、A の因子の群 D(A) が分数イデアル $a \neq (0)$ の群 I(A) と同一視されることがわかります (A はネーター、ゼロ以外のすべての分数イデアルは有限に生成されます)。次に、A ($§ 1$、no. 2) の因子類群 C(A) は、A の理想類の $\neq 0$ (章 II で定義) の群と識別されます。 $§ 5$、no. 7）。
 
 ### 3. 分解の理想を積の主要な理想に
 
-Let A be a Dedekind domain, I(A) the ordered multiplicative group of non-zero fractional ideals of A and D(A) the group of divisors of A. The isomorphism $a \mapsto \operatorname{div} a$ of I(A) onto D(A) maps the extremal divisors to the non-zero prime ideals of A ($§ 1$, no. 6, Theorem 3) and hence the multiplicative group I(A) admits as basis the set of non-zero prime ideals of A ($§ 1$, no. 3, Theorem 2). 他の語では、*A のゼロ以外のすべての分数イデアル a は、形* の一意の分解を許容します。
+A をデデキント領域、I(A) を A の非ゼロ分数イデアルの順序乗法群、D(A) を A の約数の群とする。 I(A) の D(A) への同型 $a \mapsto \operatorname{div} a$ は、極値約数を A の非ゼロ素数イデアル ($§ 1$, no. 6、定理 3) にマッピングするため、乗法群 I(A) は A の非ゼロ素数イデアルのセット ($§ 1$, no. 3、定理 2)。 他の語では、*A のゼロ以外のすべての分数イデアル a は、形* の一意の分解を許容します。
 
 $$
 a = \prod_p p^{n(p)}
@@ -204,7 +204,7 @@ $i$ 全員に対して $\operatorname{long}_A(T_i) \leq \operatorname{long}_A(T)
 
 #### 補題 3 {#ac-vii-s2-lem-3 .statement tag=050V}
 
-*Let $A$ be a Noetherian domain such that every non-zero prime ideal $\& A$ is maximal, $M$ a torsion-free $A$-module of finite rank $r$ and a non-zero element of $A$. この場合、$A/Aa$ は有限長の $A$ モジュールであり、次のようになります:*
+*すべての非ゼロ素数イデアル $\& A$ が最大、 $M$ 有限階数 $r$ のねじれのない $A$ 加群、および $A$ の非ゼロ元となるような $A$ をネーター 領域とします。 この場合、$A/Aa$ は有限長の $A$ モジュールであり、次のようになります:*
 $$
 \operatorname{long}_A(M/aM) \leq r \cdot \operatorname{long}_A(A/Aa).
 $$
@@ -270,7 +270,7 @@ $$
 
 *A のすべての素イデアル p に対して、p の上にある B の素イデアルの集合は有限です。*
 
-Suppose first that $p = (0)$; then the only prime ideal $q$ of $B$ such that $q \cap A = (0)$ is $(0)$; otherwise, writing $S = A - \{0\}, S^{-1}q$ would be a non-zero prime ideal of $S^{-1}B$ (Chapter 11, § 2, no. 5, Proposition 11) and $S^{-1}B$ is just the field of fractions of $B$, for it is a subring of $L$ containing $K$ (\emph{Algebra}, Chapter V, § 3, no. 2, Proposition 3); whence an absurd conclusion. 現在 $p \neq (0)$ であれば、命題 5 から、$B/pB$ は体 $A/p$ を超えて有限次元ベクトル空間であることがわかり、したがって \emph{アルティン} 環となり、したがって有限の素イデアル (章) の数しかありません。 IV, § 2, no. 5, 命題 9)、これは、$B$ 含む $p$ の素イデアルのうち有限の数しか存在しないことを証明しています。
+まず、$p = (0)$; と仮定します。次に、$q \cap A = (0)$ が $(0)$ となるような $B$ の唯一の素イデアル $q$ です。それ以外の場合、$S = A - \{0\}, S^{-1}q$ と書くと、$S^{-1}B$ の非ゼロ素イデアルになります (第 11 章、§ 2, no. 5、命題 11)。そして、$S^{-1}B$ は、$K$ を含む $L$ の部分環であるため、$B$ の分数体にすぎません (\emph{代数}、第 1 章) V, § 3, no. 2、提案 3);そこから不合理な結論が導き出されます。 現在 $p \neq (0)$ であれば、命題 5 から、$B/pB$ は体 $A/p$ を超えて有限次元ベクトル空間であることがわかり、したがって \emph{アルティン} 環となり、したがって有限の素イデアル (章) の数しかありません。 IV, § 2, no. 5, 命題 9)、これは、$B$ 含む $p$ の素イデアルのうち有限の数しか存在しないことを証明しています。
 
 #### 系 2 {#ac-vii-s2-prop-5-cor-2 .statement tag=050Y}
 
@@ -298,9 +298,9 @@ $$
 (c) $[B/p_i : A/p] = f(v_i/v);$
 (d) $e_i = e(v_i/v)$ (cf. 章 VI, § 8, no. 1、定義 1 および 2)。
 
-(a) To say that a prime ideal $q$ of $B$ lies above $p$ amounts to saying that $q \supseteq p$, hence that $q \supseteq Bp$ and that $q$ contains one of the $p_i$ such that $e(i) > 0$ (Chapter 11, § 1, no. 1, Proposition 1).
-(b) This follows, taking account of (a), from § 1, no. 8, Corollary to Proposition 12.
-(c) The residue field of $v$ is identified with $A/p$ and that of $v_i$ with $B/p_i$ (§ 1, no. 4, Corollary 1 to Proposition 6).
+(a) $B$ の素理想 $q$ が $p$ の上にあると言うのは、 $q \supseteq p$ 、したがって $q \supseteq Bp$ と $q$ には $e(i) > 0$ のような $p_i$ の 1 つが含まれていると言うことに等しい（第 11 章、§ 1, no. 1、命題 1）。
+(b) (a) を考慮して、命題 12 の§ 1, no. 8 から次のようになります。
+(c) $v$ の剰余体は $A/p$ と同一視され、$v_i$ の剰余体は $B/p_i$ と同一視される (§ 1, no. 4、命題 6 の系 1)。
 
 (d) $a$ (それぞれ $a_i$) を $v$ (それぞれ $v_i$) の均一化器とします。それから
 $$

@@ -33,16 +33,16 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: 517b251c05930a24847507b9bd6393b2042218aad1e2825aee60c7eadd04e6ac
+content_sha256: af341f918cce0ffd73d365e62713af5c5e7f7d686174023bf63ef85c2769e782
 translated_from: content/en/lie/II/05_s5_magnus_algebras.md
 translation_method: google
 source_content_sha256: 6bac6bb784fbb4b199b3afb36bd212ba5f589bd833743b3d4385ed3b9a405428
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b0ad2f6a9fd0c58c7f45c3ae27fe0dabc8e03f22ba8113dd9978ff24fa1a4645
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。マグナス代数
@@ -150,11 +150,11 @@ hence $g(w) \neq 1$ by Lemmas 3 and 4.
 
 #### 定理 2 {#lie-ii-s5-thm-2 .statement tag=0A5H}
 
-* 環 $K$ 関係 $n.1 = 0$ は、すべての整数 $n$ に対して $n = 0$ を意味するとします。 $r$ を $X$ の写像を $\hat{A}(X)$ にすると、$x \in X$ は $\omega(r(x)) \geq 2$ になり、$g$ は $F(X)$ の準同型になり、$g(x) = 1 + x + r(x)$ になるようにマグナス群 $\Gamma(X)$ になります。 $x \in X$の場合。 すべての $n \geq 1$ について、$C^n F(X)$ は部分群の $g$ $\Gamma(X)$ の $1 + \hat{A}_n(X)$ の下にある逆像です。*
+*環 $K$ 関係 $n.1 = 0$ は、整数 $n$ ごとに $n = 0$ を意味するとします。 $r$ を $X$ の写像から $\hat{A}(X)$ に、$x \in X$ に対して $\omega(r(x)) \geq 2$ を計算し、$g$ を $F(X)$ の準同型としてマグナス群 $\Gamma(X)$ にします。 $x \in X$の場合は$g(x) = 1 + x + r(x)$。すべての $n \geq 1$ について、$C^n F(X)$ は部分群の $g$ および $\Gamma(X)$ の $1 + \hat{A}_n(X)$ の下にある逆像です。*
 
 #### 定理 3 {#lie-ii-s5-thm-3 .statement tag=0A5I}
 
-※すべての$x \in X$について、$c(x)$を$F(X)/(F(X), F(X))$の$x$の標準像とします。 $g$ を、$F(X)$ (§ 4, no. 6) の濾過 $(C^n F(X))_{n \geq 1}$ に関連付けられた段階的リー $\mathbf{Z}$-代数とします。 The unique homomorphism of the free Lie $\mathbf{Z}$-algebra $L_\mathbf{Z}(X)$ into $g$ which extends $c$ is an isomorphism.*
+※すべての$x \in X$について、$c(x)$を$F(X)/(F(X), F(X))$の$x$の標準像とします。 $g$ を、$F(X)$ (§ 4, no. 6) の濾過 $(C^n F(X))_{n \geq 1}$ に関連付けられた段階的リー $\mathbf{Z}$-代数とします。 自由リー $\mathbf{Z}$-代数 $L_\mathbf{Z}(X)$ の一意な準同型を $g$ にすると、 拡大する $c$ は同型になります。*
 
 大まかに言うと、自由群 $F(X)$ (下部中央系列) に関連付けられた段階付きリー $\mathbf{Z}$-代数は、自由 リー $\mathbf{Z}$-代数 $L_\mathbf{Z}(X)$ です。
 
@@ -174,7 +174,7 @@ $$
 L_\mathbf{Z}(X) \xrightarrow{\alpha} g \xrightarrow{\varepsilon} g' \xrightarrow{f} A(X).
 $$
 
-We write $\beta = f \circ \varepsilon$; we give $\beta$ explicitly as follows: if $u$ is the class modulo $C^{n+1}$ of an element $w$ of $C^n$, then $\gamma(w) - 1$ is of order $\geq n$ in $\hat{A}$ and $\beta(u)$ is the homogeneous component of $\gamma(w) - 1$ of degree $n$. 特に、
+$\beta = f \circ \varepsilon$と書きます。 $\beta$ を次のように明示的に与えます。 $u$ が $C^n$ の要素 $w$ の $C^{n+1}$ を法とするクラスである場合、 $\gamma(w) - 1$ は $\hat{A}$ の次数 $\geq n$ であり、 $\beta(u)$ は次数 $\gamma(w) - 1$ の同次成分です$n$。 特に、
 
 $$
 \beta(c(x)) = x \quad \text{for all } x \in X.
@@ -210,7 +210,7 @@ $$
 
 #### 注意 {#lie-ii-s5-n4-rem-1 .statement tag=0A5K}
 
-H を X (§ 2, no. 10) に対するホール集合とします。 M を F(X) 上の合成 (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy の法則で定義されるマグマとし、$\phi$ を M(X) の準同型から制限から X までの M とする。がアイデンティティです。 $\phi(H)$ の元は、ホール集合 H に関連付けられた F(X) の *基本交換子* と呼ばれます。 For every integer n \geqslant 1, let H_n be the subset of H consisting of the elements of length n; we know (§ 2, no. 11, Theorem 1) that the canonical mapping of H_n into L_\mathbf{Z}(X) is a basis of the Abelian group L_\mathbf{Z}^n(X). さらに、$\phi(H_n) \subset C^n$; H_n のすべての m \in について、$\phi_n(m)$ を類 mod とします。 C^{n+1}/$\phi(m) \in C^n$。 定理 3 は、$\phi_n$ がアーベル群* C^n/C^{n+1} の基底に対する H_n の *全単射であることを示します。 すべての w \in F(X) とすべての i \geqslant 1 に対して、n \geqslant 1 に対して、 $\mathbf{Z}^{(H_i)}$ の一意元 $\alpha_i$ が存在することがすぐにわかります。
+H を X (§ 2, no. 10) に対するホール集合とします。 M を、F(X) 上の合成 (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy の法則で定義されるマグマとし、$\phi$ を M(X) の準同型として、制限がXがアイデンティティです。 $\phi(H)$ の元は、ホール集合 H に関連付けられた F(X) の *基本交換子* と呼ばれます。 整数 n \geqslant 1 ごとに、H_n を H の部分集合からなるとします元/長さn;私たちは (§ 2, no. 11, 定理 1)、L_\mathbf{Z}(X) への H_n の標準写像はアーベル群 L_\mathbf{Z}^n(X) の基底であることを知っています。さらに、$\phi(H_n) \subset C^n$; H_n のすべての m \in について、$\phi_n(m)$ を類 mod とします。 C^{n+1}/$\phi(m) \in C^n$。 定理 3 は、$\phi_n$ がアーベル群* C^n/C^{n+1} の基底に対する H_n の *全単射であることを示します。すべての w \in F(X) とすべての i \geqslant 1 に対して、n \geqslant 1 に対して、 $\mathbf{Z}^{(H_i)}$ の一意元 $\alpha_i$ が存在することがすぐにわかります。
 
 $$
 w = \prod_{i=1}^n \prod_{m \in H_i} \phi(m)^{\alpha_i(m)} \mod. C^{n+1},
@@ -241,9 +241,9 @@ $n$ について帰納法によって議論すると、$F_n^{(p)}(X)/F_{n+1}^{(p
 
 #### 命題 3 {#lie-ii-s5-prop-3 .statement tag=0A5N}
 
-*For all $w \neq 1$ in $F(X)$, there exist a finite $p$-group $G$ and a homomorphism $f$ of $F(X)$ into $G$ such that $f(w) \neq 1$.*
+*$F(X)$ のすべての $w \neq 1$ に対して、有限 $p$ 群 $G$ と、$f(w) \neq 1$ となるような $F(X)$ から $G$ への準同型性 $f$ が存在します。
 
-$w = x_1^{n_1} \ldots x_r^{n_r}$となるような$X$と整数$n_1, \ldots, n_r$の元$x_1, \ldots, x_r$が存在します。 $Y = \{x_1, \ldots, x_r\}$ にしましょう。 The canonical injection of $Y$ into $X$ extends to a homomorphism $\alpha : F(Y) \to F(X)$; on the other hand, let $\beta$ be the homomorphism of $F(X)$ into $F(Y)$ whose restriction to $Y$ is the identity and which maps $X - Y$ to $\{1\}$. すると、$y \in Y$ に対して $\beta(\alpha(y)) = y$ となり、したがって $\beta \circ \alpha$ は $F(Y)$ の同一性自己同型になります。 $F(Y)$ には明らかに $w = \alpha(w')$ となる $w'$ が存在します。次に$\beta(w) = w' \neq 1$;現在 $\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$ なので、$\beta(w) \notin F_n^{(p)}(Y)$ となるような整数 $n \geqslant 1$ が存在します。 命題 2 により、群 $G = F(Y)/F_n^{(p)}(Y)$ は有限 $p$ 群になります。 If $f$ is the composition of $\beta$ and the canonical homomorphism of $F(Y)$ onto $G$, then $f(w) \neq 1$.
+$w = x_1^{n_1} \ldots x_r^{n_r}$となるような$X$と整数$n_1, \ldots, n_r$の元$x_1, \ldots, x_r$が存在します。 $Y = \{x_1, \ldots, x_r\}$ にしましょう。 $Y$ の標準単射を $X$ 拡大するから準同型 $\alpha : F(Y) \to F(X)$ に。一方、$\beta$ を $F(X)$ の準同型から $F(Y)$ とし、制限から $Y$ までを恒等とし、写像 $X - Y$ から $\{1\}$ にする。すると、$y \in Y$に対する$\beta(\alpha(y)) = y$、したがって$\beta \circ \alpha$は$F(Y)$の同一性自己同型になります。 $w = \alpha(w')$ となるような $F(Y)$ には明らかに $w'$ が存在します。それから$\beta(w) = w' \neq 1$;現在 $\bigcap_{n \geqslant 1} F_n^{(p)}(Y) = \{1\}$ なので、$\beta(w) \notin F_n^{(p)}(Y)$ のような整数 $n \geqslant 1$ が存在します。 命題 2 により、群 $G = F(Y)/F_n^{(p)}(Y)$ は有限の $p$ 群になります。 $f$が$\beta$の合成と$F(Y)$の標準準同型を$G$にすると、$f(w) \neq 1$になります。
 
 #### 系 {#lie-ii-s5-n5-cor-1 .statement tag=0A5O}
 

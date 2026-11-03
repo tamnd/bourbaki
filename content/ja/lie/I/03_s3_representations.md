@@ -45,16 +45,16 @@ subsections:
       pdf_page: 54
 statements: 24
 exercises: 12
-content_sha256: 649487443c3adfde51663f794fdaab106b4ee75feb98021bcbc287071cfe31cd
+content_sha256: dca336c1fb780a6e4d4ba8bca2fae0943d15823aa40c5b8859248417859a0412
 translated_from: content/en/lie/I/03_s3_representations.md
 translation_method: google
 source_content_sha256: a021ec46ba121f306f571608589128b59fe9512dee7105b93f2d9f49b1ae24bd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 20cc1f06100c0fd42d6992c17a7bd9698bdec4a5f84588e535cfbc007c37c2ad
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。 表現
@@ -77,7 +77,7 @@ $$
 
 G を実リー群、g をそのリー代数とし、θ を有限次元実数ベクトル空間 E 上の G の解析表現とします。すると、g の gl(E) への対応する準同型は、E 上の g の表現になります。
 
-U を g を包む代数とします。 Proposition 1 of § 2, no. 1 defines a one-to-one correspondence between the set of representations of g on M and the set of representations of U on M. 一方、結合代数 U の表現と左 U モジュールの概念の間に同値があることが (代数, 章 VIII, § 13, no. 1) わかります。
+U を g を包む代数とします。 § 2, no. 1 の命題 1 定義する M の g の表現の集合と M の U の表現の集合の間の 1 対 1 の対応。一方、私たちは知っています (代数、章) VIII, § 13, no. 1) 連想代数 U の表現の概念と左 U モジュールの同値の間に同値があること。
 
 #### 定義 2 {#lie-i-s3-def-2 .statement tag=09VU}
 
@@ -149,7 +149,7 @@ $a$ モジュール $M$ は有限長であるため、$M$ のサブ $a$ モジ�
 
 $g$ の表現のファミリーの no. 1 直和で定義しました。これから表現に定義するその他の演算を行います。
 
-$g_1, g_2$ を 2 つのリー代数と $K$ および $M_i$ を $g_i$ モジュール ($i = 1, 2$) とします。 $U_i$を、$g_i$の代数と$g_i$の$\sigma_i$標準写像を$U_i$に包むものとします。この場合、$M_i$ は左 $U_i$ モジュールであるため、$M_1 \otimes_K M_2$ は標準的な左 $(U_1 \otimes_K U_2)$ モジュール構造になります。さて、$U_1 \otimes_K U_2$は$g_1 \times g_2$の代数を包むものであり、写像$(x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$は$g_1 \times g_2$の標準写像をこの包む代数(§ 2, no. 2)に包含します。したがって、$M = M_1 \otimes_K M_2$ には次のような $(g_1 \times g_2)$ モジュール構造が存在します。
+$g_1, g_2$ を 2 つのリー代数と $K$ および $M_i$ を $g_i$ モジュール ($i = 1, 2$) とします。 $U_i$ を $g_i$ の代数と $g_i$ の $\sigma_i$ 標準写像を $U_i$ に包むものとします。この場合、$M_i$ は左 $U_i$ モジュールであるため、$M_1 \otimes_K M_2$ は標準的な左 $(U_1 \otimes_K U_2)$ モジュール構造になります。ここで、$U_1 \otimes_K U_2$ は $g_1 \times g_2$ の代数を包含し、写像 $(x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$ は、$g_1 \times g_2$ の標準写像をこの包含代数 (§ 2, no. 2) に包含します。したがって、$M = M_1 \otimes_K M_2$ には次のような $(g_1 \times g_2)$ モジュール構造が存在します。
 
 $$
 \begin{align*}
@@ -158,9 +158,9 @@ $$
 \end{align*}
 $$
 
-これは、$M$ の $g_1 \times g_2$ の構造定義する表現です。
+これは、$M$の$g_1 \times g_2$の構造定義する表現です。
 
-ここで、$g$ の $g_1 = g_2 = g$、準同型 $x \mapsto (x, x)$ を $g \times g$ にすると、上記の表現、定義する表現 $M$ の $g$ で構成され、したがって $g$ モジュール構造になります。 $M$ 次のようになります:
+ここで、$g$ の $g_1 = g_2 = g$、準同型 $x \mapsto (x, x)$ を $g \times g$ にすると、上記の表現、定義する表現と $M$ の $g$ で構成され、したがって$M$ の $g$ モジュール構造は次のとおりです。
 
 $$
 (2) \quad x_M \cdot (m_1 \otimes m_2) = (x_{M_1} \cdot m_1) \otimes m_2 + m_1 \otimes (x_{M_2} \cdot m_2).
@@ -170,7 +170,7 @@ $$
 
 #### 命題 2 {#lie-i-s3-prop-2 .statement tag=09VX}
 
-$g$ を $K$ 上のリー代数とし、$M_i$ を $g$ モジュール ($1 \leq i \leq n$) とします。 テンソル積 $M_1 \otimes_K M_2 \otimes \cdots \otimes M_n$ には、次のような $g$ モジュール構造が 1 つだけ存在します。
+$g$ を $K$ と $M_i$ のリー代数を $g$ モジュール ($1 \leq i \leq n$) とします。 テンソル積 $M_1 \otimes_K M_2 \otimes \cdots \otimes M_n$ には、次のような $g$ モジュール構造が 1 つだけ存在します。
 
 $$
 x_M \cdot (m_1 \otimes \cdots \otimes m_m) = \sum_{t=1}^n m_1 \otimes \cdots \otimes (x_{M_t} \cdot m_i) \otimes \cdots \otimes m_n
@@ -180,11 +180,11 @@ $$
 
 対応する表現は、$M_i$ の $g$ の指定された表現の *テンソル積* と呼ばれます。
 
-In particular, if $M$ is a $g$-module, Proposition 2 defines a $g$-module structure on each $M_p = \bigotimes^p M$ and hence on the tensor algebra $T$ of $M$.
+特に、$M$ が $g$ モジュールの場合、命題 2 定義するは各 $M_p = \bigotimes^p M$ の $g$ モジュール構造になり、したがって $M$ のテンソル代数 $T$ にもなります。
 
-公式 (3) は、すべての $x \in g, x_T$ が拡大する $x_M$ である代数 $T$ の一意の *導分* であることを示しています。私たちは、$M$の対称代数$S$の移行から商導分に$x_T$定義するがいることを知っています（§ 2, no. 8）。したがって、$S$ は $T$ の商 $g$ モジュールと考えることができ、$x_S$ は $S$ の導分です。
+公式 (3) は、すべてにおいて、$x \in g, x_T$ が拡大する $x_M$ である代数 $T$ の一意の *導分* であることを示しています。 $M$ の対称代数 $S$ の移行から商導分に$x_T$ 定義するがあることがわかります (§ 2, no. 8)。したがって、$S$ は $T$ の商 $g$ モジュールと考えることができ、$x_S$ は $S$ の導分です。
 
-Still more particularly, consider $g$ as a $g$-module by means of the adjoint representation of $g$. $U$ を $g$ を囲む代数とします。 By Proposition 7 of § 2, $x_M$ defines on passing to the quotients a derivation of $U$ which is just the inner derivation defined by $\sigma(x)$ ($\sigma$ denoting the canonical mapping of $g$ into $U$). すると、$U$ は $T$ の商 $g$ モジュールと考えることができます。 $K$ が特性 0 の体である場合、$U$ 上の $S$ の標準同型は、$g$ モジュール同型 (§ 2, no. 8) です。
+さらに具体的には、$g$ の随伴表現を使用して、$g$ を $g$ モジュールとして考えます。 $U$ を $g$ を囲む代数とします。 § 2の命題7、$x_M$定義するにより、移行から$U$の商導分まで、つまり$\sigma(x)$($\sigma$)によって定義される内部導分になります$g$ の標準写像を $U$ に表します)。すると、$U$ は $T$ の商 $g$ 加群と考えることができます。 $K$ が特性 0 の体である場合、$U$ 上の $S$ の標準同型は、$g$ 加群同型 (§ 2, no. 8) です。
 
 ### 3. 準同型加群の表現
 
@@ -194,7 +194,7 @@ $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)
 $$
 
-$g_1^0 \times g_2$ の標準写像がこの代数に収まります。 したがって、$M = \mathscr{L}_K(M_1, M_2)$ には次のような $(g_1^0 \times g_2)$ モジュール構造が存在します。
+$g_1^0 \times g_2$ の標準写像がこの代数に収まります。したがって、$M = \mathscr{L}_K(M_1, M_2)$ には次のような $(g_1^0 \times g_2)$ モジュール構造が存在します。
 
 $$
 ((x_1, x_2)_M \cdot u) \cdot m_1 = ((\sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)) \cdot u) \cdot m_1 \\
@@ -282,35 +282,35 @@ $$
 
 したがって $\psi x_Q = x_R \psi$ となり、証明が完成します。
 
-$g$ モジュール $\mathscr{L}(M_1, M_2^*)$ および $(M_1 \otimes M_2)^*$ は、同型 $\psi$ で識別されます。 $M_1$ と $M_2$ が有限の基底を持つ場合、$\phi$ は同型 (代数, 章 II, § 4, no. 2, 命題 2) となり、同一視するが可能になります。 $g$-モジュール $M_1^* \otimes M_2$ および $\mathscr{L}(M_1, M_2)$;その場合、したがって、$g$ モジュール $M_1^* \otimes M_2^*, \mathscr{L}(M_1, M_2^*)$ と $(M_1 \otimes M_2)^*$ を同一視するにすることができます。
+$g$ モジュール $\mathscr{L}(M_1, M_2^*)$ および $(M_1 \otimes M_2)^*$ は、同型 $\psi$ で識別されます。 $M_1$ と $M_2$ が有限の基底を持つ場合、$\phi$ は同型 (代数, 章 II, § 4, no. 2, 命題 2) となり、同一視するが可能になります。 $g$-モジュール $M_1^* \otimes M_2$ および $\mathscr{L}(M_1, M_2)$;その場合、したがって、$g$ モジュール $M_1^* \otimes M_2^*, \mathscr{L}(M_1, M_2^*)$ と $(M_1 \otimes M_2)^*$ を同一視するすることができます。
 
 ### 4. 例
 
 #### 例 1 {#lie-i-s3-n4-exa-1 .statement tag=09W0}
 
-$g$ を $K$ 上のリー代数とし、$M$ を $g$ モジュールとします。 $M$ の $g$ モジュール構造と、$K$ 定義するの自明な $g$ モジュール構造、$M$ の双線形形式の $N = \mathscr{L}(M, M; K)$ の $K$ モジュール上の $g$ モジュール構造。 それから
+$g$ を $K$ 上のリー代数とし、$M$ を $g$ モジュールとします。 $M$ の $g$ モジュール構造と $K$ 定義するの自明な $g$ モジュール構造双線形形式の $K$ モジュール$N = \mathscr{L}(M, M; K)$ の $g$ モジュール構造$M$。それから
 
 $$
 (x_N \cdot \beta)(m, m') = -\beta(x_M \cdot m, m') + \beta(m, x_M \cdot m')
 $$
 
-$M, \beta \in N$ のすべての $x \in g, m, m'$ に対して。 $\beta$ が $N$ の元、$x \in g$ の集合である場合、$x_N \cdot \beta = 0$ は $g$ の部分代数になります。
+$M, \beta \in N$の$x \in g, m, m'$全員に。 $\beta$ が $N$ の元、$x \in g$ の集合である場合、$x_N \cdot \beta = 0$ は $g$ の部分代数になります。
 
-Let $M$ be a $K$-module and $\beta$ a bilinear form on $M$. By the above, the set of $x \in gl(M)$ such that
+$M$ を $K$ モジュール、$M$ 上の $\beta$ 双線形形式とします。上記により、$x \in gl(M)$ の集合は次のようになります。
 
 $$
 \beta(x \cdot m, m') + \beta(m, x \cdot m') = 0
 $$
 
-すべての$m \in M$と$m' \in M$は、$gl(M)$の嘘部分代数です。 $K$ が体、$M$ が有限次元、$\beta$ が非縮退であると仮定します。次に、すべての $x \in gl(M)$ は、どこでも定義されている左随伴 $x^*$ ($\beta$ に対して) を認めます。また、問題の部分代数は、$x^* = -x$ のように、$x \in gl(M)$ の集合です。このプロセスにより、構成する 2 つの重要な例リー代数:
+すべての$m \in M$と$m' \in M$は$gl(M)$の嘘部分代数です。 $K$ が体、$M$ が有限次元、$\beta$ が非縮退であると仮定します。次に、すべての $x \in gl(M)$ は、どこでも定義されている左随伴 $x^*$ ($\beta$ に対して) を認め、問題の部分代数は、$x^* = -x$ となる $x \in gl(M)$ の集合です。このプロセスにより、構成する 2 つの重要な例リー代数を実現できます。
 
-(a) $M = K^n$ を取得し、
+(a) $M = K^n$ を取って、
 
 $$
 \beta((\xi_1, \ldots, \xi_n), (\eta_1, \ldots, \eta_n)) = \xi_1 \eta_1 + \cdots + \xi_n \eta_n.
 $$
 
-正規的には同一視する $gl(K^n)$ と $M_n(K)$ です。すると、リー代数は、斜対称行列のリー代数になります。 *($K = \mathbf{R}$のとき、この代数は直交群$O(n, \mathbf{R})$のリー代数です)。
+同一視する $gl(K^n)$ は $M_n(K)$ と正規化されています。すると、リー代数は斜対称行列のリー代数となります。 *($K = \mathbf{R}$のとき、この代数は直交群$O(n, \mathbf{R})$のリー代数です)。
 
 (b) $M = K^{2m}$ を取得し、
 $$
@@ -352,7 +352,7 @@ $$
 
 *例 1* の記法を保存します。
 
-The $g$-module structure on $M$ defines on the $K$-module $P = \mathscr{L}_K(M, M)$ of endomorphisms of $M$ a $g$-module structure. (6) により、すべての $x \in g$ と $u \in P$ について:
+$M$ 上の $g$ 加群構造は、$M$ の準同型性の $K$ 加群 $P = \mathscr{L}_K(M, M)$ 上で $g$ 加群構造を定義します。 (6) により、すべての $x \in g$ と $u \in P$ について:
 $$(11)$$
 $$
 x_P \cdot u = [x_M, u] = (\mathrm{ad}\, x_M) \cdot u
@@ -416,7 +416,7 @@ $$
 
 $g$ のすべての $x, y, z$ に対して。
 
-ここで、$\mathfrak{d}$ を $g$ の導分のリー代数とします。 The identity representation of $\mathfrak{d}$ and the zero representation of $\mathfrak{d}$ on $K$ define a representation $D \mapsto D_N$ of $\mathfrak{d}$ on $N$. 簡単に言うと、$g$ 上の双線形形式が表現 $D \mapsto D_N$ で不変である場合、それは *完全に不変* であると言います。 完全に不変双線形形式は不変です。 $g$ 上の双線形形式 $\beta$ が完全に不変であるためには、次のことが必要かつ十分です。
+ここで、$\mathfrak{d}$ を $g$ の導分のリー代数とします。 $\mathfrak{d}$ の恒等表現と $K$ 上の $\mathfrak{d}$ のゼロ表現は、$N$ 上の $\mathfrak{d}$ の表現 $D \mapsto D_N$ を定義します。 簡単に言うと、$g$ 上の双線形形式が表現 $D \mapsto D_N$ で不変である場合、それは *完全に不変* であると言います。 完全に不変双線形形式は不変です。 $g$ 上の双線形形式 $\beta$ が完全に不変であるためには、次のことが必要かつ十分です。
 
 $$
 \beta(Dx, y) + \beta(x, Dy) = 0
@@ -432,13 +432,13 @@ $g$ と $D \in \mathfrak{d}$ のすべての $x, y$ に対して。
 (b) *$a$ が特性であり、$\beta$ が完全に不変である場合、$a'$ は特性です。*
 (c) *$\beta$ が非縮退の場合、$a \cap a'$ は可換です。*
 
-$D$ を $g$ の導分とします。 $a$が$D$では安定しており、$g$の$x, y$に対して$\beta(Dx, y) + \beta(x, Dy) = 0$が安定しているとします。次に、$z \in a'$ は、すべての $t \in a$、$Dt \in a$、したがって $\beta(Dz, t) = -\beta(z, Dt) = 0$ について、$Dz \in a'$ を意味します。したがって、$a'$ は $D$ の下で安定します。これにより、(a) と (b) が成立します。
+$D$を$g$の導分とします。 $a$が$D$では安定しており、$g$の$x, y$に対して$\beta(Dx, y) + \beta(x, Dy) = 0$が安定しているとします。次に、$z \in a'$ は、すべての $t \in a$、$Dt \in a$、したがって $\beta(Dz, t) = -\beta(z, Dt) = 0$ について、$Dz \in a'$ を意味します。したがって、$a'$ は $D$ の下で安定します。これにより、(a) と (b) が成立します。
 
-さて、$b$を$g$の理想とし、$\beta$～$b$の制限が零であるとします。 $b$と$z \in g$、$\beta([x, y], z) = \beta(x, [y, z]) = 0$の$x, y$、$[y, z] \in b$の場合。したがって、$[b, b]$ は $g$ に直交します。 $\beta$ が非縮退であれば、$b$ は可換です。この結果を$a \cap a'$に適用すると、(c)が証明されます。
+さて、$b$を$g$の理想とし、$\beta$から$b$の制限が零であるとします。 $x, y$の場合は$b$と$z \in g$、$\beta([x, y], z) = \beta(x, [y, z]) = 0$、$[y, z] \in b$の場合。したがって、$[b, b]$ は $g$ に直交します。 $\beta$ が非縮退であれば、$b$ は可換です。この結果を$a \cap a'$に適用すると、(c)が証明されます。
 
 #### 定義 4 {#lie-i-s3-def-4 .statement tag=09W9}
 
-*Let $g$ be a Lie $K$-algebra and $M$ a $g$-module. $M$ が $K$ 加群として考えられ、有限の基底を許容すると仮定します。 $g$ モジュール $M$ (または対応する表現) に関連付けられた双線形形式は、$g$ 上の対称の双線形形式 $(x, y) \mapsto \operatorname{Tr}(x_M y_M)$ です。 問題の表現が随伴表現である場合、関連する双線形形式は $g$ の Killing 形と呼ばれます。
+*$g$ を嘘$K$-代数、$M$ を$g$-加群とする。 $M$ が $K$ 加群として考慮され、有限の基底が許容されると仮定します。 $g$ モジュール $M$ (または対応する表現) に関連付けられた双線形形式は、$g$ 上の対称の双線形形式 $(x, y) \mapsto \operatorname{Tr}(x_M y_M)$ です。問題の表現が随伴表現である場合、関連する双線形形式は$g$の殺害形と呼ばれます。
 
 #### 命題 8 {#lie-i-s3-prop-8 .statement tag=09WA}
 
@@ -455,7 +455,7 @@ $$
 
 #### 命題 9 {#lie-i-s3-prop-9 .statement tag=09WB}
 
-*$K$ が体で、リー代数 $g$ が $K$ 上の有限次元* であると仮定します。 *$a$を$g$の理想とし、$\beta$を$g$の殺害形、$\beta'$を$a$の殺害形とします。すると、$\beta'$は$\beta$から$a$の制限になります。
+*$K$ が体で、リー代数 $g$ が $K$ 以上の有限次元* であると仮定します。 *$a$を$g$の理想、$\beta$を$g$の殺害形、$\beta'$を$a$の殺害形とします。すると、$\beta'$は$\beta$から$a$の制限になります。
 
 $u$ をベクトル空間 $g$ の自己準同型とすると、$a$ は安定します。 $v$を$u$から$a$の制限と、移行から商のときの$u$から導かれるベクトル空間$g/a$の$w$自己準同型とします。 次に、$g$ の基底 $(x_1, \ldots, x_n)$ のうち、$a$ の最初の $p$ 元形基底を取得すると、$\operatorname{Tr} u = \operatorname{Tr} v + \operatorname{Tr} w$ が得られます。 次に$x \in a, y \in a$とし、上記の公式を$u = (\operatorname{ad}_g x)(\operatorname{ad}_g y)$の場合に適用します。 次に、$v = (\operatorname{ad}_a x)(\operatorname{ad}_a y)$ と $w = 0$ です。 したがって、$\beta(x, y) = \beta'(x, y)$です。
 

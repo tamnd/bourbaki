@@ -50,25 +50,25 @@ subsections:
       pdf_page: 402
 statements: 66
 exercises: 14
-content_sha256: 2ff4ea72261eda0b04650b42cb4716b9099f771e9adbe478298e1f8eb920cdec
+content_sha256: ecdafd9785dd77c90bcd2997180b987fa23d87d933fed284db2443ce19dd8d17
 translated_from: content/en/alg/VII/05_s5_endomorphisms_of_vector_spaces.md
 translation_method: google
 source_content_sha256: b9e185d13ebac7827bb1a35037e89aed5a271cfe0bbc0b2b0fb72b7a265e5960
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-58970ece
 glossary_version: 34
 glossary_terms_sha256: a5ed0a1524268d1c98e8a3bc5c80b13ad3d052e8ec388be8595880b80d4c0b0f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 ベクトル空間中自己準同型
 
-Notation. — Given a module $M$, an element $x$ of $M$, and two endomorphisms $u$ and $v$ of $M$, we will write $u.x$, $uv.x$ and $uv$ in place of $u(x)$, $(u \circ v)(x)$ and $u \circ v$ respectively ; we will denote the identity map from $M$ to itself by 1 when no confusion can arise.
+表記。 — モジュール $M$、$M$ の要素 $x$、および $M$ の 2 つの準同型性 $u$ と $v$ が与えられた場合、$u(x)$、$(u \circ v)(x)$ の代わりに $u.x$、$uv.x$、$uv$ と書きます。と $u \circ v$ ;混乱が生じない場合、$M$ からそれ自体への恒等写像を 1 で表します。
 
 ### 1. 加群は自己準同型に関連付けられています
 
-$A$を可換環、$M$を$A$加群、$u$を$M$の$A$同型同型とする。 (III、p. 538) を思い出してください。$A[X] \times M$ から $M$ への写像 $(p(X), x) \mapsto p(u).x$ は、$M$ を $M_u$ と書かれた $A[X]$ モジュールになります。 (III、538 および 539 ページ) を思い出してください。 $M[X]$ が $\mathbf{A}$ から $\mathbf{A}[X]$ までのスカラーの拡大によって $M$ から得られた $A[X]$ 加群を表し、$\bar{u}$ が$u$ によって誘発された $M[X]$ の $\mathbf{A}[X]$ 内部同型性では、$\mathbf{A}[XI]$ 加群 $^1$ の完全系列が存在します。
+$A$ を可換環、$M$ を $A$ 加群、$u$ を $M$ の $A$ 準同型写像とする。 (III、p. 538) を思い出してください。$A[X] \times M$ から $M$ への写像 $(p(X), x) \mapsto p(u).x$ は、$M$ を $M_u$ と書かれた $A[X]$ 加群になります。 (III、538 および 539 ページ) を思い出してください。 $M[X]$ が $\mathbf{A}$ から $\mathbf{A}[X]$ までのスカラーの拡大によって $M$ から得られた $A[X]$ モジュールを表し、 $\bar{u}$ が$u$ によって誘発された $M[X]$ の $\mathbf{A}[X]$ 内部同型性では、$\mathbf{A}[XI]$ 加群 $^1$ の完全系列が存在します。
 
 $$
 (1) \quad 0 \to M[X] \xrightarrow{\psi} M[X] \xrightarrow{\varphi} M_u \to 0 ,
@@ -127,7 +127,7 @@ $$
 
 #### 定義 1 {#alg-vii-s5-def-1 .statement tag=075G}
 
-*$E$ を可換体 $K$ のベクトル空間と、$E$ の $u$ 自己準同型とします。 An element $x$ of $E$ is said to be an eigenvector of $u$ if there exists $a \in K$ such that $u . x = \alpha x$; if $x \neq 0$ then the scalar $a$ is called the eigenvalue of $u$ corresponding to the eigenvector $x$. $x \in E$ のすべてのスカラー $a$、ベクトル部分空間 $V_a$ からなるについて、$u . x = \alpha x$ は $E$ 対応する ～ $a$ の固有空間と呼ばれます。
+*$E$ を可換体 $K$ のベクトル空間と、$E$ の $u$ 自己準同型とします。 $u . x = \alpha x$ となるような $a \in K$ が存在する場合、$E$ の要素 $x$ は $u$ の固有ベクトルであると言われます。 $x \neq 0$ の場合、スカラー $a$ は、固有ベクトル $x$ に対応する $u$ の固有値と呼ばれます。 $x \in E$ のすべてのスカラー $a$、ベクトル部分空間 $V_a$ からなるについて、$u . x = \alpha x$ は $E$ 対応する ～ $a$ の固有空間と呼ばれます。
 
 固有値 $a$ の幾何学的重複度は基数 $\dim V_a$ です。
 
@@ -135,7 +135,7 @@ $E$ が有限次元であると仮定します。 $u$ の固有値は、$E$ の�
 
 #### 命題 1 {#alg-vii-s5-prop-1 .statement tag=075H}
 
-*$E$ が有限次元であると仮定します。 Then an element $a$ of $K$ is an eigenvalue of the endomorphism $u$ if and only if it is a root of the characteristic polynomial of $u$.
+*$E$ が有限次元であると仮定します。 この場合、$K$ の要素 $a$ は、$u$ の特性多項式の根である場合に限り、準同型性 $u$ の固有値になります。
 
 $L$ が体 $K$ の拡大である場合、$L$ の $\chi_u$ の根は、$L$ ベクトル空間 $L \otimes_K E$ の自己準同型 $1, \otimes u$ の固有値です。これらは、$L$* の $u$ の *固有値と呼ばれることがよくあります。言葉の乱用により、これが $L$ の代数閉拡大の $u$ のすべての固有値に当てはまる場合、$u$ 属するから $L$ のすべての固有値が当てはまります。これは、$\chi_u$ が $L[X]$ の線形因子に分解されることを意味します。
 
@@ -222,7 +222,7 @@ U を可換体 K の係数を持つ位数 n の平方行列とします。する
 
 #### 系 3 {#alg-vii-s5-def-2-cor-3 .statement tag=075Q}
 
-— $U$ と $V$ を位数 $n$ の 2 つの正方行列とし、可換体 $K$ に係数を加えます。 If there exists an invertible square matrix $P$ over some extension $K'$ of $K$ such that $V = P^{-1}UP$, then there exists an invertible square matrix $Q$ over $K$ such that $V = Q^{-1}UQ$.
+— $U$ と $V$ を位数 $n$ の 2 つの正方行列とし、可換体 $K$ に係数を加えます。 $V = P^{-1}UP$ のような $K$ の拡張 $K'$ 上に可逆正方行列 $P$ が存在する場合、$V = Q^{-1}UQ$ のような $K$ 上の可逆正方行列 $Q$ が存在します。
 
 $E$ を可換体 $K$ 上の有限次元ベクトル空間とし、$(e_i)_{1 \leq i \leq n}$ を $E$ の基底とし、$u$ を $E$ の自己準同型とします。次に、VII, p. 29 の完全系列 (1) により、$u$ に関連付けられた $K[X]$ モジュール $E$ は、基底を備えた自由な $K[X]$ モジュール $E[X]$ の商と同型になります。 $(1 \otimes e_i)$、$K[X]$-リニア写像 $X - \bar{u}$ の下で、$E[X]$ の像によって。したがって、$u$ (VII, p. 32、定義 2) の類似性不変量 $q_i(X)$ は、$X - \bar{u}$ (VII, p. 22) の不変量因子です。したがって、VII、p. 22 の提案 6 は次のことを意味します。
 
@@ -368,14 +368,14 @@ $$
 
 #### 命題 10 {#alg-vii-s5-prop-10 .statement tag=0764}
 
-— *$E$ を有限次元 $n$ の可換体 $K$ のベクトル空間とし、$u$ を $E$ の自己準同型とし、$\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$ を分解としますその特性多項式の因子 ($K$、cf.、V、p. 21 の適切な拡大)。 $q$ が $K$ に係数を含む多項式である場合、$q(u)$ の特性多項式は次の式で与えられます*
+— *$E$ を可換体 $K$ 上の有限次元 $n$ のベクトル空間とし、$u$ を $E$ の自己準同型とし、$\chi_u(X) = \prod_{i=1}^n (X - \alpha_i)$ を分解とします。その特性多項式の因子 ($K$、cf. V、p. 21 の適切な拡大)。 $q$ が $K$ に係数を含む多項式である場合、$q(u)$ の特性多項式は次の式で与えられます*
 
 (6)
 $$
 \chi_{q(u)}(X) = \prod_{i=1}^n (X - q(\alpha_i))\ ,
 $$
 
-そしてその痕跡と行列式は次のように与えられます。
+そしてそのトレースと行列式は次のように与えられます。
 
 (7) $$
 \operatorname{Tr}(q(u)) = \sum_{i=1}^n q(\alpha_i),
@@ -384,27 +384,27 @@ $$
 \det(q(u)) = \prod_{i=1}^n q(\alpha_i).
 $$
 
-(5) のおかげで (6) から (7) と (8) が導かれることは明らかです。 公式 (6) を証明するには、K が代数的に閉じていると仮定します。次に、$u$ の$U$ 行列が下三角であることに関して、E に基底を採用します ($VII$、p. 35、提案 8 への対応)。次の簡単な補題を利用します。
+(5) のおかげで (6) から (7) と (8) が導かれることは明らかです。 公式 (6) を証明するには、K が代数的に閉じていると仮定します。次に、$u$ の行列 $U$ が下三角であることに関して、E に基底を採用します ($VII$、p. 35、提案 8 への対応)。次の簡単な補題を利用します。
 
 #### 補題 1 {#alg-vii-s5-lem-1 .statement tag=0765}
 
-*B と C が対角線 $(\beta_i)$ と $(\gamma_i)$ を持つ位数 n の下三角行列である場合、行列 $B + C$ と $BC$ は対角線 $(\beta_i + \gamma_i)$ を持つ下三角⟦ $(\beta_i \gamma_i)$.*
+*B と C が対角線 $(\beta_i)$ と $(\gamma_i)$ を持つ n 次の下三角行列である場合、行列 $B + C$ と $BC$ は対角線 $(\beta_i + \gamma_i)$ と $(\beta_i \gamma_i)$ を持つ下三角行列です。
 
-$u$ の行列 $U$ は、対角線 $(\alpha_i)$ を持つ下三角形であるため、補題 1 から、$q(U)$ は対角線 $(q(\alpha_i))$ を持つ下三角行列であることがわかります。すると、$X . I, -q(U)$ は対角線 $(X - q(a;))$ を持つ下三角行列となり、(6) が証明されます。
+たとえば、$u$ の行列 $U$ は対角線 $(\alpha_i)$ を持つ下三角行列であるため、補題 1 から、$q(U)$ は対角線 $(q(\alpha_i))$ を持つ下三角行列であることがわかります。 すると、$X . I, -q(U)$ は対角線 $(X - q(a;))$ を持つ下三角形行列であり、(6) が証明されます。
 
 #### 系 1 {#alg-vii-s5-lem-1-cor-1 .statement tag=0766}
 
-*$q(u)$が可逆であるためには、$q$が$\chi_u$と互いに素であることが必要かつ十分です。*
+*$q(u)$が可逆であるためには、$q$が$\chi_u$と互いに素であることが必要かつ十分です。
 
 確かに、$q$ と $\chi_u$ が互いに素であると言うのは、K の代数閉拡大には共通の根が無く、他の語 (8) には $\det(q(u)) \neq 0$ が無いというというと同等です。
 
 #### 注意 1 {#alg-vii-s5-n5-rem-1 .statement tag=0767}
 
-— 多項式が $\chi_u$ と互いに素であるのは、それが最小多項式 $u$ (VII, p. 33、Cor. 2) と互いに素である場合に限ります。
+— 多項式は、$u$ (VII、p. 33、Cor. 2) の最小多項式と互いに素である場合にのみ、$\chi_u$ と互いに素です。
 
 #### 系 2 {#alg-vii-s5-lem-1-cor-2 .statement tag=0768}
 
-*$r \in K(X)$ を K に対する有理数写像とします。すると、$u$ は、それぞれの固有値がそうである場合に限り、$r$ で置換可能です (IV、p. 21)。この場合、次の式が成り立ちます:*
+*$r \in K(X)$ を K 上の有理数写像とします。すると、$u$ は、その固有値のそれぞれがそうである場合に限り、$r$ で置換可能 (IV、p. 21) になります。この場合、次の式が成り立ちます:*
 
 $$
 \chi_{r(u)}(X) = \prod_{i=1}^n (X - r(\alpha_i)), \quad \operatorname{Tr}(r(u)) = \sum_{i=1}^n r(\alpha_i), \quad \det(r(u)) = \prod_{i=1}^n r(\alpha_i).
@@ -547,7 +547,7 @@ A を $\mathrm{End}_K(E)$ 含むの部分代数とします。この場合、A �
 (ii) K-代数 A は対角化可能です。
 (iii) $\mathscr{S}$ の元は対角化可能であり、1 つの他のと可換です。
 
-$(e_i)$ が $\mathscr{S}$ に対して対角である E の基底である場合、A はこの基底に対して対角である自己準同型の代数に含まれるため、対角化可能です。 A が対角化可能である場合、同じ引数は $\mathscr{S}$ が対角化可能であることを示します。 これは(i)と(ii)の同値を示しています。 任意の 2 つの対角線行列が交換できるため、(i) $\rightarrow$ (iii) が得られ、逆を証明する必要があります。 次に、$\mathscr{S}$ の元が対角化可能であり、互いに交換できるとします。 次の補題を使用します。
+$(e_i)$ が $\mathscr{S}$ に対して対角である E の基底である場合、A はこの基底に対して対角である自己準同型の代数に含まれるため、対角化可能です。 A が対角化可能である場合、同じ引数は $\mathscr{S}$ が対角化可能であることを示します。これは(i)と(ii)の同値を示しています。任意の 2 つの対角線行列が通勤するので、(i) $\rightarrow$ (iii) が得られ、逆を証明する必要があります。次に、$\mathscr{S}$ の元が対角化可能であり、互いに交換できるとします。次の補題を使用します。
 
 #### 補題 3 {#alg-vii-s5-lem-3 .statement tag=076L}
 
@@ -605,7 +605,7 @@ E を可換体 K 上のベクトル空間とし、L を K の拡大、E の $u$ 
 
 — *あなたが絶対的に半単純であるために必要かつ十分な条件は、L が完全であり、$u_{(L)}$ が半単純であるような K の拡大 L が存在することです。
 
-The condition in the corollary means that there exists an extension L of K such that L is perfect and $q(X)$ has no multiple factors in $L[X]$ (Prop. 14) ; this condition is equivalent to (iii) by V, p. 38, Cor. 2.
+系の条件は、L が完全であり、$q(X)$ には $L[X]$ に倍数因子がないような K の拡大 L が存在することを意味します (提案 14)。この条件は、V、p. 38、Cor による (iii) と同等です。 2.
 
 #### 命題 16 {#alg-vii-s5-prop-16 .statement tag=076T}
 
@@ -643,7 +643,7 @@ A) まず最初に、次の特殊な場合を証明しましょう。
 
 *$E$ を可換体 $K$ 上の有限次元ベクトル空間とし、$u$ を $E$ の三角化可能な自己準同型とします。次に、$u$ と可換で、* $u - v$ * が冪能であるような、$E$ の対角化可能な一意の自己準同型 $v$ が存在します。さらに、これら条件の下には$u$と$v$一致するの特性多項式があり、$v = P(u)$のような多項式*$P \in K[X]$が存在します。
 
-Let $v$ be a diagonalisable endomorphism of $E$ such that $uv = vu$ and $v - u$ is nilpotent; let $\alpha$ be an eigenvalue of $v$ and let $V_\alpha$ be the corresponding eigenspace. 補題 3 (VII、p. 41) により、$V_\alpha$ は $u$ で閉じられ、u - α から V の制限も u - v の制限であるため、零能です。したがって、V は、u - a の冪によって消滅される x ∈ E のうちの部分空間 M、からなるに含まれます。 E は V の 4⟧ であり、M の直和であるため (VII, p. 34、提案 7)、これはすべての a について V = M であることを示します。 系から提案 9 (VII, p. 36) により、 χ_u = χ_v が得られます。また、 v は u によって一意に決定されることになります。各 M_α に対するその制限は、α によって定義されるホモテティー です。
+$v$ を $E$ の対角化可能な自己準同型とし、$uv = vu$ と $v - u$ がゼロになるようにします。 $\alpha$ を $v$ の固有値とし、$V_\alpha$ を固有空間対応するとします。 補題 3 (VII、p. 41) により、$V_\alpha$ は $u$ で閉じられ、u - α の V の制限は u - v の制限であるため、零能です。したがって、V は、u - a の一部の冪によって消滅する x ∈ E のうちの部分空間 M、からなるに含まれます。 E は V の直和であり、M の VII、p. 34、提案 7) であるため、これはすべての a について V = M であることを示します。 系から提案 9 (VII, p. 36) により、 χ_u = χ_v が成り立ちます。また、 v は u によって一意に決定されることになります。各 M_α に対するその制限は、α によって定義されるホモテティー です。
 
 逆に、上記の条件により定義する v を考えてみましょう。 v が対角化可能であり、u - v が零であることは明らかです。 VII, p. 34 の提案 7 により、すべての x ∈ E に対して、M の x の成分が q_α(u).x となるような多項式 q が存在します。この場合、 v = ∑ αq_α(u);これは、u と v が通勤し、証明を完了することを意味します。
 
@@ -691,7 +691,7 @@ $u$ が三角化可能であるために必要かつ十分な条件は、$u$ が
 
 #### 注意 3 {#alg-vii-s5-n9-rem-3 .statement tag=0775}
 
-平方行列に対する Jordan 分解の概念も同様の方法で定義できます。 たとえば、ジョーダン行列 $U_{m,\alpha}$ の場合、次のようになります。
+ヨルダンの概念分解に対する平方行列も同様の方法で定義できます。たとえば、ジョーダン行列 $U_{m,\alpha}$ の場合、次のようになります。
 $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
@@ -742,14 +742,14 @@ $$
 
 — *E を可換体 K 上の有限次元ベクトル空間とし、$\mathscr{S}$ を E の三角化可能な自己準同型の集合とする。すると、$\mathscr{S}$ の各元 u の行列が下三角であることに関して、E の基底が存在し、 $u_s$ の行列は対角線であり、u の対角線元と同じです。*
 
-By Cor. 3 of VII, p. 4.5, the set $\mathfrak{T}_s$ of absolutely semi-simple components of elements of $\mathfrak{T}$ consists of diagonalisable elements which commute with one another, so is diagonalisable (VII, p. 41, Prop. 13), the set $\mathfrak{T}_n$ of nilpotent components of elements of $\mathscr{S}$ consists of nilpotent elements which commute with one another, and each element of $\mathfrak{T}_n$ commutes with each element of $\mathfrak{T}_s$. 提案 13 (VII, p. 41) の証明のように議論すると、$\mathfrak{T}_s$ と $\mathfrak{T}_n$ の下で不変である、部分空間 $E_i$ の直和として E の分解が存在することがわかります。 $\mathscr{S}$のそれぞれの元の制限と、それぞれの$E$のホモテティーです。 それぞれの $E$ による置き換えること $E$ は、今度は $\mathscr{S}$ の元が相似であると仮定できます。 $\mathfrak{T}_n$の元が零の対角を持つ下三角行列で表されるEの基底が存在することを証明すれば十分です。したがって、$\mathscr{S}$ が冪零元で構成される場合に帰着します。
+コル著VII, p. 4.5, 集合 $\mathfrak{T}_s$ の絶対半単純成分 $\mathfrak{T}$ の元は、他の 1 つと可換な対角化可能な元で構成されているため、対角化可能です(VII、p. 41、提案 13)、無能の集合 $\mathfrak{T}_n$ $\mathscr{S}$ の元の成分は、1 つの他のと可換な冪零元で構成され、それぞれの元 $\mathfrak{T}_n$ は、$\mathfrak{T}_s$ の各元と通勤しています。提案 13 (VII, p. 41) の証明のように議論すると、$\mathfrak{T}_s$ と $\mathfrak{T}_n$ の下で不変である、部分空間 $E_i$ の直和として E の分解が存在することがわかります。 $\mathscr{S}$のそれぞれの元の制限は、それぞれの$E$に対して、ホモテティーです。 置き換えること $E$ をそれぞれの $E$ で表すと、$\mathscr{S}$ の元が相似であると仮定できます。 $\mathfrak{T}_n$の元が零の対角を持つ下三角行列で表されることに関して、Eの基底が存在することを証明すれば十分です。したがって、$\mathscr{S}$ が冪零元で構成される場合に帰着します。
 
-ここで $E \neq 0$ を仮定し、F を $E$ の非零部分空間とし、$\mathfrak{T}$ の下で不変、最小次元とします。 Then for each $u \in \mathfrak{T}$, the kernel of the restriction of $u$ to F is nonzero and invariant under $\mathfrak{T}$ (VII, p. 41, Lemma 3); by the choice of F the restriction of $u$ to F is thus zero for all $u \in \mathfrak{T}$. $x \in F,\ x \neq 0$ にしましょう。次に、すべての $u \in \mathscr{S}$ に対して $u(x) = 0$。 E の次元について帰納法を議論すると、商 $E' = E/Kx$ の基底 $(\bar{e}_1, ..., \bar{e}_{n-1})$ が存在し、すべての $u \in \mathfrak{T}$、自己準同型 $\bar{u}$ が $E'$ によって引き起こされると仮定できます。 $u$ はこの基底に対して行列を持ち、零が対角線を持つ下三角です。 $e_i \in E$ が $i = 1, ..., n-1$ に対して a に投影される場合、基底 $(e_1, ..., e_{n-1}, x)$ は必要な条件を満たします。
+ここで $E \neq 0$ を仮定し、F を $E$ の非零部分空間とし、$\mathfrak{T}$ の下で不変、最小次元とします。次に、各 $u \in \mathfrak{T}$、$u$ の制限の核から F は非零であり、$\mathfrak{T}$ (VII, p. 41, 補題 3) の下で不変です。 F の選択 $u$ の制限から F への値は、すべての $u \in \mathfrak{T}$ に対して零になります。 $x \in F,\ x \neq 0$ にしましょう。次に、すべての $u \in \mathscr{S}$ に対して $u(x) = 0$。 E の次元について帰納法が議論すると、商 $E' = E/Kx$ の基底 $(\bar{e}_1, ..., \bar{e}_{n-1})$ が存在し、すべての $u \in \mathfrak{T}$、自己準同型 $\bar{u}$ $E'$ が、 $u$ はこの基底に対して行列を持ち、これは零が対角線を持つ下三角です。 $e_i \in E$ が $i = 1, ..., n-1$ に対して a に投影される場合、基底 $(e_1, ..., e_{n-1}, x)$ は必要な条件を満たします。
 
 練習問題
 
 ### 練習問題 {#alg-vii-s5-exercises}
 
-この切断のすべての体は、そうでない場合は、可換 〜でない限りです。
+この切断のすべての体は、そうでない場合は可換 〜でない限りです。
 
 [§ 5 に対して練習問題](exercises/s5/)を参照してください。

@@ -29,16 +29,16 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: b449f8d6ee08d7ee1681dce114c780e6ef012bc5f2a143d1611f329b0978f29b
+content_sha256: 9d395e84ef04fb065115feeacc80352d98c8b5e93aafe6290d8069f8b105a9ab
 translated_from: content/en/int/V/04_s4_integration_of_positive_point_measures.md
 translation_method: google
 source_content_sha256: dd55e7fee706c3d9d06f24460ca7220536b2e52fe66b64ab093af515c9c25f41
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b7a3d164ae66093ebbb64dec26be3066745a2bdc118f8cfd911bb0eba47bdfc8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。積極的な点対策の統合
@@ -57,7 +57,7 @@ $\mu$ を T の正の尺度とします。以下の条件が満たされる場�
 
 対 $(\pi, g)$ が $\mu$ 適応されている場合、T の $\mathscr{M}_+(X)$ への写像 $\Lambda : t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)}$ はスカラー的に本質的に $\mu$ 積分可能であり、漠然と $\mu$ 測定可能であり、$\mu$ 適切である。逆に、$\Lambda$ がスカラー的に本質的に $\mu$ 積分可能で漠然と $\mu$ 可測である場合、写像 $g$ は $\mu$ 可測であり、$\pi$ ～ 集合の制限 $g(t) \neq 0$ が $\mu$ 可測となるような $t \in T$ の $S$。
 
-対 $(\pi, g)$ が $\mu$ 適応されていると仮定します。すべての写像 $f \in \mathscr{K}(X)$、写像 $t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$ は、本質的に $\mu$ 積分可能です。 $t \mapsto \lambda_t$ が漠然と $\mu$ で測定可能であることを示しましょう。 というのは、まず、$\pi$ と $g$ が連続である場合、写像 $t \mapsto \lambda_t$ は漠然と連続であることに注意します。 In the general case, the set of compact subsets $K$ of $T$ such that the restrictions of $\pi$ and $g$ to $K$ are continuous is $\mu$-dense (Ch. IV, §5, No. 10、提案 15); $K$ がそのような集合である場合、$t \mapsto \lambda_t$ から $K$ までの制限は漠然と連続しており、よっては主張の最初の主張です。 §3, No. 1 の提案 2 は、$\Lambda$ が $\mu$ で十分であることを示しています。
+対 $(\pi, g)$ が $\mu$ 適応されていると仮定します。すべての写像 $f \in \mathscr{K}(X)$、写像 $t \mapsto \langle f, \lambda_t \rangle = f(\pi(t))g(t)$ は、本質的に $\mu$ 積分可能です。 $t \mapsto \lambda_t$ が漠然と $\mu$ で測定可能であることを示しましょう。 というのは、まず、$\pi$ と $g$ が連続である場合、写像 $t \mapsto \lambda_t$ は漠然と連続であることに注意します。 一般的な場合、$\pi$ と $g$ ～ $K$ の制約が連続するような$T$ のコンパクトなサブセット$K$ の集合は、$\mu$ 密です (Ch. IV, §5, No. 10、提案 15); $K$ がそのような集合である場合、$t \mapsto \lambda_t$ から $K$ までの制限は漠然と連続しており、よっては主張の最初の主張です。 §3, No. 1 の提案 2 は、$\Lambda$ が $\mu$ で十分であることを示しています。
 
 逆に、$\Lambda$ はスカラー的に本質的に $\mu$ 積分可能であり、漠然と $\mu$ 可測であると仮定します。その場合、それは $\mu$ で十分です (§3, No. 1、提案 2)。 写像 1 は $X$ で下位半連続であるため、写像 $t \mapsto \lambda_t(1) = g(t)$ は $\mu$ 測定可能です (§3、定義 1)。 したがって、集合 $S$ は測定可能です (Ch. IV, §5, No. 5、提案 7)。 $g|K$ が連続し、$\Lambda|K$ が曖昧に連続するようなコンパクトな集合 $K \subset S$ の集合 $\mathfrak{K}$ は、$S$ では $\mu$ 密です (Ch. IV, §5, No. 10、提案 15); $K \in \mathfrak{K}$ の場合、写像 $t \mapsto \varepsilon_{\pi(t)} = \frac{1}{g(t)} \lambda_t$ の制限から $K$ は漠然と連続しており、これは $\pi|K$ の連続性を意味します (Ch. III, §1, No. 9、提案 13)。 $S$では$\mathfrak{K}$が$\mu$-密であるため、$\pi$から$S$の制限は$\mu$-測定可能です。
 
@@ -67,7 +67,7 @@ $\mu$ を T の正の尺度とします。以下の条件が満たされる場�
 
 *$T$と$X$を2つのトポロジー空間、$\pi$を$T$から$X$への適切な連続写像(GT、I, §10, No. 1、定義1)とする。 $g$ を、$T$ で定義された下位の半連続数値写像とします。すべての $x \in X$ について、$f(x)$ を集合 $\overline{\pi}^{-1}(x)$ における写像 $g(t)$ の下限値とします (下限値は $\overline{\pi}^{-1}(x) = \varnothing$; cf. S、III, §1, No. 9 の場合、$+\infty$ に等しい)。その後、$f$ は$X$ で半連続的に下降します。*
 
-For every (finite) real number $a$, denote by $B_a$ the set of $x \in X$ such that $f(x) \leq a$, and by $A_a$ the set of $t \in T$ such that $g(t) \leq a$; it all comes down to showing that $B_a$ is closed (GT, IV, §6, No. 2, Prop. 1). ここで、$A_a$ は閉じられており (同じ参照)、適切な写像 $\pi$ は閉じられています (GT、I, §10, No. 1、提案 1)。したがって、$\pi(A_a) = B_a$ から証明に減ります。 すべての $t \in T$ に対する明らかな関係 $f(\pi(t)) \leq g(t)$ は、$\pi(A_a) \subset B_a$ を意味します。 一方、$x \in B_a$; としましょう。 集合 $\overline{\pi}^{-1}(x)$ は準コンパクト (GT、I, §10, No. 2、Th. 1) および空でないであるため、次のような $t \in \overline{\pi}^{-1}(x)$ が存在します。
+すべての (有限) 実数 $a$ について、$f(x) \leq a$ のような $x \in X$ の集合を $B_a$ で表し、$g(t) \leq a$ のような $t \in T$ の集合を $A_a$ で表します。すべては、$B_a$ が閉じていることを示すことに帰着します (GT、IV, §6, No. 2、提案 1)。 ここで、$A_a$ は閉じられており (同じ参照)、適切な写像 $\pi$ は閉じられています (GT、I, §10, No. 1、提案 1)。したがって、$\pi(A_a) = B_a$ から証明に減ります。 すべての $t \in T$ に対する明らかな関係 $f(\pi(t)) \leq g(t)$ は、$\pi(A_a) \subset B_a$ を意味します。 一方、$x \in B_a$; としましょう。 集合 $\overline{\pi}^{-1}(x)$ は準コンパクト (GT、I, §10, No. 2、Th. 1) および空でないであるため、次のような $t \in \overline{\pi}^{-1}(x)$ が存在します。
 
 $$
 g(t) = \inf_{u \in \pi^{-1}(x)} g(u) = f(x) \quad (\text{GT, IV, } § 6, \text{ No. 2, Th. 3}); \text{ thus } t \in A_a \text{ and } \pi(t) = x.
@@ -196,7 +196,7 @@ $$
 
 $f$ を $X$ の写像としてトポロジカル空間 $G$ とし、$S$ を点 $t \in T$ の ($\mu$ 可測) 集合とします。 $g(t) > 0$。 $f$が$\nu$可測である位数において、$f \circ \pi$から$S$のうち制限が$\mu$可測であることが必要十分である。
 
-まず、$f$ が $\nu$ 可測であると仮定します。 By hypothesis, the set $\mathscr{K}$ of compact subsets $K$ of $S$, such that the restriction of $\pi$ to $K$ is continuous, is $\mu$-dense in $S$ (Ch. IV, §5, No. 10、提案 15)。 To show that the restriction of $f \circ \pi$ to $S$ is $\mu$-measurable, it therefore suffices to prove that for every $K \in \mathscr{K}$, the set of compact subsets $H$ of $K$, such that the restriction of $f \circ \pi$ to $H$ is continuous, is $\mu$-dense in $K$ (Ch. IV, §5, No. 8、提案 13)。 But by hypothesis, there exists a partition of the compact set $\pi(K)$ formed by a $\nu$-negligible set $N$ and a sequence of compact sets $(C_n)$ such that the restriction of $f$ to each $C_n$ is continuous. これらの条件、$K \cap \overline{\pi}(N)$、および集合 $K \cap \overline{\pi}(C_n)$ 形分割の $K$ の下。しかし、$K \cap \overline{\pi}(N)$ はコルのおかげで $\mu$ は無視できます。 Thの。 No. 2、集合、$K \cap \overline{\pi}(C_n)$の1はコンパクトで、$f \circ \pi$の制限から後者の集合までは連続しているため、$f \circ \pi$から$S$の制限が$\mu$可測であることがわかります。
+まず、$f$ が $\nu$ 可測であると仮定します。 仮説によれば、$\pi$ から $K$ までの制限が連続であるような、$S$ のコンパクトな部分集合 $K$ の集合 $\mathscr{K}$ は、$S$ では $\mu$ 密です。 IV, §5, No. 10、提案 15)。 したがって、$f \circ \pi$ から $S$ までの制限が $\mu$ で測定可能であることを示すには、$f \circ \pi$ から $H$ までの制限が連続であるような、$K$ のコンパクトな部分集合の集合 $H$ が、すべての $K \in \mathscr{K}$ について証明するだけで十分です。 $K$の$\mu$-密集（Ch. IV, §5, No. 8、提案 13)。 しかし仮説によれば、各 $C_n$ に対する $f$ の制限が連続するように、$\nu$ 無視できる集合 $N$ とコンパクト集合のシーケンス $(C_n)$ によって形成されるコンパクト集合 $\pi(K)$ の分割が存在します。 これらの条件、$K \cap \overline{\pi}(N)$、および集合 $K \cap \overline{\pi}(C_n)$ 形分割の $K$ の下。しかし、$K \cap \overline{\pi}(N)$ はコルのおかげで $\mu$ は無視できます。 Thの。 No. 2、集合、$K \cap \overline{\pi}(C_n)$の1はコンパクトで、$f \circ \pi$の制限から後者の集合までは連続しているため、$f \circ \pi$から$S$の制限が$\mu$可測であることがわかります。
 
 逆に、これが当てはまると仮定してください。 $f$ が $\nu$ 可測であることを示すには、$f$ から $L$ の制限が連続であるような、コンパクト部分集合 $L$ の $X$ の集合 $\mathscr{L}$ を証明すれば十分です。 $\nu$-密 (Ch. IV, §5, No. 10、提案 15)。 $N$ を $X$ の部分集合として、$N \cap L$ がすべての $L \in \mathscr{L}$ に対して $\nu$ で無視できるようにし、$N$ が局所的に $\nu$ で無視できることを示します。このためには、$\overline{\pi}(N) \cap S$ が局所的には $\mu$ で無視できることを示さなければなりません (No. 2 の Th. 1 の Cor.)。さて、$\pi$と$f \circ \pi$の制限から$H$が連続するようなコンパクト部分集合$H$の$S$の集合$\mathscr{H}$は仮定までです$S$ では $\mu$ が密集しています (Ch. IV, §5, No. 10、提案 15)。従って、$\overline{\pi}(N) \cap H$ がすべての $H \in \mathscr{H}$ に対して $\mu$ が無視できることを証明すれば十分です。さて、$\pi(H)$ はコンパクトであり、同値関係 $\pi(t) = \pi(t')$ によって $H$ の商空間と識別され、$\pi$ はこの商空間上で $H$ の標準写像と識別される可能性があります。 (GT、I, §5, No. 2、提案 3)。 $f \circ \pi$から$H$の制限は連続であるため、$f$から$\pi(H)$の制限も連続であり、他の語$\pi(H) \in \mathscr{L}$では、$N \cap \pi(H)$は$\nu$-無視できます。コルによって。 Thの。 No. 2、$\overline{\pi}(N \cap \pi(H)) \cap S$ の 1 は、局所的には $\mu$ は無視できます。従って、集合にも同じことが当てはまります
 
@@ -230,7 +230,7 @@ $$
 $$
 (No. 2、木 1);したがって、$f$ は本質的に $\nu$ 積分可能 (§1, No. 3、提案 9)、したがって $\nu$ 積分可能です。 Th. §3, No. 3 の 1 は (9) を意味します。
 
-B) 一般的なケースに移りましょう。 Let $\mathscr{K}$ be the set of compact subsets $K$ of $T$ such that $g|K$ is continuous: $\mathscr{K}$ is $\mu$-dense (Ch. IV, §5, No. 10、提案 15)、したがって、措置 $\mu$ は、$\mathscr{K}$ の元を支持する措置のファミリー $(\mu_\alpha)_{\alpha \in A}$ の和です (§2, No. 3、提案 4)。 対 $(g, \pi)$ は明らかに $\alpha \in A$ ごとに $\mu_\alpha$ 適応されており、尺度 $\nu$ は尺度 $\nu_\alpha = \int \varepsilon_{\pi(t)}g(t) \, d\mu_\alpha(t)$ の族の和 (§3, No. 1、提案 1 の補正)。 A)の議論は$\mu_\alpha, \nu_\alpha$の対策に適用できるので、§2, No. 2の提案3から主張の最初の部分が導かれます。
+B) 一般的なケースに移りましょう。 $\mathscr{K}$ を、$g|K$ が連続となるような、$T$ のコンパクトなサブセット $K$ の集合とします。 $\mathscr{K}$ は、$\mu$ 密です (Ch. IV, §5, No. 10、提案 15)、したがって、措置 $\mu$ は、$\mathscr{K}$ の元を支持する措置のファミリー $(\mu_\alpha)_{\alpha \in A}$ の和です (§2, No. 3、提案 4)。 対 $(g, \pi)$ は明らかに $\alpha \in A$ ごとに $\mu_\alpha$ 適応されており、尺度 $\nu$ は尺度 $\nu_\alpha = \int \varepsilon_{\pi(t)}g(t) \, d\mu_\alpha(t)$ の族の和 (§3, No. 1、提案 1 の補正)。 A)の議論は$\mu_\alpha, \nu_\alpha$の対策に適用できるので、§2, No. 2の提案3から主張の最初の部分が導かれます。
 
 写像 $f$ (それぞれ $t \mapsto f(\pi(t))g(t)$) が $\nu$ (それぞれ $\mu$) に対して積分可能であるためには、それが本質的に積分可能であり、
 

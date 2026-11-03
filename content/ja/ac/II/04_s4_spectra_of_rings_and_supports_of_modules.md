@@ -29,16 +29,16 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: 191176ecf5a5f7265d678d59e79f306b6f022512b27bfbd840c8c995504144f0
+content_sha256: 13af872f60a69210f63fc9ae882f0651cffd79c178c3435e219fd7e9d5d415b6
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
 translation_method: google
 source_content_sha256: aa56aa107c641a6f533bca5b5920334a1f4dfec7d2788424e0037a9fcb53cc7b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: fe4b5d86023cf974f48f05b318291eea46f6237a1f5089dbc0264ede4406025c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 環のスペクトルと加群のサポート
@@ -141,7 +141,7 @@ $V$が$U$で閉じて既約であれば、$\overline{V}$は既約（命題2）�
 (i) ネーター 空間のすべての部分空間はネーター です。
 (ii) $(A_i)_{i \in I}$ をトポロジカル空間 $X$ の有限被覆とする。 $X$ の部分空間 $A_i$ がネーター である場合、$X$ はネーター です。
 
-(i) Let $X$ be a Noetherian space, $A$ a subspace of $X$ and $(F_i)$ a decreasing sequence of subsets of $A$ which are closed in $A$; then $F_i = \overline{F_n} \cap A$ and the closures $\overline{F_n}$ of the $F_i$ in $X$ form a decreasing sequence of closed subsets of $X$. この数列が静止しているので、 数列 $(F_i)$ も静止しています。
+(i) $X$ をネーター空間、$A$ を $X$ の部分空間、$(F_i)$ を $A$ で閉じられた $A$ の部分集合の減少系列とする。次に、$F_i = \overline{F_n} \cap A$ と $X$ の $F_i$ の閉包 $\overline{F_n}$ は、$X$ の閉じたサブセットの減少シーケンスを形成します。 この数列が静止しているので、 数列 $(F_i)$ も静止しています。
 
 (ii) $(G_n)_{n \geq 0}$ を $X$ のクローズド部分集合の減少列とします。 仮定までに、数列 $(G_n \cap A_i)_{n \geq 0}$ はそれぞれ静止しています。 $I$ が有限であるため、$n \geq n_0$、$G_n \cap A_i = G_{n_0} \cap A_i$、すべての $i \in I$ に対して、整数 $n_0$ が存在します。でも
 $$
@@ -198,7 +198,7 @@ $$
 
 $§ 2$、no. 6、系 1 から命題 13 まで。
 
-Formulae (1) to (3) show that the subsets $V(M)$ of $X$ satisfy the *closed set* axioms of a topology (*General Topology*, Chapter I, $§ 1$, no. 4).
+式 (1) から (3) は、$X$ の部分集合 $V(M)$ がトポロジーの *閉集合* 公理を満たすことを示しています (*一般トポロジー*、章 I、$§ 1$、no. 4)。
 
 #### 定義 4 {#ac-ii-s4-def-4 .statement tag=049P}
 
@@ -301,7 +301,7 @@ $f' = f/s$ とします。ここで、$f \in A, s \in S$; $s/1$ は $A'$ で反�
 
 #### 命題 14 {#ac-ii-s4-prop-14 .statement tag=04A1}
 
-※$A$を環とします。 For a subset $Y$ of $X = \mathrm{Spec}(A)$ to be irreducible, it is necessary and sufficient that the ideal $\mathfrak{J}(Y)$ be prime.*
+※$A$を環とします。 $X = \mathrm{Spec}(A)$ の部分集合 $Y$ が既約であるためには、イデアル $\mathfrak{J}(Y)$ が素数であることが必要かつ十分です。*
 
 $p = \mathfrak{J}(Y)$ と書くと、元 $f \in A$ に対して、関係 $f \in p$ は $Y \subset V(f)$ と同等であることがわかります。 $Y$ が既約であり、$f, g$ が $fg \in p$ となるように $A$ の元であるとします。それから
 $$
@@ -335,7 +335,7 @@ $X = \mathrm{Spec}(A)$ には、既約成分 (系 7 から命題 11 および no
 
 #### 命題 15 {#ac-ii-s4-prop-15 .statement tag=04A5}
 
-Let $A$ be a ring, $I$ a finite set and $E$ the set of orthogonal families $(e_i)_{i \in I}$ of idempotents $e_i \neq 0$ of $A$ such that $\sum_{i \in I} e_i = 1$. すべての $(e_i)_{i \in I} \in E$ に対して、私たちは集合 $\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$、$\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$ です。 次に、$\overline{\omega}$ は $E$ の全単射から集合 $P$ の分割 $(U_i)_{i \in I}$ の $X = \mathrm{Spec}(A)$ がオープンの集合になり、$\sigma$ は $E$ の全単射になります。 集合 $S$ 家族 $(a_i)_{i \in I}$ 理想 $\neq 0$ $A$ で、$A$ は $a_i$ の直和になります。
+$A$ を環、$I$ を有限集合、$E$ 集合の直交族 $(e_i)_{i \in I}$ の冪等 $A$ の$e_i \neq 0$ を$\sum_{i \in I} e_i = 1$ とする。 すべての $(e_i)_{i \in I} \in E$ に対して、私たちは集合 $\overline{\omega}((e_i)_{i \in I}) = (\mathrm{V}(A(1 - e_i)))_{i \in I}$、$\sigma((e_i)_{i \in I}) = (Ae_i)_{i \in I}$ です。 次に、$\overline{\omega}$ は $E$ の全単射から集合 $P$ の分割 $(U_i)_{i \in I}$ の $X = \mathrm{Spec}(A)$ がオープンの集合になり、$\sigma$ は $E$ の全単射になります。 集合 $S$ 家族 $(a_i)_{i \in I}$ 理想 $\neq 0$ $A$ で、$A$ は $a_i$ の直和になります。
 
 $(e_i)_{i \in I}$ を $E$ と集合 $Y_i = \mathrm{V}(A(1 - e_i))$ の元とします。 $i \neq j$の場合、$1 = 1 - e_i + e_i(1 - e_j) \in A(1 - e_i) + A(1 - e_j)$、よって $Y_i \cap Y_j = \varnothing$（式(1)、(2)）。一方で、
 
@@ -457,7 +457,7 @@ $(m_i)_{1 \leq i \leq n}$ を $M$ の生成元の系とし、$a$ を $m_i$ の�
 
 $A$ を環、$M$ を有限生成された $A$ モジュール、および $A$ の $a$ 元とします。 $M$ のサポートのすべての基本理想に対する $a$ から属するについては、$M$ のホモテティー が比 $a$ でゼロになることが必要かつ十分です。
 
-It follows from Proposition 17 that the intersection of the prime ideals belonging to $\operatorname{Supp}(M)$ is the radical of the annihilator $a$ of $M$ (no. 3, Proposition 11 (ii)). この根基に対して $a$ 属するは、冪 $a^k \in a$ が存在し、したがって $a^k M = 0$ が存在するというというと同等です。
+命題 17 から、$\operatorname{Supp}(M)$ に属する素イデアの交点は、$M$ の対消滅体 $a$ の根号であることがわかります (no. 3、命題 11 (ii))。 この根基に対して $a$ 属するは、冪 $a^k \in a$ が存在し、したがって $a^k M = 0$ が存在するというというと同等です。
 
 #### 系 2 {#ac-ii-s4-prop-17-cor-2 .statement tag=04AF}
 
@@ -473,13 +473,13 @@ $$
 \operatorname{Supp}(M \otimes_A M') = \operatorname{Supp}(M) \cap \operatorname{Supp}(M').
 $$
 
-$p$ が $A$ の素イデアルである場合、関係 $(M \otimes_A M')_p \neq 0$ と "$M_p \neq 0$ と $M'_p \neq 0$" が同等であることを証明する必要があります。 $A_p$ 加群 $M, \otimes_{A_p} M'_p$ と $(M \otimes_A M')_p$ は同型 (§ 2, no. 7、命題 18) であるため、主張は次の補題から続きます。
+$p$ が $A$ の主イデアルである場合、関係 $(M \otimes_A M')_p \neq 0$ と「$M_p \neq 0$ と $M'_p \neq 0$」が同等であることを証明する必要があります。 $A_p$ 加群 $M, \otimes_{A_p} M'_p$ と $(M \otimes_A M')_p$ は同型 (§ 2, no. 7、命題 18) であるため、主張は次の補題から続きます。
 
 #### 補題 3 {#ac-ii-s4-lem-3 .statement tag=04AH}
 
-$B$ を局所環、$E$ および $E'$ の 2 つの有限生成された $B$ モジュールとします。 $E \neq 0$ と $E' \neq 0$ の場合は、$E \otimes_B E' \neq 0$ です。
+$B$ を局所環、$E$ および $E'$ の 2 つの有限生成された $B$ モジュールとします。 $E \neq 0$と$E' \neq 0$の場合、$E \otimes_B E' \neq 0$。
 
-$k$ を $B$ の剰余体とします。 § 3, no. 2、命題 4、$k \otimes_B E \neq 0$、$k \otimes_B E' \neq 0$ のおかげで。それから私たちはそれを推測します
+$k$を$B$の剰余体とします。 § 3, no. 2、命題 4、$k \otimes_B E \neq 0$、$k \otimes_B E' \neq 0$ のおかげで。それから私たちはそれを推測します
 
 $$
 (k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0
@@ -495,9 +495,9 @@ $$
 
 #### 系 {#ac-ii-s4-n4-cor-2 .statement tag=04AI}
 
-$M$ を有限生成された $A$ モジュール、$n$ をその消滅子とします。 $A$、$\operatorname{Supp}(M/aM) = V(a) \cap V(n) = V(a + n)$ のすべての理想 $a$ に対して。
+$M$ を有限生成された $A$ モジュール、$n$ をその消滅子とします。 $A$、$\operatorname{Supp}(M/aM) = V(a) \cap V(n) = V(a + n)$ の各理想の $a$ に対して。
 
-$M/aM = M \otimes_A (A/a)$と$A/a$は有限に生成されます。
+$M/aM = M \otimes_A (A/a)$ と $A/a$ は有限に生成されます。
 
 #### 命題 19 {#ac-ii-s4-prop-19 .statement tag=04AJ}
 
@@ -505,18 +505,18 @@ $A, B$ を 2 つの環、$\phi : A \to B$ 準同型とします。
 $$
 ^{a}\phi : \operatorname{Spec}(B) \to \operatorname{Spec}(A)
 $$
-$\phi$ (命題 13) に関連付けられた連続する写像。 $A$ モジュール $M$ ごとに、
+$\phi$ (命題 13) に関連付けられた連続する写像。すべての $A$ モジュール $M$ について、
 $$
 \operatorname{Supp}(M_{(B)}) \subset ^{a}\phi(\operatorname{Supp}(M)) ; \text{if also } M \text{ is finitely generated, then}
 $$
 $$
 \operatorname{Supp}(M_{(B)}) = ^{a}\phi^{-1}(\operatorname{Supp}(M)).
 $$
-$q$を$B$と$p = \phi^{-1}(q)$の主要な理想とします。 $q$ 属するから $\operatorname{Supp}(M_{(B)})$ とします。次に、$M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$、準同型 $A \to B \to B_q$ 因子から $A \to A_p \to B_q$ (§ 2, no. 1、命題 2)。したがって、仮定 $M_{(B)} \otimes_B B_q \neq 0$ は、$M \otimes_A A_q \neq 0$、よっての最初の主張を意味します。 準同型 $\phi_q : A_p \to B_q$ はローカルであるため、2 番目の主張は次の補題から続きます。
+$q$ を $B$ と $p = \phi^{-1}(q)$ の主要な理想とする。 $q$ 属するから $\operatorname{Supp}(M_{(B)})$ とします。次に、$M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$、準同型 $A \to B \to B_q$ 因子から $A \to A_p \to B_q$ (§ 2, no. 1、命題 2)。したがって、仮定 $M_{(B)} \otimes_B B_q \neq 0$ は、$M \otimes_A A_q \neq 0$、よっての最初の主張を意味します。 準同型 $\phi_q : A_p \to B_q$ はローカルであるため、2 番目の主張は次の補題から続きます。
 
 #### 補題 4 {#ac-ii-s4-lem-4 .statement tag=04AK}
 
-$A, B$ を 2 つの局所環、$p : A \to B$ をローカル準同型、$E$ を有限生成された $A$ モジュールとします。 $E \neq 0$ の場合は、$E_{(B)} \neq 0$。
+$A, B$ を 2 つの局所環、$p : A \to B$ をローカルの準同型、および $E$ を有限生成された $A$ モジュールとします。 $E \neq 0$の場合は、$E_{(B)} \neq 0$。
 
 $m$ を $A$ と $k = A/m$ 剰余体の最大理想とする。 仮定は $B \otimes_A k = B/mB \neq 0$ を意味します。 テンソル積は結合的であるため、$(E \otimes_A B) \otimes_A k$ は $E \otimes_A (B \otimes_A k)$ と同型であり、したがって $E \otimes_A (k \otimes_k (B \otimes_A k))$ にも、最後に $(E \otimes_A k) \otimes_k (B \otimes_A k)$ にも同型です。 § 3, no. 2、命題 4、$E \otimes_A k \neq 0$ により、したがって $(E \otimes_A B) \otimes_A k \neq 0$ (代数、章 II, § 3, no. 7) およびなおさら $E \otimes_A B \neq 0$。
 
@@ -540,7 +540,7 @@ $$
 
 (c) $1 - u$ の核が M の直因子にならないように、自己同型 $u \in \mathbf{GL}(M)$ の例を与えます (A を形式的な冪系列の局所環 $K[[X]]$ とします) 1 つは体 K と $M = A$ で不確定です)。
 
-(d) Give an example of direct factors N, P of M (necessarily free) such that $N + P$ and $N \cap P$ are not direct factors of M. (Take $A = K[X]/(X^2)$, where K is a field and $M = A^2$.)
+(d) $N + P$ と $N \cap P$ が M の直因子にならないように、直因子 N の例、M の P (必然的に自由) を与えます (K が体と $M = A^2$ である $A = K[X]/(X^2)$ を考えます)。
 
 ¶ 15. A を (可換) 環および M A-加群とします。
 

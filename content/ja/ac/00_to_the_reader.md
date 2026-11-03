@@ -12,16 +12,16 @@ pdf_pages: 0003-0005
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 42f50a838f443c5fd2a07acf96607225ef921ce46b2f5985ec51ec115d2bf5da
+content_sha256: 94c0eb874d3d67cb502e7ee2f62958ffeaedf4987109ea0e81e9e16903325df7
 translated_from: content/en/ac/00_to_the_reader.md
 translation_method: google
 source_content_sha256: 520727d2f0c3c39dfc15530c2ae084306af8d1b5f8ede0214634e7b9cc416ed0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 01ea6bd51c3a19b0c04b9e0b385565e9ff67f4f08f9dbb953a40108d6bdaa422
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 読者へ
@@ -36,7 +36,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 5. 各章の論理枠組みは、定義、公理、および章の定理で構成されます。今後の使用において主に留意すべき事項は、部分です。重要度の低い結果や、定理から簡単に推測できる結果には、「命題」、「補題」、「帰結」、「注意」などのラベルが付けられています。最初の読み取りで省略される可能性のある結果は、小さな型で印刷されます。特に重要な定理に関する注釈は、「スコリウム」という名前で時折登場します。
 
-To avoid tedious repetitions it is sometimes convenient to introduce notations or abbreviations which are in force only within a certain chapter or a certain section of a chapter (for example, in a chapter which is concerned only with commutative rings, the word "ring" would always signify "commutative ring"). このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
+退屈な繰り返しを避けるために、特定の章または章の特定のセクション内でのみ有効な表記または略語を導入すると便利な場合があります (たとえば、可換環のみに関係する章では、「リング」という単語は常に「可換環」を意味します)。 このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
 
 6. 本文中の一部の箇所は、読者に重大な誤りを警告するように設計されています。これらの通路には、余白に ☡ (「危険な曲がり角」) の標識が付いています。
 

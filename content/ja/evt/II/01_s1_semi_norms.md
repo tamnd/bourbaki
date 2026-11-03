@@ -28,16 +28,16 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: cf7052e3164f3366c6f230115c5a7ac8fb3531338ecf5a31931bfd68d5628dc5
+content_sha256: bb01a48e712a82eed7129e399d6bd8e9cf949e0da002d50db157f392418a47a4
 translated_from: content/en/evt/II/01_s1_semi_norms.md
 translation_method: google
 source_content_sha256: 99701b6427e2fc51eea6f3f407ebff4fb20d627e99dfd31c75d611b17f9e8d84
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: b17c9a06f4d43d865d8b5a0e077d55f6570987d4c3daff518d1108b6b9252d08
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。準規範
@@ -100,9 +100,9 @@ p が E 上の *超準ノルム* である場合、集合 W(p, $\alpha$) と V(p
 
 p を K 上のベクトル空間 E の準ノルムとする。すべての $\alpha > 0$ について、V(p, $\alpha$) を、$p(x) \leq \alpha$ となる E の x の部分集合とします。 明らかに、$x \in V(p, \alpha)$ と $\lambda \in K$ が $|\lambda| \leq 1$ である場合、$\lambda x \in V(p, \alpha)$、その他の語 V(p, $\alpha$) は *バランス* です。 さらに、すべての $x_0 \in E$ に対して、$|\mu| \geq p(x_0) \alpha^{-1}$、したがって $\mu^{-1} x_0 \in V(p, \alpha)$、つまり V(p, $\alpha$) が *吸収* となるようなゼロ以外のスカラー $\mu \in K$ が存在します。 最後に、(SN$_{II}$) から $V(p, \alpha/2) + V(p, \alpha/2) \subset V(p, \alpha)$ が得られ、(SN$_I$) から K のすべての非ゼロ スカラー $\lambda$ に対して $\lambda V(p, \alpha) = V(p, |\lambda| \alpha)$ が得られます。 これら注意から、I、p. 7、プロップによって結論するが決まります。 4、つまり、$\alpha$ が数 $> 0$ の集合で変化する場合 (または厳密に正の数の数列でのみ 0 になる傾向がある場合)、集合 V(p, $\alpha$) は、次の基本的な系を構成します。 位相の 0 の近傍は E のベクトル空間構造と互換性があります。この位相は *半ノルム p* によって定義されていると言います。 このような位相を持つベクトル空間 E は *半正規化空間* と呼ばれます。 W(p, $\alpha$) が $p(x) < \alpha$ のような E の x の部分集合である場合、W(p, $\alpha$) は ($\alpha > 0$ または $\alpha$ は零の傾向にある数の厳密に正の数列で変化する) を構成することに注意してください。 $p$ によって定義された位相の 0 の近傍の系。
 
-$\Gamma$ が $E$ 上の準ノルムの集合である場合、準ノルム $p \in \Gamma$ によって定義されたトポロジーの *上界* は、ベクトル空間構造 (I、p. 10、cor. 4) と互換性があります。 この位相の 0 の近傍の基本系は、$p_i \in \Gamma$ と $\alpha_i > 0$ の有限共通部分 $\bigcap_i V(p_i, \alpha_i)$ によって与えられます。 この位相は、*半規範* $\Gamma$の集合によって定義されると言われています。 これは、すべての変換の下で不変であり、半ノルム $p \in \Gamma$ が連続であるものの中で、$E$ 上の *最も粗い* 位相です。
+$\Gamma$ が $E$ 上の準ノルムの集合である場合、準ノルム $p \in \Gamma$ によって定義されたトポロジーの *上界* は、ベクトル空間構造 (I、p. 10、cor. 4) と互換性があります。この位相に対して、0 の近傍の基本系は、$p_i \in \Gamma$ と $\alpha_i > 0$ である有限の共通部分 $\bigcap_i V(p_i, \alpha_i)$ によって与えられます。この位相は、*準規範* $\Gamma$の集合によって定義されると言われています。これは、すべての翻訳の下で不変であり、半ノルム $p \in \Gamma$ が連続しているものの中で、$E$ の *最も粗い* 位相です。
 
-Let $E$ be a topological vector space over $K$: a system of semi-norms on $E$, say $\Gamma$, is called a *fundamental system of semi-norms* if the topology on $E$ is the same as the topology defined by $\Gamma$.
+$E$ を $K$ 上の位相ベクトル空間とします。$E$、たとえば $\Gamma$ 上の準ノルムの系は、$E$ 上のトポロジーが $\Gamma$ によって定義されるトポロジーと同じである場合、*準ノルムの基本系* と呼ばれます。
 
 $E$ を $K$ 上のベクトル空間とし、位相を準ノルム $\Gamma$ の集合によって定義します。すべての準ノルム $p$ に対して、$p(x - z) \leq p(x - y) + p(y - z)$ が得られます。これは、写像 $(x, y) \mapsto p(x - y)$ が $E$ (GT, IX, § 1.1) 上の *疑似測定* であることを示しています。 定義から、$p$ が $\Gamma$ で変化するとき、これらの擬似計量の集合定義するトポロジカルベクトル空間 $E$ の均一構造。
 
@@ -128,7 +128,7 @@ $f^{(0)} = f$と。明らかに、$p_{n,m}$ は $\mathscr{C}^\infty(\mathbf{R})$
 
 #### 命題 2 {#evt-ii-s1-prop-2 .statement tag=07AX}
 
-*On a vector space* $E$, *let* $\mathscr{T}$ *be the topology defined by a set of semi-norms* $\Gamma$.
+*ベクトル空間* $E$ 上で、* $\mathscr{T}$ を * 半ノルムのセット* $\Gamma$ によって定義されたトポロジーとします。
 
 (i) *E の {0} の閉包は、$\mathscr{T}$ について、$x \in E$ の部分集合であり、各半ノルム $p \in \Gamma$ に対して $p(x) = 0$ です。*
 
@@ -138,7 +138,7 @@ $f^{(0)} = f$と。明らかに、$p_{n,m}$ は $\mathscr{C}^\infty(\mathbf{R})$
 
 $\mathscr{T}$ が計量可能である場合、$\mathscr{T}$ できないは単一のノルムによって定義される可能性があることに注意してください。これは、上記の例 (*cf.* IV、p. 18、*例 4*) の場合です。
 
-E を K 上のベクトル空間とし、位相を準ノルム $\Gamma$ の集合によって定義します。 Let $\hat{E}$ be the Hausdorff completion of E (I, p. 6), and $\hat{\Gamma}$ be the set of mappings $\hat{p}$ of $\hat{E}$ in $\mathbf{R}_+$ where $p$ varies in $\Gamma$ (GT, II, § 3 . 7, prop. 15). By the principle of extending inequalities, the functions $\hat{p} \in \hat{\Gamma}$ are semi-norms on $\hat{E}$, and the functions $\hat{p}(x - y)$ form a set of pseudometrics defining the uniform structure of $\hat{E}$ (GT, IX, § 1 . 3, prop. 1). したがって、$\hat{\Gamma}$ は、$\hat{E}$ の位相を定義する準規範の基本的な集合であることがわかります。
+E を K 上のベクトル空間とし、位相を準ノルム $\Gamma$ の集合によって定義します。 $\hat{E}$ を E のハウスドルフ完成 (I, p. 6) とし、$\hat{\Gamma}$ を写像の集合 $\mathbf{R}_+$ の $\hat{E}$ の $\hat{p}$ とします。ここで、$p$ は $\Gamma$ で変化します (GT、 II, § 3 .7、提案15）。拡張不等式の原理により、写像 $\hat{p} \in \hat{\Gamma}$ は $\hat{E}$ の準ノルムであり、$\hat{E}$ の均一構造を定義する擬似計量の写像 $\hat{p}(x - y)$ 形集合は (GT、 IX, § 1 . 3、提案1）。したがって、$\hat{\Gamma}$ は、$\hat{E}$ の位相を定義する準規範の基本的な集合であることがわかります。
 
 ### 3. 商空間および積空間の準規範
 
@@ -227,7 +227,7 @@ prop の特定のケースを明示的に述べます。 線形写像の場合�
 — *E、F を非離散値の除算環 K 上の 2 つのトポロジー ベクトル空間とします。 E (それぞれ F) の位相が半ノルム $\Gamma$ (それぞれ $\Gamma'$) の集合によって定義されるとします。 H を F の E の線形写像の集合とします。次の条件は同等です :*
     a) H は等連続です。
 
-b) For every semi-norm $q \in \Gamma'$, there exists a finite family $(p_i)_{1 \leq i \leq n}$ of semi-norms belonging to $\Gamma$ and a number $a > 0$ such that, for all $x \in E$ and all $u \in H$,
+b) すべての半規範 $q \in \Gamma'$ に対して、$\Gamma$ と数 $a > 0$ に属する半規範の有限族 $(p_i)_{1 \leq i \leq n}$ が存在し、すべての $x \in E$ とすべての $u \in H$ について、
 
 $$
 q(u(x)) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x) .
@@ -239,8 +239,8 @@ c) すべての半ノルム $q \in \Gamma'$ について、写像 $\sup_{u \in H
 
 — $\mathscr{T}, \mathscr{T}'$ が、$K$ 上のベクトル空間 $E$ 上の 2 つのトポロジーであり、それぞれ、半ノルム $\Gamma$ と $\Gamma'$ の 2 つの集合によって定義されているとします。 $\mathscr{T}$ は、$\mathscr{T}'$ よりもより細かいですが、それは、すべての準規範 $q \in \Gamma'$ に対して、すべての半規範所属から $\Gamma$ および数 $a > 0$ の有限族 $(p_i)_{1 \leq i \leq n}$ が存在する場合に限ります。 $x \in E$、$q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$があります。
 
-In fact this shows that the identity mapping of $E$ with topology $\mathscr{T}$, on $E$ with topology $\mathscr{T}'$, is continuous.
+実際、これは、トポロジー $\mathscr{T}$ を持つ $E$、トポロジー $\mathscr{T}'$ を持つ $E$ の ID マッピングが連続していることを示しています。
 
 #### 系 2 {#evt-ii-s1-prop-5-cor-2 .statement tag=07B3}
 
-— $K$ 上のトポロジカルベクトル空間 $E$ の位相 $\mathscr{T}$ が半ノルム $\Gamma$ の有向集合によって定義されるとします。各準ノルム $p \in \Gamma$ について、$p$ で定義された位相を使用して $E$ から得られた空間を $E_p$ とします。 The set $E'$ of linear forms on $E$ that are continuous for $\mathscr{T}$ is the union of the sets $E'_p$, where $E'_p$ is the set of continuous linear forms in $E_p$ ($p \in \Gamma$).
+— $K$ 上のトポロジカルベクトル空間 $E$ の位相 $\mathscr{T}$ が半ノルム $\Gamma$ の有向集合によって定義されるとします。各準ノルム $p \in \Gamma$ について、$p$ で定義された位相を使用して $E$ から得られた空間を $E_p$ とします。 $\mathscr{T}$ に連続する$E$ 上の線形形式の集合 $E'$ は、集合 $E'_p$ の和集合であり、$E'_p$ は $E_p$ ($p \in \Gamma$) の連続線形形式の集合です。

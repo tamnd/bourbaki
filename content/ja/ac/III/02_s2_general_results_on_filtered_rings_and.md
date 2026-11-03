@@ -65,16 +65,16 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 31
-content_sha256: c0451c3b8232ab04008adf589dbd19d740200ac80bbcc8738f5253f1b9116c0e
+content_sha256: 9f0a29539924aedb806b2aaabd35255e09498f516924112f6cf3fd5bead3de3e
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
 translation_method: google
 source_content_sha256: 0a34905c17ca45e9431cd3c4d11e11fd5e18faa0d9245992a206dca25aae5226
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 21e243913c2d1d6f7108b4984749abe58a9070b3c6de740e81ee560d2607367b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。フィルタリングされた環および加群の一般的な結果
@@ -131,11 +131,11 @@ A_m E_n = A_m A_n E \subset A_{m+n} E = E_{m+n},
 $$
 そして(2)からその$E_0 = E$; $(E_n)$ は、$E$ の $A$ モジュール構造と互換性のある徹底的な濾過です。この濾過は、$A$ に与えられた濾過 $(A_n)$ から派生したと言われています。 $(A_n)$ が分離され、$E$ と $A_n$ が有限生成された $A$ モジュール (cf. 、練習問題 2; ただし、§ 3, no. 3、命題 5 および命題を参照) であっても、必ずしも分離されているわけではないことに注意してください。 no. 2、系 ～ 命題 4)
 
-(3) $A$を環、$m$を$A$の両面理想とする。 Let us write $A_n = m^n$ for $n \geq 0$, $A_n = A$ for $n < 0$; it is immediate that $(A_n)$ is an exhaustive filtration on $A$, called the $m$-adic filtration. Let $E$ be an $A$-module; the filtration $(E_n)$ derived from the $m$-adic filtration on $A$ is called the $m$-adic filtration on $E$; in other words, $E_n = m^n E$ for $n \geq 0$ and $E_n = E$ for $n < 0$.
+(3) $A$ を環とし、$m$ を $A$ の両側理想とします。 $n \geq 0$ には $A_n = m^n$、$n < 0$ には $A_n = A$ と書きましょう。 $(A_n)$ は、$m$ 進濾過と呼ばれる、$A$ に対する徹底的な濾過である明らかです。 $E$ を $A$ モジュールとします。 $A$ の $m$ 進濾過から派生した濾過 $(E_n)$ は、$E$ の $m$ 進濾過と呼ばれます。他の語、$n \geq 0$の場合は$E_n = m^n E$、$n < 0$の場合は$E_n = E$です。
 
-If $A$ is commutative and $B$ is an $A$-algebra, $n = mB$ is a two-sided ideal of $B$ and, for every $B$-module $F$, $n^k F = m^k F$ and hence the $n$-adic filtration on $F$ coincides with the $m$-adic filtration (if $F$ is considered as an $A$-module).
+$A$ が可換で、$B$ が $A$ 代数である場合、$n = mB$ は $B$ の両側イデアルであり、すべての $B$ 加群 $F$、$n^k F = m^k F$、したがって $n$ 進数$F$ 一致するで $m$ 進濾過を使用した濾過 ($F$ が $A$ モジュールとみなされる場合)。
 
-(4) $A$ がフィルタリングされた環であり、$(A_n)$ がそのフィルタリングである場合、左側の $A$ モジュール $A_n$ は、フィルタリング $(A_n)$ を備えたフィルタリングされた $A$ モジュールです。一方、明らかに $(A_n)$ は反対環 $A^0$ の環構造と互換性のある濾過であり、$A_n$ は濾過 $(A_n)$ を備えた濾過された (左) $A^0$ モジュールです。
+(4) $A$ がフィルタリングされた環とそのフィルタリング $(A_n)$ である場合、左側の $A$ モジュール $A_n$ は、フィルタリング $(A_n)$ を備えたフィルタリングされた $A$ モジュールです。一方、明らかに $(A_n)$ は、反対環 $A^0$ の環構造と互換性のある濾過であり、$A_n$ は濾過 $(A_n)$ を備えた濾過済み (左) $A^0$ モジュールです。
 
 (5) 環 $A$ 集合 $A_n$ では、$n > 0$ については $A_n = 0$、$n \leq 0$ 形については $A_n = A$ となるように、上の自明な目盛りに関連するいわゆる自明な濾過 (例 1) $A$; $A$ モジュール $E$ では、サブ $A$ モジュールのすべてのフィルタ $(E_n)$ からなるは、フィルタされた環 $A$ 上で $E$ の加群構造と互換性があります。その場合、$\mathbf{Z}$ に自明なフィルタリングが与えられた場合、フィルタリングされたすべての可換群 $G$ はフィルタリングされた $\mathbf{Z}$ 加群であると言えます。
 
@@ -251,9 +251,9 @@ $$
 
 #### 例 3 {#ac-iii-s2-n3-exa-3 .statement tag=04DM}
 
-More generally, let $A$ be a commutative ring, $b$ an ideal of $A$ and $A$ be given the $b$-adic filtration. $B=\operatorname{gr}_0(A)$, $F=\operatorname{gr}_1(A)=b/b^2$ と書くと、(*代数, 章 III*)、$B$ モジュール $F$ の恒等写像を *対称から準同型 $u$ に一意に拡張できることがわかります。 代数* $F$ の $S(F)$ から $B$-代数 $\operatorname{gr}(A)$ へ。 $\operatorname{gr}(A)$ の定義から、$u$ は等級付けされた代数* の *全射準同型であることがわかります。 $n\geq1$ の場合、$\operatorname{gr}_n(A)$ のすべての元は、形 $y=x_1x_2\cdots x_n$ の元の $b^{n+1}$ を加味して類の和になります。ここで、$x_i\in b$ $(1\leq i\leq n)$ です。 $\xi_i$ が $x_i$ mod の類の場合。 $b^2$、明らかに $y$ mod の類です。 $b^{n+1}$ は元 $u(\xi_1)\cdots u(\xi_n)$、よっては私たちの主張です。 特に、$B$-モジュール $F$ の生成元のすべての系は、$B$-代数 $\operatorname{gr}(A)$ の生成元の系です。
+より一般的には、$A$ を可換環、$b$ を $A$ の理想とし、$A$ に $b$ 進濾過を与えます。 $B=\operatorname{gr}_0(A)$, $F=\operatorname{gr}_1(A)=b/b^2$ と書くと、(*代数, 章 III*)、$B$ モジュール $F$ の恒等写像を *対称から準同型 $u$ に一意に拡張できることがわかります。 代数* $F$ の $S(F)$ から $B$-代数 $\operatorname{gr}(A)$ へ。 $\operatorname{gr}(A)$の定義から、$u$はグレード付けされた代数*の*全射準同型であることがわかります。 $n\geq1$ の場合、$\operatorname{gr}_n(A)$ のすべての元は、形 $y=x_1x_2\cdots x_n$ の元の $b^{n+1}$ を加味した類の和です。ここで、$x_i\in b$ $(1\leq i\leq n)$ です。 $\xi_i$ が $x_i$ mod の類である場合。 $b^2$、明らかに $y$ mod の類。 $b^{n+1}$ は元 $u(\xi_1)\cdots u(\xi_n)$、よっては私たちの主張です。特に、$B$加群$F$の生成元のすべての系は、$B$-代数$\operatorname{gr}(A)$の生成元の系です。
 
-If now $E$ is an $A$-module and $E$ is given the $b$-adic filtration, it is seen similarly that the graded $\operatorname{gr}(A)$-module $\operatorname{gr}(E)$ is *generated* by $\operatorname{gr}_0(E)=E/bE$. To be precise, the restriction $\phi$ to $\operatorname{gr}(A)\times\operatorname{gr}_0(E)$ of the external law on the $\operatorname{gr}(A)$-module $\operatorname{gr}(E)$ is a $\mathbf{Z}$-bilinear mapping of $\operatorname{gr}(A)\times\operatorname{gr}_0(E)$ to $\operatorname{gr}(E)$; moreover $\operatorname{gr}(A)$ is a $(\operatorname{gr}_0(A),\operatorname{gr}_0(A))$-bimodule and $\operatorname{gr}_0(E)$ a $\operatorname{gr}_0(A)$-module; it is immediately verified that, for $a\in\operatorname{gr}(A)$, $\alpha_0\in\operatorname{gr}_0(A)$, $\xi\in\operatorname{gr}_0(E)$,
+ここで、$E$ が $A$ モジュールで、$E$ に $b$ 進フィルタリングが与えられている場合、同様に、段階的な $\operatorname{gr}(A)$ モジュール $\operatorname{gr}(E)$ が $\operatorname{gr}_0(E)=E/bE$ によって *生成* されることがわかります。 正確に言うと、$\operatorname{gr}(A)$ モジュール $\operatorname{gr}(E)$ の外部法則の制限 $\phi$ から $\operatorname{gr}(A)\times\operatorname{gr}_0(E)$ は、$\operatorname{gr}(A)\times\operatorname{gr}_0(E)$ から $\operatorname{gr}(E)$ の $\mathbf{Z}$ 双線形マッピングです。さらに、$\operatorname{gr}(A)$ は $(\operatorname{gr}_0(A),\operatorname{gr}_0(A))$ バイモジュール、$\operatorname{gr}_0(E)$ は $\operatorname{gr}_0(A)$ モジュールです。 $a\in\operatorname{gr}(A)$、$\alpha_0\in\operatorname{gr}_0(A)$、$\xi\in\operatorname{gr}_0(E)$ については、
 
 $$
 \phi(a\alpha_0,\xi)=\phi(a,\alpha_0\xi)
@@ -301,7 +301,7 @@ aとbがnに対する所属ではなくBの元であれば、$v(a) \neq +\infty$
 
 #### 注意 {#ac-iii-s2-n3-rem-1 .statement tag=04DR}
 
-G を群とします。これは、すべての $n \in \mathbf{Z}$ に対して $G_{n+1}$ が G で正規となるようなフィルタ処理 $(G_n)_{n \in \mathbf{Z}}$ と必ずしも可換ではありません。もう一度$\mathrm{gr}_n(G) = G_n/G_{n+1}$にしましょう。 The restricted product of the family $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$, that is the subgroup of the product $\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$ consisting of the elements $(\xi_n)$ all of whose components, except at most a finite number, are equal to the identity element, is also called the graded group associated with G and denoted by $\mathrm{gr}(G)$.
+G を群とします。これは、すべての $n \in \mathbf{Z}$ に対して $G_{n+1}$ が G で正規となるようなフィルタ処理 $(G_n)_{n \in \mathbf{Z}}$ と必ずしも可換ではありません。もう一度$\mathrm{gr}_n(G) = G_n/G_{n+1}$にしましょう。 族 $(\mathrm{gr}_n(G))_{n \in \mathbf{Z}}$ の制限積、つまり要素 $(\xi_n)$ で構成され、その成分のすべてが、有限数を除いて単位元に等しい、積 $\prod_{n \in \mathbf{Z}} \mathrm{gr}_n(G)$ の部分群は、G に関連付けられた等級群とも呼ばれ、$\mathrm{gr}(G)$ で表されます。
 
 ### 4. 準同型ろ過と互換性があります
 
@@ -376,63 +376,63 @@ $$
 
 G に関連付けられたハウスドルフ群は $H = G / \left( \bigcap_{n \in \mathbf{Z}} G_n \right)$ であるため、関連付けられた等級付けされた群 gr(G) および gr(H) (H に商フィルタリングが与えられた場合) が標準的に識別されます。
 
-G' を他のフィルタリング群および $u : G \to G'$ 準同型フィルタリングと互換性のあるものにしないでください。 G と G' のトポロジの定義は、$u$ が連続であることをすぐに示します (*)。 H が G の部分群 (それぞれ正常部分群) である場合、G 上のものによって H に誘発される位相 (それぞれ G の H に対して商位相) は、G 上のフィルタによって誘発される濾過によって定義される H (それぞれ G/H) 上の位相です。 G の商位相)。 G および G' の積位相は、G および G' の濾過の積によって定義される位相です。
+G' を他のフィルタリング群および $u : G \to G'$ 準同型フィルタリングと互換性のあるものにしないでください。 G と G' のトポロジーの定義は、$u$ が連続であることをすぐに示します (*)。 H が G の部分群 (それぞれ正常部分群) である場合、G 上のものによって H に誘発される位相 (それぞれ G の H に対して商位相) は、G 上のフィルタによって誘発される濾過によって定義される H (それぞれ G/H) 上の位相です。そのうち商位相は G)。 G および G' の積位相は、G および G' の濾過の積によって定義される位相です。
 
-G 上の v を位数写像 (no. 2) とします。G 上の仮定は、G のすべての x、y について $v(xy x^{-1}) = v(y)$、したがって $v(xy^{-1}) = v(yx^{-1}) = v(x^{-1}y) = v(y^{-1}x)$ であることを意味します。$\rho$ を実数として、$0 < \rho < 1$ とします (たとえば
+G 上の v を位数写像 (no. 2) とします。G 上の仮定は、G のすべての x、y について $v(xy x^{-1}) = v(y)$、したがって $v(xy^{-1}) = v(yx^{-1}) = v(x^{-1}y) = v(y^{-1}x)$ であることを意味します。$\rho$ を実数とし、$0 < \rho < 1$ とします (たとえば
 
-(*) この章では、一般位相、章 III, § 2, no. 8 でいわゆる「連続表現」と呼ばれるものの意味で、語「連続準同型」を使用します。 語 「準同型」は、一般的な位相、章 III, § 2, no. 8、定義 1 の意味で使用されることはありません。この概念では、混乱を避けるために、位数では常に項 「厳密な射」を使用します。
+(*) この章全体を通して、位相、章III, § 2, no. 8のいわゆる「連続表現」という意味で語「連続準同型」を使用します。 語 「準同型」は、一般的な位相、章 III, § 2, no. 8、定義 1 の意味で使用されることはありません。この概念については、混乱を避けるために、位数では常に項 "strict 射" を使用します。
 
-$\rho = 1/e$ とし、G のすべての $x, y$ を $d(x, y) = \rho^{v(xy^{-1})}$ とします。すると、no. 2 の $d(x, x) = 0, d(x, y) = d(y, x)$ と不等式 (5') は次のようになります。
+$\rho = 1/e$ そして、G のすべての $x, y$ を $d(x, y) = \rho^{v(xy^{-1})}$ とします。次に、no. 2 の $d(x, x) = 0, d(x, y) = d(y, x)$ と不等式 (5') は次のようになります。
 
 $$
 (15) \quad d(x, y) \leq \sup(d(x, z), d(y, z))
 $$
 
-G のすべての $x, y, z$ は三角形不等式を意味します
+G のすべての $x, y, z$ は、三角形不等式を意味します
 
 $$
 d(x, y) \leq d(x, z) + d(y, z).
 $$
 
-したがって、$d$ は左と右の変換の下で不変である G の *擬似計量* であり、G_n は $d(e, x) < \rho^n$ となるような $x \in G$ の集合です。 $d$ によって定義された均一構造は、トポロジカル群 G 上の均一構造になります。 G がハウスドルフの場合、G は *0 次元* 計量可能トポロジカル空間 (*一般位相*, 章 IX, § 6, no. 4) です。 $d$ は、フィルタリング (G_n) も網羅的である場合の G 上の *距離* です。
+したがって、$d$ は、左と右の変換の下で不変である G の *擬似計量* であり、G_n は $d(e, x) < \rho^n$ となるような $x \in G$ の集合です。 $d$ によって定義された均一構造は、トポロジカル群 G 上の均一構造になります。G がハウスドルフの場合、G は *0 次元* 計量可能トポロジカル空間 (*一般位相*、章) IX, § 6, no. 4); $d$ は、フィルタリング (G_n) も網羅的である場合の G 上の *距離* です。
 
-トポロジカル環 A が与えられた場合、*左トポロジカル A-加群* は A-加群 E であり、その加法群構造と互換性のある位相であり、$A \times E$ から E までの写像 $(a, x) \mapsto ax$ は連続であることを思い出してください (*一般位相*、 章 III, § 6, no. 6）。
+トポロジー 環 A が与えられた場合、*左トポロジー A-加群* は A-加群 E であり、その加法群構造と互換性のある位相であり、写像 $(a, x) \mapsto ax$ は $A \times E$ から E まで連続であることを思い出してください。 (*一般位相*、章 III, § 6, no. 6)。
 
 #### 命題 3 {#ac-iii-s2-prop-3 .statement tag=04DT}
 
-*A をフィルタリングされた環、(A_n) のフィルタリング、B 部分環 $\bigcup_{n \in \mathbf{Z}} A_n$ の A、E をフィルタリングされた B-加群、(E_n) のフィルタリング、F を E のサブ B モジュール $\bigcup_{n \in \mathbf{Z}} E_n$ とします。次に、写像 $(a, x) \mapsto ax$ が $B \times F$ からF は連続です。*
+*A をフィルタリングされた環、(A_n) のフィルタリング、B 部分環 $\bigcup_{n \in \mathbf{Z}} A_n$ の A、E をフィルタリングされた B-加群、(E_n) のフィルタリング、F を E のサブ B モジュール $\bigcup_{n \in \mathbf{Z}} E_n$ とします。すると、写像 $(a, x) \mapsto ax$ から $B \times F$ までは連続です*。
 
-$a, \in B, x_0 \in F$ にしましょう。 仮定整数 $r, s$ によって、$a_0 \in A_r$ と $x_0 \in E_s$ が存在します。 関係
+$a, \in B, x_0 \in F$ にしましょう。 仮定整数 $r, s$ までに、$a_0 \in A_r$ と $x_0 \in E_s$ が存在します。 関係
 
 $$
 ax - a_0x_0 = (a - a_0)x_0 + a_0(x - x_0) + (a - a_0)(x - x_0)
 $$
 
-$a - a_0 \in A_i$ と $x - x_0 \in E_j$、$ax - a_0x_0$ 属するの場合、
+$a - a_0 \in A_i$ と $x - x_0 \in E_j$ の場合、$ax - a_0x_0$ 属するが
 
 $$
 E_{i+s} + E_{j+r} + E_{i+j}.
 $$
 
-次に、整数 $n$、$ax - a_0x_0 \in E_n$、$i \geq n - s, j \geq n - r$ と $i + j \geq n$ が与えられた場合、$i$ と $j$ が十分大きいである限り、これが続きます。
+次に、整数 $n$、$ax - a_0x_0 \in E_n$ が $i \geq n - s, j \geq n - r$ と $i + j \geq n$ であるとすると、$i$ と $j$ が十分大きいである限り、これが決まります。
 
 #### 系 {#ac-iii-s2-n5-cor-1 .statement tag=04DU}
 
 *環 B はトポロジカル環であり、B-加群 F はトポロジカル B-加群です。*
 
-最初の主張は、適用命題 3 から $F = B$ によって取得されます。
+最初の主張は、適用命題 3 ～ $F = B$ によって取得されます。
 
-特に、フィルタリングが*徹底的*であるフィルタリングされた環 A はトポロジカル環であることがわかります。そうであれば、濾過が*徹底的*である濾過されたすべての A-加群はトポロジカル A-加群になります。
+特に、濾過が *徹底的* である濾過された環 A はトポロジカル環であることがわかります。もしそうなら、その濾過が *徹底的* である濾過されたすべての A-加群はトポロジカル A-加群になります。
 
 #### 命題 4 {#ac-iii-s2-prop-4 .statement tag=04DV}
 
-*A を網羅的濾過 (A_n) で濾過した可換環とし、A の理想を p とします。環 $\operatorname{gr}(A)$ の理想 $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ が素数であるとします。このとき、A における p の閉包は主イデアルです。*
+*A を徹底的濾過 (A_n) で濾過し、A の理想を可換環とし、環 $\operatorname{gr}(A)$ の理想 $\operatorname{gr}(p) = \bigoplus_{n \in \mathbf{Z}} (p \cap A_n)/(p \cap A_{n+1})$ が素数であるとします。このとき、A における p の閉包は主イデアルです。*
 
-gr(A/p) は gr(A)/gr(p) (no. 4, 命題 2) と同型であるため、整域であることがわかっています。私たちは結論する、$A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$ は整域 (no. 3、系から命題 1) です。その場合、$p$ の終結 $\bigcap_{n \in \mathbf{Z}} (p + A_n)$ が最も理想的です。
+gr(A/p) は gr(A)/gr(p) (no. 4, 命題 2) と同型であるため、整域であることがわかっています。私たちは結論する、その $A / \bigcap_{n \in \mathbf{Z}} (p + A_n)$ は整域 (no. 3、系から命題 1) です。その場合、$p$ の終結 $\bigcap_{n \in \mathbf{Z}} (p + A_n)$ が最も理想的です。
 
-Let $A$ be a ring and $m$ a two-sided ideal of $A$; the topology defined on $A$ by the $m$-adic filtration (no. 1, Example 3) is called the *m-adic topology*; as the *m*-adic filtration is exhaustive, $A$ is a topological ring with this topology (Corollary to Proposition 3). 同様に、すべての $A$ モジュール $E$ について、$m$ 進フィルタリングによって定義された位相は、$E$ の *m 進数位相* と呼ばれます。 $E$ は、この位相の下のトポロジカル $A$ モジュールです。
+$A$ を環とし、$m$ を $A$ の両面の理想とします。 $m$ 進フィルタリング (no. 1、例 3) によって $A$ で定義された位相は、*m 進位相* と呼ばれます。 *m*-adic フィルタリングは網羅的であるため、$A$ は、この位相 (系から命題 3) とトポロジカルな環です。同様に、すべての $A$ モジュール $E$ について、$m$ 進フィルタリングによって定義された位相は、$E$ の *m 進数位相* と呼ばれます。 $E$ は、この位相の下のトポロジカル $A$ モジュールです。
 
-$m'$ を $A$ の両面理想である他のとします。 $A$ の $m'$ 進数位相が $m$ 進数位相よりも *より細かい* であるためには、 ${m'}^n \subset m$ となるような整数 $n > 0$ が存在することが必要かつ十分です。 条件は必要であり、それが満たされる場合、すべての $h > 0$ に対して ${m'}^{hn} \subset m^h$ となるため、条件で十分です。 If $A$ is a *commutative Noetherian ring*, it amounts to the same to say that $V(m) \subset V(m')$ in the prime spectrum of $A$ (Chapter II, § 4, no. 3, Corollary 2 to Proposition 11 and § 2, no. 6, Proposition 15).
+$m'$ を $A$ の両面理想である他のとします。 $A$ の $m'$ 進数位相が $m$ 進数位相よりも *より細かい* であるためには、 ${m'}^n \subset m$ となるような整数 $n > 0$ が存在することが必要かつ十分です。 条件は必要であり、それが満たされる場合、すべての $h > 0$ に対して ${m'}^{hn} \subset m^h$ となるため、条件で十分です。 $A$ が *可換ネーター環 * である場合、$A$ の素スペクトルの $V(m) \subset V(m')$ であると言うのは同じことになります (II, § 4, no. 3 章、命題 11 の系 2 および § 2, no. 6、命題 15)。
 
 ### 6. フィルタリングが完了しました加群
 
@@ -452,13 +452,13 @@ $m'$ を $A$ の両面理想である他のとします。 $A$ の $m'$ 進数�
 
 $G$ のフィルターがコーシー フィルター (または収束フィルター) であるためには、標準写像 $G \to G'$ の下の像がコーシー (それぞれ収束) フィルター (*一般位相*、章 II, § 3, no. 1、命題) であることが必要かつ十分です。 4); よってまず​​は (a) と (b) の同値です。一方、$G'$ は計化可能であるため、*General 位相* の命題 9、章 IX, § 2, no. 6 から (b) と (c) の同値が続きます。
 
-ここで、$G$ が可換であると仮定します。 $G'$ が完全であると仮定し、$(x_\lambda)_{\lambda \in L}$ を $\mathscr{F}$ に関して 0 に収束する $G'$ の元の族とする。 For every neighbourhood $V'$ of 0 in $G$ which is a subgroup of $G'$, there exists a finite subset $J$ of $L$ such that the condition $\lambda \in L - J$ implies $x_\lambda \in V'$; then $\sum_{\lambda \in H} x_\lambda \in V'$ for every finite subset $H$ of $L$ not meeting $J$, which shows that the family $(x_\lambda)_{\lambda \in L}$ is summable (*General Topology*, Chapter III, § 5, no. 2, Theorem 1).
+ここで、$G$ が可換であると仮定します。 $G'$ が完全であると仮定し、$(x_\lambda)_{\lambda \in L}$ を $\mathscr{F}$ に関して 0 に収束する $G'$ の元の族とする。 $G$ の 0 の近傍 $V'$ 、つまり $G'$ の部分群には、条件 $\lambda \in L - J$ が $x_\lambda \in V'$ を意味するような $L$ の有限部分集合 $J$ が存在します。次に、$J$ と一致しない $L$ のすべての有限部分集合 $H$ に対して $\sum_{\lambda \in H} x_\lambda \in V'$ となり、家族 $(x_\lambda)_{\lambda \in L}$ が合計可能であることを示します (*一般位相*、章 III, § 5, no. 2、定理 1)。
 
 逆に、条件 (d) が成り立ち、$(x_n)$ を $G'$ 上のコーシー 数列とします。ファミリ $(x_{n+1} - x_n)$ は加算可能であり、特に一般的な項 $x_{n+1} - x_n$ を持つ系列は収束するため、数列 $(x_n)$ は収束します。
 
-$G$ を、濾過された群とし、その濾過 $(G_r)$ は、$G$ の通常の部分群で構成されます。 剰余群 $G/G_n$ は *個別* であり、したがって完全です。なぜなら、$G_r$ は $G$ で開いているからです。 $f_n$ を標準写像 $G \to G/G_n$ とし、$m \leq n$ について $f_{mn}$ を標準写像 $G/G_n \to G/G_m$ とします。 $(G/G_n, f_{mn})$ は、離散群の逆系で、$\mathbf{Z}$ がインデックス集合 (*一般的な位相*、章 III, § 7, no. 3) として使用されます。 Let $\tilde{G}$ be the topological group the inverse limit of this inverse system and for all $n$ let $g_n : \tilde{G} \to G/G_n$ be the canonical mapping; let $f : G \to \tilde{G}$ be the inverse limit of the inverse system of mappings $(f_n)$ such that $f_n = g_n \circ f$ for all $n$; finally, let $j$ be the canonical mapping of $G$ to its Hausdorff completion $\hat{G}$; as the $G/G_n$ are complete, there exists a unique topological group isomorphism $i : \hat{G} \to \tilde{G}$ such that $f = i \circ j$ (*loc. cit.*, Corollary 1 to Proposition 2); we shall call it the *canonical* isomorphism of $\hat{G}$ onto $\tilde{G}$.
+$G$ を、濾過された群とし、その濾過 $(G_r)$ は、$G$ の通常の部分群で構成されます。 剰余群 $G/G_n$ は *個別* であり、したがって完全です。なぜなら、$G_r$ は $G$ で開いているからです。 $f_n$ を標準写像 $G \to G/G_n$ とし、$m \leq n$ について $f_{mn}$ を標準写像 $G/G_n \to G/G_m$ とします。 $(G/G_n, f_{mn})$ は、離散群の逆系で、$\mathbf{Z}$ がインデックス集合 (*一般的な位相*、章 III, § 7, no. 3) として使用されます。 $\tilde{G}$ をこの逆システムの逆極限である位相群とし、すべての $n$ について$g_n : \tilde{G} \to G/G_n$ を正規写像とします。 $f : G \to \tilde{G}$ を、すべての $n$ に対して $f_n = g_n \circ f$ となるような写像逆系 $(f_n)$ の逆極限とします。最後に、$j$ を、$G$ のハウスドルフ完成 $\hat{G}$ への正規マッピングとします。 $G/G_n$ が完全であるため、$f = i \circ j$ のような固有の位相群同型性 $i : \hat{G} \to \tilde{G}$ が存在します (*loc. cit.*、命題 2 に対する系 1)。これを、$\hat{G}$ の $\tilde{G}$ に対する *標準* 同型写像と呼ぶことにします。
 
-$H$ を他の濾過された群とし、その濾過 $(H_r)$ は通常の $H$ の部分群で構成され、$u : G \to H$ を濾過 (no. 4) と互換性のある準同型とします。 Set $\tilde{H} = \lim H/H_n$; for all $n$, $u$ defines by taking quotients a homomorphism $u_n : G/G_n \to H/H_n$ and the $u_n$ obviously form an inverse system of mappings; set $\tilde{u} = \lim u_n$. さらに、$\hat{H}$ を、$u$ から移行によってハウスドルフ完全化 (*一般位相*、章 II, § 3, no. 7、命題 15) に導出された $H$ および $ti : \hat{G} \to H$ 準同型のハウスドルフ完全化とします。 定義からすぐに、標準同型によって $\hat{G}$ が $\tilde{G}$ と同一視され、$\hat{H}$ が $\tilde{H}$ と同一視される場合、$ti$ は $\tilde{u}$ と同一視されます。 特に、結論するは、すべての $n$ に対して、$u_n$ が同型である場合、$ti$ はトポロジー 群の同型であると考えます。
+$H$ を他の濾過された群とし、その濾過 $(H_r)$ は通常の $H$ の部分群で構成され、$u : G \to H$ を濾過 (no. 4) と互換性のある準同型とします。 $\tilde{H} = \lim H/H_n$を設定します。すべての $n$、$u$ は商をとることによって準同型性 $u_n : G/G_n \to H/H_n$ を定義し、$u_n$ は明らかに逆写像系を形成します。 $\tilde{u} = \lim u_n$を設定します。 さらに、$\hat{H}$ を、$u$ から移行によってハウスドルフ完全化 (*一般位相*、章 II, § 3, no. 7、命題 15) に導出された $H$ および $ti : \hat{G} \to H$ 準同型のハウスドルフ完全化とします。 定義からすぐに、標準同型によって $\hat{G}$ が $\tilde{G}$ と同一視され、$\hat{H}$ が $\tilde{H}$ と同一視される場合、$ti$ は $\tilde{u}$ と同一視されます。 特に、結論するは、すべての $n$ に対して、$u_n$ が同型である場合、$ti$ はトポロジー 群の同型であると考えます。
 
 *群と環* を完全にフィルタリングしたもののうちの例
 
@@ -478,7 +478,7 @@ $A$ をフィルタリングされた可換環とし、そのフィルタリン�
 
 さらに、$n$と$E$を上記のように定義すると、すべての$P \in A'$に対して$h(P - \sum_{e \in E} \alpha_{e,P}X^e) \in V$となり、$A'$では$A[X_1, \ldots, X_s]$が密であることがわかります。 最後の主張は最初から続き、空間が完了したものの積が完了したという事実です。
 
-Let $m$ be an ideal of $A$ and suppose that $(a_i)$ is the $m$-adic filtration; then, if $n$ is the ideal of $A'$ generated by $m$ and the $X_i$ ($1 \leq i \leq s$), the filtration $(a_i)$ is the $n$-adic filtration. 明らかに、すべての $k \geq 0$ に対して、$n^k$ は、$|e| \leq k$、よって $n^k \subset a \&$ のように、すべての $e \in \mathbf{N}^s$ に対して $a \in m^{k-|e|}$ となるように、元 $aX^e$ によって生成されます。 逆に$a'_k \subset n^k$を証明してみましょう。 すべての $P \in a'_k$、$P = P' + P''$、ここで $P' = \sum_{|e| < k} \alpha_{e,P}X^e$、$P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$。 明らかに、$P'' = \sum_{|e|=k} X^e Q_e$ と書くことが可能です。ここで、$Q_e$ は、$A'$、よって $P'' \in n^k$ の元です。一方、$e \in \mathbf{N}^s$、よって $P' \in n^k$ はすべて明らかに $\alpha_{e,P}X^e \in n^k$ です。 次に$n^k = a'_k$。
+$m$ を $A$ の理想とし、$(a_i)$ を $m$ 進濾過と仮定します。次に、$n$ が $m$ と $X_i$ ($1 \leq i \leq s$) によって生成される $A'$ の理想である場合、濾過 $(a_i)$ は $n$ 進濾過となります。明らかに、すべての $k \geq 0$ に対して、$n^k$ は、$|e| \leq k$、よって $n^k \subset a \&$ のように、すべての $e \in \mathbf{N}^s$ に対して $a \in m^{k-|e|}$ となるように、元 $aX^e$ によって生成されます。逆に$a'_k \subset n^k$を証明してみましょう。すべての$P \in a'_k$、$P = P' + P''$、$P' = \sum_{|e| < k} \alpha_{e,P}X^e$、$P'' = \sum_{|e| \geq k} \alpha_{e,P}X^e$。明らかに、$P'' = \sum_{|e|=k} X^e Q_e$ と書くことができます。ここで、$Q_e$ は、$A'$、よって $P'' \in n^k$ の元です。一方、$e \in \mathbf{N}^s$、よって $P' \in n^k$ はすべて明らかに $\alpha_{e,P}X^e \in n^k$ です。それから$n^k = a'_k$。
 
 #### 系 {#ac-iii-s2-n6-cor-1 .statement tag=04E0}
 
@@ -614,7 +614,7 @@ $A$ をフィルタリングされた可換環、$(A_n)_{n \in \mathbf{Z}}$ そ�
 
 #### 命題 10 {#ac-iii-s2-prop-10 .statement tag=04E9}
 
-Let $A$ be a filtered commutative ring and $(A_n)$ its filtration; suppose that there exists a subring $C$ of $A_0$ such that $C \cap A_n = \{0\}$ and $C$ is identified with a subring of $\mathrm{gr}_0(A)$. $(x_i)_{1 \leq i \leq q}$ を $A$ の元の有限族とする。 $1 \leq i \leq q$ に対して $x_i \in A_n$ を仮定し、$\xi_i$ を $1 \leq i \leq q$ に対して $\mathrm{gr}_{n_i}(A)$ の $x_i$ の類とします。
+$A$ をフィルタリングされた可換環とし、$(A_n)$ をそのフィルタリングとします。 $C \cap A_n = \{0\}$ と $C$ が $\mathrm{gr}_0(A)$ の部分環で識別されるような、$A_0$ の部分環 $C$ が存在するとします。 $(x_i)_{1 \leq i \leq q}$ を $A$ の元の有限族とする。 $1 \leq i \leq q$ に対して $x_i \in A_n$ を仮定し、$\xi_i$ を $1 \leq i \leq q$ に対して $\mathrm{gr}_{n_i}(A)$ の $x_i$ の類とします。
 
 (i) $\mathrm{gr}(A)$ の元の族 $(\xi_i)$ が $C$ に対して代数的に自由である場合、族 $(x_i)$ は $C$ に対して代数的に自由です。
 
@@ -710,7 +710,7 @@ $$
 $$
 写像類オフ、モード。 $1 \otimes \bar{x}_i$ に mM を加えます。ここで、$\bar{x}_i$ は $x_i$ mod の類です。 $mE$。次に、仮定は、$\operatorname{gr}(u)$ が単射であることを暗示し、系 1 から定理 1、no. 8 の助けを借りて結論が続きます。
 
-### 10.  アプリケーション: ネーター 環の例
+### 10. アプリケーション: ネーター 環の例
 
 #### 補題 1 {#ac-iii-s2-lem-1 .statement tag=04EG}
 
@@ -1002,13 +1002,13 @@ $$
 
 (3) $a$ を主イデアル整域の非ゼロの非反転要素とする。 $A$ の (a) 進数位相は、$a$ 進数位相とも呼ばれます。それは、ハウスドルフです。理想 $(a^n)$ 簡約するの共通部分を 0 (代数、章 VII, §1, no. 3) にします。この位相に対する$A$の完成は必ずしも整域（cf.no. 13、注意3）ではないことに注意してください。関連する等級付けされた環 $\mathrm{gr}(A) = \mathrm{gr}(\hat{A})$ は、正準的に $(A/a)[X]$ (no. 3, 例 1) と同型です。 $A = \mathbf{Z}$ の場合、n 進数位相 ($n > 1$) に関する $\mathbf{Z}$ の完成は $\mathbf{Z}_n$ で示され、その元は $n$ 進数整数と呼ばれます。
 
-$\mathbf{Z}/n^k \mathbf{Z}$ のすべての元は、形 $\sum_{i=0}^{k-1} a_i n^i$ の一意の代表を認めます。ここで、すべての $i$ に対して $0 \leq a_i \leq n - 1$ です。さらに、$\mathbf{Z}/n^{k-1} \mathbf{Z}$の標準像は$\sum_{i=0}^{k-2} a_i n^i$の類です。 These remarks and the fact that $Z$, is canonically identified with the inverse limit $\lim_{\leftarrow} \mathbf{Z}/n^k \mathbf{Z}$ show immediately that every element of $Z$, can be written uniquely in the form $\sum_{i=0}^{\infty} a_i n^i$ where $0 \leq a_i < n$ and conversely that such a series is convergent in $\mathbf{Z}$.
+$\mathbf{Z}/n^k \mathbf{Z}$ のすべての元は、形 $\sum_{i=0}^{k-1} a_i n^i$ の一意の代表を認めます。ここで、すべての $i$ に対して $0 \leq a_i \leq n - 1$ です。さらに、$\mathbf{Z}/n^{k-1} \mathbf{Z}$の標準像は$\sum_{i=0}^{k-2} a_i n^i$の類です。 これらのコメントと、$Z$ が逆極限 $\lim_{\leftarrow} \mathbf{Z}/n^k \mathbf{Z}$ と標準的に同一視されるという事実は、$Z$ のすべての要素が $0 \leq a_i < n$ である $\sum_{i=0}^{\infty} a_i n^i$ の形式で一意に記述できること、そして逆にそのような級数が $\mathbf{Z}$ に収束することをすぐに示します。
 
 ### 13. ハウスドルフによるセミローカルリングの完成
 
 #### 命題 17 {#ac-iii-s2-prop-17 .statement tag=04EW}
 
-$A$ を可換環とし、$(m_{\lambda})_{\lambda \in L}$ を $A$ とは異なる $A$ の理想群とし、$m_{\lambda}$ と $m_{\mu}$ が $\lambda \neq \mu$ に対して相対的に素であるとします。 すべての家族について、整数 $\geq 0$、有限台、集合 $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ の $s = (s(\lambda))_{\lambda \in L}$ ($s(\lambda) \neq 0$、cf. などの $\lambda$ の $m_{\lambda}^{s(\lambda)}$ の積に等しい) 章 11、§ 1, no. 2、命題 3 および 5)。 $a_s$ 形位相 $\mathscr{T}$ に対する 0 の近傍の基本系は、$A$ の環構造と互換性があります。この位相に関する$A$のハウスドルフ完成を$\hat{A}$とします。 一方、すべての $\lambda \in L$ について、$A_{\lambda}$ を $m_{\lambda}$ 進数位相を持つ環 $A$ とし、$\hat{A}_{\lambda}$ をそのハウスドルフ完成とします。 $u : A \to \prod_{\lambda \in L} A_{\lambda}$ が対角線準同型を表す場合、$u$ は連続で、対応する準同型 $\hat{u} :$
+$A$ を可換環とし、$(m_{\lambda})_{\lambda \in L}$ を $A$ とは異なる $A$ の理想群とし、$m_{\lambda}$ と $m_{\mu}$ が $\lambda \neq \mu$ に対して相対的に素であるとします。すべての家族について、整数 $\geq 0$、有限台、集合 $a_s = \bigcap_{\lambda \in L} m_{\lambda}^{s(\lambda)}$ の $s = (s(\lambda))_{\lambda \in L}$ ($s(\lambda) \neq 0$、cf. などの $\lambda$ の $m_{\lambda}^{s(\lambda)}$ の積に等しい) 章 11、§ 1, no. 2、命題 3 および 5); $a_s$ 形位相 $\mathscr{T}$ に対する 0 の近傍の基本系は、$A$ の環構造と互換性があります。 $\hat{A}$ を、この位相に関する $A$ のハウスドルフ完成とします。一方、すべての $\lambda \in L$ について、$A_{\lambda}$ を $m_{\lambda}$ 進数位相を持つ環 $A$ とし、$\hat{A}_{\lambda}$ をそのハウスドルフ完成とします。 $u : A \to \prod_{\lambda \in L} A_{\lambda}$ が対角線準同型を表す場合、$u$ は連続であり、対応する準同型 $\hat{u} :$
 
 $$
 \hat{A} \to \left( \prod_{\lambda \in L} A_{\lambda} \right)^{\hat{}} = \prod_{\lambda \in L} \hat{A}_{\lambda}
@@ -1016,7 +1016,7 @@ $$
 
 (一般的な位相、章 III, § 6, no. 5 および章 II, § 3, no. 9、系 2 ～ 命題 18) はトポロジカル環同型です。
 
-最初の主張は、一般位相、章 III, § 6, no. 3、例 3 から続きます。 集合 $B = \prod_{\lambda \in L} A_{\lambda}$ にしましょう。 $A$ の位相は、各 $m_{\lambda}$ 進トポロジよりもより細かいであるため、写像 $\mathrm{pr}_{\lambda} \circ u$ は連続であり、したがって $u$ も連続です。 また、$u(a_s)$ は、$B$ の対角$A$ の共通部分と、$B$ の開いた集合 $\bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ です。したがって、$u$ は、加法群 $A$ から $B$ と像 $A$ の厳密な射であることがわかります。 現在、$\Delta$ は $B$ に密集しています。 For let $b = (a_{\lambda})_{\lambda \in L}$ be an element of $B$; every neighbourhood of $b$ in $B$ contains a set of the form $b + V$, where $V = \bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ for a family $s = (s(\lambda))_{\lambda \in L}$ with finite support of integers $\geq 0$. $m_{\lambda}^{s(\lambda)}$ は対 (章 II, § 1, no. 2, 命題 3) で相対的に素であるため、すべての $\lambda$ (前述、命題 5) に対して $x \equiv a_{\lambda} \pmod{m_{\lambda}^{s(\lambda)}}$ となるような $x \in A$ が存在し、したがって $(b + V) \cap A \neq \varnothing$ が存在します。 群 $B/\Delta$ のハウスドルフ完成は $\{0\}$ になります。 適用補題 2 no. 12 から完全系列 $0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$ まで、$\hat{u}$ は $\hat{B}$ 上の $\hat{A}$ の同型であることがわかります。
+最初の主張は、一般位相、章 III, § 6, no. 3、例 3 から続きます。 集合 $B = \prod_{\lambda \in L} A_{\lambda}$ にしましょう。 $A$ の位相は、各 $m_{\lambda}$ 進トポロジよりもより細かいであるため、写像 $\mathrm{pr}_{\lambda} \circ u$ は連続であり、したがって $u$ も連続です。 また、$u(a_s)$ は、$B$ の対角$A$ の共通部分と、$B$ の開いた集合 $\bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ です。したがって、$u$ は、加法群 $A$ から $B$ と像 $A$ の厳密な射であることがわかります。 現在、$\Delta$ は $B$ に密集しています。 $b = (a_{\lambda})_{\lambda \in L}$ を $B$ の要素とします。 $B$ の $b$ のすべての近傍には、形式 $b + V$ のセットが含まれます。ここで、$V = \bigcap_{\lambda \in L} \mathrm{pr}_{\lambda}^{-1}(m_{\lambda}^{s(\lambda)})$ は、整数 $\geq 0$ の有限サポートを持つ族 $s = (s(\lambda))_{\lambda \in L}$ です。 $m_{\lambda}^{s(\lambda)}$ は対 (章 II, § 1, no. 2, 命題 3) で相対的に素であるため、すべての $\lambda$ (前述、命題 5) に対して $x \equiv a_{\lambda} \pmod{m_{\lambda}^{s(\lambda)}}$ となるような $x \in A$ が存在し、したがって $(b + V) \cap A \neq \varnothing$ が存在します。 群 $B/\Delta$ のハウスドルフ完成は $\{0\}$ になります。 適用補題 2 no. 12 から完全系列 $0 \to A \xrightarrow{u} B, A \xrightarrow{u} B \to B/\Delta$ まで、$\hat{u}$ は $\hat{B}$ 上の $\hat{A}$ の同型であることがわかります。
 
 #### 系 {#ac-iii-s2-n13-cor-1 .statement tag=04EX}
 
@@ -1024,24 +1024,24 @@ $A$ を主イデアル整域とし、$P$ を $A$ の極値元 (代数、章 VII,
 
 $\pi \in P$ が最大かつ個別であり、したがって比較的素である主イデア $(x)$ は、$x$ 進トポロジーがハウスドルフであることをすでに見ました (no. 12, 例 3)。したがって、位相も命題 17 の主張で定義されます。 より細かいは、それぞれの $x$ 進トポロジよりも優れています。
 
-If the Corollary to Proposition 17 is applied when $\mathbf{A} = \mathbf{Z}$, we denote by $\hat{\mathbf{Z}}$ the completion of $\mathbf{Z}$ with respect to the topology for which all the ideals $\neq 0$ of $\mathbf{Z}$ form a fundamental system of neighbourhoods of 0, the ring isomorphic to the product $\prod_{p \in P} \mathbf{Z}_p$ of the rings of $p$-adic integers (P being the set of prime numbers).
+$\mathbf{A} = \mathbf{Z}$ のときに命題 17 の系が適用される場合、$\mathbf{Z}$ のすべてのイデアル $\neq 0$ が 0 の基本的な近傍系を形成し、その環が $p$ 進数の環の積 $\prod_{p \in P} \mathbf{Z}_p$ と同型であるトポロジーに関して、$\mathbf{Z}$ の完成を $\hat{\mathbf{Z}}$ で示します。整数 (P は素数のセット)。
 
 注意
 
-(1) 明らかに、命題 17 の条件では、位相 $\mathscr{T}$ が、$\mathbf{A}$ の $m_\lambda$ 進トポロジーの最小の上界です。
+(1) 明らかに、命題 17 の条件では、位相 $\mathscr{T}$ が $\mathbf{A}$ の $m_\lambda$ 進トポロジーの最小の上界です。
 
-(2) $\prod_{\lambda \in L} \hat{A}_\lambda$ のすべての閉理想 $a$ は、その射影 $a_\lambda = \mathrm{pr}_\lambda(a)$ の積と同一であり、これらは $A_\lambda$ の閉理想です。 $\hat{A}_\lambda$ は、$\prod_{\lambda} \hat{A}_\lambda$ の閉じた理想 $A'_\lambda$ と $a \cap A'_\lambda$ の$a_\lambda$ (代数、章 I, §8, no. 10、命題 6) と標準的に同一視され、$a_\lambda$ の和は密集しています。 積 $\prod_\lambda a_\lambda$ (一般位相、章 III, §2, no. 9、命題 25) 後者は$\prod_\lambda \hat{A}_\lambda$、よって主張は休業となります。
+(2) $\prod_{\lambda \in L} \hat{A}_\lambda$ のすべての閉じた理想 $a$ は、$A_\lambda$ の閉じた理想である射影 $a_\lambda = \mathrm{pr}_\lambda(a)$ の積と同一です。 $\hat{A}_\lambda$ は、$\prod_{\lambda} \hat{A}_\lambda$ の閉じた理想 $A'_\lambda$ と$a_\lambda$ と $a \cap A'_\lambda$ (代数, 章 I, §8, no. 10, 命題 6)、$a_\lambda$ の和と標準的に同一視されます。 積 $\prod_\lambda a_\lambda$ (一般位相、章 III, §2, no. 9、命題 25) は密で、後者は $\prod_\lambda \hat{A}_\lambda$、よって私たちの主張で閉じられます。
 
 #### 命題 18 {#ac-iii-s2-prop-18 .statement tag=04EY}
 
-Let $\mathbf{A}$ be a commutative ring, $(m_i)_{1 \leq i \leq q}$ a finite family of distinct maximal ideals of $\mathbf{A}$, t the product ideal $m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$ and $S$ the multiplicative subset $\bigcap_{i=1}^q (\mathbf{A} - m_i)$. $\mathbf{A}$ に $r$ 進数位相、環 $B = S^{-1} \mathbf{A}$ $rB$ 進数位相、および局所環 $A_n$ のそれぞれ $(m_i A_{m_i})$ 進数位相を与えます。 $u : \mathbf{A} \to B$、$v_i : B \to A_{m_i}$ を標準準同型 (章 II, §2, no.1、系 2 ～ 命題 2) および $v$ 準同型 $(v_i) : B \to \prod_{i=1}^q A_n$ とします。 準同型 $u$ と $v$ は連続であり、対応する準同型 $\hat{u} : \hat{\mathbf{A}} \to$ と $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ は位相的環同型です。
+$\mathbf{A}$ を可換環、$(m_i)_{1 \leq i \leq q}$ を個別の最大イデアルの有限族である $\mathbf{A}$、t 積イデアル $m_1 m_2 \ldots m_q = m_1 \cap m_2 \cap \ldots \cap m_q$、および $S$ を乗法部分集合 $\bigcap_{i=1}^q (\mathbf{A} - m_i)$ とします。 $\mathbf{A}$ に $r$ 進数位相、環 $B = S^{-1} \mathbf{A}$ に $rB$ 進数位相、および局所環 $A_n$ に $(m_i A_{m_i})$ 進数を与えましょう位相。 $u : \mathbf{A} \to B$、$v_i : B \to A_{m_i}$ を標準準同型 (章 II, §2, no.1、系 2 ～ 命題 2) および $v$ 準同型 $(v_i) : B \to \prod_{i=1}^q A_n$ とします。 準同型 $u$ と $v$ は連続であり、対応する準同型 $\hat{u} : \hat{\mathbf{A}} \to$ と $\hat{v} : \hat{B} \to \prod_{n} (A_n)^*$ はトポロジカル環同型です。
 
-$1 \leq i \leq q$ の$m_i \cap S = \varnothing$、したがって、$B$ の理想的な $m'_i = m_i B$ は最大 (章 II, §2, no. 5、命題 11) であり、
+$1 \leq i \leq q$ の $m_i \cap S = \varnothing$ であるため、$B$ の理想的な $m'_i = m_i B$ は最大 (章 II, §2, no. 5、命題 11) であり、
 $$
 rB = m'_1 \cap m'_2 \cap \cdots \cap m'_q
 $$
 
-(章 II, § 2, no. 4);最後に、$B_{m'_i} = A_i$、標準同型 (章 11、§ 2, no. 5、命題 11) までです。 $\bar{u}^1(rB) = r$と$\bar{v}_i^1(m_iA_{m_i}) \supset rB$のように、$u$と$v$は連続です。それなら、次のことを証明すれば十分です。
+(章 II, § 2, no. 4);最後に、$B_{m'_i} = A_i$、標準同型 (章 11、§ 2, no. 5、命題 11) まで。 $\bar{u}^1(rB) = r$と$\bar{v}_i^1(m_iA_{m_i}) \supset rB$のように、$u$と$v$は連続です。それなら、次のことを証明すれば十分です。
 
 $$
 w = v \circ u : A \to \prod_{i=1}^4 A_{m_i},
@@ -1059,7 +1059,7 @@ $u_i$ から商を取り出すと、同型 (章 II, §3, no. 3, 命題 9) にな
 
 #### 命題 19 {#ac-iii-s2-prop-19 .statement tag=04EZ}
 
-$A$を可換環、$m$を$A$の最大理想とします。 $m$進数位相に関する$A$のハウスドルフ完成$\hat{A}$は局所環で、その最大理想値は$m$です。
+$A$ を可換環とし、$m$ を最大理想値 $A$ とします。 $m$進数位相に関する$A$のハウスドルフ完成$\hat{A}$は局所環で、その最大理想値は$m$です。
 
 $a = \bigcap_{k \geq 1} m^k$、$\hat{A}$ が $A$ に関連付けられたハウスドルフ環 $A/a$ の完成であり、$m/a$ が $A/a$ で最大であるため、$A$ が $m$ 進数に関してハウスドルフであると仮定できます。 位相。 $A/m$ と $\hat{A}/\hat{m}$ は同型環 (no. 12, 公式 (21)) であるため、$m$ は $\hat{A}$ で最大になります。 $\hat{A}$ の位相は濾過 $(m^n)^*$ (no. 12) によって定義されるため、命題は次の補題の帰結になります。
 
@@ -1083,7 +1083,7 @@ $$
 
 すべての $q \geq p$ と私たちの主張はコーシーの基準 (*一般位相*、章 III, § 5, no. 2、定理 1) に従います。
 
-(ii) $yy' \equiv 1$ (mod. a) と $y'y \equiv 1$ (mod. a) となるような $y' \in \mathbf{A}$ が存在すると仮定します。 a の仮定は、(i) によって、$yy'$ と $y'y$ が $\mathbf{A}$ で反転可能であるため、$y$ が $\mathbf{A}$ で反転可能であることを意味します。 In particular, every $x \in a$ is such that $1 - x$ is invertible in $\mathbf{A}$ and, as a is a two-sided ideal of $\mathbf{A}$, it is contained in the Jacobson radical of $\mathbf{A}$ (*Algebra*, Chapter VIII, § 6, no. 3, Theorem 1).
+(ii) $yy' \equiv 1$ (mod. a) と $y'y \equiv 1$ (mod. a) となるような $y' \in \mathbf{A}$ が存在すると仮定します。 a の仮定は、(i) によって、$yy'$ と $y'y$ が $\mathbf{A}$ で反転可能であるため、$y$ が $\mathbf{A}$ で反転可能であることを意味します。 特に、すべての $x \in a$ は、$1 - x$ が $\mathbf{A}$ で可逆であるようなものであり、a は$\mathbf{A}$ の両側イデアルであるため、$\mathbf{A}$ のヤコブソン根号に含まれます (*代数*、VIII, § 6, no. 3 章、定理 1)。
 
 この補題を確立したら、それをトポロジー 環 $\hat{\mathbf{A}}$ と理想 $\hat{\mathfrak{m}}$ に適用するだけで十分です。すべての $x \in \hat{\mathfrak{m}}$、$x^n \in (\hat{\mathfrak{m}})^n \subset (\mathfrak{m}^n)^{\wedge}$、数列 $(x^n)$ は 0 になる傾向があるためです。
 

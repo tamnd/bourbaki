@@ -66,16 +66,16 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: f32d2c405ca6a9ede6532889e9654c9cb5fed8c0c306ca937162532984020d62
+content_sha256: 49b6fdb508f8ae24a5983c4ccd01da2694911bba401f03e840aa7580da336986
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 translation_method: google
 source_content_sha256: 14e9fa04ef3714dde5ebc1c24c59c34cba4c8b4444c04468c4103f599e7d160e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0d1130263411c453e56fcd1b28d96ce6c885213198c531351455c0f8214fa6c6
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 順序関係。 順序集合
@@ -144,21 +144,21 @@ $$(R\{x, y\} \text{ and } R\{y, x\})$$
 
 必ずしも$x = y$を意味するものではありません。 $R\{x, y\}$ は、$x$ と $y$ の間の *予約注文関係* であると言われています。 $R\{y, x\}$ は、$x$ と $y$ の間の予約注文関係でもあり、関係 $R\{x, y\}$ の *反対* と呼ばれます。
 
-たとえば、$\mathfrak{R}$ を E (章 II, § 4, no. 6) のカバーである $\mathfrak{P}(E)$ の部分集合の集合とします。 関係 $\mathfrak{R}$ (章 II, § 4, no. 6) の元 $\mathfrak{R}$, $\mathfrak{R}'$ の間の「$\mathfrak{R}$ が $\mathfrak{R}'$ より粗い」は推移的かつ再帰的です。しかし、2 つの異なる被覆は、それぞれが他方よりも粗い場合があります。たとえば、これは、$\mathfrak{R}'$が$\mathfrak{R}$の和集合($\mathfrak{P}(E)$)と$\mathfrak{R}$の集合に含まれるEの部分集合であるが、所属から$\mathfrak{R}$には含まれない場合に当てはまります。
+たとえば、$\mathfrak{R}$ を E (章 II, § 4, no. 6) のカバーである $\mathfrak{P}(E)$ の部分集合の集合とします。 関係 $\mathfrak{R}$ (章 II, § 4, no. 6) の元 $\mathfrak{R}$, $\mathfrak{R}'$ 間の「$\mathfrak{R}$ は $\mathfrak{R}'$ より粗い」は推移的かつ再帰的です。しかし、2 つの異なる被覆は、それぞれが他方よりも粗い場合があります。たとえば、これは、$\mathfrak{R}'$ が $\mathfrak{R}$ の和集合 ($\mathfrak{P}(E)$ 内) と、$\mathfrak{R}$ の集合に含まれる E の部分集合であるが、所属から $\mathfrak{R}$ には含まれない場合に当てはまります。
 
-しかし、いずれにせよ、関係 $(R\{x, y\}$ と $R\{y, x\})$ は、$x$ と $y$ に関して *同値関係* $S\{x, y\}$ です。 $x'$、$y'$ を R に現れない $x$、$y$ とは異なる文字とします。その場合、$R\{x, y\}$ は ($x$ および $y$ に関して) 同値関係 $S\{x, x'\}$ および $S\{y, y'\}$ と *互換性* があります。その他語 (章 II, § 6, no. 8)、関係
+しかしいずれにしても、関係 $(R\{x, y\}$ と $R\{y, x\})$ は、$x$ と $y$ に関して *同値関係* $S\{x, y\}$ です。 $x'$、$y'$ を、R に現れない$x$、$y$ とは異なる文字とします。すると、$R\{x, y\}$ は ($x$ および $y$ に関して) 同値関係 $S\{x, x'\}$ と *互換性* があり、 $S\{y, y'\}$;その他語 (章 II, § 6, no. 8)、関係
 
 $$(R\{x, y\} \text{ and } S\{x, x'\} \text{ and } S\{y, y'\})$$
 
 $R\{x', y'\}$ を意味します。
 
-¶ 集合* E 上の *preorder 関係は、関係 $R\{x, x\}$ が $x \in E$ と同等となるような preorder 関係 $R\{x, y\}$ です。 関係 $R\{x, y\}$ は「$x \in E$ と $y \in E$」を意味します。
+¶ 集合* E の *preorder 関係は、関係 $R\{x, x\}$ が $x \in E$ と同等となるような、関係 $R\{x, y\}$ の事前注文です。 関係 $R\{x, y\}$ は「$x \in E$ と $y \in E$」を意味します。
 
-¶ $R\{x, y\}$ が集合 E の予約注文関係である場合、上で定義された関係 $S\{x, y\}$ は E の同値関係です。 $R'\{X, Y\}$ が関係を表すものとします。
+¶ $R\{x, y\}$ が集合 E の予約注文関係である場合、上記で定義された関係 $S\{x, y\}$ は E の同値関係です。 $R'\{X, Y\}$ が関係を表すものとします。
 
 $$X \in E/S \text{ and } Y \in E/S \text{ and } (\exists x)(\exists y)(x \in X \text{ and } y \in Y \text{ and } R\{x, y\}),$$
 
-つまり、移行から商まで ($x$ と $y$ に関して) R によって関係が引き起こされます。 章 II, § 6, no. 3 で、それが関係と同等であることがわかりました。
+つまり、移行から商にかけて R によって関係が誘発されます ($x$ と $y$ に関して)。 章 II, § 6, no. 3 で、それが関係と同等であることがわかりました。
 
 $$X \in E/S \text{ and } Y \in E/S \text{ and } (\forall x)(\forall y)((x \in X \text{ and } y \in Y) \Rightarrow R\{x, y\}).$$
 
@@ -208,8 +208,8 @@ $$(E \times E)/(S \times S).$$
 (RO$_{\mathrm{III}}$) *関係 $x \leqslant y$ は「$x \leqslant x$ と $y \leqslant y$」を意味します。*
 (RO$_{\mathrm{IV}}$) *関係 $x \leqslant x$ は $x \in \mathrm{E}$ に相当します。*
 
-If we leave out condition (RO$_{\mathrm{II}}$), we have the conditions for $x \leqslant y$ to be a preorder relation on E.
-¶ When an order relation is written $x \leqslant y$ we shall write $x < y$ (or $y > x$) for the relation "$x \leqslant y$ and $x \neq y$"; these relations are read "$x$ is *strictly smaller* than $y$", or "$x$ is *strictly less* than $y$", or "$y$ is *strictly larger* than $x$", or "$y$ is *strictly greater* than $x$".
+条件 (RO$_{\mathrm{II}}$) を省略すると、$x \leqslant y$ が E で先順位関係になる条件が得られます。
+¶ 順序関係が $x \leqslant y$ と書かれている場合、「$x \leqslant y$ と $x \neq y$」の関係については $x < y$ (または $y > x$) と書きます。これらの関係は、「$x$ は $y$ より *厳密に小さい*」、または「$x$ は $y$ より *厳密に小さい*」、または「$y$ は $x$ より *厳密に大きい*」、または「$y$ は $x$ より *厳密に大きい*」と読み取られます。
 
 包含関係の例は、$x \leqslant y$ ($x \nleqslant y$ で示されるときどき) の否定が $y < x$ (cf. no. 12) と *必ずしも等価ではない* ことを示しています。
 
@@ -352,13 +352,13 @@ $\mathfrak{S}$ を空ではない部分集合 of 集合 $\mathfrak{P}(E)$ of 部
 
 #### 例 2 {#ens-iii-s1-n7-exa-2 .statement tag=03SR}
 
-特に、$\emptyset$ は $\mathfrak{P}(E)$ の最小の元と E 最大の元です。 In the set $\Phi(E, F)$ of mappings of subsets of E into F, ordered by extension of mappings (no. 1, Example 3), the empty mapping is the least element, and there is no greatest element unless F consists of a single element. $E \times E$ の対角線 $\Delta$ は、E 上の同値関係 (または E 上の事前順序付けの集合) のグラフの集合の最小の元です。
+特に、$\emptyset$ は $\mathfrak{P}(E)$ の最小の元と E 最大の元です。 E のサブセットから F へのマッピングの集合 $\Phi(E, F)$ をマッピングの拡張順に並べたもの (no. 1、例 3) では、空のマッピングが最小要素であり、F が単一の要素で構成されない限り最大の要素はありません。 $E \times E$ の対角線 $\Delta$ は、E 上の同値関係 (または E 上の事前順序付けの集合) のグラフの集合の最小の元です。
 
 #### 命題 3 {#ens-iii-s1-prop-3 .statement tag=03JH}
 
 * E * を順序付けられた集合とし、* E$'$ * E * の互いに素和集合と、単一の元の集合* $\{a\}$ *からなるとします。次に、* E$'$ * 上に一意の順序付けが存在します。* E 上で指定された順序付けは誘導するであり、* $a$ * は * E$'$ の最大の元です。
 
-For if G is the graph of the ordering on E, the graph of an ordering on E$'$ which satisfies the conditions of the Proposition must be the union G$'$ of G and the set of all pairs $(x, a)$ where $x \in E'$; conversely, it is clear that G$'$ is the graph of an ordering on E$'$ which satisfies the given conditions.
+G が E の順序付けのグラフである場合、命題の条件を満たす E$'$ の順序付けのグラフは、G の和集合 G$'$ およびすべての対 $(x, a)$ の集合でなければなりません。ここで、$x \in E'$;逆に、G$'$ は、与えられた条件を満たす E$'$ の順序付けのグラフであることは明らかです。
 
 ¶ 順序付けられた集合 E$'$ は、最大の元* $a$ *を * E (cf. 練習問題 3) に *隣接させることによって得られると言われます。
 
@@ -374,19 +374,19 @@ For if G is the graph of the ordering on E, the graph of an ordering on E$'$ whi
 
 ¶ $x$ が $X$ の下界である場合、すべての元 $z\leq x$ は $X$ の下界でもあります。 $X$の下界は、$X$の各部分集合の下界でもあります。 属するから $X$ までの $X$ の下界が存在する場合に限り、注文された集合 $X$ は最小の元を持ちます。
 
-¶ The set of lower bounds of a subset $X$ of a preordered set $E$ may be empty : this is the case when $X=E$ and $E$ is an ordered set which has no least element.
+¶ 事前順序付けされた集合 $E$ の部分集合 $X$ の下限の集合は空である可能性があります。これは、$X=E$ と $E$ が最小要素を持たない順序付き集合である場合に当てはまります。
 
 ¶ $E$ の部分集合 $X$ のうち、下限 (または上限) の集合が空ではないものは、*下に境界がある* (または *上に境界がある*) と言われます。上下両方に有界のある部分集合は *有界* と言われます。 $X$ が下に境界がある場合 (それぞれ、上に境界があり、境界がある場合)、同じことが $X$ のすべての部分集合にも当てはまります。
 
 単一の元のすべての部分集合からなるは有界です。ただし、2 つの元のうち部分集合からなるは、上下 (no. 10) のいずれかに制限される必要はありません。
 
-$E$ を事前注文された集合とし、$f$ を任意の集合 $A$ から $E$ への写像とします。 The mapping $f$ is said (by abuse of language) to be *bounded below* (resp. *bounded above, bounded*) if the set $f(A)$ is bounded below (resp. bounded above, bounded) in $E$.
+$E$ を事前注文された集合とし、$f$ を任意の集合 $A$ から $E$ への写像とします。 集合 $f(A)$ が $E$ で下に制限されている場合 (言葉の乱用により)、マッピング $f$ は *下に制限* (それぞれ *上に制限、制限*) されると言われます。
 
 ### 9. 少なくとも上界と最大の下界
 
 #### 定義 6 {#ens-iii-s1-def-6 .statement tag=03JJ}
 
-*$E$ を順序付けられた集合とし、$X$ を $E$ の部分集合とします。 An element of $E$ is said to be the greatest lower bound or infimum (resp. least upper bound or supremum) of $X$ in $E$ if it is the greatest (resp. least) element of the set of lower (resp. upper) bounds of $X$ in $E$.*
+*$E$ を順序付けられた集合とし、$X$ を $E$ の部分集合とします。 $E$ の要素は、$E$ の $X$ の下限 (または上限) セットの最大 (または最小) 要素である場合、$E$ の $X$ の最大の下限または下限 (それぞれ最小上限または最高値) であると言われます。
 
 順序付けられた集合 $E$ の部分集合 $X$ が与えられた場合、$E$ の $X$ の最小上界 (それぞれ最大の下界) が存在する場合、それは次のように表されます。
 
@@ -408,7 +408,7 @@ $$
 
 (3) E, F を 2 つの集合とし、$\Theta$ を E の写像の部分集合の $\Phi(E, F)$ の部分集合とし、写像の拡大で順序付けします (no. 1, 例 3)。それぞれの $u \in \Phi(E, F)$ について、$D(u)$ を $u$ のドメインとします。 写像所属から $\Phi(E, F)$ (章 II, § 4, no. 6, 命題 7) の家族の共通の拡大の存在に対する条件は、$\Theta$ が最小の上界を持っていることを示しています。 $\Phi(E, F)$ 対 $(u, v)$、元、$\Theta$ のそれぞれについて、$x \in D(u) \cap D(v)$ のときはいつでも $u(x) = v(x)$ があります。
 
-A mapping $f$ of a set A into an ordered set E is said to have a least upper bound if the image $f(A)$ has a least upper bound in E; this bound is then called the *least upper bound of f* and is written $\sup_{x \in A} f(x)$. 最大の下界についても同様です。
+集合 A の順序集合 E への写像 $f$ は、画像 $f(A)$ が E に最小上限を持つ場合、最小上限を持つと言われます。この境界は *f* の最小上限と呼ばれ、$\sup_{x \in A} f(x)$ と書かれます。 最大の下界についても同様です。
 
 特に、E の部分集合 A が E に最小の上界を持っている場合、この境界は A の E への標準単射の最小の上界であるため、$\sup_{x \in A} x$ と書くことができます。
 
@@ -535,7 +535,7 @@ $x \in \mathrm{E}$ ごとに、$x \leqslant y$ と $a \leqslant y$ のように�
 
 #### 例 3 {#ens-iii-s1-n11-exa-3 .statement tag=03TU}
 
-The set of topologies on a set A, ordered by the relation “$\mathscr{T}$ is coarser than $\mathscr{T}'$” between $\mathscr{T}$ and $\mathscr{T}'$, is a lattice. (*General Topology*, Chapter I, § 2).
+集合 A 上のトポロジーの集合は、$\mathscr{T}$ と $\mathscr{T}'$ の間の関係 「$\mathscr{T}$ は$\mathscr{T}'$ より粗い」で順序付けされており、格子です。 (*一般位相*、章 I, § 2)。
 
 #### 例 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
@@ -593,7 +593,7 @@ $$f(x) < f(y) \qquad \text{or} \qquad f(x) > f(y),$$
 
 ### 13. 区間
 
-E を順序付き集合とし、$a$、$b$ を $a \leqslant b$ となるような E の 2 つの元とします。 The subset of E consisting of elements $x$ such that $a \leqslant x \leqslant b$ is called the *closed interval with left-hand endpoint a and right-hand endpoint b*, and is denoted by $[a, b]$. The set of all $x \in \mathrm{E}$ such that $a \leqslant x < b$ (resp. $a < x \leqslant b$) is called the *interval half-open on the right* (resp. *on the left*) with endpoints $a$ and $b$, and is denoted by $[a, b[$ (resp. $]a, b]$). $a < x < b$ がエンドポイント $a$ と $b$ を持つ *オープン区間* と呼ばれる、すべての $x \in \mathrm{E}$ の集合は、$]a, b[$ で示されます。
+E を順序付き集合とし、$a$、$b$ を $a \leqslant b$ となるような E の 2 つの元とします。 E の部分集合元 $x$ のからなるは、$a \leqslant x \leqslant b$ が左側の端点 a と右側の端点 b* を持つ * 閉じた区間と呼ばれ、$[a, b]$ で表されます。 $a \leqslant x < b$ (それぞれ $a < x \leqslant b$) のようなすべての $x \in \mathrm{E}$ の集合は、端点 $a$ と $b$ を持つ *右側の半開* (それぞれ *左側*) の区間と呼ばれ、 $[a, b[$ (それぞれ $]a, b]$) で表されます。 $a < x < b$ がエンドポイント $a$ と $b$ を持つ *オープン区間* と呼ばれる、すべての $x \in \mathrm{E}$ の集合は、$]a, b[$ で示されます。
 
 閉じた区間は決して空ではないことに注意してください。 区間 $[a, a]$ は集合 $\{a\}$ です。一方、区間 $[a, a[$、$]a, a]$、$]a, a[$ はすべて空です。そして、開いている区間 $]a, b[$ は、$a < b$ のときでも空である可能性があります。
 

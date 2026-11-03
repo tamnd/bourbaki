@@ -33,16 +33,16 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: c1abf7d8e0e6553026536a0fb65f48b23e7bf3882de85c080c1b208bff775bb8
+content_sha256: e6b0a172d3b73d1a09b8a0ebbf8595937df0cb9f366f28cadfacf36a53ad01a3
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
 translation_method: google
 source_content_sha256: 109a4d05718fd73c2e0104fdb772994f028706b89a9a4001b0f091a0d03c8b4b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 35f2c981694686a63c3dc7b838af692c658b957957037f71f96ad7f02a2efe6b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。コンパクトさの基準
@@ -80,11 +80,11 @@ a) を不合理な還元によって証明します。 A がプリコンパク�
 
 #### 命題 2 {#evt-iv-s5-prop-2 .statement tag=07VS}
 
-*D を X の密な部分集合と、A 空間 $\mathscr{C}_s(X)$ の密な部分集合とします。 The following conditions are equivalent :*
-(i) *A is relatively compact in $\mathscr{C}_s(X)$.*
-(ii) *From every infinite sequence of elements of A, we can extract a sequence converging in $\mathscr{C}_s(X)$.*
-(iii) *Every infinite sequence of elements of A has a limit point in $\mathscr{C}_s(X)$.*
-(iv) *Let $(f_n)_{n \in \mathbf{N}}$ be a sequence of functions belonging to A and $(x_m)_{m \in \mathbf{N}}$ a sequence of points of D. 極限* が反復された場合
+*D を X の密な部分集合と、A 空間 $\mathscr{C}_s(X)$ の密な部分集合とします。 次の条件は同等です:*
+(i) *$\mathscr{C}_s(X)$ では比較的コンパクトです。*
+(ii) *A のすべての要素の無限シーケンスから、$\mathscr{C}_s(X)$ に収束するシーケンスを抽出できます。
+(iii) *A の要素の無限シーケンスにはすべて、$\mathscr{C}_s(X)$ に極限点があります。*
+(iv) *$(f_n)_{n \in \mathbf{N}}$ を A に属する関数の列、$(x_m)_{m \in \mathbf{N}}$ を D の点の列とする。 極限* が反復された場合
 
 $$
 \gamma = \lim_{m \to \infty} \lim_{n \to \infty} f_n(x_m), \quad \delta = \lim_{n \to \infty} \lim_{m \to \infty} f_n(x_m)
@@ -92,7 +92,7 @@ $$
 
 * が存在する場合、それらは等しいです。 加法では、すべての $x \in X$ に対して $\sup_{f \in A} |f(x)| < + \infty$ があります。*
 
-(i) $\Rightarrow$ (ii) : $\overline{A}$ を $\mathscr{C}_s(X)$ の A の閉包とします。 A がコンパクトであると仮定し、写像 $f_n \in A$ ($n \in \mathbf{N}$ の場合) の数列を考えます。 $\phi$ を、X から計量可能空間 $K^\mathbf{N}$ への連続写像 $x \mapsto (f_n(x))_{n \in \mathbf{N}}$ とします。 $\phi$ の下の X の像 $X'$ は、X がコンパクトなので、コンパクトなメトリズ可能空間です。 Let E be the closed subspace of $\mathscr{C}_s(X)$ consisting of continuous functions $f$ on X such that the relation $\phi(x) = \phi(y)$ implies $f(x) = f(y)$ for every pair of points $x, y$ in X. コルによって。 GTの2、I, § 9, No. 4、プロップ。 GT の 3、I, § 5, No. 2、写像 $f' \mapsto f' \circ \phi$ は、$\mathscr{C}_s(X')$ から E への$\phi^*$ の同型写像です。 従って、集合 $A' = (\phi^*)^{-1}(\overline{A})$ は $\mathscr{C}_s(X')$ でコンパクトであり、$A'$ には $\phi^*(f'_n) = f'_n \circ \phi$ が $f_n$ に等しい元 $f'_n$ が存在することは明らかです。
+(i) $\Rightarrow$ (ii) : $\overline{A}$ を $\mathscr{C}_s(X)$ の A の閉包とします。 A がコンパクトであると仮定し、写像 $f_n \in A$ ($n \in \mathbf{N}$ の場合) の数列を考えます。 $\phi$ を、X から計量可能空間 $K^\mathbf{N}$ への連続写像 $x \mapsto (f_n(x))_{n \in \mathbf{N}}$ とします。 $\phi$ の下の X の像 $X'$ は、X がコンパクトなので、コンパクトなメトリズ可能空間です。 E を、X の点 $x, y$ のすべてのペアに対して関係 $\phi(x) = \phi(y)$ が $f(x) = f(y)$ を意味するように、X 上の連続関数 $f$ から構成される$\mathscr{C}_s(X)$ の閉部分空間とする。 コルによって。 GTの2、I, § 9, No. 4、プロップ。 GT の 3、I, § 5, No. 2、写像 $f' \mapsto f' \circ \phi$ は、$\mathscr{C}_s(X')$ から E への$\phi^*$ の同型写像です。 従って、集合 $A' = (\phi^*)^{-1}(\overline{A})$ は $\mathscr{C}_s(X')$ でコンパクトであり、$A'$ には $\phi^*(f'_n) = f'_n \circ \phi$ が $f_n$ に等しい元 $f'_n$ が存在することは明らかです。
 
 $X'$ はコンパクト計素可能空間であるため、$X'$ には可算密な部分集合 D' が存在します (GT、IX, § 2, No. 8、提案 12 および § 2, No. 9、提案 16)。 $\mathscr{T}_1$ (それぞれ $\mathscr{T}_2$) を、D' (それぞれ $X'$) に対する単純な収束の位相によって引き起こされる $A'$ 上の位相とします。 この場合、$\mathscr{T}_1$ は計量化可能で、$\mathscr{T}_2$ はコンパクトで、$\mathscr{T}_1$ よりもより細かいなので、$\mathscr{T}_1$ と $\mathscr{T}_2$ 一致するになります。他の語、$A'$は、$\mathscr{C}_s(X')$のコンパクトな *metrizable* 部分空間です。 従って、$(f'_n)$から抽出され、$\mathscr{C}_s(X')$の元$f'$に収束する数列$(f'_{n_k})$が存在します。 従って、数列 $(f_{n_k})$ は $\mathscr{C}_s(X)$ で $f = f' \circ \phi$ に収束します。
 
@@ -144,9 +144,9 @@ $(x'_i)_{i \in I}$ を体 K 上のベクトル空間 E' の基底とします。
 
 *次に、$\overline{A}$ が $\hat{E}$ に含まれることを証明します。* H を E' の等連続部分集合とします。 X を $\sigma(E', E)$ の終点とします。 X はコンパクトです (III、p. 17、cor. 2)。 すべての $x \in {E'}^*$ について、$\phi_x$ を $x' \mapsto \langle x, x' \rangle$ ～ X の制限とします。 x の範囲が A を超える場合、$\tilde{A} \subset \mathscr{C}_s(X)$ を写像 $\phi_x$ の集合とします。 A の仮定を考慮すると、$\tilde{A}$ の元のすべての無限数列は、$\mathscr{C}_s(X)$ に極限点を持ちます。プロップによって。したがって、2 (IV、p. 33)、集合 $\tilde{A}$ は、$\mathscr{C}_s(X)$ では比較的コンパクトです。 *すべての $a \in \overline{A}$ について、X の写像 $\phi_a$ は連続であることがわかります。* その後、 th から包含 $\overline{A} \subset \hat{E}$ が続きます。 III、p. 21の2つ。
 
-*ここで、$\overline{A}$ が E に含まれることを示します。* A は $E_\sigma$ (IV, p. 32, prop. 1) でプリコンパクトであるため、$E_\sigma$ (III, p. 3, prop. 2) に境界があり、したがって E (IV, p. 1、提案 1)。 C を E における A の閉じた凸平衡包絡線とします。 次に、A が有界であるため C は有界であり、E が準完全であるため完全です。 他の語では、C は$\hat{E}$ の凸で閉じた部分集合であるため、$\hat{E}_\sigma$ (IV、p. 1、提案 1) も同様です。 Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of ${E_\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
+*ここで、$\overline{A}$ が E に含まれることを示します。* A は $E_\sigma$ (IV, p. 32, prop. 1) でプリコンパクトであるため、$E_\sigma$ (III, p. 3, prop. 2) に境界があり、したがって E (IV, p. 1、提案 1)。 C を E における A の閉じた凸平衡包絡線とします。 次に、A が有界であるため C は有界であり、E が準完全であるため完全です。 他の語では、C は$\hat{E}$ の凸で閉じた部分集合であるため、$\hat{E}_\sigma$ (IV、p. 1、提案 1) も同様です。 $A \subset C$ と $\hat{E}_\sigma$ のトポロジーは ${E_\sigma'}^*$ のトポロジーによって誘導されるため、$\overline{A} \subset C$ があり、したがって $\overline{A} \subset E$ になります。
 
-Since the topology of $E_\sigma$ is induced by that of ${E'_\sigma}^*$, the subset $\overline{A}$ of $E_\sigma$ is compact, and th. 1 follows.
+$E_\sigma$ のトポロジーは ${E'_\sigma}^*$ のトポロジーによって誘導されるため、$E_\sigma$ の部分集合 $\overline{A}$ はコンパクトであり、 1が続きます。
 
 #### 定理 2 (シュムリア語) {#evt-iv-s5-thm-2 .statement tag=07VU}
 
@@ -214,7 +214,7 @@ E をハウスドルフで準完全な局所凸空間とし、$\mathscr{T}$ を 
 A) 集合 C は $\mathscr{T}$ (II、p. 25、提案 3) に対してプレコンパクトであり、A は $\sigma(E, E')$ に対してコンパクトです。プロップの都合上。 1 (IV, p. 32) は、C が $\sigma(E, E')$ に対してコンパクトであることを証明するのに十分なので、$\mathscr{T} = \sigma(E, E')$ の場合に帰着しました。
 B) C はプリコンパクトで、$\sigma(E, E')$ に対して閉じられているため、E の最初の位相 (III、p. 3、prop. 2 および IV、p. 1、prop. 1) に対して有界で閉じられています。したがって、E は準完全なので完全です。他の語では、Cは$E$の完成$\hat{E}$における$A$の閉じた凸平衡包絡線です。 $E$の位相 $\sigma(\hat{E}, E')$ 誘導する $\sigma(E, E')$ 以降、*$E$が完了した場合*に縮小しました。
 
-C) $\Gamma$ を $A$ の凸型バランス包絡線とします。 次に、$C$ は $\sigma(E, E')$ に対する $\Gamma$ の終結です。 By Eberlein’s theorem (IV, p. 35, th. 1), it is enough to prove that every sequence $(x_n)_{n \in \mathbf{N}}$ of points of $\Gamma$ has a limit point for $\sigma(E, E')$ in $E$. ただし、$x_n$ 属するは、$A$ の有限部分集合 $B_n$ の凸型バランスエンベロープに変換されます。 $F$ を、可算数集合 $B = \bigcup_n B_n$ によって生成された $E$ の閉じたベクトル部分空間とします。 次に、$F$ が完了し、$F$ の位相 $\sigma(F, F')$ が $\sigma(E, E')$ によって誘導され、すべての $n \in \mathbf{N}$ に対して $x_n \in F$ が得られます。 したがって、$(x_n)_{n \in \mathbf{N}}$ が $\sigma(F, F')$ に対して極限点をもつことを証明するだけで十分です。これにより、$E$* に可算密集合が存在する場合の *case への還元が得られます。
+C) $\Gamma$ を $A$ の凸型バランス包絡線とします。 次に、$C$ は $\sigma(E, E')$ に対する $\Gamma$ の終結です。 Eberlein の定理 (IV, p. 35, th. 1) により、$\Gamma$ の点のすべての列 $(x_n)_{n \in \mathbf{N}}$ が $E$ の $\sigma(E, E')$ に対する極限点を持つことを証明するだけで十分です。 ただし、$x_n$ 属するは、$A$ の有限部分集合 $B_n$ の凸型バランスエンベロープに変換されます。 $F$ を、可算数集合 $B = \bigcup_n B_n$ によって生成された $E$ の閉じたベクトル部分空間とします。 次に、$F$ が完了し、$F$ の位相 $\sigma(F, F')$ が $\sigma(E, E')$ によって誘導され、すべての $n \in \mathbf{N}$ に対して $x_n \in F$ が得られます。 したがって、$(x_n)_{n \in \mathbf{N}}$ が $\sigma(F, F')$ に対して極限点をもつことを証明するだけで十分です。これにより、$E$* に可算密集合が存在する場合の *case への還元が得られます。
 
 $A$ に $\sigma(E, E')$ によって誘導された位相が割り当てられ、コンパクトな空間になります。私たちは定義する線形写像 $u : E' \to \mathscr{C}(A)$ によって
 

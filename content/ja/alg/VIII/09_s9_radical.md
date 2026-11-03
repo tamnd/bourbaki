@@ -34,16 +34,16 @@ subsections:
       pdf_page: 178
 statements: 49
 exercises: 31
-content_sha256: a2b09163c728e4210f3843e8c46ef54302925f522b3e9995830c17b291842773
+content_sha256: f4740c92be46e39d786f0b48c3a8386fee39f929c20574f5b15f929aba90f016
 translated_from: content/en/alg/VIII/09_s9_radical.md
 translation_method: google
 source_content_sha256: 89095724e574bba079cd13ef874a02941adc59513c6a22e5a09bd9f01b4fa6cc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 3464155655c4f1247b276be3f63a9c2dac8687fd6c3054b879d1733c37a9efa3
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 9。 根基
@@ -52,7 +52,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 定義 1 {#alg-viii-s9-def-1 .statement tag=00A1}
 
-A を環とします。 The radical of an A-module M is the submodule defined as the intersection of the maximal submodules of M (VIII, p. 48, Definition 2) or, equivalently, the set of elements of M annihilated by every homomorphism from M to a simple A-module.
+A を環とします。 A 加群 M の根号は、M の最大部分加群 (VIII、p. 48、定義 2) の共通部分として定義される部分加群、または同等に、M から単純な A 加群へのすべての準同型性によって消滅する M の要素のセットです。
 
 この章の残りでは、A-加群 M の根基を $\mathfrak{R}_A(M)$ または単に $\mathfrak{R}(M)$ で表します。
 
@@ -68,7 +68,7 @@ A を体ではない主イデアル整域とし、K をその分数の体とし�
 
 #### 命題 1 {#alg-viii-s9-prop-1 .statement tag=00A4}
 
-M と N を M から N までA-加群と $f$ 準同型とします。 $f$が全射で、$f$の核がMの根基に含まれる場合、$f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$があり、さらに等式もあります。
+M と N を M から N まで A-加群と $f$ 準同型とします。$f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$ があり、$f$ が全射で、$f$ の核が M の根基に含まれる場合、等式もあります。
 
 $g$ を N から単純A-加群までの準同型とします。すると、$\mathfrak{R}(M)$は$g\circ f$の核に含まれるため、$f(\mathfrak{R}(M))$は$g$の核に含まれます。したがって、$f(\mathfrak{R}(M))\subset \mathfrak{R}(N)$ となります。ここで、$f$ が全射的であり、その核が $\mathfrak{R}(M)$ に含まれると仮定します。 $y$ を $\mathfrak{R}$(N) の元とし、$x$ を $y$ の逆像の元とします。 $g$ が M から単純A-加群 S までの準同型である場合、その核含む根基は、$f$ の核となります。 準同型 $f$ は全射なので、$g=h\circ f$ となるような N から S までの準同型 $h$ が存在します。 $y=f(x)$ 属するから $\mathfrak{R}$(N) までなので、$h(f(x)) = 0$、つまり $g(x) = 0$ になります。したがって、$x$ 属するから $\mathfrak{R}$(M)​​ となり、$\mathfrak{R}(N)\subset f(\mathfrak{R}(M))$ が含まれることが証明されます。
 
@@ -132,7 +132,7 @@ a) 半単純加群には根基がありません。
 
 b) 加群は半単純であり、根基とアルティンがない場合に限り、有限に生成されます。
 
-定義により、単純加群の根基は0になります。 加群 M が半単純である場合、それは単純部分加群の家族 $(S_i)_{i\in I}$ の直和であり、上記の命題 1 の系 2 によって $\mathfrak{R}(M) =\bigoplus_{i\in I}\mathfrak{R}(S_i)$ が得られるため、$\mathfrak{R}(M) = 0$ になります。
+定義により、単純加群の根基は 0 に減ります。 加群 M が半単純の場合、それは単純部分加群の家族の $(S_i)_{i\in I}$ の直和となり、系 2 により $\mathfrak{R}(M) =\bigoplus_{i\in I}\mathfrak{R}(S_i)$ が得られます。 命題 1 が上なので、$\mathfrak{R}(M) = 0$ になります。
 
 さらに、M が有限生成されるとすると、VIII, p. 71 の命題 10 によりアルティンとなります。
 
@@ -176,15 +176,15 @@ c) 環 $A/\mathfrak{R}(A)$ には根基がありません。逆に、$A/\mathfra
 
 d) A の根基は、A の最大の両面イデアルの共通部分に含まれます。
 
-$x\in A$ にしましょう。 Saying that $x$ belongs to the annihilator of every simple A-module is equivalent to saying that $x$ belongs to the annihilator of every element of every simple A-module, in other words (VIII, p. 46, Proposition 1), to every maximal left ideal of A.
+$x\in A$ にしましょう。 $x$ がすべての単純な A 加群の消滅元に属すると言うのは、$x$ がすべての単純な A 加群のすべての要素の消滅元、つまり (VIII、p. 46、命題 1)、A のすべての最大左イデアルに属すると言うのと同じです。
 
 M を半単純A-加群とします。その消滅子は M の単純部分加群の消滅子の共通部分なので、含む $\mathfrak{R}(A)$ です。さらに、$\mathscr{S}$ が単純A-加群 (VIII、p. 51) の類の集合である場合、直和 $\oplus_{\lambda\in\mathscr{S}}\lambda$ は消滅子が $\mathfrak{R}(A)$ である半単純A-加群です。 A が 0 に減らないと仮定します。 関係 $\mathfrak{R}(A)\not= A$ は、命題 2、VIII、p. 153 の a) からA-加群 $A_s$ に適用されます。私たちは a) を証明しました。
 
-$\mathfrak{a}$ を A の両面理想とする。 $A/\mathfrak{a}$ の最大左理想は形 $\mathfrak{m}/\mathfrak{a}$ の理想であり、$\mathfrak{m}$ は含む $\mathfrak{a}$ の最大左理想です。 従って、環 $A/\mathfrak{a}$ の根基は、A-加群 $A_s/\mathfrak{a}$ の根基と等しくなります。 従って、主張 b) と c) は、VIII の 1、p. 152 から系に続きます。
+$\mathfrak{a}$ を A の両側イデアルとします。 $A/\mathfrak{a}$ の最大左イデアルは、形 $\mathfrak{m}/\mathfrak{a}$ のイデアルであり、$\mathfrak{m}$ は含む $\mathfrak{a}$ の最大左イデアルです。従って、環 $A/\mathfrak{a}$ の根基は、A-加群 $A_s/\mathfrak{a}$ の根基と等しくなります。従って、主張 b) と c) は、VIII、p. 152 の系から続きます。
 
 $\mathfrak{a}$ を A の最大の両側イデアルとします。 環 $A/\mathfrak{a}$ では、両側イデアルは 0 と $A/\mathfrak{a}$ だけです。 環 $A/\mathfrak{a}$ は 0 に減らないため、その根基は $A/\mathfrak{a}$ に等しくなりません。従って、環 $A/\mathfrak{a}$ には根基がなく、c) により $\mathfrak{R}(A)\subset \mathfrak{a}$ が得られます。これは d) を証明します。
 
-A の左 (または右) イデアルが冪零元で構成される場合、それはゼロイデアルであると言います。 We say that a two-sided ideal $\mathfrak{a}$ of A is nilpotent if there exists an integer $n\geqslant 1$ such that $\mathfrak{a}^n= 0$, that is (I, §8, No. 9, p. 107), such that we have $x_1\cdots x_n= 0$ for every sequence $(x_1, . . . , x_n)$ of elements of $\mathfrak{a}$. すべてのゼロイデアルはゼロイデアルですが、ゼロイデアルには含まれないゼロイデアルが存在する可能性があります (VIII、p. 167、練習問題 9)。
+A の左 (または右) イデアルが冪零元で構成される場合、それはゼロイデアルであると言います。 $\mathfrak{a}^n= 0$、つまり (I, §8, No. 9, p. 107) のような整数 $n\geqslant 1$ が存在し、$\mathfrak{a}$ の要素のすべての列 $(x_1, . . . , x_n)$ に対して $x_1\cdots x_n= 0$ が存在する場合、A の両側イデアル $\mathfrak{a}$ は零であると言います。 すべてのゼロイデアルはゼロイデアルですが、ゼロイデアルには含まれないゼロイデアルが存在する可能性があります (VIII、p. 167、練習問題 9)。
 
 #### 定理 1 (ジェイコブソン) {#alg-viii-s9-thm-1 .statement tag=00S5}
 
@@ -238,7 +238,7 @@ $\mathfrak{a}$ を A の両側イデアルとします。 A の $\mathfrak{a}$ �
 
 #### 注意 2 {#alg-viii-s9-n2-rem-2 .statement tag=00AN}
 
-A を可換環とします。 The set of nilpotent elements $a$ of A is an ideal $\mathfrak{N}(A)$ of A, called the nilradical of A; it is the intersection of the prime ideals of A (V, §15, No. 1, p. 118, Proposition 2). We have $\mathfrak{N}(A)\subset \mathfrak{R}(A)$; $*$we have equality if A is an Artinian ring (VIII, p. 173, Corollary 2) or a finitely generated commutative algebra over a commutative field (Comm. 代数、V, § 3、n$^{\circ}4$、定理 $3$)$*$。 確かに$\mathfrak{N}(A)\not=\mathfrak{R}(A)$を得ることができます。 これは、A が環 K[[X]]、K が可換体の場合に当てはまります。その場合、$\mathfrak{N}(A) = 0$ と $\mathfrak{R}(A) =$ AX (VIII, p. 154, 例 2) が得られます。
+A を可換環とします。 A の nilpotent 要素 $a$ の集合は A のイデアル $\mathfrak{N}(A)$ であり、A の nilradical と呼ばれます。それは A の主要な理想の交差点です (V, §15, No. 1、p. 118、命題 2)。 $\mathfrak{N}(A)\subset \mathfrak{R}(A)$ があります。 $*$A がアルティニアン環 (VIII、p. 173、系 2) または可換体上の有限生成可換代数 (Comm. 代数、V, § 3、n$^{\circ}4$、定理 $3$)$*$。 確かに$\mathfrak{N}(A)\not=\mathfrak{R}(A)$を得ることができます。 これは、A が環 K[[X]]、K が可換体の場合に当てはまります。その場合、$\mathfrak{N}(A) = 0$ と $\mathfrak{R}(A) =$ AX (VIII, p. 154, 例 2) が得られます。
 
 ### 3. 中山さんの補題
 
@@ -290,15 +290,15 @@ $n$ を、$(a-a^2)^n= 0$ となるような厳密な正の整数とします。 
 
 $\mathfrak{a}$ を A の両側ゼロイデアルとし、$\overline{e}$ を環 $A/\mathfrak{a}$ の冪等とする。 A には、$A/\mathfrak{a}$ の標準像が $\overline{e}$ に等しい冪等 $e$ が存在します。
 
-$a$ を A の $\overline{e}$ の任意の代表とします。A の元 $a-a^2$ は、属するから $\mathfrak{a}$ であるため、零能です。 選ぶ多項式 $P\in \mathbf{Z}[X]$ 満たす条件 of 補題 1. $a-P(a)\in A(a-a^2)$ があるので、A の元 $e= P(a)$ は所望の性質になります。
+$a$ を A の $\overline{e}$ の任意の代表とします。 A の元 $a-a^2$ は、属するから $\mathfrak{a}$ であるため、零能です。 選ぶ多項式 $P\in \mathbf{Z}[X]$ 満たす条件 of 補題 1. $a-P(a)\in A(a-a^2)$ があるので、A の元 $e= P(a)$ は所望の性質になります。
 
-環 $A/\mathfrak{a}$ の $\overline{e}$ 属するから中心とします。 $\overline{e}$ (VIII、p. 172、練習問題 31) をリフティングする A の中心 Z には冪等 $e$ が必ずしも存在するわけではありません。ただし、$A/\mathfrak{a}$ の Z の像に対して $\overline{e}$ 属するの場合、$Z\cap \mathfrak{a}$ は Z のゼロイデアルであるため、Z の冪等には持ち上げになります。
+環 $A/\mathfrak{a}$ の $\overline{e}$ 属するから中心とします。 $\overline{e}$ (VIII, p. 172, 練習問題 31) を持ち上げる A の中心 Z には冪等 $e$ が必ずしも存在するわけではありません。ただし、$A/\mathfrak{a}$ の Z の像に対して $\overline{e}$ 属するの場合、$Z\cap \mathfrak{a}$ は Z のゼロイデアルであるため、Z の冪等には持ち上げになります。
 
 #### 系 1 {#alg-viii-s9-prop-7-cor-1 .statement tag=00AS}
 
-P から M までの M と P を A-加群と $u$ 全射A-線型写像とします。 Suppose that P is projective and that there exists a nilpotent two-sided ideal $\mathfrak{a}$ of A such that the kernel N of $u$ is contained in $\mathfrak{a}P$. $M'$ と $M''$ を、直和が M である M の部分加群とします。 この場合、P は部分加群 $P'$ と $P''$ の直和となり、$u(P') = M'$ と $u(P'') = M''$ になります。
+M と P を P から M までの A-加群と $u$ 全射A-線型写像とします。P は射影であり、$u$ の核 N が $\mathfrak{a}P$ に含まれるような A の零の両側イデアル $\mathfrak{a}$ が存在するとします。 $M'$ と $M''$ を、直和が M である M の部分加群とします。すると、P は、部分加群 $P'$ と $P''$ の直和となり、$u(P') = M'$ と $u(P'') = M''$ になります。
 
-B 部分環 of End$_A(P)$ からなる of 自己準同型 $f$ $f(N)\subset N$ となるように表します。 $\overline{B}$ を M の自己準同型環とします。$f\in B$ について、$\overline{f}$ を M の一意な自己準同型とし、$\overline{f}\circ u=u\circ f$ とします。 写像 $f\mapsto \overline{f}$ は、B から B への環準同型です。 加群 P は射影であるため、この準同型は全射です。その核 $\mathfrak{b}$ は自己準同型 $f\in B$ で構成され、$f(P)\subset N$ になります。 $n$ を自然数とし、$\mathfrak{a}^n= 0$ とします。我々は持っています
+$f(N)\subset N$ となるような P の End$_A(P)$ からなる自己準同型 $f$ を B 部分環で表します。 $\overline{B}$ を M の自己準同型環とします。$f\in B$ について、$\overline{f}$ を M の一意な自己準同型とし、$\overline{f}\circ u=u\circ f$ とします。 写像 $f\mapsto \overline{f}$ は B から B への環準同型です。 加群 P は射影なので、この準同型は全射です。その核 $\mathfrak{b}$ は自己準同型 $f\in B$ で構成され、$f(P)\subset N$ になります。 $n$ を自然数とし、$\mathfrak{a}^n= 0$ とします。私たちは持っています
 
 $$
 P =\mathfrak{a}^0P\supset \mathfrak{a}^1P\supset  \cdots  \supset \mathfrak{a}^{n-1}P\supset \mathfrak{a}^nP = 0
@@ -310,7 +310,7 @@ $$
 f(\mathfrak{a}^jP) =\mathfrak{a}^jf(P)\subset \mathfrak{a}^jN\subset \mathfrak{a}^{j+1}P
 $$
 
-なぜなら$N\subset \mathfrak{a}P$ by 仮定だからです。したがって、すべての自然数 $j$ とすべての $f\in \mathfrak{b}^j$ に対して $f(P)\subset \mathfrak{a}^jP$ が存在します。特に$\mathfrak{b}^n= 0$があります。
+なぜなら$N\subset \mathfrak{a}P$ by 仮定だからです。したがって、すべての自然数 $j$ とすべての $f\in \mathfrak{b}^j$ に対して $f(P)\subset \mathfrak{a}^jP$ が存在します。特に$\mathfrak{b}^n= 0$がいます。
 
 $\varepsilon '$ を、像 $M'$ と核 $M''$ を含む M の射影子とします。 命題 7 を環 B と冪能の両側イデアル $\mathfrak{b}$ に適用すると、$\overline{e'}=\varepsilon '$、つまり $\varepsilon '\circ u=u\circ e'$ となる冪等 $e'$ が B に存在します。 集合 $e''= 1-e'$、$\varepsilon ''=\overline{e''}, P'=e'$(P)、$P''=e''(P)$。すると、P は部分加群 $P'$ と $P''$ の直和となり、次のようになります。
 
@@ -324,7 +324,7 @@ $$
 
 A を環とし、$\mathfrak{a}$ を A の冪能双辺イデアルとします。 P が射影 A-加群の場合、$P/\mathfrak{a}P$ は $A/\mathfrak{a}$ 上で射影加群であり、$A/\mathfrak{a}$ 加群の場合に限り、A-加群 P は分解不可能です$P/\mathfrak{a}P$は不分解です。
 
-P を射影 A-加群とし、$\overline{P}$ を $A/\mathfrak{a}$ 加群 $P/\mathfrak{a}P$ とします。 The A-module P is zero if and only if $\overline{P}$ is zero (Theorem 2 of VIII, p. 158). ここで、$P\not= 0$ と仮定します。 $A/\mathfrak{a}$加群 P は $\overline{A}\otimes_AP$ と同型であるため、射影 (命題 4 の II, §5, No. 1、p. 279、系) です。 P が分解不可能であれば、$\overline{P}$ by 系 1 も分解不可能です。 逆に、P が分解可能で非零であると仮定し、$P'$ と $P''$ を $P = P'\oplus P''$ となるような P の 2 つの非零部分加群とします。 中山の補題 (VIII、p. 158、定理 2) により、$P'+\mathfrak{a}P\not= P$ と $P''+\mathfrak{a}P\not= P$ が得られます。 $\overline{P}'$ と $\overline{P}''$ が P の $P'$ と $P''$ の標準像である場合、$\overline{P}'\not= P,\overline{P}''\not= P$ と $\overline{P}=\overline{P}'\oplus \overline{P}''$ があります。 これは、$\overline{P}$ が分解可能であることを証明しています。
+P を射影 A-加群とし、$\overline{P}$ を $A/\mathfrak{a}$ 加群 $P/\mathfrak{a}P$ とします。 $\overline{P}$ がゼロである場合にのみ、A 加群 P はゼロになります (VIII、p. 158 の定理 2)。 ここで、$P\not= 0$ と仮定します。 $A/\mathfrak{a}$加群 P は $\overline{A}\otimes_AP$ と同型であるため、射影 (命題 4 の II, §5, No. 1、p. 279、系) です。 P が分解不可能であれば、$\overline{P}$ by 系 1 も分解不可能です。 逆に、P が分解可能で非零であると仮定し、$P'$ と $P''$ を $P = P'\oplus P''$ となるような P の 2 つの非零部分加群とします。 中山の補題 (VIII、p. 158、定理 2) により、$P'+\mathfrak{a}P\not= P$ と $P''+\mathfrak{a}P\not= P$ が得られます。 $\overline{P}'$ と $\overline{P}''$ が P の $P'$ と $P''$ の標準像である場合、$\overline{P}'\not= P,\overline{P}''\not= P$ と $\overline{P}=\overline{P}'\oplus \overline{P}''$ があります。 これは、$\overline{P}$ が分解可能であることを証明しています。
 
 ### 5. 加群の投影カバー
 
@@ -414,7 +414,7 @@ $\mathfrak{a}$ を、$(A/\mathfrak{a})$ モジュール $M/\mathfrak{a}M$ が自
 
 それからMには突起カバーがあります。
 
-More precisely, let P be a free A-module, $(e_i)_{i\in I}$ a basis of P, and let $u: P\rightarrow M$ be a homomorphism such that the canonical images of the elements $u(e_i)$ of $M/\mathfrak{a}M$ form a basis of the $(A/\mathfrak{a})$-module $M/\mathfrak{a}M$. そして$(P, u)$はMの投影カバーです。
+より正確には、P を自由 A 加群、$(e_i)_{i\in I}$ を P の基底、$u: P\rightarrow M$ を準同型性とし、$M/\mathfrak{a}M$ の要素 $u(e_i)$ が $(A/\mathfrak{a})$ 加群 $M/\mathfrak{a}M$ の基底を形成するようにします。 そして$(P, u)$はMの投影カバーです。
 
 $(A/\mathfrak{a}$) モジュール $P/\mathfrak{a}P$ は無料で、$P/\mathfrak{a}P$ から $M/\mathfrak{a}M$ までの準同型 $\overline{u}$ は、移行から商によって $u$ から推定され、$P/\mathfrak{a}P$ の変換基底になります。 $M/\mathfrak{a}M$ の基底になるため、全単射です。
 

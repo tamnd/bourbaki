@@ -38,16 +38,16 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 606a9b1fb9179479110d445b0679a5187daa588f326fc631932f0ab6cd4afd26
+content_sha256: ff07a856392ef34b2b07e97b5c668ce949c1e949cc2ebcea5101407887412ef1
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
 translation_method: google
 source_content_sha256: c3f351f5e813a393d1fb207cf121c6dd2bc4e8303d881b9cf4b097b0c621cb53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c7831e02af8036b24b388c5bc19ddfd3a5803e970337d559607d95a690052e13
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 17。レギュラー 拡大
@@ -127,13 +127,13 @@ $\eta$ は単射なので、最終的には $a^{p^f} = 0$ になります。し�
 
 *LとMを体Kの2つの拡大とする。LにおけるKの相対可分代数閉包がKに等しいと仮定する。そのとき、$L \otimes_K M$の冪零元の集合pが素イデアルである。さらに、L または M が K 上で分離可能である場合、$L \otimes_K M$ は整域です。*
 
-L と M は、K (V, p. 116, Th. 5) の拡大 $\Omega$ の代数的に互いに素部分拡張であると仮定できます。この場合、提案 1 (V, p. 139) により p は素イデアルになります。さらに、L または M が K 上で分離可能である場合、$L \otimes_K M$ は、環を分離拡大の定義で減じたものになります (V、p. 119、定義 1)。 p が素数なので、$p = 0$ と $L \otimes_K M$ は整域になります。
+L と M は、K (V, p. 116, Th. 5) の拡大 $\Omega$ の代数的互いに素部分拡張であると仮定できます。この場合、提案 1 (V, p. 139) により、p は素イデアルになります。さらに、L または M が K 上で分離可能である場合、$L \otimes_K M$ は、環を分離拡大の定義で減じたものになります (V、p. 119、定義 1)。 p が素数なので、$p = 0$ と $L \otimes_K M$ は整域になります。
 
 ### 3. レギュラー 代数
 
 #### 定義 1 {#alg-v-s17-def-1 .statement tag=06VS}
 
-※Kを体とします。 K の拡大 L ごとに $L \otimes_K A$ が整域である場合、K 上の代数は正規であると言われます。*
+※Kを体とします。 K の拡大 L ごとに $L \otimes_K A$ が整域である場合、K を超える代数は正規であると言われます。*
 
 通常の代数は特に整域であるため、可換です。
 
@@ -141,28 +141,28 @@ L と M は、K (V, p. 116, Th. 5) の拡大 $\Omega$ の代数的に互いに�
 
 — $A$ と $B$ を体 $K$ 上の 2 つの代数とします。 $A$ が整域で、$B$ が通常の場合、$A \otimes_K B$ は整域です。
 
-$L$ を $A$ の分数の体とします。 $B$ は正則 $K$-代数なので、$L \otimes_K B$ は整域、したがって、$L \otimes_K B$ の部分環と同型なので、$A \otimes_K B$ も同様です。
+$L$ を $A$ の分数の体とします。 $B$ は正則 $K$-代数なので、$L \otimes_K B$ は整域、したがって $L \otimes_K B$ の部分環と同型であるため、$A \otimes_K B$ も同様です。
 
 #### 命題 3 {#alg-v-s17-prop-3 .statement tag=06VU}
 
-— Let $K$ be a field.
-a) Every subalgebra of a regular $K$-algebra is itself regular.
-b) The tensor product of two regular $K$-algebras is again regular.
-c) Let $A$ be a $K$-algebra and $K'$ an extension of $K$. $A$ が正則であるためには、スカラーの拡大によって $A$ から導出される $K'$-代数 $A_{(K')}$ が正則であることが必要かつ十分です。
+— $K$ を体とします。
+a) 正則$K$-代数のすべての部分代数それ自体が正則です。
+b) 2 つの正則 $K$-代数のテンソル積は再び正則です。
+c) $A$ を $K$-代数、$K$ の $K'$ 拡大とする。 $A$ が正則であるためには、スカラーの拡大により $A$ から導出される $K'$-代数 $A_{(K')}$ が正則であることが必要かつ十分です。
 
-The proof of a) (resp. c)) is identical to that of part a) (resp. d)) of Prop. 3, V, p. 119, after replacing everywhere « reduced ring » by « integral domain » and « separable algebra » by « regular algebra ». b)を証明しましょう。
+a) (それぞれ c)) の証明は、提案 3、V、p. 119、後で置き換えることの部分 a) (それぞれ d)) の環を « 整域だけ削減したものと同一です。 » と « 分離可能な代数 » と « 通常の代数 »。 b)を証明しましょう。
 
-$A$ と $B$ を 2 つの通常の $K$-代数とする。 $L$を$K$の拡大とします。 $A$ が正規なので、環 $L \otimes_K A$ は整域になります。提案 2 により、$B$ が正則であるため、環 $(L \otimes_K A) \otimes_K B$ は整域になります。最後に、環 $L \otimes_K (A \otimes_K B)$ は $(L \otimes_K A) \otimes_K B$ と同型なので、整域です。これは、$A \otimes_K B$ が通常の $K$-代数であることを示しています。
+$A$ と $B$ を 2 つの通常の $K$-代数とする。 $L$を$K$の拡大とします。 $A$が正則なので、環 $L \otimes_K A$は整域になります。提案 2 により、$B$ が正則であるため、環 $(L \otimes_K A) \otimes_K B$ は整域になります。最後に、環 $L \otimes_K (A \otimes_K B)$ は $(L \otimes_K A) \otimes_K B$ と同型なので、整域になります。これは、$A \otimes_K B$ が通常の $K$-代数であることを示しています。
 
 ### 4. レギュラー 拡大
 
 #### 定義 2 {#alg-v-s17-def-2 .statement tag=06VV}
 
-— 体 $K$ の拡大は、$K$-代数として正則である場合、正則であると言われます。
+— 体の拡大が $K$-代数 として正則であれば、 $K$ は正則であると言われます。
 
 #### 命題 4 {#alg-v-s17-prop-4 .statement tag=06VW}
 
-— $A$ を体 $K$ の整域と$E$ の分数の体を代数とします。 $L$ を $K$ の拡大とします。 環 $L \otimes_K A$ が整域の場合、$L \otimes_K E$ にも同じことが当てはまります。
+— $A$ を体 $K$ 上の代数として、整域とし、$E$ を分数の体とします。 $L$ を $K$ の拡大とします。 環 $L \otimes_K A$ が整域の場合、$L \otimes_K E$ にも同じことが当てはまります。
 
 $L \otimes_K A$ が整域の場合、分数 $F$ の体に埋め込まれる可能性があります。 $x \in L$ に $u(x) = x \otimes 1$ を書き、$E$ の $F$ への $K$ 準同型写像、つまり $A$ の拡大する単射準同型 $y \mapsto 1 \otimes y$ が $F$ になることを $v$ で表します。提案 6 (V、p. 14) によると、$F$ の部分体 $u(L)$ と $v(E)$ は、$K$ に対して直線的に互いに素です。したがって、$L \otimes_K E$ の $F$ (V, p. 12) への準同型 $u * v$ は単射法です。これは、$L \otimes_K E$ が整域であることを示しています。
 
@@ -224,7 +224,7 @@ b) $\Rightarrow$ c): これは定義から導き出されます。 2.
 
 c) $\Rightarrow$ d): d) の記法を使用して、$\overline{L}$ の K の相対値代数閉包を使用して同一視できる $\overline{K}$ (V、p. 22、例 2)。 環 $A = \overline{K} \otimes_K L$ が整域であるとします。 E を K 上の有限次数の K の部分拡張とする。 部分環
 
-A の E $\otimes_K$ L は整域であるため、L 上の有限次数の代数です。コルによって。 V、p. 10の体です。 $\bar{K}$は上記型の拡大Eの和集合増加する有向集合なので、Aは体になります（V、p. 11、提案3）。 The canonical homomorphism of A into $\bar{L}$ mapping $x \otimes y$ to $xy$ (for $x \in \bar{K}$ and $y \in L$) is therefore injective, so L and $\bar{K}$ are linearly disjoint over K.
+A の E $\otimes_K$ L は整域であるため、L 上の有限次数の代数です。コルによって。 V、p. 10の体です。 $\bar{K}$は上記型の拡大Eの和集合増加する有向集合なので、Aは体になります（V、p. 11、提案3）。 したがって、A の $\bar{L}$ へのマッピング $x \otimes y$ から $xy$ ($x \in \bar{K}$ と $y \in L$ の場合) への正準準同型性は単射的であるため、L と $\bar{K}$ は K に関して線形素です。
 
 $d) \Rightarrow a)$: d) の仮説の下では、$L \cap \bar{K} = K$ があるため、K はL で比較的代数的に閉じています。さらに、p が K の特性指数である場合、体 $L$ は $K^{p^{-\infty}}$ から $K$ にわたって線形に互いに素であるため、L は K 上で分離可能です (V、p. 123、Cor. 1)。
 

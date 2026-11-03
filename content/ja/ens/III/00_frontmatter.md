@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: 7eac5a31f87f038d612878b810e26e665b28d2963fc1d8a53c11ad250e05d92b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 79b358ebbd477aa1279b58305b7ed193771d09cda68977233811d72a0976d87a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 III 順序集合、基数、整数

@@ -35,10 +35,10 @@ translation_method: google
 source_content_sha256: 9b4d042c915247a66706e89ec93b075b9470428497af056aac806e76d9a56cf9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 94e9b510281a092ae905f16642c481fe71043d0fcaeb0fe264ae8e14f0a7a5cb
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。指数関数と循環関数写像、およびそれらに関連する写像の拡張

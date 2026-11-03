@@ -50,16 +50,16 @@ subsections:
       pdf_page: 128
 statements: 13
 exercises: 11
-content_sha256: 2b6ea6666d436905689ad28e378a200b193ec61af05d25092f5d58193970d34f
+content_sha256: 6ee87a70925d8cd89eaeddedd3155e3bf72830c7577b4558466f4a3d576d941a
 translated_from: content/en/ens/II/06_s6_equivalence_relations.md
 translation_method: google
 source_content_sha256: f7ce72a4dfc4c2df0edb07393e9d9b7234a3b676d35f6cff417c9f89092d2c5a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-58970ece
 glossary_version: 34
 glossary_terms_sha256: 178454ebf40e5fd4b0f776d42f079fed3ae0524548dfcc2b11282793f09be770
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 6. 同値関係
@@ -156,11 +156,11 @@ $$\mathrm{G}(x) = \mathrm{G}(y),$$
 
 #### 例 1 {#ens-ii-s6-n2-exa-1 .statement tag=03SD}
 
-$\mathrm{R}$ を集合 $\mathrm{E}$ の同値関係 「$x \in \mathrm{E}$ と $y \in \mathrm{E}$ と $x = y$」 とします。 The equivalence class of $x \in \mathrm{E}$ is then the set $\{x\}$, and the canonical mapping $x \to \{x\}$ of $\mathrm{E}$ onto $\mathrm{E}/\mathrm{R}$ is bijective.
+$\mathrm{R}$ を同値関係集合 $\mathrm{E}$ の「$x \in \mathrm{E}$ と $y \in \mathrm{E}$ と $x = y$」とします。 $x \in \mathrm{E}$ の同値類は集合 $\{x\}$ となり、$\mathrm{E}$ の $x \to \{x\}$ から $\mathrm{E}/\mathrm{R}$ への標準写像は全単射です。
 
 #### 例 2 {#ens-ii-s6-n2-exa-2 .statement tag=03SE}
 
-Let $\mathrm{E}$, $\mathrm{F}$ be two sets and let $\mathrm{R}$ be the equivalence relation on $\mathrm{E} \times \mathrm{F}$ associated with the mapping $\mathrm{pr}_1$ of $\mathrm{E} \times \mathrm{F}$ onto $\mathrm{E}$. $\mathrm{R}$ に対する同値類は、形 $\{x\} \times \mathrm{F}$ の集合であり、$x \in \mathrm{E}$ です。 写像 $x \to \{x\} \times \mathrm{F}$ は、$\mathrm{E}$ の $(\mathrm{E} \times \mathrm{F})/\mathrm{R}$ 上の全単射です。
+$\mathrm{E}$、$\mathrm{F}$ を 2 つのセットとし、$\mathrm{R}$ を、$\mathrm{E} \times \mathrm{F}$ の $\mathrm{E}$ への写像 $\mathrm{pr}_1$ に関連付けられた $\mathrm{E} \times \mathrm{F}$ 上の同値関係とします。 $\mathrm{R}$ に対する同値類は、形 $\{x\} \times \mathrm{F}$ の集合であり、$x \in \mathrm{E}$ です。 写像 $x \to \{x\} \times \mathrm{F}$ は、$\mathrm{E}$ の $(\mathrm{E} \times \mathrm{F})/\mathrm{R}$ 上の全単射です。
 
 $\mathrm{R}$ を集合 $\mathrm{E}$ の同値関係とします。 商集合 $\mathrm{E}/\mathrm{R}$ は $\mathfrak{P}(\mathrm{E})$ の部分集合であり、$\mathrm{E}/\mathrm{R}$ の恒等写像は $\mathrm{E}$ (§ 4, no. 7) の *分割* です。なぜなら、$\mathrm{G}$ が $\mathrm{R}$ のグラフである場合、すべての $x \in \mathrm{E}$ に対して $x \in \mathrm{G}(x)$ があり、2 つの同値類 $\mathrm{G}(x)$ と $\mathrm{G}(y)$ に共通の元 $z$ がある場合、$\mathrm{R}\{x,\ z\}$ となります。 $\mathrm{R}\{y,\ z\}$、つまり$\mathrm{G}(x) = \mathrm{G}(y)$。さらに、関係
 
@@ -228,15 +228,15 @@ $$f = j \circ k \circ g.$$
 
 ### 6. 同値関係中逆像;誘発同値関係
 
-$\varphi$ を集合 $E$ の写像を集合 $F$ に、$S$ を $F$ の同値関係とします。 If $u$ is the canonical mapping of $F$ onto $F/S$, the equivalence relation associated with the mapping $u\mathbin{\circ}\varphi$ of $E$ into $F/S$ is called the *inverse image* of $S$ under $\varphi$; if $R$ is this relation, $R\{x,y\}$ is equivalent to $S\{\varphi(x),\varphi(y)\}$, and the equivalence classes with respect to $R$ are the inverse images under $\varphi$ of the equivalence classes with respect to $S$ which meet $\varphi\langle E\rangle$.
+$\varphi$ を集合 $E$ の写像を集合 $F$ に、$S$ を $F$ の同値関係とします。 $u$ が $F$ の $F/S$ への正規写像である場合、$E$ の $F/S$ への写像 $u\mathbin{\circ}\varphi$ に関連付けられた同値関係は、$\varphi$ の下での $S$ の *逆イメージ* と呼ばれます。 $R$がこの関係であれば、$R\{x,y\}$は$S\{\varphi(x),\varphi(y)\}$と等価であり、$R$に関する同値類は、$\varphi\langle E\rangle$を満たす$S$に関する同値類の$\varphi$の下の逆像になります。
 
-¶ In particular, consider an equivalence relation $R$ on a set $E$, and let $A$ be a subset of $E$; then the inverse image of $R$ under the injection $j$ of $A$ into $E$ is called the equivalence relation *induced* by $R$ on $A$, and is denoted by $R_A$.
+¶ 特に、集合 $E$ 上の同値関係 $R$ を考え、$A$ を $E$ の部分集合とする。このとき、$A$の$E$への注入$j$の下での$R$の逆像は、$A$上の$R$によって*誘導*された同値関係と呼ばれ、$R_A$で表されます。
 
 ¶ $R_A$ に関する同値類は、$A$ を満たす $R$ に関する同値類の $A$ 上の *トレース* です。 単射 $j$ は明らかに関係 $R_A$ および $R$ と互換性があります。 写像 $A/R_A$ の $h$ から $E/R$ への $R_A$ に対する移行から商への $j$ によって誘発され、$R$ は $A/R_A$ の *単射語* 写像です$E/R$: $f$ (または $g$) が $E$ から $E/R$ への標準写像 (または $A$ から $A/R_A$) である場合、関係 $h(g(x))=h(g(x'))$、ここで$x\in A$ と $x'\in A$ は、$f(x)=f(x')$ に相当し、したがって $g(x)=g(x')$ に相当します。 像 $h\langle A/R_A\rangle$ は $f\langle A\rangle$ に等しい。 $k$ が $h$ と同じグラフを持つ $f\langle A\rangle$ に対する $A/R_A$ の全単射写像である場合、$k$ とその逆関数は *正準 * であると言われます。
 
 ### 7. 同値関係中商
 
-$x$、$y$ の 2 つの文字に対して、$R$、$S$ を 2 つの同値関係とします。 関係 $S\Rightarrow R$ が真の場合、$S$ は $R$ より *より細かい* (または $R$ は $S$ より *⟦粗い*) と言えます。 If $R$ and $S$ are equivalence relations on the same set $E$, the statement that $S$ is finer than $R$ means that the graph of $S$ is contained in that of $R$, or again that every equivalence class with respect to $S$ is contained in an equivalence class with respect to $R$; or, equivalently, that every equivalence class with respect to $R$ is saturated with respect to $S$.
+$x$、$y$ の 2 つの文字に対して、$R$、$S$ を 2 つの同値関係とします。 $S\Rightarrow R$ の関係が真であれば、$S$ は $R$ より *細かい* (または $R$ は $S$ より *粗い*) と言えます。 $R$ と $S$ が同じ集合 $E$ 上の同値関係である場合、$S$ が $R$ よりも細かいというステートメントは、$S$ のグラフが $R$ のグラフに含まれること、または再度、$S$ に関するすべての同値クラスが次の同値クラスに含まれることを意味します。 $R$ に敬意を表します。または、同等に、$R$ に関するすべての同値類は $S$ に関して飽和しています。
 
 *例*
 

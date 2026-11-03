@@ -53,16 +53,16 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: 04379238a2f89fe21e34c5668cb08116601c5ae13c25a1e367eac6661eb15aa3
+content_sha256: 6d4ebbbb55f4dd1966e319249e14e84780a94dbb4e76cb69f1181f163481eda5
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 translation_method: google
 source_content_sha256: 72d54cdf6923d26d9507679e68c08eb8627c1c668375ce55e331655e15e45177
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5fe2e5019493aa01063c16342ac5e855eb9bf4935bfde7a988af2d27e8c03403
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 加群が完全に閉じられたネーター ドメイン上で
@@ -118,18 +118,18 @@ f : V_1 \times \cdots \times V_k \to V
 $$
 像生成する $V$ の多重線形マッピングになります。 *$M_i$が$1 \leq i \leq k$の$V_i$の格子である場合、$f$($(M, x \ldots x M_k)$)によって生成される$V$のサブAモジュールは$V$の格子になります。
 
-(iv) $V$ と $W$ を $K$ 上の有限階数の 2 つのベクトル空間 、$M$ を $V$ の格子、$N$ を $W$ の格子とする。 *The sub-A-module $N$: $M$ of $\mathrm{Hom}_K(V, W)$, consisting of the K-linear mappings $f$ such that $f(M) \subset N$, is a lattice of $\mathrm{Hom}_K(V, W)$.*
+(iv) $V$ と $W$ を $K$ 上の有限階数の 2 つのベクトル空間 、$M$ を$V$ の格子、$N$ を$W$ の格子とする。 *サブ A モジュール $N$: $\mathrm{Hom}_K(V, W)$ の $M$、K-線型写像のからなる $f$ は、$f(M) \subset N$ が $\mathrm{Hom}_K(V, W)$ の格子になります。*
 
 (i) 命題 2 により、$A$ には $aM_1 \subset M_2 \subset b^{-1}M_1$ となる非ゼロ$a$ と $b$ が存在します。 結論するでは、$M_1 \cap M_2$ と $M_1 + M_2$ は $aM_1$ と $b^{-1}M_1$ の間にあり、したがって命題 2 によって格子であると考えられます。
 
-(ii) Let $S$ be a complement of $W$ in $V$, $L_w$ a free lattice of $W$ and $L_s$ a free lattice of $S$, so that $L = L_w \oplus L_s$ is a free lattice of $V$. すると、$K^*$には$xL \subset M \subset yL$のような$x, y$が存在します。 $xL_w \subset M \cap W \subset yL_w$ は、$M \cap W$ が $W$ (命題 2) の格子であることを示しています。
+(ii) $S$ を $V$ の $W$ の補数、$L_w$ を $W$ の自由格子、$L_s$ を $S$ の自由格子とし、$L = L_w \oplus L_s$ を $V$ の自由格子とします。すると、$K^*$には$xL \subset M \subset yL$のような$x, y$が存在します。 $xL_w \subset M \cap W \subset yL_w$ を推定すると、$M \cap W$ が $W$ (命題 2) の格子であることがわかります。
 
-(iii) $KM_i = V$ として、線形性により明らかに $f$ ($M_1 x \ldots x M_n$) 生成するベクトル K 空間 $V$;一方、すべての $i$ に対して、$M_i \subset N_i$ のような $V$ の有限生成されたサブ A モジュール $N_i$ が存在します。 $f(N_1 x \ldots x N_n)$ によって生成された$V$ のサブ A 加群 $N$ は有限生成され、含む $M$ であるため、$M$ は$V$ (命題 1) の格子になります。
+(iii) $KM_i = V$ として、線形性により明らかに $f$ ($M_1 x \ldots x M_n$) 生成するベクトル K 空間 $V$;一方、すべての $i$ に対して、$M_i \subset N_i$ のような、$V$ の有限生成されたサブ A モジュール $N_i$ が存在します。 $f(N_1 x \ldots x N_n)$ によって生成された$V$ のサブ A 加群 $N$ は有限生成され、含む $M$ であるため、$M$ は$V$ (命題 1) の格子になります。
 
-(iv) $P$ (それぞれ $Q$) を $V$ (それぞれ $W$) 含む $M$ (それぞれ $N$ に含まれる) の自由格子とする。明らかに$N : M \supset Q : P$。ここで、$Q : P$ が $\mathrm{Hom}_A(P, Q)$ と同型であるのは明らかであるため、階数 $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ の自由A-加群 (*代数*, 章 II, § 1, no. 6, 系 1 ～ 命題) 6) したがって、格子は $\mathrm{Hom}_K(V, W)$ になります。同様に、$P'$ (それぞれ $Q'$) が $M$ (それぞれ含む $N$) に含まれる $V$ (それぞれ $W$) の自由格子である場合、$Q' : P' \supset N : M$ と $Q' : P'$ は$\mathrm{Hom}_K(V, W)$の格子。 よって結論。
+(iv) $P$ (それぞれ $Q$) を $V$ (それぞれ $W$) 含む $M$ (それぞれ $N$ に含まれる) の自由格子とする。明らかに$N : M \supset Q : P$。ここで、$Q : P$ が $\mathrm{Hom}_A(P, Q)$ と同型であるのは明らかです。したがって、階数 $(\mathrm{rg}_A P)(\mathrm{rg}_A Q)$ の自由A-加群 (*代数*, 章 II, § 1, no. 6, 系 1 から命題 6) したがって、格子は $\mathrm{Hom}_K(V, W)$ になります。同様に、$P'$ (それぞれ $Q'$) が $M$ (それぞれ含む $N$) に含まれる $V$ (それぞれ $W$) の自由格子である場合、$Q' : P' \supset N : M$ と $Q' : P'$ は$\mathrm{Hom}_K(V, W)$の格子。 よって結論。
 
 *注意*
-(2) 命題 3 (i) は、$V$ の格子の集合 $R(V)$ が包含に関して *格子順序付け* されていることを示します。さらに、$M$が$V$の固定格子である場合、$x$が$K^*$、形部分集合、$R(V)$を通過する$xM$は、*coinitial*かつ*cofinal* (*集合) 理論*、章 III, § 1, no. 7）。
+(2) 命題 3 (i) は、$V$ の格子の集合 $R(V)$ が包含に関して *格子順序付け* されていることを示します。さらに、$M$が$V$の固定格子である場合、$x$が$K^*$、$R(V)$の形部分集合を通過する$xM$は、*coinitial*と*cofinal*の両方です(*集合) 理論*、章 III, § 1, no. 7)。
 
 (3) 命題 3(iv)の記法において、標準写像
 $$
@@ -176,9 +176,9 @@ $i \geq 2$ と $j \geq 2$ の場合。 基底 $e_1$ を伴う $S$ の格子と $
 
 #### 系 {#ac-vii-s4-n1-cor-3 .statement tag=0535}
 
-$A$ が離散評価環であると仮定します。 Let $\hat{A}$ be its completion and let $\hat{K}$ be the field of fractions of $\hat{A}$ (Chapter VI, § 5, no. 3). The mapping $\phi$, which maps every lattice $M$ of $V$ to the lattice $\hat{A}M$ of $\hat{V} = V \otimes_K \hat{K}$ with respect to $\hat{A}$, is bijective and its inverse maps every lattice $M'$ of $\hat{V}$ with respect to $\hat{A}$ to its intersection $M' \cap V$ ($V$ being canonically identified with a vector sub-K-space of $\hat{V}$).
+$A$ が離散評価環であると仮定します。 $\hat{A}$ をその完了とし、$\hat{K}$ を $\hat{A}$ (章 VI, § 5, no. 3) の分数の体とします。 $\hat{A}$ に関して $V$ のすべての格子 $M$ を $\hat{V} = V \otimes_K \hat{K}$ の格子 $\hat{A}M$ にマッピングするマッピング $\phi$ は全単射であり、その逆マッピングは $\hat{A}$ に関して $\hat{V}$ のすべての格子 $M'$ をその交点にマッピングします。 $M' \cap V$ ($V$ は、$\hat{V}$ のベクトルサブ K 空間で正規に識別されます)。
 
-If $L$ is a free lattice of $V$, the lattices $aL$ (for $a \in A, a \neq 0$) form a fundamental system of neighbourhoods of 0 for a topology $\mathscr{T}$ on $V$ (compatible with its $A$-module structure), which (when a basis of $L$ over $A$ is taken) is identified with the product topology on $K^n$); by virtue of Proposition 2, a fundamental system of neighbourhoods of 0 for $\mathscr{T}$ also consists of all the lattices of $V$ with respect to $A$; clearly $\hat{V}$ is the completion of $V$ with respect to $\mathscr{T}$. Moreover, if $m$ is the maximal ideal of $A$, the topology $\mathscr{T}$ induces on every lattice $M$ of $V$ with respect to $A$ the $m$-adic topology since $M$ is a finitely generated $A$-module (Chapter III, § 3, no. 2, Theorem 2) and $\hat{A}M$ is the completion of $M$ with respect to this topology (Chapter III, § 2, no. 12, Proposition 16); moreover, as $M$ is open (and therefore closed) in $V$, $\hat{A}M \cap V = M$, which proves again the fact that $\dagger$ is injective (which follows directly from Proposition 4, (ii), since $A$ is a faithfully flat $A$-module). Finally, if $M'$ is a lattice of $\hat{V}$ with respect to $\hat{A}$, $M = M' \cap V$ is a lattice of $V$ with respect to $A$, for every element of $\hat{A}$ is the product of an element of $A$ and an invertible element of $\hat{A}$ and hence it follows from Proposition 2 that there exist $a, b$ in $A - \{0\}$ such that $a \hat{A}L \subset M' \subset b \hat{A}L$, whence $aL \subset M' \cap V \subset bL$. さらに、$M'$は$V$で開いており、$V$は$\hat{V}$で密集しているため、$M'$は$M' \cap V = M$の完了です。これは、$\phi$ が全射、よって系であることを証明します。
+If $L$ is a free lattice of $V$, the lattices $aL$ (for $a \in A, a \neq 0$) form a fundamental system of neighbourhoods of 0 for a topology $\mathscr{T}$ on $V$ (compatible with its $A$-module structure), which (when a basis of $L$ over $A$ is taken) is identified with the product topology on $K^n$); by virtue of Proposition 2, a fundamental system of neighbourhoods of 0 for $\mathscr{T}$ also consists of all the lattices of $V$ with respect to $A$; clearly $\hat{V}$ is the completion of $V$ with respect to $\mathscr{T}$. さらに、$m$が$A$の最大理想である場合、$M$は有限生成された$A$加群であるため、トポロジー$\mathscr{T}$は、$A$に関して$V$のすべての格子$M$に$m$進トポロジーを誘導します。 (III, § 3, no. 2 章、定理 2) および $\hat{A}M$ は、このトポロジーに関する $M$ の完成です (III, § 2, no. 12 章、命題 16)。さらに、$M$ が $V$、$\hat{A}M \cap V = M$ で開いている (したがって閉じている) ため、これは、$\dagger$ が単射であるという事実を再度証明します (これは、$A$ が忠実に平坦な $A$ 加群であるため、命題 4 (ii) から直接続きます)。 Finally, if $M'$ is a lattice of $\hat{V}$ with respect to $\hat{A}$, $M = M' \cap V$ is a lattice of $V$ with respect to $A$, for every element of $\hat{A}$ is the product of an element of $A$ and an invertible element of $\hat{A}$ and hence it follows from Proposition 2 that there exist $a, b$ in $A - \{0\}$ such that $a \hat{A}L \subset M' \subset b \hat{A}L$, whence $aL \subset M' \cap V \subset bL$. さらに、$M'$は$V$で開いており、$V$は$\hat{V}$で密集しているため、$M'$は$M' \cap V = M$の完了です。これは、$\phi$ が全射、よって系であることを証明します。
 
 例 (6) $S$ を、含む 0 ではなく、$A$ の乗算部分集合とします。私たちは命題を適用する 4から$B = S^{-1}A$です。次に$L = K$、$BM = S^{-1}M$。したがって、$S^{-1}M$は$S^{-1}A$に関して$V$の格子です。さらに：
 
@@ -229,7 +229,7 @@ $$
 \operatorname{Ass}(V/M) \subset \bigcap_{p \in P} \operatorname{Ass}(V/M_p).
 $$
 
-As $V/M_p$ is an $A_p$-module, an element of $A - p$ cannot annihilate an element $\neq 0$ of $V/M_p$, since the elements of $A - p$ are invertible in $A$; the elements of $\operatorname{Ass}(V/M_p)$ are therefore contained in $p$ and are $\neq 0$, since $V/M_p$ is a torsion $A$-module; as $p$ is of height **1**, necessarily $\operatorname{Ass}(V/M_p) = \{ p \}$ if $V/M_p \neq (0)$ and $\operatorname{Ass}(V/M_p) = \varnothing$ if $V/M_p = (0)$; hence $\operatorname{Ass}(V/M) \subset P$.
+$V/M_p$ は $A_p$ モジュールであるため、$A - p$ の元は $A$ で反転可能であるため、$A - p$ できないの元は $V/M_p$ の元 $\neq 0$ を消滅させます。したがって、$\operatorname{Ass}(V/M_p)$ の元は $p$ に含まれ、$V/M_p$ は捩れ $A$ モジュールであるため、$\neq 0$ になります。 $p$ の高さは **1** であるため、$V/M_p \neq (0)$ の場合は必然的に $\operatorname{Ass}(V/M_p) = \{ p \}$、$V/M_p = (0)$ の場合は $\operatorname{Ass}(V/M_p) = \varnothing$ になります。したがって$\operatorname{Ass}(V/M) \subset P$です。
 
 最後に、条件 (c) が成立する場合、
 
@@ -407,7 +407,7 @@ $$
 
 #### 注意 {#ac-vii-s4-n3-rem-1 .statement tag=053G}
 
-$L$を$A$に関する$V$の自由格子とします。 $A_p$ は $p \in P$ の主イデアル整域であるため、$N(p)$ は $L$ と同じ階数の空き $A$ モジュールであり、$u(p)(L_p) = N(p)$ のような $u(p) \in \mathbf{GL}(V)$ が存在します。この条件さらに決定する $u(p)$ を $\mathbf{GL}(L_p)$ の元までに右乗法内に移動します。 ほぼすべての $p \in P$ に対して条件 $N(p) = L_p$ は、ほぼすべての $p \in P$ に対して必然的に $u(p) \in \mathbf{GL}(L_p)$ であることを意味します。 家族 $(u(p))_{p \in P}$ 満たす後者性質形乗法群 $\mathbf{GL}_a(V)$ 含むとして部分群積 $\prod_{p \in P} \mathbf{GL}(L_p)$ 。 次に、定理 3 は、V の再帰格子の *集合が同次の空間* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ と正準 1 対 1 対応であることを示します。 If a basis $(e_i)_{1 \leq i \leq n}$ of L over A is chosen, $\mathbf{GL}(V)$ (resp. $\mathbf{GL}(L_p)$) is identified with the group of invertible matrices $\mathbf{GL}(n, K)$ (resp. $\mathbf{GL}(n, A, )$) and the group $\mathbf{GL}_a(V)$ with the group of systems of matrices of order $n$, $(U(p))_{p \in P}$, such that $U(p) \in \mathbf{GL}(n, K)$ for all $p \in P$ and $U(p) \in \mathbf{GL}(n, A_p)$ for almost all $p \in P$. A がデデキント ドメインの場合、群 $\mathbf{GL}_a(V)$ は群 $\mathbf{GL}(n, A)$ とも識別されます。ここで、A は制限付きアデル ($§ 2$、no. 4) の環です。
+$L$を$A$に関する$V$の自由格子とします。 $A_p$ は $p \in P$ の主イデアル整域であるため、$N(p)$ は $L$ と同じ階数の空き $A$ モジュールであり、$u(p)(L_p) = N(p)$ のような $u(p) \in \mathbf{GL}(V)$ が存在します。この条件さらに決定する $u(p)$ を $\mathbf{GL}(L_p)$ の元までに右乗法内に移動します。 ほぼすべての $p \in P$ に対して条件 $N(p) = L_p$ は、ほぼすべての $p \in P$ に対して必然的に $u(p) \in \mathbf{GL}(L_p)$ であることを意味します。 家族 $(u(p))_{p \in P}$ 満たす後者性質形乗法群 $\mathbf{GL}_a(V)$ 含むとして部分群積 $\prod_{p \in P} \mathbf{GL}(L_p)$ 。 次に、定理 3 は、V の再帰格子の *集合が同次の空間* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$ と正準 1 対 1 対応であることを示します。 A 上の L の基底 $(e_i)_{1 \leq i \leq n}$ が選択された場合、$\mathbf{GL}(V)$ (それぞれ $\mathbf{GL}(L_p)$) は可逆行列 $\mathbf{GL}(n, K)$ (それぞれ $\mathbf{GL}(n, A, )$) のグループと識別され、グループ $\mathbf{GL}_a(V)$ は次数 $n$ の行列系のグループと識別されます。 $(U(p))_{p \in P}$、つまり、すべての $p \in P$ に対して $U(p) \in \mathbf{GL}(n, K)$ が、ほぼすべての $p \in P$ に対して $U(p) \in \mathbf{GL}(n, A_p)$ になります。 A がデデキント ドメインの場合、群 $\mathbf{GL}_a(V)$ は群 $\mathbf{GL}(n, A)$ とも識別されます。ここで、A は制限付きアデル ($§ 2$、no. 4) の環です。
 
 ### 4. 擬似同型性
 
@@ -461,7 +461,7 @@ $$
 
 *$(p_i)_{1 \leq i \leq k}$ を高さ 1 の $A$ の素イデアルの空でない有限族とし、$S = \bigcap_i (A - p_i)$ とします。その場合、環 $S^{-1}A$ は主イデアル整域になります。*
 
-$S^{-1}A$ is a semi-local ring whose maximal ideals are the $m_i = p_i S^{-1}A$ for $1 \leq i \leq k$, the local ring $(S^{-1}A)_{m_i}$ being isomorphic to $A$, (Chapter 11, § 3, no. 5, Proposition 17) and hence a discrete valuation ring. したがって、環 $S^{-1}A$ は Dedekind ドメイン (§ 2, no. 2, 定理 1 (f)、そして準ローカルであるため主イデアル整域 (§ 2, no. 2, 命題 1) です。
+$S^{-1}A$ は半局所環であり、その最大イデアルは $1 \leq i \leq k$ に対する $m_i = p_i S^{-1}A$ であり、局所環 $(S^{-1}A)_{m_i}$ は $A$ と同型であり (第 11 章、§ 3, no. 5、命題 17)、したがって離散評価環となります。 したがって、環 $S^{-1}A$ は Dedekind ドメイン (§ 2, no. 2, 定理 1 (f)、そして準ローカルであるため主イデアル整域 (§ 2, no. 2, 命題 1) です。
 
 #### 補題 3 {#ac-vii-s4-lem-3 .statement tag=053N}
 
@@ -511,7 +511,7 @@ T を有限生成された捩れ A-加群とします。 2 つの有限族 $(n_i
 
 ### 5. 因子が捩れ加群に接続されました
 
-nos と同じ記法と仮説を維持します。 2、3、4。 Recall that $D(A)$ (or simply $D$) denotes the *divisor group* of $A$, written additively : we know (§ 1, no. 3, Theorem 2) that $D$ is the free $\mathbf{Z}$-module generated by the elements of $P$.
+nos と同じ記法と仮説を維持します。 2、3、4。 $D(A)$ (または単に $D$) が加法的に書かれた $A$ の *除数群* を表すことを思い出してください。 $D$ が $P$ の要素によって生成される自由な $\mathbf{Z}$ 加群であることがわかります (§ 1, no. 3、定理 2)。
 
 $T$ を有限生成された捩れ $A$ モジュールとします。 すべての $p \in P$ に対して、$T_p$ は有限生成された捩れ $A_p$ モジュールであるため、*有限長* の加群 (章 IV, § 2, no. 5、系 2 ～ 命題 7)。この長さを$l_p(T)$と表記します。 Now $T_p = 0$ for all $p$ not containing the annihilator of $T$ and hence for almost all $p$ (§ 1, no. 6, Theorem 4), which justifies the following definition:
 
@@ -560,7 +560,7 @@ $$
 \psi(T) = \phi(T) - \theta(\chi(T))
 $$
 
-有限に生成されたすべての捩れ A-加群 T;明らかに、$\phi$ を $\psi$ に置き換えれば、条件 (1) と (2) も満たされます。 On the other hand, $\psi(A/p) = 0$ if $p \in P$; if p is a prime ideal $\neq 0$ and not in P, the annihilator of $A/p$ is contained in no ideal of P, hence (no. 4, Theorem 5) $A/p$ is pseudo-zero and therefore $\psi(A/p) = 0$. そうなると、有限生成されたすべての捩れ A-加群 T は、因子が形 $A/p$ の A-加群と同型である分解系列を認めます。ここで、$p \in \mathrm{Supp}(T)$ (章 IV, § 1, no. 4, 定理 1 と 2)、T が捩れ加群であるため、$p \neq 0$ となります。 この分解系列の長さの帰納法によって、($\psi$ の性質 (1) を考慮して) $\psi(T) = 0$ と推定されます。
+有限に生成されたすべての捩れ A-加群 T;明らかに、条件 (1) と (2) は、$\phi$ が $\psi$ に置き換えられた場合にも満たされます。一方、$p \in P$の場合は$\psi(A/p) = 0$です。 p が素イデアル $\neq 0$ で P に含まれない場合、$A/p$ の消滅子は P のどのイデアルにも含まれないため、(no. 4, 定理 5) $A/p$ は擬似ゼロとなり、したがって $\psi(A/p) = 0$ になります。そうなると、有限に生成されたすべての捩れ A-加群 T は、因子が形 $A/p$ の A-加群と同型である分解系列を認めます。ここで、$p \in \mathrm{Supp}(T)$ (章) IV, § 1, no. 4、定理 1 および 2)、T が捩れ加群であるため、$p \neq 0$ となります。この分解系列の長さ上の帰納法までに、($\psi$ の性質 (1) を考慮して) $\psi(T) = 0$ と推測します。
 
 \* no. 4 と同様に、有限生成された擬似ゼロ捩れ A-加群の完全なサブカテゴリ $\mathscr{T}'$ によって、有限生成された捩れ A-加群のカテゴリ $\mathscr{T}$ の商カテゴリ $\mathscr{T}/\mathscr{T}'$ を考慮する場合があります。 アーベルカテゴリの言語では、命題 11 は、アーベルカテゴリ $\mathscr{T}/\mathscr{T}'$ の *グロタンディーク群* が $D(A)$ と標準的に同型であるという事実を表します。 \*
 
@@ -578,9 +578,9 @@ $p \in P$ にしましょう。次に、$A_p$ は離散評価環であるため�
 
 ### 6. 2 つの格子の相対不変量
 
-私たちは記法とノーの仮説を保持します。 2から5まで。 V を $K$ 上の有限階数 $n$ のベクトル空間とし、M を A に関する V の格子とします。 W を外部冪 $\bigwedge^n V$ とします。これは、$K$ 上の *階数 1* のベクトル空間であり、$M_w$ は、標準写像 $V^n \to \bigwedge^n V$ の下で $M^n$ の像によって生成される W の格子を表します。 (no. 1, 命題 3 (iii); $M_w$ は必ずしも $\bigwedge^n M$ (*代数*, 章 III, § 5, 練習問題 9) と同型であるわけではないことに注意してください。 $e$ が K 上の W の基底である場合、$M = a.e$ と書くことができます。ここで、a は A の分数イデアル $\neq 0$ です。
+私たちは記法とノーの仮説を保持します。 2から5。Vを$K$上の有限階数$n$のベクトル空間とし、MをAに関するVの格子とします。Wを外部冪$\bigwedge^n V$、つまりベクトル空間とします。 *$K$ 上の階数 1*、$M_w$ は、標準写像 $V^n \to \bigwedge^n V$ (no. 1, 命題 3 (iii) の下で $M^n$ の像によって生成される W の格子を表します。$M_w$ は必ずしもそうではないことに注意してください) $\bigwedge^n M$ (*代数*, 章 III, § 5, 練習問題 9)) と同型。 $e$ が K 上の W の基底である場合、$M = a.e$ と書くことができます。ここで、a は A の分数イデアル $\neq 0$ です。
 
-Let $M'$ be another lattice of V and let us write $M'_w = a'.e$, where $a'$ is a fractional ideal $\neq 0$ of A; the divisor $\operatorname{div}(a) - \operatorname{div}(a')$ *does not depend on the choice of basis* $e$ of W, a and $a'$ being multiplied by the same element of $K^*$ when the basis is changed; we shall write $\chi(M, M') = \operatorname{div}(a) - \operatorname{div}(a')$ and say that this divisor is the *relative invariant* of $M'$ *with respect to* M. 明らかに、M、$M', M''$ が V の 3 つの格子である場合、次のようになります。
+$M'$ を V の別の格子とし、$M'_w = a'.e$ と書きます。ここで、$a'$ は A の分数イデアル $\neq 0$ です。約数 $\operatorname{div}(a) - \operatorname{div}(a')$ *基底の選択には依存しません* W、a、および $a'$ の $e$ は、基底が変更されると $K^*$ の同じ要素で乗算されます。 $\chi(M, M') = \operatorname{div}(a) - \operatorname{div}(a')$ と書き、この約数は *M に関して * $M'$ の *相対不変量* であると言いましょう。 明らかに、M、$M', M''$ が V の 3 つの格子である場合、次のようになります。
 
 (3)
 $$
@@ -845,7 +845,7 @@ $$
 
 ### 8. スカラーの有限拡大の環に関するプロパティ
 
-In this no., A and B denote two integrally closed Noetherian domains such that $A \subset B$ and B is a finitely generated A-module and K and L the fields of fractions of A and B respectively. A-加群が関係する場合は、それぞれ div、$\chi$、c、y、r の代わりに div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$ と書き、B-加群には同様の記法を使用します。
+この番号では、A と B は 2 つの統合的に閉じたネーター領域を表し、$A \subset B$ と B は有限生成された A 加群であり、K と L はそれぞれ A と B の分数体です。 A-加群が関係する場合は、それぞれ div、$\chi$、c、y、r の代わりに div$_A$、$\chi_A$、$c_A$、$\gamma_A$、$r_A$ と書き、B-加群には同様の記法を使用します。
 
 B の素イデアル $\mathfrak{p}$ が高さ 1 であるためには、$\mathfrak{p} = \mathfrak{P} \cap A$ が高さ 1 であることが必要かつ十分であることがわかります (§ 1, no. 10)。さらに、(上記引用、命題 14) $\mathfrak{p} \in P(A)$ については、$\mathfrak{p}$ の上にある主要なイデア $\mathfrak{P} \in P(B)$ の有限の数のみが存在します。 省略すると、$\mathfrak{P}|_{\mathfrak{p}}$ 関係 「$\mathfrak{P}$ が $\mathfrak{p}$ の上にある」（つまり、$\mathfrak{p} = \mathfrak{P} \cap A$）と表し、その後、評価の分岐添字 $e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ を$e_{\mathfrak{P}/\mathfrak{p}}$ または $e(\mathfrak{P}/\mathfrak{p})$ で表します。 $v_{\mathfrak{P}}$ が評価 $v_{\mathfrak{p}}$ (章 VI, § 8, no. 1) で、$f_{\mathfrak{P}/\mathfrak{p}}$ または $f(\mathfrak{P}/\mathfrak{p})$ 剰余類次数 $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ (上記参照)。 $v_{\mathfrak{p}}$ と $v_{\mathfrak{P}}$ が標準であり、その $f_{\mathfrak{P}/\mathfrak{p}}$ は、$A/\mathfrak{p}$ の分数の体を超え、 $B/\mathfrak{P}$ の分数の体の次数です。 私たちは集合 $n = r_A(B)$ で、B は A-加群と見なされます。したがって、定義 $n = [L:K]$ により、すべての $\mathfrak{p} \in P(A)$ に対して、$n$ はすべての $\mathfrak{P}|_{\mathfrak{p}}$ に対して空き A、モジュール B の階数になります。 次に、章 VI, § 8, no. 5、定理 2 から、すべての $\mathfrak{p} \in P(A)$ について次のようになります。
 
@@ -927,7 +927,7 @@ $$
 
 明らかに (有限生成された捩れ $B$ モジュールの場合) $\phi$ は、命題 II の no. 5 の条件 (1) および (2) を満たします ((i) を考慮して)。したがって、有限生成された捩れ $B$ モジュール $R$ ごとに $\phi(R) = \theta(\chi_B(R))$ となる準同型 $\theta : D(B) \to D(A)$ が存在します。 準同型 $\theta$ は、$\chi_B(B/\mathfrak{p}) = \mathfrak{p}$ 以降、形 $B/\mathfrak{p}$ の$\mathfrak{p} \in P(B)$ のすべての $B$ モジュールの値によって決定されます。さて、$P(A)$、$p \notin q$、そして$(B/\mathfrak{p})_q = 0$ の各素数理想$q \neq p = \mathfrak{p} \cap A$ についてです。一方、集合 $S = A - p$ とすると、$\mathfrak{p}.S^{-1}B$ は $S^{-1}B$ と $(B/\mathfrak{p})_p = S^{-1}B/\mathfrak{p}$ の最大の理想になります。 $S^{-1}B$ は、$B/\mathfrak{p}$ の分数の体 (章 II, § 2, no. 5, 命題 11)、つまり $v_{\mathfrak{p}}$ の剰余体と同型です。したがって、$A$ モジュールとしての長さは $f_{\mathfrak{p}/p}$ です。これは、$\theta = N$ (no. 5、定義 4) であることを証明します。
 
-(iii) $T$ が $R$ の捩れ部分加群である場合、$T_{[A]}$ は $R_{[A]}$ と $(R/T)_{[A]} = R_{[A]}/T_{[A]}$ の捩れ部分加群です。 (21) を証明するには、したがって、$R$ にねじれがない場合に注意を限定することができます。 Then $R$ is identified with a sub-$B$-module of $R_{(L)}$ and contains a basis $(e_i)_1 < < m$ of $R_{(L)}$ over $L$. If $(b_j)_1 s < n$ is a basis of $L$ over $K$ consisting of elements of $B$, the $b_j e_i$ form a basis of $R_{(L)}$ over $K$ consisting of elements of $R$, whence (21). 一方、$M$ を $R$ の空きサブ$B$ モジュールとし、$R/M$ が捩れ $B$ モジュールとなるようにします。 $M_{[A]}$ は、命題 16 (i) により、$r_B(R)$ $A$ モジュールの直和が $B$ と同型であるため、
+(iii) $T$ が $R$ の捩れ部分加群である場合、$T_{[A]}$ は $R_{[A]}$ と $(R/T)_{[A]} = R_{[A]}/T_{[A]}$ の捩れ部分加群です。 (21) を証明するには、したがって、$R$ にねじれがない場合に注意を限定することができます。 次に、$R$ は $R_{(L)}$ のサブ$B$ モジュールで識別され、$L$ を超える $R_{(L)}$ の基底 $(e_i)_1 < < m$ が含まれます。 $(b_j)_1 s < n$ が $B$ の要素からなる $K$ 上の $L$ の基底である場合、$b_j e_i$ は $R$ の要素からなる $K$ 上の $R_{(L)}$ の基底を形成します (21)。 一方、$M$ を $R$ の空きサブ$B$ モジュールとし、$R/M$ が捩れ $B$ モジュールとなるようにします。 $M_{[A]}$ は、命題 16 (i) により、$r_B(R)$ $A$ モジュールの直和が $B$ と同型であるため、
 
 $$
 c_A(M_{[A]}) = r_B(R).c_A(B).
@@ -1054,9 +1054,9 @@ $$
 
 (ii) *$\operatorname{Card}(H_i) < \operatorname{Card}(R/p_i)$ の場合、(i) の $H_i$ 満たす条件。
 
-(i) $n$ について帰納法によって議論しますが、$n = 0$ の場合は自明です。 したがって、$n \geq 1$ とします。 添字 $i$ で置換を作成し、$p_1$ が $p_i$ の中で最小であり、したがって $2 \leq i \leq n$ に対して、$c_i \notin p_1$ となるような $c_i \in p_i$ が存在すると仮定することができます。 帰納法の仮定までに、$R/p_i$の$b$の標準像が$2 \leq i \leq n$の属するから$H_i$にならないような$b \in R$が存在します。 すべての $x \in R$ については $a_i = b + x c_2 c_3 \ldots c_n$ と書きます。 $c_i \in p_i$ として、明らかに $2 \leq i \leq n$ の場合は $a_i \equiv b \pmod{p_i}$ です。 したがって、$\mathbf{R}/p_1$ の $a_i$ の標準像が属するから $H_1$ にならないような $x \in \mathbf{R}$ が存在することを証明すれば十分です。 Now, the set of canonical images of the $a_i$ in $\mathbf{R}/p_1$, where $x$ runs through $\mathbf{R}$, is just $\beta + c$, where $\beta$ is the canonical image of $b$ and $c$ the ideal of $\mathbf{R}/p_1$ generated by the canonical image of $c_2 c_3 \ldots c_n$; by virtue of the choice of the $c_i$, $c \neq 0$ since $\mathbf{R}/p_1$ is an integral domain and the hypothesis on $H_1$ implies the existence of an $x$ which solves the problem.
+(i) $n$ について帰納法によって議論しますが、$n = 0$ の場合は自明です。 したがって、$n \geq 1$ とします。 添字 $i$ で置換を作成し、$p_1$ が $p_i$ の中で最小であり、したがって $2 \leq i \leq n$ に対して、$c_i \notin p_1$ となるような $c_i \in p_i$ が存在すると仮定することができます。 帰納法の仮定までに、$R/p_i$の$b$の標準像が$2 \leq i \leq n$の属するから$H_i$にならないような$b \in R$が存在します。 すべての $x \in R$ については $a_i = b + x c_2 c_3 \ldots c_n$ と書きます。 $c_i \in p_i$ として、明らかに $2 \leq i \leq n$ の場合は $a_i \equiv b \pmod{p_i}$ です。 したがって、$\mathbf{R}/p_1$ の $a_i$ の標準像が属するから $H_1$ にならないような $x \in \mathbf{R}$ が存在することを証明すれば十分です。 さて、$x$ が $\mathbf{R}$ を通る$\mathbf{R}/p_1$ の $a_i$ の正準イメージのセットは、ちょうど $\beta + c$ です。ここで、$\beta$ は $b$ の正準イメージであり、$c$ は の正準イメージによって生成された $\mathbf{R}/p_1$ の理想です。 $c_2 c_3 \ldots c_n$; $\mathbf{R}/p_1$ は整数領域であり、$H_1$ に関する仮説は問題を解決する $x$ の存在を暗示しているため、$c_i$、$c \neq 0$ の選択によります。
 
-(ii) As $\mathbf{R}/p_i$ is an integral domain, every ideal $\neq 0$ of $\mathbf{R}/p_i$ has cardinal equal to that of $\mathbf{R}/p_i$ and the same is true of any translation of an ideal by an element of $\mathbf{R}/p_i$, whence the conclusion.
+(ii) $\mathbf{R}/p_i$ が整域であるため、$\mathbf{R}/p_i$ のすべての理想 $\neq 0$ は $\mathbf{R}/p_i$ の理想と等しい基数を持ち、同じことが、$\mathbf{R}/p_i$ の元、よっての結論による理想の翻訳にも当てはまります。
 
 #### 定理 6 {#ac-vii-s4-thm-6 .statement tag=054C}
 
@@ -1076,13 +1076,13 @@ $A/p$の分数の$k(p)$体（$A_p$の剰余体と同型）で表します。し�
 
 $x_1, \ldots, x_n$を$M$の元とし、$x_1, \ldots, x_n$、$V$の形基底と合わせて、$N$を$x_i$によって生成された$M$の空きサブAモジュールとします。 ($1 \leq i \leq n$)。 no. 3、定理 3 から、ほぼすべての $p \in P$ について $N = M$ となります。 $k(p)$ に対する $N(p)$ の $x_1(p), \ldots, x_n(p)$ 形基底として、最初の主張が確立されます。
 
-$M/L$ がねじれがない場合、すべての $p \in P$ (no. 1、*例 6*) について $(M/L)_p = M_p/L_p$ も同様です。また、$A_p$ が主イデアル整域であるため、$M_p/L_p$ は自由です。 したがって、$M$ は $L$ の直和であり、階数 $n - m$ の空き $A$ モジュール $E$ です。したがって、$M(p)$ は $L(p)$ の直和および階数 $n - m$ のベクトル $k(p)$-スペース $E/pE$ です。したがって、$L(p)$ は階数 $m$ であり、$x_i(p)$ ($1 \leq i \leq m$) によって生成されるため、後者は線形独立です。
+$M/L$ がねじれがない場合、すべての $p \in P$ (no. 1、*例 6*) に対して $(M/L)_p = M_p/L_p$ も同様です。また、$A_p$ が主イデアル整域であるため、$M_p/L_p$ は自由です。したがって、$M$ は $L$ の直和であり、階数 $n - m$ の空き $A$ モジュール $E$ です。したがって、$M(p)$は$L(p)$の直和、およびベクトル$k(p)$-スペース$E/pE$の階数$n - m$です。したがって、$L(p)$ は階数 $m$ であり、$x_i(p)$ ($1 \leq i \leq m$) によって生成されるため、後者は線形独立です。
 
-逆に、$x_i(p)$ ($1 \leq i \leq m$) がすべての $p \in P$ について $k(p)$ に対して線形独立であると仮定します。次に、$L$ は、すべての $p$ (章 II, § 3, no. 2、系 1 から命題 5) に対して、$M$ の直因子であるため、$M_p/L_p = (M/L)_p$ はすべての $p \in P$ に対してねじれがありません。私たちは結論するその $P \cap \operatorname{Ass}(M/L) = \varnothing$ by 章 IV, § 1, no. 2, 系から命題 5. しかし、L は再帰的であるため、no. 2, 命題 7 (i) から、 属する ～ $\operatorname{Ass}(M/L)$ が理想 (0) です。したがって、$M/L$ にはねじれがありません。
+逆に、$x_i(p)$ ($1 \leq i \leq m$) がすべての $p \in P$ に対して $k(p)$ に対して線形独立であるとします。次に、$L$ は、すべての $p$ (章 II, § 3, no. 2、系 1 ～ 命題 5) に対して、$M$ の直因子であるため、$M_p/L_p = (M/L)_p$ はすべての $p \in P$ に対してねじれがありません。私たちは結論するから $P \cap \operatorname{Ass}(M/L) = \varnothing$ を章 IV, § 1, no. 2, 系から命題 5 とします。しかし、L は再帰的であるため、no. 2, 命題 7 (i) から、 属する ～ $\operatorname{Ass}(M/L)$ が理想 (0) です。したがって、$M/L$ にはねじれがありません。
 
 #### 補題 8 {#ac-vii-s4-lem-8 .statement tag=054E}
 
-*$M$の階数$n$が$\geqslant 2$であるとします。その場合、$M/Ax$ にねじれがないように、$M$ の元 $x \neq 0$ が存在します。
+※$M$の階数$n$が$\geqslant 2$だとします。その場合、$M/Ax$ にはねじれがないような $M$ の元 $x \neq 0$ が存在します。*
 
 $y \neq 0$を$M$の元とします。 補題 7, $p \in P$ の集合 $Y$ により、$y(p) = 0$ は有限になります。 $Y = \varnothing$ の場合、補題 7 から、単一の元 $y$ の数列 $(x_i)$ からなるに適用され、$M/Ay$ にはねじれがないことがわかります。したがって、$Y \# @$ と仮定して、$S = \bigcap_{p \in Y} (A - p)$ と書きます。私たちは (no. 4, 補題 2) $S^{-1}A$ が半局所的な主イデアル整域であり、その最大理想は $pS^{-1}A$ であり、$p \in Y$、対応する局所環は $A_p$ であることを知っています。したがって、
 $$

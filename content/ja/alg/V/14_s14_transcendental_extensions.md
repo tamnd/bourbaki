@@ -42,16 +42,16 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: b9ac673166b21a524c9e80ee28a62103dbb115e648572c6387bbbab51e1cac5d
+content_sha256: 61de14a152410c4f63aafabcdb8f2706808607608dd434f19dd9d62dad6ea4f7
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
 translation_method: google
 source_content_sha256: 36caeafec2b80f55f4d81aa8a08ac8e916c9c8c954ea1d9374f4336f63f99e7d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 09b7f56389d4978f380890b899314aa5201c911d4dd415684ac56ce1045fc4be
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 14。超越的な拡大
@@ -68,7 +68,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 命題 1 {#alg-v-s14-prop-1 .statement tag=06RP}
 
-*For a family $(x_i)_{i \in I}$ of elements of an extension E of a field K to be algebraically free over K it is necessary and sufficient for the relation $f((x_i)) = 0$, where $f$ is a polynomial in $K[X_i]_{i \in I}$, to imply $f = 0$.*
+*体 K の拡張 E の要素の族 $(x_i)_{i \in I}$ が K 上で代数的に自由であるためには、関係 $f((x_i)) = 0$ ($f$ は $K[X_i]_{i \in I}$ の多項式) が $f = 0$ を暗示するために必要かつ十分です。
 
 #### 定義 2 {#alg-v-s14-def-2 .statement tag=06RQ}
 
@@ -90,7 +90,7 @@ $v$の一意性はクリアです。 $A = K[x_i]_{i \in I}$と$A' = K'[x'_i]_{i 
 
 K の拡大 E では、K 上の代数的に自由な族が $K$ 上の *一次独立* 元 (したがってペアごとに異なる) で構成されていることが明らかです。他の語では、$E$ の *ベクトル空間* 構造にとっても自由な家族です (K に関して)。 しかし、逆は偽です。なぜなら、E が K の代数的拡大である場合、E の元の空でない族 (および *なおさら* K 上で線形独立な元の空でない族) は決して K 上で代数的に自由ではないからです。 混乱の危険がある場合、K に関して E のベクトル空間構造に対して自由である K の拡大 E の部分集合は、K 上で *線形自由* であると言うことにします。
 
-E を体 K の拡大とします。 S の恒等写像によってそれ自体に定義される族が代数的に自由である場合、E の部分集合 S は *代数的に自由* ($K$ 以上) であると言われます。 E の代数的に自由な部分集合の元は *代数的に独立* とも呼ばれます。 E の部分集合が代数的に自由でない場合、それは *代数的に関連* し、その元は *代数的に依存* していると言われます。 E の元の族 $(x_i)_{i \in I}$ が代数的に自由であるためには、$i \mapsto x_i$ が E の代数的に自由な部分集合上で I の全単射であることが必要かつ十分です。
+E を体 K の拡大とします。 S の恒等写像によってそれ自体に定義される族が代数的に自由である場合、E の部分集合 S は *代数的に自由* ($K$ 以上) であると言われます。 E の代数的に自由な部分集合の元は *代数的に独立* とも呼ばれます。 E の部分集合が代数的に自由でない場合、それは *代数的に関連* しており、その元は *代数的に依存* していると言われます。 E の元の族 $(x_i)_{i \in I}$ が代数的に自由であるためには、$i \mapsto x_i$ が E の代数的に自由な部分集合上で I の全単射になることが必要かつ十分です。
 
 代数的に自由な集合のすべての部分集合は代数的に自由です。さらに：
 
@@ -166,7 +166,7 @@ B を K および $x \in E - B$ に対する E の超越基底とします。し
 
 *E を体 K の拡大、E が $K(S)$ 上で代数的であり、S の T 部分集合が K 上で代数的に自由であるように、E を部分集合とします。その場合、$T \subset B \subset S$* となるような K に対する E の超越性基底 B が存在します。
 
-For the set of algebraically free subsets of S, ordered by inclusion, is a set of finite character (E, III, p. 34) by Prop. 3. ThさんよりE の 1、III、p. 35 は極大元 B 含む T を持ち、B は提案 7 により K に対する E の超越基底です。
+S の代数的に自由な部分集合の集合を包含順に並べると、提案 3 により有限指標 (E, III, p. 34) の集合になります。 E の 1、III、p. 35 は極大元 B 含む T を持ち、B は提案 7 により K に対する E の超越基底です。
 
 #### 系 (« 交換定理 ») {#alg-v-s14-n2-cor-2 .statement tag=06S4}
 
@@ -219,11 +219,11 @@ $$
 
 #### 命題 8 {#alg-v-s14-prop-8 .statement tag=06SC}
 
-— Let $\Omega$ be an algebraically closed extension of a field $K$, $E$ and $F$ two subextensions of $\Omega$ and $u$ a $K$-isomorphism of $E$ onto $F$. 拡大する $u$ である $O$ の $K$ 自己同型 $v$ が存在するには、 $\Omega$ が $E$ と $F$ に対して同じ超越性次数を持つことが必要かつ十分です。
+— $\Omega$ を、体 $K$、$E$、$F$ の 2 つの部分拡張である $\Omega$ と $u$、$E$ の $F$ への $K$ 同型写像の代数的に閉じた拡張であるとします。 拡大する $u$ である $O$ の $K$ 自己同型 $v$ が存在するには、 $\Omega$ が $E$ と $F$ に対して同じ超越性次数を持つことが必要かつ十分です。
 
 条件は明らかに必要です。
 
-Suppose then that $\Omega$ has the same transcendence degree over $E$ and $F$ and let us choose a transcendence basis $B$ of $\Omega$ over $E$ and a transcendence basis $C$ of $\Omega$ over $F$. $B$ と $C$ は等能であるため、提案 2 ($V$, p. 106) は、$u$ 拡大するが $E(B)$ の $F(C)$ への $K$ 同型写像 $u'$ であることを示しています。 $C?$ は $E(B)$ と $F(C)$ の代数閉包であるため、Cor. $V$、p. 23 は、$\Omega$ の $u'$ 拡大するから自己同型 $v$ を示します。
+次に、$\Omega$ が $E$ と $F$ に対して同じ超越度を持っていると仮定します。そして、$E$ に対する $\Omega$ の超越基底 $B$ と、$F$ に対する $\Omega$ の超越基底 $C$ を選択しましょう。 $B$ と $C$ は等能であるため、提案 2 ($V$, p. 106) は、$u$ 拡大するが $E(B)$ の $F(C)$ への $K$ 同型写像 $u'$ であることを示しています。 $C?$ は $E(B)$ と $F(C)$ の代数閉包であるため、Cor. $V$、p. 23 は、$\Omega$ の $u'$ 拡大するから自己同型 $v$ を示します。
 
 #### 系 1 {#alg-v-s14-prop-8-cor-1 .statement tag=06SD}
 
@@ -231,7 +231,7 @@ Suppose then that $\Omega$ has the same transcendence degree over $E$ and $F$ an
 
 #### 系 2 {#alg-v-s14-prop-8-cor-2 .statement tag=06SE}
 
-— Let $\Omega$ be an algebraically closed extension of a field $K$, $E$ and $F$ two subextensions of $\Omega$ and $u$ a $K$-isomorphism of $E$ onto $F$. $K$ に対する $E$ の超越次数が有限である場合 (特に $E$ が $K$ に対して代数的である場合)、 $u$ を拡張する $\Omega$ の $K$ 自己同型が存在します。
+— $\Omega$ を、体 $K$、$E$、$F$ の 2 つの部分拡張である $\Omega$ と $u$、$E$ の $F$ への $K$ 同型写像の代数的に閉じた拡張であるとします。 $K$ に対する $E$ の超越次数が有限である場合 (特に $E$ が $K$ に対して代数的である場合)、 $u$ を拡張する $\Omega$ の $K$ 自己同型が存在します。
 
 $n, d(E)$ と $d(F)$ で、$E$ の $K$ の超越性、$O$ の $E$ の超越性、$C?$ の $F$ の超越性次数をそれぞれ表します。 $K$-同型写像 $u$ の存在は、$F$ の $K$ に対する超越次数が $n$ に等しいことを示しています。 コルによって。 Thの。 4 $\Omega$ の$K$ に対する超越次数は、$d(E) + n$ に等しく、$d(F) + n$ にも等しい。 したがって ($E$、III、p. 28、提案 8) $d(E) = d(F)$ があり、提案 8 を適用できます。
 
@@ -335,7 +335,7 @@ $$
 
 — *Lを体Kの拡大とし、LとBの2つの部分拡張であるEとFを、Kに対するEの超越基底とします。EとFがK上で代数的に互いに素であるためには、K(B)とFがK上で線形互いに素であることが必要かつ十分です。*
 
-E と F が K 上で代数的に互いに素であるためには、B が F 上で代数的に自由である (提案 12)、つまり B の元の単項式が F 上で線形独立であることが必要かつ十分です。 これらの単項式ベクトル K 空間 K[B] の形基底なので、K[B] と F が K 上で線形互いに素であると言うのは同じことになります。 Finally, since K(B) is the field of fractions of K[B], Prop. 6 of V, p. 14 shows that K[B] and F are linearly disjoint if and only if this is so for K(B) and F.
+E と F が K 上で代数的に互いに素であるためには、B が F 上で代数的に自由である (提案 12)、つまり B の元の単項式が F 上で線形独立であることが必要かつ十分です。 これらの単項式ベクトル K 空間 K[B] の形基底なので、K[B] と F が K 上で線形互いに素であると言うのは同じことになります。 最後に、K(B) は K[B] の分数の体であるため、V, p. 14 の提案 6 は、K(B) と F がそうである場合に限り、K[B] と F が線形互いに素であることを示します。
 
 #### 系 1 {#alg-v-s14-prop-14-cor-1 .statement tag=06SQ}
 

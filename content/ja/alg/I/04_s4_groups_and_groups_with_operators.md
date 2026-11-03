@@ -54,16 +54,16 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 9ae5b3ee394565f43fab28a677595a41f91f678e3ccec7ad2c776ae3595b2a77
+content_sha256: e3fae36064f976cedd0487ec1f325c34e82937165b1b72d74d907887c257dc35
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
 translation_method: google
 source_content_sha256: d6bc940de2b7bc4d5c77deed1610950a126e1ac53cd26ce4b8099a1f2945d150
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 60b1b16c7d9a5df96611c1edc89d255329be6ae7b9182f286fb9381dab6dbc11
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 群と群演算子付き
@@ -86,7 +86,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 G の基礎となる集合が有限である場合、群 G は *有限* と呼ばれます。それ以外の場合は *infinite* と呼ばれます。 群の基数は、群の*位数*と呼ばれます。
 
-G の合成の法則が G の決定する群構造の場合、その反対の法則も同様です。 The mapping of a group G onto itself which associates with each $x \in G$ the inverse of $x$ is an *isomorphism* of G onto the opposite group (§ 2, no. 3, Proposition 4).
+G の合成の法則が G の決定する群構造の場合、その反対の法則も同様です。 群 G の写像は、各 $x \in G$ に関連付けられ、$x$ の逆は、反対側の群 (§ 2, no. 3, 命題 4) への G の *同型* です。
 
 一般的な規則 (*集合理論*、II, § 3, no. 1) に従って、写像 $x \mapsto x^{-1}$ の下の G の部分集合 A の $A^{-1}$ 像で表します。しかし、記法の類似にもかかわらず、$A^{-1}$はGの部分集合の間の合成$(X, Y) \mapsto XY$の法則の下でAの逆元ではないことに注意することが重要です（XYが$xy$の集合であることを思い出してください） $x \in X, y \in Y$): この法則の下の単位元は $\{e\}$ であり、この法則の下の $\mathscr{P}(G)$ の唯一の可逆元は、単一の元の集合からなるです (さらに、そのような A は確実に逆数を持ちます) $A^{-1}$）。アイデンティティ
 
@@ -100,7 +100,7 @@ $\Omega$ を集合とします。 群 $G$ は、群法則に関して分配で�
 
 以下の$x^\alpha$は$\alpha\in\Omega$と$x\in G$の合成を表します。この場合、分配性は恒等式 $(xy)^\alpha=x^\alpha y^\alpha$ によって表現されます。
 
-In a group with operators $G$, each operator defines an *endomorphism* of the underlying *group structure*; these endomorphisms will sometimes be called the *homotheties* of the group with operators $G$.
+演算子 $G$ を含むグループでは、各演算子は基礎となる *グループ構造* の *準同型性* を定義します。これらの準同型性は、演算子 $G$ をもつ群の *相似* と呼ばれることもあります。
 
 演算子 $G$ を伴う群は、その群法則が可換である場合、*可換* (または *アーベル*) と呼ばれます。
 
@@ -108,33 +108,33 @@ In a group with operators $G$, each operator defines an *endomorphism* of the un
 
 #### 例 {#alg-i-s4-n2-exa-1 .statement tag=058K}
 
-In a commutative group $G$, written multiplicatively, $(xy)^n=x^ny^n$ for all $n\in\mathbf{Z}$ (§ 2, no. 8, equation (1)); the action $n\mapsto(x\mapsto x^n)$ of $\mathbf{Z}$ on $G$ therefore defines, together with the group law, the structure of a group with operators on $G$.
+可換群 $G$ では、乗算的に書かれ、すべての $n\in\mathbf{Z}$ に対して $(xy)^n=x^ny^n$ (§ 2, no. 8、式 (1))。したがって、$G$ に対する $\mathbf{Z}$ のアクション $n\mapsto(x\mapsto x^n)$ は、群法則とともに、$G$ 上の演算子を持つ群の構造を定義します。
 
 #### 定義 3 {#alg-i-s4-def-3 .statement tag=058L}
 
-$G$ と $G'$ を $\Omega$ の演算子を使用して群とします。 A homomorphism of groups with operators of $G$ into $G'$ is a *homomorphism of the group* $G$ into the *group* $G'$ such that
+$G$ と $G'$ を $\Omega$ の演算子を使用して群とします。 $G$ を $G'$ に演算子した群の準同型は、群* $G$ を *群* $G'$ に変換した *準同型です。
 
 $$
 f(x^\alpha)=(f(x))^\alpha
 $$
 
-すべての $\alpha\in\Omega$ とすべての $x\in G$ に対して。
+すべての$\alpha\in\Omega$とすべての$x\in G$に。
 
-演算子 $G$ を使用した群の *自己準同型* は、群 $G$ の自己準同型であり、これは $G$ のすべての *相同性* と *置換可能* です。
+演算子 $G$ を使用した群の *自己準同型* は、群 $G$ の自己準同型であり、$G$ のすべての *相同性* と *置換可能* です。
 
 群と演算子 $G$ の 2 つの相同性は必ずしも置換可能ではないため、一般に $G$ の *ホモテティー は演算子 $G$ を使用した群の自己準同型ではありません。
 
-演算子を使用した場合の群の恒等写像は、演算子を使用した場合の群の準同型です。 合成の 2 準同型の群も演算子付きで 1 つです。 写像が演算子を使用して群の同型になるためには、それが演算子を使用して群の全単射準同型であり、その逆の写像が演算子を使用して群の同型であることが必要かつ十分です。
+演算子を使用した場合の群の恒等写像は、演算子を使用した場合の群の準同型です。演算子付きの 2 つの合成の群の準同型も 1 つです。 写像が演算子を使用して群の同型になるには、それが演算子を使用して群の全単射準同型であり、その逆の写像が演算子を使用して群の同型になることが必要かつ十分です。
 
-より一般的には、G (または G') を群とし、$\Omega$ (または $\Omega'$) に演算子を入れます。 $\phi$を$\Omega$の写像を$\Omega'$にします。 G から G' への $\phi$ 準同型性は、群 G から群 G' への準同型です。
+より一般的には、G (または G') を群とし、演算子を $\Omega$ (または $\Omega'$) にします。 $\phi$を$\Omega$の写像を$\Omega'$とします。 G から G' への $\phi$ 準同型性は、群 G から群 G' への準同型です。
 
 $$
 f(x^\alpha) = (f(x))^{(\phi(\alpha))}
 $$
 
-すべての $\alpha \in \Omega$ とすべての $x \in G$ に対して。
+すべての$\alpha \in \Omega$とすべての$x \in G$に。
 
-この段落の残りの部分では、集合 $\Omega$ が与えられます。 〜でない限り別途言及されている演算子を考慮した群は、$\Omega$ を演算子の集合として認めます。
+この段落の残りの部分では、集合 $\Omega$ が与えられます。 〜でない限り別途言及されている群は、演算子を考慮して、$\Omega$ を演算子の集合として認めます。
 
 ### 3. 部分群
 
@@ -147,11 +147,11 @@ $$
 (iii) $x \in H \implies x^{-1} \in H$;
 (iv) $x \in H$ と $\alpha \in \Omega$ は $x^\alpha \in H$ を暗示します。
 
-If H is a stable subgroup of G, the structure induced on H by the structure of a group with operators on G is the structure of a group with operators and the canonical injection of H into G is a homomorphism of groups with operators.
+H が G の安定な部分群である場合、G 上の演算子を使用した群の構造によって H に誘導された構造は、演算子を使用した群の構造であり、H から G への標準単射は、の準同型です。 群オペレーター付き。
 
-G を群とします。 $\varnothing$ (no. 2) の作用を伴う G の安定な部分群、つまり G の部分集合満たす条件 (i)、(ii)、(iii) の定義 4 は、G の *部分群* と呼ばれます。演算子の群の部分群は、常にGの基礎となる群の部分群を意味します。演算子Gを使用した群の部分群は、必ずしもGの安定した部分群ではありません。
+G を群とします。 $\varnothing$ (no. 2) の作用を含む G の安定な部分群、つまり G 満たす条件 (i)、(ii)、(iii) の定義 4 の部分集合は、 a と呼ばれます。 G の *部分群*。演算子の群の部分群について話すときは、常に G の基礎となる群の部分群を意味します。演算子 G を使用した群の部分群は、必ずしも G の安定した部分群であるとは限りません。
 
-*例* (1)。 Let $\Sigma$ be a species of structure (*Set Theory*, IV, § 1, no. 4) and S a structure of species $\Sigma$ on a set E (*loc. cit.*). Sの*自己同型*の集合は$\mathscr{G}_E$の部分群です。
+*例* (1)。 $\Sigma$ を構造 (*集合理論*, IV, § 1, no. 4) の種とし、集合 E (*loc. cit.*) 上の種 $\Sigma$ の S 構造とします。 S の *自己同型* の集合は、$\mathscr{G}_E$ の部分群です。
 
 #### 命題 1 {#alg-i-s4-prop-1 .statement tag=058N}
 
@@ -160,18 +160,18 @@ G を群とします。 $\varnothing$ (no. 2) の作用を伴う G の安定な�
 (a) *H は G* の安定した部分群です。
 (b) *H は空ではなく、関係* $x \in H, y \in H \implies xy \in H$ *および* $x^{-1} \in H$。
 (c) *H は空ではなく、関係* $x \in H, y \in H \implies xy^{-1} \in H$ です。
-(d) *H は G 上の法則では安定であり、G 上の合成の法則によって H に誘導された合成の法則は群法則* です。
+(d) *H は G の法則で安定しており、G の合成の法則によって H に誘導された合成の法則は群法則* です。
 
-明らかに (a) は (b) を意味します。 (b) が (a) を意味することを示します。 G の H 含む単位元が示されれば十分です。部分集合 H は空ではないので、$x \in H$ とします。次に$x^{-1} \in H$と$e = xx^{-1} \in H$です。明らかに (b) は (c) を意味します。 (c) が (b) を意味することを示します。まず、H は空ではないので、含む元 x です。したがって、xx^{-1} = e は H の元です。H の元 x ごとに、H は $x^{-1} = ex^{-1}$ 属するになります。したがって、関係 $x \in H, y \in H$ は $x(y^{-1})^{-1} = xy \in H$ を暗示します。明らかに (a) は (d) を意味します。 (d) が (a) を意味していることを示します。H から G への標準単射は群準同型です。したがって、$e \in H$ と関係 $x \in H$ は $x^{-1} \in H$ (no. 1) を意味します。
+明らかに (a) は (b) を意味します。 (b) が (a) を意味することを示します。 G の H 含む単位元が示されれば十分です。部分集合 H は空ではないので、$x \in H$ とします。続いて$x^{-1} \in H$と$e = xx^{-1} \in H$。明らかに (b) は (c) を意味します。 (c) が (b) を意味することを示します。まず、H は空ではないので、含む元 x となります。したがって、xx^{-1} = e は H の元です。H のすべての元 x に対して、H は $x^{-1} = ex^{-1}$ 属するになります。したがって、関係 $x \in H, y \in H$ は $x(y^{-1})^{-1} = xy \in H$ を暗示します。明らかに (a) は (d) を意味します。 (d) が (a) を意味していることを示します。H から G への標準単射は群準同型です。したがって、$e \in H$ と関係 $x \in H$ は $x^{-1} \in H$ (no. 1) を意味します。
 
 #### 注意 {#alg-i-s4-n3-rem-1 .statement tag=058O}
 
 (1) 同様に、条件 (b) は条件と同等であることが示されます。
 (c') $H \neq \varnothing$ と関係 $x \in H$ と $y \in H$ は $y^{-1}x \in H$ を暗示します。
-(2) G の部分群 H ごとに、次の関係が存在します。
+(2) G の各部分群 H に対して、次の関係が存在します。
 $$(1)$$
 $$H.H = H \quad \text{and} \quad H^{-1} = H.$$
-$H.H \subset H$ と $H^{-1} \subset H$ の場合は (b) による。 $e \in H, H.H \supset e.H = H$ と逆数変換をとり、$H^{-1} \subset H$ を$H \subset H^{-1}$、よって式 (1) に含めます。
+$H.H \subset H$ と $H^{-1} \subset H$ の場合は (b) による。 $e \in H, H.H \supset e.H = H$ と逆行列変換をとり、$H^{-1} \subset H$ を$H \subset H^{-1}$、よって式 (1) に含めます。
 
 H が G の安定な部分群で、K が H の安定な部分群である場合、明らかに K は G の安定な部分群です。
 
@@ -272,7 +272,7 @@ G の正規安定部分群によって定義される同値関係は、$x \equiv
 
 #### 命題 5 {#alg-i-s4-prop-5 .statement tag=0590}
 
-Let $f : G \to G'$ be a homomorphism of groups with operators and $H$ and $H'$ normal stable subgroups of $G$ and $G'$ respectively such that $f(H) \subset H'$. 写像 $f$ は、$H$ および $H'$ によって定義される同値関係と互換性があります。 $\pi : G \to G/H$ と $\pi' : G' \to G'/H'$ を標準準同型とします。 $f$から移行から商まで導いた写像$\bar{f} : G/H \to G'/H'$は準同型です。
+$f : G \to G'$ を、演算子と、$f(H) \subset H'$ となるような $G$ と $G'$ の正規安定部分群 $H$ と $H'$ をもつ群の準同型とする。 写像 $f$ は、$H$ および $H'$ によって定義される同値関係と互換性があります。 $\pi : G \to G/H$ と $\pi' : G' \to G'/H'$ を標準準同型とします。 $f$から移行から商まで導いた写像$\bar{f} : G/H \to G'/H'$は準同型です。
 
 $x \equiv y \pmod{H}$ の場合、$x^{-1}y \in H$、よって
 $$
@@ -286,7 +286,7 @@ $$
 
 (2) $H$ が有限添字の$G$ の正規部分群である場合、剰余群 $G/H$ は位数 $(G:H)$ の有限群です。
 
-Note that if $H$ is a normal subgroup of a group $G$ and $K$ is a normal subgroup of $H$, $K$ is not necessarily a normal subgroup of $G$ (I, $§ 5$, Exercise 10).
+$H$ がグループ $G$ の正規サブグループであり、$K$ が $H$ の正規サブグループである場合、$K$ は必ずしも $G$ の正規サブグループではないことに注意してください (I、$§ 5$、練習問題 10)。
 
 演算子を使用して $G$ を群とします。 $G$ の各ファミリーの共通部分は通常の厩舎部分群が通常の厩舎部分群です。 したがって、$G$ のすべての部分集合 $X$ に対して、$X$ によって生成された通常安定部分群と呼ばれる最小の正常安定部分群含む $X$ が存在します。
 
@@ -300,7 +300,7 @@ Note that if $H$ is a normal subgroup of a group $G$ and $K$ is a normal subgrou
 
 #### 命題 6 {#alg-i-s4-prop-6 .statement tag=0593}
 
-*Let* $G$ *be a group with operators and* $G'$ *a magma with an action by* $\Omega$, *written exponentially*. *$f : G \to G'$ *マグナの準同型にしましょう* $G$ *マグマの中へ* $G'$ *すべて* $\alpha \in \Omega$ *そしてすべて* $x \in G$、$f(x^\alpha) = f(x)^\alpha$ になるようにします。 *その後* $f(G)$ *は* $G'$ * 法則の下* $G'$ * および* $\Omega$ の作用で安定した部分集合です。 *集合* $f(G)$ *誘導された法則は演算子付きの群であり、写像* $x \mapsto f(x)$ *of* $G$ *into* $f(G)$ *は演算子*付きの準同型群です。
+* $G$ * 演算子と* $G'$ * $\Omega$ による作用を持つマグマを * 指数関数的に* 書きます。 *$f : G \to G'$ *マグナの準同型にしましょう* $G$ *マグマの中へ* $G'$ *すべて* $\alpha \in \Omega$ *そしてすべて* $x \in G$、$f(x^\alpha) = f(x)^\alpha$ になるようにします。 *その後* $f(G)$ *は* $G'$ * 法則の下* $G'$ * および* $\Omega$ の作用で安定した部分集合です。 *集合* $f(G)$ *誘導された法則は演算子付きの群であり、写像* $x \mapsto f(x)$ *of* $G$ *into* $f(G)$ *は演算子*付きの準同型群です。
 
 $§ 1$、no. 4、命題 1 により、$f(G)$ は$G'$ の内部法則の下で$G'$ の安定した部分集合です。すべての元 $x \in G$ およびすべてのオペレーター $\alpha$ について、
 $f(x)^\alpha = f(x^\alpha) \in f(G)$ したがって、$f(G)$ は、$G'$ の $\Omega$ の作用で安定します。 $G'$ の内部の法則を乗算的に書くと、
@@ -322,7 +322,7 @@ $$
 
 ※演算子を使って$f : G \to G'$を群の準同型とします。 $G'$の単位元の逆像は、$f$の核と呼ばれます。*
 
-The kernel of $f$ is often denoted by $\mathrm{Ker}(f)$ and the image $f(G)$ of $f$ is sometimes denoted by $\mathrm{Im}(f)$.
+$f$ のカーネルは $\mathrm{Ker}(f)$ で表されることが多く、$f$ のイメージ $f(G)$ は $\mathrm{Im}(f)$ で表されることもあります。
 
 #### 定理 3 {#alg-i-s4-thm-3 .statement tag=0595}
 
@@ -353,11 +353,11 @@ f(f^{-1}(A)) = A \text{ for every subset } A \text{ of } H,
 $$
 よって $H' = f(G')$; $f$ から $G'$ の制限は $G'$ の準同型 $f'$ から核 $N$ の $H'$ になるため、移行の $f'$ 定義するは、 商同型/$G'/N$ から $H'$ へ。
 
-(b) Let $a$ and $b$ be in $H'$ and $\alpha$ in $\Omega$; there exist $x, y$ in $G'$ with $a = f(x)$ and $b = f(y)$, whence $ab^{-1} = f(xy^{-1}) \in H'$, hence $H'$ is a subgroup of $H$ which is stable, for $a^\alpha = f(x^\alpha) \in H'$. $x \in G$ にしましょう。 $x \in f^{-1}(H')$ は $f(x) \in H' = f(G')$ の場合に限り、つまり $f(x) = f(y)$ を含む $G'$ に $y$ が存在する場合にのみ、 関係 $f(x) = f(y)$ は、$x = yn$ とともに $n \in N$ が存在することと同等です。最後に、$x \in f^{-1}(H')$ は $x \in G'N = NG'$ と同等です。 明らかに、関係 $G' = G'N$ は $G' \supset N$ と同等です。 最後に、$G$ において $f$ が全射法であり、$G'$ が正規であると仮定します。 $a \in H'$ と $b \in H$ としましょう。 $x \in G'$と$y \in G$、$a = f(x)$と$b = f(y)$、よって$bab^{-1} = f(yxy^{-1}) \in f(G') = H'$が存在します。 したがって、$H$ では $H'$ が正常です。
+(b) $a$ と $b$ を $H'$ と $\alpha$ を $\Omega$ に入れる。 $G'$ には $a = f(x)$ と $b = f(y)$ を伴う $x, y$ が存在し、そこから $ab^{-1} = f(xy^{-1}) \in H'$ が存在するため、$H'$ は $a^\alpha = f(x^\alpha) \in H'$ に対して安定な $H$ の部分群になります。 $x \in G$ にしましょう。 $x \in f^{-1}(H')$ は $f(x) \in H' = f(G')$ の場合に限り、つまり $f(x) = f(y)$ を含む $G'$ に $y$ が存在する場合にのみ、 関係 $f(x) = f(y)$ は、$x = yn$ とともに $n \in N$ が存在することと同等です。最後に、$x \in f^{-1}(H')$ は $x \in G'N = NG'$ と同等です。 明らかに、関係 $G' = G'N$ は $G' \supset N$ と同等です。 最後に、$G$ において $f$ が全射法であり、$G'$ が正規であると仮定します。 $a \in H'$ と $b \in H$ としましょう。 $x \in G'$と$y \in G$、$a = f(x)$と$b = f(y)$、よって$bab^{-1} = f(yxy^{-1}) \in f(G') = H'$が存在します。 したがって、$H$ では $H'$ が正常です。
 
 #### 系 1 {#alg-i-s4-prop-7-cor-1 .statement tag=0597}
 
-※$f$が全射であるとします。 Let $\mathscr{G}$ (resp. $\mathscr{G}'$) be the set of stable (resp. normal stable) subgroups of $G$ containing $N$ and $\mathfrak{H}$ (resp. $\mathfrak{H}'$) the set of stable (resp. normal stable) subgroups of $H$, these sets being ordered by inclusion. 写像 $G' \mapsto f(G')$ は、集合同型 $\Phi : \mathscr{G} \to \mathfrak{H}$ の順序です。 逆同型 $\Psi : \mathfrak{H} \to \mathscr{G}$ は写像 $H' \mapsto f^{-1}(H')$ です。 さらに$\Phi$と$\Psi$誘導する同型$\Phi' : \mathscr{G}' \to \mathfrak{H}'$と$\Psi' : \mathfrak{H}' \to \mathscr{G}'$。
+※$f$が全射であるとします。 $\mathscr{G}$ (それぞれ $\mathscr{G}'$) を、$N$ を含む $G$ の安定した (それぞれ正常安定) サブグループのセットとし、$\mathfrak{H}$ (それぞれ $\mathfrak{H}'$) を $H$ の安定した (それぞれ正常安定) サブグループのセットとし、これらのセットは包含によって順序付けされます。 写像 $G' \mapsto f(G')$ は、集合同型 $\Phi : \mathscr{G} \to \mathfrak{H}$ の順序です。 逆同型 $\Psi : \mathfrak{H} \to \mathscr{G}$ は写像 $H' \mapsto f^{-1}(H')$ です。 さらに$\Phi$と$\Psi$誘導する同型$\Phi' : \mathscr{G}' \to \mathfrak{H}'$と$\Psi' : \mathfrak{H}' \to \mathscr{G}'$。
 
 #### 系 2 {#alg-i-s4-prop-7-cor-2 .statement tag=0598}
 
@@ -439,7 +439,7 @@ $(G_i)_{0 \leq i \leq n}$ と $(H_j)_{0 \leq j \leq m}$ がそれぞれ、演算
 
 #### 定理 5 (シュライヤー) {#alg-i-s4-thm-5 .statement tag=059E}
 
-*Given two composition series $\Sigma_1, \Sigma_2$ of a group with operators G, there exist two equivalent composition series $\Sigma'_1, \Sigma'_2$, finer respectively than $\Sigma_1$ and $\Sigma_2$.
+*演算子 G を含むグループの 2 つの合成系列 $\Sigma_1, \Sigma_2$ が与えられると、それぞれ $\Sigma_1$ および $\Sigma_2$ より細かい 2 つの等価な合成系列 $\Sigma'_1, \Sigma'_2$ が存在します。
 
 $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ と $\Sigma_2 = (K_j)_{0 \leq j \leq p}$ を組成列にそれぞれ $n + 1$ と $p + 1$ 項を与えた 2 つとします。 組成列 $\Sigma'_1$ は、H_i と H_{i+1} の間に $p - 1$ 部分群 $H'_{i,j}$ (1 \leq j \leq p - 1) を挿入することで形成できることがわかります。0 \leq i \leq n - 1 に対して、n - 1 を挿入することで系列 \Sigma_2' になります。 部分群 K_j と K_{j+1} の間の K_{j,i}' (1 \leq i \leq n - 1) 0 \leq j \leq p - 1;したがって、pn の 2 つの系列 + 安定した G の 1 つの部分群が得られます。挿入された安定な部分群を適切に選択することで、これらの系列が同等の組成列であることを示します。
 
@@ -483,7 +483,7 @@ G の分解系列がジョーダン ヘルダー 系列であるためには、�
 
 *演算子を含む 2 つの Jordan-Hölder 系列の群は同等です。*
 
-Let $\Sigma_1, \Sigma_2$ be two Jordan-Hölder series of a group with operators $G$; by applying Theorem 5 two *equivalent* composition series $\Sigma'_1, \Sigma'_2$ are obtained which are respectively finer than $\Sigma_1$ and $\Sigma_2$; since the latter are Jordan-Hölder series, $\Sigma'_1$ is identical with $\Sigma_1$ or is derived from it by repeating certain terms; the series of quotients of $\Sigma'_1$ is derived from that for $\Sigma_1$ by inserting a number of terms isomorphic to the group $\{e\}$; since $\Sigma_1$ is strictly decreasing, the series of quotients of $\Sigma_1$ is derived from that of $\Sigma'_1$ by suppressing in the latter *all* the terms isomorphic to $\{e\}$. $\Sigma_2$ と $\Sigma'_2$ についても同様です。 $\Sigma'_1$の商の系列と$\Sigma'_2$は、項の位数のみが異なるため（同型まで）、$\Sigma_1$と$\Sigma_2$にも同じことが当てはまります。 定理が証明されました。
+$\Sigma_1, \Sigma_2$ を演算子 $G$ を持つ群の 2 つのジョーダン ヘルダー級数とします。定理 5 を適用すると、それぞれ $\Sigma_1$ および $\Sigma_2$ より細かい 2 つの * 等価な * 組成系列 $\Sigma'_1, \Sigma'_2$ が得られます。後者はヨルダン・ヘルダー系列であるため、$\Sigma'_1$ は$\Sigma_1$ と同一であるか、特定の用語を繰り返すことでそこから派生します。 $\Sigma'_1$ の一連の商は、グループ $\{e\}$ と同型の項を多数挿入することによって、$\Sigma_1$ の商から導出されます。 $\Sigma_1$ は厳密に減少しているため、$\Sigma_1$ の一連の商は $\Sigma'_1$ の商から、$\{e\}$ と同型の項を *すべて* 後者で抑制することによって導出されます。 $\Sigma_2$ と $\Sigma'_2$ についても同様です。 $\Sigma'_1$の商の系列と$\Sigma'_2$は、項の位数のみが異なるため（同型まで）、$\Sigma_1$と$\Sigma_2$にも同じことが当てはまります。 定理が証明されました。
 
 #### 系 {#alg-i-s4-n7-cor-1 .statement tag=059J}
 
@@ -495,7 +495,7 @@ $\Sigma_0$ を $G$ のヨルダン・ヘルダー 系列とします。 定理 5
 
 オペレーター付きの群は必ずしもジョルダン・ヘルダー 系列を所有しているわけではありません。 例は、有理数整数の加法群 $\mathbf{Z}$ によって与えられます。 数列 $(2^n \cdot \mathbf{Z})_{n \geq 0}$ は、$\mathbf{Z}$ の (正規) 部分群の真に減少する無限数列です。すべての $p$、この数列形の最初の $p$ 項と群 $\{0\}$ 真に減少する組成列。 $\mathbf{Z}$ に対してヨルダン・ヘルダー系列が存在した場合、系から定理 6 までに、少なくとも $p+1$ 項が存在することになります。 $p$ は任意なので不合理です。
 
-On the other hand, there exists a Jordan-Hölder series in every *finite* group with operators G: if $G \ne \{e\}$, among the normal stable subgroups of G distinct from G, let $H_1$ be a maximal subgroup; similarly define $H_{n+1}$ by induction as a maximal element in the set of normal subgroups of $H_n$, distinct from $H_n$, when $H_n \ne \{e\}$; the sequence of orders of the $H_n$ is strictly decreasing, hence there exists $n$ such that $H_n = \{e\}$ and the sequence consisting of G and the $H_i$ ($1 \leq i \leq n$) is by its formation a Jordan-Hölder series.
+一方、演算子 G を持つすべての *有限* 群にジョルダン ヘルダー級数が存在します。G とは別の G の正規安定部分群の中で $G \ne \{e\}$ の場合、$H_1$ を最大部分群とします。同様に、$H_n \ne \{e\}$の場合、$H_n$とは異なり、$H_n$の正規部分群の集合の最大要素として帰納法により$H_{n+1}$を定義します。 $H_n$ の次数の順序は厳密に減少しているため、$H_n = \{e\}$ となるような $n$ が存在し、G と $H_i$ ($1 \leq i \leq n$) からなる順序は、その形成によりヨルダン ヘルダー級数となります。
 
 #### 定義 11 {#alg-i-s4-def-11 .statement tag=059L}
 
@@ -547,7 +547,7 @@ $$
 
 *群演算子* $G = \prod_{i \in I} G_i$ *上記で定義されているのは、* $G_i$ の演算子を持つ積群です。 *写像* $\mathrm{pr}_i : G \to G_i$ *射影準同型と呼ばれます。
 
-A particular case of the product of groups with operators is the group $G^E$ consisting of the mappings of a set $E$ into a group with operators $G$, the laws being defined by:
+演算子を使用した群の積の特定のケースは、演算子 $G$、法則を使用して、群 $G^E$ からなるの写像集合 $E$ を群に変換するものです。
 
 $$
 (fg)(x) = f(x)g(x) \quad (f, g \in G^E, x \in E)
@@ -556,9 +556,9 @@ $$
 f^\alpha(x) = f(x)^\alpha \quad (f \in G^E, \alpha \in \Omega, x \in E).
 $$
 
-$(\phi_i : H \to G_i)_{i \in I}$ を演算子付きの群の準同型の族とする。 The mapping $h \mapsto (\phi_i(h))_{i \in I}$ of $H$ into $\prod_{i \in I} G_i$ is a homomorphism of groups with operators. すべての $i$ に対して、それは唯一の準同型 $\Phi : H \to \prod_{i \in I} G_i$ 満たす $\mathrm{pr}_i \circ \Phi = \phi_i$ です。 これにより、「積群演算子付き」(*集合理論*、IV, § 2, no. 4) という名前が正当化されます。
+$(\phi_i : H \to G_i)_{i \in I}$ を演算子付きの群の準同型の族とする。 $H$ の $\prod_{i \in I} G_i$ への写像 $h \mapsto (\phi_i(h))_{i \in I}$ は、演算子を使用した群の準同型性です。 すべての $i$ に対して、それは唯一の準同型 $\Phi : H \to \prod_{i \in I} G_i$ 満たす $\mathrm{pr}_i \circ \Phi = \phi_i$ です。 これにより、「積群演算子付き」(*集合理論*、IV, § 2, no. 4) という名前が正当化されます。
 
-$(\phi_i : H_i \to G_i)_{i \in I}$ を演算子付きの群の準同型の族とする。 The mapping $\prod_{i \in I} \phi_i : (h_i)_{i \in I} \mapsto (\phi_i(h_i))_{i \in I}$ of $\prod_{i \in I} H_i$ into $\prod_{i \in I} G_i$ is a homomorphism of groups with operators.
+$(\phi_i : H_i \to G_i)_{i \in I}$ を演算子付きの群の準同型の族とする。 $\prod_{i \in I} H_i$ の $\prod_{i \in I} G_i$ への写像 $\prod_{i \in I} \phi_i : (h_i)_{i \in I} \mapsto (\phi_i(h_i))_{i \in I}$ は、演算子を使用した群の準同型性です。
 
 #### 命題 11 {#alg-i-s4-prop-11 .statement tag=059P}
 
@@ -574,7 +574,7 @@ $(\phi_i : H_i \to G_i)_{i \in I}$ を演算子付きの群の準同型の族と
 $$
 \left( \prod_{i \in I} G_i \right) / \left( \prod_{i \in I} H_i \right)
 $$
-$\prod_{i \in I} (G_i / H_i)$へ。 たとえば、$J$ を $I$ の部分集合とします。 The subgroup $G_J$ of $\prod_{i \in I} G_i$ consisting of the $(x_i)_{i \in I}$ such that $x_i = e_i$ for $i \notin J$ is a normal stable subgroup. 写像 $\iota_J$ は、$i \notin J$ の場合は $y_i = e_i$、$i \in J$ の場合は $y_i = x_i$ となるように、$x = (x_j)_{j \in J}$ 元 $y = (y_i)_{i \in I}$ に関連付けられており、$\prod_{j \in J} G_j$ の $G_J$ の同型です。 移行から商同型 $\theta_J$ の剰余群 $G / G_J$ が $\prod_{i \in I-J} G_i$ に移行すると、写像 $\mathrm{pr}_{I-J}$ 定義するになります。 合成 $\mathrm{pr}_J \circ \iota_J$ は $\prod_{j \in J} G_j$ の恒等写像です。 $G / G_J$ は、$\theta_J$ により $\prod_{i \in I-J} G_i$ と同一視され、$\prod_{i \in J} G_i$ は $\iota_J$ により $G_J$ と同一視されることがよくあります。
+$\prod_{i \in I} (G_i / H_i)$へ。 たとえば、$J$ を $I$ の部分集合とします。 $i \notin J$ の $x_i = e_i$ となるような $(x_i)_{i \in I}$ からなる $\prod_{i \in I} G_i$ のサブグループ $G_J$ は、通常の安定したサブグループです。 写像 $\iota_J$ は、$i \notin J$ の場合は $y_i = e_i$、$i \in J$ の場合は $y_i = x_i$ となるように、$x = (x_j)_{j \in J}$ 元 $y = (y_i)_{i \in I}$ に関連付けられており、$\prod_{j \in J} G_j$ の $G_J$ の同型です。 移行から商同型 $\theta_J$ の剰余群 $G / G_J$ が $\prod_{i \in I-J} G_i$ に移行すると、写像 $\mathrm{pr}_{I-J}$ 定義するになります。 合成 $\mathrm{pr}_J \circ \iota_J$ は $\prod_{j \in J} G_j$ の恒等写像です。 $G / G_J$ は、$\theta_J$ により $\prod_{i \in I-J} G_i$ と同一視され、$\prod_{i \in J} G_i$ は $\iota_J$ により $G_J$ と同一視されることがよくあります。
 
 $J_1$ と $J_2$ が $I$ の互いに素部分集合である場合、定義から、$G_{J_1}$ のすべての元は $G_{J_2}$ のすべての元と可換になります。
 
@@ -582,15 +582,15 @@ $J_1$ と $J_2$ が $I$ の互いに素部分集合である場合、定義か�
 
 *$G$ を演算子付きの群とし、$(H_i)_{i \in I}$ を $G$ の通常の安定した部分群のファミリーとします。 $p_i : G \to G / H_i$を標準準同型とします。 準同型 $g \mapsto (p_i(g))_{i \in I}$ が $\prod_{i \in I} G / H_i$ 上の $G$ の同型である場合、$G$ は、剰余群 $(G / H_i)$ のファミリーの内部積 (または積) と呼ばれます*。
 
-$G$と$H$を演算子で群とし、$\phi$と$\psi$を$G$の2つの準同型を$H$にします。 The set of elements $x$ in $G$ such that $\phi(x) = \psi(x)$ is a stable subgroup of $G$, called the *coincidence group* of $\phi$ and $\psi$. 特に、演算子を使用して、$\phi_1 : G_1 \to H$ と $\phi_2 : G_2 \to H$ を群の準同型とします。 準同型 $\phi_1 \circ \mathrm{pr}_1$ と $G_1 \times G_2$ の $\phi_2 \circ \mathrm{pr}_2$ が $H$ になる偶然の群は、$\phi_1$ に対する$H$ 上の$G_1$ と $G_2$ の * 繊維積* と呼ばれます。 $\phi_2$。 $\phi_1$、$\phi_2$、制限、$p_1$、$\mathrm{pr}_1$、$\mathrm{pr}_2$～$G_1 \times_H G_2$の$p_2$を曖昧さのない場合は$G_1 \times_H G_2$と表記し、射影準同型とも呼ばれます。 次に$\phi_1 \circ p_1 = \phi_2 \circ p_2$。 $G_1 \times_H G_2$ の元は、$\phi_1(g_1) = \phi_2(g_2)$ となるように、対 $(g_1, g_2) \in G_1 \times G_2$ が順序付けされています。 If $f_i$ is a homomorphism of a group with operators $K$ into $G_i$ ($i = 1, 2$) and $\phi_1 \circ f_1 = \phi_2 \circ f_2$, there exist one and only one homomorphism $f$ of $K$ into $G_1 \times_H G_2$ such that $f_i = p_i \circ f$ for $i = 1, 2$.
+$G$と$H$を演算子で群とし、$\phi$と$\psi$を$G$の2つの準同型を$H$にします。 $\phi(x) = \psi(x)$ が $G$ の安定な部分群であるような、$G$ の要素 $x$ のセットは、$\phi$ と $\psi$ の *一致群* と呼ばれます。 特に、演算子を使用して、$\phi_1 : G_1 \to H$ と $\phi_2 : G_2 \to H$ を群の準同型とします。 準同型 $\phi_1 \circ \mathrm{pr}_1$ と $G_1 \times G_2$ の $\phi_2 \circ \mathrm{pr}_2$ が $H$ になる偶然の群は、$\phi_1$ に対する$H$ 上の$G_1$ と $G_2$ の * 繊維積* と呼ばれます。 $\phi_2$。 $\phi_1$、$\phi_2$、制限、$p_1$、$\mathrm{pr}_1$、$\mathrm{pr}_2$～$G_1 \times_H G_2$の$p_2$を曖昧さのない場合は$G_1 \times_H G_2$と表記し、射影準同型とも呼ばれます。 次に$\phi_1 \circ p_1 = \phi_2 \circ p_2$。 $G_1 \times_H G_2$ の元は、$\phi_1(g_1) = \phi_2(g_2)$ となるように、対 $(g_1, g_2) \in G_1 \times G_2$ が順序付けされています。 $f_i$ が $G_i$ ($i = 1, 2$) と $\phi_1 \circ f_1 = \phi_2 \circ f_2$ への演算子 $K$ を持つ群の準同型写像である場合、$i = 1, 2$ に対して $f_i = p_i \circ f$ となるような、$K$ から $G_1 \times_H G_2$ への準同型写像 $f$ が 1 つだけ存在します。
 
 ### 9. 制限付き和
 
-$(G_i)_{i \in I}$ を演算子を含む群の族とし、$i \in I$ について、$H_i$ を $G_i$ の安定した部分群とします。 The subset of $\prod_{i \in I} G_i$ consisting of the $(x_i)_{i \in I}$ such that the set of $i \in I$ with $x_i \notin H_i$ is finite is a stable subgroup of $\prod_{i \in I} G_i$ equal to $\prod_{i \in I} G_i$ if $I$ is finite. これは、$H_i$* に対する $G_i$ の *制限付き和と呼ばれます。 有限の数を除くすべての $i$ について、$H_i$ が $G_i$ の通常安定部分群である場合、制限付き和は積の通常安定部分群です。 すべての $i$、部分群 $H_i$ が $G_i$ の単位元、$H_i$ に対する $G_i$ の直和は、単に $G_i$* の *制限付き和と呼ばれ、次のようになります。 ときどきは$\prod_{i \in I} G_i$で示されます。 すべての $i_0 \in I$、写像 $\iota_{i_0}: G_{i_0} \to \prod_{i \in I} G_i$ は、$\iota_{i_0}(x) = (x_i)_{i \in I}$ で定義されます。$i \neq i_0$ の場合、$x_{i_0} = x$ と $x_i = e_i$ は、*標準単射* と呼ばれる演算子を使用した群の単射準同型です。 $G_i$ は安定した部分群 $\operatorname{Im}(\iota_i)$ と同一視されます。 部分群 $G_i$ は正常です。 $i \neq j$、$G_i$、$G_j$の元、通勤、$G_i \cap G_j = \{e\}$の場合。 群 $\prod_{i \in I} G_i$ は集合 $\bigcup_{i \in I} G_i$ によって生成されます。
+$(G_i)_{i \in I}$ を演算子を含む群の族とし、$i \in I$ について、$H_i$ を $G_i$ の安定した部分群とします。 $x_i \notin H_i$と$i \in I$の集合が有限であるような$(x_i)_{i \in I}$からなる$\prod_{i \in I} G_i$の部分集合は、$I$が有限であれば$\prod_{i \in I} G_i$に等しい$\prod_{i \in I} G_i$の安定部分群です。 これは、$H_i$* に対する $G_i$ の *制限付き和と呼ばれます。 有限の数を除くすべての $i$ について、$H_i$ が $G_i$ の通常安定部分群である場合、制限付き和は積の通常安定部分群です。 すべての $i$、部分群 $H_i$ が $G_i$ の単位元、$H_i$ に対する $G_i$ の直和は、単に $G_i$* の *制限付き和と呼ばれ、次のようになります。 ときどきは$\prod_{i \in I} G_i$で示されます。 すべての $i_0 \in I$、写像 $\iota_{i_0}: G_{i_0} \to \prod_{i \in I} G_i$ は、$\iota_{i_0}(x) = (x_i)_{i \in I}$ で定義されます。$i \neq i_0$ の場合、$x_{i_0} = x$ と $x_i = e_i$ は、*標準単射* と呼ばれる演算子を使用した群の単射準同型です。 $G_i$ は安定した部分群 $\operatorname{Im}(\iota_i)$ と同一視されます。 部分群 $G_i$ は正常です。 $i \neq j$、$G_i$、$G_j$の元、通勤、$G_i \cap G_j = \{e\}$の場合。 群 $\prod_{i \in I} G_i$ は集合 $\bigcup_{i \in I} G_i$ によって生成されます。
 
 #### 命題 12 {#alg-i-s4-prop-12 .statement tag=059R}
 
-*Let $(\phi_i: G_i \to K)_{i \in I}$ be a family of homomorphisms of groups with operators such that, for all $i \in I$ and $j \in I$ with $i \neq j$, $x \in G_i$, $y \in G_j$, the elements $\phi_i(x)$ and $\phi_j(y)$ of $K$ commute; there exists one and only one homomorphism of groups with operators $\Phi$ of $\prod_{i \in I} G_i$ into $K$ such that $\phi_i = \Phi \circ \iota_i$ for all $i \in I$. $\prod_{i \in I} G_i$、$\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ の元 $x = (x_i)_{i \in I}$ ごとに。*
+*$(\phi_i: G_i \to K)_{i \in I}$ を、$i \neq j$、$x \in G_i$、$y \in G_j$ を持つすべての $i \in I$ と $j \in I$ について、$K$ の要素 $\phi_i(x)$ と $\phi_j(y)$ が可換であるような演算子を持つ群の準同型写像族とする。すべての $i \in I$ に対して $\phi_i = \Phi \circ \iota_i$ となるような、$\prod_{i \in I} G_i$ の $K$ への演算子 $\Phi$ を持つ群の準同型性が 1 つだけ存在します。 $\prod_{i \in I} G_i$、$\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ の元 $x = (x_i)_{i \in I}$ ごとに。*
 
 $\Phi$ と $\Phi$ が解 ～ 問題の場合、$\bigcup_{i \in I} G_i$ では一致する、したがって $\Phi$ の $\prod_{i \in I} G_i$、よって一意性になります。ここで、$\Phi$ の存在を示します。$\prod_{i \in I} G_i$ のすべての元 $x = (x_i)_{i \in I}$ について、$\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (§ 1, no. 5) とします。すべての $i$ と $\Phi$ は明らかに $\Phi \circ \iota_i = \phi_i$ で同族性を持っています。 公式 $\Phi(xy) = \Phi(x)\Phi(y)$ は、§ 1, no. 5、公式 (9) から続きます。
 
@@ -626,7 +626,7 @@ $n$ の帰納法までに、これはすぐに $n = 2$ の証明命題に減り�
 
 ### 10. 単一種群
 
-$a \in \mathbf{Z}$ にしましょう。 $a\mathbf{Z}$ は $\mathbf{Z}$ の部分群であるため、$\mathbf{Z}$ の元 $x, y$ の間の関係は、「$x - y = az$ が同値関係であるような$z \in \mathbf{Z}$ が存在する」ことを示しており、次のように書くことにきっぱり同意します。 $x \equiv y \pmod{a}$ または $x \equiv y(a)$ で、これは *合同モジュロ* $a$ と呼ばれます。 置き換えること $a$ $-a$ により、等価な関係が得られるため、$a \geqslant 0$ と仮定できます。 $a = 0$ の場合、$x \equiv y(0)$ は $x = y$ を意味するため、等式とは異なる関係は、$a \neq 0$ の場合にのみ取得されます。 したがって、以下では、$a > 0$ 〜でない限りが別の方法で示されていると仮定します。
+$a \in \mathbf{Z}$ にしましょう。 $a\mathbf{Z}$ は $\mathbf{Z}$ の部分群であるため、$\mathbf{Z}$ の元 $x, y$ の間の関係は、「$x - y = az$ が同値関係であるような$z \in \mathbf{Z}$ が存在する」と述べており、次のように書くことにきっぱり同意します。 $x \equiv y \pmod{a}$ または $x \equiv y(a)$ で、これは *合同モジュロ* $a$ と呼ばれます。 置き換えること $a$ $-a$ により等価な関係が得られるため、$a \geqslant 0$ と想定される可能性があります。 $a = 0$ の場合、$x \equiv y(0)$ は $x = y$ を意味します。したがって、等式とは異なる関係は、$a \neq 0$ の場合にのみ取得されます。したがって、以下では、$a > 0$ 〜でない限りが別途示されていると仮定します。
 
 $a > 0$ に対して、合同式 $x \equiv y(a)$ による $\mathbf{Z}$ の商、つまり群 $\mathbf{Z}/a\mathbf{Z}$ を、$a$ を法とする有理整数の *群と呼びます。
 

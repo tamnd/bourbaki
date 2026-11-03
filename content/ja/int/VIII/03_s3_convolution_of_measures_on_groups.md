@@ -25,16 +25,16 @@ subsections:
       pdf_page: 122
 statements: 16
 exercises: 13
-content_sha256: 2fdeeee0fb489ccc8dc6896daf146324995054ad01abab01629382365720bc82
+content_sha256: ef17c71def5d96fd6003a19cb2a526e6619abff094bc895c4959e2e7322797f8
 translated_from: content/en/int/VIII/03_s3_convolution_of_measures_on_groups.md
 translation_method: google
 source_content_sha256: fbb17d2d8dfca6f7e44cfa7592c87c0769532c38cc2550dc3a50ed837fd6ab29
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1fdddacf71539469be2504a767a035da4782491228409949ac6000717b81fca3
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。 群でのメジャーの畳み込み
@@ -199,7 +199,7 @@ $$
 (s, x) \mapsto s \cdot x.
 $$
 
-If $\mu_1, \ldots, \mu_n$ are measures on G and $\nu$ is a measure on X, these will be said to be convolvable if they are so for the mapping $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ of $G^n \times X$ into X, and their convolution product is to be understood in the sense of this mapping.
+$\mu_1, \ldots, \mu_n$ が G 上のメジャーであり、$\nu$ が X 上のメジャーである場合、$G^n \times X$ の $(s_1, \ldots, s_n, x) \mapsto s_1 \cdots s_n x$ を X にマッピングする場合、これらは畳み込み可能であると言われ、それらの畳み込み積はこのマッピングの意味で理解されます。
 
 $s \in G$ と $x \in X$ の場合、
 
@@ -282,7 +282,7 @@ $\gamma(\lambda)$の定義による。
 
 #### 系 {#int-viii-s3-n3-cor-1 .statement tag=09JO}
 
-*The mapping $(\lambda, \mu) \mapsto \lambda * \mu$ of $\mathscr{C}'(G) \times \mathscr{M}(X)$ into $\mathscr{M}(X)$ is hypocontinuous relative to the equicontinuous subsets of $\mathscr{C}'(G)$ and the compact subsets of $\mathscr{M}(X)$ ($\mathscr{C}'(G)$ and $\mathscr{M}(X)$ being equipped with the topology of compact convergence in $\mathscr{C}(G)$ and $\mathscr{H}(X)$, respectively).*
+*$\mathscr{C}'(G) \times \mathscr{M}(X)$の$(\lambda, \mu) \mapsto \lambda * \mu$の$\mathscr{M}(X)$へのマッピングは、$\mathscr{C}'(G)$の等連続サブセットおよび$\mathscr{M}(X)$のコンパクトサブセットと比べて非連続です（$\mathscr{C}'(G)$と$\mathscr{M}(X)$には$\mathscr{C}(G)$と$\mathscr{H}(X)$のコンパクト収束のトポロジーが装備されており、それぞれ）。*
 
 というのは、$\mathscr{M}(X)$は$\mathscr{H}(X)$にコンパクトコンバージェンスの位相を搭載して、準完成品です。したがって、$\mathscr{C}'(G) \times \mathscr{M}(X)$ の $\mathscr{M}(X)$ への写像 $(\lambda, \mu) \mapsto \gamma(\lambda)\mu$ は、$\mathscr{C}'(G)$ の等連続部分集合および$\mathscr{M}(X)$ (§2, No. 6) のコンパクトな部分集合と比較して非連続です。その場合、提案 12 を適用すれば十分です。
 
@@ -296,7 +296,7 @@ $$
 
 どこで$g(x) = \int f(sx) d\lambda_0(s)$。現在、$g$ は連続しています (Ch. VII, §1, No. 1、補題 1)。一方、S を$\lambda_0$ のサポート、K を$f$ のサポートとします。 条件 $sx \in K$ と $s \in S$ は $x \in S^{-1}K$ を暗示します。したがって、$g$ のサポートは $S^{-1}K$ に含まれるため、$g \in \mathscr{H}(X)$ になります。すると、$\langle \lambda_0 * \mu, f \rangle = \langle \mu, g \rangle$ は$\mu$ の漠然と連続した写像であり、主張であることが証明されます。
 
-2) $\mu_0 \in \mathscr{M}(X)$ とします。 The mapping $\lambda \mapsto \lambda * \mu_0$ of $\mathscr{C}'(G)$ into $\mathscr{M}(X)$ is continuous for the topologies $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ and $\sigma(\mathscr{M}(X), \mathscr{H}(X))$. というのは、$f \in \mathscr{K}(X)$ としましょう。 設定 $h(s) = \int f(sx)\, d\mu_0(x)$、$\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$、$h \in \mathscr{C}(G)$ があります (Ch. VII, §1, No. 1、補題 1)。
+2) $\mu_0 \in \mathscr{M}(X)$ とします。 写像 $\mathscr{C}'(G)$ から $\mathscr{M}(X)$ への $\lambda \mapsto \lambda * \mu_0$ は、トポロジ $\sigma(\mathscr{C}'(G), \mathscr{C}(G))$ と $\sigma(\mathscr{M}(X), \mathscr{H}(X))$ で連続しています。というのは、$f \in \mathscr{K}(X)$としましょう。 設定 $h(s) = \int f(sx)\, d\mu_0(x)$、$\langle f, \lambda * \mu_0 \rangle = \langle h, \lambda \rangle$、$h \in \mathscr{C}(G)$ があります (Ch. VII, §1, No. 1、補題 1)。
 
 #### 命題 13 {#int-viii-s3-prop-13 .statement tag=09JQ}
 

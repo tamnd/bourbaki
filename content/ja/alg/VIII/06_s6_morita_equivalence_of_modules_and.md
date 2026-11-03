@@ -42,19 +42,19 @@ subsections:
       pdf_page: 128
 statements: 40
 exercises: 8
-content_sha256: 24851651c4f326403379ddc0553e365501d6c0e033b6c49dd9d62e16a5bb4a3f
+content_sha256: 5fc8becc585e7c5cf1d2e35305f12489284294d0cbde8ffab672475a3e8ed24f
 translated_from: content/en/alg/VIII/06_s6_morita_equivalence_of_modules_and.md
 translation_method: google
 source_content_sha256: e8ef2b43442fbc25b56375b83b63be74c37d7c8014a9723fb60c9bc369cd90cb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 599212e4a0b39ecdf516f5cb7bd651cd834a62cac419069f732ed4e83d8aa21f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
-## § 6。 森田加群と代数の同値
+## § 6。森田加群と代数の同値
 
 この切断において、$k$は可換環を表します。
 
@@ -66,7 +66,7 @@ $$
 \langle x, bx^*a\rangle =\langle xb, x^*\rangle a \tag{1}
 $$
 
-We denote by $_sA_d$ the algebra A viewed as an $(A,A)_k$-bimodule (loc. cit.) and by $\Lambda  : P\otimes_BP^*\rightarrow_sA_d$ the homomorphism of $(A,A)_k$-bimodules determined by
+$_sA_d$ で、$(A,A)_k$-双加群 (上記引用) とみなされる代数 A を、$\Lambda  : P\otimes_BP^*\rightarrow_sA_d$ で次のように決定される $(A,A)_k$-双加群の準同型性を表します。
 
 $$
 \Lambda (x\otimes x^*) =\langle x, x^*\rangle \tag{2}
@@ -76,7 +76,7 @@ $x\in P$ と $x^*\in P^*$ の場合。 P の基礎となる右B-加群の二重 
 
 $x\in P$ と $\widetilde{x}\in \widetilde{P}$ の場合。
 
-Now, suppose that the mapping $b\mapsto b_P$ is a bijection from B to End$_A(P)$; it is then an isomorphism from B to the opposite algebra of End$_A(P)$. The canonical homomorphism of $\mathbf{Z}$-modules from $P^*\otimes_AP$ to End$_A(P)$ (II, §4, No. 2, p. 271) then determines a homomorphism of $\mathbf{Z}$-modules $\Theta  : P^*\otimes_AP\rightarrow$ B defined by
+ここで、マッピング $b\mapsto b_P$ が B から End$_A(P)$ への全単射であると仮定します。したがって、B から End$_A(P)$ の逆の代数への同型写像になります。 $P^*\otimes_AP$ から End$_A(P)$ (II, §4, No. 2、p. 271) までの $\mathbf{Z}$ モジュールの標準準同型、その後 $\mathbf{Z}$ モジュールの $\Theta  : P^*\otimes_AP\rightarrow$ B の決定する準同型
 
 $$
 x\Theta (x^*\otimes y) =\langle x, x^*\rangle y \tag{4}
@@ -186,19 +186,19 @@ b) A から終わりまでの写像 $a\mapsto a_P$ $_B(P)$ は、A-加群 P が�
 
 #### 命題 2 {#alg-viii-s6-prop-2 .statement tag=006U}
 
-A と B を $k$ 以上の代数とし、P を $(A,B)_k$ バイモジュールとします。 B から End $_A(P)$ までの写像 $b\mapsto b_P$ が全単射であるとします。次の主張は同等です。
+A と B を $k$ 以上の代数とし、P を $(A,B)_k$ バイモジュールとします。 B から End$_A(P)$ までの写像 $b\mapsto b_P$ が全単射であるとします。次の主張は同等です。
 
-(i) A-加群 P は射影的であり、有限に生成されます。
+(i) A-加群 P は射影であり、有限に生成されます。
 
 (ii) 写像 Θ (VIII, p. 96) は、$P^*\otimes_AP$ から $_sB_d$ までの $(B,B)_k$ バイモジュールの同型です。
 
-(iii) B の像含む単位元。
+(iii) Θの像含む単位元 B.
 
 さらに、A から End $_B(P)$ までの写像 $a\mapsto a_P$ が全単射である場合、上記の主張は次の主張と等価です。
 
-(iv) $Q\otimes_AP$ から $_sB_d$ までの $(B,A)_k$-bimodule Q と $(B,B)_k$-bimodule の全射準同型が存在します。
+(iv) $Q\otimes_AP$ から $_sB_d$ までの $(B,B)_k$ バイモジュールの $(B,A)_k$ バイモジュール Q と全射準同型が存在します。
 
-II, §4, No. 2、p. 271、主張の系により、(i) は (ii) を意味します。また、(ii)から(iii)が導かれます。 $t\in B^*\otimes_AB$ を $\Theta (t) = 1$ となるようにします。 $n$ を整数とし、$(x_1, . . . , x_n)\in P^n$ と $(x^*_1, . . . , x^*_n)\in P^{*n}$ を $t=\sum^n_{i=1}x^*_i\otimes x_i$ とする。 $x$ 所属から P まで、関係 $x\Theta (t) =x$ は次のように書くことができます。
+II, §4, No. 2、p. 271、主張の系により、(i) は (ii) を意味します。また、(ii)から(iii)が導かれます。 $t\in B^*\otimes_AB$ を $\Theta (t) = 1$ とする。 $n$ を整数とし、$(x_1, . . . , x_n)\in P^n$ と $(x^*_1, . . . , x^*_n)\in P^{*n}$ を $t=\sum^n_{i=1}x^*_i\otimes x_i$ とする。 $x$ 所属から P まで、関係 $x\Theta (t) =x$ は次のように書くことができます。
 
 $$
 \sum_{i=1}^n\langle x, x^*_i\rangle x_i=x
@@ -206,23 +206,23 @@ $$
 
 したがって、A-加群 P は族 $(x_i)_{1\leqslant i\leqslant n}$ によって有限に生成され、II, §2, No. 6、p. 238 の命題 12 を使用して、含意 (iii) $\Rightarrow$ (i) の結論する証明が生成されます。
 
-明らかに (ii) $\Rightarrow$ (iv) があります。 Q を $Q\otimes_AP$ から $_sB_d$ までの $(B,B)_k$-bimodule の $(B,A)_k$-bimodule および $\theta$ 全射準同型とします。前の小節の記法には、$x\in P$と$y\in Q$に対して$\theta (y\otimes x) =\langle \zeta (y), x\rangle$となるような$(B,A)_k$バイモジュール$\zeta : Q\rightarrow \widetilde{P}$の準同型が存在し、$\theta =\widetilde{\Lambda}\circ (\zeta \otimes 1_P)$があります。 $\theta$は全射なので、$\widetilde{\Lambda}$も同様です。 A から End $_B(P)$ までの写像 $a\mapsto a_P$ が全単射である場合、VIII, p. 97 の命題 1 の関係 (14) によって Θ は全射です。含意 (iv) $\Rightarrow$ (iii) が続きます。
+明らかに (ii) $\Rightarrow$ (iv) があります。 Q を $Q\otimes_AP$ から $_sB_d$ までの $(B,B)_k$-bimodule の $(B,A)_k$-bimodule および $\theta$ 全射準同型とします。前の小節の記法には、$x\in P$ と $y\in Q$ に対して $\theta (y\otimes x) =\langle \zeta (y), x\rangle$ となるような $(B,A)_k$ バイモジュール $\zeta : Q\rightarrow \widetilde{P}$ の準同型が存在し、$\theta =\widetilde{\Lambda}\circ (\zeta \otimes 1_P)$ があります。 $\theta$は全射なので、$\widetilde{\Lambda}$も同様です。 A から End $_B(P)$ までの写像 $a\mapsto a_P$ が全単射である場合、VIII, p. 97 の命題 1 の関係 (14) により Θ は全射です。含意 (iv) $\Rightarrow$ (iii) が続きます。
 
 #### 命題 3 {#alg-viii-s6-prop-3 .statement tag=006V}
 
-A と B を $k$ 上の代数とし、P を $(A,B)_k$ バイモジュールとします。次のプロパティは同等です。
+A と B を $k$ 上の代数とし、P を $(A,B)_k$-bimodule とします。次のプロパティは同等です。
 
 (i) A-加群 P は生成するです。
 
-(ii) $P\otimes_BP^*$ から $_sA_d$ までの写像の像 (VIII、p. 95) 含む単位元。
+(ii) 写像の像 $P\otimes_BP^*$ から $_sA_d$ (VIII、p. 95) 含む単位元。
 
-(iii) $P\otimes_BQ$ から $_sA_d$ までの $(B,A)_k$-bimodule Q と $(A,A)_k$-bimodule の全射準同型が存在します。
+(iii) $P\otimes_BQ$ から $_sA_d$ までの$(A,A)_k$-bimodules の$(B,A)_k$-bimodule Q と全射準同型が存在します。
 
-さらに、B から End$_A(P)$ までの写像 $b\mapsto b_P$ が全単射である場合、主張は次の主張と等価です。
+さらに、B から End $_A(P)$ までの写像 $b\mapsto b_P$ が全単射である場合、主張は次の主張と等価です。
 
 (iv) 写像 Λ は、$P\otimes_BP^*$ から $_sA_d$ までの同型です。
 
-(i) $\Leftrightarrow$ (ii): The image of Λ is the trace ideal $\tau (P)$ (VIII, p. 80). したがって、(i) と (ii) の同値は、VIII、p. 80 の定理 1 から続きます。
+(i) $\Leftrightarrow$ (ii): Λ の像は、理想的なトレース $\tau (P)$ (VIII、p. 80) です。したがって、(i) と (ii) の同値は、VIII、p. 80 の定理 1 から続きます。
 
 (ii) $\Rightarrow$ (iii): $Q = P^*$ を取れば十分です。
 
@@ -264,7 +264,7 @@ A と B を $k$-代数、P を $(A,B)_k$-双加群とする。次のプロパテ
 
 A と B を $k$-代数、P を $(A,B)_k$-双加群とする。 $P\otimes_BQ$ が $_sA_d$ と同型、$Q\otimes_AP$ が $_sB_d$ と同型であるような $(B,A)_k$ 双加群 Q が存在する場合、P は可逆であると言います。このような両側加群 Q は P の逆行列と呼ばれます。
 
-A と B を $k$-代数、P を可逆 $(A,B)_k$-双加群とする。 C を $k$-代数、$P'$ を可逆な $(B,C)_k$-双加群とする。 最後に、Q と $Q'$ をそれぞれ P と $P'$ の逆数両側加群とします。 テンソル積 (II, §3, No. 8、p. 258、命題 8) と II, §3, No. 4、p. 249 の命題 4 の結合性により、$(C,A)_k$-bimodule $Q'\otimes_BQ$ は $(A,C)_k$-bimodule の逆です。 $P\otimes_BP'$ なので、$P\otimes_BP'$ は可逆な $(A,C)_k$ バイモジュールになります。
+A と B を $k$-代数、P を可逆 $(A,B)_k$-双加群とする。 C を $k$-代数、$P'$ を可逆 $(B,C)_k$-双加群とする。最後に、Q と $Q'$ をそれぞれ P と $P'$ の逆数両側加群とします。 テンソル積 (II, §3, No. 8, p. 258, 命題 8) と II, §3, No. 4, p. 249 の命題 4 の結合性により、$(C,A)_k$-bimodule $Q'\otimes_BQ$ は、 $(A,C)_k$-bimodule $P\otimes_BP'$ なので、$P\otimes_BP'$ は可逆な $(A,C)_k$-bimodule になります。
 
 従って、関係
 
@@ -276,13 +276,13 @@ A と B を $k$-代数、P を可逆 $(A,B)_k$-双加群とする。 C を $k$-�
 
 2 つの同型 $k$-代数は森田等価です。 2 つの $k$-代数が森田等価である場合、それらの反対多元環は森田等価です。
 
-P を可逆 $(A, B)_k$-バイモジュール、Q を P の逆関数とします。その場合、Q は可逆 $(B, A)_k$-バイモジュールであり、逆モジュールとして P を持ちます。さらに、$(B^\circ, A^\circ)_k$-双加群として見ると、P は可逆であり、逆としての$(A^\circ, B^\circ)_k$-双加群 Q を持ちます。
+P を可逆 $(A, B)_k$-bimodule とし、Q を P の逆数とします。すると、Q は可逆 $(B, A)_k$-bimodule となり、P を逆数とします。さらに、$(B^\circ, A^\circ)_k$-bimodule として見ると、P は可逆であり、その逆としての $(A^\circ, B^\circ)_k$-bimodule Q を持ちます。
 
 #### 補題 1 {#alg-viii-s6-lem-1 .statement tag=0071}
 
 — *A と B を K-代数、P を可逆 $(A, B)_k$ バイモジュール、M と N を B-加群、$u : M \to N$ を B-線型写像とします。 写像 $1_P \otimes u : P \otimes_B M \to P \otimes_B N$ が零 (それぞれ全単射) である場合、u も同様です。*
 
-Q を P および $(B, B)_k$ バイモジュールの $\theta : Q \otimes_A P \to {}_s B_d$ 同型の逆両側加群とします。 補題は図式の可換性から続きます
+Q を P の逆数両側加群および $(B, B)_k$ バイモジュールの $\theta : Q \otimes_A P \to {}_s B_d$ 同型とします。 補題は図式の可換性から続きます
 
 $$
 \begin{array}{ccc}
@@ -294,13 +294,13 @@ $$
 
 #### 定理 1 {#alg-viii-s6-thm-1 .statement tag=0072}
 
-*A と B を K-代数とし、P を $(A, B)_k$ バイモジュールとします。 $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ を $P^*$ で表します。次のプロパティは同等です。
+*AとBをK-代数、Pを$(A, B)_k$-bimoduleとします。 $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$ を $P^*$ で表します。次のプロパティは同等です。
 
-(i) *$(A, B)_k$-bimodule P は可逆です。*
+(i) *$(A, B)_k$-bimodule P は反転可能です。*
 
 (ii) *A-加群 P は射影的で有限生成され、B から $\operatorname{End}_A(P)^{\circ}$ までの生成するおよび写像 $b \mapsto b_P$ は K-代数同型です。*
 
-(iii) *右B-加群 P は射影で有限生成され、A から $\operatorname{End}_B(P)$ までの生成するおよび写像 $a \mapsto a_P$ は K-代数同型です。
+(iii) *右B-加群 P は射影的で有限生成され、A から $\operatorname{End}_B(P)$ までの生成するおよび写像 $a \mapsto a_P$ は K-代数同型です。
 
 これらが性質が成り立つの場合、準同型
 
@@ -308,11 +308,11 @@ $$
 \Theta : P^* \otimes P \to {}_s B_d \quad \text{and} \quad \Lambda : P \otimes P^* \to {}_s A_d
 $$
 
-は同型であるため、$(B, A)_k$-bimodule $P^*$ は P の逆数になります。
+は同型であるため、$(B, A)_k$-bimodule $P^*$ は P の逆になります。
 
 性質 (ii) が成り立つ場合、P は逆 $P^*$ (VIII、p. 98、命題 2 および p. 98、命題 3) をもつ可逆 $(A, B)_k$ 双加群です。これは、(ii) が (i) と最後の主張を意味することを証明します。
 
-$(A, B)_k$-bimodule P が可逆であると仮定します。すると、A-加群 P は生成する (VIII, p. 98, 命題 3, (iii) $\Rightarrow$ (i)) となります。従って、忠実でバランスが取れており (VIII、p. 82、定理 2)、その結果、A から $\operatorname{End}_B(P)$ までの写像 $a \mapsto a_p$ は全単射です。
+$(A, B)_k$-bimodule P が可逆であると仮定します。このとき、A-加群 P は生成する (VIII, p. 98, 命題 3, (iii) $\Rightarrow$ (i)) です。従って、忠実でバランスが取れており (VIII、p. 82、定理 2)、その結果、A から $\operatorname{End}_B(P)$ までの写像 $a \mapsto a_p$ は全単射です。
 
 B から $\operatorname{End}_A(P)$ への写像 $b \mapsto b_P$ が全単射であることを証明しましょう。 Q を P の逆の $(B, A)_k$-bimodule とします。$u \in \operatorname{End}_A(P)$ とします。すると、$1_Q \otimes u$ は左B-加群 $Q \otimes_A P$ の自己準同型になります。 $(B, B)_k$-bimodule $Q \otimes_A P$ は $_s B_d$ と同型であるため、$1_Q\otimes u$ がホモテティー となり、右B-加群 $Q\otimes_AP$ の比 $b$ となるような B の一意元 $b$ が存在します。従って、$1_Q\otimes (u-b_P) = 0$ となります。従って、$u=b_P$ by 補題 1;これは、写像 $b\mapsto b_P$ B から End$_A(P)$ が全単射であることを証明します。
 
@@ -368,7 +368,7 @@ V と W を左B-加群とします。 Hom$_B(V,W)$からHom$_A(P\otimes_BV,P\oti
 
 主張 b) は、$\lambda_M$ が $P\otimes_B$ $\otimes_A\otimes M$ から M までの同型であるという事実から続きます。
 
-V を左B-加群とし、V の W 部分加群とします。 B-加群 P は射影 (VIII、p. 101、定理 1) なので、$P\otimes_BW$ から $P\otimes_BV$ までの標準写像は単射です。 私たちは同一視する $P\otimes_BW$ と$P\otimes_BV$ の像からこの写像までです。 P と B を Q と A に置き換える場合も、同様の規則を採用します。
+V を左B-加群とし、V の W 部分加群とします。 B-加群 P は射影 (VIII、p. 101、定理 1) なので、$P\otimes_BW$ から $P\otimes_BV$ までの標準写像は単射です。私たちは同一視する $P\otimes_BW$ と$P\otimes_BV$ の像がこの写像を通して続きます。 P と B を Q と A に置き換える場合も、同様の規則を採用します。
 
 #### 命題 5 {#alg-viii-s6-prop-5 .statement tag=0077}
 
@@ -430,7 +430,7 @@ A の任意の両側イデアル $\mathfrak{a}$ について、$\mathfrak{a}$ �
 
 この小節において、AとBは$k$代数、Mは左A-加群、Vは左B-加群です。 D(M) (それぞれ D(V)) 部分加群の M (それぞれ V) の集合を包含順に表します。 順序集合 $\varphi : D(V)\rightarrow D(M)$ のうち同型が与えられたと仮定します。
 
-By Morita’s theorem (VIII, p. 103, Theorem 2), we obtain such an isomorphism in the following situation: P is an invertible $(A,B)_k$-bimodule, M is the A-module $P\otimes_BV$, and for every submodule W of $V,\varphi (W)$ is the canonical image of $P\otimes_BW$ in M.
+森田の定理 (VIII、p. 103、定理 2) により、次の状況でそのような同型写像が得られます: P は可逆 $(A,B)_k$ 双加群、M は A 加群 $P\otimes_BV$、そして $V,\varphi (W)$ のすべての部分加群 W は M の $P\otimes_BW$ の正準像です。
 
 加群 M またはその部分加群の一部のプロパティは、順序付けされた集合 D(M) の項で表現できます。それらは、表 I および II にリストされています。
 
@@ -546,7 +546,7 @@ $$
 
 #### 命題 9 {#alg-viii-s6-prop-9 .statement tag=00R6}
 
-S を V の単純部分加群 、T を M の単純部分加群 $\varphi (S)$ とします。 If $V_S$ denotes the isotypical component of V of type S and $M_T$ the isotypical component of M of type T, then we have $\varphi (V_S) = M_T$.
+S を V の単純部分加群 、M の T 単純部分加群 $\varphi (S)$ とします。$V_S$ が型 S の V の同型成分と、$M_T$ の M の同型成分を表すとします。 型 T なら、$\varphi (V_S) = M_T$ です。
 
 S とは異なる V のすべての単純部分加群 $S'$ は $S'\cap S = 0$ を満たします。したがって、$\varphi (S')$ が T (補題 2) と同型である場合に限り、それは S と同型です。さて、$V_S$ は S と同型の V の単純部分加群の和であり、$M_T$ は T と同型の M の単純部分加群の和です。 したがって、命題 9 は命題 7 と 8 のすぐ後に続きます。
 
@@ -618,7 +618,7 @@ c) B-加群 V は、その消滅子が 0 に減らされた場合にのみ忠実
 
 $*$d) V が単射だと仮定します。 VIII、p. 106、A-加群の注意により、$P\otimes_BV$ は Hom$_B(Q,V)$ と同型であり、Q は A の逆 $(B,A)_k$ 双加群です。 A-加群 Q は射影であるため、平坦 (X, §1, n$^o3$、p. 9、例 1)、A-加群 Hom$_B(Q,V)$ は、X, §1、n$^o8$、p. 18、命題 11 によって単射になります。
 
-e) V が有限表現 $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10) を許容すると仮定します。 テンソル積を P とすることにより、A-加群 $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$ の完全系列を推定します。ここで、$N'_1$ と $N'_0$ は射影であり、有限に生成されます (命題 11 と a))。 $N''_0$ を有限生成A-加群として、加群 $N_0= N'_0\oplus N''_0$ が自由で有限に生成されるようにし、$u': N'_1\oplus N''_0\rightarrow N_0$ を準同型 $(u,1_{N''_0})$ とします。その場合、$P\otimes_BV$ は $u'$ の余核と識別できます。 $N_1$ を有限生成された自由A-加群と $p: N_1\rightarrow N'_1\oplus N''_0$ 全射準同型とします。 数列 $N_1\longrightarrow^{u'\circ p}N_0\rightarrow P\otimes_BV\rightarrow 0$ は A-加群 $P\otimes_BV.*$ の有限表現です
+e) V が有限表現 $L_1\rightarrow L_0\rightarrow V\rightarrow 0$ (X, §1, n$^o4$, p. 10) を認めると仮定します。 テンソル積を P とすることで、A-加群 $N'_1-\overset{u}{\rightarrow}N'_0\rightarrow P\otimes_BV\rightarrow 0$ の完全系列を推定します。ここで、$N'_1$ と $N'_0$ は射影で有限生成されます (命題 11 と a))。 $N''_0$ を有限生成A-加群として、加群 $N_0= N'_0\oplus N''_0$ が自由で有限に生成されるようにし、$u': N'_1\oplus N''_0\rightarrow N_0$ を準同型 $(u,1_{N''_0})$ とします。その場合、$P\otimes_BV$ は $u'$ の余核と識別できます。 $N_1$ を有限生成された自由A-加群と $p: N_1\rightarrow N'_1\oplus N''_0$ 全射準同型とします。 数列 $N_1\longrightarrow^{u'\circ p}N_0\rightarrow P\otimes_BV\rightarrow 0$ は A-加群 $P\otimes_BV.*$ の有限表現です
 
 f) A-加群 $P\otimes_BV$ が射影的であると仮定します (それぞれ生成する、忠実、$*$単射的、有限表現 )。 適用までに上記(交換すること)
 
@@ -658,11 +658,11 @@ $$
 (P_1\otimes_kP_2)\otimes_B(Q_1\otimes_kQ_2)\rightarrow (P_1\otimes_{B_1}Q_1)\otimes_k(P_2\otimes_{B_2}Q_2)
 $$
 
-つまり、$(A$、A)-線形です。逆に、逆同型 $(P_1\otimes_kQ_1)\otimes_k(P_2\otimes_k$ $Q_2)\rightarrow (P_1\otimes_kP_2)\otimes_k(Q_1\otimes_kQ_2)$ 定義する $(A$、A)-線形射 $(P_1\otimes_{B_1}$ $Q_1)\otimes_k(P_2\otimes_{B_2}Q_2)\rightarrow (P_1\otimes_kP_2)\otimes_B(Q_1\otimes_kQ_2)$。これら 2 つの射は互いに逆数であるため、同型になります。 $(A_i,A_i$)-双モジュール $P_i\otimes_{B_i}Q_i$ は $A_i$ と同型なので、 $(A$, A)-線形同型 $P\otimes_B$ $Q\rightarrow A$ が得られます。同様に、$(B$、B) 線形同型 $Q\otimes_AP\rightarrow B$ が得られ、d) の証明が完成します。
+つまり、$(A$、A)-線形です。逆に、逆同型 $(P_1\otimes_kQ_1)\otimes_k(P_2\otimes_k$ $Q_2)\rightarrow (P_1\otimes_kP_2)\otimes_k(Q_1\otimes_kQ_2)$ 定義する $(A$、A)-線形射 $(P_1\otimes_{B_1}$ $Q_1)\otimes_k(P_2\otimes_{B_2}Q_2)\rightarrow (P_1\otimes_kP_2)\otimes_B(Q_1\otimes_kQ_2)$。これら 2 つの射は互いの逆数であるため、同型になります。 $(A_i,A_i$)-双モジュール $P_i\otimes_{B_i}Q_i$ は $A_i$ と同型なので、 $(A$, A)-線形同型 $P\otimes_B$ $Q\rightarrow A$ が得られます。同様に、$(B$, B) 線形同型 $Q\otimes_AP\rightarrow B$ が得られ、d) の証明が完成します。
 
-e) の仮定では、P を可逆 $(A,B)_k$-bimodule とします。この場合、$P_{(k')}$ は可逆な $(A_{(k')},B_{(k')})_{k'}$-bimodule です。
+e) の仮定では、P を可逆的な $(A,B)_k$-bimodule とします。この場合、$P_{(k')}$ は可逆的な $(A_{(k')},B_{(k')})_{k'}$-bimodule です。
 
-A を $k$-代数、$e$ を A の冪等とする。 A のそれらによって誘導された $k$ の加法、乗法、作用を備えた集合 $eAe$ は、次の$k$-代数である。 単位元 $e$。
+A を $k$-代数、$e$ を A の冪等とする。 A の$k$ の加法、乗法、作用を備えた集合 $eAe$ は、 $k$-代数と単位元 $e$。
 
 #### 命題 14 {#alg-viii-s6-prop-14 .statement tag=007N}
 
@@ -672,21 +672,21 @@ A と B を$k$-代数とする。すると、A と B は、次の条件 $\mathbf
 
 (ii) 元 $e_{ij}$ によって生成される B の両側イデアルは B に等しい。
 
-(iii) $k$-代数 A は$e\mathbf{M}_n(B)e$ と同型である。
+(iii) $k$-代数 A は $e\mathbf{M}_n(B)e$ と同型である。
 
-条件 (i) と (ii) が満たされる場合、$(e\mathbf{M}_n(B)e,B)_k$-bimodule $eB^n_d$ は可逆です。
+条件 (i) と (ii) が満たされる場合、$(e\mathbf{M}_n(B)e,B)_k$-bimodule $eB^n_d$ は反転可能です。
 
 定理 1 (VIII, p. 101) を考慮すると、$k$-代数 A は、有限生成された射影の自己準同型環および生成する右B-加群と同型である場合に限り、B と森田等価です。したがって、命題は以下の補題 3 と 4 から続きます。
 
 #### 補題 3 {#alg-viii-s6-lem-3 .statement tag=007O}
 
-右B-加群 P は射影的で有限生成され、整数 $n\geqslant 0$ と以下の特性を持つ $\mathbf{M}_n(B)$ に冪等 $e= (e_{ij})$ が存在する場合に限り、生成するとなります。
+右B-加群 P は射影的で有限生成され、整数 $n\geqslant 0$ と、以下の特性を持つ $\mathbf{M}_n(B)$ の冪等 $e= (e_{ij})$ が存在する場合に限り、生成するになります。
 
 (i) B-加群 P は $eB^n_d$ と同型です。
 
 (ii) 元 $e_{ij}$ によって生成される B の両側イデアルは B に等しい。
 
-P を右B-加群とします。この場合、P は射影であり、それが形 $B^n_d$ の直和因子部分加群の B-加群と同型である場合に限り、有限生成されます。ここで、$n$ は整数 $\geqslant 0$ (II, §2, No. 2, p. 232, 系) 1)。 $k$-代数 $\mathbf{M}_n(B)$ と End(B$^n_d$) を同一視するとすると、これは、P が $eB^n_d$ と同型であるような冪等 $e$ が $\mathbf{M}_n(B)$ に存在することを意味します。
+P を右B-加群とします。この場合、P は射影であり、それが形 $B^n_d$ の B-加群の直和因子部分加群と同型である場合に限り、有限生成されます。ここで、$n$ は整数 $\geqslant 0$ (II, §2, No. 2, p. 232, 系 1)。 $k$-代数 $\mathbf{M}_n(B)$ と End(B$^n_d$) を同一視するとすると、これは、P が $eB^n_d$ と同型であるような冪等 $e$ が $\mathbf{M}_n(B)$ に存在することを意味します。
 
 B-加群 P は、そのトレース理想値 $\tau (P)$ が B に等しい場合、つまり $\tau (eB^n_d) = B$ (VIII、p. 80、定理 1) である場合に限り、生成するになります。 $x_1, . . . , x_n$ を $B^n_d$ 対応するから列の行列 $e$ の元とし、$eB^n_d$ の線型形式 $(b_1, . . . , b_n)\mapsto b_i$ を $x^*_i$ ($1\leqslant i\leqslant n$ の場合) とします。 家族 $(x_1, . . . , x_n)$ 生成する B-加群 $eB^n_d$ と家族 $(x^*_1, . . . , x^*_n)$ 生成するはその二重です。 さて、$\langle x^*_i, x_j\rangle =e_{ij}$ があるので、$\tau (eB^n_d)$ は、$e_{ij}$ によって生成された B の両側イデアルです。 これは補題 3 を証明します。
 

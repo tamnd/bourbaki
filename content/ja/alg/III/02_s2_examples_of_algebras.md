@@ -58,16 +58,16 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 25
-content_sha256: c9a2ebf8174ef66c28a2cedfccdb03962fe0627f38bdae486b7e67483d16e9c2
+content_sha256: 3000ba520ad7180875bd1c6d3b27a850d8cf603e1d00672f6bc55f1ec5ea01d9
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
 translation_method: google
 source_content_sha256: 523c00d5d47e83c328fe974b4b99f51c3c18998f5e378badbbbbd303ed1feec8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 771d514ecacec1b3feb8d82f5bd6ba06e6ea30bcf3c108e1428802ce5bd38791
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 代数中例
@@ -104,7 +104,7 @@ $$
 e_1^2 = e_1, \quad e_1 e_2 = e_2 e_1 = e_2, \quad e_2^2 = \alpha e_1 + \beta e_2.
 $$
 
-二次代数と同型の A-代数 E は、二次代数とも呼ばれます。 It amounts to the same to say that E admits a basis of two elements one of which is the unit element.
+二次代数と同型の A-代数 E は、二次代数とも呼ばれます。 E が 2 つの要素の基底を認め、その 1 つが単位要素であると言うのは同じことになります。
 
 2 つの元の基底を認めるすべての単位 A-代数は二次代数 (練習問題 1) であることがわかります。
 
@@ -471,7 +471,7 @@ $$
 
 式 (32) は、$\mathbf{A}$ で $-1 \neq 1$ の場合、F が可換でないことを示していることに注意してください。
 
-*A を実数と $\alpha = \gamma = -1, \beta = 0$ の体 $\mathbf{R}$ とすると、対応する代数 F はハミルトニアン四元数 * の *代数と呼ばれ、$\mathbf{H}$ で表されます。 If $u = \rho e + \xi i + \eta j + \zeta k$ ($\rho, \xi, \eta, \zeta$ in $\mathbf{R}$) is an element $\neq 0$ in $\mathbf{H}$, the formula $u\bar{u} = \bar{u}u = \rho^2 + \xi^2 + \eta^2 + \zeta^2$ (cf. (34)) shows that $N(u) \neq 0$ in $\mathbf{R}$, so that $u$ admits an *inverse* $u^{-1} = N(u)^{-1}\bar{u}$ in $\mathbf{H}$ and that $\mathbf{H}$ is therefore a *non-commutative field*.
+*A を実数と $\alpha = \gamma = -1, \beta = 0$ の体 $\mathbf{R}$ とすると、対応する代数 F はハミルトニアン四元数 * の *代数と呼ばれ、$\mathbf{H}$ で表されます。 $u = \rho e + \xi i + \eta j + \zeta k$ ($\mathbf{R}$ の $\rho, \xi, \eta, \zeta$) が $\mathbf{H}$ の元 $\neq 0$ である場合、公式 $u\bar{u} = \bar{u}u = \rho^2 + \xi^2 + \eta^2 + \zeta^2$ (cf. (34)) は、$\mathbf{R}$ の $N(u) \neq 0$ を示します。 $u$ は $\mathbf{H}$ の *逆* $u^{-1} = N(u)^{-1}\bar{u}$ を認めており、したがって $\mathbf{H}$ は *非可換体* です。
 
 (3) E が四元数代数 (cf. *例 2*) であるとすると、元 $\delta \in \mathbf{A}$ によって定義される E の Cayley 拡大は一般に非結合的です
 
@@ -493,7 +493,7 @@ $$
 
 S がモノイド (それぞれ群) の場合、E は A 上のモノイド (それぞれ群) S の代数と呼ばれます。この場合、結合代数 (§ 1, no. 7) になります。同様に、S が可換モノイドの場合、その代数は結合的で可換です。最後に、マグマ S が単位元 u を認める場合、$e_u$ は代数 E の単位元です。 元 $e_u$ が自由であるため、A は E の部分代数 Ae_u と同一視されます。
 
-When A \neq \{0\}, S is sometimes identified with its image under the injection s \mapsto e_s, so that an element of E is written as $\sum_{s \in S} \alpha_s s$; but this identification is not possible (without causing confusion) when S is written additively. そして、$e_s$の代わりに$e^s$と書かれることもよくあります。
+A \neq \{0\} の場合、S はインジェクション s \mapsto e_s の下のイメージと識別されることがあるため、E の要素は $\sum_{s \in S} \alpha_s s$ として書き込まれます。しかし、S が加法的に書かれた場合、この識別は (混乱を引き起こすことなく) 不可能です。 そして、$e_s$の代わりに$e^s$と書かれることもよくあります。
 
 B を他の可換環および $\rho : A \to B$ 環準同型とします。 A と B 上の同じマグマ S の代数 E = A^{(S)} と E' = B^{(S)} を考え、$(e_s)_{s \in S}$ と $(e'_s)_{s \in S}$ をそれぞれの標準基底とします。 代数 B^{(S)} は、A-線型写像 j の下で、すべての $s \in S$ に対して $j(e_s \otimes 1) = e'_s$ となるように、代数 A^{(S)} \otimes_A B がスカラーの環を B (II, § 1, no. 11, 系 3 ～ 命題 17)。
 
@@ -533,7 +533,7 @@ $$
 
 $f$ を合成写像 $S \xrightarrow{g} S' \to A^{(S')}$ とする命題を適用する 6 で十分です。
 
-In particular, if T is a stable subset of the magma S (I, § 1, no. 4), the set of elements $\sum_{s \in T} \alpha_s e_s$ of $A^{(S)}$ is a subalgebra of $A^{(S)}$ canonically isomorphic to the algebra $A^{(T)}$ and sometimes identified with the latter.
+特に、T がマグマ S (I, § 1, no. 4) の安定な部分集合である場合、$A^{(S)}$ の要素の集合 $\sum_{s \in T} \alpha_s e_s$ は代数 $A^{(T)}$ と正準的に同型の $A^{(S)}$ の部分代数であり、後者と同一視されることもあります。
 
 #### 例 {#alg-iii-s2-n6-exa-1 .statement tag=05Z6}
 
@@ -561,9 +561,9 @@ Mo(I) と $\mathbf{N}^{(I)}$ はそれぞれ単位元を持っているため、
 
 #### 命題 7 {#alg-iii-s2-prop-7 .statement tag=05Z8}
 
-*Let I be a set and F an algebra (resp. unital associative algebra, resp. unital commutative associative algebra) over A. すべての写像 $f : I \to F$ に対して、Lib_A(I) (それぞれ Libas_A(I)、それぞれ Libasc_A(I)) の準同型 (それぞれ Unital 準同型) $\bar{f}$ が F に存在します。 $\bar{f}(X_i) = f(i)$ 全員 $i \in I$.*
+* I を集合とし、A 上の F 代数 (それぞれ単位結合代数、それぞれ単位可換結合代数) とする。すべての写像 $f : I \to F$ に対して、準同型 (それぞれ単位結合) が 1 つだけ存在します。 準同型) Lib_A(I) (それぞれ Libas_A(I)、それぞれ Libasc_A(I)) の $\bar{f}$ を F に変換し、すべての $i \in I$ に対して $\bar{f}(X_i) = f(i)$ となります。*
 
-$F_m$ を、集合 F に合成の乗法法則を与えることによって得られるマグマ (それぞれモノイド) とします。 There is one and only one homomorphism (resp. unital homomorphism) $g$ of M(I) (resp. Mo(I), resp. $\mathbf{N}^{(I)}$) into $F_m$ such that $g(i) = f(i)$ for all $i \in I$ (I, § 7, nos. 1, 2 and 7); 命題 7 は、no. 6、命題 6 から続きます。
+$F_m$ を、集合 F に合成の乗法法則を与えることによって得られるマグマ (それぞれモノイド) とします。 $F_m$ に対する M(I) (それぞれ Mo(I)、それぞれ $\mathbf{N}^{(I)}$) の準同型性 (それぞれユニタル準同型性) $g$ が 1 つだけあり、すべての $i \in I$ (I, § 7、番号 1、2、および ) に対して $g(i) = f(i)$ となります。 7); 命題 7 は、no. 6、命題 6 から続きます。
 
 #### 注意 {#alg-iii-s2-n7-rem-1 .statement tag=05Z9}
 
@@ -573,7 +573,7 @@ $F_m$ を、集合 F に合成の乗法法則を与えることによって得�
 
 (3) J を I の部分集合とします。 M(J) はマグマ M(I) の安定した部分集合と同一視され、したがって (no. 6) Lib_A(J) は $i \in J$ のような $X_i$ によって生成された Lib_A(I) の部分代数と標準的に同一視されることがわかっています。 Lib_A(J) の元には、添字所属から J までの不定数のみが現れると言われています。マグマの代数のno. 6で与えられた定義は、Jが*有限*の集合、Iの部分集合を通過するとき、Lib_A(I)が部分代数Lib_A(J)の有向族の和集合であることを示しています。 Libas_A(I) と Libasc_A(I) にも同様の結果があります。
 
-(4) M(I) (それぞれ Mo(I)、それぞれ $\mathbf{N}^{(I)}$) の元には、その *長さ* $l(s)$、つまり整数 $\geqslant 1$ (それぞれ $\geqslant 0$) が関連付けられており、$l(ss') = l(s) + l(s')$ (I, § 7、番号 1、2、および 7)。 If $e_s$ is the element of Lib_A(I) (resp. Libas_A(I), resp. Libasc_A(I)) corresponding to s, the *total degree* (or simply the *degree* of an element $x = \sum_s \alpha_s e_s \neq 0$ of Lib_A(I) (resp. Libas_A(A), resp. Libasc_A(I)) is the greatest of the numbers $l(s)$ when s runs through the (non-empty by hypothesis) set of elements such that $\alpha_s \neq 0$. たとえば、$i, j, k$ が I の 3 つの異なる元である場合、元 $(X_i(X_jX_k))X_i - (X_iX_j)(X_kX_i)$ は、Lib_A(I) の合計次数 4 のうちの元 $\neq 0$ です。
+(4) M(I) (それぞれ Mo(I)、それぞれ $\mathbf{N}^{(I)}$) の元には、その *長さ* $l(s)$、つまり整数 $\geqslant 1$ (それぞれ $\geqslant 0$) が関連付けられており、$l(ss') = l(s) + l(s')$ (I, § 7、番号 1、2、および 7)。 $e_s$ が s に対応する Lib_A(I) (それぞれ Libas_A(I)、それぞれ Libasc_A(I)) の要素である場合、*合計次数* (または単に Lib_A(I) の要素 $x = \sum_s \alpha_s e_s \neq 0$ の *次数*) Libas_A(A)、それぞれ Libasc_A(I)) は、s が $\alpha_s \neq 0$ のような (仮説により空ではない) 要素セットを通過するときの数値 $l(s)$ の最大値です。 たとえば、$i, j, k$ が I の 3 つの異なる元である場合、元 $(X_i(X_jX_k))X_i - (X_iX_j)(X_kX_i)$ は、Lib_A(I) の合計次数 4 のうちの元 $\neq 0$ です。
 
 ### 8. 生成元と関係による代数の定義
 
@@ -616,7 +616,7 @@ $$
 $$
 普遍的な関係者としてはリー代数.*
 
-Let I be a set; let a family $(S_k)_{k \in K}$ of elements of Lib_A(H) be given and consider the set T of elements of Lib_A(I) of the form $S_k((U_h))_{h \in H}$, where k runs through K and, for each k, $(U_h)_{h \in H}$ runs through the set of families of elements of Lib_A(I) with H as indexing set; consider a family $(R_j)_{j \in J}$ with T as set of elements. 次に、F をファミリー $(R_j)_{j \in J}$ に関連する生成する系 I によって定義される普遍的な代数とし、$u : \mathrm{Lib}_A(I) \to F$ を標準準同型とすることで、Ker(u) はすべての $k \in K$ とすべてのファミリーに対して元 $S_k((U_h)_{h \in H})$ によって生成されます。 Lib_A(I) の元の $(U_h)_{h \in H}$;明らかに、それぞれの $S_k$ ($k \in K$) は F の *普遍的な関係子* です。 ここで、F' を生成する系 $(x_i)_{i \in I}$ を認める代数とし、それぞれの $S_k$ を普遍関係子とし、$u' : \mathrm{Lib}_A(I) \to F'$ をすべての $i \in I$ に対して $u'(X_i) = x_i$ となるように準同型とします。明らかに Ker(u) $\subset$ Ker(u') であるため、$u'$ は形 $u' = h \circ u$ で一意に書くことができます。ここで、$h : F \to F'$ は準同型であるため、すべての $i \in I$ に対して $h(\overline{X}_i) = x_i$ になります。 この理由から、F は、普遍関係子* $(S_k)_{k \in K}$ の族に対する生成する系 I*、*対応するによって定義される *普遍代数と呼ばれます。 By an abuse of language, F is sometimes called the universal algebra generated by I and subject to the *identities* $S_k((u_h)) = 0$ for every family $(u_h)_{h \in H}$ of elements of F.
+I をセットとします。 Lib_A(H) の要素のファミリー $(S_k)_{k \in K}$ が与えられ、形式 $S_k((U_h))_{h \in H}$ の Lib_A(I) の要素の集合 T を考慮します。ここで、k は K を通過し、各 k について、$(U_h)_{h \in H}$ は H をインデックス集合として Lib_A(I) の要素のファミリーの集合を通過します。 T を要素の集合として持つ族 $(R_j)_{j \in J}$ を考えます。 次に、F をファミリー $(R_j)_{j \in J}$ に関連する生成する系 I によって定義される普遍的な代数とし、$u : \mathrm{Lib}_A(I) \to F$ を標準準同型とすることで、Ker(u) はすべての $k \in K$ とすべてのファミリーに対して元 $S_k((U_h)_{h \in H})$ によって生成されます。 Lib_A(I) の元の $(U_h)_{h \in H}$;明らかに、それぞれの $S_k$ ($k \in K$) は F の *普遍的な関係子* です。 ここで、F' を生成する系 $(x_i)_{i \in I}$ を認める代数とし、それぞれの $S_k$ を普遍関係子とし、$u' : \mathrm{Lib}_A(I) \to F'$ をすべての $i \in I$ に対して $u'(X_i) = x_i$ となるように準同型とします。明らかに Ker(u) $\subset$ Ker(u') であるため、$u'$ は形 $u' = h \circ u$ で一意に書くことができます。ここで、$h : F \to F'$ は準同型であるため、すべての $i \in I$ に対して $h(\overline{X}_i) = x_i$ になります。 この理由から、F は、普遍関係子* $(S_k)_{k \in K}$ の族に対する生成する系 I*、*対応するによって定義される *普遍代数と呼ばれます。 言葉の乱用により、F は、I によって生成され、F の要素のすべての族 $(u_h)_{h \in H}$ の*恒等* $S_k((u_h)) = 0$ の対象となる普遍代数と呼ばれることもあります。
 
 *例* 2. L' を I によって生成された普遍的な代数とし、3 人家族ごとに L の元をアイデンティティ $(uv)w - u(vw) = 0$ に従属させ、L'' を隣接することによって得られる代数とします。 単位元からL';その場合、すべての $i \in I$ に対して $g(\overline{X}_i) = X_i$ となるような、Libas_A(I) 上に L '' の一意の単位同型 g が存在します。なぜなら、明らかに L'' は結合的であり、準同型 g の存在は、L' の定義とその前の注意から続きます。しかし、明らかに L'' は、Libas_A(I)、よっての結論を特徴付ける普遍性 (no. 7, 命題 7) を満たします。
 
@@ -644,7 +644,7 @@ $\alpha_\nu \in A$付き。 元 $\alpha_\nu$、零は、添字 $\nu \in \mathbf{
 
 すべての *非ゼロ* 多項式 $u = \sum \alpha_\nu X^\nu$ について、$u$ の *次数* (または *合計次数*) は、$\alpha_\nu \neq 0$ などの複数インデックス $\nu$ の整数 $|\nu|$ の最大のです。
 
-$F$ を単位結合 $A$-代数とし、$(x_i)_{i \in I}$ を *ペアごとに置換可能*な $F$ の元の族とする。 The subalgebra $F'$ of $F$ generated by the $x_i$ and the unit element is commutative (§ 1, no. 7), which allows us to define substituting the $x_i$ for the $X_i$ in the polynomial $u \in A[(X_i)_{i \in I}]$ (although $F$ is not necessarily commutative): $u((x_i)_{i \in I})$ is an element of $F'$ and therefore of $F$ and $h: u \to u((x_i)_{i \in I})$ is a homomorphism of $A[(X_i)_{i \in I}]$ into $F$. The elements of the kernel of $h$ are the relators of the family $(x_i)$ in $A[(X_i)_{i \in I}]$, also called *polynomial relators* (with coefficients in $A$) between the $x_i$. 準同型 $h$ の像は部分代数 $F'$ であり、$A[(x_i)_{i \in I}]$ でも表されます ($F$ が可換でない場合でも)。 $a$ が $x_i$ の間の多項式関係子のイデアルである場合、$A$ モジュールの完全系列が存在します。
+$F$ を単位結合 $A$-代数とし、$(x_i)_{i \in I}$ を *ペアごとに置換可能*な $F$ の元の族とする。 $x_i$ と単位要素によって生成された $F$ の部分代数 $F'$ は可換 (§ 1, no. 7) なので、多項式 $u \in A[(X_i)_{i \in I}]$ の $X_i$ を $x_i$ に置き換えることを定義できます (ただし、$F$ は必ずしも可換ではありません)。 $u((x_i)_{i \in I})$ は $F'$ の要素であるため、$F$ の要素であり、$h: u \to u((x_i)_{i \in I})$ は $A[(X_i)_{i \in I}]$ から $F$ への準同型写像です。 $h$ の核の元は、$A[(X_i)_{i \in I}]$ の族 $(x_i)$ のリレーターであり、$x_i$ 間の *多項式リレーター* ($A$ の係数) とも呼ばれます。 準同型 $h$ の像は部分代数 $F'$ であり、$A[(x_i)_{i \in I}]$ でも表されます ($F$ が可換でない場合でも)。 $a$ が $x_i$ の間の多項式関係子のイデアルである場合、$A$ モジュールの完全系列が存在します。
 $$
 0 \longrightarrow a \longrightarrow A[(X_i)_{i \in I}] \xrightarrow{h} A[(x_i)_{i \in I}] \longrightarrow 0.
 $$
@@ -714,7 +714,7 @@ S が可換であれば、その合計代数 $A^S$ も可換です。 T が S �
 
 明らかに、代数同型 $A[[\mathbf{X}_i]]_{i \in I_1} \to A[[\mathbf{X}_i]]_{i \in I_2}$ は、すべての全単射 $\sigma : I_1 \to I_2$ から、写像の正式な冪系列 $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I_1} X_i^{n_i}$ から正式な冪系列 $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I_1} X_{\sigma(i)}^{n_i}$ までが正規に導出されます。
 
-Let $J$ be a subset of $I$; the algebra $A[[\mathbf{X}_i]]_{i \in J}$ can be identified with a subalgebra of $A[[\mathbf{X}_i]]_{i \in I}$ consisting of the formal power series $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$ where $\alpha_{(n_i)} = 0$ for every element $(n_i) \in \mathbf{N}^{(I)}$ such that $n_i \neq 0$ for at least one index $i \in I - J$. さらに、$K = I - J$ の場合、形式的な冪系列 $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$ を形式的な冪系列 $\sum_{(m_k)} \beta_{(m_k)} \cdot \prod_{k \in K} X_k^{m_k}$ と識別することにより、$A[[\mathbf{X}_i]]_{i \in I}$ は正規的に $(A[[\mathbf{X}_j]]_{j \in J})[[\mathbf{X}_k]]_{k \in K}$ と識別されます。
+$J$ を $I$ のサブセットとします。代数 $A[[\mathbf{X}_i]]_{i \in J}$ は、形式べき級数 $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$ からなる部分代数 $A[[\mathbf{X}_i]]_{i \in I}$ と識別できます。ここで、すべての要素 $(n_i) \in \mathbf{N}^{(I)}$ に対して $\alpha_{(n_i)} = 0$ が、少なくとも 1 つの指数 $i \in I - J$ に対して $n_i \neq 0$ になります。 さらに、$K = I - J$ の場合、形式的な冪系列 $\sum_{(n_i)} \alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$ を形式的な冪系列 $\sum_{(m_k)} \beta_{(m_k)} \cdot \prod_{k \in K} X_k^{m_k}$ と識別することにより、$A[[\mathbf{X}_i]]_{i \in I}$ は正規的に $(A[[\mathbf{X}_j]]_{j \in J})[[\mathbf{X}_k]]_{k \in K}$ と識別されます。
 $$
 \beta_{(m_k)} = \sum_{(p_j)} \gamma_{(p_j)} \cdot \prod_{j \in J} X_j^{p_j}
 $$
@@ -734,7 +734,7 @@ $$
 
 さらに、$\omega(u) \neq \omega(v)$ の場合、必然的に $u + v \neq 0$ となり、(40) の両辺は等しくなります。
 
-0 の位数は *定義されていない*ことに注意してください。 By an abuse of language, it is a convention to say that "f is a formal power series of order $\geq p$ (resp. $> p$)" if the homogeneous part of f of degree n is zero for all $n < p$ (resp. $n \leq p$); 0 is therefore a "formal power series of order $> p$" for *every* integer $p \geq 0$.
+0 の位数は *定義されていない*ことに注意してください。 言葉の乱用により、n 次の f の同次部分がすべての $n < p$ (それぞれ $n \leq p$) についてゼロである場合、「f は次数 $\geq p$ (それぞれ $> p$) の形式的なべき級数である」と言うのが慣例です。したがって、0 は *すべての* 整数 $p \geq 0$ に対する「次数 $> p$ の形式べき級数」です。
 
 J を I の部分集合とし、$A[[X_i]]_{i \in I}$ を上記のように $B[[X_k]]_{k \in K}$ で識別するとします。ここで、$K = I - J$ と $B = A[[X_j]]_{j \in J}$ です。 対応する上記の定義を $B[[X_k]]_{k \in K}$ に適用すると、正式な冪系列 $u \in A[[X_i]]_{i \in I}$ には新しい定義が追加されます。 項 $\alpha_{(n_i)} \cdot \prod_{i \in I} X_i^{n_i}$ は、添字の $X_i$ の * 次数 p であると言われます* $\sum_{i \in K} n_i = p$ の場合、$i \in K$ と、同じ項を持つ$B[[X_k]]_{k \in K}$ の正式な冪系列次数 $p$ は、$u$ と他の零は、添字* $i \in K$ の $X_i$ における次数 p の同次部分と呼ばれます。 $u \neq 0$ の場合、添字 $i \in K$ の $X_i$ に対する *位数* $\omega_K(u)$ は、整数 $p \geq 0$ の最小のであるため、$u$ の同種部分添字 $i \in K$ の $X_i$ の次数 $p$ は $\neq 0$ です。 $\omega$ を $\omega_K$ に置き換えても、不等式 (40) と (41) は維持されます。
 

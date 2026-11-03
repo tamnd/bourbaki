@@ -33,16 +33,16 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 6
-content_sha256: 1ffa65cfa9030f722f082c8ecce50165ee26ce6724afeeb9b5cab1a88e0116d3
+content_sha256: ba5c06c97134786dc25a92a850a8b442f0ba641ca5839659d1c28c3c72c3e736
 translated_from: content/en/ac/VI/02_s2_places.md
 translation_method: google
 source_content_sha256: 53c302660c61cd7fef1b70be1d4b1ffa083e7229208dbbe2c386c3d702cdbacb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a4df95bce0e7790aaa51448b1f158ae7c3601d6d659b32d3e5b4c9c96013ca49
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 場所
@@ -119,31 +119,31 @@ $$
 f(-a) = -f(a) \quad \text{for all } a \in K.
 $$
 
-式 (8) と (9) から、合成 $(x, y) \mapsto x - y$ と $(x, y) \mapsto xy^{-1}$ の法則についても、$f$ は射であることがわかります。
+式(8)と(9)から、合成$(x, y) \mapsto x - y$と$(x, y) \mapsto xy^{-1}$の法則に対して、$f$は射でもあることがわかります。
 
 $x \in \tilde{K}$ の場合、$f(x) \neq \infty$ の場合、$f$ は $x$ で有限と呼ばれます。これは (6) によって $x \in K$ を意味します。
 
-If $f : K \to \tilde{L}$ is a place, $f(K)$ is a subset of $\tilde{L}$ which is stable for the laws of composition $(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$ and $(x, y) \mapsto xy^{-1}$ and which contains 1. E が $f(\tilde{K})$ の有限元の集合である場合、E は L と $f(\tilde{K}) = \tilde{E}$ の部分体です。 言語の乱用により、E は *valuefield* オフと呼ばれます。
+$f : K \to \tilde{L}$ が位の場合、$f(K)$ は $\tilde{L}$ の部分集合であり、合成 $(x, y) \mapsto x + y, (x, y) \mapsto x - y, (x, y) \mapsto xy$ および $(x, y) \mapsto xy^{-1}$ の法則に対して安定であり、含む 1 が 1 である場合、E が有限の集合である場合$f(\tilde{K})$の元、EはLと$f(\tilde{K}) = \tilde{E}$の部分体です。言語の乱用により、E は *valuefield* オフと呼ばれます。
 
 2 つの場所の *合成* 写像が 1 つの場所です。
 
-F を体の同型 K から体 L の部分体とする。 拡大する $f$ から $K$ までに設定 $f(\infty) = \infty$ までにさせてください。したがって、L の値で K の位が得られます。これは *trivial* と呼ばれ、しばしば同型 $f$ と識別されます。
+F を体 K の同型から体 L の部分体とします。 拡大する $f$ から $K$ までに設定 $f(\infty) = \infty$ までにさせてください。したがって、L の値で K の位置が得られます。これは *trivial* と呼ばれ、多くの場合、同型 $f$ と識別されます。
 
 ### 3. 場所と評価環
 
 #### 命題 1 {#ac-vi-s2-prop-1 .statement tag=04SQ}
 
-K を体、K の評価環および $\mathbf{A}$ の $\kappa(\mathbf{A})$ 剰余体を $\mathbf{A}$ とします。 $x \notin \mathbf{A}$の場合、方程式$h_{\mathbf{A}}(x) = \infty$により、$\mathbf{A}$の拡大する標準写像を$\kappa(\mathbf{A})$から写像$h_{\mathbf{A}} : \tilde{K} \to (\kappa(\mathbf{A}))$に掛けます。このように定義された写像 $h_{\mathbf{A}}$ は、値フィールドが $\kappa(\mathbf{A})$ である K の場所です。
+K を体、$\mathbf{A}$ を K の評価環、$\mathbf{A}$ の$\kappa(\mathbf{A})$ 剰余体とします。 $x \notin \mathbf{A}$の場合、方程式$h_{\mathbf{A}}(x) = \infty$により、$\mathbf{A}$の拡大する標準写像を$\kappa(\mathbf{A})$に写像$h_{\mathbf{A}} : \tilde{K} \to (\kappa(\mathbf{A}))$とします。このように定義された写像 $h_{\mathbf{A}}$ は、値フィールドが $\kappa(\mathbf{A})$ である K の場所です。
 
 明らかに$h_{\mathbf{A}}(1) = 1$。
 
-$h_{\mathbf{A}}$ は加法に対して射であることがわかります。 $x, y$ を $\tilde{K}$ の 2 つの元として、$h_{\mathbf{A}}(x) + h_{\mathbf{A}}(y)$ が定義されるようにします。 2 つの元 $x, y$ 属するの 1 つから $\mathbf{A}$ が定義され、したがって $x + y$ が定義されます。 $x \in \mathbf{A}$ と $y \in \mathbf{A}$ の場合、明らかに
+加法に対して $h_{\mathbf{A}}$ は射であることがわかります。 $x, y$ を $\tilde{K}$ の 2 つの元として、$h_{\mathbf{A}}(x) + h_{\mathbf{A}}(y)$ が定義されるようにします。 2 つの元 $x, y$ 属するの 1 つから $\mathbf{A}$ が定義され、したがって $x + y$ が定義されます。 $x \in \mathbf{A}$ と $y \in \mathbf{A}$ の場合、明らかに
 
 $$
 h_{\mathbf{A}}(x) + h_{\mathbf{A}}(y) = h_{\mathbf{A}}(x + y)
 $$
 
-が成立する。 $x \in \mathbf{A}$ と $y \notin \mathbf{A}$ の場合、$x + y \notin \mathbf{A}$ と上記の 2 つの辺公式は $\infty$ に等しくなります。
+が成立する。 $x \in \mathbf{A}$ と $y \notin \mathbf{A}$ の場合、$x + y \notin \mathbf{A}$ と上記の 2 辺公式は $\infty$ に等しくなります。
 
 最後に、$h_{\mathbf{A}}$ が乗法に対して射であることを示します。 $x \in K, y \in K$ を $h_{\mathbf{A}}(x)h_{\mathbf{A}}(y)$ が定義されるようなものとします。 $x \in \mathbf{A}$ と $y \in \mathbf{A}$ の場合、明らかに $xy$ が定義され、$h_{\mathbf{A}}(x)h_{\mathbf{A}}(y) = h_{\mathbf{A}}(xy)$ となります。ここで、元 $x, y$ の 1 つ、たとえば $y$ が属するから $\mathbf{A}$ にならないとします。 $h_{\mathbf{A}}(y) = \infty$、$h_{\mathbf{A}}(x) \neq 0$、つまり $x \notin m(\mathbf{A})$、よって $x^{-1} \in \mathbf{A}$;したがって、$xy$ が定義され、$xy \notin \mathbf{A}$、よってが定義されます。
 
@@ -167,8 +167,8 @@ $f = j \circ h_{\mathbf{A}}$ の場合、条件 $f(x) \neq \infty$ (それぞれ
 
 例場所の
 (1) $K$ を体とします。 $K$の恒等写像は環$K$と理想的な$(0)$がある些細な場所です。
-(2) $k$を体とします。 すべての $u \in k((T))^\sim$ について、$u \notin k[[T]]$ の場合は $f(u) = \infty$、$u \in k[[T]]$ の場合は $u$ の定数項となるように定義する $f(u)$ を書きましょう。 すると、$f$ は $k((T))$ の場所で、剰余体 $k$ と環 $k[[T]]$ になります。 For $k[[T]]$ is a valuation ring of $k((T))$ (§ 1, no. 4, Example 3 ) and the restriction of $f$ to $k[[T]]$ is identified with the canonical homomorphism of $k[[T]]$ onto its residue field.
-(3) Let $k$ be a field, $a$ an element of $k$ and $A$ the set of $u \in k(X)$ such that $a$ is substitutable in $u$ (Algebra, Chapter IV, § 3, no. 2). $p$ が $k[X]$ の主イデアル $(X - a)$ を表す場合、$A = k[X]_p$ となるため、$A$ は $k(X)$ (§ 1, no. 4、命題 2) の評価環になります。 すべての$u \in k(X)^\sim$について、$u \notin A$の場合は$f(u) = \infty$、$u \in A$の場合は$f(u) = u(a)$と書きましょう。 すると、$f$ は剰余体 $k$ と環 $A$ を含む $k(X)$ の場所になります。 制限から $A$ までは、$A$ の準同型から核 $pA = m(A)$ の $k$ (代数、章 IV, § 3、命題 2) です。 元 $f(u) \in k$は、$u$に$X = a$を入れると得られると言われています。
+(2) $k$を体とします。 すべての $u \in k((T))^\sim$ について、$u \notin k[[T]]$ の場合は $f(u) = \infty$、$u \in k[[T]]$ の場合は $u$ の定数項となるように定義する $f(u)$ を書きましょう。 すると、$f$ は $k((T))$ の場所で、剰余体 $k$ と環 $k[[T]]$ になります。 $k[[T]]$ は $k((T))$ (§ 1, no. 4、例 3 ) の評価環であり、$f$ から $k[[T]]$ への制限は、その剰余体に対する $k[[T]]$ の正準準同型性で識別されます。
+(3) $k$ を体、$a$ を $k$ の要素、$A$ を $a$ が $u$ で代入可能となるような $u \in k(X)$ の集合とする (代数、IV, § 3, no. 2 章)。 $p$ が $k[X]$ の主イデアル $(X - a)$ を表す場合、$A = k[X]_p$ となるため、$A$ は $k(X)$ (§ 1, no. 4、命題 2) の評価環になります。 すべての$u \in k(X)^\sim$について、$u \notin A$の場合は$f(u) = \infty$、$u \in A$の場合は$f(u) = u(a)$と書きましょう。 すると、$f$ は剰余体 $k$ と環 $A$ を含む $k(X)$ の場所になります。 制限から $A$ までは、$A$ の準同型から核 $pA = m(A)$ の $k$ (代数、章 IV, § 3、命題 2) です。 元 $f(u) \in k$は、$u$に$X = a$を入れると得られると言われています。
 \* (4) $S$ を、$S$ 上の有理型写像の次元 1 と $K$ 体の接続された複素解析多様体とします。 $K$ から $\mathbf{C}$ までのすべての $z_0 \in S$、写像 $f \mapsto f(z_0)$ は、環が集合オフ $\in K$ で、$z_0$ で正則であり、理想が集合オフである $K$ の場所です。 $z_0$の零である$\in K$。 この例とその他の類似物が項 「場所」の起源です。*
 
 ### 4. 拡大か所
@@ -189,7 +189,7 @@ $V$ を環オフ、$g$ 制限を $V$ および $g$ から $V[x_1, \ldots, x_n]$ 
 
 #### 命題 5 {#ac-vi-s2-prop-5 .statement tag=04SU}
 
-Let $K$ be a field, $S$ a subring of $K, h$ a homomorphism from $S$ to a field and $p$ the kernel of $h.$ For an element $x$ of $K$ to be integral over the local ring $S,$ it is necessary and sufficient that every place of $K$ extending $h$ be finite at $x.$
+$K$ を体、$S$ を $K, h$ の部分環、$S$ から体への準同型、$p$ を $h.$ のカーネルとします。 $K$ の要素 $x$ がローカルリング $S,$ 上で積分であるためには、 $K$ $h$ を拡張すると $x.$ で有限になります
 
 $f$ が $K$ を拡張する場所である場合、$h, f$ は $S_p$ で有限であり、$pS_p$ では零であるため、$f$ の場所の環が$S_p.$ を支配します。 逆に、$V$ が評価額である場合$S_p,$ $V$ を支配する $K$ の環は、制限から $S$ までが準同型であり、$h;$ 置き換えることと同じ核を持つプレースである環です。 $f$ を等価な位で見ると、$V$ は拡大する $h.$ である $K$ の位の環であることがわかります。 $h$ を延長する $K$ のすべての位は $x$ で有限であると言うのは、 $S_p.$ 命題を支配する$K$ のすべての評価環に $x$ 属するを加えたというは、§ 1, no. 3 の 3 である定理から続きます。
 

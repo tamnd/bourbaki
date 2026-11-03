@@ -30,16 +30,16 @@ subsections:
       pdf_page: 300
 statements: 12
 exercises: 2
-content_sha256: 32abd4bf5f82f143ef96b50372e647853bf3d9a4d8960b15706e19505a07cf62
+content_sha256: 3b353ea09e1208bf8186b5e29e5c196e043d7b0ab90671e417cbcb5c6764d4c4
 translated_from: content/en/alg/VIII/15_s15_brauer_groups.md
 translation_method: google
 source_content_sha256: de0ee49b9fce0132064e5387825b803ddb4c6aeb3c6c606b44846dc5403449fc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2cff9fdd86078b36097319bd73695054fd4c09b0d05c6d6838327c0d4c1773e4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 15。 ブラウアー群
@@ -78,7 +78,7 @@ $$
 
 #### 補題 1 {#alg-viii-s15-lem-1 .statement tag=00HW}
 
-A を K 上の有限次数の K-代数および D 体の有限次数とする。 A が $\mathbf{M}_n(K)$ と同型であるような整数 $n\geqslant 1$ が存在する場合に限り、$\mathscr{M}_K$ で [A] = [D] になります。
+A を K 上の有限次数の K-代数および有限次数の D 体とします。A が $\mathbf{M}_n(K)$ と同型であるような整数 $n\geqslant 1$ が存在する場合に限り、$\mathscr{M}_K$ で [A] = [D] になります。
 
 定義までに、可逆 $(A$, D) 双モジュール、つまり、同型を備えた D 上の非零有限次元の (VIII, p. 101, 定理 1)、右ベクトル空間 V が存在する場合に限り、[A] = [D] になります。 K-代数 $A\rightarrow$ 終わり$_D(V)$。 補題 1が続きます。
 
@@ -208,7 +208,7 @@ L から A まで射 $\varphi$ が存在するとします。M を最大値半�
 
 #### 系 2 {#alg-viii-s15-lem-3-cor-2 .statement tag=00I6}
 
-D を中心 K を含む K 上の有限次数の体とし、L を有限次数の K の拡大、つまり D の分解体とします。 D 割るの縮小された次数 [L : K]。
+D を K 上の有限次数の体と中心 K とし、L を有限次数の K の拡大とします。つまり、D の分解体です。D 割るの還元された次数 [L : K]。
 
 D (VIII, p. 253) を $r$ だけ減じた次数を表します。 定義までに$[D : K] =r^2$ができました。 命題 5 までに、D と同様の中心単純K-代数 B が存在します。そのうちの L は最大の可換部分代数です。 B は行列環 $\mathbf{M}_n(D)$ (VIII, p. 278, 補題 1) と同型なので、$[B : K] =n^2r^2$ があり、その結果 $[L : K] =nr$ (VIII, p. 262, 命題 3) になります。
 

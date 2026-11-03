@@ -38,16 +38,16 @@ subsections:
       pdf_page: 366
 statements: 31
 exercises: 7
-content_sha256: 768f375bd53b7dbbbab5444a15cf2c1a4603c8a0b3d0c995ad5057184890f9e1
+content_sha256: d311e846122f01501183b355d74ebf4cb33f294aea20ff98ede7b090506a5bca
 translated_from: content/en/alg/VIII/17_s17_reduced_norms_and_traces.md
 translation_method: google
 source_content_sha256: 08c1f7f51bd2df11d29e638f229d1b484c7cda3e1bc21277c413e8819b54daaf
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5df044043a555888d53b2c90054ef1c05437fdf9c5687baa466df1516b49997c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 17。 被約ノルムと痕跡
@@ -60,9 +60,9 @@ L を可換環とし、M を有限階数 $m$ の空き L モジュールとし�
 
 (1) $c_0(u) = 1,c_1(u) =$ Tr($u$)$,c_m(u) =$ det($u$)、
 
-$c_r(u) = 0$ は $r > m$ です。 By Proposition 7 of III, §8, No. 4, p. 527, the mapping $u\mapsto$ det($u$) from End(M) to L is a homogeneous polynomial mapping of degree $m$ (IV, §5, No. 9, p. 55). より一般的には、End(M) から L までの $0\leqslant r\leqslant m$、写像 $c_r$ が次数 $r$ の同次多項式写像となるようなすべての整数 $r$ について、これは、III, §8, No. 5、p. 529 の命題 10 から続きます。
+$c_r(u) = 0$ は $r > m$ です。 III, §8, No. 4, p. 527 の命題 7 により、End(M) から L へのマッピング $u\mapsto$ det($u$) は、次数 $m$ (IV, §5, No. 9, p. 55) の同次多項式マッピングになります。 より一般的には、End(M) から L までの $0\leqslant r\leqslant m$、写像 $c_r$ が次数 $r$ の同次多項式写像となるようなすべての整数 $r$ について、これは、III, §8, No. 5、p. 529 の命題 10 から続きます。
 
-Let $u$ be an endomorphism of M and $\overline{u}$ the endomorphism of the L[X]module $M[X] = M\otimes_LL[X]$ deduced from $u$ by extension of scalars (II, §5, No. 1, p. 277). (III, §8, No. 11、p. 541、定義 3 および (50)) を思い出してください。$u$ の特性多項式は、M[X] の L[X]自己準同型 $X-\overline{u}$ の行列式 $\chi_u(X)$ であり、 関係があります
+$u$ を M の内部同型性とし、$\overline{u}$ をスカラー (II, §5, No. 1, p. 277) の拡張によって $u$ から推定される L[X]加群 $M[X] = M\otimes_LL[X]$ の内部同型性とする。 (III, §8, No. 11、p. 541、定義 3 および (50)) を思い出してください。$u$ の特性多項式は、M[X] の L[X]自己準同型 $X-\overline{u}$ の行列式 $\chi_u(X)$ であり、 関係があります
 
 $$
 \chi_u(X) =\sum_{r=0}^m(-1)^rc_r(u) X^{m-r} \tag{2}
@@ -181,7 +181,7 @@ M 一致するの自己準同型 $\widetilde{u}$ と、III, §8, No. 6、p. 532 
 
 End(M)からLまでの写像$c_r$は$0\leqslant r\leqslant m-1$の次数$r$の同次多項式写像なので、公式(6)より写像$u\mapsto \widetilde{u}$が求まります。エンド(M)からエンド(M)までは次数$m-1$の同次多項式写像です。
 
-B を環 L より代数とします。 B が、B の部分環 $L\cdot 1$ を含む、階数 $m\geqslant 1$ と同一視する L の空き L モジュールであるとします。 $b$をBの元とします。 上記をL-モジュール B の自己準同型 $\gamma (b) :x\mapsto bx$ に適用します。 $0\leqslant r\leqslant m$ の場合は集合 $\gamma_r(b) =c_r(\gamma (b))$;特に、$\gamma_m(b) = N_{B/L}(b)$ (III, §9, No. 3、p. 543) があります。 $b$ (上記参照) の特性多項式は次のように書くことができます。
+B を環 L 以上代数とします。 B が、B の部分環 $L\cdot 1$ をもつ階数 $m\geqslant 1$ と同一視する L の自由な L モジュールであるとします。$b$ を B の元とします。上記を自己準同型に適用しますL モジュール B の $\gamma (b) :x\mapsto bx$。 集合 $\gamma_r(b) =c_r(\gamma (b))$ $0\leqslant r\leqslant m$。特に、$\gamma_m(b) = N_{B/L}(b)$ (III, §9, No. 3、p. 543) があります。 $b$ (前述) の特性多項式は次のように書くことができます。
 
 (16) パソコン$_{B/L}(b; X) =\sum_{r=0}^m(-1)^r\gamma_r(b) X^{m-r}$。
 
@@ -339,7 +339,7 @@ Nrd$_{A/K}(\lambda a) =\lambda^n$ Nrd$_{A/K}(a)$、
 
 (39) Trd$_{A/K}(1) =n$、Nrd$_{A/K}(1) = 1$。
 
-Since A is central simple and has reduced degree $n$ over K, there exist an extension L of K and a vector space V of dimension $n$ over L such that $A_{(L)}$ is isomorphic to the algebra End$_L(V)$ (VIII, p. 252, Theorem 1). 系 2 は、系 1 とトレースのプロパティと自己準同型の行列式から続きます。 特に、公式 (34) は、ケイリー – ハミルトンの定理 (III, §8, No. 11、p. 541、命題 20、cf.、また VIII、p. 338、注意 2) から続きます。
+A は中心単純であり、K に対して次数 $n$ が減少しているため、K の拡張 L と L 上の次元 $n$ のベクトル空間 V が存在し、$A_{(L)}$ は代数 End$_L(V)$ (VIII, p. 252、定理) と同型です。 1)。 系 2 は、系 1 とトレースのプロパティと自己準同型の行列式から続きます。 特に、公式 (34) は、ケイリー – ハミルトンの定理 (III, §8, No. 11、p. 541、命題 20、cf.、また VIII、p. 338、注意 2) から続きます。
 
 #### 系 3 {#alg-viii-s17-prop-4-cor-3 .statement tag=00RP}
 
@@ -588,7 +588,7 @@ $$
 
 ### 6. 被約ノルムと行列式
 
-この小節では、Dは中心KでKを超えた有限次数の体です。 乗法群 $D^*$ の $D^*_{ab}$ 商をその派生 (または交換子) 群で表し、$D^*$ から $D^*_{ab}$ までの $\pi$ 標準準同型で表します。 The mapping Nrd$_{D/K}$ induces a group homomorphism from $D^*$ to $K^*$; the kernel of this homomorphism contains the derived group of $D^*$ because K is commutative. 従って、$D^*_{ab}$ から $K^*$ までの一意な準同型 Nrd が存在し、$x\in D^*$ ごとに Nrd$_{D/K}(x) =$ Nrd $\circ \pi (x)$ になります。
+この小節では、Dは中心KでKを超えた有限次数の体です。 乗法群 $D^*$ の $D^*_{ab}$ 商をその派生 (または交換子) 群で表し、$D^*$ から $D^*_{ab}$ までの $\pi$ 標準準同型で表します。 マッピング Nrd$_{D/K}$ は、$D^*$ から $K^*$ への群準同型性を引き起こします。 K は可換であるため、この準同型写像のカーネルには $D^*$ の派生群が含まれます。 従って、$D^*_{ab}$ から $K^*$ までの一意な準同型 Nrd が存在し、$x\in D^*$ ごとに Nrd$_{D/K}(x) =$ Nrd $\circ \pi (x)$ になります。
 
 #### 命題 9 {#alg-viii-s17-prop-9 .statement tag=00L2}
 

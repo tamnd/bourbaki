@@ -50,16 +50,16 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 1e052fa9ade423055cbc1af221710685d4a2655a4db5445e3f7c7f5a20ca71e6
+content_sha256: a03346fada956cf248c17e3bec2a380cbe9b06475ec57d786cc8ec4bb7b9bf98
 translated_from: content/en/ens/II/03_s3_correspondences.md
 translation_method: google
 source_content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7ee14bfde4bb4853bc5ced07f4cc2c1215a0037ee0487373c10aab25b3f94843
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 対応
@@ -280,7 +280,7 @@ $$\mathrm{I}_\mathrm{A} = (\Delta_\mathrm{A}, \mathrm{A}, \mathrm{A})$$
 
 #### 定義 9 {#ens-ii-s3-def-9 .statement tag=03HN}
 
-*グラフ* F * 各 x に対して、* F (章 I, § 5, no. 3) の下に対応するから x に至るオブジェクトが最大 1 つある場合、関数グラフであると言われます。 *対応* $f = (\mathrm{F}, \mathrm{A}, \mathrm{B})$ *そのグラフ* F *が関数グラフであり、そのソース* A *がそのドメイン* $\mathrm{pr}_1\mathrm{F}$ に等しい場合、*は写像であると言われます。 *他の語、対応* $f = (\mathrm{F}, \mathrm{A}, \mathrm{B})$ *すべての x 所属に対してソース* A *f 関係* $(x, y) \in \mathrm{F}$ *は y* (章 I, § 5, no. 3) で機能する場合、写像です。 *the unique object which corresponds to x under f is called the value of f at the element x of* A, *and is denoted by* $f(x)$ (*or* $f_x$, *or* $\mathrm{F}(x)$, *or* $\mathrm{F}_x$).
+*グラフ* F * 各 x に対して、* F (章 I, § 5, no. 3) の下に対応するから x までのオブジェクトが最大 1 つある場合、関数グラフであると言われます。 *対応* $f = (\mathrm{F}, \mathrm{A}, \mathrm{B})$ *そのグラフ* F *が関数グラフであり、そのソース* A *がその領域* $\mathrm{pr}_1\mathrm{F}$ に等しい場合、*は写像であると言われます。 *他の語、対応* $f = (\mathrm{F}, \mathrm{A}, \mathrm{B})$ * ソースへの x 所属ごとに * A *f 関係* $(x, y) \in \mathrm{F}$ *y* (章 I, § 5, no. 3) で機能する場合、写像です。 f の下で x への対応するが A の元 x で f の値と呼ばれる *固有のオブジェクトは、* $f(x)$ (*または* $f_x$、*または* $\mathrm{F}(x)$、*または* $\mathrm{F}_x$) で表されます。
 
 $f$ が写像、F のグラフ、および $f$ の定義域の $x$ 元である場合、関係 $y = f(x)$ は $(x, y) \in \mathrm{F}$ と等価になります (章 I, § 5, no. 3、基準 C46)。
 
@@ -330,7 +330,7 @@ $f$ の領域内のすべての $x$ と $x'$ に対して $f(x)=f(x')$ がある
 
 ### 6. 項による写像の定義
 
-C54。 *$T$、$A$ を 2 つの項とし、$x$、$y$ を個別の文字とします。 $x$ が $A$ に現れず、$y$ が $T$ にも $A$ にも現れないとします。 $R$を関係「$x \in A$と$y = T$」とします。 関係 $R$ には、$x$ と $y$ の文字に関してグラフ $F$ があります。 このグラフは機能します。最初の射影は $A$ で、2 番目の射影は $x \in A$ (§ 1, no. 6) の形 $T$ のオブジェクトの集合です。 $x \in A$ ごとに $F(x) = T$ があります。*
+C54。 *$T$、$A$ を 2 つの項とし、$x$、$y$ を個別の文字とします。 $x$ が $A$ に現れず、$y$ が $T$ にも $A$ にも現れないとします。 $R$を関係「$x \in A$と$y = T$」とします。 関係 $R$ には、$x$ と $y$ の文字に関してグラフ $F$ があります。このグラフは機能します。最初の射影は $A$ で、2 番目の射影は $x \in A$ (§ 1, no. 6) の形 $T$ のオブジェクトの集合です。 $x \in A$ ごとに $F(x) = T$ があります。*
 
 $x \in A$ に対する形 $T$ のオブジェクトの集合を $B$ とします。それから
 
@@ -346,7 +346,7 @@ $$
 
 は $y = y'$ を意味するため、$F$ は関数グラフです。残りの主張は明らかです。
 
-¶ If $C$ is a set which contains the set $B$ of objects of the form $T$ for $x \in A$ (where $y$ does not appear in $C$), then the function $(F,A,C)$ is also denoted by the notation $x \to T$ ($x \in A$, $T \in C$); the corresponding assembly in formal mathematics contains neither $x$ nor $y$ and does not depend on the choice of the letter $y$ satisfying the above conditions. 文脈が十分に明示的であれば、記法 $x \to T(x \in A)$、$(T)_{x \in A}$、または $x \to T$、およびときどきは単純に $T$ または $(T)$ を許可します。 *したがって、文脈が明らかに写像 $x \to x^3$ の集合の複素数をそれ自体の中に意味していることが明らかであれば、「写像 $x^3$」について話すことができます。 \*
+¶ $C$ が、$x \in A$ の形式 $T$ のオブジェクトの集合 $B$ を含む集合である場合 ($y$ は $C$ には現れない)、関数 $(F,A,C)$ は、$x \to T$ ($x \in A$, $T \in C$);形式数学における対応するアセンブリには $x$ も $y$ も含ま​​れず、上記の条件を満たす文字 $y$ の選択には依存しません。 文脈が十分に明示的であれば、記法 $x \to T(x \in A)$、$(T)_{x \in A}$、または $x \to T$、およびときどきは単純に $T$ または $(T)$ を許可します。 *したがって、文脈が明らかに写像 $x \to x^3$ の集合の複素数をそれ自体の中に意味していることが明らかであれば、「写像 $x^3$」について話すことができます。 \*
 
 *例*
 
@@ -452,25 +452,25 @@ $$(\exists z)(z \in X \text{ and } f(z) = f(x));$$
 
 #### 命題 8 {#ens-ii-s3-prop-8 .statement tag=03HS}
 
-*$f$ を * A の *B への写像とします。 *存在する写像 $r$* (それぞれ $s$) *B の *A への *そのような $r \circ f$* (それぞれ $f \circ s$) *が * A (それぞれ B) の恒等写像である場合、 *そのとき $f$ は単射* (*全射*) です。 *逆に、$f$ が全射であれば、$f \circ s$ が * B の恒等写像となるように、* B *に* A の写像 $s$ が存在します。 *If $f$ is injective and if* A $\neq \emptyset$, *there exists a mapping $r$ of* B *into* A *such that $r \circ f$ is the identity mapping of* A.
+*$f$ を * A の *B への写像とします。 *存在する写像 $r$* (それぞれ $s$) *B の *A への *そのような $r \circ f$* (それぞれ $f \circ s$) *が * A (それぞれ B) の恒等写像である場合、 *そのとき $f$ は単射* (*全射*) です。 *逆に、$f$ が全射であれば、$f \circ s$ が * B の恒等写像となるように、* B *に* A の写像 $s$ が存在します。 *$f$ が単射で、* A $\neq \emptyset$ の場合、 * B の * A へのマッピング $r$ が存在します。 * $r \circ f$ は A の恒等マッピングです。
 
-$r \circ f$ が A の恒等写像であるような B の写像 $r$ が A に存在する場合、等式 $f(x) = f(y)$ ($x \in A$ と $y \in A$ は $x = r(f(x)) = r(f(y)) = y$ を意味するため、$f$ は単射法) になります。 $f \circ s$ が B の恒等写像となるような B の写像 $s$ が A に存在する場合、$B = f(s(B)) \subset f(A) \subset B$ があり、$f$ は全射になります。 $f$ が全射である場合、T は項 $\tau_y(y \in A \text{ and } f(y) = x)$ を表すものとします。 $x \in B$には$f(T) = x$があります。 $s$ が写像 $x \to T$ $(x \in B, T \in A)$ を表す場合、$f \circ s$ は B の恒等写像です。最後に、$f$ が単射で A が $\neq \emptyset$ であると仮定し、$a$ を B の元とします。 A. 関係
+$r \circ f$ が A の恒等写像であるような B の写像 $r$ が A に存在する場合、等式 $f(x) = f(y)$ ($x \in A$ と $y \in A$ は $x = r(f(x)) = r(f(y)) = y$ を意味するため、$f$ は単射法です)。 $f \circ s$ が B の恒等写像となるような B の写像 $s$ が A に存在する場合、$B = f(s(B)) \subset f(A) \subset B$ があり、$f$ は全射になります。 $f$ が全射法の場合、T は項 $\tau_y(y \in A \text{ and } f(y) = x)$ を表すものとします。 $x \in B$には$f(T) = x$があります。 $s$ が写像 $x \to T$ $(x \in B, T \in A)$ を表す場合、$f \circ s$ は B の恒等写像です。最後に、$f$ が単射で A が $\neq \emptyset$ であると仮定し、$a$ を B の元とします。 A. 関係
 
 $$\text{“}(y \in A \text{ and } x = f(y)) \text{ or } (y = a \text{ and } x \in B - f(A))\text{''}$$
 
-は $(x, y) \in B \times A$ を意味するため、文字 $x$、$y$ に関してグラフ R があります。このグラフは $f$ の仮定の理由により機能し、ドメインとして B を持ちます。そして、$x \in B - f(A)$の場合は$R(x) = a$、$x \in f(A)$の場合は$f(R(x)) = x$になります。したがって、写像 $r = (R, B, A)$ は、$r \circ f$ が A の恒等写像となるようなものです。
+は $(x, y) \in B \times A$ を意味するため、文字 $x$、$y$ に関するグラフ R があります。このグラフは $f$ の仮定の理由により機能し、ドメインとして B を持ちます。そして、$x \in B - f(A)$の場合は$R(x) = a$、$x \in f(A)$の場合は$f(R(x)) = x$になります。したがって、写像 $r = (R, B, A)$ は、$r \circ f$ が A の恒等写像となるようなものです。
 
 #### 系 {#ens-ii-s3-n8-cor-1 .statement tag=03HT}
 
-*A、Bを*集合とし、$f$を* A *into* Bの写像とし、*$g$を* B *into* Aの写像とします。 *$g \circ f$ が * A の恒等写像で、$f \circ g$ が * B の恒等写像である場合、*そのとき、$f$ と $g$ は全単射で、$g = \overset{-1}{f}$ です。
+*A、Bを*集合とし、$f$を* A *into* Bの写像とし、*そして$g$を* B *into* Aの写像とする。 *$g \circ f$が* Aの恒等写像である場合、*そして$f \circ g$が* B の恒等写像、*すると、$f$ と $g$ は全単射となり、$g = \overset{-1}{f}$*
 
 #### 定義 11 {#ens-ii-s3-def-11 .statement tag=03HU}
 
-*$f$ を単射語* (それぞれ *全射語*) としましょう* A の *写像を B に *します。 *任意の写像 $r$* (それぞれ $s$) *の B *が A に * $r \circ f$* (それぞれ $f \circ s$) * が * A (それぞれ B) の恒等写像であることを *撤回* (それぞれ *切断*) *の$f$.*
+*$f$を単射詞* (*全射詞*) *Aの*写像を* Bに*します。 *任意の写像 $r$* (それぞれ$s$) *Bの*を* Aに *$r \circ f$* (それぞれ$f \circ s$) * A (または B) の恒等写像 * はリトラクションと呼ばれます* (それぞれ * 切断*) * $f$ の *
 
 撤回 (それぞれ切断) の代わりに、*left-inverse* (それぞれ *right-inverse*) というフレーズがときどき使用されます。
 
-¶ $f$ が単射法 (または全射法) で、$r$ (または $s$) が $f$ の撤回 (それぞれ切断) である場合、$f$ は $r$ (それぞれ切断) の切断 (それぞれ撤回) です。 $s$）。したがって、撤回は全射的であり、切断は単射的です。
+¶ $f$ が単射法 (または全射法) で、$r$ (または $s$) が $f$ の撤回 (それぞれ切断) である場合、$f$ は切断 (それぞれ撤回) です。 $r$ (それぞれ $s$)。したがって、撤回は全射法であり、切断は単射法です。
 
 ¶ $f$ が全射で、$s$、$s'$ が $f$ の 2 つの切断で、$s(\mathrm{B}) = s'(\mathrm{B})$ となる場合、$s = s'$ になります。なぜなら、$x \in \mathrm{B}$の場合、$s(x) = s'(y)$となるような$y \in \mathrm{B}$が存在し、$x = f(s(x)) = f(s'(y)) = y$があるので、$s(x) = s'(x)$、その結果$s = s'$となるからです。従って、切断 $s$ は集合 $s(\mathrm{B})$ によって一意に決定されます。言葉の乱用により、集合 $s(\mathrm{B})$ はときどきを $f$* の *切断と呼びます。
 
@@ -496,7 +496,7 @@ $$\text{“}(y \in A \text{ and } x = f(y)) \text{ or } (y = a \text{ and } x \i
 
 $$(r \circ r') \circ (f' \circ f) = r \circ \mathrm{I_B} \circ f = r \circ f = \mathrm{I_A}.$$
 
-If $f$ and $f'$ are injections, then $f''$ is an injection, by Proposition 8 if $\mathrm{A} \neq \emptyset$, and trivially if $\mathrm{A} = \emptyset$.
+$f$ と $f'$ が注射である場合、$\mathrm{A} \neq \emptyset$ の場合は命題 8 により、$\mathrm{A} = \emptyset$ の場合は自明ですが、$f''$ は注射です。
 
 (b) $f \circ s = \mathrm{I_B}$ と $f' \circ s' = \mathrm{I_C}$ があるため、
 

@@ -41,16 +41,16 @@ subsections:
       pdf_page: 219
 statements: 41
 exercises: 3
-content_sha256: ba66c70555cf40e8d62bdeec9248a3cebf1d4590acebbece461cc8ac08562d44
+content_sha256: 00d4b2d7d29d9ee421c823f3abf9ca7ec91cd99b6ae84eaa0013901d5c45fbba
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 translation_method: google
 source_content_sha256: d7699f39ec1644b116484ef30c5ca9df84de13c33a79612bcf054973c062c5c9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c8a3bc4e1389a3e97315fe7bdd7cf37be56201f669241c0671dee90202ca800f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 演算対策について
@@ -115,7 +115,7 @@ $$
 (f \cdot \mu)_K^\bullet(g_K) = (f_K \cdot \mu_K)^\bullet(g_K) = \mu_K^\bullet(f_K g_K) = \mu_K^\bullet((fg)_K),
 $$
 
-on using the definition of $f \cdot \mu$ and Prop. 3 of Ch. V, §5, No. 3。 提案 2 は、これから移行で K 上の最高値に続きます。
+$f \cdot \mu$ の定義と第 3 章の提案 3 の使用についてV, §5, No. 3。提案 2 は、これから移行で K の最高値に続きます。
 
 ここで、$x \in T$ と V を、$\mu^\bullet(f \varphi_V) < +\infty$ となるような x の近傍とします (定義 2)。その場合、$(f \cdot \mu)^\bullet(V) = \mu^\bullet(f \varphi_V) < +\infty$、したがって、$f \cdot \mu$ がメジャーになります。
 
@@ -125,7 +125,7 @@ on using the definition of $f \cdot \mu$ and Prop. 3 of Ch. V, §5, No. 3。 提
 
 #### 注意 1 {#int-ix-s2-n2-rem-1 .statement tag=09OM}
 
-The definition of $f \cdot \mu$ extends to the case that $f$ is a complex locally integrable function; one then has $|f \cdot \mu| = |f| \cdot \mu$, which implies at once that $f \cdot \mu$ is a measure, not just a premeasure. このように定義された複雑なメジャーを指定するために、「基底 $\mu$ でメジャー」という表現を使用します。
+$f \cdot \mu$ 拡大するの定義を、$f$ が局所的に複合体可積分関数である場合に変換します。次に $|f \cdot \mu| = |f| \cdot \mu$ があり、これは $f \cdot \mu$ が単なる事前測定ではなく測定であることをすぐに暗示します。このように定義された複雑なメジャーを指定するために、「基底 $\mu$ でメジャー」という表現を保持します。
 
 #### 注意 2 {#int-ix-s2-n2-rem-2 .statement tag=09ON}
 
@@ -141,7 +141,7 @@ $$
 \mu^\bullet(g) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(g_{K_\alpha}), \quad \nu^\bullet(g) = \sum_{\alpha \in A} \nu_{K_\alpha}^\bullet(g_{K_\alpha}).
 $$
 
-Consider a compact set $C \subset K_\alpha$ that is $\mu_{K_\alpha}$-negligible; then $C$ is locally $\mu$-negligible, hence locally $\nu$-negligible, and finally $\nu_{K_\alpha}$-negligible by the definition of $\nu$. その後、ルベーグ – ニコディム定理 (Ch. V, §5, No. 5、木。 2) $\nu_{K_\alpha}$ は、$\mu_{K_\alpha}$ に関して稠密度 $f_\alpha$ を認めます。 $f$ を写像と一致するとし、集合 $K_\alpha$ のそれぞれに $f_\alpha$ を、$N$ に 0 を付けます。 写像 $f$ は $\mu$ で測定可能です (Ch. IV, §5, No. 10、提案 16)、およびすべての写像 $g \in \mathscr{F}_+$ について、上記の関係と第 3 章の提案 3 により、 V, §5, No. 3、
+$\mu_{K_\alpha}$ が無視できるコンパクトな集合 $C \subset K_\alpha$ を考えてみましょう。次に、$C$ は局所的には $\mu$ で無視でき、したがって局所的には $\nu$ は無視でき、最後に $\nu$ の定義によって $\nu_{K_\alpha}$ は無視できます。 その後、ルベーグ – ニコディム定理 (Ch. V, §5, No. 5、木。 2) $\nu_{K_\alpha}$ は、$\mu_{K_\alpha}$ に関して稠密度 $f_\alpha$ を認めます。 $f$ を写像と一致するとし、集合 $K_\alpha$ のそれぞれに $f_\alpha$ を、$N$ に 0 を付けます。 写像 $f$ は $\mu$ で測定可能です (Ch. IV, §5, No. 10、提案 16)、およびすべての写像 $g \in \mathscr{F}_+$ について、上記の関係と第 3 章の提案 3 により、 V, §5, No. 3、
 
 $$
 \nu^\bullet(g) = \sum_{\alpha \in A} \nu_{K_\alpha}^\bullet(g_{K_\alpha}) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet(f_\alpha g_{K_\alpha}) = \sum_{\alpha \in A} \mu_{K_\alpha}^\bullet((f g)_{K_\alpha}) = \mu^\bullet(f g).
@@ -149,7 +149,7 @@ $$
 
 次に、まず、$f$ が局所的に $\mu$ 可積分であることがわかります。$x$ が T の点であり、$V$ が $\nu^\bullet(V) < +\infty$ となるような $x$ の近傍である場合、$\mu^\bullet(f \varphi_V) < +\infty$ です。次に、提案 2 は、$\nu$ と $f \cdot \mu$ の本質的な上積分が同じであることを示しています。したがって、それらは等しい（§1, No. 2、提案 2 の Cor.）。コンパクトな空間の場合から$f$の一意性は自明であり、命題が成立します。
 
-注意 3)。 — $\nu = f \cdot \mu$ 簡約するを理論まで一度に統合する理論 V。 For, let $(K_\alpha)_{\alpha \in A}$ be a crushing of T for $\mu$, hence for $\nu$, and let $T'$ be the locally compact space defined in the Scholium of §1, No. 8; we can associate to $\mu$ (resp. to $\nu$) a measure $\mu'$ (resp. $\nu'$) on $T'$, in such a way that the measurable functions, the essentially integrable functions with values in a Banach space, and the essential upper integrals of positive functions, are the same for $\mu$ and $\mu'$ (resp. for $\nu$ and $\nu'$). したがって、写像 $f$ は $\mu'$ 測定可能です。 $T'$ は局所的にコンパクトであり、$T'$ のコンパクト部分集合はコンパクト集合 $K_\alpha$ ($\alpha \in A$) の有限数とのみ交差するため、局所的に $\mu'$ 積分可能です。 最後に、関係 ${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$ は $\nu' = f \cdot \mu'$ を証明します (Ch. V, §5, No. 3、提案 3)。 第 3 章の結果を転記する作業は読者に任せます。 V, §5。
+注意 3)。 — $\nu = f \cdot \mu$ 簡約するを理論まで一度に統合する理論 V。 なぜなら、$(K_\alpha)_{\alpha \in A}$ を $\mu$ 、したがって $\nu$ の T の粉砕であるとし、$T'$ を §1, No. 8 の Scholium で定義された局所的にコンパクトな空間であるとします。 $T'$ 上の測度 $\mu'$ (それぞれ $\nu'$) を $\mu$ (それぞれ $\nu$) に関連付けることができます。これは、可測関数、バナッハ空間の値を持つ本質的に可積分関数、および正の関数の本質的な上積分が $\mu$ および$\mu'$ ($\nu$ と $\nu'$ に対応)。 したがって、写像 $f$ は $\mu'$ 測定可能です。 $T'$ は局所的にコンパクトであり、$T'$ のコンパクト部分集合はコンパクト集合 $K_\alpha$ ($\alpha \in A$) の有限数とのみ交差するため、局所的に $\mu'$ 積分可能です。 最後に、関係 ${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$ は $\nu' = f \cdot \mu'$ を証明します (Ch. V, §5, No. 3、提案 3)。 第 3 章の結果を転記する作業は読者に任せます。 V, §5。
 
 ### 3. 小節の像
 
@@ -201,7 +201,7 @@ $\pi$ は $\mu$-proper であるため、制約 $\pi(\mu^\bullet)$ はローカ�
 
 — K を T の圧縮部分空間、K の T への i 標準単射、および K の測定値 $\lambda$ とする。 i は連続であり、$\lambda$ は有界であるため、i は $\lambda$-proper です。 §1, No. 3の公式(3)は、「$\lambda$によって定義されるTに関するメジャー」が像メジャー$i(\lambda)$であることを示しています。
 
-*注意 5).* — $\theta$ が実際の尺度で、$\pi$ が $\theta$ 適切である場合、$\theta^+$ および $\theta^-$ の尺度には $\pi$ が適切です。 1 つ、次に集合 $\pi(\theta) = \pi(\theta^+) - \pi(\theta^-)$。 $\theta$ が複素尺度で、$\pi$ が $\theta$ 適切である場合、実際の尺度 $\Re(\theta)$ と $\Im(\theta)$ には $\pi$ が適切です。 1 つ、それから集合
+*注意 5).* — $\theta$ が実際の尺度で、$\pi$ が $\theta$ 適切である場合、$\theta^+$ および $\theta^-$ の尺度には $\pi$ が適切です。 1 つ、次に集合 $\pi(\theta) = \pi(\theta^+) - \pi(\theta^-)$。 $\theta$ が複素尺度で、$\pi$ が $\theta$ 適切である場合、実際の尺度 $\Re(\theta)$ と $\Im(\theta)$ には $\pi$ が適切です。 1 つ目集合
 
 $$
 \pi(\theta) = \pi(\Re(\theta)) + i \pi(\Im(\theta)).
@@ -247,7 +247,7 @@ a) 集合 $\nu = i(\mu)$; 関係 $\nu^\bullet(A) = \mu^\bullet(A \cap T)$ を $A
 
 b) $f$ を、X で定義された正の写像とします。 設定 $\mu = \lambda_T$、1 つは $\mu^\bullet(f \circ i) = \lambda_T^\bullet(f_T) = \lambda^\bullet(f \varphi_T) \leq \lambda^\bullet(f)$ です (提案 1)。つまり、私は$\mu$-正しいということになります。一方、$\mu^\bullet(f \circ i)$ (それぞれ $\lambda^\bullet(f \varphi_T)$) は、$i(\mu)$ (それぞれ $\varphi_T \cdot \lambda$) に対する $f$ の本質的な上積分です。したがって、これら 2 つの尺度は等しいです。
 
-*注意 6).* — $\pi$ を、トポロジー 空間 $X$ への $T$ の $\mu$ 固有写像とします。 1 つの簡約する理論は、第 3 章で扱った像測定$\nu = \pi(\mu)$ から理論に関する統合です。 V, §6、次の方法で。 $(K_\alpha)_{\alpha \in A}$ (それぞれ $(L_\beta)_{\beta \in B}$) を、$\mu$ (それぞれ $\nu$) および集合 $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$ に対する $T$ (それぞれ $X$) の粉砕であるとします。 $\pi$ から各 $K_\alpha$ までの制限は連続していると仮定できます (§1, No. 8、提案 10)。 $T', X'$ を、§1, No. 8 の Scholium と同様に構築された局所的にコンパクトな空間とし、$\mu'$ と $\nu'$ を、$\mu$ と $\nu$ に関連付けられたこれらの空間の尺度とします。 The topology of $T'$ being the sum of the topologies of the subspaces $K_\alpha$ and the discrete topology on $N$, $\pi$ is a continuous mapping of $T'$ into $X$ and the relation ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ (for $g \in \mathscr{F}_+(X)$) shows that $\pi$ is $\mu'$-proper and that $\pi(\mu') = \nu$. 一方、$X$ の $X'$ への恒等写像 $i$ は、$\nu$-proper であり、$i(\nu) = \nu'$ です。 したがって、$\pi$ は $T'$ から $X'$ への $\mu'$ 固有の写像であり、$\pi$ の下の $\mu'$ の像は $\nu'$ であるということになります（提案 5 の裏付け）。 第 3 章の結果を転記する作業は読者に任せます。 V, §6。
+*注意 6).* — $\pi$ を、トポロジー 空間 $X$ への $T$ の $\mu$ 固有写像とします。 1 つの簡約する理論は、第 3 章で扱った像測定$\nu = \pi(\mu)$ から理論に関する統合です。 V, §6、次の方法で。 $(K_\alpha)_{\alpha \in A}$ (それぞれ $(L_\beta)_{\beta \in B}$) を、$\mu$ (それぞれ $\nu$) および集合 $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$ に対する $T$ (それぞれ $X$) の粉砕であるとします。 $\pi$ から各 $K_\alpha$ までの制限は連続していると仮定できます (§1, No. 8、提案 10)。 $T', X'$ を、§1, No. 8 の Scholium と同様に構築された局所的にコンパクトな空間とし、$\mu'$ と $\nu'$ を、$\mu$ と $\nu$ に関連付けられたこれらの空間の尺度とします。 部分空間 $K_\alpha$ のトポロジーと $N$、$\pi$ の離散トポロジーの合計である $T'$ のトポロジーは、$T'$ から $X$ への連続マッピングであり、関係 ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ ($g \in \mathscr{F}_+(X)$ の) は、$\pi$ が$\mu'$-適切、そしてその$\pi(\mu') = \nu$。 一方、$X$ の $X'$ への恒等写像 $i$ は、$\nu$-proper であり、$i(\nu) = \nu'$ です。 したがって、$\pi$ は $T'$ から $X'$ への $\mu'$ 固有の写像であり、$\pi$ の下の $\mu'$ の像は $\nu'$ であるということになります（提案 5 の裏付け）。 第 3 章の結果を転記する作業は読者に任せます。 V, §6。
 
 ### 4. 措置の解除
 
@@ -386,7 +386,7 @@ $$
 
 ### 6. 2 つの尺度の積に関する統合
 
-*Throughout this No., $\lambda$ and $\mu$ denote measures on $S$ and $T$, respectively, and $\nu$ denotes the product measure $\lambda \otimes \mu$ on $S \times T$. 加法では、$f$ が $S \times T$ で正の写像である場合、$s \in S$ ごとに、$T$ では $f_s$ 写像 $t \mapsto f(s, t)$、そして $I_f$ 写像 $s \mapsto \mu^\bullet(f_s)$ で表します。 $S$に*
+※このNo.の$\lambda$と$\mu$はそれぞれ$S$と$T$の対策、$\nu$は$S \times T$の製品対策$\lambda \otimes \mu$を示します。 加法では、$f$ が $S \times T$ で正の写像である場合、$s \in S$ ごとに、$T$ では $f_s$ 写像 $t \mapsto f(s, t)$、そして $I_f$ 写像 $s \mapsto \mu^\bullet(f_s)$ で表します。 $S$に*
 
 #### 補題 2 {#int-ix-s2-lem-2 .statement tag=09PA}
 
@@ -417,7 +417,7 @@ $$
 
 すなわち(6)です。
 
-最後に、第 7 章の提案 7。 V, §8, No. 3 implies that the restriction of $I_f^L$ to every compact subset K of S is $\lambda_K$-measurable; this is equivalent to saying that $I_f^L$ is $\lambda$-measurable.
+最後に、第 7 章の提案 7。 V, §8, No. 3 は、S のすべてのコンパクト部分集合 K に対する $I_f^L$ の制限が $\lambda_K$ 可測であることを意味します。これは、$I_f^L$ が $\lambda$ 可測であるというに相当します。
 
 #### 命題 11 {#int-ix-s2-prop-11 .statement tag=09PB}
 
@@ -431,7 +431,7 @@ $$
 \iint_X^\bullet f(s, t) d\nu(s, t) = \int_S^\bullet d\lambda(s) \int_T^\bullet f(s, t) d\mu(t).
 $$
 
-The property *a)* is obvious, since the mapping $t \mapsto f(s, t)$ of T into $\overline{\mathbf{R}}$ is the composition of $f$ with the continuous mapping $t \mapsto (s, t)$ of T into X. *b)* を確立するには、補題を利用します。
+性質 *a)* は明らかです。なぜなら、T の $\overline{\mathbf{R}}$ への写像 $t \mapsto f(s, t)$ は、$f$ の合成であり、T の X への連続した写像 $t \mapsto (s, t)$ であるからです。 *b)* を確立するには、補題を利用します。
 
 #### 補題 3 {#int-ix-s2-lem-3 .statement tag=09PC}
 
@@ -452,7 +452,7 @@ b)の証明に進みます。 写像 $I_f$ は、写像 $I_f^L$ の増加する�
 $$
 W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
-ここで、$U_i$は$S$で開き、$V_i$は$T$で開きます。上で作成した注意によって、そのようなオープンな集合属するから$\mathscr{H}$の特徴写像を示すだけで十分です。 Let then $s \in S$, and let $U$ be the intersection of the family (possibly empty) formed by the open sets $U_i$ containing $s$; one sees immediately that $\varphi_W(s,t) \leq \varphi_W(s',t)$ for all $s' \in U$ and $t \in T$, whence, by integration, $I_{\varphi_W}^L(s) \leq I_{\varphi_W}^L(s')$ for all $s' \in U$. 従って、$I_{\varphi_W}^L$は下位半連続となり、命題が成立します。
+ここで、$U_i$は$S$で開き、$V_i$は$T$で開きます。上で作成した注意によって、そのようなオープンな集合属するから$\mathscr{H}$の特徴写像を示すだけで十分です。 次に、$s \in S$ を、$s$ を含む開集合 $U_i$ によって形成されるファミリー (おそらく空) の共通点を $U$ とします。すべての $s' \in U$ と $t \in T$ に対して $\varphi_W(s,t) \leq \varphi_W(s',t)$ であることがすぐに分かります。従って、統合により、すべての $s' \in U$ に対して $I_{\varphi_W}^L(s) \leq I_{\varphi_W}^L(s')$ になります。 従って、$I_{\varphi_W}^L$は下位半連続となり、命題が成立します。
 
 #### 系 1 {#int-ix-s2-lem-3-cor-1 .statement tag=09PD}
 
@@ -496,7 +496,7 @@ $\mu$ が $T$ のコンパクト部分集合 $L$ によって運ばれると仮�
 
 #### 注意 {#int-ix-s2-n6-rem-1 .statement tag=09PG}
 
-— $(K_\alpha)_{\alpha \in A}$ を $\lambda$ に対する $S$ の粉砕とし、$M = S - \bigcup_{\alpha \in A} K_\alpha$ とします。 $T$ のメジャー $\mu$ に対して、同様の方法で $(L_\beta)_{\beta \in B}$ と $N$ を定義する使用します。 We denote by $S'$ the locally compact space that is the sum of the subspaces $K_\alpha$ of $S$ and the *discrete* space $M$; the space $T'$ is defined analogously, and we set $X' = S' \times T'$. 局所的にコンパクトな空間 $X'$ は、$X$ のコンパクト部分空間の族 $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ の和と、$X$ の局所的に $\nu$ 無視できる部分集合である部分空間 $P = (M \times T) \cup (S \times N)$ です。 $P$ は一般に、離散的な空間ではありません)。 $§ 1$、No. 8 の *Scholium* で、$S'$ に測度 $\lambda'$ が存在し、可測写像、正の写像の本質的な上積分、本質的に可積分関数とそれらの積分が $\lambda$ と同じであることを見ました。 $\lambda'$。 引用した Scholium に従って、$T'$ の測定値 $\mu'$ を $\mu$ に関連付け、$X'$ の測定値 $\nu'$ を $\nu$ に関連付けます。 $f \in \mathscr{F}_+(S)$ と $g \in \mathscr{F}_+(T)$ が ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ であることがすぐにわかります。したがって、No. 5 の提案 10 により $\nu' = \lambda' \otimes \mu'$ となります。 $X'$の位相は$X$のより細かいであるため、すべての$\nu$-緩和された写像は$\nu'$-緩和されます。 この手順により、新しい証明を使用せずに Lebesgue-Fubini 定理を拡張することができます (Ch. V、$§ 8$、No. 4、TH。 １）現状まで。
+— $(K_\alpha)_{\alpha \in A}$ を $\lambda$ に対する $S$ の粉砕とし、$M = S - \bigcup_{\alpha \in A} K_\alpha$ とします。 $T$ のメジャー $\mu$ に対して、同様の方法で $(L_\beta)_{\beta \in B}$ と $N$ を定義する使用します。 $S$ の部分空間 $K_\alpha$ と *離散* 空間 $M$ の合計である局所的にコンパクトな空間を $S'$ で表します。空間$T'$も同様に定義され、$X' = S' \times T'$を設定します。 局所的にコンパクトな空間 $X'$ は、$X$ のコンパクト部分空間の族 $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ の和と、$X$ の局所的に $\nu$ 無視できる部分集合である部分空間 $P = (M \times T) \cup (S \times N)$ です。 $P$ は一般に、離散的な空間ではありません)。 $§ 1$、No. 8 の *Scholium* で、$S'$ に測度 $\lambda'$ が存在し、可測写像、正の写像の本質的な上積分、本質的に可積分関数とそれらの積分が $\lambda$ と同じであることを見ました。 $\lambda'$。 引用した Scholium に従って、$T'$ の測定値 $\mu'$ を $\mu$ に関連付け、$X'$ の測定値 $\nu'$ を $\nu$ に関連付けます。 $f \in \mathscr{F}_+(S)$ と $g \in \mathscr{F}_+(T)$ が ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ であることがすぐにわかります。したがって、No. 5 の提案 10 により $\nu' = \lambda' \otimes \mu'$ となります。 $X'$の位相は$X$のより細かいであるため、すべての$\nu$-緩和された写像は$\nu'$-緩和されます。 この手順により、新しい証明を使用せずに Lebesgue-Fubini 定理を拡張することができます (Ch. V、$§ 8$、No. 4、TH。 １）現状まで。
 
 ### 7. 対策崩壊の結果
 
@@ -525,7 +525,7 @@ $X$ をトポロジー 空間、$\nu$ を $X$ のメジャー、$f$ を $X$ の 
 
 提案 13 の証明に進みます。
 A) $X$ がコンパクトで計化可能であり、$p$ が連続で全射であると仮定します。
-空間 $T$ はコンパクトで計量化可能です (GT、IX, §2, No. 10)。 Thさんより1章 VI, §3, No. 1、$T$ の $\mathscr{M}_+(X)$ への写像 $H : t \mapsto \eta_t$ が存在し、漠然と $\mu$ 可測でスカラー的に本質的に $\mu$ 積分可能であり、$\nu = \int_T \eta_t \, d\mu(t)$ や$\eta_t$ は総質量 1 を持ち、 $t \in T$ごとに$\overline{p}(t)$。 Let $(S_n)_{n \in \mathbf{N}}$ be a crushing of $T$ for $\mu$, such that the restriction of $H$ to each of the sets $S_n$ is continuous (§1, No. 8, Props. 10 and 11); we denote by $\Lambda : t \mapsto \lambda_t$ the mapping of $T$ into $\mathscr{M}_+(X)$ that is equal to $H$ on $S = \bigcup_{n \in \mathbf{N}} S_n$ and to 0 on $T - S$. $\nu = \int_T \lambda_t \, d\mu(t)$ と $\Lambda$ が主張の条件 a) を満たすことは明らかです。
+空間 $T$ はコンパクトで計量化可能です (GT、IX, §2, No. 10)。 Thさんより1章 VI, §3, No. 1、$T$ の $\mathscr{M}_+(X)$ への写像 $H : t \mapsto \eta_t$ が存在し、漠然と $\mu$ 可測でスカラー的に本質的に $\mu$ 積分可能であり、$\nu = \int_T \eta_t \, d\mu(t)$ や$\eta_t$ は総質量 1 を持ち、 $t \in T$ごとに$\overline{p}(t)$。 $(S_n)_{n \in \mathbf{N}}$ を $\mu$ に対する $T$ の破砕とし、各集合 $S_n$ に対する $H$ の制限が連続するようにします (§1, No. 8、提案 10 および 11)。 $\Lambda : t \mapsto \lambda_t$ によって、$T$ から $\mathscr{M}_+(X)$ へのマッピングを表します。これは、$S = \bigcup_{n \in \mathbf{N}} S_n$ では $H$、$T - S$ では 0 に等しくなります。 $\nu = \int_T \lambda_t \, d\mu(t)$ と $\Lambda$ が主張の条件 a) を満たすことは明らかです。
 $\theta$ を $T$ のメジャーとします。 写像 $\Lambda$ は漠然と $\theta$ 測定可能であり、スカラー的に本質的に $\theta$ 積分可能であるため、$\theta$ も適切です (Ch. V, §3, No. 1、提案 2 b))。 $f$ を、$X$ に対する普遍的に測定可能なポジティブな写像とします。第 5 章の提案による。 $\int \lambda_t \, d\theta(t)$、写像 $t \mapsto \lambda_t^\bullet(f)$ に適用されるV, §3, No. 2 は、$\theta$ 可測であるため、$\theta$ の恣意性を考慮すると普遍的に可測である。
 公式 (12) は、第 5 章の提案 5 からの結果です。 V, §3, No. 2。
 B) メジャー $\nu$ を運ぶ $X$ のコンパクト部分集合 $X'$ が存在し、$p_{X'}$ が連続であると仮定します。
@@ -536,7 +536,7 @@ $$
 \int_{X'} f'(x') \, d\nu'(x') = \int_{T'} d\mu'(t') \int_{X'} f'(x') \, d\lambda'_{t'}(x').
 $$
 
-Let $t \in T$; if $t$ belongs to $T'$, let us denote by $\lambda_t$ the image of $\lambda'_t$ under the canonical injection of $X'$ into $X$, and if $t$ belongs to $T - T'$ we set $\lambda_t = 0$. 読者は、写像 $t \mapsto \lambda_t$ が条件主張の a) および b) を満たすことを問題なく検証するでしょう。
+$t \in T$ にしましょう。 $t$ が $T'$ に属する場合、$X'$ を $X$ に正規注入した後の $\lambda'_t$ のイメージを $\lambda_t$ で表し、$t$ が $T - T'$ に属する場合、$\lambda_t = 0$ を設定します。 読者は、写像 $t \mapsto \lambda_t$ が条件主張の a) および b) を満たすことを問題なく検証するでしょう。
 
 C) *一般的な場合の存在*:
 

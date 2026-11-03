@@ -46,16 +46,16 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: a2d9b2ff956caeb2255234306f4e8f10a858ce24441f7acdd4e481decdd4de6e
+content_sha256: 80fea5bc3301529c5afa43080c94201ac1cb299a6fa9ff74f2a44ff8f9627909
 translated_from: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md
 translation_method: google
 source_content_sha256: f366c2c3ce31096fbcd7ad9041a4e06384cc60f8e5e5fd661e93b1a5434b90dc
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6dec24b0b87ff73dbcfbd379872c92883c4e8a04f5ba8c57d86474c962128b77
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 20。 線型表現/代数
@@ -134,11 +134,11 @@ $a, b,\in A$ と $f\in A^*$ の場合。
 
 #### 命題 1 {#alg-viii-s20-prop-1 .statement tag=00ME}
 
-a) The mapping $\varphi$ induces a bijection from the set of left (resp. right, two-sided) ideals of A of finite codimension to the set of right A-submodules (resp. left A-submodules, sub-bimodules) of $A^*$ of finite dimension over K.
+a) 写像 $\varphi$ 誘導する全単射有限余次元の A の左 (それぞれ右、両面) 集合から右 A-部分加群 (それぞれ左 A-部分加群、部分両側加群) の集合まで有限次元の $A^*$ が K を超えています。
 
 b) 有限余次元含むの A の左または右のすべての理想、有限余次元の両側の理想。
 
-Formulas (3) and (4) prove that if E is a left ideal of A, then $E'$ is a right A-submodule of $A^*$; if V is a right A-submodule of $A^*$, then $V'$ is a left ideal of A. 正しい理想の場合と両面の理想の場合は同様に扱われます。 これは a) を証明します。
+式 (3) と (4) は、E が A の左イデアルである場合、$E'$ は$A^*$ の右 A 部分加群であることを証明します。 V が $A^*$ の右 A サブモジュールである場合、$V'$ は A の左イデアルです。 正しい理想の場合と両面の理想の場合は同様に扱われます。 これは a) を証明します。
 
 $\mathfrak{a}$を有限余次元のAの左イデアルとする。 左A-加群 $E = A_s/\mathfrak{a}$ は K 上の有限次元であり、End$_K(E)$ も同様です。従って、Aから終わり$_K(E)$までの準同型$a\mapsto a_E$の核は、$\mathfrak{a}$に含まれる有限余次元のAの両面の理想です。 移行から反対環 $A^o$ まで、有限余次元含むの A のすべての正しい理想が、有限余次元の両面の理想であることがわかります。
 
@@ -154,13 +154,13 @@ $\mathfrak{a}$を有限余次元のAの左イデアルとする。 左A-加群 $
 
 – 有限余次元の A の右イデアルの直交関数の和集合 – 有限余次元の A の両側イデアルの直交関数の和集合 – K 上の $A^*$ の有限次元の左の A-部分加群の和集合
 
-– the union of the right A-submodules of $A^*$ of finite dimension over K
+– K 上の有限次元の $A^*$ の右側の A サブモジュールの結合
 
 – $(A$ の和集合、K 上の有限次元の $A^*$ の A) サブバイモジュール。
 
 A が K に対して有限次数を持っている場合、$\Theta (A) = \Theta (A^o)$ と $\Theta (A) = A^*$ があります。$f\in A^*$ とします。次に、$Af$ (それぞれ $fA, AfA$) が K 上の有限次元の $A^*$ の線形部分空間である場合に限り、 $f$ 属するから Θ(A) になります。
 
-2 つの $(A$ の和、K 上の有限次元の $A^*$ の A) サブバイモジュールには、K 上の有限次元があります。 従って、Θ(A) は $A^*$ の $(A$, A) サブバイモジュールであることがわかります。
+2 つの $(A$ の和、K 上の有限次元の $A^*$ の A) サブ双モジュールには、K 上の有限次元があります。従って、Θ(A) は $A^*$ の $(A$、A) サブ双モジュールであることがわかります。
 
 ### 3. 加群の係数
 
@@ -280,7 +280,7 @@ E を K 上の有限次元の半単純A-加群とします。 E から $A^*$ (VI
 
 $\mathscr{S}_K$ のすべての S について、型 S の Θ(A) の同型成分は、S から $A^*$ までの A-線型写像の像によって生成されます。したがって、VIII、p. 378 の命題 2、a) により $\Theta_S(A)$ に等しくなります。 一方、S が K 上で有限次元ではない単純A-加群である場合、型 S の Θ(A) の同型成分は零です。実際、Θ(A) のすべての単純部分加群は単次であり、したがって K 上で有限次元です。 Θ(A) のソクルはその同型成分 (VIII, p. 65, 命題 4) の直和であるため、これは b) を証明します。
 
-S を K 上の有限次元の単純A-加群とします。 K-ベクトル空間 S は 0 に減らないので、$S^*$ についても同じことが当てはまります。 Let E be a submodule of the right A-module $S^*$; its orthogonal $E'$ in S is an A-submodule of S. S は単純なので、$E'= 0$ (その場合は $E = S^*$)、または $E'= S$ (この場合は E = 0) のいずれかになります。 したがって、$S^*$ は単純右A-加群です。
+S を K 上の有限次元の単純A-加群とします。K-ベクトル空間 S は 0 に減らないので、同じことが $S^*$ にも当てはまります。 E を右A-加群 $S^*$ の部分加群とします。 S におけるその直交 $E'$ は S の A-部分加群です。S は単純なので、$E'= 0$ (その場合は $E = S^*$)、または $E'= S$ (この場合は E = 0) のいずれかになります。 したがって、$S^*$ は単純右A-加群です。
 
 $\Theta (A^o) = \Theta (A)$ (VIII、p. 376) があります。 同一視する右A-加群と左側の $A^o$ モジュールです。 K 上の有限次元のすべてのベクトル空間はその双双対と同型であるため、上記は写像 $S\mapsto$ cl($S^*$) が、単純な $A^o$ モジュールの類の $\mathscr{S}_K$ から集合までの全単射であることを証明します。 Kを超える有限次元。 さて、$\mathscr{S}_K$ の S について、型 $S^*$ の $\Theta (A^o)$ の同型成分は、主張 b) 代数 $A^o$ に適用されることで $\Theta_{S^*}(A^o)$ に等しく、$\Theta_{S^*}(A^o) = \Theta_S(A)$ が得られます。 主張 c) と d) がすぐに続きます。
 
@@ -392,7 +392,7 @@ $\mathscr{S}_K$ を K 上の類の単純A-加群の有限次元の集合とし�
 
 体 K が完全であると仮定します。 VIII、p. 383、元 $\theta ([S]) =\theta_K(1\otimes [S]) =$ の命題 6 と系により、$A^*$ の Tr$_S$ は K に対して線形独立です。 したがって、準同型 $\theta_K$ は単射であり、 準同型 $\theta$ の核は、$S\in \mathscr{S}_K$ ごとに $n_S\cdot 1_K= 0$ となるように、$R_K(A)$ の元 $\sum_{S\in\mathscr{S}_K}n_S[S]$ で構成されます。したがって、$\theta$ の核は、$pR_K$(A) に等しくなります。ここで、$p$ は K の特性です。特に、K が特性 0 を持つ場合、準同型 $\theta$ は単射です。
 
-The last assertion of a) follows from the corollary of VIII, p. 190.
+a) の最後の主張は、VIII、p. 190 の系から続きます。
 
 b) の仮定が満たされ、E が K 上の有限次元の半単純A-加群であるとします。 E が $p$ 部分加群の直和が F と同型であるような A-加群 F が存在する場合、加群 F は半単純であり、 K 上の有限次元であり、Tr$_E=p$ Tr$_F= 0$ が得られます。逆に、Tr$_E= 0$とします。 $[E]\in pR_K$(A) があるため、E のすべての単純加群 $S\in \mathscr{S}_K$ の重複度は、$p$ の倍数 (VIII、p. 190、命題 7) です。 $n_S\in \mathbf{N}$ を使用して $p n_S$ と書くことができます。家族$(n_S)$には有限台がいます。 集合 $F =\oplus_{S\in\mathscr{S}_K}S^{n_S}$。次に、$[E] = [F^p]$ があり、E と $F^p$ は同型になります (VIII、p. 190、系)。
 
@@ -465,7 +465,7 @@ PC$_M(b; X) =$ PC$_{A/K}(f(b); X)$、
 
 ### 7. 係数/集合/類/加群
 
-$\mathscr{C}$ を A-加群の類の世襲集合とします (VIII、p. 183、定義 1)。 型 $\mathscr{C}$ のすべての A-加群は K 上の有限次元であり、$\Theta_{\mathscr{C}}(A)$ 集合の係数 、A-加群 、型 $\mathscr{C}$ で表されると仮定します。 By Proposition 2 of VIII, p. 378, the set $\Theta_{\mathscr{C}}(A)$ is also the union of the images of the A-linear mappings $u: E\rightarrow A^*$, where E runs through $\mathscr{C}$; it is also the union of the subspaces $\Theta_E(A)$ of $A^*$, where E runs through $\mathscr{C}$ (loc. cit.). $(A$、$A^*$ の A) サブバイモジュール $(\Theta_E(A))_{E\in\mathscr{C}}$ のファミリーが指示されているため、その和集合 $\Theta_{\mathscr{C}}(A)$ は $(A$、A) サブバイモジュール $A^*$ です。
+$\mathscr{C}$ を A-加群の類の世襲集合とします (VIII、p. 183、定義 1)。 型 $\mathscr{C}$ のすべての A-加群は K 上の有限次元であり、$\Theta_{\mathscr{C}}(A)$ 集合の係数 、A-加群 、型 $\mathscr{C}$ で表されると仮定します。 VIII、p. 378 の命題 2 により、集合 $\Theta_{\mathscr{C}}(A)$ は、E が $\mathscr{C}$ まで続く A 線形写像 $u: E\rightarrow A^*$ の画像の結合でもあります。それは、$A^*$ の部分空間 $\Theta_E(A)$ の和集合でもあり、E は $\mathscr{C}$ を通過します (上記参照)。 $(A$、$A^*$ の A) サブバイモジュール $(\Theta_E(A))_{E\in\mathscr{C}}$ のファミリーが指示されているため、その和集合 $\Theta_{\mathscr{C}}(A)$ は $(A$、A) サブバイモジュール $A^*$ です。
 
 #### 命題 7 {#alg-viii-s20-prop-7 .statement tag=00MZ}
 
@@ -675,7 +675,7 @@ $\mathscr{C}$ を、$\Theta  = \Theta_{\mathscr{C}}$ (VIII, p. 391, 命題 9) �
 
 最後の性質は、E がトポロジカル A-加群であることを意味します。
 
-$\Theta^*$ を余代数 Θ の双対代数とします。 $\Theta^*$ に最も粗い位相を与えます。これに対して、$\Theta^*$ から K までの写像 $\varphi \mapsto \varphi (u)$、Θ を通る $u$ は連続です。 代数 $\Theta^*$ の位相は、$\Theta^*$ の加法群構造と互換性があります。 形 $\Theta_E$の集合の $\Theta^*$ の直交行列。ここで、E は型 $\mathscr{C}$ の A-加群、形 0 の近傍の基本系です。 さて、そのような集合はΘの部余代数なので、その直交は$\Theta^*$のイデアルになります。 したがって、$\Theta^*$ の位相は、その環構造と互換性があります。 The canonical algebra homomorphism $\eta : A\rightarrow \Theta^*$ (that sends $a\in A$ to the linear form $f\mapsto f(a)$ on Θ) defines an isomorphism from the completed Hausdorff space $\widehat{A}$ of A (Gen. トップ.、II, §3, No. 7、p. 191) から $\Theta^*$。
+$\Theta^*$ を余代数 Θ の双対代数とします。 $\Theta^*$ に最も粗い位相を与えます。これに対して、$\Theta^*$ から K までの写像 $\varphi \mapsto \varphi (u)$、Θ を通る $u$ は連続です。 代数 $\Theta^*$ の位相は、$\Theta^*$ の加法群構造と互換性があります。 形 $\Theta_E$の集合の $\Theta^*$ の直交行列。ここで、E は型 $\mathscr{C}$ の A-加群、形 0 の近傍の基本系です。 さて、そのような集合はΘの部余代数なので、その直交は$\Theta^*$のイデアルになります。 したがって、$\Theta^*$ の位相は、その環構造と互換性があります。 正準代数準同型性 $\eta : A\rightarrow \Theta^*$ ($a\in A$ を Θ 上の線形形式 $f\mapsto f(a)$ に送る) は、A の完成されたハウスドルフ空間 $\widehat{A}$ からの同型性を定義します (Gen. トップ.、II, §3, No. 7、p. 191) から $\Theta^*$。
 
 ### 練習問題 {#alg-viii-s20-exercises}
 

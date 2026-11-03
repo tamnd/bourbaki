@@ -33,16 +33,16 @@ subsections:
       pdf_page: 234
 statements: 38
 exercises: 3
-content_sha256: a1613a2c90b6b9bf974b9d7b525921a31e6f097ad781a4e4900400adad56ae5a
+content_sha256: 305117d45e89d0153dd1c77592548de0281c1cd31932c6e7e31b48dda5f1660b
 translated_from: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
 translation_method: google
 source_content_sha256: 8313e76e55f08fcd7dd783b09028bd3331bcb51b6229df45213a85cc59097f4a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 96191e8d9af4807218864924f793d44a223f730a807765fa706e938cfa103dcf
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 写像とフィルタリングされた集合の比較
@@ -65,7 +65,7 @@ $$
 
 ### 1. 関係: I の比較。弱い関係
 
-In what follows we denote by V a normed vector space over a valued field K, and by $\mathscr{H}(\mathfrak{F}, V)$ the set of functions with values in V, each of which is defined on a subset of E belonging to the filter base $\mathfrak{F}$. The relations which we shall define between such functions have a *local* character relative to the filter with base $\mathfrak{F}$: let us clarify what we mean by this. f と g が $\mathscr{H}(\mathfrak{F}, V)$ から 2 つの写像である場合、関係 「f と g が定義され、Z 上で等しいような集合 $Z \in \mathfrak{F}$ がある」は、$\mathscr{H}(\mathfrak{F}, V)$ 上の *同値関係 $R_\infty$ であることを思い出してください。 トップ。*、I、p. 66)。 そうなると、$\mathscr{H}(\mathfrak{F}, V)$ の写像 $f$ を含む関係 S は、同値関係 $R_\infty$ と *互換性* ($f$ で) ある場合、$f$ に対して *ローカル* 指標 ($\mathfrak{F}$ に沿って) であると言えます。 (*集合理論*、II、p. 117); $\tilde{f}$ が $\mathfrak{F}$、$R_\infty$ を法とする $f$ の同値類 (商集合 $\mathscr{H}_\infty(\mathfrak{F}, V) = \mathscr{H}(\mathfrak{F}, V)/R_\infty$ の元) に沿った $f$ の *胚芽* である場合、次のように S から導出できることがわかります。 $\tilde{f}$ と S の他の引数の間の商、関係、そして逆に、$f$ に対するローカル指標のこの性質のすべての関係定義する関係。
+以下では、値フィールド K 上のノルム化ベクトル空間を V で表し、V の値を持つ関数のセットを $\mathscr{H}(\mathfrak{F}, V)$ で表します。各関数はフィルター ベース $\mathfrak{F}$ に属する E のサブセットで定義されます。 このような関数間で定義する関係は、ベース $\mathfrak{F}$ を持つフィルターに対して *ローカル* 特性を持ちます。これが何を意味するのかを明確にしましょう。 f と g が $\mathscr{H}(\mathfrak{F}, V)$ から 2 つの写像である場合、関係 「f と g が定義され、Z 上で等しいような集合 $Z \in \mathfrak{F}$ がある」は、$\mathscr{H}(\mathfrak{F}, V)$ 上の *同値関係 $R_\infty$ であることを思い出してください。 トップ。*、I、p. 66)。 そうなると、$\mathscr{H}(\mathfrak{F}, V)$ の写像 $f$ を含む関係 S は、同値関係 $R_\infty$ と *互換性* ($f$ で) ある場合、$f$ に対して *ローカル* 指標 ($\mathfrak{F}$ に沿って) であると言えます。 (*集合理論*、II、p. 117); $\tilde{f}$ が $\mathfrak{F}$、$R_\infty$ を法とする $f$ の同値類 (商集合 $\mathscr{H}_\infty(\mathfrak{F}, V) = \mathscr{H}(\mathfrak{F}, V)/R_\infty$ の元) に沿った $f$ の *胚芽* である場合、次のように S から導出できることがわかります。 $\tilde{f}$ と S の他の引数の間の商、関係、そして逆に、$f$ に対するローカル指標のこの性質のすべての関係定義する関係。
 
 #### 例 {#fvr-v-s1-n1-exa-5 .statement tag=08DN}
 
@@ -73,11 +73,11 @@ $f$と$g$が$\mathscr{H}(\mathfrak{F}, \mathbf{R})$の2つの写像である場�
 
 #### 注意 {#fvr-v-s1-n1-rem-3 .statement tag=0E5L}
 
-1) Let $V_i$ ($1 \leq i \leq n$) be $n$ normed vector spaces over K, and $\varphi$ a function defined on $V_1 \times V_2 \times \cdots \times V_n$, with values in V; by passing to the quotient along $R_\infty$ the function $\varphi$ defines a map from
+1) $V_i$ ($1 \leq i \leq n$) を K に対してベクトル空間でノルム化した $n$ とし、$V_1 \times V_2 \times \cdots \times V_n$ で値をV に定義して$\varphi$ 写像とします。 $R_\infty$ 写像 $\varphi$ 定義する写像沿いに移行から商まで
 $$
 \mathscr{H}_\infty(\mathfrak{F}, V_1) \times \cdots \times \mathscr{H}_\infty(\mathfrak{F}, V_n)
 $$
-into $\mathscr{H}_\infty(\mathfrak{F}, V)$, which one most often denotes by $\varphi(\tilde{f}_1, \ldots, \tilde{f}_n)$ (*Gen. トップ。*、I、p. 67)。 たとえば、$\varphi$ を写像 $(x, y) \mapsto x + y$ および $x \mapsto x\lambda$ ($\lambda \in K$) とすると、$\mathscr{H}_\infty(\mathfrak{F}, V)$、元 $\tilde{f} + \tilde{g}$、$\tilde{f}\lambda$ の任意の 2 つの細菌 $\tilde{f}, \tilde{g}$ について、1 つは定義するとなり、すぐに検証されます。 $\mathscr{H}_\infty(\mathfrak{F}, V)$ 上の合成 $(\tilde{f}, \tilde{g}) \mapsto \tilde{f} + \tilde{g}$ と $(\lambda, \tilde{f}) \mapsto \tilde{f}\lambda$ 定義するのルールは体 K を超える *ベクトル空間* 構造です。この空間 $\tilde{O}$ は、$\mathfrak{F}$ の集合に 0 に等しい写像によって形成された類であり、$-\tilde{f}$ は、$-f$ に等しい写像によって形成された類です。 $\mathfrak{F}$の集合。 同様に、V が K 上の *代数* である場合、$\mathscr{H}_\infty(\mathfrak{F}, V)$ 上の 1 つの定義するは、$\varphi(x, y) = xy$ を取ることで合成 $(\tilde{f}, \tilde{g}) \mapsto \tilde{f}\tilde{g}$ の 2 番目の内部規則になります。前述の 2 つのルールと組み合わせると、この定義するは $\mathscr{H}_\infty(\mathfrak{F}, V)$ の K に対する *代数* 構造になります。 V に単位元 e がある場合、$\mathscr{H}_\infty(\mathfrak{F}, V)$ は、$\mathfrak{F}$ の一部の集合で e に等しい写像によって形成される単位元類 $\tilde{e}$ になります。 $\tilde{f}$が$\mathscr{H}_\infty(\mathfrak{F}, V)$で*反転可能であるためには、一部の$f \in \tilde{f}$に対して、$t \in Z$ごとに$f(t)$がVで反転可能であるような$Z \in \mathfrak{F}$が存在することが必要かつ十分である（この場合、この条件はすべての写像によって満たされる） 類 $\tilde{f}$）。
+$\mathscr{H}_\infty(\mathfrak{F}, V)$ に変換され、最も多くの場合、$\varphi(\tilde{f}_1, \ldots, \tilde{f}_n)$ で表されます (*Gen. トップ。*、I、p. 67)。 たとえば、$\varphi$ を写像 $(x, y) \mapsto x + y$ および $x \mapsto x\lambda$ ($\lambda \in K$) とすると、$\mathscr{H}_\infty(\mathfrak{F}, V)$、元 $\tilde{f} + \tilde{g}$、$\tilde{f}\lambda$ の任意の 2 つの細菌 $\tilde{f}, \tilde{g}$ について、1 つは定義するとなり、すぐに検証されます。 $\mathscr{H}_\infty(\mathfrak{F}, V)$ 上の合成 $(\tilde{f}, \tilde{g}) \mapsto \tilde{f} + \tilde{g}$ と $(\lambda, \tilde{f}) \mapsto \tilde{f}\lambda$ 定義するのルールは体 K を超える *ベクトル空間* 構造です。この空間 $\tilde{O}$ は、$\mathfrak{F}$ の集合に 0 に等しい写像によって形成された類であり、$-\tilde{f}$ は、$-f$ に等しい写像によって形成された類です。 $\mathfrak{F}$の集合。 同様に、V が K 上の *代数* である場合、$\mathscr{H}_\infty(\mathfrak{F}, V)$ 上の 1 つの定義するは、$\varphi(x, y) = xy$ を取ることで合成 $(\tilde{f}, \tilde{g}) \mapsto \tilde{f}\tilde{g}$ の 2 番目の内部規則になります。前述の 2 つのルールと組み合わせると、この定義するは $\mathscr{H}_\infty(\mathfrak{F}, V)$ の K に対する *代数* 構造になります。 V に単位元 e がある場合、$\mathscr{H}_\infty(\mathfrak{F}, V)$ は、$\mathfrak{F}$ の一部の集合で e に等しい写像によって形成される単位元類 $\tilde{e}$ になります。 $\tilde{f}$が$\mathscr{H}_\infty(\mathfrak{F}, V)$で*反転可能であるためには、一部の$f \in \tilde{f}$に対して、$t \in Z$ごとに$f(t)$がVで反転可能であるような$Z \in \mathfrak{F}$が存在することが必要かつ十分である（この場合、この条件はすべての写像によって満たされる） 類 $\tilde{f}$）。
 
 2) 同じ記法で、$\psi$を$\prod_{i=1}^n V_i$の部分集合の写像をVとします。 $f_i(t)$ が定義されている点 $t \in E$ および $\psi$ が定義されている点 $(f_i(t))$ 属するから集合ごとに $\psi(f_1(t), f_2(t), \ldots, f_n(t))$ に等しい $\psi(f_1, f_2, \ldots, f_n)$ 写像で表します。 $^1$。たとえば、$f$ と $g$ が両方とも定義されている場合、$f + g$ は点 $t \in E$ ごとに写像と $f(t) + g(t)$ に等しくなります。 $f$ がすべての E で定義されていない場合、$f + g = 0$ のような写像 $g \in \mathscr{H}(\mathfrak{F}, V)$ は存在しないため、$\mathscr{H}(\mathfrak{F}, V)$ では写像 $(f, g) \mapsto f + g$ *が群法則* ではないことに注意してください。
 
@@ -135,7 +135,7 @@ $\mathscr{H}(\mathfrak{F}, V)$ の写像の間の関係 $f \preccurlyeq g$ は�
 
 *2 つの写像* $f, g$ *of* $\mathscr{H}(\mathfrak{F}, V)$ *私たちは、* $f$ * と* $g$ * は ($\mathfrak{F}$ に沿って*) 似ていると言い、 *そして書きます* $f \simeq g$、 *if* $f \preccurlyeq g$ *and* $g \preccurlyeq f$。
 
-すべてのスカラー $\lambda \neq 0$ 関係 $f \simeq g$ は $f \simeq g \lambda$ と同等です。 It implies the existence of a set $X \in \mathfrak{F}$ such that that the subset of $X$ of points where $f(x) = 0$ is identical with the subset of $X$ of points where $g(x) = 0$.
+すべてのスカラー $\lambda \neq 0$ 関係 $f \simeq g$ は $f \simeq g \lambda$ と同等です。 これは、$f(x) = 0$ の点の$X$ のサブセットが $g(x) = 0$ の点の $X$ のサブセットと同一であるような集合 $X \in \mathfrak{F}$ の存在を意味します。
 
 #### 例 1 {#fvr-v-s1-n1-exa-1 .statement tag=08DU}
 
@@ -291,7 +291,7 @@ $\varphi$ を集合 $E'$ から $E$ への写像とし、$\varphi^{-1}(\mathfrak
 
 ### 4. 厳密に陽性の写像と関係の比較
 
-$g$ を $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ の写像とします。これは、$\mathfrak{F}$ の集合に対して厳密に正です。 $g$ を特徴とする比較関係は、他のの方法で定式化できます。 関係 $f \preccurlyeq g$ は、$\|f\|/g$ ($\mathfrak{F}$ の集合で定義される) が集合で境界付けられるというと同等です。 $\mathfrak{F}$; 関係 $f \ll g$ は、$\mathfrak{F}$ に沿って $\|f\|/g$ が 0 になる傾向があるというと同等です。 If $f$ is a function in $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ the relation $f \asymp g$ means that $f/g$ is logarithmically bounded on a set in $\mathfrak{F}$, and the relation $f \sim g$ that $f/g$ tends to 1 along $\mathfrak{F}$. $f$ が $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ で写像で、$\mathfrak{F}$ で集合が正である場合、$f$ と $g$ が同等であるということは、$f/g$ が極限 (有限または$+\infty$ に等しい) になる傾向があることを意味します。 $\mathfrak{F}$。
+$g$ を $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ の写像とします。これは、$\mathfrak{F}$ の集合に対して厳密に正です。 $g$ を特徴とする比較関係は、他のの方法で定式化できます。 関係 $f \preccurlyeq g$ は、$\|f\|/g$ ($\mathfrak{F}$ の集合で定義される) が集合で境界付けられるというと同等です。 $\mathfrak{F}$; 関係 $f \ll g$ は、$\mathfrak{F}$ に沿って $\|f\|/g$ が 0 になる傾向があるというと同等です。 $f$ が $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ の関数である場合、$f \asymp g$ の関係は、$f/g$ が $\mathfrak{F}$ の集合で対数的に制限されていることを意味し、$f \sim g$ の関係は、$f/g$ が $\mathfrak{F}$ に沿って 1 になる傾向があることを意味します。 $f$ が $\mathscr{H}(\mathfrak{F}, \mathbf{R})$ で写像で、$\mathfrak{F}$ で集合が正である場合、$f$ と $g$ が同等であるということは、$f/g$ が極限 (有限または$+\infty$ に等しい) になる傾向があることを意味します。 $\mathfrak{F}$。
 
 #### 命題 9 {#fvr-v-s1-prop-9 .statement tag=08EI}
 

@@ -13,16 +13,16 @@ pdf_pages: 0021-0023
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 06fedfd658a805f9f7f1d5cccc0ebda0809747258b1684faab330117578c2d85
+content_sha256: 52ac8bd6e548e5adfb75392db711e363abf6fc112258d03fada2e2c0419670bf
 translated_from: content/en/alg/00_introduction_i_iii.md
 translation_method: google
 source_content_sha256: 95936eb99f28c9abcab27ec59169aeb970a237913763d70013fdd74c7e6811c6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c0adb4341167e3e85e68b248190942d50980adc8f4de990b369107ca987cc53b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 導入
@@ -39,9 +39,9 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 代数構造にはいくつかの種 (集合理論、IV, § 1, no. 4) があり、一方では合成の法則または作用の法則によって定義する特徴付けられ、他方ではこれら法則が適用される公理によって特徴付けられます。対象となる。 もちろん、これらの公理は恣意的に選択されたものではなく、結合性、可換性など、アプリケーションで発生するほとんどの法則の特性にすぎません。 章 I は基本的に、これらの公理とそこから派生する一般的な帰結の説明に専念しています。また、代数の 2 つの最も重要な種構造 、つまり群 (合成の法則が 1 つだけ出現) と環 (合成の 2 つの法則がある) についてのより詳細な研究があり、そのうち体構造は特殊な場合です。
 
-章では、I には演算子付きの群の定義と演算子付きの環も見つかります。ここでは、合成の法則に加えて、作用の 1 つまたは複数の法則が発生します。 演算子で最も重要な群は加群で、そのうちベクトル空間は特定の例であり、古典幾何学と現代解析の両方で重要な役割を果たします。 加群構造の研究は線形方程式の起源に由来しており、よってその名前は Linear 代数です。この件に関する結果は、章 II でご覧いただけます。
+章では、I には演算子付きの群の定義と演算子付きの環も見つかります。ここでは、合成の法則に加えて、作用の 1 つまたは複数の法則が発生します。演算子で最も重要な群は加群で、そのうちベクトル空間は特定の例であり、古典幾何学と現代解析の両方で重要な役割を果たします。 加群構造の研究は線形方程式の起源に由来しており、よってその名前は Linear 代数です。この件に関する結果は、章 II にあります。
 
-同様に、最も頻繁に出現する演算子を含む環は、 代数 (または超複雑系) と呼ばれます。 In Chapters III and IV a detailed study is made of two particular types of algebras: exterior algebras, which with the theory of determinants which is derived from them is a valuable tool of Linear Algebra; and polynomial algebras, which are fundamental to the theory of algebraic equations.
+同様に、最も頻繁に出現する演算子を含む環は、 代数 (または超複雑系) と呼ばれます。 章 III と IV では、代数の 2 つの特定の型について詳細な研究が行われています。エクステリア代数は、それらから派生した行列式の理論とともにリニア代数の貴重なツールです。および多項式代数、これは代数方程式の理論の基本です。
 
 章 V では、可換体の一般的な理論とその分類について説明します。この理論の起源は、未知の代数方程式の研究です。今日これを生み出した問題は、歴史的な関心以上のものではありませんが、可換体の理論は代数の基礎であり、一方では代数数の理論、他方では代数幾何学の基礎となっています。
 

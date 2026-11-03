@@ -37,16 +37,16 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 435a98e422c9c2ae55d0796ec8d63f4cef0aaebf57420da53b30c4002fe7b07d
+content_sha256: 9bc52b31a1fd0496a0c244194f66dad53fc228706d48882ec10237181b1f19a2
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
 translation_method: google
 source_content_sha256: 0d59b39eb609eb19a1cde4e7e71ffe935476923daecf7a76ec5c3f620241a549
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a1e369f387b76cd41f53b42d26a81f81d7473d2ceab8d6e4503e577dcabe5cc8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 空間 / 閉店中部分群
@@ -109,7 +109,7 @@ $$
 
 そして、$\pi_\alpha$ 標準写像 $G \to Q_\alpha$ で表します。
 
-Let $\Gamma^0$ be the subset of $\Gamma$ formed by the measures $\alpha$ such that the subgroup $H_\alpha$ of $G$ is *unimodular*; the elements of $\Gamma^0$ are characterized by the fact that $\alpha(f) = \alpha(\dot{f})$ for every function $f \in \mathscr{K}(G)$ (every function of $\mathscr{K}(H_\alpha)$ being extendible to a function of $\mathscr{K}(G)$ by Urysohn’s theorem); it follows that $\Gamma^0$ is a *closed* subset of $\Gamma$. $\alpha \in \Gamma^0$ ごとに、$Q_\alpha$ 上の商メジャー $\mu_\alpha = \mu / \alpha$ が定義され、$G$ では比較的不変であることを思い出してください。 VII, §2, No. 6、木。 3);また、写像 $f \in \mathscr{K}(G)$ ごとに、
+$\Gamma^0$ を、$G$ の $H_\alpha$ 部分群が *ユニモジュラー* となるように、$\alpha$ の尺度によって形成された $\Gamma$ の部分集合とします。 $\Gamma^0$ の元は、写像 $f \in \mathscr{K}(G)$ ごとに $\alpha(f) = \alpha(\dot{f})$ になるという事実によって特徴付けられます ($\mathscr{K}(H_\alpha)$ のすべての写像は、ウリソーンの定理によって $\mathscr{K}(G)$ の写像まで拡張可能です)。つまり、$\Gamma^0$ は $\Gamma$ の *クローズ* 部分集合です。 $\alpha \in \Gamma^0$、商ごとに、$Q_\alpha$ の$\mu_\alpha = \mu / \alpha$ の測定値が定義され、$G$ では比較的不変であることを思い出してください (Ch. VII, §2, No. 6、Th. 3)。また、写像 $f \in \mathscr{K}(G)$ ごとに、
 
 $$
 \int_G f(x) d\mu(x) = \int_{Q_\alpha} d\mu_\alpha(\dot{x}) \int_{H_\alpha} f(xs) d\alpha(s) ,
@@ -145,7 +145,7 @@ $$
 \|f_\alpha\| = \sup_{x \in K} |(f * \alpha)(x)| .
 $$
 
-The conclusion therefore follows from the fact that the mapping $\alpha \mapsto f * \alpha$ of $\mathscr{M}_+(G)$ equipped with the vague topology, into $\mathscr{C}(G)$ equipped with the topology of compact convergence, is continuous (§ 4, No. 2, Remark 1).
+従って、曖昧なトポロジーを備えた$\mathscr{M}_+(G)$の、コンパクトな収束トポロジーを備えた$\mathscr{C}(G)$への写像$\alpha \mapsto f * \alpha$は連続であるという事実から結論が得られます(§ 4, No. 2、備考1)。
 
 測度 $\alpha \in \Gamma^0$ に対して、$\|\mu_\alpha\|$ が有限である場合、G は必然的に単モジュールであることを思い出してください (Ch. VII, §2, No. 6、Th. 3 の Cor. 3)。
 
@@ -199,7 +199,7 @@ $\beta \in U_\varepsilon$ のとき、証明が完了します。
 
 #### 系 1 {#int-viii-s5-prop-5-cor-1 .statement tag=09M6}
 
-— $K$ を $G$ のコンパクト部分集合、$V$ を $G$、$c$ 実数 $> 0$ の $e$ の対称コンパクト近傍とする。 The restriction of the mapping $\alpha \mapsto \| \mu_\alpha \|$ to the set of $\alpha \in \Gamma^0$ such that $G = KH_\alpha$ and $\alpha(V) \geq c$ is vaguely continuous.
+— $K$ を $G$ のコンパクト部分集合、$V$ を $G$、$c$ 実数 $> 0$ の $e$ の対称コンパクト近傍とする。 $G = KH_\alpha$ と $\alpha(V) \geq c$ が曖昧に連続するような $\alpha \in \Gamma^0$ のセットへのマッピング $\alpha \mapsto \| \mu_\alpha \|$ の制限。
 
 というのは、$g \in \mathscr{K}_+(G)$ を写像として、$x \in KV$ に対して $g(x) \geq 1/c$ となるようにします。 $x \in K$ ごとに、
 $$
@@ -248,7 +248,7 @@ $$
 \Gamma^0(g) \subset \Gamma_c^0.
 $$
 
-なぜなら、K が $g$ のサポートである場合、すべての $x \in G$ に対する関係 $\int g(xs)\, d\alpha(s) \geq 1$ は $KH_\alpha = G$ を意味し、積分は明らかに $KH_\alpha$ の補数で零であるため、$G/H_\alpha = \pi_\alpha(K)$ はコンパクトです。 したがって、尺度 $\alpha \in \Gamma_c^0$ が与えられると、$\Gamma^0(g)$ が $\Gamma^0$ の $\alpha$ の近傍となるように、定義する写像 $g \in \mathscr{K}_+(G)$ で十分です。 $G/H_\alpha$ はコンパクトであり、$\mathscr{K}_+(G)$ の $\mathscr{K}_+(G/H_\alpha)$ への標準写像 $f \mapsto f_\alpha$ は全射的であるため (Ch. VII, §2, No. 2)、*すべての* $x \in G$ に対して $\int g(xs)\, d\alpha(s) = 2$ となるような写像 $g \in \mathscr{K}_+(G)$ が存在します。 Let K be the (compact) support of $g$, L a symmetric compact neighborhood of e in G that generates G; the mapping $\beta \mapsto g * \beta$ of $\mathscr{M}_+(G)$ into $\mathscr{C}(G)$ being vaguely continuous (§ 4, No. 2, *Remark* 1), there exists a neighborhood W of $\alpha$ in $\Gamma^0$ such that
+なぜなら、K が $g$ のサポートである場合、すべての $x \in G$ に対する関係 $\int g(xs)\, d\alpha(s) \geq 1$ は $KH_\alpha = G$ を意味し、積分は明らかに $KH_\alpha$ の補数で零であるため、$G/H_\alpha = \pi_\alpha(K)$ はコンパクトです。 したがって、尺度 $\alpha \in \Gamma_c^0$ が与えられると、$\Gamma^0(g)$ が $\Gamma^0$ の $\alpha$ の近傍となるように、定義する写像 $g \in \mathscr{K}_+(G)$ で十分です。 $G/H_\alpha$ はコンパクトであり、$\mathscr{K}_+(G)$ の $\mathscr{K}_+(G/H_\alpha)$ への標準写像 $f \mapsto f_\alpha$ は全射的であるため (Ch. VII, §2, No. 2)、*すべての* $x \in G$ に対して $\int g(xs)\, d\alpha(s) = 2$ となるような写像 $g \in \mathscr{K}_+(G)$ が存在します。 K を、G を生成する G 内の e の対称コンパクト近傍である $g$、L の (コンパクトな) サポートとします。 $\mathscr{M}_+(G)$ の $\mathscr{C}(G)$ への写像 $\beta \mapsto g * \beta$ が漠然と連続している場合 (§ 4, No. 2、*注釈* 1)、 $\Gamma^0$ には次のような $\alpha$ の近傍 W が存在します。
 
 $$
 (g * \beta)(x) = \int g(xs)\, d\beta(s) \geq 1
@@ -266,10 +266,10 @@ $$
 
 #### 命題 7 {#int-viii-s5-prop-7 .statement tag=09MA}
 
-*$N \subset \Gamma^0$ を G の離散部分群上の正規化ハール測度の部分空間とし、G の e の比較的コンパクトな開いた近傍 U ごとに、$N_U$ を $H_\alpha \cap U = \{e\}$ となるように $\alpha$ によって形成される N の部分集合とします。 Then:
-a) $N_U$ is compact.
-b) The interiors of the sets $N_U$ in N form a covering of N, as U runs over the set of relatively compact open neighborhoods of e in G.
-c) For a subset M of N to be relatively compact in N, it is necessary and sufficient that there exist a relatively compact open neighborhood U of e in G such that $M \subset N_U$.*
+*$N \subset \Gamma^0$ を G の離散部分群上の正規化ハール測度の部分空間とし、G の e の比較的コンパクトな開いた近傍 U ごとに、$N_U$ を $H_\alpha \cap U = \{e\}$ となるように $\alpha$ によって形成される N の部分集合とします。 次に:
+a) $N_U$ はコンパクトです。
+b) U が G の e の比較的コンパクトな開いた近傍の集合の上を走るため、N の集合 $N_U$ の内部は N のカバーを形成します。
+c) N の部分集合 M が N 内で比較的コンパクトであるためには、$M \subset N_U$* となるような、G 内に e の比較的コンパクトな開いた近傍 U が存在することが必要かつ十分です。
 
 $D_U$ は正準連続写像 $\Gamma \to \Sigma$ の下で $N_U$ の像であるため、Th の主張 (iii)。提案 7 a) から直ちに 1 が得られます。
 
@@ -340,13 +340,13 @@ Let $G$ be a locally compact group, $N \subset \Gamma^0$ the subspace of normali
 
 #### 命題 9 {#int-viii-s5-prop-9 .statement tag=09MF}
 
-*$G$ を、$e$ のコンパクトな近傍によって生成された局所的にコンパクトなアーベル群とします。 For a subset $A$ of $N_c$ to be relatively compact in $N_c$, it is necessary and sufficient that it satisfy the following two conditions:*
+*$G$ を、$e$ のコンパクトな近傍によって生成された局所的にコンパクトなアーベル群とします。 $N_c$ のサブセット $A$ が $N_c$ で比較的コンパクトであるためには、次の 2 つの条件を満たすことが必要かつ十分です。
 
 (i) *すべての $\alpha \in A$ に対して $H_\alpha \cap U = \{e\}$ となるような、$G$ の $e$ の開いた近傍 $U$ が存在します。
 
 (ii) *すべての $\alpha \in A$ に対して $\mu_\alpha(G/H_\alpha) \leq k$ となるような定数 $k$ が存在します。
 
-$N_c$ で$A \subset N_c$ が比較的コンパクトであれば、$N$ では *なおさら* なので、条件 (i) と (ii) の必然性は、No. 3 の Props から続きます。 6 と 7 ($G$ がアーベルであるとは想定しません)。 Conversely, suppose that $A \subset N_c$ satisfies these conditions; if $\overline{A}$ is the closure of $A$ *in* $N$, then $\overline{A}$ is compact by virtue of No. 3, Prop. 7; moreover, since $\alpha \mapsto \| \mu_\alpha \|$ is lower semi-continuous on $\Gamma^0$ for the vague topology (No. 2, Prop. 4), the condition (ii) implies that one also has $\| \mu_\alpha \| \leq k$ for all $\alpha \in \overline{A}$. さて、$G$ はアーベルなので、$\mu_\alpha = \mu/\alpha$ は群 $G/H_\alpha$ の Haar 測度であり、したがって $G/H_\alpha$ はすべての $\alpha \in \overline{A}$ に対してコンパクトです (Ch. VII, §1, No. 2、提案 2)。 これは、$\overline{A} \subset N_c$、つまり$A$ が$N_c$ で比較的コンパクトであることを意味します。
+$N_c$ で$A \subset N_c$ が比較的コンパクトであれば、$N$ では *なおさら* なので、条件 (i) と (ii) の必然性は、No. 3 の Props から続きます。 6 と 7 ($G$ がアーベルであるとは想定しません)。 逆に、$A \subset N_c$ がこれらの条件を満たすとします。 $\overline{A}$ が $N$ の *$A$ の閉包である場合、No. 3、提案 7 により $\overline{A}$ はコンパクトになります。さらに、曖昧な位相 (No. 2、提案 4) に対して $\alpha \mapsto \| \mu_\alpha \|$ は $\Gamma^0$ の下位半連続であるため、条件 (ii) はすべての $\alpha \in \overline{A}$ に対して $\| \mu_\alpha \| \leq k$ も持つことを意味します。 さて、$G$ はアーベルなので、$\mu_\alpha = \mu/\alpha$ は群 $G/H_\alpha$ の Haar 測度であり、したがって $G/H_\alpha$ はすべての $\alpha \in \overline{A}$ に対してコンパクトです (Ch. VII, §1, No. 2、提案 2)。 これは、$\overline{A} \subset N_c$、つまり$A$ が$N_c$ で比較的コンパクトであることを意味します。
 
 #### 系 {#int-viii-s5-n5-cor-1 .statement tag=09MG}
 
@@ -358,7 +358,7 @@ $D_c$ を、$G/H$ がコンパクトになるように、$G$ の離散部分群 
 
 (ii) すべての $H \in A$ に対して $v(H) \leq k$ となるような定数 $k$ が存在します。
 
-Taking into account Prop. 9, this follows at once from the fact that $D_c$ is the image of $N_c$ under the canonical bijection of $N$ onto $D$, and the fact that, under the hypotheses made, this bijection is a homeomorphism (No. 4, Prop. 8).
+提案 9 を考慮すると、これは、$N$ の正準全単射から $D$ 上で $D_c$ が $N_c$ の像であるという事実、および作成された仮説の下では、この全単射が同型であるという事実からすぐに得られます (No. 4、提案 8)。
 
 #### 例 {#int-viii-s5-n5-exa-1 .statement tag=09MH}
 
@@ -386,7 +386,7 @@ $$
 
 一方、$Y \cap VK \subset VZ$、よって $X \cap K \subset V^2Z$、そして 1 つは同様に $Z \cap K \subset V^2X$ を示し、$(U'_{III})$ を証明します。 最後に、$X, Y$ が $\mathscr{F}$ の 2 つの異なる元である場合、例えば $a \notin Y$ のような点 $a \in X$ が存在するため、$Va \cap Y = \varnothing$、つまり $a \notin VY$ のような $e$ の対称コンパクト近傍 $V$ が存在します。 *なおさら* $(X, Y) \notin P(Va, V)$、これで主張の証明が完了します。
 
-これが確立されたので、先ほど定義したユニフォーム空間 $\mathscr{F}$ の位相によって引き起こされる $G$ 位相 $\mathscr{T}$ のクローズド部分群の集合 $\Sigma$ を考えてみましょう。 この位相が No. 3* で定義された位相と * 同一であることがわかります。 It will suffice to prove that the mapping $\alpha \mapsto H_\alpha$ of $\Gamma$ into $\Sigma$ is *continuous* when $\Sigma$ is equipped with the topology $\mathscr{T}$: for, the same will then be true of the restriction of this mapping to $\Gamma_\varphi$ (with notations as in No. 1, Prop. 2), which is bijective; but since $\Gamma_\varphi$ is compact and the topology $\mathscr{T}$ is separated, the mapping $\alpha \mapsto H_\alpha$ of $\Gamma_\varphi$ into $\Sigma$ will then be a homeomorphism.
+これが確立されたので、先ほど定義したユニフォーム空間 $\mathscr{F}$ の位相によって引き起こされる $G$ 位相 $\mathscr{T}$ のクローズド部分群の集合 $\Sigma$ を考えてみましょう。 この位相が No. 3* で定義された位相と * 同一であることがわかります。 $\Sigma$ にトポロジー $\mathscr{T}$ が装備されている場合、$\Gamma$ の $\Sigma$ へのマッピング $\alpha \mapsto H_\alpha$ が *連続* であることを証明すれば十分です。つまり、このマッピングの $\Gamma_\varphi$ への制限にも同じことが当てはまります (No. 1、提案 2 のような表記を使用)。全単射;しかし、$\Gamma_\varphi$ はコンパクトであり、トポロジー $\mathscr{T}$ は分離されているため、$\Gamma_\varphi$ の $\Sigma$ への写像 $\alpha \mapsto H_\alpha$ は準同型写像になります。
 
 したがって、$\alpha_0$ を $\Gamma$ の点とし、$\Phi$ を $\alpha_0$ に収束する $\Gamma$ のフィルターとします。 $\Phi$ に関して、$H_\alpha$ は位相 $\mathscr{T}$ に対して $H_{\alpha_0}$ になる傾向があることを示します。 $K$ を $G$ のコンパクト部分集合、$V$ を $G$ の $e$ の対称コンパクト近傍とする。 $x \in H_{\alpha_0} \cap K$ ごとに集合 $M(x) \in \Phi$ が存在し、$\alpha \in M(x)$ ごとに $Vx \cap H_\alpha \neq \varnothing$ (No. 1, 補題 2)、よって $Vx \subset V^2H_\alpha$ が存在します。 集合 $Vx_i$ の有限数で $H_{\alpha_0} \cap K$ をカバーすると、$M = \bigcap_i M(x_i)$ であれば、$\alpha \in M$ ごとに $H_{\alpha_0} \cap K \subset V^2H_\alpha$ になることがわかります。
 

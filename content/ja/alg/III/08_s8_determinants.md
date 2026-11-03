@@ -58,16 +58,16 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: bdd50ebe8b8d502fc1d5571b2da45039d40d32f867d53cb96142a1ff8b331296
+content_sha256: cf7b498e685a78de22ea6fa7b0a24095c1c67c767adb8f020b8a68dbb5a2a322
 translated_from: content/en/alg/III/08_s8_determinants.md
 translation_method: google
 source_content_sha256: a8722fe29a021a8f3f62eb7c41ed5736542a85db99ded2b20167525ac22836eb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ddf102d095c63323d2124712286ba0164e11cd4b241d6ae23dc9c4581fa6117f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。 行列式
@@ -151,7 +151,7 @@ $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_n = (\det u) e_1 \wedge e_2 \wedge \cdots \wedge e_n.
 $$
 
-§ 7, no. 9、定理 2 により、$M$ の $x_i$ から形基底に必要かつ十分な条件は、$\det u$ が $A$ の可逆元であることです。これは (a) と (e) の同値を証明します。 (a) は明らかに条件 (b)、(c)、および (d) のそれぞれを暗示していることに注目してください。 条件 (b)、(c)、および (d) のそれぞれが (e) を意味することを証明することはまだ残っています。 Now, if there exists an endomorphism $v$ of $M$ such that $v \circ u = 1_M$ or $u \circ v = 1_M$, then $(\det v)(\det u) = 1$ and hence $\det u$ is invertible in $A$. $u$ が全射である場合、$\bigwedge^n(u)$ (§ 7, no. 2, 命題 3) も同様です。他の語ホモテティー では、$A$ の det $u$ が全射であり、これはすぐに det $u$ が可逆であることを意味します。
+§ 7, no. 9、定理 2 により、$M$ の $x_i$ から形基底に必要かつ十分な条件は、$\det u$ が $A$ の可逆元であることです。これは (a) と (e) の同値を証明します。 (a) は明らかに条件 (b)、(c)、および (d) のそれぞれを暗示していることに注目してください。 条件 (b)、(c)、および (d) のそれぞれが (e) を意味することを証明することはまだ残っています。 ここで、$v \circ u = 1_M$ または $u \circ v = 1_M$ のような $M$ の準同型性 $v$ が存在する場合、$(\det v)(\det u) = 1$、したがって $\det u$ は $A$ で可逆です。 $u$ が全射である場合、$\bigwedge^n(u)$ (§ 7, no. 2, 命題 3) も同様です。他の語ホモテティー では、$A$ の det $u$ が全射であり、これはすぐに det $u$ が可逆であることを意味します。
 
 #### 命題 3 {#alg-iii-s8-prop-3 .statement tag=0646}
 
@@ -221,7 +221,7 @@ $X = 1$、行列 $X$ の場合、ユニモジュラーと呼ばれます。
 
 #### 例 {#alg-iii-s8-n3-exa-1 .statement tag=064A}
 
-(1) The determinant of the empty matrix is equal to 1; the determinant of a square matrix of order 1 is equal to the unique element of this matrix. 位数 2 の行列について
+(1) 空の行列の行列式は1に等しい。 平方の行列式位数の行列 1は、この行列の一意元に等しい。 行列/位数 2 の場合
 
 $$
 \begin{pmatrix}
@@ -315,7 +315,7 @@ $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathscr{F}_p(J)} \det(x_{H,1}, x_{H,2}, \ldots, x_{H,p}) e_H
 $$
 
-where $\mathscr{F}_p(J)$ is the set of subsets of $J$ with $p$ elements and, for every subset $H \in \mathscr{F}_p(J)$, we write $x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ and $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$, $(j_k)_{1 \leq k \leq p}$ being the sequence of elements of $H$ arranged in increasing order, it being understood that $\det(x_{H,1}, \ldots, x_{H,p})$ is taken with respect to the basis $(e_{jk})_{1 \leq k \leq p}$.
+ここで、$\mathscr{F}_p(J)$ は $J$ の部分集合の集合と $p$ 元であり、部分集合 $H \in \mathscr{F}_p(J)$ ごとに、$x_{H,i} = \sum_{j \in H} \xi_{ji} e_j$ と $e_H = e_{j_1} \wedge e_{j_2} \wedge \cdots \wedge e_{j_p}$ を書き、$(j_k)_{1 \leq k \leq p}$ は数列になります。 $H$ の元を増加する位数に配置すると、$\det(x_{H,1}, \ldots, x_{H,p})$ は基底 $(e_{jk})_{1 \leq k \leq p}$ に関して取られることが理解されます。
 
 #### 命題 7 {#alg-iii-s8-prop-7 .statement tag=064F}
 
@@ -405,13 +405,13 @@ $$
 x_1 \wedge x_2 \wedge \cdots \wedge x_p = \sum_{H \in \mathfrak{F}_p(J)} (\det X_{H,I}) e_H.
 $$
 
-where $H$ runs through the set $\mathfrak{F}_p(J)$ of subsets of $J$ with $p$ elements.
+ここで、$H$ は、$p$ 要素を持つ $J$ のサブセットのセット $\mathfrak{F}_p(J)$ を実行します。
 
 これは、no. 4 の公式 (12) と no. 3 の公式 (6) の直後に続きます。
 
 #### 命題 10 {#alg-iii-s8-prop-10 .statement tag=064L}
 
-$M$ と $N$ を、$u$ のそれぞれ次元 $m$ と $n$、$u : M \to N$ 線形写像と $X$ 行列の 2 つの空き $A$ モジュールとします。 基底 $(e_i)_{1 \leq i \leq m}$ の $M$ と基底 $(f_j)_{1 \leq j \leq n}$ の $N$ です。 Then, for every integer $p \leq \inf(m, n)$, the matrix of $\wedge^p(u)$ with respect to the basis $(e_K)_{K \in \mathfrak{F}_p(I)}$ of $\wedge^p(M)$ and the basis $(f_H)_{H \in \mathfrak{F}_p(J)}$ of $\wedge^p(N)$ (where we have written $I = \{1, m\}$ and $J = \{1, n\}$) is the matrix $(\det(X_{H,K}))$ of type $(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$ (and hence with $\binom{n}{p}$ rows and $\binom{m}{p}$ columns).
+$M$ と $N$ を、$u$ のそれぞれ次元 $m$ と $n$、$u : M \to N$ 線形写像と $X$ 行列の 2 つの空き $A$ モジュールとします。 基底 $(e_i)_{1 \leq i \leq m}$ の $M$ と基底 $(f_j)_{1 \leq j \leq n}$ の $N$ です。 次に、すべての整数 $p \leq \inf(m, n)$ について、$\wedge^p(M)$ の基底 $(e_K)_{K \in \mathfrak{F}_p(I)}$ と $\wedge^p(N)$ の基底 $(f_H)_{H \in \mathfrak{F}_p(J)}$ に関する行列 $\wedge^p(u)$ (ここで $I = \{1, m\}$ と $J = \{1, n\}$ を書きました) は、型 $(\mathfrak{F}_p(J), \mathfrak{F}_p(I))$ の行列 $(\det(X_{H,K}))$ になります (したがって、 $\binom{n}{p}$ 行、$\binom{m}{p}$ 列)。
 
 $p$ 元を含む部分集合 $K \subset J$ の場合、$(j_k)_{1 \leq k \leq p}$ を増加する位数に配置された $K$ の元の数列とします。 定義作 $\wedge^p(u)$ 作、§ 7, no. 2 作、公式作 (4)
 
@@ -419,7 +419,7 @@ $$
 \wedge^p(u)(e_K) = u(e_{j_1}) \wedge u(e_{j_2}) \wedge \cdots \wedge u(e_{j_p}).
 $$
 
-Hence the element of the matrix of $\wedge^p(u)$ which is in the row of index $H$ and the column of index $K$ is the component of index $H$ of the element $u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p})$; it is therefore equal to $\det(X_{H,K})$ by Proposition 9.
+したがって、インデックス $H$ の行とインデックス $K$ の列にある行列 $\wedge^p(u)$ の要素は、要素 $u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p})$ のインデックス $H$ のコンポーネントです。したがって、命題 9 により、それは $\det(X_{H,K})$ に等しくなります。
 
 行列 $(\det(X_{H,K}))$ は、行列 $X$ の $p$ 番目の外面冪と呼ばれ、$\wedge^p(X)$ で表されます。 $p = m = n$、$\wedge^n(X)$ は元 $\det(X)$ の単一で行列になります。
 
@@ -461,7 +461,7 @@ $$
 z_K = \rho_{H, K} \sum_{L \in \mathfrak{F}_p(I)} (\det X_{L, K}) e_H \wedge e_L.
 $$
 
-Now $H \cap L \neq \varnothing$ except for $L = K$; it therefore follows from $§ 7$, no. 8, formula (20) that $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ and formula (18) then follows from Proposition 10 and the definition of the trace of a matrix (II, $§ 10$, no. 11, formulae (49) and (50)).
+現在、$L = K$ を除く $H \cap L \neq \varnothing$;したがって、$§ 7$、no. 8、式 (20) から、命題 10 と行列のトレースの定義 (II、$§ 10$、no. 11、式 (49) および (50)) から $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ および式 (18) が得られます。
 
 #### 系 {#alg-iii-s8-n5-cor-1 .statement tag=064N}
 
@@ -497,7 +497,7 @@ $$
 (20) \quad (\wedge^q(u)(e_H)) \wedge (\wedge^{n-q}(u)(e_K)) = \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) e_I
 $$
 
-where $R$ runs through the set $\mathscr{F}_q(I)$ of subsets of $I$ with $q$ elements.
+ここで、$R$ は、$q$ 要素を持つ $I$ のサブセットのセット $\mathscr{F}_q(I)$ を実行します。
 
 $K = H'$ を取ると、$\wedge^n(u)$ (§ 7, no. 2, 公式 (4)) と § 7, no. 3, 系 1 から命題 5 の定義から、(20) の右辺は $\rho_{H, H'} \wedge^n(u)(e_I)$ になります。したがって (no. 1, 公式 (1) および § 7, no. 2, 公式 (4))
 
@@ -525,7 +525,7 @@ $$
 (24) \quad \sum_{j=1}^n (-1)^{ji} \xi_{ji} \det(X^{jk}) = 0 \quad \text{for } k \neq i.
 $$
 
-公式 (23) は、X の行列式の添字 i* の列による * 拡張として知られています。 スカラー $(-1)^{i+j} \det(X^{ji})$ は、$X$ の添字 $j$ および $i$ (または、言葉の乱用により、$\xi^{ji}$ の補因子) の *補因子* と呼ばれます。
+公式 (23) は、X の行列式を添字 i* の列で拡張したものとして知られています。スカラー $(-1)^{i+j} \det(X^{ji})$ は、$X$ の添字 $j$ および $i$ (または、言葉の乱用により、$\xi^{ji}$ の補因子) の *補因子* と呼ばれます。
 
 $X$ の補因子 * の *行列は行列
 
@@ -540,7 +540,7 @@ $$
 {}^tY . X = (\det X) I_n.
 $$
 
-したがって：
+したがって:
 
 #### 命題 12 {#alg-iii-s8-prop-12 .statement tag=064O}
 
@@ -553,7 +553,7 @@ $$
 
 *ここで、$Y$は$X$の補因子行列です。*
 
-$X$ の *転置* を考慮し、no. 5 の命題 8 を使用することにより、行の 2 つの相補的な集合に関連するラプラス展開、特に 1 行による $\det X$ の展開を取得できます。したがって、以下と同等の公式が存在します。
+$X$ の *転置* を考慮し、no. 5 の命題 8 を使用することにより、2 つの相補的な行集合を基準としたラプラス展開、特に $\det X$ の行による展開を取得できます。したがって、以下と同等の公式が存在します。
 
 $$(28)$$
 $$
@@ -562,7 +562,7 @@ $$
 
 上記記法で。
 
-It is easily verified that if $X$ is the matrix of an endomorphism $u$ of a free $\mathbf{A}$-module $M$ of dimension $n$ with respect to a basis $(e_i)_{1 \leq i \leq n}$, ${}^t Y$ is the matrix of the endomorphism $\tilde{u}$ of $M$ defined by the following condition: for every set of $n$ elements $x, y_2, \ldots, y_n$ of $M$,
+$X$ が、基底 $(e_i)_{1 \leq i \leq n}$ に関して、自由な $\mathbf{A}$ モジュール $M$ の次元 $n$ の自己準同型 $u$ の行列である場合、 ${}^t Y$ は、自己準同型の行列 $M$ の $\tilde{u}$ で、次の条件によって定義されます: $n$ 元 $x, y_2, \ldots, y_n$ の $M$ のすべての集合について、
 
 $$
 \tilde{u}(x) \wedge y_2 \wedge \cdots \wedge y_n = x \wedge u(y_2) \wedge \cdots \wedge u(y_n).
@@ -572,7 +572,7 @@ $\tilde{u}$ は、$u$ (cf. § 11, no. 11、系から命題 13) の *共転置* �
 
 #### 例 {#alg-iii-s8-n6-exa-1 .statement tag=064P}
 
-(1) *Vandermonde determinant.* Given a sequence $(\zeta_i)_{1 \leq i \leq n}$ of $n$ elements of $\mathbf{A}$, the *Vandermonde determinant* of this sequence is the determinant
+(1) *ヴァンデルモンド行列式.* $n$ の $(\zeta_i)_{1 \leq i \leq n}$ $\mathbf{A}$ の数列元を考えると、この数列の *ヴァンデルモンド行列式* は行列式です
 
 $$
 V(\zeta_1, \zeta_2, \ldots, \zeta_n) = \begin{vmatrix}
@@ -591,9 +591,9 @@ $$
 V(\zeta_1, \zeta_2, \ldots, \zeta_n) = \prod_{i < j} (\zeta_j - \zeta_i).
 $$
 
-$n = 1$に対して命題は明らかなので、$n$に対して帰納法で議論します。
+命題は$n = 1$の明らかなので、$n$について帰納法で議論します。
 
-For each index $k \geq 2$, we subtract from the row of index $k$ the row of index $k - 1$ multiplied by $\zeta_1$; the value of the determinant is unaltered and hence
+添字 $k \geq 2$ ごとに、添字 $k$ の行から添字 $k - 1$ に $\zeta_1$ を掛けた行を引きます。 行列式の値は変更されていないため、
 
 $$
 V(\zeta_1, \zeta_2, \ldots, \zeta_n) = \begin{vmatrix}
@@ -611,9 +611,9 @@ $$
 V(\zeta_1, \ldots, \zeta_n) = (\zeta_2 - \zeta_1)(\zeta_3 - \zeta_1) \cdots (\zeta_n - \zeta_1) V(\zeta_2, \ldots, \zeta_n)
 $$
 
-これは、帰納法によって (29) を確立します。
+これにより、帰納法によって (29) が確立されます。
 
-(2) 「行列の上三角行列」（II, § 10, no. 7、例IV）の形で表される位数$n$の平方行列を考えます。
+(2) 「行列の上三角行列」(II, § 10, no. 7、例IV)の形で表される位数$n$の平方行列を考えます。
 
 $$
 X = \begin{pmatrix} Y & T \\ 0 & Z \end{pmatrix}
@@ -672,7 +672,7 @@ $$
 \det(u \otimes u') = (\det u)^{n'} (\det u')^n.
 $$
 
-なぜなら、$u \otimes u' = (u \otimes 1_{M'}) \circ (1_M \otimes u')$ と書くと、2 つの自己準同型 $u, u'$ のうちの 1 つが同一性である場合に導かれるからです。 For example if $u' = 1_{M'}$ and $X$ is the matrix of $u$ with respect to a basis $(e_i)$ of $M$, then the matrix of $u \otimes 1_{M'}$ with respect to the tensor product of $(e_i)$ and a basis of $M'$ can be written as a matrix (with $n'$ rows and $n'$ columns) of matrices with $n$ rows and $n$ columns
+なぜなら、$u \otimes u' = (u \otimes 1_{M'}) \circ (1_M \otimes u')$ と書くと、2 つの自己準同型 $u, u'$ のうちの 1 つが同一性である場合に導かれるからです。 たとえば、$u' = 1_{M'}$ と $X$ が、$M$ の基底 $(e_i)$ に対して$u$ の行列である場合、$(e_i)$ のテンソル積に対して$u \otimes 1_{M'}$ の行列であり、 $M'$ の基底は、行列 ($n'$ 行と $n'$ 列) の行列 $n$ 行と $n$ 列として書くことができます。
 
 $$
 \begin{pmatrix}
@@ -712,21 +712,21 @@ $u$ を $\mathbf{A}^n$ の自己準同型 $x \mapsto L.x$ とし、標準基底�
 
 *$n$ 可換環上の未知数における $n$ 線形方程式の系が、右辺に関係なく少なくとも 1 つの解を許容するには、系の行列の行列式が可逆であることが必要かつ十分です。この場合、系は 1 つの解を許可します。*
 
-If $\det L$ is not a divisor of zero in $\mathbf{A}$, equation (34) is equivalent to the equation
+$\det L$ が $\mathbf{A}$ のゼロの約数ではない場合、式 (34) は次の式と等価です。
 $$
 (\det L)L.x = (\det L)y.
 $$
-If $M$ is the cofactor matrix of $L$, we derive from (34) and formula (26) of no. 6 the relation
+$M$ が $L$ の余因子行列である場合、(34) と no. 6 の式 (26) から次の関係を導き出します。
 (36)
 $$
 (\det L)x = {}^tM.y
 $$
-which may also be written
+これも書かれているかもしれません
 (37)
 $$
 (\det L)\xi_i = \sum_{j=1}^n (-1)^{i+j}(\det L^{ij})\eta_j = \det L_i \quad (1 \leq i \leq n)
 $$
-where $L_i$ denotes the matrix obtained by replacing the column of $L$ of index $i$ by $y$. 式 (37) は、系 (34) の *Cramer の公式 * と呼ばれます。 (34) のすべての解は (37) の解でもあります。 逆に、no. 6 の公式 (28) を考慮して (36) から導き出します。
+ここで、$L_i$ は、インデックス $i$ の $L$ の列を $y$ で置き換えることによって得られる行列を示します。 式 (37) は、系 (34) の *Cramer の公式 * と呼ばれます。 (34) のすべての解は (37) の解でもあります。 逆に、no. 6 の公式 (28) を考慮して (36) から導き出します。
 (38)
 $$
 (\det L)(L.x - y) = 0
@@ -756,7 +756,7 @@ $\mathbf{E}$ を可換体よりもベクトル空間にします。 $p$ ベク�
 
 #### 系 {#alg-iii-s8-n8-cor-1 .statement tag=064T}
 
-$X$ を可換体上の型 $(m, n)$ の行列とします。 The rank of $X$ is equal to the greatest integer $p$ such that there exists at least one minor of $X$ of order $p$ which is $\neq 0$.
+$X$ を可換体上の型 $(m, n)$ の行列とします。 $X$ の階数は最大の整数 $p$ に等しいため、位数 $p$ の $X$ のマイナー、つまり $\neq 0$ が少なくとも 1 つ存在します。
 
 $X$の階数は、$X$(II, § 10, no. 12、定義7)の線形独立列の最大値数です。 系は、no. 5 の命題 15 と公式 (17) から続きます。
 
@@ -782,7 +782,7 @@ $$
 
 ### 9. ユニモジュラー 群 $\mathbf{SL}(n, A)$
 
-$\mathbf{M}_n(A)$ が $A$ 上の位数 $n$ の正方行列の環を表すとします。 写像 $\det : \mathbf{M}_n(A) \to A$ を考えてみましょう。 The group $\mathbf{GL}(n, A)$ of invertible elements of $\mathbf{M}_n(A)$ (isomorphic to the group of automorphisms of the $A$-module $A^n$ (II, § 10, no. 7)) is just the inverse image under this mapping of the multiplicative group $A^*$ of invertible elements of $A$ (no. 3, Proposition 5). 一方、注意は、写像 $\det : \mathbf{GL}(n, A) \to A^*$ は群準同型 (no. 3、命題 5) です。
+$\mathbf{M}_n(A)$ が $A$ 上の位数 $n$ の正方行列の環を表すとします。 写像 $\det : \mathbf{M}_n(A) \to A$ を考えてみましょう。 $\mathbf{M}_n(A)$ の可逆要素の群 $\mathbf{GL}(n, A)$ ($A$ 加群 $A^n$ (II, § 10, no. 7) の自己同型群と同型) は、$A$ (no. 3、命題) の可逆要素の乗法群 $A^*$ のこの写像の下でのまさに逆像です。 5)。 一方、注意は、写像 $\det : \mathbf{GL}(n, A) \to A^*$ は群準同型 (no. 3、命題 5) です。
 
 さらに、写像 $\det : \mathbf{M}_n(A) \to A$ は*全射*です(したがって、準同型 $\det : \mathbf{GL}(n, A) \to A^*$も同様です)。以来、$\lambda \in A$全員にとって、
 

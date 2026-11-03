@@ -49,16 +49,16 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: ed5174b79f0e7f6991ac06fcee94f6d02227fa338a2423d66fb475e659649340
+content_sha256: 6f933f2dc1702b89b86ab1a16ec6f8bd9b93b41981fdecc69cffd6c2e6027357
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
 translation_method: google
 source_content_sha256: 4ac8e46f4200ac7e7f332753e43fe2ec6dc6c4857b2b82b1a42df8d051c7b1e2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 86201050fe027fc1c3b6942942d4fda097a21f0ff0214dda70e4937274861e9b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。指数関数と循環関数写像の導関数
@@ -428,7 +428,7 @@ $$ (30)
 
 $\log z$ は、正の開いた実半軸 $\mathbf{R}_+^*$ 上で定義された写像 $\log x$ の F に対する拡大であることは明らかです。 $z,\ z'$ が F の 2 つの点で、$zz'$ が実負でない場合、$\log(zz') = \log z + \log z' + 2\varepsilon \pi i$ が得られます。ここで、$\mathrm{Am}(z)$ と $\mathrm{Am}(z')$ の値に応じて、$\varepsilon = +1,\ -1$ または 0 になります。
 
-We note that at the points of the negative real half-axis the function $\log z$ has no limit; to be precise, if $x$ tends to $x_0 < 0$ and if $y$ tends to 0 remaining > 0 (resp. < 0), then $\log z$ tends to $\log |x_0| + \pi i$ (resp. $\log |x_0| - \pi i$); when $z$ tends to 0, $|\log z|$ increases indefinitely.
+負の実数半軸の点では、関数 $\log z$ には制限がないことに注意してください。正確に言うと、$x$ が $x_0 < 0$ になる傾向があり、$y$ が 0 残り > 0 (それぞれ < 0) になる傾向がある場合、$\log z$ は $\log |x_0| + \pi i$ (それぞれ $\log |x_0| - \pi i$) になる傾向があります。 $z$ が 0 に近づくと、$|\log z|$ は無限に増加します。
 
 解析的写像の理論により、完全な一般性で拡大する写像 $\log z$ と複素対数定義するがどのように可能になるかについては後で説明します。
 

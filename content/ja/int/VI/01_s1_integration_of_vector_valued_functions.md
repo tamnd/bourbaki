@@ -40,16 +40,16 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: 20fedb50e4b92f66cb58715b750d8a3145b4cae97a45eaa26013cd4f459bcac9
+content_sha256: f9944d7ae5e333dce8d1d7a6711bcaf792a1176b4253659c324cdc3f6a8fa47b
 translated_from: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
 translation_method: google
 source_content_sha256: 9798f2a69885491f713db436a4833ff226e18b3becfed322106b65f6897d576a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cd6c68f8795adfbaf3f43711ce37603c0950a28cf8189841db08322c6c36cc92
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。ベクトル値写像の積分
@@ -86,7 +86,7 @@ F が有限次元であれば、T から F へのスカラー的に本質的に�
 
 f の積分は、スカラー的に局所的に $\mu$ が無視できる F への T の写像の空間を法とする f の類にのみ依存することは明らかです。スカラー的に局所的に無視できる写像 g は、必ずしもほぼどこでも零であるわけではないことに注意してください (Exer. 12)。ただし、これは実際に、位相 $\sigma(F', F)$ に対して密な F' 数列 $(\mathbf{z}'_n)$ が存在する場合に当てはまります。つまり、$H_n$ が点 $t \in T$ の局所的に無視できる集合であり、$\langle g(t), \mathbf{z}'_n \rangle \neq 0$、和集合である場合です。 $H_n$ の H は局所的に無視でき、すべての $t \notin H$ について、すべての n、よって $g(t) = 0$ に対して $\langle g(t), \mathbf{z}'_n \rangle = 0$ が存在します。
 
-Let u be a continuous linear mapping of F into a Hausdorff locally convex space G; its transpose $^t u$ is a linear mapping of $G'$ into $F'$, and the (algebraic) transpose $^t(^t u)$ is a linear mapping of ${F'}^*$ into ${G'}^*$ that extends u, which we shall again denote by u. この規約により、次のようになります。
+u をハウスドルフ局所凸空間 G への F の連続線形写像とする。その転置 $^t u$ は $G'$ から $F'$ への線形写像であり、(代数) 転置 $^t(^t u)$ は u を拡張する ${F'}^*$ から ${G'}^*$ への線形写像であり、これを再び u で表します。 この規約により、次のようになります。
 
 #### 命題 1 {#int-vi-s1-prop-1 .statement tag=098I}
 
@@ -124,7 +124,7 @@ $$
 
 #### 命題 4 {#int-vi-s1-prop-4 .statement tag=098L}
 
-— $T$ と $T'$ を 2 つの局所的にコンパクトな空間、$\mu$ (それぞれ $\mu'$) を $T$ (それぞれ $T'$) での正の測度、$\nu = \mu \otimes \mu'$ 積を $X = T \times T'$ での測度とする。 $f$を$X$の写像を$F$にします。 Assume that: $1^\circ$ $f$ is scalarly $\nu$-integrable; $2^\circ$ there exists a locally $\mu$-negligible set $N \subset T$ such that, for every $t \notin N$, the mapping $t' \mapsto f(t, t')$ is scalarly $\mu'$-integrable, and $\int f(t, t') d\mu'(t') \in F$. 次に、$t \notin N$ に対して定義された写像 $t \mapsto \int f(t, t') d\mu'(t')$ は、本質的にスカラー的に $\mu$ 積分可能であり、$^4$
+— $T$ と $T'$ を 2 つの局所的にコンパクトな空間、$\mu$ (それぞれ $\mu'$) を $T$ (それぞれ $T'$) での正の測度、$\nu = \mu \otimes \mu'$ 積を $X = T \times T'$ での測度とする。 $f$を$X$の写像を$F$にします。 次のように仮定します。 $1^\circ$ $f$ はスカラー的に $\nu$ 積分可能です。 $2^\circ$、すべての $t \notin N$ について、マッピング $t' \mapsto f(t, t')$ がスカラー的に $\mu'$ 積分可能、および $\int f(t, t') d\mu'(t') \in F$ となるような、局所的な $\mu$ 無視可能な集合 $N \subset T$ が存在します。 次に、$t \notin N$ に対して定義された写像 $t \mapsto \int f(t, t') d\mu'(t')$ は、本質的にスカラー的に $\mu$ 積分可能であり、$^4$
 
 $$
 \iint f(t, t') d\mu(t) d\mu'(t') = \int d\mu(t) \int f(t, t') d\mu'(t') .
@@ -143,7 +143,7 @@ $D$ は閉じた半空間含む $f(S)$ (TVS、II, §5, No. 3、提案 4 の Cor.
 
 #### 系 {#int-vi-s1-n2-cor-1 .statement tag=098N}
 
-— Let $\mu$ be a bounded positive measure on $T$, $S$ a $\mu$-measurable set carrying $\mu$, and $f$ a mapping of $T$ into $F$, scalarly $\mu$-measurable and such that $f(S)$ is contained in a weakly compact convex subset $A$ of $F$. この場合、$f$ はスカラー的に $\mu$ 積分可能であり、$\int f\, d\mu \in \mu(T)A \subset F$ です。
+— $\mu$ を $T$ 、$S$ を $\mu$ を運ぶ $\mu$ 可測集合、および $f$ を $T$ から $F$ へ、スカラー的に $\mu$ 可測で、$f(S)$ となるような写像とする。は、$F$ の弱くコンパクトな凸サブセット $A$ に含まれています。 この場合、$f$ はスカラー的に $\mu$ 積分可能であり、$\int f\, d\mu \in \mu(T)A \subset F$ です。
 
 すべての $z' \in F'$ に対して、$\langle z', f \rangle$ は $\mu$ 可測であり、$S$ で境界があるため、可積分可能です。これは、$f$ がスカラー的に可積分であることを証明します。また、$A$は$F_\sigma$でコンパクトなので$F'$*で閉じられ、$F'$*の$f(S)$の閉じた凸包絡線は$A$、よって系に含まれます。
 
@@ -161,7 +161,7 @@ $D$ を $z \in F$ の集合とし、$q(z) \leq 1$ とします。 $D$ は閉じ�
 
 #### 命題 7 {#int-vi-s1-prop-7 .statement tag=098P}
 
-— Let $f$ be a mapping of $T$ into $F$, scalarly essentially $\mu$-integrable, such that for every compact subset $K$ of $T$, $f(K)$ is contained
+— $f$ を、$T$ から $F$ へのマッピングとし、スカラー的に本質的に $\mu$ 積分可能であり、すべてのコンパクトなサブセットに $T$、$f(K)$ の $K$ が含まれるようにします。
 
 (*) *有界* 正測度 $\mu$ の場合、$\mu$ 可積分関数と本質的に $\mu$ 可積分関数の概念は同じであることを思い出してください (提案 9 の V, §1, No. 3 項)。
 
@@ -221,7 +221,7 @@ $B$ は有界であり、一般的な項 $\mu(K_n)$ を持つ系列は収束し�
 
 ### 3. 演算子の積分
 
-Let $G$ and $H$ be two Hausdorff locally convex spaces over $\mathbf{R}$, and suppose now that $F$ is the space $\mathscr{L}(G; H)$ of continuous linear mappings of $G$ into $H$, equipped with the topology of *pointwise* convergence. Every continuous linear form on $F$ may be extended to a continuous linear form on the product space $H^G$ (TVS, II, §4, No. 1, Prop. 2), hence may be written $u \mapsto \sum_{i=1}^n \langle u(a_i), b'_i \rangle$, where the $a_i$ (resp. the $b'_i$) are elements of $G$ (resp. of the dual $H'$ of $H$). To say that a mapping $U$ of $T$ into $F$ is scalarly essentially $\mu$-integrable means that, for every $a \in G$ and every $b \in H'$, the numerical function $t \mapsto \langle U(t) \cdot a, b' \rangle$ is essentially $\mu$-integrable.
+$G$ と $H$ を $\mathbf{R}$ 上の 2 つのハウスドルフ局所凸空間とし、$F$ が *点ごとの* 収束のトポロジーを備えた $G$ から $H$ への連続線形写像の空間 $\mathscr{L}(G; H)$ であると仮定します。 $F$ 上のすべての連続線形形式は、積空間 $H^G$ (TVS、II, §4, No. 1、提案 2) 上の連続線形形式に拡張でき、従って $u \mapsto \sum_{i=1}^n \langle u(a_i), b'_i \rangle$ と書くことができます。ここで、$a_i$ (それぞれ $b'_i$) は $G$ (それぞれ双対 $H'$ の要素) です。 $H$)。 $T$ の $F$ への写像 $U$ がスカラー的に本質的に $\mu$ 可積分であると言うことは、すべての $a \in G$ とすべての $b \in H'$ について、数値関数 $t \mapsto \langle U(t) \cdot a, b' \rangle$ が本質的に $\mu$ 可積分であることを意味します。
 
 #### 命題 9 {#int-vi-s1-prop-9 .statement tag=098T}
 
@@ -319,13 +319,13 @@ $F'_s$ の双対が F (TVS、II, §6, No. 2、提案 3) であることを思い
 
 *f を T の $F'_s$ への写像とし、$z \in F$ ごとに数値写像 $\langle z, f \rangle$ 属するから $\overline{\mathscr{L}}^p(\mu)$ ($1 \leq p \leq +\infty$) とします。 $L^p(\mu)$のこの写像の類を$\theta(z)$とします。次に、$z \mapsto \theta(z)$ は、F の線形写像が $L^p(\mu)$ に連続したものになります。
 
-By virtue of the (GDF) property, it suffices to show that for every sequence $(z_n)$ of elements of F converging to $z$, such that $(\theta(z_n))$ converges to $u \in L^p(\mu)$, one has $u = \theta(z)$. ここで、サブシーケンスによって置き換えること必要に応じて数列 $(z_n)$ を使用すると、写像 $\langle z_n, f \rangle$ の数列がほぼどこでも局所的に写像 $h \in \overline{\mathscr{L}}^p(\mu)$ に収束し、$L^p(\mu)$ では類 $u$ が生じると仮定できます。 (Ch. IV, §3, No. 4、木。 3およびCh. V, §1, No. 3)。 仮定までに、すべての $t \in T$ 数列 $(\langle z_n, f(t) \rangle)$ が $\langle z, f(t) \rangle$ に収束するため、ほぼどこでも局所的に $h(t) = \langle z, f(t) \rangle$ があり、その結果、$u = \theta(z)$ になります。
+(GDF) 特性により、$(\theta(z_n))$ が $u \in L^p(\mu)$ に収束するような、$z$ に収束する F の要素のすべてのシーケンス $(z_n)$ に対して、$u = \theta(z)$ が存在することを示すだけで十分です。 ここで、サブシーケンスによって置き換えること必要に応じて数列 $(z_n)$ を使用すると、写像 $\langle z_n, f \rangle$ の数列がほぼどこでも局所的に写像 $h \in \overline{\mathscr{L}}^p(\mu)$ に収束し、$L^p(\mu)$ では類 $u$ が生じると仮定できます。 (Ch. IV, §3, No. 4、木。 3およびCh. V, §1, No. 3)。 仮定までに、すべての $t \in T$ 数列 $(\langle z_n, f(t) \rangle)$ が $\langle z, f(t) \rangle$ に収束するため、ほぼどこでも局所的に $h(t) = \langle z, f(t) \rangle$ があり、その結果、$u = \theta(z)$ になります。
 
 #### 系 1 {#int-vi-s1-lem-2-cor-1 .statement tag=098Z}
 
 *$G_i$ ($1 \leq i \leq n$) を性質 (GDF) を持つ局所凸ハウスドルフ $n$ 空間とし、$F$ を点単位収束の位相を備えた $\prod_{i=1}^n G_i$ 上で個別に連続する多重線形形式の空間とします。 $T$ の $F$ へのすべての写像 $f$ は、本質的にスカラー的に $\mu$ 積分可能であり、$\int f d\mu \in F$ になります。*
 
-空間 $F$ はテンソル積 $\bigotimes_{i=1}^n G_i$ と双対関係にあり、$F$ への点収束の位相は他ならぬ位相 $\sigma(F, \bigotimes_{i=1}^n G_i)$ です。 従って、代数双対 ${F'}^*$ は、$\prod_{i=1}^n G_i$ 上のすべての多重線形形式の空間です。 Let $z = (z_1, \ldots, z_n)$ be an element of $\prod_{i=1}^n G_i$; for every multilinear form $u \in {F'}^*$, the mapping $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ is a linear form on $G_i$, which we shall denote by $\lambda_i(z)(u)$; we thus obtain a linear mapping $\lambda_i(z)$ of ${F'}^*$ into the algebraic dual $G_i^*$ of $G_i$, continuous for the topologies $\sigma({F'}^*, \bigotimes_{i=1}^n G_i)$ and $\sigma(G_i^*, G_i)$. $u \in F$ ということは、添字 $i$ と $z \in \prod_{i=1}^n G_i$ ごとに $\lambda_i(z)(u) \in G_i'$ があることを意味します。 さて、No. 1の提案1により、$F$の写像$\lambda_i(z)$は、位相$\sigma(G_i', G_i)$を備えた$T$の$G_i'$へのスカラー的に本質的に$\mu$積分可能な写像であり、そして
+空間 $F$ はテンソル積 $\bigotimes_{i=1}^n G_i$ と双対関係にあり、$F$ への点収束の位相は他ならぬ位相 $\sigma(F, \bigotimes_{i=1}^n G_i)$ です。 従って、代数双対 ${F'}^*$ は、$\prod_{i=1}^n G_i$ 上のすべての多重線形形式の空間です。 $z = (z_1, \ldots, z_n)$ を $\prod_{i=1}^n G_i$ の要素とします。すべての多重線形形式 $u \in {F'}^*$ について、マッピング $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ は $G_i$ 上の線形形式であり、これを $\lambda_i(z)(u)$ で表します。従って、トポロジー $\sigma({F'}^*, \bigotimes_{i=1}^n G_i)$ と $\sigma(G_i^*, G_i)$ に対して連続する、${F'}^*$ の線形写像 $\lambda_i(z)$ から $G_i$ の代数双対 $G_i^*$ への写像が得られます。 $u \in F$ ということは、添字 $i$ と $z \in \prod_{i=1}^n G_i$ ごとに $\lambda_i(z)(u) \in G_i'$ があることを意味します。 さて、No. 1の提案1により、$F$の写像$\lambda_i(z)$は、位相$\sigma(G_i', G_i)$を備えた$T$の$G_i'$へのスカラー的に本質的に$\mu$積分可能な写像であり、そして
 $$
 \int (\lambda_i(z) \circ f) d\mu = \lambda_i(z) \left( \int f d\mu \right).
 $$
@@ -365,7 +365,7 @@ $T$ を局所コンパクト空間、$F$ を準完全、ハウスドルフ局所
 
 #### 命題 14 {#int-vi-s1-prop-14 .statement tag=0993}
 
-*T を局所コンパクト空間、F を準完全、ハウスドルフ局所凸空間、f を T から F への連続写像とする。 If the space $\mathscr{C}'(T)$ of measures on T with compact support is equipped with the topology of uniform convergence in the compact subsets of $\mathscr{C}(T)$, then the mapping $\lambda \mapsto \int f d\lambda$ is the unique continuous linear mapping $\tilde{f}$ of $\mathscr{C}'(T)$ into F such that $\tilde{f}(\varepsilon_t) = f(t)$ for every $t \in T$.*
+*T を局所コンパクト空間、F を準完全、ハウスドルフ局所凸空間、f を T から F への連続写像とする。 コンパクトなサポートを備えた T 上のメジャーの空間 $\mathscr{C}'(T)$ が、$\mathscr{C}(T)$ のコンパクトなサブセットにおける一様収束のトポロジーを備えている場合、マッピング $\lambda \mapsto \int f d\lambda$ は、$t \in T$ ごとに $\tilde{f}(\varepsilon_t) = f(t)$ となるような、F への $\mathscr{C}'(T)$ の固有の連続線形マッピング $\tilde{f}$ です。
 
 拡大の一意性を確立するには、点が$\mathscr{C}'(T)$の$\varepsilon_t$形の合計集合を測定することを確認するだけで十分です。 $\mathscr{C}'(T)$ の双対は $\mathscr{C}(T)$ (TVS, IV, §1, No. 1, Th. 1) であるため、すべてのメジャー $\varepsilon_t$ に直交するすべての写像 $g \in \mathscr{C}(T)$ が定義 (TVS, IV, §1, No. 2,提案 2)。
 
@@ -401,17 +401,17 @@ b) $T$ のすべてのコンパクト部分集合 $K$ について、$U(K)$ は�
 
 また、$U$がこれら条件を満たす場合、$U$は$T$をコンパクトコンバージェンス位相を備えた$\mathscr{L}(G; H)$に連続写像となります。
 
-To see that a) implies b), we observe that for every neighborhood $V$ of 0 in $H$ and every $t \in K$, there exist by hypothesis a neighborhood $L_t$ of $t$ in $T$ and a neighborhood $W_t$ of 0 in $G$ such that the relations $t' \in L_t$ and $x \in W_t$ imply $U(t') \cdot x \in V$. $K$ を近傍 $L_{t_i}$ の有限数でカバーし、位数で $W = \bigcap_i W_{t_i}$ を取り、$t \in K$ と $x \in W$ のたびに $U(t) \cdot x \in V$ を持たせるだけで十分です。これは、$U(K)$ の等連続性を証明します。
+a) が b) を意味することを確認するには、$H$ の 0 の近傍 $V$ とすべての $t \in K$ について、仮定までに $T$ の $t$ の近傍 $L_t$ と $G$ の 0 の近傍 $W_t$ が存在することを観察します。 関係 $t' \in L_t$ と $x \in W_t$ は $U(t') \cdot x \in V$ を暗示します。 $K$ を近傍 $L_{t_i}$ の有限数でカバーし、位数の $W = \bigcap_i W_{t_i}$ を$t \in K$ と $x \in W$ のたびに$U(t) \cdot x \in V$ とするだけで十分であり、$U(K)$ の等連続性を証明します。
 
-逆に、b) が検証されたとします。 $T$ のすべてのコンパクト部分集合 $K$ について、写像 $(t, x) \mapsto U(t) \cdot x$ が $K \times G$ で連続であることを示すだけで十分です。 $M = U(K)$ にしましょう。 $M$ は等連続であるため、$M$ では、$G$ の点ごとの収束の位相は、$D$ の点ごとの収束の位相 (GT、X, §2, No. 4、Th. 1) と同一になります。したがって、仮定 b) は、$\mathscr{L}(G; H)$ に点単位収束の位相が装備されている場合、$t \mapsto U(t)$ は $K$ から $\mathscr{L}(G; H)$ への連続的な写像であることを意味します。一方、$M$に点収束の位相が装備されている場合、$(A, x) \mapsto A \cdot x$は$M \times G$の$H$への連続写像になります（GT、X, §2, No. 1、提案1のCor.4）。 写像 $(t, x) \mapsto U(t) \cdot x$ は $(t, x) \mapsto (U(t), x) \mapsto U(t) \cdot x$ として因数分解できるため、 結論するは連続であることがわかります。
+逆に、b) が検証されたとします。 $T$ のすべてのコンパクト部分集合 $K$ について、写像 $(t, x) \mapsto U(t) \cdot x$ が $K \times G$ で連続であることを示すだけで十分です。 $M = U(K)$ にしましょう。 $M$ は等連続であるため、$M$ では、$G$ の点ごとの収束の位相は、$D$ の点ごとの収束の位相 (GT、X, §2, No. 4、Th. 1) と同一になります。したがって、仮定 b) は、$\mathscr{L}(G; H)$ に点単位収束の位相が装備されている場合、$t \mapsto U(t)$ は $K$ から $\mathscr{L}(G; H)$ への連続的な写像であることを意味します。一方、$(A, x) \mapsto A \cdot x$ は、$M$ に点収束の位相が装備されている場合 (GT、X, §2, No. 1、提案 1 の Cor. 4)、$M \times G$ から $H$ への連続的な写像です。 写像 $(t, x) \mapsto U(t) \cdot x$ は $(t, x) \mapsto (U(t), x) \mapsto U(t) \cdot x$ として因数分解できるため、結論するは連続であることがわかります。
 
-最後に、補題の最後の主張は、$M$, 位相において、コンパクト収束の位相はポイントワイズ収束 (GT, X, §2, No. 4, Th. 1) のそれと同一であるという事実から導き出されます。
+最後に、補題の最後の主張は、$M$ においてコンパクト収束の位相がポイントワイズ収束 (GT, X, §2, No. 4, Th. 1) のそれと同一であるという事実から導き出されます。
 
-したがって、$U$ が補題 3 の条件を満たすとします。次に、($H$が準完全である場合) No. 6、線形写像 $\lambda \mapsto \int U d\lambda$ の $\mathscr{C}'(T)$ を $F = \mathscr{L}(G; H)$ に入れるように、定義する 1 つを追加します。私たちは集合 $U(\lambda) = \int U d\lambda$です。
+したがって、$U$ が補題 3 の条件を満たすと仮定します。次に ($H$ が準完全である場合) No. 6、$\mathscr{C}'(T)$ の線形写像 $\lambda \mapsto \int U d\lambda$ を $F = \mathscr{L}(G; H)$ に変換するように、1 つの定義するを追加します。私たちは集合 $U(\lambda) = \int U d\lambda$です。
 
 #### 命題 16 {#int-vi-s1-prop-16 .statement tag=0997}
 
-— $G, H$ を 2 つのハウスドルフ局所凸空間とし、$H$ を準完全であると仮定します。 $U$ を $T$ から $\mathscr{L}(G; H)$ への写像とし、$(t, x) \mapsto U(t) \cdot x$ が $T \times G$ から $H$ への連続する写像とします。この場合、$\mathscr{C}'(T) \times G$ から $H$ への双線形写像 $(\lambda, x) \mapsto U(\lambda) \cdot x$ は、$\mathscr{C}'(T)$ の等連続部分集合および$G$ のコンパクト部分集合と比べて非連続です (これは、線形写像 $\lambda \mapsto U(\lambda)$ が意味します) $\mathscr{C}'(T)$ から $F$ は連続です)。
+— $G, H$ を 2 つのハウスドルフ局所凸空間とし、$H$ を準完全であると仮定します。 $U$ を $T$ から $\mathscr{L}(G; H)$ への写像とし、$(t, x) \mapsto U(t) \cdot x$ が $T \times G$ から $H$ への連続する写像とします。次に、$\mathscr{C}'(T) \times G$ の $H$ への双線形写像 $(\lambda, x) \mapsto U(\lambda) \cdot x$ は、$\mathscr{C}'(T)$ の等連続部分集合および$G$ のコンパクト部分集合と比べて非連続です (これは、線形写像 $\lambda \mapsto U(\lambda)$ が意味します) $\mathscr{C}'(T)$ から $F$ は連続です)。
 
 $\mathscr{C}'(T)$の写像としての$\lambda \mapsto U(t)$の$F$への連続性は、No. 6の提案14に続く補題3と注意2から続きます。従って、$H$ の 0 の閉じたバランスのとれた凸近傍 $V$ と、$\mathscr{C}'(T)$ の等連続部分集合 $N$ ごとに、$G$ に 0 の近傍 $W$ が存在し、関係 $x \in W, \lambda \in N$ が意味することを証明する必要があります。それは$U(\lambda) \cdot x \in V$です。 $N = S^\circ$ ($S$ は $\mathscr{C}(T)$ の 0 の近傍です) と仮定できます。その結果、$S$ は写像 $g \in \mathscr{C}(T)$ の集合であると仮定できます。つまり、コンパクト部分集合上の $|g(t)| \leq 1$ です。 $T$の$K$。それを示せば十分です
 
@@ -421,7 +421,7 @@ $\mathscr{C}'(T)$の写像としての$\lambda \mapsto U(t)$の$F$への連続�
 
 #### 命題 17 {#int-vi-s1-prop-17 .statement tag=0998}
 
-— G、H を 2 つのハウスドルフ局所凸空間とし、H を準完全であると仮定します。 Let U be a mapping of T into L(G; H) (t, x) ↦ U(t) · x が T × G 上で連続であり、U(T) が等連続であるような式。 次に、M^1(T) に Banach 空間位相が装備されている場合、M^1(T) × G の H への双線形写像 (λ, x) ↦ U(λ) · x は連続です (これは特に、M^1(T) の線形写像 λ ↦ U(λ) が L(G; H) は L(G; H) には、有界収束の位相が装備されています。
+— G、H を 2 つのハウスドルフ局所凸空間とし、H を準完全であると仮定します。 U を T の L(G; H) (t, x) ↦ U(t) · x が T × G 上で連続であり、U(T) が等連続であるような式。 次に、M^1(T) に Banach 空間位相が装備されている場合、M^1(T) × G の H への双線形写像 (λ, x) ↦ U(λ) · x は連続です (これは特に、M^1(T) の線形写像 λ ↦ U(λ) が L(G; H) は L(G; H) には、有界収束の位相が装備されています。
 
 #### 命題 18 {#int-vi-s1-prop-18 .statement tag=0999}
 

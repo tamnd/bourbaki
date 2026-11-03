@@ -25,16 +25,16 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 4
-content_sha256: d597013b0547ab643b52a83e96722b64d5191f5d27c1bd14a9a8e3baf5ff1c82
+content_sha256: 82bd2cb24ade5b608ec283024ec13d32fcc0b7189a523bbace2ac3b9bae9900e
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 translation_method: google
 source_content_sha256: f9d7400def142eff7395a68ad471a8fd0e9e5f47e8dd9c61b495ed3c4a325f89
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 61477138f641ee8400fe637ddf51baee21bbff46408d440abbe17d4f15c5da59
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 10。 リー群中自己同型群
@@ -192,7 +192,7 @@ $H$ を有限次元単純接続リー群とします。
 (i) すべての $u \in \mathrm{Aut}\, L(H)$ について、$\theta(u)$ を $L(\theta(u)) = u$ となるような $H$ の一意の自己同型とします。 次に、$(\mathrm{Aut}\, L(H)) \times H$ の $H$ への写像 $(u, g) \mapsto \theta(u)g$ は分析的です。
 (ii) $N$ を、$v(N) = N$ となるような、$H$ の嘘部分群と $v \in \mathrm{Aut}\, H$ の$\mathrm{Aut}(H, N)$ 集合とする。 すると、$0^{-1}(\mathrm{Aut}(H, N))$は$\mathrm{Aut}\, L(H)$の嘘部分群になります。
 (iii) $N$ が離散かつ正規であるため、$G = H/N$ のリー代数が $L(H)$ と同一視されるとします。 すべての $w \in \mathrm{Aut}\, G$ について、$\eta(w)$ を $L(\eta(w)) = L(w)$ となるような $H$ の一意の自己同型とします。 すると、写像 $\eta$ は、群 $\mathrm{Aut}\, G$ の同型が群 $\mathrm{Aut}(H, N)$ になります。
-(i) を証明するには、no. 1 の補題 3 によって、写像 $(u, g) \mapsto \theta(u)g$ が $(\mathrm{Id}_{L(H)}, e)$ の近傍で解析的であることを検証するだけで十分です。 $L(H)$ には 0 の開いた近傍 B が存在し、$\psi = \exp_H|B$ は H の e の開いた近傍に対する B の解析的同型になります。 Aut $L(H)$ には $\mathrm{Id}_{L(H)}$ のオープン近傍 U が存在し、$U(B') \subset B$ のように $L(H)$ には 0 のオープン近傍 $B'$ が存在します。 Then the mapping $(u, g) \mapsto \theta(u)g$ of $U \times \psi(B')$ into H is composed of the following mappings:
+(i) を証明するには、no. 1 の補題 3 によって、写像 $(u, g) \mapsto \theta(u)g$ が $(\mathrm{Id}_{L(H)}, e)$ の近傍で解析的であることを検証するだけで十分です。 $L(H)$ には 0 の開いた近傍 B が存在し、$\psi = \exp_H|B$ は H の e の開いた近傍に対する B の解析的同型になります。 Aut $L(H)$ には $\mathrm{Id}_{L(H)}$ のオープン近傍 U が存在し、$U(B') \subset B$ のように $L(H)$ には 0 のオープン近傍 $B'$ が存在します。 次に、$U \times \psi(B')$ の H へのマッピング $(u, g) \mapsto \theta(u)g$ は次のマッピングで構成されます。
 
 $U \times \psi(B')$ の写像 $(u, g) \mapsto (u, \psi^{-1}(g))$ を $U \times B'$ に。
 写像 $(u, x) \mapsto u(x)$ の $U \times B'$ を $B$ に。
@@ -228,7 +228,7 @@ G を有限次元リー群とし、その恒等式成分を $G_0$ とします�
 (v) $a$ を G の微小自己同型の集合とする。 すると、$a$ は、ベクトル体のリー代数と、(Aut G) $\times$ G の写像 $(u, g) \mapsto u(g)$ に関連付けられた微小演算の法則です。 G へのL(Aut G) の同型です。 $a$へ。
 (vi) リー群 Aut G の位相は位相 $\mathscr{T}_\beta$ です。
 (a) (i) で検討した分析構造の一意性は明らかです。
-(b) G が接続されているとします。 Let H be the universal covering space of G, $p$ the canonical morphism of H onto G and N = Ker $p$. 記法 $\theta$, $\eta$ と補題 4 の Aut(H, N) を紹介します。 私たちは、Aut L(G) の輸送リー群構造を $\theta$ によって Aut H にします。 すると、Aut H は有限次元リー群になり、Aut(H, N) は Aut H の Lie 部分群 (補題 4 (ii)) になります。 $\eta^{-1}$ によって Aut(H, N) を輸送リー群構造から Aut G に変換します。 すると、Aut G は有限次元のリー群になります。 定理の性質 (ii)、(iii)、(iv) が満たされ、(Aut G) $\times$ G から G への写像 $(u, g) \mapsto u(g)$ は解析的です (補題 4 (i))。 M を Aut G への M の多様体、$f$ 写像、および G への M $\times$ G の $\phi$ 写像 $(m, g) \mapsto f(m)g$ とする。 明らかに、$f$ が分析的であれば、$\phi$ も分析的です。 $\phi$ が分析的であると仮定します。 次に、T$\phi$: TM $\times$ TG $\to$ TG は分析的です。したがって、制限から M $\times$ L(G) へ、つまり M $\times$ L(G) から L(G) への写像 $(m, x) \mapsto L(f(m))x$ は解析的です。 L(G) は有限次元であるため、M の写像 $m \mapsto L(f(m))$ を Aut L(G) に変換することは解析的であり、したがって $f$ は解析的であることになります。 したがって、(i) が成り立ちます。
+(b) G が接続されているとします。 H を G の普遍被覆空間、$p$ を G への H の正準射、N = Ker $p$ とします。 記法 $\theta$, $\eta$ と補題 4 の Aut(H, N) を紹介します。 私たちは、Aut L(G) の輸送リー群構造を $\theta$ によって Aut H にします。 すると、Aut H は有限次元リー群になり、Aut(H, N) は Aut H の Lie 部分群 (補題 4 (ii)) になります。 $\eta^{-1}$ によって Aut(H, N) を輸送リー群構造から Aut G に変換します。 すると、Aut G は有限次元のリー群になります。 定理の性質 (ii)、(iii)、(iv) が満たされ、(Aut G) $\times$ G から G への写像 $(u, g) \mapsto u(g)$ は解析的です (補題 4 (i))。 M を Aut G への M の多様体、$f$ 写像、および G への M $\times$ G の $\phi$ 写像 $(m, g) \mapsto f(m)g$ とする。 明らかに、$f$ が分析的であれば、$\phi$ も分析的です。 $\phi$ が分析的であると仮定します。 次に、T$\phi$: TM $\times$ TG $\to$ TG は分析的です。したがって、制限から M $\times$ L(G) へ、つまり M $\times$ L(G) から L(G) への写像 $(m, x) \mapsto L(f(m))x$ は解析的です。 L(G) は有限次元であるため、M の写像 $m \mapsto L(f(m))$ を Aut L(G) に変換することは解析的であり、したがって $f$ は解析的であることになります。 したがって、(i) が成り立ちます。
 
 L(G) にノルムを与えます。 すべての $\lambda > 0$ について、B_\lambda を L(G) の中心 0 および半径 $\lambda$ の開球とする。 選ぶ $\lambda > 0$ は、$\psi = \exp_G|_{B_\lambda}$ が G の開部分多様体 $\psi(B_\lambda)$ 上の解析的多様体 B_\lambda の同型となるのに十分小さいです。 $\Phi$ を Aut G のフィルターとします。 Aut G で $\Phi$ が $\mathrm{Id}_G$ に収束するには、Aut L(G) で $L(\Phi)$ が $\mathrm{Id}_{L(G)}$ に収束することが必要かつ十分であり、したがって、$L(\Phi)|_{B_{\lambda/2}}$ と $L(\Phi)^{-1}|_{B_{\lambda/2}}$ は一様に $\mathrm{Id}_{B_{\lambda/2}}$ に収束します。 この条件は、$\Phi|\psi(B_{\lambda/2})$ と $\Phi^{-1}|\psi(B_{\lambda/2})$ が一様に $\mathrm{Id}_{\psi(B_{\lambda/2})}$ に収束することを意味します。 逆に、$\Phi|\psi(B_{\lambda/2})$ が$\mathrm{Id}_{\psi(B_{\lambda/2})}$ に一様に収束するとします。 $u \in M$ であれば $u(\psi(B_{\lambda/2})) \subset \psi(B_{2\lambda/3})$ となるような M $\in \Phi$ が存在します。この場合、L(u)(B_{\lambda/2}) は、L(G) の接続された部分集合であり、$\exp_G$ の下の像は $\psi(B_{2\lambda/3})$ に含まれるため、L(u)(B_{\lambda/2}) は満たされません。 $B_\lambda - B_{2\lambda/3}$ したがって、 L(u)(B_{\lambda/2}) $\subset$ B_\lambda;その場合、仮定 $\Phi|\psi(B_{\lambda/2})$ が $\mathrm{Id}_{\psi(B_{\lambda/2})}$ に一様に収束するということは、$L(\Phi)|_{B_{\lambda/2}}$ が $\mathrm{Id}_{B_{\lambda/2}}$ に一様に収束することを意味します。 すると次のようになります。
 
@@ -242,15 +242,15 @@ D を、G 上の Aut(G) の左演算の法則に関連付けられた無限小�
 
 したがって、定理は G 接続について完全に証明されました。
 
-(c) 一般的なケースに移ります。 仮定により、G は $G_0$ と元 $x_1, x_2, \ldots, x_n$ の有限数によって生成されます。 $u \in \text{Aut } G$ ごとに $G_0$ が安定します。 $\text{Aut}_1 G$ を $u \in \text{Aut } G$ の集合とし、移行から商で、$G/G_0$ の同一性自己同型を与えます。 これは通常の $\text{Aut } G$ の部分群です。 By part (b) of the proof, $\text{Aut } G_0$ has a canonical Lie group structure and the mapping $(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$ of $G_0^n \times \text{Aut } G_0$ into $G_0^n$ is analytic. P を $\text{Aut } G_0$ の $G_0^n$ の対応する半直積とします。それは有限次元のリー群 ($§ 1$、no. 4、命題 7) です。
+(c) 一般的なケースに移ります。 仮定までに、G は $G_0$ と元 $x_1, x_2, \ldots, x_n$ の有限数によって生成されます。 $u \in \text{Aut } G$ ごとに $G_0$ が安定します。 $\text{Aut}_1 G$ を $u \in \text{Aut } G$ の集合とし、移行から商で$G/G_0$ の同一性自己同型を与えます。これは通常の$\text{Aut } G$の部分群です。 証明の部分 (b) により、$\text{Aut } G_0$ は正規のリー群構造と $G_0^n \times \text{Aut } G_0$ の写像 $(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$ から $G_0^n$ への分析的です。 P を $\text{Aut } G_0$ $G_0^n$ の対応する半直積とします。それは有限次元のリー群 ($§ 1$, no. 4, 命題 7) です。
 
-If $w \in \text{Aut}_1 G$, we write
+$w \in \text{Aut}_1 G$ の場合、次のように書きます
 $$
 w_0 = w|G_0 \in \text{Aut } G_0 \\
 w_i = x_i^{-1}w(x_i) \in G_0 \quad (1 \leq i \leq n) \\
 \zeta(w) = ((w_1, \ldots, w_n), w_0) \in P.
 $$
-For all $w, w'$ in $\text{Aut}_1 G$,
+$\text{Aut}_1 G$ のすべての $w, w'$ に対して、
 $$
 \begin{align*}
 \zeta(w)\zeta(w') &= ((w_1, \ldots, w_n)(w_0(w'_1), \ldots, w_0(w'_n)), w_0w'_0) \\
@@ -260,7 +260,7 @@ $$
 &= \zeta(ww')
 \end{align*}
 $$
-and hence $\zeta$ is a homomorphism of $\text{Aut}_1 G$ into P. This homomorphism is obviously injective.
+したがって、$\zeta$ は $\text{Aut}_1 G$ の準同型を P に変換したものになります。この準同型は明らかに単射です。
 
 $\zeta(\text{Aut}_1 G)$ が P で閉じていることを示します。$\Phi$ を、$\zeta(\Phi)$ が P の点 $((w_1, \ldots, w_n), w_0)$ に収束するように、$\text{Aut}_1 G$ のフィルターとします。次に、$\Phi$ は G の写像 v から G に点的に収束します。明らかに、v は の自己準同型です。 群 G. さらに、v は各剰余類 $G_0$ を法として安定し、$v|G_0 = w_0$ を残します。 $v \in \text{Aut}_1 G$ということになります。 $\zeta(v) = ((w_1, \ldots, w_n), w_0)$ として、$\zeta(\text{Aut}_1 G)$ が P で閉じていることを示しました。
 
@@ -275,7 +275,7 @@ f分析的
 写像 (m, g) ↦ M × G_0 を G に変換する f(m)g は解析的です
 ⇔ φ は解析的です。
 
-w ∈ Aut_1G の場合、L(w) = L(w_0) であるため、Aut_1G の射 w ↦ L(w) から Aut L(G) への変換は解析的です。 We see as in (b) that the law of infinitesimal operation associated with the law of operation of Aut_1G on G is an isomorphism of L(Aut_1G) onto a.
+w ∈ Aut_1G の場合、L(w) = L(w_0) であるため、Aut_1G の射 w ↦ L(w) から Aut L(G) への変換は解析的です。 (b) のように、G 上の Aut_1G の演算の法則に関連付けられた無限小演算の法則は、a 上では L(Aut_1G) の同型であることがわかります。
 
 C を G_0 生成する G_0 の圧縮部分集合とします。フィルタ Φ が Aut_1G で $\mathrm{Id}_G$ に収束するには、Φ|(C ∪ {x_1} ∪ ... ∪ {x_n}) と Φ^{-1}|(C ∪ {x_1} ∪ ... ∪ {x_n}) が均一に収束することが必要かつ十分です。
 
@@ -287,7 +287,7 @@ Id_a|(C ∪ {x_1} ∪ ... ∪ {x_n})。
 
 (e) 証明の部分 (e) では、K = C と仮定します。 (c) と § 8, no. 2 の定理 2 により、Aut_1G 実リー群構造上には、P の実 Lie 部分群上で ζ が Aut_1G の同型となるようなものが存在します。
 
-The law of operation (w, g) ↦ wg of (Aut_1G) × G on G is real analytic. D を無限小演算に関連付けられた法則とします。 no. 1の命題 1と2により、D(L(Aut_1G)) = a。
+法則 of 演算 (w, g) ↦ wg of (Aut_1G) × G on G は実際の解析です。 D を無限小演算の関連する法則とします。 no. 1の命題 1と2により、D(L(Aut_1G)) = a。
 
 すべての α ∈ a について、α_0 が α から G_0 までの制限を表すものとします。それは、L(Aut G_0) の元を持つ証明の部分 (b) により、同一視するとなる G_0 の無限小自己同型です。 1 ≤ i ≤ n の場合、次のように書きます。
 

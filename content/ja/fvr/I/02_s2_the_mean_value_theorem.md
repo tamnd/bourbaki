@@ -29,16 +29,16 @@ subsections:
       pdf_page: 33
 statements: 21
 exercises: 14
-content_sha256: c7b1bbe58ed67d1e76c97d007a4cbcf8fc3c58d172559ebb2584a00b0a4fca6a
+content_sha256: 98a2832ef2e92a8d4222ba60aa8237dee95482413540364f53ac6693ee87a681
 translated_from: content/en/fvr/I/02_s2_the_mean_value_theorem.md
 translation_method: google
 source_content_sha256: cd3afa585ab839f9102101bc5e9f950b6b2590f43edbec61f3394622431f01ca
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8a7de113b4bc132b35cd42cabd03c74e03b510946fd949de2705ecc159f38c38
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。平均値定理
@@ -59,7 +59,7 @@ $f$ を、$[a, b]$ ($a < b$) 上で有限連続であり、点ごとに導関数
 
 プロップを適用するだけです。 1 から写像 $f(x) - \frac{f(b) - f(a)}{b - a}(x - a)$ まで。
 
-This corollary signifies that there is a point $M_c = (c, f(c))$ on the graph $C$ of $f$ such that $a < c < b$ and such that the tangent to $C$ at this point is parallel to the line joining the points $M_a = (a, f(a))$ and $M_b = (b, f(b))$.
+この結果は、$f$のグラフ$C$上に点$M_c = (c, f(c))$があり、$a < c < b$となり、この点での$C$の接線が点$M_a = (a, f(a))$と$M_b = (b, f(b))$を結ぶ線に平行であることを意味します。
 
 ### 2. 実数値写像の平均値定理
 
@@ -309,7 +309,7 @@ $0 \leq t \leq 1$ に $g(t) = \frac{1}{b - a} f(a + t(b - a))$ を入れます�
 
 *複素変数のベクトル写像 $f$ は、開いた集合 $A \subset \mathbf{C}$ 上で定義され連続しており、$\mathbf{C}$ 上の正規化された空間の値では、定数であるためには、すべての微分値が零であれば十分です。 $A$中点.*
 
-Indeed, let $a$ be an arbitrary point of $A$; the set $B$ of points $z$ of $A$ where $f(z) = f(a)$ is *closed* because $f$ is continuous; it is also *open*, as is shown by applying prop. 4 (with $m = 0$) to a convex open neighbourhood, contained in $A$, of an arbitrary point of $B$; so is identical to $A$.
+確かに、$a$ を $A$ の任意の点とします。 集合点の $B$ $A$ の $z$ ここで、$f$ は連続であるため、$f(z) = f(a)$ は *閉じられています*。 適用プロパティで示されているように、*開いている* こともあります。 4 ($m = 0$ 付き) $B$ の任意の点の、$A$ に含まれる開いた凸近傍に。したがって、$A$と同じです。
 
 #### 命題 5 {#fvr-i-s2-prop-5 .statement tag=084H}
 

@@ -62,16 +62,16 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: bf9252eea7e1bbcd236d0216e67b4a71af8572cdbfa9215fd63f015817e39d10
+content_sha256: 25bc73675b5f1ac19d8670f621ed1d2c23b854664ae6037757ec4bd76d75eb0c
 translated_from: content/en/alg/III/10_s10_derivations.md
 translation_method: google
 source_content_sha256: aaeacce850abcb26b3dc2f0a2b6232e064f49c1f74a413c96833e391ff1f75f3
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 3bac597a9f82e75832c2f9c3f74fb9cc1e1dcad0e8f3b002ffb80f66a8cc6299
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 10。 導分
@@ -120,11 +120,11 @@ $$
 
 #### 定義 1 {#alg-iii-s10-def-1 .statement tag=0667}
 
-*Given the above and a commutation factor $\varepsilon$ on $\Delta \times \Delta$, an $\varepsilon$-derivation (or $(K, \varepsilon)$-derivation) of degree $\delta \in \Delta$ of $(A, A', A'')$ into $(B, B', B'')$ is a triple of graded $K$-linear mappings of degree $\delta$:*
+*上記と、$\Delta \times \Delta$ の転流係数 $\varepsilon$ を考慮すると、$(A, A', A'')$ から $(B, B', B'')$ への次数 $\delta \in \Delta$ の $\varepsilon$ 微分 (または $(K, \varepsilon)$ 微分) は、次数 $\delta$ の段階的 $K$ 線形マッピングの 3 倍になります。
 $$
 d : A \to B, \qquad d' : A' \to B', \qquad d'' : A'' \to B''
 $$
-*such that, for every homogeneous element $a \in A$ and every element $a' \in A'$*
+*すべての同種要素 $a \in A$ とすべての要素 $a' \in A'$* について
 (4)
 $$
 d''(a.a') = (da).a' + \varepsilon_{\delta, \deg(a)}a.(d'a').
@@ -221,11 +221,11 @@ M を K-加群とし、A を通常の目盛 (§ 7, no. 1) を持つ外装代数 
 
 #### 例 5 {#alg-iii-s10-n3-exa-5 .statement tag=066D}
 
-Returning to the general situation of Definition 1 of no. 2, let $\overline{K}$ be another commutative ring and $\rho : K \to \overline{K}$ a ring homomorphism; let $\overline{A}, \overline{A}', \overline{A}'', \overline{B}, \overline{B}', \overline{B}''$ denote the graded $\overline{K}$-modules obtained respectively from $A, A', A'', B, B', B''$ by extending the ring of scalars to $\overline{K}$ (II, § 11, no. 5); we derive from $\mu, \lambda_1$ and $\lambda_2$ $\overline{K}$-bilinear mappings
+no. 2 の定義 1 という一般的な状況に戻り、$\overline{K}$ を他の可換環および $\rho : K \to \overline{K}$ 環準同型とします。 $\overline{A}, \overline{A}', \overline{A}'', \overline{B}, \overline{B}', \overline{B}''$ は、スカラーの環を $\overline{K}$ (II, § 11, no. 5) に拡張することによって $A, A', A'', B, B', B''$ からそれぞれ得られる段階的な $\overline{K}$ モジュールを表します。 $\mu, \lambda_1$ と $\lambda_2$ $\overline{K}$ の双線形マッピングから導出されます。
 $$
 \bar{\mu} : \overline{A} \times \overline{A}' \to \overline{A}'', \quad \bar{\lambda}_1 : \overline{B} \times \overline{A}' \to \overline{B}'', \quad \bar{\lambda}_2 : \overline{A} \times \overline{B}' \to \overline{B}''
 $$
-by considering the tensor products by $l_{\overline{K}}$ of the corresponding $K$-linear mappings to $\mu, \lambda_1$ and $\lambda_2$ (II, § 5, no. 1). Then, if $d$ is an $\varepsilon$-derivation of degree $\delta$ of $(A, A', A'')$ into $(B, B', B'')$, the mapping $\bar{d} = d \otimes l_{\overline{K}}$ of $\overline{A} \oplus \overline{A}' \oplus \overline{A}''$ into $\overline{B} \oplus \overline{B}' \oplus \overline{B}''$ is an $\varepsilon$-derivation of degree $\delta$ of $(\overline{A}, \overline{A}', \overline{A}'')$ into $(\overline{B}, \overline{B}', \overline{B}'')$.
+対応する $K$ の $l_{\overline{K}}$ によるテンソル積から $\mu, \lambda_1$ および $\lambda_2$ (II, § 5, no. 1) への線形マッピングを考慮します。 次に、$d$ が $(A, A', A'')$ の次数 $\delta$ の $(B, B', B'')$ への $\varepsilon$ 導関数である場合、$\overline{A} \oplus \overline{A}' \oplus \overline{A}''$ の $\overline{B} \oplus \overline{B}' \oplus \overline{B}''$ への写像 $\bar{d} = d \otimes l_{\overline{K}}$ は、$(\overline{A}, \overline{A}', \overline{A}'')$ の次数 $\delta$ の $\varepsilon$ 導関数です。 $(\overline{B}, \overline{B}', \overline{B}'')$。
 
 #### 例 6 {#alg-iii-s10-n3-exa-6 .statement tag=066E}
 
@@ -234,23 +234,23 @@ $$
 d(x_p x_q) = (p + q)x_p x_q = d(x_p)x_q + x_p d(x_q).
 $$
 
-### 4. 導分中合成
+### 4. 合成/導分
 
-このNo.で推測します。 no. 2 のケース (I) が成り立ちます。つまり、$A, A', A''$ は、型 $\Delta$ の 3 つの等級付けされた $K$ モジュールであり、等級付けされたモデルへの $K$ 双線形写像 $\mu : A \times A' \to A''$ 対応するが与えられます。 次数 0、$A \otimes_K A' \to A''$ の$K$ 線形マッピング。 $f(A) \subset A, f(A') \subset A'$ と $f(A'') \subset A''$ 形のような $A \oplus A' \oplus A''$ の等級付けされた自己準同型 $f$ は、等級付けされた連想代数 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ (§ 3, no. 1、例) の等級付けされた部分代数 2)。特に、$(A, A', A'')$ の 2 つの $\varepsilon$ 派生は構成できますが、2 つの $\varepsilon$ 派生のうち合成が $\varepsilon$ 派生であると考えるべきではありません。
+このNo.で推測します。 no. 2 のケース (I) が成り立ちます。つまり、$A, A', A''$ は型 $\Delta$ の 3 つの段階付き $K$ 加群であり、段階付きへの $K$ 双線形写像 $\mu : A \times A' \to A''$ 対応するが与えられるということです。 $K$-次数 0、$A \otimes_K A' \to A''$ の線形マッピング。 $f(A) \subset A, f(A') \subset A'$ と $f(A'') \subset A''$ 形のような $A \oplus A' \oplus A''$ のグレーディング自己準同型 $f$ は、グレーテッド連想代数 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ (§ 3, no. 1, 例) のグレーディング部分代数 2)。特に、$(A, A', A'')$ の 2 つの $\varepsilon$ 導出は構成できますが、2 つの $\varepsilon$ 導出のうち合成が $\varepsilon$ 導出であると考えるべきではありません。
 
-型 $\Delta$ のすべての等級付けされた代数 $B$ では、公式によって 2 つの同種元 $u, v$ の$\varepsilon$ 括弧 (または、$\varepsilon = 1$ の場合は単に括弧) が定義されます (10)
+型 $\Delta$ のすべての等級付けされた代数 $B$ では、公式によって 2 つの同種元 $u, v$ の $\varepsilon$ 括弧 (または単に $\varepsilon = 1$ の場合は括弧) が定義されます (10)
 $$
 [u, v]_\varepsilon = uv - \varepsilon_{\deg u, \deg v} vu \text{ (denoted simply by } [u, v] \text{ if } \varepsilon = 1).
 $$
-この写像を線形性で拡張すると、$B \times B$から$B$への$K$双線形写像$(u, v) \mapsto [u, v]_\varepsilon$が得られます。次に、$B$ の同次$u$ と $v$ について、
+この写像を線形性で拡張すると、$B \times B$ から $B$ への $K$ 双線形写像 $(u, v) \mapsto [u, v]_\varepsilon$ が得られます。次に、$B$ の同次$u$ と $v$ について
 $$
 [v, u]_\varepsilon = -\varepsilon_{\deg u, \deg v}[u, v]_\varepsilon.
 $$
-適用この定義から段階的代数 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ へ、2 つの段階的自己準同型の$\varepsilon$ 括弧が定義されます。
+適用この定義から等級付けされた代数 $\mathrm{Endgr}_K(A \oplus A' \oplus A'')$ へ、2 つの等級付けされた自己準同型の$\varepsilon$ ブラケットが定義されます。
 
 #### 命題 1 {#alg-iii-s10-prop-1 .statement tag=066F}
 
-*$d_1, d_2$ を、それぞれの次数 $\delta_1, \delta_2$ の $(A, A', A'')$ の 2 つの $\varepsilon$ 派生とします。次に、$\varepsilon$-括弧*
+*$d_1, d_2$ を、それぞれの次数 $\delta_1, \delta_2$ の $(A, A', A'')$ の 2 つの $\varepsilon$ 導関数とします。次に、$\varepsilon$-ブラケット*
 $$
 [d_1, d_2]_\varepsilon = d_1 \circ d_2 - \varepsilon_{\delta_1, \delta_2} d_2 \circ d_1
 $$
@@ -326,7 +326,7 @@ $$
 (P(T'') - \sum_i Q_i(T)R_i(T')).\mu = 0
 $$
 
-または、$B$ モジュール $M$ の $(P(T'') - P(T + T')).\mu = 0$。 Now, the hypothesis that the $d_i$ are derivations can also be expressed by saying that, for $1 \leq i \leq n$,
+または、$B$ モジュール $M$ の $(P(T'') - P(T + T')).\mu = 0$。 さて、$d_i$ が派生であるという仮説は、$1 \leq i \leq n$ について次のように表すこともできます。
 
 $$
 (T_i'' - T_i - T_i').\mu = 0
@@ -375,7 +375,7 @@ $$
 
 と命題 2.
 
-### 5.  代数の導分を A-加群に
+### 5. 代数の導分を A-加群に
 
 このNo.で推測します。 no. 2 の場合 (II) が成り立ちます。次に、グレード付けされた K-代数 A とグレード付けされた K-加群 E があり、さらに 2 つの次数 0 の K-線型写像があります。
 
@@ -573,7 +573,7 @@ $$
 $$
 *ここで、u は標準単射 、v は準同型 $d \mapsto d \circ \sigma$* (命題 9) です。
 
-The kernel of v is the set of derivations $d : C \to G$ such that $d(\sigma(b)) = 0$ for all $b \in B$, which is precisely the image of u.
+v の核は、導分 $d : C \to G$ の集合であり、すべての $b \in B$ に対して $d(\sigma(b)) = 0$ となり、正確に u の像になります。
 
 ### 8. 導分と代数準同型の間の関係
 
@@ -617,7 +617,7 @@ $$
 
 *代数 $A \oplus E(\delta)$ が結合的かつ単一であるためには、$A$ が結合的かつ単一であること、および $E$ 上の写像 $(a, x) \mapsto a.x$ および $(a, x) \mapsto x.a$ 定義するが $(A, A)$ バイモジュール構造であることが必要かつ十分です。 $A \oplus E(\delta)$ の単位元は $(1, 0)$ になります。*
 
-元 $(u, m) \in A \oplus E(\delta)$ がこの代数の単位元として書かれている場合、$u$ は $A$ の単位元でなければならないことがすぐにわかります。 $(u, m).(0, x) = (0, x).(u, m) = (0, x)$と書くと、$x \in E$に対して$u.x = x.u = x$が得られ、$(u, m).(u, 0) = (u, 0).(u, m) = (u, 0)$と書くと、$m = 0$が得られます。 $A \oplus E(\delta)$ のときに $A$ が結合的であるという事実は、拡張が全射準同型であるという事実からわかります。 The condition $(x.a').a'' = x.(a'.a'')$ is then equivalent to $((0, x)(a', 0))(a'', 0) = (0, x)((a', 0)(a'', 0))$ and similarly the condition $a.(a'.x) = (a.a').x$ is equivalent to
+元 $(u, m) \in A \oplus E(\delta)$ がこの代数の単位元として書かれている場合、$u$ は $A$ の単位元でなければならないことがすぐにわかります。 $(u, m).(0, x) = (0, x).(u, m) = (0, x)$と書くと、$x \in E$に対して$u.x = x.u = x$が得られ、$(u, m).(u, 0) = (u, 0).(u, m) = (u, 0)$と書くと、$m = 0$が得られます。 $A \oplus E(\delta)$ のときに $A$ が結合的であるという事実は、拡張が全射準同型であるという事実からわかります。 条件 $(x.a').a'' = x.(a'.a'')$ は $((0, x)(a', 0))(a'', 0) = (0, x)((a', 0)(a'', 0))$ と等価になり、同様に条件 $a.(a'.x) = (a.a').x$ は以下と等価になります。
 
 $$
 (a, 0)((a', 0)(0, x)) = ((a, 0)(a', 0))(0, x);
@@ -659,11 +659,11 @@ $$
 (b, t)(b', t') = (bb', bt' + tb')
 $$
 
-これは、$(1, 0)$ を単位元 (no. 8、命題 13) とします。 標準単射 $t \mapsto (0, t)$ では、$\mathbf{E}$ は $\mathbf{E}^2 = \{0\}$ となるような $B \oplus \mathbf{E}$ の両側の理想と同一視されます。 一方、$h_0(a) = (a, d_0(a))$ によって定義される写像 $h_0 : B \oplus \mathbf{E}$ は、環準同型 (no. 8, 命題 12) です。この写像の下で、$B \oplus \mathbf{E}$は$\mathbf{A}$-代数になります。 さらに、すべての $x \in M$ について、$h_1(x) = (x, d_1(x))$ と書くと、$h_0$ の定義と (29) から $h_1(ax) = h_0(a)h_1(x)$ が得られます。他の語 $h_1$ は、$M$ から $B \oplus \mathbf{E}$ への $\mathbf{A}$ 線形マッピングです。 Then there exists one and only one $\mathbf{A}$-algebra homomorphism, $h : B \to B \oplus \mathbf{E}$ such that $h|_M = h_1$ (and necessarily $h|_{\mathbf{A}} = h_0$): for, if $B = T(M)$, this follows from $§ 5$, no. 1, Proposition 1; if $B = S(M)$, condition (30) shows that $h(x)h(y) = h(y)h(x)$ for all $x, y$ in $M$ and the conclusion follows from $§ 6$, no. 1, Proposition 2; finally if $B = \bigwedge(M)$, condition (31) shows that $(h(x))^2 = 0$ for all $x \in M$, since $x \wedge x = 0$ and the conclusion follows from $§ 7$, no. 1, Proposition 1. The homomorphism $h$ is such that the composition $p \circ h : B \to B$ with the augmentation $\rho : B \oplus \mathbf{E} \to B$ is the identity $l_B$, for $p \circ h$ and $l_B$ coincide by definition for the elements of $\mathbf{A}$ and those of $M$ and the set of these elements is a generating system of $B$. We can therefore write $h(b) = (b, d(b))$ for all $b \in B$ and the mapping $b \mapsto d(b)$ of $B$ into $\mathbf{E}$ is a derivation with the required properties, by virtue of Proposition 12 of no. 8.
+これは、$(1, 0)$ を単位元 (no. 8、命題 13) とします。 標準単射 $t \mapsto (0, t)$ では、$\mathbf{E}$ は $\mathbf{E}^2 = \{0\}$ となるような $B \oplus \mathbf{E}$ の両側の理想と同一視されます。 一方、$h_0(a) = (a, d_0(a))$ によって定義される写像 $h_0 : B \oplus \mathbf{E}$ は、環準同型 (no. 8, 命題 12) です。この写像の下で、$B \oplus \mathbf{E}$は$\mathbf{A}$-代数になります。 さらに、すべての $x \in M$ について、$h_1(x) = (x, d_1(x))$ と書くと、$h_0$ の定義と (29) から $h_1(ax) = h_0(a)h_1(x)$ が得られます。他の語 $h_1$ は、$M$ から $B \oplus \mathbf{E}$ への $\mathbf{A}$ 線形マッピングです。 Then there exists one and only one $\mathbf{A}$-algebra homomorphism, $h : B \to B \oplus \mathbf{E}$ such that $h|_M = h_1$ (and necessarily $h|_{\mathbf{A}} = h_0$): for, if $B = T(M)$, this follows from $§ 5$, no. 1, Proposition 1; if $B = S(M)$, condition (30) shows that $h(x)h(y) = h(y)h(x)$ for all $x, y$ in $M$ and the conclusion follows from $§ 6$, no. 1, Proposition 2; finally if $B = \bigwedge(M)$, condition (31) shows that $(h(x))^2 = 0$ for all $x \in M$, since $x \wedge x = 0$ and the conclusion follows from $§ 7$, no. 1, Proposition 1. 準同型性 $h$ は、拡張 $\rho : B \oplus \mathbf{E} \to B$ を伴う合成 $p \circ h : B \to B$ が単位 $l_B$ であるようなもので、$p \circ h$ と $l_B$ は$\mathbf{A}$ の要素と $M$ の要素について定義により一致し、これらの要素の集合は次の生成システムです。 $B$。 したがって、すべての $b \in B$ に対して $h(b) = (b, d(b))$ と書くことができ、no. 8 の命題 12 により、$B$ の $\mathbf{E}$ への写像 $b \mapsto d(b)$ は必要な特性を備えた導出となります。
 
 #### 系 {#alg-iii-s10-n9-cor-1 .statement tag=066Z}
 
-*Let $M$ be a graded $K$-module of type $\Delta$; the $K$-algebras $T(M)$, $S(M)$ and $\bigwedge(M)$ are given the corresponding graduations of type $\Delta' = \Delta \times \mathbf{Z}$ ($§ 5$, no. 5, Proposition 7, $§ 6$, no. 6, Proposition 10 and $§ 7$, no. 7, Proposition 11). 一方、$M$ には型 $\Delta'$ の目盛りが与えられ、すべての $\alpha \in \Delta$ に対して $M_{\alpha, 1} = M_{\alpha}$ が、$\alpha \in \Delta$ と $n \neq 1$ に対して $M_{\alpha, n} = \{0\}$ が与えられます。 $\varepsilon'$ を $\Delta'$ よりも交換因子とします。*
+*$M$ をタイプ $\Delta$ のグレード付き $K$ モジュールとします。 $K$-代数 $T(M)$、$S(M)$、$\bigwedge(M)$ には、$\Delta' = \Delta \times \mathbf{Z}$ 型 ($§ 5$、no. 5、命題 7、$§ 6$、no. 6、命題 10 および $§ 7$、 no. 7、提案 11)。 一方、$M$ には型 $\Delta'$ の目盛りが与えられ、すべての $\alpha \in \Delta$ に対して $M_{\alpha, 1} = M_{\alpha}$ が、$\alpha \in \Delta$ と $n \neq 1$ に対して $M_{\alpha, n} = \{0\}$ が与えられます。 $\varepsilon'$ を $\Delta'$ よりも交換因子とします。*
 
 (i) E を型 $\Delta'$ の段階的 (左および右) $\mathbf{T}(M)$ バイモジュールとする。すべての $\delta \in \Delta$ とすべての整数 $n \in \mathbf{Z}$、次数 $\delta_1' = (\delta, n)$ のすべての等級付けされた K-線型写像 $f : M \to E$ は、次数 $\delta'$ の $\varepsilon'$ 派生 $d : \mathbf{T}(M) \to E$ に一意に拡張できます。
 
@@ -689,7 +689,7 @@ $$
 
 $\varepsilon'$-導出 d は一意になります。
 
-Remark 2 of no. 2 is applied with one of the external B-module laws on E (with B equal to $\mathbf{T}(M)$, $S(M)$ or $\Lambda(M)$) modified; the external law thus modified is still, by (1) (no. 1), a B-module law and the B-module law thus obtained on E is still compatible with the other B-module structure. その場合、$A = K$ と $d_0 = 0$ を使用すると、命題を適用する 14 で十分です。
+no. 2 の注意 2 は、E 上の外部 B-加群法則 (B は $\mathbf{T}(M)$、$S(M)$、または $\Lambda(M)$ に等しい) のいずれかを変更して適用されます。このように変更された外部法則は、(1) (no. 1) によって、E で得られた B-加群法則および B-加群法則は、依然として他の B-加群構造と互換性があります。次に、$A = K$ と $d_0 = 0$ を使用して、命題を適用する 14 で十分です。
 
 例 (1)。 命題 14 の適用では、$d_0 = 0$ 条件 (29) が単に $d_1$ が A 線形であることを意味することに注意してください。特に $E = B$ と、B 上の環構造から導出された (B, B) バイモジュール構造を考慮すると、$d_1$ が M の自己準同型の合成と標準単射 $M \to B$ であるとみなされるとき、条件 (30) と (31) は自動的に満たされます。 (30) については、$S(M)$ が可換であるため、これは明らかであり、(31) については、x と $s(x)$ が $\Lambda(M)$ の次数 1 であるという事実からわかります。したがって、M のすべての自己準同型 s は、次数 0 である $\mathbf{T}(M)$ (それぞれ $S(M)$、それぞれ $\Lambda(M)$) の導分 $D_s$ に一意に拡張できることがわかります。さらに、2 つの自己準同型 s、M の t については、
 

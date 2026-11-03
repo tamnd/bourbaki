@@ -42,16 +42,16 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: d183407c9af57cb182b9924141876dd994bd43043e77fca188e5bb9af7a31cda
+content_sha256: ff2b8097f195f3e306c4535ff5ace7e8cb5f19b3c43e3f65ba0060e0fde931c0
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
 translation_method: google
 source_content_sha256: 15e4c05cbeaa37f947e4dd88b319dfea58ef5aed00b479f31e5cbe9ae7b53342
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4b1bebe92f0850cbf9760e043f72f56769af64ae40cba68a223beb7f54f4ce08
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 集団化関係
@@ -272,7 +272,7 @@ $$\mathscr{E}_y((\exists x)(y = T \text{ and } x \in A))$$
 
 #### 定義 3 {#ens-ii-s1-def-3 .statement tag=03H8}
 
-*$\mathrm{A}$ *を集合* $\mathrm{X}$ の部分集合とします。 *The set of elements of* $\mathrm{X}$ *which do not belong to* $\mathrm{A}$, *that is to say the set* $\mathscr{E}x$ $(x \notin \mathrm{A}$ *and* $x \in \mathrm{X})$, *is called the complement of* $\mathrm{A}$ *in* $\mathrm{X}$, *and is denoted by* $\complement_{\mathrm{X}}\mathrm{A}$ *or* $\mathrm{X} - \mathrm{A}$ (or by $\complement\mathrm{A}$ if there is no risk of confusion).
+*$\mathrm{A}$ *を集合* $\mathrm{X}$ の部分集合とします。 * $\mathrm{A}$ に属さない* $\mathrm{X}$ の要素の集合、 *つまり集合* $\mathscr{E}x$ $(x \notin \mathrm{A}$ *および* $x \in \mathrm{X})$、 * $\mathrm{A}$ * $\mathrm{X}$ の補数と呼ばれ、 * $\complement_{\mathrm{X}}\mathrm{A}$ * または* で表されます。 $\mathrm{X} - \mathrm{A}$ (または混乱の危険がない場合は $\complement\mathrm{A}$ までに)。
 
 A を集合 X の部分集合とします。 関係 "$x \in \mathrm{X}$ と $x \notin \mathrm{A}$" および $x \in \complement_{\mathrm{X}}\mathrm{A}$ は同等になります。従って、関係「$x \in \mathrm{X}$および$x \notin \complement_{\mathrm{X}}\mathrm{A}$」は「$x \in \mathrm{X}$および$(x \notin \mathrm{X}$または$x \in \mathrm{A})$」、つまり$x \in A$と同等です。他の語では、$A = \complement_X(\complement_X A)$は真の関係です。同様に、B が X の部分集合である場合、関係 $A \subset B$ と $\complement_X B \subset \complement_X A$ は同等であることがわかります。
 

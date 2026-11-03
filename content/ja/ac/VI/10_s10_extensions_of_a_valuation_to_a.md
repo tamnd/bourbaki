@@ -25,16 +25,16 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: 885765aed41f6dcb526ef3e93047539eb8f5afad6435c0a7663ca08110654430
+content_sha256: 25c0b69b829cd054e34f6df669a25f746857a11ba14e214ed0ef985cc7338e4c
 translated_from: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
 translation_method: google
 source_content_sha256: d3545f7135c1b975d777e05ac5e9cc067935aed03dd234e1d2fffc43e8d3d49f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7939d0311a0f51789e7628c04c5a44ddb4418d1acb090fcdad39442f2ab8a754
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 10. 拡大の超越的な評価拡大
@@ -103,15 +103,15 @@ $$
 
 *$K$を体、$v$を$K$、$\Gamma$を位数群、$k$を剰余体とします。 $w$の剰余体$k'$における$X$の$w(X) = 0$と像$t$が$k$を超越するように、$v$を拡張する$K(X)$に独自の評価$w$が存在します。 $w$ の位数群は $v$ と等しく、その剰余体は $k(t)$ です。*
 
-To show the uniqueness of $w$, it will suffice for us to show that, if $P = \sum_j a_j X^j$ is a non-zero element of $K[X]$, then
+$w$ の一意性を示すには、$P = \sum_j a_j X^j$ が $K[X]$ の非ゼロ元である場合、次のことを示すだけで十分です。
 $$
 w(P) = \inf_j (v(a_j)).
 $$
-We may divide $P$ by an element of $K^*$ and suppose that $v(a_j) \geq 0$ for all $j$ and that one of the $v(a_j)$ is zero. As $w(X) = 0$, $P$ then belongs to the ring of $w$; writing $\bar{a}_j$ for the canonical image of $a_j$ in $k$, the canonical image of $P$ in the residue field $k'$ is $\sum_j \bar{a}_j t^j$; as $t$ is transcendental over $k$ and one of the $\bar{a}_j$ is non-zero, this image is non-zero, whence
+$K^*$ の元によって割る $P$ が得られ、すべての $j$ に対して $v(a_j) \geq 0$ があり、$v(a_j)$ の 1 つが零であると仮定します。 $w(X) = 0$ として、$P$ は $w$ のリングに属します。 $k$ の $a_j$ の正準イメージに $\bar{a}_j$ を書き込むと、剰余フィールド $k'$ の $P$ の正準イメージは $\sum_j \bar{a}_j t^j$ になります。 $t$ は $k$ を超越していて、$\bar{a}_j$ の 1 つが非ゼロであるため、この画像は非ゼロです。
 $$
 w(P) = 0 = \inf_j (v(a_j)).
 $$
-We now show the existence of $w$. 公式 $w(P) = \inf_j (v(a_j))$ ($P = \sum_j a_j X^j$ の場合) 定義するは、補題 1 により、$K(X)$ の評価$w$ となり、$w$ は明らかに $v$ と同じ位数群になります。 次に$w(X) = 0$。 $w$の剰余体$k'$における$X$の標準像$t$が$k$に対して超越的であることを示します: $\sum_j \bar{a}_j t^j = 0$の場合、すべての$j$に対して$\bar{a}_j \in k$である場合、代表元$a$で表します$\bar{a}_j$の環の$v$、$w \left( \sum_j a_j X^j \right) > 0$。 よって $v(a_j) > 0$ はすべての $j$ に対して、したがって $\bar{a}_j = 0$ はすべての $j$ に対してなります。 We show finally that $k' = k(t)$: every element $R$ of $K(X)$ may be written $R = c \left( \sum_j a_j X^j \right) / \left( \sum_j b_j X^j \right)$, where $c, a_j, b_j$ are in $K$, $v(a_j) \geq 0$ and $v(b_j) \geq 0$ for all $j$, one of the $v(a_j)$ and one of the $v(b_j)$ being zero; then $w(R) \geq 0$ if and only if $v(c) \geq 0$; denoting by $f$ the canonical homomorphism of the ring of $w$ onto $k'$,
+ここで$w$の存在を示します。 公式 $w(P) = \inf_j (v(a_j))$ ($P = \sum_j a_j X^j$ の場合) 定義するは、補題 1 により、$K(X)$ の評価$w$ となり、$w$ は明らかに $v$ と同じ位数群になります。 次に$w(X) = 0$。 $w$の剰余体$k'$における$X$の標準像$t$が$k$に対して超越的であることを示します: $\sum_j \bar{a}_j t^j = 0$の場合、すべての$j$に対して$\bar{a}_j \in k$である場合、代表元$a$で表します$\bar{a}_j$の環の$v$、$w \left( \sum_j a_j X^j \right) > 0$。 よって $v(a_j) > 0$ はすべての $j$ に対して、したがって $\bar{a}_j = 0$ はすべての $j$ に対してなります。 最後に、$k' = k(t)$: $K(X)$ のすべての要素 $R$ は $R = c \left( \sum_j a_j X^j \right) / \left( \sum_j b_j X^j \right)$ で記述できることを示します。ここで、$c, a_j, b_j$ はすべての $j$ に対して $K$、$v(a_j) \geq 0$、$v(b_j) \geq 0$ にあり、$v(a_j)$ の 1 つと $v(b_j)$ の 1 つがゼロ。 $v(c) \geq 0$の場合に限り、$w(R) \geq 0$。 $f$ によって $w$ の環の $k'$ への正準準同型性を表し、
 $$
 f(R) = f(c) \left( \sum_j f(a_j) t^j \right) / \left( \sum_j f(b_j) t^j \right),
 $$

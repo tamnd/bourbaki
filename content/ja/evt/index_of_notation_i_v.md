@@ -18,10 +18,10 @@ translation_method: google
 source_content_sha256: b6227e142e8c4dfdc40df60beff46779739fafd9c463257c5824c021a2995f39
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 2ed4ad2490ab67bd1d19ddfc774d99b9b9a39c777329b15cac8bb777b50b976d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 添字/記法

@@ -57,16 +57,16 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: a865eb22cb63ddae71757bb9712118e5cc85d0727e83b8e444e405380f98b060
+content_sha256: f49d40f09ce31e0672f25509b6f34b5423a3062eecaa57975b18137fd2b555b7
 translated_from: content/en/lie/III/01_s1_lie_groups.md
 translation_method: google
 source_content_sha256: c28e00b85f74025ecd9db6adb574f2c95ce70e7ad72db45eba1ee38c85b62c4a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ff7a51fea83498ecb6effd8c773a2ce01af1b871805a2a76b4d3fd91d75852fc
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 リー群
@@ -245,10 +245,10 @@ G の開いた部分群は G の嘘部分群です。特に、G が実数また�
 
 #### 命題 5 {#lie-iii-s1-prop-5 .statement tag=0A7I}
 
-Let G be a Lie group and H a Lie subgroup of G.
-(i) H is closed in G.
-(ii) The canonical injection of H into G is a Lie group morphism.
-(iii) Let L be a Lie group and f a mapping of L into G such that f(L) ⊂ H. For f to be a morphism of L into H, it is necessary and sufficient that f be a morphism of L into G.
+G をリー群とし、H を G の嘘部分群とします。
+(i) G では H が閉じています。
+(ii) H の G への標準単射はリー群射です。
+(iii) L をリー群とし、f(L) ⊂ H となるように、L の f 写像を G に変換します。 f が L の射となって H になるためには、f が G の L の射であることが必要かつ十分です。
 
 Differentiable and Analytic 多様体、R、5.8.3 により、H は局所的に閉じられます。したがって、H は閉じています (一般位相、章 III, § 2、命題 4)。 主張 (ii) は明らかです。 主張 (iii) は、微分可能と分析多様体、R、5.8.5 から続きます。
 
@@ -256,7 +256,7 @@ Differentiable and Analytic 多様体、R、5.8.3 により、H は局所的に�
 
 G を G のリー群および H 部分群とする。H が G の Lie 部分群であるためには、H ∩ U が G の部分多様体となるように、G に点 h ∈ H と h の開近傍 U が存在することが必要かつ十分である。
 
-条件は明らかに必要です。 それが成り立つと仮定します。 For all h' ∈ H, the translation γ(h'h^{-1}) is an automorphism of the manifold G and maps the submanifold H ∩ U of U into the submanifold (h'h^{-1}H) ∩ (h'h^{-1}U) of h'h^{-1}U. h'h^{-1}H = H および h'h^{-1}U は G の h' の開近傍であるため、H のすべての点には開近傍 V があり、V ∩ H が G の部分多様体であることがわかります。 したがって、H は G の部分多様体です。
+条件は明らかに必要です。 それが成り立つと仮定します。 すべての h' ∈ H に対して、変換 γ(h'h^{-1}) は多様体 G の自己同型であり、U の部分多様体 H ∩ U を h'h^{-1}U の部分多様体 (h'h^{-1}H) ∩ (h'h^{-1}U) にマッピングします。 h'h^{-1}H = H および h'h^{-1}U は G の h' の開近傍であるため、H のすべての点には開近傍 V があり、V ∩ H が G の部分多様体であることがわかります。 したがって、H は G の部分多様体です。
 
 G をリー群、H を G の嘘部分群とします。 L が H の嘘部分群である場合、微分可能および解析多様体、R、5.8.6 により、L は G の嘘部分群です。 M を M ⊂ H となる G の嘘部分群とします。そのとき、M は H の嘘部分群です。なぜなら、M の H への標準単射は明らかに浸漬です。
 
@@ -287,9 +287,9 @@ $$
 
 命題 7 の条件が保持される場合、リー群 $S$ は、* $L$ * $M$ * $\sigma$ * に対する (*外部*) *半直接積リー群と呼ばれます。
 
-Clearly the canonical injection of $L$ (resp. $M$) into $S$ is an isomorphism of $L$ (resp. $M$) onto a Lie subgroup of $S$ which we identify with $L$ (resp. $M$). $S$ の $L$ 上の標準写像はリー群射です。
+明らかに、$L$ (それぞれ $M$) の $S$ への正規注入は、$L$ (それぞれ $M$) と同定される $S$ のリー部分群に対する $L$ (それぞれ $M$) の同型写像です。 $S$ の $L$ 上の標準写像はリー群射です。
 
-Conversely, let $G$ be a Lie group and $L$, $M$ two Lie subgroups such that the group $G$ is (algebraically) the semi-direct product of $L$ by $M$ (*Algebra*, Chapter I, § 6, no. 1). $l \in L$ と $m \in M$ を $\sigma(l)m = lml^{-1}$ と書きます。 すると、$\sigma$ は命題 7 の条件を満たします。 したがって、$L$ の半直接積リー群 $S$ を $\sigma$ に対して $M$ だけ形求めることができます。 $S$ の $G$ への写像 $j: (m, l) \mapsto ml$ は群同型であり、分析的です。 $j$ がリー群同型の場合、*リー群* $G$ * は * (*内部*) * $L$ * $M$ * および* $S$ * および* $G$ * の * 半直接積と呼ばれます*。 すべての $g \in G$ について、$p(g) \in M$ と $q(g) \in L$ を $g = p(g)q(g)$ と書きます。 リー群 $G$ が $M$ による $L$ の半直接積であるためには、写像 $p: G \to M$ と $q: G \to L$ の 1 つが解析的であることが必要かつ十分であり、この場合、両方とも解析的です。あるいは、$T_e(G)$ が $T_e(M)$ と $T_e(L)$ のトポロジカル直和であることが必要かつ十分です (なぜなら、この条件が成り立つ場合、$j$ は $e_S$ でのエタールであるからです)。
+逆に、$G$ をリー群、$L$、$M$ を 2 つのリー部分群とし、群 $G$ が (代数的に) $L$ と $M$ の半直接積であるとします (*代数*、I, § 6, no. 1 章)。 $l \in L$ と $m \in M$ を $\sigma(l)m = lml^{-1}$ と書きます。 すると、$\sigma$ は命題 7 の条件を満たします。 したがって、$L$ の半直接積リー群 $S$ を $\sigma$ に対して $M$ だけ形求めることができます。 $S$ の $G$ への写像 $j: (m, l) \mapsto ml$ は群同型であり、分析的です。 $j$ がリー群同型の場合、*リー群* $G$ * は * (*内部*) * $L$ * $M$ * および* $S$ * および* $G$ * の * 半直接積と呼ばれます*。 すべての $g \in G$ について、$p(g) \in M$ と $q(g) \in L$ を $g = p(g)q(g)$ と書きます。 リー群 $G$ が $M$ による $L$ の半直接積であるためには、写像 $p: G \to M$ と $q: G \to L$ の 1 つが解析的であることが必要かつ十分であり、この場合、両方とも解析的です。あるいは、$T_e(G)$ が $T_e(M)$ と $T_e(L)$ のトポロジカル直和であることが必要かつ十分です (なぜなら、この条件が成り立つ場合、$j$ は $e_S$ でのエタールであるからです)。
 
 #### 例 {#lie-iii-s1-n4-exa-1 .statement tag=0A7M}
 
@@ -334,7 +334,7 @@ $T_g(\delta(g)), T_x(\tau(g))$ と $T_g(\gamma(g^{-1}))$ は同型であるた�
 
 これは、命題 9 および *微分可能および分析的多様体*、R、5.10.6 から続きます。
 
-Observe that, if $\eta$ denotes the mapping $(g, x) \mapsto gx$ of $G \times X$ into X, then, for $g \in G, x \in X, u \in T_g(G), v \in T_x(X)$,
+$\eta$ が $G \times X$ の X へのマッピング $(g, x) \mapsto gx$ を示す場合、 $g \in G, x \in X, u \in T_g(G), v \in T_x(X)$ について、
 
 $$
 T_{(g, x)}(\eta)(u, v) = T_{(g, x)}(\eta)(u, 0) + T_{(g, x)}(\eta)(0, x)
@@ -388,7 +388,7 @@ $$
 
 #### 注意 {#lie-iii-s1-n5-rem-1 .statement tag=0A7R}
 
-With the above hypotheses, further let $H$ be a manifold of class $C^r$ and $(x, h) \mapsto m(x, h)$ a mapping of class $C^r$ of $X \times H$ into $X$ such that $m(gx, h) = gm(x, h)$ for $x \in X,\ g \in G,\ h \in H$. $n$ を $(X/G) \times H$ の写像を $m$ から商を取って$X/G$ に変換するとします。 $n$ * は類* $C^r$ であることを示します。 図式を検討してください
+上記の仮説を使用して、さらに、$H$ をクラス $C^r$ の多様体とし、$(x, h) \mapsto m(x, h)$ を $x \in X,\ g \in G,\ h \in H$ に対して $m(gx, h) = gm(x, h)$ となるような、$X \times H$ のクラス $C^r$ の $X$ へのマッピングとします。 $n$ を $(X/G) \times H$ の写像を $m$ から商を取って$X/G$ に変換するとします。 $n$ * は類* $C^r$ であることを示します。 図式を検討してください
 
 $$
 \begin{array}{ccc}
@@ -438,7 +438,7 @@ $$
 
 $G$ が正常であるとします。 $m$ を $(X/G) \times (X/G)$ の写像 $(x, y) \mapsto xy^{-1}$ を $X/G$ にします。次に、$X$ のすべての $x, y$ に対して $(m \circ (\pi \times \pi))(x, y) = \pi(xy^{-1})$ です。したがって、$m \circ (\pi \times \pi)$ は分析的です。 $\pi \times \pi$ は全射的浸漬であるため、$m$ は分析的です (微分可能および分析的多様体、R. 5.9.5)、よって (ii)。
 
-The homogeneous set $X/G$ with the manifold structure defined in (i) is called the quotient (left) Lie homogeneous space of $X$ by $G$. (右) 均一リー 空間 $G \setminus X$ も同様に定義されます。 $G$が正常な場合、(ii)で定義したリー群$X/G$は、$G$によって$X$の商リー群と呼ばれます。
+(i) で定義した多様体構造をもつ同次集合 $X/G$ を、$X$ × $G$ の商 (左) リー等次空間と呼びます。 (右) 均一リー 空間 $G \setminus X$ も同様に定義されます。 $G$が正常な場合、(ii)で定義したリー群$X/G$は、$G$によって$X$の商リー群と呼ばれます。
 
 #### 命題 12 {#lie-iii-s1-prop-12 .statement tag=0A7T}
 
@@ -449,7 +449,7 @@ $X$ をリー群 、$Y$ を空ではない分析多様体とし、$Y$ の $X$ �
 (ii') $y \in Y$、$X_y$ はすべて嘘です。$X$ の部分群と $X/X_y$ の標準写像を$Y$ にすると、多様体同型になります。
 (iii) $X \times Y$ の $Y \times Y$ への写像 $(x, y) \mapsto (y, xy)$ は全射水没です。
 
-As the canonical mapping of $X$ onto $X/X_y$ is a submersion, the equivalences (i) $\Leftrightarrow$ (ii), (i') $\Leftrightarrow$ (ii') are immediate. (i) $\Leftrightarrow$ (i') by Proposition 9 of no. 5. 同値 (i') $\Leftrightarrow$ (iii) は、no. 5 の公式 (7) から続きます。
+$X$の$X/X_y$への標準写像は水没なので、同値(i)$\Leftrightarrow$(ii)、(i')$\Leftrightarrow$(ii')は明らかです。 (i) $\Leftrightarrow$ (i') by 命題 9 of no. 5。 同値 (i') $\Leftrightarrow$ (iii) は、no. 5 の公式 (7) から続きます。
 
 命題 12 の条件では、$Y$ は $X$ の (左) 均一リー 空間と呼ばれます。 $X$ の右ライ同次空間も同様に定義されます。
 
@@ -465,21 +465,21 @@ $$
 
 $G$ をリー群、$H$ を通常の嘘 $G$ の部分群、$X$ 多様体の類 $C^r$ および $(g, x) \mapsto gx$ 法則の左演算とします。 $X$の$G$中類$C^r$。 命題 10 の条件 (a) と (b) が成り立つとします。
 
-(i) The law of left operation $(h, x) \mapsto hx$ of $H$ on $X$ satisfies conditions (a) and (b) of Proposition 10 (so that we can consider the quotient manifolds $X/G$ and $X/H$).
+(i) $X$ 上の $H$ の左演算$(h, x) \mapsto hx$ の法則は、命題 10 の条件 (a) と (b) を満たします (したがって、商多様体 $X/G$ と $X/H$ を考慮できます)。
 
-(ii) The law of left operation of $G$ on $X$ defines on taking quotients a law of left operation of class $C^r$ of $G/H$ on $X/H$; this law satisfies conditions (a) and (b) of Proposition 10 (so that we can consider the quotient manifold $(X/H)/(G/H)$).
+(ii) $X$ に対する $G$ の左演算の法則は、商を取る際に $X/H$ に対する $G/H$ のクラス $C^r$ の左演算の法則を定義します。この法則は命題 10 の条件 (a) と (b) を満たします (したがって、商多様体 $(X/H)/(G/H)$ を考慮できます)。
 
-(iii) The canonical mapping of $X$ onto $X/H$ defines on taking quotients a bijection of $X/G$ onto $(X/H)/(G/H)$. この全単射は、類 $C^r$ の多様体の同型です。
+(iii) $X$ の $X/H$ への正規マッピングは、商を取得して $X/G$ の $(X/H)/(G/H)$ への全単射を定義します。 この全単射は、類 $C^r$ の多様体の同型です。
 
 明らかに、$H$ は $X$ で自由に動作します。 *一般位相*、章 III, § 4, no. 1、*例* 1. $H$ の $G$ への標準単射が浸漬であるため、$X$ 上の $H$ の軌道写像は浸漬です。これは(i)を証明します。
 
-The law of left operation of $G$ on $X$ obviously defines, on taking quotients, a law of left operation of $G/H$ on $X/H$. この法則は、*Differentiable and Analytic 多様体*、R、5.9.6 による類 $C^r$ です。 $g \in G$ と $x \in X$ を $(Hg)(Hx) = Hx$ となるようにします。次に$H(gx) = Hx$、したがって$gx \in Hx$と$g \in H$。これは、$G/H$が$X/H$上で自由に動作することを証明します。 $G \times X$ から $X \times X$ への写像 $\theta : (g, x) \mapsto (x, gx)$ は閉じられています。一方、$\theta(Hg \times Hx) = Hx \times H(gx)$;すぐに写像となります
+$X$ に対する $G$ の左演算の法則は、商を取る際に、$X/H$ に対する $G/H$ の左演算の法則を明らかに定義します。 この法則は、*Differentiable and Analytic 多様体*、R、5.9.6 による類 $C^r$ です。 $g \in G$ と $x \in X$ を $(Hg)(Hx) = Hx$ となるようにします。次に$H(gx) = Hx$、したがって$gx \in Hx$と$g \in H$。これは、$G/H$が$X/H$上で自由に動作することを証明します。 $G \times X$ から $X \times X$ への写像 $\theta : (g, x) \mapsto (x, gx)$ は閉じられています。一方、$\theta(Hg \times Hx) = Hx \times H(gx)$;すぐに写像となります
 
 $$(Hg, Hx) \mapsto (Hx, H(gx))$$
 
 $(G/H) \times (X/H)$ から $(X/H) \times (X/H)$ は閉じられています。さらに、$G/H$ は $X/H$、定理 *一般位相*、章 I, § 10, no. 2 の 1 (c) で自由に動作するため、$G/H$ は $X/H$ で適切に動作することが証明されます。
 
-Let $\pi$ be the canonical mapping of $X$ onto $X/H$, $\sigma$ the canonical mapping of $G$ onto $G/H$, $x$ an element of $X$ and $y = \pi(x)$.
+$\pi$ を、$X$ の標準写像を $X/H$ に、$\sigma$ 標準写像を $G$ に、$G/H$ 、$x$ 元を $X$ と $y = \pi(x)$ に加えます。
 
 $$
 \begin{array}{ccc}
@@ -495,7 +495,7 @@ $$
 T_x(\pi) \circ T_e(\rho(x)) = T_e(\rho(y)) \circ T_e(\sigma).
 $$
 
-$u \in T_e(G/H)$ を $T_e(\rho(y))u = 0$ となるようにします。 $u = T_e(\sigma)v$ となるような $v \in T_e(G)$ が存在します。 次に、$T_x(\pi)(T_e(\rho(x))v) = 0$、したがって、$T_e(\rho(x))v$ は$Hx$ (*微分可能および解析的多様体*、R、5.10.5) に接し、したがって一部の $v' \in T_e(H)$ については形 $T_e(\rho(x) | H)v'$ になります。 $T_e(\rho(x))$ は単射なので、$v = v'$、よって $v \in T_e(H)$、したがって $u = 0$ になります。 したがって、$T_e(\rho(y))$ は単射法です。 The image of $T_e(\rho(y))$ is equal to that of $T_x(\pi) \circ T_e(\rho(x))$; now the image of $T_e(\rho(x))$ admits a topological supplement in $T_x(X)$ and contains the kernel of $T_x(\pi)$. したがって、$\rho(y)$ は浸漬であり、(ii) の証明を完了することがわかります。
+$u \in T_e(G/H)$ を $T_e(\rho(y))u = 0$ となるようにします。 $u = T_e(\sigma)v$となるような$v \in T_e(G)$が存在します。次に、$T_x(\pi)(T_e(\rho(x))v) = 0$、したがって、$T_e(\rho(x))v$ は$Hx$ (*微分可能および解析的多様体*、R、5.10.5) に接しており、したがって一部の $v' \in T_e(H)$ については形 $T_e(\rho(x) | H)v'$ になります。 $T_e(\rho(x))$ は単射なので、$v = v'$、よって $v \in T_e(H)$、したがって $u = 0$ になります。したがって、$T_e(\rho(y))$ は単射法です。 $T_e(\rho(y))$ の像は $T_x(\pi) \circ T_e(\rho(x))$ のそれに等しい。現在、$T_e(\rho(x))$ の像は、$T_x(X)$ と $T_x(\pi)$ の含む核のトポロジカル補充を認めています。したがって、$\rho(y)$ は浸漬であり、(ii) の証明を完了することがわかります。
 
 主張 (iii) は、上記および微分可能および解析的多様体、R、5.9.7 から続きます。
 
@@ -526,7 +526,7 @@ G を、類 C^r の有限次元リー群, X 多様体と、X 上の G の類 C^r
 
 #### 系 {#lie-iii-s1-n7-cor-1 .statement tag=0A7Z}
 
-Let G be a Lie group whose topology admits a countable base and X a non-empty finite-dimensional analytic manifold with a law of analytic left operation of G on X. G が X で推移性を演算し、K が標数 0 であると仮定します。 すると、X は G の同次 Lie 空間になります。
+G をリー群とし、その位相は可算基底と X を許容する非空の有限次元解析多様体で、X 上の G の解析左演算の法則を持ちます。 G が X で推移性を演算し、K が標数 0 であると仮定します。その場合、X は G の同次リー 空間です。
 
 x ∈ X とします。 X に等しい x の軌道は閉じているので、命題を適用する 14 (iii) ができます。
 
@@ -540,7 +540,7 @@ G を類 C^r のリー群、X 多様体と、X 上の G の類の左演算 C^r �
 
 ψ が類 C^r のベクトルバンドルの φ 射である場合、E は類 C^r のベクトル G バンドルと呼ばれます。
 
-In other words, E is a vector G-bundle of class C^r if for all (g_0, x_0) ∈ G × X the following condition holds: there exists an open neighbourhood U of (g_0, x_0) in G × X such that, if E' | U (resp. E' | φ(U)) is identified with a trivial vector bundle of fibre M (resp. N) by means of a vector chart, the mapping (g, x) ↦ ψ_{g, x} of U into L(M, N) is of class C^r.
+言い換えれば、すべての (g_0, x_0) ∈ G × X に対して次の条件が成立する場合、E はクラス C^r のベクトル G バンドルです。G × X に (g_0, x_0) の開いた近傍 U が存在します。 U (それぞれ E' | φ(U)) は、ベクトル チャートによってファイバー M (それぞれ N) の自明なベクトル束と識別され、U の L(M, N) へのマッピング (g, x) ↦ ψ_{g, x} はクラス C^r です。
 
 写像 ψ は明らかに全単射であり、上記の局所基準から、ψ^{-1} はベクトルバンドルの φ^{-1} 射であるため、ψ はベクトルバンドルの φ 同型射となります。
 
@@ -582,11 +582,11 @@ pr_1 (または pr_2) を G (または X) 上の G × X の正規射影とし、
 
 #### 命題 17 {#lie-iii-s1-prop-17 .statement tag=0A86}
 
-*Let G be a Lie group, X a left Lie homogeneous space of G, x_0 a point of X, G_0 the stabilizer of x_0 in G, E and E' left vector G-bundles of class C^r and base space X, E_0 (resp. E'_0) the fibre of E (resp. E') at x_0 and f an element of $\mathscr{L}(E_0, E'_0)$ such that f(gu) = gf(u) for all u ∈ E_0 and g ∈ G_0. このとき、G の演算と互換性があり、f を拡張した E への E の射は 1 つだけ存在します。*
+*G をリー群、X を G の左リー均一空間、x_0 を X の点、G_0 を G の x_0 のスタビライザー、E および E' クラス C^r および基底空間 X の左ベクトル G バンドル、E_0 (または E'_0) を E (または E') のファイバーとします。 x_0 と f は、すべての u ∈ E_0 および g ∈ G_0 に対して f(gu) = gf(u) となる $\mathscr{L}(E_0, E'_0)$ の要素です。 このとき、G の演算と互換性があり、f を拡張した E への E の射は 1 つだけ存在します。*
 
-この射の一意性は明らかです。 私たちはその存在を証明します。 G と u ∈ E_0 の g、g' 元が gu = g'u となるものとする。 この場合、g'^{-1}g ∈ G_0 および g'^{-1}gu = u となり、したがって g'^{-1}gf(u) = f(u)、つまり gf(u) = g'f(u) となります。 したがって、写像 φ は、φ(gu) = gf(u) と書くことによって E から E' に定義されます。 明らかに、この写像拡大する f は G の演算と互換性があります。 φ が類 C^r のベクトル束射であることを示します。 x_1 ∈ X とします。 X に x_1 の開いた近傍 V と、写像 g ↦ gx_0 が V 上の W の類 C^r の同型 θ となるような G の部分多様体 W が存在します。 By shrinking V and W it can be assumed that:
-(1) E | V (resp. E' | V) is identified with a trivial vector bundle of fibre M (resp. M');
-(2) if ψ_g (resp. ψ'_g) denotes the mapping u ↦ gu of E_0 (resp. E'_0) into E_{gx_0} (resp. E'_{gx_0}), then the mappings g ↦ ψ_g and g ↦ ψ_g^{-1} (resp. g ↦ ψ'_g and g ↦ ψ'_g^{-1}) of W into $\mathscr{L}(E_0, M)$ and $\mathscr{L}(M, E_0)$ (resp. $\mathscr{L}(E'_0, M')$ and $\mathscr{L}(M', E'_0)$) are of class C^r.
+この射の一意性は明らかです。私たちはその存在を証明します。 G と u ∈ E_0 の g、g' 元が gu = g'u となるものとする。この場合、g'^{-1}g ∈ G_0 および g'^{-1}gu = u となり、したがって g'^{-1}gf(u) = f(u)、つまり gf(u) = g'f(u) となります。したがって、写像 φは、φ(gu) = gf(u) と書くことによって E から E' に定義されます。明らかに、この写像拡大する f は G の演算と互換性があります。φ が類 C^r のベクトルバンドル射であることを示します。 x_1 ∈ X とします。 X に x_1 の開いた近傍 V と、写像 g ↦ gx_0 が V 上で W の類 C^r の同型 θ となるような G の部分多様体 W が存在します。 V と W を縮小すると、次のように仮定できます。
+(1) ホ | V (それぞれ E' | V) は、自明な繊維 M (それぞれ M') の束ベクトルと識別されます。
+(2) ψ_g (または ψ'_g) が、E_0 (または E'_0) の写像 u ↦ gu を E_{gx_0} (または E'_{gx_0}) に変換することを表す場合、 写像 g ↦ ψ_g および g ↦ ψ_g^{-1} (それぞれ g W の ↦$\mathscr{L}(E_0, M)$ と $\mathscr{L}(M, E_0)$ (それぞれ $\mathscr{L}(E'_0, M')$ と $\mathscr{L}(M', E'_0)$) への W の ↦ ψ'_g と g ↦ ψ'_g^{-1}) は類 C^r です。
 
 x ∈ V について、φ_x : M → N を φ から E_x = M までの制限とします。すると、φ_x は次の写像を合成することで得られます。
 (1) M の写像 (ψ_θ^{-1,x})^{-1} を E_0 に変換します。
@@ -614,7 +614,7 @@ $$
 
 #### 系 2 {#lie-iii-s1-prop-17-cor-2 .statement tag=0A88}
 
-$G_0$ が $E_0$ 上で自明に動作すると仮定します。 $E'$ を、基底空間 $X$ とファイバー $E_0$ の自明な $G$ バンドルとします。 There exists one and only one isomorphism of $E$ onto $E'$ compatible with the operations of $G$ and extending $\mathrm{Id}_{E_0}$.
+$G_0$ が $E_0$ 上で自明に動作すると仮定します。 $E'$ を、基底空間 $X$ とファイバー $E_0$ の自明な $G$ バンドルとします。 $G$ の演算と互換性があり、$\mathrm{Id}_{E_0}$ を拡張する $E'$ への $E$ の同型写像は 1 つだけ存在します。
 
 これは命題 17 の直後に続きます。
 
@@ -822,14 +822,14 @@ $(G, e, \theta, m)$ をリー群細菌と類 $C^r$ の X 多様体とします�
 
 #### 定義 6 {#lie-iii-s1-def-6 .statement tag=0A8K}
 
-A law chunk of left operation of class $C^r$ of G on X is a mapping $\psi$ defined on an open subset $\Omega$ of $G \times X$ containing $\{e\} \times X$, with values in X and with the following properties:
-(i) $\psi$ is of class $C^r$;
-(ii) for all $x \in X$, $\psi(e, x) = x$;
-(iii) there exists a neighbourhood $\Omega_1$ of $\{e\} \times \{e\} \times X$ in $G \times G \times X$ such that, for $(g, g', x) \in \Omega_1$, the elements of $m(g, g')$, $\psi(m(g, g'), x)$, $\psi(g, \psi(g', x))$ are defined and $\psi(g, \psi(g', x)) = \psi(m(g, g'), x)$.
+X 上の G のクラス $C^r$ の左演算の法則チャンクは、$\{e\} \times X$ を含む $G \times X$ の開いたサブセット $\Omega$ で定義されたマッピング $\psi$ であり、X の値と次のプロパティを持ちます。
+(i) $\psi$ はクラス $C^r$ です。
+(ii) すべての $x \in X$、$\psi(e, x) = x$ について。
+(iii) $G \times G \times X$ には、$\{e\} \times \{e\} \times X$ の近傍 $\Omega_1$ が存在し、$(g, g', x) \in \Omega_1$ については、$m(g, g')$、$\psi(m(g, g'), x)$、$\psi(g, \psi(g', x))$ の要素が定義され、$\psi(g, \psi(g', x)) = \psi(m(g, g'), x)$ になります。
 
 類 $C^r$ の右側演算の法則チャンクも同様に定義されます。
 $\psi(g, x)$ の代わりに $gx$ と書くことがよくあります。
-G' を G の Lie 部分群ジャーム、X' を X の部分多様体とする。 $\psi(g, x) \in X'$ が $G' \times X'$ でオープンであるような、$(g, x) \in \Omega \cap (G' \times X')$ の $\Omega'$ が集合であるとします ($X'$ が $X$ でオープンであれば常に満たされる条件)。 Then $\psi|_{\Omega'}$ is a law chunk of left operation of class $C^r$ of $G'$ on $X'$, which is said to be derived from $\psi$ by restriction to $G'$ and $X'$.
+G' を G の Lie 部分群ジャーム、X' を X の部分多様体とする。 $\psi(g, x) \in X'$ が $G' \times X'$ でオープンであるような、$(g, x) \in \Omega \cap (G' \times X')$ の $\Omega'$ が集合であるとします ($X'$ が $X$ でオープンであれば常に満たされる条件)。 すると、$\psi|_{\Omega'}$ は、$X'$ における$G'$ のクラス$C^r$ の左演算の法則の塊であり、$G'$ と $X'$ への制限によって$\psi$ から導出されると言われています。
 
 #### 命題 23 {#lie-iii-s1-prop-23 .statement tag=0A8L}
 

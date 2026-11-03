@@ -32,16 +32,16 @@ subsections:
       pdf_page: 193
 statements: 36
 exercises: 25
-content_sha256: a45567c3e13680f6eb2a81165f461d68aafc8989402743cdbf37e0617546a0b7
+content_sha256: 3c2b2ae8842034d72caad696f40542e6758248d007fb29ee57b263cf47da06f4
 translated_from: content/en/evt/IV/01_s1_duality.md
 translation_method: google
 source_content_sha256: b7f26d454273886007de38188e9c263540c6eccc68705afe146cbdcbcc0c7806
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1ca2c3aa9df03798502d45f167b063cc1774af813678b8cc2fe09431b91c3c9d
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。二元性
@@ -143,7 +143,7 @@ $$
 
 #### 例 {#evt-iv-s1-n1-exa-1 .statement tag=07QR}
 
-G を局所凸空間とし、G' をその双対とする。 G' では、凸コンパクト収束 (III、p. 14) の弱い位相 $\sigma(G', G)$ と位相が、G' と G の間の双対性と互換性があります。 一般に、G' に対するコンパクトな収束の強い位相と位相は、G' と G の間の双対性と互換性がありません。 Recall however that when G is Hausdorff and quasi-complete, the topology of compact convergence on G' coincides with that of convex compact convergence (III, p. 8), hence is compatible with the duality between G' and G.
+G を局所凸空間とし、G' をその双対とする。 G' では、凸コンパクト収束 (III、p. 14) の弱い位相 $\sigma(G', G)$ と位相が、G' と G の間の双対性と互換性があります。 一般に、G' に対するコンパクトな収束の強い位相と位相は、G' と G の間の双対性と互換性がありません。 ただし、G がハウスドルフで準完全である場合、G' 上のコンパクト収束のトポロジーは凸コンパクト収束 (III, p. 8) のトポロジーと一致するため、G' と G の間の双対性と互換性があることを思い出してください。
 
 #### 定義 3 {#evt-iv-s1-def-3 .statement tag=07QS}
 
@@ -169,7 +169,7 @@ c) 位相 $\tau(E, E')$、E では *Mackey 位相* と呼ばれます。
 
 最初の位相は、弱められた位相よりもより細かいで、マッキー位相よりも粗いです。さらに、これら 3 つのトポロジは別個のものにすることもできます (IV、p. 49、演習 8)。
 
-By prop. 1 of IV, p. 1, these three topologies have the same closed convex sets, the same barrels, the same bounded sets and the same adapted bornologies. 特に ：
+プロップにより。 IV、p. 1 の 1 つ、これら 3 つのトポロジーは同じ閉じた凸型集合、同じバレル、同じ有界集合、および同じ適応ボノロジーを持ちます。特に ：
 
 #### 命題 2 {#evt-iv-s1-prop-2 .statement tag=07QT}
 
@@ -257,11 +257,11 @@ e) *コンパクト収束*のトポロジー (それぞれ *コンパクト凸*)
 
 (iii) $E_1$ と $E_2$ の初期トポロジーで $u$ が連続であるという位数では、$E_2'$ のすべての等連続部分集合の $'u$ の下の像が $E_1'$ で等連続であることが必要かつ十分です。
 
-仮定は、弱いトポロジー $\sigma(E_2', E_2)$ および $\sigma(E_1', E_1)$ (II、p. 46、系) に対して$'u$ が連続であることを意味します。したがって、凸型でバランスのとれたコンパクトな部分集合の$'u$ の下に像が存在します。 $\sigma(E_2', E_2)$ は、$\sigma(E_1', E_1)$ に対して凸型でバランスが取れており、コンパクトです。トポロジー $\sigma(E_2', E_2)$ と $\sigma(E_1', E_1)$ はハウスドルフです。したがって、主張 (i) は GT、X, § 1, No. 4、prop から続きます。 3、b)。 主張 (ii) は (i) の帰結です。つまり、$E_1$ がボーンロジカルまたはバレルドである場合、その最初の位相はマッキー 位相であり、$E_2$ のマッキー 位相は、その最初の位相よりもより細かいです。 $E_2$。最後に、$E_i$ の最初の位相は、$E_i'$ の等連続部分集合への一様収束です (III、p. 19、提案 7 の cor. 1)。これは(iii)を証明する。
+仮定は、$'u$ が弱いトポロジ $\sigma(E_2', E_2)$ および $\sigma(E_1', E_1)$ (II、p. 46、系) に対して連続であることを意味します。したがって、凸型でバランスが取れたコンパクトな部分集合の $'u$ の下では像になります。 $\sigma(E_2', E_2)$ は、$\sigma(E_1', E_1)$ に対して凸型でバランスが取れており、コンパクトです。トポロジー $\sigma(E_2', E_2)$ と $\sigma(E_1', E_1)$ はハウスドルフです。したがって、主張 (i) は GT、X, § 1, No. 4、prop から続きます。 3、b)。 主張 (ii) は (i) の帰結です。つまり、$E_1$ がボーンロジカルまたはバレルドである場合、その最初の位相はマッキー 位相であり、$E_2$ のマッキー 位相は最初の位相よりもより細かいです。 $E_2$の。最後に、$E_i$ の最初の位相は、$E_i'$ の等連続部分集合への一様収束です (III, p. 19、提案 7 の cor. 1)。これは(iii)を証明する。
 
 #### 系 {#evt-iv-s1-n3-cor-2 .statement tag=07R4}
 
-— $E_1$ が標準の空間であると仮定します。 $u$ を $E_1$ から $E_2$ に線形写像とします。次のプロパティは同等です。
+— $E_1$ が標準の空間であると仮定します。 $u$を$E_1$から$E_2$まで線形写像とします。次のプロパティは同等です。
 
 a) $u$ は連続的です。
 
@@ -271,17 +271,17 @@ c) $u$ の下の $E_1$ にある単位元ボールの像は $E_2$ でバウン�
 
 d) $E_1$ の点のすべての数列 $(x_n)$ は、最初の位相の 0 になる傾向があり、数列 $(u(x_n))$ は、$E_2$ の弱体化された位相に限定されます。
 
-$E_1$ はボーンロジカルであるため、a) と b) の同値は prop から続きます。 7; a)とc)のそれは明らかです。 a)とd)の同値はpropから続きます。 IV、p. 1、およびプロップの 1 つ。 III、p. 11 の 1 つ。
+$E_1$ はボーンロジカルであるため、a) と b) の同値は prop から続きます。 7; a)とc)のそれは明らかです。 a) と d) の同値は prop から続きます。 IV、p. 1、およびプロップからの 1 つ。 III、p. 11 の 1 つ。
 
 #### 命題 8 {#evt-iv-s1-prop-8 .statement tag=07R5}
 
-— (i) $E$ を、双対 $E'$ を持つ正規の空間とします。 $x \in E$ ごとに、
+— (i) $E$ を正規の空間とし、双対の $E'$ を持たせます。 $x \in E$ ごとに、
 
 $$
 \|x\| = \sup_{x' \in E', \|x'\| \leq 1} |\langle x, x' \rangle|.
 $$
 
-(ii) $E_1$ と $E_2$ を 2 つの正規化空間と $u$ を、$E_1$ から $E_2$ まで連続する線形写像とする。我々は持っています
+(ii) $E_1$ と $E_2$ を 2 つの正規化空間と $u$ とし、$E_1$ から $E_2$ まで連続する線形写像とします。私たちは持っています
 
 $$
 \|u\| = \|t u\|.
@@ -293,9 +293,9 @@ $$
 |\langle x, x' \rangle| \leq \|x\| \cdot \|x'\| \leq \|x\|.
 $$
 
-Hahn-Banach 定理 (II, p. 23, cor. 2) によれば、$E'$ には $\|x'\| \leq 1$ と $\langle x, x' \rangle = \|x\|$ のように元 $x'$ が存在します。これは(i)を証明します。
+ハーン・バナッハ定理 (II, p. 23, cor. 2) によれば、$E'$ には $\|x'\| \leq 1$ と $\langle x, x' \rangle = \|x\|$ のように元 $x'$ が存在します。これは(i)を証明します。
 
-では、(ii)を証明しましょう。 公式 (3) と転置の定義により、
+では、(ii)を証明しましょう。 転置の公式 (3) と定義により、
 
 $$
 \|^{t}u\| = \sup_{\|y'\| \leq 1} \|^{t}u(y')\| = \sup_{\|y'\| \leq 1, \|x\| \leq 1} |\langle x, ^{t}u(y') \rangle|
@@ -304,7 +304,7 @@ $$
 
 #### 注意 1 {#evt-iv-s1-n3-rem-1 .statement tag=07R6}
 
-公式 (3) は (4) の特殊なケースで、対応するから線形写像 $\lambda \mapsto \lambda x$ K から E までです。
+公式 (3) は (4) の特殊なケース、対応するから線形写像 $\lambda \mapsto \lambda x$ K から E までです。
 
 #### 注意 2 {#evt-iv-s1-n3-rem-2 .statement tag=07R7}
 
@@ -362,7 +362,7 @@ $$
 
 $A \in \mathfrak{S}$ と $f$ を $E/M$ で連続する線型形式とします。すべての $\lambda \in \mathbf{R}_+$ について、$A$ に $|{}^t p(f)| \leq \lambda$ がある場合にのみ、$p(A)$ に $|f| \leq \lambda$ が存在します。したがって (ii)。
 
-最後に(iii)を証明します。 $y'$ を $(E/M)'$ に入れます。 An element in $E/M$ has norm $< 1$ if and only if it is the image under $p$ of an element of norm $< 1$ in $E$. したがって、
+最後に(iii)を証明します。 $y'$ を $(E/M)'$ に入れます。 $E/M$ の要素は、$E$ のノルム $< 1$ の要素の $p$ の下の画像である場合に限り、ノルム $< 1$ を持ちます。 したがって、
 $$
 \begin{align*}
 \|y'\| &= \sup_{y \in E/M, \|y\| < 1} |\langle y, y' \rangle| = \sup_{x \in E, \|x\| < 1} |\langle p(x), y' \rangle| \\
@@ -373,17 +373,17 @@ ${}^t p$ 誘導する $(E/M)'$ から $M^\circ$ までのアイソメトリ。
 
 #### 命題 10 {#evt-iv-s1-prop-10 .statement tag=07RA}
 
-— (i) For a subset $A$ of $M'$ to be equicontinuous, it is necessary and sufficient that it is the image under ${}^t i$ of an equicontinuous subset of $E'$.
+— (i) $M'$ の部分集合 $A$ が等連続であるためには、それが $E'$ の等連続部分集合の ${}^t i$ の下にある画像であることが必要かつ十分です。
 
-(ii) $M$ が $E$ で閉じられているとします。 Let $\mathfrak{S}$ be a covering of $E$ consisting of bounded subsets and let $\mathfrak{S}_1$ be the set of subsets of $M$ of the form $M \cap A$ for $A$ in $\mathfrak{S}$. $E'_{\mathfrak{S}}/M^\circ$ から $M'_{\mathfrak{S}_1}$ への全単射線形写像 $i$ は連続です。 $\mathfrak{S}$ が関係 $\subset$ に対して有向集合であり、$\sigma(E, E')$ に対して閉じた凸と密な集合で構成される場合、それは同相同型です。
+(ii) $M$ が $E$ で閉じられているとします。 $\mathfrak{S}$ を、有界サブセットからなる $E$ のカバーとし、$\mathfrak{S}_1$ を、$\mathfrak{S}$ の $A$ に対する形式 $M \cap A$ の $M$ のサブセットの集合とする。 $E'_{\mathfrak{S}}/M^\circ$ から $M'_{\mathfrak{S}_1}$ への全単射線形写像 $i$ は連続です。 $\mathfrak{S}$ が関係 $\subset$ に対して有向集合であり、$\sigma(E, E')$ に対して閉じた凸と密な集合で構成される場合、それは同相同型です。
 
 (iii) $E$ が正規化されていると仮定すると、$i$ は $E'/M^\circ$ から $M'$ までのアイソメトリです。
 
 $E'$ の等連続部分集合の ${}^t i$ の下にある像は、$M'$ の等連続部分集合です (IV、p. 7、提案 7)。逆に、$A$を$M'$の等連続部分集合とします。 $M$の位相は、$E$の連続半ノルムの制限から$M$の集合によって定義されます。したがって、すべての $f \in A$ とすべての $x \in M$ に対して $|f(x)| \leq p(x)$ となるような、$E$ 上の連続的な半ノルム $p$ が存在します。 $B$ を、$E$ のすべての線型形式 $g$ の集合として、$|g| \leq p$ と、制限から $M$ 属するから $A$ とします。 集合 $B$ は $E'$ で等連続です。 Hahn-Banach 定理 (II, p. 23, cor. 1) より、${}^t i(B) = A$ があるため、(i) が続きます。
 
-ここで (ii) を証明します。プロップにより。 $E'_{\mathfrak{S}}$から$M'_{\mathfrak{S}_1}$までIV、p. 6、線形写像${}^t i$の6は連続し、定義するは移行から商まで、線形写像$\iota$が連続します。 $E'_\mathscr{S}/M^\circ$から$M'_{\mathscr{S}_1}$へ。 $\mathscr{T}$を$E'_\mathscr{S}/M^\circ$を$\iota$で移した$M'$の位相とする。これは、$\mathscr{S}_1$ トポロジではなく、より細かいです。
+ここで (ii) を証明します。プロップにより。 $E'_{\mathfrak{S}}$から$M'_{\mathfrak{S}_1}$までIV、p. 6、線形写像${}^t i$の6は連続し、定義するは移行から商まで、線形写像$\iota$が連続します。 $E'_\mathscr{S}/M^\circ$から$M'_{\mathscr{S}_1}$へ。 $\mathscr{T}$を$E'_\mathscr{S}/M^\circ$を$\iota$で移した$M'$の位相とする。これは、$\mathscr{S}_1$ トポロジよりもより細かいです。
 
-ここで、$\mathscr{S}$ が $\subset$ に対して有向集合であり、$\sigma(E, E')$ に対して閉じた、凸型、バランスが取れたコンパクトな集合で構成されているとします。 $\iota$ が同相写像であること、つまり、$\mathscr{T}$ が $M'$ の $\mathscr{S}_1$ トポロジーよりも粗いことを示すには、$\mathscr{T}$ が $M'$ と $M$ の双対性と互換性があり、すべての等連続集合が一致することを証明するだけで十分です。 $M$ ($M$ と $\mathscr{T}$ の双対とみなされる) は、集合所属から $\mathscr{S}_1$ の相似形に含まれます。 $\mathscr{T}$は$\mathscr{S}_1$-トポロジーよりより細かいで、$\mathscr{S}_1$は$M$の覆いなので、$M'$上の線型形式$y' \mapsto \langle y, y' \rangle$は$y \in M$ごとに$\mathscr{T}$連続します。 $f$ を $M'$ で線型形式とし、これは $\mathscr{T}$ にわたって連続します。そうすると、$f \circ \iota$ は $E'_\mathscr{S}$ で連続する線型形式になります。 The $\mathscr{S}$-topology on $E'$ is coarser than the Mackey topology $\tau(E', E)$; for, the mapping $d_B : E \to {E'}^*$ is continuous for the topologies $\sigma(E, E')$ and $\sigma({E'}^*, E')$, and since the latter is Hausdorff, the image under $d_B$ of a set which is compact for $\sigma(E, E')$ is compact for $\sigma({E'}^*, E')$. IV、p. 3 の補題 1 までに、すべての $x' \in E'$ に対して $f(\iota(x')) = \langle x_0, x' \rangle$ となるような $x_0 \in E$ が存在します。 特に、すべての $x' \in M^\circ$ に対して $\langle x_0, x' \rangle = 0$ があり、$M$ が $E$ で閉じているため、$x_0 \in M$ (II、p. 45、cor. 2) が得られます。そして最後に、$y' \in M'$全員に対して$f(y') = \langle x_0, y' \rangle$です。 これは、$\mathscr{T}$ * $M$ * と* $M'$ の二重性と互換性があることを証明します。
+ここで、$\mathscr{S}$ が $\subset$ の場合は有向集合で、$\sigma(E, E')$ の場合は閉じた、凸型、バランスが取れたコンパクトな集合で構成されるとします。 $\iota$ が同相写像であること、つまり、$\mathscr{T}$ が $M'$ の $\mathscr{S}_1$ トポロジーよりも粗いことを示すには、$\mathscr{T}$ が $M'$ と $M$ の双対性と互換性があり、すべての等連続であることを証明するだけで十分です。 $M$ の集合 ($M$ と $\mathscr{T}$ の双対とみなされる) は、集合所属から $\mathscr{S}_1$ までの相似形に含まれています。 $\mathscr{T}$は$\mathscr{S}_1$-トポロジーよりもより細かいであり、$\mathscr{S}_1$は$M$の覆いなので、$M'$上の線型形式$y' \mapsto \langle y, y' \rangle$は$y \in M$ごとに$\mathscr{T}$連続します。 $f$ を $M'$ で線型形式とし、これは $\mathscr{T}$ まで連続します。その場合、$f \circ \iota$ は $E'_\mathscr{S}$ で連続する線型形式になります。 $E'$ の $\mathscr{S}$ トポロジは、Mackey 位相 $\tau(E', E)$ よりも粗いです。つまり、写像 $d_B : E \to {E'}^*$ はトポロジ $\sigma(E, E')$ と $\sigma({E'}^*, E')$ に対して連続であり、後者はハウスドルフであるため、$\sigma(E, E')$ に対してコンパクトである集合の $d_B$ の下にある像は、$\sigma({E'}^*, E')$ に対してコンパクトです。 IV、p. 3 の補題 1 までに、すべての $x' \in E'$ に対して $f(\iota(x')) = \langle x_0, x' \rangle$ となるような $x_0 \in E$ が存在します。特に、すべての $x' \in M^\circ$ に対して $\langle x_0, x' \rangle = 0$ があり、$M$ が $E$ で閉じているため、$x_0 \in M$ (II、p. 45、cor. 2) になります。そして最後に、$y' \in M'$全員の$f(y') = \langle x_0, y' \rangle$。これは、$\mathscr{T}$ *$M$ * と* $M'$ の二重性と互換性があることを証明します。
 
 ここで、$A$ を $M'$ の位相 $\mathscr{T}$ に対して等連続である $M$ の部分集合とします。 $\mathscr{T}$ の定義により、$\mathscr{S}$ が指示されている仮定を考慮すると、集合 $B \in \mathscr{S}$ 含む 0 が存在し、数 $|\langle y, x' \rangle|$ の上界 $\lambda$ が存在することを意味します。 $y \in A$ と $x' \in B^\circ$ は有限です (III, p. 19、提案 7)。 $B$ は $E$ で閉じているため、双極性の定理 (II、p. 44、th. 1) は、$A \subset \lambda(B \cap M)$ があることを示します。これで(ii)の証明は完了です。
 
@@ -471,7 +471,7 @@ $F = \bigoplus_{i \in I} F_i$ に、トポロジー $\sigma(F_i, E_i)$ の直和
 
 $\tau(F, E)$ の主張は、補題 3 (ii) と次の性質から続きます: $F^* = \prod_{i \in I} F_i^*$ の閉じた凸型でバランスの取れた部分集合が $\sigma(F^*, F)$ に対してコンパクトであるためには、各 $F_i^*$ の射影がコンパクトであることが必要かつ十分です$\sigma(F_i^*, F_i)$。
 
-To prove the assertion on $\tau(E, F)$, assume first that the topologies $\sigma(F_i, E_i)$ are Hausdorff, it is enough (lemma 3 (i)) to prove that every subset $A$ of $F$ which is convex, balanced and compact for $\sigma(F, E)$ is contained in a set of the form $\sum_{i \in J} A_i$ where $J \subset I$ is finite and where $A_i$ is convex, balanced and compact for $\sigma(F_i, E_i)$. しかし、そのような部分集合は $\sigma(F, E)$ に限定されます。 By the proof of prop. 12, there exists a finite subset $J$ of $I$ such that $A \subset \sum_{i \in J} F_i$, and it is enough to take for $A_i$ the projection of $A$ on $F_i$.
+To prove the assertion on $\tau(E, F)$, assume first that the topologies $\sigma(F_i, E_i)$ are Hausdorff, it is enough (lemma 3 (i)) to prove that every subset $A$ of $F$ which is convex, balanced and compact for $\sigma(F, E)$ is contained in a set of the form $\sum_{i \in J} A_i$ where $J \subset I$ is finite and where $A_i$ is convex, balanced and compact for $\sigma(F_i, E_i)$. しかし、そのような部分集合は $\sigma(F, E)$ に限定されます。 プロップの証明により。 12 では、$A \subset \sum_{i \in J} F_i$ となるような$I$ の有限部分集合$J$ が存在し、$F_i$ への$A$ の射影を$A_i$ にとれば十分です。
 
 一般的なケースでは、プロップの証明と同じ記法を使用します。図 12 では、$\tau(E_i, F_i) = \tau(E_i, F_i/N_i)$ と $\tau(E, F) = \tau(E, F/N)$ (IV、p. 2) があり、$F/N$ は $F_i/N_i$ のトポロジー 直和であるため、前のケースに帰着します。
 

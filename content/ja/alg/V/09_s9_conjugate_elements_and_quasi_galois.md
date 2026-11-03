@@ -30,16 +30,16 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 85fac090544fec442bd8821e4ea2a68dde95d639b6fb990ce7ce35c0db51ff71
+content_sha256: bf152a8e95e1c604dcd2d0a74e39d498b173cc856647a60a6c05ac68f2782623
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
 translation_method: google
 source_content_sha256: 65beb1cc0241071c6af8fd096affc82c43f56e17f2bdbff1369f0068bc5d019e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 05fc2deac60a55fa4a7692e60abe423d74f46cc5ac74a70f23747befb7e82112
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 9。 共役元および準ガロア拡張
@@ -94,7 +94,7 @@ $f$ は $\mathbf{K}[X]$ のモニック既約多項式です。したがって (
 
 #### 系 1 {#alg-v-s9-prop-2-cor-1 .statement tag=06LN}
 
-— *Let $x$ be an element of $\Omega$ of degree $n$ over $K$, and let $f$ be the minimal polynomial of $x$ over $K$. The conjugates of $x$ over $K$ are-the roots off in $\Omega$ and their number is at most equal to $n$.*
+— *$x$ を $K$ 上の $n$ 次の $\Omega$ の要素とし、$f$ を $K$ 上の $x$ の最小多項式とする。 $K$ を超える $x$ の共役は、$\Omega$ で根が外れており、その数は最大でも $n$ に等しくなります。*
 
 #### 系 2 {#alg-v-s9-prop-2-cor-2 .statement tag=06LO}
 
@@ -167,7 +167,7 @@ $E$ が $K$ の準ガロア拡張であり、$F$ が $E$ の準ガロア拡張�
 
 #### 注意 3 {#alg-v-s9-n3-rem-3 .statement tag=06LY}
 
-$E$ を $K$ の代数拡大と $x, y$ 2 つの $E$ の元とします。 写像 $x$ から $y$ までの $E$ の $K$ 自己同型が存在する場合、$x$ と $y$ は$K$ 上で同じ最小多項式を持ち、提案 2 により $K$ 上で共役も同様になります。 (V、p. 52)。 $E$ が準ガロアである場合、$\Omega$ 誘導するのすべての $K$ 自己同型は $E$ の $K$ 自己同型となるため、逆が成り立ちます。 The hypothesis that $E$ be quasi-Galois is not superfluous as the following example shows: \* let $K = \mathbf{Q}$ and $\Omega$ the field of all algebraic numbers; put $E = \Omega \cap \mathbf{R}$. $E$ のすべての自己同型は恒等写像であり、$\sqrt{2}$ と $-\sqrt{2}$ は $\mathbf{Q}$ の $E$ 共役の元であることが示されます (V、p. 153、例 2)。 \*
+$E$ を $K$ の代数拡大と $x, y$ 2 つの $E$ の元とします。 写像 $x$ から $y$ までの $E$ の $K$ 自己同型が存在する場合、$x$ と $y$ は$K$ 上で同じ最小多項式を持ち、提案 2 により $K$ 上で共役も同様になります。 (V、p. 52)。 $E$ が準ガロアである場合、$\Omega$ 誘導するのすべての $K$ 自己同型は $E$ の $K$ 自己同型となるため、逆が成り立ちます。 次の例が示すように、$E$ が準ガロアであるという仮説は不必要ではありません。 \* $K = \mathbf{Q}$ と $\Omega$ をすべての代数的数の体とします。 $E = \Omega \cap \mathbf{R}$を入れます。 $E$ のすべての自己同型は恒等写像であり、$\sqrt{2}$ と $-\sqrt{2}$ は $\mathbf{Q}$ の $E$ 共役の元であることが示されます (V、p. 153、例 2)。 \*
 
 ### 4. 集合によって生成された準ガロア拡張
 
@@ -183,7 +183,7 @@ $A$ を $\Omega$ の元の集合とし、$B$ を $A$ の元の共役である $\
 
 #### 命題 5 {#alg-v-s9-prop-5 .statement tag=06M0}
 
-— E を $\Omega$ に含まれる K の拡大とし、N を E によって生成された準ガロア拡張とします。 If A is a subset of $\Omega$ such that $E = K(A)$ then $N = K(B)$, where B is the set of elements of $\Omega$ which are conjugate to an element of A.
+— E を $\Omega$ に含まれる K の拡大とし、N を E によって生成された準ガロア拡張とします。 A が $E = K(A)$ のような $\Omega$ のサブセットである場合、次に $N = K(B)$ になります。ここで、B は A の要素と共役である $\Omega$ の要素のセットです。
 
 #### 系 1 {#alg-v-s9-prop-5-cor-1 .statement tag=06M1}
 

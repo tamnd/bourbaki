@@ -21,16 +21,16 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 5a2f005f8dab0fea5099e6f91910bd16162fb092101bebc53c49f87beeb68e70
+content_sha256: 4de212295ea37103d9a9bca7bd1b8cbd8008f106ea8c8057ae2fbc3c50bc9463
 translated_from: content/en/int/I/00_frontmatter.md
 translation_method: google
 source_content_sha256: f9fb1f9ad9415bc967e08205858a5af5eecf03e7f2b0b9123eb6a2caf75a5af8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 56a18de05305b0ca4767c1a3051879386aa11cb208cfe4db02662f6ec445fde9
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 I
@@ -183,7 +183,7 @@ $$
 
 系。 — *次のように仮定します* $M(1) = 1$; *その後、すべての有限数値写像* $f$ *上で定義された* $X$、*写像* $p \mapsto N_p(f)$ *は増加するで* $]0, +\infty[$ になります。
 
-Applying the inequality (9) to the case that $g = 1$, we see that $N_r(f) \leq N_p(f)$ for all $q > 0$; since the number $r$ defined by $1/r = 1/p + 1/q$ runs over the set of numbers such that $0 < r < p$ when $q$ runs over the set of numbers $> 0$, the corollary is proved.
+不等式 (9) を $g = 1$ の場合に適用すると、すべての $q > 0$ に対して $N_r(f) \leq N_p(f)$ であることがわかります。 $1/r = 1/p + 1/q$ によって定義される数値 $r$ は、$q$ が数値セット $> 0$ を超えると $0 < r < p$ となるように、数値セット全体にわたって実行されるため、当然の帰結が証明されます。
 
 命題 5. — *すべての有限数値写像* $f$ *上で定義* $X$、*集合* $I$ *of 値 of* $1/p$ ($p > 0$) *そのような* $N_p(f)$ *は有限である空か、区間のいずれかです。 * $I$ * が点に縮小されない場合、 写像* $\alpha \mapsto \log N_{1/\alpha}(f)$ * は $I$ 上に凸であるか、 * $I$ の内側にある* $-\infty$ に等しい。
 

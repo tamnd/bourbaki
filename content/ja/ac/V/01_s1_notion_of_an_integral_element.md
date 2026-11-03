@@ -49,16 +49,16 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: e7322eee64ceb43d98b0cbd5eae55e7a6fd34247c600ea8aa57880fab093e205
+content_sha256: c5d1b7b8e7457748abb895abc63b76e74f138ce8e0bf1e5a6ba5c5d807539138
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
 translation_method: google
 source_content_sha256: 7deb20eda4181c66deed788db2dd8c9dfd03ddc75e31d67d9679866d4b1220a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1e600f0c483156c8100d64f79e5ba8d9bb88379510809703be4bca05d037fb37
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 積分元の概念
@@ -88,7 +88,7 @@ $$
 
 (*) この章と次の結果は、書籍 I から VI 以外の書籍、章 I, § 4、章 111、§ 5 には依存しません。
 
-We conclude that $A[x]$ is equal to $M_0$ and is therefore a finitely generated $A$-module.
+$A[x]$ は $M_0$ に等しいため、有限生成された $A$ 加群であると結論付けます。
 
 可換環 $A[x]$ はそれ自体に対する忠実な加群であるため、($E_{II}$) は ($E_{III}$) を暗示します。
 
@@ -104,30 +104,30 @@ $$
 xu_i = \sum_{j=1}^n q_{ij}u_j \quad \text{for} \quad 1 \leq i \leq n.
 $$
 
-Therefore (*代数*, 章 III, § 8) if $d$ is 行列式 of 行列 $(q_{ij} - \delta_{ij}x)$ with 元 in $A[x]$ ($\delta_{ij}$ denoting the Kronecker 添字), thenすべての $i$ に対して $du_i = 0$、したがって $dM = 0$; $M$ は忠実な $A[x]$ モジュールであると想定されているため、必然的に $d = 0$ になります。 This means that $x$ is 根 of the polynomial $\det(q_{ij} - \delta_{ij}X)$ in $A[X]$ which, up to a sign, is a monic polynomial whose coefficientsother than the dominant 係数属する to $q$.
+したがって (*代数*, 章 III, § 8) $d$ が行列 $(q_{ij} - \delta_{ij}x)$ の行列式で、$A[x]$ に元が含まれる場合 ($\delta_{ij}$ はクロネッカー 添字を示す)、すべての $i$ に対して $du_i = 0$、したがって $dM = 0$; $M$ は忠実な $A[x]$ モジュールであると想定されているため、必然的に $d = 0$ になります。これは、$x$ が $A[X]$ の多項式 $\det(q_{ij} - \delta_{ij}X)$ の根であることを意味します。これは、符号まで、主要な係数属するから $q$ 以外の係数がモニック多項式です。
 
 #### 定義 1 {#ac-v-s1-def-1 .statement tag=04MU}
 
-*$A$ を環 、$R$ を $A$-代数 (可換である必要はありません) とします。 元 $x \in R$ は、定理 1 の同等の性質 ($E_1$)、($E_{II}$)、($E_{III}$) を満たす場合、$A$ の積分と呼ばれます。*
+*$A$ を環とし、$R$ を $A$ 代数とします (必ずしも可換である必要はありません)。 元 $x \in R$ は、定理 1.* の同等の性質 ($E_1$)、($E_{II}$)、($E_{III}$) を満たす場合、$A$ の積分と呼ばれます。
 
-$P$ が $A[X]$ の *モニック* 多項式である形 $P(x) = 0$ の関係は、$A$ の係数との *積分依存関係の方程式* とも呼ばれます。
+形 $P(x) = 0$ の関係 (ここで、$P$ は $A[X]$ の *モニック* 多項式) は、$A$ の係数との *積分依存関係の方程式* とも呼ばれます。
 
 *例*
 
 #### 例 1 {#ac-v-s1-n1-exa-1 .statement tag=04MV}
 
-$K$ を (可換) 体 、$R$ を $K$-代数とする。 元 $x \in R$ が $K$ に関して整数であると言うのは、 $x$ が環 $K[X]$ の *非定数* 多項式の根であるというというと等価です。 $R$ が $K$ の *拡大* (*代数*、章 V, § 3, no. 3)、元 $x \in R$ が $K$ で積分である場合に導入された用語を一般化すると、元の *代数* 元とも呼ばれます。 $K$よりも$R$。
+$K$ を (可換) 体とし、$R$ を $K$-代数とする。 元 $x \in R$ が $K$ に関して整数であると言うのは、 $x$ が環 $K[X]$ の *非定数* 多項式の根であるというというと等価です。 $R$ が $K$ の *拡大* (*代数*, 章 V, § 3, no. 3)、元 $x \in R$ が $K$ で積分である場合に導入された用語を一般化すると、*代数* とも呼ばれます$K$ を超える $R$ の元。
 
-*(2)* The elements *of* $\mathbf{Q}(i)$ which are integral over $\mathbf{Z}$ are the elements of the form $a + ib$ where $a \in \mathbf{Z}$ and $b \in \mathbf{Z}$ ("*Gaussian integers*"'); the elements of $\mathbf{Q}(\sqrt{5})$ which are integral over $\mathbf{Z}$ are the elements *of* the form $(a + b\sqrt{5})/2$ where $a$ and $b$ belong to $\mathbf{Z}$ and are both even or both odd (for these two examples see Exercise 1).
+*(2)* 元 *of* $\mathbf{Q}(i)$ は、$\mathbf{Z}$ で積分されており、形 $a + ib$ の元です。ここで、$a \in \mathbf{Z}$ と $b \in \mathbf{Z}$ ("*ガウス整数*"'); $\mathbf{Z}$ で整数である $\mathbf{Q}(\sqrt{5})$ の元は、形 $(a + b\sqrt{5})/2$ の *元です。ここで、$a$ と $b$ 属する ～ $\mathbf{Z}$ は両方とも偶数または両方とも奇数です (これら 2 つの場合) 例練習問題 1) を参照。
 
-(3) $\mathbf{Z}$ 上の複素数積分は代数整数とも呼ばれます。
+(3) $\mathbf{Z}$ 上の複素数積分は、代数整数とも呼ばれます。
 
 Remarks
-(1) Let $A'$ be the subring of $R$ (contained in the centre of $R$) the image of $A$ under the ring homomorphism $A \to R$ which defines the $A$-algebra structure on $R$. Clearly it is equivalent to say that an element of $R$ is integral over $A$ or that it is integral over $A'$.
+(1) Let $A'$ be the subring of $R$ (contained in the centre of $R$) the image of $A$ under the ring homomorphism $A \to R$ which defines the $A$-algebra structure on $R$. 明らかに、$R$ の元は $A$ に関して積分である、または $A'$ に関して積分であると言うのと同等です。
 
 #### 例 2 {#ac-v-s1-n1-exa-2 .statement tag=04MW}
 
-Let $R'$ be a sub-A-algebra of $R$; the elements of $R'$ which are integral over $A$ are just the elements of $R$ which are integral over $A$ and belong to $R'$; this often allows us not to specify the algebra to which an integral element over $A$ belongs, when no confusion can arise.
+$R'$ を $R$ の部分 A 代数とする。 $A$ で整数である $R'$ の元は、$A$ と属する ～ $R'$ で整数である $R$ の元です。これにより、混乱が生じない場合には、$A$ 属するの積分元がどのような代数であるかを指定しなくても済みます。
 
 #### 命題 1 {#ac-v-s1-prop-1 .statement tag=04MX}
 
@@ -187,7 +187,7 @@ $A$ の $f(x) = x'$ と元が $f$ の下で不変となるような、$K(x)$ の
 
 #### 命題 3 {#ac-v-s1-prop-3 .statement tag=04N4}
 
-*$(R_i)_{1 \leq i \leq n}$ を (必ずしも可換であるとは限らない) $A$-代数の有限族とし、$R = \prod_{i=1}^n R_i$ をその積とします。 For an element $x = (x_i)_{1 \leq i \leq n}$ of $R$ to be integral over $A$, it is necessary and sufficient that each of the $x_i$ be integral over $A$. $R$ が $A$ に対して整数であるためには、$R_i$ のそれぞれが $A$ に対して整数であることが必要かつ十分です。*
+*$(R_i)_{1 \leq i \leq n}$ を (必ずしも可換であるとは限らない) $A$-代数の有限族とし、$R = \prod_{i=1}^n R_i$ をその積とします。 $R$ の要素 $x = (x_i)_{1 \leq i \leq n}$ が $A$ に対して積分であるためには、$x_i$ のそれぞれが $A$ に対して積分であることが必要かつ十分です。 $R$ が $A$ に対して整数であるためには、$R_i$ のそれぞれが $A$ に対して整数であることが必要かつ十分です。*
 
 最初の主張を証明するだけで明らかに十分です。 条件は命題 2 によって必要です。逆に、各 $x_i$ が $A$ に関して積分である場合、$R_i$ の部分代数 $A[x_i]$ は有限生成された $A$ 加群であり、したがって、部分代数 $\prod_{i=1}^n A[x_i]$ も同様です。 $R$; $A[x]$ はこの部分代数に含まれているため、$x$ は $A$ から命題 1 までの積分です。
 
@@ -199,7 +199,7 @@ $n$ については帰納法で、命題は $n = 1$ に対して (E_{II}) であ
 
 #### 系 1 {#ac-v-s1-prop-4-cor-1 .statement tag=04N6}
 
-Let $A$ be a ring and $R$ a (Commutative)A-algebra. The set of elements $\& R$ integral over $A$ is a subalgebra of $R$.
+$A$ を環 、$R$ を (可換) A-代数とします。 $A$ 上で積分された要素の集合 $\& R$ は $R$ の部分代数です。
 
 実際、$x, y$ が $A$ について積分した $R$ の 2 つの元である場合、命題 4 から$A[x, y]$ は有限生成A-加群であることがわかります。 含む $x + y$ と $xy$ のように、系は命題 1 から続きます。
 
@@ -207,27 +207,27 @@ Let $A$ be a ring and $R$ a (Commutative)A-algebra. The set of elements $\& R$ i
 
 #### 系 2 {#ac-v-s1-prop-4-cor-2 .statement tag=04N7}
 
-$A$ を環、$R$ A-代数 (必ずしも可換であるとは限らない)、および $E$ 集合 $\&$ 元 $\& R$ とします。これらはペアごとに置換可能であり、$A$ について整数です。このとき、$E$ によって生成された部分 A 代数 $B \& R$ は、$A$ 上で積分です。
+$A$ を環、$R$ A-代数 (必ずしも可換であるとは限らない)、および $E$ 集合 $\&$ 元 $\& R$ とします。これらはペアごとに置換可能であり、$A$ に関して整数です。このとき、$E$ によって生成された部分 A 代数 $B \& R$ は、$A$ 上で積分です。
 
-$B$ 属するのすべての元を、$E$ の有限部分集合によって生成された $B$ の部分 A 代数に変換します。
+$B$ 属するの各元から、$E$ の有限部分集合によって生成される $B$ の部分 A 代数。
 
-注意 (3) 命題 4 から、$A$ 上のすべての可換A-代数積分は、$A$ 上の有限部分代数の右有向族の和集合であることがわかります。
+注意 (3) 命題 4 から、$A$ 上のすべての可換積分 A-代数は、$A$ 上の有限部分代数の右有向族の和集合であることがわかります。
 
 #### 命題 5 {#ac-v-s1-prop-5 .statement tag=04N8}
 
-$A$ を環と $A$ および $R$ 2 (可換) A-代数とします。 $R$ が $A$ に対して積分である場合、$R \otimes_A A'$ は $A'$ に対して積分です。
+$A$を環、$A$、$R$を2（可換）A-代数とします。 $R$ が $A$ に対して整数である場合、$R \otimes_A A'$ は $A'$ に対して整数です。
 
-$R \otimes_A A'$ の任意の元 $x' = \sum_{i=1}^n x_i \otimes a'_i$ を考えます。ここで、$x_i$ 属するから $R$ と $a'_i$ から $A'$ です。 $x_i \otimes a'_i = (x_i \otimes 1)a'_i$ と $x_i \otimes 1$ は $A'$ (命題 2) に対して積分であるため、$x$ も同様です。
+$R \otimes_A A'$ の任意の元 $x' = \sum_{i=1}^n x_i \otimes a'_i$ を考えてみましょう。$x_i$ 属するから $R$ と $a'_i$ から $A'$ です。 $x_i \otimes a'_i = (x_i \otimes 1)a'_i$ と $x_i \otimes 1$ は $A'$ (命題 2) に関して整数であるため、$x$ も同様です。
 
 #### 系 {#ac-v-s1-n1-cor-2 .statement tag=04N9}
 
-$R$ を環および $A, B, C$ 部分環 $\& R$ として、$A \subset B$ とします。 If $B$ is integral over $A$, $C[B]$ is integral over $C[A]$.
+$R$ を環および $A, B, C$ 部分環 $\& R$ として、$A \subset B$ とします。 $B$ が $A$ に対して整数である場合、$C[B]$ は $C[A]$ に対して整数です。
 
-$B \otimes_A C[A]$ は $C[A]$ の命題 5 による積分であるため、$R$ (A-代数とみなされる) の $B \otimes_A C[A]$ の標準像 $C[B]$ も命題 2 の積分です。
+$B \otimes_A C[A]$ は命題 5 による $C[A]$ の積分であるため、$R$ (A-代数とみなされる) の $B \otimes_A C[A]$ の標準像 $C[B]$ も命題 2 による積分です。
 
 #### 命題 6 {#ac-v-s1-prop-6 .statement tag=04NA}
 
-$A$ を環、$B$ (可換)A-代数、$C$ を (必ずしも可換ではない)B 代数とする。 $B$ が $A$ に対して積分であり、$C$ が $B$ に対して積分である場合、$C$ は $A$ に対して積分です。
+$A$ を環、$B$ (可換)A-代数、$C$ を (必ずしも可換ではない)B 代数とする。 $B$ が $A$ に対して整数であり、$C$ が $B$ に対して整数である場合、$C$ は$A$ に対して整数です。
 
 すべての $x \in C$ が $A$ に対して整数であることを検証するだけで十分です。 仮定までに、$B$ に係数が入り、$x$ が根となるモニック多項式 $X^n + b_1 X^{n-1} + \cdots + b$ が存在します。この場合、$x$ は $B' = A[b_1, \ldots, b_n]$ の積分であるため、$B'[x]$ は有限生成された B-加群になります。しかし、$B$ は $A$ に対して整数であるため、$B'$ は有限生成A-加群 (命題 4) です。 結論する B'[x] も有限生成A-加群 (代数, 章 11, § 1, no. 13, 命題 25) であるため、x は A に関して整数です。
 
@@ -313,7 +313,7 @@ P の次数 $n$ で帰納法を進めます。$n = 0$ と $n = 1$ では補題�
 
 #### 命題 11 {#ac-v-s1-prop-11 .statement tag=04NN}
 
-*A を環、R A-代数、R[X] の P と Q のモニック多項式とする。 PQ の係数が A に関して整数である場合、P と Q の係数は A に関して整数です。*
+*A を環、R A-代数、R[X] の P と Q のモニック多項式とする。 PQ の係数が A に関して積分である場合、P と Q の係数は A に関して積分です。*
 
 補題 2 を二重に適用すると、$R'[X]$ に次のような環 R' 含む R と R' の族元 $(a_i)_{1 \leq i \leq m}, (b_j)_{1 \leq j \leq n}$ が存在することがわかります。
 $$
@@ -329,19 +329,19 @@ A を整域、K を分数の体、K' を K-代数とします (必ずしも可�
 
 仮定 (no. 1, 定理 1) によって、$Q(x) = 0$ となるようなモニック多項式 $Q \in A[X]$ が存在します。 $K[X]$ の $P$ 割る $Q$ のように、命題 11 から、$P$ の係数は $A$ に関して積分であることがわかります。
 
-Let $A$ be a ring and $R$ a (commutative) $A$-algebra; the homomorphism $\phi : A \to R$ defining the $A$-algebra structure on $R$ can be extended uniquely to a homomorphism $A[X] \to R[X]$ of polynomial rings over $A$ and $R$, leaving $X$ invariant and hence $R[X]$ is given a canonical $A[X]$-algebra structure.
+$A$ を環、$R$ を (可換) $A$-代数とする。 $R$ 上の$A$-代数構造を定義する準同型性 $\phi : A \to R$ は、$A$ と $R$ 上の多項式環の準同型性 $A[X] \to R[X]$ に一意に拡張でき、$X$ は不変のままであり、したがって $R[X]$ には正準が与えられます。 $A[X]$-代数構造。
 
 #### 命題 12 {#ac-v-s1-prop-12 .statement tag=04NP}
 
-Let $A$ be a ring, $R$ an $A$-algebra and $P$ a polynomial in $R[X_1, \ldots, X_n]$. $P$ が $A[X_1, \ldots, X_n]$ に対して積分であるためには、$P$ の係数が $A$ に対して積分であることが必要かつ十分です。
+$A$ を環、$R$ を $A$-代数、$P$ を $R[X_1, \ldots, X_n]$ の多項式とします。 $P$が$A[X_1, \ldots, X_n]$に対して積分であるためには、$P$の係数が$A$に対して積分であることが必要かつ十分です。
 
-$R[X_1, \ldots, X_n]$ の多項式を $R[X_1, \ldots, X_{n-1}]$ の係数を含む $X$ の多項式として考えると、$n = 1$ に対して証明命題に縮小されることがすぐにわかります。 次に、$P$ を $R[X]$ の多項式とします。 no. 1, 命題 5 からすぐに、$P$ の係数が $R$ の $A$ の積分閉包 $B$ にある場合、属するから $B[X] = B \otimes_A A[X]$ までの元 $P$ は積分であることがわかります。 $A[X]$以上。 逆に、$P$ が $A[X]$ に対して整数であると仮定し、次のようにします。
+$R[X_1, \ldots, X_n]$ の多項式を $R[X_1, \ldots, X_{n-1}]$ の係数を含む $X$ の多項式として考えると、$n = 1$ では証明命題に縮小されることがすぐにわかります。次に、$P$ を $R[X]$ の多項式とします。 no. 1, 命題 5 からすぐに、$P$ の係数が $R$, 元 $P$ の $A$ の積分閉包 $B$ にある場合、属するは次のようになります。 $B[X] = B \otimes_A A[X]$ は、$A[X]$ に対して積分です。逆に、$P$ が $A[X]$ に対して積分であると仮定し、次のようにします。
 
 $$
 Q(Y) = Y^m + F_1 Y^{m-1} + \cdots + F,
 $$
 
-$P$ を根とした、係数 $F_i \in A[X]$ のモニック多項式になります。 $r$ を、多項式 $P$ および $F_i$ ($1 \leq i \leq m$) のすべての次数より厳密に整数大きくすると、次のように書きます。
+係数 $F_i \in A[X]$ と $P$ を根とするモニック多項式になります。 $r$ を、多項式 $P$ および $F_i$ ($1 \leq i \leq m$) のすべての次数よりも厳密に大きい整数として、次のように書きます。
 
 $$
 P_1(X) = P(X) - X^r.
@@ -353,31 +353,31 @@ $$
 Q_1(Y) = Q(Y + X') = Y^m + G_1 Y^{m-1} + \cdots + G,
 $$
 
-$A[X]$ に係数が入っています。したがって、次のように書くこともできます
+$A[X]$の係数。したがって、次のように書くこともできます
 
 $$
 -P_1(P_1^{m-1} + G_1 P_1^{m-2} + \cdots + G_{m-1}) = G_r
 $$
 
-ここで、$r$の選択は、$-P_1$が$R[X]$のモニック多項式であり、多項式$F_k(X) X^{r(m-k)}$の$G_m(X) = Q(X^r)$、次数が$k \geq 1$に対してすべて$< rm$であることを意味します。 結論するまず第一に、多項式は
+ここで、$r$の選択は、$-P_1$が$R[X]$のモニック多項式であり、$G_m(X) = Q(X^r)$も同様であることを意味します。多項式$F_k(X) X^{r(m-k)}$の次数は、$k \geq 1$に対してすべて$< rm$になります。 結論するまず第一に、多項式は
 
 $$
 P_1^{m-1} + G_1 P_1^{m-2} + \cdots + G_{m-1}
 $$
 
-of $R[X]$ is also monic; moreover, as the coefficients of $G_i$ belong to $A$, Proposition 11 shows that $P_1$ has coefficients integral over $A$ and the coefficients of $P$ are therefore certainly integral over $A$.
+$R[X]$ もモニックです。さらに、$G_i$ 属するから $A$ の係数のように、命題 11 は、$P_1$ が $A$ に対して係数積分しており、$P$ の係数が確実に積分していることを示しています。 $A$。
 
 #### 命題 13 {#ac-v-s1-prop-13 .statement tag=04NQ}
 
-$A$を環、$\mathbf{R}$を$A$代数、$A'$を$\mathbf{R}$の$A$の積分閉包とします。すると、$\mathbf{R}[X_1, \ldots, X_n]$ の $A[X_1, \ldots, X_n]$ の積分閉包は $A'[X_1, \ldots, X_n]$ に等しくなります。
+$A$を環、$\mathbf{R}$を$A$-代数、$A'$を$\mathbf{R}$における$A$の積分閉包とします。この場合、$\mathbf{R}[X_1, \ldots, X_n]$ の $A[X_1, \ldots, X_n]$ の積分閉包は $A'[X_1, \ldots, X_n]$ に等しくなります。
 
-これは、no. 2 の命題 12 と定義 3 から続きます。
+これは、no. 2 の命題 12 と定義 3 に続きます。
 
 #### 系 1 {#ac-v-s1-prop-13-cor-1 .statement tag=04NR}
 
 $A$ を整域とし、$A'$ をその積分閉包とします。すると、多項式環 $A[X_1, \ldots, X_n]$ の積分閉包は $A'[X_1, \ldots, X_n]$ になります。
 
-$n$ について帰納法が議論すると、問題は直ちに $n = 1$ のケースに還元されます。 $K$ を $A$ の分数の体とし、これは $A'$ の分数の体とします。 元 $P$ の体の分数 $K(X)$ の $A[X]$ が $A[X]$ に関して整数である場合、属するから多項式環 $K[X]$ となり、後者は主イデアル整域 (代数、章 IV, § 1, no. 5、命題 7)、したがって一体的に閉じています (命題 10)。 系は、命題 13 から $\mathbf{R} = K$ に適用されます。
+$n$ について帰納法が議論すると、問題は直ちに $n = 1$ のケースに還元されます。 $K$ を $A$ の分数の体とします。これは $A'$ の分数でもあります。 元 $P$ の体の分数 $K(X)$ の $A[X]$ が $A[X]$ に関して整数である場合、属するから多項式環 $K[X]$ となり、後者は主イデアル整域 (代数、章 IV, § 1, no. 5、命題 7)、したがって一体的に閉じています (命題 10)。 命題 13 を $\mathbf{R} = K$ に適用すると、系が続きます。
 
 #### 系 2 {#ac-v-s1-prop-13-cor-2 .statement tag=04NS}
 
@@ -401,7 +401,7 @@ $x^n$ が有限生成された $K$ のサブ A モジュールに含まれてい
 
 ※$A$を完全に一体的に閉じた領域とする。次に、すべての多項式環 $A[X_1, \ldots, X_n]$ (それぞれ、正式な冪系列 $A[[X_1, \ldots, X_n]]$ のすべての環) は完全に一体的に閉じられます。*
 
-$n$ 上の帰納法までに、$A[X]$ (それぞれ $A[[X]]$) が完全に積分的に閉じていることを証明するのに十分です。 Then let $P$ be an element of the field of fractions of $A[X]$ (resp. $A[[X]]$) and suppose that there exists a non-zero element $Q \in A[X]$ (resp. $Q \in A[[X]]$) such that $Q P^m \in A[X]$ (resp. $Q P'' \in A[[X]]$) for every integer $m \geq 0$. $K$ が $A$ の分数の体である場合、$A[X]$ (それぞれ $A[[X]]$) は $K[X]$ (それぞれ $K[[X]]$) の部分環であり、$K[X]$ (それぞれ $K[[X]]$) は次のようになります。 主イデアル整域 (*代数*、章 VII, § 1, no. 1) は一体的に閉じています (no. 4、命題 10) およびネーター (*代数*、章 VIII, § 2, no. 3) なので完全に一体的に閉じています。それなら私たちはすでにそれを見ました
+$n$ 上の帰納法までに、$A[X]$ (それぞれ $A[[X]]$) が完全に積分的に閉じていることを証明するのに十分です。 次に、$P$ を分数体の要素 $A[X]$ (それぞれ $A[[X]]$) とし、すべての整数 $m \geq 0$ に対して $Q P^m \in A[X]$ (それぞれ $Q P'' \in A[[X]]$) となる非ゼロ要素 $Q \in A[X]$ (それぞれ $Q \in A[[X]]$) が存在すると仮定します。 $K$ が $A$ の分数の体である場合、$A[X]$ (それぞれ $A[[X]]$) は $K[X]$ (それぞれ $K[[X]]$) の部分環であり、$K[X]$ (それぞれ $K[[X]]$) は次のようになります。 主イデアル整域 (*代数*、章 VII, § 1, no. 1) は一体的に閉じています (no. 4、命題 10) およびネーター (*代数*、章 VIII, § 2, no. 3) なので完全に一体的に閉じています。それなら私たちはすでにそれを見ました
 
 $P \in K[X]$ (それぞれ $P \in K[[X]]$)。 $P = \sum_{k=0}^{\infty} a_k X^k$ ($a_k \in K$) と $Q = \sum_{k=0}^{\infty} b_k X^k$ ($b_k \in A$) を考えて、$a_i$ がすべての属するから $A$ に当てはまらないと仮定して *不合理な還元* によって議論します。その場合、$a_i \notin A$ となるような少なくとも添字 $i$ が存在します。書いたら
 
@@ -417,17 +417,17 @@ $$
 
 $(A_n)_{n \in \mathbf{Z}}$ を $A$ で定義された濾過とします。 $\bigcap_{n \in \mathbf{Z}} A_n$ は理想 (0) (章 III, § 2, no. 5) の閉包であり、仮定は最初に濾過 $(A_n)$ が分離されていることを意味し、$\mathrm{gr}(A)$ が整域であるため、次に$A$ (章) になります。 III, § 2, no. 3、系 ～ 命題 1)。 $x = b/a$ を体の分数 $K$ の $A$ ($a \in A, b \in A$) の元とし、$A$ の元 $d \neq 0$ が存在し、すべての$dx^n \in A$ が成立します。 $n \geq 0$。私たちは$b \in A a$、そして仮定までに理想的な$A a$が閉じていることを証明しなければならない、すべての$n \in \mathbf{Z}, b \in A a + A$にとってそれを示すだけで十分です。 $A$ の濾過が徹底的であるため、$b \in A a + A_q$ のような整数 $q \in \mathbf{Z}$ が存在します。したがって、関係 $b \in A a + A_q$ が $b \in A a + A_{q+1}$ を意味することを証明すれば十分です。
 
-次に、$b = a y + z$ が $y \in A, z \in A_{q+1}$ であるとします。 次に、すべての $n \geq 0$、よってに対して仮定 $dx^n \in A$ により、すべての $n \geq 0$ に対して直ちに $d(x - y)^n \in A$ が得られます。他の語、$dz^n = a^n t_n$ では、すべての $n \geq 0$ に対して $t_n \in A$ です。 明らかに極限が $z \neq 0$ の場合に注意を払うことができます。 $v$ が $A$ (章 III, § 1, no. 2) の位数写像を表し、$v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$ と書きましょう。 $d', z', a'$ を $A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$ の $d, z, a$ のそれぞれの像とします。 すべての $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (章 III, § 2, no. 3、命題 1) に対して、$dz^n$ の $\mathrm{gr}(A)$ の標準像は $d'{z'}^n$ です。同様に、$a^n t_n$ の $\mathrm{gr}(A)$ の標準像は、$t'_n \in \mathrm{gr}(A)$ である形 ${d'}^n t'_n$ であることがわかり、$a' \neq 0$ として、すべての $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$ についてそれが推測されます。 したがって、$\mathrm{gr}(A)$ が完全に積分的に閉じているという仮定は、$z' = a's'$ となるような $s' \in \mathrm{gr}(A)$ の存在を意味します。 $s'$ を均質な元の和に分解すると、さらに ($z'$ と $a'$ が均質であるため) $s'$、つまり元 $s \in A$ の像が均質であると仮定できることがわかります。次に$v(as) = v(z) = n_2$と$z \equiv as \pmod{A_{n_2+1}}$。 $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$ なので、$b \equiv a(y+s) \pmod{A_{m+1}}$ となります。
+次に、$b = a y + z$ が $y \in A, z \in A_{q+1}$ であるとします。次に、すべての $n \geq 0$ に対して仮定 $dx^n \in A$、よってによって、すべての $n \geq 0$ に対して直ちに $d(x - y)^n \in A$ が得られます。他の語、$dz^n = a^n t_n$ では、すべての $n \geq 0$ に対して $t_n \in A$ が入ります。私たちは明らかに極限 $z \neq 0$ の場合に注意を払うことができます。 $v$ が $A$ (章 III, § 1, no. 2) の位数写像を表し、$v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$ と書きましょう。 $d', z', a'$ を、$A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$ の $d, z, a$ のそれぞれの像とします。すべての $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (章 III, § 2, no. 3, 命題 1) について、$dz^n$ の $\mathrm{gr}(A)$ の標準像は $d'{z'}^n$ です。同様に、$a^n t_n$ の $\mathrm{gr}(A)$ の標準像は、$t'_n \in \mathrm{gr}(A)$ である ${d'}^n t'_n$ の形であることがわかります。そして、$a' \neq 0$ として、すべての $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$ についてそれを推測します。したがって、$\mathrm{gr}(A)$ が完全に積分的に閉じているという仮定は、$z' = a's'$ となるような $s' \in \mathrm{gr}(A)$ の存在を意味します。 $s'$ を同次の元の和に分解すると、さらに ($z'$ と $a'$ が同次であるため) $s'$ が同次、つまり元の像であると仮定できることがわかります。 $s \in A$;次に$v(as) = v(z) = n_2$と$z \equiv as \pmod{A_{n_2+1}}$。 $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$ なので、$b \equiv a(y+s) \pmod{A_{m+1}}$ となります。
 
-### 5. 分数の環の統合クロージャ
+### 5. 分数の環の一体閉鎖
 
-Let $A$ be a ring, $R$ an $A$-algebra and $S$ a multiplicative subset of $A$. (章 II, § 2, no. 8) $S^{-1}R$ には標準的な $S^{-1}A$-代数構造があることを思い出してください。
+$A$ を環、$R$ を $A$-代数、$S$ を $A$ の乗算部分集合とします。 $S^{-1}R$ には標準的な $S^{-1}A$-代数構造があることを思い出してください (章 II, § 2, no. 8)。
 
 #### 命題 16 {#ac-v-s1-prop-16 .statement tag=04NX}
 
-*$A$を環、$R$を$A$-代数、$A'$を$R$の$A$の積分閉包、$S$を$A$の乗算部分集合とする。すると、$S^{-1}R$ における $S^{-1}A$ の積分閉包は $S^{-1}A'$ になります。*
+*$A$を環、$R$を$A$代数、$A'$を$R$の$A$の積分閉包、$S$を$A$の乗法部分集合とする。この場合、$S^{-1}R$ における $S^{-1}A$ の積分閉包は $S^{-1}A'$ となります。*
 
-$b/s$ を $S^{-1}A'$ ($s \in S,\ b \in A'$) の元とします。 図式から
+$b/s$ を $S^{-1}A'$ ($s \in S,\ b \in A'$) の元とします。 図式以来
 
 $$
 \begin{array}{ccc}
@@ -457,11 +457,11 @@ $$
 
 $A$ を整域、$A'$ をその積分閉包、$S$ を $0 \notin S$ となるような $A$ の乗法部分集合とします。すると、$S^{-1}A$の積分閉包は$S^{-1}A'$になります。
 
-The field of fractions $R$ of $A$ is also the field of fractions of $S^{-1}A$ since $0 \notin S$ (Chapter II, § 1, no. 1, Remark 7); 次に、命題 16 が $R$ に適用されます。
+$A$ の分数体 $R$ は、$0 \notin S$ 以降、$S^{-1}A$ の分数体でもあります (II, § 1, no. 1 章、注釈 7)。 次に、命題 16 が $R$ に適用されます。
 
 #### 系 2 {#ac-v-s1-prop-16-cor-2 .statement tag=04NZ}
 
-$A$を整域、$K$を分数の体、$R$代数を$K$、そして$B$を$R$の$A$の積分閉包とします。 $K$ (no. 1, 例 1) の代数である $R$ の元は、形 $a^{-1} b$ の元です。ここで、$b \in B$ と $a \in A, a \neq 0$; $L$が$R$の$K$の代数閉包であれば、$B$に含まれる$K$の上に$L$の基底が存在します。
+$A$を整域、$K$を分数の体、$R$代数を$K$、そして$B$を$R$の$A$の積分閉包とします。 $K$ (no. 1, 例 1) 上の代数である $R$ の元は、形 $a^{-1} b$ の元です。ここで、$b \in B$ と $a \in A, a \neq 0$ です。 $L$が$R$の$K$の代数閉包であれば、$B$に含まれる$K$の上に$L$の基底が存在します。
 
 最初の主張は、$S = A - \{0\}$ の場合に適用された命題 16 の後に続きます。 $(x_i)_{i \in I}$ が $K$ 上の $L$ の基底である場合、$A$ のすべての $i \in I$ 元 $a_i \neq 0$ に対して $a_i x_i \in B$ が存在します。その場合、$(a_i x_i)_{i \in I}$ は $K$ の $L$ の基底でもあります。
 
@@ -511,7 +511,7 @@ $\chi(T) = \det(T.1 - X)$ が $X$ の特性多項式である場合、Cayley-Ham
 
 2 番目に (a) が成り立つとします。 $(e_i)_{1 \leq i \leq n}$ が $B^n$ の標準基底である場合、$X^k.e_i$ ($1 \leq i \leq n, k \geq 0$) によって生成される $B$ のサブ$A$ 加群 $M$ は、$A$-代数のため、有限生成される $A$ 加群です$A[X]$ は、有限生成された $A$ モジュール (no. 1、定理 1) です。 $M$ 含むと $e_i$ のように、(a) は (b) を暗示していることがわかります。 逆は、no. 1、定理 1、条件 (E_{III}) の帰結です。
 
-Finally let us prove that (a) implies (c); as $X$ is integral over $A$ and *a fortiori* over the polynomial ring $A[T]$, $T.1 - X$ is also integral over $A[T]$ and by no. 3, Proposition 12 the problem is seen to reduce (by replacing $X$ by $T.1 - X$ and $A$ by $A[T]$) to proving that, if $X$ is integral over $A$, $d = \det(X)$ is an element of $B$ which is integral over $A$. さて、上で、$X$ によって定義された $B^n$ の自己準同型 $u$ が、有限生成されたサブ$A$ モジュール $M$ 含む $e_i$ を安定に残すことを見てきました。 $n$ベクトル$x_1 \wedge x_2 \wedge \ldots \wedge x_n$、$1 \leq i \leq n$の$x_i \in M$、したがって、$\bigwedge^n(B^n)$の生成するは、有限生成されたサブ$A$モジュール含む$e_1 \wedge e_2 \wedge \ldots \wedge e$で、$\bigwedge^n u$下で安定します。比率$d$のホモテティー未満の語。の消滅子として
+最後に、(a) が (c) を意味することを証明しましょう。 $X$ は $A$ について積分であり、多項式環 $A[T]$ について *fortiori* であるため、$T.1 - X$ も $A[T]$ について積分であり、no. 3 によって命題 12 は問題が軽減されることがわかります ($X$ を $T.1 - X$ に、$A$ を$A[T]$) $X$ が $A$ について整数である場合、$d = \det(X)$ は $A$ について積分である $B$ の要素であることを証明します。 さて、上で、$X$ によって定義された $B^n$ の自己準同型 $u$ が、有限生成されたサブ$A$ モジュール $M$ 含む $e_i$ を安定に残すことを見てきました。 $n$ベクトル$x_1 \wedge x_2 \wedge \ldots \wedge x_n$、$1 \leq i \leq n$の$x_i \in M$、したがって、$\bigwedge^n(B^n)$の生成するは、有限生成されたサブ$A$モジュール含む$e_1 \wedge e_2 \wedge \ldots \wedge e$で、$\bigwedge^n u$下で安定します。比率$d$のホモテティー未満の語。の消滅子として
 
 $$
 e_1 \wedge e_2 \wedge \ldots \wedge e,
@@ -571,11 +571,11 @@ $A'$ は、有限生成された $A$ モジュールの部分加群です。
 
 #### 系 3 {#ac-v-s1-lem-3-cor-3 .statement tag=04OB}
 
-*Let $E$ be an extension of degree $n$ of the field $Q$ of rational numbers. The additive group of the integral closure in $E$ of the ring $Z$ of rational integers is a free commutative group of rank $n$.*
+*$E$ を有理数体 $Q$ の次数 $n$ の拡張とします。 有理整数の環$Z$の$E$における積分閉包の加法群は、階数$n$の自由可換群です*。
 
 $Z$ は積分的に閉じられており (no. 3、命題 10)、$Q$ が特性 0 であるため、$E$ は分離可能です。 したがって、系 2 は、$A = Z$、$K = Q$、$K' = E$ の場合に適用できます。
 
-*注意 (2)*。 $K'$ が $K$ (練習問題 20) の拡大体であっても、$K'$ が $K$ 上で分離していると仮定されていない場合、系 1 の結論は必ずしも真ではありません。 On the other hand, if $A$ is a *finitely generated integral $K_0$-algebra*, where $K_0$ is a *field*, the integral closure of $A$ in *any* extension of finite degree of the field of fractions of $A$ is a finitely generated $A$-module and a Noetherian ring, as we shall see in § 3, no. 2, Theorem 2.
+*注意 (2)*。 $K'$ が $K$ (練習問題 20) の拡大体であっても、$K'$ が $K$ 上で分離していると仮定されていない場合、系 1 の結論は必ずしも真ではありません。 一方、$A$ が *有限生成積分 $K_0$-代数* であり、$K_0$ が *場* である場合、$A$ の分数体の有限次数の *任意の*拡張における $A$ の積分閉包は、有限生成された $A$加群とネーター環になります。 § 3, no. 2、定理 2 を参照。
 
 ### 7. 一体的に閉じたスカラーの拡大代数
 
@@ -583,7 +583,7 @@ $Z$ は積分的に閉じられており (no. 3、命題 10)、$Q$ が特性 0 �
 
 *$k$ を、$k$ および$R$ の統合的に閉じた$k$-代数の体、$L$ 分離拡大とします。 環 $L \otimes_k R$ が整域の場合、一体的に閉じられます。*
 
-K を R の分数の体とします。 k が体, L $\otimes_k$ であるため、R は正準的に L $\otimes_k$ K および L のサブ k-代数、R は L $\otimes_k$ R のサブ k-代数と同一視されます。 Moreover, since an element s $\# 0$ of R is not a divisor of 0 in R, 1 $\otimes s$ is not a divisor of zero in L $\otimes_k$ R since L is flat over k (Chapter I, § 2, no. 3); identifying s with 1 $\otimes s$, it is therefore seen that, if S = R - {0}, L $\otimes_k$ K is identified with S$^{-1}$(L $\otimes_k$ K); as L $\otimes_k$ R is assumed to be an integral domain, L $\otimes_k$ K is thus identified with a subring of the field of fractions $\Omega$ of L $\otimes_k$ R.
+K を R の分数の体とします。 k が体, L $\otimes_k$ であるため、R は正準的に L $\otimes_k$ K および L のサブ k-代数、R は L $\otimes_k$ R のサブ k-代数と同一視されます。 さらに、R の要素 s $\# 0$ は R の 0 の約数ではないため、L は k に対して平坦なので、1 $\otimes s$ は L $\otimes_k$ R のゼロの約数ではありません (I, § 2, no. 3 章)。 s を 1 $\otimes s$ と識別すると、S = R - {0} の場合、L $\otimes_k$ K は S$^{-1}$(L $\otimes_k$ K) と識別されることがわかります。 L $\otimes_k$ R は整数領域であると仮定されているため、L $\otimes_k$ K は L $\otimes_k$ R の分数体 $\Omega$ の部分環と識別されます。
 
 (1) L が k の有限拡大であると仮定します。その場合、L $\otimes_k$ K は K 上の有限階数の代数となり、仮定までに 0 の因子はなくなります。したがって、それは体 (代数, 章 V, § 2, no. 1, 命題 1) であるため、この場合は分数の $\Omega$ L $\otimes_k$ R の体となります。 ($w_1, \ldots, w_r$) を k 上の L の基底とします。したがって、これは K 上の L $\otimes_k$ K の基底でもあります。 $\mathrm{Tr}_{L/k}(w_i w_j^*) = \delta_{ij}$ (no. 6, 補題 3) となる L の基底 ($w_1^*, \ldots, w_n^*$) が存在します。すべての $z \in L \otimes_k K$ は一意に記述できます $z = \sum_{i=1}^u a_i w_i$ ここで $a_i \in K$;それから
 
@@ -591,7 +591,7 @@ $$
 \mathrm{Tr}_{(L \otimes K)/K}(z w_j^*) = \sum_{i=1}^n a_i \mathrm{Tr}_{(L \otimes K)/K}(w_i w_j^*)
 $$
 
-そして、L のように、トレース $\mathrm{Tr}_{(L \otimes K)/K}$ と $\mathrm{Tr}_{L/K}$ 一致する (代数、章 VIII, § 12, no. 2、公式 (13)) が最後に$\mathrm{Tr}_{(L \otimes K)/K}(z w_j^*) = a_j$、$1 \leq j \leq n$ になります。 一方、注意は、Lの元はkに対して整数であり、したがってRに対しても整数です(no. 1、系1から命題2)。したがって (no. 1, 命題 5) L $\otimes_k$ R は R に関して整数です。 したがって、$z \in L \otimes_k K$ が L $\otimes_k$ R に対して積分であると仮定します。この場合、z も R (no. 1, 命題 6) に関して整数であるため、$z w_j^*$ も同様であり、したがって $1 \leq j \leq n$ (no. 6, 系 2 ～ 命題 17) についても $a_j = \mathrm{Tr}_{(L \otimes K)/K}(z w_j^*)$ となります。 R は積分的に閉じているため、すべての $j$ に対して $a_j \in R$、したがって $z \in L \otimes_k R$ となり、この場合命題が証明されます。
+そして、L のように、トレース $\mathrm{Tr}_{(L \otimes K)/K}$ と $\mathrm{Tr}_{L/K}$ 一致する (代数、章 VIII, § 12, no. 2、公式 (13)) が最後に$\mathrm{Tr}_{(L \otimes K)/K}(z w_j^*) = a_j$、$1 \leq j \leq n$ になります。一方、注意は、L の元は k に関して整数であり、したがって R に関しても整数です (no. 1、系 1 から命題 2)。したがって (no. 1, 命題 5) L $\otimes_k$ R は R に対して整数です。これが当てはまると、$z \in L \otimes_k K$ は L $\otimes_k$ R に対して整数であると仮定します。この場合、z も R (no. 1, 命題 6) に関して整数であるため、$z w_j^*$ も整数となり、$1 \leq j \leq n$ (no. 6, 系 2 ～ 命題 17) についても $a_j = \mathrm{Tr}_{(L \otimes K)/K}(z w_j^*)$ となります。 R は積分的に閉じているため、すべての $j$ に対して $a_j \in R$、したがって $z \in L \otimes_k R$ となり、この場合命題が証明されます。
 
 (2) ここで、L が K の有限生成された分離拡大であると仮定します。その場合、k (代数, 章 V, § 9, no. 3, 定理 2) を超える L の分離超越基底 ($x_1, \ldots, x_d$) が存在します。 L と K は体 $\Omega$ (代数, 章 V, § 5, no. 4) において代数的に k 上で互いに素であるため、$x_i$ は K 上で代数的に独立です。したがって、$R[x_1, \ldots, x_d]$ は一体的に閉じています (no. 3、系 2 ～ 命題 13)。 T を元 $\neq 0$ 環 $A = k[x_1, \ldots, x_d] \subset L$ の集合とすると、体 $k_1 = k(x_1, \ldots, x_d) \subset L$ は $T^{-1}k[x_1, \ldots, x_d]$ に等しくなります。それから
 
@@ -610,11 +610,11 @@ L \otimes_{k_1} (k, \otimes_k R) および定義 L により、$k_1$ の有限�
 
 #### 系 {#ac-v-s1-n7-cor-1 .statement tag=04OD}
 
-*k を体とし、R と S の 2 つを一体的に閉じた K-代数とします。 環 $R \otimes_k S$ が整域で、分数 K の体と R と S の L がそれぞれ k 上で分離可能であるとします。 したがって、環 $R \otimes_k S$ は完全に閉じられた領域です。*
+*k を体とし、R と S の 2 つを一体的に閉じた K-代数とします。 環 $R \otimes_k S$ が整域で、分数 K の体と R と S の L がそれぞれ k 上で分離可能であるとします。したがって、環 $R \otimes_k S$ は完全に閉じられた領域です。*
 
-As R and S are identified with subalgebras of $R \otimes_k S$, K and L are identified with subfields of the field of fractions $\Omega$ of $R \otimes_k S$ which are linearly disjoint over $k$ (*Algebra*, Chapter V, § 2, no. 3, Proposition 5). 次に、命題 19 から、$R \otimes_k L$ と $K \otimes_k S$ は一体的に閉じた領域であることがわかります。それらの共通部分は $R \otimes_k S$ (章 I, § 2, no. 6、命題 7) であるため、$R \otimes_k S$ は完全に閉じられたドメイン (no. 2、系 ～ 命題 8) です。
+R と S は部分代数 $R \otimes_k S$ で識別されるため、K と L は $k$ 上で線形素である $R \otimes_k S$ の分数体の部分体 $\Omega$ と識別されます (*代数*、V, § 2, no. 3 章、命題 5)。 次に、命題 19 から、$R \otimes_k L$ と $K \otimes_k S$ は一体的に閉じた領域であることがわかります。それらの共通部分は $R \otimes_k S$ (章 I, § 2, no. 6、命題 7) であるため、$R \otimes_k S$ は完全に閉じられたドメイン (no. 2、系 ～ 命題 8) です。
 
-\* Given two irreducible affine varieties V, W defined over $k$, their product $V \times W$ is an affine variety and the ring of functions regular on $V \times W$ is identified with the tensor product over $k$ of the ring of functions regular on V and the ring of functions regular on W. 系から命題 19 は、V と W が $k$ に対して正常である場合、$V \times W$ は $k$ に対して正常であることを示しています。 \*
+\* 2 つの既約アフィン多様体 V が与えられ、W が $k$ 上で定義されている場合、その積 $V \times W$ はアフィン多様体であり、$V \times W$ 上の正規関数の環は、V 上の正規関数の環と W 上の正規関数の環の $k$ 上のテンソル積と識別されます。 系から命題 19 は、V と W が $k$ に対して正常である場合、$V \times W$ は $k$ に対して正常であることを示しています。 \*
 
 ### 8. 整数がグレード環を上回る
 
@@ -634,7 +634,7 @@ $$
 
 他の語では、x は *同次* 係数との積分依存関係の方程式を満たします。
 
-Let $\mathbf{A}[X, X^{-1}]$ denote the ring of fractions $S^{-1}\mathbf{A}[X]$ of the polynomial ring $\mathbf{A}[X]$ in one indeterminate, $S$ being the multiplicative subset of $\mathbf{A}[X]$ consisting of the powers $X^n$ of $X$ ($n \geq 0$); as $X$ is not a divisor of 0 in $\mathbf{A}[X]$ it is immediate that the $X^i$ ($i \in \mathbf{Z}$) form a basis over $\mathbf{A}$ of the $\mathbf{A}$-module $\mathbf{A}[X, X^{-1}]$. 同次成分 $a_i$ ($i \in \mathbf{Z}$) を持つすべての元 $a \in \mathbf{A}$ について、次のように書きます。
+$\mathbf{A}[X, X^{-1}]$ は、1 つの不定数における多項式環 $\mathbf{A}[X]$ の分数環 $S^{-1}\mathbf{A}[X]$ を表し、$S$ は、$X$ ($n \geq 0$) のべき乗 $X^n$ からなる $\mathbf{A}[X]$ の乗法部分集合です。 $X$ は $\mathbf{A}[X]$ の 0 の約数ではないため、$X^i$ ($i \in \mathbf{Z}$) が $\mathbf{A}$ 加群 $\mathbf{A}[X, X^{-1}]$ の $\mathbf{A}$ に対する基底を形成することがすぐにわかります。 同次成分 $a_i$ ($i \in \mathbf{Z}$) を持つすべての元 $a \in \mathbf{A}$ について、次のように書きます。
 
 $$
 j_{\mathbf{A}}(a) = \sum_{i \in \mathbf{Z}} a_i X^i \in \mathbf{A}[X, X^{-1}]
@@ -692,7 +692,7 @@ $\mathbf{A} = \mathbf{A}_0$ の場合、命題は自明です。それ以外の�
 
 $\mathbf{A} = \bigoplus_{i \in \mathbf{Z}} \mathbf{A}_i$ が統合的に閉じられた段階的ドメインである場合、ドメイン $\mathbf{A}_0$ は統合的に閉じられます。
 
-The field of fractions $K_0$ of $\mathbf{A}$, is identified (in the notation of Proposition 21) with a subring of the ring of homogeneous elements of degree 0 of $S^{-1}A$; every element of $K_0$ integral over $A$, (and *a fortiori* over $A$) belongs therefore by hypothesis to $A$.
+$\mathbf{A}$ の分数体 $K_0$ は、(命題 21 の表記において) $S^{-1}A$ の次数 0 の同次要素の環の部分環と識別されます。したがって、$A$ に関する $K_0$ 積分 (および $A$ に関する *fortiori*) のすべての要素は、仮説により $A$ に属します。
 
 #### 系 3 {#ac-v-s1-prop-21-cor-3 .statement tag=04OJ}
 

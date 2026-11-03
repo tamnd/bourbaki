@@ -21,16 +21,16 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: ff50e8015f2d9f1701712a4605de2a9d166cd95f8d232e3bff614c942fafe589
+content_sha256: 99f1e6e8f427e2009f61df912a1d3184c5f6d1a8050f11240238734452d99035
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
 translation_method: google
 source_content_sha256: 0f5f27152d636e2b4a3f4de2fe99a74694ba33c12058af8b625950449ac3a190
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1492b9edb95c8dcbda2dc9685d90604a83f6274ccf6a77b07b0a7ff84065b68a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。誘導措置に関する統合
@@ -83,7 +83,7 @@ $$
 
 #### 命題 2 {#int-v-s7-prop-2 .statement tag=0968}
 
-— *For a mapping* g *of* X *into a topological space to be* $\mu_X$*-measurable, it is necessary and sufficient that* g *be* $\mu$*-measurable in* X *(§5, No. 3, *Example*)*.
+— *g *の* X *を位相空間に* $\mu_X$*-測定可能にする写像*のためには、* g *が* $\mu$* で* X *(§5, No. 3, *例*)*で*測定可能であることが必要かつ十分である。
 
 これは、§4 の提案 3 から導かれます。
 

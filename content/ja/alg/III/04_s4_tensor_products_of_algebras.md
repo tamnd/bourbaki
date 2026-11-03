@@ -50,16 +50,16 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: bf86cdc7d6cc4a67ae497db9036ea05a7525493b3db0ecc2c1e022b136e3bf37
+content_sha256: 04aa437f60df7577c5da232ee90333cdf0270457d56e6d2c351a4534db10537c
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
 translation_method: google
 source_content_sha256: 25682b65ee25b300876c8d2b79b960cdd7e6d7279edee98e796e41613580d0ee
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7ee0dcf515b1d0589654e7aa1644b0ec1ccee50d80c2c0b81363879c9da8e294
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。 テンソル積/代数
@@ -121,11 +121,11 @@ $I$ が $\mathbf{N}$ の区間 $[1, n]$ で、すべての代数 $E_i$ が同じ
 
 この番号の残りの部分については注意を限定します。 2 つの代数のテンソル積の特性に拡張し、それらを任意の有限族のテンソル積に拡張するというタスクは読者に委ねられます。
 
-$E, F$ を 2 つの $A$-代数とする。 $a$ (それぞれ $b$) が $E$ (それぞれ $F$) の左イデアルである場合、$E \otimes_A F$ の $a \otimes_A b$ の標準像 $\operatorname{Im}(a \otimes b)$ は $E \otimes_A F$ の左イデアルです。 「左の理想」を「右の理想」または「両側の理想」に置き換えると、同様の結果が得られます。さらに：
+$E, F$ を 2 つの $A$-代数とする。 $a$ (それぞれ $b$) が $E$ (それぞれ $F$) の左イデアルである場合、$E \otimes_A F$ の $a \otimes_A b$ の標準像 $\operatorname{Im}(a \otimes b)$ は $E \otimes_A F$ の左イデアルです。 「左の理想」を「右の理想」または「両側の理想」に置き換えると、同様の結果が得られます。さらに:
 
 #### 命題 1 {#alg-iii-s4-prop-1 .statement tag=0609}
 
-*$E, F$ を 2 つの $A$-代数、および $a$ (それぞれ $b$) を $E$ (それぞれ $F$) の両側イデアルとします。次に、正規の $A$ モジュール同型*
+*$E, F$ を 2 つの $A$-代数、$a$ (それぞれ $b$) を $E$ (それぞれ $F$) の両面イデアルとします。次に、正規の $A$ モジュール同型*
 
 $$
 (E/a) \otimes (E/b) \to (E \otimes F)/(\operatorname{Im}(a \otimes F) + \operatorname{Im}(E \otimes b))
@@ -133,11 +133,11 @@ $$
 
 (II, § 3, no. 6、系 1 ～ 命題 6) *は代数同型* です。
 
-これは (1) と *loc が与えられた定義から導き出されます。引用*。
+これは、(1) と *loc が与えられた定義から導き出されます。引用*。
 
 #### 系 1 {#alg-iii-s4-prop-1-cor-1 .statement tag=060A}
 
-*$E$を$A$-代数、$a$を$A$のイデアルとする。この場合、$A$ モジュール $aE$ は、$E$ と標準的な $(A/a)$ モジュール同型* の両側理想です。
+*$E$を$A$-代数、$a$を$A$のイデアルとする。この場合、$A$ 加群 $aE$ は、$E$ と標準的な $(A/a)$ 加群同型* の両面イデアルになります。
 
 $$
 (A/a) \otimes_A E \to E/aE
@@ -147,15 +147,15 @@ $$
 
 #### 系 2 {#alg-iii-s4-prop-1-cor-2 .statement tag=060B}
 
-*$a, b$ が $A$ の 2 つのイデアルである場合、$(A/a) \otimes_A (A/b)$ は$A/(a + b)$* と正準的に同型です。
+*$a, b$ が $A$ の 2 つのイデアルである場合、$(A/a) \otimes_A (A/b)$ は正準的に $A/(a + b)$* と同型です。
 
 #### 系 3 {#alg-iii-s4-prop-1-cor-3 .statement tag=060C}
 
-*$E, F$ を 2 つの $A$-代数と、$F$ の消滅子に含まれる $A$ のイデアルを $a$ とします。この場合、$(A/a)$-代数 $E \otimes_A F$ は正準的に $(E/aE) \otimes_{A/a} F$* と同型です。
+*$E, F$を2つの$A$-代数と、$F$の消滅子に含まれる$A$のイデアルを$a$とします。この場合、$(A/a)$-代数 $E \otimes_A F$ は正準的に $(E/aE) \otimes_{A/a} F$* と同型です。
 
 #### 命題 2 {#alg-iii-s4-prop-2 .statement tag=060D}
 
-*Let $(E_\lambda)_{\lambda \in L}$ and $(F_\mu)_{\mu \in M}$ be two families of $A$-algebras. 標準写像* (II, § 3, no. 7)
+*$(E_\lambda)_{\lambda \in L}$ と $(F_\mu)_{\mu \in M}$ を $A$-代数の 2 つの族とする。 標準写像* (II, § 3, no. 7)
 
 $$
 \left( \bigoplus_{\lambda \in L} E_\lambda \right) \otimes_A \left( \bigoplus_{\mu \in M} F_\mu \right) \to \bigoplus_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)
@@ -163,7 +163,7 @@ $$
 
 *は代数同型*です。
 
-これは、$E \otimes F$ の乗法の II, § 3, no. 7、命題 7、定義の直後に続きます。
+これは、$E \otimes F$の乗法のII, § 3, no. 7、命題7、定義の直後に続きます。
 
 #### 命題 3 {#alg-iii-s4-prop-3 .statement tag=060E}
 
@@ -173,7 +173,7 @@ $$
 \varphi^*(E) \otimes_B \varphi^*(F) \to \varphi^*(E \otimes_A F)
 $$
 
-(II, § 5, no. 1, 命題 3) *は $B$-代数同型*です。
+(II, § 5, no. 1, 命題 3) * は $B$-代数同型* です。
 
 #### 命題 4 {#alg-iii-s4-prop-4 .statement tag=060F}
 
@@ -187,7 +187,7 @@ $$
 
 § 1, no. 5 を考慮すると、検証は簡単です。
 
-In particular, the $A$-algebra structure on $B \otimes_A E$, obtained by restricting the ring $B$ of scalars to $A$, is identical with the structure of the algebra $B \otimes_A E$, the tensor product of the $A$-algebras $B$ and $E$.
+特に、スカラーの環$B$を$A$に制限することで得られる$B \otimes_A E$上の$A$-代数構造は、$A$-代数$B$と$E$のテンソル積である代数$B \otimes_A E$の構造と同一である。
 
 最後に、$(A_i, \phi_{ji})$ が可換環、$(E_i, f_{ji})$、$(F_i, g_{ji})$ の直接系、$A_i$-代数 ($§ 1$、no. 6) と $A = \lim \rightarrow A_i$ の 2 つの直接系である場合、標準的な $A$ 加群同型
 
@@ -223,9 +223,9 @@ $$
 u_i(x_i) = \bigotimes_j x'_j \quad \text{with } x'_i = x_i \text{ and } x'_j = e_j \text{ for } j \neq i.
 $$
 
-(i) *$u_i$ は $\mathbf{A}$-代数同型写像です。さらに、$i \neq j$、元、$u_i(x_i)$、$u_j(x_j)$ は、$x_i \in \mathbf{E}_i$ と $x_j \in \mathbf{E}_j$ のすべてに対して $\mathbf{E}$ で置換可能であり、$\mathbf{E}$ は部分代数 $u_i(\mathbf{E}_i)$ の和集合によって生成されます。
+(i) *$u_i$ は $\mathbf{A}$-代数同型写像です。さらに、$i \neq j$ では、元 $u_i(x_i)$ と $u_j(x_j)$ は、すべての $x_i \in \mathbf{E}_i$ と $x_j \in \mathbf{E}_j$ について$\mathbf{E}$ で置換可能であり、$\mathbf{E}$ は部分代数 $u_i(\mathbf{E}_i)$ の和集合によって生成されます。
 
-(ii) *Let $\mathbf{F}$ be an $\mathbf{A}$-algebra and, for all $i \in \mathbf{I}$, let $v_i : \mathbf{E}_i \to \mathbf{F}$ be an $\mathbf{A}$-algebra homomorphism, where the $v_i$ are such that, for $i \neq j$, $v_i(x_i)$ and $v_j(x_j)$ are permutable in $\mathbf{F}$ for all $x_i \in \mathbf{E}_i$ and $x_j \in \mathbf{E}_j$. すると、次のような $\mathbf{A}$-代数準同型性 $w : \mathbf{E} \to \mathbf{F}$ が 1 つだけ存在します*
+(ii) *$\mathbf{F}$ を $\mathbf{A}$-代数とし、すべての $i \in \mathbf{I}$ について、$v_i : \mathbf{E}_i \to \mathbf{F}$ を $\mathbf{A}$-代数準同型写像とする。ここで、$v_i$ は、$i \neq j$、$v_i(x_i)$、および$v_j(x_j)$ は、すべての $x_i \in \mathbf{E}_i$ と $x_j \in \mathbf{E}_j$ に対して $\mathbf{F}$ で置換可能です。すると、次のような $\mathbf{A}$-代数準同型性 $w : \mathbf{E} \to \mathbf{F}$ が 1 つだけ存在します*
 
 $$
 v_i = w \circ u_i \quad \text{for all } i \in \mathbf{I}.
@@ -240,15 +240,15 @@ $$
 u_j(x_j) = \bigotimes_k x''_k \quad \text{with } x''_j = x_j, x''_k = e_k \text{ for } k \neq j.
 $$
 
-明らかに、すべての $k \in \mathbf{I}$ に対して $x'_k x''_k = x''_k x'_k$ であるため、$u_i(x_i)$ と $u_j(x_j)$ は、$\mathbf{E}$ で乗法を定義する公式 (1) (no. 1) によって $\mathbf{E}$ に通います。 最後の主張は関係$\bigotimes_i x_i = \prod_{i \in \mathbf{I}} u_i(x_i)$の後に続きます。
+明らかに、すべての $k \in \mathbf{I}$ に対して $x'_k x''_k = x''_k x'_k$ であるため、$u_i(x_i)$ と $u_j(x_j)$ は、$\mathbf{E}$ で乗法を定義する公式 (1) (no. 1) によって $\mathbf{E}$ に通勤します。 最後の主張は関係 $\bigotimes_i x_i = \prod_{i \in \mathbf{I}} u_i(x_i)$ から続きます。
 
-(ii) それぞれの $i \in \mathbf{I}$ について、$x_i$ を $\mathbf{E}_i$ の元とします。 代数 $\mathbf{F}$ は結合的であり、元 $v_i(x_i)$ はペアごとに変更可能であるため、積 $\prod_{i \in \mathbf{I}} v_i(x_i)$ は、$\mathbf{I}$ の順序とは独立して $\mathbf{F}$ で定義されます。 $\prod_{i \in \mathbf{I}} \mathbf{E}_i$ から $\mathbf{F}$ への写像 $(x_i)_{i \in \mathbf{I}} \to \prod_{i \in \mathbf{I}} v_i(x_i)$ は明らかに $\mathbf{A}$ 多線形であり、したがって、次のような $\mathbf{A}$ 線形写像 $w : \mathbf{E} \to \mathbf{F}$ が 1 つだけ存在します。
+(ii) 各$i \in \mathbf{I}$ について、$x_i$ を $\mathbf{E}_i$ の元とします。 積 $\prod_{i \in \mathbf{I}} v_i(x_i)$ は、代数 $\mathbf{F}$ が結合的であり、元 $v_i(x_i)$ がペアごとに変更可能であるため、$\mathbf{I}$ の順序とは独立して $\mathbf{F}$ で定義されます。 $\prod_{i \in \mathbf{I}} \mathbf{E}_i$ から $\mathbf{F}$ への写像 $(x_i)_{i \in \mathbf{I}} \to \prod_{i \in \mathbf{I}} v_i(x_i)$ は明らかに $\mathbf{A}$ 多線形であり、したがって、次のような $\mathbf{A}$ 線形マッピング $w : \mathbf{E} \to \mathbf{F}$ が 1 つだけ存在します。
 
 $$
 w\left( \bigotimes_i x_i \right) = \prod_i v_i(x_i).
 $$
 
-さて、所望の $\mathbf{A}$-代数準同型性 $w : \mathbf{E} \to \mathbf{F}$ は満たす (5) でなければなりません。これは (4) と $\bigotimes_i x_i = \prod_{i \in \mathbf{I}} u_i(x_i)$ という事実から導き出されます。 これは、$w$ の一意性を証明します。 (5) で定義された $\mathbf{A}$-線形写像 $w$ が $\mathbf{A}$-代数準同型であり、(4) を満たすことを示すことが残っています。 The fact that $w$ satisfies (4) is obvious: it suffices to apply (5) to the case where $x_j = e_j$ for $j \neq i$ and we obtain $w(u_i(x_i)) = v_i(x_i)$. 最後に、$w$ は代数準同型です。
+ここで、望ましい $\mathbf{A}$-代数準同型性 $w : \mathbf{E} \to \mathbf{F}$ は満たす (5) でなければなりません。これは (4) と $\bigotimes_i x_i = \prod_{i \in \mathbf{I}} u_i(x_i)$ という事実から導き出されます。これは、$w$ の一意性を証明します。 (5) で定義される $\mathbf{A}$-線形写像 $w$ が $\mathbf{A}$-代数準同型であり、(4) を満たすことを示すことが残っています。 $w$ が (4) を満たすという事実は明らかです。$j \neq i$ に対して $x_j = e_j$ が成り立ち、$w(u_i(x_i)) = v_i(x_i)$ が得られる場合に (5) を適用すれば十分です。最後に、$w$ は代数準同型です。
 
 $$
 w\left( \left( \bigotimes_i x_i \right) \left( \bigotimes_i y_i \right) \right) = w\left( \bigotimes_i (x_i y_i) \right) = \prod_i v_i(x_i y_i)
@@ -257,21 +257,21 @@ $$
 = \prod_i (v_i(x_i) v_i(y_i)) = \left( \prod_i v_i(x_i) \right) \cdot \left( \prod_i v_i(y_i) \right)
 $$
 
-$v_i(x_i)$ は $j \neq i$ の間 $v_j(y_j)$ と通勤するため。したがって
+$v_i(x_i)$ は $j \neq i$ の間、$v_j(y_j)$ と通勤します。したがって
 
 $$
 w w \left( \left( \bigotimes_i x_i \right) \left( \bigotimes_i y_i \right) \right) = w \left( \bigotimes_i x_i \right) . w \left( \bigotimes_i y_i \right)
 $$
 
-これは直線性により、証明を完成します。
+これにより、線形性により、証明が完成します。
 
-E の対からなると $\prod_i E_i$ の標準写像 $\phi : (x_i) \mapsto \bigotimes_i x_i$ を E に入れると、ユニバーサル写像問題 (集合理論, IV, § 3, no. 1) の解になります。 $\Sigma$ は A-代数構造の種であり、射は A-代数準同型であり、$\prod_i E_i$ の写像 $\prod_i u_i$ を A-代数に$\alpha$ マッピングします。 $u_i$ は A-代数準同型と $u_i(x_i)$ と $u_j(x_j)$ は $i \neq j$ に通勤し、$x_i \in E_i$ と $x_j \in E_j$ はすべて通勤します。
+E の対からなると $\prod_i E_i$ の標準写像 $\phi : (x_i) \mapsto \bigotimes_i x_i$ を E に入れると、ユニバーサル写像問題 (集合理論, IV, § 3, no. 1) の解になります。 $\Sigma$ は A-代数構造の種であり、射は A-代数準同型であり、$\prod_i E_i$ から A-代数への $\alpha$ マッピング写像 $\prod_i u_i$ は、 $u_i$ は A-代数準同型と $u_i(x_i)$ と $u_j(x_j)$ が $i \neq j$ に通勤し、すべての $x_i \in E_i$ と $x_j \in E_j$ が対象です。
 
 #### 系 {#alg-iii-s4-n2-cor-1 .statement tag=060H}
 
-*$(E_i)_{i \in I}, (F_i)_{i \in I}$ * を 2 つの有限族である A-代数とし、すべて* $i \in I$ について * $f_i : E_i \to F_i$ * 代数準同型とします。 * $u_i : E_i \to \bigotimes_{j \in I} E_j, v_i : F_i \to \bigotimes_{j \in I} F_j$ * が標準準同型、写像* $f = \bigotimes_i f_i$ *(cf. no. 1)* * は、* $f \circ u_i = v_i \circ f_i$ *すべて* $i \in I$ となるような一意の A-代数準同型です。
+*$(E_i)_{i \in I}, (F_i)_{i \in I}$ * を 2 つの有限族である A-代数とし、すべて* $i \in I$ について * $f_i : E_i \to F_i$ * を代数準同型とします。 * $u_i : E_i \to \bigotimes_{j \in I} E_j, v_i : F_i \to \bigotimes_{j \in I} F_j$ * が標準準同型、写像* $f = \bigotimes_i f_i$ *(cf. no. 1)* * は一意の A-代数準同型であり、* $f \circ u_i = v_i \circ f_i$ *すべて* $i \in I$ となります。
 
-準同型 $g_i = v_i \circ f_i$ は、$g_i(x_i) = v_i(f_i(x_i))$ と $g_j(x_j) = v_j(f_j(x_j))$ が $i \neq j$、$x_i \in E_i$、$x_j \in E_j$ に通勤するようなものであることに注意するだけで十分です。次に命題を適用する5。
+準同型 $g_i = v_i \circ f_i$ は、$g_i(x_i) = v_i(f_i(x_i))$ と $g_j(x_j) = v_j(f_j(x_j))$ が $i \neq j$、$x_i \in E_i$、$x_j \in E_j$ で通勤するようなものであることに注意するだけで十分です。次に命題を適用する 5.
 
 命題 5 において、代数 F が *可換* であると仮定すると、$v_i(x_i)$ と $v_j(x_j)$ が $i \neq j$ に対して置換可能であるという仮定が自動的に満たされます。したがって、*F が可換である場合*、正規の全単射が存在します。
 
@@ -279,32 +279,32 @@ $$
 \text{Hom}_{A\text{-alg.}} \left( \bigotimes_i E_i, F \right) \to \prod_i \text{Hom}_{A\text{-alg.}} (E_i, F),
 $$
 
-つまり、$\bigotimes_i E_i$ のすべての準同型 $w$ を $w \circ u_i$ のファミリー F に関連付けるものです。
+つまり、$\bigotimes_i E_i$ のすべての準同型 $w$ を F の $w \circ u_i$ のファミリーに関連付けるものです。
 
 E が可換 A-代数の場合、$E \otimes_A F$ の環構造は $F_{(E)}$ (§ 1, no. 5) の環構造と同じであることに注意してください。
 
-### 3. 加群およびテンソル積の代数を超えるマルチモジュール
+### 3. 加群および代数のテンソル積を超えるマルチモジュール
 
 #### 定義 2 {#alg-iii-s4-def-2 .statement tag=060I}
 
-*E を (単位) A-代数とします。左 (右) の E モジュールは、E の基礎となる環の上の左 (右) 加群です。
+*E を (単位的) A-代数とします。左 (右) の E モジュールは、E の基礎となる環の上の左 (右) 加群です。
 
-〜でない限り特に記載がない限り、この番号ではすべての加群およびマルチモジュールが考慮されます。は左加群とマルチモジュールです。
+〜でない限り特に記載がない限り、この番号ではすべての加群およびマルチモジュールが考慮されます。 左加群とマルチモジュールです。
 
-M が E モジュールである場合、準同型 $\eta : A \to E$ (§ 1, no. 4) から、M 上の定義する A-加群構造は、M 上の E モジュール構造の根底にあると言われます。 $\alpha \in A, s \in E, x \in M$ の場合、
+M が E モジュールである場合、準同型 $\eta : A \to E$ (§ 1, no. 4) から、M 上の定義する A-加群構造は、M 上の E モジュール構造の根底にあると言われます。 $\alpha \in A, s \in E, x \in M$の場合、
 
 $$
 \alpha(sx) = s(\alpha x) = (\alpha s)x,
 $$
 
-したがって、すべての $s \in E$、ホモテティー $h_s : x \mapsto sx$ の M は、基礎となる A-加群構造の自己準同型になります。逆に、M に E モジュール構造が与えられることは、M に A-加群構造が与えられ、E の A-代数準同型 $s \mapsto h_s$ が $\mathrm{End}_A(M)$ に与えられることと同じです。
+したがって、すべての $s \in E$、M のホモテティー $h_s : x \mapsto sx$ は、基礎となる A-加群構造の自己準同型になります。逆に、M に E モジュール構造が与えられることは、M に A-加群構造が与えられ、E の A-代数準同型 $s \mapsto h_s$ が $\mathrm{End}_A(M)$ に与えられることと同じです。
 
 #### 定義 3 {#alg-iii-s4-def-3 .statement tag=060J}
 
 *E と F を 2 つ (単位的) A-代数と M 集合とし、E モジュール構造と F モジュール構造とします。次の場合、M は代数 E および F よりも (左) 両側加群と呼ばれます:*
 
 (1) *M は、E と F* (II, § 1, no. 14) の基礎となる環を上回る両側加群です。
-(2) *M 上の E モジュールおよび F モジュール構造の基礎となる 2 つの A-加群構造は同一です*。
+(2) *M 上の E モジュール構造と F モジュール構造の基礎となる 2 つの A-加群構造は同一です*。
 
 後者の条件は、e と $e'$ がそれぞれ E と F の単位元である場合、
 
@@ -418,7 +418,7 @@ $$
 
 ### 5. 代数の無限家族のテンソル積
 
-A を可換環とし、(E_i)_{i \in I} を (単位的) A-代数の任意の族とします。 I のすべての有限部分集合 J について、E_J が代数のテンソル積 $\bigotimes_{i \in J} E_i$ 添字 $i \in J$ の E_i を表すものとします。 $e_i$ は E_i の単位元と E_J の $e_J = \bigotimes_{i \in J} e_i$ 単位元を表すものとします。 $f_{J,i}$ は $i \in J$ (no. 2、命題 5) の標準準同型 $E_i \to E_J$ を表します。 If J, J' are two finite subsets of I such that $J \subset J'$, a homomorphism $f_{J'J} : E_J \to E_{J'}$ is canonically derived (no. 2, Proposition 5), by the condition $f_{J'J} \circ f_{J,i} = f_{J',i}$ for all $i \in J$. さらに、$f_{J'J}$の一意性は、J、J'、J''が$J \subset J' \subset J''$のようなIの3つの有限部分集合であれば、$f_{J''J} = f_{J''J'} \circ f_{J'J}$であることを意味します。 他の語では、$(E_J, f_{J'J})$ は A-代数の直接系であり、そのインデックス付け集合は I の有限部分集合の右側有向集合 $\mathscr{F}(I)$ です。
+A を可換環とし、(E_i)_{i \in I} を (単位的) A-代数の任意の族とします。 I のすべての有限部分集合 J について、E_J が代数のテンソル積 $\bigotimes_{i \in J} E_i$ 添字 $i \in J$ の E_i を表すものとします。 $e_i$ は E_i の単位元と E_J の $e_J = \bigotimes_{i \in J} e_i$ 単位元を表すものとします。 $f_{J,i}$ は $i \in J$ (no. 2、命題 5) の標準準同型 $E_i \to E_J$ を表します。 J, J' が $J \subset J'$ となるような I の 2 つの有限部分集合である場合、準同型性 $f_{J'J} : E_J \to E_{J'}$ は、すべての $i \in J$ に対する条件 $f_{J'J} \circ f_{J,i} = f_{J',i}$ によって正準的に導出されます (no. 2、命題 5)。 さらに、$f_{J'J}$の一意性は、J、J'、J''が$J \subset J' \subset J''$のようなIの3つの有限部分集合であれば、$f_{J''J} = f_{J''J'} \circ f_{J'J}$であることを意味します。 他の語では、$(E_J, f_{J'J})$ は A-代数の直接系であり、そのインデックス付け集合は I の有限部分集合の右側有向集合 $\mathscr{F}(I)$ です。
 
 #### 定義 5 {#alg-iii-s4-def-5 .statement tag=060R}
 
@@ -432,15 +432,15 @@ I のすべての有限部分集合 J について、$f_J$ は標準準同型 $\
 
 (i) *準同型* $f_i : E_i \to E = \bigotimes_{k \in I} E_k$ *2 つの添字* i, j *そのような* $i \neq j$、$f_i(x_i)$ *および* $f_j(x_j)$ *通勤* E *全員* $x_i \in E_i$ *および* $x_j \in E_j$; *さらに* E *は部分代数* $f_i(E_i)$の和集合によって生成されます。
 
-(ii) *F を A-代数とし、すべて* $i \in I$ として、*$u_i : E_i \to F$ *A-代数準同型とし、* $i \neq j$、$u_i(x_i)$ *および* $u_j(x_j)$ *通勤* F *すべて* $x_i \in E_i$ *および* $x_j \in E_j$。 *そして、唯一の A-代数準同型* $u : E \to F$ *そのような* $u_i = u \circ f_i$ *すべてに* $i \in I$ が存在します。
+(ii) *F を A-代数とし、すべて* $i \in I$ として、*$u_i : E_i \to F$ *を A-代数準同型とし、* $i \neq j$、$u_i(x_i)$ *および* $u_j(x_j)$ *通勤* F *すべて* $x_i \in E_i$ *および* $x_j \in E_j$。 *そして、唯一の A-代数準同型* $u : E \to F$ *そのような* $u_i = u \circ f_i$ *すべてに* $i \in I$ が存在します。
 
-(i) I、$f_i = f_J \circ f_{J,i}$ のすべての有限部分集合 J について、(i) の最初の主張は、J 含む i と j をとって、no. 2、命題 5 から続きます。 2 番目も、J が $\mathscr{F}(I)$ を通過するときに E が $f_J(E_J)$ の和集合であるという事実を考慮して、no. 2、命題 5 から続きます。
+(i) I、$f_i = f_J \circ f_{J,i}$ のすべての有限部分集合 J について、(i) の最初の主張は、J 含む i と j をとって、no. 2、命題 5 から続きます。 2 番目も、J が $\mathscr{F}(I)$ を通過するとき、E が $f_J(E_J)$ の和集合であるという事実を考慮して、no. 2, 命題 5 から続きます。
 
-(ii) I のすべての有限部分集合 J について、no. 2, 命題 5 から、すべての $i \in J$ に対して $u_J \circ f_{J,i} = u_i$ となる一意な準同型 $u_J : E_J \to F$ が存在することがわかります。この一意性性質から、$J \subset J'$ については、$u_J = u_{J'} \circ f_{J'J}$ がすぐに続きます。他の語、$u_J$ 形は準同型の*直接系*です。 $u = \lim \to u_J : E \to F$ にしましょう。次に、$I$ のすべての有限部分集合 $J$ に対して定義 $u_J = u \circ f_J$ が、特にすべての $i \in I$ に対して $u_i = u \circ f_i$ になります。 $u$ の一意性は、これらの関係と、$f_i(E_i)$ 生成する代数 $E$ という事実から続きます。
+(ii) I のすべての有限部分集合 J について、no. 2, 命題 5 から、すべての $i \in J$ に対して $u_J \circ f_{J,i} = u_i$ となる一意な準同型 $u_J : E_J \to F$ が存在することがわかります。この一意性性質から、$J \subset J'$ については、$u_J = u_{J'} \circ f_{J'J}$ がすぐに続きます。他の語、$u_J$ 形は準同型の*直接系*です。 $u = \lim \to u_J : E \to F$ しましょう。次に、$I$ のすべての有限部分集合 $J$ に対して定義 $u_J = u \circ f_J$ が、特にすべての $i \in I$ に対して $u_i = u \circ f_i$ になります。 $u$ の一意性は、これらの関係と、$f_i(E_i)$ 生成する代数 $E$ という事実から続きます。
 
 #### 系 {#alg-iii-s4-n5-cor-1 .statement tag=060T}
 
-*$(E_i)_{i \in I},\ (E'_i)_{i \in I}$ * を同じインデックス付け集合を持つ 2 つの群* $A$*-代数とし、すべて* $i \in I$ について * $u_i : E_i \to E'_i$ * 代数準同型とします。その場合、唯一つ* $A$*-代数準同型性* $u : \bigotimes_{i \in I} E_i \to \bigotimes_{i \in I} E'_i$ *すべてに対して* $i \in I$, *図式* が存在します。
+*$(E_i)_{i \in I},\ (E'_i)_{i \in I}$ * を同じインデックス付け集合を持つ* $A$*-代数の 2 つの族* とし、すべて* $i \in I$ について * $u_i : E_i \to E'_i$ * 代数準同型とします。その場合、唯一つ* $A$*-代数準同型性* $u : \bigotimes_{i \in I} E_i \to \bigotimes_{i \in I} E'_i$ *すべてにとって* $i \in I$, *図式* が存在します。
 
 $$
 \begin{array}{ccc}
@@ -452,9 +452,9 @@ $$
 
 *可換*、$f_i$ *および* $f'_i$ *標準準同型*を表します。
 
-命題を適用する 8 ～ 準同型 $f'_i \circ u_i$ で十分です。
+命題を適用する 8 ～ 準同型 $f'_i \circ u_i$ までで十分です。
 
-系～命題8で定義された準同型$u$を$\bigotimes_{i \in I} u_i$と表します。 $J$ が $I$ のいずれかの部分集合である場合、命題 8 は標準準同型 $f_i : E_i \to \bigotimes_{i \in I} E_i = E$ のファミリー $(f_i)_{i \in J}$ に適用できます。 標準準同型 $E_J \to E$ は、$f_J$ によっても示され、$J$ が *有限* である場合、一致すると上記の準同型で示されます。
+系～命題8で定義した準同型$u$を$\bigotimes_{i \in I} u_i$と表記します。 $J$ が $I$ のいずれかの部分集合である場合、命題 8 は標準準同型 $f_i : E_i \to \bigotimes_{i \in I} E_i = E$ のファミリー $(f_i)_{i \in J}$ に適用できます。 標準準同型 $E_J \to E$ は、$f_J$ によっても示され、$J$ が *有限* である場合、上記のように準同型で示された一致するが導出されます。
 
 ここで、$(x_i)_{i \in I}$ を $\prod_{i \in I} E_i$ の元として、家族 $(x_i - e_i)_{i \in I}$ が *有限台* $H$ を持つようにします。 $J$ と $J'$ が $I$ 含む $H$ の 2 つの有限部分集合である場合、それは明らかです。
 
@@ -468,19 +468,19 @@ $I$の有限部分集合$J \supset H$の$f_J((x_i)_{i \in J})$の共通の値は
 
 *$(E_i)_{i \in I}$ *を* $A$*-代数の族*とし、それぞれ* $i \in I$ *$B_i$ *基底の* $E_i$ *単位元* $e_i$ *属するから* $B_i$ とする。 *$B$ *を形* $\bigotimes_{i \in I} x_i$ の元の集合とします。 *ここで* $(x_i)$ * 集合の元 $\prod_{i \in I} B_i$ *家族* $(x_i - e_i)$ *が有限台*。 *すると* $B$ * は代数* $\bigotimes_{i \in I} E_i$ の基底 * そしてこれ基底含む単位元* $e$ です。
 
-For every finite subset $J$ of $I$, let $B_J$ be the basis of $E_J = \bigotimes_{i \in J} E_i$ the tensor product of the bases $B_i$ for $i \in J$ (II, § 3, no. 9). 定義からすぐに、$J$ が $\mathscr{F}(I)$ を通過するとき $B$ は $f_J(B_J)$ の和集合となり、$J \subset J'$ のとき $f_{J',J}(B_J) \subset B_{J'}$ になります。したがって、$(B_J)$ は、$E_J$ と $B = \lim \rightarrow B_J$ の部分集合の直接系です。結論は II, § 6, no. 2、系から命題 5 に続きます。
+$I$ のすべての有限部分集合 $J$ について、$B_J$ を $i \in J$ (II, § 3, no. 9) の基底 $B_i$ のテンソル積 $E_J = \bigotimes_{i \in J} E_i$ の基底とします。 定義からすぐに、$J$ が $\mathscr{F}(I)$ を通過するとき $B$ は $f_J(B_J)$ の和集合となり、$J \subset J'$ のとき $f_{J',J}(B_J) \subset B_{J'}$ になります。したがって、$(B_J)$ は、$E_J$ と $B = \lim \rightarrow B_J$ の部分集合の直接系です。結論は II, § 6, no. 2、系から命題 5 に続きます。
 
-The basis $B$ is also called the *tensor product* of the bases $B_i$ for $i \in I$; when the conditions of Proposition 9 are fulfilled, the canonical homomorphisms $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ are *injective* for every subset $J$ of $I$, for if $B_J$ is the basis of $E_J$ the tensor product of the $B_i$ for $i \in J$, it is immediately verified that the restriction of $f_J$ to $B_J$ is injective and maps $B_J$ onto a subset of $B$.
+基底 $B$ は、$i \in I$ の基底 $B_i$ の *テンソル積* とも呼ばれます。命題 9 の条件が満たされると、正準準同型性 $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ は、$I$ のすべての部分集合 $J$ に対して*単射的*になります。なぜなら、$B_J$ が $i \in J$ に対する $B_i$ のテンソル積 $E_J$ の基底である場合、次の制約がすぐに検証されます。 $f_J$ から $B_J$ は単射的であり、$B_J$ を $B$ のサブセットにマッピングします。
 
 ### 6. 交換補題
 
 #### 補題 1 {#alg-iii-s4-lem-1 .statement tag=060V}
 
-*Let $A$ be a commutative ring, $E$ an $A$-algebra, $(x_i)_{1 \leq i \leq n}$ a finite sequence of elements of $E$, $(\lambda_i)_{1 \leq i \leq n}$ a finite sequence of elements of $A$ and $y$ an element of $E$; suppose that*
+*$A$ を可換環、$E$ を $A$-代数、$(x_i)_{1 \leq i \leq n}$ 有限列の元の $E$、 $(\lambda_i)_{1 \leq i \leq n}$ 有限列の元の $A$ とします。 $y$ 元/$E$;それを仮定してください*
 $$
 x_i y = \lambda_i y x_i \quad \text{for } 1 \leq i \leq n.
 $$
-*Then*
+*それでは*
 $$
 (x_1 x_2 \ldots x_n) y = (\lambda_1 \lambda_2 \ldots \lambda_n) y (x_1 x_2 \ldots x_n).
 $$
@@ -597,7 +597,7 @@ $$
 
 #### 定義 6 {#alg-iii-s4-def-6 .statement tag=060Y}
 
-* $(\Delta_i)_{i \in I}$ * を加法的に書かれた可換モノイドの有限族とします。 A system of commutation factors over the* $\Delta_i$ *with values in a commutative ring* $\mathbf{A}$ *is a system of mappings* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$, *where* $i \in I$, $j \in I$, $i \neq j$ *satisfying the following conditions*:
+* $(\Delta_i)_{i \in I}$ * を加法的に書かれた可換モノイドの有限族とします。 * 可換リング内の値を持つ* $\Delta_i$ * $\mathbf{A}$ * はマッピングの系* $\varepsilon_{ij}: \Delta_i \times \Delta_j \to \mathbf{A}$、*ここで* $i \in I$、$j \in I$、$i \neq j$ *以下の条件を満たします*。
 
 (22)
 $$
@@ -614,7 +614,7 @@ $$
 
 *すべて* $\alpha_i, \alpha'_i$ *in* $\Delta_i$、$\beta_j, \beta'_j$ *in* $\Delta_j$。
 
-If I is given a total ordering and the $\Delta_i$ are groups, a system of commutation factors is defined over the $\Delta_i$ by taking for every ordered pair $(i, j)$ such that $i < j$ an arbitrary $\mathbf{Z}$-*bilinear* mapping of $\Delta_i \times \Delta_j$ into the (*multiplicative*) $\mathbf{Z}$-module $\mathbf{A}^*$ of *invertible* elements of the ring $\mathbf{A}$ and then writing
+I に合計順序が与えられ、$\Delta_i$ が群である場合、交換因子の系は、$i < j$ が任意の順序になるように、対 $(i, j)$ を$\Delta_i$ に対して定義されます。 $\mathbf{Z}$-*双線形* $\Delta_i \times \Delta_j$ の写像を (*乗法*) $\mathbf{Z}$-モジュール $\mathbf{A}^*$ の *可逆* 元環 $\mathbf{A}$ に書き込みます
 
 $$
 \varepsilon_{ji}(\beta_j, \alpha_i) = (\varepsilon_{ij}(\alpha_i, \beta_j))^{-1}
@@ -835,7 +835,7 @@ $$
 
 #### 注意 {#alg-iii-s4-n8-rem-1 .statement tag=0617}
 
-(1) I を無限インデックス集合および $\Delta_0$ を可換モノイドとする。 $(\Delta_i)_{i \in I}$ がすべての $i$ に対して $\Delta_i = \Delta_0$ となるような族を表し、I 写像 $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ 満たす条件の個別の添字 $(i, j)$ の順序付けられた対ごとに与えられると仮定します (22)、 (23) と (24) (no. 7);これは、家族* $(\Delta_i)$ に対する交換因子の *系とも呼ばれます。 型 $\Delta_0$ のグレーディング A-代数のファミリー $(E_i)_{i \in I}$ を考えてみましょう。 I の各有限部分集合 J について、$E_J$ は、サブファミリー $(E_i)_{i \in J}$ の型* $\Delta_0$ の * 等級付けされたテンソル $\varepsilon$ 積を表します (J の合計順序の任意の選択を使用)。 If J, J' are two finite subsets of I such that $J \subset J'$, a canonical homomorphism of graded algebras of type $\Delta_0$, h_{J'J}: E_J \to E_{J'}, has been defined above and the uniqueness properties of these homomorphisms show immediately that if J \subset J' \subset J'' are three finite subsets of I, then h_{J''J} = h_{J'J'} \circ h_{J'J}. したがって、型 $\Delta_0$ (§ 3, no. 3) の等級付けされた代数の直接系 (E_J, h_{J'J}) があり、そのインデックス付け集合は I の有限部分集合の右側有向集合 $\mathfrak{F}(I)$ です。 型 $\Delta_0$ の等級付けされた代数、この直接系 (§ 3, no. 3) の *直接極限* は、ファミリー $(E_i)_{i \in I}$ の型* $\Delta_0$ の *等級付けされたテンソル $\varepsilon$-積 と呼ばれます。 $\varepsilon \bigotimes_{i \in I} E_i$ とも表されます。 すべての $\Delta_i$ が $\mathbf{Z}$ および $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$ に等しい場合、テンソル積 $\varepsilon \bigotimes_{i \in I} E_i$ はファミリー $(E_i)_{i \in I}$ の *スキュー* テンソル積とも呼ばれ、$g \bigotimes_{i \in I} E_i$ で示されます。 We leave to the reader the task of formulating and proving the proposition which generalizes Proposition 10 of no. 7 to the case where I is infinite, as Proposition 8 of no. 5 generalizes Proposition 5 of no. 2 to the case where I is infinite. $\varepsilon \bigotimes_{i \in I} E_i$ の基礎となる A-加群は、no. 5 で定義された非等級付け代数のファミリー $(E_i)_{i \in I}$ の (非等級付け) テンソル積の基礎となるものと同じであることに注意してください。
+(1) I を無限インデックス集合および $\Delta_0$ を可換モノイドとする。 $(\Delta_i)_{i \in I}$ がすべての $i$ に対して $\Delta_i = \Delta_0$ となるような族を表し、I 写像 $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ 満たす条件の個別の添字 $(i, j)$ の順序付けられた対ごとに与えられると仮定します (22)、 (23) と (24) (no. 7);これは、家族* $(\Delta_i)$ に対する交換因子の *系とも呼ばれます。 型 $\Delta_0$ のグレーディング A-代数のファミリー $(E_i)_{i \in I}$ を考えてみましょう。 I の各有限部分集合 J について、$E_J$ は、サブファミリー $(E_i)_{i \in J}$ の型* $\Delta_0$ の * 等級付けされたテンソル $\varepsilon$ 積を表します (J の合計順序の任意の選択を使用)。 If J, J' are two finite subsets of I such that $J \subset J'$, a canonical homomorphism of graded algebras of type $\Delta_0$, h_{J'J}: E_J \to E_{J'}, has been defined above and the uniqueness properties of these homomorphisms show immediately that if J \subset J' \subset J'' are three finite subsets of I, then h_{J''J} = h_{J'J'} \circ h_{J'J}. したがって、型 $\Delta_0$ (§ 3, no. 3) の等級付けされた代数の直接系 (E_J, h_{J'J}) があり、そのインデックス付け集合は I の有限部分集合の右側有向集合 $\mathfrak{F}(I)$ です。 型 $\Delta_0$ の等級付けされた代数、この直接系 (§ 3, no. 3) の *直接極限* は、ファミリー $(E_i)_{i \in I}$ の型* $\Delta_0$ の *等級付けされたテンソル $\varepsilon$-積 と呼ばれます。 $\varepsilon \bigotimes_{i \in I} E_i$ とも表されます。 すべての $\Delta_i$ が $\mathbf{Z}$ および $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$ に等しい場合、テンソル積 $\varepsilon \bigotimes_{i \in I} E_i$ はファミリー $(E_i)_{i \in I}$ の *スキュー* テンソル積とも呼ばれ、$g \bigotimes_{i \in I} E_i$ で示されます。 no. 5 の命題 8 が no. 2 の命題 5 を一般化するように、no. 7 の命題 10 を I が無限である場合に一般化する証明命題を定式化する作業は読者に任せます。 Iは無限です。 $\varepsilon \bigotimes_{i \in I} E_i$ の基礎となる A-加群は、no. 5 で定義された非等級付け代数のファミリー $(E_i)_{i \in I}$ の (非等級付け) テンソル積の基礎となるものと同じであることに注意してください。
 
 (2) E を型 $\Delta_0$ ($\Delta_0$ は可換モノイド) および $\rho : A \to B$ 環準同型の段階的 A-代数とする。 $\rho^*(E)$ (II, § 11, no. 5) の目盛りは、等級付けされたテンソル積 $B \otimes_A E$ の目盛りと同じです。ここで、B は自明な目盛りを持ちます。
 
@@ -870,11 +870,11 @@ $$
 
 #### 命題 13 {#alg-iii-s4-prop-13 .statement tag=061B}
 
-*Let E be a graded A-algebra of type $\mathbf{Z}$ and S a generating system of the algebra E consisting of homogeneous elements $\neq 0$; for E to be anticommutative (resp. alternating), it is necessary and sufficient that (36) hold for all $x \in S$ and $y \in S$ (resp. that this condition hold and further that $x^2 = 0$ for all $x$ homogeneous of odd degree belonging to S).*
+*E をタイプ $\mathbf{Z}$ の段階化された A 代数とし、S を同次要素 $\neq 0$ からなる代数 E の生成システムとする。 E が反可換である (それぞれ交互) ためには、(36) がすべての $x \in S$ と $y \in S$ に対して成り立つこと (それぞれこの条件が成り立ち、さらに S に属する奇数次のすべての $x$ の同次に対して $x^2 = 0$ が成り立つこと) が必要かつ十分です。*
 
 まず反可換代数の場合を考えます。 補題 4、部分代数 F からなるの元により、そのすべての同種成分 $x \neq 0$ 満たす (36) により、S のすべての $y \in S$、含むすべての元およびしたがって$F = E$。ここで、$F'$ が同様に、元の E からなるの部分代数であり、そのすべての同次元 $y \neq 0$ に対して、そのすべてが同次成分 $x \neq 0$ 満たす (36) である場合、上記から次のことがわかります。 $F'$ 含む S のすべての元、したがって $F' = E$ となり、この場合、命題の証明が完成します。
 
-To prove the proposition in the case of alternating algebras, it can be assumed that E is already anticommutative; it is then immediate that every homogeneous element of odd degree in E is of the form $\sum_i z_ix_i$, where $z_i \in E^+$ and $x_i \in S$ is of odd degree (using the fact that $E^+$ is contained in the centre of E); it follows that $\left( \sum_i z_ix_i \right)^2 = \sum_i z_i^2x_i^2 + \sum_{i<j} z_i z_j (x_ix_j + x_jx_i) = 0$ since $x_i^2 = 0$ by hypothesis and $x_ix_j + x_jx_i = 0$ by (36).
+交互代数の場合に命題を証明するには、E がすでに反可換であると仮定できます。その場合、E の奇数次数のすべての同次要素は $\sum_i z_ix_i$ の形式であることがすぐにわかります。ここで、$z_i \in E^+$ と $x_i \in S$ は奇数次数です ($E^+$ が E の中心に含まれるという事実を使用します)。仮説により $x_i^2 = 0$ から $\left( \sum_i z_ix_i \right)^2 = \sum_i z_i^2x_i^2 + \sum_{i<j} z_i z_j (x_ix_j + x_jx_i) = 0$ となり、(36) により $x_ix_j + x_jx_i = 0$ となります。
 
 #### 命題 14 {#alg-iii-s4-prop-14 .statement tag=061C}
 
@@ -898,7 +898,7 @@ $$
 
 #### 注意 {#alg-iii-s4-n9-rem-2 .statement tag=061E}
 
-E を型 $\mathbf{Z}$ の A-代数に等級付けされた反可換式とする。 Then the A-linear mapping of $E \otimes_A E$ into E defined by multiplication of E ($§ 1$, no. 3) is a homomorphism of the graded A-algebra $E^g \otimes_A E$ into E, for in the notation of Proposition 14, in the algebra E,
+E を型 $\mathbf{Z}$ の A-代数に等級付けされた反可換式とする。この場合、E ($§ 1$、no. 3) の乗法によって定義される E への $E \otimes_A E$ の A-線型写像は、E への等級付けされた A-代数 $E^g \otimes_A E$ の準同型です。つまり、命題 14 の記法では、 代数 E、
 $$
 (xy)(x'y') = (-1)^{qp'}(xx')(yy').
 $$

@@ -12,16 +12,16 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5b09dcc3ec7a48fca1cdc239fe6cb2594a10dd837f3e996f56313114b994acc8
+content_sha256: 1123915fb0c5cdc88a1633e5e8ac8f91e9bd05453db5be17bce7e577d4285138
 translated_from: content/en/evt/00_to_the_reader.md
 translation_method: google
 source_content_sha256: 6cbc12e12abec8063cd6f21644b2bf89da7f708d54fa1d3ee86bbc47401085c9
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0ec861a335cdc52a97222746b69433991ce7b03576c26c663535b151defbfd55
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 読者へ
@@ -32,16 +32,16 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 3. 系列は書籍に分割され、各書籍は章に分割されます。フランス語版の全文または部分がすでに出版されている書籍を以下にリストします。英語訳がある場合は、対応する英語タイトルを括弧内に記載します。巻全体を通して、参照は、入手可能な場合は英語版を示し、それ以外の場合はフランス語版を示します。
 
-Théorie des Ensembles (Theory of Sets)    designated by E    (S)
-Algèbre (Algebra$^{(1)}$)                —                A    (A)
-Topologie Générale (General Topology)      —                TG   (GT)
-Fonctions d’une Variable Réelle            —                FVR
-Espaces Vectoriels Topologiques (Topological Vector Spaces) —                EVT   (TVS)
-Intégration                                —                INT
-Algèbre Commutative (Commutative Algebra$^{(2)}$) —        AC    (CA)
-Variétés Différentielles et Analytiques     —                VAR
-Groupes et Algèbres de Lie (Lie Groups and Lie Algebras$^{(3)}$) —        LIE   (LIE)
-Théories Spectrales                       —                TS
+テオリ デ アンサンブル (集合の理論) E (S) によって指定
+アルジェブル (代数$^{(1)}$) — A (A)
+Topologie Générale (一般位相) — TG (GT)
+変数の機能 — FVR
+Espaces Vectoriels Topologiques (トポロジカルベクトル空間) — EVT (TVS)
+統合 — INT
+代数可換 (可換代数$^{(2)}$) — AC (CA)
+さまざまな差異と分析 — VAR
+群 et Algèbres de Lie (リー群およびリー代数$^{(3)}$) — LIE (LIE)
+理論スペクトラル — TS
 
 (1) これまでのところ、章 I ～ III のみが翻訳されています。
 (2) これまでのところ、章 I ～ VII のみが翻訳されています。
@@ -55,7 +55,7 @@ Théories Spectrales                       —                TS
 
 5. 各章の論理枠組みは、定義、公理、および章の定理で構成されます。今後の使用において主に留意すべき事項は、部分です。重要度の低い結果や、定理から簡単に推測できる結果には、« 命題 »、« 補題 »、« 結果»、« 注意 » などのラベルが付けられます。最初の読み取りで省略される可能性がある結果は、小さい型で印刷されます。特に重要な定理に関する解説は、« schorium» という名前で時折登場します。
 
-To avoid tedious repetitions it is sometimes convenient to introduce notations or abbreviations which are in force only within a certain chapter or a certain section of a chapter (for example, in a chapter which is concerned only with commutative rings, the word « ring » would always signify « commutative ring »). このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
+退屈な繰り返しを避けるために、特定の章または章の特定のセクション内でのみ有効な表記法や略語を導入すると便利な場合があります (たとえば、可換環のみに関係する章では、« リング » という単語は常に « 可換環 » を意味します)。 このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
 
 6. 本文中の一部の箇所は、読者に重大な誤りを警告するように設計されています。これらの通路には、余白に ☡ (« 危険な曲がり角») の標識が付いています。
 

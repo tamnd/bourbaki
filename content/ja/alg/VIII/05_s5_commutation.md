@@ -38,23 +38,23 @@ subsections:
       pdf_page: 106
 statements: 37
 exercises: 19
-content_sha256: 7a6d342e21ca1a69283cee0417c1717b1609437a999544db1d642892e960f92f
+content_sha256: 80daf0d3435fbd2901318f730164fad2c4c1f4e3a95d60457cd96c9cdd90e591
 translated_from: content/en/alg/VIII/05_s5_commutation.md
 translation_method: google
 source_content_sha256: 92146afa3071a759dfd60b0a1909d5b82cb570c6ed50a098e57fa1acd8ea9c00
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a04b0cb03bd246e73498e9023e6ebcd8e980db267c56b1670c1260a8468140c9
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 交換
 
 ### 1. 加群の交換子環と双可換子
 
-EをEの環、BをEの部分集合とします。 The commutant (or centralizer) of B in E is the subring $B'$ of E consisting of the elements that commute with every element of B. $B'$ の交換子環 $B''$ は、B の双可換子 (またはバイセントラライザー) と呼ばれます。 $B\subset B''$、$B'$ 一致するとその双可換子 (III, §1, No. 2、p. 429) があります。 The center of a subring B of E is $B\cap B'$; the common center of $B'$ and $B''$ is $B'\cap B''$. B が E の可換部分環である場合、$B\subset B'$ があり、$B''$ は $B'$ (III, §1, No. 2, p. 430) の中心です。
+EをEの環、BをEの部分集合とします。 E における B の交換子環 (またはセントラライザー) は、B のすべての元と交換する、E の部分環 $B'$ 元のからなるです。 $B'$ の交換子環 $B''$ は、B の双可換子 (またはバイセントラライザー) と呼ばれます。 $B\subset B''$、$B'$ 一致するとその双可換子 (III, §1, No. 2、p. 429) があります。 部分環の中心 B の E は $B\cap B'$ です。 $B'$と$B''$の共通中心は$B'\cap B''$です。 B が E の可換部分環である場合、$B\subset B'$ があり、$B''$ は $B'$ (III, §1, No. 2, p. 430) の中心です。
 
 A を環、M を左 (それぞれ右) A-加群とします。 これらの定義を、E が M の加法群の自己準同型環と、B が M の相同性 $A_M$ の環である場合に適用してみましょう。 E の $A_M$ の交換子環 $A'_M$ は M の交換子環と呼ばれます。 A-加群Mの自己準同型環です。 Eの$A_M$の双可換子$A''_M$はMの双可換子と呼ばれます。 M の対加群の自己準同型環 (VIII、p. 8、定義 3) です。 $A_M\subset A''_M$、環 $A_M\cap A'_M$ は $A_M$ の中心 、$A'_M\cap A''_M$ は $A'_M$ と $A''_M$ の共通中心です。
 
@@ -64,7 +64,7 @@ A-加群 M は、$A_M= A''_M$ があればバランスが取れています。
 
 A-加群 M のバランスが取れている場合、環 $A_M$ と $A'_M$ は同じ中心 $A_M\cap A'_M$ を持ちます。 加群 M は、平衡型 $A_M$ モジュールである場合に限り、平衡型 A-加群です。 対加群の A-加群 M は忠実でバランスが取れています。
 
-When the ring A is commutative, the bicommutant $A''_M$ of M is the center of $A'_M=$ End$_A(M)$; that M is balanced means that the center of End$_A(M)$ is reduced to the homotheties.
+環 A が可換である場合、M の双可換子 $A''_M$ は $A'_M=$ End$_A(M)$ の中心です。 M が釣り合っているということは、End$_A(M)$ の中心が相似関係に還元されることを意味します。
 
 A の任意の元 $a$ について、A から A までの右側のホモテティー $x\mapsto xa$ を $\boldsymbol{\delta }_a$ で表し、左側のホモテティー $x\mapsto ax$ (I, §8, No. 1、p. 97) を $\boldsymbol{\gamma }_a$ で表します。 写像 $a\mapsto \boldsymbol{\delta }_a$ は、左A-加群 $A_s$ の$A^o$ から交換子環までの環同型です（cf. II, §10, No. 7、p. 349、$I =\{1\}$ に適用）。 写像 $a\mapsto \boldsymbol{\gamma }_a$ は、右A-加群 $A_d$ の A から交換子環までの環同型です (上記参照)。この写像を介して$A_d$の交換子環と同一視するAを結合すると、$A_d$の対加群は$A_s$と識別されます。従って、A-加群 $A_d$ はバランスが取れています。同様に、A-加群 $A_s$ もバランスがとれています。
 
@@ -72,7 +72,7 @@ $n$ を整数 $\geqslant 1$ とします。 $A^n$ を左の $\mathbf{M}_n$(A) �
 
 #### 命題 1 {#alg-viii-s5-prop-1 .statement tag=005F}
 
-$(A_i)_{i\in I}$ を環のファミリーとし、すべての $i\in I$ に対して、$M_i$ を $A_i$ モジュールとします。 集合 $A =\prod A_i,M =\prod M_i$、および $N =\bigoplus M_i$。 Endow M with the structure of an A-module with law of action $((a_i),(x_i))\mapsto (a_ix_i)$. 集合 N は M の A-部分加群です。
+$(A_i)_{i\in I}$ を環のファミリーとし、すべての $i\in I$ に対して、$M_i$ を $A_i$ モジュールとします。 集合 $A =\prod A_i,M =\prod M_i$、および $N =\bigoplus M_i$。 M に A-加群の構造と作用 $((a_i),(x_i))\mapsto (a_ix_i)$ の法則を与えます。 集合 N は M の A-部分加群です。
 
 a) 写像 $(u_i)\mapsto \prod u_i$ $\prod$ 終了$_{\mathbf{Z}}(M_i)$ から終了$_{\mathbf{Z}}(M)$ (II, §1, No. 5、p. 200) 制限するから環同型 $\prod(A_i)_{M_i},\prod(A_i)'_{M_i}$ および$\prod(A_i)''_{M_i}$ からそれぞれ$A_M,A'_M$、$A''_M$。
 
@@ -360,7 +360,7 @@ b) A-加群 M は同型であり、Z が体である場合に限り、非零で�
 
 c) Λ を $\mathscr{S}_M$ の部分集合とします。 $\lambda \in \Lambda$ は $(e_{\Lambda})_{S_{\lambda}}= 1_{S_{\lambda}}$、$\lambda \in \mathscr{S}_M-\Lambda$ は $(e_{\Lambda})_{S_{\lambda}}= 0$ となるように、Z の $e_{\Lambda}$ 一意元で表します。 $\lambda \in \Lambda$には$(e_{\Lambda})_{M_{\lambda}}= 1_{M_{\lambda}}$、$\lambda \in \mathscr{S}_M-\Lambda$には$(e_{\Lambda})_{M_{\lambda}}= 0$がございます。
 
-d) If the support $\mathscr{S}_M$ of M is finite, then the mapping $\Lambda \mapsto e_{\Lambda}Z$ is a bijection from the set of subsets of $\mathscr{S}_M$ to the set of ideals of Z, and the mapping $\mathfrak{a}\mapsto \mathfrak{a}M$ is a bijection from the set of ideals of Z to the set of $(A,B^o)$-sub-bimodules of M. これらの全単射は順序集合の同型です。 逆の全単射は、M の $(A,B^o)$ サブバイモジュール N を、N を M に送信する Z の元 $z$ の理想的なからなるに送信します。
+d) M のサポート $\mathscr{S}_M$ が有限である場合、写像 $\Lambda \mapsto e_{\Lambda}Z$ は、$\mathscr{S}_M$ の部分集合の集合から Z のイデアルの集合までの全単射であり、写像 $\mathfrak{a}\mapsto \mathfrak{a}M$ は、以下の全単射です。 Z の理想の集合から M の $(A,B^o)$ サブバイモジュールの集合まで。 これらの全単射は順序集合の同型です。 逆の全単射は、M の $(A,B^o)$ サブバイモジュール N を、N を M に送信する Z の元 $z$ の理想的なからなるに送信します。
 
 $\lambda \in \mathscr{S}_M, Z_{\lambda}$ は、交換子環 $D_{\lambda}$ の共通中心と A-加群 $S_{\lambda}$ の双可換子 $C_{\lambda}$ です。上記の命題 7、c) により、写像 $c\mapsto (c_{\lambda})_{\lambda\in\mathscr{S}_M}$ は C から $\prod_{\lambda\in\mathscr{S}_M}C_{\lambda}$ までの同型になります。 制限から中心により、Z から $\prod_{\lambda\in\mathscr{S}_M}Z_{\lambda}$、よって a) までの同型 $z\mapsto (z_{S_{\lambda}})_{\lambda\in\mathscr{S}_M}$ が得られます。
 
@@ -392,7 +392,7 @@ M を半単純A-加群とします。 B を A-加群 M の双可換子としま�
 
 N を M の A-部分加群とします。VIII, p. 56 の系 2 により、像 N を持つ A-加群 M の射影子 $p$ が存在します。それは属するから$A'_M$です。 $b\in B$ ごとに関係 $pb=bp$ があるため、N は M の B-部分加群であることがわかります。
 
-定理 3 の結論する証明とします。 $c$ 属するから $A''_M$ とし、F = $\{x_1, . . . , x_n\}$ を M の有限部分集合とします。 $M^n$ の元 $(x_1, . . . , x_n)$ を $x$ で表します。 A-加群 $M^n$ は半単純で、VIII、p. 79 の命題 2 により、その双可換子一致するは $A''_M$ 加群 $M^n$ の相似性となります。 補題 3 により、$M^n$ の A-部分加群 $Ax$ は $M^n$ の $A''_M$ サブモジュールになります。 $a\in A$ を、$(cx_1, . . . , cx_n)$ が $ax$ に等しいものとします。 次に、$c$ 一致すると $\{x_1, . . . , x_n\}$ の $a_M$ は、条件を意味します (D)。
+定理の結論する証明 3. $c$ 属するから $A''_M$ とし、F = $\{x_1, . . . , x_n\}$ を M の有限部分集合とします。 $M^n$ の元 $(x_1, . . . , x_n)$ を表します。 $x$までに。 A-加群 $M^n$ は半単純で、VIII、p. 79 の命題により、$A''_M$ 加群 $M^n$ の相似性を持つ双可換子一致するになります。 補題 3 により、$M^n$ の A-部分加群 $Ax$ は、$M^n$ の $A''_M$ サブモジュールになります。 $a\in A$ を、$(cx_1, . . . , cx_n)$ が $ax$ に等しくなるようにします。次に、$c$ 一致すると $\{x_1, . . . , x_n\}$ の $a_M$ は、条件を意味します (D)。
 
 #### 注意 {#alg-viii-s5-n5-rem-1 .statement tag=0064}
 
@@ -412,7 +412,7 @@ L を左側の E モジュールと見なします。 E 含むは左乗法 $\bol
 
 #### 系 {#alg-viii-s5-n6-cor-1 .statement tag=0066}
 
-Lを体とします。 Let Γ be a subgroup of the automorphism group of the field L, and let K be the field of invariants of Γ. V を K 上の有限次元 $n$ の L の右 K 線形部分空間とします。 次に、次の性質を伴う Γ の元 $\sigma_1, . . . , \sigma_n$ が存在します。 V から L までの K-線型写像 $u$ ごとに、L の元 $a_1, . . . , a_n$ が存在し、すべてに $u(x) =\sum_{i=1}^na_i\sigma_i(x)$ が存在します。 Vの$x$。
+Lを体とします。 Γ を体 L の自己同型群の部分群とし、K を Γ の不変量の体とする。 V を K 上の有限次元 $n$ の L の右 K 線形部分空間とします。 次に、次の性質を伴う Γ の元 $\sigma_1, . . . , \sigma_n$ が存在します。 V から L までの K-線型写像 $u$ ごとに、L の元 $a_1, . . . , a_n$ が存在し、すべてに $u(x) =\sum_{i=1}^na_i\sigma_i(x)$ が存在します。 Vの$x$。
 
 形 $x\mapsto$ $\sum_{\sigma\in\Gamma}a_{\sigma}\sigma (x)$ の L から L までの写像の E 集合で表します。ここで、$(a_{\sigma})_{\sigma\in\Gamma}$ は L と有限台の元のファミリーです。 L のすべての $a$ に対して $\boldsymbol{\gamma }_a\in E$ があり、E は自己準同型の部分環 L の加法群の環です。さらに、体 K は、L のすべての $x$ と E のすべての $u$ に対して $u(xa) =u(x)a$ となるように、L の元 $a$ で構成されます。
 

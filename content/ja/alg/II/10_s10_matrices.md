@@ -66,16 +66,16 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 17
-content_sha256: e4104ace66f7790ca228b3e62ca8d2d1716cf43e8043d498c449195c2833a61e
+content_sha256: 09782a2562f1bd40d4ae3a6f8cec008ec9659b8ed702a5cf82f799ff996c8709
 translated_from: content/en/alg/II/10_s10_matrices.md
 translation_method: google
 source_content_sha256: 9f20d99617c7f5aad6362a5f7207c5eb84fe7bf5906f6a9107df6de45c2d511a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ff258d1d78c8918fcd64f80fa6e8a8af18a3596d3db4fbf78928372e30f47918
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 10。 行列
@@ -86,7 +86,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 $I, K, H$ を 3 集合とします。 $H$ に元が含まれる型 $(I, K)$ の行列 (または $H$ 上の型 $(I, K)$ の行列) は、$H$ の元の $M = (m_{i\kappa})_{(i, \kappa) \in I \times K}$ のファミリーです。 集合は積 $I \times K$ です。 すべての $i \in I$ について、ファミリー $(m_{i\kappa})_{\kappa \in K}$ は添字 $i$ の $M$ の行と呼ばれます。すべての $\kappa \in K$ に対して、家族 $(m_{i\kappa})_{i \in I}$ は列、$M$、添字 $\kappa$ と呼ばれます。
 
-$I$ (それぞれ $K$) が有限である場合、$M$ は有限の行数 (それぞれ列) を持つ行列であると言われます。 The set of matrices of type $(I, K)$ over $H$ is identified with the product $HI^{I \times K}$.
+$I$ (それぞれ $K$) が有限である場合、$M$ は有限の行数 (それぞれ列) を持つ行列であると言われます。 $H$ 上のタイプ $(I, K)$ の行列のセットは、積 $HI^{I \times K}$ で識別されます。
 
 「行」と「列」という名前は、$I$と$K$が$\mathbf{N}$の区間$[1, p], [1, q]$、行列の元が$p$行の長方形配列の集合として想定されるという事実から生じています。 (水平に配置) および $q$ 列 (垂直に配置):
 
@@ -114,7 +114,7 @@ $$
 m_{11} = a,\ m_{12} = b,\ m_{13} = c,\ m_{21} = d,\ m_{22} = e,\ m_{23} = f.
 $$
 
-Instead of matrix of type $([1, p], [1, q])$, we also say matrix of type $(p, q)$, or matrix with $p$ rows and $q$ columns, if no confusion arises; the set of matrices of type $(p, q)$ over $H$ is sometimes denoted by $\mathbf{M}_{p, q}(H)$.
+混乱がなければ、$([1, p], [1, q])$ 型の行列の代わりに、$(p, q)$ 型の行列、または $p$ 行と $q$ 列の行列とも言います。 $H$ 上のタイプ $(p, q)$ の行列のセットは、$\mathbf{M}_{p, q}(H)$ で表される場合があります。
 
 インデックス付け集合 $I, K$ の 1 つが空である、$H$ 上のすべての行列は、$H$ の元の空のファミリーと同一です。空の行列とも呼ばれます。 $I = \{i_0\}$ (それぞれ $K = \{k_0\}$) が 1 つの元の集合からなるであるとき、$M$ は行行列 (それぞれ列行列) とその行 (それぞれ列) と呼ばれます。 添字は記法で抑制できます。 $I$と$K$が両方とも集合で、片方が元である場合、型$(I, K)$の行列は、この行列の一意元と同一視されることがよくあります。
 
@@ -217,7 +217,7 @@ $$
 tE_{ik} = E_{ki}.
 $$
 
-Unless otherwise mentioned, the product $M'M''$ of two matrices over A (assumed to be defined) will always be understood to be relative to the multiplication $(x, y) \mapsto xy$ in A (or, as is also said, will be "calculated in A"). 次に、 (no. 2) 結合性と分配性の公式が得られます。
+特に明記されていない限り、A 上の 2 つの行列の積 $M'M''$ (定義されていると仮定) は、常に A の乗算 $(x, y) \mapsto xy$ に相対的であると理解されます (または、よく言われるように、「A で計算される」)。 次に、 (no. 2) 結合性と分配性の公式が得られます。
 
 (7)
 $$(XY)Z = X(YZ)$$
@@ -352,7 +352,7 @@ A が可換のとき、(17 G) 簡約するは、no. 2 の公式 (4) によって
 
 #### 系 {#alg-ii-s10-n4-cor-1 .statement tag=05WN}
 
-*Let E, F, G be three right (resp. left) modules over a ring A, $(e_i)_{i \in I}$, $(f_k)_{k \in K}$, $(g_l)_{l \in L}$ respective finite bases of E, F, G, $u : E \to F$, $v : F \to G$ two linear mappings, $M(u)$ the matrix of u relative to the bases $(e_i)$, $(f_k)$, $M(v)$ the matrix of v relative to the bases $(f_k)$, $(g_l)$ and $M(v \circ u)$ the matrix of $v \circ u$ relative to the bases $(e_i)$, $(g_l)$; then*
+*E、F、G をリング上の 3 つの右 (それぞれ左) モジュール A、$(e_i)_{i \in I}$、$(f_k)_{k \in K}$、$(g_l)_{l \in L}$ E、F、G、$u : E \to F$、$v : F \to G$ のそれぞれの有限基底、2 つの線形マッピング、$M(u)$ 基底に対する u の行列 $(e_i)$、 $(f_k)$、$M(v)$ 基数 $(f_k)$、$(g_l)$ および $M(v \circ u)$ を基底とする v の行列 $(e_i)$、$(g_l)$ を基準とした $v \circ u$ の行列。それから*
 
 (18D)
 $$
@@ -409,9 +409,9 @@ $$
 
 ### 5. ブロック積
 
-no. 4 の定義は次のように一般化できます。 E を、部分加群の家族 $(E_i)_{i \in I}$ の (右または左) A-加群、直和とします。 すべての $x \in E$ について、すべての $i \in I$ について $x_i \in E_i$ を使用して $x = \sum_{i \in I} x_i$ とします。 E の元を含む列行列 $M(x) = (x_i)_{i \in I}$ は、E の分解 $(E_i)_{i \in I}$ である直和* に対して x の *行列であると言えます。
+no. 4 の定義は次のように一般化できます。 E を、部分加群の家族 $(E_i)_{i \in I}$ の (右または左) A-加群、直和とします。すべての $x \in E$ について、すべての $i \in I$ について $x_i \in E_i$ を使用して $x = \sum_{i \in I} x_i$ とします。 E の元を含む列行列 $M(x) = (x_i)_{i \in I}$ は、E の分解 $(E_i)_{i \in I}$ が直和* であることに対して、x の *行列であると言えます。
 
-Let F be another A-module (E and F being both right A-modules or both left A-modules) and suppose that F is the direct sum of a family $(F_k)_{k \in K}$ of submodules. For all $u \in \mathrm{Hom}(E, F)$ and all $x_i \in E_i$, let $u(x_i) = \sum_k u_{ki}(x_i)$ with $u_{ki}(x_i) \in F_k$ for all $k \in K$; then $u_{ki} \in \mathrm{Hom}(E_i, F_k)$; we shall say that the matrix $M(u) = (u_{ki})_{(k, i) \in K \times I}$ of type $(K, I)$ with elements in the set H the sum of the $\mathrm{Hom}(E_i, F_k)$ is *the matrix of u with respect to the decompositions $(E_i)$ and $(F_k)$ of E and F as direct sums*.
+F を他の A-加群 (E と F は両方右A-加群または両方左A-加群) とし、F が部分加群の家族 $(F_k)_{k \in K}$ の直和であると仮定します。 すべての $u \in \mathrm{Hom}(E, F)$ とすべての $x_i \in E_i$ について、すべての $k \in K$ について $u_{ki}(x_i) \in F_k$ を含む $u(x_i) = \sum_k u_{ki}(x_i)$ とします。次に$u_{ki} \in \mathrm{Hom}(E_i, F_k)$;集合 H の要素を持ち、$\mathrm{Hom}(E_i, F_k)$ の合計を持つ型 $(K, I)$ の行列 $M(u) = (u_{ki})_{(k, i) \in K \times I}$ は、*E と F の分解 $(E_i)$ と $(F_k)$ を直接和として表す * u の行列であると言えます。
 
 これらの定義により、$u, v$がEの2つのA-線型写像をFにすると、行列は同じ分解と直和に関して明らかです。
 
@@ -427,7 +427,7 @@ $$
 M(u(x)) = M(u) . M(x)
 $$
 
-where $M(u(x))$ is the matrix of $u(x)$ with respect to the decomposition $(F_k)$, the product on the right hand side of (22) being calculated for the mappings $(t, z) \mapsto t(z)$ of $\mathrm{Hom}(E_i, F_k) \times E_i$ into $F_k$ (no. 2, *Remark*).
+ここで、$M(u(x))$ は分解 $(F_k)$ に関する $u(x)$ の行列であり、(22) の右側の積は、$\mathrm{Hom}(E_i, F_k) \times E_i$ の $F_k$ へのマッピング $(t, z) \mapsto t(z)$ (no. 2、*備考*) に対して計算されます。
 
 G を部分加群の家族 $(G_l)_{l \in L}$ の 3 番目の A-加群、直和とすると、分解 $(F_k)$ に関して、すべての A-線型写像 $v : F \to G$ 行列 $M(v) = (v_{lk})$ に対応するが存在します。 $(G_l)$。 I、K および L が *有限* の場合、
 
@@ -435,7 +435,7 @@ $$
 M(v \circ u) = M(v) . M(u)
 $$
 
-where the left hand side is the matrix $(w_{li})$ of $w = v \circ u$ with respect to the decomposition $(E_i)$ and $(G_l)$ and the product on the left hand side is calculated for the mappings $(t, s) \mapsto t \circ s$ of $\mathrm{Hom}(F_k, G_l) \times \mathrm{Hom}(E_i, F_k)$ into $\mathrm{Hom}(E_i, G_l)$ (no. 2, *Remark*). これは、§ 1, no. 8の公式(32)を行列の項で表したものにすぎません。
+ここで、左側は分解 $(E_i)$ と $(G_l)$ に関する $w = v \circ u$ の行列 $(w_{li})$ であり、左側の積は $\mathrm{Hom}(F_k, G_l) \times \mathrm{Hom}(E_i, F_k)$ の $\mathrm{Hom}(E_i, G_l)$ へのマッピング $(t, s) \mapsto t \circ s$ (no. 2、*備考*) に対して計算されます。 これは、§ 1, no. 8の公式(32)を行列の項で表したものにすぎません。
 
 最後に、I と K が有限であると仮定すると、$E^*$ (それぞれ $F^*$) は、加群 $E_i^*$ (それぞれ $F_k^*$) (§ 2, no. 6, 命題 10) の直和と正規的に識別されます。すると、分解 $(F_k^*)$ と $(E_i^*)$ に対する $^t u$ の行列がちょうど $(^t u_{ki})_{(k, i) \in K \times I}$ であることがすぐに検証されます。
 
@@ -445,13 +445,13 @@ $$
 X \mapsto (X_{kt})_{(k, t) \in K \times I}
 $$
 
-between the set of matrices of type (S, R) with elements in A and the set of matrices of matrices $(X_{kt})_{(k, t) \in K \times I}$ of type K \times I, where each X_{kt} is a matrix over A of type (S_k, R_i). さらに G が有限の基底 (g_t)_{t \in T} を許容し、T = (T_l)_{l \in L} が T の分割であり、各 l \in L に対して (g_t)_{t \in T_l} が G_l の基底であると仮定します。 Y = M(v) を基底 (f_s)_{s \in S} および (g_t)_{t \in T} に関して v の行列とし、Y_{lk} = M(v_{lk}) を基底 (f_s)_{s \in S_k} および (g_t)_{t \in T_l} に関して v_{lk} とします。 Z = M(w) 基底 (e_r)_{r \in R} および (g_t)_{t \in T} に関する w = v \circ u の行列および基底 (e_r)_{r \in R_i} および (g_t)_{t \in に関する w_{li} の Z_{li} = M(w_{li}) T_l};次に、(23) から、Z = YX の部分行列 Z_{li} は次の式で与えられることがわかります。
+A の要素を持つ型 (S, R) の行列の集合と、型 K \times I の行列 $(X_{kt})_{(k, t) \in K \times I}$ の行列の集合の間で、各 X_{kt} は型 (S_k, R_i) の A 上の行列です。 さらに G が有限の基底 (g_t)_{t \in T} を許容し、T = (T_l)_{l \in L} が T の分割であり、各 l \in L に対して (g_t)_{t \in T_l} が G_l の基底であると仮定します。 Y = M(v) を基底 (f_s)_{s \in S} および (g_t)_{t \in T} に関して v の行列とし、Y_{lk} = M(v_{lk}) を基底 (f_s)_{s \in S_k} および (g_t)_{t \in T_l} に関して v_{lk} とします。 Z = M(w) 基底 (e_r)_{r \in R} および (g_t)_{t \in T} に関する w = v \circ u の行列および基底 (e_r)_{r \in R_i} および (g_t)_{t \in に関する w_{li} の Z_{li} = M(w_{li}) T_l};次に、(23) から、Z = YX の部分行列 Z_{li} は次の式で与えられることがわかります。
 
 $$
 Z_{li} = \sum_k Y_{lk} X_{kt}
 $$
 
-in other words, the one-to-one correspondence (24) transforms products into products when all the products in question are defined (products of matrices of matrices being defined in the sense of no. 2, Remark); when the submatrices Z_{li} of the product YX are calculated thus, this product is said to be carried out "in blocks".
+言い換えれば、1 対 1 対応 (24) は、問題の積がすべて定義されている場合に積を積に変換します (行列の行列の積は no. 2 の意味で定義されています、注釈)。積 YX の部分行列 Z_{li} がこのように計算されるとき、この積は「ブロックで」実行されると言われます。
 
 この名前は、I = {1, p} および K = {1, q} のとき、行列 X を表す表が「行列の配列」を形成する「ブロック」に分割されると想定されるという事実に由来しています。
 
@@ -523,7 +523,7 @@ A を環および $\sigma$ を A (no. 3) の *反同型* とします。次の 2
 
 (DG) E は、右A-加群、F 左A-加群、および $u$ で、$a \in A,\ x \in E$ に対して $u(xa) = \sigma(a)u(x)$ となるような E から F への $\mathbf{Z}$ 線形写像です。他の語では、$u$ は、左側の $A^0$ モジュール E から左A-加群 F の $\sigma$ に対して *半線形* 写像です。
 
-In the two cases, the matrix $M(u)$ of $u$ relative to bases of E and F has its elements in A; if these bases are finite, then, for all $x \in E$, we have the respective formulae
+2 つのケースでは、E と F の基底に対する $u$ の行列 $M(u)$ の要素は A にあります。これらの基数が有限である場合、すべての $x \in E$ に対して、それぞれの公式が得られます。
 
 (17 GD) $$
 M(u(x)) = M(u) . \sigma(M(x))
@@ -547,7 +547,7 @@ $n$ 行と $n$ 列を持つ平方行列は、位数* $n$ の *行列と呼ばれ
 
 明らかに、A 上の正方行列の加法と乗法は、行の集合のインデックスとして有限の集合を持ち、これら行列の集合には列、定義するが *環* となります。 構造式 (7)、(8)、(9) のため (no. 3)。 行列 $(\delta_{ij})$、$\delta_{ij}$ はクロネッカー添字 ($i \in I, j \in I$ の場合) であり、この環の単位元であり、I が $n$ である場合、$I_n$ または $l_n$ で表されます。 元。このように定義された$I = \{1, n\}$、行列の環を単に$\mathbf{M}_n(A)$と表記します。 $\mathbf{M}_n(A)$の可逆元の群は$\mathbf{GL}_n(A)$または$\mathbf{GL}(n, A)$で表されます。
 
-For a square matrix $U = (a_{ij})$ of order $n$ over A to be right (resp. left) invertible, it is necessary and sufficient that, for every system $(b_i)_{1 \leq i \leq n}$ of elements of A, the system of $n$ equations in $n$ unknowns
+A 上の次数 $n$ の正方行列 $U = (a_{ij})$ が右 (または左) 可逆であるためには、A の要素のすべての系 $(b_i)_{1 \leq i \leq n}$ について、未知数 $n$ の $n$ 方程式の系が必要かつ十分です。
 
 $$
 \sum_{j=1}^n a_{ij} x_j = b_i \quad (1 \leq i \leq n)
@@ -559,7 +559,7 @@ A に * 1 つの解* $(x_i)$ があります。
 
 I を有限インデックス集合、A 環および E を右 (それぞれ左) A-加群と基底 $(e_i)_{i \in I}$ とします。 E のすべての *自己準同型* $u$ について、* $(e_i)$ と同じ *2 つの基底に関して、$u$ の行列 $M(u)$ は平方行列です。もっと簡単に言うと、基底* $(e_i)$ に対して、$u$ の行列と呼ばれます。
 
-$I = \{1, n\}$ と仮定します。 写像 $u \mapsto M(u)$ (resp. $u \mapsto {}^t M(u)$) is an *同型* of 環 $\mathrm{End}_A(E)$ onto $\mathbf{M}_n(A)$ (resp. onto 反対環 of $\mathbf{M}_n(A)$, as follows from formulae (18 D) (resp. 18 G)) (no. 4)。 The invertible elements of the ring $\mathbf{M}_n(\mathbf{A})$ called *invertible matrices*, correspond under the mapping $u \mapsto M(u)$ (resp. $u \mapsto {}^t M(u)$) to the *automorphisms* of E; the group $\mathbf{GL}(n, \mathbf{A})$ is therefore canonically identified with the group $\mathbf{GL}(\mathbf{A}_d^n)$.
+$I = \{1, n\}$ と仮定します。 写像 $u \mapsto M(u)$ (resp. $u \mapsto {}^t M(u)$) is an *同型* of 環 $\mathrm{End}_A(E)$ onto $\mathbf{M}_n(A)$ (resp. onto 反対環 of $\mathbf{M}_n(A)$, as follows from formulae (18 D) (resp. 18 G)) (no. 4)。 環 $\mathbf{M}_n(\mathbf{A})$ の可逆元は、E の *自己同型* に対して、写像 $u \mapsto M(u)$ (それぞれ $u \mapsto {}^t M(u)$) の下で *反転可能な行列*、対応すると呼ばれます。したがって、群 $\mathbf{GL}(n, \mathbf{A})$ は正規的に群 $\mathbf{GL}(\mathbf{A}_d^n)$ と識別されます。
 
 If $u$ is 自己同型 of E, its *contragredient* $\check{u}$ is 自己同型 of the left (resp. right) A-加群 $E^*$, such that $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (§ 2, no. 5, 定義 6); $M(\check{u})$ が双対基底 $(e_i^*)$ に関して $\check{u}$ の行列である場合、 命題 3 (no. 4) により、
 
@@ -618,7 +618,7 @@ II。 *置換行列;単項式行列.* $\pi$ を有限集合 $\mathbf{I}$ の任�
 
 III。 *三角形行列.* 環正方行列位数 $n$ 環 $\mathbf{A}$ の環 $\mathbf{M}_n(\mathbf{A})$ で、$i > j$ に対して $a_{ij} = 0$ となるような行列 $(a_{ij})$ (それぞれ $i < j$) は *上* (それぞれ *下*) *三角形行列* と呼ばれます。また、そのような行列 *下* (それぞれ *上*) *対角線*は零のみであるとも言われます。 $\mathbf{M}_n(\mathbf{A})$、$S \cap T$の上（それぞれ下）三角形行列形部分環$S$（それぞれ$T$）は、明らかに対角線行列の環であることがすぐに証明されます。
 
-$S$ (それぞれ $T$) の行列の集合 $S'$ (それぞれ $T'$) は、その対角線元が *反転可能* であり、 *上* (*下*) *全三角形と呼ばれる行列の乗法 *群* です。 群*、これは § 1, no. 11、*注意* 5 の直後に続きます。 The set $S_1$ (resp. $T_1$) of matrices in $S$ (resp. $T$) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *upper* (resp. *lower*) *strict triangular group*, and every matrix $M \in S'$ (resp. $M \in T'$) whose diagonal is $(d_i)$, may be written as $M = DM_1 = M'_1D$, where $D = \text{diag}(d_i)$ and $M_1$ and $M'_1$ matrices belonging to $S_1$ (resp. $T_1$).
+$S$ (それぞれ $T$) の行列の集合 $S'$ (それぞれ $T'$) は、その対角線元が *反転可能* であり、 *上* (*下*) *全三角形と呼ばれる行列の乗法 *群* です。 群*、これは § 1, no. 11、*注意* 5 の直後に続きます。 対角要素がすべて 1 に等しい $S$ (または $T$) の行列の集合 $S_1$ (または $T_1$) は、上記のグループの * サブグループ* であり、*上* (*下*) *厳密な三角グループ* と呼ばれ、すべての行列 $M \in S'$ (または $M \in T'$) の対角要素は$(d_i)$ は、$M = DM_1 = M'_1D$ と書くことができます。ここで、$D = \text{diag}(d_i)$、$M_1$、および $M'_1$ の行列は、$S_1$ (それぞれ $T_1$) に属します。
 
 IV。 *対角線と三角形行列の行列.* $(I_k)_{1 \leq k \leq p}$ を有限集合 $\mathbf{I}$ の分割とします。 環 $\mathbf{A}$ 上のすべての平方行列は、集合 $\mathbf{I}$ のインデックス付きで、行列* 対応するの *平方行列の形に同じように書き込むことができます。行のインデックス作成分割 $(\mathbf{I}_k)$ 行のインデックス作成集合および列 (no. 5) のインデックス作成集合
 
@@ -634,7 +634,7 @@ $$
 
 ここで、各 $X_{kk}$ は平方行列で、行の集合と列のインデックスとして $\mathbf{I}_k$ が付けられます。
 
-この記法により、$i \neq j$ (それぞれ $i > j$、それぞれ $i < j$) が零となるようなすべての行列 $X_{ij}$ の場合、(32) は行列の対角線 (それぞれ上三角、それぞれ下三角) 行列と呼ばれます。 The interpretation of endomorphisms $u$ whose matrix is a diagonal, resp. triangular, matrix of matrices has been seen earlier, by considering the corresponding matrix $M(u)$ of linear mappings. The lower triangular (resp. upper triangular, diagonal) matrices of matrices for a given partition $(\mathbf{I}_k)$ of I form subrings of the ring of matrices $\mathbf{A}^{I \times I}$. 特に、分割 $(\mathbf{I}_k)$ に対する行列の対角行列の環は積 $\prod_{k=1}^p \operatorname{End}_\mathbf{A}(E_k)$ と同型です。
+この記法により、$i \neq j$ (それぞれ $i > j$、それぞれ $i < j$) が零となるようなすべての行列 $X_{ij}$ の場合、(32) は行列の対角線 (それぞれ上三角、それぞれ下三角) 行列と呼ばれます。 行列が対角線である自己準同型 $u$ の解釈は、それぞれ次のようになります。三角形、行列の行列は、線形写像の対応する行列 $M(u)$ を考慮することで、以前に見られました。 I の特定のパーティション $(\mathbf{I}_k)$ の行列の下三角 (それぞれ上三角、対角) 行列は、行列のリング $\mathbf{A}^{I \times I}$ の部分環を形成します。 特に、分割 $(\mathbf{I}_k)$ に対する行列の対角行列の環は積 $\prod_{k=1}^p \operatorname{End}_\mathbf{A}(E_k)$ と同型です。
 
 ### 8. 基底中変更
 
@@ -650,11 +650,11 @@ $P$ は、$u(e_i) = e'_i (1 \leq i \leq n)$ によって定義される E の自
 
 ※$(e_i)$から$(e'_i)$への通路のEとP行列のn元の2つの基底を$(e_i), (e'_i)$とします。 $(e_i^*)$ と $({e'_i}^*)$ がそれぞれ $(e_i)$ と $(e'_i)$ の双対基底である場合、$(e_i^*)$ から $({e'_i}^*)$ への通過の行列は P.* の対偶 $^tP^{-1}$ です。
 
-The transpose of the identity mapping $l_E$ is the identity mapping $l_{E^*}$; by Proposition 3, no. 4, the matrix of $l_{E^*}$ with respect to the bases $({e'_i}^*)$ and $(e_i^*)$ (in that order) is the transpose of the matrix of $l_E$ with respect to the bases $(e_i)$ and $(e'_i)$ (in that order), that is the transpose of $P^{-1}$.
+恒等マッピング $l_E$ の転置は恒等マッピング $l_{E^*}$ です。命題 3 no. 4 より、基底 $({e'_i}^*)$ と $(e_i^*)$ (この順) に関する $l_{E^*}$ の行列は、基底 $(e_i)$ と $(e'_i)$ (この順) に関する $l_E$ の転置、つまり $P^{-1}$ の転置です。
 
 #### 命題 6 {#alg-ii-s10-prop-6 .statement tag=05WV}
 
-*EとFを2つの右A-加群、$(e_i)$、$(e'_i)$とし、E*の2つの基底を$n$元、$(f_j)$、$(f'_j)$とし、$F$の2つの基底を$m$とします。 $(e_i)$から$(e'_i)$への通過の元、$P$ 行列、および$(f_j)$から$(f'_j)$への通過の$Q$ 行列。 For every linear mapping $u$ of $E$ into $F$, let $M(u)$ be the matrix of $u$ with respect to the bases $(e_i)$ and $(f_j)$ and $M'(u)$ the matrix of $u$ with respect to the bases $(e'_i)$ and $(f'_j)$; then
+*EとFを2つの右A-加群、$(e_i)$、$(e'_i)$とし、E*の2つの基底を$n$元、$(f_j)$、$(f'_j)$とし、$F$の2つの基底を$m$とします。 $(e_i)$から$(e'_i)$への通過の元、$P$ 行列、および$(f_j)$から$(f'_j)$への通過の$Q$ 行列。 $E$ から $F$ へのすべての線形写像 $u$ について、$M(u)$ を基底 $(e_i)$ および $(f_j)$ に関する $u$ の行列、$M'(u)$ を基底 $(e'_i)$ に関する $u$ の行列とする。 $(f'_j)$;それから
 
 $$
 M'(u) = Q^{-1} M(u) P.
@@ -786,7 +786,7 @@ $1 \leq i \leq m$、$x'_{ij} = x_{ij} + x_{ik}a$、$x'_{il} = x_{il}$ が $j \ne
 
 (3) 最後に、与えられた添字 $j$ に対して、$1 \leq i \leq m$ に対して $x'_{ij} = x_{ij}c$ がある場合、$c$ は可逆であり、$1 \leq i \leq m$ と $l \neq j$ に対して $x'_{il} = x_{il}$、$X$ と $X'$ は等価です。 $X' = XQ$の場合、$Q$は行列 $\operatorname{diag}(a_k)$、$a_j = c$、$k \neq j$の場合は$a_k = 1$です。そして、$X'$は、右側の添字$j$の$X$の列に$a$を掛けて、$X$から導かれると言われています。
 
-Similarly, if $X'$ is derived from $X'$ by multiplying the row of $X$ of index $i$ on the left by an invertible element $c \in A$, $X'$ and $X$ are equivalent, for $X' = PX$ where $P$ is the matrix $\operatorname{diag}(b_h)$ with $b_i = c$, $b_h = 1$ for $h \neq i$.
+同様に、左側のインデックス $i$ の $X$ の行に可逆要素 $c \in A$ を乗算して $X'$ が $X'$ から導出される場合、$X' = PX$ に対して、$X'$ と $X$ は等価です。ここで、$P$ は行列 $\operatorname{diag}(b_h)$ であり、 $h \neq i$の場合は$b_i = c$、$b_h = 1$。
 
 #### 定義 6 {#alg-ii-s10-def-6 .statement tag=05X0}
 
@@ -881,7 +881,7 @@ $$(A_1 \otimes B_1)(A_2 \otimes B_2) = (A_1 A_2) \otimes (B_1 B_2)$$
 $$(A \otimes B)^t = (A^t) \otimes (B^t).$$
 (46)
 
-If $A$ and $B$ are invertible square matrices over $\mathbf{C}$, $A \otimes B$ is invertible and
+$A$ と $B$ が $\mathbf{C}$ 上の可逆正方行列である場合、$A \otimes B$ は可逆であり、
 
 $$(A \otimes B)^{-1} = (A^{-1}) \otimes (B^{-1}).$$
 (47)
@@ -934,7 +934,7 @@ $$
 
 #### 命題 7 {#alg-ii-s10-prop-7 .statement tag=05X2}
 
-*Let $C$ be a commutative ring and for every matrix $P \in \mathbf{M}_n(C)$ let $f_P$ be the linear form $X \mapsto \operatorname{Tr}(PX)$ on $\mathbf{M}_n(C)$; the mapping $P \mapsto f_P$ is a $C$-linear bijection of $\mathbf{M}_n(C)$ onto its dual.*
+*$C$ を可換環とし、行列 $P \in \mathbf{M}_n(C)$ ごとに $f_P$ を $\mathbf{M}_n(C)$ の線型形式 $X \mapsto \operatorname{Tr}(PX)$ とします。 写像 $P \mapsto f_P$ は、その双対上の $\mathbf{M}_n(C)$ の $C$-線形全単射です。
 
 #### 命題 8 {#alg-ii-s10-prop-8 .statement tag=05X3}
 
@@ -948,17 +948,17 @@ $m$ 行と体 $K$ 上の $n$ 列を持つ有限行列は、右ベクトル空間
 
 #### 定義 7 {#alg-ii-s10-def-7 .statement tag=05X4}
 
-*Given a matrix $X$ with $m$ rows and $n$ columns over a field $K$, the dimension of the subspace of $K_d^m$ generated by the $n$ columns of $X$ is called the rank of $X$ with respect to $K$ and denoted by $\operatorname{rg}(X)$.*
+*フィールド$K$上の$m$行と$n$列の行列$X$が与えられた場合、$X$の$n$列によって生成される$K_d^m$の部分空間の次元は、$K$に対する$X$のランクと呼ばれ、次のように表されます。 $\operatorname{rg}(X)$.*
 
-また、$X$ の階数は、$X$* の線形独立列の * 最大値数であるとも言えます ($K_d^m$ の元として)。 明らかに $\operatorname{rg}(X) \leqslant \inf(m, n)$; $X$、$\operatorname{rg}(Y) \leqslant \operatorname{rg}(X)$ のすべての部分行列 $Y$ に対して。
+$X$ の階数は、$X$* の線形独立列の * 最大値数であるとも言えます ($K_d^m$ の元として)。明らかに $\operatorname{rg}(X) \leqslant \inf(m, n)$; $X$、$\operatorname{rg}(Y) \leqslant \operatorname{rg}(X)$ のすべての部分行列 $Y$ に対して。
 
 $E$と$F$が、$K$と$u$の2つの有限次元ベクトル空間、$E$の線形写像を$F$にすると、任意の2つの基底に関して、行列$M(u)$の階数は次と等しい。 $u$中階数。
 
 #### 命題 9 {#alg-ii-s10-prop-9 .statement tag=05X5}
 
-*If the elements of a matrix $X$ with $m$ rows and $n$ columns belong to a subfield $K_0$ of a field $K$, the rank of $X$ with respect to $K_0$ is equal to the rank of $X$ with respect to $K$.*
+*$m$行と$n$列の行列$X$の要素がフィールド$K$のサブフィールド$K_0$に属している場合、$K_0$に関する$X$のランクは$K$に関する$X$のランクに等しい。
 
-$F_0$ を、右側ベクトル $K$-スペース $E = K_d^m$ の標準基底によって生成された右側ベクトル $K_0$ スペースとします。 仮定列のうち $X$ 属するから $E_0$ まで。 Let $V_0$ (resp. $V$) be the vector sub-$K_0$-space of $F_0$ (resp. the vector sub-$K$-space of $E$) generated by these columns. 次に、$V = V_0 \otimes_{K_0} K$ (§ 8, no. 2、命題 2)、したがって $\dim_K V = \dim_{K_0} V_0$ となります。
+$F_0$ を、右側ベクトル $K$-スペース $E = K_d^m$ の標準基底によって生成された右側ベクトル $K_0$ スペースとします。 仮定列のうち $X$ 属するから $E_0$ まで。 $V_0$ (それぞれ $V$) を、これらの列によって生成された $F_0$ のベクトル サブ$K_0$ 空間 (それぞれ $E$ のベクトル サブ$K$ 空間) とします。 次に、$V = V_0 \otimes_{K_0} K$ (§ 8, no. 2、命題 2)、したがって $\dim_K V = \dim_{K_0} V_0$ となります。
 
 #### 命題 10 {#alg-ii-s10-prop-10 .statement tag=05X6}
 
@@ -968,7 +968,7 @@ $F_0$ を、右側ベクトル $K$-スペース $E = K_d^m$ の標準基底に�
 
 したがって、$X$ の階数は、$X$* の線形独立行の * 最大数としても定義できることがわかります (左のベクトル $K$ 空間 $K_s^n$ の元とみなします)。
 
-The square matrices of order $n$ over a field $K$ correspond bijectively with the endomorphisms of $E = K_d^n$ and form a ring isomorphic to the ring
+体 $K$ 上の次数 $n$ の正方行列は、$E = K_d^n$ の同型写像と全単射的に対応し、環と同型の環を形成します。
 
 終了$_{\mathbf{K}}$ (E) (no. 7); Eの対応するから自己同型は反転可能な正方行列です。
 
@@ -1083,7 +1083,7 @@ $$
 
 #### 系 1 {#alg-ii-s10-prop-14-cor-1 .statement tag=05XD}
 
-*If $X$ is an invertible square matrix of order $n$ over a field $\mathbf{K}$, there exist three invertible matrices $P, Q, D$ of order $n$ such that $X = PDQ$, $P$ and $Q$ being products of matrices of the form $B_{ij}(\lambda)$ and $D$ a diagonal matrix of the form*
+*$X$ が体 $\mathbf{K}$ 上の次数 $n$ の可逆正方行列である場合、次数 $n$ の 3 つの可逆行列 $P, Q, D$ が存在し、$X = PDQ$、$P$、$Q$ は形式 $B_{ij}(\lambda)$ の行列の積となり、 $D$ 次の形式の対角行列*
 
 $$
 D = \operatorname{diag}(1, 1, \ldots, \delta),

@@ -26,16 +26,16 @@ subsections:
       pdf_page: 54
 statements: 3
 exercises: 7
-content_sha256: bee03181ba120919dd4ae71dbeeff7ba79d676886e160e862dbab5c0fe5a324c
+content_sha256: 3dbcde209ceb43dd922e9932e15ca088ea1e0c35064c2b3cb5bbf2bb87b6a924
 translated_from: content/en/ens/I/05_s5_equalitarian_theories.md
 translation_method: google
 source_content_sha256: 8cbe15ed2020b27b62da706075017d090591d51c972f6b3ce0f6ebf686257ba1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: bca82c1b6e34f280da15e58afcb0ce329f4f8fd99e59db48a030e1d49e3f5b08
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. 平等主義理論
@@ -136,7 +136,7 @@ $$(\forall y)(\forall z)(((y|x)R \text{ and } (z|x)R) \Rightarrow (y = z))$$
 
 $$(\forall y')(\forall z')(((y'|x)R \text{ and } (z'|x)R) \Rightarrow (y' = z'))$$
 
-は同一です。 $R$ が $\mathscr{T}$ の関係である場合、このように定義されたアセンブリは $\mathscr{T}$ の関係であり、これは「$R$ となる $x$ が最大 1 つ存在する」で示されます。この関係には文字$x$が現れません。 この関係が$\mathscr{T}$の定理であるとき、$R$は$\mathscr{T}$の$X$で*単一値*であると言われます。 To prove that $R$ is single-valued in the theory $\mathscr{T}$, it is enough to prove $y = z$ in the theory obtained by adjoining to $\mathscr{T}$ the axioms $(y|x)R$ and $(z|x)R$, where $y$ and $z$ are distinct letters which are distinct from $x$ and appear neither in $R$ nor in the explicit axioms of $\mathscr{T}$.
+は同一です。 $R$ が $\mathscr{T}$ の関係である場合、このように定義されたアセンブリは $\mathscr{T}$ の関係であり、これは「$R$ となる $x$ が最大 1 つ存在する」で示されます。この関係には文字$x$が現れません。 この関係が$\mathscr{T}$の定理であるとき、$R$は$\mathscr{T}$の$X$で*単一値*であると言われます。 理論 $\mathscr{T}$ で $R$ が単一値であることを証明するには、公理 $(y|x)R$ と $(z|x)R$ を $\mathscr{T}$ に隣接させることによって得られる理論で $y = z$ を証明するだけで十分です。ここで、$y$ と $z$ は $x$ とは異なる別個の文字であり、出現します。 $R$ にも、$\mathscr{T}$ の明示的な公理にも当てはまりません。
 
 C45。 ※$R$は$\mathscr{T}$の関係、$x$は$\mathscr{T}$の定数ではない文字とします。 $\mathscr{T}$ の $x$ で $R$ が単一値である場合、$R \Rightarrow (x = \tau_x(R))$ は $\mathscr{T}$ の定理になります。逆に、$\mathscr{T}$ の項 $T$ が、含む $x$ ではなく、$R \Rightarrow (x = T)$ が $\mathscr{T}$ の定理である場合、$R$ は、$x$ で単一値になります。 $\mathscr{T}$.*
 

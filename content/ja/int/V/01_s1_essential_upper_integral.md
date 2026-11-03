@@ -29,16 +29,16 @@ subsections:
       pdf_page: 265
 statements: 22
 exercises: 6
-content_sha256: f7f2d2a85ba6323296d8546486966840f8dc2b73dd0e466068dabd717ba00cc2
+content_sha256: f43379219e002b80993695ec07224bf24dfa262ef903c954119db180dd8bc58a
 translated_from: content/en/int/V/01_s1_essential_upper_integral.md
 translation_method: google
 source_content_sha256: d19dbe1131a1bb0064d0db8332b6983acb2090fbcf25d4ea5abb63e1585fb1b0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e0bbc81d9552cc294e2d269beee7dc61da95a229619ca67ec657f2bb7ba0052e
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。必須の上部積分
@@ -62,11 +62,11 @@ $\mathscr{F}_+(T)$ の写像 $\mu^\bullet$ を $\overline{\mathbf{R}}$ 一致す
 
 #### 命題 1 {#int-v-s1-prop-1 .statement tag=08ZP}
 
-a) If $f$ and $g$ are two numerical functions $\geq 0$ that are equal locally almost everywhere, then $\mu^\bullet(f) = \mu^\bullet(g)$.
-b) If $f$ and $g$ are two numerical functions $\geq 0$ such that $f \leq g$, then $\mu^\bullet(f) \leq \mu^\bullet(g)$.
-c) If $f$ is a numerical function $\geq 0$, and $\alpha$ is a number $\geq 0$, then $\mu^\bullet(\alpha f) = \alpha \mu^\bullet(f)$.
-d) If $f$ and $g$ are two numerical functions $\geq 0$, then $\mu^\bullet(f + g) \leq \mu^\bullet(f) + \mu^\bullet(g)$.
-e) If $(f_n)_{n \in \mathbf{N}}$ is an increasing sequence of numerical functions $\geq 0$, and if $f = \lim_{n \to \infty} f_n$, then $\mu^\bullet(f) = \lim_{n \to \infty} \mu^\bullet(f_n)$.
+a) $f$ と $g$ が局所的にほぼどこでも等しい 2 つの数値写像 $\geq 0$ である場合、$\mu^\bullet(f) = \mu^\bullet(g)$ です。
+b) $f$ と $g$ が写像 $\geq 0$ で、$f \leq g$ である場合、$\mu^\bullet(f) \leq \mu^\bullet(g)$ になります。
+c) $f$ が数値写像 $\geq 0$ で、$\alpha$ が数 $\geq 0$ の場合、$\mu^\bullet(\alpha f) = \alpha \mu^\bullet(f)$。
+d) $f$ と $g$ が 2 つの数値写像 $\geq 0$ の場合、$\mu^\bullet(f + g) \leq \mu^\bullet(f) + \mu^\bullet(g)$。
+e) $(f_n)_{n \in \mathbf{N}}$ が数値写像 $\geq 0$ の増加する数列の場合、$f = \lim_{n \to \infty} f_n$ の場合は、$\mu^\bullet(f) = \lim_{n \to \infty} \mu^\bullet(f_n)$。
 
 性質 a)、b)、c)、d) は、上積分の対応する性質からすぐに推定できます。 a) 第 1 章の命題 6 から。 IV, §2, No. 3 と命題 5 章 IV, §5, No. 2; b)、c)、d) 命題 10、11、12 章より。 IV, §1, No. 3。 e) を確立するには、$T$ のコンパクト部分集合の $\mathfrak{K}$ 集合で表します。 定理 3章による IV, §1, No. 3、私たちは持っています
 
@@ -150,18 +150,18 @@ $\mu$ が緩和措置である場合、$T$ のすべての写像は $\mu$ 緩和
 
 #### 注意 {#int-v-s1-n2-rem-1 .statement tag=08ZW}
 
-— 1) $\theta$ が $T$ の複雑な尺度である場合、$f$ が $|\theta|$ で緩和されている場合 (それぞれ $|\theta|$ が緩和されている場合)、写像 $f$ は $\theta$ で緩和されている (それぞれ $\theta$ が緩和されている) と言えます。
+— 1) $\theta$ が $T$ の複素尺度である場合、$f$ が $|\theta|$ 緩和されている場合 ($|\theta|$ が緩和されている場合、写像 $f$ は $\theta$ 緩和されている (それぞれ $\theta$ が緩和されている) と言えます)穏健）。
 2) すべての制限された措置は緩和されます。 $T$ がコンパクト集合の可算和集合である場合、$T$ のすべての小節は緩和されます。
-3) $(f_n)$ を、$\overline{\mathbf{R}}$ に値を加えた$\mu$ の写像の数列とします。それぞれの $n$ について、$U_n$ を、有限の外側メジャーの開集合の可算和集合である開集合とし、$f_n$ は $U_n$ の外側の零になります。 写像 $s = \sum_{n \in \mathbf{N}} |f_n|$ は $\bigcup_{n \in \mathbf{N}} U_n$ の外側の零です。したがって、これは $\mu$ で緩和されており、同じことが $|f| \leq s$ などのすべての写像 $f$ にも当てはまります。これは、特に写像 $\liminf_{n \to \infty} f_n$、$\limsup_{n \to \infty} f_n$、および $\sum_{n \in \mathbf{N}} f_n$ (和が定義されている場合) に当てはまります。
+3) $(f_n)$ を、$\overline{\mathbf{R}}$ の値を使用して、$\mu$ が緩和された写像の数列とします。それぞれの $n$ について、$U_n$ を有限外尺の開集合の可算和集合である開集合とし、$f_n$ は $U_n$ の外側にある零になります。 写像 $s = \sum_{n \in \mathbf{N}} |f_n|$ は、$\bigcup_{n \in \mathbf{N}} U_n$ の外にある零です。したがって、これは $\mu$ で緩和され、同じことが $|f| \leq s$ などのすべての写像 $f$ にも当てはまります。これは、特に写像 $\liminf_{n \to \infty} f_n$、$\limsup_{n \to \infty} f_n$、および $\sum_{n \in \mathbf{N}} f_n$ (和が定義されている場合) に当てはまります。
 
 4) 写像は、ほぼどこでも、緩和された写像と同等です。
 
 #### 命題 6 {#int-v-s1-prop-6 .statement tag=08ZX}
 
-— *$f$ を、$T$ で定義された正の数値写像とし、$\mu$ 測定可能で $\mu$ 緩和されます。次に、和が $f$ に等しい、$\mathscr{F}_+(T)$ の元の数列 $(h_n)_{n \in \mathbf{N}}$ が存在し、次の特性を持ちます:*
+— *$f$ を、$T$ で定義された正の数値写像とする。つまり、$\mu$ は測定可能で、$\mu$ は緩和される。次に、和が $f$ に等しい、$\mathscr{F}_+(T)$ の元の数列 $(h_n)_{n \in \mathbf{N}}$ が存在し、次の特性を持ちます:*
 
 1) *写像 $h_0$ は $\mu$ は無視できます。*
-2) *すべての $n \geq 1$ に対して、$h_n$ が $K_n$ の外側に零であり、$h_n$ から $K_n$ の制限が有限連続であるようなコンパクト集合 $K_n$ が存在します。
+2) *すべての $n \geq 1$ に対して、$h_n$ が $K_n$ の外側にある零であり、$h_n$ から $K_n$ の制限が有限連続であるようなコンパクト集合 $K_n$ が存在します。
 
 $f$ が正の可測値写像の数列 $(f_n)$ の和であり、それぞれ主張に性質があるとします。 $f$ にもそれがあることは明らかです。 集合
 $$
@@ -286,11 +286,11 @@ $$
 
 ほぼどこでも局所的に等しい 2 つの本質的に等しい 2 つの可積分関数は、同じ積分を持ちます。有限で本質的に可積分であるすべての写像 $f \geq 0$ に対して、$\int^\bullet f d\mu = \int f d\mu$。 A が集合で、その特性写像が本質的に可積分である場合、A は *本質的に $\mu$ 可積分である集合* であると言われます。 $\int \varphi_A d\mu$ は $\mu(A)$ とも表され、再び A の *メジャー* と呼ばれます。
 
-If a function $f$, with values in $F$, is defined locally almost everywhere in $T$, we again say that $f$ is *essentially integrable* if it is equal, locally almost everywhere, to a function $f_1$ that is everywhere defined and integrable; we then set
+$F$ の値を持つ関数 $f$ が、$T$ のほぼどこでもローカルに定義されている場合、どこでも定義されていて可積分である関数 $f_1$ と、ほぼどこでも局所的に等しい場合、$f$ は *本質的に可積分* であると言います。次に設定します
 $$
 \int f\, d\mu = \int f_1\, d\mu,
 $$
-and this definition is independent of the integrable function $f_1$ everywhere defined and equal locally almost everywhere to $f$ (Lemma). 1 つの定義するも同様に、ほぼどこでも局所的に定義され有限である $\overline{\mathbf{R}}$ の値を持つ写像に対する本質的な可積分関数の概念です。
+そして、この定義はどこで定義された可積分関数 $f_1$ からも独立しており、ほぼどこでも局所的に $f$ と等しくなります (補題)。 1 つの定義するも同様に、ほぼどこでも局所的に定義され有限である $\overline{\mathbf{R}}$ の値を持つ写像に対する本質的な可積分関数の概念です。
 
 読者は、第 3 章の結果を本質的に可積分関数まで拡張することに何の困難もありません。 可積分関数のIV, §4、置き換えることの「ほぼどこでも」、主張では「地元のほぼどこでも」。たとえば、不等式に注目してください。
 $$
@@ -315,7 +315,7 @@ a) を確立するには、$T$ のすべてのコンパクト部分集合 $L$ �
 $$
 \int^* f \varphi_L\, d\mu = \sup_K \int^* f \varphi_K\, d\mu,
 $$
-ここで、$K$ は、$L$ 所属から $\mathfrak{K}$ の部分集合の集合を上回ります。 $L$ は無視できる集合の和集合および増加する数列 $(K_n)$ $\mathfrak{K}$ の元であるため (Ch. IV, §5, No. 8、提案 12)、これは、上部積分における定理から極限に続きます (Ch. IV, §1, No. 3、木。 3)。
+ここで、$K$ は、$L$ 所属から $\mathfrak{K}$ の部分集合の集合を超えます。 $L$ は無視できる集合の和集合と $\mathfrak{K}$ の元の増加する数列 $(K_n)$ であるため (第 IV, §5, No. 8 案、提案 12)、これは定理から上部積分の極限 (Ch. IV, §1, No. 3、Th. 3)。
 
 ここで、$f$ 属するから $\mathscr{L}_F^1$ だとします。 $\varepsilon$ を数 $> 0$ とし、$K$ を $\mathfrak{K}$ の元とします。
 $$

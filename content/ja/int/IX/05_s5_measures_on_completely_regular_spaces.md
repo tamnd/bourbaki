@@ -41,16 +41,16 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 98963704ffba3ea72a40db8546cf9f8a3a1af04d56a4ee9d4be028dadf26baa6
+content_sha256: 2705e533a6075b75cbb65cce60699e62c04a9a01b880d0be5f11775365d7f620
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
 translation_method: google
 source_content_sha256: 0a375a056c9792c3ccd44cccce1d823b83bccfdd6973e87e8cb9fdf911d4ef53
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cc3eea4378e9cfaddb2a9d480fa325f575a407e1091762f5c82099b79019b8ce
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。完全に定期的な対策空間
@@ -278,7 +278,7 @@ $T$ がポーランド語である場合に移りましょう。 $T$ は、計�
 
 *T が完全に通常のスースリン (またはルーシン) 空間である場合、空間 $\mathscr{M}_+^b(T)$ はスースリン (またはルーシン) です。
 
-たとえば、ポーランドの空間 P と T への P の連続写像 $f$ を考えてみましょう (GT、IX, §6, No. 2、定義 2)。 $\tilde{f}$ を $\mathscr{M}_+^b(P)$ から $\mathscr{M}_+^b(T)$ に連続する写像 $\mu \mapsto f(\mu)$ とします。 空間 $\mathscr{M}_+^b(P)$ は提案 10 によりポーランド語であり、$\tilde{f}$ は全射法です (§2, No. 4、提案 9)。したがって、空間 $\mathscr{M}_+^b(T)$ はスーリンです。同様に、T が Lusin の場合、$f$ は単射であると仮定できます (GT, *loc. cit.*, No. 4, Prop. 12)。その場合、$\tilde{f}$ は単射法 (§2, No. 4、提案 8)、したがって $\mathscr{M}_+^b(T)$ は Lusin です (GT、*loc. cit.*、No. 4、提案 12)。
+たとえば、ポーランドの空間 P と T への P の連続写像 $f$ を考えてみましょう (GT、IX, §6, No. 2、定義 2)。 $\tilde{f}$ を $\mathscr{M}_+^b(P)$ から $\mathscr{M}_+^b(T)$ への連続写像 $\mu \mapsto f(\mu)$ とします。 空間 $\mathscr{M}_+^b(P)$ は提案 10 によりポーランド語であり、$\tilde{f}$ は全射法です (§2, No. 4、提案 9)。したがって、空間 $\mathscr{M}_+^b(T)$ はスースリンです。同様に、T が Lusin の場合、$f$ は単射であると仮定できます (GT, *loc. cit.*, No. 4, Prop. 12)。その場合、$\tilde{f}$ は単射法 (§2, No. 4、提案 8) なので、$\mathscr{M}_+^b(T)$ は Lusin (GT、*loc. cit.*、No. 4、提案 12) です。
 
 T を完全に正規の Souslin 空間とします (この場合、T が Souslin で *正規* (TG、App. 1、Prop. 2 の Cor.) で十分であることを思い出してください)、H を $\mathscr{M}_+^b(T)$ の圧縮部分集合とします。その場合、H はコンパクトであり、Souslin であるため、タイトな位相に対して *metrizable* になります (*loc. cit.*、App. 1、Prop. 3 の Cor. 2)。
 
@@ -293,23 +293,23 @@ T を完全に正規の Souslin 空間とします (この場合、T が Souslin
     |\mu|(T - K_\varepsilon) \leq \varepsilon \quad \text{for every measure } \mu \in H.
     $$
 
-T が完全に正則である場合、条件 *a)* および *b)* の集合は次の条件と同等であることがわかります。T には実数の写像 $f \geq 1$ が存在し、T 満たす $f(t) \leq c$ の点 t の集合は次のようになります。 $c \in \mathbf{R}_+$ ごとにコンパクト (特に、$f$ がより低い半連続であることを意味します)、および $\sup_{\mu \in H} |\mu|(f) < +\infty$ のようになります。さらに、T が局所的にコンパクトである場合、f が連続であることを要求することにより、等価な主張が得られます (cf. Exer. 10)。
+T が完全に正則である場合、条件 *a)* および *b)* の集合は次の条件と同等であることが示されます。T には実数の写像 $f \geq 1$ が存在し、T 満たすの点 t の集合が存在します。 $f(t) \leq c$ はすべての $c \in \mathbf{R}_+$ に対してコンパクトであり (特に、$f$ がより低い半連続であることを意味します)、$\sup_{\mu \in H} |\mu|(f) < +\infty$ も同様です。さらに、T が局所的にコンパクトである場合、f が連続であることを要求することにより、等価な主張が得られます (cf. Exer. 10)。
 
 #### 命題 11 {#int-ix-s5-prop-11 .statement tag=09RG}
 
-*T を完全に正則な空間とし、H をプロホロフの条件を満たす $\mathscr{M}^b(T)$ の部分集合とします。次に、$\mathscr{M}^b(T)$ の閉包 $\overline{H}$ はプロホロフの条件を満たします。*
+*T を完全に正規の空間とし、H をプロホロフの条件を満たす $\mathscr{M}^b(T)$ の部分集合とします。その後、$\mathscr{M}^b(T)$ の終結 $\overline{H}$ はプロホロフの条件を満たします。*
 
 なぜなら、写像 $\mu \mapsto |\mu|^*(1)$、$\mu \mapsto |\mu|^*(T - K_\varepsilon)$ は、No. 3 の提案 6 により、$\mathscr{M}^b(T)$ で下位半連続です。
 
-プロホロフの条件の興味は次の定理から来ており、その逆は後で研究します (Th. 2)。
+プロホロフの条件の興味は次の定理から来ており、その逆は後で研究されます (Th. 2)。
 
 #### 定理 1 (プロホロフ) {#int-ix-s5-thm-1 .statement tag=09RH}
 
-— *T を完全に正則な空間とし、H をプロホロフの条件を満たす $\mathscr{M}^b(T)$ の部分集合とします。この場合、H は、タイトな位相に対して $\mathscr{M}^b(T)$ で比較的コンパクトになります。*
+— *T を完全に正規の空間とし、H をプロホロフの条件を満たす $\mathscr{M}^b(T)$ の部分集合とします。この場合、H は、タイトな位相に対して $\mathscr{M}^b(T)$ で比較的コンパクトになります。*
 
-T はコンパクト空間 X の部分空間であると仮定できます。私をTの標準単射からXにしましょう。一方、提案 11 により、H が $\mathscr{M}^b(T)$ で *閉じている* と仮定できます。その後、H 上のすべての限外フィルター $\mathfrak{U}$ が $\mathscr{M}^b(T)$ に収束することを示せば十分です。
+T はコンパクト空間 X の部分空間であると仮定できます。 T の標準単射を X にします。一方、提案 11 により、H が $\mathscr{M}^b(T)$ で *閉じている* と仮定できます。その後、H 上のすべての限外フィルター $\mathfrak{U}$ が $\mathscr{M}^b(T)$ に収束することを示せば十分です。
 
-$H \subset \mathscr{M}_+^b(T)$ の場合から始めます。 仮定、$i(\mu)$ によって制限される測度 $\mu \in H$ の総質量は、$\mathscr{M}_+(X)$ の $\mathfrak{U}$ に関して漠然と測度 $\nu \in \mathscr{M}_+(X)$ に収束します (提案 15 の III, §1, No. 9、コリント 2)。 No. 3 の提案 8 により、すべては $\nu$ が T に集中する証明になります。 さて、$\varepsilon$ を数 $> 0$ とし、$K_\varepsilon$ を T 満たす公式の圧縮部分集合とします。 (6)。 $X - K_\varepsilon$ は X でオープンであるため、No. 3 の提案 6 により、X に適用される不等式が得られます。
+$H \subset \mathscr{M}_+^b(T)$ の場合から始めます。 仮定、$i(\mu)$ によって制限される測度 $\mu \in H$ の総質量は、$\mathscr{M}_+(X)$ の $\mathfrak{U}$ に関して漠然と測度 $\nu \in \mathscr{M}_+(X)$ に収束します (提案 15 の第 III, §1, No. 9 項、コリント 2)。 No. 3 の提案 8 により、すべては $\nu$ が T に集中する証明になります。 さて、$\varepsilon$ を数 $> 0$ とし、$K_\varepsilon$ を T 満たすの圧縮部分集合とします。 公式 (6)。 $X - K_\varepsilon$ は X でオープンであるため、No. 3 の提案 6 により X に適用される不等式は次のようになります。
 
 $$
 \nu^*(X - T) \leq \nu^*(X - K_\varepsilon) \leq \liminf_{\mu, \mathfrak{U}} i(\mu)^*(X - K_\varepsilon)
@@ -324,7 +324,7 @@ $$
 a_1(\mu) = \Re(\mu)^+, \quad a_2(\mu) = \Re(\mu)^-, \quad a_3(\mu) = \Im(\mu)^+, \quad a_4(\mu) = \Im(\mu)^-;
 $$
 
-$\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$ から、写像 $a_j$ ($j = 1, 2, 3, 4$) が $\mathfrak{U}$ に関してしっかりと収束することを示せば十分です。しかし、小節 $a_j(\mu)$ の集合 $H_j$ では、$\mu$ が H を超えており、関係 $|a_j(\mu)| \leq |\mu|$ によってプロホロフの条件を満たし、$\mathscr{M}_+^b(T)$ に含まれます。したがって、$\mathscr{M}_+^b(T)$ では特殊な場合により比較的コンパクトになり、すぐに定理が続きます。
+$\mu = a_1(\mu) - a_2(\mu) + ia_3(\mu) - ia_4(\mu)$ なので、写像 $a_j$ ($j = 1, 2, 3, 4$) が $\mathfrak{U}$ に関してしっかりと収束することを示せば十分です。しかし、小節 $a_j(\mu)$ の集合 $H_j$ は、$\mu$ が H を超えており、関係 $|a_j(\mu)| \leq |\mu|$ によってプロホロフの条件を満たし、$\mathscr{M}_+^b(T)$ に含まれます。したがって、$\mathscr{M}_+^b(T)$ では特殊な場合により比較的コンパクトになり、すぐに定理が続きます。
 
 #### 系 {#int-ix-s5-n5-cor-1 .statement tag=09RI}
 
@@ -409,7 +409,7 @@ $$
 
 $M$の$m, m'$用。 $\chi$ と $\chi'$ が指標であれば、$\chi \chi'$ も同様です。 $M$ の指標の集合はモノイドであり、$X$ で示されます。 $X \times X$から$X$へ写像$(\chi, \chi') \mapsto \chi \chi'$が連続するコンパクトコンバージェンスの位相を装備します。 $X$ の中立の元は定数写像 1 です。
 
-For every bounded complex measure $\mu$ on $M$, one calls *Laplace transform* of $\mu$ the function $\mathscr{L}\mu$ on $X$ defined by
+$M$ 上のすべての有界複素測度 $\mu$ について、$\mu$ の *ラプラス変換* を呼び出し、$X$ で定義される関数 $\mathscr{L}\mu$ を呼び出します。
 
 $$
 (\mathscr{L}\mu)(\chi) = \int_M \chi(m)\, d\mu(m).
@@ -423,14 +423,14 @@ ThさんよりGT の 3、$M \times X$ から $\mathbf{C}$ へのX, §3, No. 4、
 
 無限遠で 0 になる傾向がある $M$ の指標の集合は $X_0$ と表されます。この集合は乗法で安定しています。 $X$ の部分モノイド$^{(1)}$ S が写像 $\chi \mapsto \overline{\chi}$ に対して安定しており、$S \cap X_0$ が $M$ (GT、X, §4, No. 1、Def. 1) の点を分離し、そして、いずれかの $m \in M$ が与えられた場合、 $\chi(m) \neq 0$ となる $S \cap X_0$ のうち元 $\chi$ が存在します。
 
-加法において、$M$ が非コンパクトなアーベル *群* であると仮定します。 $f$ を $M$ 上の写像とします。これは無限遠で 0 になる傾向があります。同じことが $M$ の写像 $x \mapsto f(x)f(-x)$ にも当てはまりますが、$M$ のすべての指標 $\chi$ は $\chi(x)\chi(-x) = \chi(0) = 1$ を満たします。 It follows that $X_0$ is empty, and that $X$ does not contain any full submonoid. したがって、以下の定理 3 は、コンパクトではないローカルにコンパクトな群には適用されません。
+加法において、$M$ が非コンパクトなアーベル *群* であると仮定します。 $f$ を $M$ 上の写像とします。これは無限遠で 0 になる傾向があります。同じことが $M$ の写像 $x \mapsto f(x)f(-x)$ にも当てはまりますが、$M$ のすべての指標 $\chi$ は $\chi(x)\chi(-x) = \chi(0) = 1$ を満たします。 したがって、$X_0$ は空であり、$X$ には完全なサブモノイドが含まれていないことがわかります。 したがって、以下の定理 3 は、コンパクトではないローカルにコンパクトな群には適用されません。
 
 #### 定理 3 {#int-ix-s5-thm-3 .statement tag=09RP}
 
 *S を X の完全な部分モノイドとします。*
-a) *$\mu$ と $\mu'$ が $M$ 上の 2 つの有界複素測度である場合、$\mathscr{L}\mu$ と $\mathscr{L}\mu'$ が同じ制限から $S \cap X_0$ を持つようになり、$\mu = \mu'$ になります。*
-b) *$\mathfrak{F}$を$\mathscr{M}_+^b(M)$のフィルターとし、$\mathscr{L}\lambda(s)$が$s \in S$ごとに$\mathfrak{F}$に関して極限$\Phi(s) \in \mathbf{C}$を持つようにします。 次に、フィルター $\mathfrak{F}$ は、境界のある正の尺度 $\mu$ と、すべての $s \in S \cap X_0$ について $\Phi(s) = \mathscr{L}\mu(s)$ に曖昧に収束します。
-c) *b) の仮説の下で、加法で $S \cap X_0$ 含む 1 の閉包が、$S$ 上の写像 $\Phi$ が点 1 で連続していると仮定します。 次に、$\mathfrak{F}$ は $\mu$ にしっかりと収束し、すべての $s \in S$ については $\Phi(s) = \mathscr{L}\mu(s)$ になります。*
+a) *$\mu$ と $\mu'$ が $M$ 上の 2 つの有界複素測度である場合、$\mathscr{L}\mu$ と $\mathscr{L}\mu'$ が同じ制限から $S \cap X_0$ になるように、$\mu = \mu'$ になります。*
+b) *$\mathfrak{F}$を$\mathscr{M}_+^b(M)$のフィルターとし、$\mathscr{L}\lambda(s)$が$s \in S$ごとに$\mathfrak{F}$に関して極限$\Phi(s) \in \mathbf{C}$を持つようにします。次に、フィルター $\mathfrak{F}$ は、境界のある正の測度 $\mu$ とすべての $s \in S \cap X_0$ に対する $\Phi(s) = \mathscr{L}\mu(s)$ に漠然と収束します。
+c) *b) の仮説の下で、加法で$S \cap X_0$ 含む 1 の閉包が$S$ の$\Phi$ 写像が点 1 で連続すると仮定します。すると、$\mathfrak{F}$ は$\mu$ にしっかりと収束します。 $\Phi(s) = \mathscr{L}\mu(s)$ はすべての $s \in S$ に対応します。*
 
 $M$ で無限遠で 0 に向かう連続複素数写像の E 代数と、生成された E の線形部分空間を $\mathfrak{A}$ で表すことにします。
 
@@ -454,11 +454,11 @@ b) *写像 $\lambda \mapsto (\mathscr{L} \lambda)_S$ は、$\mathscr{M}_+^b(M)$ 
 
 c) $L$ 上の点単位収束の *位相およびコンパクト収束の位相一致する。*
 
-The assertions a) and b) are immediate consequences of Th. 3; the assertion c) follows from b) and Prop. 14, since the topology of compact convergence is finer than that of pointwise convergence.
+主張 a) と b) は Th の明らか帰結です。 3;コンパクト収束の位相はポイントワイズ収束のそれよりより細かいであるため、主張 c) は b) と提案 14 から成り立ちます。
 
 点ごとの収束の位相を備えた、S 上のすべての有界複素数写像の集合で L が閉じていないことに注意する必要があります。たとえば、以下の例 2 の記法を仮定します (M = \mathbf{R}_+、S は \mathbf{R}_+ で識別されます)。 $\varepsilon_n$ ($n \in \mathbf{N}$) の小節のラプラス変換は、$\mathbf{R}_+$ では写像 $t \mapsto e^{-nt}$ です。 $n$ は $+\infty$ になる傾向があるため、これらの写像は、$t = 0$ では 1、$t \neq 0$ では 0 に等しい写像に点的に収束しますが、属するから L には収束しません。
 
-*例 1).* — 正の整数の M 集合 N、加法の法則およびディスクリート位相を装備したものとします。 D を、\mathbf{C} によって誘導された位相と乗法によって誘導された法則を備えた \mathbf{C} の単位元ディスク (絶対値値 $\leq 1$ の複素数の集合) とします。 すべての $z \in D$ について、N の $f(z)$ 指標 $n \mapsto z^n$ で表します。 N のすべての指標 $\chi$ を、$g(\chi)$ 複素数 $\chi(1) \in D$ で表します。 $f$ と $g$ が D と X の間の相互逆同型写像であることがすぐに検証され、これから *同一視する* X と D が可能になります。 The set of characters tending to 0 at infinity may then be identified with the set $D_0$ of complex numbers of absolute value < 1. 最後に、 \mathbf{R} の区間 ]0, 1] は D の完全な部分モノイドであり、 1 は​​ $]0, 1[ \cap D_0 = ]0, 1[$ の閉包内にあります。
+*例 1).* — 正の整数の M 集合 N、加法の法則およびディスクリート位相を装備したものとします。 D を、\mathbf{C} によって誘導された位相と乗法によって誘導された法則を備えた \mathbf{C} の単位元ディスク (絶対値値 $\leq 1$ の複素数の集合) とします。 すべての $z \in D$ について、N の $f(z)$ 指標 $n \mapsto z^n$ で表します。 N のすべての指標 $\chi$ を、$g(\chi)$ 複素数 $\chi(1) \in D$ で表します。 $f$ と $g$ が D と X の間の相互逆同型写像であることがすぐに検証され、これから *同一視する* X と D が可能になります。 無限遠で 0 になる傾向がある指標の集合は、絶対値 < 1 の複素数の集合 $D_0$ と識別される可能性があります。 最後に、 \mathbf{R} の区間 ]0, 1] は D の完全な部分モノイドであり、 1 は​​ $]0, 1[ \cap D_0 = ]0, 1[$ の閉包内にあります。
 
 N のすべてのメジャー $\mu$ は、形 $\mu = \sum_{n \in \mathbf{N}} u_n \cdot \varepsilon^n$ で独自の方法で記述することができ、$\mu$ は $\sum_n |u_n| < +\infty$ の場合にのみ制限されます。その場合、$z \in D$ に対して $\mathscr{L}\mu(z) = \sum_{n \in \mathbf{N}} u_n z^n$ が得られます。この写像は D で連続しています。これを加算可能な数列 $(u_n)_{n \in \mathbf{N}}$ の *生成する写像* と呼ぶのが通例です。この言語に転写すると、Th. 3 は次の結果をもたらします (No. 3 の提案 9 を考慮に入れて):
 
@@ -474,11 +474,11 @@ $$
 
 M をモノイド $\mathbf{N}^n$ とすることによって、同様の結果が得られます。ここで、$n$ は整数 > 1 を表します。 空間 X は $D^n$ と識別され、選ぶ $]0, 1[^n$ が完全な部分モノイドとして識別される可能性があります。 Th を書き写す作業は読者に任せます。この場合は 3 です。
 
-例 2）。 — 加法の法則と通常の位相を装備した M 集合 $\mathbf{R}_+$ を考えてみましょう。 P を、C によって誘導された位相と、C の加法によって誘導された法則を備えた、正の実数部分を持つ複素数 z の集合とする。すべての $p \in P$ について、$\mathbf{R}_+$ の $f(p)$ 指標 $x \mapsto e^{-px}$ で表します。 $f$ は、X の位相モノイド P のトポロジカルモノイド構造の同型であることが簡単に検証されます。 $f$ によって P と同一視する X を実行します。 $\mathbf{R}_+$ が P と Th の完全な部分モノイドであることは明らかです。 3 では次の結果が得られます。
+例 2）。 — 加法の法則と通常の位相を装備した M 集合 $\mathbf{R}_+$ を考えてみましょう。 P を、C によって誘導された位相と、C の加法によって誘導された法則を備えた、正の実数部分を持つ複素数 z の集合とする。すべての $p \in P$ について、$\mathbf{R}_+$ の $f(p)$ 指標 $x \mapsto e^{-px}$ で表します。 $f$ が P のトポロジカルモノイド構造の同型を X のモノイド上に重ねたものであることは簡単に検証されます。 $f$ によって P と同一視する X を実行します。 $\mathbf{R}_+$ が P と Th の完全な部分モノイドであることは明らかです。 3 では次の結果が得られます。
 
 #### 命題 16 {#int-ix-s5-prop-16 .statement tag=09RS}
 
-※Aにフィルター$\mathscr{F}$を装備した集合とします。すべての $\alpha \in A$ について、$\mu_\alpha$ を $\mathbf{R}_+$ の有界正の測度とし、$\Phi_\alpha$ を $\mathbf{R}_+$ で $\Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x)$ によって定義された写像とします。 位数において、写像 $\alpha \mapsto \mu_\alpha$ が $\mathscr{F}$ に関して有界正測度 $\mu$ にしっかりと収束することは、$\Phi_\alpha$ が$\mathscr{F}$ に関して$\mathbf{R}_+$ に点的に収束して写像に収束することで必要かつ十分です。 $\Phi$ は点 0 で連続します。この場合、すべての $p \in \mathbf{R}_+$ に対して $\Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x)$ です。*
+※Aにフィルター$\mathscr{F}$を装着した集合とします。すべての $\alpha \in A$ について、$\mu_\alpha$ を $\mathbf{R}_+$ の有界正の測度とし、$\Phi_\alpha$ を $\Phi_\alpha(p) = \int_0^{+\infty} e^{-px} d\mu_\alpha(x)$ によって $\mathbf{R}_+$ に定義された写像とします。 位数では、写像 $\alpha \mapsto \mu_\alpha$ が $\mathscr{F}$ に関して有界正測度 $\mu$ にしっかりと収束しますが、$\Phi_\alpha$ が$\mathscr{F}$ に関して$\mathbf{R}_+$ に点的に収束して写像に収束することが必要かつ十分です。 $\Phi$ は点 0 で連続します。この場合、すべての $p \in \mathbf{R}_+$ に対して $\Phi(p) = \int_0^{+\infty} e^{-px} d\mu(x)$ です。*
 
 加法モノイド $\mathbf{R}_+^n$ ($n$ 整数 $> 1$) についても同様の結果があります。 Th の転写は読者に任せます。この場合は 3 です。
 

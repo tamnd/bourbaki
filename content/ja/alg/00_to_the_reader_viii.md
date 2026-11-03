@@ -13,16 +13,16 @@ pdf_pages: 0005-0008
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: ce18e22808f991314a6663747f5ba3e8167bdaf2fecebbfd77179eb4b709a314
+content_sha256: e4e21a70c741e0bb4c67002c5fb8f8fd5b088ee00e8091c348904c7ec6f6a768
 translated_from: content/en/alg/00_to_the_reader_viii.md
 translation_method: google
 source_content_sha256: 45c519005c823d57f7f33b57a1c790671b15643486bc9d05ac797484615076c1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ea45641e73498d57b798f29e9dff17a511313fba0250a670293ed4c9a894eed4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 読者へ
@@ -67,7 +67,7 @@ Integration (統合) — INT (Int.)
 
 トポロジー代数 — TA
 
-In the first six Books (in the order mentioned above), every statement in the text assumes known only the definitions and results already discussed in the same chapters or in the previous chapters in the following order: Set Theory; アルゴリズム、章 I から III; 将軍 トップ、章 I から III; Alg./A、章 IV から; 将軍 トップ、章 IV から。 FRV; トップ。 ベクト。 特別区; 内部。 7 冊目以降、読者は必要に応じて、各書籍または章の冒頭に、使用された他の書籍または章の正確な表示を見つけることができます (最初の 6 冊は常に既知であると想定されます)。
+最初の 6 冊の本 (上記の順序) では、本文中のすべての記述は、同じ章または前の章で次の順序ですでに説明されている定義と結果のみが既知であると仮定しています。 アルゴリズム、章 I から III; 将軍 トップ、章 I から III; Alg./A、章 IV から; 将軍 トップ、章 IV から。 FRV; トップ。 ベクト。 特別区; 内部。 7 冊目以降、読者は必要に応じて、各書籍または章の冒頭に、使用された他の書籍または章の正確な表示を見つけることができます (最初の 6 冊は常に既知であると想定されます)。
 
 4. ただし、特定の文章は上記のルール集合に従っていません。これらは 2 つのアスタリスク $*$ の間に配置されます。 。 。 。場合によっては、これは次の目的でのみ行われます。
 
@@ -85,7 +85,7 @@ $$
 
 小さなフォント。基本的な定理に関する解説が「スコリウム」という名前で時々登場します。
 
-To avoid tedious repetitions, it is sometimes convenient to introduce notation or abbreviations that are in force only within a specific chapter or section or subsection of a chapter (for example, in a chapter where all rings are commutative, the word “ring” may always refer to a “commutative ring”). このような規則は、適用される章、切断、または小節の冒頭で明示的に記載されています。
+退屈な繰り返しを避けるために、特定の章、セクション、または章のサブセクション内でのみ有効な表記法や略語を導入すると便利な場合があります (たとえば、すべてのリングが可換である章では、「リング」という単語は常に「可換リング」を指します)。 このような規則は、適用される章、切断、または小節の冒頭で明示的に記載されています。
 
 本書の前の章と同様、別の方法で体が可換 〜でない限りであるとは想定されていないことに注意してください。
 
@@ -101,23 +101,23 @@ To avoid tedious repetitions, it is sometimes convenient to introduce notation o
 
 練習問題に関しては、多くの異なる情報源 (元の論文、教科書、練習問題のコレクション) から取得されているため、その出所を示すことは有用ではないと考えています。
 
-12. 新版のこの本の章では、定理、公理、定義、注意などへの言及は、本（No. 3 にリストされている略語を使用）、章、切断、小節、ページを順に示すことによって与えられます。どこで見つけられますか。本書への言及は、本書と同じ場合には省略されます。たとえば、本代数では、
+12. 新版のこの本の章では、定理、公理、定義、注意などへの言及は、この本（No. 3 にリストされている略語を使用）、章、切断、 小節、およびそれらが見つかるページ。本書への言及は、本書と同じ場合には省略されます。たとえば、本代数では、
 
 集合理論、III, § 4, No. 2、p. 167、系 3
 
-refers to Corollary 3 of § 4, No. 2 on page 167 of Chapter III of the Book Set Theory;
+本集合理論の章 III の 167 ページにある系 3 of § 4, No. 2 を指します。
 
 II, § 1, No. 11、p. 215、命題 17
 
 書籍代数の章IIの215ページにある§ 1, No. 11の命題17を指します。
 
-結果の概要は文字 R で示されます。たとえば、トップ。ベクト。 Sp., R は、書籍 Topological ベクトル空間の「結果の要約」を指します。
+結果の概要は文字 R で示されます。 for example, Top.ベクト。 Sp., R は、書籍トポロジカルベクトル空間の「結果の概要」を参照しています。
 
-一部の書籍は後で新版として出版されるため、それらの書籍への参照は、連続して書籍、章、切断、および小節で構成され、問題の結果は次のようになります。
+一部の本は後で新版として出版されるため、それらの本への参照は、連続して本、章、切断、小節で構成されます。ここで、問題の結果は、たとえば次のようになります。
 
-通信アルゴリズム、III, § 4, No. 5、系の命題 6.
+Comm.アルゴリズム、III, § 4, No. 5、系/命題 6.
 
-フランス語版の各巻に言及する場合は、直立大文字の頭字語が使用され、フランス語の用語とタイポグラフィが使用されます。例えば、
+フランス語版の各巻に言及する場合は、直立大文字の頭字語が使用され、フランス語の用語とタイポグラフィが使用されます。 for example,
 
 TA、II, § 2、n$^o4$、p. 158、系デラ命題 1
 

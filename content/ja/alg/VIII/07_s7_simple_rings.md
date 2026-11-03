@@ -30,16 +30,16 @@ subsections:
       pdf_page: 143
 statements: 24
 exercises: 16
-content_sha256: a9efd3594ab3332eac678f09e7cbd3e1db11d9db4e46a88e42b30efa6efa8221
+content_sha256: b9e1632a19bcb018494d9452e24750764b559fc7f706d5c4b12f7af96886b59a
 translated_from: content/en/alg/VIII/07_s7_simple_rings.md
 translation_method: google
 source_content_sha256: 0477da2a1cd441904c225c6cad3222346fc38778e44066ddeda16e447e7b81dd
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9853da46981761e5d22a271aaa563254909ed48947937c8f8a64aacab8cda37a
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。シンプル環
@@ -58,7 +58,7 @@ A を非零環とします。次の条件は同等です。
 
 これらの条件が満たされる場合、A-加群 $A_s$ は有限長を持ち、型 S と同型であり、すべての単純A-加群は S と同型です。
 
-(i) が (ii) を意味することを証明しましょう。 (i) が満たされると仮定します。 すると、有限生成A-加群 $A_s$ は半単純なので、有限長があり、アルティン (VIII, p. 71, 命題 10) になります。従って、環 A は左アルティン的となります。 左A-加群 $A_s$ の自己準同型は、A の元による右側乗法です。 左A-加群 $A_s$ は同型であるため、VIII、p. 86 の命題 6、b) から、$(A$、A)-bimodule $_sA_d$ は単純であることがわかります。 The sub-bimodules of $_sA_d$ are the two-sided ideals of A, so (i) implies (ii).
+(i) が (ii) を意味することを証明しましょう。 (i) が満たされると仮定します。すると、有限生成A-加群 $A_s$ は半単純なので、有限長があり、アルティン (VIII, p. 71, 命題 10) になります。従って、環 A は左アルティン的となります。 自己準同型 of 左A-加群 $A_s$ are the right 乗法 by 元 of A. Since 左A-加群 $A_s$ is isotypical, it follows from 命題 6, b) of VIII, p. 86 that the $(A$、A)-bimodule $_sA_d$ は簡単です。 $_sA_d$ の部分両側加群は A の両面の理想であるため、(i) は (ii) を意味します。
 
 (ii) が (iii) を意味することを証明しましょう。 環 A は 0 に減らされません。その結果、単純A-加群 S が存在します。S の消滅子は、A の適切な両側イデアルです。(ii) が満たされると仮定すると、消滅子は 0 に等しくなります。その場合、A-加群 S は忠実であり、(ii) は (iii) を意味します。
 
@@ -188,13 +188,13 @@ b) M が A-加群として有限長を持っているとします。すると、
 
 (2) ロング$_A(M) =$ ロング(B) とロング$_B(M) =$ ロング(A)。
 
-A-加群 M は、VIII、p. 122 の命題 2 により、生成するになります。 定義までに $B = A'_M$ が得られ、主張 a) は、VIII、p. 82 の定理 2 から続きます。
+A-加群 M は、VIII、p. 122 の命題 2 により生成するになります。 定義までに$B = A'_M$があり、主張 a) 従って、定理 2 of VIII, p. 82 から続きます。
 
 M が有限長の A-加群であるとします。 選ぶ単純A-加群 S、そして D を S の自己準同型環の反対の体とします。 補題 3 により、A-加群 M は形 $S\otimes_DV$ の加群と同型になります。 V は体 D を超える左ベクトル空間です。 ベクトル空間 V は有限次元です。 VIII、p. 64、環の定理 3 により、B は End$_D(V)$ と同型です。従って、補題 2 (VIII, p. 121), 環 B は単純です。 VIII、p. 63 の注意 1 を考慮すると、次の等式が得られます。
 
 ロング(B) = ディム$_D(V) =$ ロング$_A(M)$。
 
-By Remarks 1 of VIII, p. 63 and 3 of VIII, p. 121, we have the relations
+VIII、p. 63 の注 1 と VIII、p. 121 の注 3 により、次の関係が成り立ちます。
 
 ロング$_B(M) =$ ロング$_{End_D(V)}(S\otimes_DV) =$ ディム$_D(S) =$ ロング(A)、
 
@@ -216,7 +216,7 @@ Bを環、AをBの単純な部分環とします。自由左A-加群Bの次元�
 
 置き換えること A と B と反対環により、上記から B は自由な右A-加群であると推定されます。その次元を $[B : A]_d$ で表し、A 上の B の右側次数と呼びます。
 
-We can give an example of a field B and a subfield A such that the degrees $[B : A]_s$ and $[B : A]_d$ differ.[^2]
+次数 $[B : A]_s$ と $[B : A]_d$ が異なるフィールド B とサブフィールド A の例を示します。[^2]
 
 Bを環、AをBの単純な部分環、Sを単純な左A-加群とします。 M を左A-加群とし、$\mathfrak{a}$ を長さとします。 A-加群 M と $S^{(\mathfrak{a})}$ は同型 (VIII、p. 122、命題 2) であるため、B-加群 $B\otimes_AM$ と $(B\otimes_AS)^{(\mathfrak{a})}$ も同様です。 関係
 
@@ -274,9 +274,9 @@ $$
 \mathfrak{a}(H_i) = A\varepsilon_i,\mathfrak{b}(L_i) =\varepsilon_iA
 $$
 
-The A-module $A_s$ is the direct sum of the family $(\mathfrak{a}(H_i))_{i\in I}$ of minimal left ideals, and $A_d$ is the direct sum of the family $(\mathfrak{b}(L_i))_{i\in I}$ of minimal right ideals.
+A-加群 $A_s$ は最小限の左翼理想の家族 $(\mathfrak{a}(H_i))_{i\in I}$ の直和であり、$A_d$ は最小限の右の理想の家族 $(\mathfrak{b}(L_i))_{i\in I}$ の直和です。
 
-特定のケース $V = D^n_d$ と同一視する A と行列環 $\mathbf{M}_n(D)$ を考えてみましょう。 Denote the interval $[1, n]$ in $\mathbf{N}$ by I and the canonical basis of V by $(v_i)_{i\in I}$; set $L_i=v_iD$, and denote by $E_{ij}$ the matrix units (II, §10, No. 3, p. 341). すると$\varepsilon_i= E_{ii}$になります。 左の理想 AE$_{ii}$ は DE$_{1i}+\cdots +$ DE$_{ni}$ に等しく、行列と零に等しい $i$ 番目を除くすべての列で構成されます。 右イデアル $E_{ii}A$ は DE$_{i1}+\cdots +$ DE$_{in}$ に等しく、行列で構成され、$i$ 番目を除くすべての行が零に等しい。 関係もあります
+特定のケース $V = D^n_d$ と同一視する A と行列環 $\mathbf{M}_n(D)$ を考えてみましょう。 $\mathbf{N}$ の区間 $[1, n]$ を I で表し、V の正規基底を $(v_i)_{i\in I}$ で表します。 $L_i=v_iD$ を設定し、$E_{ij}$ で行列単位 (II, §10, No. 3、p. 341) を示します。 すると$\varepsilon_i= E_{ii}$になります。 左の理想 AE$_{ii}$ は DE$_{1i}+\cdots +$ DE$_{ni}$ に等しく、行列と零に等しい $i$ 番目を除くすべての列で構成されます。 右イデアル $E_{ii}A$ は DE$_{i1}+\cdots +$ DE$_{in}$ に等しく、行列で構成され、$i$ 番目を除くすべての行が零に等しい。 関係もあります
 
 $$
 E_{ii}A E_{jj}= E_{ii}A\cap A E_{jj}= D E_{ij}

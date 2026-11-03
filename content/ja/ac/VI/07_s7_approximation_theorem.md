@@ -25,16 +25,16 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 3139a521d9022af3ff301a5fa2c85b582dea641690945180cb1d31b739af954f
+content_sha256: 41797d7006fb4cd020a58812aa3ebb2f0c7c6b7bb7396e29866a64f677330497
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
 translation_method: google
 source_content_sha256: b2cb895d1415aea075090da4a69834fe352e4f0135aedb112aadd7070f320371
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6e11eaf2647d4c5074693cce729e529be710d5190b4b0a6c67a18d5fe8ce6a39
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 7. 近似値定理
@@ -151,7 +151,7 @@ $$
 
 $v$ と $v'$ で定義されたトポロジ $\mathscr{T}_v$ と $\mathscr{T}_{v'}$ が同一であると仮定します。 $\mathscr{T}_v$ はハウスドルフであるため、$K^2$ の対角は閉じており、したがって $v$ と $v'$ は従属関係にあります (系 2 から定理 1)。
 
-逆に、$v$ と $v'$ が依存しているとします。 Then their rings $A$ and $A'$ are contained in the same ring $A''$ distinct from $K$ and $A''$ is the ring of a valuation $v''$ ($§ 4$, no. 1, Proposition 1). 位相 $\mathscr{T}_{v''}$ が $\mathscr{T}_v$ と同一であることを示すだけで十分です。 $\Gamma$ と $\Gamma''$ を $v$ と $v''$ の位数群とします。 $\Gamma''$ 上に $\Gamma$ の増加する準同型 $\lambda$ が存在し、$v'' = A \circ v$ ($§ 4$, no. 3) になります。 $a'' \in I?''$ の場合は $a \in \lambda^{-1}(a'')$ にします。 条件 $v(x) \geq \alpha$ は $v''(x) \geq a''$ を意味します。 $\beta \in \Gamma$ と $\beta'' = \lambda(\beta)$ としましょう。 条件 $v(x) \leq \beta$ は $v''(x) \leq \beta''$ を意味し、したがって条件 $v''(x) > \beta''$ は $v(x) > \beta$ を意味します。 $v$ と $v''$ は不正ではないので、問題の不等式定義するは、$\mathscr{T}_v$ と $\mathscr{T}_{v''}$ の 0 の近傍の基本的な系です。 したがって、$\mathscr{T}_v = \mathscr{T}_{v''}$ となり、証明が完成します。
+逆に、$v$ と $v'$ が依存しているとします。 すると、それらの環 $A$ と $A'$ は、$K$ とは異なる同じ環 $A''$ に含まれ、$A''$ は評価 $v''$ ($§ 4$、no. 1、命題 1) の環になります。 位相 $\mathscr{T}_{v''}$ が $\mathscr{T}_v$ と同一であることを示すだけで十分です。 $\Gamma$ と $\Gamma''$ を $v$ と $v''$ の位数群とします。 $\Gamma''$ 上に $\Gamma$ の増加する準同型 $\lambda$ が存在し、$v'' = A \circ v$ ($§ 4$, no. 3) になります。 $a'' \in I?''$ の場合は $a \in \lambda^{-1}(a'')$ にします。 条件 $v(x) \geq \alpha$ は $v''(x) \geq a''$ を意味します。 $\beta \in \Gamma$ と $\beta'' = \lambda(\beta)$ としましょう。 条件 $v(x) \leq \beta$ は $v''(x) \leq \beta''$ を意味し、したがって条件 $v''(x) > \beta''$ は $v(x) > \beta$ を意味します。 $v$ と $v''$ は不正ではないので、問題の不等式定義するは、$\mathscr{T}_v$ と $\mathscr{T}_{v''}$ の 0 の近傍の基本的な系です。 したがって、$\mathscr{T}_v = \mathscr{T}_{v''}$ となり、証明が完成します。
 
 注意
 (1) 命題 3 は、関係 「$v$ と $v'$ が依存している」が同値関係であることを示しています。

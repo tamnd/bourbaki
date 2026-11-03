@@ -49,16 +49,16 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: f8b87c88510a1f40d4381858c6a91290054c84fd9c6d647768a3b458b02a7b59
+content_sha256: 6d51791e08cabf9171d5490d3e34f8847b83e7dc2be6cb6883dcf0c9372aa5d2
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
 translation_method: google
 source_content_sha256: 0efee89afffa5507d5ac319dd9602df1317a1ebd3ab29f31c8942d8c7c2a2199
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0a5518f604f46e1d40c61bdaf18822391943bfbbc020c54b6d6508cb906cc807
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 代数/リー代数を包む
@@ -71,7 +71,7 @@ $$
 $$
 (in other words a homomorphism of $g$ into the Lie algebra associated with $L$).
 
-If $L'$ is another associative algebra with unit element over $K$ and $\tau$ a homomorphism of $L$ into $L'$ mapping 1 to 1, then $\tau \circ \sigma$ is an $\alpha$-mapping of $g$ into $L'$. 単位元との結合代数と、普遍的な (集合理論、章 IV, § 3, no. 1) のこの代数への $g$ の $\alpha$ マッピングを探します。
+$L'$ が、$K$ と $\tau$ 上の単位要素を持つ別の結合代数であり、$L$ から 1 対 1 への写像である $L'$ への準同型写像である場合、$\tau \circ \sigma$ は $g$ から $L'$ への $\alpha$ 写像です。 単位元との結合代数と、普遍的な (集合理論、章 IV, § 3, no. 1) のこの代数への $g$ の $\alpha$ マッピングを探します。
 
 #### 定義 1 {#lie-i-s2-def-1 .statement tag=09UW}
 
@@ -91,7 +91,7 @@ $U$で。他の語では、$\sigma_0$ は $g$ から $U$ への $\alpha$ マッ�
 
 #### 命題 1 {#lie-i-s2-prop-1 .statement tag=09UX}
 
-*$\sigma$ を、単位元との結合代数 $L$ への $g$ の $\alpha$ マッピングとします。 There exists one and only one homomorphism $\tau$ of $U$ into $L$, mapping 1 to 1, such that $\sigma = \tau \circ \sigma_0$, where $\sigma_0$ denotes the canonical mapping of $g$ into $U$.*
+*$\sigma$ を、単位元との結合代数 $L$ への $g$ の $\alpha$ マッピングとします。 $U$ から $L$ への 1 対 1 のマッピング、$\sigma = \tau \circ \sigma_0$ のような準同型性 $\tau$ が 1 つだけ存在します。ここで、$\sigma_0$ は $g$ から $U$ への正規マッピングを示します。
 
 $\tau'$ を $T$ の一意な準同型を $L$ にすると、拡大する $\sigma$ と写像が 1 対 1 になります。次に、$g$ の $x, y$ については、
 
@@ -99,9 +99,9 @@ $$
 \tau'(x \otimes y - y \otimes x - [x, y]) = \sigma(x)\sigma(y) - \sigma(y)\sigma(x) - \sigma([x, x]) = 0;
 $$
 
-hence $\tau'$ is zero on $J$ and defines on passing to the quotient a homomorphism $\tau$ of $U$ into $L$, mapping 1 to 1, such that $\sigma = \tau \circ \sigma_0$. $\tau$ の一意性は、$\sigma_0(g)$ と 1 生成する代数 $U$ なので、明らかです。
+したがって、$\tau'$は$J$ではゼロであり、$U$の準同型性$\tau$を$L$に渡すことを定義し、$\sigma = \tau \circ \sigma_0$のように1対1にマッピングします。 $\tau$ の一意性は、$\sigma_0(g)$ と 1 生成する代数 $U$ なので、明らかです。
 
-Let $g'$ be another Lie algebra over $K$, $U'$ its enveloping algebra and $\sigma'_0$ the canonical mapping of $g'$ into $U'$. $\phi$を$g$の準同型を$g'$にします。 次に、$\sigma'_0 \circ \phi$ は、$g$ から $U'$ への $\alpha$ マッピングです。したがって、$U$ の準同型 $\tilde{\phi}$ が $U'$ 写像 1 対 1 になり、図式が 1 つだけ存在します。
+$g'$ を、$K$ 上の別のリー代数、$U'$ を包囲する代数、および $g'$ から $U'$ への正準写像を $\sigma'_0$ とします。 $\phi$を$g$の準同型を$g'$にします。 次に、$\sigma'_0 \circ \phi$ は、$g$ から $U'$ への $\alpha$ マッピングです。したがって、$U$ の準同型 $\tilde{\phi}$ が $U'$ 写像 1 対 1 になり、図式が 1 つだけ存在します。
 
 $$
 \begin{array}{ccc}
@@ -135,11 +135,11 @@ $$
 (x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2).
 $$
 
-Analogously, if $g_1, \ldots, g_n$ are Lie algebras over $K$ with enveloping algebras $U_1, \ldots, U_n$, the enveloping algebra $U$ of $g_1 \times \cdots \times g_n$ is canonically identified with $U_1 \otimes_K \cdots \otimes_K U_n$ and the canonical mapping of $g_1 \times \cdots \times g_n$ into $U$ is identified with the mapping:
+同様に、$g_1, \ldots, g_n$ が包絡代数 $U_1, \ldots, U_n$ をもつ $K$ 上のリー代数である場合、$g_1 \times \cdots \times g_n$ の包絡代数 $U$ は $U_1 \otimes_K \cdots \otimes_K U_n$ と正準的に識別され、$g_1 \times \cdots \times g_n$ から $U$ への正準写像が識別されます。マッピングを使用すると:
 $$
 (x_1, \ldots, x_n) \mapsto \sigma_1(x_1) \otimes 1 \otimes \cdots \otimes 1 + \cdots + 1 \otimes \cdots \otimes 1 \otimes \sigma_n(x_n)
 $$
-($\sigma_i$ denoting the canonical mapping of $g_i$ into $U_i$).
+($\sigma_i$は、$g_i$から$U_i$への正規マッピングを示します)。
 
 ### 3. 代数の嘘部分代数を包み込む
 
@@ -194,9 +194,9 @@ U/R & \xrightarrow{\phi} & W
 \end{array}
 $$
 
-$\tilde{p} = \phi \circ \psi$ となる W に変換します。 The mapping $\psi \circ \sigma$ of g into U/R is an $\alpha$-mapping and is zero on $\mathfrak{h}$ and hence defines an $\alpha$-mapping $\theta$ of $g/\mathfrak{h}$ into U/R such that $\theta \circ p = \psi \circ \sigma$. 次に$\phi \circ \theta \circ p = \phi \circ \psi \circ \sigma = \sigma'' \circ p$。 したがって、$\phi \circ \theta = \sigma''$です。 U/R 写像 1 対 1 に W の準同型 $\phi'$ が 1 つだけ存在し (no. 1、命題 1)、そのような $\theta = \phi' \circ \sigma''$ が存在します。 すると$\phi' \circ \phi \circ \theta = \phi' \circ \sigma'' = \theta$と$\phi \circ \phi' \circ \sigma'' = \phi \circ \theta = \sigma''$、したがって$\phi' \circ \phi$と$\phi \circ \phi'$はそれぞれU/RとWの恒等写像になります。 これで証明は完了です。
+$\tilde{p} = \phi \circ \psi$ となる W に変換します。 g の U/R への写像 $\psi \circ \sigma$ は $\alpha$ マッピングであり、$\mathfrak{h}$ 上の零であるため、定義するは $\theta \circ p = \psi \circ \sigma$ となるような U/R への $g/\mathfrak{h}$ の $\theta$ $\alpha$ マッピングになります。次に$\phi \circ \theta \circ p = \phi \circ \psi \circ \sigma = \sigma'' \circ p$。したがって$\phi \circ \theta = \sigma''$です。 U/R 写像 1 対 1 に W の準同型 $\phi'$ が 1 つだけ (no. 1, 命題 1) 存在し、そのような $\theta = \phi' \circ \sigma''$ が存在します。すると$\phi' \circ \phi \circ \theta = \phi' \circ \sigma'' = \theta$と$\phi \circ \phi' \circ \sigma'' = \phi \circ \theta = \sigma''$、したがって$\phi' \circ \phi$と$\phi \circ \phi'$はそれぞれU/RとWの恒等写像になります。これで証明は完了です。
 
-U/R は、同型 $\phi$ の下で W と識別されます。 Then the canonical mapping $\sigma''$ of $g/\mathfrak{h}$ into W is identified with $\theta$, that is with the mapping of $g/\mathfrak{h}$ into U/R derived from $\sigma$ by taking quotients.
+U/R は、同型 $\phi$ の下で W と識別されます。 次に、$g/\mathfrak{h}$ の W への正規写像 $\sigma''$ は $\theta$ で識別されます。つまり、商を取ることによって $\sigma$ から導出される U/R への $g/\mathfrak{h}$ の写像と識別されます。
 
 ### 4. 反対側のリー代数を代数を包み込む
 
@@ -460,7 +460,7 @@ $$
 x_{\alpha_1} \ldots x_{\alpha_p} y_{\beta_1} \ldots y_{\beta_q}
 $$
 
-$U$ の形基底も同様に $U$ ($\alpha_1 \leq \cdots \leq \alpha_p \leq \beta_1 \leq \cdots \leq \beta_q$ のところ) で計算されます。 Hence the canonical homomorphism of $U'$ into $U$ maps the elements of a basis of $U'$ to linearly independent elements of $U$ and is therefore injective. さらに、$U$ の$y_{\beta_1} \ldots y_{\beta_q}$ ($\beta_1 \leq \cdots \leq \beta_q$) 形基底が左$U'$ モジュールと見なされていることがわかります。 $M$ のすべての元が $L$ のすべての元よりも小さくなるように $L \cup M$ を順序付けると、同様に、$U$ の $y_{\beta_1} \ldots y_{\beta_q}$ ($\beta_1 \leq \cdots \leq \beta_q$) 形基底が権利とみなされます。 $U'$-モジュール。
+$U$ の形基底も同様に $U$ ($\alpha_1 \leq \cdots \leq \alpha_p \leq \beta_1 \leq \cdots \leq \beta_q$ のところ) で計算されます。 したがって、$U'$ の $U$ への正準準同型性は、$U'$ の基底の要素を $U$ の線形独立要素にマッピングするため、単射的です。 さらに、$U$ の$y_{\beta_1} \ldots y_{\beta_q}$ ($\beta_1 \leq \cdots \leq \beta_q$) 形基底が左$U'$ モジュールと見なされていることがわかります。 $M$ のすべての元が $L$ のすべての元よりも小さくなるように $L \cup M$ を順序付けると、同様に、$U$ の $y_{\beta_1} \ldots y_{\beta_q}$ ($\beta_1 \leq \cdots \leq \beta_q$) 形基底が権利とみなされます。 $U'$-モジュール。
 
 系 5 の条件では、$U'$ は、$h$ によって $U'$ の標準準同型によって $U$ に生成された $U$ の部分代数と識別されます。
 
@@ -522,7 +522,7 @@ $$
 
 (d) *$D$ が $g$ の元 $x$ によって定義される $g$ の内部導分である場合、$D_U$ は $\sigma(x)$ によって定義される $U$ の内部導分です。
 
-Let $D_T$ be the derivation of the tensor algebra $T$ of $g$ which extends $D$ (Lemma 4). によって生成される$T$の両面の理想$J$
+$D_T$ を、$D$ を拡張する $g$ のテンソル代数 $T$ の導出とします (補題 4)。 によって生成される$T$の両面の理想$J$
 
 $$
 x \otimes y - y \otimes x - [x, y]
@@ -565,7 +565,7 @@ $$
 
 適用命題 7 を可換リー代数の場合に当てはめると、$K$ モジュールのすべての自己準同型 $u$ は、この加群の対称代数の導分に一意に拡張できることがわかります。この導分はテンソル代数の導分から移行から商に拡大する$u$が導出されます。
 
-再び $K$ にリー代数 $g$ を加え、$D$ を $g$ の導分とします。 以前の記法 $T, S, U, G$ を使用します。 $D_T, D_S$ を拡大する $D$ である $T, S$ の導分とし、$D_U$ を $\sigma \circ D = D_U \circ \sigma$ となる$U$ の一意の導分とします。 $D_U$ は $U_n$ 安定を離れるので、$G$ の商導分 $D_G$ を取って $D_U$ 定義するになります。 移行から商のとき、$D_T$ から $D_U$ と $D_S$ が導出されることから、可換図式 (3) は、no. 6 で定義された準同型 $\omega$ によって $D_S$ から $D_G$ も導出できることを証明します。 さらに$K$が特性0の体であれば、図式の同型 (4) 写像が$D_T, D_S, D_U, D_G$～${S'}^n, S^n, U^n, G^n$の他の制限に1となります。 Hence the canonical isomorphism of $S$ onto $U$ maps $D_S$ to $D_U$.
+再び $K$ にリー代数 $g$ を加え、$D$ を $g$ の導分とします。 以前の記法 $T, S, U, G$ を使用します。 $D_T, D_S$ を拡大する $D$ である $T, S$ の導分とし、$D_U$ を $\sigma \circ D = D_U \circ \sigma$ となる$U$ の一意の導分とします。 $D_U$ は $U_n$ 安定を離れるので、$G$ の商導分 $D_G$ を取って $D_U$ 定義するになります。 移行から商のとき、$D_T$ から $D_U$ と $D_S$ が導出されることから、可換図式 (3) は、no. 6 で定義された準同型 $\omega$ によって $D_S$ から $D_G$ も導出できることを証明します。 さらに$K$が特性0の体であれば、図式の同型 (4) 写像が$D_T, D_S, D_U, D_G$～${S'}^n, S^n, U^n, G^n$の他の制限に1となります。 したがって、$S$ の標準同型は $U$ 写像 $D_S$ から $D_U$ になります。
 
 ### 9. 拡大/基底環
 

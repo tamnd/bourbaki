@@ -29,33 +29,33 @@ subsections:
       pdf_page: 285
 statements: 24
 exercises: 19
-content_sha256: f6e29e693022da7e5f5cd978d5904a6d2102d30b512ff0827a5c93546a26b86a
+content_sha256: 00ad996272b682652b0a3f3767c73ca74bd287d101fa762b974c4ec0bfd062e1
 translated_from: content/en/ac/IV/01_s1_prime_ideals_associated_with_a_module.md
 translation_method: google
 source_content_sha256: 41bc8b6bc73ee003f10c2b0789585e99cc74ba8b5cfcd5f713cf440dd2d53406
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1e5dff038de7a4fc8633b7dcb22a579561b99dca5cdc311379506cbc491fe568
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
-## 1. 加群に関連する主な理想
+## 1. 加群に関連する主要な理想
 
 ### 1. 関連する主な理想の定義
 
 #### 定義 1 {#ac-iv-s1-def-1 .statement tag=04J7}
 
-M を環 A よりも加群とします。 p が消滅子 & x に等しい x ∈ M が存在する場合、素イデアル p は M に関連付けられていると言われます。 M に関連付けられた素イデアルの集合は、Ass_A(M) または単に Ass(M) で表されます。
+M が環 A よりも加群であるとします。p が消滅子 & x に等しいような x ∈ M が存在する場合、素イデアル p は M に関連付けられていると言われます。 M に関連付けられた素イデアルの集合は、Ass_A(M) または単に Ass(M) で表されます。
 
-\* 例。 Let a be an ideal in the polynomial ring A = \mathbf{C}[X_1, ..., X_n], V the corresponding affine algebraic variety and V_1, ..., V_p the irreducible components of V. If M is taken to be the ring A/a of functions which are regular on V, the set of prime ideals associated with M consists of the ideals of V_1, ..., V_p and in general other prime ideals each of which contains one of the ideals of the V_i. \*
+\* 例。 a を多項式環 A = \mathbf{C}[X_1, ..., X_n], V 対応するアフィン代数多様体および V_1, ..., V_p の既約成分の V のイデアルとする。 M が V で規則的である写像の環 A/a であるとすると、M に関連付けられた素イデアルの集合は、V_1、...、V_p のイデアル、および一般に、それぞれ含む V_i のイデアルの 1 つである他の素イデアルで構成されます。 \*
 
 0 の消滅子が A であるため、消滅子が素イデアである元 x ∈ M は必然的に ≠ 0 になります。素イデア p が M に関連付けられていると言うことは、
 
-(*) この章の結果は、章I, § 4と章III, § 5を除く、本書IからVIと章IからIIIのみに依存します。
+(*) この章の結果は、章 I, § 4 と章 III, § 5 を除く、本書のI ～ VI と章 I ～ III にのみ依存します。
 
-amounts to saying that $M$ contains a submodule *isomorphic to* $A/p$ (namely $Ax$, for all $x \in M$ whose annihilator is $p$).
+というは、$M$ 含む部分加群 $A/p$ と *同型* (つまり、消滅子が $p$ であるすべての $x \in M$ に対して $Ax$) になります。
 
 $A$ モジュール $M$ が部分加群のファミリー $(M_i)_{i \in I}$ の和集合である場合、明らかに
 $$
@@ -64,21 +64,21 @@ $$
 
 #### 命題 1 {#ac-iv-s1-prop-1 .statement tag=04J8}
 
-*環 $A$ のすべての素数イデアル $p$ と、$A/p$、$\operatorname{Ass}(M) = \{p\}$ のすべての部分加群 $M \neq 0$ に対して。
+*環 $A$ のすべての素数イデアル $p$ と、$A/p$、$\operatorname{Ass}(M) = \{p\}$ のすべての部分加群 $M \neq 0$ に対して。*
 
-As the ring $A/p$ is an integral domain, the annihilator of an element $\neq 0$ of $A/p$ is $p$.
+環 $A/p$ は整域であるため、 元の消滅子は $A/p$ の $\neq 0$ は $p$ です。
 
 #### 命題 2 {#ac-iv-s1-prop-2 .statement tag=04J9}
 
-*$M$を環$A$の上に加群とします。 集合の各極大元 、$\operatorname{Ann}(x)$ $A$ のうち、$x$ は、元の集合 $M$ の $\neq 0$、属するから$\operatorname{Ass}(M)$ まで続きます。*
+※$M$を環$A$の上に加群とします。理想の集合の極大元、$A$の$\operatorname{Ann}(x)$、$x$は、元の集合、$M$の$\neq 0$、属するを通過し、 $\operatorname{Ass}(M)$.*
 
 $a = \operatorname{Ann}(x)$ ($x \in M, x \neq 0$) をそのような極大元とします。 $a$ が素数であることを示すだけで十分です。 $x \neq 0$、$a \neq A$として。 $b, c$ を $A$ の元とし、$bc \in a$ と $c \notin a$ とします。続いて$cx \neq 0$、$b \in \operatorname{Ann}(cx)$、$a \subset \operatorname{Ann}(cx)$。 $a$ が最大なので、$\operatorname{Ann}(cx) = a$、よって $b \in a$ なので、$a$ が素数になります。
 
 #### 系 1 {#ac-iv-s1-prop-2-cor-1 .statement tag=04JA}
 
-*$M$をネーター環$A$の上に加群とします。したがって、条件 $M \neq \{0\}$ は $\operatorname{Ass}(M) \neq \varnothing$ と同等です。*
+*$M$をネーター環$A$より加群とします。したがって、条件 $M \neq \{0\}$ は $\operatorname{Ass}(M) \neq \varnothing$ と同等です。*
 
-$M = \{0\}$ の場合、明らかに $\operatorname{Ass}(M)$ は空です ($A$ には仮定がありません)。 $M \neq \{0\}$ の場合、形 $\operatorname{Ann}(x)$ の理想のうち集合 ($x \in M$ と $x \neq 0$) は空ではなく、$\# A$ の理想で構成されます。 $A$ はネーター であるため、この集合には極大元が含まれます。その場合は命題を適用する 2 で十分です。
+$M = \{0\}$ の場合、明らかに $\operatorname{Ass}(M)$ は空です ($A$ には仮定がありません)。 $M \neq \{0\}$ の場合、形 $\operatorname{Ann}(x)$ の理想のうち集合 ($x \in M$ と $x \neq 0$) は空ではなく、理想 $\# A$ で構成されます。 $A$ はネーター であるため、この集合には極大元があります。その場合は命題を適用する 2 で十分です。
 
 #### 系 2 {#ac-iv-s1-prop-2-cor-2 .statement tag=04JB}
 
@@ -88,7 +88,7 @@ $M = \{0\}$ の場合、明らかに $\operatorname{Ass}(M)$ は空です ($A$ �
 
 #### 系 3 {#ac-iv-s1-prop-2-cor-3 .statement tag=04JC}
 
-*The set of divisors of zero in a Noetherian ring $A$ is the union of the ideals $p \in \operatorname{Ass}(A)$.*
+*ネーター環 $A$ のゼロの約数の集合は、イデアル $p \in \operatorname{Ass}(A)$ の和集合です。*
 
 #### 命題 3 {#ac-iv-s1-prop-3 .statement tag=04JD}
 
@@ -215,7 +215,7 @@ no. 3 の系 1 から命題 7 は、Ass(M) と Supp(M) が同じ最小値元を�
 
 #### 系 {#ac-iv-s1-n4-cor-1 .statement tag=04JP}
 
-*If M is a finitely generated module over a Noetherian ring A, Ass(M) is finite.*
+*M がネーター環 A 上で有限生成されたモジュールである場合、Ass(M) は有限です。*
 
 定理 2 の条件では、集合 $\{p_0, \ldots, p_{n-1}\}$ は必ずしも M によって一意に決定されるわけではありません。特に、Ass(M) (練習問題 6) とは異なる場合があります。
 

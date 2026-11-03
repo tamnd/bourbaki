@@ -55,16 +55,16 @@ errata:
     - says: representing $\varphi$ and $\varphi \circ w$ have the same determinant and this follows from the relation $\det w = 1$
       read: representing $\varphi$ and $\varphi \circ \omega$ have the same determinant and this follows from the relation $\det \omega = 1$
       why: The last two occurrences of the same automorphism on page 86, both roman.
-content_sha256: cd8476018692047dc0105f2479f5b3a01a1c7b26912e17347e9cceb0cc570974
+content_sha256: b47364923596bb020d17893dcdd5c1fa545ebd9d7fe90e814c36a8cb1d9f249d
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
 translation_method: google
 source_content_sha256: b6c3b59be706d899df8c14677f2a1f585996a74c952028c811d04e381a1ed6be
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5f6385cd6972839e9e0a01f1614199ef2f73d5687670508114032db09ca085ef
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。対称写像
@@ -174,8 +174,8 @@ $$
 (-1)^{n+1}s_n = X_n^n + \sum_{k=1}^{n-1} (-1)^{n-k} s_{n-k} X_n^k ;
 $$
 
-他の語、$(-1)^{n+1}s_n$ は、$X$、次数 $n$、および $C$ の係数のモニック多項式です。 By IV, p. 11 we thus have the following property :
-(E) The C-algebra homomorphism $\varphi$ of $C[T]$ into $C[X_n] = S'$ which maps T to $s_n$ is injective, and $S'$ is a free module over the image of $\varphi$, with basis $(1, X_n, ..., X_n^{n-1})$.
+他の語、$(-1)^{n+1}s_n$ は、$X$、次数 $n$、および $C$ の係数のモニック多項式です。 したがって、IV, p. 11 までに、次のプロパティが得られます。
+(E) T を $s_n$ に写像する $C[T]$ の $C[X_n] = S'$ への C-代数準同型性 $\varphi$ は単射的であり、$S'$ は基底 $(1, X_n, ..., X_n^{n-1})$ を持つ $\varphi$ のイメージ上の自由加群です。
 
 $C$ の元 $s_1, ..., s_{n-1}$ は、A に対して (D) により代数的に独立しています。したがって、$\varphi$ の単射性は、$s_1, ..., s_{n-1}, s_n$ が A、よって b) に対して代数的に独立であることを意味します。
 
@@ -284,7 +284,7 @@ $k < j \leq n$、よって主張の $\alpha(j) = 0$ を暗示します。
 $$
 \sum_{i=1}^n X_i^3 = s_{1,n}^3 - 3s_{1,n}s_{2,n} + 3s_{3,n}
 $$
-整数 $n \geq 3$ ごとに。 The commutativity of the diagram (10) moreover gives the formulae
+整数 $n \geq 3$ごとに。 図式の可換性 (10) はさらに次の式を与えます。
 $$
 X_1^3 + X_2^3 = s_{1,2}^3 - 3s_{1,2}s_{2,2},
 $$
@@ -358,7 +358,7 @@ Let $f \in K(X_1, \ldots, X_n)$ be a symmetric rational fraction, and let $u_1, 
 
 ### 3. 対称フォーマル冪系列
 
-Let $I$ be a set, $X = (X_i)_{i \in I}$ a family of indeterminates and $A[[X]]$ the algebra of formal power series in the $X_i$. For every permutation $a \in S_I$ there exists a unique continuous automorphism $\varphi_a$ of the algebra $A[[X]]$ which maps $X_i$ to $X_{a(i)}$ for each $i \in I$ (IV, p. 28, Prop. 4); it is clear that $\sigma \mapsto \varphi_\sigma$ is a homomorphism of $S_I$ into the group of continuous automorphisms of the algebra $A[[X]]$. $f \in A[[X]]$ を正式な冪系列とします。 $af = \varphi_a(f)$ を置くと、形式的な冪系列 $f$ は、各 $\sigma \in S_I$ について $\sigma f = f$ であれば対称であると言えます。 The symmetric formal power series form a closed subalgebra of $A[[X]]$ which is denoted by $A[[X]]^{\text{sym}}$ and is equipped with the topology induced by that of $A[[X]]$.
+$I$ を集合、$X = (X_i)_{i \in I}$ を不定数の族、$X_i$ の正式な冪系列の $A[[X]]$ 代数とします。 すべての順列 $a \in S_I$ に対して、代数 $A[[X]]$ の固有の連続自己同型 $\varphi_a$ が存在し、各 $i \in I$ に対して $X_i$ を $X_{a(i)}$ にマッピングします (IV、p. 28、提案 4)。 $\sigma \mapsto \varphi_\sigma$ が、代数 $A[[X]]$ の連続自己同型群への $S_I$ の準同型であることは明らかです。 $f \in A[[X]]$ を正式な冪系列とします。 $af = \varphi_a(f)$ を置くと、形式的な冪系列 $f$ は、各 $\sigma \in S_I$ について $\sigma f = f$ であれば対称であると言えます。 対称形式べき級数は、$A[[X]]^{\text{sym}}$ で示される$A[[X]]$ の閉部分代数を形成し、$A[[X]]$ のトポロジーによって誘導されるトポロジーを備えています。
 
 T を不定数とします。形式的な冪系列 $A[[X, T]]$ の環では、族 $(X_i T)_{i \in I}$ は加算可能であるため、族 $(1 + X_i T)_{i \in I}$ は乗算可能です (IV, p. 27、提案 2)。さらに、私たちは持っています
 
@@ -374,7 +374,7 @@ $$
 
 (すべての k 要素の $\mathscr{P}_k$ 集合、I の部分集合で表します)。特に$s_1 = \sum_{i \in I} X_i$があります。 I が $n$ 元で有限である場合、$k > n$ に対して $s_k = 0$ が得られます。より正確には、$I = \{1, \ldots, n\}$ のとき、形式的な冪系列 $s_k$ は、$X_1, \ldots, X_n$ の次数 k の初等対称多項式に他なりません。
 
-$S = (S_k)_{k \geq 1}$ を不定数の数列とします。 Since the formal power series $s_k$ is of order $\geq k$, and belongs to $A[[X]]^{\text{sym}}$, conditions a) and b) of Prop. 4 of IV, p. 28 are satisfied with $E = A[[X]]^{\text{sym}}$; there exists thus a unique continuous A-algebra homomorphism
+$S = (S_k)_{k \geq 1}$ を不定数の数列とします。 形式べき級数 $s_k$ は次数 $\geq k$ であり、$A[[X]]^{\text{sym}}$ に属するため、IV、p. 28 の提案 4 の条件 a) と b) は $E = A[[X]]^{\text{sym}}$ で満たされます。したがって、ユニークな連続 A-代数準同型性が存在します。
 
 $$
 \varphi_I : A[[S]] \to A[[X]]^{\text{sym}}
@@ -1049,7 +1049,7 @@ $$
 \Delta(-s_1, s_2, \ldots, (-1)^m s_m) = \prod_{i < j} (X_i - X_j)^2;
 $$
 
-右辺は対称多項式 P であり、$Z[X_1, ..., X_m]$ (IV, p. 62, Th. 1) で次数 m(m − 1) の同次です。ここで、公式 (46) は、IV、p. 74 の記法において dis(f) = P (f ) を意味し、(48) はこれから直接続きます。
+右側は対称多項式 P であり、$Z[X_1, ..., X_m]$ (IV, p. 62, Th. 1) で次数 m(m − 1) の同次です。ここで、公式 (46) は、IV、p. 74 の記法において dis(f) = P (f ) を意味し、(48) はこれから直接続きます。
 
 c) A の次数 : 関係 (47) と結果 (IV, p. 76) の定義は公式を意味します
 
@@ -1067,11 +1067,11 @@ a_{ij} &= (j-i+1) A_{m+i-j-1} & \text{for } 1 \leq i \leq 2m-2 , \quad m-1 \leq 
 \end{align*}
 $$
 
-$a_{0j} = 0$ $j \neq 0 , \ j \neq m-1$ の場合
+$j \neq 0 , \ j \neq m-1$なら$a_{0j} = 0$
 
-これらの式では、$i < 0$ または $i > m$ に対して $A_i = 1$ と $A_i = 0$ が理解されます。ここで (50) は、証明しなければならなかったように、A が次数 $\leq 2m-2$ であることをすぐに示します。
+これらの式では、$i < 0$ または $i > m$ は、$A_i = 1$ と $A_i = 0$ であることがわかります。ここで (50) は、証明しなければならなかったように、A が次数 $\leq 2m-2$ であることをすぐに示します。
 
-提案 10 により、判別式を非モニック多項式に拡大する定義することができます。 $m \geq 1$ を整数とすると、$Z[A_0, A_1, ..., A_m]$ には、次数 $2m-2$、$\tilde{\Delta}$ という一意の同次多項式が存在します。
+提案 10 により、判別多項式を非モニック多項式に拡大する定義することができます。 $m \geq 1$ を整数とすると、次数 $2m-2$、$\tilde{\Delta}$ という一意の同次多項式が $Z[A_0, A_1, ..., A_m]$ に存在します。
 
 $$
 \Delta(A_1, ..., A_r) = \tilde{\Delta}(1, A_1, ..., A_r)
@@ -1083,7 +1083,7 @@ $$
 A_0^{2m-2} \Delta(A_1/A_0, ..., A_m/A_0)
 $$
 
-$Q(A_0, A_1, ..., A_m)$ の属するから部分環 $Z[A_0, A_1, ..., A_m]$。 $A_i$ が $0 \leq i \leq m$ に対して重み i を持つ場合、$\tilde{\Delta}$ は重み $m(m-1)$ と等重です。 ff が次数 $\leq m$ の多項式であるとします。
+属する ～ 部分環 $Q(A_0, A_1, ..., A_m)$ の $Z[A_0, A_1, ..., A_m]$。 $A_i$ が $0 \leq i \leq m$ に対して重み i を持つ場合、$\tilde{\Delta}$ は重み $m(m-1)$ と等重です。 ff が次数 $\leq m$ の多項式であるとします。
 
 $$
 f = a_0 X^m + a_1 X^{m-1} + \cdots + a_{m-1} X + a_m ,
@@ -1095,15 +1095,15 @@ $$
 \operatorname{dis}_m(f) = \tilde{\Delta}(a_0, a_1, ..., a_r).
 $$
 
-$m = \deg f$ の場合、$\operatorname{dis}_m(f)$ に対して単純に dis(f) と書きます。 f がモニックの場合、dis(f) は定義で定義された判別式と一致します。 2、(48)、(51)、(52) による。
+$m = \deg f$ の場合、$\operatorname{dis}_m(f)$ には単純に dis(f) と書きます。 f がモニックの場合、dis(f) は定義で定義された判別式と一致します。 2、(48)、(51)、(52) による。
 
 #### 命題 11 {#alg-iv-s6-prop-11 .statement tag=06FH}
 
-— $A[X]$ の f を次数 $\leq m$ のものとします。
+— $A[X]$ の f を次数 $\leq m$ のものとする。
 
-(i) *$\rho : A \to B$ が環準同型の場合、$\operatorname{dis}_m(\rho_f) = \rho(\operatorname{dis}_m(f))$ があります。
+(i) *$\rho : A \to B$ が環準同型である場合、$\operatorname{dis}_m(\rho_f) = \rho(\operatorname{dis}_m(f))$ があります。
 
-(ii) $\lambda, \alpha_1, ..., a_r$ を A の元とします。*もし* $f = X(X-\alpha_1) ... (X-a_r)$;それなら私たちは持っています
+(ii) $\lambda, \alpha_1, ..., a_r$ を A の元とします。*$f = X(X-\alpha_1) ... (X-a_r)$ の場合。それなら私たちは持っています
 
 $$
 \operatorname{dis}_m(f) = \lambda^{2m-2} \prod_{i < j} (\alpha_i - \alpha_j)^2 .

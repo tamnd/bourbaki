@@ -45,16 +45,16 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 6
-content_sha256: 1d8f9c22a127a64c14957180d868f7958bcc11142cd0d8fc8cb9430fbfe5e39c
+content_sha256: 0d5f4a525297a8f8c4e640e39b8e24263f86990b1421ce55f85fef5a18b9b861
 translated_from: content/en/alg/IV/01_s1_polynomials.md
 translation_method: google
 source_content_sha256: f94b9470c6da2e74358afdf52f506465ae49993b41748514c1bc1d675c01f9e6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4916995e8c886f052def319f18a78d3e2e806d33252bc54c0661bf0899128a2c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。多項式
@@ -77,7 +77,7 @@ $$
 
 ここで、$a_\nu \in \mathbf{A}$ と $\alpha_\nu$ は、有限の数を除いて零です。 $a_\nu$ は $u$ の *係数* と呼ばれます。 $\alpha_\nu X^\nu$ は、$u$ の *項* と呼ばれます (多くの場合、元 $\alpha_\nu X^\nu$ は、$X^\nu$ では項と呼ばれます)。特に、$a_0$ と識別される $\alpha_0 X^0$ の項は、*定数と呼ばれます$u$中項*。 $\alpha_\nu = 0$のとき、$X^\nu$では$u$*含むいいえ元*と言葉の乱用で言います。特に $\alpha_0 = 0$ の場合、$u$ は *定数項* (III, p. 453) を含まない多項式であると言います。 1 のスカラー 倍数は *定数多項式* と呼ばれます。
 
-B を可換環および $\rho : A \to B$ 環準同型とします。 $B[(X_i)_{i \in I}]$を$\rho$によりA-代数とみなします。 Thus the mapping $\sigma$ of $A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ which transforms $\sum \alpha_\nu X^\nu$ into $\sum \rho(\alpha_\nu) X^\nu$ is a homomorphism of A-algebras; if $u \in A[(X_i)_{i \in I}]$, we sometimes denote by $^\rho u$ the image of $u$ by this homomorphism. The homomorphism of $B \otimes_A A[(X_i)_{i \in I}]$ into $B[(X_i)_{i \in I}]$ canonically defined by $\sigma$ transforms, for every $i \in I$, $1 \otimes X_i$ into $X_i$; this is an isomorphism of B-algebras (III, p. 449).
+B を可換環および $\rho : A \to B$ 環準同型とします。 $B[(X_i)_{i \in I}]$を$\rho$によりA-代数とみなします。 したがって、$\sum \alpha_\nu X^\nu$ を $\sum \rho(\alpha_\nu) X^\nu$ に変換する $A[(X_i)_{i \in I}]$ の $B[(X_i)_{i \in I}]$ への写像 $\sigma$ は、A 代数の準同型性です。この準同型写像により、$u \in A[(X_i)_{i \in I}]$ の場合、$u$ の画像を $^\rho u$ で表すこともあります。 $B \otimes_A A[(X_i)_{i \in I}]$ の準同型を $\sigma$ 変換によって標準的に定義された $B[(X_i)_{i \in I}]$ に、各 $i \in I$、$1 \otimes X_i$ を $X_i$ に変換します。これは B 代数 (III、p. 449) の同型です。
 
 M を基底 $(e_i)_{i \in I}$ で自由A-加群とします。対称代数 $S(M)$ を代数 $A[(X_i)_{i \in I}]$ に変換する単位準同型 $\varphi$ が正確に 1 つ存在し、各 $i \in I$ に対して $\varphi(e_i) = X_i$ となり、この準同型は同型 (III, p. 506）。この同型が正統であると言われています。これにより、対称代数の特定の特性を多項式代数に適用することができます。たとえば、$(I_1), \ldots, L$ を I の分割とします。 $\varphi_\lambda$を$P_\lambda = A[(X_i)_{i \in I_\lambda}]$の準同型を$P = A[(X_i)_{i \in I}]$に、変換$X_i$（$P_\lambda$の元）を$X_i$（Pの元に相当）とします。次に、代数 $\bigotimes_{h \in L} P_\lambda$ の $\varphi_\lambda$ 定義する準同型を代数 P に、
 そして、この準同型は同型 (III、p. 503、提案 9) です。
@@ -86,9 +86,9 @@ EをA-加群とし、$E \otimes_A A[(X_i)_{i \in I}] = E[(X_i)_{i \in I}]$とし
 
 ### 2. 次数
 
-$P = A[(X_i)_{i \in I}]$ を多項式代数とします。 それぞれの整数 $n \in \mathbf{N}$ について、$P_n$ を、$|\nu| = \sum_{i \in I} \nu_i$ が n に等しいような単項式 $X^\nu$ によって生成された P の部分加群とします。 次に、$(P_n), \ldots$ は、$A[(X_i)_{i \in I}]$ を型 $\mathbf{N}$ (III、p. 459) の段階的な代数に変える卒業です。 The homogeneous elements of degree $n$ in $A[(X_i)_{i \in I}]$ are sometimes called forms of degree $n$ with respect to the indeterminates $X_i$.
+$P = A[(X_i)_{i \in I}]$ を多項式代数とします。 それぞれの整数 $n \in \mathbf{N}$ について、$P_n$ を、$|\nu| = \sum_{i \in I} \nu_i$ が n に等しいような単項式 $X^\nu$ によって生成された P の部分加群とします。 次に、$(P_n), \ldots$ は、$A[(X_i)_{i \in I}]$ を型 $\mathbf{N}$ (III、p. 459) の段階的な代数に変える卒業です。 $A[(X_i)_{i \in I}]$ における次数 $n$ の同次要素は、不定要素 $X_i$ に関して次数 $n$ の形式と呼ばれることもあります。
 
-When we are dealing with the degree of inhomogeneous polynomials, we shall agree to adjoin to the set $\mathbf{N}$ of natural numbers, an element written $-\infty$ and to extend the order relation and the addition of $\mathbf{N}$ to $\mathbf{N} \cup \{-\infty\}$ by the following conventions, where $n \in \mathbf{N}$,
+不均一多項式の次数を扱うとき、自然数の集合 $\mathbf{N}$ に $-\infty$ と書かれた要素を隣接させ、以下の規則に従って順序関係と $\mathbf{N}$ の $\mathbf{N} \cup \{-\infty\}$ への加算を拡張することに同意します。ここで、$n \in \mathbf{N}$、
 
 $$
 -\infty < n , \quad (-\infty) + n = n + (-\infty) = -\infty , \quad (-\infty) + (-\infty) = -\infty .
@@ -122,7 +122,7 @@ In $A[X_1, X_2, \ldots, X_q]$ 数 of monomials of total 次数 $p$ is equal to �
 
 ### 3. 交代
 
-E を $\mathscr{A}$ 上の単位結合代数とし、$x = (x_i)_{i \in I}$ を E のペアごとに置換可能な元の族とする。 $X = (X_i)_{i \in I}$ を不定値の族とする。 III、提案 7、p. 449 により、$i \in I$ ごとに $f(X_i) = x_i$ となるような、$\mathscr{A}[X]$ から $E$ への一意のユニタル準同型 $f$ が存在します。 The image of an element $u$ of $\mathscr{A}[X]$ under $f$ is written $u(x)$ and is called *the element of E obtained by substituting $x_i$ for $X_i$ in $u$*, or also *the value of $u$ for $X_i = x_i$*. 特に$u = u((X_i)_{i \in I})$。 $I = \{1, \ldots, n\}$ の場合、$u((x_i)_{i \in I})$ の代わりに $u(x_1, \ldots, x_n)$ を書き込みます。 より一般的には、M が A-加群で、o が の元である場合、
+E を $\mathscr{A}$ 上の単位結合代数とし、$x = (x_i)_{i \in I}$ を E のペアごとに置換可能な元の族とする。 $X = (X_i)_{i \in I}$ を不定値の族とする。 III、提案 7、p. 449 により、$i \in I$ ごとに $f(X_i) = x_i$ となるような、$\mathscr{A}[X]$ から $E$ への一意のユニタル準同型 $f$ が存在します。 $f$の下にある$\mathscr{A}[X]$の要素$u$の画像は$u(x)$と書かれており、$u$*の$X_i$を$x_i$に置き換えて得られるEの*要素、または*$X_i = x_i$の$u$の値*と呼ばれます。 特に$u = u((X_i)_{i \in I})$。 $I = \{1, \ldots, n\}$ の場合、$u((x_i)_{i \in I})$ の代わりに $u(x_1, \ldots, x_n)$ を書き込みます。 より一般的には、M が A-加群で、o が の元である場合、
 
 $$
 M[(X_i)_{i \in I}] = M \otimes_A \mathscr{A}[(X_i)_{i \in I}],
@@ -247,7 +247,7 @@ $$
 
 これは、提案 4 の特殊なケース $E = A[Y_1, ..., Y_r]$、$x_i = g_i$、および $D = \partial / \partial Y_j$ です。
 
-$X = (X_i)_{i \in I}$、$Y = (Y_i)_{i \in I}$ を不定数の 2 つの互いに素族とし、その族 $(X_i + Y_i)_{i \in I}$ を $X + Y$ と書きます。 $u \in A[X]$ が与えられた場合、$A[X, Y]$ の元 $u(X + Y)$ を検討します。 For $\nu \in \mathbf{N}^{(I)}$ we denote by $A^\nu u$ the coefficient of $Y_\nu$ in $u(X + Y)$, considered as polynomial in the $Y_i$ with coefficients in $A[X]$. 定義までに$A^\nu u \in A[X]$があり、
+$X = (X_i)_{i \in I}$、$Y = (Y_i)_{i \in I}$ を不定数の 2 つの互いに素族とし、その族 $(X_i + Y_i)_{i \in I}$ を $X + Y$ と書きます。 $u \in A[X]$ が与えられた場合、$A[X, Y]$ の元 $u(X + Y)$ を検討します。 $\nu \in \mathbf{N}^{(I)}$ については、$u(X + Y)$ の $Y_\nu$ の係数を $A^\nu u$ で表し、$A[X]$ の係数を持つ $Y_i$ の多項式と見なされます。 定義までに$A^\nu u \in A[X]$があり、
 
 $$
 u(X + Y) = \sum_\nu (\Delta^\nu u)(X) Y^\nu.
@@ -423,33 +423,33 @@ $(u - u_1) f = v_1 - v$ と $\deg(v_1 - v) < m$ があるため、$u - u_1 = 0$ 
 
 #### 系 (« ユークリッド多項式の除算 ») {#alg-iv-s1-n6-cor-1 .statement tag=06A6}
 
-— Let $f$ be a non-zero element of $A[X]$ whose leading *coefficient* is invertible and $m = \deg f$.
-(i) For every $g \in A[X]$ there exist $u,\ v \in A[X]$ such *that*
+— $f$ を $A[X]$ の非ゼロ要素とし、その先頭の *係数* は可逆であり、 $m = \deg f$ とします。
+(i) $g \in A[X]$ ごとに $u,\ v \in A[X]$ のような *それ* が存在します
 $$
 g = uf + v , \quad \deg v < m .
 $$
-Moreover, these conditions determine $u$ and $v$ uniquely.
-(ii) The sub-A-modules $A + AX + \ldots + AX^{m-1}$ and $fA[X]$ of $A[X]$ are supplementary in $A[X]$.
-(iii) Assume $f$ non-constant and consider $A[X]$ as an $A[T]$-*module* by means of the homomorphism $u(T) \mapsto u(f(X))$ of $A[T]$ into $A[X]$. 次に、$A[X]$ は、基底 $(1, X, \ldots, X^{m-1})$ を含む無料の $A[T]$-*加群* です。
+さらに、これらの条件は$u$と$v$を一意に決定します。
+(ii) $A[X]$ のサブ A モジュール $A + AX + \ldots + AX^{m-1}$ と $fA[X]$ は、$A[X]$ で補足されます。
+(iii) $f$ を非定数と仮定し、$A[T]$ の $A[X]$ への準同型性 $u(T) \mapsto u(f(X))$ を利用して、$A[X]$ を $A[T]$-*加群* として考える。 次に、$A[X]$ は、基底 $(1, X, \ldots, X^{m-1})$ を含む無料の $A[T]$-*加群* です。
 主張 (i) および (ii) は、提案 10 の明らか帰結です。
 (iii) を証明しましょう。 $\psi$ を $A[T, X]$ の準同型 $v \mapsto v(f(X), X)$ を $A[X]$ にします。 まず、$A[T, X]$ を $T$ の多項式環と $A[X]$ の係数として考えます。 コル。 IV、p. 5の1は、$\psi$の核$a$が$A[T, X]$の理想的な$(T - f(X))$であることを示しています。 ここで、$A[T, X]$ を $X$ の多項式環と $A[T]$ の係数として考えてみましょう。この場合、$\psi$ は、$A[T][X]$ から $A[X]$ への $A[T]$ 線形マッピングです。 上記の主張 (ii) ($X$ の多項式 $f(X) - T$ と$A[T]$ の係数に適用) は、$(1, X, \ldots, X^{m-1})$ が $a$ を補足する $A[T, X]$ の $A[T]$ サブモジュールの基底であることを示しています。 整数 $i \geq 0$ ごとに $\psi(X^i) = X^i$ なので、(iii) がすぐに続きます。
 
-(i) の記法について、$u$ は商であり、$v$ は $g$ を $f$ でユークリッド割った余りです。残りが消えるためには、$f$ が割る $g$ になることが必要かつ十分です。
+(i) の記法について、$u$ は商であり、$v$ は $g$ を $f$ で割ったユークリッドの余りです。残りが消えるためには、$f$ が割る $g$ になることが必要かつ十分です。
 
 ### 7. 1 つの不定数における多項式の割り算 [^1]
 
 #### 命題 11 {#alg-iv-s1-prop-11 .statement tag=06A7}
 
 — $K$ を可換 *体* とします。
-(i) $K[X]$ のゼロ以外のすべての理想値 $a$ に対して、 $a = (f )$ となるような 1 つの *モニック* 多項式 $f$ が $K[X]$ に存在します。
+(i) $K[X]$ のゼロ以外のすべての理想値 $a$ に対して、$a = (f )$ となるような $K[X]$ の *モニック* 多項式 $f$ が正確に 1 つ存在します。
 (ii) $f_1$ と $f_2$ を $K[X]$ に入れる。 $(f_1) = (f_2)$ が成立するには、$f_2 = \lambda f_1$ となるような $K$ の非ゼロ元 $\lambda$ が存在することが必要かつ十分です。
-(ii) を証明しましょう。記載された条件の十分性は明らかです。 $f_1$ と $f_2$ 生成する零が理想的な場合は自明です。したがって、非ゼロ多項式 $f_1$ と $f_2$ 生成するは、同じ理想の $K[X]$ であると仮定します。次に、$f_1 = u_1 f_2$ と $f_2 = u_2 f_1$ のような多項式 $u_1$ と $u_2$ が存在します。 u_1 u_2 = 1、よって $\deg u_1 + \deg u_2 = 0$ となり、$\deg u_2 = 0$ となります。したがって、$u_2$ は $K$ の非ゼロ元であることが示されました。
+述べられた条件の十分性が明らかであること (ii) を証明しましょう。 $f_1$ と $f_2$ 生成する零が理想である場合は自明です。したがって、非ゼロ多項式 $f_1$ と $f_2$ 生成するが同じ理想の $K[X]$ であると仮定します。次に、$f_1 = u_1 f_2$ と $f_2 = u_2 f_1$ のような多項式 $u_1$ と $u_2$ が存在します。 u_1 u_2 = 1、よって $\deg u_1 + \deg u_2 = 0$ となり、$\deg u_2 = 0$ となります。したがって、$u_2$ は $K$ の非ゼロ元であることが示されました。
 
-(i) を証明するには、$f$ を、最小可能性のある次数の $a$ におけるモニック多項式とする。 $a$で$g$が与えられた場合、$u$と$v$を商と、$g$を$f$で割ったユークリッドの余りとします。次に、$v = g - u f$ 属するから $a$ となり、$\deg v < \deg f$ になります。 $v$ がゼロ以外の場合、$\lambda v$ がモニックとなるような $K$ の非ゼロ元 $A$ が存在し、$\lambda v \in a$ 以降、これは定義オフと矛盾します。 したがって、$a = (f)$ になります。首一多項式 $f$ の一意性により、(ii) から $a = (f)$ が得られます。
+(i) を証明するには、$f$ を最小可能性のある次数の $a$ のモニック多項式とする。 $a$ で $g$ が与えられた場合、$u$ と $v$ を商とし、$g$ を $f$ で割ったユークリッドの余りとします。次に、$v = g - u f$ 属するから $a$ となり、$\deg v < \deg f$ になります。 $v$ が非ゼロの場合、$\lambda v$ がモニックとなるような $K$ の非ゼロの元 $A$ が存在し、$\lambda v \in a$ 以降、これは定義オフと矛盾します。したがって、$a = (f)$ になります。首一多項式 $f$ の一意性により、(ii) から $a = (f)$ が得られます。
 
 #### 命題 12 {#alg-iv-s1-prop-12 .statement tag=06A8}
 
-*$K$を可換体、$f, g$を$K[X]$の2つの元とします。 $K[X]$ のすべての多項式 $d$ について、次のプロパティは同等です*:
+※$K$を可換体、$f, g$を$K[X]$の元を2つとします。 $K[X]$ のすべての多項式 $d$ について、次のプロパティは同等です*:
 
 (i) *多項式 $d$ 割る $f$ および $g$ と、$f$ と $g$ 割る $d$* の両方である割るのすべての多項式。
 

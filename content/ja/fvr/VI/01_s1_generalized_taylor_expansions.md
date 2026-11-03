@@ -41,16 +41,16 @@ subsections:
       pdf_page: 297
 statements: 21
 exercises: 3
-content_sha256: 5cd126d7560831bde18503cb139b21c415319d015366028f67f1b1561a22cc55
+content_sha256: 6ae51717471b2c1e7362106e1419ed5fc0d7eac11fd24bbe3b3fcca854baa372
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 translation_method: google
 source_content_sha256: 7b62ad591ac33887b2cec9de99a553da0d73b1a05da4f701901b379dc016e8a0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 10e90b6db591838f8441b6ecdad394f29b89cafbaf454d9ad7089cae9f32f3fe
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。一般化されたテイラー拡張
@@ -184,7 +184,7 @@ $$
 
 #### スクリウム {#fvr-vi-s1-n1-sch-1 .statement tag=08HW}
 
-The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma$ of composition operators on $K[X]$ sometimes allows one to prove propositions on formal series most simply, by proving them for the corresponding composition operators (*cf.* VI, p. 274, prop. 6).
+形式級数の代数 $K[[S]]$ と $K[X]$ 上の合成演算子の代数 $\Gamma$ の同型性により、対応する合成演算子 (*cf.* VI, p. 274, prop. 6) を証明することにより、形式級数の命題を最も簡単に証明できることがあります。
 
 ### 2. 合成演算子に多項式を適用します
 
@@ -200,7 +200,7 @@ The isomorphism of the algebra $K[[S]]$ of formal series and the algebra $\Gamma
 
 $U$ を位数 $p$ の合成演算子とします。次に、次数 $< p$ のすべての多項式 $f$ に対して $U(f) = 0$ を計算します。 次数 $n \geq p$ のすべての多項式 $f \neq 0$ に対して、$U(f)$ は次数 $n - p$ の多項式 $\neq 0$ です。
 
-This is an immediate consequence of formula (2) of VI, p. 271 and of the definition of the order of $U$.
+これは、VI、p. 271 の式 (2) と $U$ の次数の定義の直接の結果です。
 
 位数 $p$ のすべての演算子 $U$ は、$U = D^p V = V D^p$ として独自の方法で書くことができることは明らかです。ここで、$V$ は位数 0 の演算子です (したがって反転可能です)。
 
@@ -420,7 +420,7 @@ $$
 
 ここで、$U_0$ は E の *線型形式* で、各写像 $f \in E$ が $g = U(f)$ の値 $g(0)$ に関連付けられます。
 
-If $f$ is a polynomial, one has $f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$, and formula (26) shows that $U(f)$ is also a polynomial; restricted to the set of polynomials in $x$, with coefficients in $\mathbf{C}$, (a set which one can identify with the algebra $\mathbf{C}[X]$), the operator $U$ is then a composition operator in the sense of def. I of VI, p. 270, and all the results of the preceding sections can be applied to it.
+$f$ が多項式の場合、$f(\xi + x) = \sum_{k=0}^{\infty} \frac{1}{k!} f^{(k)}(\xi) x^k$ があり、式 (26) は $U(f)$ も多項式であることを示しています。 $x$ の多項式の集合、$\mathbf{C}$ の係数 (代数 $\mathbf{C}[X]$ で識別できる集合) に限定されている場合、演算子 $U$ は def の意味で合成演算子です。 I、VI、p. 270、および前のセクションのすべての結果を適用できます。
 
 演算子 $U$ に関連付けられた Appell 多項式を再度 $u_n$ と書きます。多項式 (VI, p. 274, 公式 (13)) の一般化されたテイラー展開には対応する、より一般的な写像には、次の結果が得られます。
 
@@ -454,11 +454,11 @@ $$
 $$
 (29)
 
-We apply the operator $U$ to the two sides of (29), considered as functions of $\xi$, then take the value of the function so obtained for the value $h$ of the variable $\xi$; remarking that, by the formulae (26) (VI, p. 277) and (9) (VI, p. 272), one has
+演算子 $U$ を (29) の両側に適用し、$\xi$ の写像とみなして、変数 $\xi$ の値 $h$ に対して得られた写像の値を取得します。式 (26) (VI, p. 277) と (9) (VI, p. 272) により、
 $$
 U_h^\xi (u_m(\xi - h)) = U_0^\xi (u_m(\xi)) = \begin{cases} 0 & \text{for } m \neq p \\ p! & \text{for } m = p \end{cases}
 $$
-one finally obtains (27).
+最終的には (27) が得られます。
 
 ### 6. 合成演算子の指標
 

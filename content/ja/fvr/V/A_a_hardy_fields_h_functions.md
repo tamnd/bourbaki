@@ -38,16 +38,16 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: 2600230c14a7cdf01637f7700297339da33b3f35228b5c28b89d1024303656d5
+content_sha256: d5732e0cfa190aebd7aa74aa48a20aa365ccd49ce5d56cfef0851bfa125fdf81
 translated_from: content/en/fvr/V/A_a_hardy_fields_h_functions.md
 translation_method: google
 source_content_sha256: 90e02e3632c6ecc96144815961457f749d0c9a6edf475780ab90b36dc9feca0f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 04d6af1eba93fb780feff008252c4a4653ab142f0cadd2754522e8da5e5c1b48
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録
@@ -65,7 +65,7 @@ $\mathfrak{F}$ を、形 $[x_0, +\infty[$ の区間によって形成される $
 1. $\mathfrak{K}/R_\infty$ は環 $\mathscr{H}(\mathfrak{F}, \mathbf{R})/R_\infty$ の部分体です。
 2. *$\mathfrak{K}$ のすべての写像は連続であり、区間 $[a, +\infty[$ (写像に応じて)、および類の導関数属するから $\mathfrak{K}/R_\infty$ の $R_\infty$ に関して微分可能です。
 
-The hypothesis that $\mathfrak{K}/R_\infty$ is a *field* is equivalent to the following conditions: if $f \in \mathfrak{K}$ and $g \in \mathfrak{K}$ then $f + g$ and $fg$ are equal to functions in $\mathfrak{K}$ on some set in $\mathfrak{F}$; further, if $f$ is not identically zero on a set in $\mathfrak{F}$ then there exists a set $M$ in $\mathfrak{F}$ on which $f$ *does not vanish*, and $1/f$ is equal to a function from $\mathfrak{K}$ on $M$; by condition 2' one can always assume that $M$ is taken so that $f$ is *continuous* on $M$, and consequently *has constant sign* on this interval.
+$\mathfrak{K}/R_\infty$ が *フィールド* であるという仮説は、次の条件と同等です。 $f \in \mathfrak{K}$ と $g \in \mathfrak{K}$ の場合、$f + g$ と $fg$ は、$\mathfrak{F}$ の集合に対する $\mathfrak{K}$ の関数に等しい。さらに、$\mathfrak{F}$ の集合で$f$ が全く同じゼロではない場合、$\mathfrak{F}$ には$f$ *消滅せず*、$1/f$ は$M$ 上の$\mathfrak{K}$ からの関数に等しい集合$M$ が存在します。条件 2' により、$M$ が取られ、$f$ が $M$ で *連続* となり、その結果、この区間で *定数符号を持つ* と常に仮定できます。
 
 言葉の乱用により、$\mathfrak{K}$ が $\mathfrak{K}/R_\infty$ が Hardy 体であるようなものである場合、以下では $\mathfrak{K}$ 自体が *Hardy 体* であると言うでしょう。
 
@@ -216,7 +216,7 @@ $f$ が定数 $k \neq 0$ と同等である場合、$f_2 \ll 1$ と$f(x) = k + f
 
 *$\mathscr{K}_0$ がハーディ体である場合、ハーディ体 $\mathscr{K}$ 含む $\mathscr{K}_0$ が存在し、写像 $z \in \mathscr{K}$ ごとに、近傍で同じ零が存在するわけではありません。 $+\infty$、$e^z$ と $\log |z|$ 属するから $\mathscr{K}$ まで*。
 
-Denote by $\mathscr{K}$ the set of functions $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ having the following properties: for each function $f \in \mathscr{K}$ there is a finite number of Hardy fields $\mathscr{K}_1, \mathscr{K}_2, \ldots, \mathscr{K}_n$ (the number $n$ and the fields $\mathscr{K}_i$ depending on $f$) such that $f \in \mathscr{K}_n$ and, for $0 \leq i \leq n-1$, one has $\mathscr{K}_{i+1} = \mathscr{K}_i(u_{i+1})$ where $u_{i+1}$ is equal either to $e^{z_i}$ or to $\log |z_i|$ with $z_i$ belonging to $\mathscr{K}_i$ and not vanishing identically on a neighbourhood of $+\infty$. ある人は、体 $\mathscr{K}_n$ と写像 $f$ の $u_1, u_2, \ldots, u_n$ 形は *定義数列* であると言います。同じ写像に複数の定義数列を自然に認めることができます。
+以下の特性を持つ関数 $f \in \mathscr{H}(\mathfrak{F}, \mathbf{R})$ の集合を $\mathscr{K}$ で示します。各関数 $f \in \mathscr{K}$ には、$f \in \mathscr{K}_n$ のような有限数のハーディ フィールド $\mathscr{K}_1, \mathscr{K}_2, \ldots, \mathscr{K}_n$ (数 $n$ と $f$ に応じたフィールド $\mathscr{K}_i$) があり、$0 \leq i \leq n-1$ については、 $\mathscr{K}_{i+1} = \mathscr{K}_i(u_{i+1})$ ここで、$u_{i+1}$ は $e^{z_i}$ または $\log |z_i|$ に等しく、$z_i$ は $\mathscr{K}_i$ に属し、$+\infty$ の近傍で同じように消えません。 ある人は、体 $\mathscr{K}_n$ と写像 $f$ の $u_1, u_2, \ldots, u_n$ 形は *定義数列* であると言います。同じ写像に複数の定義数列を自然に認めることができます。
 
 間違いなく。 $+\infty$の近傍上の零と同じではなく、すべての写像$f \in \mathscr{K}$のV、p. 247の1は定数符号を持ち、区間$[x_0, +\infty[$で微分可能です。 $f \in \mathscr{K}_n$ の場合、$1/f$ と $f'$ は $\mathscr{K}_n$ の写像に等しいため、$+\infty$ の近傍で、$\mathscr{K}$ の写像に等しくなります。 $\mathscr{K}$ がハーディ体であることを確認するには、$f$ と $g$ が $\mathscr{K}$ の 2 つの写像である場合、$f - g$ と $fg$ が $\mathscr{K}$ の写像に等しいことを証明すれば十分です。 $+\infty$中近傍。ここで、$u_1, u_2, \ldots, u_m$ を $f$ の場合は定義数列とし、$g$ の場合は $v_1, v_2, \ldots, v_n$ 定義数列とします。 数列 $(u_i)$ と $(v_i)$ を連結して得られる数列 $u_1, u_2, \ldots, u_m, v_1, v_2, \ldots, v_n$ は、再び Hardy 体 $\mathscr{K}_{m+n}$ の定義数列とこれ体含む $f$と$g$なので、$f - g$と$fg$は、$+\infty$の近傍の$\mathscr{K}_{m+n}$の写像と等しくなります。
 
@@ -277,7 +277,7 @@ $$
 
 (V、p. 263、演習 1 および p. 264、演習 5) 一方、*ごとに $g(x) \gg e_n(x)$ となるような定義する増加する写像 $g(x)$ (これらはもはや (H) 写像ではありません) も可能です。 $n > 0$、または $1 \ll g(x) \ll l_m(x)$ ($m > 0$ ごとに) (V、p. 265、演習 8、9、10)。
 
-With the help of the iterated logarithms we shall show that one can define a *comparison scale* $\mathscr{E}$ (for $x$ tending to $+\infty$) of (H) functions, which are $> 0$ on a neighbourhood of $+\infty$ and satisfy the following conditions:
+反復対数の助けを借りて、(H) 関数の *比較スケール* $\mathscr{E}$ ($x$ が $+\infty$ の傾向にある) を定義できることを示します。これは、$+\infty$ の近傍で $> 0$ であり、次の条件を満たします。
 
 a) $\mathscr{E}$ 属するから $\mathscr{E}$ のいずれか 2 つの写像のうち積;
 b) 写像 $f \in \mathscr{E}$ および実数 $\mu$ ごとに $f^\mu \in \mathscr{E}$。
@@ -301,7 +301,7 @@ $$
 
 ### 6. (H) 写像の逆写像
 
-If $f$ is an (H) function, then $f$ is monotone and continuous on an interval $[x_0, +\infty[$, so the inverse function $\varphi$ of the restriction of $f$ to this interval is monotone and continuous on a neighbourhood of the point $a = \lim_{x \to +\infty} f(x)$; but, if $a$ is equal to $+\infty$ (resp. $-\infty$, finite), one can show that $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ or $\varphi \left( a - \frac{1}{y} \right)$) is not in general equal to an (H) function on a neighbourhood of $+\infty$. Nevertheless we shall see that in certain important cases one can obtain an (H) function equivalent to $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) and sometimes even an asymptotic expansion of this function relative to the scale $\mathscr{E}$ defined in V, p. 254.
+$f$ が (H) 関数である場合、$f$ は区間 $[x_0, +\infty[$ で単調かつ連続であるため、この区間に対する $f$ の制限の逆関数 $\varphi$ は点 $a = \lim_{x \to +\infty} f(x)$ の近傍で単調かつ連続です。しかし、$a$ が $+\infty$ (または $-\infty$、有限) に等しい場合、$\varphi(y)$ (または $\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$、または $\varphi \left( a - \frac{1}{y} \right)$) が一般に $+\infty$ の近傍での (H) 関数と等しくないことがわかります。 それにもかかわらず、特定の重要なケースでは、$\varphi(y)$ (それぞれ $\varphi(-y)$、$\varphi \left( a + \frac{1}{y} \right)$、$\varphi \left( a - \frac{1}{y} \right)$) に相当する (H) 関数が得られ、場合によっては、V、p. 254 で定義されたスケール $\mathscr{E}$ に対するこの関数の漸近拡張さえも得られることがわかります。
 
 次の命題を使用します。
 

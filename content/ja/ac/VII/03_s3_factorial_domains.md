@@ -49,16 +49,16 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 27
-content_sha256: 90fe55e722361c78e8e6c9c542d5341920ffc6dd2eb47525b8c14dcb0b9fa4c2
+content_sha256: b54bbacfa35061e73be648b2ed2a1aaf8b759c425609de414dfc8b9a572ab29d
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
 translation_method: google
 source_content_sha256: 7c78792af87db965faba28fa907fb71b383afe818bec0650262706d6b261062c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 07551768e0a7074fae73fe383849c21aa62894f0b26833bdf4ff0f7634194ab2
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 階乗ドメイン
@@ -109,7 +109,7 @@ A の分数の K 体と、A の非ゼロ分数主イデアルの順序付けら�
 
 * A を Krull ドメインとします。 A のすべての約数イデアルが可逆である場合、A のすべての最大イデアル m に対して、$A_m$ は階乗になります。 A のすべての約数イデアルが有限に生成されると仮定した場合 (特に A がネーター の場合)、逆は真です。*
 
-Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull domain ($§ 1$, no. 4, Proposition 6), every divisorial ideal $a$ of $A_{,,}$ is the intersection of two principal fractional ideals ($§ 1$, no. 5, Corollary 2 to Proposition 9); hence $a = bA_m$, where $b$ is a divisorial ideal of $A$ (Chapter II, $§ 2$, no. 4); as $b$ is invertible by hypothesis, we deduce from Chapter II, $§ 5$, no. 6, Theorem 4 that $a$ is principal and hence $A_{,,}$ is a factorial domain (no. 1, Definition 1). 逆に、すべての $A_{,,}$ が階乗で、$c$ が $A$ の有限生成された除数イデアルである場合、$§ 1$、no. 5、系 2 から命題 9 のように、$cA_m$ は $A_{,,}$ の除数イデアルです。 章 II、$§ 2$、no. 4; 仮定により、$cA_m$ は主であるため、章 11、$§ 5$、no. 6、定理 4 から、$c$ は可逆であることがわかります。
+$A$ のすべての約数イデアルが反転可能であると仮定します。 $A_{,,}$ はクルール領域 ($§ 1$、no. 4、命題 6) であるため、$A_{,,}$ のすべての分数イデアル $a$ は 2 つの主要な分数イデアル ($§ 1$、no. 5、命題 9 の系 2) の交点です。したがって、$a = bA_m$、ここで、$b$は$A$の約分イデアルです（II、$§ 2$、no. 4章）。 $b$ は仮説により可逆であるため、II、$§ 5$、no. 6 章の定理 4 から、$a$ が主であり、したがって $A_{,,}$ が階乗領域 (no. 1、定義 1) であることが推測されます。 逆に、すべての $A_{,,}$ が階乗で、$c$ が $A$ の有限生成された除数イデアルである場合、$§ 1$、no. 5、系 2 から命題 9 のように、$cA_m$ は $A_{,,}$ の除数イデアルです。 章 II、$§ 2$、no. 4; 仮定により、$cA_m$ は主であるため、章 11、$§ 5$、no. 6、定理 4 から、$c$ は可逆であることがわかります。
 
 ### 3. 分解から極度の元
 
@@ -323,7 +323,7 @@ $$
 
 *仮説と命題 5の記法で、$s \geq 1$、つまり$f \in Bm + BX$と仮定します。次に、$B' = A[[T]]$ から $B = A[[X]]$ までの A 準同型性 $h$ は、 B 上で $h(T) = f$ (章 III, § 2, no. 9, 命題 11 (a)) 定義するが成り立ち、$\{1, X, \ldots, X^{s-1}\}$ を次のように認める自由な$B'$ 加群構造になります。 基底。特に $h$ は単射法です。*
 
-$B'$ モジュール B に、$n \geq 0$ (章 111、§ 2, no. 1) に対する $f^n B$ で構成される (T)-進数フィルタリングを与えます。 Then $B/fB$ is a free module over the ring $A = B'/TB'$ and the images of the $X^i$ ($0 \leq i \leq s-1$) in this A-module form a basis of it (Proposition 5); as moreover $f$ is not a divisor of zero in B (Proposition 5), $Bf^n/Bf^{n+1}$ is also a free $(B'/TB')$-module of rank s, so that condition (GR) of Chapter 111, § 2, no. 8 is satisfied (replacing A by B' and M by B). 一方、B' はハウスドルフであり、(T) 進濾過に関して完全であり、gr(B) は上記により有限生成された gr(B') 加群であるため、B が有限生成された B' であることが最初にわかります (章 III, § 2, no. 9, 系 1 ～ 命題 12)。 加群。 系の最初の主張が、章 III, § 2, no. 9、命題 13 と続きます。 2 つ目はその直後に続きます。
+$B'$ モジュール B に、$n \geq 0$ (章 111、§ 2, no. 1) に対する $f^n B$ で構成される (T)-進数フィルタリングを与えます。 この場合、$B/fB$ はリング $A = B'/TB'$ 上の自由モジュールであり、この A モジュール内の $X^i$ ($0 \leq i \leq s-1$) のイメージがその基礎を形成します (命題 5)。さらに、$f$ は B のゼロの約数ではないため (命題 5)、$Bf^n/Bf^{n+1}$ もランク s の自由 $(B'/TB')$ 加群であるため、第 111 章の条件 (GR)、§ 2, no. 8 が満たされます (A を B' に、M を B に置き換えます)。 一方、B' はハウスドルフであり、(T) 進濾過に関して完全であり、gr(B) は上記により有限生成された gr(B') 加群であるため、B が有限生成された B' であることが最初にわかります (章 III, § 2, no. 9, 系 1 ～ 命題 12)。 加群。 系の最初の主張が、章 III, § 2, no. 9、命題 13 と続きます。 2 つ目はその直後に続きます。
 
 #### 定義 2 {#ac-vii-s3-def-2 .statement tag=0521}
 

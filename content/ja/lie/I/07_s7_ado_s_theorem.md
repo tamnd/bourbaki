@@ -25,16 +25,16 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: ced76f57dc9305056cf68adb4a58e4f0a7bf917034c088f88825bccee4f062e4
+content_sha256: 3d58c3d71866ab2632c449008bf00fcfebb7cb236d795d836214544f395dcf45
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 translation_method: google
 source_content_sha256: 756c418e98cb289633fa81395166a73f8430efbf678bc03b436549d132075ff8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 11d63d6a50a02fc3c2e0365a6901403b54d353ae602c4d1ffaa0f3e715098c86
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。アドズ定理
@@ -68,13 +68,13 @@ ${U'}^*$ の双対表現 $x \mapsto {}^t x_{U'}$ も考慮します。 $x \in g'
 
 #### 定義 1 {#lie-i-s7-def-1 .statement tag=0A1F}
 
-$g$ を $V'$ のリー代数、$g'$ 部分代数の $g$ および $\rho'$ 表現の $g'$ とします。 A representation $\rho$ of $g$ on $V$ is called an extension of $\rho'$ to $g$ if there exists an injective homomorphism of the $g'$-module into the $g'$-module $V$. また、$g$ モジュール $V$ は $g'$ モジュール $V'$ の拡大であるとも言います。
+$g$ を $V'$ のリー代数、$g'$ 部分代数の $g$ および $\rho'$ 表現の $g'$ とします。 $g'$加群の$g'$加群$V$への単射準同型性が存在する場合、$V$上の$g$の表現$\rho$は、$\rho'$から$g$への拡張と呼ばれます。 また、$g$ モジュール $V$ は $g'$ モジュール $V'$ の拡大であるとも言います。
 
 $\rho'$ が有限次元で、$g'$ が $g$ の可解なイデアである場合、有限次元の拡大が存在するには、$[g, g']$ が $\rho'$ (§ 5, no. 3, 定理 1) の最大の零位イデアルに含まれることが必要です。
 
 #### 定理 1 (ザッセンハウス) {#lie-i-s7-thm-1 .statement tag=0A1G}
 
-Let $g = g' + h$ be a Lie algebra which is the direct sum of an ideal $g'$ and a subalgebra $h$ and $\rho'$ a finite-dimensional representation of $g'$ whose largest nilpotency ideal contains $[h, g']$.
+$g = g' + h$ をイデアル $g'$ と部分代数 $h$ の直接和であるリー代数とし、$\rho'$ を最大の冪能イデアルに $[h, g']$ が含まれる $g'$ の有限次元表現とします。
 
 (a) $\rho'$ から $g$ までの有限次元拡大 $\rho$ が存在し、その最大の埠頭理想含むが $\rho'$ の埠頭理想である。
 

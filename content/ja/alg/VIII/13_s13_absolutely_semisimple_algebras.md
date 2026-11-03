@@ -46,16 +46,16 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 49c1c41f857946f9bcaa157fa93b2eddf5c5f7404c1646cf0d4e64aadf86f66d
+content_sha256: 231ba4a5965d81bfda0ecd07ede04f58f299220c813aec536c8adde6a1fc6a44
 translated_from: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md
 translation_method: google
 source_content_sha256: 20e8293964011d4b021666f811555994484c4df5ad3a8aa7a6c4c31c70bdaac0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1a8bfdbfc448afc5848f36751131b5cd1f29c5dbfc0e3cfc6b8522a8934f81fa
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 13。 絶対半単純多元環
@@ -66,7 +66,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 K を可換体、A を K-代数とします。 $A_{(L)}$ モジュール $M_{(L)}$ が K のすべての拡大 L に対して半単純である場合、A-加群 M 絶対半単純と呼びます。
 
-すべての絶対半単純加群は半単純です。 Conversely, if the field K is perfect, then every semisimple A-module that is finite-dimensional over K is absolutely semisimple (VIII, p. 222, Corollary 1, a)) because every extension of a perfect field is separable (V, §7, No. 1, p. 36, Proposition 2).
+すべての絶対半単純加群は半単純です。 逆に、体 K が完全であれば、K 上の有限次元であるすべての半単純 A 加群は完全に半単純になります (VIII, p. 222, 系 1, a))。これは、完全体のすべての拡張が分離可能であるためです (V, §7, No. 1, p. 36、命題 2)。
 
 #### 命題 1 {#alg-viii-s13-prop-1 .statement tag=00FA}
 
@@ -154,7 +154,7 @@ Kを可換体、AをK-代数とします。次のプロパティは同等です�
 
 (iii) K-代数 A は半単純で、K 上に有限次数があり、その中心はエタール K-代数です。
 
-(iv) There exists a finite family $(n_i,D_i)_{i\in I}$, where $n_i$ is a strictly positive integer and $D_i$ a K-algebra of finite degree that is a field, such that the center $Z_i$ of $D_i$ is a separable extension of K for every $i\in I$ and A is isomorphic to the product of the matrix rings $\mathbf{M}_{n_i}(D_i)$.
+(iv) 有限族 $(n_i,D_i)_{i\in I}$ が存在します。ここで、$n_i$ は厳密に正の整数であり、$D_i$ は体である有限次数の K 代数であり、$D_i$ の中心 $Z_i$ はすべての $i\in I$ に対する K の分離可能な拡張であり、A は行列リングの積と同型です。 $\mathbf{M}_{n_i}(D_i)$。
 
 (v) L-代数 $A_{(L)}$ が代数 $\prod_{i\in I}\mathbf{M}_{n_i}(L)$ と同型となるような、K の拡大 L と整数 $(n_i)_{i\in I}$ の有限族が存在します。
 
@@ -242,7 +242,7 @@ b) S を単純A-加群とし、D をその交換子環とします。次のプ�
 
 中心は K の分離拡大です。
 
-主張 a) は、VIII、p. 229 の命題 1、a) から続きます。 S と D を b) のようにし、L を K の拡大とします。 $A_{(L)}$ モジュール $S_{(L)}$ は、環 $D_{(L)}$ が (VIII、p. 222、命題 8、c)) である場合に限り、半単純になります。 これにより、(i)と(ii)の同値が証明され、Dが体であるため、定理1から(ii)と(iii)の⟧が証明されます。
+主張 a) は、VIII、p. 229 の命題 1、a) から続きます。 S と D を b) のようにし、L を K の拡大とします。 $A_{(L)}$ モジュール $S_{(L)}$ は、環 $D_{(L)}$ が (VIII、p. 222、命題 8、c)) である場合に限り、半単純になります。 これは、(i) と (ii) が等価であることを証明し、D は体であるため、(ii) と (iii) が等価であることを定理 1 から導きます。
 
 #### 系 {#alg-viii-s13-n4-cor-1 .statement tag=00RF}
 
@@ -616,7 +616,7 @@ $$
 = 0
 $$
 
-定理により、VIII、p. 242、K-加群 $H^2(A,\mathfrak{r})$ の 3 が零に減ります。 Hence there exists an element $\psi$ of $C^1(A,\mathfrak{r})$ such that $\partial^1\psi =\varphi$, in other words, such that we have
+定理により、VIII、p. 242、K-加群 $H^2(A,\mathfrak{r})$ の 3 が零に減ります。 したがって、$\partial^1\psi =\varphi$ となるような $C^1(A,\mathfrak{r})$ の要素 $\psi$ が存在します。つまり、次のようになります。
 
 (21) $\overline{A}$ の $\alpha , \beta$ に対して $\varphi (\alpha , \beta ) =\alpha \psi (\beta )-\psi (\alpha \beta ) +\psi (\alpha )\beta$。
 
@@ -624,7 +624,7 @@ $\mathfrak{r}^2$ は零であるため、$\psi (\alpha )\psi (\beta ) = 0$ に�
 
 $\pi$ 属するの K 線形切断 $\sigma +\psi$ が Σ になるようにします。その像は、$A = S +\mathfrak{r}$ となる A の部分代数 S です。
 
-ここで、一般的な場合における S の存在を証明しましょう。 We reason by induction on the least integer $p\geqslant 1$ such that $\mathfrak{r}^p= 0$; the case $p= 1$ is trivial. $p\geqslant 2$ と集合 $A'= A/\mathfrak{r}^{p-1}$ を仮定します。 The radical $\mathfrak{r}'$ of $A'$ is equal to $\mathfrak{r}/\mathfrak{r}^{p-1}$ (Proposition 5 of VIII, p. 155), so satisfies ${\mathfrak{r}'}^{p-1}= 0$, and the algebra $A'/\mathfrak{r}'$ is isomorphic to $\overline{A}= A/\mathfrak{r}$ and is therefore absolutely semisimple. 帰納法の仮定までに、$A'= S'\oplus \mathfrak{r}'$となるような$A'$の部分代数$S'$が存在します。 この場合、$S'$ は形 $A''/\mathfrak{r}^{p-1}$ であり、$A''$ は含む $\mathfrak{r}^{p-1}$ の部分代数であり、次のようになります。
+ここで、一般的な場合における S の存在を証明しましょう。 $\mathfrak{r}^p= 0$ となるように、少なくとも整数 $p\geqslant 1$ で帰納法を推論します。 $p= 1$ の場合は簡単です。 $p\geqslant 2$ と集合 $A'= A/\mathfrak{r}^{p-1}$ を仮定します。 $A'$ の根基 $\mathfrak{r}'$ は $\mathfrak{r}/\mathfrak{r}^{p-1}$ (VIII, p. 155 の命題 5) に等しいため、${\mathfrak{r}'}^{p-1}= 0$ を満たし、代数 $A'/\mathfrak{r}'$ は $\overline{A}= A/\mathfrak{r}$ と同型であり、したがって、 は絶対半単純です。 帰納法の仮定までに、$A'= S'\oplus \mathfrak{r}'$となるような$A'$のうち部分代数$S'$が存在します。次に、$S'$ は形 $A''/\mathfrak{r}^{p-1}$ の$A''$ は含む $\mathfrak{r}^{p-1}$ の部分代数であり、次のようになります。
 
 $$
 A = A''+\mathfrak{r},\mathfrak{r}^{p-1}= A''\cap \mathfrak{r} \tag{23}

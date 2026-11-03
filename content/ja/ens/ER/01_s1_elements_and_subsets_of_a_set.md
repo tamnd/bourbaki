@@ -13,16 +13,16 @@ pdf_pages: 0352-0356
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 826cd97e705df3c6c8f136fba2bedbb1185300db98a5364f5b15d06003197d28
+content_sha256: 6004a5056ee308277a7ba70daa6a4f49f9428f4d5c5e6f3b2bf86a482e332daa
 translated_from: content/en/ens/ER/01_s1_elements_and_subsets_of_a_set.md
 translation_method: google
 source_content_sha256: 0e243e5f12383731f0a5a2c71334e71b3cefa638eb23c7b52b81096a04bed198
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 813b8d64073a0e7ebf52d89b4cc367c058e47f630c11635d0fcf4a03abf90215
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. 集合の元と部分集合
@@ -37,7 +37,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 3. 関係または性質のうち、任意の元特徴 [^2] が、これらの任意の元に与えられる値が真の命題になる場合、*同一性* であると言われます。 R と S が 2 つの関係 (またはプロパティ) を表す場合、これらの関係に入る任意の元が R が真となるように固定されるときはいつでも、S が真の場合、R は S を *暗黙* していると言われます。 関係 (またはプロパティ) R と S は、それぞれが他方を暗示する場合、*同等*であると言われます。
 
-4. 変数 $x$、$y$、$z$ の間で $\mathrm{R}\{x,\ y,\ z\}$ を関係とします。 The phrase "for all $x$, $\mathrm{R}\{x,\ y,\ z\}$" is a relation *between $y$ and $z$*, which will be considered to be true for a system of given values of these latter variables if R is true for these values of $y$ and $z$ and *every* value of $x$. 「$\mathrm{R}\{x,\ y,\ z\}$ となるような $x$ が存在する」 (または「一部の $x$、$\mathrm{R}\{x,\ y,\ z\}$ については」) は、再び $y$ と $z$ の間に関係があり、これは、$y$ の指定された値の系に当てはまると見なされます。 $z$ の場合、これらの変数がこのように固定されている場合、R が真である $x$ のうち *少なくとも 1 つ* の値が存在します。 変数の任意の数の間の関係についても同様です。
+4. 変数 $x$、$y$、$z$ の間で $\mathrm{R}\{x,\ y,\ z\}$ を関係とします。 「すべての $x$、$\mathrm{R}\{x,\ y,\ z\}$ について」という表現は、$y$ と $z$* の間の関係であり、R がこれらの $y$ と $z$ の値、および $x$ の *すべての* 値に対して真である場合、これらの後者の変数の与えられた値の系に対して真であると見なされます。 「$\mathrm{R}\{x,\ y,\ z\}$ となるような $x$ が存在する」 (または「一部の $x$、$\mathrm{R}\{x,\ y,\ z\}$ については」) は、再び $y$ と $z$ の間に関係があり、これは、$y$ の指定された値の系に当てはまると見なされます。 $z$ の場合、これらの変数がこのように固定されている場合、R が真である $x$ のうち *少なくとも 1 つ* の値が存在します。 変数の任意の数の間の関係についても同様です。
 
 $\overline{\mathrm{R}}$ が R の *否定 * を表す場合、「すべての $x$ に対して、R」の否定は「$\overline{\mathrm{R}}$ となるような $x$ が存在する」になります。 「R が「すべての $x$、$\overline{\mathrm{R}}$ に対して」であるような $x$ が存在する」の否定。
 
@@ -63,7 +63,7 @@ E と $\emptyset$ はお互いの*補数*であることに注意してくださ
 
 11. $x$ と $y$ を E の 2 つの元とし、X を $\mathfrak{P}(E)$ の一般的な元とします。すると、等式「$x = y$」の関係は、関係「$x \in X$となるようなすべてのXに対して、$y \in X$が得られる」と *等価* になります。
 
-12. X, Y を集合 E の 2 つの部分集合とします。 性質 $x \in X$ が性質 $x \in Y$ を暗示し、他の語 X 属するのすべての元が Y に含まれる場合、X は Y に *含まれる*、または Y *含む* であると言います。 X、またはその X * は * Y の部分集合です。 このXとYの間の関係を*包含*(YのX)の関係と呼び、「$X \subset Y$」または「$Y \supset X$」で表されます。 その否定は「$X \not\subset Y$」または「$Y \not\supset X$」で表されます。
+12. X, Y を 2 つの部分集合 / 集合 E とします。 性質 $x \in X$ が性質 $x \in Y$ を意味する場合、他の語は、X 属するの元ごとにYの場合、XはYに*含まれる、またはY *含む* X、またはXは*Yの部分集合であると言います。 XとYの間のこの関係は、*包含*(の*)の関係と呼ばれますX (Y))、「$X \subset Y$」または「$Y \supset X$」で表されます。その否定は「$X \not\subset Y$」または「$Y \not\supset X$」で表されます。
 
 E のすべての部分集合 X に対して、$\emptyset \subset X$ と $X \subset E$ が得られます。メンバーシップ「$x \in X$」の関係は「$\{x\} \subset X$」に相当します。
 

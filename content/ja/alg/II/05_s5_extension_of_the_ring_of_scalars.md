@@ -34,16 +34,16 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 9be87f1e378237df76e09f12b5ea732a9478b6166cc040af2c33d96cae4c2d9f
+content_sha256: 2b42ea7e981d8095bf633ce93277c7c4f6ced3100fe52c3f3b12a14112de2e42
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
 translation_method: google
 source_content_sha256: 77418857e92cac7b8d57a775fbe6a401b2e7ca09da87ea0dd014ebf83b887e38
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 8e359a14d4c3007c9b024a912dbdde1e15a6a7a691cdf7b6447bc1bfefebac2b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。スカラーの環の拡大
@@ -62,7 +62,7 @@ $B$ は、$\rho$ によって $(B, A)$-bimodule とみなすことができま�
 $$
 \operatorname{Hom}_B(B \otimes_A E, F) \to \operatorname{Hom}_A(E, \operatorname{Hom}_B(B_s, F))
 $$
-$§ 4$、no. 1、命題 1 で見られるように。 But the left $A$-module $\operatorname{Hom}_B(B_s, F)$ is canonically identified with $\rho^*(F)$: for, by definition ($§ 1$, no. 14), there corresponds to an element $y \in F$ the homomorphism $\theta(y) : B_s \to F$ such that $(\theta(y))(1) = y$; for all $\lambda \in A$, there thus corresponds to $\rho(\lambda)y \in F$ the homomorphism $\mu \mapsto \mu \rho(\lambda)y$ of $B_s$ into $F$, which is just $\lambda \theta(y)$ for the left $A$-module structure on $\operatorname{Hom}_B(B_s, F)$ ($§ 1$, no. 14). したがって、この識別を使用すると、(1) の逆である *標準* $\mathbf{Z}$-モジュール *同型* が得られます。
+$§ 4$、no. 1、命題 1 で見られるように。 しかし、左の $A$ 加群 $\operatorname{Hom}_B(B_s, F)$ は標準的に $\rho^*(F)$ と識別されます。定義により ($§ 1$, no. 14)、要素 $y \in F$ の準同型性 $\theta(y) : B_s \to F$ があり、$(\theta(y))(1) = y$;したがって、すべての $\lambda \in A$ について、$B_s$ の $F$ への準同型性 $\mu \mapsto \mu \rho(\lambda)y$ が $\rho(\lambda)y \in F$ に対応します。これは、$\operatorname{Hom}_B(B_s, F)$ ($§ 1$、no. 14) の左側の $A$ 加群構造のちょうど $\lambda \theta(y)$ です。 したがって、この識別を使用すると、(1) の逆である *標準* $\mathbf{Z}$-モジュール *同型* が得られます。
 
 (2)
 $$
@@ -149,7 +149,7 @@ $$
 
 *写像* $(1 \otimes x) \otimes (1 \otimes x')$ *to* $1 \otimes (x \otimes x')$ *for* $x \in E, x' \in E'$、*そしてこの準同型は全単射*です。
 
-The left hand side of (5) may be written $(B \otimes_A E) \otimes_B (B \otimes_A E')$ and is identified with $(E \otimes_A B) \otimes_B (B \otimes_A E')$ since A and B are commutative; the latter product is identified successively with $E \otimes_A (B \otimes_B B) \otimes_A E'$, $E \otimes_A (B \otimes_A E')$, $E \otimes_A (E' \otimes_A B)$ and finally $(E \otimes_A E') \otimes_A B$, using the associativity of the tensor product (§ 3, no. 8, Proposition 8), Proposition 4, § 3, no. 4, and the commutativity of A and B. 希望の同型は、連続する標準同型の合成です。
+(5) の左側は $(B \otimes_A E) \otimes_B (B \otimes_A E')$ と書くことができ、A と B は可換であるため、$(E \otimes_A B) \otimes_B (B \otimes_A E')$ と識別されます。後者の積は、テンソル積 (§ 3, no. 8、命題 8)、命題 4、§ 3, no. 4、および A と B の可換性の結合性を使用して、順に $E \otimes_A (B \otimes_B B) \otimes_A E'$、$E \otimes_A (B \otimes_A E')$、$E \otimes_A (E' \otimes_A B)$、そして最後に $(E \otimes_A E') \otimes_A B$ と識別されます。 希望の同型は、連続する標準同型の合成です。
 
 明らかに、S が E の生成する系である場合、標準写像 $E \to E_{(B)}$ の下の S の像は $E_{(B)}$ の生成する系です。特に、E が有限生成A-加群の場合、$E_{(B)}$ は有限生成された B-加群です。
 
@@ -169,15 +169,15 @@ $$
 
 *すべての射影 A-加群 E、B-加群* $\rho^*(E)$ * は射影です。さらに* $\rho$ *が単射であれば、Eの標準写像は* $\rho^*(E)$ *は単射です*。
 
-仮定までに自由A-加群 M 含む E が存在し、その中で E は補充 F を認めます。 § 3, no. 7、命題 7 から、$M_{(B)}$ が $E_{(B)}$ および $F_{(B)}$ の直和と同一視されることがすぐに続きます。 $\phi$と$\psi$は標準写像$E \to E_{(B)}$と$F \to F_{(B)}$、標準写像$M \to M_{(B)}$はちょうど$x + y \mapsto \phi(x) + \psi(y)$です。 系は、命題 4 を A-加群 M に適用した直後に続きます。
+仮定までに自由A-加群 M 含む E が存在し、その中で E は補充 F を認めます。 § 3, no. 7, 命題 7 から、$M_{(B)}$ が $E_{(B)}$ と $F_{(B)}$ の直和と同一視されることがすぐに続きます。 $\phi$と$\psi$は標準写像$E \to E_{(B)}$と$F \to F_{(B)}$、標準写像$M \to M_{(B)}$はちょうど$x + y \mapsto \phi(x) + \psi(y)$です。 系は、命題 4 を A-加群 M に適用した直後に続きます。
 
-E が右A-加群のとき、同様に $\rho^*(E) = E \otimes_A \rho_*(B_s)$ と書きます。今回は B を (A, B)-bimodule として考慮し、$\rho^*(E)$ 上の右B-加群構造は、$\beta \in B' \ \beta' \in B$ と $x \in E$ に対して $(x \otimes \beta)\beta' = x \otimes (\beta\beta')$ となるようにします。この番号の結果対応するを右加群に述べる作業は読者に委ねます。そして以下。
+E が右A-加群のとき、同様に $\rho^*(E) = E \otimes_A \rho_*(B_s)$ と書きます。今回は B を (A, B)-bimodule として考慮し、$\rho^*(E)$ 上の右B-加群構造は、$\beta \in B' \ \beta' \in B$ と $x \in E$ に対して $(x \otimes \beta)\beta' = x \otimes (\beta\beta')$ となるようにします。この番号の結果対応するを正しく加群述べる作業は読者に委ねます。そして以下。
 
 注意 (4)。 $\rho$ によって定義された左A-加群 $\rho_*(B_s)$ を検討し、すべての左A-加群 E について、$\mathbf{Z}$ モジュールを検討します
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-$\rho_*(B_s)$ には右B-加群構造があるため、左B-加群構造は $\tilde{\rho}(E)$ (§ 1, no. 14) から導出され、$u \in \tilde{\rho}(E)$ と $b' \in B$ の場合、$b'u$ は次の準同型 $b \mapsto u(bb')$ になります。 $\rho_*(B_s)$ を E に、さらに定義する A-線型写像を標準と呼びます
+$\rho_*(B_s)$ には右B-加群構造があるため、左B-加群構造は $\tilde{\rho}(E)$ (§ 1, no. 14) から導出され、$u \in \tilde{\rho}(E)$ と $b' \in B$ の場合、$b'u$ は準同型になります。 $\rho_*(B_s)$ の $b \mapsto u(bb')$ を E に変換します。さらに定義する A-線型写像を標準と呼びます
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -189,7 +189,7 @@ $$
 $$
 \operatorname{Hom}_B(F, \tilde{\rho}(E)) \to \operatorname{Hom}_A(\rho_*(F), E)
 $$
-これは、F のすべての B-線型写像 g を $\tilde{\rho}(E)$ に結合し、合成写像 $\eta \circ g$ を E に $\rho_*(F)$ の A-線型写像として考慮します。特に、命題 2 の仮説の下で、F を $\sigma_*(C_s)$ に置き換えると、正準が得られます。 C-同型性
+これは、F のすべての B-線型写像 g を $\tilde{\rho}(E)$ に関連付け、合成写像 $\eta \circ g$ を E への $\rho_*(F)$ の A-線型写像とみなします。特に、命題 2 の仮説の下で、F を $\sigma_*(C_s)$ に置き換えると、正準が得られます。 C-同型性
 $$
 \tilde{\sigma}(\tilde{\rho}(E)) \to (\sigma \circ \rho)^*(E).
 $$
@@ -200,7 +200,7 @@ $\rho : A \to B$ を環準同型とします。 左A-加群 E ごとに、標準
 $$
 \phi_E : E \to \rho_*(\rho^*(E))
 $$
-は、$\phi_E(x) = 1 \otimes x$ のように no. 1 で定義されました。ここで、左B-加群 F と命題を適用する 1 (no. 1) から準同型 $l_{\rho_*(F)} : \rho_*(F) \to \rho_*(F)$ までを考えます。B-線型写像が得られます。
+は no. 1 で $\phi_E(x) = 1 \otimes x$ のように定義されました。ここで、左B-加群 F と命題を適用する 1 (no. 1) から準同型 $l_{\rho_*(F)} : \rho_*(F) \to \rho_*(F)$ を検討すると、B-線型写像が得られます。
 
 $$
 \psi_F : \rho^*(\rho_*(F)) \to F
@@ -220,7 +220,7 @@ $$
 \rho_*(E) \xrightarrow{\phi_{\rho_*(F)}} \rho_*(\rho^*(\rho_*(F))) \xrightarrow{\rho_*(\psi_F)} \rho_*(F)
 $$
 
-*はそれぞれ、$\rho^*(E)$および$\rho_*(F)$の恒等写像に等しい。*
+*はそれぞれ、$\rho^*(E)$と$\rho_*(F)$の恒等写像に等しい。*
 
 たとえば、(12) の場合は証明となります。すべての $x \in E$、写像 $\rho^*(\phi_E)$ 写像 $1 \otimes x$ ～ 元 $1 \otimes (1 \otimes x)$ および写像 $\psi_{\rho^*(E)}$ 写像 $1 \otimes (1 \otimes x)$ ～ 元 $1 \otimes x$;結論は、形 $1 \otimes x$ 生成する B-加群 $\rho^*(E)$ の元という事実から得られます。 (13) の場合、証明はさらに簡単です。
 
@@ -252,7 +252,7 @@ $$
 
 $A$ を *可換* 環、$B$ 環、$\rho : A \to B$ 環準同型および $E, F$ 2 つの $A$ モジュールとしましょう。 $B$ は ($\rho$ による) $(A, A)$ バイモジュールであり、$F$ は $(A, A)$ バイモジュールと見なすことができるため、$\mathbf{Z}$ モジュール上には $B \otimes_A F$ *2 つの* $A$ モジュール構造があり、その下にそれぞれ$a \in A,\ b \in B,\ y \in F$の場合は$a(b \otimes y) = (\rho(a)b) \otimes y$と$a(b \otimes y) = b \otimes (ay)$。このように定義された 2 つの $A$ モジュールを $G'$ と $G''$ で表すことにします。さらに、$G'$ は単なる $A$ モジュール $\rho_*(\rho^*(F))$ です。
 
-This being so, in the definition of the canonical homomorphism of § 4, no. 2, formula (7), we replace $B$ by $A$, the $B$-module $F$ by the ring $B$ considered as an $A$-module by means of $\rho$ and $G$ by $F$ considered as an $(A, A)$-bimodule; as $A$ is commutative, we may write the *canonical* $\mathbf{Z}$*-homomorphism* obtained as
+したがって、§ 4, no. 2の標準準同型の定義、公式 (7)では、$A$によって置き換える $B$、環$B$によって$B$-モジュール$F$が、 $\rho$ による $A$ モジュールと $F$ による $G$ モジュールは、$(A, A)$ バイモジュールと見なされます。 $A$ は可換なので、次のように得られる *正準* $\mathbf{Z}$*-準同型写像* を書くことができます。
 
 $$
 (15) \quad B \otimes_A \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(E, G'').
@@ -278,7 +278,7 @@ $$
 
 ここで、$r_b$ は、$B$ の $b$ による右乗法を表します。
 
-Moreover, the hypothesis that $\omega$ is a *central* homomorphism implies that $(bb')\rho(a) = b\rho(a))b'$ for $b,\ b'$ in $B$ and $a \in A$; in other words the *right* $B$-module structure of $B_d$ is *compatible* with its $A$-module structure; it thus defines on $B \otimes_A \operatorname{Hom}_A(E, F)$ a *right* $B$*-module* structure (§ 3, no. 4) and also on $F_{(B)} = B \otimes_A F$, and finally, as the left and right $B$-module structures on $F_{(B)}$ are *compatible*, a *right* $B$*-module* structure is also obtained on $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14). 次に、(17) がこれらの構造に対して *正しい* $B$*-モジュール* 準同型* であることがすぐに検証されます。
+さらに、$\omega$ が *中心* 準同型であるという仮説は、$B$ と $a \in A$ の $b,\ b'$ が $(bb')\rho(a) = b\rho(a))b'$ であることを意味します。言い換えれば、$B_d$ の *正しい* $B$ モジュール構造は、その $A$ モジュール構造と * 互換性があります。したがって、$B \otimes_A \operatorname{Hom}_A(E, F)$ で *right* $B$*-module* 構造 (§ 3, no. 4) と $F_{(B)} = B \otimes_A F$ で定義され、最後に、$F_{(B)}$ の左右の $B$-module 構造が *互換性* であるため、*right* $B$*-module* 構造も取得されます。 $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14)。 次に、(17) がこれらの構造に対して *正しい* $B$*-モジュール* 準同型* であることがすぐに検証されます。
 
 #### 命題 7 {#alg-ii-s5-prop-7 .statement tag=05QN}
 

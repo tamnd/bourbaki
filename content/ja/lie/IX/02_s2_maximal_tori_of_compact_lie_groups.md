@@ -37,16 +37,16 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: eaab80908c502009c16544efbfcde866be1b9f2cd76a0dc86aabde1ad1cfe2d7
+content_sha256: c6f443d4778433bce8034afc57d220578ee6be77ffaa4b9ddf81f5c7c5cf72ae
 translated_from: content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md
 translation_method: google
 source_content_sha256: 09376883a430ceee6e2f9d7416163648064cb06680a75c0f4d800750884c66c2
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5a375f892b1da4a9a918db010ac990f65bdbbe803b8308936081810d027442de
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 コンパクト・リー群の最大トーラス
@@ -73,11 +73,11 @@ $\mathfrak{g}$ をコンパクトリー 代数とします。 The Cartan subalge
 
 $\mathfrak{g}$ は還元的であるため、そのカルタン部分代数は可換です (第 2 章、コリント 3 章、VII, §2, no. 4)。逆に、$\mathfrak{t}$を$\mathfrak{g}$の可換部分代数とします。 §1, no. 3、提案 1 により、広告 $x$ はすべての $x\in \mathfrak{t}$ に対して半単純になります。章著VII, §2, no. 3、提案 10、$\mathfrak{g}$ 含む $\mathfrak{t}$ のカルタン部分代数が存在します。これは、定理の最初の主張を証明します。
 
-ここで、$\mathfrak{t}$ と $\mathfrak{t}'$ を $\mathfrak{g}$ の 2 つのカルタン部分代数とします。 $u(\mathfrak{t}) =\mathfrak{t}'$ となる $u\in$ Int($\mathfrak{g}$) が存在することを証明します。 By Prop. 1 of §1, no. 3, we can assume that $\mathfrak{g}$ is of the form L(G), where G is a connected compact Lie group, and can choose a separating invariant symmetric bilinear form F on $\mathfrak{g}$. $x$ (それぞれ $x'$) を $\mathfrak{g}$ の正則元とし、$\mathfrak{t}=\mathfrak{g}^0(x)$ (それぞれ $\mathfrak{t}'=\mathfrak{g}^0(x')$) とします (第 2 章、VII, §3, no. 3)。 適用補題 1 K = G の場合、[(Ad $k$)$(x), x']$ は F に関して $\mathfrak{g}$ に直交し、したがって零となるような $k\in G$ が存在することがわかります。 (広告 $k$)$(x)\in \mathfrak{g}^0(x') =\mathfrak{t}'$ なので、(広告 $k$)$(x)$ が正規なので、$\mathfrak{g}^0$((広告 $k$)$(x)$) $=\mathfrak{t}'$ となります。 私たちは結論する、(広告$k$)$(\mathfrak{t}) =\mathfrak{t}'$、したがって定理です。
+ここで、$\mathfrak{t}$ と $\mathfrak{t}'$ を $\mathfrak{g}$ の 2 つのカルタン部分代数とします。 $u(\mathfrak{t}) =\mathfrak{t}'$ となる $u\in$ Int($\mathfrak{g}$) が存在することを証明します。 §1, no. 3 の提案 1 により、$\mathfrak{g}$ は L(G) の形式であると仮定できます。ここで、G は接続されたコンパクトなリー群であり、$\mathfrak{g}$ 上の分離不変対称双線形形式 F を選択できます。 $x$ (それぞれ $x'$) を $\mathfrak{g}$ の正則元とし、$\mathfrak{t}=\mathfrak{g}^0(x)$ (それぞれ $\mathfrak{t}'=\mathfrak{g}^0(x')$) とします (第 2 章、VII, §3, no. 3)。 適用補題 1 K = G の場合、[(Ad $k$)$(x), x']$ は F に関して $\mathfrak{g}$ に直交し、したがって零となるような $k\in G$ が存在することがわかります。 (広告 $k$)$(x)\in \mathfrak{g}^0(x') =\mathfrak{t}'$ なので、(広告 $k$)$(x)$ が正規なので、$\mathfrak{g}^0$((広告 $k$)$(x)$) $=\mathfrak{t}'$ となります。 私たちは結論する、(広告$k$)$(\mathfrak{t}) =\mathfrak{t}'$、したがって定理です。
 
 #### 系 {#lie-ix-s2-n1-cor-1 .statement tag=01A1}
 
-Let $\mathfrak{t}$ and $\mathfrak{t}'$ be Cartan subalgebras of $\mathfrak{g},\mathfrak{a}$ a subset of $\mathfrak{t}$, and $u$ an automorphism of $\mathfrak{g}$ that takes $\mathfrak{a}$ into $\mathfrak{t}'$. $u\circ v$ が $\mathfrak{t}$ から $\mathfrak{t}'$ を取るような Int($\mathfrak{g}$) の元 $v$ が存在し、$\mathfrak{a}$ で $u$ を持つ一致するが存在します。
+$\mathfrak{t}$と$\mathfrak{t}'$を$\mathfrak{g},\mathfrak{a}$のカルタン部分代数、$\mathfrak{t}$の部分集合、$\mathfrak{g}$の$u$自己同型とし、$\mathfrak{a}$を$\mathfrak{t}'$に加えます。 $u\circ v$ が $\mathfrak{t}$ を$\mathfrak{t}'$ に取り、一致するが $\mathfrak{a}$ で $u$ になるような Int($\mathfrak{g}$) の元 $v$ が存在します。
 
 G = Int($\mathfrak{g}$) と置き、G の $\mathfrak{a}$ の固定子 $Z_G(\mathfrak{a})$ を考えます。これは G の嘘部分群であり、そのリー代数 $\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$ は $\mathfrak{a}$ のすべての元と交換する $\mathfrak{g}$ の元で構成されます (章 III, §9, no. 3、提案 7)。すると、$\mathfrak{t}$と$u^{-1}(\mathfrak{t}')$は、コンパクトリー代数$\mathfrak{z}_{\mathfrak{g}}(\mathfrak{a})$の2つのカルタン部分代数になります。 Thさんより1、$v(\mathfrak{t}) =u^{-1}(\mathfrak{t}')$となるような$Z_G(\mathfrak{a})$のうち元$v$が存在します。そのような元には、望ましい特性があります。
 
@@ -165,7 +165,7 @@ $h\in H$ にしましょう。この場合、$h^{-1}Th$ は $H_0$ の最大ト�
 
 #### 注意 3 {#lie-ix-s2-n2-rem-3 .statement tag=01AD}
 
-G を接続されたリー群とし、そのリー代数はコンパクトです。 G のカルタン部分群は積分部分群であり、そのリー代数は L(G) のカルタン部分代数です (したがって、接続されたコンパクト群のカルタン部分群はその最大トーラスです)。 定理 2 とその帰結は、どこでも「カルタン部分群」による「最大トーラス」という表現をどこでも置き換える ⟧ ⟧ ⟧ ⟧ とすると、G に対して引き続き有効です。 これは、§1, no. 4 の提案 5 を考慮すると、G はベクトル群 V の直接積であり、接続されたコンパクト群 K であり、G のカルタン部分群は、最大トーラスを持つ V の積であるという事実からすぐに得られます。 K. さらに、それはコルから続くことに注意してください。 6 上記の G のカルタン部分群は、L(G) のカルタン部分代数のフィクサーとしても定義できます。
+G を接続されたリー群とし、そのリー代数はコンパクトです。 G のカルタン部分群は積分部分群であり、そのリー代数は L(G) のカルタン部分代数です (したがって、接続されたコンパクト群のカルタン部分群はその最大トーラスです)。 定理 2 とその帰結は、「最大トーラス」という表現をすべて「カルタン部分群」に置き換えた場合でも、G に対して引き続き有効です。 これは、§1, no. 4 の提案 5 を考慮すると、G はベクトル群 V の直接積であり、接続されたコンパクト群 K であり、G のカルタン部分群は、最大トーラスを持つ V の積であるという事実からすぐに得られます。 K. さらに、それはコルから続くことに注意してください。 6 上記の G のカルタン部分群は、L(G) のカルタン部分代数のフィクサーとしても定義できます。
 
 $^*4)$ 部分定理 2 の c) は次のように証明することもできます。 G に不変リーマン計量を与えます (§1, no. 3、提案 3)。次に、G の任意の元 $g$ について、G の $g$ および単位元までの最大測地線移行が存在し (ホップリノウ定理)、そのような測地線の閉包が $G$ のサブトーラスであることを検証できます。\*
 
@@ -227,7 +227,7 @@ $$
 
 G をコンパクト・リー群、H を極大値階数の G の閉じた部分群に接続し、G における H の正規化子を N とします。そのとき、H は N における有限添字であり、N の単位成分です。
 
-Indeed, the Lie algebra of H contains a Cartan subalgebra of L(G). したがって、Chap. VII, §2, no. 1、コル。提案 4 の 4、H は N の同一性成分です。 N はコンパクトなので、H は N において有限添字になります。
+確かに、H のリー代数 L(G) の含むカルタン部分代数です。したがって、Chap. VII, §2, no. 1、コル。提案 4 の 4、H は N の単位成分です。N はコンパクトなので、H は N において有限添字です。
 
 #### 注意 1 {#lie-ix-s2-n4-rem-1 .statement tag=01AK}
 
@@ -253,7 +253,7 @@ $g\in G$ にしましょう。 Th 著no. 2 の 2 には、$g\in hTh^{-1}$ とな
 
 #### 系 1 {#lie-ix-s2-prop-5-cor-1 .statement tag=01JA}
 
-The canonical injection of T into G defines by passage to the quotient a homeomorphism from $T/W_G(T)$ to the space $G/$Int(G) of conjugacy classes of G.
+T の G への標準注入は、商への通過によって、G の共役クラスの $T/W_G(T)$ から空間 $G/$Int(G) への同型写像を定義します。
 
 実際、これは 2 つのコンパクトな空間 (cf. 一般位相、Chap. III、p. 29、Cor. 1) の間の全単射連続写像です。
 
@@ -307,13 +307,13 @@ G を接続されたコンパクト・リー群、T を G の最大値トーラ�
 
 H をリー群のリー群、$f_T: T\rightarrow H$、$\widetilde{f}: \widetilde{D}(G)\rightarrow H$ 射とし、すべての $t\in \widetilde{T}$ に対して $f_T(p(t)) = \widetilde{f}(t)$ とします。 リー群 $f: G\rightarrow H$ の $f\circ p= \widetilde{f}$ と、T に対する $f$ の制限が $f_T$ となるような一意な準同型が存在します。
 
-Put $Z = C(G)_0$; by §1, no. 4, Cor. 1 of Prop. 4, the morphism of Lie groups $g: Z\times \widetilde{D}(G)\rightarrow G$ such that $g(z, x) =z^{-1}p(x)$ is a covering; its kernel consists of the pairs $(z, x)$ such that $p(x) =z$, for which $x\in p^{-1}(Z)\subset \widetilde{T}$. $Z\times \widetilde{D}(G)$ から H 写像 Ker $g$ から $\{e\}$ までの射 $(z, x) \rightarrow f_T(z^{-1}) \widetilde{f}(x)$ なので、$z\in Z$ に対して $f\circ p= \widetilde{f}$ と $f(z) =f_T(z)$ となるような G から H までの射 $f$ が存在します。 しかし、$t\in p( \widetilde{T})$ には $f(t) =f_T(t)$ もあります。 $T = Z.p( \widetilde{T})$, $f$ の制限から T は確かに $f_T$ です。
+$Z = C(G)_0$を入れてください。 §1, no. 4、Cor.提案 4 の 1、リー群 $g: Z\times \widetilde{D}(G)\rightarrow G$ の射で、$g(z, x) =z^{-1}p(x)$ がカバーになります。その核は対 $(z, x)$ で構成され、$p(x) =z$ に対して $x\in p^{-1}(Z)\subset \widetilde{T}$ が含まれます。 $Z\times \widetilde{D}(G)$ から H 写像 Ker $g$ から $\{e\}$ までの射 $(z, x) \rightarrow f_T(z^{-1}) \widetilde{f}(x)$ なので、$z\in Z$ に対して $f\circ p= \widetilde{f}$ と $f(z) =f_T(z)$ となるような G から H までの射 $f$ が存在します。 しかし、$t\in p( \widetilde{T})$ には $f(t) =f_T(t)$ もあります。 $T = Z.p( \widetilde{T})$, $f$ の制限から T は確かに $f_T$ です。
 
 #### 命題 8 {#lie-ix-s2-prop-8 .statement tag=01AP}
 
 G を接続されたコンパクト・リー群、T を G の最大トーラス、H リー群およびリー代数の $\varphi : L(G)\rightarrow L(H)$ 準同型とします。 リー群 $f: G\rightarrow H$ のうち $L(f) =\varphi$ となる射が存在するのは、$L(f_T) =\varphi |L(T)$ となるリー群 $f_T: T\rightarrow H$ のうち射が存在する場合に限ります。次に$f_T=f|T$。
 
-If $f: G\rightarrow H$ is a morphism of Lie groups such that $L(f) =\varphi$, the restriction $f_T$ of $f$ to T is the unique morphism from T to H such that $L(f_T) =\varphi |L(T)$. 逆に、$f_T: T\rightarrow H$ を $L(f_T) =\varphi |L(T)$ となるようなリー群の射とします。 $\widetilde{D}(G)$ と $p$ を上記の通りとします。 $L( \widetilde{D}(G))$ から L(G) の派生代数 $\mathfrak{b}$ までの写像 $L(p)$ 誘導する同型。 $L( \widetilde{f}) = (\varphi |\mathfrak{b})\circ L(p)$ となるようなリー群 $\widetilde{f}: \widetilde{D}(G)\rightarrow H$ の射が存在します (第 1 章、III, §6, no. 1)。 $\widetilde{T}$ から H 誘導するまでの射 $t \rightarrow \widetilde{f}(t)$ と $t \rightarrow f_T(p(t))$ は、リー代数の準同型と同じなので、一致するになります。 適用補題 2 から、L(T) と $\mathfrak{b}$ に $L(f)$ と $\varphi$ 一致するが存在するように、射 $f: G\rightarrow H$ の存在を推定します。 $L(G) =\mathfrak{b}+ L(T)$ なので、$L(f) =\varphi$ になります。
+$f: G\rightarrow H$ が $L(f) =\varphi$ のようなリー群の射である場合、$f$ の T に対する制限 $f_T$ は、$L(f_T) =\varphi |L(T)$ のような T から H への一意の射です。 逆に、$f_T: T\rightarrow H$ を $L(f_T) =\varphi |L(T)$ となるようなリー群の射とします。 $\widetilde{D}(G)$ と $p$ を上記の通りとします。 $L( \widetilde{D}(G))$ から L(G) の派生代数 $\mathfrak{b}$ までの写像 $L(p)$ 誘導する同型。 $L( \widetilde{f}) = (\varphi |\mathfrak{b})\circ L(p)$ となるようなリー群 $\widetilde{f}: \widetilde{D}(G)\rightarrow H$ の射が存在します (第 1 章、III, §6, no. 1)。 $\widetilde{T}$ から H 誘導するまでの射 $t \rightarrow \widetilde{f}(t)$ と $t \rightarrow f_T(p(t))$ は、リー代数の準同型と同じなので、一致するになります。 適用補題 2 から、L(T) と $\mathfrak{b}$ に $L(f)$ と $\varphi$ 一致するが存在するように、射 $f: G\rightarrow H$ の存在を推定します。 $L(G) =\mathfrak{b}+ L(T)$ なので、$L(f) =\varphi$ になります。
 
 #### 命題 9 {#lie-ix-s2-prop-9 .statement tag=01AQ}
 

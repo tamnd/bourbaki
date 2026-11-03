@@ -38,34 +38,34 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: fb63bd0996b2b99551137b21442d7295a10053b2660c214cda4d7cf52afed387
+content_sha256: 2e20b2343e9fe7d9299df578523735c6ea2c58b904426266935fdb10443e34e0
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
 translation_method: google
 source_content_sha256: d99f913e6231ffa43f0356d794c4b307be8a5cb9b275a18c87c2f41e23c6d2fe
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 12cf6c2515f7c4f3e156ac173745d6805c5a7c56632e7e0081504d2fd7196f82
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 テンソル代数、テンソル
 
 ### 1. 定義/テンソル代数/加群
 
-Aを可換環、MをA-加群とします。 M に等しい $n$ 加群のすべての整数 $n \geqslant 0$、A-加群テンソル積 (M の *n 番目のテンソル冪* とも呼ばれます) は、$\bigotimes^n M$、$M^{\otimes n}$、または$T^n(M)$、または $T^n_A(M)$、または $\mathrm{Tens}^n(M)$;次に$T^1(M) = M$; $T^0(M) = A$ とも書きます。 A-加群 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ は $T(M)$ または $\mathrm{Tens}(M)$ で表されます。 整数 $p \geqslant 0, q \geqslant 0$、A-線型写像のすべての注文済み対を定義することで、$T(M)$ で型 $\mathbf{N}$ の等級付けされた A-代数構造を定義するとします。
+A を可換環、M を A-加群とします。 $n$ 加群のすべての整数 $n \geqslant 0$、A-加群テンソル積が M に等しい (M の *n 番目のテンソル冪* とも呼ばれます) は、$\bigotimes^n M$、$M^{\otimes n}$、または$T^n(M)$、または $T^n_A(M)$、または $\mathrm{Tens}^n(M)$;次に$T^1(M) = M$; $T^0(M) = A$ とも書きます。 A-加群 *直和* $\bigoplus_{n \geqslant 0} T^n(M)$ は $T(M)$ または $\mathrm{Tens}(M)$ で表されます。 整数 $p \geqslant 0, q \geqslant 0$、A-線型写像のすべての注文対を定義することで、$T(M)$ に型 $\mathbf{N}$ のA-代数構造を定義するとします。
 $$
 m_{pq} : T^p(M) \otimes_A T^q(M) \to T^{p+q}(M)
 $$
-($§ 3$、no. 1、*注意*)。 $p > 0$ と $q > 0$ の場合、$m_{pq}$ は結合性同型 (II、$§ 3$、no. 9) であり、$p = 0$ (それぞれ$q = 0$) の場合、$m_{0,q}$ は結合性の標準同型になります。 $A \otimes_A T^q(M)$ から $T^q(M)$ (それぞれ $m_{p,0}$ は $T^p(M) \otimes_A A$ の標準同型から $T^p(M)$ (II、$§ 3$、no. 4、命題 4))。 次に、$x_i \in M$、$\alpha \in A$ については、
+($§ 3$、no. 1、*注意*)。 $p > 0$ と $q > 0$ の場合、$m_{pq}$ は結合性同型 (II、$§ 3$、no. 9) であり、$p = 0$ (それぞれ$q = 0$) の場合、$m_{0,q}$ は$A \otimes_A T^q(M)$ の標準同型が $T^q(M)$ に変換されます (それぞれ $m_{p,0}$ は $T^p(M) \otimes_A A$ の標準同型が $T^p(M)$ に変換されます (II、$§ 3$、no. 4、命題 4))。次に、$x_i \in M$、$\alpha \in A$ については、
 $$
 \begin{align}
 (x_1 \otimes \cdots \otimes x_p) \cdot (x_{p+1} \otimes \cdots \otimes x_{p+q}) &= x_1 \otimes \cdots \otimes x_p \otimes x_{p+1} \otimes \cdots \otimes x_{p+q} \\
 \alpha \cdot (x_1 \otimes \cdots \otimes x_p) &= \alpha(x_1 \otimes \cdots \otimes x_p).
 \end{align}
 $$
-$T(M)$ でこのように定義された乗法が *連想* であり、単位元単位元 1 の $A = T^0(M)$ として認められるのは明らかです。
+$T(M)$ でこのように定義された乗法が *連想* であり、単位元単位元 $A = T^0(M)$ の 1 であることが認められるのは明らかです。
 
 #### 定義 1 {#alg-iii-s5-def-1 .statement tag=061H}
 
@@ -77,15 +77,15 @@ $E$ を (単位的) $A$-代数、$f : M \to E$ を $A$-線形写像とする。 
 
 他の語では、$(T(M), \phi)$ は普遍写像問題 (集合理論, IV, § 3, no. 1) の解であり、$\Sigma$ は $A$-代数構造の種であり、 $\alpha$-写像は、加群 $M$ から $A$-代数への $A$-線形写像です。ここでは、$T(M)$ に卒業することに疑問の余地がないことに注目してください。
 
-すべての有限家族 $n$ 元 $M$ の$(x_i)_{1 \leq i \leq n}$、$T(M)$、$x_1 \otimes x_2 \otimes \cdots \otimes x_n = \phi(x_1)\phi(x_2)\ldots\phi(x_n)$ の積の定義について。その場合、$n \geq 1$ については必然的に $g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n)$ となり、$\alpha \in A$ については $g(\alpha) = \alpha e$ ($e$ が $E$ の単位元の場合) となり、$g$ の一意性が証明されます。 Conversely, note that, for all $n > 0$, the mapping
+すべての有限家族 $n$ 元 $M$ の$(x_i)_{1 \leq i \leq n}$、$T(M)$、$x_1 \otimes x_2 \otimes \cdots \otimes x_n = \phi(x_1)\phi(x_2)\ldots\phi(x_n)$ の積の定義について。その場合、$n \geq 1$ については必然的に $g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n)$ となり、$\alpha \in A$ については $g(\alpha) = \alpha e$ ($e$ が $E$ の単位元の場合) となり、$g$ の一意性が証明されます。 逆に、すべての $n > 0$ について、マッピングが
 $$
 (x_1, \ldots, x_n) \mapsto f(x_1)f(x_2)\ldots f(x_n)
 $$
-of $M^n$ into $E$ is $A$-multilinear; hence there corresponds to it an $A$-linear mapping $g_n : T^n(M) \to E$ such that
+$M^n$ の $E$ への変換は $A$ 多重線形です。したがって、それに対応する $A$ 線形マッピング $g_n : T^n(M) \to E$ が存在します。
 $$
 g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n).
 $$
-Also we define the mapping $g_0 : T^0(M) \to E$ as equal to $\eta_E$ ($§ 1$, no. 3), in other words $g_0(\alpha) = \alpha e$ for $\alpha \in A$. $g$ を、$T(M)$ から $E$ への一意の $A$ 線形マッピングとし、制限から $T^n(M)$ が $g_n$ ($n \geq 0$) であるとします。 $g \circ \phi = g_1 = f$ は明らかであり、$g$ が $A$-代数準同型であることを検証する必要があります。 構成 $g(1) = e$ により、線形性により、$u \in T^p(M)$ と $v \in T^q(M)$ ($p > 0, q > 0$) に対して $g(uv) = g(u)g(v)$ であることが示されれば十分です。さて、式(1)と(2)から、この関係は$u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$と$v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$($x_i$属するから$E$)のときに真であることがわかります。 したがって、線形性により、$u \in T^p(M)$ と $v \in T^q(M)$ に当てはまります。
+また、マッピング $g_0 : T^0(M) \to E$ を $\eta_E$ ($§ 1$、no. 3)、つまり $\alpha \in A$ に対する $g_0(\alpha) = \alpha e$ に等しいものとして定義します。 $g$ を、$T(M)$ から $E$ への一意の $A$ 線形マッピングとし、制限から $T^n(M)$ が $g_n$ ($n \geq 0$) であるとします。 $g \circ \phi = g_1 = f$ は明らかであり、$g$ が $A$-代数準同型であることを検証する必要があります。 構成 $g(1) = e$ により、線形性により、$u \in T^p(M)$ と $v \in T^q(M)$ ($p > 0, q > 0$) に対して $g(uv) = g(u)g(v)$ であることが示されれば十分です。さて、式(1)と(2)から、この関係は$u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$と$v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$($x_i$属するから$E$)のときに真であることがわかります。 したがって、線形性により、$u \in T^p(M)$ と $v \in T^q(M)$ に当てはまります。
 
 #### 注意 {#alg-iii-s5-n1-rem-1 .statement tag=061J}
 
@@ -164,11 +164,11 @@ $$
 \mathbf{T}^n(u) : \mathbf{T}^n(M) \to \mathbf{T}^n(N)
 $$
 
-is surjective, as is seen by induction on $n$ using II, § 3, no. 6, Proposition 6; the latter proposition also shows, by induction on $n$, that the kernel $\mathfrak{I}_n$ of $T^n(u)$ is the submodule of $T^n(M)$ generated by the products
+II, § 3, no. 6、命題 6 を使用して $n$ の帰納法で見られるように、は全射的です。後者の命題は、$n$の帰納法によって、$T^n(u)$の$\mathfrak{I}_n$核が積によって生成された$T^n(M)$の部分加群であることも示しています。
 $$
 x_1 \otimes x_2 \otimes \cdots \otimes x_n
 $$
-where at least one of the $x_i$ belongs to $P$. これは、$T(u)$の核$\mathfrak{I} = \bigoplus_{n \geq 1} \mathfrak{I}_n$が、$T(M)$の$P$によって生成された両側イデアルであることを示しています。
+ここで、$x_i$ 属する ～ $P$ のうちの少なくとも 1 つです。これは、$T(u)$の核$\mathfrak{I} = \bigoplus_{n \geq 1} \mathfrak{I}_n$が、$T(M)$の$P$によって生成された両面イデアルであることを示しています。
 
 $u : M \to N$ が*単射詞* 線形写像である場合、$T(u)$ が単射詞写像 (練習問題 1) であるとは限りません。ただし、これは、$u$ が単射で、$u(M)$ が $N$ の *直因子* である場合に当てはまります。その場合、$v \circ u$ が $M$ で恒等写像であるような線形写像 $v : N \to M$ が存在するため、
 $$
@@ -249,7 +249,7 @@ $$
 
 *$K$を可換体、$M$ベクトル空間を$K$とします。 元 $z \in T(M)$ ごとに、$M$ の最小のベクトル空間 $N$ が存在し、$z \in T(N)$ と $N$ は $K$ を超える有限階数になります。*
 
-この主張では、$M$ のベクトル部分空間 $P$ ごとに、$T(P)$ が $T(M)$ の部分代数と正規に識別されることがわかります。 Let $z \in T(M)$; $z$ can be expressed as a linear combination of elements each of which is a finite product of elements of $M = T^1(M)$; all the elements of $M$ which occur in these products generate a vector subspace $Q$ of finite rank and $z \in T(Q)$.
+この主張では、$M$ のベクトル部分空間 $P$ ごとに、$T(P)$ が $T(M)$ の部分代数と正規に識別されることがわかります。 $z \in T(M)$ にしましょう。 $z$ は、元の線形結合として表現でき、それぞれは $M = T^1(M)$ の元の有限の積です。これらの積生成するベクトル部分空間 $Q$ の有限階数と $z \in T(Q)$ で発生する $M$ の元のすべて。
 
 $\mathscr{F}$ を、有限階数のベクトル部分空間 $P$ の (空でない) 集合とし、$z \in T(P)$ とします。 $\mathscr{F}$ の元のすべての減少列は、有限階数のベクトル空間であるため、静止しています。したがって、$\mathscr{F}$ には最小の元 $N$ (集合理論, III, § 6, no. 5) が含まれます。 $P \in \mathscr{F}$ 含む $N$ ごとに検証する必要があります。今、$z \in T(P) \cap T(N) = T(P \cap N)$ (命題 4); $N$の定義を考慮すると、これは$N \cap P = N$、つまり$P \supset N$を意味します。
 
@@ -257,7 +257,7 @@ $M$ の部分空間 $N$ は、$z$ と *関連付けられている*と言われ�
 
 ### 3. スカラーの環の拡大
 
-$A, A'$ を 2 つの可換環と $\rho : A \to A'$ 環準同型とします。 Let $M$ be an $A$-module, $M'$ an $A'$-module and $u : M \to M'$ an $A$-homomorphism; as the canonical injection $\phi_{M'} : M' \to T_{A'}(M')$ is also an $A$-homomorphism (by restriction of scalars), so is the composition $M \xrightarrow{u} M' \xrightarrow{\phi_{M'}} T_{A'}(M')$. $A$-代数準同型性 $T_A(M) \to \rho^*(T_{A'}(M'))$ が導出され (no. 2)、$T(u) : T_A(M) \to T_{A'}(M')$ によっても示されます。これは、図式を可換にする固有の $A$-準同型性です。
+$A, A'$ を 2 つの可換環と $\rho : A \to A'$ 環準同型とします。 $M$ を $A$ 加群、$M'$ を $A'$ 加群、$u : M \to M'$ を $A$ 準同型とする。 標準単射 $\phi_{M'} : M' \to T_{A'}(M')$ も $A$ 準同型写像 (スカラーの制限による) であるため、 合成 $M \xrightarrow{u} M' \xrightarrow{\phi_{M'}} T_{A'}(M')$ も同様です。 $A$-代数準同型性 $T_A(M) \to \rho^*(T_{A'}(M'))$ が導出され (no. 2)、$T(u) : T_A(M) \to T_{A'}(M')$ によっても表されます。これは、図式を可換にする固有の $A$-準同型性です。
 
 $$
 \begin{array}{ccc}
@@ -267,7 +267,7 @@ T_A(M) & \xrightarrow{T(u)} & T_{A'}(M')
 \end{array}
 $$
 
-If $\sigma : A' \to A''$ is a commutative ring homomorphism, $M''$ an $A''$-module and $v : M' \to M''$ an $A'$-homomorphism, the above uniqueness property shows that
+$\sigma : A' \to A''$ が可換環準同型、$M''$ が $A''$ 加群、$v : M' \to M''$ が $A'$ 準同型である場合、上記の一意性性質は次のことを示します。
 
 $$
 T(v \circ u) = T(v) \circ T(u).
@@ -275,13 +275,13 @@ $$
 
 #### 命題 5 {#alg-iii-s5-prop-5 .statement tag=061P}
 
-*$A, B$ を 2 つの可換環、$\rho : A \to B$ 環準同型、および $M$ の $A$ モジュールとします。正規の拡大*
+*$A, B$ を 2 つの可換環、$\rho : A \to B$ 環準同型、および $M$ を $A$ モジュールとします。正規の拡大*
 
 $$
 \psi : T_B(B \otimes_A M) \to B \otimes_A T_A(M)
 $$
 
-*B-線型写像* $l_B \otimes \phi_M : B \otimes_A M \to B \otimes_A T_A(M)$ * は段階的 B 代数* の同型です。
+*B-線型写像* $l_B \otimes \phi_M : B \otimes_A M \to B \otimes_A T_A(M)$ *は段階的 B 代数*の同型です。
 
 2 つの $A$-代数準同型性: 標準単射 $j : B = T^0(B \otimes_A M) \to T(B \otimes_A M)$ と準同型を考えてみましょう。
 
@@ -289,27 +289,27 @@ $$
 h = T(i) : T(M) \to T(B \otimes_A M)
 $$
 
-正準 $A$ 線形マッピングから導出された (cf. 公式 (8))
+標準的 $A$ 線形マッピングから導出 (cf. 公式 (8))
 
 $$
 i : M \to B \otimes_A M.
 $$
 
-$T^0(B \otimes_A M)$は$T(B \otimes_A M)$の中心に含まれるので、§ 4, no. 2の命題5が適用でき、A-代数準同型が可能です
+$T^0(B \otimes_A M)$は$T(B \otimes_A M)$の中心に含まれるので、§ 4, no. 2の命題5が当てはまり、A-代数準同型
 
 $$
 \psi': B \otimes_A T(M) \to T(B \otimes_A M)
 $$
 
-は、$1 \leq i \leq n$ の $\beta \in B, x_i \in M$ に対して、
+は、$1 \leq i \leq n$ に対して $\beta \in B, x_i \in M$ に対して、
 
 $$
 \psi'(\beta \otimes (x_1 \otimes x_2 \otimes \cdots \otimes x_n)) = \beta((1 \otimes x_1) \otimes (1 \otimes x_2) \otimes \cdots \otimes (1 \otimes x_n)),
 $$
 
-これは、$\psi'$ も B 代数準同型であることをすぐに示します。 $\psi \circ \psi'$ と $\psi' \circ \psi$ がそれぞれ $B \otimes_A T(M)$ と $T(B \otimes_A M)$ で恒等写像であることを証明すれば十分です。さて、これら 2 つの代数は、$B \otimes_A M$ によって生成され、明らかに $\psi \circ \psi'$ と $\psi' \circ \psi$ 一致すると、$B \otimes_A M$ の恒等写像 、よっての結論です。
+これは、$\psi'$ も B 代数準同型であることをすぐに示します。 $\psi \circ \psi'$ と $\psi' \circ \psi$ がそれぞれ $B \otimes_A T(M)$ と $T(B \otimes_A M)$ で恒等写像であることを証明すれば十分です。さて、これら 2 つの代数は $B \otimes_A M$ によって生成され、明らかに $\psi \circ \psi'$ と $\psi' \circ \psi$ 一致するで、$B \otimes_A M$、よってに恒等写像が加わります。
 
-### 4. 直接極限/テンソル代数
+### 4. 直接極限のテンソル代数
 
 $(A_\alpha, \phi_{\beta \alpha})$ を、$A_\alpha$ モジュール (II, § 6, no. 2) の可換環および $(M_\alpha, f_{\beta \alpha})$ 直接系の有向直接系とします。 $A = \lim \rightarrow A_\alpha$ と $M = \lim \rightarrow M_\alpha$ を考えます。これは $A$ モジュールです。 $\alpha \leq \beta$ の場合、$A_\alpha$-代数準同型 (no. 3, 公式 (8)) $f'_{\beta \alpha} = T(f_{\beta \alpha}): T_{A\alpha}(M_\alpha) \to T_{A\beta}(M_\beta)$ は $A_\alpha$-準準同型 $f_{\beta \alpha}: M_\alpha \to M_\beta$ から正準的に導出され、(9) (no. 3) から $(T_{A\alpha}(M_\alpha), f'_{\beta \alpha})$ は*$A_\alpha$-代数*の直接系。一方、$f'_\alpha: M_\alpha \to M$ を標準的な $A_\alpha$ 準同型写像とします。 $A_\alpha$-代数準同型性 $f'_\alpha: T_{A\alpha}(M_\alpha) \to T_A(M)$ が導出され (no. 3, 公式 (8))、また (9) (no. 3) から、$f'_\alpha$ が $A_\alpha$-準同型性の直接系を構成することがわかります。
 
@@ -405,7 +405,7 @@ $M$ は空き $A$ モジュール $N$ (II, § 2, no. 2、命題 4) の直因子�
 
 ### 6. テンソルとテンソル記法
 
-$A$を可換環、$M$を$A$モジュール、$M^*$を$M$(II, § 2, no. 3)と$I$と$J$の2つの*互いに素有限*集合の*双対*とします。 $A$モジュール$\bigotimes_{i \in I \cup J} E_i$。$i \in I$の場合は$E_i = M$、$i \in J$の場合は$E_i = M^*$は$T^I_J(M)$で表されます。 $T^I_J(M)$の元は、$M$よりも*型*のテンソル*$(I, J)$と呼ばれます。 $J = \varnothing$ の場合は *反変*、$I = \varnothing$ の場合は *共変*、それ以外の場合は *混合*と呼ばれます。
+$A$を可換環、$M$を$A$モジュール、$M^*$を$M$(II, § 2, no. 3)と$I$と$J$の2つの*互いに素有限*集合の*双対*とします。 $A$モジュール$\bigotimes_{i \in I \cup J} E_i$。$i \in I$の場合は$E_i = M$、$i \in J$の場合は$E_i = M^*$は$T^I_J(M)$で表されます。 $T^I_J(M)$ の元は、$M$ よりも型* $(I, J)$ の *テンソルと呼ばれます。 $J = \varnothing$ の場合は *反変*、$I = \varnothing$ の場合は *共変*、それ以外の場合は *混合*と呼ばれます。
 
 $I', I''$ を、$I$ の 2 つの部分集合と $J$ の 2 つの部分集合を$J', J''$ とし、$I' \cup I'' = I$ とします。
 

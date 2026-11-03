@@ -27,10 +27,10 @@ translation_method: google
 source_content_sha256: 62f888c305293cb384c8f41fb0d8824e2a25c39637bd4054f2e1ce6efe281846
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 33eb1a1c5eef4c15a4d2b1278a19d00974adca0e51e2d87f9b0a6bdfbcb9fa01
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。ハーン・バナッハ定理 (分析的形)

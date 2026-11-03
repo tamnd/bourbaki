@@ -25,16 +25,16 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: 0428c0fa5c45770f666ac38ab604fe0d451ec659dcea78eec6e4a61151189fae
+content_sha256: 21f1980b26a8a1594f34635669681451f7fd8a275b1dbe4975b94c45968111b9
 translated_from: content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md
 translation_method: google
 source_content_sha256: 9312e1a966f1c5bc60ded7611d1345461f06db492fc343d729b16bcbbd46a1c0
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1bdb78b112e2e48a785df31836f745f2d1213df76d1f29299409d2629c453cb4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。 ベクトルからリー群までの接線群
@@ -47,7 +47,7 @@ $$(u, v) = (u, 0) + (0, v)$$
 
 そして (u, 0) (それぞれ (0, v)) は、X (それぞれ Y) のX × Y への浸漬 x ↦ (x, b) (それぞれ y ↦ (a, y)) の接線写像の下にある u (それぞれ v) の像です。正確にする必要がある場合は、次のように書きます。 T_a(x) の零元には 0_a。
 
-Now let X, Y, Z be manifolds of class C^r and f a mapping of class C^r of X × Y into Z. 接線写像は、上記の同定を使用すると、T(X) × T(Y) の類 C^{r-1} の写像を T(Z) に変換したものになります。 u ∈ T_a(X) および v ∈ T_b(Y) の場合、
+ここで、X、Y、Z をクラス C^r の多様体とし、f を X × Y のクラス C^r の Z へのマッピングとします。 接線写像は、上記の同定を使用すると、T(X) × T(Y) の類 C^{r-1} の写像を T(Z) に変換したものになります。 u ∈ T_a(X) および v ∈ T_b(Y) の場合、
 
 (1)
 $$T(f)(u, v) = T(f)(u, 0_b) + T(f)(0_a, v),$$
@@ -96,9 +96,9 @@ $$
 
 *$X$ を類 $C^r$ の多様体、$m$ 法則の合成 、類 $C^r$ の $X$ および$e$ 単位元とします。 $m$。
 
-(i) *The vector $0_e$ is an identity element for $T(m)$.
-(ii) *$T_e(X)$ is stable under $T(m)$ and the law of composition induced on $T_e(X)$ by $T(m)$ is the vector space addition on $T_e(X)$.
-(iii) *Let $U$ be an open subset of $X$ and $\alpha$ a mapping of class $C^r$ of $U$ into $X$ such that, for all $x \in U$, $\alpha(x)$ is the inverse of $x$ under $m$. 次に、すべての $u \in T(U)$ について、$T(\alpha)u$ は $T(m)$ の下の $u$ の逆数になります。
+(i) *ベクトル $0_e$ は $T(m)$ の恒等要素です。
+(ii) *$T_e(X)$は$T(m)$下で安定であり、$T(m)$によって$T_e(X)$に誘発される合成法則は$T_e(X)$でのベクトル空間加算である。
+(iii) *$U$ を $X$ の開いたサブセットとし、$\alpha$ $U$ のクラス $C^r$ を $X$ にマッピングし、すべての $x \in U$ について、$\alpha(x)$ が以下の $x$ の逆になるようにします。 $m$。 次に、すべての $u \in T(U)$ について、$T(\alpha)u$ は $T(m)$ の下の $u$ の逆数になります。
 
 性質 (3) と (4) は、すべての $u \in T(X)$、よって (i) について $T(m)(0_e, u) = T(m)(u, 0_e) = u$ であることを示しています。 $T_e(X)$の$u, v$については、
 
@@ -116,7 +116,7 @@ $$
 
 #### 命題 3 {#lie-iii-s2-prop-3 .statement tag=0A90}
 
-*Let $X_1, X_2, \ldots, X_p, Y$ be manifolds of class $C^r$, $i$ an integer of $\{1, p\}$, $m_i$ (resp. $n$) a law of composition of class $C^r$ on $X_i$ (resp. $Y$) and $u$ a mapping of class $C^r$ of $X_1 \times X_2 \times \cdots \times X_p$ into $Y$. $u$ が添字 $i$ の変数に対して分配的である場合、$T(u)$ は添字 $i$ の変数に対して分配的です。
+*$X_1, X_2, \ldots, X_p, Y$ をクラス $C^r$ の多様体、$i$ を $\{1, p\}$、$m_i$ (それぞれ $n$) の整数、$X_i$ (それぞれ $Y$) 上のクラス $C^r$ の合成法則、および $u$ のマッピングとする$X_1 \times X_2 \times \cdots \times X_p$ のクラス $C^r$ を $Y$ に変更します。 $u$ が添字 $i$ の変数に対して分配的である場合、$T(u)$ は添字 $i$ の変数に対して分配的です。
 
 証明は命題 1 と類似しています。
 
@@ -156,7 +156,7 @@ $\mathrm{pr}_i$ は $G_1 \times \cdots \times G_n$ の射から $G_i$ になり�
 
 主張 (i) は (5) から続きます。 主張 (ii) は、命題 2 (ii) を考慮すると明らかです。 主張 (iii) と (iv) は (6) と § 1、命題 8 から続きます。
 
-$u \in T(G)$ と $g \in G$ としましょう。 (3)と(4)により、群$T(G)$で計算された積$ug, gu$は、$T(\delta(g^{-1}))$と$T(\gamma(g))$の下の$u$の像になります。 It follows from § 1, Corollary 2 to Proposition 17 that the mapping $(g, u) \mapsto gu$ of $G \times T_e(G)$ into $T(G)$ is an isomorphism of the trivial vector bundle $G \times T_e(G)$ with base space $G$ onto the vector bundle $T(G)$. 逆同型は、$T(G)$ の *左矮化* と呼ばれます。 写像 $(g, u) \mapsto ug$ を考慮すると、$T(G)$ の *正しい矮小化* も同様に定義されます。
+$u \in T(G)$ と $g \in G$ としましょう。 (3)と(4)により、群$T(G)$で計算された積$ug, gu$は、$T(\delta(g^{-1}))$と$T(\gamma(g))$の下の$u$の像になります。 § 1、命題 17 の系 2 から、$G \times T_e(G)$ の $T(G)$ への写像 $(g, u) \mapsto gu$ は、基底空間 $G$ を持つ自明なベクトル束 $G \times T_e(G)$ のベクトル束 $T(G)$ への同型であることがわかります。 逆同型は、$T(G)$ の *左矮化* と呼ばれます。 写像 $(g, u) \mapsto ug$ を考慮すると、$T(G)$ の *正しい矮小化* も同様に定義されます。
 
 #### 命題 7 {#lie-iii-s2-prop-7 .statement tag=0A95}
 
@@ -224,4 +224,4 @@ x \in X とします。 (4) を使用すると、ax は接線写像から \lambd
 
 $G \times T_e(G)$ の $T(G)$ への写像 $\phi: (g, u) \mapsto gu$ は、自明なベクトルバンドル $G \times T_e(G)$ の同型と基底空間 $G$ のベクトルバンドル $T(G)$ です。 for $\phi$ と $\phi^{-1}$ は解析的であり、ベクトルバンドル射であるため、*Differentiable and Analytic 多様体*、R、7.2.1 を適用するだけで十分です。 (no. 2 の証明も適応可能です。) 同型 $\phi^{-1}$ は、$T(G)$ の左の矮小化と呼ばれます。 写像 $(g, u) \mapsto ug$ の逆同型は右矮化と呼ばれます。
 
-Let $X$ be a manifold of class $C^r$ and $\psi$ a law chunk of left operation of class $C^r$ of $G$ on $X$. Then $T(\psi)$ is a law chunk of left operation of class $C^{r-1}$ of $T(G)$ on $T(X)$ extending $\psi$. 式 (7)、(8)、(9) は、$gx$ が定義されている場合でも有効です。 $I$ が $K$ 含む 0 のオープン部分集合である場合、$\gamma: I \to G$ が類 $C^r$ の写像である場合、$\gamma(0) = e$ であり、$a = T_0(\gamma)1$ の場合、ベクトル体 $X$ で定義された $x \mapsto ax$ は、*微分可能かつ解析的多様体*、R、8.4.5 の意味で、写像 $(\lambda, x) \mapsto \gamma(\lambda)x$ によって定義されたベクトル体です。
+$X$ をクラス $C^r$ の多様体、$\psi$ を $X$ 上の $G$ のクラス $C^r$ の左演算の法則チャンクとする。 この場合、$T(\psi)$ は、$\psi$ を拡張する $T(X)$ 上の $T(G)$ のクラス $C^{r-1}$ の左演算の法則チャンクです。 式 (7)、(8)、(9) は、$gx$ が定義されている場合でも有効です。 $I$ が $K$ 含む 0 のオープン部分集合である場合、$\gamma: I \to G$ が類 $C^r$ の写像である場合、$\gamma(0) = e$ であり、$a = T_0(\gamma)1$ の場合、ベクトル体 $X$ で定義された $x \mapsto ax$ は、*微分可能かつ解析的多様体*、R、8.4.5 の意味で、写像 $(\lambda, x) \mapsto \gamma(\lambda)x$ によって定義されたベクトル体です。

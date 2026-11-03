@@ -25,16 +25,16 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: 09c887ca5563ca138a54dd59cf45bece255dd4d47e3031621cff3f84352214e9
+content_sha256: 76a6a504619cb20c6dbb1034d332fbec9267cf0a36262796ed0a22985da48e8c
 translated_from: content/en/int/V/02_s2_summable_families_of_positive_measures.md
 translation_method: google
 source_content_sha256: ec7d58f4d9ead5ad76e61a986e1e25bc88d93ca5a6598bf0f04e740c0b11cee4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1a370453af145c68de3be841dea1d892cbf81ab88a17b6dd92146d7a665c72f8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。積極的な対策の合計可能なファミリー
@@ -109,7 +109,7 @@ $A$ が可算で、それぞれの $\lambda_\alpha$ が点メジャーである�
 
 #### 命題 3 {#int-v-s2-prop-3 .statement tag=090N}
 
-— *For a mapping $f$ of $X$ into a Banach space $F$ to be essentially $\nu$-integrable, it is necessary and sufficient that $f$ be essentially $\lambda_\alpha$-integrable for every $\alpha \in A$ and that*
+— *バナッハ空間 $F$ への $X$ の写像 $f$ が本質的に $\nu$ 積分可能であるためには、 $f$ がすべての $\alpha \in A$ について本質的に $\lambda_\alpha$ 積分可能であることが必要かつ十分であり、*
 
 $$
 \sum_{\alpha \in A} \int^\bullet |f| \, d\lambda_\alpha < +\infty .
@@ -127,7 +127,7 @@ $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
 $$
 
-これは、族 $(\int f \, d\lambda_\alpha)$ が $F$ で絶対に合計可能であり、 和のノルムが $\mathscr{L}_F^1(\nu)$ の $f$ のノルム以下であることを意味します。 $f \in \mathscr{L}_F^1(\nu)$の集合、つまり満たす (6) は$\mathscr{L}_F^1(\nu)$の閉じた線形部分空間 $\mathscr{H}$です。さて、この部分空間は $\mathscr{L}_F^1(\nu)$ でも密です。なぜなら、形 $f \cdot a$ の含む写像であり、$a \in F$ と $f$ は有限可積分正の写像を示します (提案 1)。 したがって$\mathscr{H} = \mathscr{L}_F^1(\nu)$と命題が成立します。
+これは、族 $(\int f \, d\lambda_\alpha)$ が $F$ で絶対に合計可能であり、 和のノルムが $\mathscr{L}_F^1(\nu)$ の $f$ のノルム以下であることを意味します。 $f \in \mathscr{L}_F^1(\nu)$ の集合と満たす (6) は、$\mathscr{L}_F^1(\nu)$ の閉じた線形部分空間 $\mathscr{H}$ です。さて、この部分空間は $\mathscr{L}_F^1(\nu)$ でも密です。なぜなら、形 $f \cdot a$ の含む写像であり、$a \in F$ と $f$ は有限可積分正の写像を示します (提案 1)。したがって$\mathscr{H} = \mathscr{L}_F^1(\nu)$と命題が成立します。
 
 提案 3 は、§3 (No. 3、Th. 1) で証明される積分に関する一般的な定理からも推定できます。
 
@@ -170,7 +170,7 @@ $$
 
 #### 注意 {#int-v-s2-n3-rem-1 .statement tag=090R}
 
-A positive measure may be the sum of a sequence of measures with compact support, and not be moderated (see Exer. 4 a) of § 1).
+前向きな措置は、コンパクトなサポートを伴う措置の数列のうち和であり、緩和されないものとすることができます (§ 1 の例 4 a) を参照)。
 
 ### 練習問題 {#int-v-s2-exercises}
 

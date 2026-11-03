@@ -46,16 +46,16 @@ subsections:
       pdf_page: 107
 statements: 22
 exercises: 8
-content_sha256: 1f19aa7e1f99e8dd2b1b867fde3f5bc2d6c0fd7868cf65235ec72c8da90369ff
+content_sha256: 57eef82d3cdba446e128e912b4a55fbbf21a7174d8435e3038be6e6eedcae48f
 translated_from: content/en/ens/II/04_s4_union_and_intersection_of_a_family_of.md
 translation_method: google
 source_content_sha256: 79a8f1cdc57e7dce0167dd11f3e335382fe0479c90c58a053fba7bbc5d06a5f5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0696d7b89d7c1a9798083f95c913cd2794b77bae997e918c88e96ab31953a657
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 集合人家族の和集合と共通部分
@@ -99,7 +99,7 @@ $$ (\forall l)((l\in I)\Longrightarrow(x\in X_l)); $$
 *$(X_l)_{l\in I}$を集合$E$の部分集合の家族とします。 集合*
 $$\mathscr{E}_x\left(x\in E\text{ and }(\forall l)((l\in I)\Longrightarrow(x\in X_l))\right),$$
 
-*in other words, the set of all $x$ which belong to* E *and to each of the sets* $X_\iota$, *is called the intersection of the family and is denoted by* $\bigcap\limits_{\iota \in I} X_\iota$.
+*言い換えれば、* E * と各集合* $X_\iota$ に属するすべての $x$ の集合は、 * 族の共通部分と呼ばれ、* $\bigcap\limits_{\iota \in I} X_\iota$ で表されます。
 
 従って、E の部分集合の家族 $(X_\iota)_{\iota \in \emptyset}$ については、次のようになります。
 
@@ -161,7 +161,7 @@ $$\bigcup_{\iota \in J} X_\iota \subset \bigcup_{\iota \in I} X_\iota, \qquad \t
 
 #### 命題 2 {#ens-ii-s4-prop-2 .statement tag=03I4}
 
-*Let* $(X_\iota)_{\iota \in I}$ *be a family of sets whose index set* I *is the union of a family* $(J_\lambda)_{\lambda \in L}$ *of sets. それから*
+*$(X_\iota)_{\iota \in I}$ *を集合の集合とし、そのインデックス集合* I *は集合の集合* $(J_\lambda)_{\lambda \in L}$ *の和集合です。 それから*
 
 $$\bigcup_{\iota \in I} X_\iota = \bigcup_{\lambda \in L} \left( \bigcup_{\iota \in J_\lambda} X_\iota \right),$$
 
@@ -344,12 +344,12 @@ $$(X_\iota \cap Y_\varkappa)_{(\iota, \varkappa) \in I \times K}.$$
 
 (2) *$(X_\iota)_{\iota \in I}$ * を集合の族とし、* $(f_\iota)_{\iota \in I}$ * を同じターゲットを持つ写像の族とする * F *それぞれについて* $\iota \in I$ * $f_\iota$ * のドメインが * $X_\iota$、* およびそれぞれの対* $(\iota, \varkappa) \in I \times I$、$f_\iota$ *そして* $f_\varkappa$ *同意* $X_\iota \cap X_\varkappa$。 *その場合、*ドメイン* $A = \bigcup_{\iota \in I} X_\iota$ *およびターゲット* F *を持つ写像* $f$ *それぞれ写像* $f_\iota$ $(i \in I)$ 拡大するが 1 つだけ存在します。
 
-(1) $x$ を E の任意の元とします。すると、仮定によって $x \in X_\iota$, よって $f(x) = g(x)$ となるような $\iota \in I$ が存在します。
+(1) $x$ を E の任意の元とします。すると、$x \in X_\iota$, よって $f(x) = g(x)$ by 仮定となるような $\iota \in I$ が存在します。
 (2) $f_\iota$ のグラフを$G_\iota$ とし、$G = \bigcup_{\iota \in I} G_\iota$ とします。 G が関数グラフであることを示しましょう。 $(x, y) \in G$と$(x, y') \in G$の場合、Iには$(x, y) \in G_\iota$と$(x, y') \in G_\varkappa$のように、添字$\iota$、$\varkappa$が2つ存在します。これは、$x \in X_\iota$、$x \in X_\varkappa$、$y = f_\iota(x)$、$y' = f_\varkappa(x)$ を意味します。しかし、$x \in X_\iota \cap X_\varkappa$ 以降、私たちは
 
 $$f_\iota(x) = f_\varkappa(x),$$
 
-つまり、$y = y'$です。グラフ G にはドメイン $\mathrm{pr}_1 G = \bigcup_{\iota \in I} \mathrm{pr}_1 G_\iota = A$ があります。したがって、写像 $f = (G, A, F)$ は必要な条件を満たします。その一意性は、命題の最初の部分に続きます。
+つまり、$y = y'$です。グラフ G のドメインは $\mathrm{pr}_1 G = \bigcup_{\iota \in I} \mathrm{pr}_1 G_\iota = A$ です。したがって、写像 $f = (G, A, F)$ は必要な条件を満たします。その一意性は、命題の最初の部分に続きます。
 
 ### 7. 分割
 
@@ -357,29 +357,29 @@ $$f_\iota(x) = f_\varkappa(x),$$
 
 *2 つの集合* A * と* B *は、*$A \cap B = \emptyset$ の場合、互いに素* (*交差しない*) と言われます。 *もし* $A \cap B \neq \emptyset$ なら、*A が B に *出会っている* (*または交差*) と *言います。 *$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *を集合の家族にしましょう。この家族の集合は、条件* $\iota \in \mathrm{I}$、$\varkappa \in \mathrm{I}$、$\iota \neq \varkappa$ *暗黙* $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$ の場合、相互に互いに素であると言われます。
 
-$f$ を A の B への写像とし、$(\mathrm{Y}_\iota)_{\iota \in \mathrm{I}}$ を相互に B の互いに素部分集合の家族とする。 次に、命題 4 は、家族の集合と A の部分集合の $(\overset{-1}{f}\langle \mathrm{Y}_\iota \rangle)_{\iota \in \mathrm{I}}$ が相互に互いに素であることを示します。 一方、$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ が A の互いに素部分集合の家族である場合、家族 $(f \langle \mathrm{X}_\iota \rangle)_{\iota \in \mathrm{I}}$ の集合は一般に相互に互いに素ではありません。
+$f$ を A の写像を B に変換し、$(\mathrm{Y}_\iota)_{\iota \in \mathrm{I}}$ を B の相互互いに素部分集合のファミリーとします。 命題 4 は、A の部分集合のファミリー $(\overset{-1}{f}\langle \mathrm{Y}_\iota \rangle)_{\iota \in \mathrm{I}}$ の集合が相互に一致することを示します。 互いに素。一方、$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$がAの相互互いに素部分集合の家族である場合、家族$(f \langle \mathrm{X}_\iota \rangle)_{\iota \in \mathrm{I}}$の集合は一般に相互に互いに素ではありません。
 
 #### 命題 8 {#ens-ii-s4-prop-8 .statement tag=03Q1}
 
-*$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ * を相互に互いに素集合のファミリーとし、* $(f_\iota)_{\iota \in \mathrm{I}}$ * 同じターゲット* F を持つ写像のファミリーとする* $f_\iota$ * の定義域が * $\mathrm{X}_\iota$ * それぞれ* $\iota \in \mathrm{I}$ であるようにします。 *この場合、ドメイン* $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ * とターゲット* F * それぞれ写像* $f_\iota$ $(\iota \in \mathrm{I})$ の拡大するを持つ写像 f が 1 つだけ存在します。
+*$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ * を相互に互いに素集合の族とし、* $(f_\iota)_{\iota \in \mathrm{I}}$ * を同じターゲット* F を持つ写像の族とする * $f_\iota$ * の定義域が * $\mathrm{X}_\iota$ * それぞれ* $\iota \in \mathrm{I}$ であるようにします。 *すると、ドメイン* $\bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ * とターゲット* F * それぞれ写像* $f_\iota$ $(\iota \in \mathrm{I})$ の拡大するを持つ写像 f が 1 つだけ存在します。
 
-$f_\iota$ と $f_\varkappa$ は $\iota \neq \varkappa$ のときはいつでも $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$ に明らかに一致するため、これは命題 7 の系です。
+$f_\iota$ と $f_\varkappa$ は $\iota \neq \varkappa$ のときはいつでも $\mathrm{X}_\iota \cap \mathrm{X}_\varkappa = \emptyset$ に明確に一致するため、これは命題 7 の系です。
 
 #### 定義 7 {#ens-ii-s4-def-7 .statement tag=03Q2}
 
-*集合* E の *分割は * E を *カバーする* E の * 空でない * 相互に互いに素部分集合の族です。
+*集合* E の *分割は、 *E を *カバーする* E の * 空ではない * 相互に互いに素部分集合の族です。
 
 #### 例 {#ens-ii-s4-n7-exa-1 .statement tag=03I9}
 
-空ではないすべての集合 A について、ファミリー $(\{x\})_{x \in \mathrm{A}}$ は A の分割です。
+空ではないすべての集合 A に対して、ファミリー $(\{x\})_{x \in \mathrm{A}}$ は A の分割です。
 
-$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ が集合 E の分割である場合、I の写像 $\iota \rightarrow \mathrm{X}_\iota$ を元の集合 $\mathfrak{F}$ 、分割の $\mathrm{X}_\iota$ は全単射です。したがって、$\mathfrak{F}$が与えられた場合、添字集合の間で対応までは分割が決まります。通常、私たちが分割について話すとき、それは元の分割の集合です。
+$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ が集合 E の分割である場合、集合元の $\mathfrak{F}$ に分割の $\mathrm{X}_\iota$ をI の写像 $\iota \rightarrow \mathrm{X}_\iota$ は次のようになります。全単射。したがって、$\mathfrak{F}$が与えられた場合、添字集合の間で対応までは分割が決まります。通常、私たちが分割について話すとき、私たちが関心を持つのは元の分割の集合です。
 
-### 8. 集合人家族の和
+### 8. 集合の家族の和
 
 #### 命題 9 {#ens-ii-s4-prop-9 .statement tag=03Q3}
 
-*$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *集合の家族にしましょう。次に、 集合* X *次の性質* が存在します: X * は家族の和集合です* $(\mathrm{X}'_\iota)_{\iota \in \mathrm{I}}$ * 相互に互いに素集合であるため、それぞれ* $\iota \in \mathrm{I}$ * は 1 対 1 で存在します写像の* $\mathrm{X}_\iota$ *から* $\mathrm{X}'_\iota$。
+*$(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ *集合の家族としましょう。次に、 集合* X *次の性質* が存在します: X * 和集合は家族です* $(\mathrm{X}'_\iota)_{\iota \in \mathrm{I}}$ * 相互に互いに素集合であるため、それぞれ* $\iota \in \mathrm{I}$ * が存在します1 対 1 写像の* $\mathrm{X}_\iota$ *対* $\mathrm{X}'_\iota$。
 
 $\mathrm{A} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}_\iota$ にしましょう。 $\iota \in \mathrm{I}$ の場合、写像 $x \rightarrow (x, \iota)$ $(x \in \mathrm{X}_\iota)$ は、$\mathrm{X}_\iota$ の写像と $\mathrm{A} \times \mathrm{I}$ の部分集合 $\mathrm{X}'_\iota$ に対する 1 対 1 です。さらに、$\mathrm{A} \times \mathrm{I}$ の 2 番目の座標写像の下にある $\mathrm{X}'_\iota$ の像は集合 $\{\iota\}$ に含まれます。 $\iota \neq \varkappa$ のときはいつでも $\mathrm{X}'_\iota \cap \mathrm{X}'_\varkappa = \emptyset$ ということになります。その場合は$\mathrm{X} = \bigcup_{\iota \in \mathrm{I}} \mathrm{X}'_\iota$を取る可能性があります。
 
@@ -402,4 +402,4 @@ $(\mathrm{X}_\iota)_{\iota \in \mathrm{I}}$ が集合の任意の族である場
 [§ 4 に対して練習問題](exercises/s4/)を参照してください。
 
 [^1]: したがって、スキーム S8 では、これらの集合が同じ集合の部分集合 (*結果の概要* で与えられた和集合の定義で作成された仮定である) と*先験的に仮定することなく、集合の族の定義する和集合を計算することができます。 §4, no. 2）。
-[^2]: この公式の適用から生じる有名なエラーは、H. Lebesgue in his attempt to prove that the projection on an axis of a Borel set in the plane is again a Borel set (this statement was subsequently shown to be incorrect, and the discussion it provoked was the origin of the theory of "Souslin" sets) : Lebesgue asserted that the projection of the intersection of a decreasing sequence of sets is equal to the intersection of their projections (*Journal de Mathématiques*, (6) **1** (1905), pp. 191-192).
+[^2]: この公式の適用から生じる有名なエラーは、H. ルベーグは、平面上のボレル集合の軸上の射影が再びボレル集合であることを証明しようとしました (この主張は後に誤りであることが示され、それが引き起こした議論は「スーリン」集合の理論の起源でした) : ルベーグは次のように主張しました。 集合の減少列の共通部分の射影は、射影の共通部分に等しい (*Journal de Mathématiques*、(6) **1** (1905)、pp. 191-192)。

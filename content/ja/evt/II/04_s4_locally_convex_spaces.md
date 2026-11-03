@@ -41,16 +41,16 @@ subsections:
       pdf_page: 71
 statements: 33
 exercises: 17
-content_sha256: 56e4de869510b0bc2cfd6662ac40691502c9cd2bac31f4d1f38b2fa0f8fe7366
+content_sha256: 3dc32f2e190f36ed7af816e386aeb3d5df8bc2ebc9b1cb4a7ad7ae77044dc3fb
 translated_from: content/en/evt/II/04_s4_locally_convex_spaces.md
 translation_method: google
 source_content_sha256: 739b1018258c46c62f41370f616639ef1cdd404280e387353dc0a0e48e83ef94
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 9cd67e9f5ab4343474fd0497e97e4ecfa315378126099f216b5eb961c41d86ca
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。局所的に凸空間
@@ -65,11 +65,11 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 この本の残りの部分で研究する $\mathbf{R}$ 上のトポロジー ベクトル空間は、ほぼすべて局所的に凸です。
 
-$V$ が局所凸空間 $E$ の 0 の凸近傍である場合、$V \cap (-V)$ は 0 の対称凸近傍です。 As the closure of a convex set is convex (II, p. 13, prop. 14) it follows from I, p. 7, prop. 4 that the neighbourhoods of 0 in $E$ which are *closed, symmetric and convex*, form a fundamental system of neighbourhoods invariant under homotheties of centre 0 and ratio $\neq 0$.
+$V$ が局所凸空間 $E$ の 0 の凸近傍である場合、$V \cap (-V)$ は 0 の対称凸近傍です。凸集合の閉包は凸 (II, p. 13, prop. 14) I、p. 7、prop. から続きます。 4 $E$ の 0 の近傍は *閉じていて対称で凸* であり、形は中心 0 と比 $\neq 0$ の相等性の下で不変である近傍の基本的な系です。
 
 #### 命題 1 {#evt-ii-s4-prop-1 .statement tag=07E5}
 
-— *$\mathfrak{S}$ を、吸収性、対称性、凸面の集合から形成されたベクトル空間 $E$ 上のフィルター 基底とします。 Then the set $\mathfrak{B}$ of transforms of the sets of $\mathfrak{S}$ by homotheties of ratio $> 0$ is a fundamental system of neighbourhoods of 0 for a locally convex topology on $E$.*
+— *$\mathfrak{S}$ を、吸収性、対称性、凸面の集合から形成されたベクトル空間 $E$ 上のフィルター 基底とします。 この場合、比率 $> 0$ の相似性による $\mathfrak{S}$ の集合の変換の集合 $\mathfrak{B}$ は、$E$ 上の局所凸トポロジーの 0 の近傍の基本システムです。
 
 明らかに、$\mathfrak{B}$ は、I、p. 7、プロップのフィルター基底満たす (EV_I) および (EV_{II}) です。 4; $V \in \mathfrak{S}$ であれば $\frac{1}{2}V + \frac{1}{2}V = V$ であるため、(EV_{III}) も満たします。
 
@@ -129,9 +129,9 @@ A を E のプレコンパクト集合とします。E の 0 の平衡凸近傍�
 
 1) 中心 0 の開いた立方体は凸であるため、空間 $\mathbf{R}^n$ は局所的に凸です (II、p. 9、提案 6)。したがって、これはすべての実位相位相ベクトル空間または有限次元にも当てはまります。実際には、上記と I, § 2.3 から次のようになります。 2 ただし、E がハウスドルフである場合。そうでない場合、E に関連付けられたハウスドルフ空間 F は有限次元であるため、局所的に凸であり、標準写像 $E \to F$ の下で F の 0 の凸近傍の逆像は凸であり、 の基本系である形 E の 0 の近傍。
 
-2) E を $\mathbf{R}$ のベクトル空間とし、$\mathfrak{B}$ を吸収性、対称性、凸面である E のすべての部分集合の族とします。 プロップにより。 II、p. 23 の 1 から、E 上のすべての局所凸トポロジの中で最も細かい、E 上の局所凸位相 $\mathscr{T}_\omega$ の 0 の基本系近傍が $\mathfrak{B}$ であることがわかります。 This topology is Hausdorff; for let $x \neq 0$ be any point of E; there exists a basis $(i_i)_{i \in I}$ of E with an $\alpha \in I$ such that $e_\alpha = x$; the set of points $y = \sum_i y_i e_i$ such that $|y_\alpha| < 1$ is absorbent, symmetric and convex. 含む $x$ ではありません。 II、p. 24、系から、$\mathscr{T}_\omega$ も E 上の*すべて* 半ノルムの集合によって定義される位相であることがわかり、したがって、すべての半ノルムは $\mathscr{T}_\omega$ で連続です。
+2) E を $\mathbf{R}$ のベクトル空間とし、$\mathfrak{B}$ を吸収性、対称性、凸面である E のすべての部分集合の族とします。プロップにより。 II、p. 23 の 1 から、$\mathfrak{B}$ は、E 上のすべての局所凸トポロジーの中で最も細かい、E 上の局所凸位相 $\mathscr{T}_\omega$ の 0 の基本系近傍であることがわかります。この位相はハウスドルフです。 $x \neq 0$ を E の任意の点とします。 $e_\alpha = x$ となるような $\alpha \in I$ を持つ E の基底 $(i_i)_{i \in I}$ が存在します。 $|y_\alpha| < 1$ が吸収性、対称性、凸面となるように、点 $y = \sum_i y_i e_i$ の集合。 含む $x$ ではありません。 II、p. 24、系から、$\mathscr{T}_\omega$ も E 上の *すべての* 半ノルムの集合によって定義される位相であることがわかり、したがって、すべての半ノルムは $\mathscr{T}_\omega$ で連続です。
 
-In particular, if $u$ is a linear mapping of E in any locally convex space F, the inverse image, under $u$, of every convex neighbourhood of 0 in F is an *absorbent* convex set in E; therefore it is a neighbourhood of 0 for $\mathscr{T}_\omega$ and thus $u$ is *continuous* for $\mathscr{T}_\omega$.
+特に、$u$ が局所的に凸な空間 F の E の線形写像である場合、F の 0 のすべての凸近傍の $u$ の下で、逆像は E の *吸収* 凸面集合です。したがって、$\mathscr{T}_\omega$ では 0 の近傍となり、したがって $u$ は $\mathscr{T}_\omega$ では *連続* になります。
 
 E の凸型集合 C が与えられた場合、すべての行 D 含む $a$, 共通部分 $D \cap C$ の場合、点 $a \in C$ は C の *内部点* であると言います。 含む含む $a$ の開いたセグメント。その他の語 — $a + C$ は *吸収性* です。 集合の点 $a$ E の A は、$a \in C \subset A$ と凸の集合 C が存在し、$a$ が内部の点である場合に限り、E の A の *内部 $\mathscr{T}_\omega$ です。 C。
 
@@ -235,7 +235,7 @@ II、p. 28 で与えられる局所凸最終位相の一般的な近傍の記述
 
 これはプロップの特殊なケースです。 5、II、p. 27。
 
-Recalling the definition of the direct sum of a family of vector spaces (A, II, p. 12, prop. 6), we can say that the topology $\mathscr{T}$ is the only one for which the canonical mapping $g \mapsto (g \circ f_i)$ is a *bijection*
+ベクトル空間の家族の直和の定義 (A、II、p. 12、提案 6) を思い出すと、標準写像 $g \mapsto (g \circ f_i)$ が *全単射* であるのは位相 $\mathscr{T}$ だけであると言えます。
 
 $$
 \mathscr{L}(E; G) \to \prod_{i \in I} \mathscr{L}(E_i; G)
@@ -255,7 +255,7 @@ $$
 
 最初の主張は、各 $\kappa \in I$ に対して標準単射 $E_\kappa \to \prod_{\iota \in I} E_\iota$ が連続しているという事実から導き出されます。 $I$ が有限である場合、$j$ は恒等写像であり、積位相 $\mathscr{T}'$ が直和位相 $\mathscr{T}$ よりもより細かいであることを示すだけで十分です。さて、$V$を$\mathscr{T}$の0の凸近傍とします。それぞれの集合 $V \cap E_\iota$ は、$E_\iota$ の 0 の凸近傍です。 $n$ が $I$ の元の数である場合、集合 $V$ 含む集合 $\frac{1}{n} \sum_n (V \cap E_\iota)$、つまり $\mathscr{T}'$ の 0 の近傍です、そして命題が証明されました。
 
-When $I$ is infinite, if, for each finite subset $J$ of $I$, we write $E_J$ for the space $\prod_{\iota \in J} E_\iota$, with the product topology, then $E$ is the *inductive limit* of the $E_J$ (identified as subspaces of $E$).
+$I$ が無限の場合、$I$ の各有限部分集合 $J$ について、積トポロジーを使用して空間 $\prod_{\iota \in J} E_\iota$ に対して $E_J$ を書くと、$E$ は $E_J$ ($E$ の部分空間として識別される) の *帰納的制限* になります。
 
 #### 命題 8 {#evt-ii-s4-prop-8 .statement tag=07EO}
 
@@ -263,7 +263,7 @@ When $I$ is infinite, if, for each finite subset $J$ of $I$, we write $E_J$ for 
 
 (i) *$E$上の直和位相$\mathscr{T}$によって$N = \sum_\iota N_\iota$に誘導された位相は、$N_\iota$のトポロジーの直和と同一です。
 
-(ii) *The canonical mapping $h$ of the topological direct sum space of the $E_\iota / N_\iota$ on $E/N$ (A, II, § 1.6, formula (26)) is an isomorphism between topological vector spaces.*
+(ii) $E/N$ 上の$E_\iota / N_\iota$ の位相直和空間の *正準写像 $h$ (A, II, § 1.6、式 (26)) は、位相ベクトル空間間の同型写像である。*
 
 (i) 上で紹介した記法を使用して、$x = \sum_\iota \lambda_\iota x_\iota$ 所属から $N \cap \Gamma((V_\iota))$ を考慮します ($(\lambda_\iota)$ は数 $\geqslant 0$ の族であり、そのうちの多くは $\sum_\iota \lambda_\iota = 1$ と $x_\iota \in V_\iota$ のように非ゼロです。 $\iota \in I$）。 $N_\iota$ の和は直接なので、すべての $\iota \in I$ に対して $\lambda_\iota x_\iota \in N_\iota$ が得られます。したがって、$\lambda_\iota > 0$ となるすべての $\iota$ に対して、凸包絡線 $\Gamma((N_\iota \cap V_\iota))$ に対して $x_\iota \in N_\iota \cap V_\iota$、$x$ 属するも成り立つため、(i) が証明されます。
 
@@ -332,7 +332,7 @@ $\mathscr{T}_{n+1}$によって$E_n$に誘導された$n$位相が単に$\mathsc
 
 — 1) $E$ が増加するの和集合であり、部分空間 $(E_\alpha)_{\alpha \in I}$ の *非数えられない* 族であり、それぞれの $E_\alpha$ が局所的に凸な位相 $\mathscr{T}_\alpha$ を持ち、$E_\alpha \subset E_\beta$ について、 $\mathscr{T}_\beta$によって$E_\alpha$に誘発された位相は$\mathscr{T}_\alpha$と同一です。 位相 $\mathscr{T}$ によってそれぞれの $E_\alpha$ に誘導された位相が $\mathscr{T}_\alpha$ に等しく、$E_\alpha$ が *ハウスドルフで完全であるが、$E$ が $\mathscr{T}$* に対して完全ではない場合があるかもしれません (INT, III、第 2 版、§ 1、演習 2)。
 
-2) Let $F$ be a locally convex space, which is the union of an increasing sequence of vector subspaces $(F_n)$, and for each index $n$, let $\mathscr{T}_n$ be the topology induced on $F_n$ by the topology $\mathscr{T}$ of $F$. 一般に、$\mathscr{T}$ は $\mathscr{T}_n$ の帰納的な極限ではないことに注意する必要があります。
+2) $F$ を、ベクトル部分空間 $(F_n)$ の増加シーケンスの和集合である局所凸空間とし、各インデックス $n$ について、$F$ のトポロジー $\mathscr{T}$ によって $F_n$ に誘導されるトポロジーを $\mathscr{T}_n$ とします。 一般に、$\mathscr{T}$ は $\mathscr{T}_n$ の帰納的な極限ではないことに注意する必要があります。
 
 3) $E$ が数列 $(E_n)$ の厳密な帰納法極限であると仮定します。 $F$ が閉じた ($\mathscr{T}$ の) $E$ ベクトル部分空間である場合、$F \cap E_n$ 上の $\mathscr{T}_n$ によって誘導されるトポロジーの厳密な帰納法極限は、*厳密により細かい* である可能性があります。 位相は $\mathscr{T}$ によって誘発されます (IV、p. 63、演習 10)。
 
@@ -372,7 +372,7 @@ $E$ 定義する $d(x, y) = \sup_{n \in \mathbf{N}} d_n(x, y)$ の $x, y$ の場
 
 *$E$と$F$を2つのフレシェ空間と$u$を$F$の$E$の連続する線形写像とします。次に、必ずしも線形ではない連続けれどもの $u$ の切断が存在します。
 
-プロップにより。 11 $E$ には、平行移動下で不変の距離 $d$ が存在し、$E$ の位相を定義し、開いたボールが凸になります。 $F$ の $y$ と $y'$ を考えると、$E$ の閉じた集合 $u^{-1}(y)$ と $u^{-1}(y')$ の距離を $\delta(y, y')$ とします。 $u$ は GT の厳密な射 (I、p. 17、th.1) 注意であるため、IX, § 3.1 は、$\delta$ が $F$ の位相を定義する $F$ 上の距離であることを示します。 We shall construct, inductively, a sequence of continuous mappings $(s_n)_{n \in \mathbf{N}}$ of $F$ in $E$ satisfying the following inequalities for all $y \in F$:
+プロップにより。 11 $E$ には、平行移動下で不変の距離 $d$ が存在し、$E$ の位相を定義し、開いたボールが凸になります。 $F$ の $y$ と $y'$ を考えると、$E$ の閉じた集合 $u^{-1}(y)$ と $u^{-1}(y')$ の距離を $\delta(y, y')$ とします。 $u$ は GT の厳密な射 (I、p. 17、th.1) 注意であるため、IX, § 3.1 は、$\delta$ が $F$ の位相を定義する $F$ 上の距離であることを示します。 すべての $y \in F$ について次の不等式を満たす、$E$ の $F$ の連続マッピング $(s_n)_{n \in \mathbf{N}}$ を帰納的に構築します。
 
 $$
 \delta(y, u(s_n(y))) < 2^{-n}
@@ -381,7 +381,7 @@ $$
 d(s_n(y), s_{n-1}(y)) < 2^{-n+1} \quad \text{(only if } n \geq 1 \text{)}.
 $$
 
-次に、$n = 0$ または $n \geq 1$ が構築され、$s_{n-1}$ が構築されたとします。 $y_0 \in F$ にしましょう。 $u$ は全射的であり、集合 $u^{-1}(y_0)$ は空ではなく、$n \geq 1$ については、帰納法の仮定によって $d(u^{-1}(y_0), s_{n-1}(y_0)) < 2^{-n+1}$ が得られます。 Therefore there exists a point $x_0$ of $E$ such that $u(x_0) = y_0$ and for $n \geq 1$, $d(x_0, s_{n-1}(y_0)) < 2^{-n+1}$. As the mapping $s_{n-1}$ is continuous, the set of points $y$ of $F$ which satisfy the inequalities $\delta(y, y_0) < 2^{-n}$ and $d(x_0, s_{n-1}(y)) < 2^{-n+1}$ is an open neighbourhood of $y_0$. したがって、$E$ には、$F$ の開いたカバー$(V_i)_{i \in I}$ と$F$ の定数写像 $s_{n,i}$ が存在します。これは、満たす *in* $V_i$ の不等式 (2) と (3) で、1 置き換える $s_n$ は、 $s_{n,i}$。 空間 $F$ は計量可能であるため、単位元 $(f_i)_{i \in I}$ の連続分割が存在します。これは局所的に有限であり、カバー $(V_i)_{i \in I}$ (GT、IX, § 4.5、th. 4 および § 4.4、cor. 1) に従属します。 $y \in F$ごとに$s_n(y) = \sum_{i \in I} f_i(y) \cdot s_{n,i}(y)$を入れます。 $E$ の $F$ の写像 $s_n$ は連続しています。オープンボールは$E$と$F$で凸であるため、写像$s_n$はすべての$y \in F$について不等式(2)と(3)を満たします。
+次に、$n = 0$ または $n \geq 1$ が構築され、$s_{n-1}$ が構築されたとします。 $y_0 \in F$ にしましょう。 $u$ は全射的であり、集合 $u^{-1}(y_0)$ は空ではなく、$n \geq 1$ については、帰納法の仮定によって $d(u^{-1}(y_0), s_{n-1}(y_0)) < 2^{-n+1}$ が得られます。 したがって、$u(x_0) = y_0$ と $n \geq 1$、$d(x_0, s_{n-1}(y_0)) < 2^{-n+1}$ のような $E$ の点 $x_0$ が存在します。 As the mapping $s_{n-1}$ is continuous, the set of points $y$ of $F$ which satisfy the inequalities $\delta(y, y_0) < 2^{-n}$ and $d(x_0, s_{n-1}(y)) < 2^{-n+1}$ is an open neighbourhood of $y_0$. したがって、$E$ には、$F$ の開いたカバー$(V_i)_{i \in I}$ と$F$ の定数写像 $s_{n,i}$ が存在します。これは、満たす *in* $V_i$ の不等式 (2) と (3) で、1 置き換える $s_n$ は、 $s_{n,i}$。 空間 $F$ は計量可能であるため、単位元 $(f_i)_{i \in I}$ の連続分割が存在します。これは局所的に有限であり、カバー $(V_i)_{i \in I}$ (GT、IX, § 4.5、th. 4 および § 4.4、cor. 1) に従属します。 $y \in F$ごとに$s_n(y) = \sum_{i \in I} f_i(y) \cdot s_{n,i}(y)$を入れます。 $E$ の $F$ の写像 $s_n$ は連続しています。オープンボールは$E$と$F$で凸であるため、写像$s_n$はすべての$y \in F$について不等式(2)と(3)を満たします。
 
 不等式 (3) 写像 $s_n : F \to E$ 形から、一様収束のためのコーシー 数列 。 $E$ が完了すると、数列 $(s_n)_{n \in \mathbf{N}}$ は連続的な写像 $s : F \to E$ (GT, X, § 1.6) に一様に収束します。 公式 (2) は、$u \circ s$ が $F$ の恒等写像であるため、$s$ は $u$ の連続する切断であることを示しています。
 

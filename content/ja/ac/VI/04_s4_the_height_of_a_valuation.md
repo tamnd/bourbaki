@@ -33,16 +33,16 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 485bdb40d02043271bdfb8c4d357d1cff8f43e49010167ae2f45329f61d3543f
+content_sha256: 7fe7592e4c743028968051bc8af54c7ec052484c66085491200d004252263d02
 translated_from: content/en/ac/VI/04_s4_the_height_of_a_valuation.md
 translation_method: google
 source_content_sha256: c4cced628ead73d8a7f7dea6021c8771973779a0bf6c280142bacc5c87e4b329
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 3849a21551c0598584fe1309160acc7a8a7714e1a4cf49be329e62703623b9e8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 評価の高さ
@@ -66,7 +66,7 @@ $A$ の素イデアルの集合は包含によって完全に順序付けされ 
 
 #### 命題 2 {#ac-vi-s4-prop-2 .statement tag=04TX}
 
-*Kを体、BをKとhの評価環、Bに関連付けられた場所とK（$\kappa(B)$に値を含む）とする。 Then the mapping $A \mapsto h_B(A)$ defines a bijection of the set $\mathscr{A}$ of valuation rings of K contained in B onto the set $\mathscr{A}'$ of valuation rings of $\kappa(B)$.
+*Kを体、BをKとhの評価環、Bに関連付けられた場所とK（$\kappa(B)$に値を含む）とする。 次に、マッピング $A \mapsto h_B(A)$ は、B に含まれる K の評価環の集合 $\mathscr{A}$ の、$\kappa(B)$ の評価環の集合 $\mathscr{A}'$ への全単射を定義します。
 
 $A \in \mathscr{A}$ の場合、$h_B(A) \in \mathscr{A}'$: $x' = h_B(x)$ ($x \in B$) が $\kappa(B) - h_B(A)$ の元である場合、$x \notin A$、したがって $x^{-1} \in A$ と $h_B(x)^{-1} \in h_B(A)$ です。一方、$A \in \mathscr{A}$、$A \supset m(B)$ (命題 1 (b))、したがって写像については、
 
@@ -118,7 +118,7 @@ $G$ が辞書編集的な積 $A \times B$ および $H = B$ である例を再�
 
 ### 3. 評価額の比較
 
-$K$を体、$A$を$K$の評価環とします。 $K$ 含む $A$、$U(A) \subset U(B)$ の部分環 $B$ ごとに。 Then there is a canonical homomorphism $\lambda$ of $\Gamma_A = K^*/U(A)$ onto $\Gamma_B = K^*/U(B)$, whose kernel is $U(B)/U(A)$. 次に、$v_A$ と $v_B$ が、$A$ と $B$ (§ 3, no. 2) によって定義される $K$ の標準評価を表すとすると、
+$K$を体、$A$を$K$の評価環とします。 $K$ 含む $A$、$U(A) \subset U(B)$ の部分環 $B$ ごとに。 次に、$\Gamma_A = K^*/U(A)$ から $\Gamma_B = K^*/U(B)$ への正準準同型性 $\lambda$ があり、そのカーネルは $U(B)/U(A)$ です。 次に、$v_A$ と $v_B$ が、$A$ と $B$ (§ 3, no. 2) によって定義される $K$ の標準評価を表すとすると、
 
 (1)
 
@@ -174,7 +174,7 @@ $(X, Y$ は不定)。 $B = E[Y]_{(Y)}$ を、主イデアル整域 $E[Y]$ の極
 
 $G$ を完全に順序付けられた群とします。 $G$ の 2 つの孤立した部分群 $H$ と $H'$ が与えられると、そのうちの 1 つが位数に含まれます。そうでなければ、所属から $H'$ ではなく、$H$ の正の元 $x$ が存在するためです。 所属ではなく、$H'$ の元 $x'$ が H に。たとえば、$x \geq x'$ とします。 H が孤立しているため、$x' \in H$ となり、これは矛盾です。
 
-This also follows from Proposition 4 of no. 3 and the Corollary to Proposition 1 of no. 1, taking account of the fact that every totally ordered group is the order group of a valuation (§ 3, no. 4, Example 6).
+これは、すべての全順序グループ​​が評価の順序グループ​​であるという事実を考慮して、no. 3 の命題 4 およびno. 1 の命題 1 の系からも導き出されます (§ 3, no. 4、例 6)。
 
 #### 定義 2 {#ac-vi-s4-def-2 .statement tag=04U7}
 
@@ -214,7 +214,7 @@ $$
 (b) $A$ は $\mathbf{K}$ の評価環であり、$(O)$ と $m(A)$ 以外に主要な理想はありません。
 (c) $A$ は、$\mathbf{K}$ とは異なる $\mathbf{K}$ の部分環の中で最大です。
 
-Proposition 5 of no. 4 shows that (a) implies (b) and Proposition 1 of no. 1 shows that (b) implies (c). (c) が (a) を意味することを示すことはまだ残っています。 A が K とは異なる K の部分環の中で最大であるとします。 m を A の最大理想とし、A_m (§ 1, no. 2、系 ～ 定理 2) を支配する K の評価環をV とします。 m(V) ∩ A = m および m ≠ (0) (A が体ではないため)、V ≠ K、よって V = A として、A が K に対する評価 v の環ではないことが証明されます。 そうなると、v は命題 1 (no. 1) と 5 (no. 4) により高さ 1 になります。
+no. 4 の命題 5 は (a) が (b) を意味することを示し、no. 1 の命題 1 は (b) が (c) を意味することを示します。 (c) が (a) を意味することを示すことはまだ残っています。 A が K とは異なる K の部分環の中で最大であるとします。 m を A の最大理想とし、A_m (§ 1, no. 2、系 ～ 定理 2) を支配する K の評価環をV とします。 m(V) ∩ A = m および m ≠ (0) (A が体ではないため)、V ≠ K、よって V = A として、A が K に対する評価 v の環ではないことが証明されます。 そうなると、v は命題 1 (no. 1) と 5 (no. 4) により高さ 1 になります。
 
 #### 命題 7 {#ac-vi-s4-prop-7 .statement tag=04UB}
 

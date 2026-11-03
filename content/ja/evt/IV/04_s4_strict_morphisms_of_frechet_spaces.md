@@ -25,16 +25,16 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 1079ca63823faeac260266bc07ac033c4f87c5a124096ca6110c51ab9bc967b9
+content_sha256: 6d9e4658ead01051cd448dca9eb629a8c708f06fb110f94f10a3087e6b8f0a61
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
 translation_method: google
 source_content_sha256: c407d8cd0dfb8dde36f5bdedd16c24376ca0dd13486d65d99b3e2de383541cec
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e2ce4099f8e6afe9d25338188506eff16c326ecfd0a3e3be21da7a8e029d7a69
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。厳格射のフレシェ空間
@@ -111,7 +111,7 @@ a)、b)、および e) の同値は prop から続きます。その前のIV、p
 
 *E と F を 2 つのハウスドルフ局所凸かつ準完全な空間とし、u を E から F への連続線形写像とする。${}^t u$ が $F'_c$ から $E'_c$ への厳密な射となるためには、像が必要かつ十分である。 u の $u(E)$ は閉じられており、$u(E)$ のすべてのコンパクト部分集合は E のコンパクト部分集合の u の下にある像になります。
 
-By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topology of compact convergence coincides with that of convex compact convergence (IV, p. 4), we can identity E (resp. F) with the dual $E'_c$ (resp. $F'_c$). この場合、$u$ は ${}^t u$ の転置であり、E (それぞれ F) の等連続部分集合は比較的コンパクトな集合です。 補題 1 が prop から続きます。 2 (IV、p. 27)。弱体化した位相 $\sigma(F, F')$ (IV、p. 4、提案 2) に対して閉じられている場合に限り、$u(E)$ が F で閉じられるためです。
+マッキーさんより。 (IV, p. 2, th. 1) と、$E'$ (それぞれ F) でコンパクト収束のトポロジーが凸コンパクト収束のトポロジー (IV, p. 4) と一致するという事実から、E (それぞれ F) を双対 $E'_c$ (それぞれ 1) と同一視することができます。 $F'_c$）。 この場合、$u$ は ${}^t u$ の転置であり、E (それぞれ F) の等連続部分集合は比較的コンパクトな集合です。 補題 1 が prop から続きます。 2 (IV、p. 27)。弱体化した位相 $\sigma(F, F')$ (IV、p. 4、提案 2) に対して閉じられている場合に限り、$u(E)$ が F で閉じられるためです。
 
 #### 系 1 {#evt-iv-s4-lem-1-cor-1 .statement tag=07UX}
 
@@ -131,7 +131,7 @@ By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topo
 
 (i) と (ii) の同値は、Banach の th に続きます。 (I、p. 17、th.1)。
 
-のa)とc)の同値を考慮すると、 1、条件 (ii) は、$u$ が厳密な射であり、その像が $\sigma(F, F')$ に対して F で密であることを示しています。 同値の(ii)と(iii)は、次のa)とd)の同値から続きます。 1とプロップから。 IV、p. 6 の 5。
+のa)とc)の同値を考慮すると、 1、条件 (ii) は、$u$ が厳密な射であり、その像が $\sigma(F, F')$ に対して F で密であることを示しています。 (ii) と (iii) の同値は、次の a) と d) の同値から続きます。 1とプロップから。 IV、p. 6 の 5 つ。
 
 $u : E \to F$ がフレシェ空間の厳密な射である場合、転置 ${}^t u$ は必ずしも $F'_b$ から $E'_b$ への厳密な射であるとは限りません (IV、p. 62、演習 3)。ただし、次のような部分的な結果が得られます。
 

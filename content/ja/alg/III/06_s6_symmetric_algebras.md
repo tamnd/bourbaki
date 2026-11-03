@@ -38,16 +38,16 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: f532a26108dbcd76cb7dd611b52bdf8dd903ad73171f5776ada9b42e24e34d9f
+content_sha256: 3044a4bd9f27941a3ba2a59b902c979474b260468a6be0528f19f769068a7af6
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
 translation_method: google
 source_content_sha256: a716a1c3cf99e3d34241000d92ee39248d92a3c9503fa59066fb7f864e19044c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7decda09352000a203c5a57e6996335f2a67ece03d2f92dd17670d38f7934258
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。対称代数
@@ -90,13 +90,13 @@ $$
 
 (2) $S(M)$ のすべての元は、形 $x_1 x_2 \ldots x_n$ の積の和であり、$x_i$ 属するから $M$ です。 $S(M)$ で取得されたそのような積と、$T(M)$ で取得された類似の積を混同しないように注意する必要があります。
 
-(3) $n!.1$ が $A$ で反転可能な場合、$A$ モジュール $S^n(M)$ は形 $x^n$ の元によって生成されます。ここで、$x \in M$;これは、上記の注意と I, § 8, no. 2、命題 2 から続きます。
+(3) $n!.1$ が $A$ で反転可能な場合、$A$ モジュール $S^n(M)$ は形 $x^n$ の元によって生成されます。ここで、$x \in M$;これは、上記の注意および I, § 8, no. 2、命題 2 から続きます。
 
 ### 2. 対称代数の関数的性質
 
 #### 命題 3 {#alg-iii-s6-prop-3 .statement tag=062A}
 
-*$A$ を可換環、$M$、$N$ の 2 つの $A$ モジュールと $u : M \to N$ の $A$ 線形マッピングとします。 図式* となるような $A$-代数準同型性 $u' : S(M) \to S(N)$ が 1 つだけ存在します。
+*$A$ を 2 つの $A$ モジュールと $u : M \to N$ の $A$ 線形マッピングである可換環、$M$、$N$ とします。 図式* となるような $A$-代数準同型性 $u' : S(M) \to S(N)$ が 1 つだけ存在します。
 
 $$
 \begin{array}{ccc}
@@ -108,13 +108,13 @@ $$
 
 *は可換です。さらに、$u'$ はグレード代数準同型です。*
 
-$u'$ の存在と一意性は、可換代数 $S(N)$ と $f = \phi'_N \circ u : M \to S(N)$ に適用される no. 1、命題 2 から続きます。として
+$u'$ の存在と一意性は、no. 1、命題 2 から可換代数 $S(N)$ および $f = \phi'_N \circ u : M \to S(N)$ に適用されます。として
 $$
 f(M) \subset S^1(N) = N,
 $$
-$u'$ が等級付けされた代数準同型であるという事実は、no. 1, *注意* 1 から導き出されます。
+$u'$ がグレード代数準同型であるという事実は、no. 1, *注意* 1 から導き出されます。
 
-命題 3 の準同型 $u'$ は、以降、$S(u)$ で示されます。 $P$ が $A$ モジュール、$v : N \to P$ が $A$ 線形マッピングの場合、
+命題 3 の準同型 $u'$ は、今後、$S(u)$ で示されます。 $P$ が $A$ モジュール、$v : N \to P$ が $A$ 線形マッピングの場合、
 $$
 S(v \circ u) = S(v) \circ S(u)
 $$
@@ -129,15 +129,15 @@ S(M) & \xrightarrow{S(v) \circ S(u)} & S(P)
 \end{array}
 $$
 
-$S(M)$ 含む $M = S^1(M)$ として、$S(u)$ はときどきであり、$u$ から $S(M)$ の *標準拡大* と呼ばれます。 制限 $S^n(u): S^n(M) \to S^n(N)$ は次のとおりです
+$S(M)$ 含む $M = S^1(M)$ のように、$S(u)$ はときどきであり、$u$ から $S(M)$ の *標準拡大* と呼ばれます。 制限 $S^n(u): S^n(M) \to S^n(N)$ は次のとおりです
 $$
 S^n(u)(x_1 x_2 \ldots x_n) = u(x_1) u(x_2) \ldots u(x_n)
 $$
-ここで、$S(u)$ は代数準同型と $S^1(u) = u$ なので、$x_i \in M$ です。 制限 $S^0(u)$ から $A$ は恒等写像です。 $S^n(u)$は、$T^n(u): T^n(M) \to T^n(N)$から移行から商までに取得できることに注意してください。
+ここで、$S(u)$ は代数準同型と $S^1(u) = u$ であるため、$x_i \in M$ は制限 $S^0(u)$ から $A$ は恒等写像です。 $S^n(u)$ は、移行から商によって、$T^n(u): T^n(M) \to T^n(N)$ から取得できることに注意してください。
 
 #### 命題 4 {#alg-iii-s6-prop-4 .statement tag=062B}
 
-*$u: M \to N$ が全射的 $A$ 線形写像である場合、準同型 $S(u): S(M) \to S(N)$ は全射的であり、その核は $u$ の核 $P \subset M \subset S(M)$ によって生成される $S(M)$ のイデアルです。
+*$u: M \to N$ が全射 $A$-線形写像である場合、準同型 $S(u): S(M) \to S(N)$ は全射であり、その核は $u$ の核 $P \subset M \subset S(M)$ によって生成される $S(M)$ のイデアルです。
 
 $v = T(u): T(M) \to T(N)$と書きます。私たちは (§ 5, no. 2, 命題 3) $v$ が全射であることを知っており、したがって定義から $v(\mathfrak{J}'_M) = \mathfrak{J}'_N$ が導かれます。 $\mathfrak{R}$ が $v$ の核であれば、$v^{-1}(\mathfrak{J}'_N) = \mathfrak{R} + \mathfrak{J}'_M$ です。 $S(u): T(M)/\mathfrak{J}'_M \to T(N)/\mathfrak{J}'_N$は$v$から移行から商まで導かれるので、核が$\mathfrak{R}' = (\mathfrak{R} + \mathfrak{J}'_M)/\mathfrak{J}'_M$である全射準同型になります。 $\mathfrak{R}$ は $u$ (§ 5, no. 2) の核 $P$ によって生成されるため、$\mathfrak{R}'$ も生成されます。
 
@@ -167,7 +167,7 @@ N は、z に *関連付けられた* M のベクトル部分空間と呼ばれ�
 
 ### 3. 加群の n 番目の対称冪および対称多重線形マッピング
 
-X, Y を 2 つの集合と $n$ 整数 $\geqslant 1$ とします。 A *symmetric mapping* of $X^n$ into Y is any mapping $f : X^n \to Y$ such that, for every permutation $\sigma \in \mathscr{S}_n$ and every element $(x_i) \in X^n$,
+X, Y を 2 つの集合と $n$ 整数 $\geqslant 1$ とします。 $X^n$ の Y への *対称マッピング* は、すべての置換 $\sigma \in \mathscr{S}_n$ およびすべての要素 $(x_i) \in X^n$ に対して、次のようなマッピング $f : X^n \to Y$ です。
 
 $$
 f(x_{\sigma(1)}, x_{\sigma(2)}, \ldots, x_{\sigma(n)}) = f(x_1, x_2, \ldots, x_n).
@@ -239,15 +239,15 @@ $$
 
 ここで、$u_\sigma$ は A-加群 $T^n(M)$ の *自己準同型* であり、$z \mapsto \sigma . z$ とも表されます。明らかに、$\sigma$ が $\mathfrak{S}_n$ の単位元である場合、$u_\sigma$ が同一性です。一方、$y_i = x_{\sigma^{-1}(i)}$ と書くと、置換 $\tau \in \mathfrak{S}_n, y_{\tau^{-1}(i)} = x_{\sigma^{-1}(\tau^{-1}(i))}$ ごとに $\tau . (\sigma . z) = (\tau \sigma) . z$ が得られます。他の語、A-加群 $T^n(M)$は演算$(\sigma, z) \mapsto \sigma . z$(I, § 5, no. 1)の下の左$\mathfrak{S}_n$-*集合*です。 *すべて* $\sigma \in \mathfrak{S}_n$ の $\sigma . z = z$ が (反変) *対称テンソル of 位数 n* と呼ばれるような、$T^n(M)$ の元。それらは $T^n(M)$ のサブ A モジュール $S'_n(M)$ 形です。
 
-すべての $z \in T^n(M)$ について、$s . z = \sum_{\sigma \in \mathfrak{S}_n} \sigma . z$ と書き、$s . z$ をテンソル $z$ の *対称化* と呼びます。明らかに、$s . z$ は対称なテンソルであるため、$z \mapsto s . z$ は $T^n(M)$ の自己準同型であり、像 $S''_n(M)$ は $S'_n(M)$ に含まれます。一般的には、$S''_n(M) \neq S'_n(M)$ (練習問題 5) です。 $z$ が対称テンソルの場合、$s . z = n! z$。 *n の場合は、次のようになります!は A* で可逆であり、自己準同型 $z \mapsto (n!)^{-1} s . z$ は $T^n(M)$ (II, § 1, no. 8) の *射影子* であり、その像は $S'_n(M) = S''_n(M)$ です。さらに、この射影子の*核*はちょうど$\mathfrak{J}'_n$です。なぜなら、明らかに、すべての $\sigma \in \mathfrak{S}_n$ と $\mathfrak{J}'_n$ に対する $\sigma(\mathfrak{J}'_n) \subset \mathfrak{J}'_n$ は、テンソル $z - \rho . z$ によって生成された定義によって生成されます。ここで、$\rho$ は、$\{1, n\}$ の 2 つの連続する数を交換する転置です。また、$\sigma, \tau$ が $\mathfrak{S}_n$ の 2 つの置換である場合、$z - (\sigma \tau) . z = z - \sigma . z + \sigma . (z - \tau . z)$、よってになります ($\mathfrak{S}_n$ のすべての置換は 2 つの連続する数を交換する転置の積であるため) $z - \sigma . z \in \mathfrak{J}'_n$ はすべて$z \in T^n(M)$と$\sigma \in \mathfrak{S}_n$。したがって、(常に n! が A で可逆であると仮定すると)、次のことがわかります。
+すべての $z \in T^n(M)$ について、$s . z = \sum_{\sigma \in \mathfrak{S}_n} \sigma . z$ と書き、$s . z$ をテンソル $z$ の *対称化* と呼びます。明らかに、$s . z$ は対称のテンソルであるため、$z \mapsto s . z$ は $T^n(M)$ の自己準同型であり、像 $S''_n(M)$ は $S'_n(M)$ に含まれます。一般的には、$S''_n(M) \neq S'_n(M)$ (練習問題 5) です。 $z$ が対称テンソルの場合、$s . z = n! z$。 *n の場合は、次のようになります!は A* で可逆であり、自己準同型 $z \mapsto (n!)^{-1} s . z$ は $T^n(M)$ (II, § 1, no. 8) の *射影子* であり、その像は $S'_n(M) = S''_n(M)$ です。さらに、この射影子の*核*はちょうど$\mathfrak{J}'_n$です。なぜなら、明らかにすべての $\sigma \in \mathfrak{S}_n$ と $\mathfrak{J}'_n$ に対する $\sigma(\mathfrak{J}'_n) \subset \mathfrak{J}'_n$ は、テンソル $z - \rho . z$ によって生成された定義によるものであり、$\rho$ は $\{1, n\}$ の 2 つの連続する数を交換する転置です。また、$\sigma, \tau$ が $\mathfrak{S}_n$ の 2 つの置換である場合、$z - (\sigma \tau) . z = z - \sigma . z + \sigma . (z - \tau . z)$、よってになります ($\mathfrak{S}_n$ のすべての置換は 2 つの連続する数を交換する転置の積であるため) $z - \sigma . z \in \mathfrak{J}'_n$ はすべて$z \in T^n(M)$と$\sigma \in \mathfrak{S}_n$。したがって、(常に n! が A で可逆であると仮定すると)、次のことがわかります。
 
 $$
 z - (n!)^{-1} s . z = \sum_{\sigma \in \mathfrak{S}_n} (n!)^{-1} (z - \sigma . z) \in \mathfrak{J}'_n
 $$
 
-すべての $z \in T^n(M)$ が私たちの主張を証明します。
+すべての$z \in T^n(M)$、これは私たちの主張を証明します。
 
-When $n!$ is invertible in $A$, the submodules $S'_n(M)$ and $\mathfrak{g}'_n$ of $T^n(M)$ are therefore supplementary and the restriction to $S'_n(M)$ of the canonical homomorphism $T^n(M) \to S^n(M) = T^n(M)/\mathfrak{g}'_n$ is an $A$-module isomorphism, which allows us in the case envisaged to identify symmetric tensors of order $n$ with the elements of the $n$-th symmetric power of $M$. Note however that this identification is not compatible with multiplication, the product (in $T(M)$) of two symmetric tensors not being symmetric in general and not therefore having as image in $S(M)$ the product of the images of the symmetric tensors considered.
+$n!$が$A$で反転可能な場合、$T^n(M)$の部分加群$S'_n(M)$と$\mathfrak{g}'_n$は補足であり、標準準同型$T^n(M) \to S^n(M) = T^n(M)/\mathfrak{g}'_n$の制限から$S'_n(M)$は、 $A$-モジュール同型により、位数 $n$ の同一視する対称テンソルと、$M$ の $n$ 番目の対称冪の元が可能になります。 注意ただし、この識別は、一般に対称ではない 2 つの対称テンソルの乗法、積 ($T(M)$) と互換性がなく、したがって対称の $S(M)$ 積の像の像とは一致しません。 テンソル検討中。
 
 ### 4. スカラーの環の拡大
 
@@ -295,11 +295,11 @@ $$
 
 *$A$-準同型* $f' = \lim \rightarrow f'_\alpha : \lim \rightarrow S_{A_\alpha}(M_\alpha) \to S_A(M)$ *等級付けされた代数同型.*
 
-証明は、$S$ による $T$ および $\phi'$ による $\phi$ を通じて、可換代数の直接の極限が可換であるという事実を考慮すると、§ 5, no. 5、命題 6 置き換えることと同じです。
+証明は、$S$ による $T$ および $\phi'$ による $\phi$ を通して、§ 5, no. 5、命題 6 置き換えることと同じであり、可換代数の直接の極限が可換であるという事実を考慮します。
 
-### 6. 直和の対称的な代数。 自由加群の対称的な代数。対称的な代数と段階的な加群
+### 6. 直和の対称代数。 自由加群の対称的な代数。対称的な代数とグレーディングされた加群
 
-$A$ を $A$ モジュールのファミリーの可換環、$M = \bigoplus_{\lambda \in L} M_\lambda$ 直和、および $j_\lambda: M_\lambda \to M$ 標準単射とします。 代数 $S(j_\lambda): S(M_\lambda) \to S(M)$ の $A$ 準同型性を導き出します。 $S(M)$ は可換なので、§ 4, no. 5 の命題 8 は準同型 $S(j_\lambda)$ に適用でき、したがって一意な代数準同型が存在します。
+$A$ を、$A$ モジュールのファミリーの可換環、$M = \bigoplus_{\lambda \in L} M_\lambda$ 直和、および $j_\lambda: M_\lambda \to M$ 標準単射とします。 代数 $S(j_\lambda): S(M_\lambda) \to S(M)$ の $A$ 準同型性を導き出します。 $S(M)$ は可換なので、§ 4, no. 5 の命題 8 は準同型 $S(j_\lambda)$ に適用でき、したがって一意な代数準同型が存在します。
 
 $$
 g: \bigotimes_{\lambda \in L} S(M_\lambda) \to S(M)
@@ -314,7 +314,7 @@ $$
 
 #### 命題 9 {#alg-iii-s6-prop-9 .statement tag=062I}
 
-*標準準同型* $g$ *(公式 (10))* * は、グレード代数同型* (cf. § 4, no. 8、*注意 1*) です。
+*標準準同型* $g$ *(公式 (10))* *はグレード代数同型* (cf. § 4, no. 8, *注意 1*) です。
 
 $g$ が全単射であることを証明するには、定義する代数準同型
 
@@ -326,17 +326,17 @@ $g \circ h$ と $h \circ g$ は、それぞれ $S(M)$ と $\bigotimes_{\lambda \
 $$
 M_\lambda \xrightarrow{\phi'_M} S(M_\lambda) \xrightarrow{f_\lambda} \bigotimes_{\lambda \in L} S(M_\lambda).
 $$
-すべての $\lambda \in L$ に対して $u \circ j_\lambda = u_\lambda$ となるような $A$ 線形写像 $u : M \to \bigotimes_{\lambda \in L} S(M_\lambda)$ が 1 つだけ存在します。 $S(M_\lambda)$ が可換であるため、そのテンソル積 (§ 4, no. 5) も可換であるため、 (no. 1, 命題 2) $h \circ \phi'_M = u$ のような一意な代数準同型 $h : S(M) \to \bigotimes_{\lambda \in L} S(M_\lambda)$ が存在します。一方、$u(M)$ は、等級付けされた代数 $\bigotimes_{\lambda \in L} S(M_\lambda)$ の次数 1 の元の部分加群に含まれるのは明らかであるため、$h$ は等級付けされた代数準同型です。 $x_\lambda \in M_\lambda$の場合、
+すべての $\lambda \in L$ に対して $u \circ j_\lambda = u_\lambda$ となるような $A$ 線形写像 $u : M \to \bigotimes_{\lambda \in L} S(M_\lambda)$ が 1 つだけ存在します。 $S(M_\lambda)$ は可換であるため、そのテンソル積 (§ 4, no. 5) も可換であるため、 (no. 1, 命題 2) $h \circ \phi'_M = u$ となる一意な代数準同型 $h : S(M) \to \bigotimes_{\lambda \in L} S(M_\lambda)$ が存在します。一方、$u(M)$ は、等級付けされた代数 $\bigotimes_{\lambda \in L} S(M_\lambda)$ の次数の元の部分加群に含まれるのは明らかであるため、$h$ は等級付けされた代数準同型です。 $x_\lambda \in M_\lambda$の場合、
 $$
 h(g(u_\lambda(x_\lambda))) = h(g(f_\lambda(\phi'_M(x_\lambda)))) = h(S(j_\lambda)(\phi'_M(x_\lambda))) = h(\phi'_M(j_\lambda(x_\lambda))) = u_\lambda(x_\lambda);
 $$
-$u_\lambda(x_\lambda)$ 生成する代数 $\bigotimes_{\lambda \in L} S(M_\lambda)$ (§ 4, no. 5、命題 8) のように、$h \circ g$ は確かに恒等写像です。同様に、
+$u_\lambda(x_\lambda)$ 生成する代数 $\bigotimes_{\lambda \in L} S(M_\lambda)$ (§ 4, no. 5, 命題 8) のように、$h \circ g$ は確かに恒等写像です。同様に、
 $$
 g(h(\phi'_M(j_\lambda(x_\lambda)))) = g(u_\lambda(x_\lambda)) = g(f_\lambda(\phi'_M(x_\lambda))) = S(j_\lambda)(\phi'_M(x_\lambda)) = \phi'_M(j_\lambda(x_\lambda))
 $$
 そして、元 $\phi'_M(j_\lambda(x_\lambda))$ 生成する代数 $S(M)$ のように、$g \circ h$ は確かに恒等写像です。
 
-注意 (1) $N = \bigoplus_{\lambda \in L} N_\lambda$ を、$L$ をインデックス集合とする$A$ モジュールの他のファミリの直和とし、すべての$\lambda \in L$ について、$v_\lambda : M_\lambda \to N_\lambda$ を$A$ 線形マッピングとします。 よってには、$A$ 線形マッピング $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6、命題 6) があります。それから図式
+注意 (1) $N = \bigoplus_{\lambda \in L} N_\lambda$ を、インデックス集合として$L$ を持つ$A$ モジュールの他のファミリの直和とし、すべての$\lambda \in L$ について、$v_\lambda : M_\lambda \to N_\lambda$ を$A$-線形マッピング、よって $A$-線形マッピング $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6、命題 6) があります。それでは図式
 $$
 \begin{array}{ccc}
 \bigotimes_{\lambda \in L} S(M_\lambda) & \xrightarrow{g_M} & S(M) \\
@@ -346,7 +346,7 @@ $$
 $$
 は、定義 (§ 4, no. 5, 系から命題 8) まで可換です。
 
-同型 $g$ によって $S^n(M)$ が識別される $\bigotimes_{\lambda \in L} S(M_\lambda)$ のサブモジュール $A$ をより正確に記述することができます。 For every finite subset $J$ of $L$, we write $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, so that $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ relative to the directed set $\mathscr{F}(L)$ of finite subsets of $L$, by definition (§ 4, no. 5). For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (thus having *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
+同型 $g$ によって $S^n(M)$ が識別される $\bigotimes_{\lambda \in L} S(M_\lambda)$ のサブモジュール $A$ をより正確に記述することができます。 $L$ のすべての有限部分集合 $J$ について、$E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$ を書き、定義により、$L$ の有限部分集合の有向集合 $\mathscr{F}(L)$ に対して $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ が相対的になるようにします (§ 4, no. 5)。 For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (thus having *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
 
 $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)
@@ -362,7 +362,7 @@ II, § 6, no. 2、命題 5 を考慮すると、次のことがわかります�
 
 #### 系 {#alg-iii-s6-n6-cor-1 .statement tag=062J}
 
-*The A-module* $S^n(M)$ *is the image under isomorphism* (10) *of the submodule of* $\bigotimes_{\lambda \in L} S(M_\lambda)$ *the direct sum of the submodules* $S^\nu(M)$ *for all the families* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ *such that* $\sum_{\lambda \in L} n_\lambda = n$; *if* $J$ *は* $\nu$、$S^\nu(M)$ *は標準的に* $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$と同型です。
+*A モジュール* $S^n(M)$ *同型写像の下の画像です* (10) *のサブモジュールの* $\bigotimes_{\lambda \in L} S(M_\lambda)$ *サブモジュールの直接和* $S^\nu(M)$ *すべてのファミリーについて* $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ *そのような* $\sum_{\lambda \in L} n_\lambda = n$; *if* $J$ *は* $\nu$、$S^\nu(M)$ *は標準的に* $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$と同型です。
 
 一般に、$S^\nu(M)$、$\bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)$、および$S^n(M)$ の像が識別されます。
 

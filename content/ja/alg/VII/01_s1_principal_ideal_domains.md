@@ -33,48 +33,48 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 28
-content_sha256: cd658633084604d1c9a9b31c784f6303458502e2eeab3444212b4d49354d376c
+content_sha256: 86b996cb26ba469a22c5dac220db697e82548332380acf1534cf623e779b1798
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
 translation_method: google
 source_content_sha256: fccb95f1c743016175d920f3d9b4107ca71a6669ffca75cd9cc5695d9f404b32
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d09846d07d2c1528650b5a94f69ad5a73c6944df993567f92019a43eb5ba9e55
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 主イデアル整域
 
-### 1. 主イデアル整域中定義
+### 1. 定義/主イデアル整域
 
-(I、p. 104) を思い出してください。可換環 $A$ の理想は、いくつかの $a \in A$ に対して形 $(a) = Aa$ を持つ場合、*主要*であると言われます。
+(I、p. 104) を思い出してください。可換環 $A$ のイデアルは、いくつかの $a \in A$ に対して形 $(a) = Aa$ を持つ場合、*主要* であると言われます。
 
 #### 定義 1 {#alg-vii-s1-def-1 .statement tag=070X}
 
-*主イデアル整域は整域 (I、p. 116) であり、すべての理想が主要です。*
+*主イデアル整域は整域 (I、p. 116) であり、あらゆる理想が主要です。*
 
 #### 例 {#alg-vii-s1-n1-exa-1 .statement tag=070Y}
 
-有理数整数の環 $\mathbf{Z}$ は主イデアル整域 (I, p. 111) です。 $K$ が可換体の場合、$K$ 上の 1 つの不定数における多項式環 $K[X]$ は主イデアル整域 (IV、p. 11、提案 11)。同じことが正式な冪系列 $K[[X]]$ の環にも当てはまり、この環のすべての理想には形 $(X^n)$ があります (IV、p. 38、提案 12)。 \* p 進数体の整数の環は主イデアル整域です。 \*
+有理数整数の環 $\mathbf{Z}$ は主イデアル整域 (I, p. 111) です。 $K$ が可換体の場合、$K$ 上の 1 つの不確定項における多項式環 $K[X]$ は主イデアル整域 (IV, p. 11、提案 11)。同じことが、正式な冪系列 $K[[X]]$ の環にも当てはまり、この環のすべての理想に対して、 形 $(X^n)$ が含まれます (IV, p. 38, 提案 12)。 \* p 進数体の整数の環は主イデアル整域です。 \*
 
-$\mathbf{Q}(i)$ が既約多項式 $X^2 + 1$ の根 $i$ を隣接することによって有理数数の体 $\mathbf{Q}$ から得られる体を表す場合、元 $a + bi$ $\mathbf{Q}(i)$、ここで $a$ と $b$ は有理数整数、形部分環 $\mathbf{Q}(i)$ の $\mathbf{A}$、« ガウス整数 » と呼ばれ、主イデアル整域 (VII, p. 50、例 7)。対照的に、体 $\mathbf{Q}(\rho)$ では、$\rho$ が $X^2 + 5$ の根である場合、部分環 $B$ からなる元 $a + bp$ (a と b の有理整数) は成立しません。 主イデアル整域 (VII、p. 51、例 12)。
+既約多項式 $X^2 + 1$ の根 $i$ を隣接して有理数数の体 $\mathbf{Q}$ から得られる体を $\mathbf{Q}(i)$ が表す場合、元 $\mathbf{Q}(i)$ の $a + bi$、ここで $a$ と $b$ は有理数整数、形部分環 $\mathbf{Q}(i)$ の $\mathbf{A}$、« ガウス整数 » と呼ばれます。 主イデアル整域 (VII、p. 50、例 7)。対照的に、体 $\mathbf{Q}(\rho)$ では、$\rho$ は $X^2 + 5$ の根、部分環 $B$ からなる元 $a + bp$ (a と b は有理数) 整数) は主イデアル整域 (VII、p. 51、例 12) ではありません。
 
-体 $K$ を超える 2 つの不定数の多項式環 $K[X, Y]$ は主イデアル整域ではありません。確かに、非零定数は、$X$ と $Y$ の両方割るを成す唯一の元であり、$X$ と $Y$ によって生成される理想的な生成するはありません。
+体 $K$ を超える 2 つの不定数の多項式環 $K[X, Y]$ は主イデアル整域ではありません。実際、非零定数は、$X$ と $Y$ の両方を割る満たす唯一の元であり、$X$ と $Y$ によって生成される理想的な生成するはありません。
 
 ### 2. 主イデアル整域の割り算
 
-Let $A$ be a principal ideal domain and let $K$ be its field of fractions (I, p. 116); we will see that the ordered group $\mathscr{P}^*$ of principal fractional ideals (*VI*, p. 6) of $K$ is lattice ordered; more precisely:
+$A$ を主イデアル整域とし、$K$ を分数 (I, p. 116) の体とします。 $K$ の主分数イデアル (*VI*, p. 6) の順序付き群 $\mathscr{P}^*$ が格子順序であることがわかります。より正確には:
 
 #### 命題 1 {#alg-vii-s1-prop-1 .statement tag=070Z}
 
-*$K$ を主イデアル整域 $A$ の分数の体とし、$(x_i)_{i \in I}$ を共通のの分母 $b \in K^*$ を持つ $K$ の元の族とする (他の場合は語) $i$ 全員に $bx_i \in A$)。それから：*
+*$K$ を主イデアル整域 $A$ の分数の体とし、$(x_i)_{i \in I}$ を共通のの分母 $b \in K^*$ を持つ $K$ の元の家族とする語 $bx_i \in A$ 全員 $i$)。次に:*
 
 a) ファミリ $(x_i)$ は $K$ に gcd を持っています。
-b) $(x_i)$ のすべての gcd は形 $d = \sum a_i x_i$ で表現できます。ここで、$a_i$ は $A$ の元であり、有限を除いてその多くはすべて零です。
+b) $(x_i)$ のすべての gcd は形 $d = \sum a_i x_i$ で表すことができます。ここで、$a_i$ は $A$ の元であり、有限を除いてその多くはすべて零です。
 
-確かに、$A$ の理想 $\sum Abx$ が主要であり、形 $Ad'$ も同様です。 $d' = bd \ (d \in K)$を入れます。 関係 $d' = \sum a_i b x_i$ から $d = \sum a_i x_i$ を導き出し、ここで $a_i \in A$ です。したがって、$x_i$ 割る $d$ のすべての共通の因子になります。一方、$bd$は$bx$の共通の因子なので、構成により、$d$は$x_i$の共通の因子になります。
+確かに、$A$ の理想 $\sum Abx$ が主要であり、形 $Ad'$ も同様です。 $d' = bd \ (d \in K)$を入れてください。 関係 $d' = \sum a_i b x_i$ から、$d = \sum a_i x_i$ が導き出されます。ここで、$a_i \in A$ です。したがって、$x_i$ 割る $d$ のすべての共通の因子です。一方、$bd$は$bx$の共通の因子なので、構成により、$d$は$x_i$の共通の因子となります。
 
 #### 注意 {#alg-vii-s1-n2-rem-1 .statement tag=0710}
 
@@ -113,39 +113,39 @@ c) « $p$ は $A$ の既約元である » は、« $(p)$ は $A$ の最大理�
 
 *$a, b, c$ を体の分数の主イデアル整域 $A$ の元とし、$d$ を $a$ と $c$ の gcd とする。この場合、合同式 $ax \equiv b \pmod{c}$ は、$d$ 割る $b$ の場合に限り、解 $x_0 \in A$ になります。この場合、満たす $ax \equiv b \pmod{c}$ は、正確に満たす $x \equiv x_0 \pmod{cd}$* である $A$ の元 $x$ です。
 
-$ax \equiv b \pmod{c}$、$x \in A$ の場合、$b = ax + cy$ となるような $y \in A$ が存在するため、$d$ 割る $b$ となります。逆に、$d$ 割る $b$ の場合、$b = ax_0 + cy_0$ と $x_0, y_0 \in A$ (提案 *1*)、つまり $ax_0 \equiv b \pmod{c}$;さらに、関係 $ax \equiv b \pmod{c}$ は $a(x - x_0) \equiv 0 \pmod{c}$ と等価です。 $a = da'$と$c = dc'$を入れると、後者は$a'(x - x_0) \equiv 0 \pmod{c'}$になります。しかし、$a'$と$c'$は互いに素であるため、これは（$x \in A$の場合）$x - x_0 \equiv 0 \pmod{c'}$と等価です（VI、p. 14、Prop.*10*（DIV）およびVI、p. 15、Cor.2からProp.11まで） (DIV))。
+$ax \equiv b \pmod{c}$、$x \in A$ の場合、$b = ax + cy$ となるような $y \in A$ が存在するため、$d$ 割る $b$ となります。 Conversely, if $d$ 割る $b$ then $b = ax_0 + cy_0$ with $x_0, y_0 \in A$ (Prop. *1*), so $ax_0 \equiv b \pmod{c}$; moreover, 関係 $ax \equiv b \pmod{c}$ is then equivalent to $a(x - x_0) \equiv 0 \pmod{c}$; $a = da'$と$c = dc'$を入れると、後者は$a'(x - x_0) \equiv 0 \pmod{c'}$になります。しかし、$a'$ と $c'$ は互いに素であるため、これは ($x \in A$ の場合) $x - x_0 \equiv 0 \pmod{c'}$ と等価です (VI, p. 14, Prop. *10* (DIV) および VI, p. 15, Cor. 2 から Prop. 11 (DIV))。
 
 #### 命題 4 {#alg-vii-s1-prop-4 .statement tag=0715}
 
-*$(a_i)$, $i \leq n$ を、主イデアル整域 $A$ の対の互いに素な元の有限族とする。すると、$A / \left( \prod_{r=1}^n a_r \right)$ から積 $\prod_{r=1}^n A/(a_r)$ への標準準同型 (I, p. 110) は、$A$-代数の同型になります。
+*$(a_i)$, $i \leq n$ を主イデアル整域 $A$ の対の互いに素な元の有限族とする。すると、$A / \left( \prod_{r=1}^n a_r \right)$ から積 $\prod_{r=1}^n A/(a_r)$ への標準準同型 (I, p. 110) は、$A$-代数の同型になります。
 
 これは、I、p. 110、提案 9、および提案 2 *a)* に続きます。
 
-$a_i$ が対で互いに素であると仮定しない場合、提案 4 の結論は無効です (cf. VII、p. 24、提案 9)。
+The conclusion of Prop. 4 is not valid if it is not assumed that the $a_i$ are pairwise coprime (cf. VII, p. 24, Prop. 9).
 
-### 3. 分解を主イデアル整域で既約因子に
+### 3. 分解 into irreducible 因子 in 主イデアル整域
 
-分解に関するVI、p. *18*の結果を既約元、主イデアル整域に適用します。提案 2 により、$A$ の元 $p \neq 0$ は、環 $A/(p)$ が体 (I, p. *115*, Cor. 1) である場合に限り、つまり合同式 $ax \equiv b \pmod{p}$ が認める場合に限り、既約です。それぞれの $b \in A$ と、$p$ の倍数ではないそれぞれの $a \in A$ の $A$ に解が入ります。
+分解に関連する VI、p. *18* の結果を既約元、主イデアル整域に適用します。提案 2 により、$A$ の元 $p \neq 0$ は、環 $A/(p)$ が体 (I, p. *115*, Cor. 1) である場合に限り、つまり合同である場合に限り、既約です。 $ax \equiv b \pmod{p}$ は、各 $b \in A$ と、$p$ の倍数ではない各 $a \in A$ について、$A$ の解を認めます。
 
 #### 定義 2 {#alg-vii-s1-def-2 .statement tag=0716}
 
-※$A$を整域とします。 $A$の既約元の代表者のうち系は、$A$の既約元の$(p_\alpha)$の家族であり、$A$の各既約元はちょうど1つの$p_\alpha$の仲間です。*
+*Let $A$ be 整域. $A$の既約元の代表者の系は、$A$の既約元の家族$(p_\alpha)$であり、$A$のすべての既約元は、正確に1つの$p_\alpha$の仲間です。*
 
 #### 定理 2 {#alg-vii-s1-thm-2 .statement tag=0717}
 
-— $\mathbf{A}$ を主イデアル整域とし、$(p_\alpha)$ を $\mathbf{A}$ の既約元の代表者の系とします。すると、$A$ の体の分数のすべての非零元 $x$ は形で一意に表現できます。
+— $\mathbf{A}$ を主イデアル整域とし、$(p_\alpha)$ を $\mathbf{A}$ の既約元の代表者の系とします。すると、非零元 $x$、体、分数、$A$ は形で一意に表現できます。
 
 $$
 x = u \prod_{\alpha} p_{\alpha}^{n_{\alpha}},
 $$
 
-ここで、$u$ は $\mathbf{A}$ の可逆元であり、$n_{\alpha}$ は整数であり、そのほとんどはすべて零です。 $x$ ～ 属する ～ $\mathbf{A}$ については、すべての $n_{\alpha}$ が正であることが必要かつ十分です。
+ここで、$u$ は $\mathbf{A}$ の可逆元であり、$n_{\alpha}$ は整数であり、そのほとんどはすべて零です。 $x$ ～ 属する ～ $\mathbf{A}$ では、すべての $n_{\alpha}$ が正であることが必要かつ十分です。
 
-分解についての定理を、既約元 (VI、p. 18、Th. 2) の和として使用します。上記の主張は単なる翻訳です。 $\mathscr{P}^*$ は群で順序付けされた格子であるため、この定理の仮説が実際に満たされていることを確認するには、$\mathbf{A}$ 含む極大元の主イデアルのすべての空でない集合を位数で示すだけで十分です。次の補題からは次のようになります。
+分解についての定理を既約元 (VI, p. 18, Th. 2) の和として使用します。上記の主張は単なる翻訳です。 $\mathscr{P}^*$ は群で順序付けされた格子であるため、この仮説が成り立つことを確認するには、$\mathbf{A}$ 含む極大元の主イデアのすべての空でない集合を位数で示すだけで十分です。 定理 are indeed satisfied; now this follows from the next 補題:
 
 #### 補題 1 {#alg-vii-s1-lem-1 .statement tag=0718}
 
-$A$ を環として、$A$ のすべての左イデアルが有限に生成されるようにします。すると、$\mathbf{A}$ の左イデアルのすべての空でない集合 $\Phi$ は、包含順に並べると、極大元になります。
+$A$ の左イデアルがすべて有限に生成されるように、$A$ を環とします。すると、$\mathbf{A}$ の左イデアルのすべての空でない集合 $\Phi$ は、包含順に並べると、極大元になります。
 
 Zorn の補題 (集合理論, III, p. 154, Th. 2) によれば、$\Phi$ が帰納的であることを証明するのに十分です。ここで、$(a_\lambda)$ が $\Phi$ の元の完全順序族である場合、イデア $a_i$ の和集合 $a$ は、$\mathbf{A}$ の左イデアルであるため、生成元 $(a_i)_{1 \leq i \leq n}$ の有限系が認められます。それぞれの $a_i$ 属するから理想 $a_{\lambda_i}$ まで、そして家族 $(a_\lambda)$ は完全に順序付けられているため、$a_i$ は理想 $a_{\lambda_i}$ のすべての属するから最大の 、たとえば $a_1$ になります。次に、$a = a_1$ 属するから $\Phi$ となり、これは確かに帰納的集合になります。
 
@@ -178,7 +178,7 @@ $\mathbf{Z}$ の既約整数 $> 0$ は、まさに私たちが素数数 (I, p. 5
 
 ### 5. 体上の不定数における多項式の割り算
 
-可換体 $K$ 上の 1 つの不確定要素における多項式環 $K[X]$ は主イデアル整域 (IV、p. 11、提案 11)。 その分数の体は、$K$の係数を含む$X$の有理数写像の体$K(X)$です。 次数 0 の多項式の環 $K[X]$ 含む部分環、つまり $K$ で識別される定数の体。 $K^*$ の元は $K$ で反転可能であるため、$K[X]$ でも反転可能です。逆に、公式 $\deg(uv) = \deg(u) + \deg(v)$ は、すべての可逆多項式が次数 0 を持つことを示します。従って、$K[X]$の可逆元の群$U$は、正確に$K^*$です。 従って、2 つの関連多項式は、非零定数因子だけが異なります。特に、関連多項式含むのすべての類は固有のモニック多項式です。 The subgroup of the multiplicative group $K(X)^*$ generated by the monic polynomials thus contains a unique element from each class of associate rational functions, and consequently is isomorphic to the group
+可換体 $K$ 上の 1 つの不確定要素における多項式環 $K[X]$ は主イデアル整域 (IV、p. 11、提案 11)。 その分数の体は、$K$の係数を含む$X$の有理数写像の体$K(X)$です。 次数 0 の多項式の環 $K[X]$ 含む部分環、つまり $K$ で識別される定数の体。 $K^*$ の元は $K$ で反転可能であるため、$K[X]$ でも反転可能です。逆に、公式 $\deg(uv) = \deg(u) + \deg(v)$ は、すべての可逆多項式が次数 0 を持つことを示します。従って、$K[X]$の可逆元の群$U$は、正確に$K^*$です。 従って、2 つの関連多項式は、非零定数因子だけが異なります。特に、関連多項式含むのすべての類は固有のモニック多項式です。 従って、モニック多項式によって生成された乗法群 $K(X)^*$ の部分群には、関連する有理関数の各クラスからの一意の要素が含まれており、その結果、群と同型になります。
 
 $$
 \mathscr{P}^* = K(X)^*/U
@@ -186,7 +186,7 @@ $$
 
 $K(X)$ の主分数イデアルの。特に、(環 $K[X]$ に関して) 体 $K(X)$ の gcd または lcm が言及されるときは常に、これらはモニック多項式 (または 0) の商であることが理解されます。この規則により、有理数写像の族の gcd または lcm について話すことができます。
 
-The irreducible elements of $K[X]$ are precisely the irreducible polynomials in the usual sense (IV, p. 13, Def. 2), and the set of monic irreducible polynomials is a system of representatives of irreducible elements of $K[X]$.
+$K[X]$ の既約元はまさに通常の意味での既約多項式 (IV、p. 13、定義 2) であり、モニック既約多項式の集合は $K[X]$ の既約元の代表の系です。
 
 最初の次数多項式は常に既約です。 $K$ が代数閉体の場合、逆は真になります (V、p. 19、提案 1)。従って、この場合、$K[X]$ の次数 $n$ のすべての多項式 $p(X)$ は、形で一意に書くことができます (因子の位数まで)。
 

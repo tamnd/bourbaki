@@ -38,16 +38,16 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 3d83de4a4bd8a27c85831d1a463bad51b83d5c967fbbffe7ae08a334c3303fe8
+content_sha256: f26712f95c7c1734979509454b019ff07374108c48e4ac0a13e31ce54810d3b3
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
 translation_method: google
 source_content_sha256: 5c7ff47f7a7c64e4e4d983dd7ce3ddd6c8c6e0cdf0393ed5ed3c52c0ad38c5b8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 00a21aec8f41d42696554ac4f97f7a29c4b150ee3e57e2a060e25c966797459e
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 2. 射とその派生構造
@@ -102,7 +102,7 @@ E$'$ への E の全単射は、逆全単射が必ずしも $\sigma$ 射であ�
 
 #### 注意 {#ens-iv-s2-n1-rem-2 .statement tag=03VP}
 
-When a species of structures $\Sigma$ has several principal base sets $x_1, \ldots, x_n$, and auxiliary base sets $\mathrm{A}_1, \ldots, \mathrm{A}_m$, a $\sigma$-morphism is a system $(f_1, \ldots, f_n)$, where $f_i$ is a mapping of $x_i$ into $y_i$ $(1 \leqslant i \leqslant n)$, and these systems of mappings satisfy conditions analogous to $(\mathrm{MO_{II}})$ and $(\mathrm{MO_{III}})$, which the reader may easily state for himself.
+構造 $\Sigma$ の種がいくつかの主基底集合 $x_1, \ldots, x_n$ と補助基底集合 $\mathrm{A}_1, \ldots, \mathrm{A}_m$ を持つとき、$\sigma$ 射は系 $(f_1, \ldots, f_n)$ です。 $f_i$ は、$x_i$ の写像から $y_i$ $(1 \leqslant i \leqslant n)$ であり、これらの写像満たす条件の系は、$(\mathrm{MO_{II}})$ と $(\mathrm{MO_{III}})$ に類似しており、読者は簡単に自分で述べることができます。
 
 ### 2. より細かい構造
 
@@ -136,7 +136,7 @@ V、V' を同じ集合上の 2 つのトポロジとします。 A. V が V よ�
 
 私たちは、同じ種 $\Sigma$ の比較可能な 2 つの構造が必然的に同一である例 (例 2) に出会ったところです。他にもそのような例 : 線形順序構造、 \* コンパクト トポロジ、フレシェ空間構造 (射は連続線形写像)、分割環の絶対値 (または評価) によって定義されるトポロジ、など \*
 
-For such a species of structures $\Sigma$, a morphism $f$ of E into E' which is *bijective* is an *isomorphism*; for if we transport to E' the structure $\mathscr{S}$ on E by means of $f$, we obtain a structure of species $\Sigma$ which is finer than the structure $\mathscr{S}'$ on E' and therefore coincides with $\mathscr{S}'$.
+このような構造 $\Sigma$ の場合、*全単射* である E から E' への射 $f$ は *同型射* です。なぜなら、E上の構造$\mathscr{S}$を$f$によってE'に輸送すると、種の構造$\Sigma$が得られます。これはE'上の構造$\mathscr{S}'$よりも細かく、したがって$\mathscr{S}'$と一致します。
 
 ### 3. イニシャル構造
 
@@ -154,7 +154,7 @@ CST9。 *家族に関して* E $(\mathrm{A}_\iota,\ \mathscr{S}_\iota,\ f_\iota)
 
 $\mathscr{I}$ を E のイニシャル構造とし、$\mathscr{S}$ を E の種 $\Sigma$ の構造とし、それぞれの $f_\iota$ が射であるとします。 $i$ が、$\mathscr{S}$ を備えた E の恒等写像を、$\mathscr{I}$ を備えた E に変換すると、$f_\iota \circ i$ は、すべての $\iota \in \mathrm{I}$ に対して射となり、条件 (IN) は、$i$ が射であることを示します。これは、(no. 2) $\mathscr{S}$ が $\mathscr{I}$ より *より細かい* であることを意味します。一方、$g$ がそれ自体上で E の恒等写像 ($\mathscr{I}$ を付与) である場合の適用 (IN) では、($(\mathrm{MO_{III}})$ によって) それぞれの $f_\iota$ が E の射となって $\mathrm{A}_\iota$ になることがわかり、完了します。 証明。
 
-It may happen that there exists a structure of species $\Sigma$ on E which is the coarsest of all the structures of species $\Sigma$ for which the $f_\iota$ are morphisms, but that this structure is not the initial structure with respect to $(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)$ (Exercise 6).
+$f_\iota$ が射である種 $\Sigma$ のすべての構造の中で最も粗い種 $\Sigma$ が E 上に存在する可能性がありますが、この構造は $(\mathrm{A}_\iota, \mathscr{S}_\iota, f_\iota)$ に関する初期構造ではありません (練習問題 6)。
 
 次の *推移性基準* があります。
 
@@ -192,25 +192,25 @@ CST11. *BをAの部分集合、CをBの部分集合、$\mathscr{S}$をA上の種
 
 CST12。 *A、A' を 2 つの集合に、種 $\Sigma$ の構造 $\mathscr{S}$、$\mathscr{S}'$ を与えたものとする。 B を A の部分集合、B' を A' の部分集合とします。 B (それぞれ B') 上の種 $\Sigma$ の $\mathscr{S}$ (それぞれ $\mathscr{S}'$) 誘導する構造と仮定します。 $f$ が $f(B)\subset B'$ となるような A から A' への射である場合、B の $f$ と一致するである B への B の写像は射になります ($\mathscr{S}$ によって誘導された構造に関して) $\mathscr{S}'$).*
 
-$j$ (それぞれ $j'$) を B (それぞれ B') の標準単射を A (それぞれ A') にするとします。 定義までに$f\circ j=j'\circ g$になります。 $f$ と $j$ は射なので、(MO$_{\mathrm{II}}$) による $f\circ j$ も同様です。しかし、その後、$j'\circ g$ は射となり、写像 $g$ は最初の構造の定義により射になります。
+$j$ (それぞれ $j'$) を B (それぞれ B') の標準単射を A (それぞれ A') にするとします。 定義までに$f\circ j=j'\circ g$になります。 $f$ と $j$ は射なので、(MO$_{\mathrm{II}}$) による $f\circ j$ も同様です。しかしその後、$j'\circ g$ は射となり、写像 $g$ は最初の構造の定義により射になります。
 
-III。 *積構造.* $(A_i)_{i\in I}$ を集合の家族とし、それぞれの集合 $A_i$ で $\mathscr{S}_i$ を種 $\Sigma$ の構造とします。 $E=\prod_{i\in I}A_i$ を家族 $(A_i)_{i\in I}$ (章 II, § 5) の *積* とし、$\operatorname{pr}_i$ を $E$ から $A_i$ までの射影を表すとします。家族 $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ に関する最初の構造 (存在する場合) は、構造 $\mathscr{S}_i$ の *積* と呼ばれます。
+III。 *積構造.* $(A_i)_{i\in I}$ を集合の家族とし、それぞれの集合 $A_i$ で、$\mathscr{S}_i$ を種 $\Sigma$ の構造とします。 $E=\prod_{i\in I}A_i$ を家族 $(A_i)_{i\in I}$ (章 II, § 5) の *積* とし、$\operatorname{pr}_i$ は $E$ の $A_i$ の射影を表すとします。家族 $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ に関する最初の構造 (存在する場合) は、構造 $\mathscr{S}_i$ の *積* と呼ばれます。
 
-\* 順序構造の家族は常に積構造を認めますが、合計順序構造の家族には必ずしも同じことが当てはまるとは限りません。 群構造の家族は常に積構造を認めますが、分裂している環構造の家族には同じことが当てはまる必要はありません。トポロジーのファミリーは常に積構造を認めますが、局所的にコンパクトな空間の構造のファミリーには必ずしも当てはまりません。この場合、族が *有限* であれば、同じ種の積構造が存在しますが、族が *無限* であれば、1 つである必要はありません (cf. *一般位相*、章 I, § 9, no. 7、提案 14)。 \*
+\* 順序構造の家族は常に積構造を認めますが、合計順序構造の家族には必ずしも同じことが当てはまります。 群構造の家族は常に積構造を認めますが、分裂した家族環構造に同じことが当てはまる必要はありません。トポロジーのファミリーは常に積構造を認めますが、局所的にコンパクトな空間の構造のファミリーには必ずしも当てはまりません。この場合、族が *有限* であれば、同じ種の積構造が存在しますが、族が *無限* であれば、1 つである必要はありません (cf. *一般位相*、章 I, § 9, no. 7、提案 14)。 \*
 
-基準 CST10 は、 積構造に対して次の *結合性基準* を生じさせます。
+基準 CST10 により、 積構造に対して次の *結合性基準* が生じます。
 
-CST13。 *$(A_i)_{i\in I}$ を集合の家族とし、各添字 $i\in I$ に対して、$\mathscr{S}_i$ を $A_i$ の種 $\Sigma$ の構造とします。 $(J_\lambda)_{\lambda\in L}$を$I$の分割とします。各部分積 $B_\lambda=\prod_{i\in J_\lambda}A_i$ で、家族 $(\mathscr{S}_i)_{i\in J_\lambda}$ が積構造 $\mathscr{S}'_\lambda$ を認めたとします。次に、家族 $(\mathscr{S}_i)_{i\in I}$ は、$(\mathscr{S}'_\lambda)_{\lambda\in L}$ が積構造 $\mathscr{S}'$ と$E=\prod_{i\in I}A_i$ の標準写像を認めた場合に限り、積構造 $\mathscr{S}$ を認めます。 $\mathscr{S}$、$F=\prod_{\lambda\in L}B_\lambda$ に$\mathscr{S}'$ (章 II, § 5, no. 5) が与えられ、同型になります。*
+CST13。 *$(A_i)_{i\in I}$ を集合の族とし、各添字 $i\in I$ について、$\mathscr{S}_i$ を $A_i$ の種 $\Sigma$ の構造とします。 $(J_\lambda)_{\lambda\in L}$を$I$の分割とします。各部分積 $B_\lambda=\prod_{i\in J_\lambda}A_i$ で、家族 $(\mathscr{S}_i)_{i\in J_\lambda}$ が積構造 $\mathscr{S}'_\lambda$ を認めたとします。次に、家族 $(\mathscr{S}_i)_{i\in I}$ は、家族 $(\mathscr{S}'_\lambda)_{\lambda\in L}$ が積構造 $\mathscr{S}'$ と $E=\prod_{i\in I}A_i$ の標準写像を認めた場合に限り、積構造 $\mathscr{S}$ を認めます。 $\mathscr{S}$ を $F=\prod_{\lambda\in L}B_\lambda$ に重ね、$\mathscr{S}'$ (章 II, § 5, no. 5) を付与すると、同型になります。*
 
 CST10 の他のの適用により、 積構造によって誘発される構造に関して次の基準が得られます。
 
-CST14。 *$(A_i)_{i\in I}$ を集合の家族とし、それぞれの $i\in I$ について、$\mathscr{S}_i$ を $A_i$ 上の種 $\Sigma$ の構造とします。それぞれの $i\in I$ について、$B_i$ を $A_i$ の部分集合とします。 $B_i$ に各 $\mathscr{S}_i$ 誘導する構造 $\mathscr{S}'_i$ があり、積 $E=\prod_{i\in I}A_i$ には家族 $(\mathscr{S}_i)$ の積である構造 $\mathscr{S}_0$ が存在するとします。したがって、次の主張は同等です:*
+CST14。 *$(A_i)_{i\in I}$を集合の族とし、それぞれの$i\in I$に対して、$\mathscr{S}_i$を$A_i$上の種$\Sigma$の構造とします。それぞれの $i\in I$ について、$B_i$ を $A_i$ の部分集合とします。 $B_i$ に各 $\mathscr{S}_i$ 誘導する構造 $\mathscr{S}'_i$ があり、積 $E=\prod_{i\in I}A_i$ にはその族の積である構造 $\mathscr{S}_0$ が存在すると仮定します。 $(\mathscr{S}_i)$。したがって、次の主張は同等です:*
 
 (a) 集合 $B=\prod_{i\in I}B_i\subset E$ には、$\mathscr{S}_0$ によって誘発された構造 $\mathscr{S}$ が存在します。
 
-(b) 集合 $B$ には、構造 $(\mathscr{S}'_i)$ の族の積である構造 $\mathscr{S}'$ が存在します。
+(b) 集合 $B$ には、構造 $(\mathscr{S}'_i)$ のファミリーの積である構造 $\mathscr{S}'$ が存在します。
 
-*さらに、これらの主張は $\mathscr{S}=\mathscr{S}'$ を意味します。*
+*さらに、これらの主張は $\mathscr{S}=\mathscr{S}'$ を暗示します。*
 
 $j_\iota$ を $\mathrm{B}_\iota$ の $\mathrm{A}_\iota$ の標準単射とし、$j$ を B の E の標準単射とし、$p_\iota$ を $\mathrm{A}_\iota$ の E の射影とし、$p'_\iota$ を B の射影とします$\mathrm{B}_\iota$。すると、すべての $\iota \in \mathrm{I}$ に対して $p_\iota \circ j = j_\iota \circ p'_\iota$ が得られます。 CST10 により、$\mathscr{S}$ はファミリー $(\mathrm{A}_\iota, \mathscr{S}_\iota, p_\iota \circ j)_{\iota \in \mathrm{I}}$ に関する最初の構造であり、$\mathscr{S}'$ はファミリー $(\mathrm{A}_\iota, \mathscr{S}_\iota, j_\iota \circ p'_\iota)_{\iota \in \mathrm{I}}$ に関する最初の構造です。したがって、結果は次のとおりです。
 
@@ -256,7 +256,7 @@ CST9)、$f_i \circ p_i$ は (MO$_\Pi$) により射です。したがって、$f
 
 十分性を証明するには、$j$ を $F$ の $A\times B$ の標準単射とします。 $f=\operatorname{pr}_2\circ j\circ\pi$ と書くと、$f$ は 3 つの射のうち仮定合成になります。
 
-¶ 必要性を証明するために、構造 $\mathscr{S}_{\mathbf{A}}$ を全単射 $\pi$ (§ 1, no. 5) によって F に輸送することによって得られる種 $\Sigma$ の構造を $\mathscr{S}_{\mathbf{F}}$ とします。 次に、$\mathscr{S}_{\mathbf{F}}$ が F の $\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$ によって誘導されることを示さなければなりません。 まず、$j$ は F の $\mathbf{A} \times \mathbf{B}$ に対する射であることに注意してください。なぜなら、$j \circ \pi$はAの写像$x \to (x, f(x))$から$\mathbf{A} \times \mathbf{B}$になり、$f$の仮定と積構造の定義のおかげで射になります。したがって、構造 $\mathscr{S}_{\mathbf{F}}$ の定義により、$j$ は射になります。 It remains to be shown that if E is a set endowed with a structure of species $\Sigma$, and if $g$ is a mapping of E into F such that $j \circ g$ is a morphism of E into $\mathbf{A} \times \mathbf{B}$, then $g$ is a morphism; or, equivalently, that $g_1 = \overset{-1}{\pi} \circ g$ is a morphism of E into A. しかし、$g_1 = \mathrm{pr}_1 \circ (j \circ g)$ 以降、これは積構造の仮定と定義に続きます。
+¶ 必要性を証明するために、構造 $\mathscr{S}_{\mathbf{A}}$ を全単射 $\pi$ (§ 1, no. 5) によって F に輸送することによって得られる種 $\Sigma$ の構造を $\mathscr{S}_{\mathbf{F}}$ とします。 次に、$\mathscr{S}_{\mathbf{F}}$ が F の $\mathscr{S}_{\mathbf{A} \times \mathbf{B}}$ によって誘導されることを示さなければなりません。 まず、$j$ は F の $\mathbf{A} \times \mathbf{B}$ に対する射であることに注意してください。なぜなら、$j \circ \pi$はAの写像$x \to (x, f(x))$から$\mathbf{A} \times \mathbf{B}$になり、$f$の仮定と積構造の定義のおかげで射になります。したがって、構造 $\mathscr{S}_{\mathbf{F}}$ の定義により、$j$ は射になります。 E が種 $\Sigma$ の構造を備えた集合であり、$g$ が E の F への写像であり、$j \circ g$ が E の $\mathbf{A} \times \mathbf{B}$ への射である場合、$g$ は射であることがまだ示されていません。または、同等に、$g_1 = \overset{-1}{\pi} \circ g$ は E から A への射です。 しかし、$g_1 = \mathrm{pr}_1 \circ (j \circ g)$ 以降、これは積構造の仮定と定義に続きます。
 
 ### 5. 決勝構造
 
@@ -274,7 +274,7 @@ CST18。 *家族に関して* E に最後の構造が存在する場合* $(\math
 
 $\mathscr{T}$ を E 上の最後の構造とし、$\mathscr{S}$ を E 上の種 $\Sigma$ の構造とし、各 $g_\iota$ は射とします。 $i$ が、$\mathscr{T}$ を備えた E の恒等写像を、$\mathscr{S}$ を備えた E 上に表す場合、$i \circ g_\iota$ は、$\iota \in \mathbf{I}$ ごとに射になります。次に、条件 (FI) は、$i$ が射であることを示します。これは、(no. 2) $\mathscr{S}$ が $\mathscr{T}$ より *粗い* ことを意味します。 適用 (FI) $f$ がそれ自体上で E の恒等写像である ($\mathscr{T}$ が付加されている) 場合に、($(\mathrm{MO_{III}})$ を使用して) それぞれの $g_\iota$ が E への $\mathbf{A}_\iota$ の射であることがわかります。これで完了です。 証明。
 
-It may happen that there exists a structure of species $\Sigma$ on E which is the finest of all structures of species $\Sigma$ on E for which the $g_\iota$ are morphisms, but that this structure is not the final structure with respect to the family $(\mathbf{A}_\iota, \mathscr{S}_\iota, g_\iota)$ (Exercise 6).
+E 上に、$g_\iota$ が射である種 $\Sigma$ のすべての構造の中で最も微細な種 $\Sigma$ が E 上に存在する可能性がありますが、この構造は族 $(\mathbf{A}_\iota, \mathscr{S}_\iota, g_\iota)$ に関して最終的な構造ではありません (練習問題 6)。
 
 次の *推移性基準* があります。
 
@@ -316,7 +316,7 @@ $\varphi$ (それぞれ $\varphi'$) を、$\mathrm{A}/\mathrm{R}$ に対する A
 
 ¶ 推移性基準 CST19 は、特に次の基準を生じさせます。
 
-CST21。 *Let* A *be a set endowed with a structure* $\mathscr{S}$ *of species* $\Sigma$, *and let* R *be an equivalence relation on* A *such that there exists on* $\mathrm{A}/\mathrm{R}$ *a quotient structure* $\mathscr{S}'$ *of* $\mathscr{S}$ *by* R. *Let* S *be an equivalence relation on* A *which is coarser than* R, *and let* $\mathrm{S}/\mathrm{R}$ *denote the equivalence relation on* $\mathrm{A}/\mathrm{R}$ *which is the quotient of* S *by* R (Chapter II, § 6, no. 7). *その後、* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *商構造* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ ** $\mathrm{A}/\mathrm{S}$ *商構造* $\mathscr{S}_0$ *of* が存在する場合にのみ$\mathscr{S}$ *by* S、*そして標準写像 of* $\mathrm{A}/\mathrm{S}$ (*備えた* $\mathscr{S}_0$) *上* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ (*備えた* $\mathscr{S}''$) *は同型です*。
+CST21。 *A を構造* $\mathscr{S}$ *種* $\Sigma$ を備えた集合とし、*R を * A 上の等価関係とし、* $\mathrm{A}/\mathrm{R}$ *商構造* $\mathscr{S}'$ *の* $\mathscr{S}$ *R が存在するようにします。 *S を、R よりも粗い* A 上の同値関係とし、*S を R で * 商した* $\mathrm{A}/\mathrm{R}$ 上の同値関係を * $\mathrm{S}/\mathrm{R}$ とします (II, § 6, no. 7章)。 *その後、* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ *商構造* $\mathscr{S}''$ *of* $\mathscr{S}'$ *by* $\mathrm{S}/\mathrm{R}$ ** $\mathrm{A}/\mathrm{S}$ *商構造* $\mathscr{S}_0$ *of* が存在する場合にのみ$\mathscr{S}$ *by* S、*そして標準写像 of* $\mathrm{A}/\mathrm{S}$ (*恵まれた* $\mathscr{S}_0$) *上* $(\mathrm{A}/\mathrm{R})/(\mathrm{S}/\mathrm{R})$ (*恵まれた* $\mathscr{S}''$) *は同型です*。
 
 $\varphi$ を $A/R$ に対する A の標準写像とし、$\psi$ を $(A/R)/(S/R)$ に対する $A/R$ の標準写像とします。 CST19 により、$\mathscr{S}''$ が $(A,\mathscr{S},\psi\circ\varphi)$ に関して最後の構造である場合に限り、$\mathscr{S}''$ は $\mathscr{S}'$ の $S/R$ の商になります。この基準は、関係 $\psi(\varphi(x))=\psi(\varphi(y))$ が S と同等であるという事実から導かれます。
 

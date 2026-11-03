@@ -33,16 +33,16 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: 3fa797f4c18282bbd93ab9d2f6d123d2431c181ca5a24ae7940d51a6fc18e341
+content_sha256: 2c0e5bad1b808bba5559192c8325100aa94d49e298e180a8009fd912366e0fef
 translated_from: content/en/evt/III/05_s5_hypocontinuous_bilinear_mappings.md
 translation_method: google
 source_content_sha256: eefe4b53c6330aa7a5e81cb0b9c60f3b12b31b2df9f7ff14d5388452b92097de
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 67532201240910ebbb0fa3f035209fd3764ecbb811a79e291e3c64f66a236907
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。非連続双線形マッピング
@@ -65,7 +65,7 @@ $E, F, G$を局所的に3凸空間とする。 For every bilinear mapping $u$ fr
 
 $E \times F$ から $G$ への個別に連続する双線形マッピングは、必ずしも $E \times F$ で連続である必要はありません (III、p. 47、演習 2、cf. ただし、III、p. 30、および IV、p. 26、演習 2)。
 
-The notion of a separately continuous bilinear *form* on a product $E_1 \times E_2$ of two locally convex spaces is directly related to that of a continuous linear mapping when $E_1$ and $E_2$ are assigned the *weak* topologies (II, p. 42), Suppose that $(E_1, F_1)$ and $(E_2, F_2)$ are two pairs of real (resp. complex) vector spaces in separating duality (*loc. cit.*); we assign to $E_i$ (resp. $F_i$) the weak topology $\sigma(E_i, F_i)$ (resp. $\sigma(F_i, E_i)$) for $i = 1, 2$, and denote by $B(E_1, E_2)$ the vector space of separately *continuous* bilinear forms on $E_1 \times E_2$. 適用小道具。 1 を $G = K$ の場合に当てはめると、すべての双線形形式 $\Phi \in B(E_1, E_2)$ とすべての $x_2 \in E_2$ について、写像 $x_1 \mapsto \Phi(x_1, x_2)$ は $E_1$ 上で連続する線型形式であることがわかります。したがって、(II, p. 43, prop. 3) 元と $^d\Phi(x_2) \in F_1$ は 1 つだけ
+2 つの局所凸空間の積 $E_1 \times E_2$ 上の別々に連続する双線形 *形式* の概念は、$E_1$ と $E_2$ に *弱い* トポロジー (II、p. 42) が割り当てられている場合、連続線形写像の概念に直接関係します。 $(E_1, F_1)$ と $(E_2, F_2)$ が 2 つの実数ペアであると仮定します。分離双対性における (それぞれ複素数) ベクトル空間 (*loc. cit.*)。 $i = 1, 2$ の弱いトポロジー $\sigma(E_i, F_i)$ (それぞれ $\sigma(F_i, E_i)$) を $E_i$ (それぞれ $F_i$) に割り当て、$E_1 \times E_2$ 上の別々の *連続* 双線形形式のベクトル空間を $B(E_1, E_2)$ で表します。 適用小道具。 1 を $G = K$ の場合に当てはめると、すべての双線形形式 $\Phi \in B(E_1, E_2)$ とすべての $x_2 \in E_2$ について、写像 $x_1 \mapsto \Phi(x_1, x_2)$ は $E_1$ 上で連続する線型形式であることがわかります。したがって、(II, p. 43, prop. 3) 元と $^d\Phi(x_2) \in F_1$ は 1 つだけ
 
 $$
 \Phi(x_1, x_2) = \langle x_1, ^d\Phi(x_2) \rangle
@@ -132,7 +132,7 @@ b) 写像 $x \mapsto u(x, .)$ の下の M のすべての集合 $M \in \mathfrak
 
 c) F から $\mathscr{L}_{\mathfrak{S}}(E; G)$ までの写像 $y \mapsto u(., y)$ は連続です。
 
-a) expresses that $y \mapsto u(., y)$ is continuous at the point 0, on account of the definition of neighbourhoods of 0 in $\mathscr{L}_{\mathfrak{S}}(E; G)$ (III, p. 13); likewise a) expresses that the image of M under the mapping $x \mapsto u(x, .)$ is equicontinuous at the point 0 (III, p. 16).
+a) $\mathscr{L}_{\mathfrak{S}}(E; G)$ (III, p. 13) の 0 の近傍の定義により、$y \mapsto u(., y)$ が点 0 で連続であることを表します。同様に a) は、写像 $x \mapsto u(x, .)$ の下の M の像が点 0 (III, p. 16) で等連続であることを表します。
 
 #### 定義 2 {#evt-iii-s5-def-2 .statement tag=07PF}
 
@@ -180,7 +180,7 @@ $$
 
 $E \times F_\alpha$ から $G$ へは $\mathscr{S}$ - 非連続です。
 
-Now suppose that $E$ is a locally convex space which is the *strict* inductive limit of an increasing sequence $(E_n)$ of closed vector subspaces of $E$ (II, p. 33); then every set $M \in \mathscr{S}$ is contained in one of the $E_n$ and is bounded in this subspace (III, p. 5, prop. 6). $E_n$ に含まれるすべての部分集合所属から $\mathscr{S}$ のファミリーを $\mathscr{S}_n$ で表します。
+ここで、$E$ が局所凸空間であり、$E$ (II, p. 33) の閉ベクトル部分空間の増加シーケンス $(E_n)$ の *厳密な* 帰納限界であると仮定します。その場合、すべての集合 $M \in \mathscr{S}$ は $E_n$ の 1 つに含まれ、この部分空間内で境界付けされます (III、p. 5、提案 6)。 $E_n$ に含まれるすべての部分集合所属から $\mathscr{S}$ のファミリーを $\mathscr{S}_n$ で表します。
 
 条件 a) プロップ。 3 (III、p. 30) は、双線形写像 $u : E \times F \to G$ が $\mathfrak{S}$ 次次連続であるためには、 $u$ の制限 $u_n : E_n \times F \to G$ がそれぞれ $\mathfrak{S}_n$ 次次連続であることが必要かつ十分であることを示しています。
 

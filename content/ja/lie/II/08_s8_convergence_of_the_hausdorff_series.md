@@ -29,16 +29,16 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: f0dd946116759dc4284b500afee5505226667fccc84cbb980e36f69630020d17
+content_sha256: 2a84debf53c7bff3262d82f11a8dd2b060d4b427552868a50399a848f520d51e
 translated_from: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 4e23a56fb861bed945b01d7c816d0a6e594b96b17aad3c28c11640248838980a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 677e466803662ed1d9d6eafb6dd8ea388bc8cd01d0e246951f2fbe1cffe95d0b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。ハウスドルフ系列の収束 (ウルトラメトリック ケース)
@@ -58,11 +58,11 @@ $$
 
 #### 補題 1 {#lie-ii-s8-lem-1 .statement tag=0A6Q}
 
-*Let $n$ be an integer $\geqslant 0$ and let $n = n_0 + n_1 p + \cdots + n_k p^k$, with $0 \leqslant n_i \leqslant p - 1$, be the $p$-adic expansion of $n$. $S(n) = n_0 + n_1 + \cdots + n_k$ にしましょう。 それから*
+*$n$ を整数 $\geqslant 0$ とし、$n = n_0 + n_1 p + \cdots + n_k p^k$ と $0 \leqslant n_i \leqslant p - 1$ を $n$ の $p$ 進展開とします。 $S(n) = n_0 + n_1 + \cdots + n_k$ にしましょう。それから*
 $$
 v_p(n!) = \frac{n - S(n)}{p - 1}.
 $$
-1 と $n$ の間の整数 $i$ の $v_p(n!) = \sum_{i=1}^n v_p(i)$ と数について、$v_p(i) \geqslant j$ は $n/p^j$ の積分部分 $[n/p^j]$ に等しい。 それから
+1 と $n$ の間の整数 $i$ の $v_p(n!) = \sum_{i=1}^n v_p(i)$ と数について、$v_p(i) \geqslant j$ は $n/p^j$ の積分部分 $[n/p^j]$ に等しい。それから
 $$
 v_p(n!) = \sum_{j \geqslant 0} j ([n/p^j] - [n/p^{j+1}]) = \sum_{j \geqslant 1} [n/p^j].
 $$
@@ -77,7 +77,7 @@ $I = \{ U, V \}$ を 2 つの元の集合として、
 $$
 \mathbf{H} = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{\mathbf{L}}_{\mathbf{Q}}(I)
 $$
-ハウスドルフ系列 (§ 6, no. 4, 定義 1) になります。 Let $\mathbf{Z}_{(p)}$ be the local ring of $\mathbf{Z}$ relative to the prime ideal $(p)$ and $(e_b)_{b \in B}$ a basis of $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ over $\mathbf{Z}$ (§ 2, no. 11, Theorem 1). また、$\mathbf{Q}$ を超える $\mathbf{L}_{\mathbf{Q}}(I)$ の基底です。
+ハウスドルフ系列 (§ 6, no. 4, 定義 1) になります。 $\mathbf{Z}_{(p)}$ を素イデアル $(p)$ に対する $\mathbf{Z}$ の局所環とし、$(e_b)_{b \in B}$ を $\mathbf{Z}$ 上の $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ の基底とします (§ 2, no. 11、定理 1)。 また、$\mathbf{Q}$ を超える $\mathbf{L}_{\mathbf{Q}}(I)$ の基底です。
 
 #### 命題 1 {#lie-ii-s8-prop-1 .statement tag=0A6S}
 
@@ -270,7 +270,7 @@ $$
 $$
 これで証明が完了します。
 
-$A$ に括弧 $[x, y] = xy - yx$ が与えられると、$A$ は $\|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\|$ の完全な正規化リー代数になります。 no. 3の命題 2は、$\tilde{H}$含む$G \times G$と$\tilde{H}$の絶対収束領域が定義する解析的写像$h : G \times G \to A$であることを意味します。それから
+$A$ に括弧 $[x, y] = xy - yx$ が与えられると、$A$ は$\|xy - yx\| \leq \sup(\|xy\|, \|yx\|) \leq \|x\| \cdot \|y\|$ に対して完全な正規化リー代数になります。 no. 3 の命題 2 は、$\tilde{H}$ 含む $G \times G$ と $\tilde{H}$ の絶対収束領域が意味するので、定義するは解析的写像 $h : G \times G \to A$ になります。それから
 $$
 h(x, y) = \sum_{r, s \geq 0} H_{r,s}(x, y).
 $$

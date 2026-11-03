@@ -34,16 +34,16 @@ subsections:
       pdf_page: 176
 statements: 15
 exercises: 11
-content_sha256: 4c7e6ee0f3063bf51bad5d94a55d8518d0ba4ac018c5d3e69f31bf8710d850a2
+content_sha256: a2c276dacfe451c5c560dd852746deed76d85c8ddacedf24738ae4f1faf2ea51
 translated_from: content/en/ens/III/04_s4_natural_integers_finite_sets.md
 translation_method: google
 source_content_sha256: b07b7ce28c5ec4cebf51e51a369145ff5f0d99cab971bd69c71b3b417b968e57
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c319adf515ed73f19f166854c990cd51861b4bed8a34bdc96d8be0613fa23691
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. ナチュラル整数。有限集合
@@ -208,7 +208,7 @@ $$(\forall n)((n \text{ is an integer and } a \leqslant n \leqslant b) \Rightarr
 
 $(n$ は整数と $a \leqslant n < b$ そして ($\mathrm{R}\{n\}$ ではない)) $\mathrm{R}\{n+1\}$ ではなく $\Rightarrow$ です。
 
-If for some $n$ such that $a \leqslant n \leqslant b$ we had (not $\mathrm{R}\{n\}$), it would follow from (3) that (not $\mathrm{R}\{b\}$), contrary to the hypothesis, whence the result (*"descending induction"*).
+$a \leqslant n \leqslant b$ のようないくつかの $n$ について ($\mathrm{R}\{n\}$ ではない)、(3) から仮説に反して ($\mathrm{R}\{b\}$ ではない) という結果が得られます (*「下降帰納法」*)。
 
 ### 4. 順序集合中有限部分集合
 
@@ -234,7 +234,7 @@ If for some $n$ such that $a \leqslant n \leqslant b$ we had (not $\mathrm{R}\{n
 
 *E *を集合とします。 集合* $\mathfrak{S}$ *of 部分集合 of* E * は、関係* $\mathrm{X} \in \mathfrak{S}$ * が関係に等しい場合、* X *属するから * までの有限部分集合ごとに、指標が有限であると言われます$\mathfrak{S}$」。
 
-A property $P\{X\}$ of a subset $X$ of a set $E$ is said to be *of finite character* if the set of subsets $X$ of $E$ for which $P\{X\}$ is true is of finite character.
+$P\{X\}$ が true である$E$ の部分集合 $X$ が有限文字である場合、集合 $E$ の部分集合 $X$ の特性 $P\{X\}$ は *有限文字* であると言われます。
 
 *例*
 

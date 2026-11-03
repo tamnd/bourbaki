@@ -37,16 +37,16 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 18
-content_sha256: 8e949f2c65edf140ff4048b2307a6f6681a151e880a210d9b3281efe3c1e2930
+content_sha256: 3b2236813f5462cf5b2230c64c012eb9558a077e351a06d03e1123b3c2c66908
 translated_from: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
 translation_method: google
 source_content_sha256: bb0b04778ba87067d91908af5a1b8236b1f89fcb725229b0b2dd6d0e99a65350
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c60793908a269d6384ec148ade612fa24c4db1335846ffff03df8556c2d1e4e8
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。フレシェのデュアル空間
@@ -159,7 +159,7 @@ d) *位相 $\mathscr{T}_f$は、$E'$の等連続部分集合ごとに$\sigma(E',
 
 まず、$E'$の*部分集合 Aが$\mathscr{T}_f$に対して閉じているのは、$A \cap H$が$\sigma(E', E)$に対して閉じている場合に限り、$E'$の部分集合 Hごとに等連続で$\sigma(E', E)$に対して閉じていることを観察します。* 弱い位相 $\sigma(E', E)$ と $\mathscr{T}_{pc}$ 誘導するは、$E'$ の等連続部分集合ごとに同じ位相 (III、p. 17、提案 5)。その結果、各トポロジー $\mathscr{T}_\mathfrak{N}$、$\mathscr{T}_c$、$\mathscr{T}_{pc}$、$\mathscr{T}_f$ は、それに続くものよりも粗くなります。従って、$\mathscr{T}_\mathfrak{N}$ が $\mathscr{T}_f$ よりもより細かいであることを証明するだけで十分です。さらに、$E'$ のすべての翻訳は $\mathscr{T}_f$ の同型写像です。従って、F が $\mathscr{T}_f$ に対して閉じている $E'$ の部分集合であり、含む 0 ではない場合、$S^\circ \cap F = \varnothing$ となる集合 $S \in \mathfrak{N}$ が存在することを証明すれば十分です。
 
-$(U_n)_{n \geq 0}$ を E の 0 の近傍の減少列として、0 の近傍の基本系を形成します。 $n \geq 0$ の帰納法までに構成する、*有限* 集合 $X_n$ となります。
+$(U_n)_{n \geq 0}$ を E の 0 の近傍の減少列として、0 の近傍の基本的な系を形成します。 $n \geq 0$ の帰納法までに、*有限* 集合 $X_n$ として構成するとします。
 $$
 X_n \subset U_n
 $$
@@ -177,7 +177,7 @@ $S = \bigcup_{n \geqslant 0} X_n$を入れてください。 $n \geqslant p$ に
 
 #### 系 1 {#evt-iv-s3-thm-1-cor-1 .statement tag=07U3}
 
-*$E$を局所的に凸なmetrizable空間とします。 Every precompact subset of $E$ is contained in the closed convex balanced envelope of the set of points of a sequence converging to 0.*
+*$E$を局所的に凸なmetrizable空間とします。 $E$ のすべてのプレコンパクト サブセットは、0 に収束するシーケンスの点のセットの閉じた凸平衡エンベロープに含まれます。*
 
 これは、prop により、トポロジー $\mathscr{T}_{pc}$ と $\mathscr{T}_{\mathfrak{H}}$ が同一であるという事実から導き出されます。 III、p. 15 の 2 つ。
 
@@ -213,7 +213,7 @@ U を $E'_b$ における B の極とします。これは、$E'_b$ の 0 の近
 
 $E_1$ と $E_2$ を 2 つの再帰フレシェ空間とし、G を局所凸ハウスドルフ空間とします。 $i = 1, 2$ の場合、$F_i$ を $E_i$ の強力な双対とします。この場合、個別に連続するすべての双線形写像 $u : F_1 \times F_2 \to G$ は連続的になります。
 
-空間 G は、Banach 空間の積の部分空間と同型です (II、p. 5、提案 3)。 Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. しかし、$F_1$ はバレルであり、$F_2$ ボーンロジカル (IV、p. 24、系)、$\mathscr{L}_b(F_2 ; G)$ はフレシェ空間 (IV、p. 23、提案 3) です。 v は、関係によって u に関連付けられた $F_1$ から $\mathscr{L}_b(F_2 , G)$ までの線形写像を表すものとします。
+空間 G は、Banach 空間の積の部分空間と同型です (II、p. 5、提案 3)。 従って、G がバナッハ空間であるという追加の仮説の下で定理を証明するだけで十分です。 しかし、$F_1$ はバレルであり、$F_2$ ボーンロジカル (IV、p. 24、系)、$\mathscr{L}_b(F_2 ; G)$ はフレシェ空間 (IV、p. 23、提案 3) です。 v は、関係によって u に関連付けられた $F_1$ から $\mathscr{L}_b(F_2 , G)$ までの線形写像を表すものとします。
 
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).

@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: 20e20bd940c64b62bf0e38141659a7362eae807af09e20f381b46a8bf16b236a
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f87d85ff7f321b4dfcd94262d28acabcb7488c828cc1645ebcf646acab20abc1
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 IV 構造

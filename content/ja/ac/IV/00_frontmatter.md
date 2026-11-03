@@ -19,10 +19,10 @@ translation_method: google
 source_content_sha256: 74c866915948775494e103acbd52d0d39c8fa10aa612181a43fc2681454165b5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f7a4444e775e6fe4ca8adc1e706f553e2dd86a7ba4c9c20bc97df207bd18291e
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 IV(*)

@@ -30,16 +30,16 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: 48055b4ef408d7477da04f7030487cee7806e5f05b40b6ffd093d15fd6ae4d85
+content_sha256: fd80694233286f278355629ebb9baeb8d217ca4ce9fce9da612203f36b3c8cee
 translated_from: content/en/ens/I/04_s4_quantified_theories.md
 translation_method: google
 source_content_sha256: 07568a80b2b793e5dd22b88d7dc9caf03ded631f676da9f844c975c64e8b5a2c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 21ea32afb2560eb023357b363125e3602618d02909f94498a2797c5c1fbab3ca
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 4. 定量化された理論
@@ -163,7 +163,7 @@ $$
 
 これらの基準は、$x$ が定数ではない $\mathscr{T}_0$ で証明できれば十分です。 $(\forall x)(R\text{ and }S)$ が true の場合、「$R$ と $S$」も true となり、関係 $R$、$S$ もそれぞれ true になります。従って、関係 $(\forall x)R$、$(\forall x)S$ はそれぞれ true となり、従って「$(\forall x)R$ および $(\forall x)S$」も true になります。同様に、「$(\forall x)R$ と $(\forall x)S$」が真であれば、$(\forall x)(R\text{ and }S)$ も真であることがわかります。従って、最初の定理です。 2 番目は適用 C29 に続きます。
 
-It should be noted that if $(\forall x) (R$ or S) is a theorem in $\mathscr{T}$, we may not conclude that $((\forall x)R$ or $(\forall x)S)$ is a theorem in $\mathscr{T}$. 直観的には、関係 $(\forall x) (R$ または S) が true であるということは、各オブジェクト $x$ について、関係 $R$、$S$ の少なくとも 1 つが true であることを意味します。しかし、一般的には 2 つのうち 1 つだけが真となり、それが $R$ か $S$ かは $x$ の選択によって決まります。 Likewise, if $((\forall x)R$ and $(\exists x)S)$ is a theorem in $\mathscr{T}$, we may not conclude that $(\exists x)(R$ and S) is a theorem in $\mathscr{T}$. ただし、次の基準があります。
+$(\forall x) (R$ または S) が $\mathscr{T}$ の定理である場合、$((\forall x)R$ または $(\forall x)S)$ が $\mathscr{T}$ の定理であると結論付けることができない可能性があることに注意してください。 直観的には、関係 $(\forall x) (R$ または S) が true であるということは、各オブジェクト $x$ について、関係 $R$、$S$ の少なくとも 1 つが true であることを意味します。しかし、一般的には 2 つのうち 1 つだけが真となり、それが $R$ か $S$ かは $x$ の選択によって決まります。 同様に、$((\forall x)R$ と $(\exists x)S)$ が $\mathscr{T}$ の定理である場合、$(\exists x)(R$ と S) が $\mathscr{T}$ の定理であると結論付けることはできません。 ただし、次の基準があります。
 
 C33. ※$R$と$S$は$\mathscr{T}$の関係、$x$は$R$に出てこない文字とします。それから関係*
 
@@ -176,23 +176,23 @@ $x$ が定数ではない$\mathscr{T}_0$ で基準を確立するだけで十分
 
 $$(\text{not } R) \Rightarrow (\forall x)S$$
 
-は $\mathscr{T}'$ の定理であるため、$(\forall x)(R$ または $S) \Rightarrow (R$ または $(\forall x)S)$ は $\mathscr{T}_0$ の定理になります。同様に、「$R$ または $(\forall x)S$」が true の場合、「$R$ または $S$」、つまり $(\forall x)(R$ または S) が true になります。その結果
+は $\mathscr{T}'$ の定理であるため、$(\forall x)(R$ または $S) \Rightarrow (R$ または $(\forall x)S)$ は $\mathscr{T}_0$ の定理になります。同様に、「$R$ または $(\forall x)S$」が true の場合、「$R$ または $S$」、つまり $(\forall x)(R$ または S) が true になります。その結果、
 
 $$(R \text{ or } (\forall x)S) \Rightarrow (\forall x)(R \text{ or } S)$$
 
-は $\mathscr{T}_0$ の定理です。 $\exists$ に関連するルールは、適用 C29 に続きます。
+$\mathscr{T}_0$の定理です。 $\exists$ に関するルールの後には、適用 C29 が続きます。
 
-C34. ※$R$を関係、$x$と$y$を文字とします。それから関係*
+C34. ※$R$を関係、$x$と$y$を文字とします。それでは関係*
 
 $$(\forall x)(\forall y)R \iff (\forall y)(\forall x)R,$$
 $$(\exists x)(\exists y)R \iff (\exists y)(\exists x)R,$$
 $$(\exists x)(\forall y)R \implies (\forall y)(\exists x)R$$
 
-*は $\mathscr{T}$ の定理です。*
+*は$\mathscr{T}$の定理です*。
 
 これらの定理を $\mathscr{T}_0$ で証明すれば十分です。ただし、$x$ と $y$ は定数ではありません。 $(\forall x)(\forall y)R$ が真の場合、$(\forall y)R$、従って $R$、従って $(\forall x)R$、従って $(\forall y)(\forall x)R$ も真になります。同様に、$(\forall y)(\forall x)R$ が true の場合、$(\forall x)(\forall y)R$ も true になります。最初の定理が続きます。 2 番目は C29 を使用して続きます。最後に、$(\forall y)R \Rightarrow R$ は $\mathscr{T}_0$ の定理であるため、C31 による $(\exists x)(\forall y)R \Rightarrow (\exists x)R$ も同様です。 $(\exists x)(\forall y)R$ が真の場合、$(\exists x)R$ も真となり、従って $(\forall y)(\exists x)R$ も真になります。従って、3 番目の定理です。
 
-一方、$(\forall y)(\exists x)R$ が $\mathscr{T}$ の定理である場合、$(\exists x)(\forall y)R$ が $\mathscr{T}$ の定理であることは結論するではない可能性があります。 直観的には、関係 $(\forall y)(\exists x)R$ が真であるということは、任意のオブジェクト $y$ が与えられた場合、オブジェクト $x$ と $y$ の間に $R$ が真関係となるようなオブジェクト $x$ が存在することを意味します。 しかし、一般に、オブジェクト $x$ はオブジェクト $y$ の選択に依存しますが、$(\exists x)(\forall y)R$ が true であるということは、このオブジェクトと *任意の* オブジェクト $y$ の間に $R$ が真関係となるような *固定* オブジェクト $x$ が存在することを意味します。
+一方、$(\forall y)(\exists x)R$ が $\mathscr{T}$ の定理である場合、$(\exists x)(\forall y)R$ が $\mathscr{T}$ の定理であることは結論するではない可能性があります。直観的には、関係 $(\forall y)(\exists x)R$ が真であるということは、任意のオブジェクト $y$ が与えられた場合、オブジェクト $x$ と $y$ の間に $R$ が真の関係となるようなオブジェクト $x$ が存在することを意味します。しかし、一般に、オブジェクト $x$ はオブジェクト $y$ の選択に依存しますが、$(\exists x)(\forall y)R$ が true であるということは、このオブジェクトと *任意の* オブジェクト $y$ の間に $R$ が真の関係となるような *固定* オブジェクト $x$ が存在することを意味します。
 
 ### 4. 典型的な量指定子
 

@@ -41,16 +41,16 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: b348d9a14056b20cc4410f7d5de1fd0ba3ee76358675fa50ef9f24b00be4f66b
+content_sha256: e94a082222dd3b912f0a9e6ff2113c407a56510b69d55b84865c613791745df3
 translated_from: content/en/ac/I/03_s3_faithfully_flat_modules.md
 translation_method: google
 source_content_sha256: 0a1be9878f698d84733905bb7d0c759aa5a8adfb87dd8b4532795f408851fd36
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ee54cccfff5d23a3f1c6fc738335c528b2ddffe565ae3cbcee820242d33e4fff
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 忠実にフラット加群
@@ -79,7 +79,7 @@ $$
 
 (a) が (b) を意味することを証明します。 (a) が成り立つ場合、明らかに $E$ はフラット (§ 2, no. 3、命題 1) です。一方、$N$ を $T(N) = 0$ のような左 $A$ 加群とし、数列 $0 \to N \to 0$ を考慮します。 仮定 $T(N) = 0$ は、数列 $0 \to T(N) \to 0$ が正確であることを意味します。 (a) 数列 $0 \to N \to 0$ は正確です、よって $N = 0$。
 
-(b) が (c) を意味することを示します。 (b) が成立し、$u : N' \to N$ を準同型とし、$I$ を像とします。 As the image of $T(v)$ is identified with $T(I)$ (§ 2, no. 3, Remark 2), the hypothesis $T(v) = 0$ implies $T(I) = 0$, hence $I = 0$ by (b) and consequently $v = 0$.
+(b) が (c) を意味することを示します。 (b) が成立し、$u : N' \to N$ を準同型とし、$I$ を像とします。 $T(v)$ の像は $T(I)$ (§ 2, no. 3、注意 2) と同一視されるため、仮定 $T(v) = 0$ は $T(I) = 0$ を暗示し、よって (b) により $I = 0$ が、その結果 $v = 0$ になります。
 
 (c) が (a) を意味することを示します。次に、(c) が成り立つとして、数列を考えます。
 $$
@@ -240,7 +240,7 @@ $A$ と $B$ 満たす条件の命題 8 の場合、$A$ は通常、$\rho$ によ
 
 命題 8 の仮説の下では、$B$ が左ネーター (それぞれアルティン) である場合、$A$ も同様です。
 
-If (a) is a non-stationary increasing (resp. decreasing) sequence of left ideals of $A$, the sequence $(\mathrm{Ba}_n)$ of ideals of $B$ is non-stationary and increasing (resp. decreasing) since $\rho^{-1}(\mathrm{Ba}_n) = a_n$ contrary to the hypothesis.
+(a) が$A$ の左イデアルの非定常増加 (または減少) シーケンスである場合、$B$ のイデアルのシーケンス $(\mathrm{Ba}_n)$ は仮説に反して、$\rho^{-1}(\mathrm{Ba}_n) = a_n$ 以降非定常で増加 (それぞれ減少) しています。
 
 *注意 (1)。 $A$ と $B$ が可換である場合、章 II, § 2, no. 5、系 4 から命題 11 で、命題 8 の仮定は、すべての素イデアルについて $p$ を意味することがわかります。 $A$、$\rho^{-1}(q) = p$ となるような$B$ の主理想$q$ が存在します ($A$ が $B$ の部分環と同一視される場合の $p = A \cap q$)*。
 
@@ -333,7 +333,7 @@ $$
 y_k = x_k + \sum_{j=1}^p b_j z_{jk} \quad (1 \leq k \leq n)
 $$
 
-where $(x_k)$ is a solution of (3) consisting of elements of $A$, the $b_j$ belong to $B$ and each of the $(z_{jk})_{1 \leq k \leq n}$ is a solution of the homogeneous linear system associated with (3), consisting of elements of $A$.
+ここで、$(x_k)$ は $A$ の要素からなる (3) の解であり、$b_j$ は $B$ に属し、それぞれの $(z_{jk})_{1 \leq k \leq n}$ は、$A$ の要素からなる (3) に関連付けられた等次線形システムの解です。
 
 #### 命題 13 {#ac-i-s3-prop-13 .statement tag=044L}
 

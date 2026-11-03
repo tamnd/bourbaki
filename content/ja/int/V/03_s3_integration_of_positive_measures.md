@@ -37,16 +37,16 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 9cbccf43fe43f2d18c20164c14089c2fb71393eee002d4d573e1c9c07eb38b04
+content_sha256: 25b099b3f3868ed86d3531477148b44976e912246e5dd81cda6ce9e185ba9477
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
 translation_method: google
 source_content_sha256: 4363fec5ea39b1d12c9673dd8324ba6983ab374b2f5f144cb72fb7d26d6dfd8e
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ff3bb7ebeb326e08b7b858c18fd7418a9f45d414760e3f6a2ee37c5d349494e0
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。積極的な施策の統合
@@ -225,7 +225,7 @@ c) *$f$ が局所的に $\nu$ で無視でき、$\lambda_t^\bullet(1) < +\infty$
 
 — *$f$ を、$X$、$\nu$ 測定可能、および $\nu$ で定義された写像 $\geq 0$ とします。 $f$ が $\lambda_t$ で緩和されていないような $t \in T$ の集合は、局所的に $\mu$ が無視できます ($\Lambda$ が漠然と連続している場合は、$\mu$ も無視できます)。
 
-For, $f$ is the sum of a sequence of functions $f_n \geq 0$ such that $f_n$ is zero outside a compact set $K_n$ for $n \geq 1$, and $f_0$ is $\nu$-negligible (§1, No. 2, Prop. 6); $f_0$ is then $\lambda_t$-negligible except for $t$ forming a set that is locally $\mu$-negligible (and even $\mu$-negligible, if $\Lambda$ is vaguely continuous) by Cor. 1, and the statement then follows at once.
+なぜなら、$f$ は一連の関数 $f_n \geq 0$ の合計であり、$f_n$ は $n \geq 1$ のコンパクト集合 $K_n$ の外側でゼロになり、$f_0$ は $\nu$ 無視できる (§1, No. 2、提案 6)。この場合、$f_0$ は、Cor によって局所的に $\mu$ 無視できる (そして、$\Lambda$ が漠然と連続している場合には $\mu$ さえ無視できる) セットを形成する $t$ を除いて、 $\lambda_t$ 無視可能です。 1 に続いてステートメントがすぐに続きます。
 
 #### 命題 4 {#int-v-s3-prop-4 .statement tag=0916}
 
@@ -236,7 +236,7 @@ b) * f が X の ν 緩和部分集合の補数で定数であり、Λ が漠然
 
 c) *ほとんどどこでも $\lambda_t^\bullet(1) < +\infty$ が局所的に μ であると仮定します。この場合、M は局所的にμが無視できます。*
 
-まず a) (それぞれ b)) を証明しましょう。 すべての ν 積分可能集合は ν 積分可能開集合に含まれるため、写像 f は ν 積分可能開集合の可算和集合の補数 B 上で定数です。 各 $K_n$ に対する f の制限が連続となるように、ν 無視できる集合 N とコンパクト集合の数列 $(K_n)$ によって形成される X − B の分割が存在します。 N が $\lambda_t$ 無視できないように、S を $t \in T$ の集合とします。 S は、Cor によって局所的に μ 無視可能 (それぞれ μ 無視可能) です。提案 3 の 1。 集合 $K_n, B, N$ はX の小節ごとに測定可能であり、それぞれの f の制限は $t \notin S$ ごとに $\lambda_t$-測定可能です。 したがって、写像 f は、$t \notin S$ ごとに $\lambda_t$ 測定可能です (Ch. IV, §5, No. 10、提案 16)。
+まず a) (それぞれ b)) を証明しましょう。すべての ν 積分可能集合は ν 積分可能開集合に含まれるため、 写像 f は ν 積分可能開集合の可算和集合の補数 B 上で定数です。各 $K_n$ に対する f の制限が連続となるように、ν 無視できる集合 N とコンパクト集合の数列 $(K_n)$ によって形成される X − B の分割が存在します。 N が $\lambda_t$ 無視できないように、S を $t \in T$ の集合とします。 S は、Cor によって局所的に μ 無視可能 (それぞれ μ 無視可能) です。提案 3 の 1. 集合 $K_n, B, N$ は X のすべての小節で測定可能であり、それらのそれぞれに対する f の制限は $t \notin S$ ごとに $\lambda_t$-測定可能です。したがって、写像 f は、$t \notin S$ ごとに $\lambda_t$ で測定可能です (第 IV, §5, No. 10、提案 16)。
 
 c) を確立するために、提案 3 の証明の記法をもう一度取り上げてみましょう。 f は ν 可測であるため、各尺度 $\nu_\alpha \leq \nu$ について可測です。ここで、これらの尺度は制限されているため緩和されており、a) から、M はすべての $\alpha \in A$ について局所的に $\mu_\alpha$ 無視できることがわかります。これは、M が局所的にμ-無視できることを意味します (§2, No. 2、提案 1 の Cor. 2)。
 
@@ -263,7 +263,7 @@ f が ν 緩和されていると仮定して、最初に a) (それぞれ b)) �
 1) 写像 $f$ は $\nu$ は無視できます。
 2) $f$が$K$の外側に零で、$f$～$K$の制限が連続するようなコンパクト集合$K$が存在します。
 
-特殊なケース 1) はすでに処理されています (提案 3 の訂正 1)。 To treat the second, we denote by $G$ a $\nu$-integrable open set containing $K$, by $M$ a constant upper bound for $f$, by $h$ the lower semi-continuous function $M \varphi_G$, and by $g$ the function $h - f$. 写像 $f$は$X$の上半連続なので、$g$は下半連続でプラスです。 さらに、$f, g, h$ は $\nu$ 可積分です。
+特殊なケース 1) はすでに処理されています (提案 3 の訂正 1)。 2 番目を扱うために、$K$ を含む $\nu$ 可積分の開集合を $G$ で、$f$ の定数上限を $M$ で、下位半連続関数 $M \varphi_G$ を $h$ で、関数 $h - f$ を $g$ で表します。 写像 $f$は$X$の上半連続なので、$g$は下半連続でプラスです。 さらに、$f, g, h$ は $\nu$ 可積分です。
 
 次に、公式 (4) (それぞれ (5)) を下側の半連続写像 $h$ と $g$ に適用しましょう。引き算すると、写像であることがわかります。
 
@@ -305,7 +305,7 @@ $$
 \int f(x)\, d\nu(x) = \int d\mu(t) \int f(x)\, d\lambda_t(x).
 $$
 
-b) *If $f$ is $\nu$-integrable and $\Lambda$ is vaguely continuous, then $H$ is moreover $\mu$-negligible and the function $t \mapsto \int f(x)\, d\lambda_t(x)$ (defined for $t \notin H$) is $\mu$-integrable.*
+b) *$f$ が $\nu$ 積分可能で、$\Lambda$ が漠然と連続である場合、$H$ はさらに $\mu$ 無視可能であり、写像 $t \mapsto \int f(x)\, d\lambda_t(x)$ ($t \notin H$ について定義) は $\mu$ 積分可能です。*
 
 c) *ほぼどこでも $\lambda_t^*(1) < +\infty$ が局所的に $\mu$ である場合、a) の結論は、本質的に $\nu$ 可積分関数である $f$ に当てはまります。
 
@@ -330,7 +330,7 @@ $\int f_n(x)\, d\nu(x)$ は $\int f(x)\, d\nu(x)$ になる傾向があり、$n$
 
 #### 注意 {#int-v-s3-n3-rem-1 .statement tag=091A}
 
-$\Lambda : t \mapsto \lambda_t$ を $T$ から $\mathscr{M}_+(X)$ に相当する $\mu$ 写像とします。 If a mapping $\Lambda' : t \mapsto \lambda'_t$ of $T$ into $\mathscr{M}_+(X)$ is equal to $\Lambda$ locally $\mu$-almost everywhere, it follows at once from the definitions that $\Lambda'$ is also $\mu$-adequate, and that $\Lambda$ and $\Lambda'$ have the same integral. ここで、$H : t \mapsto \eta_t$ が写像で、$\mathscr{M}_+(X)$ に値があり、ローカルに定義されている $\mu$ - ほぼどこでも、$H$ が$\mu$ - ローカルに等しい場合、$\mu$ - ほぼどこでも写像 $\Lambda : t \mapsto \lambda_t$ に等しいと再び言えます。定義されており、$\mu$-適切です。 次に、写像 $\Lambda$ に依存しない集合 $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$、定義を利用します。 前述の番号拡大するから $\mu$ で証明された命題が、ローカルに定義された $\mu$ の適切な写像をほぼすべての場所で検証するタスクは、読者に委ねられます。
+$\Lambda : t \mapsto \lambda_t$ を $T$ から $\mathscr{M}_+(X)$ に相当する $\mu$ 写像とします。 $T$ の $\mathscr{M}_+(X)$ への写像 $\Lambda' : t \mapsto \lambda'_t$ が局所的に $\mu$ の $\Lambda$ に等しい場合、定義からすぐに、$\Lambda'$ も$\mu$ で十分であり、$\Lambda$ と $\Lambda'$ は同じ積分を持つことがわかります。 ここで、$H : t \mapsto \eta_t$ が写像で、$\mathscr{M}_+(X)$ に値があり、ローカルに定義されている $\mu$ - ほぼどこでも、$H$ が$\mu$ - ローカルに等しい場合、$\mu$ - ほぼどこでも写像 $\Lambda : t \mapsto \lambda_t$ に等しいと再び言えます。定義されており、$\mu$-適切です。 次に、写像 $\Lambda$ に依存しない集合 $\int \eta_t\, d\mu(t) = \int \lambda_t\, d\mu(t)$、定義を利用します。 前述の番号拡大するから $\mu$ で証明された命題が、ローカルに定義された $\mu$ の適切な写像をほぼすべての場所で検証するタスクは、読者に委ねられます。
 
 ### 4. 普遍的に測定可能写像
 

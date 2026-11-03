@@ -11,16 +11,16 @@ pdf_pages: 0167-0168
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 92c3285e0de3dbba7469a4a5f426631cce42d3193cf6c324b52b8687ef5e0d2b
+content_sha256: 84604e52ff1d83285f3c834c02571ba52ed24c00b256bbf9e716ddd5d9006f70
 translated_from: content/en/hist/1/16_s16_metric_spaces.md
 translation_method: google
 source_content_sha256: 43ec71caac5f831ec1591275988c6e92ca0d4a2cead947f638d93d8066c80d1c
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6a23f948aabb80b1240b948948d072c0d2f5631f4b329cab398e90db1f50c840
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 16. メトリクス空間。
@@ -31,6 +31,6 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 $^1$ この定理により、1930 年頃にロシア・ポーランドの学派によって得られた基準 (「永田・スミルノフ基準」) よりもさらに満たす解から問題の計量化の規定が可能になりました。しかし、これまでこれらの基準はほとんど適用されていなかったことに注意しなければなりません。数学の歴史では度々、計量化の問題の重要性が、その解のせいで、それが発展をもたらすであろう新しい概念よりも重要性が低かったかのように思われます。
 
-We have already focused attention (see p. 155) on the important works of the end of the XIXth century and of the beginning of the XXth century (E. ボレル、ベア、ルベーグ、オスグッド、W. H. Young) on the classification of sets of points in the spaces $\mathbf{R}^n$, and on the classification and characterisation of numerical functions obtained by iterating, starting with continuous functions, the process of passing to the limit (for sequences of functions). 計量空間がこの種の研究に自然な枠組みを提供していることが急速に明らかになり、その発展後で 1910 は主にロシアとポーランドの学派によるものです。 It is these schools that have between them brought to light the fundamental role played in modern Analysis by the notion of thin sets, and by the theorem on the countable intersection of open sets everywhere dense in a complete metric space, proved first (independently) by Osgood [240] for the numerical straight line and by Baire [11 b] for the spaces $\mathbf{R}^n$.
+私たちはすでに、空間 $\mathbf{R}^n$ の点の集合の分類、および数値写像の分類と特徴付けに関する、19 世紀末と 20 世紀初頭の重要な著作 (E. ボレル、ベア、ルベーグ、オスグッド、W. H. ヤング) に注目を集めました (p. 155 を参照)。連続写像から移行～極限の処理を繰り返すことで得られます（写像の数列について）。計量空間がこの種の研究に自然な枠組みを提供していることがすぐに明らかになり、その発展後で 1910 は主にロシアとポーランドの学派によるものです。これら学派は、現代の分析において細い集合の概念と、完全な計量空間のどこにでも密集している開いた集合の可算共通部分で定理が果たす基本的な役割を明らかにしたものであり、これはオズグッド [240] によって最初に（独立して）証明されました。 空間 $\mathbf{R}^n$ の数値直線と Baire [11 b] による。
 
 一方、1917 年にスーラン [289] は、ルベーグの誤りを訂正し、ボレル集合の連続像が必ずしもボレルではないことを示し、それが彼を定義に導き、より大きなカテゴリー 集合の研究につながりました。 後でスーリンの早すぎる死について、この研究は主に N. ルーシン (彼のアイデアはスーリンの研究に影響を与えた) とポーランドの数学者によって行われました ([209] および [189 b] を参照)。これらの集合の実際の重要性は、主に統合の理論での応用（その特別な特性のおかげで、任意の測定可能な集合では不可能な構成が可能になる）と、スーリン集合の能力に関する基本的な定理が証明された現代の可能性理論に依存しています。最近、G. Choquet [63] によって、さまざまな用途に富んでいることがすでに示されています。

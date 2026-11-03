@@ -58,16 +58,16 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 8a7d8d64d56cfbd43ef248595f01c0ddabad16ac9cab1e64c80eb819b9208886
+content_sha256: 48b7fdf1fb1819d708cd726ab8b32f299d1b242b276f00eed234a75da7926296
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
 translation_method: google
 source_content_sha256: 67633b439572bf5a4dcc4c35edb70b8c99883cdac1bfa5ce829e7e8f5be14d83
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: f6f36fa657cd61a8594e542035304bf508eb94af4cad335a1bc1599d1eee6c85
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 16。その他記述/ブラウアー群
@@ -130,7 +130,7 @@ $g_1\in G_1,g_2\in G_2,f_1\in F_1$ と $f_2\in F_2$ の場合。 $\mathscr{E}_1=
 
 ### 2. $\tau$ 拡張機能の逆像
 
-G と $G'$ を群とします。 F をアーベル群とし、$\tau : G\rightarrow$ Aut(F) と $u: G'\rightarrow G$ を群準同型とします。 群準同型 $\tau '=\tau \circ u: G'\rightarrow$ Aut(F) を考え、$\pi$ と $u$ (I, §4, No. 8, p. 46) に対するファイバー 積 $\Gamma \times_GG'$ を $\Gamma '$ で表します。 It is the subgroup of $\Gamma \times G'$ consisting of the pairs $(\gamma , g')$ such that $\pi (\gamma ) =u(g')$. $\iota ': F\rightarrow \Gamma '$ を $\alpha \in F$ に対して $\iota '(\alpha ) = (\iota (\alpha ), e)$ によって与えられる群準同型とし、2 番目の射影を $\pi ': \Gamma '\rightarrow G'$ で表すとします。 この場合、射 $\iota '$ は単射的であり、$\pi$ はであるため、射 $\pi '$ は全射的であり、$\iota '$ 一致するの像は $\pi '$ の核となります。 さらに、$\alpha \in F$ と $\gamma '= (\gamma , g)\in \Gamma '$ ごとに、関係が得られます。
+G と $G'$ を群とします。 F をアーベル群とし、$\tau : G\rightarrow$ Aut(F) と $u: G'\rightarrow G$ を群準同型とします。 群準同型 $\tau '=\tau \circ u: G'\rightarrow$ Aut(F) を考え、$\pi$ と $u$ (I, §4, No. 8, p. 46) に対するファイバー 積 $\Gamma \times_GG'$ を $\Gamma '$ で表します。 これは、$\pi (\gamma ) =u(g')$ のようなペア $(\gamma , g')$ から構成される $\Gamma \times G'$ の部分群です。 $\iota ': F\rightarrow \Gamma '$ を $\alpha \in F$ に対して $\iota '(\alpha ) = (\iota (\alpha ), e)$ によって与えられる群準同型とし、2 番目の射影を $\pi ': \Gamma '\rightarrow G'$ で表すとします。 この場合、射 $\iota '$ は単射的であり、$\pi$ はであるため、射 $\pi '$ は全射的であり、$\iota '$ 一致するの像は $\pi '$ の核となります。 さらに、$\alpha \in F$ と $\gamma '= (\gamma , g)\in \Gamma '$ ごとに、関係が得られます。
 
 $$
 \gamma '\iota '(\alpha )\gamma^{'-1}= (\gamma , g)(\iota (\alpha ), e)(\gamma , g)^{-1}= (\iota (\tau (\pi (\gamma )).\alpha ), e) =\iota '(\tau '(\pi '(\gamma ')).\alpha )
@@ -150,7 +150,7 @@ $\varphi u$
 
 F $^{\iota}$ // Γ $^{\pi}$ // G.
 
-Moreover, if $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ is a $\tau '$-extension and $\varphi_1: \Gamma '_1\rightarrow \Gamma$ is a group homomorphism such that the diagram
+さらに、$\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ が $\tau '$ 拡張で、$\varphi_1: \Gamma '_1\rightarrow \Gamma$ が群準同型である場合、図式
 
 F $^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // $G'$
 
@@ -268,7 +268,7 @@ ${F'}^{\iota'_1}$ // ${\Gamma'_1}^{\pi'_1}$ // G.
 
 #### 補題 3 {#alg-viii-s16-lem-3 .statement tag=00IH}
 
-$G'_1$ を群とし、$w: G\rightarrow G'_1$ と $\tau_1: G'_1\rightarrow$ Aut(F$'$) を $\tau '=\tau_1\circ w$ となるように群準同型とします。 Let $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ be a $\tau_1$-extension of $G'_1$ by $F'$, and let $\varphi_1: \Gamma \rightarrow \Gamma '_1$ be a group homomorphism such that the following diagram commutes:
+$G'_1$ を群とし、$w: G\rightarrow G'_1$ と $\tau_1: G'_1\rightarrow$ Aut(F$'$) を $\tau '=\tau_1\circ w$ となるように群準同型とします。 $\mathscr{E}_1'= (\Gamma '_1, \iota '_1, \pi '_1)$ を $G'_1$ の $F'$ による $\tau_1$ 拡張とし、$\varphi_1: \Gamma \rightarrow \Gamma '_1$ を次の図が可換となる群準同型性とします。
 
 F $^{\iota}$ // Γ $^{\pi}$ // G
 
@@ -366,25 +366,25 @@ $v\psi_1$
 
 ${F'}^{\iota'_u}$ // ${\Gamma'_u}^{\pi'_u}$ // $G'$
 
-通勤と$\varphi '_u\circ \psi_1=\varphi_v\circ \varphi_u$。 命題 2 を $\psi_1$ に適用すると、$\psi$ の存在が続きます。逆に、$\psi '$ にも目的のプロパティがある場合、補題 2 により $\psi '\circ \varphi '_v=\psi_1$ が得られるため、$\psi '=\psi$ (命題 2) になります。
+通勤と$\varphi '_u\circ \psi_1=\varphi_v\circ \varphi_u$。 命題 2 を$\psi_1$ に適用すると、$\psi$ の存在が続きます。逆に、$\psi '$ にも目的のプロパティがある場合、補題 2 により $\psi '\circ \varphi '_v=\psi_1$ が得られるため、$\psi '=\psi$ (命題 2) になります。
 
-### 4. $\tau$ の類に群法則 - 拡張機能
+### 4. $\tau$ の類上の群法則 - 拡張機能
 
-G を群、F をアーベル群、$\tau : G\rightarrow$ Aut(F) を群準同型とします。対角線写像 $g\mapsto$ $(g, g)$ を $\delta : G\rightarrow G\times G$ で表し、$m: F\times F\rightarrow F$ 乗法準同型 $(f_1, f_2)\mapsto$ $f_1f_2$ で表します。 $f\mapsto f^{-1}$ によって与えられる $s: F\rightarrow F$ 群準同型で表します。 $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ と $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ を G の F による拡張 $\tau$ とします。 関係があるので、
+G を群、F をアーベル群、$\tau : G\rightarrow$ Aut(F) を群準同型とします。対角線写像 $g\mapsto$ $(g, g)$ を $\delta : G\rightarrow G\times G$ で表し、$m: F\times F\rightarrow F$ 乗法準同型 $(f_1, f_2)\mapsto$ $f_1f_2$ で表します。 $f\mapsto f^{-1}$ によって与えられる $s: F\rightarrow F$ 群準同型で表します。 $\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ と $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ を F による G の $\tau$ 拡張とします。 関係があるので、
 
 $$
 m(((\tau \times \tau )\circ \delta )(g)\cdot (f_1, f_2)) =\tau (g)\cdot m(f_1, f_2)
 $$
 
-すべての $g\in G$ とすべての $f_1, f_2\in F$ について、拡大 $m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$ は $\tau$ 拡張です。 $\tau$ 拡張子 $\mathscr{E}_1$ と $\mathscr{E}_2$ の積と呼び、$\mathscr{E}_1\mathscr{E}_2$ で表します。この拡大の類は、拡大 $\mathscr{E}_1$ と $\mathscr{E}_2$ の類 (VIII、p. 288、系 1 と VIII、p. 291、 系 1）。したがって、Ex$_{\tau}(G,F)$ では合成の法則が得られます。
+すべての $g\in G$ とすべての $f_1, f_2\in F$ について、拡大 $m_*(\delta^*(\mathscr{E}_1\times \mathscr{E}_2))$ は $\tau$ 拡張です。 $\tau$ 拡張子 $\mathscr{E}_1$ と $\mathscr{E}_2$ の積と呼び、$\mathscr{E}_1\mathscr{E}_2$ で表します。この拡大の類は、拡大 $\mathscr{E}_1$ と $\mathscr{E}_2$ の類 (VIII, p. 288, 系 1 と VIII, p. 291, 系 1)。したがって、Ex$_{\tau}(G,F)$ では合成の法則が得られます。
 
 #### 注意 {#alg-viii-s16-n4-rem-1 .statement tag=00IN}
 
-$\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ と $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ を G の F による拡張である $\tau$ とします。$\mathscr{E}_1\mathscr{E}_2= (\Gamma , \iota , \pi )$ をこれら拡大の積とします。 VIIIの例、p. 289、構成は、ファイバー積$\Gamma_1\times_G\Gamma_2$からΓへの全射群準同型を与えます。その核は、Fからの群準同型$f\mapsto (\iota_1(f), \iota_2(f)^{-1})$の像です$\Gamma_1\times_G\Gamma_2$まで。
+$\mathscr{E}_1= (\Gamma_1, \iota_1, \pi_1)$ と $\mathscr{E}_2= (\Gamma_2, \iota_2, \pi_2)$ を G の F による拡張である $\tau$ とします。$\mathscr{E}_1\mathscr{E}_2= (\Gamma , \iota , \pi )$ をこれら拡大の積とします。 VIIIの例、p. 289、構成は、ファイバー積$\Gamma_1\times_G\Gamma_2$から核が群準同型の像であるΓに全射法群準同型を与えます。 $f\mapsto (\iota_1(f), \iota_2(f)^{-1})$ F から $\Gamma_1\times_G\Gamma_2$ まで。
 
 #### 命題 4 {#alg-viii-s16-prop-4 .statement tag=00IO}
 
-The product of $\tau$-extensions endows the set Ex$_{\tau}(G,F)$ with the structure of an abelian group. その単位元は、半自明な拡大 $\mathscr{I}_{\tau}$ の類です。 $\tau$ 拡張 $\mathscr{E}$ の類の逆数は、$s_*(\mathscr{E})$ の類です。
+$\tau$ 拡張の積は、集合 Ex$_{\tau}(G,F)$ にアーベル群の構造を与えます。その単位元は、半自明な拡大 $\mathscr{I}_{\tau}$ の類です。 $\tau$ 拡張 $\mathscr{E}$ の類の逆数は、$s_*(\mathscr{E})$ の類です。
 
 法則の結合性は、図式の可換性から続きます。
 
@@ -404,7 +404,7 @@ F \times F & \xrightarrow{m} & F
 \end{array}
 $$
 
-and from Corollary 2 of VIII, p. 288; Corollary 2 of VIII, p. 291; and Proposition 3 of VIII, p. 292.
+そして系 2 から VIII、p. 288; 系 2/VIII、p. 291;と命題 3 の VIII、p. 292。
 
 $\Delta : F \to F \times F$ を対角線写像 $f \mapsto (f, f)$ とします。 $\mathscr{E} = (\Gamma, \iota, \pi)$ を $\tau$ 拡張子とします。 $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ を $\gamma \mapsto (\gamma, \gamma)$ によって与えられる群準同型とします。次の図式が通勤しています:
 
@@ -956,7 +956,7 @@ $$
 ((\sum_{g\in G}\mu_gg)x=\sum_{g\in G}\mu_g\lambda (g).x \tag{14}
 $$
 
-K[G] のすべての $x\in L$ とすべての元 $(\mu_g)_{g\in G}$ に対して。 $(K,G)$代数の射は代数の射であり、演算子を使用すると群の射でもあります。
+K[G] のすべての $x\in L$ とすべての元 $(\mu_g)_{g\in G}$ に対して。 $(K,G)$-代数の射は代数の射であり、演算子を使用すると群の射でもあります。
 
 $(K$、G)-代数、積 K-代数 $\prod_{i\in I}E_i$ のすべての族 $(E_i)_{i\in I}$ に対して、積群の構造に演算子が与えられたものは、$(K$、G)-代数です。
 
@@ -976,7 +976,7 @@ $f\in$ コイン$^G_H(E)$ と $g, g'\in G$ の場合。
 
 #### 補題 7 {#alg-viii-s16-lem-7 .statement tag=00IX}
 
-a) S を G の部分集合とし、G のすべての元を $h\in H$ と $s\in S$ を使用して $hs$ として一意に記述できるようにします。 Then the mapping that sends $f$ to $(f(s))_{s\in S}$ is an isomorphism from the K-algebra Coind$^G_H(E)$ to the K-algebra $\mathscr{F}(S,E)$ of mappings from S to E.
+a) S を G の部分集合とし、G のすべての元を $h\in H$ と $s\in S$ を使用して $hs$ として一意に記述できるようにします。 次に、$f$ を $(f(s))_{s\in S}$ に送る写像は、S から E への写像の K 代数 Coind$^G_H(E)$ から K 代数 $\mathscr{F}(S,E)$ への同型写像です。
 
 b) E が K に対して有限次数を持ち、G の H の添字が有限である場合に限り、代数 Coind$^G_H(E)$ は K に対して有限次数を持ちます。この場合、公式となります。
 
@@ -1008,7 +1008,7 @@ $$
 
 $\mathscr{F}_H(G,\mathscr{F}_N(H,E))$ の $\alpha$ と G の $g$ に対して関係 $\psi (\alpha )(g) =\alpha (g)(e)$ によって定義されます。 写像 $\psi$ は Coind$^G_H$(Coind$^H_N(E)$) から Coind$^G_N(E)$ までの代数同型であり、その逆は元 $\beta$ を $\mathscr{F}_N(G,E)$ から写像 $\alpha$ に送信します。 $g\in G$ と $h\in H$ の場合は関係 $\alpha (g)(h) =\beta (hg)$ です。
 
-ここで、有限群 G と、G から Aut$_K(L)$ への準同型 $\lambda$ によって与えられる G の作用が付与された有限次数の縮小 (V, §6, No. 6, p. 32) 可換K-代数 L を仮定します。 $x\in L$ と $g\in G$ については、L の自己同型 $\lambda (g)$ の下に $x$ の $g\cdot x$ 変換で表します。 $\mathscr{S}$ を最大理想 L の集合とします。 自己同型 $\lambda (g)$ の L の下の $g\cdot \mathfrak{m}$ 変換の元 $\mathfrak{m}$ の $\mathscr{S}$ で表します。 $\mathscr{S}$の元です。 $\mathscr{S}$ のすべての $\mathfrak{m}$ に対して、体 $L/\mathfrak{m}$ は K の有限拡大です。 射影を $\pi_{\mathfrak{m}}: L\rightarrow L/\mathfrak{m}$ と書き、G の $\mathfrak{m}$ の $G_{\mathfrak{m}}$ 固定群、つまり $g\cdot \mathfrak{m}=\mathfrak{m}$ のような $g\in G$ の集合で表します。 The K-algebra $L/\mathfrak{m}$ is endowed with an action of $G_{\mathfrak{m}}$ through the homomorphism $\lambda_{\mathfrak{m}}$ from $G_{\mathfrak{m}}$ to Aut$_K(L/\mathfrak{m})$ that sends an element $h$ of $G_{\mathfrak{m}}$ to the automorphism of $L/\mathfrak{m}$ deduced from $\lambda (h)$ when passing to the quotients.
+ここで、有限群 G と、G から Aut$_K(L)$ への準同型 $\lambda$ によって与えられる G の作用が付与された有限次数の縮小 (V, §6, No. 6, p. 32) 可換K-代数 L を仮定します。 $x\in L$ と $g\in G$ については、L の自己同型 $\lambda (g)$ の下に $x$ の $g\cdot x$ 変換で表します。 $\mathscr{S}$ を最大理想 L の集合とします。 自己同型 $\lambda (g)$ の L の下の $g\cdot \mathfrak{m}$ 変換の元 $\mathfrak{m}$ の $\mathscr{S}$ で表します。 $\mathscr{S}$の元です。 $\mathscr{S}$ のすべての $\mathfrak{m}$ に対して、体 $L/\mathfrak{m}$ は K の有限拡大です。 射影を $\pi_{\mathfrak{m}}: L\rightarrow L/\mathfrak{m}$ と書き、G の $\mathfrak{m}$ の $G_{\mathfrak{m}}$ 固定群、つまり $g\cdot \mathfrak{m}=\mathfrak{m}$ のような $g\in G$ の集合で表します。 K 代数 $L/\mathfrak{m}$ には、$G_{\mathfrak{m}}$ から Aut$_K(L/\mathfrak{m})$ までの準同型性 $\lambda_{\mathfrak{m}}$ を通じて $G_{\mathfrak{m}}$ の作用が付与されており、これは、$G_{\mathfrak{m}}$ の要素 $h$ を、$\lambda (h)$ から推定される$L/\mathfrak{m}$ の自己同型性へ送信します。商。
 
 $\mathscr{O}$ を $\mathscr{S}$ の G の軌道の集合とします。 軌道 $\sigma \in \mathscr{O}$、集合 $\mathfrak{a}_{\sigma}=\bigcap_{\mathfrak{m}\in\sigma}\mathfrak{m}$、$L_{\sigma}= L/\mathfrak{a}_{\sigma}$ が与えられます。 $\mathfrak{a}_{\sigma}$ は G の下で不変なので、移行から商までに、G の作用が L 定義する準同型 $\lambda_{\sigma}$ G から Aut$_K(L_{\sigma})$ までとなります。最後に、Lから$L_{\sigma}$までを$\pi_{\sigma}$ 標準写像と表します。
 
@@ -1024,13 +1024,13 @@ c) それぞれ$L^G($で表します。 L の $L^G_{\sigma})$ 部分代数 (そ�
 
 代数 L が減少し、有限次数、L の最大理想の共通部分が 0 に減少します (VIII、p. 173、系 2)。 さらに、$\mathfrak{m}$ と $\mathfrak{m}'$ が L の 2 つの異なる最大理想である場合、$\mathfrak{m}+\mathfrak{m}'= L$ が得られます。 I, §8, No. 11、p. 110、標準写像のLから$\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$までの命題10は同型となり、$L/\mathfrak{a}_{\sigma}$から$\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$までは$\sigma \in \mathscr{O}$ごとに標準写像になります。 主張 a) が続きます。 $\mathscr{O}$ は $\mathscr{S}$ の分割であるため、主張 b) が続きます。 主張 c) は b) の明らか帰結です。
 
-$\sigma$ の軌道 $\sigma \in \mathscr{O}$ と元 $\mathfrak{m}$ を修正しましょう。 集合 $F_{\mathfrak{m}}$ = コイン$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$、$F_{\mathfrak{m}}$ の G の $\lambda_{F_{\mathfrak{m}}}$ 作用で表します。 任意の $x\in L$ について、$g$ を $\pi_{\mathfrak{m}}(gx)$ に送信する G から $L/\mathfrak{m}$ までの $\overline{x}$ 写像で表します。 By formula (15) of VIII, p. 305 and the definition of the action of $G_{\mathfrak{m}}$ on $L/\mathfrak{m}$, it is immediate that $\overline{x}$ belongs to $F_{\mathfrak{m}}$, and the mapping $u:x\mapsto \overline{x}$ from L to $F_{\mathfrak{m}}$ satisfies $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ for $g\in G$. 他の語、$u$は$(K$、G)-代数の射です。
+$\sigma$ の軌道 $\sigma \in \mathscr{O}$ と元 $\mathfrak{m}$ を修正しましょう。 集合 $F_{\mathfrak{m}}$ = コイン$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$、$F_{\mathfrak{m}}$ の G の $\lambda_{F_{\mathfrak{m}}}$ 作用で表します。 任意の $x\in L$ について、$g$ を $\pi_{\mathfrak{m}}(gx)$ に送信する G から $L/\mathfrak{m}$ までの $\overline{x}$ 写像で表します。 VIII、p. 305 の式 (15) と、$L/\mathfrak{m}$ に対する $G_{\mathfrak{m}}$ の作用の定義により、$\overline{x}$ が $F_{\mathfrak{m}}$ に属し、L から $F_{\mathfrak{m}}$ への写像 $u:x\mapsto \overline{x}$ は、$\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ を満たします。 $g\in G$。 他の語、$u$は$(K$、G)-代数の射です。
 
 #### 補題 9 {#alg-viii-s16-lem-9 .statement tag=00IZ}
 
-射 $u$ は核 $\mathfrak{a}_{\sigma}$ と全射です。 $u$ から移行から商によって導出された写像は、$L_{\sigma}$ から $F_{\mathfrak{m}}$ までの $(K,G)$-代数の同型です。
+射 $u$ は核 $\mathfrak{a}_{\sigma}$ と全射です。 $u$から移行から商によって導かれた写像は、$L_{\sigma}$から$F_{\mathfrak{m}}$までの$(K,G)$-代数の同型です。
 
-$\pi_{\mathfrak{m}}$の核は$\mathfrak{m}$に等しいため、$u$の⟦9​​⟧は$\bigcap_{g\in G}g^{-1}.\mathfrak{m}=\mathfrak{a}_{\sigma}$に等しい。 $u$ が全射であることを証明するには、ベクトル空間 $L_{\sigma}=$ $L/\mathfrak{a}_{\sigma}$ と $F_{\mathfrak{m}}$ が K に対して同じ次元を持つことを証明すれば十分です。 さて、すべてのイデアル $g\cdot \mathfrak{m}$ は L で同じ次元を持ち、次のようになります。 補題 8、a)、
+$\pi_{\mathfrak{m}}$ のカーネルは $\mathfrak{m}$ に等しいため、$u$ のカーネルは $\bigcap_{g\in G}g^{-1}.\mathfrak{m}=\mathfrak{a}_{\sigma}$ に等しい。 $u$ が全射であることを証明するには、ベクトル空間 $L_{\sigma}=$ $L/\mathfrak{a}_{\sigma}$ と $F_{\mathfrak{m}}$ が K に対して同じ次元を持つことを証明すれば十分です。 さて、すべての理想 $g\cdot \mathfrak{m}$ は L で同じ次元を持ち、補題 8 によって、a)、
 
 $[L_{\sigma}: K] =$ カード($\sigma$ )$.[L/\mathfrak{m}: K]$。
 
@@ -1040,31 +1040,31 @@ $$
 [F_{\mathfrak{m}}: K] = (G : G_{\mathfrak{m}})[L/\mathfrak{m}: K]
 $$
 
-Card($\sigma$ ) $= (G : G_{\mathfrak{m}})$ があるので、等式 $[L_{\sigma}: K] =$ $[F_{\mathfrak{m}}: K]$ を証明しました。
+Card($\sigma$ ) $= (G : G_{\mathfrak{m}})$ があるので、等式 $[L_{\sigma}: K] =$ $[F_{\mathfrak{m}}: K]$ が証明されました。
 
-さらに、G から Aut$_K(L)$ までの準同型 $\lambda$ が単射であると仮定します。私たちは同一視する K で、その像は L から写像 $\xi \mapsto \xi \cdot 1$ までです。 Ω を K の代数閉拡大とします。共誘起 $(\Omega$, G)-代数 Coind$^G_{\{e\}}(\Omega )$ を使用して、G から Ω 一致するまで写像の集合 $\mathscr{F}(G,\Omega )$ とします。これは、階数 1 のフリー Ω[G] モジュールです。$\mathscr{H}$ を、L から Ω までの K-代数準同型の集合とします。私たちは $\mathscr{H}$ までに $(g, \chi )\mapsto \chi \circ \lambda (g)$ に G の定義する右作用です。次に、Ω代数 $\mathscr{F}(\mathscr{H},\Omega )$ には、$\mathscr{H}$ 上の G の右作用から推定される $(\Omega$, G)-代数の構造が与えられます。
+さらに、G から Aut$_K(L)$ への準同型 $\lambda$ が単射であると仮定します。私たちは同一視する K とその像が L から写像 $\xi \mapsto \xi \cdot 1$ までです。 Ω を K の代数閉拡大とします。共誘起 $(\Omega$, G)-代数 Coind$^G_{\{e\}}(\Omega )$ を使用して、G から Ω 一致するまで集合写像の $\mathscr{F}(G,\Omega )$ とします。これは、階数 1 のフリー Ω[G] モジュールです。$\mathscr{H}$ を、L から Ω までの K-代数準同型の集合とします。私たちは $\mathscr{H}$ by $(g, \chi )\mapsto \chi \circ \lambda (g)$ の G の定義する右作用です。 Ω-代数 $\mathscr{F}(\mathscr{H},\Omega )$ には、$\mathscr{H}$ 上の G の右作用から推定される $(\Omega$, G)-代数の構造が与えられます。
 
 #### 補題 10 {#alg-viii-s16-lem-10 .statement tag=00J0}
 
-L を K 上のエタールである $(K,G)$-代数とする。写像 $\psi$ $L_{(\Omega )}$ から $\mathscr{F}(\mathscr{H},\Omega )$ は関係によって特徴付けられる
+L を K 上のエタールである $(K,G)$-代数とする。 写像 $\psi$ $L_{(\Omega )}$ から $\mathscr{F}(\mathscr{H},\Omega )$ は関係によって特徴付けられる
 
 $$
 \psi (\xi \otimes x) = (\xi \chi (x))_{\chi\in\mathscr{H}}
 $$
 
-は、$(K,G)$-代数の同型です。
+は $(K,G)$-代数の同型です。
 
-L はエタールなので、写像 $\psi$ はΩ代数 (V, §6, No. 3, p. 30, 命題 2 と V, §6, No. 3, p. 29, 命題) の同型です。 1、c))。 関係があります
+L はエタールであるため、写像 $\psi$ は Ω-代数 (V, §6, No. 3, p. 30, 命題 2 および V, §6, No. 3, p. 29, 命題 1, c)) の同型です。 関係あります
 
 $\psi$((ID $\otimes \lambda (g)$)$(\xi \otimes x)$) $= (\xi (\chi \circ \lambda (g))(x))_{\chi\in\mathscr{H}}$
 
-$\xi \in \Omega ,x\in L$と$g\in G$の場合。したがって、$\psi$ は、G)-代数の $(\Omega$ の射です。
+$\xi \in \Omega ,x\in L$ と $g\in G$ の場合。したがって、$\psi$ は $(\Omega$、G)-代数の射です。
 
 #### 定理 2 {#alg-viii-s16-thm-2 .statement tag=00J1}
 
 Gを有限群とし、LをGからAut$_K(L)$への単射準同型$\lambda$によって与えられるGの作用を与えられた有限次数の可換K-代数とする。したがって、次のプロパティは同等になります。
 
-(i) G の部分群 H、有限次数の K のガロア拡大 E、H から Gal(E$/K$) までの同型、および L から $(K,G)$ 代数の同型が存在します。コイン$^G_H(E)$。
+(i) G の部分群 H、有限次数の K のガロア拡大 E、H から Gal(E$/K$) までの同型、L から Coind$^G_H(E)$ までの$(K,G)$-代数の同型が存在します。
 
 (ii) 代数 L はエタール、$\mathscr{H}$ は同次主 G セット (I, §5, No. 6、p. 60、定義 7) です。
 
@@ -1176,13 +1176,13 @@ E は K よりガロア代数なので、VIII の定理 2、p. 308 の性質 (v)
 
 #### 命題 10 {#alg-viii-s16-prop-10 .statement tag=00JB}
 
-G を有限群とします。 L を群 G を持つ体 K 上のガロア代数とし、$K'$ を K の拡大とします。すると、$(K',G)$-代数 $L_{(K')}$ は $K'$ 上のガロア代数となります。
+G を有限群とします。 L を群 G を含む体 K 上のガロア代数とし、$K'$ を K の拡大とします。すると、$(K',G)$-代数 $L_{(K')}$ は $K'$ 上のガロア代数となります。
 
-観察するとによる定理 2 の性質 (v) を使用すると、K-代数 L がエタールである場合、$K'$-代数 $L_{(K')}$ も (V, §6, No. 5, p. 32, 系 2) になります。 等式 $[L_{(K')}: K'] = [L : K]$ があり、$L_{(K')}$ の G の不変量の環は $(L^G)_{(K')}$ で、$L^G$ は L の G の不変量の環です。
+観察するとによる定理 2 の性質 (v) を使用すると、K-代数 L がエタールである場合、$K'$-代数 $L_{(K')}$ も同様です (V, §6, No. 5, p. 32, 系) 2)、等式 $[L_{(K')}: K'] = [L : K]$ があり、$L_{(K')}$ における G の不変量の環は $(L^G)_{(K')}$ であり、$L^G$ は L における G の不変量の環であるとします。
 
 #### 命題 11 {#alg-viii-s16-prop-11 .statement tag=00JC}
 
-$G_1$ と $G_2$ を群とします。 $L_1$ と $L_2$ を、それぞれ作用 $\lambda_1: G_1\rightarrow$ Aut$_K(L_1)$ と $\lambda_2: G_2\rightarrow$ Aut$_K(L_2)$ を伴う K 上のガロア代数とします。 集合 $L = L_1\otimes_KL_2,G = G_1\times G_2$、$(g_1, g_2)\in G$ の場合は $\lambda (g_1, g_2) =\lambda_1(g_1)\otimes \lambda_2(g_2)$。すると、作用 $\lambda$ が備わったK-代数 L は、K よりガロア代数になります。
+$G_1$と$G_2$を群とします。 $L_1$ と $L_2$ を K 以上のガロア代数とし、それぞれ作用 $\lambda_1: G_1\rightarrow$ Aut$_K(L_1)$ と $\lambda_2: G_2\rightarrow$ Aut$_K(L_2)$ とします。 集合 $L = L_1\otimes_KL_2,G = G_1\times G_2$、$\lambda (g_1, g_2) =\lambda_1(g_1)\otimes \lambda_2(g_2)$ は $(g_1, g_2)\in G$ です。すると、作用 $\lambda$ を備えた K-代数 L は、K よりもガロア代数になります。
 
 以下を考慮して、前にと推論します。 $L_1$ と $L_2$ がエタールである場合、代数 $L = L_1\otimes_KL_2$ (V, §6, No. 5, p. 32, 系 1) も同様であり、等式が成り立ちます。
 
@@ -1196,13 +1196,13 @@ $G_1$ と $G_2$ を群とし、$W_1$ と $W_2$ を K-ベクトル空間としま
 
 $\rho_1\otimes \rho_2: G_1\times G_2\longrightarrow$ 秋$_K(W_1\otimes_KW_2)$
 
-$g_1\in G_1,g_2\in G_2,w_1\in W_1$ および $w_2\in W_2$ の関係 $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$ によって定義されます。 次に、$W^{G_1}_1\otimes_KW^{G_2}_2$から$W_1\otimes_KW_2$までの線形写像は、標準単射の誘導する同型、$W_1^{G_1}\otimes_KW^{G_2}_2$から$(W_1\otimes_KW_2)^{G_1\times G_2}$のK-ベクトル空間のテンソル積によって与えられます。
+関係 $(\rho_1\otimes \rho_2)(g_1, g_2)(w_1\otimes w_2) =\rho_1(g_1)(w_1)\otimes \rho_2(g_2)(w_2)$ $g_1\in G_1,g_2\in G_2,w_1\in W_1$ および $w_2\in W_2$ によって定義されます。次に、$W^{G_1}_1\otimes_KW^{G_2}_2$から$W_1\otimes_KW_2$までの線形写像は、標準単射の誘導する同型、$W_1^{G_1}\otimes_KW^{G_2}_2$から$(W_1\otimes_KW_2)^{G_1\times G_2}$のK-ベクトル空間のテンソル積によって与えられます。
 
-This follows from Lemma 1 of VIII, p. 213 applied to the K[G]-modules $M_1= M_2= K$ endowed with the trivial action of $G, N_1= W_1$, and $N_2= W_2$.
+これは、$G, N_1= W_1$ および $N_2= W_2$ の自明な作用を備えた K[G] モジュール $M_1= M_2= K$ に適用される VIII の補題 1、p. 213 から続きます。
 
 #### 注意 {#alg-viii-s16-n8-rem-1 .statement tag=00JE}
 
-L を有限次数の体 K のガロア拡大とし、G をそのガロア群とします。 G 上の恒等写像を $\lambda$ で表します。 すると、$\lambda$ を備えたL は、群 G で K を超えてガロア代数になります。 $K'$ を K の拡大とします。 命題 10 までに、代数 $L_{(K')}$ は $K'$ を超えるガロアですが、一般的には $K'$ の拡大ではありません。 同様に、命題 11 により、ガロア拡大 E のテンソル積と有限次数の K の F はガロア代数と見なすことができます。一般に、それは K のガロア拡大ではありません。 ただし、E と F が K の拡大の線形互いに素部分拡張である場合 (V, §2, No. 5、p. 13 および V, §10, No. 1、p. 57、命題 1) は 1 です。
+L を有限次数の体 K のガロア拡大とし、G をそのガロア群とします。 G 上の恒等写像を $\lambda$ で表します。次に、$\lambda$ を備えた L は、群 G を備えた K 上のガロア代数です。 $K'$ を K の拡大とします。 命題 10 により、代数 $L_{(K')}$ は $K'$ 上のガロアになりますが、そうではありません一般的には $K'$ の拡大です。同様に、命題 11 により、ガロア拡大 E のテンソル積と有限次数の K の F はガロア代数と見なすことができます。一般に、これは K のガロア拡大ではありません。ただし、E と F が K の拡大の線形互いに素部分拡張 (V, §2, No. 5、p. 13 および V, §10, No. 1、p. 57、命題 1) である場合、これは 1 です。
 
 ### 9. 外積
 
@@ -1214,7 +1214,7 @@ $$
 (\beta , \gamma ).\alpha = (\beta \alpha , \iota (\alpha )^{-1}\gamma ) \tag{20}
 $$
 
-$\alpha \in L^*,\beta \in L$ と $\gamma \in \Gamma$ の場合。 We denote by E the set of orbits of $L^*$ in $L\times \Gamma$ and by $[\beta ;\gamma ]$ the orbit of the pair $(\beta , \gamma )$. したがって、構成までに関係になります
+$\alpha \in L^*,\beta \in L$ と $\gamma \in \Gamma$ の場合。 $L\times \Gamma$ の $L^*$ の軌道の集合を E で表し、$(\beta , \gamma )$ のペアの軌道を $[\beta ;\gamma ]$ で表します。 したがって、構成までに関係になります
 
 $$
 [\beta \alpha ;\gamma ] = [\beta ;\iota (\alpha )\gamma ] \tag{21}
@@ -1290,7 +1290,7 @@ $$
 
 $\alpha \in L^*,\beta \in L$、および$\gamma \in \Gamma$の場合。次に、$\mathbf{A}[\mathscr{E}; L]$からBまで一意な代数準同型$f$が存在し、$u'=f\circ u$と$v'=f\circ v$が存在します。
 
-To prove the uniqueness of $f$, observe that the vector space $\mathbf{A}[\mathscr{E}; L]$ over the field K is generated by the set of elements of the form $[\beta ;\gamma ] =u(\beta )v(\gamma )$. 準同型 $f':\mathbf{A}[\mathscr{E}; L]\rightarrow B$ が $f'\circ u=u'$ と $f'\circ v=v'$ を満たす場合、$[\beta ;\gamma ]$ を $u'(\beta )v'(\gamma )$ に送信し、従って $f$ とともに一致するを送信します。
+$f$ の一意性を証明するには、体 K 上のベクトル空間 $\mathbf{A}[\mathscr{E}; L]$ が形 $[\beta ;\gamma ] =u(\beta )v(\gamma )$ の元の集合によって生成されることを観察します。 準同型 $f':\mathbf{A}[\mathscr{E}; L]\rightarrow B$ が $f'\circ u=u'$ と $f'\circ v=v'$ を満たす場合、$[\beta ;\gamma ]$ を $u'(\beta )v'(\gamma )$ に送信し、従って $f$ とともに一致するを送信します。
 
 公式 (29) までに、
 
@@ -1298,7 +1298,7 @@ $$
 u'(\beta \alpha )v'(\iota (\alpha )^{-1}\gamma ) =u'(\beta )v'(\gamma ) \tag{31}
 $$
 
-$L^*,\beta$のLの$\alpha$、およびΓの$\gamma$。 E の定義により、結果として $f_0([\beta ;\gamma ]) =u'(\beta )v'(\gamma )$ となる写像 $f_0: E\rightarrow B$ が存在します。 公式 (23) と (30) により、E の $x$ と $x'$ に対して $f_0(xx') =f_0(x)f_0(x')$ が得られます。 $f_0$ から $E_g$ の制限は、G の元 $g$ ごとに K 線形です。従って、$\mathbf{A}[\mathscr{E}; L]$からBまで一意なK-線型写像$f$が存在し、Eに$f_0$を持つ一致するが存在します。写像$f$は$u'=f\circ u$を満たす代数射であり、 $v'=f\circ v$。
+Lの$L^*,\beta$、およびΓの$\gamma$の$\alpha$。 E の定義により、結果的に $f_0([\beta ;\gamma ]) =u'(\beta )v'(\gamma )$ となる写像 $f_0: E\rightarrow B$ が存在します。 公式 (23) と (30) により、E の $x$ と $x'$ に対して $f_0(xx') =f_0(x)f_0(x')$ が得られます。 $f_0$ から $E_g$ の制限は、G のすべての元 $g$ に対して K 線形です。その結果、$\mathbf{A}[\mathscr{E}; L]$からBまで一意なK-線型写像$f$が存在し、Eに$f_0$をもつ一致するが存在します。写像$f$は$u'=f\circ u$を満たす代数射であり、 $v'=f\circ v$。
 
 #### 注意 {#alg-viii-s16-n9-rem-1 .statement tag=00JG}
 
@@ -1308,7 +1308,7 @@ $$
 \varepsilon_g\varepsilon_{g'}=u(c_{\sigma}(g, g'))\varepsilon_{gg'} \tag{32}
 $$
 
-すべての$g, g'\in G$に。 さらに、準同型 $u$ を介して、$\mathbf{A}[\mathscr{E}; L]$ の部分代数を同一視する L とします。 次に、$\mathbf{A}[\mathscr{E}; L]$ のすべての元は、$\sum_{g\in G}a_g\varepsilon_g$ として一意に書くことができます。ここで、$(a_g)$ は、有限台を含む L の元のファミリーです。 $\mathbf{A}[\mathscr{E}; L]$の乗法は公式で表現できます
+$g, g'\in G$ 全員のために。さらに、準同型 $u$ を介して、$\mathbf{A}[\mathscr{E}; L]$ の部分代数を同一視する L とします。次に、$\mathbf{A}[\mathscr{E}; L]$ のすべての元は、$\sum_{g\in G}a_g\varepsilon_g$ として一意に書くことができます。ここで、$(a_g)$ は、有限台を含む L の元のファミリーです。 $\mathbf{A}[\mathscr{E}; L]$の乗法は公式で表現できます
 
 $$
 (\sum_ga_g\varepsilon_g)(\sum_gb_g\varepsilon_g)=\sum_gd_g\varepsilon_g \tag{33}
@@ -1320,7 +1320,7 @@ $$
 d_g=\sum_{hh'=g}a_h(\lambda (h)\cdot b_{h'})c_{\sigma}(h, h') \tag{34}
 $$
 
-拡大 $\mathscr{E}$ が半自明である場合、$\pi$ の選ぶ切断 $\sigma$、つまり G から Γ までの群射ができます。従って、共循環 $c_{\sigma}$ は値 1 で定数となり、公式 (34) は次のように単純化されます。
+拡大 $\mathscr{E}$ が半自明である場合、$\pi$ の選ぶ切断 $\sigma$、つまり G から Γ まで群射ができます。従って、共サイクル $c_{\sigma}$ は値 1 で定数となり、公式 (34) は次のように単純化されます。
 
 $$
 d_g=\sum_{hh'=g}a_h\lambda (h)\cdot b_{h'} \tag{35}
@@ -1508,7 +1508,7 @@ $r_{K'/K}$ 回答$^G_H$
 
 Br(L$/K'$)$^{\Phi_{L/K'}}/$/ $H_2(H,L_*)$ .
 
-This follows from Propositions 7 of VIII, p. 299 and 13 of VIII, p. 317.
+これは、VIII、p. 299 の命題 7、および VIII、p. 317 の 13 に続きます。
 
 ### 11. 添字と指数
 
@@ -1518,7 +1518,7 @@ Kを可換体、AをK上の有限次数の中心単純A-代数とする。Lを�
 
 Lの拡大M、つまり有限次数のKのガロア拡大(V, §10, No. 1、p. 57、命題2)が存在します。 K 属するから部分群 Br(M$/K$) のブラウアー群における A の類 [A]。 G を K 上の M のガロア群とし、$\alpha$ を $H^2(G,M^*)$ (VIII, p. 321, 系) の [A] の像とします。 H を L 以上の M のガロア群とします。すると、H は G の添字 [L : K] の部分群になります (V, §10, No. 7, p. 68, 系 5)。 Res$^G_H(\alpha ) = \Phi_{M/L}(A_{(L)})$ (命題 14) なので、Res$^G_H(\alpha ) = 0$ になります。 VIII, p. 303 の命題 8 により、$[L : K]\alpha = 0$ となり、結果として [L : K][A] = 0 となります。
 
-K を可換体とし、A を K 上の有限次数の中心単純代数とします。 このとき、A は形 $\mathbf{M}_n$(D) の代数と同型であり、D は体と中心 K、および Br(K) の [A] = [D] です。 D の縮小された次数は A のみに依存します。 これを A の縮小次数添字と呼びます。 割るの添字は A の次数を減じたものです。 A の指数は、K のブラウアー群における A の類の位数です。
+K を可換体とし、A を K 上の有限次数の中心単純代数とする。すると、A は形 $\mathbf{M}_n$(D) の代数と同型であり、D は中心 K を持つ体であり、Br(K) の [A] = [D] である。 D の縮小された次数は A のみに依存します。これを A の縮小次数添字と呼びます。 割るの添字は A の縮小次数です。 A の指数は、ブラウアー群における A の類の位数です。 Kさんの
 
 #### 系 1 {#alg-viii-s16-thm-6-cor-1 .statement tag=00JS}
 
@@ -1536,7 +1536,7 @@ K を可換体とし、A を K 上の有限次数の中心単純代数とする�
 
 $p$ を素数数とし、K を標数 $p$ の完全体とします。 A を K 上の有限次数の中心単純代数とします。すると、$p$ は A の割る添字ではありません。
 
-Let us prove that the Brauer group of K does not contain any element of order $p$. 有限次数の K のすべてのガロア拡大 M は完全体 (V, §7, No. 1、p. 36、命題 2) です。 従って、$p$ 番目の冪を取ると、群 $M^*$ の自己同型になります。 従って、$p$による乗法は、Br(M$/K$)と同型である群$H^2$(Gal(M$/K$)$,M^*$)の自己同型となる。
+K の Brauer 群には次数 $p$ の要素が含まれていないことを証明しましょう。 有限次数の K のすべてのガロア拡大 M は完全体 (V, §7, No. 1、p. 36、命題 2) です。 従って、$p$ 番目の冪を取ると、群 $M^*$ の自己同型になります。 従って、$p$による乗法は、Br(M$/K$)と同型である群$H^2$(Gal(M$/K$)$,M^*$)の自己同型となる。
 
 従って、[A] の位数は $p$ に対して素数であり、系 2 によって、その添字は $p$ で割り切れません。
 

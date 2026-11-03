@@ -29,16 +29,16 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: f5744234f68c98768a39f9d9272785d7ddc00b8be145a7de6fe58ad1acdc327f
+content_sha256: b3d2b9bf0933d5e91936cd7385844633878f9fe31c089d491f746f918bfce76e
 translated_from: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
 translation_method: google
 source_content_sha256: 40502ef62aacbf121ac1011abdbd0936abda1c04356f56a21967a20f392ffa93
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e613ef871bc2187ca55ab942d9728884a0d02fa9fe4265d4291f16f6c2a12c97
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 5. フィルタ処理された加群の平坦性特性
@@ -68,16 +68,16 @@ $$
 
 A-加群 M がフラットで、$\mathfrak{g}$ 進数位相を持つハウスドルフである場合、理想的にはハウスドルフです。なぜなら、$a \otimes_A M$ は M の部分加群と識別され、$a \otimes_A M$ 上の $\mathfrak{g}$ 進数位相はより細かいであるからです。 位相は、仮定によるハウスドルフである M の $\mathfrak{g}$ 進数位相によって $a \otimes_A M$ に誘導されます。
 
-### 2.  平坦度基準の主張
-Aを環、$\mathfrak{z}$をAの両側理想とし、Mを左モジュール、gr(A)とgr(M)を、それぞれ環Aと加群Mに関連付けられた段階的環および段階的gr(A)モジュールとし、$\mathfrak{g}$-進濾過(§ 2, no. 3)を使用します。 私たちは、すべての整数 $n \geq 0$ に対して全射的 $\mathbf{Z}$ 加群準同型が存在することを見てきました (loc. cit.)。
+### 2. 平坦度基準の主張
+A を環、$\mathfrak{z}$ A の両側理想、M を左モジュール、gr(A) と gr(M) を、それぞれ $\mathfrak{g}$ A と環 A および加群 M に関連付けられた段階的環および段階的 gr(A) モジュールとします。 (§ 2, no. 3)。私たちは、すべての整数 $n \geq 0$ に対して全射 $\mathbf{Z}$ 加群準同型が存在することを見てきました (loc. cit.)。
 $$
 \gamma_n : (\mathfrak{g}^n / \mathfrak{g}^{n+1}) \otimes_{A/\mathfrak{g}} (M / \mathfrak{g}M) \to \mathfrak{g}^n M / \mathfrak{g}^{n+1} M
 $$
-およびグレード付けされた gr(A) モジュールのグレード付けされた次数 0 の準同型
+およびグレード付けされた gr(A) モジュールのグレード付けされた準同型 / 次数 0
 $$
 \gamma_M : \mathrm{gr}(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M) \to \mathrm{gr}(M)
 $$
-制限から $\mathrm{gr}_n(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M)$ はすべての $n$ に対して $\gamma_n$ であり、したがってこれは全射です。
+制限から $\mathrm{gr}_n(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M)$ はすべての $n$ に対して $\gamma_n$ であり、したがってこれは全射的です。
 
 #### 定理 1 {#ac-iii-s5-thm-1 .statement tag=04IS}
 

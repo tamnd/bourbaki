@@ -53,16 +53,16 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: dd80eff78813566bc237f0f3720b707dffc1c214ae81a89ad2900582f3e0b028
+content_sha256: 89d0b77bb272fb0792d9b75fa787471155329dcf8bcb83d245d6b64b1197eab3
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 translation_method: google
 source_content_sha256: c7f552328385d94715aa4fc98b5c4522cc8ad73080a081dd41bebfb79b236ea5
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d25d7769c4ca50462d1374bdb1197f90a9bfdd73069fcfd9a5b5399e257939ac
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 1. クルールドメイン
@@ -258,7 +258,7 @@ $Ax \subset a \subset Ay$ のような $K^*$ には $x, y$ が存在します。
 
 #### 補題 1 {#ac-vii-s1-lem-1 .statement tag=04YX}
 
-*If $A$ is a Krull domain and $(v_t)_t$, is a family of normed valuations on $K$ satisfying (AK$_I$), (AK$_{II}$) and (AK$_{III}$), the mapping $a \mapsto (v_t(a))_{t \in I}$ is a decreasing injective mapping of the set of divisorial integer ideals of $A$ (ordered by $\subset$) to the set of positive elements & the ordered group the direct sum $\mathbf{Z}^{(I)}$.*
+*$A$ が Krull 領域で、$(v_t)_t$ が (AK$_I$)、(AK$_{II}$)、(AK$_{III}$) を満たす $K$ の正規評価の族である場合、マッピング $a \mapsto (v_t(a))_{t \in I}$ は $A$ の約数整数イデアルのセットの減少単射写像です。 ($\subset$ で順序付け) 正の要素のセットと順序付けされたグループへの直接和 $\mathbf{Z}^{(I)}$.*
 
 そうなると、$\mathbf{Z}^{(I)}$ の正の元の空でないすべての集合には、最小の元 (*代数*、章 VI, § 1, no. 13、定理 2) が含まれます。したがって、$A$ は主張の性質 (b) を確実に満たします。
 
@@ -339,7 +339,7 @@ $n \in \mathbf{N}$ の場合は $p^{(n)} = p^n A_p \cap A$ とします。この
 
 (b) Let $a$ be a divisorial integral ideal, $n_1 P_1 + \ldots + n_r P_r$ 因子 of $a$ (the $P_i$ being distinct extremal 因子) and $p_i$ the divisorial prime ideal 対応する to $P_i$.次に、$a = \bigcap_{i=1}^r p_i^{(n_i)}$ は $a$ の固有の還元原色分解であり、$p_i$ は浸されていません。
 
-系 1 から命題 6 まで、関係 $x \in p^n A_p = (pA_p)^n$ は $v_p(x) \geq n$ と同等です。一方、$A$ は離散評価環であるため、$(pA_p)^n$ は $(pA_p)$ - 主要 (章 IV, § 2, no. 1、例 4) であるため、$p^{(n)}$ は $p$ - 主要です(章 IV, § 2, no. 1、命題 3);これは (a) を示しています。 命題 5 は確かに $a = \bigcap_{i=1}^r p_i^{(n_i)}$ を示しています。 As $p_i \not\subset p_j$ for $i \neq j$ this primary decomposition is reduced: For if $p_i^{(n_i)} \supset \bigcap_{j \neq i} p_j^{(n_j)} \supset \prod_{j \neq i} p_j^{(n_j)}$, $p_{ji}$ would contain one of the $p_j$ for $j \neq i$ (Chapter II, § 1, no. 1, Proposition 1). 一意性は、章 IV, § 2, no. 3、命題 5 から続きます。
+系 1 から命題 6 まで、関係 $x \in p^n A_p = (pA_p)^n$ は $v_p(x) \geq n$ と同等です。一方、$A$ は離散評価環であるため、$(pA_p)^n$ は $(pA_p)$ - 主要 (章 IV, § 2, no. 1、例 4) であるため、$p^{(n)}$ は $p$ - 主要です(章 IV, § 2, no. 1、命題 3);これは (a) を示しています。 命題 5 は確かに $a = \bigcap_{i=1}^r p_i^{(n_i)}$ を示しています。 $i \neq j$ に対する $p_i \not\subset p_j$ として、この一次分解は縮小されます: $p_i^{(n_i)} \supset \bigcap_{j \neq i} p_j^{(n_j)} \supset \prod_{j \neq i} p_j^{(n_j)}$ の場合、$p_{ji}$ には $j \neq i$ に対する $p_j$ の 1 つが含まれます (II, § 1, no. 1 章、命題 1)。 一意性は、章 IV, § 2, no. 3、命題 5 から続きます。
 
 ### 5. 重要な評価額の概算
 
@@ -355,7 +355,7 @@ $p_1, \ldots, p_r$ を、評価 $v_1, \ldots, v_r$ に対する $A$ 対応する
 
 $\mathbf{A}$ をクルール領域、$\mathbf{K}$ を分数の体と $\mathbf{a}, \mathbf{b}$ および $c$ の 3 つの約数分数イデアルである $\mathbf{a} \subset \mathbf{b}$ とする $\mathbf{A}$ とします。 $\mathbf{a} = \mathbf{b} \cap x\mathbf{c}$ となるような $x \in \mathbf{K}$ が存在します。
 
-Let $(v_t)_{t \in I}$ be the family of essential valuations of $\mathbf{A}$ and let $(m_t)$ (resp. $(n_t), (p_t)$) be the family of rational integers (zero except for a finite number of indices) such that $\mathbf{a}$ (resp. $\mathbf{b}, c$) is the set of $x \in \mathbf{K}$ for which $v_t(x) \geq m_t$ (resp. $n_t, p_t$) for all $t \in I$ (Proposition 5, no. 4). $m_t > n_t$ が有限となるような $t \in I$ の集合 $\mathbf{J}$。 $p_t = m_t = 0$ として、添字の有限数を除いて、命題 9 は、$t \in \mathbf{J}$ に対して $v_t(x^{-1}) + m_t = p_t$ となるような$x \in \mathbf{K}^*$ が存在することを示します。
+$(v_t)_{t \in I}$ を $\mathbf{A}$ の本質的評価の族とし、$(m_t)$ (それぞれ $(n_t), (p_t)$) を、$\mathbf{a}$ (それぞれ $\mathbf{b}, c$) が $x \in \mathbf{K}$ の集合となるような有理数の整数 (有限数の指数を除くゼロ) の族とする。すべての $t \in I$ (提案 5、no. 4) に対して $v_t(x) \geq m_t$ (それぞれ $n_t, p_t$)。 $m_t > n_t$ が有限となるような $t \in I$ の集合 $\mathbf{J}$。 $p_t = m_t = 0$ として、添字の有限数を除いて、命題 9 は、$t \in \mathbf{J}$ に対して $v_t(x^{-1}) + m_t = p_t$ となるような$x \in \mathbf{K}^*$ が存在することを示します。
 $$
 v_t(x^{-1}) + m_t \geq p_t
 $$
@@ -436,7 +436,7 @@ $(v_i)_{i \in I}$ を $\mathbf{A}$ の本質的評価の拡大から $K'$ の族
 
 ここで、$a_i \in \mathbf{A}$ と $a_s \neq 0$; $v_i(x) > 0$ の場合は $v_i(a_0) > 0$;ここで、$v(a_0) > 0$ が数で有限であるような $\mathbf{A}$ の本質的な評価 $v$ は、$K$ の与えられた評価を拡張した $K'$ の評価も数 (章 VI, § 8, no. 3, 定理 1); hence $v_i(x) = 0$ except for a finite 数 of 添字 $i \in I$. Thus it has been proved that $\mathbf{A}'$ is a Krull domain (no. 3, 定義 3).
 
-$v_i$ が $A'$ (no. 4, 系 2 ～ 命題 6)、つまり (no. 6, 系 2 ～ 定理 3) の本質的な評価と同等であること、つまり主要な理想 $p_i$ が、 $v_i(x) > 0$ となる $x \in A'$ のからなるは高さ 1 です。 そうでない場合は、$(0)$ と $p_i$ から $(0) \subset q \subset p_i$ が区別されるような $A'$ の主要な理想 $q$ が存在することになります。その場合、$(0) \subset q \cap A \subset p_i \cap A$ と $q \cap A$ は、$(0)$ と $p_i \cap A$ (章 V, §2, no. 1、系 1 ～ 命題 1) とは異なります。したがって、主要な理想 $p_i \cap A$ は高さ 1 ではなく、矛盾するという事実は、$A$ の本質的な評価に対して対応するになります。
+$v_i$ が $A'$ (no. 4, 系 2 ～ 命題 6)、つまり (no. 6, 系 2 ～ 定理 3) の本質的な評価と同等であること、つまり主要な理想 $p_i$ が、 $v_i(x) > 0$ のような $x \in A'$ のからなるは高さ 1 です。そうでない場合、$(0) \subset q \subset p_i$ が $(0)$ と $p_i$ から区別されるような $A'$ の主要な理想 $q$ が存在します。 then $(0) \subset q \cap A \subset p_i \cap A$ and $q \cap A$ would be distinct from $(0)$ and $p_i \cap A$ (章 V, §2, no. 1, 系 1 to 命題 1); the prime ideal $p_i \cap A$ would therefore not be of height 1, which 矛盾する the fact that it 対応する to an essential valuation of $A$.
 
 #### 系 {#ac-vii-s1-n8-cor-1 .statement tag=04ZG}
 
@@ -456,7 +456,7 @@ $$
 \bar{w}\left( \sum_j a_j X^j \right) = \inf_j (w(a_j))
 $$
 
-$\sum_j a_j X^j \in K[X]$ (章 VI, §10, no. 1、補題 1) の場合。 Clearly the $u$, and the $\bar{w}$ are discrete and normed and, for all $u \in K[X]$, $v_f(u) = 0$ (resp. $\bar{w}(u) = 0$) except for a finite number of valuations $v_f$ (resp. $\bar{w}$).
+$\sum_j a_j X^j \in K[X]$ (章 VI, §10, no. 1、補題 1) の場合。 明らかに、$u$ と $\bar{w}$ は離散的かつ正規化されており、有限数の評価値 $v_f$ (それぞれ $\bar{w}$) を除いて、すべての $u \in K[X]$ について、$v_f(u) = 0$ (それぞれ $\bar{w}(u) = 0$) です。
 
 したがって、命題を示すには、$A[X]$ が評価$v_f$ と $\bar{w}$ の環の共通部分であることを示すだけで十分です。現在、評価額 $v_f$ の環の共通部分は $K[X]$ です。一方、$\sum_j a_j X^j \in K[X]$ の場合、関係 $\bar{w}\left( \sum_j a_j X^j \right) \geq 0$ は「すべての $j$ に対して $w(a_j) \geq 0$」と同等です。したがって、関係「すべての評価$\bar{w}'$に対して$\bar{w}\left( \sum_j a_j X^j \right) \geq 0$」は、「すべての$j$と$A$のすべての重要な評価$w$に対して$w(a_j) \geq 0$」と同等です。これは私たちの主張を証明します。
 

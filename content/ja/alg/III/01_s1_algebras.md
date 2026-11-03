@@ -42,16 +42,16 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: fd64c0acda965cfca9c78931ffaf5f2f8f332b3eb5b92fd004c4b9d12fd7328e
+content_sha256: 7c888b4279bf7cab34fe96178bb16bb9dc88d04dec76bce310a89d4d711a8a91
 translated_from: content/en/alg/III/01_s1_algebras.md
 translation_method: google
 source_content_sha256: 820912e8d5d630a54cb7380bd85e9cf6d35d1c95d761b599b7ec5d3af2010845
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 36bdf8d6297f9b2ab21171ad641507b1ac795e4d051cf3c084419be46c38e22b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 代数
@@ -60,7 +60,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 定義 1 {#alg-iii-s1-def-1 .statement tag=05YR}
 
-$A$を可換環とします。 $A$ 上の代数 (混乱を恐れない場合は、$A$-代数、または単に代数) は、構造を含む集合 $E$ で、次のように定義されます。
+$A$ を可換環とします。 $A$ 上の代数 (混乱を恐れない場合は、$A$-代数、または単に代数) は、構造を含む集合 $E$ で、次のように定義されます。
 (1) $E$ 上の $A$ モジュール構造。
 (2) $E \times E$ から $E$ への $A$ 双線形写像 (II, § 3, no. 5)。
 
@@ -104,7 +104,7 @@ $$(x, y) \mapsto xy + yx$$
 
 明らかに 2 つの A-代数準同型のうち合成は A-代数準同型です。すべての全単射語代数準同型は同型です。したがって、A-代数準同型は、A-代数構造 (*集合理論*, IV, 2, no. 1) の種の *射* と見なすことができます。以下では常に、この射の選択が作成されたと仮定します。 E、E'が2つのA-代数である場合、$\operatorname{Hom}_{A\text{-alg}}(E, E')$はEのA-代数準同型の集合をE'に表します。
 
-E、E' をそれぞれ単位元を持つ 2 つの代数とします。 E の準同型から E' 写像単位元へ、E の単位元までを *unital 準同型* (または *unital 代数射*) と呼びます。
+E、E' をそれぞれ単位元を持つ 2 つの代数とします。 E の準同型から E' の写像単位元から E' の単位元までを *unital 準同型* (または *unital 代数射*) と呼びます。
 
 ### 2. 部分代数。理想。 商代数
 
@@ -265,7 +265,7 @@ $$
 \text{Hom}_{A\text{-alg.}}(E, \rho_*(F)) \to \text{Hom}_{B\text{-alg.}}(\rho^*(E), F).
 $$
 
-The ordered pair consisting of $E_{(B)}$ and $\phi_E$ is therefore a solution of the universal mapping problem (Set Theory, IV, § 3, no. 1) where $\Sigma$ is the species of $B$-algebra structure and the $\alpha$-mappings the $A$-homomorphisms from $E$ to a $B$-algebra.
+したがって、$E_{(B)}$ と $\phi_E$ からなる順序ペアは、普遍写像問題 (集合論、IV, § 3, no. 1) の解です。ここで、$\Sigma$ は $B$-代数構造の種であり、$\alpha$ は $E$ からの $A$-準同型写像を a に写像します。 $B$-代数。
 
 #### 系 {#alg-iii-s1-n5-cor-1 .statement tag=05YV}
 
@@ -293,13 +293,13 @@ $I$ を事前順序付けされた集合とし、$(A_i, \phi_{ij})$ を *可換�
 
 $(E'_i, f'_{ij})$ を $A_i$-代数の他の逆数系とし、すべての $i$ について $u_i : E_i \to E'_i$ を $A_i$-代数準同型とし、これらの写像は *逆系* を形成します。この場合、$u = \lim u_i$ は *$A$*-代数準同型写像です。
 
-ここで、すべての $A_i$ が *同じ* 可換 *環* $A$ と $\phi_{ij}$ から $\mathrm{Id}_A$ に等しいと仮定します。したがって、$E = \lim \leftarrow E_i$ は $A$-代数です。 Let $F$ be an $A$-algebra and, for all $i \in I$, let $u_i : F \to E_i$ be an $A$-algebra homomorphism such that $(u_i)$ is an inverse system of mappings; then $u = \lim \leftarrow u_i$ is a homomorphism of the algebra $F$ into the algebra $E$. *逆に*、すべての $A$-代数準同型 $v : F \to E$ について、$v_i = f_i \circ v$ の族は $v = \lim \leftarrow v_i$ のような $A$-代数準同型の逆系です。 さらに、$\bar{f}_{ij} = \mathrm{Hom}(1_F, f_{ij})$, $(\mathrm{Hom}_{A\text{-alg.}}(F, E_i), \bar{f}_{ij})$ は明らかに集合の逆系であるため、上記の注意は標準写像 $v \mapsto (f_i \circ v)$ が *全単射* であるというというによっても表現できることがわかります。
+ここで、すべての $A_i$ が *同じ* 可換 *環* $A$ と $\phi_{ij}$ から $\mathrm{Id}_A$ に等しいと仮定します。したがって、$E = \lim \leftarrow E_i$ は $A$-代数です。 $F$ を $A$-代数とし、すべての $i \in I$ について、$u_i : F \to E_i$ を $(u_i)$ が写像の逆系となるような $A$-代数準同型写像とする。すると、$u = \lim \leftarrow u_i$ は代数 $F$ の準同型が代数 $E$ になります。 *逆に*、すべての $A$-代数準同型 $v : F \to E$ について、$v_i = f_i \circ v$ の族は $v = \lim \leftarrow v_i$ のような $A$-代数準同型の逆系です。さらに、$\bar{f}_{ij} = \mathrm{Hom}(1_F, f_{ij})$, $(\mathrm{Hom}_{A\text{-alg.}}(F, E_i), \bar{f}_{ij})$ と書くと明らかに集合の逆系であるため、上記の注意はというによって標準写像 $v \mapsto (f_i \circ v)$ が *全単射* であることも表現できることがわかります。
 
 $$
 l_F : \mathrm{Hom}_{A\text{-alg.}}(F, \lim \leftarrow E_i) \to \lim \leftarrow \mathrm{Hom}_{A\text{-alg.}}(F, E_i).
 $$
 
-さらに、すべての $A$-代数準同型性 $w : F \to F'$ に対して、
+さらに、すべての $A$-代数準同型性 $w : F \to F'$ について、
 
 $$
 \bar{w}_i = \mathrm{Hom}(w, 1_{E_i}) : \mathrm{Hom}_{A\text{-alg.}}(F', E_i) \to \mathrm{Hom}_{A\text{-alg.}}(F, E_i)
@@ -317,17 +317,17 @@ $$
 
 可換です。
 
-ここで、$I$ が正しく*指示されている*と仮定します。 $I$ をインデックス集合として、可換環 $(A_i, \phi_{ji})$ の直接系と $A_i$ モジュールの直接系 $(E_i, f_{ji})$ を考えてみましょう。それぞれの $E_i$ が $A_i$-代数構造を持ち、$i \leq j$ に対して、$f_{ji}$ が代数 ($\phi_{ji}$ に対して) (no. 5) の $A_i$-準同型写像であると仮定します。 $A = \lim \to A_i$、$E = \lim \to E_i$ としましょう。 $E$ は $A$ モジュール構造を持ち、$A_i$ モジュール $E_i$ (II, § 6, no. 2) の構造の直接の極限です。さらに、E 上の合成の法則は、E_i の直接の極限と見なされ、乗法 (I, § 10, no. 3) ではマグマと見なされ、E 上の A-加群構造、定義する A-代数 E の構造; (E_i, f_{ji}) は A_i-代数の直接系と呼ばれ、A-代数 E はその直接の極限と呼ばれます。 f_i : E_i \to E、\phi_i : A_i \to A が標準写像の場合、 f_i は代数 (\phi_i に対して) の A_i 準同型写像です。 E_i が結合的 (可換的) であれば、E も同様です。各 E_i が i \leq j に対して単位元 e_i および f_{ji}(e_i) = e_j を認める場合、E は I のすべての i に対して f_i(e_i) = e となるような単位元 e を認めます。
+ここで、$I$ が正しく*指示されている*と仮定します。 集合のインデックスとして $I$ を使用して、可換環 $(A_i, \phi_{ji})$ の直接系と $A_i$ モジュールの直接系 $(E_i, f_{ji})$ を考えてみましょう。それぞれの $E_i$ が $A_i$-代数構造を持ち、$i \leq j$ に対して、$f_{ji}$ が代数 ($\phi_{ji}$ に対して) (no. 5) の $A_i$-準同型写像であると仮定します。 $A = \lim \to A_i$、$E = \lim \to E_i$ としましょう。 $E$ は $A$ モジュール構造を持ち、$A_i$ モジュール $E_i$ (II, § 6, no. 2) の構造の直接の極限です。さらに、E 上の合成の法則は、E_i の直接の極限と考えられ、乗法 (I, § 10, no. 3) ではマグマと考えられ、E 上の A-加群構造、定義する A-代数 Eの構造; (E_i, f_{ji}) は A_i-代数の直接系と呼ばれ、A-代数 E はその直接の極限と呼ばれます。 f_i : E_i \to E、\phi_i : A_i \to A が標準写像である場合、f_i は代数 (\phi_i に対して) の A_i 準同型写像です。 E_i が結合的 (可換的) であれば、E も同様です。各 E_i が i \leq j に対して単位元 e_i および f_{ji}(e_i) = e_j を認める場合、E は I のすべての i に対して f_i(e_i) = e となるような単位元 e を認めます。
 
-(E'_i, f'_{ji}) を A_i 代数の他の直接系とし、すべてについて u_i : E_i \to E'_i を A_i 代数準同型とし、これらの写像は直接系を形成します。その場合、u = \lim \to u_i は A-代数準同型になります。
+(E'_i, f'_{ji}) を A_i-代数の他の直接系とし、すべてについて u_i : E_i \to E'_i を A_i-代数準同型とし、これらの写像は直接系を形成します。その場合、u = \lim \to u_i は A-代数準同型となります。
 
-ここで、すべての環 A_i が同じ環 A に等しく、\phi_{ji} が Id_A に等しいとします。したがって、E = \lim \to E_i は A-代数になります。 F を A-代数とし、すべてについて u_i : E_i \to F A-代数準同型とし、(u_i) が写像の直接系となるようにします。 u = \lim \to u_i は、代数 E の代数 F の準同型になります。 逆に、すべての A-代数準同型 v : E \to F について、v_i = v \circ f_i の族は、v = \lim \to v_i となるように、A-代数準同型の直接系になります。 さらに、 \vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F), (\mathrm{Hom}_{A\text{-alg.}}(E_i, F), \vec{f}_{ij}) と書くと、明らかに集合の逆系であるため、上記の注意が標準写像 v \mapsto (v \circ f_i) が全単射であることをというで表すこともできます
+ここで、すべての環 A_i が同じ環 A に等しく、\phi_{ji} が Id_A に等しいとします。したがって、E = \lim \to E_i は A-代数になります。 F を A-代数とし、すべてについて u_i : E_i \to F A-代数準同型とし、(u_i) が写像の直接系となるようにします。その場合、u = \lim \to u_i は代数 E の準同型から代数 F になります。逆に、すべての A-代数準同型 v : E \to F に対して、v_i = v \circ f_i の族は A-代数の直接系になります。 準同型は v = \lim \to v_i となります。さらに、 \vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F), (\mathrm{Hom}_{A\text{-alg.}}(E_i, F), \vec{f}_{ij}) と書くと、明らかに集合の逆系であることがわかります。 注意は、標準写像 v \mapsto (v \circ f_i) が全単射であることをというで表すこともできます。
 
 $$
 d_F : \mathrm{Hom}_{A\text{-alg.}}(\lim \to E_i, F) \to \lim \leftarrow \mathrm{Hom}_{A\text{-alg.}}(E_i, F).
 $$
 
-さらに、すべての A-代数準同型 w : F \to F' に対して、
+さらに、 A-代数準同型 w : F \to F' ごとに、
 
 $$
 \bar{w}_i = \mathrm{Hom}(1_{E_i}, w) : \mathrm{Hom}_{A\text{-alg.}}(E_i, F) \to \mathrm{Hom}_{A\text{-alg.}}(E_i, F')
@@ -347,13 +347,13 @@ $$
 
 ### 7. 代数の基底。 乗法表
 
-定義により、A-代数 E の基底は、A-加群構造に対して E の基底になります。 (a_i)_{i \in I} を E の基底とします。一意のファミリー (\gamma^k_{ij})_{(i, j, k) \in I \times I \times I} of 元 of 環が存在し、順序付けされたすべての対 (i, j) \in I \times が成立します\gamma^j_{ij} \neq 0 が有限であるような、I の k \in の I、集合
+定義により、A-代数 E の基底は、A-加群構造に対して E の基底になります。 (a_i)_{i \in I} を E の基底とします。注文されたすべての対 (i, j) \in I の元 of 環の一意のファミリー (\gamma^k_{ij})_{(i, j, k) \in I \times I \times I} が存在します。 \gamma^j_{ij} \neq 0 が有限であるような、I の k \times I, 集合
 
 $$
 a_i a_j = \sum_{k \in I} \gamma^k_{ij} a_k.
 $$
 
-$\gamma_{ij}^k$ は、基底 $(a_i)$ および関係 (7) に関する代数 E の構造* の *定数と呼ばれ、(基底に対して) 代数 E の *乗法表* を構成します。 $(a_i)$）。
+$\gamma_{ij}^k$ は、基底 $(a_i)$ に対する代数 E の構造* の *定数と呼ばれ、関係 (7) は、代数 E の *乗法表* を構成します ( 基底 $(a_i)$)。
 
 関係 (7) は、平方表の関係の右側から設定によって書き記されると想像できます。
 

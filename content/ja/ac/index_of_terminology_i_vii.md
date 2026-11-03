@@ -13,16 +13,16 @@ pdf_pages: 0628-0637
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: aaf90f3d7a7b8fd7fa0c5e7eafe05dd30ea66331e5b8ff27aee513db0b66d374
+content_sha256: a95c51939c19458a99b9123cef7a5fa8b55828b50213a8ad5e40dcb243037c01
 translated_from: content/en/ac/index_of_terminology_i_vii.md
 translation_method: google
 source_content_sha256: a190cb6d418c8b704161546f616138cfe5f2dbb8d594917a3d98ca1aaf5aff09
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e0ef908ba1eba370ceed8b8eac3787f5c58bc98cbe9724d6fe312fd0b4e3b3b7
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 添字用語集
@@ -55,28 +55,28 @@ n 進数整数: III.2.12
 — (主理想) 加群: IV。 1.1
 — 環、場所、評価: VI.3.3
 
-Canonical decomposition of a place: VI.2.3
-— factorization of a valuation: VI.3.2
-— homomorphism of the decomposition group of a prime ideal $\mathfrak{p}'$ of $\mathbf{A}'$ into the automorphism group of $\mathbf{A}'/\mathfrak{p}'$: V.2.2
-Class, divisor, attached to a finitely generated module : VII.4.7
-Classes, divisor (monoid of) : VII.1.2
-Closure, algebraic, of a field in an algebra : V.1.2
-— integral, of an integral domain : V.1.2
-— integral, of a ring in an algebra: V.1.2
-Commutative diagram: I.1.2
-Compatible (filtration) with a ring structure, module structure: III.2.1
-— (homomorphism) with filtrations: III.2.4
-Complete system of extensions of a valuation: VI.8.2
-Completely integrally closed domain : V.1.4
-Component, irreducible (of a topological space) : II.4.1
-Conditions, Hensel's: III.4.5
-Conductor of a submodule : V.1.5
-Content of a polynomial over a pseudo-Bezoutian domain: VII.1.Ex.23
-— of a torsion module: VII.4.5
-Criterion, Eisenstein’s irreducibility: VII.3.Ex.20
+場所の正規分解: VI.2.3
+— 評価の因数分解: VI.3.2
+— $\mathbf{A}'$ の素イデアル $\mathfrak{p}'$ の $\mathbf{A}'/\mathfrak{p}'$ の自己同型群への分解群の準同型性: V.2.2
+有限生成モジュールに付加されたクラス、除数: VII.4.7
+クラス、約数 (モノイド) : VII.1.2
+代数における体の閉包、代数: V.1.2
+— 整数、整域の整数: V.1.2
+— 代数における環の積分: V.1.2
+交換図: I.1.2
+リング構造、モジュール構造と互換性（濾過）：III.2.1
+— (準同型性) フィルタリングあり: III.2.4
+評価延長の完全なシステム: VI.8.2
+完全一体型クローズドドメイン：V.1.4
+既約成分 (位相空間の) : II.4.1
+条件、ヘンゼル: III.4.5
+サブモジュールの導体 : V.1.5
+擬似ベズー領域上の多項式の内容: VII.1.Ex.23
+— ねじりモジュールの: VII.4.5
+基準、エイゼンシュタインの既約性: VII.3.Ex.20
 
 分解、標準的、場所の : VI.2.3
-— 完全、素イデアル: V.2.2
+— 完全、最高の理想: V.2.2
 — 体の主要な理想: V.2.2
 — 群、環、主要な理想: V.2.2
 — デデキント領域のイデアルの素数因子: VII.2.3

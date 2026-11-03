@@ -25,16 +25,16 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: 86734d6adff7fc69b7c8434141b9c3ef1beb1aa88a294039325e48501776504a
+content_sha256: 7df53bc6fcf3d603a81248006af9ddec99c64b3a7424ee7d809bfc2b0294e2ac
 translated_from: content/en/int/IX/04_s4_inverse_limits_of_measures.md
 translation_method: google
 source_content_sha256: 5dd841f191bacbaf28441eec0f88259078f641775a797c2d66f85a7d4bd2a6c4
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: a616de626a11b0f336afb13fb70a25b7c3c31ba4d54d62baac45dd61c065a413
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。メジャーの逆極限
@@ -115,7 +115,7 @@ J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = \inf_{i \in I} \inf_{\alpha \in A}
 $$
 5) 選ぶと $i \in I$ と集合 $c = \mu_i^\bullet(T_i)$ としましょう。この場合、$c$ は有限であり、$J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(T_i)$ なので、$T$ の各コンパクト集合 $K$ に対して $J(K) \leq c$ となります。
 
-上記のプロパティにより、適用 Th が許可されます。 § 3, No. 1 の 1 つ。 結論する、$T$ のすべてのコンパクト部分集合 $K$ に対して $\pi^\bullet(K) = J(K)$ となるような、$T$ には 1 つだけの有界メジャー $\pi$ が存在します。 すべての $i \in I$ について、$p_i$ の下の $\pi$ の像である $T_i$ の小節を $\nu_i$ で表します。 $i \in I$、$A$ を $T_i$ のコンパクト部分集合、および $\overline{p_i^{-1}(A)}$ のコンパクト部分集合の $\mathscr{L}$ 集合とします。 § 1, No. 2 の注意 3 までに、$\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathscr{L}} \pi^\bullet(K)$ になります。さらに、$K \in \mathscr{L}$、よって、$\nu_i^\bullet(A) = \sup_{K \in \mathscr{L}} J(K)$には$\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$、$J(K) = \pi^\bullet(K)$が入ります。
+上記のプロパティでは、適用 Th が許可されます。 1/§ 3, No. 1; 結論するには、$T$ のすべてのコンパクト部分集合 $K$ に対して $\pi^\bullet(K) = J(K)$ となるような、$T$ に 1 つだけの有界メジャー $\pi$ が存在するとします。 $i \in I$ごとに、$p_i$の下の$\pi$の像である$T_i$の小節を$\nu_i$で表します。 $i \in I$、$A$を$T_i$のコンパクトな部分集合、$\overline{p_i^{-1}(A)}$のコンパクトな部分集合の$\mathscr{L}$集合とする。 § 1, No. 2 の注意 3 までに、$\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathscr{L}} \pi^\bullet(K)$ になります。また、$K \in \mathscr{L}$、よって、$\nu_i^\bullet(A) = \sup_{K \in \mathscr{L}} J(K)$の場合は、$\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$、$J(K) = \pi^\bullet(K)$となります。
 
 $K \in \mathscr{L}$ には、$p_i(K) \subset A$、よって $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$、そして最後に $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$ があります。 $A$ は $T_i$ の任意のコンパクト集合なので、$\nu_i \leq \mu_i$ を結論するとします。 命題の最後の主張は明らかです。
 

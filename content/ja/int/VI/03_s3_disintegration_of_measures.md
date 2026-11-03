@@ -33,16 +33,16 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: 594c799eedd88759731d1a16bc02fc64d005e99f853e841664e88b2322d146bf
+content_sha256: e778ba275b4510e61cf38a2c63985e02ab9930f5587510a9b7c888090aa27313
 translated_from: content/en/int/VI/03_s3_disintegration_of_measures.md
 translation_method: google
 source_content_sha256: af4e8435c165da3e46c8e743b1fe384a343285c290d2c1854e12b375334ea66b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 7110b4c3013bc18decea37c69b776309b4cdbbedccd3f64a1997e3ebaafc8c6c
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。対策の崩壊
@@ -107,7 +107,7 @@ $$
 \int g(t) f(p(t)) \, d\mu(t) = \int f(b) \, d\nu(b) \int g(t) \, d\lambda_b(t).
 $$
 
-$f \geq 0$ と $g \geq 0$ の場合、(3) の最初のメンバーは $\geq 0$ です。これは、$\mathscr{K}(T)$ のすべての写像 $g \geq 0$ について、メジャー $(\int g(t) \, d\lambda_b(t)) \cdot \nu$ は $\geq 0$ であるため、$b$ を除く $\int g(t) \, d\lambda_b(t) \geq 0$ であることが証明されます。 所属から $\nu$ は無視できる集合 $N(g)$ (Ch. V, §5, No. 3、コル。提案 3 の 3)。 現在、写像 $\geq 0$ の $\mathscr{K}(T)$ (補題 1) の空間 $\mathscr{K}_+(T)$ に密な数列 $(g_n)$ が存在します。 The union N of the $N(g_n)$ is $\nu$-negligible and, for $b \notin N$, we have $\int g_n(t) \, d\lambda_b(t) \geq 0$ for all $n$, therefore $\int g(t) \, d\lambda_b(t) \geq 0$ for every function $g \in \mathscr{K}_+(T)$, in other words $\lambda_b \geq 0$.
+$f \geq 0$ と $g \geq 0$ の場合、(3) の最初のメンバーは $\geq 0$ です。これは、$\mathscr{K}(T)$ のすべての写像 $g \geq 0$ について、メジャー $(\int g(t) \, d\lambda_b(t)) \cdot \nu$ は $\geq 0$ であるため、$b$ を除く $\int g(t) \, d\lambda_b(t) \geq 0$ であることが証明されます。 所属から $\nu$ は無視できる集合 $N(g)$ (Ch. V, §5, No. 3、コル。提案 3 の 3)。 現在、写像 $\geq 0$ の $\mathscr{K}(T)$ (補題 1) の空間 $\mathscr{K}_+(T)$ に密な数列 $(g_n)$ が存在します。 $N(g_n)$ の和集合 N は $\nu$ 無視でき、$b \notin N$ については、すべての $n$ に対して $\int g_n(t) \, d\lambda_b(t) \geq 0$ があり、したがって、すべての関数 $g \in \mathscr{K}_+(T)$ に対して $\int g(t) \, d\lambda_b(t) \geq 0$、つまり $\lambda_b \geq 0$ になります。
 
 そうであれば、(3) の有効性を変えることなく、$b \in N$ ごとに 0 ずつ置き換える $\lambda_b$ を実行できます。したがって、この変更は、$b \in B$ ごとに $\lambda_b \geq 0$ となるように行われたと想定できます。
 
@@ -127,7 +127,7 @@ $$
 
 最初のメンバーは定義 $\int f(b)\psi(b)\, d\nu(b)$ です。 従って、すべての写像 $\psi \in \mathscr{K}(B)$ について、$\psi \cdot \nu$ のメジャーと稠密度 $b \mapsto \int \psi(p(t))\, d\lambda_b(t)$ のメジャーは同一であることがわかります。 その結果、（Ch. V, §5, No. 3、コル。提案 3 の 2) $b \notin N'(\psi)$ ごとに、写像 $\psi \circ p$ が $\lambda_b$ 積分可能であり、$\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$ であるような、$\nu$ 無視できる集合 $N'(\psi)$ が存在します。
 
-S を、補題 1 ($Y = B$ を含む) で示される特性を持つ $\mathscr{K}(B)$ の可算部分集合とし、$N'$ を $\psi \in S$ の $N'(\psi)$ の和集合である $\nu$ 無視可能な集合とします。 Every function $\psi \geq 0$ of $\mathscr{K}(B)$ is the uniform limit of a sequence $(\psi_n)$ of elements of S with $\psi_n \leq \psi_0$. その結果、$b \notin N'$ については、ルベーグの定理は、一方で $\psi \circ p$ が $\lambda_b$ 可積分であることを示し、他方の語では、$p$ が $\lambda_b$ 固有であること、そして他方で $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$ であることを示します。 他の項、写像 $b \mapsto \varepsilon_b$、および $b \mapsto p(\lambda_b)$ の B から $\mathscr{M}(B)$ (後者はほぼどこでも定義されています) は、$\nu$ (および位相 $\sigma(\mathscr{M}(B), \mathscr{K}(B))$) に対してスカラー的にほぼどこでも等しくなります。これらの写像は、$\nu$ (補題 1 および §1, No. 1、*注意* 2) についてはほぼどこでも等しいということになります。 最後に、$p(\lambda_b) = \varepsilon_b$、集合 $B - \{b\}$ が $\varepsilon_b$ で無視できる場合、集合 $T - \bar{p}^{-1}(B)$ は $\lambda_b$ で無視できる (Ch. V, §6, No. 2、コル。提案 2 の 2)、その他の語 $\lambda_b$ は $\overline{p}^{-1}(b)$ に集中しています。そして一方で、$\| \lambda_b \| = \int d\lambda_b = \int d((p(\lambda_b))) = \| \varepsilon_b \| = 1$ (Ch. V, §6, No. 2、木。 1)。
+S を、補題 1 ($Y = B$ を含む) で示される特性を持つ $\mathscr{K}(B)$ の可算部分集合とし、$N'$ を $\psi \in S$ の $N'(\psi)$ の和集合である $\nu$ 無視可能な集合とします。 $\mathscr{K}(B)$ のすべての関数 $\psi \geq 0$ は、$\psi_n \leq \psi_0$ を持つ S の要素のシーケンス $(\psi_n)$ の一様極限です。 その結果、$b \notin N'$ については、ルベーグの定理は、一方で $\psi \circ p$ が $\lambda_b$ 可積分であることを示し、他方の語では、$p$ が $\lambda_b$ 固有であること、そして他方で $\psi(b) = \int \psi(p(t))\, d\lambda_b(t)$ であることを示します。 他の項、写像 $b \mapsto \varepsilon_b$、および $b \mapsto p(\lambda_b)$ の B から $\mathscr{M}(B)$ (後者はほぼどこでも定義されています) は、$\nu$ (および位相 $\sigma(\mathscr{M}(B), \mathscr{K}(B))$) に対してスカラー的にほぼどこでも等しくなります。これらの写像は、$\nu$ (補題 1 および §1, No. 1、*注意* 2) についてはほぼどこでも等しいということになります。 最後に、$p(\lambda_b) = \varepsilon_b$、集合 $B - \{b\}$ が $\varepsilon_b$ で無視できる場合、集合 $T - \bar{p}^{-1}(B)$ は $\lambda_b$ で無視できる (Ch. V, §6, No. 2、コル。提案 2 の 2)、その他の語 $\lambda_b$ は $\overline{p}^{-1}(b)$ に集中しています。そして一方で、$\| \lambda_b \| = \int d\lambda_b = \int d((p(\lambda_b))) = \| \varepsilon_b \| = 1$ (Ch. V, §6, No. 2、木。 1)。
 
 5) *家族の修正* $b \mapsto \lambda_b$。 従って、T 上のメジャー $\geqslant 0$、満たす条件 c)、主張の $\nu$ 適切ファミリー $b \mapsto \lambda_b$ を定義し、ほぼすべての $b \in B$ について、$p$ は $\lambda_b$ 適切であり、$\lambda_b$ は$\overline{p}^{-1}(b)$ にはノルム 1 があります。 $N''$ を、最後の 3 つのプロパティの 1 つが検証されていない点 $b \in B$ の $\nu$ 無視できる集合とします。次に、次の方法で $\lambda_b$ を変更できます。 $b \in B - p(T)$ の場合は、$\lambda_b = 0$ を取ります。 $b \in p(T) \cap N''$ の場合、$\lambda_b = \varepsilon_{\xi(b)}$ を選択します。ここで、$\xi(b)$ は $\overline{p}^{-1}(b)$ のいずれかの点です。 $B - p(T)$ は $\nu$ で無視できるため (Ch. V, §6, No. 2、コル。提案 2) の 3) では、無視できる集合の点で $\lambda_b$ を修正しただけであるため、ファミリー $b \mapsto \lambda_b$ は依然として $\nu$ で十分であり、性質 c) を持ちます。さらに、a) と b) を満たし、証明が完了します。
 
@@ -159,7 +159,7 @@ $\nu$ が $p$ の下で $\mu$ の疑似イメージである場合、$p$ の下�
 
 #### 定理 2 {#int-vi-s3-thm-2 .statement tag=09C7}
 
-— *Let T and B be two locally compact spaces having countable bases, $\mu$ a positive measure on T, $p$ a $\mu$-measurable mapping of T into B, and $\nu$ a pseudo-image measure of $\mu$ under $p$. この場合、T には、次の特性を持つポジティブな尺度の $\nu$-適切な族 $b \mapsto \lambda_b$ ($b \in B$) が存在します。
+— *T と B を、可算基底を持つ 2 つの局所的にコンパクトな空間とし、$\mu$ T の正の測度、$p$ T から B への $\mu$ 可測写像、および $\nu$ $p$ の下での $\mu$ の疑似イメージ測度とする。 この場合、T には、次の特性を持つポジティブな尺度の $\nu$-適切な族 $b \mapsto \lambda_b$ ($b \in B$) が存在します。
 a) $b \in p(T)$ の場合は $\lambda_b \neq 0$;
 b) $\lambda_b$ は $b \in B$ ごとに集合 $\overline{p^{-1}}(b)$ に集中します。特に、$b \notin p(T)$ の $\lambda_b = 0$。
 c) $\mu = \int \lambda_b \, d\nu(b)$。
@@ -180,9 +180,9 @@ $$
 
 しかし、写像 $b \mapsto \int (h(t)/f(t)) \, d\lambda''_b(t)$ は $\nu''$ 可積分であるため、 写像 $b \mapsto g(b) \int (h(t)/f(t)) \, d\lambda''_b(t)$ は $\nu$ 可積分です (Ch. V, §5, No. 3、Th. 1)。
 
-$\lambda_b$の定義により、この写像は$b \mapsto \int h(t) d\lambda_b(t)$、よって (*loc. cit.*) $\int h(t) d\mu(t) = \int d\nu(b) \int h(t) d\lambda_b(t)$となり、$\mu = \int \lambda_b d\nu(b)$が証明されます。
+$\lambda_b$ の定義により、この写像は $b \mapsto \int h(t) d\lambda_b(t)$、よって (*loc. cit.*) $\int h(t) d\mu(t) = \int d\nu(b) \int h(t) d\lambda_b(t)$ となり、$\mu = \int \lambda_b d\nu(b)$ であることが証明されます。
 
-主張の 2 番目の部分を確立するには、すべての $b \in B$ に対して $r(b) > 0$ を仮定できることに注意します (Ch. V, §5, No. 6、提案 10); 集合 $\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$;上記のように、写像 $h \in \mathscr{K}(T)$、関係ごとに次のことがわかります。
+主張の 2 番目の部分を確立するには、すべての $b \in B$ に対して $r(b) > 0$ を仮定できることに注意します (Ch. V, §5, No. 6、提案 10)。 集合 $\lambda'''_b = f \cdot \left( (r(b)/g(b)) \lambda'_b \right)$;上記のように、写像 $h \in \mathscr{K}(T)$、関係ごとに、
 
 $$
 \int h(t) d\mu(t) = \int d\nu'(b) \int h(t) d\lambda'_b(t)
@@ -194,35 +194,35 @@ $$
 \int h(t) d\mu(t) = \int d\nu''(b) \int (h(t)/f(t)) d\lambda'''_b(t) .
 $$
 
-したがって、Th. $\mu''$ と $\nu''$ に適用される No. 1 の 1 は、ほぼすべての $b \in B$、$\lambda'''_b = \lambda''_b$、よって $\lambda_b = r(b)\lambda'_b$ に適用されることを意味します。
+したがって、Th. No. 1 の 1 を $\mu''$ と $\nu''$ に適用すると、ほぼすべての $b \in B$、$\lambda'''_b = \lambda''_b$、よって $\lambda_b = r(b)\lambda'_b$ に適用されることを意味します。
 
 #### 定義 2 {#int-vi-s3-def-2 .statement tag=09C8}
 
-*T と B を 2 つのポーランド語の局所コンパクト空間とします。 T 上の正の測度 $\mu$、B への T の $\mu$ 可測写像 p、および p の下の $\mu$ の疑似イメージ測度 $\nu$ が与えられると、T 上の正の測度のすべての $\nu$ 適切族 $b \mapsto \lambda_b$ ($b \in B$) は、次の特性 b) および c) を持ちます。 Th. 2 は、$\nu$ に対する $\mu$ の崩壊と呼ばれます。*
+*T と B を 2 つのポーランド語の局所コンパクト空間とします。 T に肯定的な測度 $\mu$、T から B への $\mu$ 測定可能な写像 p、p の下に $\mu$ の疑似イメージ測度 $\nu$ が与えられると、T に関する肯定的な測度のすべての $\nu$-適切な家族 $b \mapsto \lambda_b$ ($b \in B$) は、 Th の特性 b) および c)。 2 は、$\nu$ に対する $\mu$ の崩壊と呼ばれます。*
 
-$p$が$\mu$-properであり、$\nu = p(\mu)$であるとき、$p$に対する崩壊の概念は、$\nu$に対する崩壊の概念と一致するになります。 Thの仮説の下で。 2、同じ擬似イメージ尺度 $\nu$ に対する 2 つの $\mu$ の崩壊は、$\nu$ のほぼどこでも等しくなります。
+$p$が$\mu$-properであり、$\nu = p(\mu)$である場合、$p$に対する崩壊の概念は、したがって一致するは$\nu$に対する崩壊の概念となります。 Thの仮説の下で。 2、同じ擬似イメージ尺度 $\nu$ に対する $\mu$ の 2 つの崩壊は、$\nu$ のほぼどこでも等しくなります。
 
 #### 注意 {#int-vi-s3-n3-rem-1 .statement tag=09C9}
 
-— て。 1章 V, §3, No. 4 shows (taking into account the fact that T and B have countable bases) that for every function $f$ defined on T, with values in $\overline{\mathbf{R}}$ or in a Banach space F and $\mu$-integrable, the set of $b \in B$ such that $f$ is not $\lambda_b$-integrable is $\nu$-negligible, the function $b \mapsto \int f(t) d\lambda_b(t)$, defined almost everywhere, is $\nu$-integrable, and
+— て。 1章V, §3, No. 4 は、(T と B が可算の基底を持つという事実を考慮して)、T で定義されたすべての写像 $f$ について、$\overline{\mathbf{R}}$ の値または Banach 空間 F および $\mu$ 可積分の集合について、 $f$ が $\lambda_b$ 積分可能ではない $b \in B$ は、 $\nu$ が無視可能であり、 写像 $b \mapsto \int f(t) d\lambda_b(t)$ は、ほぼどこでも定義されており、 $\nu$ 積分可能であり、
 
 $$
 \int f(t) d\mu(t) = \int d\nu(b) \int f(t) d\lambda_b(t) .
 $$
 
-同様の結果が、スカラー的に $\mu$ 積分可能な関数の §1, No. 1 の適用提案 3 に当てはまります。
+同様の結果が、§1, No. 1 の適用提案 3 に関して、スカラー的に $\mu$ 積分可能な関数にも当てはまります。
 
 ### 4. 測定可能同値関係
 
-X のトポロジカル空間 X と同値関係 R が与えられると、商空間 X/R がハウスドルフである場合、R は *ハウスドルフ* であると言うでしょう。
+X のトポロジカル空間 X と同値関係 R が与えられると、商空間 X/R がハウスドルフであれば、R は *ハウスドルフ* であると言えます。
 
-(GT、I, §8, No. 3、提案 8) を思い出してください。R が開いた同値関係であるとき、X × X における R のグラフは閉じていると言うのと同じことになります。
+(GT、I, §8, No. 3、提案 8) を思い出してください。R が開いた同値関係であるとき、X × X の R のグラフが閉じていると言うのと同じことになります。
 
-p をハウスドルフ トポロジカル空間 B の X の写像とし、R を X の同値関係 $p(x) = p(y)$ とします。 K が、p から K の制限が連続であるような X の圧縮部分集合である場合、商空間 $K / R_K$ は空間と同相であるため、K 上の R によって誘起される関係 $R_K$ はハウスドルフになります。 $p(K)$、コンパクトです (GT、I, §9, No. 4、Th. 2 およびその Cor. 2)。 T が局所的にコンパクトな空間、$\mu$ が T 上の正の測度、p がハウスドルフトポロジカル空間 B への T の $\mu$ 可測写像である場合、したがって、$\mu$ 密な集合が存在することがわかります。 関係 $R_K$ がハウスドルフであるコンパクトな部分集合 K の IV, §5, No. 8)。したがって、次のようなことが導かれます定義:
+p をハウスドルフトポロジカル空間 B の X の写像とし、R を X の同値関係 $p(x) = p(y)$ とします。 K が K に対する p の制限が連続であるような X の圧縮部分集合である場合、商空間 $K / R_K$ はと同相であるため、K 上の R によって誘起される関係 $R_K$ はハウスドルフです。 空間 $p(K)$、コンパクトです (GT、I, §9, No. 4、Th. 2 およびその Cor. 2)。 T が局所的にコンパクトな空間、$\mu$ が T の正の測度、p がハウスドルフトポロジカル空間 B への T の $\mu$ 可測写像である場合、$\mu$ 密な集合が存在することがわかります。 (Ch. IV, §5, No. 8) 関係 $R_K$ がハウスドルフであるコンパクト部分集合 K of T。したがって、次の定義を行うことになります。
 
 #### 定義 3 {#int-vi-s3-def-3 .statement tag=09CA}
 
-*T を局所的にコンパクトな空間、$\mu$ を T の正の測度とする。 T の同値関係 R は、関係 $R_K$ がハウスドルフである T のコンパクト部分集合 K の $\mu$ 密集合が存在する場合、$\mu$ 可測であると言われます。
+*T を局所的にコンパクトな空間、$\mu$ を T 上の正の測度とする。同値関係 T の R は、関係となるコンパクトな部分集合 K の $\mu$ 密集合が存在する場合、$\mu$ 可測であると言われる。 $R_K$はハウスドルフです*。
 
 R がハウスドルフの場合、R は $\mu$ 可測です。なぜなら、$\varphi$ がハウスドルフ位相幾何学空間 T/R 上の T の標準写像である場合、$\varphi$ は連続であり、R は $\varphi(x) = \varphi(y)$ に等しいからです。同様に、R が、T のすべてのコンパクト部分集合の R の飽和が閉じているようなものである場合 (特に、R が閉じた同値関係である場合)、T のすべてのコンパクト部分集合 K について、関係 $R_K$ が閉じているため、R は $\mu$ 可測です。したがって、ハウスドルフ (GT, I, §10, No. 4、提案 8)。
 
@@ -240,7 +240,7 @@ T は無限に可算であるため、T が $K_n$ と $\mu$ で無視できる�
 
 $B'$ をコンパクトな積空間 $\prod_{n=1}^{\infty} B'_n$ とし、$p'$ を T を B' に変換した写像 $x \mapsto (p_n(x))$ とします。 $p'$ が $\mu$ 可測であることを示しましょう。写像 $p_n$ のそれぞれが可測であることを証明するだけで十分です (Ch. IV, §5, No. 3、Th. 1)。このためには、$p_n$ の制限をそれぞれに満たすだけで十分です。 $K_m$ 測定可能であること。さて、$m \leq n$ であればこれは明らかです。逆に、$m > n$ の場合、$K_{nm}$ を $R_{K_m}$ の$K_n$ の彩度とします。これは、$K_m$ (GT、I, §9, No. 4、Th. 2) の圧縮部分集合です。 $p_n$ は $K_m - K_{nm}$ で定数であるため、$p_n$ から $K_{nm}$ の制限が連続であることを証明するだけで十分です。これは、$K_{nm}/R_{K_{nm}}$ と $K_n/R_{K_n}$ の間の標準同型を考慮すると明らかです (GT、I, §9, No. 4、Cor. 4 ２）。
 
-Aを関係 Rの$\bigcup_n K_n$の彩度とし、$N' = T - A \subset N$とします。 関係 $p'(x) = p'(y)$ が関係 «$R\{x, y\}$ または $(x, y) \in N' \times N'$ » と同等であることがわかります。 なぜなら、$R\{x, y\}$ の場合、すべての $n$ に対して $p_n(x) = p_n(y)$ であるため、$p'(x) = p'(y)$ になります。そして、$x \in N'$、$y \in N'$ の場合、すべての $n$ に対して $p_n(x) = p_n(y) = a_n$、従って $p'(x) = p'(y)$ になります。 If on the other hand $x$ and $y$ are in A and are not equivalent mod R, then there exist an integer $n$, an element $x' \in K_n$ (resp. $y' \in K_n$) equivalent mod R to $x$ (resp. $y$) such that $x'$ is not equivalent to $y'$ mod $R_{K_n}$; therefore $p_n(x) \neq p_n(y)$, consequently $p'(x) \neq p'(y)$. Finally, if $x \in N'$ and $y \in A$, then $p_n(y) \in B_n$ for $n$ sufficiently large and $p_n(x) = a_n$ for all $n$, therefore $p'(x) \neq p'(y)$, which establishes our assertion.
+Aを関係 Rの$\bigcup_n K_n$の彩度とし、$N' = T - A \subset N$とします。 関係 $p'(x) = p'(y)$ が関係 «$R\{x, y\}$ または $(x, y) \in N' \times N'$ » と同等であることがわかります。 なぜなら、$R\{x, y\}$ の場合、すべての $n$ に対して $p_n(x) = p_n(y)$ であるため、$p'(x) = p'(y)$ になります。そして、$x \in N'$、$y \in N'$ の場合、すべての $n$ に対して $p_n(x) = p_n(y) = a_n$、従って $p'(x) = p'(y)$ になります。 一方、$x$ と $y$ が A にあり、等価 mod R ではない場合、整数 $n$、要素 $x' \in K_n$ (それぞれ $y' \in K_n$) が存在し、$x$ (それぞれ $y$) と同等の mod R となり、$x'$ は以下と等価ではありません。 $y'$ モッド $R_{K_n}$;従って $p_n(x) \neq p_n(y)$、従って $p'(x) \neq p'(y)$ となります。 最後に、$x \in N'$ と $y \in A$ の場合、$n$ が十分に大きい場合は $p_n(y) \in B_n$、すべての $n$ については $p_n(x) = a_n$、従って $p'(x) \neq p'(y)$ となり、私たちの主張が確立されます。
 
 次に、商集合 $B_0 = N'/R_{N'}$ を考えてみましょう。 $q_0$ を $N'$ の標準写像に、$B_0$、$s_0$ 切断の $q_0$ とします。 $x \in N'$ と拡大する $p_0$ に対する集合 $p_0(x) = s_0(q_0(x))$ は、$p_0$ を A 上の定数として T の元に等しいものとして T に代入します。すると、$p = (p', p_0)$ は T の $\mu$ 可測の写像を局所コンパクトに変換したものになります。 空間 $B = B' \times T$; $x \in N'$、$y \in N'$、関係 $p_0(x) = p_0(y)$ が $R\{x, y\}$ を意味する場合、それは明らかです。従って、$p$ は要件を満たしています。さらに、T が可算基底を認める場合、商空間 $B_n$ (GT, IX, §2, No. 10, 提案 17) も認められるため、B' は可算基底を認め、従って B も同様です。
 
@@ -270,7 +270,7 @@ R が T の $\mu$ 測定可能な同値関係である場合、T のコンパク
 
 私たちは明らかに、尺度 $\mu$ が有界であり、$\mu(T) \leq 1$ が有界であると仮定することができます (Ch. V, §5, No. 6、提案 11)。 *Borel* 部分集合 (GT, IX, §6, No. 3) の定義する数列 $(S_n)$ を、R に関する各同値類が $S_n$ の和集合 $S'$ と最大 1 回で交差するようにします。 点、$n$ごとに、添字$p \leq n$の$S_p$の和集合の彩度$T_n$が$\mu$測定可能であり、$\mu(T - T_n) \leq 1/2^n$です。したがって、$S'$ の彩度 $T'$ は $\mu$ で測定可能となり、$N = T - T'$ は測定値零を持ちます。 $S''$ が関係 $R_N$ の N のいずれかの切断である場合、$S'$ はボレル集合であるため、$\mu$ 測定可能であるため、$S = S' \cup S''$ は要件を満たします (Ch. IV, §5, No. 4、Cor. 3 Th. 2)、$S''$ にはメジャー 零があります。
 
-提案 2 によれば、$R\{x, y\}$ は関係 $p(x) = p(y)$ と等価であり、ここで $p$ は、局所的にコンパクトな空間 F への T の $\mu$ 可測写像です。 $k \leq n$ に対して $S_k$ が定義されているとします。 $T - T_n$ は $\mu$ 可測であり、$\leq 1/2^n$ の測定であるため、$\mu(T - (T_n \cup K)) \leq 1/2^{n+1}$ となり、$p$ から K までの制限が連続となるような、$T - T_n$ のコンパクトな部分集合 K が存在します。 Since the induced relation $R_K$ is closed and K is metrizable, we know that there exists a Borel subset $S_{n+1}$ of K such that, in K, each point is equivalent (mod R) to one and only one point of $S_{n+1}$ (GT, IX, §6, No. 8, Th.4). したがって、$p(S_{n+1}) = p(K)$、これは F のコンパクトな集合です。 R の $S_{n+1}$ の飽和は逆像 $\overline{p^{-1}(p(K))}$ であるため、μ 測定可能です (Ch. IV, §5, No. 5、提案 7);この集合含む K、したがって T_n と $\overline{p}^{-1}(p(K))$ の和集合 T_{n+1} はμ測定可能であり、R について飽和しており、$\mu(T - T_{n+1}) \leq 1/2^{n+1}$ となり、証明が完成することは明らかです。
+提案 2 によれば、$R\{x, y\}$ は関係 $p(x) = p(y)$ と等価であり、ここで $p$ は、局所的にコンパクトな空間 F への T の $\mu$ 可測写像です。 $k \leq n$ に対して $S_k$ が定義されているとします。 $T - T_n$ は $\mu$ 可測であり、$\leq 1/2^n$ の測定であるため、$\mu(T - (T_n \cup K)) \leq 1/2^{n+1}$ となり、$p$ から K までの制限が連続となるような、$T - T_n$ のコンパクトな部分集合 K が存在します。 誘導関係 $R_K$ が閉じており、K が計量可能であるため、K の各点が $S_{n+1}$ (GT, IX, §6, No. 8, Th.4) の 1 つだけの点と等価 (mod R) となるような、K の Borel 部分集合 $S_{n+1}$ が存在することがわかります。 したがって、$p(S_{n+1}) = p(K)$、これは F のコンパクトな集合です。 R の $S_{n+1}$ の飽和は逆像 $\overline{p^{-1}(p(K))}$ であるため、μ 測定可能です (Ch. IV, §5, No. 5、提案 7);この集合含む K、したがって T_n と $\overline{p}^{-1}(p(K))$ の和集合 T_{n+1} はμ測定可能であり、R について飽和しており、$\mu(T - T_{n+1}) \leq 1/2^{n+1}$ となり、証明が完成することは明らかです。
 
 ### 5. 測定可能なものによる測定の崩壊同値関係
 

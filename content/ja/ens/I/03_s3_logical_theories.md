@@ -34,16 +34,16 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: 07b7a31d654145c8e32e22eb1723dbe5b0c636846008f64c47f7a9beaad1a7c4
+content_sha256: d4eabdac193ce5124cab829be17722b21a4dd7ef1e5bf765555bd7d708d99e50
 translated_from: content/en/ens/I/03_s3_logical_theories.md
 translation_method: google
 source_content_sha256: 37ec32a3c0cdf2c61a57848be909293d325cc40d690c0e328f7cb619bf02c9e1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 111dea2aa6f7ad31ef4ec52312e0fecc9958a2bc72d7950183452ab049ce7cc5
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 論理理論
@@ -66,7 +66,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 これらのルールは実際にはスキームです。たとえば S2 についてこれを確認してみましょう。 $R$ を適用 S2 によって取得された関係とします。次に、$\mathscr{T}$ には関係 $A$ と $B$ があり、$R$ は関係 $A \Rightarrow (A$ または B) になります。 $T$ を $\mathscr{T}$ の項とし、$x$ を文字とし、$A'$ と $B'$ を関係 $(T|x)A$ と $(T|x)B$ とします。この場合、$(T|x)R$ は $A' \Rightarrow (A'$ または $B')$ と同じであるため、適用 S2 によって取得できます。
 
-Intuitively, the rules S1 through S4 merely express the meaning which is attached to the words "or" and "implies" in the usual language of mathematics [^2].
+直観的には、ルール S1 から S4 は、数学の通常の言語 [^2] で「または」および「暗示する」という単語に付加される意味を単に表現しているだけです。
 
 論理的な理論 $\mathscr{T}$ が矛盾している場合、* $\mathscr{T}$ のすべての関係は $\mathscr{T}$ の定理になります。* $A$ は $\mathscr{T}$ の関係であり、$A$ と「$A$ ではない」とします。は $\mathscr{T}$ の定理であり、$B$ は $\mathscr{T}$ の任意の関係とします。 S2 により、($A$ ではない) $\Rightarrow$ (($A$ または $B$ ではない) は $\mathscr{T}$ の定理です。したがって、C1 (§ 2, no. 2) により、「($A$) または $B$」、つまり $A \Rightarrow B$ は、$\mathscr{T}$ の定理になります。 C1 を 2 回目に適用すると、$B$ は $\mathscr{T}$ の定理であることがわかります。
 
@@ -245,7 +245,7 @@ $$A_1, \quad A_2, \quad \ldots, \quad A_n$$
 
 したがって、すべての論理理論 $\mathscr{T}$ は、明示的な公理を 1 つだけ持つ論理理論 $\mathscr{T}'$ と同等になります。 This is clear if $\mathscr{T}$ has no explicit axiom. $\mathscr{T}$ に明示的な公理 $A_1$、$A_2$、...、$A_h$ がある場合、$\mathscr{T}'$ を $\mathscr{T}$ と同じ符号とスキームを持つ理論とし、明示的な公理 "$A_1$ と $A_2$ そして ... そして$A_h$」。 $\mathscr{T}$ (それぞれ $\mathscr{T}'$) のすべての公理は、$\mathscr{T}'$ (それぞれ $\mathscr{T}$) の定理であることがすぐにわかります。
 
-$\mathscr{T}_0$ を、$\mathscr{T}$ と同じ符号を持つ明示的な公理を持たない理論とし、唯一のスキームとして S1、S2、S3、S4 とします。 次に、$\mathscr{T}$ 簡約するの研究は、原則として $\mathscr{T}_0$ の研究に続きます。 関係 $A$ が $\mathscr{T}$ で定理となるためには、公理 $A_1$, $A_2$, ..., $A_h$ が存在することが必要かつ十分です。 $\mathscr{T}$ の場合、$(A_1$ と $A_2$ そして ... そして $A_h) \Rightarrow A$ は、$\mathscr{T}_0$ では定理になります。 明らかにこれ条件で十分です。 Suppose conversely that $A$ is a theorem in $\mathscr{T}$, and let $A_1$, $A_2$, ..., $A_h$ be the axioms of $\mathscr{T}$ appearing in a proof in $\mathscr{T}$ which contains $A$. Let $\mathscr{T}'$ (resp. $\mathscr{T}''$) be 理論 constructed from $\mathscr{T}_0$ by adjoining the axioms $A_1$, $A_2$, ..., $A_h$ (resp. the axiom "$A_1$ and $A_2$ and ... and $A_h$」）。 The proof of $A$ in $\mathscr{T}$ is a proof of $A$ in $\mathscr{T}'$, therefore $A$ is a theorem in $\mathscr{T}'$ and consequently in $\mathscr{T}''$, because (as we noted above) $\mathscr{T}'$ and $\mathscr{T}''$ are equivalent. 減算基準では、$(A_1$と$A_2$と...と$A_h) \Rightarrow A$は、$\mathscr{T}_0$の定理になります。
+$\mathscr{T}_0$ を、$\mathscr{T}$ と同じ符号を持つ明示的な公理を持たない理論とし、唯一のスキームとして S1、S2、S3、S4 とします。 次に、$\mathscr{T}$ 簡約するの研究は、原則として $\mathscr{T}_0$ の研究に続きます。 関係 $A$ が $\mathscr{T}$ で定理となるためには、公理 $A_1$, $A_2$, ..., $A_h$ が存在することが必要かつ十分です。 $\mathscr{T}$ の場合、$(A_1$ と $A_2$ そして ... そして $A_h) \Rightarrow A$ は、$\mathscr{T}_0$ では定理になります。 明らかにこれ条件で十分です。 逆に、$A$ が$\mathscr{T}$ の定理であると仮定し、$A_1$、$A_2$、...、$A_h$ を、$A$ を含む$\mathscr{T}$ の証明に現れる$\mathscr{T}$ の公理とします。 Let $\mathscr{T}'$ (resp. $\mathscr{T}''$) be 理論 constructed from $\mathscr{T}_0$ by adjoining the axioms $A_1$, $A_2$, ..., $A_h$ (resp. the axiom "$A_1$ and $A_2$ and ... and $A_h$」）。 $\mathscr{T}$ の $A$ の証明は、$\mathscr{T}'$ の $A$ の証明です。従って、(上で述べたように) $\mathscr{T}'$ と $\mathscr{T}''$ は同等であるため、$A$ は $\mathscr{T}'$ の定理となり、その結果、$\mathscr{T}''$ の定理になります。 減算基準では、$(A_1$と$A_2$と...と$A_h) \Rightarrow A$は、$\mathscr{T}_0$の定理になります。
 
 If $\mathscr{T}$ is contradictory, then it follows from what has been said that there exists a conjunction $A$ of axioms of $\mathscr{T}$ and 関係 $R$ in $\mathscr{T}$ such that $A \Rightarrow (R$ and (not $R$)) is 定理 in $\mathscr{T}_0$.従って
 

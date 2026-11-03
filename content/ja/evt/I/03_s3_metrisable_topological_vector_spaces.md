@@ -25,25 +25,25 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: ad14f247f26d2152acfec2fa40a51d77a2dc47965294af1141ad6b822b803166
+content_sha256: 5ca9a7d2782b8d72d9819dba007e5b4a2a5bbf626c7dbff6ef28c5dc39d9473f
 translated_from: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
 translation_method: google
 source_content_sha256: 78359984fd72f570938f28fdd80715c249ddc585d312089e4556c2677edeb57f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e8476d3e1ce4c33f52759a0c0f54c8e419592cec0f576be4af7066a3b449e9bd
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 3。メトライザブル トポロジカルベクトル空間
 
-### 1.  測定可能なトポロジにおける 0 の近傍ベクトル空間
+### 1. メトライサブルトポロジにおける 0 の近傍ベクトル空間
 
 位相幾何学的なベクトル空間 E は、その位相が可測である場合、*可測である*と言います。したがって、その加法群およびその位相の構造と比較して、E は測定可能な群 (GT, IX, § 3.1) です。
 
-We know that, for a topological group to be metrisable, it is necessary and sufficient that there exists an enumerable fundamental system of neighbourhoods of the neutral element $e$, whose intersection is the single element $e$ (GT, IX, § 3.1, prop. 1).
+位相群が計量可能であるためには、単一要素 $e$ (GT, IX, § 3.1, prop. 1) が交差する中立要素 $e$ の近傍の数え切れない基本系が存在することが必要かつ十分であることがわかっています。
 
 また、計量可能なトポロジカルベクトル空間 E の一様構造は、*不変距離* $d(x, y) = |x - y|$ によって定義できることもわかっています。ここで、$x \mapsto |x|$ は、条件を満たす $\mathbf{R}_+$ における E の連続写像です: 1) $|-x| = |x|$; 2) $|x + y| \leq |x| + |y|$; 3) 関係 $|x| = 0$ は $x = 0$ と同等です (GT、IX, § 3.1、提案 3)。
 
@@ -77,7 +77,7 @@ E と F を非離散値除算環 K にわたる 2 つの計量可能ベクトル
 
 E と F を非離散値の除算環 K にわたる 2 つの位相的ベクトル空間とし、u を E の像が微々たるものではないような F における E の連続線形写像とする。次に、E の 0 の近傍 V ごとに、F の 0 の集合 $\overline{u(V)}$ は近傍になります。
 
-W + W ⊂ V (I, § 1.5、提案 4) となるように、W を E の 0 のバランスの取れた近傍とします。 |α| となるような α を K の元とします。 > 1;この場合、E は集合 $\alpha^n W$ の和集合であり、n は $\mathbf{N}$ で変化します。実際、すべての x ∈ E に対して、x ∈ βW (I, p. 7, prop. 4) となる β ∈ K が存在し、|β| となる整数 n ≥ 0 が存在します。 < |α|^n の場合、W は釣り合っているので x ∈ $\alpha^n W$ となります。 Hence, u(E) is the union of the sequence of sets $u(\alpha^n W) = \alpha^n u(W)$, and as u(E) is not meagre in F, one at least of the sets $\alpha^n \overline{u(W)}$ possesses an interior point (GT, IX, § 5.3, def. 2) and therefore $\overline{u(W)}$ has an interior point.
+W + W ⊂ V (I, § 1.5、提案 4) となるように、W を E の 0 のバランスの取れた近傍とします。 |α| となるような α を K の元とします。 > 1;この場合、E は集合 $\alpha^n W$ の和集合であり、n は $\mathbf{N}$ で変化します。実際、すべての x ∈ E に対して、x ∈ βW (I, p. 7, prop. 4) となる β ∈ K が存在し、|β| となる整数 n ≥ 0 が存在します。 < |α|^n の場合、W は釣り合っているので x ∈ $\alpha^n W$ となります。したがって、u(E) は集合 $u(\alpha^n W) = \alpha^n u(W)$ の数列の和集合であり、u(E) は F において貧弱ではないため、少なくとも集合 $\alpha^n \overline{u(W)}$ の 1 つは内部点 (GT、IX, § 5.3、定義 2) を所有し、したがって$\overline{u(W)}$ には内部点があります。
 
 $y_0$ を $\overline{u(W)}$ の内部点とします。 $-u(W) = u(W)$ なので、$-\overline{u(W)} = \overline{u(W)}$ より、$0 = y_0 + (-y_0)$ は $\overline{u(W)} + \overline{u(W)}$ の内部点であることがわかります。 ベクトル加法は$F$ の$F \times F$ の連続写像であるため、集合 $\overline{u(W)} + \overline{u(W)}$ は集合の閉包に含まれます。
 
@@ -149,7 +149,7 @@ $x_{n+p}$ からの $x_n$ の距離は $n$ が大きい場合に任意に小さ�
 
 ハウスドルフ空間への連続写像のグラフが閉じているため、条件が必要です (GT、I, § 8.1、cor. 2)。これが十分であることを確認するには、完全計量可能空間 $E \times F$ の閉じたベクトル部分空間である $u$ のグラフ G 自体が計量可能で完全であることを意味していることに注意してください。 E 上の G の射影 $z \mapsto \mathrm{pr}_1(z)$ は全単射の連続線形写像であるため、同型 (cor. 1)。その逆数写像は $x \mapsto (x, u(x))$ であるため、$u$ は E で連続であることになります。
 
-We can express this corollary in the following form : $u$ is continuous if the following situation holds : if the sequence $(x_n)$ of points of E both converges to 0 and *is such that the sequence* $(u(x_n))$ *converges to* $y$, then it is necessarily the case that $y = 0$.
+この結果は次の形式で表現できます。次の状況が成立する場合、$u$ は連続です。E の点の列 $(x_n)$ が両方とも 0 に収束し、*列* $(u(x_n))$ *が $y$ に収束するような場合、必然的に $y = 0$ になります。
 
 #### 例 {#evt-i-s3-n3-exa-1 .statement tag=07AE}
 

@@ -42,16 +42,16 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 03189d2a48c88c6d1468be5be1c20fc7296bd8980bbda2f0131847bc85b5d052
+content_sha256: c4a71fa1a3227cd1e46bf78d5192a02d3221be588c2988bde7a5934f23f48c79
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
 translation_method: google
 source_content_sha256: 3c20d3c3070caf43cf4bd713b7f6047a4fcb2604b1f551ae1ea6b1868b0306eb
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 4db91e778aaf3730cf7657962eb897ba2114cf5e6fedfdedc58e1b03393778f0
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。エタール代数
@@ -82,7 +82,7 @@ $$
 
 — *$\Gamma$ をモノイド、$\Gamma$ の準同型の L 体と X 集合を L の乗法モノイドとします。次に、X は、ベクトルのL の空き部分集合と、$\Gamma$ の写像の $L^\Gamma$ が L に追加されます。
 
-A を、L の係数と、L (III, p. 446) 上の A の $(e_\gamma)_{\gamma \in \Gamma}$ 標準基底を含むモノイド $\Gamma$ の代数とします。 For every L-linear mapping $u$ of A into L let us write $\tilde{u}(\gamma) = u(e_\gamma)$ (for $\gamma \in \Gamma$); then the mapping $u \mapsto 3$ is an isomorphism of vector L-spaces of $\mathrm{Hom}_L(A, L)$ onto $L^\Gamma$ which maps onto X the set of L-algebra homomorphisms of A into L. ここで、Th を適用するだけで十分です。 1 に $K = L$ が付きます。
+A を、L の係数と、L (III, p. 446) 上の A の $(e_\gamma)_{\gamma \in \Gamma}$ 標準基底を含むモノイド $\Gamma$ の代数とします。 A の L への L 線形写像 $u$ ごとに、$\tilde{u}(\gamma) = u(e_\gamma)$ ($\gamma \in \Gamma$ の場合) を書きましょう。その場合、写像 $u \mapsto 3$ は、$\mathrm{Hom}_L(A, L)$ のベクトル L 空間の $L^\Gamma$ への同型写像であり、これは A の L 代数準同型の集合を L に写像する X に写像されます。 ここで、Th を適用するだけで十分です。 1 に $K = L$ が付きます。
 
 #### 系 2 (デデキントの定理) {#alg-v-s6-thm-1-cor-2 .statement tag=06JD}
 
@@ -96,7 +96,7 @@ A を、L の係数と、L (III, p. 446) 上の A の $(e_\gamma)_{\gamma \in \G
 
 — K を無限体、K の L 拡大と K 上の A 代数とします。$u_1, \ldots, u_n$ を A から L への別個の K-代数準同型とし、f を $L[X_1, \ldots, X_j]$ の多項式とします。すべての $x \in A$ に対して $f(u_1(x), \ldots, u_n(x)) = 0$ がある場合、$f = 0$ になります。
 
-Let B be the set of elements of $L^n$ of the form $(u_1(x), \ldots, u_n(x))$ with $x \in A$. Thさんより1、すべての $x \in A$ に対して $\sum_{i=1}^n \alpha_i u_i(x) = 0$ となるような、L のすべての零ではなく、元の数列 $(\alpha_1, \ldots, \alpha_n)$ はありません。したがって (II, p. 301, Th. 7) B 生成するベクトル空間 $L^n$ L より。 したがって、行列 $(u_i(a_j))_{1 \leq i,j \leq n}$ が可逆であるような $A$ の元 $a_1, \ldots, a_n$ が存在します。
+B を $(u_1(x), \ldots, u_n(x))$ と $x \in A$ の形式の $L^n$ の要素の集合とする。 Thさんより1、すべての $x \in A$ に対して $\sum_{i=1}^n \alpha_i u_i(x) = 0$ となるような、L のすべての零ではなく、元の数列 $(\alpha_1, \ldots, \alpha_n)$ はありません。したがって (II, p. 301, Th. 7) B 生成するベクトル空間 $L^n$ L より。 したがって、行列 $(u_i(a_j))_{1 \leq i,j \leq n}$ が可逆であるような $A$ の元 $a_1, \ldots, a_n$ が存在します。
 
 多項式 $g \in L[Y_1, \ldots, Y_n]$ を定義するとしましょう
 $$
@@ -145,7 +145,7 @@ $\mathbf{K}$ 上のすべてのエタール代数は *可換* であり、 $K$ �
   *c)* * A のK-代数準同型を $\mathbf{K}$ 生成するベクトル K 空間 A の双対に変換します。*
   *d)* *すべての A-加群は、部分加群の直和であり、K を 1 上回る次元です。*
 
-The equivalence of *a)* and *b)* follows from Formula (6); on the other hand the n projections $K^n \to K$ are algebra homomorphisms, hence *a)* implies *c)*. *c)* が成り立つ場合、A の代数準同型が A の双対 (*V*, p. 27, Th. 1) の $\mathbf{K}$ 形基底に変換され、それらを $u_1, \ldots, u_n$ で表します。その場合、$a \mapsto (u_i(a))$ は A の同型から代数 $K''$、よって *a)* になります。 したがって、条件 *a)*、*b)*、および *c)* の同値が確立されました。
+*a)* と *b)* の同値は公式 (6) から続きます。一方、n 射影 $K^n \to K$ は代数準同型であるため、*a)* は *c)* を意味します。 *c)* が成り立つ場合、A の代数準同型を A の双対 (*V*, p. 27, Th. 1) の $\mathbf{K}$ 形基底に変換し、それらを $u_1, \ldots, u_n$ で表します。その場合、$a \mapsto (u_i(a))$ は A の同型から代数 $K''$、よって *a)* になります。したがって、条件 *a)*、*b)*、および *c)* の同値が確立されました。
 
 *b)* が成立し、M を A-加群とします。この場合、比 $e_i$ の相似関係 $(e_i)_M$ は $M$ の射影子であり、$M$ は $e_i M$ の直和であり、これらはサブ A 加群です。したがって、$j \neq i$ に対して $(e_j)_M = 0$ となるような添字 $i$ が存在すると仮定できます。したがって、$M$ のすべてのベクトル部分空間はサブ A モジュール、よって *d)* です。
 
@@ -199,7 +199,7 @@ $A$ を $K$ 上の有限次数 $n$ の可換代数とします。 $K$ の拡大 
 
 — *$\Omega$を$K$の代数閉包とします。その場合、$K$ のすべての拡大 $L$ に対して $h(L) \leq h(\Omega)$ が得られ、$L$ が代数的に閉じているときは等式になります。
 
-$L'$ を $L$ の $K$ の代数閉包とします。 For every homomorphism $u$ of $A$ into $L$ we have $[u(A) : K] \leq n$, hence $u(A) \subset L'$ by V, p. 18, Prop. 2; we thus have $h(L') = h(L)$. $K$ の拡大 $L'$ は $\Omega$ (V, p. 20, Th. 1) の部分拡張と同型であるため、$h(L') \leq h(\Omega)$ が得られます。 $L$ が代数的に閉じている場合、$L'$ は $K$ の代数閉包です。 $K$ の拡大 $L'$ と $\Omega$ は同型 (V、p. 23、Th. 2) なので、$h(L') = h(\Omega)$; 補題はここから直接続きます。
+$L'$ を $L$ の $K$ の代数閉包とします。 $A$ の $L$ へのすべての準同型 $u$ に対して、$[u(A) : K] \leq n$ が得られるため、V、p. 18、提案 2 により $u(A) \subset L'$ が得られます。したがって、$h(L') = h(L)$ になります。 $K$ の拡大 $L'$ は $\Omega$ (V, p. 20, Th. 1) の部分拡張と同型であるため、$h(L') \leq h(\Omega)$ が得られます。 $L$ が代数的に閉じている場合、$L'$ は $K$ の代数閉包です。 $K$ の拡大 $L'$ と $\Omega$ は同型 (V、p. 23、Th. 2) なので、$h(L') = h(\Omega)$; 補題はここから直接続きます。
 
 補題 1 までに、数 $h(L)$ は、$K$ のすべての代数閉拡大 $L$ に対して同じ値を持ちます。この数は$[A : K]$で示され、$A$の*分離可能な次数*と呼ばれます。
 
@@ -209,7 +209,7 @@ $$
 [A \otimes_K B : K]_s = [A : K]_s \cdot [B : K]_s .
 $$
 
-Let $L$ be an algebraically closed extension of $K$ and denote by $\mathscr{H}(A)$ the set of algebra homomorphisms of $A$ into $L$, and similarly define $\mathscr{H}(B)$ and $\mathscr{H}(A \otimes_K B)$. 定義により、カード $\mathscr{H}(A) = [A : K]$ と [B : K] および [A \otimes_K B : K] の対応する式が得られます。 さらに (III, p. 465, 公式 (6))、公式 $(u * v)(a \otimes b) = u(a)v(b)$ 定義する全単射 $\mathscr{H}(A) \times \mathscr{H}(B)$ の $(u, v) \mapsto u * v$ を$\mathscr{H}(A \otimes_K B)$、よって公式 (7) と続きます。
+$L$ を $K$ の代数的に閉じた拡張とし、$A$ から $L$ への代数準同型性の集合を $\mathscr{H}(A)$ で表し、同様に $\mathscr{H}(B)$ と $\mathscr{H}(A \otimes_K B)$ を定義します。 定義により、カード $\mathscr{H}(A) = [A : K]$ と [B : K] および [A \otimes_K B : K] の対応する式が得られます。 さらに (III, p. 465, 公式 (6))、公式 $(u * v)(a \otimes b) = u(a)v(b)$ 定義する全単射 $\mathscr{H}(A) \times \mathscr{H}(B)$ の $(u, v) \mapsto u * v$ を$\mathscr{H}(A \otimes_K B)$、よって公式 (7) と続きます。
 
 $K'$ を $K$ の拡大とします。 公式を証明しましょう
 $$
@@ -217,17 +217,17 @@ $$
 $$
 $L$ は $K'$ の代数閉包になります。 公式 $\tilde{u}(x) = u(1 \otimes x)$ ($x \in A$ の場合) 定義する全単射 $u \mapsto \tilde{u}$ $K'$ の集合 - $A_{(K')}$ の $L$ と集合への準同型写像$K$-$A$ の $L$、よってへの準同型写像 (8)。
 
-最後に、$K'$ が $K$ の有限次数の拡大であると仮定します。 $A'$ が有限次数の可換 $K'$-代数である場合、それは有限次数の可換 $K$-代数でもあり、$[A': K] = [A': K'] \cdot [K': K]$ (V. p. 10, Th. 1) が得られます。 We shall prove the formula
+最後に、$K'$ が $K$ の有限次数の拡大であると仮定します。 $A'$ が有限次数の可換 $K'$-代数である場合、それは有限次数の可換 $K$-代数でもあり、$[A': K] = [A': K'] \cdot [K': K]$ (V. p. 10, Th. 1) が得られます。 公式を証明しましょう
 $$
 [A': K], = [A': K']_s \cdot [K': K], .
 $$
-For let $S$ (resp. $T$) be the set of $K$-homomorphisms of $K'$ (resp. $A'$) into an algebraic closure $L$ of $K$; for every $\sigma \in S$ we denote by $T_\sigma$ the set of elements $f$ of $T$ such that $f(a \cdot 1) = \sigma(a)$ for all $a \in K'$. 次に、家族 $(T_\sigma)_\sigma$ は $T$ の分割であり、カード $S = [K': K]$ があります。さて、それぞれの $\sigma \in S$ 集合 $T_\sigma$ は、$A'$ の $K'$ の代数閉拡大 $(L, \sigma)$ への $K'$ 準同型写像で構成されているため、カード $T_\sigma = [A': K']_s$ が証明され、(9) が証明されました。
+$S$ (それぞれ $T$) を、$K$ の代数閉包 $L$ への $K'$ (それぞれ $A'$) の $K$ 準同型写像の集合とする。すべての $\sigma \in S$ に対して、すべての $a \in K'$ に対して $f(a \cdot 1) = \sigma(a)$ となるように、$T$ の要素のセット $f$ を $T_\sigma$ で表します。 次に、家族 $(T_\sigma)_\sigma$ は $T$ の分割であり、カード $S = [K': K]$ があります。さて、それぞれの $\sigma \in S$ 集合 $T_\sigma$ は、$A'$ の $K'$ の代数閉拡大 $(L, \sigma)$ への $K'$ 準同型写像で構成されているため、カード $T_\sigma = [A': K']_s$ が証明され、(9) が証明されました。
 
 #### 命題 4 {#alg-v-s6-prop-4 .statement tag=06JM}
 
 — $A$ を $K$ 上の有限次数の可換代数とします。 $A$ がエターレの場合に限り、$[A: K], \leq [A: K]$ と等式が結合します。
 
-Let $\Omega$ be an algebraic closure of $K$ and $A?$ the set of algebra homomorphisms of $A$ into $\mathbf{R}$. カード $A? = [A: K]$ があり、$A$ が $K$ の拡大 $\Omega$ によって対角化された場合に限り、$A$ はエタールになります (V、p. 30、提案 2)。 したがって、提案 4 は Cor. V、p. 29の。
+$\Omega$ を $K$ と $A?$ の代数準同型性の集合である $A$ から $\mathbf{R}$ への代数閉包とします。 カード $A? = [A: K]$ があり、$A$ が $K$ の拡大 $\Omega$ によって対角化された場合に限り、$A$ はエタールになります (V、p. 30、提案 2)。 したがって、提案 4 は Cor. V、p. 29の。
 
 #### 系 1 {#alg-v-s6-prop-4-cor-1 .statement tag=06JN}
 

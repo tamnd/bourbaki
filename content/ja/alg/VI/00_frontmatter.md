@@ -19,10 +19,10 @@ translation_method: google
 source_content_sha256: e18b813374d7e841a0a5043544b1c8d3de9e0d28308955c4a396dfa1b2df5259
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ea8307703f357fad0aa8798787c9dafef9002bcd682cd6fb49697e9017fcdbf4
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 VI

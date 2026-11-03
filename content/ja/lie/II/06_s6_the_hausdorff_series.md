@@ -33,16 +33,16 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 6
-content_sha256: e39a63e740c5c645f98a4494277bcae3f6e5868ee96036a8a549e87e94c8d049
+content_sha256: 21def2f131143ec0c5e5047d8420a7421a65bc846c049946461371a219dad36a
 translated_from: content/en/lie/II/06_s6_the_hausdorff_series.md
 translation_method: google
 source_content_sha256: 415bac69237edc26c3196e7b8c6ae4c55426a40b051a938d4b7c3803c5c86eba
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 5141a128cfd3e70df6cdcfb622334a6c715f81aef2bb96f55caecca4b7e575af
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。ハウスドルフ系列
@@ -195,7 +195,7 @@ $$
 
 $g$ を自由な群 $F = F(X)$ の準同型を $\Gamma$ にすると、$g(x) = \exp x$ は $x \in X$ になります。 $\exp x - 1 - x = \sum_{n \geq 2} x^n/n!$ は位数 $\geq 2$ であるため、$g$ は § 5, no. 3 の定理 1 による単射法です。したがって、*写像 $\log \circ g$ は、拡大する標準単射 $X \to \hat{\mathbf{L}}$* であるハウスドルフ群に、$F$ の単射準同型が入ります。
 
-For every integer $m \geq 1$ we denote by $\hat{\mathbf{L}}_m$ the set of elements of order $\geq m$ in $\hat{\mathbf{L}}$ and by $\Gamma_m$ the set of $u \in \Gamma$ such that $u - 1$ is of order $\geq m$. 次に、$\hat{\mathbf{L}}_m = \exp(\Gamma_m)$ by 注意 2/no. 1; $(\Gamma_m)_{m \geq 1}$ は $\Gamma$ (§ 4, no. 5 命題 2) の統合中央フィルタであるため、$(\hat{\mathbf{L}}_m)_{m \geq 1}$ * は群 $\hat{\mathbf{L}}$* の統合中央フィルタです。
+すべての整数 $m \geq 1$ について、$\hat{\mathbf{L}}$ の次数 $\geq m$ の要素の集合を $\hat{\mathbf{L}}_m$ で表し、$u - 1$ が次数 $\geq m$ であるような $u \in \Gamma$ の集合を $\Gamma_m$ で表します。 次に、$\hat{\mathbf{L}}_m = \exp(\Gamma_m)$ by 注意 2/no. 1; $(\Gamma_m)_{m \geq 1}$ は $\Gamma$ (§ 4, no. 5 命題 2) の統合中央フィルタであるため、$(\hat{\mathbf{L}}_m)_{m \geq 1}$ * は群 $\hat{\mathbf{L}}$* の統合中央フィルタです。
 
 ### 3. フォーマルな嘘をつく冪系列
 
@@ -335,7 +335,7 @@ $K$ は体含む $\mathbf{Q}$ であるため、ハウスドルフ系列は、$K
 
 $a, b$ を $m$ に入れます。 $a \in A_\alpha$ と $b \in A_\alpha$ のような $\alpha > 0$ が存在します。 そして、マグナス代数 $\hat{A}(\{U, V\})$ $A$ 写像 $U$ から $a$ および $V$ から $b$ (§ 5, no. 1、命題 1) への連続する準同型 $\theta$ が存在します。
 
-The restriction of $\theta$ to $\hat{L}(\{U, V\})$ is a continuous homomorphism of Lie algebras of $L(\{U, V\})$ into $m$ which maps $U$ (resp. $V$) to $a$ (resp. $b$). no. 3 の公式 (6) により、$\theta(H) = H(a, b)$ になります。 次に、関係の両側に連続する準同型 $\theta$ を適用するだけで十分です。
+$\theta$ から $\hat{L}(\{U, V\})$ への制限は、$L(\{U, V\})$ から $m$ へのリー代数の連続準同型で、$U$ (それぞれ $V$) を $a$ (それぞれ $b$) に写像します。 no. 3 の公式 (6) により、$\theta(H) = H(a, b)$ になります。 次に、関係の両側に連続する準同型 $\theta$ を適用するだけで十分です。
 $$
 \exp H(U, V) = \exp U . \exp V
 $$

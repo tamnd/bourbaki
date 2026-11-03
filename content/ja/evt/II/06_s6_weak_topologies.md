@@ -45,16 +45,16 @@ subsections:
       pdf_page: 89
 statements: 41
 exercises: 20
-content_sha256: 5d27573c2db9af7b2c005c436e9daab4f978d9f7226217297f0359de82195404
+content_sha256: d8e8e86ece27da32f8291059f364c1280cdd40476ab715630417fa9608396d4d
 translated_from: content/en/evt/II/06_s6_weak_topologies.md
 translation_method: google
 source_content_sha256: 99514709d3c5833b248b220057a632a5ff5dc72f7ecf8af9bb7a09eddc3274a1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 1407a3e9bdaa1247e093b45efb70fc5ddaa43a817a429412957fb0b598d84775
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 6。弱いトポロジー
@@ -140,7 +140,7 @@ $\sigma(F, G)$ の弱い位相を運ぶベクトル空間 F は *弱い空間* �
 
 なぜなら、$F$の線型形式$f$が$\sigma(F, G)$に対して連続であるということは、$F$、$|f(x)| \leq \sup_{1 \leq i \leq n} |\langle x, y_i \rangle|$のすべての$x$について、点$y_i \in G$($1 \leq i \leq n$)の有限集合が存在することを意味するからです。 (II、p. 6、提案5)。したがって、$n$ 関係 $\langle x, y_i \rangle = 0$ ($1 \leq i \leq n$) は $f(x) = 0$ を暗示し、したがって (A, II, § 7.5, cor. 1)、すべての $x \in F$ に対して $f(x) = \langle x, y \rangle$ となるような線形結合 $y = \sum_{i=1}^n \lambda_i y_i$ が存在します。 一意性は (D$_\text{II}$) から続きます。
 
-In other words, when the duality is separating in $G$, and $F$ has the topology $\sigma(F, G)$, then we can identify $G$ canonically with the dual of $F$ for this topology (II, p. 42, def. 1).
+言い換えれば、双対性が $G$ で分離し、$F$ がトポロジー $\sigma(F, G)$ を持つ場合、このトポロジーの $F$ の双対と正準的に $G$ を識別できます (II、p. 42、def. 1)。
 
 #### 系 1 {#evt-ii-s6-prop-3-cor-1 .statement tag=07H7}
 
@@ -172,11 +172,11 @@ In other words, when the duality is separating in $G$, and $F$ has the topology 
 
 F と G を双対性において 2 (実数) ベクトル空間とします。 F のすべての集合 M について、すべての $x \in M$ について $\langle x, y \rangle \geq -1$ であるそれらの y ∈ G の M の極点を集合と呼びます。 (複合体ベクトル空間、cf. II、p. 64 の場合。)
 
-If $G_1, G_2$ are two subspaces of $F^*$ such that $G_1 \subset G_2$, then the polar of M in $G_1$ is the intersection of $G_1$ with the polar of M in $G_2$.
+$G_1, G_2$ が $G_1 \subset G_2$ のような $F^*$ の 2 つの部分空間である場合、$G_1$ の M の極は、$G_2$ の M の極と $G_1$ の交点になります。
 
 混乱の危険がない場合、F の部分集合 M の G の極性を表すために $M^\circ$ を使用します。同様に、G の集合の F の極性を定義する使用します。
 
-明らかに、すべてのスカラー $\lambda \neq 0$ とすべての $M \subset F$ に対して、$(\lambda M)^\circ = \lambda^{-1} M^\circ$ が得られます。 The relation $M \subset N \subset F$ implies $N^\circ \subset M^\circ$; if N absorbs M then $M^\circ$ absorbs $N^\circ$; for every family $(M_\alpha)$ of sets of F, the polar set of $\bigcup \alpha M_\alpha$ is the intersection of the polar sets $M_\alpha^\circ$. $y \in M^\circ$ の場合、閉じた半空間は関係 $\langle x, y \rangle \geq -1$ 含む 0 と M によって定義されるため、$M_1$ が $M \cup \{0\}$ の凸包絡線である場合、$M_1^\circ = M^\circ$ であることがわかります。
+明らかに、すべてのスカラー $\lambda \neq 0$ とすべての $M \subset F$ に対して、$(\lambda M)^\circ = \lambda^{-1} M^\circ$ が得られます。 関係 $M \subset N \subset F$ は $N^\circ \subset M^\circ$ を意味します。 N が M を吸収する場合、$M^\circ$ は $N^\circ$ を吸収します。すべての家族について、F の集合の $(M_\alpha)$ は、$\bigcup \alpha M_\alpha$ の極集合は、極集合 $M_\alpha^\circ$ の共通部分です。 $y \in M^\circ$ の場合、閉じた半空間は関係 $\langle x, y \rangle \geq -1$ 含む 0 と M によって定義されるため、$M_1$ が $M \cup \{0\}$ の凸包絡線である場合、$M_1^\circ = M^\circ$ であることがわかります。
 
 明らかに$M \subset M^{\circ \circ}$。したがって、
 $$
@@ -188,21 +188,21 @@ M が F の対称部分集合である場合、$M^\circ$ は G の対称部分�
 
 #### 命題 4 {#evt-ii-s6-prop-4 .statement tag=07HC}
 
-(i) F の任意の集合 M について、極集合 $M^\circ$ は含む 0 の凸集合であり、位相 $\sigma(G, F)$ については G で閉じています。
+(i) F の任意の集合 M について、極集合 $M^\circ$ は含む 0 である凸集合であり、位相 $\sigma(G, F)$ では G で閉じられます。
 
 (ii) M が頂点 0 の円錐である場合、$M^\circ$ は頂点 0 の円錐であり、すべての $x \in M$ に対して $\langle x, y \rangle \geq 0$ となるように、$y \in G$ の集合でもあります。
 
 (iii) M が F のベクトル部分空間である場合、$M^\circ$ は G のベクトル部分空間であり、すべての $x \in M$ に対して $\langle x, y \rangle = 0$ となるように、$y \in G$ の集合でもあります。
 
-(i) 線型形式 $y \mapsto \langle x, y \rangle$ は$\sigma(G, F)$ 主張に対して連続であるため、定義からすぐに超平面で決まる半空間が凸であることがわかります。
+(i) 線型形式 $y \mapsto \langle x, y \rangle$ は $\sigma(G, F)$ に対して連続であるため、定義からすぐに主張が​​得られ、超平面で決まる半空間が凸であることがわかります。
 
 (ii) M が頂点 0 の円錐で、$x \in M, y \in M^\circ$ の場合、$\lambda x \in M$ として、すべての $\lambda > 0$ に対して、$\langle \lambda x, y \rangle \geq -1$、つまり $\lambda \langle x, y \rangle \geq -1$ が得られます。これはすべての$\lambda > 0$に当てはまるので、$\langle x, y \rangle \geq 0$となり、(ii)が証明されます。
 
 (iii) 同様に、M が F のベクトル部分空間である場合、関係 $x \in M, y \in M^\circ$ は、今度は、すべての実数 $\lambda$ に対して $\lambda \langle x, y \rangle \geq -1$ を意味しますが、これは $\langle x, y \rangle = 0$ の場合にのみ可能です。
 
-If M is a vector subspace of F we say that $M^\circ$ is the orthogonal of M in G; if $G \subset F^*$, then $M^\circ$ is the intersection of G, and of the subspace orthogonal to M in the algebraic dual $F^*$ of F (A, II, § 2.4, def. 4).
+M が F のベクトル部分空間である場合、$M^\circ$ は G における M の直交であると言います。 $G \subset F^*$の場合、$M^\circ$はGの共通部分であり、Fの代数双対$F^*$においてMに直交する部分空間です(A、II, § 2.4、定義4)。
 
-F のベクトル部分空間 M と G のベクトル部分空間 N について、$M \subset N^o$ (または同等、$N \subset M^\circ$ の場合) の場合、M と N は直交すると言います。
+F のベクトル部分空間 M と G のベクトル部分空間 N について、$M \subset N^o$ (または同等に、$N \subset M^\circ$ の場合) の場合、M と N は直交すると言います。
 
 #### 定理 1 (双極性障害定理) {#evt-ii-s6-thm-1 .statement tag=07HD}
 
@@ -230,7 +230,7 @@ $$
 
 #### 注意 {#evt-ii-s6-n3-rem-1 .statement tag=07HG}
 
-— Every neighbourhood of 0 in $G$ in the topology $\sigma(G, F)$ contains a neighbourhood $V$ defined by a finite number of inequalities of the form $|\langle x_i, y \rangle| \leq 1$ ($1 \leq i \leq n$), where the $x_i$ are arbitrary points of $F$. $A$ が $x_i$ の集合の *対称凸包絡線* である場合、 $V$ は $G$ の $A$ の *極性集合* $A^\circ$ です。 We can say that the *polars in* $G$ *of finite symmetric sets in* $F$ (or of their convex envelopes) form a fundamental system of neighbourhoods of 0 in $G$ for $\sigma(G, F)$. 双対性が $F$ で分離している場合、これらの凸型エンベロープは、$\sigma(F, G)$ (II、p. 14、提案 15 の cor. 1) および有限次元に対して *コンパクト* になります。 逆に、$F$ の有限次元* $C$ のすべての *コンパクトな凸集合 ($\sigma(F, G)$ 位相を含む) は、$F$ の *有限部分集合* の凸包絡線に含まれます。 というのは、$M$ を有限次元含む $C$ のベクトル部分空間とします。 $(e_i)_{1 \leq i \leq n}$ が $M$ の基底である場合、$C$ は閉平行面中心 0 に含まれており、基底 $e_i$ (GT, VI, § 1.3) のベクトル上に構築されていると仮定できます。今、この平行面は点 $\sum \limits_{i=1}^n \varepsilon_i e_i$ と $\varepsilon_i = \pm 1$ の凸包絡線である明らかです。
+— トポロジー $\sigma(G, F)$ の $G$ の 0 のすべての近傍には、$|\langle x_i, y \rangle| \leq 1$ ($1 \leq i \leq n$) の形式の有限数の不等式によって定義される近傍 $V$ が含まれます。ここで、$x_i$ は $F$ の任意の点です。 $A$ が $x_i$ の集合の *対称凸包絡線* である場合、 $V$ は $G$ の $A$ の *極性集合* $A^\circ$ です。 $F$ の有限対称集合の * $G$ の *極子 (またはその凸包絡線) は、$\sigma(G, F)$ の $G$ の 0 の基本的な近傍系を形成していると言えます。 双対性が $F$ で分離している場合、これらの凸型エンベロープは、$\sigma(F, G)$ (II、p. 14、提案 15 の cor. 1) および有限次元に対して *コンパクト* になります。 逆に、$F$ の有限次元* $C$ のすべての *コンパクトな凸集合 ($\sigma(F, G)$ 位相を含む) は、$F$ の *有限部分集合* の凸包絡線に含まれます。 というのは、$M$ を有限次元含む $C$ のベクトル部分空間とします。 $(e_i)_{1 \leq i \leq n}$ が $M$ の基底である場合、$C$ は閉平行面中心 0 に含まれており、基底 $e_i$ (GT, VI, § 1.3) のベクトル上に構築されていると仮定できます。今、この平行面は点 $\sum \limits_{i=1}^n \varepsilon_i e_i$ と $\varepsilon_i = \pm 1$ の凸包絡線である明らかです。
 
 したがって、($\sigma(F, G)$ がハウスドルフの場合) * $F$ における有限次元、凸、コンパクトな集合の極 ($\sigma(F, G)$ または任意のハウスドルフの局所的に凸な位相より細かいについては、$F$ 上の $\sigma(F, G)$ よりも) と言えます。 形 $\sigma(G, F)$ の 0 の近傍の基本的な系。
 
@@ -358,29 +358,29 @@ $F, G$ を双対性における 2 つの実数ベクトル空間とします。 
 
 (i) $G/N$ のすべての元は類 mod です。 $N$/元/$G$; $z_i (1 \leq i \leq n)$ が $G$ の元で、$\dot{z}_i (1 \leq i \leq n)$ が $G/N$ の $z_i$ の類である場合、 $1 \leq i \leq n$ の $|\langle y, \dot{z}_i \rangle| \leq \alpha$ が $y \in M$ の集合になります。 $x \in F$ のうち集合のうち $M$ は、$1 \leq i \leq n$ に対して $|\langle x, z_i \rangle| \leq \alpha$ になります。結論は、弱者位相の 0 の近傍の定義から得られます。
 
-(ii) $p : G \to G/N$ を標準全射とします。 *商位相* $\mathscr{T}$ *of* $\sigma(G, F)$ *by* $N$ *が $\sigma(G/N, N^\circ)$ と同一であることを示します。 $z \in G, y \in N^\circ$ には $\langle y, p(z) \rangle = \langle y, z \rangle$ があるため、$\sigma(G/N, N^\circ)$ の 0 のすべての近傍は形 $p(V)$ になります。ここで、$V$ は $\sigma(G, F)$ の 0 の近傍が関係で飽和します。 $z - z' \in N$ なので、$\mathscr{T}$ は $\sigma(G/N, N^\circ)$ よりもより細かいになります。 逆に、$U = W(y_1, ..., y_n; \alpha)$ を $\sigma(G, F)$ の $G$ の 0 の近傍とし、$1 \leq i \leq n$ と $\alpha > 0$ の場合は $y_i \in F$ とします。 $1 \leq i \leq n$ には元 $t_i \in N^\circ$ が存在し、$U' = W(t_1, ..., t_n; \alpha)$ を置くと $p(U') \subset p(U)$ となることがわかります。これは、$\sigma(G/N, N^\circ)$ が $\mathscr{T}$ よりもより細かいであるため、実際には $\mathscr{T}$ と同一であることがわかります。 ここで、$L$ を $N^\circ$ と $y_i$ によって生成された $F$ のベクトル部分空間とし、$L$ の $N^\circ$ の補数部分空間を$P$ で示します。それは有限次元、例えば$m$です。 Let $(x_j)_{1 \leq j \leq m}$ be a basis of $P$; the restrictions to $N$ of the linear forms $x \mapsto \langle x_j, z \rangle$ are linearly independent, since otherwise there exists $x \neq 0$ in $P$ such that $\langle x, z \rangle = 0$ for all $z \in N$, that is to say $x \in N^\circ$, which contradicts the definition of $P$. Thus we conclude that for all $z' \in G$, there exists $s \in N$ such that $\langle x_j, z' \rangle = \langle x_j, s \rangle$ for all $j$; if $z' = z + s$, we have $\langle x, z \rangle = 0$ for all $x \in P$. したがって、$t_i \in N^\circ$ と $w_i \in P$ に $y_i = t_i + w_i$ を入れます。 $1 \leq i \leq n$には$\langle y_i, z \rangle = \langle t_i, z \rangle = \langle t_i, z' \rangle$があります。したがって、すべての $z' \in U'$ に対して、$z' - z \in N$ となるような $z \in U$ が存在します。つまり、$p(U') \subset p(U)$ があります。
+(ii) $p : G \to G/N$ を標準全射とします。 *商位相* $\mathscr{T}$ *of* $\sigma(G, F)$ *by* $N$ *が $\sigma(G/N, N^\circ)$ と同一であることを示します。 $z \in G, y \in N^\circ$ には $\langle y, p(z) \rangle = \langle y, z \rangle$ があるため、$\sigma(G/N, N^\circ)$ の 0 のすべての近傍は形 $p(V)$ になります。ここで、$V$ は $\sigma(G, F)$ の 0 の近傍が関係で飽和します。 $z - z' \in N$ なので、$\mathscr{T}$ は $\sigma(G/N, N^\circ)$ よりもより細かいになります。 逆に、$U = W(y_1, ..., y_n; \alpha)$ を $\sigma(G, F)$ の $G$ の 0 の近傍とし、$1 \leq i \leq n$ と $\alpha > 0$ の場合は $y_i \in F$ とします。 $1 \leq i \leq n$ には元 $t_i \in N^\circ$ が存在し、$U' = W(t_1, ..., t_n; \alpha)$ を置くと $p(U') \subset p(U)$ となることがわかります。これは、$\sigma(G/N, N^\circ)$ が $\mathscr{T}$ よりもより細かいであるため、実際には $\mathscr{T}$ と同一であることがわかります。 ここで、$L$ を $N^\circ$ と $y_i$ によって生成された $F$ のベクトル部分空間とし、$L$ の $N^\circ$ の補数部分空間を$P$ で示します。それは有限次元、例えば$m$です。 $(x_j)_{1 \leq j \leq m}$ を $P$ の基底とします。線形形式 $x \mapsto \langle x_j, z \rangle$ の $N$ に対する制約は線形独​​立です。そうでない場合、すべての $z \in N$、つまり $x \in N^\circ$ に対して $\langle x, z \rangle = 0$ となるような $P$ に $x \neq 0$ が存在し、$P$ の定義と矛盾します。 したがって、すべての $z' \in G$ に対して、すべての $j$ に対して $\langle x_j, z' \rangle = \langle x_j, s \rangle$ となるような $s \in N$ が存在すると結論付けます。 $z' = z + s$ の場合、すべての $x \in P$ に対して $\langle x, z \rangle = 0$ が得られます。 したがって、$t_i \in N^\circ$ と $w_i \in P$ に $y_i = t_i + w_i$ を入れます。 $1 \leq i \leq n$には$\langle y_i, z \rangle = \langle t_i, z \rangle = \langle t_i, z' \rangle$があります。したがって、すべての $z' \in U'$ に対して、$z' - z \in N$ となるような $z \in U$ が存在します。つまり、$p(U') \subset p(U)$ があります。
 
-M が N° の任意の部分空間である場合に戻ると、明らかに $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$ であることに注意してください。さらにプロップから。 II、p. 43 の 3 を見ると、$y \in N^\circ$ が線型形式 $\dot{z} \mapsto \langle y, \dot{z} \rangle$ が $\sigma(G/N, M)$ に対して連続であるような場合、必然的に $y \in M + G^\circ$ になることがわかります。 結論する商位相 $\mathscr{T}$ が $\sigma(G/N, M)$ に等しくなるためには、条件 $M + G^\circ = N^\circ$ が必要かつ十分であると考えます。
+M が N° の任意の部分空間である場合に戻ると、明らかに $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$ であることに注意してください。さらにプロップから。 II、p. 43 の 3 を見ると、$y \in N^\circ$ が線型形式 $\dot{z} \mapsto \langle y, \dot{z} \rangle$ が $\sigma(G/N, M)$ に対して連続であるような場合、必然的に $y \in M + G^\circ$ になることがわかります。 結論する、商位相 $\mathscr{T}$ が $\sigma(G/N, M)$ に等しくなるためには、条件 $M + G^\circ = N^\circ$ が必要かつ十分であると考えます。
 
 #### 注意 {#evt-ii-s6-n5-rem-1 .statement tag=07HP}
 
-— M と G/N の間の双対性 (M と N は 2 つの直交部分空間) は、$M \cap G^\circ = \{0\}$ の場合に限り、M で分離します。 $N = M^\circ$ の場合に限り、G/N で分離されます。
+— M と G/N 間の双対性 (M と N は 2 つの直交部分空間) は、$M \cap G^\circ = \{0\}$ の場合に限り、M で分離します。 $N = M^\circ$ の場合に限り、G/N で分離されます。
 
 #### 系 1 {#evt-ii-s6-prop-7-cor-1 .statement tag=07HQ}
 
-— F と G の双対性が F で分離しているとします。F 位相 $\sigma(G/M^\circ, M)$ のベクトル部分空間 M は、M が位相に対して閉じている場合に限り、$\sigma(G, F)$ の $M^\circ$ の商位相と同一です。 $\sigma(F, G)$。
+— F と G の双対性が F で分離しているとします。F 位相 $\sigma(G/M^\circ, M)$ のベクトル部分空間 M は、M が閉じている場合に限り、$\sigma(G, F)$ の $M^\circ$ の商位相と同一です。 位相 $\sigma(F, G)$。
 
-これはプロップから続きます。 7 $N = M^\circ$ を置き、$M^{\circ \circ}$ が $\sigma(F, G)$ の M の閉包であることを思い出します (II、p. 45、cor. 2)。
+これはプロップから続きます。 7 $N = M^\circ$ を置き、$M^{\circ \circ}$ が $\sigma(F, G)$ の M の閉包であることを思い出してください (II, p. 45、cor. 2)。
 
 #### 系 2 {#evt-ii-s6-prop-7-cor-2 .statement tag=07HR}
 
-— M が有限次元 n で双対性が F で分離している場合、$M^\circ$ は G で共次元 n です。M が $\sigma(F, G)$ で閉じていて有限余次元 n であり、双対性が G で分離している場合、$M^\circ$ は次元 n です。
+— M が有限次元 n で双対性が F で分離している場合、$M^\circ$ は G で共次元 n です。M が $\sigma(F, G)$ で閉じていて有限余次元 n で双対性が G で分離している場合、$M^\circ$ は次元 n です。
 
-なぜなら、$G/M^0$ は M との二元性を分離しているからです。 M が次元 n の場合、同じことが $G/M^\circ$ (II、p. 41、例 1) にも当てはまります。 M が閉じている場合、$F/M = F/M^{\circ \circ}$ は $M^\circ$ と分離双対関係にあります。 F/M が次元 n の場合、$M^\circ$ (II、p. 41、例 1) についても同じです。
+なぜなら、$G/M^0$ は M との二元性を分離しているからです。 M が次元 n の場合、同じことが $G/M^\circ$ (II, p. 41, 例 1) にも当てはまります。 M が閉じている場合、$F/M = F/M^{\circ \circ}$ は $M^\circ$ と分離双対関係にあります。 F/M が次元 n の場合、$M^\circ$ (II、p. 41、例 1) についても同じです。
 
 #### 系 3 {#evt-ii-s6-prop-7-cor-3 .statement tag=07HS}
 
-— (F, G)、(F_1, G_1) を分離双対性の 2 つの空間の対とし、u を F_1 の F の線形写像とします。これは $\sigma(F, G)$ と $\sigma(F_1, G_1)$ に対して連続です。この場合、Im($^t u$) が $\sigma(G, F)$ の G で閉じた部分空間である場合に限り、u は F_1 の F の厳密な射です。
+— (F, G)、(F_1, G_1) を分離双対性の 2 つの空間の対とし、u を F_1 の F の線形写像とし、$\sigma(F, G)$ と $\sigma(F_1, G_1)$ にわたって連続します。この場合、Im($^t u$) が $\sigma(G, F)$ の G の閉じた部分空間である場合に限り、u は F_1 の F の厳密な射です。
 
 $N = \operatorname{Im}(^t u) \subset G$ にしましょう。 F では $N^0 = \operatorname{Ker}(u)$ (II, p. 47, 公式 (3)) であることがわかります。 $p : F \to F/N^\circ$ を標準写像とすると、u は次のように因数分解されます。
 
@@ -388,17 +388,17 @@ $$
 u : F \xrightarrow{p} F/N^\circ \xrightarrow{w} F_1,
 $$
 
-ここで、w は単射です。 空間 $F/N^\circ$ と N は分離双対関係にあり、II、p. 48 の公式 (1) により、すべての $\dot{y} \in F/N^\circ$ と $z_1 \in G_1$ に対して $\langle w(\dot{y}), z_1 \rangle = \langle \dot{y}, ^t u(z_1) \rangle$ が得られます。この関係は、wが$F/N^\circ$の同型で、$\sigma(F_1, G_1)$によって誘導された位相で$u(F)$に位相$\sigma(F/N^\circ, N)$を運ぶことを示しています。したがって、結論は cor から得られます。厳密な射の 1 と定義。
+ここで、w は単射です。 空間 $F/N^\circ$ と N は分離双対関係にあり、II、p. 48 の公式 (1) により、すべての $\dot{y} \in F/N^\circ$ と $z_1 \in G_1$ に対して $\langle w(\dot{y}), z_1 \rangle = \langle \dot{y}, ^t u(z_1) \rangle$ が得られます。この関係は、wが$F/N^\circ$の同型で、$\sigma(F/N^\circ, N)$の位相を運び、$\sigma(F_1, G_1)$によって位相が誘発された$u(F)$であることを示しています。したがって、結論は cor から得られます。 1 と定義は厳密な射です。
 
 #### 系 4 {#evt-ii-s6-prop-7-cor-4 .statement tag=07HT}
 
-— (F, G)、(F_1, G_1) を分離双対性の 2 つの対とし、u を $\sigma(F, G)$ と $\sigma(F_1, G_1)$ に連続する F_1 における F の線形写像とします。そして、$^t u$が$^t u(G_1)$上の$G_1$の同型(位相$\sigma(G_1, F_1)$を伴う)であり、$\sigma(G, F)$によって誘導された位相である場合に限り、uは全射的です。
+— (F, G)、(F_1, G_1) を分離双対性の 2 つの対とし、u を $\sigma(F, G)$ と $\sigma(F_1, G_1)$ に連続する F_1 における F の線形写像とします。そして、$^t u$ が $^t u(G_1)$ 上の $G_1$ の同型 (位相 $\sigma(G_1, F_1)$ を含む) であり、$\sigma(G, F)$ によって誘導された位相である場合に限り、u は全射的です。
 
-なぜなら、$u(F) = F_1$ は $u(F)$ が閉じていて、$\sigma(F_1, G_1)$ に対して $F_1$ のどこでも密集しているというというと同等だからです。コル。 4 は cor から続きます。 3 は $^t u$ と II、p. 47、cor に適用されます。 2.
+なぜなら、$u(F) = F_1$ がというと同等だと言うことは、$u(F)$ が閉じていて、$\sigma(F_1, G_1)$ に対して $F_1$ ではどこも密集しているからです。コル。 4 は cor から続きます。 3 は $^t u$ と II、p. 47、cor に適用されます。 2.
 
 #### 注意 {#evt-ii-s6-n5-rem-2 .statement tag=07HU}
 
-— 1) 二元性を分離する際に、$(F_1, G_1), (F_2, G_2), (F_3, G_3)$ を 3 つの対と空間とし、2 つの線形写像のうち数列を考慮します。
+— 1) 双対性を分離する際に、$(F_1, G_1), (F_2, G_2), (F_3, G_3)$ を 3 つの対と空間とし、2 つの線形写像のうち数列を考慮します。
 
 $$
 F_1 \xrightarrow{u} F_2 \xrightarrow{v} F_3
@@ -410,7 +410,7 @@ $$
 G_3 \xrightarrow{^tv} G_2 \xrightarrow{^tu} G_1 .
 $$
 
-$^t(v \circ u) = ^t u \circ ^t v$ であるため、関係 $v \circ u = 0$ は $^t u \circ ^t v = 0$ と同等であることは明らかです。 数列 (5) は、条件に続く 3 つが満たされる場合にのみ正確です。
+$^t(v \circ u) = ^t u \circ ^t v$、したがって、関係 $v \circ u = 0$ が $^t u \circ ^t v = 0$ と同等であることは明らかです。 数列 (5) は、以下の 3 つの条件が満たされる場合にのみ正確です。
 
 a) $^t u \circ ^t v = 0$;
 b) $\operatorname{Im}(^t v)$ は $\operatorname{Ker}(^t u)$ で密です。
@@ -430,7 +430,7 @@ c) $^t u$ は、$G_1$ の $G_2$ の厳密な射です。
 
 #### 注意 {#evt-ii-s6-n6-rem-1 .statement tag=07HW}
 
-— $F$ と $G$ の間の二重性は $F$ (それぞれ $G$ ) で分離し、すべての $i \in I$ についてその場合に限り、$F_i$ と $G_i$ の間の二重性は $F_i$ (それぞれ $G_i$ ) で分離します。 If the duality between $F$ and $G$ is separating in $F$ (resp. $G$), then, in $F$ (resp. $G$), the subspace orthogonal to one $G_i$ (resp. $F_i$), canonically identified with a subspace of $G$ (resp. $F$) is the subspace of the product of the $F_\kappa$ where $\kappa \neq i$ (resp. the direct sum of the $G_\kappa$ such that $\kappa \neq i$).
+— $F$ と $G$ の間の二重性は $F$ (それぞれ $G$ ) で分離し、すべての $i \in I$ についてその場合に限り、$F_i$ と $G_i$ の間の二重性は $F_i$ (それぞれ $G_i$ ) で分離します。 $F$ と $G$ の双対性が $F$ (それぞれ $G$) で分離している場合、$F$ (それぞれ $G$) では、1 つの $G_i$ (それぞれ $F_i$) に直交する部分空間が正準的に識別されます。 $G$ の部分空間 (それぞれ $F$) は、$F_\kappa$ の積の部分空間で、$\kappa \neq i$ ($G_\kappa$ の直和は $\kappa \neq i$ となる) です。
 
 #### 系 1 {#evt-ii-s6-prop-8-cor-1 .statement tag=07HX}
 
@@ -450,7 +450,7 @@ $p : F \to M, q : F \to N$ を F の射影子対応する ～ 分解を M と N 
 
 — 双対性を分離する場合、F、G を 2 つのベクトル空間とします。 $\hat{F}$ が位相 $\sigma(F, G)$ に対する空間 F の完成であり、$G^*$ が位相 $\sigma(G^*, G)$ である標準単射 $j : F \to G^*$ を考慮すると、j の連続拡大 $\hat{j} : \hat{F} \to G^*$ は次のようになります。トポロジー ベクトル空間の同型。
 
-For, we see that $G^*$, endowed with $\sigma(G^*, G)$, is Hausdorff and complete (II, p. 51, cor. 2); if we identify F by j with a vector subspace of $G^*$ then the topology induced on F by $\sigma(G^*, G)$ is $\sigma(F, G)$, and F is dense in $G^*$ in the topology $\sigma(G^*, G)$ (II, p. 43, cor. 4); from which the proposition follows.
+なぜなら、$\sigma(G^*, G)$ を備えた$G^*$ はハウスドルフであり、完全であることがわかります (II, p. 51, cor. 2)。 $G^*$ のベクトル部分空間を持つ j によって F を識別すると、$\sigma(G^*, G)$ によって F に誘導されるトポロジーは $\sigma(F, G)$ であり、F はトポロジー $\sigma(G^*, G)$ (II, p. 43, cor. 4) の $G^*$ で密になります。そこから命題が導き出されます。
 
 したがって、弱い位相に対して完全なベクトル空間は、$\sigma(G^*, G)$ を備えた任意のベクトル空間 G の双対 $G^*$ です。 後で II、p. 51、cor。 2、それらは実直線の積 $\mathbf{R}^I$ と (トポロジー的に) 同型です。言語を簡略化するために、これらを積行と呼びます (これら空間の本質的な特徴については、II、p. 85、演習 13 および II、p. 81、演習 1 を参照してください)。
 
@@ -462,7 +462,7 @@ $G^*$ では、$\sigma(G^*, G)$ 位相がハウスドルフの弱いトポロジ
 
 *$G$ を実数のベクトル空間とし、$F = G^*$ を位相 $\sigma(G^*, G)$ との双対とします。*
 
-(i) *The mapping $V \mapsto V^\circ$ is a bijection of the set of vector subspaces of $G$ on the set of closed vector subspaces of $F$.*
+(i) *マッピング $V \mapsto V^\circ$ は、$F$ の閉じたベクトル部分空間のセット上の $G$ のベクトル部分空間のセットの全単射です。
 
 (ii) *$F$ のすべての閉じたベクトル部分空間は、行の積であり、トポロジカルな補数を持ちます。*
 

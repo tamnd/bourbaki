@@ -67,16 +67,16 @@ errata:
     - says: then $w(u^{-1}) = -w(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w is a normalized discrete valuation
       read: then $\omega(u^{-1}) = -\omega(u)$. \* In other words (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), $\omega$ is a normalized discrete valuation
       why: Page 48 runs the roman w twice in the displayed relation and once in the sentence naming the valuation, then sets "omega(u) >= n" round two lines below for the same function. The valuation of K((X)) is omega, as the French of 2007 (A IV.36) has it.
-content_sha256: 3df403eaf998879e8b55aee95bfe3305a5a01f084c1b070fe50bebaeb8f0157a
+content_sha256: fd71555cebcbbf9b2743843ad003bf6c826be8d444af03220c45a19f4fc5248c
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
 translation_method: google
 source_content_sha256: ecc1c2d36748dfed392a2d0bff5cf730d1aaf97675f112d959e7b8c05ce7ab7f
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 6a4e982524d6f2700f45554b06871252b3b77f0bd9ae4c6749fb0ec0b0bbfa44
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。フォーマル冪系列
@@ -85,7 +85,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 Iを集合とします。 A 上のモノイド $N^{(I)}$ の合計代数は、不定数* $X_i \ (i \in I)$ (または不定数内) に関して形式的冪系列の *代数と呼ばれることを思い出します (III、p. 454、および 456)。 $X_i$) *係数を* A. $A[[X_i]]_{i \in I}$ または $A[[((X_i)_{i \in I}]]$ または $A[[X]]$ で示され、X によって家族 $(X_i)_{i \in I}$ が示されます。この段落では主に記法 $A[[I]]$ を使用します。 ときどき Iの元の$A[[I]]$の標準像を$Y_i, Z_i, T_i, \ldots$など$X_i$以外の記号で指定すると便利です。この場合に使用される規則は、多項式 (IV、p. 1) の規則に似ています。 代数 $A[[I]]$ は、$A[[Y_i]]_{i \in I}$ または $A[[Y]]$ などによって指定されます。
 
-I が p 元の有限集合であるとき、$A[[I]]$ は p 不定数の形式的冪系列の代数であるとも言います。 These algebras are all isomorphic, for fixed p. An algebra of formal power series in 1, 2, ... indeterminates will also be denoted by $A[[X]]$, $A[[U, V]]$, ..., the set I of indices not being specified.
+I が p 元の有限集合であるとき、$A[[I]]$ は p 不定数の形式的冪系列の代数であるとも言います。 これらの代数はすべて、固定 p の同型です。 1、2、... 不定の正式な冪系列の代数は、$A[[X]]$、$A[[U, V]]$、...、添字の集合 I が指定されていないことでも表されます。
 
 正式な冪系列 u は、慣習的に $u = \sum_{\nu \in N^{(I)}} a_\nu X^\nu$ (cf. IV, p. 1) と書かれます。
 
@@ -169,7 +169,7 @@ $$
 \sum_{M \in \mathfrak{T}} u_M = \prod_{\lambda \in L} (1 + u_\lambda).
 $$
 
-この番号の冒頭のように理想を定義する $\mathfrak{a}_\beta$ とし、$\beta \in \mathbf{N}^{(I)}$ とします。 $\lambda \notin L_0$ に対して $u_\lambda \in \mathfrak{a}_\beta$ となるような $L$ の有限部分集合 $L_0$ が存在します。次に、$M \not\subset L_0$ となるすべての $M \in \mathscr{S}$ に対して、$u_M \in \mathfrak{a}_\beta$ が得られます。したがって、家族 $(u_M)_{M \in \mathfrak{T}}$ は合計可能です。一方、$L$ の任意の有限部分集合 $M_0$ については、
+この No. の冒頭にある理想 $\mathfrak{a}_\beta$ を定義するとし、$\beta \in \mathbf{N}^{(I)}$ とします。 $\lambda \notin L_0$ に対して $u_\lambda \in \mathfrak{a}_\beta$ となるような $L$ の有限部分集合 $L_0$ が存在します。次に、$M \not\subset L_0$ となるすべての $M \in \mathscr{S}$ に対して、$u_M \in \mathfrak{a}_\beta$ が得られます。したがって、家族 $(u_M)_{M \in \mathfrak{T}}$ は合計可能です。一方、$L$ のうちの任意の有限部分集合 $M_0$ については、
 
 $$
 \sum_{M \subset M_0} u_M = \prod_{\lambda \in M_0} (1 + u_\lambda).
@@ -179,29 +179,29 @@ $$
 
 #### 命題 3 {#alg-iv-s4-prop-3 .statement tag=06C2}
 
-*$u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *そして* $m$ *整数* $> 0$ とします。 *すべて* $n \in \mathbf{N}$ * $(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ * $u^n$ の係数の家族にしましょう。 *$\alpha_0^m = 0$ の場合、*その後* $\alpha_{\nu, n} = 0$ *$n \geq |\nu| + m$ の場合。
+*しましょう* $u = \sum a_\nu X^\nu \in \mathbf{A}[[\mathbf{I}]]$ *そして* $m$ *整数* $> 0$ *すべて* $n \in \mathbf{N}$ *$(\alpha_{\nu, n})_{\nu \in \mathbf{N}^{(I)}}$ *$u^n$の係数の家族になろう。 *$\alpha_0^m = 0$ の場合、*その後* $\alpha_{\nu, n} = 0$ *$n \geq |\nu| + m$ の場合。
 
-$\nu \in \mathbf{N}^{(I)}$ と $n \in \mathbf{N}$ としましょう。我々は持っています
+$\nu \in \mathbf{N}^{(I)}$と$n \in \mathbf{N}$としましょう。私たちは持っています
 
 $$
 \alpha_{\nu,n} = \sum_{\nu(1) + \cdots + \nu(n) = \nu} \alpha_{\nu(1)} \cdots \alpha_{\nu(n)} .
 $$
 
-$n \geq |\nu| + m$ と $\nu(1) + \cdots + \nu(n) = v$ の場合、$|\nu(1)| + \cdots + |\nu(n)| \leq n - m$ になります。したがって、$r$ の少なくとも $m$ の異なる値に対して、$v(r) = 0$ と $\alpha_{v(r)} = a_r$ が得られます。結果は $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$、よってになります。
+$n \geq |\nu| + m$と$\nu(1) + \cdots + \nu(n) = v$なら、$|\nu(1)| + \cdots + |\nu(n)| \leq n - m$になります。したがって、$v(r) = 0$ と $\alpha_{v(r)} = a_r$ があり、$r$ の少なくとも $m$ の異なる値が得られます。結果は $\alpha_{\nu(1)} \cdots \alpha_{\nu(n)} = 0$、よってになります。
 
 #### 系 {#alg-iv-s4-n2-cor-1 .statement tag=06C3}
 
-— $u \in A[[I]]$ としましょう。その場合、$\lim_{n \to \infty} u^n = 0$ が維持されるためには、$u$ の定数項がゼロであることが必要かつ十分です。
+— $u \in A[[I]]$ としましょう。したがって、$\lim_{n \to \infty} u^n = 0$ が維持されるためには、$u$ の定数項がゼロであることが必要かつ十分です。
 
-$a_0$ を $u$ の定数項とします。 $u^n$ の定数項は $\alpha_0^n$ であるため、前述の条件が必要です。提案 3 によって十分です。
+$a_0$を$u$の定数項とします。 $u^n$ の定数項は $\alpha_0^n$ であるため、指定された条件が必要です。提案 3 によって十分です。
 
 ### 3. 交代
 
-$E$ を $A$-代数 とします。 $E$ 上の位相は、変換下で不変であり、$E$ の理想の 0 からなるの近傍の基本系が存在する場合、線形であると言われます (Gen. Top.、III、p. 223)。 $E$ 上の位相は、その $A$-代数構造と互換性があります ($A$ が離散位相を運ぶ場合)。線形位相を持つ$A$-代数は、線形トポロジ化された$A$-代数と呼ばれます。
+$E$ を $A$ 代数としましょう。 $E$ 上の位相は、変換下で不変であり、$E$ の理想の 0 からなるの近傍の基本系が存在する場合、線形であると言われます (Gen. Top.、III、p. 223)。 $E$ 上の位相は、その $A$-代数構造と互換性があります ($A$ が離散位相を運ぶ場合)。線形位相を持つ$A$-代数は、線形トポロジ化された$A$-代数と呼ばれます。
 
 #### 命題 4 {#alg-iv-s4-prop-4 .statement tag=06C4}
 
-— $I$ を集合とし、$E$ を結合的、可換的、単位的、線形トポロジー化された分離完全な $A$-代数とする。
+— $I$ を集合とし、$E$ を結合的、可換的、単位的、線形トポロジ化された分離完全な $A$-代数とする。
 
 (i) $\varphi$ を $A[[I]]$ から $E$ と $x_i = \varphi(X_i)$ に連続する準同型とする。次に:
 (a) すべての $i \in I$、$x_i^n$ は 0 になる傾向があり、$n$ は $+ \infty$ になる傾向があります。
@@ -291,7 +291,7 @@ $$
 u(X) = \sum_\nu \Delta^\nu u(0) \cdot X^\nu ;
 $$
 
-他の語では、$\Delta^\nu u$の定数項は、$u$の$X^\nu$の係数です。 Since the mapping $u \mapsto u(X + Y)$ of $A[[X]]$ into $A[[X, Y]]$ is continuous, the mappings $u \mapsto \Delta^\nu u$ of $A[[X]]$ into itself are again continuous.
+他の語では、$\Delta^\nu u$の定数項は、$u$の$X^\nu$の係数です。 $A[[X]]$ の $A[[X, Y]]$ へのマッピング $u \mapsto u(X + Y)$ は連続であるため、$A[[X]]$ のそれ自体へのマッピング $u \mapsto \Delta^\nu u$ もまた連続です。
 
 多項式 (IV、p. 7) の場合と同様に、式を証明できる
 
@@ -475,7 +475,7 @@ $$
 S_n(v) = H_n \left( v - T \left( \sum_{k=0}^{n-1} S_k(v) \right) \right) \quad \text{for} \quad n \geq 1
 $$
 
-Put $S(v) = \sum_{n \geq 0} S_n(v)$; if $\nu \in \mathbf{N}^{(\mathbf{I})}$ and $n = |\nu|$, then the coefficient $S^\nu(v)$ of $X^\nu$ in $S(v)$ is equal to that of $X^\nu$ in $S,(\nu)$; since $S,$ is a continuous mapping, the mapping $S^\nu : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}$ is continuous. したがって、$\mathbf{A}[[\mathbf{I}]] = \mathbf{A}^{\mathbf{N}^{(\mathbf{I})}}$ の積位相の定義により、写像 $S : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$ は連続です。
+$S(v) = \sum_{n \geq 0} S_n(v)$を入れてください。 $\nu \in \mathbf{N}^{(\mathbf{I})}$ と $n = |\nu|$ の場合、$S(v)$ の $X^\nu$ の係数 $S^\nu(v)$ は、$S,(\nu)$ の $X^\nu$ の係数と等しい。 $S,$ は連続マッピングであるため、マッピング $S^\nu : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}$ も連続です。 したがって、$\mathbf{A}[[\mathbf{I}]] = \mathbf{A}^{\mathbf{N}^{(\mathbf{I})}}$ の積位相の定義により、写像 $S : \mathbf{A}[[\mathbf{I}]] \to \mathbf{A}[[\mathbf{I}]]$ は連続です。
 
 すべての $v \in \mathbf{A}[[\mathbf{I}]]$ について関係 $T(S(v)) = v$ を証明し、補題の証明を完成させます。 $v \in \mathbf{A}[[\mathbf{I}]]$、$u_n = S_n(v)$、$u = S(v)$ とします。 $n$ を正の整数とすると、
 
@@ -600,7 +600,7 @@ $u = w/t$ とします。ここで、$w, t$ は $K[[X]]$ の非ゼロ元です�
 
 一意性を証明しましょう。 $u = X^{k_1} v_1 = X^{k_2} v_2$ ここで、$k_1, k_2 \in \mathbf{Z}$ と $v_1, v_2$ は、位数 0 の形式的な冪系列であるとします。 $X^{k_1 - k_2} = v_2 v_1^{-1}$ は、位数 0 の形式的な冪系列であるため、$k_1 = k_2$ が得られます。 よって $v_1 = v_2$ そしてこれは一意性主張を証明します。
 
-We shall say that the elements of $K((X))$ are *generalized formal power series* in $X$ with coefficients in $K$, or simply formal power series when no confusion can arise (the elements of $K[[X]]$ are then called *formal power series with positive exponents*); if $u \neq 0$, the integer $k$ defined in Prop. 12 is also called the *order* of $u$ and is written $\omega(u)$, even if it is $< 0$; we also put $\omega(0) = \infty$. すぐに確認できるのは、
+$K((X))$ の要素は、$K$ の係数を持つ $X$ の *一般化された形式べき級数 * であるか、混乱が生じない場合は単に形式的なべき級数であると言います (その後、 $K[[X]]$ の要素は * 正の指数を持つ形式べきべき級数 * と呼ばれます)。 $u \neq 0$の場合、提案12で定義された整数$k$は、$u$の*次数*とも呼ばれ、$< 0$であっても$\omega(u)$と書かれます。 $\omega(0) = \infty$も入れました。 すぐに確認できるのは、
 
 $$
 \begin{align*}

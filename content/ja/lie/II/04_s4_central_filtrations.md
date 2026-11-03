@@ -37,16 +37,16 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 7ed9378c5641cda05771f38d86c088f6d50563666d9bc77beb0949aa0a140ad8
+content_sha256: b60d0f142fa3f69ffddf37a4240ef97de3c1bdae10cb77f4851f3a5e372ab640
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
 translation_method: google
 source_content_sha256: 6dd2b136d04753cfdf0792754a0655d7811d3c21519c55e6a5ca6b7546279e90
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: e1056e2c719d4412d8940ef993c2a87a1468068217a6942abc88e9728389c12b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 4。中央濾過
@@ -263,7 +263,7 @@ $$
 $$
 ここで、$[\xi, \eta] \in A_{\alpha + \beta}$、$(x^{-1} - 1) \in A_\alpha$、$(y^{-1} - 1) \in A_\beta$、よってにより (26) が得られます。
 
-$G$ を群および $\rho : G \to \Gamma$ 準同型とします。 すべての実数 $\alpha$ については、$G_\alpha = \rho^{-1}(\Gamma_\alpha)$ と書きます。 $(\Gamma_\alpha)$は$\Gamma$の中央濾過であるため、$(G_\alpha)$は$G$の中央濾過であることは明らかになります。
+$G$ を群と $\rho : G \to \Gamma$ 準同型とします。すべての実数 $\alpha$ については、$G_\alpha = \rho^{-1}(\Gamma_\alpha)$ と書きます。 $(\Gamma_\alpha)$が$\Gamma$の中央濾過であるため、$(G_\alpha)$が$G$の中央濾過であることは明らかになります。
 
 #### 命題 3 {#lie-ii-s4-prop-3 .statement tag=0A4P}
 

@@ -13,16 +13,16 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 370b8b14c8a8cfa03967af89172ebd7e983881b1ac79c06613f38b60dffb5bf0
+content_sha256: 4badbd6e074426d34a105fab9ccdaeaf13743ce5b0e97b1c28ede806810143c1
 translated_from: content/en/alg/00_to_the_reader_iv_vii.md
 translation_method: google
 source_content_sha256: 7ae32c7a2f91836886d1e4186ba9e82a6fbb969333fe911258076c12664c41c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 0ec861a335cdc52a97222746b69433991ce7b03576c26c663535b151defbfd55
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 読者へ
@@ -58,7 +58,7 @@ Algebrec Commutative (可換代数'') — AC (通信代数)
 
 5. 各章の論理枠組みは、定義、公理、および章の定理で構成されます。今後の使用において主に留意すべき事項は、部分です。重要度の低い結果や、定理から簡単に推測できる結果には、« 命題 »、« 補題 »、« 結果»、« 注意 » などのラベルが付けられます。最初の読み取りで省略される可能性がある結果は、小さい型で印刷されます。特に重要な定理に関する解説は、« schorium» という名前で時折登場します。
 
-To avoid tedious repetitions it is sometimes convenient to introduce notations or abbreviations which are in force only within a certain chapter or a certain section of a chapter (for example, in a chapter which is concerned only with commutative rings, the word « ring » would always signify « commutative ring »). このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
+退屈な繰り返しを避けるために、特定の章または章の特定のセクション内でのみ有効な表記法や略語を導入すると便利な場合があります (たとえば、可換環のみに関係する章では、« リング » という単語は常に « 可換環 » を意味します)。 このような規約は常に明示的に言及されており、通常はそれらが登場する章の冒頭で述べられます。
 
 6. 本文中の一部の箇所は、読者に重大な誤りを警告するように設計されています。これらの通路には、余白に ☡ (« 危険な曲がり角») の標識が付いています。
 

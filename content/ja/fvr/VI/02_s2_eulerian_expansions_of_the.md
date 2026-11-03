@@ -25,16 +25,16 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 13
-content_sha256: f0d5b5847d48c9e579d314cc83ca546bc79a95a1330f49531a437f984a92e60d
+content_sha256: f9493e4f2e4a880c12ae5bb508754cf0123b0d818038c71a7d77244f999e0e6b
 translated_from: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
 translation_method: google
 source_content_sha256: 3c79b30ff58a4995c02b9783d2b22927cb3d4728ceeaf6e2ab3524761187a1a8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 883b09bd19f03c2f4d85ff99f11b50aa04d305c9819716c16a7ed9aba2d9a24f
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 2。三角関数写像とベルヌーイ数のオイラー展開
@@ -126,7 +126,7 @@ $$
 = \lim_{h \to 0} \frac{\cos nh}{\cos \frac{k\pi}{n} \cos \left( h + \frac{k\pi}{n} \right)} \frac{\sin h}{\sin nh} = \frac{1}{n \cos^2 \frac{k\pi}{n}}
 $$
 
-whence, on isolating the term in (6) corresponding to $k = 0$ and combining the terms corresponding to opposite values of $k$, and replacing $z$ by $z/n$,
+したがって、$k = 0$ に対応する (6) の項を分離し、$k$ の反対の値に対応する項を結合し、$z$ を $z/n$ に置き換えると、
 
 $$
 \cot z = \frac{1}{n \tan \frac{z}{n}} + \sum_{k=1}^{m} \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}

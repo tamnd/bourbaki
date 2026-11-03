@@ -27,16 +27,16 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: cbf2cdd868dd3cdb3a47271372f08d5296fb2a5b8ec426108624915c2c11fb71
+content_sha256: 04c583e4094245014d4b39f58f49c3d518ee8a09516f5ce78bda2749ac8cee34
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
 translation_method: google
 source_content_sha256: ae041bbfaebb6710b823bdc0661c24a1124357966f753025f28bd48ab4086bed
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 56687a2d32eb179f8483e849fde945b5ced7678073b5d92e645cc7001aebd677
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録
@@ -45,7 +45,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 ### 1. 代替案代数
 
-A を可換環 、F を (必ずしも結合的ではない) A-代数とします。 F の任意の 3 つの元 $x, y, z$ について、次のように書きます。
+A を可換環、F を (必ずしも結合的ではない) A-代数とします。 F の任意の 3 つの元 $x, y, z$ について、次のように書きます。
 
 $$
 a(x, y, z) = x(yz) - (xy)z
@@ -55,7 +55,7 @@ $$
 
 #### 補題 1 {#alg-iii-a0-lem-1 .statement tag=069A}
 
-*代数 $F$ のすべての $p, q, r, s$、*
+*代数 $F$ のすべての $p, q, r, s$ に対して*
 
 $$
 a(pq, r, s) - a(p, qr, s) + a(p, q, rs) = a(p, q, r)s + pa(q, r, s).
@@ -66,27 +66,27 @@ $$
 #### 命題 1 {#alg-iii-a0-prop-1 .statement tag=069B}
 
 *A-代数 $F$ の場合、次の条件は同等です:*
-(a) *順序付けられた対、元、$x, y$、$F$ ごとに、$x$ と $y$ によって生成された部分代数は結合します。
+(a) *元 $x, y$ $F$ の順序付けられた対ごとに、$x$ と $y$ によって生成された部分代数は結合します。
 (b) *三線形写像 $(x, y, z) \mapsto a(x, y, z)$ は交代的 (§ 7, no. 3) です。*
-(c) *注文した対、元、$x, y$、$F$、$x^2y = x(xy)$、$yx^2 = (yx)x$ごとに。*
+(c) *注文した対、元、$x, y$、$F$、$x^2y = x(xy)$、$yx^2 = (yx)x$ごと。*
 
-明らかに (a) は (c) を意味します。 (c) が (b) を含意していることを示します。(b) を証明するには、定義 (§ 7, no. 3) によって、$a(x, x, y) = 0$ と $a(x, y, y) = 0$ が正確に (c) であることを検証するだけで十分です。
+明らかに (a) は (c) を意味します。 (c) が (b) を含意していることを示します。(b) を証明するには、定義 (§ 7, no. 3) により、$a(x, x, y) = 0$ と $a(x, y, y) = 0$ が正確に (c) であることを検証するだけで十分です。
 
 (b) が (a) を意味することを証明するには、次の 4 補題を使用します。
 
 #### 補題 2 {#alg-iii-a0-lem-2 .statement tag=069C}
 
-*$E$ を A-代数として、トライリニア写像 $(x, y, z) \mapsto a(x, y, z)$ が交代的、$S$ 生成する系の$E$ および$U$ が$E$ のサブ A モジュールであるとします。 含む $S$ など、すべての $s \in S$ に対して $sU \subset U$ と $Us \subset U$ が続きます。それから$U = E$.*
+*$E$ を A-代数とし、トライリニア写像 $(x, y, z) \mapsto a(x, y, z)$ が交代的、$S$ 生成する系の $E$ および $U$ のサブ A モジュールであるようにします。 $E$ 含む $S$ など、すべての $s \in S$ には $sU \subset U$ と $Us \subset U$ が入ります。次に、$U = E$.*
 
-The set $U'$ of $x \in E$ such that $xU \subset U$ and $Ux \subset U$ is obviously a sub-A-module of $E$, which contains $S$ by hypothesis. 一方、$U'$と$u \in U$の$x, y$については、仮定により
+$xU \subset U$ と $Ux \subset U$ が明らかに $E$ のサブ A モジュールである $x \in E$ の集合 $U'$ は、含む $S$ by 仮定です。一方、$U'$と$u \in U$の$x, y$については、仮定までに
 
 $$
 (xy)u = x(yu) + a(x, y, u) = x(yu) - a(x, u, y) = x(yu) - (xu)y + x(uy) \in U;
 $$
 
-移行から反対多元環も同様に $u(xy) \in U$ になります。したがって、$U'$ は $E$ の部分代数であり、含む $S$ であるため、$U' = E$ です。したがって、$EU \subset U$ と *なおさら* $UU \subset U$ は、$U$ が $E$ の部分代数であることを証明します。 含む $S$、$U = E$ となり、補題が証明されます。
+移行から反対多元環にも、同様に $u(xy) \in U$ があります。したがって、$U'$ は $E$ の部分代数であり、含むなので $S$、$U' = E$ です。したがって、$EU \subset U$ と *なおさら* $UU \subset U$ は、$U$ が $E$ の部分代数であることを証明します。 含む $S$、$U = E$ となり、補題が証明されます。
 
-$F$ の部分集合 $H$ は、元 $u, v, w$ 属するから $H$ の *少なくとも 2 つ* の場合、$a(u, v, w) = 0$ は *強結合* と呼ばれます。
+部分集合 $H$ の $F$ は、元 $u, v, w$ 属する ～ $H$ の *少なくとも 2 つ* の場合、$a(u, v, w) = 0$ は *強結合* と呼ばれます。
 
 #### 補題 3 {#alg-iii-a0-lem-3 .statement tag=069D}
 

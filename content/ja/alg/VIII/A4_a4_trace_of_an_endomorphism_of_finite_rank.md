@@ -23,16 +23,16 @@ subsections:
       pdf_page: 481
 statements: 5
 exercises: 2
-content_sha256: 16346dab2041d5a923ddd48bd7fcbd2feff339ab7d57d4d22e0b5ee3261255fb
+content_sha256: a5a05e2101df47f65aed3ce9b3801f88ec02cd2bfd158437f94398269e682b43
 translated_from: content/en/alg/VIII/A4_a4_trace_of_an_endomorphism_of_finite_rank.md
 translation_method: google
 source_content_sha256: b21c8fa64810e183438c648b465f555368181eb6b34b8b9afdc829259a3d239d
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: c19645598a5de7cd9faa1cbf5c8b80e964072cafb33e0607dcb7fe6f84726e05
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 付録 4 の自己準同型の有限階数のトレース
@@ -79,7 +79,7 @@ $x\in E$ごとに、したがって$u=\theta (\sum_{j\in J}x^*_j\otimes p(y_j))$
 
 ### 2. 有限階数の自己準同型の痕跡
 
-この小節において、Aは可換環を表します。 E を射影 A-加群とします。 Then End$^f_A(E)$ is an A-submodule of End$_A$(E), and the canonical mapping $E^*\otimes_AE\rightarrow$ End$_A(E)$ defines an isomorphism $\theta_E$ of A-modules from $E^*\otimes_AE$ to End$^f_A(E)$ (Lemma 1). 公式 $\tau (x^*\otimes x) =\langle x, x^*\rangle$ によって特徴付けられる正規の線型形式 $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3、p. 273) を考えてみましょう。 これを同型 $\theta^{-1}_E$ で合成すると、線型形式 Tr : End$^f_A(E)\rightarrow A$ が推定され、トレース形と呼ばれます。 A-加群 E が有限生成されると、II, §4, No. 3, p. 273 の定義が回収されます。
+この小節において、Aは可換環を表します。 E を射影 A-加群とします。 この場合、End$^f_A(E)$ は End$_A$(E) の A 部分加群であり、正規写像 $E^*\otimes_AE\rightarrow$ End$_A(E)$ は、$E^*\otimes_AE$ から End$^f_A(E)$ までの A 加群の同型写像 $\theta_E$ を定義します (補題 1)。 公式 $\tau (x^*\otimes x) =\langle x, x^*\rangle$ によって特徴付けられる正規の線型形式 $\tau : E^*\otimes_AE\rightarrow A$ (II, §4, No. 3、p. 273) を考えてみましょう。 これを同型 $\theta^{-1}_E$ で合成すると、線型形式 Tr : End$^f_A(E)\rightarrow A$ が推定され、トレース形と呼ばれます。 A-加群 E が有限生成されると、II, §4, No. 3, p. 273 の定義が回収されます。
 
 #### 命題 1 {#alg-viii-a4-prop-1 .statement tag=00QP}
 
@@ -115,7 +115,7 @@ det(1$_E+u$) $=\sum_{p\geqslant 0}$ Tr $\wedge^pu$
 
 $u\in$ 終了$^f_A(E)$ 用。
 
-If E is free and finite-dimensional, then this definition agrees with that of III, §8, No. 1, p. 522, by the corollary of III, §8, No. 5, p. 530.
+E が自由で有限次元の場合、この定義は、III, §8, No. 5、p. 530 の結果から、III, §8, No. 1、p. 522 の定義と一致します。
 
 #### 命題 3 {#alg-viii-a4-prop-3 .statement tag=00QS}
 

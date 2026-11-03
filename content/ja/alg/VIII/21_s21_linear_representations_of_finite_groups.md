@@ -66,16 +66,16 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: 5e59a346c33a5e9b5a7f69efd0bd090d54b39de70e1f6b3253c189024aabe631
+content_sha256: a39b4fae8ba03a1a6aca3fa70ca2b80ef512889332253d738436b2b66e489a0a
 translated_from: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md
 translation_method: google
 source_content_sha256: 9b88499ec4cd1b75b385f04753440e80043e0341bcb3af756c5dd1b9f9bd76d6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cec170b187b96a5548694b303eede09b2db6189eab902907d550fdb3745008f0
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 21。 有限群中線型表現
@@ -130,7 +130,7 @@ a) $\pi (g)$ と $\pi '(g)$ の特性多項式がすべての $g\in G$ で同じ
 
 b) さらに、K が標数 0 を持つとします。指標 $\chi_{\pi}$ と $\chi_{\pi'}$ が等しい場合、表現 $\pi$ と $\pi '$ は同型です。
 
-Assertion a) follows from Corollary 1 of VIII, p. 386; assertion b) follows from part a) of the corollary of VIII, p. 384.
+主張 a) 系 1/VIII、p. 386 から続きます。 主張 b) は、VIII、p. 384 の系の部分 a) から続きます。
 
 #### 例 1 {#alg-viii-s21-n1-exa-1 .statement tag=00NE}
 
@@ -336,7 +336,7 @@ G のすべての有限次元線型表現 $\pi$ に対して。 環準同型で�
 
 H のすべての有限次元線型表現 $\sigma$ に対して。
 
-By relations (1) of VIII, p. 399 and (3) of VIII, p. 400 and the universal property of Grothendieck groups mentioned above, there exists a ring homomorphism $\Theta_G$ from $R_K(G)$ to the algebra $\mathscr{Z}_K(G)$ of central functions on G, characterized by $\Theta_G([\pi ]) =\chi_{\pi}$ for every finite-dimensional representation $\pi$ of G.
+VIII、p. 399 の関係 (1) および VIII、p. 400 の関係 (3) と上記のグロタンディーク群の普遍的性質により、G 上の中心関数の代数 $\mathscr{Z}_K(G)$ への $R_K(G)$ から環準同型性 $\Theta_G$ が存在し、すべての関数に対して $\Theta_G([\pi ]) =\chi_{\pi}$ によって特徴付けられます。 G の有限次元表現 $\pi$
 
 H が G の部分群である場合、群 G と H に関連付けられた準同型 $\Theta_G$ と $\Theta_H$ は、演算 Res$^G_H$ および Ind$^G_H$ (VIII、p. 402、VIII、 p. 404、命題 3)。
 
@@ -471,7 +471,7 @@ $x\in V_{\lambda},x^*\in V^*_{\lambda},y\in V_\mu$、および$y^*\in V^*_\mu$�
 
 #### 注意 {#alg-viii-s21-n6-rem-1 .statement tag=00NS}
 
-同一視する代数 $V_{\lambda}$ の基底 $(e_{\lambda ,j})$ を経て、 行列環 $\mathbf{M}_{d_{\lambda}}(K)$ で$_K(V_{\lambda})$ が終わります。 写像 $\mathscr{F}^{-1}$ は、代数 $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ から代数 K[G] までの同型です。 For $\mu\in \widehat{G}$, denote by $E^\mu_{ij}$ the element of $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ whose component of index $\mu$ is the matrix unit $E_{ij}$ of $\mathbf{M}_{d_\mu}(K)$ (II, §10, No. 3, p. 341) and whose other components are zero; set $u^\mu_{ij}=\mathscr{F}^{-1}(E^\mu_{ij})$. $\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}$、$1\leqslant j\leqslant d_{\lambda}$ の元 $u^{\lambda}_{ij}$ の族は、代数 K[G] の基底です。 乗法表は
+同一視する代数 $V_{\lambda}$ の基底 $(e_{\lambda ,j})$ を経て、 行列環 $\mathbf{M}_{d_{\lambda}}(K)$ で$_K(V_{\lambda})$ が終わります。 写像 $\mathscr{F}^{-1}$ は、代数 $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ から代数 K[G] までの同型です。 $\mu\in \widehat{G}$ の場合、インデックス $\mu$ の成分が $\mathbf{M}_{d_\mu}(K)$ (II, §10, No. 3, p. 341) の行列単位 $E_{ij}$ であり、他の成分がゼロである $\prod_{\lambda}\mathbf{M}_{d_{\lambda}}(K)$ の要素を $E^\mu_{ij}$ で表します。 $u^\mu_{ij}=\mathscr{F}^{-1}(E^\mu_{ij})$を設定します。 $\lambda \in \widehat{G}, 1\leqslant i\leqslant d_{\lambda}$、$1\leqslant j\leqslant d_{\lambda}$ の元 $u^{\lambda}_{ij}$ の族は、代数 K[G] の基底です。 乗法表は
 
 $$
 u^{\lambda}_{ij}u^\mu_{k\ell}=\delta_{\lambda \mu}\delta_{jk}u^{\lambda}_{i\ell} \tag{26}
@@ -557,7 +557,7 @@ $f$ を G の中心写像とし、$u$ を H の中心写像とします。
 
 (33) $\langle$Ind$^G_H(u), f\rangle_G=\langle u$、Res$^G_H(f)\rangle_H$。
 
-The characters of the simple representations of G form a basis of Z(K[G]) (VIII, p. 411, Proposition 5), and the same holds for H. したがって、$f$ が G の単純な表現 $\pi$ の指標 $\chi_{\pi}$ であり、$u$ が H の単純な表現 $\sigma$ の指標 $\chi_{\sigma}$ である場合、(33) を確立するだけで十分です。 この場合、Ind$^G_H(u)$ は G の表現 Ind$^G_H(\sigma )$ の指標であり、VIII、p. 410、系により、次のようになります。
+単純な G の指標表現 Z(K[G]) の形基底 (VIII, p. 411, 命題 5)、そして同じことが H にも当てはまります。 したがって、$f$ が G の単純な表現 $\pi$ の指標 $\chi_{\pi}$ であり、$u$ が H の単純な表現 $\sigma$ の指標 $\chi_{\sigma}$ である場合、(33) を確立するだけで十分です。 この場合、Ind$^G_H(u)$ は G の表現 Ind$^G_H(\sigma )$ の指標であり、VIII、p. 410、系により、次のようになります。
 
 $\langle$Ind$^G_H(u), f\rangle_G=$ (dim$_K$ Hom$_G$(Ind$^G_H(\sigma ), \pi$ ))$\cdot 1$。
 
@@ -619,13 +619,13 @@ $$
 a_{\lambda}a_\mu=\delta_{\lambda \mu}a_{\lambda}d^{-1}_{\lambda}f(1)
 $$
 
-$\lambda , \mu\in \widehat{G}$の場合。 特に、$\lambda \not=\mu$ の場合は常に $a_{\lambda}a_\mu= 0$ です。 Consequently, there exists at most one element $\lambda$ of $\widehat{G}$ such that $a_{\lambda}\not= 0$, and we have $f=a_{\lambda}\chi_{\lambda}$, and therefore (i).
+$\lambda , \mu\in \widehat{G}$の場合。 特に、$\lambda \not=\mu$ の場合は常に $a_{\lambda}a_\mu= 0$ です。 従って、$a_{\lambda}\not= 0$ となる$\widehat{G}$ の要素 $\lambda$ は最大 1 つ存在し、$f=a_{\lambda}\chi_{\lambda}$ が存在するため、(i) になります。
 
 ### 9. アーベル群の場合
 
 この小節では、群 G がアーベルであると仮定します。
 
-シュールの補題 (VIII、p. 48、系 1) によれば、G のすべての単純な表現には次元 1 が含まれます。 $(M, \pi )$ をその表現とし、$\chi$ をその指標とします。 $g\in G$ と $x\in M$ ごとに、$\pi (g)(x) =\chi (g)x$ があります。 従って、指標 $\chi$ は、G から K の乗法群 $K^*$ までの準同型です。 逆に、G から $K^*$ までのすべての準同型は、次数 1 の G の表現の指標です。 So the set $\widehat{G}$ of classes of simple K[G]-modules can be identified with the set Hom(G$,K^*$) of homomorphisms from G to $K^*$. このことから、$\widehat{G}$ でアーベル群構造を推測します。 $\widehat{G}$ 対応するから表現のテンソル積までの積。 群 G と $\widehat{G}$ は、VIII、p. 411 の命題 5 によって同じ基数を持ちます。 G 上のすべての写像が中心であり、$\widehat{G}$ は G から K までの写像のベクトル空間の基底です (上記参照)。 指標に対する直交関係のため、そのような写像 $f$ は、基底 $\widehat{G}:$ に関して次の一意の分解を持ちます。
+シュールの補題 (VIII、p. 48、系 1) によれば、G のすべての単純な表現には次元 1 が含まれます。 $(M, \pi )$ をその表現とし、$\chi$ をその指標とします。 $g\in G$ と $x\in M$ ごとに、$\pi (g)(x) =\chi (g)x$ があります。 従って、指標 $\chi$ は、G から K の乗法群 $K^*$ までの準同型です。 逆に、G から $K^*$ までのすべての準同型は、次数 1 の G の表現の指標です。 従って、単純な K[G] 加群のクラスの集合 $\widehat{G}$ は、G から $K^*$ までの準同型写像の集合 Hom(G$,K^*$) と識別できます。 このことから、$\widehat{G}$ でアーベル群構造を推測します。 $\widehat{G}$ 対応するから表現のテンソル積までの積。 群 G と $\widehat{G}$ は、VIII、p. 411 の命題 5 によって同じ基数を持ちます。 G 上のすべての写像が中心であり、$\widehat{G}$ は G から K までの写像のベクトル空間の基底です (上記参照)。 指標に対する直交関係のため、そのような写像 $f$ は、基底 $\widehat{G}:$ に関して次の一意の分解を持ちます。
 
 $$
 f=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\chi \tag{39}
@@ -637,7 +637,7 @@ $$
 \langle f, f'\rangle_G=\sum_{\chi\in\widehat{G}}\langle \chi , f\rangle_G\langle \chi , f'\rangle_G \tag{40}
 $$
 
-$(V, \pi )$ を G の線型表現とします。 For any $\chi \in \widehat{G}$, denote by $V^{\chi}$ the subspace of V consisting of the vectors $v$ such that $\pi (g)(v) =\chi (g)v$ for every $g\in G$. 空間 $V^{\chi}$ は、K[G] モジュール V の型 $\chi$ の同型成分です。 空間 V は家族 $(V^{\chi})_{\chi\in\widehat{G}}$ の直和であり、この分解に関連付けられた像 $V^{\chi}$ を持つ V の射影子 $p_{\chi}$ は次のように与えられます。
+$(V, \pi )$ を G の線型表現とします。 任意の $\chi \in \widehat{G}$ について、$g\in G$ ごとに $\pi (g)(v) =\chi (g)v$ となるようなベクトル $v$ から構成される V の部分空間を $V^{\chi}$ で表します。 空間 $V^{\chi}$ は、K[G] モジュール V の型 $\chi$ の同型成分です。 空間 V は家族 $(V^{\chi})_{\chi\in\widehat{G}}$ の直和であり、この分解に関連付けられた像 $V^{\chi}$ を持つ V の射影子 $p_{\chi}$ は次のように与えられます。
 
 $$
 p_{\chi}=|G|^{-1}\sum_{g\in G}\chi (g^{-1})\pi (g) \tag{41}
@@ -681,7 +681,7 @@ $\mathbf{Z}$加群$A\cap \mathbf{Q}$は有限生成されるため、$A\cap \mat
 
 ### 12. 基礎体中変更
 
-以前の小節の記法を保持します。 Let $K'$ be an algebraically closed field such that the element $n\cdot 1$ of $K'$ is not zero. 群 $\mu_n(K)$ と $\mu_n(K')$ は、位数 $n$ (V, §11, No. 2、p. 78、定理 1) の循環です。 選ぶ同型 $\varphi$ $\mu_n(K)$ から $\mu_n(K')$ まで。 $\pi$ を有限次元 K-ベクトル空間における G の線型表現とし、$\pi '$ を有限次元 $K'$ ベクトル空間における G の線型表現とする。 すべての $g\in G$ と $\omega \in \mu_n$(K) について、 $\pi (g)$ の固有値が次のように $\omega$ の重複度が $\varphi (\omega )$ の重複度に等しい場合、 $\pi$ と $\pi '$ は ( $\varphi$ を通じて) 関連していると言います。 $\pi '(g)$中固有値。 この場合、$g= 1$ を取るとわかるように、$\pi$ と $\pi '$ は同じ次元を持ちます。
+以前の小節の記法を保持します。 $K'$ を、$K'$ の要素 $n\cdot 1$ がゼロではないような代数的に閉じた体とする。 群 $\mu_n(K)$ と $\mu_n(K')$ は、位数 $n$ (V, §11, No. 2、p. 78、定理 1) の循環です。 選ぶ同型 $\varphi$ $\mu_n(K)$ から $\mu_n(K')$ まで。 $\pi$ を有限次元 K-ベクトル空間における G の線型表現とし、$\pi '$ を有限次元 $K'$ ベクトル空間における G の線型表現とする。 すべての $g\in G$ と $\omega \in \mu_n$(K) について、 $\pi (g)$ の固有値が次のように $\omega$ の重複度が $\varphi (\omega )$ の重複度に等しい場合、 $\pi$ と $\pi '$ は ( $\varphi$ を通じて) 関連していると言います。 $\pi '(g)$中固有値。 この場合、$g= 1$ を取るとわかるように、$\pi$ と $\pi '$ は同じ次元を持ちます。
 
 $\pi_1$ と $\pi_2$ (それぞれ $\pi '_1$ と $\pi '_2$) を K (それぞれ $K'$) 上の有限次元ベクトル空間における G の線型表現とします。次のようなプロパティがあります。
 
@@ -753,7 +753,7 @@ $$
 
 同様に定義する $\delta '(T)$とし、$\pi_{\lambda'}(g)$の固有値を$\omega '_1, . . . , \omega '_{d_{\lambda'}}$で表します。 $\mathscr{O}$ モジュール $\mathscr{O}[G]$ には基底 G があり、K-ベクトル空間 K[G] には基底 G があります。 $\mathscr{O}$[T]-モジュール $\mathscr{O}[T]\otimes_{\mathscr{O}}\mathscr{O}[G]$ の乗法の $1 +e_{\lambda}gT$ を Δ(T) 行列式で表します。 これは、K[T] モジュール $K[T]\otimes_KK[G]$ の $1 +e_{\lambda}gT$ による乗法の行列式でもあります。 $\overline{\varphi}_1$ を $\mathscr{O}[T]$ から $K'[T]$ までの準同型 、拡大する $\varphi_1$ とし、T を T に送信します。 G は、$K'$ ベクトル空間 $K'[G]$ の基底であるため、多項式 $\overline{\varphi}_1(\Delta (T))$ は、$K'$ ベクトル空間 $K'[G]$ の乗法の $1 +e_{\lambda'}gT$ の行列式 $\Delta '(T)$ に等しくなります。
 
-代数 K[G] は、$\mathscr{S}_K(G)$ を通る $\mu$ の単純成分 $e_\mu K[G]$ の直和です。 $\mu$は$\lambda$と異なり、元$e_{\lambda}g$は$e_\mu K[G]$を全滅させます。 Moreover, multiplication by $e_{\lambda}g$ coincides with multiplication by $g$ in $e_{\lambda}K[G]$. VIII、p. 409、例を考慮すると、$e_{\lambda}K[G]$ の G の 6VIII、p. 400、表現は、$d_{\lambda}$ 表現の類 $\lambda$ の直和です。 従って、$\Delta (T) =\delta (T)^{d_{\lambda}}$ になります。
+代数 K[G] は、$\mathscr{S}_K(G)$ を通る $\mu$ の単純成分 $e_\mu K[G]$ の直和です。 $\mu$は$\lambda$と異なり、元$e_{\lambda}g$は$e_\mu K[G]$を全滅させます。 さらに、$e_{\lambda}g$の乗算は、$e_{\lambda}K[G]$の$g$の乗算と一致します。 VIII、p. 409、例を考慮すると、$e_{\lambda}K[G]$ の G の 6VIII、p. 400、表現は、$d_{\lambda}$ 表現の類 $\lambda$ の直和です。 従って、$\Delta (T) =\delta (T)^{d_{\lambda}}$ になります。
 
 同様に、$\Delta '(T) =\delta '(T)^{d_{\lambda'}}$ もあります。
 
@@ -785,7 +785,7 @@ $K'$ が $K$ の拡大であり、同型 $\varphi$ が写像 $\xi \mapsto \xi \c
 
 #### 系 2 {#alg-viii-s21-prop-10-cor-2 .statement tag=00O4}
 
-*The dimension of each simple representation of $G$ divides the order of $G$*.
+*それぞれの単純な次元 $G$ 割る位数 $G$* の表現。
 
 これは、VIII、p. 415 の命題 10 と命題 9 に続きます。
 
@@ -821,7 +821,7 @@ R_{K'}(H) & \xrightarrow{\operatorname{Ind}_H^{G'}} & R_{K'}(G) .
 \end{array}
 $$
 
-最初の図式の可換性は明らかであり、2 番目の⟧ はフロベニウスの相互法則と公式を使用してそこから導き出されます (47)。
+最初の図の可換性は明らかであり、2 番目の図の可換性は、フロベニウスの相反性と式 (47) を使用してそこから導き出されます。
 
 #### 注意 5 {#alg-viii-s21-n12-rem-5 .statement tag=00O8}
 

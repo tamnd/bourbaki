@@ -42,16 +42,16 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: 5731d143c0866a0f47e7470f09255c50b03b8be4cfe830a0ddc2991d5dd511e8
+content_sha256: f1de8042aaa32a5af91cb60df47c99d3f37de80190b5696dc02a024897e9fe79
 translated_from: content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md
 translation_method: google
 source_content_sha256: b311e3c926d1c35b21ba3909e0ec3e0584eb38f0337ee0f5d814716a0a8f67c8
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: cc545ade5ae0d3f9e937fb723809ddc1077ca32eb7aa6c45b2d4db0d3b2e8064
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 12。 半単純加群中テンソル積
@@ -64,7 +64,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 #### 命題 1 {#alg-viii-s12-prop-1 .statement tag=00E6}
 
-Let $M_1$ be an $A_1$-module and $M_2$ an $A_2$-module, neither reduced to 0. 環 $A = A_1\otimes A_2$ 上の加群 $M = M_1\otimes M_2$ が単純 (それぞれ等型、半単純) である場合、$A_1$ モジュール $M_1$ と $A_2$ モジュール $M_2$ は単純です (それぞれ等型、 半単純）。
+$M_1$ を $A_1$ モジュール、$M_2$ を 0 に減らさない $A_2$ モジュールとします。 環 $A = A_1\otimes A_2$ 上の加群 $M = M_1\otimes M_2$ が単純 (それぞれ等型、半単純) である場合、$A_1$ モジュール $M_1$ と $A_2$ モジュール $M_2$ は単純です (それぞれ等型、 半単純）。
 
 M が半単純A-加群であるとします。 $N_1$ を $M_1$ の $A_1$ サブモジュールとします。 A-加群 M の $N_1\otimes M_2$ の標準像を N で表します。 VIII、p. 56 の系 2 により、M に像 N を持つ A 線形射影子 $p$ が存在します。 仮定により、 $M_2\not= 0$ を持っています。従って、$M_2$ の選ぶ元 $m$ と K-ベクトル空間 $M_2$ の線型形式 $\varphi$ は、$\varphi (m) = 1$ (II, §7, No. 5, p. 302, 系) のようになります2)。 $u$ を $M_1$ から $u(m_1) =m_1\otimes m$ で定義される M までの写像とし、$v$ を $v(m_1\otimes m_2) =\varphi (m_2)m_1$ で特徴付けられる M から $M_1$ までの K-線型写像とします。 集合 $q=v\circ p\circ u$。 写像 $q: M_1\rightarrow M_1$ は $A_1$ 線形で、その像は $N_1$ に含まれており、$n\in N_1$ ごとに $q(n) =n$ があります。その結果、$q$は$M_1$の像$N_1$で射影子となります。 $M_1$ が半単純 $A_1$ モジュール (VIII, p. 56, 系 2) であることを証明しました。
 
@@ -90,7 +90,7 @@ $s_1\in S_1$ と $s_2\in S_2$ ごとに。 S は単純A-加群で、$\psi$ は�
 
 体 K が代数的に閉じていると仮定します。
 
-a) $M_1$ を $A_1$ モジュール、$M_2$ を $A_2$ モジュールとし、両方とも単純 (それぞれ半単純) で K 上の有限次元とします。 この場合、$M_1\otimes M_2$ は、環 $A_1\otimes A_2$ 上の単純 (それぞれ半単純) 加群であり、K 上の有限次元です。
+a) $M_1$ を $A_1$ 加群、$M_2$ を $A_2$ 加群とし、両方とも単純 (それぞれ半単純) と K 上の有限次元とする。すると、$M_1\otimes M_2$ は単純 (それぞれ半単純) 環上の加群となる。 $A_1\otimes A_2$ であり、K 上の有限次元です。
 
 b) The mapping from $\mathscr{S}_K(A_1)\times \mathscr{S}_K(A_2)$ to $\mathscr{S}_K(A_1\otimes A_2)$ that sends (cl(S$_1$), cl(S$_2$)) to cl(S$_1\otimes S_2$), where $S_1($resp. $S_2)$ is a simple $A_1$-module (resp. $A_2$-module) that is finite-dimensional over K, is bijective.
 
@@ -104,7 +104,7 @@ S が K 上の有限次元である $A_1\otimes A_2$ 上の単純加群である
 
 #### 注意 2 {#alg-viii-s12-n1-rem-2 .statement tag=00EA}
 
-関係 $\varphi ([M_1]\otimes [M_2]) = [M_1\otimes M_2]$ によって特徴付けられる $R_K(A_1)\otimes_{\mathbf{Z}}R_K(A_2)$ から $R_K(A)$ までの準同型 $\varphi$ が存在します。 これは、VIII、p. 196の命題9と同様に証明できます。 If the field K is algebraically closed, then $\varphi$ is an isomorphism from $R_K(A_1)\otimes_ZR_K(A_2)$ to $R_K(A)$ by Theorem 1, b) because for every K-algebra B, the $\mathbf{Z}$-module $R_K(B)$ is free with basis the family $([S])_{S\in\mathscr{S}_K(B)}$ (VIII, p. 195).
+関係 $\varphi ([M_1]\otimes [M_2]) = [M_1\otimes M_2]$ によって特徴付けられる $R_K(A_1)\otimes_{\mathbf{Z}}R_K(A_2)$ から $R_K(A)$ までの準同型 $\varphi$ が存在します。 これは、VIII、p. 196の命題9と同様に証明できます。 体 K が代数的に閉じている場合、定理 1、b) により、$\varphi$ は $R_K(A_1)\otimes_ZR_K(A_2)$ から $R_K(A)$ までの同型写像です。これは、すべての K 代数 B について、$\mathbf{Z}$ 加群 $R_K(B)$ が族 $([S])_{S\in\mathscr{S}_K(B)}$ (VIII, p. 195) を基にして自由であるためです。
 
 ### 2. 単純加群中テンソル積
 
@@ -150,7 +150,7 @@ $u(s\otimes d) = 1\otimes d\otimes s$ で定義される $T = S_1\otimes (D_2)_d
 
 環 $D = D_1\otimes D_2$ が半単純 (それぞれ単純、体) である場合に限り、環 $A_1\otimes A_2$ に対する加群 $S_1\otimes S_2$ は半単純 (それぞれ同型、単純) です。特に、$S_1$ または $S_2$ の交換子環が K に等しい場合、$S_1\otimes S_2$ は単純です。
 
-定理 2 により、右D-加群 $(D_1\otimes D_2)_d$ が (VIII, p. 109, 命題) である場合に限り、環 $D_1\otimes D_2$ を超える加群 $S_1\otimes S_2$ は半単純 (それぞれ同型、単純) になります。 10)。 Now the right D-module $D_d$ is simple if and and only if D is a field; it is isotypical (resp. semisimple) if and only if the ring D is simple (resp. semisimple) (VIII, p. 120, Definition 1; VIII、p. 121、系 1;およびVIII、p. 137、命題 2)。
+定理 2 により、右D-加群 $(D_1\otimes D_2)_d$ が (VIII, p. 109, 命題) である場合に限り、環 $D_1\otimes D_2$ を超える加群 $S_1\otimes S_2$ は半単純 (それぞれ同型、単純) になります。 10)。 さて、右側の D モジュール $D_d$ は、D がフィールドである場合にのみ単純です。環 D が単純 (または半単純) である場合に限り、それは同型 (または半単純) です (VIII, p. 120、定義 1; VIII、p. 121、系 1;およびVIII、p. 137、命題 2)。
 
 #### 系 2 {#alg-viii-s12-thm-2-cor-2 .statement tag=00ED}
 
@@ -164,7 +164,7 @@ $\mathfrak{R}_A(M) =\mathfrak{R}(D)M$ があります。 A-加群 M は根基な
 
 $Z_1$ と $Z_2$ を K 上の半単純可換代数とします。 環 $Z_1\otimes Z_2$ の根基は、その冪零元の集合に等しいです。
 
-まず、$Z_1$ と $Z_2$ が体 K の拡大 $L_1$ と $L_2$ である場合を扱います。 必要に応じて交換すること $L_1$ と $L_2$ によって、K 上の $L_1$ の超越次数が K 上の $L_2$ の超越値よりも小さい場合に簡約するします。 $L_2$ の選ぶ代数閉包 Ω; 系 1 of 定理 5 of V, §14, No. 6、p. 114 により、$L_1$ は Ω の部分拡張であると仮定できます。
+まず、$Z_1$ と $Z_2$ が体 K の拡大 $L_1$ と $L_2$ である場合を扱いましょう。 必要に応じて交換すること $L_1$ と $L_2$ によって、超越的な場合のケースに簡約するを適用します。 K に対する $L_1$ の次数は、K に対する $L_2$ のそれより小さいです。 $L_2$ の選ぶ代数閉包 Ω; 系 1 of 定理 5 of V, §14, No. 6、p. 114 により、$L_1$ は Ω の部分拡張であると仮定できます。
 
 A) まず、$L_1\otimes L_2$ の根基が $L_1\otimes \Omega$ の中に含まれていることを証明しましょう。 集合 $\mathfrak{a}=\mathfrak{R}(L_1\otimes L_2)(L_1\otimes \Omega )$;それは可換環 $L_1\otimes \Omega$ の理想であり、$L_1\otimes \Omega$ の根基に $\mathfrak{a}$ が含まれるという証明しなければならないです。他の語 (VIII、p. 156、定理 1) では、$x\in \mathfrak{a}$ に対して、元 $1 +x$ は $L_1\otimes \Omega$ で反転可能であることが証明しなければならないわかります。さて、Ωは$L_2$の代数拡大なので、$L_2$、有限次数の拡大$L_3$が存在し、$x$属するから$\mathfrak{R}(L_1\otimes L_2)(L_1\otimes L_3)$になります。 $1 +x$ が $L_1\otimes L_3$ で可逆であることを証明するには明らかに十分です。現在、$C = L_1\otimes L_3$ は環 $B = L_1\otimes L_2$ を超えて有限生成加群です。 VIIIの系、p. 175により、$\mathfrak{R}(B)C\subset \mathfrak{R}$(C)が得られるので、$x$の属するからCの根基と$1 +x$はCで反転可能です。
 
@@ -206,7 +206,7 @@ $$
 
 $x,y$ と $A_i$ の $z$ です。 $B_i$ 加群 $A_i$ の交換子環は、$Z_i$ の元による相似関数の $(Z_i)_{A_i}$、集合です。私たちは同一視すると $Z_i$ です。さらに、$A_i$の$B_i$部分加群は$A_i$の両側イデアルであり、環$A_i$は単純なので、両側イデアルは0と$A_i$だけです。したがって、$A_i$ は単純な $B_i$ モジュールです。さらに、$A_1\otimes A_2$ の$(B_1\otimes B_2$) サブモジュールは、環 $A_1\otimes A_2$ の両面理想です。
 
-Assertion a) therefore follows from VIII, p. 214, Theorem 2, b) applied to the simple $B_1$-module $A_1$, with commutant $Z_1$, and to the simple $B_2$-module $A_2$, with commutant $Z_2$.
+したがって、主張 a) は、VIII、p. 214、定理 2 から導かれ、b) 可換項 $Z_1$ を持つ単純な $B_1$ モジュール $A_1$ と可換項 $Z_2$ を持つ単純な $B_2$ モジュール $A_2$ に適用されます。
 
 主張 b) を証明しましょう。 A の最大両側イデアルの共通部分は、$(B_1\otimes B_2$) 加群 $A_1\otimes A_2$ の根基です。 系 2 の VIII、p. 215、この共通部分一致すると $\mathfrak{R}(Z)A$ による。 代数 $Z_1$ と $Z_2$ は可換であり、半単純です。したがって、環 Z の根基は冪零元 (VIII、p. 215、定理 3) で構成され、環 A の両側理想$\mathfrak{R}(Z)A$ は根基 $\mathfrak{R}(A)$ に含まれます。 (VIII、p. 157、注意1)。ただし、含む $\mathfrak{R}(A)$ の最大両面理想のうち共通部分 (VIII、p. 155、命題 5、d))。これは主張 b) を証明します。
 

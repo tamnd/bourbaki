@@ -37,16 +37,16 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: 60cc27798d7e2fe9127f966d239e7d5dabcaea0b648d76c2ec271db89268150a
+content_sha256: 2438be57c859a50d348e7e973b3443bd373d157a77a8e0b89e36908f13432ef5
 translated_from: content/en/ac/VI/03_s3_valuations.md
 translation_method: google
 source_content_sha256: 53da8eeb6a8932911f9fa4e5bb93b698a2373f5f22e0893d102d4323fd2301f1
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: d3c8689a595548b7679e4ca460d7ff94c4adae72532f9a65ddbab247e1611baa
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 3. 評価
@@ -59,7 +59,7 @@ $$
 (+\infty) + (+\infty) = +\infty, \quad a + (+\infty) = +\infty
 $$
 
-for all $\alpha \in \Gamma$; it is immediately verified that this law is associative and commutative and that the relation $\alpha_1 \leq \beta$ in $\Gamma_\infty$ implies $\alpha_1 + \gamma \leq \beta + \gamma$ for all $\gamma \in \Gamma_a$.
+すべての$\alpha \in \Gamma$;この法則が結合的かつ交換的であること、および$\Gamma_\infty$ の関係$\alpha_1 \leq \beta$ がすべての $\gamma \in \Gamma_a$ について$\alpha_1 + \gamma \leq \beta + \gamma$ を意味することがすぐに検証されます。
 
 #### 定義 1 {#ac-vi-s3-def-1 .statement tag=04T2}
 
@@ -69,7 +69,7 @@ for all $\alpha \in \Gamma$; it is immediately verified that this law is associa
 (VL_{II}) $v(x + y) \geq \inf(v(x), v(y))$ は $x \in C, y \in C$ です。
 (VL_{III}) $v(1) = 0$ と $v(0) = +\infty$。
 
-If $C$ has no divisor of zero other than 0, the unique mapping $v_0$ of $C$ to $\Gamma_\infty$ such that $v_0(x) = 0$ for $x \neq 0$ and $v_0(0) = +\infty$ is a valuation, called the *improper valuation* on $C$. If $z \in C$ is such that $z^n = 1$ for some integer $n \geq 1$, then, by (VL_I), $nv(z) = v(z^n) = 0$ and hence $v(z) = 0$ for *every* valuation $v$ on $C$, since $\Gamma$ is a totally ordered group. 特に $v(-1) = 0$、よって $v(-x) = v(x)$ はすべての $x \in C$ に対してです。 さらに、(VL_I) から、$C$ のすべての $x, y$ に対して $v(xy) = v(yx)$ が得られます。 $x$ が $C$ で反転可能な場合、$v(x^{-1}) = -v(x)$ になります。
+$C$ に 0 以外のゼロの約数がない場合、$x \neq 0$ と $v_0(0) = +\infty$ に対して $v_0(x) = 0$ となるような、$C$ から $\Gamma_\infty$ への一意のマッピング $v_0$ は、$C$ の *不適切な評価* と呼ばれる評価になります。 If $z \in C$ is such that $z^n = 1$ for some integer $n \geq 1$, then, by (VL_I), $nv(z) = v(z^n) = 0$ and hence $v(z) = 0$ for *every* valuation $v$ on $C$, since $\Gamma$ is a totally ordered group. 特に $v(-1) = 0$、よって $v(-x) = v(x)$ はすべての $x \in C$ に対してです。 さらに、(VL_I) から、$C$ のすべての $x, y$ に対して $v(xy) = v(yx)$ が得られます。 $x$ が $C$ で反転可能な場合、$v(x^{-1}) = -v(x)$ になります。
 
 #### 命題 1 {#ac-vi-s3-prop-1 .statement tag=04T3}
 
@@ -85,7 +85,7 @@ $$
 
 #### 系 {#ac-vi-s3-n1-cor-1 .statement tag=04T4}
 
-*If a finite sequence of elements $(x_i)_{1 \leq i \leq n}$ of $C$ (for $n \geq 2$) is such that $\sum_{i=1}^n x_i = 0$, there exist at least two distinct indices $j, k$ such that*
+*$C$ ($n \geq 2$ の場合) の要素 $(x_i)_{1 \leq i \leq n}$ の有限シーケンスが $\sum_{i=1}^n x_i = 0$ となる場合、次のような少なくとも 2 つの異なるインデックス $j, k$ が存在します。
 
 $$
 v(x_j) = v(x_k) = \inf_{1 \leq i \leq n} v(x_i).
@@ -96,18 +96,18 @@ $v(x_k) = \inf_{1 \leq i \leq n} v(x_i)$、命題 1 のような添字 $k$ が 1
 注意
 (1) $v : C \to \Gamma_\infty$ が環 $B$ から $C$ の $C$ と $u : B \to C$ 準同型の評価である場合、複合写像 $B \xrightarrow{u} C \xrightarrow{v} \Gamma_\infty$ の評価は明らかです$\Gamma$に値が入った$B$。
 
-(2) Conditions (VL$_I$) and (VL$_II$) show immediately that the set $\bar{v}^{-1}(+\infty)$ is a two-sided ideal $\mathfrak{p}$ in $C$ distinct from $C$ by virtue of (VL$_III$); moreover, if $x, y$ are two elements of $C$ such that $v(xy) = +\infty$, it follows from (VL,) that necessarily $v(x) = +\infty$ or $v(y) = +\infty$; in other words, the quotient ring $C/\mathfrak{p}$ has no divisor of 0 other than 0; it is immediately verified that the mapping $\bar{v} : C/\mathfrak{p} \to \Gamma_\infty$ derived from $v$ by passing to the quotient is a valuation on $C/\mathfrak{p}$, the inverse image of $+\infty$ under this valuation reducing to 0.
+(2) 条件 (VL$_I$) と (VL$_II$) は、集合 $\bar{v}^{-1}(+\infty)$ が、$C$ とは異なる$C$ の両面理想$\mathfrak{p}$ であることを直ちに示します。 (VL$_III$);さらに、$x, y$ が $v(xy) = +\infty$ となる 2 つの $C$ の元である場合、(VL,) から必然的に $v(x) = +\infty$ または $v(y) = +\infty$ になります。他の語、商環 $C/\mathfrak{p}$には0以外の0の因子がありません。 移行から商によって$v$から導出された写像$\bar{v} : C/\mathfrak{p} \to \Gamma_\infty$は、この評価の下で0に減少する$+\infty$の$C/\mathfrak{p}$、逆像の評価であることがすぐに検証されます。
 
 ### 2. 体の評価
 
 #### 命題 2 {#ac-vi-s3-prop-2 .statement tag=04T5}
 
-$K$ を (必ずしも可換ではない) 体とし、$v$ を $\Gamma$ の値による $K$ の評価とします。 Then:
-(i) For $x \neq 0$, $v(x) \neq +\infty$.
-(ii) The set $A$ of $x \in K$ such that $v(x) \geq O$ is a subring of $K$.
-(iii) For all $a \geq O$ in $\Gamma$, the set $V$, (resp. $V'_a$) of $x \in A$ such that $v(x) > a$ (resp. $v(x) \geq a$) is a two-sided ideal of $A$ and every (left or right) ideal $\neq (O)$ of $A$ contains $m$ of the $V'_a$.
-(iv) The set $m(A)$ of $x \in A$ such that $v(x) > O$ is the greatest ideal $\#A$ in $A$; $U(A) = A - m(A)$ is the set of invertible elements of $A$ and $\kappa(A) := A/m(A)$ is a (not necessarily commutative) field.
-(v) For all $x \in K - A$, $x^{-1} \in m(A)$.
+$K$ を (必ずしも可換ではない) 体とし、$v$ を $\Gamma$ の値による $K$ の評価とします。 次に:
+(i) $x \neq 0$、$v(x) \neq +\infty$の場合。
+(ii) $v(x) \geq O$ が $K$ の部分環となるような、$x \in K$ の集合 $A$。
+(iii) $\Gamma$ のすべての $a \geq O$ について、$v(x) > a$ (それぞれ $v(x) \geq a$) が $A$ の両側イデアル、およびすべての (左または右) イデアル $\neq (O)$ となるような、$x \in A$ の集合 $V$ (それぞれ $V'_a$) $A$には、$V'_a$の$m$が含まれます。
+(iv) $v(x) > O$ が$A$ の最大の理想$\#A$ となるような$x \in A$ の集合$m(A)$。 $U(A) = A - m(A)$ は $A$ の可逆要素の集合であり、$\kappa(A) := A/m(A)$ は (必ずしも可換であるわけではない) フィールドです。
+(v) $x \in K - A$、$x^{-1} \in m(A)$ 全員に対して。
 
 主張 (i) は、$\bar{v}^{-1}(+\infty)$ が $K$ に等しくない $K$ の理想であるという事実から導き出されます。 $A$ が環であり、$V$ および $V'_a$ の両面理想であるという事実の検証は、公理 (VL$_I$)、(VL$_II$)、および (VL$_III$) のおかげで自明です。 $a$ が $A$ と $x \neq 0$ 属するから $A$ までの (たとえば左の) 理想である場合、$v(y) \geq v(x)$ となるすべての $y \in A$ は $y = zx$ と書くことができます。ここで、$z = yx^{-1}$ であるため、$v(z) = v(y) - v(x) \geq O$ となり、したがって$z \in A$;他の語の左理想 $Ax$ 含むでは $a > v(x)$ の $V'_a$ です。 集合 $U(A) = A - m(A)$ は $x \in K$ の集合で、$v(x) = 0$ になります。 $x \in U(A)$ の場合、
 $$
@@ -125,7 +125,7 @@ $A$ (それぞれ $m(A)$、$\kappa(A)$) は、$K$ での評価 $v$ の環 (そ�
 
 Suppose $v$ and $v'$ are equivalent; by hypothesis, the ring $A$ of the valuation $v$ being the same as that of $v'$, $v$ and $v'$ (restricted to $K^*$) factor into homomorphisms $K^* \to K^*/U(A) \xrightarrow{\mu} v(K^*)$, $K^* \to K^*/U(A) \xrightarrow{\nu} v'(K^*)$, where $\mu$ and $\nu$ are isomorphisms; moreover, the set of positive elements of $v(K^*)$ (resp. $v'(K^*)$) is the image under $\mu$ (resp. $\nu$) of the set of classes mod. $U(A)$ of elements $\neq 0$ of $m(A)$; we conclude that $A = v \circ \mu^{-1}$ solves the problem, the converse being obvious.
 
-ここで、$K$ が可換体であると仮定します。その場合、$K$、環、$A$ の評価$v$ のすべての評価$v$ は、§ 1, no. 2、定義 2 の意味での $K$ の評価環になります (これは用語を正当化します)。これは、命題 2 (c) および § 1 no. 2、定理 1 (c) の直後に続きます。 *Conversely*, recall that for every integral domain $B$ whose field of fractions is $K$ the relation of divisibility $x|y$ (equivalent to $y \in Bx$) makes $K^*$ into a preordered group, whose *associated ordered group* $\Gamma_B$ is the quotient $K^*/U(B)$ of $K^*$ by the group $U(B)$ of invertible elements of $B$, the positive elements of this group being those of $B^*/U(B)$ (where $B^* = B - \{0\}$); the mapping $x \mapsto Bx$ defines, by passing to the quotient, an isomorphism of the ordered group $K^*/U(B)$ onto the group (ordered by the relation $\supset$) of non-zero principal fractional ideals of $K$ (*Algebra*, Chapter VI, § 1, no. 5). 分数 $K$ の体を伴う環 $A$ と、群 $\Gamma_A = K^*/U(A)$ が *完全に順序付けられている* は、正確に K* の *評価環 (§ 1, no. 2, 定理 1 (d)) です。 $v_A$ が $\Gamma_A$ に対する $K^*$ の標準準同型を表す場合、$v_A$ ($v_A(0) = +\infty$ で拡張) が環が $A$ である$K$ での評価 (*正規* と呼ばれる) であるのは明らかです。 $v_A$に相当するすべての評価は$v = \sigma \circ v_A$と書くことができます。ここで、$\sigma$は$\Gamma_A$の同型を群の部分群に加え、$v$はその値（命題3）をとります。 $\sigma \circ v_A$ は、$v$ の *正準因数分解* と呼ばれます。
+ここで、$K$ が可換体であると仮定します。その場合、$K$、環、$A$ の評価$v$ のすべての評価$v$ は、§ 1, no. 2、定義 2 の意味での $K$ の評価環になります (これは用語を正当化します)。これは、命題 2 (c) および § 1 no. 2、定理 1 (c) の直後に続きます。 *Conversely*, recall that for every integral domain $B$ whose field of fractions is $K$ the relation of divisibility $x|y$ (equivalent to $y \in Bx$) makes $K^*$ into a preordered group, whose *associated ordered group* $\Gamma_B$ is the quotient $K^*/U(B)$ of $K^*$ by the $B$ の可逆要素のグループ $U(B)$、このグループの正の要素は $B^*/U(B)$ ($B^* = B - \{0\}$) の要素です。 the mapping $x \mapsto Bx$ defines, by passing to the quotient, an isomorphism of the ordered group $K^*/U(B)$ onto the group (ordered by the relation $\supset$) of non-zero principal fractional ideals of $K$ (*Algebra*, Chapter VI, § 1, no. 5). 分数 $K$ の体を伴う環 $A$ と、群 $\Gamma_A = K^*/U(A)$ が *完全に順序付けられている* は、正確に K* の *評価環 (§ 1, no. 2, 定理 1 (d)) です。 $v_A$ が $\Gamma_A$ に対する $K^*$ の標準準同型を表す場合、$v_A$ ($v_A(0) = +\infty$ で拡張) が環が $A$ である$K$ での評価 (*正規* と呼ばれる) であるのは明らかです。 $v_A$に相当するすべての評価は$v = \sigma \circ v_A$と書くことができます。ここで、$\sigma$は$\Gamma_A$の同型を群の部分群に加え、$v$はその値（命題3）をとります。 $\sigma \circ v_A$ は、$v$ の *正準因数分解* と呼ばれます。
 
 #### 命題 4 {#ac-vi-s3-prop-4 .statement tag=04T7}
 
@@ -162,7 +162,7 @@ $$
 
 *$K$を体、$v$を$K$と$K$の$K'$拡大の評価とします。 $K'$ には $v'$ という評価が存在します。その制限から $K$ は $v$ に相当します。*
 
-$\Gamma_v$ と $\Gamma_{v'}$ を $v$ と $v'$ の位数群とします。 Since the restriction of $v'$ to $K$ is equivalent to $v$, there exists an isomorphism $A$ of $\Gamma_v$ onto a subgroup of $\Gamma_{v'}$, such that $v' = A \circ v$ on $K$. $\Gamma_v$ を $\lambda$ によって $\lambda(\Gamma_v)$ と同一視すると、 $v'$ 拡大する $v$ であることがわかります。
+$\Gamma_v$ と $\Gamma_{v'}$ を $v$ と $v'$ の位数群とします。 $v'$ から $K$ への制限は $v$ と同等であるため、$\Gamma_{v'}$ の部分群に対する $\Gamma_v$ の同型性 $A$ が存在し、$K$ 上の $v' = A \circ v$ が存在します。 $\Gamma_v$ を $\lambda$ によって $\lambda(\Gamma_v)$ と同一視すると、 $v'$ 拡大する $v$ であることがわかります。
 
 $\Gamma_{v'}$ は一般に $\lambda(\Gamma_v)$ とは *区別* され、$v'$ の同値類は必ずしも一意ではないことに注意してください。これについては§ 8で*戻ります*。
 
@@ -202,7 +202,7 @@ P ∈ k[X] および Q ∈ k[X] (§ 1, no. 4、系 2 ～ 命題 3) の場合。�
 
 #### 例 (5) {#ac-vi-s3-n4-exa-5 .statement tag=04TE}
 
-C[X, Y] から C((T)) までの写像 P(X, Y) ↦ P(T, e^T) は単射 (実数変数の写像、章 IV, §2、命題 9) であるため、次のようにすることができます。 C(X, Y)の同型からC((T))の部分体まで拡張されました。 The restriction to this subfield of the valuation on C((T)) defined in Example 3 defines a valuation on C(X, Y) which is improper on C, whose order group is Z and whose residue field is C.
+C[X, Y] から C((T)) までの写像 P(X, Y) ↦ P(T, e^T) は単射 (実数変数の写像、章 IV, §2、命題 9) であるため、次のようにすることができます。 C(X, Y)の同型からC((T))の部分体まで拡張されました。 例 3 で定義された C((T)) の評価のこのサブフィールドに対する制限は、C(X, Y) の評価を定義します。これは、順序群が Z で剰余フィールドが C である C では不適切です。
 
 no. 2 の命題 4 により、位数群および剰余体が与えられる評価構成するが可能になります。
 
@@ -271,23 +271,23 @@ $$
 
 #### 命題 9 {#ac-vi-s3-prop-9 .statement tag=04TL}
 
-$A$ を、分数の体とは異なるローカルな整域とします。次の条件は同等です。
+$A$ を、分数の体とは異なるローカルの整域とします。次の条件は同等です。
 (a) $A$ は個別評価の環です。
 (b) $A$ は主イデアル整域です。
 (c) 理想は$m(A)$が主で、$\bigcap_{n=1}^{\infty} m(A)^n = (0)$が理想です。
 
 (d) $A$ は *ネーター 環* であり、$m(A)$ は *プリンシパル* です。
-(e) $A$ は *ネーター の評価環* です。
+(e) $A$ は *ネーター の評価額環* です。
 
-命題 8 は、(a) が (b)、(d)、および (e) を意味することを示します。 $A$ が主イデアル整域の場合、$A$ はローカル (*代数*、章 VII, § 1, no. 3、定理 2) であるため、$m(A) = Au$ と $A$ のゼロ以外のすべての理想は形 $Au^n$ になります。したがって $\bigcap_{n=1}^\infty m(A)^n = 0$;これは、(b) が (c) を意味することを示しています。 一方、(d) は (c) (章 III, § 3, no. 2、系 ～ 命題 5) を意味します。 § 1, no. 4 の命題 2 により、(c) は (a) を意味します。 したがって、条件 (a)、(b)、(c)、(d) は同等であり、(e) を意味します。 最後に、(e) が成り立つと仮定し、(b) が成り立つことを示しましょう。次の補題を証明すれば十分です。
+命題 8 は、(a) が (b)、(d)、および (e) を意味することを示しています。 $A$ が主イデアル整域の場合、$A$ はローカル (*代数*、章 VII, § 1, no. 3、定理) であるため、$m(A) = Au$ と $A$ のゼロ以外のすべての理想は形 $Au^n$ になります。 2);したがって、$\bigcap_{n=1}^\infty m(A)^n = 0$;これは、(b) が (c) を意味することを示しています。一方、(d) は (c) (章 III, § 3, no. 2、系 ～ 命題 5) を意味します。 命題 2 of § 1, no. 4 によると、(c) は (a) を意味します。したがって、条件 (a)、(b)、(c)、(d) は同等であり、(e) を意味します。最後に、(e) が成り立つと仮定し、(b) が成り立つことを示しましょう。次の補題を証明すれば十分です。
 
 #### 補題 1 {#ac-vi-s3-lem-1 .statement tag=04TM}
 
-※$A$を評価環とします。有限生成されたねじれのない $A$ モジュールはすべて無料です。有限に生成されたすべての理想 $\mathfrak{a}$ または $A$ が主です。ねじれのないすべての $A$ モジュールは平らです。*
+※$A$を評価額環とします。有限生成されたねじれのない $A$ モジュールはすべて無料です。有限に生成されたすべての理想 $\mathfrak{a}$ の $A$ が主です。ねじれのないすべての $A$ モジュールは平らです。*
 
-$E$ を有限生成されたねじれのない $A$ モジュールとし、$x_1, \ldots, x_n$ を数で最小となる$E$ の生成元とします。それらが線形独立であることを示します。 $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in A$) が $x_i$ の間の自明ではない関係である場合、$A$ の主な理想の集合は包含によって完全に順序付けられるため、$a_i$ の 1 つ、たとえば $a_1$ と割るの他のすべてが含まれます。 (§ 1, no. 2, 定理 1); 関係は自明ではないため、$a_1 \neq 0$ となります。 $E$ にはねじれがないため、$a_1$ によって割るが得られます。これは、$a_1 = 1$ と仮定することになります。しかし、$x_1$ は$n$ の最小指標とは反対に、$x_2, \ldots, x_n$ の線形結合になります。したがって、$E$ は無料です。
+$E$ を有限生成されたねじれのない $A$ モジュールとし、$x_1, \ldots, x_n$ を数で最小となる$E$ の生成元とします。それらが線形独立であることを示します。 $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in A$) が $x_i$ 間の非自明な関係である場合、$a_i$ の 1 つ、たとえば $a_1$、割るは、$A$ の主な理想の集合が包含によって完全に順序付けられるため、他のすべてが含まれます。 (§ 1, no. 2、定理 1); 関係は自明ではないため、$a_1 \neq 0$ となります。 $E$ にはねじれがないため、$a_1$ によって割るが得られます。これは、$a_1 = 1$ と仮定することになります。しかし、$x_1$ は、$n$ の最小指標とは反対に、$x_2, \ldots, x_n$ の線形結合になります。したがって、$E$ は無料です。
 
-特に、$A$ の有限生成されたすべての理想 $\mathfrak{a}$ が主であり、系の生成元の $\mathfrak{a}$ のすべての元は、そのうちの 1 つである倍数です。 章 I, § 2, no. 4 の命題 3 は、ねじれのないすべての $A$ モジュールが平坦であることを示しています。
+特に、有限生成されたすべての理想 $\mathfrak{a}$ の $A$ は主であり、系の生成元の $\mathfrak{a}$ のすべての元は、そのうちの 1 つである倍数です。 章 I, § 2, no. 4 の命題 3 は、ねじれのないすべての $A$ モジュールが平坦であることを示しています。
 
 ### 練習問題 {#ac-vi-s3-exercises}
 

@@ -21,16 +21,16 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: 486e13b2c64d043980f9aca5ea9806eabdf2d963bf31747990bdf38f798f15c3
+content_sha256: 369c58197bbe455e604a71db5a9c69a2faa272689b539890f4ecec919cf4b288
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
 translation_method: google
 source_content_sha256: 9a8748db60c9fd84976b7413bf30ec32e2a4b17c04a06e968ec301e544a51660
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: ac7c185de54e587a61f9404e8cdb10ba6b4de8e3f0390c6f1568ce54a8d24b91
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 8。 リー群 $\mathbf{R}$ と $\mathbf{Q}_p$ を超えました
@@ -155,7 +155,7 @@ $H \cap (\phi(V_1)\phi(V'_2)) = \phi(V_1)$ となるような、$V_2$ に 0 の�
 
 主張が false であると仮定します。次に、$V_1$ の数列 $(x_n)$ と $V_2 - \{0\}$ の数列 $(y_n)$ が 0 になる傾向があり、すべての $n$ で $\phi(x_n)\phi(y_n) \in H$ が得られます。次に(c)で$\phi(y_n) \in H$。
 
-$K = \mathbf{Q}_p$ の場合、$V_2$ は $\mathfrak{k}$ の加法部分群であり、すべての $a \in V_2$ とすべての $p \in \mathbf{Z}$ に対して $\phi(pa) = \phi(a)^p$ であると想定できます。 次に、すべての $\lambda \in \mathbf{Z}$ に対して $\phi(\lambda y_1) \in H$ となり、すべての $\lambda \in \mathbf{Z}_p$ に対して連続性が生じます。 The mapping $f : \lambda \mapsto \phi(\lambda y_1)$ of $\mathbf{Z}_p$ into $G$ is analytic and takes its values in $H$ and $(T_0f)(1) = y_1$. したがって$y_1 \in \mathfrak{h}$となり、これは不合理です。 したがって、$\mathbf{Q}_p$の場合には定理が成立します。
+$K = \mathbf{Q}_p$ の場合、$V_2$ は $\mathfrak{k}$ の加法部分群であり、すべての $a \in V_2$ とすべての $p \in \mathbf{Z}$ に対して $\phi(pa) = \phi(a)^p$ であると想定できます。 次に、すべての $\lambda \in \mathbf{Z}$ に対して $\phi(\lambda y_1) \in H$ となり、すべての $\lambda \in \mathbf{Z}_p$ に対して連続性が生じます。 $\mathbf{Z}_p$ の $G$ へのマッピング $f : \lambda \mapsto \phi(\lambda y_1)$ は分析的であり、その値を $H$ と $(T_0f)(1) = y_1$ に取ります。 したがって$y_1 \in \mathfrak{h}$となり、これは不合理です。 したがって、$\mathbf{Q}_p$の場合には定理が成立します。
 
 $K = \mathbf{R}$ の場合、$V_2$ が接続され、$y_n$ 属するから $\frac{1}{2}V_2 - \{0\}$ が接続されていると想定できます。 必要に応じて $(y_n)$ の部分列を取得することで、$\lambda_n^{-1}y_n$ が $V_2 - \{0\}$ の元 $y$ になる傾向があるようなゼロ以外のスカラーの数列 $(\lambda_n)$ を見つけることができます。 数列 $(\lambda_n)$ は 0 になる傾向があります。 $\lambda \in \mathbf{R}$ を $\lambda y \in \frac{1}{2}V_2$ となるようにします。 $\exp(\lambda y) \in H$ であることを証明します。 すべての $n$ に対して $\lambda \lambda_n^{-1}y_n \in \frac{1}{2}V_2$ であると想定できます。 $k_n \in \mathbf{Z}$ を、$|\lambda - k_n \lambda_n|$ が 0 になる傾向があるとします。 $n$ 十分大きい、$(\lambda - k_n \lambda_n)\lambda_n^{-1}y_n \in \frac{1}{2}V_2$、したがって $k_n y_n \in \frac{1}{2}V_2$ の場合。 したがって、$h$ 整数および $0 \leq |h| \leq |k_n|$ は $\exp(h y_n) \in H$ になります ($|h|$ の帰納法に見られるように)。 それから
 $$
@@ -171,11 +171,11 @@ $G$ が有限次元 (練習問題 12) であると想定されていない場合
 
 *$G'$を局所的にコンパクトな群、$G$を$\mathbf{R}$(それぞれ$\mathbf{Q}_p$)上の有限次元リー群、$f$を$G'$から$G$への連続射とする。 $f$ の核が離散である場合、$G'$ は有限次元の実数 (それぞれ $p$ 進数) リー群です。*
 
-$G'$ には $e$ のコンパクト近傍 $V$ が存在し、$f|V$ は $G$ のコンパクト部分空間に対する $V$ の同写写像となります。 $U$ が $G$ の $e$ の十分に小さいオープン近傍である場合、定理 2 の仮説は $H = f(V) \cap U$ で満たされます。 したがって、$H$ は $G$ の嘘部分群の細菌です。 $W$ を $f|V$ の下の $H$ の逆像とします。 すると、$W$は$G'$の$e$の近傍になります。 $W$ に、$H$ から $(f|W)^{-1}$ によって転送された解析多様体構造を与えます。 For all $z \in G'$, the mapping $x \mapsto f(z)x f(z)^{-1}$ of $G$ into $G$ is analytic; hence there exists an open neighbourhood $W'$ of $e$ in $W$ such that the mapping $x' \mapsto zx'z^{-1}$ of $W'$ into $W$ is analytic. By Proposition 18 of § 1, no. 9, there exists on $G'$ a Lie group structure which induces on a sufficiently small open neighbourhood of $e$ the same analytic structure as $W$ and hence the same topology as the initial topology on $G'$.
+$G'$ には $e$ のコンパクト近傍 $V$ が存在し、$f|V$ は $G$ のコンパクト部分空間に対する $V$ の同写写像となります。 $U$ が $G$ の $e$ の十分に小さいオープン近傍である場合、定理 2 の仮説は $H = f(V) \cap U$ で満たされます。 したがって、$H$ は $G$ の嘘部分群の細菌です。 $W$ を $f|V$ の下の $H$ の逆像とします。 すると、$W$は$G'$の$e$の近傍になります。 $W$ に、$H$ から $(f|W)^{-1}$ によって転送された解析多様体構造を与えます。 すべての $z \in G'$ について、$G$ の $G$ へのマッピング $x \mapsto f(z)x f(z)^{-1}$ は分析的です。したがって、$W$ には $e$ の開いた近傍 $W'$ が存在し、$W'$ から $W$ へのマッピング $x' \mapsto zx'z^{-1}$ が分析的になります。 § 1, no. 9 の命題 18 により、$G'$ には、$e$ の十分に小さな開いた近傍に$W$ と同じ解析構造、したがって$G'$ の初期トポロジーと同じトポロジーを誘導するリー群構造が存在します。
 
 #### 系 2 {#lie-iii-s8-thm-2-cor-2 .statement tag=0AIA}
 
-*Let $G$ be a finite-dimensional Lie group over $K$, $H$ a subgroup of $G$, $V$ an open neighbourhood of $e$ in $G$ and $(M_i)_{i \in I}$ a family of analytic manifolds over $K$; for all $i \in I$, let $f_i$ be a $K$-analytic mapping of $V$ into $M_i$ such that*
+*$G$ を、$K$ 上の有限次元リー群、$H$ $G$ の部分群、$V$ $G$ の $e$ の開いた近傍、および $(M_i)_{i \in I}$ $K$ 上の解析多様体群とする。すべての $i \in I$ について、$f_i$ を次のような $V$ から $M_i$ への $K$ 分析マッピングとします*
 
 $$
 H \cap V = \{ x \in V \mid f_i(x) = f_i(e) \text{ for all } i \in I \}.

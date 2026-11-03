@@ -29,16 +29,16 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: f61dd7196ebd1d0d7de441d13f1c5cddfad929ed0ea5aef3151b3ddc04a82a3b
+content_sha256: 0dee078d9504f7aa3ae7e4c7428958bfa6c4415bb906308a3c051ce8291938b1
 translated_from: content/en/lie/IX/05_s5_conjugacy_classes.md
 translation_method: google
 source_content_sha256: 67b7c3bf0335e1b8bfbe872472e7bd56c7dbf0d52741cf029286e2edabbf3e06
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 869440ac291d1fa758cff2cde3ecb7922143ec5ecb03cf6b72c383574f0913c2
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 5。 共役類
@@ -55,9 +55,9 @@ $b) Z(g)_0$ は G の最大値トーラスです。
 
 Gの正則元の集合はGで開いていて密です。
 
-この段落の残りの部分では、G で規則的な G (それぞれ T) の点の $G_r$ (それぞれ $T_r$) 集合で表します。 An element $g$ of G belongs to $T_r$ if and only if $Z(g)_0$ is equal to T; every element of $G_r$ is conjugate to an element of $T_r($§2, no. 2, Th. 2).
+この段落の残りの部分では、G で規則的な G (それぞれ T) の点の $G_r$ (それぞれ $T_r$) 集合で表します。 G の要素 $g$ は、$Z(g)_0$ が T と等しい場合に限り、$T_r$ に属します。 $G_r$ のすべての要素は、$T_r($§2, no. 2 の要素と共役です。 2)。
 
-An element $t$ of T belongs to $T_r$ if and only if $t^{\alpha}\not= 1$ for every root $\alpha \in R(G,T)$; consequently, T **--** $T_r$ is the union of the subtori Ker $\alpha$ for $\alpha$ in $R(G,T)$.
+T の要素 $t$ は、すべての根 $\alpha \in R(G,T)$ について $t^{\alpha}\not= 1$ である場合に限り、$T_r$ に属します。従って、T **--** $T_r$ は、$R(G,T)$ の $\alpha$ に対するサブトリ Ker $\alpha$ の和集合です。
 
 #### 命題 1 {#lie-ix-s5-prop-1 .statement tag=01DV}
 
@@ -77,7 +77,7 @@ $Z(g)$ が G の最大トーラスである場合、G の元 $g$ は非常に規
 
 ### 2. 部屋と床の間
 
-exp $x$ が正規になるように元 $x\in \mathfrak{t}$ の $\mathfrak{t}_r$ 集合で表し、その他の場合は語属するから $T_r$ までとなります。 An element $x$ of $\mathfrak{t}$ belongs to $\mathfrak{t}$ **--** $\mathfrak{t}_r$ if and only if there exists a root $\alpha \in R(G,T)$ such that $\delta (\alpha )(x)\in 2\pi i\mathbf{Z}$. 各根 $\alpha \in R(G,T)$ と各整数 $n$ について、$\delta (\alpha )(x) = 2\pi in$ となるように $x\in \mathfrak{t}$ の $H_{\alpha ,n}$ 集合で表します。 $H_{\alpha ,n}$ は $\mathfrak{t}$ の単数超平面と呼ばれ、$\mathfrak{t}$ **--** $\mathfrak{t}_r$ は単数超平面の和集合です。 $\mathfrak{t}$のアルコーブは、$\mathfrak{t}_r$の接続された成分であり、部屋は、原点（つまり、$H_{\alpha ,0}=$カー$\delta (\alpha ),\alpha \in R(G,T)$）を通過する単数形超平面の和集合の$\mathfrak{t}$の補語の接続された成分です。
+exp $x$ が正規になるように元 $x\in \mathfrak{t}$ の $\mathfrak{t}_r$ 集合で表し、その他の場合は語属するから $T_r$ までとなります。 $\mathfrak{t}$ の要素 $x$ は、$\delta (\alpha )(x)\in 2\pi i\mathbf{Z}$ のようなルート $\alpha \in R(G,T)$ が存在する場合に限り、$\mathfrak{t}$ **--** $\mathfrak{t}_r$ に属します。 各根 $\alpha \in R(G,T)$ と各整数 $n$ について、$\delta (\alpha )(x) = 2\pi in$ となるように $x\in \mathfrak{t}$ の $H_{\alpha ,n}$ 集合で表します。 $H_{\alpha ,n}$ は $\mathfrak{t}$ の単数超平面と呼ばれ、$\mathfrak{t}$ **--** $\mathfrak{t}_r$ は単数超平面の和集合です。 $\mathfrak{t}$のアルコーブは、$\mathfrak{t}_r$の接続された成分であり、部屋は、原点（つまり、$H_{\alpha ,0}=$カー$\delta (\alpha ),\alpha \in R(G,T)$）を通過する単数形超平面の和集合の$\mathfrak{t}$の補語の接続された成分です。
 
 $\Gamma (T)\subset \mathfrak{t}$**--** $\mathfrak{t}_r$ があります。 節ベクトル (§4, no. 5) によって生成された $\Gamma (T)$ の $N(G,T)$ 部分群で示されます。 §4, no. 6、商 $\Gamma (T)/N(G,T)$ の提案 11 によると、G の基本的な群と同一視できます。
 
@@ -217,7 +217,7 @@ c) G が単純接続の場合、$u$ の固定点の集合が接続されます�
 
 主張 a) は提案 3 の特定のケース $x=e$ です。ここで G が単純接続されていると仮定し、b) と c) を証明します。 $x$ を $u$ によって固定された G の元とし、$g$ を $u$ によって固定され、$x$ と通勤する G の正則元とする（提案 3）。 $g$ のセントラライザー K は G の最大トーラス (no. 2、注意 2) であり、$u$、含む $x$ および $g$ で安定します。コル著no. 2 の提案 2 の 3 では、$g\in$ exp A と $0\in A$ となるようなL(K) の一意のアルコーブ A が存在します。 $g$ は $u, L(u)$ 葉 A によって固定されるため、L(K) 含む A のチャンバーも安定します。これは b) を証明します。さらに、$u$ で固定された K の点の集合が (補題 3) と含む $x$ および $e$ に接続されているため、$c) ($ 一般位相、第 3 章。 I, §11, no. 1、提案 2)。
 
-一般的な場合に b) を証明する必要があります。 ここで、$\widetilde{D}(G)$ が D(G) の普遍的なカバーであり、$f: \widetilde{D}(G)\rightarrow G$ が正規の射である場合、$f\circ \widetilde{u}=u\circ f$ となる $\widetilde{D}(G)$ の自己同型 $\widetilde{u}$ が存在します。 If $\widetilde{K}$ is a maximal torus of $\widetilde{D}(G)$ and $\widetilde{C}$ a chamber of $L( \widetilde{K})$, stable under $\widetilde{u}$ (this exists by what has already been proved), there exists (§2, no. 3, Remark 2) a unique maximal torus K of G and a unique chamber C of L(K) such that $\widetilde{K} =f^{-1}(K)$ and $\widetilde{C} = L(f)^{-1}$(C), and we see immediately that K and C are stable under $u$, hence assertion b) in the general case.
+一般的な場合に b) を証明する必要があります。 ここで、$\widetilde{D}(G)$ が D(G) の普遍的なカバーであり、$f: \widetilde{D}(G)\rightarrow G$ が正規の射である場合、$f\circ \widetilde{u}=u\circ f$ となる $\widetilde{D}(G)$ の自己同型 $\widetilde{u}$ が存在します。 $\widetilde{K}$ が $\widetilde{D}(G)$ の最大トーラスであり、$\widetilde{C}$ が $L( \widetilde{K})$ のチャンバーであり、$\widetilde{u}$ で安定している場合 (これはすでに証明されていることによって存在します)、G の固有の最大トーラス K と固有のチャンバー C が存在します (§2, no. 3、備考 2)。 L(K) は $\widetilde{K} =f^{-1}(K)$ と $\widetilde{C} = L(f)^{-1}$(C) であり、K と C が $u$ の下で安定していることがすぐに分かります。したがって、一般的な場合には主張 b) になります。
 
 #### 系 1 {#lie-ix-s5-thm-1-cor-1 .statement tag=01EB}
 
@@ -251,7 +251,7 @@ H をコンパクト・リー群、N を H の尐能部分群とします。す�
 
 #### 例 {#lie-ix-s5-n3-exa-1 .statement tag=01EF}
 
-$G =\mathbf{U}(n,\mathbf{C})$ を取ります。 We shall see later that the subgroup of diagonal matrices in G is a maximal torus of G and that its normalizer is the set of monomial matrices (Algebra, Chap. II, §10, no. 7, Example II) in G.
+$G =\mathbf{U}(n,\mathbf{C})$ を取ります。 G の対角線行列の部分群が G の最大トーラスであり、その正規化子が G の単項式行列 (代数、Chap. II, §10, no. 7、例 II) の集合であることは後でわかります。
 
 $\Phi$ が有限次元複素数ベクトル空間 V 上の分離正のエルミート形で、$\Gamma$ が $\mathbf{U}(\Phi )$ の冪能部分群である場合、基底が存在すると結論する V のうち、元の $\Gamma$ のうち行列は単項式です (「ブリヒトフェルトの定理」)。
 
@@ -339,7 +339,7 @@ a) $g\in G, t\in T, x\in \mathfrak{t}$ を、$\overline{g}$ を $G/T$ の $g$ �
 
 (ii ビス) 写像 $f$ (それぞれ $\varphi$ ) は点 $(\overline{g}, t)$ (それぞれ $(\overline{g}, x)$ ) でのエタールです。
 
-b) The map $f_r$ (resp. $\varphi_r$, resp. $\varphi_A$) makes $(G/T)\times T_r$ (resp. $(G/T)\times \mathfrak{t}_r$, resp. $(G/T)\times A$) a principal covering of $G_r$ with group W (resp. $W'_a$, resp. $H_A$).
+b) マップ $f_r$ (それぞれ $\varphi_r$、それぞれ $\varphi_A$) は、$(G/T)\times T_r$ (それぞれ $(G/T)\times \mathfrak{t}_r$、それぞれ $(G/T)\times A$) をグループ W (それぞれ $W'_a$、それぞれ $H_A$) で $G_r$ の主カバーにします。
 
 a) (i) および (i の 2) の同値が明確である。 (ii) と (ii bis) のそれは、関係 dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G) から続きます。 補題 4 までに、$f$ は $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id) の場合に限り、点 $(\overline{g}, t)$ で水没します。これは、$t$ が規則的であることを意味します。最後に、$\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ は点 $(\overline{g}, x)$ でのエタールであるため、$f$ が点 $(\overline{g}$ でエタールである場合に限り、経験値 $x$)、これは、$x$ 属するから $\mathfrak{t}_r$ を意味します。
 

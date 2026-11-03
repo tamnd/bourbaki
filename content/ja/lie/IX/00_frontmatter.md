@@ -18,10 +18,10 @@ translation_method: google
 source_content_sha256: d772a4eed722fd519004dbad5aaa9600eb4ce21471f1c7d17164928c49095430
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-dda8bbaf
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: afe353fb148fb5672204ebea5eb08bf7a4c41fb04f185bfb9f3996fa55cad31b
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 IX コンパクト実リー群群

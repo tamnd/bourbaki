@@ -13,21 +13,21 @@ pdf_pages: 0388-0390
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8f20ed78ca6efb505895250207b77f54f8410824ebff9911831bedd72863c504
+content_sha256: 78f3649a0e7b08a5763c1f47912eb59e1a7977c4afd93f73d2a27bb02610e55f
 translated_from: content/en/ens/ER/08_s8_scales_of_sets_structures.md
 translation_method: google
 source_content_sha256: 1729e7f56fb13a5cfb4b19ed30304bcfc4d735d7f99cdf7c9579aa41117e6f82
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 60386d77a165a6f2fbcb5acabe5c9fe55fa73fe483b6346db59fbe0fdcef6a43
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 8. 集合のスケール。 構造
 
-1. たとえば、3 つの*異なる* 集合 E、F、G が与えられると、部分集合の集合を取得するか、それらの 1 つだけで積を形成するか、または特定の順序で取得された 2 つの積を形成することによって、それらから他の形他の集合を得ることができます。 このようにして、*12* 個の新しい集合を取得します。 これらを元の 3 つの集合 E、F、G に追加すると、既に得られた集合を与えるものを省略して、これら 15 の集合で同じ演算を繰り返すことができます。等々。 一般に、この手順 (明示的なスキームに従って) で得られる集合のいずれか 1 つは、E、F、G で * 基底* として集合* の * スケールに属すると言われます。
+1. たとえば、3 つの *異なる* 集合 E、F、G が与えられると、部分集合の集合を取得するか、それらの 1 つだけで積を形成するか、特定の順序で取得された 2 つの積を形成することによって、それらから他の形他の集合を得ることができます。このようにして、*12* 個の新しい集合を取得します。これらを元の 3 つの集合 E、F、G に追加すると、既に得られた集合を与えるものを省略して、これら 15 の集合で同じ演算を繰り返すことができます。等々。一般に、この手順 (明示的なスキームに従って) で得られる集合のいずれかは、E、F、G で *基底* として集合* の * スケールに属すると言われます。
 
 たとえば、M、N、P をこのスケールの 3 つの集合とし、$R\{x,y,z\}$ をそれぞれ M、N、P の一般的な元 $x$、$y$、$z$ の間の *関係* とします。次に、R $M \times N \times P$ の定義する部分集合、したがって (正規の対応を介して) $(M \times N) \times P$ の部分集合、つまり $\mathfrak{P}((M \times N) \times P)$ の元になります。したがって、同じスケールで複数の集合の元の間に *関係* を与えることは、同じスケールで他の集合の *元* を与えることと同じです。同様に、たとえば、M の写像を N に与えると、(この写像のグラフを考慮すると) $M \times N$ の部分集合、つまり $\mathfrak{P}(M \times N)$ の元が与えられることになり、これもスケールでは集合になります。最後に、(たとえば) M の 2 つの元を与えることは、積集合 $M \times M$ で 1 つの元を与えることと同じになります。
 
@@ -53,7 +53,7 @@ $$C \cup \overline{C}^{-1} = E \times E.$$
 
 *トポロジー 構造* は、この状況の例を提供します。それらはいくつかの等価な公理系を使って定義できますが、そのうちの 2 つ系が特に便利です (*一般位相*、章 I, § 1 を参照)。
 
-5. E、F、G を 3 つの集合とし、E、F、G の*全単射* 写像がそれぞれ他の 3 つの集合 E'、F'、G' に与えられると仮定します。 Since we know how to define the *canonical extensions* of bijective mappings to sets of subsets (§ 2, no. 9) and to product sets (§ 3, no. 14), we can define, step by step, the *extension* of the given bijections to two sets M, M′ constructed respectively according to the *same scheme* in the scale of sets based on E, F, G, and that based on E′, F′, G′. $f$ を、こうして得られた M' 上の M の全単射とします。 $\sigma$ が M の部分集合 T の元である E、F、G 上の構造である場合、$f(\sigma)$ は、E の与えられた全単射によって、構造 $\sigma$ を E′, F′, G′ に*輸送*することによって得られる構造であると言います。 E'、F の上に F、G' の上に G。 E、F、G の構造 $\sigma$ に関連するすべての命題は、(適切な拡大を使用して) E'、F'、G' の構造 $f(\sigma)$ に関連する命題を生じます。
+5. E、F、G を 3 つの集合とし、E、F、G の*全単射* 写像がそれぞれ他の 3 つの集合 E'、F'、G' に与えられると仮定します。 部分集合の集合 (§ 2, no. 9) と積集合 (§ 3, no. 14) への全単射写像の *標準拡張* を定義する方法を知っているので、E、F、G に基づく集合のスケールと E'、F'、G' に基づく集合のスケールで *同じスキーム* に従ってそれぞれ構築された 2 つの集合 M、M' への与えられた全単射の *拡張* を段階的に定義できます。 $f$ を、こうして得られた M' 上の M の全単射とします。 $\sigma$ が M の部分集合 T の元である E、F、G 上の構造である場合、$f(\sigma)$ は、E の与えられた全単射によって、構造 $\sigma$ を E′, F′, G′ に*輸送*することによって得られる構造であると言います。 E'、F の上に F、G' の上に G。 E、F、G の構造 $\sigma$ に関連するすべての命題は、(適切な拡大を使用して) E'、F'、G' の構造 $f(\sigma)$ に関連する命題を生じます。
 
 逆に、E、F、G 上の構造 $\sigma$ と E'、F'、G' 上の構造 $\sigma'$ は、E、F、G の全単射によって $\sigma$ をそれぞれ E'、F'、G' に *輸送*することによって $\sigma'$ が得られる場合、 *同型* であると言われます。これらの写像は、$\sigma'$ 上に $\sigma$ の *同型* を構成するといわれています。
 
@@ -67,8 +67,8 @@ $$C \cup \overline{C}^{-1} = E \times E.$$
 
 6. 集合のスケールで集合 M の部分集合 T を定義する公理の系が与えられた場合、前にこれらの公理が満たすどれである構造について言えば、集合 T が *必ずしも空ではない* ことを確認する必要があります。そうでなければ、公理は *矛盾している * または *矛盾している * と言われるでしょう。
 
-7. 集合で構造を定義する公理の系が任意の集合に対して記述できる場合がありますが、これらの 2 つの構造満たすの公理を考慮し、2 つの異なる集合 E、F で定義すると、公理から次のことがわかります。 構造 (それらが存在する場合) は必然的に *同型* (これは特に E と F が *等価* であることを意味します)。 次に、構造満たすの理論は *一価* であると言われます。それ以外の場合、それらは *多価* であると言われます。
+7. 集合で構造を定義する公理の系が、任意の集合に対して記述できる場合がありますが、これらの 2 つの構造満たすの公理を考慮し、2 つの異なる集合 E、F で定義すると、公理から次のことがわかります。 構造 (それらが存在する場合) は必然的に *同型* (これは特に E と F が *等価* であることを意味します)。そして、これらの公理は構造満たすの理論は *一価* であると言われます。それ以外の場合、それらは *多価* であると言われます。
 
-The theory of integers, the theory of real numbers, and classical Euclidean geometry are univalent theories; the theory of ordered sets, group theory, and topology are multivalent theories. 多価理論の研究は、現代数学を古典数学から区別する最も顕著な特徴です。
+整数の理論、実数の理論、および古典的なユークリッド幾何学は一義的な理論です。 順序集合、群、理論、位相の理論は多価理論です。多価理論の研究は、現代数学を古典数学から区別する最も顕著な特徴です。
 
 [^1]: The reader may have observed that the indications given here are left rather vague; they are not intended to be other than heuristic, and indeed it seems scarcely possible to state general and precise definitions for structures outside of the framework of formal mathematics (see Chapter IV).

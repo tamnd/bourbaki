@@ -65,16 +65,16 @@ subsections:
       pdf_page: 328
 statements: 53
 exercises: 36
-content_sha256: 41af84d302efb363e86cf2d2b317fb73ca805a752d74783f86aa29ce2e0d2c22
+content_sha256: 51ad5420f57411737b3a24d70e65e1df110ff81ead72515025f9893f217e6ec3
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 translation_method: google
 source_content_sha256: 1339023eced66ef1b9e52222dbf004f549e42eec4f38ebac19c97f31df6e572b
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 21efbfd8997de74f05d5b3e7fc4530e2a115b3422d23d9822380621821c3a3fe
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 1。 群を注文しました。可分性
@@ -227,7 +227,7 @@ $$
 
 ここでは、代数で重要な部分を担う、定義する特定の順序付け群を行います。通常、これらの群に使用される記法は乗法です。したがって、加算法記法で以前に得られた結果をこれらの群に適用することは、乗法記法への変換を前提としています。これは読者にとって何ら困難ではありません。 *この切断を通して、文字 A は整域を表し、K は分数* (*l*、p. 116) の体を表します。
 
-In the multiplicative group $\mathbf{K}^*$ of nonzero elements of $\mathbf{K}$, the set P of nonzero elements of A is closed under multiplication, since A is a ring. したがって、定義するは$x^{-1}y \in P$による$\mathbf{K}^*$の事前順序関係、つまり«$y = zx$となるような$z \in P$が存在します»、これにより、$\mathbf{K}^*$は群*より前に順序付けられます(乗算的に書かれます)(*VI*, p. 3、提案 3)。 A (I、p. 97) の元に関連する用語を $\mathbf{K}^*$、関係 $x^{-1}y \in P$ に拡張すると、次のように表すこともできます: *x 割る y*、または x は y* の *因子、または y は x* の *倍数 (環 A と比較);そして、環 A に対する $\mathbf{K}^*$ の *割り算関係* を関係 $x^{-1}y \in P$ と呼びます。 関係 « x '割る y » は $x \mid y$ とその否定 $x \nmid y$ で表されます。 P の元は、1* の *倍数に他なりません。
+$\mathbf{K}$ の非ゼロ要素の乗法群 $\mathbf{K}^*$ では、A が環であるため、A の非ゼロ要素の集合 P は乗算で閉じられます。 したがって、定義するは$x^{-1}y \in P$による$\mathbf{K}^*$の事前順序関係、つまり«$y = zx$となるような$z \in P$が存在します»、これにより、$\mathbf{K}^*$は群*より前に順序付けられます(乗算的に書かれます)(*VI*, p. 3、提案 3)。 A (I、p. 97) の元に関連する用語を $\mathbf{K}^*$、関係 $x^{-1}y \in P$ に拡張すると、次のように表すこともできます: *x 割る y*、または x は y* の *因子、または y は x* の *倍数 (環 A と比較);そして、環 A に対する $\mathbf{K}^*$ の *割り算関係* を関係 $x^{-1}y \in P$ と呼びます。 関係 « x '割る y » は $x \mid y$ とその否定 $x \nmid y$ で表されます。 P の元は、1* の *倍数に他なりません。
 
 #### 注意 1 {#alg-vi-s1-n5-rem-1 .statement tag=06WR}
 
@@ -237,7 +237,7 @@ $\mathbf{K}^*$ の割り算関係は、本質的に特定の環 A に依存し�
 
 ($\mathbf{K}^*$だけではなく) $\mathbf{K}$ の関係 $x \mid y$ のときどき拡大する定義から元の対までを実行します。この関係は、« 次のような $z \in A$ が存在することを意味します。 $y = zx$ »;したがって、すべての $x \in K$ に対して $x \mid 0$ が得られます。 これにより、 制限を使用せずに次の結果を述べることができます。 if $x \mid y$ and $x \mid z$ then $x \mid (y - z)$; $x \mid y$ と $x \nmid z$ の場合は $x \nmid (y - z)$ です。 同様に、すべての対応する用語を拡大する処理できます。
 
-To obtain an *order relation* (No. 2) from the divisibility relation we have to pass to the quotient group of $\mathbf{K}^*$ by the subgroup $\mathbf{A}^*$ of elements $x \in \mathbf{K}^*$ such that $x \mid 1$ and $1 \mid x$; these are the elements of P which are *divisors of 1*, that is to say the *invertible* elements of $A$; by abuse of language they are often called the units of the ring A. 剰余群 $\mathbf{K}^*/\mathbf{A}^*$ は、順序付けられた群になります。 $\mathbf{A}^*$ の同じ剰余類に属する属するである $\mathbf{K}^*$ の 2 つの元 $x$ と $y$ は *関連* であると言われます。これは、$x \mid y$ と $y \mid x$ を意味します。 一方、y が x を除算せずに x 割る y である場合、x は厳密には割る y、または x は y の厳密な因子である、または y は x の厳密な倍数であると言います。
+割り算関係から *順序関係* (No. 2) を取得するには、$x \mid 1$ と $1 \mid x$ のような要素 $x \in \mathbf{K}^*$ の部分群 $\mathbf{A}^*$ によって商群 $\mathbf{K}^*$ を渡す必要があります。これらは、1* の *約数である P の要素、つまり $A$ の *可逆*要素です。言葉の乱用により、それらはリング A のユニットと呼ばれることがよくあります。 剰余群 $\mathbf{K}^*/\mathbf{A}^*$ は、順序付けられた群になります。 $\mathbf{A}^*$ の同じ剰余類に属する属するである $\mathbf{K}^*$ の 2 つの元 $x$ と $y$ は *関連* であると言われます。これは、$x \mid y$ と $y \mid x$ を意味します。 一方、y が x を除算せずに x 割る y である場合、x は厳密には割る y、または x は y の厳密な因子である、または y は x の厳密な倍数であると言います。
 
 K は A の分数の体であるため、$K^*/A^*$ は *フィルターされた* 群であることに注意してください (VI、p. 4、提案 4)。
 
@@ -249,7 +249,7 @@ $A \neq K$ の場合、主分数イデアル $\neq \{0\}$ は、環とみなさ�
 
 $x \equiv x'$ (mod y) は $zx \equiv zx'$ (mod y) 〜でない限り $z \in A$ を意味するものではないことに注意してください。したがって、$\mathbf{Q}$ では、$\mathbf{Z}$ と比較して、$4 \equiv 2$ (mod 2) はありますが、$2 \equiv 1$ (mod 2) はありません。
 
-関係 $x | y$ は明らかに $(x) \supset (y)$ と同等です。 The mapping $x \mapsto (x)$ from $K^*$ onto the set $\mathscr{P}^*$ of principal fractional ideals $\neq (0)$ of K thus defines, on passing to the quotient, a bijective mapping from $K^*/A^*$ onto $\mathscr{P}^*$; translating the group structure of $K^*/A^*$ to $\mathscr{P}^*$ by means of this mapping, we are led to define the product of two principal fractional ideals (x) and (y) to be the ideal (xy ), which depends only on (x) and (y). この法則と位数関係 $(x) \supset (y)$ を備えた集合 $\mathscr{P}^*$ は、$K^*/A^*$ と同型の順序付き群です。 慣例により、上記の写像を介して $K^*/A^*$ を同一視する $\mathscr{P}^*$ とします。
+関係 $x | y$ は明らかに $(x) \supset (y)$ と同等です。 したがって、K の主分数イデアル $\neq (0)$ の集合 $\mathscr{P}^*$ への $K^*$ からの写像 $x \mapsto (x)$ は、商に渡されると、$K^*/A^*$ から $\mathscr{P}^*$ への全単射写像を定義します。この写像によって $K^*/A^*$ の群構造を $\mathscr{P}^*$ に変換すると、2 つの主な分数イデアル (x) と (y) の積がイデアル (xy ) であると定義され、これは (x) と (y) にのみ依存します。 この法則と位数関係 $(x) \supset (y)$ を備えた集合 $\mathscr{P}^*$ は、$K^*/A^*$ と同型の順序付き群です。 慣例により、上記の写像を介して $K^*/A^*$ を同一視する $\mathscr{P}^*$ とします。
 
 関係 « x 割る y » は、正の整数の場合、x が y より小さいことを意味し、対応するには $(x) \supset (y)$ が含まれ、理想 (x) が理想 (y) より « 大きい» ことに注意してください。たとえば、7 は 91 よりも倍数 » が多いことに注意することで、この« 位数逆転 » を念頭に置くことができます。
 
@@ -259,11 +259,11 @@ K のすべての元を拡大する関係 $x | y$ にしても、この関係は
 
 ### 6. 小学校演算注文済み群
 
-Let H be a subgroup of an ordered group G; it is clear that the restriction to H of the ordering of G is compatible with the group structure of H; we will always take H to be ordered in this way, unless otherwise stated. P が G の正の元の集合である場合、H の正の元の集合は H ∩ P です。
+H を順序付き群 G の部分群とします。 G の順序の H への制限が H の群構造と互換性があることは明らかです。 〜でない限り別途記載がある場合は、常にこの方法で H を注文します。 P が G の正の元の集合である場合、H の正の元の集合は H ∩ P です。
 
 $(G_\alpha)$ を順序付けられた群の族とします。 順序集合の積の定義 (集合理論, III, p. 137) 積群 G = $\prod G_\alpha$ には順序付け関係 « G の 2 つの元の間の $(x_\alpha) \leq (y_\alpha)$ » は定義により、« すべての α の $x_\alpha \leq y_\alpha$ » と同じになります。この順序が G の群構造と互換性があるのは明らかです。この順序により、G は順序付き群になり、これを順序付き群 $G_\alpha$ の積と呼びます。 G の正の元は、成分がすべて正である元です。すべての因子 $G_\alpha$ が同じ順序の群 H と同一である場合、G は添字集合 I から H への写像の群 H'、2 つの間の関係 « f ≤ g » I から H への写像は、« f(α) ≤ g(α) for all α ∈ I » と同じになります。正の写像は、正の値のみを取るものです。順序群の家族 $(G_\alpha)$ の直和は、その積 (II、p. 202) の順序部分群として定義されます。
 
-Let $(G_i)_{i \in I}$ be a family of ordered groups whose index set I is well ordered: recall (Set Theory, III, p. 157) that an order relation, called the lexicographic ordering, is defined on the product set G = $\prod G_i$, the relation « $(x_i) < (y_i)$ » between two elements of G being by definition the same as « if β is the smallest of the indices i such that x_i ≠ y_i, then x_β < y_β ». 完全に順序集合のよく順序付けられた族の積は、辞書編集的な順序に従って完全に順序付けされていることを思い出してください。 一般的なケースでは、すぐに検証されるように、G の辞書編集的な順序はその群構造と互換性があります。この順序を装備すると、群 G は順序付き群となり、順序付き群 $(G_i)$ のよく順序付けられた族の辞書編集的積と呼ばれます。
+$(G_i)_{i \in I}$ を、インデックス集合 I が適切に順序付けされている順序付けされたグループの族とします。辞書編集的順序付けと呼ばれる順序関係が積集合 G = $\prod G_i$ で定義され、G の 2 つの要素間の関係 « $(x_i) < (y_i)$ » は、定義により « if β が最小である場合と同じです (集合理論、III、p. 157) を思い出してください。 x_i ≠ y_i、つまり x_β < y_β » となるようなインデックス i の計算。 完全に順序集合のよく順序付けられた族の積は、辞書編集的な順序に従って完全に順序付けされていることを思い出してください。 一般的なケースでは、すぐに検証されるように、G の辞書編集的な順序はその群構造と互換性があります。この順序を装備すると、群 G は順序付き群となり、順序付き群 $(G_i)$ のよく順序付けられた族の辞書編集的積と呼ばれます。
 
 #### 注意 1 {#alg-vi-s1-n6-rem-1 .statement tag=06WT}
 
@@ -275,13 +275,13 @@ Let $(G_i)_{i \in I}$ be a family of ordered groups whose index set I is well or
 
 ### 7. 注文数群のうち増加する準同型
 
-G と G' を 2 つの順序群とします。 G の基礎となる加法群から G' の加法群への準同型 f のうち、増加する写像、つまり x ≤ y が f(x) ≤ f(y) を意味するようなものを考慮することは理にかなっています。 関係 $f(y - x) = f(y) - f(x)$ のため、G から G' への増加する準同型は、そのような準同型の下で G の正の元の像が G' の正の元であるという事実によって特徴付けられるということになります。 P (または P') が G (または G') の正の元の集合を表す場合、これは $f(P) \subset P'$ と書くことができます。 It is clear that the canonical injection of a subgroup G into an ordered group G', and the projection of a product of ordered groups onto one of its factors, are increasing homomorphisms.
+G と G' を 2 つの順序群とします。 G の基礎となる加法群から G' の加法群への準同型 f のうち、増加する写像、つまり x ≤ y が f(x) ≤ f(y) を意味するようなものを考慮することは理にかなっています。 関係 $f(y - x) = f(y) - f(x)$ のため、G から G' への増加する準同型は、そのような準同型の下で G の正の元の像が G' の正の元であるという事実によって特徴付けられるということになります。 P (または P') が G (または G') の正の元の集合を表す場合、これは $f(P) \subset P'$ と書くことができます。 部分群 G の順序群 G' への正準注入、および順序群の積のその因子の 1 つへの射影によって、準同型性が増加していることは明らかです。
 
 同型 (VI, p. 2) $f$ の順序付き群 G から順序付き群 G' は、$f$ とその逆準同型の両方が増加するとなるような G から G' への全単射準同型です。 語 $f(P) = P'$。
 
 G の基礎となる群から G' の基礎となる同型が逆同型が増加するでなくても増加するになる可能性があります。これは、たとえば、$G = G'$ の場合、$f$ が G 上の ID 写像である場合、および $P \subset P'$ ではなく $P \neq P'$ である場合に当てはまります。したがって、$\mathbf{Z}$ では、$P'$ を (通常の) 正の整数の集合とし、P を偶数正の整数の集合とすることができます。
 
-(DIV) K を、位数 2 の体 $F_2$ 上の有理数写像 $F_2(X)$ の体とします。 The divisibility relations relative to the rings $F_2[X] = A'$ and $F_2[X^2, X^3] = A$ define two distinct ordered group structures on $K^*$, such that $A \subset A'$ (they are ordered group structures since 1 is the only unit in A and the only unit in A').
+(DIV) K を、位数 2 の体 $F_2$ 上の有理数写像 $F_2(X)$ の体とします。 環$F_2[X] = A'$と$F_2[X^2, X^3] = A$に関する可分性関係は、$K^*$に$A \subset A'$のような2つの異なる順序群構造を定義します（1がAの唯一の単位であり、A'の唯一の単位であるため、これらは順序群構造です）。
 
 ### 8. 順序付けられた Suprema と infima 群
 
@@ -656,11 +656,11 @@ b) $G$ は格子順序付けされており、次の条件を満たします。
 c) $G$ は条件 (MIN) を満たし、$G$ のすべての既約元は性質 (P) を持ちます。
 d) $G$ はその既約元によって生成され、$G$ のすべての既約元には性質 (P) があります。
 
-まず、a) が b) を意味することを示しましょう。 群 $\mathbf{Z}^{(I)}$ は、完全に順序付けされた群の直和として、格子順序付けされます。 On the other hand let $E$ be a nonempty set of positive elements of $\mathbf{Z}^{(I)}$ and let $x = \sum n_\iota e_\iota$ be an element of $E$ (where $(e_\iota)$ denotes the natural basis of $\mathbf{Z}^{(I)}$) ; there are a finite number $\prod (n_\iota + 1)$ of elements $y$ of $\mathbf{Z}^{(I)}$ such that $0 \leq y \leq x$, so the set $F$ of elements of $E$ which are less than or equal to $x$ is $a$ fortiori finite ; since it is nonempty, it contains a minimal element (Set Theory, III, p. 170, Cor. 2), which is clearly a minimal element of $E$.
+まず、a) が b) を意味することを示しましょう。 群 $\mathbf{Z}^{(I)}$ は、完全に順序付けされた群の直和として、格子順序付けされます。 一方、$E$ を $\mathbf{Z}^{(I)}$ の正の要素の空でない集合とし、$x = \sum n_\iota e_\iota$ を $E$ の要素とする (ここで、$(e_\iota)$ は $\mathbf{Z}^{(I)}$ の自然基底を表す)。 $0 \leq y \leq x$ となるような $\mathbf{Z}^{(I)}$ の要素 $y$ は有限数 $\prod (n_\iota + 1)$ あるので、 $x$ 以下である $E$ の要素の集合 $F$ は $a$ fortiori finite です。それは空ではないので、最小要素 (集合論、III、p. 170、Cor. 2) を含みます。これは明らかに $E$ の最小要素です。
 
 提案 14 により、b) が c) を意味することは明らかです。c) が d) を意味することを示しましょう。 $G$はフィルタリングされているので、既約元の和である$G$の正の元の集合$F$が$G_+ - \{0\}$に等しいことを確認するだけで十分です（VI、p. 4、提案4）。これが真実でない場合、(MIN) から、$G_+ - \{0\}$ の $F$ の補数は最小値元 $a$ を持つことになります。 定義 $a$ は既約ではないため、厳密に正である 2 つの元 $x$ と $y$ のうち和も既約ではありません。 $x < a$と$y < a$から、これらの元属するから$F$となり、既約元の和も同様となり、$a$も同様ということになり、矛盾しています。最後に、d) は提案 15 による a) を意味します。
 
-We will apply Th. 2 to the theory of divisibility in principal ideal domains (VII, p. 4) and in unique factorisation domains (AC, VII, § 3), as well as to the study of ideals in a Dedekind ring (AC, VII, § 2).
+Thを適用します。 主イデアル整域 (VII、p. 4) および独自の因数分解領域 (AC、VII, § 3) での可分性の 2 から理論まで、およびデデキント環 (AC、VII, § 2) における理想の研究まで。
 
 ### 練習問題 {#alg-vi-s1-exercises}
 

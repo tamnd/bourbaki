@@ -20,10 +20,10 @@ translation_method: google
 source_content_sha256: eb0becbc2526534b10f85e1b4fe17a074453ecdcedbae7c3b662e74114fec4b6
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-b071ad41
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 323cc276b0590b6b5cca72d1cb5d50e3ee4e2d64e2aa329bfe653ddf785944c2
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## 章 I 記述の形式数学

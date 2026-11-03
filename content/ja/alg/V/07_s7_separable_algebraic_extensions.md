@@ -50,16 +50,16 @@ subsections:
       pdf_page: 160
 statements: 39
 exercises: 5
-content_sha256: 1e692ad4f7679e6a211d95ee0191e0a2e4ac37246179ced7b893682d3b088f05
+content_sha256: 57e19917aac9f82cbb096dc56fbaf8d555b07f52fb8e1625cf123b4a91c52d32
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
 translation_method: google
 source_content_sha256: 6efc8ea4adffb96079107da26548dc480864f6a35c138ba6f08fe110dc1e0941
 translation_model: google-translate
 translation_quality: low
-translation_run: translate-ja-eeeca2ef
+translation_run: translate-ja-ca1d9542
 glossary_version: 34
 glossary_terms_sha256: 46e0cc97fb2d182d3ddff1baf6d321cb1b8790fd36a45f33dde0b7747222ef60
-prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
+prompt_sha256: 3ac95f6e208e19a9d7d5f609717955a23e34b6c1b333d157a4be9fc4e8dd1285
 ---
 
 ## § 7。可分代数拡大
@@ -72,7 +72,7 @@ prompt_sha256: 08edf70d9b0078e74c7aa63f53b40428d18738541ef4c70faa747dfd1f79d030
 
 — *E を K の代数拡大とします。このとき、K 上の有限次数の E のすべての部分拡張 F が K* 上のエタール代数である場合、E は (K 上で) 分離可能であると言われます ($V$, p. 28, 定義 1)。
 
-E を K の有限次数の拡大とします。 エタール代数のすべての部分代数はエタール ($V$、p. 30、提案 3) であるため、E が $K$ の分離拡大であると仮定すること、または E が $K$ 上のエタール代数であると仮定することも同じになります。
+E を K の有限次数の拡大とします。エタール代数のすべての部分代数はエタール ($V$、p. 30、提案 3) であるため、E が $K$ の分離拡大であると仮定することも、E がエタールであると仮定することも同じになります。 $K$を超えた代数。
 
 #### 命題 1 {#alg-v-s7-prop-1 .statement tag=06K1}
 
@@ -127,7 +127,7 @@ $$
 
 #### 注意 {#alg-v-s7-n2-rem-1 .statement tag=06K6}
 
-— 1) L を K の拡大とし、f を K[X] の非定数多項式とする。 By *e)* of Prop. 3 and V, p. 32, Cor. 2 it comes to the same to suppose that f is separable, whether considered as element of K[X] or of L[X]. 一方、f は K[X] では既約であるが、L[X] では既約ではないということもよく起こります。
+— 1) L を K の拡大とし、f を K[X] の非定数多項式とする。 提案 3 の *e)* および V、p. 32、Cor. 2 K[X] の要素として考えても、L[X] の要素として考えても、f が分離可能であると仮定することは同じになります。 一方、f は K[X] では既約であるが、L[X] では既約ではないということもよく起こります。
 
 2) $f \in K[X]$ とします。私たちは、$f = f_1 \ldots f_m$ となるような既約多項式 $f_1, \ldots, f_m$ が $K[X]$ に存在することを知っています (IV, p. 13, 提案 13)。 $\Omega$ を $K$ の代数閉包とします。既約多項式 $g \in K[X]$ は、$\Omega$ のそれぞれの根の $K$ にわたる最小多項式であるため、$K[X]$ の 2 つの異なる既約多項式には $\Omega$ の共通の根がありません。提案 3 の条件 d) は、多項式 $f_1, \ldots, f_m$ が分離可能でペアごとに区別できる場合に限り、$f$ が分離可能であることを示しています。
 
@@ -168,11 +168,11 @@ $\Omega$ を $K$ の代数閉包とします。分離可能である場合、$f$
 
 #### 命題 5 {#alg-v-s7-prop-5 .statement tag=06KB}
 
-— E を K の拡大、x を K 上の代数 E の x 元、f を K 上の x の最小多項式とする。 Then the following conditions are equivalent:
-a) x is separable over K;
-b) the polynomial f is separable;
-c) x is a simple root of f.
-The equivalence of a) and b) follows from Prop. 3, that of b) and c) from Prop. 3 and 4 (cf. V, p. 37 and 38).
+— E を K の拡大、x を K 上の代数 E の元、f を K 上の x の最小多項式とします。すると、次の条件は等価です。
+a) x は K 上で分離可能です。
+b) 多項式 f は分離可能です。
+c) x は f の単純な根です。
+a) と b) の同値は提案 3 から、b) と c) のそれは提案 3 と 4 から続きます (cf. V、p. 37 および 38)。
 
 #### 系 1 {#alg-v-s7-prop-5-cor-1 .statement tag=06KC}
 
@@ -333,7 +333,7 @@ K が標数 $p \neq 0$ の場合に a) を証明すれば十分です。 x を E
 
 — E と K' を、同じ K の拡大に含まれる K の 2 つの拡大とします。E が K に対して代数的であり、E における K の相対可分代数閉包を E で表すとします。そのとき、$K'(E_s)$ は $K'(E)$ における K' の相対可分代数閉包です。
 
-For $K'(E_s)$ is a separable algebraic extension of K' by Prop. 10 (V, p. 42); since E is p-radical over E_s, the extension $K'(E)$ of $K'(E_s)$ is p-radical (V, p. 25, Cor.). ここで、提案 13 を適用するだけで十分です。
+なぜなら、$K'(E_s)$ は、提案 10 (V, p. 42) による K' の分離可能な代数拡張です。 E は E_s に対して p-ラジカルであるため、$K'(E_s)$ の拡張子 $K'(E)$ は p-ラジカル (V, p. 25, Cor.) です。 ここで、提案 13 を適用するだけで十分です。
 
 #### 系 2 {#alg-v-s7-prop-13-cor-2 .statement tag=06KU}
 
@@ -357,7 +357,7 @@ E を K と E の代数拡大、K における E の相対 p ラジカル閉包 
 
 — *K を体とします。 K の可分代数閉包、または (言葉の乱用により) 分離閉包によって、代数的で K 上で可分であり、体 E が可分に閉じているような K の任意の拡大 E を理解できます。
 
-When K is perfect, there is complete identity between the notions of separable closure and algebraic closure of K (*V*, p. 36, Prop. 2 and p. 43, Cor. 1).
+K が完全な場合、K の分離閉包の概念と K の代数閉包の間には完全な同一性が存在します (*V*、p. 36、Prop. 2 と p. 43、Cor. 1)。
 
 #### 命題 14 {#alg-v-s7-prop-14 .statement tag=06KY}
 
@@ -387,7 +387,7 @@ E と E' を K の 2 つの分離閉包とします。K が可分に閉じてい
 
 ### 9. 分離可能と分離不可能次数の拡大の有限次数
 
-E を K の有限次数の拡大および K の $\Omega$ 代数閉包とします。 (V, p. 31) $[E : K]_s$ と書かれた K 上の E の *分離可能な次数* によって、E の $\Omega$ への K 準同型性の数が理解できることを思い出してください。
+E を K の有限次数の拡大と K の $\Omega$ 代数閉包とします。(V、p. 31)、$[E : K]_s$ と書かれた K 上の E の * 分離可能な次数* によって、E の K 準同型の数が理解できることを思い出してください。 $\Omega$。
 
 #### 命題 15 {#alg-v-s7-prop-15 .statement tag=06L2}
 
